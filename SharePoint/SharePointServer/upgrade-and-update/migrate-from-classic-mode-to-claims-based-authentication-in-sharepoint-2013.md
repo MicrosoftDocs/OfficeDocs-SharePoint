@@ -48,7 +48,7 @@ In SharePoint 2010 Products, complete the following procedure to convert an exis
     
   - Administrators group on the server on which you are running PowerShell cmdlets.
     
-  - You must read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050) (https://go.microsoft.com/fwlink/p/?LinkId=193050). 
+  - You must read [about_Execution_Policies](/previous-versions//dd347641(v=technet.10)) (https://go.microsoft.com/fwlink/p/?LinkId=193050). 
     
   - Add memberships that are required beyond the minimums above.
     
@@ -103,7 +103,7 @@ After you complete the previous procedures, you might experience one or more of 
   
  **To migrate a claims-based SharePoint 2010 Products web application to SharePoint 2013**
   
-1. In SharePoint 2013, create a claims-based web application. For more information, see [Create claims-based web applications in SharePoint Server](/SharePoint/security-for-sharepoint-server/create-claims-based-web-applications).
+1. In SharePoint 2013, create a claims-based web application. For more information, see [Create claims-based web applications in SharePoint Server](../security-for-sharepoint-server/create-claims-based-web-applications.md).
     
 2. Attach the two existing SharePoint 2010 Products content databases to the newly created SharePoint 2013 claims-based web application. For more information, see [Attach or detach content databases in SharePoint Server](../administration/attach-or-detach-content-databases.md).
     
@@ -125,14 +125,14 @@ In SharePoint 2013, complete the following procedure to convert an existing Shar
     
   - Administrators group on the server on which you are running PowerShell cmdlets.
     
-  - You must read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050) (https://go.microsoft.com/fwlink/p/?LinkId=193050). 
+  - You must read [about_Execution_Policies](/previous-versions//dd347641(v=technet.10)) (https://go.microsoft.com/fwlink/p/?LinkId=193050). 
     
   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/SharePoint/security-for-sharepoint-server/create-claims-based-web-applications). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](../security-for-sharepoint-server/create-claims-based-web-applications.md). 
   
 2. In the SharePoint 2013 environment, on the **Start** menu, click **All Programs**.
     
@@ -196,7 +196,7 @@ In SharePoint 2013, complete the following procedures to first create a classic-
     
   - Administrators group on the server on which you are running PowerShell cmdlets.
     
-  - You must read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050) (https://go.microsoft.com/fwlink/p/?LinkId=193050). 
+  - You must read [about_Execution_Policies](/previous-versions//dd347641(v=technet.10)) (https://go.microsoft.com/fwlink/p/?LinkId=193050). 
     
   - Add memberships that are required beyond the minimums above.
     
@@ -260,7 +260,7 @@ In SharePoint 2013, complete the following procedure to create a classic-mode we
     
   - Administrators group on the server on which you are running PowerShell cmdlets.
     
-  - You must read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050) (https://go.microsoft.com/fwlink/p/?LinkId=193050). 
+  - You must read [about_Execution_Policies](/previous-versions//dd347641(v=technet.10)) (https://go.microsoft.com/fwlink/p/?LinkId=193050). 
     
   - Add memberships that are required beyond the minimums above.
     
@@ -291,4 +291,3 @@ For more information, see [New-SPWebApplication](/powershell/module/sharepoint-s
 [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14))
   
 [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14))
-

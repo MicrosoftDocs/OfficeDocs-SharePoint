@@ -21,7 +21,7 @@ description: "How to create a SharePoint Server site collection in an existing w
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
-A site collection is a grouping of websites under a common top-level site that have the same owner and share administration settings, for example, permissions. When you create a site collection, a top-level site is automatically created in the site collection. You can then create one or more subsites below the top-level site. For info about creating site collections in SharePoint, see [Create a site collection](/sharepoint/create-site-collection).
+A site collection is a grouping of websites under a common top-level site that have the same owner and share administration settings, for example, permissions. When you create a site collection, a top-level site is automatically created in the site collection. You can then create one or more subsites below the top-level site. For info about creating site collections in SharePoint, see [Create a site collection](../../SharePointOnline/create-site-collection.md).
   
     
 ## Before you begin
@@ -109,4 +109,3 @@ You typically use Microsoft PowerShell to create a site collection when you want
 #### Concepts
 
 [Manage site collections in SharePoint Server](manage-site-collections.md)
-

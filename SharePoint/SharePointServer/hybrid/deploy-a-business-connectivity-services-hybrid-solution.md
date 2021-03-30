@@ -62,7 +62,7 @@ In this scenario, you will learn how to:
     
 2. An [OAuth](https://go.microsoft.com/fwlink/?LinkID=214783) token from the Azure AD Service. This is used for user authentication to the SharePoint Server farm. You gain access to the Azure AD service with your SharePoint in Microsoft 365 subscription. It is a security token service that manages security tokens for users of SharePoint in Microsoft 365. 
     
-4. Business Connectivity Services sends an HTTPS request to the published endpoint for the data source. The request includes the client certificate from Secure Store, the OAuth token, and a request for the data. The reverse proxy authenticates the request by using the client certificate and forwards it to the on-premises SharePoint Server farm. For more info about publishing SharePoint in Microsoft 365 to the internet, see [SharePoint in Microsoft 365 publishing solution guide](https://go.microsoft.com/fwlink/?LinkId=253268) in the Forefront Technical Library. 
+4. Business Connectivity Services sends an HTTPS request to the published endpoint for the data source. The request includes the client certificate from Secure Store, the OAuth token, and a request for the data. The reverse proxy authenticates the request by using the client certificate and forwards it to the on-premises SharePoint Server farm. For more info about publishing SharePoint in Microsoft 365 to the internet, see [SharePoint in Microsoft 365 publishing solution guide](/previous-versions/tn-archive/dd857299(v=technet.10)) in the Forefront Technical Library. 
     
 5. The on-premises farm retrieves the user's cloud identity from the OAuth token (for example, user123@contoso.com), and through the Client Side Object Model (CSOM) code, maps it to the on-premises identity (for example, contoso\user123). The on-premises credentials are mapped to credentials that have access to the external data via a Secure Store target application. 
     
@@ -99,5 +99,4 @@ To configure the BCS hybrid solution:
 [Install and configure SharePoint Server hybrid](install-and-configure-sharepoint-server-hybrid.md)
 #### Other Resources
 
-[Introducing OData: Data Access for the Web, the cloud, mobile devices, and more](https://go.microsoft.com/fwlink/p/?LinkId=245650)
-
+[Introducing OData: Data Access for the Web, the cloud, mobile devices, and more](/dotnet/framework/wcf/)

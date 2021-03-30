@@ -28,10 +28,10 @@ The best practices in this article are ordered based on the sequence in which th
 > [!NOTE]
 > If you plan to use SQL Server Business Intelligence components in a SharePoint Server 2016 farm you must use SQL Server 2016 CTP 3.1 or later. You can now download SQL Server 2016 CTP 3.1 or later to use the SQL Server Power Pivot for SharePoint add-in. You can also use Power View by installing SQL Server Reporting Services (SSRS) in SharePoint-integrated mode and the SSRS front-end add-in from the SQL Server installation media. 
   
-For more information, download the new [Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016](https://go.microsoft.com/fwlink/p/?LinkID=717977&amp;clcid=0x409) white paper. For details about configuring and deploying business intelligence in a multiple server SharePoint Server 2016 farm, download [Deploying SQL Server 2016 PowerPivot and Power View in a Multi-Tier SharePoint 2016 Farm](https://go.microsoft.com/fwlink/p/?LinkID=723106&amp;clcid=0x409).
+For more information, download the new [Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016](https://go.microsoft.com/fwlink/p/?LinkID=717977&amp;clcid=0x409) white paper. For details about configuring and deploying business intelligence in a multiple server SharePoint Server 2016 farm, download [Deploying SQL Server 2016 PowerPivot and Power View in a Multi-Tier SharePoint 2016 Farm](/sql/sql-server/install/install-sql-server-business-intelligence-features).
   
 > [!NOTE]
-> If you plan to use SQL Server Business Intelligence components in a SharePoint Server 2013 farm you must use SQL Server 2012 with Service Pack 1 (SP1) or SQL Server 2014. For information about SQL Server 2012 with SP1 BI and SharePoint Server 2013, see [Install SQL Server BI Features with SharePoint 2013 (SQL Server 2012 SP1)](https://go.microsoft.com/fwlink/?LinkID=402859&amp;clcid=0x409). For more information about SQL Server 2014 and SharePoint Server 2013, see [Install SQL Server 2014 Business Intelligence Features](https://go.microsoft.com/fwlink/?LinkID=402863&amp;clcid=0x409). 
+> If you plan to use SQL Server Business Intelligence components in a SharePoint Server 2013 farm you must use SQL Server 2012 with Service Pack 1 (SP1) or SQL Server 2014. For information about SQL Server 2012 with SP1 BI and SharePoint Server 2013, see [Install SQL Server BI Features with SharePoint 2013 (SQL Server 2012 SP1)](/previous-versions/sql/sql-server-2012/jj218795(v=sql.110)). For more information about SQL Server 2014 and SharePoint Server 2013, see [Install SQL Server 2014 Business Intelligence Features](/sql/sql-server/install/install-sql-server-business-intelligence-features). 
   
 > [!IMPORTANT]
 > Best practices in this article apply to the Relational Database Management System (RDBMS) of SQL Server with SharePoint Server. 
@@ -74,19 +74,19 @@ For more information about these SQL Server settings and options, see [Set SQL S
 
 We recommend that you plan for, and harden the database server before you deploy SharePoint Server. For more information, see:
   
-- [Securing SQL Server](https://go.microsoft.com/fwlink/?LinkID=809089&amp;clcid=0x409)
+- [Securing SQL Server](/sql/relational-databases/security/securing-sql-server)
     
 - [Configure SQL Server security for SharePoint Server](../security-for-sharepoint-server/configure-sql-server-security-for-sharepoint-environments.md)
     
-- [Securing SharePoint: Harden SQL Server in SharePoint Environments](https://blogs.technet.com/b/rycampbe/archive/2013/10/14/securing-sharepoint-harden-sql-server-in-sharepoint-environments.aspx)
+- [Securing SharePoint: Harden SQL Server in SharePoint Environments](/archive/blogs/rycampbe/securing-sharepoint-harden-sql-server-in-sharepoint-environments)
     
-- [Security Center for SQL Server Database Engine and Azure SQL Database](https://go.microsoft.com/fwlink/?LinkID=800298&amp;clcid=0x409)
+- [Security Center for SQL Server Database Engine and Azure SQL Database](/sql/relational-databases/security/security-center-for-sql-server-database-engine-and-azure-sql-database)
     
 ## Configure database servers for performance and availability
 
 As is the case with front-end servers and application servers, the configuration for database servers affects how well SharePoint Server performs. Some databases have to be on the same server as other databases. Conversely, some databases cannot be on the same server as other databases. For more information, see [Description of MinRole and associated services in SharePoint Servers 2016 and 2019](description-of-minrole-and-associated-services-in-sharepoint-server-2016.md) and [Storage and SQL Server capacity planning and configuration (SharePoint Server)](storage-and-sql-server-capacity-planning-and-configuration.md).
   
-For guidance about highly available databases that use mirroring, see [Database Mirroring (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=718062&amp;clcid=0x409).
+For guidance about highly available databases that use mirroring, see [Database Mirroring (SQL Server)](/sql/database-engine/database-mirroring/database-mirroring-sql-server?viewFallbackFrom=sql-server-2014).
   
 ### SQL Server Failover Clustering and Always On Availability Groups
 
@@ -97,11 +97,11 @@ SQL Server 2012 introduced the AlwaysOn Availability Groups feature. This featur
   
 AlwaysOn Availability Groups require a Windows Server Failover Clustering (WSFC) cluster. A WSFC resource group is created for every availability group that is created. For more information, see the following resources:
   
-- [AlwaysOn Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=718032&amp;clcid=0x409)
+- [AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server?viewFallbackFrom=sql-server-2014)
     
-- [Overview of AlwaysOn Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=809090&amp;clcid=0x409)
+- [Overview of AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/overview-of-always-on-availability-groups-sql-server)
     
-- [Failover Clustering and Always On Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=800301&amp;clcid=0x409)
+- [Failover Clustering and Always On Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/failover-clustering-and-always-on-availability-groups-sql-server)
     
 - [Configure SQL Server AlwaysOn Availability Groups for SharePoint Server](configure-an-alwayson-availability-group.md)
     
@@ -159,7 +159,7 @@ Following are recommendations to proactively manage the growth of data and log f
 - Enable database autogrowth as a protective measure to make sure that you do not run out of space in data and log files. Consider the following: 
     
     > [!IMPORTANT]
-    > You must factor in the performance and operations issues associated with using autogrowth. For more information, see [Considerations for the "autogrow" and "autoshrink" settings in SQL Server](https://go.microsoft.com/fwlink/p/?LinkID=117750). 
+    > You must factor in the performance and operations issues associated with using autogrowth. For more information, see [Considerations for the "autogrow" and "autoshrink" settings in SQL Server](/troubleshoot/sql/admin/considerations-autogrow-autoshrink). 
   
   - The default settings for a new database are to grow by 1 MB increments. Because this default setting for autogrowth results in increases in the size of the database, do not rely on the default setting. Instead, use the guidance provided in [Set SQL Server options](storage-and-sql-server-capacity-planning-and-configuration.md#Section6_3).
     
@@ -182,17 +182,17 @@ Take a comprehensive view of resource monitoring. Do not limit monitoring to res
   
 When one or more of the server resources seems slow or overburdened, consider the following performance guidelines based on the current and projected workload.
   
-- [Monitor and Tune for Performance](https://go.microsoft.com/fwlink/?LinkID=718063&amp;clcid=0x409)
+- [Monitor and Tune for Performance](/sql/relational-databases/performance/monitor-and-tune-for-performance?viewFallbackFrom=sql-server-2014)
     
-- [Performance Monitoring and Tuning Tools](https://go.microsoft.com/fwlink/?LinkID=809092&amp;clcid=0x409)
+- [Performance Monitoring and Tuning Tools](/sql/relational-databases/performance/performance-monitoring-and-tuning-tools)
     
-- [Server Performance and Activity Monitoring](https://go.microsoft.com/fwlink/?LinkID=809093&amp;clcid=0x409)
+- [Server Performance and Activity Monitoring](/sql/relational-databases/performance/server-performance-and-activity-monitoring)
     
-- [Windows Performance Monitor](https://go.microsoft.com/fwlink/?LinkID=809094&amp;clcid=0x409)
+- [Windows Performance Monitor](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc749249(v=ws.11))
     
 ## Use backup compression to speed up backups and reduce file sizes
 
-Backup compression can speed up SharePoint backup operations. It is available in SQL Server Standard and Enterprise Edition. If you set the compression option in your backup script or configure SQL Server to compress by default, you can significantly reduce the size of your database backups and shipped logs. For more information, see [Backup Compression (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=717243&amp;clcid=0x409) and [Data Compression](https://go.microsoft.com/fwlink/?LinkID=718120&amp;clcid=0x409), or [Enable Compression on a Table or Index](https://go.microsoft.com/fwlink/?LinkID=798229&amp;clcid=0x409)
+Backup compression can speed up SharePoint backup operations. It is available in SQL Server Standard and Enterprise Edition. If you set the compression option in your backup script or configure SQL Server to compress by default, you can significantly reduce the size of your database backups and shipped logs. For more information, see [Backup Compression (SQL Server)](/sql/relational-databases/backup-restore/backup-compression-sql-server?viewFallbackFrom=sql-server-2014) and [Data Compression](/sql/relational-databases/data-compression/data-compression?viewFallbackFrom=sql-server-2014), or [Enable Compression on a Table or Index](/sql/relational-databases/data-compression/enable-compression-on-a-table-or-index?viewFallbackFrom=sql-server-2014)
   
 ## Acknowledgements
 
@@ -211,5 +211,4 @@ The SharePoint Server Content Publishing team thanks the following contributors 
 [Storage and SQL Server capacity planning and configuration (SharePoint Server)](storage-and-sql-server-capacity-planning-and-configuration.md)
 #### Other Resources
 
-[Securing SharePoint: Harden SQL Server in SharePoint Environments](https://blogs.technet.com/b/rycampbe/archive/2013/10/14/securing-sharepoint-harden-sql-server-in-sharepoint-environments.aspx)
-
+[Securing SharePoint: Harden SQL Server in SharePoint Environments](/archive/blogs/rycampbe/securing-sharepoint-harden-sql-server-in-sharepoint-environments)

@@ -119,13 +119,13 @@ For example, assume that temporary employees in your organization are given Acti
 The filter would join the clauses by using Any apply (OR).
   
 > [!NOTE]
-> In AD DS, **userAccountControl** is a bitmask that represents several useful aspects about the status of the user account. For a list of some of the more frequently-used filters that you can create by using the **userAccountControl** attribute, see [How to use the UserAccountControl flags to manipulate user account properties](https://go.microsoft.com/fwlink/p/?LinkId=217163). 
+> In AD DS, **userAccountControl** is a bitmask that represents several useful aspects about the status of the user account. For a list of some of the more frequently-used filters that you can create by using the **userAccountControl** attribute, see [How to use the UserAccountControl flags to manipulate user account properties](/troubleshoot/windows-server/identity/useraccountcontrol-manipulate-account-properties). 
   
 You can't create a filter that is based on membership in a directory service group, such as a distribution list. For alternatives to importing users based on group membership, see [Inability to import users based on group membership](https://go.microsoft.com/fwlink/p/?LinkId=220892).
   
 ### Connections to business systems
 
-To import properties from a business system, you will need an external content type that brings the property value from the external system into SharePoint Server 2013. This article does not cover how to create an external content type. That task is usually done by a developer. This article describes the data that you must collect and give to the developer, and tells you what to do with the information that you receive. For developer information, see [External content types in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=269635).
+To import properties from a business system, you will need an external content type that brings the property value from the external system into SharePoint Server 2013. This article does not cover how to create an external content type. That task is usually done by a developer. This article describes the data that you must collect and give to the developer, and tells you what to do with the information that you receive. For developer information, see [External content types in SharePoint 2013](/sharepoint/dev/general-development/external-content-types-in-sharepoint).
   
 You can use the [External content type planning worksheet](https://go.microsoft.com/fwlink/p/?LinkId=268734) to specify the external content types to be created. Go through the User Profile Properties Planning worksheet that you completed when you read the article [Plan user profiles in SharePoint Server](plan-user-profiles.md). In the External Content Type Planning worksheet, create one row for each user profile property that comes from a business system. Fill in the first three columns of each row according to the instructions in the following table.
   
@@ -291,4 +291,3 @@ To download the connection planning worksheet, the external content type plannin
 [Administer the User Profile service in SharePoint Server](user-profile-service-administration.md)
   
 [User Profile service overview](../install/user-profile-service-overview.md)
-

@@ -26,13 +26,13 @@ Category pages and catalog item pages are page layouts that you can use to show 
 <a name="BKMK_Before"> </a>
 
 > [!NOTE]
->  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](https://docs.microsoft.com/sharepoint/install/browser-support-planning-0)> [Accessibility guidelines in SharePoint](https://docs.microsoft.com/sharepoint/accessibility-guidelines)> [Accessibility in SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/accessibility-in-sharepoint)> [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506).
+>  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](../install/browser-support-planning-0.md)> [Accessibility guidelines in SharePoint](../accessibility-guidelines.md)> [Accessibility in SharePoint](/sharepoint/dev/general-development/accessibility-in-sharepoint)> [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](/windows/win32/wintouch/windows-touch-gestures-overview).
   
 Before you assign a category page and a catalog item page in term store management, verify the following:
   
 - The publishing site is using managed navigation. By default, site collections that are created by using the Publishing Portal Site Collection template use managed navigation.
     
-- You have created a navigation term set in term store management as described in [Create and manage terms in a term set](https://docs.microsoft.com/sharepoint/create-and-manage-terms).
+- You have created a navigation term set in term store management as described in [Create and manage terms in a term set](../../SharePointOnline/create-and-manage-terms.md).
     
 - You have created a category page and a catalog item page.
     
@@ -72,5 +72,4 @@ By default, when you assign a category page to a term, the page that you specify
 
 #### Other Resources
 
-[Blog post: Assign a category page and a catalog item page to a term](https://blogs.technet.com/b/tothesharepoint/archive/2013/04/17/stage-8-assign-a-category-page-and-a-catalog-item-page-to-a-term.aspx)
-
+[Blog post: Assign a category page and a catalog item page to a term](/archive/blogs/tothesharepoint/stage-8-assign-a-category-page-and-a-catalog-item-page-to-a-term)

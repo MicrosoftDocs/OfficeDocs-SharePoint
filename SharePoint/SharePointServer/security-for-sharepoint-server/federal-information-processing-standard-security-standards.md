@@ -27,7 +27,7 @@ SharePoint Server uses several Windows encryption algorithms for computing hash 
 
 Because SharePoint Server uses these algorithms, it does not support the Windows security policy setting that requires FIPS compliant algorithms for encryption and hashing. This Windows security policy is managed through the **FIPSAlgorithmPolicy** registry key in Windows, which is described in the "Configure FIPS policy for a mixed environment" section of the following topic: 
   
-- [Additional System Countermeasures](https://go.microsoft.com/fwlink/p/?LinkId=209130)
+- [Additional System Countermeasures](/previous-versions/windows/it-pro/windows-vista/cc766392(v=ws.10))
     
 FIPS 140-2 defines security standards that the United States and Canadian governments use to validate security levels for products that implement cryptography. For more information about FIPS 140-2, see the following references:
   
@@ -40,5 +40,3 @@ The goal of FIPS is to provide a standardized way to ensure the security and pri
 The FIPS contribution to FISMA certification is the strength of encryption used for security purposes. Security-related encryption within SharePoint Server is performed by using FIPS-compliant cipher suites.
   
 For additional information about FISMA see,[Federal Information Security Management Act (FISMA) Implementation Project](https://go.microsoft.com/fwlink/?LinkId=242329)
-  
-

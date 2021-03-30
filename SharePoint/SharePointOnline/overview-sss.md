@@ -24,11 +24,11 @@ description: "Introduction to the SharePoint Success Site"
 
 The SharePoint Success Site is a ready to deploy and customizable SharePoint communication site that helps your organization maximize the adoption of SharePoint. The SharePoint Success Site is designed to support new SharePoint Site owners in creating high-impact sites to meet the goals of your organization.
 
-The SharePoint Success Site builds on the power of [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) which allows you to use Microsoft-maintained playlists for training purposes. You can also create custom playlists to meet the unique training requirements of your organization. If you are already using M365 learning pathways and don't want to provision the SharePoint Success Site, you can enable the [SharePoint Success Site playlist into learning pathways](https://docs.microsoft.com/SharePoint/add-sss-cdn).
+The SharePoint Success Site builds on the power of [Microsoft 365 learning pathways](/office365/customlearning/) which allows you to use Microsoft-maintained playlists for training purposes. You can also create custom playlists to meet the unique training requirements of your organization. If you are already using M365 learning pathways and don't want to provision the SharePoint Success Site, you can enable the [SharePoint Success Site playlist into learning pathways](./add-sss-cdn.md).
 
 Install the SharePoint Success Site in your tenant environment, customize the pre-populated training and site content, and then make it available to end users.
 
-Ready to get started right away? Next, review the [prerequisites and provisioning guidance](https://docs.microsoft.com/sharepoint/provision-sss).
+Ready to get started right away? Next, review the [prerequisites and provisioning guidance](./provision-sss.md).
 
 
 ## Why invest in a SharePoint Success Site?
@@ -84,26 +84,26 @@ The success stories section is a gallery to showcase internal SharePoint site su
 ![Image of the Success Stories page](media/sss-success-stories.png)
 
 #### Site creation guidelines 
-The site creation guidelines page provides a starting point to educate new Site owners about [SharePoint creation policies](https://docs.microsoft.com/sharepoint/sites-usage-guidelines) for your organization. The guidelines include suggested usage policy topics and questions to prompt consideration of usage policies within your organization. Customize the content in your SharePoint Success Site site creation guidelines page to serve your organization’s governance needs.
+The site creation guidelines page provides a starting point to educate new Site owners about [SharePoint creation policies](./sites-usage-guidelines.md) for your organization. The guidelines include suggested usage policy topics and questions to prompt consideration of usage policies within your organization. Customize the content in your SharePoint Success Site site creation guidelines page to serve your organization’s governance needs.
 
 ![Image of the site creation guidelines page](media/sss-creation-guidelines.png)
 
 
 ## Summary of how to launch a SharePoint Success Site
 
-**Step 1:** [Meet the pre-requisites](https://docs.microsoft.com/sharepoint/provision-sss#meet-the-prerequisites) and then [provision](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1) the SharePoint Success Site 
+**Step 1:** [Meet the pre-requisites](./provision-sss.md#meet-the-prerequisites) and then [provision](./provision-sss.md#provision-the-sharepoint-success-site-1) the SharePoint Success Site 
 <br> 
 
-**Step 2:** [Customize](https://docs.microsoft.com/sharepoint/customize-sss) the site design, playlists, success stories, and site creation guidelines
+**Step 2:** [Customize](./customize-sss.md) the site design, playlists, success stories, and site creation guidelines
 <br> 
 
-**Step 3:** Launch and [share the site](https://docs.microsoft.com/sharepoint/customize-sss#share-the-site-with-end-users) with others
+**Step 3:** Launch and [share the site](./customize-sss.md#share-the-site-with-end-users) with others
 <br>
 
 
 #### Next steps - provision the SharePoint Success Site
 
-Review and implement SharePoint Success Site [provisioning requirements and instructions](https://docs.microsoft.com/sharepoint/provision-sss).
+Review and implement SharePoint Success Site [provisioning requirements and instructions](./provision-sss.md).
 
 <br>
 
@@ -128,6 +128,3 @@ Answer: The Site collection administrator and Site owner permissions of M
 **Question: Who has permissions to use the SharePoint Success Site as a user?**
 <br>
 Answer: Microsoft 365 user permissions or SharePoint Site visitor permissions or higher.
-
-
-

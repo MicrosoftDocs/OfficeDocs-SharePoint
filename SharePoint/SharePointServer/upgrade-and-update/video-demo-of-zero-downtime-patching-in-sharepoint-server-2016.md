@@ -147,7 +147,7 @@ Get-AzureVM -ServiceName $svc -Name $vmname | Add-AzureEndpoint -Name $epname -L
 
 ```
 
-For additional information about the Microsoft PowerShell for Azure cmdlets, see [Get-AzureVM](https://msdn.microsoft.com/library/mt126007.aspx) and [Add-AzureEndpoint](https://msdn.microsoft.com/library/mt589127.aspx)
+For additional information about the Microsoft PowerShell for Azure cmdlets, see [Get-AzureVM](/previous-versions/azure/mt126007(v=azure.100)) and [Add-AzureEndpoint](https://msdn.microsoft.com/library/mt589127.aspx)
   
 ## Related Topics
 
@@ -156,5 +156,3 @@ For additional information about the Microsoft PowerShell for Azure cmdlets, see
 [SharePoint Server 2016 zero downtime patching steps](sharepoint-server-2016-zero-downtime-patching-steps.md)
   
 [Video: How to enable Remote Windows PowerShell to use with SharePoint Server](video-how-to-enable-remote-windows-powershell-to-use-with-sharepoint-server.md)
-  
-

@@ -37,7 +37,7 @@ The following table lists the limits for SharePoint search.
 |Parsed content size  <br/> |2 million characters  <br/> |Boundary  <br/> |Search stops parsing an item after it has parsed up to 2 million characters of content from it, including the item's attachments. The actual amount of parsed characters can be lower than this limit because search uses a maximum of 30 seconds on parsing a single item and its attachments. When search stops parsing an item, the item is marked as partially processed. Any unparsed content isn't processed and therefore isn't indexed.  <br/> |
 |Characters processed by the word breaker  <br/> |1,000,000  <br/> |Boundary  <br/> |Search breaks content into individual words (tokens). The word breaker produces tokens from the first 1,000,000 characters of a single item, including the item's attachments.  <br/> The actual amount of tokens can be lower than this limit because search uses a maximum of 30 seconds on word breaking. Any remaining content isn't processed.  <br/> |
 |Indexed managed property size  <br/> |512 KB per managed property that is set to either "searchable" or "queryable"  <br/> |Boundary  <br/> ||
-|Retrievable managed property size  <br/> |16 KB per managed property  <br/> |Boundary  <br/> ||
+|Retrievable managed property size  <br/> |64 KB per managed property  <br/> |Boundary  <br/> ||
 |Sortable and refinable managed property size  <br/> |16 KB per managed property  <br/> |Boundary  <br/> ||
 |Token size  <br/> |Variable - the size depends on the word breaker, and the word-breaker is language-dependent.  <br/> |Boundary  <br/> |Search can index tokens of any length but the word breaker that is used to produce tokens can limit the token length. Word breakers are language-aware components that break content into single words (tokens).  <br/> ||
 |Unique indexed tokens per managed property <br/> |10,000 <br/> |Boundary <br/> |This is the maximum number of unique tokens that can be added to the search index per managed property. If the limit is exceeded, the index will contain the first 10,000 tokens from the managed property and the file will be marked as partially processed by setting the IsPartiallyProcessed property to true. <br/> ||
@@ -54,7 +54,7 @@ The following table lists the limits for SharePoint search.
 
 ## See also
   
-- [SharePoint Limit](https://go.microsoft.com/fwlink/p/?LinkID=856113)
+- [SharePoint Limit](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
 - [SharePoint Service Description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description)
-- [Overview of the search schema in SharePoint Server 2013](/SharePoint/search/search-schema-overview)
+- [Overview of the search schema in SharePoint Server 2013](../SharePointServer/search/search-schema-overview.md)
 - [SharePoint feature availability across Office 365 plans](/office365/servicedescriptions/sharepoint-online-service-description/search#bkmk_searchfeaturessp)

@@ -46,7 +46,7 @@ Another factor to consider is the added complexity involved in using the Azure D
 - My data is in a remote location with very poor connectivity to Microsoft 365
 - My source is very low on resources, and I can scale up my migration by using the Azure Data Box
 
-To learn more about our migration performance, see [General migration performance guidance.](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed)
+To learn more about our migration performance, see [General migration performance guidance.](./sharepoint-online-and-onedrive-migration-speed.md)
 
 ##  Migrate your file share content using Azure Data Box
 
@@ -54,9 +54,9 @@ You can use your Azure Data Box and the SharePoint Migration Tool (SPMT) to migr
  
 Depending on the size of data you intend to transfer, you can choose from:
 
-- [Data Box Disk](https://docs.microsoft.com/azure/databox/data-box-disk-overview) with 35-TB usable capacity per order for small-to-medium datasets.
-- [Data Box](https://docs.microsoft.com/azure/databox/data-box-overview) with 80-TB usable capacity per device for medium-to-large datasets.
-- [Data Box Heavy](https://docs.microsoft.com/azure/databox/data-box-heavy-overview) with 770-TB usable capacity per device for large datasets.
+- [Data Box Disk](/azure/databox/data-box-disk-overview) with 35-TB usable capacity per order for small-to-medium datasets.
+- [Data Box](/azure/databox/data-box-overview) with 80-TB usable capacity per device for medium-to-large datasets.
+- [Data Box Heavy](/azure/databox/data-box-heavy-overview) with 770-TB usable capacity per device for large datasets.
 
  
 
@@ -69,7 +69,7 @@ Depending on the size of data you intend to transfer, you can choose from:
 
 #### For SharePoint
 
-- Review the minimum requirements for the [SharePoint Migration Tool (SPMT)](/sharepointmigration/how-to-use-the-sharepoint-migration-tool).
+- Review the minimum requirements for the [SharePoint Migration Tool (SPMT)](./how-to-use-the-sharepoint-migration-tool.md).
 
 
 ## Workflow overview
@@ -103,20 +103,20 @@ The following steps relate to SharePoint.
 
 Take the following steps to copy data to your Data Box.
 
-1. [Order your Data Box](https://docs.microsoft.com/azure/databox/data-box-deploy-ordered).
+1. [Order your Data Box](/azure/databox/data-box-deploy-ordered).
 
-2. After you receive your Data Box, [Set up the device](https://docs.microsoft.com/azure/databox/data-box-deploy-set-up). You'll cable and configure your device.
+2. After you receive your Data Box, [Set up the device](/azure/databox/data-box-deploy-set-up). You'll cable and configure your device.
 
-3. [Copy data to Data Box](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data). While copying, make sure to:
+3. [Copy data to Data Box](/azure/databox/data-box-deploy-copy-data). While copying, make sure to:
 
     - Use only the *StorageAccountName_AzFile* folder in the Data Box to copy the data. This is because you want the data to end up in an Azure file share, not in block blobs or page blobs.
     - Copy files to a folder within *StorageAccountName_AzFile* folder. A subfolder within *StorageAccountName_AzFile* folder creates a file share. Files copied directly to *StorageAccountName_AzFile* folder fail, and are uploaded as block blobs. This is the file share that you will mount on your VM in the next step.
 
-4. Run [Prepare to ship](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#prepare-to-ship) on your device. A successful 'prepare to ship' ensures a successful upload of files to Azure.
+4. Run [Prepare to ship](/azure/databox/data-box-deploy-picked-up#prepare-to-ship) on your device. A successful 'prepare to ship' ensures a successful upload of files to Azure.
 
-5. [Return the device](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#ship-data-box-back).
+5. [Return the device](/azure/databox/data-box-deploy-picked-up#ship-data-box-back).
 
-6. [Verify the data upload to Azure](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#verify-data-upload-to-azure).
+6. [Verify the data upload to Azure](/azure/databox/data-box-deploy-picked-up#verify-data-upload-to-azure).
 
 
 ## Migrating your data to Microsoft 365 using SPMT
@@ -133,10 +133,9 @@ After you receive confirmation from the Azure data team that your data copy has 
 
 5. Select **File share**. Enter the path to your Azure file share where your data is located.
 
-6. Follow the remaining prompts as normal, including your target location. For more info, see [How to use the SharePoint Migration Tool](/sharepointmigration/how-to-use-the-sharepoint-migration-tool). 
+6. Follow the remaining prompts as normal, including your target location. For more info, see [How to use the SharePoint Migration Tool](./how-to-use-the-sharepoint-migration-tool.md). 
 
 
 > [!IMPORTANT]
-> - The speed at which data is ingested into SharePoint is impacted by several factors, regardless if you have your data already in Azure. Understanding these factors will help you plan and maximize the efficiency of your migration.  For more info, see  [SharePoint and OneDrive Migration Speed](/sharepointmigration/sharepoint-online-and-onedrive-migration-speed).
+> - The speed at which data is ingested into SharePoint is impacted by several factors, regardless if you have your data already in Azure. Understanding these factors will help you plan and maximize the efficiency of your migration.  For more info, see  [SharePoint and OneDrive Migration Speed](./sharepoint-online-and-onedrive-migration-speed.md).
 > - File metadata and NTFS permissions can be preserved when the data is uploaded to Azure Files. In Windows, metadata is transferred automatically when you use a tool such as robocopy. In Linux, after you copy the files, you need to use a different tool to copy the metadata to your Data Box. For more information, see [Preserving file ACLs, attributes, and timestamps with Azure Data Box](/azure/databox/data-box-file-acls-preservation).
-

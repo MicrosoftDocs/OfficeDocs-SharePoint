@@ -46,7 +46,7 @@ For more information about these SharePoint 2013 topology approaches, see the fo
     
 For information about SharePoint Server 2016 topology, see the following model:
   
-- [Planning for a MinRole server deployment in SharePoint Server](/sharepoint/install/planning-for-a-minrole-server-deployment-in-sharepoint-server)
+- [Planning for a MinRole server deployment in SharePoint Server](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server.md)
     
 ## Services on server for streamlined topologies in SharePoint 2013
 <a name="Section1"> </a>
@@ -133,12 +133,11 @@ For information about SharePoint Server 2016 topology, see the following model:
 ||Microsoft SharePoint Foundation Workflow Timer Service  <br/> |Web server  <br/> |This service is automatically configured to run on all web servers in a farm.  <br/> |
 ||Request Management  <br/> |Web server or dedicated servers  <br/> |In integrated mode, Request Management runs on all web servers in a farm. In dedicated mode servers in a separate Request Management farm are between the hardware load balancer and one or more SharePoint farms.  <br/> |
    
-For a list of **Services on Server** in SharePoint Server 2016, see [Description of MinRole and associated services in SharePoint Server 2016](/SharePoint/administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016).
+For a list of **Services on Server** in SharePoint Server 2016, see [Description of MinRole and associated services in SharePoint Server 2016](./description-of-minrole-and-associated-services-in-sharepoint-server-2016.md).
   
 ## See also
 <a name="Section2"> </a>
 
 #### Other Resources
 
-[Plan for SharePoint Server](/SharePoint/getting-started)
-
+[Plan for SharePoint Server](../getting-started.md)

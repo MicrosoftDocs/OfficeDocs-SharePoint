@@ -62,7 +62,7 @@ SharePoint Server lets you handle several different user migration scenarios. Th
 4. Ensure that user migration by using  `stsadm -o migrateuser` has succeeded.
 
 >[!NOTE]
->[Move-SPUser](https://docs.microsoft.com/powershell/module/sharepoint-server/move-spuser) can also be used to migrate users.
+>[Move-SPUser](/powershell/module/sharepoint-server/move-spuser) can also be used to migrate users.
     
 5. Ensure that the profile of the migrated user can be accessed by browsing to the My Site for that user, for example, http://mysite/person.aspx?accountname=\<new account name\>.
     
@@ -217,7 +217,7 @@ Use the following procedure to restrict profile synchronization communication to
   ```
 
     > [!NOTE]
-    > It may take five minutes for the changed property value to propagate to the SharePoint Central Administration website. Resetting IIS on the Central Administration server will force the new value to be loaded immediately. For more information about resetting IIS, see [IIS Reset Activity](https://go.microsoft.com/fwlink/p/?LinkId=179336). 
+    > It may take five minutes for the changed property value to propagate to the SharePoint Central Administration website. Resetting IIS on the Central Administration server will force the new value to be loaded immediately. For more information about resetting IIS, see [IIS Reset Activity](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd364067(v=ws.10)). 
   
 For more information, see Get-SPServiceApplication and Set-SPProfileServiceApplication.
   
@@ -298,5 +298,3 @@ A time-out can occur on the following occasions:
     Where  _\<file name\>_ is the name of the file to execute. 
     
 For more information, see Get-SPServiceApplicationProxy and Get-SPServiceApplication.
-  
-

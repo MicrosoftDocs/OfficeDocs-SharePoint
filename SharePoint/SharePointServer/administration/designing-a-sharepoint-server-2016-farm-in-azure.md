@@ -83,7 +83,7 @@ Each step includes best practices and recommendations specific to the requiremen
 At the end of the design process, you will have determined the set of components in Azure infrastructure services that is ready for your SharePoint Server 2016 farm. 
   
 > [!TIP]
-> This process is based on [Design Azure infrastructure services to host a multi-tier LOB application](https://blogs.technet.microsoft.com/solutions_advisory_board/2016/12/05/design-azure-infrastructure-services-to-host-a-multi-tier-lob-application/). 
+> This process is based on [Design Azure infrastructure services to host a multi-tier LOB application](/archive/blogs/solutions_advisory_board/design-azure-infrastructure-services-to-host-a-multi-tier-lob-application). 
   
 ### Step 1: Resource groups
 
@@ -177,7 +177,7 @@ The address space for each subnet must be a portion of the VNet address space ex
 |12-27  <br/> |/27  <br/> |
 |18-59  <br/> |/26  <br/> |
    
-The recommendation for the GatewaySubnet is to use a /27 network prefix length and assign it from the last part of the VNet address space. For more information, see [Calculating the gateway subnet address space for Azure virtual networks](https://blogs.technet.microsoft.com/solutions_advisory_board/2016/12/01/calculating-the-gateway-subnet-address-space-for-azure-virtual-networks/).
+The recommendation for the GatewaySubnet is to use a /27 network prefix length and assign it from the last part of the VNet address space. For more information, see [Calculating the gateway subnet address space for Azure virtual networks](/archive/blogs/solutions_advisory_board/calculating-the-gateway-subnet-address-space-for-azure-virtual-networks).
   
 For the subnets of your VNet, fill in the following table before creating them, using as many rows as needed.
   
@@ -223,7 +223,7 @@ Here are the recommendations for using Azure load balancers in your SharePoint S
     
 - Create the Azure load balancers or load balancer network appliances in the infrastructure or networking resource group.
     
-- Increase idle connection timeout to handle long duration connections from SharePoint clients with the [Set-AzureLoadBalancedEndpoint -IdleTimeoutInMinutes 15](https://msdn.microsoft.com/library/azure/dn495126.aspx) Azure PowerShell command. 
+- Increase idle connection timeout to handle long duration connections from SharePoint clients with the [Set-AzureLoadBalancedEndpoint -IdleTimeoutInMinutes 15](/previous-versions/azure/dn495126(v=azure.100)) Azure PowerShell command. 
     
 - The VM health probe can either be an HTTP get message or an ICMP Echo Request (ping) message, unless the load balancing network appliance is operating at layer 4, in which case an HTTP get message should be used.
     
@@ -379,4 +379,3 @@ If you are ready to deploy a production-ready, high availability SharePoint Serv
 #### Other Resources
 
 [SharePoint Server 2016 in Microsoft Azure](sharepoint-server-2016-in-microsoft-azure.md)
-

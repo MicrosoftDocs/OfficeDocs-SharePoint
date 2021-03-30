@@ -39,9 +39,9 @@ Regardless of which Microsoft 365 or Office 365 subscriptions you have, you need
 Delve is designed to work with the current or immediately previous version of Internet Explorer or Firefox, or the latest version of Chrome, or Safari.
 
 > [!IMPORTANT]
-> Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting November 30, 2020). [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed. 
+> Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting November 30, 2020). [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed. 
 
-The Delve app is also enabled for modern authentication. For more info, see [Client app Support - Modern Authentication](https://docs.microsoft.com/office365/enterprise/office-365-client-support-modern-authentication).
+The Delve app is also enabled for modern authentication. For more info, see [Client app Support - Modern Authentication](/office365/enterprise/office-365-client-support-modern-authentication).
   
 ## Get new Delve features quicker
 <a name="BKMK_DelveFirstRelease"> </a>
@@ -67,7 +67,7 @@ If you disable Delve, users will no longer see:
 
  For more info, see [What is the effect of enabling or disabling Delve and related features?](delve-for-office-365-admins.md#BKMK_EffectOfficegraphOnOff). 
   
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center, and open the **Settings** page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center, and open the **Settings** page.
@@ -132,7 +132,7 @@ There are a few things you should check if one or more users in your organizatio
  **Check that you allow your organization to access Delve**
 <a name="BKMK_OfficeGraphAccess"></a>
   
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
@@ -302,7 +302,7 @@ If you disable Delve, users will not have access to the following APIs:
 - **Trending Insight API** (trending documents for all users).
 - **Used Insight API** (what documents other users have viewed or modified).
 
-**NOTE:** Disabling Delve does not disable **Microsoft Graph**. Office Graph and Microsoft Graph are different concepts despite their similar names. Microsoft Graph is the API endpoint that surfaces all Microsoft 365 data (such as Azure AD, Outlook/Exchange, Excel, OneDrive, SharePoint), while Office Graph is mainly a code name for the collective set of services and insights generated on top of the infrastructure developed by the FAST Office Graph team. For more info about Microsoft Graph, see [Overview of Microsoft Graph](https://docs.microsoft.com/graph/overview).
+**NOTE:** Disabling Delve does not disable **Microsoft Graph**. Office Graph and Microsoft Graph are different concepts despite their similar names. Microsoft Graph is the API endpoint that surfaces all Microsoft 365 data (such as Azure AD, Outlook/Exchange, Excel, OneDrive, SharePoint), while Office Graph is mainly a code name for the collective set of services and insights generated on top of the infrastructure developed by the FAST Office Graph team. For more info about Microsoft Graph, see [Overview of Microsoft Graph](/graph/overview).
 
 
 ## Additional resources

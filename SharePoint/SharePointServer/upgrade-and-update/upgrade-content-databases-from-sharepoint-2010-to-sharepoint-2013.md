@@ -115,7 +115,7 @@ There are also two versions of the IIS support directories: _Layouts, _Layouts/1
   
  Be sure to install customizations to the correct location in your new farm. For example, additional style sheets for SharePoint 2010 Products should be installed in the /14 path, not the new /15 path so that site collections that you haven't upgraded can use them. If you want a solution to be available to both paths, install it two times, and the second time use the **CompatibilityLevel** parameter when you install it, and it will be installed to the /15 path. For more information, see [Install-SPSolution](/powershell/module/sharepoint-server/install-spsolution?view=sharepoint-ps).
   
-For more information about how to update customizations for use in SharePoint 2013, see [Redeploying Customizations and Solutions in SharePoint Foundation 2010 and SharePoint Server 2010](https://msdn.microsoft.com/library/ee662217.aspx). For more information about how to deploy customizations to your environment, see [Install and manage solutions for SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc263205(v=office.14)).
+For more information about how to update customizations for use in SharePoint 2013, see [Redeploying Customizations and Solutions in SharePoint Foundation 2010 and SharePoint Server 2010](/previous-versions/office/developer/sharepoint-2010/ee662217(v=office.14)). For more information about how to deploy customizations to your environment, see [Install and manage solutions for SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc263205(v=office.14)).
   
 ## Verify custom components
 <a name="VerifyCustom"> </a>
@@ -291,7 +291,7 @@ After you upgrade the databases, you might want to perform additional steps to m
   
 - Verify that site collections are working as expecting in 2010 mode.
     
-    Visually review site collections. You can use a similar review list as the one provided for upgraded sites in [Review site collections upgraded to SharePoint Server 2016](/SharePoint/upgrade-and-update/review-site-collections-upgraded-to-sharepoint-2013#Review).
+    Visually review site collections. You can use a similar review list as the one provided for upgraded sites in [Review site collections upgraded to SharePoint Server 2016](./review-site-collections-upgraded-to-sharepoint-2013.md#Review).
     
 - Migrate user accounts to claims authentication, if it is necessary.
     
@@ -301,7 +301,7 @@ After you upgrade the databases, you might want to perform additional steps to m
     
     For a database-attach upgrade, you exported and imported all InfoPath form templates in your environment when you created the new environment. After upgrade, you can now update the links that are used in those upgraded form templates to point to the correct URLs by using a Microsoft PowerShell cmdlet.
     
-    For more information, see [Configure InfoPath Forms Services (SharePoint Server 2010)](https://go.microsoft.com/fwlink/?LinkId=403876).
+    For more information, see [Configure InfoPath Forms Services (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/cc262263(v=office.14)).
     
     InfoPath is available in SharePoint Server only.
     
@@ -335,4 +335,3 @@ After your farm is ready, you can enable access to users, and then start to upgr
 [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md)
   
 [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md)
-

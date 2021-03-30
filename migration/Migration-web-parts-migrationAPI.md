@@ -37,11 +37,11 @@ To get the serializer .dll, follow these steps:
 
 For a complete list of the supported web parts, see:
 
-- [SPMT supported SharePoint web parts](https://docs.microsoft.com/sharepointmigration/spmt-supported-webparts)
+- [SPMT supported SharePoint web parts](./spmt-supported-webparts.md)
 
 ## Schema
 
-For an explanation of the *SPWebPart* fields, see [SPWebPart](https://docs.microsoft.com/openspecs/sharepoint_protocols/ms-primepf/25cfceeb-7769-4331-9936-ce3b9ced87ad).
+For an explanation of the *SPWebPart* fields, see [SPWebPart](/openspecs/sharepoint_protocols/ms-primepf/25cfceeb-7769-4331-9936-ce3b9ced87ad).
 
 ### PRIME web part schema example
 

@@ -36,9 +36,9 @@ description: "This article explains the factors that influence migration speed a
 
 When using either the SharePoint Migration Tool (SPMT) or running a Migration Manager agent, follow these guidelines to help improve your migration performance.
 
--	[Improving the speed at which the source can be read](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance#improving-the-speed-at-which-the-source-can-be-read)
--	[Improving the migration computer speed](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance#improving-the-migration-computer-speed)
--	[Improving your connectivity to Office 365 and Azure](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance#improving-your-connectivity-to-office-365-and-azure)
+-	[Improving the speed at which the source can be read](./spmt-performance-guidance.md#improving-the-speed-at-which-the-source-can-be-read)
+-	[Improving the migration computer speed](./spmt-performance-guidance.md#improving-the-migration-computer-speed)
+-	[Improving your connectivity to Office 365 and Azure](./spmt-performance-guidance.md#improving-your-connectivity-to-office-365-and-azure)
 
 
 ## Performance guidance for the SharePoint Migration API
@@ -46,7 +46,7 @@ When using either the SharePoint Migration Tool (SPMT) or running a Migration Ma
 Migration performance can be impacted by network infrastructure, file size, migration time, and throttling. Understanding these will help you plan and maximize the efficiency of your migration. This guidance may also be applied to SPMT.
 
 
-Currently, [SPMT](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool) and other third party vendor tools use the SharePoint API for migration. It leverages Azure and uses channels for large content transfer.  Whatever migration tool you use, these factors will apply. Follow the recommendations listed below for each phase of your migration process.
+Currently, [SPMT](./introducing-the-sharepoint-migration-tool.md) and other third party vendor tools use the SharePoint API for migration. It leverages Azure and uses channels for large content transfer.  Whatever migration tool you use, these factors will apply. Follow the recommendations listed below for each phase of your migration process.
 
 ### Before migration
 
@@ -75,7 +75,7 @@ The following table provides estimates of the type of speed you may achieve base
 
 - Files migrate faster than objects and list items.
 
-The speed of this step depends on the efficiency of the tool you are using and the type of content that you package. Splitting your packages in a smart way is something that will greatly improve this step. In addition, ensure that your permissions, sharing, or other limits are set up properly for migration and are within [SharePoint limits and boundaries](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
+The speed of this step depends on the efficiency of the tool you are using and the type of content that you package. Splitting your packages in a smart way is something that will greatly improve this step. In addition, ensure that your permissions, sharing, or other limits are set up properly for migration and are within [SharePoint limits and boundaries](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
 
 >[!Note]
 > If you are planning to migrate over 100TB, review the following section, **Large Migration**.
@@ -103,8 +103,8 @@ During migration, it is not uncommon for your migration task to be throttled. Th
 
 
 For more technical background and information, please see 
-- [Migration API Overview](https://docs.microsoft.com/sharepoint/dev/apis/migration-api-overview) 
-- [Avoid getting throttled or blocked in SharePoint](https://go.microsoft.com/fwlink/?LinkID=619858&amp;clcid=0x409)
+- [Migration API Overview](/sharepoint/dev/apis/migration-api-overview) 
+- [Avoid getting throttled or blocked in SharePoint](/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online)
 
 ### After migration
 After the migration is completed, verify that your content has been successfully moved to SharePoint or OneDrive.
@@ -144,14 +144,14 @@ Follow these steps:
 ### FAQ and Troubleshooting
 
 **Question: I am experiencing poor performance during migration.**</br>
-Answer: Check this article to help identify where the performance bottleneck is:  [Improve migration performance when using SPMT or Migration Manager.](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance)
+Answer: Check this article to help identify where the performance bottleneck is:  [Improve migration performance when using SPMT or Migration Manager.](./spmt-performance-guidance.md)
 
 
 **Question:  I am experiencing throttling during migration.**<br>
-Answer:  First check the guidance in this document. Learn more at: [Avoid getting throttled or blocked in SharePoint.](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online)</br>For specific tools configuration or questions, please contact your third party tools vendor for more information.
+Answer:  First check the guidance in this document. Learn more at: [Avoid getting throttled or blocked in SharePoint.](/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online)</br>For specific tools configuration or questions, please contact your third party tools vendor for more information.
 
 **Question: I'm continually getting throttled while I am attempting to migrate. Can Microsoft turn off the throttle to help me with migration?**</br>
-Answer: Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended and **opening a support ticket will not lift throttle**. Please refer to [Avoid getting throttled or blocked in SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information.
+Answer: Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended and **opening a support ticket will not lift throttle**. Please refer to [Avoid getting throttled or blocked in SharePoint](/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information.
 </br></br>
 
 **Question: If you cannot turn off the throttle, what can I do if I am being throttled or experience poor performance?**</br>
@@ -227,5 +227,4 @@ We welcome feedback and encourage you to submit suggestions or questions that wi
  
 ## Related articles
 
-[Avoid getting throttled or blocked in SharePoint](https://go.microsoft.com/fwlink/?LinkID=619858&amp;clcid=0x409)
-
+[Avoid getting throttled or blocked in SharePoint](/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online)

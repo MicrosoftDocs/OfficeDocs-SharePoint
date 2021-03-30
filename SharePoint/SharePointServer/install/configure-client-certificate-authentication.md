@@ -25,12 +25,12 @@ description: "Learn how to configure SharePoint Server to support user authentic
 Client certificate authentication enables web-based clients to establish their identity to a server by using a digital certificate, which provides additional security for user authentication. SharePoint Server does not provide built-in support for client certificate authentication, but client certificate authentication is available through Security Assertion Markup Language (SAML)-based claims authentication. You can use Active Directory Federation Services (AD FS) 2.0 as your security token service (STS) for SAML claims or any third-party identity management system that supports standard security protocols such as WS-Trust, WS-Federation, SAML 1.1, and SAML 2.0.
   
 > [!NOTE]
-> For more information about SharePoint Server protocol requirements, see [SharePoint Front-End Protocols](https://go.microsoft.com/fwlink/p/?LinkId=212509). 
+> For more information about SharePoint Server protocol requirements, see [SharePoint Front-End Protocols](/previous-versions/office/office-12/cc341379(v=office.12)). 
   
 Claims-based authentication in SharePoint Server allows you to use different STSs. If you configure AD FS as your STS, SharePoint Server can support any identity provider or authentication method that AD FS supports, which includes client certificate authentication.
   
 > [!NOTE]
-> For more information about AD FS, see [Active Directory Federation Services Overview](https://go.microsoft.com/fwlink/p/?LinkId=212512) and [AD FS 2016](https://go.microsoft.com/fwlink/?linkid=865441). 
+> For more information about AD FS, see [Active Directory Federation Services Overview](/previous-versions/orphan-topics/ws.11/cc772593(v=ws.11)) and [AD FS 2016](/windows-server/identity/ad-fs/ad-fs-overview). 
   
 For additional information on an overview of authentication in SharePoint, please see [Plan for user authentication methods in SharePoint Server](../security-for-sharepoint-server/plan-user-authentication.md).
   
@@ -50,7 +50,7 @@ The following topics explain how to configure SharePoint Server with client cert
     
 2. Configure SharePoint Server to support SAML-based claims authentication using AD FS.
     
-    For more information, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](/previous-versions/office/sharepoint-server-2010/hh305235(v=office.14)) and [Improved interoperability with SAML 2.0](https://go.microsoft.com/fwlink/?linkid=865442).
+    For more information, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](/previous-versions/office/sharepoint-server-2010/hh305235(v=office.14)) and [Improved interoperability with SAML 2.0](/windows-server/identity/ad-fs/operations/improved-interoperability-with-saml-2.0).
     
 3. Create a web application that uses SAML-based claims authentication.
     
@@ -65,9 +65,8 @@ The following topics explain how to configure SharePoint Server with client cert
 
 [Configure SAML-based claims authentication with AD FS in SharePoint Server](/previous-versions/office/sharepoint-server-2010/hh305235(v=office.14))
   
-[Planning and Architecture: AD FS 2.0](https://go.microsoft.com/fwlink/p/?LinkId=212521)
+[Planning and Architecture: AD FS 2.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee126145(v=ws.10))
   
-[AD FS 2.0 Deployment Guide](https://go.microsoft.com/fwlink/p/?LinkId=212520)
+[AD FS 2.0 Deployment Guide](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd807092(v=ws.10))
   
-[Using Active Directory Federation Services 2.0 in Identity Solutions](https://go.microsoft.com/fwlink/p/?LinkID=209776)
-
+[Using Active Directory Federation Services 2.0 in Identity Solutions](/archive/msdn-magazine/2009/november/using-active-directory-federation-services-2-0-in-identity-solutions)

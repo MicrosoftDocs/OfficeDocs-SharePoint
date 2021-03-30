@@ -74,7 +74,7 @@ Any discovered problems are logged and the RBS Maintainer attempts to fix them b
 ## Running the RBS Maintainer
 <a name="proc3"> </a>
 
-RBS requires you to define a connection string to each database that uses RBS before you run the RBS Maintainer. This string is stored in a configuration file in the  _\<RBS installation path\>_\Microsoft SQL Remote Blob Storage 10.50\Maintainer folder that is ordinarily created during installation. The RBS Maintainer can be run manually by executing the Microsoft.Data.SqlRemoteBlobs.Maintainer.exe program together with the command line parameters that are listed in [Running RBS Maintainer](https://blogs.msdn.microsoft.com/sqlrbs/2010/03/19/running-rbs-maintainer/). 
+RBS requires you to define a connection string to each database that uses RBS before you run the RBS Maintainer. This string is stored in a configuration file in the  _\<RBS installation path\>_\Microsoft SQL Remote Blob Storage 10.50\Maintainer folder that is ordinarily created during installation. The RBS Maintainer can be run manually by executing the Microsoft.Data.SqlRemoteBlobs.Maintainer.exe program together with the command line parameters that are listed in [Running RBS Maintainer](/archive/blogs/sqlrbs/running-rbs-maintainer). 
   
 You must schedule a separate RBS Maintainer task for every database that uses RBS. The following steps describe how to schedule an RBS Maintainer task.
   
@@ -142,4 +142,3 @@ You must schedule a separate RBS Maintainer task for every database that uses RB
 [Migrate content into or out of RBS in SharePoint Server](migrate-content-into-or-out-of-rbs.md)
   
 [Disable RBS on content databases in SharePoint Server](disable-rbs-on-a-content-database.md)
-

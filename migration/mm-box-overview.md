@@ -17,10 +17,14 @@ search.appverid: MET150
 description: Overview of migration from Box to Microsoft 365 using Migration Manager.
 ---
 
-# Preview:  Migrate Box to Microsoft 365 with Migration Manager
+# Migrate Box to Microsoft 365 with Migration Manager (preview)
 
->[!Important]
-> This feature is currently in private preview and subject to change without notice.
+>[!Note]
+> Features described in this topic are part of a public preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
+>
+>This preview release currently supports the migration of up to approximately 1500 Box accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
+
+
 
 
 Collaborate all in one place by migrating your Box documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
@@ -51,5 +55,8 @@ Make sure that you have:
 
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
 
-
+>[!NOTE]
+>Migration Manager Box preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>
+> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
 

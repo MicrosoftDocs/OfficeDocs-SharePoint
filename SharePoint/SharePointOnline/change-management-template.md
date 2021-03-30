@@ -69,7 +69,7 @@ The Workplace transformation site can be used to drive any topic or scope of org
 **1. Awareness and commitment –** Start communicating details about upcoming changes with users and provide various support channels and opportunities to engage through events and [Yammer community chats](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6).
 <br>
 
-**2. Learn –** Build training content right into the site itself by using [Microsoft 365 Learning pathways](https://docs.microsoft.com/office365/customlearning/).
+**2. Learn –** Build training content right into the site itself by using [Microsoft 365 Learning pathways](/office365/customlearning/).
 <br>
 
 **3. Practice and exploration –** Use your organization’s [champion community](https://view.officeapps.live.com/op/view.aspx?src=https://fto365dev.blob.core.windows.net:443/media/Default/DocResources/Adoption/Build_Champions_Program_Guide.pptx) in leading hand-on events and demonstrations in addition to 1:1 help.
@@ -125,9 +125,9 @@ The workplace transformation site is full of pre-populated content, web parts, n
 
 
 ### Considerations for M365 Learning Pathways
-[Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) is a customizable, on-demand learning solution that displays playlists using the M365 Learning pathways web part right onto SharePoint pages. Consider using the M365 Learning pathways solution in combination with the workplace transformation site to embed training playlists on SharePoint pages. 
+[Microsoft 365 learning pathways](/office365/customlearning/) is a customizable, on-demand learning solution that displays playlists using the M365 Learning pathways web part right onto SharePoint pages. Consider using the M365 Learning pathways solution in combination with the workplace transformation site to embed training playlists on SharePoint pages. 
 
-Learn more about [how to provision the M365 Learning pathways solution for the first time](https://docs.microsoft.com/office365/customlearning/custom_provision), how to [find Microsoft-maintained content packs](https://docs.microsoft.com/office365/customlearning/custom_plancontent), and [how to custom learning pathways and playlists](https://docs.microsoft.com/office365/customlearning/custom_overview). 
+Learn more about [how to provision the M365 Learning pathways solution for the first time](/office365/customlearning/custom_provision), how to [find Microsoft-maintained content packs](/office365/customlearning/custom_plancontent), and [how to custom learning pathways and playlists](/office365/customlearning/custom_overview). 
 
 
 ## Step 1: Provision the Workplace transformation site template
@@ -141,7 +141,7 @@ Learn more about [how to provision the M365 Learning pathways solution for the f
 2.	Then, select a site name, URL, and email address where an email confirmation will be sent when the site is successfully created.
 3.	Select **Provision**, and in less than 15 minutes you will receive an email confirmation with a link to your new site.
 <br> 
-Learn more about [provisioning site templates from the look book](https://docs.microsoft.com/sharepoint/add-sample-site). 
+Learn more about [provisioning site templates from the look book](./add-sample-site.md). 
 
 
 ### Share the site with site owners and members to customize
@@ -219,7 +219,7 @@ The Workplace transformation site contains a [Microsoft List](https://support.mi
 [Learn more about M365 lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US).
 
 #### Use M365 Learning pathways to embed training content on a page
-If your tenant admin has set up [M365 Learning pathways](https://docs.microsoft.com/office365/customlearning/custom_plancontent), you can [add pages to the site](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec) and use the [Learning pathways web part](https://docs.microsoft.com/office365/customlearning/custom_addwebpart) to display custom training playlists. Then, use [Learning pathways reporting capabilities](https://docs.microsoft.com/office365/customlearning/custom_measureimpact) to measure content impact.
+If your tenant admin has set up [M365 Learning pathways](/office365/customlearning/custom_plancontent), you can [add pages to the site](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec) and use the [Learning pathways web part](/office365/customlearning/custom_addwebpart) to display custom training playlists. Then, use [Learning pathways reporting capabilities](/office365/customlearning/custom_measureimpact) to measure content impact.
 <br>
 
 #### Use tools to help target content to specific audiences or protect content from specific audiences
@@ -243,8 +243,3 @@ Once the site has been customized and republished, it is ready to share with end
 3.	Change the permission level (Read, Edit, or Full control) as needed.
 4.	Enter an optional message to send to the person or clear the **Send email box** if you don't want to send an email.
 5.	Select **Share**.
-
-
-
-
-

@@ -30,15 +30,14 @@ Note that to use the business intelligence (BI) tools in SharePoint Server 2013 
   
 ## See also
 
-[Install SQL Server 2016 Business Intelligence Features](https://msdn.microsoft.com/library/hh231681.aspx)
+[Install SQL Server 2016 Business Intelligence Features](/sql/sql-server/install/install-sql-server-business-intelligence-features)
   
 [SharePoint 2016 and SQL 2016 Business Intelligence](https://sharepointpromag.com/sharepoint/sharepoint-2016-and-sql-2016-business-intelligence)
   
-[Editions and Components of SQL Server 2016](https://msdn.microsoft.com/library/ms144275.aspx)
+[Editions and Components of SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016)
   
-[Features Supported by the Editions of SQL Server 2016](https://msdn.microsoft.com/library/cc645993.aspx)
+[Features Supported by the Editions of SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016)
   
-[Integration Services Features Supported by the Editions of SQL Server 2016](https://msdn.microsoft.com/library/mt736445.aspx)
+[Integration Services Features Supported by the Editions of SQL Server 2016](/sql/integration-services/integration-services-features-supported-by-the-editions-of-sql-server)
   
 [BI and analytics](https://www.microsoft.com/cloud-platform/bi-analytics)
-

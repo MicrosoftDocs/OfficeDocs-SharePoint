@@ -58,7 +58,7 @@ SQL Server 2008 R2 introduced Power Pivot for SharePoint and Power Pivot for Exc
 ### SQL Server Reporting Services in SharePoint Integrated Mode
 <a name="RSint"> </a>
 
-SQL Server 2008 R2 Reporting Services supports two types of SharePoint integration. Full integration relies on the SharePoint integrated mode. Partial integration relies on two Web Parts, Report Explorer and Report Viewer, which you must install on a SharePoint site and point to a remote report server instance. For more information, see [Overview of Reporting Services and SharePoint Technology Integration](https://go.microsoft.com/fwlink/p/?LinkID=190605) and [Planning for SharePoint Integration](https://go.microsoft.com/fwlink/p/?LinkId=285618).
+SQL Server 2008 R2 Reporting Services supports two types of SharePoint integration. Full integration relies on the SharePoint integrated mode. Partial integration relies on two Web Parts, Report Explorer and Report Viewer, which you must install on a SharePoint site and point to a remote report server instance. For more information, see [Overview of Reporting Services and SharePoint Technology Integration](/previous-versions/sql/sql-server-2008-r2/bb326358(v=sql.105)) and [Planning for SharePoint Integration](/previous-versions/sql/sql-server-2008-r2/bb326405(v=sql.105)).
   
 > [!NOTE]
 > Reporting Services supports SharePoint integrated mode using SharePoint Server 2013 only. 
@@ -68,7 +68,7 @@ When you setup Reporting Services with SharePoint Server 2013 you create a repor
 > [!NOTE]
 > When you configure a report server to run with SharePoint Server 2013 in integrated mode you must install the SQL Server 2012 Reporting Services add-in or later on a SharePoint front-end web server. > SQL Server 2008 R2 is the minimum version and is not supported when you use SQL Server 2012 Reporting Services or SQL Server 2014 Reporting Services. 
   
-For more information, see [Supported Combinations of SharePoint and Reporting Services Components](https://go.microsoft.com/fwlink/?LinkID=524852&amp;clcid=0x409). The following levels of integration are provided when you run a report server in integrated mode with SharePoint Server 2013.
+For more information, see [Supported Combinations of SharePoint and Reporting Services Components](/sql/reporting-services/install-windows/supported-combinations-of-sharepoint-and-reporting-services-server?viewFallbackFrom=sql-server-2014). The following levels of integration are provided when you run a report server in integrated mode with SharePoint Server 2013.
   
 - Shared storage
     
@@ -87,12 +87,12 @@ When Reporting Services runs in SharePoint integrated mode, both the SharePoint 
    
 Reporting Services data alerts are available to inform recipients of changes in report data.
   
-For more information, see [Storing and Synchronizing Report Server Content With SharePoint Databases](https://go.microsoft.com/fwlink/p/?LinkID=190612)
+For more information, see [Storing and Synchronizing Report Server Content With SharePoint Databases](/previous-versions/sql/sql-server-2008-r2/bb283153(v=sql.105))
   
 ## SQL Server 2012 and SQL Server 2014
 <a name="sec4"> </a>
 
-SQL Server 2012 with SP1 and SQL Server 2014 provide business intelligence solutions for SharePoint Server 2013. The SharePoint mode of SQL Server 2012 provides features for SQL Server Analysis Services and SQL Server Reporting Services. In addition, the SharePoint mode provides SQL Server BI features in SharePoint Server 2013. For more information, see [Features Supported by the Editions of SQL Server 2012](https://go.microsoft.com/fwlink/?LinkID=524889&amp;clcid=0x409) and [Features Supported by the Editions of SQL Server 2014](https://go.microsoft.com/fwlink/?LinkID=524888&amp;clcid=0x409).
+SQL Server 2012 with SP1 and SQL Server 2014 provide business intelligence solutions for SharePoint Server 2013. The SharePoint mode of SQL Server 2012 provides features for SQL Server Analysis Services and SQL Server Reporting Services. In addition, the SharePoint mode provides SQL Server BI features in SharePoint Server 2013. For more information, see [Features Supported by the Editions of SQL Server 2012](/previous-versions/sql/sql-server-2012/cc645993(v=sql.110)) and [Features Supported by the Editions of SQL Server 2014](/sql/sql-server/editions-and-components-of-sql-server-2016).
   
 > [!NOTE]
 > SharePoint Foundation 2013 does not support SQL Server BI features. 
@@ -103,9 +103,9 @@ SQL Server 2012 with SP1 and SQL Server 2014 provide business intelligence solut
 We recommend AlwaysOn Availability Groups for high availability in SQL Server 2012 Reporting Services and SQL Server 2014 Reporting Services. Other high availability solutions are AlwaysOn Failover Cluster Instances, database mirroring, and log shipping. Both AlwaysOn Availability Groups and Failover Cluster Instances solutions require and use Windows Server Failover Clustering (WSFC).
   
 > [!NOTE]
-> We recommend that you use AlwaysOn Availability Groups instead of database mirroring for your high availability solution with SQL Server 2012 or SQL Server 2014 and SharePoint Server 2013. For more information, see [Overview of SQL Server High-Availability Solutions](https://go.microsoft.com/fwlink/p/?LinkID=188016). 
+> We recommend that you use AlwaysOn Availability Groups instead of database mirroring for your high availability solution with SQL Server 2012 or SQL Server 2014 and SharePoint Server 2013. For more information, see [Overview of SQL Server High-Availability Solutions](/sql/database-engine/sql-server-business-continuity-dr). 
   
-For more information, see [AlwaysOn Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=272808), and [Prerequisites, Restrictions, and Recommendations for AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability?view=sql-server-2017).
+For more information, see [AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server), and [Prerequisites, Restrictions, and Recommendations for AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability?view=sql-server-2017).
   
 ### Reporting Services SharePoint mode
 <a name="RSsp"> </a>
@@ -114,7 +114,7 @@ SharePoint mode in SQL Server 2012 Reporting Services and SQL Server 2014 Report
   
 SharePoint mode requires that a report server component of Reporting Services must run within a SharePoint Server farm. This means that a SharePoint application server must exist with the Reporting Services shared service installed and at least one Reporting Services service application.
   
-For more information, see [Reporting Services Report Server (SSRS)](https://msdn.microsoft.com/library/ms157231%28robot,v=sql.115%29.aspx) and [Reporting Services Report Server (SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016).
+For more information, see [Reporting Services Report Server (SSRS)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server) and [Reporting Services Report Server (SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016).
   
 ### Business intelligence features
 <a name="BI"> </a>
@@ -137,7 +137,7 @@ For more information, see [Guidance for Using SQL Server BI Features in a ShareP
 ### Power Pivot for SharePoint 2013
 <a name="PP"> </a>
 
-SQL Server 2012 with SP1 is required to deploy Power Pivot for SharePoint 2013. Power Pivot for SharePoint 2013 is a SharePoint Server service application that becomes available when Analysis Services runs in SharePoint mode. This provides a server that hosts Power Pivot data in a SharePoint farm. SQL Server 2012 Analysis Services provides three modes for analysis, Multidimensional, Tabular, and Power Pivot for SharePoint. Note that each server mode is independent of the others, and each supports a type of analytical database that only runs in that modality. For more information about SQL Server 2012 Analysis Services (SSAS), see [Analysis Services](https://go.microsoft.com/fwlink/p/?LinkId=285657). For more information about SQL Server 2014 Analysis Services, see [Analysis Services](/sql/analysis-services/analysis-services?view=sql-server-2014). The server that hosts Power Pivot for SharePoint 2013 can be outside a SharePoint Server 2013 farm.
+SQL Server 2012 with SP1 is required to deploy Power Pivot for SharePoint 2013. Power Pivot for SharePoint 2013 is a SharePoint Server service application that becomes available when Analysis Services runs in SharePoint mode. This provides a server that hosts Power Pivot data in a SharePoint farm. SQL Server 2012 Analysis Services provides three modes for analysis, Multidimensional, Tabular, and Power Pivot for SharePoint. Note that each server mode is independent of the others, and each supports a type of analytical database that only runs in that modality. For more information about SQL Server 2012 Analysis Services (SSAS), see [Analysis Services](/previous-versions/sql/sql-server-2012/bb522607(v=sql.110)). For more information about SQL Server 2014 Analysis Services, see [Analysis Services](/sql/analysis-services/analysis-services?view=sql-server-2014). The server that hosts Power Pivot for SharePoint 2013 can be outside a SharePoint Server 2013 farm.
   
 To configure Power Pivot for SharePoint you can use the SharePoint Central Administration website, the Power Pivot for SharePoint 2013 Configuration tool, or Microsoft PowerShell cmdlets. The following table lists each method and describes the process: 
   
@@ -154,11 +154,10 @@ The Power Pivot for SharePoint 2013 add-in enables PowerPivot Gallery, Schedule 
 
 #### Other Resources
 
-[Supported Combinations of SharePoint and Reporting Services Components](https://go.microsoft.com/fwlink/?LinkID=524852&amp;clcid=0x409)
+[Supported Combinations of SharePoint and Reporting Services Components](/sql/reporting-services/install-windows/supported-combinations-of-sharepoint-and-reporting-services-server?viewFallbackFrom=sql-server-2014)
   
 [What's New (Analysis Services)](/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)
   
-[Features Supported by the Editions of SQL Server 2014](https://go.microsoft.com/fwlink/p/?LinkId=151940)
+[Features Supported by the Editions of SQL Server 2014](/sql/sql-server/editions-and-components-of-sql-server-2016)
   
-[Deprecated Database Engine Features in SQL Server 2014](https://go.microsoft.com/fwlink/p/?LinkId=157729)
-
+[Deprecated Database Engine Features in SQL Server 2014](/sql/database-engine/deprecated-database-engine-features-in-sql-server-2016)

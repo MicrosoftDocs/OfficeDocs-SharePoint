@@ -46,15 +46,15 @@ In a SharePoint environment, "mixed" can be defined as one of the following like
     
 By default, the IPv6 protocol and the IPv4 protocol are both installed and enabled in Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Vista, and Windows Server 2008. When both IPv4 and IPv6 are enabled, IPv6 is preferred over IPv4 when you are using names and Domain Name System (DNS) name query responses contain both types of addresses. Additionally, you can remove the IPv4 protocol so that the computer runs only IPv6.
   
-To determine what versions are being used on your network, you can use the IPConfig.exe tool. If the display of the [IPConfig](https://go.microsoft.com/fwlink/p/?LinkId=507022) command at a Command Prompt contains rows named "IPv6 Address" or "Temporary IPv6 Address," you have IPv6 in your environment. If all of the IPv6 addresses begin with "fe80" and correspond to rows named "Link-Local IPv6 Address," you do not have IPv6 in your environment. For additional information, see [IPConfig](https://go.microsoft.com/fwlink/p/?LinkId=507022).
+To determine what versions are being used on your network, you can use the IPConfig.exe tool. If the display of the [IPConfig](/previous-versions/windows/it-pro/windows-2000-server/cc940124(v=technet.10)) command at a Command Prompt contains rows named "IPv6 Address" or "Temporary IPv6 Address," you have IPv6 in your environment. If all of the IPv6 addresses begin with "fe80" and correspond to rows named "Link-Local IPv6 Address," you do not have IPv6 in your environment. For additional information, see [IPConfig](/previous-versions/windows/it-pro/windows-2000-server/cc940124(v=technet.10)).
   
 The following list shows other important considerations about IPv6:
   
 - For any computer that is authenticated by using a domain controller and is only running IPv6 in a SharePoint Server 2013 environment, the domain controller must be running Windows Server 2012, Windows Server 2008, or Windows Server 2008 R2. Ensure that you use the correct service pack and any additional software prerequisites. For more information, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md).
     
-- All versions of SQL Server supported for SharePoint Server 2013 also support IPv6. For more information about IPv6 support for SQL Server 2008, see [Connecting Using IPv6](https://go.microsoft.com/fwlink/p/?LinkId=183115) (https://go.microsoft.com/fwlink/p/?LinkId=183115). 
+- All versions of SQL Server supported for SharePoint Server 2013 also support IPv6. For more information about IPv6 support for SQL Server 2008, see [Connecting Using IPv6](/previous-versions/sql/sql-server-2008/ms345359(v=sql.100)) (https://go.microsoft.com/fwlink/p/?LinkId=183115). 
     
-- When SharePoint Server 2013 uses the IPv6 protocol, all end-user URLs must be based on DNS names with AAAA records. For more information about AAAA records, see [Adding a Resource Record to a Forward Lookup Zone](https://go.microsoft.com/fwlink/p/?LinkId=507021).
+- When SharePoint Server 2013 uses the IPv6 protocol, all end-user URLs must be based on DNS names with AAAA records. For more information about AAAA records, see [Adding a Resource Record to a Forward Lookup Zone](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc816819(v=ws.10)).
     
 - Browsing to SharePoint URLs that use IPv6 literal addresses is not supported. An example of a literal address URL is http://[2001:db8:85a3:8d3:1319:8a2e:370:7344]. However, you can enter IPv6 literal addresses for certain farm administration tasks, such as entering the server name when you create or attach databases. For server names that use a literal address format, you must enclose the literal address within square brackets.
     
@@ -62,13 +62,12 @@ The following list shows other important considerations about IPv6:
     
     To create an ipv6-literal.net name for an IPv6 address, convert the colons (:) in the address to dashes (-), then add the result to "ipv6-literal.net". For example, for the IPv6 address 2001:db8:28:3:f98a:5b31:67b7:67ef, the corresponding ipv6-literal.net name is 2001-db8-28-3-f98a-5b31-67b7-67ef.ipv6-literal.net.
     
-- Some SharePoint features or components integrate with cloud services - such as SharePoint Help, SharePoint Translation Service, and SharePoint apps that use the Azure Access Control Service (ACS) - which might not yet be IPv6-capable. Therefore, make sure that your SharePoint servers are IPv4-capable, which includes both IPv4-only and mixed IPv4 and IPv6 environments, until all of the SharePoint-dependent cloud services become IPv6-capable. For more info, see [IPv6 Support in Office 365 Services] (https://docs.microsoft.com/office365/enterprise/ipv6-support) and [Internet Protocol Version 6 (IPv6) Overview](https://go.microsoft.com/fwlink/p/?LinkId=507023).
+- Some SharePoint features or components integrate with cloud services - such as SharePoint Help, SharePoint Translation Service, and SharePoint apps that use the Azure Access Control Service (ACS) - which might not yet be IPv6-capable. Therefore, make sure that your SharePoint servers are IPv4-capable, which includes both IPv4-only and mixed IPv4 and IPv6 environments, until all of the SharePoint-dependent cloud services become IPv6-capable. For more info, see [IPv6 Support in Office 365 Services] (https://docs.microsoft.com/office365/enterprise/ipv6-support) and [Internet Protocol Version 6 (IPv6) Overview](/previous-versions/windows/it-pro/windows-8.1-and-8/hh831730(v=ws.11)).
     
-For additional information about IPv6 in Microsoft products, see the [IPv6 TechCenter](https://go.microsoft.com/fwlink/p/?LinkId=71543).
+For additional information about IPv6 in Microsoft products, see the [IPv6 TechCenter](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd379473(v=ws.10)).
   
 ## See also
 
 #### Other Resources
 
 [IPv6 Survival Guide in the TechNet Wiki](https://go.microsoft.com/fwlink/p/?LinkId=237480)
-

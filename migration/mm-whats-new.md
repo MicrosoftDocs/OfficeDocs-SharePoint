@@ -37,7 +37,7 @@ You can help us improve Migration Manager by sending us your suggestions and rep
 
 - **Support replacing invalid characters**. To help migrate files with invalid characters in the file name, users can now specify pre-defined characters to replace invalid characters. 
 - **Configure working folder for agents**. Through the Migration Manager UI, you can configure the physical location of the folder where logs and reports are stored on the agent's machine. You can also see the available disc space so you can choose a drive that has enough storage before starting your migration.
-- **Filters for report aggregator script**.  You can now apply rich filters when downloading the detailed task level reports via the PowerShell cmdlet.  See [Download detailed task reports](https://docs.microsoft.com/sharepointmigration/mm-reports#download-detailed-task-reports).
+- **Filters for report aggregator script**.  You can now apply rich filters when downloading the detailed task level reports via the PowerShell cmdlet.  See [Download detailed task reports](./mm-reports.md#download-detailed-task-reports).
 -  **Fix for zero durations in Summary Reports.** We recently introduced an issue where the duration field was showing zero values in the *SummaryReport.csv*. This has been fixed.
 - **Fix for large file upload.**  Report files larger than 250 MB can now be uploaded.
 - **Fix for non-English sites.**  Fixed the issue where Documents1 library was getting created for non-English sites.
@@ -59,6 +59,5 @@ You can help us improve Migration Manager by sending us your suggestions and rep
 - **Government cloud**. Migration Manager supports GCCHigh/DoD tenants.
 - **Vanity URL**. Migration manager supports vanity URLs.
 - **Installation issues**. Fixed issues that caused common agent installation failure.
-- **Report aggregator**.  Detailed task level reports can be generated via a PowerShell cmdlet.  See [Download detailed task reports](https://docs.microsoft.com/sharepointmigration/mm-reports#download-detailed-task-reports).
+- **Report aggregator**.  Detailed task level reports can be generated via a PowerShell cmdlet.  See [Download detailed task reports](./mm-reports.md#download-detailed-task-reports).
 - **General improvements**. Overall fit and finish to improve your experience.
-

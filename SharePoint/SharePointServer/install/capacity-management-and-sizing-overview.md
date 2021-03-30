@@ -143,7 +143,7 @@ You should now have a good understanding of the concepts. For information the li
     
 When you are ready to identify a starting point topology for your SharePoint Server 2013-based environment, you can look through the library of available technical case studies to find the one that most closely matches your requirements. For a list of SharePoint Server 2010 case studies (SharePoint Server 2013 case studies will be published as they become available), see the following article:
   
-- [Performance and capacity technical case studies (SharePoint Server 2010)](https://go.microsoft.com/fwlink/p/?LinkId=95813)
+- [Performance and capacity technical case studies (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/cc261716(v=office.14))
     
 For information about health monitoring and troubleshooting by using the health monitoring tools built into the Central Administration interface, see the following articles:
   
@@ -503,5 +503,4 @@ Large farm deployments introduce the breakdown of services and solutions across 
   
 [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md)
   
-[Performance and capacity technical case studies (SharePoint Server 2010)](https://go.microsoft.com/fwlink/p/?LinkId=95813)
-
+[Performance and capacity technical case studies (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/cc261716(v=office.14))

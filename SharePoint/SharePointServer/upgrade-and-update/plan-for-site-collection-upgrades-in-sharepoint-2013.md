@@ -73,7 +73,7 @@ You can control settings for site collection upgrade and site creation. You can 
 |SPSite.AllowSelfServiceUpgrade  <br/> |Determines whether an upgrade notification can be set for a site collection.  <br/> Default is true - notifications are set automatically.  <br/> If set to false, the upgrade notification will not appear on the status bar.  <br/> |
 |SPWebApplication.CompatibilityRange  <br/> | Determines in which modes a site collection can be created. For example, 2010 mode (14) or 2013 mode (15). The following ranges are available:  <br/> **OldVersions** Use this range to enable users to create only 2010 mode sites.  <br/> **NewVersion** Use this range to enable users to create only 2013 mode sites.  <br/> **AllVersions** Use this range to enable users to create either 2010 or 2013 mode sites.  <br/>  You can use these ranges or set your range by using the **New-Object** command to set the **Microsoft.Shareoint.SPCompatibilityRange** property.  <br/> |
    
-For more information about how to set these properties, see [Manage site collection upgrades (SharePoint 2013 Products)](/SharePoint/upgrade-and-update/manage-site-collection-upgrades-to-sharepoint-2013).
+For more information about how to set these properties, see [Manage site collection upgrades (SharePoint 2013 Products)](./manage-site-collection-upgrades-to-sharepoint-2013.md).
   
 You can also control settings upgrade notifications. You can determine the following: 
   
@@ -92,7 +92,7 @@ The following properties control site collection upgrade notifications:
 |SPWebApplication.UpgradeMaintenanceLink  <br/> |Adds another link to the **upgrading now** status message so that users can follow it, and find more information.  <br/> Default is empty.  <br/> |
 |SPWebApplication.UpgradeReminderDelay  <br/> |Sets the number of days to suspend the upgrade notification in the status bar after a user clicks **Remind me later**.  <br/> Default is 30 days.  <br/> If set to 0, then the upgrade notification is not removed from the status bar and the notification cannot be set to **Remind me later**.  <br/> |
    
-For more information about how to set these properties, see [Manage site collection upgrades (SharePoint 2013 Products)](/SharePoint/upgrade-and-update/manage-site-collection-upgrades-to-sharepoint-2013).
+For more information about how to set these properties, see [Manage site collection upgrades (SharePoint 2013 Products)](./manage-site-collection-upgrades-to-sharepoint-2013.md).
   
 ## Plan for upgrade evaluation sites
 <a name="EvalSites"> </a>
@@ -154,7 +154,7 @@ In this illustration, the content database contains fifteen sites, and all sites
     
 3. Because of the content database throttle, five sites are sent to the upgrade queue to wait their turn.
     
-You can use the default throttling settings, or you can specify your own values for how many site collections can be upgraded at the same time. Farm administrators can also override throttle settings when they upgrade a site by using PowerShell. Exercise caution when you change these values and make sure that you verify the settings that you want to use in a test environment before you implement them in production. If you increase throttling too much, you could create performance problems in your environment. For example, too many parallel upgrades could affect site rendering. For information about how to change these settings, see [Manage site collection upgrades](/SharePoint/upgrade-and-update/manage-site-collection-upgrades-to-sharepoint-2013).
+You can use the default throttling settings, or you can specify your own values for how many site collections can be upgraded at the same time. Farm administrators can also override throttle settings when they upgrade a site by using PowerShell. Exercise caution when you change these values and make sure that you verify the settings that you want to use in a test environment before you implement them in production. If you increase throttling too much, you could create performance problems in your environment. For example, too many parallel upgrades could affect site rendering. For information about how to change these settings, see [Manage site collection upgrades](./manage-site-collection-upgrades-to-sharepoint-2013.md).
   
 ## About site collection modes
 <a name="SiteModes"> </a>
@@ -174,7 +174,7 @@ Explain to site collection administrators that their upgrade evaluation sites ar
   
 By default, site collection administrators control upgrade for their sites. They can use upgrade evaluation site collections to preview the new user interface and features. This gives them time to make sure that everything works correctly, and they can address any issues in their original site before upgrading it. When site collection administrators are ready, they can upgrade their sites. 
   
-We recommend that you have a plan and set a time limit for how long to allow site collection administrators to postpone upgrade of their sites. For example, each site collection administrator may be given 90 days to work with his or her site collection administrators to evaluate and then upgrade their sites. This time limit makes sure that users are given a reasonable time to become familiar with the new user interface and to resolve any issues in their sites. Ensure that you communicate the time limit to the users, and that they know that you can force through an upgrade of all sites. Also, you can use a PowerShell command to check the compatibility level for sites in a content database so that you can see how many sites are in 2010 mode and how many are in 2013 mode. For more information, see [Manage site collections upgrades](/SharePoint/upgrade-and-update/manage-site-collection-upgrades-to-sharepoint-2013).
+We recommend that you have a plan and set a time limit for how long to allow site collection administrators to postpone upgrade of their sites. For example, each site collection administrator may be given 90 days to work with his or her site collection administrators to evaluate and then upgrade their sites. This time limit makes sure that users are given a reasonable time to become familiar with the new user interface and to resolve any issues in their sites. Ensure that you communicate the time limit to the users, and that they know that you can force through an upgrade of all sites. Also, you can use a PowerShell command to check the compatibility level for sites in a content database so that you can see how many sites are in 2010 mode and how many are in 2013 mode. For more information, see [Manage site collections upgrades](./manage-site-collection-upgrades-to-sharepoint-2013.md).
   
 It is important to tell site collection administrators that as long as sites use the 2010 mode, new features will not be available. However, as soon as sites are upgraded to the new version, application features automatically appear.
   
@@ -183,11 +183,10 @@ It is important to tell site collection administrators that as long as sites use
 
 #### Other Resources
 
-[Manage site collection upgrades](/SharePoint/upgrade-and-update/manage-site-collection-upgrades-to-sharepoint-2013)
+[Manage site collection upgrades](./manage-site-collection-upgrades-to-sharepoint-2013.md)
   
 [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013.md)
   
 [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md)
   
-[Run site collection health checks in SharePoint 2013](/SharePoint/sharepoint-server)
-
+[Run site collection health checks in SharePoint 2013](../sharepoint-server.yml)
