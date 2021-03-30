@@ -55,7 +55,7 @@ Let's look at examples of these different scenarios.
   
 Suppose that you have a company called Northwind Traders. You create a communication site called "Benefits" with the URL northwindtraders.sharepoint.com/sites/benefits. At the site collection root, you set up SharePoint groups, assign permission levels, and add users to the groups.
   
-Suppose then that you create subsites for the "Benefits" site, such as "Health care" (northwindtraders.sharepoint.com/sites/benefits/healthcare) and "Retirement" (northwindtraders.sharepoint.com/sites/benefits/retirement). These subsites could even contain more subsites. For example, the "Health care" subsite could have a "Dental" subsite ((northwindtraders.sharepoint.com/sites/benefits/healthcare/dental).
+Suppose then that you create subsites for the "Benefits" site, such as "Health care" (northwindtraders.sharepoint.com/sites/benefits/healthcare) and "Retirement" (northwindtraders.sharepoint.com/sites/benefits/retirement). These subsites could even contain more subsites. For example, the "Health care" subsite could have a "Dental" subsite (northwindtraders.sharepoint.com/sites/benefits/healthcare/dental).
   
 ### A scenario that uses default behavior
 <a name="__toc340139791"> </a>
