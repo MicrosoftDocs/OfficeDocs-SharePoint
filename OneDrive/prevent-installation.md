@@ -25,13 +25,20 @@ The Sync button helps users install and set up the new OneDrive sync app. If you
   
  **To prevent users from downloading the OneDrive sync app**
   
-1. Sign in to the [OneDrive admin center](https://admin.onedrive.com) as a global or SharePoint admin, and select **Sync** in the left pane.
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+ 
+   > [!NOTE]
+   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. 
+   > 
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
+
+2. Select **Sync**.
+
+    ![Sync settings in the SharePoint admin center](media/sp-sync-settings.png)
+
+3. Clear the **Show the Sync button on the OneDrive website** check box.
     
-    ![The Sync page of the OneDrive admin center](media/preventinstallation.png)
-  
-2. Clear the **Show the Sync button on the OneDrive website** check box.
-    
-3. Click **Save**.
+4. Select **Save**.
     
 ## See also
 
