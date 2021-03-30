@@ -45,17 +45,22 @@ For every migration task you create, you'll be prompted for a **source** and a *
 - **Destination** - The destination is where in Microsoft 365 you want to copy your content. It can be a SharePoint site, OneDrive, or a Teams location. Decide where you want the content to be, and then enter the specific location URL. 
 
 ## Create a migration task
-
   
 1. Go to the [Migration page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.   
 2. Select **Add task**.   
 3. Under Method, select either **Single source and destination** or **Bulk migration**. If you have only a few file shares to migrate, select the single source and destination method. If you are migrating content from a large number of file shares, select bulk migration.
-4. **Source**. Enter the path to the file share that contains the content you want to migrate.  Use the format \\contoso\fileshare. Select **Next**.
-5. **Destination**. Enter the SharePoint site, OneDrive, or Teams location where you want to migrate your content. 
-6. Select the specific location in your destination. Depending on your destination, the location could be a document folder or Teams channel. Select **Next**.
-7. In the **Task name** box, enter a friendly name to identify your task. 
-8. Review your settings to make certain they're set correctly for you. Select **Run now**. To learn more about specific settings, see [Migration Manager settings](mm-settings.md).
-9. This task is added to the list. For each file share you want to migrate, select **Add task**.
+4.Under **Source**, enter the path to the file share that contains the content you want to migrate.  Use the format \\contoso\fileshare. Select **Next**.
+5. Under **Select a destination**, choose SharePoint site, OneDrive, or Teams. Select **Next**.
+6. Enter the specific destination location: </br>
+ -  OneDrive:  Enter a OneDrive URL or an email address
+ -  SharePoint:  Enter the SharePoint site and document folder
+ -  Teams:  Enter the team name and channel.  
+
+7.Select **Next**.
+8. Under **Settings**, enter a friendly Task name to identify your task.
+9. If you have you Agent groups and want to assign this task to a specific group of agents, make your selection from the dropdown list. Otherwise the task will be in the default group and be assigned to the next available agent. (Optional) 
+10. Select **All settings** to make certain they're set correctly for you. To learn more about specific settings, see [Migration Manager settings](mm-settings.md).
+11. Select **Run now**. The task will added to the list waiting for the next available agent. For each file share you want to migrate, select **Add task**.
 
 >[!Note]
 >Each agent can have up to 10 tasks in its queue.
