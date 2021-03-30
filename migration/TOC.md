@@ -7,6 +7,7 @@
 ### Reference
 #### [What's new](mm-whats-new.md)
 #### [Settings](mm-settings.md)
+#### [Create an Agent group](mm-agent-targeting.md)
 #### [Government cloud configuration](mm-gov-cloud.md)
 #### [How Migration Manager works](mm-how-it-works.md)
 #### [Format a CSV or JSON file for bulk upload](mm-bulk-upload-format-csv-json.md)
