@@ -27,31 +27,35 @@ description: "In this article, you'll learn how to prevent users from uploading 
 
 You can prevent users from uploading specific file types when they sync their OneDrive files.
 
-You must sign in as a global or SharePoint admin in your organization.
-
-- If you're signed in to your browser with a work or school account that isn't an admin, you'll see the Sync page, but the contents won't appear.
-- If you're signed in to your browser with a Microsoft account, your personal OneDrive will appear.
-
-   > [!NOTE]
-   > This setting prevents file types from being uploaded but not downloaded. If users already have blocked file types in their OneDrive, the files will sync to their computer, but any changes they make on their computer won't be uploaded.
+> [!NOTE]
+> This setting prevents file types from being uploaded but not downloaded. If users already have blocked file types in their OneDrive, the files will sync to their computer, but any changes they make on their computer won't be uploaded.
 
   
  **To block uploading of specific file types**
   
-1. Open the [OneDrive admin center](https://admin.onedrive.com), and click **Sync** in the left pane.
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+ 
+   > [!NOTE]
+   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. 
+   > 
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
 
-    ![The Sync page of the OneDrive admin center](media/od-admin-sync.png)
+2. Select **Sync**.
+
+    ![Sync settings in the SharePoint admin center](media/sp-sync-settings.png)
   
-2. Select the **Block syncing of specific file types** check box.
+3. Select the **Block upload of specific file types** check box.
 
-3. Type the file name extensions you want to block, for example: **exe** or **mp3**.
+4. Enter the file name extensions you want to block, for example: **exe** or **mp3**.
 
     > [!IMPORTANT]
     > Do not include the periods with the extensions, or any other punctuation, spaces, or special characters.
   
-4. Click **Save** on the Sync page.
-
-For info about setting this sync app restriction by using PowerShell, see [Set-SPOTenantSyncClientRestriction](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
+5. Select **Save**.
 
    > [!NOTE]
    > When you configure this setting, it takes approximately 8 hours for the OneDrive sync app to detect it and apply the change.
+
+For info about setting this sync app restriction by using PowerShell, see [Set-SPOTenantSyncClientRestriction](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction). For info about using a policy to block upload of specific files, see [Exclude specific kinds of files from being uploaded](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded).
+
+
