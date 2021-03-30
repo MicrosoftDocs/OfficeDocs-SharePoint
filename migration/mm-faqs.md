@@ -73,3 +73,6 @@ Answer: Yes. If your migration task was successful, your data will be migrated t
 Answer:  In general, site performance should not be impacted by running a migration.  There are many factors that prevent this from happening:
 - Migration runs as a background activity and does not compete with end-user traffic
 - SharePoint and OneDrive infrastructure has built-in throttling rules that project the reliability and availability of the system. To learn more about migration throughput and factors that affect migration speed, learn more at:  [General migration performance guidance](./sharepoint-online-and-onedrive-migration-speed.md)
+
+**Question:** How do I remove the Migration Manager agent from a computer? </br>
+Answer: Re-run the Migration Manager agent installer and click the **Uninstall** button.
