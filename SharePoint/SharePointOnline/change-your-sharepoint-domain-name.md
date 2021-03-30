@@ -53,7 +53,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 |Search and Delve |Search results might not be complete or might return results for the original URLs until the search index is updated.| None |
 |Office "Recent" and "Pinned" lists |These lists are updated immediately for the first 100 users for each URL that was changed. The remaining are updated when the search index is updated.| None |
 |Office.com |The URLs at https://www.office.com can take 24 hours to be updated.| None |
-|Hub site menu items| Items that contain absolute URLs aren't changed.  | Edit the menu items and if required, change the URLs to the new domain name. |
+|Hub site menu items| Items that contain absolute URLs aren't changed.  | Edit the menu items and if necessary, change the URLs to the new domain name. |
 |SharePoint content  | Content (such as text on pages) that includes the domain name won't be updated to display the new name. | Search for the old domain name and edit content to display the new domain name.|
 
 ### Medium impact
@@ -68,20 +68,20 @@ It's now possible to change the SharePoint domain name for your organization in 
 |Power Automate |Flows that use a SharePoint connection as a data source won't work.|Reconnect these flows to SharePoint.
 |SharePoint add-ins | Add-ins might not function as expected. |The add-ins might need to be republished. <br>Review the App configuration settings in Azure AD for the add-in and update any URLs to the new domain name.
 |eDiscovery |Holds can't be removed until you update the URLs |In the Compliance center, change the eDiscovery hold URLs to the new domain name.|
-|Project Online | Workflows that are “in flight” will not complete and will be orphaned. |Before changing your domain name, make sure all “in flight” workflows are completed. After you change the domain name, republish the workflows. You can then reset them to "in flight" in Project Web App by going to PWA Settings > Change or Restart Workflows. 
+|Project Online | Workflows that are “in flight” won't complete and will be orphaned. |Before changing your domain name, make sure all “in flight” workflows are completed. After you change the domain name, republish the workflows. You can then reset them to "in flight" in Project Web App by going to PWA Settings > Change or Restart Workflows. 
 |Project Online | New workflow instances can't be initiated. |*NONE??*|
 |Project Online | Association to previous workflow instances isn't available and will be orphaned. |*NONE??*|
-|Project Online |URLs embedded in workflows aren't changed. For example, if a workflow contains the embedded URL contoso.sharepoint.com, it isn't change. This might impact the functionality of the workflow.|Workflows that contain URLs referring to the original domain name may need to be updated to the new name.|
+|Project Online |URLs embedded in workflows aren't changed. For example, if a workflow contains the embedded URL contoso.sharepoint.com, it isn't change. This might impact the functionality of the workflow.|Workflows that contain URLs referring to the original domain name might need to be updated to the new name.|
 |Project Online| References to PWA sites in Project Online at https://project.microsoft.com won't work |In Project Online at https://project.microsoft.com, change the URL of the PWA sites under Settings > My PWA Site.|
 |Project Online | Custom Excel Reports that use Microsoft Project Data connections as a data source won't work. | These reports will need to be reconnected. |
 |Project Pro| The app won't work until you update the URL of the PWA site. | Before changing your domain name, make sure that all projects that are checked out in Project Pro are checked in. After you change the domain name, change the URL of the PWA site under File > Info > Manage Accounts.|
-|SharePoint 2013 workflows  |Workflows that are “in flight” will not complete and will be orphaned. |Before changing your domain name, make sure all “in flight” workflows are completed. After you change the domain name, republish the workflows.|
+|SharePoint 2013 workflows  |Workflows that are “in flight” won't complete and will be orphaned. |Before changing your domain name, make sure all “in flight” workflows are completed. After you change the domain name, republish the workflows.|
 |SharePoint 2013 workflows *CAN WE COMBINE WITH PROJECT ONLINE TO AVOID REPEATING?*| New 2013 Workflow instances can't be initiated.|*NONE??*|
 |SharePoint 2013 workflows *CAN WE COMBINE WITH PROJECT ONLINE TO AVOID REPEATING?*| Association to previous workflow instances isn't available and will be orphaned.| *NONE??*|
-|SharePoint 2013 workflows *CAN WE COMBINE WITH PROJECT ONLINE TO AVOID REPEATING?*|URLs embedded in workflows aren't changed. For example, if a workflow contains the embedded URL contoso.sharepoint.com, it isn't changed. This may impact the functionality of the workflow.|Workflows that contain URLs referring to the original domain name may need to be updated to the new name.|
+|SharePoint 2013 workflows *CAN WE COMBINE WITH PROJECT ONLINE TO AVOID REPEATING?*|URLs embedded in workflows aren't changed. For example, if a workflow contains the embedded URL contoso.sharepoint.com, it isn't changed. This might impact the functionality of the workflow.|Workflows that contain URLs referring to the original domain name might need to be updated to the new name.|
 |InfoPath forms| Forms that use a SharePoint connection as a data source won't work. |Reconnect these forms to SharePoint.|
-|Site customizations and embedded code|Absolute URLs embedded in SharePoint customizations aren't updated.|Edit customizations that contain absolute URLs and if required, change the URLs to the new domain name.|
-|Custom apps, third-party apps, and Group Policy objects | Absolute URLs embedded in these apps and objects aren't changed.| Edit custom apps and Active Directory Group Policy objects that contain absolute URLs and if required, change the URLs to the new domain name. Confirm with third-party app publishers that apps don't contain absolute URLs.|
+|Site customizations and embedded code|Absolute URLs embedded in SharePoint customizations aren't updated.|Edit customizations that contain absolute URLs and if necessary, change the URLs to the new domain name.|
+|Custom apps, third-party apps, and Group Policy objects | Absolute URLs embedded in these apps and objects aren't changed.| Edit custom apps and Active Directory Group Policy objects that contain absolute URLs and if necessary, change the URLs to the new domain name. Confirm with third-party app publishers that apps don't contain absolute URLs.|
 |Custom and third-party apps | Some apps might not process the HTTP 308 direct correctly. | Edit custom apps and work with third-party app publishers to ensure that they handle HTTP 308 responses correctly.|
 
 ### High impact
@@ -146,7 +146,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 
 Where "ScheduleDateTime" is at least 24 hours in the future, but not more than 30 days.
 
-When you run this command, all admins will immediately receive an email notification. They will also receive an email reminder four hours before the scheduled date/time. 
+When you run this command, all admins will immediately receive an email notification. They'll also receive an email reminder four hours before the scheduled date/time. 
 
 You can get the status of the rename by running `Get-SPOTenantRenameStatus`. You can get the status of sites by running:
 
@@ -160,6 +160,6 @@ You can cancel a scheduled job by running `Stop-SPOTenantRename -Reason <Reason>
 
 ## Step 3: After renaming
 
-1. Review any firewall rules that may block access to the new domain.
+1. Review any firewall rules that might block access to the new domain.
 2. Review organization browser settings to make sure  the new domain is a trusted location. This includes reviewing any Group Policy settings that might control browser settings.
 3. Review any third-party apps, custom apps, and scripts that access SharePoint. They might need to be modified to use the new domain.
