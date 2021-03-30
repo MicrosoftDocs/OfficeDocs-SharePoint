@@ -32,9 +32,12 @@ description: "Learn about changing your organization name in SharePoint URLs"
 # Change your SharePoint domain name
 
 It's now possible to change the SharePoint domain name for your organization in Microsoft 365. For example, if the name of your organization changes from "Contoso" to "Fourth Coffee," you can change `contoso.sharepoint.com`  to  `fourthcoffee.sharepoint.com`.
+
+> [!IMPORTANT]
+> This preview is rolling out to organizations with the fewest sites first. It might not be available yet for your organization. This feature isn't available for organizations that have set up Multi-geo.
   
 > [!NOTE]
-> This preview is rolling out to organizations with the fewest sites first. It might not be available yet for your organization. This feature isn't available for organizations that have set up Multi-geo.<br><br>This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses. For info about changing a site address, for example, from `https://contoso.sharepoint.com/sites/sample1` to  `https://contoso.sharepoint.com/sites/sample2`, see [Change a site address](change-site-address.md).  
+> This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses. For info about changing a site address, for example, from `https://contoso.sharepoint.com/sites/sample1` to  `https://contoso.sharepoint.com/sites/sample2`, see [Change a site address](change-site-address.md).  
 
 ## Limitations
 
@@ -126,7 +129,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 
     ![Custom domain name pane](media/domain-verified.png)
 
-## Step 2: Use Microsoft PowerShell to rename
+## Step 2: Use Microsoft PowerShell to rename your domain
 
 > [!WARNING]
 > Changing your SharePoint domain name might take several hours to days depending on the number of sites and OneDrive users that you have. We strongly recommend that you make this change during a period of low usage (like a weekend) and tell users to avoid accessing SharePoint and OneDrive content during the change. In addition, any actions that create new sites (such as creating a new team or private channel in Microsoft Teams) will be temporarily blocked during the rename. 
@@ -158,7 +161,7 @@ Where "SiteState" is `NotStarted`, `InProgress`, `Success`, or `AttentionRequire
 
 You can cancel a scheduled job by running `Stop-SPOTenantRename -Reason <Reason> [-Comment <Comment>] [-WhatIf] [-Confirm]`​
 
-## Step 3: After renaming
+## Step 3: Review features and settings after the rename
 
 1. Review any firewall rules that might block access to the new domain.
 2. Review organization browser settings to make sure  the new domain is a trusted location. This includes reviewing any Group Policy settings that might control browser settings.
