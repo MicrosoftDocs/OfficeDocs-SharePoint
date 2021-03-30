@@ -56,7 +56,7 @@ Using the steps below as a template, create your own custom guidance for SharePo
 
 **Resources:**</br>
 - [Manage site creation in SharePoint](manage-site-creation.md)
-- [Secure SharePoint sites and files](/office365/securitycompliance/secure-sharepoint-online-sites-and-files)
+- [Policy recommendations for securing SharePoint sites and files](/microsoft-365/security/office-365-security/sharepoint-file-access-policies)
 - [Branding and site provisioning solutions for SharePoint](/sharepoint/dev/solution-guidance/branding-and-site-provisioning-solutions-for-sharepoint)
 
 **Sample text:**</br>

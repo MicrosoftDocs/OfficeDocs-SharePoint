@@ -61,8 +61,6 @@ The following table shows the differences between sharing with people who have g
 
 [External sharing overview](external-sharing-overview.md)
 
-[Secure SharePoint sites and files](/office365/securitycompliance/secure-sharepoint-online-sites-and-files)
-
 [Share SharePoint files or folders in Microsoft 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c)
 
 [Change permissions and seeing who you've shared with](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323)

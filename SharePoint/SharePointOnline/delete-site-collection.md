@@ -85,7 +85,8 @@ To permanently delete sites (including Microsoft 365 group-connected team sites)
       ```PowerShell
       Remove-SPODeletedSite -Identity https://contoso.sharepoint.com/sites/sitetoremove
       ```
- (Where https://contoso.sharepoint.com/sites/sitetoremove is the URL of the site you want to permanently delete). For more info about using this command, see [Remove-SPODeletedSite](/powershell/module/sharepoint-online/remove-spodeletedsite).
+
+ (Where `https://contoso.sharepoint.com/sites/sitetoremove` is the URL of the site you want to permanently delete). For more info about using this command, see [Remove-SPODeletedSite](/powershell/module/sharepoint-online/remove-spodeletedsite).
 
 ## Summary of options
 
