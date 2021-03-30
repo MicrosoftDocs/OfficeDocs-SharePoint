@@ -31,13 +31,10 @@ description: "Learn about changing your organization name in SharePoint URLs"
 
 # Change your SharePoint domain name
 
-> [!NOTE]
-> This preview is rolling out to organizations with the fewest sites first. It might not be available yet for your organization.
-
 It's now possible to change the SharePoint domain name for your organization in Microsoft 365. For example, if the name of your organization changes from "Contoso" to "Fourth Coffee," you can change  *contoso.sharepoint.com*  to  *fourthcoffee.sharepoint.com*.
   
 > [!NOTE]
-> This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses. For info about changing a site address, for example, from *https://contoso.sharepoint.com/sites/sample1* to  *https://contoso.sharepoint.com/sites/sample2*, see [Change a site address](change-site-address.md). This feature isn't available for organizations that have set up Multi-geo. 
+> This preview is rolling out to organizations with the fewest sites first. It might not be available yet for your organization. This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses. For info about changing a site address, for example, from *https://contoso.sharepoint.com/sites/sample1* to  *https://contoso.sharepoint.com/sites/sample2*, see [Change a site address](change-site-address.md). This feature isn't available for organizations that have set up Multi-geo. 
 
 ## Limitations
 
@@ -91,16 +88,10 @@ It's now possible to change the SharePoint domain name for your organization in 
 
 |App/feature  |Limitation  |Action required  |
 |---------|---------|---------|
-| Long URLs|Any absolute URLs to sites or content that exceed the maximum URL length limit of 400 characters won't work.| Before changing your domain name, if the new domain name is longer than the original, then review and if required, rename any sites, lists, document libraries, list items, or documents such that the new absolute URLs will not exceed 400 characters. |
+| Long URLs|Any absolute URLs to sites or content that exceed the maximum URL length limit of 400 characters won't work.| If the new domain name is longer than the original, review the URLs of all sites, lists, document libraries, list items, and files before your change the domain name to make sure the new URLs won't exceed 400 characters. |
 |Deleted sites | Any sites that have been deleted can't be restored after the change. | Before changing your domain name, review the Deleted sites page in the SharePoint admin center and restore any sites that you might want to keep. |
-|Multi-geo
+|Point-in-time restoration | Restoring a site to a previous time before the domain name change isn't possible | No action available.|
 
-
-
-
-
-
-Known issues
 
 ## Step 1: Add the new domain name
 
@@ -136,5 +127,37 @@ If you own the domain for another subscription, contact *NEED SPECIFIC INFO* for
 9. Confirm that your domain has been added to the list. 
 
 
+## Step 2: Use Microsoft PowerShell to specify a site as an organization news site
+  
+1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
+    > [!NOTE]
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
 
+2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+    
+3. Run the following command to specify the new domain name:
+  
+    ```PowerShell
+    Start-SPOTenantRename -DomainName <DomainName> -ScheduleDateTime <YYYY-MM-DDTHH:MM:SSZ> [-WhatIf] [-Confirm]​ 
+    ```
+
+Where "ScheduleDateTime" is at least 24 hours in the future, but not more than 30 days.
+
+When you run this command, all admins will immediately receive an email notification. They will also receive an email reminder four hours before the scheduled date/time. 
+
+You can get the status of the rename by running `Get-SPOTenantRenameStatus`. You can get the status of sites by running:
+
+    ```PowerShell
+    Get-SPOTenantRenameStatus -SiteState <SiteState> [-Limit <Limit>]​ 
+    ```
+
+Where "SiteState" is `NotStarted`, `InProgress`, `Success`, or `AttentionRequired` and "Limit" is the number of sites returned. By default, only the first 200 sites are returned. The value `All` will return all sites.
+
+You can cancel a scheduled job by running `Stop-SPOTenantRename -Reason <Reason> [-Comment <Comment>] [-WhatIf] [-Confirm]`​
+
+## After renaming
+
+1. Review any firewall rules that may block access to the new domain.
+2. Review organization browser settings to make sure  the new domain is a trusted location. This includes reviewing any Group Policy settings that might control browser settings.
+3. Review any third-party apps, custom apps, and scripts that access SharePoint. They might need to be modified to use the new domain.
