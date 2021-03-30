@@ -6,6 +6,7 @@ author: kaarins
 manager: serdars
 recommendations: true
 audience: Admin
+ROBOTS: NOINDEX
 f1.keywords:
 - NOCSH
 ms.topic: article
