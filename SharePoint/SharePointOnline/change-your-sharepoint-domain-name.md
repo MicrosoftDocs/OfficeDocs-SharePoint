@@ -31,10 +31,10 @@ description: "Learn about changing your organization name in SharePoint URLs"
 
 # Change your SharePoint domain name
 
-It's now possible to change the SharePoint domain name for your organization in Microsoft 365. For example, if the name of your organization changes from "Contoso" to "Fourth Coffee," you can change  *contoso.sharepoint.com*  to  *fourthcoffee.sharepoint.com*.
+It's now possible to change the SharePoint domain name for your organization in Microsoft 365. For example, if the name of your organization changes from "Contoso" to "Fourth Coffee," you can change `contoso.sharepoint.com`  to  `fourthcoffee.sharepoint.com`.
   
 > [!NOTE]
-> This preview is rolling out to organizations with the fewest sites first. It might not be available yet for your organization. This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses. For info about changing a site address, for example, from *https://contoso.sharepoint.com/sites/sample1* to  *https://contoso.sharepoint.com/sites/sample2*, see [Change a site address](change-site-address.md). This feature isn't available for organizations that have set up Multi-geo. 
+> This preview is rolling out to organizations with the fewest sites first. It might not be available yet for your organization. This feature isn't available for organizations that have set up Multi-geo.<br><br>This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses. For info about changing a site address, for example, from `https://contoso.sharepoint.com/sites/sample1` to  `https://contoso.sharepoint.com/sites/sample2`, see [Change a site address](change-site-address.md).  
 
 ## Limitations
 
@@ -84,7 +84,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 |Custom apps, third-party apps, and Group Policy objects | Absolute URLs embedded in these apps and objects aren't changed.| Edit custom apps and Active Directory Group Policy objects that contain absolute URLs and if required, change the URLs to the new domain name. Confirm with third-party app publishers that apps don't contain absolute URLs.|
 |Custom and third-party apps | Some apps might not process the HTTP 308 direct correctly. | Edit custom apps and work with third-party app publishers to ensure that they handle HTTP 308 responses correctly.|
 
-## High impact
+### High impact
 
 |App/feature  |Limitation  |Action required  |
 |---------|---------|---------|
@@ -95,39 +95,41 @@ It's now possible to change the SharePoint domain name for your organization in 
 
 ## Step 1: Add the new domain name
 
-1. Check the availability of the new domain you want by entering the full SharePoint URL in your browser (for example, https://fourthcoffee.sharepoint.com). If you get a “not found” (404) error, it indicates the domain is most likely available. If the domain is already registered by another customer, we can't provide any information or contact the customer. 
+1. Check the availability of the new domain you want by entering the full SharePoint URL in your browser (for example, `https://fourthcoffee.sharepoint.com`). If you get a “not found” (404) error, it indicates the domain is most likely available. If the domain is already registered by another customer, we can't provide any information or contact the customer. 
 
--or-
+    -or-
 
-If you own the domain for another subscription, contact *NEED SPECIFIC INFO* for instructions on how to delete it. It typically takes 4-8 weeks to make the domain available. 
+    If you own the domain for another subscription, contact *NEED SPECIFIC INFO* for instructions on how to delete it. It typically takes 4-8 weeks to make the domain available. 
+
+    > [!WARNING]
+    > Do NOT use the domain to test this procedure in a test environment first. If you do, you won't be able to use the domain for your production environment.
+
+2. Go to the [Custom domain names page in the Azure AD admin center](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains).
+
+3. Select **Add custom domain**.
+
+4. In the **Custom domain name** box, add the full new “.onmicrosoft.com” domain, and then select **Add domain**.
+
+    ![Custom domain name pane](media/custom-domain-name.png)
+
+    > [!IMPORTANT]
+    > Do NOT include any hyphens (-) in the new domain. They aren't supported in SharePoint.
+ 
+5. Make sure you get a confirmation message. If the domain isn't available, try a different domain. 
+ 
+6. After getting a confirmation that the domain was added successfully, you might see a message that the properties could not be found. Select the message to refresh domain references.
+
+    > [!WARNING]
+    > Do NOT add any other domains. Do NOT configure the new domain as the initial domain.
+ 
+7. Confirm that your domain has been added to the list. 
+
+    ![Custom domain name pane](media/domain-verified.png)
+
+## Step 2: Use Microsoft PowerShell to rename
 
 > [!WARNING]
-> Do not use the domain to test this procedure in a test environment first. If you do, you won't be able to use the domain for your production environment.
-
-2. Sign in to the Microsoft 365 admin center at https://admin.microsoft.com.
-
-3. In the same browser tab, navigate to https://aka.ms/SPORenameAddDomain.
-
-4. Select **Add custom domain**.
-
-5. In the **Custom domain name** box, add the full new “.onmicrosoft.com” domain.
-
-> [!IMPORTANT]
-> Do NOT include any hyphens (-) in the new domain. They aren't supported in SharePoint.
- 
-6. Make sure you get a confirmation message. If the domain isn't available, try a different domain. 
- 
-7. After getting a confirmation that the domain was added successfully, you might see a message that the properties could not be found. Select the message to refresh domain references.
- 
-8. Close the pane *HOW*? to return to the domain list.
-
-> [!WARNING]
-> Do NOT add any other domains. Do NOT configure the new domain as the initial domain.
- 
-9. Confirm that your domain has been added to the list. 
-
-
-## Step 2: Use Microsoft PowerShell to specify a site as an organization news site
+> Changing your SharePoint domain name might take several hours to days depending on the number of sites and OneDrive users that you have. We strongly recommend that you make this change during a period of low usage (like a weekend) and tell users to avoid accessing SharePoint and OneDrive content during the change. In addition, any actions that create new sites (such as creating a new team or private channel in Microsoft Teams) will be temporarily blocked during the rename. 
   
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
@@ -156,7 +158,7 @@ Where "SiteState" is `NotStarted`, `InProgress`, `Success`, or `AttentionRequire
 
 You can cancel a scheduled job by running `Stop-SPOTenantRename -Reason <Reason> [-Comment <Comment>] [-WhatIf] [-Confirm]`​
 
-## After renaming
+## Step 3: After renaming
 
 1. Review any firewall rules that may block access to the new domain.
 2. Review organization browser settings to make sure  the new domain is a trusted location. This includes reviewing any Group Policy settings that might control browser settings.
