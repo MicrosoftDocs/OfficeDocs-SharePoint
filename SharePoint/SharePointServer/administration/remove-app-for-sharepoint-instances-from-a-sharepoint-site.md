@@ -46,7 +46,6 @@ Use the following procedure to remove an app from a SharePoint site.
 [Add apps for SharePoint to a SharePoint site](add-apps-for-sharepoint-to-a-sharepoint-site.md)
 #### Other Resources
 
-[Get all App instances for a specific App on a specific web application](https://go.microsoft.com/fwlink/p/?LinkId=273969)
+[Get all App instances for a specific App on a specific web application](/samples/browse/?redirectedfrom=TechNet-Gallery)
   
-[Remove all App instances for a specific App on a specific web application](https://go.microsoft.com/fwlink/p/?LinkId=273970)
-
+[Remove all App instances for a specific App on a specific web application](/samples/browse/?redirectedfrom=TechNet-Gallery)

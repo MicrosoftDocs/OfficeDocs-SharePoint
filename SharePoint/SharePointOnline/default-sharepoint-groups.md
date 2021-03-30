@@ -31,11 +31,11 @@ Administrators can create additional groups to align more closely with specific 
   
 Here are links to information on understanding and setting SharePoint permissions.
   
-- [Understanding permission levels in SharePoint](/sharepoint/understanding-permission-levels)
+- [Understanding permission levels in SharePoint](./understanding-permission-levels.md)
     
 - [Edit and manage permissions for a SharePoint list or library](https://support.office.com/article/02D770F3-59EB-4910-A608-5F84CC297782)
     
-- [How to create and edit permission levels](/sharepoint/how-to-create-and-edit-permission-levels)
+- [How to create and edit permission levels](./how-to-create-and-edit-permission-levels.md)
     
 ## Permission levels for default SharePoint groups
 <a name="__toc352237424"> </a>
@@ -49,7 +49,7 @@ Each site template has a set of SharePoint groups associated with it. When you c
 For example, the following table shows the groups and permission levels that are created for team sites:
   
 |**SharePoint groups**|**Default permission level**|**Applies to team sites**|
-|:-----|:-----|:-----|:-----|
+|:-----|:-----|:-----|
 |Approvers  <br/> |Approve  <br/> |No  <br/> |
 |Designers  <br/> |Design, Limited Access  <br/> |No  <br/> |
 |Hierarchy Managers  <br/> |Manage Hierarchy  <br/> |No  <br/> |
@@ -66,7 +66,7 @@ For example, the following table shows the groups and permission levels that are
 
 The following table describes the SharePoint groups that are created when you use a standard site template to create a site. The table also provides suggested uses for each group.
   
-|**Group Name**|**Permission level )**|**Use this group for:**|
+|**Group Name**|**Permission level**|**Use this group for**|
 |:-----|:-----|:-----|
 |Approvers  <br/> |Approve  <br/> |Members of this group can edit and approve pages, list items, and documents.  <br/> |
 |Designers  <br/> |Design  <br/> |Members of this group can edit lists, document libraries, and pages in the site. Designers can create Master Pages and Page Layouts in the Master Page Gallery and can change the behavior and appearance of each subsite by using master pages and CSS files.  <br/> |
@@ -92,7 +92,7 @@ The following table describes the SharePoint groups that are created when you us
 ## Site administrators 
   
 |**Description**|**SharePoint in Microsoft 365**|**SharePoint Server**|
-
+|:-----|:-----|:-----|
 |Who can use this group?  <br/> |Yes  <br/> |Yes  <br/> |
    
 A site can have several site admins, but must have one and only one primary administrator. Any site admin can add or remove other admins. Site admins have full control of the site root and any subsites in the site, and can audit all site content. 
@@ -102,11 +102,9 @@ In SharePoint Server, you designate a site collection administrator when you cre
 ## SharePoint admins
   
 |**Description**|**SharePoint in Microsoft 365**|**SharePoint Server**|
-
+|:-----|:-----|:-----|
 |Who can use this group?  <br/> |Yes  <br/> |No, by default.  <br/> Requires special installation.  <br/> |
    
 In SharePoint in Microsoft 365, there is also a SharePoint admin. A SharePoint admin can use the SharePoint admin center or PowerShell to manage settings for all sites. Any global admin in Microsoft 365 also has the permissions of a SharePoint admin. For more info about the SharePoint admin role, see [About the SharePoint admin role in Microsoft 365](sharepoint-admin-role.md).
     
 If you are using SharePoint Server, you do not have a SharePoint admin or SharePoint admin center.
-  
-

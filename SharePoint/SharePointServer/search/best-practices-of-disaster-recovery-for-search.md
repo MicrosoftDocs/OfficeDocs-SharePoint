@@ -339,7 +339,4 @@ In addition to the options that are provided in these articles and in this paper
     
 - [Restore-SPEnterpriseSearchServiceApplicationIndex](/powershell/module/sharepoint-server/Restore-SPEnterpriseSearchServiceApplicationIndex?view=sharepoint-ps)
     
-- [Back up and restore a search service application in SharePoint 2013 using VSS](https://go.microsoft.com/fwlink/?LinkID=506745&amp;clcid=0x409). .
-    
-
-
+- [Back up and restore a search service application in SharePoint 2013 using VSS](/sharepoint/dev/general-development/how-to-back-up-and-restore-a-search-service-application-in-sharepoint-using). .

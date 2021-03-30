@@ -47,9 +47,9 @@ Depending on your collaboration needs, you can include Microsoft 365 groups or M
     
  **Seamless collaboration:** Collaborate with your partner users as if they are part of your organization, including allowing them chat and conferencing through Teams. 
   
- **Auditing and reporting**. Microsoft 365 B2B extranet offers visibility into the access of your content by external partner users. One of the key IT benefits is to be able to audit usage, including being able to see who is inviting whom and when an external user logs in to access the content. See [Search the audit log in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) for more information.
+ **Auditing and reporting**. Microsoft 365 B2B extranet offers visibility into the access of your content by external partner users. One of the key IT benefits is to be able to audit usage, including being able to see who is inviting whom and when an external user logs in to access the content. See [Search the audit log in the Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) for more information.
 
- **Security and governance**. Microsoft 365 features such as [data loss prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) and [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) provide a robust feature set to help you create a secure guest sharing environment.
+ **Security and governance**. Microsoft 365 features such as [data loss prevention](/microsoft-365/compliance/data-loss-prevention-policies) and [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) provide a robust feature set to help you create a secure guest sharing environment.
   
 ## Compare Microsoft 365 extranet with a traditional SharePoint on-premises extranet
 
@@ -67,12 +67,12 @@ Depending on your collaboration needs, you can include Microsoft 365 groups or M
 
 To get started setting up a SharePoint extranet site:
   
-1. Read [Collaborate with guests in a site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site) if you want to limit your extranet to a site with a Microsoft 365 group, or [Collaborate with guests in a team](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team) if you want to include a team.
+1. Read [Collaborate with guests in a site](/Office365/Enterprise/collaborate-in-a-site) if you want to limit your extranet to a site with a Microsoft 365 group, or [Collaborate with guests in a team](/Office365/Enterprise/collaborate-as-a-team) if you want to include a team.
 
-2. Read [Create a B2B extranet with managed guests](https://docs.microsoft.com/Office365/Enterprise/b2b-extranet) if you want to delegate guest access management to specific approvers in either your organization or the partner organization. 
+2. Read [Create a B2B extranet with managed guests](/Office365/Enterprise/b2b-extranet) if you want to delegate guest access management to specific approvers in either your organization or the partner organization. 
     
-3. Read [Limit accidental exposure to files when sharing with guests](https://docs.microsoft.com/Office365/Enterprise/sharing-limit-accidental-exposure) and [Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment) to learn about options for securing your guest sharing environment.   
+3. Read [Limit accidental exposure to files when sharing with guests](/Office365/Enterprise/sharing-limit-accidental-exposure) and [Create a secure guest sharing environment](/Office365/Enterprise/create-a-secure-guest-sharing-environment) to learn about options for securing your guest sharing environment.   
 
 ## See also
 
-[Microsoft 365 guest sharing settings reference](https://docs.microsoft.com/Office365/Enterprise/microsoft-365-guest-settings)
+[Microsoft 365 guest sharing settings reference](/Office365/Enterprise/microsoft-365-guest-settings)

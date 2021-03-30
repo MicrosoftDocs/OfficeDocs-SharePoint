@@ -42,9 +42,9 @@ Although the sync app comes with Windows 10, you might use Intune to switch to [
 2. Select **Add**.
 3. In the **App type** list, under **Microsoft 365 Apps**, select **Windows 10**, and then select **Select**. 
 4. Review the app suite information, and then select **Next**.
-5. On the **Configure App Suite** tab, under **Select Office apps**, select **OneDrive Desktop**. Make any other changes to the configuration settings, and then select **Next**.
+5. On the **Configure App Suite** tab, under **Select Office apps**, select **OneDrive**. Make any other changes to the configuration settings, and then select **Next**.
 
-    ![Configuring the app suite by selecting OneDrive desktop](media/deploy-onedrive-enterprise_image3.png)
+    ![Configuring the app suite by selecting OneDrive](media/configure-app-suite.png)
 
     > [!NOTE]
     > The Update channel doesn't apply to the OneDrive sync app, so it doesn't matter what you select. [Learn about OneDrive sync app update rings](sync-client-update-process.md)

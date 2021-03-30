@@ -39,7 +39,7 @@ Most migrations fall into incremental phases. Proven success factors for migrati
 
 >[!Tip]
 >We highly recommend reading and reviewing the current Mover documentation. This content provides valuable knowledge on how to understand the Mover tool for running migrations from various cloud storage platforms.
-> See [Mover migration content](https://docs.microsoft.com/sharepointmigration/mover-plan-migration)
+> See [Mover migration content](./mover-plan-migration.md)
 
 
 ## Assess & Plan
@@ -73,7 +73,7 @@ Using the results from your inventory scan, assess and remediate in the followin
 >[!Important]
 >The Mover tool only copies files/folders/data owned by users within the source tenant. The tool does NOT migrate external shared data, email or items residing in the trash.</br></br>
 >**External Shared data** - The external owner of that data will need to re-share that data.</br>
->**Email** - The Mover tool does not migrate email. For help finding a service that migrates email, see [FastTrack migrations](https://docs.microsoft.com/fasttrack/data-migration#migration-to-exchange-online)</br>
+>**Email** - The Mover tool does not migrate email. For help finding a service that migrates email, see [FastTrack migrations](/fasttrack/data-migration#migration-to-exchange-online)</br>
 >**Trash** - Customer should communicate to their user base that items in the trash can not be moved and to ensure they check items in trash and if needed reclaim from trash for migration.</br>
 
 
@@ -116,11 +116,11 @@ We recommend the following best practices as you prepare your environment.
 
 |What|Action notes|
 |:------|:-----|
-|**Source connectors**|Each source has a specific process and caveats to be aware of when authoring and creating your connector. Learn more about your source connector here: [Setup your source](https://docs.microsoft.com/sharepointmigration/mover-box) |
+|**Source connectors**|Each source has a specific process and caveats to be aware of when authoring and creating your connector. Learn more about your source connector here: [Setup your source](./mover-box.md) |
 |**Account setup** |As manager of the project, retain ownership of the migration account.  This ensures that only those running the migration have control of the migration, including running, monitoring, and maintaining the migration. |
-|**Disable mail notifications**|Disable all migration notification emails to avoid getting spammed.  Otherwise, you and your customers will receive test emails regarding transfers, failures, progress, etc.  Learn more: [Disable email notifications](https://docs.microsoft.com/sharepointmigration/mover-disable-emails)|
+|**Disable mail notifications**|Disable all migration notification emails to avoid getting spammed.  Otherwise, you and your customers will receive test emails regarding transfers, failures, progress, etc.  Learn more: [Disable email notifications](./mover-disable-emails.md)|
 |**Destination upload folder**|Map an upload/destination folder for uploading the migrated data.|
-|**Review important general considerations**|Make sure to review how the tool handles what gets transfered, synced, permissions, and other best practices here: [Mover Migration FAQ](https://docs.microsoft.com/sharepointmigration/mover-migration-faq)
+|**Review important general considerations**|Make sure to review how the tool handles what gets transfered, synced, permissions, and other best practices here: [Mover Migration FAQ](./mover-migration-faq.md)
 
 ## Migration performance optimizations
 
@@ -189,5 +189,4 @@ Develop a plan for sending communications to your user base, providing clear sta
 - [OneDrive and SharePoint adoption resources](https://fasttrack.microsoft.com/office365/resourcehub): including customizable posters and templates to generate internal awareness and excitement
 - [OneDrive](https://support.office.com/article/1f608184-b7e6-43ca-8753-2ff679203132) and [team library](https://support.office.com/article/551e190a-8fbe-47ae-a88a-798b443c46b1) video training
 - [OneDrive](https://support.office.com/article/a1397e56-61ec-4ed2-9dac-727bf8ac3357) and [team library](https://support.office.com/article/324a89ec-e77b-4475-b64a-13a0c14c45ec) Quick start training guides: get up and running quickly with the basic info you need to be productive right away
-- [Microsoft 365 Learning Pathways:](https://docs.microsoft.com/office365/customlearning/) customizable product training experience for end user readiness
-
+- [Microsoft 365 Learning Pathways:](/office365/customlearning/) customizable product training experience for end user readiness

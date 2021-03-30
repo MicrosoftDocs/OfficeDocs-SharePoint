@@ -84,13 +84,13 @@ But there is no support to upgrade a THMX file from SharePoint 2010 Products to 
   
 To resolve this, you should first create an evaluation site collection and then use the new theming features in SharePoint 2013 to create the theme again. For more information about the new themes, see the following articles on MSDN:
   
-- [Themes overview in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=301983)
+- [Themes overview in SharePoint 2013](/sharepoint/dev/general-development/themes-overview-for-sharepoint)
     
-- [How to: Deploy a custom theme in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=301984)
+- [How to: Deploy a custom theme in SharePoint 2013](/sharepoint/dev/general-development/how-to-deploy-a-custom-theme-in-sharepoint)
     
-- [Color palettes and fonts in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=301985)
+- [Color palettes and fonts in SharePoint 2013](/sharepoint/dev/general-development/color-palettes-and-fonts-in-sharepoint)
     
-- [How to: Create a master page preview file in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=301987)
+- [How to: Create a master page preview file in SharePoint 2013](/sharepoint/dev/general-development/how-to-create-a-master-page-preview-file-in-sharepoint)
     
 > [!IMPORTANT]
 > Moving forward, if you want to use custom branding, and if you want that branding to work after future upgrades, we recommend that you use themes to implement your design. Themes will have upgrade support when future updates are available. If themes don't work for your scenario or you must have more extensive branding, we recommend that you use a publishing site together with Design Manager. But understand that if you invest in building custom master pages and page layouts, you may have to rework or update your design files during and after each SharePoint upgrade. 
@@ -161,7 +161,6 @@ We recommend that you do not add custom content placeholders to your custom mast
   
 [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md)
   
-[Run site collection health checks in SharePoint 2013](/SharePoint/sharepoint-server)
+[Run site collection health checks in SharePoint 2013](../sharepoint-server.yml)
   
-[Overview of Design Manager in SharePoint 2013](https://go.microsoft.com/fwlink/?LinkId=403875)
-
+[Overview of Design Manager in SharePoint 2013](/sharepoint/dev/general-development/overview-of-design-manager-in-sharepoint)

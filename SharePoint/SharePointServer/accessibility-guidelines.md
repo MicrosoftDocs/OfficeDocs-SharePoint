@@ -26,7 +26,7 @@ Administrators and other users who have administrative responsibilities typicall
   
 Because SharePoint Server runs as web sites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see [Plan browser support in SharePoint Server 2016](install/browser-support-planning-0.md).
   
-Users who don't use a mouse can use a keyboard to navigate the user interface and complete actions. The ability to use the keyboard in this way is a result of support for keyboard interactions that a browser provides. Users who have devices that support touch can also use gestures to complete operations. For more information, see [Touch](https://msdn.microsoft.com/library/windows/desktop/dn742468.aspx).
+Users who don't use a mouse can use a keyboard to navigate the user interface and complete actions. The ability to use the keyboard in this way is a result of support for keyboard interactions that a browser provides. Users who have devices that support touch can also use gestures to complete operations. For more information, see [Touch](/windows/win32/uxguide/inter-touch).
   
 ## SharePoint Server 2016 conformance statement
 

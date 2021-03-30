@@ -31,7 +31,7 @@ Before getting started, make sure you have:
   
 - [Configured Excel Services](configure-excel-services.md) in your SharePoint Server farm.
     
-- [Configured a data model server](manage-excel-services-data-model-settings.md) in Excel Services. You'll need an instance of [Analysis Services 2012 SP1 configured in Power Pivot mode](https://msdn.microsoft.com/library/jj219067.aspx) in order to do this.
+- [Configured a data model server](manage-excel-services-data-model-settings.md) in Excel Services. You'll need an instance of [Analysis Services 2012 SP1 configured in Power Pivot mode](/analysis-services/instances/install-windows/install-analysis-services-in-power-pivot-mode?viewFallbackFrom=sql-server-ver15) in order to do this.
     
 - [Configured Secure Store](configure-the-secure-store-service.md) in your SharePoint Server farm.
     
@@ -307,5 +307,3 @@ On the Manage Data Refresh page, select the **Enable** and **Also refresh as soo
 ![Screenshot of Power Pivot data refresh settings.](../media/PowerPivotEnableRefreshSettings.png)
   
 Repeat this several times while making some changes to your data. If the changes show up in the report when it's rendered in the browser, then data refresh is working properly.
-  
-

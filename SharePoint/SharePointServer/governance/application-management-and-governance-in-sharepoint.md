@@ -47,7 +47,7 @@ Determine the types of customizations you want to allow and how to manage them. 
     
 - **Processes for analyzing** How do you understand whether a particular customization is working well in your environment, or how do you decide which ones to create, change, or retire? 
     
-- **Approved tools for customization** Consider development standards, such as coding best practices and the tools that you will to use across your organization. For example, you should decide whether to allow the use of SharePoint Designer 2013 and [Design Manager](https://go.microsoft.com/fwlink/?LinkId=330805), and specify which site elements can be customized and by whom.
+- **Approved tools for customization** Consider development standards, such as coding best practices and the tools that you will to use across your organization. For example, you should decide whether to allow the use of SharePoint Designer 2013 and [Design Manager](/sharepoint/dev/general-development/overview-of-design-manager-in-sharepoint), and specify which site elements can be customized and by whom.
     
 - **Process for piloting and testing customizations** How do you test and deploy customizations? How many people should be in a pilot testing group? What are your standards for testing and validating customizations? 
     
@@ -144,7 +144,7 @@ The guidance for whether to use apps for SharePoint or SharePoint solutions is t
     
   - Can have farm, web application, or site-collection scope.
     
-For more information about the [new development model](https://go.microsoft.com/fwlink/?LinkId=330807), [Apps for SharePoint compared with SharePoint solutions](https://go.microsoft.com/fwlink/?LinkId=330806), and [Deciding between apps for SharePoint and SharePoint solutions](https://go.microsoft.com/fwlink/?LinkID=330807). 
+For more information about the [new development model](/sharepoint/dev/general-development/what-s-changed-in-sharepoint-designer), [Apps for SharePoint compared with SharePoint solutions](/sharepoint/dev/general-development/sharepoint-server-application-lifecycle-management), and [Deciding between apps for SharePoint and SharePoint solutions](/sharepoint/dev/general-development/what-s-changed-in-sharepoint-designer). 
   
 Set a policy for using apps for SharePoint in your organization. Can users purchase and download apps? How do you make your organization's apps available? How do you tell if they're being used?
   
@@ -155,5 +155,3 @@ Set a policy for using apps for SharePoint in your organization. Can users purch
 - **App requests** Configure app requests to control which apps are purchased and how many licenses are available. 
     
 - **Monitor apps** Monitor specific apps in SharePoint Server 2016 to check for errors and to track usage. 
-    
-

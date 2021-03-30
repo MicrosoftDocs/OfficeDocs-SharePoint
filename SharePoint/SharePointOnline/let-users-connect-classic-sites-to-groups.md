@@ -28,7 +28,7 @@ As a global or SharePoint admin in Microsoft 365, you can allow or prevent site 
   
 ## Allow or prevent site collection administrators from connecting classic team sites to new Microsoft 365 groups
 
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **Settings** page.
@@ -41,9 +41,9 @@ When this setting is on, and the site collection administrator for a classic tea
   
 - [Manage who can create Microsoft 365 Groups](/office365/admin/create-groups/manage-creation-of-groups)
     
-- Connect sites to new Microsoft 365 groups using PowerShell: [Set-SPOSiteOffice365Group](https://go.microsoft.com/fwlink/?linkid=872615)
+- Connect sites to new Microsoft 365 groups using PowerShell: [Set-SPOSiteOffice365Group](/powershell/module/sharepoint-online/Set-SPOSiteOffice365Group)
     
-- Connect sites to new Microsoft 365 groups using the CSOM API: [CreateGroupForSite method](https://go.microsoft.com/fwlink/?linkid=872613)
+- Connect sites to new Microsoft 365 groups using the CSOM API: [CreateGroupForSite method](/sharepoint/dev/features/groupify/groupify-csom)
     
 - [SharePoint modernization scanner tool](https://go.microsoft.com/fwlink/?linkid=873066)
     

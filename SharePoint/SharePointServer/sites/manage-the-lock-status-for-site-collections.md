@@ -106,4 +106,4 @@ Use this procedure to lock or unlock a site collection by using PowerShell.
 
 #### Other Resources
 
-[SharePoint planning guide](/sharepoint/planning-guide)
+[SharePoint planning guide](../../SharePointOnline/planning-guide.md)

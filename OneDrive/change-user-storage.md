@@ -58,9 +58,9 @@ When you need cloud storage for individual users beyond the initial 5 TB, additi
 
 When a user has filled their 5 TB of OneDrive storage to at least 90% capacity, Microsoft will increase your default storage space in OneDrive to up to 25 TB per user (admins may set a lower per-user limit if they want to).
 
-For any user that reaches at least 90% capacity of their 25 TB of OneDrive storage, additional cloud storage will be provided as 25 TB SharePoint team sites to individual users. Contact Microsoft technical support for information and assistance.
+For any user that reaches at least 90% capacity of their 25 TB of OneDrive storage, additional cloud storage will be provided as 25 TB SharePoint team sites to individual users. 
 
-Admins can [open a case with Microsoft technical support](https://go.microsoft.com/fwlink/?linkid=869559) to request storage beyond 5 TB.
+Admins can [open a case with Microsoft technical support](/microsoft-365/admin/contact-support-for-business-products) to request storage beyond 5 TB.
     
     
 ## Change a user's storage space by using PowerShell
@@ -94,11 +94,11 @@ Admins can [open a case with Microsoft technical support](https://go.microsoft.c
     > [!NOTE]
     > If you get an error message about being unable to run scripts, you might need to change your execution policies. For more info about PowerShell execution policies, see [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.1&preserve-view=true).
     
-4. When prompted, enter the SharePoint admin center URL. For example, "https://contoso-admin.sharepoint.com" is the Contoso SharePoint admin center URL.
+4. When prompted, enter the SharePoint admin center URL. For example, `https://contoso-admin.sharepoint.com` is the Contoso SharePoint admin center URL.
 
 5. Sign in as a global or SharePoint admin in Microsoft 365.
 
-6. Enter the OneDrive site URL: For example, https://contoso-my.sharepoint.com/personal/user_contoso_onmicrosoft_com.
+6. Enter the OneDrive site URL: For example, `https://contoso-my.sharepoint.com/personal/user_contoso_onmicrosoft_com`.
 
 7. Enter the OneDrive Storage Quota in MB.
 
@@ -115,9 +115,9 @@ Admins can [open a case with Microsoft technical support](https://go.microsoft.c
    | 7168000 | 7 |
    | 8192000 | 8 |
    | 9216000 | 9 |
-   | 1024000 | 10 |
+   | 10240000 | 10 |
 
 > [!NOTE]
-> To change the storage space for multiple users, use PowerShell to [Display a list of OneDrive accounts by using PowerShell](list-onedrive-urls.md) and use [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite?view=sharepoint-ps&preserve-view=true) to make the change.
+> To change the storage space for multiple users, use PowerShell to [Display a list of OneDrive accounts by using PowerShell](list-onedrive-urls.md) and use [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite?preserve-view=true&view=sharepoint-ps) to make the change.
 > 
 > To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](/sharepoint/manage-user-profiles).

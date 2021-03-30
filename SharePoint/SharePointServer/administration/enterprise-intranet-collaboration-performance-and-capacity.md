@@ -104,7 +104,7 @@ Here are some specialized terms that you will encounter in this article.
     
 - **AxBxC (Graph notation):** This is the number of web servers, application servers, and database servers respectively in a farm. For example, 10x1x1 means that this environment has 10 web servers, 1 application server, and 1 database server. 
     
-- **MDF and LDF:** SQL Server physical files. For more information, see [Files and Filegroups Architecture](https://go.microsoft.com/fwlink/p/?LinkID=164499). 
+- **MDF and LDF:** SQL Server physical files. For more information, see [Files and Filegroups Architecture](/previous-versions/sql/sql-server-2008-r2/ms179316(v=sql.105)). 
     
 ## Overview
 <a name="Overview"> </a>
@@ -214,7 +214,7 @@ To allow for optimal test performance and clear relationships between test param
 |:-----|:-----|:-----|
 |**Site collection** <br/> |179  <br/> |The site collections in the test environment use default settings and Windows claims authentication.  <br/> |
 |**Blob caching** <br/> |On  <br/> |The default is Off. If you enable Blob caching, you improve server efficiency by reducing calls to the database server for static page resources that may be frequently requested.  <br/> |
-|**Max degree of parallelism (MAXDOP)** <br/> |1  <br/> |This parameter is set on the SQL Server instance or instances that contain SharePoint Server 2013 content databases. The default value is 0, which enables SQL Server to determine the maximum degree of parallelism. SharePoint Server 2013 requires MAXDOP to be set to 1 for SQL Server instances that contain SharePoint Server 2013 databases.  <br/> For more information about how to configure the MAXDOP setting for SQL Server 2008 R2, see [max degree of parallelism Option](https://go.microsoft.com/fwlink/p/?LinkId=189030).  <br/> For more information about how to configure the MAXDOP setting for SQL Server 2012, see [Configure the max degree of parallelism Server Configuration Option](https://go.microsoft.com/fwlink/p/?LinkId=403867).  <br/> |
+|**Max degree of parallelism (MAXDOP)** <br/> |1  <br/> |This parameter is set on the SQL Server instance or instances that contain SharePoint Server 2013 content databases. The default value is 0, which enables SQL Server to determine the maximum degree of parallelism. SharePoint Server 2013 requires MAXDOP to be set to 1 for SQL Server instances that contain SharePoint Server 2013 databases.  <br/> For more information about how to configure the MAXDOP setting for SQL Server 2008 R2, see [max degree of parallelism Option](/previous-versions/sql/sql-server-2008-r2/ms181007(v=sql.105)).  <br/> For more information about how to configure the MAXDOP setting for SQL Server 2012, see [Configure the max degree of parallelism Server Configuration Option](/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option).  <br/> |
    
 ### Workload
 
@@ -445,4 +445,3 @@ The tests that produced the results in the graphs in this section were run again
 [Performance planning in SharePoint Server 2013](performance-planning-in-sharepoint-server-2013.md)
   
 [Performance and capacity test results and recommendations (SharePoint Server 2013)](performance-and-capacity-test-results-and-recommendations-for-sharepoint-2013.md)
-

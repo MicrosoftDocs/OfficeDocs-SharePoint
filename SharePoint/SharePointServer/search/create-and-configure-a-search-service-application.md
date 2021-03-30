@@ -180,10 +180,9 @@ When you create a Search service application, the SharePoint Server Search servi
     
 - [Plan enterprise search architecture in SharePoint Server 2016](plan-enterprise-search-architecture.md)
     
-- [Plan your search architecture in SharePoint Server for cloud hybrid search](/SharePoint/hybrid/plan-cloud-hybrid-search-for-sharepoint)
+- [Plan your search architecture in SharePoint Server for cloud hybrid search](../hybrid/plan-cloud-hybrid-search-for-sharepoint.md)
     
 ## See also
 <a name="begin"> </a>
 
 [Create a Search Center site in SharePoint Server](create-a-search-center-site.md)
-

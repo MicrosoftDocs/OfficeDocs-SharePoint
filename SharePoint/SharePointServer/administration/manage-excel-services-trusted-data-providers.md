@@ -95,5 +95,4 @@ Use the following procedure to delete a trusted data provider from Excel Service
 
 #### Other Resources
 
-[Configure Excel Services in SharePoint](/SharePoint/administration/configure-excel-services)
-
+[Configure Excel Services in SharePoint](./configure-excel-services.md)

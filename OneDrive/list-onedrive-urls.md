@@ -71,23 +71,20 @@ The list you create in these steps will be saved to a text file.
     ```
 
    > [!NOTE]
-   > If you get an error message about being unable to run scripts, you might need to change your execution policies. For info, see [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255). 
+   > If you get an error message about being unable to run scripts, you might need to change your execution policies. For info, see [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies). 
     
-4. The script will prompt you for the SharePoint admin center URL. For example, "https://contoso-admin.sharepoint.com" is the Contoso SharePoint admin center URL.
+4. The script will prompt you for the SharePoint admin center URL. For example, `https://contoso-admin.sharepoint.com` is the Contoso SharePoint admin center URL.
 
 5. You will then be prompted to sign in. Use a SharePoint admin or global admin account.
 
 After the script successfully completes, a text file is created in the location specified by the **$LogFile** variable in the script. This file contains a list of all OneDrive Urls in your organization. The following text provides an example of how the list of Urls in this file should be formatted.
   
-```
-                                                     
-https://contoso-my.sharepoint.com/personal/annb_contoso_onmicrosoft_com/
+`https://contoso-my.sharepoint.com/personal/annb_contoso_onmicrosoft_com/
 https://contoso-my.sharepoint.com/personal/carolt_contoso_onmicrosoft_com/
 https://contoso-my.sharepoint.com/personal/esterv_contoso_onmicrosoft_com/  
-https://contoso-my.sharepoint.com/personal/hollyh_contoso_onmicrosoft_com/
-```
+https://contoso-my.sharepoint.com/personal/hollyh_contoso_onmicrosoft_com/`
 
 ## More information
 <a name="BKMK_MoreInfo"> </a>
 
-Once you have the URL for a user's OneDrive, you can get more info about it by using the [Get-SPOSite](https://go.microsoft.com/fwlink/?linkid=872326) cmdlet, and change settings by using the [Set-SPOSite](https://go.microsoft.com/fwlink/?linkid=872325) cmdlet.
+Once you have the URL for a user's OneDrive, you can get more info about it by using the [Get-SPOSite](/powershell/module/sharepoint-online/get-sposite) cmdlet, and change settings by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) cmdlet.

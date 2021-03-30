@@ -28,7 +28,7 @@ description: "Learn about the MIM Synchronization service that is used in a Shar
 ## New to SharePoint Server 2016: MIM Synchronization service
 <a name="BKMK_WhatIsMIM1"> </a>
 
-Previous versions of SharePoint Server had a built-in copy of ForeFront Identity Manager (FIM) that ran inside SharePoint Server that allow user profile synchronization to occur. That version of FIM powered the User Profile Synchronization for products like SharePoint Server 2010 and SharePoint Server 2013. But in SharePoint Server 2016, FIM has been removed in favor of Microsoft Identity Manager, which is the successor to the FIM technology. Even though FIM has been removed, the basic architecture for MIM uses some of the same FIM technology. For additional information on FIM technology, see [FIM 2010 Technical Overview](https://go.microsoft.com/fwlink/?linkid=841840)
+Previous versions of SharePoint Server had a built-in copy of ForeFront Identity Manager (FIM) that ran inside SharePoint Server that allow user profile synchronization to occur. That version of FIM powered the User Profile Synchronization for products like SharePoint Server 2010 and SharePoint Server 2013. But in SharePoint Server 2016, FIM has been removed in favor of Microsoft Identity Manager, which is the successor to the FIM technology. Even though FIM has been removed, the basic architecture for MIM uses some of the same FIM technology. For additional information on FIM technology, see [FIM 2010 Technical Overview](/previous-versions/mim/ff621362(v=ws.10))
   
 MIM is a separate server technology (not built-in to SharePoint Server). That means, if you have MIM, specifically the MIM Synchronization Service, running in your company, more than one SharePoint Server 2016 farm can rely upon it.
   
@@ -45,7 +45,7 @@ Which option is right for you?
 |Cons  <br/> | A separate MIM server is recommended for use with your SharePoint farm.  <br/>  The more customized the more complex the architecture, deployment, and management.  <br/> | Import is unidirectional (changes go from Active Directory to SharePoint Server Profile).  <br/>  Import from a single Active Directory forest only.  <br/>  Does not import user photos.  <br/>  Supports Active Directory LDAP only.  <br/>  Multi-forest scenarios are supported.  <br/> |
    
 > [!TIP]
-> If you need details, or you need to set up Active Directory Import for your SharePoint Server installation? Try [these steps](https://technet.microsoft.com/library/jj219646.aspx).
+> If you need details, or you need to set up Active Directory Import for your SharePoint Server installation? Try [these steps](./configure-profile-synchronization-by-using-sharepoint-active-directory-import.md).
   
 ## What is the MIM Synchronization Service?
 <a name="BKMK_WhatIsMIM1"> </a>
@@ -87,4 +87,3 @@ Now that you have a basic understanding of the general terms of an identity mana
 #### Other Resources
 
 [Deployment considerations for implementing Microsoft Identity Manager with SharePoint Server 2016](deployment-considerations-for-implementing-microsoft-identity-manager-with-share.md)
-

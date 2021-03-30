@@ -73,7 +73,7 @@ When you use cross-site publishing, you create and store content in a different 
 
 You can store different types of content in libraries and lists in the authoring site collection. By sharing these libraries and lists as catalogs, the data that they contain can be reused in one or more publishing site collections. By default, only HTML content is indexed and returned by the search system. Non-HTML content, such as Word documents and PDFs, is not stored in the index, and must be referenced directly. The following list describes the different types of content that you can use in an authoring site collection.
   
-- **Pages library.** You can use a Pages library to create any HTML content that you plan to reuse across site collections. By using a Pages library, you can take advantage of the Approval workflow and content scheduling features that are part of the SharePoint Server publishing feature set. For more information about the Approval workflow and content scheduling, see [Plan content approval and scheduling (SharePoint Server 2010)](https://go.microsoft.com/fwlink/p/?LinkID=95836).
+- **Pages library.** You can use a Pages library to create any HTML content that you plan to reuse across site collections. By using a Pages library, you can take advantage of the Approval workflow and content scheduling features that are part of the SharePoint Server publishing feature set. For more information about the Approval workflow and content scheduling, see [Plan content approval and scheduling (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/cc263156(v=office.14)).
     
     > [!NOTE]
     > You can have only one Pages library per site. However, you can have multiple sites within a site collection, and thereby put Pages library content into separate catalogs. 
@@ -105,7 +105,7 @@ When you use cross-site publishing, search technology is used to determine what 
 ### Master pages and page layouts
 <a name="BKMK_MasterPages"> </a>
 
-Because content from one or more authoring site collections is shown on one or more publishing site collections, you have to configure the publishing site collections to support the branding needs of your solution. This includes designing the master pages, page layouts, and cascading style sheets that you use to show content. You can also configure image renditions that are used to control how images are shown on the site. For more information about how to design for SharePoint Server publishing sites, see [SharePoint page model overview](https://go.microsoft.com/fwlink/p/?LinkId=261548).
+Because content from one or more authoring site collections is shown on one or more publishing site collections, you have to configure the publishing site collections to support the branding needs of your solution. This includes designing the master pages, page layouts, and cascading style sheets that you use to show content. You can also configure image renditions that are used to control how images are shown on the site. For more information about how to design for SharePoint Server publishing sites, see [SharePoint page model overview](/sharepoint/dev/general-development/overview-of-the-sharepoint-page-model).
   
 ### Navigation term sets
 <a name="BKMK_NavTermSets"> </a>
@@ -265,4 +265,3 @@ The following list contains information about the limitations of the cross-site 
 [Configure cross-site publishing in SharePoint Server](configure-cross-site-publishing.md)
   
 [Estimate capacity and performance for Web Content Management (SharePoint Server 2013)](web-content-management-capacity-and-performance.md)
-

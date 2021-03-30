@@ -51,11 +51,11 @@ This article describes the OneDrive Group Policy objects (GPOs) that admins can 
 
 4. Paste the .admx file in your domain's Central Store, \\\\*domain*\sysvol\domain\Policies\PolicyDefinitions (where *domain* is your domain name, such as corp.contoso.com), and the .adml in the appropriate language subfolder, such as en-us. If the PolicyDefinitions folder does not exist, see [How to create and manage the Central Store for Group Policy Administrative Templates in Windows](https://support.microsoft.com/help/3087759), or use your local policy store under %windir%\policydefinitions.
 
-5. Configure settings from the domain controller or on a Windows computer by running the [Remote Server Administration Tools](https://go.microsoft.com/fwlink/?linkid=871794).
+5. Configure settings from the domain controller or on a Windows computer by running the [Remote Server Administration Tools](/windows-server/remote/remote-server-administration-tools).
 
-6. Link the Group Policy objects (GPOs) to an Active Directory container (site, domain, or organizational unit). For info, see [Link Group Policy objects to Active Directory containers](https://go.microsoft.com/fwlink/?linkid=871796).
+6. Link the Group Policy objects (GPOs) to an Active Directory container (site, domain, or organizational unit). For info, see [Link Group Policy objects to Active Directory containers](/previous-versions/windows/desktop/Policy/linking-gpos-to-active-directory-containers).
 
-7. Use security filtering to narrow the scope of a setting. By default, a setting is applied to all user and computer objects within the container to which it's linked, but you can use security filtering to narrow the scope of the policy's application to a subset of users or computers. For info, see [Filtering the scope of a GPO](https://go.microsoft.com/fwlink/?linkid=2004146).
+7. Use security filtering to narrow the scope of a setting. By default, a setting is applied to all user and computer objects within the container to which it's linked, but you can use security filtering to narrow the scope of the policy's application to a subset of users or computers. For info, see [Filtering the scope of a GPO](/previous-versions/windows/desktop/Policy/filtering-the-scope-of-a-gpo).
 
 The OneDrive Group Policy objects work by setting registry keys on the computers in your domain.
   
@@ -323,7 +323,7 @@ This setting prevents users from moving their Documents, Pictures, and Desktop f
 > [!NOTE]
 > Moving known folders to personal OneDrive accounts is already blocked on domain-joined PCs.
   
-If you enable this setting, users aren't prompted with a window to protect their important folders, and the *Start protection* command is disabled. If the user has already moved their known folders, the files in those folders remain in OneDrive. This setting does not take effect if you've enabled "Prompt users to move Windows known folders to OneDrive" or "Silently move Windows known folders to OneDrive."
+If you enable this setting, users aren't prompted with a window to protect their important folders, and the *Manage backup* command is disabled. If the user has already moved their known folders, the files in those folders remain in OneDrive. This setting does not take effect if you've enabled "Prompt users to move Windows known folders to OneDrive" or "Silently move Windows known folders to OneDrive."
   
 If you disable or do not configure this setting, users can choose to move their known folders.
   

@@ -112,5 +112,4 @@ Use this procedure to delete an existing connection to a document repository or 
 [Manage site collections in SharePoint Server](manage-site-collections.md)
 #### Other Resources
 
-[SharePoint planning guide](/sharepoint/planning-guide)
-
+[SharePoint planning guide](../../SharePointOnline/planning-guide.md)
