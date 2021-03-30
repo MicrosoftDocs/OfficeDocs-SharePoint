@@ -106,16 +106,17 @@ Admins can [open a case with Microsoft technical support](/microsoft-365/admin/c
 
    | MB  | TB |
    | ------------- | ------------- |
-   | 1024000  | 1  |
-   | 2048000 | 2  |
-   | 3072000  | 3  |
-   | 4096000 | 4 |
-   | 5120000 | 5 |
-   | 6144000 | 6 |
-   | 7168000 | 7 |
-   | 8192000 | 8 |
-   | 9216000 | 9 |
-   | 10240000 | 10 |
+   | 1048576 | 1  |
+   | 2097152 | 2  |
+   | 3145728 | 3  |
+   | 4194304 | 4 |
+   | 5242880 | 5 |
+   | 6291456 | 6 |
+   | 7340032 | 7 |
+   | 8388608 | 8 |
+   | 9437184 | 9 |
+   | 10485760 | 10 |
+
 
 > [!NOTE]
 > To change the storage space for multiple users, use PowerShell to [Display a list of OneDrive accounts by using PowerShell](list-onedrive-urls.md) and use [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite?preserve-view=true&view=sharepoint-ps) to make the change.
