@@ -36,7 +36,6 @@ Before you create your first migration task, do the following checks:
 |[Set up your Migration Manager agent](mm-setup-clients.md#set-up-an-agent)|You can set up as many agents as needed to scale your project.|
 
 
-
 ## Source and destination
 For every migration task you create, you'll be prompted for a **source** and a **destination**. The credentials that you used to set up your agents have permission to access to any file share you plan to migrate.
 
