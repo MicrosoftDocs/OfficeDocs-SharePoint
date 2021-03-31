@@ -12,7 +12,7 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
 mscollection:
-- m365solutions-migratefileshares
+- m365solution-migratefileshares
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
