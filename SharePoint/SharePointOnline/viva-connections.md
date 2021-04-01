@@ -16,7 +16,6 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Add Viva Connections to integrate SharePoint resources into Microsoft Teams"
 ---
 
