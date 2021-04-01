@@ -29,7 +29,7 @@ description: "In this article, we look at how to configure hybrid SharePoint tax
 
 In this article, we look at how to configure hybrid SharePoint taxonomy and hybrid content types.
   
-Hybrid SharePoint taxonomy allows you to have a shared taxonomy between SharePoint Server and SharePoint in Microsoft 365e. Hybrid content types allows you to have a shared set of content types between SharePoint Server and SharePoint in Microsoft 365e.
+Hybrid SharePoint taxonomy allows you to have a shared taxonomy between SharePoint Server and SharePoint in Microsoft 365. Hybrid content types allows you to have a shared set of content types between SharePoint Server and SharePoint in Microsoft 365.
   
 Before you follow the procedures in this article, be sure to read [Plan hybrid SharePoint taxonomy and hybrid content types](plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md). 
   
