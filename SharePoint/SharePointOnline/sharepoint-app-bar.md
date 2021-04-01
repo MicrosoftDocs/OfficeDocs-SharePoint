@@ -17,7 +17,6 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Use the SharePoint app bar to enhance intranet way finding and display personalized content"
 ---
 
