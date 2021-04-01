@@ -53,7 +53,9 @@ Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-vi
 > - The [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) is available now in the [Microsoft download center](https://www.microsoft.com/download/default.aspx).
 
 
+## Watch how to create the app package and then upload it to Teams
 
+ > [!VIDEO https://www.microsoft.com/videoplayer/embed/<RWAVk1>]  
 
 ## Prepare for Viva Connections
 The first version of Viva Connections can be provisioned through PowerShell and then will be [uploaded as an app in the Teams Admin Center](/microsoftteams/upload-custom-apps#upload). The PowerShell script will be available at the end of March. Future versions of Viva Connections will be automatically available through the Teams Admin Center. Prepare your organization for Viva Connections now, or in the near future, by reviewing the following requirements and recommendations:
