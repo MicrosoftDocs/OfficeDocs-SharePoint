@@ -16,7 +16,6 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Add Viva Connections to integrate SharePoint resources into Microsoft Teams"
 ---
 
@@ -52,6 +51,10 @@ Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-vi
 > - Viva Connections for mobile will become available in Summer 2020 and will include enhancements to the overall configuration and deployment experience.
 > - The [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) is available now in the [Microsoft download center](https://www.microsoft.com/download/default.aspx).
 
+
+## Watch how to create the app package and then upload it to Teams
+
+ > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAVk1]  
 
 
 
