@@ -24,6 +24,7 @@
 ### [Step 6: Migrate and Monitor](mm-box-step6-migrate-monitor.md)
 ### Reference
 #### [FAQs](mm-faqs-box.md)
+#### [Troubleshooting](mm-box-troubleshooting.md)
 ## Migrate SharePoint Server sites and content
 ### [Overview](introducing-the-sharepoint-migration-tool.md)
 ### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
