@@ -22,7 +22,7 @@ description: "Learn about the prerequisites and endpoints required when using Mi
 ---
 # Prerequisites & Endpoints for Migration Manager
 
-This article is a resource where you can find prerequisites and endpoint information when using igration Manager in the modern SharePoint Admin Center.
+This article is a resource where you can find prerequisites and endpoint information when using Migration Manager in the modern SharePoint Admin Center.
 
 
 ## Prerequisites
