@@ -43,12 +43,12 @@ OR
 
 ## Incremental feature
 
-Our incrementals are delta operations which compare files in your source to files in Microsoft 365. Using this comparison, we copy anything that is new or has changed. This lets us to keep Microsoft 365 data up to date when the very final cut-over of users occurs. These incremental passes are an important part of our process.
+Our incrementals are delta operations that compare files in your source to files in Microsoft 365. Using this comparison, we copy anything that is new or has changed. This lets us keep Microsoft 365 data up to date when the final cut-over of users occurs. These incremental passes are an important part of our process.
 
-**Technical clarification**: We compare what you have in your source to what is in Microsoft 365 and we only transfer anything that doesn't already exist, or has a newer timestamp.
+**Technical clarification**: We compare what you have in your source to what is in Microsoft 365. We only transfer anything that doesn't already exist, or has a newer timestamp.
 
 ## 'Lost files'
 
 During a transition where sharing paradigms change, there are many users who claim, “My files are lost!”
 
-This is common if they are not in clear communication about how the sharing structure changes when they log in to Microsoft 365. This can be mitigated with a clear communication strategy.
+This assumption is common if they are not in clear communication about how the sharing structure changes when they sign in to Microsoft 365. A clear communication strategy helps users understand the changes.
