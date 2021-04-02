@@ -52,7 +52,7 @@ When an Agent is created in Migration Manager, it is not assigned to any group o
 3. Select **Save**.
 
 >[!Note]
->You cannot assign multiple agents to a group at the same time. 
+>You can assign multiple agents to a group. However, you cannot assign the same agent to more than one group at this time.
 
 
 
