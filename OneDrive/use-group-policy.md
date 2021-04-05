@@ -331,7 +331,7 @@ Enabling this policy sets the following registry key value to 1:
   
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMBlockOptIn"="dword:00000001"`
 
-To redirect the known folders back to user's device and enable this policy set the following registry key value to 2:
+To redirect the known folders back to the user's device and enable this policy, set the following registry key value to 2:
 
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMBlockOptIn"="dword:00000002"`
 
