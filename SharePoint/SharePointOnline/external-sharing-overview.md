@@ -37,7 +37,9 @@ description: "Learn about the external sharing options in SharePoint in Microsof
 
 # External sharing overview
 
-The external sharing features of Microsoft SharePoint let users in your organization share content with people outside the organization (such as partners, vendors, clients, or customers). You can also use external sharing to share between licensed users on multiple Microsoft 365 subscriptions if your organization has more than one subscription. Planning for external sharing should be included as part of your overall permissions planning for SharePoint in Microsoft 365. This article describes what happens when users share, depending on what they're sharing and with whom. 
+The external sharing features of Microsoft SharePoint let users in your organization share content with people outside the organization (such as partners, vendors, clients, or customers). You can also use external sharing to share between licensed users on multiple Microsoft 365 subscriptions if your organization has more than one subscription. External sharing in SharePoint is part of [secure collaboration with Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
+
+Planning for external sharing should be included as part of your overall permissions planning for SharePoint in Microsoft 365. This article describes what happens when users share, depending on what they're sharing and with whom. 
 
 If you want to get straight to setting up sharing, choose the scenario you want to enable:
 
