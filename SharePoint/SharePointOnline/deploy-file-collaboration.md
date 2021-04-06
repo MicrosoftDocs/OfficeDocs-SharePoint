@@ -89,7 +89,7 @@ For details about how SharePoint and Teams interact, see [How SharePoint and One
 
 ## Collaboration in client applications
 
-Office applications such as Word, Excel, and PowerPoint provide a wide variety of collaboration features, including co-authoring and @mentions, and are also integrated with sensitivity labels and data loss prevention (discussed below).
+Office applications such as Word, Excel, and PowerPoint provide a wide variety of collaboration features, including coauthoring and @mentions, and are also integrated with sensitivity labels and data loss prevention (discussed below).
 
 We highly recommend deploying Microsoft 365 Apps for enterprise. Microsoft 365 Apps for enterprise provides an always up-to-date experience for your users, with the latest features and updates delivered on a schedule that you can control.
 
