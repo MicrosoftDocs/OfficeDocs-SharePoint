@@ -39,11 +39,11 @@ This article describes how to resolve issues and errors you may experience when 
 
 Make sure you have met the prerequisites for agent installation, and have reviewed the required endpoints. Government cloud customers should confirm they have set their configuration correctly.
 
-- [Agent installation prerequisites](./mm-prerequisites)
+- [Agent installation prerequisites](mm-prerequisites.md)
 
-- [Required endpoints](./mm-setup-clients.md#required-endpoints)
+- [Required endpoints](mm-prerequisites.md#required-endpoints)
 
-- [Government cloud settings](./mm-setup-clients.md#government-cloud)
+- [Government cloud settings](mm-gov-cloud.md)
 
 - [Pre-provision OneDrive accounts ](/onedrive/pre-provision-accounts)  If you are migrating to OneDrive accounts, make sure the accounts are pre-provisioned before you migrate. You can do this using a script, as shown here: [Pre-provision OneDrive for users in your organization](/onedrive/pre-provision-accounts).
 
