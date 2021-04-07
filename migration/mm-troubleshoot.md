@@ -39,7 +39,7 @@ This article describes how to resolve issues and errors you may experience when 
 
 Make sure you have met the prerequisites for agent installation, and have reviewed the required endpoints. Government cloud customers should confirm they have set their configuration correctly.
 
-- [Agent installation prerequisites](./mm-setup-clients.md#prerequisites)
+- [Agent installation prerequisites](./mm-prerequisites)
 
 - [Required endpoints](./mm-setup-clients.md#required-endpoints)
 
