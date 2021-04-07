@@ -64,7 +64,7 @@ Answer:  Yes. Here's how you configure it: [Government cloud settings](./mm-gov-
 Answer:  When using the Migration API, the customers/ISVs can either use the [SPO provided blob containers/queues](/sharepoint/dev/apis/migration-api-azure-container-and-queue) or their containers/queues created within their Azure subscriptions. If you choose to use the SPO provided ones, you will get [SAS URIs](/azure/storage/common/storage-sas-overview) to access those, which are valid for three days from creation for containers and 21 days for queues. After the SAS expiry, the content in the blob containers/queues will not be accessible. SPO backend jobs will delete the content in the container/queues within 30 to 90 days of the creation.
  
 **Question:**  Is the data in the SPO provided containers encrypted?</br>
-Answer: Yes. We mandate that the data uploaded to SPO provided containers must be encrypted using AES CBC to ensure the data is secure. To learn more, see: [OneDrive for Business and SharePoint Online Migration API encryption](./M/sharepoint/dev/apis/migration-api-encryption).
+Answer: Yes. We mandate that the data uploaded to SPO provided containers must be encrypted using AES CBC to ensure the data is secure. To learn more, see: [OneDrive for Business and SharePoint Online Migration API encryption](/sharepoint/dev/apis/migration-api-encryption).
 
 **Question:**  Will my migration succeed if the temporary storage expires before content migration is complete?</br>
 Answer: Yes. If your migration task was successful, your data will be migrated to SPO even if the temporary storage has expired.
