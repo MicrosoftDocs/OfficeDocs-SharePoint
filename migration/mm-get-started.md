@@ -14,7 +14,8 @@ localization_priority: Priority
 ms.collection: 
 - M365-collaboration
 - SPMigration
-- m365initiative-migratetom365
+- m365solution-migratetom365
+- m365solution-scenario
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150

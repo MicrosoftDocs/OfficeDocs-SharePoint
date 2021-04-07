@@ -12,8 +12,7 @@ ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection: 
 - m365solution-migratetom365
-- m365solution-migratefileshares
-- m365solution-overview
+- m365solution-scenario
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
