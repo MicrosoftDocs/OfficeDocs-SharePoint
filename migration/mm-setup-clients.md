@@ -49,12 +49,14 @@ After an agent is configured, anyone with the permission to go into the SharePoi
 
 ## Set up an agent
 
-1. Go to the [Migration Manager page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
-2. Select **Download agent setup file**.
-3. Open the setup file. On the Welcome page, select **Next**.
-4. Enter the SharePoint admin username and password of the environment where you will be migrating your content. Select **Next**.
-5. Enter your Windows credentials that will provide access to **all** the file shares that contain the content you want to migrate. Select **Install**.
-6. Test agent access (optional) or select **Close**.  After the setup is completed, the new agent will be added to the available agents that can be assigned tasks.
+1. From the new SharePoint admin center, select [Migration](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern).You need to sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+2. Under "For file shares", select **Get started**.
+3. Select the **Agents** tab, and then select **Add**.
+4. Select **Download agent setup file**.
+5. Open the setup file. On the Welcome page, select **Next**.
+6. Enter the SharePoint admin username and password of the environment where you will be migrating your content. Select **Next**.
+7. Enter your Windows credentials that will provide access to **all** the file shares that contain the content you want to migrate. Select **Install**.
+8. Test agent access (optional) or select **Close**.  After the setup is completed, the new agent will be added to the available agents that can be assigned tasks.
 
 >[!Note]
 >**Multiple agents**.  If you have a large migration project and to set up multiple agents, we recommend that you download the agent setup file to a shared location. That way you can easily download the setup file on each computer or VM.  
