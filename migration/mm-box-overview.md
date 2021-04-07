@@ -29,7 +29,6 @@ description: Overview of migration from Box to Microsoft 365 using Migration Man
 
 
 
-
 Collaborate all in one place by migrating your Box documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
 ![Migration Manager main landing page](media/mm-main-landing.png)
@@ -44,7 +43,7 @@ Collaborate all in one place by migrating your Box documents, data, and users to
 - **Step 6:** [Migrate and Monitor](mm-box-step6-migrate-monitor.md) After reviewing your migration setup, migrate your Box accounts and monitor the progress
 
 
-## How do I get started?
+## Get started
 
 To get started:
 
