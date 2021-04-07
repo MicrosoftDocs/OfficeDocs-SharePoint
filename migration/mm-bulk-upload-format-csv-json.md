@@ -108,7 +108,6 @@ The minimum required values are SourcePath, TargetPath and TargetList.
         "MigrateItemsCreatedAfter": "2016-05-22",
         "MigrateItemsModifiedAfter": "2016-05-22",
         "SkipFilesWithExtensions": "txt:mp3",
-        "FilterOutPathSpecialCharacters": false,
         "MigrateOneNoteNotebook": true
       }
     },
@@ -127,7 +126,6 @@ The minimum required values are SourcePath, TargetPath and TargetList.
         "MigrateItemsModifiedAfter": "2016-05-22",
         "SkipFilesWithExtensions": "txt:mp3",
         "MigrateOneNoteNotebook": false,
-        "FilterOutPathSpecialCharacters": false,
 
       }
 
