@@ -44,7 +44,7 @@ This article is a resource where you can find prerequisites and endpoint informa
 
 |**Required endpoints**|**For**|
 |:-----|:-----|
-|https://secure.<spam><spam>aadcdn.microsoftonline-p<spam><spam>.com|Authentication|
+|https://<spam><spam>secure.<spam><spam>aadcdn.microsoftonline-p<spam><spam>.com|Authentication|
 |https://<spam><spam>api.office<spam><spam>.com|Microsoft 365 APIs for content move and validation|
 |https://<spam><spam>graph.windows<spam><spam>.net|Microsoft 365 APIs for content move and validation|
 |https://<spam><spam>spmtreleasescus.blob.core.windows<spam><spam>.net|Installation|
