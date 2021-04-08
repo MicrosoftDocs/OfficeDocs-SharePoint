@@ -25,6 +25,14 @@
 ### Reference
 #### [FAQs](mm-faqs-box.md)
 #### [Troubleshooting](mm-box-troubleshooting.md)
+## Migrate from Google Drive
+### [Overview](mm-google-overview.md)
+### [Step 1: Connect to Google](mm-google-step1-connect.md)
+### [Step 2: Scan and assess](mm-google-step2-scan-assess.md)
+### [Step 3: Copy to Migrations list](mm-google-step3-copy-to-migrations.md)
+### [Step 4: Review destination paths](mm-google-step4-review-destinations.md)
+### [Step 5: Map identities](mm-google-step5-map-identities.md)
+### [Step 6: Migrate and Monitor](mm-google-step6-migrate-monitor.md)
 ## Migrate SharePoint Server sites and content
 ### [Overview](introducing-the-sharepoint-migration-tool.md)
 ### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
