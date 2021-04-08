@@ -12,11 +12,6 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:
-- IT_SharePoint_Hybrid
-- IT_SharePoint_Hybrid_Top
-- IT_Sharepoint_Server
-- IT_Sharepoint_Server_Top
-- Strat_SP_gtc
 - SPMigration
 - M365-collaboration
 - m365initiative-migratetom365
@@ -123,7 +118,7 @@ Use this cmdlet to delete the migration session.
 
 ## Sample Scenarios
 
-Example 1: IT admin adds a SharePoint on-prem task and starts migration in the background.
+**Example 1:** IT admin adds a SharePoint on-prem task and starts migration in the background.
 
 ```powershell
 #Define SharePoint 2013 data source#
@@ -157,13 +152,13 @@ Add-SPMTTask -FileShareSource $Global:FileshareSource -TargetSiteUrl $Global:SPO
 Start-SPMTMigration
 ```
 
-Example 2: IT admin wants to bring the migration from the background "NoShow mode" to the foreground, run below the cmdlet, so he can see the migration progress in the console.
+**Example 2:** IT admin wants to bring the migration from the background "NoShow mode" to the foreground, and run below the cmdlet so the migration progress is shown in the console.
 
 ```powershell
 Show-SPMTMigration
 ```
 
-Example 3:  IT Admin wants to do a bulk migration by loading a .csv file.  The sample file in this example is SPMT.csv.
+**Example 3:**  IT Admin wants to do a bulk migration by loading a .csv file.  The sample file in this example is SPMT.csv.
 
 ```powershell
 Load CSV;
@@ -246,3 +241,40 @@ Three migration tasks are defined in the file of spmt.json.
    ]
 }
  ```
+
+**Example 4:** Display migration progress
+
+These samples show how to display the progress of your migration project. **Get-SPMTMigration** returns the object of current session. It includes current tasks status and current session level settings.
+The status of current tasks includes:
+- Count of scanned files
+- 	ount of filtered out files
+- Count of migrated files
+- Count of failed files
+- Migration progress of current task (0 ~ 100)
+- Current task status
+- Migration error message if there is any.
+
+```powershell
+
+# Start migration in the background
+Start-SPMTMigration -NoShow
+
+# Get the object of current migration
+$session = Get-SPMTMigration
+
+# Query migration status every 5 seconds until migration is finished
+while ($session.Status -ne "Finished")
+{
+Write-Host $session.Status
+
+    # Query migration progress of each tasks
+    Foreach ($taskStatus in $session.StatusOfTasks)
+    {
+        $taskStatus.MigratingProgressPercentage
+}
+
+    Start-Sleep -Seconds 5
+} 
+ 
+```
+
