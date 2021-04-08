@@ -29,8 +29,8 @@ When using either the SharePoint Migration Tool (SPMT) or running a Migration Ma
 
 -	[Improving the speed at which the source can be read](#improving-the-speed-at-which-the-source-can-be-read)
 -	[Improving the migration computer speed](#improving-the-migration-computer-speed)
--	[Improving your connectivity to Office 365 and Azure](#improving-your-connectivity-to-office-365-and-azure)
--	[Performing migration following our published guidance](./sharepoint-online-and-onedrive-migration-speed.md)
+-	[Improving your connectivity to Microsoft 365 and Azure](#improving-your-connectivity-to-microsoft-365-and-azure)
+-	[Performing migration following our published guidance](sharepoint-online-and-onedrive-migration-speed.md)
 
 
 ## Improving the speed at which the source can be read 
@@ -56,7 +56,7 @@ Suggestions:
 - The disk that hosts the migration working folder impacts migration performance. If there are multiple disks on the computer, configure the working folder setting to point to the disk with the best performance. 
 - Stop other applications that create a heavy load of disk operations when doing the migration.
 
-## Improving your connectivity to Office 365 and Azure 
+## Improving your connectivity to Microsoft 365 and Azure 
 
 The speed of the network connection between the migration computer and the Azure blob storage service can impact your migration performance.  
 
@@ -71,4 +71,4 @@ Suggestions:
 
 Migration performance can be impacted by network infrastructure, file size, migration time, and throttling. Understanding these will help you plan and maximize the efficiency of your migration. These are detailed here:
 
-- [General guidelines for migration performance](./sharepoint-online-and-onedrive-migration-speed.md)
+- [General guidelines for migration performance](sharepoint-online-and-onedrive-migration-speed.md)

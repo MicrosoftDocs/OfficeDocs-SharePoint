@@ -36,15 +36,21 @@ This storage space setting applies to all new and existing users who are license
 > [!WARNING]
 > If you decrease the storage limit and a user is over the new limit, their OneDrive will become read-only.
 
-1. Sign in to the [OneDrive admin center](https://admin.onedrive.com) as a global or SharePoint admin, and in the left pane, select **Storage**.
-    
-    ![The Storage page of the OneDrive admin center](media/15942b88-2f71-4c85-87ec-eb14b88f8f93.png)
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+ 
+   > [!NOTE]
+   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. 
+   > 
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
+
+2. Select the OneDrive **Storage limit** setting.
+
+    ![Default storage limit in the SharePoint admin center](media/storage-limit.png)
   
-2. In the **Default storage** box, enter the default storage amount (in GB), and then select **Save**.
+3. In the **Default storage limit** box, enter the default storage amount (in GB), and then select **Save**.
 
 > [!NOTE]
 > The minimum storage is 1 GB.
-    
 
   
 ## Check if a user has the default storage limit or a specific limit

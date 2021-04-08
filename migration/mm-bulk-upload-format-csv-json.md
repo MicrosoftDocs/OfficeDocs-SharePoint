@@ -1,5 +1,5 @@
 ---
-title: "How to format a CSV or JSON file for bulk upload in Migration Manager"
+title: "Bulk upload tasks into Migration Manager using a CSV or JSON file"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -15,7 +15,7 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "How to format a CSV or JSON file for bulk upload in Migration Manager"
+description: "How to format a CSV or JSON file for bulk upload in Migration Manager."
 ---
 
 # Bulk upload tasks into Migration Manager using a CSV or JSON file 
@@ -108,7 +108,6 @@ The minimum required values are SourcePath, TargetPath and TargetList.
         "MigrateItemsCreatedAfter": "2016-05-22",
         "MigrateItemsModifiedAfter": "2016-05-22",
         "SkipFilesWithExtensions": "txt:mp3",
-        "FilterOutPathSpecialCharacters": false,
         "MigrateOneNoteNotebook": true
       }
     },
@@ -127,7 +126,6 @@ The minimum required values are SourcePath, TargetPath and TargetList.
         "MigrateItemsModifiedAfter": "2016-05-22",
         "SkipFilesWithExtensions": "txt:mp3",
         "MigrateOneNoteNotebook": false,
-        "FilterOutPathSpecialCharacters": false,
 
       }
 
