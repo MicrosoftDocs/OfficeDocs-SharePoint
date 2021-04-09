@@ -20,7 +20,10 @@ search.appverid: MET150
 description: "Step 5:  Map Google identities with Migration Manager." 
 ---
 
-# Step 5: Map identities of Google accounts to Microsoft 365 accounts (preview)
+# Step 5: Map identities of Google Drive to Microsoft 365 accounts (preview)
+
+Map identities of your Google Drives to Microsoft 365 accounts while using Migration Manager.  
+
 
 >[!Note]
 > Features described in this topic are part of a public preview release. The content and the functionality may change and are not subject to the standard SLAs for support.

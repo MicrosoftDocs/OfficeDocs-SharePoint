@@ -17,10 +17,10 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-description: "Step 3: Copy to migrations using Migration Manager."
+description: "Learn what the third step in using Migration Manager to migrate Google Drive."
 ---
 
-# Step 3: Copy to migrations (preview)
+# Step 3: Copy to migrations (Preview)
 
 >[!Note]
 > Features described in this topic are part of a publicpreview release. The content and the functionality may change and are not subject to the standard SLAs for support.

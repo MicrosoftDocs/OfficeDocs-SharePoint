@@ -19,7 +19,7 @@ ms.collection:
 search.appverid: MET150
 description: Review your destination paths for your Google migration while using Migration Manager.
 ---
-# Step 4:   Review destination paths (preview)
+# Step 4: Review destination paths in Migration Manager (Preview)
 
 >[!Note]
 > Features described in this topic are part of a public preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
