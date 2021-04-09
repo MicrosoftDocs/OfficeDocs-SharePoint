@@ -30,11 +30,11 @@ Once have reviewed the accounts, confirmed the destinations, correctly mapped id
 
 1. Select the accounts to migrate.
 
-![Select accounts to migrate](media/mm-Google-select-to-migrate.png)
+![Select accounts to migrate](media/mm-box-select-to-migrate.png)
 
 2. Select **Migrate**.
 
-![Select migrate button](media/mm-Google-migrate-button.png) 
+![Select migrate button](media/mm-box-migrate-button.png) 
 
 3.  A confirmation step displays.  Click **Migrate**.  
 

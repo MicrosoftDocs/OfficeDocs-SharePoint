@@ -35,11 +35,11 @@ Map your groups and users in Google to those in Microsoft 365 to migrate your Go
 1. Select the Migrations tab.
 2. Select **Map identities** on the menu bar.
 
-![Map Google identities](media/mm-Google-upload-destinations-bulk.png)
+![Map Google identities](media/mm-box-upload-destinations-bulk.png)
 </br>
 3.  Select **Auto-map** to have Migration Manager map the identities for you or select **Import users and groups** to upload the values using a CSV file.
 
-![Map Google identities toolbar](media/mm-Google-map-identities-toolbar.png)
+
 
 </br>
 
@@ -48,7 +48,6 @@ Map your groups and users in Google to those in Microsoft 365 to migrate your Go
 1. To edit a single mapping, highlight the row. Enter the mapping Microsoft 365 user account. 
 2. Select **Save**.
 
-![Map Google identities single](media/mm-Google-map-identity-single.png)
 
 ## Import users and groups
 

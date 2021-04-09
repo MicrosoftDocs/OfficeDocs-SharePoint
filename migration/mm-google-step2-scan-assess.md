@@ -30,15 +30,12 @@ Google users are scanned automatically for you. Once the scans are complete, dow
 
 A table summary appears at the top to give you an at-a-glance overview of your users and content size.
 
-![Scan data summary table](media/mm-Google-scan-data-table-summary.png)
+
 
 1.  Review the scanned users. Select **Look for new users** if you want to manually search for more users.
 
-![Scan data list](media/mm-Google-scan-list.png)
 
 2. Search for specific text, or select a filter to review the list more easily.
-
- ![Google scan list filters](media/mm-Google-scan-list-filters.png)
 
 3. Once the scan is complete, select **Download scan log** from the menu bar, to troubleshoot any issues. The file will be available from your task bar or downloads folder: **Scan task report.csv**
 

@@ -37,11 +37,11 @@ If a destination is missing, highlight the row. A panel will appear to the right
 1. Highlight the row. Under **Destination**, select **Edit.**
 2. Select **OneDrive** as a destination.
 
-![edit OD destination path](media/mm-Google-select-od-destination.png)
+![edit OD destination path](media/mm-box-select-od-destination.png)
 
 3. Select a folder (optional).
 
-![select OneDrive folder path](media/mm-Google-destination-folder-onedrive.png)
+![select OneDrive folder path](media/mm-box-destination-folder-onedrive.png)
 
 4. Select **Save path**.
 
@@ -51,11 +51,11 @@ If a destination is missing, highlight the row. A panel will appear to the right
 1. Highlight the row. Under **Destination**, select **Edit.**
 2. Select **OneDrive** as a destination.
 
-![edit SP destination path](media/mm-Google-sp-destination-path.png)
+![edit SP destination path](media/mm-box-sp-destination-path.png)
 
 3. Select a location where you want to move the content.
 
-![select SP library path](media/mm-Google-sharepoint-destination-folder.png)
+![select SP library path](media/mm-box-sharepoint-destination-folder.png)
 4. Select **Save path**.
 
 
@@ -66,11 +66,11 @@ If a destination is missing, highlight the row. A panel will appear to the right
 1. Highlight the row. Under **Destination**, select **Edit.**
 2. Select **OneDrive** as a destination.
 
-![select teams destination](media/mm-Google-teams-destination-path.png)
+![select teams destination](media/mm-box-teams-destination-path.png)
 
 3. Select a channel.
 
-![select teams channel](media/mm-Google-teams-destination-channel.png)
+![select teams channel](media/mm-box-teams-destination-channel.png)
 
 4. Select **Save path**.
 
@@ -80,7 +80,7 @@ If a destination is missing, highlight the row. A panel will appear to the right
 If you have many destinations to edit, you can choose to upload a bulk destinations CSV file.  Download the *MigrationDestinations.csv* file template to your computer and enter your destinations. Save your file as a .csv file using any name you wish. 
 
 
-![upload destinations for Google accounts bulk](media/mm-Google-bulk-upload-destination-panel.png)
+![upload destinations for Google accounts bulk](media/mm-box-bulk-upload-destination-panel.png)
 
 1. From the Migrations tab, select **Upload destinations** from the menu bar.
 2. Select the file to upload with your destinations.
@@ -91,7 +91,7 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
 >Review your destination CSV file before you upload it to make sure you have entered the values in correctly.  The destination file is not validated, and once you have migrated to these destinations it cannot be undone.
 
 
-[**Step 5: Map identities**](mm-Google-step5-map-identities.md)
+[**Step 5: Map identities**](mm-box-step5-map-identities.md)
 
 
 >[!NOTE]
