@@ -40,7 +40,7 @@ You can prevent users from uploading specific file types when they sync their On
    > 
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
 
-2. Select **Sync**.
+2. Select **Settings** in the left menu then select **Sync**.
 
     ![Sync settings in the SharePoint admin center](media/sp-sync-settings.png)
   
