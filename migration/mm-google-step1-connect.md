@@ -25,8 +25,6 @@ description: "Steps to connect to Google when using Migration Manager in the Sha
 
 >[!Note]
 > Features described in this topic are part of a public preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
->
->This preview release currently supports the migration of up to approximately 1500 Google accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
 
 
 Sign in to your Google account and add the Microsoft 365 migration app to your Google account custom apps. 

@@ -24,8 +24,6 @@ description: Overview of migration from Google Drive to Microsoft 365 using Migr
 >[!Note]
 > Features described in this topic are part of a public preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
 
-
-
 Collaborate all in one place by migrating your Google Drive, including documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
 ![Migration Manager main landing page](media/mm-main-landing.png)
