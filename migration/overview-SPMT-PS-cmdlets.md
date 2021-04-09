@@ -247,7 +247,7 @@ Three migration tasks are defined in the file of spmt.json.
 These samples show how to display the progress of your migration project. **Get-SPMTMigration** returns the object of current session. It includes current tasks status and current session level settings.
 The status of current tasks includes:
 - Count of scanned files
-- 	ount of filtered out files
+- Count of filtered out files
 - Count of migrated files
 - Count of failed files
 - Migration progress of current task (0 ~ 100)
