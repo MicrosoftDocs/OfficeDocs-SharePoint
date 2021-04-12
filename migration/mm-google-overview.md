@@ -1,5 +1,5 @@
 ---
-title: "Overview: Migrate Box using Migration Manager"
+title: "Overview: Migrate Google Drive using Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -16,7 +16,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-description: Overview of migration from Box to Microsoft 365 using Migration Manager.
+description: Overview of migration from Google to Microsoft 365 using Migration Manager.
 ---
 
 # Migrate Box to Microsoft 365 with Migration Manager (preview)
@@ -52,12 +52,12 @@ Make sure that you have:
 
 - **Access to the destination**: You must either be a global admin or OneDrive/SharePoint admin to the Microsoft 365 tenant where you want to migrate your content. 
 
-- **Access to the source**: Have Box account credentials that have read access to any Box user account you plan to migrate.
+- **Access to the source**: Have Google account credentials that have read access to any Google user account you plan to migrate.
 
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
 
 >[!NOTE]
->Migration Manager Box preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Google Workspace preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
 

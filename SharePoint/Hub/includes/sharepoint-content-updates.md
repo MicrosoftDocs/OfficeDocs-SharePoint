@@ -2,6 +2,18 @@
 
 
 
+## Week of April 05, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/6/2021 | [Plan & deploy a file collaboration environment - SharePoint](/SharePoint/deploy-file-collaboration) | modified |
+| 4/6/2021 | [External sharing overview](/SharePoint/external-sharing-overview) | modified |
+| 4/6/2021 | [Introduction to SharePoint](/SharePoint/introduction) | modified |
+| 4/6/2021 | [Sharing & permissions in the SharePoint modern experience](/SharePoint/modern-experience-sharing-permissions) | modified |
+| 4/6/2021 | [Manage sharing settings](/SharePoint/turn-external-sharing-on-or-off) | modified |
+
+
 ## Week of March 29, 2021
 
 
