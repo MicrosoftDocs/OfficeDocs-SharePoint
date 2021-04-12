@@ -24,7 +24,7 @@ description: "Steps to connect to Google when using Migration Manager in the Sha
 # Step 1:  Connect your Google account to Microsoft 365 (preview)
 
 >[!Note]
-> Features described in this topic are part of a public preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
+> Features described in this topic are part of a pending preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
 
 
 Sign in to your Google account and add the Microsoft 365 migration app to your Google account custom apps. 

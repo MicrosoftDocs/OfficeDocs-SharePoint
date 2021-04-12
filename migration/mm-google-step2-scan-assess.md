@@ -23,7 +23,7 @@ description: "Step 2:  Scan and assess Google users using Migration Manager."
 # Step 2: Scan and assess Google users (preview)
 
 >[!Note]
-> Features described in this topic are part of a public preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
+> Features described in this topic are part of a pending preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
 
 
 Google users are scanned automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.

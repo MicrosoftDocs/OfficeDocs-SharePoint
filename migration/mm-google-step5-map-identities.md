@@ -26,7 +26,7 @@ Map identities of your Google Drives to Microsoft 365 accounts while using Migra
 
 
 >[!Note]
-> Features described in this topic are part of a public preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
+> Features described in this topic are part of a pending preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
 
 
 
