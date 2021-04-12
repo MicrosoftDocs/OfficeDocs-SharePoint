@@ -22,7 +22,7 @@ description: "Step 6: Migrate and monitor Google migration"
 # Step 6:  Migrate and monitor your Google migration (preview)
 
 >[!Note]
-> Features described in this topic are part of a public preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
+> Features described in this topic are part of a pending preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
 >
 
 

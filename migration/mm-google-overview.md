@@ -16,26 +16,29 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-description: Overview of migration from Google Drive to Microsoft 365 using Migration Manager.
+description: Overview of migration from Google to Microsoft 365 using Migration Manager.
 ---
 
-# Migrate Google Workspace Drive to Microsoft 365 with Migration Manager (preview)
+# Migrate Google Workspace to Microsoft 365 with Migration Manager (preview)
 
 >[!Note]
-> Features described in this topic are part of a public preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
+> Features described in this topic are part of a pending preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
 
-Collaborate all in one place by migrating your Google Drive, including documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
+
+
+
+Collaborate all in one place by migrating your Google documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
 ![Migration Manager main landing page](media/mm-main-landing-google.png)
 
 ## How does it work?
 
-- **Step 1:** [Connect to Google Workspace](mm-Google-step1-connect.md).   Sign in to your Google Workspace account and add the Microsoft 365 migration app to your Google account custom apps. 
-- **Step 2:** [Scan and assess](mm-Google-step2-scan-assess.md) Google Drives are scanned automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
-- **Step 3:** [Copy to Migrations list](mm-Google-step3-copy-to-migrations.md) After a Google Drive has been scanned and determined ready, add it to your migration list.
-- **Step 4:** [Review destination paths](mm-Google-step4-review-destinations.md)  We automatically map source paths to any exactly matching destination paths. Ensure content is being copied to the right place by reviewing and modifying as needed for each destination path.
-- **Step 5:** [Map identities](mm-Google-step5-map-identities.md)   Map your groups and users in Google Drive to an account in Microsoft 365 to migrate your Google sharing settings.
-- **Step 6:** [Migrate and Monitor](mm-Google-step6-migrate-monitor.md) After reviewing your migration setup, migrate your Google accounts and monitor the progress
+- **Step 1:** [Connect to Google](mm-google-step1-connect.md).   Sign in to your Google account and add the Microsoft 365 migration app to your Google Workspace account custom apps. 
+- **Step 2:** [Scan and assess](mm-google-step2-scan-assess.md) Google Drive accounts are scanned automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
+- **Step 3:** [Copy to Migrations list](mm-google-step3-copy-to-migrations.md) After a Google Drive has been scanned and determined ready, add them to your migration list.
+- **Step 4:** [Review destination paths](mm-google-step4-review-destinations.md)  We automatically map source paths to any exactly matching destination paths. Ensure content is being copied to the right place by reviewing and modifying as needed for each destination path.
+- **Step 5:** [Map identities](mm-google-step5-map-identities.md)   Map your groups and users in Google Drive to an account in Microsoft 365 to migrate your Google Drive sharing settings.
+- **Step 6:** [Migrate and Monitor](mm-google-step6-migrate-monitor.md) After reviewing your migration setup, migrate your Google accounts and monitor the progress
 
 
 ## Get started
