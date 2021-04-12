@@ -48,7 +48,7 @@ Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-vi
 > - Search customizations applied to SharePoint sites will apply to search results in Teams when on the home site.
 > All SharePoint out-of-the-box site headers are compatible with Viva Connections desktop. However, if you modify your SharePoint site to remove, or significantly change the site header, then these contextual actions may not be available to the user. 
 > - Viva Connections was originally announced as the [Home site app](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/the-home-site-app-for-microsoft-teams/ba-p/1714255).
-> - Viva Connections for mobile will become available in Summer 2020 and will include enhancements to the overall configuration and deployment experience.
+> - Viva Connections for mobile will become available in Summer 2021 and will include enhancements to the overall configuration and deployment experience.
 > - The [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) is available now in the [Microsoft download center](https://www.microsoft.com/download/default.aspx).
 
 
@@ -59,7 +59,7 @@ Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-vi
 
 
 ## Prepare for Viva Connections
-The first version of Viva Connections can be provisioned through PowerShell and then will be [uploaded as an app in the Teams Admin Center](/microsoftteams/upload-custom-apps#upload). The PowerShell script will be available at the end of March. Future versions of Viva Connections will be automatically available through the Teams Admin Center. Prepare your organization for Viva Connections now, or in the near future, by reviewing the following requirements and recommendations:
+The first version of Viva Connections can be provisioned through PowerShell and then will be [uploaded as an app in the Teams Admin Center](/microsoftteams/upload-custom-apps#upload). Future versions of Viva Connections will be automatically available through the Teams Admin Center. Prepare your organization for Viva Connections now, or in the near future, by reviewing the following requirements and recommendations:
 
    ![Image of global navigation icon in the Teams app bar](media/viva-landing-large.png)
 
@@ -90,6 +90,7 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 > -   SharePoint admin credentials are required to use SharePoint PowerShell.
 > -	The SharePoint admin who creates the Viva Connections desktop package needs site owner permissions (or higher) to the home site in SharePoint. 
 > -	If your tenant is using an older version of PowerShell, uninstall the older version and replace it with the most [up to date version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000). 
+> - Icons need to be PNG files
 
 4.	**Provide tenant and site information to create the package:** Download the [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) and provide the information below.
 
