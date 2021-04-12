@@ -163,7 +163,7 @@ If your organization would like to temporarily suspend information barriers on S
 To suspend information barriers, run the following command:
 
 ```PowerShell
-Set-Spotenant -InformationBarriersSuspension $false 
+Set-Spotenant -InformationBarriersSuspension $true
 ```
 
 >[!NOTE]
