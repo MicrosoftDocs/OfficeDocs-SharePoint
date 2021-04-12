@@ -24,14 +24,14 @@ description: "Steps to connect to Google when using Migration Manager in the Sha
 # Step 1:  Connect your Google account to Microsoft 365 (preview)
 
 >[!Note]
-> Features described in this topic are part of a public preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
+> Features described in this topic are part of a pending preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
 
 
 Sign in to your Google account and add the Microsoft 365 migration app to your Google account custom apps. 
 
 1. From the [Migration page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern), under **Google**, select **Get started**.
 2. Select **Connect to Google**. 
-3. Select **Authorize Mover**. Sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization. Select **Next**.
+3. Sign in to Google Workspace. Sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization. Select **Next**.
 4. Select **Go to Enterprise applications**. This step takes you to Azure.
 5. Select the **Office 365 migration app**.
 6. On the left-hand panel under *Security*, select **Permissions**.
