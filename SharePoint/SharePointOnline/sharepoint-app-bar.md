@@ -210,7 +210,7 @@ You can temporarily disable the SharePoint app bar in your tenant to prepare for
 
 Temporarily disable the SharePoint app bar:
 
-1.	Download the latest version of [SharePoint Online Management Shell](https://www.microsoft.com/en-us/download/details.aspx?id=35588).
+1.	Download the latest version of [SharePoint Online Management Shell](https://www.microsoft.com/download/details.aspx?id=35588).
 
 2.	Run the following command exactly as it appears:
 
@@ -227,7 +227,7 @@ Temporarily disable the SharePoint app bar:
 >[!NOTE] 
 > -	It can take up to an hour for the app bar to be removed on a tenant where the app bar is already showing up. 
 > -	Running the command without the `$false` or `$true` value will cause it to fail.
-> -	You must be using the latest version of [PowerShell](https://www.microsoft.com/en-us/download/details.aspx?id=35588). 
+> -	You must be using the latest version of [PowerShell](https://www.microsoft.com/download/details.aspx?id=35588). 
 > - If you are using previous versions, uninstall the previous version and then install the most up to date version. Previous versions of PowerShell can't coexist with the most up-to-date version of PowerShell.
 
 ### Enable the SharePoint app bar:
