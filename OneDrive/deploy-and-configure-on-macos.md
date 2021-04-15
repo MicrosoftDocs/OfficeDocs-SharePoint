@@ -302,5 +302,5 @@ This setting defines the maximum upload throughput rate in KB/sec for computers 
 To enable this setting, set a value between 50 and 100,000 that is the upload throughput rate the sync app can use.
 
 The example for this setting in the .plist file is:
-<br/> \<key\>UploadBandwidthLimited\</key\>  <br/> \<int\>(Upload Throughput Rate in KB/sec)\</int\>  <br/>
+<br/> \<key\>UploadBandwidthLimited\</key\>  <br/> \<integer\>(Upload Throughput Rate in KB/sec)\</integer\>  <br/>
 
