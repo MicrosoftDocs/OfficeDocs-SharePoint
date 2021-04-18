@@ -2,6 +2,18 @@
 
 
 
+## Week of April 12, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/12/2021 | [Add Viva Connections for Microsoft Teams desktop](/SharePoint/viva-connections) | modified |
+| 4/12/2021 | [Use information barriers with SharePoint](/SharePoint/information-barriers) | modified |
+| 4/12/2021 | [Allow or prevent custom script](/SharePoint/allow-or-prevent-custom-script) | modified |
+| 4/12/2021 | [Create an organization assets library](/SharePoint/organization-assets-library) | modified |
+| 4/14/2021 | [Use the new SharePoint app bar and set up global navigation](/SharePoint/sharepoint-app-bar) | modified |
+
+
 ## Week of April 05, 2021
 
 
