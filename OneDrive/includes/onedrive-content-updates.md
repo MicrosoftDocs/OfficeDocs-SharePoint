@@ -2,6 +2,15 @@
 
 
 
+## Week of April 12, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/12/2021 | [Use information barriers with OneDrive](/OneDrive/information-barriers) | modified |
+| 4/12/2021 | [Use OneDrive policies to control sync settings](/OneDrive/use-group-policy) | modified |
+
+
 ## Week of March 29, 2021
 
 

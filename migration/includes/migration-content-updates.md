@@ -2,6 +2,22 @@
 
 
 
+## Week of April 12, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/12/2021 | [Overview: Migrate Google Drive using Migration Manager](/SharepointMigration/mm-google-overview) | modified |
+| 4/12/2021 | [Connect to Google with Migration Manager](/SharepointMigration/mm-google-step1-connect) | modified |
+| 4/12/2021 | [Step 2: Scan and assess Google accounts using Migration Manager](/SharepointMigration/mm-google-step2-scan-assess) | modified |
+| 4/12/2021 | [Step 3: Copy to migrations tab for Google migration](/SharepointMigration/mm-google-step3-copy-to-migrations) | modified |
+| 4/12/2021 | [Review the destination paths for your Google migration with Migration Manager](/SharepointMigration/mm-google-step4-review-destinations) | modified |
+| 4/12/2021 | [Step 5: Map Google identities with Migration Manager](/SharepointMigration/mm-google-step5-map-identities) | modified |
+| 4/12/2021 | [Step 6: Migrate and monitor Google migration](/SharepointMigration/mm-google-step6-migrate-monitor) | modified |
+| 4/12/2021 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
+| 4/16/2021 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
+
+
 ## Week of April 05, 2021
 
 
