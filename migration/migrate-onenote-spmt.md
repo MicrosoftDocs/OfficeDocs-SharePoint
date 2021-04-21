@@ -17,13 +17,12 @@ search.appverid: MET150
 description: "How to migrate OneNote folder using SPMT."
 ---
 
-# How to migrate OneNote folders using SPMT
+# How SPMT migrate OneNote folders
 
-The SharePoint Migration Tool (SPMT) gives you the option on how to migrate your OneNote folders.  
+The SharePoint Migration Tool (SPMT) lets you migrate your OneNote folders to Microsoft 365.  
+But before migrating your OneNote folders, it is important to understand a little about their file structure.  
 
-Before migrating your OneNote folders, it is important to understand a little about their file structure.  
-
-On a user’s computer, a OneNote Notebook is presented as a normal folder. For each Notebook, there is a *.onetoc2* file created under the root folder of the Notebook folder. You can have as many Notebooks as you want.
+On your computer, a OneNote Notebook is presented as a normal folder. For each Notebook, there is a *.onetoc2* file created under the root folder of the Notebook folder. You can have as many Notebooks as you want.
 
 ![OneNote migration setting1](media/onenote-file-1.png)</br></br>
 
@@ -37,23 +36,7 @@ When you open the OneNote application, they appear like this:
 
 ![OneNote migration setting3](media/onenote-file-3.png)
 
-**Recommended setting**
 
-We recommend that you migrate with this setting set to **On**. The files will migrate as a OneNote notebook. You can open the notebooks with the OneNote application or via Microsoft Teams by manually adding a tab to Teams.
-
-> [!IMPORTANT]
-> If set to **Off**, you will likely receive errors when attempting to open the .one and .onetoc2 files. This is because the files that were migrated are for the desktop client version of OneNote which differs from the OneNote in SPO.
-
-## Selecting the OneNote settings in SPMT
-
-Before you migrate your files, decide how you want your OneNote folders to appear. In **Settings**, go to **Migrate OneNote folders as OneNote notebook**. The default setting is **Off**.
-
-![OneNote migration setting4](media/onenote-settings.png)
-
-If you choose to migrate with the setting set to **Off**, your OneNote folders will migrate as a normal folder with files that you can navigate just as you can any other folder. It will appear in SharePoint like this:
-
-![OneNote migration setting5](media/onenote-file-4.png)
-
-If it is set to **On**, the folders are migrated to SharePoint as **OneNote Notebook** content rather than a normal folder with files. It will appear in SharePoint like this:
+Folders are migrated to SharePoint as **OneNote Notebook** content rather than a normal folder with files. They will appear in SharePoint like this:
 
 ![OneNote migration setting6](media/onenote-file-5.png)
