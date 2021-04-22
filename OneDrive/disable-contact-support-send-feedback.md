@@ -26,6 +26,8 @@ As a global or SharePoint admin in Microsoft 365, you might want to disable thes
 
 If you disable these features, users can still select Get help to view help articles, but the Contact support link will no longer appear. The Send feedback command will be replaced with a Feedback command that opens the [OneDrive UserVoice page](https://onedrive.uservoice.com/) in a web browser so users can view and provide feature suggestions.
 
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
+
 The following screenshots show the changes after you disable the support features.
 
 ![The Get help and Feedback commands](media/Img2-4717638.png)

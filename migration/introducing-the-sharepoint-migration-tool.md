@@ -41,7 +41,7 @@ SPMT supports migration to SharePoint and OneDrive from:
 ## Current and pre-release versions
 
 Use one of the following links to download SPMT:
-- [Public preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
+- [Public preview](https://spmt.sharepointonline.com/betainstall/default.htm)
 - [First release](https://aka.ms/spmt-ga-page)
 - [General availability](https://aka.ms/spmt-ga-page)
 
