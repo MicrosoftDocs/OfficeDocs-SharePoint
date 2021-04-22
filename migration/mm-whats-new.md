@@ -27,9 +27,13 @@ You can help us improve Migration Manager by sending us your suggestions and rep
 ## Coming soon
 
 - **Auto site provisioning.** When migrating to SharePoint sites, if the site doesn't exist, it will be automatically provisioned before we start the migration.
-- **CSV optional header.**  Soon users will have the options of including optional headers in the bulk upload file.
 
-## Current features and improvements through March 2021
+
+## Current features and improvements through April 2021
+
+- **CSV optional header.**  Users have the option of including optional headers in the bulk upload file.
+
+## March 2021
 
 - **Agent groups and agent targeting.** You can now create an "agent group" and assign one or more agents to it. A group may represent a particular geographical location or other targeted purpose. After creating an agent group(s), you can target your tasks to be run by only that group of agents. To learn more, see: [Agent groups in Migration Manager](mm-agent-targeting.md).
 - **Summary report enhancements.** *TaskID*, *Task failure reason*, and *Agent group* have been added to the task summary report.

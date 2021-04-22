@@ -39,7 +39,7 @@ This is part of the broader Microsoft 365 collaboration story:
 
 - [Meetings and conferencing in Microsoft Teams](/microsoftteams/deploy-meetings-microsoft-teams-landing-page)
 
-We recommend that you download the [Microsoft Teams and related productivity services in Microsoft 365 for IT architects](/microsoft-365/solutions/cloud-architecture-models) poster and refer to it while you read this article. This poster provides detailed illustrations of how the collaboration services in Microsoft 365 relate to each other and interact.
+We recommend that you download the [Microsoft Teams and related productivity services in Microsoft 365 for IT architects](/microsoft-365/solutions/productivity-illustrations) poster and refer to it while you read this article. This poster provides detailed illustrations of how the collaboration services in Microsoft 365 relate to each other and interact.
 
 Also see the [File Protection Solutions in Microsoft 365](/Office365/Enterprise/microsoft-cloud-it-architecture-resources#BKMK_O365fileprotect) diagram for an overview of recommended solutions to protect your data.
 

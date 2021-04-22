@@ -2,6 +2,30 @@
 
 
 
+## Week of April 12, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/12/2021 | [Add Viva Connections for Microsoft Teams desktop](/SharePoint/viva-connections) | modified |
+| 4/12/2021 | [Use information barriers with SharePoint](/SharePoint/information-barriers) | modified |
+| 4/12/2021 | [Allow or prevent custom script](/SharePoint/allow-or-prevent-custom-script) | modified |
+| 4/12/2021 | [Create an organization assets library](/SharePoint/organization-assets-library) | modified |
+| 4/14/2021 | [Use the new SharePoint app bar and set up global navigation](/SharePoint/sharepoint-app-bar) | modified |
+
+
+## Week of April 05, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/6/2021 | [Plan & deploy a file collaboration environment - SharePoint](/SharePoint/deploy-file-collaboration) | modified |
+| 4/6/2021 | [External sharing overview](/SharePoint/external-sharing-overview) | modified |
+| 4/6/2021 | [Introduction to SharePoint](/SharePoint/introduction) | modified |
+| 4/6/2021 | [Sharing & permissions in the SharePoint modern experience](/SharePoint/modern-experience-sharing-permissions) | modified |
+| 4/6/2021 | [Manage sharing settings](/SharePoint/turn-external-sharing-on-or-off) | modified |
+
+
 ## Week of March 29, 2021
 
 

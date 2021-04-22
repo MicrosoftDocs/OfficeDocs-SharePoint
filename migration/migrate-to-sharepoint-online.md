@@ -15,9 +15,8 @@ search.appverid: MET150
 msCollection: 
 - SPMigration
 - M365-collaboration
-- m365solution-scenario
-- m365solution-spintranet
-- m365initiative-migratetom365
+- m365solution-migratetom365
+- m365solution-overview
 ms.custom:
 - seo-marvel-apr2020
 description: "This article helps you understand, which tool to use when migrating content to SharePoint and OneDrive in Microsoft 365."
