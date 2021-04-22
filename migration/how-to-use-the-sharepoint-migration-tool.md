@@ -34,7 +34,7 @@ Download and install SPMT using one of the links listed below.
 
 |**Public preview**|**First release**|**General Availability**|
 |:-----|:-----|:-----|
-|[Install here](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm) |[Install here](https://aka.ms/spmt-ga-page)|[Install here](https://aka.ms/spmt-ga-page)|
+|[Install here](https://spmt.sharepointonline.com/betainstall/default.htm) |[Install here](https://aka.ms/spmt-ga-page)|[Install here](https://aka.ms/spmt-ga-page)|
 
 
 
@@ -108,7 +108,7 @@ Before you start using the SharePoint Migration Tool (SPMT), note where your dat
     
 ## Using the SharePoint Migration tool
 
-To install the current release download, go to: [SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
+To install the current release download, go to: [SharePoint Migration Tool](https://spmt.sharepointonline.com/install/default.htm)
   
  **Migrating data files from SharePoint Server document libraries**
   
