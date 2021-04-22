@@ -364,6 +364,8 @@ NEO sites should present the most up-to-date content your organization has to of
 
 **Answer**:Post your ideas and comments about SharePoint sites in the [Site and Collaboration User Voice Forum](https://sharepoint.uservoice.com/forums/329214-sites-and-collaboration)
 
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
+
 **Question**: Where can I ask questions or report an issue with the SharePoint provisioning service? 
 <br>
 
