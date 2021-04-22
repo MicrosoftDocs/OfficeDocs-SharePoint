@@ -11,6 +11,8 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection: 
+- m365solution-migratetom365
+- m365solution-scenario
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
@@ -23,7 +25,6 @@ description: Overview of migration from Box to Microsoft 365 using Migration Man
 > Features described in this topic are part of a public preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
 >
 >This preview release currently supports the migration of up to approximately 1500 Box accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
-
 
 
 
@@ -41,7 +42,7 @@ Collaborate all in one place by migrating your Box documents, data, and users to
 - **Step 6:** [Migrate and Monitor](mm-box-step6-migrate-monitor.md) After reviewing your migration setup, migrate your Box accounts and monitor the progress
 
 
-## How do I get started?
+## Get started
 
 To get started:
 

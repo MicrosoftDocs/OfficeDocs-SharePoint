@@ -7,6 +7,7 @@
 ### Reference
 #### [What's new](mm-whats-new.md)
 #### [Settings](mm-settings.md)
+#### [Create an Agent group](mm-agent-targeting.md)
 #### [Government cloud configuration](mm-gov-cloud.md)
 #### [How Migration Manager works](mm-how-it-works.md)
 #### [Format a CSV or JSON file for bulk upload](mm-bulk-upload-format-csv-json.md)
@@ -21,6 +22,9 @@
 ### [Step 4: Review destination paths](mm-box-step4-review-destinations.md)
 ### [Step 5: Map identities](mm-box-step5-map-identities.md)
 ### [Step 6: Migrate and Monitor](mm-box-step6-migrate-monitor.md)
+### Reference
+#### [FAQs](mm-faqs-box.md)
+#### [Troubleshooting](mm-box-troubleshooting.md)
 ## Migrate SharePoint Server sites and content
 ### [Overview](introducing-the-sharepoint-migration-tool.md)
 ### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
