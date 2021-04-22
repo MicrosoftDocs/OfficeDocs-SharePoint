@@ -548,6 +548,6 @@ In addition to a number of minor fixes, here are the primary improvements made i
    
 
 
-[Download SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
+[Download SharePoint Migration Tool](https://spmt.sharepointonline.com/install/default.htm)
   
 [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
