@@ -6,6 +6,7 @@
 ### [Step 3: Monitor and report](mm-reports.md)
 ### Reference
 #### [What's new](mm-whats-new.md)
+#### [Migration solutions posters]((migration-solutions-posters.md))
 #### [Settings](mm-settings.md)
 #### [Create an Agent group](mm-agent-targeting.md)
 #### [Government cloud configuration](mm-gov-cloud.md)
@@ -33,6 +34,7 @@
 ### Reference
 #### [Release notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 #### [Prerequisites and endpoints](spmt-prerequisites.md)
+#### [Migration solutions posters]((migration-solutions-posters.md))
 #### [Supported features](what-is-supported-spmt.md)
 #### [Supported SharePoint list templates](sharepoint-migration-supported-list-templates.md) 
 #### [Migrating OneNote notebooks](migrate-onenote-spmt.md)
