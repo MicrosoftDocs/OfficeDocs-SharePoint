@@ -23,7 +23,7 @@ description: "Troubleshoot common installation errors in the SharePoint Migratio
 If you are having trouble installing the SharePoint Migration Tool, this article provides information on the possible causes and steps to correct the problem.
 
 If after troubleshooting you still are experiencing problems, consider downloading and installing the public preview (beta) of SPMT. It contains the latest updates and fixes.</br>
-[Download SPMT Public Preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm) 
+[Download SPMT Public Preview](https://spmt.sharepointonline.com/betainstall/default.htm) 
 
 ## Common issues
 

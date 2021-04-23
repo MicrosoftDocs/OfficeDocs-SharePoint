@@ -31,7 +31,15 @@ In the sections below, we call out the options and decisions that you as an admi
 
   - How you can protect your organization's data by managing access through permissions, data classifications, governance rules, and monitoring.
 
-We recommend that you download the [Microsoft Teams and related productivity services in Microsoft 365 for IT architects](/microsoft-365/solutions/cloud-architecture-models) poster and refer to it while you read this article. This poster provides detailed illustrations of how the collaboration services in Microsoft 365 relate to each other and interact.
+This is part of the broader Microsoft 365 collaboration story:
+
+- [Secure collaboration with Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams)
+
+- [Collaboration governance](/microsoft-365/solutions/collaboration-governance-overview)
+
+- [Meetings and conferencing in Microsoft Teams](/microsoftteams/deploy-meetings-microsoft-teams-landing-page)
+
+We recommend that you download the [Microsoft Teams and related productivity services in Microsoft 365 for IT architects](/microsoft-365/solutions/productivity-illustrations) poster and refer to it while you read this article. This poster provides detailed illustrations of how the collaboration services in Microsoft 365 relate to each other and interact.
 
 Also see the [File Protection Solutions in Microsoft 365](/Office365/Enterprise/microsoft-cloud-it-architecture-resources#BKMK_O365fileprotect) diagram for an overview of recommended solutions to protect your data.
 
@@ -81,7 +89,7 @@ For details about how SharePoint and Teams interact, see [How SharePoint and One
 
 ## Collaboration in client applications
 
-Office applications such as Word, Excel, and PowerPoint provide a wide variety of collaboration features, including co-authoring and @mentions, and are also integrated with sensitivity labels and data loss prevention (discussed below).
+Office applications such as Word, Excel, and PowerPoint provide a wide variety of collaboration features, including coauthoring and @mentions, and are also integrated with sensitivity labels and data loss prevention (discussed below).
 
 We highly recommend deploying Microsoft 365 Apps for enterprise. Microsoft 365 Apps for enterprise provides an always up-to-date experience for your users, with the latest features and updates delivered on a schedule that you can control.
 

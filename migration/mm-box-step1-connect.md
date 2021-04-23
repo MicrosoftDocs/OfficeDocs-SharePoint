@@ -13,6 +13,8 @@ ms.service: sharepoint-online
 localization_priority: Normal
 mscollection:
 - m365solution-migratefileshares
+- m365solution-migratetom365
+- m365solution-scenario
 - SPMigration
 - M365-collaboration
 search.appverid: MET150

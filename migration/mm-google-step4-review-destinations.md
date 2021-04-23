@@ -1,5 +1,5 @@
 ---
-title: "Review the destination paths for your Box migration with Migration Manager"
+title: "Review the destination paths for your Google migration with Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -17,14 +17,12 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-description: Review your destination paths for your Box migration while using Migration Manager.
+description: Review your destination paths for your Google migration while using Migration Manager.
 ---
-# Step 4:   Review destination paths (preview)
+# Step 4: Review destination paths in Migration Manager Google (preview)
 
 >[!Note]
-> Features described in this topic are part of a public preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
->
->This preview release currently supports the migration of up to approximately 1500 Box accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
+> Features described in this topic are in a pending preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
 
 
 
@@ -82,7 +80,7 @@ If a destination is missing, highlight the row. A panel will appear to the right
 If you have many destinations to edit, you can choose to upload a bulk destinations CSV file.  Download the *MigrationDestinations.csv* file template to your computer and enter your destinations. Save your file as a .csv file using any name you wish. 
 
 
-![upload destinations for Box accounts bulk](media/mm-box-bulk-upload-destination-panel.png)
+![upload destinations for Google accounts bulk](media/mm-box-bulk-upload-destination-panel.png)
 
 1. From the Migrations tab, select **Upload destinations** from the menu bar.
 2. Select the file to upload with your destinations.
@@ -97,6 +95,6 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
 
 
 >[!NOTE]
->Migration Manager Box preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Google Workspace preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
