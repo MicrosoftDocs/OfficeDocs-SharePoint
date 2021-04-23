@@ -22,8 +22,6 @@ description: "Learn how to create and manage result sources in SharePoint Server
   
 Result sources limit searches to certain content or to a subset of search results. SharePoint Server provides 16 pre-defined result sources for the classic search experience. The pre-configured default result source is **Local SharePoint Results**. You can specify a different result source as the default. The modern search experience uses the default results source, so if you change the default result source for classic search, you also change it for modern search. For more information, see [Understanding result sources for search in SharePoint Server](understanding-result-sources-for-search.md).
 
- 
-    
 ## Create a result source
 <a name="BKMK_CreateResutlSource"> </a>
 
@@ -86,12 +84,7 @@ Next:
     > [!IMPORTANT]
     > To use the Remote SharePoint protocol to get search results in one SharePoint Server on-premises farm from the index of another SharePoint Server on-premises farm, you must configure the farm that receives the queries to trust the farm that sends the queries. For information about how to do this, see [Configure trust for search between two SharePoint Server farms](configure-trust-for-search-between-two-sharepoint-server-farms.md). 
   
-  - **OpenSearch** provides results from a search engine that uses the OpenSearch 1.0/1.1 protocol. 
-    
-  - **Exchange** provides results from Exchange Server through a SharePoint Server eDiscovery Center. Click **Use AutoDiscover** to have the search system find an Exchange Server endpoint automatically, or type the URL of the Exchange web service to retrieve results from — for example, https://contoso.com/ews/exchange.asmx.
-    
-    > [!NOTE]
-    >  The Exchange protocol only enables you to discover Exchange Server content, and only from a SharePoint Server eDiscovery Center. For more information, see [Configure communication between SharePoint Server and Exchange Server](../governance/configure-ediscovery-0.md) . >  The Exchange Web Services Managed API must be installed on the computer on which the search service is running. For more information, see [Optional software supported in SharePoint Server 2016](../install/hardware-and-software-requirements.md#OptionalSoftware) in [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md). 
+  - **OpenSearch** provides results from a search engine that uses the OpenSearch 1.0/1.1 protocol.  
   
 4. In the previous step, if you selected either **Local SharePoint** or **Remote SharePoint** for the protocol, then in the **Type** section, select **SharePoint Search Results** to search the whole index, or select **People Search Results** to enable query processing that is specific to people search. 
     
@@ -99,9 +92,7 @@ Next:
     
 6. If you selected **OpenSearch 1.0/1.1** for the protocol, then in the **Source URL** section, type the URL of the OpenSearch source.
     
-7. If you selected **Exchange** for the protocol, then in the **Exchange Source URL** section, type the URL of the Exchange web service — for example, https://contoso.com/ews/exchange.asmx.
-    
-8. In the **Query Transform** section, do one of the following:
+7. In the **Query Transform** section, do one of the following:
     
   - Leave the default query transform ( **searchTerms**) as is. In this case, the query will be unchanged since the previous transform.
     
