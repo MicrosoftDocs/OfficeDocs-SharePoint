@@ -90,7 +90,7 @@ We're continuously adding new features to the new SharePoint admin center and fi
 
 ## June 2019
 
-- The new SharePoint admin center is set as the default experience unless you select to open the classic SharePoint admin center by default (on the Settings page). [Learn how to select the default admin experience](./get-started-new-admin-center.md#open-the-new-sharepoint-admin-center-by-default).
+- The new SharePoint admin center is set as the default experience unless you select to open the classic SharePoint admin center by default (on the Settings page).
 
 - On the Active sites page, you can select multiple sites and bulk edit sharing and hub association settings.
 
