@@ -44,13 +44,13 @@ Open with Explorer relies on Internet Explorer 11 and isn’t available in newer
 
 Sync with [OneDrive Files On-Demand](https://support.microsoft.com/office/0e6860d3-d9f3-4971-b321-7092438fb38e) helps you work with all your cloud files in File Explorer without having to download all the files and use storage space on your device. For easy access to files that people share with you or that you find in SharePoint or Teams, you can [add shortcuts to shared folders](https://support.microsoft.com/office/d66b1347-99b7-4470-9360-ffc048d35a33). The shortcuts then appear in your OneDrive so you can find and work with the files.
 
-To get started deploying and configuring OneDrive in your environment and migrating files, start at the [OneDrive resources page](../../OneDrive/onedrive.yml). Keep in mind, though, that some environments aren’t compatible with OneDrive sync.
+To get started deploying and configuring OneDrive in your environment and migrating files, start at the [OneDrive resources page](/onedrive/onedrive.yml). Keep in mind, though, that some environments aren’t compatible with OneDrive sync.
 
 ### Environments in which OneDrive Sync doesn’t work or isn’t supported
 
 - On premises SharePoint Server 2016 environments or earlier versions of SharePoint Server.
-- SharePoint Server 2019 with certain types of authentication, such as Security Assertion Markup Language (SAML). For more information, read [Plan for user authentication methods in SharePoint Server](/security-for-sharepoint-server/plan-user-authentication.md).
-- Non-persistent virtual desktop environments in which the sync client isn’t installed on each computer. For more information, read [use the sync app on virtual desktops](../../OneDrive/sync-vdi-support.md).
+- SharePoint Server 2019 with certain types of authentication, such as Security Assertion Markup Language (SAML). For more information, read [Plan for user authentication methods in SharePoint Server](/sharepoint/security-for-sharepoint-server/plan-user-authentication.md).
+- Non-persistent virtual desktop environments in which the sync client isn’t installed on each computer. For more information, read [use the sync app on virtual desktops](/onedrive/sync-vdi-support.md).
 - Versions of Windows that don't support [Files On-Demand](https://support.microsoft.com/office/0e6860d3-d9f3-4971-b321-7092438fb38e). Files On-Demand requires Windows 10 Fall Creators Update (version 1709 or later) or Windows Server 2019.
 
 ## Use Power Apps to automate business processes
