@@ -71,20 +71,20 @@ Next:
     
 2. On the **Add Result Source** page, in the **General Information** section, do the following: 
     
-  - In the **Name** box, type a name for the result source. 
+   - In the **Name** box, type a name for the result source. 
     
-  - In the **Description** box, type a description of the result source. 
+   - In the **Description** box, type a description of the result source. 
     
 3. In the **Protocol** section, select one of the following protocols for retrieving search results: 
     
-  - **Local SharePoint**, the default protocol, provides results from the search index for this Search service application.
+   - **Local SharePoint**, the default protocol, provides results from the search index for this Search service application.
     
-  - **Remote SharePoint** provides results from the index of a search service in another farm. 
+   - **Remote SharePoint** provides results from the index of a search service in another farm. 
     
-    > [!IMPORTANT]
-    > To use the Remote SharePoint protocol to get search results in one SharePoint Server on-premises farm from the index of another SharePoint Server on-premises farm, you must configure the farm that receives the queries to trust the farm that sends the queries. For information about how to do this, see [Configure trust for search between two SharePoint Server farms](configure-trust-for-search-between-two-sharepoint-server-farms.md). 
+     > [!IMPORTANT]
+     > To use the Remote SharePoint protocol to get search results in one SharePoint Server on-premises farm from the index of another SharePoint Server on-premises farm, you must configure the farm that receives the queries to trust the farm that sends the queries. For information about how to do this, see [Configure trust for search between two SharePoint Server farms](configure-trust-for-search-between-two-sharepoint-server-farms.md). 
   
-  - **OpenSearch** provides results from a search engine that uses the OpenSearch 1.0/1.1 protocol.  
+   - **OpenSearch** provides results from a search engine that uses the OpenSearch 1.0/1.1 protocol.  
   
 4. In the previous step, if you selected either **Local SharePoint** or **Remote SharePoint** for the protocol, then in the **Type** section, select **SharePoint Search Results** to search the whole index, or select **People Search Results** to enable query processing that is specific to people search. 
     
@@ -94,15 +94,15 @@ Next:
     
 7. In the **Query Transform** section, do one of the following:
     
-  - Leave the default query transform ( **searchTerms**) as is. In this case, the query will be unchanged since the previous transform.
+   - Leave the default query transform (**searchTerms**) as is. In this case, the query will be unchanged since the previous transform.
     
-  - Type a different query transform in the text box. For more information, see [Understanding query transforms](https://office.microsoft.com/sharepoint-server-help/understanding-query-transforms-HA102848843.aspx).
+   - Type a different query transform in the text box. For more information, see [Understanding query transforms](https://office.microsoft.com/sharepoint-server-help/understanding-query-transforms-HA102848843.aspx).
     
-  - Use the Query Builder to configure a query transform by doing the following:
+   - Use the Query Builder to configure a query transform by doing the following:
     
-    - Click **Launch Query Builder**.
+      - Click **Launch Query Builder**.
     
-    - In the **Build Your Query** dialog, optionally build the query by specifying filters, sorting, and testing on the tabs as shown in the following tables.
+      - In the **Build Your Query** dialog, optionally build the query by specifying filters, sorting, and testing on the tabs as shown in the following tables.
     
 **On the BASICS tab**
 
@@ -115,7 +115,7 @@ Next:
 
 |                      |                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | :------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Sort results**     | In the **Sort by** menu, you can select a managed property from the list of managed properties that are set as sortable in the search schema, and then select **Descending** or **Ascending**. To sort by relevance, that is, to use a ranking model, select **Rank**. You can click **Add sort level** to specify a property for a secondary level of sorting for search results.   Note that sorting of search results is case sensitive. |
+| **Sort results**     | In the **Sort by** menu, you can select a managed property from the list of managed properties that are set as sortable in the search schema, and then select **Descending** or **Ascending**. To sort by relevance, that is, to use a ranking model, select **Rank**. You can click **Add sort level** to specify a property for a secondary level of sorting for search results. Note that sorting of search results is case-sensitive. |
 | **Ranking Model**    | If you selected  *Rank*  from the **Sort by** list, you can select the ranking model to use for sorting.                                                                                                                                                                                                                                                                                                                                    |
 | **Dynamic ordering** | You can click **Add dynamic ordering rule** to specify additional ranking by adding rules that change the order of results within the result block when certain conditions are satisfied.                                                                                                                                                                                                                                                   |
    
