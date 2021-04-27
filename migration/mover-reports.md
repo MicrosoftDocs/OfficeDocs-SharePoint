@@ -108,7 +108,7 @@ To download this as a CSV, at the top right of the **Migration Manager**, select
 
 The CSV report provides the following information for each user pairing:
 
-|Header/Statistic|Definition|
+|Header Statistic|Definition|
 |:-----|:-----|
 |Schedule ID|Our internal reference unique to the user pairing created.|
 |Source|Source directory path.|
