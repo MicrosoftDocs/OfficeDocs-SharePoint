@@ -29,9 +29,8 @@ description: Learn how to use Onedrive Sync admin reports to get insights and ta
 
 # Overview of OneDrive Sync admin reports in the Microsoft 365 Apps Admin center
 
-  
-  > [!IMPORTANT]
-  > This is pre-release documentation for a preview program that isn't available to everyone and is subject to change. This pre-released feature will be gradually rolling out to customers on the Insider and Production rings on 05/04/2021 and the roll out will be completed by the end of 06/04/2021. 
+>[!IMPORTANT]
+> This is pre-release documentation for a preview program that isn't available to everyone and is subject to change. This pre-released feature will be gradually rolling out to customers on the Insider and Production rings on 05/04/2021 and the roll out will be completed by the end of 06/04/2021.
 
 This article is for IT admins managing the OneDrive sync app.
 
