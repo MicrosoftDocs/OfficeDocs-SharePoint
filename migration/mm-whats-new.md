@@ -26,10 +26,19 @@ You can help us improve Migration Manager by sending us your suggestions and rep
 
 ## Coming soon
 
-- **Auto site provisioning.** When migrating to SharePoint sites, if the site doesn't exist, it will be automatically provisioned before we start the migration.
-- **CSV optional header.**  Soon users will have the options of including optional headers in the bulk upload file.
+- **Auto site provisioning.** When migrating to SharePoint sites, if the site doesn't exist, it will be automatically provisioned before the migration starts.
+- **Google migrations (preview).**  You will be able to migrate their Google Drives to Microsoft 365.
+- **Scan file shares (preview).**  Scan and view your sources for migration readiness.
+- **Performance dashboard for file shares.**  View your performance history, and if needed, be provided prescriptive guidance on how to improve in impacted areas.
+- **Ability to install agent on non-domain joined computers (app mode).**  You will have the option of installing the Migration Manager agent on non-domain joined computers using an agent app.
 
-## Current features and improvements through March 2021
+
+## April 2021
+
+- **Box migrations (preview).**.  You can now migrate Box content to Microsoft 365 using Migration Manager (preview).
+- **CSV optional header.**  Users have the option of including optional headers in the bulk upload file.
+
+## March 2021
 
 - **Agent groups and agent targeting.** You can now create an "agent group" and assign one or more agents to it. A group may represent a particular geographical location or other targeted purpose. After creating an agent group(s), you can target your tasks to be run by only that group of agents. To learn more, see: [Agent groups in Migration Manager](mm-agent-targeting.md).
 - **Summary report enhancements.** *TaskID*, *Task failure reason*, and *Agent group* have been added to the task summary report.

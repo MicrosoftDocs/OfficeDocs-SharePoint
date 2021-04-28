@@ -27,9 +27,10 @@ description: "Learn how global and SharePoint admins can change the organization
 This article describes how global and SharePoint admins in Microsoft 365 can change their organization-level sharing settings for Microsoft SharePoint and Microsoft OneDrive. (If you want to share a file or folder, read [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c) or [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07).)
 
 For end-to-end guidance around how to configure guest sharing in Microsoft 365, see:
-- [Collaborate with guests on a document](/Office365/Enterprise/collaborate-on-documents)
-- [Collaborate with guests in a site](/Office365/Enterprise/collaborate-in-a-site)
-- [Collaborate with guests in a team](/Office365/Enterprise/collaborate-as-a-team)
+- [Set up secure collaboration with Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams)
+- [Collaborate with guests on a document](/microsoft-365/solutions/collaborate-on-documents)
+- [Collaborate with guests in a site](/microsoft-365/solutions/collaborate-in-site)
+- [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team)
 
 To change the sharing settings for a site after you've set the organization-level sharing settings, see [Turn external sharing on or off for for a site](change-external-sharing-site.md). To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings).
 

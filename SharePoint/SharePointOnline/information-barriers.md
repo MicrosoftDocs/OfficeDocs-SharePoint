@@ -33,20 +33,55 @@ In the above example, the HR segment is compatible with both Sales and Research.
 
 ## Prerequisites
 
-- [Make sure you meet the licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
-- Create segments and define the users in each. Create policies that allow or block communication between the segments, and then set them to active. For info, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
-- After you've set your information barrier policies to active, wait 24 hours for the changes to propagate through your environment.
-- [Complete the form](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_mCQfArPllNo4NRhexFZxRUNEZCTTZLVVJHOEJOVVlCTUdJNDVERko5Qy4u) to enable SharePoint and OneDrive information barriers in your organization.
+1. Make sure you meet the [licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
+2. [Create information barrier policies](/office365/securitycompliance/information-barriers-policies) that allow or block communication between the segments, and then set them to active. Create segments and define the users in each.
+3. After you've configured and activated your information barrier policies, wait 24 hours for the changes to propagate through your organization.
+4. Complete the steps in the following sections to enable and manage SharePoint and OneDrive information barriers in your organization.
+
+## Enable SharePoint and OneDrive information barriers in your organization
+
+SharePoint Administrators or Global Administrators can enable information barriers in SharePoint and OneDrive in your organization. Complete the following steps to enable information barriers for your organization:
+
+1. [Download](https://go.microsoft.com/fwlink/p/?LinkId=255251) and install the latest version of SharePoint Online Management Shell.
+2. Connect to SharePoint Online as a global admin or [SharePoint admin](sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+3. To enable information barriers in SharePoint and OneDrive, run the following command:
+
+    ```PowerShell
+    Set-Spotenant -InformationBarriersSuspension $false 
+    ```
+
+4. After you've enabled information barriers for SharePoint and OneDrive in your organization, wait for approximately 1 hour for the changes to take effect. 
+
+>[!NOTE]
+>If you have Microsoft 365 Multi-Geo, you must run this command for each of your geo-locations.
+
+If you installed a previous version of the SharePoint Online Management Shell, complete the following steps:
+
+1. Go to **Add or remove programs** and uninstall *SharePoint Online Management Shell*.
+2. Navigate to the Microsoft Download Center for the [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251)), select your language, and then select **Download**.
+3. You may be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version of Windows. If you don't know which version you're running on your computer, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system).
+4. After the download is complete, run the installer file and follow the configuration steps in the setup wizard.
+5. Connect to SharePoint Online as a global admin or [SharePoint admin](sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+6. To enable information barriers in SharePoint and OneDrive, run the following command:
+
+    ```PowerShell
+    Set-Spotenant -InformationBarriersSuspension $false 
+    ```
+
+7.After you've configured information barriers in SharePoint and OneDrive in your organization, wait for approximately 1 hour for the changes to take effect.
+
+>[!NOTE]
+>If you have Microsoft 365 Multi-Geo, you must run this command for each of your geo-locations.
 
 ## View and manage segments as an administrator
 
-An SharePoint Administrator or Global Administrator can view and manage segments on a SharePoint site as follows:
+SharePoint or Global Administrators can view and manage segments on a SharePoint site as follows:
 
 ### 1. Use the SharePoint admin center to view and manage information segments
 
 To view, edit, or remove information segments for a site, use the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true).  
 
-The Segments column lists the first segment associated with the site and shows whether the site has additional segments associated. [Learn how to show or move this column](manage-sites-in-new-admin-center.md#customize-columns)
+The Segments column lists the first segment associated with the site and shows whether the site has other segments associated. [Learn how to show or move this column](manage-sites-in-new-admin-center.md#customize-columns)
 
 ![Segments column on the Active sites page.](media/info-barriers-segments-column.png)
 
@@ -70,16 +105,13 @@ To edit the segments associated with the site, select **Edit**, add or remove se
 
 3. Save the list of segments.
 
-    |Name  |EXOSegmentId  |
-    |---------|---------|
-    |Sales     |  a9592060-c856-4301-b60f-bf9a04990d4d       |
-    |Research     |     27d20a85-1c1b-4af2-bf45-a41093b5d111    |
-    |HR     |      a17efb47-e3c9-4d85-a188-1cd59c83de32   |
+    |**Name**|**EXOSegmentId**|
+    |:-------|:---------------|
+    | Sales | a9592060-c856-4301-b60f-bf9a04990d4d |
+    | Research | 27d20a85-1c1b-4af2-bf45-a41093b5d111 |
+    | HR | a17efb47-e3c9-4d85-a188-1cd59c83de32 |
 
-4. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
-
-    > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell". <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
+4. If not previously completed, [download](https://go.microsoft.com/fwlink/p/?LinkId=255251) and install the latest SharePoint Online Management Shell. If you installed a previous version of the SharePoint Online Management Shell, follow the instructions in the **Enable SharePoint and OneDrive information barriers in your organization** section in this article.
 
 5. Connect to SharePoint Online as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
@@ -93,7 +125,7 @@ To edit the segments associated with the site, select **Edit**, add or remove se
     Set-SPOSite -Identity https:<i></i>//contoso<i></i>.sharepoint<i></i>.com/sites/ResearchTeamSite
 -AddInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111
 
-An error will appear if you attempt to associate a segment that isn't compatible with the site's existing segments.
+You'll see an error message if you attempt to associate a segment that isn't compatible with the site's existing segments.
 
 To remove segment from a site, run the following command.  
 
@@ -128,9 +160,9 @@ For more information about SharePoint segment auditing in Office 365, see [Searc
 
 ## Site creation and management by site owners
 
-When a segmented user creates a SharePoint site, the site will get associated with the user's segment.
+When a segmented user creates a SharePoint site, the site is associated with the user's segment.
 
-In addition, the site owners will have the capability to add more segments to a SharePoint site already has segments. Site owners cannot remove added segments from sites. SharePoint admins will have to remove added segments in your organization if needed.
+In addition, the site owners will have the capability to add more segments to a SharePoint site that already has segments. Site owners cannot remove added segments from sites. SharePoint admins will have to remove added segments in your organization if needed.
 
 To help site owners add a segment to a site, share the [Associate information segments with SharePoint sites](https://support.microsoft.com/office/associate-information-segments-with-sharepoint-sites-2b03db07-6d3f-4297-a388-b943317a26a7) article with your SharePoint site owners.
 
@@ -160,7 +192,7 @@ For a user to access SharePoint sites that have segments associated:
 
 - The user must have access permission to the site.  
 
-Non-segment users can't access a site that is associated with segments. They will see an error.
+Non-segment users can't access a site that is associated with segments. They will see an error message.
 
 ## Search
 
@@ -176,6 +208,19 @@ If a SharePoint site owner's segment changes, the user won't be able to access t
 If a compliance administrator changes an existing policy, the change may impact the compatibility of the segments associated with a site. For example, segments that were once compatible may no longer be compatible. A SharePoint admin must change the segments associated with an affected site accordingly. [Learn how to create an information barriers policy compliance report in PowerShell](info-barriers-report.md)
 
 Any sharing links will only work if a user's new segment or the new information barrier policy still allows the user to access the site.
+
+## How to suspend SharePoint and OneDrive information barriers in your tenant
+
+If your organization would like to temporarily suspend information barriers on SharePoint, you must use SharePoint Online Management Shell and the [Set-Spotenant](/powershell/module/sharepoint-online/set-spotenant) cmdlet.
+
+To suspend information barriers, run the following command:
+
+```PowerShell
+Set-Spotenant -InformationBarriersSuspension $true 
+```
+
+>[!NOTE]
+>If you have Microsoft 365 Multi-Geo, you must run this command for each of your geo-locations.
 
 ## See also
 

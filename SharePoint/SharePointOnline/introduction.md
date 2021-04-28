@@ -68,9 +68,10 @@ SharePoint provides a rich collaboration environment where people inside and out
 
 | If you're looking for this information: | Go to this resource: |
 |:-----|:-----|
+|Learn about secure collaboration in Microsoft 365|[Set up secure collaboration with Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams)|
 |Learn about file collaboration and how to plan your implementation|[Intro to file collaboration in Microsoft 365](intro-to-file-collaboration.md)<br><br>[File collaboration in SharePoint with Microsoft 365](deploy-file-collaboration.md)|
-|Learn about collaborating with people outside your organization|[External sharing overview](external-sharing-overview.md)<br><br>[Collaborate with guests](/Office365/Enterprise/collaborating-with-people-outside-your-organization)|
-|Use the security and compliance features in Microsoft 365 to help secure your guest sharing environment|[Create a secure guest sharing environment](/Office365/Enterprise/create-a-secure-guest-sharing-environment)|
+|Learn about collaborating with people outside your organization|[External sharing overview](external-sharing-overview.md)<br><br>[Collaborate with guests](/microsoft-365/solutions/collaborate-with-people-outside-your-organization)|
+|Use the security and compliance features in Microsoft 365 to help secure your guest sharing environment|[Create a secure guest sharing environment](/microsoft-365/solutions/create-secure-guest-sharing-environment)|
 
 ## Modern intranet
 

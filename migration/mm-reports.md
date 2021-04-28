@@ -58,7 +58,7 @@ These reports can be viewed while the migration is taking place or after the job
 To download task level reports, run the following Powershell cmdlet.
 
 
-1. [Download the powershell script](https://spmtreleasescus.blob.core.windows.net/download/ReportAggregator.zip) and extract the files.
+1. [Download the powershell script](https://spmt.sharepointonline.com/download/ReportAggregator.zip) and extract the files.
 2. **Run** *aggregatereports.ps1*. 
 3. Enter your tenant credentials.
 4. From the Task Filter pane, select how you want to filter your reports:
