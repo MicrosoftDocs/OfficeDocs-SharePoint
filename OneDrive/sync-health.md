@@ -38,13 +38,13 @@ OneDrive Sync admin reports provide you with unified actionable insights to simp
 From their dashboard, admins can check the sync status and client version of individual devices, monitor Known Folder Move roll out, and track sync errors. The insights range from a high-level executive summary to a drill-down of sync status per-device, to be used in a variety of administrative scenarios.
 
 **Requirements**:  
-- This feature is available for OneDrive Sync clients on Insiders or Production Update Rings only. Deferred ring devices are not eligible for the preview.
+- This feature is available for OneDrive Sync clients on Insiders or Production Update Rings only. Deferred Ring devices are not eligible for the preview.
 
 - Deploy the OneDrive Sync client version 21.078 or newer (Windows only, Mac support underway).
 
 - Ensure that your organization’s IT admin has the appropriate administrative access – Global administrator role, Office Apps administrator role, or Global reader role.
 
-- Verify with your network team that client devices can reach the following endpoints: 
+- Verify with your network team that client devices can reach the following endpoint: 
 [https://clients.config.office.net](https://clients.config.office.net)
 
 ## Set up the OneDrive Sync admin reports dashboard
