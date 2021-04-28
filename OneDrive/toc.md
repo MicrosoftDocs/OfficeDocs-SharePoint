@@ -22,7 +22,6 @@
 ### [OneDrive policies](use-group-policy.md)
 ### [Use administrative templates in Intune](configure-sync-intune.md)
 ### [Set Files On-Demand states](files-on-demand-windows.md)
-### [Sync Admin Reports (Preview)](sync-health.md)
 ## [Configure sync on Mac]()
 ### [Deploy and configure on macOS](deploy-and-configure-on-macos.md)
 ### [Set Files On-Demand states](files-on-demand-mac.md)
