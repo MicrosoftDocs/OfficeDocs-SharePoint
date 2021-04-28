@@ -42,7 +42,7 @@ You can limit domains by allowing only the domains you specify or by allowing al
     
 2. Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box, and then select **Add domains**.
     
-3. To create an allow list (most restrictive), select **Allow only specific domains**; to block only the domains you specify, select **Block specific domains**.
+3. To create an allowlist (most restrictive), select **Allow only specific domains**; to block only the domains you specify, select **Block specific domains**.
     
 4. List the domains (maximum of 3000) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line.
     
@@ -57,9 +57,9 @@ You can also limit domains at the site collection level. Note the following cons
   
 - In the case of conflicts, the organization-wide configuration takes precedence over the site collection configuration.
     
-- If an organization-wide allow list is configured, then you can only configure an allow list at the site collection level. The site collection allow list must be a subset of the organization's allow list.
+- If an organization-wide allowlist is configured, then you can only configure an allowlist at the site collection level. The site collection allowlist must be a subset of the organization's allowlist.
     
-- If an organization-wide deny list is configured, then you can configure either an allow list or a deny list at the site collection level.
+- If an organization-wide blocklist is configured, then you can configure either an allowlist or a blocklist at the site collection level.
     
 - For individual OneDrive site collections, you can only configure this setting by using the [Set-SPOSite](/powershell/module/sharepoint-online/Set-SPOSite) Windows PowerShell cmdlet.
     
@@ -76,7 +76,7 @@ You can also limit domains at the site collection level. Note the following cons
     
 2. Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box, and then select **Add domains**.
     
-3. Select **Allow only specific domains** to create an allow list (most restrictive), or to block only the domains you specify, select **Block specific domains**.
+3. Select **Allow only specific domains** to create an allowlist (most restrictive), or to block only the domains you specify, select **Block specific domains**.
     
 4. List the domains (maximum of 100) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line.
     
