@@ -1,5 +1,6 @@
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
-
+
+
 
 
 ## Week of March 29, 2021
@@ -131,7 +132,7 @@
 | 3/23/2021 | [Security considerations of allowing custom script](/SharePoint/security-considerations-of-allowing-custom-script) | modified |
 | 3/23/2021 | [Mark new files as sensitive by default](/SharePoint/sensitive-by-default) | modified |
 | 3/23/2021 | [Crawl log permissions](/SharePoint/set-crawl-log-permissions) | modified |
-| 3/23/2021 | [Use the new SharePoint app bar and set up global navigation](/SharePoint/sharepoint-app-bar) | modified |
+| 3/23/2021 | [Use the new SharePoint app bar and set up global navigation](/Shsharepoint-azureb2b-integration |
 | 3/23/2021 | [Azure AD B2B integration for SharePoint & OneDrive](/SharePoint/sharepoint-azureb2b-integration-preview) | modified |
 | 3/23/2021 | [Sharing errors in SharePoint and OneDrive](/SharePoint/sharepoint-onedrive-error-message) | modified |
 | 3/23/2021 | [Sign out inactive users](/SharePoint/sign-out-inactive-users) | modified |

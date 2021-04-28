@@ -27,7 +27,7 @@ description: "Allow sharing only with guests on specific domains, or block shari
 If you want to restrict sharing with other organizations (either at the organization level or site level), you can limit sharing by domain.
 
 > [!NOTE]
-> If you have enrolled in the [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration-preview.md), invitations in SharePoint are also subject to any [domain restrictions configured in Azure Active Directory](/azure/active-directory/b2b/allow-deny-list).
+> If you have enrolled in the [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md), invitations in SharePoint are also subject to any [domain restrictions configured in Azure Active Directory](/azure/active-directory/b2b/allow-deny-list).
 
 ## Limiting domains
 
