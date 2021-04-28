@@ -17,7 +17,7 @@ ms.collection: M365-collaboration
 ms.custom:
  - Adm_O365
  - seo-marvel-apr2020
-description: In this article, you'll learn about the SharePoint and OneDrive integration with Azure AD B2B (preview).
+description: In this article, you'll learn about the SharePoint and OneDrive integration with Azure AD B2B.
 ---
 
 # SharePoint and OneDrive integration with Azure AD B2B 
@@ -30,7 +30,7 @@ With SharePoint and OneDrive integration, the Azure B2B one-time passcode featur
 
 Enabling this integration does not change your sharing settings. For example, if you have site collections where external sharing is turned off, it will remain off.
 
-Once the integration is enabled you and your users do not have to reshare or do any manual migration for guests previously shared with. Instead, when someone outside your organization clicks on a link that was created before the preview was enabled, SharePoint will automatically create a B2B guest account. This guest account is created on behalf of the user who originally created the sharing link. (If the user who created the link is no longer in the organization or no longer has permission to share, the guest will not be added to the directory and the file will need to be reshared.)
+Once the integration is enabled you and your users do not have to reshare or do any manual migration for guests previously shared with. Instead, when someone outside your organization clicks on a link that was created before Azure AD B2B integration was enabled, SharePoint will automatically create a B2B guest account. This guest account is created on behalf of the user who originally created the sharing link. (If the user who created the link is no longer in the organization or no longer has permission to share, the guest will not be added to the directory and the file will need to be reshared.)
 
 SharePoint and OneDrive integration with the Azure AD B2B one-time passcode feature is currently not enabled by default. Later, this feature will replace the ad-hoc external sharing experience used in OneDrive and SharePoint today.
 
