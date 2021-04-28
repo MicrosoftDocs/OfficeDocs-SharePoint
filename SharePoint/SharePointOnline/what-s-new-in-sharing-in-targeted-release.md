@@ -24,7 +24,7 @@ description: "In SharePoint, if you share with a user who is not in the director
 
 In SharePoint, if you share with a person who is not in the directory, they're sent a one-time code that they can use to verify their identity.
 
-This article describes the current default one-time-passcode experience. However, we recommend that you enable [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration-preview.md), which will replace this experience.
+This article describes the current default one-time-passcode experience. However, we recommend that you enable [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md), which will replace this experience.
 
 Recipients of secure external sharing who also use Microsoft 365 in their organization can sign in using their work or school account to access the document. After they have entered the one-time passcode for verification the first time, they will authenticate with their work or school account and have a guest account created in the host's organization. IT admins can manage them like any other guest account in their directory.
  
