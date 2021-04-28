@@ -31,7 +31,7 @@ description: Learn how to use Onedrive Sync admin reports to get insights and ta
 
   
   > [!IMPORTANT]
-    > This is pre-release documentation for a preview program that isn't available to everyone and is subject to change. This pre-released feature will be gradually rolling out to customers on the Insider and Production rings on 05/04/2021 and the roll out will be completed by the end of 06/04/2021. 
+  > This is pre-release documentation for a preview program that isn't available to everyone and is subject to change. This pre-released feature will be gradually rolling out to customers on the Insider and Production rings on 05/04/2021 and the roll out will be completed by the end of 06/04/2021. 
 
 This article is for IT admins managing the OneDrive sync app.
 
