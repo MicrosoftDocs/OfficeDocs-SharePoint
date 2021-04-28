@@ -19,6 +19,17 @@ description: "Mover Release Notes"
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
 
+## Frontend v1.19.8 (April 27, 2021
+- Accessibility. We have removed the option to close a "successful notification" message. It will now auto close in 5 seconds. 
+
+## Backend - v1.20.7 (April 27, 2021)
+- New. Six new columns have been added to the Migration Report. See the documentation at: https://docs.microsoft.com/sharepointmigration/mover-reports#migration-report. These new columns start with the following prefixes:
+  - *Completed Successfully* will get the statistics for the last metrics completed transfer (green, status code 1xx). Three available statistics: Files, Bytes, MB.
+  - *Completed* will get the statistics for the last completed transfer, either successfully or with some errors (green OR yellow, status code 1xx OR 2xx). Three available metrics: Files, Bytes, MB.
+Reduces resolution times for customers who need to ensure their transactions (scans or transfers) are run in a specific region due to compliance requirements.
+- New. GoogleWorkspace connector has been enabled in SharePoint Migration Manager.
+
+
 ## Backend v1.20.3 (March 11, 2021)
 
 This release contains jolt command updates along with features and fixes for customers.
