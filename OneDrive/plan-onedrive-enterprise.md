@@ -220,6 +220,8 @@ Because OneDrive provides access to files on many kinds of devices, it restricts
 
 If you want to see the functionality currently under development for OneDrive and Microsoft 365, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) or the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/onedrive). Lastly, if you want to request new functionality or vote on great community ideas for OneDrive, visit [OneDrive UserVoice](https://onedrive.uservoice.com).
 
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
+
 ## Keys to successful user adoption
 
 User adoption is important to the overall success of any new application. Ideally, to feel that you have maximized your investment in Microsoft 365 and OneDrive, you need to maximize user engagement with them. To do that, start by focusing on three critical success factors:
