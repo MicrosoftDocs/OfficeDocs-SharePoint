@@ -372,8 +372,9 @@ Restore B2B Sync with:
 <a name="KFMOptInWithWizard"> </a>
 
 This setting shows the following window that prompts users to move their Documents, Pictures, and Desktop folders to OneDrive.
-  
-![Window prompting users to backup important folders](media/kfm-wizard.png)
+
+> [!div class="mx-imgBorder"]
+> ![Window prompting users to backup important folders](media/kfm-wizard.png)
   
 If you enable this setting and provide your tenant ID, users who are syncing their OneDrive see the previous window when they're signed in. If they close the window, a reminder notification appears in the Activity Center until they move all their known folders. If a user has already redirected their known folders to a different OneDrive account, they are prompted to direct the folders to the account for your organization (leaving existing files behind).
   
