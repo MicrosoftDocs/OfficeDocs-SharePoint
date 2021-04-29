@@ -237,7 +237,12 @@ Enabling this policy sets the following registry key value to 1:
 
 This setting lets you enter keywords to prevent the OneDrive sync app (OneDrive.exe) from uploading certain files to OneDrive or SharePoint. You can enter complete names, such as "setup.exe" or use the asterisk (*) as a wildcard character to represent a series of characters, such as *.pst. Keywords aren't case-sensitive. 
 
-If you enable this setting, the sync app doesn't upload new files that match the keywords you specified. No errors appear for the skipped files, and the files remain in the local OneDrive folder. In File Explorer, the files appear with an "Excluded from sync" icon in the Status column. The OneDrive sync app must be restarted after this setting is enabled for the setting to take effect.
+If you enable this setting, the sync app doesn't upload new files that match the keywords you specified. No errors appear for the skipped files, and the files remain in the local OneDrive folder. 
+
+> [!NOTE]
+> This setting will only block files that match your specification. It will not apply to existing files that are renamed to match the specified keywords. Additionally, new files that are created inside the synced folder and named to match the specified keywords will also not be blocked.
+
+In File Explorer, the files appear with an "Excluded from sync" icon in the Status column. The OneDrive sync app must be restarted after this setting is enabled for the setting to take effect.
 
 ![The "Excluded from sync" icon in File Explorer](media/excluded-from-sync.png)
 
