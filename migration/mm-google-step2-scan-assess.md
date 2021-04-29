@@ -46,7 +46,7 @@ A table summary appears at the top to give you an at-a-glance overview of your u
 ![google download reports button](media/mm-google-download-reports-button.png)
 
 
-[ **Step 3: Copy to migrations**](mm-Google-step3-copy-to-migrations.md)
+**NEXT:**  [ **Step 3: Copy to migrations**](mm-Google-step3-copy-to-migrations.md)
 
 
 >[!NOTE]
