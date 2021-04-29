@@ -69,7 +69,7 @@ The first version of Viva Connections can be provisioned through PowerShell and 
 
 #### Viva Connections recommendations:
 
-- **SharePoint home site -** We highly recommend that you use the SharePoint home site as the landing experience for Viva Connections. If you don't already have a SharePoint [home site](https://review.docs.microsoft.com/sharepoint/home-site?branch=viva-connections-desktop), learn more about how to [plan home site navigation](./information-architecture-modern-experience.md) and review considerations for [planning a global intranet](./set-up-global-intranet.md).
+- **SharePoint home site -** We highly recommend that you use the SharePoint home site as the landing experience for Viva Connections. If you don't already have a SharePoint [home site](./home-site.md), learn more about how to [plan home site navigation](./information-architecture-modern-experience.md) and review considerations for [planning a global intranet](./set-up-global-intranet.md).
 
 - **Modern SharePoint sites and pages -** Only modern SharePoint sites and pages can be viewed in Teams and all other content will open in a browser. Learn more about how to [modernize classic SharePoint sites and pages](/sharepoint/dev/transform/modernize-userinterface-site-pages).
 
