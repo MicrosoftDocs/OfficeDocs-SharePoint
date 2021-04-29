@@ -16,11 +16,11 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-description: Series of illustrations and posters showing the Content Migration solutions into Microsft 365.
+description: Series of illustrations and posters showing the Content Migration solutions into Microsoft 365.
 ---
 # Migration Manager and SharePoint Migration Tool solutions posters
 
-Microsoft provides tools to migrate your on-premises network file shares and SharePoint Servers sites to Microsoft 365 with an emphasis on protecting and enxuring your content's security during migration.  This set of illustrations demonstratiosn the various meethods available to move your content to SharePoint, Teams, and OneDrive and how your data flows through the process.
+Microsoft provides tools to migrate your on-premises network file shares and SharePoint Servers sites to Microsoft 365. The emphasis is on protecting and ensuring your content's security during migration. These illustrations let you view the various methods available to move your content to SharePoint, Teams, and OneDrive and how your data flows through the process.
 
 
 ## File share migration 
@@ -35,7 +35,7 @@ Migrating your file shares with Migration Manager lets you have a centralized wa
 
 ## SharePoint Server migration
 
-The SharePoint Migration Tool (SPMT) is a downloadable tool that guides you through the process of identifying your SharePoint Server site and content locations, and your destinations in SharePoint, Teams, and OneDrive.
+The SharePoint Migration Tool (SPMT) is a downloadable tool that guides you through the process of migrating your SharePoint Server sites and content to Microsoft 365. 
 
 
 ![Thumb image for sharepoint server Migration poster](media/migration-poster-spserver.png)
