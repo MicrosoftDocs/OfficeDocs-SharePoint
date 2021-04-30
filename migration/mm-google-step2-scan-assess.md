@@ -23,7 +23,7 @@ description: "Step 2:  Scan and assess Google users using Migration Manager."
 # Step 2: Scan and assess Google Drives (preview)
 
 >[!Note]
-> Features described in this topic are part of a pending preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
+> Features described in this topic are part of a preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
 
 
 After you have connected to Google, Google Drives are scanned automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
