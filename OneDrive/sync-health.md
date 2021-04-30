@@ -52,7 +52,7 @@ From their dashboard, admins can check the sync status and client version of ind
 
 Before you can begin to set up the dashboard, ensure that appropriate administrative access is in place.
 
-1. **Get access to the [Microsoft 365 Apps Admin Center](https://clients.config.office.net).**
+1. **Get access to the [Microsoft 365 Apps Admin Center](https://config.office.com/).**
     * To complete Step 2 below, you must have the [Global Administrator role](/microsoft-365/admin/add-users/about-admin-roles?WT.mc_id=365AdminCSH&view=o365-worldwide) or [Office Apps Administrator role](/microsoft-365/admin/add-users/about-admin-roles?WT.mc_id=365AdminCSH&view=o365-worldwide) (either one of the two).
 
     * Once you've completed the step below, you can view the report with [Global Reader role](/microsoft-365/admin/add-users/about-admin-roles?WT.mc_id=365AdminCSH&view=o365-worldwide).
