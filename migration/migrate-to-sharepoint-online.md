@@ -26,9 +26,11 @@ description: "This article helps you understand, which tool to use when migratin
 
 Moving to Microsoft 365? Let us help you migrate your content easily and securely.
 
-|||||
+## Get started
+
+|On-premise  |On-premise|Cloud provider|Cloud provider
 |:-----|:-----|:-----|:-----|
-|[File shares](mm-get-started.md)|[Box (preview)](mm-box-overview.md) |[Google Workspace (preview)](mm-google-overview.md)|[SharePoint Server sites and content](introducing-the-sharepoint-migration-tool.md)|
+|[File shares](mm-get-started.md)|[SharePoint Server sites and content](introducing-the-sharepoint-migration-tool.md)|[Box (preview)](mm-box-overview.md) |[Google Workspace (preview)](mm-google-overview.md)|
 
 
 ## Migrate File Shares
