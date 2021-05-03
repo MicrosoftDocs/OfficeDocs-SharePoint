@@ -194,7 +194,7 @@ This setting lets you enter keywords to prevent the OneDrive sync app from uploa
 If you enable this setting, the sync app doesn't upload new files that match the keywords you specified. No errors appear for the skipped files, and the files remain in the local OneDrive folder. In Finder, the files appear with an "Excluded from sync" icon. 
 
 Users will also see a message in the OneDrive activity center that explains why the files aren't syncing.
-Set this setting's value to an integer between 50 KB/sec and the maximum rate is 100,000 KB/sec that determines the download throughput in KB/sec that the sync app can use.
+Set this setting's value to an integer between 50 KB/sec and the maximum rate of 100,000 KB/sec that determines the download throughput in KB/sec that the sync app can use.
 
 The example for this setting in the .plist file is:
 <br/>
@@ -324,4 +324,3 @@ To enable this setting, set a value between 50 and 100,000 that is the upload th
 
 The example for this setting in the .plist file is:
 <br/> \<key\>UploadBandwidthLimited\</key\>  <br/> \<int\>(Upload Throughput Rate in KB/sec)\</int\>  <br/>
-
