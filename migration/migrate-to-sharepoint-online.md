@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: conceptual
 ms.service: sharepoint-online
-localization_priority: Normal
+localization_priority: None
 search.appverid: MET150
 msCollection: 
 - SPMigration
@@ -25,6 +25,9 @@ description: "This article helps you understand, which tool to use when migratin
 # Migrate your content to Microsoft 365
 
 Moving to Microsoft 365? Let us help you migrate your content easily and securely.
+
+**Got a minute?**</br>
+ Please take our [short survey about migrating to Microsoft 365](https://microsoft.qualtrics.com/jfe/form/SV_5BeuymEC0Dnkn30)
 
 ## Get started
 
