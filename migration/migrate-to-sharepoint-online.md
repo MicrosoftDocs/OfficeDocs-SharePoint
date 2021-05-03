@@ -26,6 +26,11 @@ description: "This article helps you understand, which tool to use when migratin
 
 Moving to Microsoft 365? Let us help you migrate your content easily and securely.
 
+[![migrate your file shares](media/file-share-link.png "Migrate file shares")](mm-get-started.md) [![migrate Box accounts](media/box-link.png "Migrate Box accounts and content")](mm-box-overview.md)
+[![migrate your file shares](media/SPserver-link.png "Migrate SharePoint Server sites and content")](introducing-the-sharepoint-migration-tool.md)
+
+[![migrate your Google Workspace account ](media/google-link.png "Migrate google workspace")](mm-google-overview.md)
+
 
 ## Migrate File Shares
 Migrating your file shares with Migration Manager lets you have a centralized way of connecting servers, creating tasks, and automatically load balancing your migration tasks. You're guided through the steps of migrating your file shares, from the setup of agents, the creation of tasks, and the final migration to Microsoft 365. You can specify global or task level settings, view all-up task progress, and download aggregated summary and task level reports.
