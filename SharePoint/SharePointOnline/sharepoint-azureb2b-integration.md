@@ -51,7 +51,7 @@ This integration requires that your organization also enable [Azure AD email one
 
  > [!NOTE]
  > When the integration flag is enabled, external users will be invited via the Azure B2B platform when sharing from SPO. If Azure B2B One Time Passcode option is enabled, recipients that do not have password backed accounts will get a sign in experience through AAD that uses One Time Passcodes. Otherwise, external users will authenticate via their own AAD account or via an MSA account.
-When the integration flag is not enabled, external users will continue to use their existing accounts previously invited to the tenant. Any sharing to new external users may result in either AAD backed accounts or SPO only email auth guests that use an SPO One Time Passcode experience for sign in.
+> When the integration flag is not enabled, external users will continue to use their existing accounts created when previously invited to the tenant. Any sharing to new external users may result in either Azure AD-backed accounts or SharePoint-only email auth guests that use a SharePoint One Time Passcode experience to sign in.
 
 To enable Azure AD passcode authentication
 1. Sign in to the [Azure portal](https://portal.azure.com) as an Azure AD global admin.
