@@ -26,10 +26,13 @@ description: "This article helps you understand, which tool to use when migratin
 
 Moving to Microsoft 365? Let us help you migrate your content easily and securely.
 
-[![migrate your file shares](media/file-share-link.png "Migrate file shares")](mm-get-started.md) [![migrate Box accounts](media/box-link.png "Migrate Box accounts and content")](mm-box-overview.md)
-[![migrate your file shares](media/SPserver-link.png "Migrate SharePoint Server sites and content")](introducing-the-sharepoint-migration-tool.md)
+[![migrate your file shares](media/file-share-link.png "Migrate file shares")](mm-get-started.md) 
 
-[![migrate your Google Workspace account ](media/google-link.png "Migrate google workspace")](mm-google-overview.md)
+[![migrate Box accounts](media/box-link.png "Migrate Box accounts and content")](mm-box-overview.md)
+
+[![migrate your SharePoint Server sites and content](media/spserver-link.png "Migrate SharePoint Server sites")](introducing-the-sharepoint-migration-tool.md)
+
+[![migrate your Google Workspace account](media/google-link.png "Migrate google workspace")](mm-google-overview.md)
 
 
 ## Migrate File Shares
