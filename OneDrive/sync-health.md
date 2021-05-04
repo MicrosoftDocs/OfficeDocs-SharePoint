@@ -52,6 +52,7 @@ From their dashboard, admins can check the sync status and client version of ind
 Before you can begin to set up the dashboard, ensure that appropriate administrative access is in place.
 
 1. **Get access to the [Microsoft 365 Apps Admin Center](https://config.office.com/).**
+
     * To complete Step 2 below, you must have the [Global Administrator role](/microsoft-365/admin/add-users/about-admin-roles?WT.mc_id=365AdminCSH&view=o365-worldwide) or [Office Apps Administrator role](/microsoft-365/admin/add-users/about-admin-roles?WT.mc_id=365AdminCSH&view=o365-worldwide) (either one of the two).
 
     * Once you've completed the step below, you can view the report with [Global Reader role](/microsoft-365/admin/add-users/about-admin-roles?WT.mc_id=365AdminCSH&view=o365-worldwide).
@@ -60,9 +61,7 @@ Before you can begin to set up the dashboard, ensure that appropriate administra
 
 2. **Onboard Sync clients in your organization**
 
-    1. Confirm Sync client build is on supported versions
-    
-       Supported Sync client versions are:
+    1. Confirm Sync client build is on supported versions. Supported Sync client versions are:
 
        * Windows, build number 21.078 or newer.
        * Mac is currently not supported.
@@ -109,29 +108,29 @@ Before you can begin to set up the dashboard, ensure that appropriate administra
         
           Navigate to HKLM\SOFTWARE\Policies\Microsoft\OneDrive
 
-          a. Right click > New > String Value.
+          1. Right click > New > String Value.
 
-          b. Name: SyncAdminReports
+          1. Name: SyncAdminReports
             
-          c. Type: REG_SZ
+          1. Type: REG_SZ
 
-          d. Data: Paste your Tenant Association Key here.
+          1. Data: Paste your Tenant Association Key here.
 
              :::image type="content" source="media/registry-editor.png" alt-text="Image of  the Registry Key setting":::
 
         2. **Enable via Command Line** (running in Administrator Mode):
         
-            reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v SyncAdminReports /t REG_SZ /d **"Paste your Tenant Association Key here"** /f
+            `reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v SyncAdminReports /t REG_SZ /d **"Paste your Tenant Association Key here"** /f``
 
         3. **The SyncAdminReports GPO is available in the OneDrive administrative template files (ADMX/ADML).** The instructions below apply to an individual machine, but the template can applied more broadly via Intune. For more information on deploying broadly,  see [Use OneDrive policies to control sync settings](use-group-policy.md).
 
-            a. Open Group Policy Editor (gpedit.exe).
+            1. Open Group Policy Editor (gpedit.exe).
 
-            b. Navigate to Computer Configuration\Policies\Administrative Templates\OneDrive
+            1. Navigate to Computer Configuration\Policies\Administrative Templates\OneDrive
 
-            c. Select “Sync Admin Reports”, either double-clicking or selecting “Edit policy setting”
+            1. Select “Sync Admin Reports”, either double-clicking or selecting “Edit policy setting”
 
-            d. Select “Enable” and paste your Tenant Association Key in the respective text field in the Options menu. Press OK.
+            1. Select “Enable” and paste your Tenant Association Key in the respective text field in the Options menu. Press OK.
 
        > [!IMPORTANT]
        > It takes up to 3 days from when the GPO has been enabled on the devices to see the reports, and that is expected.
