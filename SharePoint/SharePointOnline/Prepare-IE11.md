@@ -26,7 +26,7 @@ As Microsoft 365 evolves, we continually evaluate our apps and services to make 
 Although support for Internet Explorer 11 continues, we’ve shifted web browser development resources to the
 [Microsoft Edge browser](https://www.microsoft.com/edge/business). Focusing on Microsoft Edge helps us accelerate innovation in Microsoft 365 experiences from the browser and in modern apps, such as Microsoft Teams, OneDrive, SharePoint, Lists, and more.
 
-Beginning on August 17, 2021, [Microsoft 365 apps and services will no longer support Internet Explorer 11](/lifecycle/announcements/internet-explorer-11-support-end-dates). While we know this change will be difficult for some customers, we believe that you'll get the most out of Microsoft 365 when using Microsoft Edge. We’re committed to helping make this transition as smooth as possible. We’ve identified considerations and practices for admins as you transition off classic SharePoint features that rely on Internet Explorer 11.
+Beginning on August 17, 2021, [Microsoft 365 apps and services will no longer support Internet Explorer 11](/lifecycle/announcements/internet-explorer-11-support-end-dates). While we know this change will be difficult for some customers, we believe that you'll get the most out of Microsoft 365 when using Microsoft Edge. To ease the transition for document libraries, we will fall back to the Classic experience when you use Internet Explorer 11. Also, we’ve identified considerations and practices for admins as you transition off classic SharePoint features that rely on Internet Explorer 11.
 
 ## Deploy a modern browser such as Microsoft Edge
 
@@ -44,7 +44,7 @@ Open with Explorer relies on Internet Explorer 11 and isn’t available in newer
 
 Sync with [OneDrive Files On-Demand](https://support.microsoft.com/office/0e6860d3-d9f3-4971-b321-7092438fb38e) helps you work with all your cloud files in File Explorer without having to download all the files and use storage space on your device. For easy access to files that people share with you or that you find in SharePoint or Teams, you can [add shortcuts to shared folders](https://support.microsoft.com/office/d66b1347-99b7-4470-9360-ffc048d35a33). The shortcuts then appear in your OneDrive so you can find and work with the files.
 
-We understand that some customers continue to depend on Open with Explorer. To ease this transition, customers who go to a document library in Internet Explorer 11 will see the Classic experience.
+We understand that some customers continue to depend on Open with Explorer. To ease this transition, customers who go to a document library in Internet Explorer 11 will see the Classic experience with this feature available.
 
 To get started deploying and configuring OneDrive in your environment and migrating files, start at the [OneDrive resources page](/onedrive/onedrive). Keep in mind, though, that some environments aren’t compatible with OneDrive sync.
 
