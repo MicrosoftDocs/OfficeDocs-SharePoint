@@ -57,7 +57,7 @@ Before you can begin to set up the dashboard, ensure that appropriate administra
 
     * Once you've completed the step below, you can view the report with [Global Reader role](/microsoft-365/admin/add-users/about-admin-roles?WT.mc_id=365AdminCSH&view=o365-worldwide).
 
-    To learn more about Microsoft 365 admin roles, see [here](/microsoft-365/admin/add-users/about-admin-roles?WT.mc_id=365AdminCSH&view=o365-worldwide).
+    To learn more about Microsoft 365 admin roles, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles?WT.mc_id=365AdminCSH&view=o365-worldwide).
 
 2. **Onboard Sync clients in your organization**
 
@@ -120,7 +120,7 @@ Before you can begin to set up the dashboard, ensure that appropriate administra
 
         2. **Enable via Command Line** (running in Administrator Mode):
         
-            `reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v SyncAdminReports /t REG_SZ /d **"Paste your Tenant Association Key here"** /f``
+            `reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v SyncAdminReports /t REG_SZ /d <your Tenant Association Key> /f`
 
         3. **The SyncAdminReports GPO is available in the OneDrive administrative template files (ADMX/ADML).** The instructions below apply to an individual machine, but the template can applied more broadly via Intune. For more information on deploying broadly,  see [Use OneDrive policies to control sync settings](use-group-policy.md).
 
