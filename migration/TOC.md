@@ -6,6 +6,7 @@
 ### [Step 3: Monitor and report](mm-reports.md)
 ### Reference
 #### [What's new](mm-whats-new.md)
+#### [Migration solutions posters](migration-solution-posters.md)
 #### [Settings](mm-settings.md)
 #### [Create an Agent group](mm-agent-targeting.md)
 #### [Government cloud configuration](mm-gov-cloud.md)
@@ -31,7 +32,8 @@
 ### [Step 2: Create a migration task](spmt-create-task.md)
 ### [Step 3: Monitor and report](using-the-sharepoint-migration-tool-reports.md)
 ### Reference
-#### [Release notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
+#### [What's new](new-and-improved-features-in-the-sharepoint-migration-tool.md)
+#### [Migration solutions posters](migration-solution-posters.md)
 #### [Prerequisites and endpoints](spmt-prerequisites.md)
 #### [Supported features](what-is-supported-spmt.md)
 #### [Supported SharePoint list templates](sharepoint-migration-supported-list-templates.md) 

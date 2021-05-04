@@ -14,8 +14,7 @@ localization_priority: Normal
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
-- m365solution-scenario
-- m365solution-spintranet
+
 search.appverid:
 - SPO160
 - MET150

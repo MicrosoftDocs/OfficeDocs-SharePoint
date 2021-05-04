@@ -46,7 +46,7 @@ Collaborate all in one place by migrating your Box documents, data, and users to
 
 To get started:
 
-Go to the [Migration Manager page of the new SharePoint admin center](https://aka.ms/ODSP-MM-FS), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Go to the [Migration Manager page of the new SharePoint admin center](https://aka.ms/ODSP-MM-BOX), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 Make sure that you have:
 
