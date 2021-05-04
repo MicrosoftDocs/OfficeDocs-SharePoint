@@ -66,7 +66,7 @@ Before you can begin to set up the dashboard, ensure that appropriate administra
           * Mac is currently not supported.
 
     2. Obtain a **Tenant Association Key** from the [Microsoft 365 Apps Admin Center](https://config.office.com/)
-        1. From your web browser, go to http://config.office.com and sign in with an Office 365 account using either *Global Admin or Office Apps admin privileges.*
+        1. From your web browser, go to https://config.office.com and sign in with an Office 365 account using either *Global Admin or Office Apps admin privileges.*
         1. From the left navigation, under **“Health,”** click on **OneDrive Sync** tab, you will see a “PREVIEW” tag associated with the tab
         :::image type="content" source="media/preview-button.png" alt-text="Image of OneDrive Sync Preview Tab in Microsoft 365 Apps Admin Center":::
         1. Select the **“Enable preview features”** button to accept the End User Licensing Agreement. 
@@ -85,7 +85,8 @@ Before you can begin to set up the dashboard, ensure that appropriate administra
          Next, copy this key for the following step.
         :::image type="content" source="media/tenant-key-image.png" alt-text="Image of tenant association key generator":::
 
-        > [!Note] It can take up to 30 seconds for the Tenant Association Key to show up on the screen when generated for the first time.
+        > [!NOTE] 
+        > It can take up to 30 seconds for the Tenant Association Key to show up on the screen when generated for the first time.
 
     3. **Enable OneDrive SyncAdminReports GPO using the Tenant Association Key.**
          > [!IMPORTANT]
@@ -161,7 +162,8 @@ If the GPO was applied correctly and device is on Production or Insiders ring, w
 
 ## OneDrive Sync admin report dashboard 
 
-> [!Note] Once you reach this step, the Global Reader admin role is sufficient to access and view the report.
+> [!NOTE]
+> Once you reach this step, the Global Reader admin role is sufficient to access and view the report.
 
 The Overview page provides aggregated insights on devices that have sync errors, [Known Folder Move](redirect-known-folders.md) rollout status, and adoption of Sync client versions and update ring.
 
