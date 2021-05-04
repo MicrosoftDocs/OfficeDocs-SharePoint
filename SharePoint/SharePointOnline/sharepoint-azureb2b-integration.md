@@ -50,8 +50,8 @@ This integration is not supported in the following Microsoft 365 services:
 This integration requires that your organization also enable [Azure AD email one-time passcode authentication](/azure/active-directory/b2b/one-time-passcode).
 
  > [!NOTE]
- > When the integration flag is enabled, external users will be invited via the Azure B2B platform when sharing from SharePoint. If the Azure B2B One Time Passcode option is enabled, recipients that do not have password-backed accounts will get a sign-in experience through Azure AD that uses One Time Passcodes. Otherwise, external users will authenticate via their own Azure AD account or via an MSA account.
-> When the integration flag is not enabled, external users will continue to use their existing accounts created when previously invited to the tenant. Any sharing to new external users may result in either Azure AD-backed accounts or SharePoint-only email auth guests that use a SharePoint One Time Passcode experience to sign in.
+ > When the integration is enabled, people outside the organization will be invited via the Azure B2B platform when sharing from SharePoint. If the Azure B2B One Time Passcode option is enabled, recipients that do not have password-backed accounts will get a sign-in experience through Azure AD that uses One Time Passcodes. Otherwise, they will authenticate via their own Azure AD account or via an MSA account.
+> When the integration is not enabled, people outside the organizaton will continue to use their existing accounts created when previously invited to the tenant. Any sharing to new people outside the organizaton may result in either Azure AD-backed accounts or SharePoint-only email auth guests that use a SharePoint One Time Passcode experience to sign in.
 
 To enable Azure AD passcode authentication
 1. Sign in to the [Azure portal](https://portal.azure.com) as an Azure AD global admin.
