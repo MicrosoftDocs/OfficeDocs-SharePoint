@@ -23,7 +23,7 @@ search.appverid:
 - GOB160
 - MET150
 ms.assetid: e1b3963c-7c6c-4694-9f2f-fb8005d9ef12
-description: Learn how to use Onedrive Sync admin reports to get insights and take action on sync client adoption and health.
+description: Learn how to use OneDrive Sync admin reports to get insights and take action on sync client adoption and health.
 ---
 
 # Overview of OneDrive Sync admin reports in the Microsoft 365 Apps Admin center
