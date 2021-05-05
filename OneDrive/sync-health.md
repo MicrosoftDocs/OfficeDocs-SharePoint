@@ -77,15 +77,15 @@ From the Sync health dashboard, admins can check the sync status and sync app ve
 
         1.	Edit the registry
         
-            Navigate to HKLM\SOFTWARE\Policies\Microsoft\OneDrive
+          Navigate to HKLM\SOFTWARE\Policies\Microsoft\OneDrive
 
-            a.	Right click > New > String Value.
+          1. Right click > New > String Value.
 
-            b.	Name: SyncAdminReports
+          1. Name: SyncAdminReports
             
-            c.	Type: REG_SZ
+          1. Type: REG_SZ
 
-            d.	Data: Paste your Tenant Association Key here.
+          1. Data: Paste your Tenant Association Key here.
 
        ![Tenant Association Key under Preview setup](media/registry-editor.png)
 
@@ -93,20 +93,20 @@ From the Sync health dashboard, admins can check the sync status and sync app ve
 
         2. **Enable via command line** (running in Administrator Mode):
         
-            reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v SyncAdminReports /t REG_SZ /d **"Paste your Tenant Association Key here"** /f
+            `reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v SyncAdminReports /t REG_SZ /d <your Tenant Association Key> /f`
 
         3. **The SyncAdminReports GPO is available in the OneDrive administrative template files (ADMX/ADML).** The instructions below apply to an individual machine, but the template can applied more broadly via Intune. For more information on deploying broadly,  see [Use OneDrive policies to control sync settings](use-group-policy.md).
 
-            a. Open Group Policy Editor (gpedit.exe).
+            1. Open Group Policy Editor (gpedit.exe).
 
-            b. Navigate to Computer Configuration\Policies\Administrative Templates\OneDrive
+            1. Navigate to Computer Configuration\Policies\Administrative Templates\OneDrive
 
-            c. Select “Sync Admin Reports”, either double-clicking or selecting “Edit policy setting”
+            1. Select “Sync Admin Reports”, either double-clicking or selecting “Edit policy setting”
 
-            d. Select “Enable” and paste your Tenant Association Key in the respective text field in the Options menu. Press OK.
+            1. Select “Enable” and paste your Tenant Association Key in the respective text field in the Options menu. Press OK.
 
-    >[!IMPORTANT]
-    > It takes up to 3 days from when the GPO has been enabled on the devices to see the reports, and that is expected.
+       > [!IMPORTANT]
+       > It takes up to 3 days from when the GPO has been enabled on the devices to see the reports, and that is expected.
 
 ## Troubleshooting steps
 
@@ -119,21 +119,21 @@ Use the script below to confirm that:
 
 2.	The SyncAdminReports setting has been applied to the device
 
-In Command Prompt (running in Administrator mode), run the following commands:
+    In Command Prompt (running in Administrator mode), run the following commands:
 
 -	Check to confirm the sync app is on the Insiders or Production ring:
 
-    reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v GPOSetUpdateRing
+      `reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v GPOSetUpdateRing`
 
     If the output from the script **is not** dword:00000000, then your device is on Insiders or Production ring.
 
 - Check to confirm the sync app has SyncAdminReports GPO enabled:
 
-    reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v SyncAdminReports
+      `reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v SyncAdminReports`
 
-    The output should look like this:
+      The output should look like this:
 
-    :::image type="content" source="media/command-prompt.png" alt-text="Image of command prompt output":::
+      :::image type="content" source="media/command-prompt.png" alt-text="Image of command prompt output":::
 
 If the GPO was not applied, complete step C (Enable OneDrive SyncAdminReports GPO using the Tenant Association Key) [above](#set-up-the-onedrive-sync-admin-reports-dashboard) again.
 
@@ -170,19 +170,19 @@ It reports on the following diagnostic data:
 
 The Sync admin reports uses the required service data and diagnostic data that your OneDrive sync apps send to Microsoft. You are in control of which data and which devices send this data. Control over the devices that send this data can be achieved using the GPO options listed above.
 
-Diagnostic data is always under your control.  To learn more about diagnostic data and the controls available to you, see [Overview of privacy controls for Microsoft 365 Apps](/deployoffice/privacy/overview-privacy-controls). To learn more about required service data, see [Required diagnostic data for Office](/deployoffice/privacy/required-diagnostic-data).
+Diagnostic data is always under your control. To learn more about diagnostic data and the controls available to you, see [Overview of privacy controls for Microsoft 365 Apps](/deployoffice/privacy/overview-privacy-controls). To learn more about required service data, see [Required diagnostic data for Office](/deployoffice/privacy/required-diagnostic-data).
 
 ## Report issues
 
 If you are encountering an issue with viewing the report dashboard, first verify that you've completed the troubleshooting steps above.
 
- If issues persist after troubleshooting, please [open a support ticket with Microsoft](/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=phone). Ensure that the device is not powered off during this period so that the sync client can still run and upload a health report.
+If issues persist after troubleshooting, please [open a support ticket with Microsoft](/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=phone). Ensure that the device is not powered off during this period so that the sync client can still run and upload a health report.
 
 For quick investigations, be sure to have the date and time range in which the GPO was applied and either the user’s email or the OneDriveDeviceId available in your issue report.
 
- To obtain OneDrive DeviceID, go to OneDrive app in systray > Help & Settings > Settings > About.  
+To obtain OneDrive DeviceID, go to OneDrive app in the notification area > **Help & Settings** > **Settings** > **About**.
 
-## Provide Feedback
+## Send feedback
 
 If you'd like to make a feature suggestion, please use the Feedback button on the bottom right of the dashboard page to submit suggestions.
 
