@@ -38,8 +38,10 @@ The SharePoint app bar brings together intranet resources and personalized conte
 > -	Specific SharePoint app bar tabs cannot be disabled. 
 > -	The SharePoint app bar cannot be disabled on specific sites. 
 > -	The SharePoint app bar is not available on classic SharePoint sites today, however soon administrators will be able to add it to classic sites manually. 
+> - The SharePoint app bar is not available to guest users outside of your organization. 
 > -	The SharePoint app bar may impact current page customizations specifically those that appear on the left side. 
 > -	Personalized content in the SharePoint app bar is enabled by Microsoft Graph.
+> - The SharePoint app bar will not display in SharePoint for external or guests users.
 > -	When Microsoft Graph is disabled, the news and sites experience will be degraded.
 > -	The SharePoint app bar can be temporarily disabled between today and when it becomes available to all customers to give customers more time to prepare for this change. Temporarily disabling the app bar will delay the rollout of this feature in your organization until October 31, 2021.
 

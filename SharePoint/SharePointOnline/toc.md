@@ -90,7 +90,7 @@
 ## [Sharing, security, and compliance]()
 ### [Plan secure file collaboration](deploy-file-collaboration.md)
 ### [External sharing overview](external-sharing-overview.md)
-### [Integration with Azure AD B2B](sharepoint-azureb2b-integration-preview.md)
+### [Integration with Azure AD B2B](sharepoint-azureb2b-integration.md)
 ### [Manage sharing settings](turn-external-sharing-on-or-off.md)
 ### [Change external sharing for a site](change-external-sharing-site.md)
 ### [Block guest access to newly added files](sensitive-by-default.md)
