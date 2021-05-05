@@ -40,7 +40,7 @@ We support migration from on-premise sources, products, and popular cloud provid
 
 ### What's new
 
-Check out what's new and what is comming soon to [Migration Manager](mm-whats-new.md).
+Check out what's new and what is coming soon to [Migration Manager](mm-whats-new.md).
 
 
 ## Migrate File Shares
