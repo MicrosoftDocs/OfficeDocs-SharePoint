@@ -42,8 +42,8 @@ You can set up either search option first, and then optionally also set up the o
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/fbfdea50-faac-4232-806a-390d4f4e8900?autoplay=false]
 
-> [!NOTE]
-> The Exchange option for searching results from the exchange source shown at 6:50 mark is deprecated.
+> [!IMPORTANT]
+> The Exchange option for searching results from the exchange source shown at 6 minutes 50 seconds mark in the video is deprecated.
   
 ## Choosing an option for displaying hybrid federated search
 <a name="BKMK_ChoosingSolution"> </a>
