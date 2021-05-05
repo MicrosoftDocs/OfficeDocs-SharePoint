@@ -67,7 +67,7 @@ For more info about result sources, see [Understanding result sources](https://o
     
    - In the General Information section, in the **Name** text box, enter a name for the new result source (for example, Get results from SharePoint Server 2013).
     
-     ![First four sections of result source page for getting hybrid search results from SharePoint Server 2013](../media/SP2013ResultSource.jpg)
+     ![First four sections of result source page for getting hybrid search results from SharePoint Server 2013](../media/sps-2013-resultsource.png)
   
    - (Optional) In the General Information section, in the **Description** text box, enter a description of the new result source. This description appears as a tooltip when the pointer rests on the result source on certain configuration pages. 
     
@@ -77,7 +77,7 @@ For more info about result sources, see [Understanding result sources](https://o
     
    - In the **Type** section, select **SharePoint Search Results**.
     
-   - In the **Query Transform** section you can enter a query transform to narrow the search results to a specified subset (for example, a subset that is from a particular SharePoint in Microsoft 365 site collection or site). However, if you are **not** familiar with query transforms in SharePoint Server or SharePoint in Microsoft 365, we recommend that you **keep** the default query transform that's in the text box. The default transform is **{searchTerms}**, which is a query variable that stands for the query that the user entered, as it was changed by the most recent query transform. If you are familiar with query transforms, you can change the default query transform by either entering a different query transform in the text box, or launching the Query Builder to help you configure a query transform. For more info, see [Plan to transform queries and order results in SharePoint Server](../search/plan-to-transform-queries-and-order-results.md) and [Query variables in SharePoint Server](../technical-reference/query-variables.md).
+   - In the **Query Transform** section, you can enter a query transform to narrow the search results to a specified subset (for example, a subset that is from a particular SharePoint in Microsoft 365 site collection or site). However, if you are **not** familiar with query transforms in SharePoint Server or SharePoint in Microsoft 365, we recommend that you **keep** the default query transform that's in the text box. The default transform is **{searchTerms}**, which is a query variable that stands for the query that the user entered, as it was changed by the most recent query transform. If you are familiar with query transforms, you can change the default query transform by either entering a different query transform in the text box, or launching the Query Builder to help you configure a query transform. For more info, see [Plan to transform queries and order results in SharePoint Server](../search/plan-to-transform-queries-and-order-results.md) and [Query variables in SharePoint Server](../technical-reference/query-variables.md).
     
      ![Query Transform and Credentials Information sections on New Result Source page in SharePoint in Microsoft 365](../media/ResultSourceInSPO_QueryTransform.gif)
   
