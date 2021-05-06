@@ -104,8 +104,8 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
    - **Name:** The name of your Viva Connections desktop package, as it should appear in Teams app bar.
    - **App short description (80 characters):** A short description for your app, which will appear in Teams app catalog.
    - **App long description (4000 characters):** A long description for your app, which will appear in Teams app catalog.
-   - **Privacy policy:** The privacy policy for custom Teams apps in your organization (needs to start with https://). If you do not have a separate privacy policy, press Enter and the script will use the default SharePoint privacy policy from Microsoft.
-   - **Terms of use:** The terms of use for custom Teams apps in your organization (needs to start with https://). If you do not have separate terms of use, press Enter and the script will use the default SharePoint terms of use from Microsoft.
+   - **Privacy policy:** The privacy policy for custom Teams apps in your organization (needs to start with https://). If you do not have a separate privacy policy, press `Enter` and the script will use the default SharePoint privacy policy from Microsoft.
+   - **Terms of use:** The terms of use for custom Teams apps in your organization (needs to start with https://). If you do not have separate terms of use, press `Enter` and the script will use the default SharePoint terms of use from Microsoft.
    - **Company name:** Your organization name that will be visible on the app page in Teams app catalog in “Created By” section.
    - **Company website:** Your company’s public website (needs to start with https://) that will be linked to your company’s app name on the app page in Teams app catalog in “Created By” section.
    - **Icons:** You are required to provided two PNG icons, which will be used to represent your Viva Connections desktop app in Teams; a 192X192 pixel colored icon for Teams app catalog and a 32X32 pixel monochrome icon for Teams app bar. [Learn more about Teams icon guidelines](/microsoftteams/platform/concepts/build-and-test/apps-package#app-icons).
