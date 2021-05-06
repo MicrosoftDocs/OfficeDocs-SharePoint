@@ -29,7 +29,7 @@ To make sure that users sync OneDrive files only on managed computers, you can c
  
 > [!NOTE]
 > These settings apply to SharePoint sites as well as OneDrive.
-> If this is to be applied to a multi-geo environment, only the geo specific Sync settings will be honored.
+> In a Multi-Geo environment, this setting can be configured separately for each geo location and applies to users with that perferred data location.
 
 1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
  
