@@ -40,7 +40,7 @@ Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-vi
 4.	**Share content easily:** Features in the SharePoint site header will dynamically display tools that help users collaborate depending on the type of content being viewed. Tasks such as sharing a link to a SharePoint page in a Teams chat are much easier. 
 
 
->[!IMPORTANT]
+> [!IMPORTANT]
 > - You need SharePoint admin permissions (or higher) to create the Viva Connections for Teams desktop app in PowerShell, and you need Teams admin permissions (or higher) to apply the app in the Teams Admin Center.
 > - Viva Connections for desktop is not yet supported in the Teams mobile app.
 > - Only modern SharePoint sites and pages can be viewed in Teams and all other content will open in a browser.
@@ -75,8 +75,8 @@ The first version of Viva Connections can be provisioned through PowerShell and 
 - **Modern SharePoint sites and pages -** Only modern SharePoint sites and pages can be viewed in Teams and all other content will open in a browser. Learn more about how to [modernize classic SharePoint sites and pages](/sharepoint/dev/transform/modernize-userinterface-site-pages).
 
 
-
 ## Step-by-step guide to setting up Viva Connections desktop
+
 Complete the following steps to enable Viva Connections desktop using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps):
 
 1.	**Set up a SharePoint home site:** We highly recommend that you set up a [SharePoint home site](./home-site.md) and use that site as the default landing experience for your users in Teams. 
@@ -85,12 +85,12 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 
 3.	**Create a Viva Connections app package in PowerShell:** The SharePoint admin needs to download and run PowerShell script from the Microsoft download center to create the Viva Connections desktop package. Ensure that you are using the [latest version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000) of the [SharePoint Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps) tool before running the script. 
 
-   > [!IMPORTANT]
-   >  - The [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) is available now.
-   > -   SharePoint admin credentials are required to use SharePoint PowerShell.
-   > -	The SharePoint admin who creates the Viva Connections desktop package needs site owner permissions (or higher) to the home site in SharePoint. 
-   > -	If your tenant is using an older version of PowerShell, uninstall the older version and replace it with the most [up to date version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000). 
-   > - Icons need to be PNG files.
+    > [!IMPORTANT]
+    > - The [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) is available now.
+    > - SharePoint admin credentials are required to use SharePoint PowerShell.
+    > - The SharePoint admin who creates the Viva Connections desktop package needs site owner permissions (or higher) to the home site in SharePoint.
+    > - If your tenant is using an older version of PowerShell, uninstall the older version and replace it with the most [up to date version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000).
+    > - Icons need to be PNG files.
 
 4.	**Provide tenant and site information to create the package:** Download the [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) and provide the information below.
 
