@@ -26,16 +26,16 @@ Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-vi
 
 ## Benefits of using Viva Connections 
 
-   ![Image of the SharePoint home site in Teams](media/viva-features-2.png)
+![Image of the SharePoint home site in Teams](media/viva-features-2.png)
 
 1.	**Highlight specific resources:** Viva Connections uses the company-curated [global navigation](./sharepoint-app-bar.md) links along with personalized content like sites and news, which are powered by [Microsoft Graph](/graph/overview). Global navigation is configured in SharePoint and can be accessed by selecting the icon in Teams app bar.
 
 2.	**Navigate intranet resources in Teams:** Navigate to all modern SharePoint sites, pages, and news within Teams without losing context. All files will open in the Teams file preview window. 
 
 
-3.	**Search for intranet content in Teams:** On the home page, you can search for intranet content in SharePoint by searching in the Teams search bar. Search results will be displayed on a SharePoint site in the browser. 
+3.	**Search for intranet content in Teams:** On the home page, you can search for intranet content in SharePoint by searching in the Teams search bar. Search results will be displayed on a SharePoint site in the browser.
 
-   ![Image of a search on the home site in Teams](media/viva-search-2.png) 
+    ![Image of a search on the home site in Teams](media/viva-search-2.png)
 
 4.	**Share content easily:** Features in the SharePoint site header will dynamically display tools that help users collaborate depending on the type of content being viewed. Tasks such as sharing a link to a SharePoint page in a Teams chat are much easier. 
 
@@ -85,34 +85,31 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 
 3.	**Create a Viva Connections app package in PowerShell:** The SharePoint admin needs to download and run PowerShell script from the Microsoft download center to create the Viva Connections desktop package. Ensure that you are using the [latest version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000) of the [SharePoint Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps) tool before running the script. 
 
-
->[!IMPORTANT]
->  - The [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) is available now.
-> -   SharePoint admin credentials are required to use SharePoint PowerShell.
-> -	The SharePoint admin who creates the Viva Connections desktop package needs site owner permissions (or higher) to the home site in SharePoint. 
-> -	If your tenant is using an older version of PowerShell, uninstall the older version and replace it with the most [up to date version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000). 
-> - Icons need to be PNG files
+   > [!IMPORTANT]
+   >  - The [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) is available now.
+   > -   SharePoint admin credentials are required to use SharePoint PowerShell.
+   > -	The SharePoint admin who creates the Viva Connections desktop package needs site owner permissions (or higher) to the home site in SharePoint. 
+   > -	If your tenant is using an older version of PowerShell, uninstall the older version and replace it with the most [up to date version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000). 
+   > - Icons need to be PNG files.
 
 4.	**Provide tenant and site information to create the package:** Download the [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) and provide the information below.
 
-
-**When you create a new package in PowerShell, you will be required to complete the following fields:**
-
-- **URL of your tenant’s home site:** Provide the tenant's home site URL starting with "https://". This site will become the default landing experience for Viva Connections.
-- Provide the following details when requested:
-<br>
-
-   - **Name:** The name of your Viva Connections desktop package, as it should appear in Teams app bar.
-   - **App short description (80 characters):** A short description for your app, which will appear in Teams app catalog.
-   - **App long description (4000 characters):** A long description for your app, which will appear in Teams app catalog.
-   - **Privacy policy:** The privacy policy for custom Teams apps in your organization (needs to start with https://). If you do not have a separate privacy policy, press Enter and the script will use the default SharePoint privacy policy from Microsoft.
-   - **Terms of use:** The terms of use for custom Teams apps in your organization (needs to start with https://). If you do not have separate terms of use, press Enter and the script will use the default SharePoint terms of use from Microsoft.
-   - **Company name:** Your organization name that will be visible on the app page in Teams app catalog in “Created By” section.
-   - **Company website:** Your company’s public website (needs to start with https://) that will be linked to your company’s app name on the app page in Teams app catalog in “Created By” section.
-   - **Icons:** You are required to provided two PNG icons, which will be used to represent your Viva Connections desktop app in Teams; a 192X192 pixel colored icon for Teams app catalog and a 32X32 pixel monochrome icon for Teams app bar. [Learn more about Teams icon guidelines](/microsoftteams/platform/concepts/build-and-test/apps-package#app-icons).
-
->[!NOTE]
-> Microsoft does not have access to any information provided by you while running this script.
+    **When you create a new package in PowerShell, you will be required to complete the following fields:**
+    
+    - **URL of your tenant’s home site:** Provide the tenant's home site URL starting with "https://". This site will become the default landing experience for Viva Connections.
+    - Provide the following details when requested:
+    
+       - **Name:** The name of your Viva Connections desktop package, as it should appear in Teams app bar.
+       - **App short description (80 characters):** A short description for your app, which will appear in Teams app catalog.
+       - **App long description (4000 characters):** A long description for your app, which will appear in Teams app catalog.
+       - **Privacy policy:** The privacy policy for custom Teams apps in your organization (needs to start with https://). If you do not have a separate privacy policy, press Enter and the script will use the default SharePoint privacy policy from Microsoft.
+       - **Terms of use:** The terms of use for custom Teams apps in your organization (needs to start with https://). If you do not have separate terms of use, press Enter and the script will use the default SharePoint terms of use from Microsoft.
+       - **Company name:** Your organization name that will be visible on the app page in Teams app catalog in “Created By” section.
+       - **Company website:** Your company’s public website (needs to start with https://) that will be linked to your company’s app name on the app page in Teams app catalog in “Created By” section.
+       - **Icons:** You are required to provided two PNG icons, which will be used to represent your Viva Connections desktop app in Teams; a 192X192 pixel colored icon for Teams app catalog and a 32X32 pixel monochrome icon for Teams app bar. [Learn more about Teams icon guidelines](/microsoftteams/platform/concepts/build-and-test/apps-package#app-icons).
+    
+    > [!NOTE]
+    > Microsoft does not have access to any information provided by you while running this script.
 
 5.	**Upload the Viva Connections desktop package in the Teams Admin Center:** Once you successfully provide the details, a Teams app manifest, which is a .zip file, will be created and saved on your device. The Teams administrator of your tenant will then need to upload this app manifest to **Teams admin center > Manage apps**. 
 <br>
