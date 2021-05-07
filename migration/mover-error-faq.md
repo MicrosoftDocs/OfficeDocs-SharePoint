@@ -42,6 +42,7 @@ The following tables contain error messages you may encounter and how to resolve
 |Error: "Source Initialization" or "Destination Initialization": Application has lost connection with the source connector. |Mover is no longer connected to the source or destination. Reauthorize the connector.|
 |Error: Failed response: Upload Failed.|Mover is no longer able to upload. Reauthorize the connector and rerun the user transfer row.|
 |Error: Item has no parent id|Files in the root directory of a OneDrive user often cause this error. Move the files into a folder or attempt rerun the user transfer rows until successful.|
+|Error: This file has been identified as malware or spam and cannot be downloaded.|The source performed a scan on the file and found it to be either malware or spam. The source won't allow Mover to migrate the file.|
 
 ## Other Mover errors
 
