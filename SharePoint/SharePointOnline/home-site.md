@@ -42,6 +42,8 @@ When you set a site as your home site:
 - The site is automatically set up as an [organization news site](organization-news-site.md). (Although you can have only one home site, you can have multiple organization news sites.)
 - The site is enabled for [configuring the global navigation in the SharePoint app bar](sharepoint-app-bar.md#get-started-customizing-the-global-navigation-tab).
 
+- Having a home site enables you to use [Viva Connections](https://docs.microsoft.com/SharePoint/viva-connections).
+
 > [!NOTE]
 > Integration between the home site and [SharePoint start page](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220) (where the branding, theming, header, navigation, and footer elements from the home site are applied to the start page and users can easily navigate between the pages) is not available at this time. Please watch for updates in the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=SharePoint).
 
@@ -78,6 +80,10 @@ After you create and customize the communication site that you want to use as yo
 3. Run `Set-SPOHomeSite -HomeSiteUrl <siteUrl>`.
 
     (Where siteUrl is the site you want to use)
+    
+### Next, set up global navigation in the SharePoint app bar
+
+The [SharePoint app bar](https://docs.microsoft.com/SharePoint/sharepoint-app-bar) is being released to customers. Once the SharePoint app bar is available in your tenant, [enable and customize global navigation](https://docs.microsoft.com/SharePoint/sharepoint-app-bar#customize-global-navigation-in-the-app-bar). Then, consider [integrating your home site in Microsoft Teams using Viva Connections](https://docs.microsoft.com/SharePoint/viva-connections). 
 
 > [!NOTE]
 > You can set only one site in your organization as a home site. The site can be registered as a hub site, but can't be associated with a hub. The first time you set up a home site, it might take up to several minutes for the changes to take effect. If you run the command again to switch your home site to a different site, it might take up to 2 hours.
