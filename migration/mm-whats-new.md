@@ -26,11 +26,16 @@ You can help us improve Migration Manager by sending us your suggestions and rep
 
 ## Coming soon
 
-- **Auto site provisioning.** When migrating to SharePoint sites, if the site doesn't exist, it will be automatically provisioned before we start the migration.
+- **Auto site provisioning.** When migrating to SharePoint sites, if the site doesn't exist, it will be automatically provisioned before the migration starts.
+- **Google migrations (preview).**  You will be able to migrate their Google Drives to Microsoft 365.
+- **Scan file shares (preview).**  Scan and view your sources for migration readiness.
+- **Performance dashboard for file shares.**  View your performance history, and if needed, be provided prescriptive guidance on how to improve in impacted areas.
+- **Ability to install agent on non-domain joined computers (app mode).**  You will have the option of installing the Migration Manager agent on non-domain joined computers using an agent app.
 
 
-## Current features and improvements through April 2021
+## April 2021
 
+- **Box migrations (preview).**.  You can now migrate Box content to Microsoft 365 using Migration Manager (preview).
 - **CSV optional header.**  Users have the option of including optional headers in the bulk upload file.
 
 ## March 2021

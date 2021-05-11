@@ -23,7 +23,7 @@ description: "Learn what the third step in using Migration Manager to migrate Go
 # Step 3: Copy to migrations (Preview)
 
 >[!Note]
-> Features described in this topic are part of a pending preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
+> Features described in this topic are part of a preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
 
 
 

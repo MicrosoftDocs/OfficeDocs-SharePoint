@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: conceptual
 ms.service: sharepoint-online
-localization_priority: Normal
+localization_priority: None
 search.appverid: MET150
 msCollection: 
 - SPMigration
@@ -25,6 +25,22 @@ description: "This article helps you understand, which tool to use when migratin
 # Migrate your content to Microsoft 365
 
 Moving to Microsoft 365? Let us help you migrate your content easily and securely.
+
+#### Got a minute?
+
+![take our survey](https://docs.microsoft.com/office/media/icons/sign-up-blue.png)  Please take our <a href="https://microsoft.qualtrics.com/jfe/form/SV_5BeuymEC0Dnkn30" target="_blank">short survey about migrating to Microsoft 365</a>. We'd love to hear from you!
+
+## Get started
+
+We support migration from on-premise sources, products, and popular cloud providers. 
+
+|<!-- This is commented out. -->|<!-- This is commented out. -->|<!-- This is commented out. -->|<!-- This is commented out. -->|<!-- This is commented out. -->|
+|:-----|:-----|:-----|:-----|:-----|
+|[File shares](mm-get-started.md)|[SharePoint Server sites and content](introducing-the-sharepoint-migration-tool.md)|[Box (preview)](mm-box-overview.md) |[Google Workspace (preview)](mm-google-overview.md)|[Other cloud providers](#cloud-to-cloud-migrations)
+
+### What's new
+
+Check out what's new and what is coming soon to [Migration Manager](mm-whats-new.md).
 
 
 ## Migrate File Shares

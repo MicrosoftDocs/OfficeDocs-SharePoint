@@ -61,7 +61,7 @@ The **Data** section of the **Migration Manager** dashboard shows the total of a
 
 ![migration manager data](media/migration-manager-data.png)
 
-           ## Active filter list
+## Active filter list
 
 This provides the list of all current **Filters** that you can apply to the **Active Filter** search bar.
 
@@ -108,7 +108,7 @@ To download this as a CSV, at the top right of the **Migration Manager**, select
 
 The CSV report provides the following information for each user pairing:
 
-|**Header/Statistic**|**Definition**|
+|Statistic|Definition|
 |:-----|:-----|
 |Schedule ID|Our internal reference unique to the user pairing created.|
 |Source|Source directory path.|
@@ -142,6 +142,12 @@ The CSV report provides the following information for each user pairing:
 |Average File Velocity (files/hour)|Files transferred, divided by the total duration.|
 |Average Data Velocity (Bytes/hour)|Data (bytes) transferred, divided by the total duration.|
 |Average Data Velocity (MB/hour)|Data (MB) transferred, divided by the total duration.|
+|Completed Files Transferred|Total files transferred to the destination in the last run that finished with status code 1xx (successful) or 2xx (some errors). If and only if the "Last Status Code" is in the 1xx or 2xx ranges, this will refer to the latest run; otherwise it will refer to a previous run. If this is zero, it may mean that the schedule has not been run to completion before.|
+|Completed Bytes Transferred|Total data (bytes) transferred to the destination in the last run that finished with status code 1xx (successful) or 2xx (some errors).  If and only if the "Last Status Code" is in the 1xx or 2xx ranges, this will refer to the latest run; otherwise, it will refer to a previous run. If this is zero, it may mean that the schedule has not been run to completion before.|
+|Completed MB Transferred|Total data (MB) transferred to the destination in the last run that finished with status code 1xx (successful) or 2xx (some errors). If and only if the "Last Status Code" is in the 1xx or 2xx ranges, this will refer to the latest run; otherwise, it will refer to a previous run. If this is zero, it may mean that the schedule has not been run to completion before.|
+|Completed Successfully Files Transferred|Total files transferred to the destination in the last run that finished with status code 1xx (successful). If and only if the "Last Status Code" is in the 1xx range, this will refer to the latest run; otherwise, it will refer to a previous run. If this is zero, it may mean that the schedule has not been run to successful completion before.|
+|Completed Successfully Bytes Transferred|Total data (bytes) transferred to the destination in the last run that finished with status code 1xx (successful). If and only if the "Last Status Code" is in the 1xx range, this will refer to the latest run; otherwise, it will refer to a previous run. If this is zero, it may mean that the schedule has not been run to successful completion before.|
+|Completed Successfully MB Transferred|Total data (MB) transferred to the destination in the last run that finished with status code 1xx (successful). If and only if the "Last Status Code" is in the 1xx range, this will refer to the latest run; otherwise, it will refer to a previous run. If this is zero, it may mean that the schedule has not been run to successful completion before.|
 
 Download an example CSV:
 

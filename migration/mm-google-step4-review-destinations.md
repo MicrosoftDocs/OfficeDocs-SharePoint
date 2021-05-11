@@ -22,7 +22,7 @@ description: Review your destination paths for your Google migration while using
 # Step 4: Review destination paths in Migration Manager Google (preview)
 
 >[!Note]
-> Features described in this topic are in a pending preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
+> Features described in this topic are in a preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
 
 
 

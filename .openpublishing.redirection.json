@@ -451,6 +451,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "sharepoint/sharepointonline/sharepoint-azureb2b-integration-preview.md",
+      "redirect_url": "/sharepoint/sharepoint-azureb2b-integration",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "migration/index.md",
       "redirect_url": "/sharepointmigration/migrate-to-sharepoint-online",
       "redirect_document_id": false
