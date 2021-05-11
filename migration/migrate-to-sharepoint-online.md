@@ -38,6 +38,10 @@ We support migration from on-premise sources, products, and popular cloud provid
 |:-----|:-----|:-----|:-----|:-----|
 |[File shares](mm-get-started.md)|[SharePoint Server sites and content](introducing-the-sharepoint-migration-tool.md)|[Box (preview)](mm-box-overview.md) |[Google Workspace (preview)](mm-google-overview.md)|[Other cloud providers](#cloud-to-cloud-migrations)
 
+### What's new
+
+Check out what's new and what is coming soon to [Migration Manager](mm-whats-new.md).
+
 
 ## Migrate File Shares
 Migrating your file shares with Migration Manager lets you have a centralized way of connecting servers, creating tasks, and automatically load balancing your migration tasks. You're guided through the steps of migrating your file shares, from the setup of agents, the creation of tasks, and the final migration to Microsoft 365. You can specify global or task level settings, view all-up task progress, and download aggregated summary and task level reports.
