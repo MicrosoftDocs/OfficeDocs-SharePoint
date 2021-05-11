@@ -33,7 +33,7 @@ The new OneDrive sync health dashboard in the Microsoft 365 [Apps Admin Center](
 >[!IMPORTANT]
 > This feature is in preview and isn't available to everyone. It will gradually roll out to customers on the Insiders and Production rings in May 2021.
 
-From the Sync health dashboard, admins can check the sync status and sync app version of individual devices, monitor Known Folder Move roll out, and track sync errors. The insights range from a high-level executive summary to a drill-down of sync status per device, to be used in a variety of administrative scenarios.
+From the Sync health dashboard, admins can check the sync status and sync app version of individual devices, monitor Known Folder Move roll out, and track sync errors. The insights range from a high-level executive summary to a drill-down of sync status per device, to be used in various administrative scenarios.
 
 ## Requirements  
 
@@ -142,7 +142,7 @@ Diagnostic data is always under your control. To learn more about diagnostic dat
 This section will help you troubleshoot if the OneDrive sync reports don't appear after three days.
 
 > [!IMPORTANT]
-> The sync app must be (1) running build 21.078.0412.0001 or later and (2) in the Insiders or Production ring (not Deferred). Enabling the setting on ineligible devices will not have any effect – the app will not upload reports.
+> If you enable the SyncAdminReports setting on devices that don't meet the [requirements](#requirements), it will have no effect. The app won't send reports. 
 
 1. Confirm that the sync app is on the Insiders or Production ring. Run Command Prompt as an administrator and run the following command.  
 
@@ -154,19 +154,19 @@ This section will help you troubleshoot if the OneDrive sync reports don't appea
 
     `reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v SyncAdminReports`
 
-- Confirm the sync app has SyncAdminReports setting enabled. The output should look like this.
+    The output should look like this.
 
     ![Command prompt output](media/command-prompt.png)
 
-If the SyncAdminReports setting was not applied, go back and follow the steps under [Set up the OneDrive sync health dashboard](#set-up-the-onedrive-sync-health-dashboard).
+    If the SyncAdminReports setting was not applied, go back and follow the steps under [Set up the OneDrive sync health dashboard](#set-up-the-onedrive-sync-health-dashboard).
 
-If the device is on the Insiders or Production ring and the setting was applied correctly, wait for 24 hours with the device on and signed in to OneDrive. If the device still doesn't appear on the dashboard, open a support ticket with Microsoft. For more information, see the section [Report issues](#report-issues) later in this article.
+If the device is on the Insiders or Production ring and the setting was applied correctly, wait for 24 hours with the device turned on and signed in to OneDrive. If the device still doesn't appear on the dashboard, open a support ticket with Microsoft. For more information, see the section [Report issues](#report-issues) later in this article.
 
 ## Report a problem
 
 If you encounter a problem with viewing the report dashboard, first verify that you've completed the troubleshooting steps above.
 
-If problems persist after troubleshooting, please [open a support ticket with Microsoft](/microsoft-365/admin/contact-support-for-business-products). Ensure that the device is not powered off during this period so that the sync app can still run and upload a health report.
+If problems persist after troubleshooting, please [open a support ticket with Microsoft](/microsoft-365/admin/contact-support-for-business-products). Ensure that the device is not powered off during this period so that the sync app can still run and send a health report.
 
 For quick investigations, be sure to have the date and time when the SyncAdminReports setting was enabled and either the user’s email or the OneDriveDeviceId available in your issue report.
 
