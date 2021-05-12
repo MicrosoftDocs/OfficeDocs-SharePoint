@@ -167,7 +167,7 @@ The workplace transformation site is full of pre-populated content, web parts, n
 
    ![Image of the Workplace transformation site navigation](media/hybrid-nav.png)
 
-The workplace transformation site features pre-populated content that helps organizations transition to a hybrid workplace. However, the workplace transformation site can be customized for any change management project. [Learn more about the workplace transformation site features and contents](https://review.docs.microsoft.com/SharePoint/change-management-template?branch=change-management#pre-populated-content-focuses-on-the-hybrid-workplace). 
+The workplace transformation site features pre-populated content that helps organizations transition to a hybrid workplace. However, the workplace transformation site can be customized for any change management project. [Learn more about the workplace transformation site features and contents](#pre-populated-content-focuses-on-the-hybrid-workplace). 
 
 ### Customize web parts and content
 Learn how to customize web parts and content that will appear on certain pages or throughout the site.
