@@ -160,7 +160,7 @@ This section will help you troubleshoot if the OneDrive sync reports don't appea
 
     If the SyncAdminReports setting was not applied, go back and follow the steps under [Set up the OneDrive sync health dashboard](#set-up-the-onedrive-sync-health-dashboard).
 
-If the device is on the Insiders or Production ring and the setting was applied correctly, wait for 24 hours with the device turned on and signed in to OneDrive. If the device still doesn't appear on the dashboard, open a support ticket with Microsoft. For more information, see the section [Report issues](#report-issues) later in this article.
+If the device is on the Insiders or Production ring and the setting was applied correctly, wait for 24 hours with the device turned on and signed in to OneDrive. If the device still doesn't appear on the dashboard, open a support ticket with Microsoft. For more information, see the next section, [Report a problem](#report-a-problem).
 
 ## Report a problem
 
