@@ -2,6 +2,19 @@
 
 
 
+## Week of May 03, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/3/2021 | [Use the new SharePoint app bar and set up global navigation](/SharePoint/sharepoint-app-bar) | modified |
+| 5/4/2021 | [Preparing for the retirement of Internet Explorer 11](/SharePoint/prepare-ie11) | modified |
+| 5/6/2021 | [Azure AD B2B integration for SharePoint & OneDrive](/SharePoint/sharepoint-azureb2b-integration) | modified |
+| 5/7/2021 | [Set up a home site for your organization](/SharePoint/home-site) | modified |
+| 5/7/2021 | [Use the new SharePoint app bar and set up global navigation](/SharePoint/sharepoint-app-bar) | modified |
+| 5/7/2021 | [Add Viva Connections for Microsoft Teams desktop](/SharePoint/viva-connections) | modified |
+
+
 ## Week of April 26, 2021
 
 
@@ -51,31 +64,3 @@
 | 4/6/2021 | [Introduction to SharePoint](/SharePoint/introduction) | modified |
 | 4/6/2021 | [Sharing & permissions in the SharePoint modern experience](/SharePoint/modern-experience-sharing-permissions) | modified |
 | 4/6/2021 | [Manage sharing settings](/SharePoint/turn-external-sharing-on-or-off) | modified |
-
-
-## Week of March 29, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/29/2021 | [Overview of search in SharePoint](/SharePoint/overview-of-search) | modified |
-| 3/30/2021 | [Add featured links to the SharePoint start page](/SharePoint/change-links-list-on-sharepoint-home-page) | modified |
-| 3/30/2021 | [Add the Workplace transformation site](/SharePoint/change-management-template) | modified |
-| 3/30/2021 | [Change your SharePoint domain name](/SharePoint/change-your-sharepoint-domain-name) | modified |
-| 3/30/2021 | [Delete a site](/SharePoint/delete-site-collection) | modified |
-| 3/30/2021 | [Delve for admins](/SharePoint/delve-for-office-365-admins) | modified |
-| 3/30/2021 | [Plan & deploy a file collaboration environment - SharePoint](/SharePoint/deploy-file-collaboration) | modified |
-| 3/30/2021 | [File collaboration in Microsoft 365 - SharePoint](/SharePoint/intro-to-file-collaboration) | modified |
-| 3/30/2021 | [Introduction to SharePoint](/SharePoint/introduction) | modified |
-| 3/30/2021 | [Control notifications](/SharePoint/notifications) | added |
-| 3/30/2021 | [SharePoint planning guide](/SharePoint/planning-guide) | modified |
-| 3/30/2021 | [Provision the SharePoint Success Site](/SharePoint/provision-sss) | modified |
-| 3/30/2021 | [Create guidelines for site usage](/SharePoint/sites-usage-guidelines) | modified |
-| 3/30/2021 | [What is permissions inheritance?](/SharePoint/what-is-permissions-inheritance) | modified |
-| 3/30/2021 | [Secure external sharing in SharePoint](/SharePoint/what-s-new-in-sharing-in-targeted-release) | modified |
-| 3/30/2021 | [Engage audiences with workplace communication](/SharePoint/workplace-communications) | modified |
-| 3/30/2021 | [Add Viva Connections for Microsoft Teams desktop](/SharePoint/viva-connections) | modified |
-| 4/1/2021 | [Use the new SharePoint app bar and set up global navigation](/SharePoint/sharepoint-app-bar) | modified |
-| 4/1/2021 | [Add Viva Connections for Microsoft Teams desktop](/SharePoint/viva-connections) | modified |
-| 4/2/2021 | [Configure hybrid SharePoint taxonomy and hybrid content types](/SharePoint/hybrid/configure-hybrid-sharepoint-taxonomy-and-hybrid-content-types) | modified |
-| 4/2/2021 | [Configure server-to-server authentication from SharePoint Server to SharePoint in Microsoft 365](/SharePoint/hybrid/configure-server-to-server-authentication) | modified |
