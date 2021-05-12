@@ -24,6 +24,7 @@ description: "Provision and customize the Workplace transformation site"
 
 Help your organization drive and manage change by using the Workplace transformation site template in SharePoint. The site template helps organizations to successfully manage the people side of their organization change management initiatives to ensure all impacted employees are informed, have support, and know where they can learn more about upcoming changes. 
 <br>
+<br>
 The Workplace transformation site template is designed help people in your organization understand and engage in the change management process by providing a landing place using a SharePoint communication site in combination with Microsoft Lists to help users see the big picture. The site design is based on change management research that is focused on helping organizations successfully adopt and sustain change. 
 
    ![Image of the Workplace transformation site landing page](media/hybrid-home.png)
