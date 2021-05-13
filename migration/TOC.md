@@ -28,7 +28,7 @@
 #### [Troubleshooting](mm-box-troubleshooting.md)
 ## Migrate from Google Workspace
 ### [Overview](mm-google-overview.md)
-### [Step 1: Connect to Box](mm-google-step1-connect.md)
+### [Step 1: Connect to Google Workspace](mm-google-step1-connect.md)
 ### [Step 2: Scan and assess](mm-google-step2-scan-assess.md)
 ### [Step 3: Copy to Migrations list](mm-google-step3-copy-to-migrations.md)
 ### [Step 4: Review destination paths](mm-google-step4-review-destinations.md)
