@@ -34,15 +34,48 @@ To [go to the new SharePoint admin center](https://admin.microsoft.com/sharepoin
   
 Help us improve the new SharePoint admin center! Tell us what you like or don't like, send a suggestion, or file a bug. To send us feedback, in the lower-right corner, select **Feedback**.
 
+## Add, remove, and rearrange cards
+
+  ![The reports on the home page](media/add-cards.png)
+
+### SharePoint site search
+
+Search the Active sites page from the home page.
+
+### Message center
+
+### SharePoint file activity report
+
+The number of files that have specific types of activity each day for the past 30 days. (If an activity occurs multiple times in one day on the same file, the file is counted only once for that day.)
+
+### Sensitivity labels
+
+### Service health
+
+### OneDrive usage
+
+### OneDrive file activity
+
+### SharePoint storage usage
+
+### SharePoint site usage report
+
+The number of total and active sites each day for the past 30 days. ("Active" sites are any where users view a page or view, modify, upload, download, share, or sync a file.)
+
+### Term store operations
+
+### Microsoft 365 active users report
+
+
 ## View reports
 
 On the home page, at a glance, you can see:
   
-- The number of files that have specific types of activity each day for the past 30 days. (If an activity occurs multiple times in one day on the same file, the file is counted only once for that day.)
+
     
-- The number of total and active sites each day for the past 30 days. ("Active" sites are any where users view a page or view, modify, upload, download, share, or sync a file.)
+
     
-  ![The reports on the home page](media/72b36579-70e8-4731-9e28-4f64cf577826.PNG)
+  ![The reports on the home page](media/new-home-page.png)
   
 > [!TIP]
 >  To filter a report, select an item in the legend. For example, on the **Files by activity type** chart, select **Viewed or edited**. <br>  To see values for a specific day, point to that day on the report. </br>  To see more details about a report, open the report in the Microsoft 365 admin center by selecting **Details**. Here, you can see tables of activity by site or users, change the reporting period, pivot the report, export the report data into a .csv file that you can open in Excel, and more. For more info about the SharePoint reports in the Microsoft 365 admin center, see [Microsoft 365 Reports in the Admin Center - SharePoint activity](/office365/admin/activity-reports/sharepoint-activity) and [Microsoft 365 Reports in the Admin Center - SharePoint site usage](/office365/admin/activity-reports/sharepoint-site-usage). 
@@ -54,13 +87,12 @@ On the home page, at a glance, you can see:
 
 In the **Message center** section of the home page, to help you manage upcoming changes, you can read official announcements about new and changed SharePoint features. Each post gives you an overview of a change, and how it might affect your users. To open a post, in the Microsoft 365 admin center, select it (where you can dismiss it if you want to hide it from the list). To sort and filter the [list of messages across all Microsoft 365 services](/office365/admin/manage/message-center), select **All active messages**.
   
-![The Message Center card on the home page](media/804aeffa-f842-4951-a42e-86d7151b28fa.PNG)
   
 ## Service health
 
 In the **Service health** section of the home page, you can see whether the SharePoint service is healthy, or if it's experiencing an active advisory or incident. For more info about an advisory or incident, select it to open the **Service health** page of the Microsoft 365 admin center.
   
-![The Service health card on the home page](media/0336aab6-aecb-494c-9cd2-f279f452cc79.PNG)
+
   
 ## Customize the navigation pane
 
