@@ -103,8 +103,8 @@ From the Sync health dashboard, admins can check the sync status and sync app ve
 
         d. Select **Enabled**, paste your Tenant Association Key in the box in the Options pane, and then select **OK**.
 
-    > [!IMPORTANT]
-    > After you enable the SyncAdminReports setting on devices, it takes up to three days for reports to be available.
+        >[!IMPORTANT]
+        > After you enable the SyncAdminReports setting on devices, it takes up to three days for reports to be available.
 
 ## OneDrive Sync health dashboard 
 
