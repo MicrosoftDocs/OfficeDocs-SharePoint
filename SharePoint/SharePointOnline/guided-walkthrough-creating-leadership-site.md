@@ -1,8 +1,8 @@
 ---
-title: Add the Workplace transformation site
+title: Guided walkthrough - Creating a Leadership site for your organization
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -17,42 +17,131 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Provision and customize the Workplace transformation site"
+description: "Create a leadership site for your organization"
 ---
 
-# Overview of the Workplace transformation site 
+# Guided walkthrough - creating a leadership site for your organization
 
-Help your organization drive and manage change by using the Workplace transformation site template in SharePoint. The site template helps organizations to successfully manage the people side of their organization change management initiatives to ensure all impacted employees are informed, have support, and know where they can learn more about upcoming changes. 
-<br>
-<br>
-The Workplace transformation site template is designed help people in your organization understand and engage in the change management process by providing a landing place using a SharePoint communication site in combination with Microsoft Lists to help users see the big picture. The site design is based on change management research that is focused on helping organizations successfully adopt and sustain change. 
+In this article, we show you elements of an example leadership site to inspire you, and help you learn how to create similar sites for your own organization. In this example, the leadership site provides your organization insight into the goals and priorities of the leadership team. Watch this video to see how it is built, or read the article below.
 
-   ![Image of the Workplace transformation site landing page](media/hybrid-home.png)
+<!-- daisy put the video here-->
 
+## Let's get started
 
-**The Workplace transformation site template helps organizations:**
+First, if you haven't already created a Communication site, check out the <!-- daisy bookmark [Create your site] --> section in this article.  If you need to learn how to add sections and web parts, check out the section <!-- daisy bookmark [Add sections and web parts] --> in this article.
 
-- Inspire employees on the new possibilities’ your change management project offers
-- Provide employees with the information, resources, and support they will need to successfully adopt new ways of working
-- Ready employees for a successful transition to new processes, tools, and expectations
+Once you have your created your site and know how to edit pages, you can use the steps below to add the elements shown.
 
+## Example leadership site
+<!-- daisy image 1-->
 
-### The Workplace transformation site features:
+**1. Showcase your company branding** Make it yours with a logo and theme. <!-- daisy bkmk -->Learn how
 
--	A landing place for people in your organization to get more information, news, and support
--	Specialized support channels for many audiences like managers, teams, and champions 
--	Pre-populated content and web parts that can be customized to fit the needs of your organization and specific change management projects
--	Opportunity to use the Microsoft 365 Learning pathways solution to display Microsoft-curated and maintained training playlists
--	Integration with Microsoft 365 lists that let you customize and manage the change management journey 
--	Examples of micro-learning content that can be adapted to your change project
+**2. Make your site easy to get around** Customize navigation to make it easy for people to discover important content on your site. <!-- daisy bkmk> Learn how
 
+**3. Focus on priorities** Feature curated content that's a priority for the organization. <!-- daisy -->Learn how
+
+**4. Share timely news** Share the most recent news, like vision statements and blog postings.<!--daisy--> Learn how
+
+**5. Connect to important resources** Link to pages and sites that cover key topics.  <!--daisy-->Learn how
+
+**6. Engage with video**  Add video to keep people updated on the latest talks, updates, and more.<!--daisy--> Learn how
+
+**7. Keep communication fresh** Share recent conversations and comments from your organization.<!--daisy--> Learn how
+
+**8. Engage users with beautiful images** Add more images with text and links to make your page look great and engage users.<!--daisy--> Learn how
+
+**9. Keep everyone up-to-date** Show a calendar of the latest events.<!--daisy--> Learn how
+
+**10. Sign them up** Create a call to action for sign-ups, surveys, or other important actions.<!--daisy--> Learn how
+
+**11. Inspire** Add impact with inspirational or vision-oriented quotes.<!--daisy--> Learn how
+
+## Create your site
+
+To make a site like the one shown here, you'll create a [Communication site](https://support.microsoft.com/office/use-the-sharepoint-topic-showcase-and-blank-communication-site-templates-94a33429-e580-45c3-a090-5512a8070732). To do this, select **Create site** from the SharePoint start page (or, if you're going to associate this site with a Hub site, navigate to the hub site and click Create site there so that the communication site is automatically be associated with that hub site).
+
+<!-- daisy image 2-->
+
+Next, choose **Communication site**, and then the **Blank** layout. Fill out your site name, description, and other information, and select **Finish**.
+
+<!-- daisy image 3-->
+For more details, see [Create a communication site in SharePoint Online](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
+<!-- daisy bookmark -->Back to top
+
+## Showcase your company branding
+
+You can quickly and easily customize the look of your SharePoint site to reflect your professional style and brand.
+
+<!--daisy image 4-->
+
+**Change the look** settings are located under **Settings** <!--daisy settings icon--> in the top right corner of your SharePoint site.
+
+<!--daisy image 5-->
+
+You can select the site theme you want, and even customize it.
+
+<!-- daisy image 6-->
+
+You can change your header layout and logo when you click **Header** under **Change the look**.
+
+<!-- daisy image 7-->
+
+Under Change the look, you can also find options for navigation (cascade or mega menu) and footer options. For more details on changing the look of your site, see [Change the look of your SharePoint site](https://support.microsoft.com/office/change-the-look-of-your-sharepoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818).
+
+<!--daisy bookmark--> Back to top
+
+## Make your site easy to get around
+
+Easily edit the left and top menus to link the page to other SharePoint pages or on the Internet.
+
+<!-- daisy image 8-->
+
+Select **Edit** on the bottom of the left navigation to manage links there, or on the top menu to manage links there. Hover over the location in the menu where you want to add a link, and select +. Then add the type of link you want to add, your website address, and name to display in the navigation bar in the **Add a link** dialog box. Want to reorder your navigation links? Just drag them into the position you want.
+
+For more detailed information on navigation, see [Customize the navigation on your SharePoint site](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca).
+
+<!-- daisy bookmark -->Back to top
+
+## Add sections and web parts
+
+Sections make up your page, and are you place one or more web parts. While editing the page, each section will show controls to edit the layout, move, or delete the sections.
+
+Start editing by clicking **Edit** on the top right of the page.
+
+<!-- daisy image 9-->
+
+The + symbol before or after a section will add a section using one of several layouts.
+
+<!-- daisy image 10-->
+
+For information on working with sections, see [Add or remove sections and columns on a page](https://support.microsoft.com/en-us/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899).
+
+To add web parts to sections, select the plus symbol <!--daisy plus symbol--> in a section, which may appear before or after a web part in a section. Then select a web part to use. For more information on all web parts, see [Using web parts on SharePoint pages](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0).
+
+<!-- daisy image 11-->
+
+Web parts may be edited, moved or deleted within sections. The **Edit web part** icon opens detailed controls unique to each web part type.
+
+<!-- daisy image 12-->
+
+<!-- daisy bookmark -->Back to top
+
+## Focus on priorities with the Hero web part
+
+Let your team know what’s most important with high-impact hero images, company branding, and important news. The initial impact of the Leadership site home page is created by large and eye-catching images of the Hero web part. The layout used in this example is **Three tiles**.
+
+<!-- daisy you stopped here>
  
+Hero layout
 
-### How to use the Workplace transformation site template
-The Workplace transformation site can be used to drive any topic or scope of organizational change. The site template helps organizations to successfully manage the people side of their organization change management to ensure all impacted employees are informed, have support, and know where they can learn more about upcoming changes.
+Editing the web part presents layout options. The Tiles option, such as the one shown below, presents layouts for between one and five tiles. The Layers option sets each image as a layer with the image next to the title. Up to five layers are possible, so that you can use the web part to fill the entire page.
 
-**Examples of the types of change projects that could benefit from the workplace transformation template:**
-<br>
+In this example, the Hero web part is in a full-width section.
+
+Use the Move item Move web part button button on the left to rearrange the tiles within the Hero web part.
+
+<!-->
 
 - **New process –** Communicate and manage changes to data security policies, new contract management workflows, or project intake processes.
 
@@ -60,39 +149,13 @@ The Workplace transformation site can be used to drive any topic or scope of org
 
 - **New systems –** Roll out a new employee benefits program, or help employees adopt new tools and apps.
 
-
-
 ### Site design is based on a proven change management model
 
 **Phases of change management:**
 
    ![Image of the Workplace transformation site design model](media/change-management-model.png)
 
-**1. Awareness and commitment –** Start communicating details about upcoming changes with users and provide various support channels and opportunities to engage through events and [Yammer community chats](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6).
-<br>
 
-**2. Learn –** Build training content right into the site itself by using [Microsoft 365 Learning pathways](/office365/customlearning/).
-<br>
-
-**3. Practice and exploration –** Use your organization’s [champion community](https://view.officeapps.live.com/op/view.aspx?src=https://fto365dev.blob.core.windows.net:443/media/Default/DocResources/Adoption/Build_Champions_Program_Guide.pptx) in leading hand-on events and demonstrations in addition to 1:1 help.
-<br>
-
-**4. Use and consult –** Use [Microsoft Lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US) to help your organization manage tasks and knowledge checks associated with training and change management objectives.
-<br>
-
-**5. Sustain –** Help users practice and sustain new skillsets and habits by using micro-learning content like quick tips and [publishing regular news posts](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7) sharing change management success stories.
-
-
-
-### Pre-populated content focuses on the hybrid workplace
-The workplace transformation site features pre-populated content that revolves around helping organizations transition to a hybrid workplace. The hybrid workplace is one that is flexible when and where people do their work. Many organizations plan to allow employees to work from home up to 50% of the time, which means the organization will need to adopt new ways of working to ensure wellbeing and productivity.
-<br>
-
-Learn more about the [future of work](https://www.microsoft.com/research/theme/future-of-work/) and [what we have learned about remote work so far](https://www.microsoft.com/microsoft-365/blog/2020/07/08/future-work-good-challenging-unknown/).
-
-
-## Overview of the site contents
-The workplace transformation site is full of pre-populated content, web parts, news templates, and a [Microsoft List](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US). Carefully review and customize pre-populated content before sharing broadly with end users.
 
    ![Image of the Workplace transformation site navigation](media/hybrid-nav.png)
  
@@ -126,10 +189,6 @@ The workplace transformation site is full of pre-populated content, web parts, n
 - **Get help –** Make sure employees know where to go for support and have more than one option for getting 1:1 help or learning from others. 
 
 
-### Considerations for M365 Learning Pathways
-[Microsoft 365 learning pathways](/office365/customlearning/) is a customizable, on-demand learning solution that displays playlists using the M365 Learning pathways web part right onto SharePoint pages. Consider using the M365 Learning pathways solution in combination with the workplace transformation site to embed training playlists on SharePoint pages. 
-
-Learn more about [how to provision the Microsoft 365 learning pathways solution for the first time](/office365/customlearning/custom_provision), how to [find Microsoft-maintained content packs](/office365/customlearning/custom_plancontent), and [how to custom learning pathways and playlists](/office365/customlearning/custom_overview). 
 
 
 ## Step 1: Provision the Workplace transformation site template
@@ -139,11 +198,6 @@ Learn more about [how to provision the Microsoft 365 learning pathways solution 
 > -	The workplace transformation site will take about 15 minutes to provision 
 
 
-1.	Start by navigating to the [SharePoint look book](https://lookbook.microsoft.com/) and selecting the work transformation template. Select **Add to your tenant**.
-2.	Then, select a site name, URL, and email address where an email confirmation will be sent when the site is successfully created.
-3.	Select **Provision**, and in less than 15 minutes you will receive an email confirmation with a link to your new site.
-<br> 
-Learn more about [provisioning site templates from the look book](./add-sample-site.md). 
 
 
 ### Share the site with site owners and members to customize
@@ -158,9 +212,6 @@ Customize the workplace transformation site to fit the needs of your organizatio
 
 ### Sign in 
 
-1.	Open your web browser and navigate to [office.com](https://www.office.com/) or your organization’s sign in location.
-2.	**Sign in** with your username and password.
-3.	Navigate to the location of the site using the URL supplied by your tenant admin, or select SharePoint from the Microsoft 365 home page, and then select the **Workplace transformation site**.
 
 ### Review pre-populated content
 The workplace transformation site is full of pre-populated content, web parts, news templates, and a Microsoft list. Carefully review and customize pre-populated content before sharing broadly with end users. 
@@ -214,9 +265,6 @@ The Workplace transformation site contains a [Microsoft List](https://support.mi
 
    ![Image of the hybrid workplace checklist](media/hybrid-list.png)
 
-1.	Start by navigating to **Setting > Site contents**, and then select **Hybrid workplace checklist**.
-2.	Then you can edit list items, [change columns and labels](https://support.microsoft.com/office/create-a-column-in-a-list-or-library-2b0361ae-1bd3-41a3-8329-269e5f81cfa2), the theme and more. Or, you can [create a new list based on an existing Excel spreadsheet](https://support.microsoft.com/office/create-a-list-based-on-a-spreadsheet-380cfeb5-6e14-438e-988a-c2b9bea574fa) or [use a list template](https://support.microsoft.com/office/create-a-list-from-a-template-70b008a2-7a3d-4223-83d8-345e0313974d).
-3.	Finally, [edit the view of your list](https://support.microsoft.com/office/edit-a-view-of-a-list-15916903-e79a-423f-b4e2-02d37e1ff372) to make sure users see the most important information in the [List web part](https://support.microsoft.com/office/use-the-list-web-part-ef0a1b80-f8b3-443d-b04a-1e76c70b5537) on the **Get started page**. 
 
 [Learn more about M365 lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US).
 
@@ -233,15 +281,3 @@ Edit the look of your site to align with your organization's brand. Customize th
 
 #### Customize site navigation
 Site navigation is important because it helps users immediately understand what can be accomplished on a given site. The most effective SharePoint sites help viewers find what they need quickly so that they can use the information to make decisions, learn about what is going on, access the tools they need, or engage with colleagues to help solve a problem. [Learn how to edit site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca?ui=en-US&rs=en-US&ad=US).
-
-
-
-## Step 3: Share the Workplace transformation site with end users
-
-Once the site has been customized and republished, it is ready to share with end users.
-
-1.	Select **Share site** from the right-hand corner.
-2.	In the **Share site** pane, enter the names of people or groups to add them to the site, or enter "Everyone except external users" to share the site with everyone in your organization.
-3.	Change the permission level (Read, Edit, or Full control) as needed.
-4.	Enter an optional message to send to the person or clear the **Send email box** if you don't want to send an email.
-5.	Select **Share**.
