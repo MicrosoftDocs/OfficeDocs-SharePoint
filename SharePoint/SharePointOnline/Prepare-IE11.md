@@ -1,8 +1,8 @@
 ---
-title: "Preparing for the retirement of Internet Explorer 11"
+title: "Prepare your SharePoint environment for the retirement of Internet Explorer 11 for Microsoft 365 apps and services"
 ms.reviewer: aharmetz
 ms.author: matteva
-author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - SPO160
 - MET150
