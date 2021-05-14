@@ -43,7 +43,7 @@ From the Sync health dashboard, admins can check the sync status and sync app ve
 
 - [Global Administrator role](/microsoft-365/admin/add-users/about-admin-roles) or [Office apps admin role](/microsoft-365/admin/add-users/about-admin-roles) to set up the dashboard. After setup, only [Global reader role](/microsoft-365/admin/add-users/about-admin-roles) is required to view the dashboard.
 
-- Devices can reach the endpoint [https://clients.config.office.com](https://clients.config.office.com).
+- Devices can reach the endpoint [https://config.office.com](https://config.office.com).
 
 ## Set up the OneDrive sync health dashboard
 
@@ -174,7 +174,7 @@ To get the OneDrive Device ID, select the OneDrive sync app in the notification 
 
 ## Send feedback
 
-To make a feature suggestion, use the Feedback button in the lower-right corner of the dashboard page.
+To make a feature suggestion, use the Feedback button in the top-right corner of the dashboard page.
 
 ![Feedback form](media/sync-feedback.png)
 
