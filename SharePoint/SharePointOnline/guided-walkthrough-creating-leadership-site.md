@@ -131,15 +131,27 @@ Web parts may be edited, moved or deleted within sections. The **Edit web part**
 
 Let your team know what’s most important with high-impact hero images, company branding, and important news. The initial impact of the Leadership site home page is created by large and eye-catching images of the Hero web part. The layout used in this example is **Three tiles**.
 
-<!-- daisy you stopped here>
- 
-Hero layout
+### Hero layout
 
-Editing the web part presents layout options. The Tiles option, such as the one shown below, presents layouts for between one and five tiles. The Layers option sets each image as a layer with the image next to the title. Up to five layers are possible, so that you can use the web part to fill the entire page.
+Editing the web part presents layout options. The **Tiles** option, such as the one shown below, presents layouts for between one and five tiles. The **Layers** option sets each image as a layer with the image next to the title. Up to five layers are possible, so that you can use the web part to fill the entire page.
 
 In this example, the Hero web part is in a full-width section.
 
-Use the Move item Move web part button button on the left to rearrange the tiles within the Hero web part.
+Use the **Move item** <!--daisy move item icon--> button on the left to rearrange the tiles within the Hero web part.
+
+<!-- daisy image 13-->
+
+### Customize each tile
+
+When you click a tile, you'll see a toolbar at the bottom of the tile where you can click **Edit details** where you can change the link and image used. With the larger tile, you can also set call to action text and link. On the same toolbar, you can set focal point for the hover animation, plus zoom in and zoom out of the image.
+
+<!-- daisy image 14-->
+
+For more details on using the Hero web part, see [Use the Hero web part](https://support.microsoft.com/en-us/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645).
+
+<!-- daisy bookmark -->Back to top
+
+<!-- daisy you stopped here-->
 
 <!-->
 
