@@ -31,7 +31,7 @@ description: Learn how to use OneDrive sync reports to get insights and take act
 The new OneDrive sync health dashboard in the Microsoft 365 [Apps Admin Center](https://config.office.com/) provides IT admins with actionable insights about the OneDrive sync app. For small businesses to large enterprises, the dashboard is the single place to get information and take action on sync app adoption and health.
 
 >[!IMPORTANT]
-> This feature is in preview and isn't available to everyone. It will gradually roll out to customers on the Insiders and Production rings in May 2021.
+> This feature is in preview and isn't available to everyone. It will gradually roll out to customers on the Insiders and Production rings between early May and June 2021.
 
 From the Sync health dashboard, admins can check the sync status and sync app version of individual devices, monitor Known Folder Move roll out, and track sync errors. The insights range from a high-level executive summary to a drill-down of sync status per device, to be used in various administrative scenarios.
 
