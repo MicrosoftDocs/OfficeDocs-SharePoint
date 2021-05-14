@@ -32,7 +32,7 @@ As a SharePoint or global admin in Microsoft 365, you restrict external sharing 
 
     ![Manage security groups](media/manage-security-groups.png)
 
-4. In the **Add a security group** box, enter a name for a security group. The security group box appears.
+4. In the **Add a security group** box, search for and select the security groups you want to use. (Note that Microsoft 365 Groups are not supported).
 
 5. Next to the security group name, from the **Can share with** dropdown, select either:
 
