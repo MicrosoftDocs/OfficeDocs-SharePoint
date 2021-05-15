@@ -49,7 +49,6 @@ To make a site like the one shown here, you'll create a Communication site. To d
 Next, choose Communication site, and then the Topic layout. Fill out your site name, description, and other information, and click Finish. Then you'll get a template with the same type of layout as the example in this article.
    ![Image of the Workplace transformation site design model](media/change-management-model.png)
 For more details, see Create a communication site in SharePoint Online.
-
 Back to top
 
 
