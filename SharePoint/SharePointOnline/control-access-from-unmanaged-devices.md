@@ -182,7 +182,7 @@ Blocking access and blocking download may impact the user experience in some app
   
 ## Need more help?
 
-[!INCLUDE[discussionforums.md](includes/discussionforums.md)]
+[Microsoft Q & A ](answers/topics/office-sharepoint-onlineincludes/discussionforums.md)
 
 ## See also
 
