@@ -34,6 +34,14 @@
 ### [Step 4: Review destination paths](mm-google-step4-review-destinations.md)
 ### [Step 5: Map identities](mm-google-step5-map-identities.md)
 ### [Step 6: Migrate and Monitor](mm-google-step6-migrate-monitor.md)
+## Migrate from Dropbox
+### [Overview](mm-Dropbox-overview.md)
+### [Step 1: Connect to Dropbox](mm-Dropbox-step1-connect.md)
+### [Step 2: Scan and assess](mm-Dropbox-step2-scan-assess.md)
+### [Step 3: Copy to Migrations list](mm-Dropbox-step3-copy-to-migrations.md)
+### [Step 4: Review destination paths](mm-Dropbox-step4-review-destinations.md)
+### [Step 5: Map identities](mm-Dropbox-step5-map-identities.md)
+### [Step 6: Migrate and Monitor](mm-Dropbox-step6-migrate-monitor.md)
 ## Migrate SharePoint Server sites and content
 ### [Overview](introducing-the-sharepoint-migration-tool.md)
 ### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
