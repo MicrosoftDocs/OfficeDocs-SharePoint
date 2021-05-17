@@ -37,7 +37,7 @@ Sign in to your Dropbox account to connect to your Microsoft 365 migration.
 6. Select **Allow**, letting Microsoft have the listed individual and team permissions. 
 
 ![Connected successfully to Dropbox](/media/mm-connected-dropbox.png)
-
+</br></br>
 [**Step 2: Scan and assess**](mm-Dropbox-step2-scan-assess.md)
 
 </br></br>
