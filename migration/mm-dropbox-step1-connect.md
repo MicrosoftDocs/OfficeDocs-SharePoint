@@ -38,7 +38,7 @@ Sign in to your Dropbox administrator account to connect to your Microsoft 365 m
 
 
 
-![Connected to Dropbox](/media/mm-connected-dropbox.png)
+![Connected to Dropbox](media/mm-connected-dropbox.png)
 
 </br></br>
 
