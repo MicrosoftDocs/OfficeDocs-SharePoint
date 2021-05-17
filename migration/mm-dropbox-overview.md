@@ -22,7 +22,7 @@ description: Overview of migration from Dropbox to Microsoft 365 using Migration
 # Migrate Dropbox to Microsoft 365 with Migration Manager (preview)
 
 >[!Note]
-> Features described in this topic are part of a pending preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
+> Features described in this topic are part of a preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
 
 
 
