@@ -38,7 +38,7 @@ Advantages of Azure AD B2B include:
 - Invited people outside your organization are each given an account in the directory and are subject to Azure AD access policies such as multi-factor authentication.
 - Invitations to a SharePoint site use Azure AD B2B and no longer require users to have or create a Microsoft account.
 - If you have configured Google federation in Azure AD, federated users can now access SharePoint and OneDrive resources that you have shared with them.
-- SharePoint and OneDrive sharing is subject to the Azure AD organizational relationships settings, such as **Members can invite** and **Guests can invite**.
+- SharePoint and OneDrive sharing is subject to the Azure AD organizational relationships settings, such as **Members can invite** and **Guests can invite**. As with Microsoft 365 Groups and Teams, if an Azure AD organizational relationship setting is more restrictive than a SharePoint or OneDrive setting, the Azure AD setting will prevail.
 
 This integration is not supported in the following Microsoft 365 services:
 - Office 365 Germany
