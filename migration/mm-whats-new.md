@@ -26,12 +26,16 @@ You can help us improve Migration Manager by sending us your suggestions and rep
 
 ## Coming soon
 
-- **Auto site provisioning.** When migrating to SharePoint sites, if the site doesn't exist, it will be automatically provisioned before the migration starts.
-- **Google migrations (preview).**  You will be able to migrate their Google Drives to Microsoft 365.
 - **Scan file shares (preview).**  Scan and view your sources for migration readiness.
-- **Performance dashboard for file shares.**  View your performance history, and if needed, be provided prescriptive guidance on how to improve in impacted areas.
 - **Ability to install agent on non-domain joined computers (app mode).**  You will have the option of installing the Migration Manager agent on non-domain joined computers using an agent app.
 
+
+## May 2021
+
+- **Auto site provisioning.** When migrating to SharePoint sites, if the site doesn't exist, it will be automatically provisioned before the migration starts.
+- **Performance dashboard for file shares.**  View your performance history, and if needed, be provided prescriptive guidance on how to improve in impacted areas.
+- **Google migrations (preview).**  Migrate your Google Drives to Microsoft 365.
+- **Dropbox migrations (preview).**  You nw can migrate your Dropbox content to Microsoft 365.
 
 ## April 2021
 
