@@ -34,6 +34,18 @@ We're continuously adding new features to the new SharePoint admin center and fi
 > [!IMPORTANT]
 > Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting November 30, 2020). [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed. 
   
+## June 2021
+
+- **New dashboard on home page**. On the home page, you can now add, remove, and rearrange cards. Several new cards were added:
+    - SharePoint storage usage over time
+    - OneDrive usage
+    - OneDrive file activity
+    - Search active sites
+    - Sensitivity labels
+    - Term store operations
+    - Microsoft 365 active users report
+[Learn more about the new home page dashboard](get-started-new-admin-center.md)
+
 ## March 2021
 
 - **OneDrive settings**. On the Settings page, you can now manage OneDrive settings. The OneDrive **Notifications** setting lets you [control whether users can receive notifications about file activity](/onedrive/turn-on-external-sharing-notifications). The **Retention** setting lets you [specify the days to retain a deleted user's OneDrive](/onedrive/set-retention). The **Storage limit** setting lets you [set the default OneDrive storage space](/onedrive/set-default-storage-space). The **Sync** setting lets you show or hide the Sync button on the OneDrive website, [allow syncing only on computers joined to specific domains](/onedrive/allow-syncing-only-on-specific-domains), and [block upload of specific file types](/onedrive/block-file-types). 
