@@ -33,7 +33,7 @@ First, if you haven't already created a Communication site, check out the <!-- d
 Once you have your created your site and know how to edit pages, you can use the steps below to add the elements shown.
 
 ## Example leadership site
-<!-- daisy image 1-->
+![Image of an example leadership site](media/gw-leadership/gw-1.png)
 
 **1. Showcase your company branding** Make it yours with a logo and theme. <!-- daisy bkmk -->Learn how
 
@@ -61,11 +61,12 @@ Once you have your created your site and know how to edit pages, you can use the
 
 To make a site like the one shown here, you'll create a [Communication site](https://support.microsoft.com/office/use-the-sharepoint-topic-showcase-and-blank-communication-site-templates-94a33429-e580-45c3-a090-5512a8070732). To do this, select **Create site** from the SharePoint start page (or, if you're going to associate this site with a Hub site, navigate to the hub site and click Create site there so that the communication site is automatically be associated with that hub site).
 
-<!-- daisy image 2-->
+![Image of the command bar](media/gw-leadership/gw-2.png)
 
 Next, choose **Communication site**, and then the **Blank** layout. Fill out your site name, description, and other information, and select **Finish**.
 
-<!-- daisy image 3-->
+![Image of a Communication site with Blank layout selected](media/gw-leadership/gw-3.png)
+
 For more details, see [Create a communication site in SharePoint Online](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
 <!-- daisy bookmark -->Back to top
 
