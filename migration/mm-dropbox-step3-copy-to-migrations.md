@@ -1,5 +1,5 @@
 ---
-title: "Step 3: Copy to migrations tab for Google migration"
+title: "Step 3: Copy to migrations tab for Dropbox migration"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -17,7 +17,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-description: "Learn what the third step in using Migration Manager to migrate Google Drive."
+description: "Learn what the third step in using Migration Manager to migrate Dropbox."
 ---
 
 # Step 3: Copy to migrations (Preview)
@@ -27,7 +27,7 @@ description: "Learn what the third step in using Migration Manager to migrate Go
 
 
 
- After a Google user has been scanned and determined ready, add them to your migration list.  
+ After a Dropbox account has been scanned and determined ready, add it to your migration list.  
 
 1. Select the **Migrations** tab. The table will list all users that have been copied to migration.
 
@@ -37,11 +37,11 @@ description: "Learn what the third step in using Migration Manager to migrate Go
 3. Select **Copy to migrations**
 
 
-![Google copy to migrations confirm](media/mm-box-copy-migrations-confirm.png)
+![Dropbox copy to migrations confirm](media/mm-box-copy-migrations-confirm.png)
 
  You can also select multiple users.
 
-![Google copy to migration multiple users](media/mm-box-copy-migrations-multiple-confirm.png)
+![Dropbox copy to migration multiple users](media/mm-box-copy-migrations-multiple-confirm.png)
 
 
 5. Select the **Migrations** tab, and proceed to the next step.
@@ -53,6 +53,6 @@ description: "Learn what the third step in using Migration Manager to migrate Go
 
 
 >[!NOTE]
->Migration Manager Google preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Dropbox preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
