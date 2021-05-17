@@ -26,7 +26,7 @@ This article discusses cumulative features and enhancements in the Mover migrati
 - Accessibility. We have removed the option to close a "successful notification" message. It will now auto close in 5 seconds. 
 
 ## Backend - v1.20.7 (April 27, 2021)
-- New. Six new columns have been added to the Migration Report. See the documentation at: https://docs.microsoft.com/sharepointmigration/mover-reports#migration-report. These new columns start with the following prefixes:
+- New. Six new columns have been added to the Migration Report. See the documentation at: /microsoft.com/sharepointmigration/mover-reports#migration-report. These new columns start with the following prefixes:
   - *Completed Successfully* will get the statistics for the last metrics completed transfer (green, status code 1xx). Three available statistics: Files, Bytes, MB.
   - *Completed* will get the statistics for the last completed transfer, either successfully or with some errors (green OR yellow, status code 1xx OR 2xx). Three available metrics: Files, Bytes, MB.
 Reduces resolution times for customers who need to ensure their transactions (scans or transfers) are run in a specific region due to compliance requirements.
@@ -126,11 +126,11 @@ This release fixes these customer issues:
 
 ## Backend v1.19.10 (October 15, 2020)
 
-- When authorizing an Office 365 connector, the links on the authorization page will now point to the new Mover docs at https://docs.microsoft.com/SharepointMigration/mover-plan-migration
+- When authorizing an Office 365 connector, the links on the authorization page will now point to the new Mover docs at microsoft.com/SharepointMigration/mover-plan-migration
 
 ## Frontend v1.19.0 (October 15, 2020) 
 
-- All links to Mover documentation will now point to the Microsoft documentation site: https://docs.microsoft.com/SharepointMigration/mover-plan-migration
+- All links to Mover documentation will now point to the Microsoft documentation site: microsoft.com/SharepointMigration/mover-plan-migration
 
 
 ## Backend v1.19.15 (October 14, 2020)
