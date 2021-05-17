@@ -19,6 +19,9 @@ description: "Mover Release Notes"
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
 
+## Backend v1.20.8 May 17, 2021
+- New. Promote the new Migration Manager experience for Google Workspace migrations into Microsoft 365 when authorizing a new G Suite connector.  
+
 ## Frontend v1.19.8 (April 27, 2021
 - Accessibility. We have removed the option to close a "successful notification" message. It will now auto close in 5 seconds. 
 
