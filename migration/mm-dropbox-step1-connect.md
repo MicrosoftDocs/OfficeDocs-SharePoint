@@ -27,37 +27,20 @@ description: "Steps to connect to Dropbox when using Migration Manager in the Sh
 > Features described in this topic are part of a preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
 
 
-Sign in to your Dropbox account and add the Microsoft 365 migration app to your Dropbox account custom apps. 
+Sign in to your Dropbox account to connect to your Microsoft 365 migration.
 
 1. In the new SharePoint admin center, select [Migration Manager](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern). 
 2. Under **Dropbox**, select **Get started**.
 3. Select **Connect to Dropbox**. 
-4. On the *Install the migration app* page, select **Install and authorize** if you haven't already installed the Microsoft 365 migration app in the Dropbox  Marketplace. 
-5. Sign in to the Dropbox with a super admin, groups admin, user management admin, or help desk admin account. 
-6. Select **Domain Install**.
+4. Select **Sign in to Dropbox**.
+5. Sign in to your Dropbox administrator account to link with your Microsoft 365 migration.
+6. Select **Allow**, letting Microsoft have the listed individual and team permissions. 
 
-![Install migration app in Dropbox ](media/mm-Dropbox-domain-install.png)
-
-6. On the Domain-wide install screen, select **Continue**.
-7. Agree to the terms of service and then select **Allow**. 
-8. Select **Done** to complete the installation.
-9. Return to the Migration Manager wizard screen. Select **Next**
-10. Select **Sign in to Dropbox **.
-11. Choose an account to continue to Microsoft 365 Migration.
-12. Select **Finish** to close the window.
-
-![connected to Dropbox success screen](media/mm-Dropbox-connected-success.png)
-
-
-
-
-
->[!Important]
->For security reasons, you have 10 minutes to complete the steps to connect to Dropbox. After 10 minutes of inactivity, the session will expire.
+![Connected successfully to Dropbox](/media/mm-connected-dropbox.png)
 
 [**Step 2: Scan and assess**](mm-Dropbox-step2-scan-assess.md)
 
-
+</br></br>
 >[!NOTE]
 >Migration Manager Dropbox preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
 >
