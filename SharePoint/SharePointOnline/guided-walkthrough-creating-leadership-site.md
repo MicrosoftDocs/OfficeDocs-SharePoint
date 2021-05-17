@@ -33,6 +33,7 @@ First, if you haven't already created a Communication site, check out the <!-- d
 Once you have your created your site and know how to edit pages, you can use the steps below to add the elements shown.
 
 ## Example leadership site
+
 ![Image of an example leadership site](media/gw-leadership/gw-1.png)
 
 **1. Showcase your company branding** Make it yours with a logo and theme. <!-- daisy bkmk -->Learn how
@@ -74,19 +75,19 @@ For more details, see [Create a communication site in SharePoint Online](https:/
 
 You can quickly and easily customize the look of your SharePoint site to reflect your professional style and brand.
 
-<!--daisy image 4-->
+![Image of a customized header](media/gw-leadership/gw-4.jpg)
 
 **Change the look** settings are located under **Settings** <!--daisy settings icon--> in the top right corner of your SharePoint site.
 
-<!--daisy image 5-->
+![Image of the settings pane](media/gw-leadership/gw-5.png)
 
 You can select the site theme you want, and even customize it.
 
-<!-- daisy image 6-->
+![Image of the site theme options](media/gw-leadership/gw-6.png)
 
 You can change your header layout and logo when you click **Header** under **Change the look**.
 
-<!-- daisy image 7-->
+![Image of the site header options](media/gw-leadership/gw-7.png)
 
 Under Change the look, you can also find options for navigation (cascade or mega menu) and footer options. For more details on changing the look of your site, see [Change the look of your SharePoint site](https://support.microsoft.com/office/change-the-look-of-your-sharepoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818).
 
@@ -96,7 +97,7 @@ Under Change the look, you can also find options for navigation (cascade or mega
 
 Easily edit the left and top menus to link the page to other SharePoint pages or on the Internet.
 
-<!-- daisy image 8-->
+![Image of the navigation edit pane](media/gw-leadership/gw-8.png)
 
 Select **Edit** on the bottom of the left navigation to manage links there, or on the top menu to manage links there. Hover over the location in the menu where you want to add a link, and select +. Then add the type of link you want to add, your website address, and name to display in the navigation bar in the **Add a link** dialog box. Want to reorder your navigation links? Just drag them into the position you want.
 
@@ -110,21 +111,21 @@ Sections make up your page, and are you place one or more web parts. While editi
 
 Start editing by clicking **Edit** on the top right of the page.
 
-<!-- daisy image 9-->
+![Image of the edit button at the top of the page](media/gw-leadership/gw-9.png)
 
 The + symbol before or after a section will add a section using one of several layouts.
 
-<!-- daisy image 10-->
+![Image of the page layout options](media/gw-leadership/gw-10.png)
 
 For information on working with sections, see [Add or remove sections and columns on a page](https://support.microsoft.com/en-us/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899).
 
-To add web parts to sections, select the plus symbol <!--daisy plus symbol--> in a section, which may appear before or after a web part in a section. Then select a web part to use. For more information on all web parts, see [Using web parts on SharePoint pages](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0).
+To add web parts to sections, select the plus symbol ![image of a plus symbol](media/gw-leadership/gw-plus.png) in a section, which may appear before or after a web part in a section. Then select a web part to use. For more information on all web parts, see [Using web parts on SharePoint pages](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0).
 
-<!-- daisy image 11-->
+![Image of featured web parts](media/gw-leadership/gw-11.png)
 
 Web parts may be edited, moved or deleted within sections. The **Edit web part** icon opens detailed controls unique to each web part type.
 
-<!-- daisy image 12-->
+![Image of the Edit web part icon](media/gw-leadership/gw-12.png)
 
 <!-- daisy bookmark -->Back to top
 
@@ -138,15 +139,15 @@ Editing the web part presents layout options. The **Tiles** option, such as the 
 
 In this example, the Hero web part is in a full-width section.
 
-Use the **Move item** <!--daisy move item icon--> button on the left to rearrange the tiles within the Hero web part.
+Use the **Move item** ![Image of the Move icon](media/gw-leadership/gw-move.png) button on the left to rearrange the tiles within the Hero web part.
 
-<!-- daisy image 13-->
+![Image of the Hero web part tile customization options](media/gw-leadership/gw-13.png)
 
 ### Customize each tile
 
 When you click a tile, you'll see a toolbar at the bottom of the tile where you can click **Edit details** where you can change the link and image used. With the larger tile, you can also set call to action text and link. On the same toolbar, you can set focal point for the hover animation, plus zoom in and zoom out of the image.
 
-<!-- daisy image 14-->
+![Image of the Hero web part Edit details pane](media/gw-leadership/gw-14.png)
 
 For more details on using the Hero web part, see [Use the Hero web part](https://support.microsoft.com/en-us/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645).
 
@@ -168,7 +169,7 @@ With the Quick links web part, you have the ability to easily create professiona
 
 In this Leadership site example shown above, this web part is in the second column of a two-column section.
 
-<!-- daisy image 15-->
+[Image of the Quick links web part edit pane](media/gw-leadership/gw-15.png)
 
 For more details on using the Quick links web part, see [Use the Quick Links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82).
 
@@ -180,7 +181,7 @@ Using the [Microsoft Stream service](https://docs.microsoft.com/stream/overview)
 
 In this Leadership site example shown above, this web part is in the first column of a two-column section.
 
-<!-- daisy image 16-->
+![Image of the Stream web part](media/gw-leadership/gw-16.png)
 
 For more details on using the Stream web part, see [Use the Stream web part](https://support.microsoft.com/office/use-the-stream-classic-web-part-b97fa87c-1337-4271-a059-17f0d2b26e8b).
 
@@ -192,7 +193,7 @@ With Yammer, you can have organization-wide conversations. Now you can have thos
 
 In this Leadership site example shown above, this web part is in the first column of a two-column section.
 
-<!-- daisy image 17-->
+![Image of the Yammer web part](media/gw-leadership/gw-17.png)
 
 For more details on using the Yammer web part, see [Use a Yammer web part in SharePoint Online](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da).
 
@@ -202,7 +203,7 @@ For more details on using the Yammer web part, see [Use a Yammer web part in Sha
 
 The Hero web part doesn't have to be for the top of the page only. In this example, a second hero web part further down the page uses the **Layers** layout with two rows to display larger images.
 
-<!-- daisy image 18-->
+![Image of the Hero web part](media/gw-leadership/gw-18.png)
 
 Learn more about the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645).
 
@@ -212,7 +213,7 @@ The Events web part allows you to easily display upcoming events on your page. I
 
 In this Leadership site example, the web part is in the second column of a two-column section.
 
-<!-- daisy image 19-->
+![Image of the Events web part](media/gw-leadership/gw-19.png)
 
 Learn more about the Events web part in [Use the Events web part](https://support.microsoft.com/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909).
 
@@ -222,7 +223,7 @@ The Call to action web part allows you to create a button with a call to action 
 
 In this Leadership site example, the web part is in the second column of a two-column section.
 
-<!-- daisy image 20-->
+![Image of the Call to action web part](media/gw-leadership/gw-20.png)
 
 For more details on how to use this web part, see [Use the Call to action web part](https://support.microsoft.com/office/use-the-call-to-action-web-part-e9917310-7543-4fc4-8f3f-d78e46074c00).
 
@@ -234,7 +235,7 @@ The leadership quote uses the Text web part. This web part allows basic text for
 
 In this Leadership site example shown above, the web part is in a one-column section.
 
-<!-- daisy image 21-->
+![Image of the Text web part](media/gw-leadership/gw-21.png)
 
 For more details on using the Text web part, see [Add text and tables to your page with the Text web part](https://support.microsoft.com/office/add-text-and-tables-to-your-page-with-the-text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801).
 
@@ -243,11 +244,3 @@ For more details on using the Text web part, see [Add text and tables to your pa
 ## Want more?
 
 Get inspired with more examples in the [SharePoint Look Book](https://sharepointlookbook.azurewebsites.net/).
-
-<!-->
-
-**Phases of change management:**
-
-   ![Image of the Workplace transformation site design model](media/change-management-model.png)
-
-**Video -** Edit the [Embed web part](https://support.microsoft.com/office/add-content-to-your-page-using-the-embed-web-part-721f3b2f-437f-45ef-ac4e-df29dba74de8) on the **Message from our CEO** page to point to a YouTube video or an intranet video link. Use the [Stream web part](https://support.microsoft.com/office/use-the-stream-web-part-b97fa87c-1337-4271-a059-17f0d2b26e8b#:~:text=The%20Stream%20web%20part%20will%20display%20a%20Stream,and%20DoD%20or%20Office%20365%20operated%20by%2021Vianet.) to display an existing Stream video.
