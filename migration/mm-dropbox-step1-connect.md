@@ -36,7 +36,6 @@ Sign in to your Dropbox administrator account to connect to your Microsoft 365 m
 5. Sign in to your Dropbox administrator account to link with your Microsoft 365 migration.
 6. Select **Allow**, letting Microsoft have the listed individual and team permissions. 
 
-![Connected to Dropbox](/media/mm-connected-dropbox.png)
 
 </br></br>
 
