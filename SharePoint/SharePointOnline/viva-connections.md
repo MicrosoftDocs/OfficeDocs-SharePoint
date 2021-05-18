@@ -50,12 +50,14 @@ Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-vi
 > All SharePoint out-of-the-box site headers are compatible with Viva Connections desktop. However, if you modify your SharePoint site to remove, or significantly change the site header, then these contextual actions may not be available to the user. 
 > - Viva Connections was originally announced as the [Home site app](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/the-home-site-app-for-microsoft-teams/ba-p/1714255).
 > - Viva Connections for mobile will become available in Summer 2021 and will include enhancements to the overall configuration and deployment experience.
+> - The Viva Connections for desktop PowerShell script in the Microsoft download center will become available on March 31, 2021.
 > - The [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) is available now in the [Microsoft download center](https://www.microsoft.com/download/default.aspx).
 
 
 ## Watch how to create the app package and then upload it to Teams
 
  > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAVk1]  
+
 
 
 
