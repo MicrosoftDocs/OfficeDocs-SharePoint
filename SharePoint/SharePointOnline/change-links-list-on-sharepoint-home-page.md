@@ -34,7 +34,7 @@ description: "Learn how admins can change the Featured links list on the SharePo
   
 To view the SharePoint start page:
   
-1. Sign in with your work or school account. For help, see [Where do I sign in?](https://support.office.com/article/17e859dc-88be-45a0-97be-a8837efb2c24.aspx#BKMK_WhereSignIn).
+1. Sign in with your work or school account at https://www.office.com/signin.
     
 2. Select SharePoint from the list of apps. 
     

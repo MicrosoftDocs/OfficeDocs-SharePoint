@@ -32,7 +32,7 @@ The resources on this page are designed to get you started. Depending on the nee
 
 If you're just starting out with SharePoint, learn about the [FastTrack onboarding and adoption services](https://fasttrack.microsoft.com/office), [find a SharePoint certified partner](https://products.office.com/sharepoint/sharepoint-partners-sharepoint-support), or [visit the SharePoint community](https://techcommunity.microsoft.com/t5/SharePoint/ct-p/SharePoint).
 
-Once you're using SharePoint, get the [OneDrive sync app](https://onedrive.live.com/about/download) and the [Mobile app](https://products.office.com/sharepoint/mobile-app). You can also [suggest a feature](https://sharepoint.uservoice.com).
+Once you're using SharePoint, get the [OneDrive sync app](https://onedrive.live.com/about/download) and the [mobile app](https://products.office.com/sharepoint/mobile-app). You can also [suggest a feature](https://sharepoint.uservoice.com).
 
 ## Migration
 
@@ -40,8 +40,8 @@ If you have files on-premises that you need to move to SharePoint in Microsoft 3
 
 | If you're looking for this information: | Go to this resource: |
 |:-----|:-----|
-|How to migrate content from file shares, SharePoint Server, or other cloud providers to OneDrive in Microsoft 365|[Migrate content to OneDrive](/sharepointmigration/migrating-content-to-onedrive-for-business)<br><br>[How to migrate from on-premises file shares to Microsoft 365](/sharepointmigration/mover-fileshare-to-o365)<br><br>[The SharePoint Migration Tool](/sharepointmigration/introducing-the-sharepoint-migration-tool)|
-|How to use connect your existing on-premises SharePoint sites to SharePoint in Microsoft 365|[Hybrid for SharePoint Server](../SharePointServer/hybrid/hybrid.md)|
+|How to migrate content from file shares, SharePoint Server, or other cloud providers to OneDrive in Microsoft 365|[Migrate content to OneDrive](/sharepointmigration/migrating-content-to-onedrive-for-business)<br><br>[How to migrate from on-premises file shares to Microsoft 365](/sharepointmigration/mm-get-started)<br><br>[The SharePoint Migration Tool](/sharepointmigration/introducing-the-sharepoint-migration-tool)|
+|How to connect your existing on-premises SharePoint sites to SharePoint in Microsoft 365|[Hybrid for SharePoint Server](../SharePointServer/hybrid/hybrid.md)|
 
 ## Governance
 
@@ -68,9 +68,10 @@ SharePoint provides a rich collaboration environment where people inside and out
 
 | If you're looking for this information: | Go to this resource: |
 |:-----|:-----|
-|Learn about file collaboration and how to plan your implementation|[File collaboration in SharePoint with Microsoft 365](./deploy-file-collaboration.md)|
-|Learn about collaborating with people outside your organization|[External sharing overview](./external-sharing-overview.md)<br><br>[Collaborate with guests](/Office365/Enterprise/collaborating-with-people-outside-your-organization)|
-|Use the security and compliance features in Microsoft 365 to help secure your guest sharing environment|[Create a secure guest sharing environment](/Office365/Enterprise/create-a-secure-guest-sharing-environment)|
+|Learn about secure collaboration in Microsoft 365|[Set up secure collaboration with Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams)|
+|Learn about file collaboration and how to plan your implementation|[Intro to file collaboration in Microsoft 365](intro-to-file-collaboration.md)<br><br>[File collaboration in SharePoint with Microsoft 365](deploy-file-collaboration.md)|
+|Learn about collaborating with people outside your organization|[External sharing overview](external-sharing-overview.md)<br><br>[Collaborate with guests](/microsoft-365/solutions/collaborate-with-people-outside-your-organization)|
+|Use the security and compliance features in Microsoft 365 to help secure your guest sharing environment|[Create a secure guest sharing environment](/microsoft-365/solutions/create-secure-guest-sharing-environment)|
 
 ## Modern intranet
 

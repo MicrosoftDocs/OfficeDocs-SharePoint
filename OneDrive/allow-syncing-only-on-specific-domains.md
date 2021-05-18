@@ -29,15 +29,21 @@ To make sure that users sync OneDrive files only on managed computers, you can c
  
 > [!NOTE]
 > These settings apply to SharePoint sites as well as OneDrive.
+> In a multi-geo environment, this setting can be configured separately for each geo location to apply to users with that preferred data location.
 
-1. Sign in to the [OneDrive admin center](https://admin.onedrive.com) as a global or SharePoint admin, and select **Sync** in the left pane.
-    
-    ![The Sync page of the OneDrive admin center](media/blocksyncdomain.png)
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+ 
+   > [!NOTE]
+   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. 
+   > 
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
+
+2. Select **Sync**.
+
+    ![Sync settings in the SharePoint admin center](media/sp-sync-settings.png)
   
-2. Select the **Allow syncing only on PCs joined to specific domains** check box.
-    
-3. Click **Add domains**.
-    
+3. Select the **Allow syncing only on computers joined to specific domains** check box.
+
 4. Add the [GUID of each domain](/powershell/module/activedirectory/get-addomain) for the member computers that you want to be able to sync.
  
    > [!NOTE]
@@ -45,9 +51,7 @@ To make sure that users sync OneDrive files only on managed computers, you can c
 
    > [!IMPORTANT]
    > This setting is only applicable to Active Directory domains. It does not apply to Azure AD domains. If you have devices which are only Azure AD joined, consider using a [Conditional Access Policy](/azure/active-directory/conditional-access/overview) instead.
-   
-5. If you want to prevent Mac users from syncing entirely, select the **Block sync on Mac OS** check box.
     
-6. Click **Save** on the Sync page.
+7. Select **Save**.
     
 For info about setting this sync app restriction by using PowerShell, see [Set-SPOTenantSyncClientRestriction](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction).

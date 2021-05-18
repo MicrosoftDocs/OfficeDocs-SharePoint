@@ -16,12 +16,13 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 - m365initiative-migratetom365
+- m365solution-scenario
 ms.custom:
 - seo-marvel-apr2020
 description: "Overview of the SharePoint Migration Tool and resources for download and support."
 ---
 
-# Download and install the SharePoint Migration Tool
+# Overview of the SharePoint Migration Tool (SPMT)
 
 You can use the SharePoint Migration Tool (SPMT) for migrations ranging from a small set of files to enterprise scale. It enables you to move your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions in Microsoft 365.
 
@@ -40,7 +41,7 @@ SPMT supports migration to SharePoint and OneDrive from:
 ## Current and pre-release versions
 
 Use one of the following links to download SPMT:
-- [Public preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
+- [Public preview](https://spmt.sharepointonline.com/betainstall/default.htm)
 - [First release](https://aka.ms/spmt-ga-page)
 - [General availability](https://aka.ms/spmt-ga-page)
 

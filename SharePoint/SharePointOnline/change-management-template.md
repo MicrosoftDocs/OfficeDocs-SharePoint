@@ -17,18 +17,20 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Provision and customize the Workplace transformation site"
 ---
 
 # Overview of the Workplace transformation site 
 
-Help your organization drive and manage change by using the Workplace transformation site template in SharePoint. The site template helps organizations to successfully manage the people side of their organization change management initiatives to ensure all impacted employees are informed, have support, and know where they can learn more about upcoming changes. The Workplace transformation site template is designed help people in your organization understand and engage in the change management process by providing a landing place using a SharePoint communication site in combination with Microsoft Lists to help users see the big picture. The site design is based on change management research that is focused on helping organizations successfully adopt and sustain change. 
+Help your organization drive and manage change by using the Workplace transformation site template in SharePoint. The site template helps organizations to successfully manage the people side of their organization change management initiatives to ensure all impacted employees are informed, have support, and know where they can learn more about upcoming changes. 
+<br>
+<br>
+The Workplace transformation site template is designed help people in your organization understand and engage in the change management process by providing a landing place using a SharePoint communication site in combination with Microsoft Lists to help users see the big picture. The site design is based on change management research that is focused on helping organizations successfully adopt and sustain change. 
 
    ![Image of the Workplace transformation site landing page](media/hybrid-home.png)
 
 
-The Workplace transformation site template helps organizations:
+**The Workplace transformation site template helps organizations:**
 
 - Inspire employees on the new possibilities’ your change management project offers
 - Provide employees with the information, resources, and support they will need to successfully adopt new ways of working
@@ -64,7 +66,7 @@ The Workplace transformation site can be used to drive any topic or scope of org
 
 **Phases of change management:**
 
-   ![Image of the Workplace transformation site design model](media/hybrid-model.png)
+   ![Image of the Workplace transformation site design model](media/change-management-model.png)
 
 **1. Awareness and commitment –** Start communicating details about upcoming changes with users and provide various support channels and opportunities to engage through events and [Yammer community chats](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6).
 <br>
@@ -127,7 +129,7 @@ The workplace transformation site is full of pre-populated content, web parts, n
 ### Considerations for M365 Learning Pathways
 [Microsoft 365 learning pathways](/office365/customlearning/) is a customizable, on-demand learning solution that displays playlists using the M365 Learning pathways web part right onto SharePoint pages. Consider using the M365 Learning pathways solution in combination with the workplace transformation site to embed training playlists on SharePoint pages. 
 
-Learn more about [how to provision the M365 Learning pathways solution for the first time](/office365/customlearning/custom_provision), how to [find Microsoft-maintained content packs](/office365/customlearning/custom_plancontent), and [how to custom learning pathways and playlists](/office365/customlearning/custom_overview). 
+Learn more about [how to provision the Microsoft 365 learning pathways solution for the first time](/office365/customlearning/custom_provision), how to [find Microsoft-maintained content packs](/office365/customlearning/custom_plancontent), and [how to custom learning pathways and playlists](/office365/customlearning/custom_overview). 
 
 
 ## Step 1: Provision the Workplace transformation site template
@@ -165,7 +167,7 @@ The workplace transformation site is full of pre-populated content, web parts, n
 
    ![Image of the Workplace transformation site navigation](media/hybrid-nav.png)
 
-The workplace transformation site features pre-populated content that helps organizations transition to a hybrid workplace. However, the workplace transformation site can be customized for any change management project. [Learn more about the workplace transformation site features and contents](https://review.docs.microsoft.com/SharePoint/change-management-template?branch=change-management#pre-populated-content-focuses-on-the-hybrid-workplace). 
+The workplace transformation site features pre-populated content that helps organizations transition to a hybrid workplace. However, the workplace transformation site can be customized for any change management project. [Learn more about the workplace transformation site features and contents](#pre-populated-content-focuses-on-the-hybrid-workplace). 
 
 ### Customize web parts and content
 Learn how to customize web parts and content that will appear on certain pages or throughout the site.
@@ -218,7 +220,7 @@ The Workplace transformation site contains a [Microsoft List](https://support.mi
 
 [Learn more about M365 lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US).
 
-#### Use M365 Learning pathways to embed training content on a page
+#### Use Microsoft 365 learning pathways to embed training content on a page
 If your tenant admin has set up [M365 Learning pathways](/office365/customlearning/custom_plancontent), you can [add pages to the site](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec) and use the [Learning pathways web part](/office365/customlearning/custom_addwebpart) to display custom training playlists. Then, use [Learning pathways reporting capabilities](/office365/customlearning/custom_measureimpact) to measure content impact.
 <br>
 

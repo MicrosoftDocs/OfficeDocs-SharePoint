@@ -2,41 +2,65 @@
 
 
 
-## Week of March 15, 2021
+## Week of May 10, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 3/15/2021 | [Intelligent intranet overview](../../SharePointOnline/intelligent-internet-overview.md) | modified |
-| 3/15/2021 | [Intelligent intranet roadmap](../../SharePointOnline/intranet-overview.md) | modified |
-| 3/15/2021 | [Network location-based access to SharePoint and OneDrive](../../SharePointOnline/control-access-based-on-network-location.md) | modified |
-| 3/15/2021 | [Create a site](../../SharePointOnline/create-site-collection.md) | modified |
-| 3/15/2021 | [Default SharePoint groups](../../SharePointOnline/default-sharepoint-groups.md) | modified |
-| 3/15/2021 | [Export and import customized search configuration settings](../../SharePointOnline/export-and-import-search-settings.md) | modified |
-| 3/15/2021 | [Set up a home site for your organization](../../SharePointOnline/home-site.md) | modified |
-| 3/15/2021 | [Introduction to SharePoint information architecture](../../SharePointOnline/information-architecture-modern-experience.md) | modified |
-| 3/15/2021 | [Information architecture principles in SharePoint](../../SharePointOnline/information-architecture-principles.md) | modified |
-| 3/15/2021 | [Plan and implement SharePoint site navigation](../../SharePointOnline/plan-navigation-modern-experience.md) | modified |
-| 3/15/2021 | [Overview of the Microsoft New Employee Onboarding sites](../../SharePointOnline/provision-neo-hub.md) | modified |
-| 3/15/2021 | [Use the new SharePoint app bar and set up global navigation](../../SharePointOnline/sharepoint-app-bar.md) | modified |
-| 3/15/2021 | [Add Viva Connections for Microsoft Teams desktop](../../SharePointOnline/viva-connections.md) | modified |
-| 3/15/2021 | [Plan document versioning, content approval, and check-out controls in SharePointServer](../../SharePointServer/governance/versioning-content-approval-and-check-out-planning.md) | modified |
-| 3/17/2021 | [Install or uninstall language packs for SharePoint Servers 2016 and 2019](../../SharePointServer/install/install-or-uninstall-language-packs-0.md) | modified |
-| 3/17/2021 | [Difference between classic & modern search experiences - SharePoint](../../SharePointOnline/differences-classic-modern-search.md) | modified |
-| 3/18/2021 | [Manage the search schema in SharePoint](../../SharePointOnline/manage-search-schema.md) | modified |
-| 3/18/2021 | [Search limits for SharePoint](../../SharePointOnline/search-limits.md) | modified |
-| 3/18/2021 | [View search usage reports](../../SharePointOnline/view-search-usage-reports.md) | modified |
-| 3/18/2021 | [Hardware and software requirements for SharePoint 2013](../../SharePointServer/install/hardware-and-software-requirements-0.md) | modified |
-| 3/18/2021 | [Default crawled file name extensions and parsed file types in SharePoint Server](../../SharePointServer/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types.md) | modified |
+| 5/11/2021 | [Use the new SharePoint app bar and set up global navigation](/SharePoint/sharepoint-app-bar) | modified |
+| 5/12/2021 | [Manage security groups](/SharePoint/manage-security-groups) | modified |
+| 5/12/2021 | [Add the Workplace transformation site](/SharePoint/change-management-template) | modified |
+| 5/14/2021 | [Create an organization assets library](/SharePoint/organization-assets-library) | modified |
+| 5/14/2021 | [Prepare your SharePoint environment for the retirement of Internet Explorer 11 for Microsoft 365 apps and services](/SharePoint/prepare-ie11) | modified |
 
 
-## Week of February 15, 2021
+## Week of May 03, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 2/16/2021 | [Use the new SharePoint app bar and set up global navigation](../../SharePointOnline/sharepoint-app-bar.md) | modified |
-| 2/17/2021 | [Mark new files as sensitive by default](../../SharePointOnline/sensitive-by-default.md) | modified |
-| 2/17/2021 | [Account permissions and security settings in SharePoint Servers](../../SharePointServer/install/account-permissions-and-security-settings-in-sharepoint-server-2016.md) | modified |
-| 2/17/2021 | [Plan for least-privileged administration in SharePoint Server](../../SharePointServer/security-for-sharepoint-server/plan-for-least-privileged-administration.md) | modified |
-| 2/17/2021 | [Intelligent intranet overview](../../SharePointOnline/intelligent-internet-overview.md) | modified |
+| 5/3/2021 | [Use the new SharePoint app bar and set up global navigation](/SharePoint/sharepoint-app-bar) | modified |
+| 5/4/2021 | [Preparing for the retirement of Internet Explorer 11](/SharePoint/prepare-ie11) | modified |
+| 5/6/2021 | [Azure AD B2B integration for SharePoint & OneDrive](/SharePoint/sharepoint-azureb2b-integration) | modified |
+| 5/7/2021 | [Set up a home site for your organization](/SharePoint/home-site) | modified |
+| 5/7/2021 | [Use the new SharePoint app bar and set up global navigation](/SharePoint/sharepoint-app-bar) | modified |
+| 5/7/2021 | [Add Viva Connections for Microsoft Teams desktop](/SharePoint/viva-connections) | modified |
+
+
+## Week of April 26, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/26/2021 | [Preparing for the retirement of Internet Explorer 11](/SharePoint/prepare-ie11) | added |
+| 4/26/2021 | [What's new in the SharePoint admin center](/SharePoint/what-s-new-in-admin-center) | modified |
+| 4/27/2021 | [Preparing for the retirement of Internet Explorer 11](/SharePoint/prepare-ie11) | modified |
+| 4/28/2021 | [Azure AD B2B integration for SharePoint & OneDrive](/SharePoint/sharepoint-azureb2b-integration) | renamed |
+| 4/28/2021 | [External sharing overview](/SharePoint/external-sharing-overview) | modified |
+| 4/28/2021 | [Sharing & permissions in the SharePoint modern experience](/SharePoint/modern-experience-sharing-permissions) | modified |
+| 4/28/2021 | [Domain restrictions when sharing SharePoint & OneDrive content](/SharePoint/restricted-domains-sharing) | modified |
+| 4/28/2021 | [Use the new SharePoint app bar and set up global navigation](/SharePoint/sharepoint-app-bar) | modified |
+| 4/28/2021 | [Secure external sharing in SharePoint](/SharePoint/what-s-new-in-sharing-in-targeted-release) | modified |
+| 4/29/2021 | [Add Viva Connections for Microsoft Teams desktop](/SharePoint/viva-connections) | modified |
+| 4/30/2021 | [SharePoint governance overview](/SharePoint/governance-overview) | modified |
+
+
+## Week of April 19, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/20/2021 | [Plan & deploy a file collaboration environment - SharePoint](/SharePoint/deploy-file-collaboration) | modified |
+| 4/22/2021 | [Overview of the Microsoft New Employee Onboarding sites](/SharePoint/provision-neo-hub) | modified |
+
+
+## Week of April 12, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/12/2021 | [Add Viva Connections for Microsoft Teams desktop](/SharePoint/viva-connections) | modified |
+| 4/12/2021 | [Use information barriers with SharePoint](/SharePoint/information-barriers) | modified |
+| 4/12/2021 | [Allow or prevent custom script](/SharePoint/allow-or-prevent-custom-script) | modified |
+| 4/12/2021 | [Create an organization assets library](/SharePoint/organization-assets-library) | modified |
+| 4/14/2021 | [Use the new SharePoint app bar and set up global navigation](/SharePoint/sharepoint-app-bar) | modified |

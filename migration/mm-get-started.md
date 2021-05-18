@@ -14,7 +14,8 @@ localization_priority: Priority
 ms.collection: 
 - M365-collaboration
 - SPMigration
-- m365initiative-migratetom365
+- m365solution-migratetom365
+- m365solution-scenario
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
@@ -23,12 +24,9 @@ description: "Learn about how the Migration Manager tool in the modern SharePoin
 
 # Overview:  Migrate your file shares to Microsoft 365 with Migration Manager
 
->[!NOTE]
->Migration Manager currently supports only the migration of **file shares**.  This release does not support the migration of content from SharePoint Server.
-
 Migrating your on-premises file share content to Microsoft 365 lets you collaborate with innovative Office apps, intelligent cloud services, and world-class security.  Migration Manager helps you get there.
 
-With the ability to set up multiple computers as "agents", Migration MAnager lets you scale your migration project as much as you need. Located in the modern SharePoint Admin Center, Migration Manager guides you through the setup of your agents and the creation of your tasks. You can specify global or task level settings, view all-up task progress, and download aggregated summary and task-level reports.
+With the ability to set up multiple computers as "agents", Migration Manager lets you scale your migration project as much as you need. Located in the modern SharePoint Admin Center, Migration Manager guides you through the setup of your agents and the creation of your tasks. You can specify global or task level settings, view all-up task progress, and download aggregated summary and task-level reports.
 
 ## How does it work?
 
@@ -37,7 +35,7 @@ With the ability to set up multiple computers as "agents", Migration MAnager let
 
 - **Setup migration agents.** Download and install a setup file on each computer or virtual machine you want to connect to Migration Manager.
 
-- **Create tasks & migrate.** Create a task by entering the URL of the network file share that you want to migrate (your source) and the URL of the SharePoint site where you are migrating your content (your destination). Migration Manager does the rest. However many tasks you create, Migration Manager will automatically distribute the tasks across all the connected agents.
+- **Create tasks & migrate.** Create a task by entering the URL of the network file share that you want to migrate (your source) and the URL of the SharePoint site where you are migrating your content (your destination). Your tasks will be automatically assigned to the next available agent.
 
 - **Monitor and report.** Monitor progress across all agents and access reports from one central location. 
 

@@ -24,7 +24,7 @@ description: "In this article, you'll learn about the available options for shar
 
 # Sharing and permissions in the SharePoint modern experience
 
-Traditionally, SharePoint permissions have been managed through a set of permissions groups within a site (Owners, Members, Visitors, etc.). In SharePoint in Microsoft 365, this remains true for some types of sites, but additional options are available.
+Traditionally, SharePoint permissions have been managed through a set of permissions groups within a site (Owners, Members, Visitors, etc.). In SharePoint in Microsoft 365, this remains true for some types of sites, but additional options are available and SharePoint is part of a much broader set of capabilities for [secure collaboration with Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
 
 The three main types of sites in SharePoint are:
 
@@ -112,7 +112,7 @@ Azure AD B2B provides authentication and management of guests. Authentication ha
 
 With SharePoint and OneDrive integration, the Azure B2B one-time passcode feature is used for external sharing of files, folders, list items, document libraries and sites.
 
-With Azure B2B integration, all guests are added to the directory and can be managed using Microsoft 365 security and compliance tools. We encourage you to try the [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration-preview.md).
+With Azure B2B integration, all guests are added to the directory and can be managed using Microsoft 365 security and compliance tools. We encourage you to try the [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md).
 
 ## See also
 

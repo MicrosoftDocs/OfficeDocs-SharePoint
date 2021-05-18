@@ -1,13 +1,12 @@
 ---
-title: "Turn on external sharing notifications for OneDrive"
-ms.reviewer: 
+title: "Control notifications"
+ms.reviewer: shahna
 ms.author: kaarins
 author: kaarins
 manager: serdars
-ms.date: 06/21/2018
 audience: Admin
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
@@ -22,35 +21,33 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: b640c693-f170-4227-b8c1-b0a7e0fa876b
-description: "Make sure OneDrive owners in your organization are emailed when their files and folders are shared externally."
+description: "Allow users to receive notifications about file activity in OneDrive and SharePoint."
 ---
 
-# Turn on external sharing notifications for OneDrive
+# Control notifications
 
-To help your OneDrive users monitor and control which external users have access to their files, make sure external sharing notifications are turned on. File and folder owners will be emailed when:
-  
-- Another user invites external users to shared files
-- An external user accepts an invitation to access their files
+By default, users can receive notifications about file activity in OneDrive and SharePoint. These notifications can appear across apps and devices. For example, the service can send notifications through the Firebase Cloud Messaging service to the Office mobile app for Android or the Apple Push Notification service to the Office mobile app for iOS. It can also send notifications to the OneDrive sync app for Windows or Mac. As a global or SharePoint admin in Microsoft 365, you can turn off these notifications for all users for compliance purposes. If you allow these notifications, users can select to turn them off app by app where they don't want them.
 
-If external sharing is enabled in your organization, these notifications are enabled by default.
-  
 > [!NOTE]
-> Admins can use [Search the audit log in the Microsoft 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance) to monitor content that is shared externally.
+> Currently, the service sends notifications to users when files are shared with them. Later, it will send notifications when people @mention the user in a comment. Other notifications might be added in the future. <br> Notifications aren't available for the US government environments, Office 365 Germany, or Office 365 operated by 21Vianet (China).
   
-## Turn on external sharing notifications
+## Allow or block notifications
 
-1. Sign in to the [OneDrive admin center](https://admin.onedrive.com) as a global or SharePoint admin, and select **Notifications** in the left pane. 
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
     
-    ![The Notifications page of the OneDrive admin center](media/1ac4d2c3-e8b8-45f1-a638-a4c7e72d3a1d.png)
+2. Select the **Notifications** setting for OneDrive.
   
-2. Under **Email OneDrive owners when**, make sure the following check boxes are selected: 
-    
-  - **Other users invite additional users to shared files**
-    
-  - **External users accept invitations to access files**
-    
-    > [!NOTE]
-    > This setting no longer works for the new sharing experience that appears in most places. This setting will be removed. 
+3. Select or clear **Allow notifications**.
   
+This setting is the same as the setting on the Notifications page of the OneDrive admin center called "Display device notifications to users when OneDrive files are shared with them". You can also control this setting in PowerShell by using [Set-SPOTenant -NotificationsInOneDriveForBusinessEnabled](/powershell/module/sharepoint-online/set-spotenant).
 
+The Notifications page of the OneDrive admin center includes three other settings under "Email OneDrive owners when":
 
+- Other users invite additional external users to shared files. You can also control this by using [Set-SPOTenant -NotifyOwnersWhenItemsReshared](/powershell/module/sharepoint-online/set-spotenant). 
+- External users accept invitations to access files. (This setting no longer works for the new sharing experience that appears in most places.)
+- An anonymous access link is created or changed. You can also control this by using [Set-SPOTenant -OwnerAnonymousNotification](/powershell/module/sharepoint-online/set-spotenant).
+
+## See also
+
+For info about controlling SharePoint notifications, see [Control notifications](/sharepoint/notifications).
+To control whether sharing emails include "At a glance" content, see [Set-SPOTenant -IncludeAtAGlanceInShareEmails](/powershell/module/sharepoint-online/set-spotenant).

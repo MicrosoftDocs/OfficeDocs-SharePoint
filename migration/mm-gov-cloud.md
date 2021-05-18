@@ -20,6 +20,10 @@ description: "Explanation of Government Cloud configuration settings when using 
 
 If your tenant resides in a government cloud, you may have additional steps to perform before using Migration Manager.
 
+- [Configuration values](#configuration-values)
+- [GCC High and DoD customers](#gcc-high-and-dod-customers)
+- [Endpoints for Goverment](#endpoints-for-government)
+
 
 ## Configuration values
 
@@ -52,4 +56,13 @@ If your are either a **GCC high** or **DoD** customer, you need to make a change
 5. On the Welcome page, click **Next**. Follow the prompts to enter your SharePoint admin username and password to your GCC High or DoD account.
 6. Enter your Windows credentials that will provide access to **all** the file shares that contain the content you want to migrate. Select **Install**.
 7. Test agent access (optional) or click **Close**.
-</br></br>
+</br>
+
+## Endpoints for Government
+
+For the complete list of all required endpoints:  [Prerequisites & Endpoints for Migration Manager](mm-prerequisites.md)
+
+|Government endpoints|For|
+|:-----|:-----|
+|https://<spam><spam>*.blob.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
+|https://<spam><spam>*.queue.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|

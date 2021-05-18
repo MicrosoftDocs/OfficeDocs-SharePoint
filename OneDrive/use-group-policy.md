@@ -237,7 +237,12 @@ Enabling this policy sets the following registry key value to 1:
 
 This setting lets you enter keywords to prevent the OneDrive sync app (OneDrive.exe) from uploading certain files to OneDrive or SharePoint. You can enter complete names, such as "setup.exe" or use the asterisk (*) as a wildcard character to represent a series of characters, such as *.pst. Keywords aren't case-sensitive. 
 
-If you enable this setting, the sync app doesn't upload new files that match the keywords you specified. No errors appear for the skipped files, and the files remain in the local OneDrive folder. In File Explorer, the files appear with an "Excluded from sync" icon in the Status column. The OneDrive sync app must be restarted after this setting is enabled for the setting to take effect.
+If you enable this setting, the sync app doesn't upload new files that match the keywords you specified. No errors appear for the skipped files, and the files remain in the local OneDrive folder. 
+
+> [!NOTE]
+> This setting will only block files that match your specification. It will not apply to existing files that are renamed to match the specified keywords. Additionally, new files that are created inside the synced folder and named to match the specified keywords will also not be blocked.
+
+In File Explorer, the files appear with an "Excluded from sync" icon in the Status column. The OneDrive sync app must be restarted after this setting is enabled for the setting to take effect.
 
 ![The "Excluded from sync" icon in File Explorer](media/excluded-from-sync.png)
 
@@ -323,14 +328,17 @@ This setting prevents users from moving their Documents, Pictures, and Desktop f
 > [!NOTE]
 > Moving known folders to personal OneDrive accounts is already blocked on domain-joined PCs.
   
-If you enable this setting, users aren't prompted with a window to protect their important folders, and the *Manage backup* command is disabled. If the user has already moved their known folders, the files in those folders remain in OneDrive. This setting does not take effect if you've enabled "Prompt users to move Windows known folders to OneDrive" or "Silently move Windows known folders to OneDrive."
+If you enable this setting, users aren't prompted with a window to protect their important folders, and the *Manage backup* command is disabled. If the user has already moved their known folders, the files in those folders will remain in OneDrive. To redirect the known folders back to the user's device, please select "No." This setting does not take effect if you've enabled "Prompt users to move Windows known folders to OneDrive" or "Silently move Windows known folders to OneDrive."
   
 If you disable or do not configure this setting, users can choose to move their known folders.
   
 Enabling this policy sets the following registry key value to 1:
   
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMBlockOptIn"="dword:00000001"`
-  
+
+To redirect the known folders back to the user's device and enable this policy, set the following registry key value to 2:
+
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMBlockOptIn"="dword:00000002"`
 
 ### Prevent users from redirecting their Windows known folders to their PC
 <a name="KFMBlockOptOut"> </a>
@@ -364,8 +372,9 @@ Restore B2B Sync with:
 <a name="KFMOptInWithWizard"> </a>
 
 This setting shows the following window that prompts users to move their Documents, Pictures, and Desktop folders to OneDrive.
-  
-![Window prompting users to backup important folders](media/kfm-wizard.png)
+
+> [!div class="mx-imgBorder"]
+> ![Window prompting users to backup important folders](media/kfm-wizard.png)
   
 If you enable this setting and provide your tenant ID, users who are syncing their OneDrive see the previous window when they're signed in. If they close the window, a reminder notification appears in the Activity Center until they move all their known folders. If a user has already redirected their known folders to a different OneDrive account, they are prompted to direct the folders to the account for your organization (leaving existing files behind).
   
