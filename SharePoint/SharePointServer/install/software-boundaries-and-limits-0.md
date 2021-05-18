@@ -213,7 +213,17 @@ External Data columns have the concept of a primary column and secondary columns
     
 - Hidden Id column: A multi-line text field.
     
-- Secondary columns: Each secondary column is a text/number/Boolean/multi-line text that is based on the data type of the secondary column as defined in the Business Data Catalog model. For example, ID might be mapped to a  *Number*  column; Name might be mapped to a  *Single line of text column*  ; Description might be mapped to a  *Multiple lines of text*  column. 
+- Secondary columns: Each secondary column is a text/number/Boolean/multi-line text that is based on the data type of the secondary column as defined in the Business Data Catalog model. For example, ID might be mapped to a  *Number*  column; Name might be mapped to a  *Single line of text column*  ; Description might be mapped to a  *Multiple lines of text*  column.
+
+>[!NOTE]
+>Lists with a large number of Lookup columns may result in complex and potentially intensive SQL statements. Sharepoint will verify the length of the full SQL statement and >display this error message in case that the maximum allowed length was exceeded:
+>
+>"The list item could not be added because the length of the fields was too long. Please shorten the new entries or remove some fields from this list."
+>
+>To address this issue please reduce the number of columns of the specific list.
+>
+>In addition to standard lookup columns, single-value managed metadata, multiple-value managed metadata, single-value people and group columns, and multiple-value people and group columns count as lookup columns. 
+>Each lookup column in a list view causes a join with another table. Each additional lookup column increases the complexity and inherently the size of the backend SQL query.
     
 #### Page limits
 <a name="Page"> </a>
