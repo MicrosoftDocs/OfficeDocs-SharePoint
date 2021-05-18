@@ -324,7 +324,8 @@ As a SharePoint site owner, you can view site usage data that shows you how user
 
 **Example of site usage data:**
 
-[ ![Image of SharePoint site analytics data](media/neositeusagereport.png) ](media/neositeusagereport.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [ ![Image of SharePoint site analytics data](media/neositeusagereport.png) ](media/neositeusagereport.png#lightbox)
 
 
 
