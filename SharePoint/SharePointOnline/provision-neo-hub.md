@@ -147,8 +147,8 @@ It’s important to make sure the right content is available to users at the rig
  
 1.	**New employee pre-Onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for pre-start hires who don't already have corporate credentials to give them access to the Pre-onboarding site only. 
 
-> [!IMPORTANT]
-> Enable external sharing for the Pre-onboarding site. The Pre-onboarding site is intended to be shared with new hires as soon as they sign their offer letter, but before they start their first day at work. Therefore, this site needs to be shared with external users. External sharing is off by default for SharePoint communication sites. In order for site owners to share externally, [turn on external sharing](./change-external-sharing-site.md?branch=hokavian-neo-sites) for the Pre-onboarding site.  
+    > [!IMPORTANT]
+    > Enable external sharing for the Pre-onboarding site. The Pre-onboarding site is intended to be shared with new hires as soon as they sign their offer letter, but before they start their first day at work. Therefore, this site needs to be shared with external users. External sharing is off by default for SharePoint communication sites. In order for site owners to share externally, [turn on external sharing](./change-external-sharing-site.md?branch=hokavian-neo-sites) for the Pre-onboarding site.  
 
 2.	**New employee corporate onboarding site:** A place for new hires to visit to get the information and connections they need to successfully onboard to the organization. 
 
