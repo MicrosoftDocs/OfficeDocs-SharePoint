@@ -24,7 +24,7 @@ description: Overview of migration from Box to Microsoft 365 using Migration Man
 
 #### Got a minute?
 
-![take our survey about your experience migratiungi](https://docs.microsoft.com/office/media/icons/sign-up-blue.png)  Please take our <a href="https://microsoft.qualtrics.com/jfe/form/SV_5BeuymEC0Dnkn30" target="_blank">short survey about migrating to Microsoft 365</a>. We'd love to hear from you!
+![take our survey about your experience migratiungi](https://microsoft.com/office/media/icons/sign-up-blue.png)  Please take our <a href="https://microsoft.qualtrics.com/jfe/form/SV_5BeuymEC0Dnkn30" target="_blank">short survey about migrating to Microsoft 365</a>. We'd love to hear from you!
 
 </br>
 
