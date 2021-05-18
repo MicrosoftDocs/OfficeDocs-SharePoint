@@ -54,7 +54,7 @@ Even if you don't plan to make internal custom apps available, you will not be a
   
 5. On the **Create App Catalog Site Collection** page, enter the required info, and then select **OK**.
 
-6. The app catalog site will begin the provisioning process. It may take a couple hours for it to appear.
+6. The App Catalog site will start the provisioning process. It may take a couple of hours for it to appear.
     
     ![Create App Catalog dialog](media/0ee3e6a9-b293-4de4-a648-782d8f2f717e.PNG)
   
