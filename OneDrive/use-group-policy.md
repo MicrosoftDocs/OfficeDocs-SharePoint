@@ -477,6 +477,18 @@ Enabling this policy sets the following registry keys:
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptIn"="1111-2222-3333-4444"`
   
 where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md).
+
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInDesktop"`
+  
+Setting this value to 1 will only move the Desktop folder.
+
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInDocuments"`
+  
+Setting this value to 1 will only move the Documents folder.
+
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInPictures"`
+  
+Setting this value to 1 will only move the Pictures folder.
   
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInWithNotification"`
   
