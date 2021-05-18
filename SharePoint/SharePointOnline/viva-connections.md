@@ -42,15 +42,24 @@ Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-vi
 
 > [!IMPORTANT]
 > - You need SharePoint admin permissions (or higher) to create the Viva Connections for Teams desktop app in PowerShell, and you need Teams admin permissions (or higher) to apply the app in the Teams Admin Center.
+> 
 > - Viva Connections for desktop is not yet supported in the Teams mobile app.
+> 
 > - Only modern SharePoint sites and pages can be viewed in Teams and all other content will open in a browser.
+> 
 > - [Global navigation in the SharePoint app bar](https://docs.microsoft.com/SharePoint/viva-connections) must be enabled in order for SharePoint resources to display in the Microsoft Teams app bar for Viva Connections.
+> 
 > - Global navigation menu links can be [audience targeted](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) so that specific content is surfaced to certain groups of people. Audience targeting settings in the SharePoint global navigation menu will carry over to global navigation in Teams.
+> 
 > - Search customizations applied to SharePoint sites will apply to search results in Teams when on the home site.
 > All SharePoint out-of-the-box site headers are compatible with Viva Connections desktop. However, if you modify your SharePoint site to remove, or significantly change the site header, then these contextual actions may not be available to the user. 
+> 
 > - Viva Connections was originally announced as the [Home site app](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/the-home-site-app-for-microsoft-teams/ba-p/1714255).
+> 
 > - Viva Connections for mobile will become available in Summer 2021 and will include enhancements to the overall configuration and deployment experience.
+> 
 > - The Viva Connections for desktop PowerShell script in the Microsoft download center will become available on March 31, 2021.
+> 
 > - The [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) is available now in the [Microsoft download center](https://www.microsoft.com/download/default.aspx).
 
 
@@ -64,8 +73,8 @@ Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-vi
 ## Prepare for Viva Connections
 The first version of Viva Connections can be provisioned through PowerShell and then will be [uploaded as an app in the Teams Admin Center](/microsoftteams/upload-custom-apps#upload). Download the [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888). Future versions of Viva Connections will be automatically available through the Teams Admin Center. Prepare your organization for Viva Connections now, or in the near future, by reviewing the following requirements and recommendations:
 
-
-   ![Image of global navigation icon in the Teams app bar](media/viva-landing-large.png)
+> [!div class="mx-imgBorder"]
+> ![Image of global navigation icon in the Teams app bar](media/viva-landing-large.png)
 
 #### Viva Connections requirements:
 
