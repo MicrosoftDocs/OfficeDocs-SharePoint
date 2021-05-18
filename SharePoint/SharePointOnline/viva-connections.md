@@ -102,7 +102,6 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
     
     - **URL of your tenant’s home site:** Provide the tenant's home site URL starting with "https://". This site will become the default landing experience for Viva Connections.
     - Provide the following details when requested:
-    <br>
     
        - **Name:** The name of your Viva Connections desktop package, as it should appear in Teams app bar.
        - **App short description (80 characters):** A short description for your app, which will appear in Teams app catalog.
@@ -134,7 +133,6 @@ Help end users understand [how to use Viva Connections](https://support.microsof
 ## FAQs
 
 **Q: Can any site be pinned as default landing experience in Teams?**
-<br>
 
 **A:** Modern SharePoint communication sites are eligible for pinning in Teams via Viva Connections. However, we **highly recommend** that you nominate a [home site in SharePoint](./home-site.md) and pin that as the default landing experience for your users in Teams.
 <br>
@@ -142,54 +140,45 @@ Help end users understand [how to use Viva Connections](https://support.microsof
 
 
 **Q: Can my classic SharePoint site be pinned in Teams?**
-<br>
 
 **A:** No, classic SharePoint sites are not supported in Microsoft Teams.
 <br>
 <br>
 
 **Q: Do I need Viva Connections for the global navigation to show up in Teams?**
-<br>
 
 **A:** Yes, the global navigation menu links are stored in the home site of a tenant, and is required in order for the navigation panel to appear in Viva Connections in Teams. Learn more about how to [enable and set up global navigation in the SharePoint app bar](./sharepoint-app-bar.md).
 <br>
 <br>
 
 **Q: What happens if I don’t configure global navigation links before setting up Viva Connections?**
-<br>
 
 **A:** The user will still be able to access followed sites and recommended news by selecting the global navigation icon in Teams but will not have direct access to intranet navigational items.
 <br>
 <br>
 
 **Q: What is the difference between using Viva Connections and adding a SharePoint page as a tab in Microsoft Teams?**
-<br>
 
 **A:** Viva Connections allows organizations to pin an organization-branded entry point to their intranet that creates an immersive experience, complete with navigation, megamenus, and support for tenant-wide search.  Viva Connections also provides quick access to organization curated resources, followed sites, and news like those provided by the SharePoint app. SharePoint pages can be [pinned as tabs in Teams](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b) channels provide ways to bring content directly into Team collaboration workspace, and these pages do not feature navigation and search elements.
 <br>
 <br>
 
 **Q: Is this the same feature that was announced in fall 2020 as the Home site app?**
-<br>
 
 **A:** Viva Connections was originally announced as the [Home site app](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/the-home-site-app-for-microsoft-teams/ba-p/1714255) but will be called Viva Connections moving forward.
 <br>
 <br>
 
 **Q: When will Viva Connections for mobile become available?**
-<br>
 
 **A:** Following on our spring release of the desktop experience for Viva Connections, we are rolling out an update that includes native mobile experiences for Teams on iOS and Android, enhancements to the overall IT configuration and deployment experience for the combined desktop and mobile app, as well as new Dashboard and Feed web parts for the desktop to complement the experience.
-<br>
 
 
 ## More resources
 
 [Set up a home site for your organization](./home-site.md)
-<br>
 
 [Enable and set up global navigation in the SharePoint app bar](./sharepoint-app-bar.md)
-<br>
 
 [Introduction to SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps)
 
