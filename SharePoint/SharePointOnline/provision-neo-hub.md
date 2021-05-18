@@ -45,9 +45,9 @@ Based on our research, 69% of employees are more likely to stay with a company f
 ### The NEO experience process:
 
 | Provide new employees a place to get started     | Connect new employees to people and culture     | Help stakeholders easily contribute to new employee onboarding  | Measure effectiveness of new employee onboarding
-| :------------------- | :------------------- |:----------------|
-| Sense of place       | Pre-onboarding       | Departmental and team onboarding |  Value realization
-| Onboarding journey   | Social connections and live events  | Easy to create and maintain compelling content experiences     | Example model for KPIs
+| :------------------- | :------------------- |:----------------|:----------------|
+| Sense of place       | Pre-onboarding       | Departmental and team onboarding |  Value realization |
+| Onboarding journey   | Social connections and live events  | Easy to create and maintain compelling content experiences     | Example model for KPIs |
 
 
 
@@ -77,7 +77,7 @@ Research has shown Pre-onboarding new hires, after they sign their acceptance le
 
 > [!NOTE]
 > To deliver a flexible and consistent new hire onboarding experience the NEO sites consists of **three different SharePoint site templates**, that are designed to work alone or as one cohesive and familiar experience for new hires. Sites must be provisioned individually, and then can be configured to [create a hub](./create-hub-site.md) or [add a site to an existing hub](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05#:~:text=Associate%20a%20SharePoint%20site%20with%20a%20hub%20site.,to%20your%20site.%20You%20can%20...%20More%20items).
-> You must have site collection administrator permissions or higher to provision the New employee on baording sites.
+> You must have site collection administrator permissions or higher to provision the New Employee Onboarding sites.
 
 
 ## Step 1: Provision NEO sites
@@ -103,7 +103,7 @@ To successfully provision the NEO sites via the SharePoint look book, the person
 3.	From the permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept**.
 
     > [!IMPORTANT]
-    > To deliverThe provisioning service requires these permissions to provision the site template. There is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
+    > The provisioning service requires these permissions to provision the site template. There is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
 
 4.	Complete the fields on the provisioning information page as appropriate for your installation. At a minimum, enter the email address where you wish to get notifications about the provisioning process and the URL prefix for your site to be provisioned to.
 
@@ -179,7 +179,7 @@ It’s important to make sure the right content is available to users at the rig
 - Review content in the [Department onboarding site](https://review.docs.microsoft.com/SharePoint/provision-neo-hub?branch=neo-overview#departmental-onboarding)
 
 > [!NOTE]
-> The NEO sites comes with many pre-built pages that can be identified in the site navigation with this symbol ">>." Determine which pages and content to keep, edit, or delete based on the needs of your organization. 
+> The NEO sites come with many pre-built pages that can be identified in the site navigation with this symbol ">>." Determine which pages and content to keep, edit, or delete based on the needs of your organization. 
 
 
 #### New employee pre-onboarding site:
@@ -289,7 +289,7 @@ As a site owner, you can give external people access to the site by adding them 
 
 
 1. Select **Share site** from the right-hand corner.
-2. In the Share site pane, enter the names of people to add them to the site. The permission level will be ready only.
+2. In the Share site pane, enter the names of people to add them to the site. The permission level will be read only.
 4. Enter an optional message to send to the person, or clear the Send email box if you don't want to send an email.
 5. Select **Share.**
 
@@ -357,19 +357,19 @@ NEO sites should present the most up-to-date content your organization has to of
 **Question**: Where can I ask questions or report an issue with the SharePoint provisioning service? 
 <br>
 
-**Answer**:Post your questions and comments about the provisioning of the NEO sites to the SharePoint [provisioning service forum](https://github.com/SharePoint/sp-provisioning-service/issues).
+**Answer**: Post your questions and comments about the provisioning of the NEO sites to the SharePoint [provisioning service forum](https://github.com/SharePoint/sp-provisioning-service/issues).
 
 **Question**: Where can I share feedback for ideas on how to improve the SharePoint site experience? 
 <br>
 
-**Answer**:Post your ideas and comments about SharePoint sites in the [Site and Collaboration User Voice Forum](https://sharepoint.uservoice.com/forums/329214-sites-and-collaboration)
+**Answer**: Post your ideas and comments about SharePoint sites in the [Site and Collaboration User Voice Forum](https://sharepoint.uservoice.com/forums/329214-sites-and-collaboration)
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
 **Question**: Where can I ask questions or report an issue with the SharePoint provisioning service? 
 <br>
 
-**Answer**:Post your questions and comments about the provisioning of the NEO sites to the SharePoint [provisioning service forum](https://sharepoint.uservoice.com/forums/329214-sites-and-collaboration?category_id=144408).
+**Answer**: Post your questions and comments about the provisioning of the NEO sites to the SharePoint [provisioning service forum](https://sharepoint.uservoice.com/forums/329214-sites-and-collaboration?category_id=144408).
 
 **Sources**:
 
