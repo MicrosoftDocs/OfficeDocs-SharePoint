@@ -64,7 +64,7 @@ Make sure you've rebooted and tested your WFEs before you take either out of the
 > [!IMPORTANT]
 > Running in side-by-side ensures that all the web front ends in the farm serve the same static content during the upgrade, even if static files on a given WFE are being upgraded or replaced. Side-by-side is built into PSCONFIG but must be enabled. This feature makes sure users have the same experience of the sites when browsing SharePoint and working on their files, even while file-system files are being changed and updated.
 >
-> To enable the side-by-side functionality, execute the following PowerShell script once by using the URL for one of the content web-applications:
+> To enable the side-by-side functionality, execute the following PowerShell script once by using the URL for one of the content web applications:
 >
 > `$webapp = Get-SPWebApplication <webappURL>`  
 > `$webapp.WebService.EnableSideBySide = $true`  
