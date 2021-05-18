@@ -69,7 +69,6 @@ Research has shown Pre-onboarding new hires, after they sign their acceptance le
 | ![Image of the pre-onboarding site](media/neo-preonboarding-thumb.png)| ![Image of the corporate onboarding site](media/neo-corp-onboarding-thumb.png)| ![Image of the department onboarding site](media/neo-department-onboarding-thumb.png)|
 | Share the Pre-onboarding site with new hires as soon as the job offer has been accepted | Share the Corporate onboarding site with new hires on their first day| Managers and onboarding buddies should share their respective Departmental onboarding site |
 
-<br>
 
 1.	**New employee pre-onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for providing pre-start hires, with no corporate credentials, access to the Pre-onboarding site only. 
 2.	**New employee corporate onboarding site:** A place for new hires to visit to get the information and connections they need to successfully onboard to the organization. 
@@ -344,31 +343,26 @@ NEO sites should present the most up-to-date content your organization has to of
 ## NEO site FAQs
 
 **Question**: What are the requirements for installing the New Employee Onboarding (NEO) sites into my tenant environment?
-<br>
 
 **Answer**:
 - SharePoint and communication sites enabled.
 - The individual that will be provisioning CLO365 must be the site collection administrator of the target tenant for install.
 
 **Question**: How long will it take to install the site in our tenant environment?
-<br>
 
 **Answer**: Based on our testing of the installation, it should take less than 15 minutes. This does not include time required to customize the site to your requirements.
 
 **Question**: Where can I ask questions or report an issue with the SharePoint provisioning service? 
-<br>
 
 **Answer**: Post your questions and comments about the provisioning of the NEO sites to the SharePoint [provisioning service forum](https://github.com/SharePoint/sp-provisioning-service/issues).
 
 **Question**: Where can I share feedback for ideas on how to improve the SharePoint site experience? 
-<br>
 
 **Answer**: Post your ideas and comments about SharePoint sites in the [Site and Collaboration User Voice Forum](https://sharepoint.uservoice.com/forums/329214-sites-and-collaboration)
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
 **Question**: Where can I ask questions or report an issue with the SharePoint provisioning service? 
-<br>
 
 **Answer**: Post your questions and comments about the provisioning of the NEO sites to the SharePoint [provisioning service forum](https://sharepoint.uservoice.com/forums/329214-sites-and-collaboration?category_id=144408).
 
