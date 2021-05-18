@@ -70,7 +70,7 @@ Make sure you've rebooted and tested your WFEs before you take either out of the
 > `$webapp.WebService.EnableSideBySide = $true`  
 > `$webapp.WebService.update()`
 >
-> As of [KB3178672](https://support.microsoft.com/help/3178672) (March 2017 update) for SharePoint Server 2016 and above, PSCONFIG will automatically copy all .js, .css and .htm files within the `16-HIVE\TEMPLATE\LAYOUTS` folder to the `16-HIVE\TEMPLATE\LAYOUTS\<NEW BUILD NUMBER>` folder, required to be able to switch to the new user interface files and complete the side-by-side process as outlined in 'Phase 2 - PSCONFIG upgrade - 4.' further below.
+> As of [KB3178672](https://support.microsoft.com/help/3178672) (March 2017 update) for SharePoint Server 2016 and above, PSCONFIG will automatically copy all .js, .css, and .htm files within the `16-HIVE\TEMPLATE\LAYOUTS` folder to the `16-HIVE\TEMPLATE\LAYOUTS\<NEW BUILD NUMBER>` folder, required to be able to switch to the new user interface files and complete the side-by-side process as outlined later in this topic in **Phase 2 - PSCONFIG upgrade (4)**.
 > 
   
 ### Phase 1 - Patch install
