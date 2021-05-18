@@ -99,9 +99,9 @@ To successfully provision the NEO sites via the SharePoint look book, the person
 
 1.	Go to the [NEO sites solution page](https://provisioning.sharepointpnp.com/details/3df8bd55-b872-4c9d-88e3-6b2f05344239).
 
-  - Provision the New employee pre-onboarding site 
-  - Provision the New employee corporate onboarding site 
-  - Provision the New employee department onboarding site 
+    - Provision the New employee pre-onboarding site 
+    - Provision the New employee corporate onboarding site 
+    - Provision the New employee department onboarding site 
   
 2.	Navigate to the site you want to provision and select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your site collection admin credentials.
 
