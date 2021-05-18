@@ -54,9 +54,13 @@ Based on our research, 69% of employees are more likely to stay with a company f
 ### NEO site template features:
 
 - **A fully configured and customizable set of new hire sites built on SharePoint communication sites:** NEO sites include: the site, information architecture, design, and pre-populated content and web parts. There are three NEO sites available that must be provisioned separately and can be customized or added to your organization’s new hire content. 
+
 - **Onboarding journey:** Onboarding can be an overwhelming experience for new hires with everything the new hire is typically expected to do and learn in a short period of time. Avoid overwhelming your new employees by providing them a curated onboarding journey that paces the new hire through a configurable activity list of administrative, technology, culture, training, and connection-related to-do’s. The onboarding journey comes with a pre-configured list of new employee onboarding activities for you to customize for your processes. 
+
 - **Sample site pages:** To inspire and provide design templates for arranging your content, the NEO site includes sample inner site pages. Use these site pages as templates for your content. 
+
 - **Easy provisioning:** Provision NEO sites from the SharePoint look book with just a few steps.
+
 - **Mobile ready:** NEO sites can be easily accessed on a mobile device when you [get the SharePoint mobile app](https://www.microsoft.com/microsoft-365/sharepoint/mobile-app?wt.mc_id=AID686708_QSG_228389&ocid=AID686708_QSG_228389&rtc=1).
 
 ### NEO site template options: 
@@ -71,7 +75,9 @@ Research has shown Pre-onboarding new hires, after they sign their acceptance le
 
 
 1.	**New employee pre-onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for providing pre-start hires, with no corporate credentials, access to the Pre-onboarding site only. 
+
 2.	**New employee corporate onboarding site:** A place for new hires to visit to get the information and connections they need to successfully onboard to the organization. 
+
 3.	**New employee departmental onboarding site:** A place for new hires to visit to learn more about the department they are joining, its people, culture, and priorities. The Departmental onboarding site can be associated to an existing departmental hub.
 
 > [!NOTE]
@@ -208,11 +214,17 @@ The corporate onboarding site is the landing place for the new employee onboardi
 
  
 ##### Pre-populated site contents:
+
 - **Home page** – Provide a high-level view of significant concepts that will be relevant to new users. This page is a great location to help new employees build their network and learn from more experienced and knowledgeable employees with [Microsoft Teams live events](/microsoftteams/teams-live-events/what-are-teams-live-events#:~:text=Microsoft%20365%20live%20events%20bring%20live%20video%20streaming,community%20resides%2C%20using%20Microsoft%20Stream%2C%20Teams%2C%20or%20Yammer.)
+
 - **Start here** – Specify what new hires should do in their first 30, 60, and 90 days of onboarding by creating an onboarding process in on the Start your journey here page. The new hire checklist found in this section comes pre-populated with a set of generic onboarding activities. Customize list content to meet your needs. [Learn more about working with SharePoint lists](https://support.microsoft.com/office/introduction-to-lists-0a1c3ace-def0-44af-b225-cfa8d92c52d7).
+
 - **Who we are** – Introduce users to more detail about the organization in the Our story, Our leadership, Our teams pages. Customize these pages and the Office locations page for your organization. Or, link to an existing leadership page instead.
+
 - **Help & Support** - Highlight where to go for support and customize questions and answers for the FAQ page.
+
 - **Community** – Help new hires start building community right away and make sure new hires are aware of Employee resource groups and other connection channels.
+
 - **Departmental onboarding** – Provide an entry point to departmental-level information from the site navigation where users can access departmental onboarding sites. Consider provisioning the Department site template. 
 
 
@@ -223,9 +235,13 @@ Here, users need to learn about departmental leadership, culture, goals, and res
  
 
 ##### Pre-populated site contents:
+
 - **Home page** - Provide a high-level view of significant concepts that will be relevant to new hires.
+
 - **Getting started** – Help users quickly understand onboarding tasks, departmental procedures, and anything else that will help new hires be successful. 
+
 - **Meet the team** – Introduce new hires to people, the organization structure and goals on the Leadership, The organization, and Our priorities pages. Edit the [Call to Action web part](https://support.microsoft.com/office/use-the-call-to-action-web-part-e9917310-7543-4fc4-8f3f-d78e46074c00) to include links and images. Or, link to an existing team page instead.
+
 - **Help and support** - Highlight where to go for support and consider creating a FAQ section.
 
 
@@ -245,11 +261,17 @@ Site navigation is important because it helps users immediately understand what 
 Customize web parts with images, labels, links, and content that aligns with your organization’s mission. Keep images and descriptions simple and easy to understand for your new-hire audience.
 
 - **Hero web part** - Bring focus and visual interest to your page with the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645). You can display up to five items in the Hero web part and use compelling images, text, and links to draw attention to each.
+
 - **Text web part** - Use the [Text web part](https://support.microsoft.com/office/add-text-and-tables-to-your-page-with-the-text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801) to add paragraphs to your page. Formatting options like styles, bullets, indentations, highlighting, and links are available.
+
 - **Image web part** – Use the [Image web part](https://support.microsoft.com/office/use-the-image-web-part-a63b335b-ad0a-4954-a65d-33c6af68beb2) to add an image to a page.
+
 - **Quick links web part** – Organize and display links to other resources with the [Quick links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82).
+
 - **People web part** – Use the [People web part](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05) to display profile photos, contact information, and organizational information for people at work.
+
 - **Twitter web part** - Use the [Twitter web part](https://support.microsoft.com/office/use-the-twitter-web-part-15db6b3b-d167-41dd-9875-2af64b44d820) to highlight topics and conversations on SharePoint pages.
+
 - **YouTube web part** - Use the [YouTube web part](https://support.microsoft.com/office/use-the-youtube-web-part-c14fa2c1-71dc-4e52-94b6-b4876742382f) to embed YouTube videos right on your page.
 
 #### Site theme and branding
@@ -288,16 +310,23 @@ As a site owner, you can give external people access to the site by adding them 
 
 
 1. Select **Share site** from the right-hand corner.
+
 2. In the Share site pane, enter the names of people to add them to the site. The permission level will be read only.
-4. Enter an optional message to send to the person, or clear the Send email box if you don't want to send an email.
-5. Select **Share.**
+
+3. Enter an optional message to send to the person, or clear the Send email box if you don't want to send an email.
+
+4. Select **Share.**
 
 ### Share the Corporate and Departmental onboarding sites
 
 1.	Select **Share site** from the right-hand corner.
+
 2.	In the **Share site** pane, enter the names of people or groups to add them to the site, or enter "Everyone except external users" to share the site with everyone in your organization.  
+
 3.	Change the permission level (Read, Edit, or Full control) as needed.
+
 4.	Enter an optional message to send to the person or clear the Send email box if you don't want to send an email.
+
 5.	Select **Share**.
 
 
