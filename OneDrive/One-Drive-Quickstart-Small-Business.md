@@ -164,3 +164,5 @@ If you need help with OneDrive, you have many ways to find solutions to common i
 -   **Microsoft Support.** If you need help from Microsoft to troubleshoot an issue or configure or deploy OneDrive, see [Contact Microsoft](https://support.microsoft.com/gp/contactus81?Audience=Commercial).
 
 -   **OneDrive UserVoice.** You can review and submit feature requests and provide feature feedback at [OneDrive UserVoice](https://onedrive.uservoice.com/).
+
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]

@@ -24,7 +24,7 @@ search.appverid:
 
 Information barriers are policies in Microsoft 365 that a compliance admin can configure to prevent users from communicating and collaborating with each other. This solution is useful if, for example, one division is handling information that shouldn't be shared with specific other divisions, or a division needs to be prevented, or isolated, from collaborating with all users outside of the division. Information barriers are often used in highly regulated industries and those organizations with compliance requirements, such as finance, legal, and government. [Learn more about information barriers](/microsoft-365/compliance/information-barriers).
 
-The following image illustrates three segments in an organization: HR, Sales, and Research. An information barrier policy has been defined that blocks communication and collaboration between the Sales and Research segments. 
+The following image illustrates three segments in an organization: HR, Sales, and Research. An information barrier policy has been defined that blocks communication and collaboration between the Sales and Research segments.
 
 ![Example of segments in an organization](/sharepoint/sharepointonline/media/info-barriers-segments-example.png)
 
@@ -36,10 +36,14 @@ When these segments are associated with the OneDrive, content can be shared with
 
 ## Prerequisites
 
-- [Make sure you meet the licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
-- Create segments and define the users in each. Create policies that block communication between the segments, and then set them to active. For info, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies). Wait 24 hours for the changes to propagate through your environment.
-- [Complete the form](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_mCQfArPllNo4NRhexFZxRUNEZCTTZLVVJHOEJOVVlCTUdJNDVERko5Qy4u) to enable SharePoint and OneDrive information barriers in your organization. Note that SharePoint and OneDrive information barriers can only be enabled in your tenant if you have at least one active information barriers policy defined in the tenant. 
-- After SharePoint and OneDrive information barriers is enabled in your tenant, wait 24 hours for the changes to propagate through your environment. 
+1. Make sure you meet the [licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
+2. [Create information barrier policies](/office365/securitycompliance/information-barriers-policies) that allow or block communication between the segments, and then set them to active. Create segments and define the users in each.
+3. After you've configured and activated your information barrier policies, wait 24 hours for the changes to propagate through your organization.
+4. Complete the steps in the following sections to enable and manage SharePoint and OneDrive information barriers in your organization.
+
+## Enable SharePoint and OneDrive information barriers in your organization
+
+Enabling information barriers for SharePoint and OneDrive are configured in a single action. Information barriers for the services cannot be enabled separately. To enable information barriers for OneDrive, see [Enable SharePoint and OneDrive information barriers in your organization](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization). After you've enabled information barriers for SharePoint and OneDrive, continue with the OneDrive guidance in this article.  
 
 ## Sharing files from a OneDrive that has segments associated
 
@@ -50,7 +54,7 @@ When a segment is associated with a OneDrive:
 
 When a OneDrive has no segments associated:
 
-- The user can share files and folders based on the information barrier policy applied to the user and the sharing setting for the OneDrive. 
+- The user can share files and folders based on the information barrier policy applied to the user and the sharing setting for the OneDrive.
 
 ## Accessing shared files from a OneDrive that has segments associated
 
@@ -78,16 +82,13 @@ A global or SharePoint admin can view and change the segments associated with a 
 
 3. Save the list of segments.
 
-    |Name  |EXOSegmentId  |
-    |---------|---------|
-    |Sales     |  a9592060-c856-4301-b60f-bf9a04990d4d       |
-    |Research     |     27d20a85-1c1b-4af2-bf45-a41093b5d111    |
-    |HR     |      a17efb47-e3c9-4d85-a188-1cd59c83de32   |
+    |**Name**|**EXOSegmentId**|
+    |:-------|:---------------|
+    | Sales | a9592060-c856-4301-b60f-bf9a04990d4d |
+    | Research | 27d20a85-1c1b-4af2-bf45-a41093b5d111 |
+    | HR | a17efb47-e3c9-4d85-a188-1cd59c83de32 |
 
-4. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
-
-    > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell". <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see https://support.microsoft.com/help/13443/windows-which-operating-system. After the file downloads, run it and follow the steps in the Setup Wizard. 
+4. If not previously completed, [download](https://go.microsoft.com/fwlink/p/?LinkId=255251) and install the latest SharePoint Online Management Shell. If you installed a previous version of the SharePoint Online Management Shell, follow the instructions in the [Enable SharePoint and OneDrive information barriers in your organization](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) article.
 
 5. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
@@ -98,12 +99,11 @@ A global or SharePoint admin can view and change the segments associated with a 
     ```
 
     Example: `Get-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_onmicrosoft_com | Select InformationSegment`
-    
 
 ## Associate or remove segments on a user's OneDrive
 
 > [!WARNING]
-> If the segments associated with a user's OneDrive don't match the segment applied to the user, the user won't be able to access their OneDrive. Be careful not to associate any segments with the OneDrive of a non-segment user. 
+> If the segments associated with a user's OneDrive don't match the segment applied to the user, the user won't be able to access their OneDrive. Be careful not to associate any segments with the OneDrive of a non-segment user.
 
 > [!NOTE]
 > Any changes you make will be overwritten if the user's segment changes.
@@ -117,7 +117,7 @@ Set-Sposite -Identity <site URL> -AddInformationSegment <segment GUID>
 Example: `Set-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_onmicrosoft_com  
 -AddInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111`
 
-An error will appear if you attempt to associate a segment that isn't compatible with the existing segments on the OneDrive. 
+An error will appear if you attempt to associate a segment that isn't compatible with the existing segments on the OneDrive.
 
 To remove segment from a OneDrive, run the following command.  
 
@@ -140,11 +140,11 @@ If a policy changes after files are shared, the sharing links will work only if 
 
 The example at the beginning of this article illustrates an organization with three segments: HR, Sales, and Research. An information barriers policy blocks communication and collaboration between Sales and Research. The segment HR has no restriction. In addition, the organization has users with no segments applied. The following table shows the effects of this configuration.
 
-|  Components |HR users  |Sales users  |Research users  |Non-segment users  |
-|---------|---------|---------|---------|---------|
-|Segments associated with OneDrive     |    HR     |     Sales, HR    |    Research, HR     |   None     |
-|OneDrive content can be shared with     |    HR only     |    Sales and HR     |     Research and HR    |    Anyone based on the sharing settings selected     |
-|OneDrive content can be accessed by     |   HR only      |     Sales and HR    |    Research and HR     |    Anyone with whom the content has been shared     |
+|**Components**|**HR users**|**Sales users**|**Research users**|**Non-segment users**|
+|:-------------|:-----------|:--------------|:-----------------|:--------------------|
+| Segments associated with OneDrive | HR | Sales, HR | Research, HR | None |
+| OneDrive content can be shared with | HR only | Sales and HR | Research and HR | Anyone based on the sharing settings selected |
+| OneDrive content can be accessed by | HR only | Sales and HR | Research and HR | Anyone with whom the content has been shared |
 
 ## Auditing
 
@@ -155,6 +155,19 @@ After you enable information barriers for OneDrive, audit events are available i
 - Segments are removed from a user OneDrive
 
 For more information about OneDrive segment auditing in Office 365, see [Search the audit log in the compliance center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#information-barriers-activities).
+
+## How to suspend SharePoint and OneDrive information barriers in your tenant
+
+If your organization would like to temporarily suspend information barriers on SharePoint, you must use SharePoint Online Management Shell and the [Set-Spotenant](/powershell/module/sharepoint-online/set-spotenant) cmdlet.
+
+To suspend information barriers, run the following command:
+
+```PowerShell
+Set-Spotenant -InformationBarriersSuspension $true
+```
+
+>[!NOTE]
+>If you have Microsoft 365 Multi-Geo, you must run this command for each of your geo-locations.
 
 ## See also
 

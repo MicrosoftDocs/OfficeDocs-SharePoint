@@ -6,6 +6,7 @@
 ### [Step 3: Monitor and report](mm-reports.md)
 ### Reference
 #### [What's new](mm-whats-new.md)
+#### [Migration solutions posters](migration-solution-posters.md)
 #### [Settings](mm-settings.md)
 #### [Create an Agent group](mm-agent-targeting.md)
 #### [Government cloud configuration](mm-gov-cloud.md)
@@ -25,13 +26,30 @@
 ### Reference
 #### [FAQs](mm-faqs-box.md)
 #### [Troubleshooting](mm-box-troubleshooting.md)
+## Migrate from Google Workspace
+### [Overview](mm-google-overview.md)
+### [Step 1: Connect to Google Workspace](mm-google-step1-connect.md)
+### [Step 2: Scan and assess](mm-google-step2-scan-assess.md)
+### [Step 3: Copy to Migrations list](mm-google-step3-copy-to-migrations.md)
+### [Step 4: Review destination paths](mm-google-step4-review-destinations.md)
+### [Step 5: Map identities](mm-google-step5-map-identities.md)
+### [Step 6: Migrate and Monitor](mm-google-step6-migrate-monitor.md)
+## Migrate from Dropbox
+### [Overview](mm-Dropbox-overview.md)
+### [Step 1: Connect to Dropbox](mm-Dropbox-step1-connect.md)
+### [Step 2: Scan and assess](mm-Dropbox-step2-scan-assess.md)
+### [Step 3: Copy to Migrations list](mm-Dropbox-step3-copy-to-migrations.md)
+### [Step 4: Review destination paths](mm-Dropbox-step4-review-destinations.md)
+### [Step 5: Map identities](mm-Dropbox-step5-map-identities.md)
+### [Step 6: Migrate and Monitor](mm-Dropbox-step6-migrate-monitor.md)
 ## Migrate SharePoint Server sites and content
 ### [Overview](introducing-the-sharepoint-migration-tool.md)
 ### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
 ### [Step 2: Create a migration task](spmt-create-task.md)
 ### [Step 3: Monitor and report](using-the-sharepoint-migration-tool-reports.md)
 ### Reference
-#### [Release notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
+#### [What's new](new-and-improved-features-in-the-sharepoint-migration-tool.md)
+#### [Migration solutions posters](migration-solution-posters.md)
 #### [Prerequisites and endpoints](spmt-prerequisites.md)
 #### [Supported features](what-is-supported-spmt.md)
 #### [Supported SharePoint list templates](sharepoint-migration-supported-list-templates.md) 

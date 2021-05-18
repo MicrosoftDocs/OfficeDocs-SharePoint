@@ -29,6 +29,7 @@
 ### [How sync works](sync-process.md)
 ### [B2B Sync](b2b-sync.md)
 ### [Block file types](block-file-types.md)
+### [Sync Admin Reports (Preview)](sync-health.md)
 ## [Sharing, security, and compliance]()
 ### [Manage sharing](manage-sharing.md)
 ### [Set external sharing individually](user-external-sharing-settings.md)
