@@ -22,13 +22,14 @@ description: "Create a leadership site for your organization"
 
 # Guided walkthrough - creating a leadership site for your organization
 
-In this article, we show you elements of an example leadership site to inspire you, and help you learn how to create similar sites for your own organization. In this example, the leadership site provides your organization insight into the goals and priorities of the leadership team. Watch this video to see how it is built, or read the article below.
+In this article, we show you elements of an example leadership site to inspire you, and help you learn how to create similar sites for your own organization. In this example, the leadership site provides your organization insight into the goals and priorities of the leadership team. Watch this video to see how it's built, or read the article below.
 
-<!-- daisy put the video here-->
+<!-- daisy put the video here. This is the code from the authoring guide but i don't think it's working-->
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xd93]
 
 ## Let's get started
 
-First, if you haven't already created a Communication site, check out the <!-- daisy bookmark [Create your site] --> section in this article.  If you need to learn how to add sections and web parts, check out the section <!-- daisy bookmark [Add sections and web parts] --> in this article.
+First, if you haven't already created a Communication site, check out the [Create your site](#create-your-site) section in this article.  If you need to learn how to add sections and web parts, check out the section [Add sections and web parts](#add-sections-and-web-parts) in this article.
 
 Once you have your created your site and know how to edit pages, you can use the steps below to add the elements shown.
 
@@ -36,31 +37,31 @@ Once you have your created your site and know how to edit pages, you can use the
 
 ![Image of an example leadership site](media/gw-leadership/gw-1.png)
 
-**1. Showcase your company branding** Make it yours with a logo and theme. <!-- daisy bkmk -->Learn how
+**1. Showcase your company branding** Make it yours with a logo and theme. [Learn how](#showcase-your-company-branding)
 
-**2. Make your site easy to get around** Customize navigation to make it easy for people to discover important content on your site. <!-- daisy bkmk> Learn how
+**2. Make your site easy to get around** Customize navigation to make it easy for people to discover important content on your site. [Learn how](#make-your-site-easy-to-get-around)
 
-**3. Focus on priorities** Feature curated content that's a priority for the organization. <!-- daisy -->Learn how
+**3. Focus on priorities** Feature curated content that's a priority for the organization. [Learn how](#focus-on-priorities-with-the-hero-web-part)
 
-**4. Share timely news** Share the most recent news, like vision statements and blog postings.<!--daisy--> Learn how
+**4. Share timely news** Share the most recent news, like vision statements and blog postings. [Learn how](#share-timely-news-with-the-news-web-part)
 
-**5. Connect to important resources** Link to pages and sites that cover key topics.  <!--daisy-->Learn how
+**5. Connect to important resources** Link to pages and sites that cover key topics. [Learn how](#connect-to-important-resources-with-the-quick-links-web-part)
 
-**6. Engage with video**  Add video to keep people updated on the latest talks, updates, and more.<!--daisy--> Learn how
+**6. Engage with video**  Add video to keep people updated on the latest talks, updates, and more. [Learn how](#make-it-visual-by-adding-video-with-the-stream-web-part)
 
-**7. Keep communication fresh** Share recent conversations and comments from your organization.<!--daisy--> Learn how
+**7. Keep communication fresh** Share recent conversations and comments from your organization. [Learn how](#keep-communication-fresh-with-the-yammer-web-part)
 
-**8. Engage users with beautiful images** Add more images with text and links to make your page look great and engage users.<!--daisy--> Learn how
+**8. Engage users with beautiful images** Add more images with text and links to make your page look great and engage users. [Learn how](#engage-users-with-beautiful-images-with-a-second-hero-web-part)
 
-**9. Keep everyone up-to-date** Show a calendar of the latest events.<!--daisy--> Learn how
+**9. Keep everyone up-to-date** Show a calendar of the latest events. [Learn how](#keep-everyone-up-to-date-with-the-events-web-part)
 
-**10. Sign them up** Create a call to action for sign-ups, surveys, or other important actions.<!--daisy--> Learn how
+**10. Sign them up** Create a call to action for sign-ups, surveys, or other important actions. [Learn how](#sign-them-up-with-the-call-to-action-web-part)
 
-**11. Inspire** Add impact with inspirational or vision-oriented quotes.<!--daisy--> Learn how
+**11. Inspire** Add impact with inspirational or vision-oriented quotes. [Learn how](#inspire-with-a-quote-using-the-text-web-part)
 
 ## Create your site
 
-To make a site like the one shown here, you'll create a [Communication site](https://support.microsoft.com/office/use-the-sharepoint-topic-showcase-and-blank-communication-site-templates-94a33429-e580-45c3-a090-5512a8070732). To do this, select **Create site** from the SharePoint start page (or, if you're going to associate this site with a Hub site, navigate to the hub site and click Create site there so that the communication site is automatically be associated with that hub site).
+To make a site like the one shown here, you'll create a [Communication site](https://support.microsoft.com/office/use-the-sharepoint-topic-showcase-and-blank-communication-site-templates-94a33429-e580-45c3-a090-5512a8070732). To do this, select **Create site** from the SharePoint start page (or, if you're going to associate this site with a Hub site, navigate to the hub site and select Create site there so that the communication site is automatically associated with that hub site).
 
 ![Image of the command bar](media/gw-leadership/gw-2.png)
 
@@ -68,8 +69,9 @@ Next, choose **Communication site**, and then the **Blank** layout. Fill out you
 
 ![Image of a Communication site with Blank layout selected](media/gw-leadership/gw-3.png)
 
-For more details, see [Create a communication site in SharePoint Online](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
-<!-- daisy bookmark -->Back to top
+For more information, see [Create a communication site in SharePoint Online](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
+
+[Back to top](#lets-get-started)
 
 ## Showcase your company branding
 
@@ -77,7 +79,7 @@ You can quickly and easily customize the look of your SharePoint site to reflect
 
 ![Image of a customized header](media/gw-leadership/gw-4.jpg)
 
-**Change the look** settings are located under **Settings** <!--daisy settings icon--> in the top right corner of your SharePoint site.
+**Change the look** settings are located under **Settings** ![Image of the settings gear icon](media/gw-leadership/gw-settings.png) in the top right corner of your SharePoint site.
 
 ![Image of the settings pane](media/gw-leadership/gw-5.png)
 
@@ -85,13 +87,13 @@ You can select the site theme you want, and even customize it.
 
 ![Image of the site theme options](media/gw-leadership/gw-6.png)
 
-You can change your header layout and logo when you click **Header** under **Change the look**.
+You can change your header layout and logo when you select **Header** under **Change the look**.
 
 ![Image of the site header options](media/gw-leadership/gw-7.png)
 
 Under Change the look, you can also find options for navigation (cascade or mega menu) and footer options. For more details on changing the look of your site, see [Change the look of your SharePoint site](https://support.microsoft.com/office/change-the-look-of-your-sharepoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818).
 
-<!--daisy bookmark--> Back to top
+[Back to top](#lets-get-started)
 
 ## Make your site easy to get around
 
@@ -103,7 +105,7 @@ Select **Edit** on the bottom of the left navigation to manage links there, or o
 
 For more detailed information on navigation, see [Customize the navigation on your SharePoint site](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca).
 
-<!-- daisy bookmark -->Back to top
+[Back to top](#lets-get-started)
 
 ## Add sections and web parts
 
@@ -123,11 +125,11 @@ To add web parts to sections, select the plus symbol ![image of a plus symbol](m
 
 ![Image of featured web parts](media/gw-leadership/gw-11.png)
 
-Web parts may be edited, moved or deleted within sections. The **Edit web part** icon opens detailed controls unique to each web part type.
+Web parts may be edited, moved, or deleted within sections. The **Edit web part** icon opens detailed controls unique to each web part type.
 
 ![Image of the Edit web part icon](media/gw-leadership/gw-12.png)
 
-<!-- daisy bookmark -->Back to top
+[Back to top](#lets-get-started)
 
 ## Focus on priorities with the Hero web part
 
@@ -145,23 +147,23 @@ Use the **Move item** ![Image of the Move icon](media/gw-leadership/gw-move.png)
 
 ### Customize each tile
 
-When you click a tile, you'll see a toolbar at the bottom of the tile where you can click **Edit details** where you can change the link and image used. With the larger tile, you can also set call to action text and link. On the same toolbar, you can set focal point for the hover animation, plus zoom in and zoom out of the image.
+When you select a tile, you'll see a toolbar at the bottom of the tile where you can select **Edit details** where you can change the link and image used. With the larger tile, you can also set call to action text and link. On the same toolbar, you can set focal point for the hover animation, plus zoom in and zoom out of the image.
 
 ![Image of the Hero web part Edit details pane](media/gw-leadership/gw-14.png)
 
 For more details on using the Hero web part, see [Use the Hero web part](https://support.microsoft.com/en-us/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645).
 
-<!-- daisy bookmark -->Back to top
+[Back to top](#lets-get-started)
 
 ## Share timely news with the News web part
 
-The News web part provides controls to choose the **News Source** and **Layout**, and to **Organize** and **Filter** the content. Under **Layout**, there are five options to adjust now news items are presented. In this example, news stories are coming the site as the source, and the **Top story** layout. The stories are presented side-by-side with large images because only two news stories on the site are published.
+The News web part provides controls to choose the **News Source** and **Layout**, and to **Organize** and **Filter** the content. Under **Layout**, there are five options to adjust now news items are presented. In this example, news stories are coming the site as the source, and the **Top story** layout. The stories are presented side by side with large images because only two news stories on the site are published.
 
 In this example, the web part is in a one-column section.
 
 For more details on using the News web part, see [Use the News web part on a SharePoint page](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165).
 
-<!-- daisy bookmark -->Back to top
+[Back to top](#lets-get-started)
 
 ## Connect to important resources with the Quick Links web part
 
@@ -173,7 +175,7 @@ In this Leadership site example shown above, this web part is in the second colu
 
 For more details on using the Quick links web part, see [Use the Quick Links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82).
 
-<!-- daisy bookmark -->Back to top
+[Back to top](#lets-get-started)
 
 ## Make it visual by adding video with the Stream web part
 
@@ -185,7 +187,7 @@ In this Leadership site example shown above, this web part is in the first colum
 
 For more details on using the Stream web part, see [Use the Stream web part](https://support.microsoft.com/office/use-the-stream-classic-web-part-b97fa87c-1337-4271-a059-17f0d2b26e8b).
 
-<!-- daisy bookmark -->Back to top
+[Back to top](#lets-get-started)
 
 ## Keep communication fresh with the Yammer web part
 
@@ -197,7 +199,7 @@ In this Leadership site example shown above, this web part is in the first colum
 
 For more details on using the Yammer web part, see [Use a Yammer web part in SharePoint Online](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da).
 
-<!-- daisy bookmark -->Back to top
+[Back to top](#lets-get-started)
 
 ## Engage users with beautiful images with a second Hero web part
 
@@ -231,7 +233,7 @@ For more details on how to use this web part, see [Use the Call to action web pa
 
 ### Enhance the message
 
-The leadership quote uses the Text web part. This web part allows basic text formatting, including styles and tables, for creating fixed sections of formatted text. In this example, the Text web part is using the **Pull quote** style. Clicking the **…** control at the right end of the formatting toolbar offers additional options to the right of the web part.
+The leadership quote uses the Text web part. This web part allows basic text formatting, including styles and tables, for creating fixed sections of formatted text. In this example, the Text web part is using the **Pull quote** style. Clicking the **…** control at the right end of the formatting toolbar offers more options to the right of the web part.
 
 In this Leadership site example shown above, the web part is in a one-column section.
 
@@ -239,7 +241,7 @@ In this Leadership site example shown above, the web part is in a one-column sec
 
 For more details on using the Text web part, see [Add text and tables to your page with the Text web part](https://support.microsoft.com/office/add-text-and-tables-to-your-page-with-the-text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801).
 
-<!-- daisy bookmark -->Back to top
+[Back to top](#lets-get-started)
 
 ## Want more?
 
