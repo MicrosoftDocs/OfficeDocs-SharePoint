@@ -33,6 +33,10 @@ We're continuously adding new features to the new SharePoint admin center and fi
 
 > [!IMPORTANT]
 > Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting November 30, 2020). [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed. 
+
+## April 2021
+
+- **New "How can we help?" experience**. To search help, open a new service request, or manage existing service requests, select **Need help?** in the lower-right corner.
   
 ## March 2021
 
@@ -41,6 +45,7 @@ We're continuously adding new features to the new SharePoint admin center and fi
 ## June 2020
 
 - **Improvements to the Export feature**. On the Active sites page, you can [export your customized view as a .csv file](manage-sites-in-new-admin-center.md#export-to-csv).
+- **New Segments column on the Active sites page**. Organizations that use information barriers can now view and manage the segments associated with sites. [Learn about using information barriers with SharePoint](information-barriers.md)
 
 ## April 2020
 
