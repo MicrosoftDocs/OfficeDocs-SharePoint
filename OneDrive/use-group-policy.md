@@ -482,7 +482,7 @@ where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md
   
 Setting this value to 1 shows a notification after successful redirection.
 
-If you don't set any of the following policies then the default policy will move all Desktop, Documents, and Pictures folders into OneDrive.  If you want to specify which folder(s) to move then you can set any combination of the following policies:
+If you don't set any of the following policies then the default policy will move all the folders (Desktop, Documents and Pictures) into OneDrive.  If you want to specify which folder(s) to move then you can set any combination of the following policies:
 
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInDesktop"`
   
