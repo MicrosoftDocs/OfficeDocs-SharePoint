@@ -33,10 +33,14 @@ Moving to Microsoft 365? Let us help you migrate your content easily and securel
 ## Get started
 
 We support migration from on-premise sources, products, and popular cloud providers. 
-||||
-|:-----|:-----|:-----|
-|[File shares](mm-get-started.md)|[SharePoint Server sites and content](introducing-the-sharepoint-migration-tool.md)|[Box (preview)](mm-box-overview.md)|
-|[Google Workspace (preview)](mm-google-overview.md)|[Dropbox (preview)](mm-dropbox.md)|[Other cloud providers](#cloud-to-cloud-migrations)|
+|Migrate from|
+|:-----|
+|[File shares](mm-get-started.md)||
+[SharePoint Server sites and content](introducing-the-sharepoint-migration-tool.md)|
+|[Box (preview)](mm-box-overview.md)|
+|[Google Workspace (preview)](mm-google-overview.md)|
+|[Dropbox (preview)](mm-dropbox-overview.md)|
+|[Other cloud providers](#cloud-to-cloud-migrations)|
 
 ### What's new
 
