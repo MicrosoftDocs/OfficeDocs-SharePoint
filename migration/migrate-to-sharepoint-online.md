@@ -33,10 +33,10 @@ Moving to Microsoft 365? Let us help you migrate your content easily and securel
 ## Get started
 
 We support migration from on-premise sources, products, and popular cloud providers. 
-
-|<!-- This is commented out. -->|<!-- This is commented out. -->|<!-- This is commented out. -->|<!-- This is commented out. -->|<!-- This is commented out. -->|
-|:-----|:-----|:-----|:-----|:-----|
-|[File shares](mm-get-started.md)|[SharePoint Server sites and content](introducing-the-sharepoint-migration-tool.md)|[Box (preview)](mm-box-overview.md) |[Google Workspace (preview)](mm-google-overview.md)|[Other cloud providers](#cloud-to-cloud-migrations)
+||||
+|:-----|:-----|:-----|
+|[File shares](mm-get-started.md)|[SharePoint Server sites and content](introducing-the-sharepoint-migration-tool.md)|[Box (preview)](mm-box-overview.md)|
+|[Google Workspace (preview)](mm-google-overview.md)|[Dropbox (preview)](mm-dropbox.md)|[Other cloud providers](#cloud-to-cloud-migrations)|
 
 ### What's new
 
@@ -54,6 +54,7 @@ Migrating your file shares with Migration Manager lets you have a centralized wa
 ![Migrating file shares workflow](media/mm-flow-3box.png)
 
 
+
 ## Migrate SharePoint Server sites and content
 
 Migrate your SharePoint Server sites and content to take advantage of the latest collaboration, intelligence, and security solutions in Microsoft 365. The modern experience features in Microsoft SharePoint are designed to be compelling, flexible, and more performant. Migrate your SharePoint Server 2010, 2013, and 2016 environments.
@@ -67,15 +68,11 @@ Migrate your SharePoint Server sites and content to take advantage of the latest
 ## Cloud to cloud migrations
 Are you migrating from another Cloud providers? The [Mover tool](https://mover.io/) is ideal for:
 
-- Box
 - Microsoft 365 tenant to tenant migration
-- G Suite Drive
-- Dropbox
 - Egnyte
 - Amazon S3
 - Azure Blob Storage
 - Google Cloud Storage
-
 
 **Get started!** [Mover migration tool](https://mover.io/)
 
