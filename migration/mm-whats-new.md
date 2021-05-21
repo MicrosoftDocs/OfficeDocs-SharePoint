@@ -22,7 +22,10 @@ description: "Learn about the new features and updates to existing features in M
 
 We're continuously adding new features to Migration Manager and fixing issues we learn about. Here's a summary of what's included.   
 
-You can help us improve Migration Manager by sending us your suggestions and reporting bugs you encounter. At the bottom of this page, click the Feedback button.
+#### We're listening!
+
+Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page.  
+
 
 ## Coming soon
 
