@@ -41,6 +41,16 @@ Once you have your created your site and know how to edit pages, you can use the
 -	**Spread the news** Share ideas and stories that enhance your message. Learn how
 -	**Get events on the calendar** Add an event calendar to keep people up-to-date on related events.  Learn how
 
+|                 |                  |
+| :------------------- | -------------------: |
+|    ![Image of the Giving Site landing page](media/Example-giving-site.png)  | 
+-	**Make your site easy to get around** Customize navigation to make it easy for people to discover important content on your site. Learn how
+-	**Inspire with imagery and information** Use eye-catching and inspiring images that link to content at the top of the page. Learn how
+-	**Make a statement** Create professional, consistent text with multiple formatting choices. Learn how
+-	**Call to action** Make it easy for people to take action right away. Learn how
+-	**Spread the news** Share ideas and stories that enhance your message. Learn how
+-	**Get events on the calendar** Add an event calendar to keep people up-to-date on related events.  Learn how |
+
  
 
 ## Create your site
