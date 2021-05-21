@@ -86,7 +86,7 @@ This card shows how many term store operations are being performed and a chart o
 
 ### Microsoft 365 active users report
 
-This card shows the usage of each Microsoft 365 service. To view the full report, select **View full report**. [More info about the Active users report in the MIcrosoft 365 admin center](/microsoft-365/admin/activity-reports/active-users-ww)
+This card shows the usage of each Microsoft 365 service. To view the full report, select **View full report**. [More info about the Active users report in the Microsoft 365 admin center](/microsoft-365/admin/activity-reports/active-users-ww)
 
 ## Add, remove, and rearrange cards
 
