@@ -24,7 +24,6 @@ description: "Create a leadership site for your organization"
 
 In this article, we show you elements of an example leadership site to inspire you, and help you learn how to create similar sites for your own organization. In this example, the leadership site provides your organization insight into the goals and priorities of the leadership team. Watch this video to see how it's built, or read the article below.
 
-<!-- daisy put the video here. This is the code from the authoring guide but i don't think it's working-->
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xd93]
 
 ## Let's get started
@@ -35,7 +34,7 @@ Once you have your created your site and know how to edit pages, you can use the
 
 ## Example leadership site
 
-![Image of an example leadership site](media/gw-leadership/gw-1.png)
+![Image of customized branding, navigation, and a Hero web part](media/gw-leadership/long-123.png)
 
 **1. Showcase your company branding** Make it yours with a logo and theme. [Learn how](#showcase-your-company-branding)
 
@@ -43,19 +42,31 @@ Once you have your created your site and know how to edit pages, you can use the
 
 **3. Focus on priorities** Feature curated content that's a priority for the organization. [Learn how](#focus-on-priorities-with-the-hero-web-part)
 
+![Image of the News web part](media/gw-leadership/long-4.png)
+
 **4. Share timely news** Share the most recent news, like vision statements and blog postings. [Learn how](#share-timely-news-with-the-news-web-part)
+
+![Image of the Stream and Quick links web parts](media/gw-leadership/long-56.png)
 
 **5. Connect to important resources** Link to pages and sites that cover key topics. [Learn how](#connect-to-important-resources-with-the-quick-links-web-part)
 
 **6. Engage with video**  Add video to keep people updated on the latest talks, updates, and more. [Learn how](#make-it-visual-by-adding-video-with-the-stream-web-part)
 
+![Image of the Yammer and Hero web parts](media/gw-leadership/long-78.png)
+
 **7. Keep communication fresh** Share recent conversations and comments from your organization. [Learn how](#keep-communication-fresh-with-the-yammer-web-part)
 
 **8. Engage users with beautiful images** Add more images with text and links to make your page look great and engage users. [Learn how](#engage-users-with-beautiful-images-with-a-second-hero-web-part)
 
+![Image of the Events web part](media/gw-leadership/long-9.png)
+
 **9. Keep everyone up-to-date** Show a calendar of the latest events. [Learn how](#keep-everyone-up-to-date-with-the-events-web-part)
 
+![Image of the Call to action web part](media/gw-leadership/long-10.png)
+
 **10. Sign them up** Create a call to action for sign-ups, surveys, or other important actions. [Learn how](#sign-them-up-with-the-call-to-action-web-part)
+
+![Image of the Text web parts](media/gw-leadership/long-11.png)
 
 **11. Inspire** Add impact with inspirational or vision-oriented quotes. [Learn how](#inspire-with-a-quote-using-the-text-web-part)
 
