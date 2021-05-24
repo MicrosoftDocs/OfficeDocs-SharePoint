@@ -42,7 +42,7 @@ Limiting access allows users to remain productive while addressing the risk of a
 > [!NOTE]
 > Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. [Learn about Azure AD licensing](https://azure.microsoft.com/pricing/details/active-directory/) For an overview of conditional access in Azure AD, see [Conditional access in Azure Active Directory](/azure/active-directory/conditional-access/overview). For info about recommended SharePoint access policies, see [Policy recommendations for securing SharePoint sites and files](/microsoft-365/enterprise/sharepoint-file-access-policies). If you limit access on unmanaged devices, users on managed devices must use one of the [supported OS and browser combinations](/azure/active-directory/conditional-access/technical-reference#client-apps-condition), or they will also have limited access.  
 
-### Control device access across Microsoft 365
+## Control device access across Microsoft 365
 
 The procedures in this article only affect SharePoint access by unmanaged devices. If you want to expand control of unmanaged devices beyond SharePoint, you can [Create an Azure Active Directory conditional access policy for all apps and services in your organization](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device) instead. To configure this policy specifically for [Microsoft 365 services](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#office-365), select the **Office 365** cloud app under **Cloud apps or actions**.
 
