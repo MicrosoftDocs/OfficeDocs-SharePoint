@@ -66,7 +66,7 @@ To change column order for a content type, follow these steps.
 
 ## Make a column required, optional, or hidden
 
-To make a column required, optional or hidden, follow these steps.
+To make a column required, optional, or hidden, follow these steps.
 
 **To make a column required, optional, or hidden**
 
