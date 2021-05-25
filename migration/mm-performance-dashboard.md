@@ -24,7 +24,7 @@ description: "Performance Dashboard in Migration Manager"
 
 # Using performance dashboards in Migration Manager
 
-Migration performance can be impacted by network infrastrucutre, file size, migration time, and throttling.  Understanding these will help you plan and maximize the efficiency of your migration.
+Migration performance can be impacted by network infrastructure, file size, migration time, and throttling.  Understanding these areas will help you plan and maximize the efficiency of your migration.
 
 ## Filtering options
 
@@ -33,6 +33,6 @@ When the selected data range is greater than four days, result increments will b
 ![Filtering tasks by week](media/mm-performance-dashboard.png)
 
 
-When the selected date range in less than or equal to four days, results will be shown in hourly increments.
+When the selected date range in less than or equal to four days, the results will be shown in hourly increments.
 
 ![Filtering tasks by date range](media/mm-performance-dashboard-dates.png)
