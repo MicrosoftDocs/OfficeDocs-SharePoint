@@ -30,19 +30,17 @@ You can customize content types by adding columns of the types you need. You can
 
 To add a column to a content type, follow these steps:
 
-1. Go to the SharePoint admin center.
+1. Go to the [Content type gallery page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=contentTypes&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
 
-2. Under **Content services**, select **Content type gallery**.
+2. Under the **Site content type** column, select the name of the site content type to which you want to add a column.
 
-3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type to which you want to add a column.
+3. Under **Site columns**, from the **Add site column** dropdown, select **Add from existing site columns**. The **Add from existing site columns** panel appears.
 
-4. Under **Site columns**, from the **Add site column** dropdown, select **Add from existing site columns**. The **Add from existing site columns** panel appears.
+4. In the **Select site columns from existing category** section, select **Add** or **Remove** to add or remove columns from the choices that appear. You can choose a category to narrow the list of available columns.
 
-5. In the **Select site columns from existing category** section, select **Add** or **Remove** to add or remove columns from the choices that appear. You can choose a category to narrow the list of available columns.
+5. In the **Update List and Site Content Types** section, decide whether you want to update all site and content types that inherit from this content type with the settings on this page.
 
-6. In the **Update List and Site Content Types** section, decide whether you want to update all site and content types that inherit from this content type with the settings on this page.
-
-7. Select **Save**.
+6. Select **Save**.
 
 ## Change column order
 
@@ -50,15 +48,13 @@ To change column order for a content type, follow these steps.
 
 **To change column order on a content type**
 
-1. Go to the SharePoint admin center.
+1. Go to the [Content type gallery page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=contentTypes&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
 
-2. Under **Content services**, select **Content type gallery**.
+2. Under the **Site content type** column, select the name of the site content type to which you want to change a column's order. That site content type page appears.
 
-3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type to which you want to change a column's order. That site content type page appears.
+3. Under **Site columns**, in the **Name** column, select the column that you want to change its order.
 
-4. Under **Site columns**, in the **Name** column, select the column that you want to change its order.
-
-5. Select the vertical ellipsis to the right of the site column name you selected, and from the dropdown, select **Reorder site columns** and then select from the following four choices:
+4. Select the vertical ellipsis to the right of the site column name you selected, and from the dropdown, select **Reorder site columns** and then select from the following four choices:
 
     - **Move to top**
 
@@ -74,17 +70,15 @@ To make a column required, optional or hidden, follow these steps.
 
 **To make a column required, optional, or hidden**
 
-1. Go to the SharePoint admin center.
+1. Go to the [Content type gallery page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=contentTypes&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
 
-2. Under **Content services**, select **Content type gallery**.
+2. Under the **Site content type** column, select the name of the site content type that you want to change a site content type by adding a column. That site content type page appears.
 
-3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type that you want to change a site content type by adding a column. That site content type page appears.
+3. Under **Site columns**, in the **Name** column, select the name of the column that you want to make optional, required, or hidden.
 
-4. Under **Site columns**, in the **Name** column, select the name of the column that you want to make optional, required, or hidden.
+4. Select **Edit site column settings**. The **Edit site column settings** panel appears.
 
-5. Select **Edit site column settings**. The **Edit site column settings** panel appears.
-
-6. In the **Show or hide site column** section, do one of the following:
+5. In the **Show or hide site column** section, do one of the following:
 
     - To show or hide this column in lists, check or clear **Show this column in lists**, respectively.
 
@@ -92,9 +86,9 @@ To make a column required, optional or hidden, follow these steps.
 
     - To require users to specify information for a column, select **Required (must contain information)**.
     
-7. Under **Update sites and lists**, if you want to update all site and list content types that inherit from this content type with the settings on this page, check the box.
+6. Under **Update sites and lists**, if you want to update all site and list content types that inherit from this content type with the settings on this page, check the box.
 
-8. Select **Save**.
+7. Select **Save**.
 
 ## Related topics
 
