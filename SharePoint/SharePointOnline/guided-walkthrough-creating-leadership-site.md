@@ -1,5 +1,5 @@
 ---
-title: Guided walkthrough - Creating a Leadership site for your organization
+title: Guided walkthrough - Creating a leadership site for your organization
 ms.reviewer: 
 ms.author: daisyfeller
 author: daisyfell
@@ -20,7 +20,7 @@ search.appverid:
 description: "Create a leadership site for your organization"
 ---
 
-# Guided walkthrough - creating a leadership site for your organization
+# Guided walkthrough: Creating a leadership site for your organization
 
 In this article, we show you elements of an example leadership site to inspire you, and help you learn how to create similar sites for your own organization. In this example, the leadership site provides your organization insight into the goals and priorities of the leadership team. Watch this video to see how it's built, or read the article below.
 
@@ -182,7 +182,7 @@ With the Quick links web part, you have the ability to easily create professiona
 
 In this Leadership site example shown above, this web part is in the second column of a two-column section.
 
-[Image of the Quick links web part edit pane](media/gw-leadership/gw-15.png)
+![Image of the Quick links web part edit pane](media/gw-leadership/gw-15.png)
 
 For more details on using the Quick links web part, see [Use the Quick Links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82).
 
