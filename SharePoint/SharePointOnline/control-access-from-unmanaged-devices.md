@@ -170,7 +170,7 @@ The following parameters can be used with  `-ConditionalAccessPolicy AllowLimite
   
 The AllowDownlownloadingNonWebViewableFiles parameter has been discontinued. Please use LimitedAccessFileType instead.
   
-External users will be affected when you use conditional access policies to block or limit access from unmanaged devices. If users have shared items with specific people (who must enter a verification code sent to their email address), you can exempt them from this policy by running the following cmdlet.
+People outside the organization will be affected when you use conditional access policies to block or limit access from unmanaged devices. If users have shared items with specific people (who must enter a verification code sent to their email address), you can exempt them from this policy by running the following cmdlet.
   
  `Set-SPOTenant -ApplyAppEnforcedRestrictionsToAdHocRecipients $false`
   
