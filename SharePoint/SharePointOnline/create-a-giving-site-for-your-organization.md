@@ -95,7 +95,8 @@ For more details on using the Hero web part, see [Use the Hero web part](https:/
 
 ## Call to action
 In this example, the Giving site has a section using a three-column layout with images and links within the section.
-   ![Image of the Call to action set up](media/Call-to-action-1.png)
+  
+ ![Image of the Call to action set up](media/Call-to-action-1.png)
 
 Here, the Image web part is paired with a text web part to create a call to action.
    ![Image of the Call to action set up](media/call-to-action-2.png)
