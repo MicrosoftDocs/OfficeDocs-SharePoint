@@ -32,24 +32,9 @@ Once you have your created your site and know how to edit pages, you can use the
 
 ## Example Giving Site
 
-   ![Image of the Giving Site landing page](media/Example-giving-site.png)
-
--	**Make your site easy to get around** Customize navigation to make it easy for people to discover important content on your site. Learn how
--	**Inspire with imagery and information** Use eye-catching and inspiring images that link to content at the top of the page. Learn how
--	**Make a statement** Create professional, consistent text with multiple formatting choices. Learn how
--	**Call to action** Make it easy for people to take action right away. Learn how
--	**Spread the news** Share ideas and stories that enhance your message. Learn how
--	**Get events on the calendar** Add an event calendar to keep people up-to-date on related events.  Learn how
-
 |                 |                  |
-| :------------------- | -------------------: |
-|    ![Image of the Giving Site landing page](media/Example-giving-site.png)  | 
--	**Make your site easy to get around** Customize navigation to make it easy for people to discover important content on your site. Learn how
--	**Inspire with imagery and information** Use eye-catching and inspiring images that link to content at the top of the page. Learn how
--	**Make a statement** Create professional, consistent text with multiple formatting choices. Learn how
--	**Call to action** Make it easy for people to take action right away. Learn how
--	**Spread the news** Share ideas and stories that enhance your message. Learn how
--	**Get events on the calendar** Add an event calendar to keep people up-to-date on related events.  Learn how |
+| :------------------- | :------------------- |
+|    ![Image of the Giving Site landing page](media/Example-giving-site.png)  | **Make your site easy to get around** Customize navigation to make it easy for people to discover important content on your site. [*Learn how*](##Make-your-site-easy-to-get-around) <br> <br>**Inspire with imagery and information** Use eye-catching and inspiring images that link to content at the top of the page. [*Learn how*](##Inspire-with-imagery-and-information)<br> <br>**Make a statement** Create professional, consistent text with multiple formatting choices. [*Learn how*](##Make-a-statement-with-the-text-web-part)<br> <br>**Call to action** Make it easy for people to take action right away. [*Learn how*](##Call-to-action)<br> <br>**Spread the news** Share ideas and stories that enhance your message. [*Learn how*](##Spread-the-news-with-the-News-web-part)<br> <br>**Get events on the calendar** Add an event calendar to keep people up-to-date on related events.  [*Learn how*](##Add-a-calendar-of-events-with-the-Events-web-part)| 
 
  
 
@@ -93,7 +78,7 @@ Editing the web part presents layout options. The **Tiles** option, such as the 
 
 In this example, the Hero web part is in a full-width section.
 
-Use the **Move item** Move web part button button on the left to rearrange the tiles within the Hero web part.
+Use the **Move item** ![Move item icon](media/Move-item-icon.png) Move web part button button on the left to rearrange the tiles within the Hero web part.
 
    ![Image of the Hero web part](media/Hero-web-part-screenshot.png)
 <br>
