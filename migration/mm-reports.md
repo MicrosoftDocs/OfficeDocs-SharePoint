@@ -268,5 +268,5 @@ This report provides scores ranging from 1 to 100. The greater the number, the h
 |:-----|:-----|:-----|
 |Reading source speed score<br/> |[Improving the speed at which the source can be read](./mm-performance.md#improving-the-speed-at-which-the-source-can-be-read)<br/> |
 |Local disk performance score<br/> |[Improving the migration computer speed](./mm-performance.md#improving-the-migration-computer-speed) <br/> |
-|Uploading speed score  <br/> |[Improving your connectivity to Office 365 and Azure](/harepointmigration/mm-performance#improving-your-connectivity-to-0ffice-365-and-azure)<br/> |
+|Uploading speed score  <br/> |[Improving your connectivity to Office 365 and Azure](/sharepointmigration/mm-performance#improving-your-connectivity-to-0ffice-365-and-azure)<br/> |
 |SharePoint throughput score <br/> |[Improving your migration performance](./sharepoint-online-and-onedrive-migration-speed.md) <br/> |
