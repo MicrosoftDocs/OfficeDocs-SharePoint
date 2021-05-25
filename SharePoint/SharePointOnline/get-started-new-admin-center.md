@@ -101,6 +101,9 @@ To move a card to a different location on the page, drag the card title.
   
 ## Customize the navigation pane
 
+> [!NOTE]
+> This feature isn't available if you're signed in as a global reader.
+
 1. At the bottom of the left pane, select **Customize navigation**.
 
 2. Select the items you want to appear in the pane, and then select **Save**.
@@ -122,7 +125,7 @@ If you're used to working in the classic SharePoint admin center, to learn where
 |settings      |    [Settings](https://admin.microsoft.com/sharepoint?page=settings&modern=true)     |      The new page includes the most common settings, and others are coming soon. At the bottom of the new Settings page, to access all the classic settings, select **classic settings page**.    |
 |geo locations      |     [Advanced > Geo locations](https://admin.microsoft.com/sharepoint?page=geoLocations&modern=true)  |         |
 |access control      |    [Policies > Access control](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true)     |     The new SharePoint admin center contains all the classic settings and more.    |
-|data migration      |    [Migration](https://admin.microsoft.com/sharepoint?page=migration&modern=true)     |     The new Migration Manager lets you migrate from on-premises file shares and SharePoint Server sites as well as popular cloud providers. [Learn more about Migrating content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online)    |
+|data migration      |    [Migration](https://admin.microsoft.com/sharepoint?page=migration&modern=true)     |     The new Migration Manager lets you migrate from on-premises file shares and SharePoint Server sites as well as popular cloud providers. This feature isn't available if you're signed in as a global reader. [Learn more about Migrating content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online)    |
 |User profiles, Search, Apps, BCS, Secure store, Records management, InfoPath, Configure hybrid (hybrid picker). |   [More features](https://admin.microsoft.com/sharepoint?page=classicFeatures&modern=true)      |         |
 
 
