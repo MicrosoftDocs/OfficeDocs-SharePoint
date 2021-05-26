@@ -65,7 +65,7 @@ Additionally, from teams and channels in Microsoft Teams, you can select the ell
 
 
 
-## Manage Teams connected team sites and channel sites 
+## Manage Teams connected team and channel sites 
 
 Teams connected team sites and channel sites are managed differently than the typical SharePoint team site. Certain site information and permissions can only be managed from the parent team site in Microsoft Teams settings. Learn more about how to [view and manage specific settings and permissions in Teams](https://support.microsoft.com/office/manage-team-settings-and-permissions-in-teams-ce053b04-1b8e-4796-baa8-90dc427b3acc#:~:text=If%20you%E2%80%99re%20a%20team%20owner%2C%20you%27re%20in%20control,or%20permissions%20you%20want%20to%20use.%20See%20More) connected channel sites.
 
@@ -79,6 +79,8 @@ You’ll notice that when you navigate to **Settings**, there is no option to se
 **Learn more about managing membership in Teams:**
 
 [Private channels in Microsoft Teams](https://docs.microsoft.com/microsoftteams/private-channels)
+<br>
+
 [Manage team settings and permissions in Teams](https://support.microsoft.com/office/manage-team-settings-and-permissions-in-teams-ce053b04-1b8e-4796-baa8-90dc427b3acc)
 
 
@@ -92,11 +94,15 @@ For Teams connected channel sites the sensitivity settings are inherited from th
 **Learn more about Microsoft Teams policies here:**
 
 [Overview of security and compliance](https://docs.microsoft.com/microsoftteams/security-compliance-overview)
+<br>
+
 [Manage teams policies in Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-policies)
 
 
 ## More resources
 
 [Create a Microsoft Team from SharePoint](https://support.microsoft.com/office/create-a-microsoft-team-from-sharepoint-545973b6-c38f-426a-b2b6-16405a561628)
+<br>
+
 [Microsoft Teams can have standard or private channels](https://support.microsoft.com/office/teams-can-have-standard-or-private-channels-de3e20b0-7494-439c-b7e5-75899ebe6a0e)
 
