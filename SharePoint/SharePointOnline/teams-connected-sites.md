@@ -24,7 +24,27 @@ description: "Learn how to manage Teams connected sites."
 
 # Learn how to manage Teams connected sites
   
-A home site is a SharePoint [communication site](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) that you create and set as the top landing page for all users in your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. 
+In this article, learn more about how to identify, manage, and navigate between teams in Microsoft Teams, SharePoint team sites and channel sites.
+
+### What’s a Teams connected channel site?
+When you create a team in Microsoft Teams, a Microsoft 365 connected team site in SharePoint gets automatically created. This site is referred to as a Teams connected team site. This team site contains folders for each standard channel created from Microsoft Teams. Also, when you create a private channel in Microsoft Teams, a team site in SharePoint also gets automatically created. 
+
+![Image of teams and channels in Microsoft Teams](media/overview-of-teams-channel-sites.png)
+
+These sites are referred to as Teams connected channel sites. The SharePoint sites that are Teams connected team sites and channel sites are a specialized site type of SharePoint team site that has been optimized for its Teams connection.
+
+![Image of Microsoft Teams channel site types](media/Teams-connected-sites.png)
+
+You’ll notice that a handful of typical SharePoint team site features aren’t available in Teams connected team sites and channel sites, such as:
+- The ability to select the start symbol (follow links) on sites, lists, and libraries.
+- 2013 Workflows
+- The InfoPath form option is not available
+
+
+## How to identify and navigate between Microsoft Teams and connected sites
+
+Teams connected team sites and channel sites include additional information to indicate the connection to Microsoft Teams. In the SharePoint team site header, you will see the Microsoft Teams icon following the site logo and site title. 
+
 
 ## Home site capabilities
 
