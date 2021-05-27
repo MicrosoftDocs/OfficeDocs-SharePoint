@@ -25,7 +25,7 @@ search.appverid:
 - MBS150
 - BCS160
 - MET150
-ms.assetid: 576325ad-8c40-4fe8-8a63-68c3b7d536cf
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to change your SharePoint domain name using PowerShell"
 ---
 
