@@ -1,5 +1,5 @@
 ---
-title: "Change your SharePoint domain name"
+title: "Rename your SharePoint domain"
 ms.reviewer: waynewin
 ms.author: kaarins
 author: kaarins
@@ -26,10 +26,10 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 576325ad-8c40-4fe8-8a63-68c3b7d536cf
-description: "Learn about changing your organization name in SharePoint URLs"
+description: "Learn how to change your SharePoint domain name using PowerShell"
 ---
 
-# Change your SharePoint domain name
+# Rename your SharePoint domain
 
 It's now possible to change the SharePoint domain name for your organization in Microsoft 365. For example, if the name of your organization changes from "Contoso" to "Fabrikam," you can change `contoso.sharepoint.com` to `fabrikam.sharepoint.com`.
 
@@ -127,7 +127,7 @@ It's now possible to change the SharePoint domain name for your organization in 
  
 7. Confirm that your domain has been added to the list. 
 
-    ![Custom domain name pane](media/domain-verified.png)
+    ![Domain status verified](media/domain-verified.png)
 
 ## Step 2: Use Microsoft PowerShell to rename your domain
 
@@ -153,9 +153,9 @@ When you run this command, all admins will immediately receive an email notifica
 
 You can get the status of the rename by running `Get-SPOTenantRenameStatus`. You can get the status of sites by running:
 
-    ```PowerShell
-    Get-SPOTenantRenameStatus -SiteState <SiteState> [-Limit <Limit>]​ 
-    ```
+```PowerShell
+Get-SPOTenantRenameStatus -SiteState <SiteState> [-Limit <Limit>]​ 
+```
 
 Where "SiteState" is `NotStarted`, `InProgress`, `Success`, or `AttentionRequired` and "Limit" is the number of sites returned. By default, only the first 200 sites are returned. The value `All` will return all sites.
 
