@@ -41,6 +41,7 @@
       "extendBreadcrumb": "true",
       "uhfHeaderId": "MSDocsHeader-M365-IT",
       "titleSuffix": "Migrate to SharePoint and OneDrive",
+      "recommendations": true,
       "contributors_to_exclude": [
         "dstrome",
         "daswifty",
