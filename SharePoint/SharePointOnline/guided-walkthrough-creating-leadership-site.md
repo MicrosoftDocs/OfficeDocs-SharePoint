@@ -50,13 +50,13 @@ Once you have your created your site and know how to edit pages, you can use the
 
 **5. Connect to important resources** Link to pages and sites that cover key topics. [Learn how](#connect-to-important-resources-with-the-quick-links-web-part)
 
-**6. Engage with video**  Add video to keep people updated on the latest talks, updates, and more. [Learn how](#make-it-visual-by-adding-video-with-the-stream-web-part)
+**6. Engage with video**  Add video to keep people updated on the latest talks, updates, and more. [Learn how](#add-video-with-the-stream-web-part)
 
 ![Image of the Yammer and Hero web parts](media/gw-leadership/long-78.png)
 
 **7. Keep communication fresh** Share recent conversations and comments from your organization. [Learn how](#keep-communication-fresh-with-the-yammer-web-part)
 
-**8. Engage users with beautiful images** Add more images with text and links to make your page look great and engage users. [Learn how](#engage-users-with-beautiful-images-with-a-second-hero-web-part)
+**8. Showcase images** Add more images with text and links to make your page look great and engage users. [Learn how](#engage-users-with-a-second-hero-web-part)
 
 ![Image of the Events web part](media/gw-leadership/long-9.png)
 
@@ -64,11 +64,11 @@ Once you have your created your site and know how to edit pages, you can use the
 
 ![Image of the Call to action web part](media/gw-leadership/long-10.png)
 
-**10. Sign them up** Create a call to action for sign-ups, surveys, or other important actions. [Learn how](#sign-them-up-with-the-call-to-action-web-part)
+**10. Create a call to action** Create a call to action for sign-ups, surveys, or other important actions. [Learn how](#add-a-call-to-action-web-part)
 
 ![Image of the Text web parts](media/gw-leadership/long-11.png)
 
-**11. Inspire** Add impact with inspirational or vision-oriented quotes. [Learn how](#inspire-with-a-quote-using-the-text-web-part)
+**11. Use text** Use the Text web part to add a quote or share a message. [Learn how](#make-words-matter-using-the-text-web-part)
 
 ## Create your site
 
@@ -188,7 +188,7 @@ For more details on using the Quick links web part, see [Use the Quick Links web
 
 [Back to top](#lets-get-started)
 
-## Make it visual by adding video with the Stream web part
+## Add video with the Stream web part
 
 Using the [Microsoft Stream service](https://docs.microsoft.com/stream/overview), you can add Stream videos to your page for enhanced visuals and higher user engagement.
 
@@ -212,7 +212,7 @@ For more details on using the Yammer web part, see [Use a Yammer web part in Sha
 
 [Back to top](#lets-get-started)
 
-## Engage users with beautiful images with a second Hero web part
+## Engage users with a second Hero web part
 
 The Hero web part doesn't have to be for the top of the page only. In this example, a second hero web part further down the page uses the **Layers** layout with two rows to display larger images.
 
@@ -230,7 +230,7 @@ In this Leadership site example, the web part is in the second column of a two-c
 
 Learn more about the Events web part in [Use the Events web part](https://support.microsoft.com/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909).
 
-## Sign them up with the Call to action web part
+## Add a Call to action web part
 
 The Call to action web part allows you to create a button with a call to action for users. In this example, it's used to encourage and direct employees to sign up for a speaker session.
 
@@ -240,7 +240,7 @@ In this Leadership site example, the web part is in the second column of a two-c
 
 For more details on how to use this web part, see [Use the Call to action web part](https://support.microsoft.com/office/use-the-call-to-action-web-part-e9917310-7543-4fc4-8f3f-d78e46074c00).
 
-## Inspire with a quote using the Text web part
+## Make words matter using the Text web part
 
 ### Enhance the message
 
@@ -256,4 +256,6 @@ For more details on using the Text web part, see [Add text and tables to your pa
 
 ## Want more?
 
-Get inspired with more examples in the [SharePoint Look Book](https://sharepointlookbook.azurewebsites.net/).
+Get inspired with more examples in the [SharePoint look book](https://sharepointlookbook.azurewebsites.net/).
+
+See other [guided walkthroughs](https://support.microsoft.com/office/guided-walkthroughs-creating-sites-for-your-organization-7cc52ac9-394e-417e-85fe-33070e0cd13c?ui=en-us&rs=en-us&ad=us) for creating sties for your organization.
