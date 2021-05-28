@@ -220,6 +220,8 @@ The Hero web part doesn't have to be for the top of the page only. In this examp
 
 Learn more about the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645).
 
+[Back to top](#lets-get-started)
+
 ## Keep everyone up to date with the Events web part
 
 The Events web part allows you to easily display upcoming events on your page. In this example, leadership events are highlighted.
@@ -230,6 +232,8 @@ In this Leadership site example, the web part is in the second column of a two-c
 
 Learn more about the Events web part in [Use the Events web part](https://support.microsoft.com/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909).
 
+[Back to top](#lets-get-started)
+
 ## Add a Call to action web part
 
 The Call to action web part allows you to create a button with a call to action for users. In this example, it's used to encourage and direct employees to sign up for a speaker session.
@@ -239,6 +243,8 @@ In this Leadership site example, the web part is in the second column of a two-c
 ![Image of the Call to action web part](media/gw-leadership/gw-20.png)
 
 For more details on how to use this web part, see [Use the Call to action web part](https://support.microsoft.com/office/use-the-call-to-action-web-part-e9917310-7543-4fc4-8f3f-d78e46074c00).
+
+[Back to top](#lets-get-started)
 
 ## Make words matter using the Text web part
 
