@@ -110,7 +110,7 @@ You can delete any permission level, except for **Full Control** and **Limited A
   
 To delete a permission level, on the **Permissions Levels** page, select the check box next to the permission level that you want to delete, and then chose **Delete Selected Permission Levels**.
   
-> [!CAUTION]
+> [!IMPORTANT]
 > It is possible to create permission levels which do not grant the minimum required permissions. The modern user experience uses client side rendering which requires that all users have the "Use Remote Interfaces" permission. Removing "Use Remote Permissions" from a permissions level will result in Access Denied errors that either prevent features on a modern page from loading or prevent the entire modern page from loading, resulting in an Access Denied error for the user. 
 
 ## Best practices for permission levels
