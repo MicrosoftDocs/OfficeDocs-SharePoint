@@ -1,5 +1,5 @@
 ---
-title: Guided Walkthrough- Create a Giving site for your organization
+title: Guided walkthrough- Create a Giving site for your organization
 ms.reviewer: 
 ms.author: dowallace
 author: dowallace
@@ -20,7 +20,7 @@ search.appverid:
 description: "Learn how to create a Giving site for your organization in SharePoint"
 ---
 
-# Guided Walkthrough- Create a Giving Site for your organization
+# Guided walkthrough: Create a giving site for your organization 
 
 In this article, we show you elements of an example Giving site to inspire you, and help you learn how to create similar sites for your own organization. In this example, the Giving site provides an example of how a page with thoughtful design and messaging can inspire your organization. This example page is also deployed as part of a Human Resources Hub site.
 
@@ -34,7 +34,7 @@ Once you have your created your site and know how to edit pages, you can use the
 
 |                 |                  |
 | :------------------- | :------------------- |
-|    ![Image of the Giving Site landing page](media/Example-giving-site.png)  | **Make your site easy to get around** Customize navigation to make it easy for people to discover important content on your site. [*Learn how*](##Make-your-site-easy-to-get-around) <br> <br>**Inspire with imagery and information** Use eye-catching and inspiring images that link to content at the top of the page. [*Learn how*](##Inspire-with-imagery-and-information)<br> <br>**Make a statement** Create professional, consistent text with multiple formatting choices. [*Learn how*](##Make-a-statement-with-the-text-web-part)<br> <br>**Call to action** Make it easy for people to take action right away. [*Learn how*](##Call-to-action)<br> <br>**Spread the news** Share ideas and stories that enhance your message. [*Learn how*](##Spread-the-news-with-the-News-web-part)<br> <br>**Get events on the calendar** Add an event calendar to keep people up-to-date on related events.  [*Learn how*](##Add-a-calendar-of-events-with-the-Events-web-part)| 
+|    ![Image of the Giving Site landing page](media/Example-giving-site.png)  | **1. Make your site easy to get around** Customize navigation to make it easy for people to discover important content on your site. [*Learn how*](##Make-your-site-easy-to-get-around) <br> <br>**2. Inspire with imagery and information** Use eye-catching and inspiring images that link to content at the top of the page. [*Learn how*](##Inspire-with-imagery-and-information)<br> <br>**3. Make a statement** Create professional, consistent text with multiple formatting choices. [*Learn how*](##Make-a-statement-with-the-text-web-part)<br> <br>**Call to action** Make it easy for people to take action right away. [*Learn how*](##Call-to-action)<br> <br>**4. Spread the news** Share ideas and stories that enhance your message. [*Learn how*](##Spread-the-news-with-the-News-web-part)<br> <br>**5. Get events on the calendar** Add an event calendar to keep people up-to-date on related events.  [*Learn how*](##Add-a-calendar-of-events-with-the-Events-web-part)| 
 
  
 
@@ -93,6 +93,17 @@ For more details on using the Hero web part, see [Use the Hero web part](https:/
 
 [Back to top](##Example-Giving-Site)
 
+
+## Make a statement with the text web part
+Uniform, professional-looking typography is a feature of this site, and the Text web part provides tools to refine the impact of text used in several locations on this page. In this example, the Text web part is using the **Normal text** style. Clicking the ellipses (…) at the right end of the formatting toolbar offers additional options.
+
+In this Giving site example shown below, the web part is in a one-column section.
+   ![Image of the Text web part](media/text-web-part.png)
+
+For more details on using the Text web part, see [Add text and tables to your page with the Text web part](https://support.microsoft.com/en-us/office/add-text-and-tables-to-your-page-with-the-text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801)
+
+[Back to top](##Example-Giving-Site)
+
 ## Call to action
 In this example, the Giving site has a section using a three-column layout with images and links within the section.
   
@@ -131,8 +142,7 @@ Web parts may be edited, moved or deleted within sections. The **Edit web part**
 When your page updates are ready, click **Publish** to make them visible to your audience.
 
    ![Image of the Publish option](media/Your-page-has-been-saved-publish.png)
-> [!TIP]
-To manage all of your pages on the site, click **Pages** on the top menu.
+> [!TIP]To manage all of your pages on the site, click **Pages** on the top menu.
 For more details on using pages, see Create and use modern pages on a SharePoint site.
 
 [Back to top](##Example-Giving-Site)
@@ -150,17 +160,6 @@ For more details on using the News web part, see [Use the News web part on a Sha
 [Back to top](##Example-Giving-Site)
 
 
-## Make a statement with the text web part
-Uniform, professional-looking typography is a feature of this site, and the Text web part provides tools to refine the impact of text used in several locations on this page. In this example, the Text web part is using the **Normal text** style. Clicking the ellipses (…) at the right end of the formatting toolbar offers additional options.
-
-In this Giving site example shown below, the web part is in a one-column section.
-   ![Image of the Text web part](media/text-web-part.png)
-
-For more details on using the Text web part, see [Add text and tables to your page with the Text web part](https://support.microsoft.com/en-us/office/add-text-and-tables-to-your-page-with-the-text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801)
-
-[Back to top](##Example-Giving-Site)
-
-
 ## Add a calendar of events with the Events web part
 The Events web part allows you to easily display upcoming events on your Giving page. You can use this web part to draw attention to Giving-related events, ranging from planning sessions to the actual events, and viewers can easily click the event to add it to their calendars.
 
@@ -172,4 +171,4 @@ For more details on using the Events web part, see [Use the Events web part](htt
 [Back to top](##Example-Giving-Site)
 
 ### Want more?
-Get inspired with more examples and the ability to add an example Giving site with the SharePoint Look Book.
+Get inspired with more examples and the ability to add an example Giving site with the [SharePoint Look Book](https://lookbook.microsoft.com/details/5b5ef75c-2acc-410e-8c60-3ee01e7acfc8).
