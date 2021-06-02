@@ -23,7 +23,7 @@ ms.assetid:
 description: "How to format a JSON or CSV file for data content migration by using the SharePoint Migration tool (SPMT)."
 ---
 
-# How to format your JSON or CSV for data content migration
+# Bulk upload SPMT migration task with JSON or CSV file
 
 The SharePoint Migration tool (SPMT) enables you to bulk upload your migration task information by using a JSON or CSV file. This method helps if you're creating a large number of tasks.
   
@@ -56,9 +56,36 @@ https://sharepoint2013.com/sites/contosoteamsite/,DocumentLibraryName,DocLibrary
 >
 > If the language of the destination SharePoint site isn't English, check the internal name of the "Shared Documents" Document library at https://contoso.sharepoint.com/sites/SampleSite/_layouts/15/viewlsts.aspx?view=14.
   
-> [!IMPORTANT]
-> Proxy connections aren't supported. Proxy connections will yield errors such as "SharePoint login fail" or "cannot load document library".
-  
+### Proxy connections
+
+Proxy connections are not supported for either SharePoint or file share migrations. By default, SPMT doesn't use system proxy credentials and web requests will fail if Internet Explorer proxy is configured.  Examples of errors you may see include "SharePoint login fail" or "cannot load document library". However, can modify the SPMT app config file to follow your system proxy settings. 
+
+If you wish to leverage your system proxy settings, use one of these methods:
+
+#### Update proxy 
+
+1. Download the latest version of SPMT. Start SPMT.
+2. If SPMT doesn't connect to Microsoft 365, go to  **%localappdata%\Apps\SharePointMigrationTool\SPMT**.
+3. Open the *microsoft.sharepoint.migrationtool.advancedapp.exe.config* file.
+4. Comment out the default proxy setting shown here:
+    ![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)
+
+5. Restart SPMT.
+
+#### If SPMT doesn't upgrade
+
+1. If SPMT cannot upgrade itself, go to **%localappdata%\Apps\SharePointMigrationTool\InstallerClient.**
+2. Open the **installclient.exe.config** file. 
+3. Add the following configuration at line 31, just after the ```<appSettings></appSettings``` tag: 
+</br>
+
+   ![Edit the config file](media/spmt-proxy-edits.png)
+
+4. Launch installclient.exe and SPMT should auto-upgrade to latest SPMT release.
+5. Comment out the proxy setting as described above.
+6. Restart SPMT.
+
+
  **To create a CSV file for data migration**
   
 The following example uses Excel to create the CSV file.
