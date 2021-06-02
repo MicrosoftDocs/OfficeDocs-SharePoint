@@ -45,55 +45,56 @@ It's now possible to change the SharePoint domain name for your organization in 
 
 |App/feature  |Limitation  |Action required  |
 |---------|---------|---------|
-|OneDrive    |Only the domain name portion in URLs is changed. The relative path that's based on the User Principle Name (UPN) isn't changed.| None|
-|OneDrive sync app (OneDrive.exe)    |Requires version 17.3.6943.0625 or later for all users.      | Make sure the URLs "oneclient.sfx.ms" and "g.live.com." aren't blocked, and that all computers in your organization can reach them to apply updates  |
-|OneDrive sync app (OneDrive.exe) |The organization name displayed in Office apps isn't changed (For example, the app displays the old folder name C:\Users\Sophia\OneDrive – Contoso)      | Users can disconnect and reconnect their account in the Office app. *HOW? I don't see a "disconnect" command*   |  
-|OneNote    |Requires a recent version of OneNote     | Make sure all users have the following versions installed: <br> OneNote desktop app: Version 16.0.8326.2096 or later <br> OneNote for Windows 10: Version 16.0.8431.1006 or later<br> OneNote mobile app: Version 16.0.8431.1011 or later|
-|OneNote |While the domain name is being changed, users might encounter a notebook sync error     | None       |
-|SharePoint mobile apps |Requires a recent version of the mobile app     | Make sure all users have the following versions installed:<br>iOS: 4.20.0 or later<br> Android: 3.21.0 or later |
-|SharePoint mobile apps |While the domain name is being changed, users might encounter a notebook sync error     | None       |
-| Search and Delve |The search index might take a while to reflect new URL changes.|None|
-|Search and Delve |Search results might not be complete or might return results for the original URLs until the search index is updated.| None |
-|Office "Recent" and "Pinned" lists |These lists are updated immediately for the first 100 users for each URL that was changed. The remaining are updated when the search index is updated.| None |
-|Office.com |The URLs at https://www.office.com can take 24 hours to be updated.| None |
-|Hub site menu items| Items that contain absolute URLs aren't changed.  | Edit the menu items and if necessary, change the URLs to the new domain name. |
-|SharePoint content  | Content (such as text on pages) that includes the domain name won't be updated to display the new name. | Search for the old domain name and edit content to display the new domain name.|
+| Hub site menu items | Although the menu items will continue to work, items that contain absolute URLs aren't changed.  | Edit the menu items and if necessary, change the URLs to the new domain name. |
+| Office "Recent" and "Pinned" lists | These lists are updated immediately for the first 100 users for each URL that was changed. The remaining are updated over time depending on usage. | None |
+|Office.com | The URLs at https://www.office.com can take 24 hours to be updated. | None |
+| OneDrive | Only the domain name portion in URLs is changed. The relative path that's based on the User Principle Name (UPN) isn't changed. | None |
+| OneDrive sync app (OneDrive.exe) | Requires version 17.3.6943.0625 or later for all users. | Make sure the URLs "oneclient.sfx.ms" and "g.live.com." aren't blocked, and that all computers in your organization can reach them to apply updates. |
+| OneDrive sync app (OneDrive.exe) | The organization name displayed in Office apps isn't changed (For example, the app displays the old folder name C:\Users\Sophia\OneDrive – Contoso) | Users can disconnect and reconnect their account in the Office app. |  
+| OneNote | Requires a recent version of OneNote. | Make sure all users have the following versions installed: <br> OneNote desktop app: Version 16.0.8326.2096 or later. <br> OneNote for Windows 10: Version 16.0.8431.1006 or later. <br> OneNote mobile app: Version 16.0.8431.1011 or later. |
+| OneNote | While the domain name is being changed, users might encounter a notebook sync error.| None |
+| SharePoint mobile apps | Requires a recent version of the mobile app. | Make sure all users have the following versions installed:<br>iOS: 4.20.0 or later. <br> Android: 3.21.0 or later. |
+| SharePoint mobile apps | While the domain name is being changed, users might encounter a notebook sync error. | None |
+| Search and Delve | The search index might take a while to reflect new URL changes. | None |
+| Search and Delve | Search results might not be complete or might return results for the original URLs until the search index is updated.| None |
+| SharePoint content  | Although content (such as text on pages) that includes the domain name will continue to work, these won't be updated to display the new name. | Search for the old domain name and edit content to display the new domain name. |
 
 ### Medium impact
 
 |App/feature  |Limitation  |Action required  |
 |---------|---------|---------|
-| Teams on the web and Teams desktop app|Meeting notes for previous meetings are deleted *THIS SAID "WILL NOT BE FUNCTIONAL" BUT IT SOUNDS LIKE ACTUAL DATA LOSS??*| Before changing your domain name, save the meeting notes to a different location. After the rename, delete and recreate the meeting, and then restore the notes from the saved location. |
-|Teams on the web and Teams desktop app|On the Files tab, any folders added with the "Add cloud storage" (which point to another SharePoint site) won't work.| Remove and readd the folders. |
-|Teams on the web and Teams desktop app|Document libraries added as a tab won't work| Remove and readd the tab |
-|Power Apps|SharePoint forms modified with Power Apps won't work.| Delete any forms you don't need anymore or reset them to enable the default SharePoint form. You might need to delete some forms by using PowerShell. You might also need to recreate SharePoint forms in Power Apps. |
-|Power Apps|Apps that use a SharePoint connection as a data source won't work.| Reconnect the apps to SharePoint |
-|Power Automate |Flows that use a SharePoint connection as a data source won't work.|Reconnect these flows to SharePoint.
-|SharePoint add-ins | Add-ins might not function as expected. |The add-ins might need to be republished. <br>Review the App configuration settings in Azure AD for the add-in and update any URLs to the new domain name.
-|eDiscovery |Holds can't be removed until you update the URLs |In the Compliance center, change the eDiscovery hold URLs to the new domain name.|
-|Project Online | Workflows that are “in flight” won't complete and will be orphaned. |Before changing your domain name, make sure all “in flight” workflows are completed. After you change the domain name, republish the workflows. You can then reset them to "in flight" in Project Web App by going to PWA Settings > Change or Restart Workflows. 
-|Project Online | New workflow instances can't be initiated. |*NONE??*|
-|Project Online | Association to previous workflow instances isn't available and will be orphaned. |*NONE??*|
-|Project Online |URLs embedded in workflows aren't changed. For example, if a workflow contains the embedded URL `contoso.sharepoint.com`, it isn't change. This might impact the functionality of the workflow.|Workflows that contain URLs referring to the original domain name might need to be updated to the new name.|
-|Project Online| References to PWA sites in Project Online at https://project.microsoft.com won't work |In Project Online at https://project.microsoft.com, change the URL of the PWA sites under Settings > My PWA Site.|
-|Project Online | Custom Excel Reports that use Microsoft Project Data connections as a data source won't work. | These reports will need to be reconnected. |
-|Project Pro| The app won't work until you update the URL of the PWA site. | Before changing your domain name, make sure that all projects that are checked out in Project Pro are checked in. After you change the domain name, change the URL of the PWA site under File > Info > Manage Accounts.|
-|SharePoint 2013 workflows  |Workflows that are “in flight” won't complete and will be orphaned. |Before changing your domain name, make sure all “in flight” workflows are completed. After you change the domain name, republish the workflows.|
-|SharePoint 2013 workflows *CAN WE COMBINE WITH PROJECT ONLINE TO AVOID REPEATING?*| New 2013 Workflow instances can't be initiated.|*NONE??*|
-|SharePoint 2013 workflows *CAN WE COMBINE WITH PROJECT ONLINE TO AVOID REPEATING?*| Association to previous workflow instances isn't available and will be orphaned.| *NONE??*|
-|SharePoint 2013 workflows *CAN WE COMBINE WITH PROJECT ONLINE TO AVOID REPEATING?*|URLs embedded in workflows aren't changed. For example, if a workflow contains the embedded URL `contoso.sharepoint.com`, it isn't changed. This might impact the functionality of the workflow.|Workflows that contain URLs referring to the original domain name might need to be updated to the new name.|
-|InfoPath forms| Forms that use a SharePoint connection as a data source won't work. |Reconnect these forms to SharePoint.|
-|Site customizations and embedded code|Absolute URLs embedded in SharePoint customizations aren't updated.|Edit customizations that contain absolute URLs and if necessary, change the URLs to the new domain name.|
-|Custom apps, third-party apps, and Group Policy objects | Absolute URLs embedded in these apps and objects aren't changed.| Edit custom apps and Active Directory Group Policy objects that contain absolute URLs and if necessary, change the URLs to the new domain name. Confirm with third-party app publishers that apps don't contain absolute URLs.|
-|Custom and third-party apps | Some apps might not process the HTTP 308 direct correctly. | Edit custom apps and work with third-party app publishers to ensure that they handle HTTP 308 responses correctly.|
+| Custom apps, third-party apps, and Group Policy objects | Absolute URLs embedded in these apps and objects aren't changed. | Edit custom apps and Active Directory Group Policy objects that contain absolute URLs and if necessary, change the URLs to the new domain name. Confirm with third-party app publishers that apps don't contain absolute URLs. |
+| Custom and third-party apps | Some apps might not process the HTTP 308 direct correctly. | Edit custom apps and work with third-party app publishers to ensure that they handle HTTP 308 responses correctly. |
+| Delve | Viewing People profiles in Delve can take 24 hours before they work. | None |
+| eDiscovery | Holds can't be removed until you update the URLs | In the Compliance center, change the eDiscovery hold URLs to the new domain name. |
+| InfoPath forms | Forms that use a SharePoint connection as a data source won't work. | Reconnect these forms to SharePoint. |
+| Power Apps | SharePoint forms modified with Power Apps won't work. | Delete any forms you don't need anymore or reset them to enable the default SharePoint form. You might need to delete some forms by using PowerShell. You might also need to recreate SharePoint forms in Power Apps. |
+| Power Apps | Apps that use a SharePoint connection as a data source won't work. | Reconnect the apps to SharePoint. |
+| Power BI | Power BI reports using SharePoint connections as a data source won't work. |	In preparation for performing the SPO Tenant Rename, download the Power BI reports that are using SharePoint connections as a data source as a .pbix file. After the SPO Tenant Rename, edit the connections in the Power BI Desktop app and republish the report. <br> Power BI reports that are not created or maintained in the Power BI Desktop app will need to be recreated. |
+| Project Online | Workflows that are “in flight” won't complete and will be orphaned. <br> New workflow instances can't be initiated. <br> Association to previous workflow instances isn't available and will be orphaned. | Before changing your domain name, make sure all “in flight” workflows are completed. After you change the domain name, republish the workflows. You can then reset them to "in flight" in Project Web App by going to PWA Settings > Change or Restart Workflows. |
+| Project Online | URLs embedded in workflows aren't changed. For example, if a workflow contains the embedded URL `contoso.sharepoint.com`, it isn't change. This might impact the functionality of the workflow. | Workflows that contain URLs referring to the original domain name might need to be updated to the new name. |
+| Project Online | References to PWA sites in Project Online at https://project.microsoft.com won't work | In Project Online at https://project.microsoft.com, change the URL of the PWA sites under Settings > My PWA Site. |
+| Project Online | Custom Excel Reports that use Microsoft Project Data connections as a data source won't work. | These reports will need to be reconnected. |
+| Project Pro | The app won't work until you update the URL of the PWA site. | Before changing your domain name, make sure that all projects that are checked out in Project Pro are checked in. After you change the domain name, change the URL of the PWA site under File > Info > Manage Accounts. |
+| SharePoint 2013 workflows | Workflows that are “in flight” won't complete and will be orphaned. <br> New 2013 Workflow instances can't be initiated. <br>Association to previous workflow instances isn't available and will be orphaned. | Before changing your domain name, make sure all “in flight” workflows are completed. After you change the domain name, republish the workflows. |
+| SharePoint 2013 workflows | URLs embedded in workflows aren't changed. For example, if a workflow contains the embedded URL `contoso.sharepoint.com`, it isn't changed. This might impact the functionality of the workflow. | Workflows that contain URLs referring to the original domain name might need to be updated to the new name. |
+| SharePoint add-ins | Add-ins might not function as expected. | The add-ins might need to be republished. <br>Review the App configuration settings in Azure AD for the add-in and update any URLs to the new domain name. <br> For SPFx applications, in Azure AD update the Authentication URLs to the new domain for the SharePoint Online Client Extensibility Web Application Principal. |
+| Site customizations and embedded code | Absolute URLs embedded in SharePoint customizations aren't updated. | Edit customizations that contain absolute URLs and if necessary, change the URLs to the new domain name. |
+| Teams on the web and Teams desktop app | The first user to access the Files tab for a Team or a Private Channel will experience an error. Subsequent accesses by the first user or other users will be functional. | None |
+| Teams on the web and Teams desktop app | Meeting notes for existing and previous meetings can take 72 hours to become functional. | None |
+| Teams on the web and Teams desktop app | On the Files tab, any folders added with the "Add cloud storage" (which point to another SharePoint site) won't work.| Remove and readd the folders. |
+| Teams on the web and Teams desktop app | Document libraries added as a tab won't work. | Remove and readd the tab. |
+| Teams on the web and Teams desktop app | Embedded images in Wikis will not be displayed. | Edit the Wiki .mht file located in the SharePoint Site Teams Wiki Data library and if required, change the URLs of the embedded images to the new domain name. |
 
 ### High impact
 
 |App/feature  |Limitation  |Action required  |
 |---------|---------|---------|
-| Long URLs|Any absolute URLs to sites or content that exceed the maximum URL length limit of 400 characters won't work.| If the new domain name is longer than the original, review the URLs of all sites, lists, document libraries, list items, and files before your change the domain name to make sure the new URLs won't exceed 400 characters. |
-|Deleted sites | Any sites that have been deleted can't be restored after the change. | Before changing your domain name, review the Deleted sites page in the SharePoint admin center and restore any sites that you might want to keep. |
-|Point-in-time restoration | Restoring a site to a previous time before the domain name change isn't possible | No action available.|
+| Deleted sites | Any sites that have been deleted can't be restored after the change. | Before changing your domain name, review the Deleted sites page in the SharePoint admin center and restore any sites that you might want to keep. |
+| Long URLs | Any absolute URLs to sites or content that exceed the maximum URL length limit of 400 characters won't work. | If the new domain name is longer than the original, review the URLs of all sites, lists, document libraries, list items, and files before your change the domain name to make sure the new URLs won't exceed 400 characters. |
+| Multi-Geo configurations | Customers that have configured or have previously configured SPO Multi-Geo cannot be renamed. | No action available. |
+| Point-in-time restoration | Restoring a site to a previous time before the domain name change isn't possible. | No action available.|
+| Vanity Domain configurations | Customers that have a vanity domain configuration cannot be renamed. | No action available. |
 
 
 ## Step 1: Add the new domain name
@@ -107,7 +108,7 @@ It's now possible to change the SharePoint domain name for your organization in 
     > [!WARNING]
     > Do NOT use the domain to test this procedure in a test environment first. If you do, you won't be able to use the domain for your production environment.
 
-2. Go to the [Custom domain names page in the Azure AD admin center](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains).
+2. Go to the [Custom domain names page in the Azure AD admin center](https://aka.msSPORenameAddDomain).
 
 3. Select **Add custom domain**.
 
@@ -129,10 +130,13 @@ It's now possible to change the SharePoint domain name for your organization in 
 
     ![Domain status verified](media/domain-verified.png)
 
+    > [!WARNING]
+    > If the domain does NOT have the status of verified, then you will NOT be able to perform a rename to this domain.
+
 ## Step 2: Use Microsoft PowerShell to rename your domain
 
 > [!WARNING]
-> Changing your SharePoint domain name might take several hours to days depending on the number of sites and OneDrive users that you have. We strongly recommend that you make this change during a period of low usage (like a weekend) and tell users to avoid accessing SharePoint and OneDrive content during the change. In addition, any actions that create new sites (such as creating a new team or private channel in Microsoft Teams) will be temporarily blocked during the rename. 
+> Changing your SharePoint domain name might take several hours to days depending on the number of sites and OneDrive users that you have. We strongly recommend that you make this change during a period of low usage (like a weekend) and tell users to avoid accessing SharePoint and OneDrive content during the change. In addition, any actions that create new OneDrives and sites (such as creating a new team or private channel in Microsoft Teams) will be temporarily blocked during the rename. 
   
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
@@ -144,22 +148,12 @@ It's now possible to change the SharePoint domain name for your organization in 
 3. Run the following command to specify the new domain name:
   
     ```PowerShell
-    Start-SPOTenantRename -DomainName <DomainName> -ScheduleDateTime <YYYY-MM-DDTHH:MM:SSZ> [-WhatIf] [-Confirm]​ 
+    Start-SPOTenantRename -DomainName <DomainName> -ScheduleDateTime <YYYY-MM-DDTHH:MM:SSZ> [-WhatIf] [-Confirm] 
     ```
 
 Where "ScheduleDateTime" is at least 24 hours in the future, but not more than 30 days.
 
-When you run this command, all admins will immediately receive an email notification. They'll also receive an email reminder four hours before the scheduled date/time. 
-
-You can get the status of the rename by running `Get-SPOTenantRenameStatus`. You can get the status of sites by running:
-
-```PowerShell
-Get-SPOTenantRenameStatus -SiteState <SiteState> [-Limit <Limit>]​ 
-```
-
-Where "SiteState" is `NotStarted`, `InProgress`, `Success`, or `AttentionRequired` and "Limit" is the number of sites returned. By default, only the first 200 sites are returned. The value `All` will return all sites.
-
-You can cancel a scheduled job by running `Stop-SPOTenantRename -Reason <Reason> [-Comment <Comment>] [-WhatIf] [-Confirm]`​
+You can get the status of the rename by running `Get-SPOTenantRenameStatus`.
 
 ## Step 3: Review features and settings after the rename
 
