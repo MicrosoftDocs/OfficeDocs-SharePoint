@@ -73,8 +73,8 @@ To set a site as your organization's home site, you first need to create and cus
 | $1                   | $1                   | 
 
 
-| Image                  | Text               | 
-| :------------------- | :------------------- |
+|                   |                | 
+| :------------------: | :------------------- |
 | ![image of a clipboard](media/icon-plan.png) | Start by aligning objectives with stakeholders and organizing priority content and resources. Consider details specific to your organization like if the home page will need to be available in more than one language. Use modern SharePoint sites for the home site. Learn more about how [modern SharePoint sites](https://support.microsoft.com/office/sharepoint-classic-and-modern-experiences-5725c103-505d-4a6e-9350-300d3ec7d73f) and how to [create a multi-lingual site and pages](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c). | 
 | $100                 | $100                 | 
 | $10                  | $10                  | 
@@ -82,17 +82,16 @@ To set a site as your organization's home site, you first need to create and cus
 
 
 
-
-
-
-
-|                      |                      | 
-| :------------------- | :------------------- |
-| ![image of a clipboard](media/icon-plan.png)  | Start by aligning objectives with stakeholders and organizing priority content and resources. Consider details specific to your organization like if the home page will need to be available in more than one language. Use modern SharePoint sites for the home site. <br>
-Learn more about how [modern SharePoint sites](https://support.microsoft.com/office/sharepoint-classic-and-modern-experiences-5725c103-505d-4a6e-9350-300d3ec7d73f) and how to [create a multi-lingual site and pages](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c).
-
- | 
+|                   |                | 
+| :------------------: | :------------------- |
+| ![image of a clipboard](media/icon-plan.png) 
+Get organized | Start by aligning objectives with stakeholders and organizing priority content and resources. Consider details specific to your organization like if the home page will need to be available in more than one language. Use modern SharePoint sites for the home site. Learn more about how [modern SharePoint sites](https://support.microsoft.com/office/sharepoint-classic-and-modern-experiences-5725c103-505d-4a6e-9350-300d3ec7d73f) and how to [create a multi-lingual site and pages](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c). | 
 | $100                 | $100                 | 
 | $10                  | $10                  | 
 | $1                   | $1                   | 
+
+
+
+
+
 
