@@ -8,7 +8,7 @@ ms.date: 6/21/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: how-to
+ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
@@ -249,7 +249,7 @@ Hybrid uses the Microsoft SharePoint in Microsoft 365 Foundation Subscription Se
     
 2. For the **Microsoft SharePoint Foundation Subscription Settings Service**, select **Enable Auto Provision**
 
-You must also have a Subscription Settings service application and proxy. These must be created by using Microsoft PowerShell. Use the example script provided at [New-SPSubscriptionSettingsServiceApplication](/powershell/module/sharepoint-server/New-SPSubscriptionSettingsServiceApplication?view=sharepoint-ps).
+You must also have a Subscription Settings service application and proxy. These must be created by using Microsoft PowerShell. Use the example script provided at [New-SPSubscriptionSettingsServiceApplication](/powershell/module/sharepoint-server/New-SPSubscriptionSettingsServiceApplication).
   
  **Active Directory Domain Services synchronization connection**
   
