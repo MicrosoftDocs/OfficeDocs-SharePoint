@@ -192,7 +192,7 @@ The example for this setting in the .plist file is:
 This setting lets multiple users use the Microsoft 365 Apps for enterprise, Office 2019, or Office 2016 desktop apps to simultaneously edit an Office file stored in OneDrive. It also lets users share files from the Office desktop apps.
 
 > [!IMPORTANT]
-> We recommend keeping this setting enabled to make syncing faster and reduce network bandwidth. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)
+> We recommend keeping this setting enabled to make syncing faster and reduce network bandwidth. [See all our recommendations for configuring the sync app](ideal-state-configuration.md).
 
 If you set this setting's value to **True** or don't set this setting, the Office tab appears in OneDrive sync preferences, and Use Office applications to sync Office files that I open is selected, by default.
 
@@ -320,4 +320,3 @@ To enable this setting, set a value between 50 and 100,000 that is the upload th
 
 The example for this setting in the .plist file is:
 <br/> \<key\>UploadBandwidthLimited\</key\>  <br/> \<int\>(Upload Throughput Rate in KB/sec)\</int\>  <br/>
-
