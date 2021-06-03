@@ -25,13 +25,13 @@ The Migration Manager centralizes the management of large file share migrations 
 
 **Agent setup**
 
-From the SharePoint admin center, the user selects Migration and then File Shares. The user downloads the agent setup file and installs it on each Windows computer or virtual machine they want to use as migration agent. The agent setup file prompts for two sets of credentials; the SharePoint Admin credentials to access your destination and the Windows credentials that have read access to any of the network file shares you plan to migrate. 
+From the SharePoint admin center, select Migration and then File Shares. Download the agent setup file and install it on each Windows computer or virtual machine you want to use as a migration agent. The agent setup file prompts for two sets of credentials; the SharePoint Admin credentials to access your destination and the Windows credentials that have read access to any of the network file shares you plan to migrate. 
 
 This pair of credentials creates a trust with Migration Manager. Migration Manager now sees it as an available agent to which it can automatically distribute migrations tasks. 
 
 **Task creation**
 
-After the user configures the agent, anyone with the permission to go into the SharePoint Admin center can create tasks. 
+After you configure the agent, anyone with the permission to go into the SharePoint Admin center can create tasks. 
 
 When adding a task, Migration Manager authenticates to the destination tenant and then prompts for the source file location and destination location. Selecting **Migrate** submits the task. The scanning, packaging, uploading, and importing steps are then performed in parallel across all the files chosen for migration.
 
@@ -57,7 +57,7 @@ In the upload stage, the content package is uploaded to Azure with the manifest.
 
 During the import phase, the key is provided to SharePoint SAS. Only Azure and SharePoint are interacting to fetch and migrate the data to the destination. This process is a timer job-based but does not prevent other jobs from being queued up. A report is created in the working folder, and live updates are made during the import.
 
-After the migration job completes, reports are generated for the user and can be downloaded. Report files are cleared when the user deletes the tasks.
+After the migration job completes, reports are generated and can be downloaded. Report files are cleared when you delete the tasks.
 
 **Sessions**
 
