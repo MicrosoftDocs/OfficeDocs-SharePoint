@@ -34,41 +34,37 @@ To create a content type, follow these steps:
 
 **To create a content type**
 
-1. Go to the SharePoint admin center.
+1. Go to the [Content type gallery page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=contentTypes&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
 
-2. Under **Content services**, select **Content type gallery**.
+2. Select **Create content type**. The **Create content type** panel appears.
 
-3. Select **Create content type**. The **Create content type** panel appears.
-
-4. On the **Create content type** panel, provide a name and description for the new content type.
+3. On the **Create content type** panel, provide a name and description for the new content type.
 
     ![Create content type](media/create-content-type.png)
 
-5. In the **Parent content type** section, from the **Category** and **Content type** dropdowns, select the content type that you want to base this content type on.
+4. In the **Parent content type** section, from the **Category** and **Content type** dropdowns, select the content type that you want to base this content type on.
 
-6. In the **Category** section, you are provided two choices:
+5. In the **Category** section, you are provided two choices:
 
     - To put the new content type in an existing category, select **Use an existing category**, and from the **Category** dropdown, select a category.
     
     - To put the content in a new category, select **Create a new category**, and in the **Category name** box, provide a name. 
 
-7. Select **Create**.
+6. Select **Create**.
 
 The new content type appears in the **Content type gallery**.
 
 ## To change the name of a content type
 
-1. Go to the SharePoint admin center.
+1. Go to the [Content type gallery page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=contentTypes&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
 
-2. Under **Content services**, select **Content type gallery**.
+2. Under the **Site content type** column, select the name of the site content type that you want to change.
 
-3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type that you want to change.
+3. On the content type page, on the menu bar, select **Edit**. The **Edit content type** panel appears.
 
-4. On the content type page, on the menu bar, select **Edit**. The **Edit content type** panel appears.
+4. In the **Name** text box, change the name of the content type.
 
-5. In the **Name** text box, change the name of the content type.
-
-6. When done, select **Save**.
+5. Select **Save**.
 
 ## Associate a document template with a content type
 
@@ -80,25 +76,23 @@ You can make it even easier for users by adding the Timesheet content type to a 
 
 **To associate a template with a content type**
 
-1. Go to the SharePoint admin center.
+1. Go to the [Content type gallery page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=contentTypes&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
 
-2. Under **Content services**, select **Content type gallery**.
+2. Under the **Site content type** column, select the name of the  document-based content type that you want to change by associating a Word, Excel, or PowerPoint template.
 
-3. On the **Content type gallery** page, under the **Site content type** column, select the name of the  document-based content type that you want to change by associating a Word, Excel, or PowerPoint template.
+3. In the menu bar, under **Settings**, select **Advanced Settings**. The **Advanced Settings** panel appears.
 
-4. In the menu bar, under **Settings**, select **Advanced Settings**. The **Advanced Settings** panel appears.
-
-5. Enter the location of the template:
+4. Enter the location of the template:
 
     - If the template is stored on your site, select **Use an existing template**, and then enter the URL for the template that you want to use. To edit the template, select **Edit template**.
 
     - If the document template is stored on your local computer, select **Upload a new document template**, and then select **Upload**. From the explorer page, locate the file that you want to use, select it, and then select **Open**.
 
-6. Under **Permissions**, to select whether the content type can be modified, select either **Read** or **Edit**. You can change this setting later from this page by anyone with permissions to edit this content type.
+5. Under **Permissions**, to select whether the content type can be modified, select either **Read** or **Edit**. You can change this setting later from this page by anyone with permissions to edit this content type.
 
-7. Under **Update site and lists**, if you want to update all site and list content types that inherit from this content type with the settings on this page, select **Enable**.
+6. Under **Update site and lists**, if you want to update all site and list content types that inherit from this content type with the settings on this page, select **Enable**.
 
-8. Select **Save**.
+7. Select **Save**.
 
 ## Related topics
 
