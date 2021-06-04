@@ -45,18 +45,22 @@ Based on our research, 69% of employees are more likely to stay with a company f
 ### The NEO experience process:
 
 | Provide new employees a place to get started     | Connect new employees to people and culture     | Help stakeholders easily contribute to new employee onboarding  | Measure effectiveness of new employee onboarding
-| :------------------- | :------------------- |:----------------|
-| Sense of place       | Pre-onboarding       | Departmental and team onboarding |  Value realization
-| Onboarding journey   | Social connections and live events  | Easy to create and maintain compelling content experiences     | Example model for KPIs
+| :------------------- | :------------------- |:----------------|:----------------|
+| Sense of place       | Pre-onboarding       | Departmental and team onboarding |  Value realization |
+| Onboarding journey   | Social connections and live events  | Easy to create and maintain compelling content experiences     | Example model for KPIs |
 
 
 
 ### NEO site template features:
 
 - **A fully configured and customizable set of new hire sites built on SharePoint communication sites:** NEO sites include: the site, information architecture, design, and pre-populated content and web parts. There are three NEO sites available that must be provisioned separately and can be customized or added to your organization’s new hire content. 
+
 - **Onboarding journey:** Onboarding can be an overwhelming experience for new hires with everything the new hire is typically expected to do and learn in a short period of time. Avoid overwhelming your new employees by providing them a curated onboarding journey that paces the new hire through a configurable activity list of administrative, technology, culture, training, and connection-related to-do’s. The onboarding journey comes with a pre-configured list of new employee onboarding activities for you to customize for your processes. 
+
 - **Sample site pages:** To inspire and provide design templates for arranging your content, the NEO site includes sample inner site pages. Use these site pages as templates for your content. 
+
 - **Easy provisioning:** Provision NEO sites from the SharePoint look book with just a few steps.
+
 - **Mobile ready:** NEO sites can be easily accessed on a mobile device when you [get the SharePoint mobile app](https://www.microsoft.com/microsoft-365/sharepoint/mobile-app?wt.mc_id=AID686708_QSG_228389&ocid=AID686708_QSG_228389&rtc=1).
 
 ### NEO site template options: 
@@ -69,15 +73,16 @@ Research has shown Pre-onboarding new hires, after they sign their acceptance le
 | ![Image of the pre-onboarding site](media/neo-preonboarding-thumb.png)| ![Image of the corporate onboarding site](media/neo-corp-onboarding-thumb.png)| ![Image of the department onboarding site](media/neo-department-onboarding-thumb.png)|
 | Share the Pre-onboarding site with new hires as soon as the job offer has been accepted | Share the Corporate onboarding site with new hires on their first day| Managers and onboarding buddies should share their respective Departmental onboarding site |
 
-<br>
 
 1.	**New employee pre-onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for providing pre-start hires, with no corporate credentials, access to the Pre-onboarding site only. 
+
 2.	**New employee corporate onboarding site:** A place for new hires to visit to get the information and connections they need to successfully onboard to the organization. 
+
 3.	**New employee departmental onboarding site:** A place for new hires to visit to learn more about the department they are joining, its people, culture, and priorities. The Departmental onboarding site can be associated to an existing departmental hub.
 
 > [!NOTE]
 > To deliver a flexible and consistent new hire onboarding experience the NEO sites consists of **three different SharePoint site templates**, that are designed to work alone or as one cohesive and familiar experience for new hires. Sites must be provisioned individually, and then can be configured to [create a hub](./create-hub-site.md) or [add a site to an existing hub](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05#:~:text=Associate%20a%20SharePoint%20site%20with%20a%20hub%20site.,to%20your%20site.%20You%20can%20...%20More%20items).
-> You must have site collection administrator permissions or higher to provision the New employee on baording sites.
+> You must have site collection administrator permissions or higher to provision the New Employee Onboarding sites.
 
 
 ## Step 1: Provision NEO sites
@@ -94,16 +99,16 @@ To successfully provision the NEO sites via the SharePoint look book, the person
 
 1.	Go to the [NEO sites solution page](https://provisioning.sharepointpnp.com/details/3df8bd55-b872-4c9d-88e3-6b2f05344239).
 
-  - Provision the New employee pre-onboarding site 
-  - Provision the New employee corporate onboarding site 
-  - Provision the New employee department onboarding site 
+    - Provision the New employee pre-onboarding site 
+    - Provision the New employee corporate onboarding site 
+    - Provision the New employee department onboarding site 
   
 2.	Navigate to the site you want to provision and select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your site collection admin credentials.
 
 3.	From the permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept**.
 
     > [!IMPORTANT]
-    > To deliverThe provisioning service requires these permissions to provision the site template. There is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
+    > The provisioning service requires these permissions to provision the site template. There is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
 
 4.	Complete the fields on the provisioning information page as appropriate for your installation. At a minimum, enter the email address where you wish to get notifications about the provisioning process and the URL prefix for your site to be provisioned to.
 
@@ -147,8 +152,8 @@ It’s important to make sure the right content is available to users at the rig
  
 1.	**New employee pre-Onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for pre-start hires who don't already have corporate credentials to give them access to the Pre-onboarding site only. 
 
-> [!IMPORTANT]
-> Enable external sharing for the Pre-onboarding site. The Pre-onboarding site is intended to be shared with new hires as soon as they sign their offer letter, but before they start their first day at work. Therefore, this site needs to be shared with external users. External sharing is off by default for SharePoint communication sites. In order for site owners to share externally, [turn on external sharing](./change-external-sharing-site.md?branch=hokavian-neo-sites) for the Pre-onboarding site.  
+    > [!IMPORTANT]
+    > Enable external sharing for the Pre-onboarding site. The Pre-onboarding site is intended to be shared with new hires as soon as they sign their offer letter, but before they start their first day at work. Therefore, this site needs to be shared with external users. External sharing is off by default for SharePoint communication sites. In order for site owners to share externally, [turn on external sharing](./change-external-sharing-site.md?branch=hokavian-neo-sites) for the Pre-onboarding site.  
 
 2.	**New employee corporate onboarding site:** A place for new hires to visit to get the information and connections they need to successfully onboard to the organization. 
 
@@ -179,7 +184,7 @@ It’s important to make sure the right content is available to users at the rig
 - Review content in the [Department onboarding site](https://review.docs.microsoft.com/SharePoint/provision-neo-hub?branch=neo-overview#departmental-onboarding)
 
 > [!NOTE]
-> The NEO sites comes with many pre-built pages that can be identified in the site navigation with this symbol ">>." Determine which pages and content to keep, edit, or delete based on the needs of your organization. 
+> The NEO sites come with many pre-built pages that can be identified in the site navigation with this symbol ">>." Determine which pages and content to keep, edit, or delete based on the needs of your organization. 
 
 
 #### New employee pre-onboarding site:
@@ -209,11 +214,17 @@ The corporate onboarding site is the landing place for the new employee onboardi
 
  
 ##### Pre-populated site contents:
+
 - **Home page** – Provide a high-level view of significant concepts that will be relevant to new users. This page is a great location to help new employees build their network and learn from more experienced and knowledgeable employees with [Microsoft Teams live events](/microsoftteams/teams-live-events/what-are-teams-live-events#:~:text=Microsoft%20365%20live%20events%20bring%20live%20video%20streaming,community%20resides%2C%20using%20Microsoft%20Stream%2C%20Teams%2C%20or%20Yammer.)
+
 - **Start here** – Specify what new hires should do in their first 30, 60, and 90 days of onboarding by creating an onboarding process in on the Start your journey here page. The new hire checklist found in this section comes pre-populated with a set of generic onboarding activities. Customize list content to meet your needs. [Learn more about working with SharePoint lists](https://support.microsoft.com/office/introduction-to-lists-0a1c3ace-def0-44af-b225-cfa8d92c52d7).
+
 - **Who we are** – Introduce users to more detail about the organization in the Our story, Our leadership, Our teams pages. Customize these pages and the Office locations page for your organization. Or, link to an existing leadership page instead.
+
 - **Help & Support** - Highlight where to go for support and customize questions and answers for the FAQ page.
+
 - **Community** – Help new hires start building community right away and make sure new hires are aware of Employee resource groups and other connection channels.
+
 - **Departmental onboarding** – Provide an entry point to departmental-level information from the site navigation where users can access departmental onboarding sites. Consider provisioning the Department site template. 
 
 
@@ -224,9 +235,13 @@ Here, users need to learn about departmental leadership, culture, goals, and res
  
 
 ##### Pre-populated site contents:
+
 - **Home page** - Provide a high-level view of significant concepts that will be relevant to new hires.
+
 - **Getting started** – Help users quickly understand onboarding tasks, departmental procedures, and anything else that will help new hires be successful. 
+
 - **Meet the team** – Introduce new hires to people, the organization structure and goals on the Leadership, The organization, and Our priorities pages. Edit the [Call to Action web part](https://support.microsoft.com/office/use-the-call-to-action-web-part-e9917310-7543-4fc4-8f3f-d78e46074c00) to include links and images. Or, link to an existing team page instead.
+
 - **Help and support** - Highlight where to go for support and consider creating a FAQ section.
 
 
@@ -246,11 +261,17 @@ Site navigation is important because it helps users immediately understand what 
 Customize web parts with images, labels, links, and content that aligns with your organization’s mission. Keep images and descriptions simple and easy to understand for your new-hire audience.
 
 - **Hero web part** - Bring focus and visual interest to your page with the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645). You can display up to five items in the Hero web part and use compelling images, text, and links to draw attention to each.
+
 - **Text web part** - Use the [Text web part](https://support.microsoft.com/office/add-text-and-tables-to-your-page-with-the-text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801) to add paragraphs to your page. Formatting options like styles, bullets, indentations, highlighting, and links are available.
+
 - **Image web part** – Use the [Image web part](https://support.microsoft.com/office/use-the-image-web-part-a63b335b-ad0a-4954-a65d-33c6af68beb2) to add an image to a page.
+
 - **Quick links web part** – Organize and display links to other resources with the [Quick links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82).
+
 - **People web part** – Use the [People web part](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05) to display profile photos, contact information, and organizational information for people at work.
+
 - **Twitter web part** - Use the [Twitter web part](https://support.microsoft.com/office/use-the-twitter-web-part-15db6b3b-d167-41dd-9875-2af64b44d820) to highlight topics and conversations on SharePoint pages.
+
 - **YouTube web part** - Use the [YouTube web part](https://support.microsoft.com/office/use-the-youtube-web-part-c14fa2c1-71dc-4e52-94b6-b4876742382f) to embed YouTube videos right on your page.
 
 #### Site theme and branding
@@ -289,16 +310,23 @@ As a site owner, you can give external people access to the site by adding them 
 
 
 1. Select **Share site** from the right-hand corner.
-2. In the Share site pane, enter the names of people to add them to the site. The permission level will be ready only.
-4. Enter an optional message to send to the person, or clear the Send email box if you don't want to send an email.
-5. Select **Share.**
+
+2. In the Share site pane, enter the names of people to add them to the site. The permission level will be read only.
+
+3. Enter an optional message to send to the person, or clear the Send email box if you don't want to send an email.
+
+4. Select **Share.**
 
 ### Share the Corporate and Departmental onboarding sites
 
 1.	Select **Share site** from the right-hand corner.
+
 2.	In the **Share site** pane, enter the names of people or groups to add them to the site, or enter "Everyone except external users" to share the site with everyone in your organization.  
+
 3.	Change the permission level (Read, Edit, or Full control) as needed.
+
 4.	Enter an optional message to send to the person or clear the Send email box if you don't want to send an email.
+
 5.	Select **Share**.
 
 
@@ -324,7 +352,8 @@ As a SharePoint site owner, you can view site usage data that shows you how user
 
 **Example of site usage data:**
 
-[ ![Image of SharePoint site analytics data](media/neositeusagereport.png) ](media/neositeusagereport.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [ ![Image of SharePoint site analytics data](media/neositeusagereport.png) ](media/neositeusagereport.png#lightbox)
 
 
 
@@ -343,33 +372,28 @@ NEO sites should present the most up-to-date content your organization has to of
 ## NEO site FAQs
 
 **Question**: What are the requirements for installing the New Employee Onboarding (NEO) sites into my tenant environment?
-<br>
 
 **Answer**:
 - SharePoint and communication sites enabled.
 - The individual that will be provisioning CLO365 must be the site collection administrator of the target tenant for install.
 
 **Question**: How long will it take to install the site in our tenant environment?
-<br>
 
 **Answer**: Based on our testing of the installation, it should take less than 15 minutes. This does not include time required to customize the site to your requirements.
 
 **Question**: Where can I ask questions or report an issue with the SharePoint provisioning service? 
-<br>
 
-**Answer**:Post your questions and comments about the provisioning of the NEO sites to the SharePoint [provisioning service forum](https://github.com/SharePoint/sp-provisioning-service/issues).
+**Answer**: Post your questions and comments about the provisioning of the NEO sites to the SharePoint [provisioning service forum](https://github.com/SharePoint/sp-provisioning-service/issues).
 
 **Question**: Where can I share feedback for ideas on how to improve the SharePoint site experience? 
-<br>
 
-**Answer**:Post your ideas and comments about SharePoint sites in the [Site and Collaboration User Voice Forum](https://sharepoint.uservoice.com/forums/329214-sites-and-collaboration)
+**Answer**: Post your ideas and comments about SharePoint sites in the [Site and Collaboration User Voice Forum](https://sharepoint.uservoice.com/forums/329214-sites-and-collaboration)
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
 **Question**: Where can I ask questions or report an issue with the SharePoint provisioning service? 
-<br>
 
-**Answer**:Post your questions and comments about the provisioning of the NEO sites to the SharePoint [provisioning service forum](https://sharepoint.uservoice.com/forums/329214-sites-and-collaboration?category_id=144408).
+**Answer**: Post your questions and comments about the provisioning of the NEO sites to the SharePoint [provisioning service forum](https://sharepoint.uservoice.com/forums/329214-sites-and-collaboration?category_id=144408).
 
 **Sources**:
 
