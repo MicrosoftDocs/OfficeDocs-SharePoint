@@ -39,17 +39,19 @@ Download and install SPMT using one of the links listed below.
 
 
   
-## Before you begin
+## Permissions required
 
-Review the system requirements, settings, and permissions behavior before beginning your migration.
+- **Global or SharePoint Admin.** To migrate at the organization-level, you must sign in as a Global or SharePoint admin in Microsoft 365.
+- **Site Admin**. To migrate at the site collection level, you must be a site admin for that site collection.
 
-- [SPMT prerequisites](spmt-prerequisites.md)</br>
+
+## Prerequisites and Endpoints
+
+Review the [SPMT system prerequisites and endoints](spmt-prerequisites.md)</br>
 - [SPMT settings](spmt-settings.md)</br>
 - [Understanding permissions when using the SharePoint Migration Tool](understanding-permissions-when-migrating.md)</br>
 
- > [!IMPORTANT]
- > - To migrate at the organization-level, you must be signed in as a global or SharePoint admin in Microsoft 365.
- > - To migrate at the site collection level, you must be a site admin.
+
  
 #### Allow or prevent Custom Script (NoScript)</br>
 In Microsoft 365, tenants you can control whether users can run custom script on personal sites and self-service created sites. 
