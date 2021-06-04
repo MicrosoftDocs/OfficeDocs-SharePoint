@@ -78,7 +78,7 @@ Editing the web part presents layout options. The **Tiles** option, such as the 
 
 In this example, the Hero web part is in a full-width section.
 
-Use the **Move item** ![Move item icon](media/Move-item-icon.png) Move web part button button on the left to rearrange the tiles within the Hero web part.
+Use the **Move item** ![Move item icon](media/Move-item-icon.png) Move web part button on the left to rearrange the tiles within the Hero web part.
 
    ![Image of the Hero web part](media/Hero-web-part-screenshot.png)
 <br>
