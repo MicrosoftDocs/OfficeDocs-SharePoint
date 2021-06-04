@@ -110,7 +110,7 @@ In this example, the Giving site has a section using a three-column layout with 
  ![Image of the Call to action set up](media/Call-to-action-1.png)
 
 Here, the Image web part is paired with a text web part to create a call to action.
-   ![Image of the Call to action set up](media/call-to-action-2.png)
+   ![Image of the Call to action 2 set up](media/call-to-action-2.png)
 
 For more details on using the Image web part, see Use the [Image web part](https://support.microsoft.com/en-us/office/use-the-image-web-part-a63b335b-ad0a-4954-a65d-33c6af68beb2).
 
