@@ -186,7 +186,7 @@ For more details on using the Quick links web part, see [Use the Quick Links web
 
 ## Add video with the Stream web part
 
-Using the [Microsoft Stream service](https://docs.microsoft.com/stream/overview), you can add Stream videos to your page for enhanced visuals and higher user engagement.
+Using the [Microsoft Stream service](/stream/overview), you can add Stream videos to your page for enhanced visuals and higher user engagement.
 
 In this Leadership site example shown above, this web part is in the first column of a two-column section.
 
