@@ -204,24 +204,29 @@ More guidance on how to display the SharePoint app bar on a classic site will be
 
 
 ## Teach end users about this feature
+
 Help end users understand [how the new SharePoint app bar works](https://support.microsoft.com/office/use-the-sharepoint-app-bar-b2ab82d5-9af7-445e-ad24-236c5a86b5f8?ui=en-US&rs=en-US&ad=US). 
 
-
-
 ## Temporarily disable the SharePoint app bar
+
 You can temporarily disable the SharePoint app bar in your tenant to prepare for this change or control its rollout to users. The tool that disables the app bar will be available until October 31, 2021. Updates and more information about temporarily disabling the SharePoint app bar will be shared in future Message Center posts.
 
 Temporarily disable the SharePoint app bar:
 
-1.	Download the latest version of [SharePoint Online Management Shell](https://www.microsoft.com/download/details.aspx?id=35588).
+1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
-2.	Run the following command exactly as it appears:
+    > [!NOTE]
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
+
+2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+
+3. Run the following command:
 
     ```powershell
     Set-SPOTemporarilyDisableAppBar $true
     ```
 
-3.	If you need to confirm if the app bar has been disabled or enabled, check the app bar status by running the following command:
+4. If you need to confirm if the app bar has been disabled or enabled, check the app bar status by running the following command:
 
     ```powershell
     Get-SPOTemporarilyDisableAppBar
@@ -234,6 +239,7 @@ Temporarily disable the SharePoint app bar:
 > - If you are using previous versions, uninstall the previous version and then install the most up to date version. Previous versions of PowerShell can't coexist with the most up-to-date version of PowerShell.
 
 ### Enable the SharePoint app bar:
+
 1.	Once you’re ready to display the SharePoint app bar, run the following command:
 
     ```powershell
