@@ -84,7 +84,7 @@ For more information, see [Create a communication site in SharePoint Online](htt
 
 [Back to top](#lets-get-started)
 
-## Showcase your company branding
+## Showcase your company branding  
 
 You can quickly and easily customize the look of your SharePoint site to reflect your professional style and brand.
 
