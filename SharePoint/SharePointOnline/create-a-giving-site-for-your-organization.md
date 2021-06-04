@@ -142,7 +142,8 @@ Web parts may be edited, moved or deleted within sections. The **Edit web part**
 When your page updates are ready, Selecting **Publish** to make them visible to your audience.
 
    ![Image of the Publish option](media/Your-page-has-been-saved-publish.png)
-> [!TIP]To manage all of your pages on the site, click **Pages** on the top menu.
+
+>[!TIP]To manage all of your pages on the site, click **Pages** on the top menu.
 > For more details on using pages, see Create and use modern pages on a SharePoint site.
 
 [Back to top](#example-giving-site)
