@@ -88,8 +88,6 @@ For more information, see [Create a communication site in SharePoint Online](htt
 
 You can quickly and easily customize the look of your SharePoint site to reflect your professional style and brand.
 
-![Image of a customized header](media/gw-leadership/gw-4.jpg)
-
 **Change the look** settings are located under **Settings** ![Image of the settings gear icon](media/gw-leadership/gw-settings.png) in the top right corner of your SharePoint site.
 
 ![Image of the settings pane](media/gw-leadership/gw-5.png)
@@ -137,8 +135,6 @@ To add web parts to sections, select the plus symbol ![image of a plus symbol](m
 ![Image of featured web parts](media/gw-leadership/gw-11.png)
 
 Web parts may be edited, moved, or deleted within sections. The **Edit web part** icon opens detailed controls unique to each web part type.
-
-![Image of the Edit web part icon](media/gw-leadership/gw-12.png)
 
 [Back to top](#lets-get-started)
 
