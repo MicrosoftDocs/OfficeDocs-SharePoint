@@ -38,7 +38,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 - **Auto site provisioning.** When migrating to SharePoint sites, if the site doesn't exist, it will be automatically provisioned before the migration starts.
 - **Performance dashboard for file shares.**  View your performance history, and if needed, be provided prescriptive guidance on how to improve in impacted areas.
 - **Google migrations (preview).**  Migrate your Google Drives to Microsoft 365.
-- **Dropbox migrations (preview).**  You nw can migrate your Dropbox content to Microsoft 365.
+- **Dropbox migrations (preview).**  You now can migrate your Dropbox content to Microsoft 365.
 
 ## April 2021
 
