@@ -34,7 +34,7 @@ Once you have your created your site and know how to edit pages, you can use the
 
 |  Image of the homepage               |  Customization instructions                |
 | :------------------- | :------------------- |
-|    ![Image of the Giving Site landing page](media/Example-giving-site.png)  | **1. Make your site easy to get around** Customize navigation to make it easy for people to discover important content on your site. [*Learn how*](#make-your-site-easy-to-get-around) <br> <br>**2. Inspire with imagery and information** Use eye-catching and inspiring images that link to content at the top of the page. [*Learn how*](##Inspire-with-imagery-and-information)<br> <br>**3. Make a statement** Create professional, consistent text with multiple formatting choices. [*Learn how*](##Make-a-statement-with-the-text-web-part)<br> <br>**Call to action** Make it easy for people to take action right away. [*Learn how*](##Call-to-action)<br> <br>**4. Spread the news** Share ideas and stories that enhance your message. [*Learn how*](##Spread-the-news-with-the-News-web-part)<br> <br>**5. Get events on the calendar** Add an event calendar to keep people up to date on related events.  [*Learn how*](##Add-a-calendar-of-events-with-the-Events-web-part)| 
+|    ![Image of the Giving Site landing page](media/Example-giving-site.png)  | **1. Make your site easy to get around** Customize navigation to make it easy for people to discover important content on your site. [*Learn how*](#make-your-site-easy-to-get-around) <br> <br>**2. Inspire with imagery and information** Use eye-catching and inspiring images that link to content at the top of the page. [*Learn how*](#inspire-with-imagery-and-information)<br> <br>**3. Make a statement** Create professional, consistent text with multiple formatting choices. [*Learn how*](#make-a-statement-with-the-text-web-part)<br> <br>**Call to action** Make it easy for people to take action right away. [*Learn how*](#call-to-action)<br> <br>**4. Spread the news** Share ideas and stories that enhance your message. [*Learn how*](#spread-the-news-with-the-News-web-part)<br> <br>**5. Get events on the calendar** Add an event calendar to keep people up to date on related events.  [*Learn how*](#add-a-calendar-of-events-with-the-Events-web-part)| 
 
  
 
@@ -49,7 +49,7 @@ Next, choose **Communication site**, and then the **Topic** layout. Fill out you
 
 For more information, see [Create a communication site in SharePoint Online](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
 
-[Back to top](##Example-Giving-Site)
+[Back to top](#example-giving-site)
 
 
 ## Make your site easy to get around
@@ -66,7 +66,7 @@ You can quickly and easily customize the organization and navigation of your Sha
 
 For more detailed information on working with navigation, see [Customize the navigation on your SharePoint site](https://support.microsoft.com/en-us/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca).
 
-[Back to top](##Example-Giving-Site)
+[Back to top](#example-giving-site)
 
 ## Inspire with imagery and information
 Let your team know what’s most important with high-impact hero images, company branding, and important news. The initial impact of the Giving site home page is created by large and eye-catching images of the Hero web part. The layout used in this example is **Four tiles**.
@@ -91,7 +91,7 @@ When you select a tile, you'll see a toolbar at the bottom of the tile where you
 
 For more details on using the Hero web part, see [Use the Hero web part](https://support.microsoft.com/en-us/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645).
 
-[Back to top](##Example-Giving-Site)
+[Back to top](#example-giving-site)
 
 
 ## Make a statement with the text web part
@@ -102,7 +102,7 @@ In this Giving site example shown below, the web part is in a one-column section
 
 For more details on using the Text web part, see [Add text and tables to your page with the Text web part](https://support.microsoft.com/en-us/office/add-text-and-tables-to-your-page-with-the-text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801)
 
-[Back to top](##Example-Giving-Site)
+[Back to top](#example-giving-site)
 
 ## Call to action
 In this example, the Giving site has a section using a three-column layout with images and links within the section.
@@ -145,7 +145,7 @@ When your page updates are ready, Selecting **Publish** to make them visible to 
 > [!TIP]To manage all of your pages on the site, click **Pages** on the top menu.
 For more details on using pages, see Create and use modern pages on a SharePoint site.
 
-[Back to top](##Example-Giving-Site)
+[Back to top](#example-giving-site)
 
 ## Spread the news with the News web part
 
@@ -157,7 +157,7 @@ In this example, the web part is in a one-column section.
 
 For more details on using the News web part, see [Use the News web part on a SharePoint page](https://support.microsoft.com/en-us/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165).
 
-[Back to top](##Example-Giving-Site)
+[Back to top](#example-giving-site)
 
 
 ## Add a calendar of events with the Events web part
@@ -168,7 +168,7 @@ In this Giving site example, this web part uses the Filmstrip layout.
 
 For more details on using the Events web part, see [Use the Events web part](https://support.microsoft.com/en-us/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909).
 
-[Back to top](##Example-Giving-Site)
+[Back to top](#example-giving-site)
 
 ### Want more?
 Get inspired with more examples and the ability to add an example Giving site with the [SharePoint Look Book](https://lookbook.microsoft.com/details/5b5ef75c-2acc-410e-8c60-3ee01e7acfc8).
