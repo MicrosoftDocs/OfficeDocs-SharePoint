@@ -34,18 +34,18 @@ Once you have your created your site and know how to edit pages, you can use the
 
 |  Image of the homepage               |  Customization instructions                |
 | :------------------- | :------------------- |
-|    ![Image of the Giving Site landing page](media/Example-giving-site.png)  | **1. Make your site easy to get around** Customize navigation to make it easy for people to discover important content on your site. [*Learn how*](#make-your-site-easy-to-get-around) <br> <br>**2. Inspire with imagery and information** Use eye-catching and inspiring images that link to content at the top of the page. [*Learn how*](#inspire-with-imagery-and-information)<br> <br>**3. Make a statement** Create professional, consistent text with multiple formatting choices. [*Learn how*](#make-a-statement-with-the-text-web-part)<br> <br>**Call to action** Make it easy for people to take action right away. [*Learn how*](#call-to-action)<br> <br>**4. Spread the news** Share ideas and stories that enhance your message. [*Learn how*](#spread-the-news-with-the-news-web-part)<br> <br>**5. Get events on the calendar** Add an event calendar to keep people up to date on related events.  [*Learn how*](#add-a-calendar-of-events-with-the-events-web-part)| 
+|    ![Image of the Giving Site landing page](media/example-giving-site.png)  | **1. Make your site easy to get around** Customize navigation to make it easy for people to discover important content on your site. [*Learn how*](#make-your-site-easy-to-get-around) <br> <br>**2. Inspire with imagery and information** Use eye-catching and inspiring images that link to content at the top of the page. [*Learn how*](#inspire-with-imagery-and-information)<br> <br>**3. Make a statement** Create professional, consistent text with multiple formatting choices. [*Learn how*](#make-a-statement-with-the-text-web-part)<br> <br>**Call to action** Make it easy for people to take action right away. [*Learn how*](#call-to-action)<br> <br>**4. Spread the news** Share ideas and stories that enhance your message. [*Learn how*](#spread-the-news-with-the-news-web-part)<br> <br>**5. Get events on the calendar** Add an event calendar to keep people up to date on related events.  [*Learn how*](#add-a-calendar-of-events-with-the-events-web-part)| 
 
  
 
 ## Create your site
 To make a site like the one shown here, you'll create a [Communication site](https://support.microsoft.com/en-us/office/use-the-sharepoint-topic-showcase-and-blank-communication-site-templates-94a33429-e580-45c3-a090-5512a8070732). To do this, select **Create site** from the SharePoint start page (or, if you're going to associate this site with an existing Hub site, navigate to the hub site and select **Create site** there so that the communication site is automatically be associated with that hub site).
 
-   ![Image of the Create site option](media/Create-Site-Screenshot.png)
+   ![Image of the Create site option](media/create-site-screenshot.png)
 
 Next, choose **Communication site**, and then the **Topic** layout. Fill out your site name, description, and other information, and select *Finish*. Then you'll get a template with the same type of layout as the example in this article.
 
-   ![Image of the Communication site panel](media/Communication-site.jpg)
+   ![Image of the Communication site panel](media/communication-site.jpg)
 
 For more information, see [Create a communication site in SharePoint Online](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
 
@@ -57,7 +57,7 @@ For more information, see [Create a communication site in SharePoint Online](htt
 
 You can quickly and easily customize the organization and navigation of your SharePoint site to make it easy for your visitors to navigate the site and find the information they need.
 
-   ![Image of the Sharepoint navigation tool bar](media/Sharepoint-navigation-tool-bar.png)
+   ![Image of the Sharepoint navigation tool bar](media/sharepoint-navigation-tool-bar.png)
 <br>
 - **Add and edit the main menu** Easily edit the top menu to link the page to other SharePoint pages or on the Internet.
 <br>
@@ -78,16 +78,16 @@ Editing the web part presents layout options. The **Tiles** option, such as the 
 
 In this example, the Hero web part is in a full-width section.
 
-Use the **Move item** ![Move item icon](media/Move-item-icon.png) Move web part button on the left to rearrange the tiles within the Hero web part.
+Use the **Move item** ![Move item icon](media/move-item-icon.png) Move web part button on the left to rearrange the tiles within the Hero web part.
 
-   ![Image of the Hero web part](media/Hero-web-part-screenshot.png)
+   ![Image of the Hero web part](media/hero-web-part-screenshot.png)
 <br>
 
 ### Customize each tile
 
 When you select a tile, you'll see a toolbar at the bottom of the tile where you can select **Edit details** where you can change the link and image used. With the larger tile, you can also set call to action text and link. On the same toolbar, you can set focal point for the hover animation, plus zoom in and zoom out of the image.
 
-   ![Image of the Hero web part customization panel](media/Hero-web-part-customization-screenshot.png)
+   ![Image of the Hero web part customization panel](media/hero-web-part-customization-screenshot.png)
 
 For more details on using the Hero web part, see [Use the Hero web part](https://support.microsoft.com/en-us/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645).
 
@@ -107,7 +107,7 @@ For more details on using the Text web part, see [Add text and tables to your pa
 ## Call to action
 In this example, the Giving site has a section using a three-column layout with images and links within the section.
   
- ![Image of the Call to action set up](media/Call-to-action-1.png)
+ ![Image of the Call to action set up](media/call-to-action-1.png)
 
 Here, the Image web part is paired with a text web part to create a call to action.
    ![Image of the Call to action 2 set up](media/call-to-action-2.png)
@@ -118,33 +118,33 @@ For more details on using the Image web part, see Use the [Image web part](https
 
 To create sections, start editing by clicking **Edit** on the top right of the page.
 
-   ![Image of the Edit option](media/Edit-working-with-sections.png)
+   ![Image of the Edit option](media/edit-working-with-sections.png)
 
 The + symbol before or after a section will add a section using one of several layouts.
 
-   ![Image of the Section layout panel](media/Section-Layout-Working-with-sections.png)
+   ![Image of the Section layout panel](media/section-layout-working-with-sections.png)
 
 Sections make up your page, and are you place one or more web parts. While editing the page, each section will show controls to edit the layout, move, or delete the sections. For information on working with sections, see [Add or remove sections and columns on a page](https://support.microsoft.com/en-us/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899).
 
-   ![Image of the Add section icon](media/Plus-Working-with-sections.png)
+   ![Image of the Add section icon](media/plus-working-with-sections.png)
 <br>
 
 ### Working with web parts
 
-select the plus symbol SPO Plus sign in a section, which may appear before or after a web part in a section, to see the many types of web parts available. For more information on all web parts, see [Using web parts on SharePoint pages](https://support.microsoft.com/en-us/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0).
+Select the plus symbol SPO Plus sign in a section, which may appear before or after a web part in a section, to see the many types of web parts available. For more information on all web parts, see [Using web parts on SharePoint pages](https://support.microsoft.com/en-us/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0).
 
    ![Image of the Add web part icon](media/working-with-web-parts-1.png)
 
 Web parts may be edited, moved or deleted within sections. The **Edit web part** icon opens detailed controls unique to each web part type.
 
-   ![Image of the Edit web part task bar](media/Edit-working-with-web-parts.png)
+   ![Image of the Edit web part task bar](media/edit-working-with-web-parts.png)
 
 When your page updates are ready, Selecting **Publish** to make them visible to your audience.
 
-   ![Image of the Publish option](media/Your-page-has-been-saved-publish.png)
+   ![Image of the Publish option](media/your-page-has-been-saved-publish.png)
 
->[!TIP]To manage all of your pages on the site, click **Pages** on the top menu.
-> For more details on using pages, see Create and use modern pages on a SharePoint site.
+>[!TIP]
+>To manage all of your pages on the site, click **Pages** on the top menu. For more details on using pages, see Create and use modern pages on a SharePoint site.
 
 [Back to top](#example-giving-site)
 
@@ -154,7 +154,7 @@ The News web part provides controls to choose the **News Source** and **Layout**
 
 In this example, the web part is in a one-column section.
 
-   ![Image of the New web part](media/News-web-part-screenshot.png)
+   ![Image of the New web part](media/news-web-part-screenshot.png)
 
 For more details on using the News web part, see [Use the News web part on a SharePoint page](https://support.microsoft.com/en-us/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165).
 
