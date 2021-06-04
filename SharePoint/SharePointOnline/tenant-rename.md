@@ -151,12 +151,14 @@ It's now possible to change the SharePoint domain name for your organization in 
     Start-SPOTenantRename -DomainName <DomainName> -ScheduleDateTime <YYYY-MM-DDTHH:MM:SSZ> [-WhatIf] [-Confirm] 
     ```
 
-Where "ScheduleDateTime" is at least 24 hours in the future, but not more than 30 days.
+    Where "ScheduleDateTime" is at least 24 hours in the future, but not more than 30 days.
 
 You can get the status of the rename by running `Get-SPOTenantRenameStatus`.
 
 ## Step 3: Review features and settings after the rename
 
 1. Review any firewall rules that might block access to the new domain.
+
 2. Review organization browser settings to make sure  the new domain is a trusted location. This includes reviewing any Group Policy settings that might control browser settings.
+
 3. Review any third-party apps, custom apps, and scripts that access SharePoint. They might need to be modified to use the new domain.
