@@ -55,7 +55,7 @@ The previous sync app (Groove.exe) is no longer installed by default with Office
     ```
 
    > [!NOTE]
-   > This file will install the 32-bit English-US edition of OneDrive. To install the 64-bit edition, change the value of OfficeClientEdition to 64. To install OneDrive in a different language, change the Language ID to a different language tag (ll-CC) by referring to the list of [Language identifiers](/DeployOffice/office2016/language-identifiers-and-optionstate-id-values-in-office-2016).
+   > This file will install the 32-bit US English edition of OneDrive. To install the 64-bit edition, change the value of OfficeClientEdition to 64. To install OneDrive in a different language, change the Language ID to a different language tag (ll-CC) by referring to the list of [Language identifiers](/DeployOffice/office2016/language-identifiers-and-optionstate-id-values-in-office-2016).
 
     b. Save the file to your desktop, and name it **AddODB**.
 
