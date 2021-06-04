@@ -68,7 +68,7 @@ You can make changes to any of the default permissions levels, except **Full Con
 |Approve  <br/> |Edit and approve pages, list items, and documents. By default, the  *Approvers*  group has this permission.  <br/> |
 |Manage Hierarchy  <br/> |Create sites and edit pages, list items, and documents. By default, this permission level is assigned to the  *Hierarchy Managers*  group.  <br/> |
 |Restricted Read  <br/> |View pages and documents, but not historical versions or user permissions.  <br/> |
-|View Only  <br/> |View pages, items, and documents. Any document that has a server-side file handler can be viewed in the browser but not downloaded. File types that do not have a server-side file handler (cannot be opened in the browser), such as video files, .pdf files, and .png files, can still be downloaded.  <br/> |
+|View Only  <br/> |View pages, items, and documents. Any document that has a server-side file handler can be viewed in the browser but not downloaded. File types that do not have a server-side file handler (cannot be opened in the browser), such as video files and .png files, can still be downloaded.  <br/> |
 |||
    
 > [!NOTE]
