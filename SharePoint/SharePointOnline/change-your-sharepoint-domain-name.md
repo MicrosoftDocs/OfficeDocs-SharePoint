@@ -31,7 +31,7 @@ description: "Learn about changing your organization name in SharePoint URLs"
 
 # Change your SharePoint domain name
 
-Unfortunately, it isn't possible to change the SharePoint domain name for your organization in Microsoft 365. For example, if the name of your organization changes from "Contoso" to "Fabrikaum," you can't change  `contoso.sharepoint.com`  to  `fabrikam.sharepoint.com`.
+Unfortunately, it isn't possible to change the SharePoint domain name for your organization in Microsoft 365. For example, if the name of your organization changes from "Contoso" to "Fabrikam," you can't change  `contoso.sharepoint.com`  to  `fabrikam.sharepoint.com`.
   
 To use the domain name `fabrikam.sharepoint.com`, you would need to purchase a new Microsoft 365 subscription and move all email, files, and any other data you want to keep to the new subscription.
   
