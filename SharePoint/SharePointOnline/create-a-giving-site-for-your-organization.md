@@ -34,7 +34,7 @@ Once you have your created your site and know how to edit pages, you can use the
 
 |  Image of the homepage               |  Customization instructions                |
 | :------------------- | :------------------- |
-|    ![Image of the Giving Site landing page](media/Example-giving-site.png)  | **1. Make your site easy to get around** Customize navigation to make it easy for people to discover important content on your site. [*Learn how*](#make-your-site-easy-to-get-around) <br> <br>**2. Inspire with imagery and information** Use eye-catching and inspiring images that link to content at the top of the page. [*Learn how*](#inspire-with-imagery-and-information)<br> <br>**3. Make a statement** Create professional, consistent text with multiple formatting choices. [*Learn how*](#make-a-statement-with-the-text-web-part)<br> <br>**Call to action** Make it easy for people to take action right away. [*Learn how*](#call-to-action)<br> <br>**4. Spread the news** Share ideas and stories that enhance your message. [*Learn how*](#spread-the-news-with-the-News-web-part)<br> <br>**5. Get events on the calendar** Add an event calendar to keep people up to date on related events.  [*Learn how*](#add-a-calendar-of-events-with-the-Events-web-part)| 
+|    ![Image of the Giving Site landing page](media/Example-giving-site.png)  | **1. Make your site easy to get around** Customize navigation to make it easy for people to discover important content on your site. [*Learn how*](#make-your-site-easy-to-get-around) <br> <br>**2. Inspire with imagery and information** Use eye-catching and inspiring images that link to content at the top of the page. [*Learn how*](#inspire-with-imagery-and-information)<br> <br>**3. Make a statement** Create professional, consistent text with multiple formatting choices. [*Learn how*](#make-a-statement-with-the-text-web-part)<br> <br>**Call to action** Make it easy for people to take action right away. [*Learn how*](#call-to-action)<br> <br>**4. Spread the news** Share ideas and stories that enhance your message. [*Learn how*](#spread-the-news-with-the-news-web-part)<br> <br>**5. Get events on the calendar** Add an event calendar to keep people up to date on related events.  [*Learn how*](#add-a-calendar-of-events-with-the-events-web-part)| 
 
  
 
@@ -143,7 +143,7 @@ When your page updates are ready, Selecting **Publish** to make them visible to 
 
    ![Image of the Publish option](media/Your-page-has-been-saved-publish.png)
 > [!TIP]To manage all of your pages on the site, click **Pages** on the top menu.
-For more details on using pages, see Create and use modern pages on a SharePoint site.
+> For more details on using pages, see Create and use modern pages on a SharePoint site.
 
 [Back to top](#example-giving-site)
 
