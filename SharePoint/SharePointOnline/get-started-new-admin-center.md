@@ -27,7 +27,7 @@ description: "Learn about the cards on the home page of the SharePoint admin cen
 To [go to the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=home&modern=true), you need to sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->[Microsoft Partners](/office365/admin/misc/add-partner) can't access the new SharePoint admin center. <br>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center. <br>Report data is not available for Office 365 Germany customers and US Government GCC High and DoD customers.
+>[Microsoft Partners](/office365/admin/misc/add-partner) can't access the new SharePoint admin center. <br>Report data is not available for Office 365 Germany customers and US Government GCC High and DoD customers.<br>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center. 
 
 > [!NOTE]
 > Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different.
@@ -39,7 +39,7 @@ Help us improve the SharePoint admin center! Tell us what you like or don't like
   ![Cards on the home page](media/new-home-page.png)
 
 > [!TIP]
->  To hide a line on a chart, select the line's label in the legend. For example, on the SharePoint site usage chart, select **Total sites**. <br>  To see values for a specific day, point to that day on the chart. 
+>  You can choose which lines you want to appear on charts. To hide a line, select the line's label in the legend. For example, on the SharePoint site usage chart, select **Total sites**. <br>  To see values for a specific day, point to that day on the chart. 
   
 > [!NOTE]
 > Cards typically don't include data from the last 24 to 48 hours. 
@@ -88,7 +88,7 @@ This card shows how many term store operations are being performed and a chart o
 
 This card shows the usage of each Microsoft 365 service. To view the full report, select **View full report**. [More info about the Active users report in the Microsoft 365 admin center](/microsoft-365/admin/activity-reports/active-users-ww)
 
-## Add, remove, and rearrange cards
+## Customize your dashboard
 
 To add available cards that aren't already on the dashboard, select **Add cards**. Tap or click a card to add it to the page, or drag it to a specific location on the page. 
 
