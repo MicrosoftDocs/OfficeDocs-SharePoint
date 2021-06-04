@@ -45,7 +45,7 @@ Invoke-SPOSiteSwap
   -ArchiveUrl <string>
 ```
 
-| Paramater   | Description                                   |
+| Parameter   | Description                                   |
 |-------------|-----------------------------------------------|
 | -SourceUrl  | The site you want to promote.                 |
 | -TargetUrl  | The site you want to replace.                 |
