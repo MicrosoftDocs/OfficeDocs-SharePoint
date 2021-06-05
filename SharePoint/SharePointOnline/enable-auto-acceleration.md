@@ -50,10 +50,10 @@ To enable auto-acceleration, you need to use Microsoft PowerShell.
     Set-SPOTenant -EnableGuestSignInAcceleration $true
     ```
 
-> [!NOTE]
-> You must run SignInAccelerationDomain before running this command. 
-  
-For more information, see [Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant).
+    > [!NOTE]
+    > You must run SignInAccelerationDomain before running this command. 
+      
+    For more information, see [Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant).
   
   
 ## Frequently asked questions about auto-acceleration
