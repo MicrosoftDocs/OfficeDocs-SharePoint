@@ -46,4 +46,8 @@ Instead of turning off external sharing entirely, you can address this issue by 
     Set-SPOTenant -MarkNewFilesSensitiveByDefault BlockExternalSharing 
     ```
 
-    To disable this feature, run `Set-SPOTenant -MarkNewFilesSensitiveByDefault AllowExternalSharing`.
+    To disable this feature, run the following command:
+
+    ```powershell
+    Set-SPOTenant -MarkNewFilesSensitiveByDefault AllowExternalSharing
+    ```
