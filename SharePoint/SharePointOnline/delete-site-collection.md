@@ -46,9 +46,9 @@ By using the new SharePoint admin center, you can delete both classic and modern
   
 1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
-
+    > [!NOTE]
+    > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page.<br><br/>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
+    
 2. In the left column, select a site.
 
 3. Select **Delete**, and to confirm, select **Delete**.
@@ -56,7 +56,7 @@ By using the new SharePoint admin center, you can delete both classic and modern
     ![Deleting a site on the Active sites page](media/delete-site.png)
 
 > [!NOTE]
-> To delete a hub site, you first need to unregister it as a hub site. <br>Deleted Microsoft 365 groups are retained for only 30 days.<br>For info about deleting a site by using PowerShell, see [Remove-SPOSite](/powershell/module/sharepoint-online/remove-sposite).
+> To delete a hub site, you first need to unregister it as a hub site.<br/><br>Deleted Microsoft 365 groups are retained for only 30 days.<br><br/>For info about deleting a site by using PowerShell, see [Remove-SPOSite](/powershell/module/sharepoint-online/remove-sposite).
  
 ## Permanently delete a site
 
@@ -64,8 +64,8 @@ To reuse a URL from a deleted site (recreate a site), you need to permanently de
 
 1. Go to the [Deleted sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=recycleBin&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Deleted sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Deleted sites page.
+    >[!NOTE]
+    >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Deleted sites page. <br><br/>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Deleted sites page.
 
 2. In the left column, select a site.
 
@@ -82,9 +82,9 @@ To permanently delete sites (including Microsoft 365 group-connected team sites)
     
 3. Run the following command:
     
-      ```PowerShell
-      Remove-SPODeletedSite -Identity https://contoso.sharepoint.com/sites/sitetoremove
-      ```
+    ```PowerShell
+    Remove-SPODeletedSite -Identity https://contoso.sharepoint.com/sites/sitetoremove
+    ```
 
  (Where `https://contoso.sharepoint.com/sites/sitetoremove` is the URL of the site you want to permanently delete). For more info about using this command, see [Remove-SPODeletedSite](/powershell/module/sharepoint-online/remove-spodeletedsite).
 

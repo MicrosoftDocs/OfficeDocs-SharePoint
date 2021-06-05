@@ -48,7 +48,7 @@ For more info about working with news, see [Use the News web part on a SharePoin
     Set-SPOOrgNewsSite -OrgNewsSiteUrl <site URL> 
     ```
 
-Example: `Set-SPOOrgNewsSite -OrgNewsSiteUrl https://contoso.sharepoint.com/sites/Marketing`
+    Example: `Set-SPOOrgNewsSite -OrgNewsSiteUrl https://contoso.sharepoint.com/sites/Marketing`
 
 ## Related commands 
 
