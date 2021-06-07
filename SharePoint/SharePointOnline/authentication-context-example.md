@@ -21,6 +21,13 @@ description: "Learn about how to use Azure Active Directory authentication conte
 
 # Manage site access based on sensitivity label
 
+1. Add an authentication context.
+
+2. Create a conditional access policy that applies to that authentication context and has the conditions and access controls that you want to use.
+
+3. Set a sensitivity label to apply the authentication context to labeled sites.
+
+
 
 Create an authentication context
 1. In [Azure Active Directory Conditional Access](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade), under **Manage**, click **Authentication context (Preview)**.
@@ -32,6 +39,21 @@ Create an authentication context
     ![Screenshot of add authentication context UI](media/aad-add-authentication-context.png)
 
 4. Click **Save**.
+
+Create a conditional access policy
+1. In [Azure Active Directory Conditional Access](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade), click **New policy**.
+
+2. Type a name for the policy.
+
+3. On the **Users and groups** tab, choose the **Select users and groups** option, and then select the **All guest and external users** check box.
+
+4. On the **Cloud apps or actions** tab, under **Select what this policy applies to**, choose **Authentication context (Preview)**, and select the check box for the authentication context that you created.
+
+    ![Screenshot of authentication context options in cloud apps or actions settings for a conditional access policy](media/aad-authentication-context-ca-policy-apps.png)
+
+5. On the **Grant** tab, select the check box for the terms of use that you want to use, and then click **Select**.
+
+6. Choose if you want to enable the policy, and then click **Create**.
 
 
 Update a sensitivity label
