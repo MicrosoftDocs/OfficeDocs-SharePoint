@@ -23,10 +23,10 @@ description: "Learn about how to use Azure Active Directory authentication conte
 
 With [Azure Active Directory authentication context (preview)](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#configure-authentication-contexts), you can enforce more stringent access conditions when users access SharePoint sites that have a sensitivity label applied. 
 
-Authentication contexts are used with sensitivity labels to connect Azure AD conditional access policies to labeled sites.
+Authentication contexts are used with sensitivity labels to connect [Azure AD conditional access policies](/azure/active-directory/conditional-access/overview) to labeled sites.
 
 > [!NOTE]
-> If you do not use sensitivity labels with SharePoint sites, you can directly apply an authentication context to a given SharePoint site by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet.
+> If you don't use sensitivity labels with SharePoint sites, you can directly apply an authentication context to a SharePoint site by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet.
 
 Setting up an authentication context for labeled sites requires these basic steps:
 
@@ -36,7 +36,7 @@ Setting up an authentication context for labeled sites requires these basic step
 
 3. Set a sensitivity label to apply the authentication context to labeled sites.
 
-In this article, we'll look at the example of requiring guests to agree to a [terms of use](/azure/active-directory/conditional-access/terms-of-use) before gaining access to a sensitive SharePoint site.
+In this article, we'll look at the example of requiring guests to agree to a [terms of use](/azure/active-directory/conditional-access/terms-of-use) before gaining access to a sensitive SharePoint site. You can use any of the conditional access conditions and access controls that you might need for your organization.
 
 ## Add an authentication context
 
