@@ -165,7 +165,7 @@ For more details on using the News web part, see [Use the News web part on a Sha
 The Events web part allows you to easily display upcoming events on your Giving page. You can use this web part to draw attention to Giving-related events, ranging from planning sessions to the actual events, and viewers can easily select the event to add it to their calendars.
 
 In this Giving site example, this web part uses the Filmstrip layout.
-  ![Image of the Events web part](media/events-web-part.png)
+  ![Image of the Events web part](media/events-webpart.png)
 
 For more details on using the Events web part, see [Use the Events web part](https://support.microsoft.com/en-us/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909).
 
