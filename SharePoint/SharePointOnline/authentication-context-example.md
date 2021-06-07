@@ -27,8 +27,27 @@ Create an authentication context
 
 2. Click **New authentication context**.
 
-Update a sensitivity label
+3. Type a name and description and select the **Publish to apps** check box.
 
+    ![Screenshot of add authentication context UI](media/aad-add-authentication-context.png)
+
+4. Click **Save**.
+
+
+Update a sensitivity label
+1. In the [Microsoft 365 compliance center](https://compliance.microsoft.com/informationprotection), on the **Information protection** tab, click the label that you want to update and then click **Edit label**.
+
+2. Click **Next** to the **Define protection settings for groups and sites**.
+
+3. Ensure that the **External sharing and Conditional Access settings** check box is selected, and then click **Next**.
+
+4. On the **Define external sharing and device access settings page**, select the **Use Azure AD Conditional Access to protect labeled SharePoint sites** check box.
+
+5. Select the **Choose an existing authentication context (preview)** option.
+
+    ![Screenshot of Azure AD authentication context sensitivity label settings](media/aad-authentication-context-label-setting.png)
+
+6. Click **Next** to the **Review your settings and finish** screen, and then click **Save label**.
 
 
 
