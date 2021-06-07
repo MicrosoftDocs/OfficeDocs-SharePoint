@@ -118,7 +118,7 @@ For more details on using the Image web part, see Use the [Image web part](https
 
 To create sections, start editing by clicking **Edit** on the top right of the page.
 
-   ![Image of the Edit option](media/working-with-sections-edit.png)
+   ![Image of the Edit option](media/edit-section.png)
 
 The + symbol before or after a section will add a section using one of several layouts.
 
@@ -131,7 +131,7 @@ Sections make up your page, and are you place one or more web parts. While editi
 
 ### Working with web parts
 
-Select the plus symbol SPO Plus sign in a section, which may appear before or after a web part in a section, to see the many types of web parts available. For more information on all web parts, see [Using web parts on SharePoint pages](https://support.microsoft.com/en-us/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0).
+Select the plus symbol ![Image of the Plus symbol](media/plus-symbol.png) in a section, which may appear before or after a web part in a section, to see the many types of web parts available. For more information on all web parts, see [Using web parts on SharePoint pages](https://support.microsoft.com/en-us/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0).
 
    ![Image of the Add web part icon](media/working-with-webparts.png)
 
@@ -165,7 +165,7 @@ For more details on using the News web part, see [Use the News web part on a Sha
 The Events web part allows you to easily display upcoming events on your Giving page. You can use this web part to draw attention to Giving-related events, ranging from planning sessions to the actual events, and viewers can easily select the event to add it to their calendars.
 
 In this Giving site example, this web part uses the Filmstrip layout.
-  ![Image of the Events web part](media/events-webpart.png)
+  ![Image of the Events web part](media/events-web-part.png)
 
 For more details on using the Events web part, see [Use the Events web part](https://support.microsoft.com/en-us/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909).
 
