@@ -28,9 +28,7 @@ Authentication contexts are used with sensitivity labels to connect Azure AD con
 > ![NOTE]
 > If you do not use sensitivity labels with SharePoint sites, you can directly apply an authentication context to a given SharePoint site by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet.
 
-Setting up an authentication context 
-
-
+Setting up an authentication context for labeled sites requires these basic steps:
 
 1. Add an authentication context.
 
@@ -38,9 +36,11 @@ Setting up an authentication context
 
 3. Set a sensitivity label to apply the authentication context to labeled sites.
 
+In this article, we'll look at the example of requiring guests to agree to a [terms of use](/azure/active-directory/conditional-access/terms-of-use) before gaining access to a sensitive SharePoint site.
 
-[Azure Active Directory terms of use](/azure/active-directory/conditional-access/terms-of-use)
+## Add an authentication context
 
+First, add an authentication context in Azure Active Directory.
 
 Add an authentication context
 1. In [Azure Active Directory Conditional Access](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade), under **Manage**, click **Authentication context (Preview)**.
@@ -52,6 +52,10 @@ Add an authentication context
     ![Screenshot of add authentication context UI](media/aad-add-authentication-context.png)
 
 4. Click **Save**.
+
+## Create a conditional access policy
+
+Next, create a conditional access policy that applies to that authentication context and that requires guests to agree to a terms of use as a condition of access.
 
 Create a conditional access policy
 1. In [Azure Active Directory Conditional Access](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade), click **New policy**.
@@ -67,6 +71,8 @@ Create a conditional access policy
 5. On the **Grant** tab, select the check box for the terms of use that you want to use, and then click **Select**.
 
 6. Choose if you want to enable the policy, and then click **Create**.
+
+## Update a sensitivity label
 
 Next, update a sensitivity label (or create a new one) to use the authentication context.
 
