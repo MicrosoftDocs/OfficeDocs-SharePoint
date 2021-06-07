@@ -39,7 +39,7 @@ When adding a task, Migration Manager authenticates to the destination tenant an
 
 **Authentication**
 
-Sign in to your tenant admin center as a either a tenant administrator or SharePoint admin user in the destination where you want to migrate content. The tenant associates the migration jobs you submit to this account.
+Sign in to your SharePoint admin center as a either a Global administrator or SharePoint admin user in the destination where you want to migrate content. The tenant associates the migration jobs you submit to this account.
 
 **Scan**
 
