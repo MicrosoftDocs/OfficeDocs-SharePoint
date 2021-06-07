@@ -25,7 +25,7 @@ With [Azure Active Directory authentication context (preview)](/azure/active-dir
 
 Authentication contexts are used with sensitivity labels to connect Azure AD conditional access policies to labeled sites.
 
-> ![NOTE]
+> [!NOTE]
 > If you do not use sensitivity labels with SharePoint sites, you can directly apply an authentication context to a given SharePoint site by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet.
 
 Setting up an authentication context for labeled sites requires these basic steps:
