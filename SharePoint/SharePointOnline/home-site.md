@@ -42,6 +42,8 @@ When you set a site as your home site:
 - The site is automatically set up as an [organization news site](organization-news-site.md). (Although you can have only one home site, you can have multiple organization news sites.)
 - The site is enabled for [configuring the global navigation in the SharePoint app bar](sharepoint-app-bar.md#get-started-customizing-the-global-navigation-tab).
 
+- Having a home site enables you to use [Viva Connections](viva-connections.md).
+
 > [!NOTE]
 > Integration between the home site and [SharePoint start page](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220) (where the branding, theming, header, navigation, and footer elements from the home site are applied to the start page and users can easily navigate between the pages) is not available at this time. Please watch for updates in the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=SharePoint).
 
@@ -71,13 +73,17 @@ After you create and customize the communication site that you want to use as yo
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
 
 2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
 3. Run `Set-SPOHomeSite -HomeSiteUrl <siteUrl>`.
 
     (Where siteUrl is the site you want to use)
+    
+### Next, set up global navigation in the SharePoint app bar
+
+The [SharePoint app bar](sharepoint-app-bar.md) is being released to customers. Once the SharePoint app bar is available for your organization, [enable and customize global navigation](sharepoint-app-bar.md#customize-global-navigation-in-the-app-bar). Then, consider [integrating your home site in Microsoft Teams using Viva Connections](viva-connections.md). 
 
 > [!NOTE]
 > You can set only one site in your organization as a home site. The site can be registered as a hub site, but can't be associated with a hub. The first time you set up a home site, it might take up to several minutes for the changes to take effect. If you run the command again to switch your home site to a different site, it might take up to 2 hours.

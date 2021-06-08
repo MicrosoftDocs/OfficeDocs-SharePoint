@@ -19,6 +19,17 @@ description: "Setting up your Box source connector to migrate to Office 365."
 
 ## Box FAQ
 
+### Role changes from Box to Office 365
+
+When moving from Box to OneDrive for Business, user roles *on folders* will change. Mover does not explicitly set a user as an owner of data during a migration.
+
+Ownership of files and folders is always implicitly set by virtue of copying data into a user in OneDrive for Business. 
+
+![Box to OneDrive for Business role comparison chart](media/old-box-role-to-o365-role.png)
+
+>[!Note]
+>Mover only sets permissions on folders.
+
 ### Should we disable our Box accounts?
 Disabling employee access to their Box accounts mitigates any risk of them accessing data after the migration takes place.
 

@@ -30,9 +30,13 @@ If your organization needs to store and manage files for all your users to use, 
 
     ![Selecting an image to add to a SharePoint page](media/image-library.png)
 
-- **Office templates**. When a user selects to create a new PowerPoint presentation (from PowerPoint for the web or the PowerPoint desktop app), the user can select the tab for your organization to see the templates. (To use this feature on PowerPoint for the web, users need to be assigned a license to Office 365 E3 or E5. The templates aren't available from the New menu. To create a file from a template, go to the PowerPoint start page > Office Template Library). Also note that the Office files to be uploaded to the template libraries must be in a template format, for example, dotx for Word, potx for PowerPoint and xltx for Excel. 
+- **PowerPoint templates**. When a user selects to create a new PowerPoint presentation (from PowerPoint for the web or the PowerPoint desktop app), the user can select the tab for your organization to see the templates. (In PowerPoint for the web, the templates aren't available from the New menu. Users who want to create a file from a template need to go to the PowerPoint start page and select Office Template Library).  
 
     ![Selecting a template in PowerPoint](media/office-template-library.png)
+
+    > [!NOTE]
+    > - For the organization assets library to appear to a user in PowerPoint on the web, the user must be assigned a license to Office 365 E3 or E5. For users who use the PowerPoint desktop app, they also need Microsoft 365 Apps Version 2002 or later. 
+    > - The files uploaded to the library must be in the template format .potx. [Learn how to save a PowerPoint file in this format](https://support.microsoft.com/office/ee4429ad-2a74-4100-82f7-50f8169c8aca))
 
 
 ## Use Microsoft PowerShell to specify a library as an organization assets library
@@ -44,12 +48,12 @@ If your organization needs to store and manage files for all your users to use, 
 
 2. **Set the permissions on the site**. Add the people you want to be able to upload files as members or owners of the site or Office 365 group. Add "Everyone except external users" as visitors. If necessary, [customize the permissions for the library](https://support.office.com/article/02d770f3-59eb-4910-a608-5f84cc297782). You can customize the permissions of up to 100 files and folders in the library.
 
-3. Upload the images or Office templates to a document library.
+3. Upload the images or PowerPoint templates to a document library. 
 
 4. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
 
 5. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
