@@ -1,5 +1,5 @@
 ---
-title: "Get started with the new SharePoint admin center"
+title: "Get started with the SharePoint admin center"
 ms.reviewer: trgreen
 ms.author: kaarins
 author: kaarins
@@ -19,57 +19,97 @@ search.appverid:
 - MET150
 - BSA160
 ms.assetid: 0bb250bb-1d3c-43f8-b751-b322522ccf33
-description: "Learn about the cards on the home page of the new SharePoint admin center"
+description: "Learn about the cards on the home page of the SharePoint admin center"
 ---
 
-# Get started with the new SharePoint admin center
+# Get started with the SharePoint admin center
 
-To [go to the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=home&modern=true), you need to sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+To [go to the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=home&modern=true), you need to sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center. <br>Report data is not available for Office 365 Germany customers and US Government GCC High and DoD customers.
+>[Microsoft Partners](/office365/admin/misc/add-partner) can't access the new SharePoint admin center. <br>Report data is not available for Office 365 Germany customers and US Government GCC High and DoD customers.<br>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center. 
 
 > [!NOTE]
-> [Microsoft Partners](/office365/admin/misc/add-partner) can't access the new SharePoint admin center. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different.
+> Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different.
   
-Help us improve the new SharePoint admin center! Tell us what you like or don't like, send a suggestion, or file a bug. To send us feedback, in the lower-right corner, select **Feedback**.
+Help us improve the SharePoint admin center! Tell us what you like or don't like, send a suggestion, or file a bug. To send us feedback, in the lower-right corner, select **Feedback**.
 
-## View reports
+## Home page dashboard
 
-On the home page, at a glance, you can see:
-  
-- The number of files that have specific types of activity each day for the past 30 days. (If an activity occurs multiple times in one day on the same file, the file is counted only once for that day.)
-    
-- The number of total and active sites each day for the past 30 days. ("Active" sites are any where users view a page or view, modify, upload, download, share, or sync a file.)
-    
-  ![The reports on the home page](media/72b36579-70e8-4731-9e28-4f64cf577826.PNG)
-  
+  ![Cards on the home page](media/new-home-page.png)
+
 > [!TIP]
->  To filter a report, select an item in the legend. For example, on the **Files by activity type** chart, select **Viewed or edited**. <br>  To see values for a specific day, point to that day on the report. </br>  To see more details about a report, open the report in the Microsoft 365 admin center by selecting **Details**. Here, you can see tables of activity by site or users, change the reporting period, pivot the report, export the report data into a .csv file that you can open in Excel, and more. For more info about the SharePoint reports in the Microsoft 365 admin center, see [Microsoft 365 Reports in the Admin Center - SharePoint activity](/office365/admin/activity-reports/sharepoint-activity) and [Microsoft 365 Reports in the Admin Center - SharePoint site usage](/office365/admin/activity-reports/sharepoint-site-usage). 
+>  You can choose which lines you want to appear on charts. To hide a line, select the line's label in the legend. For example, on the SharePoint site usage chart, select **Total sites**. <br>  To see values for a specific day, point to that day on the chart. 
   
 > [!NOTE]
-> Reports typically don't include activity from the last 24 to 48 hours. 
-  
-## View Message center posts
+> Cards typically don't include data from the last 24 to 48 hours. 
 
-In the **Message center** section of the home page, to help you manage upcoming changes, you can read official announcements about new and changed SharePoint features. Each post gives you an overview of a change, and how it might affect your users. To open a post, in the Microsoft 365 admin center, select it (where you can dismiss it if you want to hide it from the list). To sort and filter the [list of messages across all Microsoft 365 services](/office365/admin/manage/message-center), select **All active messages**.
-  
-![The Message Center card on the home page](media/804aeffa-f842-4951-a42e-86d7151b28fa.PNG)
-  
-## Service health
+### SharePoint site search
 
-In the **Service health** section of the home page, you can see whether the SharePoint service is healthy, or if it's experiencing an active advisory or incident. For more info about an advisory or incident, select it to open the **Service health** page of the Microsoft 365 admin center.
-  
-![The Service health card on the home page](media/0336aab6-aecb-494c-9cd2-f279f452cc79.PNG)
+This card lets you search active sites from the home page.
+
+### Message center
+
+This card helps you manage upcoming changes to SharePoint and OneDrive. Select a post to open it in the details panel. To view the full list of messages across all Microsoft 365 services, select **Show all**. [More info about the message center](/office365/admin/manage/message-center)
+
+### SharePoint file activity
+
+This card shows how many files you have in SharePoint. It also shows a chart of files by activity type over the past 30 days. (If an activity occurs multiple times in one day on the same file, the file is counted only once for that day.) To view the full report in the Microsoft 365 admin center, select the card title. [More info about SharePoint activity reports in the Microsoft 365 admin center](/microsoft-365/admin/activity-reports/sharepoint-activity-ww)
+
+### Sensitivity labels
+
+If your organization has enabled and set up [sensitivity labels to protect SharePoint sites](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), this card shows the usage of the labels across all sites. 
+
+### Service health
+
+This card shows whether the SharePoint service is healthy, or if it's experiencing an active advisory or incident. For more info about an advisory or incident, select it to open the **Service health** page of the Microsoft 365 admin center.
+
+### OneDrive usage
+
+This card shows the percentage of active OneDrive accounts in your organization and a chart of total and active accounts over the past 30 days. To view the full report in the Microsoft 365 admin center, select the card title. [More info about the OneDrive usage report in the Microsoft 365 admin center](/microsoft-365/admin/activity-reports/onedrive-for-business-usage-ww) 
+
+### OneDrive file activity
+
+This card shows how many files you have in OneDrive. It also shows a chart of files by activity type over the past 30 days. (If an activity occurs multiple times in one day on the same file, the file is counted only once for that day.) To view the full report in the Microsoft 365 admin center, select the card title. [More info about OneDrive activity reports in the Microsoft 365 admin center](/microsoft-365/admin/activity-reports/onedrive-for-business-activity-ww)
+
+### SharePoint storage usage
+
+This card shows how much of your SharePoint storage you've used and a chart of your storage usage over the past 180 days. To view all SharePoint site usage reports in the Microsoft 365 admin center, select the card title. [More info about SharePoint site usage reports in the Microsoft 365 admin center](/microsoft-365/admin/activity-reports/sharepoint-site-usage-ww)
+
+### SharePoint site usage 
+
+This card shows the percentage of active sites in your organization and a chart of total and active sites over the past 30 days. To view the full report in the Microsoft 365 admin center, select the card title. [More info about SharePoint site usage reports in the Microsoft 365 admin center](/microsoft-365/admin/activity-reports/sharepoint-site-usage-ww) 
+
+### Term store operations
+
+This card shows how many term store operations are being performed and a chart of operations by type over the past 15 days. 
+
+### Microsoft 365 active users report
+
+This card shows the usage of each Microsoft 365 service. To view the full report, select **View full report**. [More info about the Active users report in the Microsoft 365 admin center](/microsoft-365/admin/activity-reports/active-users-ww)
+
+## Customize your dashboard
+
+To add available cards that aren't already on the dashboard, select **Add cards**. Tap or click a card to add it to the page, or drag it to a specific location on the page. 
+
+  ![The Add cards panel](media/add-cards.png)
+
+To remove a card, select More actions (...), and then select **Remove**.
+
+To move a card to a different location on the page, drag the card title.
+
   
 ## Customize the navigation pane
 
-1. At the bottom of the nav pane, select **Customize navigation**.
+> [!NOTE]
+> This feature isn't available if you're signed in as a global reader.
 
-2. Select the items you want to appear in the nav pane, and then select **Save**.
+1. At the bottom of the left pane, select **Customize navigation**.
+
+2. Select the items you want to appear in the pane, and then select **Save**.
 
     > [!TIP]
-    > To minimize the nav pane, at the top of the nav pane, select the **Collapse navigation menu** icon.
+    > To minimize the left pane, select the icon with the three horizontal bars (**Collapse navigation menu**).
 
 
 ## Where to find things in the new SharePoint admin center
@@ -77,20 +117,16 @@ In the **Service health** section of the home page, you can see whether the Shar
 If you're used to working in the classic SharePoint admin center, to learn where you can find features and tasks in the new admin center, use the following table.
 
 
-|Classic  |New  |Notes  |
+|Classic page |New page |Notes  |
 |---------|---------|---------|
-|site collections page     |    [**Active sites** page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true)     |      The new SharePoint admin center refers to site collections as "sites."   |
-|On the **site collections** page, select **New** > **Private Site Collection**.    |    [**Active sites** page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) > **Create**     |     In the new SharePoint admin center, you can create Microsoft 365 group-connected team sites and communication sites, as well as classic sites.    |
-|On the **site collections** page, select **site collections** > **Delete**.     |    On the [**Active sites** page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select **sites**, and then select **Delete**.      |         |
-|On the **site collections** page, select a site collection > **Properties**.    |   On the [**Active sites** page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), to open the **details** pane, select the site's name.  |    In the new SharePoint admin center, you can edit site details.     |
-|On the **site collections** page, select a site collection > **Owners** > **Manage Administrators**.     |    On the [**Active sites** page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select a site, and then select **Owners**.      |    The new experience also lets you view and edit Microsoft 365 Group owners.      |
-|On the **site collections** page, select a site collection > **Sharing**.     |     On the [**Active sites** page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select a site, and then select **Sharing** (or select multiple sites, and then select **Bulk edit** > **Sharing**).    |        |
-|On the **site collections** page, select **Buy Storage**.     |  [Buy a file storage add-on from the Microsoft 365 admin center](/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true)       |         |
-|On the **site collections** page, select **Recycle Bin**.    |    [**Deleted sites** page](https://admin.microsoft.com/sharepoint?page=recycleBin&modern=true)    |         |
-|   **Sharing** page |       [**Sharing** page](https://admin.microsoft.com/sharepoint?page=sharing&modern=true)  |        The new page includes the most common settings, and others are coming soon. |
-|**Settings** page     |    [**Settings** page](https://admin.microsoft.com/sharepoint?page=settings&modern=true)     |      The new page includes the most common settings, and others are coming soon. At the bottom of the new **Settings** page, to access all the classic settings, select **classic settings page**.    |
-|**Access control** page     |    [**Access control** page](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true)     |     The new SharePoint admin center contains all the classic settings and more.    |
-|Term store, User profiles, Search, Apps, BCS, Secure store, Records management, InfoPath, Configure hybrid (hybrid picker). |   [**More features** page](https://admin.microsoft.com/sharepoint?page=classicFeatures&modern=true)      |         |
+|site collections      |    [Sites > Active sites](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true)     |      The new SharePoint admin center refers to site collections as "sites." [Learn where to find tasks from the classic site collections page](site-collections-page.md)  |
+|term store      |   [Content services > Term store](https://admin.microsoft.com/sharepoint?page=termStoreAdminCenter&modern=true)   |        |
+|   sharing  |       [Policies > Sharing](https://admin.microsoft.com/sharepoint?page=sharing&modern=true)  |        The new page includes the most common settings, and others will be added. |
+|settings      |    [Settings](https://admin.microsoft.com/sharepoint?page=settings&modern=true)     |      The new page includes the most common settings, and others are coming soon. At the bottom of the new Settings page, to access all the classic settings, select **classic settings page**.    |
+|geo locations      |     [Advanced > Geo locations](https://admin.microsoft.com/sharepoint?page=geoLocations&modern=true)  |         |
+|access control      |    [Policies > Access control](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true)     |     The new SharePoint admin center contains all the classic settings and more.    |
+|data migration      |    [Migration](https://admin.microsoft.com/sharepoint?page=migration&modern=true)     |     The new Migration Manager lets you migrate from on-premises file shares and SharePoint Server sites as well as popular cloud providers. This feature isn't available if you're signed in as a global reader. [Learn more about Migrating content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online)    |
+|User profiles, Search, Apps, BCS, Secure store, Records management, InfoPath, Configure hybrid (hybrid picker). |   [More features](https://admin.microsoft.com/sharepoint?page=classicFeatures&modern=true)      |         |
 
 
 ## See also
