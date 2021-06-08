@@ -94,6 +94,9 @@ When assessing your migration jobs, we recommend that you first look at these su
 |Migrated GB <br/> |The total size of the files migrated, expressed in gigabytes.  <br/> |
 |Agent|The address of the migration agent (VM or computer) that is running the migration task.|	
 |Duration  <br/> |Length of time in minutes that the migration task took to complete.  <br/> |
+|TaskID|Unique ID of the task.|
+|Task failure reason|Explanation of task failure.|
+|Agent group|Name of agent group the task was assigned to.|
 
 
    
