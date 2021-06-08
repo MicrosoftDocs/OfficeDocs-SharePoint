@@ -70,6 +70,7 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [DisableTutorial](deploy-and-configure-on-macos.md#disabletutorial)
 - [DownloadBandwidthLimited](deploy-and-configure-on-macos.md#downloadbandwidthlimited)
 - [EnableAllOcsiClients](deploy-and-configure-on-macos.md#enableallocsiclients)
+- [EnableODIgnore](deploy-and-configure-on-macos.md#enableodignore)
 - [FilesOnDemandEnabled](deploy-and-configure-on-macos.md#filesondemandenabled)
 - [HideDockIcon](deploy-and-configure-on-macos.md#hidedockicon)
 - [HydrationDisallowedApps](deploy-and-configure-on-macos.md#hydrationdisallowedapps)
@@ -200,6 +201,27 @@ If you set this setting to **False**, the **Office** tab is hidden in the sync a
 
 The example for this setting in the .plist file is:
 <br/>\<key\>EnableAllOcsiClients\</key\><br/>\<(Bool)/\>
+
+
+### EnableODIgnore
+<a name="EnableODIgnore"> </a>
+
+This setting lets you enter keywords to prevent the OneDrive sync app from uploading certain files to OneDrive or SharePoint. You can enter complete names, such as "setup.exe" or use the asterisk (*) as a wildcard character to represent a series of characters, such as *.pst. Keywords aren't case-sensitive.
+
+If you enable this setting, the sync app doesn't upload new files that match the keywords you specified. No errors appear for the skipped files, and the files remain in the local OneDrive folder. In Finder, the files appear with an "Excluded from sync" icon. 
+
+Users will also see a message in the OneDrive activity center that explains why the files aren't syncing.
+Set this setting's value to an integer between 50 KB/sec and the maximum rate of 100,000 KB/sec that determines the download throughput in KB/sec that the sync app can use.
+
+The example for this setting in the .plist file is:
+<br/>
+\<key\>EnableODIgnore\</key\><br/> 
+\<array\><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;\<dict\><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<string\>*.PST\</string\><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;\</dict\><br/>
+\</array\>
+<br/>
 
 
 ### FilesOnDemandEnabled
