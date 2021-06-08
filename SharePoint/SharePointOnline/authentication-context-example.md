@@ -30,19 +30,19 @@ Authentication contexts are used with sensitivity labels to connect [Azure AD co
 
 Setting up an authentication context for labeled sites requires these basic steps:
 
-1. Add an authentication context.
+1. Add an authentication context in Azure Active Directory.
 
 2. Create a conditional access policy that applies to that authentication context and has the conditions and access controls that you want to use.
 
 3. Set a sensitivity label to apply the authentication context to labeled sites.
 
-In this article, we'll look at the example of requiring guests to agree to a [terms of use](/azure/active-directory/conditional-access/terms-of-use) before gaining access to a sensitive SharePoint site. You can use any of the conditional access conditions and access controls that you might need for your organization.
+In this article, we'll look at the example of requiring guests to agree to a [terms of use](/azure/active-directory/conditional-access/terms-of-use) before gaining access to a sensitive SharePoint site. You can also use any of the other conditional access conditions and access controls that you might need for your organization.
 
 ## Add an authentication context
 
 First, add an authentication context in Azure Active Directory.
 
-Add an authentication context
+To add an authentication context
 1. In [Azure Active Directory Conditional Access](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade), under **Manage**, click **Authentication context (Preview)**.
 
 2. Click **New authentication context**.
@@ -57,7 +57,7 @@ Add an authentication context
 
 Next, create a conditional access policy that applies to that authentication context and that requires guests to agree to a terms of use as a condition of access.
 
-Create a conditional access policy
+To create a conditional access policy
 1. In [Azure Active Directory Conditional Access](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade), click **New policy**.
 
 2. Type a name for the policy.
@@ -76,10 +76,10 @@ Create a conditional access policy
 
 Next, update a sensitivity label (or create a new one) to use the authentication context.
 
-Update a sensitivity label
+To update a sensitivity label
 1. In the [Microsoft 365 compliance center](https://compliance.microsoft.com/informationprotection), on the **Information protection** tab, click the label that you want to update and then click **Edit label**.
 
-2. Click **Next** to the **Define protection settings for groups and sites**.
+2. Click **Next** until you are on the **Define protection settings for groups and sites** page.
 
 3. Ensure that the **External sharing and Conditional Access settings** check box is selected, and then click **Next**.
 
@@ -87,11 +87,13 @@ Update a sensitivity label
 
 5. Select the **Choose an existing authentication context (preview)** option.
 
+6. In the dropdown list, choose the authentication context that you want to use.
+
     ![Screenshot of Azure AD authentication context sensitivity label settings](media/aad-authentication-context-label-setting.png)
 
-6. Click **Next** to the **Review your settings and finish** screen, and then click **Save label**.
+7. Click **Next** until you are on the **Review your settings and finish** page, and then click **Save label**.
 
-Once the label has been updated, guests accessing a SharePoint site (or the Files tab in a team) with that label will be required to agree to the terms of use before gaining access to that site.
+Once the label has been updated, guests accessing a SharePoint site (or the **Files** tab in a team) with that label will be required to agree to the terms of use before gaining access to that site.
 
 ## See also
 
