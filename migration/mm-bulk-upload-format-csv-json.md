@@ -35,7 +35,10 @@ Migration Manager lets you use a comma-separated (CSV) file to bulk migrate your
   
  **CSV file format**
   
-There are six columns needed in your CSV file -- the first three are your source values, each providing detail about where your data is currently located. The remaining three columns indicate the site, document library and optional sub-folder to where you are migrating your data. All six columns must be accounted for in the file, even if you are not needing a value for a given field.
+There are six columns needed in your CSV file -- the first three are your source values, each providing detail about where your data is currently located. The remaining three columns indicate the site, document library and optional sub-folder to where you are migrating your data. All six columns must be accounted for in the file, even if you are not needing a value for a given field. You may also include column headings in your file.
+
+>[Tip]
+>YInclude column headings in your CSV file to make your file easier to read.
   
 Here's an example of the format for the CSV file. The rows show files that are being migrated from local file shares.  You can optionally include a header row in your file.
 
