@@ -26,14 +26,19 @@ description: "How to format a JSON or CSV file for data content migration by usi
 # Bulk upload SPMT migration task with JSON or CSV file
 
 The SharePoint Migration tool (SPMT) enables you to bulk upload your migration task information by using a JSON or CSV file. This method helps if you're creating a large number of tasks.
+
+- [Bulk upload using a CSV file](#use-a-csv-file-for-bulk-upload)
+- [Bulk upload using a JSON file](#use-a-json-file-for-bulk-upload)
+- [Site restructure using bulk upload](#site-restructure-using-bulk-upload)
+- [Proxy settings and limitations](#proxy-connections)
   
-## Use a CSV file for data migration
+## Use a CSV file for bulk upload
 
 SPMT lets you use a comma-separated value (CSV) file to bulk migrate your data. Use any text editor, or an application like Microsoft Excel, to create the CSV file.
   
  **CSV file format**
   
-You CSV column needs six columns. The first three are source values that detail where your data is currently located. The remaining three columns indicate the site, document library, and optional subfolder where you're migrating your data to. All six columns must be accounted for in the file, even if you don't need a value for a given field.
+Your file needs six columns. The first three are source values that detail where your data is currently located. The remaining three columns indicate the site, document library, and optional subfolder where you're migrating your data to. All six columns must be accounted for in the file, even if you don't need a value for a given field.
   
 Here's an example of the CSV file format. The first row shows files that are being migrated from a local file share to SharePoint. The second row shows files that are being migrated from an on-premises SharePoint Server site to SharePoint in Microsoft 365. The third row show files that are being migrated from a local file share to OneDrive.
   
@@ -56,38 +61,7 @@ https://sharepoint2013.com/sites/contosoteamsite/,DocumentLibraryName,DocLibrary
 >
 > If the language of the destination SharePoint site isn't English, check the internal name of the "Shared Documents" Document library at https://contoso.sharepoint.com/sites/SampleSite/_layouts/15/viewlsts.aspx?view=14.
   
-### Proxy connections
 
-Proxy connections are not supported for either SharePoint or file share migrations. By default, SPMT doesn't use system proxy credentials and web requests will fail if Internet Explorer proxy is configured.  Examples of errors you may see include "SharePoint login fail" or "cannot load document library". However, you can modify the SPMT app config file to follow your system proxy settings. 
-
-If you wish to leverage your system proxy settings, use one of these methods:
-
-#### Update proxy 
-
-1. Download the latest version of SPMT. Start SPMT.
-2. If SPMT doesn't connect to Microsoft 365, go to  **%localappdata%\Apps\SharePointMigrationTool\SPMT**.
-3. Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
-4. Comment out the default proxy setting shown here:
-    ![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)
-
-5. Restart SPMT.
-
-#### If SPMT doesn't upgrade
-
-1. If SPMT cannot upgrade itself, go to **%localappdata%\Apps\SharePointMigrationTool\InstallerClient.**
-2. Open the **installclient.exe.config** file. 
-3. Add the following configuration at line 31, just after the ```<appSettings></appSettings``` tag: 
-</br>
-
-   ![Edit the config file](media/spmt-proxy-edits.png)
-
-4. Launch installclient.exe and SPMT should auto-upgrade to latest SPMT release.
-5. Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
-6. Comment out the default proxy setting:
-7. 
-    ![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)
-
-5. Restart SPMT.
 
 
  **To create a CSV file for data migration**
@@ -125,7 +99,7 @@ The following table describes the values in each column of the CSV file.
 |Target DocLib | *Required*. Enter the name of the document library with the SharePoint site where the files are migrating to. |
 |Target SubFolder | *Optional*. Enter the name of the subfolder in the document library. If this column is left empty, the files will be moved to the root level. |
 
-## Use a JSON file for data migration
+## Use a JSON file for bulk upload
 
 The following example shows the JSON file format that you can use to migrate your data.
 
@@ -188,4 +162,43 @@ As with a CSV file, the minimum required values are *Source*, *Source DocLib*, *
   ]
 }
 ```
-  
+
+## Site restructure using bulk upload
+ 
+>[!Important]
+> The site restructure Features described in the following section are part of a preview release. The content and the functionality may change and are not subject to the standard SLAs for support. 
+
+
+
+### Proxy connections
+
+Proxy connections are not supported for either SharePoint or file share migrations. By default, SPMT doesn't use system proxy credentials and web requests will fail if Internet Explorer proxy is configured.  Examples of errors you may see include "SharePoint login fail" or "cannot load document library". However, you can modify the SPMT app config file to follow your system proxy settings. 
+
+If you wish to leverage your system proxy settings, use one of these methods:
+
+#### Update proxy 
+
+1. Download the latest version of SPMT. Start SPMT.
+2. If SPMT doesn't connect to Microsoft 365, go to  **%localappdata%\Apps\SharePointMigrationTool\SPMT**.
+3. Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
+4. Comment out the default proxy setting shown here:
+    ![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)
+
+5. Restart SPMT.
+
+#### If SPMT doesn't upgrade
+
+1. If SPMT cannot upgrade itself, go to **%localappdata%\Apps\SharePointMigrationTool\InstallerClient.**
+2. Open the **installclient.exe.config** file. 
+3. Add the following configuration at line 31, just after the ```<appSettings></appSettings``` tag: 
+</br>
+
+   ![Edit the config file](media/spmt-proxy-edits.png)
+
+4. Launch installclient.exe and SPMT should auto-upgrade to latest SPMT release.
+5. Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
+6. Comment out the default proxy setting:
+7. 
+    ![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)
+
+5. Restart SPMT.
