@@ -86,7 +86,7 @@ The previous sync app (Groove.exe) is no longer installed by default with Office
     > [!NOTE]
     > After you set up OneDrive, you might not see sync icons on files until you restart your computer.
 
-8. Close the command prompt. You can now safely delete the following files from your desktop:
+7. Close the command prompt. You can now safely delete the following files from your desktop:
 
     - OfficeDeploymentTool.exe
     - Setup.exe
@@ -155,4 +155,3 @@ To install the previous OneDrive for Business sync app with Office 2013, follow 
 
     > [!NOTE]
     > The OneDrive sync app ships together with two components that are not selected for installation by default. We recommend that you do not change these default settings.
-
