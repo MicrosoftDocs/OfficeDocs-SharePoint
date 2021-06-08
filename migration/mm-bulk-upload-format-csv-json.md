@@ -40,7 +40,7 @@ There are six columns needed in your CSV file -- the first three are your source
 >[Tip]
 >YInclude column headings in your CSV file to make your file easier to read.
   
-Here's an example of the format for the CSV file. The rows show files that are being migrated from local file shares.
+Here's an example of the format for the CSV file. The rows show files that are being migrated from local file shares.  You can optionally include a header row in your file.
 
 >[!Tip]
 >Download the template for bulk uploading using a CSV file:  [Migration Manager bulk upload template](https://download.microsoft.com/download/b/1/9/b1925e76-010c-4db5-aa44-64055f8f3efe/mm-example_csv_bulk_upload.csv)
@@ -57,8 +57,9 @@ This example shows how it would appear in a .txt file.
 
 
 
-> [!IMPORTANT]
->  Remember to account for all six columns in the file, even if you are not needing a value for a given field. 
+> [!Note]
+>  You can now include header rows in your CSV file. Remember to account for all six columns in the file, even if you are not needing a value for a given field. 
+>
 >  The encoding of the CSV file must be UTF-8.
 
   
