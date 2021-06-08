@@ -24,9 +24,6 @@ description: "Learn about how the Migration Manager tool in the modern SharePoin
 
 # Overview:  Migrate your file shares to Microsoft 365 with Migration Manager
 
->[!NOTE]
->Migration Manager currently supports only the migration of **file shares**.  This release does not support the migration of content from SharePoint Server.
-
 Migrating your on-premises file share content to Microsoft 365 lets you collaborate with innovative Office apps, intelligent cloud services, and world-class security.  Migration Manager helps you get there.
 
 With the ability to set up multiple computers as "agents", Migration Manager lets you scale your migration project as much as you need. Located in the modern SharePoint Admin Center, Migration Manager guides you through the setup of your agents and the creation of your tasks. You can specify global or task level settings, view all-up task progress, and download aggregated summary and task-level reports.

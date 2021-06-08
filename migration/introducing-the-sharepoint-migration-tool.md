@@ -24,24 +24,21 @@ description: "Overview of the SharePoint Migration Tool and resources for downlo
 
 # Overview of the SharePoint Migration Tool (SPMT)
 
-You can use the SharePoint Migration Tool (SPMT) for migrations ranging from a small set of files to enterprise scale. It enables you to move your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions in Microsoft 365.
+You can use the SharePoint Migration Tool (SPMT) for migrations ranging from a small set of files to enterprise scale. It lets you to move your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions in Microsoft 365.
 
-SPMT supports migration to SharePoint and OneDrive from:
+SPMT supports migration to SharePoint, OneDrive, and Teams from:
 
-- SharePoint Server 2016
-- SharePoint Server 2013
-- SharePoint Foundation 2013
-- SharePoint Server 2010
-- SharePoint Foundation 2010
+- SharePoint Server 2010, 2013, and 2016
+- SharePoint Foundation 2010 and 2013
 - Network and local file shares
 
->[!Note]
+>[!Tip]
 >Learn how to migrate file shares by using [Migration Manager](mm-get-started.md).
 
 ## Current and pre-release versions
 
 Use one of the following links to download SPMT:
-- [Public preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
+- [Public preview](https://spmt.sharepointonline.com/betainstall/default.htm)
 - [First release](https://aka.ms/spmt-ga-page)
 - [General availability](https://aka.ms/spmt-ga-page)
 

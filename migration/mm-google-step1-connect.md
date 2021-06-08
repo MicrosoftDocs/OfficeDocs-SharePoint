@@ -21,24 +21,36 @@ search.appverid: MET150
 description: "Steps to connect to Google when using Migration Manager in the SharePoint Admin center."
 ---
 
-# Step 1:  Connect your Google account to Microsoft 365 (preview)
+# Step 1:  Connect to Google Workspace (preview)
 
 >[!Note]
-> Features described in this topic are part of a pending preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
+> Features described in this topic are part of a preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
 
 
 Sign in to your Google account and add the Microsoft 365 migration app to your Google account custom apps. 
 
-1. From the [Migration page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern), under **Google**, select **Get started**.
-2. Select **Connect to Google**. 
-3. Sign in to Google Workspace. Sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization. Select **Next**.
-4. Select **Go to Enterprise applications**. This step takes you to Azure.
-5. Select the **Office 365 migration app**.
-6. On the left-hand panel under *Security*, select **Permissions**.
-7. Select **Grant admin consent** for your account. You may be prompted for your credentials again. Return to the Migration Manager wizard screen.  Select **Next**.
-8. Select **Authenticate account**. 
-9. Sign in to grant access to Google. Select **Authorize** and then **Grant access to Google**.
-10. You're now connected to Google. Select **Finish** to close the window.
+1. In the new SharePoint admin center, select [Migration Manager](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern). 
+2. Under **Google Workspace**, select **Get started**.
+3. Select **Connect to Google Workspace**. 
+4. On the *Install the migration app* page, select **Install and authorize** if you haven't already installed the Microsoft 365 migration app in the Google Workspace Marketplace. 
+5. Sign in to the Google Workspace Marketplace with a super admin, groups admin, user management admin, or help desk admin account. 
+6. Select **Domain Install**.
+
+![Install migration app in Google marketplace](media/mm-google-domain-install.png)
+
+6. On the Domain-wide install screen, select **Continue**.
+7. Agree to the terms of service and then select **Allow**. 
+8. Select **Done** to complete the installation.
+9. Return to the Migration Manager wizard screen. Select **Next**
+10. Select **Sign in to Google Workspace**.
+11. Choose an account to continue to Microsoft 365 Migration.
+12. Select **Finish** to close the window.
+
+![connected to google success screen](media/mm-google-connected-success.png)
+
+
+
+
 
 >[!Important]
 >For security reasons, you have 10 minutes to complete the steps to connect to Google. After 10 minutes of inactivity, the session will expire.

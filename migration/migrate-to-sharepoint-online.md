@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: conceptual
 ms.service: sharepoint-online
-localization_priority: Normal
+localization_priority: None
 search.appverid: MET150
 msCollection: 
 - SPMigration
@@ -26,6 +26,25 @@ description: "This article helps you understand, which tool to use when migratin
 
 Moving to Microsoft 365? Let us help you migrate your content easily and securely.
 
+#### Got a minute?
+
+![take our survey](https://docs.microsoft.com/office/media/icons/sign-up-blue.png)  Please take our <a href="https://microsoft.qualtrics.com/jfe/form/SV_5BeuymEC0Dnkn30" target="_blank">short survey about migrating to Microsoft 365</a>. We'd love to hear from you!
+
+## Get started
+
+We support migration from on-premise sources, products, and popular cloud providers. 
+
+- [File shares](mm-get-started.md)
+- [SharePoint Server sites and content](introducing-the-sharepoint-migration-tool.md)
+- [Box (preview)](mm-box-overview.md)
+- [Google Workspace (preview)](mm-google-overview.md)
+- [Dropbox (preview)](mm-dropbox-overview.md)
+- [Other cloud providers](#cloud-to-cloud-migrations)
+
+### What's new
+
+Check out what's new and what is coming soon to [Migration Manager](mm-whats-new.md).
+
 
 ## Migrate File Shares
 Migrating your file shares with Migration Manager lets you have a centralized way of connecting servers, creating tasks, and automatically load balancing your migration tasks. You're guided through the steps of migrating your file shares, from the setup of agents, the creation of tasks, and the final migration to Microsoft 365. You can specify global or task level settings, view all-up task progress, and download aggregated summary and task level reports.
@@ -36,6 +55,7 @@ Migrating your file shares with Migration Manager lets you have a centralized wa
 [**What's new**](mm-whats-new.md)
 
 ![Migrating file shares workflow](media/mm-flow-3box.png)
+
 
 
 ## Migrate SharePoint Server sites and content
@@ -51,15 +71,11 @@ Migrate your SharePoint Server sites and content to take advantage of the latest
 ## Cloud to cloud migrations
 Are you migrating from another Cloud providers? The [Mover tool](https://mover.io/) is ideal for:
 
-- Box
 - Microsoft 365 tenant to tenant migration
-- G Suite Drive
-- Dropbox
 - Egnyte
 - Amazon S3
 - Azure Blob Storage
 - Google Cloud Storage
-
 
 **Get started!** [Mover migration tool](https://mover.io/)
 

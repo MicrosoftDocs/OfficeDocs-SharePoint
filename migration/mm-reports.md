@@ -58,7 +58,7 @@ These reports can be viewed while the migration is taking place or after the job
 To download task level reports, run the following Powershell cmdlet.
 
 
-1. [Download the powershell script](https://spmtreleasescus.blob.core.windows.net/download/ReportAggregator.zip) and extract the files.
+1. [Download the powershell script](https://spmt.sharepointonline.com/download/ReportAggregator.zip) and extract the files.
 2. **Run** *aggregatereports.ps1*. 
 3. Enter your tenant credentials.
 4. From the Task Filter pane, select how you want to filter your reports:
@@ -268,5 +268,5 @@ This report provides scores ranging from 1 to 100. The greater the number, the h
 |:-----|:-----|:-----|
 |Reading source speed score<br/> |[Improving the speed at which the source can be read](./mm-performance.md#improving-the-speed-at-which-the-source-can-be-read)<br/> |
 |Local disk performance score<br/> |[Improving the migration computer speed](./mm-performance.md#improving-the-migration-computer-speed) <br/> |
-|Uploading speed score  <br/> |[Improving your connectivity to Office 365 and Azure](/harepointmigration/mm-performance#improving-your-connectivity-to-0ffice-365-and-azure)<br/> |
+|Uploading speed score  <br/> |[Improving your connectivity to Office 365 and Azure](./mm-performance.md#improving-your-connectivity-to-office-365-and-azure)<br/> |
 |SharePoint throughput score <br/> |[Improving your migration performance](./sharepoint-online-and-onedrive-migration-speed.md) <br/> |
