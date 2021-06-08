@@ -88,7 +88,7 @@ This setting prevents the users from uploading files to other organizations by s
 The parameter for the **AllowTenantList** key is **TenantID** and its value is a string, which determines the tenants for whom the **Allow Tenant** setting is applicable. For the setting to be complete, this parameter also requires a boolean value to be set to it. If the boolean value is set to **True**, the tenant is allowed to sync.
 
 The example for this setting in the .plist file is:
-<br/>\<key\>AllowTenantList</key\><br/>\<array><br/>&nbsp;&nbsp;&nbsp;&nbsp;\<dict><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId1</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<Bool>True\</Bool><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId2</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<Bool>True\</Bool><br/>&nbsp;&nbsp;&nbsp;&nbsp;\</dict><br/>\</array>
+<br/>\<key\>AllowTenantList</key\><br/>\<array><br/>&nbsp;&nbsp;&nbsp;&nbsp;\<dict><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId1</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<true/\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId2</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<true/\><br/>&nbsp;&nbsp;&nbsp;&nbsp;\</dict><br/>\</array>
 
   
 ### AutomaticUploadBandwidthPercentage
@@ -124,7 +124,7 @@ Enable this setting by defining IDs for the **TenantID** parameter, which determ
 **Note**: In the list, inclusion of the tenant ID alone doesn't suffice. It's mandatory to set the boolean value to **True**  for the ID of each tenant who is to be blocked. 
 
 The example for this setting in the .plist file is:
-<br/>\<key\>BlockTenantList</key\><br/>\<array><br/>&nbsp;&nbsp;&nbsp;&nbsp;\<dict><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId1</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<Bool>True\</Bool><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId2</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<Bool>True\</Bool><br/>&nbsp;&nbsp;&nbsp;&nbsp;\</dict><br/>\</array>
+<br/>\<key\>BlockTenantList</key\><br/>\<array><br/>&nbsp;&nbsp;&nbsp;&nbsp;\<dict><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId1</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<true/\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId2</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<true/\><br/>&nbsp;&nbsp;&nbsp;&nbsp;\</dict><br/>\</array>
 
 ### DefaultFolderLocation
 <a name="DefaultFolderLocation"> </a>
