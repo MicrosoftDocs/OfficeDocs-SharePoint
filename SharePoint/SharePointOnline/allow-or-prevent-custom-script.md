@@ -87,7 +87,12 @@ To allow custom script on a particular site (previously called "site collection"
 3. Run the following command.
 
     ```PowerShell
-    Set-SPOsite <SiteURL> -DenyAddAndCustomizePages 0
+    Set-SPOSite <SiteURL> -DenyAddAndCustomizePages 0
+    ```
+    or by means of the PnP.PowerShell cmdlet [Set-PnPSite](/powershell/module/sharepoint-pnp/set-pnpsite?view=sharepoint-ps)
+    
+    ```PowerShell
+    Set-PnPSite <SiteURL> -NoScriptSite $false
     ``` 
 
 If you change this setting for a user's OneDrive or a classic team site, it will be overridden by the Custom Script setting in the admin center within 24 hours.
