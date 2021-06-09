@@ -49,6 +49,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 - **Agent groups and agent targeting.** You can now create an "agent group" and assign one or more agents to it. A group may represent a particular geographical location or other targeted purpose. After creating an agent group(s), you can target your tasks to be run by only that group of agents. To learn more, see: [Agent groups in Migration Manager](mm-agent-targeting.md).
 - **Summary report enhancements.** *TaskID*, *Task failure reason*, and *Agent group* have been added to the task summary report.
+- **Date completed column**.  A date completed column has been added so customers know the exact date when the task completed processing.
 
 ## February 2021
 
