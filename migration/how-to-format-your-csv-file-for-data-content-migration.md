@@ -182,7 +182,7 @@ Proxy connections are not supported for either SharePoint or file share migratio
 
 If you wish to leverage your system proxy settings, use one of these methods:
 
-### Update proxy 
+**Update proxy** 
 
 1. Download the latest version of SPMT. Start SPMT.
 2. If SPMT doesn't connect to Microsoft 365, go to  **%localappdata%\Apps\SharePointMigrationTool\SPMT**.
@@ -192,7 +192,9 @@ If you wish to leverage your system proxy settings, use one of these methods:
 
 5. Restart SPMT.
 
-### If SPMT doesn't upgrade
+</br>
+
+**If SPMT doesn't upgrade**
 
 1. If SPMT cannot upgrade itself, go to **%localappdata%\Apps\SharePointMigrationTool\InstallerClient.**
 2. Open the **installclient.exe.config** file. 
