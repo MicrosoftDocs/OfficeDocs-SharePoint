@@ -29,7 +29,7 @@ The SharePoint Migration tool (SPMT) lets you to bulk upload your migration task
 
 - [Bulk upload using a CSV file](#use-a-csv-file-for-bulk-upload)
 - [Bulk upload using a JSON file](#use-a-json-file-for-bulk-upload)
-- [**Preview:** Site restructure using bulk upload](#site-restructure-using-bulk-upload)
+- [**Preview:** Site restructure using bulk upload](#hub-site-restructure-using-bulk-upload)
 - [Proxy settings and limitations](#proxy-connections)
   
 ## Use a CSV file for bulk upload
