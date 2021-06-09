@@ -27,9 +27,11 @@ description: "How to format a JSON or CSV file for data content migration by usi
 
 The SharePoint Migration tool (SPMT) lets you to bulk upload your migration task information by using either a JSON or CSV file. This method helps if you're creating a large number of tasks.
 
+Learn how to:
+
 - [Bulk upload using a CSV file](#use-a-csv-file-for-bulk-upload)
 - [Bulk upload using a JSON file](#use-a-json-file-for-bulk-upload)
-- [**Preview:** Site restructure using bulk upload](#hub-site-restructure-using-bulk-upload)
+- [**Preview: **Define hub site structure using bulk upload](#hub-site-restructure-using-bulk-upload)
 - [Proxy settings and limitations](#proxy-connections)
   
 ## Use a CSV file for bulk upload
