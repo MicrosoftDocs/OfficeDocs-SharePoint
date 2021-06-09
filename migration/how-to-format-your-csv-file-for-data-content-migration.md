@@ -178,8 +178,8 @@ The format is similar to regular bulk upload files, except there are two additio
 |Target Web | *Required*. Enter the SharePoint site URL where the files are migrating to. |
 |Target DocLib | *Required*. Enter the name of the document library with the SharePoint site where the files are migrating to. |
 |Target SubFolder | *Optional*. Enter the name of the subfolder in the document library. If this column is left empty, the files will be moved to the root level. |
-|RegisterAsHubSite|Indicate if you want the destination site be be a hub site. Enter **YES** or **NO**. If you say **YES**, do not put a value in the *AssociateWithHubURL* column.  Currently nested hub sites are not supported.|
-|AssociateWithHubURL|Enter the URL of an existing hub site you want to associate your destination site with. You cannot have a **YES** value in the *RegisterAsHubSite* column if you have a value here.  Nested hub sites are supported.|
+|RegisterAsHubSite|Indicate if you want the destination site be be a hub site. Enter **YES** or **NO**. If you say **YES**, do not put a value in the *AssociateWithHubURL* column.  Nested hub sites are not supported.|
+|AssociateWithHubURL|Enter the URL of an existing hub site you want to associate your destination site with. You cannot have a **YES** value in the *RegisterAsHubSite* column if you have a value here.  Nested hub sites are not supported.|
 
 
 
