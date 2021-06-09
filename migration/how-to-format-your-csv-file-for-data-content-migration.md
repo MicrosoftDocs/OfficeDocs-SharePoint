@@ -36,13 +36,9 @@ Learn how to:
   
 ## Use a CSV file for bulk upload
 
-SPMT lets you use a comma-separated value (CSV) file to bulk migrate your data. Use any text editor, or an application like Microsoft Excel, to create the CSV file.
-  
- **CSV file format**
-  
-Your file needs six columns. The first three are source values that detail where your data is currently located. The remaining three columns indicate the site, document library, and optional subfolder where you're migrating your data to. All six columns must be accounted for in the file, even if you don't need a value for a given field.  Column headings are not allowed.
-  
-Here's an example of the CSV file format. The first row shows files that are being migrated from a local file share to SharePoint. The second row shows files that are being migrated from an on-premises SharePoint Server site to SharePoint in Microsoft 365. The third row show files that are being migrated from a local file share to OneDrive.
+Use any text editor, or an application like Microsoft Excel, to create the CSV file. The first three columns are source values that detail where your data is currently located. The remaining three columns indicate the site, document library, and optional subfolder where you're migrating your data.
+
+**Example**:  Here's an example of the CSV file format. The first row shows files that are being migrated from a local file share to SharePoint. The second row shows files that are being migrated from an on-premises SharePoint Server site to SharePoint in Microsoft 365. The third row show files that are being migrated from a local file share to OneDrive.
   
 ![Spreadsheet view of SharePoint Migration Tool sample format when using a CSV file.](media/73fadfad-77ad-4d3a-b738-bc7063bc2659.jpg)
   
@@ -55,21 +51,16 @@ https://sharepoint2013.com/sites/contosoteamsite/,DocumentLibraryName,DocLibrary
 \\sharedfolder\homedrives\meganb,,,https://contoso-my.sharepoint.com/personal/meganb_contoso_com/,DocLibraryName,DocLibraryName_subfolder
 ```
 
-#### Before you begin
+**Before you begin**
 
+- Enter one migration source and destination per row. Account for all six colunns in your file.
 - *Do not* include a header row in your CSV file. The example shown above included headers to demonstrate the order of the fields. 
 - Remember to account for all six columns in the file, even if you don't need a value for a given field.
 - If you use the standard out-of-the-box document library ("Shared Documents"), you must use the internal name "Documents" as the placeholder value for the *Source Document Library* (column B) in your CSV file. If you enter "Shared Documents" in that column, you'll get an "invalid document library" error.
 - If the language of the destination SharePoint site isn't English, check the internal name of the "Shared Documents" Document library at https://contoso.sharepoint.com/sites/SampleSite/_layouts/15/viewlsts.aspx?view=14.
-  
+  Do not include column headings in your file.
 
-
- ### Create a CSV file for bulk upload
-  
-Enter the values for your migration tasks. Enter one migration source and destination per row. Account for all six colunns in your file.
-
-Do not include column headings in your file.
-    
+**Column definitions**    
   
 |Column content|Description|
 |:-----|:-----|
@@ -154,9 +145,9 @@ When migrating your content, you may want to take advantage of a Modern feature 
 >[!Tip]
 >Want to learn more about SharePoint hub sites? See [Planning SharePoint hub sites](https://microsoft.com/en-us/sharepoint/planning-hub-sites)
 
-### Before you begin
+**Before you begin**
 
-Before you begin, a few important guidelines:
+A few important guidelines:
 
 - Plan your strategy, and make a note of your existing (if any) SharePoint hub sites.  
 - Check your existing hub site URLs to make sure they are valid.
@@ -166,7 +157,7 @@ Before you begin, a few important guidelines:
 - Do not use column headings in your file.
 
 
-### Columns for site restructure
+**Columns for site restructure**
 
 The format is similar to regular bulk upload files, except there are two additional columns required. Include all eight columns. Do not use column headings.
   
