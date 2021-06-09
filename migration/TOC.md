@@ -62,7 +62,7 @@
 #### [How the SharePoint Migration Tool works](how-the-sharepoint-migration-tool-works.md)
 #### [Settings](spmt-settings.md)
 #### [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
-#### [How to format your CSV or JSON file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md)
+#### [Bulk upload migration tasks with CSV or JSON file](how-to-format-your-csv-file-for-data-content-migration.md)
 #### [SPMT Reports](using-the-sharepoint-migration-tool-reports.md)
 #### [Create user mapping files](create-a-user-mapping-file-for-data-content-migration.md)
 ###  Troubleshooting
