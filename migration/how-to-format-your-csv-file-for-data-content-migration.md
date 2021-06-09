@@ -31,7 +31,7 @@ Learn how to:
 
 - [Bulk upload using a CSV file](#use-a-csv-file-for-bulk-upload)
 - [Bulk upload using a JSON file](#use-a-json-file-for-bulk-upload)
-- [**Preview: **Define hub site structure using bulk upload](#hub-site-restructure-using-bulk-upload)
+- [**Preview:** Define hub site structure using bulk upload](#hub-site-restructure-using-bulk-upload)
 - [Proxy settings and limitations](#proxy-connections)
   
 ## Use a CSV file for bulk upload
