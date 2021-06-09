@@ -145,6 +145,8 @@ When migrating your content, you may want to take advantage of a Modern feature 
 >[!Tip]
 >Want to learn more about SharePoint hub sites? See [Planning SharePoint hub sites](https://microsoft.com/en-us/sharepoint/planning-hub-sites)
 
+</br>
+
 **Before you begin**
 
 A few important guidelines:
@@ -156,6 +158,7 @@ A few important guidelines:
 - Include all eight columns in your file even if the value is blank.
 - Do not use column headings in your file.
 
+</br>
 
 **Columns for site restructure**
 
