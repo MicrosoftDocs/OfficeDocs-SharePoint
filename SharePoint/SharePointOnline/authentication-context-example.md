@@ -30,7 +30,7 @@ Authentication contexts are used with sensitivity labels to connect [Azure AD co
 
 Some apps do not currently work with authentication contexts. If you have Office apps or third party apps, we recommend testing them on a site with authentication context enabled before broadly deploying this feature. Currently, the following apps do *not* work with authentication contexts:
 
-- Older version of Office Clients (see the [list of supported versions](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#more-information-about-the-dependencies-for-the-authentication-context-option))
+- Older version of Office apps (see the [list of supported versions](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#more-information-about-the-dependencies-for-the-authentication-context-option))
 - Teams web app
 - Workflows that use Power Apps or Power Automate
 - Third-party apps
