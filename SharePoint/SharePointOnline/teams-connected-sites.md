@@ -50,12 +50,7 @@ Teams connected team sites and channel sites include additional information to i
 
 For the parent team site, this link will always redirect to Microsoft Teams and the general channel for the Team. For the teams connected channel sites, this link will be a direct link to the channel in Microsoft Teams.
 
-
-![Image of Microsoft Teams channel site types](media/teams-connected-label.png)
-
-Also included for teams connected channel sites is the identification of the channel type. This text and icon will provide key information about the usage and permissions for the site based off its channel type in Microsoft Teams. 
-
-<<<<Need image for doc lib>>>>
+![Image of Go to channel links from a document library](media/teams-connected-links.png) 
 
 In the parent team site, the **Go to channel** link will be available in the command bar when viewing document libraries.
 
