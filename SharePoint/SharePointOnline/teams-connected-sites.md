@@ -88,10 +88,10 @@ For Teams connected channel sites the sensitivity settings are inherited from th
 
 **Learn more about Microsoft Teams policies here:**
 
-[Overview of security and compliance](security-compliance-overview.md)
+[Overview of security and compliance](/microsoftteams/security-compliance-overview)
 <br>
 
-[Manage teams policies in Microsoft Teams](teams-policies.md)
+[Manage teams policies in Microsoft Teams](/MicrosoftTeams/teams-policies)
 
 
 ## More resources
