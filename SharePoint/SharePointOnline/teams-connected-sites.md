@@ -106,3 +106,6 @@ For Teams connected channel sites the sensitivity settings are inherited from th
 
 [Microsoft Teams can have standard or private channels](https://support.microsoft.com/office/teams-can-have-standard-or-private-channels-de3e20b0-7494-439c-b7e5-75899ebe6a0e)
 
+
+
+
