@@ -85,7 +85,7 @@ You can also create a card by [tracking a view](manage-sites-in-new-admin-center
 
 - **Redesigned details panel**. On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), the details panel that appears when you select a site has been redesigned to divide the information among multiple tabs. [Learn more about managing sites](manage-sites-in-new-admin-center.md).
 
-    ![The General tab of the details panel](media/d0ddbc56-328e-42fb-b143-3faa14799fac.PNG)
+    ![The General tab of the details panel](media/general-tab-details-panel.png)
 
 - **Additional site-level sharing settings**. On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), when you select a site and then select **Sharing**, you can [change the default sharing link type and default link permissions for the site](change-external-sharing-site.md). 
 
