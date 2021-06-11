@@ -36,7 +36,10 @@ We're continuously adding new features to the new SharePoint admin center and fi
 
 ## June 2021
 
+- **Info about connection to Microsoft Teams**. On the Active sites page, you can use the new Teams column to view and filter sites connected to Microsoft Teams. When you select a site, the details panel also shows whether the site is connected to Microsoft Teams. 
+- **Info about site creation source**. On the Active sites page, you can use the new Created from column to see how the site was created. When you select a site, this info appears on the General tab of the details panel, under **Creation**. This info isn't available for sites created before October 2020.  
 - **New dashboard on home page**. On the home page, you can now add, remove, and rearrange cards. Several new cards were added:
+
     - SharePoint storage usage over time
     - OneDrive usage
     - OneDrive file activity
@@ -44,6 +47,9 @@ We're continuously adding new features to the new SharePoint admin center and fi
     - Sensitivity labels
     - Term store operations
     - Microsoft 365 active users report
+
+You can also create a card by [tracking a view](manage-sites-in-new-admin-center.md#track-a-view) on the Active sites page. 
+
 [Learn more about the new home page dashboard](get-started-new-admin-center.md)
 
 ## April 2021
