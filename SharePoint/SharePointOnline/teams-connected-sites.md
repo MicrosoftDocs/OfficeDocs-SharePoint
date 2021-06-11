@@ -73,7 +73,7 @@ You’ll notice that when you navigate to **Settings**, there is no option to se
 
 **Learn more about managing membership in Teams:**
 
-[Private channels in Microsoft Teams](private-channels)
+[Private channels in Microsoft Teams](private-channels.md)
 <br>
 
 [Manage team settings and permissions in Teams](https://support.microsoft.com/office/manage-team-settings-and-permissions-in-teams-ce053b04-1b8e-4796-baa8-90dc427b3acc)
@@ -88,10 +88,10 @@ For Teams connected channel sites the sensitivity settings are inherited from th
 
 **Learn more about Microsoft Teams policies here:**
 
-[Overview of security and compliance](security-compliance-overview)
+[Overview of security and compliance](security-compliance-overview.md)
 <br>
 
-[Manage teams policies in Microsoft Teams](teams-policies)
+[Manage teams policies in Microsoft Teams](teams-policies.md)
 
 
 ## More resources
