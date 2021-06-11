@@ -35,6 +35,9 @@ Some apps do not currently work with authentication contexts. If you have Office
 - Workflows that use Power Apps or Power Automate
 - Third-party apps
 
+> [!NOTE]
+> Using authentication context with SharePoint sites requires a Microsoft 365 E5 or Microsoft 365 E5 Compliance license for each user accessing a labeled site.
+
 Setting up an authentication context for labeled sites requires these basic steps:
 
 1. Add an authentication context in Azure Active Directory.
@@ -107,3 +110,5 @@ Once the label has been updated, guests accessing a SharePoint site (or the **Fi
 [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
 [Conditional Access: Cloud apps, actions, and authentication context](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps)
+
+[Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
