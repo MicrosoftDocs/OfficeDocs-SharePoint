@@ -73,7 +73,7 @@ You’ll notice that when you navigate to **Settings**, there is no option to se
 
 **Learn more about managing membership in Teams:**
 
-[Private channels in Microsoft Teams](private-channels.md)
+[Private channels in Microsoft Teams](~/officedocs-skypeforbusiness/teams/private-channels.md)
 <br>
 
 [Manage team settings and permissions in Teams](https://support.microsoft.com/office/manage-team-settings-and-permissions-in-teams-ce053b04-1b8e-4796-baa8-90dc427b3acc)
