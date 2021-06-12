@@ -318,13 +318,11 @@ For detailed info, see [Microsoft 365 ATP for SharePoint, OneDrive, and Microsof
 
 ## Migrate files from on-premises
 
-Microsoft 365 offers much greater versatility in collaboration scenarios than on-premises solutions such as SharePoint Server. If you have files in document libraries on SharePoint Server or in file shares, you can migrate them to SharePoint by using the SharePoint Migration Tool. The SharePoint Migration Tool can move files, OneDrive libraries, and even entire sites to SharePoint.
-
-As part of your migration, you can use the [Azure Information Protection scanner](/azure/information-protection/deploy-aip-scanner) to scan and label sensitive information in your on-premises environment. With this information, you can reorganize your data if needed before migrating it to similarly labeled sites in SharePoint.
+Microsoft 365 offers much greater versatility in collaboration scenarios than on-premises solutions such as SharePoint Server. If you have files in document libraries on SharePoint Server or in file shares, [learn about migrating them to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online). If your users have files in local Windows known folders, you can also move them to OneDrive for enhanced collaboration capabilities. [Learn about Known Folder Move](/onedrive/redirect-known-folders).
 
 If the content that your users are collaborating on is located in SharePoint Server or in file shares, we recommend that you migrate it to Microsoft 365 to take advantage of the broader range of collaboration capabilities.
 
-For information on how to migrate content with the SharePoint Migration Tool, see [Download and install the SharePoint Migration Tool](/sharepointmigration/introducing-the-sharepoint-migration-tool).
+As part of your migration, you can use the [Azure Information Protection scanner](/azure/information-protection/deploy-aip-scanner) to scan and label sensitive information in your on-premises environment. With this information, you can reorganize your data if needed before migrating it to similarly labeled sites in SharePoint.
 
 ## Related topics
 

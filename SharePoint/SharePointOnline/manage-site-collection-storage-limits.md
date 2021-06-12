@@ -176,7 +176,7 @@ You can use the following Microsoft PowerShell script to monitor your sites. Thi
     
     - **$path** is the file system path you want the CSV file to output to.
     
-    - **\<SmtpServer\>** is the name of your SharePoint Migration Tool mail server. 
+    - **\<SmtpServer\>** is the name of your mail server. 
     
     - **\<SenderEmailAddress\>** is the global admin or SharePoint admin account that appears in the From line in the warning email. 
     

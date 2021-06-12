@@ -36,12 +36,12 @@ Once you're using SharePoint, get the [OneDrive sync app](https://onedrive.live.
 
 ## Migration
 
-If you have files on-premises that you need to move to SharePoint in Microsoft 365, or if you're still using SharePoint Server, the resources in this section can help you get started.
+If you have files that you need to move to SharePoint in Microsoft 365, the resources in this section can help you get started.
 
 | If you're looking for this information: | Go to this resource: |
 |:-----|:-----|
-|How to migrate content from file shares, SharePoint Server, or other cloud providers to OneDrive in Microsoft 365|[Migrate content to OneDrive](/sharepointmigration/migrating-content-to-onedrive-for-business)<br><br>[How to migrate from on-premises file shares to Microsoft 365](/sharepointmigration/mm-get-started)<br><br>[The SharePoint Migration Tool](/sharepointmigration/introducing-the-sharepoint-migration-tool)|
-|How to connect your existing on-premises SharePoint sites to SharePoint in Microsoft 365|[Hybrid for SharePoint Server](../SharePointServer/hybrid/hybrid.md)|
+|How to migrate content from file shares or other cloud providers using Migration Manager|[Migrate your content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online)|
+|How to migrate SharePoint Server sites and content|[Overview of the SharePoint Migration Tool (SPMT)](sharepointmigration/introducing-the-sharepoint-migration-tool)|
 
 ## Governance
 

@@ -117,6 +117,6 @@ The OneDrive Known Folder Move Group Policy objects won't work if you previously
   > [!NOTE]
   > We recommend using Windows 10 Fall Creators Update (version 1709 or later) or Windows Server 2019 and the current version of OneDrive to get the benefits from Files On-Demand.
   
-  1. [Use a migration tool](/sharepointmigration/migrate-to-sharepoint-online) to copy contents in the network file share location to a user's OneDrive, making sure that all contents go into the existing Documents, Pictures, or Desktop folders.
+  1. [Use Migration Manager](/sharepointmigration/mm-get-started) to copy contents in the network file share location to a user's OneDrive, making sure that all contents go into the existing Documents, Pictures, or Desktop folders.
   2. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on the network file share. 
   3. Enable KFM Group Policy. Known folders move to OneDrive and will merge with the existing Desktop, Documents, and Pictures folders which contain all the file share content that you moved in the first step.

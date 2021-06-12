@@ -33,13 +33,11 @@ description: "This article describes how global and SharePoint admins can create
 
 # Create a site
 
-This article describes how global admins and SharePoint admins in Microsoft 365 can create sites (previously called "site collections").
+This article describes how global admins and SharePoint admins in Microsoft 365 can create sites (previously called "site collections") in the SharePoint admin center. For info about creating sites and adding users and groups to them by using Microsoft PowerShell, see [Create SharePoint sites and add users with PowerShell](/microsoft-365/enterprise/create-sharepoint-sites-and-add-users-with-powershell).
   
 For info about creating site collections in SharePoint Server, see [Create a site collection in SharePoint Server](../SharePointServer/sites/create-a-site-collection.md).
 
-## Create a site in the new SharePoint admin center
-
-By using the new SharePoint admin center, you can create sites that use one of the new team site or communication site templates. 
+## Create a team site or communication site
   
 1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
@@ -52,7 +50,10 @@ By using the new SharePoint admin center, you can create sites that use one of t
 
     ![The Create button on the Active sites page](media/create-site-button.png)
 
-3. Select **Team site** (to create a Microsoft 365 group-connected team site), **Communication site**, or **Other options** (to create a new team site without a Microsoft 365 group, or to create a classic site).
+    > [!TIP]
+    > If you go to **Resources** > **Sites** in the Microsoft 365 admin center and select **Add a site**, it opens the Active sites page of the SharePoint admin center in a new tab, and opens the Create a site panel.  
+
+3. Select **Team site** (to create a Microsoft 365 group-connected team site), **Communication site**, or **Other options** to create a new team site without a Microsoft 365 group.
 
     ![The Create a site panel](media/c4c5173f-ca83-426f-a940-cb2869a3a64b.png)
 
@@ -67,20 +68,16 @@ By using the new SharePoint admin center, you can create sites that use one of t
 
 We recommend using the new site templates for all your new sites. However, if you need to create a site that uses a classic template, you can do so using the following steps:  
   
-1. Sign in to the SharePoint admin center (at https://[tenant-name]-admin.sharepoint.com) as a SharePoint admin. 
-
-2. In the left pane, select **Sites** \> **Active Sites**. 
-  
-3. Select **Create**.
+1. On the [Active sites page of the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select **Create**.
     
     ![The Create button on the Active sites page](media/create-site-button.png)
   
-4. At the bottom of the panel, select **Other options**.
+2. At the bottom of the panel, select **Other options**.
 
     > [!div class="mx-imgBorder"]
     > ![image](https://user-images.githubusercontent.com/7239963/112038959-d6da3500-8b19-11eb-8315-7f780ac46649.png)
 
-5. From the template drop-down, select **More templates**. 
+3. From the template drop-down, select **More templates**. 
 
     > [!div class="mx-imgBorder"]
     > ![image](https://user-images.githubusercontent.com/7239963/112038982-dfcb0680-8b19-11eb-9b78-d6bd375b86fa.png)
@@ -107,5 +104,5 @@ We recommend using the new site templates for all your new sites. However, if yo
       
     - In the **Server Resource Quota** box, accept the resource quota default. This setting no longer affects the resource amounts available for the site. 
     
-6. Select **OK**.
+4. Select **OK**.
    

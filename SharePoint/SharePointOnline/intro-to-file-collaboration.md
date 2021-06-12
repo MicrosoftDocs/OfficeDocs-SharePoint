@@ -154,7 +154,9 @@ In the Office apps, users can easily [open files saved in the Microsoft cloud](h
 
 You can choose one or more of the following options, depending on the number and location of files that you want to migrate.
 
-- **SharePoint Migration Tool**. To migrate files from file shares or on-premises SharePoint, you can use the SharePoint Migration Tool. For info, see [How the SharePoint Migration Tool works](/sharepointmigration/how-the-sharepoint-migration-tool-works/).
+- **Migration Manager**. Copy file shares or content from other cloud providers to Microsoft 365. [Learn more about migrating content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online).
+
+- **SharePoint Migration Tool**. To migrate SharePoint Server sites and content, you can use the SharePoint Migration Tool. For info, see [Overview of the SharePoint Migration Tool](/sharepointmigration/introducing-the-sharepoint-migration-tool).
 
 - **Known Folder Move**. If your users save most of their files to their Desktop, Documents, and Pictures folders, you can seamlessly move them to OneDrive using [Known Folder Move](/onedrive/redirect-known-folders) so users can continue working in the locations they're used to.  
     ![Enabling protection on a user's Desktop, Pictures, and Documents folder in OneDrive](media/sp-collabguide11.png)

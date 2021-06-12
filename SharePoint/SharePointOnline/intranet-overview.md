@@ -160,7 +160,7 @@ Governance is the set of policies, roles, and processes that control how your or
 
 Your existing intranet may contain content from a variety of sources located on different platforms. A key task in creating your intelligent SharePoint intranet is determining the state of your existing content and deciding which content to migrate to the new intranet.
 
-Your current business owners and site owners may be best suited to evaluate if content should be migrated and you may want to have them perform the actual migration, depending on what's involved. They may need your assistance depending on the quantity and location of the content to be moved. The [SharePoint Migration Tool](/sharepointmigration/migrate-to-sharepoint-online) can help you migrate content from SharePoint server and from file shares. [Mover](https://mover.io) can help you migrate from other cloud providers.
+Your current business owners and site owners may be best suited to evaluate if content should be migrated and you may want to have them perform the actual migration, depending on what's involved. They may need your assistance depending on the quantity and location of the content to be moved. [Learn about options for migrating from file shares, SharePoint Server, and other cloud providers](/sharepointmigration/migrate-to-sharepoint-online).
 
 *Start by* — Working with business leaders and other content stakeholders to review your existing content for relevance and accuracy.
 
@@ -209,7 +209,7 @@ Look for opportunities to eliminate prior versions of documents that you no long
 
 Train your users to take advantage of SharePoint’s automated versioning — and remove version IDs and dates from file names wherever possible, migrating only the latest and most accurate version. Better still, see if you can convert legacy documents to modern pages to create more engaging and easier to consume content. You will get better search experiences and achieve higher user satisfaction and easier maintenance by removing content that's no longer needed prior to migration.
 
-If you're migrating files from SharePoint Server on-premises or file shares, you can use the [SharePoint Migration Tool](/sharepointmigration/migrate-to-sharepoint-online).
+[Learn about options for migrating from file shares, SharePoint Server, and other cloud providers](/sharepointmigration/migrate-to-sharepoint-online).
 
 Video is a great way to communicate to the people in your organization for executive briefings or when sharing ideas through video can lead to greater engagement. Use [Microsoft Stream](/stream) to deliver live and on-demand meetings, events, and training. If you have existing video content that you want to make available on your new intranet site, [upload it to Stream](/stream/portal-upload-video) as part of your content migration process.
 

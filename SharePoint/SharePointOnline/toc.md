@@ -190,5 +190,5 @@
 #### [Allow users to create modern pages](let-users-create-modern-site-pages.md)
 #### [Let users connect classic sites to groups](let-users-connect-classic-sites-to-groups.md)
 ### [Hybrid](../SharePointServer/hybrid/hybrid.md)
-### [SharePoint Migration Tool](/sharepointmigration/migrate-to-sharepoint-online)
+### [Migration](/sharepointmigration/migrate-to-sharepoint-online)
 ### [Multi-Geo](/Office365/Enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365)
