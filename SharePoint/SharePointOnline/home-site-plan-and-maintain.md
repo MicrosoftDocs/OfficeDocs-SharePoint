@@ -41,14 +41,14 @@ If you’ve already created your home site and are ready to set it now, learn ho
 - Take advantage of the new people engagement tool, Viva Connections 
 
 |  **Example of a home site:**              | **Home site in the SharePoint mobile app:**      | 
-| :------------------: | :------------------- |:----------------|
-|  ![image of a home site](media/home-site-example.png)   |  ![image of  the SharePoint app viewing a home site](media/home-site-fre.png)  | 
+| :------------------- | :------------------- |:----------------|
+|  ![image of a home site](media/home-site-example-2.png)   |  ![image of  the SharePoint app viewing a home site](media/home-site-fre-2.png)  | 
 
 
 
 > [!NOTE]
-> Today, home sites can only be created using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps). Admin credentials are required to use SharePoint PowerShell.
-> Integration between the home site and [SharePoint start page](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220) (where the branding, theming, header, navigation, and footer elements from the home site are applied to the start page and users can easily navigate between the pages) is not available at this time. Please watch for updates in the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=SharePoint).
+>Today, home sites can only be created using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps). Admin credentials are required to use SharePoint PowerShell.
+>Integration between the home site and [SharePoint start page](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220) (where the branding, theming, header, navigation, and footer elements from the home site are applied to the start page and users can easily navigate between the pages) is not available at this time. Please watch for updates in the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=SharePoint).
 
 
 ## What is a SharePoint home site?
@@ -79,7 +79,7 @@ By default, a home site is set as the organizational news source. News post that
 The SharePoint app bar features a global navigation option that displays intranet navigational nodes and resources no matter where users are in SharePoint. To take full advantage of this feature, you must have a home site. Learn more about how to [enable and customize global navigation in the SharePoint app bar](/SharePoint/sharepoint-app-bar). 
 
 #### Use Viva Connections to integrate your intranet into Microsoft teams
-Viva connections was designed to drive engagement, build community, and enable your organization to stay connected. To take advantage if this solution, you’ll need a home site. Then, you can integrate the home site into Microsoft Teams. [Learn more about Viva connections](/SharePoint/viva-connections).
+Viva connections is designed to drive engagement, build community, and enable your organization to stay connected. To take advantage if this solution, you’ll need a home site. Then, you can integrate the home site into Microsoft Teams. [Learn more about Viva connections](/SharePoint/viva-connections).
 
 
 ### Before getting started
@@ -89,7 +89,7 @@ Before you get started planning and building your home site, review best practic
 #### Best practices for creating home sites:
 -	Since home sites will be used by the entire organization, the site needs to be [inclusive and easily accessible on all devices](https://support.microsoft.com/topic/get-ready-build-an-accessible-sharepoint-site-3a1df3ad-f093-450c-85a6-b3bf70fd6abb)
 -	For the same reason above, [consider other languages that might be needed](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c)
-- Since the home site will be viewed by high volumn of users, ensure you are [managing site performance](/sharepoint/portal-health) through the planning and building phases
+- The home site will be viewed by high volumn of users, ensure you are [managing site performance](/sharepoint/portal-health) through the planning and building phases
 -	Links in the home site navigation can direct users to content on the home site and global navigation can be used to lead users to universally used resources and portals
 -	After creating your home site, [replace the site with the current root site](/sharepoint/modern-root-site#replace-your-root-site)
 -	Make sure the home site is discoverable by [adding an entry point to the Microsoft 365 app launcher](/microsoft-365/admin/manage/customize-the-app-launcher?view=o365-worldwide) and a [featured link on the SharePoint start page](/sharepoint/change-links-list-on-sharepoint-home-page)
@@ -156,15 +156,21 @@ Once you’ve got your home site created it’s time to plan the launch and make
 | ![image of a globe and monitor](media/icon-launch-viva.png)   | **Integrate the home site into Microsoft Teams using Viva Connections** | Expand the reach of the home site and help meet users where they are already working by making it easy to access sand share content all in one place. After you have a home site and the global navigation enabled and customized in the SharePoint app bar, you’ve met the requirements to [integrate the home site into Microsoft Teams](/SharePoint/viva-connections) using Viva Connections.Learn more about the [Viva Connections end-user experience](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b?ui=en-US&rs=en-US&ad=US).|
 
 
-## Home site FAQs
+### Home site FAQs
 
 
 
 
 
-## Resources
+### Resources
 
-Watch: [Build and launch a SharePoint Home Site: Tips and Tricks From The Product Team](https://techcommunity.microsoft.com/t5/video-hub/build-and-launch-a-sharepoint-home-site-tips-and-tricks-from-the/m-p/1696758)
+**Watch:** [Build and launch a SharePoint Home Site: Tips and Tricks From The Product Team](https://techcommunity.microsoft.com/t5/video-hub/build-and-launch-a-sharepoint-home-site-tips-and-tricks-from-the/m-p/1696758)
+<br>
+
 [Use PowerShell to create a home site for your organization](/sharepoint/home-site)
+<br>
+
 [Planning your SharePoint hub sites](/sharepoint/planning-hub-sites)
+<br>
+
 [Creating and launching a healthy SharePoint portal](/sharepoint/portal-health)
