@@ -29,14 +29,15 @@ description: "Learn how to plan and create the top landing page for your organiz
   
 A SharePoint home site provide a personalized landing experience that reflects the organization’s brand, voice, and priorities. A home site also serves as the gateway to other portals in your organization’s intranet. Your organization needs a home site not only to provide the best intranet experience for viewers but to also take advantage of features like SharePoint global navigation and the many ways to integrate your intranet with Microsoft Teams by using [Viva Connections](https://www.microsoft.com/microsoft-viva/?ef_id=5acddca3e3be1730e131bc646cab7344:G:s&OCID=AID2101053_SEM_5acddca3e3be1730e131bc646cab7344:G:s&msclkid=5acddca3e3be1730e131bc646cab7344).
 <br>
+<br>
 If you’ve already created your home site and are ready to set it now, learn how to [transform your communication site into a home site](/sharepoint/home-site#:~:text=Set%20a%20site%20as%20your%20home%20site%201,365.%20...%203%20Run%20Set-SPOHomeSite%20-HomeSiteUrl%20%3CsiteUrl%3E.%20).
 
 **Use a SharePoint home site to:**
 
--	Provide a gateway to other high-traffic portals
--	Connect people with an intranet-wide search experience
--	Showcase targeted news and content
--	Take advantage of the new people engagement tool, Viva Connections 
+- Provide a gateway to other high-traffic portals
+- Connect people with an intranet-wide search experience
+- Showcase targeted news and content
+- Take advantage of the new people engagement tool, Viva Connections 
 
     ![Link to the home site in the SharePoint mobile app](media/home-site-example.png)
 
@@ -72,7 +73,7 @@ The SharePoint app bar features a global navigation option that displays intrane
 Viva connections was designed to drive engagement, build community, and enable your organization to stay connected. To take advantage if this solution, you’ll need a home site. Then, you can integrate the home site into Microsoft Teams. [Learn more about Viva connections](/SharePoint/viva-connections).
 
 
-## Before getting started
+### Before getting started
 
 Before you get started planning and building your home site, review best practices and considerations. 
 
@@ -96,30 +97,13 @@ Before you get started planning and building your home site, review best practic
 
 Since home sites are the gateway to your intranet, you’ll want to prioritize content and resources that are relevant to most employees. Work with business owners and stakeholders to organize and align the flow of information and the navigational design. Then, use [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps) to create a home site and use the [Page diagnostics for SharePoint tool](/microsoft-365/Enterprise/page-diagnostics-for-spo?view=o365-worldwide) to ensure to best viewing experience. Finally, use the [Portal launch scheduler](/microsoft-365/enterprise/portallaunchscheduler?view=o365-worldwide) to plan the launch of your new site and make the site discoverable by adding links to key entry-points in the Microsoft 365 experience.
 <br>
+<br>
 Before you get started planning your home site, [hear from the Microsoft product team on how to think](https://techcommunity.microsoft.com/t5/video-hub/build-and-launch-a-sharepoint-home-site-tips-and-tricks-from-the/m-p/1696758) about and approach the design of your organization’s home site. 
 
 
 | Plan                  | Build                | Manage          |
 | :------------------- | :------------------- |:----------------|
-| -	Align objectives with partners and business owners
--	Organize priority content and resources 
--	Design wayfinding for the home site and global navigation
--	Think about branding
--	Use audience targeting on navigational links, news, and web parts
-  | -	Upload and organize site assets and content like logos and files 
--	Customize the site to align with the rest of the intranet
--	Apply audience targeting
--	Turn on a content approval flow
--	Use PowerShell to turn the communication site into a home site
--	Replace the home site with the root site
--	Measure site health and performance
-- Test on all devices
- | -	Share the site with your organization
--	Use the Portal launch scheduler to manage the launch
--	Make the home site discoverable
--	Announce the launch of the home site in an all-hands meeting and in communication channels
--	Monitor usage and page analytics
- |
+| -	Align objectives with partners and business owners <br> - Organize priority content and resources <br> - Design wayfinding for the home site and global navigation <br> - Think about branding <br> - Use audience targeting on navigational links, news, and web parts| -	Upload and organize site assets and content like logos and files <br> - Customize the site to align with the rest of the intranet <br> - Apply audience targeting <br> - Turn on a content approval flow <br> - Use PowerShell to turn the communication site into a home site <br> - Replace the home site with the root site <br> - Measure site health and performance <br> - Test on all devices| -	Share the site with your organization <br> - Use the Portal launch scheduler to manage the launch <br> - Make the home site discoverable <br> - Announce the launch of the home site in an all-hands meeting and in communication channels <br> - Monitor usage and page analytics |
 
 ## Plan your home site
 A great home site starts with a plan. Since the home site is essentially the gateway to the intranet, you will want to collaborate with other business owners such as human resources, leadership teams, and even your legal team to ensure the most important and universal resources are accessible for everyone in the organization. 
@@ -128,10 +112,8 @@ A great home site starts with a plan. Since the home site is essentially the gat
 | :------------------: | :------------------: |:----------------|
 |  ![image of a sign](media/icon-plan-organize.png)   | **Get organized** | Start by aligning objectives with stakeholders and organizing priority content and resources. Consider details specific to your organization like if the home page will need to be available in more than one language. Use modern SharePoint sites for the home site. Learn more about how [modern SharePoint sites](https://support.microsoft.com/office/sharepoint-classic-and-modern-experiences-5725c103-505d-4a6e-9350-300d3ec7d73f) and how to [create a multi-lingual site and pages](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c). |
 | ![image of a compass](media/icon-plan-nav.png)                 | **Plan navigation**                 | Then, organize the navigational structure for the home site itself and global navigation. Consider making the home site a hub site if you need to add an extra layer of navigation and make it easier to sync associated site permissions and branding. Learn more about [planning site navigation](/sharepoint/plan-implement-navigation-design) and how to [make your home site a hub site](/sharepoint/planning-hub-sites). Then, review guidance on how to [set up global navigation on the home site](/SharePoint/sharepoint-app-bar).|
-| ![image of a user](media/icon-plan-gather.png)                | **Personalize content**                 | Next, think about the difference audiences that your organization serves. Consider how elements on your home site like navigational links and certain web parts could benefit from audience targeting to specific audiences.Learn more about [audience targeting](https://support.microsoft.com/office/change-the-look-of-your-sharepoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818?ui=en-us&rs=en-us&ad=us).
-            |
-| ![image of a file](media/icon-plan-organize.png)                   | **Gather branding assets**                   | Finally, start gathering assets needed to apply custom branding and other details to your home site, like logo files, color themes, and any custom solutions. Learn more about how to [change the look of your site](https://support.microsoft.com/office/change-the-look-of-your-sharepoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818?ui=en-us&rs=en-us&ad=us).
-              |
+| ![image of a user](media/icon-plan-gather.png)                | **Personalize content**                 | Next, think about the difference audiences that your organization serves. Consider how elements on your home site like navigational links and certain web parts could benefit from audience targeting to specific audiences.Learn more about [audience targeting](https://support.microsoft.com/office/change-the-look-of-your-sharepoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818?ui=en-us&rs=en-us&ad=us). |
+| ![image of a file](media/icon-plan-organize.png)                   | **Gather branding assets**                   | Finally, start gathering assets needed to apply custom branding and other details to your home site, like logo files, color themes, and any custom solutions. Learn more about how to [change the look of your site](https://support.microsoft.com/office/change-the-look-of-your-sharepoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818?ui=en-us&rs=en-us&ad=us). |
 | ![image of a chart](media/icon-plan-perf.png)                   | **Consider site performance**                   | Even before you build your site, understand the main elements that will make sure your home site is healthy. A healthy home site is one that optimizes performance to ensure the best possible viewing experience. Use the Page diagnostics for SharePoint tool to make sure the home page is healthy before sharing with end-users.Learn more about [healthy portals](/sharepoint/portal-health) and using the [Page diagnostics tool for SharePoint](/microsoft-365/enterprise/page-diagnostics-for-spo?view=o365-worldwide). |
 
 
