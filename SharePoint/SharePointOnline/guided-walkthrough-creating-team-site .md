@@ -32,6 +32,18 @@ If you need to learn how to edit and publish the page on your site, check out th
 
 Once you have created your site and know how to edit pages, you can use the guidance below to add the elements shown.
 
+## Example Team site
+
+![Image of the hero and news web parts](media/gw-team/gw-team-1-123)
+
+1. **Team highlights and news** Get visual while sharing information. <!--learn how-->
+2. **Quick launch** Add links to more content around the site.
+3. **Inform the team** Offer links, events and content related to team work.
+4. **Share news about the team** Offer news items of interest to the team.
+5. **Highlight important information** Increase visibility of key information with the Hero web part.
+6. **Display project status** Use the Planner web part to show team progress on projects.
+7. **Display recent activity** Automatically show the most recent updates to team site content.
+
 <!-- daisy you stopped here-->
 
 ## Want more?
