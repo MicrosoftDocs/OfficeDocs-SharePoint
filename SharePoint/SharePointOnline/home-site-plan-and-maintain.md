@@ -27,13 +27,11 @@ description: "Learn how to plan and create the top landing page for your organiz
 
 # Plan, build, and maintain a home site for your organization
   
-A SharePoint home site provide a personalized landing experience that reflects the organization’s brand, voice, and priorities. A home site also serves as the gateway to other portals in your organization’s intranet. Your organization needs a home site not only to provide the best intranet experience for viewers but to also take advantage of features like SharePoint global navigation and the many ways to integrate your intranet with Microsoft Teams by using [Viva Connections](https://www.microsoft.com/microsoft-viva/?ef_id=5acddca3e3be1730e131bc646cab7344:G:s&OCID=AID2101053_SEM_5acddca3e3be1730e131bc646cab7344:G:s&msclkid=5acddca3e3be1730e131bc646cab7344).
+A SharePoint home site provides a customized landing experience that reflects the organization’s brand, voice, and priorities. A home site also serves as the gateway to other portals in your organization’s intranet. Your organization needs a home site not only to provide the best intranet experience for viewers but to also take advantage of features like SharePoint global navigation and the many ways to integrate your intranet with Microsoft Teams by using [Viva Connections](https://www.microsoft.com/microsoft-viva/?ef_id=5acddca3e3be1730e131bc646cab7344:G:s&OCID=AID2101053_SEM_5acddca3e3be1730e131bc646cab7344:G:s&msclkid=5acddca3e3be1730e131bc646cab7344).
 <br>
 <br>
 If you’ve already created your home site and are ready to set it now, learn how to [transform your communication site into a home site](/sharepoint/home-site#:~:text=Set%20a%20site%20as%20your%20home%20site%201,365.%20...%203%20Run%20Set-SPOHomeSite%20-HomeSiteUrl%20%3CsiteUrl%3E.%20).
 
-> [!NOTE]
-> Today, home sites can only be created using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps). Admin credentials are required to use SharePoint PowerShell.
 
 **Use a SharePoint home site to:**
 
@@ -42,14 +40,14 @@ If you’ve already created your home site and are ready to set it now, learn ho
 - Showcase targeted news and content
 - Take advantage of the new people engagement tool, Viva Connections 
 
-**Example of a home site:**
-    ![Link to the home site in the SharePoint mobile app](media/home-site-example.png)
+|  **Example of a home site:**              | **Home site in the SharePoint mobile app:**      | 
+| :------------------: | :------------------- |:----------------|
+|  ![image of a home site](media/home-site-example.png)   |  ![image of  the SharePoint app viewing a home site](media/home-site-fre.png)  | 
 
-**Home site in the SharePoint mobile app:**
-    ![Link to the home site in the SharePoint mobile app](media/home-site-fre.png)
 
 
 > [!NOTE]
+> Today, home sites can only be created using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps). Admin credentials are required to use SharePoint PowerShell.
 > Integration between the home site and [SharePoint start page](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220) (where the branding, theming, header, navigation, and footer elements from the home site are applied to the start page and users can easily navigate between the pages) is not available at this time. Please watch for updates in the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=SharePoint).
 
 
