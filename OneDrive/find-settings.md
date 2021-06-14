@@ -101,7 +101,7 @@ For info about the "E-mail OneDrive owners when" settings, refer to the followin
 
 ## Data migration
 
-This page redirects to the [Migration page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migration&modern=true).
+This page redirects to the [Migration page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migration&modern=true). [Learn about migrating content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online).
 
 ## Geo locations
 
