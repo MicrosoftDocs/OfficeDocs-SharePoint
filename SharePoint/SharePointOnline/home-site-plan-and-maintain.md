@@ -55,20 +55,20 @@ Home sites are SharePoint communication sites that have special capabilities suc
 | Option to enable and customize global navogation in the SharePoint app bar                 |                   | X              |
 | Option to set up Viva Connections              |                    | X              |
 
-## Home site super powers explained
+### Home site super powers explained
 
 Home sites are unlike any other site in SharePoint. When you transform a SharePoint communication site into a home site, you’ll automatically apply special capabilities that make the home site an ideal landing destination for your intelligent intranet.
 
-### Search for content across the entire intranet
+#### Search for content across the entire intranet
 Home sites allow users to search for content (such as sites, news, and files) across the entire intranet rather than searching just the site like typical SharePoint sites.
 
-### Official source of organizational news  
+#### Official source of organizational news  
 By default, a home site is set as the organizational news source. News post that are created from the home site automatically become official organizational news and will take priority on the [SharePoint start page](https://support.microsoft.com/office/discover-content-with-the-sharepoint-start-page-6b85097a-87e0-4611-a29a-dfd49b1a1220) and in the home section of the SharePoint mobile app. Administrators can [set sites as official organizations news sources in the admin center](/sharepoint/organization-news-site).
 
-### Enable and customize global navigation in the SharePoint app bar
+#### Enable and customize global navigation in the SharePoint app bar
 The SharePoint app bar features a global navigation option that displays intranet navigational nodes and resources no matter where users are in SharePoint. To take full advantage of this feature, you must have a home site. Learn more about how to [enable and customize global navigation in the SharePoint app bar](/SharePoint/sharepoint-app-bar). 
 
-### Use Viva Connections to integrate your intranet into Microsoft teams
+#### Use Viva Connections to integrate your intranet into Microsoft teams
 Viva connections was designed to drive engagement, build community, and enable your organization to stay connected. To take advantage if this solution, you’ll need a home site. Then, you can integrate the home site into Microsoft Teams. [Learn more about Viva connections](/SharePoint/viva-connections).
 
 
@@ -124,7 +124,15 @@ Before you get started planning your home site, [hear from the Microsoft product
 ## Plan your home site
 A great home site starts with a plan. Since the home site is essentially the gateway to the intranet, you will want to collaborate with other business owners such as human resources, leadership teams, and even your legal team to ensure the most important and universal resources are accessible for everyone in the organization. 
 
-
+|                   | Action        | Get started          |
+| :------------------: | :------------------: |:----------------|
+|  ![image of a sign](media/icon-plan-organize.png)   | **Get organized** | Start by aligning objectives with stakeholders and organizing priority content and resources. Consider details specific to your organization like if the home page will need to be available in more than one language. Use modern SharePoint sites for the home site. Learn more about how [modern SharePoint sites](https://support.microsoft.com/office/sharepoint-classic-and-modern-experiences-5725c103-505d-4a6e-9350-300d3ec7d73f) and how to [create a multi-lingual site and pages](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c). |
+| ![image of a compass](media/icon-plan-nav.png)                 | **Plan navigation**                 | Then, organize the navigational structure for the home site itself and global navigation. Consider making the home site a hub site if you need to add an extra layer of navigation and make it easier to sync associated site permissions and branding. Learn more about [planning site navigation](/sharepoint/plan-implement-navigation-design) and how to [make your home site a hub site](/sharepoint/planning-hub-sites). Then, review guidance on how to [set up global navigation on the home site](/SharePoint/sharepoint-app-bar).|
+| ![image of a user](media/icon-plan-gather.png)                | **Personalize content**                 | Next, think about the difference audiences that your organization serves. Consider how elements on your home site like navigational links and certain web parts could benefit from audience targeting to specific audiences.Learn more about [audience targeting](https://support.microsoft.com/office/change-the-look-of-your-sharepoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818?ui=en-us&rs=en-us&ad=us).
+            |
+| ![image of a file](media/icon-plan-organize.png)                   | **Gather branding assets**                   | Finally, start gathering assets needed to apply custom branding and other details to your home site, like logo files, color themes, and any custom solutions. Learn more about how to [change the look of your site](https://support.microsoft.com/office/change-the-look-of-your-sharepoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818?ui=en-us&rs=en-us&ad=us).
+              |
+| ![image of a chart](media/icon-plan-perf.png)                   | **Consider site performance**                   | Even before you build your site, understand the main elements that will make sure your home site is healthy. A healthy home site is one that optimizes performance to ensure the best possible viewing experience. Use the Page diagnostics for SharePoint tool to make sure the home page is healthy before sharing with end-users.Learn more about [healthy portals](/sharepoint/portal-health) and using the [Page diagnostics tool for SharePoint](/microsoft-365/enterprise/page-diagnostics-for-spo?view=o365-worldwide). |
 
 
 
