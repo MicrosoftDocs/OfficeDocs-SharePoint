@@ -163,7 +163,7 @@ Once you’ve got your home site created it’s time to plan the launch and make
 
 **Q:** I have a new site that I want to use as my home site. What do I do?
 <br>
-As long as your site is a communication site, you can use [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps) to transform your site into a home site to take advantage of home site super powers.
+As long as your site is a communication site, you can use [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell) to transform your site into a home site to take advantage of home site super powers.
 
 **Q:** What’s the difference between a home site and the SharePoint start page?
 <br>
