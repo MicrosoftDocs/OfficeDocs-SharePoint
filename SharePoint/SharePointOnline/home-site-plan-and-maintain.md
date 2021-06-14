@@ -69,16 +69,16 @@ Home sites are SharePoint communication sites that have special capabilities suc
 
 Home sites are unlike any other site in SharePoint. When you transform a SharePoint communication site into a home site, you’ll automatically apply special capabilities that make the home site an ideal landing destination for your intelligent intranet.
 
-#### Search for content across the entire intranet
+##### Search for content across the entire intranet
 Home sites allow users to search for content (such as sites, news, and files) across the entire intranet rather than searching just the site like typical SharePoint sites.
 
-#### Official source of organizational news  
+##### Official source of organizational news  
 By default, a home site is set as the organizational news source. News post that is created from the home site automatically become official organizational news and will take priority on the [SharePoint start page](https://support.microsoft.com/office/discover-content-with-the-sharepoint-start-page-6b85097a-87e0-4611-a29a-dfd49b1a1220) and in the home section of the SharePoint mobile app. Administrators can [set sites as official organizations news sources in the admin center](/sharepoint/organization-news-site).
 
-#### Enable and customize global navigation in the SharePoint app bar
+##### Enable and customize global navigation in the SharePoint app bar
 The SharePoint app bar features a global navigation option that displays intranet navigational nodes and resources no matter where users are in SharePoint. To take full advantage of this feature, you must have a home site. Learn more about how to [enable and customize global navigation in the SharePoint app bar](/SharePoint/sharepoint-app-bar). 
 
-#### Use Viva Connections to integrate your intranet into Microsoft Teams
+##### Use Viva Connections to integrate your intranet into Microsoft Teams
 Viva Connections is designed to drive engagement, build community, and enable your organization to stay connected. To take advantage if this solution, you’ll need a home site. Then, you can integrate the home site into Microsoft Teams. [Learn more about Viva Connections](/SharePoint/viva-connections).
 
 
