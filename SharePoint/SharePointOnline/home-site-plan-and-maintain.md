@@ -42,7 +42,7 @@ If you’ve already created your home site and are ready to set it now, learn ho
 
 |  **Example of a home site:**              | **View in the SharePoint mobile app:**      | 
 | :------------------- | :------------------- |:----------------|
-|  ![image of a home site](media/home-site-example-2.png)   |  ![image of  the SharePoint app viewing a home site](media/home-site-fre-2.png)  | 
+|  ![image of a home site](media/home-site-example-3.png)   |  ![image of  the SharePoint app viewing a home site](media/home-site-fre-3.png)  | 
 
 
 
@@ -174,3 +174,5 @@ Once you’ve got your home site created it’s time to plan the launch and make
 <br>
 
 [Creating and launching a healthy SharePoint portal](/sharepoint/portal-health)
+
+Use and customize the [The Landing template](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) from the SharePoint look book 
