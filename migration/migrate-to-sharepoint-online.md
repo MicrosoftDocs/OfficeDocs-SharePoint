@@ -28,7 +28,7 @@ Moving to Microsoft 365? Let us help you migrate your content easily and securel
 
 #### Got a minute?
 
-![take our survey](https://docs.microsoft.com/office/media/icons/sign-up-blue.png)  Please take our <a href="https://microsoft.qualtrics.com/jfe/form/SV_5BeuymEC0Dnkn30" target="_blank">short survey about migrating to Microsoft 365</a>. We'd love to hear from you!
+![Survey icon](/office/media/icons/sign-up-blue.png)  Please take our <a href="https://microsoft.qualtrics.com/jfe/form/SV_5BeuymEC0Dnkn30" target="_blank">short survey about migrating to Microsoft 365</a>. We'd love to hear from you!
 
 ## Get started
 

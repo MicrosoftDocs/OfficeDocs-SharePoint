@@ -157,7 +157,7 @@
 #### [Manage search dictionaries](manage-search-dictionaries.md)
 #### [Manage authoritative pages](manage-authoritative-pages.md)
 #### [Export and import search settings](export-and-import-search-settings.md)
-### [Check logs, limits and reports]()
+### [Check logs, limits, and reports]()
 #### [Overview](check-logs-limits-and-reports.md)
 #### [View search usage reports](view-search-usage-reports.md)
 #### [Set crawl log permissions](set-crawl-log-permissions.md)

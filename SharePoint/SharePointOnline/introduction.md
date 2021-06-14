@@ -41,7 +41,7 @@ If you have files that you need to move to SharePoint in Microsoft 365, the reso
 | If you're looking for this information: | Go to this resource: |
 |:-----|:-----|
 |How to migrate content from file shares or other cloud providers using Migration Manager|[Migrate your content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online)|
-|How to migrate SharePoint Server sites and content|[Overview of the SharePoint Migration Tool (SPMT)](sharepointmigration/introducing-the-sharepoint-migration-tool)|
+|How to migrate SharePoint Server sites and content|[Overview of the SharePoint Migration Tool (SPMT)](/sharepointmigration/introducing-the-sharepoint-migration-tool)|
 
 ## Governance
 

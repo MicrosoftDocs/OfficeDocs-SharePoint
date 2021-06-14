@@ -132,7 +132,7 @@ To help protect your organization's information, you can:
 
   - **Protect against threats** – by using policies to detect malicious files in SharePoint, OneDrive, and Teams, you can help ensure the safety of your organization's data and network.
 
-These are each discussed in more detail below. There are many options to choose from. Depending on the needs of your organization, you can choose the options that give you the best balance of security and usability. If you are in an highly regulated industry or work with highly confidential data, you may want to put more of these controls in place; whereas if your organization's information is not sensitive you may want to rely on basic sharing settings and malicious file alerts.
+These are each discussed in more detail below. There are many options to choose from. Depending on the needs of your organization, you can choose the options that give you the best balance of security and usability. If you are in a highly regulated industry or work with highly confidential data, you may want to put more of these controls in place; whereas if your organization's information is not sensitive you may want to rely on basic sharing settings and malicious file alerts.
 
 ### Control sharing
 
@@ -160,7 +160,7 @@ When users share files and folders, a shareable link is created which has permis
 
     ![Diagram showing how people in my organization links can be passed from user to user inside the company](media/DMC_SharePointSharingLinks_PeopleInYourOrganization.png)
       
-    Like an *anyone* link, a *people in my organization* link is a transferrable, revocable secret key. Unlike an *anyone* link, these links only work for people inside your Microsoft 365 organization. When somebody opens a *people in my organization* link, they need to be authenticated as a member in your directory. If they're not currently signed-in, they'll be prompted to sign-in.  
+    Like an *anyone* link, a *people in my organization* link is a transferrable, revocable secret key. Unlike an *anyone* link, these links only work for people inside your Microsoft 365 organization. When somebody opens a *people in my organization* link, they need to be authenticated as a member in your directory. If they're not currently signed-in, they'll be prompted to sign in.  
 
   - *Specific people* links only work for the people that users specify when they share the item.  
 

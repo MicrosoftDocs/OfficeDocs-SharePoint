@@ -70,12 +70,12 @@ The following policies control the Known Folder Move feature:
   
 - [Silently move Windows known folders to OneDrive](use-group-policy.md#silently-move-windows-known-folders-to-onedrive)
     
-    Use this setting to redirect and move known folders to OneDrive without any user interaction. Move all the folders or select the desired individual folders. After a folder is moved, the policy will not affect the folder again, even if the selection for the folder changes. 
+    Use this setting to redirect and move known folders to OneDrive without any user interaction. Move all the folders or select the desired individual folders. After a folder is moved, the policy won't affect the folder again, even if the selection for the folder changes. 
 
     > [!NOTE]
     > You can choose to display a notification to users after their folders have been redirected. 
 
-    A number of errors can prevent this setting from taking effect, such as:
+    Various errors can prevent this setting from taking effect, such as:
 
     - A file exceeds the maximum path length
     - The known folders aren't in the default locations
@@ -119,4 +119,4 @@ The OneDrive Known Folder Move Group Policy objects won't work if you previously
   
   1. [Use Migration Manager](/sharepointmigration/mm-get-started) to copy contents in the network file share location to a user's OneDrive, making sure that all contents go into the existing Documents, Pictures, or Desktop folders.
   2. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on the network file share. 
-  3. Enable KFM Group Policy. Known folders move to OneDrive and will merge with the existing Desktop, Documents, and Pictures folders which contain all the file share content that you moved in the first step.
+  3. Enable KFM Group Policy. Known folders move to OneDrive and will merge with the existing Desktop, Documents, and Pictures folders, which contain all the file share content that you moved in the first step.

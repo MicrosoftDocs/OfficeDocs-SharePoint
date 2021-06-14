@@ -75,12 +75,12 @@ We recommend using the new site templates for all your new sites. However, if yo
 2. At the bottom of the panel, select **Other options**.
 
     > [!div class="mx-imgBorder"]
-    > ![image](https://user-images.githubusercontent.com/7239963/112038959-d6da3500-8b19-11eb-8315-7f780ac46649.png)
+    > ![Other options in the Create a site panel](https://user-images.githubusercontent.com/7239963/112038959-d6da3500-8b19-11eb-8315-7f780ac46649.png)
 
-3. From the template drop-down, select **More templates**. 
+3. Under **Choose a template**, select **More templates**. 
 
     > [!div class="mx-imgBorder"]
-    > ![image](https://user-images.githubusercontent.com/7239963/112038982-dfcb0680-8b19-11eb-9b78-d6bd375b86fa.png)
+    > ![More templates in the Choose a template list](https://user-images.githubusercontent.com/7239963/112038982-dfcb0680-8b19-11eb-9b78-d6bd375b86fa.png)
 
     - In the **Title** box, enter a name for the site. 
     
