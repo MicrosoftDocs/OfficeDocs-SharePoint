@@ -158,7 +158,19 @@ Once you’ve got your home site created it’s time to plan the launch and make
 
 ### Home site FAQs
 
+**Q:** I have a new site that I want to use as my home site. What do I do?
+<br>
 
+As long as your site is a communication site, you can use [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps) to transform your site into a home site to take advantage of home site super powers.
+
+**Q:** What’s the difference between a home site and the SharePoint start page?
+<br>
+
+The content on the [SharePoint start page](https://support.microsoft.com/office/discover-content-with-the-sharepoint-start-page-6b85097a-87e0-4611-a29a-dfd49b1a1220) is driven and managed by [Microsoft Graph](/graph/overview#whats-in-microsoft-graph). Content is personalized to the individual users’ recent activity, followed sites, and content that is saved for later. The home site is a landing experience for your entire organization. It displays universally relevant content and directs users to other important portals like Human Resources and company directories.
+
+**Q:** Can my organization have more the one home site?
+<br>
+It is recommended that your organization designate only one home site per tenant. 
 
 
 
