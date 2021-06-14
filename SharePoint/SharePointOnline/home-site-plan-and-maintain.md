@@ -48,7 +48,7 @@ If you’ve already created your home site and are ready to set it now, learn ho
 
 > [!NOTE] 
 >Today, home sites can only be created using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps). Admin credentials are required to use SharePoint PowerShell.
->Integration between the home site and [SharePoint start page](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220) (where the branding, theming, header, navigation, and footer elements from the home site are applied to the start page and users can easily navigate between the pages) is not available at this time. Please watch for updates in the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=SharePoint).
+
 
 
 ## What is a SharePoint home site?
@@ -80,6 +80,9 @@ The SharePoint app bar features a global navigation option that displays intrane
 
 #### Use Viva Connections to integrate your intranet into Microsoft Teams
 Viva Connections is designed to drive engagement, build community, and enable your organization to stay connected. To take advantage if this solution, you’ll need a home site. Then, you can integrate the home site into Microsoft Teams. [Learn more about Viva Connections](/SharePoint/viva-connections).
+
+
+
 
 
 ### Before getting started
@@ -167,6 +170,15 @@ As long as your site is a communication site, you can use [SharePoint PowerShell
 <br>
 
 The content on the [SharePoint start page](https://support.microsoft.com/office/discover-content-with-the-sharepoint-start-page-6b85097a-87e0-4611-a29a-dfd49b1a1220) is driven and managed by [Microsoft Graph](/graph/overview#whats-in-microsoft-graph). Content is personalized to the individual users’ recent activity, followed sites, and content that is saved for later. The home site is a landing experience for your entire organization. It displays universally relevant content and directs users to other important portals like Human Resources and company directories.
+
+
+**Q:** Can I integrate the SharePoint start page with my home site?
+<br>
+Integration between the home site and [SharePoint start page](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220) (where the branding, theming, header, navigation, and footer elements from the home site are applied to the start page and users can easily navigate between the pages) is not available at this time. However you can [add a featured link to the SharePoint start page](/sharepoint/change-links-list-on-sharepoint-home-page) to increase home site discovery.
+
+Please watch for updates in the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=SharePoint).
+
+
 
 **Q:** Can my organization have more the one home site?
 <br>
