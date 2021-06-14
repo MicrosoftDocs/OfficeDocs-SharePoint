@@ -108,11 +108,11 @@ Since home sites are the gateway to your intranet, you’ll want to prioritize c
 <br>
 <br>
 Before you get started planning your home site, [hear from the Microsoft product team on how to think](https://techcommunity.microsoft.com/t5/video-hub/build-and-launch-a-sharepoint-home-site-tips-and-tricks-from-the/m-p/1696758) about and approach the design of your organization’s home site. 
+<br>
 
-
-| Plan                  | Build                | Manage          |
+| Plan                  | Build                | Launch and manage          |
 | :------------------- | :------------------- |:----------------|
-| -	Align objectives with partners and business owners <br> - Organize priority content and resources <br> - Design way finding for the home site and global navigation <br> - Think about branding <br> - Use audience targeting on navigational links, news, and web parts| -	Upload and organize site assets and content like logos and files <br> - Customize the site to align with the rest of the intranet <br> - Apply audience targeting <br> - Turn on a content approval flow <br> - Use PowerShell to turn the communication site into a home site <br> - Replace the home site with the root site <br> - Measure site health and performance <br> - Test on all devices| -	Share the site with your organization <br> - Use the Portal launch scheduler to manage the launch <br> - Make the home site discoverable <br> - Announce the launch of the home site in an all-hands meeting and in communication channels <br> - Monitor usage and page analytics |
+| -	Align objectives with partners and business owners <br> - Organize priority content <br> - Design way finding for the home site and global navigation <br> - Think about branding <br> - Use audience targeting on navigational links, news, and web parts| -	Upload and organize site assets and content like logos and files <br> - Customize the site to align with the rest of the intranet <br> - Apply audience targeting <br> - Turn on a content approval flow <br> - Use PowerShell to turn the comm site into a home site <br> - Replace the home site with the root site <br> - Measure site health and performance <br> - Test on all devices| -	Share the site with your organization <br> - Use the Portal launch scheduler to release the new site in phases <br> - Make the home site discoverable <br> - Announce the launch of the home site using a variety of communication channels <br> - Monitor site usage and analytics |
 
 ## Plan your home site
 A great home site starts with a plan. Since the home site is essentially the gateway to the intranet, you will want to collaborate with other business owners such as human resources, leadership teams, and even your legal team to ensure the most important and universal resources are accessible for everyone in the organization. 
