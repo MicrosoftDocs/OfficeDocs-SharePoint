@@ -34,15 +34,31 @@ Once you have created your site and know how to edit pages, you can use the guid
 
 ## Example Team site
 
-![Image of the hero and news web parts](media/gw-team/gw-team-1-123)
+![Image of the hero and news web parts](media/gw-team/gw-team-1-123.png)
 
 1. **Team highlights and news** Get visual while sharing information. <!--learn how-->
 2. **Quick launch** Add links to more content around the site.
 3. **Inform the team** Offer links, events and content related to team work.
+
+![Image of the News web part](media/gw-team/gw-team-1-4.png)
+
 4. **Share news about the team** Offer news items of interest to the team.
+
+![Image of the Hero web part](media/gw-team/gw-team-1-5.png)
+
 5. **Highlight important information** Increase visibility of key information with the Hero web part.
+
+![Image of the Planner web part](media/gw-team/gw-team-1-6.png)
+
 6. **Display project status** Use the Planner web part to show team progress on projects.
+
+![Image of the Site activity web part](media/gw-team/gw-team-1-7.png)
+
 7. **Display recent activity** Automatically show the most recent updates to team site content.
+
+## Manage sections and web parts
+
+
 
 <!-- daisy you stopped here-->
 
