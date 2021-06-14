@@ -58,7 +58,41 @@ Once you have created your site and know how to edit pages, you can use the guid
 
 ## Manage sections and web parts
 
+<!-- daisy check with team about what to do with this section-->
 
+Sections make up your page, and are where you place one or more web parts. While editing the page, each section will show controls to edit the layout, move, or delete the sections.
+
+Start editing by clicking **Edit** on the top right of the page.
+
+![Image of the edit button at the top of the page](media/gw-leadership/gw-9.png)
+
+The + symbol before or after a section will add a section using one of several layouts.
+
+![Image of the available section layouts](media/gw-team/gw-team-2.png)
+
+For information on working with sections, see [Add or remove sections and columns on a page](https://support.microsoft.com/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899).
+
+To add web parts to sections, select the plus symbol ![image of a plus symbol](media/gw-leadership/gw-plus.png) in a section, which may appear before or after a web part in a section. Then select a web part to use. For more information on all web parts, see [Using web parts on SharePoint pages](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0).
+
+![Image of featured web parts](media/gw-leadership/gw-11.png)
+
+Web parts may be edited, moved, or deleted within sections. The **Edit web part** icon opens detailed controls unique to each web part type.
+
+<!-- daisy back to top-->
+
+## Team highlights and news
+
+The first section of this example page uses a two-column layout. In the first column is a Hero web part that uses a one-tile layout to link to information introducing a new team member. Above that is a Text web part with a title. In the second column is a News web part that uses a list layout. Above that is a Spacer web part to help align the two web parts.
+
+Learn how to use the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645) and the [News web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645).
+
+![Image of the Hero and News web parts on a site](media/gw-team/gw-team-3.png)
+
+## Quick launch
+
+You can quickly and easily customize the organization and navigation of your SharePoint site. Edit the Quick launch menu by selecting **Edit** at the bottom of the menu.
+
+![Image of the Quick launch menu](media/gw-team/gw-team-4.png)
 
 <!-- daisy you stopped here-->
 

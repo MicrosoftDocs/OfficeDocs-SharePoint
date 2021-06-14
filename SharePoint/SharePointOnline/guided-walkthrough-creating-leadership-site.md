@@ -118,7 +118,7 @@ For more detailed information on navigation, see [Customize the navigation on yo
 
 ## Add sections and web parts
 
-Sections make up your page, and are you place one or more web parts. While editing the page, each section will show controls to edit the layout, move, or delete the sections.
+Sections make up your page, and are where you place one or more web parts. While editing the page, each section will show controls to edit the layout, move, or delete the sections.
 
 Start editing by clicking **Edit** on the top right of the page.
 
