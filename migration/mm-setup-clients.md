@@ -84,11 +84,25 @@ To install an agent to a different Geo location:
 The country or regional GEO code can be found here [Microsoft 365 Multi-Geo availability](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo)
 
 
-## Installing the agent as an application or service
+## Installing the agent as an app
 
-If the system detects you are not joined to a domain when installing the agent, you can install the agent as a Windows app.  If you still wish to install it as a service, you can exit and sign in with a domain-joined account.
+ If the system detects you are not joined to a domain when installing the agent, you can install the agent as a Windows app.  If you still wish to install it as a service, exit and sign in with a domain-joined account.
+
+>[Important]
+> If you install the agent as an app, it will not run if the computer is asleep, effectively pausing your migration.  
+
+1. Select **Install as an app**. 
 
 ![Install agent as an app](media/mm-agent-app.png)
+
+2. After the agent installs, sign in with your SharePoint Admin credentials.
+3. Test if your agent has access to the file shares you want to migrate (optional).
+
+The settings screen will display if and to what tenant you are connected.  Select **unlink tenant** if you wish to sign in to a different tenant.
+
+>[!Important]
+>Microsoft 365 will automatically renew authorization to access your tenant as long as the migration agent is active.  If the agent has been inactive forlonger than seven days, you may need to sign in again.
+
 
 
 ![Install as an app settings](media/mm-agent-app-settings.png)
