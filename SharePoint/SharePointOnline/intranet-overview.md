@@ -17,7 +17,7 @@ ms.collection:
 
 # Intelligent intranet roadmap
 
-Your intranet might include your organization's main landing page, portals for corporate communications, and individual sites for departments or divisions (like IT or HR). In this article we look at the high-level tasks needed to create and maintain a successful intranet with SharePoint in Microsoft 365.
+Your intranet might include your organization's main landing page, portals for corporate communications, and individual sites for departments or divisions (like IT or HR). In this articl, we look at the high-level tasks needed to create and maintain a successful intranet with SharePoint in Microsoft 365.
 
 Whether you're the organization intranet owners, an IT Professional or administrator, a site owner, or a content creator you're in the right place. Use this article as a guide to help you find the resources that you need for your role and the goals that you have for your intranet. As you read the sections below, follow the links for more detailed information on the areas that you're working on.
 
@@ -99,7 +99,7 @@ Start by getting inspired with the [SharePoint look book](https://aka.ms/sharepo
 
 Next, start to [plan your intelligent SharePoint intranet](./plan-intranet.md) by working with your key stakeholders to understand your key business and intranet goals. Do research with intranet users to discover key personas and scenarios. Review your existing intranet and determine which initiative to start with for your best return on investment. As you prioritize your intranet initiatives, consider how to get the [best performance and scalability](./portal-health.md) from the portals that you build. If your existing intranet is using SharePoint server, consider how [migrating your content to SharePoint](/sharepointmigration/migrate-to-sharepoint-online) fits into your overall plan. To troubleshoot page performance issues, use the [page diagnostics tool](/office365/enterprise/page-diagnostics-for-spo).
 
-Choose one or more opportunities to start with and meet with the business owners in that area of your organization to plan the solution Some solutions may require coordination among different parts of the organization.
+Choose one or more opportunities to start with and meet with the business owners in that area of your organization to plan the solution. Some solutions may require coordination among different parts of the organization.
 
 As you plan and implement your intranet, keep in mind these key success factors:
 
@@ -136,7 +136,7 @@ Branding provides a way to align your intranet with your organizational culture.
 
 ## IT pros and admins
 
-IT Pros and admins implement the needed platform integration steps needed by your business owners for their intranet portals — such as with databases or line of business applications. This may include content migration from existing systems. They also work with other stakeholders and the business to determine a governance strategy for the intranet and train people in the organization to use SharePoint and other tools to manage the intranet.
+IT Pros and admins implement the needed platform integration steps needed by your business owners for their intranet portals — such as with databases or line-of-business applications. This may include content migration from existing systems. They also work with other stakeholders and the business to determine a governance strategy for the intranet and train people in the organization to use SharePoint and other tools to manage the intranet.
 
 As you plan and implement your intranet, keep in mind these key success factors:
 
@@ -152,15 +152,15 @@ As you plan and implement your intranet, keep in mind these key success factors:
 
 Governance is the set of policies, roles, and processes that control how your organization's business divisions and IT teams work together to achieve its goal — ensuring organization content and communications are secure and viewers benefit from a consistent experience. Every organization has unique needs and goals that influence its approach to governance. Some details to consider when planning your [governance strategy](./governance-overview.md): naming conventions, guest access, classification of sites, groups, and files.
 
-*Start by* — Understanding the rules and requirements of your organization, in combination with the needs of business owners and site owners. Then, develop a plan alongside IT, HR and senior leadership that allows employees to maximize the value of SharePoint with minimal oversight in a way that's compliant.
+*Start by* — Understanding the rules and requirements of your organization, in combination with the needs of business owners and site owners. Then, develop a plan alongside IT, HR, and senior leadership that allows employees to maximize the value of SharePoint with minimal oversight in a way that's compliant.
 
 *You'll know you're done when* — When governance stakeholders, business owners, and content creators can work effortlessly in SharePoint without slowing the rhythm of business.
 
 #### Migrate content from your existing intranet
 
-Your existing intranet may contain content from a variety of sources located on different platforms. A key task in creating your intelligent SharePoint intranet is determining the state of your existing content and deciding which content to migrate to the new intranet.
+Your existing intranet may contain content from various sources located on different platforms. A key task in creating your intelligent SharePoint intranet is determining the state of your existing content and deciding which content to migrate to the new intranet.
 
-Your current business owners and site owners may be best suited to evaluate if content should be migrated and you may want to have them perform the actual migration, depending on what's involved. They may need your assistance depending on the quantity and location of the content to be moved. The [SharePoint Migration Tool](/sharepointmigration/migrate-to-sharepoint-online) can help you migrate content from SharePoint server and from file shares. [Mover](https://mover.io) can help you migrate from other cloud providers.
+Your current business owners and site owners may be best suited to evaluate if content should be migrated and you may want to have them perform the actual migration, depending on what's involved. They may need your assistance depending on the quantity and location of the content to be moved. [Learn about options for migrating from file shares, SharePoint Server, and other cloud providers](/sharepointmigration/migrate-to-sharepoint-online).
 
 *Start by* — Working with business leaders and other content stakeholders to review your existing content for relevance and accuracy.
 
@@ -203,13 +203,13 @@ Keep in mind these key success factors as you plan and implement your intranet:
 
 #### Migrate your data
 
-One of the largest tasks in creating a new intranet site is migrating your existing data to SharePoint. We highly recommend doing a content audit to see what's being used, what's up-to-date, and what's no longer needed and can be deleted or archived.
+One of the largest tasks in creating a new intranet site is migrating your existing data to SharePoint. We highly recommend doing a content audit to see what's being used, what's up to date, and what's no longer needed and can be deleted or archived.
 
 Look for opportunities to eliminate prior versions of documents that you no longer need. If you migrate files ending .v1, .v2, and so on, you will create confusion for your users who won’t be able to rely on search to consistently find the latest version of documents.
 
 Train your users to take advantage of SharePoint’s automated versioning — and remove version IDs and dates from file names wherever possible, migrating only the latest and most accurate version. Better still, see if you can convert legacy documents to modern pages to create more engaging and easier to consume content. You will get better search experiences and achieve higher user satisfaction and easier maintenance by removing content that's no longer needed prior to migration.
 
-If you're migrating files from SharePoint Server on-premises or file shares, you can use the [SharePoint Migration Tool](/sharepointmigration/migrate-to-sharepoint-online).
+[Learn about options for migrating from file shares, SharePoint Server, and other cloud providers](/sharepointmigration/migrate-to-sharepoint-online).
 
 Video is a great way to communicate to the people in your organization for executive briefings or when sharing ideas through video can lead to greater engagement. Use [Microsoft Stream](/stream) to deliver live and on-demand meetings, events, and training. If you have existing video content that you want to make available on your new intranet site, [upload it to Stream](/stream/portal-upload-video) as part of your content migration process.
 
@@ -239,7 +239,7 @@ The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb
 
 As you start designing the intranet sites for your services and functions, make sure you have done research with your users to better understand their needs and how they currently interact with your content. To create custom surveys and questionnaires and spend time observing users and meeting with them, you can use [Forms](/forms-pro).
 
-We recommend developing your intranet pages using [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732). With communication sites, you can share news, reports, statuses, and other information through a variety of templates and web parts. For an end-to-end look at setting up a communication site, see [Guided walkthrough: Creating a communication site for your organization](https://support.office.com/article/d9aaecc7-e2df-43a7-acc2-bd37f1fe7cfe). Learn more about [how to plan your sites](https://support.office.com/en-us/article/plan-your-sharepoint-site-get-started-35d9adfe-d5cc-462f-a63a-bae7f2529182?ui=en-US&rs=en-US&ad=US). 
+We recommend developing your intranet pages using [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732). With communication sites, you can share news, reports, statuses, and other information through various templates and web parts. For an end-to-end look at setting up a communication site, see [Guided walkthrough: Creating a communication site for your organization](https://support.office.com/article/d9aaecc7-e2df-43a7-acc2-bd37f1fe7cfe). Learn more about [how to plan your sites](https://support.office.com/en-us/article/plan-your-sharepoint-site-get-started-35d9adfe-d5cc-462f-a63a-bae7f2529182?ui=en-US&rs=en-US&ad=US). 
 
 To post important or interesting stories, announcements, people news, status updates, and more that can include graphics and rich formatting, you can use the [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165). Within the news web part, to prioritize specific content for specific audiences, you can set up [audience targeting](https://support.office.com/article/68113d1b-be99-4d4c-a61c-73b087f48a81). For an end-to-end look at using news in SharePoint, see [Guided walkthrough: setting up news for your organization](https://support.office.com/article/95a90834-96a2-463c-b741-31c4d2230706).
 
@@ -247,7 +247,7 @@ To align your organization's branding requirements, you can [change the look of 
 
 *Start by* — Prioritizing business objectives, and then decide the type of sites and web parts that will be needed initially.
 
-*You'll know you're done when* — Business and site owners have dedicated areas in SharePoint that can been owned and maintained with little oversight.
+*You'll know you're done when* — Business and site owners have dedicated areas in SharePoint that can be owned and maintained with little oversight.
 
 ## Content authors
 
@@ -316,9 +316,9 @@ Help work groups connect and engage across your organization using Yammer. [Lea
 | Role                 |Aligning tasks           |                
 | :------------------- | :------------------- |
 | [Organization intranet owners](#organization-intranet-owners) | Communicate goals and progress from project start to finish. Director of the branding direction, governance strategy, information architecture, change management, and product adoption.| 
-|[IT pros / Admins](#it-pros-and-admins)| Responsible for platform integration, content migration, performance, scalability, and end-user training. | 
+|[IT pros / Admins](#it-pros-and-admins)| Responsible for platform integration, content migration, performance, scalability, and user training. | 
 |[Business owners / site owners](#business-owners-and-site-owners)| Develop and plan solutions to business objectives. Responsible for site permissions, content audit, and content migration. | 
-| [Content authors](#content-authors)| Authority on content best practices, content creation, content management and page design.|
+| [Content authors](#content-authors)| Authority on content best practices, content creation, content management, and page design.|
 
 ### Implement
 
@@ -342,13 +342,13 @@ Help work groups connect and engage across your organization using Yammer. [Lea
 - Celebrate the launch of your new intranet.
 - Use metrics to measure progress.
 - Communicate what's new.
-- Maintain high quality content.
+- Maintain high-quality content.
 - Educate users.
 
 | Role                 |Management tasks          |             
 | :------------------- | :------------------- |
 | [Organization intranet owners](#organization-intranet-owners) | Celebrate the launch of your new intranet. Communicate goals and progress regularly after the launch. | 
-| [IT pros / Admins](#it-pros-and-admins)|Communicate what's new with intranet stakeholders and business owners. Educate end-users about publishing rules like site creation and content retention policies.|
+| [IT pros / Admins](#it-pros-and-admins)|Communicate what's new with intranet stakeholders and business owners. Educate users about publishing rules like site creation and content retention policies.|
 | [Business owners / site owners](#business-owners-and-site-owners) | Schedule content audits and use site usage metrics to measure progress. | 
 | [Content authors](#content-authors)|Refresh existing content, publish new content and participate in scheduled content audits to keep content up-to-date and compliant.|
 
