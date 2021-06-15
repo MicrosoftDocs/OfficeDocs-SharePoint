@@ -103,7 +103,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 
     -or-
 
-    If you own the domain for another subscription you will need to [delete that tenant in Azure AD](https://docs.microsoft.com/azure/active-directory/enterprise-users/directory-delete-howto). Deleting a tenant typically takes 3 days to complete and to make the domain available. 
+    If you own the domain for another subscription, you need to [delete that tenant in Azure AD](/azure/active-directory/enterprise-users/directory-delete-howto). Deleting a tenant typically takes three days to complete and to make the domain available. 
 
     > [!WARNING]
     > Do NOT use the domain to test this procedure in a test environment first. If you do, you won't be able to use the domain for your production environment.
