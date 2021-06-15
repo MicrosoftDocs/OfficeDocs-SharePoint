@@ -41,7 +41,7 @@ When you create a [private channel in Microsoft Teams](/MicrosoftTeams/private-c
 
 ![Image of Microsoft Teams channel site types](media/teams-channel-sites-2.png)
 
-In the image above, the private channel is highlighted in yellow. Since this channel is private, it automatically gets it's own SharePoint team site, known as a Teams connected channel site or just channel site. Standard channels (all channels except for private) do not get their own SharePoint team site, but instead will display as folders within the Teams connected team site document library.
+Microsoft Teams can have [standard or private channels.](https://support.microsoft.com/office/teams-can-have-standard-or-private-channels-de3e20b0-7494-439c-b7e5-75899ebe6a0e)In the image above, the private channel is highlighted in yellow. Since this channel is private, it automatically gets it's own SharePoint team site, known as a Teams connected channel site or just channel site. Standard channels (all channels except for private) do not get their own SharePoint team site, but instead will display as folders within the Teams connected team site document library.
 <br>
 
 These Teams connected team sites and channel sites are a specialized type of SharePoint team sites that have been optimized for a Microsoft Teams connection. You’ll notice that a handful of typical SharePoint team site features aren’t available in Teams connected team sites and channel sites, such as:
@@ -54,7 +54,7 @@ These Teams connected team sites and channel sites are a specialized type of Sha
 
 Teams connected team sites and channel sites include additional information to indicate the connection to Microsoft Teams. In the SharePoint team site header, you will see the Microsoft Teams icon following the site logo and site title. 
 
-![Image of Microsoft Teams channel site types](media/teams-connected-icon.png)
+![Image of the Microsoft Teams icon in the site header](media/teams-connected-icon.png)
 
 
 For the parent team site, this link will always redirect to Microsoft Teams and the general channel for the Team. For the teams connected channel sites, this link will be a direct link to the channel in Microsoft Teams.
@@ -63,7 +63,7 @@ For the parent team site, this link will always redirect to Microsoft Teams and 
 
 In the parent team site, the **Go to channel** link will be available in the command bar when viewing document libraries.
 
-![Image of Microsoft Teams channel site types](media/Teams-open-in-sp.png)
+![Image of the link to the SharePoint site form Teams settings](media/Teams-open-in-sp.png)
 
 Additionally, from teams and channels in Microsoft Teams, you can select the ellipsis (…) at the top-right of the channel and then **Open in SharePoint** to navigate to the Teams connected team site or channel site in SharePoint.
 
@@ -90,7 +90,7 @@ You’ll notice that when you navigate to **Settings**, there is no option to se
 
 ### Manage site settings and classification
 
-![Image of Microsoft Teams channel site types](media/teams-site-settings.png)
+![Image of SharePoint site settings](media/teams-site-settings.png)
 
 For Teams connected channel sites the sensitivity settings are inherited from the parent team site. When you view Site information for Teams connected channel sites in SharePoint, you will see Sensitivity labels, classification, and information barriers are read only. To manage or change these settings, the team owner can edit through [Microsoft Teams settings](https://support.microsoft.com/office/manage-team-settings-and-permissions-in-teams-ce053b04-1b8e-4796-baa8-90dc427b3acc#:~:text=If%20you%E2%80%99re%20a%20team%20owner%2C%20you%27re%20in%20control,or%20permissions%20you%20want%20to%20use.%20See%20More).
 
