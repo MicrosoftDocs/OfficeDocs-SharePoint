@@ -49,10 +49,10 @@ Once a scan is completed, highlight the row to look further into any issues that
 |File count|The total number of files, excluding files filtered out based settings or scanned potential issues|
 |Folder count|The total number of folders in the source path.|
 |Max path length|The longest path length for an item in this account.  The path length is calculated to include the tenant URL, user site, path, and any character encoding. Microsoft 365 allows a maximum of 400 characters.|
-|Root permissions|The number of permission entries exist on the root folder.|
+|Root permissions|The number of permission entries that exist on the root folder. For example, the total number of group or user accounts on the root folder.|
 |Last accessed|Last accessed shows the last date the items within the folder were accessed. This date indicates how actively this folder is accessed.  It’s an aggregated value for all files within the folder.|
 |Created on|The date the scan was created.|
-|Migration Readiness|Status of readiness checks. A value of "Warning" indicates file/subfolder level scan issues. Examples of issues discovered include invalid characters, or insufficient permissions to access the folder|
+|Migration Readiness|Status of readiness checks. A value of "Warning" indicates file/subfolder level scan issues. Examples of issues discovered include invalid characters, or insufficient permissions to access the folder.|
 |Task ID|Unique identifier for a migration task.|
 
 
