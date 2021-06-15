@@ -30,7 +30,7 @@ In this article, learn more about how to identify, manage, and navigate between 
 Today, Teams connected team sites and channel sites are created whenever a new Microsoft Team or private channel within a team is created. When you create a team in Microsoft Teams, a Microsoft 365 connected team site in SharePoint gets automatically created. This site is referred to as a *Teams connected team site*. This team site contains folders for each standard channel created from Microsoft Teams. This primary Teams connected team site is also known as the *parent team connected site*.
 <br>
 
-When you create a [private channel in Microsoft Teams](/MicrosoftTeams/private-channels), a seperate team site in SharePoint also gets automatically created. These sites are called *Teams connected channel sites*, or just channel sites.
+When you create a [private channel in Microsoft Teams](/MicrosoftTeams/private-channels), a separate team site in SharePoint also gets automatically created. These sites are called *Teams connected channel sites*, or just channel sites.
 <br>
 
 **Microsoft Teams and channel structure:**
