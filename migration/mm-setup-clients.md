@@ -83,6 +83,16 @@ To install an agent to a different Geo location:
 
 The country or regional GEO code can be found here [Microsoft 365 Multi-Geo availability](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo)
 
+
+## Installing the agent as an application or service
+
+If the system detects you are not joined to a domain when installing the agent, you can install the agent as a Windows app.  If you still wish to install it as a service, you can exit and sign in with a domain-joined account.
+
+![Install agent as an app](media/mm-agent-app.png)
+
+
+![Install as an app settings](media/mm-agent-app-settings.png)
+
 >[!Important]
 > Passwords are not stored in the installer.
 
