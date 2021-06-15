@@ -26,11 +26,12 @@ description: "This article helps you understand, which tool to use when migratin
 
 Moving to Microsoft 365? Let us help you migrate your content easily and securely.
 
-#### Got a minute?
+>[<<spam>>!tip]
+> **Got a minute?**
+>![take our survey](https://docs.microsoft.com/office/media/icons/sign-up-blue.png)  Please take our <a href="https://microsoft.qualtrics.com/jfe/form/SV_5BeuymEC0Dnkn30" target="_blank">short survey about migrating to Microsoft 365</a>. We'd love to hear from you!
+>
 
-![take our survey](https://docs.microsoft.com/office/media/icons/sign-up-blue.png)  Please take our <a href="https://microsoft.qualtrics.com/jfe/form/SV_5BeuymEC0Dnkn30" target="_blank">short survey about migrating to Microsoft 365</a>. We'd love to hear from you!
 
-## Get started
 
 We support migration from on-premise sources, products, and popular cloud providers. 
 
@@ -50,21 +51,25 @@ Check out what's new and what is coming soon to [Migration Manager](mm-whats-new
 Migrating your file shares with Migration Manager lets you have a centralized way of connecting servers, creating tasks, and automatically load balancing your migration tasks. You're guided through the steps of migrating your file shares, from the setup of agents, the creation of tasks, and the final migration to Microsoft 365. You can specify global or task level settings, view all-up task progress, and download aggregated summary and task level reports.
 
 
-**Get started!**  [Migrating File shares](mm-get-started.md)
+![Get started in file share migration](https://docs.microsoft.com/office/media/icons/get-started-blue.png)  **Get started!**  [Migrating File shares](mm-get-started.md)
 
-[**What's new**](mm-whats-new.md)
+![What's new in file share migration](https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.png)   [**What's new**](mm-whats-new.md)
 
 ![Migrating file shares workflow](media/mm-flow-3box.png)
 
 
+</br>
+</br>
 
 ## Migrate SharePoint Server sites and content
 
 Migrate your SharePoint Server sites and content to take advantage of the latest collaboration, intelligence, and security solutions in Microsoft 365. The modern experience features in Microsoft SharePoint are designed to be compelling, flexible, and more performant. Migrate your SharePoint Server 2010, 2013, and 2016 environments.
 
-**Get started!**  [Migrate SharePoint Server to Microsoft 365](introducing-the-sharepoint-migration-tool.md)
+![Get started SharePoint Server migration](https://docs.microsoft.com/office/media/icons/get-started-blue.png)  **Get started!**    [Migrate SharePoint Server to Microsoft 365](introducing-the-sharepoint-migration-tool.md)
 
-[**What's new**](new-and-improved-features-in-the-sharepoint-migration-tool.md)
+ 
+
+![What's new in SP migration](https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.png)  [**What's new**](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 
 ![Migrating SPMT workflow](media/spmt-flow-3box.png)
 
@@ -77,9 +82,9 @@ Are you migrating from another Cloud providers? The [Mover tool](https://mover.i
 - Azure Blob Storage
 - Google Cloud Storage
 
-**Get started!** [Mover migration tool](https://mover.io/)
+![Get started SharePoint Server migration](https://docs.microsoft.com/office/media/icons/get-started-blue.png) **Get started!** [Mover migration tool](https://mover.io/)
 
-[**What's new**](mover-release-notes.md)
+![What's new in mover migration](https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.png)   [**What's new**](mover-release-notes.md)
 
 
 
