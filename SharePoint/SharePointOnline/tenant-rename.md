@@ -103,12 +103,12 @@ It's now possible to change the SharePoint domain name for your organization in 
 
     -or-
 
-    If you own the domain for another subscription, contact *NEED SPECIFIC INFO* for instructions on how to delete it. It typically takes 4-8 weeks to make the domain available. 
+    If you own the domain for another subscription you will need to [delete that tenant in Azure AD](https://docs.microsoft.com/azure/active-directory/enterprise-users/directory-delete-howto). Deleting a tenant typically takes 3 days to complete and to make the domain available. 
 
     > [!WARNING]
     > Do NOT use the domain to test this procedure in a test environment first. If you do, you won't be able to use the domain for your production environment.
 
-2. Go to the [Custom domain names page in the Azure AD admin center](https://aka.msSPORenameAddDomain).
+2. Go to the [Custom domain names page in the Azure AD admin center](https://aka.ms/SPORenameAddDomain).
 
 3. Select **Add custom domain**.
 
