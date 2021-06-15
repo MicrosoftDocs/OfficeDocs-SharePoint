@@ -36,9 +36,9 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 ## May 2021
 
 - **Auto site provisioning.** When migrating to SharePoint sites, if the site doesn't exist, it will be automatically provisioned before the migration starts.
-- **Performance dashboard for file shares.**  View your performance history, and if needed, be provided prescriptive guidance on how to improve in impacted areas.
+- **Performance dashboard for file shares.**  View your performance history, and if needed, be provided prescriptive guidance on how to improve in impacted areas. *Requires latest version of agent.*
 - **Google migrations (preview).**  Migrate your Google Drives to Microsoft 365.
-- **Dropbox migrations (preview).**  You nw can migrate your Dropbox content to Microsoft 365.
+- **Dropbox migrations (preview).**  You now can migrate your Dropbox content to Microsoft 365.
 
 ## April 2021
 
@@ -49,21 +49,22 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 - **Agent groups and agent targeting.** You can now create an "agent group" and assign one or more agents to it. A group may represent a particular geographical location or other targeted purpose. After creating an agent group(s), you can target your tasks to be run by only that group of agents. To learn more, see: [Agent groups in Migration Manager](mm-agent-targeting.md).
 - **Summary report enhancements.** *TaskID*, *Task failure reason*, and *Agent group* have been added to the task summary report.
+- **Date completed column**.  A date completed column has been added so customers know the exact date when the task completed processing.
 
 ## February 2021
 
-- **Support replacing invalid characters**. To help migrate files with invalid characters in the file name, users can now specify pre-defined characters to replace invalid characters. 
-- **Configure working folder for agents**. Through the Migration Manager UI, you can configure the physical location of the folder where logs and reports are stored on the agent's machine. You can also see the available disc space so you can choose a drive that has enough storage before starting your migration.
+- **Support replacing invalid characters**. To help migrate files with invalid characters in the file name, users can now specify pre-defined characters to replace invalid characters. *Requires latest version of agent.*
+- **Configure working folder for agents**. Through the Migration Manager UI, you can configure the physical location of the folder where logs and reports are stored on the agent's machine. You can also see the available disc space so you can choose a drive that has enough storage before starting your migration. *Requires latest version of agent.*
 - **Filters for report aggregator script**.  You can now apply rich filters when downloading the detailed task level reports via the PowerShell cmdlet. To learn more, see: [Download detailed task reports](mm-reports.md#download-detailed-task-level-reports-via-powershell).
--  **Fix for zero durations in Summary Reports.** We recently introduced an issue where the duration field was showing zero values in the *SummaryReport.csv*. This has been fixed.
-- **Fix for large file upload.**  Report files larger than 250 MB can now be uploaded.
-- **Fix for non-English sites.**  Fixed the issue where Documents1 library was getting created for non-English sites.
+-  **Fix for zero durations in Summary Reports.** We recently introduced an issue where the duration field was showing zero values in the *SummaryReport.csv*. This has been fixed. *Requires latest version of agent.*
+- **Fix for large file upload.**  Report files larger than 250 MB can now be uploaded. *Requires latest version of agent.*
+- **Fix for non-English sites.**  Fixed the issue where Documents1 library was getting created for non-English sites. *Requires latest version of agent.*
 
 
 
 ## December 2020
 
-- **Process multiple tasks per agent.** Each agent can now process 5-10 migration tasks, simultaneously so that you can finish your migrations faster.
+- **Process multiple tasks per agent.** Each agent can now process 5-10 migration tasks, simultaneously so that you can finish your migrations faster. *Requires latest version of agent.*
 - **Select a team as a destination.** Users will be able to select a Teams team and the channel as the migration destination. This is in addition to the existing ability to specify a Teams location by the URL.
 - **Select a OneDrive email as a destination.** Users will be able to input a OneDrive email address as the migration destination. This is in addition to the existing ability to specify a OneDrive location by the URL.
 

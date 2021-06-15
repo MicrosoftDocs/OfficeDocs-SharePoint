@@ -47,7 +47,10 @@ Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-vi
 > 
 > - Only modern SharePoint sites and pages can be viewed in Teams and all other content will open in a browser.
 > 
-> - [Global navigation in the SharePoint app bar](https://docs.microsoft.com/SharePoint/viva-connections) must be enabled in order for SharePoint resources to display in the Microsoft Teams app bar for Viva Connections.
+> - Some functionality will not be available for SharePoint pages viewed in Microsoft Teams such as social gestures like the ability to like, or comment on a page as well as the ability to add an event automatically to an Outlook calendar.
+. 
+> 
+> - [Global navigation in the SharePoint app bar](./viva-connections.md) must be enabled in order for SharePoint resources to display in the Microsoft Teams app bar for Viva Connections.
 > 
 > - Global navigation menu links can be [audience targeted](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) so that specific content is surfaced to certain groups of people. Audience targeting settings in the SharePoint global navigation menu will carry over to global navigation in Teams.
 > 

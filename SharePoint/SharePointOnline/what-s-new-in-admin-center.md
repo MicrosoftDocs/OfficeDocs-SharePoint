@@ -34,10 +34,28 @@ We're continuously adding new features to the new SharePoint admin center and fi
 > [!IMPORTANT]
 > Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting November 30, 2020). [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed. 
 
+## June 2021
+
+- **Info about connection to Microsoft Teams**. On the Active sites page, you can use the new Teams column to view and filter sites connected to Microsoft Teams. When you select a site, the details panel also shows whether the site is connected to Microsoft Teams. 
+- **Info about site creation source**. On the Active sites page, you can use the new Created from column to see how the site was created. When you select a site, this info appears on the General tab of the details panel, under **Creation**. This info isn't available for sites created before October 2020.  
+- **New dashboard on home page**. On the home page, you can now add, remove, and rearrange cards. Several new cards were added:
+
+    - SharePoint storage usage over time
+    - OneDrive usage
+    - OneDrive file activity
+    - Search active sites
+    - Sensitivity labels
+    - Term store operations
+    - Microsoft 365 active users report
+
+You can also create a card by [tracking a view](manage-sites-in-new-admin-center.md#track-a-view) on the Active sites page. 
+
+[Learn more about the new home page dashboard](get-started-new-admin-center.md)
+
 ## April 2021
 
 - **New "How can we help?" experience**. To search help, open a new service request, or manage existing service requests, select **Need help?** in the lower-right corner.
-  
+
 ## March 2021
 
 - **OneDrive settings**. On the Settings page, you can now manage OneDrive settings. The OneDrive **Notifications** setting lets you [control whether users can receive notifications about file activity](/onedrive/turn-on-external-sharing-notifications). The **Retention** setting lets you [specify the days to retain a deleted user's OneDrive](/onedrive/set-retention). The **Storage limit** setting lets you [set the default OneDrive storage space](/onedrive/set-default-storage-space). The **Sync** setting lets you show or hide the Sync button on the OneDrive website, [allow syncing only on computers joined to specific domains](/onedrive/allow-syncing-only-on-specific-domains), and [block upload of specific file types](/onedrive/block-file-types). 
@@ -67,7 +85,7 @@ We're continuously adding new features to the new SharePoint admin center and fi
 
 - **Redesigned details panel**. On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), the details panel that appears when you select a site has been redesigned to divide the information among multiple tabs. [Learn more about managing sites](manage-sites-in-new-admin-center.md).
 
-    ![The General tab of the details panel](media/d0ddbc56-328e-42fb-b143-3faa14799fac.PNG)
+    ![The General tab of the details panel](media/general-tab-details-panel.png)
 
 - **Additional site-level sharing settings**. On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), when you select a site and then select **Sharing**, you can [change the default sharing link type and default link permissions for the site](change-external-sharing-site.md). 
 
@@ -102,58 +120,3 @@ We're continuously adding new features to the new SharePoint admin center and fi
 - Classic SharePoint admin features such as Term Store, User Profiles, Search, Apps, and more are available from the More features page so you can access them directly from the new SharePoint admin center.
 
 
-## In case you missed it
-
-### Home page and left pane
-  
-- Two charts, along with messages and service health filtered to SharePoint
-    
-- Links to the Microsoft 365 admin center for detailed reports, message center posts, and service health info
-    
-- Links to the OneDrive admin center and SharePoint Migration Tool
-    
-- A geo location selector for organizations that have set up Multi-Geo in OneDrive and SharePoint
-    
-### Active sites page
-  
-- A list that includes the new types of sites that users create: team sites that belong to Microsoft 365 groups and communication sites
-    
-- The ability to create sites (including sites that belong to Microsoft 365 groups and communication sites) using the same experience available to users
-    
-- Extensive site info and insights such as site name, template, file and sharing info, and date created and modified
-    
-- The ability to sort, filter, and customize columns, as well as search by all text fields
-
-- The ability to view and filter by hub association, and change a site's hub association
-    
-- Built-in views and the ability to create custom views
-    
-- The ability to edit site-level sharing status
-    
-- Export to CSV
-    
-- Support for locked sites and sites on hold
-    
-### Deleted sites page
-  
-- A list of deleted sites with time deleted
-    
-- The ability to restore sites individually
-
-- The ability to permanently delete sites, except sites connected to a Microsoft 365 group
-    
-### Sharing page
-  
-- Organization-level external sharing settings, and file and folder link settings
-
-### Access control page
-  
-- The ability to create policies that restrict access from unmanaged devices, sign out users from inactive browser sessions, allow access from only specific IP addresses, and block access from apps that don't use modern authentication.
-
-### Settings page
-  
-- Settings for sync (if your organization used the previous sync app), notifications, site storage limits, default admin experience, and site creation
-
-### API management page
-  
-- The ability to view pending and approved web API permissions and approve or reject access requests
