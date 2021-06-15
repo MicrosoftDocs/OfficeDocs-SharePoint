@@ -44,9 +44,7 @@ When you create a [private channel in Microsoft Teams](/MicrosoftTeams/private-c
 In the image above, the private channel is highlighted in yellow. Since this channel is private, it automatically gets it's own SharePoint team site, known as a Teams connected channel site or just channel site. Standard channels (all channels except for private) do not get their own SharePoint team site, but instead will display as folders within the Teams connected team site document library.
 <br>
 
-These Teams connected team sites and channel sites are a specialized type of SharePoint team sites that have been optimized for a Microsoft Teams connection.
-<br>
-You’ll notice that a handful of typical SharePoint team site features aren’t available in Teams connected team sites and channel sites, such as:
+These Teams connected team sites and channel sites are a specialized type of SharePoint team sites that have been optimized for a Microsoft Teams connection. You’ll notice that a handful of typical SharePoint team site features aren’t available in Teams connected team sites and channel sites, such as:
 - The ability to select the start symbol (follow links) on sites, lists, and libraries.
 - 2013 Workflows
 - The InfoPath form option is not available
