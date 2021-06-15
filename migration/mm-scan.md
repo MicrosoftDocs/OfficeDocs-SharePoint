@@ -22,11 +22,11 @@ description: Migration Manager Scan preview
 
 Once you add a source location, every file in the root path is scanned automatically. As your scan progresses, you can view the number and size of files, folders, and source paths. Migration readiness "warnings" gives you insight into any issues and how to remediate them. 
 
-![Scan dashboard preview](/media/mm-scan-dashboard.png)
+![Scan dashboard preview](media/mm-scan-dashboard.png)
 
 ## Using the scan
 
-![Scan menu bar features](/media/mm-scan-toolbar-menu.png)
+![Scan menu bar features](media/mm-scan-toolbar-menu.png)
 
 Once a scan is completed, highlight the row to look further into any issues that were discovered during the scan.
 
