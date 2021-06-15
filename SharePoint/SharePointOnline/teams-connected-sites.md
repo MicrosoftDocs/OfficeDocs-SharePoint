@@ -24,16 +24,18 @@ description: "Learn how to manage Teams connected sites."
 
 # Manage Teams connected sites and channel sites
   
-In this article, learn more about how to identify, manage, and navigate between teams in Microsoft Teams, SharePoint team sites and channel sites.
+In this article, learn more about how to identify, manage, and navigate between teams and channels in Microsoft Teams and SharePoint Teams connected sites and channel sites.
 
 ### What’s are Teams connected sites and channel sites?
-When you create a team in Microsoft Teams, a Microsoft 365 connected team site in SharePoint gets automatically created. This site is referred to as a Teams connected team site. This team site contains folders for each standard channel created from Microsoft Teams. Also, when you create a private channel in Microsoft Teams, a team site in SharePoint also gets automatically created. 
+Today, Teams connected team sites and channel sites are created whenever a new Microsoft Team or private channel within a team is created. When you create a team in Microsoft Teams, a Microsoft 365 connected team site in SharePoint gets automatically created. This site is referred to as a *Teams connected team site*. This team site contains folders for each standard channel created from Microsoft Teams. This primary Teams connected team site is also known as the *parent team connected site*.
+ 
+When you create a private channel in Microsoft Teams, a seperate team site in SharePoint also gets automatically created. These sites are called *Teams connected channel sites*, or just channel sites.
 
 ![Image of teams and channels in Microsoft Teams](media/overview-teams-connected.png)
 
 These sites are referred to as Teams connected channel sites. The SharePoint sites that are Teams connected team sites and channel sites are a specialized site type of SharePoint team site that has been optimized for its Teams connection.
 
-![Image of Microsoft Teams channel site types](media/teams-channel-sites.png)
+![Image of Microsoft Teams channel site types](media/teams-channel-sites-2.png)
 
 You’ll notice that a handful of typical SharePoint team site features aren’t available in Teams connected team sites and channel sites, such as:
 - The ability to select the start symbol (follow links) on sites, lists, and libraries.
