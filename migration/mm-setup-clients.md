@@ -88,7 +88,7 @@ The country or regional GEO code can be found here [Microsoft 365 Multi-Geo avai
 
  If the system detects you are not joined to a domain when installing the agent, you can install the agent as a Windows app.  If you still wish to install it as a service, exit and sign in with a domain-joined account.
 
->[Important]
+>[!Important]
 > If you install the agent as an app, it will not run if the computer is asleep, effectively pausing your migration.  
 
 1. Select **Install as an app**. 
@@ -98,14 +98,12 @@ The country or regional GEO code can be found here [Microsoft 365 Multi-Geo avai
 2. After the agent installs, sign in with your SharePoint Admin credentials.
 3. Test if your agent has access to the file shares you want to migrate (optional).
 
-The settings screen will display if and to what tenant you are connected.  Select **unlink tenant** if you wish to sign in to a different tenant.
-
->[!Important]
->Microsoft 365 will automatically renew authorization to access your tenant as long as the migration agent is active.  If the agent has been inactive forlonger than seven days, you may need to sign in again.
-
-
-
 ![Install as an app settings](media/mm-agent-app-settings.png)
+
+4. The settings screen will display if and to what tenant you are connected.  Select **unlink tenant** if you wish to sign in to a different tenant.
+
+5. Microsoft 365 will automatically renew authorization to access your tenant as long as the migration agent is active.  If the agent has been inactive forlonger than seven days, you may need to sign in again.
+
 
 >[!Important]
 > Passwords are not stored in the installer.
@@ -117,7 +115,7 @@ The settings screen will display if and to what tenant you are connected.  Selec
 
 
 >[!Important]
->The connection between the agent and Migration Manager stays active as long as the computer is still running and the SharePoint admin credentials that were used to sign into the agent are still valid. 
+>The connection between the agent (as a service) and Migration Manager stays active as long as the computer is still running and the SharePoint admin credentials that were used to sign into the agent are still valid. 
 >
 >If the agent does becomes disconnected, it still holds the token to the Migration Manager for up to 7 days. After that time, the agent will need to be reinstalled.
 
