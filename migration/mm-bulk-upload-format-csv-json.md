@@ -24,8 +24,14 @@ There are two different methods available to bulk upload tasks into Migration Ma
 
 The entries are manually entered by you into whichever format you choose.  The first row is validated to make sure the destination links are valid. If you receive an invalid destination error, make sure to also check the remainder of your tasks to ensure they have valid destinations. 
 
->[!Note]
->If you are migrating to OneDrive accounts, make sure the accounts are pre-provisioned before you migrate. You can do this using a script, as shown here: [Pre-provision OneDrive for users in your organization](/onedrive/pre-provision-accounts).
+## Before you begin:
+
+- **Pre-provision OneDrive accounts**.  If you are migrating to OneDrive accounts, make sure the accounts are pre-provisioned before you migrate. This can be done using this script: [Pre-provision OneDrive for users in your organization](/onedrive/pre-provision-accounts).
+- **Template**.  A .csv template is available for bulk uploading:  [Migration Manager bulk upload template](https://download.microsoft.com/download/b/1/9/b1925e76-010c-4db5-aa44-64055f8f3efe/mm-example_csv_bulk_upload.csv)
+- **Column headings**.  You can optionally use columns headings in your CSV file to make your file easier to read.
+- **All columns must be account for**.  Remember to account for all six columns in the file, even if you are not needing a value for a given field. 
+- **UTF-8**.  The encoding of the CSV file must be UTF-8.
+
 
   
 ## Using a comma-separated value (CSV) file for bulk upload
@@ -35,18 +41,17 @@ Migration Manager lets you use a comma-separated (CSV) file to bulk migrate your
   
  **CSV file format**
   
-There are six columns needed in your CSV file -- the first three are your source values, each providing detail about where your data is currently located. The remaining three columns indicate the site, document library and optional sub-folder to where you are migrating your data. All six columns must be accounted for in the file, even if you are not needing a value for a given field.
-  
-Here's an example of the format for the CSV file. The rows show files that are being migrated from local file shares.
+There are six columns needed in your CSV file -- the first three are your source values, each providing detail about where your data is currently located. The remaining three columns indicate the site, document library and optional sub-folder to where you are migrating your data. All six columns must be accounted for in the file, even if you are not needing a value for a given field. You may also include column headings in your file.
 
->[!Tip]
->Download the template for bulk uploading using a CSV file:  [Migration Manager bulk upload template](https://download.microsoft.com/download/b/1/9/b1925e76-010c-4db5-aa44-64055f8f3efe/mm-example_csv_bulk_upload.csv)
-  
+Here's an example of the format for the CSV file. The rows show files that are being migrated from local file shares.  You can optionally include a header row in your file.
+
+
 ![Sample format when using a CSV file](media/mm-sample-csv.png)
   
-This example shows how it would appear in a .txt file.
+This example shows how it would appear in a .txt file with column headers.
   
 ```console
+FileSharePath,,,SharePointSite,DocLibrary,DocSubFolder
 \\MigrationTests\testfiles,,,https://contoso.sharepoint.com/sites/sitecollection,Documents,SubFolderName
 \\MigrationTests\testfiles,,,https://contoso-my.sharepoint.com/personal/user_contoso_onmicrosoft_com,Documents,
 ```
@@ -54,9 +59,7 @@ This example shows how it would appear in a .txt file.
 
 
 
-> [!IMPORTANT]
->  *Do not*  include a header row in your CSV file. Remember to account for all six columns in the file, even if you are not needing a value for a given field. 
->  The encoding of the CSV file must be UTF-8.
+
 
   
  **To create a CSV file for data migration**
