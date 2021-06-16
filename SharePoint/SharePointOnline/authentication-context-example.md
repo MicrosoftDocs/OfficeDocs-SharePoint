@@ -16,7 +16,7 @@ ms.collection:
 - M365-collaboration
 search.appverid:
 - MET150
-description: "Learn about how to use Azure Active Directory authentication context with SharePoint sites and sensitivity labels."
+description: "Learn about how to use Azure Active Directory conditional access and authentication context with SharePoint sites and sensitivity labels."
 ---
 
 # Manage site access based on sensitivity label
