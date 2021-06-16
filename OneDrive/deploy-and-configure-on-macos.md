@@ -319,20 +319,30 @@ The example for this setting in the .plist file is:
 
 [More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/new-onedrive-sync-client)
 
-### Tier
 
-You can configure the OneDrive Standalone sync app to receive delayed updates.
-  
-|.plist Location  <br/> |Domain  <br/> |
-|:-----|:-----|
-| ~/Library/Preferences/com.microsoft.OneDriveUpdater.plist <br/> |com.microsoft.OneDriveUpdater  <br/> |
-   
-| Setting | Description | Parameters | Example .plist Entry |
-|:-----|:-----|:-----|:-----|
-|Tier  <br/> |Defines the update ring for the computer  <br/> |UpdateRing (String): This parameter has two different values.  <br/> Production - The default update ring for OneDrive updates.  <br/> Insiders - This update ring receives updates that are "pre-production" and that allow you to play with features before they are released. Note that builds from this ring may be less stable.  <br/> Enterprise - This update ring (now called "Deferred") receives updates after they have been rolled out through the Production ring. It also lets you control the deployment of updates. For more information about the update rings and the procedure used by the sync app for checking for updates, see [The OneDrive sync app update process](sync-client-update-process.md).  <br/> |\<key\>Tier\</key\>  <br/> \<string\>(UpdateRing)\</string\>  <br/> |
+### Tier
+<a name="Tier"> </a>
+
+This setting lets you specify the ring for users in your organization. The OneDrive sync app updates to the public through three rings- first to Insiders, then Production, and finally Deferred.  When you enable this setting and select a ring, users aren't able to change it.  
+
+Insiders - This update ring users receive builds that let them preview new features coming to OneDrive.
+
+Production - This update ring users get the latest features as they become available. This ring is the default.
+
+Enterprise (now called "Deferred") - This update ring users get new features, bug fixes, and performance improvements last. This ring lets you deploy updates from an internal network location, and control the timing of the deployment (within a 60-day window).
 
 > [!IMPORTANT]
 > We recommend selecting several people in your IT department as early adopters to join the Insiders ring and receive features early. We recommend leaving everyone else in the organization in the default Production ring to ensure they receive bug fixes and new features in a timely fashion. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)
+
+For more info on the builds currently available in each ring, see the [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?). For more info about the update rings and how the sync app checks for updates, see the [OneDrive sync app update process](sync-client-update-process.md).
+
+|.plist Location  <br/> |Domain  <br/> |
+|:-----|:-----|
+| ~/Library/Preferences/com.microsoft.OneDriveUpdater.plist <br/> |com.microsoft.OneDriveUpdater  <br/> |
+
+The example for this setting in the .plist file is:
+<br/> \<key\>Tier\</key\>  <br/> \<string\>(UpdateRing)\</string\>  <br/> 
+
 
 ### UploadBandwidthLimited
 <a name="UploadBandwidthLimited"> </a>
