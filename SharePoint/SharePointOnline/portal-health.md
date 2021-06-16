@@ -15,7 +15,7 @@ ms.collection:
 - M365-collaboration
 - enabler-strategic
 - m365initiative-spsites
-description: "Creating and launching a healthy SharePoint portal"
+description: "Create and launch a healthy SharePoint portal to ensure a performant viewing experience"
 ---
 
 # Creating and launching a healthy SharePoint portal
@@ -42,3 +42,4 @@ This set of guidance will walk you through best practices and recommendations be
 ||![Graph 3 blue](/office/media/icons/graph-3-blue.png "Optimize extensions") [Optimize extensions](/microsoft-365/Enterprise/modern-custom-extensions)|Follow the guidance to optimize and limit your custom extensions|
 |![Task checklist planning blue 32](/office/media/icons/PNGs/task-checklist-planning-blue-32.png "Modern portal limits")|[Modern portal limits](/Office365/Enterprise/modern-portal-limits)|Follow the limits for modern portals to further optimize performance|</br>
 |![Globe Internet](/Office/media/icons/globe-internet.png "Network optimization")|[Network optimization](/microsoft-365/enterprise/urls-and-ip-address-ranges)|Configure your URLs and IP endpoints|</br>
+|![Calendar icon](/Office/media/icons/icon-calendar.png "Portal launch scheduler")|[Portal launch scheduler](/microsoft-365/enterprise/portallaunchscheduler)|Use the portal launch scheduler to release your portal in phases|</br>
