@@ -28,6 +28,7 @@ After an agent is configured, anyone with the permission to go into the SharePoi
 
 > [!Important]
 > Make sure to download the latest version of the agent setup file.
+> Passwords **are not** stored in the installer.
 
 ## Planning checklist
 
@@ -105,17 +106,16 @@ The country or regional GEO code can be found here [Microsoft 365 Multi-Geo avai
 5. Microsoft 365 will automatically renew authorization to access your tenant as long as the migration agent is active.  If the agent has been inactive forlonger than seven days, you may need to sign in again.
 
 
->[!Important]
-> Passwords are not stored in the installer.
 
->[!NOTE]
-> Migration Manager automatically assigns tasks to a available agent.  You cannot manually assign a task to a specific agent. Each agent can have up to 10 tasks in its queue.
->
->Pausing a task does not release the agent to another task. An agent remains unavailable to accept a new task until the task is resumed and completed, or if the task is deleted.
+## Agent task assignment
+
+Migration Manager automatically assigns tasks to a available agent. You cannot manually assign a task to a specific agent. Each agent can have up to 10 tasks in its queue.
+
+Pausing a task does not release the agent to another task. An agent remains unavailable to accept a new task until the task is resumed and completed, or if the task is deleted.
 
 
->[!Important]
->The connection between the agent (as a service) and Migration Manager stays active as long as the computer is still running and the SharePoint admin credentials that were used to sign into the agent are still valid. 
->
->If the agent does becomes disconnected, it still holds the token to the Migration Manager for up to 7 days. After that time, the agent will need to be reinstalled.
+## How long will the connection stay active?
+The connection between the agent (as a service) and Migration Manager stays active as long as the computer is still running and the SharePoint admin credentials that were used to sign into the agent are still valid. 
+
+If the agent does becomes disconnected, it still holds the token to the Migration Manager for up to 7 days. After that time, the agent will need to be reinstalled.
 
