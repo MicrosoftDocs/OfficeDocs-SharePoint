@@ -27,11 +27,10 @@ We're continuously adding new features to Migration Manager and fixing issues we
 Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page.  
 
 
-## Coming soon
+## June 2021
 
-- **Scan file shares (preview).**  Scan and view your sources for migration readiness.
-- **Ability to install agent on non-domain joined computers (app mode).**  You will have the option of installing the Migration Manager agent on non-domain joined computers using an agent app.
-
+- **Scan file shares (preview).**  Scan and view your sources for migration readiness. Learn more: [Migration Manager Scan (preview)](mm-scan.md)
+- **Agent app mode**. Install agent on non-domain joined computers (app mode). You now haave the option of installing the Migration Manager agent on non-domain joined computers using an agent app.
 
 ## May 2021
 
