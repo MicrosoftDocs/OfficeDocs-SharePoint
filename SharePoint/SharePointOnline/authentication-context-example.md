@@ -34,6 +34,7 @@ Some apps do not currently work with authentication contexts. If you have Office
 - Teams web app
 - Workflows that use Power Apps or Power Automate
 - Third-party apps
+- The OneDrive sync app won't sync sites with an authentication context.
 
 > [!NOTE]
 > Using authentication context with SharePoint sites requires a Microsoft 365 E5 or Microsoft 365 E5 Compliance license for each user accessing a labeled site.
