@@ -225,15 +225,15 @@ SharePoint [permissions](./modern-experience-sharing-permissions.md) are managed
 
 *You'll know you're done when* - All site owners and users have access to the content they need, while securing confidential content when appropriate.
 
-#### Design the intranet portal page
+#### Design the intranet portal page, also known as the home site
 
-The [main intranet portal for your organization](home-site.md) is a big part of your new SharePoint intranet. You can create this page at any time during your intranet development project. You can still point to your legacy intranet sites with an intelligent portal home page. If you have an existing communication site that you want to use as your main portal page, you can [move it to the root site](modern-root-site.md#replace-your-root-site).
+The [main intranet portal for your organization](home-site-plan.md) is a big part of your new SharePoint intranet. You can create this page at any time during your intranet development project. You can still point to your legacy intranet sites with an intelligent portal home page. If you have an existing communication site that you want to use as your main portal page, you can [move it to the root site](modern-root-site.md#replace-your-root-site).
 
 The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb76b4cf5), [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165), and [Yammer feeds](/yammer/yammer-landing-page) can all be used to make your main portal page an engaging and productive destination for your users. For an end-to-end look at creating this page, read [Guided walkthrough: Creating an Enterprise Landing site for your organization](https://support.office.com/article/9c1842c3-543e-4891-85d3-0eaf680e242d).
 
 *Start by* — Considering the goals from the perspective of your organization's communications team, your executive sponsor, your IT department, and end users. Design the portal home page with simplicity and scalability in mind.
 
-*You'll know you're done when* — You've created a launch plan for redirecting from your current portal page to the new page and have shared this plan with all stakeholders and users.
+*You'll know you're done when* — You've created a launch plan using the [Portal launch scheduler](/microsoft-365/enterprise/portallaunchscheduler) for redirecting from your current portal page to the new page and have shared this plan with all stakeholders and users.
 
 #### Design your business, or topic-specific intranet site
 
@@ -353,6 +353,8 @@ Help work groups connect and engage across your organization using Yammer. [Lea
 | [Content authors](#content-authors)|Refresh existing content, publish new content and participate in scheduled content audits to keep content up-to-date and compliant.|
 
 ## Related topics
+
+[Create and launch healthy portals](/sharepoint/portal-health)
 
 [SharePoint adoption resources](https://resources.techcommunity.microsoft.com/resources/sharepoint-adoption/#tips-campaign)
 
