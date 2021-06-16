@@ -112,6 +112,7 @@
 ### [Safeguarding your data](safeguarding-your-data.md)
 ### [Control notifications](notifications.md)
 ### [Use information barriers](information-barriers.md)
+### [Configure information barriers compliance assistant](information-barriers-compliance-assistant.md)
 ### [Sign out inactive users](sign-out-inactive-users.md)
 ## [Content services]()
 ### [Term store]()
