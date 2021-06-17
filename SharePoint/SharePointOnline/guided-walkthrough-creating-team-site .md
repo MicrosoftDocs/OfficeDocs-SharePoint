@@ -94,7 +94,99 @@ You can quickly and easily customize the organization and navigation of your Sha
 
 ![Image of the Quick launch menu](media/gw-team/gw-team-4.png)
 
-<!-- daisy you stopped here-->
+Select the **...** on the right side of each menu item to **Edit**, **Move**, or **Remove** an item.
+
+![Image of the menu options](media/gw-team/gw-team-5.png)
+
+While editing, your drafts can either be saved for later or discarded. When your page updates are ready, select **Publish** to make them visible to site viewers.
+
+![Image of the Publish button](media/gw-leadership/gw-9.png)
+
+<!-- daisy back to top-->
+
+## Inform the team
+
+The second section in this example is in a three-column layout and includes the Quick links web part,  the Group calendar web part, and the Document library web part.
+
+![Image of the three-column layout with web parts](media/gw-team/gw-team-6.png)
+
+### Quick links
+
+The Quick links web part offers several easy-to-use menu formats for listing links to other pages or sites. In this Team site example, this web part uses the **Tiles** layout with small icons for quick and easy reference.
+
+![Image of the Quick links web part](media/gw-team/gw-team-7.png)
+
+For more details on using the Quick links web part, see [Use the Quick links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82).
+
+### Group calendar
+
+The Group calendar web part automatically shows meetings and appointments that are on your Office 365 group calendar. [Office 365 groups](https://support.microsoft.com/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) and their associated calendars are created automatically when you create a team site.
+
+![Image of the Group calendar web part](media/gw-team/gw-team-8.png)
+
+For more information on the Group calendar web part, see [Use the Group calendar web part](https://support.microsoft.com/office/use-the-group-calendar-web-part-eaf3c04d-5699-48cb-8b5e-3caa887d51ce).
+
+### List web part
+
+Display site content including documents where the team can easily find it. You can use lists either as a document library or to track information.
+
+![Image of the List web part](media/gw-team/gw-team-9.png)
+
+For more details on using the List web part, see [Using the List web part](https://support.microsoft.com/office/use-the-list-web-part-ef0a1b80-f8b3-443d-b04a-1e76c70b5537).
+
+<!-- daisy back to top-->
+
+## Add important news with the News web part
+
+Team sites allow you to show news for the entire team or filter news tailored to the interests of specific users. In this example, the News web part uses **Recommended for current user** as the source and a **Side-by-side** layout in a one-column section with a background.
+
+![Image of the News web part with layout options](media/gw-team/gw-team-10.png)
+
+For more details on using the News web part, see [Use the News web part on a SharePoint page](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165)
+
+<!-- daisy back to top-->
+
+## Highlight important information
+
+Let your team know what's most important with high-impact hero images, company branding, and important news. The Hero web part allows you to use large and eye-catching images to draw immediate attention to the most important information on your site. The layout used in this example is **Two tiles**.
+
+### The power of tiles
+
+Tiles can include images, topic headings, titles, descriptions, and a call to action link. Other adjustments include image scaling and setting the focus for the image zoom animation.
+
+### Each tile can be edited
+
+Use the **Move item** control on the left to rearrange the tiles within the Hero web part. Controls on the right allow you to **Edit details** to adjust the text and image, **Set focal point** for the hover animation, and **Zoom in** and **Zoom out** of the image.
+
+In this example, the Hero web part is in a full-width section.
+
+![Image of the Hero web part on a page](media/gw-team/gw-team-11.png)
+
+For more details on using the Hero web part, see [Use the Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645)
+
+<!-- daisy back to top-->
+
+## Show project status
+
+If you use [Microsoft Planner](https://support.office.com/planner) to manage your projects, and have a plan created, you can use the Planner web part to show status for that plan on your SharePoint site.
+
+![Image of the Planner web part on a page](media/gw-team/gw-team-12.png)
+
+For more details on using the Planner web part, see [Use the planner web part](https://support.microsoft.com/office/use-the-planner-web-part-a1e4ada8-8817-4e57-8e65-1bf546808843)
+
+<!-- daisy back to top-->
+
+## Show team activity with the Site activity web part
+
+The activity web part has only one setting - how many items to show. Activity shown by the web part includes page updates and all documents stored on the team site.
+
+In this example, the web part is in a one-column section.
+
+![Image of the Site activity web part on a page](media/gw-team/gw-team-13.png)
+
+For more details on using the Site activity web part, see [Use the site activity web part](https://support.microsoft.com/office/use-the-site-activity-web-part-1fa91401-ac36-42b6-beba-bb8469d6cbfa)
+
+<!-- daisy back to top-->
 
 ## Want more?
 
