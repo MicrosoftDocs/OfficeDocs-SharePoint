@@ -144,7 +144,7 @@ The scan results and the corresponding scan report are essential in aiding you i
 
 To download the Scan Results sign into the Mover tool, go to Migration Manager, and select **Migration Actions > Scan Reports** (zip file). The download will be a zip file titled **ScanReport-[date]**.
 
-![Scan report fails](media/mover-migration-actions-larger.png)
+![Scan report fails1](media/mover-migration-actions-larger.png)
 
 The zip file contains the following reports:
 
@@ -177,7 +177,7 @@ Below we will discuss how to populate the Pre-Scan Results tabs to provide all t
 
 When you open the Pre-Scan Results Excel sheet, you will see it is populated with the following columns/information.
 
-![Scan report fails](media/mover-prescan-excel.png) 
+![Scan report fails2](media/mover-prescan-excel.png) 
 
 In order to populate these columns, we will take the data from the ScanSummaryReport file that was generated in the zip file.  
 
@@ -200,7 +200,7 @@ The totals for Files and TB are automatically calculated,  giving you the total 
 
 This will bring the Failed scans to the top of the list and all other subsequent scans should report as Success.
 
-![Scan report fails](media/mover-excel-scan-fails.png)
+![Scan report fails3](media/mover-excel-scan-fails.png)
 
 You will notice that the Destination Path column is currently blank.  Currently the *ScanSummayReport* does not include the details of the Destination Path. This issue is currently being addressed and future iterations of the *ScanSummaryReport* will include these details.
 
