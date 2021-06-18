@@ -327,7 +327,7 @@ This setting lets you specify the ring for users in your organization. The OneDr
 
 **Insiders**: The Insiders ring users receive builds that let them preview new features coming to OneDrive.
 
-Production - This update ring users get the latest features as they become available. This ring is the default.
+**Production**: The Production ring users get the latest features as they become available. This ring is the default.
 
 Enterprise (now called "Deferred") - This update ring users get new features, bug fixes, and performance improvements last. This ring lets you deploy updates from an internal network location, and control the timing of the deployment (within a 60-day window).
 
