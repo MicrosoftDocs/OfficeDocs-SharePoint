@@ -325,7 +325,7 @@ The example for this setting in the .plist file is:
 
 This setting lets you specify the ring for users in your organization. The OneDrive sync app updates to the public through three rings; first to Insiders, then to Production, and finally to Deferred.  When you enable this setting and select a ring, users aren't able to change it.  
 
-Insiders - This update ring users receive builds that let them preview new features coming to OneDrive.
+**Insiders**: The Insiders ring users receive builds that let them preview new features coming to OneDrive.
 
 Production - This update ring users get the latest features as they become available. This ring is the default.
 
