@@ -28,7 +28,7 @@ Use a team site when you want to collaborate with other members of your team or 
 
 First, if you haven't already created a Team site, check out [Create a team site in SharePoint](https://support.microsoft.com/office/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).
 
-If you need to learn how to edit and publish the page on your site, check out the section [Manage sections and web parts] <!-- daisy bookmark--> in this article.
+If you need to learn how to edit and publish the page on your site, check out the section [Manage sections and web parts](#manage-sections-and-web-parts) in this article.
 
 Once you have created your site and know how to edit pages, you can use the guidance below to add the elements shown.
 
@@ -36,29 +36,27 @@ Once you have created your site and know how to edit pages, you can use the guid
 
 ![Image of the hero and news web parts](media/gw-team/gw-team-1-123.png)
 
-1. **Team highlights and news** Get visual while sharing information. <!--learn how-->
-2. **Quick launch** Add links to more content around the site.
-3. **Inform the team** Offer links, events and content related to team work.
+1. **Team highlights and news** Get visual while sharing information. [Learn how](#team-highlights-and-news)
+2. **Quick launch** Add links to more content around the site. [Learn how](#quick-launch)
+3. **Inform the team** Offer links, events and content related to team work. [Learn how](#inform-the-team)
 
 ![Image of the News web part](media/gw-team/gw-team-1-4.png)
 
-4. **Share news about the team** Offer news items of interest to the team.
+4. **Share news about the team** Offer news items of interest to the team. [Learn how](#add-important-news-with-the-news-web-part)
 
 ![Image of the Hero web part](media/gw-team/gw-team-1-5.png)
 
-5. **Highlight important information** Increase visibility of key information with the Hero web part.
+5. **Highlight important information** Increase visibility of key information with the Hero web part. [Learn how](#highlight-important-information)
 
 ![Image of the Planner web part](media/gw-team/gw-team-1-6.png)
 
-6. **Display project status** Use the Planner web part to show team progress on projects.
+6. **Display project status** Use the Planner web part to show team progress on projects. [Learn how](#show-project-status)
 
 ![Image of the Site activity web part](media/gw-team/gw-team-1-7.png)
 
-7. **Display recent activity** Automatically show the most recent updates to team site content.
+7. **Display recent activity** Automatically show the most recent updates to team site content. [Learn how](#show-team-activity-with-the-site-activity-web-part)
 
 ## Manage sections and web parts
-
-<!-- daisy check with team about what to do with this section-->
 
 Sections make up your page, and are where you place one or more web parts. While editing the page, each section will show controls to edit the layout, move, or delete the sections.
 
@@ -78,7 +76,7 @@ To add web parts to sections, select the plus symbol ![image of a plus symbol](m
 
 Web parts may be edited, moved, or deleted within sections. The **Edit web part** icon opens detailed controls unique to each web part type.
 
-<!-- daisy back to top-->
+[Back to top](#example-team-site)
 
 ## Team highlights and news
 
@@ -102,7 +100,7 @@ While editing, your drafts can either be saved for later or discarded. When your
 
 ![Image of the Publish button](media/gw-leadership/gw-9.png)
 
-<!-- daisy back to top-->
+[Back to top](#example-team-site)
 
 ## Inform the team
 
@@ -134,7 +132,7 @@ Display site content including documents where the team can easily find it. You 
 
 For more details on using the List web part, see [Using the List web part](https://support.microsoft.com/office/use-the-list-web-part-ef0a1b80-f8b3-443d-b04a-1e76c70b5537).
 
-<!-- daisy back to top-->
+[Back to top](#example-team-site)
 
 ## Add important news with the News web part
 
@@ -144,7 +142,7 @@ Team sites allow you to show news for the entire team or filter news tailored to
 
 For more details on using the News web part, see [Use the News web part on a SharePoint page](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165)
 
-<!-- daisy back to top-->
+[Back to top](#example-team-site)
 
 ## Highlight important information
 
@@ -164,7 +162,7 @@ In this example, the Hero web part is in a full-width section.
 
 For more details on using the Hero web part, see [Use the Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645)
 
-<!-- daisy back to top-->
+[Back to top](#example-team-site)
 
 ## Show project status
 
@@ -174,7 +172,7 @@ If you use [Microsoft Planner](https://support.office.com/planner) to manage you
 
 For more details on using the Planner web part, see [Use the planner web part](https://support.microsoft.com/office/use-the-planner-web-part-a1e4ada8-8817-4e57-8e65-1bf546808843)
 
-<!-- daisy back to top-->
+[Back to top](#example-team-site)
 
 ## Show team activity with the Site activity web part
 
@@ -186,7 +184,7 @@ In this example, the web part is in a one-column section.
 
 For more details on using the Site activity web part, see [Use the site activity web part](https://support.microsoft.com/office/use-the-site-activity-web-part-1fa91401-ac36-42b6-beba-bb8469d6cbfa)
 
-<!-- daisy back to top-->
+[Back to top](#example-team-site)
 
 ## Want more?
 
