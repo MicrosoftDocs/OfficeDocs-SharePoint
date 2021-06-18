@@ -72,7 +72,7 @@ Once the site has been created, a link to it is available on the Manage App Cata
 ## Configure app requests
 <a name="AppRequests"> </a>
 
-By default, site owners can purchace and download apps from the SharePoint Store. If you don't want site owners to be able to purchase apps directly, you can configure the SharePoint Store settings in Central Administration to only allow site owners to request apps. Apps can then be approved or denied by the App Catalog administrator.
+By default, site owners can purchase and download apps from the SharePoint Store. If you don't want site owners to be able to purchase apps directly, you can configure the SharePoint Store settings in Central Administration to only allow site owners to request apps. Apps can then be approved or denied by the App Catalog administrator.
   
  **To configure app requests in the SharePoint Store settings**
   
@@ -141,6 +141,8 @@ After you have configured the App Catalog, you can add apps that users can then 
  **To add an app to the App Catalog**
   
 1. Verify that the user account that is performing this procedure is a member of the site Owners or Designers group for the App Catalog.
+
+>[!NOTE] In SharePoint Online and SharePoint 2019, in order to be able to add a client-side app, the user account needs to be a Site Collection Administrator of the App Catalog
     
 2. On the App Catalog site, click the **Apps for SharePoint** list. 
     
@@ -172,8 +174,10 @@ If you no longer want to offer a particular app to your users, you can remove it
   
  **To remove an app from the App Catalog**
   
-1. Verify that the user account that is performing this procedure is a member of the site Owners or Designers group for the App Catalog.
-    
+1. Verify that the user account that is performing this procedure is a member of the site Owners or Designers group for the App Catalog. 
+
+>[!NOTE] In SharePoint Online and SharePoint 2019, in order to be able to add a client-side app, the user account needs to be a Site Collection Administrator of the App Catalog
+
 2. On the App Catalog site, click the **Apps for SharePoint** list. 
     
 3. On the **Apps for SharePoint** page, select the app that you want to remove. 
