@@ -74,11 +74,11 @@ If you disable Delve, users will no longer see:
  
 2. At the bottom of the page, select **classic settings page**.
     
-3.  Under **Delve (powered by Office Graph)**, select one of the following:  
+3.  Under **Delve**, select one of the following:  
     
-  - **Enable Delve and related features**
+  - **Enable Delve**
     
-  - **Disable Delve and related features**
+  - **Disable Delve**
     
 ## Introducing Delve in your organization
 <a name="BKMK_DelveIntroduce"> </a>
