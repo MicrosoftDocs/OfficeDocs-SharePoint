@@ -140,10 +140,8 @@ After you have configured the App Catalog, you can add apps that users can then 
   
  **To add an app to the App Catalog**
   
-1. Verify that the user account that is performing this procedure is a member of the site Owners or Designers group for the App Catalog.
-
->[!NOTE] In SharePoint Online and SharePoint 2019, in order to be able to add a client-side app, the user account needs to be a Site Collection Administrator of the App Catalog
-    
+1. Verify that the user account that is performing this procedure is a member of the site Owners or Designers group for the App Catalog (site collection administrator for SharePoint Server 2019).
+  
 2. On the App Catalog site, click the **Apps for SharePoint** list. 
     
     On the **Apps for SharePoint** page, click **new item**.
@@ -174,9 +172,7 @@ If you no longer want to offer a particular app to your users, you can remove it
   
  **To remove an app from the App Catalog**
   
-1. Verify that the user account that is performing this procedure is a member of the site Owners or Designers group for the App Catalog. 
-
->[!NOTE] In SharePoint Online and SharePoint 2019, in order to be able to add a client-side app, the user account needs to be a Site Collection Administrator of the App Catalog
+1. Verify that the user account that is performing this procedure is a member of the site Owners or Designers group for the App Catalog (site collection administrator for SharePoint Server 2019).
 
 2. On the App Catalog site, click the **Apps for SharePoint** list. 
     
@@ -190,8 +186,6 @@ If you no longer want to offer a particular app to your users, you can remove it
     
 ## See also
 <a name="RemoveApp"> </a>
-
-#### Concepts
 
 [Install and manage apps for SharePoint Server](install-and-manage-apps-for-sharepoint-server.md)
   
