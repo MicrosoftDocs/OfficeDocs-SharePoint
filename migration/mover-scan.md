@@ -122,7 +122,6 @@ If some entries for users' files and data are blank, this usually indicates that
 
 It may take time for all users to change from the *Never Run* status to either *Scanning* or *Queued*.
 
-If the Scan you are doing exceeds 5,000 users, contact Microsoft Customer Engineering via email prior to starting the large Scan. We will make the Mover Infrastructure team aware that a large scan is starting.
 
 >[Note]
 >The length of time for a scan to run depends on how many users, how many files, how much data and how well distributed the customers' data is.  A large scan of over 100TB can take a few days to complete.
