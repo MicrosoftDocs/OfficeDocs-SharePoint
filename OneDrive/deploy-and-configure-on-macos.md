@@ -329,7 +329,7 @@ This setting lets you specify the ring for users in your organization. The OneDr
 
 **Production**: The Production ring users get the latest features as they become available. This ring is the default.
 
-Enterprise (now called "Deferred") - This update ring users get new features, bug fixes, and performance improvements last. This ring lets you deploy updates from an internal network location, and control the timing of the deployment (within a 60-day window).
+**Enterprise** (now called "Deferred"): The Deferred ring users get new features, bug fixes, and performance improvements last. This ring lets you deploy updates from an internal network location, and control the timing of the deployment (within a 60-day window).
 
 > [!IMPORTANT]
 > We recommend selecting several people in your IT department as early adopters to join the Insiders ring and receive features early. We recommend leaving everyone else in the organization in the default Production ring to ensure they receive bug fixes and new features in a timely fashion. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)
