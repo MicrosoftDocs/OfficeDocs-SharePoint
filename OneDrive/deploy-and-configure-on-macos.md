@@ -323,7 +323,7 @@ The example for this setting in the .plist file is:
 ### Tier
 <a name="Tier"> </a>
 
-This setting lets you specify the ring for users in your organization. The OneDrive sync app updates to the public through three rings- first to Insiders, then Production, and finally Deferred.  When you enable this setting and select a ring, users aren't able to change it.  
+This setting lets you specify the ring for users in your organization. The OneDrive sync app updates to the public through three rings; first to Insiders, then to Production, and finally to Deferred.  When you enable this setting and select a ring, users aren't able to change it.  
 
 Insiders - This update ring users receive builds that let them preview new features coming to OneDrive.
 
@@ -353,4 +353,3 @@ To enable this setting, set a value between 50 and 100,000 that is the upload th
 
 The example for this setting in the .plist file is:
 <br/> \<key\>UploadBandwidthLimited\</key\>  <br/> \<integer\>(Upload Throughput Rate in KB/sec)\</integer\>  <br/>
-
