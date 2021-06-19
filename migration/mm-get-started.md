@@ -49,7 +49,7 @@ Make sure that you have:
 
 - **Access to the source**: Windows credentials that have read access to any of the network file shares you plan to migrate.
 
-- **Prerequisites installed:** Make sure your computer or VM has the necessary prerequisites installed:  See here for the [List of prerequisites](mm-setup-clients.md).
+- **Prerequisites and endpoints:** Make sure your computer or VM has the necessary prerequisites installed and have the required endpoints open:  See here for the [List of prerequisites and required endpoints](mm-prerequisites.md).
 
 >[!Note]
 >When using Migration Manager to migrate content to non-English SharePoint sites, make sure the site title does not include non-English characters.
