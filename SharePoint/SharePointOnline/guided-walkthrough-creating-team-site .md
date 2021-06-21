@@ -30,7 +30,7 @@ First, if you haven't already created a Team site, check out [Create a team site
 
 If you need to learn how to edit and publish the page on your site, check out the section [Manage sections and web parts](#manage-sections-and-web-parts) in this article.
 
-Once you have created your site and know how to edit pages, you can use the guidance below to add the elements shown.
+Once you've created your site and know how to edit pages, you can use the guidance below to add the elements shown.
 
 ## Example Team site
 
@@ -38,7 +38,7 @@ Once you have created your site and know how to edit pages, you can use the guid
 
 1. **Team highlights and news** Get visual while sharing information. [Learn how](#team-highlights-and-news)
 2. **Quick launch** Add links to more content around the site. [Learn how](#quick-launch)
-3. **Inform the team** Offer links, events and content related to team work. [Learn how](#inform-the-team)
+3. **Inform the team** Offer links, events, and content related to team work. [Learn how](#inform-the-team)
 
 ![Image of the News web part](media/gw-team/gw-team-1-4.png)
 
