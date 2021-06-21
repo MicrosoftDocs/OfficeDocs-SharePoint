@@ -57,5 +57,6 @@ This article is a resource where you can find prerequisites and endpoint informa
 |https://<spam><spam>*.login.microsoftonline.<spam><spam>com|Sign into the MMA agent for SPO access|
 |https://<spam><spam>*.msauth.<spam><spam>net|Sign into the MMA agent for SPO access|
 |https://<spam><spam>spmt.<spam><spam>sharepointonline.<spam><spam>com|SPMT Installation link.
-|https://<spam><spam>api.mover.<spam><spam>io|Mover 
+|https://<spam><spam>api.mover.<spam><spam>io|Scan feature for Migration Manager requirement.|
+|https://<spam><spam>production.odyssey.ops.mover.<spam><spam>io|Scan feature for Migration Manager requirement.|
 
