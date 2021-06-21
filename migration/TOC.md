@@ -6,6 +6,7 @@
 ### [Step 3: Monitor and report](mm-reports.md)
 ### Reference
 #### [What's new](mm-whats-new.md)
+#### [Prerequisites and endpoints](mm-prerequisites.md)
 #### [Migration solutions posters](migration-solution-posters.md)
 #### [Settings](mm-settings.md)
 #### [Create an Agent group](mm-agent-targeting.md)

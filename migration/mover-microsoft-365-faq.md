@@ -169,3 +169,17 @@ Many sites claim that SharePoint has a 5,000-item limit. This is not true. The S
 SharePoint sites do have file size and number limits, which are covered in detail here: [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
 
 Some list view options may prevent search list views with more than 5,000 items from appearing.
+
+## How are permissions handled?
+
+Permissions are handled in different ways depending on the source/destination connectors used.
+ 
+- When migrating data from a Single User Connector, permissions will not be applied to any migrated data.
+- When migrating from a non-Microsoft Administrative connector (such as G Suite or Dropbox), apply permissions at the folder level with the child folders inheriting those permissions. 
+- When migrating from one Office 365 tenant to another Office 365 tenant using Office 365 (OneDrive/SharePoint Admin), apply permissions at the file level.
+ 
+## How many user Transfer Rows can I run at once?
+ 
+- Only twelve user Transfer Rows that can run concurrently.
+- If you select more than twelve rows and start migrating, only twelve rows chosen at random will run while the rest will be in the "Queued Transfer Rows".
+- As a transfer row completes, another from the queue will start migrating automatically.
