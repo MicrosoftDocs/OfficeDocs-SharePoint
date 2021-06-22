@@ -30,7 +30,7 @@ description: "Learn how to plan and create the top landing page for your organiz
 A home site is a SharePoint [communication site](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) that you create and set as the top landing page for all users in your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. Follow the instructions below to transform your communication site into a home site using SharePoint PowerShell.
 <br>
 
-Before you begin, make sure you have reviewed how to [plan, build, and manage a home site.](/home-site-plan) 
+Before you begin, make sure you have reviewed how to [plan, build, and manage a home site.](home-site-plan.md) 
 
 > [!NOTE]
 > You can set only one site in your organization as a home site. The site can be registered as a hub site, but can't be associated with a hub. The first time you set up a home site, it might take up to several minutes for the changes to take effect. If you run the command again to switch your home site to a different site, it might take up to 2 hours.
