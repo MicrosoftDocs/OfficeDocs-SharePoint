@@ -58,11 +58,11 @@ Once you have your created your site and know how to edit pages, you can use the
 
 **8. Showcase images** Add more images with text and links to make your page look great and engage users. [Learn how](#engage-users-with-a-second-hero-web-part)
 
-![Image of the Events web part](media/gw-leadership/long-9.png)
+![Image of the Events web part on a site](media/gw-leadership/long-9.png)
 
 **9. Keep everyone up-to-date** Show a calendar of the latest events. [Learn how](#keep-everyone-up-to-date-with-the-events-web-part)
 
-![Image of the Call to action web part](media/gw-leadership/long-10.png)
+![Image of the Call to action web part on a site](media/gw-leadership/long-10.png)
 
 **10. Create a call to action** Create a call to action for sign-ups, surveys, or other important actions. [Learn how](#add-a-call-to-action-web-part)
 
