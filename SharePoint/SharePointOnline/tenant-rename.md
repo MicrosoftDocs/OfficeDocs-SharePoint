@@ -35,9 +35,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 
 > [!IMPORTANT]
 > - This feature is only available for customers that have been accepted into the Private Preview program. If you would like to do so, you can [nominate yourself into the Private Preview](https://aka.ms/SPOTenantRenameNomination). Note that the nomination does not necessarily mean that you will be accepted. We review these on a case-by-case basis and will only be in contact if you are accepted.
-
-> [!IMPORTANT]
-> This feature is available isn't available for organizations that have set up Multi-geo.
+> - This feature is not available for organizations that have set up a multi-geo.
   
 > [!NOTE]
 > This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses. For info about changing a site address, for example, from `https://contoso.sharepoint.com/sites/sample1` to  `https://contoso.sharepoint.com/sites/sample2`, see [Change a site address](change-site-address.md).  
