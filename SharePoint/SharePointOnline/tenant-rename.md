@@ -34,7 +34,7 @@ description: "Learn how to change your SharePoint domain name using PowerShell"
 It's now possible to change the SharePoint domain name for your organization in Microsoft 365. For example, if the name of your organization changes from "Contoso" to "Fabrikam," you can change `contoso.sharepoint.com` to `fabrikam.sharepoint.com`.
 
 > [!IMPORTANT]
-> This feature is only available for customers that have been accepted into the Private Preview program. If you would like to nominate yourself into the Private Preview you can do so at https://aka.ms/SPOTenantRenameNomination. Please note that the nomination does not necessarily mean that you will be accepted. We are reviewing these on a case-by-case basis and will only be in contact if you are accepted.
+> - This feature is only available for customers that have been accepted into the Private Preview program. If you would like to do so, you can [nominate yourself into the Private Preview](https://aka.ms/SPOTenantRenameNomination). Note that the nomination does not necessarily mean that you will be accepted. We review these on a case-by-case basis and will only be in contact if you are accepted.
 
 > [!IMPORTANT]
 > This feature is available isn't available for organizations that have set up Multi-geo.
