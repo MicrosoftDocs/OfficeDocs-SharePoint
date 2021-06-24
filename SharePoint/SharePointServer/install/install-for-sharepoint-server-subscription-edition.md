@@ -1,8 +1,8 @@
 ---
-title: "Install for SharePoint Server Subscription Edition"
+title: "Install for SharePoint Server Subscription edition"
 ms.reviewer: 
-ms.author: nimishasatapathy
-author: nimisha
+ms.author: v-nsatapathy
+author: nimishasatapathy
 manager: serdars
 ms.date: 6/24/2021
 audience: ITPro

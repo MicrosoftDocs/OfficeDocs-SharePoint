@@ -1,8 +1,8 @@
 ---
 title: "Hardware and software requirements for SharePoint Subscription edition"
 ms.reviewer: 
-ms.author: nimisha
-author: nimisha.satapathy
+ms.author: v-nsatapathy
+author: nimishasatapathy
 manager: serdars
 ms.date: 6/22/2021
 audience: ITPro

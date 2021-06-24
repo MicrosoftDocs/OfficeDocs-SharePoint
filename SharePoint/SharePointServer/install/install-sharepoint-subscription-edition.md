@@ -1,8 +1,8 @@
 ---
 title: "Install SharePoint Subscription edition"
 ms.reviewer: 
-ms.author: nimisha
-author: nimisha.satapathy
+ms.author: v-nsatapathy
+author: nimishasatapathy
 manager: serdars
 ms.date: 06/23/2021
 audience: ITPro
@@ -21,7 +21,7 @@ ms.assetid: 356d3a0b-fc26-455c-9afb-6d2ffdceef84
 description: "Learn how to install SharePoint Server on a single server."
 ---
     
-## Overview
+# Overview
 <a name="section1"> </a>
 
 SharePoint Server v.Next installation is similar to SharePoint Server 2019. The steps are:
@@ -45,7 +45,7 @@ For more information, see [Install SharePoint Server 2019](install-for-sharepoin
 
 1. Mount the ISO file to your test server by using the Mount-DiskImage cmdlet, or by specifying it as a virtual drive in your virtual machine manager.
 
-For example: Mount-DiskImage -ImagePath "C:\SharePoint Files\16.0.14131.10000_OfficeServer_none_ship_x64_en-us.iso"
+For example: Mount-DiskImage -ImagePath "C:\SharePoint Files\16.0.14131.10000_OfficeServer_none_ship_x64_.iso"
 
 2. Run the SharePoint prerequisite installer "prerequisiteinstaller.exe" on your test server.
 3. Copy the "\Files\SetupSilent\config.xml" file from your mounted ISO disk image to a writable location.

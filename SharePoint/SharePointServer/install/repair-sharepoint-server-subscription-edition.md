@@ -1,8 +1,8 @@
 ---
 title: "Repair SharePoint Server Subscription edition"
 ms.reviewer: 
-ms.author: nimishasatapathy
-author: nimisha
+ms.author: v-nsatapathy
+author: nimishasatapathy
 manager: serdars
 ms.date: 7/24/2018
 audience: ITPro
@@ -20,7 +20,7 @@ ms.assetid: 47db8aed-7e2b-4ccb-b248-d71df3bffa99
 description: "Learn how to install SharePoint Server in various topologies."
 ---
 
-# Repair on Windows Server with Desktop Experience
+## Repair on Windows Server with Desktop Experience
 
 1. Click **Start**.
 2. Click **Settings**.
@@ -39,7 +39,7 @@ description: "Learn how to install SharePoint Server in various topologies."
 15. In the Completing the SharePoint Products Configuration Wizard page, click **Next** to begin the repair operation.
 16. After the repair operation has finished, click **Finish**.
 
-# Repair on Windows Server Core
+## Repair on Windows Server Core
 
 1. Run SharePoint setup (setup.exe) from your "\Program Files\Common Files\Microsoft Shared\SERVER16\Server Setup Controller" directory with the following parameters:
 - /config <config file> (Where <config file> is the path to your writable config.xml file)
