@@ -24,9 +24,9 @@ description: "Learn how to install SharePoint Subscription edition in various to
 
 [!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
   
-Testing and implementing SharePoint Server 2019 solutions at different stages of the deployment life cycle requires deployments in various topologies.
+Testing and implementing SharePoint Server Subscription edition solutions at different stages of the deployment life cycle requires deployments in various topologies.
   
-The following articles provide information about how to deploy SharePoint Server 2019 on one or more servers to create different topologies that you can use for testing and implementing SharePoint Server 2019 solutions at different stages of the deployment life cycle.
+The following articles provide information about how to deploy SharePoint Server Subscription edition on one or more servers to create different topologies that you can use for testing and implementing SharePoint Server Subscription edition solutions at different stages of the deployment life cycle.
 
   
 |**Content**|**Description**|
