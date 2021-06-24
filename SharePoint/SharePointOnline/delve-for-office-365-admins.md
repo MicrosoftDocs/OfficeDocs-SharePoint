@@ -57,7 +57,7 @@ For more info on disabling Delve, see [What is the effect of enabling or disab
  
 2. At the bottom of the page, select **classic settings page**.
     
-3.  Under **Delve**, select one of the following:  
+3.  Under **Delve**, select one of the following:
     
     - **Enable Delve**
     
@@ -136,7 +136,7 @@ There are a few things you should check if one or more users in your organizatio
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
     
     > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.
     
 2. In the left pane, select **Billing** \> **Products &amp; services**.
     
@@ -158,7 +158,7 @@ There are a few things you should check if one or more users in your organizatio
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
     
     > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.
     
 2. Select **Users** \> **Active users**.
     
@@ -207,7 +207,7 @@ The user pictures in Delve are from the SharePoint user profiles. If there's no 
 
  Users can turn off documents in Delve, which means that they won't see any documents in Delve, and their **activities** and **relationships** won't be included in the Microsoft  Graph.
   
-However, if other users still have  *access*  to documents from a user who has turned off documents, they can still see those documents other places in Delve, just as they can search for them in SharePoint.
+However, if other users still have *access* to documents from a user who has turned off documents, they can still see those documents other places in Delve, just as they can search for them in SharePoint.
   
 Other info that's available to everyone in the organization will also be visible even if a user has turned off **Documents**, such as info from the Azure Active Directory.
   
@@ -264,7 +264,7 @@ Changing the Delve setting in the SharePoint admin center will enable or disable
 If you choose to disable Delve for your organization, Delve will be removed from the app launcher for all users. When users visit a person's page, for example by clicking on a person in OneDrive, that person's page will contain only user profile information. No documents will be shown. Users can still search for other people, but not for documents or boards.
 
 > [!NOTE]
-> Disabling Delve does no longer disable *Microsoft Graph* or insights services generated on top of it. This level of control is now available from the item insights privacy settings. For more info about the  item insights settings, see [Customizing item insights privacy in Microsoft Graph](https://docs.microsoft.com/en-us/graph/insights-customize-item-insights-privacy). For more info about Microsoft Graph, see [Overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview).
+> Disabling Delve does no longer disable *Microsoft Graph* or insights services generated on top of it. This level of control is now available from the item insights privacy settings. For more info about the item insights settings, see [Customizing item insights privacy in Microsoft Graph](https://docs.microsoft.com/en-us/graph/insights-customize-item-insights-privacy). For more info about Microsoft Graph, see [Overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview).
 
 ## Additional resources
 <a name="BKMK_DelveAdditionalResources"> </a>
