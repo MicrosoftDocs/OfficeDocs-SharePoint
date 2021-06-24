@@ -1,5 +1,5 @@
 ---
-title: "System requirements for SharePoint Subscription Edition"
+title: "System requirements for SharePoint Subscription edition"
 ms.reviewer: 
 ms.author: nimisha
 author: nimishasatapathy

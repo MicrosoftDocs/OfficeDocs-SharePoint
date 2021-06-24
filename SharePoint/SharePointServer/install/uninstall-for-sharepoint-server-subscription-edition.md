@@ -1,5 +1,5 @@
 ---
-title: "Uninstall SharePoint Server Subscription Edition"
+title: "Uninstall SharePoint Server Subscription edition"
 ms.reviewer: 
 ms.author: nimishasatapathy
 author: nimisha
@@ -37,5 +37,5 @@ description: "Learn how to install SharePoint Server in various topologies."
 
 1. Run SharePoint setup (setup.exe) from your "\Program Files\Common Files\Microsoft Shared\SERVER16\Server Setup Controller" directory with the following parameters:
 - */config <config file> (Where <config file> is the path to your writable config.xml file)
-- /uninstall OSERVE
+- /uninstall OSERVER
 - For example: "$env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\setup.exe" /config "C:\SharePoint Files\config.xml" /uninstall OSERVER*

@@ -1,5 +1,5 @@
 ---
-title: "Repair SharePoint Server Subscription Edition"
+title: "Repair SharePoint Server Subscription edition"
 ms.reviewer: 
 ms.author: nimishasatapathy
 author: nimisha
