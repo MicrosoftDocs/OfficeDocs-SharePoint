@@ -146,10 +146,14 @@ It's now possible to change the SharePoint domain name for your organization in 
 3. Run the following command to specify the new domain name:
   
     ```PowerShell
-    Start-SPOTenantRename -DomainName <DomainName> -ScheduledDateTime <YYYY-MM-DDTHH:MM:SSZ> [-WhatIf] [-Confirm] 
+    Start-SPOTenantRename -DomainName <DomainName> -ScheduledDateTime <YYYY-MM-DDTHH:MM:SS> [-WhatIf] [-Confirm] 
     ```
 
-    Where "ScheduleDateTime" is at least 24 hours in the future, but not more than 30 days.
+    Where "DomainName" is the part before "sharepoint.com" or "onmicrosoft.com" and "ScheduledDateTime" is at least 24 hours in the future, but not more than 30 days. 
+
+Example: 
+
+> `Start-SPOTenantRename -DomainName <fabrikam> -ScheduledDateTime <2021-12-31T10:25:00>`
 
 You can get the status of the rename by running `Get-SPOTenantRenameStatus`.
 
