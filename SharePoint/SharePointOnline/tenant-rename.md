@@ -153,7 +153,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 
 Example: 
 
-> `Start-SPOTenantRename -DomainName <fabrikam> -ScheduledDateTime <2021-12-31T10:25:00>`
+> `Start-SPOTenantRename -DomainName "fabrikam" -ScheduledDateTime "2021-12-31T10:25:00"`
 
 You can get the status of the rename by running `Get-SPOTenantRenameStatus`.
 
