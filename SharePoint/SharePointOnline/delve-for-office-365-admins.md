@@ -25,60 +25,46 @@ description: "The more you and your colleagues use Microsoft 365 to work togethe
 
 The more you and your colleagues use Microsoft 365 to work together, by viewing, editing, and sharing each other's documents, the more useful Delve will be for all of you. Learn more about how you as an admin can help users get the most out of Delve.
   
-Delve is powered by the Office Graph and shows users the most relevant content based on who they work with and what they're working on. The information in Delve is tailored to each user. Delve doesn't change permissions and users will only see what they already have access to.
+Delve is powered by the Microsoft Graph and shows users the most relevant content based on who they work with and what they're working on. The information in Delve is tailored to each user. Delve doesn't change permissions and users will only see what they already have access to.
   
-As an admin, you can make sure that you allow your organization to access Delve, and that you have set up other Office 365 services that Delve uses, such as SharePoint and OneDrive. You can also help people get started with Delve, and address questions that users might have.
+As an admin, you can make sure that you allow your organization to access Delve, and that you have set up other Microsoft 365 services that Delve uses, such as SharePoint and OneDrive. You can also help people get started with Delve, and address questions that users might have.
   
 ## What you need to get Delve
 <a name="BKMK_PrereqsDelve"> </a>
 
 Delve is available for Office 365 Enterprise (E1, E3, and E5), Office 365 Education (E1, E3, and E5), Office 365 Government (E1, E3, and E5), Microsoft 365 Business Basic, and Microsoft 365 Business Standard.
   
-Regardless of which Microsoft 365 or Office 365 subscriptions you have, you need to activate the SharePoint service and assign users a SharePoint license before they can start using Delve. You also have to set up Exchange Online if you want attachments to show up on users' Home pages in Delve. If you set up Skype for Business Online, users can start Skype for Business Online conversations directly from Delve. And if you set up Yammer Enterprise, users can engage in Yammer conversations about documents directly from Delve.
-  
-Delve is designed to work with the current or immediately previous version of Internet Explorer or Firefox, or the latest version of Chrome, or Safari.
+Regardless of which Microsoft 365 or Office 365 subscriptions you have, you need to activate the SharePoint service and assign users a SharePoint license before they can start using Delve. You also have to set up Exchange Online if you want attachments to show up on users' Home pages in Delve. If you set up Microsoft Teams, users can start Microsoft Teams conversations directly from Delve.
 
 > [!IMPORTANT]
 > Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting November 30, 2020). [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed. 
 
 The Delve app is also enabled for modern authentication. For more info, see [How modern authentication works](/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016).
   
-## Get new Delve features quicker
-<a name="BKMK_DelveFirstRelease"> </a>
-
-If you want to receive new functionality in Delve before it's made available in standard releases, you can opt in to the  *Targeted release*  program. You'll receive new feature updates a minimum of two weeks before customers in the *Standard release* program. To learn more, see [Office 365 release options](/office365/admin/manage/release-options-in-office-365). 
-   
-   > [!TIP]
-   > It takes some time to build personalized Delve views for users in your organization. If you opt in to the targeted release program just before the start of a weekend, it's more likely that people have a good Delve experience at the start of the next work week. 
-  
-What users see in Delve is influenced by which release program you've chosen for your organization. For an overview of the main differences, see [My Delve looks different from what you describe](https://support.office.com/article/8fe977a0-cc37-4845-a75d-96994dffca5d). 
-  
-## Control access to Delve and related features
+## Control access to Delve
 <a name="BKMK_DelveOnOff"> </a>
 
-You control access to Delve from the SharePoint admin center. By default, users in your organization have access to Delve. They also have access to certain features in other apps that are powered by the Office Graph, such as the "Suggested" list on the SharePoint start page. When you enable or disable Delve, these other features are also affected. 
+You control access to Delve from the SharePoint admin center. By default, users in your organization have access to Delve. Users can limit their Delve experience to only show profile information by turning off **Show documents in Delve** under **Settings** > **Feature settings** in Delve. You can also remove documents from Delve through the item insights privacy settings.
 
-If you disable Delve, users will no longer see:
-- The Delve app tile in the app launcher.
-- Suggested sites on the SharePoint start page.
-- The Recommended feed in the Outlook mobile app.
-- Recommended documents on the Microsoft Office Home page.
-- Documents on other users' profile cards and pages.
+For more info on item insights privacy settings, see [Customizing item insights privacy in Microsoft Graph (preview)](https://docs.microsoft.com/en-us/graph/insights-customize-item-insights-privacy)
 
- For more info, see [What is the effect of enabling or disabling Delve and related features?](delve-for-office-365-admins.md#BKMK_EffectOfficegraphOnOff). 
+For more info on disabling Delve, see [What is the effect of enabling or disabling Delve](https://docs.microsoft.com/en-us/sharepoint/delve-for-office-365-admins%22%20/l%20%22BKMK_EffectOfficegraphOnOff).
   
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](https://docs.microsoft.com/en-us/sharepoint/sharepoint-admin-role) for your organization.
 
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center, and open the **Settings** page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center, and open the **Settings** page.
+    >[!NOTE]
+    >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center,        and open the **Settings** page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?          linkid=850627), then browse to the SharePoint admin center, and open the **Settings** page.
  
 2. At the bottom of the page, select **classic settings page**.
     
 3.  Under **Delve**, select one of the following:  
     
-  - **Enable Delve**
+    - **Enable Delve**
     
-  - **Disable Delve**
+    - **Disable Delve**
+  
+    >[!NOTE]
+    >Previously, when turning Delve on and off in the SharePoint admin center, it also had an impact on a few other insights- driven experiences in Microsoft 365. Starting July      1, 2021, the Delve setting will be decoupled from the back-end and will only impact Delve. Use the item insights privacy settings to control item insights in Microsoft 365.
     
 ## Introducing Delve in your organization
 <a name="BKMK_DelveIntroduce"> </a>
@@ -87,7 +73,7 @@ Here are some resources that you can use to get your organization started with D
   
  **Before you announce Delve**
   
-- SharePoint and OneDrive are the primary sources of content in Delve. How you and users manage permissions on documents and sites affects what users see in Delve. for more info, see [Overview: best practices for managing how people use your team site](https://support.office.com/article/95e83c3d-e1b0-4aae-9d08-e94dcaa4942e) and [Plan your permissions strategy](/sharepoint/plan-your-permissions-strategy).
+- SharePoint and OneDrive are the primary sources of content in Delve. How you and users manage permissions on documents and sites affects what users see in Delve. For more info, see [Overview: best practices for managing how people use your team site](https://support.office.com/article/95e83c3d-e1b0-4aae-9d08-e94dcaa4942e) and [Plan your permissions strategy](/sharepoint/plan-your-permissions-strategy).
     
  **Using Delve on a day-to-day basis**
   
@@ -102,19 +88,19 @@ Here are some resources that you can use to get your organization started with D
 
 To help troubleshoot issues with Delve, see the following info. 
   
-- [ Users don't see Delve in the Microsoft 365 app launcher ](delve-for-office-365-admins.md#BKMK_DelveGlobalNav)
+  - [ Users don't see Delve in the Microsoft 365 app launcher ](delve-for-office-365-admins.md#BKMK_DelveGlobalNav)
     
-- [Users see incorrect colleagues in Delve](delve-for-office-365-admins.md#BKMK_DelveIncorrectColleague)
+  - [Users see incorrect colleagues in Delve](delve-for-office-365-admins.md#BKMK_DelveIncorrectColleague)
     
-- [Users don't see user pictures in Delve](delve-for-office-365-admins.md#BKMK_DelvePictures)
+  - [Users don't see user pictures in Delve](delve-for-office-365-admins.md#BKMK_DelvePictures)
     
-- [Users see documents from other users who have turned off Documents in Delve](delve-for-office-365-admins.md#BKMK_DelveOff)
+  - [Users see documents from other users who have turned off Documents in Delve](delve-for-office-365-admins.md#BKMK_DelveOff)
     
-- [Users see little or no content in Delve](delve-for-office-365-admins.md#BKMK_DelveNotMuchContent)
+  - [Users see little or no content in Delve](delve-for-office-365-admins.md#BKMK_DelveNotMuchContent)
     
-- [Users can't find a specific item in Delve](delve-for-office-365-admins.md#BKMK_DelveNoItem)
+  - [Users can't find a specific item in Delve](delve-for-office-365-admins.md#BKMK_DelveNoItem)
     
-- [Users are concerned that private or sensitive documents are available in Delve](delve-for-office-365-admins.md#BKMK_DelveHide)
+  - [Users are concerned that private or sensitive documents are available in Delve](delve-for-office-365-admins.md#BKMK_DelveHide)
     
 ### Users don't see Delve in the Microsoft 365 app launcher
 <a name="BKMK_DelveGlobalNav"> </a>
@@ -134,12 +120,12 @@ There are a few things you should check if one or more users in your organizatio
   
 1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
+    >[!NOTE]
+    >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
  
 2. At the bottom of the page, select **classic settings page**.
 
-3. Under **Delve (powered by Office Graph)**, make sure that you've selected **Enable Delve and related features**. 
+3. Under **Delve**, make sure that you've selected **Enable Delve**. 
     
     > [!NOTE]
     > If you have a SharePoint standalone service (SharePoint Plan 1 or SharePoint Plan 2) you'll see the Delve setting in the SharePoint admin center. However, users won't be able to use Delve or see Delve in the app launcher, because Delve is not available for standalone services yet.
@@ -156,15 +142,15 @@ There are a few things you should check if one or more users in your organizatio
     
 3. Verify that you have one of the following subscriptions:
     
-  - Office 365 Enterprise (E1, E3, or E5)
+    - Office 365 Enterprise (E1, E3, or E5)
     
-  - Office 365 Education
+    - Office 365 Education
     
-  - Office 365 Government (E1, E3 or E5)
+    - Office 365 Government (E1, E3 or E5)
     
-  - Microsoft 365 Business Basic
+    - Microsoft 365 Business Basic
     
-  - Microsoft 365 Business Standard
+    - Microsoft 365 Business Standard
     
  **Check that you've assigned the correct user licenses**
 <a name="#BKMK_CheckLicense"></a>
@@ -180,15 +166,15 @@ There are a few things you should check if one or more users in your organizatio
     
 4. Verify that the user has one of the following combinations of licenses:
     
-  - Office 365 Plan E1 plus SharePoint (Plan 1 or Plan 2)
+   - Office 365 Plan E1 plus SharePoint (Plan 1 or Plan 2)
     
-  - Office 365 Plan E3 plus SharePoint (Plan 1 or Plan 2)
+   - Office 365 Plan E3 plus SharePoint (Plan 1 or Plan 2)
     
-  - Office 365 Plan E5 plus SharePoint (Plan 1 or Plan 2)
+   - Office 365 Plan E5 plus SharePoint (Plan 1 or Plan 2)
     
-  - Microsoft 365 Business Basic plus SharePoint (Plan 1 or Plan 2)
+   - Microsoft 365 Business Basic plus SharePoint (Plan 1 or Plan 2)
     
-  - Microsoft 365 Business Standard plus SharePoint (Plan 1 or Plan 2)
+   - Microsoft 365 Business Standard plus SharePoint (Plan 1 or Plan 2)
     
     For more info about how to manage licenses, see [Assign licenses to users](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
     
@@ -216,12 +202,12 @@ The user pictures in Delve are from the SharePoint user profiles. If there's no 
   
 - Make sure that users upload their user profile picture to SharePoint. For more info, point users to [View and update your profile in Delve](https://support.office.com/article/4e84343b-eedf-45a1-aeb9-8627ccca14ba). 
     
-### Users see documents from other users who have turned off Documents in Delve
+### Users see documents from other users who have turned off documents in Delve
 <a name="BKMK_DelveOff"> </a>
 
- Users can turn off **Documents** in Delve, which means that they won't see any documents in Delve, and their **activities** and **relationships** won't be included in the Office Graph.
+ Users can turn off documents in Delve, which means that they won't see any documents in Delve, and their **activities** and **relationships** won't be included in the Microsoft  Graph.
   
-However, if other users still have  *access*  to documents from a user who has turned off **Documents**, they can still see those documents in Delve, just as they can search for them in SharePoint.
+However, if other users still have  *access*  to documents from a user who has turned off documents, they can still see those documents other places in Delve, just as they can search for them in SharePoint.
   
 Other info that's available to everyone in the organization will also be visible even if a user has turned off **Documents**, such as info from the Azure Active Directory.
   
@@ -232,9 +218,9 @@ Other info that's available to everyone in the organization will also be visible
 ### Users see little or no content in Delve
 <a name="BKMK_DelveNotMuchContent"> </a>
 
-The content in Delve comes from different content sources such as Exchange Online, Microsoft 365 Video, SharePoint, and OneDrive.
+The content in Delve comes from different content sources such as Exchange Online, SharePoint, and OneDrive.
   
-If users don't have any recently modified or viewed content in these content sources, and they don't have access to other users' content, Delve may have little or no content to show. Users also need to have licenses to Microsoft 365 and Office 365 services and access to the Office Graph to see content in Delve.
+If users don't have any recently modified or viewed content in these content sources, and they don't have access to other users' content, Delve may have little or no content to show. Users also need to have licenses to Microsoft 365 and Office 365 services and they need to have the item insights privacy settings enabled.
   
  **Solution(s)**
   
@@ -244,7 +230,7 @@ If users don't have any recently modified or viewed content in these content sou
     
 - Check that the user is in Active Directory and a member of the correct Active Directory groups. To verify, go to **Microsoft 365 admin center** \> **Users** \> **Active Users**.
     
-- Make sure that the user allows Delve to show documents. To verify, have the user go to **App launcher** \> **Delve** \> **Feature settings** and make sure that **Documents in Delve** isn't turned off.
+- Make sure that the user allows Delve to show documents. To verify, have the user go to **App launcher** \> **Delve** \> **Feature settings** and make sure that **Show documents in Delve** isn't turned off.
     
 - Make sure that you've assigned users a license to access to the Microsoft 365 services that you've activated.
     
@@ -256,54 +242,29 @@ Delve doesn't change any permissions and users will only see what they already h
  **Solution(s)**
   
 - Check the steps under [Users see little or no content in Delve](delve-for-office-365-admins.md#BKMK_DelveNotMuchContent).
-    
-- Make sure that the content type is supported. Currently, in Standard Release, Delve shows PDF, Word, Excel and PowerPoint files, and videos that have been uploaded to Microsoft 365 Video.
-    
+   
 - Check when the document was added. It can take up to 24 hours for new documents to show up in Delve.
     
 ### Users are concerned that private or sensitive documents are available in Delve
 <a name="BKMK_DelveHide"> </a>
 
-Any document that a user can view or edit in Microsoft 365, can also appear in Delve. Delve doesn't change any permissions and users will only see documents they already have access to. Sometimes, though, you may want to prevent a document from appearing in Delve.
+Any document that a user can view or edit in Microsoft 365, can also appear in Delve. Delve doesn't change any permissions and users will only see documents they already have access to. However, there are times when you may want to prevent a document from appearing in Delve.
   
  **Solution(s)**
   
 - Check the permission settings for the documents, sites and libraries and make sure that only the intended users have access to the content.
     
 - If you want to prevent specific documents from appearing in Delve, follow the steps in [Hide documents from Delve](manage-search-schema.md#BKMK_HideFromDelveSteps). You can keep storing the documents in Microsoft 365, and people can still find them through search - they just won't show up in Delve.
-    
-## About the Office Graph
-<a name="BKMK_AboutOfficeGraph"> </a>
-
-Delve is powered by the Office Graph. The Office Graph stores data representations about all Microsoft 365 items as nodes in a graph index. The Office Graph data is stored in the customer's partition of the SharePoint and Exchange Online environments, and has the same data protection and security as other customer data stored in the same cloud services. The Office Graph data and metadata are stored in the same data center region as the services the data was collected from. 
   
-The Office Graph uses rich relationships to describe connections between items of different types. In addition, the Office Graph uses advanced analytics and machine learning techniques to create inferred rich relationships - what we call insights.
-  
-To present the most relevant content in different contexts, for example in Delve, the Office Graph uses a two-step analysis. First, it calculates which users in the Office Graph are most relevant to the current context. Second, it retrieves the most relevant content associated with these users. The content is tailored to each user, and users only see what they already have access to.
-  
-For developers, the Office Graph insights and rich relationships are exposed through the Microsoft Graph, a single REST API endpoint ([https://graph.microsoft.com](https://graph.microsoft.com)) that exposes multiple APIs from Microsoft cloud services. For more information, see [Microsoft Graph](https://graph.microsoft.io/).
-  
-### What is the effect of enabling or disabling Delve and related features?
+### What is the effect of enabling or disabling Delve?
 <a name="BKMK_EffectOfficegraphOnOff"> </a>
 
-Delve is powered by the Office Graph. If Delve is enabled, users in your organization will have Delve in the app launcher and they can use all the functionality in Delve. Selecting a person in Delve will open that person's page. The person page contains user profile information such as contact information and org chart details, and also documents relating to the person.
+Changing the Delve setting in the SharePoint admin center will enable or disable the full Delve experience for all users in the tenant. If Delve is enabled, users in your organization will have Delve in the app launcher and they can use all the functionality in Delve. Selecting a person in Delve will open that person's page. The person page contains user profile information such as contact information and org chart details, and also documents relating to the person. 
 
 If you choose to disable Delve for your organization, Delve will be removed from the app launcher for all users. When users visit a person's page, for example by clicking on a person in OneDrive, that person's page will contain only user profile information. No documents will be shown. Users can still search for other people, but not for documents or boards.
 
-If Delve is enabled, users also have access to related features in other apps that are powered by the Office Graph. If you disable Delve, users can no longer see these features:
-
-- Suggested sites on the SharePoint start page.
-- The Recommended feed in the Outlook mobile app.
-- Recommended documents on the Microsoft Office Home page.
-- Documents on other users' profile cards and pages.
-
-If you disable Delve, users will not have access to the following APIs:
-
-- **Trending Insight API** (trending documents for all users).
-- **Used Insight API** (what documents other users have viewed or modified).
-
-**NOTE:** Disabling Delve does not disable **Microsoft Graph**. Office Graph and Microsoft Graph are different concepts despite their similar names. Microsoft Graph is the API endpoint that surfaces all Microsoft 365 data (such as Azure AD, Outlook/Exchange, Excel, OneDrive, SharePoint), while Office Graph is mainly a code name for the collective set of services and insights generated on top of the infrastructure developed by the FAST Office Graph team. For more info about Microsoft Graph, see [Overview of Microsoft Graph](/graph/overview).
-
+> [!NOTE]
+> Disabling Delve does not disable **Microsoft Graph** or insights services generated on top of it. Previously that used to be the case. Now, that level of control is available from the item insights privacy settings. For more info about the  item insights settings, see [Customizing item insights privacy in Microsoft Graph](https://docs.microsoft.com/en-us/graph/insights-customize-item-insights-privacy). For more info about Microsoft Graph, see [Overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview).
 
 ## Additional resources
 <a name="BKMK_DelveAdditionalResources"> </a>
