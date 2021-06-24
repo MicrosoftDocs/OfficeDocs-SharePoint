@@ -15,7 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - SP2019
-ms.assetid: 47db8aed-7e2b-4ccb-b248-d71df3bffa99
+ms.assetid:
 
 description: "Learn how to install SharePoint Subscription edition in various topologies."
 ---
