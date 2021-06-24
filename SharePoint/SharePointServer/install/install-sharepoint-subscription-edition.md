@@ -17,7 +17,7 @@ ms.collection:
 - Strat_SP_server
 - SP2019
 ms.custom: 
-ms.assetid: 356d3a0b-fc26-455c-9afb-6d2ffdceef84
+ms.assetid:
 description: "Learn how to install SharePoint Subscription edition in various topologies."
 ---
     
