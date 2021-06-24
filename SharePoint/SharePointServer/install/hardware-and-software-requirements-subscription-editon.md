@@ -20,7 +20,7 @@ ms.assetid: 4d88c402-24f2-449b-86a6-6e7afcfec0cd
 description: "Find out the minimum hardware and software requirements you need to install and run SharePoint Server."
 ---
 
-# Hardware and software requirements for SharePoint Server 2019
+# Hardware and software requirements for SharePoint Subscription edition
 
 [!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)] 
   

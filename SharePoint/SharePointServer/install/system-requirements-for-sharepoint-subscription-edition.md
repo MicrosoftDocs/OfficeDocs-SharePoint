@@ -44,11 +44,4 @@ The SharePoint prerequisite installer requires an active Internet connection to 
 
 A supported browser.For more information, see "System requirements for Microsoft 356 and office: Browsers".
 
-  
-||**Content**|**Description**|
-|:-----|:-----|:-----|
-|![Building blocks](../media/mod_icon_buildingblock_M.png)           <br/> |[Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md) <br/> |Describes the hardware and software requirements that you must meet to successfully install SharePoint Server 2016.  <br/> |
-|![Building blocks](../media/mod_icon_buildingblock_M.png)           <br/> |[Hardware and software requirements for SharePoint Server 2019](hardware-and-software-requirements-2019.md) <br/> |Describes the hardware and software requirements that you must meet to successfully install SharePoint Server 2019.  <br/> |
-|![Checklist icon (not checked)](../media/mod_icon_checklist_.png)           <br/> |[Plan browser support in SharePoint Servers 2016 and 2019](browser-support-planning-0.md) <br/> |Describes levels of support for web browsers to use with SharePoint Servers 2016 and 2019.  <br/> |
-   
 

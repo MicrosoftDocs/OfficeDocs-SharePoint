@@ -20,7 +20,7 @@ ms.assetid: 47db8aed-7e2b-4ccb-b248-d71df3bffa99
 description: "Learn how to install SharePoint Server in various topologies."
 ---
 
-# Install SharePoint Server Subscription Edition
+# Install SharePoint Server Subscription edition
 
 [!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
   
