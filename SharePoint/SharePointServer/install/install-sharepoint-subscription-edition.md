@@ -18,7 +18,7 @@ ms.collection:
 - SP2019
 ms.custom: 
 ms.assetid: 356d3a0b-fc26-455c-9afb-6d2ffdceef84
-description: "Learn how to install SharePoint Server on a single server."
+description: "Learn how to install SharePoint Subscription edition in various topologies."
 ---
     
 # Overview
@@ -28,7 +28,7 @@ SharePoint Server v.Next installation is similar to SharePoint Server 2019. The 
 
 1. Install [Windows Server 2019](https://www.microsoft.com/en-in/evalcenter/evaluate-windows-server-2019) on your test server.
 2. Install [SQL Server 2019](https://www.microsoft.com/en-in/evalcenter/evaluate-sql-server-2019) on your test server or an additional test server.
-3. Download the installation package from the [SharePoint v.Next TAP Engagement Portal](https://partner.microsoft.com/en-us/dashboard/directory). There will be two packages – one package for the server install, and one package that will have documentation and other small supporting files that may be needed as described below.
+3. Download the installation package from the [SharePoint v.Next TAP Engagement Portal](https://partner.microsoft.com/dashboard/directory). There will be two packages – one package for the server install, and one package that will have documentation and other small supporting files that may be needed as described below.
 4. Choose the next steps based on whether you’re installing on Windows Server with Desktop Experience or Windows Server Core.
 
 For more information, see [Install SharePoint Server 2019](install-for-sharepoint-server-2019.md)

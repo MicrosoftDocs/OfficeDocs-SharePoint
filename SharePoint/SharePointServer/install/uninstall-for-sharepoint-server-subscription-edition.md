@@ -17,10 +17,15 @@ ms.collection:
 - SP2019
 ms.assetid: 47db8aed-7e2b-4ccb-b248-d71df3bffa99
 
-description: "Learn how to install SharePoint Server in various topologies."
+description: "Learn how to uninstall SharePoint Subscription edition in various topologies."
 ---
 
-## Uninstall on Windows Server with Desktop Experience
+# Overview
+<a name="section1"> </a>
+
+SharePoint Server v.Next uninstallation steps are as follows:
+
+## Uninstallation on Windows Server with Desktop Experience
 
 1. Click **Start**.
 2. Click **Settings**.
@@ -33,7 +38,7 @@ description: "Learn how to install SharePoint Server in various topologies."
 9. When prompted with a warning asking if you want to uninstall now, click **OK**.
 10. After setup finishes uninstalling SharePoint, click **Close** to exit.
 
-## Uninstall on Windows Server Core
+## Uninstallation on Windows Server Core
 
 1. Run SharePoint setup (setup.exe) from your "\Program Files\Common Files\Microsoft Shared\SERVER16\Server Setup Controller" directory with the following parameters:
 - */config <config file> (Where <config file> is the path to your writable config.xml file)

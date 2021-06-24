@@ -17,7 +17,7 @@ ms.collection:
 - SP2019
 ms.assetid: 47db8aed-7e2b-4ccb-b248-d71df3bffa99
 
-description: "Learn how to install SharePoint Server in various topologies."
+description: "Learn how to install SharePoint Subscription edition in various topologies."
 ---
 
 # Install SharePoint Server Subscription edition
@@ -27,4 +27,14 @@ description: "Learn how to install SharePoint Server in various topologies."
 Testing and implementing SharePoint Server 2019 solutions at different stages of the deployment life cycle requires deployments in various topologies.
   
 The following articles provide information about how to deploy SharePoint Server 2019 on one or more servers to create different topologies that you can use for testing and implementing SharePoint Server 2019 solutions at different stages of the deployment life cycle.
+
+  
+|**Content**|**Description**|
+|:-----|:-----|
+|[Install SharePoint Subscription edition](install-sharepoint-subscription-edition.md) <br/> |Learn how to install SharePoint Subscription edition in various topologies.  <br/> |
+|[System requirements for SharePoint Subscription edition](system-requirements-for-sharepoint-subscription-edition.md) <br/> |Learn system requirements of SharePoint Subscription edition in various topologies.  <br/>|
+|[Hardware and software requirements for SharePoint Subscription edition](hardware-and-software-requirements-subscription-editon.md) <br/> |Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Subscription edition.  <br/> |
+|[Install SharePoint Subscription edition](install-sharepoint-subscription-edition.md) <br/> |Learn how to install SharePoint Subscription edition in various topologies.  <br/> |
+|[Uninstall SharePoint Server Subscription edition](uninstall-for-sharepoint-server-subscription-edition.md) <br/> |Learn how to uninstall SharePoint Subscription edition in various topologies.  <br/> |
+|[Repair SharePoint Server Subscription edition](repair-sharepoint-server-subscription-edition.md) <br/> |Learn how to repair SharePoint Subscription edition in various topologies. <br/> |
   

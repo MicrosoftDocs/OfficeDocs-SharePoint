@@ -17,10 +17,14 @@ ms.collection:
 - SP2019
 ms.assetid: 47db8aed-7e2b-4ccb-b248-d71df3bffa99
 
-description: "Learn how to install SharePoint Server in various topologies."
+description: "Learn how to uninstall SharePoint Subscription edition in various topologies."
 ---
+# Overview
+<a name="section1"> </a>
 
-## Repair on Windows Server with Desktop Experience
+SharePoint Server v.Next reparation steps are as follows:
+
+## Reparation on Windows Server with Desktop Experience
 
 1. Click **Start**.
 2. Click **Settings**.
@@ -39,7 +43,7 @@ description: "Learn how to install SharePoint Server in various topologies."
 15. In the Completing the SharePoint Products Configuration Wizard page, click **Next** to begin the repair operation.
 16. After the repair operation has finished, click **Finish**.
 
-## Repair on Windows Server Core
+## Reparation on Windows Server Core
 
 1. Run SharePoint setup (setup.exe) from your "\Program Files\Common Files\Microsoft Shared\SERVER16\Server Setup Controller" directory with the following parameters:
 - /config <config file> (Where <config file> is the path to your writable config.xml file)

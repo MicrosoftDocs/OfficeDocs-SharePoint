@@ -17,7 +17,7 @@ ms.collection:
 - SP2019
 ms.custom: 
 ms.assetid: 4d88c402-24f2-449b-86a6-6e7afcfec0cd
-description: "Find out the minimum hardware and software requirements you need to install and run SharePoint Server."
+description: "Find out the minimum hardware and software requirements you need to install and run on SharePoint Subscription edition."
 ---
 
 # Hardware and software requirements for SharePoint Subscription edition
@@ -50,7 +50,7 @@ SharePoint Server v.Next supports the same farm topologies as SharePoint Server 
 
 ## Minimum requirements for client computers
 
-A supported browser. For more information, see "System requirements for Microsoft 365 and office:Browsers".
+A supported browser. For more information, see [System requirements for Microsoft 365 and office:Browsers](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources?rtc=1#coreui-heading-uyetipy).
     
   
 ## Software requirements
