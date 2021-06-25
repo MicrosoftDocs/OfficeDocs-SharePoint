@@ -165,7 +165,7 @@ Example:
 
 You can get the status of the rename by running `Get-SPOTenantRenameStatus`.
 
-During and after the rename, you can get the state of a site by running `Get-SPOSiteRenameState`. For more info about this cmdlet, see [Get-SPOSiteRenameState](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spositerenamestate).
+During and after the rename, you can get the state of a site by running `Get-SPOSiteRenameState`. For more info about this cmdlet, see [Get-SPOSiteRenameState](/powershell/module/sharepoint-online/get-spositerenamestate).
 
 ## Step 3: Review features and settings after the rename
 
