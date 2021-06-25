@@ -53,7 +53,8 @@ For more info on disabling Delve, see [What is the effect of enabling or disab
 1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
     > [!NOTE]
-    > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the **Settings** page. If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **Settings** page.
+    > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the **Settings** page. <br>
+    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **Settings** page.
  
 2. At the bottom of the page, select **classic settings page**.
     
@@ -121,7 +122,7 @@ There are a few things you should check if one or more users in your organizatio
 1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
     > [!NOTE]
-    >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
+    > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
  
 2. At the bottom of the page, select **classic settings page**.
 
@@ -205,9 +206,9 @@ The user pictures in Delve are from the SharePoint user profiles. If there's no 
 ### Users see documents from other users who have turned off documents in Delve
 <a name="BKMK_DelveOff"> </a>
 
- Users can turn off documents in Delve, which means that they won't see any documents in Delve, and their **activities** and **relationships** won't be included in the Microsoft  Graph.
+ Users can turn off documents in Delve, which means that they won't see any documents in Delve, and their **activities** and **relationships** won't be included in the Microsoft Graph.
   
-However, if other users still have *access* to documents from a user who has turned off documents, they can still see those documents other places in Delve, just as they can search for them in SharePoint.
+However, if other users still have *access* to documents from a user who has turned off documents, they can still see those documents in Delve, just as they can search for them in SharePoint.
   
 Other info that's available to everyone in the organization will also be visible even if a user has turned off **Documents**, such as info from the Azure Active Directory.
   
