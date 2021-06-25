@@ -264,7 +264,7 @@ Changing the Delve setting in the SharePoint admin center will enable or disable
 If you choose to disable Delve for your organization, Delve will be removed from the app launcher for all users. When users visit a person's page, for example by clicking on a person in OneDrive, that person's page will contain only user profile information. No documents will be shown. Users can still search for other people, but not for documents or boards.
 
 > [!NOTE]
-> Disabling Delve does no longer disable *Microsoft Graph* or insights services generated on top of it. This level of control is now available from the item insights privacy settings. For more info about the item insights settings, see [Customizing item insights privacy in Microsoft Graph](https://docs.microsoft.com/en-us/graph/insights-customize-item-insights-privacy). For more info about Microsoft Graph, see [Overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview).
+> Disabling Delve does no longer disable *Microsoft Graph* or insights services generated on top of it. This level of control is now available from the item insights privacy settings. For more info about the item insights settings, see [Customizing item insights privacy in Microsoft Graph](/graph/insights-customize-item-insights-privacy). For more info about Microsoft Graph, see [Overview of Microsoft Graph](/graph/overview).
 
 ## Additional resources
 <a name="BKMK_DelveAdditionalResources"> </a>
