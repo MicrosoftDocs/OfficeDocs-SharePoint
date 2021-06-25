@@ -206,7 +206,7 @@ The user pictures in Delve are from the SharePoint user profiles. If there's no 
 ### Users see documents from other users who have turned off documents in Delve
 <a name="BKMK_DelveOff"> </a>
 
- Users can turn off documents in Delve, which means that they won't see any documents in Delve, and their **activities** and **relationships** won't be included in the Microsoft Graph.
+ Users can turn off documents in Delve, which means that they won't see any documents in Delve, and their **activities** and **relationships** won't be included in Microsoft Graph.
   
 However, if other users still have *access* to documents from a user who has turned off documents, they can still see those documents in Delve, just as they can search for them in SharePoint.
   
