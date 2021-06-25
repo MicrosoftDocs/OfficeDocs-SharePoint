@@ -39,36 +39,36 @@ If the user was deleted within 30 days, you can restore the user and all their d
 
 2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
-3. Determine if the OneDrive is available for restore
+3. Determine if the OneDrive is available for restore.
 
-  - If you know the URL of the OneDrive, run the following command:
+   - If you know the URL of the OneDrive, run the following command:
 
-  ```PowerShell
-  Get-SPODeletedSite -Identity <URL>
-  ```
+     ```PowerShell
+     Get-SPODeletedSite -Identity <URL>
+     ```
 
-  A user's OneDrive URL is based on their username. For example, 
-  `https://contoso-my.sharepoint.com/personal/user1_contoso_com`. You can find their username on the Active users (or Deleted users) page in the Microsoft 365 admin center. 
+     A user's OneDrive URL is based on their username. For example, 
+     `https://contoso-my.sharepoint.com/personal/user1_contoso_com`. You can find their username on the Active users (or Deleted users) page in the Microsoft 365 admin center. 
 
-  - If you don't know the URL of the deleted OneDrive, run the following command:
+   - If you don't know the URL of the deleted OneDrive, run the following command:
 
-  ```PowerShell
-  Get-SPODeletedSite -IncludeOnlyPersonalSite | FT url
-  ```
+     ```PowerShell
+     Get-SPODeletedSite -IncludeOnlyPersonalSite | FT url
+     ```
 
-  - If the OneDrive appears in the results, it can be restored.
+   - If the OneDrive appears in the results, it can be restored.
 
 4. Restore the OneDrive to an active state:
 
-  ```PowerShell
-  Restore-SPODeletedSite -Identity <URL>
-  ```
+   ```PowerShell
+   Restore-SPODeletedSite -Identity <URL>
+   ```
 
 5. Assign an administrator to the OneDrive to access the needed data:
 
-  ```PowerShell
-  Set-SPOUser -Site <URL> -LoginName <UPNofDesiredAdmin> -IsSiteCollectionAdmin $True
-  ```
+   ```PowerShell
+   Set-SPOUser -Site <URL> -LoginName <UPNofDesiredAdmin> -IsSiteCollectionAdmin $True
+   ```
 
 For more info about these cmdlets, see [Get-SPODeletedSite](/powershell/module/sharepoint-online/get-spodeletedsite) and [Restore-SPODeletedSite](/powershell/module/sharepoint-online/restore-spodeletedsite).
   
