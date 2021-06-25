@@ -27,44 +27,13 @@ description: "Learn how to plan and create the top landing page for your organiz
 
 # Set up a home site for your organization
   
-A home site is a SharePoint [communication site](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) that you create and set as the top landing page for all users in your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. 
+A home site is a SharePoint [communication site](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) that you create and set as the top landing page for all users in your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. Follow the instructions below to transform your communication site into a home site using SharePoint PowerShell.
+<br>
 
-## Home site capabilities
-
-When you set a site as your home site:
-
-- It's easily accessible from the SharePoint mobile app for Android and iOS. All users that have access to the home site will see a home button on the Find tab of the mobile app. Being communication sites, home sites are designed to be mobile friendly from the start.
-
-    ![Link to the home site in the SharePoint mobile app](media/home-site-fre.png)
-
-- Search for the site is scoped to all sites within the organization. Having a great search experience is critical for the success of the home site. [Learn more about Microsoft Search](/microsoftsearch/overview-microsoft-search)
-
-- The site is automatically set up as an [organization news site](organization-news-site.md). (Although you can have only one home site, you can have multiple organization news sites.)
-- The site is enabled for [configuring the global navigation in the SharePoint app bar](sharepoint-app-bar.md#get-started-customizing-the-global-navigation-tab).
-
-- Having a home site enables you to use [Viva Connections](viva-connections.md).
+Before you begin, make sure you have reviewed how to [plan, build, and manage a home site.](./home-site-plan.md) 
 
 > [!NOTE]
-> Integration between the home site and [SharePoint start page](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220) (where the branding, theming, header, navigation, and footer elements from the home site are applied to the start page and users can easily navigate between the pages) is not available at this time. Please watch for updates in the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=SharePoint).
-
-## Plan and create your home site
-
-To set a site as your organization's home site, you first need to create and customize the site you want to use.
-
-1. When you design your organization's top landing page, consider the goals from the perspective of your IT department, your organization's communications team, and end users of the experience.
-2. Create a communication site to use for the home site, and customize it using built-in features as much as possible:
-    - Use the megamenu style for navigation and add a site footer. For info, see [Change the look of your SharePoint site](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818).
-    - Try out various page layouts, including the vertical section. For info, see [Add sections and columns](https://support.office.com/article/fc491eb4-f733-4825-8fe2-e1ed80bd0899).
-    - Use [audience targeting](https://support.office.com/article/68113d1b-be99-4d4c-a61c-73b087f48a81) with SharePoint news and navigation links to tailor the experience for your audiences.
-    - Use personalized web parts, preferably in a unique visual location like the vertical section with background color, which allows users to quickly consume organization content and get back to their work. 
-    - Extend the site as needed by using the SharePoint Framework (SPFx). To get started building custom web parts, see [SharePoint Framework Tutorial 1](https://www.youtube.com/watch?v=S3tG2DE8tR8). For info about app extensions, see [Getting started with SharePoint Framework Application customizers](https://www.youtube.com/watch?v=gp056PEZoRQ&list=PLR9nK3mnD-OV6WhWHOMAvW-T_EBGKIs3u&index=18&t=0s).
-    - Make sure the site is set up for regular content updates. Turn on [content approval](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9) to ensure high-quality content.
-    - Consider making the site a [hub site](create-hub-site.md). Your home site can be registered as a hub site, but can't be associated with another hub.
-3. Create a launch plan for redirecting from your current solution to the new home site and notifying users of the change.
-**Important**: Make sure the site adheres to the [guidelines for healthy portals](./portal-health.md).
-4. Optional (recommended): When you're ready to launch, [replace your root site with the new site](modern-root-site.md#replace-your-root-site).
-5. To make the site a home site, follow the steps in the next section.
-6. Make sure to [customize the Microsoft 365 theme for your organization](/office365/admin/setup/customize-your-organization-theme), adding your logo and linking it to the home site. 
+> You can set only one site in your organization as a home site. The site can be registered as a hub site, but can't be associated with a hub. The first time you set up a home site, it might take up to several minutes for the changes to take effect. If you run the command again to switch your home site to a different site, it might take up to 2 hours.
 
 ## Set a site as your home site
 
@@ -85,5 +54,7 @@ After you create and customize the communication site that you want to use as yo
 
 The [SharePoint app bar](sharepoint-app-bar.md) is being released to customers. Once the SharePoint app bar is available for your organization, [enable and customize global navigation](sharepoint-app-bar.md#customize-global-navigation-in-the-app-bar). Then, consider [integrating your home site in Microsoft Teams using Viva Connections](viva-connections.md). 
 
-> [!NOTE]
-> You can set only one site in your organization as a home site. The site can be registered as a hub site, but can't be associated with a hub. The first time you set up a home site, it might take up to several minutes for the changes to take effect. If you run the command again to switch your home site to a different site, it might take up to 2 hours.
+
+### Resources
+
+[Plan, build, and manage a home site](./home-site-plan.md)
