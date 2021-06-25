@@ -146,7 +146,7 @@ There are a few things you should check if one or more users in your organizatio
     
     - Office 365 Education
     
-    - Office 365 Government (E1, E3 or E5)
+    - Office 365 Government (E1, E3, or E5)
     
     - Microsoft 365 Business Basic
     
