@@ -28,10 +28,15 @@ The following table provides the list of new features and updates to existing fe
 
 |**Feature Group**|**Features**|**More info**|
 |:-----|:-----|:-----|
-|Authentication and Identity Management <br/> | <ul><li>Adds support for OpenID Connect (OIDC) 1.0</li><li>Enhanced People Picker for trusted identity providers</li><li>Improve Integrated Windows authentication over TLS</li></ul> | <ul><li>For more information, see [ODIC authentication 1.0](#ODIC)</li><li>For more information, see [People picker PowerShell cmdlet improvement for trusted authentication method](#people)</li><li>For more information, see [Improved Integrated Windows authentication over TLS](#IIW)</li></ul> | 
-
-
-
+|Authentication and Identity Management <br/> | <ul><li>Adds support for OpenID Connect (OIDC) 1.0</li><li>Enhanced People Picker for trusted identity providers</li><li>Improve Integrated Windows authentication over TLS</li></ul> | <ul><li>For more information, see [ODIC authentication 1.0](#ODIC).</li><li>For more information, see [People picker PowerShell cmdlet improvement for trusted authentication method](#people).</li><li>For more information, see [Improved Integrated Windows authentication over TLS](#IIW).</li></ul> | 
+|Deployment and Upgrade <br/> | <ul><li>Adds support for Windows Server 2022</li><li>Adds support for Windows Server Core</li><li>Supports "N - 2" upgrading from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)</li><li>AppFabric Cache integration</li></ul> | <ul><li>For more information, see [Windows Server 2022](#server).</li><li>For more information, see [Windows Server Core](#core).</li><li>For more information, see [Upgrading directly from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)](#upgrade).</li><li>For more information, see [AppFabric Cache integration](#cache).</li></ul> |
+|Farm Administration <br/> | <ul><li>Add support host header bindings on Central Admin web application</li><li>Add support for Server Name Indication (SNI) for host header bindings</li><li>Change web application bindings</li><li>Easier AAM configuration for Central Administration</li><li>Federated service applications support "N - 2" content farms (SharePoint 2016, 2019, and Subscription Edition)</li><li>Support for client certificate authentication to SMTP servers</li></ul> | <ul><li>For more information, see [Central Administration now supports host header bindings](#cenadmin).</li><li>For more information, see [Server Name Indication](#sni).</li><li>For more information, see [Change web application IIS bindings](#webiis).</li><li>For more information, see [Easier AAM configuration for Central Administration](#aamcon).</li><li>For more information, see [Federated service applications support "N - 2" content farms (SharePoint 2016, 2019, and 2022)](#fedral).</li><li>For more information, see [Client certificate authentication to SMTP servers](#client).</li></ul> |
+|Hybrid <br/> | <ul><li>Better integration with Power Apps and Power Automate</li><li>Cloud SSA (Search) supports Microsoft 365 Multi-Geo</li><li>Improved hybrid search troubleshooting</li></ul> | <ul><li>For more information, see [PowerApps and Power Automate integration](#power).</li><li>For more information, see [Cloud SSA (Search) supports Microsoft 365 Multi-Geo](#ssa).</li><li>For more information, see [Improved hybrid search troubleshooting](#ihst).</li></ul> | 
+|PowerShell <br/> | <ul><li>SharePoint PowerShell cmdlets converted from snap-in to module</li><li>Distributed Cache cmdlets</li><li>•	New-SPWebApplication creates web applications in Windows claims mode by default</li><li>Remove-SPConfigurationObject cmdlet</li><li>SharePoint Volume Shadow Copy Service writer cmdlets</li></ul> | <ul><li>For more information, see [SharePoint PowerShell cmdlets converted from snap-in to module](#snap).</li><li>For more information, see [Distributed Cache cmdlets](#dcc).</li><li>For more information, see [New-SPWebApplication PowerShell cmdlet](#spweb).</li><li>For more information, see [Introducing Remove-SPConfigurationObject PowerShell cmdlet](#resp).</li><li>For more information, see [SharePoint Volume Shadow Copy Service writer cmdlets](#vscs).</li></ul> |
+|Search <br/> | <ul><li>Search result page modernization</li><li>Support for returning list content in modern results page</li><li>Thumbnails in modern search result page</li></ul> | <ul><li>For more information, see [Search result page modernization](#seres).</li><li>For more information, see [Support for returning list content in modern results page](#listmrp).</li><li>For more information, see [Thumbnails in modern search result page](#tmsr).</li></ul> |
+|Security <br/> | <ul><li>SSL certificate management</li><li>Adds support for TLS 1.3</li><li>Strong TLS encryption by default</li><li>Improved ASP.NET view state security and key management</li></ul> | <ul><li>For more information, see [SSL certificate management](#sslcm).</li><li>For more information, see [TLS 1.3 support](#tlss).</li><li>For more information, see [Strong TLS encryption by default](#tlsed).</li><li>For more information, see [Improved ASP.NET view state security and key management](#aspnet).</li></ul> |
+|Sites, Lists, and Libraries <br/> | <ul><li>Accessibility improvements</li><li>Brick layout for document library thumbnails and image gallery web part</li><li>Bulk check-in and check-out</li><li>Bulk download files from document libraries and OneDrive personal sites</li><li>Image and document thumbnails in document libraries and picture libraries</li><li>List and library modern web parts support adding/editing/deleting content</li><li>Modern document sets</li></ul> | <ul><li>For more information, see [Accessibility improvements across modern UX](#aiamu).</li><li>For more information, see [Brick layout for document library thumbnails and image gallery web part](#briclil).</li><li>For more information, see [Bulk check-in/check-out in modern Document library experience](#bulkinout).</li><li>For more information, see [Bulk download files from document libraries and OneDrive personal sites](#bulkdod).</li><li>For more information, see [Image and document thumbnails in document libraries and picture libraries](#idt).</li><li>For more information, see [List and library modern web parts support adding/editing/deleting content](#llmw).</li><li>For more information, see [Modern document sets](#mds).</li></ul> |
+|Storage <br/> | <ul><li>New BLOB storage provider: Remote Share Provider</li><li>Remote Share Provider diagnostic tool</li></ul> | <ul><li>For more information, see [Remote Share Provider](#blob).</li><li>For more information, see [Remote Share Provider diagnostic tool](#rspdt).</li></ul> | 
 
 ## Detailed description of features
 
@@ -142,12 +147,11 @@ You can now authenticate to SMTP servers using client certificates. You need to 
 <a name="power"> </a>
 
 Two new commands have been added to the modern document library page and modern list page command bar:
-· Power Automate
-· Power Apps
-These commands will take you directly to the Power Apps and Power Automate service pages.
-You can also configure these settings for your on-prem list/library in Microsoft 365.
+  - Power Automate
+  - Power Apps
+These commands will take you directly to the Power Apps and Power Automate service pages. 
 
-### Cloud SSA (Search) supports M365 multi-geo
+### Cloud SSA (Search) supports Microsoft 365 Multi-Geo
 <a name="ssa"> </a>
   
 You can use PowerShell scripts to configure SharePoint hybrid features on Windows Server Core.
@@ -235,7 +239,9 @@ The following features have been modernized and introduced into this release:
 <a name="listmrp"> </a>
   
 Lists and list items are now searchable in the modern UX. List item results will be included in the “All” category of the modern search result page.
-Thumbnails in modern search result page
+
+### Thumbnails in modern search result page
+<a name="tmsr"> </a>
 Thumbnail is introduced in modern user experience of result page for PowerPoint, Word, PDF, images and etc.
   
 ### SSL certificate management
@@ -263,12 +269,16 @@ Windows Server 2022’s .NET Framework 4.8 supports TLS 1.3. This allows you to 
 Please note that the following components still don't support TLS 1.3 at this time:
 •	SQL Server 2019
 •	Workflow Manager 1.0 and Service Bus 1.1
-Strong TLS encryption by default
+  
+### Strong TLS encryption by default
+<a name="tlsed"> </a>
+
 SharePoint Server v.Next will use the advanced security capabilities of Windows Server 2022 to ensure that TLS connections made to the server only uses the strongest encryption.
 SharePoint Server will configure itself to enforce the minimum TLS version and cipher suite requirements on its SSL bindings regardless of whether the connection ends up using HTTP/2. 
 
 ### Improved ASP.NET view state security and key management
 <a name="aspnet"> </a> 
+
 SharePoint now encrypts the machineKey section of its web.config files by default. This prevents attackers from reading your ASP.NET view state encryption and validation keys even if they gain access to those web.config files.
 
 It can also change the ASP.NET view state decryption and validation keys of a SharePoint web application through two new PowerShell cmdlets. This allows you to rotate those keys in your farm.
@@ -316,14 +326,17 @@ With SharePoint vNext, you can do the following to documents and list items in t
 •	List web part: create, edit, delete list items
   
 ### Modern document sets
-<a name="mds"> </a>  
+<a name="mds"> </a> 
+  
 In SharePoint Server Subscription Edition, the Document Sets is enhanced so that you can enjoy the same modern experience when using Document Sets in modern document library.
 
-### New BLOB storage provider: Remote Share Provider
+### Remote Share Provider
 <a name="blob"> </a>  
+  
 SharePoint managed account object is not required. Instead, PSCredential object will be used to store SMB storage credential and this object need to be provided as the parameter of the cmdlet Register-SPRemoteShareBlobStore.
   
 ### Remote Share Provider diagnostic tool
 <a name="rspdt"> </a>
+  
 The new PS cmdlet helps admin to validate the data consistency of content database which is remote share provider enabled. This makes it easier for admin to figure out what are the problems in the remote storage.
 
