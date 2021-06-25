@@ -64,7 +64,7 @@ For more info on disabling Delve, see [What is the effect of enabling or disab
     - **Disable Delve**
   
     >[!NOTE]
-    >Previously, when turning Delve on or off in the SharePoint admin center, it also had an impact on a few other insights-driven experiences in Microsoft 365. Starting July      1, 2021, the Delve setting will be decoupled from the back end and will only impact Delve. Use the item insights privacy settings to control item insights in Microsoft 365.
+    > Previously, when turning Delve on or off in the SharePoint admin center, it also had an impact on a few other insights-driven experiences in Microsoft 365. Starting July 1, 2021, the Delve setting will be decoupled from the back end and will only impact Delve. Use the item insights privacy settings to control item insights in Microsoft 365.
     
 ## Introducing Delve in your organization
 <a name="BKMK_DelveIntroduce"> </a>
