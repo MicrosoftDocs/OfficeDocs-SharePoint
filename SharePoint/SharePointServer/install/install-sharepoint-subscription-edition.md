@@ -1,5 +1,5 @@
 ---
-title: "Install SharePoint Subscription edition"
+title: "Install SharePoint Server Subscription Edition"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
@@ -17,11 +17,11 @@ ms.collection:
 - Strat_SP_server
 - SP2019
 ms.custom: 
-ms.assetid: 356d3a0b-fc26-455c-9afb-6d2ffdceef84
+ms.assetid:
 description: "Learn how to install SharePoint Subscription edition in various topologies."
 ---
     
-# Overview
+# Install SharePoint Server Subscription Edition
 <a name="section1"> </a>
 
 SharePoint Server v.Next installation is similar to SharePoint Server 2019. The steps are:
@@ -83,5 +83,3 @@ For example: notepad.exe "C:\SharePoint Files\config.xml
 
 > [!NOTE]
 > You must use a web browser from another computer to access the Central Administration web site. Windows Server Core does not include a web browser.
-  
-

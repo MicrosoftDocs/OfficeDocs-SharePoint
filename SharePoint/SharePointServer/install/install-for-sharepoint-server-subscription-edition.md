@@ -15,8 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - SP2019
-ms.assetid: 47db8aed-7e2b-4ccb-b248-d71df3bffa99
-
+ms.assetid:
 description: "Learn how to install SharePoint Subscription edition in various topologies."
 ---
 
@@ -31,7 +30,7 @@ The following articles provide information about how to deploy SharePoint Server
   
 |**Content**|**Description**|
 |:-----|:-----|
-|[Install SharePoint Subscription edition](install-sharepoint-subscription-edition.md) <br/> |Learn how to install SharePoint Subscription edition in various topologies.  <br/> |
+|[Install SharePoint Server Subscription edition](install-sharepoint-subscription-edition.md) <br/> |Learn how to install SharePoint Subscription edition in various topologies.  <br/> |
 |[System requirements for SharePoint Subscription edition](system-requirements-for-sharepoint-subscription-edition.md) <br/> |Learn system requirements of SharePoint Subscription edition in various topologies.  <br/>|
 |[Hardware and software requirements for SharePoint Subscription edition](hardware-and-software-requirements-subscription-editon.md) <br/> |Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Subscription edition.  <br/> |
 |[Install SharePoint Subscription edition](install-sharepoint-subscription-edition.md) <br/> |Learn how to install SharePoint Subscription edition in various topologies.  <br/> |
