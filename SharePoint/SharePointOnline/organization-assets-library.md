@@ -36,6 +36,7 @@ If your organization needs to store and manage files for all your users to use, 
 
     > [!NOTE]
     > - For the organization assets library to appear to a user in PowerPoint on the web, the user must be assigned a license to Office 365 E3 or E5. For users who use the PowerPoint desktop app, they also need Microsoft 365 Apps Version 2002 or later. 
+    > - Allow up to 24 hrs for the organization assets library to appear to a user in the desktop apps.
     > - The files uploaded to the library must be in the template format .potx. [Learn how to save a PowerPoint file in this format](https://support.microsoft.com/office/ee4429ad-2a74-4100-82f7-50f8169c8aca))
 
 
