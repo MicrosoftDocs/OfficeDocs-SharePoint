@@ -34,8 +34,8 @@ description: "Learn how to change your SharePoint domain name using PowerShell"
 It's now possible to change the SharePoint domain name for your organization in Microsoft 365. For example, if the name of your organization changes from "Contoso" to "Fabrikam," you can change `contoso.sharepoint.com` to `fabrikam.sharepoint.com`.
 
 > [!IMPORTANT]
-> - This feature is only available for customers that have been accepted into the Private Preview program. If you would like to do so, you can [nominate yourself into the Private Preview](https://aka.ms/SPOTenantRenameNomination). Note that the nomination does not necessarily mean that you will be accepted. We review these on a case-by-case basis and will only be in contact if you are accepted.
-> - This feature is not available for organizations that have set up a multi-geo.
+> - This feature is available only for customers who have been accepted into the Private Preview program. [Request to join the Private Preview](https://aka.ms/SPOTenantRenameNomination). Note that submitting a nomination does not guarantee acceptance into the program. We review the nominations on a case-by-case basis and will contact you if you're accepted.
+> - This feature is not available for organizations that have set up multi-geo.
   
 > [!NOTE]
 > This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses. For info about changing a site address, for example, from `https://contoso.sharepoint.com/sites/sample1` to  `https://contoso.sharepoint.com/sites/sample2`, see [Change a site address](change-site-address.md).  
@@ -93,11 +93,9 @@ It's now possible to change the SharePoint domain name for your organization in 
 |App/feature  |Limitation  |Action required  |
 |---------|---------|---------|
 | Deleted sites | Any sites that have been deleted can't be restored after the change. | Before changing your domain name, review the Deleted sites page in the SharePoint admin center and restore any sites that you might want to keep. |
-| Long URLs | Any absolute URLs to sites or content that exceed the maximum URL length limit of 400 characters won't work. | If the new domain name is longer than the original, review the URLs of all sites, lists, document libraries, list items, and files before your change the domain name to make sure the new URLs won't exceed 400 characters. |
 | Multi-Geo configurations | Your SharePoint domain name can't be changed if your organization is currently set up for Microsoft 365 Multi-Geo or was previously set up for it.  | No action available. |
 | Point-in-time restoration | Restoring a site to a previous time before the domain name change isn't possible. | No action available.|
 | Vanity domain configurations | Your domain name can't be changed if you have a vanity domain configuration. | No action available. |
-
 
 ## Step 1: Add the new domain name
 
@@ -150,10 +148,14 @@ It's now possible to change the SharePoint domain name for your organization in 
 3. Run the following command to specify the new domain name:
   
     ```PowerShell
-    Start-SPOTenantRename -DomainName <DomainName> -ScheduleDateTime <YYYY-MM-DDTHH:MM:SSZ> [-WhatIf] [-Confirm] 
+    Start-SPOTenantRename -DomainName <DomainName> -ScheduledDateTime <YYYY-MM-DDTHH:MM:SS> [-WhatIf] [-Confirm] 
     ```
 
-    Where "ScheduleDateTime" is at least 24 hours in the future, but not more than 30 days.
+    Where "DomainName" is the part before "sharepoint.com" or "onmicrosoft.com" and "ScheduledDateTime" is at least 24 hours in the future, but not more than 30 days. 
+
+Example: 
+
+> `Start-SPOTenantRename -DomainName "fabrikam" -ScheduledDateTime "2021-12-31T10:25:00"`
 
 You can get the status of the rename by running `Get-SPOTenantRenameStatus`.
 
