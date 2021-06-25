@@ -67,12 +67,13 @@ The previous sync app (Groove.exe) is no longer installed by default with Office
 
     c. If the **User Account Control** dialog box appears, confirm that the action displayed is what you want, and then select **Continue**.
 
-5. At the command prompt, navigate to a folder you extracted Office Deployment tool into
+5. At the command prompt, navigate to the folder into which you extracted the Office Deployment tool.
 
     ```DOS
     cd /d %userprofile%\desktop
     ```
-6. Run command below
+    
+6. Run the following command.
 
     ```DOS
     setup.exe /configure AddODB.txt
@@ -86,7 +87,7 @@ The previous sync app (Groove.exe) is no longer installed by default with Office
     > [!NOTE]
     > After you set up OneDrive, you might not see sync icons on files until you restart your computer.
 
-7. Close the command prompt. You can now safely delete the following files from your desktop:
+8. Close the command prompt. You can now safely delete the following files from your desktop:
 
     - OfficeDeploymentTool.exe
     - Setup.exe
