@@ -46,7 +46,7 @@ The Delve app is also enabled for modern authentication. For more info, see [How
 
 You control access to Delve from the SharePoint admin center. By default, users in your organization have access to Delve. Users can limit their Delve experience to only show profile information by turning off **Show documents in Delve** under **Settings** > **Feature settings** in Delve. As an admin, you can also remove documents from the Delve through the item insights privacy settings.
 
-For more info on item insights privacy settings, see [Customizing item insights privacy in Microsoft Graph (preview)](https://docs.microsoft.com/en-us/graph/insights-customize-item-insights-privacy)
+For more info on item insights privacy settings, see [Customizing item insights privacy in Microsoft Graph (preview)](/graph/insights-customize-item-insights-privacy).
 
 For more info on disabling Delve, see [What is the effect of enabling or disabling Delve](https://docs.microsoft.com/en-us/sharepoint/delve-for-office-365-admins%22%20/l%20%22BKMK_EffectOfficegraphOnOff).
   
