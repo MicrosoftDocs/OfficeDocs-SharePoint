@@ -81,7 +81,7 @@ landingContent:
       - linkListType: deploy
         links:
           - text: Install for SharePoint Server Subscription edition
-            url: install/install
+            url: install/install-sharepoint-subscription-edition
           - text: SharePoint Server 2016 and 2019 large scale farms
             url: install/install-sharepoint-server-2016-across-multiple-servers.md
           - text: SharePoint Server 2016 and 2019 small scale farms
