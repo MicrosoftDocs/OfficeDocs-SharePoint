@@ -59,7 +59,7 @@ Query suggestions are turned on by default. To turn them off, go to **Search Sug
     
 ### Related tasks
 
-You can edit a list of query suggestions that you've manually created. To edit a list that you've already imported in to SharePoint, choose **Export to text file**, update the text file with your changes, and then re-import it. After you've uploaded your query suggestions file, it might take up to a week until your query suggestions are displayed. You can check that they're working properly by entering a phrase from your list of query suggestions in the search box. The query suggestion should appear below the search box.
+You can edit a list of query suggestions that you've manually created. To edit a list that you've already imported into SharePoint, choose **Export to text file**, update the text file with your changes, and then re-import it. After you've uploaded your query suggestions file, it might take up to a week until your query suggestions are displayed. You can check that they're working properly by entering a phrase from your list of query suggestions in the search box. The query suggestion should appear below the search box.
   
 To get rid of a list of query terms, you must overwrite it. Do this by importing an empty text file. 
   
