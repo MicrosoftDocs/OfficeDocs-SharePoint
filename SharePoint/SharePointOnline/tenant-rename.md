@@ -149,9 +149,9 @@ It's now possible to change the SharePoint domain name for your organization in 
 
 2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
-Example: 
+   Example: 
 
-> `Connect-SPOService -Url "https://contoso-admin.sharepoint.com"`
+   `Connect-SPOService -Url "https://contoso-admin.sharepoint.com"`
     
 3. Run the following command to specify the new domain name:
   
