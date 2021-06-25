@@ -67,21 +67,27 @@ The previous sync app (Groove.exe) is no longer installed by default with Office
 
     c. If the **User Account Control** dialog box appears, confirm that the action displayed is what you want, and then select **Continue**.
 
-5. At the command prompt, run the following commands, and press **Enter** after each one.
+5. At the command prompt, navigate to the folder into which you extracted the Office Deployment tool.
 
     ```DOS
-    cd /d %userprofile%\desktop setup.exe /configure AddODB.txt
+    cd /d %userprofile%\desktop
+    ```
+    
+6. Run the following command.
+
+    ```DOS
+    setup.exe /configure AddODB.txt
     ```
    
     > [!NOTE]
    > The installation occurs silently in the background and can take 20 minutes or more to complete, depending on the speed of your Internet connection. Don't close the Command Prompt window during the installation. When the installation is completed, a new command line appears at the command prompt.
 
-6. Select **Start**. In the **Start Search** box, type **OneDrive**, and then start OneDrive.
+7. Select **Start**. In the **Start Search** box, type **OneDrive**, and then start OneDrive.
 
     > [!NOTE]
     > After you set up OneDrive, you might not see sync icons on files until you restart your computer.
 
-7. Close the command prompt. You can now safely delete the following files from your desktop:
+8. Close the command prompt. You can now safely delete the following files from your desktop:
 
     - OfficeDeploymentTool.exe
     - Setup.exe
@@ -150,4 +156,3 @@ To install the previous OneDrive for Business sync app with Office 2013, follow 
 
     > [!NOTE]
     > The OneDrive sync app ships together with two components that are not selected for installation by default. We recommend that you do not change these default settings.
-
