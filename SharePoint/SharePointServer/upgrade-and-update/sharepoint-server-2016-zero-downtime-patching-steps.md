@@ -62,16 +62,16 @@ For the most part, everything you do on one side of the line (to the 01 servers)
 Make sure you've rebooted and tested your WFEs before you take either out of the load balancer to avoid situations where the WFE to be patched first is taken out of rotation, and other WFEs don't handle the resulting load. All servers in the farm should be fresh from a reboot and healthy before you patch. Also, consider stopping Search crawls and Profile Imports during the upgrade or patch window.
 
 > [!IMPORTANT]
-> Side-by-side functionality, previously enabled with the below script, has been enabled regardless of the 'enableSideBySide' value as of [KB3178672](https://support.microsoft.com/help/3178672) (March 2017 update) for SharePoint Server 2016 and above.
+> Running in side-by-side ensures that all the web front ends in the farm serve the same static content during the upgrade, even if static files on a given WFE are being upgraded or replaced. Side-by-side is built into PSCONFIG but must be enabled. This feature makes sure users have the same experience of the sites when browsing SharePoint and working on their files, even while file-system files are being changed and updated.
 >
-> For SharePoint Server 2016 farms without KB3178672 or higher applied, side-by-side functionality can be applied with the following PowerShell scripts:
+> To enable the side-by-side functionality, execute the following PowerShell script once by using the URL for one of the content web applications:
 >
 > `$webapp = Get-SPWebApplication <webappURL>`  
 > `$webapp.WebService.EnableSideBySide = $true`  
 > `$webapp.WebService.update()`
 >
-> Running in side-by-side ensures that all the web front ends in the farm serve the same static content during the upgrade, even if static files on a given WFE are being upgraded or replaced. Side-by-side is built in to PSCONFIG but must be enabled. This feature makes sure users have the same experience of the sites when browsing SharePoint and working on their files, even while file-system files are being changed and updated.
-
+> As of [KB3178672](https://support.microsoft.com/help/3178672) (March 2017 update) for SharePoint Server 2016 and above, PSCONFIG will automatically copy all .js, .css, and .htm files within the `16-HIVE\TEMPLATE\LAYOUTS` folder to the `16-HIVE\TEMPLATE\LAYOUTS\<NEW BUILD NUMBER>` folder, required to be able to switch to the new user interface files and complete the side-by-side process as outlined later in this topic in **Phase 2 - PSCONFIG upgrade (4)**.
+> 
   
 ### Phase 1 - Patch install
 
@@ -161,6 +161,7 @@ Every node in the SharePoint Server 2016 farm has the patches installed, and all
 
     > [!IMPORTANT]
     > After all servers have been through PSCONFIG successfully, remember to run the SharePoint 2016 Management Shell command below to switch to the new user interface files and complete the side-by-side process:  
+    > `$webapp = Get-SPWebApplication <webappURL>`
     > `$webapp.WebService.SideBySideToken = <current build number in quotes, ex: "16.0.4338.1000">`  
     > `$webapp.WebService.update()`
   
@@ -183,5 +184,4 @@ The goals here are high availability and fault tolerance. That means top priorit
 In examples used here, I draw out physical servers to make concepts easier to grapple with. When it comes time to plan for ZDP, you should draw out your own environment, wherever it lives (complete with rack names/numbers, and server names where each SharePoint Server role can be found). This is one of the quickest ways to isolate any violations of the goals of role redundancy and fault tolerance that might have snuck into your setup, no matter the size your setup may be.
   
 ## Related Topics
-
 [Video demo of Zero Downtime Patching in SharePoint Server 2016](video-demo-of-zero-downtime-patching-in-sharepoint-server-2016.md)
