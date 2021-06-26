@@ -271,7 +271,7 @@ For more information, see [Set-SPTranslationServiceApplication](/powershell/modu
 
 - If the account that is used by the application pool that was assigned to the Machine Translation service application differs from the one used by the User Profile service application, you must add it to the list of accounts that can use the User Profile service application and grant it Full Control permissions. For more information, see [Restrict or enable access to a service application in SharePoint Server](restrict-or-enable-access-to-a-service-application.md).
     
-- Microsoft Custom Translator is a feature of Microsoft Translator and lets you achieve much higher adherence to the domain-specific terminology and style by training a custom translation system on previously translated in-domain documents. You can configure the Machine Translation Service to use the custom translation system by passing the category ID in the MachineTranslationCategory parameter. For more information about the Microsoft Custom Translator, see [What is Custom Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/custom-translator/overview)
+- Microsoft Custom Translator is a feature of Microsoft Translator and lets you achieve much higher adherence to the domain-specific terminology and style by training a custom translation system on previously translated in-domain documents. You can configure the Machine Translation Service to use the custom translation system by passing the category ID in the MachineTranslationCategory parameter. For more information about the Microsoft Custom Translator, see [What is Custom Translator?](/azure/cognitive-services/translator/custom-translator/overview).
     
 ## See also
 <a name="more"> </a>
