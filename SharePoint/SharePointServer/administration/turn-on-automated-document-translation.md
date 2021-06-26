@@ -134,17 +134,17 @@ Refer to the following table in step 2 below.
     
 2. At the PowerShell command prompt, type the following syntax:
     
-  ```
-  New-SPTranslationServiceApplication -Name "<ServiceApplicationName>" -DatabaseName "<DatabaseName>" -DatabaseServer "<DatabaseServer>" -ApplicationPool "<ApplicationPoolName>" -Default
-  ```
+   ```powershell
+   New-SPTranslationServiceApplication -Name "<ServiceApplicationName>" -DatabaseName "<DatabaseName>" -DatabaseServer "<DatabaseServer>" -ApplicationPool "<ApplicationPoolName>" -Default
+   ```
 
-    The table at the beginning of this procedure describes the variables used in the **New-SPTranslationServiceApplication** cmdlet. 
+   The table at the beginning of this procedure describes the variables used in the **New-SPTranslationServiceApplication** cmdlet. 
     
-    **Example**
+   **Example**
     
-  ```
-  New-SPTranslationServiceApplication -Name "Machine Translation Service Application" -DatabaseName "MachineTranslationDB" -DatabaseServer "ContosoDBServer" -ApplicationPool "ContosoAppPool" -Default
-  ```
+   ```powershell
+   New-SPTranslationServiceApplication -Name "Machine Translation Service Application" -DatabaseName "MachineTranslationDB" -DatabaseServer "ContosoDBServer" -ApplicationPool "ContosoAppPool" -Default
+   ```
 
 3. Start the Machine Translation Service. For more information, see [Start or stop a service in SharePoint Server](start-or-stop-a-service.md).
     
@@ -250,17 +250,17 @@ Refer to the following table in step 2.
     
 2. At the PowerShell command prompt, type the following syntax:
     
-  ```
-  Set-SPTranslationServiceApplication -Identity "<ServiceApplicationName>" -EnableAllFileExtensions -UseDefaultlnternetSettings -TimerJobFrequency <TimerJobFrequency> -MaximumTranslationAttempts <MaximumTranslationAttempts> -JobExpirationDays <JobExpirationDays> -MaximumSyncTranslationRequests <MaximumSyncTranslationRequests> -RecycleProcessThreshold <RecycleProcessThreshold> -DisableBinaryFileScan <DisableBinaryFileScan>
-  ```
+   ```powershell
+   Set-SPTranslationServiceApplication -Identity "<ServiceApplicationName>" -EnableAllFileExtensions -UseDefaultlnternetSettings -TimerJobFrequency <TimerJobFrequency> -MaximumTranslationAttempts <MaximumTranslationAttempts> -JobExpirationDays <JobExpirationDays> -MaximumSyncTranslationRequests <MaximumSyncTranslationRequests> -RecycleProcessThreshold <RecycleProcessThreshold> -DisableBinaryFileScan <DisableBinaryFileScan>
+   ```
 
-    The table at the beginning of this procedure describes the variables used in the **Set-SPTranslationServiceApplication** cmdlet. 
+   The table at the beginning of this procedure describes the variables used in the **Set-SPTranslationServiceApplication** cmdlet. 
     
-    **Example**
+   **Example**
     
-  ```
-  Set-SPTranslationServiceApplication -Identity "Machine Translation Service Application" -EnableAllFileExtensions -UseDefaultlnternetSettings -TimerJobFrequency 30 -MaximumTranslationAttempts 3 -JobExpirationDays 14 -MaximumSyncTranslationRequests 20 -RecycleProcessThreshold 300 -DisableBinaryFileScan 1
-  ```
+   ```powershell
+   Set-SPTranslationServiceApplication -Identity "Machine Translation Service Application" -EnableAllFileExtensions -UseDefaultlnternetSettings -TimerJobFrequency 30 -MaximumTranslationAttempts 3 -JobExpirationDays 14 -MaximumSyncTranslationRequests 20 -RecycleProcessThreshold 300 -DisableBinaryFileScan 1
+   ```
 
 3. If you changed any of the following parameters, restart the service now:  `KeepAliveTimeout`,  `MaximumTranslationTime`,  `TotalActiveProcesses`,  `RecycleProcessThreshold`,  `WebProxyAddress`,  `MachineTranslationAddress`, or  `UseDefaultInternetSettings`. For more information, see [Start or stop a service in SharePoint Server](start-or-stop-a-service.md).
     
