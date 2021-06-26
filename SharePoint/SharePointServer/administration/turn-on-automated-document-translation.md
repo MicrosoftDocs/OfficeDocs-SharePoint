@@ -96,16 +96,16 @@ Refer to the following table in step 7 below.
     
 4. In the **Application Pool** section, do one of the following: 
     
-  - Choose **Use existing application pool**, and then select the application pool that you want to use from the drop-down list.
+   - Choose **Use existing application pool**, and then select the application pool that you want to use from the drop-down list.
     
-  - Choose **Create a new application pool**, type the name of the new application pool, and then under **Select a security account for this application pool**, do one of the following:
+   - Choose **Create a new application pool**, type the name of the new application pool, and then under **Select a security account for this application pool**, do one of the following:
     
-  - Choose **Predefined** to use a predefined security account, and then select the security account from the drop-down list. 
+   - Choose **Predefined** to use a predefined security account, and then select the security account from the drop-down list. 
     
-  - Choose **Configurable** to specify a new security account to be used for an existing application pool. You can create an account by choosing the **Register new managed account** link. 
+   - Choose **Configurable** to specify a new security account to be used for an existing application pool. You can create an account by choosing the **Register new managed account** link. 
     
-    > [!IMPORTANT]
-    > The account that is used by the application pool must also have Full Control permissions to the User Profile service application. If you create an application pool and a new account, ensure that you add the account to the list of accounts that can use the User Profile service application, and grant Full Control permissions to the account. For more information, see [Restrict or enable access to a service application in SharePoint Server](restrict-or-enable-access-to-a-service-application.md). 
+     > [!IMPORTANT]
+     > The account that is used by the application pool must also have Full Control permissions to the User Profile service application. If you create an application pool and a new account, ensure that you add the account to the list of accounts that can use the User Profile service application, and grant Full Control permissions to the account. For more information, see [Restrict or enable access to a service application in SharePoint Server](restrict-or-enable-access-to-a-service-application.md). 
   
 5. If you'll provide hosting services for other sites, and the sites that use it have site subscriptions, select **Run in partitioned mode**.
     
@@ -168,20 +168,20 @@ The following two procedures describe how to configure the Machine Translation S
     
 4. In the **Item Size Limits** section, do the following: 
     
-  - In the **Maximum file size for binary files in KB. Microsoft Word documents are binary files** box, type the maximum file size (100-524,288), in KB, for binary files. The default is 51,200. Files that exceed this limit won't be translated. 
+   - In the **Maximum file size for binary files in KB. Microsoft Word documents are binary files** box, type the maximum file size (100-524,288), in KB, for binary files. The default is 51,200. Files that exceed this limit won't be translated. 
     
-  - In the **Maximum file size for text files in KB. Plain-text, HTML, and XLIFF documents are text files** box, type the maximum file size (100-15,360), in KB, for text files. The default is 5,120. Files that exceed this limit won't be translated. 
+   - In the **Maximum file size for text files in KB. Plain-text, HTML, and XLIFF documents are text files** box, type the maximum file size (100-15,360), in KB, for text files. The default is 5,120. Files that exceed this limit won't be translated. 
     
-  - In the **Maximum character count for Microsoft Word documents** box, type the maximum character count (10,000-10,000,000) for Word documents. The default is 500,000. 
+   - In the **Maximum character count for Microsoft Word documents** box, type the maximum character count (10,000-10,000,000) for Word documents. The default is 500,000. 
     
 5. In the **Online Translation Connection** section, do one of the following: 
     
-  - Choose **Use default internet settings**. This is the default.
+   - Choose **Use default internet settings**. This is the default.
     
-  - Choose **Use the proxy specified**, and type a web proxy server and port number.
+   - Choose **Use the proxy specified**, and type a web proxy server and port number.
     
-    > [!NOTE]
-    > If you change this setting, you must stop and restart the Machine Translation Service after you configure it. 
+     > [!NOTE]
+     > If you change this setting, you must stop and restart the Machine Translation Service after you configure it. 
   
 6. In the **Translation Processes** section, type the number of translation processes (1-5). The default is 1. 
     
@@ -190,9 +190,9 @@ The following two procedures describe how to configure the Machine Translation S
   
 7. In the **Translation Throughput** section, do the following: 
     
-  - In the **Frequency with which to start translations (minutes)** box, type the frequency with which groups of translations are started, in minutes (1-59). The default is 15. 
+   - In the **Frequency with which to start translations (minutes)** box, type the frequency with which groups of translations are started, in minutes (1-59). The default is 15. 
     
-  - In the **Number of translations to start (per translation process)** box, type the number of translations (1-1,000) per process. This number represents the number of translations started per process every time translations are started. The default is 200. 
+   - In the **Number of translations to start (per translation process)** box, type the number of translations (1-1,000) per process. This number represents the number of translations started per process every time translations are started. The default is 200. 
     
 8. In the **Maximum Translation Attempts** section, type the maximum number of times (1-10) a translation is tried before its status is set to **Failed**. The default is 2.
     
@@ -203,21 +203,21 @@ The following two procedures describe how to configure the Machine Translation S
   
 10. In **Translation Quota** > **Maximum number of items which can be queued in a 24-hour period**, do one of the following:
     
-  - Choose **No limit**. This is the default.
+    - Choose **No limit**. This is the default.
     
-  - Choose **Limit per 24 hours**, and then type the maximum number of items (100-1,000,000) that can be queued in a 24-hour period.
+    - Choose **Limit per 24 hours**, and then type the maximum number of items (100-1,000,000) that can be queued in a 24-hour period.
     
 11. If you'll provide hosting services for other sites, and the sites that use it have site subscriptions, in **Translation Quota** > **Maximum number of items which can be queued in a 24-hour period per site subscription**, do one of the following:
     
-  - Choose **No limit**. This is the default.
+    - Choose **No limit**. This is the default.
     
-  - Choose **Limit per 24 hours**, and then type the maximum number of items (100-1,000,000) that can be queued in a 24-hour period per site subscription.
+    - Choose **Limit per 24 hours**, and then type the maximum number of items (100-1,000,000) that can be queued in a 24-hour period per site subscription.
     
 12. In the **Completed Job Expiration Time** section, do one of the following: 
     
-  - Choose **Days**, and then type the number of days (1-1,000) completed jobs are kept in the job history log. The default is 7.
+    - Choose **Days**, and then type the number of days (1-1,000) completed jobs are kept in the job history log. The default is 7.
     
-  - Choose **No expiration**.
+    - Choose **No expiration**.
     
 13. In the **Recycled Threshold** section, type the number of documents (1-1,000) to be converted before the conversion process is restarted. The default is 100. 
     
