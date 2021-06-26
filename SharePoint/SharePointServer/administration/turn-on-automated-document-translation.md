@@ -62,7 +62,7 @@ The Machine Translation Service translates files up to a certain size, as shown 
   
 **Table: Supported file types and maximum file size limits for machine translation**
 
-|**File type**|**File extensions**|**Maximum file size**|
+| File type | File extensions | Maximum file size |
 |:-----|:-----|:-----|
 |Microsoft Word document parser  <br/> |.doc  <br/> .docm  <br/> .docx  <br/> .dot  <br/> .dotm  <br/> .dotx  <br/> .rtf  <br/> |524,288 KB  <br/> |
 |HTML parser  <br/> |.aspx  <br/> .htm  <br/> .html  <br/> .xhtm  <br/> .xhtml  <br/> |15,360 KB  <br/> |
@@ -80,7 +80,7 @@ Refer to the following table in step 7 below.
   
 **Table: Database section properties**
 
-|**Item**|**Action**|
+| Item | Action |
 |:-----|:-----|
 |**Database Server** <br/> |Type the name of the database server and SQL Server instance that you want to use in the format  _ServerName\Instance_. You can also use the default entry.  <br/> |
 |**Database Name** <br/> |Type a unique name for the database.  <br/> |
@@ -123,7 +123,7 @@ Refer to the following table in step 2 below.
   
 **Table: Variables used in the New-SPTranslationServiceApplication cmdlet**
 
-|**Variable name**|**Description**|
+| Variable name | Description |
 |:-----|:-----|
 | _\<ServiceApplicationName\>_ <br/> |The name of the new Machine Translation Service application.  <br/> |
 | _\<DatabaseName\>_ <br/> |The name of the database that will host the Machine Translation Service logs. To create a database, provide a new unique name.  <br/> |
@@ -236,7 +236,7 @@ Refer to the following table in step 2.
   
 **Table: Variables used in the Set-SPTranslationServiceApplication cmdlet**
 
-|**Variable name**|**Description**|
+| Variable name | Description |
 |:-----|:-----|
 | _\<ServiceApplicationName\>_ <br/> |The name of the Machine Translation service application.  <br/> |
 | _\<TimerJobFrequency\>_ <br/> |The frequency, in minutes (1-59), with which groups of translations are started.  <br/> |
