@@ -64,10 +64,10 @@ The Machine Translation Service translates files up to a certain size, as shown 
 
 | File type | File extensions | Maximum file size |
 |:-----|:-----|:-----|
-|Microsoft Word document parser  <br/> |.doc  <br/> .docm  <br/> .docx  <br/> .dot  <br/> .dotm  <br/> .dotx  <br/> .rtf  <br/> |524,288 KB  <br/> |
-|HTML parser  <br/> |.aspx  <br/> .htm  <br/> .html  <br/> .xhtm  <br/> .xhtml  <br/> |15,360 KB  <br/> |
-|Plain text parser  <br/> |.txt  <br/> |15,360 KB  <br/> |
-|XLIFF parser  <br/> |.xlf  <br/> |15,360 KB  <br/> |
+|Microsoft Word document parser |.doc  <br/> .docm  <br/> .docx  <br/> .dot  <br/> .dotm  <br/> .dotx  <br/> .rtf |524,288 KB |
+|HTML parser |.aspx  <br/> .htm  <br/> .html  <br/> .xhtm  <br/> .xhtml |15,360 KB |
+|Plain text parser |.txt |15,360 KB |
+|XLIFF parser |.xlf |15,360 KB |
    
 The maximum character count for Microsoft Word documents is 10,000,000.
   
@@ -82,9 +82,9 @@ Refer to the following table in step 7 below.
 
 | Item | Action |
 |:-----|:-----|
-|**Database Server** <br/> |Type the name of the database server and SQL Server instance that you want to use in the format  _ServerName\Instance_. You can also use the default entry.  <br/> |
-|**Database Name** <br/> |Type a unique name for the database.  <br/> |
-|**Database Authentication** <br/> | Select the authentication that you want to use by doing one of the following:  <br/>  To use Windows authentication, leave this option selected. We recommend this option because Windows authentication automatically encrypts the password when it connects to SQL Server.  <br/>  To use SQL authentication, choose **SQL authentication**. In the **Account** box, type the name of the account that you want the service application to use to authenticate to the SQL Server database, and then type the password in the **Password** box.  <br/> **Note:** <br/>  The SQL authentication option sends a password that is not encrypted to SQL Server. We recommend that you use SQL authentication only if you force protocol encryption to SQL Server or encrypt network traffic by using IPsec.  <br/> |
+|**Database Server**|Type the name of the database server and SQL Server instance that you want to use in the format  _ServerName\Instance_. You can also use the default entry. |
+|**Database Name**|Type a unique name for the database. |
+|**Database Authentication**| Select the authentication that you want to use by doing one of the following:  <br/>  To use Windows authentication, leave this option selected. We recommend this option because Windows authentication automatically encrypts the password when it connects to SQL Server.  <br/>  To use SQL authentication, choose **SQL authentication**. In the **Account** box, type the name of the account that you want the service application to use to authenticate to the SQL Server database, and then type the password in the **Password** box.  <br/> **Note:** <br/>  The SQL authentication option sends a password that is not encrypted to SQL Server. We recommend that you use SQL authentication only if you force protocol encryption to SQL Server or encrypt network traffic by using IPsec. |
    
 ### To create a Machine Translation service application by using Central Administration
 
@@ -125,10 +125,10 @@ Refer to the following table in step 2 below.
 
 | Variable name | Description |
 |:-----|:-----|
-| _\<ServiceApplicationName\>_ <br/> |The name of the new Machine Translation Service application.  <br/> |
-| _\<DatabaseName\>_ <br/> |The name of the database that will host the Machine Translation Service logs. To create a database, provide a new unique name.  <br/> |
-| _\<DatabaseServer\>_ <br/> |The name of the database server that will hold the work items for the Machine Translation Service.  <br/> |
-| _\<ApplicationPoolName\>_ <br/> |The name of an existing application pool in which the new Machine Translation Service should run.  <br/> **Important:** The account that is used by the application pool must also have Full Control permissions to the User Profile service application. If you create an application pool and a new account, ensure that you add the account to the list of accounts that can use the User Profile service application, and grant it Full Control permissions. For more information, see [Restrict or enable access to a service application in SharePoint Server](restrict-or-enable-access-to-a-service-application.md).           |
+| _\<ServiceApplicationName\>_|The name of the new Machine Translation Service application. |
+| _\<DatabaseName\>_|The name of the database that will host the Machine Translation Service logs. To create a database, provide a new unique name. |
+| _\<DatabaseServer\>_|The name of the database server that will hold the work items for the Machine Translation Service. |
+| _\<ApplicationPoolName\>_|The name of an existing application pool in which the new Machine Translation Service should run.  <br/> **Important:** The account that is used by the application pool must also have Full Control permissions to the User Profile service application. If you create an application pool and a new account, ensure that you add the account to the list of accounts that can use the User Profile service application, and grant it Full Control permissions. For more information, see [Restrict or enable access to a service application in SharePoint Server](restrict-or-enable-access-to-a-service-application.md).           |
    
 1. Open SharePoint Management Shell.
     
@@ -238,13 +238,13 @@ Refer to the following table in step 2.
 
 | Variable name | Description |
 |:-----|:-----|
-| _\<ServiceApplicationName\>_ <br/> |The name of the Machine Translation service application.  <br/> |
-| _\<TimerJobFrequency\>_ <br/> |The frequency, in minutes (1-59), with which groups of translations are started.  <br/> |
-| _\<MaximumTranslationAttempts\>_ <br/> |The maximum number of times (1-10) a translation is tried before its status is set to **Failed**.  <br/> |
-| _\<JobExpirationDays\>_ <br/> |The number of days (1-1,000) completed jobs are kept in the job history log.  <br/> |
-| _\<MaximumSyncTranslationRequests\>_ <br/> |The maximum number of synchronous translation requests (0-300).  <br/> |
-| _\<RecycleProcessThreshold\>_ <br/> |The number of documents (1-1,000) to be converted before the conversion process is restarted.  <br/> |
-| _\<DisableBinaryFileScan\>_ <br/> |Either 0 (false) or 1 (true).  <br/> |
+| _\<ServiceApplicationName\>_|The name of the Machine Translation service application. |
+| _\<TimerJobFrequency\>_|The frequency, in minutes (1-59), with which groups of translations are started. |
+| _\<MaximumTranslationAttempts\>_|The maximum number of times (1-10) a translation is tried before its status is set to **Failed**. |
+| _\<JobExpirationDays\>_|The number of days (1-1,000) completed jobs are kept in the job history log. |
+| _\<MaximumSyncTranslationRequests\>_|The maximum number of synchronous translation requests (0-300). |
+| _\<RecycleProcessThreshold\>_|The number of documents (1-1,000) to be converted before the conversion process is restarted. |
+| _\<DisableBinaryFileScan\>_|Either 0 (false) or 1 (true). |
    
 1. Open SharePoint Management Shell.
     
