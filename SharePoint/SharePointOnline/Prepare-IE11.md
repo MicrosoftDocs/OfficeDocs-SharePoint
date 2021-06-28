@@ -38,9 +38,9 @@ For customers who want guidance on how to plan, deploy, or adopt Microsoft Edge,
 
 And for customers who prefer to get started on their own, we have [self-guided deployment and configuration materials](/deployedge/) on our Docs site, complete with a [series from Microsoft Mechanics](https://www.youtube.com/playlist?list=PLXtHYVsvn_b-uXh1tMeYpT-0iD8tD3tFy).
 
-## Use sync instead of Open with Explorer
+## Use sync instead of Open with Explorer or View in File Explorer
 
-[Open with Explorer](https://support.microsoft.com/office/66b574bb-08b4-46b6-a6a0-435fd98194cc) relies on Internet Explorer 11 and isn’t available in newer browsers like Microsoft Edge. We recommend using the OneDrive sync app to [sync SharePoint files with your computer](https://support.microsoft.com/office/6de9ede8-5b6e-4503-80b2-6190f3354a88), rather than using Open with Explorer.
+[Open with Explorer and View in File Explorer](https://support.microsoft.com/office/66b574bb-08b4-46b6-a6a0-435fd98194cc) rely on Internet Explorer 11 and aren’t available in newer browsers like Microsoft Edge. We recommend using the OneDrive sync app to [sync SharePoint files with your computer](https://support.microsoft.com/office/6de9ede8-5b6e-4503-80b2-6190f3354a88), rather than using either the Open with Explorer or the View in Explorer command.
 
 Sync with [OneDrive Files On-Demand](https://support.microsoft.com/office/0e6860d3-d9f3-4971-b321-7092438fb38e) helps you work with all your cloud files in File Explorer without having to download all the files and use storage space on your device. For easy access to files that people share with you or that you find in SharePoint or Teams, you can [add shortcuts to shared folders](https://support.microsoft.com/office/d66b1347-99b7-4470-9360-ffc048d35a33). The shortcuts then appear in your OneDrive so you can find and work with the files.
 
@@ -54,7 +54,7 @@ To get started deploying and configuring OneDrive in your environment and migrat
 - Versions of Windows that don't support [Files On-Demand](https://support.microsoft.com/office/0e6860d3-d9f3-4971-b321-7092438fb38e). Files On-Demand requires Windows 10 Fall Creators Update (version 1709 or later) or Windows Server 2019. However, selective sync can be used as a workaround.
 
 > [!NOTE]
-> We understand that some customers may continue to use Open with Explorer to access document libraries. To avoid disruption, these customers will be able to use this feature for a limited time in the classic experience when they go to a document library in Internet Explorer 11. We encourage all customers to move to OneDrive sync for a better user experience and easier access to files.
+> We understand that some customers may continue to use Open with Explorer or View in File Explorer to access document libraries. To avoid disruption, these customers will be able to use Open with Explorer or View in File Explorer when they go to a document library in Internet Explorer 11. These features remain in maintenance mode and aren't receiving further development. We encourage all customers to move to OneDrive sync for a better user experience and easier access to files.
 
 ## Use Power Apps to automate business processes
   
