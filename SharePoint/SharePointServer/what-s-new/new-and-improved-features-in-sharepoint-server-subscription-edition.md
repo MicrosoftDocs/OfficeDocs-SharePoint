@@ -59,7 +59,7 @@ SharePoint Server Subscription Edition also supports rotational signing certific
 ### People picker PowerShell cmdlet improvement for trusted authentication method
 <a name="people"> </a>
 
-In SharePoint Server Subscription Edition people picker is enchaned to search and pick user in UPA to help you avoid creating a customized claim provider. With the improved PowerShell cmdlet you can easily reconfigure `SPTrustedIdentityTokenIssuer` and `UPABackedClaimProvider`.
+In SharePoint Server Subscription Edition people picker is enhanced to search and pick user in UPA to help you avoid creating a customized claim provider. With the improved PowerShell cmdlet, you can easily reconfigure `SPTrustedIdentityTokenIssuer` and `UPABackedClaimProvider`.
 
 ### Improved Integrated Windows authentication over TLS
 <a name="IIW"> </a>
@@ -73,7 +73,7 @@ SharePoint Server Subscription Edition will avoid this increased latency and con
 ### Windows Server 2022
 <a name="server"> </a>
 
-Windows Server 2022 includes a variety of new features and improvements in virtualization, networking, security, and more, such as:
+Windows Server 2022 includes various new features and improvements in virtualization, networking, security, and more, such as:
 
  - Performance improvements in the Hyper-V virtual switch to reduce CPU load.
  
@@ -86,7 +86,7 @@ Windows Server 2022 includes a variety of new features and improvements in virtu
 ### Windows Server Core
 <a name="core"> </a>
 
-Windows Server Core is a leaner Windows Server deployment type compared to the classic Windows Server with Desktop Experience. Server Core minimizes the number of OS features and services that are installed and running to only those that are truly needed for a server. This reduces the demand on system resources (CPU, RAM, and disk space) as well as the potential attack surface for security vulnerabilities.
+Windows Server Core is a leaner Windows Server deployment type compared to the classic Windows Server with Desktop Experience. Server Core minimizes the number of OS features and services that are installed and running to only those that are truly needed for a server. This reduces the demand on system resources (CPU, RAM, and disk space) and the potential attack surface for security vulnerabilities.
 
 ### Upgrading directly from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)
 <a name="upgrade"> </a>
@@ -148,7 +148,7 @@ You can also change the SharePoint web application IIS bindings through Central 
 ### Easier AAM configuration for Central Administration
 <a name="aamcon"> </a>
 
-You can now specify the public AAM URL directly in the Central Administration command line tools, bringing them to parity with the content web application command line tools.  This can be specified via the optional `-Url <String>` parameter in the following PowerShell cmdlets and `PSConfig.exe` command line utility:
+You can now specify the public AAM URL directly in the Central Administration command-line tools, bringing them to parity with the content web application command-line tools.  This can be specified via the optional `-Url <String>` parameter in the following PowerShell cmdlets and `PSConfig.exe` command-line utility:
 
  - `New-SPCentralAdministration`
  
@@ -228,7 +228,7 @@ The `Stop-SPDistributedCacheServiceInstance` cmdlet is improved to better suppor
 
 You can specify the time limit for a graceful shutdown data transfer to complete via the `-Timeout` parameter.  If the `-Timeout` parameter isn't specified, the default is 900 seconds (5 minutes). You can also specify the `-Force` switch parameter to force a Distributed Cache service instance to shut down, even if it isn’t able to complete a graceful shutdown before it times out.
 
-To improve the management of Distributed Cache in SharePoint Server Subscription Edition , the following new PowerShell cmdlets are introduced:
+To improve the management of Distributed Cache in SharePoint Server Subscription Edition, the following new PowerShell cmdlets are introduced:
 
  - `New-SPCache`
  
@@ -243,7 +243,7 @@ These cmdlets work similar to the `New-Cache`,`Get-Cache`, and `Get-CacheStatist
   
 In previous versions of SharePoint, you had to specify the `AuthenticationProvider` parameter in the `New-SPWebApplication` and `New-SPWebApplicationExtension` PowerShell cmdlets to create web applications using Windows Claims authentication. If you didn't, the web application would have been created in the Windows Classic authentication mode and you would have received a warning. 
 
-As the Windows Classic authentication mode is no longer supported, the behavior of these PowerShell cmdlets have changed when you don't specify the `AuthenticationProvider` parameter. In SharePoint Server Subscription Edition, the PowerShell cmdlet creates web applications in Windows claims mode by default and the warning message will no longer be displayed. The Central Administration web application will continue to use Windows Classic authentication.
+As the Windows Classic authentication mode is no longer supported, the behaviors of these PowerShell cmdlets have changed when you don't specify the `AuthenticationProvider` parameter. In SharePoint Server Subscription Edition, the PowerShell cmdlet creates web applications in Windows claims mode by default and the warning message will no longer be displayed. The Central Administration web application will continue to use Windows Classic authentication.
 
 ### Introducing Remove-SPConfigurationObject PowerShell cmdlet
 <a name="resp"> </a>
@@ -338,7 +338,7 @@ It can also change the ASP.NET view state decryption and validation keys of a Sh
 ### Accessibility improvements across modern UX
 <a name="aiamu"> </a>
   
-Screen reader announces the incorrect position for menu items save and close, discard changes, and publish. Screen reader announces the incorrect position for command bar controls in documents page. Screen reader announces the incorrect position for command bar controls in documents page. It ensures buttons have discernible text.
+Screen reader announces the incorrect positions for menu items save and close, discard changes, and publish. Screen reader announces the incorrect position for command bar controls in documents page. Screen reader announces the incorrect position for command bar controls in documents page. It ensures buttons have discernible text.
 
 ### Brick layout for document library thumbnails and image gallery web part
 <a name="briclil"> </a>
@@ -363,11 +363,11 @@ If users select a single file and click **Download** in the command bar, the fil
 
 The following are limitation on the bulk download feature: 
 
- 1.	Each single file can't exceed 10GB.
+ 1.	Each single file can't exceed 10 GB.
  
- 2.	Total size of all the selected files can't exceed 20GB.
+ 2.	Total size of all the selected files can't exceed 20 GB.
  
- 3.	Maximum level of folders are limited to 100 levels.
+ 3.	Maximum level of folders is limited to 100 levels.
  
  4.	No more than 10000 files can be downloaded at once.
   
@@ -401,5 +401,5 @@ SharePoint managed account object is no longer required. Instead, `PSCredential`
 ### Remote Share Provider diagnostic tool
 <a name="rspdt"> </a>
   
-This new PowerShell cmdlet helps admin to validate the data consistency of content database which is remote share provider enabled. This makes it easier for admin to figure out what are the problems in the remote storage.
+This new PowerShell cmdlet helps admin to validate the data consistency of content database that is remote share provider enabled. This makes it easier for admin to figure out what are the problems in the remote storage.
 
