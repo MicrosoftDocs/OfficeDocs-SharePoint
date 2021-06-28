@@ -51,7 +51,7 @@
 ## [Viva Connections]()
 ### [Plan, build, and manage a home site](home-site-plan.md)
 ### [Enable and set up global navigation](sharepoint-app-bar.md)
-### [Add Viva Connections](viva-connections.md)
+### [Add Viva Connections to Microsoft Teams desktop](viva-connections.md)
 ## [Lists]()
 ### [Control Microsoft Lists](control-lists.md)
 ## [Sample sites]()
