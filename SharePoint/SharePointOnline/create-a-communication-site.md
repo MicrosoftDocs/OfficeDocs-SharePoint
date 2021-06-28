@@ -20,7 +20,7 @@ search.appverid:
 description: "Learn how to create a SharePoint communication site for your organization"
 ---
 
-# Guided Walkthrough - Create a Communication site for your organization
+# Guided Walkthrough - Create a communication site for your organization
 
 In this article, we show you elements of a communication site to inspire you and help you learn how to create similar sites for your own organization. In this example, the site is optimized to communicate your strategy and guide employees in how to express your brand in their work.
 
@@ -30,7 +30,7 @@ Once you have your created your site and know how to edit pages, you can use the
 <br>
 <br>
 
-## Example Communication site
+## Example communication site
 
 |  Image of the homepage               |  Customization instructions                |
 | :------------------- | :------------------- |
