@@ -38,7 +38,9 @@ It's now possible to change the SharePoint domain name for your organization in 
 > - This feature is not available for organizations that have set up multi-geo.
   
 > [!NOTE]
-> This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses. For info about changing a site address, for example, from `https://contoso.sharepoint.com/sites/sample1` to  `https://contoso.sharepoint.com/sites/sample2`, see [Change a site address](change-site-address.md).  
+> - This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses.
+> - For info about changing a site address, for example, from `https://contoso.sharepoint.com/sites/sample1` to  `https://contoso.sharepoint.com/sites/sample2`, see [Change a site address](change-site-address.md).  
+> - When you rename your SharePoint domain, we create a redirect at the previous address.
 
 ## Limitations
 
@@ -144,6 +146,10 @@ It's now possible to change the SharePoint domain name for your organization in 
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
 
 2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+
+   Example: 
+
+   `Connect-SPOService -Url "https://contoso-admin.sharepoint.com"`
     
 3. Run the following command to specify the new domain name:
   
@@ -153,11 +159,13 @@ It's now possible to change the SharePoint domain name for your organization in 
 
     Where "DomainName" is the part before "sharepoint.com" or "onmicrosoft.com" and "ScheduledDateTime" is at least 24 hours in the future, but not more than 30 days. 
 
-Example: 
+    Example: 
 
-> `Start-SPOTenantRename -DomainName "fabrikam" -ScheduledDateTime "2021-12-31T10:25:00"`
+    `Start-SPOTenantRename -DomainName "fabrikam" -ScheduledDateTime "2021-12-31T10:25:00"`
 
 You can get the status of the rename by running `Get-SPOTenantRenameStatus`.
+
+During and after the rename, you can get the state of a site by running `Get-SPOSiteRenameState`. For more info about this cmdlet, see [Get-SPOSiteRenameState](/powershell/module/sharepoint-online/get-spositerenamestate).
 
 ## Step 3: Review features and settings after the rename
 
