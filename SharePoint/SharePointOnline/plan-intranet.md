@@ -134,7 +134,7 @@ For example, create a table like the following to list business scenarios that y
 |**As an...**|**I need to...**|**So that...**|**I know this is successful when...**|
 |:-------------------|:---------------|:-----------|:------------------------------------|
 |Employee|Understand and be able to update my benefits|I can take advantage of a key lifecycle benefit|Help requests are reduced|
-|Employee|Learn about how to use the self-service benefits portal|Make updates on my own|THelp requests are reduced|
+|Employee|Learn about how to use the self-service benefits portal|Make updates on my own|Help requests are reduced|
 |HR employee|Promote the use of the self-service benefits portal|I can spend more time working with employees on unique benefits questions and scenarios|All of my employee interactions are about individual critical scenarios|
 
 From the high priority scenarios, identify which ones meet these three key criteria:
