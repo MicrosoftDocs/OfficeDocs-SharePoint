@@ -196,9 +196,5 @@ In the example shown below, the web parts are in the second column of a three-co
 [Back to top](#example-communication-site)
 
 ### Want more?
-Get inspired with more examples in the [SharePoint Look Book](https://sharepointlookbook.azurewebsites.net/).
-
-
-
-
+Get inspired with more examples in the [SharePoint Look Book](https://sharepointlookbook.azurewebsites.net/)
 
