@@ -42,7 +42,7 @@
 ##### [Hardware and software requirements](../install/hardware-and-software-requirements-subscription-edition)
 #### [Install SharePoint Subscription edition](../install/install-sharepoint-subscription-edition)
 #### [Uninstall SharePoint Subscription edition](../install/uninstall-for-sharepoint-server-subscription-edition)
-#### [Repair SharePoint Server Subscription edition](../install/repair-sharepoint-server-subscription-edition)
+#### [Repair SharePoint Server Subscription edition](../install/repair-sh)
 ### [Install for SharePoint Server 2019](../install/install-for-sharepoint-server-2019.md)
 #### [System requirements for SharePoint Servers 2016 and 2019](../install/system-requirements-for-sharepoint-server-2016.md)
 ##### [Hardware and software requirements](../install/hardware-and-software-requirements-2019.md)

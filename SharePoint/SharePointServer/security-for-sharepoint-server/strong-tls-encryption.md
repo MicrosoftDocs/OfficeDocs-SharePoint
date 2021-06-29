@@ -20,7 +20,7 @@ description: "This article describes the strong encryption of Transport Layer Se
 ---
 
 
-
+# Encryption of the Strong TLS
 [!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
 ​SSL/TLS encrypts data between a client and a server, but some types of encryption are stronger than others. SharePoint Server v.Next will utilize the advanced security capabilities of Windows Server 2022 to ensure that TLS connections made to the server only use the strongest encryption.
