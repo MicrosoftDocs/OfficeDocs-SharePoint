@@ -31,9 +31,9 @@ Now that you are familair with the phases, roles, and tasks needed to create an 
 
 | Role                 |Exploration tasks            |                 
 | :------------------- | :------------------- |
-|[Organization intranet owners](#organization-intranet-owners)| Identify your key sponsors and stakeholders and review key organizational priorities. Document a vision that will help provide direction and help you prioritize opportunities.| 
-|[IT pros / Admins](#it-pros-and-admins)| Organize a core team to plan governance — make sure you align your governance decisions to business goals.| 
-|[Business owners / site owners](#business-owners-and-site-owners)| Help identify key organizational opportunities and priorities.|
+|Organization intranet owners| Identify your key sponsors and stakeholders and review key organizational priorities. Document a vision that will help provide direction and help you prioritize opportunities.| 
+|IT pros / Admins| Organize a core team to plan governance — make sure you align your governance decisions to business goals.| 
+|Business owners / site owners| Help identify key organizational opportunities and priorities.|
 
 ## Align
 
@@ -45,10 +45,10 @@ Now that you are familair with the phases, roles, and tasks needed to create an 
 
 | Role                 |Aligning tasks           |                
 | :------------------- | :------------------- |
-| [Organization intranet owners](#organization-intranet-owners) | Communicate goals and progress from project start to finish. Director of the branding direction, governance strategy, information architecture, change management, and product adoption.| 
-|[IT pros / Admins](#it-pros-and-admins)| Responsible for platform integration, content migration, performance, scalability, and user training. | 
-|[Business owners / site owners](#business-owners-and-site-owners)| Develop and plan solutions to business objectives. Responsible for site permissions, content audit, and content migration. | 
-| [Content authors](#content-authors)| Authority on content best practices, content creation, content management, and page design.|
+|Organization intranet owners| Communicate goals and progress from project start to finish. Director of the branding direction, governance strategy, information architecture, change management, and product adoption.| 
+|IT pros / Admins| Responsible for platform integration, content migration, performance, scalability, and user training. | 
+|Business owners / site owners]| Develop and plan solutions to business objectives. Responsible for site permissions, content audit, and content migration. | 
+| Content authors| Authority on content best practices, content creation, content management, and page design.|
 
 ## Implement
 
@@ -60,10 +60,10 @@ Now that you are familair with the phases, roles, and tasks needed to create an 
 
 | Role                 |Implementation tasks           |                
 | :------------------- | :------------------- |
-| [Organization intranet owners](#organization-intranet-owners) | Get user feedback along the way. Use findings from user feedback to learn and pivot your intranet plan. | 
-|[IT pros / Admins](#it-pros-and-admins)| Implement decisions made by the intranet stakeholders regarding site creation, navigation, search, branding, and publishing. | 
-|[Business owners / site owners](#business-owners-and-site-owners)|  Use business objectives to drive decisions around site creation, navigation, branding, and audience targeting. | 
-| [Content authors](#content-authors)| Create solutions to business objectives by creating and sharing relevant content with the right audiences. |
+|Organization intranet owners | Get user feedback along the way. Use findings from user feedback to learn and pivot your intranet plan. | 
+|IT pros / Admins| Implement decisions made by the intranet stakeholders regarding site creation, navigation, search, branding, and publishing. | 
+|Business owners / site owners|  Use business objectives to drive decisions around site creation, navigation, branding, and audience targeting. | 
+|Content authors| Create solutions to business objectives by creating and sharing relevant content with the right audiences. |
 
 ## Engage, manage, and maintain
 
@@ -77,10 +77,10 @@ Now that you are familair with the phases, roles, and tasks needed to create an 
 
 | Role                 |Management tasks          |             
 | :------------------- | :------------------- |
-| [Organization intranet owners](#organization-intranet-owners) | Celebrate the launch of your new intranet. Communicate goals and progress regularly after the launch. | 
-| [IT pros / Admins](#it-pros-and-admins)|Communicate what's new with intranet stakeholders and business owners. Educate users about publishing rules like site creation and content retention policies.|
-| [Business owners / site owners](#business-owners-and-site-owners) | Schedule content audits and use site usage metrics to measure progress. | 
-| [Content authors](#content-authors)|Refresh existing content, publish new content and participate in scheduled content audits to keep content up-to-date and compliant.|
+| Organization intranet owners | Celebrate the launch of your new intranet. Communicate goals and progress regularly after the launch. | 
+| IT pros / Admins|Communicate what's new with intranet stakeholders and business owners. Educate users about publishing rules like site creation and content retention policies.|
+| Business owners / site owners | Schedule content audits and use site usage metrics to measure progress. | 
+| Content authors|Refresh existing content, publish new content and participate in scheduled content audits to keep content up-to-date and compliant.|
 
 ## Up next
 
