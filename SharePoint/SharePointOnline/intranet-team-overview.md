@@ -30,8 +30,8 @@ Whether you're the organization intranet owners, an IT Professional or administr
 **Who should use this roadmap?**
 
 - Organization intranet owners — This is the person managing the overall direction and coordination of your organization's intranet.
-- IT pros and admins — One or more IT and SharePoint administrators who will be responsible for managing the backend configuration and implementation for your organization's intranet.
-- Business owners and site owners — The various stakeholders who will be responsible for creating and maintaining portions of the intranet.
+- IT pros and admins—One or more IT and SharePoint administrators who will be responsible for managing the backend configuration and implementation for your organization's intranet.
+- Business owners and site owners—The various stakeholders who will be responsible for creating and maintaining portions of the intranet.
 - Content authors — The people creating and managing content on sites and pages.
 
 **What you'll learn**:
@@ -47,7 +47,7 @@ Intranets are a constant work in progress and are never really considered done. 
 
 **How to think about an intelligent vs traditional intranet design**
 
-The new, modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience](trad-vs-modern-intranet.md) makes it easier for anyone to create beautiful, dynamic sites and pages that are accessible and mobile-ready. Modern SharePoint supports intelligent workplaces — those that leverage the collective knowledge of current users, share and collaborate easily, and engage audiences with targeted content and news. 
+The new, modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience](trad-vs-modern-intranet.md) makes it easier for anyone to create beautiful, dynamic sites and pages that are accessible and mobile-ready. Modern SharePoint supports intelligent workplaces — those that apply the collective knowledge of current users, share and collaborate easily, and engage audiences with targeted content and news. 
 
 
 | Traditional intranet           | Intelligent intranet                |
