@@ -62,12 +62,12 @@ The Machine Translation Service translates files up to a certain size, as shown 
   
 **Table: Supported file types and maximum file size limits for machine translation**
 
-|**File type**|**File extensions**|**Maximum file size**|
+| File type | File extensions | Maximum file size |
 |:-----|:-----|:-----|
-|Microsoft Word document parser  <br/> |.doc  <br/> .docm  <br/> .docx  <br/> .dot  <br/> .dotm  <br/> .dotx  <br/> .rtf  <br/> |524,288 KB  <br/> |
-|HTML parser  <br/> |.aspx  <br/> .htm  <br/> .html  <br/> .xhtm  <br/> .xhtml  <br/> |15,360 KB  <br/> |
-|Plain text parser  <br/> |.txt  <br/> |15,360 KB  <br/> |
-|XLIFF parser  <br/> |.xlf  <br/> |15,360 KB  <br/> |
+|Microsoft Word document parser |.doc  <br/> .docm  <br/> .docx  <br/> .dot  <br/> .dotm  <br/> .dotx  <br/> .rtf |524,288 KB |
+|HTML parser |.aspx  <br/> .htm  <br/> .html  <br/> .xhtm  <br/> .xhtml |15,360 KB |
+|Plain text parser |.txt |15,360 KB |
+|XLIFF parser |.xlf |15,360 KB |
    
 The maximum character count for Microsoft Word documents is 10,000,000.
   
@@ -80,11 +80,11 @@ Refer to the following table in step 7 below.
   
 **Table: Database section properties**
 
-|**Item**|**Action**|
+| Item | Action |
 |:-----|:-----|
-|**Database Server** <br/> |Type the name of the database server and SQL Server instance that you want to use in the format  _ServerName\Instance_. You can also use the default entry.  <br/> |
-|**Database Name** <br/> |Type a unique name for the database.  <br/> |
-|**Database Authentication** <br/> | Select the authentication that you want to use by doing one of the following:  <br/>  To use Windows authentication, leave this option selected. We recommend this option because Windows authentication automatically encrypts the password when it connects to SQL Server.  <br/>  To use SQL authentication, choose **SQL authentication**. In the **Account** box, type the name of the account that you want the service application to use to authenticate to the SQL Server database, and then type the password in the **Password** box.  <br/> **Note:** <br/>  The SQL authentication option sends a password that is not encrypted to SQL Server. We recommend that you use SQL authentication only if you force protocol encryption to SQL Server or encrypt network traffic by using IPsec.  <br/> |
+|**Database Server**|Type the name of the database server and SQL Server instance that you want to use in the format  _ServerName\Instance_. You can also use the default entry. |
+|**Database Name**|Type a unique name for the database. |
+|**Database Authentication**| Select the authentication that you want to use by doing one of the following:  <br/>  To use Windows authentication, leave this option selected. We recommend this option because Windows authentication automatically encrypts the password when it connects to SQL Server.  <br/>  To use SQL authentication, choose **SQL authentication**. In the **Account** box, type the name of the account that you want the service application to use to authenticate to the SQL Server database, and then type the password in the **Password** box.  <br/> **Note:** <br/>  The SQL authentication option sends a password that is not encrypted to SQL Server. We recommend that you use SQL authentication only if you force protocol encryption to SQL Server or encrypt network traffic by using IPsec. |
    
 ### To create a Machine Translation service application by using Central Administration
 
@@ -96,16 +96,16 @@ Refer to the following table in step 7 below.
     
 4. In the **Application Pool** section, do one of the following: 
     
-  - Choose **Use existing application pool**, and then select the application pool that you want to use from the drop-down list.
+   - Choose **Use existing application pool**, and then select the application pool that you want to use from the drop-down list.
     
-  - Choose **Create a new application pool**, type the name of the new application pool, and then under **Select a security account for this application pool**, do one of the following:
+   - Choose **Create a new application pool**, type the name of the new application pool, and then under **Select a security account for this application pool**, do one of the following:
     
-  - Choose **Predefined** to use a predefined security account, and then select the security account from the drop-down list. 
+   - Choose **Predefined** to use a predefined security account, and then select the security account from the drop-down list. 
     
-  - Choose **Configurable** to specify a new security account to be used for an existing application pool. You can create an account by choosing the **Register new managed account** link. 
+   - Choose **Configurable** to specify a new security account to be used for an existing application pool. You can create an account by choosing the **Register new managed account** link. 
     
-    > [!IMPORTANT]
-    > The account that is used by the application pool must also have Full Control permissions to the User Profile service application. If you create an application pool and a new account, ensure that you add the account to the list of accounts that can use the User Profile service application, and grant Full Control permissions to the account. For more information, see [Restrict or enable access to a service application in SharePoint Server](restrict-or-enable-access-to-a-service-application.md). 
+     > [!IMPORTANT]
+     > The account that is used by the application pool must also have Full Control permissions to the User Profile service application. If you create an application pool and a new account, ensure that you add the account to the list of accounts that can use the User Profile service application, and grant Full Control permissions to the account. For more information, see [Restrict or enable access to a service application in SharePoint Server](restrict-or-enable-access-to-a-service-application.md). 
   
 5. If you'll provide hosting services for other sites, and the sites that use it have site subscriptions, select **Run in partitioned mode**.
     
@@ -123,28 +123,28 @@ Refer to the following table in step 2 below.
   
 **Table: Variables used in the New-SPTranslationServiceApplication cmdlet**
 
-|**Variable name**|**Description**|
+| Variable name | Description |
 |:-----|:-----|
-| _\<ServiceApplicationName\>_ <br/> |The name of the new Machine Translation Service application.  <br/> |
-| _\<DatabaseName\>_ <br/> |The name of the database that will host the Machine Translation Service logs. To create a database, provide a new unique name.  <br/> |
-| _\<DatabaseServer\>_ <br/> |The name of the database server that will hold the work items for the Machine Translation Service.  <br/> |
-| _\<ApplicationPoolName\>_ <br/> |The name of an existing application pool in which the new Machine Translation Service should run.  <br/> **Important:** The account that is used by the application pool must also have Full Control permissions to the User Profile service application. If you create an application pool and a new account, ensure that you add the account to the list of accounts that can use the User Profile service application, and grant it Full Control permissions. For more information, see [Restrict or enable access to a service application in SharePoint Server](restrict-or-enable-access-to-a-service-application.md).           |
+| _\<ServiceApplicationName\>_|The name of the new Machine Translation Service application. |
+| _\<DatabaseName\>_|The name of the database that will host the Machine Translation Service logs. To create a database, provide a new unique name. |
+| _\<DatabaseServer\>_|The name of the database server that will hold the work items for the Machine Translation Service. |
+| _\<ApplicationPoolName\>_|The name of an existing application pool in which the new Machine Translation Service should run.  <br/> **Important:** The account that is used by the application pool must also have Full Control permissions to the User Profile service application. If you create an application pool and a new account, ensure that you add the account to the list of accounts that can use the User Profile service application, and grant it Full Control permissions. For more information, see [Restrict or enable access to a service application in SharePoint Server](restrict-or-enable-access-to-a-service-application.md).           |
    
 1. Open SharePoint Management Shell.
     
 2. At the PowerShell command prompt, type the following syntax:
     
-  ```
-  New-SPTranslationServiceApplication -Name "<ServiceApplicationName>" -DatabaseName "<DatabaseName>" -DatabaseServer "<DatabaseServer>" -ApplicationPool "<ApplicationPoolName>" -Default
-  ```
+   ```powershell
+   New-SPTranslationServiceApplication -Name "<ServiceApplicationName>" -DatabaseName "<DatabaseName>" -DatabaseServer "<DatabaseServer>" -ApplicationPool "<ApplicationPoolName>" -Default
+   ```
 
-    The table at the beginning of this procedure describes the variables used in the **New-SPTranslationServiceApplication** cmdlet. 
+   The table at the beginning of this procedure describes the variables used in the **New-SPTranslationServiceApplication** cmdlet. 
     
-    **Example**
+   **Example**
     
-  ```
-  New-SPTranslationServiceApplication -Name "Machine Translation Service Application" -DatabaseName "MachineTranslationDB" -DatabaseServer "ContosoDBServer" -ApplicationPool "ContosoAppPool" -Default
-  ```
+   ```powershell
+   New-SPTranslationServiceApplication -Name "Machine Translation Service Application" -DatabaseName "MachineTranslationDB" -DatabaseServer "ContosoDBServer" -ApplicationPool "ContosoAppPool" -Default
+   ```
 
 3. Start the Machine Translation Service. For more information, see [Start or stop a service in SharePoint Server](start-or-stop-a-service.md).
     
@@ -168,20 +168,20 @@ The following two procedures describe how to configure the Machine Translation S
     
 4. In the **Item Size Limits** section, do the following: 
     
-  - In the **Maximum file size for binary files in KB. Microsoft Word documents are binary files** box, type the maximum file size (100-524,288), in KB, for binary files. The default is 51,200. Files that exceed this limit won't be translated. 
+   - In the **Maximum file size for binary files in KB. Microsoft Word documents are binary files** box, type the maximum file size (100-524,288), in KB, for binary files. The default is 51,200. Files that exceed this limit won't be translated. 
     
-  - In the **Maximum file size for text files in KB. Plain-text, HTML, and XLIFF documents are text files** box, type the maximum file size (100-15,360), in KB, for text files. The default is 5,120. Files that exceed this limit won't be translated. 
+   - In the **Maximum file size for text files in KB. Plain-text, HTML, and XLIFF documents are text files** box, type the maximum file size (100-15,360), in KB, for text files. The default is 5,120. Files that exceed this limit won't be translated. 
     
-  - In the **Maximum character count for Microsoft Word documents** box, type the maximum character count (10,000-10,000,000) for Word documents. The default is 500,000. 
+   - In the **Maximum character count for Microsoft Word documents** box, type the maximum character count (10,000-10,000,000) for Word documents. The default is 500,000. 
     
 5. In the **Online Translation Connection** section, do one of the following: 
     
-  - Choose **Use default internet settings**. This is the default.
+   - Choose **Use default internet settings**. This is the default.
     
-  - Choose **Use the proxy specified**, and type a web proxy server and port number.
+   - Choose **Use the proxy specified**, and type a web proxy server and port number.
     
-    > [!NOTE]
-    > If you change this setting, you must stop and restart the Machine Translation Service after you configure it. 
+     > [!NOTE]
+     > If you change this setting, you must stop and restart the Machine Translation Service after you configure it. 
   
 6. In the **Translation Processes** section, type the number of translation processes (1-5). The default is 1. 
     
@@ -190,9 +190,9 @@ The following two procedures describe how to configure the Machine Translation S
   
 7. In the **Translation Throughput** section, do the following: 
     
-  - In the **Frequency with which to start translations (minutes)** box, type the frequency with which groups of translations are started, in minutes (1-59). The default is 15. 
+   - In the **Frequency with which to start translations (minutes)** box, type the frequency with which groups of translations are started, in minutes (1-59). The default is 15. 
     
-  - In the **Number of translations to start (per translation process)** box, type the number of translations (1-1,000) per process. This number represents the number of translations started per process every time translations are started. The default is 200. 
+   - In the **Number of translations to start (per translation process)** box, type the number of translations (1-1,000) per process. This number represents the number of translations started per process every time translations are started. The default is 200. 
     
 8. In the **Maximum Translation Attempts** section, type the maximum number of times (1-10) a translation is tried before its status is set to **Failed**. The default is 2.
     
@@ -203,21 +203,21 @@ The following two procedures describe how to configure the Machine Translation S
   
 10. In **Translation Quota** > **Maximum number of items which can be queued in a 24-hour period**, do one of the following:
     
-  - Choose **No limit**. This is the default.
+    - Choose **No limit**. This is the default.
     
-  - Choose **Limit per 24 hours**, and then type the maximum number of items (100-1,000,000) that can be queued in a 24-hour period.
+    - Choose **Limit per 24 hours**, and then type the maximum number of items (100-1,000,000) that can be queued in a 24-hour period.
     
 11. If you'll provide hosting services for other sites, and the sites that use it have site subscriptions, in **Translation Quota** > **Maximum number of items which can be queued in a 24-hour period per site subscription**, do one of the following:
     
-  - Choose **No limit**. This is the default.
+    - Choose **No limit**. This is the default.
     
-  - Choose **Limit per 24 hours**, and then type the maximum number of items (100-1,000,000) that can be queued in a 24-hour period per site subscription.
+    - Choose **Limit per 24 hours**, and then type the maximum number of items (100-1,000,000) that can be queued in a 24-hour period per site subscription.
     
 12. In the **Completed Job Expiration Time** section, do one of the following: 
     
-  - Choose **Days**, and then type the number of days (1-1,000) completed jobs are kept in the job history log. The default is 7.
+    - Choose **Days**, and then type the number of days (1-1,000) completed jobs are kept in the job history log. The default is 7.
     
-  - Choose **No expiration**.
+    - Choose **No expiration**.
     
 13. In the **Recycled Threshold** section, type the number of documents (1-1,000) to be converted before the conversion process is restarted. The default is 100. 
     
@@ -236,31 +236,31 @@ Refer to the following table in step 2.
   
 **Table: Variables used in the Set-SPTranslationServiceApplication cmdlet**
 
-|**Variable name**|**Description**|
+| Variable name | Description |
 |:-----|:-----|
-| _\<ServiceApplicationName\>_ <br/> |The name of the Machine Translation service application.  <br/> |
-| _\<TimerJobFrequency\>_ <br/> |The frequency, in minutes (1-59), with which groups of translations are started.  <br/> |
-| _\<MaximumTranslationAttempts\>_ <br/> |The maximum number of times (1-10) a translation is tried before its status is set to **Failed**.  <br/> |
-| _\<JobExpirationDays\>_ <br/> |The number of days (1-1,000) completed jobs are kept in the job history log.  <br/> |
-| _\<MaximumSyncTranslationRequests\>_ <br/> |The maximum number of synchronous translation requests (0-300).  <br/> |
-| _\<RecycleProcessThreshold\>_ <br/> |The number of documents (1-1,000) to be converted before the conversion process is restarted.  <br/> |
-| _\<DisableBinaryFileScan\>_ <br/> |Either 0 (false) or 1 (true).  <br/> |
+| _\<ServiceApplicationName\>_|The name of the Machine Translation service application. |
+| _\<TimerJobFrequency\>_|The frequency, in minutes (1-59), with which groups of translations are started. |
+| _\<MaximumTranslationAttempts\>_|The maximum number of times (1-10) a translation is tried before its status is set to **Failed**. |
+| _\<JobExpirationDays\>_|The number of days (1-1,000) completed jobs are kept in the job history log. |
+| _\<MaximumSyncTranslationRequests\>_|The maximum number of synchronous translation requests (0-300). |
+| _\<RecycleProcessThreshold\>_|The number of documents (1-1,000) to be converted before the conversion process is restarted. |
+| _\<DisableBinaryFileScan\>_|Either 0 (false) or 1 (true). |
    
 1. Open SharePoint Management Shell.
     
 2. At the PowerShell command prompt, type the following syntax:
     
-  ```
-  Set-SPTranslationServiceApplication -Identity "<ServiceApplicationName>" -EnableAllFileExtensions -UseDefaultlnternetSettings -TimerJobFrequency <TimerJobFrequency> -MaximumTranslationAttempts <MaximumTranslationAttempts> -JobExpirationDays <JobExpirationDays> -MaximumSyncTranslationRequests <MaximumSyncTranslationRequests> -RecycleProcessThreshold <RecycleProcessThreshold> -DisableBinaryFileScan <DisableBinaryFileScan>
-  ```
+   ```powershell
+   Set-SPTranslationServiceApplication -Identity "<ServiceApplicationName>" -EnableAllFileExtensions -UseDefaultlnternetSettings -TimerJobFrequency <TimerJobFrequency> -MaximumTranslationAttempts <MaximumTranslationAttempts> -JobExpirationDays <JobExpirationDays> -MaximumSyncTranslationRequests <MaximumSyncTranslationRequests> -RecycleProcessThreshold <RecycleProcessThreshold> -DisableBinaryFileScan <DisableBinaryFileScan>
+   ```
 
-    The table at the beginning of this procedure describes the variables used in the **Set-SPTranslationServiceApplication** cmdlet. 
+   The table at the beginning of this procedure describes the variables used in the **Set-SPTranslationServiceApplication** cmdlet. 
     
-    **Example**
+   **Example**
     
-  ```
-  Set-SPTranslationServiceApplication -Identity "Machine Translation Service Application" -EnableAllFileExtensions -UseDefaultlnternetSettings -TimerJobFrequency 30 -MaximumTranslationAttempts 3 -JobExpirationDays 14 -MaximumSyncTranslationRequests 20 -RecycleProcessThreshold 300 -DisableBinaryFileScan 1
-  ```
+   ```powershell
+   Set-SPTranslationServiceApplication -Identity "Machine Translation Service Application" -EnableAllFileExtensions -UseDefaultlnternetSettings -TimerJobFrequency 30 -MaximumTranslationAttempts 3 -JobExpirationDays 14 -MaximumSyncTranslationRequests 20 -RecycleProcessThreshold 300 -DisableBinaryFileScan 1
+   ```
 
 3. If you changed any of the following parameters, restart the service now:  `KeepAliveTimeout`,  `MaximumTranslationTime`,  `TotalActiveProcesses`,  `RecycleProcessThreshold`,  `WebProxyAddress`,  `MachineTranslationAddress`, or  `UseDefaultInternetSettings`. For more information, see [Start or stop a service in SharePoint Server](start-or-stop-a-service.md).
     
@@ -271,7 +271,7 @@ For more information, see [Set-SPTranslationServiceApplication](/powershell/modu
 
 - If the account that is used by the application pool that was assigned to the Machine Translation service application differs from the one used by the User Profile service application, you must add it to the list of accounts that can use the User Profile service application and grant it Full Control permissions. For more information, see [Restrict or enable access to a service application in SharePoint Server](restrict-or-enable-access-to-a-service-application.md).
     
-- Microsoft Custom Translator is a feature of Microsoft Translator and lets you achieve much higher adherence to the domain-specific terminology and style by training a custom translation system on previously translated in-domain documents. You can configure the Machine Translation Service to use the custom translation system by passing the category ID in the MachineTranslationCategory parameter. For more information about the Microsoft Custom Translator, see [What is Custom Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/custom-translator/overview)
+- Microsoft Custom Translator is a feature of Microsoft Translator and lets you achieve much higher adherence to the domain-specific terminology and style by training a custom translation system on previously translated in-domain documents. You can configure the Machine Translation Service to use the custom translation system by passing the category ID in the MachineTranslationCategory parameter. For more information about the Microsoft Custom Translator, see [What is Custom Translator?](/azure/cognitive-services/translator/custom-translator/overview).
     
 ## See also
 <a name="more"> </a>
