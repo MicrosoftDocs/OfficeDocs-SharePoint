@@ -39,7 +39,7 @@
 ## [Install](../install/install.md)
 ### [Install for SharePoint Server Subscription edition](../install/install-for-sharepoint-server-subscription.edition.md)
 #### [System requirements for SharePoint Subscription edition](../install/system-requirements-for-sharepoint-subscription-edition.md)
-##### [Hardware and software requirements](../install/hardware-and-software-requirements-subscription-edition.md)
+##### [Hardware and software requirements Subscription edition](../install/hardware-and-software-requirements-subscription-edition.md)
 #### [Install SharePoint Subscription edition](../install/install-sharepoint-subscription-edition.md)
 #### [Uninstall SharePoint Subscription edition](../install/uninstall-for-sharepoint-server-subscription-edition.md)
 #### [Repair SharePoint Server Subscription edition](../install/repair-sharepoint-server-subscription-edition.md)
