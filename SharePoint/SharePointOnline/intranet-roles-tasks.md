@@ -1,5 +1,5 @@
 ---
-title: "Intelligent intranet roadmap"
+title: "Intelligent intranet roles and tasks"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -10,72 +10,14 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid: MET150
-description: "Learn about planning and deploying a SharePoint intranet."
+description: "Introduction to roles, tasks, and timelines when deploying a SharePoint intranet."
 ms.collection: 
   - m365solution-spintranet
 ---
 
-# Intelligent intranet roadmap
+# Introduction to roles, tasks, and timelines
 
-Your intranet might include your organization's main landing page, portals for corporate communications, and individual sites for departments or divisions (like IT or HR). In this article, we look at the high-level tasks needed to create and maintain a successful intranet with SharePoint in Microsoft 365.
-
-Whether you're the organization intranet owners, an IT Professional or administrator, a site owner, or a content creator you're in the right place. Use this article as a guide to help you find the resources that you need for your role and the goals that you have for your intranet. As you read the sections below, follow the links for more detailed information on the areas that you're working on.
-
-**Roadmap contents**:
-
-- [Introduction to roles, tasks, and timelines](#introduction-to-roles-tasks-and-timelines)
-- Key tasks for the [organization intranet owners](#organization-intranet-owners)
-- Key tasks for [IT pros and admins](#it-pros-and-admins)
-- Key tasks for [business owners and site owners](#business-owners-and-site-owners)
-- Key tasks for [content authors](#content-authors)
-- How to [get started](#get-started)
-
-**Who should use this roadmap?**
-
-- [Organization intranet owners](#organization-intranet-owners) — This is the person managing the overall direction and coordination of your organization's intranet.
-- [IT pros and admins](#it-pros-and-admins) — One or more IT and SharePoint administrators who will be responsible for managing the backend configuration and implementation for your organization's intranet.
-- [Business owners and site owners](#business-owners-and-site-owners) — The various stakeholders who will be responsible for creating and maintaining portions of the intranet.
-- [Content authors](#content-authors) — The people creating and managing content on sites and pages.
-
-**What you'll learn**:
-
-- Understand, at a high level, the various roles and responsibilities of creating an intelligent intranet.
-- See what you can do with SharePoint out-of-the-box sites and web parts.
-- Framework for planning and aligning your intranet around strategic business outcomes.
-- Known success factors for creating engaging intranet experiences.
-
-**Keep in mind**:
-
-Intranets are a constant work in progress and are never really considered done. Make sure you have a plan to keep your content relevant, otherwise your intranet will start losing value on the day that you launch. Celebrate your initial launch, plan to monitor and maintain your intranet and its content over time as the organization changes and business goals evolve.
-
-**How to think about an intelligent vs traditional intranet design**
-
-The new, modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience]() makes it easier for anyone to create beautiful, dynamic sites and pages that are accessible and mobile-ready. Modern SharePoint supports intelligent workplaces — those that leverage the collective knowledge of current users, share and collaborate easily, and engage audiences with targeted content and news. 
-
-
-| Traditional intranet           | Intelligent intranet                |
-| :----------------------------- | :----------------------------- |
-| Communication primarily through email  | Communication primarily through [SharePoint sites](https://support.office.com/en-us/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732) and [community portals](https://support.office.com/en-us/article/video-what-is-yammer-47526868-b136-40cc-a80d-c870eadd9ba5)| 
-| Static information like FAQ| Dynamic information that's community generated in [Yammer](https://support.office.com/en-us/article/Video-What-is-Yammer-1b0f3b3e-89ee-4b66-aac5-30def12f287c)| 
-| Corporate news dominates the newsfeed | Personalized news and content is [targeted to specific audiences](https://support.office.com/en-us/article/target-files-news-and-pages-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) | 
-|Hierarchical collection of websites | Dynamic collection of experiences and services provided by independent site collections |
-
-**Key success factors**
-
-Over the years, we have learned about what makes an intranet successful. These factors can help accelerate the creation, adoption, and overall success of your intranet:
-
-- Ensure that your intranet goals are directly tied to [key business outcomes](./plan-intranet.md).
-- Have an executive sponsor and identify intranet champions.
-- Establish KPIs that are regularly communicated from the project's start to finish.
-- Design for simplicity and longevity.
-- Involve your business owners and users to get feedback during all stages of the design process.
-- Establish a governance plan that defines roles and responsibilities, guidelines, and best practices, compliance and retention, provisioning sites, and expectations for content management.
-- Audit existing content to ensure quality and relevancy before migrating to a new intranet.
-- Align your intranet with your organization brand and culture.
-- Enable social connection that encourages communication, engagement, and collaboration.
-- Train your content creators and your users.
-
-## Introduction to roles, tasks, and timelines
+When planning to create, or update, your organization's intranet, there will be several people involved. The best intranet teams are not very large but contain the right partners and stakeholder who can make decisions that serve the entire organization. 
 
 ### At-a-glance:
 
@@ -287,78 +229,13 @@ Help work groups connect and engage across your organization using Yammer. [Lea
 
 *You'll know you're done when* — You are regularly promoting news and events that start conversations and engage and connect wide audiences. 
 
-## Get started
+## Up next
 
-### Explore
+Learn more about how you can [get started](intranet-get-started.md) creating or updating your organization's intranet.
 
-![Image of the exploration process for creating an intranet](media/IntranetEnvision.png)
-
-- Identify your key sponsors and stakeholders and review key organizational priorities. Document a vision that will help provide direction and help you prioritize opportunities.
-- Align key outcome goals with SharePoint capabilities to identify where you may need to invest in customization. Consider whether an “intranet in a box” solution might be appropriate for your organization.
-- Think about governance. What processes will you need to create to provision, manage, and maintain sites and content? Do you have security, retention, or compliance goals that need to be considered?
-- Think about branding and architecture — do you want all sites to share a common look and feel?
-- Analyze possible opportunities to identify priorities.
-
-| Role                 |Exploration tasks            |                 
-| :------------------- | :------------------- |
-|[Organization intranet owners](#organization-intranet-owners)| Identify your key sponsors and stakeholders and review key organizational priorities. Document a vision that will help provide direction and help you prioritize opportunities.| 
-|[IT pros / Admins](#it-pros-and-admins)| Organize a core team to plan governance — make sure you align your governance decisions to business goals.| 
-|[Business owners / site owners](#business-owners-and-site-owners)| Help identify key organizational opportunities and priorities.|
-
-### Align
-
-![Image of the planning process for creating an intranet](media/IntranetPlan.png)
-
-- Work with business owners and IT to prioritize the intranet projects in your portfolio for the greatest business benefit in the shortest time.
-- Start by developing an understanding about what you need your intranet to accomplish and start organizing content assets and business outcomes. Organize depending on the needs of the business — by region, department, or function — and by the topics that your users care about.
-- As you prioritize your intranet projects, consider how to get the best performance and scalability from the portals that you build.
-
-| Role                 |Aligning tasks           |                
-| :------------------- | :------------------- |
-| [Organization intranet owners](#organization-intranet-owners) | Communicate goals and progress from project start to finish. Director of the branding direction, governance strategy, information architecture, change management, and product adoption.| 
-|[IT pros / Admins](#it-pros-and-admins)| Responsible for platform integration, content migration, performance, scalability, and user training. | 
-|[Business owners / site owners](#business-owners-and-site-owners)| Develop and plan solutions to business objectives. Responsible for site permissions, content audit, and content migration. | 
-| [Content authors](#content-authors)| Authority on content best practices, content creation, content management, and page design.|
-
-### Implement
-
-![Image of the building process for creating an intranet](media/IntranetBuild.png)
-
-- Communicate goals progress regularly.
-- Measure, learn, and pivot as you go.
-- Get feedback regularly.
-
-| Role                 |Implementation tasks           |                
-| :------------------- | :------------------- |
-| [Organization intranet owners](#organization-intranet-owners) | Get user feedback along the way. Use findings from user feedback to learn and pivot your intranet plan. | 
-|[IT pros / Admins](#it-pros-and-admins)| Implement decisions made by the intranet stakeholders regarding site creation, navigation, search, branding, and publishing. | 
-|[Business owners / site owners](#business-owners-and-site-owners)|  Use business objectives to drive decisions around site creation, navigation, branding, and audience targeting. | 
-| [Content authors](#content-authors)| Create solutions to business objectives by creating and sharing relevant content with the right audiences. |
-
-### Engage, manage, and maintain
-
-![Image of the managing process for an intranet](media/IntranetManage.png)
-
-- Celebrate the launch of your new intranet.
-- Use metrics to measure progress.
-- Communicate what's new.
-- Maintain high-quality content.
-- Educate users.
-
-| Role                 |Management tasks          |             
-| :------------------- | :------------------- |
-| [Organization intranet owners](#organization-intranet-owners) | Celebrate the launch of your new intranet. Communicate goals and progress regularly after the launch. | 
-| [IT pros / Admins](#it-pros-and-admins)|Communicate what's new with intranet stakeholders and business owners. Educate users about publishing rules like site creation and content retention policies.|
-| [Business owners / site owners](#business-owners-and-site-owners) | Schedule content audits and use site usage metrics to measure progress. | 
-| [Content authors](#content-authors)|Refresh existing content, publish new content and participate in scheduled content audits to keep content up-to-date and compliant.|
-
-## Related topics
+### Related topics
 
 [Create and launch healthy portals](/sharepoint/portal-health)
-
-[SharePoint adoption resources](https://resources.techcommunity.microsoft.com/resources/sharepoint-adoption/#tips-campaign)
-
-[Ways to work with SharePoint](https://support.office.com/article/ways-to-work-with-sharepoint-17688238-3285-47cf-b8c7-cba3764acbdf)
 
 [Guide to the Modern experience in SharePoint](./guide-to-sharepoint-modern-experience.md)
 
