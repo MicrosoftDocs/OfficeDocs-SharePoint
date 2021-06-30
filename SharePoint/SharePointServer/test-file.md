@@ -28,6 +28,6 @@ description: "SharePoint Server - test file"
 
 [!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
 
-
+[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-SPO-md](includes/appliesto-xxx-xxx-xxx-SUB-SPO-md.md)]
 
 
