@@ -15,11 +15,11 @@ ms.collection:
   - m365solution-spintranet
 ---
 
-# Get started planning, building, and managing your intranet
+# Get started creating your intelligent intranet
 
-Now that you are familair with the phases, roles, and tasks needed to create an intellgent intranet, review next steps and get started planning.
+Now that you are familiar with the key success factors, phases, roles, and tasks needed to create an intelligent intranet, review next steps and get started planning.
 
-## Explore and plan
+## Explore
 
 ![Image of the exploration process for creating an intranet](media/IntranetEnvision.png)
 
@@ -32,10 +32,10 @@ Now that you are familair with the phases, roles, and tasks needed to create an 
 | Role                 |Exploration tasks            |                 
 | :------------------- | :------------------- |
 |Organization intranet owners| Identify your key sponsors and stakeholders and review key organizational priorities. Document a vision that will help provide direction and help you prioritize opportunities.| 
-|IT pros / Admins| Organize a core team to plan governance — make sure you align your governance decisions to business goals.| 
+|IT pros / Admins| Organize a core team to plan governance—make sure you align your governance decisions to business goals.| 
 |Business owners / site owners| Help identify key organizational opportunities and priorities.|
 
-## Align
+## Align and plan
 
 ![Image of the planning process for creating an intranet](media/IntranetPlan.png)
 
@@ -50,13 +50,13 @@ Now that you are familair with the phases, roles, and tasks needed to create an 
 |Business owners / site owners]| Develop and plan solutions to business objectives. Responsible for site permissions, content audit, and content migration. | 
 | Content authors| Authority on content best practices, content creation, content management, and page design.|
 
-## Implement
+## Create and implement
 
 ![Image of the building process for creating an intranet](media/IntranetBuild.png)
 
-- Communicate goals progress regularly.
-- Measure, learn, and pivot as you go.
-- Get feedback regularly.
+- Communicate goals progress regularly
+- Measure, learn, and pivot as you go
+- Get feedback regularly
 
 | Role                 |Implementation tasks           |                
 | :------------------- | :------------------- |
@@ -69,11 +69,11 @@ Now that you are familair with the phases, roles, and tasks needed to create an 
 
 ![Image of the managing process for an intranet](media/IntranetManage.png)
 
-- Celebrate the launch of your new intranet.
-- Use metrics to measure progress.
-- Communicate what's new.
-- Maintain high-quality content.
-- Educate users.
+- Celebrate the launch of your new intranet
+- Use metrics to measure progress
+- Communicate what's new
+- Maintain high-quality content
+- Educate users
 
 | Role                 |Management tasks          |             
 | :------------------- | :------------------- |
@@ -84,7 +84,7 @@ Now that you are familair with the phases, roles, and tasks needed to create an 
 
 ## Up next
 
-Now that you understand key success factors, roles, and tasks to creating an intelligent intranet, [get started planning](plan-intranet.md)
+[Get started planning](plan-intranet.md) your intranet around initiatives that solve specific problems, can be implemented quickly, and will yeild a high return on investment. 
 
 
 ### Related topics
@@ -97,4 +97,4 @@ Now that you understand key success factors, roles, and tasks to creating an int
 
 [Plan your intranet](./plan-intranet.md)
 
-[Plan your communication site — get started](https://support.office.com/article/plan-your-sharepoint-site-get-started-35d9adfe-d5cc-462f-a63a-bae7f2529182?ui=en-US&rs=en-US&ad=US)
+[Plan your communication sites](https://support.office.com/article/plan-your-sharepoint-site-get-started-35d9adfe-d5cc-462f-a63a-bae7f2529182?ui=en-US&rs=en-US&ad=US)
