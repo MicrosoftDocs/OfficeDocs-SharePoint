@@ -123,9 +123,7 @@ Here's a high-level view of the procedures you have to complete in this section:
 <a name="step2"> </a>
 
 To continue, you need to install these tools on an on-premises SharePoint Server web server:
-  
-- Microsoft Online Services Sign-In Assistant
-    
+     
 - Azure Active Directory Module for Windows PowerShell
     
 - SharePoint in Microsoft 365 Management Shell
@@ -139,11 +137,9 @@ Authentication to SharePoint Server, SharePoint in Microsoft 365, and Azure Acti
   
 To install the online service management tools and configure the PowerShell window:
   
-1. Install the online service management tools:
+1. Install the [latest version of the Azure Active Directory Module for Windows PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx)
     
-2. Install the [latest version of the Azure Active Directory Module for Windows PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx)
-    
-3. Install the SharePoint in Microsoft 365 Management Shell:
+2. Install the SharePoint in Microsoft 365 Management Shell:
     
     [SharePoint in Microsoft 365 Management Shell (64 bit version)](https://go.microsoft.com/fwlink/?LinkId=392323)
     
