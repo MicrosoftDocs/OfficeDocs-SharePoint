@@ -138,7 +138,7 @@ When you select a built-in or custom view, you can add a card to your home page 
     ![A tracked view card](media/tracked-view.png)
 
 > [!NOTE]
-> If you remove a tracked view card from your home page, you can't add it back from the Add cards panel. YOu need to open the view on the Active sites page and select **Track view**.
+> If you remove a tracked view card from your home page, you can't add it back from the Add cards panel. You need to open the view on the Active sites page and select **Track view**.
 
 ## Search for a site
 <a name="search"> </a>
