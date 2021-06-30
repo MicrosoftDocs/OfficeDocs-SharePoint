@@ -13,6 +13,7 @@ search.appverid: MET150
 description: "Learn about planning and deploying a SharePoint intranet."
 ms.collection: 
   - m365solution-spintranet
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Intelligent intranet roadmap
