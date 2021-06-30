@@ -149,13 +149,13 @@ To install the online service management tools and configure the PowerShell wind
     
 3. To help ensure that you don't fill the buffer and lose any of your command history, increase the buffer size of the PowerShell window:
     
-1. Select the upper-left corner of the PowerShell window, and then select **Properties**.
+4. Select the upper-left corner of the PowerShell window, and then select **Properties**.
     
-2. In the PowerShell Properties window, select the **Layout** tab. 
+5. In the PowerShell Properties window, select the **Layout** tab. 
     
-3. Under Screen Buffer Size, set the **Height** field to **9999**, and then select **OK**.
+6. Under Screen Buffer Size, set the **Height** field to **9999**, and then select **OK**.
     
-4. This step loads the modules you downloaded so you can use them in your PowerShell session. Copy the following commands into your PowerShell session, and press <Enter>. 
+7. This step loads the modules you downloaded so you can use them in your PowerShell session. Copy the following commands into your PowerShell session, and press **Enter**. 
     
   ```
   Add-PSSnapin Microsoft.SharePoint.PowerShell
@@ -166,7 +166,7 @@ To install the online service management tools and configure the PowerShell wind
 
    If you need to run any of the configuration steps again later, remember to run these commands again to load the required modules and snap-ins in PowerShell.
     
-5. Enter the following commands to sign in to SharePoint in Microsoft 365, from the PowerShell command prompt:
+8. Enter the following commands to sign in to SharePoint in Microsoft 365, from the PowerShell command prompt:
     
   ```
   $cred=Get-Credential
