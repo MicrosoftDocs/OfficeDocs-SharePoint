@@ -154,7 +154,9 @@ In the Office apps, users can easily [open files saved in the Microsoft cloud](h
 
 You can choose one or more of the following options, depending on the number and location of files that you want to migrate.
 
-- **SharePoint Migration Tool**. To migrate files from file shares or on-premises SharePoint, you can use the SharePoint Migration Tool. For info, see [How the SharePoint Migration Tool works](/sharepointmigration/how-the-sharepoint-migration-tool-works/).
+- **Migration Manager**. Copy file shares or content from other cloud providers to Microsoft 365. [Learn more about migrating content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online).
+
+- **SharePoint Migration Tool**. To migrate SharePoint Server sites and content, you can use the SharePoint Migration Tool. For info, see [Overview of the SharePoint Migration Tool](/sharepointmigration/introducing-the-sharepoint-migration-tool).
 
 - **Known Folder Move**. If your users save most of their files to their Desktop, Documents, and Pictures folders, you can seamlessly move them to OneDrive using [Known Folder Move](/onedrive/redirect-known-folders) so users can continue working in the locations they're used to.  
     ![Enabling protection on a user's Desktop, Pictures, and Documents folder in OneDrive](media/sp-collabguide11.png)
@@ -169,7 +171,7 @@ If your organization uses SharePoint Server, setting up a hybrid environment can
 
 In the new SharePoint admin center, you can see [SharePoint activity and usage reports](get-started-new-admin-center.md), and go to the Microsoft 365 admin center for details.
 
-![Reporting screens in the SharePoint admin center](media/sp-collabguide12.png)
+![Reporting screens in the SharePoint admin center](media/new-home-page.png)
 
 ### Multi-geo
 
@@ -183,9 +185,9 @@ Microsoft Search helps users find files within modern SharePoint sites and from 
 
 As a global or SharePoint admin for your organization, you have a couple of options for managing SharePoint sites and settings:
 
-- **New SharePoint admin center**. In the new SharePoint admin center, you can create and delete sites, manage site settings, and manage organization-level settings for SharePoint and OneDrive. The **Active sites** page of the SharePoint admin center lets you view the SharePoint sites in your organization, including communication sites and sites that belong to Microsoft 365 Groups. It also lets you sort and filter sites, search for a site, and create new sites. [Get started with the new SharePoint admin center](./get-started-new-admin-center.md).
+- **New SharePoint admin center**. In the new SharePoint admin center, you can create and delete sites, manage site settings, and manage organization-level settings for SharePoint and OneDrive. The [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) of the SharePoint admin center lets you view the SharePoint sites in your organization, including communication sites and sites that belong to Microsoft 365 Groups. It also lets you sort and filter sites, search for a site, and create new sites. [Get started with the new SharePoint admin center](./get-started-new-admin-center.md).
 
-    ![The Active Sites page in the SharePoint admin center](media/2a18e27e-47ba-4370-8d91-cb6d75d746b5.png)
+    ![The Active Sites page in the SharePoint admin center](media/active-sites-page.png)
 
 - **Microsoft PowerShell**. The SharePoint Online Management Shell is a PowerShell module that lets you run command-line operations. It makes performing batch operations more efficient, and is the only way to perform some management tasks in SharePoint and OneDrive. [Get started with the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps&preserve-view=true).
 

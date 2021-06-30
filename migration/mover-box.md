@@ -25,7 +25,7 @@ When moving from Box to OneDrive for Business, user roles *on folders* will chan
 
 Ownership of files and folders is always implicitly set by virtue of copying data into a user in OneDrive for Business. 
 
-![Box to OneDrive for Business role comparison chart](/media/old-box-role-to-o365-role.png)
+![Box to OneDrive for Business role comparison chart](media/old-box-role-to-o365-role.png)
 
 >[!Note]
 >Mover only sets permissions on folders.
