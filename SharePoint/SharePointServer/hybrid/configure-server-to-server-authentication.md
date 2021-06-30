@@ -1,10 +1,10 @@
 ---
 title: "Configure server-to-server authentication from SharePoint Server to SharePoint in Microsoft 365"
-ms.reviewer: 
+ms.reviewer: neilh
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 6/21/2017
+ms.date: 6/30/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -102,19 +102,14 @@ When you set up server-to-server authentication for hybrid environments, you cre
   
 Here's a high-level view of the procedures you have to complete in this section:
   
-1. Configure the Security Token Service (STS) in SharePoint Server:
-    
-  - Create a new STS certificate.
-    
-  - Replace the default STS certificate on each server in your SharePoint Server farm.
-    
-2. Install online service management tools on a web server in your SharePoint Server farm.
-    
-3. Configure server-to-server authentication:
+   
+1. Install online service management tools on a web server in your SharePoint Server farm.
+
+2. Configure server-to-server authentication:
     
   - Set variables you'll be using in later steps.
     
-  - Upload the new on-premises STS certificate to SharePoint in Microsoft 365.
+  - Upload the built-in SharePoint Server STS certificate to SharePoint in Microsoft 365.
     
   - Add a Service Principal Name (SPN) to Azure.
     
@@ -128,9 +123,7 @@ Here's a high-level view of the procedures you have to complete in this section:
 <a name="step2"> </a>
 
 To continue, you need to install these tools on an on-premises SharePoint Server web server:
-  
-- Microsoft Online Services Sign-In Assistant
-    
+     
 - Azure Active Directory Module for Windows PowerShell
     
 - SharePoint in Microsoft 365 Management Shell
@@ -144,19 +137,11 @@ Authentication to SharePoint Server, SharePoint in Microsoft 365, and Azure Acti
   
 To install the online service management tools and configure the PowerShell window:
   
-1. Install the online service management tools:
+1. Install the [latest version of the Azure Active Directory Module for Windows PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx)
     
-1. Install the Microsoft Online Services Sign-In Assistant:
+2. Install the SharePoint in Microsoft 365 Management Shell:
     
-    [Microsoft Online Services Sign-In Assistant for IT Professionals BETA (64 bit version)](https://go.microsoft.com/fwlink/?LinkId=391943) (https://go.microsoft.com/fwlink/?LinkId=391943) 
-    
-    For additional info, see [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkId=392322) (https://go.microsoft.com/fwlink/?LinkId=392322). 
-    
-2. Install the [latest version of the Azure Active Directory Module for Windows PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx)
-    
-3. Install the SharePoint in Microsoft 365 Management Shell:
-    
-    [SharePoint in Microsoft 365 Management Shell (64 bit version)](https://go.microsoft.com/fwlink/?LinkId=392323) 
+    [SharePoint in Microsoft 365 Management Shell (64 bit version)](https://go.microsoft.com/fwlink/?LinkId=392323)
     
     For additional info, see [Introduction to the SharePoint in Microsoft 365 Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell). 
     
@@ -176,24 +161,12 @@ To install the online service management tools and configure the PowerShell wind
   Add-PSSnapin Microsoft.SharePoint.PowerShell
   Import-Module Microsoft.PowerShell.Utility
   Import-Module MSOnline -force
-  Import-Module MSOnlineExt -force
-  Import-Module Microsoft.Online.SharePoint.PowerShell -force
+  
   ```
 
    If you need to run any of the configuration steps again later, remember to run these commands again to load the required modules and snap-ins in PowerShell.
     
-5. Configure remoting in Microsoft PowerShell:
-    
-    From the PowerShell command prompt, enter the following commands:
-    
-  ```
-  enable-psremoting
-  new-pssession
-  ```
-
-   For more information, see [about_Remote_Requirements](/previous-versions//dd315349(v=technet.10)). 
-    
-6. Enter the following commands to sign in to SharePoint in Microsoft 365, from the PowerShell command prompt:
+5. Enter the following commands to sign in to SharePoint in Microsoft 365, from the PowerShell command prompt:
     
   ```
   $cred=Get-Credential
@@ -253,7 +226,7 @@ In this step, you upload the STS certificate for your SharePoint Server farm to 
   
 ![The architecture involved when a STS certificate is uploaded to SharePoint in Microsoft 365](../media/TrustSTS.jpg)
   
-The commands in this step add the new on-premises STS certificate (public key only) to the SharePoint in Microsoft 365 *principal object*  of your Microsoft 365 organization. 
+The commands in this step add the on-premises STS certificate (public key only) to the SharePoint in Microsoft 365 *principal object*  of your Microsoft 365 organization. 
   
 From the PowerShell command prompt, type the following commands.
   
