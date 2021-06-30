@@ -19,7 +19,7 @@ ms.collection:
 
 When planning to create, or update, your organization's intranet, there will be several people involved. The best intranet teams are not very large but contain the right partners and stakeholder who can make decisions that serve the entire organization. 
 
-### At-a-glance:
+## Roles and tasks at-a-glance:
 
 |Your role|Aligning tasks|Implementation tasks|Management tasks|
 |:--------|:-------------|:----------|:--------------------|
