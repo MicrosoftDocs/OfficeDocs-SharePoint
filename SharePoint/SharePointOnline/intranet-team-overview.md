@@ -1,5 +1,5 @@
 ---
-title: "Intelligent intranet roadmap"
+title: "Intelligent intranet introduction"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -15,7 +15,7 @@ ms.collection:
   - m365solution-spintranet
 ---
 
-# Intelligent intranet roadmap
+# Intelligent intranet introduction and roadmap
 
 Your intranet might include your organization's main landing page, portals for corporate communications, and individual sites for departments or divisions (like IT or HR). In this article, we look at the high-level tasks needed to create and maintain a successful intranet with SharePoint in Microsoft 365.
 
