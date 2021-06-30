@@ -23,16 +23,16 @@ Whether you're the organization intranet owners, an IT Professional or administr
 
 **Roadmap contents**:
 
-- Introduction to roles, tasks, and timelines
-- Review of the different roles and tasks
-- How to get started
+- Introduction to key success factors and considerations 
+- Review of the different [roles and tasks](intranet-roles-tasks)
+- How to [get started](intranet-get-started)
 
-**Who should use this roadmap?**
+## Who should use this roadmap?
 
-- Organization intranet owners — This is the person managing the overall direction and coordination of your organization's intranet.
-- IT pros and admins—One or more IT and SharePoint administrators who will be responsible for managing the backend configuration and implementation for your organization's intranet.
-- Business owners and site owners—The various stakeholders who will be responsible for creating and maintaining portions of the intranet.
-- Content authors — The people creating and managing content on sites and pages.
+- **Organization intranet owners** — This is the person managing the overall direction and coordination of your organization's intranet.
+- **IT pros and admins**—One or more IT and SharePoint administrators who will be responsible for managing the backend configuration and implementation for your organization's intranet.
+- **Business owners and site owners**—The various stakeholders who will be responsible for creating and maintaining portions of the intranet.
+- **Content authors** — The people creating and managing content on sites and pages.
 
 **What you'll learn**:
 
@@ -45,7 +45,7 @@ Whether you're the organization intranet owners, an IT Professional or administr
 
 Intranets are a constant work in progress and are never really considered done. Make sure you have a plan to keep your content relevant, otherwise your intranet will start losing value on the day that you launch. Celebrate your initial launch, plan to monitor and maintain your intranet and its content over time as the organization changes and business goals evolve.
 
-**How to think about an intelligent vs traditional intranet design**
+## How to think about an intelligent vs traditional intranet design
 
 The new, modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience](trad-vs-modern-intranet.md) makes it easier for anyone to create beautiful, dynamic sites and pages that are accessible and mobile-ready. Modern SharePoint supports intelligent workplaces — those that apply the collective knowledge of current users, share and collaborate easily, and engage audiences with targeted content and news. 
 
@@ -57,7 +57,7 @@ The new, modern experience in SharePoint is designed to be compelling, flexible,
 | Corporate news dominates the newsfeed | Personalized news and content is [targeted to specific audiences](https://support.office.com/article/target-files-news-and-pages-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) | 
 |Hierarchical collection of websites | Dynamic collection of experiences and services provided by independent site collections |
 
-**Key success factors**
+## Key success factors
 
 Over the years, we have learned about what makes an intranet successful. These factors can help accelerate the creation, adoption, and overall success of your intranet:
 
