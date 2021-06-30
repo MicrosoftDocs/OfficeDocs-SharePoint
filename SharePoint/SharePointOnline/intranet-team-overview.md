@@ -24,8 +24,8 @@ Whether you're the organization intranet owners, an IT Professional or administr
 **Roadmap contents**:
 
 - Introduction to key success factors and considerations 
-- Review of the different [roles and tasks](intranet-roles-tasks)
-- How to [get started](intranet-get-started)
+- Review of the different [roles and tasks](intranet-roles-tasks.md)
+- How to [get started](intranet-get-started.md)
 
 ## Who should use this roadmap?
 
