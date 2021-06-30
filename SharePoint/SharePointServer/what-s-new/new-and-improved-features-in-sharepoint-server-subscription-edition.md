@@ -42,6 +42,8 @@ The following table provides the list of new features and updates to existing fe
 
 This section provides detailed descriptions of the new and updated features in SharePoint Server Subscription Edition.
 
+## Authentication and Identity Management
+
 ### OIDC authentication 1.0
 <a name="OIDC"> </a>
 
@@ -69,6 +71,8 @@ Internet Information Services (IIS) 10 advertises support for HTTP/2 during TLS 
 If a server detects that a client is attempting to perform Kerberos or NTLM authentication over an HTTP/2 or HTTP/3 connection, it will notify the client to downgrade the connection to HTTP/1.1 and restart the attempt. This results in extra round trips between the client and the server during authentication, which increases latency. Some web browsers do not handle this notification well. Chromium-based web browsers such as **new** Edge and Chrome will show a connection error message to the end user for a few seconds before retrying the authentication over HTTP/1.1.
 
 SharePoint Server Subscription Edition helps avoid the increased latency and connection error messages described earlier by disabling HTTP/2 and Quick UDP Internet Connections (QUIC) in SharePoint IIS web sites when Negotiate (Kerberos) or NTLM are enabled. HTTP/2 and QUIC will continue to be available on SharePoint IIS web sites that aren't configured to use Negotiate (Kerberos) or NTLM.
+
+## Deployment and Upgrade
 
 ### Windows Server 2022
 <a name="server"> </a>
@@ -104,6 +108,8 @@ SharePoint Server Subscription Edition supports both **N - 1** and **N - 2** ver
 <a name="cache"> </a>
 
 You no longer need to install a separate AppFabric Velocity Cache component. SharePoint Server Subscription Edition setup automatically installs all the necessary files, and SharePoint patches will update them.
+
+## Farm Administration
 
 ### Central Administration now supports host header bindings
 <a name="cenadmin"> </a>
@@ -169,6 +175,8 @@ For more information, see [Share service applications across farms in SharePoint
 
 You can now authenticate to Simple Mail Transfer Protocol (SMTP) servers using client certificates. You need to import a client certificate into your farm using our SSL certificate management, then assign that client certificate to the outgoing email settings within the SharePoint farm.
 
+## Hybrid
+
 ### PowerApps and Power Automate integration
 <a name="power"> </a>
 
@@ -193,7 +201,9 @@ There are two improvements added to Search Crawler Log in Center Admin user expe
   - A new column called **online ID** is introduced to crawler log for all contents when SharePoint Farm is configured with hybrid cloud SSA. This **online ID** is SharePoint online search index for On-Premises contents in SharePoint Server.
   
   - New **Warning breakdown** pivot is added next to **Error breakdown** tab in crawler log page. It provides capability to administrators to exam through search crawler warning with same user experience as **Error breakdown** tab by listing all warnings instead of errors. 
-  
+
+## PowerShell
+
 ### SharePoint PowerShell cmdlets converted from snap-in to module
 <a name="snap"> </a>
 
@@ -271,6 +281,8 @@ To improve the management of the [SharePoint Volume Shadow Copy Service (VSS) wr
  
 These cmdlets perform the same actions as the [stsadm.exe -o registerwsswriter](https://docs.microsoft.com/previous-versions/office/sharepoint-2007-products-and-technologies/cc262819(v=office.12))and [stsadm.exe -o unregisterwsswriter](https://docs.microsoft.com/previous-versions/office/sharepoint-2007-products-and-technologies/cc262416(v=office.12)) commands.
 
+## Search
+
 ### Search result page modernization
 <a name="seres"> </a>
   
@@ -293,7 +305,9 @@ Lists and list items are now searchable in the modern UX. List item results will
 <a name="tmsr"> </a>
 
 Thumbnail is introduced in modern user experience of result page for **PowerPoint**, **Word**, **PDF**, images, and etc.
-  
+
+## Security
+
 ### SSL certificate management
 <a name="sslcm"> </a>
   
@@ -334,6 +348,8 @@ SharePoint Server Subscription Edition will use the advanced security capabiliti
 SharePoint now encrypts the `machineKey` section of its `web.config` files by default. This prevents attackers from reading your ASP.NET view state encryption and validation keys even if they gain access to those `web.config` files.
 
 It can also change the ASP.NET view state decryption and validation keys of a SharePoint web application through two new PowerShell cmdlets. This allows you to rotate those keys in your farm.
+
+## Sites, Lists, and Libraries
 
 ### Accessibility improvements across modern UX
 <a name="aiamu"> </a>
@@ -392,6 +408,8 @@ With SharePoint Server Subscription Edition, you can do the following to documen
 <a name="mds"> </a> 
   
 In SharePoint Server Subscription Edition, the document Sets is enhanced so that you can enjoy the same modern experience when using Document Sets in modern document library.
+
+## Storage
 
 ### Remote Share Provider
 <a name="blob"> </a>  
