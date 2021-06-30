@@ -145,17 +145,17 @@ To install the online service management tools and configure the PowerShell wind
     
     For additional info, see [Introduction to the SharePoint in Microsoft 365 Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell). 
     
-2. Open a PowerShell window.
+3. Open a PowerShell window.
     
-3. To help ensure that you don't fill the buffer and lose any of your command history, increase the buffer size of the PowerShell window:
+4. To help ensure that you don't fill the buffer and lose any of your command history, increase the buffer size of the PowerShell window:
     
-4. Select the upper-left corner of the PowerShell window, and then select **Properties**.
+5. Select the upper-left corner of the PowerShell window, and then select **Properties**.
     
-5. In the PowerShell Properties window, select the **Layout** tab. 
+6. In the PowerShell Properties window, select the **Layout** tab. 
     
-6. Under Screen Buffer Size, set the **Height** field to **9999**, and then select **OK**.
+7. Under Screen Buffer Size, set the **Height** field to **9999**, and then select **OK**.
     
-7. This step loads the modules you downloaded so you can use them in your PowerShell session. Copy the following commands into your PowerShell session, and press **Enter**. 
+8. This step loads the modules you downloaded so you can use them in your PowerShell session. Copy the following commands into your PowerShell session, and press **Enter**. 
     
   ```
   Add-PSSnapin Microsoft.SharePoint.PowerShell
@@ -166,7 +166,7 @@ To install the online service management tools and configure the PowerShell wind
 
    If you need to run any of the configuration steps again later, remember to run these commands again to load the required modules and snap-ins in PowerShell.
     
-8. Enter the following commands to sign in to SharePoint in Microsoft 365, from the PowerShell command prompt:
+9. Enter the following commands to sign in to SharePoint in Microsoft 365, from the PowerShell command prompt:
     
   ```
   $cred=Get-Credential
