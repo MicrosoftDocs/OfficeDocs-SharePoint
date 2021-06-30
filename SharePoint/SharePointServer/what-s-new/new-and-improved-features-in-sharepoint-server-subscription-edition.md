@@ -28,7 +28,7 @@ The following table provides the list of new features and updates to existing fe
 
 |**Feature Group**|**Features**|**More info**|
 |:-----|:-----|:-----|
-|Authentication and Identity Management <br/> | <ul><li>Adds support for OpenID Connect (OIDC) 1.0</li><li>Enhanced People Picker for trusted identity providers</li><li>Improved Integrated Windows authentication over TLS</li></ul> | <ul><li>For more information, see [ODIC authentication 1.0](#ODIC).</li><li>For more information, see [People picker PowerShell cmdlet improvement for trusted authentication method](#people).</li><li>For more information, see [Improved Integrated Windows authentication over TLS](#IIW).</li></ul> | 
+|Authentication and Identity Management <br/> | <ul><li>Adds support for OpenID Connect (OIDC) 1.0</li><li>Enhanced People Picker for trusted identity providers</li><li>Improved Integrated Windows authentication over TLS</li></ul> | <ul><li>For more information, see [OIDC authentication 1.0](#ODIC).</li><li>For more information, see [People picker PowerShell cmdlet improvement for trusted authentication method](#people).</li><li>For more information, see [Improved Integrated Windows authentication over TLS](#IIW).</li></ul> | 
 |Deployment and Upgrade <br/> | <ul><li>Adds support for Windows Server 2022</li><li>Adds support for Windows Server Core</li><li>Supports "N - 2" upgrading from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)</li><li>AppFabric Cache integration</li></ul> | <ul><li>For more information, see [Windows Server 2022](#server).</li><li>For more information, see [Windows Server Core](#core).</li><li>For more information, see [Upgrading directly from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)](#upgrade).</li><li>For more information, see [AppFabric Cache integration](#cache).</li></ul> |
 |Farm Administration <br/> | <ul><li>Adds support for host header bindings on Central Admin web application</li><li>Adds support for Server Name Indication (SNI) for host header bindings</li><li>Change web application bindings</li><li>Easier AAM configuration for Central Administration</li><li>Federated service applications support "N - 2" content farms (SharePoint 2016, 2019, and Subscription Edition)</li><li>Support for client certificate authentication to SMTP servers</li></ul> | <ul><li>For more information, see [Central Administration now supports host header bindings](#cenadmin).</li><li>For more information, see [Server Name Indication](#sni).</li><li>For more information, see [Change web application IIS bindings](#webiis).</li><li>For more information, see [Easier AAM configuration for Central Administration](#aamcon).</li><li>For more information, see [Federated service applications support "N - 2" content farms (SharePoint 2016, 2019, and 2022)](#fedral).</li><li>For more information, see [Client certificate authentication to SMTP servers](#client).</li></ul> |
 |Hybrid <br/> | <ul><li>Better integration with Power Apps and Power Automate</li><li>Cloud SSA (Search) supports Microsoft 365 Multi-Geo</li><li>Improved hybrid search troubleshooting</li></ul> | <ul><li>For more information, see [PowerApps and Power Automate integration](#power).</li><li>For more information, see [Cloud SSA (Search) supports Microsoft 365 Multi-Geo](#ssa).</li><li>For more information, see [Improved hybrid search troubleshooting](#ihst).</li></ul> | 
@@ -42,11 +42,11 @@ The following table provides the list of new features and updates to existing fe
 
 This section provides detailed descriptions of the new and updated features in SharePoint Server Subscription Edition.
 
-### ODIC authentication 1.0
-<a name="ODIC"> </a>
+### OIDC authentication 1.0
+<a name="OIDC"> </a>
 
-SharePoint Server Subscription Edition now supports OpenID Connect (OIDC) 1.0 authentication protocol. You can set up an OIDC enabled `SPTrustedIdentityTokenIssuer` that works with remote identity provider to enable OIDC authentication. Basic manual OIDC configuration through PowerShell is also enabled. It supports OIDC meta data discovery capability during configuration.
-By using the metadata endpoint provided from OIDC identity provider, some of the following configurations are retrieved: 
+SharePoint Server Subscription Edition now supports OpenID Connect (OIDC) 1.0 authentication protocol. You can set up an OIDC enabled `SPTrustedIdentityTokenIssuer` that works with remote identity provider to enable OIDC authentication. Basic manual OIDC configuration through PowerShell is also enabled. It supports OIDC metadata discovery capability during configuration.
+By using the metadata endpoint provided from OIDC identity provider, some of the following configurations can be retrieved: 
  1.	Certificate
  2.	Issuer
  3.	Authorization Endpoint
@@ -56,19 +56,19 @@ This simplifies the configuration of OIDC token issuer.
 
 SharePoint Server Subscription Edition also supports rotational signing certificates scenario for `id_token` validation. `ImportTrustCertificate` parameter of `New-SPTrustedIdentityTokenIssuer` is updated to support a list of certificate objects.
 
-### People picker PowerShell cmdlet improvement for trusted authentication method
+### People Picker PowerShell cmdlet improvement for trusted authentication method
 <a name="people"> </a>
 
-In SharePoint Server Subscription Edition people picker is enhanced to search and pick user in UPA to help you avoid creating a customized claim provider. With the improved PowerShell cmdlet, you can easily reconfigure `SPTrustedIdentityTokenIssuer` and `UPABackedClaimProvider`.
+In SharePoint Server Subscription Edition, People Picker is enhanced to search and pick user in User Profile Application (UPA) to help you avoid creating a customized claim provider. With the improved PowerShell cmdlet, you can easily reconfigure `SPTrustedIdentityTokenIssuer` and `UPABackedClaimProvider`.
 
 ### Improved Integrated Windows authentication over TLS
 <a name="IIW"> </a>
 
 Internet Information Services (IIS) 10 advertises support for HTTP/2 during TLS negotiation, letting you know that you can use HTTP/2 once the Transport Layer Security (TLS) connection is complete. However, HTTP/2 and above are not compatible with Integrated Windows authentication protocols such as Negotiate (Kerberos) and New Technology LAN Manager (NTLM). 
 
-If a server detects that a client is attempting to perform Kerberos or NTLM authentication over an HTTP/2 or HTTP/3 connection, it will notify the client to downgrade the connection to HTTP/1.1 and restart the attempt. This results in extra round trips between the client and the server during authentication, which increases latency. Even worse, some web browsers do not handle this notification well. Chromium-based web browsers such as **new** Edge and Chrome will show a connection error message to the end user for a few seconds before retrying the authentication over HTTP/1.1.
+If a server detects that a client is attempting to perform Kerberos or NTLM authentication over an HTTP/2 or HTTP/3 connection, it will notify the client to downgrade the connection to HTTP/1.1 and restart the attempt. This results in extra round trips between the client and the server during authentication, which increases latency. Some web browsers do not handle this notification well. Chromium-based web browsers such as **new** Edge and Chrome will show a connection error message to the end user for a few seconds before retrying the authentication over HTTP/1.1.
 
-SharePoint Server Subscription Edition will avoid this increased latency and connection error messages described above by disabling HTTP/2 and QUIC (Quick UDP Internet Connections) in SharePoint IIS web sites when Negotiate (Kerberos) or NTLM are enabled. HTTP/2 and QUIC will continue to be available on SharePoint IIS web sites that aren't configured to use Negotiate (Kerberos) or NTLM.
+SharePoint Server Subscription Edition helps avoid the increased latency and connection error messages described earlier by disabling HTTP/2 and Quick UDP Internet Connections (QUIC) in SharePoint IIS web sites when Negotiate (Kerberos) or NTLM are enabled. HTTP/2 and QUIC will continue to be available on SharePoint IIS web sites that aren't configured to use Negotiate (Kerberos) or NTLM.
 
 ### Windows Server 2022
 <a name="server"> </a>
@@ -86,7 +86,7 @@ Windows Server 2022 includes various new features and improvements in virtualiza
 ### Windows Server Core
 <a name="core"> </a>
 
-Windows Server Core is a leaner Windows Server deployment type compared to the classic Windows Server with Desktop Experience. Server Core minimizes the number of OS features and services that are installed and running to only those that are truly needed for a server. This reduces the demand on system resources (CPU, RAM, and disk space) and the potential attack surface for security vulnerabilities.
+Windows Server Core is a leaner Windows Server deployment type compared to the classic Windows Server with Desktop Experience. Server Core minimizes the number of OS features and services that are installed and running only those that are truly needed for a server. This reduces the demand on system resources (CPU, RAM, and disk space) and the potential attack surface for security vulnerabilities.
 
 ### Upgrading directly from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)
 <a name="upgrade"> </a>
@@ -97,24 +97,25 @@ SharePoint Server Subscription Edition supports both **N - 1** and **N - 2** ver
  
  - SharePoint Server 2016 (including Project Server 2016)
 
-SharePoint Server Subscription Edition doesn’t support upgrading directly from earlier versions of SharePoint such as SharePoint Server 2013, SharePoint Server 2010, etc. You need to first upgrade to SharePoint Server 2016 or SharePoint Server 2019 before you can upgrade to SharePoint Server Subscription Edition.
+> [!NOTE]
+> Upgrade path from earlier versions of SharePoint such as SharePoint Server 2013, SharePoint Server 2010, and so on SharePoint Server Subscription Edition is not supported. You must upgrade first to either SharePoint 2016 or SharePoint 2019 before upgrading to SharePoint Server Subscription Edition.
 
 ### AppFabric Cache integration
 <a name="cache"> </a>
 
-You no longer need to install a separate AppFabric Velocity Cache component. SharePoint Server Subscription Edition setup will automatically install all the necessary files, and SharePoint patches will update them.
+You no longer need to install a separate AppFabric Velocity Cache component. SharePoint Server Subscription Edition setup automatically installs all the necessary files, and SharePoint patches will update them.
 
 ### Central Administration now supports host header bindings
 <a name="cenadmin"> </a>
 
-You can now configure the SharePoint Central Administration web site to use a host header binding, which will allow it to share the same TCP port number as other web sites.  This would typically be used to let the SharePoint Central Administration site and your content web site to be hosted on the same TCP port, such as port 443 for SSL.
+You can now configure the SharePoint Central Administration website to use a host header binding, which will allow it to share the same TCP port number as other websites. This would typically be used to let the SharePoint Central Administration site and your content website to be hosted on the same TCP port, such as port 443 for SSL.
 
 To configure this, specify the host header binding with the `-HostHeader` parameter of the `New-SPCentralAdministration` and `Set-SPCentralAdministration` cmdlets, or with the `-hostheader` parameter of the `psconfig.exe -cmd adminvs` command.
 
 ### Server Name Indication (SNI)
 <a name="sni"> </a>
 
-Server Name Indication (SNI) allows multiple IIS web sites with unique host headers and unique server certificates to share the same Secure Sockets Layer (SSL) port. The server examines the server name specified by the client during the SSL handshake to determine which server certificate should be used to complete the connection. Your IIS web site must have a host header and must use SSL to use Server Name Indication. If Server Name Indication isn't used, all IIS web sites sharing the same SSL port will share the same server certificate.
+Server Name Indication (SNI) allows multiple IIS websites with unique host headers and unique server certificates to share the same Secure Sockets Layer (SSL) port. The server examines the server name specified by the client during the SSL handshake to determine which server certificate should be used to complete the connection. Your IIS website must have a host header and must use SSL to use Server Name Indication. If Server Name Indication isn't used, all IIS websites sharing the same SSL port will share the same server certificate.
 
 Server Name Indication can be configured by the **Use Server Name Indication** setting on the **Create New Web Application** and **Extend Web Application** pages in SharePoint Central Administration.  
 
@@ -177,7 +178,7 @@ Two new commands have been added to the modern document library page and modern 
   
   - Power Apps
   
-These commands will take you directly to the Power Apps and Power Automate service pages. 
+These commands will take you directly to the PowerApps and Power Automate service pages. 
 
 ### Cloud SSA (Search) supports Microsoft 365 Multi-Geo
 <a name="ssa"> </a>
@@ -187,7 +188,7 @@ You can use PowerShell scripts to configure SharePoint hybrid features on Window
 ### Improved hybrid search troubleshooting
 <a name="ihst"> </a>
 
-There are two improvements added to Search Crawler Log in Center Admin UX. 
+There are two improvements added to Search Crawler Log in Center Admin user experience:
   
   - A new column called **online ID** is introduced to crawler log for all contents when SharePoint Farm is configured with hybrid cloud SSA. This **online ID** is SharePoint online search index for On-Premises contents in SharePoint Server.
   
@@ -257,7 +258,7 @@ Its parameters are:
  - `[-Force]`: Specifies that the object will be deleted without confirmation that you want to proceed. This can be used for scripts that don't support interactive confirmation prompts.
 
 > [!WARNING]
-> Improper usage of this cmdlet has the potential to destroy necessary data in a SharePoint configuration database, requiring a complete rebuild of the SharePoint farm. It should only be used as directed by Microsoft Support.
+> Improper usage of this cmdlet has the potential to destroy necessary data in a SharePoint configuration database, requiring a complete rebuild of the SharePoint farm. Use it only under guidance with Microsoft Support.
 
 ### SharePoint Volume Shadow Copy Service writer cmdlets
 <a name="vscs"> </a>
@@ -291,12 +292,12 @@ Lists and list items are now searchable in the modern UX. List item results will
 ### Thumbnails in modern search result page
 <a name="tmsr"> </a>
 
-Thumbnail is introduced in modern user experience of result page for **PowerPoint**, **Word**, **PDF**, images and etc.
+Thumbnail is introduced in modern user experience of result page for **PowerPoint**, **Word**, **PDF**, images, and etc.
   
 ### SSL certificate management
 <a name="sslcm"> </a>
   
-This allows SharePoint farm administrators to directly manage the deployment and lifecycle of SSL/TLS server certificates in their SharePoint on-prem farms.
+This feature allows SharePoint farm administrators to directly manage the deployment and lifecycle of SSL/TLS server certificates in their SharePoint on-prem farms.
 
 This includes: 
   
@@ -325,8 +326,7 @@ Windows Server 2022’s .NET Framework 4.8 supports TLS 1.3. This allows you to 
 ### Strong TLS encryption by default
 <a name="tlsed"> </a>
 
-SharePoint Server Subscription Edition will use the advanced security capabilities of Windows Server 2022 to ensure that TLS connections made to the server only uses the strongest encryption.
-SharePoint Server will configure itself to enforce the minimum TLS version and cipher suite requirements on its SSL bindings regardless of whether the connection ends up using HTTP/2. 
+SharePoint Server Subscription Edition will use the advanced security capabilities of Windows Server 2022 to ensure that TLS connections made to the server only uses the strongest encryption. SharePoint Server will configure itself to enforce the minimum TLS version and cipher suite requirements on its SSL bindings regardless of whether the connection ends up using HTTP/2. 
 
 ### Improved ASP.NET view state security and key management
 <a name="aspnet"> </a> 
@@ -345,15 +345,15 @@ Screen reader announces the incorrect positions for menu items save and close, d
   
 Brick layout respects the aspect ratio of all images shown in 16:9, 1:1, 4:3, and so on. With the Brick layout, you can show several images of various sizes, automatically **layered** in a pattern like that of a brick wall.
 
-We introduce Brick layout in modern Document library and Image Gallery web part. You can add brick layout as an option in Image Gallery web part and change the layout of modern document library from Grid layout into Brick layout.
+We introduce Brick layout in modern document library and image gallery web part. You can add Brick layout as an option in image gallery web part and change the layout of modern document library from Grid layout to Brick layout.
 
-### Bulk check-in/check-out in modern Document library experience
+### Bulk check-in/check-out in modern document library experience
 <a name="bulkinout"> </a>
   
 If you want to make changes to a file in a SharePoint document library, but keep others from making changes at the same time, check the file out of the document library. Once you're done making changes to the file, check it in from the library to upload your changes. 
 Instead of checking-in or checking-out one file at a time, now you can select multiple files and check them in/out.
   
-### Bulk download files from document libraries and OneDrive personal sites
+### Bulk download files from document library and OneDrive personal sites
 <a name="bulkdod"> </a>
   
 SharePoint Server Subscription Edition now supports downloading multiple files at once from document libraries and OneDrive personal sites.
@@ -391,7 +391,7 @@ With SharePoint Server Subscription Edition, you can do the following to documen
 ### Modern document sets
 <a name="mds"> </a> 
   
-In SharePoint Server Subscription Edition, the Document Sets is enhanced so that you can enjoy the same modern experience when using Document Sets in modern document library.
+In SharePoint Server Subscription Edition, the document Sets is enhanced so that you can enjoy the same modern experience when using Document Sets in modern document library.
 
 ### Remote Share Provider
 <a name="blob"> </a>  
