@@ -56,5 +56,5 @@ The first date picker lets you pick past 31 days (about one month) or 
 
 [Microsoft 365 Reports in the Admin Center - SharePoint site usage](/microsoft-365/admin/activity-reports/sharepoint-site-usage-ww?view=o365-worldwide&preserve-view=true)
 
-[Microsoft 365 Reports in the Admin Center - SharePoint site usage](/microsoft-365/admin/activity-reports/sharepoint-activity-ww?view=o365-worldwide&preserve-view=true) 
+[Microsoft 365 Reports in the Admin Center - SharePoint activity](/microsoft-365/admin/activity-reports/sharepoint-activity-ww?view=o365-worldwide&preserve-view=true) 
 
