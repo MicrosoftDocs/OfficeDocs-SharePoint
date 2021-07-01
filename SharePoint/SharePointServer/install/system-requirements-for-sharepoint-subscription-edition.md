@@ -27,14 +27,76 @@ Before you install SharePoint Server, you must make sure that you have installed
   
 ## SharePoint Server v.Next Prerequisites
 
-SharePoint Server v.Next requires additional software prerequisites, which must be installed before you run SharePoint Server v.Next setup. All the required prerequisites can be automatically installed by the SharePoint prerequisite installer "prerequisiteinstaller.exe", or you can choose to manually install them yourself.
-- Various Windows Server roles and features such as the Web Server (IIS) Role. You can enable these in Windows Server Manager or by running the following PowerShell command:
-Install-WindowsFeature NET-WCF-Pipe-Activation45,NET-WCF-HTTP-Activation45,NET-WCF-TCP-Activation45,Web-Server,Web-WebServer,Web-Common-Http,Web-Static-Content,Web-Default-Doc,Web-Dir-Browsing,Web-Http-Errors,Web-App-Dev,Web-Asp-Net45,Web-Net-Ext45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Health,Web-Http-Logging,Web-Log-Libraries,Web-Request-Monitor,Web-Http-Tracing,Web-Security,Web-Basic-Auth,Web-Windows-Auth,Web-Filtering,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,WAS,WAS-Process-Model,WAS-Config-APIs -IncludeManagementTools
-- "Microsoft WCF Data Services 5.6"
-- "Microsoft .NET Framework 4.8"
-- "Visual C++ Re-distributable Package for Visual Studio 2015-2019"
+SharePoint Server v.Next requires additional software prerequisites, which must be installed before you run SharePoint Server v.Next setup. All the required prerequisites can be automatically installed by the SharePoint prerequisite installer `prerequisiteinstaller.exe`, or you can choose to manually install them yourself.
+- Various Windows Server roles and features such as the Web Server (IIS) Role. 
+You can enable these in Windows Server Manager or by running the following PowerShell command:
 
-The prerequisite installer creates log files at %TEMP%\prerequisiteinstaller.<date>.<time>.log. You can check these log files for specific details about all changes the installer makes to the target computer.
+ ```
+Install-WindowsFeature NET-WCF-Pipe-Activation45
+
+NET-WCF-HTTP-Activation45
+
+NET-WCF-TCP-Activation45
+
+Web-Server
+
+Web-WebServer
+
+Web-Common-Http
+
+Web-Static-Content
+
+Web-Default-Doc
+
+Web-Dir-Browsing
+
+Web-Http-Errors
+
+Web-App-Dev
+
+Web-Asp-Net45
+
+Web-Net-Ext45
+
+Web-ISAPI-Ext
+
+Web-ISAPI-Filter
+
+Web-Health
+
+Web-Http-Logging
+
+Web-Log-Libraries
+
+Web-Request-Monitor
+
+Web-Http-Tracing
+
+Web-Security
+
+Web-Basic-Auth
+
+Web-Windows-Auth
+
+Web-Filtering
+
+Web-Performance
+
+Web-Stat-Compression
+
+Web-Dyn-Compression
+
+WAS
+
+WAS-Process-Model
+
+WAS-Config-APIs -IncludeManagementTools
+   ```
+- Microsoft WCF Data Services 5.6
+- Microsoft .NET Framework 4.8
+- Visual C++ Re-distributable Package for Visual Studio 2015-2019
+
+The prerequisite installer creates log files at `%TEMP%\prerequisiteinstaller.<date>.<time>.log`. You can check these log files for specific details about all changes the installer makes to the target computer.
 
 ## Test Environments without an Internet Connection
 
@@ -42,6 +104,6 @@ The SharePoint prerequisite installer requires an active Internet connection to 
 
 ## Minimum Requirements for Client Computers
 
-A supported browser.For more information, see "System requirements for Microsoft 356 and office: Browsers".
+A supported browser.For more information, see System requirements for Microsoft 356 and office: Browsers.
 
 

@@ -30,7 +30,7 @@ description: "Find out the minimum hardware and software requirements you need t
     
 ## Hardware requirements
 
-We recommend testing SharePoint Server v.Next in a pre-production environment with the following hardware configurations:
+Testing SharePoint Server v.Next in a pre-production environment with the following hardware configurations:
 
 |**Installation scenario**|**Deployment type and scale**|**Processor**|**RAM**|**Hard disk**|
 |:-----|:-----|:-----|:-----|:-----|
