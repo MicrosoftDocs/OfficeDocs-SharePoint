@@ -45,9 +45,9 @@ SharePoint Server v.Next repair steps are as follows:
 
 ## Repair on Windows Server Core
 
-1. Run SharePoint setup `setup.exe`from your "\Program Files\Common Files\Microsoft Shared\SERVER16\Server Setup Controller" directory with the following parameters:
-- /config <config file> (Where <config file> is the path to your writable config.xml file)
-- /repair OSERVER
+1. Run SharePoint setup `setup.exe`from your \Program Files\Common Files\Microsoft Shared\SERVER16\Server Setup Controller directory with the following parameters:
+- `/config <config file> (Where <config file> is the path to your writable config.xml file)`
+- `/repair OSERVER`
 - For example: `$env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\setup.exe/config C:\SharePoint Files\config.xml/repair OSERVER`
 2. Once SharePoint setup has completed, reboot your test server.
 3. Run the following SharePoint PowerShell `cmdlets` with their appropriate parameters to repair the server in the farm.

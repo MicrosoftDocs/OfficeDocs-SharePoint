@@ -63,8 +63,8 @@ For example: `notepad.exe "C:\SharePoint Files\config.xml`
 7. Replace the "Enter Product Key Here" text string in the file with your SharePoint Server product key.
 8. Save your changes to the `config.xml` file.
 9. Run SharePoint setup `setup.exe` on your test server in command line mode. This is done by adding the following command line parameters when launching `setup.exe`:
-- */config <config file> (Where <config file> is the path to your writable config.xml file)*
-- */IAcceptTheLicenseTerms (Specifying this parameter signifies that you have read, understand, and agree to the license terms of SharePoint Server and Project Server.)
+- `*/config <config file> (Where <config file> is the path to your writable config.xml file)*`
+- `*/IAcceptTheLicenseTerms` (Specifying this parameter signifies that you have read, understand, and agree to the license terms of SharePoint Server and Project Server.)
 - For example: `D:\setup.exe /config "C:\SharePoint Files\config.xml" /IAcceptTheLicenseTerms*`
 10. Once SharePoint setup has completed, reboot your test server.
 11. Run the following SharePoint `PowerShell cmdlets` with their appropriate parameters to create or join a farm.

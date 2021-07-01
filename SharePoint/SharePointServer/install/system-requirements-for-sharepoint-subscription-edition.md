@@ -104,6 +104,6 @@ The SharePoint prerequisite installer requires an active Internet connection to 
 
 ## Minimum Requirements for Client Computers
 
-A supported browser.For more information, see System requirements for Microsoft 356 and office: Browsers.
+A supported browser.For more information, see [System requirements for Microsoft 365 and office:Browsers](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources?rtc=1#coreui-heading-uyetipy).
 
 
