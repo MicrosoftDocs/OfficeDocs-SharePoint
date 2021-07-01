@@ -20,6 +20,8 @@ description: "Learn about the new features and updates to existing features in S
 
 # New and improved features in SharePoint Server Subscription Edition
 
+[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
+
 Learn about the new features and updates to existing features in SharePoint Server Subscription Edition.
 
 ## List of new features and updates to existing features
