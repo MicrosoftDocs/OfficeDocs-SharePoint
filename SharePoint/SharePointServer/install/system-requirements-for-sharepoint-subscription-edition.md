@@ -21,7 +21,8 @@ description: "This article introduces topics that describe hardware, software, a
 
 # System requirements for SharePoint Subscription edition
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
+
   
 Before you install SharePoint Server, you must make sure that you have installed all required hardware and software. To effectively plan your deployment, you must understand the level of support that is provided for the web browsers that you will be using in your environment and how support for IP versions 4 and 6 is implemented in SharePoint Servers 2016 and 2019. You must also understand the URL and path length restrictions in SharePoint Servers 2016 and 2019.
   

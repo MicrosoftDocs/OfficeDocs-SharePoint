@@ -21,7 +21,8 @@ description: "Learn how to install SharePoint Subscription edition in various to
 
 # Install SharePoint Server Subscription edition
 
-[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
+
   
 Testing and implementing SharePoint Server Subscription edition solutions at different stages of the deployment life cycle requires deployments in various topologies.
   
