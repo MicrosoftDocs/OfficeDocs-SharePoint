@@ -25,6 +25,7 @@ Articles contain an overview of new and improved product features, updates, depr
   
 |**Content**|**Description**|
 |:-----|:-----|
+|[New and improved features in SharePoint Server Subscription edition](new-and-improved-features-in-sharepoint-server-subscription-edition.md) <br/> |Learn about the new features and updates to existing features in SharePoint Server Subscription edition.  <br/> |
 |[New and improved features in SharePoint Server 2019](new-and-improved-features-in-sharepoint-server-2019.md) <br/> |Learn about the new features and updates to existing features in SharePoint Server 2019.  <br/> |
 |[What's deprecated or removed from SharePoint Server 2019](what-s-deprecated-or-removed-from-sharepoint-server-2019.md) <br/> |Learn about the features and functionality that are deprecated or removed in SharePoint Server 2019.  <br/> |
 |[New and improved features in SharePoint Server 2016](new-and-improved-features-in-sharepoint-server-2016.md) <br/> |Learn about the new features and updates to existing features in SharePoint Server 2016.  <br/> |
