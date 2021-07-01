@@ -277,7 +277,7 @@ For detailed information, see [What is Conditional Access?](/azure/active-direct
 
 **Real-time monitoring with alerts**
 
-Microsoft Cloud App Security provides an extensive policy infrastructure that you can use to monitor activity that you consider to be risky for your organization's data.
+[Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-365-defender) services provide an extensive policy infrastructure that you can use to monitor activity that you consider to be risky for your organization's data.
 
 Examples include:
 
@@ -287,13 +287,13 @@ Examples include:
 
   - Raise an alert when an externally shared file hasn't been updated for a specified period of time.
 
-Cloud App Security can also watch for anomalous behavior such as unusually large uploads or downloads, access from unusual locations, or unusual admin activity.
+Microsoft 365 Defender can also watch for anomalous behavior such as unusually large uploads or downloads, access from unusual locations, or unusual admin activity.
 
-By configuring alerts in Cloud App Security, you can be more confident in allowing an open sharing experience for your users.
+By configuring alerts, you can be more confident in allowing an open sharing experience for your users.
 
 You can see the alerts on the [Microsoft 365 Defender alerts page](https://security.microsoft.com/alerts).
 
-For detailed information about Cloud App Security, see [Microsoft Cloud App Security overview](/cloud-app-security/what-is-cloud-app-security).
+For detailed information about alerts in Microsoft 365 Defender, see [Investigate alerts in Microsoft 365 Defender](/microsoft-365/security/defender/investigate-alerts).
 
 **Monitoring with reports**
 
