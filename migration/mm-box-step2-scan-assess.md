@@ -20,12 +20,10 @@ search.appverid: MET150
 description: "Step 2:  Scan and assess Box users using Migration Manager."
 ---
 
-# Step 2: Scan and assess Box users (preview)
+# Step 2: Scan and assess Box users
 
 >[!Note]
-> Features described in this topic are part of a public preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
->
->This preview release currently supports the migration of up to approximately 1500 Box accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
+>This release currently supports the migration of up to approximately 1500 Box accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
 
 
 
@@ -50,6 +48,6 @@ A table summary appears at the top to give you an at-a-glance overview of your u
 
 
 >[!NOTE]
->Migration Manager Box preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Box isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
