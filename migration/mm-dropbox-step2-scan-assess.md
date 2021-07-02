@@ -26,10 +26,10 @@ After you have connected to Dropbox, accounts are scanned automatically for you.
 
 A table summary appears at the top to give you an at-a-glance overview of your users and content size.
 
+
+
 1.  Review the scanned drives. Select **Look for new drives** if you want to do a manually search.
-
 2. Search for specific text, or select a filter to review the list more easily.
-
 3. Once the scan is complete, select **Download reports** from the menu bar, to troubleshoot any issues. The file will be available from your task bar or downloads folder: **Scan task report.csv**
 
 **NEXT:**  [ **Step 3: Copy to migrations**](mm-dropbox-step3-copy-to-migrations.md)
