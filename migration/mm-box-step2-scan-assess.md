@@ -29,7 +29,7 @@ Box users are scanned automatically for you. Once the scans are complete, downlo
 
 A table summary appears at the top to give you an at-a-glance overview of your users and content size.
 
-    :::image type="content" alt-text="Scan data summary table" source="media/mm-box-scan-data-table-summary.png":::
+:::image type="content" alt-text="Scan data summary table" source="media/mm-box-scan-data-table-summary.png":::
 
 1.  Review the scanned users. Select **Look for new users** if you want to manually search for more users.
 

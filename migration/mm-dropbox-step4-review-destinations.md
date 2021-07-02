@@ -78,7 +78,6 @@ If a destination is missing, highlight the row. A panel will appear to the right
 
 If you have many destinations to edit, you can choose to upload a bulk destinations CSV file.  Download the *MigrationDestinations.csv* file template to your computer and enter your destinations. Save your file as a .csv file using any name you wish. 
 
-![upload destinations for Dropbox accounts bulk](media/mm-box-bulk-upload-destination-panel.png)
 :::image type="content" alt-text="upload destinations for Dropbox accounts bulk" source="media/mm-box-bulk-upload-destination-panel.png":::
 
 1. From the Migrations tab, select **Upload destinations** from the menu bar.
