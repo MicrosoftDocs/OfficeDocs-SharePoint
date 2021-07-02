@@ -24,13 +24,13 @@ description: "This article introduces topics that describe hardware, software, a
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
   
-Before you install SharePoint Server, ensure that you have installed all the required hardware and software. To effectively plan your deployment, you must understand the level of support that is provided for the web browsers that you will be using in your environment and how support for IP versions 4 and 6 is implemented in SharePoint Servers 2016 and 2019. You must also understand the URL and path length restrictions in SharePoint Servers 2016 and 2019.
+Before you install SharePoint Server, ensure that you have installed all the required hardware and software.
   
 ## Prerequisites for SharePoint Server installation
 
-Before you run SharePoint Server set up, additional softwares must be installed. You can install the prerequisite softwares using the followiong options:
+Before you run SharePoint Server set up, additional softwares must be installed. You can install the prerequisite softwares using the following options:
 - Automatically using the SharePoint prerequisite installer `prerequisiteinstaller.exe`
-- Manually.
+- Manually
 
 Following are the prerequisite softwares that must be installed prior to running SharePoint Server setup:
 - Various Windows Server roles and features such as the Web Server (IIS) Role. 
@@ -97,9 +97,9 @@ WAS-Process-Model
 
 WAS-Config-APIs -IncludeManagementTools
    ```
-- Microsoft WCF Data Services 5.6
-- Microsoft .NET Framework 4.8
-- Visual C++ Re-distributable Package for Visual Studio 2015-2019
+- `Microsoft WCF Data Services 5.6`
+- `Microsoft .NET Framework 4.8`
+- `Visual C++ Re-distributable Package for Visual Studio 2015-2019`
 
 The prerequisite installer creates log files at `%TEMP%\prerequisiteinstaller.<date>.<time>.log`. You can check these log files for specific details about all changes the installer makes to the target computer.
 

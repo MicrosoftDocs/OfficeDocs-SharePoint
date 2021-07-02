@@ -35,7 +35,7 @@ The procedure to install SharePoint Server v.Next is similar to installing Share
 
 For more information, see [Install SharePoint Server 2019](install-for-sharepoint-server-2019.md).
 
-## Installating SharePoint Server Subscription Edition on Windows Server with Desktop Experience
+## Installing SharePoint Server Subscription Edition on Windows Server with Desktop Experience
 
 1. Mount the ISO file to your test server by double-clicking on it, or by specifying it as a virtual drive in your virtual machine manager.
 2. Run the SharePoint prerequisite installer `prerequisiteinstaller.exe` on your test server.
@@ -43,7 +43,7 @@ For more information, see [Install SharePoint Server 2019](install-for-sharepoin
 4. Run the SharePoint Products Configuration Wizard to create or join a farm `PSConfigUI.exe`
 5. Configure the service applications and web applications in your farm, such as through the Farm Configuration Wizard.
 
-## Installating SharePoint Server Subscription Edition on Windows Server Core
+## Installing SharePoint Server Subscription Edition on Windows Server Core
 
 1. Mount the ISO file to your test server by using the `Mount-DiskImage cmdlet`, or by specifying it as a virtual drive in your virtual machine manager.
 
@@ -73,12 +73,12 @@ For example: `D:\setup.exe /config "C:\SharePoint Files\config.xml" /IAcceptTheL
 10. Once SharePoint setup has completed, reboot your test server.
 11. Run the following SharePoint PowerShell cmdlets with their appropriate parameters to create or join a farm:
 - New-SPConfigurationDatabase to create a farm or Connect-SPConfigurationDatabase to join a farm
-- Install-SPHelpCollection -Al
-- Initialize-SPResourceSecurity
-- Install-SPService
-- Install-SPFeature -AllExistingFeatures
-- New-SPCentralAdministration
-- Install-SPApplicationContent
+- `Install-SPHelpCollection -Al`
+- `Initialize-SPResourceSecurity`
+- `Install-SPService`
+- `Install-SPFeature -AllExistingFeatures`
+- `New-SPCentralAdministration`
+- `Install-SPApplicationContent`
 
 > [!NOTE]
 > You can also use the `PSCONFIG.exe` command line tool or the `PSConfigUI.exe` GUI tool. However,`PSConfigUI.exe` will crash on Windows Server Core if it needs to display a summary of error messages at the end of the sequence due to a dependency on HTML rendering components.

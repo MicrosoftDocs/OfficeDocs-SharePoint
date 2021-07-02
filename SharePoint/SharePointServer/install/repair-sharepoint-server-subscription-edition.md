@@ -51,12 +51,12 @@ SharePoint Server v.Next repair steps are as follows:
 - For example: `$env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\setup.exe/config C:\SharePoint Files\config.xml/repair OSERVER`
 2. Once SharePoint setup has completed, reboot your test server.
 3. Run the following SharePoint PowerShell `cmdlets` with their appropriate parameters to repair the server in the farm.
-- Install-SPHelpCollection -All
-- Initialize-SPResourceSecurity
-- Install-SPService
-- Install-SPFeature -AllExistingFeatures
-- New-SPCentralAdministration (If hosting the Central Administration site on this server.)
-- Install-SPApplicationContent
+- `Install-SPHelpCollection -All`
+- `Initialize-SPResourceSecurity`
+- `Install-SPService`
+- `Install-SPFeature -AllExistingFeatures`
+- `New-SPCentralAdministration (If hosting the Central Administration site on this server.)`
+- `Install-SPApplicationContent`
 > [!NOTE]
 > You can also use the `PSCONFIG.exe` command line tool or the `PSConfigUI.exe` GUI tool. However, `PSConfigUI.exe` will crash on Windows Server.
 Core if it needs to display a summary of error messages at the end of the sequence due to a dependency on HTML rendering components.
