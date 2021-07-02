@@ -110,7 +110,7 @@ How to get started
 Moving to modern navigation from classic SharePoint navigation is a process that depends on the size of your organization and the complexity of your tenant’s configuration. Below are general guidelines and tools you can use to get started:
 
 - Define new intranet [business objectives](./plan-intranet.md#identify-initiatives) and [choose pilot scenarios](./plan-intranet.md#choose-pilot-scenarios)
-- Learn about [user needs](./information-architecture-modern-experience.md#understand-your-content) and find methods to [test potential designs](https://www.nngroup.com/articles/quantitative-user-research-methods/)
+- [Get organized](./information-architecture-principles.md#get-organized) and find methods to [test potential designs](https://www.nngroup.com/articles/quantitative-user-research-methods/)
 - Take an inventory of your current sites and subsites
 - Start [planning hubs](./planning-hub-sites.md) and your [home site](./home-site.md) by grouping high priority tasks and content
 - Release hubs and associated sites in phases

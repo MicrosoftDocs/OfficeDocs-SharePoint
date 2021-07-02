@@ -8,7 +8,7 @@ ms.date: 6/21/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: how-to
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
@@ -28,7 +28,7 @@ description: "Learn how to set up the SharePoint Server services you'll need for
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
- **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article. **
+ **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article.**
   
 ## Set up SharePoint Server services for hybrid
 
@@ -84,7 +84,7 @@ You need to create a Managed Metadata service application.
     
 That's all the configuration that you need to do for the Managed Metadata service if you're configuring a hybrid scenario. If you want to make further use of the Managed Metadata service, see [Plan for managed metadata in SharePoint Server](../governance/managed-metadata-planning.md).
   
- **My Sites **
+ **My Sites**
   
 The first thing we need to do is to create a web application for the My Sites site. We recommend that My Sites be in a separate web application, although the web application can be in an application pool that is shared with other collaboration sites, or it can be in a separate application pool but in a shared IIS website.
   
@@ -204,7 +204,7 @@ If you're using SharePoint Server 2013, the next step is to turn on the User Pro
   
 Next, we'll configure the App Management Service.
   
- ** App Management Service **
+ **App Management Service**
   
 If you're using SharePoint Server 2013, you need to turn on the App Management Service on at least one server in your farm.
   
@@ -249,9 +249,9 @@ Hybrid uses the Microsoft SharePoint in Microsoft 365 Foundation Subscription Se
     
 2. For the **Microsoft SharePoint Foundation Subscription Settings Service**, select **Enable Auto Provision**
 
-You must also have a Subscription Settings service application and proxy. These must be created by using Microsoft PowerShell. Use the example script provided at [New-SPSubscriptionSettingsServiceApplication](/powershell/module/sharepoint-server/New-SPSubscriptionSettingsServiceApplication?view=sharepoint-ps).
+You must also have a Subscription Settings service application and proxy. These must be created by using Microsoft PowerShell. Use the example script provided at [New-SPSubscriptionSettingsServiceApplication](/powershell/module/sharepoint-server/New-SPSubscriptionSettingsServiceApplication).
   
- ** Active Directory Domain Services synchronization connection **
+ **Active Directory Domain Services synchronization connection**
   
  For hybrid, we need a synchronization connection with Active Directory Domain Services for the User Profile service. If you haven't already configured one, use the following procedure to do so. 
   

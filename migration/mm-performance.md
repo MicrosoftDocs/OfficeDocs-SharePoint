@@ -20,7 +20,9 @@ description: "How to improve performance when using Migration Manager."
 ---
 # Improving your migration performance when using Migration Manager
 
-When using Migration Manager, follow these guidelines to help improve your migration performance.
+There are four general areas to examine when trying to improve performance when using Migration Manager.  Migration Manager will detect an area that needs improvement and direct you to guidance to make adjustments.
+
+The concept of "score" as it relates to performance is only available in the SharePoint Migration Tool (SPMT), and is not part of Migration Manager.  Instead, Migration Manager identifies one or more specific areas for improvement so you can more effectively refine your efforts to improve performance.
 
 ## Recommendations 
 

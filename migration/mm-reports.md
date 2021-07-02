@@ -94,6 +94,9 @@ When assessing your migration jobs, we recommend that you first look at these su
 |Migrated GB <br/> |The total size of the files migrated, expressed in gigabytes.  <br/> |
 |Agent|The address of the migration agent (VM or computer) that is running the migration task.|	
 |Duration  <br/> |Length of time in minutes that the migration task took to complete.  <br/> |
+|TaskID|Unique ID of the task.|
+|Task failure reason|Explanation of task failure.|
+|Agent group|Name of agent group the task was assigned to.|
 
 
    
@@ -268,5 +271,5 @@ This report provides scores ranging from 1 to 100. The greater the number, the h
 |:-----|:-----|:-----|
 |Reading source speed score<br/> |[Improving the speed at which the source can be read](./mm-performance.md#improving-the-speed-at-which-the-source-can-be-read)<br/> |
 |Local disk performance score<br/> |[Improving the migration computer speed](./mm-performance.md#improving-the-migration-computer-speed) <br/> |
-|Uploading speed score  <br/> |[Improving your connectivity to Office 365 and Azure](/harepointmigration/mm-performance#improving-your-connectivity-to-0ffice-365-and-azure)<br/> |
+|Uploading speed score  <br/> |[Improving your connectivity to Office 365 and Azure](./mm-performance.md#improving-your-connectivity-to-office-365-and-azure)<br/> |
 |SharePoint throughput score <br/> |[Improving your migration performance](./sharepoint-online-and-onedrive-migration-speed.md) <br/> |

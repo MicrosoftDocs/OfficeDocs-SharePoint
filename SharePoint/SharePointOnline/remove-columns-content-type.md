@@ -24,17 +24,15 @@ Columns can be added and removed from content types as necessary. To remove a co
 
 **To remove a column from a content type**
 
-1. Go to the SharePoint admin center.
+1. Go to the [Content type gallery page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=contentTypes&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
 
-2. Under **Content services**, select **Content type gallery**.
+2. Under the **Site content type** column, select the name of the site content type to which you want to remove a column.
 
-3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type to which you want to remove a column.
+3. Under **Site columns**, select the column name you want to remove.
 
-4. Under **Site columns**, select the column name you want to remove.
+4. Select the vertical ellipsis to the right of the site column name you selected, and from the dropdown, select **Delete**. A **Delete site column** dialog box appears prompting you that this action will remove the column from the content type.
 
-5. Select the vertical ellipsis to the right of the site column name you selected, and from the dropdown, select **Delete**. A **Delete site column** dialog box appears prompting you that this action will remove the column from the content type.
-
-6. Select **Delete** to confirm.
+5. Select **Delete** to confirm.
 
 ## Related topics
 

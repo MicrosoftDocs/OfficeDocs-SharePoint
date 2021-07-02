@@ -20,11 +20,7 @@ search.appverid: MET150
 description: "Step 2:  Scan and assess Google users using Migration Manager."
 ---
 
-# Step 2: Scan and assess Google Drives (preview)
-
->[!Note]
-> Features described in this topic are part of a preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
-
+# Step 2: Scan and assess Google Drives
 
 After you have connected to Google, Google Drives are scanned automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
 
@@ -50,6 +46,6 @@ A table summary appears at the top to give you an at-a-glance overview of your u
 
 
 >[!NOTE]
->Migration Manager Google preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

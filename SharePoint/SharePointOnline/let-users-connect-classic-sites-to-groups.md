@@ -35,7 +35,7 @@ As a global or SharePoint admin in Microsoft 365, you can allow or prevent site 
     
 2. Select **classic settings page**.
     
-3. Next to "Allow site owners to create Microsoft 365 groups and attach them to existing sites," select **Do not allow site owners to create new Microsoft 365 groups for their existing sites.** or **Allow site owners to create new Microsoft 365 groups for their existing sites.**
+3. Next to "Connections from sites to Microsoft 365 groups," select **Prevent site collection administrators from connecting sites to new Microsoft 365 groups** or **Allow site collection administrators to connect sites to new Microsoft 365 groups**.
     
 When this setting is on, and the site collection administrator for a classic team site (with the template STS#0) is allowed to create groups, they will see the "Connect to a new Microsoft 365 Group" option in settings. For more info, see:
   

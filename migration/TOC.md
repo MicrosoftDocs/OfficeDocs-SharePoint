@@ -6,6 +6,7 @@
 ### [Step 3: Monitor and report](mm-reports.md)
 ### Reference
 #### [What's new](mm-whats-new.md)
+#### [Prerequisites and endpoints](mm-prerequisites.md)
 #### [Migration solutions posters](migration-solution-posters.md)
 #### [Settings](mm-settings.md)
 #### [Create an Agent group](mm-agent-targeting.md)
@@ -13,7 +14,9 @@
 #### [How Migration Manager works](mm-how-it-works.md)
 #### [Format a CSV or JSON file for bulk upload](mm-bulk-upload-format-csv-json.md)
 #### [Create a user mapping file](mm-user-mapping-file.md)
+#### [Performance dashboard](mm-performance-dashboard.md)
 #### [FAQs](mm-faqs.md)
+#### [How to reinstall a Migration agent](mm-reinstall-agent.md)
 #### [Troubleshooting](mm-troubleshoot.md)
 ## Migrate from Box
 ### [Overview](mm-box-overview.md)
@@ -34,6 +37,14 @@
 ### [Step 4: Review destination paths](mm-google-step4-review-destinations.md)
 ### [Step 5: Map identities](mm-google-step5-map-identities.md)
 ### [Step 6: Migrate and Monitor](mm-google-step6-migrate-monitor.md)
+## Migrate from Dropbox
+### [Overview](mm-Dropbox-overview.md)
+### [Step 1: Connect to Dropbox](mm-Dropbox-step1-connect.md)
+### [Step 2: Scan and assess](mm-Dropbox-step2-scan-assess.md)
+### [Step 3: Copy to Migrations list](mm-Dropbox-step3-copy-to-migrations.md)
+### [Step 4: Review destination paths](mm-Dropbox-step4-review-destinations.md)
+### [Step 5: Map identities](mm-Dropbox-step5-map-identities.md)
+### [Step 6: Migrate and Monitor](mm-Dropbox-step6-migrate-monitor.md)
 ## Migrate SharePoint Server sites and content
 ### [Overview](introducing-the-sharepoint-migration-tool.md)
 ### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
@@ -52,7 +63,7 @@
 #### [How the SharePoint Migration Tool works](how-the-sharepoint-migration-tool-works.md)
 #### [Settings](spmt-settings.md)
 #### [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
-#### [How to format your CSV or JSON file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md)
+#### [Bulk upload migration tasks with CSV or JSON file](how-to-format-your-csv-file-for-data-content-migration.md)
 #### [SPMT Reports](using-the-sharepoint-migration-tool-reports.md)
 #### [Create user mapping files](create-a-user-mapping-file-for-data-content-migration.md)
 ###  Troubleshooting
