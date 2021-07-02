@@ -25,21 +25,21 @@ Once have reviewed the accounts, confirmed the destinations, correctly mapped id
 
 1. Select the accounts to migrate.
 
-![Select accounts to migrate](media/mm-box-select-to-migrate.png)
+    :::image type="content" alt-text="Select accounts to migrate" source="media/mm-box-select-to-migrate.png":::
 
 2. Select **Migrate**.
 
-![Select migrate button](media/mm-box-migrate-button.png) 
+    :::image type="content" alt-text="Select migrate button" source="media/mm-box-migrate-button.png":::
 
 3.  A confirmation step displays.  Click **Migrate**.  
 
->[!Note]
-> Starting your migration only copies content from your Google account to the location you have specified in Microsoft 365.  Make sure the destinations are correct, as once the migration starts, they cannot be modified.
+    > [!Note]
+    > Starting your migration only copies content from your Google account to the location you have specified in Microsoft 365.  Make sure the destinations are correct, as once the migration starts, they cannot be modified.
 
 4.  Once the migration begins, monitor the migration status, and the table summary at the top.  Depending on how large your migration, this step may take hours or days.
 
 
->[!NOTE]
->Migration Manager Google Workspace isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+> [!NOTE]
+> Migration Manager Google Workspace isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
