@@ -71,3 +71,4 @@ To resume a paused Search service application, use the following PowerShell.
 ```
 $ssa = Get-SPEnterpriseSearchServiceApplication -Identity MySSA
 $ssa | Resume-SPEnterpriseSearchServiceApplication
+```
