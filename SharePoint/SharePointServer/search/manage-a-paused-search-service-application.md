@@ -32,9 +32,9 @@ We'll show you how you can find out if and why the Search service application is
     
 3. At the Microsoft PowerShell command prompt, type the following command(s) to find out if the Search service application is paused.
     
-  ```
-  $ssa.IsPaused() -ne 0
-  ```
+    ```powershell
+    $ssa.IsPaused() -ne 0
+    ```
 
 If this command returns **False**, the Search service application is running.
     
@@ -56,7 +56,7 @@ If this command returns **True**, the Search service application is paused. Go t
    
 After you've waited until the operation completes, at the Microsoft PowerShell command prompt, type the following command to make sure that the Search service application is running:
   
-```
+```powershell
 $ssa.IsPaused() -ne 0
 ```
 
@@ -68,7 +68,7 @@ If this command returns **True**, the Search service application is paused. Re-r
 
 To resume a paused Search service application, use the following PowerShell.
 
-```
+```powershell
 $ssa = Get-SPEnterpriseSearchServiceApplication -Identity MySSA
 $ssa | Resume-SPEnterpriseSearchServiceApplication
 ```
