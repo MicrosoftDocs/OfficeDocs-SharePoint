@@ -105,7 +105,8 @@ Each organization will have its own set of policies and guidelines. General topi
 
 
 ### Site provisioning and decommissioning
-A key intranet governance decision involves determining who can create a new intranet site. Your modern [intranet architecture will be “flat”](./information-architecture-modern-experience.md#guiding-principle--the-world-is-flat) which means that your intranet will contain many sites. Do you want to provide a self-service model for new intranet sites or do you want to manage site creation through a form submission and workflow? There is no right answer to this question – but no matter which approach you choose, you need to think about governance. There are two popular solutions to governing new site creation:
+
+A key intranet governance decision involves determining who can create a new intranet site. Your modern [intranet architecture will be “flat”](./information-architecture-modern-experience.md#guiding-principle-the-world-is-flat) which means that your intranet will contain many sites. Do you want to provide a self-service model for new intranet sites or do you want to manage site creation through a form submission and workflow? There is no right answer to this question – but no matter which approach you choose, you need to think about governance. There are two popular solutions to governing new site creation:
 
 
 #### Implement a site request process for intranet sites
