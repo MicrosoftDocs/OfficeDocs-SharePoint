@@ -33,7 +33,7 @@ After a Box user has been scanned and determined ready, add them to your migrati
 
 2. Select the users that are ready to be added to the migrations list.
 
-3. Select **Copy to migrations**
+3. Select **Copy to migrations**.
 
     :::image type="content" alt-text="Box copy to migrations confirm" source="media/mm-box-copy-migrations-confirm.png":::
 

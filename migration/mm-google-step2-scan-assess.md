@@ -26,26 +26,22 @@ After you have connected to Google, Google Drives are scanned automatically for 
 
 A table summary appears at the top to give you an at-a-glance overview of your users and content size.
 
-
-
 1.  Review the scanned drives. Select **Look for new drives** if you want to do a manually search.
 
-![review scanned google drives](media/mm-google-scan-step.png)
+    :::image type="content" alt-text="review scanned google drives" source="media/mm-google-scan-step.png":::
 
 2. Search for specific text, or select a filter to review the list more easily.
 
-![filter options for google drive scan results](media/mm-google-filters-scan.png)
+    :::image type="content" alt-text="filter options for google drive scan results" source="media/mm-google-filters-scan.png":::
 
+3. Once the scan is complete, select **Download reports** from the menu bar, to troubleshoot any issues. The file will be available from your task bar or downloads folder: **Scan task report.csv**.
 
-3. Once the scan is complete, select **Download reports** from the menu bar, to troubleshoot any issues. The file will be available from your task bar or downloads folder: **Scan task report.csv**
-
-![google download reports button](media/mm-google-download-reports-button.png)
-
+    :::image type="content" alt-text="google download reports button" source="media/mm-google-download-reports-button.png":::
 
 **NEXT:**  [ **Step 3: Copy to migrations**](mm-Google-step3-copy-to-migrations.md)
 
 
->[!NOTE]
->Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+> [!NOTE]
+> Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
