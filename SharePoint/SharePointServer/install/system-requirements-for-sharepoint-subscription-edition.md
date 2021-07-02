@@ -1,5 +1,5 @@
 ---
-title: "System requirements for SharePoint Subscription edition"
+title: "System requirements for SharePoint Server Subscription edition"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
@@ -19,16 +19,20 @@ ms.assetid: 64233599-f18c-4081-a3ce-450e878a1b9f
 description: "This article introduces topics that describe hardware, software, and other requirements for SharePoint Server."
 ---
 
-# System requirements for SharePoint Subscription edition
+# System requirements for SharePoint Server Subscription edition
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
   
-Before you install SharePoint Server, you must make sure that you have installed all required hardware and software. To effectively plan your deployment, you must understand the level of support that is provided for the web browsers that you will be using in your environment and how support for IP versions 4 and 6 is implemented in SharePoint Servers 2016 and 2019. You must also understand the URL and path length restrictions in SharePoint Servers 2016 and 2019.
+Before you install SharePoint Server, ensure that you have installed all the required hardware and software. To effectively plan your deployment, you must understand the level of support that is provided for the web browsers that you will be using in your environment and how support for IP versions 4 and 6 is implemented in SharePoint Servers 2016 and 2019. You must also understand the URL and path length restrictions in SharePoint Servers 2016 and 2019.
   
-## SharePoint Server v.Next Prerequisites
+## Prerequisites for SharePoint Server installation
 
-SharePoint Server v.Next requires additional software prerequisites, which must be installed before you run SharePoint Server v.Next setup. All the required prerequisites can be automatically installed by the SharePoint prerequisite installer `prerequisiteinstaller.exe`, or you can choose to manually install them yourself.
+Before you run SharePoint Server set up, additional softwares must be installed. You can install the prerequisite softwares using the followiong options:
+- Automatically using the SharePoint prerequisite installer `prerequisiteinstaller.exe`
+- Manually.
+
+Following are the prerequisite softwares that must be installed prior to running SharePoint Server setup:
 - Various Windows Server roles and features such as the Web Server (IIS) Role. 
 You can enable these in Windows Server Manager or by running the following PowerShell command:
 
@@ -101,10 +105,10 @@ The prerequisite installer creates log files at `%TEMP%\prerequisiteinstaller.<d
 
 ## Test Environments without an Internet Connection
 
-The SharePoint prerequisite installer requires an active Internet connection to download and install the prerequisites. In scenarios where there is no access to the Internet, you can download the prerequisites and then install them from a network share. For more information, see [Hardware and software requirements for SharePoint Server 2019](hardware-and-software-requirements-2019.md).
+The SharePoint prerequisite installer requires an active Internet connection to download and install the prerequisites. In scenarios, where there is no access to the Internet, you can download the prerequisites and then install them from a network share. For more information, see [Hardware and software requirements for SharePoint Server 2019](hardware-and-software-requirements-2019.md).
 
-## Minimum Requirements for Client Computers
+## Minimum Requirements for client Computers
 
-A supported browser.For more information, see [System requirements for Microsoft 365 and office:Browsers](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources?rtc=1#coreui-heading-uyetipy).
+A supported browser. For more information, see [System requirements for Microsoft 365 and office:Browsers](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources?rtc=1#coreui-heading-uyetipy).
 
 
