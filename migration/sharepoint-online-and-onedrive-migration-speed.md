@@ -86,6 +86,7 @@ The speed of this step depends on the efficiency of the tool you are using and t
 
 
 #### I. Upload to Azure
+
 SPMT or your third-party tool will migrate your content into SharePoint using the Migration API, leveraging Azure as a temporary holding place.
 
 If you have a good connection and can configure your datacenter, choose the same datacenter location closest geographically to you for your Azure and your Microsoft 365 account. 
@@ -114,27 +115,31 @@ After the migration is completed, verify that your content has been successfully
 If you are planning to migrate over 100TB, please submit a support request following the steps listed below. Make sure to include all requested information.
 
 Follow these steps:
+
 1. Navigate to https://admin.microsoft.com
+
 2. Ensure you are using the new admin center preview.
 
->[!Note]
->If you are using the old Microsoft 365 admin center you can skip step 8 as the "Description" field will not exist.
+    >[!Note]
+    >If you are using the old Microsoft 365 admin center you can skip step 8 as the "Description" field will not exist.
 
 3. On the left nav pane, select **Support**, and then select **New Service Request**. 
 
-     ![New service request](media/new-service-request.png)
+    ![New service request](media/new-service-request.png)
 
-
-
-  This will activate the **Need Help?** pane on the right-hand side of your screen.
+    This will activate the **Need Help?** pane on the right-hand side of your screen.
 
 4.  In the **Briefly describe your issue** area, enter "SharePoint Migration over 100TB".</br>
 
-     ![screen reads need help](media/need-help-100tb.png)
+    > [!div class="mx-imgBorder"]
+    > ![screen reads need help](media/need-help-100tb.png)
 
 5. Select **Contact Support**.
+
 6. Under **Description**, enter "SharePoint Migration over 100TB". 
+
 7. Fill out the remaining info, and select **Contact me**.
+
 8. After the ticket has been created, ensure you provide the support agent with the following information:
 - Estimated size of your migration.
 - An estimate of when you would like to start and complete your migration.
@@ -165,26 +170,29 @@ Answer:  Here are some quick self-help checks to consider:</br>
 
 **Question: My migration is blocked with consistent high volume of Http 503 errors ("Server Too Busy") ?**</br>
 Answer: If you are experiencing a high volume of HTTP 503 responses blocking your migration **during evening and weekend hours**, follow the steps below to create a support ticket.
+
 1. Navigate to https://admin.microsoft.com
+
 2. Ensure you're using the new admin center preview.
 
->[!Note]
->If you are using the old M365 admin center you can skip step 8 as the "Description" field will not exist.
+    >[!Note]
+    >If you are using the old M365 admin center you can skip step 8 as the "Description" field will not exist.
 
 3. To activate the **Need Help?** pane on the right-hand side of your screen: On the left nav pane, select **Support**, and then select **New Service Request**. 
 
      ![New service request](media/new-service-request.png)
 
+4. In the **Briefly describe your issue** area, enter "SharePoint Migration Throttling with 503".
 
- 
-
-4. In the **Briefly describe your issue** area, enter "SharePoint Migration Throttling with 503".</br>
-
-     ![screen displays need help](media/need-help.png)
+    > [!div class="mx-imgBorder"]
+    > ![screen displays need help](media/need-help.png)
 
 5. Select **Contact Support**.
+
 6. Under **Description**, enter "SharePoint Migration Throttling with 503". 
+
 7. Fill out the remaining info, and select **Contact me**.
+
 8. After the ticket has been created, ensure you provide the support agent with the following information:
     - How much is left of your migration (x TB?). 
     - Migration start and end date.
@@ -199,18 +207,21 @@ Answer: If you are experiencing a high volume of HTTP 503 responses blocking you
 If you want to file a Microsoft support ticket, follow these steps and include the following information for any migration reason:
 
 1. Navigate to https://admin.microsoft.com
-2. Ensure you are using the new admin center preview.
 
+2. Ensure you are using the new admin center preview.
 
 3. On the left nav pane, select **Support**, and then select **New Service Request**. This activates the **Need Help?** pane on the right-hand side of your screen.
 
-4. In the **Briefly describe your issue** area, enter "SharePoint Migration issue.</br>
+4. In the **Briefly describe your issue** area, enter "SharePoint Migration issue.
+
 5. Select **Contact Support**.
+
 6. Under **Description**, enter a brief description of your migration issue. 
+
 7. Fill out the remaining info, and select **Contact me**.
 
->[!Note]
->If you are using the old Microsoft 365 admin center you can skip step 8 as the "Description" field will not exist.
+    >[!Note]
+    >If you are using the old Microsoft 365 admin center you can skip step 8 as the "Description" field will not exist.
 
 8. After the ticket has been created, make sure to include the following information:
 
