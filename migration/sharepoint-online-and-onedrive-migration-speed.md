@@ -64,7 +64,7 @@ This step is where the tool creates a proper package for the content to be impor
 The following table provides estimates of the type of speed you may achieve based on the types of content you are migrating.  
 
 
-|**Type of metadata**|**Examples**|**Maximum**|
+| Type of metadata | Examples | Maximum |
 |:-----|:-----|:-----|
 |Light|ISO files, video files |10 TB/day|
 |Medium |List items, Office files (~1.5 MB)|1 TB/day|
@@ -141,9 +141,9 @@ Follow these steps:
 7. Fill out the remaining info, and select **Contact me**.
 
 8. After the ticket has been created, ensure you provide the support agent with the following information:
-- Estimated size of your migration.
-- An estimate of when you would like to start and complete your migration.
-- Where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, and so on.
+    - Estimated size of your migration.
+    - An estimate of when you would like to start and complete your migration.
+    - Where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, and so on.
 
 
 ### FAQ and Troubleshooting
