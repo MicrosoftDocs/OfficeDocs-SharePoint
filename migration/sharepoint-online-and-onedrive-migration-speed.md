@@ -38,7 +38,7 @@ When using either the SharePoint Migration Tool (SPMT) or running a Migration Ma
 
 -	[Improving the speed at which the source can be read](./spmt-performance-guidance.md#improving-the-speed-at-which-the-source-can-be-read)
 -	[Improving the migration computer speed](./spmt-performance-guidance.md#improving-the-migration-computer-speed)
--	[Improving your connectivity to Office 365 and Azure](./spmt-performance-guidance.md#improving-your-connectivity-to-office-365-and-azure)
+-	[Improving your connectivity to Office 365 and Azure](./spmt-performance-guidance.md#improving-your-connectivity-to-microsoft-365-and-azure)
 
 
 ## Performance guidance for the SharePoint Migration API
