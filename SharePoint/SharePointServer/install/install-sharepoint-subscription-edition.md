@@ -24,7 +24,7 @@ description: "Learn how to install SharePoint Server Subscription edition in var
 # Installing SharePoint Server Subscription Edition
 <a name="section1"> </a>
 
-The procedure to install SharePoint Server v.Next is similar to installing SharePoint Server 2019. The steps are as follows:
+The procedure to install SharePoint Server Subscription Edition is similar to installing SharePoint Server 2019. The steps are as follows:
 
 1. Install [Windows Server 2019](https://www.microsoft.com/en-in/evalcenter/evaluate-windows-server-2019) on your test server.
 2. Install [SQL Server 2019](https://www.microsoft.com/en-in/evalcenter/evaluate-sql-server-2019) on your test server or an additional test server.
