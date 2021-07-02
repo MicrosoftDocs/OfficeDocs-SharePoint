@@ -41,7 +41,7 @@ Azure must be provisioned with these basic components for networking and storage
 
 Before you begin configuring Azure components, fill in the following tables. To assist you in the procedures for configuring Azure, print this section and write down the needed information or copy this section to a document and fill it in. For the settings of the Azure virtual network (VNet), fill in Table V.
   
-|**Item**|**Configuration setting**|**Description**|**Value**|
+| Item | Configuration setting | Description | Value |
 |:-----|:-----|:-----|:-----|
 |1. |VNet name |A name to assign to the Azure Virtual Network (example SPFarmNet). | :::image type="icon" source="../media/TableLine.png"::: |
 |2. |VNet location |The Azure datacenter that will contain the virtual network. | :::image type="icon" source="../media/TableLine.png"::: |
@@ -64,7 +64,7 @@ See [Address space calculator for Azure gateway subnets](https://gallery.technet
   
 Work with your IT department to determine these address spaces from the virtual network address space.
   
-|**Item**|**Subnet name**|**Subnet address space**|**Purpose**|
+| Item | Subnet name | Subnet address space | Purpose |
 |:-----|:-----|:-----|:-----|
 |1. | :::image type="icon" source="../media/TableLine.png"::: | :::image type="icon" source="../media/TableLine.png"::: |The subnet used by the Windows Server Active Directory (AD) VMs. |
 |2. | :::image type="icon" source="../media/TableLine.png"::: | :::image type="icon" source="../media/TableLine.png"::: |The subnet used by the VMs in the SQL Server cluster. |
@@ -76,7 +76,7 @@ Work with your IT department to determine these address spaces from the virtual 
   
 Next, fill in Table I for the static IP addresses assigned to virtual machines and load balancer instances.
   
-|**Item**|**Purpose**|**IP address on the subnet**|**Value**|
+| Item | Purpose | IP address on the subnet | Value |
 |:-----|:-----|:-----|:-----|
 |1. |Static IP address of the first domain controller |The fourth possible IP address for the address space of the subnet defined in Item 1 of Table S. | :::image type="icon" source="../media/TableLine.png"::: |
 |2. |Static IP address of the second domain controller |The fifth possible IP address for the address space of the subnet defined in Item 1 of Table S. | :::image type="icon" source="../media/TableLine.png"::: |
@@ -94,7 +94,7 @@ Next, fill in Table I for the static IP addresses assigned to virtual machines a
   
 For the two Domain Name System (DNS) servers in your on-premises network that you want to use when initially setting up the domain controllers in your virtual network, fill in Table D. Note that two blank entries are listed, but you can add more. Work with your IT department to determine this list.
   
-|**Item**|**DNS server friendly name**|**DNS server IP address**|
+| Item | DNS server friendly name | DNS server IP address |
 |:-----|:-----|:-----|
 |1. | :::image type="icon" source="../media/TableLine.png"::: | :::image type="icon" source="../media/TableLine.png"::: |
 |2. | :::image type="icon" source="../media/TableLine.png"::: | :::image type="icon" source="../media/TableLine.png"::: |
@@ -108,7 +108,7 @@ To route packets from the cross-premises network to your organization network ac
   
 For the set of local network address spaces, fill in Table L. Note that three blank entries are listed but you will typically need more. Work with your IT department to determine this list of address spaces.
   
-|**Item**|**Local network address space**|
+| Item | Local network address space |
 |:-----|:-----|
 |1. | :::image type="icon" source="../media/TableLine.png"::: |
 |2. | :::image type="icon" source="../media/TableLine.png"::: |
@@ -148,7 +148,7 @@ Get-AzResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
 
 Fill in the following table for the set of unique resource group names.
   
-|**Item**|**Resource group name**|**Purpose**|
+| Item | Resource group name | Purpose |
 |:-----|:-----|:-----|
 |1. | :::image type="icon" source="../media/TableLine.png"::: |Domain controllers |
 |2. | :::image type="icon" source="../media/TableLine.png"::: |Database cluster servers |
@@ -269,7 +269,7 @@ Next, ensure that the address space of the virtual network is reachable from you
   
 Next, define the names of four availability sets. Fill out Table A. 
   
-|**Item**|**Purpose**|**Availability set name**|
+| Item | Purpose | Availability set name |
 |:-----|:-----|:-----|
 |1. |Domain controllers | :::image type="icon" source="../media/TableLine.png"::: |
 |2. |SQL servers | :::image type="icon" source="../media/TableLine.png"::: |
