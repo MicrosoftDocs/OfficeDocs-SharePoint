@@ -43,7 +43,6 @@ The first date picker lets you pick past 31 days (about one month) or 
 
 ## Overview of search reports 
 
-
 |Report    |Description    |
 |---------|---------|
 |Query Volume     |  This report shows the number of search queries performed. Use this report to identify search query volume trends and to determine periods of high and low search activity.|
