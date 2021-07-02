@@ -1,5 +1,5 @@
 ---
-title: "Uninstall SharePoint Server Subscription edition"
+title: "Uninstall SharePoint Server Subscription Edition"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
@@ -17,13 +17,13 @@ ms.collection:
 - SP2019
 ms.assetid: 47db8aed-7e2b-4ccb-b248-d71df3bffa99
 
-description: "Learn how to uninstall SharePoint Subscription edition in various topologies."
+description: "Learn how to uninstall SharePoint Server Subscription Edition in various topologies."
 ---
 
 # Overview
 <a name="section1"> </a>
 
-SharePoint Server v.Next uninstall steps are as follows:
+SharePoint Server uninstallation steps are as follows:
 
 ## Uninstall on Windows Server with Desktop Experience
 
