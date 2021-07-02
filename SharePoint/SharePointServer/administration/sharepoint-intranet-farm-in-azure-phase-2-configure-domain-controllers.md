@@ -36,15 +36,15 @@ First, you need to fill out the **Virtual machine name** column of Table M and m
   
 |**Item**|**Virtual machine name**|**Gallery image**|**Minimum size**|**Storage type**|
 |:-----|:-----|:-----|:-----|:-----|
-|1.  <br/> |![](../media/TableLine.png) (first domain controller, example DC1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_D2  <br/> |StandardLRS  <br/> |
-|2.  <br/> |![](../media/TableLine.png) (second domain controller, example DC2)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_D2  <br/> |StandardLRS  <br/> |
-|3.  <br/> |![](../media/TableLine.png) (first SQL Server computer, example SQL1)  <br/> |Microsoft SQL Server 2016 Enterprise - Windows Server 2016  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
-|4.  <br/> |![](../media/TableLine.png) (second SQL Server computer, example SQL2)  <br/> |Microsoft SQL Server 2016 Enterprise - Windows Server 2016  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
-|5.  <br/> |![](../media/TableLine.png) (majority node witness for the cluster, example MN1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_D2  <br/> |StandardLRS  <br/> |
-|6.  <br/> |![](../media/TableLine.png) (first SharePoint application and search server, example APP1)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
-|7.  <br/> |![](../media/TableLine.png) (second SharePoint application and search server, example APP2)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
-|8.  <br/> |![](../media/TableLine.png) (first SharePoint front end and distributed cache server, example WEB1)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
-|9.  <br/> |![](../media/TableLine.png) (second SharePoint front end and distributed cache server, example WEB2)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
+|1.  <br/> |![Image of a blank line, instance 1](../media/TableLine.png) (first domain controller, example DC1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_D2  <br/> |StandardLRS  <br/> |
+|2.  <br/> |![Image of a blank line, instance 2](../media/TableLine.png) (second domain controller, example DC2)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_D2  <br/> |StandardLRS  <br/> |
+|3.  <br/> |![Image of a blank line, instance 3](../media/TableLine.png) (first SQL Server computer, example SQL1)  <br/> |Microsoft SQL Server 2016 Enterprise - Windows Server 2016  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
+|4.  <br/> |![Image of a blank line, instance 4](../media/TableLine.png) (second SQL Server computer, example SQL2)  <br/> |Microsoft SQL Server 2016 Enterprise - Windows Server 2016  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
+|5.  <br/> |![Image of a blank line, instance 5](../media/TableLine.png) (majority node witness for the cluster, example MN1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_D2  <br/> |StandardLRS  <br/> |
+|6.  <br/> |![Image of a blank line, instance 6](../media/TableLine.png) (first SharePoint application and search server, example APP1)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
+|7.  <br/> |![Image of a blank line, instance 7](../media/TableLine.png) (second SharePoint application and search server, example APP2)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
+|8.  <br/> |![Image of a blank line, instance 8](../media/TableLine.png) (first SharePoint front end and distributed cache server, example WEB1)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
+|9.  <br/> |![Image of a blank line, instance 9](../media/TableLine.png) (second SharePoint front end and distributed cache server, example WEB2)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
    
  **Table M - Virtual machines for the SharePoint Server 2016 intranet farm in Azure**
   
