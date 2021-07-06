@@ -32,11 +32,11 @@ Different customers may have different interpretations of terms such as "depreca
 
 - **Deprecated**
  
-  A deprecated feature is no longer being invested in by Microsoft and we discourage customers from taking a dependency on it if they haven't used it before. Deprecated features are still supported by Microsoft in SharePoint Server Subscription Edition for customers who are already using this feature in previous releases and need the feature for backward compatibility. Deprecated features may be removed in future major releases of SharePoint Server with no additional notice. Customers should begin to explore their options for migrating away from these features.
+A deprecated feature is no longer being invested in by Microsoft and we discourage customers from taking a dependency on it if they haven't used it before. Deprecated features are still supported by Microsoft in SharePoint Server Subscription Edition for customers who are already using this feature in previous releases and need the feature for backward compatibility. Deprecated features may be removed in future major releases of SharePoint Server with no additional notice. Customers should begin to explore their options for migrating away from these features.
 
 - **Removed**
 
-  A removed feature is no longer supported by Microsoft in SharePoint Server Subscription Edition. In many cases, the feature is actually removed from the product, but in some cases it may still be present. A feature labeled as "removed" is unsupported even if the feature is still present in the product.
+A removed feature is no longer supported by Microsoft in SharePoint Server Subscription Edition. In many cases, the feature is actually removed from the product, but in some cases it may still be present. A feature labeled as "removed" is unsupported even if the feature is still present in the product.
  
 ## Deprecated Features
 
@@ -87,18 +87,15 @@ PerformancePoint Services had a significant dependency on Microsoft Silverlight,
 
 ### Stsadm.exe command line tool 
 
-The stsadm.exe command line administration tool has been removed from SharePoint Server Subscription Edition. SharePoint PowerShell cmdlets should be used to administer SharePoint from the command line or through scripting. TAP customers should open bugs (feedback) in the Microsoft Collaborate portal if any important functionality in stsadm.exe is not available in the SharePoint PowerShell cmdlets.
+The stsadm.exe command line administration tool has been removed from SharePoint Server Subscription Edition. SharePoint PowerShell cmdlets must be used to administer SharePoint from the command line or through scripting. TAP customers can open bugs (feedback) in the Microsoft Collaborate portal if any important functionality in stsadm.exe is not available in the SharePoint PowerShell cmdlets.
 
 > [!NOTE]
 > As SharePoint PowerShell cmdlets have been converted from snap-ins to modules in SharePoint Server Subscription Edition, the Update-SPHelp cmdlet is no longer necessary to download the latest cmdlet help content. This cmdlet has been removed.
 
 ### Microsoft Information Protection and Control Client 2.1 (MSIPC)
 
-This has been replaced by an internal version that will be installed through SharePoint setup and serviced through SharePoint public updates.
+This feature has been replaced by an internal version that will be installed through SharePoint setup and serviced through SharePoint public updates.
 
 ### Windows Server AppFabric 1.1
 
-This has been replaced by an internal version that will be installed through SharePoint setup and serviced through SharePoint public updates.
-
-
-
+This featuer has been replaced by an internal version that will be installed through SharePoint setup and serviced through SharePoint public updates.
