@@ -80,7 +80,11 @@ To install an agent to a different Geo location:
 3. **Open** this file:  %temp%\SPMigrationAgentSetup\SPMigrationAgentSetup\Microsoft.SharePoint.Migration.ClientShared.dll.config
 4. Under appSettings, add an entry as shown in the following **example** for the desired country or data center. (Note: this is an example for Canada.) </br>
 
-    *< add key="GeoLocation" value="CAN" / >*
+```powershell 
+ 
+<add key="GeoLocation" value="CAN" />
+
+```
 
 The country or regional GEO code can be found here [Microsoft 365 Multi-Geo availability](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo)
 
