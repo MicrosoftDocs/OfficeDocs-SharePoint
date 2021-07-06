@@ -1,14 +1,14 @@
 ---
 title: "Introducing Windows Server Core support"
 ms.reviewer: 
-ms.author: v-benzy
+ms.author: v-benzyd
 author: benzicald
 manager: serdars
 ms.date: 7/2/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
