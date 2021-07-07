@@ -195,12 +195,10 @@ This health rule runs weekly to provide notifications through Central Administra
 
 This health rule runs weekly to provide advanced notification through both Central Administration and email of upcoming certificate expirations.
 
-
 ### SSL certificates are about to expire
 <a name="sslcate"> </a>
 
 This health rule runs daily to provide advanced notification through both Central Administration and email when certificates are about to expire.
-
 
 ### SSL certificates have expired
 <a name="sslche"> </a>
@@ -290,6 +288,7 @@ As the Windows Classic authentication mode is no longer supported, the behaviors
 
 ### New People Picker cmdlets
 <a name="nppc"> </a>
+
 We've added the following PowerShell cmdlets to configure the People Picker and replace the stsadm.exe commands described in [Configure People Picker (SharePoint Server 2010)](https://docs.microsoft.com/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14)).
 
  - `Get-SPPeoplePickerConfig`
@@ -430,20 +429,19 @@ Farm administrators can also change the ASP.NET view state decryption and valida
 ### Accessibility improvements across modern UX
 <a name="aiamu"> </a>
   
-Screen reader announces the incorrect positions for menu items save and close, discard changes, and publish. Screen reader announces the incorrect position for command bar controls in documents page. Screen reader announces the incorrect position for command bar controls in documents page. It ensures buttons have discernible text.
+SharePoint Server Subscription Edition includes a variety of accessibility improvements to the modern UX to ensure that all users can be productive with SharePoint.
 
 ### Brick layout for document library thumbnails and image gallery web part
 <a name="briclil"> </a>
   
-Brick layout respects the aspect ratio of all images shown in 16:9, 1:1, 4:3, and so on. With the Brick layout, you can show several images of various sizes, automatically **layered** in a pattern like that of a brick wall.
-
-We introduce Brick layout in modern document library and image gallery web part. You can add Brick layout as an option in image gallery web part and change the layout of modern document library from Grid layout to Brick layout.
+SharePoint Server Subscription Edition introduces the Brick layout as a layout option in modern document libraries and the image gallery web part. The Brick layout displays several images of various sizes, automatically arranged in a pattern similar to a brick wall. The Brick layout respects the aspect ratio of all images shown, including 16:9, 4:3, 1:1, and so on.
 
 ### Bulk check-in/check-out in modern document library experience
 <a name="bulkinout"> </a>
   
-If you want to make changes to a file in a SharePoint document library, but keep others from making changes at the same time, check the file out of the document library. Once you're done making changes to the file, check it in from the library to upload your changes. 
-Instead of checking-in or checking-out one file at a time, now you can select multiple files and check them in/out.
+Checking out a file from a document library allows you to make changes to a file while preventing others from making changes to that file. Once you're done making changes to the file, checking it in to the document library will allow others to see your changes.
+
+Now with bulk check-out and check-in, you can select multiple files and perform the check-out and check-in operations on all of that at the same time. This saves you time by avoiding repetitive steps.
   
 ### Bulk download files from document library and OneDrive personal sites
 <a name="bulkdod"> </a>
@@ -468,13 +466,12 @@ For more information about this feature, see [Download files and folders from On
 ### Image and document thumbnails in document libraries and picture libraries
 <a name="idt"> </a>
 
-For SharePoint Server Subscription Edition, image thumbnail returns to picture library. You can explore pictures not only by their names but also by their thumbnail.
-Image thumbnail is not only supported in picture library, but also in modern document library, if you deploy OSS farm, you can enjoy the thumbnail of Word/PowerPoint/PDF file in document library.
+SharePoint Server Subscription Edition can render thumbnails of files in the Tiles view of document libraries and picture libraries. SharePoint will render thumbnails of popular image file formats such as PNG, JPEG, GIF, and more. And if you've linked your SharePoint Server farm to an Office Online Server farm, SharePoint will also be able to render thumbnails of popular document formats such as PDFs, Word documents, PowerPoint documents, and Rich Text Files.
   
 ### List and library modern web parts support adding/editing/deleting content
 <a name="llmw"> </a>
 
-With SharePoint Server Subscription Edition, you can do the following to documents and list items in the web part:
+SharePoint Server Subscription Edition adds the ability to perform the following actions in modern document library and modern list web parts:
 
  - Document library web part: create, upload, share, download, rename, delete, and edit documents and folders.
  
@@ -483,17 +480,19 @@ With SharePoint Server Subscription Edition, you can do the following to documen
 ### Modern document sets
 <a name="mds"> </a> 
   
-In SharePoint Server Subscription Edition, the document Sets is enhanced so that you can enjoy the same modern experience when using Document Sets in modern document library.
+A Document Set is a group of related documents that you can manage as a single entity. In previous versions of SharePoint Server, document sets only supported the classic UX. Now in SharePoint Server Subscription Edition, Document Sets have been enhanced to support the modern experience in document libraries.
 
 ## Storage
 
 ### Remote Share Provider
 <a name="blob"> </a>  
   
-SharePoint managed account object is no longer required. Instead, `PSCredential` object will be used to store SMB storage credential and this object needs to be provided as the parameter of the cmdlet `Register-SPRemoteShareBlobStore`.
+In SharePoint Server Subscription Edition, Remote Share Provider, a new Remote BLOB Storage (RBS) provider, is introduced to enable customer to offload BLOB storages from SQL server to low cost remote SMB system. 
+
+By using this new technology, customer can shift data storage from costly SQL server to low cost SMB file storage. And also it can enlarge the total size of contents in same content database as BLOB is offload to remote system.
   
 ### Remote Share Provider diagnostic tool
 <a name="rspdt"> </a>
   
-This new PowerShell cmdlet helps admin to validate the data consistency of content database that is remote share provider enabled. This makes it easier for admin to figure out what are the problems in the remote storage.
+To support new Remote Share Provider, SharePoint Server Subscription Edition provides a new PowerShell cmdlet tool to admin to validate the data consistency of content database which is remote share provider enabled. It provides an easy way for checking healthy of content database and remote storage, and for troubleshooting storage problem.
 
