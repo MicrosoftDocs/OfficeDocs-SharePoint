@@ -51,9 +51,9 @@ Follow these configuration steps to make People Picker work:
 
     Following three parameters need special attention:<br/>
 
-    1. **ClaimsMappings**<br/>
+    - **ClaimsMappings**<br/>
        `ClaimsMappings` specifies the mapping of claims from the original token to a SharePoint token. By using this parameter, SharePoint understands how to generate a SharePoint token when given a specific token from a user profile service application property.<br/>
-       It accepts a list of `ClaimTypeMapping` objects, which are created by the [New-SPClaimTypeMapping](/powershell/module/sharepoint-server/new-spclaimtypemapping) cmdlet. A list of examples of `ClaimTypeMapping` objects given below. Provide these objects to the `ClaimsMappings` parameter:
+       It accepts a list of `ClaimTypeMapping` objects, which are created by the [New-SPClaimTypeMapping](/powershell/module/sharepoint-server/new-spclaimtypemapping) cmdlet. Following are examples of `ClaimTypeMapping` objects, that can be to the `ClaimsMappings` parameter:
         ```
         $emailClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
         $upnClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn" -IncomingClaimTypeDisplayName "UPN" -SameAsIncoming
@@ -61,15 +61,15 @@ Follow these configuration steps to make People Picker work:
         $sidClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.microsoft.com/ws/2008/06/identity/claims/groupsid" -IncomingClaimTypeDisplayName "SID" -SameAsIncoming
         ```
 
-    2. **IdentifierClaim** <br/>
+    - **IdentifierClaim** <br/>
        The `IdentifierClaim` parameter specifies which claim type from the trusted STS will be used for the new identity provider. It can be set to the `InputClaimType` of the `ClaimTypeMapping` object created from the [New-SPClaimTypeMapping](/powershell/module/sharepoint-server/new-spclaimtypemapping) cmdlet.
         ```
         -IdentifierClaim $emailClaimMap.InputClaimType
         ```
 
-    3. **UseUPABackedClaimProvider** <br/>
+    - **UseUPABackedClaimProvider** <br/>
         This switch parameter enables the People Picker to search and select users and groups from the UPA service.
-2. After `$tokenissuer` is created, customers can create a claim provider that uses the UPA service to search and resolve users and groups in the People Picker and specify that this claim provider will use the created token issuer.
+2. After `$tokenissuer` is created, you can create a claim provider that uses the UPA service to search and resolve users and groups in the People Picker and specify that this claim provider will use the created token issuer.
     ```
     $claimprovider = New-SPClaimProvider 
         - AssemblyName "Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c" 
@@ -79,13 +79,13 @@ Follow these configuration steps to make People Picker work:
         - TrustedLoginProvider $tokenissuer
     ```
     Following three parameters need special attention:
-    1. **AssemblyName**<br/>
+    - **AssemblyName**<br/>
        Specify this parameter as `Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c`
-    2. **Type** <br/>
+    - **Type** <br/>
        Specify this parameter as `Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider` so this command knows that it needs to create a claim provider, which uses UPA as the claim source.
-    3. **TrustedLoginProvider** <br/> 
+    - **TrustedLoginProvider** <br/> 
        Specify this parameter as the token issuer that uses this claim provider. This is a new parameter that the user needs to provide when the type of the claim provider is `Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider`
-3. The next step is to tell the `SPTrustedIdentityTokenIssuer`, which claim provider should be used for searching and resolving users and groups.
+3. Identify which claim provider must be used for searching and resolving users and groups and add to `SPTrustedIdentityTokenIssuer`.
     ```
     Set-SPTrustedIdentityTokenIssuer <token issuer name> -ClaimProvider <claim provider object> 
     ```
@@ -93,10 +93,10 @@ Follow these configuration steps to make People Picker work:
     ```
     Set-SPTrustedIdentityTokenIssuer "ADFS Provider" -ClaimProvider $claimprovider
     ```
-4. Now, customers can start synchronizing profiles into the SharePoint User Profile Application service from the identity provider that are used in the organization. So that the newly created claim provider can work on the correct data set.<br/><br/>
-There are two ways to synchronize user profiles into the SharePoint User Profile Application service. They are:
-    - Use SharePoint Active Directory Import (AD Import) with **Trusted Claims Provider Authentication** as the **Authentication Provider Type** in the synchronization connection setting. To use AD Import, refer [Manage user profile synchronization in SharePoint Server](/sharepoint/administration/manage-profile-synchronization).
-    - Use Microsoft Identity Manager (MIM). To use MIM, refer [Microsoft Identity Manager in SharePoint Servers 2016 and 2019](/sharepoint/administration/microsoft-identity-manager-in-sharepoint-server-2016).
+4. You can, now, start synchronizing profiles into the SharePoint User Profile Application service from the identity provider that are used in the organization, so that the newly created claim provider can work on the correct data set.<br/><br/>
+Following are the two ways to synchronize user profiles into the SharePoint User Profile Application service:
+    - Use SharePoint Active Directory Import (AD Import) with **Trusted Claims Provider Authentication** as the **Authentication Provider Type** in the synchronization connection setting. To use AD Import, see [Manage user profile synchronization in SharePoint Server](/sharepoint/administration/manage-profile-synchronization).
+    - Use Microsoft Identity Manager (MIM). To use MIM, see [Microsoft Identity Manager in SharePoint Servers 2016 and 2019](/sharepoint/administration/microsoft-identity-manager-in-sharepoint-server-2016).
         - There should be two agents inside the MIM synchronization Manager UX after MIM is set up. One agent is used to import user profiles from the source IDP to the MIM database. And another agent is used to export user profiles from the MIM database to the SharePoint User Profile Application service.
 
     During the synchronization, provide the following properties to the UPA service:
@@ -124,7 +124,7 @@ There are two ways to synchronize user profiles into the SharePoint User Profile
        - Set **SPS-ClaimProviderID** to the provider name as created in step #1 by the [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) cmdlet.<br/>
        - Set **SPS-ClaimProviderType** to **SPTrustedBackedByUPAClaimProvider**
 
-       For AD Import synchronization, modify these 2 properties in the **User Profile Service Application -> Configure Synchronization Connections -> Create New Connection** UX while creating a new AD Import synchronization connection.
+       For AD Import synchronization, modify the following 2 properties in the **User Profile Service Application -> Configure Synchronization Connections -> Create New Connection** UX while creating a new AD Import synchronization connection.
         - Set **SPS-ClaimProviderType** by setting **Authentication Provider Type** to **Trusted Claims Provider Authentication**
         - Set SPS-ClaimProviderID to the new token issuer name created by the [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) cmdlet.
 
@@ -137,8 +137,8 @@ There are two ways to synchronize user profiles into the SharePoint User Profile
         ![Configure Attribute Flow](../media/configure-attribute-flow.png)
 
 5. Make groups searchable. <br/>
-   To enable the People Picker control to work with groups, run the following steps:
-    1. Group object must have a property named **SID** of type **groupsid** in the identity provider.<br/>
+   To enable the People Picker control to work with groups:
+    1. Ensure that the Group object has a property named **SID** of type **groupsid** in the identity provider.<br/>
        You can create a `ClaimTypeMapping` object by using [New-SPClaimTypeMapping](/powershell/module/sharepoint-server/new-spclaimtypemapping) and then provide this object to [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) cmdlet with `-ClaimsMappings` parameter.
 
         ```
