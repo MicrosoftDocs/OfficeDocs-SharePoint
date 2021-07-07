@@ -28,7 +28,9 @@ For example, in the following screenshot, "contoso" is automatically suggested.
   
 SharePoint has both a classic and a modern search experience, [learn about the differences between the classic and modern search experiences in SharePoint](differences-classic-modern-search.md). The modern search experience uses the same default result source as the classic search experience. Automatic query suggestions for the default result source appear in both the classic and modern search experiences.
 
- You can manually create your own lists of query suggestions and import them to SharePoint. Manual query suggestions apply to **all** result sources, **all** site collections, and to **both** search experiences.
+As an admin you can manually create your own lists of queries that always shall be suggested or phrases that never shall be suggested, and import them to SharePoint. 
+- Your list of queries that shall always be suggested only applies to modern search and only in tenant-wide scope.
+- Your list of phrases that never shall appear apply to both classic and modern search, to all result sources and all site collections.
   
 To create query suggestions for multiple languages, you'll need to create a separate file for each language. The language determines how the query suggestions are processed internally in the search system. All manual query suggestions are always displayed for **all** languages. Add each phrase as a separate line in the text file that you create and save the file in UTF-8 encoding. 
   
@@ -64,4 +66,4 @@ You can edit a list of query suggestions that you've manually created. To edit a
   
 To get rid of a list of query terms, you must overwrite it. Do this by importing an empty text file. 
   
-You can also prevent terms from appearing in the search box. To do this, create a text file with the query terms that you never want users to see below the search box, and then import it to **Never suggest phrases**.
+To prevent terms from appearing in the search box, create a text file with the query terms that you never want users to see below the search box, and then import it to **Never suggest phrases**.
