@@ -59,7 +59,7 @@ Restore external List sync with:
 
 If you enable this setting, people who used Microsoft Lists previously and who are signed in on an Azure AD-joined PC can set up Lists sync without entering their account credentials.  
 
-> [Important]
+> [!IMPORTANT]
 > If the [Office browser extension](https://microsoftedge.microsoft.com/addons/detail/office/gggmmkjegpiggikcnhidnjjhmicpibll?source=sfw) isn't installed on users’ Chromium-based browsers (Edge, Chrome, etc.), we strongly recommend leaving silent account configuration enabled to ensure the seamless operation of List sync via Nucleus.exe.  
 
 Enabling this policy sets the following registry key value to 1:
