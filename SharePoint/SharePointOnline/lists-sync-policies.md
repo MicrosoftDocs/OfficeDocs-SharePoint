@@ -66,7 +66,7 @@ Enabling this policy sets the following registry key value to 1:
 
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableNucleusSilentConfig" = "dword:00000001"
 
-For more info about this feature, including troubleshooting steps, see [Silently configure user accounts](/onedrive/use-silent-account-configuration.md).
+For more info about this feature, including troubleshooting steps, see [Silently configure user accounts](/onedrive/use-silent-account-configuration).
 
 ## Control Lists sync on unmanaged devices and based on location  
 
