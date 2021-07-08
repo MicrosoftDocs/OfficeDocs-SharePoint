@@ -30,7 +30,6 @@ Word breakers and stemmers enable you to search efficiently and effectively acro
 > [!IMPORTANT]
 > If you are uninstalling SharePoint Server, you must uninstall all language packs before you uninstall SharePoint Server. 
   
-    
 ## About language IDs and language packs
 <a name="section1"> </a>
 

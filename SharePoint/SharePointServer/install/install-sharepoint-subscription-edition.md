@@ -18,7 +18,7 @@ ms.collection:
 - SP2019
 ms.custom: 
 ms.assetid:
-description: "Learn how to install SharePoint Server Subscription edition in various topologies."
+description: "Learn how to install SharePoint Server Subscription Edition in various topologies."
 ---
     
 # Installing SharePoint Server Subscription Edition
@@ -26,12 +26,9 @@ description: "Learn how to install SharePoint Server Subscription edition in var
 
 The procedure to install SharePoint Server Subscription Edition is similar to installing SharePoint Server 2019. The steps are as follows:
 
-1. Install [Windows Server 2019](https://www.microsoft.com/en-in/evalcenter/evaluate-windows-server-2019) on your test server.
+1. Install [Windows Server 2019](https://www.microsoft.com/en-in/evalcenter/evaluate-windows-server-2019) on your test.
 2. Install [SQL Server 2019](https://www.microsoft.com/en-in/evalcenter/evaluate-sql-server-2019) on your test server or an additional test server.
-3. Download the following installation packages from the [SharePoint v.Next TAP Engagement Portal](https://partner.microsoft.com/dashboard/directory):
-    - Package for the server install
-    - Package that will have documentation and other small supporting files that may be needed during the installation process.
-5. The next steps are based on whether you are installing on Windows Server with Desktop Experience or Windows Server Core.
+3. The next steps are based on whether you are installing on Windows Server with Desktop Experience or Windows Server Core.
 
 For more information, see [Install SharePoint Server 2019](install-for-sharepoint-server-2019.md).
 

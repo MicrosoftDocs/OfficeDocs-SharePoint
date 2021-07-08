@@ -19,7 +19,7 @@ ms.assetid:
 description: "Learn how to install SharePoint Subscription edition in various topologies."
 ---
 
-# Install SharePoint Server Subscription edition
+# Install SharePoint Server Subscription Edition
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 

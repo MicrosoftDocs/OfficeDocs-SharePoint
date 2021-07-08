@@ -8,7 +8,7 @@ ms.date: 06/21/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
@@ -19,90 +19,24 @@ ms.assetid: 64233599-f18c-4081-a3ce-450e878a1b9f
 description: "This article introduces topics that describe hardware, software, and other requirements for SharePoint Server."
 ---
 
-# System requirements for SharePoint Server Subscription edition
+# System requirements for SharePoint Server Subscription Edition
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
-
   
-Before you install SharePoint Server, ensure that you have installed all the required hardware and software.
+Before you install SharePoint Server Subscription Edition, you must make sure that you have installed all required hardware and software. To effectively plan your deployment, you must understand the level of support that is provided for the web browsers that you will be using in your environment and how support for IP versions 4 and 6 is implemented in SharePoint Servers. You must also understand the URL and path length restrictions in SharePoint Servers.
+
+The following articles help you prepare for the installation of SharePoint Server by providing information about the prerequisites that you must have in order to run SharePoint Server.
+
+    
+||**Content**|**Description**|
+|:-----|:-----|:-----|
+|![Building blocks](../media/mod_icon_buildingblock_M.png)|[Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md) <br/> |Describes the hardware and software requirements that you must meet to successfully install SharePoint 2013.  <br/> |
+|![Checklist icon (not checked)](../media/mod_icon_checklist_.png)|[Plan browser support in SharePoint 2013](browser-support-planning.md) <br/> |Describes levels of support for web browsers to use with SharePoint 2013.  <br/> |
+|![Building blocks](../media/mod_icon_buildingblock_M.png)|[IP support in SharePoint 2013](ip-support.md) <br/> |Describes SharePoint 2013 support for IP version 4 (IPv4) and IP version 6 (IPv6).  <br/> |
+|![Checklist icon (not checked)](../media/mod_icon_checklist_.png)|[Software boundaries and limits for SharePoint 2013](software-boundaries-and-limits.md) <br/> |This article provides a starting point for planning the performance and capacity of your SharePoint 2013 farm, and includes performance and capacity testing results and guidelines for acceptable performance.  <br/> |
+|![Building blocks](../media/mod_icon_buildingblock_M.png)|[Capacity management and sizing overview for SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ff758647(v=office.14)) <br/> |This article walks you through the concepts involved in capacity management and sizing SharePoint 2013 farms, and provides an overview of the planning process.  <br/> |
   
-## Prerequisites for SharePoint Server installation
 
-Before you run SharePoint Server set up, additional softwares must be installed. You can install the prerequisite softwares using the following options:
-- Automatically using the SharePoint prerequisite installer `prerequisiteinstaller.exe`
-- Manually.
-
-Following are the prerequisite softwares that must be installed prior to running SharePoint Server setup:
-- Various Windows Server roles and features such as the Web Server (IIS) Role. 
-You can enable these in Windows Server Manager or by running the following PowerShell command:
-
- ```
-Install-WindowsFeature NET-WCF-Pipe-Activation45
-
-NET-WCF-HTTP-Activation45
-
-NET-WCF-TCP-Activation45
-
-Web-Server
-
-Web-WebServer
-
-Web-Common-Http
-
-Web-Static-Content
-
-Web-Default-Doc
-
-Web-Dir-Browsing
-
-Web-Http-Errors
-
-Web-App-Dev
-
-Web-Asp-Net45
-
-Web-Net-Ext45
-
-Web-ISAPI-Ext
-
-Web-ISAPI-Filter
-
-Web-Health
-
-Web-Http-Logging
-
-Web-Log-Libraries
-
-Web-Request-Monitor
-
-Web-Http-Tracing
-
-Web-Security
-
-Web-Basic-Auth
-
-Web-Windows-Auth
-
-Web-Filtering
-
-Web-Performance
-
-Web-Stat-Compression
-
-Web-Dyn-Compression
-
-WAS
-
-WAS-Process-Model
-
-WAS-Config-APIs -IncludeManagementTools
-   ```
-
-- Microsoft WCF Data Services 5.6
-- Microsoft .NET Framework 4.8
-- Visual C++ Re-distributable Package for Visual Studio 2015-2019
-
-The prerequisite installer creates log files at `%TEMP%\prerequisiteinstaller.<date>.<time>.log`. You can check these log files for specific details about all changes the installer makes to the target computer.
 
 ## Test Environments without an Internet Connection
 

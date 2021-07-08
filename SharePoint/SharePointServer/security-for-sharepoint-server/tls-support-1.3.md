@@ -1,7 +1,7 @@
 ---
 title: "TLS Support 1.3"
 ms.reviewer: 
-ms.author: v-satapathy
+ms.author: v-nsatapathy
 author: nimishasatapathy
 manager: serdars
 ms.date: 6/28/2021

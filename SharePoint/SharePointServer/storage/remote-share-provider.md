@@ -1,7 +1,7 @@
 ---
 title: "Remote Share Provider"
 ms.reviewer: 
-ms.author: v-satapathy
+ms.author: v-nsatapathy
 manager: nimishasatapathy
 audience: ITPro
 f1.keywords:

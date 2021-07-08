@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: v-nsatapathy
 author: nimishasatapathy
 manager: serdars
-ms.date: 7/24/2018
+ms.date: 6/24/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -38,7 +38,7 @@ SharePoint Server repair steps are as follows:
 10. After the computer reboots, launch the SharePoint Products Configuration Wizard.
 11. Click **Next**.
 12. If prompted to automatically start or reset services, click **Yes**.
-13. In the Modify server farm Settings page, select **Do not disconnect from this server farm** and then click Next.
+13. In the Modify server farm Settings page, select **Do not disconnect from this server farm** and then click **Next**.
 14. If prompted whether to modify the SharePoint Central Administration web application settings, select **No, this machine will continue to host the web site** and then, click **Next**.
 15. Click **Next** to begin the repair operation.
 16. After the repair operation has finished, click **Finish**.
