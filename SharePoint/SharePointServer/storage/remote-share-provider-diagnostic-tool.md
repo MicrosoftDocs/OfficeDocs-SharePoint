@@ -15,11 +15,11 @@ ms.assetid:
 description: "Learn how the new diagnostic tool helps to validate the data consistency of the content database.."
 ---
 
-# New Remote Share Provider Diagnostic Tool
+# New Remote Share Provider diagnostic tool
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-We have a new PS cmdlet help admin to validate the data consistency of content database, which is Remote Share Provider enabled. It makes it easier for admin to figure out what are the problems in the remote storage.
+We have a new PowerShell cmdlet help admin to validate the data consistency of content database, which is Remote Share Provider enabled. It makes it easier for admin to figure out what are the problems in the remote storage.
 
 ```
 SYNTEX
