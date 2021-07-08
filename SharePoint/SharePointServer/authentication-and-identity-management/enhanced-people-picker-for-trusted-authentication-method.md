@@ -21,6 +21,8 @@ description: "In SharePoint Server Subscription Edition, People Picker is enhanc
 
 # Enhanced People Picker for trusted authentication method
 
+[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
+
 In SharePoint 2019 and earlier, when trusted authentication is used, the People Picker control can’t search, resolve, and validate users and groups without writing a custom claim provider through C#.
 
 Rather than writing a piece of C# code to implement a new claim provider, customers simply synchronize user profiles from their identity provider to the User Profile Application (UPA) service to make People Picker work.

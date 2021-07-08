@@ -21,6 +21,8 @@ description: "Windows Server Core is a leaner Windows Server deployment type com
 
 # Introducing Windows Server Core support
 
+[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
+
 Compared to classic Windows Server with Desktop Experience, Windows Server Core is a leaner deployment mode for SharePoint Server Subscription Edition as Server Core minimizes the number of OS features and services that are installed and running only those that are truly needed for a server. This deployment option reduces the demand on system resources (CPU, RAM, and disk space) and the potential attack surface for security vulnerabilities. Microsoft encourages Windows Server customers to move to this installation option as and when feasible for better support.
 
 Windows Server Core support has been introduced with the SharePoint Server release. This support makes SharePoint Server Subscription Edition an even better citizen 
