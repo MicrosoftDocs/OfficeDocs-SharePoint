@@ -40,7 +40,9 @@ SharePoint Server uninstallation steps are as follows:
 
 ## Uninstall on Windows Server Core
 
-1. Run SharePoint setup `setup.exe` from your "\Program Files\Common Files\Microsoft Shared\SERVER16\Server Setup Controller" directory with the following parameters:
-- `*/config <config file>` (Where <config file> is the path to your writable `config.xml` file)
-- /uninstall OSERVER
-- For example: `$env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\setup.exe /config C:\SharePoint Files\config.xml/uninstall OSERVER*`
+1. Run SharePoint setup (`setup.exe`) from your **C:\Program Files\Common Files\Microsoft Shared\SERVER16\Server Setup Controller** directory with the following parameters:
+    - `/config <config file>` (Where `<config file>` is the path to your writable `config.xml` file)
+    - `/uninstall OSERVER`
+    ```
+    "$env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\setup.exe" /config "C:\SharePoint Files\config.xml" /uninstall OSERVER
+    ```

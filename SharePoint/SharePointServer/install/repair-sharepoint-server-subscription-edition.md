@@ -17,7 +17,7 @@ ms.collection:
 - SP2019
 ms.assetid: 47db8aed-7e2b-4ccb-b248-d71df3bffa99
 
-description: "Learn how to uninstall SharePoint Server Subscription Edition in various topologies."
+description: "Learn how to repair SharePoint Server Subscription Edition in various topologies."
 ---
 # Overview
 <a name="section1"> </a>
@@ -45,18 +45,25 @@ SharePoint Server repair steps are as follows:
 
 ## Repair on Windows Server Core
 
-1. Run SharePoint setup `setup.exe`from your \Program Files\Common Files\Microsoft Shared\SERVER16\Server Setup Controller directory with the following parameters:
-- `/config <config file> (Where <config file> is the path to your writable config.xml file)`
-- `/repair OSERVER`
-- For example: `$env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\setup.exe/config C:\SharePoint Files\config.xml/repair OSERVER`
+1. Run SharePoint setup (`setup.exe`) from your **C:\Program Files\Common Files\Microsoft Shared\SERVER16\Server Setup Controller** directory with the following parameters:
+
+    - `/config <config file>` (Where `<config file>` is the path to your writable `config.xml` file)
+
+    - `/repair OSERVER`
+    ```
+    "$env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\setup.exe" /config "C:\SharePoint Files\config.xml" /repair OSERVER
+
+    ```
 2. Once SharePoint setup has completed, reboot your test server.
-3. Run the following SharePoint PowerShell `cmdlets` with their appropriate parameters to repair the server in the farm.
-- `Install-SPHelpCollection -All`
-- `Initialize-SPResourceSecurity`
-- `Install-SPService`
-- `Install-SPFeature -AllExistingFeatures`
-- `New-SPCentralAdministration (If hosting the Central Administration site on this server.)`
-- `Install-SPApplicationContent`
-> [!NOTE]
-> You can also use the `PSCONFIG.exe` command line tool or the `PSConfigUI.exe` GUI tool. However, `PSConfigUI.exe` will crash on Windows Server.
-Core if it needs to display a summary of error messages at the end of the sequence due to a dependency on HTML rendering components.
+
+3. Run the following SharePoint PowerShell cmdlets with their appropriate parameters to repair the server in the farm.
+
+    1. `Install-SPHelpCollection -All`
+    2. `Initialize-SPResourceSecurity`
+    3. `Install-SPService`
+    4. `Install-SPFeature -AllExistingFeatures`
+    5. `New-SPCentralAdministration` (If hosting the Central Administration site on this server)
+    6. `Install-SPApplicationContent`
+
+    > [!Note]
+    > You can also use the `PSCONFIG.EXE` command line tool or the `PSConfigUI.exe` GUI tool. However, `PSConfigUI.exe` will crash on Windows Server Core if it needs to display a summary of error messages at the end of the sequence due to a dependency on HTML rendering components.

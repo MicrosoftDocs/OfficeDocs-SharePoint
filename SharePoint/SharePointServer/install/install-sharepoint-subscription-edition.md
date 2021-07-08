@@ -45,45 +45,48 @@ For more information, see [Install SharePoint Server 2019](install-for-sharepoin
 
 ## Installing SharePoint Server Subscription Edition on Windows Server Core
 
-1. Mount the ISO file to your test server by using the `Mount-DiskImage cmdlet`, or by specifying it as a virtual drive in your virtual machine manager.
-
-For example: `Mount-DiskImage -ImagePath C:\SharePoint Files\16.0.14131.10000_OfficeServer_none_ship_x64_.iso`
-
-2. Run the SharePoint prerequisite installer `prerequisiteinstaller.exe` on your test server.
-3. Copy the `\Files\SetupSilent\config.xml` file from your mounted ISO disk image to a writable location.
-
-For example: `Copy-Item -Path D:\Files\SetupSilent\config.xml-Destination C:\SharePoint Files`
-
-4. If the `config.xml` file in your writable location has a read-only file attribute, then remove it.
-For example: `Set-ItemProperty -Path "C:\SharePoint Files\config.xml" -Name IsReadOnly -Value $fals`
-
+1. Mount the ISO file to your test server by using the `Mount-DiskImage` cmdlet, or by specifying it as a virtual drive in your virtual machine manager.
+    ```
+    Mount-DiskImage -ImagePath "C:\SharePoint Files\16.0.14131.10000_OfficeServer_none_ship_x64_en-us.iso"
+    ```
+2. Run the SharePoint prerequisite installer (`prerequisiteinstaller.exe`) on your test server.
+3. Copy the **\Files\SetupSilent\config.xml** file from your mounted ISO disk image to a writable location.
+    ```
+    Copy-Item -Path "D:\Files\SetupSilent\config.xml" -Destination "C:\SharePoint Files"
+    ```
+4. If the `config.xml` file in your writable location has a read-only file attribute, remove it.
+    ```
+    Set-ItemProperty -Path "C:\SharePoint Files\config.xml" -Name IsReadOnly -Value $false
+    ```
 5. Open the `config.xml` file in your writable location for editing.
-
-For example: `notepad.exe "C:\SharePoint Files\config.xml`
-
-6. Find and remove the "<!--" and "-->" text strings within the file. Do not remove the text in between those two text strings.
-7. Replace the "**Enter Product Key Here**" text string in the file with your SharePoint Server product key.
+    ```
+    notepad.exe "C:\SharePoint Files\config.xml"
+    ```
+6. Find and remove the `<!--` and `-->` text strings within the file. Don't remove the text in between these two text strings.
+7. Replace the **Enter Product Key Here** text string in the file with your SharePoint Server product key.
 8. Save your changes to the `config.xml` file.
-9. Run SharePoint setup `setup.exe` on your test server in command line mode, by adding the following command line parameters when launching `setup.exe`:
-- `*/config <config file> (Where <config file> is the path to your writable config.xml file)*`
-- `*/IAcceptTheLicenseTerms` (Specifying this parameter signifies that you have read, understand, and agree to the license terms of SharePoint Server and Project Server.)
-
-For example: `D:\setup.exe /config "C:\SharePoint Files\config.xml" /IAcceptTheLicenseTerms*`
-
+9. Run SharePoint setup (`setup.exe`) on your test server in command-line mode. Add the following command-line parameters when launching `setup.exe`:
+    - `/config <config file>` (Where `<config file>` is the path to your writable `config.xml` file)
+    - `/IAcceptTheLicenseTerms` (Specifying this parameter signifies that you have read, understand, and agree to the license terms of SharePoint Server and Project Server.)
+    ```
+    D:\setup.exe /config "C:\SharePoint Files\config.xml" /IAcceptTheLicenseTerms
+    ```
 10. Once SharePoint setup has completed, reboot your test server.
-11. Run the following SharePoint PowerShell cmdlets with their appropriate parameters to create or join a farm:
-- New-SPConfigurationDatabase to create a farm or Connect-SPConfigurationDatabase to join a farm
-- `Install-SPHelpCollection -Al`
-- `Initialize-SPResourceSecurity`
-- `Install-SPService`
-- `Install-SPFeature -AllExistingFeatures`
-- `New-SPCentralAdministration`
-- `Install-SPApplicationContent`
 
-> [!NOTE]
-> You can also use the `PSCONFIG.exe` command line tool or the `PSConfigUI.exe` GUI tool. However,`PSConfigUI.exe` will crash on Windows Server Core if it needs to display a summary of error messages at the end of the sequence due to a dependency on HTML rendering components.
+11. Run the following SharePoint PowerShell cmdlets with their appropriate parameters to create or join a farm.
 
-12. Configure the service applications and web applications in your farm, such as through the **Farm Configuration** wizard.
+    1. `New-SPConfigurationDatabase` to create a farm or `Connect-SPConfigurationDatabase` to join a farm
+    2. `Install-SPHelpCollection -All`
+    3. `Initialize-SPResourceSecurity`
+    4. `Install-SPService`
+    5. `Install-SPFeature -AllExistingFeatures`
+    6. `New-SPCentralAdministration`
+    7. `Install-SPApplicationContent`
 
-> [!NOTE]
-> You must use a web browser from another computer to access the Central Administration website. Windows Server Core does not include a web browser.
+    > [!Note]
+    > You can also use the `PSCONFIG.EXE` command line tool or the `PSConfigUI.exe` GUI tool. However, `PSConfigUI.exe` will crash on Windows Server Core if it needs to display a summary of error messages at the end of the sequence due to a dependency on HTML rendering components.
+
+12. Configure the service applications and web applications in your farm through the **Farm Configuration Wizard**.
+
+    > [!Note]
+    > You must use a web browser from another computer to access the Central Administration web site. Windows Server Core does not include a web browser.

@@ -30,7 +30,7 @@ Before you install SharePoint Server, ensure that you have installed all the req
 
 Before you run SharePoint Server set up, additional softwares must be installed. You can install the prerequisite softwares using the following options:
 - Automatically using the SharePoint prerequisite installer `prerequisiteinstaller.exe`
-- Manually
+- Manually.
 
 Following are the prerequisite softwares that must be installed prior to running SharePoint Server setup:
 - Various Windows Server roles and features such as the Web Server (IIS) Role. 
@@ -97,9 +97,10 @@ WAS-Process-Model
 
 WAS-Config-APIs -IncludeManagementTools
    ```
-- `Microsoft WCF Data Services 5.6`
-- `Microsoft .NET Framework 4.8`
-- `Visual C++ Re-distributable Package for Visual Studio 2015-2019`
+
+- Microsoft WCF Data Services 5.6
+- Microsoft .NET Framework 4.8
+- Visual C++ Re-distributable Package for Visual Studio 2015-2019
 
 The prerequisite installer creates log files at `%TEMP%\prerequisiteinstaller.<date>.<time>.log`. You can check these log files for specific details about all changes the installer makes to the target computer.
 
