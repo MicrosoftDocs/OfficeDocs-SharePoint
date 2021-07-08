@@ -1,5 +1,5 @@
 ---
-title: "System requirements for SharePoint Server Subscription edition"
+title: "System requirements for SharePoint Server Subscription Edition"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
@@ -8,7 +8,7 @@ ms.date: 06/21/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
@@ -26,83 +26,7 @@ description: "This article introduces topics that describe hardware, software, a
   
 Before you install SharePoint Server, ensure that you have installed all the required hardware and software.
   
-## Prerequisites for SharePoint Server installation
 
-Before you run SharePoint Server set up, additional softwares must be installed. You can install the prerequisite softwares using the following options:
-- Automatically using the SharePoint prerequisite installer `prerequisiteinstaller.exe`
-- Manually.
-
-Following are the prerequisite softwares that must be installed prior to running SharePoint Server setup:
-- Various Windows Server roles and features such as the Web Server (IIS) Role. 
-You can enable these in Windows Server Manager or by running the following PowerShell command:
-
- ```
-Install-WindowsFeature NET-WCF-Pipe-Activation45
-
-NET-WCF-HTTP-Activation45
-
-NET-WCF-TCP-Activation45
-
-Web-Server
-
-Web-WebServer
-
-Web-Common-Http
-
-Web-Static-Content
-
-Web-Default-Doc
-
-Web-Dir-Browsing
-
-Web-Http-Errors
-
-Web-App-Dev
-
-Web-Asp-Net45
-
-Web-Net-Ext45
-
-Web-ISAPI-Ext
-
-Web-ISAPI-Filter
-
-Web-Health
-
-Web-Http-Logging
-
-Web-Log-Libraries
-
-Web-Request-Monitor
-
-Web-Http-Tracing
-
-Web-Security
-
-Web-Basic-Auth
-
-Web-Windows-Auth
-
-Web-Filtering
-
-Web-Performance
-
-Web-Stat-Compression
-
-Web-Dyn-Compression
-
-WAS
-
-WAS-Process-Model
-
-WAS-Config-APIs -IncludeManagementTools
-   ```
-
-- Microsoft WCF Data Services 5.6
-- Microsoft .NET Framework 4.8
-- Visual C++ Re-distributable Package for Visual Studio 2015-2019
-
-The prerequisite installer creates log files at `%TEMP%\prerequisiteinstaller.<date>.<time>.log`. You can check these log files for specific details about all changes the installer makes to the target computer.
 
 ## Test Environments without an Internet Connection
 

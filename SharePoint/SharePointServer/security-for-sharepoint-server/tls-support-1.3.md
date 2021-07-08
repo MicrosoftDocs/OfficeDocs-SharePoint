@@ -15,7 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - IT_Sharepoint16
-ms.assetid: 559dddb1-95c9-4242-99ca-cf9cf1cbd0c3
+ms.assetid: 
 description: "This article describes the supported and unsupported components on Transport Layer Security (TLS) protocol version 1.3."
 ---
 
@@ -27,6 +27,6 @@ By default, `.NET Framework 4.8` on Windows Server 2022 supports TLS 1.3.
 
 The following networking and security components in SharePoint Server Subscription Edition still do not support TLS 1.3:
 - `Windows Server vers earlier than Windows Server 2022`
-- `SQL Server 2019`ions
+- `SQL Server 2019`
 - `Workflow Manager 1.0 and Service Bus 1.1`
 

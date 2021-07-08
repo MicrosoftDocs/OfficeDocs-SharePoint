@@ -3,6 +3,7 @@ title: "Remote Share Provider Diagnostic Tool"
 ms.reviewer: 
 ms.author: v-satapathy
 manager: nimishasatapathy
+ms.date: 6/28/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -10,7 +11,7 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
-ms.assetid: 5cdce2aa-fa6e-4888-a34f-de61713f5096
+ms.assetid:
 description: "Learn how the new diagnostic tool helps to validate the data consistency of the content database.."
 ---
 
