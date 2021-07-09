@@ -63,7 +63,7 @@ Follow these steps to create a custom list template.
       -Thumbnail "https://contoso.sharepoint.com/SiteAssets/site-thumbnail.png" 
     ```
 
-When users in your organization create a list (in SharePoint, Teams, or the Lists app), they will now see the custom list template “Contoso customer tracking” template on the "From your organization" tab. 
+When users in your organization create a list (in SharePoint, Teams, or the Lists app), they'll see the template on the "From your organization" tab. 
 
 ![The "Contoso customer tracking" template on the "From your organization" tab of the Create a list dialog box.](media/contoso-customer-tracking.png)
 
