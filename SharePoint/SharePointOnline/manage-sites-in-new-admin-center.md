@@ -36,7 +36,7 @@ For more info about tasks on the Active sites page, see:
 
 - [Create a site](create-site-collection.md)
 - [Register a site as a hub site](create-hub-site.md) and [Unregister a site as a hub site](remove-hub-site.md)
-- [Turn external sharing on or off for for a site](change-external-sharing-site.md)  
+- [Change sharing settings for a site](change-external-sharing-site.md)  
 - [Delete a site](delete-site-collection.md)
 - [Manage site storage limits](manage-site-collection-storage-limits.md)
   
