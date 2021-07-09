@@ -42,13 +42,15 @@ To configure external sharing for a site
 
 3. Select **Sharing**.
      
-4. Select an external sharing option (see the following table).
+4. Select an external sharing option (see the table in the next section).
 
     ![Changing the external sharing setting for a site](media/external-sharing-site.png)
 
 5. If you want to limit the sharing of this site by domain, select the **Limit sharing by domain** check box, and add the domains that you want to allow or block.
 
-6. If you want to change the default sharing link type, permissions, or expiration setting for this site, clear the **Same as organization-level setting** check box and set the value that you want to use for this site. For more info, see [Change the default sharing link for a site](change-default-sharing-link.md).
+6. If you want to change the default sharing link type or permissions for this site, clear the **Same as organization-level setting** check boxes and set the values that you want to use for this site. For more info, see [Change the default sharing link for a site](change-default-sharing-link.md).
+
+    ![Changing the default sharing link settings](media/default-sharing-link-settings.png)
 
 7. Select **Save**.
 
@@ -61,9 +63,7 @@ To configure external sharing for a site
 |Existing guests  <br/> |Allow sharing with only people already in your directory. These users may exist in your directory because they previously accepted sharing invitations or because they were [manually added](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal). (You can tell an external user because they have **#EXT#** in their user name.)  <br/> |
 |Only people in your organization  <br/> |Prevent all site users from sharing any site content externally. (This is the default setting for new classic sites.)  <br/> |
 
-
 The settings available are dependent on your organization-level setting. If you enable external sharing for a site and it is later turned off for your organization, external sharing will become unavailable at the site level and any shared links will stop working. If it is turned back on for the organization, the site sharing setting will return to what it was before and the shared links will resume working.
-
 
 > [!NOTE]
 > You might have site content shared with a Microsoft 365 group that has guest members, and the group settings prevent guest members from accessing group resources. In this case, even if you turn on external sharing for the site, guests of the group may not be able to access site content. To enable or disable Microsoft 365 Group guest member access, see [Manage guest access in Microsoft 365 Groups](/office365/admin/create-groups/manage-guest-access-in-groups).
