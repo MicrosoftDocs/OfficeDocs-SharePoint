@@ -57,12 +57,12 @@ Restore external List sync with:
 
 ### Prevent users from getting silently signed in to Lists sync with their Windows credentials
 
-If you enable this setting, people who used Microsoft Lists previously and who are signed in on an Azure AD-joined PC can set up Lists sync without entering their account credentials.  
+If you disable this setting, people who used Microsoft Lists previously and who are signed in on an Azure AD-joined PC can set up Lists sync without entering their account credentials.  
 
 > [!IMPORTANT]
 > If the [Office browser extension](https://microsoftedge.microsoft.com/addons/detail/office/gggmmkjegpiggikcnhidnjjhmicpibll?source=sfw) isn't installed on users’ Chromium-based browsers (Edge, Chrome, etc.), we strongly recommend leaving silent account configuration enabled to ensure the seamless operation of List sync via Nucleus.exe.  
 
-Enabling this policy sets the following registry key value to 1:
+Disabling this policy sets the following registry key value to 1:
 
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableNucleusSilentConfig" = "dword:00000001"
 
