@@ -56,12 +56,12 @@ To change the external sharing setting:
 
 ### Which option to select...
 
-|**Select this option:**|**If you want to:**|
+| Select this option: | If you want to: |
 |:-----|:-----|
-|Anyone  <br/> | Allow site owners and others with full control permission to share the site with people who authenticate. Allow site users to decide when sharing files and folders to require authentication or allow unauthenticated people to access the item. Anyone links to files and folders can be freely forwarded. <br/> |
-|New and existing guests  <br/> | Allow site owners and others with full control permission to share the site with people outside the organization. These people will need to sign in and will be added to the directory. Allow site users to share files and folders with people who aren't in the organization's directory. <br/> |
-|Existing guests  <br/> |Allow sharing with only people already in your directory. These users may exist in your directory because they previously accepted sharing invitations or because they were [manually added](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal). (These users have **#EXT#** in their user name.)  <br/> |
-|Only people in your organization  <br/> |Prevent all site users from sharing any site content externally. (This is the default setting for new classic sites.)  <br/> |
+|Anyone  | Allow site owners and others with full control permission to share the site with people who authenticate. Allow site users to decide when sharing files and folders to require authentication or allow unauthenticated people to access the item. Anyone links to files and folders can be freely forwarded. |
+|New and existing guests  | Allow site owners and others with full control permission to share the site with people outside the organization. These people will need to sign in and will be added to the directory. Allow site users to share files and folders with people who aren't in the organization's directory. |
+|Existing guests  |Allow sharing with only people already in your directory. These users may exist in your directory because they previously accepted sharing invitations or because they were [manually added](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal). (These users have **#EXT#** in their user name.)  |
+|Only people in your organization  |Prevent all site users from sharing any site content externally. (This is the default setting for new classic sites.)  |
 
 The settings available are dependent on your organization-level setting. If you enable external sharing for a site and it's later turned off for your organization, external sharing will become unavailable at the site level and any shared links will stop working. If it's turned back on for the organization, the site sharing setting will return to what it was before and the shared links will resume working.
 
