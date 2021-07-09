@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.collection:  
 - M365-collaboration
-description: "Add and remove custom templates for the Lists app and change who has permission to access them."
+description: "Add and remove custom templates and change who has permission to access them."
 ---
 
 # Creating custom list templates  
 
-As a global or SharePoint admin in Microsoft 365, you can create and add custom list templates for users in your organization to select alongside the built-in templates from Microsoft. This enables your organization to create repeatable list solutions (in SharePoint, Teams, and within the Lists app itself). 
+As a global or SharePoint admin in Microsoft 365, you can provide custom list templates for users in your organization. When users create new lists, they can select from these templates alongside the built-in templates from Microsoft. This enables your organization to create repeatable list solutions (in SharePoint, Teams, and within the Lists app itself). 
 
 You can create and manage custom list templates using Microsoft PowerShell. 
 
