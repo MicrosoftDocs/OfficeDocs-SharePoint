@@ -4,17 +4,19 @@ ms.reviewer:
 ms.author: v-satapathy
 author: nimishasatapathy
 manager: serdars
-ms.date: 07/07/2021
+ms.date: 7/07/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: interactive-tutorial
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
-ms.assetid: 8198232e-8d49-46fa-b9f0-17b1d5ee6b62
+ms.collection:
+- IT_Sharepoint_Server
+- IT_Sharepoint_Server_Top
+ms.assetid: 
+
 description: "Learn about the Windows Server 2022 and its new features."
-
-
 ---
 
 # Introducing Windows Server 2022

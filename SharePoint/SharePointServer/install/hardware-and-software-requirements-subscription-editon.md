@@ -17,7 +17,7 @@ ms.collection:
 - SP2019
 ms.custom: 
 ms.assetid: 4d88c402-24f2-449b-86a6-6e7afcfec0cd
-description: "Find out the minimum hardware requirements that you need for installing and running SharePoint Server Subscription edition."
+description: "Find out the minimum hardware requirements that you need for installing and running SharePoint Server Subscription Edition."
 ---
 
 # Hardware and Topology Requirements for SharePoint Server Subscription Edition
