@@ -118,7 +118,7 @@ With Azure B2B integration, all guests are added to the directory and can be man
 
 [External sharing overview](external-sharing-overview.md)
 
-[Turn external sharing on or off for SharePoint](turn-external-sharing-on-or-off.md)
+[Manage sharing settings](turn-external-sharing-on-or-off.md)
 
 [Collaborating with people outside your organization](/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 
