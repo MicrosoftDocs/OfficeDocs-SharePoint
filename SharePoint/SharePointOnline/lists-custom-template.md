@@ -65,7 +65,7 @@ Follow these steps to create a custom list template.
 
 When users in your organization create a list (in SharePoint, Teams, or the Lists app), they will now see the custom list template “Contoso customer tracking” template on the "From your organization" tab. 
 
-![From your organization tab of the Create a list dialog box.](media/create-list-from-organization.png)|
+![The "Contoso customer tracking" template on the "From your organization" tab of the Create a list dialog box.](media/contoso-customer-tracking.png)
 
 > [!NOTE]
 > List templates can't be updated after you add them. Instead, remove the existing template and add the updated version.
