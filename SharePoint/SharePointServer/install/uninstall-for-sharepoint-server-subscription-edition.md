@@ -1,5 +1,5 @@
 ---
-title: "Uninstall SharePoint Server Subscription edition"
+title: "Uninstall SharePoint Server Subscription Edition"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
@@ -17,13 +17,13 @@ ms.collection:
 - SP2019
 ms.assetid: 47db8aed-7e2b-4ccb-b248-d71df3bffa99
 
-description: "Learn how to uninstall SharePoint Subscription edition in various topologies."
+description: "Learn how to uninstall SharePoint Server Subscription Edition in various topologies."
 ---
 
 # Overview
 <a name="section1"> </a>
 
-SharePoint Server v.Next uninstall steps are as follows:
+SharePoint Server uninstallation steps are as follows:
 
 ## Uninstall on Windows Server with Desktop Experience
 
@@ -40,7 +40,9 @@ SharePoint Server v.Next uninstall steps are as follows:
 
 ## Uninstall on Windows Server Core
 
-1. Run SharePoint setup `setup.exe` from your "\Program Files\Common Files\Microsoft Shared\SERVER16\Server Setup Controller" directory with the following parameters:
-- `*/config <config file>` (Where <config file> is the path to your writable `config.xml` file)
-- /uninstall OSERVER
-- For example: `$env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\setup.exe /config C:\SharePoint Files\config.xml/uninstall OSERVER*`
+1. Run SharePoint setup (`setup.exe`) from your **C:\Program Files\Common Files\Microsoft Shared\SERVER16\Server Setup Controller** directory with the following parameters:
+    - `/config <config file>` (Where `<config file>` is the path to your writable `config.xml` file)
+    - `/uninstall OSERVER`
+    ```
+    "$env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\setup.exe" /config "C:\SharePoint Files\config.xml" /uninstall OSERVER
+    ```

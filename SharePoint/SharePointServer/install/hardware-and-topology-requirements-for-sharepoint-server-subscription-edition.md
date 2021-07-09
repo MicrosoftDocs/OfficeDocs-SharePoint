@@ -1,5 +1,5 @@
 ---
-title: "Hardware and software requirements for SharePoint Subscription edition"
+title: "Hardware and Topology Requirements for SharePoint Server Subscription Edition"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
@@ -17,10 +17,10 @@ ms.collection:
 - SP2019
 ms.custom: 
 ms.assetid: 4d88c402-24f2-449b-86a6-6e7afcfec0cd
-description: "Find out the minimum hardware and software requirements you need to install and run on SharePoint Subscription edition."
+description: "Find out the minimum hardware requirements that you need for installing and running SharePoint Server Subscription edition."
 ---
 
-# Hardware and software requirements for SharePoint Subscription edition
+# Hardware and Topology Requirements for SharePoint Server Subscription Edition
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
@@ -28,10 +28,30 @@ description: "Find out the minimum hardware and software requirements you need t
 > [!IMPORTANT]
 > If you contact Microsoft Customer Support Services about a production system that does not meet the minimum hardware specifications described in this document, support will be limited until the system is upgraded to the minimum requirements. 
   
-    
+## Prerequisites for SharePoint Server installation
+
+Before you run SharePoint Server set up, additional softwares must be installed. You can install the prerequisite softwares using the following options:
+- Automatically using the SharePoint prerequisite installer `prerequisiteinstaller.exe`
+- Manually.
+
+Following are the prerequisite softwares that must be installed prior to running SharePoint Server setup:
+- Various Windows Server roles and features such as the Web Server (IIS) Role. 
+You can enable these in Windows Server Manager or by running the following PowerShell command:
+ ```
+Install-WindowsFeature NET-WCF-Pipe-Activation45, NET-WCF-HTTP-Activation45, NET-WCF-TCP-Activation45, Web-Server, Web-WebServer, Web-Common-Http, Web-Static-Content,
+Web-Default-Doc, Web-Dir-Browsing, Web-Http-Errors, Web-App-Dev, Web-Asp-Net45, Web-Net-Ext45, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Health, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Security, Web-Basic-Auth, 
+Web-Windows-Auth, Web-Filtering, Web-Performance, Web-Stat-Compression, Web-Dyn-Compression,
+WAS, WAS-Process-Model, WAS-Config-APIs -IncludeManagementTools
+   ```
+- Microsoft WCF Data Services 5.6
+- Microsoft .NET Framework 4.8
+- Visual C++ Re-distributable Package for Visual Studio 2015-2019
+
+The prerequisite installer creates log files at ``%TEMP%\prerequisiteinstaller.<date>.<time>`.log`. You can check these log files for specific details about all changes the installer makes to the target computer.
+
 ## Hardware requirements
 
-Testing SharePoint Server v.Next in a pre-production environment with the following hardware configurations:
+Testing SharePoint Server in a pre-production environment with the following hardware configurations:
 
 |**Installation scenario**|**Deployment type and scale**|**Processor**|**RAM**|**Hard disk**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -44,10 +64,10 @@ Testing SharePoint Server v.Next in a pre-production environment with the follow
 > Hard disk space and number of drives depends on the amount of content and the way you choose to distribute data for a SharePoint environment.
 
    
-## Deployment requirements: Farm Topology
+## Deployment requirements: farm topology
 <a name="hwforwebserver"> </a>
 
-SharePoint Server v.Next supports the same farm topologies as SharePoint Server 2019. For more information, see [Planning for a MinRole server deployment in SharePoint Server 2019](planning-for-a-minrole-server-deployment-in-sharepoint-server.md).
+SharePoint Server supports the same farm topologies as SharePoint Server 2019. For more information, see [Planning for a MinRole server deployment in SharePoint Server 2019](planning-for-a-minrole-server-deployment-in-sharepoint-server.md).
 
 ## Minimum requirements for client computers
 
@@ -57,24 +77,12 @@ A supported browser. For more information, see [System requirements for Microsof
 ## Software requirements
 <a name="section4"> </a>
 
-The requirements in the following section apply to the following installations:
-  
-- Operating systems
-    
-- Database servers
 
 ### Operating systems
 
-SharePoint Server v.Next requires Windows Server 2019 or Windows Server 2022. Earlier versions of Windows Server are not supported. SharePoint Server v.Next supports both the Standard and Datacenter editions of Windows Server, as well as both the Windows Server with Desktop Experience and Windows Server Core installation options.
+SharePoint Server requires Windows Server 2019 or Windows Server 2022. Earlier versions of Windows Server are not supported. SharePoint Server supports both the Standard and Datacenter editions of Windows Server, as well as both the Windows Server with Desktop Experience and Windows Server Core installation options.
 
 You can download evaluation copies of Windows Server 2019 and Windows Server 2022 Preview from the Microsoft Evaluation Center.
 - [Windows Server 2019](https://www.microsoft.com/en-in/evalcenter/evaluate-windows-server-2019)
 - [Windows Server 2022](https://www.microsoft.com/en-in/evalcenter/evaluate-windows-server-2022-preview)
 
-### Database servers
-
-SharePoint Server v.Next requires SQL Server 2019 for its databases. Earlier versions of SQL Server are not supported.
-You can download evaluation copies of SQL Server 2019 from the Microsoft Evaluation Center.
-
-- [SQL Server 2019](https://www.microsoft.com/en-in/evalcenter/evaluate-sql-server-2019)
-  
