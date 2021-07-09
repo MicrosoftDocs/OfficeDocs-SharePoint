@@ -64,8 +64,9 @@ The following example takes you through the process of creating a custom list te
 
 All users in your organization should now be able to see the custom list template “Contoso customer tracking” wherever they can create lists from (Lists app, SharePoint Sites, Teams) 
 
-Updated list creation dialog
-![The list creation dialog with a new tab for custom list templates](media/create-list.png)
+|Visually updated list creation dialog with a new tab for the custom list templates:|
+|:-----|
+|![The list creation dialog with a new tab for custom list templates](media/create-list.png)|
 
 ## Scoping custom template permissions 
 
@@ -92,8 +93,9 @@ You can also remove the associated site scripts that the list design is referenc
 ```PowerShell
 Remove-SPOSiteScript <Site script ID> 
 ```
-List creation dialog without any custom templates
-![Empty state for the custom list templates tab](media/create-list-from-organization.png)
+|When no custom templates are present, users will see an empty tab:|
+|:-----|
+|![Empty state for the custom list templates tab](media/create-list-from-organization.png)|
 
 > [!NOTE]
 > Updating a current list template is currently not available, so it is recommended to remove and recreate the list template again using the steps above.
