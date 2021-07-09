@@ -91,7 +91,7 @@ Sorting and filtering the site list is just like sorting and filtering other lis
     
 3. To rearrange the columns, point to a column, and select the up or down arrow to move the column up or down.
     
-    ![The Customize columns panel](media/customize-columns-panel.png)
+    ![The Customize columns panel](media/customize-columns.png)
     
     > [!NOTE]
     > Data in the following columns is not available for Office 365 Germany customers and US Government GCC High and DoD customers:
