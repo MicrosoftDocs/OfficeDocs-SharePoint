@@ -93,7 +93,7 @@
 ### [Transition from previous sync app](/onedrive/transition-from-previous-sync-client?toc=/SharePoint/toc.json&bc=/SharePoint/breadcrumb/toc.json)
 ### [Per-machine installation](/onedrive/per-machine-installation?toc=/SharePoint/toc.json&bc=/SharePoint/breadcrumb/toc.json)
 ### [Use silent account configuration](/onedrive/use-silent-account-configuration?toc=/SharePoint/toc.json&bc=/SharePoint/breadcrumb/toc.json)
-### [Use Group Policy](/onedrive/use-group-policy?toc=/SharePoint/toc.json&bc=/SharePoint/breadcrumb/toc.json)
+### [OneDrive policies](/onedrive/use-group-policy?toc=/SharePoint/toc.json&bc=/SharePoint/breadcrumb/toc.json)
 ## [Sharing, security, and compliance]()
 ### [Plan secure file collaboration](deploy-file-collaboration.md)
 ### [External sharing overview](external-sharing-overview.md)
