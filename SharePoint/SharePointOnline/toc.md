@@ -57,6 +57,7 @@
 ### [Add Viva Connections to Microsoft Teams desktop](viva-connections.md)
 ## [Lists]()
 ### [Control Microsoft Lists](control-lists.md)
+### [Custom list templates](lists-custom-template.md)
 ## [Sample sites]()
 ### [Add a sample site to your tenant](add-sample-site.md)
 ### [Add New Employee Onboarding sites](provision-neo-hub.md)
