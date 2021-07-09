@@ -47,9 +47,9 @@ This section provides detailed descriptions of the new and updated features in S
 ### OpenID Connect (OIDC) 1.0 authentication
 <a name="OIDCa"> </a>
 
-SharePoint Server Subscription Edition adds support for the OpenID Connect (OIDC) 1.0 authentication protocol. OIDC is a modern authentication protocol that makes it easy to integrate applications and devices with your organization's identity and authentication management solutions to better meet your evolving security and compliance needs. For example, customers can enforce authentication policies such as multi-factor authentication (MFA), conditional access policies based on device compliance, and more.
+SharePoint Server Subscription Edition adds support for the OpenID Connect (OIDC) 1.0 authentication protocol. OIDC is a modern authentication protocol that makes it easy to integrate applications and devices with your organization's identity and authentication management solutions to better meet your evolving security and compliance needs. For example, customers can enforce authentication policies such as multifactor authentication (MFA), conditional access policies based on device compliance, and more.
 
-SharePoint Server Subscription Edition supports OIDC authentication with identity providers such as Azure Active Directory (AAD), Active Directory Federation Services (AD FS) 2016 or higher, and third party identity providers that implement the OIDC 1.0 protocol.
+SharePoint Server Subscription Edition supports OIDC authentication with identity providers such as Azure Active Directory (AAD), Active Directory Federation Services (AD FS) 2016 or higher, and third-party identity providers that implement the OIDC 1.0 protocol.
 
 ### People Picker improvement for trusted authentication methods
 <a name="people"> </a>
@@ -164,7 +164,7 @@ SharePoint Server Subscription Edition supports strong TLS encryption by default
 ### Accessibility improvements across modern UX
 <a name="aiamu"> </a>
   
-SharePoint Server Subscription Edition includes a variety of accessibility improvements to the modern UX to ensure that all users can be productive with SharePoint.
+SharePoint Server Subscription Edition includes various accessibility improvements to the modern UX to ensure that all users can be productive with SharePoint.
   
 ### Image and document thumbnails in document libraries and picture libraries
 <a name="idt"> </a>
