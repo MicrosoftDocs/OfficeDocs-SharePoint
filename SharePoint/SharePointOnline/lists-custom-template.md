@@ -64,9 +64,9 @@ The following example takes you through the process of creating a custom list te
 
 All users in your organization should now be able to see the custom list template “Contoso customer tracking” wherever they can create lists from (Lists app, SharePoint Sites, Teams) 
 
-|Visually updated list creation dialog with a new tab for the custom list templates:|
-|:-----|
-|![The list creation dialog with a new tab for custom list templates](media/create-list.png)|
+| Ready-made templates | Custom list templates |
+|:-----|:-----|
+|![Visually updated list creation dialog with ready-made templates](media/create-list.png)|![Contoso customer tracking template showing up in the "from your organization" tab](media/contoso-customer-tracking.png)|
 
 ## Scoping custom template permissions 
 
