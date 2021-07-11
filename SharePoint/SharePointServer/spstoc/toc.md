@@ -41,7 +41,7 @@
 #### [Configure SQL Server security for SharePoint environments](../security-for-sharepoint-server/configure-sql-server-security-for-sharepoint-environments.md)
 ### [Federal Information Processing Standard security standards](../security-for-sharepoint-server/federal-information-processing-standard-security-standards.md)
 ## [Install](../install/install.md)
-### [Overview for SharePoint Server Subscription Edition Installation](../install/install-overview-for-sharepoint-server-subscription.edition.md)
+### [Installation Overview for SharePoint Server Subscription Edition](../install/install-overview-spserver-se.md)
 #### [System requirements for SharePoint Subscription edition](../install/system-requirements-for-sharepoint-subscription-edition.md)
 ##### [Hardware and topology requirements Subscription edition](../install/hardware-and-topology-requirements-subscription-edition.md)
 ##### [Software requirements for database servers for SharePoint server Subscription Edition](../install/software-requirements-for-database-servers-for-sharepoint-server-subscription-edition.md)
