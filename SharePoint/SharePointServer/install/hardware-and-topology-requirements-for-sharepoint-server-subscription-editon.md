@@ -27,11 +27,27 @@ description: "Find out the minimum hardware requirements that you need for insta
   
 > [!IMPORTANT]
 > If you contact Microsoft Customer Support Services about a production system that does not meet the minimum hardware specifications described in this document, support will be limited until the system is upgraded to the minimum requirements. 
+
+## Hardware requirements: Location of physical servers
+
+Some enterprises have datacenters that are in close proximity to one another and connected by high-bandwidth fiber optic links. In this environment, you can configure the two datacenters as a single farm. This distributed farm topology is called a stretched farm. Stretched farms for SharePoint Server Subscription Edition are supported.
+
+For a stretched farm architecture to work as a supported high-availability solution, the following prerequisites must be met:
+
+- There is a highly consistent intra-farm latency of <1 ms one way, 99.9% of the time over a period of ten minutes. (Intra-farm latency is commonly defined as the latency between the front-end web servers and the database servers.
+- The bandwidth speed must be at least 1 gigabit per second.
+
+To provide fault tolerance in a stretched farm, use the standard best practice guidance to configure redundant service applications and databases.
+
+> [!NOTE]
+> The intra-farm latency of <1 ms one way, 99.9% of the time over a period of ten minutes is also required for SharePoint environments with servers that are located in the same datacenter. The bandwidth speed should also be in this case at least 1 gigabit per second.
   
     
-## Hardware requirements
+## Hardware requirements: SharePoint Servers and MinRole installations
 
-Testing SharePoint Server in a pre-production environment with the following hardware configurations:
+The values in the following table are minimum values for installations on servers that are running SharePoint Server in a multiple server farm installation.
+
+For all installation scenarios, you must have sufficient hard disk space for the base installation and sufficient space for diagnostics such as logging, debugging, creating memory dumps, and so on. For production use, you must also have additional free disk space for day-to-day operations. In addition, maintain two times as much free space as you have RAM for production environments.
 
 |**Installation scenario**|**Deployment type and scale**|**Processor**|**RAM**|**Hard disk**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -42,6 +58,11 @@ Testing SharePoint Server in a pre-production environment with the following har
 
 > [!NOTE]
 > Hard disk space and number of drives depends on the amount of content and the way you choose to distribute data for a SharePoint environment.
+
+## Deployment requirements: farm topology
+<a name="hwforwebserver"> </a>
+
+SharePoint Server supports the same farm topologies as SharePoint Server 2019. For more information, see [Planning for a MinRole server deployment in SharePoint Server 2019](planning-for-a-minrole-server-deployment-in-sharepoint-server.md).
 
 ## Prerequisites for SharePoint Server installation
 
@@ -69,16 +90,6 @@ The SharePoint Server prerequisite installer (`prerequisiteinstaller.exe`) insta
 2. **/DotNet48:<*file*>** Install Microsoft .NET Framework 4.8 from <*file*>.
 3. **/MSVCRT142:<*file*>** Install Visual C++ Redistributable Package for Visual Studio 2015-2019 from <*file*>.
 
-   
-## Deployment requirements: farm topology
-<a name="hwforwebserver"> </a>
-
-SharePoint Server supports the same farm topologies as SharePoint Server 2019. For more information, see [Planning for a MinRole server deployment in SharePoint Server 2019](planning-for-a-minrole-server-deployment-in-sharepoint-server.md).
-
-## Minimum requirements for client computers
-
-A supported browser. For more information, see [System requirements for Microsoft 365 and office:Browsers](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources?rtc=1#coreui-heading-uyetipy).
-    
   
 ## Software requirements
 <a name="section4"> </a>

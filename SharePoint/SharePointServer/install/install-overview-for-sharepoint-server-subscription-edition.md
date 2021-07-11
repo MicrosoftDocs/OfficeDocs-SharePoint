@@ -1,5 +1,5 @@
 ---
-title: "Install for SharePoint Server Subscription edition"
+title: "Installation Overview for SharePoint Server Subscription Edition"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
