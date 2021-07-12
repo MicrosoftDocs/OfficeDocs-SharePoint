@@ -1,5 +1,5 @@
 ---
-title: Guided walkthrough - Creating a leadership site for your organization
+title: Guided walkthrough - Creating an organization site
 ms.reviewer: 
 ms.author: daisyfeller
 author: daisyfell
@@ -45,3 +45,36 @@ To make a site like the one shown here, you'll create a [Communication site](htt
 ![Image of the command bar](media/gw-leadership/gw-2.png)
 
 Next, choose **Communication site**, and then the **Topic** layout. Fill out your site name, description, and other information, and select **Finish**. Then you'll get a template with the same type of layout as the example in this article.
+
+<!-- image 3-->
+
+For more details, see [Create a communication site in SharePoint online](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
+
+[Back to top](#example-enterprise-landing-site)
+
+## Navigation
+
+You can quickly and easily customize the organization and navigation of your SharePoint site.
+
+<!--image 4-->
+
+Select **Edit** on the top menu to add and arrange links.
+
+<!--image 5-->
+
+Learn more about [customizing the navigation on your SharePoint site](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca).
+
+[Back to top](#example-enterprise-landing-site)
+
+## Manage sections and web parts
+
+Sections make up your page, and are where you place one or more web parts. While editing the page, each section will show controls to edit the layout, move, or delete the sections.
+
+If your page is not already in edit mode, select **Edit** on the top right of the page.
+
+![Image of the edit button at the top of the page](media/gw-leadership/gw-9.png)
+
+The + symbol before or after a section will add a section using one of several layouts.
+
+![Image of the available section layouts](media/gw-team/gw-team-2.png)
+
