@@ -45,6 +45,8 @@
 #### [System requirements for SharePoint Server Subscription Edition](../install/system-requirements-for-sharepoint-subscription-edition.md)
 ##### [Hardware and Topology Requirements for SharePoint Server Subscription Edition](../install/hardware-and-topology-requirements-for-sharepoint-server-subscription-editon.md)
 ##### [Software Requirements for Database Servers for SharePoint Server Subscription Edition](../install/software-requirements-for-database-servers-for-sharepoint-server-subscription-edition.md)
+##### [Software Requirements for Database Servers for SharePoint Server Subscription Edition](../install/software-requirements-for-sharepoint-servers-for-sharepoint-server-subscription-edition.md)
+#### [Install or uninstall language packs for SharePoint Servers Subscription Edition](../install/install-or-uninstall-language-packs-subscription.md)
 #### [Installing SharePoint Server Subscription Edition](../install/installing-sharepoint-subscription-edition.md)
 #### [Uninstall SharePoint Server Subscription Edition](../install/uninstall-for-sharepoint-server-subscription-edition.md)
 #### [Repair SharePoint Server Subscription Edition](../install/repair-sharepoint-server-subscription-edition.md)

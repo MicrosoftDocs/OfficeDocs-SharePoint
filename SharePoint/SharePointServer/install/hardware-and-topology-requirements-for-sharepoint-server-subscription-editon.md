@@ -64,54 +64,43 @@ For all installation scenarios, you must have sufficient hard disk space for the
 
 SharePoint Server supports the same farm topologies as SharePoint Server 2019. For more information, see [Planning for a MinRole server deployment in SharePoint Server 2019](planning-for-a-minrole-server-deployment-in-sharepoint-server.md).
 
-## Prerequisites for SharePoint Server installation
-
-Before you run SharePoint Server set up, additional softwares must be installed. You can install the prerequisite softwares using the following options:
-- Automatically using the SharePoint prerequisite installer `prerequisiteinstaller.exe`
-- Manually.
-
-Following are the prerequisite softwares that must be installed prior to running SharePoint Server setup:
-- Various Windows Server roles and features such as the Web Server (IIS) Role. 
-You can enable these in Windows Server Manager or by running the following PowerShell command:
-
- ```
-Install-WindowsFeature NET-WCF-Pipe-Activation45,NET-WCF-HTTP-Activation45,NET-WCF-TCP-Activation45,Web-Server,Web-WebServer,Web-Common-Http,Web-Static-Content,Web-Default-Doc,Web-Dir-Browsing,Web-Http-Errors,Web-App-Dev,Web-Asp-Net45,Web-Net-Ext45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Health,Web-Http-Logging,Web-Log-Libraries,Web-Request-Monitor,Web-Http-Tracing,Web-Security,Web-Basic-Auth,Web-Windows-Auth,Web-Filtering,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,WAS,WAS-Process-Model,WAS-Config-APIs -IncludeManagementTools
-   ```
-- `Microsoft WCF Data Services 5.6.exe`
-- `Microsoft .NET Framework 4.8.exe`
-- `Visual C++ Re-distributable Package for Visual Studio 2015-2019.exe`
-
-The prerequisite installer creates log files at **%TEMP%\prerequisiteinstaller.<date>.<time>.log**. You can check these log files for specific details about all changes the installer makes to the target computer.
 
 ## Prerequisite installer operations and command-line options
 
-The SharePoint Server prerequisite installer (`prerequisiteinstaller.exe`) installs the following software, if it has not already been installed on the target server, in the following order:
-1. **/WCFDataServices56:<*file*>** Install Microsoft WCF Data Services 5.6 from <*file*>.
-2. **/DotNet48:<*file*>** Install Microsoft .NET Framework 4.8 from <*file*>.
-3. **/MSVCRT142:<*file*>** Install Visual C++ Redistributable Package for Visual Studio 2015-2019 from <*file*>.
+The SharePoint Server Subscription Edition prerequisite installer `prerequisiteinstaller.exe`installs the following software, if it has not already been installed on the target server, in the following order:
 
+1. Web Server (IIS) Role
+2. Microsoft WCF Data Services 5.6
+3. Microsoft .NET Framework 4.8
+4. Visual C++ Redistributable Package for Visual Studio 2015-2019
+
+You can run `prerequisiteinstaller.exe` at a command prompt with the following options. When you run `prerequisiteinstaller.exe` at a command prompt, you might be asked to restart the server one or more times during the installation process. After restarting, you should continue the prerequisite installation by running `prerequisiteinstaller.exe` with the /continue option.
+
+/? This displays command-line options.
+
+/continue This is used to tell the installer that it is continuing from being restarted.
+
+/unattended This indicates no user interaction.
+
+The installer installs from the file that you specify in the command-line options described in the following list. In this list, <file> signifies the file from which you want to install. If you do not specify the `<file> option, the installer downloads the file from the Internet and installs it. If the option does not apply to the current operating system, it is ignored.
+
+**/WCFDataServices56**:*<file>* Install Microsoft WCF Data Services 5.6 from *<file>*.
+
+**/DotNet48**:*<file>* Install Microsoft .NET Framework 4.8 from *<file>*.
+
+**/MSVCRT142**:*<file>* Install Visual C++ Redistributable Package for Visual Studio 2015-2019 from *<file>.*
+
+## Installation options
+
+Certain prerequisites are installed by the prerequisite installer with specific options. Those prerequisites with specific installation options are listed below with the options that are used by the prerequisite installer.
+- Microsoft WCF Data Services
   
-## Software requirements
-<a name="section4"> </a>
+  /quiet
 
-The requirements in the following section apply to the following installations:
-  
-- Operating systems
-    
-- Database servers
+The prerequisite installer creates log files at **%TEMP%\prerequisiteinstaller.<date>.<time>**.log. You can check these log files for specific details about all changes the installer makes to the target computer.
 
-### Operating systems
 
-SharePoint Server requires Windows Server 2019 or Windows Server 2022. Earlier versions of Windows Server are not supported. SharePoint Server supports both the Standard and Datacenter editions of Windows Server, as well as both the Windows Server with Desktop Experience and Windows Server Core installation options.
 
-You can download evaluation copies of Windows Server 2019 and Windows Server 2022 Preview from the Microsoft Evaluation Center.
-- [Windows Server 2019](https://www.microsoft.com/en-in/evalcenter/evaluate-windows-server-2019)
-- [Windows Server 2022](https://www.microsoft.com/en-in/evalcenter/evaluate-windows-server-2022-preview)
 
-### Database servers
 
-SharePoint Server requires SQL Server 2019 for its databases. Earlier versions of SQL Server are not supported.
-You can download evaluation copies of SQL Server 2019 from the Microsoft Evaluation Center.
-
-- [SQL Server 2019](https://www.microsoft.com/en-in/evalcenter/evaluate-sql-server-2019)
   
