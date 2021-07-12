@@ -78,3 +78,26 @@ The + symbol before or after a section will add a section using one of several l
 
 ![Image of the available section layouts](media/gw-team/gw-team-2.png)
 
+For more information on working with sections, see [Add or remove sections and columns on a page](https://support.microsoft.com/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899).
+
+To add a web part to a section, select the plus symbol ![Image of the plus symbol](media/gw-leadership/gw-plus.png), which may appear before or after a web part in a section. For more information on all web parts, see [Using web parts on SharePoint pages](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0).
+
+![Image of the featured web parts that appear when you select the plus symbol](media/gw-leadership/gw-11.png)
+
+Web parts may be edited, moved or deleted within sections. The **Edit web part** icon opens detailed controls unique to each web part type.
+
+[Back to top](#example-enterprise-landing-site)
+
+## Keep everyone up to date
+
+The Enterprise Landing page uses two different [News web parts](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165). One uses the **Carousel** layout, and the other uses the **Top story** layout. In the example [at the beginning of the article](#example-enterprise-landing-site), these layouts are both in the first column of two-column [sections](https://support.microsoft.com/office/guided-walkthrough-creating-an-organization-site-9c1842c3-543e-4891-85d3-0eaf680e242d?storagetype=live#bkmk_sectionswebparts) on the page. In the second column is an [Events web part](https://support.microsoft.com/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909) that you can use to display upcoming events and activities. The second example photo below includes the [Countdown timer web part](https://support.microsoft.com/office/use-the-countdown-timer-web-part-a13ffef8-0bf1-409e-be23-98af1d1736e7) to generate excitement for things like an upcoming event, activity, or launch.
+
+<!--image 7 and 8-->
+
+[Back to top](#example-enterprise-landing-site)
+
+## Quick links
+
+You can use buttons, icons, and descriptions to turn simple links into engaging guidance to help visitors find the sites they need.
+
+In the example, the Quick links web part is in a separate
