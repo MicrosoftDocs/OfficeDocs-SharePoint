@@ -38,7 +38,7 @@ The following articles provide information about how to deploy SharePoint Server
 |[Software Requirements for SharePoint Servers for SharePoint Server Subscription Edition](software-requirements-for-sharepoint-servers-for-sharepoint-server-subscription-edition.md)<br/> |Learn about the software requirements for SharePoint Server.  <br/> |
 |[Install or uninstall language packs for SharePoint Servers Subscription Edition](install-or-uninstall-language-packs-subscription.md)<br/> |Learn how to download, install, and uninstall language packs for SharePoint Server Subscription Edition.  <br/> |
 |[Installing SharePoint Server Subscription Edition on one server](installing-sharepoint-subscription-edition-on-one-server.md)<br/> |Learn how to install SharePoint Server Subscription Edition on one server.  <br/> |
-|[Installing SharePoint Server Subscription Edition on Windows Server Core](installing-sharepoint-server-subscription-edition-on-windows-server-core.md)`1<br/> |Learn how to install SharePoint Server Subscription Edition on windows server core.  <br/> 
+|[Installing SharePoint Server Subscription Edition on Windows Server Core](installing-sharepoint-server-subscription-edition-on-windows-server-core.md) <br/> |Learn how to install SharePoint Server Subscription Edition on windows server core.  <br/> 
 |[Repair SharePoint Server Subscription edition](repair-sharepoint-server-subscription-edition.md) <br/> |Learn how to repair SharePoint Subscription edition in various topologies. <br/> |
 |[Uninstall SharePoint Server Subscription edition](uninstall-for-sharepoint-server-subscription-edition.md) <br/> |Learn how to uninstall SharePoint Subscription edition in various topologies.  <br/> |
 
