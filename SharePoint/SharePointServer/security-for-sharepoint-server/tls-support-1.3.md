@@ -19,9 +19,11 @@ ms.assetid:
 description: "This article describes the supported and unsupported components on Transport Layer Security (TLS) protocol version 1.3."
 ---
 
-# Supported and not Supported Components on TLS 1.3
+# TLS Support 1.3
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
+
+**Supported and not supported components in TLS 1.3**
   
 By default, `.NET Framework 4.8` on Windows Server 2022 supports TLS 1.3. 
 

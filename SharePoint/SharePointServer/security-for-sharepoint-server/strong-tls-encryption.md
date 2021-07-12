@@ -19,7 +19,7 @@ ms.assetid:
 description: "This article describes the strong encryption of Transport Layer Security (TLS)."
 ---
 
-# Strong TLS Encryption by default for SharePoint Server Subscription Edition
+# Strong TLS Encryption
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 

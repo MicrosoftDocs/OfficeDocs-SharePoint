@@ -14,8 +14,8 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.assetid: ' kkkkk .m
-description: "This article introduces topics that describe software and database servers requirements for SharePoint Server."
+ms.assetid: 
+description: "Introduces articles that describe hardware, software, and other requirements for SharePoint."
 ---
 
 # Software Requirements for Database Servers for SharePoint Server Subscription Edition

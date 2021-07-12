@@ -14,9 +14,10 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.assetid: ' kkkkk .m
+ms.assetid: 
 description: "This article introduces topic that describe software requirements for SharePoint Server."
 ---
+
 
 # Software Requirements for SharePoint Servers for SharePoint Server Subscription Edition
 

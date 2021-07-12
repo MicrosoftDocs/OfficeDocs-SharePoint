@@ -1,5 +1,5 @@
 ---
-title: "Installing SharePoint Server Subscription Edition"
+title: "Installing SharePoint Server Subscription Edition on Windows Server Core"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
@@ -21,32 +21,16 @@ ms.assetid:
 description: "Learn how to install SharePoint Server Subscription Edition in various topologies."
 ---
     
-# Installing SharePoint Server Subscription Edition
+# Installing SharePoint Server Subscription Edition on Windows Server Core
 <a name="section1"> </a>
 
-The procedure to install SharePoint Server Subscription Edition is similar to installing SharePoint Server 2019. The steps are as follows:
+[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-1. Install [Windows Server 2019](https://www.microsoft.com/en-in/evalcenter/evaluate-windows-server-2019) on your test.
-2. Install [SQL Server 2019](https://www.microsoft.com/en-in/evalcenter/evaluate-sql-server-2019) on your test server or an additional test server.
-3. The next steps are based on whether you are installing on Windows Server with Desktop Experience or Windows Server Core.
-
-For more information, see [Install SharePoint Server 2019](install-for-sharepoint-server-2019.md).
-
-## Installing SharePoint Server Subscription Edition on Windows Server with Desktop Experience
-
-1. Mount the ISO file to your test server by double-clicking on it, or by specifying it as a virtual drive in your virtual machine manager.
-2. Run the SharePoint prerequisite installer `prerequisiteinstaller.exe` on your test server.
-3. Run SharePoint setup `setup.exe` on your test server.
-4. Run the SharePoint Products Configuration Wizard to create or join a farm `PSConfigUI.exe`
-5. Configure the service applications and web applications in your farm, such as through the Farm Configuration Wizard.
-
-## Installing SharePoint Server Subscription Edition on Windows Server Core
-
-1. Mount the ISO file to your test server by using the `Mount-DiskImage` cmdlet, or by specifying it as a virtual drive in your virtual machine manager.
+1. Mount the ISO file to your server by using the `Mount-DiskImage` cmdlet, or by specifying it as a virtual drive in your virtual machine manager.
     ```
     Mount-DiskImage -ImagePath "C:\SharePoint Files\16.0.14131.10000_OfficeServer_none_ship_x64_en-us.iso"
     ```
-2. Run the SharePoint prerequisite installer (`prerequisiteinstaller.exe`) on your test server.
+2. Run the SharePoint prerequisite installer (`prerequisiteinstaller.exe`) on your servers.
 3. Copy the **\Files\SetupSilent\config.xml** file from your mounted ISO disk image to a writable location.
     ```
     Copy-Item -Path "D:\Files\SetupSilent\config.xml" -Destination "C:\SharePoint Files"
@@ -62,13 +46,13 @@ For more information, see [Install SharePoint Server 2019](install-for-sharepoin
 6. Find and remove the `<!--` and `-->` text strings within the file. Don't remove the text in between these two text strings.
 7. Replace the **Enter Product Key Here** text string in the file with your SharePoint Server product key.
 8. Save your changes to the `config.xml` file.
-9. Run SharePoint setup (`setup.exe`) on your test server in command-line mode. Add the following command-line parameters when launching `setup.exe`:
+9. Run SharePoint setup (`setup.exe`) on your servers in command-line mode. Add the following command-line parameters when launching `setup.exe`:
     - `/config <config file>` (Where `<config file>` is the path to your writable `config.xml` file)
     - `/IAcceptTheLicenseTerms` (Specifying this parameter signifies that you have read, understand, and agree to the license terms of SharePoint Server and Project Server.)
     ```
     D:\setup.exe /config "C:\SharePoint Files\config.xml" /IAcceptTheLicenseTerms
     ```
-10. Once SharePoint setup has completed, reboot your test server.
+10. Once SharePoint setup has completed, reboot your server.
 
 11. Run the following SharePoint PowerShell cmdlets with their appropriate parameters to create or join a farm.
 

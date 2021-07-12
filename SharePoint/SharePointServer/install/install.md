@@ -20,7 +20,7 @@ description: "Deployment articles help you install and configure SharePoint Serv
 
 # Install SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The following articles include information about how to prepare for installation, step-by-step installation instructions, post-installation configuration steps, and upgrade information. Three sections are listed, one for SharePoint Subscription edition, one for SharePoint Servers 2016 and 2019 which describes MinRole and its configuration, and the other is SharePoint Server 2013.
 
@@ -34,7 +34,8 @@ The following articles include information about how to prepare for installation
 |[Software Requirements for Database Servers for SharePoint Server Subscription Edition](software-requirements-for-database-servers-for-sharepoint-server-subscription-edition.md)<br/> |Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Subscription edition.  <br/> |
 |[Software Requirements for SharePoint Servers for SharePoint Server Subscription Edition](software-requirements-for-sharepoint-servers-for-sharepoint-server-subscription-edition.md)<br/> |Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Subscription edition.  <br/> |
 |[Install or uninstall language packs for SharePoint Servers Subscription Edition](install-or-uninstall-language-packs-subscription.md)<br/> |Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Subscription edition.  <br/> |
-|[Install SharePoint Subscription edition](install-sharepoint-subscription-edition.md) <br/> |Learn how to install SharePoint Subscription edition in various topologies.  <br/> |
+|[Installing SharePoint Server Subscription Edition on one server](installing-sharepoint-subscription-edition-on-one-server.md)<br/> |Learn how to install SharePoint Subscription edition in various topologies.  <br/> |
+|[Installing SharePoint Server Subscription Edition on Windows Server Core](installing-sharepoint-server-subscription-edition-on-windows-server-core.md)`1<br/> |Learn how to install SharePoint Subscription edition in various topologies.  <br/> 
 |[Repair SharePoint Server Subscription edition](repair-sharepoint-server-subscription-edition.md) <br/> |Learn how to repair SharePoint Subscription edition in various topologies. <br/> |
 |[Uninstall SharePoint Server Subscription edition](uninstall-for-sharepoint-server-subscription-edition.md) <br/> |Learn how to uninstall SharePoint Subscription edition in various topologies.  <br/> |
 
