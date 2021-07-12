@@ -753,6 +753,7 @@
 #### [After installing .NET security patches to address CVE-2018-8421, SharePoint crawler may fail](../administration/after-installing-.NET-security-patches-to-address-CVE-2018-8421-SharePoint-crawler-may-fail.md)
 ## [Authentication and Identity Management](../authentication-and-identity-management/authentication-and-identity-management.md)
 ### [Enhanced People Picker for trusted authentication method](../authentication-and-identity-management/enhanced-people-picker-for-trusted-authentication-method.md)
+### [OIDC 1.0 authentication](../authentication-and-identity-management/oidc-1.0-authentication.md)
 ## [Deployment and Upgrade](../deployment-and-upgrade/deployment-and-upgrade.md)
 ### [Introducing Windows Server 2022](../deployment-and-upgrade/introduction-windows-server-2022.md)
 ### [Introducing Windows Server Core support](../deployment-and-upgrade/introducing-windows-server-core-support.md)
