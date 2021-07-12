@@ -15,7 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 
-description: "Introduces articles that describe hardware, software, and other requirements for SharePoint."
+description: "Introduces articles that describe software and other requirements for SharePoint Server Subscription Edition."
 ---
 
 # Software Requirements for Database Servers for SharePoint Server Subscription Edition
