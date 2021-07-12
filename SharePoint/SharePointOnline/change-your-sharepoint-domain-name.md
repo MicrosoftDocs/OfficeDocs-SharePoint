@@ -31,7 +31,7 @@ description: "Learn about changing your organization name in SharePoint URLs"
 
 # Change your SharePoint domain name
 
-It's now possible to change the SharePoint domain name, see [Rename your SharePoint domain](tenant-rename.md) for more information.
+It's now possible to change the SharePoint domain name; see [Rename your SharePoint domain](tenant-rename.md) for more information.
   
 > [!NOTE]
 > To change the address of a site, for example, from `https://contoso.sharepoint.com/sites/sample1` to  `https://contoso.sharepoint.com/sites/sample2`, you can use the new SharePoint admin center. For info, see [Change a site address](change-site-address.md).
