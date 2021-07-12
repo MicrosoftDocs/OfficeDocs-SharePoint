@@ -38,15 +38,15 @@ The following improvements to the SharePoint Server deployment experience on Win
 
 ## Install on Windows Server Core
 
-To install SharePoint Server Subscription Edition on Windows Server Core, see [Installing SharePoint Server Subscription Edition on Windows Server Core](../install/install-sharepoint-subscription-edition.md#installing-sharepoint-server-subscription-edition-on-windows-server-core)
+To install SharePoint Server Subscription Edition on Windows Server Core, see [Installing SharePoint Server Subscription Edition on Windows Server Core](../install/installing-sharepoint-subscription-edition.md#installing-sharepoint-server-subscription-edition-on-windows-server-core).
 
 ## Repair on Windows Server Core
 
-To repair SharePoint Server Subscription Edition on Windows Server Core, see [Repair on Windows Server Core](../install/repair-sharepoint-server-subscription-edition.md#repair-on-windows-server-core)
+To repair SharePoint Server Subscription Edition on Windows Server Core, see [Repair on Windows Server Core](../install/repair-sharepoint-server-subscription-edition.md#repair-on-windows-server-core).
 
 ## Uninstall on Windows Server Core
 
-To uninstall SharePoint Server Subscription Edition on Windows Server Core, see [Uninstall on Windows Server Core](../install/uninstall-for-sharepoint-server-subscription-edition.md#uninstall-on-windows-server-core)
+To uninstall SharePoint Server Subscription Edition on Windows Server Core, see [Uninstall on Windows Server Core](../install/uninstall-for-sharepoint-server-subscription-edition.md#uninstall-on-windows-server-core).
 
 > [!Note]
 > The SharePoint Hybrid Configuration Wizard can't authenticate Microsoft 365 global administrator accounts on Windows Server Core. Customer can use PowerShell scripts to configure SharePoint hybrid features on Windows Server Core.
