@@ -19,7 +19,7 @@ ms.assetid: 47db8aed-7e2b-4ccb-b248-d71df3bffa99
 
 description: "Learn how to repair SharePoint Server Subscription Edition in various topologies."
 ---
-# Overview
+# Repair SharePoint Server Subscription Edition
 <a name="section1"> </a>
 
 SharePoint Server repair steps are as follows:

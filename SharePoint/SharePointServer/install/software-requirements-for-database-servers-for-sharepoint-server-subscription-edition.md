@@ -19,7 +19,7 @@ ms.assetid: 64233599-f18c-4081-a3ce-450e878a1b9f
 description: "This article introduces topics that describe hardware, software, and other requirements for SharePoint Server."
 ---
 
-# System requirements for SharePoint Servers 2016 and 2019
+# Software Requirements for Database Servers for SharePoint Server Subscription Edition
 
 [!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
   
