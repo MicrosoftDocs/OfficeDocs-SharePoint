@@ -34,7 +34,7 @@ Once you have your created your site and know how to edit pages, you can use the
 
 |  Image of the homepage               |  Customization instructions                |
 | :------------------- | :------------------- |
-|    ![Image of the Giving Site landing page](media/hs-1.png)  | **1. Mega menus and edit controls** Quickly guide visitors to the information they seek. This area also provides admins access to editing tools. [*Learn how*](#managing-the-mega-menu) <br> <br>**2. Share news** Collect important news relevant to the site’s area of focus.. [*Learn how*](#mange-sections-and-web-parts)<br> <br>**3. Feature important content** Easily share financial presentations, charts, and reports. [*Learn how*](#add-important-news-with-the-news-web-part)<br> <br>**4. Keep up-to-date on events** Offer quick access to information on upcoming events. [*Learn how*](#style-links-to-match-the-page-with-quick-links-web-part)<br> <br>**5. Create visual impact** Add visual impact with banner images. [*Learn how*](#add-graphics-with-the-image-web-part)<br> <br>**6. Guide visitors to tools** Add custom tools to streamline process like requesting time off.  [*Learn how*](#share-files-interactively-with-the-file-viewer-web-part)<br> <br>**7. Provide a clear path** Guide users to the correct information and tools with icons and text summaries. [*Learn how*](#add-a-calendar-of-events-with-the-events-web-part)<br> <br>**8. Feature the experts** Guide visitors to the experts who can help them resolve issues effectively.  [*Learn how*](#feature-people-with-the-people-web-part)| 
+|    ![Image of the Hub site landing page](media/hs-1.png)  | **1. Mega menus and edit controls** Quickly guide visitors to the information they seek. This area also provides admins access to editing tools. [*Learn how*](#managing-the-mega-menu) <br> <br>**2. Share news** Collect important news relevant to the site’s area of focus.. [*Learn how*](#mange-sections-and-web-parts)<br> <br>**3. Feature important content** Easily share financial presentations, charts, and reports. [*Learn how*](#add-important-news-with-the-news-web-part)<br> <br>**4. Keep up-to-date on events** Offer quick access to information on upcoming events. [*Learn how*](#style-links-to-match-the-page-with-quick-links-web-part)<br> <br>**5. Create visual impact** Add visual impact with banner images. [*Learn how*](#add-graphics-with-the-image-web-part)<br> <br>**6. Guide visitors to tools** Add custom tools to streamline process like requesting time off.  [*Learn how*](#share-files-interactively-with-the-file-viewer-web-part)<br> <br>**7. Provide a clear path** Guide users to the correct information and tools with icons and text summaries. [*Learn how*](#add-a-calendar-of-events-with-the-events-web-part)<br> <br>**8. Feature the experts** Guide visitors to the experts who can help them resolve issues effectively.  [*Learn how*](#feature-people-with-the-people-web-part)| 
 
  
 
@@ -57,7 +57,7 @@ For more information, see [Create a communication site in SharePoint Online](htt
 
 The Hub site is optimized to organize and present links to other locations effectively.
 
-   ![Image of the Sharepoint navigation tool bar](media/hs-2.png)
+   ![Image of the mega menu](media/hs-2.png)
 <br>
 
 Clicking **Edit** on the top menu opens a simple three-level outline list on the left. The outline level equates to the menu parts: Main menu, Header item, or Menu item.
@@ -67,7 +67,7 @@ Clicking **Edit** on the top menu opens a simple three-level outline list on the
 On the right, below the header, click **Edit** to begin editing your page. While editing, your drafts can either be saved for later or discarded. When your page updates are ready, click **Publish** to reveal them to your entire organization.
 <br>
 
-   ![Image of the Sharepoint navigation tool bar](media/hs-3.png)
+   ![Image of the publish option](media/hs-3.png)
 <br>
 
 [Back to top](#example-hub-site)
@@ -116,7 +116,7 @@ In this example, the web part is in a one-column section.
 
 
 
-   ![Image of the Hero web part](media/hs-5.png)
+   ![Image of the news web part](media/hs-5.png)
 
 For more details on using the News web part, see [Use the News web part on a SharePoint page](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165).
 <br>
@@ -129,7 +129,7 @@ The Hub site features the Quick links web part, and while it's lower on the Hub 
 
 In this site example, the **Compact** layout is used for Career resources, and the **List** layout is used for Tools, which allows short text summaries for each link.
 
-   ![Image of the Text web part](media/hs-6.png)
+   ![Image of the quick links web part](media/hs-6.png)
 
 For more details on using the Quick Links web part, see [Use the Quick Links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82).
 
@@ -145,7 +145,7 @@ On this hub, an image with text guides visitor eyes to important links, informat
 
 The image can come from a location on the site, the cloud, or uploaded. Text options enhance communication and accessibility.
   
- ![Image of the Call to action set up](media/hs-7.png)
+ ![Image of the Image web part](media/hs-7.png)
 
 For more details on using the Image web part, see [Use the Image web part](https://support.microsoft.com/office/use-the-image-web-part-a63b335b-ad0a-4954-a65d-33c6af68beb2).
 
@@ -161,7 +161,7 @@ The File viewer web part allows important files in many formats to be posted to 
 
 - View the files full screen in the browser
 
- ![Image of the New web part](media/hs-8.png)
+ ![Image of the File viewer web part](media/hs-8.png)
 
 For more details on using the File viewer web part, see [Use the File viewer web part](https://support.microsoft.com/office/use-the-file-viewer-web-part-e53a9602-e7b3-4fff-9126-de2f18d1900c).
 [Back to top](#example-hub-site)
@@ -182,7 +182,8 @@ For more details on using the Events web part, see [Use the Events web part](htt
 When visitors need to find stakeholders or expertise, make it easy by featuring them on the site. People tiles can be simple or provide extra detail, and one click brings up key details from their profile.
 <br>
 <br>
-  ![Image of the Events web part](media/hs-10.png)
+
+  ![Image of the People web part](media/hs-10.png)
 
 For more details on using the People web part, see [Show people profiles on your page with the People web part](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05).
 
