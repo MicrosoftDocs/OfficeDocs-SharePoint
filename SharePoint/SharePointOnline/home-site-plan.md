@@ -1,5 +1,5 @@
 ---
-title: "Plan, create, and manage a home site for your organization"
+title: "Plan, build, and launch a home site for your organization"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -22,10 +22,10 @@ search.appverid:
 - SPO160
 - MET150
 - BSA160
-description: "Learn how to plan and create the top landing page for your organization."
+description: "Learn about creating the main landing site for your organization."
 ---
 
-# Plan, build, and maintain a home site for your organization
+# Plan, build, and launch a home site for your organization
   
 A SharePoint home site provides a customized landing experience that reflects the organization’s brand, voice, and priorities. A home site also serves as the gateway to other portals in your organization’s intranet. Your organization needs a home site not only to provide the best intranet experience for viewers but to also take advantage of features like SharePoint global navigation and the many ways to integrate your intranet with Microsoft Teams by using [Viva Connections](https://www.microsoft.com/microsoft-viva).
 <br>

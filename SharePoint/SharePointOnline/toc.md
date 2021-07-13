@@ -79,7 +79,7 @@
 ### [Change site addresses](change-site-address.md)
 ### [Manage site redirects](manage-site-redirects.md)
 ### [Lock and unlock sites](manage-lock-status.md)
-### [Plan, build, and manage a home site](home-site-plan.md)
+### [Plan, build, and launch a home site](home-site-plan.md)
 ### [Set up a home site](home-site.md)
 ### [Manage Teams connected team sites](teams-connected-sites.md)
 ### [Enable and set up global navigation](sharepoint-app-bar.md)

@@ -36,12 +36,12 @@ The amount of Microsoft SharePoint space your organization has is based on your 
     >[!NOTE]
     >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
-2. In the upper right of the page, see the amount of storage used across all sites, and the total storage for your subscription. (If your organization has configured Multi-Geo in Microsoft 365, the bar also shows the amount of storage used across all geo locations.) 
+2. In the upper right of the page, see the amount of storage available and the total storage for your subscription. (If your organization has configured Multi-Geo in Microsoft 365, you can point to the bar to see the amount of storage used in the current geo location and all other geo locationss.) 
 
     ![Storage bar on the Active sites page](media/active-sites-storage-bar.png)
 
     > [!NOTE]
-    > The storage used doesn't include changes made within the last 24-48 hours.
+    > Storage usage doesn't include changes made within the last 24-48 hours.
 
 ## Set automatic or manual site storage limits
 <a name="__toc365547981"> </a>
