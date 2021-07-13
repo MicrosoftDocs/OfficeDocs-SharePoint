@@ -25,5 +25,5 @@ The following articles are included in this section:
 
 |**Content**|**Description**|
 |:-----|:-----|
-|[OpenID Connect (OIDC) 1.0 authentication](oidc-1.0-authentication.md) <br/> |Adds support for OpenID Connect (OIDC) 1.0 <br/> |
-|[Enhanced People Picker for trusted authentication method](enhanced-people-picker-for-trusted-authentication-method.md) <br/> |People Picker is enhanced to search and pick user in User Profile Application to help you avoid creating a customized claim provider <br/> |
+|[OpenID Connect (OIDC) 1.0 authentication](oidc-1.0-authentication.md) <br/> | Learn how to setup OIDC authentication in SharePoint Server. <br/> |
+|[Enhanced People Picker for trusted authentication method](enhanced-people-picker-for-trusted-authentication-method.md) <br/> | People Picker is enhanced to search and pick user in User Profile Application to help you avoid creating a customized claim provider <br/> |

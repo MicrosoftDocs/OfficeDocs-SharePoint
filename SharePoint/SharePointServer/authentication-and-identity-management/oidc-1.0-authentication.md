@@ -47,12 +47,14 @@ This can simplify the configuration of OIDC token issuer.
 
 New-SPTrustedIdentityTokenIssuer -Name < issuer name > -Description < Issuer description > -ClaimsMappings < ClaimMappings >  -IdentifierClaim < InputClaimType >  -DefaultClientIdentifier < client_id >  -MetadataEndPoint < metadata endpoint >
 
-- Name: Giving a name to this new token issuer.
-- Description: Giving a description to this new token issuer
-- ClaimsMappings: A `SPClaimTypeMapping` object which will be used to identify which claim in the `id_token` will be regarded as identifier in SharePoint.
-- IdentifierClaim: Specifying which type the identifier is.
-- DefaultClientIdentifier: Specify the `client_id` of SharePoint server which is assigned by OIDC identity provider. This will be validated against “aud” claim in `id_token`.
-- MetadataEndPoint: Specifying the well-known metadata endpoint from OIDC identity provider which can be used to retrieve latest certificate, issuer, authorization endpoint and sign out endpoint.
+| Parameter | Description |
+|------------|-------------|
+|Name     | Giving a name to this new token issuer. |
+|Description     | Giving a description to this new token issuer. |
+|ClaimsMappings     | A `SPClaimTypeMapping` object which will be used to identify which claim in the `id_token` will be regarded as identifier in SharePoint. |
+|IdentifierClaim     | Specifying which type the identifier is. |
+|DefaultClientIdentifier     | Specify the `client_id` of SharePoint server which is assigned by OIDC identity provider. This will be validated against 'aud' claim in `id_token`. |
+|MetadataEndPoint     | Specifying the well-known metadata endpoint from OIDC identity provider which can be used to retrieve latest certificate, issuer, authorization endpoint and sign out endpoint. |
 
 SharePoint Server Subscription Edition also supports picking a certificate from a rotating list of signing certificates to digitally sign the `id_token` as SharePoint needs to validate the digital signature of the OIDC `id_token`. Previously, each `SPTrustedIdentityTokenIssuer` only supported one signing certificate, so they couldn’t support a rotating list of signing certificates.
 
@@ -100,28 +102,28 @@ This article uses the following values for AAD OIDC setup:
 
 If you choose to use AAD as federated identity provider, perform the following steps to setup AAD OIDC:
 
-1. Go to the **App Registration** page <https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps>
+1. Go to the **App Registration** page <https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps>.
 2. Enter the following for Redirect URL: <https://spsites.contoso.local/> and select **Register**.
 
     :::image type="content" source="../media/register-an-app.PNG" alt-text="Register an application":::
 
-3. Save “**Directory(tenant) ID**” as it is the tenant ID that we will use in future and save **Application (client) ID** which will be used as **DefaultClientIdentifier** in SharePoint setup.
+3. Save **Directory(tenant) ID** as it is the tenant ID that we will use in future and save **Application (client) ID** which will be used as **DefaultClientIdentifier** in SharePoint setup.
 
     :::image type="content" source="../media/sharepoint-onprem-oidc-connection.png" alt-text="Save Application":::
 
-4. After registering, go to the **Authentication** tab and enable “**ID tokens**”, then select “**Save**”.
+4. After registering, go to the **Authentication** tab and enable **ID tokens**, then select **Save**.
 
     :::image type="content" source="../media/sharepoint-oidc-authentication.png" alt-text="Enable ID Tokens":::
 
-5. Go to the “**API permissions**” tab and add “**email**” and “**profile**” permissions.
+5. Go to the **API permissions** tab and add **email** and **profile** permissions.
 
     :::image type="content" source="../media/sharepoint-oidc-api-permissions.png" alt-text="API Permissions":::
 
-6. Go to the “**Token configuration**” tab and add “**email**”, “**groups**” and “**upn**” optional claims.
+6. Go to the **Token configuration** tab and add **email**, **groups** and **upn** optional claims.
 
     :::image type="content" source="../media/sharepoint-oidc-token-configuration.png" alt-text="Token Configuration":::
 
-7. Go to the “**Manifest**” tab, and manually change **replyUrlsWithType.url** from “<https://spsites.contoso.local/>” to “<https://spsites.contoso.local/>*”. Then select **Save**.
+7. Go to the **Manifest** tab, and manually change **replyUrlsWithType.url** from <https://spsites.contoso.local/> to <https://spsites.contoso.local/>*. Then select **Save**.
 
     :::image type="content" source="../media/sharepoint-oidc-manifest.png" alt-text="Manifest":::
 
@@ -132,19 +134,19 @@ In AAD, there are 2 versions of OIDC authentication endpoints. Therefore, there 
 - V1.0: <https://login.microsoftonline.com/< TenantID >/.well-known/openid-configuration>
 - V2.0: <https://login.microsoftonline.com/< TenantID >/v2.0/.well-known/openid-configuration>
 
-Replace TenantID with the “**Directory(tenant) ID**” saved in step #3, and connect to the endpoint by your browser. Then, save the following information:
+Replace TenantID with the **Directory(tenant) ID** saved in step #3, and connect to the endpoint by your browser. Then, save the following information:
 
-- authorization_endpoint: https://login.microsoftonline.com/< tenantid >/oauth2/authorize
-- end_session_endpoint: https://login.microsoftonline.com/< tenantid >/oauth2/logout
-- issuer: https://sts.windows.net/< tenantid >/
-- jwks_uri: https://login.microsoftonline.com/common/discovery/keys
-- Open jwks_uri (https://login.microsoftonline.com/common/discovery/keys), and save **x5c** certificate string of the first **key** for later use in SharePoint setup (if the first key doesn’t work, try the 2nd or 3rd key)
+- authorization_endpoint: <https://login.microsoftonline.com/< tenantid >/oauth2/authorize>
+- end_session_endpoint: <https://login.microsoftonline.com/< tenantid >/oauth2/logout>
+- issuer: <https://sts.windows.net/< tenantid >/>
+- jwks_uri: <https://login.microsoftonline.com/common/discovery/keys>
+- Open jwks_uri (<https://login.microsoftonline.com/common/discovery/keys>), and save **x5c** certificate string of the first **key** for later use in SharePoint setup (if the first key doesn’t work, try the second or third key)
 
 :::image type="content" source="../media/sharepoint-setup-keys.png" alt-text="Discovery keys":::
 
 ### Step 2: Change SharePoint Farm properties
 
-In this step,  modify farm properties.
+In this step, modify farm properties.
 
 ```azurepowershell
 # Setup farm properties to work with OIDC
@@ -208,18 +210,20 @@ $clientIdentifier = <Application (Client)ID>
 New-SPTrustedIdentityTokenIssuer -Name "Contoso.local" -Description "Contoso.local" -ImportTrustCertificate $signingCert -ClaimsMappings $email -IdentifierClaim $email.InputClaimType  -RegisteredIssuerName $registeredissuernameurl  -AuthorizationEndPointUri $authendpointurl -SignOutUrl $signouturl -DefaultClientIdentifier $clientIdentifier
 ```
 
-Here, **New-SPTrustedIdentityTokenIssuer** PowerShell cmdlet is extended to support OIDC by using the following parameters:
+Here, `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet is extended to support OIDC by using the following parameters:
 
-- Name: Giving a name to this new token issuer
-- Description: Giving a description to this new token issuer
-- ImportTrustCertificate: It takes a list of X509 Certificates which will be used to validate `id_token` from OIDC identifier. If the OIDC IDP uses more than one certificate to digital sign the `id_token`, import these certificates and SharePoint will then validate `id_token` by matching the digital signature generated by using these certificates.
-- ClaimsMappings: A `SPClaimTypeMapping` object which will be used to identify which claim in the `id_token` will be regarded as identifier in SharePoint.
-- IdentifierClaim: Specifying which type the identifier is.
-- RegisteredIssuerName: Specifying the issuer identifier which issues the `id_token`. It will be used to validate the `id_token`.
-- AuthorizationEndPointUrl: Specifying the authorization endpoint of the OIDC identity provider.
-- SignoutUrl: Specifying the sign out endpoint of the OIDC identity provider.
-- DefaultClientIdentifier: Specify the `client_id` of SharePoint server which is assigned by OID identity provider. This will be validated against aud claim in `id_token`.
-- ResponseTypesSupported: Specify the response type of IDP can be accepted by this token issuer. It can accept 2 strings, “`id_token`” and “`code id_token`”. If this parameter is not provided, it will use “`code id_token`” as default.
+| Parameter | Description |
+|------------|-------------|
+|Name     | Giving a name to this new token issuer |
+|Description     | Giving a description to this new token issuer |
+|ImportTrustCertificate     | It takes a list of X509 Certificates which will be used to validate `id_token` from OIDC identifier. If the OIDC IDP uses more than one certificate to digital sign the `id_token`, import these certificates and SharePoint will then validate `id_token` by matching the digital signature generated by using these certificates |
+| ClaimsMappings | A `SPClaimTypeMapping` object which will be used to identify which claim in the `id_token` will be regarded as identifier in SharePoint |
+| IdentifierClaim | Specifying which type the identifier is |
+| RegisteredIssuerName | Specifying the issuer identifier which issues the `id_token`. It will be used to validate the `id_token` |
+| AuthorizationEndPointUrl | Specifying the authorization endpoint of the OIDC identity provider |
+| SignoutUrl | Specifying the sign out endpoint of the OIDC identity provider |
+| DefaultClientIdentifier | Specify the `client_id` of SharePoint server which is assigned by OID identity provider. This will be validated against aud claim in `id_token` |
+| ResponseTypesSupported | Specify the response type of IDP can be accepted by this token issuer. It can accept 2 strings, `id_token` and `code id_token`. If this parameter is not provided, it will use `code id_token` as default |
 
 > [!IMPORTANT]
 > The relevant certificate must be added to the SharePoint root authority certificate store:
@@ -261,13 +265,15 @@ New-SPTrustedIdentityTokenIssuer -Name "Contoso.local" -Description "Contoso.loc
 
 New-SPTrustedIdentityTokenIssuer -Name < issuer name > -Description < Issuer description > -ClaimsMappings < ClaimMappings >  -IdentifierClaim < InputClaimType >  -DefaultClientIdentifier < client_id >  -MetadataEndPoint < metadata endpoint >
 
-- Name: Giving a name to this new token issuer
-- Description: Giving a description to this new token issuer
-- ImportTrustCertificate: A certificate which will be used to validate `id_token` from OIDC identifier.
-- ClaimsMappings: A `SPClaimTypeMapping` object which will be used to identify which claim in the `id_token` will be regarded as identifier in SharePoint.
-- IdentifierClaim: Specifying which type the identifier is.
-- DefaultClientIdentifier: Specify the `client_id` of SharePoint server which is assigned by OID identity provider. This will be validated against aud claim in `id_token`.
-- MetadataEndPoint: Specifying the well-known metadata endpoint from OIDC identity provider which can be used to retrieve latest certificate, issuer, authorization endpoint and sign out endpoint.
+| Parameter | Description |
+|------------|-------------|
+|Name     | Giving a name to this new token issuer |
+|Description     | Giving a description to this new token issuer |
+|ImportTrustCertificate     | A certificate which will be used to validate `id_token` from OIDC identifier |
+| ClaimsMappings | A `SPClaimTypeMapping` object which will be used to identify which claim in the `id_token` will be regarded as identifier in SharePoint |
+| IdentifierClaim | Specifying which type the identifier is |
+| DefaultClientIdentifier | Specify the `client_id` of SharePoint server which is assigned by OID identity provider. This will be validated against aud claim in `id_token` |
+| MetadataEndPoint | Specifying the well-known metadata endpoint from OIDC identity provider which can be used to retrieve latest certificate, issuer, authorization endpoint and sign out endpoint |
 
 ### Step 4: Configure the SharePoint web application
 
@@ -291,9 +297,9 @@ There are two possible configurations:
         $trustedAp = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
         ```
 
-    2. Follow [Create a web application in SharePoint Server](/sharepoint/administration/create-a-web-application) to create a new web application enabling HTTPS/SSL named “SharePoint - OIDC on contoso.local”.
+    2. Follow [Create a web application in SharePoint Server](/sharepoint/administration/create-a-web-application) to create a new web application enabling HTTPS/SSL named SharePoint - OIDC on contoso.local.
     3. Open the SharePoint Central Administration site.
-    4. Open the web application you just created and pick “**contoso.local**” as “**Trusted Identity Provider**”.
+    4. Open the web application you just created and pick **contoso.local** as **Trusted Identity Provider**.
 
         :::image type="content" source="../media/authentication-providers.jpg" alt-text="Authentication Providers":::
 
@@ -316,7 +322,7 @@ There are two possible configurations:
     ```
 
     2. Open the SharePoint Central Administration site.
-    3. Open the web application you want to extend OIDC authentication to and pick “**contoso.local**” as “**Trusted Identity Provider**”.
+    3. Open the web application you want to extend OIDC authentication to and pick **contoso.local** as **Trusted Identity Provider**.
 
         :::image type="content" source="../media/authentication-providers-2.jpg" alt-text="Authentication Providers 2":::
 
@@ -423,18 +429,22 @@ This article uses the following values for:
 If you choose to use AD FS as identity provider, perform the following steps to setup OIDC with AD FS:
 
 1. In AD FS Management, right-click on **Application Groups** and select **Add Application Group**.
-2. On the Application Group Wizard, enter **ADFSSSO** in the '**Name**' field and under **Client-Server applications**, select the **Web browser accessing a web application** template. Then, select **Next**.
+2. On the Application Group Wizard, enter **ADFSSSO** in the **Name** field and under **Client-Server applications**, select the **Web browser accessing a web application** template. Then, select **Next**.
+
     :::image type="content" source="../media/add-application-group-wizard.png" alt-text="Add Application Group Wizard":::
 
-3. Copy the **Client Identifier** value. It will be used later as the value for “`DefaultClientIdentifier`” parameter during SharePoint configuration.
-4. Under the **Redirect URI** field, enter <https://spsites.contoso.local/> and choose **Add**. Then select **Next**.
+3. Copy the **Client Identifier** value. It will be used later as the value for `DefaultClientIdentifier` parameter during SharePoint configuration.
+4. Under the **Redirect URL** field, enter <https://spsites.contoso.local/> and choose **Add**. Then select **Next**.
+
     :::image type="content" source="../media/add-application-group-wizard-2.png" alt-text="Add Application Group Wizard 2":::
 
 5. On the **Summary** screen, select **Next**.
+
     :::image type="content" source="../media/add-application-group-wizard-3.png" alt-text="Add Application Group Wizard 3":::
 
 6. On the **Complete** screen, select **Close**.
 7. Export Token-signing certificate from AD FS. This token-signing certificate will be used in SharePoint setup.
+
     :::image type="content" source="../media/adfs-certificates.png" alt-text="AD FS Certificate Export 1":::
 
     :::image type="content" source="../media/adfs-certificate-export-2.png" alt-text="AD FS Certificate Export 2":::
@@ -447,22 +457,26 @@ If you choose to use AD FS as identity provider, perform the following steps to 
 
     We assume that your AD FS has configured the rule that read identifier claim from attribute store, such as AD. Perform the following steps to create Issuance Transform Rule for this specific web application we created in AD FS above:
 
-    1. Open the web application you just created and go to “Issue Transformation Rule” tab.
+    1. Open the web application you just created and go to 'Issue Transformation Rule' tab.
+
         :::image type="content" source="../media/issue-transformation-rule.jpg" alt-text="Issue Transformation Rule":::
 
         :::image type="content" source="../media/issue-transformation-add-rule.JPG" alt-text="Issue Transformation Add Rule":::
 
-    2. Select '**Add Rule**' followed by '**Pass Through or Filter an Incoming Claim**' from the '**Claim rule template**' options.
+    2. Select **Add Rule** followed by **Pass Through or Filter an Incoming Claim** from the **Claim rule template** options.
+
         :::image type="content" source="../media/add-transform-claim-rule.JPG" alt-text="Add Transform Claim Rule":::
 
-    3. Select “**Next**” and fill in the next form as shown.
+    3. Select **Next** and fill in the next form as shown.
+
         :::image type="content" source="../media/add-transform-claim-rule-2.jpg" alt-text="Add Transform Claim Rule 2":::
 
-    4. Select “**Finish**”.
+    4. Select **Finish**.
 
-If you are setting OIDC with SharePoint Server, “nbf” claim must be configured in AD FS server side in the web application you just created. If “nbf” claim doesn’t exist in this web application, perform the following steps to create it:
+If you are setting OIDC with SharePoint Server, nbf claim must be configured in AD FS server side in the web application you just created. If nbf claim doesn’t exist in this web application, perform the following steps to create it:
 
 1. Open the web application you just created and go to **Issue Transformation Rule** tab.
+
     :::image type="content" source="../media/issue-transformation-rule.jpg" alt-text="Issue Transformation Rule":::
 
     :::image type="content" source="../media/issue-transformation-add-rule.JPG" alt-text="Issue Transformation Add Rule":::
@@ -536,18 +550,20 @@ $clientIdentifier = <Client Identifier>
 New-SPTrustedIdentityTokenIssuer -Name "Contoso.local" -Description "Contoso.local" -ImportTrustCertificate $signingCert -ClaimsMappings $email -IdentifierClaim $email.InputClaimType  -RegisteredIssuerName $registeredissuernameurl  -AuthorizationEndPointUri $authendpointurl -SignOutUrl $signouturl -DefaultClientIdentifier $clientIdentifier
 ```
 
-Here, **New-SPTrustedIdentityTokenIssuer** PowerShell cmdlet is extended to support OIDC by using the following parameters:
+Here, `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet is extended to support OIDC by using the following parameters:
 
-- Name: Giving a name to this new token issuer.
-- Description: Giving a description to this new token issuer.
-- ImportTrustCertificate: It takes a list of X509 Certificates which will be used to validate `id_token` from OIDC identifier. If the OIDC IDP uses more than one certificates to digital sign the `id_token`, import these certificates and SharePoint will then validate `id_token` by matching the digital signature generated by using these certificates.
-- ClaimsMappings: A SPClaimTypeMapping object which will be used to identify which claim in the `id_token` will be regarded as identifier in SharePoint.
-- IdentifierClaim: Specifying which type the identifier is.
-- RegisteredIssuerName: Specifying the issuer identifier which issues the `id_token`. It will be used to validate the `id_token`.
-- AuthorizationEndPointUrl: Specifying the authorization endpoint of the OIDC identity provider.
-- SignoutUrl: Specifying the sign out endpoint of the OIDC identity provider.
-- DefaultClientIdentifier: Specify the `client_id` of SharePoint server which is assigned by OID identity provider. This will be validated against aud claim in `id_token`.
-- ResponseTypesSupported: Specify the response type of IDP can be accepted by this token issuer. It can accept 2 strings, “`id_token`” and “`code id_token`”. If this parameter is not provided, it will use “`code id_token`” as default.
+| Parameter | Description |
+|------------|-------------|
+|Name     | Giving a name to this new token issuer |
+|Description     | Giving a description to this new token issuer |
+|ImportTrustCertificate     |  It takes a list of X509 Certificates which will be used to validate `id_token` from OIDC identifier. If the OIDC IDP uses more than one certificate to digital sign the `id_token`, import these certificates and SharePoint will then validate `id_token` by matching the digital signature generated by using these certificates |
+| ClaimsMappings | A SPClaimTypeMapping object which will be used to identify which claim in the `id_token` will be regarded as identifier in SharePoint |
+| IdentifierClaim | Specifying which type the identifier is |
+| RegisteredIssuerName | Specifying the issuer identifier which issues the `id_token`. It will be used to validate the `id_token` |
+| AuthorizationEndPointUrl | Specifying the authorization endpoint of the OIDC identity provider |
+| SignoutUrl | Specifying the sign out endpoint of the OIDC identity provider |
+| DefaultClientIdentifier | Specify the `client_id` of SharePoint server which is assigned by OID identity provider. This will be validated against aud claim in `id_token` |
+| ResponseTypesSupported | Specify the response type of IDP can be accepted by this token issuer. It can accept 2 strings, `id_token` and `code id_token`. If this parameter is not provided, it will use `code id_token` as default |
 
 > [!IMPORTANT]
 > The relevant certificate must be added to the SharePoint root authority certificate store and there are two possible options to do this:
@@ -591,13 +607,16 @@ There are 2 possible configurations:
         $trustedAp = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
         ```
 
-  2. Follow [Create a web application in SharePoint Server](/sharepoint/administration/create-a-web-application) to create a new web application enabling HTTPS/SSL named “SharePoint - OIDC on contoso.local”
+  2. Follow [Create a web application in SharePoint Server](/sharepoint/administration/create-a-web-application) to create a new web application enabling HTTPS/SSL named SharePoint - OIDC on contoso.local
   3. Open the SharePoint Central Administration site.
-  4. Open the web application you just created and pick “**contoso.local**” as “**Trusted Identity Provider**”.
+  4. Open the web application you just created and pick **contoso.local** as **Trusted Identity Provider**.
+
       :::image type="content" source="../media/authentication-providers-3.jpg" alt-text="Authentication Providers 3":::
+
   5. Open the SharePoint Central Administration site.
   6. Navigate to **System Settings** > **Configure Alternate Access Mappings** > **Alternate Access Mapping Collection**.
   7. Filter the display with the new web application and confirm that you see something like this:
+
       :::image type="content" source="../media/alternate-access-mapping-collection.png" alt-text="Alternate Access Mapping Collection":::
 
 - If you extend an existing web application to set AD FS OIDC authentication on a new zone:
@@ -612,11 +631,13 @@ There are 2 possible configurations:
 
     2. Open the SharePoint Central Administration site.
     3. Open the web application you want to extend OIDC authentication to and pick **contoso.local** as **Trusted Identity Provider**.
+
         :::image type="content" source="../media/authentication-providers-4.jpg" alt-text="Authentication Providers 4":::
 
     4. Open the SharePoint Central Administration site.
     5. Navigate to **System Settings** > **Configure Alternate Access Mappings** > **Alternate Access Mapping Collection**.
     6. Filter the display with the web application that was extended and confirm that you see something like this:
+
         :::image type="content" source="../media/alternate-access-mapping-collection-2.png" alt-text="Alternate Access Mapping Collection":::
 
 ### Step 5: Ensure that an HTTPS certificate is set in IIS
@@ -627,10 +648,10 @@ As SharePoint URL uses HTTPS protocol (<https://spsites.contoso.local/>), a cert
 
     > [!NOTE]
     > You may skip this step if you already generated the certificate.
-    > 
+    >
     > 1. Open the Windows PowerShell console.
     > 2. Run the following script to generate a self-signed certificate and add it to the computer's MY store:
-    > 
+    >
     >     `New-SelfSignedCertificate -DnsName "spsites.contoso.local" -CertStoreLocation "cert:\LocalMachine\My"`
     >
 
