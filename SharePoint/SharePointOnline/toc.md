@@ -52,7 +52,7 @@
 ### [Remove hub site](remove-hub-site.md)
 ### [Set up site design](set-up-site-design-hub-site.md)
 ## [Viva Connections]()
-### [Plan, build, and manage a home site](home-site-plan.md)
+### [Plan, build, and launch a home site](home-site-plan.md)
 ### [Enable and set up global navigation](sharepoint-app-bar.md)
 ### [Add Viva Connections to Microsoft Teams desktop](viva-connections.md)
 ## [Lists]()
