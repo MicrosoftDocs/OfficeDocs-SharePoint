@@ -22,11 +22,11 @@ description: Overview of migration from Google to Microsoft 365 using Migration 
 # Migrate Google Workspace to Microsoft 365 with Migration Manager
 
 >[!Note]
->This release currently supports the migration of up to approximately 10,00 Google Workspace accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
+>This release currently supports the migration of up to approximately 10,000 Google Workspace accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
 
 Collaborate all in one place by migrating your Google documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
-![Migration Manager main landing page](media/mm-main-landing-google.png)
+:::image type="content" alt-text="Migration Manager main landing page" source="media/mm-main-landing-google.png":::
 
 ## How does it work?
 
