@@ -18,7 +18,7 @@ ms.collection:
 - SP2019
 ms.custom: 
 ms.assetid:
-description: "Learn how to install SharePoint Server Subscription Edition in various topologies."
+description: "Learn how to install SharePoint Server Subscription Edition on windows server core."
 ---
     
 # Installing SharePoint Server Subscription Edition on Windows Server Core
