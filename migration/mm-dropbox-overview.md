@@ -26,7 +26,6 @@ description: Overview of migration from Dropbox to Microsoft 365 using Migration
 
 Collaborate all in one place by migrating your Dropbox documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
-![Migration Manager main landing page](media/mm-main-landing-Dropbox.png)
 :::image type="content" alt-text="Migration Manager main landing page" source="media/mm-main-landing-Dropbox.png":::
 
 ## How does it work?
