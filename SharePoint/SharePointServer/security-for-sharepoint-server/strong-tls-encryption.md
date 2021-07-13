@@ -29,16 +29,18 @@ SharePoint Server configures itself to enforce the minimum TLS version and ciphe
 
 Specifically:
 
--The SSL/TLS protocol version negotiated must be TLS 1.2 or higher. TLS protocol versions lower than TLS 1.2, and all SSL protocol versions, will be blocked for connections made to its SSL bindings.
+- The SSL/TLS protocol version negotiated must be TLS 1.2 or higher. TLS protocol versions lower than TLS 1.2, and all SSL protocol versions, will be blocked for connections made to its SSL bindings.
+
 - The TLS cipher suite negotiated must support forward secrecy and Authenticated encryption with associated data (AEAD) encryption modes such as GCM. Cipher suites that do not offer forward secrecy, or cipher suites that are based on null, weak stream ciphers (such as RC4), or block cipher modes (such as CBC), will be blocked for connections made to its SSL bindings.
 
 These requirements will apply by default to all SharePoint web applications that use an SSL binding, as well as the SSL binding of the "SharePoint Web Services" IIS website, which hosts SharePoint service application endpoints. If the customers need to continue supporting legacy encryption for backward compatibility (such as older TLS protocol versions and cipher suites), they can configure this through the "Allow Legacy Encryption" setting in Central Administration. It can also be configured through the -AllowLegacyEncryption parameter in the following `PowerShell cmdlets` and command line tools:
 - `New-SPWebApplication`
 - `New-SPWebApplicationExtension`
-- `Set-SPWebApplication ("Zone" parameter set)`
+- `Set-SPWebApplication `("Zone" parameter set)``
 - `New-SPCentralAdministration`
 - `Set-SPCentralAdministration`
 - `Set-SPServiceHostConfig`
 - `PSConfig.exe -cmd adminvs`
 
-This security feature requires SharePoint Server or higher. SharePoint Server will not use this security feature on earlier versions of Windows Server such as Windows Server 2019, regardless of the state of the "Allow Legacy Encryption" setting.
+> [!NOTE]
+> This security feature requires SharePoint Server or higher. SharePoint Server will not use this security feature on earlier versions of Windows Server such as Windows Server 2019, regardless of the state of the "Allow Legacy Encryption" setting.
