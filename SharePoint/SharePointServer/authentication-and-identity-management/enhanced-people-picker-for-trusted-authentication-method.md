@@ -49,7 +49,7 @@ Follow these configuration steps to make People Picker work:
         [-UseUPABackedClaimProvider]
     ```
     > [!Note]
-    > Compared with TAP build 16.0.13115.1000, we removed the `-ServiceContext <SPServiceContextPipeBind>` parameter from this cmdlet and the `-UseUPABackedClaimProvider` parameter is optional.
+    > The `-ServiceContext <SPServiceContextPipeBind>` parameter has been removed from this cmdlet and the `-UseUPABackedClaimProvider` parameter is optional.
 
     Following three parameters need special attention:<br/>
 
