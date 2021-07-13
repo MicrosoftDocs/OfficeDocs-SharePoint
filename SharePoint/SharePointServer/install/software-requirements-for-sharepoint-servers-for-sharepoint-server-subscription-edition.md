@@ -30,7 +30,6 @@ SharePoint Server requires Windows Server 2019 or Windows Server 2022. Earlier v
 You can download evaluation copies of Windows Server 2019 and Windows Server 2022 Preview from the Microsoft Evaluation Center.
 - [Windows Server 2019](https://www.microsoft.com/en-in/evalcenter/evaluate-windows-server-2019)
 - [Windows Server 2022](https://www.microsoft.com/en-in/evalcenter/evaluate-windows-server-2022-preview)
-- 
 
 > [!NOTE]
 > We don't support installing the Office 2019 and SharePoint Server Subscription Edition on the same computer.
