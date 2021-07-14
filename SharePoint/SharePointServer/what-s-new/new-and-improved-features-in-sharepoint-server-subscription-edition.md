@@ -73,7 +73,10 @@ Windows Server 2022 includes various new features and improvements in virtualiza
  
  - Support for AES-256-GCM encryption in SMB file sharing, along with compressed file transfers over the network when using the `robocopy.exe` and `xcopy.exe` tools with the `/compress` parameter.
  
-SharePoint Server Subscription Edition supports additional security features when deployed with Windows Server 2022 or higher such as support for TLS 1.3 and strong TLS encryption by default. These security features are not available when SharePoint Server Subscription Edition is deployed with earlier versions of Windows Server. Microsoft recommends deploying SharePoint Server Subscription Edition with Windows Server 2022 or higher.
+SharePoint Server Subscription Edition supports additional security features when deployed with Windows Server 2022 or higher such as support for TLS 1.3 and strong TLS encryption by default. 
+
+> [!NOTE]
+> These security features are not available when SharePoint Server Subscription Edition is deployed with earlier versions of Windows Server. Microsoft recommends deploying SharePoint Server Subscription Edition with Windows Server 2022 or higher.
 
 ### Windows Server Core
 <a name="core"> </a>
@@ -92,7 +95,7 @@ SharePoint Server Subscription Edition supports both **N - 1** and **N - 2** ver
  - SharePoint Server 2016 (including Project Server 2016)
 
 > [!NOTE]
-> Upgrade path from earlier versions of SharePoint such as SharePoint Server 2013, SharePoint Server 2010, and so on to SharePoint Server Subscription Edition is not supported. You must upgrade first to either SharePoint 2016 or SharePoint 2019 before upgrading to SharePoint Server Subscription Edition.
+> Directly upgrading from versions of SharePoint earlier than SharePoint Server 2016 via database attach is not supported. SharePoint 2013, SharePoint 2010, and so on must first be upgraded to either SharePoint Server 2016 or SharePoint Server 2019 via database attach before upgrading to SharePoint Server Subscription Edition.
 
 ## Farm Administration
   
@@ -123,7 +126,7 @@ It includes the following benefits:
   - PowerShell will be able to download updated SharePoint Server cmdlet help content over the Internet.
   
 > [!NOTE]
-> The SharePoint Management Shell will continue to be included in the product to provide a familiar PowerShell UI for managing SharePoint Server. The SharePoint Server PowerShell cmdlets will continue to require Windows PowerShell. These cmdlets will not be compatible with PowerShell Core.
+> The SharePoint Management Shell will continue to be included in the product to provide a familiar PowerShell UI for managing SharePoint Server. The SharePoint Server PowerShell cmdlets will continue to require Windows PowerShell. These cmdlets will not be compatible with PowerShell Core 6.x or PowerShell 7.x.
 
 ## Search
   
@@ -139,7 +142,10 @@ Lists and list items are now searchable in the modern UX. List item results will
 
 Transport Layer Security (TLS) is a cryptographic protocol that encrypts communication between two endpoints, such as between a web browser and an HTTPS web site. TLS 1.3 is the latest and most secure version of the TLS protocol.
 
-SharePoint Server Subscription Edition supports TLS 1.3 by default when deployed with Windows Server 2022 or higher. TLS 1.3 is not available and is not supported when SharePoint Server Subscription Edition is deployed with earlier versions of Windows Server.
+SharePoint Server Subscription Edition supports TLS 1.3 by default when deployed with Windows Server 2022 or higher. 
+
+> [!NOTE]
+> TLS 1.3 is not available and is not supported when SharePoint Server Subscription Edition is deployed with earlier versions of Windows Server. Microsoft recommends deploying SharePoint Server Subscription Edition with Windows Server 2022 or higher.
   
 > [!NOTE]
 > Not all applications in your software ecosystem may support TLS 1.3. Check with your software vendors to determine if your other applications support TLS 1.3. SharePoint Server Subscription Edition can fall back to earlier TLS protocol versions when connecting with systems that don't support TLS 1.3 unless the customer has disabled earlier TLS protocol versions.
@@ -157,14 +163,15 @@ Specifically:
 
 Customers can allow legacy encryption to be used if needed for backward compatibility with older software that doesn't support strong TLS protocol versions and cipher suites.
 
-SharePoint Server Subscription Edition supports strong TLS encryption by default when deployed with Windows Server 2022 or higher. This capability is not available in earlier versions of Windows Server. 
+> [!NOTE]
+> Strong TLS encryption by default is not available when SharePoint Server Subscription Edition is deployed with earlier versions of Windows Server. Microsoft recommends deploying SharePoint Server Subscription Edition with Windows Server 2022 or higher.
 
 ## Sites, Lists, and Libraries
 
 ### Accessibility improvements across modern UX
 <a name="aiamu"> </a>
   
-SharePoint Server Subscription Edition includes various accessibility improvements to the modern UX to ensure that all users can be productive with SharePoint.
+SharePoint Server Subscription Edition includes numerous accessibility improvements across the modern UX to ensure that all users can be productive with SharePoint.
   
 ### Image and document thumbnails in document libraries and picture libraries
 <a name="idt"> </a>

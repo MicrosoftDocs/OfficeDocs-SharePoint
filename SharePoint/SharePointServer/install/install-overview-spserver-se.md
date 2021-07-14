@@ -1,5 +1,5 @@
 ---
-title: "Installation Overview for SharePoint Server Subscription Edition"
+title: "Installation overview for SharePoint Server Subscription Edition"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
@@ -19,7 +19,7 @@ ms.assetid:
 description: "Learn how to install SharePoint Subscription edition in various topologies."
 ---
 
-# Installation Overview for SharePoint Server Subscription Edition
+# Installation overview for SharePoint Server Subscription Edition
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 

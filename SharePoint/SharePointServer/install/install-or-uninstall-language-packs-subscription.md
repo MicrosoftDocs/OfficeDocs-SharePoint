@@ -97,7 +97,7 @@ Verify that the user account that is performing this procedure is the Setup user
     
 5. If the **Modify SharePoint Central Administration Web Administration Settings** page appears, do not change any of the default settings, and then click **Next**.
     
-6. After you complete the Completing the **SharePoint Products Configuration Wizard**, click **Next**.
+6. After you complete the **Completing the SharePoint Products Configuration Wizard**, click **Next**.
     
 7. On the **Configuration Successful** page, click **Finish**.
     
