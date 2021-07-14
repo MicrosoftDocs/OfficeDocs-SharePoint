@@ -1,5 +1,5 @@
 ---
-title: "Software Requirements for SharePoint Servers for SharePoint Server Subscription Edition"
+title: "Software requirements for SharePoint Servers for SharePoint Server Subscription Edition"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
@@ -15,11 +15,11 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 
-description: "This article introduces topic that describe software requirements for SharePoint Server."
+description: "This article introduces the topic that describes software requirements for SharePoint Server."
 ---
 
 
-# Software Requirements for SharePoint Servers for SharePoint Server Subscription Edition
+# Software requirements for SharePoint Servers for SharePoint Server Subscription Edition
 
 [!INCLUDE [appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)] 
 
@@ -54,13 +54,13 @@ You can run `prerequisiteinstaller.exe` at a command prompt with the following o
 
 /unattended This indicates no user interaction.
 
-The installer installs from the file that you specify in the command-line options described in the following list. In this list, <file> signifies the file from which you want to install. If you do not specify the `<file> option, the installer downloads the file from the Internet and installs it. If the option does not apply to the current operating system, it is ignored.
+The installer installs from the file that you specify in the command-line options described in the following list. In this list, the "file" signifies the file from which you want to install. If you do not specify the `"file" option, the installer downloads the file from the Internet and installs it. If the option does not apply to the current operating system, it is ignored.
 
-**/WCFDataServices56**:*<file>* Install Microsoft WCF Data Services 5.6 from *<file>*.
+**/WCFDataServices56**:*<file>* Install Microsoft WCF Data Services 5.6 from "file".
 
-**/DotNet48**:*<file>* Install Microsoft .NET Framework 4.8 from *<file>*.
+**/DotNet48**:*<file>* Install Microsoft .NET Framework 4.8 from "file".
 
-**/MSVCRT142**:*<file>* Install Visual C++ Redistributable Package for Visual Studio 2015-2019 from *<file>.*
+**/MSVCRT142**:*<file>* Install Visual C++ Redistributable Package for Visual Studio 2015-2019 from "file".
 
 ## Installation options
 
@@ -73,13 +73,16 @@ The prerequisite installer creates log files at **%TEMP%\prerequisiteinstaller.<
 
 
 ## Manually configure Windows Server Roles and Features
-To manually configure the required Windows Server Roles and Features, you can use one of two methods: 1. Server Manager 2. Microsoft PowerShell
+To manually configure the required Windows Server Roles and Features, you can use one of following two methods:
+  1. Server Manager
+  2. Microsoft PowerShell
 
 To configure by using Server Manager, see Install or Uninstall Roles, Role Services, or Features
 
 To configure by using PowerShell:
 
 From a PowerShell command prompt window, type:
+  
 ```Install-WindowsFeature NET-WCF-Pipe-Activation45,NET-WCF-HTTP-Activation45,NET-WCF-TCP-Activation45,Web-Server,Web-WebServer,Web-Common-Http,Web-Static-Content,Web-Default-Doc,Web-Dir-Browsing,Web-Http-Errors,Web-App-Dev,Web-Asp-Net45,Web-Net-Ext45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Health,Web-Http-Logging,Web-Log-Libraries,Web-Request-Monitor,Web-Http-Tracing,Web-Security,Web-Basic-Auth,Web-Windows-Auth,Web-Filtering,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,WAS,WAS-Process-Model,WAS-Config-APIs -IncludeManagementTools```
 
 > [!NOTE]
