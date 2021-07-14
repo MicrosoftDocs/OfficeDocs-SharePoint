@@ -30,13 +30,9 @@ Once you have your created your site and know how to edit pages, you can use the
 
 ## Example enterprise landing site
 
-<!-- long image-->
-
-1. **Navigation** Quickly guide visitors to the information they're looking for with site navigation. Learn how
-2. **News and events** Keep everyone up to date on the latest happenings. Learn how
-3. **Quick links** Format the Quick links web part with icons, images, and descriptions. Learn how
-4. **Important information** Display  important documents and files. Learn how
-5. **Personalization** Use web parts designed to dynamically provide personalized information for the user. Learn how
+|Web part|Description|
+|----------|------------|
+|![Image of an example enterprise landing site](media/gw-org/gw-org-long.png)|**1 Navigation** <br> Quickly guide visitors to the information they're looking for with site navigation. [Learn how](#navigation) <br> <br> **2 News and events** <br> Keep everyone up to date on the latest happenings. [Learn how](#keep-everyone-up-to-date) <br> <br> **3 Quick links** <br> Format the Quick links web part with icons, images, and descriptions. [Learn how](#quick-links) <br> <br> **4 Important information** <br> Display  important documents and files. [Learn how](#documents-and-files) <br> <br> **5 Personalization** <br> Use web parts designed to dynamically provide personalized information for the user. [Learn how](#personalized-web-parts)|
 
 ## Create your site
 
@@ -46,23 +42,9 @@ To make a site like the one shown here, you'll create a [Communication site](htt
 
 Next, choose **Communication site**, and then the **Topic** layout. Fill out your site name, description, and other information, and select **Finish**. Then you'll get a template with the same type of layout as the example in this article.
 
-<!-- image 3-->
+![Image of the edit pane for the Topic layout](media/gw-org/org-3.jpg)
 
 For more information, see [Create a communication site in SharePoint online](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
-
-[Back to top](#example-enterprise-landing-site)
-
-## Navigation
-
-You can quickly and easily customize the organization and navigation of your SharePoint site.
-
-<!--image 4-->
-
-Select **Edit** on the top menu to add and arrange links.
-
-<!--image 5-->
-
-Learn more about [customizing the navigation on your SharePoint site](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca).
 
 [Back to top](#example-enterprise-landing-site)
 
@@ -88,6 +70,20 @@ Web parts may be edited, moved, or deleted within sections. The **Edit web part*
 
 [Back to top](#example-enterprise-landing-site)
 
+## Navigation
+
+You can quickly and easily customize the organization and navigation of your SharePoint site.
+
+<!--image 4-->
+
+Select **Edit** on the top menu to add and arrange links.
+
+<!--image 5-->
+
+Learn more about [customizing the navigation on your SharePoint site](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca).
+
+[Back to top](#example-enterprise-landing-site)
+
 ## Keep everyone up to date
 
 The Enterprise Landing page uses two different [News web parts](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165). One uses the **Carousel** layout, and the other uses the **Top story** layout. In the example [at the beginning of the article](#example-enterprise-landing-site), these layouts are both in the first column of two-column [sections](https://support.microsoft.com/office/guided-walkthrough-creating-an-organization-site-9c1842c3-543e-4891-85d3-0eaf680e242d?storagetype=live#bkmk_sectionswebparts) on the page. The second column contains an [Events web part](https://support.microsoft.com/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909) that you can use to display upcoming events and activities. The second example photo below includes the [Countdown timer web part](https://support.microsoft.com/office/use-the-countdown-timer-web-part-a13ffef8-0bf1-409e-be23-98af1d1736e7) to generate excitement for things like an upcoming event, activity, or launch.
@@ -108,6 +104,14 @@ In this Enterprise landing site example at the [beginning of the article](#examp
 
 [Back to top](#example-enterprise-landing-site)
 
+## Documents and files
+
+Display a file on the page with the [File viewer web part](https://support.microsoft.com/office/use-the-file-viewer-web-part-e53a9602-e7b3-4fff-9126-de2f18d1900c). You can display Word, PowerPoint, Excel, PDF, and 3D model files, and many more types. In the example, two File viewer web parts are shown in two columns. One displays a Word document, and one displays a PowerPoint presentation.
+
+<!-- image 11 & 12-->
+
+[Back to top](#example-enterprise-landing-site)
+
 ## Personalized web parts
 
 The Sites (left column), Highlighted content (middle column), and News (right column) web parts are in a separate, three-column section. Each have the ability to filter content based on the current viewer of the site. These kinds of web parts used in this way can help draw viewers back to the page to see their latest visited sites, content and news.
@@ -115,14 +119,6 @@ The Sites (left column), Highlighted content (middle column), and News (right co
 <!-- image 10-->
 
 For more details on using these web parts, see [Use the Sites web part](https://support.microsoft.com/office/use-the-sites-web-part-93cbd17b-0bf8-4355-9f32-cc90e0443e6d), [Use the Highlighted content web part](https://support.microsoft.com/office/use-the-highlighted-content-web-part-e34199b0-ff1a-47fb-8f4d-dbcaed329efd), and [Use the News web part on a SharePoint page](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165).
-
-[Back to top](#example-enterprise-landing-site)
-
-## Documents and files
-
-Display a file on the page with the [File viewer web part](https://support.microsoft.com/office/use-the-file-viewer-web-part-e53a9602-e7b3-4fff-9126-de2f18d1900c). You can display Word, PowerPoint, Excel, PDF, and 3D model files, and many more types. In the example, two File viewer web parts are shown in two columns. One displays a Word document, and one displays a PowerPoint presentation.
-
-<!-- image 11 & 12-->
 
 [Back to top](#example-enterprise-landing-site)
 
