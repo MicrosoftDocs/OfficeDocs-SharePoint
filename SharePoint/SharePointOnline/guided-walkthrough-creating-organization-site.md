@@ -74,11 +74,11 @@ Web parts may be edited, moved, or deleted within sections. The **Edit web part*
 
 You can quickly and easily customize the organization and navigation of your SharePoint site.
 
-<!--image 4-->
+![Image of a custom navigation bar](media/gw-org/org-4.png)
 
 Select **Edit** on the top menu to add and arrange links.
 
-<!--image 5-->
+![Image of the edit menu for navigation](media/gw-org/org-5.png)
 
 Learn more about [customizing the navigation on your SharePoint site](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca).
 
@@ -88,7 +88,9 @@ Learn more about [customizing the navigation on your SharePoint site](https://su
 
 The Enterprise Landing page uses two different [News web parts](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165). One uses the **Carousel** layout, and the other uses the **Top story** layout. In the example [at the beginning of the article](#example-enterprise-landing-site), these layouts are both in the first column of two-column [sections](https://support.microsoft.com/office/guided-walkthrough-creating-an-organization-site-9c1842c3-543e-4891-85d3-0eaf680e242d?storagetype=live#bkmk_sectionswebparts) on the page. The second column contains an [Events web part](https://support.microsoft.com/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909) that you can use to display upcoming events and activities. The second example photo below includes the [Countdown timer web part](https://support.microsoft.com/office/use-the-countdown-timer-web-part-a13ffef8-0bf1-409e-be23-98af1d1736e7) to generate excitement for things like an upcoming event, activity, or launch.
 
-<!--image 7 and 8-->
+![Image of a News web part using the Carousel layout](media/gw-org/org-10.png)
+
+![Image of the Countdown timer web part](media/gw-org/org-11.png)
 
 [Back to top](#example-enterprise-landing-site)
 
@@ -100,7 +102,7 @@ In the example below, the Quick links web part is in a separate, one-column [sec
 
 In this Enterprise landing site example at the [beginning of the article](#example-enterprise-landing-site), this web part uses the List layout with icons and descriptions added. To get this look, choose **Show descriptions** when you choose the **List** layout for the [Quick Links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82). Then, use the Edit pencil under each individual link where you can add your own description. Then, use the **Edit** pencil icon under each individual link to add your own description.
 
-<!-- image 9-->
+![Image of the Quick links web part](media/gw-org/org-12.png)
 
 [Back to top](#example-enterprise-landing-site)
 
@@ -108,15 +110,17 @@ In this Enterprise landing site example at the [beginning of the article](#examp
 
 Display a file on the page with the [File viewer web part](https://support.microsoft.com/office/use-the-file-viewer-web-part-e53a9602-e7b3-4fff-9126-de2f18d1900c). You can display Word, PowerPoint, Excel, PDF, and 3D model files, and many more types. In the example, two File viewer web parts are shown in two columns. One displays a Word document, and one displays a PowerPoint presentation.
 
-<!-- image 11 & 12-->
+![Image of the File viewer web part displaying a Word document](media/gw-org/org-14.png)
+
+![Image of the File viewer web part displaying a PowerPoint](media/gw-org/org-15.png)
 
 [Back to top](#example-enterprise-landing-site)
 
 ## Personalized web parts
 
-The Sites (left column), Highlighted content (middle column), and News (right column) web parts are in a separate, three-column section. Each have the ability to filter content based on the current viewer of the site. These kinds of web parts used in this way can help draw viewers back to the page to see their latest visited sites, content and news.
+Recent sites (left column), Highlighted content (middle column), and News (right column) web parts are in a separate, three-column section. Each have the ability to filter content based on the current viewer of the site. These kinds of web parts used in this way can help draw viewers back to the page to see their latest visited sites, content and news.
 
-<!-- image 10-->
+![Image of a three-column section showing recent sites, Highlighted Content, and News](media/gw-org/org-13.png)
 
 For more details on using these web parts, see [Use the Sites web part](https://support.microsoft.com/office/use-the-sites-web-part-93cbd17b-0bf8-4355-9f32-cc90e0443e6d), [Use the Highlighted content web part](https://support.microsoft.com/office/use-the-highlighted-content-web-part-e34199b0-ff1a-47fb-8f4d-dbcaed329efd), and [Use the News web part on a SharePoint page](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165).
 
