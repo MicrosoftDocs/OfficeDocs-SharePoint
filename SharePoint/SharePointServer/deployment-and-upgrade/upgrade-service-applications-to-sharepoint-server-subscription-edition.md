@@ -39,9 +39,9 @@ When you upgrade from SharePoint Server 2019 and SharePoint Server 2016 to Share
 Before you upgrade the service applications, review the following information and take any recommended actions.
   
 - Make sure that the account that you use to perform the steps in this article is a member of the Farm administrators group in the Central Administration web site.
-    
+
 - Decide which service application pool to use for the upgraded service applications. The procedures below use the default application pool for service applications which is "SharePoint Web Services Default". You can view a list of available service application pools by using the **Get-SPServiceApplicationPool** cmdlet in PowerShell. Or you can create a service application pool by using the **New-SPServiceApplicationPool** cmdlet. For more information, see [Get-SPServiceApplicationPool](/powershell/module/sharepoint-server/Get-SPServiceApplicationPool?view=sharepoint-ps) and [New-SPServiceApplicationPool](/powershell/module/sharepoint-server/New-SPServiceApplicationPool?view=sharepoint-ps).
-    
+
 > [!TIP]
 > Throughout this article, variables (such as $applicationPool, $sss, $upa, and so on) are used in the PowerShell cmdlets to save time and effort. You do not have to use these variables if you would prefer not to. However, if you do not use these variables, you must use IDs for the service applications and service application proxies when you specify the **Identity** parameters. Each procedure has information about the variables used, or the alternate cmdlets to use to look up any IDs that are required. > Also, many procedures in this article include a step to set the $applicationPool variable. If you are performing all of these procedures in the same session of PowerShell, and you want to use the same application pool for all service applications, you do not have to repeat this step in each procedure. Instead, you can set this variable once at the beginning and use it throughout the procedures in this article. 
   
@@ -55,32 +55,32 @@ To upgrade a service application database, you create a new service application 
 > Word Automation Services and Machine Translation Services can't be upgraded. A new service instance will need to be created. 
   
 > [!IMPORTANT]
-> The following steps only apply to the Custom server role type. For more information on server role types, see [Planning for a MinRole server deployment in SharePoint Server 2016 and SharePoint Server 2019](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server.md) 
-  
+> The following steps only apply to the Custom server role type. For more information on server role types, see [Planning for a MinRole server deployment in SharePoint Server 2016 and SharePoint Server 2019](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server.md)
+
 1. Start the service instances
-    
+  
     The first step is to start service instances for the five service applications that you can upgrade: the Business Data Connectivity service, Managed Metadata Web Service, PerformancePoint Services service, Secure Store service, and Search service. Most of these service instances can be started from Central Administration. However the SharePoint Server Search service instance must be started by using PowerShell.
-    
+
 2. Create the service applications and upgrade the databases
-    
+
     After you have started the service instances, the next step is to create the service applications and upgrade the databases. You must use PowerShell to restore the service application databases.
-    
+
 3. Create proxies for the service applications
-    
+
     After you have upgraded the service application databases, you create the proxies for the service applications and add them to the default proxy group. You must create proxies for the following service applications:
-    
+
   - Managed Metadata service application
-    
+
   - Search service application
-    
+
   - Secure Store service application
-    
+
   - PerformancePoint Services service application
-    
+
     The Business Data Connectivity service application automatically creates a proxy and assigns it to the default proxy group when you create the service application.
-    
+
 4. Verify that the proxies are in the default group
-    
+
 The following sections provide procedures to complete these steps.
   
 ## Start the service instances
@@ -90,18 +90,18 @@ The following procedures start the service instances.
   
  **To start service application instances from Central Administration**
   
-1. Start SharePoint 2019 Central Administration.    
- 
+1. Start SharePoint 2019 Central Administration.
+
 2. In SharePoint 2019 Central Administration, on the **Application Management** page, in the **Service Applications** section, click **Manage Services on Server**.
-    
+
 3. Next to the **Business Data Connectivity service**, click **Start**.
-    
+
 4. Next to the **Managed Metadata Web Service**, click **Start**.
-    
+
 5. Next to the **PerformancePoint Services service**, click **Start**.
-    
+
 6. Next to the **Secure Store Service**, click **Start**.
-    
+
 The Search service instance must be started by using PowerShell because you cannot start it from Central Administration unless a Search Service application already exists.
 
 > [!TIP]
@@ -118,14 +118,14 @@ The Search service instance must be started by using PowerShell because you cann
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server Subscription Edition cmdlets.
-    
+
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
   
 2. Start the SharePoint Subscription Edition Management Shell.
-      
-3. To start the Search service instance, at the Microsoft PowerShell command prompt, type the following commands and press **ENTER** after each one: 
-    
+
+3. To start the Search service instance, at the Microsoft PowerShell command prompt, type the following commands and press **ENTER** after each one:
+
   ```
   $SearchInst = Get-SPEnterpriseSearchServiceInstance
   # Stores the identity for the Search service instance on this server as a variable 
@@ -146,23 +146,22 @@ To upgrade the Secure Store service application, you create the new service appl
  **To upgrade the Secure Store service application by using PowerShell**
   
 1. Verify that you have the following memberships:
-    
-  - **securityadmin** fixed server role on the SQL Server instance. 
-    
-  - **db_owner** fixed database role on all databases that are to be updated. 
-    
+
+  - **securityadmin** fixed server role on the SQL Server instance.
+
+  - **db_owner** fixed database role on all databases that are to be updated.
+
   - Administrators group on the server on which you are running the PowerShell cmdlets.
-    
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
-    
+
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets.
+
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
   
 2. Start the SharePoint Subscription Edition Management Shell.
-     
-     
+
 3. To store the application pool that you want to use as a variable for this service application, at the Microsoft PowerShell command prompt, type the following command:
-    
+
   ```
   $applicationPool = Get-SPServiceApplicationPool -Identity 'SharePoint Web Services default'
   ```
@@ -186,9 +185,9 @@ To upgrade the Secure Store service application, you create the new service appl
   - $applicationpool is the variable that you set earlier to identify the service application pool to use.
     
     > [!TIP]
-    > If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format ' _Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet. 
+    > If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format ' _Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet.
   
-  -  _SecureStore_Upgrade_DB_ is the name of the service application database that you want to upgrade. 
+  -  _SecureStore_Upgrade_DB_ is the name of the service application database that you want to upgrade.
     
    This command sets a variable, $sss, that you use when you create the proxy later.
     
@@ -209,12 +208,12 @@ To upgrade the Secure Store service application, you create the new service appl
     > [!TIP]
     > If you do not use the variable $sss, then you must use an ID to identify the Secure Store service application instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs. 
   
-  -  _DefaultProxyGroup_ adds the Secure Store service application proxy to the default proxy group for the local farm. 
+  -  _DefaultProxyGroup_ adds the Secure Store service application proxy to the default proxy group for the local farm.
     
    This command sets a variable, $sssp, for the service application proxy that you use when you restore the passphrase.
-    
+
    For more information, see [New-SPSecureStoreServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPSecureStoreServiceApplicationProxy?view=sharepoint-ps).
-    
+
    After you create the Secure Store service application and the proxy, you have to refresh the encryption key. For information about how to refresh the encryption key, see [Refresh the Secure Store encryption key](../administration/configure-the-secure-store-service.md#refresh).
     
 6. Type the following command to restore the passphrase for the Secure Store service application:
@@ -233,7 +232,7 @@ To upgrade the Secure Store service application, you create the new service appl
     > If you do not use the variable $sssp, then you must use an ID to identify the Secure Store service application proxy instead of a name. To find the ID, you can run the **Get-SPServiceApplicationProxy** cmdlet to return a list of all service application proxy IDs. 
   
     For more information, see [Update-SPSecureStoreApplicationServerKey](/powershell/module/sharepoint-server/Update-SPSecureStoreApplicationServerKey?view=sharepoint-ps).
-    
+
 ## Upgrade the Business Data Connectivity service application
 <a name="UpgradeBDC"> </a>
 
@@ -249,14 +248,13 @@ To upgrade the Business Data Connectivity service application, you create the ne
     
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets.
-    
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 or SharePoint Server 2016 cmdlets.
+
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
   
-2. Start the SharePoint 2019 Management Shell.
-    
-    
+2. Start the SharePoint Subscription Edition Management Shell.
+
 3. To store the application pool that you want to use as a variable for this service application, at the Microsoft PowerShell command prompt, type the following command:
     
   ```
@@ -277,14 +275,14 @@ To upgrade the Business Data Connectivity service application, you create the ne
 
    Where:
     
-  -  _BDC Service_ is the name that you want to give the new Business Data Connectivity service application. 
+  -  _BDC Service_ is the name that you want to give the new Business Data Connectivity service application.
     
   - $applicationpool is the variable that you set earlier to identify the service application pool to use.
     
     > [!TIP]
-    > If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format ' _Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet. 
+    > If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format ' _Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet.
   
-  -  _BDC_Service_DB_ is name of the service application database that you want to upgrade. 
+  -  _BDC_Service_DB_ is name of the service application database that you want to upgrade.
     
    For more information, see [New-SPBusinessDataCatalogServiceApplication](/powershell/module/sharepoint-server/New-SPBusinessDataCatalogServiceApplication?view=sharepoint-ps).
     
@@ -297,21 +295,21 @@ To upgrade the Managed Metadata service application, you create the new service 
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+  - **securityadmin** fixed server role on the SQL Server instance.
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+  - **db_owner** fixed database role on all databases that are to be updated.
     
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 or SharePoint Server 2016 cmdlets.
     
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
-2. Start the SharePoint 2019 Management Shell.
-    
+2. Start the SharePoint Subscription Edition Management Shell.
+
 3. To store the application pool that you want to use as a variable for this service application, at the PowerShell command prompt, type the following command:
-    
+
   ```
   $applicationPool = Get-SPServiceApplicationPool -Identity 'SharePoint Web Services default'
   ```
@@ -358,10 +356,10 @@ To upgrade the Managed Metadata service application, you create the new service 
     > [!TIP]
     > If you do not use the variable $mms, then you must use an ID to identify the Managed Metadata service application proxy instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs. 
   
-  -  _DefaultProxyGroup_ adds the Managed Metadata service application proxy to the default proxy group for the local farm. 
+  -  _DefaultProxyGroup_ adds the Managed Metadata service application proxy to the default proxy group for the local farm.
     
    For more information, see [New-SPMetadataServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPMetadataServiceApplicationProxy?view=sharepoint-ps).
-    
+
 ## Upgrade the PerformancePoint Services service application
 <a name="UpgradePPS"> </a>
 
@@ -377,14 +375,13 @@ To upgrade the PerformancePoint Services service application, you create the new
     
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
-    
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 or SharePoint Server 2016 cmdlets.
+
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
   
-2. Start the SharePoint 2019 Management Shell.
-    
-    
+2. Start the SharePoint Subscription Edition Management Shell.
+
 3. To store the application pool that you want to use as a variable for this service application, at the Microsoft PowerShell command prompt, type the following command:
     
   ```
@@ -442,36 +439,36 @@ To upgrade the PerformancePoint Services service application, you create the new
 
 Upgrade the Managed Metadata service application before you upgrade the User Profile service application.
   
-To upgrade the User Profile service application, you copy the Profile and Social databases in your SharePoint Server 2019 farm to your SharePoint Server Subscription Edition farm and create a new User Profile service application from your SharePoint Server 2019 farm in your SharePoint Server Subscription Edition farm. The restore triggers SharePoint Server Subscription Edition to create a new User Profile service application in the SharePoint Server Subscription Edition farm and point it to the copied User Profile databases. To complete the upgrade of the User Profile service application, you create a proxy and add it to the default proxy group.
+To upgrade the User Profile service application, you copy the Profile and Social databases in your SharePoint Server 2019 or SharePoint Server 2016 farm to your SharePoint Server Subscription Edition farm and create a new User Profile service application from your SharePoint Server 2019 or SharePoint Server 2016 farm in your SharePoint Server Subscription Edition farm. The restore triggers SharePoint Server Subscription Edition to create a new User Profile service application in the SharePoint Server Subscription Edition farm and point it to the copied User Profile databases. To complete the upgrade of the User Profile service application, you create a proxy and add it to the default proxy group.
 
  **To upgrade the User Profile service application by using PowerShell**
   
-1. Copy the Profile and Social databases in the SharePoint Server 2019 farm to the SharePoint Server Subscription Edition farm by following these steps:
- 
+1. Copy the Profile and Social databases in the SharePoint Server 2019 or SharePoint Server 2016 farm to the SharePoint Server Subscription Edition farm by following these steps:
+
     > [!IMPORTANT]
-    > Perform these steps in the SharePoint Server 2019 environment.
+    > Perform these steps in the SharePoint Server 2019 and SharePoint Server 2016 environment.
     
       - Verify that you have the following memberships:
         
-      - **securityadmin** fixed server role on the SQL Server instance. 
+      - **securityadmin** fixed server role on the SQL Server instance.
         
-      - **db_owner** fixed database role on all databases that are to be updated. 
+      - **db_owner** fixed database role on all databases that are to be updated.
         
       - Administrators group on the server on which you are running the PowerShell cmdlets.
         
-        An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 cmdlets. 
+        An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 or SharePoint Server 2016 cmdlets.
         
         > [!NOTE]
         > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
   
     - Start the SharePoint Management Shell.
         
-    - Set the User Profile databases to read-only. In the second phase of the process to upgrade SharePoint Server 2019 data and sites to SharePoint Server Subscription Edition, you set all the other databases to read-only.   
+    - Set the User Profile databases to read-only. In the second phase of the process to upgrade SharePoint Server 2019 or SharePoint Server 2016 data and sites to SharePoint Server Subscription Edition, you set all the other databases to read-only.
     
-    - Copy the Profile and Social databases in the SharePoint Server 2019 farm to the SharePoint Server Subscription Edition farm, follow the procedures in [Copy databases to the new farm for upgrade to SharePoint Server 2019](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md).
+    - Copy the Profile and Social databases in the SharePoint Server 2019 or SharePoint Server 2016 farm to the SharePoint Server Subscription Edition farm, follow the procedures in [Copy databases to the new farm for upgrade to SharePoint Server Subscription Edition](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-subscription-edition.md).
         
         > [!IMPORTANT]
-        > Perform the next steps in the SharePoint Server Subscription Edition environment. 
+        > Perform the next steps in the SharePoint Server Subscription Edition environment.
   
 2. Verify that you have the following memberships:
     
@@ -481,12 +478,12 @@ To upgrade the User Profile service application, you copy the Profile and Social
         
       - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 cmdlets. 
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 or SharePoint Server 2016 cmdlets.
     
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
   
-3. Start the SharePoint 2019 Management Shell.
+3. Start the SharePoint Subscription Edition Management Shell.
 
 4. To store the application pool that you want to use as a variable for this service application, at the Microsoft PowerShell command prompt, type the following command:
     
@@ -575,25 +572,25 @@ To upgrade the User Profile service application, you copy the Profile and Social
 
 Upgrade the User Profile service application and the Managed Metadata service application before you upgrade the Search service application.
   
-To upgrade the Search service application, you copy the search administration database in your SharePoint Server 2019 farm to your SharePoint Server Subscription Edition farm and restore the Search service application from your SharePoint Server 2019 farm in your SharePoint Server Subscription Edition farm. The restore triggers SharePoint Server Subscription Edition to create a new Search service application in the SharePoint Server Subscription Edition farm and point it to the copied search administration database. To complete the upgrade of the Search service application you create a proxy and add it to the default proxy group and you ensure that the new Links Database and the new search topology is configured the same way as in the SharePoint Server 2019 farm.
+To upgrade the Search service application, you copy the search administration database in your SharePoint Server 2019 or SharePoint Server 2016 farm to your SharePoint Server Subscription Edition farm and restore the Search service application from your SharePoint Server 2019 or SharePoint Server 2016 farm in your SharePoint Server Subscription Edition farm. The restore triggers SharePoint Server Subscription Edition to create a new Search service application in the SharePoint Server Subscription Edition farm and point it to the copied search administration database. To complete the upgrade of the Search service application you create a proxy and add it to the default proxy group and you ensure that the new Links Database and the new search topology is configured the same way as in the SharePoint Server 2019 or SharePoint Server 2016 farm.
   
-SharePoint Server Subscription Edition normally creates a new search topology with all the search components and databases when it creates a new Search service application. During a **restore** of a Search service application, SharePoint Server Subscription Edition creates a new search topology, but upgrades the restored Search Administration database instead of creating a new Search Administration database. The upgraded Search Administration database retains any additions or modifications made to the search schema, result sources and query rules from the SharePoint Server 2019 farm.
+SharePoint Server Subscription Edition normally creates a new search topology with all the search components and databases when it creates a new Search service application. During a **restore** of a Search service application, SharePoint Server Subscription Edition creates a new search topology, but upgrades the restored Search Administration database instead of creating a new Search Administration database. The upgraded Search Administration database retains any additions or modifications made to the search schema, result sources and query rules from the SharePoint Server 2019 or SharePoint Server 2016 farm.
   
 > [!NOTE]
-> During this upgrade, search doesn't crawl content in your SharePoint Server 2019. If freshness of search results is important, save time by familiarizing yourself with these steps before starting the upgrade. 
+> During this upgrade, search doesn't crawl content in your SharePoint Server 2019 or SharePoint Server 2016. If freshness of search results is important, save time by familiarizing yourself with these steps before starting the upgrade. 
   
 > [!IMPORTANT]
-> Because the search topology in the SharePoint Server 2019 farm is new, the index is empty. You have to perform a full crawl of the entire indexed corpus after you have [upgraded all content sources](upgrade-content-databases-2019.md) (the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019). 
+> As the search topology in the SharePoint Server Subscription Edition farm is new, the index is empty. You have to perform a full crawl of the entire indexed corpus after you have [upgraded all content sources](upgrade-content-databases-subscription-edition.md) (the fourth phase in the process to upgrade SharePoint Server 2019 and SharePoint Server 2016 data and sites to SharePoint Server Subscription Edition).
   
  **To upgrade the Search service application by using PowerShell**
   
-1. Copy the search administration database in the SharePoint Server 2016 farm to the SharePoint Server 2019 farm, follow these steps:
-    
+1. Copy the search administration database in the SharePoint Server 2019 or SharePoint Server 2016 farm to the SharePoint Server Subscription Edition farm and follow these steps:
+
     > [!NOTE]
-    > You copied all other content and service databases in your SharePoint Server 2016 environment in an earlier step of the process for upgrading to SharePoint Server 2019. We recommend copying the Search Administration database at this later stage because you have to pause the Search service application in your SharePoint Server 2016 environment while copying the Search Administration database. 
+    > You copied all other content and service databases in your SharePoint Server 2019 or SharePoint Server 2016 environment in an earlier step of the process for upgrading to SharePoint Server Subscription Edition. We recommend copying the Search Administration database at this later stage because you have to pause the Search service application in your SharePoint Server 2019 or SharePoint Server 2016 environment while copying the Search Administration database.
   
     > [!IMPORTANT]
-    > Perform these steps in the SharePoint Server 2016 environment. 
+    > Perform these steps in the SharePoint Server 2019 or SharePoint Server 2016 environment.
   
     - Verify that you have the following memberships:
     
@@ -603,12 +600,12 @@ SharePoint Server Subscription Edition normally creates a new search topology wi
         
       - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-        An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 cmdlets. 
+        An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server Subscription Edition cmdlets.
         
         > [!NOTE]
-        > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+        > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
   
-    - Start the SharePoint 2016 Management Shell.    
+    - Start the SharePoint 2019 or SharePoint 2016 Management Shell.
     
     - Pause the Search service application. At the PowerShell command prompt, type the following command:
     
@@ -622,17 +619,17 @@ SharePoint Server Subscription Edition normally creates a new search topology wi
          _SearchServiceApplicationName_ is the name of the Search service application you want to pause. 
     
         > [!NOTE]
-        > While the Search service application is paused, the index in the SharePoint Server 2016 environment isn't updated. This means that during the upgrade to SharePoint Server 2019, search results might be less fresh. 
+        > While the Search service application is paused, the index in the SharePoint Server 2019 or SharePoint Server 2016 environment isn't updated. This means that during the upgrade to SharePoint Server Subscription Edition, search results might be less fresh.
         
   
-    - Set the Search Administration database to read-only. In the second phase of the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019, you set all the other databases to read-only. Follow [the same instructions](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md) now for the Search Administration database.
+    - Set the Search Administration database to read-only. In the second phase of the process to upgrade SharePoint Server 2019 or SharePoint Server 2016 data and sites to SharePoint Server Subscription Edition, you set all the other databases to read-only. Follow [the same instructions](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-subscription-edition.md) now for the Search Administration database.
     
 
   
-    - Copy the search administration database in the SharePoint Server 2016 farm to the SharePoint Server 2019 farm, follow the procedures in [Copy databases to the new farm for upgrade to SharePoint Server 2019](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md) for the search administration database only. 
+    - Copy the search administration database in the SharePoint Server 2019 or SharePoint Server 2016 farm to the SharePoint Server Subscription Edition farm, follow the procedures in [Copy databases to the new farm for upgrade to SharePoint Server Subscription Edition](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-subscription-edition.md) for the search administration database only.
     
         > [!IMPORTANT]
-        > Perform the next steps in the SharePoint Server 2019 environment. 
+        > Perform the next steps in the SharePoint Server Subscription Edition environment.
   
 2. Verify that you have the following memberships:
     
@@ -642,12 +639,12 @@ SharePoint Server Subscription Edition normally creates a new search topology wi
         
       - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 cmdlets. 
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server Subscription Edition cmdlets.
     
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
-3. Start the SharePoint 2019 Management Shell.
+3. Start the SharePoint Subscription Edition Management Shell.
        
 4. To store the application pool that you want to use as a variable for this service application, at the PowerShell command prompt, type the following command:
     
@@ -686,8 +683,8 @@ SharePoint Server Subscription Edition normally creates a new search topology wi
     - Delete the Search Administration database that you were trying to upgrade.
 
     - Using the backup copy that you made of the Search Administration database, repeat the following procedures in this article for the Search service application only:
-        - [Restore a backup copy of the database](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md#restore)
-        - [Set the databases to read-write](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md#ReadWrite)
+        - [Restore a backup copy of the database](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-subscription-edition.md#restore)
+        - [Set the databases to read-write](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-subscription-edition.md#ReadWrite)
     - Type the command to upgrade the Search service application again at the PowerShell command prompt.
     
      For more information, see [Restore-SPEnterpriseSearchServiceApplication](/powershell/module/sharepoint-server/Restore-SPEnterpriseSearchServiceApplication?view=sharepoint-ps).
@@ -742,19 +739,19 @@ SharePoint Server Subscription Edition normally creates a new search topology wi
     
         For more information, see [Add-SPServiceApplicationProxyGroupMember](/powershell/module/sharepoint-server/Add-SPServiceApplicationProxyGroupMember?view=sharepoint-ps).
     
-10. If the SharePoint Server 2016 farm uses a Links Database that is partitioned, partition the Links Database in the SharePoint Server 2019 farm the same way. Learn how in [Move-SPEnterpriseSearchLinksDatabases](/powershell/module/sharepoint-server/Move-SPEnterpriseSearchLinksDatabases?view=sharepoint-ps).
+7. If the SharePoint Server 2019 or SharePoint Server 2016 farm uses a Links Database that is partitioned, partition the Links Database in the SharePoint Server Subscription Edition farm the same way. Learn how in [Move-SPEnterpriseSearchLinksDatabases](/powershell/module/sharepoint-server/Move-SPEnterpriseSearchLinksDatabases?view=sharepoint-ps).
     
-11. (Optional) Preserve search relevance settings from the SharePoint Server 2016 farm. Because the upgraded Search service application has a new, empty index, search analytics data from the SharePoint Server 2016 farm cannot be fully retained. Copy the Analytics Reporting database from the SharePoint Server 2016 farm and attach it to the new Search service application in the SharePoint Server 2019 farm:
+8. (Optional) Preserve search relevance settings from the SharePoint Server 2019 or SharePoint Server 2016 farm. As the upgraded Search service application has a new, empty index, search analytics data from the SharePoint Server 2019 or SharePoint Server 2016 farm cannot be fully retained. Copy the Analytics Reporting database from the SharePoint Server 2019 or SharePoint Server 2016 farm and attach it to the new Search service application in the SharePoint Server Subscription Edition farm:
     
-      - In the SharePoint Server 2016 farm, [backup](../administration/move-or-rename-service-application-databases.md#Backup) the Analytics Reporting database. 
+      - In the SharePoint Server 2019 or SharePoint Server 2016 farm, [backup](../administration/move-or-rename-service-application-databases.md#Backup) the Analytics Reporting database.
         
-      - In the SharePoint Server 2019 farm, [restore the backed up database](../administration/move-or-rename-service-application-databases.md#Restore) to the new database server. 
+      - In the SharePoint Server Subscription Edition farm, [restore the backed up database](../administration/move-or-rename-service-application-databases.md#Restore) to the new database server.
         
-      - In the SharePoint Server 2019 farm, [attach the restored database](../administration/move-or-rename-service-application-databases.md#PS) to the new Search service application. 
+      - In the SharePoint Server Subscription Edition farm, [attach the restored database](../administration/move-or-rename-service-application-databases.md#PS) to the new Search service application.
     
-12. Verify that the search topology on the new SharePoint Server 2019 farm is alike that of the SharePoint Server 2016 farm. If your requirements for search have changed, now is a good time to scale out the search topology of the new SharePoint Server 2019 farm.
+9. Verify that the search topology on the new SharePoint Server Subscription Edition farm is alike that of the SharePoint Server 2019 or SharePoint Server 2016 farm. If your requirements for search have changed, now is a good time to scale out the search topology of the new SharePoint Server Subscription Edition farm.
     
-13. Resume the Search service application in the SharePoint Server environment.
+10. Resume the Search service application in the SharePoint Server environment.
     
     At the PowerShell command prompt, type the following command:
     
@@ -765,8 +762,8 @@ SharePoint Server Subscription Edition normally creates a new search topology wi
 
     Where:
     
-      -  _SearchServiceApplicationName_ is the name of the Search service application you want to resume. 
-    
+      -  _SearchServiceApplicationName_ is the name of the Search service application you want to resume.
+
 ## Verify that all of the new proxies are in the default proxy group
 <a name="VerifyProxies"> </a>
 
@@ -782,11 +779,11 @@ Use the following procedure to verify that the steps to create the proxies and a
         
       - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 or SharePoint Server 2016 cmdlets.
     
     **Note**: If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
-2. Start the SharePoint 2019 Management Shell.
+2. Start the SharePoint Subscription Edition Management Shell.
     
 3. At the PowerShell command prompt, type the following commands:
     
@@ -812,19 +809,19 @@ Now that the service applications are upgraded, you can start the process to upg
 
 |||
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the third phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019.  <br/> For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process-2019.md).  <br/> |
-   
-Next phase: [Upgrade content databases to SharePoint Server 2019](upgrade-content-databases-2019.md)
-  
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the third phase in the process to upgrade SharePoint Server 2019 and SharePoint Server 2016 data and sites to SharePoint Server Subscription Edition.  <br/> For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server Subscription Edition](overview-of-the-upgrade-process-subscription-edition.md).  <br/> |
+
+Next phase: [Upgrade content databases to SharePoint Server Subscription Edition](upgrade-content-databases-subscription-edition.md)
+
 ## See also
 <a name="VerifyProxies"> </a>
 
 #### Concepts
 
-[Create the SharePoint Server 2019 farm for a database attach upgrade](create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade.md)
+[Create the SharePoint Server Subscription Edition farm for a database attach upgrade](create-the-sharepoint-server-subscription-edition-farm-for-a-database-attach-upgrade.md)
   
-[Copy databases to the new farm for upgrade to SharePoint Server 2019](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md)
+[Copy databases to the new farm for upgrade to SharePoint Server Subscription Edition](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-subscription-edition.md)
   
-[Upgrade content databases to SharePoint Server 2019](upgrade-content-databases-2019.md)
+[Upgrade content databases to SharePoint Server Subscription Edition](upgrade-content-databases-subscription-edition.md)
   
-[Services upgrade overview for SharePoint Server 2019](overview-of-the-services-upgrade-process-2019.md)
+[Services upgrade overview for SharePoint Server Subscription Edition](overview-of-the-services-upgrade-process-subscription-edition.md)
