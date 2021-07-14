@@ -177,7 +177,7 @@ For more details on using the Events web part, see [Use the Events web part](htt
 
 [Back to top](#example-hub-site)
 
-## Feature poeple with the People web part
+## Feature people with the People web part
 When visitors need to find stakeholders or expertise, make it easy by featuring them on the site. People tiles can be simple or provide extra detail, and one click brings up key details from their profile.
 <br>
 <br>
