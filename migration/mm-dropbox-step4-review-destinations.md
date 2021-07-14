@@ -19,12 +19,7 @@ ms.collection:
 search.appverid: MET150
 description: Review your destination paths for your Dropbox migration while using Migration Manager.
 ---
-# Step 4: Review destination paths in Migration Manager Dropbox (preview)
-
->[!Note]
-> Features described in this topic are in a preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
-
-
+# Step 4: Review destination paths in Migration Manager Dropbox
 
 In this step, review the destination paths of the accounts you have moved to the migrations list, making sure they are correct. An account cannot be migrated without a destination indicated. Once you start migrating content to a destination, it cannot be modified.
 
@@ -95,6 +90,6 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
 
 
 >[!NOTE]
->Migration Manager Dropbox preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Dropbox isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

@@ -30,7 +30,7 @@ description: "See how to show or hide links to Sites or OneDrive."
 
 # Hide the OneDrive and SharePoint app tiles
 
-By default, the OneDrive and SharePoint app tiles appear in the app launcher and on the Microsoft 365 admin center​. If your subscription doesn't include one of these services, or if you don't want users using one of them, you can hide the app tile for it.
+By default, the OneDrive and SharePoint app tiles appear in the app launcher and on the Microsoft 365 admin center. If your subscription doesn't include one of these services, or if you don't want users using one of them, you can hide the app tile for it.
 
   
 ![Microsoft 365 start page with SharePoint selected](media/4ff2c093-2b26-4d28-a65b-4d02e66818df.png)
@@ -43,13 +43,13 @@ By default, the OneDrive and SharePoint app tiles appear in the app launcher and
 
 1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
+   > [!NOTE]
+   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
 
 2. At the bottom of the page, select **classic settings page**.
-    
+
 3. In **Show or Hide App Tiles**, select the tile you want to hide.
-    
+
     ![Show or Hide App Tiles settings](media/516f0f56-c44e-465e-8ec5-ba56fbbe2b3b.png)
   
     > [!NOTE]
