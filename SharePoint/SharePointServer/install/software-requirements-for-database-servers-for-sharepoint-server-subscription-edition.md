@@ -1,5 +1,5 @@
 ---
-title: "Software Requirements for Database Servers for SharePoint Server Subscription Edition"
+title: "Software requirements for Database Servers for SharePoint Server Subscription Edition"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
@@ -18,7 +18,7 @@ ms.assetid:
 description: "Introduces articles that describe software and other requirements for SharePoint Server Subscription Edition."
 ---
 
-# Software Requirements for Database Servers for SharePoint Server Subscription Edition
+# Software requirements for Database Servers for SharePoint Server Subscription Edition
 
 [!INCLUDE [appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)] 
   
