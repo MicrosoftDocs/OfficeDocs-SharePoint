@@ -18,13 +18,15 @@ ms.collection:
 - SP2019
 ms.custom: 
 ms.assetid:
-description: "Learn how to install SharePoint Server Subscription Edition on windows server core."
+description: "Learn how to install SharePoint Server Subscription Edition on Windows Server Core."
 ---
     
 # Installing SharePoint Server Subscription Edition on Windows Server Core
 <a name="section1"> </a>
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
+
+Perform the following steps to install SharePoint Server Subscription Edition on Windows Server Core:
 
 1. Mount the ISO file to your server by using the `Mount-DiskImage` cmdlet, or by specifying it as a virtual drive in your virtual machine manager.
     ```
@@ -70,4 +72,4 @@ description: "Learn how to install SharePoint Server Subscription Edition on win
 12. Configure the service applications and web applications in your farm through the **Farm Configuration Wizard**.
 
     > [!Note]
-    > You must use a web browser from another computer to access the Central Administration web site. Windows Server Core does not include a web browser.
+    > You must use a web browser from another computer to access the Central Administration website. Windows Server Core does not include a web browser.
