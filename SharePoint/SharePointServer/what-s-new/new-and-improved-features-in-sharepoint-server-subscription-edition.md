@@ -44,24 +44,28 @@ This section provides detailed descriptions of the new and updated features in S
 
 ## Authentication and Identity Management
 
-### OpenID Connect (OIDC) 1.0 authentication
 <a name="OIDCa"> </a>
+### OpenID Connect (OIDC) 1.0 authentication
 
 SharePoint Server Subscription Edition adds support for the OpenID Connect (OIDC) 1.0 authentication protocol. OIDC is a modern authentication protocol that makes it easy to integrate applications and devices with your organization's identity and authentication management solutions to better meet your evolving security and compliance needs. For example, customers can enforce authentication policies such as multifactor authentication (MFA), conditional access policies based on device compliance, and more.
 
 SharePoint Server Subscription Edition supports OIDC authentication with identity providers such as Azure Active Directory (AAD), Active Directory Federation Services (AD FS) 2016 or higher, and third-party identity providers that implement the OIDC 1.0 protocol.
 
-### People Picker improvement for trusted authentication methods
+To setup OIDC authentication in SharePoint Server, see [OpenID Connect 1.0 authentication](../authentication-and-identity-management/oidc-1.0-authentication.md).
+
 <a name="people"> </a>
+### People Picker improvement for trusted authentication methods
 
 In previous versions of SharePoint Server, if a web application was configured to use a trusted identity provider with the built-in claims provider, then the People Picker would resolve all input as a valid user or group even if it wasn't. Customers had to implement a custom claims provider to ensure the People Picker would only resolve valid users and groups.
 
 In SharePoint Server Subscription Edition, the People Picker has been enhanced to allow resolving users and groups based on their profiles in the User Profile Application (UPA). UPA must be configured to synchronize users and groups from the trusted identity provider membership store. This allows the People Picker to only resolve valid users and groups without requiring a custom claims provider.
 
+To configure People Picker, see [Enhanced People Picker for trusted authentication method](../authentication-and-identity-management/enhanced-people-picker-for-trusted-authentication-method.md).
+
 ## Deployment and Upgrade
 
-### Windows Server 2022
 <a name="server"> </a>
+### Windows Server 2022
 
 Windows Server 2022 includes various new features and improvements in virtualization, networking, security, and more, such as:
 
@@ -78,15 +82,15 @@ SharePoint Server Subscription Edition supports additional security features whe
 > [!NOTE]
 > These security features are not available when SharePoint Server Subscription Edition is deployed with earlier versions of Windows Server. Microsoft recommends deploying SharePoint Server Subscription Edition with Windows Server 2022 or higher.
 
-### Windows Server Core
 <a name="core"> </a>
+### Windows Server Core
 
 Windows Server Core is a leaner Windows Server deployment type compared to the classic Windows Server with Desktop Experience. Server Core minimizes the number of OS features and services that are installed and running to only those that are truly needed for a server. This reduces the demand on system resources (CPU, RAM, and disk space) and the potential attack surface for security vulnerabilities.
 
 SharePoint Server Subscription Edition adds support for the Windows Server Core deployment type with both Windows Server 2019 and Windows Server 2022. The Windows Server Desktop Experience deployment type remains supported with both Windows Server 2019 and Windows Server 2022.
 
-### Upgrading directly from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)
 <a name="upgrade"> </a>
+### Upgrading directly from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)
 
 SharePoint Server Subscription Edition supports both **N - 1** and **N - 2** version-to-version upgrade. You can upgrade directly from the following SharePoint products using the standard database attach upgrade procedure:
 
@@ -97,10 +101,16 @@ SharePoint Server Subscription Edition supports both **N - 1** and **N - 2** ver
 > [!NOTE]
 > Directly upgrading from versions of SharePoint earlier than SharePoint Server 2016 via database attach is not supported. SharePoint 2013, SharePoint 2010, and so on must first be upgraded to either SharePoint Server 2016 or SharePoint Server 2019 via database attach before upgrading to SharePoint Server Subscription Edition.
 
+For more information:
+
+ - To install SharePoint Server Subscription Edition on Windows Server Core, see [Installing SharePoint Server Subscription Edition on Windows Server Core](SharePoint/SharePointServer/install/installing-sharepoint-server-subscription-edition-on-windows-server-core.md).
+ 
+ - To 
+ 
 ## Farm Administration
   
+<a name="fedral"> </a>  
 ### Federated service applications support "N - 2" content farms (SharePoint 2016, 2019, and Subscription Edition)
-<a name="fedral"> </a>
   
 In SharePoint Server, some service applications can be shared across server farms. Microsoft supports service applications published by a SharePoint Server Subscription Edition farm being consumed by the following versions of SharePoint Server:
 
@@ -114,8 +124,8 @@ For more information, see [Share service applications across farms in SharePoint
 
 ## PowerShell
 
-### SharePoint PowerShell cmdlets converted from snap-in to module
 <a name="snap"> </a>
+### SharePoint PowerShell cmdlets converted from snap-in to module
 
 SharePoint Server PowerShell cmdlets are now installed via a PowerShell module instead of a PowerShell snap-in. This follows the recommended packaging approach from PowerShell and allows us to better support the PowerShell experience.  
   
@@ -129,16 +139,16 @@ It includes the following benefits:
 > The SharePoint Management Shell will continue to be included in the product to provide a familiar PowerShell UI for managing SharePoint Server. The SharePoint Server PowerShell cmdlets will continue to require Windows PowerShell. These cmdlets will not be compatible with PowerShell Core 6.x or PowerShell 7.x.
 
 ## Search
-  
-### Support for returning list content in modern results page
+
 <a name="listmrp"> </a>
+### Support for returning list content in modern results page
   
 Lists and list items are now searchable in the modern UX. List item results will be included in the **All** category of the modern search result page.
 
 ## Security
-  
-### TLS 1.3 
+
 <a name="tlss"> </a>
+### TLS 1.3 
 
 Transport Layer Security (TLS) is a cryptographic protocol that encrypts communication between two endpoints, such as between a web browser and an HTTPS web site. TLS 1.3 is the latest and most secure version of the TLS protocol.
 
@@ -149,9 +159,11 @@ SharePoint Server Subscription Edition supports TLS 1.3 by default when deployed
   
 > [!NOTE]
 > Not all applications in your software ecosystem may support TLS 1.3. Check with your software vendors to determine if your other applications support TLS 1.3. SharePoint Server Subscription Edition can fall back to earlier TLS protocol versions when connecting with systems that don't support TLS 1.3 unless the customer has disabled earlier TLS protocol versions.
-  
+
+For more information, see [TLS 1.3 Support](../security-for-sharepoint-server/tls-support-1.3.md).
+ 
+<a name="tlsed"> </a> 
 ### Strong TLS encryption by default
-<a name="tlsed"> </a>
 
 SharePoint Server Subscription Edition will use the advanced security capabilities of Windows Server 2022 to ensure that TLS connections made to SharePoint sites only use the strongest encryption by default. SharePoint Server will configure itself to enforce the minimum TLS version and cipher suite requirements of HTTP/2 on its SSL bindings regardless of whether the connection uses HTTP/2. 
 
@@ -166,15 +178,25 @@ Customers can allow legacy encryption to be used if needed for backward compatib
 > [!NOTE]
 > Strong TLS encryption by default is not available when SharePoint Server Subscription Edition is deployed with earlier versions of Windows Server. Microsoft recommends deploying SharePoint Server Subscription Edition with Windows Server 2022 or higher.
 
+For more information, see [Strong TLS Encryption](../security-for-sharepoint-server/strong-tls-encryption.md).
+
 ## Sites, Lists, and Libraries
 
-### Accessibility improvements across modern UX
 <a name="aiamu"> </a>
+### Accessibility improvements across modern UX
   
 SharePoint Server Subscription Edition includes numerous accessibility improvements across the modern UX to ensure that all users can be productive with SharePoint.
-  
-### Image and document thumbnails in document libraries and picture libraries
+
 <a name="idt"> </a>
+### Image and document thumbnails in document libraries and picture libraries
 
 SharePoint Server Subscription Edition can render thumbnails of files in the Tiles view of document libraries and picture libraries. SharePoint will render thumbnails of popular image file formats such as PNG, JPEG, GIF, and more. And if you've linked your SharePoint Server farm to an Office Online Server farm, SharePoint will also be able to render thumbnails of popular document formats such as PDFs, Word documents, PowerPoint documents, and Rich Text Files.
+
+## Related articles
+
+[Installation overview for SharePoint Server Subscription Edition](../install/install-overview-spserver-se.md)
+
+[System requirements for SharePoint Server Subscription Edition](../install/system-requirements-for-sharepoint-subscription-edition.md)
+
+
 

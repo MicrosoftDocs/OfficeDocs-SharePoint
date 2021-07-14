@@ -35,17 +35,13 @@ description: "Learn how to install SharePoint Server Subscription Edition on one
 ## Overview
 <a name="section1"> </a>
 
-After you have completed setup and the SharePoint Products Configuration Wizard, you will have installed binaries, configured security permissions, configured registry settings, configured the configuration database, configured the content database, and installed the SharePoint Central Administration web site. Next, you can choose to run the Farm Configuration Wizard to configure the farm, select the services that you want to use in the farm, and create the first site collection, or you can manually perform the farm configuration at your own pace.
+After you have completed setup and the SharePoint Products Configuration Wizard, you will have installed binaries, configured security permissions, configured registry settings, configured the configuration database, configured the content database, and installed the SharePoint Central Administration website. Next, you can choose to run the Farm Configuration Wizard to configure the farm, select the services that you want to use in the farm, and create the first site collection, or you can manually perform the farm configuration at your own pace.
   
 ## Before you install SharePoint Server Subscription Edition on a single server
 <a name="section2"> </a>
 
 Before you begin to install and configure SharePoint Server Subscription Edition, do the following:
   
-- For SharePoint Server 2016, ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2012 R2. To host SharePoint databases, you must also have a 64-bit version of SQL Server 2014 SP1. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md).
-
-- For SharePoint Server 2019, ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2016. To host SharePoint databases, you must also have a 64-bit version of SQL Server 2016 or 2017. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2019](hardware-and-software-requirements-2019.md).
-    
 - Ensure that you perform a clean installation of SharePoint Server Subscription Edition.
     
 - Ensure that you are prepared to set up the required accounts by using appropriate permissions. For detailed information, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
@@ -66,7 +62,7 @@ To install and configure SharePoint Server Subscription Edition on a single serv
     
 2. Run Setup, which installs binaries, configures security permissions, and edits registry settings for SharePoint Server Subscription Edition.
     
-3. Run SharePoint Products Configuration Wizard, which installs and configures the configuration database, installs and configures the content database, and installs the SharePoint Central Administration web site.
+3. Run SharePoint Products Configuration Wizard, which installs and configures the configuration database, installs and configures the content database, and installs the SharePoint Central Administration website.
     
 4. Configure browser settings.
     
