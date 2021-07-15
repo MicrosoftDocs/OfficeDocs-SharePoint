@@ -28,6 +28,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## Coming soon
 - **Task scheduling**.  Schedule your migration tasks in advance to run at the optimum time your organization.
+- **Egnyte migrations**.  Migrate your Egnyte content to Microsoft 365.
 
 ## July 2021
 - **Box migrations (GA).**  You can now migrate Box content to Microsoft 365 using Migration Manager.
