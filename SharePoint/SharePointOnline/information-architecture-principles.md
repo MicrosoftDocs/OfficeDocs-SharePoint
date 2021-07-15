@@ -32,7 +32,7 @@ Even when search is available, most viewers start their web experiences by brows
 
 **In this article:**
 
-- [Understand basic information architecture principals](#get-organized)
+- [Understand basic information architecture principles](#get-organized)
 - [Learn more about how to write effective labels and links](#write-clear-and-intuitive-labels)
 - [See how to ensure frequently used tools and content are findable](#test-usability-and-findability-with-real-users)
 
