@@ -23,7 +23,7 @@ description: "Upgrade service applications (Business Connectivity Services, Mana
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
   
-When you upgrade from SharePoint Server 2019 and SharePoint Server 2016 to SharePoint Server Subscription Edition, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint Server Subscription Edition environment, and copied the content and service application databases, you can upgrade the service applications to SharePoint Server Subscription Edition. This article contains the steps that you take to upgrade the service applications.
+When you upgrade from SharePoint Server 2019 or SharePoint Server 2016 to SharePoint Server Subscription Edition, you must use a database-attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint Server Subscription Edition environment, and copied the content and service application databases, you can upgrade the service applications to SharePoint Server Subscription Edition. This article contains the steps that you take to upgrade the service applications.
   
 **Phase 3 of the upgrade process: Upgrade service applications**
 
@@ -38,7 +38,7 @@ When you upgrade from SharePoint Server 2019 and SharePoint Server 2016 to Share
 
 Before you upgrade the service applications, review the following information and take any recommended actions.
   
-- Make sure that the account that you use to perform the steps in this article is a member of the Farm administrators group in the Central Administration web site.
+- Ensure that the account that you use to perform the steps in this article is a member of the Farm administrators group in the Central Administration website.
 
 - Decide which service application pool to use for the upgraded service applications. The procedures below use the default application pool for service applications which is "SharePoint Web Services Default". You can view a list of available service application pools by using the **Get-SPServiceApplicationPool** cmdlet in PowerShell. Or you can create a service application pool by using the **New-SPServiceApplicationPool** cmdlet. For more information, see [Get-SPServiceApplicationPool](/powershell/module/sharepoint-server/Get-SPServiceApplicationPool?view=sharepoint-ps) and [New-SPServiceApplicationPool](/powershell/module/sharepoint-server/New-SPServiceApplicationPool?view=sharepoint-ps).
 
@@ -57,15 +57,15 @@ To upgrade a service application database, you create a new service application 
 > [!IMPORTANT]
 > The following steps only apply to the Custom server role type. For more information on server role types, see [Planning for a MinRole server deployment in SharePoint Server 2016 and SharePoint Server 2019](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server.md)
 
-1. Start the service instances
+1. Start the service instances.
   
     The first step is to start service instances for the five service applications that you can upgrade: the Business Data Connectivity service, Managed Metadata Web Service, PerformancePoint Services service, Secure Store service, and Search service. Most of these service instances can be started from Central Administration. However the SharePoint Server Search service instance must be started by using PowerShell.
 
-2. Create the service applications and upgrade the databases
+2. Create the service applications and upgrade the databases.
 
     After you have started the service instances, the next step is to create the service applications and upgrade the databases. You must use PowerShell to restore the service application databases.
 
-3. Create proxies for the service applications
+3. Create proxies for the service applications.
 
     After you have upgraded the service application databases, you create the proxies for the service applications and add them to the default proxy group. You must create proxies for the following service applications:
 
