@@ -51,7 +51,7 @@ SharePoint Server Subscription Edition adds support for the OpenID Connect (OIDC
 
 SharePoint Server Subscription Edition supports OIDC authentication with identity providers such as Azure Active Directory (AAD), Active Directory Federation Services (AD FS) 2016 or higher, and third-party identity providers that implement the OIDC 1.0 protocol.
 
-To setup OIDC authentication in SharePoint Server, see [OpenID Connect 1.0 authentication](../authentication-and-identity-management/oidc-1.0-authentication.md).
+To set up OIDC authentication in SharePoint Server, see [OpenID Connect 1.0 authentication](../authentication-and-identity-management/oidc-1.0-authentication.md).
 
 <a name="people"> </a>
 ### People Picker improvement for trusted authentication methods
