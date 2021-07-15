@@ -24,7 +24,7 @@ description: "How to copy SharePoint Server 2019 and SharePoint Server 2016 cont
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-When you upgrade from SharePoint Server 2019 and SharePoint Server 2016 to SharePoint Server Subscription Edition, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured a new SharePoint Server Subscription Edition environment, you can copy the content and service application databases from the SharePoint Server 2019 and SharePoint Server 2016 environments to the SharePoint Server Subscription Edition environment. You use a backup and restore process to copy the database, and you can also choose to set the databases to read-only in the SharePoint Server 2019 and SharePoint Server 2016 environments so that users can continue to access their information, but not change it. This article contains the steps that you take to copy the databases.
+When you upgrade from SharePoint Server 2019 or SharePoint Server 2016 to SharePoint Server Subscription Edition, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured a new SharePoint Server Subscription Edition environment, you can copy the content and service application databases from the SharePoint Server 2019 and SharePoint Server 2016 environments to the SharePoint Server Subscription Edition environment. You use a backup and restore process to copy the database, and you can also choose to set the databases to read-only in the SharePoint Server 2019 and SharePoint Server 2016 environments so that users can continue to access their information, but not change it. This article contains the steps that you take to copy the databases.
   
 **Phase 2 of the upgrade process: Copy databases to the new farm**
 
@@ -39,9 +39,9 @@ When you upgrade from SharePoint Server 2019 and SharePoint Server 2016 to Share
 
 Before you copy the databases, review the following information and take any recommended actions.
   
-- Make sure that the account that you use to copy the databases has access to SQL Server Management Studio on the SharePoint Server 2019 and SharePoint Server 2016 as well as SharePoint Server Subscription Edition environments and has access to a network location that can be accessed from both environments to store the copies of the databases.
+- Ensure that the account that you use to copy the databases has access to SQL Server Management Studio on the SharePoint Server 2019 and SharePoint Server 2016 as well as SharePoint Server Subscription Edition environments and has access to a network location that can be accessed from all the environments to store the copies of the databases.
 
-- Make sure that the account that you use to set the databases to read-only and read-write is a member of the **db_owner** fixed database role for the content databases that you want to upgrade.
+- Ensure that the account that you use to set the databases to read-only and read-write is a member of the **db_owner** fixed database role for the content databases that you want to upgrade.
 
 - Before you back up the databases, check for and repair all database consistency errors.
 
