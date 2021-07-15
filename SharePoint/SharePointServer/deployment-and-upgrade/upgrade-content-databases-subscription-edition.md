@@ -8,8 +8,8 @@ ms.date: 07/09/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itprof
+ms.topic: hub-page
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -29,7 +29,7 @@ When you upgrade from SharePoint Server 2019 or SharePoint Server 2016 to ShareP
 
 ![Phase 4 of the upgrade process: Upgrade content databases](../media/UpgradeContentDatabase_2019.png)
 
-|||
+|**Phases**|**Description**|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the fourth phase in the process to upgrade SharePoint Server 2019 and SharePoint Server 2016 data and sites to SharePoint Server Subscription Edition. The process includes the following phases that must be completed in order:  <br/> [Create the SharePoint Server Subscription Edition farm for a database attach upgrade](create-the-sharepoint-server-subscription-edition-farm-for-a-database-attach-upgrade.md) <br/> [Copy databases to the new farm for upgrade to SharePoint Server Subscription Edition](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-subscription-edition.md) <br/> [Upgrade service applications to SharePoint Server Subscription Edition](upgrade-service-applications-to-sharepoint-server-subscription-edition.md) <br/> [Upgrade content databases to SharePoint Server Subscription Edition](upgrade-content-databases-subscription-edition.md) (this phase)  <br/><br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server Subscription Edition](overview-of-the-upgrade-process-subscription-edition.md).  <br/> |
 
@@ -129,9 +129,9 @@ Before you attach the content databases to the web applications, use the [Test-S
 
     Where:
 
-  -  _DatabaseName_ is the name of the database that you want to test.
+      - DatabaseName_ is the name of the database that you want to test.
 
-  -  _URL_ is the URL for the web application that will host the sites.
+      - URL_ is the URL for the web application that will host the sites.
 
 For more information, see Test-SPContentDatabase.
   
@@ -287,6 +287,6 @@ After you upgrade the databases, you might want to perform additional steps to m
 
     For more information, see [Back up farms in SharePoint Server](../administration/back-up-a-farm.md).
 
-|||
+|**Phases**|**Description**|
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the fourth phase in the process to upgrade SharePoint Server 2019 and SharePoint Server 2016 data and sites to SharePoint Server Subscription Edition.  <br/> For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server Subscription Edition](overview-of-the-upgrade-process-subscription-edition.md).  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the fourth phase in the process to upgrade SharePoint Server 2019 or SharePoint Server 2016 data and sites to SharePoint Server Subscription Edition.  <br/> For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server Subscription Edition](overview-of-the-upgrade-process-subscription-edition.md).  <br/> |

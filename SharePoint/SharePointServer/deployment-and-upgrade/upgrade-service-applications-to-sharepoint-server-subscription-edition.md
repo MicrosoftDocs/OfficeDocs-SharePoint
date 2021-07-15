@@ -8,7 +8,7 @@ ms.date: 07/09/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
@@ -29,7 +29,7 @@ When you upgrade from SharePoint Server 2019 or SharePoint Server 2016 to ShareP
 
 ![Phase 3 of the upgrade process: Upgrade service applications](../media/UpgradeServiceApplicatons_2019.png)
   
-|||
+|**Phases**|**Description**|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the third phase in the process to upgrade SharePoint Server 2019 and SharePoint Server 2016 data and sites to SharePoint Server Subscription Edition. The process includes the following phases that must be completed in order:  <br/> [Create the SharePoint Server Subscription Edition farm for a database attach upgrade](create-the-sharepoint-server-subscription-edition-farm-for-a-database-attach-upgrade.md) <br/> [Copy databases to the new farm for upgrade to SharePoint Server Subscription Edition](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-subscription-edition.md) <br/> [Upgrade service applications to SharePoint Server Subscription Edition](upgrade-service-applications-to-sharepoint-server-subscription-edition.md) (this phase)  <br/> [Upgrade content databases to SharePoint Server Subscription Edition](upgrade-content-databases-subscription-edition.md) <br/>  <br/>For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server Subscription Edition](overview-of-the-upgrade-process-subscription-edition.md).  <br/> |
 
@@ -743,9 +743,9 @@ SharePoint Server Subscription Edition normally creates a new search topology wi
     
 8. (Optional) Preserve search relevance settings from the SharePoint Server 2019 or SharePoint Server 2016 farm. As the upgraded Search service application has a new, empty index, search analytics data from the SharePoint Server 2019 or SharePoint Server 2016 farm cannot be fully retained. Copy the Analytics Reporting database from the SharePoint Server 2019 or SharePoint Server 2016 farm and attach it to the new Search service application in the SharePoint Server Subscription Edition farm:
     
-      - In the SharePoint Server 2019 or SharePoint Server 2016 farm, [backup](../administration/move-or-rename-service-application-databases.md#Backup) the Analytics Reporting database.
+      - In the SharePoint Server 2019 or SharePoint Server 2016 farm, [backup](../administration/move-or-rename-service-application-databases.md#to-back-up-the-search-service-application-databases) the Analytics Reporting database.
         
-      - In the SharePoint Server Subscription Edition farm, [restore the backed up database](../administration/move-or-rename-service-application-databases.md#Restore) to the new database server.
+      - In the SharePoint Server Subscription Edition farm, [restore the backed up database](../administration/move-or-rename-service-application-databases.md#to-restore-the-search-service-application-databases-to-a-new-database-server-1) to the new database server.
         
       - In the SharePoint Server Subscription Edition farm, [attach the restored database](../administration/move-or-rename-service-application-databases.md#PS) to the new Search service application.
     
@@ -804,10 +804,9 @@ Use the following procedure to verify that the steps to create the proxies and a
   
 Now that the service applications are upgraded, you can start the process to upgrade the content databases. The first step in that process is to create the web applications that are needed for each content database.
   
-## 
 <a name="VerifyProxies"> </a>
 
-|||
+|**Phases**|**Description**|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the third phase in the process to upgrade SharePoint Server 2019 and SharePoint Server 2016 data and sites to SharePoint Server Subscription Edition.  <br/> For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server Subscription Edition](overview-of-the-upgrade-process-subscription-edition.md).  <br/> |
 

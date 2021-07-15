@@ -30,7 +30,7 @@ When you upgrade from SharePoint Server 2019 or SharePoint Server 2016 to ShareP
 
 ![Phase 2 of the upgrade process: Copy databases to the new farm](../media/CopyDatabaseToNewFarm_2019.png)
   
-|||
+|**Phases**|**Description**|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the second phase in the process to upgrade SharePoint Server 2019 or SharePoint Server 2016 data and sites to SharePoint Server Subscription Edition. The process includes the following phases that must be completed in order:  <br/><br/> Create the SharePoint Server Subscription Edition farm for a database attach upgrade <br/>Copy databases to the new farm for upgrade to SharePoint Server Subscription Edition  (this phase) <br/>Upgrade service applications to SharePoint Server Subscription Edition <br/>Upgrade content databases to SharePoint Server Subscription Edition.<br/> <br/>For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server Subscription Edition](overview-of-the-upgrade-process-subscription-edition.md).  <br/> |
 
@@ -179,7 +179,7 @@ You cannot upgrade a database that is set to read-only. You must set the databas
 
 4. In the details pane, under **Other options**, in the **State** section, next to **Database Read-Only**, click the arrow, and then select **False**.
 
-|||
+|**Phases**|**Description**|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the second phase in the process to upgrade SharePoint Server 2019 and SharePoint Server 2016 data and sites to SharePoint Server Subscription Edition.  <br/>  Next phase: [Upgrade service applications to SharePoint Server Subscription Edition](upgrade-service-applications-to-sharepoint-server-subscription-edition.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server Subscription Edition](overview-of-the-upgrade-process-subscription-edition.md).  <br/> |
 
