@@ -36,9 +36,9 @@ After you've configured a new SharePoint Server Subscription Edition environment
 
 Before you attach and upgrade the content databases, review the following information and take any recommended actions.
   
-- Make sure that the account that you use to attach the databases is a member of the **db_owner fixed** database role for the content databases that you want to upgrade.
+- Ensure that the account that you use to attach the databases is a member of the **db_owner fixed** database role for the content databases that you want to upgrade.
 
-- Make sure that the account that you use to create web applications is a member of the Farm administrators group in the SharePoint Central Administration website.
+- Ensure that the account that you use to create web applications is a member of the Farm administrators group in the SharePoint Central Administration website.
 
 This article helps you to understand the upgrade sequence so that you can plan an upgrade project. To get detailed steps for an upgrade, see [Overview of the upgrade process to SharePoint Server Subscription Edition](upgrade-databases-subscription-edition.md) and [Upgrade site collections to SharePoint Server Subscription Edition](upgrade-a-site-collection-subscription-edition.md).
 
@@ -90,7 +90,7 @@ The third stage in the upgrade process upgrades the databases and service applic
 ## Upgrade SharePoint Server 2019 and SharePoint Server 2016 site collections
 <a name="UpgradeSites"> </a>
 
-The final stage in the upgrade process is to upgrade the site collections. The upgrade process for My Sites is slightly different from for other types of site collections.
+The final stage in the upgrade process is to upgrade the site collections. The upgrade process for My Sites is slightly different from other types of site collections.
   
 ### Upgrade My Sites
 <a name="MySites"> </a>
