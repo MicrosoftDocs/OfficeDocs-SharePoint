@@ -62,7 +62,7 @@ Common methods of organizing navigational design:
 
 ![Geographic region](media/geographic_region.png)
 
-**Benefits** - Organizing by geographic location is an effective way to bring people of similar disciplines together to collaborate and build community. For large or organizations, and international organizations, location can be an important decision-making factor for users. Organizing by region may be important when certain topics have different laws and mandates depending on the region. For example, crisis management sites or human resource guidelines. 
+**Benefits** - Organizing by geographic location is an effective way to bring people of similar disciplines together to collaborate and build community. For large organizations, and international organizations, location can be an important decision-making factor for users. Organizing by region may be important when certain topics have different laws and mandates depending on the region. For example, crisis management sites or human resource guidelines. 
 
 **Governance considerations** - Many governance details may very among region, for example site creation policy, data retention, and data storage policies too. Learn more about the [multi-geo user experience](/microsoft-365/enterprise/multi-geo-user-experience) and [multi-geo configuration](/sharepoint/dev/solution-guidance/multigeo-introduction).
 
