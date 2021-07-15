@@ -40,9 +40,9 @@ When you upgrade from SharePoint Server 2019 or SharePoint Server 2016 to ShareP
 
 Before you create the SharePoint Server Subscription Edition farm, review the following information and take any recommended actions.
   
-- Make sure that the hardware and software that you are using meets the requirements in [Hardware and software requirements for SharePoint Server Subscription Edition](../install/hardware-and-software-requirements-2019.md).
+- Ensure that the hardware and software that you are using meets the requirements in [Hardware and software requirements for SharePoint Server Subscription Edition](../install/hardware-and-software-requirements-2019.md).
 
-- Make sure that you have appropriately planned your logical and physical architecture to support the features and functionality that you want in the SharePoint Server 2019 or SharePoint Server 2016 farm.
+- Ensure that you have appropriately planned your logical and physical architecture to support the features and functionality that you want in the SharePoint Server 2019 or SharePoint Server 2016 farm.
 
 - Make sure that you have planned for sufficient performance and capacity for the SharePoint Server 2019 or SharePoint Server 2016 farm.
 
