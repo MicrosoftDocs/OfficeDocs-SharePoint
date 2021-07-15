@@ -103,9 +103,9 @@ SharePoint Server Subscription Edition supports both **N - 1** and **N - 2** ver
 
 For more information:
 
- - To install SharePoint Server Subscription Edition on Windows Server Core, see [Installing SharePoint Server Subscription Edition on Windows Server Core](SharePoint/SharePointServer/install/installing-sharepoint-server-subscription-edition-on-windows-server-core.md).
+ - To install SharePoint Server Subscription Edition on Windows Server Core, see [Installing SharePoint Server Subscription Edition on Windows Server Core](../install/installing-sharepoint-server-subscription-edition-on-windows-server-core.md).
  
- - To 
+ - To upgrade to SharePoint Server Subscription Edition, see [Upgrade to SharePoint Server Subscription Edition](../deployment-and-upgrade/upgrade-to-sharepoint-server-subscription-edition.md).
  
 ## Farm Administration
   
