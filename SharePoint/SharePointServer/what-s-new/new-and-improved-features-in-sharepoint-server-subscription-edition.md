@@ -54,9 +54,9 @@ SharePoint Server Subscription Edition supports OIDC authentication with identit
 To set up OIDC authentication in SharePoint Server, see [OpenID Connect 1.0 authentication](../authentication-and-identity-management/oidc-1.0-authentication.md).
 
 <a name="people"> </a>
-### People Picker improvement for trusted authentication methods
+### People Picker improvement for modern authentication
 
-In previous versions of SharePoint Server, if a web application was configured to use a trusted identity provider with the built-in claims provider, then the People Picker would resolve all input as a valid user or group even if it wasn't. Customers had to implement a custom claims provider to ensure the People Picker would only resolve valid users and groups.
+When modern authentication (trusted identity provider) such as SAML 1.1 or OIDC 1.0 is used, the People Picker control can’t search, resolve, and validate users and groups without writing a custom claim provider through C#.
 
 In SharePoint Server Subscription Edition, the People Picker has been enhanced to allow resolving users and groups based on their profiles in the User Profile Application (UPA). UPA must be configured to synchronize users and groups from the trusted identity provider membership store. This allows the People Picker to only resolve valid users and groups without requiring a custom claims provider.
 
