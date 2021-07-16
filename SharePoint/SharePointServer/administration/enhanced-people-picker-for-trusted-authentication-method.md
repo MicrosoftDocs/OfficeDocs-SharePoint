@@ -16,7 +16,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 
 
-description: "In SharePoint Server Subscription Edition, People Picker is enhanced to search and pick user in User Profile Application to help you avoid creating a customized claim provider."
+description: "In SharePoint Server Subscription Edition, People Picker is enhanced to search and pick user in User Profile service application to help you avoid creating a customized claim provider."
 ---
 
 # Enhanced People Picker for modern authentication
@@ -93,16 +93,16 @@ Follow these configuration steps to make People Picker work:
     ```
     Set-SPTrustedIdentityTokenIssuer "ADFS Provider" -ClaimProvider $claimprovider
     ```
-4. You can, now, start synchronizing profiles into the SharePoint User Profile Application service from the identity provider that are used in the organization, so that the newly created claim provider can work on the correct data set.<br/><br/>
-Following are the two ways to synchronize user profiles into the SharePoint User Profile Application service:
+4. You can, now, start synchronizing profiles into the SharePoint User Profile service application from the identity provider that are used in the organization, so that the newly created claim provider can work on the correct data set.<br/><br/>
+Following are the two ways to synchronize user profiles into the SharePoint User Profile service application:
     - Use SharePoint Active Directory Import (AD Import) with **Trusted Claims Provider Authentication** as the **Authentication Provider Type** in the synchronization connection setting. To use AD Import, see [Manage user profile synchronization in SharePoint Server](/sharepoint/administration/manage-profile-synchronization).
     - Use Microsoft Identity Manager (MIM). To use MIM, see [Microsoft Identity Manager in SharePoint Servers 2016 and 2019](/sharepoint/administration/microsoft-identity-manager-in-sharepoint-server-2016).
-        - There should be two agents inside the MIM synchronization Manager UX after MIM is set up. One agent is used to import user profiles from the source IDP to the MIM database. And another agent is used to export user profiles from the MIM database to the SharePoint User Profile Application service.
+        - There should be two agents inside the MIM synchronization Manager UX after MIM is set up. One agent is used to import user profiles from the source IDP to the MIM database. And another agent is used to export user profiles from the MIM database to the SharePoint User Profile service application.
 
     During the synchronization, provide the following properties to the User Profile service application:
 
     1. **SPS-ClaimID** <br/>
-       - Choose unique identity property in the source that will map to the **SPS-ClaimID** property in the User Profile Application service (preferred **Email** or **User Principal Name**).
+       - Choose unique identity property in the source that will map to the **SPS-ClaimID** property in the User Profile service application (preferred **Email** or **User Principal Name**).
        - Set the corresponding **IdentifierClaim** value while creating a token issuer from the [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) cmdlet.<br/>
 
        For AD Import synchronization, the **Central Administration -> Application Management -> Manage service applications -> User Profile Service Application -> Manage User Properties** UX will allow administrators to edit the **SPS-ClaimID** to indicate which property in the source identity provider should be synchronized to **SPS-ClaimID**. For example, if the **SPS-ClaimID** is email, set **Claim User Identifier** as **Email** in this UX.
@@ -115,7 +115,7 @@ Following are the two ways to synchronize user profiles into the SharePoint User
 
         ![Property Mapping for Synchronization](../media/property-mapping-for-sync.png)
 
-       For MIM synchronization, map **Email** or **User Principal Name** to **SPS-ClaimID** in the MIM database to the SharePoint User Profile Application service agent:
+       For MIM synchronization, map **Email** or **User Principal Name** to **SPS-ClaimID** in the MIM database to the SharePoint User Profile service application agent:
         - In the MIM synchronization Service Manager, select the agent and open the **Configure Attribute Flow** UX. You can map **mail** to **SPS-ClaimID**.
 
         ![Build Attribute Flow](../media/build-attribute-flow.png)
@@ -130,7 +130,7 @@ Following are the two ways to synchronize user profiles into the SharePoint User
 
         ![Add new synchronization connection](../media/add-new-sync-connection.png)
 
-       For MIM synchronization, set these 2 properties in the **Configure Attribute Flow** UX for the MIM database to SharePoint User Profile Application service agent:
+       For MIM synchronization, set these 2 properties in the **Configure Attribute Flow** UX for the MIM database to SharePoint User Profile service application agent:
         - Set **SPS-ClaimProviderType** to **Trusted** as Constant type
         - Set **SPS-ClaimProviderID** to the new token issuer name created [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) cmdlet.
 
@@ -149,13 +149,13 @@ Following are the two ways to synchronize user profiles into the SharePoint User
        This sample cmdlets creates a `claimmap` object of type `groupsid` and indicates that it works with the **SID** property of the group. Then it creates a new identity issuer, which can understand this mapping.
 
     2. Synchronize **SID** property of groups from the identity provider to the **SID** property in User Profile service application.
-        - For AD Import synchronization, SID will synchronize automatically from the source identity provider to the SharePoint User Profile Application service.
-        - For MIM synchronization, take the property mapping from the identity provider to MIM and then from MIM to the SharePoint User Profile Application service so that MIM can synchronize the group **SID** from the identity provider to the SharePoint User Profile Application service. It’s like how we do user profile synchronization for the **SPS-ClaimID** property for user profiles.
+        - For AD Import synchronization, SID will synchronize automatically from the source identity provider to the SharePoint User Profile service application.
+        - For MIM synchronization, take the property mapping from the identity provider to MIM and then from MIM to the SharePoint User Profile service application so that MIM can synchronize the group **SID** from the identity provider to the SharePoint User Profile service application. It’s like how we do user profile synchronization for the **SPS-ClaimID** property for user profiles.
         > [!Note]
-        > For MIM synchronization, map **sAMAccountName** to **accountName** from MIM to the SharePoint User Profile Application service.
+        > For MIM synchronization, map **sAMAccountName** to **accountName** from MIM to the SharePoint User Profile service application.
 6. Change the default User Profile searchable properties so that users can choose which properties can be used to match keywords in the People Picker control.<br/>
 Users can set which properties are searched by the People Picker by following this sample PowerShell script.
-    1. Get the property list of the User Profile Application service, which is connected with a given web application.
+    1. Get the property list of the User Profile service application, which is connected with a given web application.
         ```
         $site = $(Get-SPWebApplication $WebApplicationName).Sites[0]
         $context= Get-SPServiceContext $site
