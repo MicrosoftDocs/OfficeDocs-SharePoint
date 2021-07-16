@@ -111,8 +111,6 @@ The following service applications can be upgraded by performing a services data
 
 - Managed Metadata service
 
-- PerformancePoint services
-
 - Search
 
 - Secure Store service

@@ -29,8 +29,6 @@ The upgrade process for SharePoint Server Subscription Edition uses the database
 
 - Managed Metadata service application
 
-- PerformancePoint Services service application
-
 - Search service application
 
 - Secure Store Service application
@@ -57,10 +55,6 @@ The following service applications can be upgraded by performing a services data
 
     The Managed Metadata service uses a database to store metadata information. This database must be upgraded as part of a services database attach upgrade. You must attach and upgrade the database for this service and for the User Profile service before you can upgrade any My Sites.
 
-- **PerformancePoint services**
-
-    PerformancePoint Services use a database to store information. This database must be upgraded as part of a services database attach upgrade.
-
 - **Secure Store service**
 
     The Secure Store Service uses a database to store information. This database must be upgraded as part of a services database attach upgrade. You have to upgrade the data for this service application so that any connections from Excel Services Application and Business Connectivity Services can work with existing passwords.
@@ -81,7 +75,6 @@ Specifically, the following service application databases can be upgraded:
 |:-----|:-----|
 |Business Data Connectivity  <br/> |BDC_Service_DB_\<GUID\>  <br/> |
 |Managed Metadata  <br/> |Managed Metadata Service_\<GUID\>  <br/> |
-|PerformancePoint  <br/> |PerformancePoint Service Application_\<GUID\>  <br/> |
 |Search  <br/> |Search_Service_Application_DB_\<GUID\>  <br/> Search_Service_Application_AnalyticsReportingStoreDB_\<GUID\>  <br/> |
 |Secure Store  <br/> |Secure_Store_Service_DB_\<GUID\>  <br/> |
 |User Profile: Profile and Social databases  <br/> |User Profile Service Application_ProfileDB_\<GUID\>  <br/> User Profile Service Application_SocialDB_\<GUID\>  <br/> User Profile Service Application_SyncDB_\<GUID\>  <br/> |
