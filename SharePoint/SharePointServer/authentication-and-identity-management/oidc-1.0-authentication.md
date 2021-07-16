@@ -374,7 +374,7 @@ Once the site collection is created, you should be able to sign-in to it using e
 
 ### Step 7: Set up people picker
 
-In OIDC authentication, the people picker does not validate the input, which can lead to misspellings or users accidentally choosing the wrong claim type. This can be addressed using the new UPA backed claim provider in SharePoint Server. For more information on the new people picker feature, see [Enhanced People Picker for modern authentication](enhanced-people-picker-for-trusted-authentication-method.md).
+In OIDC authentication, the people picker does not validate the input, which can lead to misspellings or users accidentally choosing the wrong claim type. This can be addressed using the new UPA backed claim provider in SharePoint Server. For more information on the new people picker feature, see [Enhanced People Picker for modern authentication](../administration/enhanced-people-picker-for-trusted-authentication-method.md).
 
 ## Setup OIDC authentication in SharePoint Server with AD FS
 
@@ -662,4 +662,4 @@ Once the site collection is created, you should be able to sign-in to it using e
 
 ### Step 7: Set up people picker
 
-In OIDC authentication, the people picker does not validate the input, which can lead to misspellings or users accidentally choosing the wrong claim type. This can be addressed using the new UPA backed claim provider in SharePoint Server. For more information on the new people picker feature, see [Enhanced People Picker for modern authentication](enhanced-people-picker-for-trusted-authentication-method.md).
+In OIDC authentication, the people picker does not validate the input, which can lead to misspellings or users accidentally choosing the wrong claim type. This can be addressed using the new UPA backed claim provider in SharePoint Server. For more information on the new people picker feature, see [Enhanced People Picker for modern authentication](../administration/enhanced-people-picker-for-trusted-authentication-method.md).
