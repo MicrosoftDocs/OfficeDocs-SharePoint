@@ -89,6 +89,8 @@ Windows Server Core is a leaner Windows Server deployment type compared to the c
 
 SharePoint Server Subscription Edition adds support for the Windows Server Core deployment type with both Windows Server 2019 and Windows Server 2022. The Windows Server Desktop Experience deployment type remains supported with both Windows Server 2019 and Windows Server 2022.
 
+For more information, see [Installing SharePoint Server Subscription Edition on Windows Server Core](../install/installing-sharepoint-server-subscription-edition-on-windows-server-core.md)
+
 <a name="upgrade"> </a>
 ### Upgrading directly from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)
 

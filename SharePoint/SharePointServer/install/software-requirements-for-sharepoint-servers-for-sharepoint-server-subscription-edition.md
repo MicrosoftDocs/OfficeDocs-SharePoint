@@ -46,9 +46,9 @@ SharePoint Server Subscription Edition also requires additional software prerequ
 The SharePoint Server Subscription Edition prerequisite installer `prerequisiteinstaller.exe` installs the following software, if it has not already been installed on the target server, in the following order:
 
 1. Web Server (IIS) Role
-2. [Microsoft WCF Data Services 5.6](https://statics.teams.cdn.office.net/evergreen-assets/safelinks/1/atp-safelinks.html)
-3. [Microsoft .NET Framework 4.8](https://statics.teams.cdn.office.net/evergreen-assets/safelinks/1/atp-safelinks.html)
-4. [Visual C++ Redistributable Package for Visual Studio 2015-2019](https://statics.teams.cdn.office.net/evergreen-assets/safelinks/1/atp-safelinks.html)
+2. [Microsoft WCF Data Services 5.6](https://go.microsoft.com/fwlink/?LinkId=320724)
+3. [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?LinkId=2085155)
+4. [Visual C++ Redistributable Package for Visual Studio 2015-2019](https://go.microsoft.com/fwlink/?linkid=2130438)
 
 You can run `prerequisiteinstaller.exe` at a command prompt with the following options. When you run `prerequisiteinstaller.exe` at a command prompt, you might be asked to restart the server one or more times during the installation process. After restarting, you should continue the prerequisite installation by running `prerequisiteinstaller.exe` with the /continue option.
 
