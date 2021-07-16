@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: v-jmathew
 author: jitinmathew
 manager: serdars
-ms.date:07/16/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
