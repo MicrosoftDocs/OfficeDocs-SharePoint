@@ -53,7 +53,7 @@ https://sharepoint2013.com/sites/contosoteamsite/,DocumentLibraryName,DocLibrary
 
 **Before you begin**
 
-- Enter one migration source and destination per row. Account for all six colunns in your file.
+- Enter one migration source and destination per row. Account for all six columns in your file.
 - *Do not* include a header row in your CSV file. The example shown above included headers to demonstrate the order of the fields. 
 - Remember to account for all six columns in the file, even if you don't need a value for a given field.
 - If you use the standard out-of-the-box document library ("Shared Documents"), you must use the internal name "Documents" as the placeholder value for the *Source Document Library* (column B) in your CSV file. If you enter "Shared Documents" in that column, you'll get an "invalid document library" error.
