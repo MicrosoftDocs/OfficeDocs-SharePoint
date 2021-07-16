@@ -25,9 +25,7 @@ description: "In SharePoint Server Subscription Edition, People Picker is enhanc
 
 When modern authentication (trusted identity provider) such as SAML 1.1 or OIDC 1.0 is used, the People Picker control can’t search, resolve, and validate users and groups without writing a custom claim provider through C#.
 
-Rather than writing a piece of C# code to implement a new claim provider, customers simply synchronize user profiles from their identity provider to the User Profile service application to make People Picker work.
-
-In SharePoint Server Subscription Edition, People Picker is enhanced to search and pick user in User Profile service application to help you avoid creating a customized claim provider. With the improved PowerShell cmdlet, you can easily reconfigure `SPTrustedIdentityTokenIssuer` and `UPABackedClaimProvider`.
+In SharePoint Server Subscription Edition, People Picker is enhanced to search and pick user in User Profile service application to help you avoid creating a customized claim provider. Rather than writing a piece of C# code to implement a new claim provider, customers can simply synchronize user profiles from their identity provider to the User Profile service application to make People Picker work.
 
 Follow these configuration steps to make People Picker work:
 
