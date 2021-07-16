@@ -186,8 +186,6 @@ Use the following procedure to install and configure the configuration database 
     
 12. On the **Completing the SharePoint Products Configuration Wizard** page, review your configuration settings to verify that they are correct, and then click **Next**.
     
-    > [!NOTE]
-    > The **Advanced Settings** option is not available in SharePoint Servers 2016 and 2019. 
   
 13. On the **Configuration Successful** page, click **Finish**. When the wizard closes, setup opens the web browser and connects to Central Administration.
     
@@ -293,7 +291,7 @@ You have now completed setup and the initial configuration of SharePoint Server.
     
     **Security note**: For security reasons, we recommend that you use a different account from the farm administrator account to configure services in the farm. 
     
-    If you decide to use an existing managed account — that is, an account of which SharePoint Server 2016 is aware — make sure that you click that option before you continue.
+    If you decide to use an existing managed account — that is, an account of which SharePoint Server Subscription Edition is aware — make sure that you click that option before you continue.
     
 6. In the **Services** section, review the services that you want to use in the farm, and then click **Next**.
   
