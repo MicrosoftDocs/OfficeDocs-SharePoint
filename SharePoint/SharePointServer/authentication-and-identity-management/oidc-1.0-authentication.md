@@ -1,5 +1,5 @@
 ---
-title: "OIDC 1.0 authentication"
+title: "OpenID Connect 1.0 authentication"
 ms.reviewer: 
 ms.author: v-jmathew
 author: jitinmathew
@@ -25,12 +25,9 @@ In SharePoint 2019 and prior versions, SharePoint Server supported three types o
 2. Forms-based authentication
 3. SAML 1.1-based authentication
 
-In view of an increasing number of customers demanding support for modern authentication protocols such as OpenID Connect (OIDC) 1.0 and Security Assertion Markup Language (SAML) 2.0, SharePoint Server Subscription Edition now supports OIDC 1.0 authentication protocol.
+SharePoint Server Subscription Edition now supports OpenID Connect (OIDC) 1.0 authentication protocol. OIDC is a modern authentication protocol that makes it easy to integrate applications and devices with your organization's identity and authentication management solutions to better meet your evolving security and compliance needs.
 
 With this new capability, you can now set up an OIDC-enabled `SPTrustedIdentityTokenIssuer` that works with a remote identity provider to enable OIDC authentication.
-
-> [!NOTE]
-> Only SharePoint with Active Directory Federation Services (AD FS) and Azure Active Directory (AAD) are validated for OIDC connections. Other third-party identity providers might not currently work.
 
 SharePoint Server Subscription Edition now supports basic manual OIDC configuration through PowerShell along with the support for OIDC metadata discovery capability during configuration.
 
@@ -56,11 +53,7 @@ New-SPTrustedIdentityTokenIssuer -Name < issuer name > -Description < Issuer des
 |DefaultClientIdentifier     | Specify the `client_id` of SharePoint server which is assigned by OIDC identity provider. This will be validated against 'aud' claim in `id_token`. |
 |MetadataEndPoint     | Specifying the well-known metadata endpoint from OIDC identity provider which can be used to retrieve latest certificate, issuer, authorization endpoint and sign out endpoint. |
 
-SharePoint Server Subscription Edition also supports picking a certificate from a rotating list of signing certificates to digitally sign the `id_token` as SharePoint needs to validate the digital signature of the OIDC `id_token`. Previously, each `SPTrustedIdentityTokenIssuer` only supported one signing certificate, so they couldn’t support a rotating list of signing certificates.
-
 With SharePoint Server Subscription Edition, the **ImportTrustCertificate** parameter of the `New-SPTrustedIdentityTokenIssuer` cmdlet has been updated to support a list of certificate objects, that allows SharePoint to support a rotating list of signing certificates for `id_token` validation.
-
-As a result of the switch to Windows Identity Foundation 4.5 framework, several changes have been made to the PowerShell cmdlets to set up OIDC authentication. For more information, see the updated OIDC Setup Guide.
 
 ## Setup OIDC authentication in SharePoint Server with AAD
 
@@ -151,7 +144,7 @@ Open jwks_uri (<https://login.microsoftonline.com/common/discovery/keys>), and s
 
 ### Step 2: Change SharePoint Farm properties
 
-In this step, modify farm properties.
+In this step, it will need to modify farm properties. Start the SharePoint Management Shell and run the following script:
 
 ```azurepowershell
 # Setup farm properties to work with OIDC
@@ -178,9 +171,9 @@ $f.Farm.Properties['SPO-SignInGateKeeperHashSeed']='seed'
 $f.Farm.Update()
 ```
 
-### Step 3: Configure SharePoint to Identity Providers
+### Step 3: Configure SharePoint to trust Identity Provider
 
-You can configure SharePoint to Identity Providers in the following two ways:
+You can configure SharePoint to trust Identity provider in the following two ways:
 
 - Configure SharePoint to trust AAD as OIDC provider manually
 - Configure SharePoint to trust AAD as OIDC provider by using metadata endpoint
@@ -194,11 +187,7 @@ PowerShell
 
 ```azurepowershell
 # Define claim types
-#If you are using SharePoint Server TAP build 16.0.13727.10000 or later build
 $email = New-SPClaimTypeMapping "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
-
-#If you are using SharePoint Server TAP build 16.0.13628.10000 or earlier build
-$email = New-SPClaimTypeMapping -IncomingClaimType "email" -IncomingClaimTypeDisplayName "EmailAddress" -LocalClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" 
 
 # Public key of the AAD OIDC signing certificate. Please replace <x5c cert string> with the encoded cert string which you get from x5c certificate string of the keys of jwks_uri from Step #1
 $encodedCertStr = <x5c cert string>
@@ -252,13 +241,9 @@ By using below PowerShell example, we can use metadata endpoint from AAD to conf
 
 ```azurepowershell
 # Define claim types
-#If you are using SharePoint Server TAP build 16.0.13727.10000 or later build
 $email = New-SPClaimTypeMapping "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
 
-#If you are using SharePoint Server TAP build 16.0.13628.10000 or earlier build
-$email = New-SPClaimTypeMapping -IncomingClaimType "email" -IncomingClaimTypeDisplayName "EmailAddress" -LocalClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" 
-
-# Set the AAD metadata endpoint URL 
+# Set the AAD metadata endpoint URL. Please replace <TenantID> with the value saved in step #3 in AAD setup section  
 $metadataendpointurl = "https://login.microsoftonline.com/<TenantID>/.well-known/openid-configuration"
 
 # Please replace <Application (Client) ID> with the value saved in step #3 in AAD setup section
@@ -364,7 +349,7 @@ As SharePoint URL uses HTTPS protocol (<https://spsites.contoso.local/>), a cert
 
 ### Step 6: Create the site collection
 
-In this step, you create a team site collection with two administrators: One as a Windows administrator and one as a federated (AD FS) administrator.
+In this step, you create a team site collection with two administrators: One as a Windows administrator and one as a federated (AAD) administrator.
 
 1. Open the SharePoint Central Administration site.
 2. Navigate to **Application Management** > **Create site collections** > **Create site collections**.
@@ -377,7 +362,7 @@ In this step, you create a team site collection with two administrators: One as 
 
 7. Select the account and choose **OK**.
 8. In the Secondary Site Collection Administrator section, select the book icon to open the people picker dialog.
-9. In the people picker dialog, type the exact email value of the AD FS administrator account, for example **yvand@contoso.local**.
+9. In the people picker dialog, type the exact email value of the AAD administrator account, for example **yvand@contoso.local**.
 10. On the left, filter the list by selecting **Contoso.local**. Following is a sample output:
 
     :::image type="content" source="../media/select-people-2.png" alt-text="Select people 2":::
@@ -389,27 +374,9 @@ Once the site collection is created, you should be able to sign-in to it using e
 
 ### Step 7: Set up people picker
 
-In OIDC authentication, the people picker does not validate the input, which can lead to misspellings or users accidentally choosing the wrong claim type. This can be addressed using the new UPA backed claim provider in SharePoint Server.
+In OIDC authentication, the people picker does not validate the input, which can lead to misspellings or users accidentally choosing the wrong claim type. This can be addressed using the new UPA backed claim provider in SharePoint Server. For more information on the new people picker feature, see [Enhanced People Picker for modern authentication](enhanced-people-picker-for-trusted-authentication-method.md).
 
 ## Setup OIDC authentication in SharePoint Server with AD FS
-
-### Overview of federated authentication
-
-In federated authentication, SharePoint processes OIDC tokens issued by a trusted, external Security Token Service (STS) or identity provider (IDP). A user who attempts to log on is redirected to that STS, which authenticates the user and generates a JWT token upon successful authentication. SharePoint then processes this token and uses it to create its own and authorizes the user to access the site.
-
-You need to do configurations both in identity provider and SharePoint to make the authentication flow work normally.
-
-1. Configurations in identity provider require you to register SharePoint web application as trusted party with redirection URL which will redirect client back to SharePoint web application. To do that:
-
-    - Redirect URL of SharePoint needs to be registered to IDP so that IDP will pass through JWT token back to the endpoint in SharePoint which will process the token.
-    - Original URL of SharePoint needs to be registered to IDP so that only authentication request from registered URL can be accepted.
-    - User identifier claim needs to be specified in the token and get aligned with SharePoint so that SharePoint server can know which claim should be used as unique identity for the login user.
-2. Configurations in SharePoint require IDP to be configured through `SPTrustedIdentityTokenIssuer` so that it can be used for SharePoint web application authentication. To do that:
-
-    - Certificates from IDP need to be setup so that trust can be setup between SharePoint and identity provider.
-    - Authentication endpoint from IDP needs to be setup so that authentication will be rely to IDP.
-    - Logout endpoint from IDP needs to be setup so that a logout from SharePoint will also logout from IDP.
-    - User identifier claim needs to be aligned with IDP so that SharePoint can identity which claim to use to identify a login user.
 
 ### Prerequisites
 
@@ -502,7 +469,7 @@ If you are setting OIDC with SharePoint Server, nbf claim must be configured in 
 
 ### Step 2: Change SharePoint Farm properties
 
-In this step, modify the farm properties.
+In this step, it will need to modify the farm properties. Start the SharePoint Management Shell and run the following script:
 
 ```azurepowershell
 # Setup farm properties to work with OIDC
@@ -537,11 +504,7 @@ PowerShell
 
 ```azurepowershell
 # Define claim types
-#If you are using SharePoint Server TAP build 16.0.13727.10000 or later build
 $email = New-SPClaimTypeMapping "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
-
-#If you are using SharePoint Server TAP build 16.0.13628.10000 or earlier build
-$email = New-SPClaimTypeMapping -IncomingClaimType "email" -IncomingClaimTypeDisplayName "EmailAddress" -LocalClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" 
 
 # Public key of the AD FS signing certificate
 $signingCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2("C:\Data\Claims\ADFS Signing.cer")
@@ -699,4 +662,4 @@ Once the site collection is created, you should be able to sign-in to it using e
 
 ### Step 7: Set up people picker
 
-In OIDC authentication, the people picker does not validate the input, which can lead to misspellings or users accidentally choosing the wrong claim type. This can be addressed using the new UPA backed claim provider in SharePoint Server.
+In OIDC authentication, the people picker does not validate the input, which can lead to misspellings or users accidentally choosing the wrong claim type. This can be addressed using the new UPA backed claim provider in SharePoint Server. For more information on the new people picker feature, see [Enhanced People Picker for modern authentication](enhanced-people-picker-for-trusted-authentication-method.md).
