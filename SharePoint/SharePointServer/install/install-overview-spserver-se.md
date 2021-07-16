@@ -31,7 +31,6 @@ The following articles provide information about how to deploy SharePoint Server
   
 |**Content**|**Description**|
 |:-----|:-----|
-|[Installation Overview for SharePoint Server Subscription Edition](install-overview-spserver-se.md) <br/> |Learn how to install SharePoint Subscription edition in various topologies. <br/>|
 |[System requirements for SharePoint Subscription edition](system-requirements-for-sharepoint-subscription-edition.md) <br/> |Learn system requirements of SharePoint Subscription edition in various topologies.  <br/>|
 |[Hardware and Topology Requirements for SharePoint Server Subscription Edition](hardware-and-topology-requirements-for-sharepoint-server-subscription-editon.md)<br/> |Find out the minimum hardware requirements that you need for installing and running SharePoint Server Subscription Edition.  <br/> |
 |[Software Requirements for Database Servers for SharePoint Server Subscription Edition](software-requirements-for-database-servers-for-sharepoint-server-subscription-edition.md)<br/> |Learn about the software and other requirements for SharePoint Server Subscription Edition. <br/> |
