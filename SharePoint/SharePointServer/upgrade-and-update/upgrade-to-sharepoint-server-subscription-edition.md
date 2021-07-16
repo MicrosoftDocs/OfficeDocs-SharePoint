@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: v-jmathew
 author: jitinmathew
 manager: serdars
+ms.date:07/16/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -15,14 +16,14 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 396c85d9-4b86-484e-9cc5-f6c4d725c578
 
-description: "Learn how to plan, prepare, and perform an upgrade to SharePoint Server Subscription Edition."
+description: "Learn how to plan, prepare, and perform an upgrade to SharePoint Server Subscription Edition from SharePoint 2019 or SharePoint 2016."
 ---
 
 # Upgrade to SharePoint Server Subscription Edition
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-The following articles provide information about performing an upgrade to SharePoint Server Subscription Edition.
+The following articles provide information about performing an upgrade to SharePoint Server Subscription Edition from SharePoint 2019 or SharePoint 2016.
 
 ||**Content**|**Description**|
 |:-----|:-----|:-----|

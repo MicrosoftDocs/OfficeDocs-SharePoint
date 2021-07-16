@@ -107,7 +107,7 @@ For more information:
 
  - To install SharePoint Server Subscription Edition, see [Installation overview for SharePoint Server Subscription Edition](../install/install-overview-spserver-se.md).
  
- - To upgrade to SharePoint Server Subscription Edition, see [Upgrade to SharePoint Server Subscription Edition](../deployment-and-upgrade/upgrade-to-sharepoint-server-subscription-edition.md).
+ - To upgrade to SharePoint Server Subscription Edition, see [Upgrade to SharePoint Server Subscription Edition](../upgrade-and-update/upgrade-to-sharepoint-server-subscription-edition.md).
  
 ## Farm Administration
   
