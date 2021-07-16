@@ -690,7 +690,7 @@
 #### [People Picker and claims providers overview](../administration/people-picker-and-claims-providers-overview.md)
 ##### [Plan for People Picker](../administration/plan-for-people-picker.md)
 ##### [Plan for custom claims providers for People Picker](../administration/plan-for-custom-claims-providers-for-people-picker.md)
-##### [Enhanced People Picker for modern authentication](../authentication-and-identity-management/enhanced-people-picker-for-trusted-authentication-method.md)
+##### [Enhanced People Picker for modern authentication](../administration/enhanced-people-picker-for-trusted-authentication-method.md)
 #### [User Profile service administration](../administration/user-profile-service-administration.md)
 ##### [Add, edit, or delete custom properties for a user profile](../administration/add-edit-or-delete-custom-properties-for-a-user-profile.md)
 ##### [Manage profile synchronization](../administration/manage-profile-synchronization.md)
