@@ -48,8 +48,6 @@ Follow these configuration steps to make People Picker work:
         [-WhatIf] [<CommonParameters>]
         [-UseUPABackedClaimProvider]
     ```
-    > [!Note]
-    > The `-ServiceContext <SPServiceContextPipeBind>` parameter has been removed from this cmdlet and the `-UseUPABackedClaimProvider` parameter is optional.
 
     Following three parameters need special attention:<br/>
 
