@@ -120,7 +120,7 @@ In SharePoint Server, some service applications can be shared across server farm
 
  - SharePoint Server 2016 (N - 2)
 
-For more information, see [Share service applications across farms in SharePoint Server](https://docs.microsoft.com/sharepoint/administration/share-service-applications-across-farms).
+For more information, see [Share service applications across farms in SharePoint Server](/sharepoint/administration/share-service-applications-across-farms).
 
 ## PowerShell
 
