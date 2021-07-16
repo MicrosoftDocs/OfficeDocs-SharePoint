@@ -8,28 +8,28 @@ ms.date: 07/09/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
-ms.prod: sharepoint-server-itprof
+ms.topic: hub-page
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - SP2019
 ms.assetid: d0a50e40-5322-4f7a-a3a4-c4660c879666
-description: "Learn how to upgrade content databases from SharePoint Server 2019 and SharePoint Server 2016 to SharePoint Server Subscription Edition."
+description: "Learn how to upgrade content databases from SharePoint Server 2019 or SharePoint Server 2016 to SharePoint Server Subscription Edition."
 ---
 
 # Upgrade content databases to SharePoint Server Subscription Edition
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
   
-When you upgrade from SharePoint Server 2019 and SharePoint Server 2016 to SharePoint Server Subscription Edition, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint Server 2019 and SharePoint Server 2016 environments, copied the content and service application databases, and upgraded the service applications, you can attach and upgrade the content databases to SharePoint Server Subscription Edition. This article explains the steps you take to attach and upgrade the content databases to SharePoint Server Subscription Edition.
+When you upgrade from SharePoint Server 2019 or SharePoint Server 2016 to SharePoint Server Subscription Edition, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint Server 2019 or SharePoint Server 2016 environments, copied the content and service application databases, and upgraded the service applications, you can attach and upgrade the content databases to SharePoint Server Subscription Edition. This article explains the steps you take to attach and upgrade the content databases to SharePoint Server Subscription Edition.
   
 **Phase 4 of the upgrade process: Upgrade content databases**
 
 ![Phase 4 of the upgrade process: Upgrade content databases](../media/UpgradeContentDatabase_2019.png)
 
-|||
+|**Phases**|**Description**|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the fourth phase in the process to upgrade SharePoint Server 2019 and SharePoint Server 2016 data and sites to SharePoint Server Subscription Edition. The process includes the following phases that must be completed in order:  <br/> [Create the SharePoint Server Subscription Edition farm for a database attach upgrade](create-the-sharepoint-server-subscription-edition-farm-for-a-database-attach-upgrade.md) <br/> [Copy databases to the new farm for upgrade to SharePoint Server Subscription Edition](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-subscription-edition.md) <br/> [Upgrade service applications to SharePoint Server Subscription Edition](upgrade-service-applications-to-sharepoint-server-subscription-edition.md) <br/> [Upgrade content databases to SharePoint Server Subscription Edition](upgrade-content-databases-subscription-edition.md) (this phase)  <br/><br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server Subscription Edition](overview-of-the-upgrade-process-subscription-edition.md).  <br/> |
 
@@ -37,14 +37,14 @@ When you upgrade from SharePoint Server 2019 and SharePoint Server 2016 to Share
 
 Before you attach and upgrade the content databases, review the following information and take any recommended actions.
   
-- Make sure that the account that you use to attach the databases is a member of the **db_owner** fixed database role for the content databases that you want to upgrade.
+- Ensure that the account that you use to attach the databases is a member of the **db_owner** fixed database role for the content databases that you want to upgrade.
 
-- Make sure that the account that you use to create web applications is a member of the Farm administrators group in Central Administration.
+- Ensure that the account that you use to create web applications is a member of the Farm administrators group in Central Administration.
 
 ## Create web applications
 <a name="CreateWebApps"> </a>
 
-Create a web application for each web application that existed in the SharePoint Server 2019 and SharePoint Server 2016 environments. For each web application, do the following:
+Create a web application for each web application that existed in the SharePoint Server 2019 or SharePoint Server 2016 environments. For each web application, do the following:
   
 - Use the same URL (including name, port, and host header) and configure alternate-access mapping settings.
 
@@ -69,7 +69,7 @@ Create a web application for each web application that existed in the SharePoint
 ## Reapply customizations
 <a name="Customizations"> </a>
 
-One frequent cause of failures during upgrade is that the new environment does not have customized features, solutions, or other elements. Make sure that all custom elements from the SharePoint Server 2019 and SharePoint Server 2016 environment are installed on your front-end web servers before you upgrade any content databases.
+One frequent cause of failures during upgrade is that the new environment does not have customized features, solutions, or other elements. Ensure that all custom elements from the SharePoint Server 2019 or SharePoint Server 2016 environment are installed on your front-end web servers before you upgrade any content databases.
   
 In this step, you manually transfer all customizations to your new farm. Make sure to install any components that your sites depend on to work correctly, such as the following:
   
@@ -129,9 +129,9 @@ Before you attach the content databases to the web applications, use the [Test-S
 
     Where:
 
-  -  _DatabaseName_ is the name of the database that you want to test.
+      - DatabaseName_ is the name of the database that you want to test.
 
-  -  _URL_ is the URL for the web application that will host the sites.
+      - URL_ is the URL for the web application that will host the sites.
 
 For more information, see Test-SPContentDatabase.
   
@@ -287,6 +287,6 @@ After you upgrade the databases, you might want to perform additional steps to m
 
     For more information, see [Back up farms in SharePoint Server](../administration/back-up-a-farm.md).
 
-|||
+|**Phases**|**Description**|
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the fourth phase in the process to upgrade SharePoint Server 2019 and SharePoint Server 2016 data and sites to SharePoint Server Subscription Edition.  <br/> For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server Subscription Edition](overview-of-the-upgrade-process-subscription-edition.md).  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the fourth phase in the process to upgrade SharePoint Server 2019 or SharePoint Server 2016 data and sites to SharePoint Server Subscription Edition.  <br/> For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server Subscription Edition](overview-of-the-upgrade-process-subscription-edition.md).  <br/> |
