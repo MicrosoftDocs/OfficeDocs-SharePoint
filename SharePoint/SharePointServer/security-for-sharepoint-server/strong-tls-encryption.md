@@ -1,5 +1,5 @@
 ---
-title: "Strong TLS Encryption"
+title: "Strong Transport Layer Security (TLS) Encryption"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
@@ -19,7 +19,7 @@ ms.assetid:
 description: "This article describes the strong encryption of Transport Layer Security (TLS)."
 ---
 
-# Strong TLS Encryption
+# Strong Transport Layer Security (TLS) Encryption
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 

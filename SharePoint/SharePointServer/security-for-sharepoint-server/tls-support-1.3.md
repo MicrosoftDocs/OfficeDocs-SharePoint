@@ -1,5 +1,5 @@
 ---
-title: "TLS 1.3 Support"
+title: "Transport Layer Security (TLS) 1.3 Support"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
@@ -19,7 +19,7 @@ ms.assetid:
 description: "This article describes the supported and unsupported components on Transport Layer Security (TLS) protocol version 1.3."
 ---
 
-# TLS 1.3 Support
+# Transport Layer Security (TLS) 1.3 Support
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
