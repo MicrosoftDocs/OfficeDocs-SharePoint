@@ -28,6 +28,7 @@
 #### [Create claims-based web applications in SharePoint Server](../security-for-sharepoint-server/create-claims-based-web-applications.md)
 #### [Create web applications that use classic mode authentication in SharePoint Server](../security-for-sharepoint-server/create-web-applications-that-use-classic-mode-authentication.md)
 #### [Implement SAML based authentication in SharePoint Server](../security-for-sharepoint-server/implement-saml-based-authentication-in-sharepoint-server.md)
+#### [OpenID Connect 1.0 authentication](../security-for-sharepoint-server/oidc-1.0-authentication.md)
 #### [Migration of Windows claims authentication to SAML based claims authentication in SharePoint Server](../security-for-sharepoint-server/migration-of-windows-claims-authentication-to-saml-based-claims-authentication-in-sharepoint-server.md)
 
 ### [Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol support in SharePoint Server](../security-for-sharepoint-server/secure-sockets-layer-ssl-and-transport-layer-security-tls-protocol-support-in-sh.md)
@@ -690,6 +691,7 @@
 #### [People Picker and claims providers overview](../administration/people-picker-and-claims-providers-overview.md)
 ##### [Plan for People Picker](../administration/plan-for-people-picker.md)
 ##### [Plan for custom claims providers for People Picker](../administration/plan-for-custom-claims-providers-for-people-picker.md)
+##### [Enhanced People Picker for modern authentication](../administration/enhanced-people-picker-for-trusted-authentication-method.md)
 #### [User Profile service administration](../administration/user-profile-service-administration.md)
 ##### [Add, edit, or delete custom properties for a user profile](../administration/add-edit-or-delete-custom-properties-for-a-user-profile.md)
 ##### [Manage profile synchronization](../administration/manage-profile-synchronization.md)
@@ -755,7 +757,6 @@
 #### [Upgrade SharePoint 2016 to SharePoint 2019 through Workflow Manager](../administration/upgrade-sharepoint-2016-to-sharepoint-2019-through-workflow-manager.md)
 #### [After installing .NET security patches to address CVE-2018-8421, SharePoint crawler may fail](../administration/after-installing-.NET-security-patches-to-address-CVE-2018-8421-SharePoint-crawler-may-fail.md)
 ## [Authentication and Identity Management](../authentication-and-identity-management/authentication-and-identity-management.md)
-### [Enhanced People Picker for trusted authentication method](../authentication-and-identity-management/enhanced-people-picker-for-trusted-authentication-method.md)
 ### [OIDC 1.0 authentication](../authentication-and-identity-management/oidc-1.0-authentication.md)
 ## [Deployment and Upgrade](../deployment-and-upgrade/deployment-and-upgrade.md)
 ## [Technical reference](../technical-reference/technical-reference.md)

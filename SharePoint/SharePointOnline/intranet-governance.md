@@ -26,7 +26,7 @@ description: "Planning intranet governance"
 
 As you plan your new intranet project, think about how you’ll govern the site architecture and the content. Your intranet governance plan should be created in the context of the overall governance plan for Microsoft 365. As a key business solution in your digital workplace, your intranet will have its own unique governance requirements and expectations, especially because of its organization-wide focus and impact. 
 
-Planning intranet governance should happen during the [envisioning process](./intranet-overview.md#envision) - to ensure that all stakeholders have shared vision and goals. Envisioning is only the beginning. Your intranet governance plan will evolve as your organization evolves and as new capabilities are added to SharePoint and Microsoft 365.
+Planning intranet governance should happen during the [exploration phase](./intranet-overview.md#explore) - to ensure that all stakeholders have shared vision and goals. Envisioning is only the beginning. Your intranet governance plan will evolve as your organization evolves and as new capabilities are added to SharePoint and Microsoft 365.
 
 A good governance plan helps define the priorities for the intranet and helps to prevent content sprawl. It also ensures that roles and responsibilities are clearly defined and communicated – and ideally, incorporated into job descriptions or performance goals. One aspect that often separates your intranet from other solutions is the number of people who are involved in creating and maintaining content. To ensure ongoing success, it is important to make sure that each of your intranet stakeholders and users understand their roles and responsibilities.
 
@@ -105,7 +105,8 @@ Each organization will have its own set of policies and guidelines. General topi
 
 
 ### Site provisioning and decommissioning
-A key intranet governance decision involves determining who can create a new intranet site. Your modern [intranet architecture will be “flat”](./information-architecture-modern-experience.md#guiding-principle--the-world-is-flat) which means that your intranet will contain many sites. Do you want to provide a self-service model for new intranet sites or do you want to manage site creation through a form submission and workflow? There is no right answer to this question – but no matter which approach you choose, you need to think about governance. There are two popular solutions to governing new site creation:
+
+A key intranet governance decision involves determining who can create a new intranet site. Your modern [intranet architecture will be “flat”](./information-architecture-modern-experience.md#guiding-principle-the-world-is-flat) which means that your intranet will contain many sites. Do you want to provide a self-service model for new intranet sites or do you want to manage site creation through a form submission and workflow? There is no right answer to this question – but no matter which approach you choose, you need to think about governance. There are two popular solutions to governing new site creation:
 
 
 #### Implement a site request process for intranet sites

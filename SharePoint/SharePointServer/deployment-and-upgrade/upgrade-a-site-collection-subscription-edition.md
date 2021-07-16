@@ -38,7 +38,7 @@ There are three ways to upgrade a site collection:
 
 - Manually triggered by using PowerShell.
 
- **Content databases upgrade**- To upgrade the databases run the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps) cmdlet. After the databases have been upgraded the site collections are automatically upgraded during database upgrade process by default.
+ **Content databases upgrade**- To upgrade the databases, run the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps) cmdlet. After the databases have been upgraded, the site collections are automatically upgraded during database upgrade process by default.
   
 > [!NOTE]
 > This is the default behavior and recommended method to upgrade databases.
@@ -109,7 +109,7 @@ By default, large list query throttling is turned on in SharePoint Server Subscr
 
 ### Styles and appearance
 
-The following table lists common issues with the style and appearance of your web site after upgrade and how to address them.
+The following table lists common issues with the style and appearance of your website after upgrade and how to address them.
   
 > [!TIP]
 > Most of the issues in this section can be resolved by correcting the links to an item.

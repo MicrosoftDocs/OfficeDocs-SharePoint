@@ -30,7 +30,7 @@ The following table provides the list of new features and updates to existing fe
 
 |**Feature Group**|**Features**|**More info**|
 |:-----|:-----|:-----|
-|Authentication and Identity Management <br/> | <ul><li>Adds support for OpenID Connect (OIDC) 1.0</li><li>Enhanced People Picker for trusted identity providers</li></ul> | <ul><li>For more information, see [OpenID Connect (OIDC) 1.0 authentication](#OIDCa).</li><li>For more information, see [People Picker improvement for trusted authentication methods](#people).</li></ul> | 
+|Authentication and Identity Management <br/> | <ul><li>Adds support for OpenID Connect (OIDC) 1.0</li><li>Enhanced People Picker for modern authentication</li></ul> | <ul><li>For more information, see [OpenID Connect (OIDC) 1.0 authentication](#OIDCa).</li><li>For more information, see [People Picker improvement for modern authentication](#people).</li></ul> | 
 |Deployment and Upgrade <br/> | <ul><li>Adds support for Windows Server 2022</li><li>Adds support for Windows Server Core</li><li>Supports "N - 2" upgrading from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)</li></ul> | <ul><li>For more information, see [Windows Server 2022](#server).</li><li>For more information, see [Windows Server Core](#core).</li><li>For more information, see [Upgrading directly from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)](#upgrade).</li></ul> |
 |Farm Administration <br/> | <ul><li>Federated service applications support "N - 2" content farms (SharePoint 2016, 2019, and Subscription Edition)</li></ul> | <ul><li>For more information, see [Federated service applications support "N - 2" content farms (SharePoint 2016, 2019, and Subscription Edition)](#fedral).</li></ul> | 
 |PowerShell <br/> | <ul><li>SharePoint PowerShell cmdlets converted from snap-in to module</li></ul> | <ul><li>For more information, see [SharePoint PowerShell cmdlets converted from snap-in to module](#snap).</li></ul> |
@@ -54,13 +54,13 @@ SharePoint Server Subscription Edition supports OIDC authentication with identit
 To set up OIDC authentication in SharePoint Server, see [OpenID Connect 1.0 authentication](../authentication-and-identity-management/oidc-1.0-authentication.md).
 
 <a name="people"> </a>
-### People Picker improvement for trusted authentication methods
+### People Picker improvement for modern authentication
 
-In previous versions of SharePoint Server, if a web application was configured to use a trusted identity provider with the built-in claims provider, then the People Picker would resolve all input as a valid user or group even if it wasn't. Customers had to implement a custom claims provider to ensure the People Picker would only resolve valid users and groups.
+When modern authentication (trusted identity provider) such as SAML 1.1 or OIDC 1.0 is used, the People Picker control can’t search, resolve, and validate users and groups without writing a custom claim provider through C#.
 
 In SharePoint Server Subscription Edition, the People Picker has been enhanced to allow resolving users and groups based on their profiles in the User Profile Application (UPA). UPA must be configured to synchronize users and groups from the trusted identity provider membership store. This allows the People Picker to only resolve valid users and groups without requiring a custom claims provider.
 
-To configure People Picker, see [Enhanced People Picker for trusted authentication method](../authentication-and-identity-management/enhanced-people-picker-for-trusted-authentication-method.md).
+To configure People Picker, see [Enhanced People Picker for modern authentication](../administration/enhanced-people-picker-for-trusted-authentication-method.md).
 
 ## Deployment and Upgrade
 
@@ -103,7 +103,7 @@ SharePoint Server Subscription Edition supports both **N - 1** and **N - 2** ver
 
 For more information:
 
- - To install SharePoint Server Subscription Edition on Windows Server Core, see [Installing SharePoint Server Subscription Edition on Windows Server Core](../install/installing-sharepoint-server-subscription-edition-on-windows-server-core.md).
+ - To install SharePoint Server Subscription Edition, see [Installation overview for SharePoint Server Subscription Edition](../install/install-overview-spserver-se.md).
  
  - To upgrade to SharePoint Server Subscription Edition, see [Upgrade to SharePoint Server Subscription Edition](../deployment-and-upgrade/upgrade-to-sharepoint-server-subscription-edition.md).
  
@@ -120,7 +120,7 @@ In SharePoint Server, some service applications can be shared across server farm
 
  - SharePoint Server 2016 (N - 2)
 
-For more information, see [Share service applications across farms in SharePoint Server](https://docs.microsoft.com/sharepoint/administration/share-service-applications-across-farms).
+For more information, see [Share service applications across farms in SharePoint Server](/sharepoint/administration/share-service-applications-across-farms).
 
 ## PowerShell
 
@@ -197,6 +197,8 @@ SharePoint Server Subscription Edition can render thumbnails of files in the Til
 [Installation overview for SharePoint Server Subscription Edition](../install/install-overview-spserver-se.md)
 
 [System requirements for SharePoint Server Subscription Edition](../install/system-requirements-for-sharepoint-subscription-edition.md)
+
+[Upgrade to SharePoint Server Subscription Edition](../deployment-and-upgrade/upgrade-to-sharepoint-server-subscription-edition.md)
 
 
 
