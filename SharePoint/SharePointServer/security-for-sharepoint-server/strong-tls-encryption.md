@@ -43,4 +43,4 @@ These requirements will apply by default to all SharePoint web applications that
 - `PSConfig.exe -cmd adminvs`
 
 > [!NOTE]
-> This security feature requires SharePoint Server or higher. SharePoint Server will not use this security feature on earlier versions of Windows Server such as Windows Server 2019, regardless of the state of the "Allow Legacy Encryption" setting.
+> Strong TLS encryption by default is not available when SharePoint Server Subscription Edition is deployed with earlier versions of Windows Server. Microsoft recommends deploying SharePoint Server Subscription Edition with Windows Server 2022 or higher.

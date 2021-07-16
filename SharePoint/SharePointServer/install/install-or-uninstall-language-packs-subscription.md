@@ -73,13 +73,16 @@ Language packs are available as individual downloads (one download for each supp
   
  Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-1.	We are going to ship ISO disc images for the language pack installers instead of self-extracting exes. Hence, we should adapt the “mount ISO disc images and double-click on setup.exe…” .
+1. Mount the **ISO disc images** to download disc images for the language pack installers.
+
+2.  Run the setup.exe (`setup.exe`) on your servers.
+
     
-2. On the **Read the Microsoft Software License Terms** page, review the terms, select the **I accept the terms of this agreement** check box, and then click **Continue**.
+3. On the **Read the Microsoft Software License Terms** page, review the terms, select the **I accept the terms of this agreement** check box, and then click **Continue**.
     
-3. The Setup wizard runs and installs the language pack.
+4. The Setup wizard runs and installs the language pack.
     
-4. Rerun the SharePoint Products Configuration Wizard by using the default settings. If you do not run the SharePoint Products Configuration Wizard after you install a language pack, the language pack will not be installed correctly.
+5. Rerun the SharePoint Products Configuration Wizard by using the default settings. If you do not run the SharePoint Products Configuration Wizard after you install a language pack, the language pack will not be installed correctly.
     
     The SharePoint Products Configuration Wizard runs in the language of the base installation of SharePoint Server, not in the language of the language pack that you just installed.
     
@@ -87,7 +90,7 @@ Language packs are available as individual downloads (one download for each supp
   
 Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-1. Click **Start**, point to **Microsoft SharePoint 2019 Products** folder, click **SharePoint Products Configuration Wizard**.
+1. Click **Start**, point to **Microsoft SharePoint Products** folder, click **SharePoint Products Configuration Wizard**.
     
 2. On the **Welcome to SharePoint Products** page, click **Next**.
     
