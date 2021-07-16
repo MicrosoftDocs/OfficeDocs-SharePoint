@@ -8,7 +8,7 @@ ms.date: 07/09/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
@@ -30,7 +30,7 @@ When you upgrade from SharePoint Server 2019 or SharePoint Server 2016to SharePo
 
 ![Phase 1 of the upgrade process: Create SharePoint Subscription Edition farm](../media/CreateFarm_SP2019.png)
   
-|||
+|**Phases**|**Description**|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the first phase in the process to upgrade SharePoint Server 2019 data and sites to SharePoint Server Subscription Edition. The process includes the following phases that must be completed in order:  <li/> Create the SharePoint Server Subscription Edition farm for a database attach upgrade  (this phase). <li/> Copy databases to the new farm for upgrade to SharePoint Server Subscription Edition. <li/>Upgrade service applications to SharePoint Server Subscription Edition. <li/>Upgrade content databases to SharePoint Server Subscription Edition.
 <br/>For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server Subscription Edition](upgrade-databases-subscription-edition.md). |
@@ -119,7 +119,7 @@ The following service applications can be upgraded by performing a services data
 
 - User Profile service
 
-For an overview of how to upgrade these service applications, see [Services upgrade overview for SharePoint Server](overview-of-the-services-upgrade-process.md). For the specific steps to upgrade these service application databases, see [Upgrade service applications to SharePoint Server](upgrade-service-applications-to-sharepoint-server-subscription-edition.md).
+For an overview of how to upgrade these service applications, see [Services upgrade overview for SharePoint Server](overview-of-the-services-upgrade-process-subscription-edition.md). For the specific steps to upgrade these service application databases, see [Upgrade service applications to SharePoint Server](upgrade-service-applications-to-sharepoint-server-subscription-edition.md).
   
 ## Configure farm settings
 <a name="configfarmsettings"> </a>
@@ -143,8 +143,8 @@ And you must configure all new farm-level settings that you want to use, such as
 > [!IMPORTANT]
 > If you had disabled the Workflow Auto Cleanup timer job in your SharePoint Server 2016 environment, make sure that you disable this timer job in your new environment also. If this timer job is enabled in the new environment and disabled in the SharePoint Server 2019 environment, you might lose workflow associations when you upgrade.
   
-In a standard installation, the next step would be to create web applications. However, for upgrade, you create web applications later in the process, after you upgrade the service application databases. For more information, see [Create web applications](upgrade-content-databases.md#CreateWebApps).
+In a standard installation, the next step would be to create web applications. However, for upgrade, you create web applications later in the process, after you upgrade the service application databases. For more information, see [Create web applications](upgrade-content-databases-subscription-edition.md#CreateWebApps).
   
-|||
+|**Phases**|**Description**|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the first phase in the process to upgrade SharePoint Server 2019 or SharePoint Server 2016 data and sites to SharePoint Server Subscription Edition.  <br/>  Next phase: [Copy databases to the new farm for upgrade to SharePoint Server Subscription Edition](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-subscription-edition.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server Subscription Edition](upgrade-to-sharepoint-server-subscription-edition.md).  <br/> |
