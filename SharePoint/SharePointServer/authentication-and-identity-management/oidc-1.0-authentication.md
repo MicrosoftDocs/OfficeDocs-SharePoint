@@ -57,22 +57,6 @@ With SharePoint Server Subscription Edition, the **ImportTrustCertificate** para
 
 ## Setup OIDC authentication in SharePoint Server with AAD
 
-### Overview of federated authentication
-
-In federated authentication, SharePoint processes OIDC tokens issued by a trusted, external Security Token Service (STS) or identity provider (IDP). A user who attempts to log on is redirected to that Security Token Service (STS), which authenticates the user and generates a JSON web token (JWT) token upon successful authentication. SharePoint then processes this token and uses it to create its own and authorizes the user to access the site.
-
-You need to do configurations both in identity provider and SharePoint to make the authentication flow work normally.
-
-1. Configurations in identity provider requires you to register SharePoint web application as trusted party with redirection URL which will redirect client back to SharePoint web application. To do that:
-    - Register redirect URL of SharePoint to IDP so that IDP will pass through JWT token back to the endpoint in SharePoint which will process the token.
-    - Register original URL of SharePoint to IDP so that only authentication request from registered URL can be accepted.
-    - Specify user identifier claim in the token for it to get aligned with SharePoint so that SharePoint Server can know which claim should be used as unique identity for the login user.
-2. Configurations in SharePoint require IDP to be configured through `SPTrustedIdentityTokenIssuer` so that it can be used for SharePoint web application authentication. To do that:
-    - Setup certificates from IDP so that trust can be setup between SharePoint and identity provider.
-    - Setup authentication endpoint from IDP so that authentication will be rely to IDP.
-    - Setup logout endpoint from IDP so that a logout from SharePoint will also result in a logout from IDP.
-    - Align user identifier claim with IDP so that SharePoint is able to know which claim to use to identify a login user.
-
 ### Prerequisites
 
 To perform the configuration, you need the following resources when you configure with Azure Active Directory OIDC:
@@ -183,8 +167,6 @@ You can configure SharePoint to trust Identity provider in the following two way
 
 In this step, you create a `SPTrustedTokenIssuer` that will store the configuration that SharePoint needs to trust AAD OIDC as OIDC provider. Start the SharePoint Management Shell and run the following script to create it:
 
-PowerShell
-
 ```azurepowershell
 # Define claim types
 $email = New-SPClaimTypeMapping "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
@@ -192,7 +174,7 @@ $email = New-SPClaimTypeMapping "http://schemas.xmlsoap.org/ws/2005/05/identity/
 # Public key of the AAD OIDC signing certificate. Please replace <x5c cert string> with the encoded cert string which you get from x5c certificate string of the keys of jwks_uri from Step #1
 $encodedCertStr = <x5c cert string>
 $signingCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2 @(,[System.Convert]::FromBase64String($encodedCertStr))
-# Set the AAD OIDC URL where users are redirected to authenticate. Please replace <tenanted> accordingly
+# Set the AAD OIDC URL where users are redirected to authenticate. Please replace <tenantid> accordingly
 $authendpointurl = "https://login.microsoftonline.com/<tenantid>/oauth2/authorize"
 $registeredissuernameurl = " https://sts.windows.net/<tenantid>/"
 $signouturl = " https://login.microsoftonline.com/<tenantid>/oauth2/logout"
@@ -499,8 +481,6 @@ $f.Farm.Update()
 ### Step 3: Configure SharePoint to Identity Providers
 
 In this step you create a `SPTrustedTokenIssuer` that will store the configuration that SharePoint needs to trust AD FS as OIDC provider. Start the SharePoint Management Shell and run the following script to create it:
-
-PowerShell
 
 ```azurepowershell
 # Define claim types
