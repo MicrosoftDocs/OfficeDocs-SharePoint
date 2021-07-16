@@ -71,8 +71,6 @@ The third stage in the upgrade process upgrades the databases and service applic
 
     - Managed Metadata service application
 
-    - PerformancePoint Services service application
-
     - Search service application
 
     - Secure Store Service application

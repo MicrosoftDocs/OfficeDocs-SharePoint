@@ -83,7 +83,6 @@ You back up the databases in SQL Server Management Studio. A backup copy of the 
 |:-----|:-----|
 |Business Data Connectivity  <br/> |BDC_Service_DB_ _ID_ <br/> |
 |Managed Metadata  <br/> |Managed Metadata Service_ _ID_ <br/> |
-|PerformancePoint  <br/> |PerformancePoint Service Application_ _ID_ <br/> |
 |Secure Store  <br/> |Secure_Store_Service_DB_ _ID_ <br/> |
 
 You do not have to back up the configuration or admin content databases, because you recreated these databases when you set up the SharePoint Server Subscription Edition server farm. Upgrading the configuration or admin content databases and the Central Administration site collection is not supported.

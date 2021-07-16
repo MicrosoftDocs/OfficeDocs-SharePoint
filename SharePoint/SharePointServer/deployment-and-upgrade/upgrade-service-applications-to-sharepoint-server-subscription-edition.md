@@ -59,7 +59,7 @@ To upgrade a service application database, you create a new service application 
 
 1. Start the service instances.
   
-    The first step is to start service instances for the five service applications that you can upgrade: the Business Data Connectivity service, Managed Metadata Web Service, PerformancePoint Services service, Secure Store service, and Search service. Most of these service instances can be started from Central Administration. However the SharePoint Server Search service instance must be started by using PowerShell.
+    The first step is to start service instances for the four service applications that you can upgrade: the Business Data Connectivity service, Managed Metadata Web Service, Secure Store service, and Search service. Most of these service instances can be started from Central Administration. However the SharePoint Server Search service instance must be started by using PowerShell.
 
 2. Create the service applications and upgrade the databases.
 
@@ -74,8 +74,6 @@ To upgrade a service application database, you create a new service application 
   - Search service application
 
   - Secure Store service application
-
-  - PerformancePoint Services service application
 
     The Business Data Connectivity service application automatically creates a proxy and assigns it to the default proxy group when you create the service application.
 
@@ -98,9 +96,7 @@ The following procedures start the service instances.
 
 4. Next to the **Managed Metadata Web Service**, click **Start**.
 
-5. Next to the **PerformancePoint Services service**, click **Start**.
-
-6. Next to the **Secure Store Service**, click **Start**.
+5. Next to the **Secure Store Service**, click **Start**.
 
 The Search service instance must be started by using PowerShell because you cannot start it from Central Administration unless a Search Service application already exists.
 
@@ -359,80 +355,6 @@ To upgrade the Managed Metadata service application, you create the new service 
   -  _DefaultProxyGroup_ adds the Managed Metadata service application proxy to the default proxy group for the local farm.
     
    For more information, see [New-SPMetadataServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPMetadataServiceApplicationProxy?view=sharepoint-ps).
-
-## Upgrade the PerformancePoint Services service application
-<a name="UpgradePPS"> </a>
-
-To upgrade the PerformancePoint Services service application, you create the new service application and upgrade the database, and then create a proxy and add it to the default proxy group.
-  
- **To upgrade the PerformancePoint Services service application by using PowerShell**
-  
-1. Verify that you have the following memberships:
-    
-  - **securityadmin** fixed server role on the SQL Server instance. 
-    
-  - **db_owner** fixed database role on all databases that are to be updated. 
-    
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
-    
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 or SharePoint Server 2016 cmdlets.
-
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
-  
-2. Start the SharePoint Subscription Edition Management Shell.
-
-3. To store the application pool that you want to use as a variable for this service application, at the Microsoft PowerShell command prompt, type the following command:
-    
-  ```
-  $applicationPool = Get-SPServiceApplicationPool -Identity 'SharePoint Web Services default'
-  ```
-
-   Where:
-    
-  -  _SharePoint Web Services default_ is the name of the service application pool that will contain the new service applications. 
-    
-   This cmdlet sets the service application pool as a variable that you can use again in the cmdlets that follow. If you have multiple application pools and have to use a different application pool for a particular service application, repeat this step in the procedure to create each service application to use the appropriate application pool.
-    
-4. To upgrade the PerformancePoint Services service application, at the PowerShell command prompt, type the following command:
-    
-  ```
-  $pps = New-SPPerformancePointServiceApplication -Name 'PerformancePoint Service' -ApplicationPool $applicationPool -DatabaseName 'PerformancePoint Service Application_DB'
-  ```
-
-   Where:
-    
-  -  _PerformancePoint Service_ is the name that you want to give the new PerformancePoint Services service application. 
-    
-  - $applicationpool is the variable that you set earlier to identify the service application pool to use.
-    
-    > [!TIP]
-    > If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format ' _Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet. 
-  
-  -  _PerformancePoint Service Application_DB_ is name of the PerformancePoint Services service application database that you want to upgrade. 
-    
-   This command sets a variable, $pps, that you use when you create the proxy later.
-    
-   For more information, see [New-SPProfileServiceApplication](/powershell/module/sharepoint-server/New-SPProfileServiceApplication?view=sharepoint-ps).
-    
-5. Type the following command to create a proxy for the PerformancePoint Services service application:
-    
-  ```
-  New-SPPerformancePointServiceApplicationProxy -Name ProxyName -ServiceApplication $pps -Default
-  ```
-
-   Where:
-    
-  -  _ProxyName_ is the proxy name that you want to use. 
-    
-  - $pps is the variable that you set earlier to identify the new PerformancePoint Services service application.
-    
-    > [!TIP]
-    > If you do not use the variable $pps, then you must use an ID to identify the PerformancePoint Services service application instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs. 
-  
-  -  _Default_ adds the PerformancePoint Services service application proxy to the default proxy group for the local farm. 
-    
-   For more information, see [New-SPPerformancePointServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPPerformancePointServiceApplicationProxy?view=sharepoint-ps).
 
 ## Upgrade the User Profile service application
 <a name="UpgradeUserProfile"> </a>
