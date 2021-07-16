@@ -1,1 +1,1 @@
-<Token>**APPLIES TO:** ![no](../media/no.png)2013 ![no](../media/no.png)2016 ![no](../media/no.png)2019 ![yes](../media/yes.png)Subscription Edition ![no](../media/no.png)SharePoint in Microsoft 365</Token>
+<Token>**APPLIES TO:** ![no1](../media/no.png)2013 ![no2](../media/no.png)2016 ![no3](../media/no.png)2019 ![yes](../media/yes.png)Subscription Edition ![no4](../media/no.png)SharePoint in Microsoft 365</Token>
