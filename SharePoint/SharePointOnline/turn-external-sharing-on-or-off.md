@@ -32,7 +32,7 @@ For end-to-end guidance around how to configure guest sharing in Microsoft 365, 
 - [Collaborate with guests in a site](/microsoft-365/solutions/collaborate-in-site)
 - [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team)
 
-To change the sharing settings for a site after you've set the organization-level sharing settings, see [Turn external sharing on or off for for a site](change-external-sharing-site.md). To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings).
+To change the sharing settings for a site after you've set the organization-level sharing settings, see [Change sharing settings for a site](change-external-sharing-site.md). To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings).
 
 ## Video demonstration
 
@@ -62,7 +62,7 @@ This video shows how the settings on the Sharing page in the SharePoint admin ce
 
     ![External sharing settings](media/externalsharing.png)
 
-    This setting is for your organization overall. Each site has its own sharing setting which you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
+    This setting is for your organization overall. Each site has its own sharing setting that you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
   
 ### Which option to select...
 

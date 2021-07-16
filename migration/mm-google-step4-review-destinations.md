@@ -29,45 +29,43 @@ If a destination is missing, highlight the row. A panel will appear to the right
 
 ### OneDrive
 
-1. Highlight the row. Under **Destination**, select **Edit**.
-
+1. Highlight the row. Under **Destination**, select **Edit.**
 2. Select **OneDrive** as a destination.
 
-    :::image type="content" alt-text="edit OD destination path" source="media/mm-box-select-od-destination.png":::
+![edit OD destination path](media/mm-box-select-od-destination.png)
 
 3. Select a folder (optional).
 
-    :::image type="content" alt-text="select OneDrive folder path" source="media/mm-box-destination-folder-onedrive.png":::
+![select OneDrive folder path](media/mm-box-destination-folder-onedrive.png)
 
 4. Select **Save path**.
 
 
 ###  SharePoint
 
-1. Highlight the row. Under **Destination**, select **Edit**.
-
+1. Highlight the row. Under **Destination**, select **Edit.**
 2. Select **OneDrive** as a destination.
 
-    :::image type="content" alt-text="edit SP destination path" source="media/mm-box-sp-destination-path.png":::
+![edit SP destination path](media/mm-box-sp-destination-path.png)
 
 3. Select a location where you want to move the content.
 
-    :::image type="content" alt-text="select SP library path" source="media/mm-box-sharepoint-destination-folder.png":::
-
+![select SP library path](media/mm-box-sharepoint-destination-folder.png)
 4. Select **Save path**.
+
 
 
 ### Teams
 
-1. Highlight the row. Under **Destination**, select **Edit.**
 
+1. Highlight the row. Under **Destination**, select **Edit.**
 2. Select **OneDrive** as a destination.
 
-    :::image type="content" alt-text="select teams destination" source="media/mm-box-teams-destination-path.png":::
+![select teams destination](media/mm-box-teams-destination-path.png)
 
 3. Select a channel.
 
-    :::image type="content" alt-text="select teams channel" source="media/mm-box-teams-destination-channel.png":::
+![select teams channel](media/mm-box-teams-destination-channel.png)
 
 4. Select **Save path**.
 
@@ -76,23 +74,22 @@ If a destination is missing, highlight the row. A panel will appear to the right
 
 If you have many destinations to edit, you can choose to upload a bulk destinations CSV file.  Download the *MigrationDestinations.csv* file template to your computer and enter your destinations. Save your file as a .csv file using any name you wish. 
 
-:::image type="content" alt-text="upload destinations for Google accounts bulk" source="media/mm-box-bulk-upload-destination-panel.png":::
+
+![upload destinations for Google accounts bulk](media/mm-box-bulk-upload-destination-panel.png)
 
 1. From the Migrations tab, select **Upload destinations** from the menu bar.
-
 2. Select the file to upload with your destinations.
+4. Select **Save**.  
 
-3. Select **Save**.  
 
-
-> [!Important]
-> Review your destination CSV file before you upload it to make sure you have entered the values in correctly.  The destination file is not validated, and once you have migrated to these destinations it cannot be undone.
+>[!Important]
+>Review your destination CSV file before you upload it to make sure you have entered the values in correctly.  The destination file is not validated, and once you have migrated to these destinations it cannot be undone.
 
 
 [**Step 5: Map identities**](mm-box-step5-map-identities.md)
 
 
-> [!NOTE]
-> Migration Manager Google Workspace isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>[!NOTE]
+>Migration Manager Google Workspace isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

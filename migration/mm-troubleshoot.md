@@ -138,6 +138,8 @@ If errors occurred during installation process:
 
 - Check the network health on the computer on which the agent is installed.
 - If the password of the logged-in Tenant Administrator account has changed, or any other similar, critical changes applied to the Tenant Admin account that would require re-sign in, all of the agents will be disconnected and reinstallation is required on all of them.
+- If the agent failed to auto-upgrade, the version is likely too old. Reinstall the agent.
+- Token expiration can also cause the agent to disconnect.  
 
 
 **Mitigation**

@@ -60,7 +60,7 @@ In previous versions of SharePoint Server, if a web application was configured t
 
 In SharePoint Server Subscription Edition, the People Picker has been enhanced to allow resolving users and groups based on their profiles in the User Profile Application (UPA). UPA must be configured to synchronize users and groups from the trusted identity provider membership store. This allows the People Picker to only resolve valid users and groups without requiring a custom claims provider.
 
-To configure People Picker, see [Enhanced People Picker for trusted authentication method](../authentication-and-identity-management/enhanced-people-picker-for-trusted-authentication-method.md).
+To configure People Picker, see [Enhanced People Picker for modern authentication](../administration/enhanced-people-picker-for-trusted-authentication-method.md).
 
 ## Deployment and Upgrade
 
