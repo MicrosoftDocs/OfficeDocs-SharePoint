@@ -50,10 +50,11 @@ SharePoint Server repair steps are as follows:
     - `/config <config file>` (Where `<config file>` is the path to your writable `config.xml` file)
 
     - `/repair OSERVER`
-    ```
-    "$env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\setup.exe" /config "C:\SharePoint Files\config.xml" /repair OSERVER
 
+    ```powershell
+    "$env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\setup.exe" /config "C:\SharePoint Files\config.xml" /repair OSERVER  
     ```
+
 2. Once SharePoint setup has completed, reboot your test server.
 
 3. Run the following SharePoint PowerShell cmdlets with their appropriate parameters to repair the server in the farm.

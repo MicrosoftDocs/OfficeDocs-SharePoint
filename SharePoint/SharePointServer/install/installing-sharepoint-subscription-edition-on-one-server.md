@@ -156,13 +156,13 @@ Use the following procedure to install and configure the configuration database 
     
 8. On the **Specify Farm Security Settings** page, type a passphrase, and then click **Next**.
 
-Although a passphrase resembles a password, it is usually longer to improve security. It is used to encrypt credentials of accounts that are registered in SharePoint Server. For example, the SharePoint Server server farm administrator service account that you provide when you run the SharePoint Products Configuration Wizard. Ensure that you remember the passphrase, because you must use it every time that you add a server to the farm. Ensure that the passphrase meets the following criteria:
-- Contains at least eight characters
-- Contains at least three of the following four character groups:
-- English uppercase characters (from A through Z)
-- English lowercase characters (from a through z)
-- Numerals (from 0 through 9)
-- Nonalphabetic characters (such as !, $, #, %)
+    Although a passphrase resembles a password, it is usually longer to improve security. It is used to encrypt credentials of accounts that are registered in SharePoint Server. For example, the SharePoint Server server farm administrator service account that you provide when you run the SharePoint Products Configuration Wizard. Ensure that you remember the passphrase, because you must use it every time that you add a server to the farm. Ensure that the passphrase meets the following criteria:
+    - Contains at least eight characters
+    - Contains at least three of the following four character groups:
+    - English uppercase characters (from A through Z)
+    - English lowercase characters (from a through z)
+    - Numerals (from 0 through 9)
+    - Nonalphabetic characters (such as !, $, #, %)
     
 9. On the **Specify Server Role** page, choose the appropriate role, click **Next**.
     
