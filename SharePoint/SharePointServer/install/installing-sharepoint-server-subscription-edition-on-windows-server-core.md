@@ -35,31 +35,45 @@ Windows Server Core support has been introduced with the SharePoint Server relea
 Perform the following steps to install SharePoint Server Subscription Edition on Windows Server Core:
 
 1. Mount the ISO file to your server by using the `Mount-DiskImage` cmdlet, or by specifying it as a virtual drive in your virtual machine manager.
+
     ```
-    Mount-DiskImage -ImagePath "C:\SharePoint Files\16.0.14131.10000_OfficeServer_none_ship_x64_en-us.iso"
+      Mount-DiskImage -ImagePath "C:\SharePoint Files\16.0.14131.10000_OfficeServer_none_ship_x64_en-us.iso
     ```
+
 2. Run the SharePoint prerequisite installer (`prerequisiteinstaller.exe`) on your servers.
+
 3. Copy the **\Files\SetupSilent\config.xml** file from your mounted ISO disk image to a writable location.
+
     ```
     Copy-Item -Path "D:\Files\SetupSilent\config.xml" -Destination "C:\SharePoint Files"
     ```
+
 4. If the `config.xml` file in your writable location has a read-only file attribute, remove it.
+
     ```
     Set-ItemProperty -Path "C:\SharePoint Files\config.xml" -Name IsReadOnly -Value $false
     ```
+
 5. Open the `config.xml` file in your writable location for editing.
+
     ```
     notepad.exe "C:\SharePoint Files\config.xml"
     ```
+
 6. Find and remove the `<!--` and `-->` text strings within the file. Don't remove the text in between these two text strings.
+
 7. Replace the **Enter Product Key Here** text string in the file with your SharePoint Server product key.
+
 8. Save your changes to the `config.xml` file.
+
 9. Run SharePoint setup (`setup.exe`) on your servers in command-line mode. Add the following command-line parameters when launching `setup.exe`:
     - `/config <config file>` (Where `<config file>` is the path to your writable `config.xml` file)
     - `/IAcceptTheLicenseTerms` (Specifying this parameter signifies that you have read, understand, and agree to the license terms of SharePoint Server and Project Server.)
+
     ```
     D:\setup.exe /config "C:\SharePoint Files\config.xml" /IAcceptTheLicenseTerms
     ```
+
 10. Once SharePoint setup has completed, reboot your server.
 
 11. Run the following SharePoint PowerShell cmdlets with their appropriate parameters to create or join a farm.
