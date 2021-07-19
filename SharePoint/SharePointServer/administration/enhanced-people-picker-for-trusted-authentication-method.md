@@ -30,7 +30,7 @@ In SharePoint Server Subscription Edition, People Picker is enhanced to search a
 Follow these configuration steps to make People Picker work:
 
 1. Create a new token issuer using the [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) PowerShell cmdlet.
-    ```
+    ```powershell
     $tokenissuer= New-SPTrustedIdentityTokenIssuer
         -ClaimsMappings <SPClaimMappingPipeBind[]> 
         -Description <String> 
@@ -52,7 +52,7 @@ Follow these configuration steps to make People Picker work:
     - **ClaimsMappings**<br/>
        `ClaimsMappings` specifies the mapping of claims from the original token to a SharePoint token. By using this parameter, SharePoint understands how to generate a SharePoint token when given a specific token from a user profile service application property.<br/>
        It accepts a list of `ClaimTypeMapping` objects, which are created by the [New-SPClaimTypeMapping](/powershell/module/sharepoint-server/new-spclaimtypemapping) cmdlet. Following are examples of `ClaimTypeMapping` objects, that can be to the `ClaimsMappings` parameter:
-        ```
+        ```powershell
         $emailClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
         $upnClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn" -IncomingClaimTypeDisplayName "UPN" -SameAsIncoming
         $roleClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.microsoft.com/ws/2008/06/identity/claims/role" -IncomingClaimTypeDisplayName "Role" -SameAsIncoming
@@ -61,14 +61,14 @@ Follow these configuration steps to make People Picker work:
 
     - **IdentifierClaim** <br/>
        The `IdentifierClaim` parameter specifies which claim type from the trusted STS will be used for the new identity provider. It can be set to the `InputClaimType` of the `ClaimTypeMapping` object created from the [New-SPClaimTypeMapping](/powershell/module/sharepoint-server/new-spclaimtypemapping) cmdlet.
-        ```
+        ```powershell
         -IdentifierClaim $emailClaimMap.InputClaimType
         ```
 
     - **UseUPABackedClaimProvider** <br/>
         This switch parameter enables the People Picker to search and select users and groups from the User Profile service application.
 2. After `$tokenissuer` is created, you can create a claim provider that uses the User Profile service application to search and resolve users and groups in the People Picker and specify that this claim provider will use the created token issuer.
-    ```
+    ```powershell
     $claimprovider = New-SPClaimProvider 
         - AssemblyName "Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c" 
         - Description 
@@ -84,11 +84,11 @@ Follow these configuration steps to make People Picker work:
     - **TrustedLoginProvider** <br/> 
        Specify this parameter as the token issuer that uses this claim provider. This is a new parameter that the user needs to provide when the type of the claim provider is `Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider`
 3. Identify which claim provider must be used for searching and resolving users and groups and add to `SPTrustedIdentityTokenIssuer`.
-    ```
+    ```powershell
     Set-SPTrustedIdentityTokenIssuer <token issuer name> -ClaimProvider <claim provider object> 
     ```
     An example of this command is:
-    ```
+    ```powershell
     Set-SPTrustedIdentityTokenIssuer "ADFS Provider" -ClaimProvider $claimprovider
     ```
 4. You can, now, start synchronizing profiles into the SharePoint User Profile service application from the identity provider that are used in the organization, so that the newly created claim provider can work on the correct data set.<br/><br/>
@@ -139,7 +139,7 @@ Following are the two ways to synchronize user profiles into the SharePoint User
     1. Ensure that the Group object has a property named **SID** of type **groupsid** in the identity provider.<br/>
        You can create a `ClaimTypeMapping` object by using [New-SPClaimTypeMapping](/powershell/module/sharepoint-server/new-spclaimtypemapping) and then provide this object to [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) cmdlet with `-ClaimsMappings` parameter.
 
-        ```
+        ```powershell
         $sidClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.microsoft.com/ws/2008/06/identity/claims/groupsid" -IncomingClaimTypeDisplayName "SID" -SameAsIncoming
         $tokenissuer = New-SPTrustedIdentityTokenIssuer -ClaimsMappings $sidClaimMap, $emailClaimMap …
         ```
@@ -154,7 +154,7 @@ Following are the two ways to synchronize user profiles into the SharePoint User
 6. Change the default User Profile searchable properties so that users can choose which properties can be used to match keywords in the People Picker control.<br/>
 Users can set which properties are searched by the People Picker by following this sample PowerShell script.
     1. Get the property list of the User Profile service application, which is connected with a given web application.
-        ```
+        ```powershell
         $site = $(Get-SPWebApplication $WebApplicationName).Sites[0]
         $context= Get-SPServiceContext $site
         $psm = [Microsoft.Office.Server.UserProfiles.ProfileSubTypeManager]::Get($context)
@@ -163,7 +163,7 @@ Users can set which properties are searched by the People Picker by following th
         ```
 
     2. Search for a list of given property names and set them as searchable. In this example, we set **First Name** and **Last Name** in the User Profile service application as searchable for the People Picker.
-        ```
+        ```powershell
         $PropertyNames = 'FirstName', 'LastName'
         foreach ($p in $PropertyNames) {
             $property = $properties.GetPropertyByName($p)
