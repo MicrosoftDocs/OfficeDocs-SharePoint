@@ -145,19 +145,18 @@ Use the following procedure to install and configure the configuration database 
     
 2. In the **Database name** box, type a name for your configuration database or use the default database name. The default name is SharePoint_Config. 
     
-3. In the **Username** box, type the user name of the farm administrator service account. Ensure that you type the user name in the format DOMAIN\username. 
-    
+3. In the **Username** box, type the user name of the farm administrator service account. Ensure that you type the user name in the format DOMAIN\username.
+
 > [!IMPORTANT]
->     The farm administrator service account is used to access your configuration database. It also acts as the application pool identity account for the SharePoint Central Administration application pool, and it is the account under which the Microsoft SharePoint Foundation Timer service runs. The SharePoint Products Configuration Wizard adds this account to the SQL Server Login accounts, the SQL Server **dbcreator** server role, and the SQL Server **securityadmin** server role. The user account that you specify as the farm administrator service account has to be a domain user account. However, it does not have to be a member of any specific security group on your SharePoint servers or your database servers. We recommend that you follow the principle of least-privilege and specify a user account that is not a member of the Administrators group on your SharePoint servers or your database servers. 
+> The farm administrator service account is used to access your configuration database. It also acts as the application pool identity account for the SharePoint Central Administration application pool, and it is the account under which the Microsoft SharePoint Foundation Timer service runs. The SharePoint Products Configuration Wizard adds this account to the SQL Server Login accounts, the SQL Server **dbcreator** server role, and the SQL Server **securityadmin** server role. The user account that you specify as the farm administrator service account has to be a domain user account. However, it does not have to be a member of any specific security group on your SharePoint servers or your database servers. We recommend that you follow the principle of least-privilege and specify a user account that is not a member of the Administrators group on your SharePoint servers or your database servers.    
     
 4. In the **Password** box, type the user password. 
     
 7. Click **Next**.
     
 8. On the **Specify Farm Security Settings** page, type a passphrase, and then click **Next**.
-    
-Although a passphrase resembles a password, it is usually longer to improve security. It is used to encrypt credentials of accounts that are registered in SharePoint Server. For example, the SharePoint Server server farm administrator service account that you provide when you run the SharePoint Products Configuration Wizard. Ensure that you remember the passphrase, because you must use it every time that you add a server to the farm.
-- Ensure that the passphrase meets the following criteria:
+
+Although a passphrase resembles a password, it is usually longer to improve security. It is used to encrypt credentials of accounts that are registered in SharePoint Server. For example, the SharePoint Server server farm administrator service account that you provide when you run the SharePoint Products Configuration Wizard. Ensure that you remember the passphrase, because you must use it every time that you add a server to the farm. Ensure that the passphrase meets the following criteria:
 - Contains at least eight characters
 - Contains at least three of the following four character groups:
 - English uppercase characters (from A through Z)
@@ -180,9 +179,9 @@ Although a passphrase resembles a password, it is usually longer to improve secu
   
 13. On the **Configuration Successful** page, click **Finish**. When the wizard closes, setup opens the web browser and connects to Central Administration.
     
-    If the SharePoint Products Configuration Wizard fails, check the PSCDiagnostics log files, which are located on the drive on which SharePoint Server Subscription Edition are installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS folder.
+    If the SharePoint Products Configuration Wizard fails, check the PSCDiagnostics log files, which are located on the drive on which SharePoint Server Subscription Edition are installed, in the`%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS` folder.
     
-    If you are prompted for your user name and password, you might have to add the SharePoint Central Administration web site to the list of trusted sites and configure user authentication settings in Internet Explorer. You might also want to disable the Internet Explorer Enhanced Security settings. If you see a proxy server error message, you might have to configure proxy server settings so that local addresses bypass the proxy server. Instructions for configuring proxy server settings are provided in the following section. For more information about how to configure browser and proxy settings, see [Configure browser settings](install-sharepoint-server-2016-on-one-server.md#configurebrowser).
+    If you are prompted for your user name and password, you might have to add the SharePoint Central Administration website to the list of trusted sites and configure user authentication settings in Internet Explorer. You might also want to disable the Internet Explorer Enhanced Security settings. If you see a proxy server error message, you might have to configure proxy server settings so that local addresses bypass the proxy server. Instructions for configuring proxy server settings are provided in the following section. For more information about how to configure browser and proxy settings, see [Configure browser settings](install-sharepoint-server-2016-on-one-server.md#configurebrowser).
     
 ### Configure browser settings
 <a name="configurebrowser"> </a>
@@ -202,7 +201,7 @@ If you receive a proxy server error message, perform the following procedure:
  **To add the SharePoint Central Administration website to the list of trusted sites**
   
 1. Verify that the user account that completes this procedure has the following credentials:
-- The user account is a member of the Administrators group on the computer on which you are performing the procedure.
+   - The user account is a member of the Administrators group on the computer on which you are performing the procedure.
     
 2. In Internet Explorer, on the **Tools** menu, click **Internet Options**.
     
@@ -219,7 +218,7 @@ If you receive a proxy server error message, perform the following procedure:
  **To disable Internet Explorer Enhanced Security settings**
   
 1. Verify that the user account that completes this procedure has the following credentials:
-- The user account is a member of the Administrators group on the computer on which you are performing the procedure. 
+   - The user account is a member of the Administrators group on the computer on which you are performing the procedure. 
 
 2. Click **Start**, point to **All Apps**, point to **Administrative Tools**, and then click **Server Manager**.
     
@@ -234,7 +233,7 @@ If you receive a proxy server error message, perform the following procedure:
  **To configure proxy server settings to bypass the proxy server for local addresses**
   
 1. Verify that the user account that completes this procedure has the following credentials:
--  The user account is a member of the Administrators group on the computer on which you are performing the procedure.
+   - The user account is a member of the Administrators group on the computer on which you are performing the procedure.
     
 2. In Internet Explorer, on the **Tools** menu, click **Internet Options**.
     
@@ -267,17 +266,16 @@ You have now completed setup and the initial configuration of SharePoint Server.
     
 3. On the **Help Make SharePoint Better** page, click one of the following options, and then click **OK**:
   
-- **Yes, I am willing to participate (Recommended.)**
--  **No, I don't want to participate.**
+    - **Yes, I am willing to participate (Recommended.)**
+    -  **No, I don't want to participate.**
     
 4. On the **Configure your SharePoint farm** page, next to **Yes, walk me through the configuration of my farm using this wizard**, click **Start the Wizard**.
     
-5. On the **Service Applications and Services** page, in the **Service Account** section, click the service account option that you want to use to configure your services. 
-> [!IMPORTANT]
+5. On the **Service Applications and Services** page, in the **Service Account** section, click the service account option that you want to use to configure your services.
 
->     For security reasons, we recommend that you use a different account from the farm administrator account to configure services in the farm. 
->     
->     If you decide to use an existing managed account — that is, an account of which SharePoint Server Subscription Edition is aware — make sure that you click that option before you continue.
+    > [!IMPORTANT]
+    > For security reasons, we recommend that you use a different account from the farm administrator account to configure services in the farm.
+    If you decide to use an existing managed account — that is, an account of which SharePoint Server Subscription Edition is aware — make sure that you click that option before you continue.
     
 6. In the **Services** section, review the services that you want to use in the farm, and then click **Next**.
   
