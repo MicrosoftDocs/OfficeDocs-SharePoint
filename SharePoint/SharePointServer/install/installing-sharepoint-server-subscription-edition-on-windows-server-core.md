@@ -36,29 +36,29 @@ Perform the following steps to install SharePoint Server Subscription Edition on
 
 1. Mount the ISO file to your server by using the `Mount-DiskImage` cmdlet, or by specifying it as a virtual drive in your virtual machine manager.
 
-    ```
-      Mount-DiskImage -ImagePath "C:\SharePoint Files\16.0.14131.10000_OfficeServer_none_ship_x64_en-us.iso
-    ```
+```azurePowerShell
+Mount-DiskImage -ImagePath "C:\SharePoint Files\16.0.14131.10000_OfficeServer_none_ship_x64_en-us.iso
+```
 
 2. Run the SharePoint prerequisite installer (`prerequisiteinstaller.exe`) on your servers.
 
 3. Copy the **\Files\SetupSilent\config.xml** file from your mounted ISO disk image to a writable location.
 
-    ```
-    Copy-Item -Path "D:\Files\SetupSilent\config.xml" -Destination "C:\SharePoint Files"
-    ```
+```azurePowerShell
+Copy-Item -Path "D:\Files\SetupSilent\config.xml" -Destination "C:\SharePoint Files"
+```
 
 4. If the `config.xml` file in your writable location has a read-only file attribute, remove it.
 
-    ```
-    Set-ItemProperty -Path "C:\SharePoint Files\config.xml" -Name IsReadOnly -Value $false
-    ```
+```azurePowerShell
+Set-ItemProperty -Path "C:\SharePoint Files\config.xml" -Name IsReadOnly -Value $false
+```
 
 5. Open the `config.xml` file in your writable location for editing.
 
-    ```
-    notepad.exe "C:\SharePoint Files\config.xml"
-    ```
+```azurePowerShell
+notepad.exe "C:\SharePoint Files\config.xml"
+```
 
 6. Find and remove the `<!--` and `-->` text strings within the file. Don't remove the text in between these two text strings.
 
@@ -70,9 +70,9 @@ Perform the following steps to install SharePoint Server Subscription Edition on
     - `/config <config file>` (Where `<config file>` is the path to your writable `config.xml` file)
     - `/IAcceptTheLicenseTerms` (Specifying this parameter signifies that you have read, understand, and agree to the license terms of SharePoint Server and Project Server.)
 
-    ```
-    D:\setup.exe /config "C:\SharePoint Files\config.xml" /IAcceptTheLicenseTerms
-    ```
+```azurePowerShell
+D:\setup.exe /config "C:\SharePoint Files\config.xml" /IAcceptTheLicenseTerms
+```
 
 10. Once SharePoint setup has completed, reboot your server.
 
