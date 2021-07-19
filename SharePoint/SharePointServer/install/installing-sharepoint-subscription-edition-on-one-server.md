@@ -170,8 +170,8 @@ Use the following procedure to install and configure the configuration database 
     >  For a single server farm, we recommend choosing the **Single Server Farm** role, although you can select a **Custom** role if you want to individually manage the services instances that run on the server. You can change the role of a server later if you change your mind or want to expand your farm by adding additional servers. 
   
 10. On the **Configure SharePoint Central Administration Web Application** page, do the following:
--  Either select the **Specify port number** check box and type the port number that you want the SharePoint Central Administration web application to use, or leave the **Specify port number** check box cleared if you want to use the default port number.
-- Click either **NTLM** or **Negotiate (Kerberos)**.
+    - Either select the **Specify port number** check box and type the port number that you want the SharePoint Central Administration web application to use, or leave the **Specify port number** check box cleared if you want to use the default port number.
+    - Click either **NTLM** or **Negotiate (Kerberos)**.
     
 11. Click **Next**.
     

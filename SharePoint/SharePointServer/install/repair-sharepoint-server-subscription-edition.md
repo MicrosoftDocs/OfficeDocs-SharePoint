@@ -27,20 +27,35 @@ SharePoint Server repair steps are as follows:
 ## Repair on Windows Server with Desktop Experience
 
 1. Click **Start**.
+
 2. Click **Settings**.
+
 3. Click **Apps**.
+
 4. Click **Microsoft SharePoint Subscription Edition Preview**.
+
 5. Click **Modify**.
+
 6. If prompted by the User Account Control (UAC) consent dialog, click **Yes** to allow the Microsoft Setup Bootstrapper app to make changes to your device.
+
 7. In the Microsoft SharePoint Server Subscription Edition Preview setup application, select **Repair** and then click **Continue**.
+
 8. After setup finishes repairing SharePoint, click **Close** to exit.
+
 9. If prompted to reboot your computer, click **Yes** to reboot.
+
 10. After the computer reboots, launch the SharePoint Products Configuration Wizard.
+
 11. Click **Next**.
+
 12. If prompted to automatically start or reset services, click **Yes**.
+
 13. In the Modify server farm Settings page, select **Do not disconnect from this server farm** and then click **Next**.
+
 14. If prompted whether to modify the SharePoint Central Administration web application settings, select **No, this machine will continue to host the web site** and then, click **Next**.
+
 15. Click **Next** to begin the repair operation.
+
 16. After the repair operation has finished, click **Finish**.
 
 ## Repair on Windows Server Core

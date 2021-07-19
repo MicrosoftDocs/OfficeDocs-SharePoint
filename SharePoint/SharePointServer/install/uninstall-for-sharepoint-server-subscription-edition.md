@@ -28,14 +28,23 @@ SharePoint Server uninstallation steps are as follows:
 ## Uninstall on Windows Server with Desktop Experience
 
 1. Click **Start**.
+
 2. Click **Settings**.
+
 3. Click **Apps**.
+
 4. Click **Microsoft SharePoint Subscription Edition Preview**.
+
 5. Click **Uninstall**.
+
 6. When prompted that this app and its related information will be uninstalled, click **Uninstall**.
+
 7. If prompted by the User Account Control (UAC) consent dialog, click **Yes** to allow the Microsoft Setup Bootstrapper app to make changes to your device.
+
 8. When prompted if you are sure you want to remove Microsoft SharePoint Server Subscription Edition Preview from your computer, click **Yes**.
+
 9. When prompted with a warning asking if you want to uninstall now, click **OK**.
+
 10. After setup finishes uninstalling SharePoint, click **Close** to exit.
 
 ## Uninstall on Windows Server Core
