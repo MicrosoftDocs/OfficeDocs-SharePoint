@@ -24,7 +24,7 @@ description: "Create and configure a SharePoint Server Subscription Edition farm
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-When you upgrade from SharePoint Server 2019 or SharePoint Server 2016to SharePoint Server Subscription Edition, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. Before you can upgrade the content, you must configure a new server or server farm by using SharePoint Server Subscription Edition. This article lists the items that you have to configure when you create that new environment.
+When you upgrade from SharePoint Server 2019 or SharePoint Server 2016 to SharePoint Server Subscription Edition, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. Before you can upgrade the content, you must configure a new server or server farm by using SharePoint Server Subscription Edition. This article lists the items that you have to configure when you create that new environment.
   
 **Phase 1 of the upgrade process: Create SharePoint Server Subscription Edition farm**
 
@@ -32,7 +32,7 @@ When you upgrade from SharePoint Server 2019 or SharePoint Server 2016to SharePo
   
 |**Phases**|**Description**|
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the first phase in the process to upgrade SharePoint Server 2019 data and sites to SharePoint Server Subscription Edition. The process includes the following phases that must be completed in order:  <li/> Create the SharePoint Server Subscription Edition farm for a database attach upgrade  (this phase). <li/> Copy databases to the new farm for upgrade to SharePoint Server Subscription Edition. <li/>Upgrade service applications to SharePoint Server Subscription Edition. <li/>Upgrade content databases to SharePoint Server Subscription Edition.
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the first phase in the process to upgrade SharePoint Server 2019 or SharePoint Server 2016 data and sites to SharePoint Server Subscription Edition. The process includes the following phases that must be completed in order:  <li/> Create the SharePoint Server Subscription Edition farm for a database attach upgrade  (this phase). <li/> Copy databases to the new farm for upgrade to SharePoint Server Subscription Edition. <li/>Upgrade service applications to SharePoint Server Subscription Edition. <li/>Upgrade content databases to SharePoint Server Subscription Edition.
 <br/>For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server Subscription Edition](upgrade-databases-subscription-edition.md). |
 
 ## Before you begin
@@ -52,7 +52,7 @@ Before you create the SharePoint Server Subscription Edition farm, review the fo
 <a name="Before"> </a>
 
 > [!IMPORTANT]
-> The section explains how to configure service applications, except for the Business Data Connectivity service application which applies to SharePoint Server 2019.
+> The section explains how to configure service applications, except for the Business Data Connectivity service application which applies to SharePoint Server 2019 and SharePoint Server 2016.
   
 Before you start to upgrade, you must collect information and settings about your existing environment. You have to know what is in your SharePoint Server 2019 environment before you can start to build your SharePoint Server Subscription Edition environment. Gather information such as the following:
   
@@ -91,7 +91,7 @@ Before you can upgrade your databases, you must use SharePoint Server Subscripti
 3. Install all language packs that you want in your environment.
 
     > [!NOTE]
-    > For more information about how to install available language packs, see [Install or uninstall language packs for SharePoint Server 2016](../install/install-or-uninstall-language-packs-0.md).
+    > For more information about how to install available language packs, see [Install or uninstall language packs for SharePoint Servers Subscription Edition](../install/install-or-uninstall-language-packs-subscription.md).
   
 4. Run the SharePoint Products Configuration Wizard to configure your server or servers.
 
@@ -103,7 +103,7 @@ For step-by-step instructions for these tasks, see [Install SharePoint Server Su
 ## Configure service applications
 <a name="configfarm"> </a>
 
-You must create the service applications on your new farm before you upgrade your content databases. There are some service applications that can be upgraded from SharePoint Server 2019 to SharePoint Server Subscription Edition. The steps in [Install SharePoint Server Subscription Edition](../install/install-overview-spserver-se.md) describe how to use the Farm Configuration Wizard to enable all service applications. However, you should not use the Farm Configuration Wizard to enable the service applications that you want to upgrade.
+You must create the service applications on your new farm before you upgrade your content databases. There are some service applications that can be upgraded from SharePoint Server 2019 and SharePoint Server 2016 to SharePoint Server Subscription Edition. The steps in [Install SharePoint Server Subscription Edition](../install/install-overview-spserver-se.md) describe how to use the Farm Configuration Wizard to enable all service applications. However, you should not use the Farm Configuration Wizard to enable the service applications that you want to upgrade.
   
 The following service applications can be upgraded by performing a services database upgrade:
   
@@ -139,7 +139,7 @@ And you must configure all new farm-level settings that you want to use, such as
 - Settings and schedules for timer jobs
 
 > [!IMPORTANT]
-> If you had disabled the Workflow Auto Cleanup timer job in your SharePoint Server 2016 environment, make sure that you disable this timer job in your new environment also. If this timer job is enabled in the new environment and disabled in the SharePoint Server 2019 environment, you might lose workflow associations when you upgrade.
+> If you had disabled the Workflow Auto Cleanup timer job in your SharePoint Server 2016 or SharePoint Server 2019 environment, make sure that you disable this timer job in your new environment also. If this timer job is enabled in the new environment and disabled in the SharePoint Server 2019 or SharePoint Server 2016 environment, you might lose workflow associations when you upgrade.
   
 In a standard installation, the next step would be to create web applications. However, for upgrade, you create web applications later in the process, after you upgrade the service application databases. For more information, see [Create web applications](upgrade-content-databases-subscription-edition.md#CreateWebApps).
   

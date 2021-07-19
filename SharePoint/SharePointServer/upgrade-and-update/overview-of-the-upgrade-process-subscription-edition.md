@@ -109,7 +109,7 @@ A server farm administrator upgrades the My Site host and then individual users 
 > [!NOTE]
 > A server farm administrator can choose to force an upgrade of My Sites without waiting for users to upgrade them. For details and steps, read [Upgrade site collections to SharePoint Server Subscription Edition](upgrade-a-site-collection-subscription-edition.md).
 
-### Upgrade other SharePoint Server 2019 site collections
+### Upgrade other SharePoint Server 2019 and SharePoint Server 2016 site collections
 <a name="SiteCollections"> </a>
 
 For information about how to upgrade a site collection, see [Upgrade site collections to SharePoint Server Subscription Edition](upgrade-a-site-collection-subscription-edition.md).
