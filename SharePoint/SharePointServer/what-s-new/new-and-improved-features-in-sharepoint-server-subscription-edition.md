@@ -51,7 +51,7 @@ SharePoint Server Subscription Edition adds support for the OpenID Connect (OIDC
 
 SharePoint Server Subscription Edition supports OIDC authentication with identity providers such as Azure Active Directory (AAD), Active Directory Federation Services (AD FS) 2016 or higher, and third-party identity providers that implement the OIDC 1.0 protocol.
 
-To set up OIDC authentication in SharePoint Server, see [OpenID Connect 1.0 authentication](../security-for-sharepoint-server/oidc-1.0-authentication.md).
+To set up OIDC authentication in SharePoint Server, see [OpenID Connect 1.0 authentication](../security-for-sharepoint-server/oidc-1-0-authentication.md).
 
 <a name="people"> </a>
 ### People Picker improvement for modern authentication
@@ -67,17 +67,23 @@ To configure People Picker, see [Enhanced People Picker for modern authenticatio
 <a name="server"> </a>
 ### Windows Server 2022
 
-Windows Server 2022 includes various new features and improvements in virtualization, networking, security, and more, such as:
+Windows Server 2022 includes multiple new features and improvements in security, virtualization, networking, and more, such as:
 
- - Performance improvements in the Hyper-V virtual switch to reduce the CPU load of virtual machine network communication.
- 
- - Performance improvements in both TCP and UDP networking to maximize bandwidth, minimizing packet loss, and reduce CPU load.
- 
- - Support for TLS 1.3, the latest and strongest connection encryption standard.
- 
- - Support for AES-256-GCM encryption in SMB file sharing, along with compressed file transfers over the network when using the `robocopy.exe` and `xcopy.exe` tools with the `/compress` parameter.
- 
-SharePoint Server Subscription Edition supports additional security features when deployed with Windows Server 2022 or higher such as support for TLS 1.3 and strong TLS encryption by default. 
+  - **Security**
+  
+     Secured-core server provides advanced protection against increasingly sophisticated attacks through hardware root-of-trust, firmware protection, and virtualization-based security. Network security is strengthened through the support of TLS 1.3, DNS-over-HTTPS (DoH), and stronger SMB file share encryption.
+  
+  - **Networking**
+  
+    Performance improvements in both TCP and UDP networking maximize bandwidth, minimize packet loss, and reduce CPU load. In addition, SMB compression allows files to be compressed as they’re transferred over the network for faster file transfers.
+  
+  - **Virtualization**
+  
+    Performance improvements in the Hyper-V virtual switch reduces the CPU load of virtual machine network communication. Nested virtualization support has also been added for AMD processors.
+
+For more information about Windows Server 2022, see [What’s new in Windows Server 2022](/windows-server/windows-server-2022/get-started/whats-new).
+
+SharePoint Server Subscription Edition supports additional security features when deployed with Windows Server 2022 such as support for TLS 1.3 and strong TLS encryption by default. 
 
 > [!NOTE]
 > These security features are not available when SharePoint Server Subscription Edition is deployed with earlier versions of Windows Server. Microsoft recommends deploying SharePoint Server Subscription Edition with Windows Server 2022 or higher.
@@ -89,7 +95,7 @@ Windows Server Core is a leaner Windows Server deployment type compared to the c
 
 SharePoint Server Subscription Edition adds support for the Windows Server Core deployment type with both Windows Server 2019 and Windows Server 2022. The Windows Server Desktop Experience deployment type remains supported with both Windows Server 2019 and Windows Server 2022.
 
-For more information, see [Installing SharePoint Server Subscription Edition on Windows Server Core](../install/installing-sharepoint-server-subscription-edition-on-windows-server-core.md)
+For more information about Windows Server Core, see [What is the Server Core installation option in Windows Server](/windows-server/administration/server-core/what-is-server-core). For guidance on installing SharePoint Server Subscription Edition on Windows Server Core, see [Installing SharePoint Server Subscription Edition on Windows Server Core](../install/installing-sharepoint-server-subscription-edition-on-windows-server-core.md).
 
 <a name="upgrade"> </a>
 ### Upgrading directly from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)
