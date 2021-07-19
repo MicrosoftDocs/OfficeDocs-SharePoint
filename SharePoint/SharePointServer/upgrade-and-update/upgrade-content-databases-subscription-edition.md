@@ -108,32 +108,32 @@ Before you attach the content databases to the web applications, use the [Test-S
   
 1. Verify that you have the following memberships:
 
-  - **securityadmin** fixed server role on the SQL Server instance.
+    - **securityadmin** fixed server role on the SQL Server instance.
 
-  - **db_owner** fixed database role on all databases that are to be updated.
+    - **db_owner** fixed database role on all databases that are to be updated.
 
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+    - Administrators group on the server on which you are running the PowerShell cmdlets.
 
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 and SharePoint Server 2016 cmdlets.
+      An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 and SharePoint Server 2016 cmdlets.
 
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+      > [!NOTE]
+      > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
   
 2. Start the SharePoint Subscription Edition Management Shell.
 
 3. At the PowerShell command prompt, type the following command:
 
-  ```
-  Test-SPContentDatabase -Name DatabaseName -WebApplication URL
-  ```
+    ```powershell
+    Test-SPContentDatabase -Name DatabaseName -WebApplication URL
+    ```
 
-    Where:
+      Where:
 
-      - DatabaseName_ is the name of the database that you want to test.
+    - DatabaseName_ is the name of the database that you want to test.
 
-      - URL_ is the URL for the web application that will host the sites.
+    - URL_ is the URL for the web application that will host the sites.
 
-For more information, see Test-SPContentDatabase.
+    For more information, see Test-SPContentDatabase.
   
 ## Attach a content database to a web application and upgrade the database
 <a name="AddDB"> </a>
@@ -168,32 +168,32 @@ By default, when you created the web applications in the new SharePoint Server S
 
     Verify that you have the following memberships:
 
-  - **securityadmin** fixed server role on the SQL Server instance.
+      - **securityadmin** fixed server role on the SQL Server instance.
 
-  - **db_owner** fixed database role on all databases that are to be updated.
+      - **db_owner** fixed database role on all databases that are to be updated.
 
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+      - Administrators group on the server on which you are running the PowerShell cmdlets.
 
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server Subscription Edition cmdlets.
+        An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server Subscription Edition cmdlets.
 
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+        > [!NOTE]
+        > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
   
 2. Start the SharePoint Subscription Edition Management Shell.
 
 3. At the PowerShell command prompt, type the following command and then press **ENTER**:
 
-  ```
-  Mount-SPContentDatabase -Name DatabaseName -DatabaseServer ServerName -WebApplication URL
-  ```
+    ```powershell
+    Mount-SPContentDatabase -Name DatabaseName -DatabaseServer ServerName -WebApplication URL
+    ```
 
     Where:
 
-  -  _DatabaseName_ is the name of the database that you want to upgrade.
+    - _DatabaseName_ is the name of the database that you want to upgrade.
 
-  -  _ServerName_ is server on which the database is stored.
+    - _ServerName_ is server on which the database is stored.
 
-  -  _URL_ is the URL for the web application that will host the sites.
+    - _URL_ is the URL for the web application that will host the sites.
 
 For more information, see [Mount-SPContentDatabase](/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps). After the databases are upgraded, the site collections are automatically upgraded. For additional information on how to upgrade a site collection, see [Upgrade a site collection to SharePoint Server Subscription Edition](upgrade-a-site-collection-subscription-edition.md).
 
@@ -233,26 +233,26 @@ After you attach a database, you can use the **Upgrade Status** page in Central 
   
 1. Verify that you have the following memberships:
 
-  - **securityadmin** fixed server role on the SQL Server instance.
+    - **securityadmin** fixed server role on the SQL Server instance.
 
-  - **db_owner** fixed database role on all databases that are to be updated.
+    - **db_owner** fixed database role on all databases that are to be updated.
 
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+    - Administrators group on the server on which you are running the PowerShell cmdlets.
 
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server Subscription Edition cmdlets.
+      An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server Subscription Edition cmdlets.
 
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+      > [!NOTE]
+      > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
   
 2. Start the SharePoint Subscription Edition Management Shell.
 
 3. At the PowerShell command prompt, type the following command:
 
-  ```
-  Get-SPContentDatabase | ft Name, NeedsUpgradeIncludeChildren
-  ```
+    ```powershell
+    Get-SPContentDatabase | ft Name, NeedsUpgradeIncludeChildren
+    ```
 
-This cmdlet returns a table-style list of databases in your farm and indicates whether the database needs an upgrade to SharePoint Server Subscription Edition.
+    This cmdlet returns a table-style list of databases in your farm and indicates whether the database needs an upgrade to SharePoint Server Subscription Edition.
   
 ## Attach the remaining databases
 <a name="AddOtherDBs"> </a>

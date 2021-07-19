@@ -69,13 +69,13 @@ To upgrade a service application database, you create a new service application 
 
     After you have upgraded the service application databases, you create the proxies for the service applications and add them to the default proxy group. You must create proxies for the following service applications:
 
-  - Managed Metadata service application
+    - Managed Metadata service application
 
-  - Search service application
+    - Search service application
 
-  - Secure Store service application
+    - Secure Store service application
 
-    The Business Data Connectivity service application automatically creates a proxy and assigns it to the default proxy group when you create the service application.
+      The Business Data Connectivity service application automatically creates a proxy and assigns it to the default proxy group when you create the service application.
 
 4. Verify that the proxies are in the default group
 
@@ -106,33 +106,33 @@ The Search service instance must be started by using PowerShell because you cann
  **To start the Search service instance by using PowerShell**
   
 1. Verify that you have the following memberships:
-    
-  - **securityadmin** fixed server role on the SQL Server instance. 
-    
-  - **db_owner** fixed database role on all databases that are to be updated. 
-    
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
-    
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server Subscription Edition cmdlets.
 
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+    - **securityadmin** fixed server role on the SQL Server instance. 
+
+    - **db_owner** fixed database role on all databases that are to be updated. 
+
+    - Administrators group on the server on which you are running the PowerShell cmdlets.
+
+      An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server Subscription Edition cmdlets.
+
+      > [!NOTE]
+      > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
   
 2. Start the SharePoint Subscription Edition Management Shell.
 
 3. To start the Search service instance, at the Microsoft PowerShell command prompt, type the following commands and press **ENTER** after each one:
 
-  ```
-  $SearchInst = Get-SPEnterpriseSearchServiceInstance
-  # Stores the identity for the Search service instance on this server as a variable 
-  ```
+    ```powershell
+    $SearchInst = Get-SPEnterpriseSearchServiceInstance
+        # Stores the identity for the Search service instance on this server as a variable
+    ```
 
-  ```
-  Start-SPServiceInstance $SearchInst
-  # Starts the service instance
-  ```
+    ```powershell
+    Start-SPServiceInstance $SearchInst
+        # Starts the service instance
+    ```
 
-For more information, see [Get-SPEnterpriseSearchServiceInstance](/powershell/module/sharepoint-server/get-spenterprisesearchserviceinstance?view=sharepoint-ps) and [Start-SPServiceInstance](/powershell/module/sharepoint-server/start-spserviceinstance?view=sharepoint-ps).
+    For more information, see [Get-SPEnterpriseSearchServiceInstance](/powershell/module/sharepoint-server/get-spenterprisesearchserviceinstance?view=sharepoint-ps) and [Start-SPServiceInstance](/powershell/module/sharepoint-server/start-spserviceinstance?view=sharepoint-ps).
   
 ## Upgrade the Secure Store service application
 <a name="UpgradeSecureStore"> </a>
@@ -143,90 +143,90 @@ To upgrade the Secure Store service application, you create the new service appl
   
 1. Verify that you have the following memberships:
 
-  - **securityadmin** fixed server role on the SQL Server instance.
+    - **securityadmin** fixed server role on the SQL Server instance.
 
-  - **db_owner** fixed database role on all databases that are to be updated.
+    - **db_owner** fixed database role on all databases that are to be updated.
 
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+    - Administrators group on the server on which you are running the PowerShell cmdlets.
 
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets.
+      An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets.
 
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+      > [!NOTE]
+      > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
   
 2. Start the SharePoint Subscription Edition Management Shell.
 
 3. To store the application pool that you want to use as a variable for this service application, at the Microsoft PowerShell command prompt, type the following command:
 
-  ```
-  $applicationPool = Get-SPServiceApplicationPool -Identity 'SharePoint Web Services default'
-  ```
+    ```powershell
+    $applicationPool = Get-SPServiceApplicationPool -Identity 'SharePoint Web Services default'
+    ```
 
    Where:
-    
-  -  _SharePoint Web Services default_ is the name of the service application pool that will contain the new service applications. This is the default service application pool. You can specify a different service application pool. 
-    
-   This cmdlet sets the service application pool as a variable that you can use again in the cmdlets that follow. If you have multiple application pools and have to use a different application pool for a particular service application, repeat this step in the procedure to create each service application to use the appropriate application pool.
-    
+
+    - _SharePoint Web Services default_ is the name of the service application pool that will contain the new service applications. This is the default service application pool. You can specify a different service application pool. 
+
+    This cmdlet sets the service application pool as a variable that you can use again in the cmdlets that follow. If you have multiple application pools and have to use a different application pool for a particular service application, repeat this step in the procedure to create each service application to use the appropriate application pool.
+
 4. To upgrade the Secure Store service application, at the  PowerShell command prompt, type the following command:
-    
-  ```
-  $sss = New-SPSecureStoreServiceApplication -Name 'Secure Store' -ApplicationPool $applicationPool -DatabaseName 'SecureStore_Upgrade_DB' -AuditingEnabled
-  ```
+
+    ```powershell
+    $sss = New-SPSecureStoreServiceApplication -Name 'Secure Store' -ApplicationPool $applicationPool -DatabaseName 'SecureStore_Upgrade_DB' -AuditingEnabled
+    ```
 
    Where:
-    
-  -  _SecureStore_ is the name that you want to give the new Secure Store service application. 
-    
-  - $applicationpool is the variable that you set earlier to identify the service application pool to use.
-    
-    > [!TIP]
-    > If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format ' _Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet.
-  
-  -  _SecureStore_Upgrade_DB_ is the name of the service application database that you want to upgrade.
-    
-   This command sets a variable, $sss, that you use when you create the proxy later.
-    
-   For more information, see [New-SPSecureStoreApplication](/powershell/module/sharepoint-server/New-SPSecureStoreApplication?view=sharepoint-ps).
-    
+
+    - _SecureStore_ is the name that you want to give the new Secure Store service application.
+
+    - $applicationpool is the variable that you set earlier to identify the service application pool to use.
+
+      > [!TIP]
+      > If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format ' _Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet.
+
+    - _SecureStore_Upgrade_DB_ is the name of the service application database that you want to upgrade.
+
+    This command sets a variable, $sss, that you use when you create the proxy later.
+
+    For more information, see [New-SPSecureStoreApplication](/powershell/module/sharepoint-server/New-SPSecureStoreApplication?view=sharepoint-ps).
+
 5. Type the following command to create a proxy for the Secure Store service application:
-    
-  ```
-  $sssp = New-SPSecureStoreServiceApplicationProxy -Name ProxyName -ServiceApplication $sss -DefaultProxyGroup
-  ```
+
+    ```powershell
+    $sssp = New-SPSecureStoreServiceApplicationProxy -Name ProxyName -ServiceApplication $sss -DefaultProxyGroup
+    ```
 
    Where:
-    
-  -  _ProxyName_ is the proxy name that you want to use. 
-    
-  - $sss is the variable that you set earlier to identify the new Secure Store service application.
-    
-    > [!TIP]
-    > If you do not use the variable $sss, then you must use an ID to identify the Secure Store service application instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs. 
-  
-  -  _DefaultProxyGroup_ adds the Secure Store service application proxy to the default proxy group for the local farm.
-    
-   This command sets a variable, $sssp, for the service application proxy that you use when you restore the passphrase.
 
-   For more information, see [New-SPSecureStoreServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPSecureStoreServiceApplicationProxy?view=sharepoint-ps).
+    - _ProxyName_ is the proxy name that you want to use. 
 
-   After you create the Secure Store service application and the proxy, you have to refresh the encryption key. For information about how to refresh the encryption key, see [Refresh the Secure Store encryption key](../administration/configure-the-secure-store-service.md#refresh).
-    
+    - $sss is the variable that you set earlier to identify the new Secure Store service application.
+
+      > [!TIP]
+      > If you do not use the variable $sss, then you must use an ID to identify the Secure Store service application instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs. 
+
+    - _DefaultProxyGroup_ adds the Secure Store service application proxy to the default proxy group for the local farm.
+
+    This command sets a variable, $sssp, for the service application proxy that you use when you restore the passphrase.
+
+    For more information, see [New-SPSecureStoreServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPSecureStoreServiceApplicationProxy?view=sharepoint-ps).
+
+    After you create the Secure Store service application and the proxy, you have to refresh the encryption key. For information about how to refresh the encryption key, see [Refresh the Secure Store encryption key](../administration/configure-the-secure-store-service.md#refresh).
+
 6. Type the following command to restore the passphrase for the Secure Store service application:
-    
-  ```
-  Update-SPSecureStoreApplicationServerKey -Passphrase <Passphrase> -ServiceApplicationProxy $sssp
-  ```
+
+    ```powershell
+    Update-SPSecureStoreApplicationServerKey -Passphrase <Passphrase> -ServiceApplicationProxy $sssp
+    ```
 
    Where:
-    
-  -  _\<Passphrase\>_ is the Passphrase for the Secure Store service application from your previous environment. 
-    
-  - $sssp is a variable that you set earlier to identify the new Secure Store service application proxy.
-    
-    > [!TIP]
-    > If you do not use the variable $sssp, then you must use an ID to identify the Secure Store service application proxy instead of a name. To find the ID, you can run the **Get-SPServiceApplicationProxy** cmdlet to return a list of all service application proxy IDs. 
-  
+
+    - _\<Passphrase\>_ is the Passphrase for the Secure Store service application from your previous environment.
+
+    - $sssp is a variable that you set earlier to identify the new Secure Store service application proxy.
+
+      > [!TIP]
+      > If you do not use the variable $sssp, then you must use an ID to identify the Secure Store service application proxy instead of a name. To find the ID, you can run the **Get-SPServiceApplicationProxy** cmdlet to return a list of all service application proxy IDs.
+
     For more information, see [Update-SPSecureStoreApplicationServerKey](/powershell/module/sharepoint-server/Update-SPSecureStoreApplicationServerKey?view=sharepoint-ps).
 
 ## Upgrade the Business Data Connectivity service application
@@ -237,50 +237,50 @@ To upgrade the Business Data Connectivity service application, you create the ne
  **To upgrade the Business Data Connectivity service application by using PowerShell**
   
 1. Verify that you have the following memberships:
-    
-  - **securityadmin** fixed server role on the SQL Server instance. 
-    
-  - **db_owner** fixed database role on all databases that are to be updated. 
-    
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
-    
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 or SharePoint Server 2016 cmdlets.
 
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+    - **securityadmin** fixed server role on the SQL Server instance. 
+
+    - **db_owner** fixed database role on all databases that are to be updated. 
+
+    - Administrators group on the server on which you are running the PowerShell cmdlets.
+
+      An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 or SharePoint Server 2016 cmdlets.
+
+      > [!NOTE]
+      > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
   
 2. Start the SharePoint Subscription Edition Management Shell.
 
 3. To store the application pool that you want to use as a variable for this service application, at the Microsoft PowerShell command prompt, type the following command:
-    
-  ```
-  $applicationPool = Get-SPServiceApplicationPool -Identity 'SharePoint Web Services default'
-  ```
+
+    ```powershell
+    $applicationPool = Get-SPServiceApplicationPool -Identity 'SharePoint Web Services default'
+    ```
 
    Where:
-    
-  -  _SharePoint Web Services default_ is the name of the service application pool that will contain the new service applications. 
-    
-   This cmdlet sets the service application pool as a variable that you can use again in the cmdlets that follow. If you have multiple application pools and have to use a different application pool for a particular service application, repeat this step in the procedure to create each service application to use the appropriate application pool.
-    
+
+    - _SharePoint Web Services default_ is the name of the service application pool that will contain the new service applications.
+
+    This cmdlet sets the service application pool as a variable that you can use again in the cmdlets that follow. If you have multiple application pools and have to use a different application pool for a particular service application, repeat this step in the procedure to create each service application to use the appropriate application pool.
+
 4. To upgrade the Business Data Connectivity service application, at the Microsoft PowerShell command prompt, type the following command:
-    
-  ```
-  New-SPBusinessDataCatalogServiceApplication -Name 'BDC Service' -ApplicationPool $applicationPool -DatabaseName 'BDC_Service_DB'
-  ```
+
+    ```powershell
+    New-SPBusinessDataCatalogServiceApplication -Name 'BDC Service' -ApplicationPool $applicationPool -DatabaseName 'BDC_Service_DB'
+    ```
 
    Where:
-    
-  -  _BDC Service_ is the name that you want to give the new Business Data Connectivity service application.
-    
-  - $applicationpool is the variable that you set earlier to identify the service application pool to use.
-    
-    > [!TIP]
-    > If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format ' _Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet.
-  
-  -  _BDC_Service_DB_ is name of the service application database that you want to upgrade.
-    
-   For more information, see [New-SPBusinessDataCatalogServiceApplication](/powershell/module/sharepoint-server/New-SPBusinessDataCatalogServiceApplication?view=sharepoint-ps).
+
+    - _BDC Service_ is the name that you want to give the new Business Data Connectivity service application.
+
+    - $applicationpool is the variable that you set earlier to identify the service application pool to use.
+
+      > [!TIP]
+      > If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format ' _Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet.
+
+    - _BDC_Service_DB_ is name of the service application database that you want to upgrade.
+
+    For more information, see [New-SPBusinessDataCatalogServiceApplication](/powershell/module/sharepoint-server/New-SPBusinessDataCatalogServiceApplication?view=sharepoint-ps).
     
 ## Upgrade the Managed Metadata service application
 <a name="UpgradeMetadata"> </a>
@@ -290,70 +290,70 @@ To upgrade the Managed Metadata service application, you create the new service 
  **To upgrade the Managed Metadata service application by using PowerShell**
   
 1. Verify that you have the following memberships:
-    
-  - **securityadmin** fixed server role on the SQL Server instance.
-    
-  - **db_owner** fixed database role on all databases that are to be updated.
-    
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
-    
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 or SharePoint Server 2016 cmdlets.
-    
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+
+    - **securityadmin** fixed server role on the SQL Server instance.
+
+    - **db_owner** fixed database role on all databases that are to be updated.
+
+    - Administrators group on the server on which you are running the PowerShell cmdlets.
+
+      An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 or SharePoint Server 2016 cmdlets.
+
+      > [!NOTE]
+      > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
   
 2. Start the SharePoint Subscription Edition Management Shell.
 
 3. To store the application pool that you want to use as a variable for this service application, at the PowerShell command prompt, type the following command:
 
-  ```
-  $applicationPool = Get-SPServiceApplicationPool -Identity 'SharePoint Web Services default'
-  ```
+    ```powershell
+    $applicationPool = Get-SPServiceApplicationPool -Identity 'SharePoint Web Services default'
+    ```
 
    Where:
-    
-  -  _SharePoint Web Services default_ is the name of the service application pool that will contain the new service applications. 
-    
-   This cmdlet sets the service application pool as a variable that you can use again in the cmdlets that follow. If you have multiple application pools and have to use a different application pool for a particular service application, repeat this step in the procedure to create each service application to use the appropriate application pool.
-    
+
+    - _SharePoint Web Services default_ is the name of the service application pool that will contain the new service applications.
+
+    This cmdlet sets the service application pool as a variable that you can use again in the cmdlets that follow. If you have multiple application pools and have to use a different application pool for a particular service application, repeat this step in the procedure to create each service application to use the appropriate application pool.
+
 4. To upgrade the Managed Metadata service application, at the  PowerShell command prompt, type the following command:
-    
-  ```
-  $mms = New-SPMetadataServiceApplication -Name 'Managed Metadata Service Application' -ApplicationPool $applicationPool -DatabaseName 'Managed Metadata Service_DB'
-  ```
+
+    ```powershell
+    $mms = New-SPMetadataServiceApplication -Name 'Managed Metadata Service Application' -ApplicationPool $applicationPool -DatabaseName 'Managed Metadata Service_DB'
+    ```
 
    Where:
-    
-  -  _Managed Metadata Service Application_ is the name that you want to give the new Managed Metadata service application. 
-    
-  - $applicationpool is the variable that you set earlier to identify the service application pool to use.
-    
-    > [!TIP]
-    > If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format ' _Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet. 
-  
-  -  _Managed Metadata Service_DB_ is name of the service application database that you want to upgrade. 
-    
-   This command sets a variable, $mms, that you use when you create the proxy later.
-    
-   For more information, see [New-SPMetadataServiceApplication](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
-    
+
+    - _Managed Metadata Service Application_ is the name that you want to give the new Managed Metadata service application.
+
+    - $applicationpool is the variable that you set earlier to identify the service application pool to use.
+
+      > [!TIP]
+      > If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format ' _Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet.
+
+    - _Managed Metadata Service_DB_ is name of the service application database that you want to upgrade.
+
+      This command sets a variable, $mms, that you use when you create the proxy later.
+
+    For more information, see [New-SPMetadataServiceApplication](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+
 5. At the PowerShell command prompt, type the following command to create a proxy for the Managed Metadata service application:
-    
-  ```
-  New-SPMetadataServiceApplicationProxy -Name ProxyName -ServiceApplication $mms -DefaultProxyGroup
-  ```
+
+    ```powershell
+    New-SPMetadataServiceApplicationProxy -Name ProxyName -ServiceApplication $mms -DefaultProxyGroup
+    ```
 
    Where:
-    
-  -  _ProxyName_ is the proxy name that you want to use. 
-    
-  - $mms is the variable that you set earlier to identify the new Managed Metadata service application.
-    
-    > [!TIP]
-    > If you do not use the variable $mms, then you must use an ID to identify the Managed Metadata service application proxy instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs. 
-  
-  -  _DefaultProxyGroup_ adds the Managed Metadata service application proxy to the default proxy group for the local farm.
-    
+
+    - _ProxyName_ is the proxy name that you want to use. 
+
+    - $mms is the variable that you set earlier to identify the new Managed Metadata service application.
+
+      > [!TIP]
+      > If you do not use the variable $mms, then you must use an ID to identify the Managed Metadata service application proxy instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs.
+
+    - _DefaultProxyGroup_ adds the Managed Metadata service application proxy to the default proxy group for the local farm.
+
    For more information, see [New-SPMetadataServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPMetadataServiceApplicationProxy?view=sharepoint-ps).
 
 ## Upgrade the User Profile service application
@@ -409,7 +409,7 @@ To upgrade the User Profile service application, you copy the Profile and Social
 
 4. To store the application pool that you want to use as a variable for this service application, at the Microsoft PowerShell command prompt, type the following command:
     
-      ```
+      ```powershell
       $applicationPool = Get-SPServiceApplicationPool -Identity 'SharePoint Web Services default'
       ```
 
@@ -421,7 +421,7 @@ To upgrade the User Profile service application, you copy the Profile and Social
     
 5. To restore the User Profile service application and upgrade the Profile and Social databases, at the Microsoft PowerShell command prompt, type the following command:
     
-      ```
+      ```powershell
       New-SPProfileServiceApplication -Name '<UserProfileApplicationName>' -ApplicationPool $applicationPool -ProfileDBName '<ProfileDBName>' -SocialDBName '<SocialDBName>' -ProfileSyncDBName '<SyncDBName>'
       ```
 
@@ -430,9 +430,10 @@ To upgrade the User Profile service application, you copy the Profile and Social
       -  _UserProfileApplicationName_ is the name of the User Profile service application. 
         
       - $applicationpool is the variable that you set to identify the service application pool to use.
-        
-        **Note**: If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format '_Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet. 
-        
+
+        > [!NOTE]
+        > If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format '_Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet.
+
       -  _ProfileDBName_ is the name of the Profile database that you want to upgrade.
         
       -  _SocialDBName_ is the name of the Social database that you want to upgrade.
@@ -443,17 +444,17 @@ To upgrade the User Profile service application, you copy the Profile and Social
     
     - Type the following command to get the ID for the User Profile service application and store it as a variable:
     
-      ```
-      $sa = Get-SPServiceApplication | ?{$_.TypeName -eq 'User Profile Service Application'}
-      ```
+        ```powershell
+        $sa = Get-SPServiceApplication | ?{$_.TypeName -eq 'User Profile Service Application'}
+        ```
 
       For more information, see [Get-SPServiceApplication](/powershell/module/sharepoint-server/get-spserviceapplication?view=sharepoint-ps).        
     
     - Type the following command to create a proxy for the User Profile service application:
     
-      ```
-      New-SPProfileServiceApplicationProxy -Name 'User Profile Service Application Proxy' -ServiceApplication $sa
-      ```
+        ```powershell
+        New-SPProfileServiceApplicationProxy -Name 'User Profile Service Application Proxy' -ServiceApplication $sa
+        ```
 
         Where:
     
@@ -461,21 +462,22 @@ To upgrade the User Profile service application, you copy the Profile and Social
         
       - $sa is the variable that you set earlier to identify the new User Profile service application.
         
-        **Tip**: If you do not use the variable $sa, then you must use an ID to identify the User Profile service application instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs. 
+        > [!TIP]
+        > If you do not use the variable $sa, then you must use an ID to identify the User Profile service application instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs.
     
        For more information, see [New-SPProfileServiceApplicationProxy](/powershell/module/sharepoint-server/new-spprofileserviceapplicationproxy?view=sharepoint-ps).
     
     - Type the following command to get the User Profile service application proxy ID for the proxy you just created and set it as the variable $proxy:
-    
-      ```
-      $proxy = Get-SPServiceApplicationProxy | ?{$_.TypeName -eq 'User Profile Service Application Proxy'}
-      ```
+
+        ```powershell
+        $proxy = Get-SPServiceApplicationProxy | ?{$_.TypeName -eq 'User Profile Service Application Proxy'}
+        ```
 
         For more information, see [Get-SPServiceApplicationProxy](/powershell/module/sharepoint-server/get-spserviceapplicationproxy?view=sharepoint-ps).
     
-    - Type the following command to add the User Profile service application proxy to the default proxy group:    
-    
-        ```
+    - Type the following command to add the User Profile service application proxy to the default proxy group:
+
+        ```powershell
         Add-SPServiceApplicationProxyGroupMember -member $proxy -identity ""
         ```
 
@@ -531,7 +533,7 @@ SharePoint Server Subscription Edition normally creates a new search topology wi
     
     - Pause the Search service application. At the PowerShell command prompt, type the following command:
     
-        ```
+        ```powershell
           $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
           Suspend-SPEnterpriseSearchServiceApplication -Identity $ssa
         ```
@@ -570,7 +572,7 @@ SharePoint Server Subscription Edition normally creates a new search topology wi
        
 4. To store the application pool that you want to use as a variable for this service application, at the PowerShell command prompt, type the following command:
     
-      ```
+      ```powershell
       $applicationPool = Get-SPServiceApplicationPool -Identity 'SharePoint Web Services default'
       ```
 
@@ -579,87 +581,91 @@ SharePoint Server Subscription Edition normally creates a new search topology wi
       _SharePoint Web Services default_ is the name of the service application pool that will contain the new service applications. 
     
     This cmdlet sets the service application pool as a variable that you can use again in the cmdlets that follow. If you have multiple application pools and have to use a different application pool for a particular service application, repeat this step in the procedure to create each service application to use the appropriate application pool.
-    
+
 5. To restore the Search service application and upgrade the Search Administration database, at the PowerShell command prompt, type the following command:
-    
-      ```
+
+      ```powershell
       $searchInst = Get-SPEnterpriseSearchServiceInstance -local
       # Gets the Search service instance and sets a variable to use in the next command
       Restore-SPEnterpriseSearchServiceApplication -Name '<SearchServiceApplicationName>' -applicationpool $applicationPool -databasename '<SearchServiceApplicationDBName>' -databaseserver <ServerName> -AdminSearchServiceInstance $searchInst 
       ```
 
     Where:
-    
-      -  _SearchServiceApplicationName_ is the name of the Search service application. 
-        
-      - $applicationpool is the variable that you set to identify the service application pool to use.
-        
-        **Note**: If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format '  _Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet. 
-        
-      -  _SearchServiceApplicationDBName_ is the name of the search administration database that you want to upgrade, and that this Search service application shall use. 
-        
-      - $searchInst is the variable that you set to identify the new Search Service application instance.
-    
-    **Note**: A Search service application upgrade might fail, for example due to network or SQL Server latency. If an error message appears during the upgrade, do the following: 
-    
-    - Delete the Search Administration database that you were trying to upgrade.
 
-    - Using the backup copy that you made of the Search Administration database, repeat the following procedures in this article for the Search service application only:
-        - [Restore a backup copy of the database](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-subscription-edition.md#restore)
-        - [Set the databases to read-write](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-subscription-edition.md#ReadWrite)
-    - Type the command to upgrade the Search service application again at the PowerShell command prompt.
-    
+      - _SearchServiceApplicationName_ is the name of the Search service application. 
+
+      - $applicationpool is the variable that you set to identify the service application pool to use.
+
+        > [!NOTE]
+        > If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format '  _Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet.
+
+      - _SearchServiceApplicationDBName_ is the name of the search administration database that you want to upgrade, and that this Search service application shall use. 
+
+      - $searchInst is the variable that you set to identify the new Search Service application instance.
+
+        > [!NOTE]
+        > A Search service application upgrade might fail, for example due to network or SQL Server latency. If an error message appears during the upgrade, do the following:
+        >
+        > - Delete the Search Administration database that you were trying to upgrade.
+        >
+        > - Using the backup copy that you made of the Search Administration database, repeat the following procedures in this article for the Search service application only:
+        >   - [Restore a backup copy of the database](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-subscription-edition.md#restore)
+        >   - [Set the databases to read-write](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-subscription-edition.md#ReadWrite)
+        > - Type the command to upgrade the Search service application again at the PowerShell command prompt.
+
      For more information, see [Restore-SPEnterpriseSearchServiceApplication](/powershell/module/sharepoint-server/Restore-SPEnterpriseSearchServiceApplication?view=sharepoint-ps).
-    
+
 6. Create the Search service application proxy and add it to the default proxy group by completing these actions:
-    
+
     - Type the following command to get the ID for the Search service application and store it as a variable:
-    
-      ```
+
+      ```powershell
       $ssa = Get-SPEnterpriseSearchServiceApplication
       ```
 
       For more information, see [Get-SPEnterpriseSearchServiceApplication](/powershell/module/sharepoint-server/Get-SPEnterpriseSearchServiceApplication?view=sharepoint-ps).
-    
+
     - Type the following command to create a proxy for the Search service application:
-    
-      ```
+
+      ```powershell
       New-SPEnterpriseSearchServiceApplicationProxy -Name ProxyName -SearchApplication $ssa 
       ```
 
         Where:
-    
-      -  _ProxyName_ is the proxy name that you want to use. 
-        
+
+      -  _ProxyName_ is the proxy name that you want to use.
+
       - $ssa is the variable that you set earlier to identify the new Search service application.
-    
-        **Tip**: If you do not use the variable $ssa, then you must use an ID to identify the Search service application instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs. 
-    
-        For more information, see [New-SPEnterpriseSearchServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPEnterpriseSearchServiceApplicationProxy?view=sharepoint-ps).
-    
+
+        > [!TIP]
+        > If you do not use the variable $ssa, then you must use an ID to identify the Search service application instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs.
+
+      For more information, see [New-SPEnterpriseSearchServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPEnterpriseSearchServiceApplicationProxy?view=sharepoint-ps).
+
     - Type the following command to get the Search service application proxy ID for the proxy you just created and set it as the variable $ssap:
-    
-      ```
+
+      ```powershell
       $ssap = Get-SPEnterpriseSearchServiceApplicationProxy 
       ```
 
         For more information, see [Get-SPEnterpriseSearchServiceApplicationProxy](/powershell/module/sharepoint-server/Get-SPEnterpriseSearchServiceApplicationProxy?view=sharepoint-ps).
-    
+
     - Type the following command to add the Search service application proxy to the default proxy group:
-    
-        ```
+
+        ```powershell
         Add-SPServiceApplicationProxyGroupMember -member $ssap -identity ""
         ```
-    
+
         Where:
-    
+
       - $ssap is the variable that you set earlier to identify the ID for the proxy you just created for the Search service application.
-    
-        **Tip**: If you do not use the variable $ssap, then you must use an ID to identify the Search service application proxy instead of a name. To find the ID, you can run the **Get-SPServiceApplicationProxy** cmdlet to return a list of all service application proxy IDs. 
-    
-      - You use an empty **Identity** parameter ("") to add it to the default group. 
-    
-        For more information, see [Add-SPServiceApplicationProxyGroupMember](/powershell/module/sharepoint-server/Add-SPServiceApplicationProxyGroupMember?view=sharepoint-ps).
+
+        > [!TIP]
+        > If you do not use the variable $ssap, then you must use an ID to identify the Search service application proxy instead of a name. To find the ID, you can run the **Get-SPServiceApplicationProxy** cmdlet to return a list of all service application proxy IDs.
+
+      - You use an empty **Identity** parameter ("") to add it to the default group.
+
+      For more information, see [Add-SPServiceApplicationProxyGroupMember](/powershell/module/sharepoint-server/Add-SPServiceApplicationProxyGroupMember?view=sharepoint-ps).
     
 7. If the SharePoint Server 2019 or SharePoint Server 2016 farm uses a Links Database that is partitioned, partition the Links Database in the SharePoint Server Subscription Edition farm the same way. Learn how in [Move-SPEnterpriseSearchLinksDatabases](/powershell/module/sharepoint-server/Move-SPEnterpriseSearchLinksDatabases?view=sharepoint-ps).
     
@@ -674,10 +680,10 @@ SharePoint Server Subscription Edition normally creates a new search topology wi
 9. Verify that the search topology on the new SharePoint Server Subscription Edition farm is alike that of the SharePoint Server 2019 or SharePoint Server 2016 farm. If your requirements for search have changed, now is a good time to scale out the search topology of the new SharePoint Server Subscription Edition farm.
     
 10. Resume the Search service application in the SharePoint Server environment.
-    
+
     At the PowerShell command prompt, type the following command:
-    
-      ```
+
+      ```powershell
       $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
       $ssa.ForceResume(0x02)
       ```
@@ -702,14 +708,15 @@ Use the following procedure to verify that the steps to create the proxies and a
       - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 or SharePoint Server 2016 cmdlets.
-    
-    **Note**: If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+
+    > [!NOTE]
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
 2. Start the SharePoint Subscription Edition Management Shell.
     
 3. At the PowerShell command prompt, type the following commands:
     
-      ```
+      ```powershell
       $pg = Get-SPServiceApplicationProxyGroup -Identity ""
       $pg.Proxies
       ```
@@ -722,7 +729,7 @@ Use the following procedure to verify that the steps to create the proxies and a
     
       This returns a list of all proxies in the default proxy group, their display names, type names, and IDs.
     
-    For more information, see Get-SPServiceApplicationProxyGroup.
+    For more information, see Get-SPServiceApplicationProxyGroup[Get-SPServiceApplicationProxyGroup](/powershell/module/sharepoint-server/get-spserviceapplicationproxygroup?view=sharepoint-ps).
   
 Now that the service applications are upgraded, you can start the process to upgrade the content databases. The first step in that process is to create the web applications that are needed for each content database.
   

@@ -42,7 +42,9 @@ This can simplify the configuration of OIDC token issuer.
 
 `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet is updated for OIDC metadata endpoint configuration using the following parameters:
 
-New-SPTrustedIdentityTokenIssuer -Name < issuer name > -Description < Issuer description > -ClaimsMappings < ClaimMappings >  -IdentifierClaim < InputClaimType >  -DefaultClientIdentifier < client_id >  -MetadataEndPoint < metadata endpoint >
+```powershell
+New-SPTrustedIdentityTokenIssuer -Name <issuer name> -Description <Issuer description> -ClaimsMappings <ClaimMappings>  -IdentifierClaim <InputClaimType>  -DefaultClientIdentifier <client_id>  -MetadataEndPoint <metadata endpoint>
+```
 
 | Parameter | Description |
 |------------|-------------|
@@ -130,7 +132,7 @@ Open jwks_uri (<https://login.microsoftonline.com/common/discovery/keys>), and s
 
 In this step, it will need to modify farm properties. Start the SharePoint Management Shell and run the following script:
 
-```azurepowershell
+```powershell
 # Setup farm properties to work with OIDC
 $cert = New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -Provider 'Microsoft Enhanced RSA and AES Cryptographic Provider' -Subject “CN=SharePoint Cookie Cert”
 $rsaCert = [System.Security.Cryptography.X509Certificates.RSACertificateExtensions]::GetRSAPrivateKey($cert)
@@ -167,7 +169,7 @@ You can configure SharePoint to trust Identity provider in the following two way
 
 In this step, you create a `SPTrustedTokenIssuer` that will store the configuration that SharePoint needs to trust AAD OIDC as OIDC provider. Start the SharePoint Management Shell and run the following script to create it:
 
-```azurepowershell
+```powershell
 # Define claim types
 $email = New-SPClaimTypeMapping "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
 
@@ -221,7 +223,7 @@ This can simplify the configuration of OIDC token issuer.
 
 By using below PowerShell example, we can use metadata endpoint from AAD to configure SharePoint to trust AAD OIDC.
 
-```azurepowershell
+```powershell
 # Define claim types
 $email = New-SPClaimTypeMapping "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
 
@@ -235,7 +237,9 @@ $clientIdentifier = <Application (Client)ID>
 New-SPTrustedIdentityTokenIssuer -Name "Contoso.local" -Description "Contoso.local" -ClaimsMappings $email -IdentifierClaim $email.InputClaimType  -DefaultClientIdentifier $clientIdentifier -MetadataEndPoint $ metadataendpointurl
 ```
 
-New-SPTrustedIdentityTokenIssuer -Name < issuer name > -Description < Issuer description > -ClaimsMappings < ClaimMappings >  -IdentifierClaim < InputClaimType >  -DefaultClientIdentifier < client_id >  -MetadataEndPoint < metadata endpoint >
+```powershell
+New-SPTrustedIdentityTokenIssuer -Name <issuer name> -Description <Issuer description> -ClaimsMappings <ClaimMappings>  -IdentifierClaim <InputClaimType>  -DefaultClientIdentifier <client_id>  -MetadataEndPoint <metadata endpoint>
+```
 
 | Parameter | Description |
 |------------|-------------|
@@ -262,7 +266,7 @@ There are two possible configurations:
 
     1. Start the SharePoint Management Shell and run the following script to create a new `SPAuthenticationProvider`:
 
-        ```azurepowershell
+        ```powershell
         # This script creates a trusted authentication provider for OIDC
         
         $sptrust = Get-SPTrustedIdentityTokenIssuer "Contoso.local"
@@ -286,12 +290,12 @@ There are two possible configurations:
 
     1. Start the SharePoint Management Shell and run the following script:
 
-    ```azurepowershell
-    # This script creates a trusted authentication provider for OIDC
+        ```powershell
+        # This script creates a trusted authentication provider for OIDC
     
-    $sptrust = Get-SPTrustedIdentityTokenIssuer "Contoso.local"
-    $ap = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
-    ```
+        $sptrust = Get-SPTrustedIdentityTokenIssuer "Contoso.local"
+        $ap = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
+        ```
 
     2. Open the SharePoint Central Administration site.
     3. Open the web application you want to extend OIDC authentication to and pick **contoso.local** as **Trusted Identity Provider**.
@@ -453,7 +457,7 @@ If you are setting OIDC with SharePoint Server, nbf claim must be configured in 
 
 In this step, it will need to modify the farm properties. Start the SharePoint Management Shell and run the following script:
 
-```azurepowershell
+```powershell
 # Setup farm properties to work with OIDC
 #Create a self-signed certificate in one SharePoint Server in the farm
 $cert = New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -Provider 'Microsoft Enhanced RSA and AES Cryptographic Provider' -Subject “CN=SharePoint Cookie Cert”
@@ -482,7 +486,7 @@ $f.Farm.Update()
 
 In this step you create a `SPTrustedTokenIssuer` that will store the configuration that SharePoint needs to trust AD FS as OIDC provider. Start the SharePoint Management Shell and run the following script to create it:
 
-```azurepowershell
+```powershell
 # Define claim types
 $email = New-SPClaimTypeMapping "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
 
@@ -522,19 +526,19 @@ Here, `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet is extended to suppor
 >
 >     The public key of the issuer's certificate (and all the intermediates) must be added to the store. Start the SharePoint Management Shell and run the following script to add it:
 >
-> ```azurepowershell
-> $rootCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2("C:\Data\Claims\ADFS Signing issuer.cer")
-> New-SPTrustedRootAuthority -Name "adfs.contoso.local signing root authority" -Certificate $rootCert
-> ```
+>     ```powershell
+>     $rootCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2("C:\Data\Claims\ADFS Signing issuer.cer")
+>     New-SPTrustedRootAuthority -Name "adfs.contoso.local signing root authority" -Certificate $rootCert
+>     ```
 >
 > - If the ADFS signing certificate is a self-signed certificate (not recommended for security reasons).
 >
 >     The public key of the ADFS signing certificate itself must be added to the store. Start the SharePoint Management Shell and run the following script to add it:
 >
-> ```azurepowershell
-> $rootCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2("C:\Data\Claims\ADFS Signing.cer")
-> New-SPTrustedRootAuthority -Name "adfs.contoso.local signing certificate" -Certificate $rootCert
-> ```
+>     ```powershell
+>     $rootCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2("C:\Data\Claims\ADFS Signing.cer")
+>     New-SPTrustedRootAuthority -Name "adfs.contoso.local signing certificate" -Certificate $rootCert
+>     ```
 
 ### Step 4: Configure the SharePoint web application
 
@@ -550,7 +554,7 @@ There are 2 possible configurations:
 - If you create a new web application and use both Windows and AD FS OIDC authentication in the Default zone:
   1. Start the SharePoint Management Shell and run the following script to create a new `SPAuthenticationProvider`:
 
-        ```azurepowershell
+        ```powershell
         # This script creates a trusted authentication provider for OIDC
         
         $sptrust = Get-SPTrustedIdentityTokenIssuer "Contoso.local"
@@ -572,7 +576,7 @@ There are 2 possible configurations:
 - If you extend an existing web application to set AD FS OIDC authentication on a new zone:
     1. Start the SharePoint Management Shell and run the following script:
 
-        ```azurepowershell
+        ```powershell
         # This script creates a trusted authentication provider for OIDC
         
         $sptrust = Get-SPTrustedIdentityTokenIssuer "Contoso.local"
@@ -610,10 +614,10 @@ As SharePoint URL uses HTTPS protocol (<https://spsites.contoso.local/>), a cert
 
 - Set the certificate:
 
- 1. Open the Internet Information Services Manager console.
- 2. Expand the server in the tree view, expand **Sites**, select the **SharePoint - ADFS** on contoso.local site, and select **Bindings**.
- 3. Select https binding and then select **Edit**.
- 4. In the TLS/SSL certificate field, choose spsites.contoso.local certificate and then select **OK**.
+     1. Open the Internet Information Services Manager console.
+     2. Expand the server in the tree view, expand **Sites**, select the **SharePoint - ADFS** on contoso.local site, and select **Bindings**.
+     3. Select https binding and then select **Edit**.
+     4. In the TLS/SSL certificate field, choose spsites.contoso.local certificate and then select **OK**.
 
 ### Step 6: Create the site collection
 
