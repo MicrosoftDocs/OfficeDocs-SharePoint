@@ -122,7 +122,7 @@ Folders for the language-specific components are identified by the language tag 
 SharePoint Servers 2016 and 2019 support the following languages:
 
 |Language|Language tag|LCID|
-|:-----|:-----|:-----|:-----
+|:-----|:-----|:-----|
 Arabic <br/>|ar-sa  <br/> | 1025 <br/>
 Azerbaijani <br/> |az-latn-az  <br/> |1068 <br/>
 Basque <br/> |eu-es  <br/> |1069 <br/>||

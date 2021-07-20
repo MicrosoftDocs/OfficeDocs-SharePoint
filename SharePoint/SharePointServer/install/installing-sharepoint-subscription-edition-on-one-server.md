@@ -8,7 +8,7 @@ ms.date: 06/23/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: sharepoint-server-itpro
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection:
@@ -46,10 +46,11 @@ Before you begin to install and configure SharePoint Server Subscription Edition
     
 - Ensure that you are prepared to set up the required accounts by using appropriate permissions. For detailed information, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-- Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option?view=sql-server-2017).
-    
- **Security note**: As a security best practice, we recommend that you install SharePoint Server Subscription Edition by using least-privilege administration. 
-  
+- Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option?view=sql-server-2017).
+
+> [!IMPORTANT]
+> As a security best practice, we recommend that you install SharePoint Server Subscription Edition by using least-privilege administration.    
+   
 > [!TIP]
 > If you decide to install prerequisites manually, you can still run the Microsoft SharePoint Products Preparation Tool to verify which prerequisites are required on each server. 
   
@@ -157,6 +158,7 @@ Use the following procedure to install and configure the configuration database 
 8. On the **Specify Farm Security Settings** page, type a passphrase, and then click **Next**.
 
     Although a passphrase resembles a password, it is usually longer to improve security. It is used to encrypt credentials of accounts that are registered in SharePoint Server. For example, the SharePoint Server server farm administrator service account that you provide when you run the SharePoint Products Configuration Wizard. Ensure that you remember the passphrase, because you must use it every time that you add a server to the farm. Ensure that the passphrase meets the following criteria:
+
     - Contains at least eight characters
     - Contains at least three of the following four character groups:
     - English uppercase characters (from A through Z)
