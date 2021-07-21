@@ -26,5 +26,5 @@ Schedule a time to have your migration task queued. The actual time will depend 
 
 
 
-![Intial task scheduling setting](/media/mm-task-scheduling-date.png)
+![Setting task date in the future](/media/mm-task-scheduling-date.png)
 
