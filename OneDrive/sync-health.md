@@ -112,11 +112,11 @@ From the Sync health dashboard, admins can check the sync status and sync app ve
 > [!NOTE]
 > After you set up the dashboard as described in the previous section, the Global Reader admin role is sufficient to access and view reports.
 
-The Overview tab provides aggregated insights on devices that have sync errors, [Known Folder Move](redirect-known-folders.md) rollout status, and adoption of sync app versions and update ring.
+The **Overview** tab provides aggregated insights on devices that have sync errors, [Known Folder Move](redirect-known-folders.md) rollout status, and adoption of sync app versions and update ring.
 
 :::image type="content" source="media/sync-dashboard.png" alt-text="Screenshot of Overview tab of OneDrive sync health dashboard.":::
 
-The Details tab provides detailed info for each user and device to help you understand and troubleshoot sync errors.
+The **Details** tab provides detailed info for each user and device to help you understand and troubleshoot sync errors.
 
 :::image type="content" source="media/sync-health-ui.png" alt-text="Screenshot of OneDrive sync health details tab.":::
 
