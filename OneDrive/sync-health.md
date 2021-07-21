@@ -69,7 +69,6 @@ From the Sync health dashboard, admins can check the sync status and sync app ve
 7. Enable the OneDrive SyncAdminReports Group Policy Object (GPO) using the Tenant Association Key.
 
     > [!IMPORTANT]
-
     > - You must enable this setting on the devices from which you want to get reports. The setting has no impact on users.
     > - When a new Tenant Association Key is generated, update the registry setting as well.
     > - We recommend a gradual rollout starting with a few test devices per day, then up to 100 devices per day, then gradually up to 10,000 devices per day until you finish.
