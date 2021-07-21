@@ -1,5 +1,5 @@
 ---
-title: "Setting migratinon task schedules in Migration Manager"
+title: "Setting migration task schedules in Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -17,15 +17,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: "Learn how to schedule tasks in Migration Manager."
 ---
-# Task scheduling
-
-
-##
+# Task scheduling in Migration Manager
 
 
 
 ##
 
+![Intial task scheduling setting](/media/mm-task-scheduling-inital.png)
+
+##
+
+![Intial task scheduling setting](/media/mm-task-scheduling-date.png)
 
 
 ##
