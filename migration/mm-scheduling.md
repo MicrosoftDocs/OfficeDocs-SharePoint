@@ -19,15 +19,12 @@ description: "Learn how to schedule tasks in Migration Manager."
 ---
 # Task scheduling in Migration Manager
 
+Schedule a time to have your migration task queued. The actual time will depend on agent availability.  
 
-
-##
 
 ![Intial task scheduling setting](/media/mm-task-scheduling-inital.png)
 
-##
+
 
 ![Intial task scheduling setting](/media/mm-task-scheduling-date.png)
 
-
-##
