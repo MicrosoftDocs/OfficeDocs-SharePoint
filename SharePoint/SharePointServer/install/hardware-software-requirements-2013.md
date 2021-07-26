@@ -43,7 +43,7 @@ If you plan to use capabilities that are offered through SharePoint 2013 or thro
     
 - For eDiscovery, each front-end web server must have the Exchange Web Services Managed API, version 1.2 installed. For more information, see the following articles:
     
-  - [Configure eDiscovery in SharePoint Server](../governance/configure-ediscovery-0.md)
+  - [Configure eDiscovery in SharePoint Server](../governance/configure-ediscovery-2019.md)
     
   - [Configure Exchange for SharePoint eDiscovery Center](/exchange/configure-exchange-for-sharepoint-ediscovery-center-exchange-2013-help)
     

@@ -98,7 +98,7 @@ An eDiscovery Center is a site collection from which users can create and manage
 
 [eDiscovery and in-place holds in SharePoint Server](ediscovery-and-in-place-holds-in-sharepoint-server.md)
   
-[Configure eDiscovery in SharePoint Server](configure-ediscovery-0.md)
+[Configure eDiscovery in SharePoint Server](configure-ediscovery-2019.md)
 
 [Search and place a hold on public folders using In-Place eDicovery](/Exchange/policy-and-compliance/ediscovery/search-public-folders?view=exchserver-2019)
 

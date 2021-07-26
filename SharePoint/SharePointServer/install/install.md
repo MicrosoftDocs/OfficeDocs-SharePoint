@@ -48,7 +48,7 @@ The following articles include information about how to prepare for installation
 |:-----|:-----|
 |[Install SharePoint Server 2016](install-for-sharepoint-server-2016.md) <br/> |Learn how to install SharePoint Server 2016 in various topologies.  <br/> |
 |[Install SharePoint Server 2019](install-for-sharepoint-server-2019.md) <br/> |Learn how to install SharePoint Server 2019 in various topologies.  <br/>|
-|[Prerequisites for SharePoint Server](prerequisites-0.md) <br/> |Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Servers 2016 and 2019.  <br/> |
+|[Prerequisites for SharePoint Server](prerequisites-2019.md) <br/> |Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Servers 2016 and 2019.  <br/> |
 |[Configure SharePoint Server](configure.md) <br/> |Learn how to configure settings like services, authentication, and specific features after you install SharePoint Server.  <br/> |
 |[Install and manage apps for SharePoint Server](../administration/install-and-manage-apps-for-sharepoint-server.md) <br/> |Learn about apps for SharePoint, the SharePoint Store, and the App Catalog and how to install, manage, and monitor apps in your SharePoint Server 2016 environment.  <br/> |
 |[Upgrade to SharePoint Server 2016](../upgrade-and-update/upgrade-to-sharepoint-server-2016.md) <br/> |Learn how to plan, prepare, and perform an upgrade to SharePoint Server 2016.  <br/> |
@@ -65,7 +65,7 @@ The following articles include information about how to prepare for installation
 |**Content**|**Description**|
 |:-----|:-----|
 |[Install for SharePoint 2013](install-for-sharepoint-2013.md) <br/> |Learn how to install SharePoint Server 2013 in various topologies.  <br/> |
-|[Prerequisites for SharePoint Server](prerequisites-0.md) <br/> |Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Server 2013.  <br/> |
+|[Prerequisites for SharePoint Server](prerequisites-2019.md) <br/> |Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Server 2013.  <br/> |
 |[Configure SharePoint Server](configure.md) <br/> |Learn how to configure settings like services, authentication, and specific features after you install SharePoint Server 2013.  <br/> |
 |[Install and manage apps for SharePoint Server](../administration/install-and-manage-apps-for-sharepoint-server.md) <br/> |Learn about apps for SharePoint, the SharePoint Store, and the App Catalog and how to install, manage, and monitor apps in your SharePoint Server 2013 environment.  <br/> |
 |[Upgrade from SharePoint 2010 to SharePoint 2013](../upgrade-and-update/upgrade-from-sharepoint-2010-to-sharepoint-2013.md) <br/> |Learn how to plan, prepare, and perform an upgrade to SharePoint Server 2013.  <br/> |
