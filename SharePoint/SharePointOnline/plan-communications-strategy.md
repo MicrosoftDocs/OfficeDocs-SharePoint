@@ -32,7 +32,6 @@ Start by learning what Microsoft 365 tools can help for your specific scenario a
 | Learn about common communication scenarios|Review Microsoft 365 communication applications   | Identify audience, preferences, and scope audience size  |Get started planning for your specific scenario   |
 
 
-
 ### Scenario A: Use Viva Connections as a gateway to employee experiences
 <image>
 You need to engage, inform, and connect thousands of frontline workers while in the field on a mobile device. The goal is to streamline and target experiences from across SharePoint, Microsoft Teams, Yammer, and Stream into one curated and branded employee experience. Your organization currently uses SharePoint news posts to share essential and time-sensitive information and event recordings that need to reach frontline workers. Additionally, building community and culture among the organizational is a priority and you want to make sure workers in the field can easily engage and participate in social channels. Some tools, resources, conversations, and news are more important to specific audiences and need to be highlighted in the mobile experience. The outcome will allow frontline workers to feel connected and informed while providing easy access to common tasks and tools all in one place. 
