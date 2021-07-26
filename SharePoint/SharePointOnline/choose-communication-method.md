@@ -18,7 +18,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Step 4: Choose your communication solution
 
-Now that you understand the communication tools available and how to determine your audience’s profile, you are ready to select a scenario and learn more about the technical requirements, options for set up, and how to start planning with your communications team.   
+Now that you understand the communication tools available and how to determine your audience’s profile, you are ready to select a scenario and learn more about the technical requirements, options for set-up, and how to start planning with your communications team.   
 
 
 ## Get step-by-step guidance for popular scenarios
@@ -39,9 +39,9 @@ Many communication solutions will follow a similar path to get started – plan,
 
 | Stage             | Tasks                | 
 | :---------------: | :------------------- |
-|**Plan**  | - Check licensing requirements and prepare your M365 tenant environment <br> - Understand the needs of your audience and determine the audience profile <br>  - Align with key stakeholders and partners <br>  - Consider multilingual and accessibility needs | 
+|**Plan**  | - Check licensing requirements and prepare your Microsoft 365 tenant environment <br> - Understand the needs of your audience and determine the audience profile <br>  - Align with key stakeholders and partners <br>  - Consider multilingual and accessibility needs | 
 | **Build**  |  - Use SharePoint and Microsoft Teams templates to save time <br> - Check SharePoint site and page performance where applicable <br> - Recruit help moderating the conversation or Q&A where needed <br> - Plan the communication’s launch | 
-| **Launch** |  - Make the communication method known through a variety of channels <br> - Ensure one-time communications can be accessed by the entire organization <br> - Review engagement metrics | 
+| **Launch** |  - Make the communication method known through various channels <br> - Ensure one-time communications can be accessed by the entire organization <br> - Review engagement metrics | 
 
 
 
@@ -62,6 +62,9 @@ Distribute organizational news
 <br>
 
 Connect leadership teams with the organization
+<br>
+
+New employee onboarding
 
 
 
