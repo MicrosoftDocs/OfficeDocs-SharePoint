@@ -21,7 +21,7 @@ Consider who needs the information you will be communicating. This could be as a
 <br>
 <image>
 
-Understand where and how your target audience typically communicates. For example, if your audience are frontline workers and primarily get news from the SharePoint mobile app or using Viva Connections in the Microsoft Teams mobile app, you may decide to only post news in SharePoint and then promote news in Yammer and Teams. Or perhaps you have a remote workforce where online meetings are advantageous. Finally, learn about how to create M365 groups and use audience targeting to make sure the right content gets to the right people.
+Understand where and how your target audience typically communicates. For example, if your audience is frontline workers and primarily get news from the SharePoint mobile app or using Viva Connections in the Microsoft Teams mobile app, you may decide to only post news in SharePoint and then promote news in Yammer and Teams. Or perhaps you have a remote workforce where online meetings are advantageous. Finally, learn about how to create Microsoft 365 groups and use audience targeting to make sure the right content gets to the right people.
 
 ## Start by scoping audience size
 Understanding the size of your audience will help you narrow down what Microsoft 365 applications will help you reach your goals. Once you’ve determined your audiences, you can use one - or a combination of methods - to share news, announcements, and more. 
@@ -35,7 +35,7 @@ Learn more about considerations as you scope your audience size. Small audiences
 <image>
 
 #### Accessibility
-Accessibility is important for all organizations, and especially corporate communications. Ensuring content is accessible benefits everyone. Accessibility includes making sure content in SharePoint can be easily consumed, limiting background noise in Teams meetings, turning on screen captions for live events, and more. Learn more about accessibility, and apply your learning to meet the needs of your audience(s):
+Accessibility is important for all organizations, and especially corporate communications. Ensuring content is accessible benefits everyone. Accessibility includes making sure content in SharePoint can be easily consumed, limiting background noise in Teams meetings, turning on-screen captions for live events, and more. Learn more about accessibility, and apply learnings to meet the needs of your audience(s):
 <br>
 
 - [10 Habits to create accessible content](https://blogs.microsoft.com/accessibility/10-habits-to-create-accessible-content/)
@@ -45,7 +45,7 @@ Accessibility is important for all organizations, and especially corporate commu
 - Get ready to [build an accessible SharePoint site](https://support.microsoft.com/office/get-ready-build-an-accessible-sharepoint-site-3a1df3ad-f093-450c-85a6-b3bf70fd6abb)
 
 #### Multilingual options
-Part of ensuring content is accessible is knowing when content should be available in more than one language. This is especially important for communications that cross multiple regions and countries. 
+Part of ensuring content is accessible is knowing when content should be available in more than one language. This is especially important for communications that cross more than one region and country. 
 <br>
 
 - Learn more about how to [create SharePoint communication sites, pages, and news posts in more than one language](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c) 
@@ -73,7 +73,7 @@ Audience size will help you narrow down potential communication solution(s) in c
 Frontline workers are team members who do not sit at a desk for most of their work. This audience includes healthcare workers, retail personal, sales teams, and support teams. 
 - This audience is likely using their mobile device most of the time to get work done
 - Communications need to be concise, easy to access, and visually engaging
-- It is unlikely that this audience will be able to attend an event all at once, therefor you should plan to record and share the event in a news post or email
+- It is unlikely that this audience will be able to attend an event all at once, therefore you should plan to record and share the event in a news post or email
 - Consider using Viva Connections to create an engaging communication experience that helps organizations stay connected
 <br>
 
@@ -86,7 +86,7 @@ Remote audiences do not work in a centralized office location and may even work 
 <br>
 
 #### Hybrid audiences
-Hybrid audiences are a blend of audiences. Common blends are remote workers and in-office workers and in-office workers and frontline workers. Some organizations may have frontline workers, in-office workers, and remote workers. In some scenarios, you may be trying to reach a similar audience, but they work in different time zones or locations, which also makes them a hybrid audience.
+Hybrid audiences are a blend of audiences. Common blends are remote workers and in-office workers and in-office workers and frontline workers. Some organizations may have frontline workers, in-office workers, and remote workers. In some scenarios, you may be trying to reach a similar audience, but they work in different time zones or locations, which also make them a hybrid audience.
 
 - Hybrid communication needs to be especially inclusive to accommodate other working schedules, access to internet, languages, and time zones
 - Consider using more than one channel or communication method to reach team members with different working styles
@@ -94,14 +94,15 @@ Hybrid audiences are a blend of audiences. Common blends are remote workers and 
 <br>
 
 ## Learn how to target content and events to specific audiences
-Regardless of the app you choose to drive your communications, there are additional Microsoft 365 services that can be used to ensure the right content gets to the right audience.
-Use Microsoft 365 groups
-Planning and organizing M365 groups into different audiences based on role, region, department, and division will be helpful when producing and launching corporate communications. Most applications rely on M365 groups to target content, for example email in Outlook, virtual meetings in Teams, permissions to SharePoint sites, and more.
+Regardless of the app you choose to drive your communications, there are more Microsoft 365 services that can be used to ensure the right content gets to the right audience.
+
+### Use Microsoft 365 groups
+Planning and organizing Microsoft 365 groups into different audiences based on role, region, department, and division will be helpful when producing and launching corporate communications. Most applications rely on Microsoft 365 groups to target content, for example email in Outlook, virtual meetings in Teams, permissions to SharePoint sites, and more.
 <br>
 
 <image – group structure>
 
-Learn more about how to [manage M365 groups](/admin/create-groups/office-365-groups) and how to [create M365 groups](https://support.microsoft.com/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Learn more about how to [manage Microsoft 365 groups](/admin/create-groups/office-365-groups) and how to [create M365 groups](https://support.microsoft.com/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 ## SharePoint audience targeting 
 For communication that takes place in SharePoint, you’ll have access to a feature called [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81). Audience targeting helps the most relevant content get to the right audiences. By enabling audience targeting, specific content will be prioritized to specific audiences using M365 groups through SharePoint web parts, page libraries, and navigational links.
@@ -115,7 +116,7 @@ For communication that takes place in SharePoint, you’ll have access to a feat
 - Target [SharePoint news posts using the News web part](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165) to specific audiences who would benefit from the information
 - Make sure the right audiences is aware of an upcoming event by [applying audience targeting to the Events web part](https://support.microsoft.com/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909)
 - Help audiences discover relevant content by [apply audience targeting to navigational links](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) in hub site or site navigation
-- Surface specific content in the [Quick links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82) with a relevant audience
+- Surface-specific content in the [Quick links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82) with a relevant audience
 
 
 
