@@ -1,5 +1,5 @@
 ---
-title: "Remove deleted users from SharePoint"
+title: "Remove users from SharePoint"
 ms.reviewer: waynewin
 ms.author: serdars
 author: SerdarSoysal
@@ -25,9 +25,9 @@ ms.assetid: 494bec9c-6654-41f0-920f-f7f937ea9723
 description: "In this article, you'll learn how to remove deleted users from SharePoint in different scenarios."
 ---
 
-# How to remove deleted users from SharePoint
+# How to remove users from SharePoint
 
-This article describes how to remove deleted users so they no longer appear in SharePoint. It should be used to troubleshoot Profile Property synchronization or mismatched ID issues only as advised by Microsoft Customer Support Services.
+This article describes how to remove users so they no longer appear in SharePoint. It should be used to troubleshoot Profile Property synchronization or mismatched ID issues only as advised by Microsoft Customer Support Services.
 
 - **Scenario 1: Someone is deleted from the Microsoft 365 admin center but still appears in SharePoint.**
  
