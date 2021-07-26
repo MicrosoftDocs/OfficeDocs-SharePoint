@@ -1,5 +1,5 @@
 ---
-title: "Plan your communications strategy"
+title: "Plan your communication strategy"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -13,12 +13,13 @@ search.appverid: MET150
 description: "Learn more about common communication scenarios"
 ms.collection: 
   - m365solution-corpcomms
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Step 1: Review common communication scenarios
 
 Review common scenarios to get familiar with the different types of organizational structures and details that will help narrow down communication options, considerations, and potential solutions. Then, learn about Microsoft 365 communication applications and how to scope your audience(s) and determine the audience profile. Finally, pick a solution and get started planning for your specific scenario.
-
+<br>
 
 
 | Review scenarios    | Learn about methods |Scope audience   |Get started planning   |
@@ -59,11 +60,13 @@ You need to develop a scalable method of welcoming and orienting new employees. 
 
 ## Up next:
 
-Step 2: Review Microsoft 365 communication tools and methods
+**Step 2:** [Review Microsoft 365 communication tools and methods](/SharePoint/review-communication-apps.md)
 <br>
-Step 3: Scope audience size and preferences
+
+**Step 3:** [Scope audience size and preferences](/SharePoint/audience-profile.md)
 <br>
-Step 4: Get started planning for your scenario
+
+**Step 4:** [Get started planning for your scenario](/SharePoint/choose-communication-method.md)
 
 
 
