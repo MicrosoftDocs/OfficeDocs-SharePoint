@@ -38,8 +38,7 @@ Many communication solutions will follow a similar path to get started – plann
 
 |Plan                  | Build               | Launch          |
 | :------------------- | :------------------- |:-------------------|
-|Check licensing requirements and prepare your M365 tenant environment <br> Understand the needs of your audience and determine the audience profile <br>  Align with key stakeholders and partners <br>  Consider multilingual and accessibility needs  | Use SharePoint and Microsoft Teams templates to save time <br> Check SharePoint site and page performance where applicable <br> Recruit help moderating the conversation or Q&A where needed <br> Plan the communication’s launch
-  | Make the communication method known through a variety of channels <br> Ensure one-time communications can be accessed by the entire organization <br> Review engagement metrics |
+|Check licensing requirements and prepare your M365 tenant environment <br> Understand the needs of your audience and determine the audience profile <br>  Align with key stakeholders and partners <br>  Consider multilingual and accessibility needs  | Use SharePoint and Microsoft Teams templates to save time <br> Check SharePoint site and page performance where applicable <br> Recruit help moderating the conversation or Q&A where needed <br> Plan the communication’s launch| Make the communication method known through a variety of channels <br> Ensure one-time communications can be accessed by the entire organization <br> Review engagement metrics |
 
 
 
