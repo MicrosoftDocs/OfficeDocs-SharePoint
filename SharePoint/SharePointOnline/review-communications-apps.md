@@ -58,7 +58,7 @@ Microsoft Stream is video service where people in your organization can upload, 
 - There are [video quotas and limitations](/stream/quotas-and-limitations.md) depending on your organization’s license 
 <br>
 
-## Analytics:
+### Analytics:
 - [View statistics for a Stream videos](https://support.microsoft.com/office/view-statistics-for-a-video-in-office-365-video-46819666-2b24-4220-882d-aeceaf10a745)
 
 
@@ -89,23 +89,57 @@ Build communities of interest, gather ideas, request feedback, and keep everyone
 
 
 
+## Microsoft Teams: Video conferencing, chat, and live events
+Set up, customize, and collaborate in teams and channels. Get work done using channel posts, chats, calls, and online meetings. Teams is a great place to target information to smaller or more specific teams in your organization. Integrate resources from SharePoint like pages, lists, and document libraries as tabs in Microsoft Teams.  For example, you might have a team for your sales department with a channel for event announcements that includes resources from your Sales team site in SharePoint.
+<br>
+
+### Engagement options: 
+- Post news and announcements to specific teams and channels
+- [Use @mentions](https://support.microsoft.com/office/use-mentions-to-get-someone-s-attention-in-teams-eb4f059d-320e-454e-b111-03361d4d6855) for names of people or the channel so get attention 
+- Integrate popular [SharePoint pages as tabs in Teams channels](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b)
+- Reach broad audiences using [Teams live events](https://support.microsoft.com/office/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a)
+- [Communicate with up for 10,000 people at once](/microsoftteams/limits-specifications-teams.md) in a team or channel
+<br>
+
+### Set up and maintenance considerations:
+- Help manage channel content and context by [adding chat moderators](/microsoftteams/manage-channel-moderation-in-teams.md)
+- [Create a Teams template](/microsoftteams/create-a-team-template.md) to standardize the way Teams are created across the organization 
+- [Set up secure collaboration](/microsoft-365/solutions/setup-secure-collaboration-with-teams.md) for Teams that will allow guest or external users
+<br>
+
+### Analytics:
+- Users can [view analytics for teams and channels]https://support.microsoft.com/office/view-analytics-for-your-teams-5b8ad4b1-af34-4217-aff4-cd11a820b56b) that they are part of
+- Access more in depth [analytics and reporting in the Teams admin center](/microsoftteams/teams-analytics-and-reports/teams-reporting-reference.md)
 
 
+## Microsoft SharePoint: Engage, learn, and collaborate
+SharePoint is the center or your organization’s internal knowledge base, or intranet, and is comprised of portals, sites, and pages. Many communication apps can be integrated with SharePoint to create dynamic experiences that can be easily viewed on a mobile or desktop device. 
+<br>
 
+#### Engagement options:
+- Share durable information with dozens or hundreds of people – or your entire organization using [SharePoint communication or team sites](https://support.microsoft.com/office/create-a-site-in-sharepoint-4d1e11bf-8ddc-499d-b889-2b48d10b1ce8)
+- [Share news](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7) in a visually compelling format on a site or email across the organization
+- Integrate other communication outlets like [Yammer](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da), [Stream](https://support.microsoft.com/office/use-the-stream-classic-web-part-b97fa87c-1337-4271-a059-17f0d2b26e8b), and [Twitter](https://support.microsoft.com/office/use-the-twitter-web-part-15db6b3b-d167-41dd-9875-2af64b44d820) using web parts on SharePoint pages
+- Use SharePoint sites and pages to make recorded events, meetings, resources, and related contacts available to the rest of the organization
+- [Use audience targeting on SharePoint sites, pages, lists, links, and web parts](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) to help users find the right content
+- Bring intranet resources into Microsoft Teams desktop and the mobile app to help employees find resources and collaborate in the form of dashabord cards using [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/microsoft-viva-connections-to-start-rollout-to-general/ba-p/2175802)
+<br>
 
+#### Set up and maintenance considerations:
+- [Setting up a home site for your organization](/sharepoint/home-site-plan.md) is a good starting place since it will be the gateway to the rest of your organization, and enables you to [customize global navigation in the SharePoint app bar](/sharepoint/sharepoint-app-bar#customize-global-navigation-in-the-app-bar.md)
+- Over time, [manage](https://support.microsoft.com/office/manage-your-sharepoint-communication-site-21761aac-f7f7-4499-b0ca-cf283477c32f) and [maintain SharePoint content and site settings](https://support.microsoft.com/office/change-a-site-s-title-description-logo-and-site-information-settings-8376034d-d0c7-446e-9178-6ab51c58df42) for relevance and ensure users have the right access to content
+- Consider using [SharePoint hub sites](/sharepoint/planning-hub-sites.md) to create associations between related sites and content
+<br>
 
-
-
-
+#### Analytics:
+- [View usage data for your SharePoint site](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e)
+- [View usage data for a SharePoint page or news post](https://support.microsoft.com/office/view-usage-data-for-pages-and-news-e3186199-ccc8-4445-9162-bb1bcec8b7ee)
 
 
 
 
 ## Up next:
 
-
-Step 3: Scope audience size and preferences
-<br>
 Step 4: Get started planning for your scenario
 
 
