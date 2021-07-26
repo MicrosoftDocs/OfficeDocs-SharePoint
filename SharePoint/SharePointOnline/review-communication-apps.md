@@ -13,6 +13,7 @@ search.appverid: MET150
 description: "Learn more about popular Microsoft 365 communication tools"
 ms.collection: 
   - m365solution-corpcomms
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Step 2: Review Microsoft 365 communication tools
@@ -140,7 +141,7 @@ SharePoint is the center or your organization’s internal knowledge base, or in
 
 ## Up next:
 
-Step 4: Get started planning for your scenario
+**Step 3:** [Scope audience size and preferences](/SharePoint/audience-profile.md)
+<br>
 
-
-
+**Step 4:** [Get started planning for your scenario](/SharePoint/choose-communication-method.md)
