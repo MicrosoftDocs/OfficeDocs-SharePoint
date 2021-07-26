@@ -33,8 +33,9 @@ Learn how to keep everyone informed and engaged using SharePoint, Microsoft Team
 ## Overview of set-up
 Start by learning what Microsoft 365 tools can help for your specific scenario and how to scope your audience. Then get started planning by learning how to create, launch, measure, and maintain a one-time communication or communications over time.
 <br>
+<br>
 
-| Learn more about tools and define your audience profile    | Identify the scenario(s) to meet your communication goal |Plan, create, and launch your communication plan   |Manage and maintain communication and content over time   |
+| Learn more about tools and define your audience profile    | Identify the scenario(s) to meet your communication goal |Plan, create, and launch your communication strategy   |Manage and maintain communication and content over time   |
 | :------------------: | :------------------: |:---------------:|:---------------:|
 | ![Image of a wayfinding sign icon](media/icon-plan-organize.png)  |   ![Image of a thumb tack icon](media/pin-blue.png) |   ![Image of a checklist icon](media/numbered-blue.png) | ![Image of a calendar icon](media/icon-calendar.png) |
 | Review common scenarios & outcomes|Select a scenario(s)   | Gather requirements and content  |Update permissions and settings as needed   |
@@ -47,6 +48,7 @@ Start by learning what Microsoft 365 tools can help for your specific scenario a
 ## Overview of the corporate communication solution:
 Learn how to plan your communication strategy by reviewing common communication scenarios, solutions, and outcomes. Next, review how Microsoft 365 tools and apps can engage and inform the audiences you want to reach. Then determine which communication scenario meets your communication goals and get started planning, launching, and maintaining your communication solution. 
 <br>
+<br>
 
 | Icon     | Scenario                 | Solution details          |
 | :------------------:|:------------------: |:----------------|
@@ -57,9 +59,6 @@ Learn how to plan your communication strategy by reviewing common communication 
 |  ![Image of a newspaper icon](media/icon-news.png)    | **Share organizational news**  | - Share organization news and announcements across your company  <br> - Create an organizational news site, news posts, and use the News web part <br> - Measure engagement and expand reach using Viva Connections             |
 | ![Image of a networking icon](media/icon-launch-add.png)  |  **Leadership connection**   | - Create communication channels and networking opportunities <br> - Create engaging experiences in Yammer and live events <br> - Expand reach using Viva Connections             |
 | ![Image of a location symbol icon](media/icon-build-global.png)  | **New employee onboarding**     | - Create an end-to-end experience to onboard new employees <br> - Welcome new employees using, share resource, and provide support <br> - Expand reach using Viva Connections           |
-
-
-
 
 
 
