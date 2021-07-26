@@ -22,7 +22,6 @@ Now that you understand the communication tools available and how to determine y
 <br>
 
 ## Get step-by-step guidance for popular scenarios
-
 <br>
 
 
