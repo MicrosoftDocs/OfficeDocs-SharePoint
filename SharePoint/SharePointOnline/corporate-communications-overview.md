@@ -38,7 +38,7 @@ Start by learning what Microsoft 365 tools can help for your specific scenario a
 | Review common scenarios & outcomes|Select a scenario(s)   | Gather requirements and content  |Update permissions and settings as needed   |
 | Review M365 tools                 | Learn how to get started planning    |  Align with partners      | Maintain relevant content           |
 | Scope your audience                   | Review considerations based on audience preferences        | Prepare and test environment             | Maintain performant sites, pages, and lists         |
-|Check technical and license requirements          | Learn how to use and integrate M365 apps    | Determine success metrics & have a launch plan  |Retire content when it’s no longer needed          |
+|Check technical and license requirements          | Learn how to use and integrate M365 apps    | Determine success metrics & plan the launch  |Retire content when it’s no longer needed          |
 
 
 
