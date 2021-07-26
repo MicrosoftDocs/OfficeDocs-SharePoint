@@ -47,19 +47,19 @@ Microsoft Stream is video service where people in your organization can upload, 
 <br>
 
 ### Engagement options:
-•	[Share Stream videos](/stream/portal-share-video.md) in email, Teams channels and chats, or in Yammer
-•	[Use the Stream web part](https://support.microsoft.com/office/use-the-stream-web-part-b97fa87c-1337-4271-a059-17f0d2b26e8b) to embed a video in a SharePoint page or news post 
-•	[Upload recordings from Teams meetings into Stream](/stream/portal-upload-teams-meeting-recording.md) to organize and store content
-•	Consider using [Stream for live events](https://support.microsoft.com/office/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a) when you need to reach large audiences and want to record the session to share with others
+- [Share Stream videos](/stream/portal-share-video.md) in email, Teams channels and chats, or in Yammer
+- [Use the Stream web part](https://support.microsoft.com/office/use-the-stream-web-part-b97fa87c-1337-4271-a059-17f0d2b26e8b) to embed a video in a SharePoint page or news post 
+- [Upload recordings from Teams meetings into Stream](/stream/portal-upload-teams-meeting-recording.md) to organize and store content
+- Consider using [Stream for live events](https://support.microsoft.com/office/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a) when you need to reach large audiences and want to record the session to share with others
 <br>
 
 ### Set up and maintenance considerations:
-•	Stream uses [Microsoft 365 groups](/stream/portal-create-groups.md) and [channels](/stream/portal-create-channel.md) to make it easy to share and collaborate on content and manage access
-•	There are [video quotas and limitations](/stream/quotas-and-limitations.md) depending on your organization’s license 
+- Stream uses [Microsoft 365 groups](/stream/portal-create-groups.md) and [channels](/stream/portal-create-channel.md) to make it easy to share and collaborate on content and manage access
+- There are [video quotas and limitations](/stream/quotas-and-limitations.md) depending on your organization’s license 
 <br>
 
 ## Analytics:
-•	[View statistics for a Stream videos](https://support.microsoft.com/office/view-statistics-for-a-video-in-office-365-video-46819666-2b24-4220-882d-aeceaf10a745)
+- [View statistics for a Stream videos](https://support.microsoft.com/office/view-statistics-for-a-video-in-office-365-video-46819666-2b24-4220-882d-aeceaf10a745)
 
 
 
@@ -68,24 +68,24 @@ Build communities of interest, gather ideas, request feedback, and keep everyone
 <br>
 
 ### Engagement options:
-•	Join and create a community in Yammer to bring people together
-•	Create polls, praise, announcements, and questions in Yammer
-•	Add a Yammer page to a Teams channel to keep resources in one place
-•	Use a Yammer web part in SharePoint to integrate conversations and highlights into a relevant SharePoint site
-•	Learn how to organize a live event in Yammer
-•	Use the Yammer community app in Microsoft Teams
+- [Join and create a community](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) in Yammer to bring people together
+- [Create polls, praise, announcements, and questions](https://support.microsoft.com/office/create-polls-praise-announcements-and-questions-in-yammer-4b30c7e0-f915-4c69-9582-ccbbd09a516b) in Yammer
+- Integrate Yammer into Microsoft Teams by [adding a Yammer page to a Teams channel](https://support.microsoft.com/office/add-a-yammer-page-to-a-teams-channel-ca06ec83-f22d-4b76-83a5-c83aa2a33528)
+- [Use a Yammer web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) in SharePoint to integrate conversations and highlights into a relevant SharePoint site
+- Learn how to [organize a live event in Yammer](https://support.microsoft.com/office/organize-a-live-event-in-new-yammer-7338782a-4f0b-4fd0-a6c3-33625906ead1)
+- Use the [Yammer community app in Microsoft Teams](https://support.microsoft.com/office/use-the-yammer-communities-app-for-microsoft-teams-930c86f1-e1e2-4e45-a66a-ce8faca71a21)
 <br>
 
 ### Set up and maintenance considerations:
-•	Enable people at your organization to report concerns about Yammer conversations or replies
-•	Plan to engage new Yammer communities until the conversation picks up naturally over time
+- Enable people at your organization to [report concerns about Yammer conversations or replies]/yammer/manage-yammer-groups/configure-conversation-reporting.md)
+- Plan to [engage new Yammer communities](https://onedrive.live.com/view.aspx?resid=1A3C1EAC795A049F!117&ithint=file%2cpptx&authkey=!AFaAWmDIAnUrWBA) until the conversation picks up naturally over time
 <br>
 
 ### Analytics:
-•	View insights about questions and answers in Yammer
-•	View community or group insights in Yammer
-•	Determine how many people have seen a Yammer conversation
-•	Microsoft 365 Reports in the admin center - Yammer activity report 
+- View [insights about questions and answers](https://support.microsoft.com/office/view-insights-about-questions-and-answers-in-yammer-fcde33cf-ee3f-4cc8-aa47-c6d0f3fc5dc0) in Yammer
+- View insights about [Yammer community or group activity](https://support.microsoft.com/office/view-community-or-group-insights-in-yammer-06c5494a-d77c-410c-9464-98bc0b9dad84)
+- [Determine how many people have seen a Yammer conversation](https://support.microsoft.com/office/determine-how-many-people-have-seen-a-yammer-conversation-538a1316-1504-4aaa-9661-b23167f9a281)
+- [Get a Yammer activity report from the M365 admin center](\/microsoft-365/admin/activity-reports/yammer-activity-report.md)
 
 
 
