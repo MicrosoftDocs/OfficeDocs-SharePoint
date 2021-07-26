@@ -71,7 +71,7 @@ The following articles include information about how to prepare for installation
 |[Upgrade from SharePoint 2010 to SharePoint 2013](../upgrade-and-update/upgrade-from-sharepoint-2010-to-sharepoint-2013.md) <br/> |Learn how to plan, prepare, and perform an upgrade to SharePoint Server 2013.  <br/> |
 |[Upgrade from SharePoint 2013 to SharePoint Server 2019](../upgrade-and-update/Upgrade-from-SharePoint2013-to-SharePointServer-2019.md) <br/> |Learn the high level steps to perform an upgrade to SharePoint Server 2019.  <br/> |
 |[Deploy software updates for SharePoint 2013](../upgrade-and-update/deploy-software-updates-for-sharepoint-2013.md) <br/> |Learn how to prepare for, download, install, and configure software updates and patches for SharePoint Server 2013.  <br/> |
-|[Test and troubleshoot an upgrade to SharePoint 2013](../upgrade-and-update/test-and-troubleshoot-an-upgrade-0.md) <br/> |Learn how to test and troubleshoot an upgrade from SharePoint Server 2010 to SharePoint Server 2013.  <br/> |
+|[Test and troubleshoot an upgrade to SharePoint 2013](../upgrade-and-update/test-troubleshoot-upgrade-2013.md) <br/> |Learn how to test and troubleshoot an upgrade from SharePoint Server 2010 to SharePoint Server 2013.  <br/> |
 |[Configure SQL Server security for SharePoint Server](../security-for-sharepoint-server/configure-sql-server-security-for-sharepoint-environments.md) <br/> |Learn how to improve the security of SQL Server for SharePoint Server 2013 environments.  <br/> |
 |[SharePoint 2013 dev/test environments in Azure](../administration/sharepoint-2013-dev-test-environments-in-azure.md) <br/> |Learn about why Microsoft Azure is the best place to host your SharePoint Server 2013 farms in the cloud.  <br/> |
    
