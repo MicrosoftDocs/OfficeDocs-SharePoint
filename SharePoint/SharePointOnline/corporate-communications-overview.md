@@ -51,6 +51,15 @@ Learn how to plan your communication strategy by reviewing common communication 
 
 
 
+## Up next:
+
+Step 1: Learn how to plan for your communication scenario
+<br>
+Step 2: Review Microsoft 365 communication tools and methods
+<br>
+Step 3: Scope audience size and preferences
+<br>
+Step 4: Get started planning for your scenario
 
 
 
