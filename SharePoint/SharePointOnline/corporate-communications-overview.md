@@ -18,7 +18,7 @@ ms.collection:
 
 # Corporate communications: Tips, methods, and products
 
-Employee engagement is a big contributor to workplace satisfaction, loyalty, and productivity at any organization. Across Microsoft 365, there are multiple ways to communicate. Knowing which method or combinations of methods to use and when depends on your audience and the communication culture of your organization.
+Employee engagement is a significant contributor to workplace satisfaction, loyalty, and productivity at any organization. Across Microsoft 365, there are multiple ways to communicate. Knowing which method or combinations of methods to use and when depends on your audience and the communication culture of your organization.
 Learn how to keep everyone informed and engaged using SharePoint, Microsoft Teams, Yammer, Stream, and Viva Connections. Learn more about the powerful strategies and communication tools available to you that help drive engagement in your organization.
 
 **In this solution:**
@@ -29,21 +29,21 @@ Learn how to keep everyone informed and engaged using SharePoint, Microsoft Team
 - Learn how to launch, manage, and maintain corporate communications over time
 
 
-## Overview of set up
+## Overview of set-up
 Start by learning what Microsoft 365 tools can help for your specific scenario and how to scope your audience. Then get started planning by learning how to create, launch, measure, and maintain a one-time communication or communications over time.
 
 | Learn more about tools and define your audience profile    | Identify the scenario(s) to meet your communication goal |Plan, create, and launch your communication plan   |Manage and maintain communication and content over time   |
 | :------------------: | :------------------: |:---------------:|:---------------:|
 | ![Image of a wayfinding sign icon](media/icon-plan-organize.png)  |   ![Image of a thumb tack icon](media/pin-blue.png) |   ![Image of a checklist icon](media/numbered-blue.png) | ![Image of a calendar icon](media/icon-calendar.png) |
 | Review common scenarios & outcomes|Select a scenario(s)   | Gather requirements and content  |Update permissions and settings as needed   |
-| Review M365 tools                 | Learn how to get started planning    |  Align with partners      | Maintain relevant content           |
+| Review Microsoft 365 tools                 | Learn how to get started planning    |  Align with partners      | Maintain relevant content           |
 | Scope your audience                   | Review considerations based on audience preferences        | Prepare and test environment             | Maintain performant sites, pages, and lists         |
 |Check technical and license requirements          | Learn how to use and integrate M365 apps    | Determine success metrics & plan the launch  |Retire content when it’s no longer needed          |
 
 
 
 ## Overview of the corporate communication solution:
-Learn how to plan your communication strategy by reviewing common communication scenarios, solutions, and outcomes. Next, review how M365 tools and apps can engage and inform the audiences you want to reach. Then determine which communication scenario meets your communication goals and get started planning, launching, and maintaining your communication solution. 
+Learn how to plan your communication strategy by reviewing common communication scenarios, solutions, and outcomes. Next, review how Microsoft 365 tools and apps can engage and inform the audiences you want to reach. Then determine which communication scenario meets your communication goals and get started planning, launching, and maintaining your communication solution. 
 
 | Icon     | Scenario                 | Solution details          |
 | :------------------:|:------------------: |:----------------|
