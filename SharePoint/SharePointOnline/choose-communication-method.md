@@ -19,7 +19,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 # Step 4: Choose your communication solution
 
 Now that you understand the communication tools available and how to determine your audience’s profile, you are ready to select a scenario and learn more about the technical requirements, options for set up, and how to start planning with your communications team.   
-<br>
+
 
 ## Get step-by-step guidance for popular scenarios
 <br>
@@ -35,11 +35,13 @@ Now that you understand the communication tools available and how to determine y
 | ![Image of a location symbol icon](media/icon-build-global.png)  | **New employee onboarding**     | Welcome and orient new employees by providing a landing place to learn more about the organization, training opportunities, and where to find support. <br> <br> Learn more about new employee onboarding.             |SharePoint, Yammer and/or Microsoft Teams            |Outlook, Stream            |
 
 ## Get started planning for your scenario
-Many communication solutions will follow a similar path to get started – planning, building, and launching. Follow best practices and considerations to ensure your communication solution meets your organization’s goals. 
+Many communication solutions will follow a similar path to get started – plan, build, and launch. Follow best practices and considerations to ensure your communication solution meets your organization’s goals. 
 
-|Plan                  | Build               | Launch          |
-| :------------------- | :------------------- |:-------------------|
-|- Check licensing requirements and prepare your M365 tenant environment <br> - Understand the needs of your audience and determine the audience profile <br>  - Align with key stakeholders and partners <br>  - Consider multilingual and accessibility needs  | - Use SharePoint and Microsoft Teams templates to save time <br> - Check SharePoint site and page performance where applicable <br> - Recruit help moderating the conversation or Q&A where needed <br> - Plan the communication’s launch| - Make the communication method known through a variety of channels <br> - Ensure one-time communications can be accessed by the entire organization <br> - Review engagement metrics |
+| Stage             | Tasks                | 
+| :---------------: | :------------------- |
+|**Plan**  | - Check licensing requirements and prepare your M365 tenant environment <br> - Understand the needs of your audience and determine the audience profile <br>  - Align with key stakeholders and partners <br>  - Consider multilingual and accessibility needs | 
+| **Build**  |  - Use SharePoint and Microsoft Teams templates to save time <br> - Check SharePoint site and page performance where applicable <br> - Recruit help moderating the conversation or Q&A where needed <br> - Plan the communication’s launch | 
+| **Launch***  |  - Make the communication method known through a variety of channels <br> - Ensure one-time communications can be accessed by the entire organization <br> - Review engagement metrics | 
 
 
 
