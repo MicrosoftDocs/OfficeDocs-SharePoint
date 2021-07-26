@@ -14,6 +14,7 @@ description: "Learn about planning and managing corporate communications for you
 ms.collection: 
   - m365solution-overview
   - m365solution-corpcomms
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Corporate communications: Tips, methods, and products
@@ -31,6 +32,7 @@ Learn how to keep everyone informed and engaged using SharePoint, Microsoft Team
 
 ## Overview of set-up
 Start by learning what Microsoft 365 tools can help for your specific scenario and how to scope your audience. Then get started planning by learning how to create, launch, measure, and maintain a one-time communication or communications over time.
+<br>
 
 | Learn more about tools and define your audience profile    | Identify the scenario(s) to meet your communication goal |Plan, create, and launch your communication plan   |Manage and maintain communication and content over time   |
 | :------------------: | :------------------: |:---------------:|:---------------:|
@@ -44,6 +46,7 @@ Start by learning what Microsoft 365 tools can help for your specific scenario a
 
 ## Overview of the corporate communication solution:
 Learn how to plan your communication strategy by reviewing common communication scenarios, solutions, and outcomes. Next, review how Microsoft 365 tools and apps can engage and inform the audiences you want to reach. Then determine which communication scenario meets your communication goals and get started planning, launching, and maintaining your communication solution. 
+<br>
 
 | Icon     | Scenario                 | Solution details          |
 | :------------------:|:------------------: |:----------------|
@@ -53,7 +56,7 @@ Learn how to plan your communication strategy by reviewing common communication 
 |![Image of a mega phone icon](media/icon-launch-engage.png) | **Hold a town hall**   | - Bring your organization together for a live or prerecorded event <br> - Record, share, and keep the conversation going <br> - Measure engagement and expand reach using news            |
 |  ![Image of a newspaper icon](media/icon-news.png)    | **Share organizational news**  | - Share organization news and announcements across your company  <br> - Create an organizational news site, news posts, and use the News web part <br> - Measure engagement and expand reach using Viva Connections             |
 | ![Image of a networking icon](media/icon-launch-add.png)  |  **Leadership connection**   | - Create communication channels and networking opportunities <br> - Create engaging experiences in Yammer and live events <br> - Expand reach using Viva Connections             |
-| ![Image of a location symbol icon](media/icon-build-global.png)  | **New employee onboarding**     | - Create an end-to-end experience to onboard new employees <br> - Create a home base to welcome new employees using, share resource, and provide support <br> - Expand reach using Viva Connections           |
+| ![Image of a location symbol icon](media/icon-build-global.png)  | **New employee onboarding**     | - Create an end-to-end experience to onboard new employees <br> - Welcome new employees using, share resource, and provide support <br> - Expand reach using Viva Connections           |
 
 
 
@@ -62,13 +65,16 @@ Learn how to plan your communication strategy by reviewing common communication 
 
 ## Up next:
 
-Step 1: Learn how to plan for your communication scenario
+**Step 1:** [Learn how to plan for your communication scenario](/SharePoint/plan-communication-strategy.md)
 <br>
-Step 2: Review Microsoft 365 communication tools and methods
+
+**Step 2:** [Review Microsoft 365 communication tools and methods](/SharePoint/review-communication-apps.md)
 <br>
-Step 3: Scope audience size and preferences
+
+**Step 3:** [Scope audience size and preferences](/SharePoint/audience-profile.md)
 <br>
-Step 4: Get started planning for your scenario
+
+**Step 4:** [Get started planning for your scenario](/SharePoint/choose-communication-method.md)
 
 
 
