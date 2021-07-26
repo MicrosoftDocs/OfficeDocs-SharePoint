@@ -64,11 +64,6 @@ Learn how to plan your communication strategy by reviewing common communication 
 
 
 
-
-
-
-
-
 ## Up next:
 
 Step 1: Learn how to plan for your communication scenario
