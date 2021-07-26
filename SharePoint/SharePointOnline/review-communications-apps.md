@@ -15,55 +15,95 @@ ms.collection:
   - m365solution-corpcomms
 ---
 
-# Learn more about how to engage with your audience using Microsoft 365 tools
+# Step 2: Review Microsoft 365 communication tools
 
 Learn more about how Microsoft 365 tools and applications can help you create the right communication channel for the right audience. Review communication tools and learn more about engagement options, maintanence requirements, analytics, and other details to help you decide which tool is best for your scenario and desired outcome. 
 
-## Step 2: Review Microsoft 365 communication tools
-
-Review common scenarios to get familiar with the different types of organizational structures and details that will help narrow down communication options, considerations, and potential solutions. 
-
-
-| Review scenarios    | Learn about methods |Scope audience   |Get started planning   |
-| :------------------: | :------------------: |:---------------:|:---------------:|
-| ![Image of a check list icon](media/task-check.png)  |   ![Image of a light bulb icon](media/bulb-blue.png) |   ![Image of a user in focus icon](media/icon-plan-personalize.png) | ![Image of a clipboard icon](media/icon-plan-plan.png) |
-| Learn about common communication scenarios|Review Microsoft 365 communication applications   | Identify audience, preferences, and scope audience size  |Get started planning for your specific scenario   |
-
-
-### Scenario A: Use Viva Connections as a gateway to employee experiences
 <image>
-You need to engage, inform, and connect thousands of frontline workers while in the field on a mobile device. The goal is to streamline and target experiences from across SharePoint, Microsoft Teams, Yammer, and Stream into one curated and branded employee experience. Your organization currently uses SharePoint news posts to share essential and time-sensitive information and event recordings that need to reach frontline workers. Additionally, building community and culture among the organizational is a priority and you want to make sure workers in the field can easily engage and participate in social channels. Some tools, resources, conversations, and news are more important to specific audiences and need to be highlighted in the mobile experience. The outcome will allow frontline workers to feel connected and informed while providing easy access to common tasks and tools all in one place. 
+
+## Microsoft Outlook: Email and calendars
+Outlook is a tried-and-true form of communication for many organizations. Email is still a popular form of communication (especially for broad and diverse audiences) and can be viewed on any device. Email is often used in combination with other communication tools to share news, event information, and organizational updates.
+<br>
+
+### Engagement options:
+- Reach an unlimited number of recipients
+- [Use @mentions](https://support.microsoft.com/office/use-mentions-to-get-someone-s-attention-90701709-5dc1-41c7-aa48-b01d4a46e8c7) to get the attention of somebody in an email
+- Get more out of your email by [sharing the same message in Microsoft Teams](https://support.microsoft.com/office/share-an-email-to-teams-from-outlook-108fc274-1e64-4ea1-90bb-51c6c7f267e3)
+- Choose when the message by be received by [scheduling email messages](https://support.microsoft.com/office/delay-or-schedule-sending-email-messages-026af69f-c287-490a-a72f-6c65793744ba)
+<br>
+
+### Set up and maintenance considerations:
+- Consider [setting up Outlook message templates](https://support.microsoft.com/office/create-an-email-message-template-43ec7142-4dd0-4351-8727-bd0977b6b2d1) to standardize corporate communications
+- [Create M365 groups in Outlook](https://support.microsoft.com/office/create-a-contact-group-or-distribution-list-in-outlook-for-pc-88ff6c60-0a1d-4b54-8c9d-9e1a71bc3023) to make reaching specific audiences more easily
+<br>
+
+### Analytics:
+- Add and request read receipts and delivery notifications
+- Create polls and view results in an email message
 
 
-### Scenario B: Plan, create, and launch a home site in SharePoint
-<image>
-You need to create a landing place in your organization’s internal networking of sites – also called an intranet. The goal is to create a gateway to the intranet to help everyone at your organization get easily orientated to the tools, resources, and news available to them. The same resources and functionality need to be available on a mobile device. Your organization has many offices in more than one country, so this landing destination needs to be available in more than one language. Additionally, some portals, news, and resources will be more relevant to certain regions and departments and should be highlighted to groups of viewers. The outcome of the landing experience allows all employees to easily catch up on organizational news, access popular resources, and find help and support.
+## Stream: Securely upload, share, and view videos 
+Microsoft Stream is video service where people in your organization can upload, view, and share videos securely. You can share recordings of meetings, presentations, training sessions, or other videos that aid your team's collaboration. Use [Stream for live events](/stream/live-event-overview.md), or embed Stream content in [Microsoft Teams](/stream/embed-video-microsoft-teams.md) or [SharePoint](https://support.microsoft.com/office/use-the-stream-web-part-b97fa87c-1337-4271-a059-17f0d2b26e8b).
+<br>
+
+### Engagement options:
+•	[Share Stream videos](/stream/portal-share-video.md) in email, Teams channels and chats, or in Yammer
+•	[Use the Stream web part](https://support.microsoft.com/office/use-the-stream-web-part-b97fa87c-1337-4271-a059-17f0d2b26e8b) to embed a video in a SharePoint page or news post 
+•	[Upload recordings from Teams meetings into Stream](/stream/portal-upload-teams-meeting-recording.md) to organize and store content
+•	Consider using [Stream for live events](https://support.microsoft.com/office/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a) when you need to reach large audiences and want to record the session to share with others
+<br>
+
+### Set up and maintenance considerations:
+•	Stream uses [Microsoft 365 groups](/stream/portal-create-groups.md) and [channels](/stream/portal-create-channel.md) to make it easy to share and collaborate on content and manage access
+•	There are [video quotas and limitations](/stream/quotas-and-limitations.md) depending on your organization’s license 
+<br>
+
+## Analytics:
+•	[View statistics for a Stream videos](https://support.microsoft.com/office/view-statistics-for-a-video-in-office-365-video-46819666-2b24-4220-882d-aeceaf10a745)
 
 
-### Scenario C: Plan and produce a town hall for your organization
-<image>
-You want to host a live or pre-recorded event in the form of a town hall event for a large sales and support department of more than 1,000 people. The goal of the town hall is to update everyone on the state of the business and announce new products. The typical employee talks to customers regularly, and needs be up to date on all offerings. Both sales and support employees need technical information and specifications to share with customers, but support agents tend to want more in-depth information to help resolve customer issues. Both audiences like to ask questions--and get answers--during these types of events. The outcome of this scenario is a large region or division of an organization engages with new information, resources, messages, and direction during a live event that’s recorded and can be viewed later.
 
-### Scenario D: Distribute organizational news for your organization
-<image>
-You need to share news that engage and inform all employees in your organization using more than one distribution method. The goal is to keep everyone at the organization up to date on initiatives, programs, events, and training opportunities. You need to reach remote workers, frontline workers, and people in offices in more than one region. Also, most news will need to be in more than one language. The outcome will allow for relevant news to show up to the right audience on devices and in apps that are already being used in the flow of work.
+## Microsoft Yammer: Social networking and live events
+Build communities of interest, gather ideas, request feedback, and keep everyone moving forward with help from Yammer. Yammer slows you to create social network inside and outside of your organization. Conversations and highlights in Yammer can be integrated into SharePoint and Viva Connections.
+<br>
+
+### Engagement options:
+•	Join and create a community in Yammer to bring people together
+•	Create polls, praise, announcements, and questions in Yammer
+•	Add a Yammer page to a Teams channel to keep resources in one place
+•	Use a Yammer web part in SharePoint to integrate conversations and highlights into a relevant SharePoint site
+•	Learn how to organize a live event in Yammer
+•	Use the Yammer community app in Microsoft Teams
+<br>
+
+### Set up and maintenance considerations:
+•	Enable people at your organization to report concerns about Yammer conversations or replies
+•	Plan to engage new Yammer communities until the conversation picks up naturally over time
+<br>
+
+### Analytics:
+•	View insights about questions and answers in Yammer
+•	View community or group insights in Yammer
+•	Determine how many people have seen a Yammer conversation
+•	Microsoft 365 Reports in the admin center - Yammer activity report 
 
 
-### Scenario E: Connect leadership and teams across the organization
-<image>
-You need to find a way to connect leadership teams with the rest of the organization. The goal is to provide consistent and ongoing communication and connection from your top leadership representatives. The audience is extremely broad and involves multiple disciplines doing various jobs from all types of devices - both remotely and in the office. They might also span multiple geographical regions and time zones. The outcome will be a sustainable communications channel that connects people and provides learning opportunities beyond typical leadership announcements.
 
-### Scenario F: Plan, build, and maintain a new employee onboarding program
-<image>
-You need to develop a scalable method of welcoming and orienting new employees. The goal is to help new employees get set up with onboarding paperwork, acquiring work devices, tools, and help understanding company policies and benefits. Twice a month this organization welcomes anywhere from 25 to 100 new hires across many offices in different countries. During the event, participants can ask questions, get answers, and meet other people in their new organization. Information shared at the event will also need to be organized in one central place so afterwards new employees can access resources as needed. The outcome makes new employees feel welcome and understand who and where to go to for help and more information.
+
+
+
+
+
+
+
+
 
 
 
 
 ## Up next:
 
-Step 2: Review Microsoft 365 communication tools and methods
-<br>
+
 Step 3: Scope audience size and preferences
 <br>
 Step 4: Get started planning for your scenario
