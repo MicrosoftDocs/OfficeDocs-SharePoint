@@ -61,7 +61,6 @@ Learn how to plan your communication strategy by reviewing common communication 
 | ![Image of a location symbol icon](media/icon-build-global.png)  | **New employee onboarding**     | - Create an end-to-end experience to onboard new employees <br> - Welcome new employees using, share resource, and provide support <br> - Expand reach using Viva Connections           |
 
 
-
 ## Up next:
 
 **Step 1:** [Learn how to plan for your communication scenario](/SharePoint/plan-communication-strategy.md)
