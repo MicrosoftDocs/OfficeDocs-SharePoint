@@ -62,7 +62,7 @@ Common methods of organizing navigational design:
 
 ![Geographic region](media/geographic_region.png)
 
-**Benefits** - Organizing by geographic location is an effective way to bring people of similar disciplines together to collaborate and build community. For large or organizations, and international organizations, location can be an important decision-making factor for users. Organizing by region may be important when certain topics have different laws and mandates depending on the region. For example, crisis management sites or human resource guidelines. 
+**Benefits** - Organizing by geographic location is an effective way to bring people of similar disciplines together to collaborate and build community. For large organizations, and international organizations, location can be an important decision-making factor for users. Organizing by region may be important when certain topics have different laws and mandates depending on the region. For example, crisis management sites or human resource guidelines. 
 
 **Governance considerations** - Many governance details may very among region, for example site creation policy, data retention, and data storage policies too. Learn more about the [multi-geo user experience](/microsoft-365/enterprise/multi-geo-user-experience) and [multi-geo configuration](/sharepoint/dev/solution-guidance/multigeo-introduction).
 
@@ -110,7 +110,7 @@ How to get started
 Moving to modern navigation from classic SharePoint navigation is a process that depends on the size of your organization and the complexity of your tenant’s configuration. Below are general guidelines and tools you can use to get started:
 
 - Define new intranet [business objectives](./plan-intranet.md#identify-initiatives) and [choose pilot scenarios](./plan-intranet.md#choose-pilot-scenarios)
-- Learn about [user needs](./information-architecture-modern-experience.md#understand-your-content) and find methods to [test potential designs](https://www.nngroup.com/articles/quantitative-user-research-methods/)
+- [Get organized](./information-architecture-principles.md#get-organized) and find methods to [test potential designs](https://www.nngroup.com/articles/quantitative-user-research-methods/)
 - Take an inventory of your current sites and subsites
 - Start [planning hubs](./planning-hub-sites.md) and your [home site](./home-site.md) by grouping high priority tasks and content
 - Release hubs and associated sites in phases

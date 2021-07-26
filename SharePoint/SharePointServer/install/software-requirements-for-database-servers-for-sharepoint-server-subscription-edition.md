@@ -1,34 +1,46 @@
 ---
-title: "Software Requirements for Database Servers for SharePoint Server Subscription Edition"
+title: "Software requirements for Database Servers for SharePoint Server Subscription Edition"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
 manager: serdars
-ms.date: 6/22/2021
+ms.date: 7/10/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: interactive-tutorial
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-- SP2019
-ms.custom: 
-ms.assetid: 4d88c402-24f2-449b-86a6-6e7afcfec0cd
-description: "Find out the minimum software requirements for database servers running SharePoint Server Subscription edition."
+ms.assetid: 
+description: "Introduces articles that describe software and other requirements for SharePoint Server Subscription Edition."
 ---
 
-# Software Requirements for Database Servers for SharePoint Server Subscription Edition
+# Software requirements for Database Servers for SharePoint Server Subscription Edition
 
-[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
-
+[!INCLUDE [appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)] 
   
-> [!IMPORTANT]
-> If you contact Microsoft Customer Support Services about a production system that does not meet the minimum hardware specifications described in this document, support will be limited until the system is upgraded to the minimum requirements. 
-  
-SharePoint Server requires SQL Server 2019 for its databases. Earlier versions of SQL Server are not supported.
-You can download evaluation copies of SQL Server 2019 from the Microsoft Evaluation Center.
+## Operating systems
 
-- [SQL Server 2019](https://www.microsoft.com/en-in/evalcenter/evaluate-sql-server-2019)
+SharePoint Server supports the following operating systems:
+- [Windows Server 2019](https://www.microsoft.com/en-in/evalcenter/evaluate-windows-server-2019) Standard or Datacenter
+- [Windows Server 2022](https://www.microsoft.com/en-in/evalcenter/evaluate-windows-server-2022-preview) Standard or Datacenter
+
+Earlier versions of windows server are not supported. SharePoint server supports both the Standard and Datacenter editions of windows server, as well as both the Windows Server with Desktop Experience and windows server core installation options.
+
+	
+## Database versions
+
+SharePoint server supports the following database versions:
+
+- A Standard or Enterprise Edition of SQL Server for Windows that supports database compatibility level 150. This includes SQL Server 2019 and any future version of SQL Server for Windows that supports database compatibility level 150. For more information about database compatibility levels, see [Compatibility Certification](https://docs.microsoft.com/sql/database-engine/install-windows/compatibility-certification?view=sql-server-ver15) and [ALTER DATABASE (Transact-SQL) Compatibility Level](https://docs.microsoft.com/sql/t-sql/statements/alter-database-transact-sql-compatibility-level?view=sql-server-ver15).
+
+- Microsoft Azure SQL Managed Instance (MI). This is only supported if your SharePoint Server farm is hosted in Microsoft Azure. For more information, see [Deploy Azure SQL Managed Instance with SharePoint Servers 2016 and 2019](https://docs.microsoft.com/sharepoint/administration/deploy-azure-sql-managed-instance-with-sharepoint-servers-2016-2019).
+
+> [!NOTE]
+> SQL Server products and all future public updates are supported through the SQL Server product lifecycle.
+
+> [!NOTE]
+> SQL Server Express is not supported. Azure SQL Database (the non-Managed Instance DBaaS service) is also not supported for any SharePoint databases.
