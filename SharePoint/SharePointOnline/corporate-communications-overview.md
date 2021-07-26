@@ -35,11 +35,10 @@ Start by learning what Microsoft 365 tools can help for your specific scenario a
 | Learn more about tools and define your audience profile    | Identify the scenario(s) to meet your communication goal |Plan, create, and launch your communication plan   |Manage and maintain communication and content over time   |
 | :------------------- | :------------------- |:----------------|:----------------|
 | ![Image of a wayfinding sign icon](media/icon-plan-organize.png)  | ![Image of a thumb tack icon](media/pin-blue.png) | ![Image of a checklist icon](media/numbered-blue.png) |![Image of a calendar icon](media/icon-calendar.png) |
-| Review common communication scenarios & outcomes| Select a scenario(s)  | Align with partners  | Maintain relevant content  |
-| Review M365 tools                 | Check technical and license requirements    | Gather requirements and content       | Update permissions and settings as needed           |
+| Review common communication scenarios & outcomes|Check technical and license requirements   | Gather requirements and content  |Update permissions and settings as needed   |
+| Review M365 tools                 | Select a scenario(s)    |  Align with partners      | Maintain relevant content           |
 | Scope your audience                   | Learn how to get started planning        | Prepare and test environment             | Maintain performant sites, pages, and lists         |
-|                  | Review considerations based on audience preferences                  | Determine success metrics              |Retire content when it’s no longer needed          |
-|                  |   | Have a launch plan              |             |
+|         | Review considerations based on audience preferences    | Determine success metrics & have a launch plan  |Retire content when it’s no longer needed          |
 
 
 
