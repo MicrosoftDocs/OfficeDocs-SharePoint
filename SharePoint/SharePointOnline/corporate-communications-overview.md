@@ -45,18 +45,15 @@ Start by learning what Microsoft 365 tools can help for your specific scenario a
 ## Overview of the corporate communication solution:
 Learn how to plan your communication strategy by reviewing common communication scenarios, solutions, and outcomes. Next, review how M365 tools and apps can engage and inform the audiences you want to reach. Then determine which communication scenario meets your communication goals and get started planning, launching, and maintaining your communication solution. 
 
-| Communication scenario     | Icon                 | Solution details          |
+| Icon     | Scenario                 | Solution details          |
 | :------------------- |:------------------- |:----------------|
-| **Plan your communication strategy** | ![Image of a check list icon](media/task-check.png) | Review common communication scenarios; Learn about tools and solutions; Scope your audience and determine your specific scenario   |
-| **Use Viva Connections as a gateway**  |![Image of two people talking icon](media/chat-room.png)   | $10             |
-|**Plan, and create a home site for your intranet**  | ![Image of a house icon](media/icon-build-home.png)  | $1              |
-| **Plan and produce a town hall**      | ![Image of a mega phone icon](media/icon-launch-engage.png) | $100            |
-| **Distribute organizational news**    | ![Image of a newspaper icon](media/icon-news.png)  | $10             |
-| **Leadership connection**   | ![Image of a networking icon](media/icon-launch-add.png)   | $1              |
-| **New employee onboarding**   | ![Image of a location symbol icon](media/icon-build-global.png)    | $100            |
-
-
-
+| ![Image of a check list icon](media/task-check.png) | **Plan your strategy**| Review common communication scenarios <br> Learn about tools and solutions <br> Scope your audience and determine your specific scenario   |
+| ![Image of two people talking icon](media/chat-room.png) | **Use Viva Connections**  | $10             |
+|![Image of a house icon](media/icon-build-home.png) |**Get a home site for your intranet**   | $1              |
+|![Image of a mega phone icon](media/icon-launch-engage.png) | **Plan and produce a town hall**   | $100            |
+|  ![Image of a newspaper icon](media/icon-news.png)    | **Distribute organizational news**  | $10             |
+| ![Image of a networking icon](media/icon-launch-add.png)  |  **Leadership connection**   | $1              |
+| ![Image of a location symbol icon](media/icon-build-global.png)  | **New employee onboarding**     | $100            |
 
 
 
