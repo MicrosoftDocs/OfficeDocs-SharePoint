@@ -1,5 +1,5 @@
 ---
-title: "Plan your communications strategy"
+title: "Review communication tools"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -10,15 +10,18 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid: MET150
-description: "Learn more about common communication scenarios"
+description: "Learn more about popular Microsft 365 communication tools"
 ms.collection: 
   - m365solution-corpcomms
 ---
 
-# Step 1: Review common communication scenarios
+# Learn more about how to engage with your audience using Microsoft 365 tools
 
-Review common scenarios to get familiar with the different types of organizational structures and details that will help narrow down communication options, considerations, and potential solutions. Then, learn about Microsoft 365 communication applications and how to scope your audience(s) and determine the audience profile. Finally, pick a solution and get started planning for your specific scenario.
+Learn more about how Microsoft 365 tools and applications can help you create the right communication channel for the right audience. Review communication tools and learn more about engagement options, maintanence requirements, analytics, and other details to help you decide which tool is best for your scenario and desired outcome. 
 
+## Step 2: Review Microsoft 365 communication tools
+
+Review common scenarios to get familiar with the different types of organizational structures and details that will help narrow down communication options, considerations, and potential solutions. 
 
 
 | Review scenarios    | Learn about methods |Scope audience   |Get started planning   |
