@@ -13,12 +13,13 @@ search.appverid: MET150
 description: "Learn how to determine your audience profile"
 ms.collection: 
   - m365solution-corpcomms
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Step 3: Scope audience size and determine audience preferences
 
-Consider who needs the information you will be communicating. This could be as a specific part of your organization, remote workers, marketing professionals or engineers, and so on. Scope the size of your audience and determine the right channels for your communication. Learn about the consumption needs and preferences of your audience. For example, some audiences may have the bandwidth and be able to engage with video content, while others may prefer reading content at their own pace.  
-<br>
+Consider who needs the information you will be communicating. This could be as a specific part of your organization, remote workers, marketing professionals or engineers, and so on. Scope the size of your audience and determine the right channels for your communication. Learn about the consumption needs and preferences of your audience. For example, some audiences may have the bandwidth and be able to engage with video content, while others may prefer reading content at their own pace. 
+
 <image>
 
 Understand where and how your target audience typically communicates. For example, if your audience is frontline workers and primarily get news from the SharePoint mobile app or using Viva Connections in the Microsoft Teams mobile app, you may decide to only post news in SharePoint and then promote news in Yammer and Teams. Or perhaps you have a remote workforce where online meetings are advantageous. Finally, learn about how to create Microsoft 365 groups and use audience targeting to make sure the right content gets to the right people.
@@ -126,7 +127,7 @@ For communication that takes place in SharePoint, you’ll have access to a feat
 
 ## Up next:
 
-Step 4: Get started planning for your scenario
+**Step 4:** [Get started planning for your scenario](/SharePoint/audience-profile.md)
 
 
 
