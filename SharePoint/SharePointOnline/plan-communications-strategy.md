@@ -15,16 +15,14 @@ ms.collection:
   - m365solution-corpcomms
 ---
 
-# Plan your communications strategy
+# Step 1: Review common communication scenarios
 
-Start by learning how to reach the right audiences with the right tools by reviewing common communication scenarios and solutions. Then, learn how to scope your audience(s) and determine the audience profile. Finally, pick a solution and get started planning for your specific scenario.
+Start by learning how to reach the right audiences with the right tools by reviewing common communication scenarios and solutions. Then, learn about Microsoft 365 communication applications and how to scope your audience(s) and determine the audience profile. Finally, pick a solution and get started planning for your specific scenario.
 
 ## Step 1: Review common communication scenarios
 
-Reaching the right audience with the right tools begins with learning from popular communication scenarios for large organizations. Review common scenarios to get familiar with the different types of organizational structures and details that will help narrow down communication options, considerations, and potential solutions. 
+Review common scenarios to get familiar with the different types of organizational structures and details that will help narrow down communication options, considerations, and potential solutions. 
 
-## Overview of set up
-Start by learning what Microsoft 365 tools can help for your specific scenario and how to scope your audience. Then get started planning by learning how to create, launch, measure, and maintain a one-time communication or communications over time.
 
 | Review scenarios    | Learn about methods |Scope audience   |Get started planning   |
 | :------------------: | :------------------: |:---------------:|:---------------:|
@@ -44,7 +42,7 @@ You need to create a landing place in your organization’s internal networking 
 
 ### Scenario C: Plan and produce a town hall for your organization
 <image>
-You want to host a live or pre-recorded event in the form of a town hall event for a large sales and support department of more than 1,000 people. The goal of the town hall is to update everyone on the state of the business and announce new products. The typical employee talks to customers on a regular basis, and needs be up to date on all offerings. Both sales and support employees need technical information and specifications to share with customers, but support agents tend to want more in-depth information to help resolve customer issues. Both audiences like to ask questions -- and get answers -- during these types of events. The outcome of this scenario is a large region or division of an organization engages with new information, resources, messages, and direction during a live event that’s recorded and can be viewed later.
+You want to host a live or pre-recorded event in the form of a town hall event for a large sales and support department of more than 1,000 people. The goal of the town hall is to update everyone on the state of the business and announce new products. The typical employee talks to customers regularly, and needs be up to date on all offerings. Both sales and support employees need technical information and specifications to share with customers, but support agents tend to want more in-depth information to help resolve customer issues. Both audiences like to ask questions--and get answers--during these types of events. The outcome of this scenario is a large region or division of an organization engages with new information, resources, messages, and direction during a live event that’s recorded and can be viewed later.
 
 ### Scenario D: Distribute organizational news for your organization
 <image>
@@ -53,7 +51,7 @@ You need to share news that engage and inform all employees in your organization
 
 ### Scenario E: Connect leadership and teams across the organization
 <image>
-You need to find a way to connect leadership teams with the rest of the organization. The goal is to provide consistent and ongoing communication and connection from your top leadership representatives. The audience is extremely broad and involves multiple disciplines doing a variety of jobs from all types of devices - both remotely and in the office. They might also span multiple geographical regions and time zones. The outcome will be a sustainable communications channel that connects people and provides learning opportunities beyond typical leadership announcements.
+You need to find a way to connect leadership teams with the rest of the organization. The goal is to provide consistent and ongoing communication and connection from your top leadership representatives. The audience is extremely broad and involves multiple disciplines doing various jobs from all types of devices - both remotely and in the office. They might also span multiple geographical regions and time zones. The outcome will be a sustainable communications channel that connects people and provides learning opportunities beyond typical leadership announcements.
 
 ### Scenario F: Plan, build, and maintain a new employee onboarding program
 <image>
