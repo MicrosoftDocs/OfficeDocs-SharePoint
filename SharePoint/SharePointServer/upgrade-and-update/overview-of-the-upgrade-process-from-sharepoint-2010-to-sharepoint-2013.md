@@ -8,7 +8,7 @@ ms.date: 7/25/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
@@ -160,7 +160,7 @@ Owners of all other site collections can start to upgrade their sites as soon as
 
 #### Other Resources
 
-[Upgrade databases from SharePoint 2010 to SharePoint 2013](upgrade-databases-0.md)
+[Upgrade databases from SharePoint 2010 to SharePoint 2013](upgrade-databases-2013.md)
   
 [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md)
   

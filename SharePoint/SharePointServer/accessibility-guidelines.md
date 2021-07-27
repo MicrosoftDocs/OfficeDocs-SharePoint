@@ -8,7 +8,7 @@ ms.date: 3/12/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
@@ -24,7 +24,7 @@ SharePoint Server supports the accessibility features of common browsers that he
   
 Administrators and other users who have administrative responsibilities typically use the SharePoint Central Administration website and the SharePoint 2016 Management Shell to manage deployments. The mouse and keyboard are typical devices that administrators use to interact with Central Administration.
   
-Because SharePoint Server runs as web sites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see [Plan browser support in SharePoint Server 2016](install/browser-support-planning-0.md).
+Because SharePoint Server runs as web sites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see [Plan browser support in SharePoint Server 2016](install/browser-support-planning-2016-2019.md).
   
 Users who don't use a mouse can use a keyboard to navigate the user interface and complete actions. The ability to use the keyboard in this way is a result of support for keyboard interactions that a browser provides. Users who have devices that support touch can also use gestures to complete operations. For more information, see [Touch](/windows/win32/uxguide/inter-touch).
   
@@ -42,7 +42,7 @@ Many of the accessibility features in SharePoint in Microsoft 365 also apply to 
     
 - [Create accessible sites](https://support.office.com/article/f291404a-dc7e-44de-a31f-d81b3099c2b9#bkm_accessiblesites)
     
-- [Plan browser support in SharePoint Server 2016](install/browser-support-planning-0.md)
+- [Plan browser support in SharePoint Server 2016](install/browser-support-planning-2016-2019.md)
     
 ## See also
 

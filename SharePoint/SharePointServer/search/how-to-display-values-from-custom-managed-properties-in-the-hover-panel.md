@@ -102,7 +102,7 @@ Again, because this is not really intuitive: *When adding custom properties to a
   
 To display custom properties in the hover panel, here's what you should do:
   
-1. Find the managed property names of the site columns that you want to use. [How to display values from custom managed properties in search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md) showed how to do this. 
+1. Find the managed property names of the site columns that you want to use. [How to display values from custom managed properties in search results - option 1 in SharePoint Server](display-values-custom-managed-properties.md) showed how to do this. 
     
 2. Open the item display template that contains the reference to the hover panel display template that you want to customize. In the item display template, in the ManagedPropertyMapping tag, use the following syntax to add the custom managed properties that you want to display:
     
@@ -111,7 +111,7 @@ To display custom properties in the hover panel, here's what you should do:
   ```
   In our Search Center scenario, we added four managed properties to the *TechNet content* item display template. 
     
-     ![Added MPs](../media/OTCSP_AddedMPs.png)
+    ![Added MPs](../media/OTCSP_AddedMPs.png)
   
 3. > [!NOTE]
     > You do *not* have to do this step if you are using SharePoint in Microsoft 365. 

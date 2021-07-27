@@ -8,7 +8,7 @@ ms.date: 12/30/2016
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
@@ -28,7 +28,7 @@ When you upgrade from SharePoint Server 2013 to SharePoint Server 2016, you must
 
 ![Phase 1 of the upgrade process: Create SharePoint 20136 farm](../media/SP15Upgrade_UpgradePhase1.png)
 
-|||
+| | |
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the first phase in the process to upgrade SharePoint Server 2013 data and sites to SharePoint Server 2016. The process includes the following phases that must be completed in order:  <br/> Create the SharePoint Server 2016 farm for a database attach upgrade (this phase) <br/> Copy databases to the new farm for upgrade to SharePoint Server 2016<br/>Upgrade service applications to SharePoint Server 2016Upgrade content databases to SharePoint Server 2016<br/>For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2016](overview-of-the-upgrade-process.md).<br/>|
 
@@ -90,7 +90,7 @@ Before you can upgrade your databases, you must use SharePoint Server 2016 to co
 3. Install all language packs that you want in your environment.
     
     > [!NOTE]
-    > For more information about how to install available language packs, see [Install or uninstall language packs for SharePoint Server 2016](../install/install-or-uninstall-language-packs-0.md). 
+    > For more information about how to install available language packs, see [Install or uninstall language packs for SharePoint Server 2016](../install/install-uninstall-language-packs-2019.md). 
   
 4. Run the SharePoint Products Configuration Wizard to configure your server or servers.
     
@@ -144,6 +144,6 @@ And you must configure all new farm-level settings that you want to use, such as
   
 In a standard installation, the next step would be to create web applications. However, for upgrade, you create web applications later in the process, after you upgrade the service application databases. For more information, see [Create web applications](upgrade-content-databases.md#CreateWebApps).
   
-|||
+| | |
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the first phase in the process to upgrade SharePoint Server 2013 data and sites to SharePoint Server 2016.  <br/>  Next phase: [Copy databases to the new farm for upgrade to SharePoint Server 2016](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2016](overview-of-the-upgrade-process.md).  <br/> |

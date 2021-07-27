@@ -27,9 +27,9 @@ Before you install SharePoint 2013, you must make sure that you have installed a
 The following articles help you prepare for the installation of SharePoint 2013 by providing information about the prerequisites that you must have in order to run SharePoint 2013.
   
   
-||**Content**|**Description**|
+| |**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Building blocks](../media/mod_icon_buildingblock_M.png)|[Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md) <br/> |Describes the hardware and software requirements that you must meet to successfully install SharePoint 2013.  <br/> |
+|![Building blocks](../media/mod_icon_buildingblock_M.png)|[Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md) <br/> |Describes the hardware and software requirements that you must meet to successfully install SharePoint 2013.  <br/> |
 |![Checklist icon (not checked)](../media/mod_icon_checklist_.png)|[Plan browser support in SharePoint 2013](browser-support-planning.md) <br/> |Describes levels of support for web browsers to use with SharePoint 2013.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[IP support in SharePoint 2013](ip-support.md) <br/> |Describes SharePoint 2013 support for IP version 4 (IPv4) and IP version 6 (IPv6).  <br/> |
 |![Checklist icon (not checked)](../media/mod_icon_checklist_.png)|[Software boundaries and limits for SharePoint 2013](software-boundaries-and-limits.md) <br/> |This article provides a starting point for planning the performance and capacity of your SharePoint 2013 farm, and includes performance and capacity testing results and guidelines for acceptable performance.  <br/> |

@@ -8,7 +8,7 @@ ms.date: 9/27/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
@@ -84,7 +84,7 @@ Use this procedure to uninstall SharePoint 2013.
   
 [Remove a server from a farm in SharePoint 2013](remove-a-server-from-a-farm-in-sharepoint-2013.md)
   
-[Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md)
+[Hardware and software requirements for SharePoint 2013](../install/hardware-software-requirements-2013.md)
   
 [Install SharePoint 2013 on a single server with a built-in database](../install/single-server-with-a-built-in-database.md)
   

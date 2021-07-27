@@ -152,6 +152,4 @@ To save space, we'll only look at how to create a result type as a Site collecti
     
 ### Next article in this series
 
-[How to display values from custom managed properties in search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md)
-  
-
+[How to display values from custom managed properties in search results - option 1 in SharePoint Server](display-values-custom-managed-properties.md)

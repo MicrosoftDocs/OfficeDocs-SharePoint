@@ -1,8 +1,9 @@
 ---
 title: "Remote Share Provider"
 ms.reviewer: 
-ms.author: v-satapathy
-manager: nimishasatapathy
+ms.author: v-nsatapathy
+author: nimishasatapathy
+manager: serdars
 ms.date: 6/28/2021
 audience: ITPro
 f1.keywords:
@@ -63,25 +64,27 @@ Backup and restore methodology need to be planned for remote storage system as S
 It is recommended to use System Center Data Protection Manager (DPM) to manage backup and restore so that content database and remote BLOB storage can be backed up at the same time.
 
 In DPM, you can create protection group for both SharePoint content database and remote SMB storage so that these data sets can be backed up/managed together by DPM. For more information, see
-- [How to backup SharePoint with DPM](https://docs.microsoft.com/system-center/dpm/back-up-sharepoint?view=sc-dpm-2019)
-- [How to backup SQL with DPM](https://docs.microsoft.com/system-center/dpm/back-up-sql-server?view=sc-dpm-2019)
-- [How to backup file data with DPM](https://docs.microsoft.com/system-center/dpm/back-up-file-data?view=sc-dpm-2019)
+
+- [How to backup SharePoint with DPM](/system-center/dpm/back-up-sharepoint)
+- [How to backup SQL with DPM](/system-center/dpm/back-up-sql-server)
+- [How to backup file data with DPM](/system-center/dpm/back-up-file-data)
 
 ### Security and Permission
 
 Remote Share Provider does not provide encryption to ensure the data security. It relies on the security and access control provided by SMB storage. Therefore, to keep the BLOB data safe from threaten, proper actions need to be taken on the storage level:
+
 - Enable SMB encryption to ensure BLOBs are transferred safely through network and storage.
 - Enable access control so that only limited user can access BLOBs in the SMB storage.
 - Enable bitlocker to strengthen the data safety if possible.
-- The user account used to perform the steps in the [Provision a BLOB store for each content database](https://docs.microsoft.com/sharepoint/administration/install-and-configure-rbs#provision) section must be a member of the `db_owner` fixed database role on each database that you are configuring RBS for.
-- The user account installing the client library in the steps in the [Install the RBS client library on SQL Server](https://docs.microsoft.com/sharepoint/administration/install-and-configure-rbs#library) and each Front-end or Application server section must be a member of the Administrators group on all of the computers where you are installing the library.
-- The user account enabling RBS in the [Enable RBS for each content database](https://docs.microsoft.com/sharepoint/administration/install-and-configure-rbs#enableRBS) section must have sufficient permissions to run Microsoft PowerShell.
+- The user account used to perform the steps in the [Provision a BLOB store for each content database](/sharepoint/administration/install-and-configure-rbs#provision) section must be a member of the `db_owner` fixed database role on each database that you are configuring RBS for.
+- The user account installing the client library in the steps in the [Install the RBS client library on SQL Server](/sharepoint/administration/install-and-configure-rbs#library) and each Front-end or Application server section must be a member of the Administrators group on all of the computers where you are installing the library.
+- The user account enabling RBS in the [Enable RBS for each content database](/sharepoint/administration/install-and-configure-rbs#enableRBS) section must have sufficient permissions to run Microsoft PowerShell.
 
 ## Setup Remote Share Provider
 
 ### Download RBS Library Installer Matches SQL Server in the Farm
 
-For more information, see [Remote Blob Store (RBS) (SQL Server) - SQL Server | Microsoft Docs](https://docs.microsoft.com/sql/relational-databases/blob/remote-blob-store-rbs-sql-server?view=sql-server-ver15)
+For more information, see [Remote Blob Store (RBS) (SQL Server) - SQL Server | Microsoft Docs](/sql/relational-databases/blob/remote-blob-store-rbs-sql-server)
 
 #### Install RBS Library to evert SharePoint Front end and Application server
 
@@ -128,7 +131,7 @@ msiexec /qn /lvc* rbs.log /i rbs.msi TRUSTSERVERCERTIFICATE=true DBNAME="Your co
 
 To access restricted SMB storage, it is recommended that specific domain account is assigned to Remote Share Provider to READ/WRITE BLOB files in SMB storage. The provider is using PSCredential object to sign-in remote RBS storage with this specific account credential.
 
-See [Get-Credential](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/get-credential?view=powershell-7.1) to get PSCredential object for the RBS provider.
+See [Get-Credential](/powershell/module/microsoft.powershell.security/get-credential) to get PSCredential object for the RBS provider.
 
 #### Register BLOB Store with Remote Share Provider
 

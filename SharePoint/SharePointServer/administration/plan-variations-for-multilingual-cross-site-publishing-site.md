@@ -188,7 +188,7 @@ For this combination, you should plan to do the following:
   
 [Connect a publishing site to a catalog in SharePoint Server](connect-a-publishing-site-to-a-catalog.md)
   
-[Install or uninstall language packs for SharePoint Server 2016](../install/install-or-uninstall-language-packs-0.md)
+[Install or uninstall language packs for SharePoint Server 2016](../install/install-uninstall-language-packs-2019.md)
 #### Other Resources
 
 [Configure the query for a Content Search Web Part](configure-search-web-parts.md#BKMK_ConfigureWP)

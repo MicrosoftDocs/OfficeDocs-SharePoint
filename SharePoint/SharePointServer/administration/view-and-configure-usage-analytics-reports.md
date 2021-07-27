@@ -137,7 +137,7 @@ In our Contoso catalog, we have a site column called  *RetOnSale*  . For each it
   
 ![Ret On Sale Column](../media/OTCSP_RetOnSaleColumn.png)
   
-To narrow the Most Popular Items report to only show items that are on sale, we'll use the managed property that represents the  *RetOnSale*  site column. In our Contoso scenario, this is  *RetOnSale*  (see [How to find a managed property name](../search/how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md#BKMK_HowtoFindaManagedPropertyName)).
+To narrow the Most Popular Items report to only show items that are on sale, we'll use the managed property that represents the  *RetOnSale*  site column. In our Contoso scenario, this is  *RetOnSale*  (see [How to find a managed property name](../search/display-values-custom-managed-properties.md#BKMK_HowtoFindaManagedPropertyName)).
   
 In the Search Schema, we can see that the  *RetOnSale*  managed property is  *Queryable*  . This means that we can use it to narrow the Most Popular Items report. 
   

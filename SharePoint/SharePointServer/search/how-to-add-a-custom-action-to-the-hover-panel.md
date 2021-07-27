@@ -59,7 +59,7 @@ Confused? Well, this is not easy. It takes a while to understand how things were
   
 Here are the steps to add a custom action to the hover panel:
   
-1. Find the managed property name of the site column that you want to use. [How to display values from custom managed properties in classic search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md) showed how to do this. 
+1. Find the managed property name of the site column that you want to use. [How to display values from custom managed properties in classic search results - option 1 in SharePoint Server](display-values-custom-managed-properties.md) showed how to do this.
     
 2. In your mapped network drive, open an item display template. In the item display template, in the **ManagedPropertyMapping** tag, use the following syntax to add the custom managed property: 
     

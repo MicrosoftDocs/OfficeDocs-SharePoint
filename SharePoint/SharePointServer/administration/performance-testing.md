@@ -171,8 +171,7 @@ Each time you run a load test remember that it is changing data in the database.
   
 [Monitoring and maintaining SharePoint Server 2013](monitoring-and-maintaining.md)
   
-[Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits-0.md)
+[Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-limits-2019.md)
 #### Other Resources
 
 [Capacity management and sizing overview for SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ff758647(v=office.14))
-

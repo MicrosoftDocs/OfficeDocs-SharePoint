@@ -1,8 +1,9 @@
 ---
 title: "Remote Share Provider Diagnostic Tool"
 ms.reviewer: 
-ms.author: v-satapathy
-manager: nimishasatapathy
+ms.author: v-nsatapathy
+author: nimishasatapathy
+manager: serdars
 ms.date: 6/28/2021
 audience: ITPro
 f1.keywords:
@@ -12,7 +13,7 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid:
-description: "Learn how the new diagnostic tool helps to validate the data consistency of the content database.."
+description: "Learn how the new diagnostic tool helps to validate the data consistency of the content database."
 ---
 
 # New Remote Share Provider diagnostic tool

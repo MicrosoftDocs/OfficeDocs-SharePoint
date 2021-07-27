@@ -8,7 +8,7 @@ ms.date: 8/1/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
@@ -191,7 +191,7 @@ Configuring trusted My Site host locations is optional.
 
 When enabled, users can use the multilingual user interface feature for their My Sites. This feature is used to display the site's user interface in a secondary language that the user prefers instead of the default, primary language that was selected when the site was created. By default, when a new site is created, it is created in the default, primary language of the SharePoint Server installation on the server. A farm administrator must install language packs on the server before sites can be created in languages other than the default, primary language.
   
-For My Sites, the multilingual user interface feature is controlled by the **Language Options** setting when you configure My Site settings. The languages that are available to users correspond to the language packs installed in the server farm. For more information about language packs, see [Install or uninstall language packs for SharePoint Server 2016](install-or-uninstall-language-packs-0.md). 
+For My Sites, the multilingual user interface feature is controlled by the **Language Options** setting when you configure My Site settings. The languages that are available to users correspond to the language packs installed in the server farm. For more information about language packs, see [Install or uninstall language packs for SharePoint Server 2016](install-uninstall-language-packs-2019.md). 
   
 ## Planning for storage requirements
 <a name="storage"> </a>

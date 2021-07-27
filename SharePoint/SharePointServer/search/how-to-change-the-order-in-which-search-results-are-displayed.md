@@ -136,7 +136,7 @@ To save space, we'll only show you how to create a query rule as a Site collecti
   
     Now, before we move on, let's analyze what we entered:
     
-    - **ContentType** is the managed property that represents the site column Content Type. [How to display values from custom managed properties in search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md) explains how to find managed property names. 
+    - **ContentType** is the managed property that represents the site column Content Type. [How to display values from custom managed properties in search results - option 1 in SharePoint Server](display-values-custom-managed-properties.md) explains how to find managed property names. 
     
     - The colon : means "contains".
     

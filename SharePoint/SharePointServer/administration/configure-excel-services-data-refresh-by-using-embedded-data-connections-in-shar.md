@@ -23,17 +23,17 @@ Excel Services in SharePoint Server 2013 supports three methods of using Secure 
   
 - You can specify a Secure Store target application in a workbook. (This is known as an embedded connection.) This article describes how to do this.
     
-- You can use an unattended service account. For more information, see [Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2016](configure-the-unattended-service-account-0.md).
+- You can use an unattended service account. For more information, see [Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2016](configure-unattended-service-account-2013.md).
     
 - You can use an Office Data Connection (ODC) file that specifies a Secure Store target application. For more information, see [Configure Excel Services data refresh by using external data connections](./excel-services-overview.md).
     
 To configure Excel Services data access to use embedded data connections, you use the following process:
   
-1. [Configure a data access account](#part1)
+1. [Configure a data access account](#configure-a-data-access-account)
     
-2. [Create a Secure Store target application](#part2)
+2. [Create a Secure Store target application](#create-a-secure-store-target-application)
     
-3. [Configure a workbook to use an embedded data connection](#ConfigureWorkbook)
+3. [Configure a workbook to use an embedded data connection](#configure-a-workbook-to-use-an-embedded-data-connection)
     
 ## Configure a data access account
 <a name="part1"> </a>

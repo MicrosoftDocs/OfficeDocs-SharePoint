@@ -28,7 +28,7 @@ In Secure Store you specify a group of users to whom you want to grant access to
   
 Excel Services can be used with Secure Store in three primary scenarios:
   
-> **Unattended Service Account**: The unattended service account is an account that is used by Excel Services to provide broad database access to all users in the farm. Use the unattended service account for accessing data that is not considered sensitive or where you do not want to restrict access to a certain group of users. For information about how to configure this scenario, see [Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2013](configure-the-unattended-service-account-0.md).
+> **Unattended Service Account**: The unattended service account is an account that is used by Excel Services to provide broad database access to all users in the farm. Use the unattended service account for accessing data that is not considered sensitive or where you do not want to restrict access to a certain group of users. For information about how to configure this scenario, see [Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2013](configure-unattended-service-account-2013.md).
     
 > **Embedded Connections**: In Excel, you can specify a Secure Store target application directly in the workbook. When the workbook is published to a SharePoint document library and then rendered by using Excel Services, the specified target application is used to refresh the data. For information about how to configure this scenario, see [Configure Excel Services data refresh by using embedded data connections](./excel-services-overview.md).
     

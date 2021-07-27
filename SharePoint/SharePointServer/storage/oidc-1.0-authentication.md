@@ -2,6 +2,7 @@
 title: "OIDC 1.0 authentication"
 ms.reviewer: 
 ms.author: v-jmathew
+author: v-jmathew
 manager: serdars
 audience: ITPro
 f1.keywords:
@@ -11,7 +12,7 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5cdce2aa-fa6e-4888-a34f-de61713f5096
-description: "Learn how to setup OIDC authentication in SharePoint Server."
+description: "Learn how to setup OIDC authentication in SharePoint Server 2019 and prior versions."
 ---
 
 # OIDC 1.0 authentication
@@ -622,7 +623,7 @@ There are 2 possible configurations:
     4. Open the SharePoint Central Administration site.
     5. Under **System Settings**, select **Configure Alternate Access Mappings**, which will open the **Alternate Access Mapping Collection** box.
     6. Filter the display with the web application that was extended and confirm that you see something like this:
-        :::image type="content" source="../media/alternate-access-mapping-collection-2.png" alt-text="Alternate Access Mapping Collection":::
+        :::image type="content" source="../media/alternate-access-mapping-collection-2.png" alt-text="Alternate Access Mapping Collection 1":::
 
 ### Step 5: Make sure that an HTTPS certificate is set in IIS
 

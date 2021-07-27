@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
@@ -47,7 +47,7 @@ The following tables provide the supported high availability and disaster recove
 For supported versions of SQL Server, see:
 - [Hardware and software requirements for SharePoint Server 2019](../install/hardware-and-software-requirements-2019.md)
 - [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md)
-- [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md) 
+- [Hardware and software requirements for SharePoint 2013](../install/hardware-software-requirements-2013.md) 
   
 **Configuration database**
 

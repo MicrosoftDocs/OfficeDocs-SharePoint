@@ -361,7 +361,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - Microsoft SQL Server 2012 with Service Pack 1 (SP1) LocalDB 64-bit edition, which is also a component of SQL Server 2012 with Service Pack 1 (SP1) Express - [ENU\x64\SqlLocalDB.msi](https://go.microsoft.com/fwlink/p/?LinkId=262352)
     
-- [Microsoft SQL Server 2014](/sql/sql-server/sql-server-technical-documentation?view=sql-server-2017)
+- [Microsoft SQL Server 2014](/sql/sql-server/sql-server-technical-documentation)
     
 ## Prerequisite installer operations and command-line options
 <a name="section7"> </a>

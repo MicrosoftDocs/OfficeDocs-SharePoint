@@ -8,7 +8,7 @@ ms.date: 3/12/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: c33f0214-4201-4807-9e8f-574d8fd05849
@@ -35,10 +35,9 @@ Depending on your version, system requirements and prerequisites could vary.
 
 |**Are you deploying...**|**Read**|
 |:-----|:-----|
-|SharePoint Server 2019<br/>|[2019 Hardware and software requirements](install/hardware-and-software-requirements-2019.md)<br/><br/>[2019 Prerequisites](install/prerequisites-0.md)<br/>|
-|SharePoint Server 2016<br/>|[2016 Hardware and software requirements](install/hardware-and-software-requirements.md)<br/><br/>[2016 Prerequisites](install/prerequisites-0.md)<br/>|
-|SharePoint Server 2013<br/>|[2013 Hardware and software requirements](install/hardware-and-software-requirements-0.md)<br/><br/>[2013 Prerequisites](install/prerequisites.md)<br/>|
-
+|SharePoint Server 2019<br/>|[2019 Hardware and software requirements](install/hardware-and-software-requirements-2019.md)<br/><br/>[2019 Prerequisites](install/prerequisites-2019.md)<br/>|
+|SharePoint Server 2016<br/>|[2016 Hardware and software requirements](install/hardware-and-software-requirements.md)<br/><br/>[2016 Prerequisites](install/prerequisites-2019.md)<br/>|
+|SharePoint Server 2013<br/>|[2013 Hardware and software requirements](install/hardware-software-requirements-2013.md)<br/><br/>[2013 Prerequisites](install/prerequisites.md)<br/>|
 
 ## How large is your company?  
 

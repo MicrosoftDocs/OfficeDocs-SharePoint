@@ -8,7 +8,7 @@ ms.date: 7/24/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
@@ -58,7 +58,7 @@ You can download and combine prerequisites by performing the steps in the follow
   
 1. Refer to the article, [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md), which lists all the required and optional software for SharePoint Server 2016. Additionally, this article provides the download location for each prerequisite that can be downloaded from the Internet. For hardware and software requirements for SharePoint Server 2019, see [Hardware and software requirements for SharePoint Server 2019](hardware-and-software-requirements-2019.md)
     
-    For the SharePoint 2013 version, see [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md).
+    For the SharePoint 2013 version, see [Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md).
     
 2. From the command prompt, navigate to the root of the SharePoint Server installation media or folder location.
     

@@ -43,7 +43,7 @@ Before you create your new SharePoint 2013 environment and attach and upgrade th
 ### Physical topology guidance
 <a name="section6"> </a>
 
-The SQL Server topology — in addition to network, physical storage, and caching considerations — can significantly affect system performance. To learn more about how to map your solution design to the farm size and hardware that will support your business goals, see [Performance planning in SharePoint Server 2013](../administration/performance-planning-in-sharepoint-server-2013.md). For more information about requirements, see [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md).
+The SQL Server topology — in addition to network, physical storage, and caching considerations — can significantly affect system performance. To learn more about how to map your solution design to the farm size and hardware that will support your business goals, see [Performance planning in SharePoint Server 2013](../administration/performance-planning-in-sharepoint-server-2013.md). For more information about requirements, see [Hardware and software requirements for SharePoint 2013](../install/hardware-software-requirements-2013.md).
   
 ## Supported editions for upgrade
 <a name="editions"> </a>

@@ -30,7 +30,7 @@ The following articles about performance and capacity management are available t
 |**        ![Building blocks](../media/mod_icon_buildingblock_M.png)          Content**|**Content**|**Description**|
 |:-----|:-----|:-----|
 ||[Capacity management and sizing for SharePoint Server 2013](capacity-management-and-sizing-for-sharepoint-server-2013.md) <br/> |Learn about the concepts and planning considerations for managing the capacity of a SharePoint Server 2016 environment.  <br/> |
-||[Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits-0.md) <br/> |Learn about the tested performance and capacity limits of SharePoint Server 2016 and how limits relate to acceptable performance.  <br/> |
+||[Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-limits-2019.md) <br/> |Learn about the tested performance and capacity limits of SharePoint Server 2016 and how limits relate to acceptable performance.  <br/> |
 ||[Performance and capacity test results and recommendations (SharePoint Server 2013)](performance-and-capacity-test-results-and-recommendations-for-sharepoint-2013.md) <br/> |Read articles that use test results and recommendations to estimate performance and capacity requirements for SharePoint Server 2016.  <br/> |
    
 ## Additional resources about performance and capacity management

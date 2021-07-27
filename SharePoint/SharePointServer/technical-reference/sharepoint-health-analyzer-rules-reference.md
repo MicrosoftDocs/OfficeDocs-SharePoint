@@ -151,7 +151,7 @@ The following Health Analyzer rules relate to configuration of SharePoint Server
     
 - [Verify that OAuth is configured correctly for the Machine Translation Service application proxy (SharePoint Server)](verify-that-oauth-is-configured-correctly-for-the-machine-translation-service-ap.md)
     
-- [Verify that OAuth is configured correctly for the Machine Translation Service application (SharePoint Server)](verify-that-oauth-is-configured-correctly-for-the-machine-translation-service-ap-0.md)
+- [Verify that OAuth is configured correctly for the Machine Translation Service application (SharePoint Server)](verify-oauth-configured-correctly-machine-translation.md)
     
 - [Immediate translations for the Machine Translation service are disabled (SharePoint Server)](immediate-translations-for-the-machine-translation-service-are-disabled.md)
     

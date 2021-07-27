@@ -8,7 +8,7 @@ ms.date: 01/8/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
@@ -32,6 +32,4 @@ The following articles help you prepare for the installation of SharePoint Serve
 |:-----|:-----|:-----|
 |![Building blocks](../media/mod_icon_buildingblock_M.png)           <br/> |[Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md) <br/> |Describes the hardware and software requirements that you must meet to successfully install SharePoint Server 2016.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)           <br/> |[Hardware and software requirements for SharePoint Server 2019](hardware-and-software-requirements-2019.md) <br/> |Describes the hardware and software requirements that you must meet to successfully install SharePoint Server 2019.  <br/> |
-|![Checklist icon (not checked)](../media/mod_icon_checklist_.png)           <br/> |[Plan browser support in SharePoint Servers 2016 and 2019](browser-support-planning-0.md) <br/> |Describes levels of support for web browsers to use with SharePoint Servers 2016 and 2019.  <br/> |
-   
-
+|![Checklist icon (not checked)](../media/mod_icon_checklist_.png)           <br/> |[Plan browser support in SharePoint Servers 2016 and 2019](browser-support-planning-2016-2019.md) <br/> |Describes levels of support for web browsers to use with SharePoint Servers 2016 and 2019.  <br/> |

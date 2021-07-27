@@ -19,7 +19,7 @@ description: "Learn a second option for displaying values from custom managed pr
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
-In [How to display values from custom managed properties in search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md) we showed a simple method to add a custom icon and values from two custom managed properties to your classic search results. In this topic, we'll look at a somewhat fuller method for changing the way classic search results are displayed that includes if statements and hit highlighting. In this article, you'll learn: 
+In [How to display values from custom managed properties in search results - option 1 in SharePoint Server](display-values-custom-managed-properties.md) we showed a simple method to add a custom icon and values from two custom managed properties to your classic search results. In this topic, we'll look at a somewhat fuller method for changing the way classic search results are displayed that includes if statements and hit highlighting. In this article, you'll learn: 
   
 - [Strategy for killing three birds with one stone - search results version](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-2.md#BKMK_StrategyforKillingThreeBirdsWithOneStoneSearchResultsVersion)
     
@@ -69,7 +69,7 @@ OK, now let's take it step-by-step, with examples of how we did this for our Sea
 ## How to display values from custom managed properties with hit highlighting, and get automatically improved relevancy
 <a name="BKMK_HowtoDisplayValuesfromCustomManagedPropertieswithHitHighlightingandGetAutomaticallyImprovedRelevancy"> </a>
 
-First, you have to find the managed property names that correspond to the custom site columns that you want to use. We looked at how to do this in [How to display values from custom managed properties in search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md).
+First, you have to find the managed property names that correspond to the custom site columns that you want to use. We looked at how to do this in [How to display values from custom managed properties in search results - option 1 in SharePoint Server](display-values-custom-managed-properties.md).
   
 Next, you have to do some configuration on the **Search Results Web Part**. Here are the steps: 
   

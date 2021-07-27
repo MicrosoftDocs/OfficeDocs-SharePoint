@@ -28,7 +28,7 @@ After you install SharePoint Server, you must configure several additional setti
 |**Content**|**Description**|
 |:-----|:-----|
 |[Configure client certificate authentication for SharePoint Server](configure-client-certificate-authentication.md) <br/> |Learn how to configure SharePoint Server to support user authentication using a client certificate.  <br/> |
-|[Configure eDiscovery in SharePoint Server](../governance/configure-ediscovery-0.md) <br/> |Learn the steps to set up and configure eDiscovery in SharePoint Server, Exchange Server 2016, and Exchange Server 2013.  <br/> |
+|[Configure eDiscovery in SharePoint Server](../governance/configure-ediscovery-2019.md) <br/> |Learn the steps to set up and configure eDiscovery in SharePoint Server, Exchange Server 2016, and Exchange Server 2013.  <br/> |
 |[Configure enterprise search in SharePoint Server 2016](../search/configure-search.md) <br/> |Learn how to configure the Search service application and set up a Search Center in SharePoint Server.  <br/> |
 |[Manage the Distributed Cache service in SharePoint Server](../administration/manage-the-distributed-cache-service.md) <br/> |Learn how to configure and manage the Distributed Cache service in SharePoint Server.  <br/> |
 |[Configure site mailboxes in SharePoint Server](../administration/configure-site-mailboxes-in-sharepoint.md) <br/> |Learn how to configure the Site Mailboxes feature in SharePoint Server.  <br/> |

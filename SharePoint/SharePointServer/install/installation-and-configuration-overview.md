@@ -98,7 +98,7 @@ In this phase, you get your servers ready to host the product. This includes the
   
 - Database server: The required version of SQL Server, including service packs and cumulative updates must be installed on the database server. The installation must include any additional features, such as SQL Analysis Services, and the appropriate SharePoint Server 2013 logins have to be added and configured. The database server must be hardened and, if it is required, databases must be created by the DBA. For more information, see:
     
-  - [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md)
+  - [Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md)
     
   - [Configure SQL Server security for SharePoint Server](../security-for-sharepoint-server/configure-sql-server-security-for-sharepoint-environments.md)
     
@@ -106,7 +106,7 @@ In this phase, you get your servers ready to host the product. This includes the
     
   - [System requirements for SharePoint 2013](system-requirements-for-sharepoint-2013.md)
     
-  - "Installing software prerequisites" in [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md)
+  - "Installing software prerequisites" in [Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md)
     
   - [Plan security hardening for SharePoint Server](../security-for-sharepoint-server/security-hardening.md)
     

@@ -49,4 +49,4 @@ Do not create a template from a virtual machine running SharePoint Server that i
 
 [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md)
 
-[Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md)
+[Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md)

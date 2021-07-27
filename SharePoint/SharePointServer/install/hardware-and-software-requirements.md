@@ -17,7 +17,7 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 4d88c402-24f2-449b-86a6-6e7afcfec0cd
-description: "Find out the minimum hardware and software requirements you need to install and run SharePoint Server."
+description: "Find out the minimum hardware and software requirements you need to install and run SharePoint Server 2016."
 ---
 
 # Hardware and software requirements for SharePoint Server 2016
@@ -51,7 +51,7 @@ The following table lists minimum hardware requirements for installing and runni
   
 For all installation scenarios, you must have sufficient hard disk space for the base installation and sufficient space for diagnostics such as logging, debugging, creating memory dumps, and so on. For production use, you must also have additional free disk space for day-to-day operations. In addition, maintain two times as much free space as you have RAM for production environments.
   
-For information about hardware and software requirements for Microsoft SQL Server 2014, see [Hardware and Software Requirements for Installing SQL Server 2014](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?view=sql-server-2014).
+For information about hardware and software requirements for Microsoft SQL Server 2014, see [Hardware and Software Requirements for Installing SQL Server 2014](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server).
   
 |**Installation scenario**|**Deployment type and scale**|**RAM**|**Processor**|**Hard disk space**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -171,7 +171,7 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
     
 #### Minimum requirements for client computers
 
-- A supported browser. For more information, see [Plan browser support in SharePoint Server 2016](browser-support-planning-0.md).
+- A supported browser. For more information, see [Plan browser support in SharePoint Server 2016](browser-support-planning-2016-2019.md).
     
 ## Optional software supported in SharePoint Server 2016
 <a name="OptionalSoftware"> </a>

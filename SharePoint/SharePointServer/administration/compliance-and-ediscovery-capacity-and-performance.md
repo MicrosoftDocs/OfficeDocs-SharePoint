@@ -73,7 +73,7 @@ Other improvements use SQL Server 2008 R2 with SP1 features and throughput to fi
   
 ### Column limits
 
-Column limits are updated in SharePoint Server 2013. For more information, see [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits-0.md).
+Column limits are updated in SharePoint Server 2013. For more information, see [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-limits-2019.md).
   
 ## See also
 <a name="export"> </a>
@@ -81,6 +81,5 @@ Column limits are updated in SharePoint Server 2013. For more information, see [
 #### Concepts
 
 [Estimate capacity and performance for compliance and eDiscovery for SharePoint Server 2013](compliance-and-ediscovery-capacity-and-performance.md)
-  
-  
-[Configure eDiscovery in SharePoint Server](../governance/configure-ediscovery-0.md)
+
+[Configure eDiscovery in SharePoint Server](../governance/configure-ediscovery-2019.md)

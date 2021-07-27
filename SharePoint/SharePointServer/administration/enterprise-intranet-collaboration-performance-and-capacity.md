@@ -56,7 +56,7 @@ Before you read this article, read the following articles to make sure that you 
   
 - [Capacity management and sizing for SharePoint Server 2013](capacity-management-and-sizing-for-sharepoint-server-2013.md)
     
-- [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits-0.md)
+- [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-limits-2019.md)
     
 These articles provide the following information:
   

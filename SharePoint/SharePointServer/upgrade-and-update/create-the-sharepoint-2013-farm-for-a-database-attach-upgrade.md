@@ -8,7 +8,7 @@ ms.date: 2/20/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
@@ -44,7 +44,7 @@ When you upgrade from SharePoint 2010 Products to SharePoint 2013, you must use 
 
 Before you create the SharePoint 2013 farm, review the following information and take any recommended actions.
   
-- Make sure that the hardware and software that you are using meets the requirements in [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md).
+- Make sure that the hardware and software that you are using meets the requirements in [Hardware and software requirements for SharePoint 2013](../install/hardware-software-requirements-2013.md).
     
 - Make sure that you have appropriately planned your logical and physical architecture to support the features and functionality that you want in the SharePoint 2013 farm. 
     
@@ -225,4 +225,4 @@ In a standard installation, the next step would be to create web applications. H
   
 [Upgrade farms that share services (parent and child farms) to SharePoint 2013](upgrade-farms-that-share-services-parent-and-child-farmsto-sharepoint-2013.md)
   
-[Test and troubleshoot an upgrade to SharePoint 2013](test-and-troubleshoot-an-upgrade-0.md)
+[Test and troubleshoot an upgrade to SharePoint 2013](test-troubleshoot-upgrade-2013.md)

@@ -22,7 +22,7 @@ description: "Learn about site collections, sites, and site templates in SharePo
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
-A site collection is made up of one top-level site and all sites below it. As shown in the following figure, it is the top level of organization in a SharePoint Server web application. The number of site collections you can have in a single web application depends on the capacity of your server infrastructure. For more information about SharePoint Server boundaries, see [Software boundaries and limits for SharePoint Servers 2016 and 2019](../install/software-boundaries-and-limits-0.md).
+A site collection is made up of one top-level site and all sites below it. As shown in the following figure, it is the top level of organization in a SharePoint Server web application. The number of site collections you can have in a single web application depends on the capacity of your server infrastructure. For more information about SharePoint Server boundaries, see [Software boundaries and limits for SharePoint Servers 2016 and 2019](../install/software-boundaries-limits-2019.md).
   
 **Figure: Structure of a site collection in SharePoint Server 2016**
 
@@ -177,7 +177,7 @@ You can configure the following items for a site:
   
 - **Templates** Sites in a site collection can each use different templates. 
     
-- **Language** If language packs were installed on the web server, you can select a specific language to use together with the site template when you create a new site. The user interface that appears on the site is displayed in the language that was selected when the site was created. Content and other items created by users are displayed in the language in which they are created. For more information, see [Plan for multilingual sites in SharePoint Server](plan-for-multilingual-sites.md) and [Install or uninstall language packs for SharePoint Servers 2016 and 2019](../install/install-or-uninstall-language-packs-0.md). 
+- **Language** If language packs were installed on the web server, you can select a specific language to use together with the site template when you create a new site. The user interface that appears on the site is displayed in the language that was selected when the site was created. Content and other items created by users are displayed in the language in which they are created. For more information, see [Plan for multilingual sites in SharePoint Server](plan-for-multilingual-sites.md) and [Install or uninstall language packs for SharePoint Servers 2016 and 2019](../install/install-uninstall-language-packs-2019.md). 
     
 - **Security** You can define unique user groups and permissions for each site. 
     

@@ -192,7 +192,7 @@ To determine how a web application or zone is configured to support one or more 
 
 After you check the log files and web application configuration, verify the following:
   
-- The web browser on the web client computer supports claims. For more information, see [Plan browser support in SharePoint Server 2016](../install/browser-support-planning-0.md).
+- The web browser on the web client computer supports claims. For more information, see [Plan browser support in SharePoint Server 2016](../install/browser-support-planning-2016-2019.md).
     
 - For Windows claims authentication, verify that the following:
     

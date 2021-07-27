@@ -8,7 +8,7 @@ ms.date: 06/23/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: sharepoint-server-itpro
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection:
@@ -46,7 +46,7 @@ Before you begin to install and configure SharePoint Server Subscription Edition
     
 - Ensure that you are prepared to set up the required accounts by using appropriate permissions. For detailed information, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-- Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option?view=sql-server-2017).
+- Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option).
 
 > [!IMPORTANT]
 > As a security best practice, we recommend that you install SharePoint Server Subscription Edition by using least-privilege administration.    
@@ -190,7 +190,7 @@ Use the following procedure to install and configure the configuration database 
 
 After you run the SharePoint Products Configuration Wizard, you should confirm that SharePoint Server works correctly by configuring additional settings in Internet Explorer.
   
-If you are not using Internet Explorer, you might have to configure additional settings for your browser. For information about supported browsers, see [Plan browser support in SharePoint Servers 2016 and 2019](browser-support-planning-0.md).
+If you are not using Internet Explorer, you might have to configure additional settings for your browser. For information about supported browsers, see [Plan browser support in SharePoint Servers 2016 and 2019](browser-support-planning-2016-2019.md).
   
 To confirm that you have configured browser settings correctly, log on to the server by using an account that has local administrative credentials. Next, connect to the SharePoint Central Administration web site. If you are prompted for your user name and password when you connect, perform the following procedures:
 - Add the SharePoint Central Administration website to the list of trusted sites

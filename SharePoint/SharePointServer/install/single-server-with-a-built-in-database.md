@@ -8,7 +8,7 @@ ms.date: 9/27/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
@@ -56,7 +56,7 @@ Consider the following restrictions of this method of installation:
 ## Before you begin
 <a name="section2"> </a>
 
-Before you begin installation, make sure that you have met all hardware and software requirements. For more information, see [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md). To make sure that you perform a clean installation of SharePoint 2013, you must first remove any earlier version of SharePoint 2013 and any pre-release prerequisites if installed.
+Before you begin installation, make sure that you have met all hardware and software requirements. For more information, see [Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md). To make sure that you perform a clean installation of SharePoint 2013, you must first remove any earlier version of SharePoint 2013 and any pre-release prerequisites if installed.
   
 ## Install SharePoint 2013
 <a name="section3"> </a>
