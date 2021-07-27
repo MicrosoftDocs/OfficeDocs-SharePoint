@@ -59,6 +59,7 @@ Hybrid audiences are a blend of audiences. Common blends are remote workers and 
 <br>
 
 
+
 ## Then, scope the size of your audience
 Understanding the size of your audience will help you narrow down what Microsoft 365 applications will help you reach your goals. Once you’ve determined your audiences, you can use one - or a combination of methods - to share news, announcements, and more. 
 <br>
@@ -104,7 +105,7 @@ Sharing confidential information and documents with large audiences always impos
 - [Set up Microsoft Teams with protection](/microsoft-365/solutions/configure-teams-highly-sensitive-protection.md) for highly sensitive data
 - [Set up secure external sharing in SharePoint](/sharepoint/what-s-new-in-sharing-in-targeted-release.md)
 - [Use approval flows](https://support.microsoft.com/office/approval-flow-for-modern-pages-a8b2e689-d4a1-4639-8028-333c0ece30d9) for content updates to high traffic SharePoint pages
-
+<br>
 
 
 
