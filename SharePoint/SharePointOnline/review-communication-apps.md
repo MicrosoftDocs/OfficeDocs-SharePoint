@@ -20,7 +20,15 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 Learn more about how Microsoft 365 tools and applications can help you create the right communication channel for the right audience. Review communication tools and learn more about engagement options, maintenance requirements, analytics, and other details to help you decide which tool is best for your scenario and desired outcome. 
 
-<image>
+| Teams            | SharePoint    | Yammer       |Outlook        |Stream         |
+| :---------------: | :---------------: |:---------------:|:---------------:|:---------------:|
+| ![Image of the Microsoft Teams logo](media/logo-teams.png)  | ![Image of the SharePoint logo](media/logo-sharepoint.png)  | ![Image of the Yammer logo](media/logo-yammer.png)   |![Image of the Outlook logo](media/logo-outlook.png)  |![Image of the Microsoft Stream logo](media/logo-stream.png)  |
+| Channels, teams, and live events | Intelligent intranet and knowledge management | Social networking and live events |Mail, calendar, tasks, and contacts |Intelligent video services  |
+| Communicate and collaborate across the organizations in teams and channels | Create durable content on sites and pages targeted to specific audiences | Use Yammer communities to create a dialogue with certain groups  |Send mail and newsletters to specific audiences  |Create groups and channels to target content to specific audiences   |
+| Add intranet resources, pages, and lists as tabs in teams channels  | Use news posts to distribute news across M365 apps |Post messages, interact, and search for conversations and key words |Get reply receipts and usage analytics to track correspondence  |Use video to create engaging communication experiences  |
+| Review usage and engagement analytics to measure reach| Integrate web parts like Stream and Yammer to create a cohesive experience  | Collect feedback and answer questions during live events |Access engagement analytics to learn about user behavior  |Integrate video into SharePoint using the Stream web part|
+
+
 
 ## Microsoft Outlook: Email and calendars
 Outlook is a tried-and-true form of communication for many organizations. Email is still a popular form of communication (especially for broad and diverse audiences) and can be viewed on any device. Email is often used in combination with other communication tools to share news, event information, and organizational updates.
