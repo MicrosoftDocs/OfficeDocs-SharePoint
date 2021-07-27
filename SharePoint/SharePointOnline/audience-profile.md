@@ -142,5 +142,5 @@ For communication that takes place in SharePoint, you’ll have access to a feat
 
 **Step 4:** [Get started planning for your scenario](/SharePoint/choose-communication-method.md)
 
-
+<br>
 
