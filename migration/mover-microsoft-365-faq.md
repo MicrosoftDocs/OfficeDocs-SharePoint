@@ -75,7 +75,7 @@ To save time and headaches, before you migrate, you are encouraged to shorten an
 |Source Connector|Creation date|Created by user|File modified date|Last modified by (user)|Folder permissions|Notes|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Agent|No|No|*Read clarification note below|No|Yes||
-|Amazon S3|Buckets: Yes</br>Folders: No</br>Files: Same as Modified date|No|*Read clarification note below|Yes|No|No||
+|Amazon S3|Buckets: Yes</br>Folders: No</br>Files: Same as Modified date|No|*Read clarification note below|Yes|No|No|
 |Azure Blob Storage|No|No|*Read clarification note below|No|No||
 |Box (co-admin)|Yes|Yes|*Read clarification note below|Yes|Yes|Box Notes are converted to Word documents.|
 |Box (single user)|Yes|Yes|*Read clarification note below|Yes|Yes|Box Notes are converted to Word documents.|
