@@ -21,9 +21,6 @@ description: "Step 6: Migrate and monitor Box migration"
 ---
 # Step 6:  Migrate and monitor your Box migration
 
->[!Note]
->This release currently supports the migration of up to approximately 10,000 Box accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
-
 
 Once have reviewed the accounts, confirmed the destinations, correctly mapped identities, you are ready to migrate.
 
