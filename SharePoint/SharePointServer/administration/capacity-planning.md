@@ -331,7 +331,7 @@ For more information about health monitoring and troubleshooting using the healt
   
 [Monitoring and maintaining SharePoint Server 2013](monitoring-and-maintaining.md)
   
-[Software boundaries and limits for SharePoint Server 2016](../install/ssoftware-boundaries-limits-2019.md)
+[Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-limits-2019.md)
     
 [Performance and capacity test results and recommendations (SharePoint Server 2013)](performance-and-capacity-test-results-and-recommendations-for-sharepoint-2013.md)
 #### Other Resources
