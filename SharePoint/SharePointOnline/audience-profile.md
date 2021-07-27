@@ -64,19 +64,17 @@ Hybrid audiences are a blend of audiences. Common blends are remote workers and 
 Understanding the size of your audience will help you narrow down what Microsoft 365 applications will help you reach your goals. Once you’ve determined your audiences, you can use one - or a combination of methods - to share news, announcements, and more. 
 <br>
 
-| Audience example  | Audience size  | Potential apps and method      | 
+| Audience example  | Size  | Potential apps and method      | 
 | :------------------- | :-------------------  |:------------------- | :------------------- |
 | Specific teams, roles, regions, departments, and projects  | 300 - 20,000  | Send an email <br> Publish SharePoint news <br> Post in a Teams channel <br> Schedule a Teams meeting <br> Post in a Yammer community <br> Host a Teams live event <br> Host a Yammer live event| 
-| Entire departments or regions    |5,000 - 20,000              | *All of the above, in addition to:* <br> Stream channel |
-| All employees             | Up to 25,000                  | *All of the above*  |
-|   | 25,000 - 100,000  | *All of the above*           |
-|   | 100,000 or more  | *All of the above, in addition to:* <br> M365 live events* <br> <br> *Live events with up to 100,000 attendees can be planned through the [Microsoft 365 live events assistance program](https://resources.techcommunity.microsoft.com/live-events/assistance/)|
+| Entire departments or regions    |5,000 - 20,000              | *All of the above, in addition to:* <br><br> Stream channel or live event in Stream |
+| **All employees**            | Up to 25,000                  | *All of the above*  |
+|   | 25,000 - 100,000  | *All of the above, in addition to:* <br><br> M365 live events* <br> <br> *Live events with up to 100,000 attendees can be planned through the [Microsoft 365 live events assistance program](https://resources.techcommunity.microsoft.com/live-events/assistance/) |
+
 
 
 ### Audience size considerations
 Learn more about considerations as you scope your audience size. Small audiences are straight forward and relatively low risk when it comes to data protection and content durability. As your audience size grows, so do the risks and considerations like accessibility, multilingual options, and data security.
-<br>
-<image>
 
 #### Accessibility
 Accessibility is important for all organizations, and especially corporate communications. Ensuring content is accessible benefits everyone. Accessibility includes making sure content in SharePoint can be easily consumed, limiting background noise in Teams meetings, turning on-screen captions for live events, and more. Learn more about accessibility, and apply learnings to meet the needs of your audience(s):
@@ -118,7 +116,7 @@ Planning and organizing Microsoft 365 groups into different audiences based on r
 
 Learn more about how to [manage Microsoft 365 groups](/admin/create-groups/office-365-groups) and how to [create Microsoft 365 groups](https://support.microsoft.com/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
-## Use audience targeting in SharePoint
+### Use audience targeting in SharePoint
 For communication that takes place in SharePoint, you’ll have access to a feature called [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81). Audience targeting helps the most relevant content get to the right audiences. By enabling audience targeting, specific content will be prioritized to specific audiences using Microsoft 365 groups through SharePoint web parts, page libraries, and navigational links.
 <br>
 
