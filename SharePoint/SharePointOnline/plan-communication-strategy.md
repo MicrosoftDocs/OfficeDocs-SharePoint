@@ -20,6 +20,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 Review common scenarios to get familiar with the different types of organizational structures and details that will help narrow down communication options, considerations, and potential solutions. Then, learn about Microsoft 365 communication applications and how to scope your audience(s) and determine the audience profile. Finally, pick a solution and get started planning for your specific scenario.
 <br>
+<br>
 
 
 | Review scenarios    | Learn about methods |Scope audience   |Get started planning   |
@@ -69,4 +70,5 @@ You need to develop a scalable method of welcoming and orienting new employees. 
 **Step 4:** [Get started planning for your scenario](/SharePoint/choose-communication-method.md)
 
 
-
+<br>
+<br>

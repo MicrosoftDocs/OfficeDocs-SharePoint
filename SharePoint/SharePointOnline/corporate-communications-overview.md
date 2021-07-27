@@ -74,5 +74,6 @@ Learn how to plan your communication strategy by reviewing common communication 
 
 **Step 4:** [Get started planning for your scenario](/SharePoint/choose-communication-method.md)
 
-
+<br>
+<br>
 

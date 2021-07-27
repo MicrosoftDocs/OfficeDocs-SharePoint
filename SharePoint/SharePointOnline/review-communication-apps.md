@@ -94,5 +94,6 @@ Microsoft Stream is video service where people in your organization can upload, 
 **Step 4:** [Get started planning for your scenario](/SharePoint/choose-communication-method.md)
 
 
-
 <br>
+<br>
+

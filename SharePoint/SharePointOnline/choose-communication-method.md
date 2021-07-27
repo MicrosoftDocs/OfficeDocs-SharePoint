@@ -26,7 +26,7 @@ Now that you understand the communication tools available and how to determine y
 
 
 | Icon     | Scenario                 | Goal          | Requirements          | Optional apps and tools         |
-| :------------------:|:------------------: |:----------------|:----------------|:----------------|
+| :------------------:|:------------------- |:----------------|:----------------|:----------------|
 | ![Image of two people talking icon](media/chat-room.png) | **Use Viva Connections** | Integrate SharePoint intranet resources and Microsoft Teams chat and collaboration functionality into one experience in Microsoft Teams desktop mobile app. <br> <br> Learn more about Viva Connections.            |Microsoft Teams, SharePoint, SharePoint home site, Global navigation enabled          |Yammer            |
 |![Image of a house icon](media/icon-build-home.png) |**Get a home site for your intranet**   | Take your intranet to the next level by creating a home site that expands the search experiences, prioritizes organizational news, and enables Viva Connections integration. <br> <br> [Learn more about SharePoint home sites.](/sharepoint/home-site-plan.md)      |SharePoint           |Microsoft Teams, Yammer, Stream           |
 |![Image of a mega phone icon](media/icon-launch-engage.png) | **Hold a town hall**   |Bring large portions, or your entire organization, together to share essential information and resources through live or pre-recorded events. <br> <br> Learn more about town halls.            |Microsoft Teams and/or Yammer            |SharePoint, Stream           |
