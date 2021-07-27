@@ -22,8 +22,6 @@ description: "Step 2:  Scan and assess Box users using Migration Manager."
 
 # Step 2: Scan and assess Box users
 
->[!Note]
->This release currently supports the migration of up to approximately 1500 Box accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
 
 
 

@@ -24,7 +24,7 @@ Mover only migrates data from:
 or
 - Data located in a **shared drive**, including Dropbox Team's Folder, SharePoint Document Library, Google Shared Drive, etc.
 
-Mover **does not** migrate e-mails, mailboxes, contacts, calendars, site layouts/collections, etc.
+Mover **does not** migrate e-mails, mailboxes, contacts, calendars, site layouts/collections/pages/lists, etc.
 
 
 

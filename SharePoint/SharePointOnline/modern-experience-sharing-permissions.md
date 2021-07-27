@@ -106,7 +106,7 @@ To set up guest sharing for a site, see [Collaborate with guests in a site](/mic
 
 If you have confidential information that should never be shared externally, we recommend storing the information in a site that has external sharing turned off. Create additional sites as needed to use for external sharing. This helps you to manage security risk by preventing external access to sensitive information.
 
-## SharePoint and OneDrive integration with Azure AD B2B (Preview)
+## SharePoint and OneDrive integration with Azure AD B2B 
 
 Azure AD B2B provides authentication and management of guests. Authentication happens via one-time passcode when they don't already have a work or school account or a Microsoft account (MSA).
 
