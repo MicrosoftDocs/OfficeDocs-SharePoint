@@ -32,7 +32,6 @@ Learn about the needs and preferences of your audience before you get started pl
 ## Start by understanding your audience's work environment and device preferences
 Audience size will help you narrow down potential communication solution(s) in combination with considerations for how, when, and where your audience gets work done. Corporate communications should aim to meet workers where they are and make it easy to engage and participate.
 <br>
-<image>
 
 
 #### Frontline workers
@@ -63,6 +62,14 @@ Hybrid audiences are a blend of audiences. Common blends are remote workers and 
 ## Then, scope the size of your audience
 Understanding the size of your audience will help you narrow down what Microsoft 365 applications will help you reach your goals. Once you’ve determined your audiences, you can use one - or a combination of methods - to share news, announcements, and more. 
 <br>
+
+| Audience example  | Audience size  | Potential apps and method      | 
+| :------------------- | :-------------------  |:------------------- | :------------------- |
+| Specific teams, roles, regions, departments, and projects  | 300 - 20,000  | Send an email <br> Publish SharePoint news <br> Post in a Teams channel <br> Schedule a Teams meeting <br> Post in a Yammer community <br> Host a Teams live event <br> Host a Yammer live event| 
+| Entire departments or regions    |5,000 - 20,000              | *All of the above, in addition to:* <br> Stream channel |
+| All employees             | Up to 25,000                  | *All of the above*  |
+|   | 25,000 - 100,000  | *All of the above*           |
+|   | 100,000 or more  | *All of the above, in addition to:* <br> M365 live events* <br> <br> *Live events with up to 100,000 attendees can be planned through the [Microsoft 365 live events assistance program](https://resources.techcommunity.microsoft.com/live-events/assistance/)|
 
 
 ### Audience size considerations
@@ -101,14 +108,12 @@ Sharing confidential information and documents with large audiences always impos
 
 
 
-## Finally, learn to target content and events to specific audiences
+## Finally, learn to target content, conversations, and events to specific audiences
 Regardless of the app you choose to drive your communications, there are more Microsoft 365 services that can be used to ensure the right content gets to the right audience.
 
 ### Organize and create Microsoft 365 groups
 Planning and organizing Microsoft 365 groups into different audiences based on role, region, department, and division will be helpful when producing and launching corporate communications. Most applications rely on Microsoft 365 groups to target content, for example email in Outlook, virtual meetings in Teams, permissions to SharePoint sites, and more.
 <br>
-
-<image – group structure>
 
 Learn more about how to [manage Microsoft 365 groups](/admin/create-groups/office-365-groups) and how to [create Microsoft 365 groups](https://support.microsoft.com/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
@@ -116,7 +121,7 @@ Learn more about how to [manage Microsoft 365 groups](/admin/create-groups/offic
 For communication that takes place in SharePoint, you’ll have access to a feature called [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81). Audience targeting helps the most relevant content get to the right audiences. By enabling audience targeting, specific content will be prioritized to specific audiences using Microsoft 365 groups through SharePoint web parts, page libraries, and navigational links.
 <br>
 
-<image – audience targeting in UI>
+ ![Image of audience targeting in SharePoint navigation](media/audience-targeting-links.png)
 
 [Audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) can be applied to many components in SharePoint and can be especially helpful:
 <br>
