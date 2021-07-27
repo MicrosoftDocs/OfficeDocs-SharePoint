@@ -44,6 +44,15 @@ Learn more about how Microsoft 365 tools and applications can help you create th
 
 
 
+<br>
+
+
+
+| Logo                   | Details   | 
+| :------------------: | :------------------- |
+| ![Image of the Microsoft Teams logo](media/logo-teams.png)  |**Engagement options:**  <br> - Reach an unlimited number of recipients <br> - [Use @mentions](https://support.microsoft.com/office/use-mentions-to-get-someone-s-attention-90701709-5dc1-41c7-aa48-b01d4a46e8c7) to get the attention of somebody in an email <br> - Get more out of your email by [sharing the same message in Microsoft Teams](https://support.microsoft.com/office/share-an-email-to-teams-from-outlook-108fc274-1e64-4ea1-90bb-51c6c7f267e3) <br> - Choose when the message by be received by [scheduling email messages](https://support.microsoft.com/office/delay-or-schedule-sending-email-messages-026af69f-c287-490a-a72f-6c65793744ba) <br> **Set up and maintenance options:** <br> - Consider [setting up Outlook message templates](https://support.microsoft.com/office/create-an-email-message-template-43ec7142-4dd0-4351-8727-bd0977b6b2d1) to standardize corporate communications <br> - [Create Microsoft 365 groups in Outlook](https://support.microsoft.com/office/create-a-contact-group-or-distribution-list-in-outlook-for-pc-88ff6c60-0a1d-4b54-8c9d-9e1a71bc3023) to make reaching specific audiences more easily  <br>  **Analytics:**  <br>  - [Add and request read receipts](https://support.microsoft.com/office/add-and-request-read-receipts-and-delivery-notifications-a34bf70a-4c2c-4461-b2a1-12e4a7a92141) and delivery notifications <br> - [Create polls and view results in an email message](https://support.microsoft.com/office/create-a-poll-in-outlook-46893563-ab12-4bd0-aff7-26f5a488fea0)  | 
+
+
 ## Microsoft Outlook: Email and calendars
 Outlook is a tried-and-true form of communication for many organizations. Email is still a popular form of communication (especially for broad and diverse audiences) and can be viewed on any device. Email is often used in combination with other communication tools to share news, event information, and organizational updates.
 <br>
