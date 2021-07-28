@@ -17,7 +17,7 @@ description: "In this article, you'll learn how to distribute news within your o
 
 # Distribute corporate news to your organization
 
-When you have announcements, CEO messages, philanthropic highlights, quarterly growth reports or any other important stories that you want to share with your entire organization, you can create an organization news site where “official” or authoritative news can be posted and then distributed to your organization. News can be distributed on the SharePoint Start page, on your home site, or on any page of a site where you want to news to be displayed. It’s also tightly integrated into Viva Connections on the desktop when news is on your home site, and into the Viva Connections Feed, where people can engage with corporate news wherever they are. When news is distributed from an organization news site, it gets special visual treatment (see the "NEWS @ CONTOSO" color block below).
+When you have announcements, CEO messages, philanthropic highlights, quarterly growth reports, or any other important stories that you want to share with your entire organization, you can create an organization news site where “official” or authoritative news can be posted and then distributed to your organization. News can be distributed on the SharePoint Start page, on your home site, or on any page of a site where you want to news to be displayed. It’s also tightly integrated into Viva Connections on the desktop when news is on your home site, and into the Viva Connections Feed, where people can engage with corporate news wherever they are. When news is distributed from an organization news site, it gets special visual treatment (see the "NEWS @ CONTOSO" color block below).
 
 ## Places news is distributed
 
@@ -59,7 +59,7 @@ Learn more about determining your audience.
 
 SharePoint administrators can specify any number of organization news sites. For multi-geo tenants, organization news sites would have to be set up for each geo location. Each geo location could use the same central organization news site, and/or have its own unique site that shows organization news specific to that region.
 
-To enable and specify the site for organization news, a SharePoint administrator must use the following [SharePoint Online Powershell commands](/powershell/module/sharepoint-online):
+To enable and specify the site for organization news, a SharePoint administrator must use the following [SharePoint Online PowerShell commands](/powershell/module/sharepoint-online):
 
 - [Get-SPOOrgNewsSite](/powershell/module/sharepoint-online/get-spoorgnewssite)
 - [Set-SPOOrgNewsSite](/powershell/module/sharepoint-online/set-spoorgnewssite)
@@ -85,7 +85,7 @@ With the News web part, you choose your organization site as the source of your 
 Boost important news and announcements from your organization to prioritize their visibility and to increase readership. Boosted news posts display with a lightning bolt icon. You can order your boosted news to determine which shows first, and you can set an expiration date for the boosting of individual posts.
 
 - You can boost news posts from organization news sites only
-- Boosted news posts are currently shown in auto news digests only. Very soon, boosted posts will be shown in additional types and locations of news feeds.
+- Boosted news posts are currently shown in auto news digests only. Soon, boosted posts will be shown in additional types and locations of news feeds.
 - A maximum of 10 news posts can be boosted at a time.
 - You must have edit permissions on the organization news site to boost news posts.
 
@@ -93,7 +93,7 @@ Boost important news and announcements from your organization to prioritize thei
 
 ### Send news in email
 
-Want to send a “newsletter” in email? You can use the news digest feature to manually curate posts to send to users through email. Additionally, these email “newsletters” are sent out automatically with the SharePoint auto-news digest feature, which sends email with your brand and logo to users about the latest news posts that are relevant to them, but that they may not have viewed yet.
+Want to send a “newsletter” in email? You can use the news digest feature to manually curate posts to send to users through email. Additionally, these email “newsletters” are sent out automatically with the SharePoint auto news digest feature, which sends email with your brand and logo to users about the latest news posts that are relevant to them, but that they may not have viewed yet.
 
 [Learn how to curate and send an email digest](https://support.microsoft.com/office/create-and-send-a-news-digest-42efc3c6-605f-4a9a-85d5-1f9ff46019bf)
 
