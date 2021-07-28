@@ -44,7 +44,7 @@ To distribute news across your organization, perform the following steps:
 1. [Create an organization news site](#create-an-organization-news-site).
 1. [Create news posts on sites](#create-news-posts-on-sites).
 1. [Add the news web part on your home site or other sites where you want your news to appear](#use-the-news-web-part-to-distribute-news-on-the-sites-you-want), and set options for your news posts, like ordering, audience targeting, and more.
-1. [Boost news for greater discoverability](#boost-news-for-greater-discoverability)
+1. [Boost news for greater discoverability](#boost-news-for-greater-discoverability).
 1. [Send news in email](#send-news-in-email).
 1. [Use Viva Connections to spread news in Teams](#use-viva-connections-for-teams-desktop-to-display-news-in-teams): If you’re using Viva Connections for Teams Desktop, news that you add to your home site will be available in Teams.
 1. [Spread news on the Viva Connections mobile app](#display-news-in-the-viva-connections-teams-mobile-app): Add one or more cards to your dashboard that opens a news story. Additionally, if you have the Feed enabled for your app, news will automatically display there, based on relevance to each user.
