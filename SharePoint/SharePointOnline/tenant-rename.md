@@ -71,8 +71,6 @@ It's now possible to change the SharePoint domain name for your organization in 
 | Delve | It can take 24 hours before People profiles can be viewed. | None |
 | eDiscovery | Holds can't be removed until you update the URLs. | In the Compliance center, change the eDiscovery hold URLs to the new domain name. |
 | InfoPath forms | Forms that use a SharePoint connection as a data source won't work. | Reconnect these forms to SharePoint. |
-| Power Apps | SharePoint forms modified with Power Apps won't work. | Delete any forms you don't need anymore or reset them to enable the default SharePoint form. You might need to delete some forms by using PowerShell. You might also need to recreate SharePoint forms in Power Apps. |
-| Power Apps | Apps that use a SharePoint connection as a data source won't work. | Reconnect the apps to SharePoint. |
 | Power BI | Power BI reports using SharePoint connections as a data source won't work. |	Before changing your domain name, download the Power BI reports that are using SharePoint connections as a data source as a .pbix file. After you change the domain name, edit the connections in the Power BI Desktop app and republish the report. <br> Power BI reports that are not created or maintained in the Power BI Desktop app will need to be recreated. |
 | Project Online | Workflows that are “in flight” won't complete and will be orphaned. <br> New workflow instances can't be initiated. <br> Association to previous workflow instances isn't available and will be orphaned. | Before changing your domain name, make sure all “in flight” workflows are completed. After you change the domain name, republish the workflows. You can then reset them to "in flight" in Project Web App by going to PWA Settings > Change or Restart Workflows. |
 | Project Online | URLs embedded in workflows aren't changed. For example, if a workflow contains the embedded URL `contoso.sharepoint.com`, it isn't changed. This might impact the functionality of the workflow. | Workflows that contain URLs referring to the original domain name might need to be updated to the new name. |
@@ -112,6 +110,9 @@ It's now possible to change the SharePoint domain name for your organization in 
 
 2. Go to the [Custom domain names page in the Azure AD admin center](https://aka.ms/SPORenameAddDomain).
 
+    > [!IMPORTANT]
+    > Use the hyperlink [https://aka.ms/SPORenameAddDomain](https://aka.ms/SPORenameAddDomain) provided above. Failiure to use this hyperlink will prevent you from successfully adding a custom domain.
+
 3. Select **Add custom domain**.
 
 4. In the **Custom domain name** box, add the full new “.onmicrosoft.com” domain, and then select **Add domain**.
@@ -119,21 +120,23 @@ It's now possible to change the SharePoint domain name for your organization in 
     ![Custom domain name pane](media/custom-domain-name.png)
 
     > [!IMPORTANT]
-    > Do NOT include any hyphens (-) in the new domain. They aren't supported in SharePoint.
+    > When adding the domain this needs to be a “onmicrosoft.com” domain. For example, if you want to rename your tenant to fabrikam.sharepoint.com, the domain that you enter should be fabrikam.onmicrosoft.com. Adding a “onmicrosoft.com” domain does not need to be purchased or require any public DNS registration.
  
 5. Make sure you get a confirmation message. If the domain isn't available, try a different domain. 
  
 6. After getting a confirmation that the domain was added successfully, you might see a message that the properties could not be found. Select the message to refresh domain references.
 
     > [!WARNING]
-    > Do NOT add any other domains. Do NOT configure the new domain as the initial domain.
+    > Do NOT add any other domains.
+    > Do NOT configure the new domain as the initial domain.
+    > If after adding the domain you are prompted to create a new TXT record with your domain name registrar, then the domain has NOT been added correctly and you will NOT be able to perform a rename. If you are prompted then you will need to delete the invalid domain and return to Step 2 above.
  
 7. Confirm that your domain has been added to the list. 
 
     ![Domain status verified](media/domain-verified.png)
 
     > [!IMPORTANT]
-    > The domain name must have the status of "Verified."
+    > The domain name must have the status of "Verified". If the status is NOT "Verified" then you will NOT be able to perform a rename. 
 
 ## Step 2: Use Microsoft PowerShell to rename your domain
 
@@ -143,7 +146,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell". 
 
 2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
@@ -162,6 +165,9 @@ It's now possible to change the SharePoint domain name for your organization in 
     Example: 
 
     `Start-SPOTenantRename -DomainName "fabrikam" -ScheduledDateTime "2021-12-31T10:25:00"`
+
+    > [!NOTE]
+    > If the PowerShell command Start-SPOTenantRename is not found or nothing is returned, then ensure that you have installed the latest SharePoint Online Management Shell. If required, before installing the latest version you may need to uninstall all previous versions by running `Uninstall-Module Microsoft.Online.SharePoint.PowerShell -Force -AllVersions` 
 
 You can get the status of the rename by running `Get-SPOTenantRenameStatus`.
 
