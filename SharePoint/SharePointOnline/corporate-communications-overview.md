@@ -17,7 +17,7 @@ ms.collection:
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Corporate communications: Tips, methods, and products
+# Corporate communications: Guidance, methods, and products
 
 Employee engagement is a significant contributor to workplace satisfaction, loyalty, and productivity at any organization. Across Microsoft 365, there are multiple ways to communicate. Knowing which method or combinations of methods to use and when depends on your audience and the communication culture of your organization.
 Learn how to keep everyone informed and engaged using SharePoint, Microsoft Teams, Yammer, Stream, and Viva Connections. Learn more about the powerful strategies and communication tools available to you that help drive engagement in your organization.
