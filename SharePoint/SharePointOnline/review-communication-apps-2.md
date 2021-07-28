@@ -21,7 +21,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 Learn more about how Microsoft 365 tools and applications can help you create the right communication channel for the right audience. Review communication tools and learn more about engagement options, maintenance requirements, analytics, and other details to help you decide which tool is best for your scenario and desired outcome. 
 <br>
 
-![Image of the Microsoft app logos and features](media/comm-products.png)
+![Image of the Microsoft app logos and features](media/comm-products-2.png)
 
 <br>
 
