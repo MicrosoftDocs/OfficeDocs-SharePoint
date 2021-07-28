@@ -51,7 +51,7 @@ Learn how to plan your communication strategy by reviewing common communication 
 <br>
 
 | Icon     | Scenario                 | Solution details          |
-| :------------------:|:------------------: |:----------------|
+| :------------------:|:------------------- |:----------------|
 | ![Image of a check list icon](media/task-check.png) | **Plan your strategy**| - Review common communication scenarios <br> - Learn about tools and solutions <br> - Scope your audience and determine your specific scenario   |
 | ![Image of two people talking icon](media/chat-room.png) | **Use Viva Connections**  | - Create employee experiences that connect your organization <br> - Deploy the desktop solution and set up mobile <br> - Create and publish custom dashboard cards           |
 |![Image of a house icon](media/icon-build-home.png) |**Get a SharePoint home site**   | - Take the first step in getting ready for Viva Connections <br> - Schedule and launch a healthy portal <br> - Set up global navigation in the SharePoint app bar              |
