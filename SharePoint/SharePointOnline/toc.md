@@ -102,7 +102,7 @@
 ### [Change external sharing for a site](change-external-sharing-site.md)
 ### [Block guest access to newly added files](sensitive-by-default.md)
 ### [Change default sharing link](change-default-sharing-link.md)
-### [Distribute corporate news to your organization](distribute-corporate-news-to-your-organization)
+### [Distribute corporate news to your organization](distribute-corporate-news-to-your-organization.md)
 ### [Default SharePoint groups](default-sharepoint-groups.md)
 ### [SharePoint and OneDrive error messages](sharepoint-onedrive-error-message.md)
 ### [Report on sharing](sharing-reports.md)
