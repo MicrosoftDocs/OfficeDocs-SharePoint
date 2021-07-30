@@ -81,7 +81,7 @@ The following table shows examples of supported and unsupported entries.
 | --- | --- |
 | dogfood | dog food |
 | 3# | #3 |
-| For#sale | For|sale |
+| For#sale | For\|sale |
 | ASP.NET |  |
 | IT&amp;T |  |
 | (2-Methoxymethylethoxy)propanol |  |
