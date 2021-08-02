@@ -60,7 +60,7 @@ When a user has filled their 5 TB of OneDrive storage to at least 90% capacity, 
 
 For any user that reaches at least 90% capacity of their 25 TB of OneDrive storage, additional cloud storage will be provided as 25 TB SharePoint team sites to individual users. 
 
-Admins can [open a case with Microsoft technical support](/microsoft-365/admin/contact-support-for-business-products) to request storage beyond 5 TB.
+Admins can check for OneDrive eligibility beyond 5TB via [Check OneDrive site eligibility for increased storage](https://docs.microsoft.com/en-us/sharepoint/troubleshoot/storage/check-storage-increase-eligibility). 
     
     
 ## Change a user's storage space by using PowerShell
