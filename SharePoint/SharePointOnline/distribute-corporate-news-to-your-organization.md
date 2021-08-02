@@ -17,7 +17,7 @@ description: "In this article, you'll learn how to distribute news within your o
 
 # Distribute corporate news to your organization
 
-When you have announcements, CEO messages, philanthropic highlights, quarterly growth reports, or any other important stories that you want to share with your entire organization, you can create an organization news site where “official” or authoritative news can be posted and then distributed to your organization. News can be distributed on the SharePoint Start page, on your home site, or on any page of a site where you want to news to be displayed. It’s also tightly integrated into Viva Connections on the desktop when news is on your home site, and into the Viva Connections Feed, where people can engage with corporate news wherever they are. When news is distributed from an organization news site, it gets special visual treatment (see the "NEWS @ CONTOSO" color block below).
+When you have org-level announcements, CEO messages, philanthropic highlights, quarterly growth reports, or any other important stories that you want to share with your entire organization, you can create an organization news site where “official” or authoritative news can be posted and then distributed to your organization. News can be distributed on the SharePoint Start page, on your home site, or on any page of a site where you want the news to be displayed. It’s also tightly integrated into Viva Connections on the desktop when news is on your home site, and into the Viva Connections Feed, where people can engage with corporate news wherever they are. When news is distributed from an organization news site, it gets special visual treatment (see the "NEWS @ CONTOSO" color block below).
 
 ## Places news is distributed
 
@@ -32,7 +32,7 @@ The data in the following table describes the locations to which news is distrib
 |Email in Outlook     |    Send a news digest in Outlook from a news post in SharePoint     |
 |Viva Connections for desktop     |   Displays news using the News web part on the home site      |
 |Viva Connections for mobile*    |   Displays in the **mobile app Feed** section based on the relevance to the user      |
-|Viva Connections dashboard*   |  Add one or more cards that highlight news from the organization or different departmenDecide your audiences and where and when you want to share news.ts       |
+|Viva Connections dashboard*   |  Add one or more cards that highlight news from the organization or different departments. Decide your audiences and where and when you want to share the news.    |
 
 ***Coming later in 2021**.
 
@@ -40,7 +40,7 @@ The data in the following table describes the locations to which news is distrib
 
 To distribute news across your organization, perform the following steps:
 
-1. [Decide your audience](#decide-your-audience) and where and when you want to share news.
+1. [Decide your audience](#decide-your-audience) and when and where you want to share the news.
 1. [Create an organization news site](#create-an-organization-news-site).
 1. [Create news posts on sites](#create-news-posts-on-sites).
 1. [Add the news web part on your home site or other sites where you want your news to appear](#use-the-news-web-part-to-distribute-news-on-the-sites-you-want), and set options for your news posts, like ordering, audience targeting, and more.
@@ -72,11 +72,11 @@ To learn how to create a news post, see [Create and share news on your SharePoin
 
 To learn how to turn a page into a news post, see [Change a SharePoint modern page into a news post or create a modern page from a news post](https://support.microsoft.com/office/change-a-sharepoint-modern-page-into-a-news-post-or-create-a-modern-page-from-a-news-post-746884bc-33b4-4132-a3c1-9bf67af6eb7e).
 
-## Use the News web part to distribute news on the sites you want
+## Use the news web part to distribute news on the sites you want
 
-SharePoint news will automatically show on SharePoint Start page, and in the Viva Connections feed. If you want news to show on the page of a specific site (like on a home site), add the News web part to that page.
+SharePoint news will automatically show on SharePoint Start page, and in the Viva Connections feed. If you want news to show on the page of a specific site (like on a home site), add the news web part to that page.
 
-With the News web part, you choose your organization site as the source of your news, and you can audience target your news. By using audience targeting, you can show news content to specific groups of people. This approach is useful when you want to present information that is relevant only to a particular group of people. For example, you can target news stories about a specific project to only team members and stakeholders of the project. You can also choose the layout of news and how to order the posts you opt for.
+With the news web part, you choose your organization site as the source of your news, and you can audience target your news. By using audience targeting, you can show news content to specific groups of people. This approach is useful when you want to present information that is relevant only to a particular group of people. For example, you can target news stories about a specific project to only team members and stakeholders of the project. You can also choose the layout of news and how to order the posts you opt for.
 
 To learn how to use the news web part on a SharePoint page, see [Use the News web part on a SharePoint page](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165).
 
@@ -84,7 +84,7 @@ To learn how to use the news web part on a SharePoint page, see [Use the News we
 
 Boost important news and announcements from your organization to prioritize their visibility and to increase readership. Boosted news posts display with a lightning bolt icon. You can order your boosted news to determine which shows first, and you can set an expiration date for the boosting of individual posts.
 
-- You can boost news posts from organization news sites only
+- You can boost news posts from organization news sites only.
 - Boosted news posts are currently shown in auto news digests only. Soon, boosted posts will be shown in additional types and locations of news feeds.
 - A maximum of 10 news posts can be boosted at a time.
 - You must have edit permissions on the organization news site to boost news posts.
