@@ -167,7 +167,7 @@ It's now possible to change the SharePoint domain name for your organization in 
     `Start-SPOTenantRename -DomainName "fabrikam" -ScheduledDateTime "2021-12-31T10:25:00"`
 
     > [!NOTE]
-    > If the PowerShell command Start-SPOTenantRename is not found or nothing is returned, then ensure that you have installed the latest SharePoint Online Management Shell. If required, before installing the latest version you may need to uninstall all previous versions by running `Uninstall-Module Microsoft.Online.SharePoint.PowerShell -Force -AllVersions` 
+    > If the PowerShell command Start-SPOTenantRename is not found or nothing is returned, ensure that you have installed the latest SharePoint Online Management Shell. If required, before installing the latest version, you might need to uninstall all previous versions by running `Uninstall-Module Microsoft.Online.SharePoint.PowerShell -Force -AllVersions`.
 
 You can get the status of the rename by running `Get-SPOTenantRenameStatus`.
 
