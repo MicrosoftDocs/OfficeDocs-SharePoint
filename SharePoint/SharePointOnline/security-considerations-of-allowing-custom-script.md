@@ -58,7 +58,7 @@ If you've allowed custom script, you can change the setting to later prevent use
 
 The [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) is a page and web part model that provides a governed and fully supported way to build solutions using scripting technologies with support for open-source tooling. Key features of the SharePoint Framework: 
   
-- The framework runs in the context of the current user and connection in the browser. It doesn't use iFrames.
+- The framework runs in the context of the current user and connection in the browser.
     
 - The controls are rendered in the normal page Document Object Model (DOM).
     
@@ -66,9 +66,9 @@ The [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) i
     
 - Developers can access the lifecycle. Also to render, they can access load, serialize and deserialize, configuration changes, and more.
     
-- You can use any browser framework you like: React, Handlebars, Knockout, AngularJS, and more.
+- You can use any browser framework you like: React, Handlebars, Knockout, Angular, and more.
     
-- The toolchain is based on common open source client development tools like npm, TypeScript, Yeoman, web pack, and gulp.
+- The toolchain is based on common open source client development tools like npm, TypeScript, Yeoman, webpack, and gulp.
     
 - Admins have governance tools to immediately disable solutions regardless of the number of instances that have been used and the number of pages or sites across which they've been used.
     

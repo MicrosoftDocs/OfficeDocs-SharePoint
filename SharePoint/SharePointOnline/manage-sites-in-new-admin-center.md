@@ -36,7 +36,7 @@ For more info about tasks on the Active sites page, see:
 
 - [Create a site](create-site-collection.md)
 - [Register a site as a hub site](create-hub-site.md) and [Unregister a site as a hub site](remove-hub-site.md)
-- [Turn external sharing on or off for for a site](change-external-sharing-site.md)  
+- [Change sharing settings for a site](change-external-sharing-site.md)  
 - [Delete a site](delete-site-collection.md)
 - [Manage site storage limits](manage-site-collection-storage-limits.md)
   
@@ -91,7 +91,7 @@ Sorting and filtering the site list is just like sorting and filtering other lis
     
 3. To rearrange the columns, point to a column, and select the up or down arrow to move the column up or down.
     
-    ![The Customize columns panel](media/customize-columns-panel.png)
+    ![The Customize columns panel](media/customize-columns.png)
     
     > [!NOTE]
     > Data in the following columns is not available for Office 365 Germany customers and US Government GCC High and DoD customers:
@@ -138,7 +138,7 @@ When you select a built-in or custom view, you can add a card to your home page 
     ![A tracked view card](media/tracked-view.png)
 
 > [!NOTE]
-> If you remove a tracked view card from your home page, you can't add it back from the Add cards panel. YOu need to open the view on the Active sites page and select **Track view**.
+> If you remove a tracked view card from your home page, you can't add it back from the Add cards panel. You need to open the view on the Active sites page and select **Track view**.
 
 ## Search for a site
 <a name="search"> </a>
