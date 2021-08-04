@@ -120,7 +120,7 @@ It's now possible to change the SharePoint domain name for your organization in 
     ![Custom domain name pane](media/custom-domain-name.png)
 
     > [!IMPORTANT]
-    > When adding the domain this needs to be a “onmicrosoft.com” domain. For example, if you want to rename your tenant to fabrikam.sharepoint.com, the domain that you enter should be fabrikam.onmicrosoft.com. Adding a “onmicrosoft.com” domain does not need to be purchased or require any public DNS registration.
+    > When adding the domain, it needs to be an “onmicrosoft.com” domain. For example, if you want to rename your tenant to fabrikam.sharepoint.com, the domain that you enter should be fabrikam.onmicrosoft.com. You do not need to purchase the “onmicrosoft.com” domain to add it and it does not require any public DNS registration.
  
 5. Make sure you get a confirmation message. If the domain isn't available, try a different domain. 
  
