@@ -111,7 +111,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 2. Go to the [Custom domain names page in the Azure AD admin center](https://aka.ms/SPORenameAddDomain).
 
     > [!IMPORTANT]
-    > Use the hyperlink [https://aka.ms/SPORenameAddDomain](https://aka.ms/SPORenameAddDomain) provided above. Failiure to use this hyperlink will prevent you from successfully adding a custom domain.
+    > You must use the hyperlink [https://aka.ms/SPORenameAddDomain](https://aka.ms/SPORenameAddDomain). Failure to use this hyperlink will prevent you from successfully adding a custom domain.
 
 3. Select **Add custom domain**.
 
