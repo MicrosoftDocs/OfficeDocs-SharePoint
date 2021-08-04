@@ -20,15 +20,9 @@ search.appverid: MET150
 description: "Step 5:  Map Dropbox identities with Migration Manager." 
 ---
 
-# Step 5: Map identities of Dropbox Drive to Microsoft 365 accounts (preview)
+# Step 5: Map identities of Dropbox Drive to Microsoft 365 accounts
 
 Map identities of your Dropbox to Microsoft 365 accounts while using Migration Manager.  
-
-
->[!Note]
-> Features described in this topic are part of a preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
-
-
 
 Identity Mapping is when you match the user and group identities that have access to your source environment (in this case Dropbox) and map those identities to Microsoft 365 user and group identities. This process is important to migration. If identities are not properly set up prior to migration, it can result in users losing access to content. It can also result in information being incorrect at the destination.
 
@@ -72,6 +66,6 @@ Upload your own users and groups mappings using the M
 
 
 >[!NOTE]
->Migration Manager Dropbox preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Dropbox isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
