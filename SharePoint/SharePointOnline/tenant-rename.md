@@ -129,7 +129,7 @@ It's now possible to change the SharePoint domain name for your organization in 
     > [!WARNING]
     > Do NOT add any other domains.
     > Do NOT configure the new domain as the initial domain.
-    > If after adding the domain you are prompted to create a new TXT record with your domain name registrar, then the domain has NOT been added correctly and you will NOT be able to perform a rename. If you are prompted then you will need to delete the invalid domain and return to Step 2 above.
+    > If, after adding the domain, you are prompted to create a new TXT record with your domain name registrar, the domain has NOT been added correctly and you will NOT be able to perform a rename. If you are prompted, you will need to delete the invalid domain and return to the previous Step 2.
  
 7. Confirm that your domain has been added to the list. 
 
