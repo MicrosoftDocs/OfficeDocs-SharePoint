@@ -175,7 +175,7 @@ A [home site](./home-site.md) is a SharePoint communication site that you create
 
 ### Set up a home site just for global navigation
 
-If you are creating a [home site](./home-site.md) for the main purpose of setting up global navigation, you can simplify the steps recommended to plan and launch a home site. Learn more about planning navigation in SharePoint and apply information architecture principals to your new home site’s navigational design. 
+If you are creating a [home site](./home-site.md) for the main purpose of setting up global navigation, you can simplify the steps recommended to plan and launch a home site. Learn more about planning navigation in SharePoint and apply information architecture principles to your new home site’s navigational design. 
 
 >[!NOTE]
 > -	Only one communication site can be set as the home site.
