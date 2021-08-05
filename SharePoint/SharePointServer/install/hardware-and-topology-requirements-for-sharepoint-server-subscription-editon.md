@@ -59,7 +59,7 @@ Some enterprises have datacenters that are in close proximity to one another and
 
 For a stretched farm architecture to work as a supported high-availability solution, the following prerequisites must be met:
 
-- There is a highly consistent intra-farm latency of <1 ms one way, 99.9% of the time over a period of 10 minutes. (Intra-farm latency is commonly defined as the latency between the front-end web servers and the database servers.
+- There is a highly consistent intra-farm latency of <1 ms one way, 99.9% of the time over a period of 10 minutes. Intra-farm latency is commonly defined as the latency between the front-end web servers and the database servers.
 - The bandwidth speed must be at least 1 gigabit per second.
 
 To provide fault tolerance in a stretched farm, use the standard best practice guidance to configure redundant service applications and databases.
