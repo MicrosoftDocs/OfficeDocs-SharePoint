@@ -179,9 +179,9 @@ It’s important to make sure the right content is available to users at the rig
 
  To deliver a flexible and consistent new hire onboarding experience the NEO sites consists of three different SharePoint site templates, that are designed to work alone or as one cohesive and familiar experience for new hires. Check with your site collection administrator to confirm which NEO sites were provisioned and are available for customizations. 
 
-- Review content in the [Pre-onboarding site](https://review.docs.microsoft.com/SharePoint/provision-neo-hub?branch=neo-overview#pre-onboarding-site)
-- Review content in the [Corporate onboarding site](https://review.docs.microsoft.com/SharePoint/provision-neo-hub?branch=neo-overview#corporate-new-hire-site)
-- Review content in the [Department onboarding site](https://review.docs.microsoft.com/SharePoint/provision-neo-hub?branch=neo-overview#departmental-onboarding)
+- Review content in the [Pre-onboarding site](/SharePoint/provision-neo-hub?branch=neo-overview#pre-onboarding-site)
+- Review content in the [Corporate onboarding site](/SharePoint/provision-neo-hub?branch=neo-overview#corporate-new-hire-site)
+- Review content in the [Department onboarding site](/SharePoint/provision-neo-hub?branch=neo-overview#departmental-onboarding)
 
 > [!NOTE]
 > The NEO sites come with many pre-built pages that can be identified in the site navigation with this symbol ">>." Determine which pages and content to keep, edit, or delete based on the needs of your organization. 
