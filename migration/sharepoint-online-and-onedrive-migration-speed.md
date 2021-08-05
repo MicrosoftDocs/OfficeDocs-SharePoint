@@ -201,6 +201,10 @@ Answer: If you are experiencing a high volume of HTTP 503 responses blocking you
     - Which migration tool you are using. For example, SPMT, ShareGate, Mover, etc.
 </br></br>
 
+**Question: When migrating OneNote notebooks that contain attachments from SharePoint 2010 to SharePoint Online, all attachments greater than 100 KB are missing.**</br>
+Answer: In SharePoint 2010, OneNote notebooks with attachments greater than 100 KB are put into a folder with a special content type that the SharePoint Migration Tool cannot read.
+As a workaround, you can migrate your SharePoint 2010 data to SharePoint 2016, then use the SharePoint Migration Tool to migrate the data from SharePoint 2016 to SharePoint Online. 
+</br></br>
 
 ### How to open a Microsoft support ticket
 
