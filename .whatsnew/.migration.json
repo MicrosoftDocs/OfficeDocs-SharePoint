@@ -4,18 +4,17 @@
 	"rootDirectory": "migration/",
 	"docLinkSettings": {
 		"linkFormat": "relative",
-		"relativeLinkPrefix": "/migration/"
+		"relativeLinkPrefix": "/sharepointmigration/"
 	},
 	"inclusionCriteria": {
-		"excludePullRequestTitles": true,
-		"minAdditionsToFile": 20,
-		"maxFilesChanged": 50,
-		"labels": [
-			"label:migration/svc"
-		]
+		"omitPullRequestTitles": true,
+        "minAdditionsToFile": 20,
+		"maxFilesChanged": 50
+		
+		
 	},
 	"areas": [{
-		"name": ".",
+		"names": ["."],
 		"heading": "Migration"
 	}]
 }
