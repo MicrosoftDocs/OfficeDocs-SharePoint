@@ -47,7 +47,7 @@ Ensure the following before you proceed with deployment of SharePoint environmen
 |:-----|:-----|:-----|:-----|:-----|
 |Single server role that uses SQL Server  <br/> |Development or evaluation installation with the minimum recommended services for development environments.  <br/> |64-bit, 4 cores <br/> |16 GB  <br/> |80 GB for system drive  <br/> 100 GB for second drive  <br/> |
 |Single server role that uses SQL Server  <br/> |Pilot or user acceptance test installation running all available services.  <br/> |64-bit, 4 cores <br/> |24 GB   <br/> |80 GB for system drive  <br/> 100 GB for second drive and additional drives  <br/> |
-|SharePoint server in amulti-tier farm  <br/> |Development or evaluation installation with a minimum number of services.  <br/> |64-bit, 4 cores <br/> |12 GB  <br/> |80 GB for system drive  <br/> 80 GB for second drive  <br/> |
+|SharePoint server in a multi-tier farm  <br/> |Development or evaluation installation with a minimum number of services.  <br/> |64-bit, 4 cores <br/> |12 GB  <br/> |80 GB for system drive  <br/> 80 GB for second drive  <br/> |
 |SharePoint server in a multi-tier farm  <br/> |Pilot or user acceptance test installation running all available services.  <br/> |64-bit, 4 cores  <br/> |16 GB    <br/> |80 GB for system drive  <br/> 80 GB for second drive and additional drives  <br/> 
 
 > [!NOTE]
