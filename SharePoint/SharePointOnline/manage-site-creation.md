@@ -54,6 +54,9 @@ As a global or SharePoint admin in Microsoft 365, you can let your users create 
  
 ## Manage detailed site and subsite creation settings in the classic SharePoint admin center
 
+   > [!NOTE]
+   > Subsite creation settings are being updated to improve clarity and also prohibit new subsite creation by way of URL or API when the “Hide the Subsite command” is selected. This article will be updated with more information by September 2021.
+
 1.  In the left pane of the new SharePoint admin center, select **Settings**. At the bottom of the page, select **classic settings page**.  
     
 2. Under **Site Creation**, select to show or hide the **Create site** command.
