@@ -170,6 +170,9 @@ To help site owners add a segment to a site, share the [Associate information se
 
 When a team is created in Microsoft Teams, a SharePoint site is automatically created for the team's files. Within 24 hours, the segments associated with the team's members are automatically associated with the site. SharePoint admins can't change the segments associated with a site when the site is connected to a team. [Learn more about information barriers in Teams](/microsoftteams/information-barriers-in-teams).
 
+>[!IMPORTANT]
+>The private channel site is not associated with any segments. The private channel owner has the responsibility to ensure the appropriate members are added to the channel via Microsoft Teams.
+
 ## Sharing sites that have segments associated
 
 When a segment is associated with a site:
