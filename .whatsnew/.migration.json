@@ -1,23 +1,21 @@
 {
-    "$schema": "https://whatsnewapi.azurewebsites.net/schema",
-    "docSetProductName": "Migration",
-    "rootDirectory": "migration/",
-    "docLinkSettings": {
-        "linkFormat": "relative",
-        "relativeLinkPrefix": "/migration/"
-    },
-    "inclusionCriteria": {
-        "excludePullRequestTitles": true,
-        "minAdditionsToFile" : 20
-        "maxFilesChanged": 50,
-        "labels": [
-            "label:migration/svc"
-        ]
-    },
-    "areas": [
-        {
-            "name": ".",
-            "heading": "Migration"
-        },
-    ]
+	"$schema": "https://whatsnewapi.azurewebsites.net/schema",
+	"docSetProductName": "Migration",
+	"rootDirectory": "migration/",
+	"docLinkSettings": {
+		"linkFormat": "relative",
+		"relativeLinkPrefix": "/migration/"
+	},
+	"inclusionCriteria": {
+		"excludePullRequestTitles": true,
+		"minAdditionsToFile": 20,
+		"maxFilesChanged": 50,
+		"labels": [
+			"label:migration/svc"
+		]
+	},
+	"areas": [{
+		"name": ".",
+		"heading": "Migration"
+	}]
 }
