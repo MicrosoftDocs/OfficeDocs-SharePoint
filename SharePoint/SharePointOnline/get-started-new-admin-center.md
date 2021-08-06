@@ -90,13 +90,13 @@ This card shows the usage of each Microsoft 365 service. To view the full report
 
 ## Customize your dashboard
 
-To add available cards that aren't already on the dashboard, select **Add cards**. Tap or click a card to add it to the page, or drag it to a specific location on the page. 
+- To add available cards that aren't already on the dashboard, select **Add cards**. Tap or click a card to add it to the page, or drag it to a specific location on the page. 
 
-  ![The Add cards panel](media/add-cards.png)
+    ![The Add cards panel](media/add-cards.png)
 
-To remove a card, select More actions (...), and then select **Remove**.
+- To remove a card, select More actions (...), and then select **Remove**.
 
-To move a card to a different location on the page, drag the card title.
+- To move a card to a different location on the page, drag the card title.
 
   
 ## Customize the navigation pane

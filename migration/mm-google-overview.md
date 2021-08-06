@@ -19,13 +19,10 @@ search.appverid: MET150
 description: Overview of migration from Google to Microsoft 365 using Migration Manager.
 ---
 
-# Migrate Google Workspace to Microsoft 365 with Migration Manager (preview)
+# Migrate Google Workspace to Microsoft 365 with Migration Manager
 
 >[!Note]
-> Features described in this topic are part of a preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
-
-
-
+>This release currently supports the migration of up to approximately 10,000 Google Workspace accounts in a single migration. For larger migrations, we recommend you connect with [FastTrack](https://www.microsoft.com/fasttrack).
 
 Collaborate all in one place by migrating your Google documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
@@ -56,7 +53,7 @@ Make sure that you have:
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
 
 >[!NOTE]
->Migration Manager Google Workspace preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Google Workspace isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
 

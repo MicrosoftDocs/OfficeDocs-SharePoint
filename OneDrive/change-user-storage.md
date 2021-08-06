@@ -69,8 +69,6 @@ Admins can [open a case with Microsoft technical support](/microsoft-365/admin/c
 
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
-	> 
-	> On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
 
 2. Save the following script as a PowerShell file. For example, you could save it to a file named UpdateOneDriveStorage.ps1.
     

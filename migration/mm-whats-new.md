@@ -26,12 +26,19 @@ We're continuously adding new features to Migration Manager and fixing issues we
 
 Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page.  
 
-
 ## Coming soon
+- **Task scheduling**.  Schedule your migration tasks in advance to run at the optimum time your organization.
+- **Egnyte migrations**.  Migrate your Egnyte content to Microsoft 365.
 
-- **Scan file shares (preview).**  Scan and view your sources for migration readiness.
-- **Ability to install agent on non-domain joined computers (app mode).**  You will have the option of installing the Migration Manager agent on non-domain joined computers using an agent app.
+## July 2021
+- **Box migrations (GA).**  You can now migrate Box content to Microsoft 365 using Migration Manager.
+- **Google migrations (GA).**  Migrate your Google Drives to Microsoft 365.
+- **Dropbox migrations (GA).**  You now can migrate your Dropbox content to Microsoft 365.
+ 
+## June 2021
 
+- **Scan file shares (preview).**  Scan and view your sources for migration readiness. Learn more: [Migration Manager Scan (preview)](mm-scan.md)
+- **Agent app mode**. Install agent on non-domain joined computers (app mode). You now haave the option of installing the Migration Manager agent on non-domain joined computers using an agent app.
 
 ## May 2021
 
