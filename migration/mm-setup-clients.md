@@ -107,7 +107,7 @@ The country or regional GEO code can be found here [Microsoft 365 Multi-Geo avai
 
 4. The settings screen will display if and to what tenant you are connected.  Select **unlink tenant** if you wish to sign in to a different tenant.
 
-5. Microsoft 365 will automatically renew authorization to access your tenant as long as the migration agent is active.  If the agent has been inactive forlonger than seven days, you may need to sign in again.
+5. Microsoft 365 will automatically renew authorization to access your tenant as long as the migration agent is active.  If the agent has been inactive for longer than seven days, you may need to sign in again.
 
 
 
