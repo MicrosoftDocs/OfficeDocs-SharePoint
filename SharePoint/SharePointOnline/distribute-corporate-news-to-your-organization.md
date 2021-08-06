@@ -34,7 +34,7 @@ The data in the following table describes the locations to which news is distrib
 |Viva Connections for mobile*    |   Displays in the **mobile app Feed** section based on the relevance to the user      |
 |Viva Connections dashboard*   |  Add one or more cards that highlight news from the organization or different departments. Decide your audiences and where and when you want to share the news.    |
 
-***Coming later in 2021**.
+**Coming later in 2021**.
 
 ## Steps to distribute organization news
 
