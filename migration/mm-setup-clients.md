@@ -39,7 +39,7 @@ After an agent is configured, anyone with the permission to go into the SharePoi
 |[Verify prerequisites](mm-prerequisites.md)|Make sure your computer meets the requirements.|
 |[Check required endpoints](mm-prerequisites.md)|Verify that you have the required endpoints configured.|
 |[Multi-geo tenant](#multi-geo-agent-setup)|If you have a multi-geo tenant, make sure to understand where the agent will be installed.|
-|[Pre-provision OneDrive accounts](https://docs.microsoft.com/onedrive/pre-provision-accounts)|If you are migrating to OneDrive accounts, make sure the accounts are pre-provisioned before you migrate. The migration account must also be give site collection administrator rights to each OneDrive site. Pre-provisioning can be done by using a script as described here: [Pre-provision OneDrive for users in your organization](https://docs.microsoft.com/onedrive/pre-provision-accounts).|
+|[Pre-provision OneDrive accounts](/onedrive/pre-provision-accounts)|If you are migrating to OneDrive accounts, make sure the accounts are pre-provisioned before you migrate. The migration account must also be give site collection administrator rights to each OneDrive site. Pre-provisioning can be done by using a script as described here: [Pre-provision OneDrive for users in your organization](/onedrive/pre-provision-accounts).|
 |[Government Cloud](mm-gov-cloud.md)|If your tenant resides in a government cloud, you may have extra steps to perform before using Migration Manager.|
 
 >[!Tip]
@@ -71,7 +71,7 @@ A working folder named **%appdata%\Microsoft\SPMigration** is created for each a
 
 If you have a Multi-Geo SharePoint tenant, the agent will be installed in the geo-location set in the SharePoint admin center. Before installing the agent, make sure the desired geo-location is the one set in the admin center. To change an agent's geo-location, delete and reinstall the agent. 
 
-Learn more: [Multi-Geo Capabilities in OneDrive and SharePoint Online](https://docs.microsoft.com/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365)
+Learn more: [Multi-Geo Capabilities in OneDrive and SharePoint Online](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365)
 
 To install an agent to a different Geo location:
 
@@ -86,7 +86,7 @@ To install an agent to a different Geo location:
 
 ```
 
-The country or regional GEO code can be found here [Microsoft 365 Multi-Geo availability](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo)
+The country or regional GEO code can be found here [Microsoft 365 Multi-Geo availability](/microsoft-365/enterprise/microsoft-365-multi-geo)
 
 
 ## Installing the agent as an app
