@@ -105,7 +105,7 @@ To learn about email notification settings, see [SharePoint email notifications]
 
 When you use Viva Connections for Teams Desktop, your home site in Teams displays news just like it does when viewed in SharePoint.
 
-To learn about adding Viva connections for Teams desktop, see [Add Viva Connections for Microsoft Teams desktop](viva-connections.md).
+To learn about adding Viva Connections for Teams desktop, see [Add Viva Connections for Microsoft Teams desktop](viva-connections.md).
 
 ## Display news in the Viva Connections Teams mobile app
 
