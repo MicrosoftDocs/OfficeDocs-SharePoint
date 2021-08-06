@@ -245,8 +245,6 @@ Using this model, all users will see all news posts created in departmental comm
 
 It’s also important to think about the other places where users might consume news content. Users can read news stories using the SharePoint app on their mobile device and on the SharePoint page in Office 365. Additionally, a site owner can create a newsletter of recent news stories, which can be sent to users. Also, users can post news stories from a group-connected SharePoint site to a Microsoft Teams channel.
 
-<!-- daisy confirm with holland that this bottom bit should be here-->
-
 ## Want more?
 
 Get inspired with more examples in the [SharePoint look book](https://sharepointlookbook.azurewebsites.net/).
