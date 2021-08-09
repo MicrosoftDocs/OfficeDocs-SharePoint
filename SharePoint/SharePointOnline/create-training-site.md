@@ -44,7 +44,7 @@ To make a site like the one shown here, you'll create a [Communication site](htt
 
 Next, choose **Communication site**, and then the **Topic** layout. Fill out your site name, description, and other information, and click **Finish**. Then you'll get a template with the same type of layout as the example in this article.
 
-![Image of the Training site landing page](media/ts-3.png)
+![Image of the Training site landing page](media/ts-3.jpg)
 
 For more details, see Create a communication site in SharePoint Online.
 
@@ -185,6 +185,6 @@ For more details on using the Microsoft Forms web part, see [Use the Microsoft F
 
 [**Back to top**](#example-training-site)
 
-**Want more?**
+### Want more?
 
 Get inspired with more examples in the [SharePoint Look Book](https://sharepointlookbook.azurewebsites.net/).
