@@ -1,9 +1,9 @@
 ---
-title: "Create a hub site in SharePoint"
-ms.reviewer: metorres
-ms.author: kaarins
-author: kaarins
-manager: serdars
+title: "Guided walkthrough: Creating a training site for your organization"
+ms.reviewer: 
+ms.author: dowallace
+author: dowallace
+manager: pamgreen
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -22,45 +22,169 @@ ms.assetid: 92bea781-15d8-4bda-805c-e441e2191ff3
 description: "In this article, you'll learn how to convert a site into a hub site in the SharePoint admin center."
 ---
 
-# Create a hub site in SharePoint
+# Guided walkthrough: Creating a Training site for your organization
 
-If you're a global or SharePoint admin in Microsoft 365, you can convert any existing site to a hub site.
+In this article, we show you elements of an example Training site to inspire you, and help you learn how to create similar sites for your own organization. This example site provides info about a specific event and guides the user toward learning and registration. It relies on visual impact to engage and motivate the visitor.
+
+First, if you haven't already created a Communication site, check out the [Create your site](#create-your-site) section in this article.  If you need to learn how to edit and publish the page on your site, check out the section [Edit, work with sections and web parts, and publish](#manage-sections-and-web-parts) in this article.
+
+Once you have your created your site and know how to edit pages, you can use the guidance below to add the elements shown.
   
-> [!NOTE]
->  We recommend selecting a communication site, or a team site that uses the new template. If you use a classic team site, the hub navigation will appear only on modern pages, and hub site settings will only appear on modern pages.<br>Sites that are already associated with another hub can't be converted to a hub site. <br>You can create up to 2,000 hub sites for an organization. There is no limit on the number of sites that can be associated with a hub site. <br>When users associate their sites with a hub, it doesn't impact the permissions of either the hub site or the associated sites. It's important to make sure all users you allow to associate sites to the hub have permission to the hub. 
-  
-## Create a hub site in the new SharePoint admin center
+## Example Training site
 
-1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+|  Image of the homepage               |  Customization instructions                |
+| :------------------- | :------------------- |
+|    ![Image of the Training site landing page](media/ts-1.png)  | **1. Logo and site classification** Customize your logo and classify your site. [*Learn how*](#logo-and-site-classification) <br> <br>**2. Create impact** Use the hero web part to visually communicate your value. [*Learn how*](#create-impact-with-the-hero-web-part)<br> <br>**3. Guide users to key action** Lead visitors to register or discover more. [*Learn how*](#guide-users-to-key-actions-with-quick-links)<br> <br>**4. Describe the event** Use text to describe the "what" and "why" of the event. [*Learn how*](#describe-the-event-with-the-text-web-part)<br> <br>**5. Use images with links** Increase visibility and link to detailed agenda pages. [*Learn how*](#use-images-with-links)<br> <br>**6. Highlight detailed information** Images can define areas of important information.  [*Learn how*](#use-images-with-links)<br> <br>**7. Show event dates** Provide an event calendar so users can plan their schedules.  [*Learn how*](#show-event-dates)<br> <br>**8. Add a map** Use a map to help users get to where they need to be.  [*Learn how*](#add-maps-with-the-bing-web-part)<br> <br>**9. Povide on-page registration** Add a form for easy registration.  [*Learn how*](#add-forms-for-registration)|
 
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
+## Create your site
 
-2. Select the site, select **Hub**, and then select **Register as hub site**.
+To make a site like the one shown here, you'll create a [Communication site](https://support.microsoft.com/office/use-the-sharepoint-topic-showcase-and-blank-communication-site-templates-94a33429-e580-45c3-a090-5512a8070732). To do this, click **Create site** from the SharePoint start page (or, if you're going to associate this site with a Hub site, navigate to the hub site and click **Create site** there so that the communication site is automatically be associated with that hub site). 
 
-    ![Registering a site as a hub site](media/register-hub-site.png)
+![Image of the Training site landing page](media/ts-2.png) 
 
-    > [!TIP] 
-    > Using the Hub site menu, you can also associate a site with the hub site, change a site's association to a different hub site, or disassociate a site from a hub site. 
+Next, choose **Communication site**, and then the **Topic** layout. Fill out your site name, description, and other information, and click **Finish**. Then you'll get a template with the same type of layout as the example in this article.
 
-3. Enter a display name for the hub site, and specify the individual users or security groups you want to allow to associate sites with the hub.
+![Image of the Training site landing page](media/ts-3.png)
 
-    ![The Register as hub site panel](media/register-hub-site-panel.png)
+For more details, see Create a communication site in SharePoint Online.
 
+[**Back to top**](#example-training-site)
 
-    > [!IMPORTANT] 
-    > If you leave the **People who can associate sites with this hub** box empty, any user can associate their site with the hub.<br>If you later want to change the hub site display name or the list of people who can associate sites with the hub, you need to use PowerShell or go to hub site settings on the hub site.
+## Logo and site classification
 
-4. Select **Save**.
+In this example, the header area does not contain any navigation because it is intended to be a "stand-alone" page. However, the header area does contain a custom logo, and shows a label indicating that the site is classified as "Internal Only." Site classification uses values such as internal, confidential, high business impact, low business impact, and so on. These values can pertain to sensitivity of information or to the life-cycle of information.
 
+![Image of the Training site landing page](media/ts-4.png)
 
-    
-## Related topics
+To learn how to change the logo and classify your site, see Manage your SharePoint site settings.
 
-- For info about using a site design that gets applied when sites join the hub, see [Set up a site design for your hub site](set-up-site-design-hub-site.md). For more info about site designs and site scripts, see [SharePoint site design and site script overview](/sharepoint/dev/declarative-customization/site-design-overview).
+[**Back to top**](#example-training-site)
 
-- To learn how to use Microsoft PowerShell to create and manage hub sites, see [Manage SharePoint hub sites](/sharepoint/dev/features/hub-site/hub-site-powershell).
-    
-- For info about how site owners can customize hub sites, see [Set up your SharePoint hub site](https://support.office.com/article/e2daed64-658c-4462-aeaf-7d1a92eba098).
+## Manage sections and web parts
 
-- For info about removing a hub site, see [Remove a hub site](remove-hub-site.md).
+Start editing by clicking **Edit** on the top right of the page.
+
+![Image of the Training site landing page](media/ts-5.png)
+
+While editing, on the left, below the header your drafts can be saved for later or discarded.
+
+![Image of the Training site landing page](media/ts-6.png)
+
+The + symbol before or after a section will add a section using one of several layouts.
+
+![Image of the Training site landing page](media/ts-7.png)
+
+Sections make up your page, and are you place one or more web parts. While editing the page, each section will show controls to edit the layout, move, or delete the sections. For information on working with sections, see [Add or remove sections and columns on a page](https://support.microsoft.com/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899).
+
+![Image of the Training site landing page](media/ts-8.png)
+
+Click the plus symbol ![Image of the Training site landing page](media/ts-18.png) in a section, which may appear before or after a web part in a section, to see the many types of web parts available. For more information on all web parts, see [Using web parts on SharePoint pages](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0).
+
+![Image of the Training site landing page](media/ts-19.png)
+
+Web parts may be edited, moved or deleted within sections. The **Edit web part** icon opens detailed controls unique to each web part type.
+
+![Image of the Training site landing page](media/ts-9.png)
+
+When your page updates are ready, click **Publish** to make them visible to your entire organization.
+
+![Image of the Training site landing page](media/ts-10.png)
+
+> [!TIP]
+> To manage all of your pages on the site, click **Pages** on the top menu.
+
+For more details on using pages, see [Create and use modern pages on a SharePoint site](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec).
+
+[**Back to top**](#example-training-site)
+
+## Create impact with the Hero web part
+
+Let your visitors know the focus of your Workshop with the Hero web part. The layout used in this example is **Two tiles**.
+
+**Hero layout: Tiles or Layers**
+
+Editing the web part presents layout options. The **Tiles** option presents layouts for between one and five tiles. The **Layers** option sets each image as a layer with the image next to the title. Up to five layers are possible allowing one web part to create an entire page.
+
+**Each tile can be edited**
+
+Use the **Move item** control on the left to rearrange the tiles within the Hero web part. Controls on the right allow you to **Edit details** adjusting the text and image used, **Set focal point** for the hover animation, plus **Zoom in** and **Zoom out** of the image.
+
+In this example, the Hero web part is in a full-width section.
+
+![Image of the Training site landing page](media/ts-11.png)
+
+For more details on using the Hero web part, see Use the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645).
+
+[**Back to top**](#example-training-site)
+
+## Show event dates
+
+The Events web part automatically displays event information. The events shown are controlled by filters for **Source**, **Event list**, **Category**, and **Date range**. Events can be shown with detailed summaries in **Filmstrip** view or in a **Compact** view.
+
+In this Workshop site example, this web part uses the **Filmstrip** layout.
+
+![Image of the Training site landing page](media/ts-12.png)
+
+For more details on using the Events web part, see [Use the Events web part](https://support.microsoft.com/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909).
+
+[**Back to top**](#example-training-site)
+
+## Describe the event with the Text web part
+
+The leadership drop quote and the Monthly Q&A descriptions use the Text web part. This web part allows basic text formatting for creating fixed sections of formatted text.
+
+When editing text, this web part will offer basic formatting tools to set styles and add enhancements like **bold** and *italics*. Clicking the … control at the right end of the formatting toolbar offers additional options to the right of the web part.
+
+In this Workshop site example shown above, the web part is in a one-column section.
+
+![Image of the Training site landing page](media/ts-13.png)
+
+For more details on using the Text web part, see [Add text and tables to your page with the Text web part](https://support.microsoft.com/office/add-text-and-tables-to-your-page-with-the-text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801).
+
+[**Back to top**](#example-training-site)
+
+## Guide users to key actions with Quick links
+
+The Quick links web part offers several easy to use menu formats for listing links to other pages or sites.
+
+In this site example, the web part uses the **Button** layout for quick and easy reference.
+
+![Image of the Training site landing page](media/ts-14.png)
+
+For more details on using the Quick Links web part, see [Use the Quick Links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82).
+
+[**Back to top**](#example-training-site)
+
+## Use images with links
+
+The Image web part places a fixed image on the page. Images can be photographs, diagrams, or even used to bring impact to text. Captions and alt-text keeps images accessible.
+
+![Image of the Training site landing page](media/ts-15.png)
+
+For more details on using the Image web part, see [Use the Image web part](https://support.microsoft.com/office/use-the-image-web-part-a63b335b-ad0a-4954-a65d-33c6af68beb2).
+
+[**Back to top**](#example-training-site)
+
+## Add maps with the Bing Maps web part
+
+The Bing Maps web part offers an easy visual map reference and quick link to allow visitors to plan their route to your workshop.
+
+![Image of the Training site landing page](media/ts-16.png)
+
+For more details on using the Bing Maps web part, see [Use the Bing Maps web part](https://support.microsoft.com/office/use-the-bing-maps-web-part-c0e3f2f6-dc0d-49df-9308-1bf7c888e794).
+
+[**Back to top**](#example-training-site)
+
+## Add forms for registration
+
+If you created a form for registration using [Microsoft Forms](https://support.microsoft.com/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d), you can place that form directly on the page with the Microsoft Forms web part. It's an easy way for attendees to fill out their information, and an easy way for you to collect it. 
+
+![Image of the Training site landing page](media/ts-17.png)
+
+For more details on using the Microsoft Forms web part, see [Use the Microsoft Forms web part](https://support.microsoft.com/office/use-the-microsoft-forms-web-part-d4b4d3ce-7860-41e4-8a98-76380efe7256).
+
+[**Back to top**](#example-training-site)
+
+**Want more?**
+
+Get inspired with more examples in the [SharePoint Look Book](https://sharepointlookbook.azurewebsites.net/).
