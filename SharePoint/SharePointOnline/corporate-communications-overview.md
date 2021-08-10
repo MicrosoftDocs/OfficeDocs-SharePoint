@@ -43,9 +43,17 @@ Start by learning what Microsoft 365 tools can help for your specific scenario a
 | Scope your audience                   | Review considerations based on audience preferences        | Prepare and test environment             | Maintain performant sites, pages, and lists         |
 |Check technical and license requirements          | Learn how to use and integrate M365 apps    | Determine success metrics & plan the launch  |Retire content when it’s no longer needed          |
 
+#### Step 1: Learn more about tools and define your audience profile
+
+#### Step 2: Identify the scenario(s) to meet your communication goal
+
+#### Step 3: Plan, create, and launch your communication strategy
+
+#### Step 4: Manage and maintain communication and content over time
 
 
-## Overview of the corporate communication solution:
+
+## Overview of corporate communication solutions:
 Learn how to plan your communication strategy by reviewing common communication scenarios, solutions, and outcomes. Next, review how Microsoft 365 tools and apps can engage and inform the audiences you want to reach. Then determine which communication scenario meets your communication goals and get started planning, launching, and maintaining your communication solution. 
 <br>
 <br>
@@ -59,14 +67,14 @@ Learn how to plan your communication strategy by reviewing common communication 
 |  ![Image of a newspaper icon](media/icon-news.png)    | **Share organizational news**  | - Share organization news and announcements across your company  <br> - Create an organizational news site, news posts, and use the News web part <br> - Measure engagement and expand reach using Viva Connections             |
 | ![Image of a networking icon](media/icon-launch-add.png)  |  **Leadership connection**   | - Create communication channels and networking opportunities <br> - Create engaging experiences in Yammer and live events <br> - Expand reach using Viva Connections             |
 | ![Image of a location symbol icon](media/icon-build-global.png)  | **New employee onboarding**     | - Create an end-to-end experience to onboard new employees <br> - Welcome new employees using, share resource, and provide support <br> - Expand reach using Viva Connections           |
-
+<br>
 
 ### End user guidance and support
 Give end users a head start by helping them use and engage using popular M365 communication apps.
 
 
 | Logo    | Communication app             | Guidance              | 
-| :------------------- | :-------------------- |
+| :------------------- | :-------------------- | :-------------------- |
 | ![Image of the Microsoft Teams logo](media/logo-teams.png) | **Teams** | [Learn more about teams and channels](https://support.microsoft.com/office/first-things-to-know-about-teams-and-channels-5e4fd702-85f5-48d7-ae14-98821a1f90d3) <br> [Tips for meetings in Teams](https://support.microsoft.com/office/tips-for-teams-meetings-23dd847d-52a6-4325-b0dd-9d8f2b29af50) <br> [Share content in Teams meetings](https://support.microsoft.com/office/share-content-in-a-meeting-in-teams-fcc2bf59-aecd-4481-8f99-ce55dd836ce8) <br> [Use @mention's to get someone's attention](https://support.microsoft.com/office/use-mentions-to-get-someone-s-attention-in-teams-eb4f059d-320e-454e-b111-03361d4d6855)| 
 |  | **Teams live events**                 | [Attend a live event in Teams](https://support.microsoft.com/office/attend-a-live-event-in-teams-a1c7b989-ebb1-4479-b750-c86c9bc98d84) <br> [Participate in a live event Q&A](https://support.microsoft.com/en-us/office/participate-in-a-q-a-in-a-live-event-in-teams-01d57b8c-23b9-4cff-adc0-4e57618b59b4) <br> [Use live captions in a live event](https://support.microsoft.com/office/use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a)           |
 |  ![Image of the SharePoint logo](media/logo-sharepoint.png) | **SharePoint**  | [Get started with SharePoint](https://support.microsoft.com/office/get-started-with-sharepoint-909ec2f0-05c8-4e92-8ad3-3f8b0b6cf261) <br> [Upload, view, and share files](https://support.microsoft.com/office/upload-view-and-remove-project-files-or-documents-bf64f2b5-c32c-4ee9-9c1c-452f22ef832f) |
@@ -74,7 +82,7 @@ Give end users a head start by helping them use and engage using popular M365 co
 |  | **Yammer live events**                 | [Attend a live event in Yammer](https://support.microsoft.com/office/attend-a-live-event-in-new-yammer-41f1afe3-2a8e-4998-a25b-843d96791b10)                 | 
 | ![Image of the Outlook logo](media/logo-outlook.png) | **Outlook**                 | [Set up email on a mobile device](https://support.microsoft.com/office/set-up-office-apps-and-email-on-a-mobile-device-7dabb6cb-0046-40b6-81fe-767e0b1f014f) <br> [Use @mention's to get someone's attention](https://support.microsoft.com/office/use-mentions-to-get-someone-s-attention-90701709-5dc1-41c7-aa48-b01d4a46e8c7)                  | 
 |  ![Image of the Microsoft Stream logo](media/logo-stream.png)    |**Stream**              |  [Introduction to Microsoft Stream](https://support.microsoft.com/office/what-is-microsoft-stream-025ee4bc-e519-45ca-a157-05bc5bad616c) <br> [Follow channels in Stream](https://support.microsoft.com/office/follow-channels-efe86a71-dbbe-47c9-8517-56470eabd5c5)
-
+<br>
 
 
 ## Key capabilities by product license
@@ -89,13 +97,7 @@ Give end users a head start by helping them use and engage using popular M365 co
 | Live events in Microsoft Teams             | Host and record public or private live events. Decide how you want event attendees to participate.       | M365 E5 <br> M365 E3         |
 | Viva Connections          | Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed.        | M365 E5 <br> M365 E3     |
 
-
-
-
-
-
-
-
+<br>
 
 
 
