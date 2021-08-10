@@ -65,7 +65,7 @@ Learn how to plan your communication strategy by reviewing common communication 
 <br>
 <br>
 
-| Icon                | Scenario            | Solution details          |
+| Icon                 | Scenario            | Solution details  |
 | :------------------: | :------------------- |:----------------|
 | ![Image of a check list icon](media/task-check.png) | **Plan your strategy**| - Review common communication scenarios <br> - Learn about tools and solutions <br> - Scope your audience and determine your specific scenario   |
 | ![Image of two people talking icon](media/chat-room.png) | **Use Viva Connections**  | - Create employee experiences that connect your organization <br> - Deploy the desktop solution and set up mobile <br> - Create and publish custom dashboard cards           |
@@ -80,7 +80,7 @@ Learn how to plan your communication strategy by reviewing common communication 
 Give end users a head start by helping them use and engage using popular M365 communication apps.
 
 
-| Logo    | Communication app             | Guidance              | 
+| Logo                 | Communication app    | Guidance        | 
 | :------------------: | :------------------- |:----------------|
 | ![Image of the Microsoft Teams logo](media/logo-teams.png) | **Teams** | [Learn more about teams and channels](https://support.microsoft.com/office/first-things-to-know-about-teams-and-channels-5e4fd702-85f5-48d7-ae14-98821a1f90d3) <br> [Tips for meetings in Teams](https://support.microsoft.com/office/tips-for-teams-meetings-23dd847d-52a6-4325-b0dd-9d8f2b29af50) <br> [Share content in Teams meetings](https://support.microsoft.com/office/share-content-in-a-meeting-in-teams-fcc2bf59-aecd-4481-8f99-ce55dd836ce8) <br> [Use @mention's to get someone's attention](https://support.microsoft.com/office/use-mentions-to-get-someone-s-attention-in-teams-eb4f059d-320e-454e-b111-03361d4d6855)| 
 |  | **Teams live events**                 | [Attend a live event in Teams](https://support.microsoft.com/office/attend-a-live-event-in-teams-a1c7b989-ebb1-4479-b750-c86c9bc98d84) <br> [Participate in a live event Q&A](https://support.microsoft.com/en-us/office/participate-in-a-q-a-in-a-live-event-in-teams-01d57b8c-23b9-4cff-adc0-4e57618b59b4) <br> [Use live captions in a live event](https://support.microsoft.com/office/use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a)           |
@@ -94,7 +94,7 @@ Give end users a head start by helping them use and engage using popular M365 co
 
 ## Key capabilities by product license
 
-| Capability or feature                  | Description                | Licensing         |
+| Capability or feature  | Description                | Licensing         |
 | :------------------- | :-------------------- |:---------------- |
 | Outlook email and calendar | Connect and stay organized with business-class email, calendaring, and contacts all in one place. | M365 E5 <br> M365 E3 |
 | Microsoft Teams meetings, chats, and voice   | Deliver elevated meeting experiences with sophisticated call functionality and a central hub for meetings, chat, content, and calling.                | M365 E5 <br> M365 E3  |
