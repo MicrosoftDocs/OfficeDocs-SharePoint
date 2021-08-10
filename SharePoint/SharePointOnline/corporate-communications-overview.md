@@ -44,13 +44,19 @@ Start by learning what Microsoft 365 tools can help for your specific scenario a
 |Check technical and license requirements          | Learn how to use and integrate M365 apps    | Determine success metrics & plan the launch  |Retire content when it’s no longer needed          |
 
 #### Step 1: Learn more about tools and define your audience profile
+Start by getting familiar with [common corporate communications scenarios](/SharePoint/plan-communication-strategy.md). Next, [review Microsoft 365 communication apps](/SharePoint/review-communication-apps.md) to make sure you understand engagment opportunities and analytics options. Then, learn how to [define and scope your audience](/SharePoint/audience-profile.md). After following these basic steps, you will be ready to select the right communication solution that fits your organization's needs.
+
 
 #### Step 2: Identify the scenario(s) to meet your communication goal
+After spending time learning about M365 communication options and how to reach your audience, [choose a corporate communication solution](/SharePoint/choose-communication-method.md) or combination of solutions. Each communication solution covers step-by-step guidance and includes best practices to ensure your success.
+
 
 #### Step 3: Plan, create, and launch your communication strategy
+Once you've selected a solution or combination of solutions, you'll learn how to plan, build, and launch. Each communication solution can be customized and integrated with other communication solutions depending on your goals. Understanding your audience's needs and how they currently use M365 apps will heavily influence how you make decisions.   
+
 
 #### Step 4: Manage and maintain communication and content over time
-
+Some communication solutions are a one-time event while others may have several occurances over time. Depending on the communication solution, there may be some maintanence requirements and next steps. Learn how to prepare for the long term success of your communication strategy.
 
 
 ## Overview of corporate communication solutions:
