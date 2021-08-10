@@ -45,7 +45,7 @@ Global admins and SharePoint admins don't have automatic access to all sites and
 Site admins are users that have permission to manage sites, including any subsites. They don't need to have an admin role in Microsoft 365, and aren't given access to the SharePoint admin center. 
   
 > [!NOTE]
-> Global admins, SharePoint admins, and site admins all need to be assigned a SharePoint license. Global admins and site admins with OneDrive for Business-only subscriptions can access the SharePoint Online Admin Center without assigining the SharePoint license.<br>There is a separate role within SharePoint called the **Term Store Administrator**. Users assigned this role can add or change terms in the term store (a directory of common terms you want to use across your organization). To learn more, see [Assign roles and permissions to manage term sets](assign-roles-and-permissions-to-manage-term-sets.md). 
+> Global admins, SharePoint admins, and site admins all need to be assigned a SharePoint license. Global admins and site admins with OneDrive subscriptions can access the SharePoint Online admin center without assigning the SharePoint license.<br>There is a separate role within SharePoint called the **Term Store administrator**. Users assigned this role can add or change terms in the term store (a directory of common terms you want to use across your organization). To learn more, see [Assign roles and permissions to manage term sets](assign-roles-and-permissions-to-manage-term-sets.md). 
   
 ## Key tasks of the SharePoint admin
 <a name="BK_KeyTasks"> </a>
@@ -70,4 +70,3 @@ Here are some of the key tasks users can do when they are assigned to the ShareP
 [About Microsoft 365 admin roles](/office365/admin/add-users/about-admin-roles)
   
 [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
-
