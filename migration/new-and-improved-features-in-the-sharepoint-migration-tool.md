@@ -29,9 +29,21 @@ Download and install SPMT using one of the links listed below.
 
 | Release |**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.121.7](https://aka.ms/spmt-beta-page)|[3.4.121.6](https://aka.ms/spmt-ga-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.122.0](https://aka.ms/spmt-beta-page)|[3.4.121.7](https://aka.ms/spmt-ga-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|
 
+## SPMT 3.4.122.0
 
+**New features and important changes**
+
+|Feature|Description|
+|:-----|:-----|
+|File size|File size up to 250GB is now supported.|
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
 
 ## SPMT 3.4.121.7
 
