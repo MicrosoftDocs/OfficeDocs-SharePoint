@@ -21,7 +21,7 @@ description: "Step 1:  Connect to Egnyte"
 ---
 # Step 1:  Connect to Egynte
 
-How to create yourEgnyute app and conntect
+How to create your Egnyte app and conntect
 
 1.  Create or sign in to an Egnyte developer account.  link
 2.  Create a new application.  In Get API key and applications clikc create a new application.  or go directly to the list below.  (register)
