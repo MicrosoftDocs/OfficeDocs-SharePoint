@@ -122,31 +122,31 @@ Use this cmdlet to delete the migration session.
 
 ```powershell
 #Define SharePoint 2013 data source#
-$Global:SourceSiteUrl = "http://YourOnPremSite/"
-$Global:OnPremUserName = "Yourcomputer\administrator"
-$Global:OnPremPassword = ConvertTo-SecureString -String "OnPremPassword" -AsPlainText -Force
-$Global:SPCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $Global:OnPremUserName, $Global:OnPremPassword
-$Global:SourceListName = "SourceListName"
+$SourceSiteUrl = "http://YourOnPremSite/"
+$OnPremUserName = "Yourcomputer\administrator"
+$OnPremPassword = ConvertTo-SecureString -String "OnPremPassword" -AsPlainText -Force
+$SPCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $OnPremUserName, $OnPremPassword
+$SourceListName = "SourceListName"
 
 #Define SharePoint target#
-$Global:SPOUrl = "https://contoso.sharepoint.com"
-$Global:UserName = "admin@contoso.onmicrosoft.com"
-$Global:PassWord = ConvertTo-SecureString -String "YourSPOPassword" -AsPlainText -Force
-$Global:SPOCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $Global:UserName, $Global:PassWord
-$Global:TargetListName = "TargetListName"
+$SPOUrl = "https://contoso.sharepoint.com"
+$UserName = "admin@contoso.onmicrosoft.com"
+$PassWord = ConvertTo-SecureString -String "YourSPOPassword" -AsPlainText -Force
+$SPOCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $UserName, $PassWord
+$TargetListName = "TargetListName"
 
 #Define File Share data source#
-$Global:FileshareSource = "YourFileShareDataSource"
+$FileshareSource = "YourFileShareDataSource"
 
 #Import SPMT Migration Module#
 Import-Module Microsoft.SharePoint.MigrationTool.PowerShell
 
 #Register the SPMT session with SharePoint credentials#
-Register-SPMTMigration -SPOCredential $Global:SPOCredential -Force
+Register-SPMTMigration -SPOCredential $SPOCredential -Force
 
 #Add two tasks into the session. One is SharePoint migration task, and another is File Share migration task.#
-Add-SPMTTask -SharePointSourceCredential $Global:SPCredential -SharePointSourceSiteUrl $Global:SourceSiteUrl  -TargetSiteUrl $Global:SPOUrl -MigrateAll
-Add-SPMTTask -FileShareSource $Global:FileshareSource -TargetSiteUrl $Global:SPOUrl -TargetList $Global:TargetListName
+Add-SPMTTask -SharePointSourceCredential $SPCredential -SharePointSourceSiteUrl $SourceSiteUrl  -TargetSiteUrl $SPOUrl -MigrateAll
+Add-SPMTTask -FileShareSource $FileshareSource -TargetSiteUrl $SPOUrl -TargetList $TargetListName
 
 #Start Migration in the console. #
 Start-SPMTMigration
