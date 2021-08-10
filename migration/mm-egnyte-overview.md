@@ -29,7 +29,7 @@ Collaborate all in one place by migrating your Egnyte documents, data, and users
 
 - **Step 1:** [Connect to Egnyte](mm-egnyte-connect.md).  Sign in to your Egnyte account and add the Microsoft 365 migration app to your Egnyte app. 
 - **Step 2:** [Scan and assess](mm-egnyte-step2-scan-assess.md) Egnyte accounts are scanned automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
-- **Step 3:** [Copy to Migrations list](mm-egnyte-step3-copy-to-migrations.md) After a Egnyte account has been scanned and determined ready, add them to your migration list.
+- **Step 3:** [Copy to Migrations list](mm-egnyte-step3-copy-to-migrations.md) After an Egnyte account has been scanned and determined ready, add them to your migration list.
 - **Step 4:** [Review destination paths](mm-egnyte-step4-review-destinations.md)  We automatically map source paths to any exactly matching destination paths. Ensure content is being copied to the right place by reviewing and modifying as needed for each destination path.
 - **Step 5:** [Map identities](mm-egnyte-step5-map-identities.md)  Map your groups and users in Egnyte to an account in Microsoft 365 to migrate your Egnyte sharing settings.
 - **Step 6:** [Migrate and Monitor](mm-egnyte-step6-migrate-monitor.md) After reviewing your migration setup, migrate your Egnyte accounts and monitor the progress
