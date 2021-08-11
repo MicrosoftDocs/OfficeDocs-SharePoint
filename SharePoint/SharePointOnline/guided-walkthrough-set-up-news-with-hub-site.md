@@ -67,7 +67,7 @@ In this section, you'll walk through the process of setting up your SharePoint e
 
 In this example, the assumption is that each of the communication and team sites is already associated with a hub site (except for Corporate Communications) and there are already several news posts in the Corporate Communications site. If you need to know how to set up these types of sites, see [Set up your SharePoint hub site](https://support.microsoft.com/office/set-up-your-sharepoint-hub-site-e2daed64-658c-4462-aeaf-7d1a92eba098), [Create a communication site in SharePoint Online](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb), and [Create a team site in SharePoint](https://support.microsoft.com/office/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).
 
-## Set up your corporate communications site for official organization news
+### Set up your corporate communications site for official organization news
 
 Setting up your corporate communication site for "official" organization news allows news stories from Corporate Communications to appear with emphasis so your users know immediately that this is official company news, like in this example:
 
@@ -79,11 +79,11 @@ To enable this feature and specify the site for organization news, a SharePoint 
 
 [Set-SPOOrgNewsSite](/powershell/module/sharepoint-online/set-spoorgnewssite?view=sharepoint-ps)
 
-## Set up news on a department team site
+### Set up news on a department team site
 
 In your department team site, you'll add the News web part to the page three times. Each web part will display different news information based on news source and categories. To create the categories, add a column to the Pages library to [allow authors to tag their pages with the appropriate category](https://support.microsoft.com/office/view-edit-and-add-page-details-778018d3-8269-4fd2-a55d-8c0e5b72b938).
 
-## Create columns for categories
+### Create columns for categories
 
 1. On your department team site, select the **Pages** link in the site navigation to go to the pages library.
 2. Select **+ Add column** or the **+** to the right ot the last column name at the top of the pages.
@@ -97,7 +97,7 @@ In your department team site, you'll add the News web part to the page three tim
 
 Next, we'll add News web parts to the department team site home page to show department news, milestone news, and news from your organization's website.
 
-## Add Department news
+### Add Department news
 
 1. [Add a one-third right section](https://support.microsoft.com/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899) to the home page.
 2. In the first column, add the **News** web part, and title it “Department News.”
@@ -110,7 +110,7 @@ Next, we'll add News web parts to the department team site home page to show dep
     - **Property name**: Post type **Equals** Department News
 5. Select **Apply** to save your changes.
 
-## Add Milestone news
+### Add Milestone news
 
 1. In the same column, beneath the web part you just added, add the **News** web part again, and title it “Milestones.”
 2. Select **Edit** ![Image of the edit pencil icon](media/gw-newshub/edit-pencil.png) in the web part toolbar.
@@ -122,7 +122,7 @@ Next, we'll add News web parts to the department team site home page to show dep
     - **Property name**: Post type **Equals** Milestones
 4. Select **Apply** to save your changes.
 
-## Add Corporate news
+### Add Corporate news
 
 1. In the second (right) column, add the **News** web part again, and title it “Corporate news.”
 2. Select **Edit** ![Image of the edit pencil icon](media/gw-newshub/edit-pencil.png) in the web part toolbar.
@@ -225,17 +225,17 @@ As you think about this content, it’s important to think about relevance and i
 
 The purpose of thinking through your content is to make a note of which content needs to be surfaced in a more predominant way, a secondary way, or not at all. How you answer this question may depend on factors such as the size of your company. If you're a small company, you may decide that employee milestones should be displayed company-wide, while a larger company may only show this to employees in a particular department.
 
-## Who's doing what
+### Who's doing what
 
-### Who's authoring news content?
+#### Who's authoring news content?
 
 In some organizations, news content is created and managed by a central person or group of people, such as the Corporate Communications department. This centralized approach creates a simple approach to authoring and managing news content, ensuring that only important and relevant content is published for employees company-wide. However, this approach reduces the amount of news content typically generated because it requires the intensive time of one individual or one group of people. By opening up the publication process to others in your organization, you're empowering others to author news content. News content created by users in their own departments will be newer and more focused on their department activities, increasing the content’s relevance.
 
-### Who's approving news content?
+#### Who's approving news content?
 
 Once you allow others to create news content, it’s possible that content will be created that doesn't fit your criteria for quality content. That may include content that has spelling and grammatical errors, uses inappropriate language, or is irrelevant. You may decide to implement an approval process to ensure that content meets the criteria necessary for publication.
 
-### How will users consume news using SharePoint?
+#### How will users consume news using SharePoint?
 
 Traditionally, intranet sites were built with the assumption that users would navigate to the intranet homepage and consume news there. In this scenario, important company news would be presented on the homepage, with an additional news feed of stories that were aggregated from departmental sites. This is a “pull” scenario, where “official” content (often important and relevant to all employees) is displayed and aggregated content is “pulled” from other departmental sites. In many cases, however, users don’t navigate to the intranet homepage anymore. Users may simply navigate directly to their departmental site homepage, since that site contains most of the information they find relevant. In some cases, organizations may choose to implement a “push” scenario, where official information is “pushed” down to their departmental site and is displayed alongside news stories that were created just in their department.
 
