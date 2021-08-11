@@ -19,7 +19,7 @@ ms.collection:
 search.appverid: MET150
 description: ""Overview of how to migrate your Egnyte content using Migration Manager"" 
 ---
-# Overview: Migrate Dropbox using Migration Manager
+# Overview: Migrate Egnyte using Migration Manager
 
 Collaborate all in one place by migrating your Egnyte documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
