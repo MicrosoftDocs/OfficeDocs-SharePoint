@@ -21,7 +21,9 @@ description: "How to disconnect from Egnyte"
 ---
 # Disconnect from Egynte when using Migration Manager
 
-How to create your Egnyte app and connect
+Disconnecting Egyne from Migration requires a two step process, including deleting the application you created and disconnecting from Migration Manager.
+
+## Delete your Egnyte application
 
 1.  Create or sign in to an Egnyte developer account.  link
 2.  Create a new application.  In Get API key and applications click create a new application.  or go directly to the list below.  (register)
