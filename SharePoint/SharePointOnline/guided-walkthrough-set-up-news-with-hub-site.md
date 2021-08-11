@@ -73,11 +73,11 @@ Setting up your corporate communication site for "official" organization news al
 
 ![Image of a News web part showing news stories labeled "Corporate communications"](media/gw-newshub/nh-3.png)
 
-To enable this feature and specify the site for organization news, a SharePoint admin must use the [SharePoint Online PowerShell commands](https://docs.microsoft.com/powershell/module/sharepoint-online/?view=sharepoint-ps):
+To enable this feature and specify the site for organization news, a SharePoint admin must use the [SharePoint Online PowerShell commands](/powershell/module/sharepoint-online):
 
-[Get-SPOOrgNewsSite](/powershell/module/sharepoint-online/get-spoorgnewssite?view=sharepoint-ps)
+[Get-SPOOrgNewsSite](/powershell/module/sharepoint-online/get-spoorgnewssite)
 
-[Set-SPOOrgNewsSite](/powershell/module/sharepoint-online/set-spoorgnewssite?view=sharepoint-ps)
+[Set-SPOOrgNewsSite](/powershell/module/sharepoint-online/set-spoorgnewssite)
 
 ### Set up news on a department team site
 
