@@ -29,6 +29,10 @@ Learn how to keep everyone informed and engaged using SharePoint, Microsoft Team
 - Understand access, technical, and license requirements before getting started
 - Learn how to launch, manage, and maintain corporate communications over time
 
+>[!NOTE]
+>**Viva Connections is not available for enterprise customers yet.** Viva Connections is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules that will be come available to all customers at the end of the summer in 2021.
+
+
 
 ## Overview of set-up
 Start by learning what Microsoft 365 tools can help for your specific scenario and how to scope your audience. Then get started planning by learning how to create, launch, measure, and maintain a one-time communication or communications over time.
@@ -106,7 +110,7 @@ Give end users a head start by helping them use and engage using popular M365 co
 
 <br>
 
-* **Viva Connections is not available for enterprise customers yet.** Viva Connections is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules that will be come available to all customers at the end of the summer in 2021.  
+** **Viva Connections is not available for enterprise customers yet.** Viva Connections is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules that will be come available to all customers at the end of the summer in 2021.  
 
 <br>
 
