@@ -30,7 +30,10 @@ Review common scenarios to get familiar with the different types of organization
 
 
 ### Scenario A: Use Viva Connections as a gateway to employee experiences
-<image>
+
+>[!NOTE]
+>**Viva Connections is not available for enterprise customers yet.** Viva Connections is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules that will be come available to all customers at the end of the summer in 2021.
+
 You need to engage, inform, and connect thousands of frontline workers while in the field on a mobile device. The goal is to streamline and target experiences from across SharePoint, Microsoft Teams, Yammer, and Stream into one curated and branded employee experience. Your organization currently uses SharePoint news posts to share essential and time-sensitive information and event recordings that need to reach frontline workers. Additionally, building community and culture among the organizational is a priority and you want to make sure workers in the field can easily engage and participate in social channels. Some tools, resources, conversations, and news are more important to specific audiences and need to be highlighted in the mobile experience. The outcome will allow frontline workers to feel connected and informed while providing easy access to common tasks and tools all in one place. 
 
 
