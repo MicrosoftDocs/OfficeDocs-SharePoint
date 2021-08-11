@@ -63,18 +63,18 @@ Some communication solutions are a one-time event while others may have several 
 ## Overview of corporate communication solutions:
 Learn how to plan your communication strategy by reviewing common communication scenarios, solutions, and outcomes. Next, review how Microsoft 365 tools and apps can engage and inform the audiences you want to reach. Then determine which communication scenario meets your communication goals and get started planning, launching, and maintaining your communication solution. 
 <br>
-<br>
 
-| Icon                  | Scenario                | Solution details          |
-| :------------------- | -------------------: |:---------------:|
-| ![Image of a check list icon](media/task-check.png) | **Plan your strategy** | Review common communication scenarios <br> Learn about tools and solutions <br> Scope your audience and determine your specific scenario |
-| ![Image of two people talking icon](media/chat-room.png)  | **Use Viva Connections**    | Create employee experiences that connect your organization <br> Provide an easy way to catch up on news <br> Create a branded company app within Microsoft Teams |
-| ![Image of a house icon](media/icon-build-home.png)  | **Get a home site for your intranet**    |Take the first step in getting ready for Viva Connections <br> Schedule and launch a healthy portal <br> Set up global navigation in the SharePoint app bar  |
-| ![Image of a mega phone icon](media/icon-launch-engage.png) | **Plan and produce a town hall**  |Bring your organization together for a live or prerecorded event <br> Record, share, and keep the conversation going <br> Measure engagement and expand reach using news  |
-| ![Image of a newspaper icon](media/icon-news.png) | **Distribute organizational news**  | Share organization news and announcements across your company  <br> Create an organizational news site, news posts, and use the News web part <br> Measure engagement and expand reach using Viva Connections |
-| ![Image of a networking icon](media/icon-launch-add.png)|  **Leadership connection**   | Create communication channels and networking opportunities <br> Create engaging experiences in Yammer and live events <br> Expand reach using Viva Connections |
+
+| Icon                 | Scenario             | Solution details|
+| :------------------: | :------------------- |:----------------|
+|![Image of a check list icon](media/task-check.png) | **Plan your strategy** | Review common communication scenarios <br> Learn about tools and solutions <br> Scope your audience and determine your specific scenario |
+|![Image of two people talking icon](media/chat-room.png)  | **Use Viva Connections**    | Create employee experiences that connect your organization <br> Provide an easy way to catch up on news <br> Create a branded company app within Microsoft Teams |
+|![Image of a house icon](media/icon-build-home.png)  | **Get a home site for your intranet**    |Take the first step in getting ready for Viva Connections <br> Schedule and launch a healthy portal <br> Set up global navigation in the SharePoint app bar  |
+|![Image of a mega phone icon](media/icon-launch-engage.png) | **Plan and produce a town hall**  |Bring your organization together for a live or prerecorded event <br> Record, share, and keep the conversation going <br> Measure engagement and expand reach using news  |
+|![Image of a newspaper icon](media/icon-news.png) | **Distribute organizational news**  | Share organization news and announcements across your company  <br> Create an organizational news site, news posts, and use the News web part <br> Measure engagement and expand reach using Viva Connections |
+|![Image of a networking icon](media/icon-launch-add.png)|  **Leadership connection**   | Create communication channels and networking opportunities <br> Create engaging experiences in Yammer and live events <br> Expand reach using Viva Connections |
 |![Image of a location symbol icon](media/icon-build-global.png) | **New employee onboarding** |Create an end-to-end experience to onboard new employees <br> Create a home base to welcome new employees using, share resource, and provide support <br>  Expand reach using Viva Connections |
-<br>
+
 
 ### End user guidance and support
 Give end users a head start by helping them use and engage using popular M365 communication apps.
