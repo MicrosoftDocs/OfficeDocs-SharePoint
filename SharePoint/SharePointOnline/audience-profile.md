@@ -22,28 +22,34 @@ Learn about the needs and preferences of your audience before you get started pl
 
 ### Best practices when scoping audience:
 
-- **Estimate the size of your audience** - Know the general size of your target audience so that you can choose the right tools and methods to reach them. For example, some live event options have a maximum capacity of 25,000 people.
-- **Understand where your audience usually gets information** - It's best to meet users in apps they are already using to get work done. For example, if your audience is frontline workers who generally use Microsoft Teams, you'll want to make sure your communication will be shared and can be viewed in Teams. 
-- **Learn more about how your target audience typically communicates** - Some audiences will not be able to attend a live event or watch an event recording so alternative communication methods will be needed. For example, if your audience is remote workers who primarily get news in SharePoint, you may decide to only post news in SharePoint and then promote news in Yammer and Teams for the rest of the organization. 
-- **Target specific audiences using Microsoft 365 groups** - Organize your audience into Microsoft 365 groups. Users are likely to be in more than one group. This will make it much easier to send email messages and use tools like audience targeting in SharePoint. 
+- **Estimate the size of your audience** <br> Know the general size of your target audience so that you can choose the right tools and methods to reach them. For example, some live event options have a maximum capacity of 25,000 people.
+- **Understand where your audience usually gets information** <br> It's best to meet users in apps they are already using to get work done. For example, if your audience is frontline workers who generally use Microsoft Teams, you'll want to make sure your communication will be shared and can be viewed in Teams. 
+- **Learn more about how your target audience typically communicates** <br> Some audiences will not be able to attend a live event or watch an event recording so alternative communication methods will be needed. For example, if your audience is remote workers who primarily get news in SharePoint, you may decide to only post news in SharePoint and then promote news in Yammer and Teams for the rest of the organization. 
+- **Target specific audiences using Microsoft 365 groups** <br> Organize your audience into Microsoft 365 groups. Users are likely to be in more than one group. This will make it much easier to send email messages and use tools like audience targeting in SharePoint. 
 
 
 
 ## Start by understanding your audience's work environment and device preferences
-Audience size will help you narrow down potential communication solution(s) in combination with considerations for how, when, and where your audience gets work done. Corporate communications should aim to meet workers where they are and make it easy to engage and participate.
+Audience size will help you narrow down potential communication solution(s) in combination with considerations for how, when, and where your audience gets work done. Corporate communications should aim to meet workers where they are and make it easy to engage and participate. Keep in mind that a given individual in your organization may be in more than one group. 
 <br>
 
 
 #### Frontline workers
-Frontline workers are team members who do not sit at a desk for most of their work. This audience includes healthcare workers, retail personal, sales teams, and support teams. 
+Frontline workers are team members who do not sit at a desk or in front of a desktop computer for most of their work. This audience includes healthcare workers, factory workers, retail personal, sales teams, and support teams. 
 - This audience is likely using their mobile device most of the time to get work done
 - Communications need to be concise, easy to access, and visually engaging
 - It is unlikely that this audience will be able to attend an event all at once, therefore you should plan to record and share the event in a news post or email
 - Consider using Viva Connections to create an engaging communication experience that helps organizations stay connected
 <br>
 
+#### In-office workers
+In-office workers typically sit at a desk and use a computer for most their work in a traditional office setting. In-office workers may not work in the office everyday, and may even work in more than one office. 
+- This audience is likely to use a desktop device most of the time but may take certain meetings on a mobile device
+- This is the only audience that could attend an in-person event but schedules will vary
+
+
 #### Remote audiences
-Remote audiences do not work in a centralized office location and may even work from their home. This audience includes gig workers, agencies, consultants, and jobs that take place at a desk or computer.
+Remote audiences do not work in a centralized office location and may even work from their home. This audience includes full-time employees and vendor and contract workers like gig workers, agencies, consultants, and other roles where most work takes place at a desk or in front of a computer.
 
 - This audience uses a combination of devices but primary uses a desktop device
 - Remote audiences are good candidates for live events, moderated Q&A, and live chats in Yammer or Microsoft Teams since most people can participate together
@@ -51,7 +57,7 @@ Remote audiences do not work in a centralized office location and may even work 
 <br>
 
 #### Hybrid audiences
-Hybrid audiences are a blend of audiences. Common blends are remote workers and in-office workers and in-office workers and frontline workers. Some organizations may have frontline workers, in-office workers, and remote workers. In some scenarios, you may be trying to reach a similar audience, but they work in different time zones or locations, which also make them a hybrid audience.
+Most organizations consist of various audiences, and plan communication for a hybrid audience. Hybrid audiences are a blend of audiences. Common blends are remote workers and in-office workers and in-office workers and frontline workers. Some organizations may have frontline workers, in-office workers, and remote workers. In some scenarios, you may be trying to reach a similar audience, but they work in different time zones or locations, which also make them a hybrid audience.
 
 - Hybrid communication needs to be especially inclusive to accommodate other working schedules, access to internet, languages, and time zones
 - Consider using more than one channel or communication method to reach team members with different working styles
@@ -69,7 +75,7 @@ Understanding the size of your audience will help you narrow down what Microsoft
 | Specific teams, roles, regions, departments, and projects  | 300 to 20,000  | Send an email <br> Publish SharePoint news <br> Post in a Teams channel <br> Schedule a Teams meeting <br> Post in a Yammer community <br> Host a Teams live event <br> Host a Yammer live event| 
 | Entire departments or regions    |5,000 to 20,000              | *All of the above, in addition to:* <br><br> Stream channel or live event in Stream |
 | **All employees**            | Up to 25,000                  | *All of the above*  |
-|   | 25,000 to 100,000  | <br> M365 live events* <br> Publish SharePoint news <br> Send an email <br> *Live events with up to 100,000 attendees can be planned through the [Microsoft 365 live events assistance program](https://resources.techcommunity.microsoft.com/live-events/assistance/) |
+|   | 25,000 to 100,000  | <br> Microsoft 365 live events* <br> Publish SharePoint news <br> Send an email <br> *Live events with up to 100,000 attendees can be planned through the [Microsoft 365 live events assistance program](https://resources.techcommunity.microsoft.com/live-events/assistance/) |
 
 
 
@@ -87,7 +93,7 @@ Accessibility is important for all organizations, and especially corporate commu
 - Get ready to [build an accessible SharePoint site](https://support.microsoft.com/office/get-ready-build-an-accessible-sharepoint-site-3a1df3ad-f093-450c-85a6-b3bf70fd6abb)
 
 #### Multilingual options
-Part of ensuring content is accessible is knowing when content should be available in more than one language. This is especially important for communications that cross more than one region and country. 
+Part of ensuring content is accessible is knowing when content should be available in more than one language. This is especially important for communications that cover more than one region and country. 
 <br>
 
 - Learn more about how to [create SharePoint communication sites, pages, and news posts in more than one language](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c) 
