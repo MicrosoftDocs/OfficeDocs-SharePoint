@@ -34,30 +34,42 @@ Review common scenarios to get familiar with the different types of organization
 >[!NOTE]
 >**Viva Connections is not available for enterprise customers yet.** Viva Connections is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules that will be come available to all customers at the end of the summer in 2021.
 
-You need to engage, inform, and connect thousands of frontline workers while in the field on a mobile device. The goal is to streamline and target experiences from across SharePoint, Microsoft Teams, Yammer, and Stream into one curated and branded employee experience. Your organization currently uses SharePoint news posts to share essential and time-sensitive information and event recordings that need to reach frontline workers. Additionally, building community and culture among the organizational is a priority and you want to make sure workers in the field can easily engage and participate in social channels. Some tools, resources, conversations, and news are more important to specific audiences and need to be highlighted in the mobile experience. The outcome will allow frontline workers to feel connected and informed while providing easy access to common tasks and tools all in one place. 
+**Goals:** You need to engage, inform, and connect thousands of frontline workers while in the field on a mobile device. The goal is to streamline and target experiences from across SharePoint, Microsoft Teams, Yammer, and Stream into one curated and branded employee experience. 
+**Considerations:** Your organization currently uses SharePoint news posts to share essential and time-sensitive information and event recordings that need to reach frontline workers. Additionally, building community and culture among the organizational is a priority and you want to make sure workers in the field can easily engage and participate in social channels. Some tools, resources, conversations, and news are more important to specific audiences and need to be highlighted in the mobile experience. 
+**Outcome:** The outcome will allow frontline workers to feel connected and informed while providing easy access to common tasks and tools all in one place. 
 
 
 ### Scenario B: Plan, create, and launch a home site in SharePoint
-<image>
-You need to create a landing place in your organization’s internal networking of sites – also called an intranet. The goal is to create a gateway to the intranet to help everyone at your organization get easily orientated to the tools, resources, and news available to them. The same resources and functionality need to be available on a mobile device. Your organization has many offices in more than one country, so this landing destination needs to be available in more than one language. Additionally, some portals, news, and resources will be more relevant to certain regions and departments and should be highlighted to groups of viewers. The outcome of the landing experience allows all employees to easily catch up on organizational news, access popular resources, and find help and support.
+
+**Goals:** You need to create a landing place in your organization’s internal networking of sites – also called an intranet. The goal is to create a gateway to the intranet to help everyone at your organization get easily orientated to the tools, resources, and news available to them. 
+**Considerations:** The same resources and functionality need to be available on a mobile device. Your organization has many offices in more than one country, so this landing destination needs to be available in more than one language. Additionally, some portals, news, and resources will be more relevant to certain regions and departments and should be highlighted to groups of viewers. 
+**Outcome:** The outcome of the landing experience allows all employees to easily catch up on organizational news, access popular resources, and find help and support.
 
 
 ### Scenario C: Plan and produce a town hall for your organization
-<image>
-You want to host a live or pre-recorded event in the form of a town hall event for a large sales and support department of more than 1,000 people. The goal of the town hall is to update everyone on the state of the business and announce new products. The typical employee talks to customers regularly, and needs be up to date on all offerings. Both sales and support employees need technical information and specifications to share with customers, but support agents tend to want more in-depth information to help resolve customer issues. Both audiences like to ask questions--and get answers--during these types of events. The outcome of this scenario is a large region or division of an organization engages with new information, resources, messages, and direction during a live event that’s recorded and can be viewed later.
+
+**Goals:** You want to host a live or pre-recorded event in the form of a town hall event for a large sales and support department of more than 1,000 people. The goal of the town hall is to update everyone on the state of the business and announce new products. 
+**Considerations:** The typical employee talks to customers regularly, and needs be up to date on all offerings. Both sales and support employees need technical information and specifications to share with customers, but support agents tend to want more in-depth information to help resolve customer issues. Both audiences like to ask questions--and get answers--during these types of events. 
+**Outcome:** The outcome of this scenario is a large region or division of an organization engages with new information, resources, messages, and direction during a live event that’s recorded and can be viewed later.
 
 ### Scenario D: Distribute organizational news for your organization
-<image>
-You need to share news that engage and inform all employees in your organization using more than one distribution method. The goal is to keep everyone at the organization up to date on initiatives, programs, events, and training opportunities. You need to reach remote workers, frontline workers, and people in offices in more than one region. Also, most news will need to be in more than one language. The outcome will allow for relevant news to show up to the right audience on devices and in apps that are already being used in the flow of work.
+
+**Goals:** You need to share news that engage and inform all employees in your organization using more than one distribution method. The goal is to keep everyone at the organization up to date on initiatives, programs, events, and training opportunities. 
+**Considerations:** You need to reach remote workers, frontline workers, and people in offices in more than one region. Also, most news will need to be in more than one language. 
+**Outcome:** The outcome will allow for relevant news to show up to the right audience on devices and in apps that are already being used in the flow of work.
 
 
 ### Scenario E: Connect leadership and teams across the organization
-<image>
-You need to find a way to connect leadership teams with the rest of the organization. The goal is to provide consistent and ongoing communication and connection from your top leadership representatives. The audience is extremely broad and involves multiple disciplines doing various jobs from all types of devices - both remotely and in the office. They might also span multiple geographical regions and time zones. The outcome will be a sustainable communications channel that connects people and provides learning opportunities beyond typical leadership announcements.
+
+**Goals:** You need to find a way to connect leadership teams with the rest of the organization. The goal is to provide consistent and ongoing communication and connection from your top leadership representatives. 
+**Considerations:** The audience is broad and involves multiple disciplines doing various jobs from all types of devices - both remotely and in the office. They might also span multiple geographical regions and time zones. 
+**Outcome:** The outcome will be a sustainable communications channel that connects people and provides learning opportunities beyond typical leadership announcements.
 
 ### Scenario F: Plan, build, and maintain a new employee onboarding program
-<image>
-You need to develop a scalable method of welcoming and orienting new employees. The goal is to help new employees get set up with onboarding paperwork, acquiring work devices, tools, and help understanding company policies and benefits. Twice a month this organization welcomes anywhere from 25 to 100 new hires across many offices in different countries. During the event, participants can ask questions, get answers, and meet other people in their new organization. Information shared at the event will also need to be organized in one central place so afterwards new employees can access resources as needed. The outcome makes new employees feel welcome and understand who and where to go to for help and more information.
+
+**Goals:** You need to develop a scalable method of welcoming and orienting new employees. The goal is to help new employees get set up with onboarding paperwork, acquiring work devices, tools, and help understanding company policies and benefits. 
+**Considerations:** Twice a month this organization welcomes anywhere from 25 to 100 new hires across many offices in different countries. During the event, participants can ask questions, get answers, and meet other people in their new organization. Information shared at the event will also need to be organized in one central place so afterwards new employees can access resources as needed. 
+**Outcome:** The outcome makes new employees feel welcome and understand who and where to go to for help and more information.
 
 
 
