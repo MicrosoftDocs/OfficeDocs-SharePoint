@@ -79,7 +79,7 @@ Understanding the size of your audience will help you narrow down what Microsoft
 
 
 
-### Audience size considerations
+### Considerations for large audiences
 Learn more about considerations as you scope your audience size. Small audiences are straight forward and relatively low risk when it comes to data protection and content durability. As your audience size grows, so do the risks and considerations like accessibility, multilingual options, and data security.
 
 #### Accessibility
