@@ -21,7 +21,7 @@ search.appverid:
 
 # Information barriers compliance assistant (preview)
 
-This article explains how you can enable the information barrier compliance assistant for group-connected SharePoint sites that do not have an associated team in Microsoft Teams. When information barriers policies are configured and the information barrier compliance assistant is enabled, users are automatically removed from these groups. This configuration may help ensure your organization remains compliant with standards, policies, and compliance regulations.
+This article explains how you can enable the information barrier compliance assistant for group-connected SharePoint sites. These are sites that don't have an associated team in Microsoft Teams. When the information barrier compliance assistant is enabled, users who don't match the segments specified on this site are automatically removed to ensure group membership honors configured information barrier policies. This configuration may help ensure your organization remains compliant with standards, policies, and compliance regulations.
 
 ## Prerequisites
 
