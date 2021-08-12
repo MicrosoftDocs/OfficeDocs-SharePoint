@@ -46,7 +46,7 @@ SharePoint includes an updated set of default site themes that are responsive an
 When you brand a [SharePoint hub site](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f), you can set it so the site branding is applied to any sites that [associate with it](https://support.office.com/article/ae0009fd-af04-4d3d-917d-88edb43efc05). This includes any site theme or site design used by the hub site. This allows you to apply common navigation and branding across a set of sites and use accent colors to emphasize elements that need to stand out.
 
 > [!NOTE]
-> Custom themes in SharePoint *will not* automatically apply to group-connected team sites that are associated to a hub that has a custom theme applied. For group-connected team sites, you need to manually apply the custom theme. 
+> Custom themes and logos in SharePoint *will not* automatically apply to group-connected team sites that are associated to a hub that has a custom theme applied. For group-connected team sites, you need to manually apply the custom theme or logo.
 
 ## Classic experience vs. modern experience
 
