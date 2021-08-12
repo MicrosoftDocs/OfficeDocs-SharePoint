@@ -31,7 +31,7 @@ description: "Step 1:  Connect to Egnyte"
 
 ## Create your Egnyte app
 
-To connect to Egnyte in Migration, you first need to create an application using an Egnyte developer account. This will generate a pair of keys that you will use to connect to Migration Manager.
+Create an Egnyte Connect API application.  This will generate a pair of keys that you will use to connect to Migration Manager.
 
 1. Sign in to your Egnyte developer account. 
 2. From the developers page, select **Get API Key** > **Create a new application**.
