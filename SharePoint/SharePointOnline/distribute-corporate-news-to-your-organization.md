@@ -31,7 +31,7 @@ The data in the following table describes the locations to which news is distrib
 |SharePoint mobile app     | News will display in the news section        |
 |SharePoint start page     |    Automatically displayed in the **News from sites** section, based on relevance to user    |
 |SharePoint communication sites, team sites, and hub sites     |    Displays on a page in the site when the News web part is used    |
-|Email in Outlook     |    Send a news digest in Outlook from a news post in SharePoint     |
+|Email in Outlook     |    News digest is automatically sent    |
 |Viva Connections for desktop     |   Displays news using the News web part on the home site      |
 |Viva Connections for mobile*    |   Displays in the **mobile app Feed** section based on the relevance to the user      |
 |Viva Connections dashboard*   |  Add one or more cards that highlight news from the organization or different departments. Decide your audiences and where and when you want to share the news.    |
@@ -39,6 +39,8 @@ The data in the following table describes the locations to which news is distrib
 **Coming later in 2021**.
 
 ## Steps to distribute organization news
+
+![image showing steps to distribute organization news](OrgNewsStepsGraphic.png)
 
 To distribute news across your organization, perform the following steps:
 
