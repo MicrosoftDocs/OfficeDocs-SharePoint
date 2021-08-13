@@ -171,7 +171,7 @@ Before you begin this procedure, make sure you have the following:
   
 6. In the **Service Address** box, enter the URL of the OData service endpoint that you created. 
     
-7. For this scenario, select the **Use credentials stored in Sharepoint on-premises** as the authentication option, and then enter the name of target application ID that holds the group to account mapping. In this scenario, it is **ODataApp** that you created. 
+7. For this scenario, select the **Use credentials stored in SharePoint on-premises** as the authentication option, and then enter the name of target application ID that holds the group to account mapping. In this scenario, it is **ODataApp** that you created. 
     
 8. In the **Authentication Mode** dropdown, select **Impersonate Window's Identity**.
     

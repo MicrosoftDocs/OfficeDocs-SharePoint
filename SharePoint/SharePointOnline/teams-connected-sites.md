@@ -24,7 +24,7 @@ description: "Learn how to manage Teams connected sites."
 
 # Manage Teams connected sites and channel sites
   
-In this article, learn more about how to identify, manage, and navigate between teams and channels in Microsoft Teams and SharePoint Teams connected sites and channel sites. SharePoint team sites get automatically created when new Teams and private channels are created because SharePoint is the service that helps manage, store, and organize files and folders that are shared and stored in Microsoft Teams.
+In this article, learn more about how to identify, manage, and navigate between teams and channels in Microsoft Teams and SharePoint Teams connected sites and channel sites. SharePoint team sites get automatically created when new Teams and private channels are created because SharePoint is the service that helps manage, store, and organize files and folders that are shared and uploaded in Microsoft Teams.
 
 ### What are Teams connected sites and channel sites?
 Today, Teams connected team sites and channel sites are created whenever a new Microsoft Team or private channel within a team is created. When you create a team in Microsoft Teams, a Microsoft 365 connected team site in SharePoint gets automatically created. This site is referred to as a *Teams connected team site*. This team site contains folders for each standard channel created from Microsoft Teams. This primary Teams connected team site is also known as the *parent team connected site*.

@@ -19,12 +19,7 @@ ms.collection:
 search.appverid: MET150
 description: Review your destination paths for your Google migration while using Migration Manager.
 ---
-# Step 4: Review destination paths in Migration Manager Google (preview)
-
->[!Note]
-> Features described in this topic are in a preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
-
-
+# Step 4: Review destination paths in Migration Manager Google
 
 In this step, review the destination paths of the accounts you have moved to the migrations list, making sure they are correct. An account cannot be migrated without a destination indicated. Once you start migrating content to a destination, it cannot be modified.
 
@@ -91,10 +86,10 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
 >Review your destination CSV file before you upload it to make sure you have entered the values in correctly.  The destination file is not validated, and once you have migrated to these destinations it cannot be undone.
 
 
-[**Step 5: Map identities**](mm-box-step5-map-identities.md)
+[**Step 5: Map identities**](mm-google-step5-map-identities.md)
 
 
 >[!NOTE]
->Migration Manager Google Workspace preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Google Workspace isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

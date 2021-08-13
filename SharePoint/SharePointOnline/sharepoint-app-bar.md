@@ -39,9 +39,9 @@ The SharePoint app bar brings together intranet resources and personalized conte
 > -	Specific SharePoint app bar tabs cannot be disabled. 
 > -	The SharePoint app bar cannot be disabled on specific sites. 
 > -	The SharePoint app bar is not available on classic SharePoint sites today, however soon administrators will be able to add it to classic sites manually. 
-> -	The SharePoint app bar may impact current page customizations specifically those that appear on the left side. 
+> -	The SharePoint app bar may impact current page customizations, specifically those that appear on the left side. 
 > -	Personalized content in the SharePoint app bar is enabled by Microsoft Graph.
-> - The SharePoint app bar will not display in SharePoint for external or guests users outside of your organization.
+> - The SharePoint app bar will not display in SharePoint for external or guest users outside of your organization.
 > -	When Microsoft Graph is disabled, the news and sites experience will be degraded.
 > -	The SharePoint app bar can be temporarily disabled between today and when it becomes available to all customers to give customers more time to prepare for this change. Temporarily disabling the app bar will delay the rollout of this feature in your organization until October 31, 2021.
 > - Global navigation in the SharePoint app bar must be enabled in order for SharePoint resources to display in the [Microsoft Teams app bar for Viva Connections](viva-connections.md).
@@ -117,7 +117,7 @@ If you haven’t set up your [home site](./home-site.md), do that first and if y
 - Select the Hub or global navigation source to display the home site’s hub navigation.
 
   > [!NOTE] 
-  > When you apply the extended header layout to the site, you will no longer see the hub navigation.
+  > When you apply the extended header layout to the site, you will no longer see the site navigation.
 
 #### For home sites that are not a hub, you have two source options:
 
@@ -175,7 +175,7 @@ A [home site](./home-site.md) is a SharePoint communication site that you create
 
 ### Set up a home site just for global navigation
 
-If you are creating a [home site](./home-site.md) for the main purpose of setting up global navigation, you can simplify the steps recommended to plan and launch a home site. Learn more about planning navigation in SharePoint and apply information architecture principals to your new home site’s navigational design. 
+If you are creating a [home site](./home-site.md) for the main purpose of setting up global navigation, you can simplify the steps recommended to plan and launch a home site. Learn more about planning navigation in SharePoint and apply information architecture principles to your new home site’s navigational design. 
 
 >[!NOTE]
 > -	Only one communication site can be set as the home site.
