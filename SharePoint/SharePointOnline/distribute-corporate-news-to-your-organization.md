@@ -1,8 +1,8 @@
 ---
 title: "Distribute corporate news to your organization"
-ms.author: v-smandalika
-author: v-smandalika
-manager: dansimp
+ms.author: loreenl
+author: loreenl
+manager: pamgr
 recommendations: true
 audience: Admin
 f1.keywords:
