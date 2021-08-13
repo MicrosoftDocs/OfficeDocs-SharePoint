@@ -88,7 +88,7 @@ In your department team site, you'll add the News web part to the page three tim
 1. On your department team site, select the **Pages** link in the site navigation to go to the pages library.
 2. Select **+ Add column** or the **+** to the right ot the last column name at the top of the pages.
 
-![Image of the Create a column pane](media/gw-newshub/nh-4.png)
+    ![Image of the Create a column pane](media/gw-newshub/nh-4.png)
 
 3. In the **Name** field, enter the name **Post Type**.
 4. In the dropdown menu, choose **Choice** as the type of column.
