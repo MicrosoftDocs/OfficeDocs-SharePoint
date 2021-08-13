@@ -27,9 +27,7 @@ description: "Learn how to prepare the on-premises account and security group to
   
 This example of the Microsoft Business Connectivity Services (BCS) hybrid scenario shows you how to use standard Windows domain security to control access to the on-premises OData service endpoint. You configure one domain account with which to access the OData service endpoint, and one global security group for your federated user accounts. Then, you map the group to the account by using a Secure Store Service target application.
   
-## 
-
- **To prepare on-premises security for the BCS hybrid scenario**
+**To prepare on-premises security for the BCS hybrid scenario**
   
 1. Identify all the user accounts in your on-premises domain that need to use the BCS hybrid solution and make sure that they are federated accounts. You will add these accounts to a domain global security group later in this procedure.
     
@@ -41,11 +39,11 @@ This example of the Microsoft Business Connectivity Services (BCS) hybrid scenar
     
 ## Create and configure a Secure Store target application
 
- In this procedure, you link the **ODataGroup** to the **ODataAccount** by using a Secure Store target application. This way, users in the **ODataGroup** access the OData service endpoint through only one account, the **ODataAccount**.
+In this procedure, you link the **ODataGroup** to the **ODataAccount** by using a Secure Store target application. This way, users in the **ODataGroup** access the OData service endpoint through only one account, the **ODataAccount**.
   
 In this procedure, you create and configure the on-premises Secure Store target application named **ODataApp** for the BCS hybrid scenario. (You can choose a different name if you want.) 
   
- **To create a target application**
+**To create a target application**
   
 1. On the Central Administration home page, in the **Application Management** section, select **Manage service applications**.
     
@@ -69,7 +67,7 @@ In this procedure, you create and configure the on-premises Secure Store target 
     
 Next, we need to add the credentials that we'll be using.
   
- **To set credentials for a target application**
+**To set credentials for a target application**
   
 1. In the target application list, point at the target application that you just created, select the arrow that appears, and then, in the menu, select **Set credentials**.
     
@@ -91,7 +89,7 @@ To create and configure the OData service endpoint, perform the procedures in [H
 
 The BCS hybrid scenario publishes on-premises data to select users of SharePoint in Microsoft 365. You can present the data either through a SharePoint in Microsoft 365 external list or through an app for SharePoint in Microsoft 365. In either case, you must identify or create a site in SharePoint in Microsoft 365 through which the data will be offered. If you choose to use an app for SharePoint in Microsoft 365, you must also have a SharePoint in Microsoft 365 App Catalog configured.
   
- **To prepare the SharePoint in Microsoft 365 site and App Catalog**
+**To prepare the SharePoint in Microsoft 365 site and App Catalog**
   
 1. Identify or [create a site](https://go.microsoft.com/fwlink/?LinkId=288864) in SharePoint in Microsoft 365 for your external list or app for SharePoint in Microsoft 365. Ensure that all the federated users who will be using the BCS hybrid solution are added to the **Members** group for access to the site. (The easiest way to do this is to add your ODataGroup as a Member.) 
     
@@ -104,7 +102,7 @@ The BCS hybrid scenario publishes on-premises data to select users of SharePoint
 
 The Business Data Connectivity service (BDC) Metadata Store holds external content types, external systems, and BDC model definitions for the BDC Service Application. In this procedure, you configure administrative permissions on the Metadata Store and everything that it will contain. Later in this scenario, if you are using the manual import of the external content type method, you will be using the BDC Metadata Store. This external content type will be available across SharePoint in Microsoft 365. If you will only be using the automated deployment of an app for SharePoint in Microsoft 365, then you will not use the BDC Metadata Store, and the external content type is scoped to the app only.
   
- **To set permissions on the BDC Metadata Store in SharePoint in Microsoft 365**
+**To set permissions on the BDC Metadata Store in SharePoint in Microsoft 365**
   
 1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
 
@@ -132,7 +130,7 @@ Before you begin this procedure, make sure you have the following:
     
 - The credentials of a federated account.
     
- **To confirm access to external URL**
+**To confirm access to external URL**
   
 1. Copy the certificate to your extranet computer, and then click the certificate. You will be prompted for the certificate password. This adds the certificate to your personal certificate store.
     
@@ -154,7 +152,7 @@ Before you begin this procedure, make sure you have the following:
     
 - The ID of the Secure Store target application for the Secure Channel certificate in Microsoft 365.
     
- **To configure the connection settings object for the BCS hybrid scenario**
+**To configure the connection settings object for the BCS hybrid scenario**
   
 1. go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
 
