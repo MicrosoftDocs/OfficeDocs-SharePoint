@@ -40,7 +40,7 @@ The data in the following table describes the locations to which news is distrib
 
 ## Steps to distribute organization news
 
-![image showing steps to distribute organization news](org-news-steps.png)
+![image showing steps to distribute organization news](media/org-news-steps.png)
 
 To distribute news across your organization, perform the following steps:
 
