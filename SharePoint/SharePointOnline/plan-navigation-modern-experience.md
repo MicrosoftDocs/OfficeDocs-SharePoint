@@ -76,7 +76,7 @@ Planning site and page navigation involves thinking about:
 
 Navigation should always be planned from the perspective of the user of information – the viewers to your site. Planning effective navigation involves considering not just the information you want to *present*, but also thinking about the information your viewers want or need to *consume*. 
 
-Therefore, organizing and labeling your navigation links is critical for the purposes of usability and findability. If 70% of viewers come to your sites expecting to browse for information, the usability of your site depends on creating a great browsing experience. To learn more, see [Information architecture principals in SharePoint](information-architecture-principles.md)
+Therefore, organizing and labeling your navigation links is critical for the purposes of usability and findability. If 70% of viewers come to your sites expecting to browse for information, the usability of your site depends on creating a great browsing experience. To learn more, see [Information architecture principles in SharePoint](information-architecture-principles.md)
 
 ### Organizing
 
