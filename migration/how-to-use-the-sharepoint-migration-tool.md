@@ -112,7 +112,7 @@ Before you start using the SharePoint Migration Tool (SPMT), note where your dat
 
 To install the current release download, go to: [SharePoint Migration Tool](https://spmt.sharepointonline.com/install/default.htm)
   
- **Migrating data files from SharePoint Server document libraries**
+### Migrating content from SharePoint Server document libraries
   
 1. Start SPMT, and then enter your Microsoft 365 username and password.
     
@@ -139,32 +139,26 @@ To install the current release download, go to: [SharePoint Migration Tool](http
     
 9. Select **Add**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
     
- **Migrating data files from a local file share**
+### Migrating sites from SharePoint Server
 
-1. Start SPMT, and then enter your Microsoft 365 username and password.
-    
-2. Select **Start your first migration**.
-    
-3. Select **File Share.**
-    
-4. Enter the source path of the file share where your content is located, and then select **Next**.
-    
-5. Enter the URL of the SharePoint site where you want your files migrated, and then select **Next**.
-    
-    > [!NOTE]
-    > If you have already signed in to that site once while using this tool, you won't be prompted again for the same site. 
-  
-6. Select the document library to where your files will be copied, and then select **Next**.
+1.	Start SPMT, and then enter your Microsoft 365 username and password.
+2.	Select Start your first migration.
+3.	Select SharePoint Server.
+4.	Enter the SharePoint Server site URL where your content is located, and then select Next.
+5.	Enter your username and password to the SharePoint Server site; username must use the format of someone@example.com. Select Sign in.
+6.	Check the “include all subsites” checkbox to include all subsites in the migration. Leave “Migrate all lists, libraries, pages and web parts” option in the “Content you want to migrate” dropdown.
+7.	Enter the URL of the SharePoint site where you want your files migrated. 
+8.	Select **Keep the classic site structure** to keep your current source site structure, or **Switch to modern site structure** to change your site structure during migration. 
+9.	If you choose to Switch to modern site structure, your first-level subsites will be promoted to modern sites.  Select one of the following:
+  - Do not associate with a hub
+  - Register the destination site as a new hub site and associate it to migrated sites
+  - Associate an existing hub to migrated sites
+10.	Review and edit destination URL for each subsite in Review hub and associated sites page
+11.	Select Next. The tasks are added to the list. If you want to select another set of data files to migrate, select Add a source.
 
-7. This task is added to the list. If you want to select another set of data files to migrate, select **Add another source**.
-    
-8. When you have finished selecting your sources, select **Next**.
-
-9. Review your settings, and then select **Migrate**.
-  </br></br>  
 
  
- **To use a JSON or CSV file for bulk migration**
+### Using a JSON or CSV file for bulk migration
 
 If you have many sources to migrate, you can use either a JSON or CSV file to do a bulk migration. To learn more on how to create a JSON or CSV file for data content migration, see [How to format your JSON or CSV file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md).
   
@@ -193,6 +187,9 @@ If you have many sources to migrate, you can use either a JSON or CSV file to do
 7. If you want to select another set of data files to migrate, select **Add a source**; otherwise, select **Next**.
     
 8. Review your settings, and the select **Migrate**.
+
+
+
     
 ## Monitoring and reporting status of migration jobs
 
