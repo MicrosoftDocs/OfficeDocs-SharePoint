@@ -48,7 +48,7 @@ Answer: Yes. By default the name of the folder is `%appdata%\Microsoft\SPMigrati
 Answer: Yes, Migration Manager can migrate content to non-English sites as long as the site title doesn’t include non-EN characters.
 
 **Question:** How many tasks can an agent perform simultaneously? </br>
-Answer: An agent can perform 5 to 10 tasks simultaneously, depending on the size of each of the tasks.
+Answer: An agent can perform 5 to 10 tasks simultaneously, depending on the size of each of the tasks.  However, the agent won't take any new tasks until **all** the existing tasks have completed.
 
 
 **Question:** What happens when you "pause" a task?</br>
