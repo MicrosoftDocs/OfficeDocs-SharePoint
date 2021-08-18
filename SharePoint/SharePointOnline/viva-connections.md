@@ -19,7 +19,7 @@ search.appverid:
 description: "Add Viva Connections to integrate SharePoint resources into Microsoft Teams"
 ---
 
-# Add Viva Connections custom app for Microsoft Teams desktop 
+# Add the Viva Connections custom app for Microsoft Teams desktop 
 
 Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/microsoft-viva-connections-to-start-rollout-to-general/ba-p/2175802) - one of the [four Viva modules](https://www.microsoft.com/en-us/microsoft-365/blog/2021/02/04/microsoft-viva-empowering-every-employee-for-the-new-digital-age/) - is your gateway to a modern employee experience. The Viva Connections for desktop experience, formerly known as the [Home site app](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/the-home-site-app-for-microsoft-teams/ba-p/1714255), combines the power of your intelligent SharePoint intranet with chat and collaboration tools in Microsoft Teams. Viva Connections enables users to discover and search relevant content, sites, and news from across the organization right from the Team’s app bar. Viva Connections also allows you to incorporate your organization’s brand and identity directly in Teams. 
 
@@ -80,7 +80,7 @@ Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-vi
 
 
 ## Prepare for Viva Connections
-The first version of Viva Connections can be provisioned through PowerShell and then will be [uploaded as an app in the Teams Admin Center](/microsoftteams/upload-custom-apps#upload). Download the [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888). Future versions of Viva Connections will be automatically available through the Teams Admin Center. Prepare your organization for Viva Connections now, or in the near future, by reviewing the following requirements and recommendations:
+The first version of Viva Connections can be provisioned through PowerShell and then will be [uploaded as an app in the Teams Admin Center](/microsoftteams/upload-custom-apps#upload). Download the [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888). Future versions of Viva Connections will be automatically available through the Teams Admin Center. Prepare your organization for Viva Connections now, or soon, by reviewing the following requirements and recommendations:
 
 > [!div class="mx-imgBorder"]
 > ![Image of global navigation icon in the Teams app bar](media/viva-landing-large.png)
@@ -199,12 +199,6 @@ Help end users understand [how to use Viva Connections](https://support.microsof
 **A:** Following on our spring release of the desktop experience for Viva Connections, we are rolling out an update that includes native mobile experiences for Teams on iOS and Android, enhancements to the overall IT configuration and deployment experience for the combined desktop and mobile app, as well as new Dashboard and Feed web parts for the desktop to complement the experience.
 <br>
 <br>
-
-**Q: When will Viva Connections for mobile become available?**
-
-**A:** Following on our spring release of the desktop experience for Viva Connections, we are rolling out an update that includes native mobile experiences for Teams on iOS and Android, enhancements to the overall IT configuration and deployment experience for the combined desktop and mobile app, as well as new Dashboard and Feed web parts for the desktop to complement the experience.
-
-
 
 
 
