@@ -4,7 +4,7 @@
 ### [Step 1: Set up Migration Manager agents](mm-setup-clients.md)
 ### [Step 2: Create a migration task](mm-how-to-use.md)
 ### [Step 3: Scan and assess](mm-fileshare-scan-assess.md)
-### [Step 4: Copy to Migrations list](mm-fileshare-step4-copy-to-migrations.md)
+### [Step 4: Copy to Migrations](mm-fileshare-step4-copy-to-migrations.md)
 ### Reference
 #### [What's new](mm-whats-new.md)
 #### [Prerequisites and endpoints](mm-prerequisites.md)
