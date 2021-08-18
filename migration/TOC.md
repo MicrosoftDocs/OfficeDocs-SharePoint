@@ -16,6 +16,7 @@
 #### [Format a CSV or JSON file for bulk upload](mm-bulk-upload-format-csv-json.md)
 #### [Create a user mapping file](mm-user-mapping-file.md)
 #### [Performance dashboard](mm-performance-dashboard.md)
+#### [Reports](mm-reports.md)
 #### [FAQs](mm-faqs.md)
 #### [How to reinstall a Migration agent](mm-reinstall-agent.md)
 #### [Troubleshooting](mm-troubleshoot.md)
