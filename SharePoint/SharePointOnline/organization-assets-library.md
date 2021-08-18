@@ -30,7 +30,7 @@ If your organization needs to store and manage files for all your users to use, 
 
     ![Selecting an image to add to a SharePoint page](media/image-library.png)
 
-- **Office templates**. When a user selects to create a new Word document, Excel workbook or PowerPoint presentation (from PowerPoint for the web or the Word, Excel or PowerPoint desktop app), the user can select the tab for your organization to see the templates. (In PowerPoint for the web, the templates aren't available from the New menu. Users who want to create a file from a template need to go to the PowerPoint start page and select Office Template Library).  
+- **Office templates**. When a user selects to create a new Word document, Excel workbook, or PowerPoint presentation (from PowerPoint for the web or the Word, Excel, or PowerPoint desktop app), the user can select the tab for your organization to see the templates. (In PowerPoint for the web, the templates aren't available from the New menu. Users who want to create a file from a template need to go to the PowerPoint start page and select Office Template Library).  
 
     ![Selecting a template in PowerPoint](media/office-template-library.png)
 
