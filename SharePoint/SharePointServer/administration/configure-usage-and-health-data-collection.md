@@ -94,7 +94,7 @@ The usage and health data settings are farm-wide and cannot be set for individua
 
 Where  _\<Path\>_ is a path that exists on each computer in the farm. 
     
-    To view the progress of the command, use the **Verbose** parameter. 
+To view the progress of the command, use the **Verbose** parameter. 
     
 Enable usage data logging by typing. 
     
