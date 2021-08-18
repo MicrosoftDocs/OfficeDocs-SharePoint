@@ -1,5 +1,5 @@
 ---
-title: "Overview: Migrate Google Drive using Migration Manager"
+title: "Overview: Migrate Google Workspace to Microsoft 365 with Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -16,7 +16,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-description: Overview of migration from Google to Microsoft 365 using Migration Manager.
+description: Overview of how to migrate from Google Workspace to Microsoft 365 with Migration Manager.
 ---
 
 # Migrate Google Workspace to Microsoft 365 with Migration Manager
