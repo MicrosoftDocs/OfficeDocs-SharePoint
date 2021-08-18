@@ -25,8 +25,9 @@ Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-vi
 
 >[!IMPORTANT]
 > - This article covers the steps to deploy the Viva Connections custom app for Teams, which includes the desktop experience only. 
-> - Soon, the Viva Connections app will include guidance for both the desktop and mobile experience. Additional instructions will be published closer to its public availability
-> - Learn more about the different types of [Apps, bots, & connectors in Microsoft Teams](/microsoftteams/deploy-apps-microsoft-teams-landing-page.md)
+> - Today, the Viva Connections desktop experience is only available to private preview customers.
+> - Soon, guidance for both the desktop and mobile experience will be available. Additional instructions will be published closer to its public availability.
+> - Learn more about the different types of [Apps, bots, & connectors in Microsoft Teams](/microsoftteams/deploy-apps-microsoft-teams-landing-page.md).
 
 
 
