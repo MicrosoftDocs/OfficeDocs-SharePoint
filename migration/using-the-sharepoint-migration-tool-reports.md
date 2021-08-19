@@ -1,6 +1,5 @@
 ---
 title: "Assess SharePoint Migration Tool reports"
-ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
@@ -36,8 +35,6 @@ Task level reports:
 - [Item Report](#item-report)
 - [Scan Summary](#scan-summary)
 - [Structure Report](#structure-report)
-- [Structure Failure Report](#structure-failure-report)
-- [Structure Failure Summary](#structure-failure-summary)
 
 Performance report
 - [Performance Report](#performance-report)
