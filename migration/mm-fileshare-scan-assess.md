@@ -33,7 +33,7 @@ A table summary appears at the top to give you an at-a-glance overview of your u
 
 1. Select **Add source path**
 
-![Add a source path before scanning](/media/mm-fileshare-add-sourcepath.png)
+![Add a source path before scanning](/media/mm-fileshare-add-sourcepath-task.png)
 
 2. Review the scanned file shares. Search for specific text, or select a filter to review the list more easily.
 1. Select **Add source path** if you want to scan additional file shares.
