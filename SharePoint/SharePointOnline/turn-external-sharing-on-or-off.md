@@ -81,7 +81,7 @@ This video shows how the settings on the Sharing page in the SharePoint admin ce
 
 ### More external sharing settings
 
-![More external sharing settings](media/advanced-external-sharing.png)
+![More external sharing settings](media/external-sharing.png)
 
 **Limit external sharing by domain**
 
