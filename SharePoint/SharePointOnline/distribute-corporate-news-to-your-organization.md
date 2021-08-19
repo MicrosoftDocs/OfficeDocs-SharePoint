@@ -36,7 +36,7 @@ News is distributed across SharePoint, Teams, and Viva Connections.
 |Viva Connections Dashboard*   |  Add one or more cards that highlight news from the organization or different departments. Decide your audiences and where and when you want to share the news.
 |Email in Outlook     |    News digest is automatically sent    |    |
 
-**Coming later in 2021**.
+***Coming in fall 2021**.
 
 ## Steps to distribute organization news
 
@@ -125,6 +125,6 @@ To learn about adding Viva Connections for Teams desktop, see [Add Viva Connecti
 
 ![image showing news in mobile app](media/news-in-viva.png)
 
-Arriving soon is the Viva Connections mobile app. In this app, users will see a Feed that is personalized with relevant content for them, including news. The Feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. The Feed requires usage of modern SharePoint, and either SharePoint news or a Yammer community or, for the best experience, both.
+Arriving in fall 2021 is the Viva Connections mobile app. In this app, users will see a Feed that is personalized with relevant content for them, including news. The Feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. The Feed requires usage of modern SharePoint, and either SharePoint news or a Yammer community or, for the best experience, both.
 
 Add one or more cards to your dashboard that opens a news story. Additionally, if you have the Feed enabled for your app, news automatically displays there based on relevance to each user, and based on whether the news is boosted.
