@@ -203,10 +203,13 @@ Help end users understand [how to use Viva Connections](https://support.microsof
 **Q: What is the difference between Viva Connections custom app that's currently available through Powershell and the Viva Connections app that will become available this fall?**
 
 **A:** The current iteration of the Viva Connections custom app (formerly known as the Home site app) is a Microsoft Teams custom app that customers build with the Viva Connections for desktop PowerShell script and upload to Teams Admin Center to configure and deploy. This *only* includes the desktop experience.  The Viva Connections app that will be available in the fall is a Microsoft developed app, and when generally available, it will automatically appear in Teams Admin Center. This app includes *both* the desktop *and* mobile experiences.
+<br>
+<br>
 
 **Q: Is there any difference in the desktop experience between the Viva Connections custom app and Viva Connections app?**
 
 **A:** No, there is no difference in the desktop experiences between the two Viva Connections app versions. 
+<br>
 <br>
 
 **Q: I have already deployed the Viva Connections custom app for desktop, and I would like to also deploy the mobile experience. Can I use Viva Connections app when it is available in the Teams admin center this fall?**
