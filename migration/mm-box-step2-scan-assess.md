@@ -36,9 +36,6 @@ A table summary appears at the top to give you an at-a-glance overview of your u
 ![Scan data list](media/mm-box-scan-list.png)
 
 2. Search for specific text, or select a filter to review the list more easily.
-
- ![Box scan list filters](media/mm-box-scan-list-filters.png)
-
 3. Once the scan is complete, select **Download scan log** from the menu bar, to troubleshoot any issues. The file will be available from your task bar or downloads folder: **Scan task report.csv**
 
 
