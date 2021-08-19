@@ -32,9 +32,11 @@ After a file share has been scanned and determined ready, add it to your migrati
 
 3.  Select a SharePoint site destination.  Enter the site path and the location within the site from the dropdown list. Select **Next**.
 
-![Select a destination for your file share](media/mm-fileshare-copy-migrations-destinations.png)
+    ![Select a destination for your file share](media/mm-fileshare-copy-migrations-destinations.png)
 
-![Select a SharePoint site destination](media/mm-fileshare-copy-migrations-destination-path.png)
+</br>
+
+   ![Select a SharePoint site destination](media/mm-fileshare-copy-migrations-destination-path.png)
 
 4. Under configure settings, enter a friendly name for your migration.
 5. Select if you want to run the task now or later. If you select **Run later**, select a date and time.
