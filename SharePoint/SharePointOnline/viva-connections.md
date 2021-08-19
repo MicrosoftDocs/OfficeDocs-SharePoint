@@ -214,7 +214,7 @@ Help end users understand [how to use Viva Connections](https://support.microsof
 
 **Q: I have already deployed the Viva Connections custom app for desktop, and I would like to also deploy the mobile experience. Can I use Viva Connections app when it is available in the Teams admin center this fall?**
 
-**A:** Yes. More guidance will be shared when the Viva Connections app in Teams becomes available. When available, you can switch from Viva Connections custom app to Viva Connections app by blocking the first version and enabling the new version in the Teams Admin Center. You will need to ensure that you have completed the steps to prepare the mobile experience, including creation of the dashboard, prior to enabling the new Viva Connections app.
+**A:** Yes. More guidance will be shared when the Viva Connections app in Teams becomes available. When available, you can switch from Viva Connections custom app to Viva Connections app by blocking the first version and enabling the new version in the Teams Admin Center. You will need to ensure that you have completed the steps to prepare the mobile experience prior to enabling the new Viva Connections app.
 
 
 
