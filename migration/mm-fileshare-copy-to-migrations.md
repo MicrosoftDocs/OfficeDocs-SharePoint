@@ -27,9 +27,9 @@ After a file share has been scanned and determined ready, add it to your migrati
 
 2. Add a destination -- OneDrive, SharePoint or Teams. Select **Next**.
 
-![File share scan list](media/mm-fileshare-scan-list.png)
+    ![File share scan list](media/mm-fileshare-scan-list.png)
 
-
+</br>
 3.  Select a SharePoint site destination.  Enter the site path and the location within the site from the dropdown list. Select **Next**.
 
     ![Select a destination for your file share](media/mm-fileshare-copy-migrations-destinations.png)
