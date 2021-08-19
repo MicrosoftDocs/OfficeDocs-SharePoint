@@ -93,17 +93,23 @@ You can also limit external sharing by domain by using the [Set-SPOTenant](/powe
 
 For info about this setting, see [Manage security groups](./manage-security-groups.md).
 
-**Guests must sign in using the same account to which sharing invitations are sent**
-
-By default, guests can receive an invitation at one account but sign in with a different account. After they redeem the invitation, it can't be used with any other account.
-
 **Allow guests to share items they don't own**
 
 By default, guests must have full control permission to share items externally.
 
+**Guests must sign in using the same account to which sharing invitations are sent**
+
+By default, guests can receive an invitation at one account but sign in with a different account. After they redeem the invitation, it can't be used with any other account.
+
+
+**Guest access to a site or OneDrive will expire automatically after this many days**
+
+If your administrator has set an expiration time for guest access, each guest that you invite to the site or with whom you share individual files and folders will be given access for a certain number of days. For more information visit, [Manage guest expiration for a site](https://support.microsoft.com/en-us/office/manage-guest-expiration-for-a-site-25bee24f-42ad-4ee8-8402-4186eed74dea)
+
 **People who use a verification code must reauthenticate after this many days**
 
 If people who use a verification code have selected to "stay signed in" in the browser, they must prove they can still access the account they used to redeem the sharing invitation. 
+
 
 ## File and folder links
 
