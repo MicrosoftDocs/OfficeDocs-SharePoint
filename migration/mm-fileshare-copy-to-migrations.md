@@ -1,5 +1,5 @@
 ---
-title: "Step 4: Copy to migrations tab for file share migration"
+title: "Step 3: Copy to migrations for file share migration"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -16,11 +16,10 @@ ms.collection:
 - m365solution-scenario 
 - M365-collaboration
 - SPMigration
-search.appverid: MET150
-description: "Learn how to ready feil share tasks for migration in Migration Manager."
+search.appverid: MET150to the migration list in Migration Manager."
 ---
 
-# Step 4: Copy to migrations
+# Step 3: Copy to migrations
 
 After a file share has been scanned and determined ready, add it to your migration list.  
 
