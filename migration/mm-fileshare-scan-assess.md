@@ -1,5 +1,5 @@
 ---
-title: "Step 3: Scan and assess file shares using Migration Manager"
+title: "Step 2: Scan and assess file shares using Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -17,13 +17,13 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-description: "Step 3:  Scan and assess file shares using Migration Manager."
+description: "Step 2:  Scan and assess file shares using Migration Manager."
 ---
 
-# Step 3: Scan and assess file shares
+# Step 2: Scan and assess file shares
 
 
-File shares are scanned automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
+File shares are scanned automatically once you add a source. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
 
 A table summary appears at the top to give you an at-a-glance overview of your users and content size.
 
@@ -31,13 +31,14 @@ A table summary appears at the top to give you an at-a-glance overview of your u
 
 ## Reviewing the scan results
 
-1. Review the scanned file shares. Search for specific text, or select a filter to review the list more easily.
-2. Select **Add source path** if you want to scan additional file shares.
+1. Select **Add source path**
+
+![Add a source path before scanning](/media/mm-fileshare-add-sourcepath.png)
+
+2. Review the scanned file shares. Search for specific text, or select a filter to review the list more easily.
+1. Select **Add source path** if you want to scan additional file shares.
 
 ![File share scan list](/media/mm-fileshare-scan-list.png)
-
-2. Search for specific text, or select a filter to review the list more easily.
-
 
 
 ## Download summary report and scan log

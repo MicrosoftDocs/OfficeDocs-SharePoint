@@ -2,9 +2,8 @@
 ## Migrate file shares
 ### [Overview](mm-get-started.md)
 ### [Step 1: Set up Migration Manager agents](mm-setup-clients.md)
-### [Step 2: Create a migration task](mm-how-to-use.md)
-### [Step 3: Scan and assess](mm-fileshare-scan-assess.md)
-### [Step 4: Copy to Migrations](mm-fileshare-step4-copy-to-migrations.md)
+### [Step 2: Scan sources and assess](mm-fileshare-scan-assess.md)
+### [Step 3: Copy to Migrations](mm-fileshare-copy-to-migrations.md)
 ### Reference
 #### [What's new](mm-whats-new.md)
 #### [Prerequisites and endpoints](mm-prerequisites.md)
@@ -16,6 +15,7 @@
 #### [Format a CSV or JSON file for bulk upload](mm-bulk-upload-format-csv-json.md)
 #### [Create a user mapping file](mm-user-mapping-file.md)
 #### [Performance dashboard](mm-performance-dashboard.md)
+#### [Reports](mm-reports.md)
 #### [FAQs](mm-faqs.md)
 #### [How to reinstall a Migration agent](mm-reinstall-agent.md)
 #### [Troubleshooting](mm-troubleshoot.md)
