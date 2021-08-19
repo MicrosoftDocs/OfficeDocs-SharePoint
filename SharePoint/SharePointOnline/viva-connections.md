@@ -65,7 +65,7 @@ Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-vi
 > 
 > - Viva Connections was originally announced as the [Home site app](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/the-home-site-app-for-microsoft-teams/ba-p/1714255).
 > 
-> - Viva Connections will become generally available in Fall 2021 and will include enhancements to the overall configuration and deployment experience.
+> - Viva Connections will become generally available in fall 2021 and will include enhancements to the overall configuration and deployment experience.
 > 
 > - The Viva Connections for desktop PowerShell script in the Microsoft download center became available on March 31, 2021.
 > 
@@ -196,7 +196,7 @@ Help end users understand [how to use Viva Connections](https://support.microsof
 
 **Q: When will Viva Connections for mobile become available?**
 
-**A:** Following on our spring release of the desktop experience for Viva Connections, we are rolling out an update that includes native mobile experiences for Teams on iOS and Android, enhancements to the overall IT configuration and deployment experience for the combined desktop and mobile app, as well as new Dashboard and Feed web parts for the desktop to complement the experience in the Fall 2021.
+**A:** Following on our spring release of the desktop experience for Viva Connections, we are rolling out an update that includes native mobile experiences for Teams on iOS and Android, enhancements to the overall IT configuration and deployment experience for the combined desktop and mobile app, as well as new Dashboard and Feed web parts for the desktop to complement the experience in the fall 2021.
 <br>
 <br>
 
@@ -205,7 +205,9 @@ Help end users understand [how to use Viva Connections](https://support.microsof
 **A:** The current iteration of the Viva Connections custom app (formerly known as the Home site app) is a Microsoft Teams custom app that customers build with the Viva Connections for desktop PowerShell script and upload to Teams Admin Center to configure and deploy. This *only* includes the desktop experience.  The Viva Connections app that will be available in the fall is a Microsoft developed app, and when generally available, it will automatically appear in Teams Admin Center. This app includes *both* the desktop *and* mobile experiences.
 
 **Q: Is there any difference in the desktop experience between the Viva Connections custom app and Viva Connections app?**
-**A** No, there is no difference in the desktop experiences between the two Viva Connections app versions. 
+
+**A:** No, there is no difference in the desktop experiences between the two Viva Connections app versions. 
+<br>
 
 **Q: I have already deployed the Viva Connections custom app for desktop, and I would like to also deploy the mobile experience. Can I use Viva Connections app when it is available in the Teams admin center this fall?**
 
