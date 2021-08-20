@@ -1,6 +1,5 @@
 ---
 title: "Assess SharePoint Migration Tool reports"
-ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
@@ -36,8 +35,6 @@ Task level reports:
 - [Item Report](#item-report)
 - [Scan Summary](#scan-summary)
 - [Structure Report](#structure-report)
-- [Structure Failure Report](#structure-failure-report)
-- [Structure Failure Summary](#structure-failure-summary)
 
 Performance report
 - [Performance Report](#performance-report)
@@ -243,40 +240,6 @@ Structure report at the task level.
 |Destination structure ID |ID when available. |
 |Time stamp |The time at which the action occurred. |
    
-### Structure failure report
-
-This is a failure report at the task level. This report will only be generated if there is a failure.
-  
-|**Column**|**Description**|
-|:-----|:-----|
-|Structure type |Site collection, site, list, field, content type, view |
-|Structure title |Display name of the object |
-|Operation |Skipped, created or updated. |
-|Status |Success, partial success, failure |
-|Details |Reason for failure. |
-|Source structure URL |Display the source URL. Site collection, site, and list will list the URL. Fields, content type. and view will display its container's URL. |
-|Destination structure URL |Display the source URL. Site collection, site, and list will list the URL. Fields, content type, and view will display its container's URL. |
-|Source structure ID |ID when available. |
-|Destination structure ID |ID when available. |
-|Time stamp |The time at which the action occurred. |
-   
-### Structure failure summary
-
-This is an aggregate of all the task failure reports. This will only be generated if there are failures.
-  
-|**Column**|**Description**|
-|:-----|:-----|
-|Structure type |Site collection, site, list, field, content type, view |
-|Structure title |Display name of the object |
-|Operation |Skipped, created or updated. |
-|Status |Success, partial success, failure |
-|Details |Reason for failure. |
-|Source structure URL |Display the source URL. Site collection, site, and list will list the URL. Fields, content type. and view will display its container's URL. |
-|Destination structure URL |Display the source URL. Site collection, site, and list will list the URL. Fields, content type, and view will display its container's URL. |
-|Source structure ID |ID when available. |
-|Destination structure ID |ID when available. |
-|Time stamp |The time at which the action occurred. |
- 
 
 ### Performance report
 
