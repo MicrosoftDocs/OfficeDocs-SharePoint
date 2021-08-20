@@ -55,9 +55,9 @@ For every migration task you create, you'll be prompted for a **source** and a *
  -  SharePoint:  Enter the SharePoint site and document folder
  -  Teams:  Enter the team name and channel.  
 
-7.Select **Next**.
+7. Select **Next**.
 8. Under **Settings**, enter a friendly Task name to identify your task.
-9. If you have you Agent groups and want to assign this task to a specific group of agents, make your selection from the dropdown list. Otherwise the task will be in the default group and be assigned to the next available agent. (Optional) 
+9. If you have Agent groups and want to assign this task to a specific group of agents, make your selection from the dropdown list. Otherwise the task will be in the default group and be assigned to the next available agent. (Optional) 
 10. Select **All settings** to make certain they're set correctly for you. To learn more about specific settings, see [Migration Manager settings](mm-settings.md).
 11. Select **Run now**. The task will added to the list waiting for the next available agent. For each file share you want to migrate, select **Add task**.
 
