@@ -34,7 +34,7 @@ After a file share has been scanned and determined ready, add it to your migrati
    ![Select a destination for your file share](media/mm-fileshare-copy-migrations-destinations.png)
 
 4. Depending on the destination you selected: 
-    - For OneDrive, enter the a OneDrive URL or email address and the location/folder name
+    - For OneDrive, enter a OneDrive URL or email address and the location/folder name
     - For SharePoint, enter site URL and location
     - For Teams, select the team and the channel
 
