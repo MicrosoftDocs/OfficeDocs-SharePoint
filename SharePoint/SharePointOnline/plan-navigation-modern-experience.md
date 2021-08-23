@@ -59,7 +59,7 @@ This planning guide primarily addresses *site* navigation: the top (communicatio
 
 The most effective SharePoint sites help viewers find what they need quickly so that they can use the information they need to make decisions, learn about what is going on, access the tools they need, or engage with colleagues to help solve a problem.
 
-Even when search is available, [most viewers start their web experiences by browsing](http://gerrymcgovern.com/search-and-navigation-interconnections/). That pattern persists on internal web sites as well. Good navigation experiences present viewers with a complete picture of what is available on the site and, combined with the home page, provide a comprehensive "story" for the site.
+Even when search is available, [most viewers start their web experiences by browsing](https://gerrymcgovern.com/search-and-navigation-interconnections/). That pattern persists on internal web sites as well. Good navigation experiences present viewers with a complete picture of what is available on the site and, combined with the home page, provide a comprehensive "story" for the site.
 
 Page navigation and site navigation display differently. The links that you see in site navigation are static on every page in the site. The navigation links on individual pages are accessed only when the viewer lands on the page. A benefit to on-page links is that they can be different from page to page. Both types of navigational links guide your viewers by providing *wayfinding* experiences. 
 
