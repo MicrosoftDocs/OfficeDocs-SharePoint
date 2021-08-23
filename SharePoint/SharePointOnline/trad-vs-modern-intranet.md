@@ -93,7 +93,7 @@ What makes modernizing your intranet worth the effort:
 
 ## Moving in the modern direction
 
-Understand that your intranet is an ever-evolving component of your business that will need to grow and scale alongside your organization. Focus on incorporating modern changes that will have the greatest impact to your business first. [Plan and schedule](./intranet-overview#get-started) when changes will be incorporated and how you will track progress. Use site analytics to understand user behavior and collect feedback from users along the way.
+Understand that your intranet is an ever-evolving component of your business that will need to grow and scale alongside your organization. Focus on incorporating modern changes that will have the greatest impact to your business first. [Plan and schedule](/sharepoint/intranet-overview#get-started) when changes will be incorporated and how you will track progress. Use site analytics to understand user behavior and collect feedback from users along the way.
 
 Signals your intranet is moving in the modern direction:
 
