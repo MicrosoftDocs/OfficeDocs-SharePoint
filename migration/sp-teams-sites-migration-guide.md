@@ -88,7 +88,7 @@ Decide how your team sites map to a modern hub architecture. It isn't necessary 
 In Microsoft 365, **Power Automate** is the product that allows you to easily create and manage workflow. If you are currently using SharePoint workflows, we recommend that you consider "future-proofing" your environment by identifying the workflows you want to keep and recreate them using **Power Automate** to allow for better platform integration. 
 
 To learn more:
-- [Get started with Power Automate](/flow/getting-started)
+- [Get started with Power Automate](/power-automate/getting-started)
 
 > [!NOTE]
 > Classic workflow will be supported and available until 2026. We recommend taking this into consideration as you plan for your workflow lifetime. For more information, please see [SharePoint 2010 workflow retirement](https://support.microsoft.com/office/sharepoint-2010-workflow-retirement-1ca3fff8-9985-410a-85aa-8120f626965f).
