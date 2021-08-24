@@ -1,6 +1,6 @@
 ---
 title: "Distribute business apps using the App Catalog - SharePoint"
-ms.reviewer: 
+ms.reviewer: yihan1
 ms.author: kaarins
 author: kaarins
 manager: serdars
@@ -22,58 +22,52 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: 0b6ab336-8b83-423f-a06b-bcc52861cba0
-description: "Learn how SharePoint admins can use the SharePoint App Catalog site to upload and install (deploy) custom business apps and third-party apps."
+description: "Learn how SharePoint admins can use the App Catalog to distribute or deploy (install) custom business apps and third-party apps."
 ---
 
 # Use the App Catalog to make custom business apps available for your SharePoint environment
 
-As a SharePoint or global admin in Microsoft 365, you can create an App Catalog site to make internally developed custom apps available for users to install when they browse apps under the **From Your Organization** filter on the Site Contents page. Site owners can then add these apps to customize sites with specific functionality or to display information.
+As a SharePoint or global admin in Microsoft 365, you can create an App Catalog to make internally developed custom apps available for users to add when they browse apps under **From my organization** on the My apps page. Site owners can then add these apps to customize sites with specific functionality or to display information.
   
-After the App Catalog site has been created, you can use it to upload any custom apps that your organization has developed. Uploading custom apps isn't much more complicated than uploading a document to a library and setting some properties. You can use the App Catalog site to do things like install custom or third-party apps on sites for users (also called app deployment). You can also manage app requests from users.
+After the App Catalog has been created, you can use it to upload any custom apps that your organization has developed. Uploading custom apps isn't much more complicated than uploading a document to a library and setting some properties. You can use the App Catalog to do things like add custom or third-party apps on sites for users (also called app deployment). You can also manage app requests from users.
   
-For more information about your options for developing custom apps for SharePoint, see: [Build apps for SharePoint](/sharepoint/dev/sp-add-ins/sharepoint-add-ins) and [Apps for SharePoint compared with SharePoint solutions](/sharepoint/dev/general-development/sharepoint-server-application-lifecycle-management).
+For more information about your options for developing custom apps for SharePoint, see: [Overview of the SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) and [SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
   
-## Step 1: Create the App Catalog site collection
+## Step 1: Create the App Catalog 
 <a name="__toc347303048"> </a>
 
-The first step is to create the App Catalog site collection if it hasn't already been created.
+The first step is to create the App Catalog if it hasn't already been created.
   
-Even if you don't plan to make internal custom apps available, you will not be able to do things like change the purchase settings for the SharePoint Store until you create the App Catalog site collection. You can have only one App Catalog site collection for your organization, and you only need to create it once.
+Even if you don't plan to make internal custom apps available, you won't be able to do things like change settings for the SharePoint Store until you create the App Catalog. You can have only one App Catalog for your organization, and you only need to create it once.
   
 1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+    >[!NOTE]
+    >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Apps**, select **Open**.
 
 3. Select **App Catalog**.
     
-4. If the **App Catalog** site doesn't open, select **Create a new app catalog site**, and then select **OK**.
+4. If the **App Catalog** site doesn't open, select an option for creating it or specifying it, and then select **OK**.
     
-    ![App catalog site dialog with Create a new app catalog site selected.](media/a7b6b416-5e02-43a8-a15a-f996b95dcc8f.PNG)
+    ![Apps page with Automatically create a new app catalog site selected.](media/a7b6b416-5e02-43a8-a15a-f996b95dcc8f.PNG)
   
-5. On the **Create App Catalog Site Collection** page, enter the required info, and then select **OK**. The App Catalog site will start the provisioning process. It may take a couple of hours for it to appear.
-    
-    ![Create App Catalog dialog](media/0ee3e6a9-b293-4de4-a648-782d8f2f717e.PNG)
-  
-## Step 2: Add custom apps to the App Catalog site
+## Step 2: Add custom apps to the App Catalog
 <a name="__add_custom_apps"> </a>
 
-To get to the App Catalog site once it's been created, follow steps 1 and 2 in the previous section. The site may take a little time to appear. The App Catalog site will have a document library for Apps for Office and a document library for Apps for SharePoint, as well as a list that tracks App Requests from site users.
+To get to the App Catalog after it's been created, follow steps 1-3 in the previous section. The site may take a little time to appear. The App Catalog will have a document library for Apps for Office and a document library for Apps for SharePoint, as well as a list that tracks App Requests from site users.
   
-![The home page of the App Catalog site.](media/e20ffd32-5162-49a0-a635-8486e0083afd.jpg)
+![The home page of the App Catalog.](media/e20ffd32-5162-49a0-a635-8486e0083afd.png)
   
-1. On the home page of the **App Catalog** site, select the tile labeled either **Distribute apps for SharePoint** or **Distribute apps for Office**, depending on which type of app you are uploading.
-    
-    ![The Getting started with your app catalog tiles with Distribute Apps for SharePoint highlighted.](media/2bbcbc6b-4d92-4da1-958d-4b8d4d37d8ee.PNG)
+1. On the home page of the **App Catalog**, select the tile labeled either **Distribute apps for SharePoint** or **Distribute apps for Office**, depending on which type of app you're uploading.
   
-2. Select **New**, and browse to the app you want upload, or drag the app into the library.
+2. Select **New**, and browse to the app you want upload, or drag the app into the library. SharePoint Framework solutions will have the file name extensions .sppkg and SharePoint add-ins will have the file name extension .app.
     
     ![New button in the App catalog.](media/ef9d8d34-290c-4397-9422-836871c7de08.png)
   
     > [!NOTE]
-    > Depending on the functionality that the app provides, the developer can set a flag that allows you to make the app available to all sites in the organization. If the app builds something (for example, it creates a new list), you can't make it available to all sites and will need to deploy it as described in the next section under "Deploy a custom app." We always recommend testing solutions before deploying them more broadly. If the "Do you trust" dialog appears when you upload the app, and you want to make the app available to all sites in your organization, select **Make this solution available to all sites in the organization**, and then click **Deploy**.
+    > Depending on the functionality that the app provides, the developer can set a flag that allows you to make the app available to all sites in the organization. If the app builds something (for example, it creates a new list), you can't make it available to all sites and will need to deploy it as described in the next section under "Deploy a custom app." We always recommend testing solutions before deploying them more broadly. If the "Do you trust" dialog appears when you upload the app, and you want to make the app available to all sites in your organization, select **Make this solution available to all sites in the organization**, and then select **Deploy**.
   
 3. To help site owners identify and use the app, right-click it, and then select **Properties**.
     
@@ -81,14 +75,14 @@ To get to the App Catalog site once it's been created, follow steps 1 and 2 in t
   
 4. In the properties dialog form, you can change the **Name** for the app and enter optional information like a description, images, category, publisher, and support URL. Follow the instructions on the screen for details like image size.
     
-5. Make sure the **Enabled** check box is selected so that users are able to add this app to sites.
+5. Make sure the **Enabled** checkbox is selected so that users are able to add this app to sites.
     
 6. If it appears, in the **Hosting Licenses** box, specify the number of licenses you think you will need.
     
 7. Select **Save**.
     
 > [!NOTE]
->  If you want to make third-party apps available for users to find and install, you simply need to buy a site license for them. When you buy a site license for a third-party app from the SharePoint store, the apps will automatically display under **Apps You Can Add**.
+>  To make third-party apps available for users to find and add, you simply need to get them from the store. They'll automatically appear under **Apps you can add**.
   
 ## Step 3 (optional): Install an app for users
 <a name="__toc347303050"> </a>
@@ -118,7 +112,7 @@ If you deploy a SharePoint Framework app in the tenant, then that app is automat
  
 If you upload a custom app to the App Catalog, it is automatically available for users to install when they browse apps under **From Your Organization**. If you want the app to be available for use without the need for site users to install it, you can deploy it as tenant-scoped.
   
-1. Before you can deploy a custom app, you must first upload it to the **App Catalog** site. For step-by-step guidance about how to do this, see the previous section, [Step 2: Add custom apps to the App Catalog site](use-app-catalog.md#__add_custom_apps).
+1. Before you can deploy a custom app, you must first upload it to the **App Catalog** site. For step-by-step guidance about how to do this, see the previous section, [Step 2: Add custom apps to the App Catalog](use-app-catalog.md#__add_custom_apps).
 2. After you have uploaded the app, the "Do you trust" dialog appears when you upload the app. If it does not appear, you can select the app, and then select **Deploy** at the top in menu bar.
 3. Optionally, if you want to make the app available to all sites in your organization, select Make this solution available to all sites in the organization, and then click **Deploy**. This option is depending on the functionality that the app provides, the developer can set a flag that allows you to make the app available to all sites in the organization.
   
@@ -159,11 +153,11 @@ However, if you want to make the app available for use without requiring users t
  **Deploy a custom app**
 <a name="__deploy_a_custom"> </a>
   
-If you upload a custom app to the App Catalog, it is automatically available for users to install when they browse apps under **From Your Organization**. If you want you want the app to be available for use without the need for site users to install it, you can deploy it.
+If you upload a custom app to the App Catalog, it's automatically available for users to install when they browse apps under **From Your Organization**. If you want you want the app to be available for use without the need for site users to install it, you can deploy it.
   
-1. Before you can deploy a custom app, you must first upload it to the **App Catalog** site. For step-by-step guidance about how to do this, see the previous section, [Step 2: Add custom apps to the App Catalog site](use-app-catalog.md#__add_custom_apps).
+1. Before you can deploy a custom app, you must first upload it to the **App Catalog** site. For step-by-step guidance about how to do this, see the previous section, [Step 2: Add custom apps to the App Catalog](use-app-catalog.md#__add_custom_apps).
     
-2. After you have uploaded the app, you then must add it as an app to the App Catalog site so that it appears on the Site Contents page for the App Catalog itself. On the App Catalog site, go to **Settings**![Microsoft 365 Settings button](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png) and then click **Add an app**.
+2. After you have uploaded the app, you then must add it as an app to the App Catalog so that it appears on the Site Contents page for the App Catalog itself. In the App Catalog, go to **Settings**![Microsoft 365 Settings button](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png) and then click **Add an app**.
     
 3. Select the app you want to add, and when prompted, select **Trust It**.
     
@@ -191,7 +185,7 @@ If you upload a custom app to the App Catalog, it is automatically available for
 ## Remove an app from the App Catalog
 <a name="__toc347303053"> </a>
 
-If you no longer want a specific app to be available for users to install, you can remove it from the App Catalog. Any instances of the app that have already been added to sites by users will remain, but the app will no longer be available for users to add to additional sites.
+If you no longer want a specific app to be available for users to add, you can remove it from the App Catalog. Any instances of the app that have already been added to sites by users will remain, but the app will no longer be available for users to add to additional sites.
   
 1. On the **App Catalog** site, select the **Apps for SharePoint** list.
     
@@ -203,8 +197,6 @@ If you no longer want a specific app to be available for users to install, you c
 <a name="__toc347303053"> </a>
 
 [Configure settings for the SharePoint Store](configure-sharepoint-store-settings.md)
-  
-[Manage app licenses for a SharePoint environment](manage-app-licenses.md)
   
 [Monitor apps for your SharePoint environment](monitor-apps.md)
   
