@@ -67,7 +67,7 @@ When you upload a custom app to the App Catalog, it's available for users to ins
 
 3. Select **App Catalog**. If you just created it, it might take a few minutes to appear. 
   
-![The home page of the App Catalog.](media/e20ffd32-5162-49a0-a635-8486e0083afd.png)
+    ![The home page of the App Catalog.](media/e20ffd32-5162-49a0-a635-8486e0083afd.png)
 
 4. On the home page of the app catalog, select the tile labeled either **Distribute apps for SharePoint** or **Distribute apps for Office**, depending on which type of app you're uploading.
 
@@ -132,6 +132,9 @@ When you add an app from the SharePoint Store to the App Catalog, you make it av
 2. Search for an app or select a category on the left to scroll through available apps.
 3. Select an app you want to add. In some cases, adding the app might be supported in the SharePoint Store classic experience only.
 4. Select **Add**.
+
+    ![Deploy a SharePoint Framework app from the store](media/deployspfxappfromstore.gif)
+
 5. Review app permissions and data access.
 6. If you want to add the app to all sites in the organization, so that site owners don't have to, select **Add this app to all sites**. 
 7. Select **Add**.
