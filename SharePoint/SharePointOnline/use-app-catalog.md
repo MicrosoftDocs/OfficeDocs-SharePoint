@@ -93,15 +93,39 @@ To get to the App Catalog site once it's been created, follow steps 1 and 2 in t
 ## Step 3 (optional): Install an app for users
 <a name="__toc347303050"> </a>
 
-If you want all users to use an app, you can deploy it to specific site collections, managed paths, or site templates. Deploying an app essentially installs that app on a site for users so that is available for use. Deployed apps appear on the Site Contents page for a site.
+If you want all users to use an app, for SharePoint Framework you can deploy it in the tenent with the option to make it available for all sites, for SharePoint add-ins you can deploy it to specific site collections, managed paths, or site templates. Deploying an app essentially installs that app on a site for users so that is available for use. Deployed apps appear on the Site Contents page for a site.
   
-You can deploy a third-party app, or you can [deploy a custom app](use-app-catalog.md#__deploy_a_custom).
+You can deploy a third-party app, or you can [deploy a custom app](use-app-catalog.md#__deploy_a_custom_spfx).
 
- > [!NOTE]
-> This option is only available for SharePoint add-ins. To see tenant-scoped deployment options for SharePoint Framework solutions, see [Tenant-scoped solution deployment for SharePoint Framework solutions](/sharepoint/dev/spfx/tenant-scoped-deployment). 
+> [!NOTE]
+> Deploying an app to specific site collections, managed paths, or site templates are only available for SharePoint add-ins. To see tenant-scoped deployment options for SharePoint Framework solutions, see [Tenant-scoped solution deployment for SharePoint Framework solutions](/sharepoint/dev/spfx/tenant-scoped-deployment). 
   
+### Deploy a SharePoint Framework solution
  **Deploy a third-party app**
+ 
+If you deploy a SharePoint Framework app in the tenant, then that app is automatically availabel for users to install when they browse apps under **From the SharePoint Store**.  If you want the app to be available for use without the need for site users to install it, you can deploy it as tenant-scoped.
+
+1. On the **App Catalog** site, select **SharePoint Store** on the left in the menu bar. Or you can select **Settings**![Microsoft 365 Settings button](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png), and then select **Add an app**, then select **SharePoint Store** in the menu.
+2. Search for an app in the search bar or select a category on the left to scroll through available apps.
+3. Select an app you want to add. In some cases, adding the app may be supported in the SharePoint Store classic experience only.
+4. Select **Add**.
+5. Review app permissions and data access.
+6. If you want to make it available to all sites in the organization, check "Add this app to all sites". Then select **Add**.
+7. Optionally, the notification of additional API access will appears when you deployed it to the tenant-level **App Catalog** successfully.
+
+ **Deploy a custom app**
+ <a name="__deploy_a_custom_spfx"> </a>
+ 
+If you upload a custom app to the App Catalog, it is automatically available for users to install when they browse apps under **From Your Organization**. If you want the app to be available for use without the need for site users to install it, you can deploy it as tenant-scoped.
   
+1. Before you can deploy a custom app, you must first upload it to the **App Catalog** site. For step-by-step guidance about how to do this, see the previous section, [Step 2: Add custom apps to the App Catalog site](use-app-catalog.md#__add_custom_apps).
+2. After you have uploaded the app, the "Do you trust" dialog appears when you upload the app. If it does not appear, you can select the app, and then select **Deploy** at the top in menu bar.
+3. Optionally, if you want to make the app available to all sites in your organization, select Make this solution available to all sites in the organization, and then click **Deploy**. This option is depending on the functionality that the app provides, the developer can set a flag that allows you to make the app available to all sites in the organization.
+  
+
+### Deploy a SharePoint add-in
+ **Deploy a third-party app**
+ 
 If you buy a site license for a third-party app, then that app is automatically available for users to install when they browse apps under **Apps You Can Add**.
   
 ![Apps you can add dialog with app highlighted](media/dc17da1e-74f3-4b3f-899b-7b08e80102e1.PNG)
