@@ -65,7 +65,7 @@ When you upload a custom app to the App Catalog, it's available for users to ins
  
 2. Under **Apps**, select **Open**.
 
-3. Select **App Catalog**. If you just created it, it might take a few minutes to appear. 
+3. Select **App Catalog**. If you just created the App Catalog, it might take a few minutes to appear. 
   
     ![The home page of the App Catalog.](media/e20ffd32-5162-49a0-a635-8486e0083afd.png)
 
@@ -102,7 +102,6 @@ After you upload a SharePoint add-in by following the steps in the previous sect
     
 2. Select the app you want to add, and when prompted, select **Trust It**.
     
-    ![Trust it button with trust it highlighted](media/e52bc10c-51ed-4dfe-91df-abbc4a3d7831.PNG)
   
 3. On the **Site Contents** page, find the app you want to deploy.
     
@@ -156,7 +155,7 @@ After you add a SharePoint add-in by following the steps in the previous section
     
     ![The Deployment command is available in the properties callout for an app on the App Catalog site.](media/1bcafa7e-d96c-4080-a27f-8489173c5088.jpg)
   
-5. On the **Manage App Deployments** page, enter the URL for each site collections to which you want to deploy the app, and to add it to the list, select **Add** .
+5. On the **Manage App Deployments** page, enter the URL for each site collections to which you want to deploy the app, and to add it to the list, select **Add**.
     
 6. In the **Managed Paths** section, to specify which managed paths should have this app available, select **Add**.
     
@@ -172,7 +171,7 @@ After you add a SharePoint add-in by following the steps in the previous section
 
 If you no longer want a specific app to be available for users to add, you can remove it from the App Catalog. Any instances of the app that have already been added to sites by users will remain, but the app will no longer be available for users to add to additional sites.
   
-1. In the **App Catalog**, select the **Apps for SharePoint** list.
+1. In the App Catalog, select the **Apps for SharePoint** list.
     
 2. Right-click the app that you want to remove, and select **Delete**.
     
