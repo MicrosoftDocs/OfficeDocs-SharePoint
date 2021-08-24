@@ -29,7 +29,7 @@ Answer.  No, currently this Migration Manager Box preview is not available for a
 </br>
 
 **Question:** **Are there are any caveats to this preview release?**</br>
-Answer.  Yes, this release only supports small to medium Box accounts.  Continue to use http://Mover.io for large accounts.
+Answer.  Yes, this release only supports small to medium Box accounts.  Continue to use https://Mover.io for large accounts.
 </br>
 
 **Question:**   **What gets transferred?**</br>
