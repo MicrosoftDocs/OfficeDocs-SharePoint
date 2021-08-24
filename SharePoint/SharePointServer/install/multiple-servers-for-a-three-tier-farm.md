@@ -80,7 +80,7 @@ Before you begin to install and configure SharePoint 2013, do the following:
 > If your computer is in a Workgroup, you cannot install AppFabric for Windows Server. 
   
 > [!NOTE]
-> The Distributed Cache service gives you a complete social computing experience. For more information about the Distributed Cache service, see [Overview of microblog features, feeds, and the Distributed Cache service in SharePoint Server](/sharepoint/administration/administratio), [Manage the Distributed Cache service in SharePoint Server](../administration/manage-the-distributed-cache-service.md), [Plan for feeds and the Distributed Cache service in SharePoint Server](../administration/plan-for-feeds-and-the-distributed-cache-service.md), and [What's new in authentication for SharePoint Server 2013](../what-s-new/new-and-improved-features-in-sharepoint-server-2016.md)
+> The Distributed Cache service gives you a complete social computing experience. For more information about the Distributed Cache service, see [Overview of microblog features, feeds, and the Distributed Cache service in SharePoint Server](../administration/administration.md), [Manage the Distributed Cache service in SharePoint Server](../administration/manage-the-distributed-cache-service.md), [Plan for feeds and the Distributed Cache service in SharePoint Server](../administration/plan-for-feeds-and-the-distributed-cache-service.md), and [What's new in authentication for SharePoint Server 2013](../what-s-new/new-and-improved-features-in-sharepoint-server-2016.md).
   
 #### Using the Microsoft SharePoint Products Preparation Tool
 
