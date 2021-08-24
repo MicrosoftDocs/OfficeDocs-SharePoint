@@ -33,7 +33,7 @@ Earlier versions of windows server are not supported. SharePoint server supports
 	
 ## Database versions
 
-SharePoint server supports the following database versions:
+SharePoint Server Subscription Edition supports the following database versions:
 
 - A Standard or Enterprise Edition of SQL Server for Windows that supports database compatibility level 150. This includes SQL Server 2019 CU5 or later and any future version of SQL Server for Windows that supports database compatibility level 150. For more information about database compatibility levels, see [Compatibility Certification](/sql/database-engine/install-windows/compatibility-certification?view=sql-server-ver15&preserve-view=true) and [ALTER DATABASE (Transact-SQL) Compatibility Level](/sql/t-sql/statements/alter-database-transact-sql-compatibility-level?view=sql-server-ver15&preserve-view=true).
 
