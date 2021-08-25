@@ -249,5 +249,5 @@ This report provides scores ranging from 1 to 100. The greater the number, the h
 |:-----|:-----|:-----|
 |Reading source speed score<br/> |[Improving the speed at which the source can be read](./spmt-performance-guidance.md#improving-the-speed-at-which-the-source-can-be-read)<br/> |
 |Local disk performance score<br/> |[Improving the migration computer speed](./spmt-performance-guidance.md#improving-the-migration-computer-speed)|
-|Uploading speed score |[Improving your connectivity to Office 365 and Azure](/harepointmigration/spmt-performance-guidance#improving-your-connectivity-to-0ffice-365-and-azure)<br/> |
+|Uploading speed score |[Improving your connectivity to Office 365 and Azure](./spmt-performance-guidance#improving-your-connectivity-to-microsoft-365-and-azure)<br/> |
 |SharePoint throughput score|[Improving your migration performance when using SPMT](./sharepoint-online-and-onedrive-migration-speed.md)|
