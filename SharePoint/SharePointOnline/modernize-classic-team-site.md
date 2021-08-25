@@ -103,8 +103,8 @@ For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sha
 ```PowerShell
 function Get-CommsiteEnabledSites{
  
-    $adminUrl = Read-Host "Enter the Admin URL of 0365 (eg. https://<Tenant Name>-admin.sharepoint.com)" 
-    $userName = Read-Host "Enter the username of 0365 (eg. admin@<tenantName>.onmicrosoft.com)" 
+    $adminUrl = Read-Host "Enter the Admin URL of O365 (eg. https://<Tenant Name>-admin.sharepoint.com)" 
+    $userName = Read-Host "Enter the username of O365 (eg. admin@<tenantName>.onmicrosoft.com)" 
     $password = Read-Host "Please enter the password for $($userName)" -AsSecureString
  
     # set credentials 
