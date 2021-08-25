@@ -109,7 +109,7 @@ After you upload a SharePoint add-in by following the steps in the previous sect
     
     ![The Deployment command is available in the properties callout for an app in the App CatalogW.](media/1bcafa7e-d96c-4080-a27f-8489173c5088.jpg)
   
-5. On the **Manage App Deployments** page, enter the URL for each site collections to which you want to deploy the app, and to add it to the list, select **Add**.
+5. On the **Manage App Deployments** page, enter the URL for each site collection to which you want to deploy the app, and to add it to the list, select **Add**.
     
 6. In the **Managed Paths** section, to specify which managed paths should have this app available, select **Add**.
     
@@ -155,7 +155,7 @@ After you add a SharePoint add-in by following the steps in the previous section
     
     ![The Deployment command is available in the properties callout for an app on the App Catalog site.](media/1bcafa7e-d96c-4080-a27f-8489173c5088.jpg)
   
-5. On the **Manage App Deployments** page, enter the URL for each site collections to which you want to deploy the app, and to add it to the list, select **Add**.
+5. On the **Manage App Deployments** page, enter the URL for each site collection to which you want to deploy the app, and to add it to the list, select **Add**.
     
 6. In the **Managed Paths** section, to specify which managed paths should have this app available, select **Add**.
     
