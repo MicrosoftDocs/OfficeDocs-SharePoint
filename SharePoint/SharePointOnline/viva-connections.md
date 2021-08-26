@@ -25,8 +25,8 @@ Microsoft [Viva Connections desktop](https://techcommunity.microsoft.com/t5/micr
 
 >[!IMPORTANT]
 > - Viva Connections desktop is available for GCC, but not GCC High or DoD environments.
-> - This article covers the steps to deploy the Viva Connections desktop via Powershell, which includes the desktop experience *only*. 
-> - Soon, guidance for a first-party Viva Connections or *both* the desktop and mobile experience will be available. Additional instructions will be published closer to its public availability.
+> - This article covers the steps to deploy Viva Connections desktop via Powershell, which includes the desktop experience *only*. 
+> - Soon, guidance for a first-party Viva Connections app that covers *both the desktop and mobile experience* will be available. Additional instructions will be published closer to its public availability.
 > - Learn more about the different types of [Apps, bots, & connectors in Microsoft Teams](/microsoftteams/deploy-apps-microsoft-teams-landing-page.md).
 
 
@@ -48,7 +48,7 @@ Microsoft [Viva Connections desktop](https://techcommunity.microsoft.com/t5/micr
 
 
 > [!IMPORTANT]
-> - You need SharePoint admin permissions (or higher) to create the Viva Connections desktop in PowerShell, and you need Teams admin permissions (or higher) to apply the app in the Teams Admin Center.
+> - You need SharePoint admin permissions (or higher) to create the Viva Connections desktop app in PowerShell, and you need Teams admin permissions (or higher) to apply the app in the Teams Admin Center.
 > 
 > - Viva Connections desktop is not supported in the Teams mobile app.
 > 
@@ -68,7 +68,7 @@ Microsoft [Viva Connections desktop](https://techcommunity.microsoft.com/t5/micr
 > 
 > - Viva Connections will become generally available in fall 2021 and will include enhancements to the overall configuration and deployment experience.
 > 
-> - The Viva Connections for desktop PowerShell script in the Microsoft download center became available on March 31, 2021.
+> - The Viva Connections desktop PowerShell script in the Microsoft download center became available on March 31, 2021.
 > 
 > - The [Viva Connections desktop via PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) is available now in the [Microsoft download center](https://www.microsoft.com/download/default.aspx).
 
@@ -81,16 +81,16 @@ Microsoft [Viva Connections desktop](https://techcommunity.microsoft.com/t5/micr
 
 
 ## Prepare for Viva Connections desktop and Viva Connections
-The first version of Viva Connections can be provisioned through PowerShell and then will be [uploaded as an app in the Teams Admin Center](/microsoftteams/upload-custom-apps#upload). Download the [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888). Future versions of Viva Connections will be automatically available through the Teams Admin Center. Prepare your organization for Viva Connections now, or soon, by reviewing the following requirements and recommendations:
+Viva Connections desktop can be provisioned through PowerShell and then will be [uploaded as an app in the Teams Admin Center](/microsoftteams/upload-custom-apps#upload). Download the [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888). The future version of Viva Connections will be automatically available through the Teams Admin Center. Prepare your organization for Viva Connections now, or soon, by reviewing the following requirements and recommendations:
 
 > [!div class="mx-imgBorder"]
 > ![Image of global navigation icon in the Teams app bar](media/viva-landing-large.png)
 
-#### Viva Connections requirements:
+#### Viva Connections desktop requirements:
 
 - **Global navigation is enabled in SharePoint -** It is recommended that global navigation is enabled and customized in the [SharePoint app bar](./sharepoint-app-bar.md) so that SharePoint resources appear in Teams.
 
-#### Viva Connections recommendations:
+#### Viva Connections desktop recommendations:
 
 - **SharePoint home site -** We highly recommend that you use the SharePoint home site as the landing experience for Viva Connections. If you don't already have a SharePoint [home site](./home-site.md), learn more about how to [plan home site navigation](./information-architecture-modern-experience.md) and review considerations for [planning a global intranet](./set-up-global-intranet.md).
 
