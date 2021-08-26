@@ -13,7 +13,7 @@ ms.service: sharepoint-online
 mscollection: 
 - SPMigration
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: "Learn about the new features and updates to existing features in Migration Manager."
 ---

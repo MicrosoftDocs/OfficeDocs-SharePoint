@@ -12,7 +12,7 @@ ms.custom:
 - 'O365E_ODACStorage'
 - 'seo-marvel-apr2020'
 ms.service: one-drive
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration

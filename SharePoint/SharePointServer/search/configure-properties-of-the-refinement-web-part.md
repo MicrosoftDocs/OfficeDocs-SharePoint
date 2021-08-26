@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 9f039270-d426-4e79-b608-8db792de74ed
 description: "Learn how to configure properties of the Refinement Web Part, how to display refiner counts, and how to change the refiner display name."

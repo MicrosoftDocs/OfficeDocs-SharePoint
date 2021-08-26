@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 70475732-62f1-4b28-95fd-02bd1e49cd42
 
 description: "Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Server."

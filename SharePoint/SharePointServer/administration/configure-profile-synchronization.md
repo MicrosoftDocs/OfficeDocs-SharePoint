@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 144e5f6e-0c9c-4f01-9b1f-26190d527e85
 description: "Learn how to synchronize user and group profile information by using the SharePoint Server 2013 profile synchronization method."
 ---

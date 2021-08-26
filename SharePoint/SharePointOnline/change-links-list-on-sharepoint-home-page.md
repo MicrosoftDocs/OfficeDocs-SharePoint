@@ -12,7 +12,7 @@ ms.topic: article
 ms.custom:
 - 'WSSEndUser_SPMobileAndroid_LinksTabEmptyState_FL827915'
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration

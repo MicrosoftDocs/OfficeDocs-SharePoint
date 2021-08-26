@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 7759e1a1-9393-4983-87af-368bdc47d941
 description: "Learn how to upload and apply a new master page to a publishing site in SharePoint Server 2016."

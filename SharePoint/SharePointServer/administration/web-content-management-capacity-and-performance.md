@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d819b0d0-aa83-4e40-82d8-7a32195cc669
 description: "Learn how to determine the number and types of computers that you need to publish content and manage web content in SharePoint Server."

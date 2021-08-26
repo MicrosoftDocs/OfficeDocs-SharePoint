@@ -14,7 +14,7 @@ metadata:
   author: samanro #Required; your GitHub user alias, with correct capitalization.
   ms.author: samanro #Required; microsoft alias of author; optional team alias.
   ms.date: 07/03/2019 #Required; mm/dd/yyyy format.
-  localization_priority: Priority
+  ms.localizationpriority: high
 
 # additionalContent section (optional)
 # Card with summary style

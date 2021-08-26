@@ -9,7 +9,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: one-drive
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: 
 - Adm_O365
 - seo-marvel-apr2020
