@@ -56,12 +56,13 @@ description: "Learn now to create a migration task using the SharePoint Migratio
 
     ![spmt-site-structure-associate-destination-register-hub](media/spmt-site-structure-associate-destination-as-hub.png)
 
+12.  If you selected to associate the promoted level-one subsites with an existing hub, select the hub name from the dropdown list, and select **Next**.
 
+![enter the name of an existing hub to associate your sites with](media/spmt-site-structure-associate-existing-hub.png)
 
-10.	Then you can review and edit destination URL for each subsite in Review hub and associated sites page
-
+10.	Review and edit destination URL for each subsite as needed.
     
-9. Select **Add**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
+11. Select **Add**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
     
 
 **Next step:**  [**Step 3: Monitor and Report**]()
