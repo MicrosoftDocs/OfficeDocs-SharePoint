@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 9b5a1f99-0193-4a97-b0d1-4a5633b32c43
 description: "Learn how to redesign the topology of your enterprise search architecture for growth in content, growth in number of users, or both."

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3ebcdcdf-593e-44bd-b60d-16efd5f07a16
 description: "Configure a SharePoint Server content farm that receives search queries to trust the SharePoint Server farm that sends the queries."

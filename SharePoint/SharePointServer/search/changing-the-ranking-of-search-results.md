@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 35f58247-a349-461b-b4d4-8963c3b98df6
 description: "Learn how to change the ranking of classic search results in SharePoint Server."
 ---

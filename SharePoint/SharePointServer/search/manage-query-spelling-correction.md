@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: eabe099e-5eea-4b33-8241-8079d9409095
 description: "Learn how to include single words in or exclude single words from query spelling corrections to help correct spelling errors in queries."

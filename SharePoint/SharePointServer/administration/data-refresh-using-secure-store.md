@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c8209ecc-59e4-4568-a7e6-782a6b0ab02f
 description: "Learn to configure scheduled data refresh in Power Pivot for SharePoint by using Secure Store."
 ---

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 20a9c358-4813-4e49-ba74-87879ba1ee93
 description: "Learn how to integrate social media with public-facing websites in SharePoint Server."

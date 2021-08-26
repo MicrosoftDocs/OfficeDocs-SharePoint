@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 984e2448-e53a-4b4e-bd4a-4340213218a2
 description: "Learn how to specify a content access account, create crawl rules to include or exclude directories, and prioritize crawl rules."

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 86e4a832-ef3a-46cf-9b60-f9796292bf3e
 description: "Learn how the search schema is used to build up the search index. The search schema contains the mapping from crawled properties to managed properties and the settings on the managed properties."

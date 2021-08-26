@@ -14,7 +14,7 @@ ms.custom:
 - 'SharingLinkTypeLearnMore'
 - 'seo-marvel-apr2020'
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
