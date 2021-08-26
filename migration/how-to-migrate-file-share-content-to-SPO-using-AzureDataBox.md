@@ -17,7 +17,7 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 - m365initiative-migratetom365
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Learn how to migrate your file share content to SharePoint in Microsoft 365 by using the Azure Data Box"
 ---
 
