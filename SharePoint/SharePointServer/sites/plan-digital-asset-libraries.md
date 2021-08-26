@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d8635abe-1b1b-42db-95ff-ab9341d957e2
 description: "Learn how to plan storage and performance, permissions and security, metadata and search, Web Parts, views and filters, and client support."
 ---

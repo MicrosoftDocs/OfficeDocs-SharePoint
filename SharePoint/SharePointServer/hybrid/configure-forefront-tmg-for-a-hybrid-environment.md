@@ -14,7 +14,7 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - SPO_Content
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 46aecccb-6196-48b4-a889-cbd408354d56
 description: "Learn how to configure Forefront TMG 2010 as a reverse proxy device in a SharePoint hybrid environment."
 ---

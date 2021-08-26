@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 466d3069-c4bc-42c7-8f93-f66e08d41562
 description: "Learn how to install, set up, and provision Access Services for Access apps in SharePoint Server 2013."

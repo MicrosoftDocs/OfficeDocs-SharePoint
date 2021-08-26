@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 description: "Learn how to upgrade SharePoint Server 2016 to SharePoint Server 2019 using Workflow Manager."
 ---

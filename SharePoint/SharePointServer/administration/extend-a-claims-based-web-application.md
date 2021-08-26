@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 265ace67-3115-4987-ab2d-80c55e452d4b
 description: "Learn how to extend an existing claims-based SharePoint Server web application into a new zone to surface content to different types of users."
