@@ -52,7 +52,7 @@ Where:
 - **NoAccess** to prevent users from accessing the site and its content. If you've provided a NoAccessRedirectUrl value for your organization (below), traffic will be redirected to the URL you specified. If you haven't set this URL, a 403 error will be displayed.
 
     > [!NOTE]
-    > If the site was closed and made read-only through a [site closure policy](https://docs.microsoft.com/en-us/sharepoint/sites/site-policy-overview#sharepoint-site-policy-options) then the PowerShell command to unlock the site will not work.
+    > If the site was closed and made read-only through a [site closure policy](/sharepoint/sites/site-policy-overview#sharepoint-site-policy-options), the PowerShell command to unlock the site will not work.
 
  ```PowerShell
 Set-SPOTenant -NoAccessRedirectUrl 'https://www.contoso.com'
