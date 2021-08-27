@@ -139,30 +139,7 @@ To install the current release download, go to: [SharePoint Migration Tool](http
     
 9. Select **Add**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
     
- **Migrating data files from a local file share**
-
-1. Start SPMT, and then enter your Microsoft 365 username and password.
-    
-2. Select **Start your first migration**.
-    
-3. Select **File Share.**
-    
-4. Enter the source path of the file share where your content is located, and then select **Next**.
-    
-5. Enter the URL of the SharePoint site where you want your files migrated, and then select **Next**.
-    
-    > [!NOTE]
-    > If you have already signed in to that site once while using this tool, you won't be prompted again for the same site. 
-  
-6. Select the document library to where your files will be copied, and then select **Next**.
-
-7. This task is added to the list. If you want to select another set of data files to migrate, select **Add another source**.
-    
-8. When you have finished selecting your sources, select **Next**.
-
-9. Review your settings, and then select **Migrate**.
-  </br></br>  
-
+ 
  
  **To use a JSON or CSV file for bulk migration**
 
