@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 02f10b70-d634-41ae-914e-5de337c8b408
 description: "Understand Microsoft Business Connectivity Services and how it brings external data into SharePoint Server and Office."

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0ed3c559-86c1-40d0-8804-8adb7038492f
 description: "Learn which linguistic features search by default uses, and for which languages."

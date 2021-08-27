@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b37c1d36-5bfe-4f76-bb03-2c5436c043a2
 
 description: "Learn how to install and configure workflow in SharePoint Server."

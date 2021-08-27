@@ -8,7 +8,7 @@ audience: ITPro
 f1.keywords: NOCSH
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
