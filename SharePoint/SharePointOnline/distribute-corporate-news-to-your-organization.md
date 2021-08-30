@@ -111,13 +111,15 @@ Many organizations send "newsletters" in email. With auto-news digest, emails ar
 
 To learn more about the automatic news digest feature, see [Automatically sending news post digests with branding](https://support.microsoft.com/office/automatically-sending-news-post-digests-with-branding-b930b579-0de5-4c67-86f0-de64b87c45e3).
 
+You can also manually curate a news digest and send it when you want. To learn how, see [Create and send a news digest](https://support.microsoft.com/en-us/office/create-and-send-a-news-digest-42efc3c6-605f-4a9a-85d5-1f9ff46019bf?ui=en-US&rs=en-US&ad=US).
+
 To learn about email notification settings, see [SharePoint email notifications](https://support.microsoft.com/office/sharepoint-email-notifications-5bd63d8a-d43e-48cc-82b3-03a7687d5dc4).
 
 ## Use Viva Connections for Teams Desktop to display news in Teams
 
 ![image showing news on Viva Connections for Teams Desktop](media/news-in-teams.png)
 
-When you use Viva Connections for Teams Desktop, your home site in Teams displays news just like it does when viewed in SharePoint.
+When you use Viva Connections for Teams Desktop, your home site in Teams displays news just like it does when viewed in SharePoint. Coming in fall 2021, you'll be able to use the Viva Connections Feed web part in a Viva Connections Dashboard which will show news post within the feed. The Feed web part can be added to any SharePoint page.
 
 To learn about adding Viva Connections for Teams desktop, see [Add Viva Connections for Microsoft Teams desktop](viva-connections.md).
 
