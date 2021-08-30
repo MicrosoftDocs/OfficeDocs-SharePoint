@@ -74,7 +74,7 @@ Certain prerequisites are installed by the prerequisite installer with specific 
   
   /quiet
 
-The prerequisite installer creates log files at **%TEMP%\prerequisiteinstaller.[date].[time]**.log. You can check these log files for specific details about all changes the installer makes to the target computer.
+The prerequisite installer creates log files at **%TEMP%\prerequisiteinstaller.\<date\>.\<time\>**.log. You can check these log files for specific details about all changes the installer makes to the target computer.
 
 
 ### Manually configure Windows Server Roles and Features
