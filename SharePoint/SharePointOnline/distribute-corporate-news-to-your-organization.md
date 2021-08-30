@@ -92,7 +92,7 @@ To learn how to use the news web part on a SharePoint page, see [Use the News we
 
 ## Boost news for greater discoverability
 
-![image showing news boost pane](media/news-boost.png)
+![image showing news boost pane](media/boost-property-pane.png)
 
 Boost important news and announcements from your organization to prioritize their visibility and to increase readership. Boosted news posts display with a lightning bolt icon. You can order your boosted news to determine which shows first, and you can set an expiration date for the boosting of individual posts.
 
