@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d63f37bc-3383-4df8-af12-15da5eb1133c
 description: "Access and learn about the W3C Web Content Accessibility Guidelines (WCAG) 2.0 Conformance Statement and Voluntary Product Accessibility Template (VPAT) for SharePoint Server 2016."

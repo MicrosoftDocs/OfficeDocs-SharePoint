@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 25d888b2-035a-40b4-a2b9-a496657a36e3
 description: "Learn how to configure a User Profile service application in SharePoint Server."
 ---

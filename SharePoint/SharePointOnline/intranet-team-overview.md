@@ -8,7 +8,7 @@ recommendations: true
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: "Learn about planning and deploying a SharePoint intranet."
 ms.collection: 

@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "The Company Name Extraction option in SharePoint is being deprecated."
 ---
 

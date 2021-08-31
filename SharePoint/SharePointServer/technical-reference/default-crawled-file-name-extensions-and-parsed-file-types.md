@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 19d553a7-7001-4b07-a03d-616b865b05ae
 description: "Learn which file name extensions SharePoint Server crawls by default and which file types it parses by default."

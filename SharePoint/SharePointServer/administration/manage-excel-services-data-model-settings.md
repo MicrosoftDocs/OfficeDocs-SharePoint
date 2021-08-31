@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e1fb66ca-d0ee-4935-b8dc-a87abf98e216
 description: "Configure instances of SQL Server 2012 Analysis Services for Data Model functionality in Excel Services."
 ---

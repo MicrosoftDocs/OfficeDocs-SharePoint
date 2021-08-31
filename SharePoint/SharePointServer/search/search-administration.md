@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 820ace03-1fb7-41fd-a077-28b82ebddde3
 description: "Learn how to manage the search topology and how to customize the search experience to make it easier for users to find the information they’re looking for."

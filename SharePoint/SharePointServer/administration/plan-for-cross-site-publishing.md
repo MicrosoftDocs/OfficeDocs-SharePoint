@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3c0edb6f-3b77-48bc-a542-57626741f3ba
 description: "Learn how to use cross-site publishing to create SharePoint Server sites that display search-driven content on Internet, intranet, and extranet sites."

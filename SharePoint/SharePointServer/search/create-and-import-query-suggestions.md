@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 59be233e-be37-4639-b7b4-9059f5bb59ba
 description: "Learn how to import query suggestions in SharePoint Server."
 ---

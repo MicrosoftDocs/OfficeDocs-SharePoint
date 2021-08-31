@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5a1b6cd9-358c-41af-8309-495640518eac
 description: "Learn how to integrate multiple active Yammer networks together with your SharePoint Server environment."
 ---
