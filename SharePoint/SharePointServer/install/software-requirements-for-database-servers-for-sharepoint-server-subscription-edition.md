@@ -27,7 +27,7 @@ description: "Introduces articles that describe software and other requirements 
 SharePoint Server supports the following operating systems:
 
 - [Windows Server 2019](https://www.microsoft.com/evalcenter/evaluate-windows-server-2019) Standard or Datacenter
-- [Windows Server 2022](https://www.microsoft.com/evalcenter/evaluate-windows-server-2022/) Standard or Datacenter
+- [Windows Server 2022](https://www.microsoft.com/evalcenter/evaluate-windows-server-2022) Standard or Datacenter
 
 Earlier versions of windows server are not supported. SharePoint server supports both the Standard and Datacenter editions of windows server, as well as both the Windows Server with Desktop Experience and windows server core installation options.
 
