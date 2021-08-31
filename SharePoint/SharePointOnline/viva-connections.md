@@ -24,10 +24,10 @@ description: "Add Viva Connections desktop to integrate SharePoint resources int
 Microsoft [Viva Connections desktop](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/microsoft-viva-connections-to-start-rollout-to-general/ba-p/2175802) - a component of one of the [four Viva modules](https://www.microsoft.com/en-us/microsoft-365/blog/2021/02/04/microsoft-viva-empowering-every-employee-for-the-new-digital-age/) - is your gateway to a modern employee experience. The Viva Connections desktop experience, formerly known as the [Home site app](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/the-home-site-app-for-microsoft-teams/ba-p/1714255), combines the power of your intelligent SharePoint intranet with chat and collaboration tools in Microsoft Teams. Viva Connections desktop enables users to discover and search relevant content, sites, and news from across the organization right from the Team’s app bar. Viva Connections desktop also allows you to incorporate your organization’s brand and identity directly in Teams. 
 
 >[!IMPORTANT]
-> - Viva Connections desktop is available for GCC, but not GCC High or DoD environments.
 > - This article covers the steps to deploy Viva Connections desktop via Powershell, which includes the desktop experience *only*. 
-> - Soon, guidance for a first-party Viva Connections app that covers *both the desktop and mobile experience* will be available. Additional instructions will be published closer to its public availability.
+> - Soon, guidance for an upgraded Viva Connections app that covers *both the desktop and mobile experience* will be available. Additional instructions will be published closer to its public availability.
 > - Learn more about the different types of [Apps, bots, & connectors in Microsoft Teams](/microsoftteams/deploy-apps-microsoft-teams-landing-page.md).
+> - Viva Connections desktop is available for GCC, but not GCC High or DoD environments.
 
 
 
