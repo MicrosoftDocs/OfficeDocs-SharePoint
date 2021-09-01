@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: fa67dd12-4d4f-483b-a9ca-b3c43d987dfa
 description: "Learn how to set up search and enable crawl of your catalog content in SharePoint Server 2016."

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 40f1d080-3523-444f-a389-0f37a40ae44a
 description: "Specify an instance of Analysis Services to be used with interactive data models in Excel Services."
 ---

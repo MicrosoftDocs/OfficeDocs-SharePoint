@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 26f02074-af0b-4548-ab68-9d46dd05b8ff
 description: "Learn how to maintain User Profile synchronization settings in SharePoint Server  after you configure User Profile synchronization."
 ---
