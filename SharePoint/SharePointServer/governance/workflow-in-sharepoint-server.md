@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 70d4b4eb-9df0-44e5-980f-542614273439
 description: "Workflows in SharePoint allow you to model and automate business processes. These business processes can range from simple to complex. But most importantly, workflow lets users focus on doing the work -- rather than managing the workflow."
 ---

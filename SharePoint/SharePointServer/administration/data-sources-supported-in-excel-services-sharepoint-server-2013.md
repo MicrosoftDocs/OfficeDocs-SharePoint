@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: db4bea29-65fb-4c48-828a-f96502fed697
 description: "Learn about different kinds of data sources that you can use in Excel and Excel Services."
 ---

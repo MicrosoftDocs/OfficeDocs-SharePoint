@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.topic: reference
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.assetid: 87ecbb0e-6550-491a-8826-c075e4859848
 description: "Learn about permission levels in SharePoint and about the permissions that are associated with each level."
 ---
