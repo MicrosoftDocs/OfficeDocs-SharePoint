@@ -89,7 +89,7 @@ This setting prevents the users from uploading files to other organizations by s
 The parameter for the **AllowTenantList** key is **TenantID** and its value is a string, which determines the tenants for whom the **Allow Tenant** setting is applicable. For the setting to be complete, this parameter also requires a boolean value to be set to it. If the boolean value is set to **True**, the tenant is allowed to sync.
 
 The example for this setting in the .plist file is:
-<br/>\<key\>AllowTenantList</key\><br/>\<array><br/>&nbsp;&nbsp;&nbsp;&nbsp;\<dict><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId1</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<true/\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId2</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<true/\><br/>&nbsp;&nbsp;&nbsp;&nbsp;\</dict><br/>\</array>
+<br/>\<key\>AllowTenantList</key\><br/>\<dict><br/>\<key\>TenantId1</key\><br/>\<true/\><br/>\<key\>TenantId2</key\><br/>\<true/\><br/>\</dict>
 
   
 ### AutomaticUploadBandwidthPercentage
@@ -126,7 +126,7 @@ Enable this setting by defining IDs for the **TenantID** parameter, which determ
 > In the list, inclusion of the tenant ID alone doesn't suffice. It's mandatory to set the boolean value to **True**  for the ID of each tenant who is to be blocked. 
 
 The example for this setting in the .plist file is:
-<br/>\<key\>BlockTenantList</key\><br/>\<array><br/>&nbsp;&nbsp;&nbsp;&nbsp;\<dict><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId1</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<true/\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId2</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<true/\><br/>&nbsp;&nbsp;&nbsp;&nbsp;\</dict><br/>\</array>
+<br/>\<key\>BlockTenantList</key\><br/>\<dict><br/>\<key\>TenantId1</key\><br/>\<true/\><br/>\<key\>TenantId2</key\><br/>\<true/\><br/>\</dict>
 
 ### DefaultFolderLocation
 <a name="DefaultFolderLocation"> </a>
@@ -141,7 +141,7 @@ The following are the conditions governing the default folder location:
 -**Standalone**: The path will be created (if it doesn't already exist) after the user sets up the sync app. Only with the Standalone sync app you can prevent users from changing the location. 
 
 The example for this setting in the .plist file is:
-<br/> \<key\>DefaultFolder</key\><br/>\<array><br/>&nbsp;&nbsp;&nbsp;&nbsp;\<dict><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>Path</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<string>(DefaultFolderPath)\</string><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<string>(TenantID)\</string><br/>&nbsp;&nbsp;&nbsp;&nbsp;\</dict><br/>\</array>
+<br/> \<key\>DefaultFolder</key\><br/>\<dict><br/>\<key\>Path</key\><br/>\<string>(DefaultFolderPath)\</string><br/>\<key\>TenantId</key\><br/>\<string>(TenantID)\</string><br/>\</dict>
 
 
 ### DisableHydrationToast
@@ -217,12 +217,9 @@ Set this setting's value to an integer between 50 KB/sec and the maximum rate of
 The example for this setting in the .plist file is:
 <br/>
 \<key\>EnableODIgnore\</key\><br/> 
-\<array\><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;\<dict\><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<string\>*.PST\</string\><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;\</dict\><br/>
-\</array\>
-<br/>
+\<dict\><br/>
+\<string\>*.PST\</string\><br/>
+\</dict\><br/>
 
 
 ### FilesOnDemandEnabled
