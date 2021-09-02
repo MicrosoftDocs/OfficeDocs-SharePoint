@@ -82,7 +82,7 @@ At this point, site owners can check the **Your Requests** list to view the stat
     
 ## Delegate approval authority
 
-As a global admin or SharePoint admin in your organization, you can delegate app approval authority as a way of spreading the approval work-around, or alleviating approval bottlenecks. Remember that apps are stored and managed in the app catalog, and the app catalog is a site collection. Therefore, to grant app approval permission to select users, you add them to the site collection administrator group on the app catalog. 
+As a global admin or SharePoint admin in your organization, you can delegate app approval authority as a way of spreading the approval work around, or alleviating approval bottlenecks. Remember that apps are stored and managed in the app catalog, and the app catalog is a site collection. Therefore, to grant app approval permission to select users, you add them to the site collection administrator group on the app catalog. 
   
 > [!CAUTION]
 > When you promote users to site collection administrators on the app catalog site collection, you are giving them the ability to approve the installation of apps that have organization-wide impact. Consider this decision carefully. 
