@@ -42,7 +42,7 @@ If your organization needs to store and manage files for all your users to use, 
 
 ## Use Microsoft PowerShell to specify a library as an organization assets library
   
-1. Select an existing site or create a new site for the organization assets. This can be any type of site, such as a communication site, an Office 365 group-connected team site, or a modern team site that isn't connected to an Office 365 group.
+1. Select an existing site or create a new site for the organization assets. This can be any type of site, such as a communication site, a Microsoft 365 group-connected team site, or a modern team site that isn't connected to a Microsoft 365 group.
 
     > [!NOTE]
     > All organization asset libraries must be on the same site.
