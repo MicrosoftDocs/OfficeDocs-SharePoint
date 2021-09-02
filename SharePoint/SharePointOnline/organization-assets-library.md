@@ -42,12 +42,12 @@ If your organization needs to store and manage files for all your users to use, 
 
 ## Use Microsoft PowerShell to specify a library as an organization assets library
   
-1. Select an existing site or create a new site for the organization assets. This can be any type of site, such as a communication site, a Microsoft 365 group-connected team site, or a modern team site that isn't connected to a Microsoft 365 group.
+1. Select an existing site or create a new site for the organization assets. This can be any type of site, such as a communication site, a team site that's connected to a Microsoft 365 Group, or a modern team site that isn't connected to a Microsoft 365 Group.
 
     > [!NOTE]
     > All organization asset libraries must be on the same site.
 
-2. **Set the permissions on the site**. Add the people you want to be able to upload files as members or owners of the site or Office 365 group. Add "Everyone except external users" as visitors. If necessary, [customize the permissions for the library](https://support.office.com/article/02d770f3-59eb-4910-a608-5f84cc297782). You can customize the permissions of up to 100 files and folders in the library.
+2. **Set the permissions on the site**. Add the people you want to be able to upload files as members or owners of the site or Microsoft 365 Group. Add "Everyone except external users" as visitors. If necessary, [customize the permissions for the library](https://support.office.com/article/02d770f3-59eb-4910-a608-5f84cc297782). You can customize the permissions of up to 100 files and folders in the library.
 
 3. Upload the images or PowerPoint templates to a document library. 
 
