@@ -1,6 +1,7 @@
 ---
 title: "SharePoint Central Administration - Support for host header bindings and easier Alternate Access Mappings (AAM) configuration"
 ms.reviewer: 
+author: JitinMathew
 ms.author: v-jmathew
 manager: serdars
 audience: ITPro
