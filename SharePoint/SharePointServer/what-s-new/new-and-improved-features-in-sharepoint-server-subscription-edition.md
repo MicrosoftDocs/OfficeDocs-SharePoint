@@ -18,7 +18,6 @@ ms.custom:
 description: "Learn about the new features and updates to existing features in SharePoint Server Subscription Edition."
 ---
 
-
 # New and improved features in SharePoint Server Subscription Edition
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
@@ -31,11 +30,13 @@ The following table provides the list of new features and updates to existing fe
 
 |**Feature Group**|**Features**|**More info**|
 |:-----|:-----|:-----|
-|Authentication and Identity Management <br/> | <ul><li>Adds support for OpenID Connect (OIDC) 1.0</li><li>Enhanced People Picker for modern authentication</li></ul> | <ul><li>For more information, see [OpenID Connect (OIDC) 1.0 authentication](#OIDCa).</li><li>For more information, see [People Picker improvement for modern authentication](#people).</li></ul> | 
-|Deployment and Upgrade <br/> | <ul><li>Adds support for Windows Server 2022</li><li>Adds support for Windows Server Core</li><li>Supports "N - 2" upgrading from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)</li></ul> | <ul><li>For more information, see [Windows Server 2022](#server).</li><li>For more information, see [Windows Server Core](#core).</li><li>For more information, see [Upgrading directly from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)](#upgrade).</li></ul> |
-|Farm Administration <br/> | <ul><li>Federated service applications support "N - 2" content farms (SharePoint 2016, 2019, and Subscription Edition)</li></ul> | <ul><li>For more information, see [Federated service applications support "N - 2" content farms (SharePoint 2016, 2019, and Subscription Edition)](#fedral).</li></ul> | 
-|PowerShell <br/> | <ul><li>SharePoint PowerShell cmdlets converted from snap-in to module</li></ul> | <ul><li>For more information, see [SharePoint PowerShell cmdlets converted from snap-in to module](#snap).</li></ul> |
-|Search <br/> | <ul><li>Support for returning list content in modern results page</li></ul> | <ul><li>For more information, see [Support for returning list content in modern results page](#listmrp).</li></ul> |
+|Authentication and Identity Management <br/> | <ul><li>Adds support for OpenID Connect (OIDC) 1.0</li><li>Enhanced People Picker for modern authentication</li><li>Improved Integrated Windows authentication over TLS</li></ul> | <ul><li>For more information, see [OpenID Connect (OIDC) 1.0 authentication](#OIDCa).</li><li>For more information, see [People Picker improvement for modern authentication](#people).</li><li>For more information, see [Reduced Integrated Windows authentication latency over TLS](#IIW).</li></ul> | 
+|Deployment and Upgrade <br/> | <ul><li>Adds support for Windows Server 2022</li><li>Adds support for Windows Server Core</li><li>Supports "N - 2" upgrading from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)</li><li>AppFabric Cache integration</li></ul> | <ul><li>For more information, see [Windows Server 2022](#server).</li><li>For more information, see [Windows Server Core](#core).</li><li>For more information, see [Upgrading directly from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)](#upgrade).</li><li>For more information, see [AppFabric Cache integration](#cache).</li></ul> |
+|Farm Administration <br/> | <ul><li>Adds support for host header bindings on Central Admin web application</li><li>Adds support for Server Name Indication (SNI) for host header bindings</li><li>Change web application bindings</li><li>Easier AAM configuration for Central Administration</li><li>Federated service applications support "N - 2" content farms (SharePoint 2016, 2019, and Subscription Edition)</li><li>Support for client certificate authentication to SMTP servers</li></ul> | <ul><li>For more information, see [Central Administration now supports host header bindings](#cenadmin).</li><li>For more information, see [Server Name Indication](#sni).</li><li>For more information, see [Change web application IIS bindings](#webiis).</li><li>For more information, see [Easier AAM configuration for Central Administration](#aamcon).</li><li>For more information, see [Federated service applications support "N - 2" content farms (SharePoint 2016, 2019, and Subscription Edition)](#fedral).</li><li>For more information, see [Client certificate authentication to SMTP servers](#client).</li></ul> | 
+|Health and Monitoring <br/> | <ul><li>Certificate notification contacts haven't been configured</li><li>Upcoming SSL certificate expirations</li><li>SSL certificates are about to expire</li><li>SSL certificates have expired</li></ul> | <ul><li>For more information, see [Certificate notification contacts haven't been configured](#cncc).</li><li>For more information, see [Upcoming SSL certificate expirations](#usce).</li><li>For more information, see [SSL certificates are about to expire](#sslcate).</li><li>For more information, see [SSL certificates have expired](#sslche).</li></ul> |
+|Hybrid <br/> | <ul><li>Better integration with Power Apps and Power Automate</li><li>Cloud SSA (Search) supports Microsoft 365 Multi-Geo</li><li>Improved hybrid search troubleshooting</li></ul> | <ul><li>For more information, see [Power Apps and Power Automate integration](#power).</li><li>For more information, see [Cloud SSA (Search) supports Microsoft 365 Multi-Geo](#ssa).</li><li>For more information, see [Improved hybrid search troubleshooting](#ihst).</li></ul> | 
+|PowerShell <br/> | <ul><li>SharePoint PowerShell cmdlets converted from snap-in to module</li><li>Distributed Cache cmdlets</li><li>New-SPWebApplication creates web applications in Windows claims mode by default</li><li>New People Picker cmdlets</li><li>Remove-SPConfigurationObject cmdlet</li><li>SharePoint Volume Shadow Copy Service writer cmdlets</li></ul> | <ul><li>For more information, see [SharePoint PowerShell cmdlets converted from snap-in to module](#snap).</li><li>For more information, see [Distributed Cache cmdlets](#dcc).</li><li>For more information, see [New-SPWebApplication PowerShell cmdlet](#spweb).</li><li>For more information, see [New People Picker cmdlets](#nppc)</li><li>For more information, see [Introducing Remove-SPConfigurationObject PowerShell cmdlet](#resp).</li><li>For more information, see [SharePoint Volume Shadow Copy Service writer cmdlets](#vscs).</li></ul> |
+|Search <br/> | <ul><li>Search result page modernization</li><li>Support for returning list content in modern results page</li><li>Thumbnails in modern search result page</li></ul> | <ul><li>For more information, see [Search result page modernization](#seres).</li><li>For more information, see [Support for returning list content in modern results page](#listmrp).</li><li>For more information, see [Thumbnails in modern search result page](#tmsr).</li></ul> |
 |Security <br/> | <ul><li>Adds support for TLS 1.3</li><li>Strong TLS encryption by default</li></ul> | <ul><li>For more information, see [TLS 1.3](#tlss).</li><li>For more information, see [Strong TLS encryption by default](#tlsed).</li></ul> |
 |Sites, Lists, and Libraries <br/> | <ul><li>Accessibility improvements</li><li>Image and document thumbnails in document libraries and picture libraries</li></ul> | <ul><li>For more information, see [Accessibility improvements across modern UX](#aiamu).</li><li>For more information, see [Image and document thumbnails in document libraries and picture libraries](#idt).</li></ul> |
 
@@ -62,6 +63,15 @@ When modern authentication (trusted identity provider) such as SAML 1.1 or OIDC 
 In SharePoint Server Subscription Edition, the People Picker has been enhanced to allow resolving users and groups based on their profiles in the User Profile Application (UPA). UPA must be configured to synchronize users and groups from the trusted identity provider membership store. This allows the People Picker to only resolve valid users and groups without requiring a custom claims provider.
 
 To configure People Picker, see [Enhanced People Picker for modern authentication](../administration/enhanced-people-picker-for-trusted-authentication-method.md).
+
+<a name="IIW"> </a>
+### Reduced Integrated Windows authentication latency over TLS
+
+Internet Information Services (IIS) 10 advertises support for HTTP/2 during TLS negotiation, letting the client know that it can use HTTP/2 once the Transport Layer Security (TLS) connection is complete. However, HTTP/2 and above are not compatible with Integrated Windows authentication protocols such as Negotiate (Kerberos) and New Technology LAN Manager (NTLM). 
+
+If a server detects that a client is attempting to perform Kerberos or NTLM authentication over an HTTP/2 or HTTP/3 connection, it will notify the client to downgrade the connection to HTTP/1.1 and restart the attempt. This results in extra round trips between the client and the server during authentication, which increases latency. 
+
+SharePoint Server Subscription Edition reduces this authentication latency by disabling HTTP/2 and Quick UDP Internet Connections (QUIC) in SharePoint IIS web sites when Negotiate (Kerberos) or NTLM are enabled. HTTP/2 and QUIC will continue to be available on SharePoint IIS web sites that aren't configured to use Negotiate (Kerberos) or NTLM.
 
 ## Deployment and Upgrade
 
@@ -115,9 +125,66 @@ For more information:
  - To install SharePoint Server Subscription Edition, see [Installation overview for SharePoint Server Subscription Edition](../install/install-overview-spserver-se.md).
  
  - To upgrade to SharePoint Server Subscription Edition, see [Upgrade to SharePoint Server Subscription Edition](../upgrade-and-update/upgrade-to-sharepoint-server-subscription-edition.md).
+
+<a name="cache"> </a>
+### AppFabric Cache integration
+
+In previous versions of SharePoint Server, the Distributed Cache feature relied on Windows Server AppFabric, which was a separately installed component. Starting with SharePoint Server Subscription Edition, the AppFabric caching technology has been directly integrated into the Distributed Cache feature. Distributed Cache no longer relies on the external Windows Server AppFabric component and it will no longer be installed by the Microsoft SharePoint Products Preparation Tool. 
  
 ## Farm Administration
+
+<a name="cenadmin"> </a>
+### Central Administration now supports host header bindings
+
+You can now configure the SharePoint Central Administration website to use a host header binding, which will allow it to share the same TCP port number as other websites. This would typically be used to let the SharePoint Central Administration site and your content website to be hosted on the same TCP port, such as port 443 for SSL.
+
+To configure this, specify the host header binding with the `-HostHeader` parameter of the `New-SPCentralAdministration` and `Set-SPCentralAdministration` cmdlets, or with the `-hostheader` parameter of the `psconfig.exe -cmd adminvs` command.
+
+<a name="sni"> </a>
+### Server Name Indication (SNI)
+
+Server Name Indication (SNI) allows multiple IIS websites with unique host headers and unique server certificates to share the same Secure Sockets Layer (SSL) port. The server examines the server name specified by the client during the SSL handshake to determine which server certificate should be used to complete the connection. Your IIS website must have a host header and must use SSL to use Server Name Indication. If Server Name Indication isn't used, all IIS websites sharing the same SSL port will share the same server certificate.
+
+Server Name Indication can be configured by the **Use Server Name Indication** setting on the **Create New Web Application** and **Extend Web Application** pages in SharePoint Central Administration.  
+
+It can also be configured by the following commands:
+
+ - `psconfig.exe -adminvs -port <port number> -hostheader <host header> -ssl -usesni`
   
+ - `New-SPCentralAdministration -Port <port number> -HostHeader <host header> -SecureSocketsLayer -UseServerNameIndication`
+  
+ - `Set-SPCentralAdministration -Port <port number> -HostHeader <host header> -SecureSocketsLayer -UseServerNameIndication` 
+ 
+ - `New-SPWebApplication ... -Port <port number> -HostHeader <host header> -SecureSocketsLayer -UseServerNameIndication`
+  
+ - `Set-SPWebApplication ... -Port <port number> -HostHeader <host header> -SecureSocketsLayer -UseServerNameIndication`
+  
+ - `New-SPWebApplicationExtension ... -Port <port number> -HostHeader <host header> -SecureSocketsLayer -UseServerNameIndication` 
+
+<a name="webiis"> </a>
+### Change web application IIS bindings
+  
+You can change your web application IIS bindings in SharePoint Server Subscription Edition without having to first delete and then recreate your web applications. This functionality is supported in all web application zones.
+
+To change your web application IIS binding in PowerShell, use the `Set-SPWebApplication` cmdlet. For example, you can run the following PowerShell command to change a SharePoint web application at http://servername on HTTP port 80 to use a host header binding "sharepoint.contoso.com" on SSL port 443:
+
+ ```PowerShell
+Set-SPWebApplication -Identity http://servername -Zone Default -Port 443 -SecureSocketsLayer -HostHeader sharepoint.contoso.com -Url https://sharepoint.contoso.com
+```
+
+You can also change the SharePoint web application IIS bindings through Central Administration. The SharePoint farm administrators can use the Edit button in the **Web Application Management** page in Central Administration, to select a web application's zone. Here you can change the IIS bindings, SSL certificate, and public URL of this web application's zone. This functionality is only available to users who are a member of the local Administrators group on the server.
+
+<a name="aamcon"> </a>
+### Easier AAM configuration for Central Administration
+
+You can now specify the public AAM URL directly in the Central Administration command-line tools, bringing them to parity with the content web application command-line tools.  This can be specified via the optional `-Url <String>` parameter in the following PowerShell cmdlets and `PSConfig.exe` command-line utility:
+
+ - `New-SPCentralAdministration`
+ 
+ - `Set-SPCentralAdministration`
+ 
+ - `PSConfig.exe -cmd adminvs`
+
 <a name="fedral"> </a>  
 ### Federated service applications support "N - 2" content farms (SharePoint 2016, 2019, and Subscription Edition)
   
@@ -130,6 +197,60 @@ In SharePoint Server, some service applications can be shared across server farm
  - SharePoint Server 2016 (N - 2)
 
 For more information, see [Share service applications across farms in SharePoint Server](/sharepoint/administration/share-service-applications-across-farms).
+
+<a name="client"> </a>
+### Client certificate authentication to SMTP servers
+
+You can now authenticate to Simple Mail Transfer Protocol (SMTP) servers using client certificates. You need to import a client certificate into your farm using our SSL certificate management, then assign that client certificate to the outgoing email settings within the SharePoint farm.
+
+## Health and Monitoring
+
+<a name="cncc"> </a>
+### Certificate notification contacts haven't been configured
+
+This health rule runs weekly to provide notifications through Central Administration when certificates are in use and no certificate notification contacts have been configured.
+
+<a name="usce"> </a>
+### Upcoming SSL certificate expirations
+
+This health rule runs weekly to provide advanced notification through both Central Administration and email of upcoming certificate expirations.
+
+<a name="sslcate"> </a>
+### SSL certificates are about to expire
+
+This health rule runs daily to provide advanced notification through both Central Administration and email when certificates are about to expire.
+
+<a name="sslche"> </a>
+### SSL certificates have expired
+
+This health rule runs daily to provide notification through both Central Administration and email when certificates have expired.
+
+## Hybrid
+
+<a name="power"> </a>
+### Power Apps and Power Automate integration
+
+Two new commands will be available in the modern document library page and modern list page command bar when a SharePoint Server Subscription Edition farm is connected to a Microsoft 365 tenant through hybrid:
+
+  - Power Apps
+  
+  - Power Automate
+  
+These commands will take you directly to the Power Apps and Power Automate service pages. 
+
+<a name="ssa"> </a>
+### Cloud hybrid search (Cloud SSA) supports hybrid data residence on multiple regions
+  
+The cloud hybrid search (cloud SSA) feature in SharePoint Server Subscription Edition supports hybrid data residence on multiple regions when Microsoft 365 multi-geo is enabled in your tenant. You can index your on-premises farms’ data on the different regions in Microsoft 365, or move your hybrid index from one region to another region in Microsoft 365.
+
+<a name="ihst"> </a>
+### Improved hybrid search troubleshooting
+
+There are two improvements added to Search Crawler Log in Center Admin user experience:
+  
+  - A new column called **online ID** is introduced to crawler log for all contents when SharePoint Farm is configured with cloud hybrid search (cloud SSA). This **online ID** is SharePoint online search index for On-Premises contents in SharePoint Server.
+  
+  - A new Warning breakdown tab is added next to the Error breakdown tab in the crawler log page. It provides the ability for administrators to examine search crawler warnings with the same user experience as the Error breakdown tab by listing all of the warnings in the crawler log.
 
 ## PowerShell
 
@@ -147,12 +268,124 @@ It includes the following benefits:
 > [!NOTE]
 > The SharePoint Management Shell will continue to be included in the product to provide a familiar PowerShell UI for managing SharePoint Server. The SharePoint Server PowerShell cmdlets will continue to require Windows PowerShell. These cmdlets will not be compatible with PowerShell Core 6.x or PowerShell 7.x.
 
+<a name="dcc"> </a>
+### Distributed Cache cmdlets
+  
+The following SharePoint cmdlets have been added to help manage Distributed Cache in SharePoint Server Subscription Edition. These cmdlets are equivalent to the direct Distributed Cache cmdlets that were available in the standalone AppFabric Distributed Cache product used with previous versions of SharePoint Server.
+  
+ - `Start-SPCacheCluster`: Starts the Caching Service on all cache hosts in the cluster.
+   
+ - `Stop-SPCacheCluster`: Stops the Caching Service on all cache hosts in the cluster.
+   
+ - `Import-SPCacheClusterConfig -Path <String>`: Imports the cache cluster configuration details from an XML file.
+   
+ - `Export-SPCacheClusterConfig -Path <String>`: Export cache cluster configuration details to an XML file.
+   
+ - `Get-SPCacheClusterHealth`: Returns statistics for all of the named caches in the cache cluster.
+  
+The `Get-SPCacheHost` PowerShell cmdlet is added to help manage the SharePoint Distributed Cache feature. It provides the same functionality as the `Get-CacheHost` cmdlet in previous versions of AppFabric Caching.
+
+The `Stop-SPDistributedCacheServiceInstance` cmdlet is improved to better support graceful shutdowns. You can specify the `-Graceful` switch parameter with the cmdlet to ensure that the cached data in a Distributed Cache service instance is transferred to another Distributed Cache service instance before the first service instance shuts down. 
+
+You can specify the time limit for a graceful shutdown data transfer to complete via the `-Timeout` parameter.  If the `-Timeout` parameter isn't specified, the default is 900 seconds (5 minutes). You can also specify the `-Force` switch parameter to force a Distributed Cache service instance to shut down, even if it isn’t able to complete a graceful shutdown before it times out.
+
+To improve the management of Distributed Cache in SharePoint Server Subscription Edition, the following new PowerShell cmdlets are introduced:
+
+ - `New-SPCache`
+ 
+ - `Get-SPCache`
+ 
+ - `Get-SPCacheStatistics`
+ 
+These cmdlets work similar to the `New-Cache`,`Get-Cache`, and `Get-CacheStatistics` cmdlets of AppFabric Cache in previous versions of SharePoint.
+
+<a name="spweb"> </a>
+### New-SPWebApplication PowerShell cmdlet
+  
+In previous versions of SharePoint, you had to specify the `AuthenticationProvider` parameter in the `New-SPWebApplication` and `New-SPWebApplicationExtension` PowerShell cmdlets to create web applications using Windows Claims authentication. If you didn't, the web application would have been created in the Windows Classic authentication mode and you would have received a warning. 
+
+As the Windows Classic authentication mode is no longer supported, the behaviors of these PowerShell cmdlets have changed when you don't specify the `AuthenticationProvider` parameter. In SharePoint Server Subscription Edition, the PowerShell cmdlet creates web applications in Windows claims mode by default and the warning message will no longer be displayed. The Central Administration web application will continue to use Windows Classic authentication.
+
+<a name="nppc"> </a>
+### New People Picker cmdlets
+
+We've added the following PowerShell cmdlets to configure the People Picker and replace the stsadm.exe commands described in [Configure People Picker (SharePoint Server 2010)](https://docs.microsoft.com/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14)).
+
+ - `Get-SPPeoplePickerConfig`
+
+ - `Set-SPPeoplePickerConfig`
+
+ - `Add-SPPeoplePickerSearchADDomain`
+
+ - `Clear-SPPeoplePickerSearchADDomain`
+
+ - `Get-SPPeoplePickerSearchADDomain`
+
+ - `Remove-SPPeoplePickerSearchADDomain`
+
+ - `Add-SPPeoplePickerDistributionListSearchDomain`
+
+ - `Clear-SPPeoplePickerDistributionListSearchDomain`
+
+ - `Get-SPPeoplePickerDistributionListSearchDomain`
+
+ - `Remove-SPPeoplePickerDistributionListSearchDomain`
+
+ - `Add-SPPeoplePickerServiceAccountDirectoryPath`
+
+ - `Clear-SPPeoplePickerServiceAccountDirectoryPath`
+
+ - `Remove-SPPeoplePickerServiceAccountDirectoryPath`
+
+<a name="resp"> </a>
+### Introducing Remove-SPConfigurationObject PowerShell cmdlet
+  
+The `Remove-SPConfigurationObject` PowerShell cmdlet replaces the `stsadm.exe -o deleteconfigurationobject` command.  
+
+Its parameters are:
+
+ - `[-Identity] <guid>`: The GUID of the object in the SharePoint configuration database to delete.
+   
+ - `[-Force]`: Specifies that the object will be deleted without confirmation that you want to proceed. This can be used for scripts that don't support interactive confirmation prompts.
+
+> [!WARNING]
+> Improper usage of this cmdlet has the potential to destroy necessary data in a SharePoint configuration database, requiring a complete rebuild of the SharePoint farm. Use it only under guidance with Microsoft Support.
+
+<a name="vscs"> </a>
+### SharePoint Volume Shadow Copy Service writer cmdlets
+  
+To improve the management of the [SharePoint Volume Shadow Copy Service (VSS) writer](https://docs.microsoft.com/sharepoint/dev/general-development/overview-of-sharepoint-and-the-volume-shadow-copy-service), the following new PowerShell cmdlets are introduced:
+
+ - `Register-SPVssWriter`
+ 
+ - `Unregister-SPVssWriter`
+ 
+These cmdlets perform the same actions as the [stsadm.exe -o registerwsswriter](https://docs.microsoft.com/previous-versions/office/sharepoint-2007-products-and-technologies/cc262819(v=office.12))and [stsadm.exe -o unregisterwsswriter](https://docs.microsoft.com/previous-versions/office/sharepoint-2007-products-and-technologies/cc262416(v=office.12)) commands.
+
 ## Search
+
+<a name="seres"> </a>
+### Search result page modernization
+  
+We're bringing modern experiences from SharePoint in Microsoft 365 to the search result page in SharePoint Server Subscription Edition to make it more compelling, flexible, and easier to use. This will provide a closer look and feel to Microsoft 365.
+
+The following features have been modernized and introduced into this release:
+
+ - Centralized search bar.
+ 
+ - Content type filters including **All**, **Files**, **Sites**, and **News**. **All** is introduced to have the results of **Files**, **Sites**, and **News**.
+ 
+ - Duration filter. Filter content by time scope.
 
 <a name="listmrp"> </a>
 ### Support for returning list content in modern results page
   
 Lists and list items are now searchable in the modern UX. List item results will be included in the **All** category of the modern search result page.
+
+### Thumbnails in modern search result page
+<a name="tmsr"> </a>
+
+The modern search result page will now show thumbnails for popular document and image file types such as PDF, Word, PowerPoint, PNG, JPEG, GIF, and more.
 
 ## Security
 
