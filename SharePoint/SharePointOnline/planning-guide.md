@@ -117,6 +117,3 @@ This step will help you determine where you may need to engage subject matter ex
 <a name="__configure_infopath_forms"> </a>
 
 As part of your planning, you should evaluate whether your organization has specific business needs that might require you to use third-party services or applications to customize SharePoint. For example, your organization might need to migrate a large volume of content or a large number of users to your SharePoint site. Or you might have business processes that require support for email-enabled lists. If you think that your organization might benefit from third-party services or applications, please explore the professional services and applications available from partners in the [Microsoft Partner Center](https://go.microsoft.com/fwlink/?linkid=839525). You can find experts to help you deploy in the cloud or tailor Microsoft 365 for the needs of your business. It is a good idea to explore and research available third-party services and solutions at the beginning of your planning process. 
-  
-
-""
