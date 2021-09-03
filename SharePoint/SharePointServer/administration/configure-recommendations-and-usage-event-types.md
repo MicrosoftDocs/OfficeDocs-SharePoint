@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0830f8f5-4432-4a75-9974-0bb77268f2f1
 description: "Usage events enable you to track how users interact with items on your site. Items can be documents, sites, or catalog items. When a user interacts with an item on your site, SharePoint Server generates a usage event for this action. For example, if you want to monitor how often a catalog item is viewed from a mobile phone, you can track this activity."

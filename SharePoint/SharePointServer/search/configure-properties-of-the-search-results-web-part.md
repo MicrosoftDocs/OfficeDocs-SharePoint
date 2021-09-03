@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d0e68cf4-80f6-4f1f-af49-a3b9c43408ac
 description: "Learn how to configure the query and properties of the Search Results Web Part, and how to disable stemming in the Web Part."

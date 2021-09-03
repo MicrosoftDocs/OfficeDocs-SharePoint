@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 590a94c3-11f2-41b9-962d-b10d3e1f328e
 description: "Learn about the SharePoint mobility features, services, and browsing experiences with a deployment of SharePoint Server 2013."
 ---

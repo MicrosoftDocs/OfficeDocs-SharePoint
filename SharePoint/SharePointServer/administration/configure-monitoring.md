@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 274c4c7a-e635-4bc9-85b3-9737620f9909
 description: "Learn more about SharePoint diagnostic logging, SharePoint Health Analyzer timer jobs and rules, and usage and health data."

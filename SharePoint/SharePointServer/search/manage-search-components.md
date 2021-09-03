@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 197ce911-c4f6-40a3-84c1-fb5999623b51
 description: "Learn how to use Windows PowerShell to manage search components in an existing search topology that has content in the SharePoint Server search index. Use these procedures to scale out or scale down the search topology of the Search service application."

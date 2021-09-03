@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: a8c86550-d709-4333-9b38-181590d5ead9
 description: "Learn how SharePoint Server farm administrators assign, monitor, and manage the app for SharePoint Server licenses in SharePoint Server."

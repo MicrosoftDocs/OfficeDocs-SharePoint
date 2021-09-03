@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: e913bd67-b50b-47d7-9784-2d312b97de0b
 description: "Learn how to organize SharePoint Server content and metadata to make the content easier to find."

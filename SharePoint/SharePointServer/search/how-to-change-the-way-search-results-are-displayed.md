@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 240ded25-3e64-4be4-84f3-346fda89827f
 description: "Learn how to change the way search results are displayed in classic search in SharePoint Server."
 ---
