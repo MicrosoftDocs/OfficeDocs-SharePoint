@@ -36,16 +36,18 @@ Even if you choose not to allow users to add apps from the SharePoint Store, the
   
 1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+   > [!NOTE]
+   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page.
+   > 
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
 
 2. Under **Apps**, select **Open**, and then select **Configure Store Settings**.
     
 3. Next to **App Purchases**, do one of the following:
     
-  - If you want users to be able to add apps, select **Yes**. (The setting uses the word "purchases" and mentions paid apps, but all apps in the SharePoint Store are now free.)
+   - If you want users to be able to add apps, select **Yes**. (The setting uses the word "purchases" and mentions paid apps, but all apps in the SharePoint Store are now free.)
     
-  - If you do not want users to be able to get third-party apps, select **No**. 
+   - If you do not want users to be able to get third-party apps, select **No**. 
     
 ## View or manage app requests
 <a name="__top"> </a>
@@ -54,8 +56,10 @@ When users request an app, they are requesting that an admin get that app on the
   
 1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+   > [!NOTE]
+   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page.
+   > 
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
 
 2. Under **Apps**, select **Open**, and then select **Configure Store Settings**.
     
@@ -65,9 +69,9 @@ When users request an app, they are requesting that an admin get that app on the
     
 5. In the **Status** list, do one of the following: 
     
-  - To approve the request, select **Approved**. If you approve the app request and want to add the app immediately, select the link next to **View App Details**. The app details page in the SharePoint Store will open in another tab in your browser, and you can follow the steps to add the app. 
+   - To approve the request, select **Approved**. If you approve the app request and want to add the app immediately, select the link next to **View App Details**. The app details page in the SharePoint Store will open in another tab in your browser, and you can follow the steps to add the app. 
     
-  - To decline the request, select **Declined**.
+   - To decline the request, select **Declined**.
     
 6. On the app request form, add any comments in the **Approvers Comments** field, and then select **Save**.
     
@@ -82,13 +86,13 @@ Documents stored on sites may contain apps for Office from several sources. You 
   
 1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **More features** page.
+   > [!NOTE]
+   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **More features** page.
 
 2. Under **Apps**, select **Open**, and then select **Configure Store Settings**.
  
 3. Next to **Apps for Office from the Store**, do one of the following:
     
-  - If you want to allow apps for Office to start when documents are opened in the browser, select **Yes**. 
+   - If you want to allow apps for Office to start when documents are opened in the browser, select **Yes**. 
     
-  - If you do not want to allow apps for Office to start when documents are opened in the browser, select **No**.
+   - If you do not want to allow apps for Office to start when documents are opened in the browser, select **No**.
