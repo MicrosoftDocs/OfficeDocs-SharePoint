@@ -51,7 +51,7 @@ Even if you don't plan to make internal custom apps available, you won't be able
     
 4. If the **App Catalog** site doesn't open, select an option for creating it or specifying it, and then select **OK**.
     
-    ![Apps page with Automatically create a new app catalog site selected.](media/a7b6b416-5e02-43a8-a15a-f996b95dcc8f.PNG)
+    ![Apps page with Automatically create a new app catalog site selected.](media/automatically-create-app-catalog.png)
   
 ## Work with SharePoint Store apps
 <a name="__toc347303050"> </a>
