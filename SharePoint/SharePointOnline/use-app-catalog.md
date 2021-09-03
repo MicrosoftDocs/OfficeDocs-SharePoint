@@ -68,7 +68,7 @@ When you add an app from the SharePoint Store to the App Catalog, you make it av
 
 4. Select **Add**.
 
-    ![Deploy a SharePoint Framework app from the store.](media/deployspfxappfromstore.gif)
+    :::image type="content" alt-text="Deploy a SharePoint Framework app from the store." source="media/deployspfxappfromstore.gif" lightbox="media/deployspfxappfromstore.gif":::
 
 5. Review app permissions and data access.
 
