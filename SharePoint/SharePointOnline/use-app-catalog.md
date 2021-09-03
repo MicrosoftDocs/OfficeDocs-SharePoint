@@ -63,14 +63,19 @@ When you add an app from the SharePoint Store to the App Catalog, you make it av
     ![The home page of the App Catalog.](media/e20ffd32-5162-49a0-a635-8486e0083afd.png)
 
 2. Search for an app or select a category on the left to scroll through available apps.
+
 3. Select an app you want to add. In some cases, adding the app might be supported in the SharePoint Store classic experience only.
+
 4. Select **Add**.
 
-    ![Deploy a SharePoint Framework app from the store](media/deployspfxappfromstore.gif)
+    ![Deploy a SharePoint Framework app from the store.](media/deployspfxappfromstore.gif)
 
 5. Review app permissions and data access.
+
 6. Some apps have the option to be added to all sites in the organization so that site owners don't have to. If you want to do this, select **Add this app to all sites**. 
+
 7. Select **Add**.
+
 8. If the app requires additional permissions, a message will appear. Select **Go to API access page** to approve the permission request.
 
 
