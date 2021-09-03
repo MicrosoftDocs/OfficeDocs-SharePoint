@@ -37,7 +37,7 @@ A site (previously called site collection) has the same owner and shares adminis
 
  If you figure out a few basic details — for example, what a site will be used for, and which users need to have access to it — then this will help you make decisions about what type of site template to use, how much storage to allocate, and how many sites you might need to create. If you need to review your storage limits or the number of sites that are supported for your plan, see [SharePoint Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits). 
   
-|**If you want to determine this:**|**Ask this:**|
+| If you want to determine this: | Ask this: |
 |:-----|:-----|
 |What type of site should I create?  <br/> For info about the new site templates and the variety of classic templates available in SharePoint, see [Using templates to create different kinds of SharePoint sites](https://support.office.com/article/449eccec-ff99-4cf3-b62e-dcfee37e8da4).  <br/> | Do you want to connect a group of people for collaboration, or do you want to broadcast content to a larger audience?  <br/>  Will the site fill a specialized purpose?  <br/> |
 |How many sites do we need?  <br/>Some sites are automatically created for you when you sign up for Microsoft 365.|  How many divisions does your organization have and how much content do you need to promote across your organization. See [Plan an intelligent SharePoint intranet](plan-intranet.md) <br/> |
@@ -50,7 +50,7 @@ Governance is the set of policies, roles, responsibilities, and processes that c
   
 When you think about how to structure and govern your sites, consider the answers to these questions.
   
-|**If you want to achieve this:**|**Ask this:**|
+| If you want to achieve this: | Ask this: |
 |:-----|:-----|
 |An effective site consists of groups of individuals and teams that share common goals.  <br/> |Does the structure of your sites add to your organization's effectiveness?  <br/> |
 |A secure site that is open to those who need the info, but where info is blocked from those who should not see it.  <br/> |Does the structure allow the information architecture to meet regulatory requirements, privacy needs, and security goals?  <br/> |
@@ -105,7 +105,7 @@ There are some features that can be configured or managed globally from the Shar
 
 This step will help you determine where you may need to engage subject matter experts in your organization to help partner with admin staff in planning the configuration of these features. For example, to gather the necessary requirements for configuring features like the Term Store, or Records Management features like the Content Organizer, you may need to partner with the people in your organization who are responsible for corporate taxonomy, records management, or content management.
   
-|**Do you need these capabilities?**|**To learn more about setting this up, go here:**|
+| Do you need these capabilities? | To learn more about setting this up, go here: |
 |:-----|:-----|
 |You need to configure Search for your SharePoint environment.  <br/> |[SharePoint search administration overview](manage-search-the-admin-center.md) <br/> |
 |You want to create and use taxonomies to classify and organize information on sites.  <br/> | You can use the Term Store Management Tool to create, import, and manage hierarchical collections of centrally managed terms (called term sets).  <br/> [Introduction to managed metadata](managed-metadata.md) <br/> |
