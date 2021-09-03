@@ -37,8 +37,9 @@ The following table provides the list of new features and updates to existing fe
 |Hybrid <br/> | <ul><li>Better integration with Power Apps and Power Automate</li><li>Cloud SSA (Search) supports Microsoft 365 Multi-Geo</li><li>Improved hybrid search troubleshooting</li></ul> | <ul><li>For more information, see [Power Apps and Power Automate integration](#power).</li><li>For more information, see [Cloud SSA (Search) supports Microsoft 365 Multi-Geo](#ssa).</li><li>For more information, see [Improved hybrid search troubleshooting](#ihst).</li></ul> | 
 |PowerShell <br/> | <ul><li>SharePoint PowerShell cmdlets converted from snap-in to module</li><li>Distributed Cache cmdlets</li><li>New-SPWebApplication creates web applications in Windows claims mode by default</li><li>New People Picker cmdlets</li><li>Remove-SPConfigurationObject cmdlet</li><li>SharePoint Volume Shadow Copy Service writer cmdlets</li></ul> | <ul><li>For more information, see [SharePoint PowerShell cmdlets converted from snap-in to module](#snap).</li><li>For more information, see [Distributed Cache cmdlets](#dcc).</li><li>For more information, see [New-SPWebApplication PowerShell cmdlet](#spweb).</li><li>For more information, see [New People Picker cmdlets](#nppc)</li><li>For more information, see [Introducing Remove-SPConfigurationObject PowerShell cmdlet](#resp).</li><li>For more information, see [SharePoint Volume Shadow Copy Service writer cmdlets](#vscs).</li></ul> |
 |Search <br/> | <ul><li>Search result page modernization</li><li>Support for returning list content in modern results page</li><li>Thumbnails in modern search result page</li></ul> | <ul><li>For more information, see [Search result page modernization](#seres).</li><li>For more information, see [Support for returning list content in modern results page](#listmrp).</li><li>For more information, see [Thumbnails in modern search result page](#tmsr).</li></ul> |
-|Security <br/> | <ul><li>Adds support for TLS 1.3</li><li>Strong TLS encryption by default</li></ul> | <ul><li>For more information, see [TLS 1.3](#tlss).</li><li>For more information, see [Strong TLS encryption by default](#tlsed).</li></ul> |
-|Sites, Lists, and Libraries <br/> | <ul><li>Accessibility improvements</li><li>Image and document thumbnails in document libraries and picture libraries</li></ul> | <ul><li>For more information, see [Accessibility improvements across modern UX](#aiamu).</li><li>For more information, see [Image and document thumbnails in document libraries and picture libraries](#idt).</li></ul> |
+|Security <br/> | <ul><li>SSL certificate management</li><li>Adds support for TLS 1.3</li><li>Strong TLS encryption by default</li><li>Improved ASP.NET view state security and key management</li></ul> | <ul><li>For more information, see [SSL certificate management](#sslcm).</li><li>For more information, see [TLS 1.3](#tlss).</li><li>For more information, see [Strong TLS encryption by default](#tlsed).</li><li>For more information, see [Improved ASP.NET view state security and key management](#aspnet).</li></ul> |
+|Sites, Lists, and Libraries <br/> | <ul><li>Accessibility improvements</li><li>Brick layout for document library thumbnails and image gallery web part</li><li>Bulk check-in and check-out</li><li>Bulk download files from document libraries and OneDrive personal sites</li><li>Image and document thumbnails in document libraries and picture libraries</li><li>List and library modern web parts support adding/editing/deleting content</li><li>Modern document sets</li></ul> | <ul><li>For more information, see [Accessibility improvements across modern UX](#aiamu).</li><li>For more information, see [Brick layout for document library thumbnails and image gallery web part](#briclil).</li><li>For more information, see [Bulk check-in/check-out in modern Document library experience](#bulkinout).</li><li>For more information, see [Bulk download files from document libraries and OneDrive personal sites](#bulkdod).</li><li>For more information, see [Image and document thumbnails in document libraries and picture libraries](#idt).</li><li>For more information, see [List and library modern web parts support adding/editing/deleting content](#llmw).</li><li>For more information, see [Modern document sets](#mds).</li></ul> |
+|Storage <br/> | <ul><li>New BLOB storage provider: Remote Share Provider</li><li>Remote Share Provider diagnostic tool</li></ul> | <ul><li>For more information, see [Remote Share Provider](#blob).</li><li>For more information, see [Remote Share Provider diagnostic tool](#rspdt).</li></ul> |
 
 ## Detailed description of features
 
@@ -389,6 +390,31 @@ The modern search result page will now show thumbnails for popular document and 
 
 ## Security
 
+<a name="sslcm"> </a>
+### SSL certificate management
+  
+SharePoint farm administrators can now directly manage the deployment and lifecycle of SSL/TLS certificates in their SharePoint Server farms. Certificate management is built on a modern and flexible infrastructure that supports both Elliptic Curve Cryptography (ECC) and classic RSA certificates.
+
+Certificate management capabilities include:
+  
+  - Generating new/renewal certificate signing requests (CSRs) to submit to their certificate authorities.
+  
+  - Importing/exporting certificates, with or without private keys.
+
+  - Viewing certificate properties.
+  
+  - Automatically deploy/retract certificates to each server in their SharePoint farm. 
+  
+  - Assigning/unassigning certificates to web applications. 
+  
+  - Automated scanning and notification of certificates that will soon expire or have already expired based on thresholds that can be configured by farm administrators. 
+  
+  - Certificate management functionality exposed via PowerShell command line and Central Admin UI. 
+ 
+  - Administrative logging of all certificate management operations for auditing purposes
+
+  - Public APIs allow external tools to integrate with the SharePoint certificate management feature.
+
 <a name="tlss"> </a>
 ### TLS 1.3 
 
@@ -422,6 +448,13 @@ Customers can allow legacy encryption to be used if needed for backward compatib
 
 For more information, see [Strong TLS Encryption](../security-for-sharepoint-server/strong-tls-encryption.md).
 
+<a name="aspnet"> </a> 
+### Improved ASP.NET view state security and key management
+
+SharePoint now encrypts the `machineKey` section of its `web.config` files by default. This prevents attackers from reading your ASP.NET view state encryption and validation keys even if they gain access to those `web.config` files.
+
+Farm administrators can also change the ASP.NET view state decryption and validation keys of a SharePoint web application through two new PowerShell cmdlets. This allows you to rotate those keys in your farm.
+
 ## Sites, Lists, and Libraries
 
 <a name="aiamu"> </a>
@@ -429,10 +462,69 @@ For more information, see [Strong TLS Encryption](../security-for-sharepoint-ser
   
 SharePoint Server Subscription Edition includes numerous accessibility improvements across the modern UX to ensure that all users can be productive with SharePoint.
 
+<a name="briclil"> </a>
+### Brick layout for document library thumbnails and image gallery web part
+  
+Brick layout respects the aspect ratio of all images shown in 16:9, 1:1, 4:3, and so on. With the Brick layout, you can show several images of various sizes, automatically **layered** in a pattern like that of a brick wall.
+
+We introduce Brick layout in modern document library and image gallery web part. You can add Brick layout as an option in image gallery web part and change the layout of modern document library from Grid layout to Brick layout.
+
+<a name="bulkinout"> </a>
+### Bulk check-in/check-out in modern document library experience
+  
+If you want to make changes to a file in a SharePoint document library, but keep others from making changes at the same time, check the file out of the document library. Once you're done making changes to the file, check it in from the library to upload your changes. 
+Instead of checking-in or checking-out one file at a time, now you can select multiple files and check them in/out.
+
+<a name="bulkdod"> </a>
+### Bulk download files from document library and OneDrive personal sites
+  
+SharePoint Server Subscription Edition now supports downloading multiple files at once from document libraries and OneDrive personal sites.
+You can select multiple files and folders and then click **Download** in the command bar. SharePoint will compress the selected files and folders into a ZIP file and then download the ZIP file to the user. 
+
+If users select a single file and click **Download** in the command bar, the file will continue to be directly downloaded to the user.
+
+The following are limitation on the bulk download feature: 
+
+ 1.	Each single file can't exceed 10 GB.
+ 
+ 2.	Total size of all the selected files can't exceed 20 GB.
+ 
+ 3.	Maximum level of folders is limited to 100 levels.
+ 
+ 4.	No more than 10000 files can be downloaded at once.
+  
+For more information about this feature, see [Download files and folders from OneDrive or SharePoint](https://support.microsoft.com/office/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05).
+
 <a name="idt"> </a>
 ### Image and document thumbnails in document libraries and picture libraries
 
 SharePoint Server Subscription Edition can render thumbnails of files in the Tiles view of document libraries and picture libraries. SharePoint will render thumbnails of popular image file formats such as PNG, JPEG, GIF, and more. And if you've linked your SharePoint Server farm to an Office Online Server farm, SharePoint will also be able to render thumbnails of popular document formats such as PDFs, Word documents, PowerPoint documents, and Rich Text Files.
+
+<a name="llmw"> </a>
+### List and library modern web parts support adding/editing/deleting content
+
+With SharePoint Server Subscription Edition, you can do the following to documents and list items in the web part:
+
+ - Document library web part: create, upload, share, download, rename, delete, and edit documents and folders.
+ 
+ - List web part: create, edit, and delete list items.
+ 
+<a name="mds"> </a> 
+### Modern document sets
+  
+In SharePoint Server Subscription Edition, the document Sets is enhanced so that you can enjoy the same modern experience when using Document Sets in modern document library.
+
+## Storage
+
+<a name="blob"> </a>
+### Remote Share Provider  
+  
+SharePoint managed account object is no longer required. Instead, `PSCredential` object will be used to store SMB storage credential and this object needs to be provided as the parameter of the cmdlet `Register-SPRemoteShareBlobStore`.
+
+<a name="rspdt"> </a>
+### Remote Share Provider diagnostic tool
+  
+This new PowerShell cmdlet helps admin to validate the data consistency of content database that is remote share provider enabled. This makes it easier for admin to figure out what are the problems in the remote storage.
 
 ## Related articles
 
