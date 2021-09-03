@@ -18,6 +18,7 @@ ms.custom:
 description: "Learn about the new features and updates to existing features in SharePoint Server Subscription Edition."
 ---
 
+
 # New and improved features in SharePoint Server Subscription Edition
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
@@ -207,6 +208,4 @@ SharePoint Server Subscription Edition can render thumbnails of files in the Til
 [System requirements for SharePoint Server Subscription Edition](../install/system-requirements-for-sharepoint-subscription-edition.md)
 
 [Upgrade to SharePoint Server Subscription Edition](../upgrade-and-update/upgrade-to-sharepoint-server-subscription-edition.md)
-
-
 
