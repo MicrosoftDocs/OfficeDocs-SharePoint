@@ -251,7 +251,7 @@ There are two improvements added to Search Crawler Log in Center Admin user expe
   
   - A new column called **online ID** is introduced to crawler log for all contents when SharePoint Farm is configured with cloud hybrid search (cloud SSA). This **online ID** is SharePoint online search index for On-Premises contents in SharePoint Server.
   
-  - A new Warning breakdown tab is added next to the Error breakdown tab in the crawler log page. It provides the ability for administrators to examine search crawler warnings with the same user experience as the Error breakdown tab by listing all of the warnings in the crawler log.
+  - A new **Warning breakdown** tab is added next to the **Error breakdown** tab in the crawler log page. It provides the ability for administrators to examine search crawler warnings with the same user experience as the **Error breakdown** tab by listing all of the warnings in the crawler log.
 
 ## PowerShell
 
@@ -310,7 +310,7 @@ As the Windows Classic authentication mode is no longer supported, the behaviors
 <a name="nppc"> </a>
 ### New People Picker cmdlets
 
-We've added the following PowerShell cmdlets to configure the People Picker and replace the stsadm.exe commands described in [Configure People Picker (SharePoint Server 2010)](https://docs.microsoft.com/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14)).
+We've added the following PowerShell cmdlets to configure the People Picker and replace the `stsadm.exe` commands described in [Configure People Picker (SharePoint Server 2010)](https://docs.microsoft.com/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14)).
 
  - `Get-SPPeoplePickerConfig`
 
@@ -383,8 +383,8 @@ The following features have been modernized and introduced into this release:
   
 Lists and list items are now searchable in the modern UX. List item results will be included in the **All** category of the modern search result page.
 
-### Thumbnails in modern search result page
 <a name="tmsr"> </a>
+### Thumbnails in modern search result page
 
 The modern search result page will now show thumbnails for popular document and image file types such as PDF, Word, PowerPoint, PNG, JPEG, GIF, and more.
 
@@ -465,15 +465,14 @@ SharePoint Server Subscription Edition includes numerous accessibility improveme
 <a name="briclil"> </a>
 ### Brick layout for document library thumbnails and image gallery web part
   
-Brick layout respects the aspect ratio of all images shown in 16:9, 1:1, 4:3, and so on. With the Brick layout, you can show several images of various sizes, automatically **layered** in a pattern like that of a brick wall.
-
-We introduce Brick layout in modern document library and image gallery web part. You can add Brick layout as an option in image gallery web part and change the layout of modern document library from Grid layout to Brick layout.
+SharePoint Server Subscription Edition introduces the Brick layout as a layout option in modern document libraries and the image gallery web part. The Brick layout displays several images of various sizes, automatically arranged in a pattern similar to a brick wall. The Brick layout respects the aspect ratio of all images shown, including 16:9, 4:3, 1:1, and so on.
 
 <a name="bulkinout"> </a>
 ### Bulk check-in/check-out in modern document library experience
-  
-If you want to make changes to a file in a SharePoint document library, but keep others from making changes at the same time, check the file out of the document library. Once you're done making changes to the file, check it in from the library to upload your changes. 
-Instead of checking-in or checking-out one file at a time, now you can select multiple files and check them in/out.
+
+Checking out a file from a document library allows you to make changes to a file while preventing others from making changes to that file. Once you're done making changes to the file, checking it in to the document library will allow others to see your changes.
+
+Now with bulk check-out and check-in, you can select multiple files and perform the check-out and check-in operations on all of that at the same time. This saves you time by avoiding repetitive steps.
 
 <a name="bulkdod"> </a>
 ### Bulk download files from document library and OneDrive personal sites
@@ -503,7 +502,7 @@ SharePoint Server Subscription Edition can render thumbnails of files in the Til
 <a name="llmw"> </a>
 ### List and library modern web parts support adding/editing/deleting content
 
-With SharePoint Server Subscription Edition, you can do the following to documents and list items in the web part:
+SharePoint Server Subscription Edition adds the ability to perform the following actions in modern document library and modern list web parts:
 
  - Document library web part: create, upload, share, download, rename, delete, and edit documents and folders.
  
@@ -512,19 +511,21 @@ With SharePoint Server Subscription Edition, you can do the following to documen
 <a name="mds"> </a> 
 ### Modern document sets
   
-In SharePoint Server Subscription Edition, the document Sets is enhanced so that you can enjoy the same modern experience when using Document Sets in modern document library.
+A Document Set is a group of related documents that you can manage as a single entity. In previous versions of SharePoint Server, document sets only supported the classic UX. Now in SharePoint Server Subscription Edition, Document Sets have been enhanced to support the modern experience in document libraries.
 
 ## Storage
 
 <a name="blob"> </a>
 ### Remote Share Provider  
   
-SharePoint managed account object is no longer required. Instead, `PSCredential` object will be used to store SMB storage credential and this object needs to be provided as the parameter of the cmdlet `Register-SPRemoteShareBlobStore`.
+In SharePoint Server Subscription Edition, Remote Share Provider, a new RBS(Remote BLOB Storage) provider, is introduced to enable customer to offload BLOB storages from SQL server to low cost remote SMB system. 
+
+By using this new technology, customer can shift data storage from costly SQL server to low cost SMB file storage. And also it can enlarge the total size of contents in same content database as BLOB is offload to remote system.
 
 <a name="rspdt"> </a>
 ### Remote Share Provider diagnostic tool
   
-This new PowerShell cmdlet helps admin to validate the data consistency of content database that is remote share provider enabled. This makes it easier for admin to figure out what are the problems in the remote storage.
+To support new Remote Share Provider, SharePoint Server Subscription Edition provides a new PowerShell cmdlet tool to admin to validate the data consistency of content database which is remote share provider enabled. It provides an easy way for checking healthy of content database and remote storage, and for troubleshooting storage problem.
 
 ## Related articles
 
