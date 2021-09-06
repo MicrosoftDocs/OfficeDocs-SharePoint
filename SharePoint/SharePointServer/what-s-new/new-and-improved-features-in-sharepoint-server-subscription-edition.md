@@ -525,7 +525,7 @@ By using this new technology, customer can shift data storage from costly SQL se
 <a name="rspdt"> </a>
 ### Remote Share Provider diagnostic tool
   
-To support new Remote Share Provider, SharePoint Server Subscription Edition provides a new PowerShell cmdlet tool to admin to validate the data consistency of content database which is remote share provider enabled. It provides an easy way for checking healthy of content database and remote storage, and for troubleshooting storage problem.
+To support new Remote Share Provider, SharePoint Server Subscription Edition provides a new PowerShell cmdlet tool to admin to validate the data consistency of content database that is remote share provider enabled. It provides an easy way for checking healthy of content database and remote storage, and for troubleshooting storage problem.
 
 ## Related articles
 
