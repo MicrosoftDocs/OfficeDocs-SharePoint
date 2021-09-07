@@ -35,7 +35,7 @@ Download and install SPMT using one of the links listed below.
 |[Install here](https://spmt.sharepointonline.com/betainstall/default.htm) |[Install here](https://aka.ms/spmt-ga-page)|[Install here](https://aka.ms/spmt-ga-page)|
 
 
-## Before you begin
+#### Before you begin
 
 Before you begin using SPMT, review the required permissions, prequisites, and endpoints.
 
@@ -45,7 +45,7 @@ Before you begin using SPMT, review the required permissions, prequisites, and e
 |Prerequisites and Endpoints| Review the [SPMT system prerequisites and endoints](spmt-prerequisites.md)|
 |SPMT Settings|Review [SPMT settings](spmt-settings.md) to understand how settings can impact your migration|
 
-#### Understanding Custom scripts 
+##### Understanding Custom scripts 
 
 **Allow or prevent Custom Script (NoScript)**</br>
 
