@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 7e7709fc-d679-49f4-8057-e88bdd3a8cf9
 description: "Learn how to plan effective information architecture to ensure that your SharePoint solution meets your business needs."

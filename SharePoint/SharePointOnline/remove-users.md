@@ -14,7 +14,7 @@ ms.custom:
 - 'SPOTAMgUserProfiles'
 - 'seo-marvel-apr2020'
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - MOE150

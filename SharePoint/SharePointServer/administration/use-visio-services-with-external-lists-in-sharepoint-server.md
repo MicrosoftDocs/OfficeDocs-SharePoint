@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 06ad416d-8830-4b1d-96e5-854eda879b60
 description: "Connect to an external list in Visio by using Microsoft Business Connectivity Services and render the diagram in a browser by using Visio Services."
 ---

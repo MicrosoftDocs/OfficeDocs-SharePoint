@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 055e27eb-3e02-4470-a037-5896bab44736
 description: "Learn to create custom entity extractors and how to use them to set up custom refiners. Create one or more custom entity extraction dictionaries and connect them to managed properties."

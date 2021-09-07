@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod:  sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 2b2c3b2a-49f3-4c96-9efd-0d557f0332db
 description: "Learn how to plan an enterprise search architecture."

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms:assetid: c686f4f8-deda-4e15-8fbb-b1e130f2c6d5
 description: "Learn about word breakers, normalizations and thesaurus files, supported and unsupported entries, and supported languages."

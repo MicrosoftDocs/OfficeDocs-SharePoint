@@ -79,9 +79,7 @@
 #### [Troubleshooting installation issues](spmt-install-issues.md)
 #### [Troubleshooting common issues and errors](troubleshooting-common-spmt-issues.md)
 ### SPMT Migration Scenario Guides
-#### [Box to OneDrive Migration Guide](box-to-onedrive-and-sharepoint-migration-guide.md)
 #### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)
-#### [File share to OneDrive and SharePoint Migration Guide](Fileshare-to-ODSP-migration-guide.md)
 #### [SharePoint Server team sites Migration Guide](sp-teams-sites-migration-guide.md)
 ### SharePoint Server Migration Assessment Tool
 #### [Overview of the SharePoint Migration Assessment Tool](overview-of-the-sharepoint-migration-assessment-tool.md)
