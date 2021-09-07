@@ -68,7 +68,35 @@ When creating a migration task you can choose to simply migrate data files from 
 11. Select **Add**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
     
 
+**To use a JSON or CSV file for bulk migration**
 
+If you have many sources to migrate, you can use either a JSON or CSV file to do a bulk migration. To learn more on how to create a JSON or CSV file for data content migration, see [How to format your JSON or CSV file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md).
+  
+1. Start SPMT, and then enter your Microsoft 365 username and password.
+    
+2. Select **Start your first migration**.
+    
+3. Select **JSON or CSV file for bulk migration.**
+    
+4. Enter the full path of your .CSV or .JSON file where your content is located, and then select **Add**.
+    
+5. Enter the URL of the SharePoint site where you want your files migrated, and then select **Next**.
+    
+    > [!NOTE]
+    > If you have already signed in to that site once while using this tool, you won't be prompted again for the same site. 
+    
+6. Select **JSON or CSV file for bulk migration**. Enter the location of your file, or select **Choose File** to locate it. Select **Add**.
+    
+    If you are migrating files from an on-premises SharePoint Server, you are prompted for your username and password for that site unless you provided those credentials in previous steps. 
+  
+    If any errors appear in your file, it is detected on a line-by-line basis. The error indicates which line or lines contain(s) the errors. You cannot proceed until you correct the errors in your file. 
+  
+   > [!IMPORTANT]
+   > We do not support proxy connections. Using Proxy connections yields errors, such as "SharePoint login fail" or "cannot load document library". 
+  
+7. If you want to select another set of data files to migrate, select **Add a source**; otherwise, select **Next**.
+    
+8. Review your settings, and the select **Migrate**.
  
 ## Resuming migration jobs
 
