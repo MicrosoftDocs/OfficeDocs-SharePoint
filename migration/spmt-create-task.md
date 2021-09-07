@@ -20,7 +20,9 @@ description: "Learn now to create a migration task using the SharePoint Migratio
 ---
 # Step 2: Create a migration task with SPMT
 
-**Migrating data files from SharePoint Server document libraries**
+When creating a migration task you can choose to simply migrate data files from your SharePoint Server document libraries or also modernize your site collection structure during migration. 
+
+
   
 1. Start SPMT, and then enter your Microsoft 365 username and password.
     
@@ -58,11 +60,12 @@ description: "Learn now to create a migration task using the SharePoint Migratio
 
 12.  If you selected to associate the promoted level-one subsites with an existing hub, select the hub name from the dropdown list, and select **Next**.
 
-![enter the name of an existing hub to associate your sites with](media/spmt-site-structure-associate-existing-hub.png)
+   ![enter the name of an existing hub to associate your sites with](media/spmt-site-structure-associate-existing-hub.png)
 
 10.	Review and edit destination URL for each subsite as needed.
     
 11. Select **Add**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
     
+
 
 **Next step:**  [**Step 3: Monitor and Report**]()
