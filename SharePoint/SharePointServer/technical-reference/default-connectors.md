@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: c75f3390-283f-4380-b740-e672ea8b933d
 description: "Learn which connectors that by default are installed in SharePoint Server products."

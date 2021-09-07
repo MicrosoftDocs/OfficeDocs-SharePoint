@@ -13,7 +13,7 @@ ms.service: sharepoint-online
 mscollection: 
 - SPMigration
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: "Learn about the new features and updates to existing features in Migration Manager."
 ---
@@ -27,8 +27,16 @@ We're continuously adding new features to Migration Manager and fixing issues we
 Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page.  
 
 ## Coming soon
-- **Task scheduling**.  Schedule your migration tasks in advance to run at the optimum time your organization.
+
 - **Egnyte migrations**.  Migrate your Egnyte content to Microsoft 365.
+
+
+## August 2021
+
+- **Task scheduling**.  Schedule your migration tasks in advance to run at the optimum time your organization.
+- Fixed issue.  Some transfers from Box, Google, and Dropbox saw many failures when moving files during high load periods. The errors would appear in the migration error report as "Failed to load migration job, please retry." The issues causing these errors has been fixed and the reliability of transfers has increased.
+
+
 
 ## July 2021
 - **Box migrations (GA).**  You can now migrate Box content to Microsoft 365 using Migration Manager.

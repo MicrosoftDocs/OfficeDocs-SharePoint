@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f3855245-795f-4a77-bc70-5456511eaadd
 description: "Use a result source in SharePoint Server to specify a provider to get search results from for the classic search experience, and optionally to narrow a search to a subset of those results."

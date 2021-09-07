@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 6483e4c3-dc7e-49fd-92a7-15e1bb63d432
 description: "Learn about configuring monitoring, viewing SharePoint reports and logs, and using SharePoint Health Analyzer rules."

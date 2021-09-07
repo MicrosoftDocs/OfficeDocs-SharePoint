@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: fa731103-0390-4ee7-a7ad-79b355dfc3c0
 description: "Learn about Search Engine Optimization (SEO) in SharePoint Server 2016."

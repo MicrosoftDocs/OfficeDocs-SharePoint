@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f1bb8664-85dd-49bc-b162-daebf657377e
 description: "Learn how to enable and disable continuous crawls in SharePoint Server, and how to change the frequency interval of continuous crawls."
