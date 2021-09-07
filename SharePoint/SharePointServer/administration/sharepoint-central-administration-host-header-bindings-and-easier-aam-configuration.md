@@ -12,7 +12,7 @@ ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5cdce2aa-fa6e-4888-a34f-de61713f5096
-description: "SharePoint Central Administration now supports host header bindings and allows for easier Alternate Access Mappings (AAM) configuration."
+description: "Learn how SharePoint Central Administration now supports host header bindings and allows for easier Alternate Access Mappings (AAM) configuration."
 ---
 
 # SharePoint Central Administration - Support for host header bindings and easier Alternate Access Mappings (AAM) configuration
@@ -21,7 +21,7 @@ description: "SharePoint Central Administration now supports host header binding
 
 ## Host header bindings
 
-You can now configure the SharePoint Central Administration website to use a host header bindings, that will allow it to share the same Transmission Control Protocol (TCP) port number as other websites. This would typically be used to let the SharePoint Central Administration site and your content website to be hosted on the same TCP port, such as port 443 for Secure Sockets Layer (SSL).
+You can now configure the SharePoint Central Administration website to use host header bindings, that will allow it to share the same Transmission Control Protocol (TCP) port number as other websites. This would typically be used to let the SharePoint Central Administration site and your content website to be hosted on the same TCP port, such as port 443 for Secure Sockets Layer (SSL).
 
 To configure the SharePoint Central Administration website, specify the host header binding with the `-HostHeader` parameter of the `New-SPCentralAdministration` and `Set-SPCentralAdministration` cmdlets, or with the `-hostheader` parameter of the `psconfig.exe -cmd adminvs` command.
 
