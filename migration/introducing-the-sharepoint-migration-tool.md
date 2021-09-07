@@ -26,7 +26,7 @@ description: "Overview of the SharePoint Migration Tool and resources for downlo
 
 The SharePoint Migration Tool (SPMT) is a free and easy to use migration solution to help you migrate content from on-premises SharePoint sites to Microsoft 365.
 
-. Migrate your SharePoint Server sites and content to take advantage of the latest collaboration, intelligence, and security solutions in Microsoft 365. The modern experience features in Microsoft SharePoint are designed to be compelling, flexible, and performant.
+Migrate your SharePoint Server sites and content to take advantage of the latest collaboration, intelligence, and security solutions in Microsoft 365. The modern experience features in Microsoft SharePoint are designed to be compelling, flexible, and performant.
 
 SPMT supports migration to SharePoint, OneDrive, and Teams from:
 
@@ -37,7 +37,7 @@ For a complete description of features, see [What does SPMT support?](what-is-su
 
 All SPMT functionality is also supported in PowerShell, if you prefer to use that method. See [Migrate to SharePoint using PowerShell](overview-spmt-ps-cmdlets.md).
 
-## Supported authentication methods
+### Supported authentication methods
 
 SPMT supports NTLM, Kerberos, Forms, ADFS, multifactor authentication, SAML-based claims, and Client certificate authentication.
 
@@ -64,9 +64,9 @@ Make sure that you have:
 - **Access to the source**: SharePoint credentials that have read access to the SharePoint Server content you plan to migrate.
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
 
-### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
-### [Step 2: Create a migration task](spmt-create-task.md)
-### [Step 3: Monitor and report](using-the-sharepoint-migration-tool-reports.md)
+#### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
+#### [Step 2: Create a migration task](spmt-create-task.md)
+#### [Step 3: Monitor and report](using-the-sharepoint-migration-tool-reports.md)
 
 
 
