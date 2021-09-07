@@ -22,7 +22,8 @@ description: "Learn now to create a migration task using the SharePoint Migratio
 
 When creating a migration task you can choose to simply migrate data files from your SharePoint Server document libraries or also modernize your site collection structure during migration. 
 
-
+>[!Note]
+>When you first launch SPMT, you are prompted for your Microsoft 365 username and password. The credentials you provide will be to the migration *destination*.
   
 1. Start SPMT, and then enter your Microsoft 365 username and password.
     
@@ -68,4 +69,36 @@ When creating a migration task you can choose to simply migrate data files from 
     
 
 
+ 
+## Resuming migration jobs
+
+If you need to close SPMT before a submitted job has completed, you can restart the tool from any computer.
+  
+> [!NOTE]
+> To resume a submitted migration job, it has to have been running  *at least* **5 minutes**. It pauses at the point you closed the SPMT. If your submitted job was running less than five minutes before the tool closed, you must resubmit the job.
+
+**To resume migration jobs**
+  
+1. Launch SPMT. Using the same Microsoft 365 username and password you used when you originally submitted the job, select **Sign In**. 
+    
+2. After you sign in, a screen displays any paused migrations, providing details about what has been completed and what remains.
+    
+3. If you want to add additional migration tasks, select **Select new sources and destinations**; otherwise, select **Next**. Your migration jobs will be resumed. If you are migrating files from an on-premises SharePoint Server, you are prompted for your username and password for that site.
+    
+## Incremental migration
+
+After a migration task has completed, you can save it to be rerun at a later date, allowing you to copy only those new or updated files in the source location. 
+
+> [!NOTE]
+> If you wish to make changes to this setting, do so before your initial migration job is submitted. This setting is global; it will apply to all subsequent tasks you submit. 
+  
+When this setting is on, an incremental check of the SharePoint target environment is performed. Files are evaluated as follows:
+  
+|**Status**|**Result**|
+|:-----|:-----|
+|Modified time of the source file is earlier than the modified time of the target file.  <br/> |File will not be migrated.  <br/> |
+|Files or lists exist in the SharePoint target location.  <br/> |Migration will skip those existing objects during scan.  <br/> |
+|Time stamp on files or object in the source location is newer in the source <br/> |The newer files are migrated.  <br/> |
+|Source is a file share.  <br/> |Validation for migration will be based on the file/folder path.  <br/> |
+|Source is an on-premises SharePoint Server/  <br/> |Validation for migration will be based on list item GUID. Use the folder path as a fallback.  <br/> |
 **Next step:**  [**Step 3: Monitor and Report**]()
