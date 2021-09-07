@@ -96,9 +96,12 @@ When this setting is on, an incremental check of the SharePoint target environme
   
 |**Status**|**Result**|
 |:-----|:-----|
-|Modified time of the source file is earlier than the modified time of the target file.  <br/> |File will not be migrated.  <br/> |
-|Files or lists exist in the SharePoint target location.  <br/> |Migration will skip those existing objects during scan.  <br/> |
-|Time stamp on files or object in the source location is newer in the source <br/> |The newer files are migrated.  <br/> |
-|Source is a file share.  <br/> |Validation for migration will be based on the file/folder path.  <br/> |
-|Source is an on-premises SharePoint Server/  <br/> |Validation for migration will be based on list item GUID. Use the folder path as a fallback.  <br/> |
-**Next step:**  [**Step 3: Monitor and Report**]()
+|Modified time of the source file is earlier than the modified time of the target file. |File will not be migrated. |
+|Files or lists exist in the SharePoint target location. |Migration will skip those existing objects during scan.  |
+|Time stamp on files or object in the source location is newer in the source <br/> |The newer files are migrated. |
+|Source is a file share.|Validation for migration will be based on the file/folder path.  |
+|Source is an on-premises SharePoint Server |Validation for migration will be based on list item GUID. Use the folder path as a fallback. |
+
+## Next step
+
+[**Step 3: Monitor and reporting status of migrations tasks**](using-the-sharepoint-migration-tool-reports.md)
