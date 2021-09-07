@@ -80,8 +80,6 @@ At least 24 hours before you start migration, do the following:
 [**Step 2: Create a migration task**](spmt-create-task.md) 
     
 
-
-## Availability  
 > [!NOTE]
 > Currently, the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. </br></br> It is also not available for users of Microsoft 365 with the German cloud with the data trustee, *German Telekom*. However, we do support it for users in Germany whose data location is not in the German datacenter.
 
