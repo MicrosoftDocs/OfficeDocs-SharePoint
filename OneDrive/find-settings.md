@@ -40,6 +40,12 @@ Go to the [Settings page in the new SharePoint admin center](https://admin.micro
 |:-----|:-----|
 |![Sync page in the OneDrive admin center](media/sync-page.png)|![Sync settings in the SharePoint admin center](media/sp-sync-settings.png) |
 
+To change the setting "Block sync on Mac OS," you can use the following PowerShell command. [Learn more about this command](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
+
+```PowerShell
+Set-SPOTenantSyncClientRestriction -BlockMacSync:$true
+```
+
 ## Storage page
 
 Go to the [Settings page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true). To change the default storage setting, select **Storage limit**. To change the retention setting for deleted users, select **Retention**. 
