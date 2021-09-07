@@ -27,7 +27,7 @@ When users share a Word document in SharePoint or OneDrive, recipients get an em
 - The key points in the doc (derived from content extracted from the document by artificial intelligence)
 - An estimated time to read the doc (based on the word count and the average reading speed in English) 
 
-This summary info helps recipients plan for the work that the doc will require. 
+This summary info helps recipients plan for the work that the doc will require. Currently, this feature only works if the selected links are "Anyone" or "People in my organization".
 
 > [!div class="mx-imgBorder"]
 > ![A sharing email with summary info.](media/sharing-email.png)
