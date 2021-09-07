@@ -77,7 +77,7 @@ At least 24 hours before you start migration, do the following:
       
 ## Next step
 
-[Step 2: Create a migration task](spmt-create-task.md) 
+[**Step 2: Create a migration task**](spmt-create-task.md) 
     
 
 
