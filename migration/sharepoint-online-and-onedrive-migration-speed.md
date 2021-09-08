@@ -116,31 +116,17 @@ If you are planning to migrate over 100TB, please submit a support request follo
 
 Follow these steps:
 
-1. Navigate to https://admin.microsoft.com
+1. As an administrator, select the following link which will populate a help query in the admin center. 
 
-2. Ensure you are using the new admin center preview.
+[SharePoint Migration over 100TB](https://admin.microsoft.com/AdminPortal/?searchSolutions=SharePoint%20Migration%20over%20100TB)
 
-    >[!Note]
-    >If you are using the old Microsoft 365 admin center you can skip step 8 as the "Description" field will not exist.
+2. At the bottom of the pane, select **Contact Support**, and then select **New Service Request**. 
 
-3. On the left nav pane, select **Support**, and then select **New Service Request**. 
+3. Under **Description**, enter "SharePoint Migration over 100TB". 
 
-    ![New service request](media/new-service-request.png)
+4. Fill out the remaining info, and select **Contact me**.
 
-    This will activate the **Need Help?** pane on the right-hand side of your screen.
-
-4.  In the **Briefly describe your issue** area, enter "SharePoint Migration over 100TB".</br>
-
-    > [!div class="mx-imgBorder"]
-    > ![screen reads need help](media/need-help-100tb.png)
-
-5. Select **Contact Support**.
-
-6. Under **Description**, enter "SharePoint Migration over 100TB". 
-
-7. Fill out the remaining info, and select **Contact me**.
-
-8. After the ticket has been created, ensure you provide the support agent with the following information:
+5. After the ticket has been created, ensure you provide the support agent with the following information:
     - Estimated size of your migration.
     - An estimate of when you would like to start and complete your migration.
     - Where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, and so on.
