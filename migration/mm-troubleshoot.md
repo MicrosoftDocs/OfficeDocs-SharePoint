@@ -221,9 +221,11 @@ Check the settings on any AntiVirus application installed on the agent machine. 
 ## Google error report shows HTML code in report
 
 
-**Issue**</br>
+**Issue**
 Error reports generated for a Google migration will sometimes have HTML code embedded in the report.
+
 </br>
+
    ![Google error report includes HTML code ](media/mm-troubleshoot-google-error-report-html.png)
 
 </br>
