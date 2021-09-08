@@ -32,6 +32,7 @@ This article describes how to resolve issues and errors you may experience when 
 - [Task stuck in "Queued" state](#task-stuck-in-queued-status)
 - [Task report cannot be downloaded](#task-report-cannot-be-downloaded)
 - [Migration errors](#migration-error)
+- [Google migration error reports contain HTML](#google-error-report-shows-html-code-in-report)
 - [Error codes](#error-codes)
 
 
@@ -216,6 +217,29 @@ Check the settings on any AntiVirus application installed on the agent machine. 
 - microsoft.sharepoint.migration.clientservice.exe
 - microsoft.sharepoint.migration.mthost.exe
 
+
+## Google error report shows HTML code in report
+
+
+**Issue**</br>
+Error reports generated for a Google migration will sometimes have HTML code embedded in the report.
+</br>
+   ![Google error report includes HTML code ](media/mm-troubleshoot-google-error-report-html.png)
+
+</br>
+
+**Details**
+The Google APIs are returning HTML errors that are being included in the generated reports. This may happen when there is a Google server load error. 
+
+**Mitigation**
+Run less concurrent transations.
+
+**Status**
+This is a known issue. ETA not set.
+
+
+
+
  ## Error codes 
 |**Error Code**|**Recommended action**|
 |:-----|:-----|
@@ -270,3 +294,4 @@ Check the settings on any AntiVirus application installed on the agent machine. 
 |0x01710006|Errors or timeout for server processing the file: Job Fatal Error.|
 |0x01710004|Errors or timeout for server processing the file. Fail to look up folder name. The item may exist in other list or site in the same site collection. Or the item is in the recycle bin.|
 |0x0131000F|Failed to Read the file. File is checked out.|
+
