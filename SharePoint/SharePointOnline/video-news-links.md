@@ -30,7 +30,9 @@ Learn how to communicate with your organization by embedding videos in the Viva 
 Videos are an engaging way to reach users in your organization. They provide endless opportunities to communicate with your organization. Share an update, rebroadcast an all-hands meeting, or provide reusable training materials.
  
 ## How to publish a Video news link
+
 You can publish videos hosted on SharePoint sites as news posts in the Viva Connections Feed from the **+ New** menu on any SharePoint organizational news site.  
+
 1.  Select the video in OneDrive or SharePoint that you want to publish.
 
 2.  Create a sharing link with the appropriate permissions for the intended viewing audience.  
@@ -53,7 +55,9 @@ You can publish videos hosted on SharePoint sites as news posts in the Viva Conn
     ![Image of the Video news link settings panel](media/video-news-link-panel-2.png)
 
 6.  Select **Post** to publish to the video news link to the Feed.
+
 **Options for publishing Video news links:**
+
 -  Schedule the video to publish at a future date and time. Videos without a schedule date will be published immediately.
 - Target the video to a specific audience so it’s only shown to those certain people. Or, leave the Audience target field blank to make it available to all users who have access to the site you’re publishing from.
 - Boost the video to promote it within the Viva Connections feed.
@@ -64,7 +68,9 @@ You can publish videos hosted on SharePoint sites as news posts in the Viva Conn
 ## How to edit active Video news links
 
 1.  Open the Site content of the site you published the video from.
+
 2.  Find the page in the list of published pages and open it.
+
 3.  Select **Edit** on the top-right of the page.
 
     ![Image of how to edit an active video news link](media/video-link-edit.png)
@@ -106,4 +112,5 @@ You can publish videos hosted on SharePoint sites as news posts in the Viva Conn
 <br>
 
 **A:** Video news links will appear as a card in the Viva Connections feed. Tapping on the card will play the video full screen.
-> ![Image of an active video news link](media/active-video-link.png)
+
+![Image of an active video news link](media/active-video-link.png)
