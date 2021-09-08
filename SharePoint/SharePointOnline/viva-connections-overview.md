@@ -37,9 +37,7 @@ description: "Learn how to set up and deploy Viva Connections on desktop and mob
 
 ## Overview
 Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed. Viva Connections gives everyone a personalized destination to discover relevant news, conversations, and the tools they need to succeed. 
-
-> [!IMPORTANT]
-> - Step-by-step guidance to deploy Viva Connections will be published shortly after the Public preview announcement on September 9th. Check back here for updates and details. 
+ 
 
 **Viva Connections is:**
 - A branded application experience in Microsoft Teams that is optimized to enable experiences for information workers and frontline workers
@@ -198,15 +196,26 @@ The **Resources** tab of the mobile app automatically uses the global navigation
 ![image showing resources tab](media/resources-tab.png)
 
 
+## Step-by-step guidance to provision Viva Connections
+
+This is a basic summary of the steps to deploy Viva Connections.
+
+> [!IMPORTANT]
+> - Expanded step-by-step guidance will be published shortly after the release of Viva Connection for Public preview on September 9th, 2021. This is a summary of the basic steps needed to deploy Viva Connections. Check back soon for more details.
+
+1. Set up a Home site and other organizational news sites
+2. Plan and design your information architecture, including the global navigation in the SP app bar
+3. Create and configure your dashboard.
+4. Enable, customize and deploy the Viva connections app from the Teams admin center
 
 
+### Summary of known issues
 
-
-
-
-
-
-
+| Public Preview Known Issues  | Target Release                 | 
+| :------------------- | :------------------- |
+| [SPFx] Isolated components do not support vanity domain (web/desktop/mobile)  | November | 
+| [Feed] Social reactions/comments still enabled but not functional (when disabled)  | December               | 
+| [Mobile] App acquisition flow. Workaround is to install missing app from desktop| December               | 
 
 
 
