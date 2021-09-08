@@ -26,7 +26,6 @@ description: "Learn how to set up and deploy Viva Connections on desktop and mob
 > - Information in this article relates to the updraded Viva Connections app that is in preview. Viva Connections includes *both the desktop and mobile experiences*. It may be modified before it's generally available for all customers.
 > - Earlier this year, Viva Connections desktop was released (formerly known as the Home site app.) The Viva Connections desktop app is a custom line of business app for Microsoft Teams and is built using PowerShell provided by Microsoft. The Viva Connections desktop app includes the desktop experience *only*. [Learn more about Viva Connections desktop](/SharePoint/SharePointOnline/viva-connections.md).
 
-![image showing Viva Connections modules](media\overview-elements.png)
 
 **Viva Connections is one of four modules that make up the Microsoft Viva platform:**
 - **Connections**: This module is the gateway to the employee experience. It provides timely and relevant content and news, surfaces critical tasks and actions, and fosters connections between people.
@@ -173,8 +172,6 @@ These cards are available in the Dashboard toolbox when authoring a Dashboard, a
 In the Viva Connections app, users will see a personalized Feed with relevant information from across their organization. The Feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. Individual messages can be promoted to raise greater awareness among users by using SharePoint’s Boost and Yammer’s Featured options.
 The Feed requires usage of modern SharePoint or Yammer communities, but the best experience is delivered when both are used together.
 
-### Anatomy of the Feed
-![image showing the anatomy of a card](media/anatomy-of-card.png)
 
 ### Feed content sources
 Users will see content aggregated from the following sources, provided they have permissions to access the content from that source:
@@ -189,7 +186,6 @@ Users will see content aggregated from the following sources, provided they have
 
 ## Viva Connections Resources
 The **Resources** tab of the mobile app automatically uses the global navigation links that you set up in your [SharePoint app bar](/SharePoint/SharePointOnline/sharepoint-app-bar.md). This type of functioning provides users with a familiar navigation structure and allows them to open sites, pages, news, and more — right from their mobile devices.
-![image showing resources tab](media/resources-tab.png)
 
 
 ## Step-by-step guidance to provision Viva Connections
@@ -210,8 +206,8 @@ This is a basic summary of the steps to deploy Viva Connections.
 | Public Preview Known Issues  | Target Release                 | 
 | :------------------- | :------------------- |
 | [SPFx] Isolated components do not support vanity domain (web/desktop/mobile)  | November | 
-| [Feed] Social reactions/comments still enabled but not functional (when disabled)  | December               | 
-| [Mobile] App acquisition flow. Workaround is to install missing app from desktop| December               | 
+| [Feed] Social reactions/comments still enabled but not functional (when disabled)  | December    | 
+| [Mobile] App acquisition flow. Workaround is to install missing app from desktop| December     | 
 
 
 
