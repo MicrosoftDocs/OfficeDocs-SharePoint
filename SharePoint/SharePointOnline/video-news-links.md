@@ -34,8 +34,8 @@ You can publish videos hosted on SharePoint sites as news posts in the Viva Conn
 1.  Select the video in OneDrive or SharePoint that you want to publish.
 2.  Create a sharing link with the appropriate permissions for the intended viewing audience.  
 
-> [!TIP] 
-> Create a sharing link that includes members of your organization that already have access to the video so they can play it.
+    > [!TIP] 
+    > Create a sharing link that includes members of your organization that already have access to the video so they can play it.
     > ![Image of how to select a video from OneDrive](media/select-video.png)
 
 3. Navigate to a SharePoint organizational site and select **Video** from the **+ New** menu.  Currently, videos can only be published as news items from organizational news sites.
