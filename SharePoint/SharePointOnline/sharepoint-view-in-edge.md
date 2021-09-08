@@ -24,6 +24,7 @@ search.appverid:
 description: "Learn about SharePoint view in File Explorer for Edge."
 ---
 
+# View SharePoint files with File Explorer in Edge
 Last year, we announced that Microsoft 365 apps and services would no longer support Internet Explorer 11 (IE 11). As a result, we no longer recommend View in File Explorer and encourage using the OneDrive sync client. The OneDrive sync client provides Files On-Demand, which allows you to access all your files in SharePoint without using up local storage space. For info about using OneDrive to sync SharePoint files, visit SharePoint file sync.
 
 By default, the View in File Explorer menu option will not be visible to you or users in the SharePoint modern document library interface. In certain cases, organizations may still need l use View in File Explorer to access modern document libraries. Starting in Microsoft Edge Stable version 93, you can enable the View in File Explorer capability on SharePoint for modern document libraries.
@@ -94,7 +95,9 @@ Follow the steps below to use View in File Explorer in Edge:
 
 **Where is the View In File Explorer button?**
 </br>
-You can find the View in Explorer button after the tenant setting has been enabled by navigating to the Library >  Click the Library View Menu on the right hand side >  View In File Explorer.
+You can find the View in Explorer button after the tenant setting has been enabled by navigating to the **Library** >  Click the **Library View Menu** on the right hand side > Select **View In File Explorer**.
+
+:::image type="content" source="media/view-in-file-explorer.png" alt-text="Menu for View in File Explorer":::
 </br></br>
 
 **How long do I need to wait before the tenant setting takes effect?**
