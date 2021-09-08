@@ -41,6 +41,8 @@ A removed feature is no longer supported by Microsoft in SharePoint Server Subsc
 ## Deprecated Features
 
  - SharePoint 2010 workflows 
+ 
+ - Update-SPHelp PowerShell cmdlet
 
 ## Removed Features
 
@@ -55,7 +57,10 @@ A removed feature is no longer supported by Microsoft in SharePoint Server Subsc
  - PerformancePoint Services 
  
  - Stsadm.exe command line tool 
-
+ 
+ - Infopath form service
+ 
+ - Sharepoint designer support
  
 ## Detailed description of features deprecated or removed in SharePoint Server Subscription Edition
 
@@ -64,6 +69,10 @@ The following features and functionality have been deprecated or removed in Shar
 ### SharePoint 2010 workflows
 
 SharePoint 2010 workflows will remain supported, but deprecated, for the SharePoint Server Subscription Edition release. Customers are recommended to explore [SharePoint 2013 workflows](/sharepoint/dev/general-development/creating-a-workflow-by-using-sharepoint-designer-and-the-sharepoint-wo#:~:text=%20Creating%20a%20workflow%20by%20using%20SharePoint%20Designer,for%20many...%204%20See%20also.%20%20More%20) or [Power Automate](https://flow.microsoft.com/) as potential alternatives to SharePoint 2010 workflows.
+
+### Update-SPHelp PowerShell cmdlet
+
+As SharePoint PowerShell cmdlets have been converted from snap-ins to modules in SharePoint Server Subscription Edition, the Update-SPHelp cmdlet is removed and no longer necessary to download the latest cmdlet help content.
 
 ### Access Services 2010
 
