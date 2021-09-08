@@ -40,7 +40,7 @@ Navigate to the Settings section in the SharePoint admin center.
 ### Step 3: Assign a home site for your organization
 Next, select the **Home site** option from the list of apps. Then, paste the SharePoint URL of the communication site that you’d like to become the home site. Select **Save** when you are done.
 
-> ![Image of the home site settings in the SharePoint admin center](media/home-site-settings.png)
+![Image of the home site settings in the SharePoint admin center](media/home-site-settings.png)
 
 ### Step 4: Confirm the home site value is set 
 In the Current value column, you’ll see the new home site URL you entered in the previous step.
@@ -52,7 +52,8 @@ In the Current value column, you’ll see the new home site URL you entered in t
 ### Step 5: Enable the SharePoint app bar and set up global navigation
 It may take up to 10 minutes for the newly assigned home site to reflect home site capabilities, like Global navigation creation and Viva Connections setup options from the Settings option on the home site.
 
-> ![Image of the settings panel on the home site after its been assigned as a home site](media/settings-panel.png)
+![Image of the settings panel on the home site after its been assigned as a home site](media/settings-panel.png)
+
 Next, learn more about how to [enable and set up global navigation](/SharePoint/sharepoint-app-bar) in the SharePoint app bar.
 
 
