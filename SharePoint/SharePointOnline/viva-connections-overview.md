@@ -38,6 +38,9 @@ description: "Learn how to set up and deploy Viva Connections on desktop and mob
 ## Overview
 Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed. Viva Connections gives everyone a personalized destination to discover relevant news, conversations, and the tools they need to succeed. 
 
+> [!IMPORTANT]
+> - Step-by-step guidance to deploy Viva Connections will be published shortly after the Public preview announcement on September 9th. Check back here for updates and details. 
+
 **Viva Connections is:**
 - A branded application experience in Microsoft Teams that is optimized to enable experiences for information workers and frontline workers
 - A gateway to employee experiences, with the ability for you to curate the content and tools you want to deliver through quick access to data and tasks, relevant news, communications, people, and resources
