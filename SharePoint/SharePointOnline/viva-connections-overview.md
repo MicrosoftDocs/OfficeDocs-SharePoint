@@ -117,8 +117,6 @@ The Viva Connections Dashboard is available on mobile platforms (iOS, Android) i
 ### Anatomy of a dashboard
 A dashboard is made of medium-sized and large-sized cards which users can interact with to get information or complete a task.
 
-![image showing anatomy of a Dashboard](media/anatomy-of-dashboard.png)
-
 **Users can select cards or click the buttons on cards to do things like:**
 - Displaying a quick view with more information or an input form
 - Navigating to a SharePoint page
@@ -143,8 +141,6 @@ The dashboard experience has been designed to be consistent across mobile platfo
 
 #### Dashboard authoring
 A Dashboard is authored in a SharePoint home site on a Dashboard page. A site editor can create the Dashboard, add cards in the size and layout of choice, and target the cards to specific audiences.
-
-![image showing dashboard authoring in mobile mode](media/mobile-mode.png)
 
 The layout of the dashboard, including the size of the cards (which can be individually set as medium or large), is set up by the person who authors the dashboard. The cards in the dashboard reflow based on the screen real estate of the Dashboard. These cards may look different depending on whether the Dashboard is used on mobile or in the Dashboard web part on the home site.
 
@@ -203,13 +199,13 @@ This is a basic summary of the steps to deploy Viva Connections.
 > [!IMPORTANT]
 > - Expanded step-by-step guidance will be published shortly after the release of Viva Connection for Public preview on September 9th, 2021. This is a summary of the basic steps needed to deploy Viva Connections. Check back soon for more details.
 
-1. Set up a Home site and other organizational news sites
-2. Plan and design your information architecture, including the global navigation in the SP app bar
-3. Create and configure your dashboard.
-4. Enable, customize and deploy the Viva connections app from the Teams admin center
+1. Set up a home site and other organizational news sites
+2. Plan and design your information architecture, including the global navigation in the SharePoint app bar
+3. Create and configure your dashboard
+4. Enable, customize, and deploy the Viva connections app from the Microsoft Teams admin center
 
 
-### Summary of known issues
+### Summary of release notes
 
 | Public Preview Known Issues  | Target Release                 | 
 | :------------------- | :------------------- |
