@@ -1,7 +1,7 @@
 ---
 title: "SharePoint view in File Explorer for Edge - SharePoint"
 ms.reviewer: 
-ms.author: adeejoseph
+ms.author: adjoseph
 author: adeejoseph
 manager: serdars
 recommendations: true
