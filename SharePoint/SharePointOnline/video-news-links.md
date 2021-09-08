@@ -78,7 +78,7 @@ You can publish videos hosted on SharePoint sites as news posts in the Viva Conn
 **Q:** Can I post external videos from YouTube, Vimeo, etc.?
 <br>
 
-**A:**No, only Stream videos hosted by SharePoint or OneDrive are supported.
+**A:** No, only Stream videos hosted by SharePoint or OneDrive are supported.
 <br>
 <br>
 
