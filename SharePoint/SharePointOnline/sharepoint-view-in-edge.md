@@ -24,10 +24,10 @@ search.appverid:
 description: "Learn about SharePoint view in File Explorer for Edge."
 ---
 
-# View SharePoint files with File Explorer in Edge
+# View SharePoint files with File Explorer in Microsoft Edge
 Last year, we announced that Microsoft 365 apps and services would no longer support Internet Explorer 11 (IE 11). As a result, we no longer recommend View in File Explorer and encourage using the OneDrive sync client. The OneDrive sync client provides Files On-Demand, which allows you to access all your files in SharePoint without using up local storage space. For info about using OneDrive to sync SharePoint files, visit SharePoint file sync.
 
-By default, the View in File Explorer menu option will not be visible to you or users in the SharePoint modern document library interface. In certain cases, organizations may still need l use View in File Explorer to access modern document libraries. Starting in Microsoft Edge Stable version 93, you can enable the View in File Explorer capability on SharePoint for modern document libraries.
+The View in File Explorer menu option will not be visible to you or users in the SharePoint modern document library by default. In certain cases, organizations may still need to use View in File Explorer to access modern document libraries. Starting in Microsoft Edge Stable version 93, you can enable the View in File Explorer capability on SharePoint for modern document libraries.
 
 </br>
 
@@ -36,7 +36,7 @@ Follow the steps below to use View in File Explorer in Edge:
 
 1. Verify that devices are on Edge build 93 or later using [Find out which version of Microsoft Edge you have](https://support.microsoft.com/en-us/microsoft-edge/find-out-which-version-of-microsoft-edge-you-have-c726bee8-c42e-e472-e954-4cf5123497eb).
 
-2. Enable the [ConfigureViewInFileExplorer](/deployedge/microsoft-edge-policies) Edge policy which  allows URLs with the viewinfileexplorer: scheme to open WebDAV URLs in Windows File Explorer.
+2. Enable the [ConfigureViewInFileExplorer](/deployedge/microsoft-edge-policies) Edge policy that  allows URLs with the viewinfileexplorer: scheme to open WebDAV URLs in Windows File Explorer.
 
 3. Use the options below to enable View in File Explorer using group policy or Intune:
 
@@ -95,7 +95,7 @@ Follow the steps below to use View in File Explorer in Edge:
 
 **Where is the View In File Explorer button?**
 </br>
-You can find the View in Explorer button after the tenant setting has been enabled by navigating to the **Library** >  Click the **Library View Menu** on the right hand side > Select **View In File Explorer**.
+You can find the View in Explorer button after the tenant setting has been enabled by navigating to the **Library** >  Select the **Library View Menu** on the right-hand side > Select **View In File Explorer**.
 
 :::image type="content" source="media/view-in-file-explorer.png" alt-text="Menu for View in File Explorer":::
 </br></br>
