@@ -40,17 +40,17 @@ You can publish videos hosted on SharePoint sites as news posts in the Viva Conn
     >
     > ![Image of how to select a video from OneDrive](media/select-video.png)
 
-3. Navigate to a SharePoint organizational site and select **Video** from the **+ New** menu.  Currently, videos can only be published as news items from organizational news sites.
+3.  Navigate to a SharePoint organizational site and select **Video** from the **+ New** menu.  Currently, videos can only be published as news items from organizational news sites.
 
-    > ![Image of how to add a new video news link to a news site](media/add-video-link.png)
+    ![Image of how to add a new video news link to a news site](media/add-video-link.png)
 
 4.  Paste the sharing link into the **Link** field.
 
-    > ![Image of how to share a video news link](media/save-video-news-link.png)
+    ![Image of how to share a video news link](media/save-video-news-link.png)
 
 5.  Update the **Title** and **Description** fields. A title and description will be automatically populated from the video. You can use the default information, or update it to say something different.
 
-    > ![Image of the Video news link settings panel](media/video-news-link-panel-2.png)
+    ![Image of the Video news link settings panel](media/video-news-link-panel-2.png)
 
 6.  Select **Post** to publish to the video news link to the Feed.
 **Options for publishing Video news links:**
@@ -66,7 +66,8 @@ You can publish videos hosted on SharePoint sites as news posts in the Viva Conn
 1.  Open the Site content of the site you published the video from.
 2.  Find the page in the list of published pages and open it.
 3.  Select **Edit** on the top-right of the page.
-    > ![Image of how to edit an active video news link](media/video-link-edit.png)
+
+    ![Image of how to edit an active video news link](media/video-link-edit.png)
  
 4.  Edit content on the page, and then select **Update post** to republish.
 
