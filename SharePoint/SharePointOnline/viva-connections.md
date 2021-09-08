@@ -155,6 +155,15 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 
 Help end users understand [how to use Viva Connections](https://support.microsoft.com/office/your-intranet-is-now-in-micosoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b) to improve workplace communication and collaboration. 
 
+## How to add the mobile experience
+If you have already provisioned Viva Connections desktop via PowerShell, and you want to add the mobile experience, follow these instructions:
+
+1. Follow the steps to set up the [Viva Connections app](/SharePoint/SharePointOnline/viva-connections-overview.md) that is currently in Public preview. 
+2. Keep the new instance of the Viva Connections app blocked but complete all of the other requirements.
+3. Next, enable the *new* Viva Connections app.
+4. Finally, disable and uninstall the first version of Viva Connections desktop.
+
+
 
 ## FAQs
 
@@ -215,7 +224,7 @@ Help end users understand [how to use Viva Connections](https://support.microsof
 
 **Q: I have already deployed Viva Connections desktop, and I would like to also deploy the mobile experience. Can I use Viva Connections app when it is available in the Teams admin center this fall?**
 
-**A:** Yes. More guidance will be shared when the Viva Connections app in Teams becomes available. When available, you can switch from Viva Connections desktop to Viva Connections app by blocking the first version and enabling the new version in the Teams Admin Center. You will need to ensure that you have completed the steps to prepare the mobile experience prior to enabling the new Viva Connections app.
+**A:** Yes, you can switch from Viva Connections desktop to Viva Connections app by blocking the first version and enabling the new version in the Teams Admin Center. You will need to ensure that you have completed the steps to prepare the mobile experience prior to enabling the new Viva Connections app. 
 
 
 
