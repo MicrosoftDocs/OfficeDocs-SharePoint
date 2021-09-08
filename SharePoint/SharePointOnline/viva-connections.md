@@ -158,7 +158,7 @@ Help end users understand [how to use Viva Connections](https://support.microsof
 ## How to add the mobile experience
 If you have already provisioned Viva Connections desktop via PowerShell, and you want to add the mobile experience, follow these instructions:
 
-1. Follow the steps to set up the [Viva Connections app](/SharePoint/SharePointOnline/viva-connections-overview.md) that is currently in Public preview. 
+1. Follow the steps to set up the Viva Connections app that is currently in Public preview. 
 2. Keep the new instance of the Viva Connections app blocked but complete all of the other requirements.
 3. Next, enable the *new* Viva Connections app.
 4. Finally, disable and uninstall the first version of Viva Connections desktop.
