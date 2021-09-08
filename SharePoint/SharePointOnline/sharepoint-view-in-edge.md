@@ -1,5 +1,5 @@
 ---
-title: "SharePoint view in File Explorer for Edge - SharePoint"
+title: "SharePoint view in File Explorer for Edge"
 ms.reviewer: 
 ms.author: adjoseph
 author: adeejoseph
