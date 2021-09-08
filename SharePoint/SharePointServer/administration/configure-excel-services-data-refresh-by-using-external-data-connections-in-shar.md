@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0853bed9-1084-413b-bf91-427dc643a5e5
 description: "Configure Excel Services in SharePoint Server data refresh by using Secure Store and an external Office Data Connection (ODC) file."
 ---

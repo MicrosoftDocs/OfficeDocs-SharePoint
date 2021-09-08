@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f628e7df-ce37-4c33-aed3-7c6745d48a39
 description: "Learn about pages that are created in a Search Center site in SharePoint Server, and see articles about how to configure Web Parts."

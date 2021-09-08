@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3fca2556-ebca-4395-8f66-b3a645c05878
 description: "Learn about how to plan for custom claims providers for the People Picker web control in SharePoint Server."
 ---

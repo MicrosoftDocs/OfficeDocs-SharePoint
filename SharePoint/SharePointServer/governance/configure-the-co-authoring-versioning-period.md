@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 59f3af85-89f9-43ba-b364-28a810cae42e
 description: "Learn how to specify how often SharePoint Server stores a version of a document that is being edited."
 ---

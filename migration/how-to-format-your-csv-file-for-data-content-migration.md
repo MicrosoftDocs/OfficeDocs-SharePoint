@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
@@ -142,8 +142,8 @@ As with a CSV file, the minimum required values are *Source*, *Source DocLib*, *
 
 When migrating your content, you may want to take advantage of a Modern feature in Microsoft 365, SharePoint Hub sites. Using the bulk upload method, you can now indicate if your destination site is to be a hub site, or if you would like it associated with an existing hub site.
 
->[!Tip]
->Want to learn more about SharePoint hub sites? See [Planning SharePoint hub sites](https://microsoft.com/en-us/sharepoint/planning-hub-sites)
+> [!TIP]
+>Want to learn more about SharePoint hub sites? See [Planning your SharePoint hub sites](/sharepoint/planning-hub-sites).
 
 </br>
 

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: e70737ce-61fe-400d-b7f8-66d18cc958af
 description: "Learn how to display recommendations and popular items on a SharePoint Server site."

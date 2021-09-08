@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dfe5a861-519a-4fc0-89b8-185df5e73284
 description: "Learn about the asset library and how you can use it to store and share image, audio, or video files."
 ---

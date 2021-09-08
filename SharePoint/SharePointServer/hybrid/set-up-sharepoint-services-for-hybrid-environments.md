@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: how-to
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_SharePoint_Hybrid_Top

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: a61b531f-218e-4edf-ab90-f2f30f490900
 description: "Learn how to configure enterprise search in a SharePoint Server environment."
