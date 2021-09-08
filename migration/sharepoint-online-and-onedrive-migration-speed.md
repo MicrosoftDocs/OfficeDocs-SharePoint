@@ -116,9 +116,7 @@ If you are planning to migrate over 100TB, please submit a support request follo
 
 Follow these steps:
 
-1. As an administrator, select the following link which will populate a help query in the admin center. 
-
-[SharePoint Migration over 100TB](https://admin.microsoft.com/AdminPortal/?searchSolutions=SharePoint%20Migration%20over%20100TB)
+1. As an administrator, select the following link, which will populate a help query in the admin center: [SharePoint Migration over 100TB](https://admin.microsoft.com/AdminPortal/?searchSolutions=SharePoint%20Migration%20over%20100TB)
 
 2. At the bottom of the pane, select **Contact Support**, and then select **New Service Request**. 
 
