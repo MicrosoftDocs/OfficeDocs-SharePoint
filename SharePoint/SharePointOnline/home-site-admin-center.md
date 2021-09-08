@@ -28,6 +28,7 @@ description: "Set up a home site from the SharePoint admin center"
 # Set up a home site from the SharePoint admin center (Preview)
   
 Learn how to set up and manage a home site for your organization in the SharePoint admin center. If you have already set a home site for your organization, you can skip this step.
+
 Learn more about [planning and building a home site](/sharepoint/SharePointOnline/home-site-plan.md) before assigning home site status to a site in the SharePoint admin center. 
 
 ### Step 1: Log into the SharePoint admin center 
@@ -53,6 +54,7 @@ It may take up to 10 minutes for the newly assigned home site to reflect home si
 
 > ![Image of the settings panel on the home site after its been assigned as a home site](media/settings-panel.png)
 Next, learn more about how to [enable and set up global navigation](/SharePoint/sharepoint-app-bar) in the SharePoint app bar.
+
 
 
 
