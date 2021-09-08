@@ -44,6 +44,7 @@ Microsoft Viva Connections is your gateway to a modern engagement experience des
 - Built on existing capabilities in Microsoft 365 like SharePoint and Yammer
 
 ## Viva Connections mobile and desktop experiences
+
 ![image showing viva connections on mobile and desktop](media/new-vc-desktop-mobile.png)
 
 ### The Viva Connections mobile experience
@@ -51,7 +52,9 @@ The Viva Connections mobile app is optimized to provide a fast, native, and bran
 
 #### Dashboard, Feed, and Resources
 The experience in the Viva Connections mobile app is anchored around three key concepts: the Dashboard, the Feed, and Resources.
+
 ![image showing viva connections on mobile and desktop](media/new-vc-pivots.png)
+
 - **Dashboard**: The Dashboard is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. The Dashboard uses dynamic cards that employees can interact with to do things like complete simple tasks or review critical data. It’s authored in SharePoint and published to the Viva Connections Teams mobile app. 
 <br>
 <br>
@@ -186,7 +189,7 @@ Users will see content aggregated from the following sources, provided they have
     - Posts to the organization community
     - Featured posts
     - Posts to communities that the user follows
-    
+
 ## Viva Connections Resources
 The **Resources** tab of the mobile app automatically uses the global navigation links that you set up in your [SharePoint app bar](/SharePoint/SharePointOnline/sharepoint-app-bar.md). This type of functioning provides users with a familiar navigation structure and allows them to open sites, pages, news, and more — right from their mobile devices.
 ![image showing resources tab](media/resources-tab.png)
