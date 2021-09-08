@@ -1,5 +1,5 @@
 ---
-title: Guided walkthrough- Create a Giving site for your organization
+title: Hold a town hall in Yammer and keep the conversation going
 ms.reviewer: 
 ms.author: dowallace
 author: dowallace
@@ -17,159 +17,209 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to create a Giving site for your organization in SharePoint"
+description: "Learn how to hold a town hall using Yammer"
 ---
 
-# Guided walkthrough: Create a giving site for your organization 
+# Hold a town hall in Yammer and ceep the conversation going
 
-In this article, we show you elements of an example Giving site to inspire you, and help you learn how to create similar sites for your own organization. In this example, the Giving site provides an example of how a page with thoughtful design and messaging can inspire your organization. This example page is also deployed as part of a Human Resources Hub site.
+Bring your organization together to communicate the overall state of the business, status of large-scale projects, success stories, and growth opportunities. Create an end-to-end live event experience in Yammer that engages audiences before, during, and after the event.
 
-First, if you haven't already created a Communication site, check out the Create your site section in this article.  
+Organizations often call their large-scale events for employees a town hall. Sometimes organizations refer to a town hall as an all-hands meeting or all-company meeting. In this example, we’ll be referring to this type of meeting as an organization town hall, but the steps and guidance can be used the same way for similar meetings and live events in Yammer.
 
-Once you have your created your site and know how to edit pages, you can use the steps below to add the elements shown.
+Get started preparing and implementing a town hall that is on demand, secure, accessible to all audiences, and allows you to keep the conversation going after the live event.  
+
+
+
+Town halls can help bring your organization together by:  
+
+- Sharing information in a meaningful and engaging format
+- Building trust and connections across an organization
+- Broadcasting to large groups of people at one time 
+- Expanding community and employee engagement through shared experiences
+- Keeping the conversation going in channels related to the town hall
+- Using live event analytics to understand event reach and engagement 
+- Connecting employees and teams through hybrid work
+
+Review Town Hall tools (Bookmark link to review M365 Town Hall tools)
+
+
+
+## Plan a town hall
+
+Since town halls reach broad and diverse audiences, you’ll want to consider the needs and preferences of your audience and make sure content can be accessed before, during, and after the event.
+
+(insert infographic)
+
+**Planning considerations:**
+- The town hall is a virtual live event and can be accessed by different people across different regions and time zones.
+- Many people will attend using a mobile device.
+- Some people won’t attend the live event, but will want to watch the event recording later.
+- Some people won’t watch the full recording, but will want to see highlights of the most important information therefore after the town hall, a recording and highlights can be shared in the form of a SharePoint news post.
+- Event Q&A can take place in a Yammer community, so people who couldn’t attend can still benefit from the information shared.
+- Promoting the town hall event will be most successful by diversifying the different channels that are currently being used by your audience.
+
+### Learn about your audience
+
+Invest in learning what’s most important to your audience. Knowing your audience will help you determine how to effectively deliver your message, what speakers will resonate with your audience, how to moderate the town hall , and how to  structure the town hall.
+Learn more about how to scope and define your audience for your town hall. 
+
 <br>
-<br>
 
-## Example Giving Site
+### Ensure content is accessible to everyone
 
-|  Image of the homepage               |  Customization instructions                |
-| :------------------- | :------------------- |
-|    ![Image of the Giving Site landing page](media/givinig-site-preview.png)  | **1. Make your site easy to get around** Customize navigation to make it easy for people to discover important content on your site. [*Learn how*](#make-your-site-easy-to-get-around) <br> <br>**2. Inspire with imagery and information** Use eye-catching and inspiring images that link to content at the top of the page. [*Learn how*](#inspire-with-imagery-and-information)<br> <br>**3. Make a statement** Create professional, consistent text with multiple formatting choices. [*Learn how*](#make-a-statement-with-the-text-web-part)<br> <br>**Call to action** Make it easy for people to take action right away. [*Learn how*](#call-to-action)<br> <br>**4. Spread the news** Share ideas and stories that enhance your message. [*Learn how*](#spread-the-news-with-the-news-web-part)<br> <br>**5. Get events on the calendar** Add an event calendar to keep people up to date on related events.  [*Learn how*](#add-a-calendar-of-events-with-the-events-web-part)| 
+Town halls are designed to reach the entire organization or large groups within it. Make sure  the event’s  target audience  has access to the tools they need to consume the content.
 
+- Plan to record town hall events. When a live event is recorded, it will automatically be added to Microsoft Stream. Learn how to enable autogenerate captions. The live event can also be saved to the Yammer home page. 
+- If your organization operates across multiple geographic regions, make sure the time zone the event takes place in allows for the majority of people to attend live.  
+- Yammer supports live events and town halls in many languages across multiple platforms.
+- Ensure attendees have mobile access to the town hall via the Yammer app or Viva Connections (link). 
+
+
+
+### Define the town hall message
+
+Craft a message that’s well organized, detailed, and to the point. To engage your audience and make sure the messages in the town hall are understood by everyone:
+ 
+- Make the presentation visual. Use PowerPoint to create a visual display of your message to keep your audience connected. Organizations have the option of broadcasting a live event in Yammer using Teams. Learn to configure desktop sharing in Microsoft Teams to display your PowerPoint deck during your townhall. (fact check)
+- Provide town hall objectives to attendees beforehand. Share these objectives via email or the event SharePoint site.
+- Only share the most relevant information. Ensure the most important information is highlighted to reserve time and to keep your audience engaged. 
+
+
+### Decide the live event speakers and structure  
+
+Invite speakers who align with the message of the town hall. If the intent of your event is to report on  quarterly earnings,  recruit people from the finance department who can speak to insights and answer questions.  
+
+- Develop the schedule and time limits for the town hall.
+- Assign roles to moderators and brief them on key tasks If you plan to use live Q&A during the event, prepare speakers with a list of known concerns or questions . 
+- Test equipment beforehand. Make sure each speaker and moderator knows  how to use the tools used to  conduct the town hall. This can range from how to share their screen,  access the Q&A box,locate incoming comments, and more.  
+
+### Review M365 town hall tools 
+
+Conduct a scalable town hall that engages your audience before, during, and after your event with Microsoft 365 tools. 
+
+(Insert screenshot)
+
+### Use Yammer to host your town hall event
+
+Yammer enables people to connect with each other across an entire organization. It helps unite people who don’t often interact and gives them the ability to discover content and meet and engage with organization leaders. .
  
 
-## Create your site
-To make a site like the one shown here, you'll create a [Communication site](https://support.microsoft.com/en-us/office/use-the-sharepoint-topic-showcase-and-blank-communication-site-templates-94a33429-e580-45c3-a090-5512a8070732). To do this, select **Create site** from the SharePoint start page (or, if you're going to associate this site with an existing Hub site, navigate to the hub site and select **Create site** there so that the communication site is automatically be associated with that hub site).
-
-   ![Image of the Create site option](media/create-your-site.png)
-
-Next, choose **Communication site**, and then the **Topic** layout. Fill out your site name, description, and other information, and select *Finish*. Then you'll get a template with the same type of layout as the example in this article.
-
-   ![Image of the Communication site panel](media/communication-site-view.jpg)
-
-For more information, see [Create a communication site in SharePoint Online](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
-
-[Back to top](#example-giving-site)
+>[!NOTE]
+>To host a live event in Yammer, your organization must have Enforce Office 365 identity selected, and you must be using Microsoft 365 connected Yammer groups. For more information, see Enforce Office 365 identity for Yammer users and Yammer and Microsoft 365 groups.
 
 
-## Make your site easy to get around
+Get started with organizing live events in Yammer. 
 
 
-You can quickly and easily customize the organization and navigation of your SharePoint site to make it easy for your visitors to navigate the site and find the information they need.
 
-   ![Image of the Sharepoint navigation tool bar](media/navigation-bar.png)
-<br>
-- **Add and edit the main menu** Easily edit the top menu to link the page to other SharePoint pages or on the Internet.
-<br>
+## Promote the town hall and manage engagement
 
-- **Mega menus**  When a site is deployed as part of a hub site, you can create [powerful mega menus](https://support.microsoft.com/en-us/office/create-a-mega-menu-on-communication-sites-and-hub-sites-d6768545-2391-4c66-9a8c-a85eb76b4cf5).
+### Before the event
 
-For more detailed information on working with navigation, see [Customize the navigation on your SharePoint site](https://support.microsoft.com/en-us/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca).
+**Promote in Yammer**
 
-[Back to top](#example-giving-site)
+(insert screenshot)
 
-## Inspire with imagery and information
-Let your team know what’s most important with high-impact hero images, company branding, and important news. The initial impact of the Giving site home page is created by large and eye-catching images of the Hero web part. The layout used in this example is **Four tiles**.
-<br>
+Drive pre-event awareness in Yammer. When holding a town hall in Yammer, audience engagement begins as soon as the event has been created. Attendees can promote and discover the upcoming event through the event banner (when in the live feed), event notifications, and by accessing the Event tab on mobile.
 
-### Hero layout
+In the Yammer Home Feed, attendees can set up notifications that let them know when the event is live. An Event banner appears when the event is live, allowing them to attend the town hall immediately from anywhere. 
 
-Editing the web part presents layout options. The **Tiles** option, such as the one shown above, presents layouts for between one and five tiles. The **Layers** option sets each image as a layer with the image next to the title. Up to five layers are possible, so that you can use the web part to fill the entire page.
+**Promote in SharePoint**
 
-In this example, the Hero web part is in a full-width section.
+(Insert screenshot)
 
-Use the **Move item** ![Move item icon](media/move-item.png) Move web part button on the left to rearrange the tiles within the Hero web part.
+Inform and prepare your audience for your event by creating a SharePoint communications site  using the Events template. Include instructions for attending as well as any other necessary top-of-mind items.
 
-   ![Image of the Hero web part](media/hero-layout.png)
-<br>
+**Promote in Outlook**
 
-### Customize each tile
+Invite all attendees to the event with a calendar invite via email in Outlook. Provide detailed information such as a link to the SharePoint event site, the Yammer meeting link, and the Yammer event page. 
 
-When you select a tile, you'll see a toolbar at the bottom of the tile where you can select **Edit details** where you can change the link and image used. With the larger tile, you can also set call to action text and link. On the same toolbar, you can set focal point for the hover animation, plus zoom in and zoom out of the image.
+Include objectives or talking points in the invite as well. This will help attendees prepare questions to ask during the event.
 
-   ![Image of the Hero web part customization panel](media/Customize-each-tile.png)
-
-For more details on using the Hero web part, see [Use the Hero web part](https://support.microsoft.com/en-us/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645).
-
-[Back to top](#example-giving-site)
+Yammer live events are also integrated with Outlook so that event organizers can add other event stakeholders. 
 
 
-## Make a statement with the text web part
-Uniform, professional-looking typography is a feature of this site, and the Text web part provides tools to refine the impact of text used in several locations on this page. In this example, the Text web part is using the **Normal text** style. Selecting the ellipses (…) at the right end of the formatting toolbar offers additional options.
+**Promote in Viva Connections**
 
-In this Giving site example shown below, the web part is in a one-column section.
-   ![Image of the Text web part](media/text-webpart.png)
+(Insert Screenshot)
 
-For more details on using the Text web part, see [Add text and tables to your page with the Text web part](https://support.microsoft.com/en-us/office/add-text-and-tables-to-your-page-with-the-text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801)
+Viva Connections is a digital platform built on the existing capabilities of Microsoft 365. It allows organizations to customize employee experiences and gain access to the most important information, tools, and resources on both desktop and mobile devices.
 
-[Back to top](#example-giving-site)
+The Viva Connections home page features a feed and dashboard you can use to promote your event. Learn more about Viva Connections (link).  By publishing news posts in SharePoint to promote your event, users will learn about it wherever the Viva Connections Feed is available in your organization.
 
-## Call to action
-In this example, the Giving site has a section using a three-column layout with images and links within the section.
-  
- ![Image of the Call to action set up](media/call-to-action.png)
+Manage engagement during the during the town hall (bookmark link to step 3 manage engagement)
 
-Here, the Image web part is paired with a text web part to create a call to action.
-   ![Image of the Call to action 2 set up](media/call-to-action-image.png)
+Manage engagement after the town hall (bookmark link to post event engagement)
 
-For more details on using the Image web part, see Use the [Image web part](https://support.microsoft.com/en-us/office/use-the-image-web-part-a63b335b-ad0a-4954-a65d-33c6af68beb2).
-
-### Working with sections
-
-To create sections, start editing by clicking **Edit** on the top right of the page.
-
-   ![Image of the Edit option](media/edit-section.png)
-
-The + symbol before or after a section will add a section using one of several layouts.
-
-   ![Image of the Section layout panel](media/add-a-section.png)
-
-Sections make up your page, and are you place one or more web parts. While editing the page, each section will show controls to edit the layout, move, or delete the sections. For information on working with sections, see [Add or remove sections and columns on a page](https://support.microsoft.com/en-us/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899).
-
-   ![Image of the Add section icon](media/add-a-section-plus.png)
 <br>
 
-### Working with web parts
+## Produce and host a town hall
 
-Select the plus symbol ![Image of the Plus symbol](media/plus-symbol.png) in a section, which may appear before or after a web part in a section, to see the many types of web parts available. For more information on all web parts, see [Using web parts on SharePoint pages](https://support.microsoft.com/en-us/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0).
+(Insert produce a town hall infographic)
 
-   ![Image of the Add web part icon](media/working-with-webparts.png)
+Learn more about using PowerShell to set up live events and policies. 
+Learn more about producing and organizing a live event in Yammer. 
 
-Web parts may be edited, moved or deleted within sections. The **Edit web part** icon opens detailed controls unique to each web part type.
+### Host a town hall in Yammer
 
-   ![Image of the Edit web part task bar](media/edit-webparts.png)
+**Step 1: Get set up in Yammer**
 
-When your page updates are ready, Selecting **Publish** to make them visible to your audience.
+Creating and producing live events in Yammer requires Microsoft Stream and/ or Teams licenses and specific permissions. Yammer administrators can schedule live meetings in Yammer.  
+For events using an external app or device, you will need to have your Microsoft Stream license enabled.
 
-   ![Image of the Publish option](media/publish-site.png)
+Learn more about Permissions for scheduling, creating, and producing live events in Yammer
 
->[!TIP]
->To manage all of your pages on the site, click **Pages** on the top menu. For more details on using pages, see Create and use modern pages on a SharePoint site.
+**Step 2: Test Equipment**
 
-[Back to top](#example-giving-site)
+Determine whether your speakers will be broadcasting from a web cam or a studio-produced broadcast.  Make sure all equipment needed to connect video and audio is secured and in place.  
+ 
+Learn more about producing a live event in Yammer using an external device. 
 
-## Spread the news with the News web part
+**Step 3: Manage Engagement**
 
-The News web part provides controls to choose the **News Source** and **Layout**, and to **Organize** and **Filter** the content. Under **Layout**, there are five options to adjust how news items are presented. In this example, news stories are using the site as the source, and the **Top story** layout. The stories are presented side-by-side with one large image and two smaller images because only three news stories on the site are published.
+Audience members and moderators can engage during the event using the conversation bar. 
 
-In this example, the web part is in a one-column section.
+(insert screenshots)
 
-   ![Image of the New web part](media/news-webpart.png)
+Yammer allows for a live Q&A during the event, as well as freeform conversation that promotes candid, organization-wide conversation. 
 
-For more details on using the News web part, see [Use the News web part on a SharePoint page](https://support.microsoft.com/en-us/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165).
+Learn more about using Q&A in a Yammer community.  
 
-[Back to top](#example-giving-site)
+Be sure to record the event so people who weren’t able to attend live can watch later. 
 
 
-## Add a calendar of events with the Events web part
-The Events web part allows you to easily display upcoming events on your Giving page. You can use this web part to draw attention to Giving-related events, ranging from planning sessions to the actual events, and viewers can easily select the event to add it to their calendars.
+## Post-event engagement
 
-In this Giving site example, this web part uses the Filmstrip layout.
-  ![Image of the Events web part](media/events-webpart.png)
+### Share a recording of the live event
 
-For more details on using the Events web part, see [Use the Events web part](https://support.microsoft.com/en-us/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909).
+Members of your organization can watch the recording of the event stream after the event. Communities created in Yammer during the event can continue the conversation and watch the recording of the town hall on the Yammer platform. Moderators can also provide automatic recaps for those who may have missed the town hall.
 
-[Back to top](#example-giving-site)
+Make your town hall and post-event engagement scalable by sharing your town hall recording across multiple platforms. Add it to your SharePoint site using the Yammer web part or the News feed web part, add it to your news feed in Viva Connections (link), or share it to a team channel in Teams.
+
+Need more information about Stream and metadata
+Stream (on SharePoint) provides Multi-Geo support for video storage as well as advanced sharing options. Increase your event recording’s discoverability and shareability by adding it to your organization’s Stream portal.
+
+Access additional video analytics including views over time and viewer engagement by saving your town hall recording to Stream.  
+
+### Measure attendee insights
+
+(insert screenshot)
+
+Yammer features insights that show attendee location, department insights, sentiment analysis, and API sensibility. 
+
+View insights to see how many people attended, average watch time, and more. Recognize trends by seeing how many conversations, comments, questions, answers, and reactions were generated through the event. Use this information to amplify the content people engaged with  most and to plan for your next town hall. 
+
+
+### Measure Community Engagement
+
+(Insert screenshot)
+
+Yammer’s insights that allow creators of town halls to identify trends such as conversations, questions, top contributors, topics, hashtags, location and department. 
+
+These insights provide information that allows you to measure community growth by tracking member creation, active members, member location, department and more. You can also see how community members engage by seeing how many comments, reactions, questions, answers, live events and more. 
+
+Learn more about viewing community insights in Yammer. 
+
 
 ### Want more?
 Get inspired with more examples and the ability to add an example Giving site with the [SharePoint Look Book](https://lookbook.microsoft.com/details/5b5ef75c-2acc-410e-8c60-3ee01e7acfc8).
