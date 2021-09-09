@@ -123,3 +123,9 @@ If you have enabled ViewInFileExplorerEnabled, you may notice the option appear 
 
 Currently, the ConfigureViewInFileExplorer policy can only be applied to Windows instances that are joined to a Microsoft Active Directory domain, Windows 10 Pro, or Enterprise instances that enrolled for device management. This error may occur if you're attempting to apply this policy to a non-domain joined device.
 </br></br>
+
+## Learn More
+
+- [Sync SharePoint and Team files with your computer](https://support.microsoft.com/en-us/office/sync-sharepoint-and-teams-files-with-your-computer-6de9ede8-5b6e-4503-80b2-6190f3354a88)
+- [View and open SharePoint with File Explorer](https://support.microsoft.com/en-us/office/view-and-open-sharepoint-files-with-file-explorer-66b574bb-08b4-46b6-a6a0-435fd98194cc)
+- [Troubleshoot View in File Explorer](sharepoint/troubleshoot/lists-and-libraries/troubleshoot-issues-using-open-with-explorer)
