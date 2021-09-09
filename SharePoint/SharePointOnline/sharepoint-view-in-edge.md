@@ -116,10 +116,10 @@ The tenant setting should be effective immediately but may take 15 minutes to st
 If you have enabled ViewInFileExplorerEnabled, you may notice the option appear in your SharePoint library to View In File Explorer. Without the Edge policy enabled, clicking the button will result in a blank screen.
 </br> </br>
 
-**I have enabled the Edge policy. Why do I see the error “This Policy is blocked – its value will be ignored”  while checking the status via Edge://policy/**
+**I have enabled the Edge policy. Why do I see the error “This Policy is blocked – its value will be ignored”  while checking the status via Edge://policy/ ?**
 </br>
 
-:::image type="content" source="media/edge-error.png" alt-text="User interface of the "This policy is blocked - its value will be ignored." error message.":::
+:::image type="content" source="media/edge-error.png" alt-text="User interface of the This policy is blocked - its value will be ignored. error message.":::
 
 Currently, the ConfigureViewInFileExplorer policy can only be applied to Windows instances that are joined to a Microsoft Active Directory domain, Windows 10 Pro, or Enterprise instances that enrolled for device management. This error may occur if you're attempting to apply this policy to a non-domain joined device.
 </br></br>
