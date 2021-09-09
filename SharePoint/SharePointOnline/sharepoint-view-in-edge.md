@@ -28,8 +28,6 @@ description: "Learn about SharePoint view in File Explorer for Edge."
 
 Last year, we announced that Microsoft 365 apps and services would no longer support Internet Explorer 11 (IE 11). As a result, we no longer recommend View in File Explorer and encourage using the OneDrive sync client. The OneDrive sync client provides [Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e), which allows you to access all your files in SharePoint without using up local storage space. For info about using OneDrive to sync SharePoint files, visit [SharePoint file sync](sharepoint-sync.md).
 
-</br>
-
 ## Configure View in File Explorer with Edge
 Follow the steps below to use View in File Explorer in Microsoft Edge:
 
