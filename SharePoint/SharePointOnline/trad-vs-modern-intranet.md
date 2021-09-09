@@ -62,7 +62,7 @@ What makes modernizing your intranet worth the effort:
 
 |Traditional|New|How to get started |
 |:-------|:------|:--------|
-| Deployed solely by IT   | Relies on a collaborative approach with several stakeholders across departments of the organization   |  Instead of assigning intranet tasks to a few IT members, assemble a team that represents the needs of your viewers and business to create intranet solutions. </br> [Learn more about modern intranet teams](./intranet-overview.md)  |
+| Deployed solely by IT   | Relies on a collaborative approach with several stakeholders across departments of the organization   |  Instead of assigning intranet tasks to a few IT members, assemble a team that represents the needs of your viewers and business to create intranet solutions. </br> [Learn more about modern intranet teams](./intranet-team-overview.md)  |
 | Manually governed by IT | Uses governance models that provide flexibility for users in a compliant way based of the organization's goals - sharing, provisioning, risk mitigation | Instead of asking for permission to create a site from IT, site owners can create their own sites using SharePoint's out-of-the-box responsive designs and custom theming. </br> [Learn more about managing site creation](./manage-site-creation.md)|
 | Resources can only be accessed in the office or on a computer | Work anytime, anywhere, any place, on any device | Instead of limiting access to content, use SharePoint security and compliance features to make sure viewers have access to the right information on any device. </br> SharePoint works by default on mobile devices. |
 
