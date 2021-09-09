@@ -206,9 +206,9 @@ This is a basic summary of the steps to deploy Viva Connections.
 4. Enable, customize, and deploy the Viva connections app from the Microsoft Teams admin center
 
 
-### Summary of release notes
+## Summary of release notes
 
-| Public Preview Known Issues  | Target Release                 | 
+| Public preview known issues  | Target release                 | 
 | :------------------- | :------------------- |
 | [SPFx] Isolated components do not support vanity domain (web/desktop/mobile)  | November | 
 | [Feed] Social reactions/comments still enabled but not functional (when disabled)  | December    | 
