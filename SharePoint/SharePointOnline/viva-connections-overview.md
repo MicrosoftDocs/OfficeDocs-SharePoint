@@ -124,7 +124,7 @@ A dashboard is made of medium-sized and large-sized cards which users can intera
 
 A card can also reflect dynamic content that refreshes based on a user action or other event. For example, users can see new tasks assigned to them when they open the dashboard. As the users mark the tasks as **complete**, the card updates to reflect their new number of tasks.
 
-![Animated GIF displaying how to interact with the dashboard](media/new-vc-dashboard-interaction.gif)
+![Animated GIF displaying how to interact with the dashboard](media/new-vc-dashboard-interaction-2.gif)
 
 The dashboard experience has been designed to be consistent across mobile platform and desktop, but there are some differences:
 
@@ -171,7 +171,7 @@ In addition, in Viva Connections for Desktop, the experience leverages SharePoin
 
 These cards are available in the Dashboard toolbox when authoring a Dashboard, as shown in the following image:
 
-![image showing display of cards on dashboard](media/vc-tool-box.png) 
+![image showing display of cards on dashboard](media/vc-tool-box-2.png) 
 
 ## Viva Connections Feed
 In the Viva Connections app, users will see a personalized Feed with relevant information from across their organization. The Feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. Individual messages can be promoted to raise greater awareness among users by using SharePoint’s Boost and Yammer’s Featured options.
