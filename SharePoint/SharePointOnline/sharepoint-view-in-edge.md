@@ -33,7 +33,6 @@ The View in File Explorer menu option will not be visible to you or users in the
 </br>
 
 ## Configure View in File Explorer with Edge
-
 Follow the steps below to use View in File Explorer in Edge:
 
 1. Verify that devices are on Edge build 93 or later using [Find out which version of Microsoft Edge you have](https://support.microsoft.com/en-us/microsoft-edge/find-out-which-version-of-microsoft-edge-you-have-c726bee8-c42e-e472-e954-4cf5123497eb).
@@ -45,9 +44,9 @@ Follow the steps below to use View in File Explorer in Edge:
 </br>
 
 <details>
-<summary><b>To enable using group policy</b></summary>
+    <summary><b>To enable using group policy</b></summary>
 
-1. First, configure Microsoft Edge policy settings  by following the steps at [Configure Microsoft Edge policy settings on Windows](/deployedge/configure-microsoft-edge)
+ 1. First, configure Microsoft Edge policy settings  by following the steps at [Configure Microsoft Edge policy settings on Windows](/deployedge/configure-microsoft-edge)
 2. Ensure you have downloaded the Microsoft. administrative template at [Download and deploy Microsoft Edge for business](https://www.microsoft.com/en-us/edge/business/download) or you may not see the policy listed.
 3. Once the template is downloaded, open the Group Policy Object Editor. Right-click **Administrative Templates** in the Computer Configuration or User Configuration node and select **Add/Remove Templates** and browse to the downloaded template.
 4. When applying the policy, ensure you update the domain to your tenant domain or use **sharepoint.com** if you plan on visiting multiple SharePoint tenants. 
@@ -62,15 +61,19 @@ Follow the steps below to use View in File Explorer in Edge:
 <details>
 <summary><b>To enable using Intune</b></summary>
 
-1. First, configure Microsoft Edge policy settings  by following the steps at  [Configure Microsoft Edge policy settings with Microsoft Intune](/deployedge/configure-edge-with-intune).
-2. Verify the policy has been enabled by opening Edge and navigating to Edge://policy/.
+1. Configure Microsoft Edge policy settings by following the steps at  [Configure Microsoft Edge policy settings with Microsoft Intune](/deployedge/configure-edge-with-intune).
+
+</details>
+</br>
+
+4. Verify the policy has been enabled by opening Edge and navigating to Edge://policy/.
 
     :::image type="content" source="media/microsoft-edge-policy.png" alt-text="Snapshot of Microsoft Edge Policies page ":::
 
     > [!TIP] 
     > You may need to close and re-open Edge for the policy to appear.
 
-3. As a tenant administrator, update your SharePoint Online tenant configuration via SharePoint Online Management Shell to allow the “View in File Explorer” option to show in the UX for Microsoft Edge Browser using the following steps:
+5. As a tenant administrator, update your SharePoint Online tenant configuration via SharePoint Online Management Shell to allow the “View in File Explorer” option to show in the UX for Microsoft Edge Browser using the following steps:
 
     1. Connect to SharePoint Online Management Shell by running: `Connect-SPOService -Url https://contoso-admin.sharepoint.com`
 
@@ -80,7 +83,7 @@ Follow the steps below to use View in File Explorer in Edge:
     > [!NOTE]
     > Ensure the management shell version is 16.0.21610.12000 or higher or the ViewInFileExplorerEnabled option will not be available.
 
-4. Next, update your SharePoint Online tenant configuration via SharePoint Online Management Shell to allow persisted cookies for View with Explorer.
+6. Next, update your SharePoint Online tenant configuration via SharePoint Online Management Shell to allow persisted cookies for View with Explorer.
 
 	1. Run the following cmdlet to enable persistent cookies.
 	      
@@ -88,10 +91,6 @@ Follow the steps below to use View in File Explorer in Edge:
 
     > [!NOTE]
     > This capability will only work for users in the tenant where the group policy is active.
-
-
-</details>
-</br>
 
 ## Frequently asked questions (FAQs)
 
