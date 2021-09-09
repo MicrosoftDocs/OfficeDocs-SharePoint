@@ -64,6 +64,7 @@ Follow the steps below to use View in File Explorer in Edge:
 1. Configure Microsoft Edge policy settings by following the steps at  [Configure Microsoft Edge policy settings with Microsoft Intune](/deployedge/configure-edge-with-intune).
 
 </details>
+
 </br>
 
 4. Verify the policy has been enabled by opening Edge and navigating to Edge://policy/.
