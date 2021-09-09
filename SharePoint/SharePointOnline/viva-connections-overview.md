@@ -141,13 +141,13 @@ The dashboard experience has been designed to be consistent across mobile platfo
 #### Dashboard authoring
 A Dashboard is authored in a SharePoint home site on a Dashboard page. A site editor can create the Dashboard, add cards in the size and layout of choice, and target the cards to specific audiences.
 
-![image showing how to edit a Viva Connections dashboard](media/vc-dashboard-preview.png)
+![image showing how to edit a Viva Connections dashboard](media/vc-dashboard-preview-2.png)
 
 The layout of the dashboard, including the size of the cards (which can be individually set as medium or large), is set up by the person who authors the dashboard. The cards in the dashboard reflow based on the screen real estate of the Dashboard. These cards may look different depending on whether the Dashboard is used on mobile or in the Dashboard web part on the home site.
 
 #### Dashboard cards
 
-![image showing the dashboard in preview mode](media/vc-dashboard-preview.png)
+![image showing the dashboard in preview mode](media/vc-dashboard-preview-2.png)
 
 The Viva Connections Dashboard comes with an initial set of built-in cards, but is also designed to enable SaaS providers, system integrators, and in-house development teams create their own cards to meet their business needs.
 
