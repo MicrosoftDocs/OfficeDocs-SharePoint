@@ -29,6 +29,7 @@ description: "Learn about SharePoint view in File Explorer for Edge."
 Last year, we announced that Microsoft 365 apps and services would no longer support Internet Explorer 11 (IE 11). As a result, we no longer recommend View in File Explorer and encourage using the OneDrive sync client. The OneDrive sync client provides [Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e), which allows you to access all your files in SharePoint without using up local storage space. For info about using OneDrive to sync SharePoint files, visit [SharePoint file sync](sharepoint-sync.md).
 
 ## Configure View in File Explorer with Edge
+
 Follow the steps below to use View in File Explorer in Microsoft Edge:
 
 1. Verify that devices are on Microsoft Edge build 93 or later using [Find out which version of Microsoft Edge you have](https://support.microsoft.com/en-us/microsoft-edge/find-out-which-version-of-microsoft-edge-you-have-c726bee8-c42e-e472-e954-4cf5123497eb).
@@ -39,17 +40,16 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
 
 4. Use the options below to enable View in File Explorer using group policy or Intune:
 
-
 <details>
     <summary><b>To enable using group policy</b></summary>
 
 1. Configure Microsoft Edge policy settings by following the steps at [Configure Microsoft Edge policy settings on Windows](/deployedge/configure-microsoft-edge)
 2. Make sure you've downloaded the Microsoft Edge administrative template at [Download and deploy Microsoft Edge for business](https://www.microsoft.com/en-us/edge/business/download) or you may not see the policy listed.
 3. Once the template is downloaded, open the Group Policy Object Editor. Right-click **Administrative Templates** in the Computer Configuration or User Configuration node and select **Add/Remove Templates** and browse to the downloaded template.
-4. When applying the policy, ensure you update the domain to your tenant domain or use **sharepoint.com** if you plan on visiting multiple SharePoint tenants. 
+4. When applying the policy, ensure you update the domain to your tenant domain or use **sharepoint.com** if you plan on visiting multiple SharePoint tenants.
 5. Enabling the group policy may require a refresh of client group policy settings. After changing the group policy settings, refresh the settings. From a Command Prompt, enter **GPUpdate.exe /force**.
 
-    Example below with the Group Policy value: 
+    Example below with the Group Policy value:
 `[{"cookies": ["rtFa", "FedAuth"], "domain": "sharepoint.com"}]`
     :::image type="content" source="media/edgepolicy-adeejoseph.png" alt-text="Enable Configure the View in File Explorer feature for SharePoint pages in Microsoft Edge":::
 
@@ -62,30 +62,29 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
 
 </details>
 
-4. Verify the policy has been enabled by opening Microsoft Edge and navigating to Edge://policy/.
+5. Verify the policy has been enabled by opening Microsoft Edge and navigating to Edge://policy/.
 
     :::image type="content" source="media/microsoft-edge-policy.png" alt-text="Snapshot of Microsoft Edge Policies page ":::
 
-    > [!TIP] 
+    > [!TIP]
     > You may need to close and re-open Microsoft Edge for the policy to appear.
 
-5. As a tenant administrator, update your SharePoint Online tenant configuration via SharePoint Online Management Shell to allow the “View in File Explorer” option to be visible in the Microsoft Edge Browser interface with these steps:
+6. As a tenant administrator, update your SharePoint Online tenant configuration via SharePoint Online Management Shell to allow the “View in File Explorer” option to be visible in the Microsoft Edge Browser interface with these steps:
 
     1. Connect to SharePoint Online Management Shell by running: `Connect-SPOService -Url https://contoso-admin.sharepoint.com`
 
-    1. Run the following cmdlet to show the “View in File Explorer” menu option: 
+    1. Run the following cmdlet to show the “View in File Explorer” menu option:
+
     ```PowerShell
     Set-SPOTenant -ViewInFileExplorerEnabled $True
-    ```    
-    
-    1. Verify that both the policy and tenant setting is applied. If you don't enable ViewInFileExplorerEnabled via [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps), the View in File Explorer button will not appear in the interface of the SharePoint site. If you have the tenant setting applied without the policy, selecting the View in File Explorer button will result in an error.
+    ```
 
     > [!NOTE]
-    > Ensure the management shell version is 16.0.21610.12000 or higher or the ViewInFileExplorerEnabled option will not be available.
+    > Ensure the management shell version is 16.0.21610.12000 or higher or the ViewInFileExplorerEnabled option will not be available. Next, verify that both the policy and tenant setting is applied. If you don't enable ViewInFileExplorerEnabled via [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps), the View in File Explorer button will not appear in the interface of the SharePoint site.
 
-6. **(Strongly Recommended)** Next, as a tenant administrator, update your SharePoint Online tenant configuration via SharePoint Online Management Shell to allow persisted cookies for View with Explorer.
+7. **(Strongly Recommended)** Next, as a tenant administrator, update your SharePoint Online tenant configuration via SharePoint Online Management Shell to allow persisted cookies for View with Explorer.
 
-	1. Run the following cmdlet to enable persistent cookies.
+ 1. Run the following cmdlet to enable persistent cookies.
 
     ```PowerShell
     Set-SPOTenant -UsePersistentCookiesForExplorerView $true
