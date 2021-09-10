@@ -31,7 +31,7 @@ An extranet site in Microsoft SharePoint is a site that you create to let extern
   
 Traditionally, deploying a SharePoint  *on-premises*  extranet site involves complex configuration to establish security measures and governance, including granting access inside the corporate firewall, and expensive initial and on-going cost.
   
-But with Microsoft 365, partners connect directly to a members-only site in SharePoint, without access to your on-premises environment or any other SharePoint sites. Microsoft 365 extranet sites can be accessed anywhere there's an Internet connection.
+But with Microsoft 365, partners connect directly to a members-only site in SharePoint, a team in Microsoft Teams, or a Teams shared channel without access to your on-premises environment or any other teams or sites. Microsoft 365 extranet sites can be accessed anywhere there's an Internet connection.
   
 Depending on your collaboration needs, you can include Microsoft 365 groups or Microsoft Teams as part of your extranet.
 
@@ -67,11 +67,13 @@ Depending on your collaboration needs, you can include Microsoft 365 groups or M
 
 To get started setting up a SharePoint extranet site:
   
-1. Read [Collaborate with guests in a site](/Office365/Enterprise/collaborate-in-a-site) if you want to limit your extranet to a site with a Microsoft 365 group, or [Collaborate with guests in a team](/Office365/Enterprise/collaborate-as-a-team) if you want to include a team.
+- Read [Collaborate with guests in a site](/Office365/Enterprise/collaborate-in-a-site) if you want to limit your extranet to a site with a Microsoft 365 group, or [Collaborate with guests in a team](/Office365/Enterprise/collaborate-as-a-team) if you want to include a team.
 
-2. Read [Create a B2B extranet with managed guests](/Office365/Enterprise/b2b-extranet) if you want to delegate guest access management to specific approvers in either your organization or the partner organization. 
+- Read [Create a B2B extranet with managed guests](/Office365/Enterprise/b2b-extranet) if you want to delegate guest access management to specific approvers in either your organization or the partner organization. 
+
+- Read [Collaborate with external participants in a channel](/microsoft-365/solutions/collaborate-teams-direct-connect) if you want to use a shared channel in Teams where partners can use their existing work or school account for a single sign-on experience.
     
-3. Read [Limit accidental exposure to files when sharing with guests](/Office365/Enterprise/sharing-limit-accidental-exposure) and [Create a secure guest sharing environment](/Office365/Enterprise/create-a-secure-guest-sharing-environment) to learn about options for securing your guest sharing environment.   
+- Read [Limit accidental exposure to files when sharing with guests](/Office365/Enterprise/sharing-limit-accidental-exposure) and [Create a secure guest sharing environment](/Office365/Enterprise/create-a-secure-guest-sharing-environment) to learn about options for securing your guest sharing environment.   
 
 ## See also
 
