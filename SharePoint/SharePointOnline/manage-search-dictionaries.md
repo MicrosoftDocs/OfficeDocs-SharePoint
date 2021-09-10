@@ -20,6 +20,8 @@ description: "Learn how to manage search dictionaries. You can use search dictio
 
 # Manage search dictionaries
 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
 You can use search dictionaries to include or exclude company names to be extracted from the contents of your indexed documents, or you can include or exclude words for query spelling correction.
   
 ## Manage company name extraction
