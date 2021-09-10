@@ -62,9 +62,7 @@ As a global or SharePoint admin in Microsoft 365, you can change settings in the
 ## Change settings for query suggestions, people suggestions, and personal favorites results
 <a name="__toc349558306"> </a>
 
-Personal favorites results are suggestions based on search results that the user has clicked before. Query suggestions are turned on by default.
-  
-As a global or SharePoint admin in Microsoft 365, you can turn off or on query suggestions, people suggestions, and personal favorites results, or edit the different settings for query suggestions. 
+As a global or SharePoint admin in Microsoft 365, you can turn off or on query suggestions or edit the different settings for query suggestions. Query suggestions are turned on by default.
   
 1. On the Search Center site home page, click the **Settings** menu, and then click **Edit Page**.
     
@@ -79,10 +77,6 @@ As a global or SharePoint admin in Microsoft 365, you can turn off or on query s
   - To change how many characters the user must type before query suggestions are shown, edit the number in the **Minimum number of characters** box. 
     
   - To change how many milliseconds elapse before query suggestions are shown, edit the number in the **Suggestions delay (in milliseconds)** box. 
-    
-  - To change how many query suggestions are shown under the text **Are you looking for these again?** in the search results, change the value for **Number of personal favorites**: Personal favorite results are based on search results that the user has clicked before. To disable personal favorite results, clear **Show personal favorite results**. 
-    
-  - To turn on people name suggestions, select **Show people name suggestions**.
     
 4. Click **OK**.
     
