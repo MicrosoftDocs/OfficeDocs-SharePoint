@@ -74,9 +74,11 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
     1. Connect to SharePoint Online Management Shell by running: `Connect-SPOService -Url https://contoso-admin.sharepoint.com`
 
     1. Run the following cmdlet to show the “View in File Explorer” menu option: 
-    `Set-SPOTenant -ViewInFileExplorerEnabled $True`
+    ```PowerShell
+    Set-SPOTenant -ViewInFileExplorerEnabled $True
+    ```    
     
-    1. Verify that both the policy and tenant setting is applied. If you don't enable ViewInFileExplorerEnabled via Set-SPOTenant, the View in File Explorer button will not appear in the interface of the SharePoint site. If you have the tenant setting applied without the policy, selecting the View in File Explorer button will result in an error.
+    1. Verify that both the policy and tenant setting is applied. If you don't enable ViewInFileExplorerEnabled via [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps), the View in File Explorer button will not appear in the interface of the SharePoint site. If you have the tenant setting applied without the policy, selecting the View in File Explorer button will result in an error.
 
     > [!NOTE]
     > Ensure the management shell version is 16.0.21610.12000 or higher or the ViewInFileExplorerEnabled option will not be available.
@@ -84,8 +86,10 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
 6. **(Strongly Recommended)** Next, as a tenant administrator, update your SharePoint Online tenant configuration via SharePoint Online Management Shell to allow persisted cookies for View with Explorer.
 
 	1. Run the following cmdlet to enable persistent cookies.
-	      
-    `Set-SPOTenant -UsePersistentCookiesForExplorerView $true`
+
+    ```PowerShell
+    Set-SPOTenant -UsePersistentCookiesForExplorerView $true
+    ```
 
     You can locate the View in Explorer button by navigating to the **Library** >  Select the **Library View Menu** on the right-hand side > Select **View In File Explorer**.
     :::image type="content" source="media/view-in-file-explorer.png" alt-text="Menu for View in File Explorer":::
@@ -98,3 +102,4 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
 - [Sync SharePoint and Team files with your computer](https://support.microsoft.com/en-us/office/sync-sharepoint-and-teams-files-with-your-computer-6de9ede8-5b6e-4503-80b2-6190f3354a88)
 - [View and open SharePoint with File Explorer](https://support.microsoft.com/en-us/office/view-and-open-sharepoint-files-with-file-explorer-66b574bb-08b4-46b6-a6a0-435fd98194cc)
 - [Troubleshoot View in File Explorer](/sharepoint/troubleshoot/lists-and-libraries/troubleshoot-issues-using-open-with-explorer)
+- [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps)
