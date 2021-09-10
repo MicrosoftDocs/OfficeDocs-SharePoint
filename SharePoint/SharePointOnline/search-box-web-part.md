@@ -27,7 +27,7 @@ As a global or SharePoint admin in Microsoft 365, you can change settings in the
   
 - Change where the search results should be displayed — for example, show results in a custom Search Results Web Part or a custom search results page.
     
-- Turn off query suggestions and people suggestions. 
+- Turn off query suggestions. 
     
 - Show links to a search preference page and an advanced search page.
     
@@ -59,7 +59,7 @@ As a global or SharePoint admin in Microsoft 365, you can change settings in the
   
 4. Click **OK**.
     
-## Change settings for query suggestions, people suggestions, and personal favorites results
+## Change settings for query suggestions
 <a name="__toc349558306"> </a>
 
 As a global or SharePoint admin in Microsoft 365, you can turn off or on query suggestions or edit the different settings for query suggestions. Query suggestions are turned on by default.
