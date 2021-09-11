@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: ad56091b-14cd-4e49-b6eb-95552b456079
 description: "Learn how to connect your publishing site to a catalog in SharePoint Server 2016."

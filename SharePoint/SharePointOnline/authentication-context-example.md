@@ -11,7 +11,7 @@ ms.topic: article
 ms.custom:
 -  Adm_O365
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - M365-collaboration
 search.appverid:

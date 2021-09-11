@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 60a1110d-27dc-45d0-86e2-cddc72d072b2
 description: "Learn how you can transform queries to provide more targeted SharePoint Server search results and how you can influence the way search results are ordered and displayed."

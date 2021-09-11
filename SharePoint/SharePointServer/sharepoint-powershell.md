@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 166c6fa7-5f51-4e68-88c1-d5954fb1f0bc
 description: "Learn how to use Microsoft PowerShell in SharePoint Server."
 ---

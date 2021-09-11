@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
@@ -76,3 +76,6 @@ Answer:  In general, site performance should not be impacted by running a migrat
 
 **Question:** How do I remove the Migration Manager agent from a computer? </br>
 Answer: Re-run the Migration Manager agent installer and click the **Uninstall** button.
+
+**Question:** Does Migration Manager do incremental migrations? </br>
+Answer:  Yes.  The jobs created in Migration Manager do perform incremental migrations when run subsequently. 

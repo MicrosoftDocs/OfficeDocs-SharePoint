@@ -192,7 +192,6 @@
 #### [Create or edit Secure Store Target Application](create-or-edit-secure-store-target-application.md)
 #### [Make External List](make-external-list.md)
 ### [Customizations and apps]()
-#### [Manage app licenses](manage-app-licenses.md)
 #### [Monitor apps](monitor-apps.md)
 #### [Request app installation permissions](request-app-installation-permissions.md)
 #### [Use App Catalog](use-app-catalog.md)

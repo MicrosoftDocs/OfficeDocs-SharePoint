@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 45264de9-6859-45c1-9d6d-70035c471a2a
 description: "Learn how to plan for variations, identify the source and target variation sites, and decide how content will be synced on target variation sites in SharePoint Server and SharePoint in Microsoft 365."

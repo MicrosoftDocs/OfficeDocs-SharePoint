@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff13b917-5236-48e6-89d5-8c78e61a72a8
 description: "Learn about the default permission levels and user permissions in SharePoint Server."
 ---

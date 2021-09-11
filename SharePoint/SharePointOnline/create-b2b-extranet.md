@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.topic: overview
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - Ent_O365_Hybrid
 - M365-collaboration

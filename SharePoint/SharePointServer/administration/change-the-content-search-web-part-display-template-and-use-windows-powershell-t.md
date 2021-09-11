@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: df979ec9-bdf7-4d96-b3a6-37213c45e5da
 description: "Learn how to change the Content Search Web Part display template and use Microsoft PowerShell to start Usage analytics in SharePoint Server."
