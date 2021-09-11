@@ -28,7 +28,7 @@ description: "Learn how to associate a SharePoint hub site to another hub site."
 
 # Associate a SharePoint hub site to another hub to connect search experiences 
   
-Associate a [SharePoint hub](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f) to another hub to expand search results across multiple hubs in your organization. This enables users to discover relevant content when searching on any sites related to the associated hubs. Learn more about [how to plan](sharepoint/sharepointonline/planning-hub-sites.md) and [create hub sites](sharepoint/sharepointonline/create-hub-site.md) for your organization.  
+Associate a [SharePoint hub](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f) to another hub to expand search results across multiple hubs in your organization. This enables users to discover relevant content when searching on any sites related to the associated hubs. Learn more about [how to plan](planning-hub-sites.md) and [create hub sites](create-hub-site.md) for your organization.  
 
 
 >[!NOTE]
