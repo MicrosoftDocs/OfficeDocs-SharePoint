@@ -55,13 +55,13 @@ Hub to hub site associations create a network of hubs that roll-up to each other
 
 ![Image of the basic hub site structure when hubs are associated to eachother](media/hub-structure-layered.png)
 
-- **Parent hub - level 1:** - Think of associated hubs on level one as “Parent” hubs that determine the search scope for peer associated hubs.
-- **Associated child hub - level 2:** - These hub sites are already associated to the parent hub and content within these sites will appear when users search at any of these hubs
-- **Associated child hub - level 3:**This level (and all proceeding levels) of peer associated hubs behaves the same way as the first level. Content on sites beyond level 3 will not appear in search results.
+- **Parent hub (level 1):** Think of associated hubs on level one as “Parent” hubs that determine the search scope for peer associated hubs.
+- **Associated child hub (level 2):** These hub sites are already associated to the parent hub and content within these sites will appear when users search at any of these hubs
+- **Associated child hub (level 3):** This level (and all proceeding levels) of peer associated hubs behaves the same way as the first level. Content on sites beyond level 3 will not appear in search results.
 
 ## Associate a hub to another hub
 
-![Image of the hub management panel in the SharePoint admin center](media/hub-settings-admin.png)
+![Image of the hub management panel in the SharePoint admin center](media/hub-settings-admin-2.png)
  
 1.	In the SharePoint admin center, navigate to **Active Sites**
 2.	Select the hub site that you’d like to make an association to, then select **Hub settings** in the command bar to open to hub settings panel
@@ -95,7 +95,7 @@ Hub site owners can quickly add links to the associated parent hub or child hubs
 
 To view the parent hub association, select **Settings** and then **Hub site settings**. Changes to hub associations must be made in the SharePoint admin center and require administrative privileges.
 
-![Image of the hub site settings panel highlighting the Parent hub association](media/hub-setting-panel.png)
+![Image of the hub site settings panel highlighting the Parent hub association](media/hub-setting-panel-2.png)
 
 
 
