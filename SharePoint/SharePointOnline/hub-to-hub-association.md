@@ -103,6 +103,7 @@ To view the parent hub association, select **Settings** and then **Hub site sett
 ### Resources
 [Planning your SharePoint hub sites](planning-hub-sites.md)
 <br>
+
 [Set up your SharePoint hub site](https://support.microsoft.com/office/set-up-your-sharepoint-hub-site-e2daed64-658c-4462-aeaf-7d1a92eba098)
 
 
