@@ -51,7 +51,8 @@ Hub to hub site associations create a network of hubs that roll-up to each other
 
 ![Image of the basic hub site structure](media/basic-hub-structure.png)
  
-**The following diagram illustrates how hub sites can be associated to other hubs and what site content will appear in search for users searching on any of these sites:**
+The following diagram illustrates how hub sites can be associated to other hubs and what site content will appear in search for users searching on any of these sites.
+<br>
 
 ![Image of the basic hub site structure when hubs are associated to eachother](media/hub-structure-layered.png)
 
@@ -77,11 +78,11 @@ Hub site owners can quickly add links to the associated parent hub or child hubs
 1.	On the hub site, select **Edit** in the hub navigation bar
 2.	Next, select **Associated hubs** to add navigational links to the Parent hub(s)
 
-- In the hub structure example above, if you are on the North American marketing hub (level 2) and you select **Associated hubs**, you will see a links to the *Teams*, and *Guidelines* hubs.
+    - In the hub structure example above, if you are on the North American marketing hub (level 2) and you select **Associated hubs**, you will see a links to the *Teams*, and *Guidelines* hubs.
 
 3.	Or, select **Associated child hubs** to add navigational links to associated child hubs (hubs on levels 2 and three) if available. 
 
-- In the hub structure example above, if you are on the North American marketing hub (level 2) and you select **Associated child hubs**, you will see links to the *South America Marketing* and *Asia Marketing* hubs.
+    - In the hub structure example above, if you are on the North American marketing hub (level 2) and you select **Associated child hubs**, you will see links to the *South America Marketing* and *Asia Marketing* hubs.
 
 4.	Then, enter a display name for the new navigational links
 5.	Select **OK** to save your selection
