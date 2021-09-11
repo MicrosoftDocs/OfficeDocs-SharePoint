@@ -94,7 +94,10 @@ Hub site owners can quickly add links to the associated parent hub or child hubs
 
 ## How to confirm the Parent hub association
 
-To view the parent hub association, select **Settings** and then **Hub site settings**. Changes to hub associations must be made in the SharePoint admin center and require administrative privileges.
+To view the parent hub association, select **Settings** and then **Hub site settings**. 
+
+>[!NOTE]
+>Changes to hub associations must be made in the SharePoint admin center and require administrative privileges.
 
 ![Image of the hub site settings panel highlighting the Parent hub association](media/hub-setting-panel-2.png)
 
