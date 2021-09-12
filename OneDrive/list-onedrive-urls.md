@@ -79,10 +79,12 @@ The list you create in these steps will be saved to a text file.
 
 After the script successfully completes, a text file is created in the location specified by the **$LogFile** variable in the script. This file contains a list of all OneDrive Urls in your organization. The following text provides an example of how the list of Urls in this file should be formatted.
   
-`https://contoso-my.sharepoint.com/personal/annb_contoso_onmicrosoft_com/
+```
+https://contoso-my.sharepoint.com/personal/annb_contoso_onmicrosoft_com/
 https://contoso-my.sharepoint.com/personal/carolt_contoso_onmicrosoft_com/
 https://contoso-my.sharepoint.com/personal/esterv_contoso_onmicrosoft_com/  
-https://contoso-my.sharepoint.com/personal/hollyh_contoso_onmicrosoft_com/`
+ttps://contoso-my.sharepoint.com/personal/hollyh_contoso_onmicrosoft_com/
+```
 
 ## More information
 <a name="BKMK_MoreInfo"> </a>
