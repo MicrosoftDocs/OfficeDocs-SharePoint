@@ -23,8 +23,8 @@ description: "Learn how to set up and deploy Viva Connections on desktop and mob
 # Overview: Viva Connections (Preview)
 
 > [!NOTE]
-> - Information in this article relates to the updraded Viva Connections app that is in preview. Viva Connections includes *both the desktop and mobile experiences*. It may be modified before it's generally available for all customers.
-> - Earlier this year, Viva Connections desktop was released (formerly known as the Home site app.) The Viva Connections desktop app is a custom line of business app for Microsoft Teams and is built using PowerShell provided by Microsoft. The Viva Connections desktop app includes the desktop experience *only*. [Learn more about Viva Connections desktop](/SharePoint/SharePointOnline/viva-connections.md).
+> - Information in this article relates to the upgraded Viva Connections app that is in preview. Viva Connections includes *both the desktop and mobile experiences*. It may be modified before it's generally available for all customers.
+> - Earlier this year, Viva Connections desktop was released (formerly known as the Home site app.) The Viva Connections desktop app is a custom line of business app for Microsoft Teams and is built using PowerShell provided by Microsoft. The Viva Connections desktop app includes the desktop experience *only*. [Learn more about Viva Connections desktop](/SharePoint/viva-connections).
 
 
 **Viva Connections is one of four modules that make up the Microsoft Viva platform:**
@@ -55,10 +55,10 @@ The experience in the Viva Connections mobile app is anchored around three key c
 
 ![image showing viva connections on mobile and desktop](media/vc-pivots.png)
 
-- **Dashboard**: The Dashboard is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. The Dashboard uses dynamic cards that employees can interact with to do things like complete simple tasks or review critical data. It’s authored in SharePoint and published to the Viva Connections Teams mobile app. 
+- **Dashboard**: The Dashboard is your employee's digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. The Dashboard uses dynamic cards that employees can interact with to do things like complete simple tasks or review critical data. It's authored in SharePoint and published to the Viva Connections Teams mobile app. 
 <br>
 <br>
-Cards in the Viva Connections Dashboard are based on [adaptive cards](https://adaptivecards.io/) and the [SharePoint Framework (SPFx)](/SharePoint/dev/spfx/sharepoint-framework-overview.md). They provide a low-code solution to bring your line-of-business apps into the Dashboard. In addition, in Viva Connections for Desktop, the experience uses SharePoint home sites, which can be extended using [SPFx web parts and extensions](/SharePoint/dev/spfx/viva/overview-viva-connections_.md).
+Cards in the Viva Connections Dashboard are based on [adaptive cards](https://adaptivecards.io/) and the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview). They provide a low-code solution to bring your line-of-business apps into the Dashboard. In addition, in Viva Connections for Desktop, the experience uses SharePoint home sites, which can be extended using [SPFx web parts and extensions](/sharepoint/dev/spfx/viva/overview-viva-connections).
 
 - **Feed**: The Viva Connections Feed delivers updates to the right people at the right time with powerful targeting and scheduling capabilities. It is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. It supports both centralized corporate communication scenarios and democratized news scenarios. It is available in the Viva Connections Teams app on mobile, and will be available as a web part on desktop.
 - **Resources**: The Viva Connections Resources experience enables way finding across platforms. It uses navigation elements from the SharePoint app bar, which can be audience targeted.
@@ -73,11 +73,11 @@ On desktop, Viva Connections surfaces your own home site as a branded app in Tea
 
 **Key capabilities of the desktop experience for Viva Connections:**
 - **Global navigation and way finding**: The desktop experience provides employees the ability to navigate to important resources using the global navigation curated by your organization, the important sites your organization frequently engages with, and with organizational news. This navigation panel appears when users select the branded app icon in Teams, and surfaces elements shared with the [SharePoint app bar](/SharePoint/sharepoint-app-bar).
-- **Navigate intranet resources within Teams**: Users can consume your organization’s intranet experiences without leaving Teams.
+- **Navigate intranet resources within Teams**: Users can consume your organization's intranet experiences without leaving Teams.
 - **Search for intranet content**: On the home page, users can search for intranet content directly from the Teams search bar.
 - **Share intranet content**: Intranet content consumed within Teams can be easily shared into chats or channels, making collaboration on content easier.
 - **Dashboard**: The Dashboard that appears in the mobile app can also be added to your home site as a web part, so that users have the same tools available on the home site in Teams.
-- **Feed**: The Feed that is available in the mobile app is also available as a web part for your home site; thus, users can stay up to date with news, conversations, and videos while they’re on the desktop.
+- **Feed**: The Feed that is available in the mobile app is also available as a web part for your home site; thus, users can stay up to date with news, conversations, and videos while they're on the desktop.
 
 
 ## Curated and tailored experiences
@@ -99,13 +99,13 @@ A tailored experience is one in which content is automatically displayed accordi
 |**Resources**     |  Curated       |  Using AAD groups, menu items in the global navigation can be targeted to specific audiences.        |
 
 ## Branding
-Matching your company or organizational brand is integral to your employee’s connection with your company's values and goals. The branding you apply in Teams to the Viva Connections app – including your logo and colors – is automatically applied to the mobile app. For information on how to apply your branding in an app, see [Customize apps in Microsoft Teams](/microsoftteams/customize-apps).
+Matching your company or organizational brand is integral to your employee's connection with your company's values and goals. The branding you apply in Teams to the Viva Connections app – including your logo and colors – is automatically applied to the mobile app. For information on how to apply your branding in an app, see [Customize apps in Microsoft Teams](/microsoftteams/customize-apps).
 
 ## Localization
 Viva Connections content can be localized as follows:
 - On the Dashboard, card developers can customize content based on user locale information. In the future, content can be set by dashboard authors to support multiple languages.
-- On the Feed, the content will be available in the format in which it was authored. Currently, the Feed uses the default language of the site. In the future, SharePoint news posts will display author-translated posts in the user’s preferred language.
-- Resources are linked to the global navigation experience and follows the tenant’s default language.
+- On the Feed, the content will be available in the format in which it was authored. Currently, the Feed uses the default language of the site. In the future, SharePoint news posts will display author-translated posts in the user's preferred language.
+- Resources are linked to the global navigation experience and follows the tenant's default language.
 
 ## Viva Connections Dashboard
 The Viva Connections Dashboard enables you to create a curated experience using Dashboard cards that give your employee's access to their most critical content and tools. These cards are designed to enable quick task completion either by interacting with a card directly or by opening a quick view in the Dashboard. Think of the Viva Connections Dashboard as a digital toolset for your employees.
@@ -164,7 +164,7 @@ In addition, in Viva Connections for Desktop, the experience leverages SharePoin
 |SharePoint page    |Access a SharePoint modern page without leaving the Viva Connections app         |
 |Web link    |  Access a site without leaving the Viva Connections app       |
 |Card designer    |     Create your own cards and quick views using the adaptive cards framework    |
-|Teams app card     |    Use to open a Teams personal app or bot specified by the dashboard author     |
+|Teams app     |    Use to open a Teams personal app or bot specified by the dashboard author     |
 |Tasks     |    Use to open the Teams Tasks app     |
 |Shifts     | Use to open the Shifts app in Teams (upon General Availability release)          |
 
@@ -174,7 +174,7 @@ These cards are available in the Dashboard toolbox when authoring a Dashboard, a
 ![image showing display of cards on dashboard](media/vc-tool-box-2.png) 
 
 ## Viva Connections Feed
-In the Viva Connections app, users will see a personalized Feed with relevant information from across their organization. The Feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. Individual messages can be promoted to raise greater awareness among users by using SharePoint’s Boost and Yammer’s Featured options.
+In the Viva Connections app, users will see a personalized Feed with relevant information from across their organization. The Feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. Individual messages can be promoted to raise greater awareness among users by using SharePoint's Boost and Yammer's Featured options.
 The Feed requires usage of modern SharePoint or Yammer communities, but the best experience is delivered when both are used together.
 
 
@@ -190,7 +190,7 @@ Users will see content aggregated from the following sources, provided they have
     - Posts to communities that the user follows
 
 ## Viva Connections Resources
-The **Resources** tab of the mobile app automatically uses the global navigation links that you set up in your [SharePoint app bar](/SharePoint/SharePointOnline/sharepoint-app-bar.md). This type of functioning provides users with a familiar navigation structure and allows them to open sites, pages, news, and more — right from their mobile devices.
+The **Resources** tab of the mobile app automatically uses the global navigation links that you set up in your [SharePoint app bar](/SharePoint/sharepoint-app-bar). This type of functioning provides users with a familiar navigation structure and allows them to open sites, pages, news, and more — right from their mobile devices.
 
 
 ## Step-by-step guidance to provision Viva Connections
@@ -198,7 +198,7 @@ The **Resources** tab of the mobile app automatically uses the global navigation
 This is a basic summary of the steps to deploy Viva Connections.
 
 > [!IMPORTANT]
-> - Expanded step-by-step guidance will be published shortly after the release of Viva Connection for Public preview on September 9th, 2021. This is a summary of the basic steps needed to deploy Viva Connections. Check back soon for more details.
+> - Expanded step-by-step guidance will be published shortly after the release of Viva Connections for Public preview on September 9th, 2021. This is a summary of the basic steps needed to deploy Viva Connections. Check back soon for more details.
 
 1. Set up a home site and other organizational news sites
 2. Plan and design your information architecture, including the global navigation in the SharePoint app bar
