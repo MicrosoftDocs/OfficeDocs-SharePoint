@@ -37,7 +37,7 @@ To properly configure PerformancePoint Services, do the following steps in the o
 5. [Configure PerformancePoint service application associations](#section4)
 
 > [!NOTE]
-> PerformancePoint Services has been removed from SharePoint Server Subscription Edition. We recommend that you explore Microsoft [Power BI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services.
+> PerformancePoint Services has been removed from SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power BI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services.
 
 ## Configure the PerformancePoint Services application pool account
 <a name="section1"> </a>
