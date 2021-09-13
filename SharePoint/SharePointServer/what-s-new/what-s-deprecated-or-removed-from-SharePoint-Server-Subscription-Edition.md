@@ -15,14 +15,14 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_server
 ms.custom: 
-description: "Learn about the features and functionality that are deprecated or removed in SharePoint Server Subscription Edition."
+description: "Learn about the features and functionality that is deprecated or removed in SharePoint Server Subscription Edition."
 ---
 
 # What's deprecated or removed from SharePoint Server Subscription Edition
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-Learn about the features and functionality that are deprecated or removed in SharePoint Server Subscription Edition.
+Learn about the features and functionality that is deprecated or removed in SharePoint Server Subscription Edition.
 
 Deprecated features are included in SharePoint Server Subscription Edition for compatibility with previous product versions. For information about new features in SharePoint Server Subscription Edition, see [New and improved features in SharePoint Server Subscription Edition](new-and-improved-features-in-sharepoint-server-subscription-edition.md).
 
@@ -107,7 +107,7 @@ This feature has been replaced by an internal version that will be installed thr
 
 ### Windows Server AppFabric 1.1
 
-This featuer has been replaced by an internal version that will be installed through SharePoint setup and serviced through SharePoint public updates.
+This feature has been replaced by an internal version that will be installed through SharePoint setup and serviced through SharePoint public updates.
 
 ### Infopath form service
 
