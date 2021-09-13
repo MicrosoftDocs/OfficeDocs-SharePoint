@@ -22,7 +22,7 @@ description: "Learn how to configure the unattended service account for Performa
 The unattended service account is an Active Directory account that is used for accessing PerformancePoint Services data sources. This account is used by PerformancePoint Services on behalf of authorized users to provide access to external data sources for the purposes of creating and using dashboards and other PerformancePoint Services content. To configure the unattended service account, see [Configure the unattended service account for PerformancePoint Services](#section1) in this article. 
 
 > [!NOTE]
-> PerformancePoint Services has been removed from SharePoint Server Subscription Edition. Customers are recommended to explore Microsoft [Power BI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services.
+> PerformancePoint Services has been removed from SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power BI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services.
 
 > [!NOTE]
 > The unattended service account is a universal account that provides equal data access to all authorized users. If you need more fine-grained data access, see [Configure Secure Store for use with PerformancePoint Services](configure-secure-store-for-use-with-performancepoint-services.md). 
