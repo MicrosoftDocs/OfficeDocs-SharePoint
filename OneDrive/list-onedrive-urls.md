@@ -26,7 +26,22 @@ description: "In this article, you'll learn how to display a list of all the One
 
 # Get a list of all user OneDrive URLs in your organization
 
-This article is for global and SharePoint admins in Microsoft 365.
+This article is for global and SharePoint admins in Microsoft 365 who need to confirm the OneDrive URLs for users in their organization.
+
+## About OneDrive URLs
+
+The URL for a user's OneDrive is usually in the following format: `https://<tenant name>-my.sharepoint.com/personal/<user principal name>`. For the user principal name (UPN), any special characters such as a period, comma, space, and the at sign ("@") are converted to underscores ("_"). See the following table for examples.
+
+|Domain  |UPN  |OneDrive URL  |
+|---------|---------|---------|
+|`onmicrosoft.com`     |      `rsimone@contoso.onmicrosoft.com`   |    `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`     |
+|custom     |    `rsimone@contoso.com`     |   `https://contoso-my.sharepoint.com/personal/rsimone_contoso_com`      |
+
+Numbers or GUIDs might be appended to the URL if a conflict is detected, so it's always best to confirm a user's OneDrive URL if you need to specify it. 
+
+> [!NOTE]
+> Unless OneDrive accounts are [pre-provisioned](pre-provision-accounts.md), the URL isn't created until a user accesses their OneDrive for the first time.
+Also, the OneDrive URL will automatically change if the user's [UPN changes](upn-changes.md). For example, if the user changes their name or the domain name changes for a rebranding or business restructuring. 
   
 ## View the list of OneDrive users and URLs in your organization
 
