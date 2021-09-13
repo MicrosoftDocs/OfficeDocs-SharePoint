@@ -83,7 +83,7 @@ After the script successfully completes, a text file is created in the location 
 https://contoso-my.sharepoint.com/personal/annb_contoso_onmicrosoft_com/
 https://contoso-my.sharepoint.com/personal/carolt_contoso_onmicrosoft_com/
 https://contoso-my.sharepoint.com/personal/esterv_contoso_onmicrosoft_com/  
-ttps://contoso-my.sharepoint.com/personal/hollyh_contoso_onmicrosoft_com/
+https://contoso-my.sharepoint.com/personal/hollyh_contoso_onmicrosoft_com/
 ```
 
 ## More information
