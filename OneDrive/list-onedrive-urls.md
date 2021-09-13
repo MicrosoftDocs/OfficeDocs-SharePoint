@@ -52,12 +52,12 @@ Also, the OneDrive URL will automatically change if the user's [UPN changes](upn
     
 2. In the left pane, select **Reports** \> **Usage**. (You might need to select **Show all** to see the Reports option.) 
     
-3. Under **OneDrive files**, or select **View more**.
+3. Under **OneDrive files**, select **View more**.
 
     > [!NOTE]
     > If you see GUIDs in the report instead of URLs and names, go to the [Reports setting](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/Settings/Services/:/Settings/L1/Reports) and clear the box **In all reports, display de-identified names for users, groups, and sites**.
     
-4. In the upper left of the table at the bottom, select **Export**.
+You can copy individual OneDrive URLs from the URL column. For easier searching and copying, export the report as a .csv file. In the upper left of the table at the bottom, select **Export**.
 
 [Learn more about the Microsoft OneDrive usage report](/microsoft-365/admin/activity-reports/onedrive-for-business-usage-ww).
     
