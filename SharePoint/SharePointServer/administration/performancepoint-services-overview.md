@@ -32,7 +32,7 @@ To learn about how to use PerformancePoint Services, see the following resources
 - [PerformancePoint Services Dashboard Creation SuperFlow](https://go.microsoft.com/fwlink/p/?LinkId=226357)
 
 > [!NOTE]
-> PerformancePoint Services has been removed from SharePoint Server Subscription Edition. Customers are recommended to explore Microsoft [Power BI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services.
+> PerformancePoint Services has been removed from SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power BI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services.
 
 > [!NOTE]
 > Silverlight is not available in PerformancePoint Services in SharePoint Server 2019, therefore the Decomposition Tree is not available.
