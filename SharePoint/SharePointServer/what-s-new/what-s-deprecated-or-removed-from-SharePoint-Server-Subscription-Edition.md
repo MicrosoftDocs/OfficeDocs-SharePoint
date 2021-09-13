@@ -56,7 +56,7 @@ A removed feature is no longer supported by Microsoft in SharePoint Server Subsc
 
  - PerformancePoint Services 
  
- - Stsadm.exe command line tool 
+ - Stsadm.exe command-line tool 
  
  - Infopath form service
  
@@ -92,11 +92,11 @@ Lists web service APIs for Groove sync app are removed but will remain supported
 
 ### PerformancePoint Services
 
-PerformancePoint Services had a significant dependency on Microsoft Silverlight, which is a technology that will no longer be supported as of October 12, 2021. PerformancePoint Services has been removed from SharePoint Server Subscription Edition. Customers are recommended to explore Microsoft [Power BI](https://powerbi.microsoft.com/)as an alternative to PerformancePoint Services as we are making many new business intelligence investments in Power BI.
+PerformancePoint Services had a significant dependency on Microsoft Silverlight, which is a technology that will no longer be supported as of October 12, 2021. PerformancePoint Services has been removed from SharePoint Server Subscription Edition. Customers are recommended to explore Microsoft [Power BI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services as we are making many new business intelligence investments in Power BI.
 
-### Stsadm.exe command line tool 
+### Stsadm.exe command-line tool 
 
-The stsadm.exe command line administration tool has been removed from SharePoint Server Subscription Edition. SharePoint PowerShell cmdlets must be used to administer SharePoint from the command line or through scripting. TAP customers can open bugs (feedback) in the Microsoft Collaborate portal if any important functionality in stsadm.exe is not available in the SharePoint PowerShell cmdlets.
+The stsadm.exe command-line administration tool has been removed from SharePoint Server Subscription Edition. SharePoint PowerShell cmdlets must be used to administer SharePoint from the command line or through scripting. TAP customers can open bugs (feedback) in the Microsoft Collaborate portal if any important functionality in stsadm.exe is not available in the SharePoint PowerShell cmdlets.
 
 > [!NOTE]
 > As SharePoint PowerShell cmdlets have been converted from snap-ins to modules in SharePoint Server Subscription Edition, the Update-SPHelp cmdlet is no longer necessary to download the latest cmdlet help content. This cmdlet has been removed.
@@ -115,4 +115,4 @@ Infopath form service is removed but will remain supported for SharePoint Server
 
 ### Sharepoint designer support
 
-Sharepoint designer support is removed but will remain supported for SharePoint Server Subscription Edition. Customers are recommended to customize SharePoint using SharePoint Framework front end development model as a potential alternative to Sharepoint designer support.
+Sharepoint designer support is removed but will remain supported for SharePoint Server Subscription Edition. Customers are recommended to customize SharePoint using SharePoint Framework front-end development model as a potential alternative to Sharepoint designer support.
