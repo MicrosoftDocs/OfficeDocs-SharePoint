@@ -23,7 +23,9 @@ description: "Learn how to use Access Services 2010 to modify and publish an Acc
 Access Services 2010 is a service application that allows users to modify and publish in SharePoint 2013 an Access web database that was previously created in SharePoint Server 2010. 
   
 The Access client is not required to use the published web database. However, the Access client is required to make any changes to the database structure. 
-  
+ 
+> [!NOTE]
+>  Access Services 2010 and 2013 are deprecated but will remain supported for SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2010 and 2013. 
     
 ## Set up SQL Server Reporting Services
 <a name="section1"> </a>
