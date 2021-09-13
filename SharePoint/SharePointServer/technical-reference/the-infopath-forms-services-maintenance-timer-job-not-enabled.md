@@ -29,7 +29,10 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Info
 The InfoPath Forms Services Maintenance timer job is used by InfoPath Forms Services to improve performance by caching form template data on each front-end web server.
   
  **Cause:** The timer job may have been disabled on the Job Definitions page on the SharePoint Central Administration website or the Microsoft PowerShell **Disable-SPTimerJob** cmdlet was used. 
-  
+
+> [!NOTE]
+> Infopath form service is removed but will remain supported for SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) as a potential alternative to Infopath form service.
+
  **Resolution: Enable the timer job by using the Central Administration web site**
   
 1. Verify that the user account that is performing this procedure is a member of the Farm Administrators SharePoint group.
