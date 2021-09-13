@@ -27,7 +27,10 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath
  **Summary:** InfoPath Forms Services depends on the Web application having a service connection to a State Service Proxy to store data across HTTP requests. Without a service connection, users cannot successfully open or fill browser-enabled InfoPath forms. 
   
  **Cause:** No service connection for the State Service is configured for the Web application that is in the Health Analyzer alert. 
-  
+ 
+> [!NOTE]
+> Infopath form service is removed but will remain supported for SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) as a potential alternative to Infopath form service.
+ 
  **Resolution: Configure a service connection by using the SharePoint Central Administration website**
   
 1. Verify that the user account performing this procedure is a member of the Farm Administrators group.
