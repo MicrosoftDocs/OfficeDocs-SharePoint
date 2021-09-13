@@ -34,7 +34,10 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath
 - The **Render form templates that are browser-enabled by users** check box in the SharePoint Central Administration website is cleared. 
     
 - The following Windows PowerShell command has been run:  `Set-SPInfoPathFormsService -AllowUserFormBrowserRendering $false`.
-    
+ 
+> [!NOTE]
+> Infopath form service is removed but will remain supported for SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) as a potential alternative to Infopath form service.
+ 
 **Resolution: Enable browser rendering of user forms by using Central Administration**
   
 1. Verify that the user account that is performing this procedure is a member of the Farm Administrators SharePoint group. 
