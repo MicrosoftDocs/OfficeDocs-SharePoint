@@ -21,12 +21,12 @@ ms.collection: M365-collaboration
 ms.custom:
 -  seo-marvel-apr2020
 ms.assetid: 8e200cb2-c768-49cb-88ec-53493e8ad80a
-description: "In this article, you'll learn how to display a list of all the OneDrive URLs for the users in your organization."
+description: "In this article, you'll learn how to use PowerShell to display a list of all the OneDrive URLs for the users in your organization."
 ---
 
 # Get a list of all user OneDrive URLs in your organization
 
-This article is for global and SharePoint admins in Microsoft 365 who need to confirm the OneDrive URLs for users in their organization.
+This article is for global and SharePoint admins in Microsoft 365 who want to use PowerShell to confirm the OneDrive URLs for users in their organization. To learn how to see the list by using the OneDrive usage report, see [Microsoft 365 Reports in the admin center](/microsoft-365/admin/activity-reports/onedrive-for-business-usage-ww).
 
 ## About OneDrive URLs
 
