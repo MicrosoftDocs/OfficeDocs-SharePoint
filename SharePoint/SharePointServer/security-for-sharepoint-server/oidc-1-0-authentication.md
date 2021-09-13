@@ -152,8 +152,8 @@ Set-Acl -Path $path -AclObject $permissions
 
 #Then we update farm properties
 $f = Get-SPFarm
-$f.Farm.Properties['SPO-SignInContextCertificateThumbprint']=$cert.Thumbprint
-$f.Farm.Properties['SPO-SignInGateKeeperHashSeed']='seed'
+$f.Farm.Properties['SP-NonceCookieCertificateThumbprint']=$cert.Thumbprint
+$f.Farm.Properties['SP-NonceCookieHMACSecretKey']='seed'
 $f.Farm.Update()
 ```
 
@@ -477,8 +477,8 @@ Set-Acl -Path $path -AclObject $permissions
 
 #Then we update farm properties
 $f = Get-SPFarm
-$f.Farm.Properties['SPO-SignInContextCertificateThumbprint']=$cert.Thumbprint
-$f.Farm.Properties['SPO-SignInGateKeeperHashSeed']='seed'
+$f.Farm.Properties['SP-NonceCookieCertificateThumbprint']=$cert.Thumbprint
+$f.Farm.Properties['SP-NonceCookieHMACSecretKey']='seed'
 $f.Farm.Update()
 ```
 
