@@ -68,7 +68,7 @@ The following features and functionality have been deprecated or removed in Shar
 
 ### SharePoint 2010 workflows
 
-SharePoint 2010 workflows will remain supported, but deprecated, for the SharePoint Server Subscription Edition release. Customers are recommended to explore [SharePoint 2013 workflows](/sharepoint/dev/general-development/creating-a-workflow-by-using-sharepoint-designer-and-the-sharepoint-wo#:~:text=%20Creating%20a%20workflow%20by%20using%20SharePoint%20Designer,for%20many...%204%20See%20also.%20%20More%20) or [Power Automate](https://flow.microsoft.com/) as potential alternatives to SharePoint 2010 workflows.
+SharePoint 2010 workflows is deprecated but will remain supported for the SharePoint Server Subscription Edition release. Customers are recommended to explore [SharePoint 2013 workflows](/sharepoint/dev/general-development/creating-a-workflow-by-using-sharepoint-designer-and-the-sharepoint-wo#:~:text=%20Creating%20a%20workflow%20by%20using%20SharePoint%20Designer,for%20many...%204%20See%20also.%20%20More%20) or [Power Automate](https://flow.microsoft.com/) as potential alternatives to SharePoint 2010 workflows.
 
 ### Update-SPHelp PowerShell cmdlet
 
@@ -76,19 +76,19 @@ As SharePoint PowerShell cmdlets are converted from snap-ins to modules in Share
 
 ### Access Services 2010
 
-Access Services 2010 will remain supported, but has been removed from SharePoint Server Subscription Edition. Customers are recommended to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2010.
+Access Services 2010 is deprecated but will remain supported for SharePoint Server Subscription Edition. Customers are recommended to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2010.
 
 ### Access Services 2013
 
-Access Services 2013 will remain supported, but has been removed from SharePoint Server Subscription Edition. Customers are recommended to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2013.  
+Access Services 2013 is removed but will remain supported for SharePoint Server Subscription Edition. Customers are recommended to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2013.  
 
 ### Groove sync app support
 
-Groove sync app support will remain supported, but has been removed from SharePoint Server Subscription Edition. Customers are recommended to explore Microsoft [OneDrive sync app](https://support.microsoft.com/office/sync-files-with-onedrive-in-windows-615391c4-2bd3-4aae-a42a-858262e42a49#bkmk_install) as a potential alternative to Groove sync app support.
+Groove sync app support is removed but will remain supported for SharePoint Server Subscription Edition. Customers are recommended to explore Microsoft [OneDrive sync app](https://support.microsoft.com/office/sync-files-with-onedrive-in-windows-615391c4-2bd3-4aae-a42a-858262e42a49#bkmk_install) as a potential alternative to Groove sync app support.
 
 ### Lists web service APIs for Groove sync app 
 
-Lists web service APIs for Groove sync app will remain supported, but has been removed from SharePoint Server Subscription Edition. Customers are recommended to explore Microsoft [OneDrive sync app](https://support.microsoft.com/office/sync-files-with-onedrive-in-windows-615391c4-2bd3-4aae-a42a-858262e42a49#bkmk_install) as a potential alternative to lists web service APIs.
+Lists web service APIs for Groove sync app is removed but will remain supported for SharePoint Server Subscription Edition. Customers are recommended to explore Microsoft [OneDrive sync app](https://support.microsoft.com/office/sync-files-with-onedrive-in-windows-615391c4-2bd3-4aae-a42a-858262e42a49#bkmk_install) as a potential alternative to lists web service APIs.
 
 ### PerformancePoint Services
 
@@ -111,8 +111,8 @@ This feature has been replaced by an internal version that will be installed thr
 
 ### Infopath form service
 
-Infopath form service will remain supported, but has been removed from SharePoint Server Subscription Edition. Customers are recommended to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) as a potential alternative to Infopath form service.
+Infopath form service is removed but will remain supported for SharePoint Server Subscription Edition. Customers are recommended to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) as a potential alternative to Infopath form service.
 
 ### Sharepoint designer support
 
-Sharepoint designer support will remain supported, but has been removed from SharePoint Server Subscription Edition. Customers are recommended to customize SharePoint using SharePoint Framework front end development model as a potential alternative to Sharepoint designer support.
+Sharepoint designer support is removed but will remain supported for SharePoint Server Subscription Edition. Customers are recommended to customize SharePoint using SharePoint Framework front end development model as a potential alternative to Sharepoint designer support.
