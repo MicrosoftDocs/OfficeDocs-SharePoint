@@ -245,7 +245,7 @@ When you add a Refinement Web Part, the name of the managed property that is ena
     
 7. Open the **CustomStrings.js** file. 
     
-8. Add one line to the file for each managed property that is enabled as a refiner for which you want to change the display name byusing the following syntax: 
+8. Add one line to the file for each managed property that is enabled as a refiner for which you want to change the display name by using the following syntax: 
     
      `"rf_RefinementTitle_ManagedPropertyName": "Sample Refinement Title for ManagedPropertyName"`
     

@@ -126,7 +126,7 @@ You can find the failed authentication attempt in the ULS log files either manua
     
 3. In the **LOGS** folder, click **Date modified** to sort the folder by date, with the most recent at the top.
     
-4. Try the authentication task againl
+4. Try the authentication task again.
     
 5. In the **LOGS** folder window, double-click the log file at the top of the list to open the file in Notepad.
     

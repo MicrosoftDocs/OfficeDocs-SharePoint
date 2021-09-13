@@ -26,8 +26,8 @@ description: "Learn how to install SharePoint Server Subscription Edition on Win
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-1. Install [Windows Server 2019](https://www.microsoft.com/en-in/evalcenter/evaluate-windows-server-2019) or Windows Server 2022 on your server.
-2. Install [SQL Server 2019](https://www.microsoft.com/en-in/evalcenter/evaluate-sql-server-2019) on your server or an additional server.
+1. Install [Windows Server 2019](https://www.microsoft.com/evalcenter/evaluate-windows-server-2019) or Windows Server 2022 on your server.
+2. Install [SQL Server 2019](https://www.microsoft.com/evalcenter/evaluate-sql-server-2019) on your server or an additional server.
 5. The next steps are based on whether you are installing on Windows Server with Desktop Experience or Windows Server Core.
 
 Compared to classic Windows Server with Desktop Experience, Windows Server Core is a leaner deployment mode for SharePoint Server Subscription Edition as server core minimizes the number of OS features and services that are installed and running only those that are truly needed for a server. This deployment option reduces the demand on system resources (CPU, RAM, and disk space) and the potential attack surface for security vulnerabilities. Microsoft encourages Windows Server customers to move to this installation option as and when feasible for better support.

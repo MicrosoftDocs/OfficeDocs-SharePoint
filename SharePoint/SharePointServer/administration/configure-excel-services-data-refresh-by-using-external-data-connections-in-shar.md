@@ -31,13 +31,13 @@ By using an ODC file for your data connection, you separate your Excel workbooks
   
 Using Excel Services with an ODC file consists of the following steps:
   
-1. [Configure a data access account](#part1)
+1. [Configure a data access account](#configure-a-data-access-account)
     
-2. [Create a Secure Store target application](./excel-services-overview.md#part2)
+2. [Create a Secure Store target application](#create-a-secure-store-target-application)
     
-3. [Create and publish an ODC file](#part3)
+3. [Create and publish an ODC file](#create-and-publish-an-odc-file)
     
-4. [Configure an Excel workbook to use the published ODC file as a data connection](./excel-services-overview.md#part4)
+4. [Configure an Excel workbook to use the published ODC file as a data connection](#configure-an-excel-workbook-to-use-the-published-odc-file-as-a-data-connection)
     
 ## Configure a data access account
 <a name="part1"> </a>
