@@ -68,7 +68,7 @@ The following features and functionality have been deprecated or removed in Shar
 
 ### SharePoint 2010 workflows
 
-SharePoint 2010 workflows is deprecated but will remain supported for the SharePoint Server Subscription Edition release. Customers are recommended to explore [SharePoint 2013 workflows](/sharepoint/dev/general-development/creating-a-workflow-by-using-sharepoint-designer-and-the-sharepoint-wo#:~:text=%20Creating%20a%20workflow%20by%20using%20SharePoint%20Designer,for%20many...%204%20See%20also.%20%20More%20) or [Power Automate](https://flow.microsoft.com/) as potential alternatives to SharePoint 2010 workflows.
+SharePoint 2010 workflows are deprecated but will remain supported for the SharePoint Server Subscription Edition release. Customers are recommended to explore [SharePoint 2013 workflows](/sharepoint/dev/general-development/creating-a-workflow-by-using-sharepoint-designer-and-the-sharepoint-wo#:~:text=%20Creating%20a%20workflow%20by%20using%20SharePoint%20Designer,for%20many...%204%20See%20also.%20%20More%20) or [Power Automate](https://flow.microsoft.com/) as potential alternatives to SharePoint 2010 workflows.
 
 ### Update-SPHelp PowerShell cmdlet
 
@@ -88,11 +88,11 @@ Groove sync app support is removed but will remain supported for SharePoint Serv
 
 ### Lists web service APIs for Groove sync app 
 
-Lists web service APIs for Groove sync app is removed but will remain supported for SharePoint Server Subscription Edition. Customers are recommended to explore Microsoft [OneDrive sync app](https://support.microsoft.com/office/sync-files-with-onedrive-in-windows-615391c4-2bd3-4aae-a42a-858262e42a49#bkmk_install) as a potential alternative to lists web service APIs.
+Lists web service APIs for Groove sync app are removed but will remain supported for SharePoint Server Subscription Edition. Customers are recommended to explore Microsoft [OneDrive sync app](https://support.microsoft.com/office/sync-files-with-onedrive-in-windows-615391c4-2bd3-4aae-a42a-858262e42a49#bkmk_install) as a potential alternative to lists web service APIs.
 
 ### PerformancePoint Services
 
-PerformancePoint Services had a significant dependency on Microsoft Silverlight, which is a technology that will no longer be supported as of October 12, 2021. PerformancePoint Services has been removed from SharePoint Server Subscription Edition. Customers are recommended to explore Microsoft [PowerBI](https://powerbi.microsoft.com/)as an alternative to PerformancePoint Services as we are making many new business intelligence investments in PowerBI.
+PerformancePoint Services had a significant dependency on Microsoft Silverlight, which is a technology that will no longer be supported as of October 12, 2021. PerformancePoint Services has been removed from SharePoint Server Subscription Edition. Customers are recommended to explore Microsoft [Power BI](https://powerbi.microsoft.com/)as an alternative to PerformancePoint Services as we are making many new business intelligence investments in Power BI.
 
 ### Stsadm.exe command line tool 
 
