@@ -108,3 +108,11 @@ This feature has been replaced by an internal version that will be installed thr
 ### Windows Server AppFabric 1.1
 
 This featuer has been replaced by an internal version that will be installed through SharePoint setup and serviced through SharePoint public updates.
+
+### Infopath form service
+
+Infopath form service will remain supported, but has been removed from SharePoint Server Subscription Edition. Customers are recommended to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) as a potential alternative to Infopath form service.
+
+### Sharepoint designer support
+
+Sharepoint designer support will remain supported, but has been removed from SharePoint Server Subscription Edition. Customers are recommended to customize SharePoint using SharePoint Framework front end development model as a potential alternative to Sharepoint designer support.
