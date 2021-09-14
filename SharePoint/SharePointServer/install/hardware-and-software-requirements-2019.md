@@ -110,6 +110,8 @@ One of the following server operating systems:
 - Windows Server 2016 Standard or Datacenter
     
 - Windows Server 2019 Standard or Datacenter 
+
+- Windows Server 2022 Standard or Datacenter 
     
 #### Minimum requirements for SharePoint servers in a farm
 
@@ -118,6 +120,8 @@ One of the following server operating systems:
 - Windows Server 2016 Standard or Datacenter (Desktop Experience)
     
 - Windows Server 2019 Standard or Datacenter (Desktop Experience)
+
+- Windows Server 2022 Standard or Datacenter (Desktop Experience)
 
 > [!NOTE]
 > We don't support installing or upgrading SharePoint 2019 RTM on a server that previously hosted a prerelease version of SharePoint. A new server build is required to host SharePoint 2019 RTM.
@@ -207,6 +211,8 @@ In scenarios where installing prerequisites directly from the Internet is not po
 - [Windows Server 2016](https://www.microsoft.com/evalcenter/evaluate-windows-server-2016)
     
 - [Windows Server 2019](https://www.microsoft.com/evalcenter/evaluate-windows-server-2019)
+
+- [Windows Server 2022](https://www.microsoft.com/evalcenter/evaluate-windows-server-2022)
     
 - [Microsoft SQL Server 2016](https://www.microsoft.com/evalcenter/evaluate-sql-server-2016) 
 
