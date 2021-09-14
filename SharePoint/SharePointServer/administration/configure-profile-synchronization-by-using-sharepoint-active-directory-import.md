@@ -204,4 +204,4 @@ To import profiles, you must have at least one synchronization connection to AD 
 [Schedule profile synchronization in SharePoint Server](schedule-profile-synchronization.md)
 #### Other Resources
 
-[Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps)
+[Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps&preserve-view=true)

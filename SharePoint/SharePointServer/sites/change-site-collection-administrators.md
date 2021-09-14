@@ -51,7 +51,7 @@ Use this procedure when you want to make a user a primary or secondary site coll
     
 ### To add a primary or secondary site collection administrator by using Microsoft PowerShell
 
-1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
     
 2. Open the SharePoint Management Shell.
     
@@ -67,7 +67,7 @@ Use this procedure when you want to make a user a primary or secondary site coll
     
    -  _\<User\>_ is name of the user whom you want to add in the format  _\<domain\>_\ _\<username\>_.
     
-The previous procedure shows a common way to use the **Set-SPSite** cmdlet to add a secondary site collection administrator. You can specify different parameters to configure different settings for a site collection. For more information, see [Set-SPSite](/powershell/module/sharepoint-server/set-spsite?view=sharepoint-ps). 
+The previous procedure shows a common way to use the **Set-SPSite** cmdlet to add a secondary site collection administrator. You can specify different parameters to configure different settings for a site collection. For more information, see [Set-SPSite](/powershell/module/sharepoint-server/set-spsite?view=sharepoint-ps&preserve-view=true). 
 
 We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   

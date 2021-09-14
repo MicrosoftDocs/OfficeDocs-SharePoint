@@ -6,7 +6,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 f1.keywords: NOCSH
-ms.topic: concetpual
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: high
 ms.collection:
@@ -169,7 +169,7 @@ The SQL Server 2016 Reporting Services (SSRS) add-in can be used with any ShareP
 - The SQL Server 2008 R2 Reporting Services (SSRS) plug-in can be used with any SharePoint 2013 environment. If you are using the plug-in, plan to support the two SQL Server 2008 R2 Reporting Services databases and the additional load that is required for SQL Server 2008 R2 Reporting Services.
  
 > [!NOTE]
-> SQL Server Reporting Services integration with SharePoint Server 2019 is no longer supported. For more information, see [Reporting Services Report Server (SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016&viewFallbackFrom=sql-server-2017) and [Supported combinations of SharePoint and Reporting Services server](/sql/reporting-services/install-windows/supported-combinations-of-sharepoint-and-reporting-services-server?view=sql-server-2016).
+> SQL Server Reporting Services integration with SharePoint Server 2019 is no longer supported. For more information, see [Reporting Services Report Server (SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016&viewFallbackFrom=sql-server-2017&preserve-view=true) and [Supported combinations of SharePoint and Reporting Services server](/sql/reporting-services/install-windows/supported-combinations-of-sharepoint-and-reporting-services-server?view=sql-server-2016&preserve-view=true).
     
 
 <a name="Section1_5a"> </a>
@@ -544,7 +544,7 @@ On the server that is running SQL Server, we recommend that the L2 cache per CPU
 
 For optimal performance when you configure a physical storage array, adhere to the hardware configuration recommendations supplied by the storage vendor instead of relying on the default values of the operating system.
   
-If you do not have guidance from your vendor, we recommend using the PowerShell storage cmdlets that are available for Windows Server 2012 R2. For more information, see [Storage Cmdlets in Windows PowerShell](/powershell/module/storage/index?view=win10-ps).
+If you do not have guidance from your vendor, we recommend using the PowerShell storage cmdlets that are available for Windows Server 2012 R2. For more information, see [Storage Cmdlets in Windows PowerShell](/powershell/module/storage/index?view=win10-ps&preserve-view=true).
   
 #### Provide as many resources as possible
 
@@ -717,7 +717,7 @@ For more information and memory troubleshooting methods, see the following resou
     
 - [Monitor CPU Usage](/sql/relational-databases/performance-monitor/monitor-cpu-usage)
     
-For more information and memory troubleshooting methods, see [Monitoring Memory Usage](/previous-versions/sql/sql-server-2008-r2/ms176018(v=sql.105)) for SQL Server 2008 R2 with SP1, [Monitoring Memory Usage](/previous-versions/sql/sql-server-2012/ms176018(v=sql.110)) for SQL Server 2012, and [Monitor Memory Usage](/sql/relational-databases/performance-monitor/monitor-memory-usage?view=sql-server-2014) for SQL Server 2014. 
+For more information and memory troubleshooting methods, see [Monitoring Memory Usage](/previous-versions/sql/sql-server-2008-r2/ms176018(v=sql.105)) for SQL Server 2008 R2 with SP1, [Monitoring Memory Usage](/previous-versions/sql/sql-server-2012/ms176018(v=sql.110)) for SQL Server 2012, and [Monitor Memory Usage](/sql/relational-databases/performance-monitor/monitor-memory-usage?view=sql-server-2014&preserve-view=true) for SQL Server 2014. 
   
 ### Disk counters to monitor
 

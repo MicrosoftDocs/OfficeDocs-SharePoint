@@ -71,7 +71,7 @@ Refer to the following table in step 3.
    > [!NOTE]
    > This command displays the URLs of all the web applications in a server farm and the site collections in each web application.
     
-For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps) and [Get-SPSite](/powershell/module/sharepoint-server/get-spsite?view=sharepoint-ps). 
+For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps&preserve-view=true) and [Get-SPSite](/powershell/module/sharepoint-server/get-spsite?view=sharepoint-ps&preserve-view=true). 
 
 We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   
