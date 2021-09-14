@@ -71,7 +71,11 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
 
 6. As a tenant administrator, update your SharePoint Online tenant configuration via SharePoint Online Management Shell to allow the “View in File Explorer” option to be visible in the Microsoft Edge Browser interface with these steps:
 
-    1. Connect to SharePoint Online Management Shell by running: `Connect-SPOService -Url https://contoso-admin.sharepoint.com`
+    1. Connect to SharePoint Online Management Shell by running:
+
+    ```PowerShell
+    Connect-SPOService -Url https://contoso-admin.sharepoint.com
+    ```
 
     1. Run the following cmdlet to show the “View in File Explorer” menu option:
 
