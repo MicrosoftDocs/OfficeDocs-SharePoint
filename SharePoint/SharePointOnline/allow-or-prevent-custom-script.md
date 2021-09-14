@@ -89,7 +89,7 @@ To allow custom script on a particular site (previously called "site collection"
     ```PowerShell
     Set-SPOSite <SiteURL> -DenyAddAndCustomizePages 0
     ```
-    or by means of the PnP.PowerShell cmdlet [Set-PnPSite](/powershell/module/sharepoint-pnp/set-pnpsite?view=sharepoint-ps)
+    or by means of the PnP.PowerShell cmdlet [Set-PnPSite](/powershell/module/sharepoint-pnp/set-pnpsite)
     
     ```PowerShell
     Set-PnPSite <SiteURL> -NoScriptSite $false
