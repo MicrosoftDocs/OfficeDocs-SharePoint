@@ -278,7 +278,7 @@ The item size limits safeguard crawling performance and the size of the index. H
 If you tune item size limits, we recommend that you work with them in the order they appear in this table.
   
 |**Limit**|**Maximum value**|**Limit type**|**Notes**|
-
+|:-----|:-----|:-----|:-----|
 |Document size crawl component can download  <br/> |64 MB (3 MB for Excel documents)  <br/> |Threshold  <br/> |Search downloads meta data and content from a document until it reaches the maximum document size. The rest of the content is not downloaded. Search always downloads a document's meta data.  <br/> You can change the default limit for the maximum document size. Do this by using Microsoft PowerShell cmdlets to change the Search service application property **MaxDownLoadSize** or **MaxDownloadSizeExcel**. **MaxDownLoadSize** doesn't impact the maximum size for Excel documents. Enter the value in megabytes. The maximum value for the maximum document size is 1024 MB, also for Excel documents.  <br/> If you increase the limit for the maximum document size, search indexes more content and needs more disk space.  <br/> |
 |Parsed content size  <br/> |2 million characters  <br/> |Boundary  <br/> |Search stops parsing an item after it has parsed up to 2 million characters of content from it, including the item's attachments. The actual amount of parsed characters can be lower than this limit because search uses maximum 30 seconds on parsing a single item and its attachments. When search stops parsing an item, the item is marked as partially processed. Any unparsed content isn't processed and therefore isn't indexed.  <br/> |
 |Characters processed by the word breaker  <br/> |1,000,000  <br/> |Boundary  <br/> |Search breaks content into individual words (tokens). The word breaker produces tokens from the first 1,000,000 characters of a single item, including the item's attachments. The actual number of processed characters can be lower than this limit because search uses maximum 30 seconds on word breaking. Any remaining content isn't processed and therefore isn't indexed.  <br/> |
@@ -431,7 +431,7 @@ The following table lists the recommended guidelines for managed metadata config
 The following table lists the recommended guidelines for managed metadata term stores.
   
 |**Limit**|**Maximum value**|**Limit type**|**Notes**|
-
+|-----|-----|-----|-----|
 |Maximum number of levels of nested terms in a term store  <br/> |7  <br/> |Supported  <br/> |Terms in a term set can be represented hierarchically. A term set can have up to seven levels of terms (a parent term, and six levels of nesting below it.)  <br/> |
 |Maximum number of term sets in a term store  <br/> |1,000  <br/> |Supported  <br/> |You can have up to 1,000 term sets in a term store.  <br/> Note: Both local term set and global term set follow the limit of 30,000 terms per term site. Use global term sets to store the reusable data for all site collections, instead of using a large amount of site collection term sets or creating a new Managed Metadata service. A web application can have connections to multiple services.           ||
 |Maximum number of terms in a term set  <br/> |30,000  <br/> |Supported  <br/> |30,000 is the maximum number of terms in a term set.  <br/> Note: Additional labels for the same term, such as synonyms and translations, do not count as separate terms.           |
