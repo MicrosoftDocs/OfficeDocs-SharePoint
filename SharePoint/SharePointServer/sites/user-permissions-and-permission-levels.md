@@ -20,6 +20,8 @@ description: "Learn about the default permission levels and user permissions in 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Default permission levels are predefined sets of permissions that you can assign to individual users, groups of users, or security groups, based on the functional requirements of the users and on security considerations. SharePoint Server permission levels are defined at the site collection level and are inherited from the parent object by default.
+
+Learn more about [Sharing and permissions in the SharePoint modern experience](../../SharePointOnline/modern-experience-sharing-permissions.md) in SharePoint for Microsoft 365.
     
 ## Default permission levels
 <a name="section1"> </a>
