@@ -1,5 +1,5 @@
 ---
-title: "Get a list of all user OneDrive URLs in your organization"
+title: "View the list of OneDrive URLs for users in your organization"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
@@ -21,14 +21,29 @@ ms.collection: M365-collaboration
 ms.custom:
 -  seo-marvel-apr2020
 ms.assetid: 8e200cb2-c768-49cb-88ec-53493e8ad80a
-description: "In this article, you'll learn how to display a list of all the OneDrive URLs for the users in your organization."
+description: "In this article, you'll learn how to view the OneDrive URLs for users in your organization."
 ---
 
-# Get a list of all user OneDrive URLs in your organization
+# View the list of OneDrive URLs for users in your organization
 
-This article is for global and SharePoint admins in Microsoft 365.
+This article is for global and SharePoint admins in Microsoft 365 who want to confirm the OneDrive URLs for users in their organization. 
+
+## About OneDrive URLs
+
+The URL for a user's OneDrive is usually in the following format: `https://<tenant name>-my.sharepoint.com/personal/<user principal name>`. For the user principal name (UPN), any special characters such as a period, comma, space, and the at sign ("@") are converted to underscores ("_"). See the following table for examples.
+
+|Domain  |UPN  |OneDrive URL  |
+|---------|---------|---------|
+|`onmicrosoft.com`     |      `rsimone@contoso.onmicrosoft.com`   |    `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`     |
+|custom     |    `rsimone@contoso.com`     |   `https://contoso-my.sharepoint.com/personal/rsimone_contoso_com`      |
+
+Numbers or GUIDs might be appended to the URL if a conflict is detected, so it's always best to confirm a user's OneDrive URL if you need to specify it. 
+
+> [!NOTE]
+> Unless OneDrive accounts are [pre-provisioned](pre-provision-accounts.md), the URL isn't created until a user accesses their OneDrive for the first time.
+Also, the OneDrive URL will automatically change if the user's [UPN changes](upn-changes.md). For example, if the user changes their name or the domain name changes for a rebranding or business restructuring. 
   
-## View the list of OneDrive users and URLs in your organization
+## Use the OneDrive usage report to view the list of OneDrive users and URLs
 
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
     
@@ -37,14 +52,16 @@ This article is for global and SharePoint admins in Microsoft 365.
     
 2. In the left pane, select **Reports** \> **Usage**. (You might need to select **Show all** to see the Reports option.) 
     
-3. Select the **OneDrive files** tile, or select **Select a report** \> **OneDrive usage**.
+3. Under **OneDrive files**, select **View more**.
 
     > [!NOTE]
-    > If you see GUIDs in the report instead of URLs and names, in the left pane, select **Settings** > **Services & add-ins**, and then select **Reports**. Clear the box **Display anonymous identifiers instead of names in all reports**.
+    > If you see GUIDs in the report instead of URLs and names, go to the [Reports setting](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/Settings/Services/:/Settings/L1/Reports) and clear the box **In all reports, display de-identified names for users, groups, and sites**.
     
-4. In the upper right of the table at the bottom, select **Export**.
+You can copy individual OneDrive URLs from the URL column. For easier searching and copying, export the report as a .csv file. In the upper left of the table at the bottom, select **Export**.
+
+[Learn more about the Microsoft OneDrive usage report](/microsoft-365/admin/activity-reports/onedrive-for-business-usage-ww).
     
-## Create a list of all the OneDrive URLs in your organization using Microsoft PowerShell
+## Use PowerShell to create a list of all the OneDrive URLs in your organization 
 <a name="BKMK_Step2"> </a>
 
 The list you create in these steps will be saved to a text file.
@@ -83,8 +100,5 @@ After the script successfully completes, a text file is created in the location 
 https://contoso-my.sharepoint.com/personal/carolt_contoso_onmicrosoft_com/
 https://contoso-my.sharepoint.com/personal/esterv_contoso_onmicrosoft_com/  
 https://contoso-my.sharepoint.com/personal/hollyh_contoso_onmicrosoft_com/`
-
-## More information
-<a name="BKMK_MoreInfo"> </a>
 
 Once you have the URL for a user's OneDrive, you can get more info about it by using the [Get-SPOSite](/powershell/module/sharepoint-online/get-sposite) cmdlet, and change settings by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) cmdlet.
