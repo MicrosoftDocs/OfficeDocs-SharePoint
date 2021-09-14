@@ -34,7 +34,7 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
 
 1. Verify that devices are on Microsoft Edge build 93 or later using [Find out which version of Microsoft Edge you have](https://support.microsoft.com/en-us/microsoft-edge/find-out-which-version-of-microsoft-edge-you-have-c726bee8-c42e-e472-e954-4cf5123497eb).
 
-2. Enable the [ConfigureViewInFileExplorer](/deployedge/microsoft-edge-policies#configureviewinfileexplorer) Edge policy that  allows URLs with the viewinfileexplorer: scheme to open WebDAV URLs in Windows File Explorer.
+2. Enable the [ConfigureViewInFileExplorer](/deployedge/microsoft-edge-policies#configureviewinfileexplorer) policy for Microsoft Edge that allows URLs with the viewinfileexplorer: scheme to open WebDAV URLs in Windows File Explorer.
 
 3. Ensure that Window instances are joined to a Microsoft Active Directory domain, Windows 10 Pro, or Enterprise instances that are enrolled for device management.
 
@@ -80,7 +80,7 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
     ```
 
     > [!NOTE]
-    > Ensure the management shell version is 16.0.21610.12000 or higher or the ViewInFileExplorerEnabled option will not be available. Next, verify that both the policy and tenant setting is applied. If you don't enable ViewInFileExplorerEnabled via [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps), the View in File Explorer button will not appear in the interface of the SharePoint site.
+    > Ensure the management shell version is 16.0.21610.12000 or higher or the ViewInFileExplorerEnabled option will not be available.
 
 7. **(Strongly Recommended)** Next, as a tenant administrator, update your SharePoint Online tenant configuration via SharePoint Online Management Shell to allow persisted cookies for View with Explorer.
 
@@ -96,6 +96,28 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
     > [!NOTE]
     > Once the tenant setting has been enabled, it may take up to 15 minutes for the View in Explorer button to appear in the SharePoint interface.
 
+    ### Troubleshooting
+    
+    **How can I confirm that the ConfigureViewInFileExplorer policy has been applied?**
+    
+    You can verify that the policy has been applied by navigating to **edge://policy**.
+    
+    **The error message *This policy is blocked - its value will be ignored* appeared while checking to see if the policy was applied via edge://policy. What's wrong?**
+    
+    This error will occur when you attempt to apply this policy to a non-domain joined device. Currently, the ConfigureViewInFileExplorer policy can only be applied to Windows instances that are joined to a Microsoft Active Directory domain, Windows 10 Pro, or Enterprise instances enrolled for device management.
+    
+    :::image type="content" source="media/edge-error.png" alt-text="User interface of the This policy is blocked - its value will be ignored. error message.":::
+    
+    **What happens if I have the policy applied without the tenant setting enabled?**
+    
+    If you don't enable ViewInFileExplorerEnabled via [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps), the View in File Explorer button will not appear in the interface of the SharePoint site.
+    
+    **What happens if the tenant setting is enabled while the Edge policy isn't applied.**
+    
+    If you have enabled ViewInFileExplorerEnabled, you may see the View In File Explorer button appear in your SharePoint library, however, clicking the button will result in a blank screen.
+    
+    :::image type="content" source="media/edgepolicy-blank-screen.png" alt-text="Blank screen that appears when the tenant setting is enabled without the policy applied.":::
+    
 ## Learn More
 
 - [Sync SharePoint and Team files with your computer](https://support.microsoft.com/en-us/office/sync-sharepoint-and-teams-files-with-your-computer-6de9ede8-5b6e-4503-80b2-6190f3354a88)
