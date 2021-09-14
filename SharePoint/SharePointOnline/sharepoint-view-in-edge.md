@@ -112,7 +112,7 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
     
     If you don't enable ViewInFileExplorerEnabled via [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps), the View in File Explorer button will not appear in the interface of the SharePoint site.
     
-    **What happens if the tenant setting is enabled while the Edge policy isn't?**
+    **What happens if the tenant setting is enabled while the Edge policy isn't applied?**
     
     If you have enabled ViewInFileExplorerEnabled, you may see the View In File Explorer button appear in your SharePoint library, however, clicking the button will result in a blank screen.
     
