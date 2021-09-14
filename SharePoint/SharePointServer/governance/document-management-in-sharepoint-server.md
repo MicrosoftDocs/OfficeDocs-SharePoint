@@ -22,6 +22,11 @@ description: "Learn about the elements of a document management solution and the
 This article contains a high-level description of the various elements of a document management solution that is based on SharePoint Server.
   
 Document management controls the life cycle of documents in your organization — how they are created, reviewed, and published, and how they are ultimately disposed of or retained. Although the term "management" implies that information is controlled from the top of the organization, an effective document management system should reflect the culture of the organization that uses it. The tools that you use for document management should be flexible enough to enable you to tightly control a document's life cycle, if that fits your enterprise's culture and goals, but also to let you implement a more loosely structured system, if that better suits your enterprise.
+
+Learn more about [Collaborative governance](/microsoft-365/solutions/collaboration-governance-overview) in Sharepoint for Microsoft 365.
+
+
+
   
 ## The elements of a document management system
 <a name="section1"> </a>

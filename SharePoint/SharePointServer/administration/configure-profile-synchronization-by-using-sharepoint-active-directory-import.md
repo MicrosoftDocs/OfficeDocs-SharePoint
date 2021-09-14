@@ -20,13 +20,16 @@ description: "Learn how to import user profiles from Active Directory to SharePo
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can use the SharePoint Active Directory import option (AD import) as an alternative to using Microsoft Identity Manager (MIM) to import user profile data from Active Directory Domain Services (AD DS) in your domain.
-  
+
+ 
 Import operations that use AD import are significantly faster than the same operations that use MIM. However, AD import only works with Active Directory Domain Services (AD DS) and does not work with other directory services. Additionally, if you choose to use AD Import, MIM or other external identity managers are not available for connections to other data sources such as business applications.
   
 You must be a member of the Farm Administrators group to perform the procedures in this article. You also need domain credentials with synchronization permissions in order to configure the connection.
   
 > [!NOTE]
-> MIM is an external provider only available in SharePoint Server 2016 and SharePoint Server 2019. 
+> MIM is an external provider only available in SharePoint Server 2016 and SharePoint Server 2019.
+
+Learn more about [User profile synchronization](../../SharePointOnline/user-profile-sync.md) for SharePoint in Microsoft 365.
   
 ## Situations unsupported by AD import
 

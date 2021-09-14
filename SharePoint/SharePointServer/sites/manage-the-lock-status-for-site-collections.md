@@ -36,7 +36,9 @@ The following table describes the locking options that are available in SharePoi
 > If you want to limit the amount of content that can be stored in a site collection, you can apply a quota template to the site collection. When the content storage limit that is specified in the quota template is reached, the site collection is locked automatically until the storage limit quota has been increased or some content has been removed. For more information, see [Create, edit, and delete quota templates in SharePoint Server](create-edit-and-delete-quota-templates.md). 
   
 > [!IMPORTANT]
-> The steps in this article apply to SharePoint Server 2016, SharePoint Foundation 2013, and SharePoint Server 2013. 
+> The steps in this article apply to SharePoint Server 2016, SharePoint Foundation 2013, and SharePoint Server 2013.
+
+Learn more about [Locking and unlocking sites](../../SharePointOnline/manage-lock-status.md) for SharePoint in Microsoft 365.
   
 ## Manage the lock status for a site collection by using Central Administration
 

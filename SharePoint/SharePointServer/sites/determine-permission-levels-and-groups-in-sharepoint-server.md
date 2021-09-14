@@ -26,6 +26,8 @@ description: "Learn how to define the correct SharePoint Server permission level
 A SharePoint group is a set of users that can be managed together. A permission level is a set of permissions that can be assigned to a specific group for a specific securable object. SharePoint groups and permission levels are defined at the site collection level and are inherited from the parent object by default. This article describes default groups and permission levels and helps you decide whether to use them as they are, customize them, or create different groups and permission levels. 
     
 The most important decision about your site and content security in SharePoint Server is how to group your users and which permission levels to assign.
+
+Learn more about [Default SharePoint groups](../../SharePointOnline/default-sharepoint-groups.md) in Microsoft 365.
   
 ## Review available default groups
 <a name="section1"> </a>

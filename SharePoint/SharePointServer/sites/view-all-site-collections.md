@@ -22,6 +22,8 @@ description: "How to see the list of site collections in SharePoint Server."
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 A site collection is a group of websites that have the same owner and share administrative settings, for example, permissions, and quotas. Site collections are created within a web application. When you create a site collection, a top-level site is automatically created in the site collection. You can then create one or more subsites below the top-level site. The entire structure of the top-level site and all its subsites is called a site collection.
+
+Learn more about in [Managing sites in the new SharePoint admin center](../../SharePointOnline/manage-sites-in-new-admin-center.md) in Microsoft 365.
   
 ## View the site collections in a web application
 

@@ -28,6 +28,8 @@ This article describes SharePoint administrative and services account permission
 > [!IMPORTANT]
 > Do not use service account names that contain the symbol $ with the exception of using a Group Managed Service Account for SQL Server.
 
+Learn more about [SharePoint admin role in Microsoft 365](../../SharePointOnline/sharepoint-admin-role.md).
+
 
 ## About account permissions and security settings in SharePoint Servers
 <a name="Section1"> </a>
