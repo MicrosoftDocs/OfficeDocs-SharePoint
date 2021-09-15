@@ -45,21 +45,22 @@ Also, the OneDrive URL will automatically change if the user's [UPN changes](upn
   
 ## Use the OneDrive usage report to view the list of OneDrive users and URLs
 
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
+1. Go to the [OneDrive usage report in the Microsoft 365 admin center](https://admin.microsoft.com/#/reportsUsage/OneDriveSiteUsage) and sign in as a SharePoint admin, global admin, global reader, or reports reader. (If you see a message that you don't have permission to access the page, you don't have one of these roles in your organization.)
     
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, select **Reports** \> **Usage**. (You might need to select **Show all** to see the Reports option.) 
-    
-3. Under **OneDrive files**, select **View more**.
+   > [!NOTE]
+   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), browse to **Reports** \> **Usage**. Under **OneDrive files**, select **View more**. 
+   > 
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), browse to **Reports** \> **Usage**. Under  **OneDrive files**, select **View more**.
 
-    > [!NOTE]
-    > If you see GUIDs in the report instead of URLs and names, go to the [Reports setting](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/Settings/Services/:/Settings/L1/Reports) and clear the box **In all reports, display de-identified names for users, groups, and sites**.
-    
-You can copy individual OneDrive URLs from the URL column. For easier searching and copying, export the report as a .csv file. In the upper left of the table at the bottom, select **Export**.
+2. Scroll to the table below the charts. 
 
-[Learn more about the Microsoft OneDrive usage report](/microsoft-365/admin/activity-reports/onedrive-for-business-usage-ww).
+    ![Table of URLs at the bottom of the OneDrive usage report](media/usage-report-table.png)
+
+ If you see GUIDs in the table instead of URLs and names, go to the [Reports setting](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/Settings/Services/:/Settings/L1/Reports) and clear the box **In all reports, display de-identified names for users, groups, and sites**.
+    
+You can copy individual OneDrive URLs from the URL column. For easier searching and copying, export the table as a .csv file. In the upper left of the table, select **Export**.
+
+[Learn more about the Microsoft OneDrive usage report](/microsoft-365/admin/activity-reports/onedrive-for-business-usage-ww)
     
 ## Use PowerShell to create a list of all the OneDrive URLs in your organization 
 <a name="BKMK_Step2"> </a>
