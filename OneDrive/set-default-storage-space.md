@@ -53,8 +53,8 @@ This storage space setting applies to all new and existing users who are license
   
 3. In the **Default storage limit** box, enter the default storage amount (in GB), and then select **Save**.
 
-> [!NOTE]
-> The minimum storage is 1 GB.
+   > [!NOTE]
+   > The minimum storage is 1 GB.
 
   
 ## Check if a user has the default storage limit or a specific limit
