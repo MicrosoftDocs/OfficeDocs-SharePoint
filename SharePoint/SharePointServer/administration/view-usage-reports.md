@@ -39,7 +39,9 @@ If you have added any custom usage event types, these will also be displayed.
 For more information about the Analytics Processing Component and usage events, see [Overview of analytics processing in SharePoint Server](../search/overview-of-analytics-processing.md). For information about search reports — for example, Number of Queries or Top Queries by Day — see "Usage reports" in [View search diagnostics in SharePoint Server](../search/view-search-diagnostics.md).
   
 > [!NOTE]
-> Usage reports are only available for Document Libraries and Product Catalog lists. 
+> Usage reports are only available for Document Libraries and Product Catalog lists.
+
+Learn about [Viewing usage data for your SharePoint site in Microsoft 365](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e).
   
 ## View the Popularity Trends report
 <a name="BKMK_PopularityTrends"> </a>
