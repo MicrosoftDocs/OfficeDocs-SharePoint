@@ -52,7 +52,7 @@ If you’ve already created the communication site and are ready to specify it a
 
 ## What is a SharePoint home site?
 
-Home sites are SharePoint communication sites that have special capabilities such as being marked as an official source of news in the organization. Review key differences between standard SharePoint communication sites and home sites:
+Home sites are not an *option*, but an *add-on.* Home sites are SharePoint communication sites that have special capabilities such as being marked as an official source of news in the organization. Review key differences between standard SharePoint communication sites and home sites:
 
 | Feature                  | Communication site                 | Home site          |
 | :------------------- | :------------------: |:---------------:|
@@ -64,7 +64,7 @@ Home sites are SharePoint communication sites that have special capabilities suc
 | Option to enable and customize global navigation in the SharePoint app bar                 |                   | X              |
 | Option to set up Viva Connections              |                    | X              |
 
-### Home site super powers explained
+### Home site features explained
 
 Home sites are unlike any other site in SharePoint. When you transform a SharePoint communication site into a home site, you’ll automatically apply special capabilities that make the home site an ideal landing destination for your intelligent intranet.
 
@@ -140,7 +140,7 @@ When you've prepared a plan, you're ready to start creating the home site in Sha
 |  ![image of a clipboard](media/icon-plan.png)   | **Create a modern communication site** | Start by creating a SharePoint communication site and build out the site by using sections, web parts, and pages. Consider using a mega menu and footer to enhance way finding. Web parts that are useful for a home site include: News web part, My feed web part, Yammer web parts, Quick link web part, and the Highlighted content web part.Learn how to [create a communication site](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb#:~:text=Steps%20to%20create%20a%20communication%20site%201%20Sign,news%2C%20events%2C%20and%20other%20content.%20...%20See%20More.), use [modern web parts](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0), and [customize your site](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b#:~:text=Customize%20your%20SharePoint%20site.%201%20Change%20the%20logo.,navigation.%205%20Add%20a%20site%20footer.%20See%20More.). |
 | ![image of an audience](media/icon-build-audience.png)   | **Apply audience targeting**| Next, turn on audience targeting on for the home site. By enabling audience targeting, specific content will be prioritized to specific audiences in navigational links, news, and certain web parts. Learn more about [how audience targeting works](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) and [how to apply it](https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) to navigational links, news, and web parts.|
 | ![image of a site](media/icon-build-flow.png)   | **Set up a page approval flow** | Then, make sure the home site is set up for regular content updates. Turn on content approval to ensure only high-quality content is published on the home site. Learn how to [turn on a page approval flow](https://support.microsoft.com/office/approval-flow-for-modern-pages-a8b2e689-d4a1-4639-8028-333c0ece30d9?ui=en-us&rs=en-us&ad=us).|
-| ![image of a two sites getting switched](media/icon-build-swap.png)   | **Replace the home site with the root site**  | Next, swap the root site with the new home site. The root site for your organization is one of the sites that's provisioned automatically when you purchase and set up a Microsoft 365 plan. Swap the home site with the root site to ensure home site superpowers are fully active. Learn how to [make the root site the home site](/sharepoint/modern-root-site#replace-your-root-site).|
+| ![image of a two sites getting switched](media/icon-build-swap.png)   | **Replace the home site with the root site**  | Next, swap the root site with the new home site. The root site for your organization is one of the sites that's provisioned automatically when you purchase and set up a Microsoft 365 plan. Swap the home site with the root site to ensure home site features are fully active. Learn how to [make the root site the home site](/sharepoint/modern-root-site#replace-your-root-site).|
 | ![image of a house](media/icon-build-home.png)   | **Create the home site** | Next, use the [latest version of PowerShell](https://www.microsoft.com/download/details.aspx?id=35588) to [set the communication site as your home site](/sharepoint/home-site#set-a-site-as-your-home-site).|
 | ![image of a map](media/icon-build-global.png)   | **Set up global navigation** | Then, enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Global navigation can only be customized from the home site’s home page.Learn how to [enable and customize global navigation](/SharePoint/sharepoint-app-bar).|
 | ![image of an approved site](media/icon-build-test.png)   | **Test site health and the viewing experience**  | Finally, review portal launch guidance and understand the main elements that will make sure your home site is healthy. A healthy home site optimizes performance to ensure the best possible viewing experience. Use the Page diagnostics for SharePoint tool to make sure the home page is healthy before sharing with end users. Learn more about [healthy portals](/sharepoint/portal-health) and using the [Page diagnostics tool for SharePoint](/microsoft-365/enterprise/page-diagnostics-for-spo).|
@@ -164,7 +164,7 @@ After you've created your home site, it’s time to plan the launch and make sur
 
 **Q:** I have a new site that I want to use as my home site. What do I do?
 <br>
-As long as your site is a communication site, you can use [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell) to transform your site into a home site to take advantage of home site super powers.
+As long as your site is a communication site, you can use [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell) to transform your site into a home site to take advantage of home site features.
 
 **Q:** What’s the difference between a home site and the SharePoint start page?
 <br>
