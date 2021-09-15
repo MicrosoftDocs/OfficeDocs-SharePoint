@@ -36,8 +36,7 @@ description: "The articles in this section help you operate and maintain servers
 |[Role conversion using MinRole in SharePoint Server 2016](role-conversion-using-minrole-in-sharepoint-server-2016.md) <br/> |Learn about how to convert your server roles in a SharePoint farm deployment using MinRole to help you select the right server role when provisioning SharePoint Server 2016.  <br/> |
 |[Administer search in SharePoint Server](../search/search-administration.md) <br/> |Learn how to manage the search schema and the search topology in SharePoint Server.  <br/> |
 |[Administer the User Profile service in SharePoint Server](user-profile-service-administration.md) <br/> |Learn how to administer the User Profile service in SharePoint Server 2016.  <br/> |
-|[SharePoint Central Administration - Support for host header bindings and easier Alternate Access Mappings (AAM) configuration](sharepoint-central-administration-host-header-bindings-and-easier-aam-configuration.md) <br/> |Learn how SharePoint Central Administration now supports host header bindings and allows for easier Alternate Access Mappings (AAM) configuration.  <br/> |
-   
+
 ## Related operations and maintenance articles for SharePoint Server
 
 - [Microsoft PowerShell Reference for SharePoint](/powershell/sharepoint/?view=sharepoint-ps)
