@@ -41,6 +41,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 > - This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses.
 > - For info about changing a site address, for example, from `https://contoso.sharepoint.com/sites/sample1` to  `https://contoso.sharepoint.com/sites/sample2`, see [Change a site address](change-site-address.md).  
 > - When you rename your SharePoint domain, we create a redirect at the previous address.
+> - You can only rename your SharePoint domain once every six months.
 
 ## Limitations
 
@@ -97,7 +98,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 | Deleted sites | Any sites that have been deleted can't be restored after the change. | Before changing your domain name, review the Deleted sites page in the SharePoint admin center and restore any sites that you might want to keep. |
 | Multi-Geo configurations | Your SharePoint domain name can't be changed if your organization is currently set up for Microsoft 365 Multi-Geo or was previously set up for it.  | No action available. |
 | Point-in-time restoration | Restoring a site to a previous time before the domain name change isn't possible. | No action available.|
-| Vanity domain configurations | Your domain name can't be changed if you have a vanity domain configuration. | No action available. |
+| Vanity domain configurations | If your SharePoint domain is, for example, teams.contoso.com (versus contoso.sharepoint.com), your domain name can't be changed. | No action available. |
 
 ## Step 1: Add the new domain name
 
