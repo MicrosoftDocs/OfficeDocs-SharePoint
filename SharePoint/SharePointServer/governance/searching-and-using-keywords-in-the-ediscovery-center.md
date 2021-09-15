@@ -26,6 +26,8 @@ description: "Keywords help you narrow down the specific content that you produc
 Keywords help you narrow down the specific content that you produce through export for an eDiscovery case. By creating focused searches, you increase the likelihood that content is applicable to a case, and reduce the amount of content that you need to manage. 
   
 Your organization may create an eDiscovery case if it receives a request for potential evidence to support litigation, an audit, or an investigation.
+
+Learn about Core eDiscovery in [Get started with Core eDiscovery for SharePoint in Microsoft 365](/microsoft-365/compliance/get-started-core-ediscovery).
   
 ## Filters and Queries
 <a name="__top"> </a>

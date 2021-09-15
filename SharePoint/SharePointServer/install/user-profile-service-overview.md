@@ -20,6 +20,8 @@ description: "Learn about the User Profile service architecture and how SharePoi
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]. 
   
 The User Profile service stores information about users in a central location. It enables My Sites, social computing features such as social tagging and newsfeeds, and creating and distributing profiles across multiple sites and farms. It is also required by most [SharePoint hybrid scenarios](../hybrid/hybrid.md).
+
+Learn about [Managing user profiles in the SharePoint admin center in Microsoft 365](../../SharePointOnline/manage-user-profiles.md).
   
     
 ## The User Profile service application

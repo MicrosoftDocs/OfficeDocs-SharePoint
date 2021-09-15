@@ -24,7 +24,9 @@ description: "Learn about the benefits and uses of My Sites in SharePoint Server
   
 This article provides an overview of My Sites end-user functionality and benefits for consideration by enterprise business decision makers or SharePoint admins. It does not discuss the architecture of My Sites or information about planning and configuring My Sites.
   
-If you are a SharePoint admin who is responsible for configuring My Sites in your organization, use this article together with [Plan for My Sites in SharePoint Server](my-sites-planning.md) to understand and plan for My Sites. You can then use [Configure My Sites in SharePoint Server](configure-my-sites.md) to configure My Sites and [Plan user profiles in SharePoint Server](../administration/plan-user-profiles.md) to see how user profile setup can influence the information that is displayed in My Sites. 
+If you are a SharePoint admin who is responsible for configuring My Sites in your organization, use this article together with [Plan for My Sites in SharePoint Server](my-sites-planning.md) to understand and plan for My Sites. You can then use [Configure My Sites in SharePoint Server](configure-my-sites.md) to configure My Sites and [Plan user profiles in SharePoint Server](../administration/plan-user-profiles.md) to see how user profile setup can influence the information that is displayed in My Sites.
+
+Learn about [OneDrive guide for enterprises for SharePoint in Microsoft 365](../../../OneDrive/plan-onedrive-enterprise.md).
   
 ## Uses and benefits of My Sites
 <a name="section1"> </a>

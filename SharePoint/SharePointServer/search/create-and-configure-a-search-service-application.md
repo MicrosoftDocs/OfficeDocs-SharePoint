@@ -23,9 +23,10 @@ description: "Learn how to create and configure a SharePoint Search service appl
 ## Before you begin
 <a name="begin"> </a>
 
-If you used the Farm Configuration Wizard after you installed SharePoint Server 2016 or SharePoint Server 2019, a Search service application might have been created at that time. To verify whether a Search service application exists, you can click **Manage service applications** in the **Application Management** section on the Central Administration home page. For the remainder of this article, it is assumed that a Search service application does not exist yet, and that therefore you must create one. 
-  
-    
+If you used the Farm Configuration Wizard after you installed SharePoint Server 2016 or SharePoint Server 2019, a Search service application might have been created at that time. To verify whether a Search service application exists, you can click **Manage service applications** in the **Application Management** section on the Central Administration home page. For the remainder of this article, it is assumed that a Search service application does not exist yet, and that therefore you must create one.
+
+Learn about [Search experiences in SharePoint in Microsoft 365](../../SharePointOnline/get-started-with-modern-search-experience.md).
+
 ## How to create and configure a SharePoint Search service application
 <a name="begin"> </a>
 

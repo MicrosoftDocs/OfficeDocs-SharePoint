@@ -36,6 +36,8 @@ Use this article along with [Initial deployment administrative and service accou
 The initial deployment administrative and service accounts article describes the specific account and permissions that you need to grant prior to running Setup. 
   
 This article does not describe the account requirements for using Secure Store service in SharePoint Server. For more information, see [Plan the Secure Store Service in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)).
+
+Learn [About the SharePoint admin role in Microsoft 365](../../SharePointOnline/sharepoint-admin-role.md).
   
 ## About administrative and service accounts
 <a name="Section1"> </a>

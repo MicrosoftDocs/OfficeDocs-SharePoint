@@ -35,7 +35,9 @@ The previous article in this series, [Use recommendations and popular items on w
 - [About the TailTrimming parameter](view-and-configure-usage-analytics-reports.md#BKMK_AbouttheTailTrimmingParameter)
     
 > [!NOTE]
-> The examples in this series are based on an on-premises SharePoint Server deployment. 
+> The examples in this series are based on an on-premises SharePoint Server deployment.
+
+Learn about [Viewing usage data for your SharePoint site in Microsoft 365](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e).
   
 ## About the usage analytics reports
 <a name="BKMK_AbouttheUsageAnalyticsReports"> </a>

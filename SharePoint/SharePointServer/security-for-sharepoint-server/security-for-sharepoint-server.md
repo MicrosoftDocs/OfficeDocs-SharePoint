@@ -32,4 +32,4 @@ The following article provides information about authentication planning in Shar
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Plan security hardening for SharePoint Server](security-hardening.md) <br/> |Learn about security hardening requirements for SharePoint Server 2013 and SharePoint Server 2016.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Federal Information Processing Standard security standards and SharePoint Server](federal-information-processing-standard-security-standards.md) <br/> |Learn about SharePoint Server 2016 and SharePoint Server 2013 support for Federal Information Processing Standard (FIPS).  <br/> |
    
-
+Learn about [How SharePoint and OneDrive safeguard your data in the cloud for SharePoint in Microsoft 365](../../SharePointOnline/safeguarding-your-data.md).

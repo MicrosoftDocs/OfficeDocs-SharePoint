@@ -27,7 +27,8 @@ This article contains the information and procedures required to configure workf
   
 > [!NOTE]
 > You can watch a video series that walks through the process of installing and configuring the SharePoint 2013 Workflow platform. To view the videos, see [Video series: Install and configure Workflow in SharePoint Server 2013](video-series-install-and-configure-workflow-in-sharepoint-server-2013.md)
-  
+
+Learn about [Workflows for SharePoint in Microsoft 365](../../SharePointOnline/extend-and-develop.md).
 ## Overview
 <a name="section1"> </a>
 

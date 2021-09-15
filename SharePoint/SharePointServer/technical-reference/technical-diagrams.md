@@ -31,6 +31,8 @@ These resources are available in Visio (.vsdx) and PDF formats You might need ad
 |.vsdx  <br/> |Visio 2016 or the [free Visio viewer](https://go.microsoft.com/fwlink/p/?LinkId=118761). If you use the Visio viewer, right-click the VSD link, click **Save Target As**, save the file to your computer, and then open the file from your computer.  <br/> |
 |.pdf  <br/> |Any PDF viewer, such as Adobe Reader <br/> |
    
+Learn about [Microsoft cloud for IT architects illustrations for SharePoint in Microsoft 365](/microsoft-365/solutions/cloud-architecture-models).
+
 ## Microsoft SharePoint Server 2016 Architectural Models
 
 This poster describes the SharePoint, Microsoft Azure, and SharePoint Server 2016 on-premises configurations that business decision makers and solutions architects need to know about.

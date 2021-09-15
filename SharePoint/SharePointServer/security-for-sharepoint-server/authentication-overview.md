@@ -31,7 +31,8 @@ SharePoint Server requires authentication for the following types of interaction
 - Apps that access on-premises SharePoint resources
     
 - On-premises servers that access on-premises SharePoint resources, or vice versa
-    
+
+Learn about [SharePoint authentication in Microsoft 365](../../SharePointOnline/authentication.md).
     
 ## User authentication in SharePoint Server
 <a name="userauth"> </a>
