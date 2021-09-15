@@ -29,7 +29,7 @@ description: "Set up a home site from the SharePoint admin center"
   
 Learn how to set up and manage a home site for your organization in the SharePoint admin center. If you have already set a home site for your organization, you can skip this step.
 
-Learn more about [planning and building a home site](/sharepoint/SharePointOnline/home-site-plan.md) before assigning home site status to a site in the SharePoint admin center. 
+Learn more about [planning and building a home site](/sharepoint/home-site-plan) before assigning home site status to a site in the SharePoint admin center. 
 
 ### Step 1: Log into the SharePoint admin center 
 Login with admin credentials into your SharePoint admin center. Typically, you can sign in using this URL https://(<)InsertYourTenantDomainName)-admin.sharepoint.com/ 
