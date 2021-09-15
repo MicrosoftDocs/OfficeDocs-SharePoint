@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
@@ -136,7 +136,7 @@ Meet users where they are. If you are already using Teams, there are many option
 
 [IT roundtable: Migrating from Skype meeting broadcasts to live events across Microsoft 365 apps](https://www.microsoft.com/itshowcase/it-expert-roundtable-migrating-to-live-events-in-microsoft-365-from-skype-meeting-broadcast)
 
-[How leaders can bring employees together during COVID-19](https://www.microsoft.com/microsoft-365/blog/2020/05/01/how-leaders-bring-employees-together-covid-19/)
+[How leaders can bring employees together during COVID-19](https://www.microsoft.com/en-us/microsoft-365/blog/2020/05/01/how-leaders-bring-employees-together-covid-19/)
 
 [Transform your communications, company meetings, and trainings](https://resources.techcommunity.microsoft.com/live-events/)
 

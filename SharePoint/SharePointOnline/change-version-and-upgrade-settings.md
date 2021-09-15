@@ -9,7 +9,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.topic: article
 ms.collection:  
 - Strat_SP_admin

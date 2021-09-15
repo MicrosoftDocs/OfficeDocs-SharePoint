@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: faab1eb4-5848-4970-b13f-ba6df14272fe
 description: "Learn to configure diagnostic logging in SharePoint Server from the SharePoint Central Administration website or by using Microsoft PowerShell."

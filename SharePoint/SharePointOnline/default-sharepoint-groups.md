@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: reference
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX
 ms.collection:  
 - Strat_OD_share
@@ -20,22 +20,20 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: 13bb2b6b-dd8c-447e-b71b-0e4bb9efe1d3
-description: "Learn what the default SharePoint security groups are available for SharePoint sites in Microsoft 365."
+description: "Learn what the default SharePoint groups are available for SharePoint sites in Microsoft 365."
 ---
 
 # Default SharePoint groups
 
 The default SharePoint groups are created automatically when you create a site (previously called a "site collection"). The default groups use SharePoint's default permission levels - sometimes called SharePoint roles - to grant users rights and access. The permission levels that these groups have represent common levels of access that users have to have. They are a good place to start when you add users to a SharePoint site. 
   
-Administrators can create additional groups to align more closely with specific business needs. Deciding how to design and populate your SharePoint security groups is an important decision that affects security for your site and site content. 
+Administrators can create additional groups to align more closely with specific business needs. Deciding how to design and populate your SharePoint groups is an important decision that affects security for your site and site content. 
   
 Here are links to information on understanding and setting SharePoint permissions.
   
 - [Understanding permission levels in SharePoint](./understanding-permission-levels.md)
     
 - [Edit and manage permissions for a SharePoint list or library](https://support.office.com/article/02D770F3-59EB-4910-A608-5F84CC297782)
-    
-- [How to create and edit permission levels](./how-to-create-and-edit-permission-levels.md)
     
 ## Permission levels for default SharePoint groups
 <a name="__toc352237424"> </a>

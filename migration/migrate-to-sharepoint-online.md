@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: conceptual
 ms.service: sharepoint-online
-localization_priority: None
+ms.localizationpriority: null
 search.appverid: MET150
 msCollection: 
 - SPMigration

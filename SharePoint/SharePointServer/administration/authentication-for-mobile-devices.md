@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ad6a501d-5d8c-4b87-af69-7f655b8c3d1e
 description: "This article contains information about the supported authentication types for select devices in SharePoint Server 2013."
 ---

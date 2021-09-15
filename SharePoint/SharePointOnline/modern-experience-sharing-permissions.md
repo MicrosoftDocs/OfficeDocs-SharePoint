@@ -18,7 +18,7 @@ ms.custom:
 search.appverid:
 - SPO160
 - MET150
-localization_priority: Priority
+ms.localizationpriority: high
 description: "In this article, you'll learn about the available options for sharing and permissions in the SharePoint modern experience."
 ---
 

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: ae1e3447-46e2-45f9-852a-ab39f23345d4
 description: "Learn to view and filter log events by using Microsoft PowerShell, and view and export diagnostic logs by using the Out-GridView cmdlet."

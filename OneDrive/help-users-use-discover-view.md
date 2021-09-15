@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: overview
 ms.service: one-drive
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - ODB160
 - MOE150

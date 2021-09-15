@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 33ed78c8-25fc-48ea-b0c1-50b540213cff
 description: "Learn how to configure usage and health data collection in SharePoint Server."

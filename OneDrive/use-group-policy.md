@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: one-drive
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration

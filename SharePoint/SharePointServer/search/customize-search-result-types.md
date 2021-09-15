@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: cf19810b-5548-447c-a94d-026ad6e9d096
 description: "Create and configure custom search result types in SharePoint Server so that users can readily distinguish and preview different kinds of items in a list of search results."

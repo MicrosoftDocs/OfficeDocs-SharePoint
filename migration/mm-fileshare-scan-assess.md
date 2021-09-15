@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - m365solution-migratefileshares
 - m365solution-migratetom365
@@ -27,19 +27,18 @@ File shares are scanned automatically once you add a source. Once the scans are 
 
 A table summary appears at the top to give you an at-a-glance overview of your users and content size.
 
-![Scan data summary table](media/mm-fileshare-scan-data-table-summary.png)
+![file share scan summary ](media/mm-fileshare-scan-data-table-summary.png)
 
 ## Reviewing the scan results
 
 1. Select **Add source path**
 
-![Add a source path before scanning](/media/mm-fileshare-add-sourcepath-task.png)
+![add sourcepath task](media/mm-fileshare-add-sourcepath-task.png)
 
 2. Review the scanned file shares. Search for specific text, or select a filter to review the list more easily.
 1. Select **Add source path** if you want to scan additional file shares.
 
-![File share scan list](/media/mm-fileshare-scan-list.png)
-
+![fileshare scan list](media/mm-fileshare-scan-list.png)
 
 ## Download summary report and scan log
 

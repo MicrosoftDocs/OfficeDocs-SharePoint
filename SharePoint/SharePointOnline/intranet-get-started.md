@@ -8,7 +8,7 @@ recommendations: true
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: "Get started planning, building, and launching your intranet"
 ms.collection: 

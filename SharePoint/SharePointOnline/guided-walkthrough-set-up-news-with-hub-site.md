@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
@@ -142,7 +142,7 @@ This is what the department homepage looks like after it's complete:
 
 ## Set up your department communication site
 
-In this example, news posts created in the communication site must be approved. You can set up [page approval using Microsoft Flow](https://support.microsoft.com/office/approval-flow-for-modern-pages-a8b2e689-d4a1-4639-8028-333c0ece30d9). Give the Flow a name that includes the site name such as “Human Resources Page Approval” and set the approver to an employee in the Corporate Communications department.
+In this example, news posts created in the communication site must be approved. You can set up [page approval using Power Automate](https://support.microsoft.com/office/approval-flow-for-modern-pages-a8b2e689-d4a1-4639-8028-333c0ece30d9). Give the Flow a name that includes the site name such as “Human Resources Page Approval” and set the approver to an employee in the Corporate Communications department.
 
 ![Image of the Create a page approval flow pane](media/gw-newshub/nh-6.png)
 

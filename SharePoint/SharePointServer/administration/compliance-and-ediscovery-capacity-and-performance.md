@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3d6d004c-b9b3-4f00-9966-467e0e63d1a5
 description: "Learn about how compliance, eDiscovery, and large-scale document repositories can effect capacity and performance in SharePoint Server 2013."
