@@ -22,7 +22,9 @@ description: "Learn about site collections, sites, and site templates in SharePo
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
-A site collection is made up of one top-level site and all sites below it. As shown in the following figure, it is the top level of organization in a SharePoint Server web application. The number of site collections you can have in a single web application depends on the capacity of your server infrastructure. For more information about SharePoint Server boundaries, see [Software boundaries and limits for SharePoint Servers 2016 and 2019](../install/software-boundaries-and-limits-0.md), and for more information about SharePoint hub sites planning, see [Planning your SharePoint hub sites](../../SharePointOnline/planning-hub-sites.md).
+A site collection is made up of one top-level site and all sites below it. As shown in the following figure, it is the top level of organization in a SharePoint Server web application. The number of site collections you can have in a single web application depends on the capacity of your server infrastructure. For more information about SharePoint Server boundaries, see [Software boundaries and limits for SharePoint Servers 2016 and 2019](../install/software-boundaries-and-limits-0.md).
+
+Learn about [Planning your SharePoint hub sites in Microsoft 365](../../SharePointOnline/planning-hub-sites.md).
   
 **Figure: Structure of a site collection in SharePoint Server 2016**
 

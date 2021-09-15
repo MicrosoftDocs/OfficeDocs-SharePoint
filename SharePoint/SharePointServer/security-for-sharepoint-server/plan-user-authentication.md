@@ -24,7 +24,7 @@ description: "Plan how to use various user authentication methods to create a se
   
 Learn the user authentication types and methods that are supported by SharePoint Server and how to determine which ones to use for web applications and zones.
 
-For more information, see [SharePoint authentication](../../SharePointOnline/authentication.md).
+Learn about [SharePoint authentication in Microsoft 365](../../SharePointOnline/authentication.md).
   
     
 ## Introduction

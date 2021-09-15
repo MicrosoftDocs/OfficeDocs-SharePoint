@@ -29,7 +29,7 @@ You must be a member of the Farm Administrators group to perform the procedures 
 > [!NOTE]
 > MIM is an external provider only available in SharePoint Server 2016 and SharePoint Server 2019.
 
-Learn more about [User profile synchronization](../../SharePointOnline/user-profile-sync.md) for SharePoint in Microsoft 365.
+Learn about [User profile synchronization for SharePoint in Microsoft 365](../../SharePointOnline/user-profile-sync.md).
   
 ## Situations unsupported by AD import
 

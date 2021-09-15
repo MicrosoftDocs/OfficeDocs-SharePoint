@@ -38,7 +38,7 @@ The following table describes the locking options that are available in SharePoi
 > [!IMPORTANT]
 > The steps in this article apply to SharePoint Server 2016, SharePoint Foundation 2013, and SharePoint Server 2013.
 
-Learn more about [Locking and unlocking sites](../../SharePointOnline/manage-lock-status.md) for SharePoint in Microsoft 365.
+Learn about [Locking and unlocking sites for SharePoint in Microsoft 365](../../SharePointOnline/manage-lock-status.md).
   
 ## Manage the lock status for a site collection by using Central Administration
 

@@ -27,7 +27,7 @@ A SharePoint group is a set of users that can be managed together. A permission 
     
 The most important decision about your site and content security in SharePoint Server is how to group your users and which permission levels to assign.
 
-Learn more about [Default SharePoint groups](../../SharePointOnline/default-sharepoint-groups.md) in Microsoft 365.
+Learn about [Default SharePoint groups in Microsoft 365](../../SharePointOnline/default-sharepoint-groups.md).
   
 ## Review available default groups
 <a name="section1"> </a>

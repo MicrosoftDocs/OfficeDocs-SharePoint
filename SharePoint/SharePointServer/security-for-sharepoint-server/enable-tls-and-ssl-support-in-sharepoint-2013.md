@@ -33,7 +33,7 @@ TLS protocol version 1.1 and 1.2 support is not enabled by default in SharePoint
 > [!IMPORTANT]
 > If you do not update each of these locations, you run the risk of systems failing to ﻿connect to each other using TLS 1.1 or TLS 1.2. The systems will instead fall back to an older security protocol; and if the older security protocols are disabled, ﻿the systems may fail to connect entirely. > **Example:** SharePoint servers may fail to connect to ﻿SQL Server databases, or client computers may fail to connect to your SharePoint sites.
 
-Learn more about data security in [Data Encryption in OneDrive for Business and SharePoint Online](/microsoft-365/compliance/data-encryption-in-odb-and-spo) in Microsoft 365.
+Learn about data security in [Data Encryption in OneDrive for Business and SharePoint Online in Microsoft 365](/microsoft-365/compliance/data-encryption-in-odb-and-spo).
   
 ## Summary of the update process
 
