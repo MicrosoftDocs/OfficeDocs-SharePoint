@@ -37,7 +37,7 @@ This article describes software boundaries and limits of SharePoint Server 2013.
 > [!NOTE]
 > The capacity planning information in this document provides guidelines for you to use in your planning. It is based on testing performed at Microsoft, on live properties. However, your results are likely to vary based on the equipment you use and the features and functionality that you implement for your sites.
 
-Learn about [SharePoint limits for Microsoft 365](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
+Learn about [SharePoint limits in Microsoft 365](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
   
 ## Overview of boundaries and limits
 

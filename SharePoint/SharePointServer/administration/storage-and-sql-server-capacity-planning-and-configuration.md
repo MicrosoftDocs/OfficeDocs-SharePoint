@@ -24,7 +24,7 @@ description: "Learn how to plan and configure the storage and database tier for 
   
 The capacity planning information that we provide contains guidelines to help you plan and configure the storage and SQL Server database tier in a SharePoint Server environment. This information is based on testing performed at Microsoft on live properties. However, your results may vary based on the equipment you use and the features and functionality that you implement for your sites.
 
-Learn about [Managing site storage limits in SharePoint for Microsoft 365](../../SharePointOnline/manage-site-collection-storage-limits.md).
+Learn about [Managing site storage limits for SharePoint in Microsoft 365](../../SharePointOnline/manage-site-collection-storage-limits.md).
   
 Although tests were not run on SQL Server 2014 (SP1), SQL Server 2016 , or SQL Server 2017 RTM you can use these test results as a guide to help you plan for and configure the storage and SQL Server database tier in SharePoint Server 2019, 2016, and 2019 environments. For training about how to configure and tune SQL Server 2012, see [SQL Server 2012 for SharePoint Server 2013](#Section8A). Note that the test results are the same as in SharePoint 2013.  
   
