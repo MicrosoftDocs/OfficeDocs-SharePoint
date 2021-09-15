@@ -46,8 +46,9 @@ If you’ve already created the communication site and are ready to specify it a
 
 
 > [!NOTE] 
->Today, home sites can only be created using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell). Admin credentials are required to use SharePoint PowerShell.
-
+>- Home sites can be created using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell). Admin credentials are required to use SharePoint PowerShell.
+>- Targeted Release customer will have the option to [transform a communication site to a home site in the SharePoint admin center](/SharePoint/home-site-admin-center) in September. This feature will become more widely available later this fall.
+>- [Viva Connections](/sharepoint/viva-connections-overview) is currently in Public preview and some Viva Connections features will become available sooner than others.
 
 
 ## What is a SharePoint home site?
