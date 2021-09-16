@@ -17,53 +17,66 @@ description: "Learn how to setup improved ASP.NET view state security and key ma
 
 # Improved ASP.NET view state security and key management
 
-Multiple improvements have been made to SharePoint's integration with the ASP.NET view state feature. First, SharePoint now encrypts the machineKey section of its web.config files by default. This prevents attackers from reading your ASP.NET view state encryption and validation keys even if they gain access to those web.config files.
+SharePoint can now encrypt the `machineKey` section of its `web.config` files by default. This prevents attackers from reading your ASP.NET view state encryption and validation keys even if they gain access to those `web.config` files.
 
-Second, we introduce the ability to change the ASP.NET view state decryption and validation keys of a SharePoint web application through 2 new PowerShell cmdlets. This allows you to rotate those keys in your farm.
+We have also introduced the ability to change the ASP.NET view state decryption and validation keys of a SharePoint web application through two new PowerShell cmdlets. This allows you to rotate those keys in your farm.
 
-NAME
-Set-SPMachineKey
+## PowerShell cmdlets
 
-SYNOPSIS
-Configures the ASP.NET view state decryption and validation keys of a web application.
+ 1. `Set-SPMachineKey`
+ 
+    Configures the ASP.NET view state decryption and validation keys of a web application.
 
-SYNTAX
-Set-SPMachineKey -WebApplication <SPWebApplicationPipeBind> [-DecryptionKey <String>] [-ValidationKey <String>] [-Local] [<CommonParameters>]
+    ### Syntax
+   
+    ```PowerShell
+    Set-SPMachineKey -WebApplication <SPWebApplicationPipeBind> [-DecryptionKey <String>] [-ValidationKey <String>] [-Local] [<CommonParameters>]
+    ```
 
-PARAMETERS
--WebApplication <SPWebApplicationPipeBind>
-Specifies the name, URL, or GUID of the Web application.
+    ### Parameters
+   
+    #### `-WebApplication <SPWebApplicationPipeBind>`
+   
+    Specifies the name, URL, or GUID of the Web application.
 
--DecryptionKey [<String>]
-Specifies the new ASP.NET view state decryption key. The key should be represented as a 64-character long hexadecimal string (0-9 and A-F).
+    #### `-DecryptionKey [<String>]`
+   
+    Specifies the new ASP.NET view state decryption key. The key should be represented as a 64-character long hexadecimal string (0-9 and A-F).
 
-If this parameter is not specified, a random decryption key will be generated and used.
+    If this parameter is not specified, a random decryption key is generated and used.
 
--ValidationKey [<String>]
-Specifies the new ASP.NET view state validation key. The key should be represented as a 64-character long hexadecimal string (0-9 and A-F).
+    #### `-ValidationKey [<String>]`
+   
+    Specifies the new ASP.NET view state validation key. The key should be represented as a 64-character long hexadecimal string (0-9 and A-F).
 
-If this parameter is not specified, a random decryption key will be generated and used.
+    If this parameter is not specified, a random decryption key is generated and used.
 
--Local
-Deploy the new decryption and validation keys only to the local server. Other servers in the farm will continue to use the previous decryption and validation keys. Web sessions that are load balanced across multiple servers in the farm will fail if these keys are not synchronized on every server in the farm. Use the Update-SPMachineKey cmdlet to deploy the keys to additional servers in the farm.
+    #### `-Local`
+   
+    Deploy the new decryption and validation keys only to the local server. Other servers in the farm continue to use the previous decryption and validation keys. Web sessions that are load balanced across multiple servers in the farm will fail if these keys are not synchronized on every server in the farm. Use the `Update-SPMachineKey` cmdlet to deploy the keys to additional servers in the farm.
 
-If this parameter is not specified, the new decryption and validation keys will be deployed to all servers in the farm.
+    If this parameter is not specified, the new decryption and validation keys is deployed to all servers in the farm.
+    
+ 2. `Update-SPMachineKey`
+ 
+    Deploys ASP.NET view state decryption and validation keys to servers in the farm.
 
-NAME
-Update-SPMachineKey
+    ### Syntax
+   
+    ```PowerShell
+    Update-SPMachineKey -WebApplication <SPWebApplicationPipeBind> [-Local] [<CommonParameters>]
+    ```
+    
+    ### Parameters
+    
+    #### `-WebApplication <SPWebApplicationPipeBind>`
+    
+    Specifies the name, URL, or GUID of the Web application.
 
-SYNOPSIS
-Deploys ASP.NET view state decryption and validation keys to servers in the farm.
+    #### `-Local`
+    
+    Deploy the new decryption and validation keys only to the local server. Other servers in the farm continue to use the previous decryption and validation keys. Web sessions that are load balanced across multiple servers in the farm will fail if these keys are not synchronized on every server in the farm.
 
-SYNTAX
-Update-SPMachineKey -WebApplication <SPWebApplicationPipeBind> [-Local] [<CommonParameters>]
-
-PARAMETERS
--WebApplication <SPWebApplicationPipeBind>
-Specifies the name, URL, or GUID of the Web application.
-
--Local Deploy the decryption and validation keys only to the local server. Other servers in the farm will continue to use the previous decryption and validation keys. Web sessions that are load balanced across multiple servers in the farm will fail if these keys are not synchronized on every server in the farm.
-
-If this parameter is not specified, the decryption and validation keys will be deployed to all servers in the farm.
+    If this parameter is not specified, the decryption and validation keys is deployed to all servers in the farm.
   
   
