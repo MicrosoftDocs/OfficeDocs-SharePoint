@@ -40,31 +40,37 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
 
 4. Use the options below to enable View in File Explorer using group policy or Intune:
 
-<details>
-    <summary><b>To enable using group policy</b></summary>
+    <details>
+        <summary><b>To enable using group policy</b></summary>
+    
+    1. Configure Microsoft Edge policy settings by following the steps at [Configure Microsoft Edge policy settings on Windows](/deployedge/configure-microsoft-edge).
 
-1. Configure Microsoft Edge policy settings by following the steps at [Configure Microsoft Edge policy settings on Windows](/deployedge/configure-microsoft-edge)
-2. Make sure you've downloaded the Microsoft Edge administrative template at [Download and deploy Microsoft Edge for business](https://www.microsoft.com/en-us/edge/business/download) or you may not see the policy listed.
-3. Once the template is downloaded, open the Group Policy Object Editor. Right-click **Administrative Templates** in the Computer Configuration or User Configuration node and select **Add/Remove Templates** and browse to the downloaded template.
-4. When applying the policy, ensure you update the domain to your tenant domain or use **sharepoint.com** if you plan on visiting multiple SharePoint tenants.
-5. Enabling the group policy may require a refresh of client group policy settings. After changing the group policy settings, refresh the settings. From a Command Prompt, enter **GPUpdate.exe /force**.
+    2. Make sure you've downloaded the Microsoft Edge administrative template at [Download and deploy Microsoft Edge for business](https://www.microsoft.com/en-us/edge/business/download) or you may not see the policy listed.
 
-    Example below with the Group Policy value:
-`[{"cookies": ["rtFa", "FedAuth"], "domain": "sharepoint.com"}]`
-    :::image type="content" source="media/edgepolicy-adeejoseph.png" alt-text="Enable Configure the View in File Explorer feature for SharePoint pages in Microsoft Edge":::
+    3. Once the template is downloaded, open the Group Policy Object Editor. Right-click **Administrative Templates** in the Computer Configuration or User Configuration node and select **Add/Remove Templates** and browse to the downloaded template.
 
-</details>
+    4. When applying the policy, ensure you update the domain to your tenant domain or use **sharepoint.com** if you plan on visiting multiple SharePoint tenants.
 
-<details>
-<summary><b>To enable using Intune</b></summary>
+    5. Enabling the group policy may require a refresh of client group policy settings. After changing the group policy settings, refresh the settings. From a Command Prompt, enter **GPUpdate.exe /force**.
+    
+        Example below with the Group Policy value:
 
-1. Configure Microsoft Edge policy settings by following the steps at  [Configure Microsoft Edge policy settings with Microsoft Intune](/deployedge/configure-edge-with-intune).
+        `[{"cookies": ["rtFa", "FedAuth"], "domain": "sharepoint.com"}]`
 
-</details>
+        :::image type="content" source="media/edgepolicy-adeejoseph.png" alt-text="Enable Configure the View in File Explorer feature for SharePoint pages in Microsoft Edge":::
+    
+    </details>
+    
+    <details>
+    <summary><b>To enable using Intune</b></summary>
+    
+    - Configure Microsoft Edge policy settings by following the steps at [Configure Microsoft Edge policy settings with Microsoft Intune](/deployedge/configure-edge-with-intune).
+    
+    </details>
 
 5. Verify the policy has been enabled by opening Microsoft Edge and navigating to Edge://policy/.
 
-    :::image type="content" source="media/microsoft-edge-policy.png" alt-text="Snapshot of Microsoft Edge Policies page ":::
+    :::image type="content" source="media/microsoft-edge-policy.png" lightbox="media/microsoft-edge-policy.png" alt-text="Snapshot of Microsoft Edge Policies page ":::
 
     > [!TIP]
     > You may need to close and re-open Microsoft Edge for the policy to appear.
@@ -73,54 +79,55 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
 
     1. Connect to SharePoint Online Management Shell by running:
 
-    ```PowerShell
-    Connect-SPOService -Url https://contoso-admin.sharepoint.com
-    ```
+        ```PowerShell
+        Connect-SPOService -Url https://contoso-admin.sharepoint.com
+        ```
 
     1. Run the following cmdlet to show the “View in File Explorer” menu option:
 
-    ```PowerShell
-    Set-SPOTenant -ViewInFileExplorerEnabled $True
-    ```
-
-    > [!NOTE]
-    > Ensure the management shell version is 16.0.21610.12000 or higher or the ViewInFileExplorerEnabled option will not be available.
+        ```PowerShell
+        Set-SPOTenant -ViewInFileExplorerEnabled $True
+        ```
+    
+        > [!NOTE]
+        > Ensure the management shell version is 16.0.21610.12000 or higher or the ViewInFileExplorerEnabled option will not be available.
 
 7. **(Strongly Recommended)** Next, as a tenant administrator, update your SharePoint Online tenant configuration via SharePoint Online Management Shell to allow persisted cookies for View with Explorer.
 
- 1. Run the following cmdlet to enable persistent cookies.
+1. Run the following cmdlet to enable persistent cookies.
 
     ```PowerShell
     Set-SPOTenant -UsePersistentCookiesForExplorerView $true
     ```
 
     You can locate the View in Explorer button by navigating to the **Library** >  Select the **Library View Menu** on the right-hand side > Select **View In File Explorer**.
+
     :::image type="content" source="media/view-in-file-explorer.png" alt-text="Menu for View in File Explorer":::
 
     > [!NOTE]
     > Once the tenant setting has been enabled, it may take up to 15 minutes for the View in Explorer button to appear in the SharePoint interface.
 
-    ### Troubleshooting
-    
-    **How can I confirm that the ConfigureViewInFileExplorer policy has been applied?**
-    
-    You can verify that the policy has been applied by navigating to **edge://policy**.
-    
-    **The error message *This policy is blocked - its value will be ignored* appeared while checking to see if the policy was applied via edge://policy. What's wrong?**
-    
-    This error will occur when you attempt to apply this policy to a non-domain joined device. Currently, the ConfigureViewInFileExplorer policy can only be applied to Windows instances that are joined to a Microsoft Active Directory domain, Windows 10 Pro, or Enterprise instances enrolled for device management.
-    
-    :::image type="content" source="media/edge-error.png" alt-text="User interface of the This policy is blocked - its value will be ignored. error message.":::
-    
-    **What happens if I have the policy applied without the tenant setting enabled?**
-    
-    If you don't enable ViewInFileExplorerEnabled via [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps), the View in File Explorer button will not appear in the interface of the SharePoint site.
-    
-    **What happens if the tenant setting is enabled without the Edge policy applied?**
-    
-    If you have enabled ViewInFileExplorerEnabled, you may see the View In File Explorer button appear in your SharePoint library, however, clicking the button will result in a blank screen.
-    
-    :::image type="content" source="media/edgepolicy-blank-screen.png" alt-text="Blank screen that appears when the tenant setting is enabled without the policy applied.":::
+### Troubleshooting
+
+**How can I confirm that the ConfigureViewInFileExplorer policy has been applied?**
+
+You can verify that the policy has been applied by navigating to **edge://policy**.
+
+**The error message *This policy is blocked - its value will be ignored* appeared while checking to see if the policy was applied via edge://policy. What's wrong?**
+
+This error will occur when you attempt to apply this policy to a non-domain joined device. Currently, the ConfigureViewInFileExplorer policy can only be applied to Windows instances that are joined to a Microsoft Active Directory domain, Windows 10 Pro, or Enterprise instances enrolled for device management.
+
+:::image type="content" source="media/edge-error.png" lightbox="media/edge-error.png" alt-text="User interface of the 'This policy is blocked - its value will be ignored' error message.":::
+
+**What happens if I have the policy applied without the tenant setting enabled?**
+
+If you don't enable ViewInFileExplorerEnabled via [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps), the View in File Explorer button will not appear in the interface of the SharePoint site.
+
+**What happens if the tenant setting is enabled without the Edge policy applied?**
+
+If you have enabled ViewInFileExplorerEnabled, you may see the View In File Explorer button appear in your SharePoint library, however, clicking the button will result in a blank screen.
+
+:::image type="content" source="media/edgepolicy-blank-screen.png" alt-text="Blank screen that appears when the tenant setting is enabled without the policy applied.":::
     
 ## Learn More
 
