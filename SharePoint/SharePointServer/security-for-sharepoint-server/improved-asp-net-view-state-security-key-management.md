@@ -12,7 +12,7 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5cdce2aa-fa6e-4888-a34f-de61713f5096
-description: "Learn how to setup improved ASP.NET view state security and key management"
+description: "Learn how to set up improved ASP.NET view state security and key management"
 ---
 
 # Improved ASP.NET view state security and key management
