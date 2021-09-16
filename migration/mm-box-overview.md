@@ -21,10 +21,6 @@ description: Overview of migration from Box to Microsoft 365 using Migration Man
 
 # Migrate Box to Microsoft 365 with Migration Manager
 
->[!Note]
->Migration Manager is fully HIPAA compliant, including migrations from file shares and other cloud providers.  It is under the Business Associate Agreement (BAA) and satisfies HIPAA regulations. 
->
->This applies to all except preview releases of Migration Manager.
 
 >[!Note]
 >This release currently supports the migration of up to approximately 10,000 Box accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
