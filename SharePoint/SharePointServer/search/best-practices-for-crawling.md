@@ -206,7 +206,7 @@ For more information, see the following articles:
     
 - [Manage search components in SharePoint Server](manage-search-components.md)
     
-- [New-SPEnterpriseSearchCrawlComponent](/powershell/module/sharepoint-server/New-SPEnterpriseSearchCrawlComponent?view=sharepoint-ps)
+- [New-SPEnterpriseSearchCrawlComponent](/powershell/module/sharepoint-server/New-SPEnterpriseSearchCrawlComponent?view=sharepoint-ps&preserve-view=true)
     
 ## Manage environment resources to improve crawl performance
 <a name="BKMK_ManageEnvironment"> </a>

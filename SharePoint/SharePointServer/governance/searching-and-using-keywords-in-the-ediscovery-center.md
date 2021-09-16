@@ -78,9 +78,9 @@ Wildcards can help you expand your keywords to include terms that contain part o
 - Operators (for example, Boolean operators) - such as **OR** and **AND** — should be written as all uppercase. 
     
 - If a property of SharePoint content is not listed in the **Specify Property** dropdown menu, you can search for it with keywords. Enclose a property value in quotation marks to find an exact match, or leave the value unquoted to find partial matches that begin with the letters typed. For example, if you look for filename:"Budget" (with quotation marks), your search will return a file named "Budget.xlsx." A search for filename:budget (without quotation marks) will also return the files "Budget_Current.xlsx" and "Budget_Next.xlsx." 
-    
--     > [!NOTE]
-    >  A query must include a term to find. Queries that consist only of terms to exclude will produce an error message. 
+
+> [!NOTE]
+>  A query must include a term to find. Queries that consist only of terms to exclude will produce an error message. 
   
 ## Examples for applying rules
 <a name="__top"> </a>

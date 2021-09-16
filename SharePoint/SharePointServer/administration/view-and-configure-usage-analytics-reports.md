@@ -98,7 +98,7 @@ The **Ever** time period shows statistics from the first day a usage event was r
   $event
   ```
 
-     `<EventTypeId>` is the numeric [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) of the usage event that you want to view. In the following example, we'll view the  *Views*  event. Therefore, we'll enter  *1*  . 
+`<EventTypeId>` is the numeric [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) of the usage event that you want to view. In the following example, we'll view the  *Views*  event. Therefore, we'll enter  *1*  . 
     
      ![Default Recent Popularity Time Frame](../media/OTCSP_DefaultRecentPopularityTimeFrame.png)
   
@@ -114,7 +114,7 @@ The **Recent** time period is defined by the  *RecentPopularityTimeframe*  prope
   $tenantConfig.Update($SSP)
   ```
 
-     `<EventTypeId>` is the numeric [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) of the usage event that we want to change.  `<TimeFrame>` is the new time period we want to set for the usage event. 
+`<EventTypeId>` is the numeric [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) of the usage event that we want to change.  `<TimeFrame>` is the new time period we want to set for the usage event. 
     
     In the following example, to change the  *Views* **Recent** time to a week, enter  *1*  and  *7*  . 
     
@@ -126,7 +126,7 @@ The **Recent** time period is defined by the  *RecentPopularityTimeframe*  prope
   $event
   ```
 
-     ![Recent Popluarity Set to 7](../media/OTCSP_RecentPopularitySetTo7.png)
+![Recent Popluarity Set to 7](../media/OTCSP_RecentPopularitySetTo7.png)
   
 Notice that the value for the  *RecentPopularityTimeframe*  parameter has changed to  *7*  . 
     
@@ -212,9 +212,9 @@ If you want the usage analytics reports to be updated regardless of minimum amou
   $tenantConfig.Update($SSP)
   ```
 
-    Where < `EventTypeId`> is the numeric [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) of the usage event that you want to change, and <  `TailTrimming`> is the minimum number of times the usage event has to occur within 24 hours for the usage analytics reports to be updated.
+Where < `EventTypeId`> is the numeric [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) of the usage event that you want to change, and <  `TailTrimming`> is the minimum number of times the usage event has to occur within 24 hours for the usage analytics reports to be updated.
     
-    In the following example, we wanted the usage analytics reports for the  *Views*  usage event to be updated if a  *Views*  usage event occurs within 24 hours. Therefore, we entered  *1*  and  *0*  . 
+In the following example, we wanted the usage analytics reports for the  *Views*  usage event to be updated if a  *Views*  usage event occurs within 24 hours. Therefore, we entered  *1*  and  *0*  . 
     
      ![Change tail trimming](../media/OTCSP_ChangeTailTrimming.png)
   
@@ -224,7 +224,7 @@ If you want the usage analytics reports to be updated regardless of minimum amou
   $event
   ```
 
-     ![Tail Trimming Changed](../media/OTCSP_TailTrimmingChanged.png)
+![Tail Trimming Changed](../media/OTCSP_TailTrimmingChanged.png)
   
 Notice that the value of the  *TailTrimming*  parameter has changed to 0. 
     

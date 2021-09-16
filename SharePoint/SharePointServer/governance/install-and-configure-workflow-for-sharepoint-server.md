@@ -74,7 +74,7 @@ You must consider the following two key factors before configuring Workflow Mana
     
 These factors translate into four scenarios. Each scenario configures a SharePoint Server farm to communicate and function with the Workflow Manager farm. Follow the scenario that matches your circumstance.
   
-|||
+|Serial Number and Description|Serial Number and Description|
 |:-----|:-----|
 |1: Workflow Manager is installed on a server that is part of the SharePoint Server farm. Communication takes place by using HTTP.  <br/> |2: Workflow Manager is installed on a server that is part of the SharePoint Server farm. Communication takes place by using HTTPS.  <br/> |
 |3: Workflow Manager is installed on a server that is NOT part of the SharePoint Server farm. Communication takes place by using HTTP.  <br/> |4: Workflow Manager is installed on a server that is NOT part of the SharePoint Server farm. Communication takes place by using HTTPS.  <br/> |

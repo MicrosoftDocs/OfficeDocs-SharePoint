@@ -31,7 +31,7 @@ Learn about [Manage apps using the App Catalog for SharePoint in Microsoft 365](
     
 - You must be a member of the Farm Administrators group to perform the steps in this article. For some steps, you must also be a domain administrator.
     
-- If you have a multi-tenant environment, you need to do some steps by using Microsoft PowerShell. Make sure you have [permissions to administer SharePoint Server using Windows PowerShell](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+- If you have a multi-tenant environment, you need to do some steps by using Microsoft PowerShell. Make sure you have [permissions to administer SharePoint Server using Windows PowerShell](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
     
 ## Configure the domain names in DNS
 <a name="CreateAppDomain"> </a>
@@ -135,7 +135,7 @@ Apps rely on the App Management and Microsoft SharePoint Foundation Subscription
     
 2. For the **Microsoft SharePoint Foundation Subscription Settings Service**, click **Enable Auto Provision**
     
-Next, create a Subscription Settings service application and proxy. These must be created by using Microsoft PowerShell. Use the example script provided at [New-SPSubscriptionSettingsServiceApplication](/powershell/module/sharepoint-server/New-SPSubscriptionSettingsServiceApplication?view=sharepoint-ps).
+Next, create a Subscription Settings service application and proxy. These must be created by using Microsoft PowerShell. Use the example script provided at [New-SPSubscriptionSettingsServiceApplication](/powershell/module/sharepoint-server/New-SPSubscriptionSettingsServiceApplication?view=sharepoint-ps&preserve-view=true).
   
 You also need an App Management service application. The following procedures provide the steps to configure it.
   
@@ -224,7 +224,7 @@ The SharePoint Store contains apps for SharePoint intended for use with sites th
     
 In some cases, for example, when you have an on-premises SharePoint Server farm where updates are installed infrequently, you will need to run a cmdlet to update the URL used to point to the SharePoint Store:
 
-    Set-SPAppStoreConfiguration -Url http://office.microsoft.com -Enable $true
+`Set-SPAppStoreConfiguration -Url http://office.microsoft.com -Enable $true`
   
 ## See also
 <a name="ConfigureAppURLs"> </a>

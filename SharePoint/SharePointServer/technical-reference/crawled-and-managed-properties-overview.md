@@ -29,9 +29,9 @@ The following table lists the default managed properties and their attributes. F
 
 ### Managed properties in SharePoint Server 2013 through 2019
   
-|||||||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+
 |**Property name**  |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |AboutMe   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:AboutMe, ows_Notes   ||
 |Account   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_Name   ||
 |AccountName   |Text   |No   |Yes   |Yes   |Yes   |No   |No   |People:AccountName   ||
@@ -608,9 +608,8 @@ The following table lists the default managed properties and their attributes. F
 ### Managed Properties Added in SharePoint Server 2016
 <a name="mp2016"></a>
 
-|||||||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |**Property name**  |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |AADObjectID   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:AboutMe, ows_Notes   ||
 |AnalyticsPath |Text   |No   |Yes  |No |Yes  |No  |No  |People:msOnline-ObjectId||
 |ChannelVersion |Text |No|No|No|Yes|No|No|ows_ChannelVersion||
@@ -678,9 +677,8 @@ The following table lists the default managed properties and their attributes. F
 ### Managed Properties Added in SharePoint Server 2019
 <a name="mp2019"></a>
 
-|||||||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |**Property name**  |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |AppVersion   |Text   |No   |No   |No   |Yes   |No   |No   |ows_AppVersion  ||
 |AutoTagClassificationId|Text|No|Yes|No|Yes|Yes|No|||
 |ClassificationContext|Text|Yes|No|No|Yes|No|No|||

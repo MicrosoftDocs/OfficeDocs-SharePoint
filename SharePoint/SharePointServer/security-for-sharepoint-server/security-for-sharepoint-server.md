@@ -24,7 +24,7 @@ description: "Find resources about security, including planning for authenticati
   
 The following article provides information about authentication planning in SharePoint Server.
   
-||**Content**|**Description**|
+|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol support in SharePoint Server](secure-sockets-layer-ssl-and-transport-layer-security-tls-protocol-support-in-sh.md) <br/> |Describes the versions of the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols that SharePoint Server 2016 supports.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2016](enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016.md) <br/> |Describes how to enable Transport Layer Security (TLS) protocol versions 1.1 and 1.2 in a SharePoint Server 2016 environment. SharePoint Server 2016 fully supports TLS 1.1 and TLS 1.2.  <br/> |
