@@ -36,6 +36,7 @@ This article is a resource where you can find prerequisites and endpoint informa
 |Network card|1 Gbps|High-speed internet connection|
 |Operating system|Windows Server 2012 R2 or higher </br>Windows 10 agent|Windows Server 2012 R2 or higher </br>Windows 10 agent|
 |Anti-virus|Anti-virus software on your computer can slow down the migration speed. Evaluate and consider the risk of turning off your organization's antivirus software. |
+|SMB 2.0|For file share migration, the server hosting the source data must support SMB 2.0 or higher
 
 
 </br></br>
