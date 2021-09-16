@@ -100,7 +100,7 @@ The **Ever** time period shows statistics from the first day a usage event was r
 
 `<EventTypeId>` is the numeric [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) of the usage event that you want to view. In the following example, we'll view the  *Views*  event. Therefore, we'll enter  *1*  . 
     
-     ![Default Recent Popularity Time Frame](../media/OTCSP_DefaultRecentPopularityTimeFrame.png)
+![Default Recent Popularity Time Frame](../media/OTCSP_DefaultRecentPopularityTimeFrame.png)
   
 The **Recent** time period is defined by the  *RecentPopularityTimeframe*  property. We can change the **Recent** time period to anything between one and 14 days. Here are the steps to change the time period: 
     
@@ -116,9 +116,9 @@ The **Recent** time period is defined by the  *RecentPopularityTimeframe*  prope
 
 `<EventTypeId>` is the numeric [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) of the usage event that we want to change.  `<TimeFrame>` is the new time period we want to set for the usage event. 
     
-    In the following example, to change the  *Views* **Recent** time to a week, enter  *1*  and  *7*  . 
+In the following example, to change the  *Views* **Recent** time to a week, enter  *1*  and  *7*  . 
     
-     ![Set Recent to 7](../media/OTCSP_SetRecentTo7.png)
+![Set Recent to 7](../media/OTCSP_SetRecentTo7.png)
   
 4. To verify the change, at the Microsoft PowerShell command prompt, type the following command:
     
@@ -216,7 +216,7 @@ Where < `EventTypeId`> is the numeric [View the usage event definitions](an-intr
     
 In the following example, we wanted the usage analytics reports for the  *Views*  usage event to be updated if a  *Views*  usage event occurs within 24 hours. Therefore, we entered  *1*  and  *0*  . 
     
-     ![Change tail trimming](../media/OTCSP_ChangeTailTrimming.png)
+![Change tail trimming](../media/OTCSP_ChangeTailTrimming.png)
   
 2. To verify the change, at the Microsoft PowerShell command prompt, type the following command:
     
