@@ -26,22 +26,23 @@ description: "Step 2:  Scan and assess file shares using Migration Manager."
 File shares are scanned automatically once you add a source. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
 
 >[!Note]
->Two additional endpoints are required for the Scan feature. If you are not able to scan, check this list to make sure you have enabled these endpoints. [Required endpoints](https://docs.microsoft.com/sharepointmigration/mm-prerequisites#required-endpoints)
+>Two additional endpoints are required for the Scan feature. If you are not able to scan, check this list to make sure you have enabled these endpoints: [Required endpoints](https://docs.microsoft.com/sharepointmigration/mm-prerequisites#required-endpoints).
 
 A table summary appears at the top to give you an at-a-glance overview of your users and content size.
 
-![file share scan summary ](media/mm-fileshare-scan-data-table-summary.png)
+:::image type="content" alt-text="File share scan summary." source="media/mm-fileshare-scan-data-table-summary.png":::
 
 ## Reviewing the scan results
 
 1. Select **Add source path**
 
-![add sourcepath task](media/mm-fileshare-add-sourcepath-task.png)
+    :::image type="content" alt-text="Add sourcepath task." source="media/mm-fileshare-add-sourcepath-task.png":::
 
 2. Review the scanned file shares. Search for specific text, or select a filter to review the list more easily.
+
 1. Select **Add source path** if you want to scan additional file shares.
 
-![fileshare scan list](media/mm-fileshare-scan-list.png)
+    :::image type="content" alt-text="Fileshare scan list." source="media/mm-fileshare-scan-list.png":::
 
 ## Download summary report and scan log
 
