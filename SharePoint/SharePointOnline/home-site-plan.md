@@ -94,6 +94,7 @@ Before you get started planning and building your home site, review best practic
 #### Considerations:
 -	Align the branding on the home site to the overall intranet brand 
 -	For organizations with many portals and resources, consider [making your home site a hub site](/sharepoint/planning-hub-sites) to expand navigational options and easily sync permissions and branding across many sites
+- If the site you want to be your home site isn't currently your root site and you want it to be, first [replace your root site with the site](modern-root-site.md), and then make the site your home site
 -	Use a home site template from the SharePoint look book called [The Landing](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) to jump-start the design process
 
 
