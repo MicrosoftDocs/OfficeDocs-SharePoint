@@ -128,7 +128,11 @@ If you don't enable ViewInFileExplorerEnabled via [Set-SPOTenant](/powershell/mo
 If you have enabled ViewInFileExplorerEnabled, you may see the View In File Explorer button appear in your SharePoint library, however, clicking the button will result in a blank screen.
 
 :::image type="content" source="media/edgepolicy-blank-screen.png" alt-text="Blank screen that appears when the tenant setting is enabled without the policy applied.":::
-    
+
+**When running Set-SPOTenant -ViewInFileExplorerEnabled $True I received the error "The requested operation is part of an experimental feature that is not supported in the current environment". What's wrong?**
+
+You may receive this error if this functionality is not supported in your current environment. We are still rolling out functionality to all Production environments and will update this article once worldwide rollout has been completed.
+
 ## Learn More
 
 - [Sync SharePoint and Team files with your computer](https://support.microsoft.com/en-us/office/sync-sharepoint-and-teams-files-with-your-computer-6de9ede8-5b6e-4503-80b2-6190f3354a88)
