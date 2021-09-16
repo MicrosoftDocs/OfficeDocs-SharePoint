@@ -41,7 +41,7 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
 4. Use the options below to enable View in File Explorer using group policy or Intune:
 
     <details>
-        <summary><b>To enable using group policy</b></summary>
+        <summary><b>To enable by using group policy</b></summary>
     
     1. Configure Microsoft Edge policy settings by following the steps at [Configure Microsoft Edge policy settings on Windows](/deployedge/configure-microsoft-edge).
 
@@ -62,7 +62,7 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
     </details>
     
     <details>
-    <summary><b>To enable using Intune</b></summary>
+    <summary><b>To enable by using Intune</b></summary>
     
     - Configure Microsoft Edge policy settings by following the steps at [Configure Microsoft Edge policy settings with Microsoft Intune](/deployedge/configure-edge-with-intune).
     
@@ -70,7 +70,7 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
 
 5. Verify the policy has been enabled by opening Microsoft Edge and navigating to Edge://policy/.
 
-    :::image type="content" source="media/microsoft-edge-policy.png" lightbox="media/microsoft-edge-policy.png" alt-text="Snapshot of Microsoft Edge Policies page ":::
+    :::image type="content" source="media/microsoft-edge-policy.png" alt-text="Snapshot of Microsoft Edge Policies page ":::
 
     > [!TIP]
     > You may need to close and re-open Microsoft Edge for the policy to appear.
