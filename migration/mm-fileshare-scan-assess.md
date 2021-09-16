@@ -26,7 +26,7 @@ description: "Step 2:  Scan and assess file shares using Migration Manager."
 File shares are scanned automatically once you add a source. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
 
 >[!Note]
->Two additional endpoints are required for the Scan feature. If you are not able to scan, check this list to make sure you have enabled these endpoints. [Required endpoints](./sharepointmigration/mm-prerequisites#required-endpoints)
+>Two additional endpoints are required for the Scan feature. If you are not able to scan, check this list to make sure you have enabled these endpoints. [Required endpoints](https://docs.microsoft.com/sharepointmigration/mm-prerequisites#required-endpoints)
 
 A table summary appears at the top to give you an at-a-glance overview of your users and content size.
 
