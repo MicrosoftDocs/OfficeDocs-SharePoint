@@ -66,7 +66,7 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 
 ## Then, customize the app settings
 
-1. Optionally (but highly recommended) use Teams app set up policy to pre-install and pre-pin the app for users on the Teams app bar on desktop and mobile. [Learn more about Teams app set up policies](/MicrosoftTeams/teams-app-setup-policies).
+1. Optionally (but highly recommended) use Teams app setup policy to pre-install and pre-pin the app for users on the Teams app bar on desktop and mobile. [Learn more about Teams app set up policies](/MicrosoftTeams/teams-app-setup-policies).
 
 2. Optionally (but highly recommended) set app permissions policies to determine which users have access to the app. [Learn more about Teams permission policies](/microsoftteams/teams-app-permission-policies).
 
