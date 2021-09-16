@@ -50,17 +50,15 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 
 2. From the **Customize** panel, update the attributes under details. 
 
-- The **Short name** will be the display name of the Viva Connections app in your tenant.  In this example, it is “Relecloud”. 
+The **Short name** will be the display name of the Viva Connections app in your tenant.  In this example, it is “Relecloud”. 
 
-![Image of the app customization panel for the app logo](media/viva-app-customize-logo.png)
+> ![Image of the app customization panel for the app logo](media/viva-app-customize-logo.png)
 
-3. Next, select **Icon** at the bottom of the **Customize** panel:
+3. Next, select **Icon** at the bottom of the **Customize** panel.
 
-> - Upload a full color icon 192x192px
-> - Also upload a transparent outline icon 32x32px
-> - Optionally, select an accent color that will be applied on card elements in the app on Teams mobile
+4.  Upload a full color icon 192x192px and also upload a transparent outline icon 32x32px. Optionally, select an accent color that will be applied on card elements in the app on Teams mobile
  
-4. Select **Apply** when you are done.
+5. Select **Apply** when you are done.
 
 
 
