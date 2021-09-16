@@ -56,9 +56,9 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 
 3. Next, select **Icon** at the bottom of the **Customize** panel:
 
-- Upload a full color icon 192x192px
-- Also upload a transparent outline icon 32x32px
-- Optionally, select an accent color that will be applied on card elements in the app on Teams mobile
+>- Upload a full color icon 192x192px
+>- Also upload a transparent outline icon 32x32px
+>- Optionally, select an accent color that will be applied on card elements in the app on Teams mobile
  
 4. Select **Apply** when you are done.
 
