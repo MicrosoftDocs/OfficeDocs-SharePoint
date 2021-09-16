@@ -31,7 +31,6 @@ Learn how to:
 
 - [Bulk upload using a CSV file](#use-a-csv-file-for-bulk-upload)
 - [Bulk upload using a JSON file](#use-a-json-file-for-bulk-upload)
-- [**Preview:** Define hub site structure using bulk upload](#hub-site-restructure-using-bulk-upload)
 - [Proxy settings and limitations](#proxy-connections)
   
 ## Use a CSV file for bulk upload
@@ -134,49 +133,6 @@ As with a CSV file, the minimum required values are *Source*, *Source DocLib*, *
   ]
 }
 ```
-
-## Hub site restructure using bulk upload
- 
->[!Important]
-> The site restructure feature described in the following section is part of a preview release. The content and the functionality may change and are not subject to the standard SLAs for support. 
-
-When migrating your content, you may want to take advantage of a Modern feature in Microsoft 365, SharePoint Hub sites. Using the bulk upload method, you can now indicate if your destination site is to be a hub site, or if you would like it associated with an existing hub site.
-
-> [!TIP]
->Want to learn more about SharePoint hub sites? See [Planning your SharePoint hub sites](/sharepoint/planning-hub-sites).
-
-</br>
-
-**Before you begin**
-
-A few important guidelines:
-
-- Plan your strategy, and make a note of your existing (if any) SharePoint hub sites.
-- Check your existing hub site URLs to make sure they are valid.
-- If you want to designate your destination site as a hub, remember you can't associate it with a hub. At this time nested hub sites aren't supported.
-- You can't override existing hub site settings during migration. 
-- Include all eight columns in your file even if the value is blank.
-- Do not use column headings in your file.
-
-</br>
-
-**Columns for site restructure**
-
-The format is similar to regular bulk upload files, except there are two additional columns required. Include all eight columns. Do not use column headings.
-  
-|Column content|Description|
-|:-----|:-----|
-|Source | *Required*. Enter on-premises SharePoint Server site URL. |
-|Source DocLib | *Optional*. Enter the name of the SharePoint Server document library that you're migrating. If you leave this field empty, all document libraries will be migrated. |
-|Source SubFolder | *Optional*. Enter the name of the subfolder in the document library. If this column is left empty, the migration starts from the root. If there's a value in this column, the migration starts from the subfolder. This column is used only for SharePoint Server sites. |
-|Target Web | *Required*. Enter the SharePoint site URL where the files are migrating to. |
-|Target DocLib | *Required*. Enter the name of the document library with the SharePoint site where the files are migrating to. |
-|Target SubFolder | *Optional*. Enter the name of the subfolder in the document library. If this column is left empty, the files will be moved to the root level. |
-|RegisterAsHubSite|Indicate if you want the destination site to be a hub site. Enter **YES** or **NO**. If you say **YES**, do not put a value in the *AssociateWithHubURL* column. Nested hub sites are not supported.|
-|AssociateWithHubURL|Enter the URL of an existing hub site you want to associate your destination site with. You cannot have a **YES** value in the *RegisterAsHubSite* column if you have a value here. Nested hub sites are not supported.|
-
-
-
 
 
 ## Proxy connections
