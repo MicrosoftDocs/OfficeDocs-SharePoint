@@ -37,8 +37,6 @@ Once in **edit** mode, perform the following steps:
 
 1. Hover your mouse around the section within which you want to place the web part, and select the **circled +**.
 
-:::image type="content" source="media/selecting-spot-for-Dashboard-web-part.png" alt-text="The screen displaying the option that allows you to determine the spot at which the web part will be placed":::
-
 2. In the web part search box, enter **Dashboard** to quickly find and select the **Dashboard (Preview) for Viva Connections** web part.
 
 :::image type="content" source="media/searching-selecting-web-part.png" alt-text="The screen on which you can search for a web part and select it once displayed":::
@@ -53,11 +51,9 @@ The web part will be added to your page where it is populated with the cards fro
 
 4. To move the web part, select the **Move web part** icon and drag the web part to a different section or column on the page.
 
-:::image type="content" source="media/changing-location-of-web-part.png" alt-text="The screen displaying the option that allows you to move the web part to another location":::
 
 5. To set the value for maximum number of cards to display on the web part, select the **Edit web part** pencil icon.
 
-:::image type="content" source="media/editing-web-part.png" alt-text="The screen displaying the option that allows you to edit a web part":::
 
 6. Use the slider to indicate the maximum number of cards to display.
 
@@ -68,7 +64,6 @@ The web part will be added to your page where it is populated with the cards fro
 
 7. Once the card-count threshold is set, select **Publish** or **Republish** to make the page available with your newly placed Dashboard web part.
 
-:::image type="content" source="media/republishing.png" alt-text="The screen displaying the republish option":::
 
 
 ## Additional information
