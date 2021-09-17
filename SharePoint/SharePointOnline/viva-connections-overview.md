@@ -16,14 +16,13 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to set up and deploy Viva Connections on desktop and mobile devices"
 ---
 
 # Overview: Viva Connections (Preview)
 
 > [!NOTE]
-> - Information in this article relates to the updraded Viva Connections app that is in preview. Viva Connections includes *both the desktop and mobile experiences*. It may be modified before it's generally available for all customers.
+> - Information in this article relates to the upgraded Viva Connections app that is in preview. Viva Connections includes *both the desktop and mobile experiences*. It may be modified before it's generally available for all customers.
 > - Earlier this year, Viva Connections desktop was released (formerly known as the Home site app.) The Viva Connections desktop app is a custom line of business app for Microsoft Teams and is built using PowerShell provided by Microsoft. The Viva Connections desktop app includes the desktop experience *only*. [Learn more about Viva Connections desktop](/SharePoint/SharePointOnline/viva-connections.md).
 
 
@@ -124,7 +123,7 @@ A dashboard is made of medium-sized and large-sized cards which users can intera
 
 A card can also reflect dynamic content that refreshes based on a user action or other event. For example, users can see new tasks assigned to them when they open the dashboard. As the users mark the tasks as **complete**, the card updates to reflect their new number of tasks.
 
-![Animated GIF displaying how to interact with the dashboard](media/new-vc-dashboard-interaction-2.gif)
+![Animated GIF displaying how to interact with the dashboard](media/new-vc-dashboard-interaction.gif)
 
 The dashboard experience has been designed to be consistent across mobile platform and desktop, but there are some differences:
 
@@ -210,7 +209,7 @@ This is a basic summary of the steps to deploy Viva Connections.
 
 | Public preview known issues  | Target release                 | 
 | :------------------- | :------------------- |
-| [SPFx] Isolated components do not support vanity domain (web/desktop/mobile)  | November | 
+| [SPFx] Isolated components are not currently supported  | November | 
 | [Feed] Social reactions/comments still enabled but not functional (when disabled)  | December    | 
 | [Mobile] App acquisition flow. Workaround is to install missing app from desktop| December     | 
 
