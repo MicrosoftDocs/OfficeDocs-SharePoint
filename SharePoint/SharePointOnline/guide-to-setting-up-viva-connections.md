@@ -43,15 +43,6 @@ Prepare your intranet by ensuring intranet content and the flow of information i
 
 While working to prepare your intranet, align with stakeholders to define top scenarios that can be supported through Viva Connections. Focus on tasks and scenarios that can be easily completed on a mobile device. Organize the Viva Connections dashboard around these key scenarios. After you launch your first iteration of Viva Connections, you can always add new scenarios and content as you gather insights from user feedback and usage analytics. Audit, modernize, and prioritize content related to your Viva Connection scenarios.
 
-**Popular scenarios that can be supported by Viva Connections include:** 
-<br>
-<br>
-
-
-| General tasks    | Tasks for information workers   | Tasks for front line workers  |
-| :------------------- | :------------------- |:----------------|
-| - View pay and benefits <br> - Submit a ticket to the help desk <br> - Access lunch and café options <br> - Catch up on news and announcements | - Find people and team information <br> - Complete required training <br> - View company holidays | - View and manage shifts <br> - Access time sheets and popular forms <br> - View workplace policies and resources|
-
 
 ### Get started
 1.  **Prepare home site and global navigation design -** To ensure that your navigational design is a success, review best practices on how to design and set up your [SharePoint information architecture](information-architecture-modern-experience.md).
@@ -109,12 +100,22 @@ SharePoint app bar elements will display in Microsoft Teams (the access point is
 
 ## Step 4: Create your Dashboard, add cards, and apply audience targeting in SharePoint
 
-   ![image of the dashabord and how to add a card](media/vc-add-card-2.png)
 
 The Dashboard brings it all together – it provides a personalized landing experience and is designed to be the central destination where everyone can discover your organization's resources and complete daily tasks. Apply audience targeting to dashboard cards to give your users an experience tailored to their role and interests. Once you set up the Dashboard, you will be able to use the [Dashboard web part on the home site](/SharePoint/use-dashboard-web-part-on-home-site). 
 
 > [!NOTE]
 > The ability to create a Dashboard is only available from the home site.
+
+**Popular scenarios that can be supported by Viva Connections include:** 
+<br>
+<br>
+
+
+| General tasks    | Tasks for information workers   | Tasks for front line workers  |
+| :------------------- | :------------------- |:----------------|
+| - View pay and benefits <br> - Submit a ticket to the help desk <br> - Access lunch and café options <br> - Catch up on news and announcements | - Find people and team information <br> - Complete required training <br> - View company holidays | - View and manage shifts <br> - Access time sheets and popular forms <br> - View workplace policies and resources|
+
+
 
 ### Get started
 1.  Learn how to [author your Dashboard, add cards, and apply audience targeting](/SharePoint/create-dashboard).
@@ -166,14 +167,14 @@ If you are not already using SharePoint news or Yammer, learn how to use them by
 
 
 
-## Step 6: Add the Viva Connections app in the Microsoft Teams admin center
+## Step 6: Enable the Viva Connections app in the Microsoft Teams admin center
 
 After you have prepared your intranet for Viva Connections in SharePoint, you are ready to add the Viva Connections app in the Microsoft Teams Admin Center. Add the Viva Connections app, and then customize app settings to add your organization's logo, pre-install, and pre-pin the app for end users.
 
 ### Get started
 1. [Add the Viva Connections app](/SharePoint/add-viva-connections-app) in the Teams admin center 
 2. Then customize app settings like the app name and logo and decide user policies
-3. Finally, make the app avaiable to end users
+3. Finally, make the app available to end users
 
 
 ### Permissions
@@ -186,14 +187,13 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 
 | Viva Connections Dashboard on a mobile device                  |                 | 
 | :------------------- | :------------------- |
-| ![image of the Viva Connections mobile app](media/viva-dashboard-mobile.png)  | The Viva Connections app creates a custom app in Microsoft Teams that fits the needs of your organization. Your organization’s custom app will appear as a branded company app in the Microsoft Teams app center. Once the app is added, your organization’s icon will appear in the Teams app bar in the desktop and mobile Microsoft Teams experience. | 
+| ![image of the Viva Connections mobile app](media/viva-dashboard-mobile.png)  | The Viva Connections app creates a custom app in Microsoft Teams that fits the needs of your organization. Your organization’s custom app will appear as a branded company app in the Microsoft Teams app center. Once the app is added, your organization’s icon will appear in the Teams app bar in the desktop and mobile Microsoft Teams experience. Users won’t see the app by default if you don’t pre-install and pre-pin.
 
 > [!NOTE]
 > - A Dashboard is required to customize settings for the mobile app.
-> - Soon, you will be able to disable the Feed and Resources in the mobile experience.
 
 ### Get started
-1.	If you have pre-pinned the app for your users with Teams app setup policies in step #6, then the app will automatically appear in users’ Teams mobile client apps on iOS and Android.
+1.	If you have pre-pinned the app for your users with Teams app set up policies in step #6, then the app will automatically appear in users’ Teams mobile client apps on iOS and Android.
 2.	If you have not pinned the app via policy, then users will first need to search for and install Viva Connections from the Teams desktop application. [Learn more about Viva Connections mobile settings.](https://support.microsoft.com/office/choose-settings-for-the-viva-connections-mobile-app-61bc93fe-5d58-4b4c-a0b1-abdd484ccf46)
 
 ### Permissions

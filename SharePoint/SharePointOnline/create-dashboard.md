@@ -29,7 +29,7 @@ The Viva Connections Dashboard provides fast and easy access to key employee dat
 
    ![Dashboard example](media/vc-hero2.png)
 
-Once certain prerequisites are met, the Dashboard is authored on your home site.  You can add it to Teams so that its easily accessible to your users' mobile devices and desktops. And, you can add it to your home page using the Dashboard web part.
+Once certain prerequisites are met, the Dashboard is authored on your home site.  You can add it to Teams so that it's easily accessible to your users' mobile devices and desktops. And, you can add it to your home page using the Dashboard web part.
 
 The Dashboard consists of cards that provide for user interaction such as existing Teams apps, third-party apps, custom solutions, and internal and external links. 
 

@@ -27,7 +27,7 @@ description: "Learn how to use the Dashboard web part on your home site"
 > 
 
 Viva Connections is an integrated employee experience, and the Viva Connections Dashboard brings together resources for different employee groups to provide a comprehensive view of everything they need. For example, the Dashboard could include a card that allows users to access cafeteria menus, schedules, reports, shift schedules, HR notices, and more.
-Once a Dashboard is authored, you can use the Dashboard web part to display it on your home site. Note that if you want to add, remove, or reorder cards, the existing Dashboard on your site must be edited. To learn how to create or edit a Dashboard, see [Create a Viva Connections Dashboard](/SharePoint/create-dashboard).
+Once a Dashboard is authored, you can use the Dashboard web part to display it on your home site. If you want to add, remove, or reorder cards, the existing Dashboard on your site must be edited. To learn how to create or edit a Dashboard, see [Create a Viva Connections Dashboard](/SharePoint/create-dashboard).
 
 ## Add the Dashboard web part
 
@@ -78,7 +78,7 @@ The web part will be added to your page where it is populated with the cards fro
 > [!IMPORTANT]
 > *Known issue (7/30/21): The title of the Dashboard shows even when the Dashboard is hidden. A temporary workaround is to make the title blank. This issue will be fixed before General Release.*
 
-- **We recommend you use the Dashboard web part in a vertical section**: Although a vertical section is recommended, the web part can be used in any section in 1, 2, or 3 column layouts. Here’s an example of a Dashboard web part in a horizontal section:
+- **We recommend you use the Dashboard web part in a vertical section**: Although a vertical section is recommended, the web part can be used in any section in 1, 2, or 3-column layouts. Here’s an example of a Dashboard web part in a horizontal section:
 
 :::image type="content" source="media/Dashboard-web-part-horizontal-section.png" alt-text="The screen displaying the web part in a horizontal layout":::
 
