@@ -1,9 +1,9 @@
 ---
 title: "The Viva Connections Dashboard web part(Preview)"
 ms.reviewer: 
-ms.author: v-smandalika
-author: v-smandalika
-manager: dansimp
+ms.author: hokavian
+author: Holland-ODSP
+manager: pamgreen
 audience: Admin
 f1.keywords:
 - NOCSH

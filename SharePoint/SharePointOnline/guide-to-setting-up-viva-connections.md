@@ -24,7 +24,7 @@ description: "Learn how to set up and launch Viva Connections for desktop and mo
 
 Microsoft [Viva Connections](/viva-connections-overview.md) is a desktop and mobile experience that brings together relevant news, conversations, and resources in one place for your organization. It's built on your current Microsoft 365 ecosystem and powered by SharePoint to help you engage, inform, and empower your hybrid workforce. The Viva Connections experience is deployed and accessed in Microsoft Teams.
 
-![Image of Viva Connections on desktop and mobile devices](media/vc-hero.png)
+![Image of Viva Connections on desktop and mobile devices](media/vc-hero2.png)
 
 Use these step-by-step instructions to help you set up and launch [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/viva-connections-public-preview/ba-p/2730869) on desktop and mobile devices using currently available features to create an engaging user experience.
 
