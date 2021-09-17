@@ -30,7 +30,7 @@ This article is a resource where you can find prerequisites and endpoint informa
 |**Component**|**Recommendation for best performance**|**Minimum - expect slow performance**|
 |:-----|:------|:-----|
 |CPU|64-bit quad core processor or better|64-bit 1.4 GHz 2-core processor or better|
-|.NET version|V4.6.2 or higher. Learn more: [How to determine which versions are installed](https://docs.microsoft.com/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed)|V4.6.2 or higher|
+|.NET version|V4.6.2 or higher. Learn more: [How to determine which versions are installed](/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed)|V4.6.2 or higher|
 |RAM|16 GB|8 GB|
 |Local Storage|Solid-state disk: 150-GB free space|Solid-state disk: 150-GB free space|
 |Network card|1 Gbps|High-speed internet connection|
