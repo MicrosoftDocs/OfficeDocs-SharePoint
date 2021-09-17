@@ -45,19 +45,19 @@ This article is a resource where you can find prerequisites and endpoint informa
 
 | Required endpoints | For |
 |:-----|:-----|
-|https://<spam><spam>secure.<spam><spam>aadcdn.microsoftonline-p<spam><spam>.com|Authentication|
-|https://<spam><spam>api.office<spam><spam>.com|Microsoft 365 APIs for content move and validation|
-|https://<spam><spam>graph.windows<spam><spam>.net|Microsoft 365 APIs for content move and validation|
-|https://<spam><spam>spmtreleasescus.blob.core.windows<spam><spam>.net|Installation|
-|https://*<spam><spam>.queue.core.windows<spam><spam>.net|Migration API Azure requirement|
-|https://*.<spam><spam>blob.core.windows<spam><spam>.net|Migration API Azure requirement|
-|https://*.<spam><spam>pipe.aria.microsoft<spam><spam>.com|Telemetry/update|
-|https://*.<spam><spam>sharepoint<spam><spam>.com|Destination for migration|
-|https://<spam><spam>*.blob.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
-|https://<spam><spam>*.queue.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
-|https://<spam><spam>*.login.microsoftonline.<spam><spam>com|Sign into the MMA agent for SPO access|
-|https://<spam><spam>*.msauth.<spam><spam>net|Sign into the MMA agent for SPO access|
-|https://<spam><spam>spmt.<spam><spam>sharepointonline.<spam><spam>com|SPMT Installation link.
-|https://<spam><spam>api.mover.<spam><spam>io|Scan feature for Migration Manager requirement.|
-|https://<spam><spam>production.odyssey.ops.mover.<spam><spam>io|Scan feature for Migration Manager requirement.|
+|`https://secure.aadcdn.microsoftonline-p.com`|Authentication|
+|`https://api.office.com`|Microsoft 365 APIs for content move and validation|
+|`https://graph.windows.net`|Microsoft 365 APIs for content move and validation|
+|`https://spmtreleasescus.blob.core.windows.net`|Installation|
+|`https://*.queue.core.windows.net`|Migration API Azure requirement|
+|`https://*.blob.core.windows.net`|Migration API Azure requirement|
+|`https://*.pipe.aria.microsoft.com`|Telemetry/update|
+|`https://*.sharepoint.com`|Destination for migration|
+|`https://*.blob.core.usgovcloudapi.net`|Migration API Azure Government requirement|
+|`https://*.queue.core.usgovcloudapi.net`|Migration API Azure Government requirement|
+|`https://*.login.microsoftonline.com`|Sign into the MMA agent for SPO access|
+|`https://*.msauth.net`|Sign into the MMA agent for SPO access|
+|`https://spmt.sharepointonline.com`|SPMT Installation link.
+|`https://api.mover.io`|Scan feature for Migration Manager requirement.|
+|`https://production.odyssey.ops.mover.io`|Scan feature for Migration Manager requirement.|
 
