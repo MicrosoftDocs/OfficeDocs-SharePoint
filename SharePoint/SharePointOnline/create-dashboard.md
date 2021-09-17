@@ -181,7 +181,6 @@ To preview for different audiences:
 
 2. Open the **Select audiences to preview as** drop-down list. (if no cards are audience targeted, you will see a dimmed **Audience targeting** label).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Audience targeting](media/select-audiences-to-preview-as.png)
 
 3. Search for a group and select it. Once added, the group will be selected by default. You can select the group again in the **Select audiences to preview as** drop-down list to de-select it.
 
