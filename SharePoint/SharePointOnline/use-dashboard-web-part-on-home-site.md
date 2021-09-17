@@ -27,7 +27,7 @@ description: "Learn how to use the Dashboard web part on your home site"
 > 
 
 Viva Connections is an integrated employee experience, and the Viva Connections Dashboard brings together resources for different employee groups to provide a comprehensive view of everything they need. For example, the Dashboard could include a card that allows users to access cafeteria menus, schedules, reports, shift schedules, HR notices, and more.
-Once a Dashboard is authored, you can use the Dashboard web part to display it on your home site. Note that if you want to add, remove, or reorder cards, the existing Dashboard on your site must be edited. To learn how to create or edit a Dashboard, see [Create a Viva Connections Dashboard](https://docs.microsoft.com/en-us/SharePoint/create-dashboard).
+Once a Dashboard is authored, you can use the Dashboard web part to display it on your home site. Note that if you want to add, remove, or reorder cards, the existing Dashboard on your site must be edited. To learn how to create or edit a Dashboard, see [Create a Viva Connections Dashboard](/SharePoint/create-dashboard).
 
 ## Add the Dashboard web part
 
