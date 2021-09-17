@@ -209,13 +209,10 @@ This is a basic summary of the steps to deploy Viva Connections.
 
 | Public preview known issues  | Target release                 | 
 | :------------------- | :------------------- |
-| [SPFx] Isolated components are not currently supported  | November | 
+| [SPFx] Isolated components are not currently supported  | December | 
 | [Feed] Social reactions/comments still enabled but not functional (when disabled)  | December    | 
 | [Mobile] App acquisition flow. Workaround is to install missing app from desktop| December     | 
-
-
-
-
+| [Mobile] MDL2 icons are not supported on cards in the Teams mobile experience  | December |
 
 
 
