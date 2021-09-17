@@ -27,7 +27,7 @@ This article is a resource where you can find prerequisites and endpoint informa
 
 ## Prerequisites
 
-|**Component**|**Recommendation for best performance**|**Minimum - expect slow performance**|
+| Component | Recommendation for best performance | Minimum - expect slow performance |
 |:-----|:------|:-----|
 |CPU|64-bit quad core processor or better|64-bit 1.4 GHz 2-core processor or better|
 |.NET version|V4.6.2 or higher. Learn more: [How to determine which versions are installed](/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed)|V4.6.2 or higher|
@@ -43,7 +43,7 @@ This article is a resource where you can find prerequisites and endpoint informa
 
 ## Required endpoints
 
-|**Required endpoints**|**For**|
+| Required endpoints | For |
 |:-----|:-----|
 |https://<spam><spam>secure.<spam><spam>aadcdn.microsoftonline-p<spam><spam>.com|Authentication|
 |https://<spam><spam>api.office<spam><spam>.com|Microsoft 365 APIs for content move and validation|
