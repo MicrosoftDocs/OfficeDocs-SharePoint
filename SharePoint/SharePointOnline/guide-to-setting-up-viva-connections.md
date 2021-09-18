@@ -24,7 +24,7 @@ description: "Learn how to set up and launch Viva Connections for desktop and mo
 
 Microsoft [Viva Connections](/viva-connections-overview.md) is a desktop and mobile experience that brings together relevant news, conversations, and resources in one place for your organization. It's built on your current Microsoft 365 ecosystem and powered by SharePoint to help you engage, inform, and empower your hybrid workforce. The Viva Connections experience is deployed and accessed in Microsoft Teams.
 
-![Image of Viva Connections on desktop and mobile devices](media/vc-hero2.png)
+![Image of Viva Connections on desktop and mobile devices.](media/vc-hero2.png)
 
 Use these step-by-step instructions to help you set up and launch [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/viva-connections-public-preview/ba-p/2730869) on desktop and mobile devices using currently available features to create an engaging user experience.
 
@@ -47,7 +47,7 @@ While working to prepare your intranet, align with stakeholders to define top sc
 ### Get started
 1.  **Prepare home site and global navigation design -** To ensure that your navigational design is a success, review best practices on how to design and set up your [SharePoint information architecture](information-architecture-modern-experience.md).
 2.  **Modernize sites and pages -** Only modern SharePoint sites and pages can be viewed in Microsoft Teams, otherwise they will open in a separate browser window. Learn more about how to [modernize SharePoint sites](/sharepoint/dev/transform/modernize-classic-sites) and [pages](/sharepoint/dev/transform/modernize-userinterface-site-pages). If you are not using modern SharePoint yet, review the [Guide to the modern experience in SharePoint](guide-to-sharepoint-modern-experience.md).
-3.  **Consider whether you will need a multilingual experience -** You'll need to start by enabling your home site with a default language. <<<<Needs more info and link to new doc
+3.  **Consider whether you will need a multilingual experience -** You'll need to start by enabling your home site with a default language. 
 
 
 ### Permissions
@@ -78,9 +78,6 @@ A home site is a SharePoint communication site that acts as the front door to yo
 
 
 ## Step 3: Enable the SharePoint app bar and customize global navigation
-
-   ![image of the app bar in Microsoft Teams](media/viva-app-bar-desktop.png)
-
 
 The SharePoint app bar allows users to find important content and resources, and dynamically displays personalized sites, news, and files. Viva Connections uses elements from the SharePoint app bar and global navigation for the desktop and mobile experiences. 
 SharePoint app bar elements will display in Microsoft Teams (the access point is highlighted in the red box in the image above) and includes global navigation, followed sites, and recommended news. On mobile devices, Viva Connections uses global navigation for the **Resources** tab. 
@@ -128,13 +125,12 @@ The Dashboard brings it all together – it provides a personalized landing expe
 
 ## Step 5: Get content ready for your Feed with SharePoint news and Yammer
 
-   ![image of content in the Feed web part](media/viva-feed-web-part.png)
+> [!div class="mx-imgBorder"]
+> ![image of content in the Feed web part](media/viva-feed-web-part.png)
 
 In the Viva Connections app, users will see a Feed that is personalized with relevant content personalized to them. The Feed automatically balances fresh and engaging content with corporate communications to keep users engaged, while also ensuring that the users see the most important messages. 
-<br>
 
 The Feed requires usage of modern SharePoint and either SharePoint news or a Yammer community. For the best and most engaging experience, use both. We recommend creating or using an existing organization news site so that users get the most important news.
-<br>
 
 If you are not already using SharePoint news or Yammer, learn how to use them by referring to the following articles:
 
@@ -172,9 +168,9 @@ If you are not already using SharePoint news or Yammer, learn how to use them by
 After you have prepared your intranet for Viva Connections in SharePoint, you are ready to add the Viva Connections app in the Microsoft Teams Admin Center. Add the Viva Connections app, and then customize app settings to add your organization's logo, pre-install, and pre-pin the app for end users.
 
 ### Get started
-1. [Add the Viva Connections app](/SharePoint/add-viva-connections-app) in the Teams admin center 
-2. Then customize app settings like the app name and logo and decide user policies
-3. Finally, make the app available to end users
+1. [Add the Viva Connections app](/SharePoint/add-viva-connections-app) in the Teams admin center.
+2. Then customize app settings like the app name and logo and decide user policies.
+3. Finally, make the app available to end users.
 
 
 ### Permissions
@@ -185,12 +181,12 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 
 ## Step 7: Choose settings for your mobile Viva Connections app
 
-| Viva Connections Dashboard on a mobile device                  |                 | 
+| Viva Connections Dashboard on a mobile device                  |Mobile settings guidance              | 
 | :------------------- | :------------------- |
 | ![image of the Viva Connections mobile app](media/viva-dashboard-mobile.png)  | The Viva Connections app creates a custom app in Microsoft Teams that fits the needs of your organization. Your organization’s custom app will appear as a branded company app in the Microsoft Teams app center. Once the app is added, your organization’s icon will appear in the Teams app bar in the desktop and mobile Microsoft Teams experience. Users won’t see the app by default if you don’t pre-install and pre-pin.
 
 > [!NOTE]
-> - A Dashboard is required to customize settings for the mobile app.
+> A Dashboard is required to customize settings for the mobile app.
 
 ### Get started
 1.	If you have pre-pinned the app for your users with Teams app set up policies in step #6, then the app will automatically appear in users’ Teams mobile client apps on iOS and Android.
@@ -204,7 +200,7 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 ## Step 8: Let your users know how to access and use Viva Connections
 
 
-| Viva Connections Dashboard interaction                 |                 | 
+| Viva Connections Dashboard interaction                 |End user guidance                 | 
 | :------------------- | :------------------- |
 | ![Automated GIF of the Dashboard on a mobile device](media/new-vc-dashboard-interaction.GIF)  | Help make end users aware of this new resource and provide guidance on what icon in the Teams app bar is your organization's instance of Viva Connections. Then, help end users understand how to use [the desktop experience](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b). | 
 
