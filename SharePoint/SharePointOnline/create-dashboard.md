@@ -94,8 +94,8 @@ Add a web link card when you want your users to go to an internal or external li
    - Enter a title for the card in the **Card title** text box. (This title won't change your page title; it is the title that will be displayed on the top of the card.)
    - Enter a description for the card in the **Card description** text box. This description will be displayed in larger text under the title.
 3. Under **Thumbnail**, select one of the following options:
-  - **Auto-selected**: This option when chosen automatically displays an image at the top of your card that comes from your page.
-  - **Custom image**: This option when chosen enables the **Change** button.  You can select this button to choose an image you want to use.
+   - **Auto-selected**: This option when chosen automatically displays an image at the top of your card that comes from your page.
+   - **Custom image**: This option when chosen enables the **Change** button.  You can select this button to choose an image you want to use.
 4. Under **Card icon**, select one of the following options that enable the icon to be displayed on the left side of the card title:
    - **Auto-selected**: This option when chosen automatically displays a built-in icon associated with the page.
    - **Custom image**: This option when chosen enables the **Change** button.  You can select this button to choose an image you want to use.
@@ -108,7 +108,7 @@ Add a web link card when you want your users to go to an internal or external li
 
 The Assigned tasks card enables automatic display of information to users about their assigned tasks. This information is retrieved from the Tasks app in Teams.
 
-   ![Adding a tasks card.](media/tasks-card.png)
+![Adding a tasks card.](media/tasks-card.png)
 
 
 1. While in edit mode, click **+ Add a card** from the dashboard.
@@ -156,14 +156,12 @@ By using audience targeting, you can promote cards to specific groups of people.
 2. Select the card you want to target to one or more audiences, and click the **Edit card** pencil from the toolbar on the left.
 3. In the property pane on the right, under **Audiences to target**, type or search for the audience group(s) you want to target.
 
-   :::image type="content" alt-text="Audience targeting." source="media/audiences-to-target.png":::
+
+  >[!NOTE] 
+  > If you've selected an audience group that you recently created or changed, it may take some time to see targeting applied for that group.
 
 
->[!NOTE] 
-> If you've selected an audience group that you recently created or changed, it may take some time to see targeting applied for that group.
-
-
-   When a card is successfully audience targeted, you’ll see a **people** icon in the lower-left corner of the card.
+4. When a card is successfully audience targeted, you’ll see a **people** icon in the lower-left corner of the card.
 
    ![Audience targeting confirmation.](media/card-targeted-audience.png)
 
