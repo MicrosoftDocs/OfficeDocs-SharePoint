@@ -191,7 +191,7 @@ To preview for different audiences:
 
    You can also see how your Dashboard will look on Mobile, Tablet, and Desktop by selecting those options.
 
-   **Examples:**
+   #### Examples:
 
    In the following example, the preview is set for Mobile, and the first one shows the top two cards are audience targeted as the part of the group that is selected for preview. In the second preview, the top two cards are not targeted for the chosen audience group.
 
