@@ -25,7 +25,20 @@ If you have a large migration project, you will likely migrate the content in ph
  
 Tags can be updated anytime during your project. If you scan a group of sources and they are ready to migrate, you can apply new tags to identify their status quickly. Or if a group of tasks need to be run again, you may tag them with "Incremental run" to make that group stand out.
 
-You can enter one or more tags per source, separating them with a semi-colon in the .csv file. Tags are case-sensitive, and filters on an exact string match. The tags are metadata associated with the records and are preserved even after you copy tasks to the migration tab. The Summary reports and scans will also include tags.
+## Using and managing tags
+While you can create as many tags as you wish, we strongly recommend that you limit the number of tags you use to to simplify your projects. Making them resuseable, like using "Ready for migration" or "Sales" allwo You can enter one or more tags per source, separating them with a semi-colon in the .csv file. Tags are case-sensitive, and filters on an exact string match. The tags are metadata associated with the records and are preserved even after you copy tasks to the migration tab. The Summary reports and scans will also include tags.
+
+### Examples of tags
+
+As you plan your migration project, anticipate the stages, and apply those to your tag strategy. Here are a few examples:
+
+|Category|Tag examples|Importance|
+|:-----|:-----|:-----|
+|Business unit|Sales, Finance|If you are migration by division or department|
+|Phase|Wave 1, Wave 2, Pilot|Manage by phases|
+|Additional work|Incremental run|Tag a batch to be run again|
+|Readiness|Ready to migrate|Quickly view if the task is ready to copy to migrations|
+|Regional|German Data Center, Oslo division, Australia|Group by geography
  
 >[!Note]
 >Only tags can be updated using this .csv file. The ID, source name, and source path are included for reference only.
