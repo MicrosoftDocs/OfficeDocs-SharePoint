@@ -17,15 +17,15 @@ ms.collection:
 search.appverid: MET150
 description: "Importing tags with Migration Manager".
 ---
-# Importing and using tags with Microsoft Manager
+# Importing and using tags with Microsoft Manager 
 
-Use tags to better organize, plan, and schedule your content migrations in Migration Manager. Tags allow you to filter your tasks and more easily navigate through a large quantity of sources and users to find what you need. 
+Use tags to better organize, plan, and schedule your content migrations in Migration Manager. Tags let you filter tasks and easily navigate through a large quantity of sources and users to find what you need. 
 
-If you have a large migration project, you will likely migrate the content in phases or need to identify them by groupings. Applying tags to indicate department, region, wave, or any other collection relevant to your organization helps organize and manage your migration project. With tags, you can filter, group, and keep organized.
+If you have a large migration project, you will likely migrate the content in phases or need to identify them by groupings. Apply tags to indicate department, region, wave, or any other collection relevant to your organization. With tags, you can filter, group, and keep organized.
  
 Tags can be updated anytime during your project. If you scan a group of sources and they are ready to migrate, you can apply new tags to identify their status quickly. Or if a group of tasks need to be run again, you may tag them with "Incremental run" to make that group stand out.
 
-You can enter one or more tags per source, separating them with a semi-colon in the .csv file. Tags are case-sensitive, and filters on an exact string match. The tags are preserved even after you copy tasks to the migration tab. Summary reports and scans will also include tags.
+You can enter one or more tags per source, separating them with a semi-colon in the .csv file. Tags are case-sensitive, and filters on an exact string match. The tags are metadata associated with the records and are preserved even after you copy tasks to the migration tab. The Summary reports and scans will also include tags.
  
 >[!Note]
 >Only tags can be updated using this .csv file. The ID, source name, and source path are included for reference only.
