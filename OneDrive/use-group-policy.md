@@ -183,7 +183,7 @@ Users are prompted with options to help free up space.
   
 Enabling this policy sets the following registry key value to a number from 0 through 10240000:
 
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]" MinDiskSpaceLimitInMB`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "MinDiskSpaceLimitInMB"="dword:00000000"`
 
 
 ### Block syncing OneDrive accounts for specific organizations
@@ -549,7 +549,7 @@ This setting lets you specify a minimum amount of available disk space, and warn
   
 Enabling this policy sets the following registry key value to a number from 0 through 10240000:
 
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]" WarningMinDiskSpaceLimitInMB"`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "WarningMinDiskSpaceLimitInMB"="dword:00000000"`
 
 
 ## User Configuration policies
