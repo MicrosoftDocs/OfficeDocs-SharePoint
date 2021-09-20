@@ -157,8 +157,8 @@ By using audience targeting, you can promote cards to specific groups of people.
 3. In the property pane on the right, under **Audiences to target**, type or search for the audience group(s) you want to target.
 
 
-   >[!NOTE] 
-   > If you've selected an audience group that you recently created or changed, it may take some time to see targeting applied for that group.
+    >[!NOTE] 
+    > If you've selected an audience group that you recently created or changed, it may take some time to see targeting applied for that group.
 
 
 4. When a card is successfully audience targeted, you’ll see a **people** icon in the lower-left corner of the card.
