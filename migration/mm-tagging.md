@@ -28,7 +28,7 @@ Tags can be updated anytime during your project. If you scan a group of sources 
 You can enter one or more tags per source, separating them with a semi-colon in the .csv file. Tags are case-sensitive, and filters on an exact string match. The tags are preserved even after you copy tasks to the migration tab. Summary reports and scans will also include tags.
  
 >[!Note]
->Only the tag field can be updated using this .csv file. The ID, source name, and source path are included for reference only.
+>Only tags can be updated using this .csv file. The ID, source name, and source path are included for reference only.
 
 
 ## Import and update tags
