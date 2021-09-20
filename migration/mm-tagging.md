@@ -34,7 +34,7 @@ As you plan your migration project, anticipate the stages, and apply those to yo
 
 |Category|Tag examples|Importance|
 |:-----|:-----|:-----|
-|Business unit|Sales, Finance|If you are migration by division or department|
+|Business unit|Sales, Finance|Helpful if you are migrating by division or department|
 |Phase|Wave 1, Wave 2, Pilot|Manage by phases|
 |Additional work|Incremental run|Tag a batch to be run again|
 |Readiness|Ready to migrate|Quickly view if the task is ready to copy to migrations|
