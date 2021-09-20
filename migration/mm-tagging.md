@@ -23,9 +23,7 @@ Use tags manage your tasks, and your overall migration project. Tags allow you t
 
 If you have a large migration project, you will likely migrate the content in phases or need to identify them by groupings.  Applying tags to indicate department, region, wave, or any other collection relevant to your organization helps organize and manage your migration project. With tags, you can filter, group, and keep organized.
  
-Examples of tags names include the migration phase, such as Wave 1, Wave 2, etc.  Typical tag names are often the name of a department or what phase or "wave" a grouping of migrations will be done.  
-
-The tags can be continually updated.  If, for example,  you scan a group of sources and they are ready to migrate, you can update the tags so you can identify them quickly. If a group of tasks need to be,  run again, you may tag them with "Incremental run" to identify more clearly the issue.
+The tags can be continually updated.  If, for example, you scan a group of sources and they are ready to migrate, you can update the tags so you can identify them quickly. Or if a group of tasks need to be, run again, you may tag them with "Incremental run" to identify more clearly the issue.
 
 You can enter one or more tags per source, separating them with a semi-colon in the .csv file.
  
@@ -35,8 +33,9 @@ You can enter one or more tags per source, separating them with a semi-colon in 
 
 ## Import and update tags
 
-1. Connect to source
-2. Select **Import tags** from the menu bar.
+1. In the SharePoint admin center, select [Migration Manager](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern). 
+2. Select and connect to your migration source. Your sources are automatically scanned.
+3. Highlight one or more tasks, and then select **Import tags** from the menu bar.
 
 ![Import tags option on the menu bar](media/mm-tagging.png)
 
