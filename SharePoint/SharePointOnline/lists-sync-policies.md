@@ -53,7 +53,7 @@ Prevent external List sync with:
 
 Restore external List sync with:
 
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "BlockExternalListSync" = "dword:0"``
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "BlockExternalListSync" = "dword:0"`
 
 ### Prevent users from getting silently signed in to Lists sync with their Windows credentials
 
@@ -64,7 +64,7 @@ Lists sync is set up to automatically sign users in with their Windows account c
 
 Enabling this policy sets the following registry key value to 1:
 
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableNucleusSilentConfig" = "dword:00000001"``
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableNucleusSilentConfig" = "dword:00000001"`
 
 For more info about this feature, including troubleshooting steps, see [Silently configure user accounts](/onedrive/use-silent-account-configuration).
 
