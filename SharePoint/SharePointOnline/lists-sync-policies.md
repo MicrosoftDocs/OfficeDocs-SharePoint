@@ -37,11 +37,11 @@ By default, Lists sync is turned on for users of Microsoft Lists. If you enable 
 
 Prevent Lists sync from running on the device:
 
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableNucleusSync" = "dword:1"
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableNucleusSync" = "dword:1"`
 
 Re-enable Lists sync on the device:
 
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableNucleusSync" = "dword:0"
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableNucleusSync" = "dword:0"`
 
 ### Prevent users from syncing lists shared from other organizations
 
@@ -49,11 +49,11 @@ Enabling this setting prevents users at your organization from syncing lists tha
 
 Prevent external List sync with:
 
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "BlockExternalListSync" = "dword:1
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "BlockExternalListSync" = "dword:1`
 
 Restore external List sync with:
 
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "BlockExternalListSync" = "dword:0"
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "BlockExternalListSync" = "dword:0"``
 
 ### Prevent users from getting silently signed in to Lists sync with their Windows credentials
 
@@ -64,7 +64,7 @@ Lists sync is set up to automatically sign users in with their Windows account c
 
 Enabling this policy sets the following registry key value to 1:
 
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableNucleusSilentConfig" = "dword:00000001"
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableNucleusSilentConfig" = "dword:00000001"``
 
 For more info about this feature, including troubleshooting steps, see [Silently configure user accounts](/onedrive/use-silent-account-configuration).
 
