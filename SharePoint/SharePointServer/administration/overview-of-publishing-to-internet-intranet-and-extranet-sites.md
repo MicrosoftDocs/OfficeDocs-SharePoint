@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: a3ad4dea-36b2-48df-b699-8fd9725df53c
 description: "Learn about SharePoint Server publishing, the kinds of SharePoint Server publishing sites, and the publishing methods available for SharePoint Server sites."

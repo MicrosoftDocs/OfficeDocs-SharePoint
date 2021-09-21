@@ -13,7 +13,7 @@ ms.service: sharepoint-online
 mscollection: 
 - SPMigration
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: "Learn about the new features and updates to existing features in Migration Manager."
 ---
@@ -25,6 +25,29 @@ We're continuously adding new features to Migration Manager and fixing issues we
 #### We're listening!
 
 Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page.  
+
+## Coming soon
+
+- **Egnyte migrations**.  Migrate your Egnyte content to Microsoft 365.
+
+## September
+
+- **New feature**.  A "Reinstall recommended" message displays detailed information as to why it is needed. 
+- **Feature Improvement** File share migration now supports migrating individual files of up to 100 GB.
+- **Feature Improvement**  The error messages during agent installation have been improved.
+- **Fix.** Before, if the destination cross-geo site did not exist, the migration would fail. Fixed.
+- **Fix.**  Before, if the agent app and agent service were both installed on the same computer, the upgrader would always start the agent app after the agent service was updated. Fixed.
+- **Fix.** If the agent service and the agent app were installed on the same computer, file share migration tasks would fail. Fixed.
+- **Deprecated.** Several task reports have been deprecated, including the *performance recommendation.csv* report, as they contained inaccurate or unnecessary information. Users should use the customer-facing dashboard in Migration Manager for performance analysis and improvement recommendations.
+
+
+
+## August 2021
+
+- **Task scheduling**.  Schedule your migration tasks in advance to run at the optimum time your organization.
+- **Fixed.**  Some transfers from Box, Google, and Dropbox saw many failures when moving files during high load periods. The errors would appear in the migration error report as "Failed to load migration job, please retry." The issues causing these errors has been fixed and the reliability of transfers has increased.
+
+
 
 ## July 2021
 - **Box migrations (GA).**  You can now migrate Box content to Microsoft 365 using Migration Manager.

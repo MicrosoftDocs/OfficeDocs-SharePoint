@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
@@ -62,7 +62,7 @@ Common methods of organizing navigational design:
 
 ![Geographic region](media/geographic_region.png)
 
-**Benefits** - Organizing by geographic location is an effective way to bring people of similar disciplines together to collaborate and build community. For large or organizations, and international organizations, location can be an important decision-making factor for users. Organizing by region may be important when certain topics have different laws and mandates depending on the region. For example, crisis management sites or human resource guidelines. 
+**Benefits** - Organizing by geographic location is an effective way to bring people of similar disciplines together to collaborate and build community. For large organizations, and international organizations, location can be an important decision-making factor for users. Organizing by region may be important when certain topics have different laws and mandates depending on the region. For example, crisis management sites or human resource guidelines. 
 
 **Governance considerations** - Many governance details may very among region, for example site creation policy, data retention, and data storage policies too. Learn more about the [multi-geo user experience](/microsoft-365/enterprise/multi-geo-user-experience) and [multi-geo configuration](/sharepoint/dev/solution-guidance/multigeo-introduction).
 
@@ -104,7 +104,7 @@ Common methods of organizing navigational design:
 
 Your intranet is an ever-evolving component of your business that will need to grow and scale alongside your organization. Modern intranet navigation differs from classic navigation in the sense that it is “flat” -- in the modern SharePoint experience, sub-sites are not recommended. In the new “flat” world of modern SharePoint, plan to create one site for each discrete topic or unit of work. Classic SharePoint architecture is typically built using a hierarchical system of site collections and sub-sites, with inherited navigation, permissions, and site designs. Once built, this structure can be inflexible and difficult to maintain.
 
-Focus on incorporating modern changes that will have the greatest impact to your business first. [Plan and schedule](./intranet-overview.md) when changes will be incorporated and how you will track progress. Use site analytics to understand user behavior and collect feedback from users along the way.
+Focus on incorporating modern changes that will have the greatest impact to your business first. [Plan and schedule](./intranet-team-overview.md) when changes will be incorporated and how you will track progress. Use site analytics to understand user behavior and collect feedback from users along the way.
 How to get started
 
 Moving to modern navigation from classic SharePoint navigation is a process that depends on the size of your organization and the complexity of your tenant’s configuration. Below are general guidelines and tools you can use to get started:

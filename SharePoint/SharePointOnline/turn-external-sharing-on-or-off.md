@@ -9,7 +9,7 @@ audience: Admin
 f1.keywords: CSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
@@ -32,7 +32,7 @@ For end-to-end guidance around how to configure guest sharing in Microsoft 365, 
 - [Collaborate with guests in a site](/microsoft-365/solutions/collaborate-in-site)
 - [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team)
 
-To change the sharing settings for a site after you've set the organization-level sharing settings, see [Turn external sharing on or off for for a site](change-external-sharing-site.md). To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings).
+To change the sharing settings for a site after you've set the organization-level sharing settings, see [Change sharing settings for a site](change-external-sharing-site.md). To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings).
 
 ## Video demonstration
 
@@ -62,7 +62,7 @@ This video shows how the settings on the Sharing page in the SharePoint admin ce
 
     ![External sharing settings](media/externalsharing.png)
 
-    This setting is for your organization overall. Each site has its own sharing setting which you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
+    This setting is for your organization overall. Each site has its own sharing setting that you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
   
 ### Which option to select...
 
@@ -81,7 +81,7 @@ This video shows how the settings on the Sharing page in the SharePoint admin ce
 
 ### More external sharing settings
 
-![More external sharing settings](media/advanced-external-sharing.png)
+![More external sharing settings](media/external-sharing.png)
 
 **Limit external sharing by domain**
 
@@ -101,9 +101,14 @@ By default, guests can receive an invitation at one account but sign in with a d
 
 By default, guests must have full control permission to share items externally.
 
+**Guest access to a site or OneDrive will expire automatically after this many days**
+
+If your administrator has set an expiration time for guest access, each guest that you invite to the site or with whom you share individual files and folders will be given access for a certain number of days. For more information visit, [Manage guest expiration for a site](https://support.microsoft.com/en-us/office/manage-guest-expiration-for-a-site-25bee24f-42ad-4ee8-8402-4186eed74dea)
+
 **People who use a verification code must reauthenticate after this many days**
 
 If people who use a verification code have selected to "stay signed in" in the browser, they must prove they can still access the account they used to redeem the sharing invitation. 
+
 
 ## File and folder links
 

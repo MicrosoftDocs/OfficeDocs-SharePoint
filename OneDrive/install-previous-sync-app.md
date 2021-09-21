@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: one-drive
-localization_priority: Normal
+ms.localizationpriority: high
 description: "In this article, you'll learn how to install the previous OneDrive sync app (Groove.exe) for use with SharePoint Server."
 ---
 

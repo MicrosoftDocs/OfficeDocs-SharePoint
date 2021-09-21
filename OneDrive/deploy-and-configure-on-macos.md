@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: one-drive
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
@@ -89,7 +89,7 @@ This setting prevents the users from uploading files to other organizations by s
 The parameter for the **AllowTenantList** key is **TenantID** and its value is a string, which determines the tenants for whom the **Allow Tenant** setting is applicable. For the setting to be complete, this parameter also requires a boolean value to be set to it. If the boolean value is set to **True**, the tenant is allowed to sync.
 
 The example for this setting in the .plist file is:
-<br/>\<key\>AllowTenantList</key\><br/>\<array><br/>&nbsp;&nbsp;&nbsp;&nbsp;\<dict><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId1</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<true/\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId2</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<true/\><br/>&nbsp;&nbsp;&nbsp;&nbsp;\</dict><br/>\</array>
+<br/>\<key\>AllowTenantList</key\><br/>\<dict><br/>\<key\>TenantId1</key\><br/>\<true/\><br/>\<key\>TenantId2</key\><br/>\<true/\><br/>\</dict>
 
   
 ### AutomaticUploadBandwidthPercentage
@@ -126,7 +126,7 @@ Enable this setting by defining IDs for the **TenantID** parameter, which determ
 > In the list, inclusion of the tenant ID alone doesn't suffice. It's mandatory to set the boolean value to **True**  for the ID of each tenant who is to be blocked. 
 
 The example for this setting in the .plist file is:
-<br/>\<key\>BlockTenantList</key\><br/>\<array><br/>&nbsp;&nbsp;&nbsp;&nbsp;\<dict><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId1</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<true/\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId2</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<true/\><br/>&nbsp;&nbsp;&nbsp;&nbsp;\</dict><br/>\</array>
+<br/>\<key\>BlockTenantList</key\><br/>\<dict><br/>\<key\>TenantId1</key\><br/>\<true/\><br/>\<key\>TenantId2</key\><br/>\<true/\><br/>\</dict>
 
 ### DefaultFolderLocation
 <a name="DefaultFolderLocation"> </a>
@@ -141,7 +141,7 @@ The following are the conditions governing the default folder location:
 -**Standalone**: The path will be created (if it doesn't already exist) after the user sets up the sync app. Only with the Standalone sync app you can prevent users from changing the location. 
 
 The example for this setting in the .plist file is:
-<br/> \<key\>DefaultFolder</key\><br/>\<array><br/>&nbsp;&nbsp;&nbsp;&nbsp;\<dict><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>Path</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<string>(DefaultFolderPath)\</string><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<string>(TenantID)\</string><br/>&nbsp;&nbsp;&nbsp;&nbsp;\</dict><br/>\</array>
+<br/> \<key\>DefaultFolder</key\><br/>\<dict><br/>\<key\>Path</key\><br/>\<string>(DefaultFolderPath)\</string><br/>\<key\>TenantId</key\><br/>\<string>(TenantID)\</string><br/>\</dict>
 
 
 ### DisableHydrationToast
@@ -217,12 +217,9 @@ Set this setting's value to an integer between 50 KB/sec and the maximum rate of
 The example for this setting in the .plist file is:
 <br/>
 \<key\>EnableODIgnore\</key\><br/> 
-\<array\><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;\<dict\><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<string\>*.PST\</string\><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;\</dict\><br/>
-\</array\>
-<br/>
+\<dict\><br/>
+\<string\>*.PST\</string\><br/>
+\</dict\><br/>
 
 
 ### FilesOnDemandEnabled
@@ -319,20 +316,30 @@ The example for this setting in the .plist file is:
 
 [More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/new-onedrive-sync-client)
 
-### Tier
 
-You can configure the OneDrive Standalone sync app to receive delayed updates.
-  
+### Tier
+<a name="Tier"> </a>
+
+This setting lets you specify the ring for users in your organization. The OneDrive sync app updates to the public through three rings; first to Insiders, then to Production, and finally to Deferred.  When you enable this setting and select a ring, users aren't able to change it.  
+
+**Insiders**: The Insiders ring users receive builds that let them preview new features coming to OneDrive.
+
+**Production**: The Production ring users get the latest features as they become available. This ring is the default.
+
+**Enterprise** (now called "Deferred"): The Deferred ring users get new features, bug fixes, and performance improvements last. This ring lets you deploy updates from an internal network location, and control the timing of the deployment (within a 60-day window).
+
+> [!IMPORTANT]
+> We recommend selecting several people in your IT department as early adopters to join the Insiders ring and receive features early. We also recommend leaving everyone else in the organization in the default Production ring to ensure they receive bug fixes and new features in a timely fashion. [See all our recommendations for configuring the sync app](ideal-state-configuration.md).
+
+For more information on the builds currently available in each ring, see the [OneDrive release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?). For more information about the update rings and how the sync app checks for updates, see the [OneDrive sync app update process](sync-client-update-process.md).
+
 |.plist Location  <br/> |Domain  <br/> |
 |:-----|:-----|
 | ~/Library/Preferences/com.microsoft.OneDriveUpdater.plist <br/> |com.microsoft.OneDriveUpdater  <br/> |
-   
-| Setting | Description | Parameters | Example .plist Entry |
-|:-----|:-----|:-----|:-----|
-|Tier  <br/> |Defines the update ring for the computer  <br/> |UpdateRing (String): This parameter has two different values.  <br/> Production - The default update ring for OneDrive updates.  <br/> Insiders - This update ring receives updates that are "pre-production" and that allow you to play with features before they are released. Note that builds from this ring may be less stable.  <br/> Enterprise - This update ring (now called "Deferred") receives updates after they have been rolled out through the Production ring. It also lets you control the deployment of updates. For more information about the update rings and the procedure used by the sync app for checking for updates, see [The OneDrive sync app update process](sync-client-update-process.md).  <br/> |\<key\>Tier\</key\>  <br/> \<string\>(UpdateRing)\</string\>  <br/> |
 
-> [!IMPORTANT]
-> We recommend selecting several people in your IT department as early adopters to join the Insiders ring and receive features early. We recommend leaving everyone else in the organization in the default Production ring to ensure they receive bug fixes and new features in a timely fashion. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)
+The example for this setting in the .plist file is:
+<br/> \<key\>Tier\</key\>  <br/> \<string\>(UpdateRing)\</string\>  <br/> 
+
 
 ### UploadBandwidthLimited
 <a name="UploadBandwidthLimited"> </a>
@@ -343,4 +350,3 @@ To enable this setting, set a value between 50 and 100,000 that is the upload th
 
 The example for this setting in the .plist file is:
 <br/> \<key\>UploadBandwidthLimited\</key\>  <br/> \<integer\>(Upload Throughput Rate in KB/sec)\</integer\>  <br/>
-

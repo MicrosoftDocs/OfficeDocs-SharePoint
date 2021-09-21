@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: conceptual
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - MET150
@@ -32,7 +32,7 @@ Modern SharePoint sites allow you [to change the look of the site](https://suppo
 
 Navigation helps users find the information they need quickly by providing links to pertinent information in a persistent manner. [Planning your navigational strategy in modern sites](./plan-navigation-modern-experience.md) is a critical element in the usability of your SharePoint environment. Modern SharePoint sites provide a streamlined model for [adding navigational elements](https://support.office.com/article/3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) using the browser. The position of the navigation is determined by the kind of site being viewed, the size of a user&#39;s screen, and whether the [megamenu option](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818) has been enabled for the site. Additionally, modern sites can take advantage of hub site navigation.
 
-Note that legacy versions of SharePoint allowed navigational elements to be dynamically generated using the structured navigation and managed metadata navigation providers. These options are no longer available in modern sites. However, if you are using a classic site with modern pages, you can still use these providers and the modern pages will reflect the correct navigational links. In terms of layout, because modern sites do not allow you to customize the site&#39;s master page or style sheet, it&#39;s not possible to move the position of the navigation elements on the page as could be done in classic SharePoint sites.
+Note that earlier versions of SharePoint allowed navigational elements to be dynamically generated using the structured navigation and managed metadata navigation providers. These options are no longer available in modern sites. However, if you are using a classic site with modern pages, you can still use these providers and the modern pages will reflect the correct navigational links. In terms of layout, because modern sites do not allow you to customize the site&#39;s master page or style sheet, it&#39;s not possible to move the position of the navigation elements on the page as could be done in classic SharePoint sites.
 
 ## Page content
 
@@ -40,7 +40,7 @@ Nearly every version of SharePoint has had a way of creating custom layouts for 
 
 ## Workflows
 
-Microsoft recommends using [Power Automate](https://flow.microsoft.com) for configuring and executing all workflows in your Microsoft 365 environment, including SharePoint. For example, it&#39;s possible to create [unique approval workflows](/flow/modern-approvals) for content stored in SharePoint. Additionally, it&#39;s possible to use Power Automate as the default workflow engine [for approving SharePoint page content](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9), directly from the SharePoint user interface. Flows can be [triggered by SharePoint](/connectors/sharepointonline/#triggers) actions (such as when an item is created in a list), or perform [actions within SharePoint](/connectors/sharepointonline/#actions) (such as update a list item). While SharePoint Designer workflows are still supported, new workflows should be created using Power Automate.
+We recommend using [Power Automate](https://flow.microsoft.com) for configuring and executing all workflows in your Microsoft 365 environment, including SharePoint. For example, it&#39;s possible to create [unique approval workflows](/power-automate/modern-approvals) for content stored in SharePoint. Additionally, it&#39;s possible to use Power Automate as the default workflow engine [for approving SharePoint page content](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9), directly from the SharePoint user interface. Flows can be [triggered by SharePoint](/connectors/sharepointonline/#triggers) actions (such as when an item is created in a list), or perform [actions within SharePoint](/connectors/sharepointonline/#actions) (such as update a list item). While SharePoint Designer workflows are still supported, new workflows should be created using Power Automate.
 
 ## Forms
 
@@ -64,7 +64,7 @@ Use the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-
 
 ## Use third-party add-ins and solutions
 
-Not only can you deploy custom apps (also known as add-ins) to your environment, but you can also purchase add-ins from the SharePoint Store. You can make these add-ins available to all users across the sites in your organization by acquiring licenses for all users in your organization. Or, you can acquire licenses for only those who need to use it, and assign those licenses to the designated users. For more information, see [Buy an app from the SharePoint Store](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43) and [Manage app licenses for a SharePoint environment](manage-app-licenses.md).
+Not only can you deploy custom apps (also known as add-ins) to your environment, but you can also get add-ins from the SharePoint Store. For more information, see [Use the App Catalog to make custom business apps available for your SharePoint environment](use-app-catalog.md) and [Add an app to a site](https://support.microsoft.com/office/ef9c0dbd-7fe1-4715-a1b0-fe3bc81317cb).
 
 If you want to change the settings for whether or not site users can acquire apps from the SharePoint Store, see [Configure settings for the SharePoint Store](configure-sharepoint-store-settings.md).
 

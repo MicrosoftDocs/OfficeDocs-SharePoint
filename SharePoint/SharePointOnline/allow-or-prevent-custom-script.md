@@ -15,7 +15,7 @@ ms.custom:
 - 'O365E_NoScript'
 - 'seo-marvel-apr2020'
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
@@ -31,7 +31,7 @@ description: "Learn how global and SharePoint admins can change the custom scrip
 
 # Allow or prevent custom script
 
-As a global or SharePoint admin in Microsoft 365, you can allow custom script as a way of letting users change the look, feel, and behavior of sites and pages to meet organizational objectives or individual needs. If you allow custom script, all users who have "Add and Customize Pages" permission to a site or page can add any script they want. (By default, users who create sites are site owners and therefore have this permission. For more info about SharePoint permission levels, see [Understanding permission levels in SharePoint](./understanding-permission-levels.md).) 
+As a global or SharePoint admin in Microsoft 365, you can allow custom script as a way of letting users change the look, feel, and behavior of sites and pages to meet organizational objectives or individual needs. If you allow custom script, all users who have "Add and Customize Pages" permission to a site or page can add any script they want. (By default, users who create sites are site owners and therefore have this permission.) 
   
 > [!NOTE]
 > For simple ways to change the look and feel of a site, see [Change the look of your SharePoint site](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818). 
@@ -89,7 +89,7 @@ To allow custom script on a particular site (previously called "site collection"
     ```PowerShell
     Set-SPOSite <SiteURL> -DenyAddAndCustomizePages 0
     ```
-    or by means of the PnP.PowerShell cmdlet [Set-PnPSite](/powershell/module/sharepoint-pnp/set-pnpsite?view=sharepoint-ps)
+    or by means of the PnP.PowerShell cmdlet [Set-PnPSite](/powershell/module/sharepoint-pnp/set-pnpsite)
     
     ```PowerShell
     Set-PnPSite <SiteURL> -NoScriptSite $false

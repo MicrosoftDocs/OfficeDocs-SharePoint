@@ -10,13 +10,13 @@ f1.keywords:
 - NOCSH
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 64233599-f18c-4081-a3ce-450e878a1b9f
 
-description: "This article introduces topics that describe hardware, software, and other requirements for SharePoint Server."
+description: "This article introduces topics that describe hardware and other requirements for SharePoint Server."
 ---
 
 # System requirements for SharePoint Servers 2016 and 2019

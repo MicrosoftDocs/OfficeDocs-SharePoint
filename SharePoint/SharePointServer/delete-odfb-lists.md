@@ -10,7 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.service: o365-solutions
 ms.custom: 
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Learn about deleting OneDrive experience settings."
 ---
 

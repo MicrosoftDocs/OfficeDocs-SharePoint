@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: bf94ede1-79cc-4016-99f3-a1eef244fdf3
 description: "Configure domain names, service applications, and URLs for apps for SharePoint Server."

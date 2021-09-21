@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 33ed78c8-25fc-48ea-b0c1-50b540213cff
 description: "Learn how to configure usage and health data collection in SharePoint Server."
@@ -38,8 +38,6 @@ The usage and health data settings are farm-wide and cannot be set for individua
   
 1. Verify that user account performing this procedure is a member of the Farm Administrators group. 
     
-    The 
-    
 2. In Central Administration, on the home page, click **Monitoring**.
     
 3. On the Monitoring page, in the **Reporting** section, click **Configure usage and health data collection**.
@@ -56,7 +54,7 @@ The usage and health data settings are farm-wide and cannot be set for individua
     
     These settings are applied to all events. 
     
-7. In the **Health Data Collection** section, select the **Enable health data collection** check box. To change the collection schedules, click **Health Logging Schedule**. You can see a list of timer jobs that collect health data. Click any of the timer jobs to change its schedule, or disable that timer job. If you disable a timer job, it stops collecting corresponding health data. For more information, see Default timer jobs in SharePoint Server 2016](../technical-reference/default-timer-jobs-in-sharepoint-server-2016.md).
+7. In the **Health Data Collection** section, select the **Enable health data collection** check box. To change the collection schedules, click **Health Logging Schedule**. You can see a list of timer jobs that collect health data. Click any of the timer jobs to change its schedule, or disable that timer job. If you disable a timer job, it stops collecting corresponding health data. For more information, see [Default timer jobs in SharePoint Server 2016](../technical-reference/default-timer-jobs-in-sharepoint-server-2016.md).
     
 8. To change log collection schedules, click **Log Collection Schedule**, and then click any of the timer jobs to change its schedule, or disable that timer job. If you disable a timer job, it stops collecting corresponding log data.
     
@@ -90,17 +88,17 @@ The usage and health data settings are farm-wide and cannot be set for individua
     
 5. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   Set-SPUsageService [-LoggingEnabled {1 | 0}] [-UsageLogLocation <Path>] [-Verbose]
   ```
 
-    Where  _\<Path\>_ is a path that exists on each computer in the farm. 
+Where  _\<Path\>_ is a path that exists on each computer in the farm. 
     
-    To view the progress of the command, use the **Verbose** parameter. 
+To view the progress of the command, use the **Verbose** parameter. 
     
-    Enable usage data logging by typing. 
+Enable usage data logging by typing. 
     
-  ```
+  ```powershell
   Set-SPUsageService -LoggingEnabled 1
   ```
 
@@ -134,13 +132,13 @@ The event types that are listed on the Configure usage and health data collectio
     
 5. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   Set-SPUsageDefinition -Identity <SPUsageDefinitionPipeBind> [-Enable] [-DaysRetained <0-31>] [-Verbose]
   ```
 
-    Where  _\<SPUsageDefinitionPipeBind\>_ specifies the usage definition object that you want to update. The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of a usage definition (for example, SiteSubscriptionConfig1); or an instance of a valid **SPUsageDefinition** object. You can use the PowerShell **Get-SPUsageDefinition** cmdlet to obtain this GUID. For more information, see [Get-SPUsageDefinition](/powershell/module/sharepoint-server/Get-SPUsageDefinition?view=sharepoint-ps).
+Where  _\<SPUsageDefinitionPipeBind\>_ specifies the usage definition object that you want to update. The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of a usage definition (for example, SiteSubscriptionConfig1); or an instance of a valid **SPUsageDefinition** object. You can use the PowerShell **Get-SPUsageDefinition** cmdlet to obtain this GUID. For more information, see [Get-SPUsageDefinition](/powershell/module/sharepoint-server/Get-SPUsageDefinition?view=sharepoint-ps).
     
-    Use the **Enable** parameter to enable usage logging for this usage definition. Use the **DaysRetained** parameter to specify how long the usage data is retained in the log before it is deleted. The range is 0 to 31 days. To view the progress of the command, use the **Verbose** parameter. 
+Use the **Enable** parameter to enable usage logging for this usage definition. Use the **DaysRetained** parameter to specify how long the usage data is retained in the log before it is deleted. The range is 0 to 31 days. To view the progress of the command, use the **Verbose** parameter. 
     
 For more information, see Set-SPUsageDefinition.
   
@@ -172,11 +170,11 @@ You can use PowerShell to change this setting.
     
 5. At the PowerShell command prompt type the following command:
     
-  ```
+  ```powershell
   Set-SPUsageApplication -DatabaseServer <DatabaseServerName> -DatabaseName <DatabaseName> [-DatabaseUserName <UserName>] [-DatabasePassword <Password>] [-Verbose]
   ```
 
-    Where:
+Where:
     
   -  _\<DatabaseServerName\>_ is the name of host server for the logging database. You must specify a value for the **DatabaseServer** parameter, even if the new database is located on the same database server as the old one. 
     
@@ -186,7 +184,7 @@ You can use PowerShell to change this setting.
     
   -  _\<Password\>_ is the password for the user specified in **DatabaseUserName**. You must specify both  _\<UserName\>_ and  _\<Password\>_ if the database owner is a different user account than the one with which you logged on. 
     
-    To view the progress of the command, use the **Verbose** parameter. 
+To view the progress of the command, use the **Verbose** parameter. 
     
 For more information, see Set-SPUsageApplication.
   

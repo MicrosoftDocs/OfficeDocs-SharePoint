@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3380e554-d1f8-46d6-9df0-cc102945f922
 description: "To learn how to develop Search Center scenarios in SharePoint Server, see this section."
 ---

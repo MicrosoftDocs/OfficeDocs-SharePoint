@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - m365solution-migratetom365
 - m365solution-scenario
@@ -21,20 +21,14 @@ description: Overview of migration from Box to Microsoft 365 using Migration Man
 
 # Migrate Box to Microsoft 365 with Migration Manager
 
-#### Got a minute?
-
-![take our survey](https://docs.microsoft.com/office/media/icons/sign-up-blue.png)  Please take our <a href="https://microsoft.qualtrics.com/jfe/form/SV_5BeuymEC0Dnkn30" target="_blank">short survey about migrating to Microsoft 365</a>. We'd love to hear from you!
-
-
-</br>
 
 >[!Note]
->This release currently supports the migration of up to approximately 10,00 Box accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
+>This release currently supports the migration of up to approximately 10,000 Box accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
 
 
 Collaborate all in one place by migrating your Box documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
-![Migration Manager main landing page](media/mm-main-landing.png)
+:::image type="content" alt-text="Migration Manager main landing page" source="media/mm-main-landing.png":::
 
 ## How does it work?
 

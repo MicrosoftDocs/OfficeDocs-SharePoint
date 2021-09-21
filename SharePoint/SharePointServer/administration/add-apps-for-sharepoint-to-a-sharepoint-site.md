@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 57d52c9e-5069-4bcf-87e3-24482198a462
 description: "Site owners can add apps for SharePoint to SharePoint sites so that they and other users of the site can use the app."

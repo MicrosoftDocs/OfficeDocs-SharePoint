@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - m365solution-migratefileshares
 - m365solution-migratetom365
@@ -22,27 +22,32 @@ description: "Step 2:  Scan and assess Box users using Migration Manager."
 
 # Step 2: Scan and assess Box users
 
->[!Note]
->This release currently supports the migration of up to approximately 1500 Box accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
+After you connect, Box users are automatically scanned. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
+
+A table summary appears at the top to give you an at-a-glance overview of your users. The summary includes content size, migration readiness, and any issues that need attention.
+
+   ![Summary of scanned Box users](media/mm-box-scan-assess-summary.png)
+
+
+1. Review the scanned users. Search for specific text, or select a filter to review the list more easily
+2. Select **Look for new users** to manually search for more users.
+
+    ![Box menu bar after scan](media/mm-box-scan-menu.png)
 
 
 
-Box users are scanned automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
+## Download reports
 
-A table summary appears at the top to give you an at-a-glance overview of your users and content size.
+Summary and detailed scan reports are available to troubleshoot any issues.
 
-![Scan data summary table](media/mm-box-scan-data-table-summary.png)
+1. Once the scan is complete, select **Download reports** from the menu bar for summary reports.
 
-1.  Review the scanned users. Select **Look for new users** if you want to manually search for more users.
+    ![Box menu bar after scan](media/mm-box-scan-menu.png)
 
-![Scan data list](media/mm-box-scan-list.png)
 
-2. Search for specific text, or select a filter to review the list more easily.
+2. Highlight a selected Box user, and select **Download scan log**  to download a detailed scan report of that user account. </br>
 
- ![Box scan list filters](media/mm-box-scan-list-filters.png)
-
-3. Once the scan is complete, select **Download scan log** from the menu bar, to troubleshoot any issues. The file will be available from your task bar or downloads folder: **Scan task report.csv**
-
+    ![Download individual scan log button](media/mm-box-scan-download-scan-log.png)
 
 [ **Step 3: Copy to migrations**](mm-box-step3-copy-to-migrations.md)
 
