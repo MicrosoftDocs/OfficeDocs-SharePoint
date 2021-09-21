@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.assetid: b1e3cd23-1a78-4264-9284-87fed7282048

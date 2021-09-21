@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: reference
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 search.appverid:
 - SPO160

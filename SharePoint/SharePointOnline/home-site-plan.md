@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
@@ -46,40 +46,32 @@ If you’ve already created the communication site and are ready to specify it a
 
 
 > [!NOTE] 
->Today, home sites can only be created using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell). Admin credentials are required to use SharePoint PowerShell.
-
+>- Home sites can be set using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell). Admin credentials are required to use SharePoint PowerShell.
+>- Targeted Release customer will have the option to [set a communication site as a home site in the SharePoint admin center](/SharePoint/home-site-admin-center) in September. This feature will become available to all customers on September 20 2021.
+>- [Viva Connections](/sharepoint/viva-connections-overview) is currently in Public preview and some Viva Connections features will become available sooner than others.
 
 
 ## What is a SharePoint home site?
 
-Home sites are SharePoint communication sites that have special capabilities such as being marked as an official source of news in the organization. Review key differences between standard SharePoint communication sites and home sites:
+You only need one home site to take advantage of home site features. Home sites do not replace communication or team sites, but instead provide a landing place for your organization. Think of home sites as an *add-on* to your intranet design. Home sites are SharePoint communication sites that have special capabilities such as being marked as an official source of news in the organization. Consider making your tenant's root site the home site. Next, review key differences between standard SharePoint communication sites and home sites.
 
-| Feature                  | Communication site                 | Home site          |
-| :------------------- | :------------------: |:---------------:|
-| Engage and inform broad audiences  | X | X |
-| Customizable branding opportunities                 | X                | X            |
-| Can be turned into a hub site                | X                  | X             |
-| Automatically marked as the official source of organizational news                 |                   | X              |
-| Priority access in the mobile app home button                |                   | X              |
-| Option to enable and customize global navigation in the SharePoint app bar                 |                   | X              |
-| Option to set up Viva Connections              |                    | X              |
 
-### Home site super powers explained
+**Home site features explained:**
 
-Home sites are unlike any other site in SharePoint. When you transform a SharePoint communication site into a home site, you’ll automatically apply special capabilities that make the home site an ideal landing destination for your intelligent intranet.
+Home sites are unlike any other site in SharePoint. When you set a SharePoint communication site as a home site, you’ll automatically apply special capabilities that make the home site an ideal landing destination for your intelligent intranet.
 
-##### Search for content across the entire intranet
+#### Search for content across the entire intranet
 
 Home sites allow users to search for content (such as sites, news, and files) across the entire intranet rather than searching just the site like typical SharePoint sites.
 
-##### Official source of organizational news  
+#### Official source of organizational news  
 By default, a home site is set as the organizational news source. News posts that are created from the home site automatically become official organizational news and take priority on the [SharePoint start page](https://support.microsoft.com/office/discover-content-with-the-sharepoint-start-page-6b85097a-87e0-4611-a29a-dfd49b1a1220) and in the home section of the SharePoint mobile app. Administrators can [set sites as official organizations news sources in the admin center](/sharepoint/organization-news-site).
 
-##### Enable and customize global navigation in the SharePoint app bar
+#### Enable and customize global navigation in the SharePoint app bar
 The SharePoint app bar features a global navigation option that displays intranet navigational nodes and resources no matter where users are in SharePoint. To take full advantage of this feature, you must have a home site. Learn more about how to [enable and customize global navigation in the SharePoint app bar](/SharePoint/sharepoint-app-bar). 
 
-##### Use Viva Connections to integrate your intranet into Microsoft Teams
-Viva Connections is designed to drive engagement, build community, and enable your organization to stay connected. To take advantage of this solution, you’ll need a home site. Then, you can integrate the home site into Microsoft Teams. [Learn more about Viva Connections](/SharePoint/viva-connections).
+#### Use Viva Connections to integrate your intranet into Microsoft Teams
+Viva Connections is designed to drive engagement, build community, and enable your organization to stay connected. To take advantage of this solution, you’ll need a home site. Then, you can integrate the home site into Microsoft Teams. [Learn more about Viva Connections](/SharePoint/viva-connections-overview).
 
 
 
@@ -102,6 +94,7 @@ Before you get started planning and building your home site, review best practic
 #### Considerations:
 -	Align the branding on the home site to the overall intranet brand 
 -	For organizations with many portals and resources, consider [making your home site a hub site](/sharepoint/planning-hub-sites) to expand navigational options and easily sync permissions and branding across many sites
+- If the site you want to be your home site isn't currently your root site and you want it to be, first [replace your root site with the site](modern-root-site.md), and then make the site your home site
 -	Use a home site template from the SharePoint look book called [The Landing](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) to jump-start the design process
 
 
@@ -140,7 +133,7 @@ When you've prepared a plan, you're ready to start creating the home site in Sha
 |  ![image of a clipboard](media/icon-plan.png)   | **Create a modern communication site** | Start by creating a SharePoint communication site and build out the site by using sections, web parts, and pages. Consider using a mega menu and footer to enhance way finding. Web parts that are useful for a home site include: News web part, My feed web part, Yammer web parts, Quick link web part, and the Highlighted content web part.Learn how to [create a communication site](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb#:~:text=Steps%20to%20create%20a%20communication%20site%201%20Sign,news%2C%20events%2C%20and%20other%20content.%20...%20See%20More.), use [modern web parts](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0), and [customize your site](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b#:~:text=Customize%20your%20SharePoint%20site.%201%20Change%20the%20logo.,navigation.%205%20Add%20a%20site%20footer.%20See%20More.). |
 | ![image of an audience](media/icon-build-audience.png)   | **Apply audience targeting**| Next, turn on audience targeting on for the home site. By enabling audience targeting, specific content will be prioritized to specific audiences in navigational links, news, and certain web parts. Learn more about [how audience targeting works](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) and [how to apply it](https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) to navigational links, news, and web parts.|
 | ![image of a site](media/icon-build-flow.png)   | **Set up a page approval flow** | Then, make sure the home site is set up for regular content updates. Turn on content approval to ensure only high-quality content is published on the home site. Learn how to [turn on a page approval flow](https://support.microsoft.com/office/approval-flow-for-modern-pages-a8b2e689-d4a1-4639-8028-333c0ece30d9?ui=en-us&rs=en-us&ad=us).|
-| ![image of a two sites getting switched](media/icon-build-swap.png)   | **Replace the home site with the root site**  | Next, swap the root site with the new home site. The root site for your organization is one of the sites that's provisioned automatically when you purchase and set up a Microsoft 365 plan. Swap the home site with the root site to ensure home site superpowers are fully active. Learn how to [make the root site the home site](/sharepoint/modern-root-site#replace-your-root-site).|
+| ![image of a two sites getting switched](media/icon-build-swap.png)   | **Replace the home site with the root site**  | Before you set a communication site as the home site, make the communication site the root site of your tenant. The root site for your organization is one of the sites that's provisioned automatically when you purchase and set up a Microsoft 365 plan. Make the home site with the root site to ensure home site features are fully active. Learn how to [make the root site the home site](/sharepoint/modern-root-site#replace-your-root-site).|
 | ![image of a house](media/icon-build-home.png)   | **Create the home site** | Next, use the [latest version of PowerShell](https://www.microsoft.com/download/details.aspx?id=35588) to [set the communication site as your home site](/sharepoint/home-site#set-a-site-as-your-home-site).|
 | ![image of a map](media/icon-build-global.png)   | **Set up global navigation** | Then, enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Global navigation can only be customized from the home site’s home page.Learn how to [enable and customize global navigation](/SharePoint/sharepoint-app-bar).|
 | ![image of an approved site](media/icon-build-test.png)   | **Test site health and the viewing experience**  | Finally, review portal launch guidance and understand the main elements that will make sure your home site is healthy. A healthy home site optimizes performance to ensure the best possible viewing experience. Use the Page diagnostics for SharePoint tool to make sure the home page is healthy before sharing with end users. Learn more about [healthy portals](/sharepoint/portal-health) and using the [Page diagnostics tool for SharePoint](/microsoft-365/enterprise/page-diagnostics-for-spo).|
@@ -164,7 +157,7 @@ After you've created your home site, it’s time to plan the launch and make sur
 
 **Q:** I have a new site that I want to use as my home site. What do I do?
 <br>
-As long as your site is a communication site, you can use [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell) to transform your site into a home site to take advantage of home site super powers.
+As long as your site is a communication site, you can use [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell) to transform your site into a home site to take advantage of home site features.
 
 **Q:** What’s the difference between a home site and the SharePoint start page?
 <br>
@@ -188,9 +181,6 @@ At this time, each organization can have only one home site.
 ### Resources
 
 **Watch:** [Build and launch a SharePoint Home Site: Tips and Tricks From The Product Team](https://techcommunity.microsoft.com/t5/video-hub/build-and-launch-a-sharepoint-home-site-tips-and-tricks-from-the/m-p/1696758)
-<br>
-
-[Use PowerShell to create a home site for your organization](/sharepoint/home-site)
 <br>
 
 [Planning your SharePoint hub sites](/sharepoint/planning-hub-sites)

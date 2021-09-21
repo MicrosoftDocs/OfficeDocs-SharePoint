@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
@@ -22,7 +22,7 @@ description: "Create an organization site"
 
 # Guided walkthrough: Creating an organization site
 
-In this article, we show you elements of an example enterprise landing site to inspire you, and help you learn how to create similar sites for your own organization. In this example, the site emphasizes news, resources, and personalized content. You'll see which web parts on used in different sections, along with links for more information on each web part.
+In this article, we show you elements of an example enterprise landing site to inspire you and help you learn how to create similar sites for your own organization. In this example, the site emphasizes news, resources, and personalized content. You'll see which web parts on used in different sections, along with links for more information on each web part.
 
 First, if you haven't already created a Communication site, check out the Create your site section in this article.
 
@@ -32,7 +32,7 @@ Once you have your created your site and know how to edit pages, you can use the
 
 |Web part|Description|
 |----------|------------|
-|![Image of an example enterprise landing site](media/gw-org/gw-org-long.png)|**1 Navigation** <br> Quickly guide visitors to the information they're looking for with site navigation. [Learn how](#navigation) <br> <br> **2 News and events** <br> Keep everyone up to date on the latest happenings. [Learn how](#keep-everyone-up-to-date) <br> <br> **3 Quick links** <br> Format the Quick links web part with icons, images, and descriptions. [Learn how](#quick-links) <br> <br> **4 Important information** <br> Display  important documents and files. [Learn how](#documents-and-files) <br> <br> **5 Personalization** <br> Use web parts designed to dynamically provide personalized information for the user. [Learn how](#personalized-web-parts)|
+|![Image of an example enterprise landing site](media/gw-org/gw-org-long.png)|**1 Navigation** <br> Quickly guide visitors to the information they're looking for with site navigation. <br> [Learn how](#navigation) <br> <br> <br> **2 News and events** <br> Keep everyone up to date on the latest happenings. <br> [Learn how](#keep-everyone-up-to-date) <br> <br> <br> **3 Quick links** <br> Format the Quick links web part with icons, images, and descriptions. <br> [Learn how](#quick-links) <br> <br> <br> **4 Important information** <br> Display  important documents and files. <br> [Learn how](#documents-and-files) <br> <br> <br> **5 Personalization** <br> Use web parts designed to dynamically provide personalized information for the user. <br> [Learn how](#personalized-web-parts)|
 
 ## Create your site
 
@@ -118,11 +118,11 @@ Display a file on the page with the [File viewer web part](https://support.micro
 
 ## Personalized web parts
 
-Recent sites (left column), Highlighted content (middle column), and News (right column) web parts are in a separate, three-column section. Each have the ability to filter content based on the current viewer of the site. These kinds of web parts used in this way can help draw viewers back to the page to see their latest visited sites, content and news.
+Recent sites (left column), Highlighted content (middle column), and News (right column) web parts are in a separate, three-column section. Each can filter content based on the current viewer of the site. These kinds of web parts used in this way can help draw viewers back to the page to see their latest visited sites, content, and news.
 
 ![Image of a three-column section showing recent sites, Highlighted Content, and News](media/gw-org/org-13.png)
 
-For more details on using these web parts, see [Use the Sites web part](https://support.microsoft.com/office/use-the-sites-web-part-93cbd17b-0bf8-4355-9f32-cc90e0443e6d), [Use the Highlighted content web part](https://support.microsoft.com/office/use-the-highlighted-content-web-part-e34199b0-ff1a-47fb-8f4d-dbcaed329efd), and [Use the News web part on a SharePoint page](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165).
+For more information on using these web parts, see [Use the Sites web part](https://support.microsoft.com/office/use-the-sites-web-part-93cbd17b-0bf8-4355-9f32-cc90e0443e6d), [Use the Highlighted content web part](https://support.microsoft.com/office/use-the-highlighted-content-web-part-e34199b0-ff1a-47fb-8f4d-dbcaed329efd), and [Use the News web part on a SharePoint page](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165).
 
 [Back to top](#example-enterprise-landing-site)
 

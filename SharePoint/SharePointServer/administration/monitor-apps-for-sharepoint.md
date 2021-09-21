@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3adafdd2-f276-4a9d-8a74-e06b8916bbc2
 description: "Learn how administrators and site owners can monitor the health and usage details for apps for SharePoint in SharePoint Server."

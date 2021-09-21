@@ -17,7 +17,7 @@ ms.custom:
 - 'O365E_DomainsProp_SPO'
 - 'O365E_DomainsMain_PublicWebsite'
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - MOE150
@@ -41,6 +41,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 > - This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses.
 > - For info about changing a site address, for example, from `https://contoso.sharepoint.com/sites/sample1` to  `https://contoso.sharepoint.com/sites/sample2`, see [Change a site address](change-site-address.md).  
 > - When you rename your SharePoint domain, we create a redirect at the previous address.
+> - You can only rename your SharePoint domain once every six months.
 
 ## Limitations
 
@@ -50,7 +51,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 |---------|---------|---------|
 | Hub site menu items | Although the menu items will continue to work, items that contain absolute URLs aren't changed.  | Edit the menu items and if necessary, change the URLs to the new domain name. |
 | Office "Recent" and "Pinned" lists | These lists are updated immediately for the first 100 users for each URL that was changed. The remaining are updated over time depending on usage. | None |
-|Office.com | The URLs at https://www.office.com can take 24 hours to be updated. | None |
+| Office.com | The URLs at https://www.office.com can take 24 hours to be updated. | None |
 | OneDrive | Only the domain name portion in URLs is changed. The relative path that's based on the User Principle Name (UPN) isn't changed. | None |
 | OneDrive sync app (OneDrive.exe) | Requires version 17.3.6943.0625 or later for all users. | Make sure the URLs "oneclient.sfx.ms" and "g.live.com." aren't blocked, and that all computers in your organization can reach them to apply updates. |
 | OneDrive sync app (OneDrive.exe) | The organization name displayed in Office apps isn't changed. (For example, the app displays the old folder name C:\Users\Sophia\OneDrive – Contoso) | Users can disconnect and reconnect their account in the Office app. |  
@@ -71,6 +72,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 | Delve | It can take 24 hours before People profiles can be viewed. | None |
 | eDiscovery | Holds can't be removed until you update the URLs. | In the Compliance center, change the eDiscovery hold URLs to the new domain name. |
 | InfoPath forms | Forms that use a SharePoint connection as a data source won't work. | Reconnect these forms to SharePoint. |
+| Office apps | While the domain name is being changed, users might experience an error when saving Word, Excel, and PowerPoint documents that are located in a site or OneDrive. | Attempt to save the document again and if required change the URL of the save location.  |
 | Power BI | Power BI reports using SharePoint connections as a data source won't work. |	Before changing your domain name, download the Power BI reports that are using SharePoint connections as a data source as a .pbix file. After you change the domain name, edit the connections in the Power BI Desktop app and republish the report. <br> Power BI reports that are not created or maintained in the Power BI Desktop app will need to be recreated. |
 | Project Online | Workflows that are “in flight” won't complete and will be orphaned. <br> New workflow instances can't be initiated. <br> Association to previous workflow instances isn't available and will be orphaned. | Before changing your domain name, make sure all “in flight” workflows are completed. After you change the domain name, republish the workflows. You can then reset them to "in flight" in Project Web App by going to PWA Settings > Change or Restart Workflows. |
 | Project Online | URLs embedded in workflows aren't changed. For example, if a workflow contains the embedded URL `contoso.sharepoint.com`, it isn't changed. This might impact the functionality of the workflow. | Workflows that contain URLs referring to the original domain name might need to be updated to the new name. |
@@ -86,6 +88,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 | Teams on the web and Teams desktop app | On the Files tab, any folders added with the "Add cloud storage" (which point to another SharePoint site) won't work.| Remove and readd the folders. |
 | Teams on the web and Teams desktop app | Document libraries added as a tab won't work. | Remove and readd the tab. |
 | Teams on the web and Teams desktop app | Embedded images in Wikis won't be displayed. | Edit the Wiki .mht file located in the SharePoint Site Teams Wiki Data library and if necessary, change the URLs of the embedded images to the new domain name. |
+| Teams on the web and Teams desktop app | Personal Wikis won’t work. | In a one-on-one or group chat, attach and send a file to the chat. |
 | Third-party apps including backup solutions | Absolute URLs embedded in these third-party apps (including backup solutions) aren't changed. | Confirm with third-party app publishers (including backup solutions) that they support tenant renames. |
 
 ### High impact
@@ -95,7 +98,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 | Deleted sites | Any sites that have been deleted can't be restored after the change. | Before changing your domain name, review the Deleted sites page in the SharePoint admin center and restore any sites that you might want to keep. |
 | Multi-Geo configurations | Your SharePoint domain name can't be changed if your organization is currently set up for Microsoft 365 Multi-Geo or was previously set up for it.  | No action available. |
 | Point-in-time restoration | Restoring a site to a previous time before the domain name change isn't possible. | No action available.|
-| Vanity domain configurations | Your domain name can't be changed if you have a vanity domain configuration. | No action available. |
+| Vanity domain configurations | If your SharePoint domain is, for example, teams.contoso.com (versus contoso.sharepoint.com), your domain name can't be changed. | No action available. |
 
 ## Step 1: Add the new domain name
 
@@ -146,7 +149,9 @@ It's now possible to change the SharePoint domain name for your organization in 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell". 
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell".
+    > 
+    > When installing the latest version of the SharePoint Online Management Shell, please refer to the System Requirements and Install Instructions.
 
 2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
@@ -172,6 +177,8 @@ It's now possible to change the SharePoint domain name for your organization in 
 You can get the status of the rename by running `Get-SPOTenantRenameStatus`.
 
 During and after the rename, you can get the state of a site by running `Get-SPOSiteRenameState`. For more info about this cmdlet, see [Get-SPOSiteRenameState](/powershell/module/sharepoint-online/get-spositerenamestate).
+
+To cancel a rename that has not started, you can run `Stop-SPOTenantRename`.
 
 ## Step 3: Review features and settings after the rename
 

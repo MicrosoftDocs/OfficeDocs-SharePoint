@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3f1d49bb-af3a-4156-b6d1-7035f9797f2d
 description: "Learn how to add and configure the Recommended Items and Popular Items Web Part in SharePoint Server."

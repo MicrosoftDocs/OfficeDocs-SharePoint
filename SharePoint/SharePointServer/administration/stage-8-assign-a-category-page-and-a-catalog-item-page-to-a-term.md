@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 4e9272a2-78f0-4257-a896-26ae55ff0e51
 description: "Learn how to assign a category page and a catalog item page to a term in SharePoint Server 2016."

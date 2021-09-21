@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5c9d5c10-a7a8-43d1-ac36-a6f50f2d0cd1
 description: "Learn how to plan for email integration in SharePoint Server."

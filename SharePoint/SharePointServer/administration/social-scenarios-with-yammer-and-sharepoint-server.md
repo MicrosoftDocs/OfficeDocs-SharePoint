@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ebf72243-3d0c-43e4-8538-df8e4f4b9c5c
 
 description: "Learn about common scenarios for integrating Yammer with SharePoint Server."

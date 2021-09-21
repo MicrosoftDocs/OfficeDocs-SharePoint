@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 1350e659-04ba-423e-a1b3-c41563073473
 description: "Prepare to implement eDiscovery across SharePoint Server, Exchange Server, and Skype for Business. Determine permissions to grant and how many eDiscovery Centers to create."
