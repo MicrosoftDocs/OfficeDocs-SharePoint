@@ -17,9 +17,9 @@ description: "Learn how to set up improved ASP.NET view state security and key m
 
 # Improved ASP.NET view state security and key management
 
-SharePoint can now encrypt the `machineKey` section of its `web.config` files by default. This prevents attackers from reading your ASP.NET view state encryption and validation keys even if they gain access to those `web.config` files.
+SharePoint can now encrypt the `machineKey` section of its `web.config` files by default. This prevents attackers from reading your ASP.NET view state encryption and validation keys, even if they gain access to those `web.config` files.
 
-We have also introduced the ability to change the ASP.NET view state decryption and validation keys of a SharePoint web application through two new PowerShell cmdlets. This allows you to rotate those keys in your farm.
+Using the following new Powershell cmdlets, you can change the ASP.NET view state decryption and validation keys of a SharePoint web application, thus allowing you to rotate those keys in your farm.
 
 ## PowerShell cmdlets
 
@@ -75,8 +75,7 @@ We have also introduced the ability to change the ASP.NET view state decryption 
 
     #### `-Local`
     
-    Deploy the new decryption and validation keys only to the local server. Other servers in the farm continue to use the previous decryption and validation keys. Web sessions that are load balanced across multiple servers in the farm will fail if these keys are not synchronized on every server in the farm.
+    Deploys the new decryption and validation keys only to the local server. Other servers in the farm continue to use the previous decryption and validation keys. Web sessions that are load balanced across multiple servers in the farm will fail if these keys are not synchronized on every server in the farm.
 
     If this parameter is not specified, the decryption and validation keys is deployed to all servers in the farm.
-  
   
