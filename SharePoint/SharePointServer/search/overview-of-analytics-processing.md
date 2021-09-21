@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 31b74292-9333-455d-8c52-aba97bbfc0e6
 description: "Learn how the Analytics Processing Component analyzes content and user actions to improve search relevance."

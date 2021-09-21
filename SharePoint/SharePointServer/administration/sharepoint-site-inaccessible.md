@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: b30dfec9-22b5-4e59-b2fc-e1e3077222cb
 description: "Troubleshooting the SharePoint Server and SharePoint in Microsoft 365 site inaccessible error can be hard. Here is a workflow that both users and administrators can use to identify and fix some of the most common causes of the site inaccessible error."

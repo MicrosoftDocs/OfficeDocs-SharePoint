@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3fa7973f-2c1a-4be0-b903-3f1e6bdcf1d8
 description: "Learn how to create and configure a SharePoint Search service application so that you can crawl content and provide search results to users."

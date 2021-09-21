@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: bd64e8e4-3aa6-4c0a-b929-f37a254dde26
 description: "Learn how use Recommended Items and Popular Items on websites with anonymous users in SharePoint Server."

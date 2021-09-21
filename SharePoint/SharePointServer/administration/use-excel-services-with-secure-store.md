@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2d11e10c-c224-46a6-8c03-07913b38c13e
 description: "Learn about the options available for using the Secure Store Service with Excel Services in SharePoint Server 2013 to refresh data from external data sources."
 ---

@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: guide
 ms.service: one-drive
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection: 

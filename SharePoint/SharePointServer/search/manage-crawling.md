@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 6d980186-7f23-46e9-a2aa-750f1c24fc3d
 description: "Learn how to crawl content that you want users to be able to search for in SharePoint Server."
