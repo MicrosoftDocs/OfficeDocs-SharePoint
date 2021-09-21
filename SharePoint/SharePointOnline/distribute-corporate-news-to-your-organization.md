@@ -38,7 +38,7 @@ News is distributed across SharePoint, Teams, and through Viva Connections.
 |Viva Connections for Microsoft Teams Desktop     |   Displays news on the home site in a feed    |
 |Viva Connections Mobile app*    |   Displays in the Feed based on relevance to the user      |
 |Viva Connections Dashboard*   |  Add one or more cards that highlight news from the organization or different departments. Decide your audiences and where and when you want to share the news.
-|Email in Outlook     |    News digest automatically sent with your branding.   |    |
+|Email in Outlook     |    News digest automatically sent with your branding.   |    
 
 ***Coming in fall 2021**.
 
@@ -72,7 +72,7 @@ To enable and specify the site for organization news, a SharePoint administrator
 - [Get-SPOOrgNewsSite](/powershell/module/sharepoint-online/get-spoorgnewssite)
 - [Set-SPOOrgNewsSite](/powershell/module/sharepoint-online/set-spoorgnewssite)
 
-For more information see [Create an organization news site](https://docs.microsoft.com/en-us/sharepoint/organization-news-site).
+For more information see [Create an organization news site](https://docs.microsoft.com/sharepoint/organization-news-site).
 
 ## Create news posts on sites
 
