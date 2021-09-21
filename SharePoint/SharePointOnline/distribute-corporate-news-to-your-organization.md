@@ -12,7 +12,9 @@ localization_priority: Normal
 search.appverid:
 ms.collection:  
 ms.custom:
+ROBOTS: NOINDEX, NOFOLLOW
 description: "In this article, you'll learn how to distribute news within your organization."
+
 ---
 
 # Distribute corporate news to your organization
