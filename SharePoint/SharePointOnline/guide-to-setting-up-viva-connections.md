@@ -66,9 +66,9 @@ A home site is a SharePoint communication site that acts as the front door to yo
 > - Home sites are generally high-traffic sites that should be [optimized for performance](/portal-health)
 
 ### Get started
-1. If your organization does not already have a home site, learn more about [how to plan a home site](/home-site-plan). 
+1. If your organization does not already have a home site, learn more about [how to plan a home site](/Sharepoint/home-site-plan). 
 2. Then, [set the home site](/home-site-admin-center) in the SharePoint admin center.
-3. Make sure you [share the home site](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658) with everybody in your organization.
+3. Make sure you [/Sharepoint/share the home site](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658) with everybody in your organization.
 
 
 ### Permissions
