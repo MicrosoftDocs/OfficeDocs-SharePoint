@@ -22,6 +22,7 @@ search.appverid:
 - SPO160
 - MET150
 - BSA160
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to use PowerShell to set a communication site as the home site for your organization."
 ---
 
@@ -39,8 +40,8 @@ Before you begin, make sure you've reviewed how to [plan, build, and launch a ho
 
 After you create and customize the communication site that you want to use as your home site, you need to run a PowerShell cmdlet to set it as your home site. To run this cmdlet, you must be a site admin of the site.
 
-> [!IMPORTANT]
-> If the site you want to be your home site isn't currently your root site and you want it to be, first [replace your root site with the site](modern-root-site.md), and then make the site your home site. 
+> [!IMPORTANT] 
+> - If the site you want to be your home site isn't currently your root site and you want it to be, first [replace your root site with the site](modern-root-site.md), and then make the site your home site. 
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
