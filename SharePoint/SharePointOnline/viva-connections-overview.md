@@ -44,7 +44,7 @@ Microsoft Viva Connections is your gateway to a modern engagement experience des
 
 ## Viva Connections mobile and desktop experiences
 
-![image showing viva connections on mobile and desktop](media/vc-hero.png)
+![image of viva connections on mobile and desktop](media/vc-hero.png)
 
 ### The Viva Connections mobile experience
 The Viva Connections mobile app is optimized to provide a fast, native, and branded experience focused on Dashboard, Feed, and Resources. It is a Teams application that is branded with your company name and logo.
@@ -52,7 +52,7 @@ The Viva Connections mobile app is optimized to provide a fast, native, and bran
 #### Dashboard, Feed, and Resources
 The experience in the Viva Connections mobile app is anchored around three key concepts: the Dashboard, the Feed, and Resources.
 
-![image showing viva connections on mobile and desktop](media/vc-pivots.png)
+![image of the three viva connections pivots on mobile and desktop](media/vc-pivots.png)
 
 - **Dashboard**: The Dashboard is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. The Dashboard uses dynamic cards that employees can interact with to do things like complete simple tasks or review critical data. It’s authored in SharePoint and published to the Viva Connections Teams mobile app. 
 <br>
