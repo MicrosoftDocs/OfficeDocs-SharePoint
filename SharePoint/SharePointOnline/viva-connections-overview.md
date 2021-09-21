@@ -1,8 +1,8 @@
 ---
 title: "Overview: Viva Connections (Preview)"
 ms.reviewer: 
-ms.author: loreenl
-author: loreenl
+ms.author: hokavian
+author: Holland-ODSP
 manager: pamgreen
 audience: Admin
 f1.keywords:
@@ -40,7 +40,7 @@ Microsoft Viva Connections is your gateway to a modern engagement experience des
 **Viva Connections is:**
 - A branded application experience in Microsoft Teams that is optimized to enable experiences for information workers and frontline workers
 - A gateway to employee experiences, with the ability for you to curate the content and tools you want to deliver through quick access to data and tasks, relevant news, communications, people, and resources
-- Built on existing capabilities in Microsoft 365 like SharePoint and Yammer
+- Built on existing capabilities in Microsoft 365 like SharePoint, Yammer, and Stream.
 
 ## Viva Connections mobile and desktop experiences
 
@@ -101,7 +101,7 @@ A tailored experience is one in which content is automatically displayed accordi
 Matching your company or organizational brand is integral to your employee’s connection with your company's values and goals. The branding you apply in Teams to the Viva Connections app – including your logo and colors – is automatically applied to the mobile app. For information on how to apply your branding in an app, see [Customize apps in Microsoft Teams](/microsoftteams/customize-apps).
 
 ## Localization
-Viva Connections is available in most major languages used in Microsoft 365. Learn more about how to set up the Viva Connections mobile experience in a specific language.  
+Viva Connections is available in most major languages used in Microsoft 365. [Learn more about how to set up the Viva Connections mobile experience in a specific language](viva-connections-language.md).  
 
    - **Dashboard:** content can be set by Dashboard authors to support multiple languages.
    - **Feed:** the content will be available in the format in which it was authored and SharePoint news posts will display author-translated posts in the user’s preferred language.
@@ -188,6 +188,9 @@ Users will see content aggregated from the following sources, provided they have
     - Posts to the organization community
     - Featured posts
     - Posts to communities that the user follows
+- **Stream (built on SharePoint)**
+    - [Video news links](/SharePoint/video-news-links) on organization news sites
+    - Video in a news post
 
 ## Viva Connections Resources
 The **Resources** tab of the mobile app automatically uses the global navigation links that you set up in your [SharePoint app bar](/SharePoint/SharePointOnline/sharepoint-app-bar.md). This type of functioning provides users with a familiar navigation structure and allows them to open sites, pages, news, and more — right from their mobile devices.
