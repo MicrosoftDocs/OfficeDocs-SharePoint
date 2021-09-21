@@ -17,7 +17,7 @@ description: "Learn how to create virtual test environments for SharePoint Serve
 
 # Create Test and Developer Environments
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-xxx-md.md)]
 
 There are several options for creating test environments for SharePoint Server.
   

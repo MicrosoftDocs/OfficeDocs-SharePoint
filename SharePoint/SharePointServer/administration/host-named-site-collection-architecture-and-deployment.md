@@ -20,7 +20,7 @@ description: "Plan and implement host-named site collections in SharePoint Serve
 
 # Host-named site collection architecture and deployment in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Host-named site collections are the preferred method to deploy sites in SharePoint Server. Because the Microsoft 365 environment uses host-named site collections, new features are optimized for these site collections and they are expected to be more reliable. Learn how to plan for and implement host-named site collections, design URLs, and manage URLs.
     

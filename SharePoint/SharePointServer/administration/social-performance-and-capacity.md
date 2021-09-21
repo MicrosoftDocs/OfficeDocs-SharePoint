@@ -18,7 +18,7 @@ description: "Learn how to determine the number and types of computers that you 
 
 # Estimate performance and capacity requirements for social environments (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 To create a performance and capacity plan for an enterprise intranet My Site and social computing portal solution, this article contains information about the following areas: 
   

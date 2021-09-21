@@ -20,7 +20,7 @@ description: "Learn how to configure a Managed Metadata service application in S
 
 # Configure the Managed Metadata service
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In this article we cover how to configure a Managed Metadata service application in SharePoint Server. Be sure you've [planned your configuration](managed-metadata-planning.md) before you follow the procedures below. 
   

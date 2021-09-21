@@ -18,7 +18,7 @@ description: "Learn about the timer jobs in SharePoint Server."
 
 # Default timer jobs in SharePoint Server 2019
 
-[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-xxx-md.md)]
 
 ## Default timer jobs
 <a name="DefaultJobs"> </a>

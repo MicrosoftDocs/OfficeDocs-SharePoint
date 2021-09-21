@@ -24,7 +24,7 @@ description: "Learn what prerequisites you'll need to configure hybrid for Share
 
 # Hardware and software requirements for SharePoint hybrid
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 This article describes the prerequisites that are required to deploy a SharePoint hybrid solution between SharePoint Server and SharePoint in Microsoft 365 for enterprises.
   

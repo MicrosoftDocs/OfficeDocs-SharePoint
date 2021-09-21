@@ -18,7 +18,7 @@ description: "Learn how to configure the query and properties of the Search Resu
 
 # Configure properties of the Search Results Web Part in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The Search Results Web Part displays the search results of a query entered in a Search Box Web Part. By default, the Search Results Web Part is used on all search vertical pages (results.aspx, peopleresults.aspx, conversationresults.aspx, videoresults.aspx). The Search Results Web Part displays the actual search results and it also passes the search results to the Refinement Web Part and the Search Navigation Web Part on the same page.
   

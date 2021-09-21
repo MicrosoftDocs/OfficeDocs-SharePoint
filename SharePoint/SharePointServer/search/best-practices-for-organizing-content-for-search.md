@@ -18,7 +18,7 @@ description: "Learn how to organize SharePoint Server content and metadata to ma
 
 # Best practices for organizing content for search in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 These best practices for organizing SharePoint Server content and applying useful metadata will help make sure that the right content is included in the search index and that the right content is returned in search results. 
   

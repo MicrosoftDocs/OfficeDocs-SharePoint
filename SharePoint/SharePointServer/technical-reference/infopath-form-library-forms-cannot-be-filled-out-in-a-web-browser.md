@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath
 
 # InfoPath form library forms cannot be filled out in a Web browser (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
  **Rule Name:** InfoPath form library forms cannot be filled out in a Web browser 
   

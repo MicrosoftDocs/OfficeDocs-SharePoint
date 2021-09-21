@@ -19,7 +19,7 @@ description: "Learn how to back up a single site collection in SharePoint Server
 
 # Back up site collections in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can back up a site collection in SharePoint Server by using the SharePoint Central Administration website or Microsoft PowerShell. 
   

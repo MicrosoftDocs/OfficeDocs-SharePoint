@@ -22,7 +22,7 @@ description: "Plan and prepare to configure inbound connectivity from Microsoft 
 
 # Plan connectivity from Microsoft 365 to SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
   
 This article is designed to help you plan and prepare to configure inbound connectivity from Microsoft 365 for enterprises to SharePoint Server through a reverse proxy device. This is required for the following hybrid environments: 
   

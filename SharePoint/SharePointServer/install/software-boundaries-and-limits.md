@@ -21,7 +21,7 @@ description: "Learn about the tested performance and capacity limits of SharePoi
 
 # Software boundaries and limits for SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 This article describes software boundaries and limits of SharePoint Server 2013. These include the following:
   

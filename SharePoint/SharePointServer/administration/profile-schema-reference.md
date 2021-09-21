@@ -18,7 +18,7 @@ description: "Understand the XML schema for profiles for use in scripted monitor
 
 # Profile schema reference in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 When you run the BackupMonitoringSettings.ps1 Microsoft PowerShell script on a SharePoint farm, you create a file that's called a Profile. The Profile follows an XML schema. You can modify settings of elements of the schema to create a custom Profile. You can then use the custom Profile to automate configuration of the monitoring settings in a SharePoint environment. For an introduction to scripted monitoring configuration, see [Overview of scripted monitoring configuration in SharePoint Server](overview-of-scripted-monitoring-configuration.md).
   

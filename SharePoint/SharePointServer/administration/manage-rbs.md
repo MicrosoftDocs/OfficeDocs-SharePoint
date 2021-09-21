@@ -21,7 +21,7 @@ description: "Learn about Remote BLOB Storage (RBS) and how to manage RBS in Sha
 
 # Manage RBS in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Remote BLOB Storage (RBS) is an add-in that you can install when you install SQL Server 2008 or SQL Server 2014 Service Pack 1 (SP1). RBS is designed to move the storage of binary large objects (BLOBs) from database servers to commodity storage solutions. If the content databases in SharePoint Server are 4 gigabytes (GB) or larger, consider using RBS as part of your data storage solution.
   

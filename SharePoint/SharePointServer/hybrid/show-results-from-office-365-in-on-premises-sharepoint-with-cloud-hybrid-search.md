@@ -26,7 +26,7 @@ description: "Learn how to show results from the Microsoft 365 search index when
 
 # Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 Learn how to show results from the Microsoft 365 search index when searching from SharePoint Server sites with cloud hybrid search.
   

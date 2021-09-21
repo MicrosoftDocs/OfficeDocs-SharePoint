@@ -26,7 +26,7 @@ description: Learn how to use the Hybrid Picker wizard in the SharePoint admin c
 
 # Hybrid picker in the SharePoint admin center
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 ## What is the Hybrid Picker?
 

@@ -18,7 +18,7 @@ description: "Learn how to change the Content Search Web Part display template a
 
 # Change the Content Search Web Part display template and use Windows PowerShell to start Usage analytics in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 > [!NOTE]
 > The examples in this series are based on an on-premises SharePoint Server deployment. 

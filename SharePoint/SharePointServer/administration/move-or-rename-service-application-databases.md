@@ -19,7 +19,7 @@ description: "Learn how to move or rename service application databases in Share
 
 # Move or rename service application databases in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Learn how to move or rename service application databases in SharePoint Server.
   

@@ -23,7 +23,7 @@ description: "Learn how to install SharePoint Server on a single server."
 
 # Install SharePoint Servers 2016 or 2019 on one server
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
   
  You can install and configure SharePoint Servers 2016 or 2019 on a single server if you are hosting only a few sites for a limited number of users or if you want to create a trial or development environment. This configuration is also useful if you want to configure a farm to meet your needs first, and then add servers to the farm at a later stage. 
   

@@ -19,7 +19,7 @@ description: "Learn how to publish a service application in SharePoint Server."
 
 # Publish service applications in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 In SharePoint Server, some service applications can be published across farms and thereby be made available over remote connections.
   

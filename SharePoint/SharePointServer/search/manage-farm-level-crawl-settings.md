@@ -18,7 +18,7 @@ description: "Configure certain crawl settings at the farm level in SharePoint S
 
 # Manage farm-level crawl settings in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can perform the following procedures to configure certain crawl settings at the farm level:
   

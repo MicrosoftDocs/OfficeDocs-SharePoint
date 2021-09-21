@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Info
 
 # The InfoPath Forms Services Maintenance timer job is not enabled (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
  **Rule Name:** The InfoPath Forms Services Maintenance timer job is not enabled. 
   

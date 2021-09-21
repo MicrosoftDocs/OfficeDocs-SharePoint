@@ -22,7 +22,7 @@ description: "Read about SharePoint hybrid solutions. Get details on cloud hybri
 
 # Plan SharePoint Server hybrid
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
   
 After you have determined which hybrid solution is right for you, follow the associated planning article below to guide you through the planning and organization process.
   

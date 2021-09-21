@@ -19,7 +19,7 @@ description: "How to delete and restore SharePoint Server site collection conten
 
 # Delete and restore site collections in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 If you've created a team site to track progress on a specific project, and the project has ended, you might decide to delete the site collection after a certain amount of time has passed. 
   

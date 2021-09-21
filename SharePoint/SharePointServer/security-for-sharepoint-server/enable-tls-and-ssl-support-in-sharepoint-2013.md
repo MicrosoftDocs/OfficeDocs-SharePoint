@@ -20,7 +20,7 @@ description: "This article describes how to enable Transport Layer Security (TLS
 
 # Enable TLS and SSL support in SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 TLS protocol version 1.1 and 1.2 support is not enabled by default in SharePoint Server 2013. To enable support, you'll have to install updates and change configuration settings  *once*  in each of the following locations: 
   

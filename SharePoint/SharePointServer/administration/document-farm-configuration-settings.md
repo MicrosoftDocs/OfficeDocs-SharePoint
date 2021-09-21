@@ -20,7 +20,7 @@ description: "Learn how to document farm configuration settings in SharePoint Se
 
 # Document farm configuration settings in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You can document your farm configuration settings in SharePoint Server by using PowerShell. 
   

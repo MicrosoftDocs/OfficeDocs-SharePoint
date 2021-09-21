@@ -21,7 +21,7 @@ description: "Learn about the accounts to use to manage SharePoint Server deploy
 
 # Plan for administrative and service accounts in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 To install SharePoint Server, you have to have appropriate administrative and service accounts on servers running SharePoint Server and SQL Server. After installation, you need to have appropriate administrative and service accounts to modify and maintain the environment. The accounts that you require to complete these groups of tasks are not necessarily the same. This article describes the accounts that you require after installation for a single server environment and a server farm environment.
   

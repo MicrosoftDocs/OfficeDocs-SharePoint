@@ -20,7 +20,7 @@ description: "Configure storage of authorization credentials in Secure Store Ser
 
 # Configure the Secure Store Service in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article describes how to configure the Secure Store Service on a SharePoint Server farm. Secure Store has important planning considerations associated with it. Be sure to read [Plan the Secure Store Service in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)) before you begin the procedures in this article. 
   

@@ -19,7 +19,7 @@ description: "Learn about apps for SharePoint, the SharePoint Store, and the App
 
 # Install and manage apps for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Apps for SharePoint provide a method to deliver specific information or functionality to a SharePoint site. An app for SharePoint is a small, stand-alone app that solves a specific end-user or business need. Site owners can discover and download apps for SharePoint from a public SharePoint Store or from their organization's internal App Catalog and install them on their SharePoint sites. Unlike features and solutions, which farm or site collection administrators have to install, apps for SharePoint are stand-alone applications that owners of sites can add to their SharePoint sites. The apps for SharePoint have a simple lifecycle - they can be installed, upgraded, and uninstalled by site owners.
   

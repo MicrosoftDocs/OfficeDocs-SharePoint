@@ -21,7 +21,7 @@ description: "Find resources about how to plan to upgrade from SharePoint 2010 P
 
 # Plan for upgrade to SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]   
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]   
   
 In order to have a successful upgrade to SharePoint 2013, you must plan for the upgrade. This section contains articles that help you plan and prepare for upgrading from SharePoint 2010 Products to SharePoint 2013.
   

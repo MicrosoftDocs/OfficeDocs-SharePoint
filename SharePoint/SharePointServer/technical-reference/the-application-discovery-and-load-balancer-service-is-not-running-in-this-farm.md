@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Appl
 
 # The Application Discovery and Load Balancer Service is not running in this farm (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
  **Rule Name:** The Application Discovery and Load Balancer Service is not running in this farm. 
   

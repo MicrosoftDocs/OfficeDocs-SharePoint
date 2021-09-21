@@ -20,7 +20,7 @@ description: "Learn how to upgrade My Sites in SharePoint Server 2013."
 
 # Upgrade My Sites to SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 My Sites are site collections owned by the user for the user to store their documents, connect with other users, follow and discover content, and so on. Upgrading My Sites differs from upgrading other site collections because My Sites consist of both the shared My Site Host site collection (also known as the My Site Host) and the My Site personal site collection (also known as the personal site collection). 
   

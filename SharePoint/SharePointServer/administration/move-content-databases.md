@@ -20,7 +20,7 @@ description: "Learn how to move content databases in SharePoint Server."
 
 # Move content databases in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 This article describes how to move content databases between servers that are running SQL Server, between instances of SQL Server, or from one SharePoint Server web application to another.
   

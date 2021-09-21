@@ -19,7 +19,7 @@ description: "How to create, edit, and delete site quota templates for a SharePo
 
 # Create, edit, and delete quota templates in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You control how much data a site collection can hold and the quantity of resources it can use by using quotas. For more information about how to plan quotas, see [Quotas](plan-site-maintenance-and-management.md#section1).
   

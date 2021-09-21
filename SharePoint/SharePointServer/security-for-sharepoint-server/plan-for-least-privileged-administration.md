@@ -20,7 +20,7 @@ description: "Learn about how to use least-privileged administration to configur
 
 # Plan for least-privileged administration in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The concept of least-privileged administration is to assign users the minimum permissions that are required for users to complete authorized tasks. The goal of least-privileged administration is to configure and help maintain secure control of an environment. The result is that each account under which a service runs is granted access to only the resources that are absolutely necessary.
   

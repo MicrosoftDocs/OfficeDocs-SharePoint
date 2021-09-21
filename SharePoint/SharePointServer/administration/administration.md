@@ -20,7 +20,7 @@ description: "The articles in this section help you operate and maintain servers
 
 # Administration of SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
   
 ## Articles about operations and maintenance in SharePoint Server

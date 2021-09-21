@@ -19,7 +19,7 @@ description: "Learn how to import a site, list, or document library in SharePoin
 
 # Import a list or document library in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You can import a site, list, or document library in SharePoint Server by using PowerShell.
   

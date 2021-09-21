@@ -19,7 +19,7 @@ description: "Learn about the multilingual user interface feature, how it works,
 
 # Plan for the multilingual user interface in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 The multilingual user interface (MUI) feature enables users to display the user interface of a SharePoint Server or SharePoint in Microsoft 365 site in the language they prefer, instead of the default language that was selected when the site was created. This article describes the use and benefits of the MUI feature, explains how the feature works, and lists the other features and functionality that are supported by the feature. It also describes how to add and edit application content, and how to export and import content for translation. It explains how to use the MUI feature with managed metadata, and describes the limitations of the feature. Finally, this article describes how to plan for using the MUI feature in a SharePoint Server site solution.
   

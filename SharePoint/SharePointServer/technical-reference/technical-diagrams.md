@@ -22,7 +22,7 @@ description: "These diagrams provide visual representations of recommended solut
 
 # Technical diagrams for SharePoint Server
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
   
 These resources are available in Visio (.vsdx) and PDF formats You might need additional software to view the files, here's an overview:
   

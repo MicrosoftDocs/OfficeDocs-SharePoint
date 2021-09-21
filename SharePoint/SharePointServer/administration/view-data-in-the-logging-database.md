@@ -18,7 +18,7 @@ description: "Learn about the SharePoint logging database, how to view monitorin
 
 # View data in the logging database in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 - [Introduction to the SharePoint logging database](#section1)
     

@@ -21,7 +21,7 @@ description: "Keywords help you narrow down the specific content that you produc
 
 # Searching and using keywords in the eDiscovery Center
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Keywords help you narrow down the specific content that you produce through export for an eDiscovery case. By creating focused searches, you increase the likelihood that content is applicable to a case, and reduce the amount of content that you need to manage. 
   

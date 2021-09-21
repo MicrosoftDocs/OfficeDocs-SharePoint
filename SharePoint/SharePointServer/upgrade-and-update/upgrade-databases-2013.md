@@ -20,7 +20,7 @@ description: "Find resources to help you perform the steps to upgrade databases 
 
 # Upgrade databases from SharePoint 2010 to SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 After you learn about the upgrade process, plan for your upgrade, and test your upgrade process by following the steps in the articles in [Test and troubleshoot an upgrade to SharePoint 2013](test-troubleshoot-upgrade-2013.md), you are ready to perform a database-attach upgrade to SharePoint 2013. Follow the steps in this section for both a trial upgrade and your actual upgrade for your production farm.
   

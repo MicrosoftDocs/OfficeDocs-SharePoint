@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Web.conf
 
 # Web.config file has incorrect settings for the requestFiltering element (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
  **Rule Name:** Web.config file has incorrect settings for the requestFiltering element. 
   

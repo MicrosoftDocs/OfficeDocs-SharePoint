@@ -21,7 +21,7 @@ description: "Learn how to plan for app authentication in SharePoint Server."
 
 # Plan for app authentication in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]  
   
 App authentication is the validation of an external app for SharePoint's identity and the authorization of both the app and an associated user when the app requests access to a secured SharePoint resource. App authentication occurs when an external component of a SharePoint Store app or an App Catalog app, such as a web server that is located on the intranet or the Internet, attempts to access a secured SharePoint resource. For example, an app for SharePoint that includes a component that runs in Microsoft Azure is an external app. App authentication enables a new set of functionality and scenarios that can be achieved by allowing apps to include data from SharePoint resources in the results that the app processes and displays for users.
   

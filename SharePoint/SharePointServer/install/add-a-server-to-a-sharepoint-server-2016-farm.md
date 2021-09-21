@@ -20,7 +20,7 @@ description: "Learn how to add a server to an existing SharePoint Server farm."
 
 # Add a server to a SharePoint Servers 2016 or 2019 farm
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
   
     
 ## Before you add a server to a SharePoint farm

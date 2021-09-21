@@ -18,7 +18,7 @@ description: "Learn which connectors that by default are installed in SharePoint
 
 # Default connectors in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The crawler uses connectors to connect to content repositories. In previous SharePoint Server products, connectors were known as protocol handlers.
   

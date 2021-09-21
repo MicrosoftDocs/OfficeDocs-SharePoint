@@ -20,7 +20,7 @@ description: "Plan to store authorization credentials in an encrypted database b
 
 # Plan the Secure Store Service in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The Secure Store Service is a claims-aware authorization service that includes an encrypted database for storing credentials.
     

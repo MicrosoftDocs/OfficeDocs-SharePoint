@@ -17,7 +17,7 @@ description: "Learn how to use versioning, content approval, and check-out in Sh
 
 # Plan document versioning, content approval, and check-out controls in SharePointServer
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article describes how to plan to use versioning, content approval, and check-out in SharePoint Server to control document versions throughout their life cycle.
   

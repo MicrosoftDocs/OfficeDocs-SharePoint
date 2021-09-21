@@ -20,7 +20,7 @@ description: "Learn how to upgrade My Sites site collections in SharePoint Serve
 
 # Upgrade My Sites to SharePoint Server 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
   
 ## 
 

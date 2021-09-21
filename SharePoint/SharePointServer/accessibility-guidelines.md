@@ -18,7 +18,7 @@ description: "Access and learn about the W3C Web Content Accessibility Guideline
 
 # Accessibility guidelines in SharePoint Server 2016
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
   
 SharePoint Server supports the accessibility features of common browsers that help IT Pros administer deployments and access sites. For more information about supported features, see [Web Content Accessibility Guidelines 2.0](https://www.w3.org/TR/WCAG20/).
   

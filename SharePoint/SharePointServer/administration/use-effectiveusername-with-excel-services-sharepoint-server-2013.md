@@ -17,7 +17,7 @@ description: "Use the Analysis Services EffectiveUserName feature to refresh dat
 
 # Use EffectiveUserName with Excel Services (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 > [!IMPORTANT]
 > This scenario applies only to Excel Services with an Analysis Services data source on SharePoint Server 2013 Enterprise. 

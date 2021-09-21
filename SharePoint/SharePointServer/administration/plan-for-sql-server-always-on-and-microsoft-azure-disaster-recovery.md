@@ -22,7 +22,7 @@ description: "Use SQL Server 2014 and SQL Server Always On Availability Groups a
 
 # Plan for SQL Server Always On and Microsoft Azure for SharePoint Server Disaster Recovery
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Use SQL Server 2014 and SQL Server 2016 Always On Availability Groups and Microsoft Azure to create a hybrid disaster-recovery environment for your on-premises SharePoint Server farm. This article describes how to design and implement this solution.
   

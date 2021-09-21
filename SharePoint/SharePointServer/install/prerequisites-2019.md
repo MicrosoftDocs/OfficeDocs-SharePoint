@@ -22,7 +22,7 @@ description: "Learn about permissions, accounts, security settings, and what you
 
 # Prerequisites for SharePoint Servers 2016 and 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
   
 The following downloadable resources, articles, video recordings, and related resources provide information about how to prepare for SharePoint Server installation and initial configuration.
   

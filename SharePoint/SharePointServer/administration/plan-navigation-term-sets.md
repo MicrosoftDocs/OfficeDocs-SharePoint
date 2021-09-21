@@ -18,7 +18,7 @@ description: "Learn how to create the navigation term set to provide site naviga
 
 # Plan navigation term sets in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The managed navigation feature in SharePoint Server and SharePoint in Microsoft 365 enables you to build navigation for a publishing site that is derived from a SharePoint Server managed metadata taxonomy. If your publishing site uses managed navigation, then a navigation term set is associated with the site. You can configure the global navigation control and the current navigation control to use the navigation term set to determine what to display. This article explains the information that you will need to provide for each node in the navigation hierarchy, explains how to record this information in a worksheet, and provides links to other articles that explain how to implement your plan.
   

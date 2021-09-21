@@ -18,7 +18,7 @@ description: "Learn how the search schema is used to build up the search index. 
 
 # Overview of the search schema in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The search index is the center of search. What is in your search index determines what people will find when they look for information by entering search queries or by interacting with internet or intranet pages.
   

@@ -21,7 +21,7 @@ description: "Introduces articles that describe how to install SharePoint in var
 
 # Install for SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 Testing and implementing SharePoint 2013 solutions at different stages of the deployment life cycle requires deployments in various topologies.
   

@@ -17,7 +17,7 @@ description: "Learn about the Document Set feature in SharePoint Server, how to 
 
 # Plan document sets in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article describes Documents Sets and provides guidance on how you can integrate them with your SharePoint Server document management solution.
   

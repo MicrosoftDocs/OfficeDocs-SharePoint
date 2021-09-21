@@ -17,7 +17,7 @@ description: "Learn how to plan document library use, access, and workflow in Sh
 
 # Plan document libraries in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 This article describes how to plan document libraries in your SharePoint Server document management solution.
   

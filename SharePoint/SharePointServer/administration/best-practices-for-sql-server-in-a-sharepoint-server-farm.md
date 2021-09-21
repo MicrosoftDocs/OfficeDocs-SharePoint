@@ -19,7 +19,7 @@ description: "Learn how to implement best practices for SQL Server in a SharePoi
 
 # Best practices for SQL Server in a SharePoint Server farm
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 When you configure and maintain SharePoint Server 2016 and 2019 relational databases on SQL Server 2014 with Service Pack 1 (SP1), SQL Server 2016, or SQL Server 2017 RTM, you have to choose options that promote performance and security. Likewise, you have to choose options that promote performance and security when you configure and maintain SharePoint Server 2013 relational databases on SQL Server 2008 R2 with Service Pack 1 (SP1), SQL Server 2012, and SQL Server 2014.
   

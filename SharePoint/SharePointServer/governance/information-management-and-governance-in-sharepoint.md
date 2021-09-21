@@ -18,7 +18,7 @@ description: "Learn how to plan effective information architecture to ensure tha
 
 # Information management and governance in SharePoint
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 How will you govern the information in your organization, such as documents, lists, websites, and webpages? How do you maximize the information's usability and manageability? Who has access to what information? How are you making information available internally and externally, and to whom?
   

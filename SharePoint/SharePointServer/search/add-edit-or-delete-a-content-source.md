@@ -18,7 +18,7 @@ description: "Learn how to create a content source to specify what type of conte
 
 # Add, edit, or delete a content source in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 A content source is a set of options that you use to specify what, when, and how to crawl. 
   

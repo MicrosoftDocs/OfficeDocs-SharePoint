@@ -18,7 +18,7 @@ description: "Learn how to plan an enterprise search architecture."
 
 # Plan enterprise search architecture in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Before you set up your enterprise search architecture, there are quite a few things that require careful planning. Step by step, we'll help you to plan a small, a medium, large, or an extra large-size enterprise search architecture.
   

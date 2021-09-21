@@ -18,7 +18,7 @@ description: "Learn how set up a product-centric website in SharePoint Server."
 
 # How to set up a product-centric website in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 This series of articles explains how to use SharePoint Server to set up a website based on product catalog data. Throughout this series, we'll use data from a fictitious company called "Contoso" to show how it all comes together. Contoso is a manufacturer and retailer of technology products and home appliances, and they want to set up a product-centric website to present their catalog to potential customers.
   

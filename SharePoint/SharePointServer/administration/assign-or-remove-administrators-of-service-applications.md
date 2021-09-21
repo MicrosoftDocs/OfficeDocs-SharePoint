@@ -19,7 +19,7 @@ description: "Learn how to assign or remove service administrators to a service 
 
 # Assign or remove administrators of service applications in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 An administrator of a SharePoint Server service application must be a member of the Farm Administrators group to assign or remove additional administrators to that service application. Service application administrators are granted security-trimmed access to the SharePoint Central Administration Web site and can manage settings related to the service application but must be a member of the Farm Administrators group to add and remove other service application administrators.
   

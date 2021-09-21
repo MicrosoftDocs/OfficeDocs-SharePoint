@@ -18,7 +18,7 @@ description: "Learn to create and tag catalog content in authoring sites and con
 
 # Configure cross-site publishing in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 Before you configure cross-site publishing, make sure that you understand the concepts and terminology in [Plan for cross-site publishing in SharePoint Server](plan-for-cross-site-publishing.md).
   

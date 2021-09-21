@@ -20,7 +20,7 @@ description: "Learn how to install and configure the SMTP service and configure 
 
 # Configure outgoing email for a SharePoint Server farm
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 > [!NOTE]
 > The SMTP authentication feature is only available in SharePoint Server 2019.

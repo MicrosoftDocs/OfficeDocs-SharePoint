@@ -19,7 +19,7 @@ description: "Learn to configure SharePoint Server Health Analyzer rules by usin
 
 # Configure SharePoint Health Analyzer rules in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 ## Before you begin
 <a name="begin"> </a>

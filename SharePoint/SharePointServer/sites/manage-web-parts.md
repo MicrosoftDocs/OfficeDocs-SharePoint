@@ -20,7 +20,7 @@ description: "Helps you prepare to manage security for web parts pages and contr
 
 # Manage web parts in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In SharePoint Server, a web parts page is a collection of web parts that combines list data, timely information, or useful graphics into a dynamic web page. The layout and content of a web parts page can be set for all users and then, optionally, personalized for individual users. A site owner or a site member with the appropriate permissions can create and customize web parts pages by using a browser to add, reconfigure, or remove web parts.
   

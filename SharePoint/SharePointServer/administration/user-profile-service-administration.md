@@ -18,7 +18,7 @@ description: "Learn how to administer the User Profile service in SharePoint Ser
 
 # Administer the User Profile service in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The User Profile service is a shared service in SharePoint Server that enables the creation and administration of user profiles that can be accessed from multiple sites and farms. Administration of User Profile service applications in SharePoint Server can be delegated to a service application administrator by the farm administrator.
   

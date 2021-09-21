@@ -18,7 +18,7 @@ description: "Learn about the new features that are included in the November 201
 
 # New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
 For a list of updates and associated KB articles for SharePoint Server 2016, SharePoint 2013, and SharePoint 2010, see [SharePoint Updates](/officeupdates/sharepoint-updates).
   

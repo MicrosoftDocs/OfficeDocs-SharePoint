@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath
 
 # InfoPath Forms Services forms cannot be filled out in a Web browser because no State Service connection is configured (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
  **Rule Name:** InfoPath Forms Services forms cannot be filled out in a Web browser because no State Service connection is configured. 
   

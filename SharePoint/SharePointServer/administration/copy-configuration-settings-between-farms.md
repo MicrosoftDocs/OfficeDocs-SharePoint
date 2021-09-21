@@ -19,7 +19,7 @@ description: "Learn how to copy configuration settings from one SharePoint Serve
 
 # Copy configuration settings between farms in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You can copy configuration settings between SharePoint Server farms by using Microsoft PowerShell. 
   

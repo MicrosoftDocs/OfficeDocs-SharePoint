@@ -17,7 +17,7 @@ description: "Provides information about co-authoring and the permissions and so
 
 # Overview of co-authoring in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
  **Audience**: IT Professionals
   

@@ -20,7 +20,7 @@ description: "Learn about how to use Remote BLOB Storage (RBS) in a SharePoint S
 
 # Overview of RBS in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 This article describes how to use SharePoint Server together with Remote BLOB Storage (RBS) and SQL Server to optimize database storage resources.
   

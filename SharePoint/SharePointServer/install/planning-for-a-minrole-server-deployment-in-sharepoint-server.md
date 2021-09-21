@@ -22,7 +22,7 @@ description: "Learn about planning your SharePoint farm deployment using MinRole
 
 # Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
   
 ## Server roles in SharePoint Servers 2016 and 2019
 

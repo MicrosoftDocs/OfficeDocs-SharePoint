@@ -17,7 +17,7 @@ description: "Upgrading to a new version of SharePoint? The first step in any up
 
 # Upgrade and update
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Upgrading to a new version of SharePoint? The first step in any upgrade process is to learn about the process itself so that you can plan and prepare appropriately. These articles help you understand how the SharePoint upgrade process works. These articles also include overviews of how to upgrade service applications. 
   

@@ -18,7 +18,7 @@ description: "Learn which linguistic features search by default uses, and for wh
 
 # Linguistic search features in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 SharePoint Server use several linguistic features to help improve search relevance. 
   

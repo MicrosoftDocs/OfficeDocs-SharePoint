@@ -18,7 +18,7 @@ description: "Learn which file name extensions SharePoint Server crawls by defau
 
 # Default crawled file name extensions and parsed file types in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 The crawl component can only crawl a file if the list on the Manage File Types page includes the file name extension. The content processing component can only parse the contents of a crawled file:
   

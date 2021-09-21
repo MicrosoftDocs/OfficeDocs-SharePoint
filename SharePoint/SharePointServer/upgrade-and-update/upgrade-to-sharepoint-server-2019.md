@@ -20,7 +20,7 @@ description: "Learn how to plan, prepare, and perform an upgrade to SharePoint S
 
 # Upgrade to SharePoint Server 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]  
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]  
   
 The following articles provide information about performing an upgrade to SharePoint Server 2019.
 

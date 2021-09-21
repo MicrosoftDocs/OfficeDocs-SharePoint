@@ -21,7 +21,7 @@ description: "Learn about securing and deploying web parts in SharePoint Server.
 
 # Configure and deploy web parts in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 SharePoint Server includes a set of web parts that users can add to pages after installing the product. If an organization needs custom web parts, a developer can write custom ASP.NET web parts and ask you to install them. This process typically requires testing and approval of the code before the web part can be deployed in a full-trust environment. A developer who uses Visual Studio can deploy a web part to SharePoint Server by right clicking the project and selecting **Deploy**. The destination for the web part is determined by the trust level established with the SharePoint server when the developer created the project in Visual Studio.
   
 SharePoint Server uses some of the configuration management settings that are provided by the Microsoft .NET Framework. Some of these settings are stored in XML configuration files and they provide a broad range of settings that server administrators use to manage the Web application and its environment. For more information about ASP.NET configuration files, see [Machine.Config and Web.Config Explained](/previous-versions/msp-n-p/ff648667(v=pandp.10)) in "Securing Your ASP.NET Application and Web Services". 

@@ -20,7 +20,7 @@ description: "Deployment articles help you install and configure SharePoint Serv
 
 # Install SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The following articles include information about how to prepare for installation, step-by-step installation instructions, post-installation configuration steps, and upgrade information. Three sections are listed, one for SharePoint Subscription edition, one for SharePoint Servers 2016 and 2019 which describes MinRole and its configuration, and the other is SharePoint Server 2013.
 

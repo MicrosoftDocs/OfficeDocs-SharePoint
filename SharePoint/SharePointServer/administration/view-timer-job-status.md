@@ -18,7 +18,7 @@ description: "Learn to view SharePoint timer job status by using the SharePoint 
 
 # View timer job status in SharePoint Server 2016
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 A timer job runs a specific Windows service for SharePoint Server 2016. The timer job contains a definition of the service to run and specifies how frequently the service is started. The SharePoint Timer Service runs timer jobs. Many features in SharePoint Server 2016 rely on timer jobs to run services according to a schedule. You can view the status of timer jobs that have been run by using the Central Administration website or PowerShell.
   

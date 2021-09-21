@@ -18,7 +18,7 @@ description: "Learn about permissions, accounts, security settings, and what you
 
 # Prequisites for SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 The following downloadable resources, articles, video recordings, and related resources provide information about how to prepare for SharePoint Server installation and initial configuration.
   

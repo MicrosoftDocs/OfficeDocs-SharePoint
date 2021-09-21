@@ -20,7 +20,7 @@ description: "Administrator guidance for multi-tenant hosts in SharePoint Server
 
 # General guidance for hosters in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 This article describes general guidance and concepts related to multi-tenancy in SharePoint Server 2013. 
   

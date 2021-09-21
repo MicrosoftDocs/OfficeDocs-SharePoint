@@ -17,7 +17,7 @@ description: "Learn about the options available for using the Secure Store Servi
 
 # Use Excel Services with Secure Store Service in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 This series of articles describes how to configure data refresh in Excel Services in SharePoint Server 2013 by using the Secure Store Service to map user and group credentials to the credentials of external data sources.
   

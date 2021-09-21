@@ -20,7 +20,7 @@ description: "Learn how to address problems that may occur after you upgrade a s
 
 # Troubleshoot site collection upgrade issues in SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 When you upgrade a site collection to SharePoint 2013, errors can occasionally occur. This article helps you understand those errors and address them.
   

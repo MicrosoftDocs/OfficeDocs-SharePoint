@@ -17,7 +17,7 @@ description: "Use Secure Store in SharePoint Server to store SQL Server credenti
 
 # Use Secure Store with SQL Server Authentication
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can use the Secure Store Service to store credentials for data sources that require SQL Server Authentication. You can then use these credentials to access data sources that require SQL Server Authentication (such as Azure SQL Database) through Excel Services in SharePoint Server 2013 or Visio Services.
   

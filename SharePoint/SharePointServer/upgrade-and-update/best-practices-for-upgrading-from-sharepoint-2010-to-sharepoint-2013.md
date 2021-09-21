@@ -20,7 +20,7 @@ description: "Understand how to get the most out of testing upgrade and how to g
 
 # Best practices for upgrading from SharePoint 2010 to SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
 
 To increase your chances of a successful and faster upgrade to SharePoint 2013, follow these best practices to test and complete an upgrade.
   

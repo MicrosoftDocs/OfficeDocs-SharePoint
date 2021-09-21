@@ -20,7 +20,7 @@ description: "Learn the critical decisions that you need to make in your SharePo
 
 # Plan sites and site collections in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 Every SharePoint Server site belongs to only one site collection and a site collection is made up of one top-level site and all sites below it. As shown in the following figure, a site collection is the top level of organization in a SharePoint Server web application. The number of site collections you can have in a single web application depends on the capacity of your server infrastructure. For more info about SharePoint Server boundaries, see [Software boundaries and limits for SharePoint Servers 2016 and 2019](../install/software-boundaries-limits-2019.md). For more information about SharePoint Server site collections, see [Overview of sites and site collections in SharePoint Server](sites-and-site-collections-overview.md).
   

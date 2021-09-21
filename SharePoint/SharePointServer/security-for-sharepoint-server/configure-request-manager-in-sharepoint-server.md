@@ -18,7 +18,7 @@ description: "Learn how Request Manager in SharePoint Server can route and throt
 ---
 
 # Configure Request Manager in SharePoint Server
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]  
 
 
 ## Overview ##

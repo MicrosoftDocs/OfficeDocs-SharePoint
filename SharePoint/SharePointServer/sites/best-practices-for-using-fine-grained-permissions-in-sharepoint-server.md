@@ -20,7 +20,7 @@ description: "Learn about best practices for fine-grained permissions and how to
 
 # Best practices for using fine-grained permissions in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Fine-grained permissions can influence security on a SharePoint farm. Potential performance issues can occur when you use fine-grained permissions. The following information helps you address issues when an environment is experiencing issues that incorrect use or scale of fine-grained permissions might have caused.
   

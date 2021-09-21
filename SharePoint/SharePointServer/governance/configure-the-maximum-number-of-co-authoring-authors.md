@@ -17,7 +17,7 @@ description: "Learn how to limit the number of users who can co-author a Word do
 
 # Configure the maximum number of co-authoring authors in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The CoauthoringMaxAuthors property lets you specify the maximum number of users who can co-author a Word document or PowerPoint presentation at the same time in SharePoint Server 2013. This article describes how to configure the CoauthoringMaxAuthors property by using Microsoft PowerShell.
   

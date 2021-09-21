@@ -18,7 +18,7 @@ description: "Learn how use Recommended Items and Popular Items on websites with
 
 # Use recommendations and popular items on websites with anonymous users in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The previous article in this series, [Add and configure the Recommended Items and Popular Items Web Part in SharePoint Server](add-and-configure-the-recommended-items-and-popular-items-web-part.md), explained how to add and configure Recommended Items and Popular Items Web Part. In this article you'll learn:
   

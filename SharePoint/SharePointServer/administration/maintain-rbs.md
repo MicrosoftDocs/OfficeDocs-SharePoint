@@ -20,7 +20,7 @@ description: "Learn how to perform maintenance tasks that are associated with Re
 
 # Maintain RBS in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You perform most of the maintenance tasks associated with RBS in SharePoint Server by using the RBS Maintainer, which is a tool in SQL Server. The RBS Maintainer performs periodic garbage collection and other maintenance tasks for a SharePoint Server RBS deployment. You can schedule these tasks for each database that uses RBS by using Windows Task Scheduler or SQL Server Agent. You must provision the RBS Maintainer by using command-line parameters or through an XML file. In the case of mirrored or replicated databases, you can run the RBS Maintainer against any single instance.
   

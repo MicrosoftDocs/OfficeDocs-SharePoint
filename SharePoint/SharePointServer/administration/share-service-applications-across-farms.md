@@ -19,7 +19,7 @@ description: "Describes the process and cautions that are involved in sharing se
 
 # Share service applications across farms in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In SharePoint Server, some service applications can be shared across server farms.
   

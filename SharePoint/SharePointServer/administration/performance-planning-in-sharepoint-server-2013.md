@@ -19,7 +19,7 @@ description: "Performance and capacity planning is the process of mapping your s
 
 # Performance planning in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 ![Small icon representing Microsoft Project](../media/ProjectIconSmall.png) Relevant performance and capacity planning articles for Project Server 2016 are available in the Project Server document library at [Plan for performance and capacity (Project Server 2013)](/project/plan-for-performance-and-capacity-in-project-server-2013).
   

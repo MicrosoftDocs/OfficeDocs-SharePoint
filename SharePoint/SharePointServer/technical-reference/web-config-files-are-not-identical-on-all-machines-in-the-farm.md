@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Web.conf
 
 # Web.config files are not identical on all machines in the farm (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
  **Rule Name:** Web.config files are not identical on all machines in the farm. 
   

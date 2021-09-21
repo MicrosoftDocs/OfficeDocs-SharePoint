@@ -18,7 +18,7 @@ description: "View SharePoint Server health reports from the SharePoint Central 
 
 # View health reports in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 Health reports are pre-built reports in SharePoint Server that use usage data to analyze various aspects of sites and site collections such as slowest pages and top active users.
   

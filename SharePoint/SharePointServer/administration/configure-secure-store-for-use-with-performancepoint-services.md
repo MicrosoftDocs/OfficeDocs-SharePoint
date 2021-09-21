@@ -17,7 +17,7 @@ description: "Configure PerformancePoint Services to use a Secure Store target a
 
 # Configure Secure Store for use with PerformancePoint Services
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 PerformancePoint Services supports two methods of using Secure Store Service to connect to external data:
   

@@ -18,7 +18,7 @@ description: "Learn how to plan for multilingual sites in SharePoint Server and 
 
 # Plan for multilingual sites in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 SharePoint Server has features that enable you to support users in different regions or users who speak different languages. You can use these features to create websites in different languages, or to enable users to view sites in their preferred language.
   

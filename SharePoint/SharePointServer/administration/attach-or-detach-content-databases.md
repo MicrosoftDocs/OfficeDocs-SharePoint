@@ -20,7 +20,7 @@ description: "Learn how to attach and detach content databases to your SharePoin
 
 # Attach or detach content databases in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You can attach or detach SharePoint Server content databases by using the SharePoint Central Administration website or Microsoft PowerShell
   

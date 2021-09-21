@@ -18,7 +18,7 @@ description: "Use test results and recommendations to estimate performance and c
 
 # Estimate performance and capacity requirements for divisional collaboration environments (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 This article describes guidance about performance and capacity planning for a divisional collaboration solution that is based on SharePoint Server 2013. The following information is included in this article:
   

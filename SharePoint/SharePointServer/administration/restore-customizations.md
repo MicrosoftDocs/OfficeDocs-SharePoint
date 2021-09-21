@@ -19,7 +19,7 @@ description: "Learn how to restore customizations that are made to SharePoint Se
 
 # Restore customizations in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You can restore any customizations that are made to SharePoint Server by using Central Administration or PowerShell. The restore tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and what service level agreements that you have made with your organization.
   

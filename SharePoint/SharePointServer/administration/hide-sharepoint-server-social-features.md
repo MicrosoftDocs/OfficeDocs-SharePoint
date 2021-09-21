@@ -17,7 +17,7 @@ description: "Learn how to remove Web Parts and hide user interface controls tha
 
 # Hide SharePoint Server social features
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The Yammer Embed widget for SharePoint lets you embed Yammer feeds into on-premises SharePoint Server sites to make them more social and engaging. Before you can do that, you have to do the following steps:
   

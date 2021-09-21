@@ -18,7 +18,7 @@ description: "Learn how to manage search components to scale out the search topo
 
 # Manage the search topology in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The following articles provide information about how you manage search components in SharePoint Server.
   

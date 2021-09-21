@@ -18,7 +18,7 @@ description: "Learn how to view and configure usage analytics reports in SharePo
 
 # View and configure usage analytics reports in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The previous article in this series, [Use recommendations and popular items on websites with anonymous users in SharePoint Server](use-recommendations-and-popular-items-on-websites-with-anonymous-users.md), explained how to display recommendations on a website with anonymous users. In this article you'll learn:
   

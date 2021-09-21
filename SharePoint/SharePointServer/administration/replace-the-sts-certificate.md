@@ -18,7 +18,7 @@ description: "Learn how to replace the STS certificate with a new certificate fr
 
 # Replace the STS certificate for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 This topic provides information on replacing the SharePoint Security Token Service (STS) certificate in a SharePoint farm.
 

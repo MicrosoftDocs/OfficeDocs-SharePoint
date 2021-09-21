@@ -23,7 +23,7 @@ description: "Plan and prepare to configure server-to-server authentication from
 
 # Plan server-to-server authentication
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 Server-to-server authentication enables your SharePoint Server farm to consume content and resources from your Microsoft 365 organization. For example, search can be configured to allow federated users to see both SharePoint Server and SharePoint in Microsoft 365 search results in a SharePoint Server search portal.
   

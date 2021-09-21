@@ -19,7 +19,7 @@ description: "Learn how to configure the different Web Parts that use search tec
 
 # Configure Search Web Parts in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Web Parts that use search technology to show content in a publishing environment (referred to in this article as Search Web Parts) show content that was crawled and added to the search index, as described in "Understanding how content is added to and managed in the search index" in [Overview of cross-site publishing in SharePoint Server](overview-of-cross-site-publishing.md). These Web Parts have queries defined in them, and when users browse to a page that contains a Web Part that uses search technology, the Web Part issues the query automatically. The query result is then displayed in the Web Part. You can modify the query in the search Web Part to fit your content needs. 
   

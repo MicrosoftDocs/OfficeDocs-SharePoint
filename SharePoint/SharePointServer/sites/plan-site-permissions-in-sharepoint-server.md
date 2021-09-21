@@ -20,7 +20,7 @@ description: "Learn about how to plan site permissions for SharePoint Server to 
 
 # Plan site permissions in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article helps you plan access control at the site collection, site, subsite, and site content (list or library, folder, item or document) levels.
   

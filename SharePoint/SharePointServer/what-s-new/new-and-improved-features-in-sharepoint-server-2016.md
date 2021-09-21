@@ -21,7 +21,7 @@ description: "Learn about the new features and updates to existing features in S
 
 # New and improved features in SharePoint Server 2016
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
 Learn about the new features and updates to existing features in SharePoint Server 2016.
   

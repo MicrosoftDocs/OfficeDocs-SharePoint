@@ -18,7 +18,7 @@ description: "Understand Microsoft Business Connectivity Services and how it bri
 
 # Overview of Business Connectivity Services in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article introduces you to Microsoft Business Connectivity Services. After you read this article you'll understand:
   

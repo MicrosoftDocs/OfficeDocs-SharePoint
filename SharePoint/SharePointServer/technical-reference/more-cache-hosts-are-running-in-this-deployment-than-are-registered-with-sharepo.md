@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: More Cac
 
 # More cache hosts are running in this deployment than are registered with SharePoint (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
  **Rule Name:** More Cache hosts are running in this deployment than are registered with SharePoint. 
   

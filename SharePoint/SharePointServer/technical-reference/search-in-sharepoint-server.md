@@ -19,7 +19,7 @@ description: "Learn how to resolve alerts about the search index, content proces
 
 # Search in SharePoint Server knowledge articles
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-xxx-md.md)]
 
 Learn how to resolve alerts about the search index, content processing, query processing, and other search issues in the SharePoint Servers 2019, 2016, and 2013 management pack for Systems Center Operations Manager (SCOM).
   

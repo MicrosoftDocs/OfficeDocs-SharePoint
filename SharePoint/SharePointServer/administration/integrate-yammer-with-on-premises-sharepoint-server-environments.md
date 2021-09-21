@@ -17,7 +17,7 @@ description: "Learn how to add Yammer functionality to a SharePoint Server envir
 
 # Integrate Yammer with on-premises SharePoint Server environments
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
  
 Although SharePoint Server provides basic enterprise social features, Yammer Enterprise provides a richer enterprise social experience to drive increased collaboration and innovation across your organization. You can add Yammer functionality to SharePoint sites by adding it to the navigation bar, replacing SharePoint Server social features with Yammer, and embedding a Yammer feed into SharePoint pages. 
 

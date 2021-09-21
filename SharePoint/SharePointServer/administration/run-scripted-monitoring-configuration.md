@@ -18,7 +18,7 @@ description: "Learn how to use Microsoft PowerShell scripts and Profile files to
 
 # Run scripted monitoring configuration in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Scripted monitoring configuration uses PowerShell scripts and XML files, which are known as **Profiles**, to back up, restore, or configure monitoring settings in the SharePoint Server 2016 environment. For more conceptual information about scripted monitoring configuration, see [Overview of scripted monitoring configuration in SharePoint Server](overview-of-scripted-monitoring-configuration.md).
   

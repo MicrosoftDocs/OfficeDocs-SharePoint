@@ -20,7 +20,7 @@ description: "Introduces articles that describe hardware, software, and other re
 
 # System requirements for SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]. 
   
 Before you install SharePoint 2013, you must make sure that you have installed all required hardware and software. To effectively plan your deployment, you must understand the level of support that is provided for the web browsers that you will be using in your environment and how support for IP versions 4 and 6 is implemented in SharePoint 2013. You must also understand the URL and path length restrictions in SharePoint 2013. 
   

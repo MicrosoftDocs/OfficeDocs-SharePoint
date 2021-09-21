@@ -17,7 +17,7 @@ description: "Find the set of Test Lab Guides (TLGs) for SharePoint to gain valu
 
 # Test lab guides for SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 The following articles and related resources provide information about TLGs for SharePoint 2013. 
   

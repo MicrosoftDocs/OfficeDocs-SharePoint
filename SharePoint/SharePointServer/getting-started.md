@@ -17,7 +17,7 @@ ms.assetid: c33f0214-4201-4807-9e8f-574d8fd05849
 
 # Getting started with SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 ## What is SharePoint?
 

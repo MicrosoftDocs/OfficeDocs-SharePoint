@@ -19,7 +19,7 @@ description: "Learn how to migrate Windows claims authentication to SAML based c
 
 # Migrate Windows claims to SAML claims
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]  
 
 Identifies the steps required to migrate a web application that is going from Windows claims authentication to SAML-based authentication in SharePoint Server.
 

@@ -18,7 +18,7 @@ description: "Learn how to plan for variations, identify the source and target v
 
 # Plan for variations in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
   
 The variations feature in SharePoint Server and SharePoint in Microsoft 365 makes content available to specific audiences on different sites by syncing content from a source variation site to each target variation site. Content on a target variation site can be translated into other languages before it is published. Variations can be used only on sites that are created by using one of the Publishing site templates, or on a site for which the SharePoint Server Publishing Infrastructure feature was activated.
   

@@ -17,7 +17,7 @@ description: "Learn about the elements of a document management solution and the
 
 # Document management in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article contains a high-level description of the various elements of a document management solution that is based on SharePoint Server.
   

@@ -26,7 +26,7 @@ description: "Learn how to configure cloud hybrid search for SharePoint Server b
 
 # Configure cloud hybrid search - roadmap
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 Learn how to configure [cloud hybrid search](./learn-about-cloud-hybrid-search-for-sharepoint.md) for SharePoint Server by setting up a cloud Search service application in your SharePoint Server environment and connecting it to your search index in Office 365. 
   

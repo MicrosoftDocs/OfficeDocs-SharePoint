@@ -17,7 +17,7 @@ description: "Learn about the SharePoint mobility features, services, and browsi
 
 # Overview of mobile devices and SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 SharePoint Server 2013 offers new, optimized viewing experiences across different mobile platforms. Additionally, there are several features that are available to help improve both worker productivity and usability on the device. This article is intended for IT professionals to help understand the SharePoint Server 2013 mobile features that are available to your organization.
   

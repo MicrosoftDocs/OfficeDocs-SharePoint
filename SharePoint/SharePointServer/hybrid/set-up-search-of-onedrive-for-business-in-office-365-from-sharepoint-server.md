@@ -23,7 +23,7 @@ description: "Provide an easy way for users of on-premises SharePoint Server to 
 
 # Set up Search of Microsoft OneDrive from SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 After you install Service Pack 1 for SharePoint Server, when your users select **OneDrive** or **Sites** on the nav bar, you can redirect them to Microsoft OneDrive for professionals and small businesses. To learn how to do this, see [Plan hybrid OneDrive](./plan-hybrid-onedrive-for-business.md).
   

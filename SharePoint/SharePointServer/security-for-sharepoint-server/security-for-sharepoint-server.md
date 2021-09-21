@@ -20,7 +20,7 @@ description: "Find resources about security, including planning for authenticati
 
 # Security for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]  
   
 The following article provides information about authentication planning in SharePoint Server.
   

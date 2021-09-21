@@ -17,7 +17,7 @@ description: "Learn a second option for displaying values from custom managed pr
 
 # How to display values from custom managed properties in classic search results - option 2 in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 In [How to display values from custom managed properties in search results - option 1 in SharePoint Server](display-values-custom-managed-properties.md) we showed a simple method to add a custom icon and values from two custom managed properties to your classic search results. In this topic, we'll look at a somewhat fuller method for changing the way classic search results are displayed that includes if statements and hit highlighting. In this article, you'll learn: 
   

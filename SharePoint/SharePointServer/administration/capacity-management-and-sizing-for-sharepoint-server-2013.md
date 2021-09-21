@@ -18,7 +18,7 @@ description: "Learn about the concepts and planning considerations for managing 
 
 # Capacity management and sizing for SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 The articles in this section help you to make the following decisions regarding the appropriate capacity for your SharePoint Server 2013 environment:
   

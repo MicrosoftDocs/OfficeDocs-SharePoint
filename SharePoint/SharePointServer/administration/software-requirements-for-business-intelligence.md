@@ -20,7 +20,7 @@ description: "Learn about the minimum software requirements to run business inte
 
 # Software requirements for business intelligence in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-xxx-md.md)]
   
 The business intelligence tools for SharePoint Server 2016 include the following:
   

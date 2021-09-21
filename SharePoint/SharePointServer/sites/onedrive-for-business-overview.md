@@ -22,7 +22,7 @@ description: "Learn about OneDrive in SharePoint Server."
 
 # Overview of Microsoft OneDrive in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 > [!NOTE]
 > While OneDrive is used in both SharePoint Server on-premises and Microsoft 365 environments, this article describes how it works in SharePoint Server. For more information about how it works in a Microsoft 365 environment, see [What is OneDrive?](https://go.microsoft.com/fwlink/?LinkId=747076). 

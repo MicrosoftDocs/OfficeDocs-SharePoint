@@ -17,7 +17,7 @@ description: "To learn how to develop Search Center scenarios in SharePoint Serv
 
 # Search center scenarios in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
  **Applies to:**
   

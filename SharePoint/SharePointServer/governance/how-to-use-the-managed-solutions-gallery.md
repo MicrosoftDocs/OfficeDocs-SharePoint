@@ -21,7 +21,7 @@ description: Learn how to use the Managed Solutions Gallery for code-based sandb
 
 # How to use the Managed Solutions Gallery
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Learn how to use the Managed Solutions Gallery for code-based sandbox solutions in SharePoint Server 2013, SharePoint Server 2016, and SharePoint Server 2019.
   

@@ -18,7 +18,7 @@ description: "Learn how SharePoint Server farm administrators assign, monitor, a
 
 # Monitor and manage app licenses in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can use the SharePoint Central Administration website to monitor and manage licenses for apps for SharePoint. Licenses for apps for SharePoint are digital sets of verifiable information that state the user rights for a app for SharePoint. Apps that are distributed through the SharePoint Store are the only apps that have built-in licenses that SharePoint Server recognizes.
   

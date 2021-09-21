@@ -18,7 +18,7 @@ description: "Learn how to clear the contents of the BLOB cache for a web applic
 
 # Flush the BLOB cache in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 A BLOB cache is a disk-based cache that stores binary large objects (BLOBs) such as frequently used image, audio, and video files, and other files that are used to display web pages. Each SharePoint front-end server maintains its own BLOB cache. When you enable a BLOB cache, you specify the file types to include in the cache and also the location of the BLOB cache. The first time that a BLOB file is requested, the file is copied from the database to the BLOB cache on the front-end server. Future requests to the front-end server for that same file are then served from the file that is stored in the BLOB cache, instead of being served from the database. This reduces the network traffic and the load on the database server. 
   

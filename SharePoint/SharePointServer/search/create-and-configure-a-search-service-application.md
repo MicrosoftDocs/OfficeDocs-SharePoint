@@ -18,7 +18,7 @@ description: "Learn how to create and configure a SharePoint Search service appl
 
 # Create and configure a Search service application in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 ## Before you begin
 <a name="begin"> </a>

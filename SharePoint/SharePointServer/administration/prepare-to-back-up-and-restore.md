@@ -19,7 +19,7 @@ description: "Learn how to prepare to back up and restore your SharePoint Server
 
 # Prepare to back up and restore farms in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 It is important to make sure that you have backed up and can recover the data that you need if a failure occurs. Consider the information, procedures, and precautions in this article before you back up and restore your environment. This article discusses restrictions and requirements for backup and recovery and how to create a shared folder on the network that can receive backed-up data.
   

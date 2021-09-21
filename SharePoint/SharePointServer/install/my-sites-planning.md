@@ -20,7 +20,7 @@ description: "Learn about the process and considerations for planning a My Sites
 
 # Plan for My Sites in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In SharePoint Server, a My Site is a personal site for a user in an organization. Although a My Site appears as a single site to a user, the My Sites architecture in SharePoint Server consists of a web application, a My Site host site collection, an individual site collection, and several SharePoint service applications and features. Except for the individual site collection, all other parts of this infrastructure are configured once and shared among all the users who are part of the My Sites deployment.
   

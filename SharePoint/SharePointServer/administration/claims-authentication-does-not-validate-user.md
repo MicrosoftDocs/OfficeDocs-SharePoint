@@ -20,7 +20,7 @@ description: "Because SharePoint Server recommends claims-based authentication f
 
 # Claims authentication does not validate user in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 When users try to connect to a web application, logs record failed authentication events. If you use tools that Microsoft provides and use a systematic approach to examine failures, you can learn about common issues that relate to claims-based authentication and resolve them.
   

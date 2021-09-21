@@ -17,7 +17,7 @@ description: "Learn how to configure eDiscovery for SharePoint Server 2013 based
 
 # Configure eDiscovery
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 This document explains how to set up eDiscovery between SharePoint Server 2013 and Exchange Server 2013.
   

@@ -19,7 +19,7 @@ description: "Learn about SharePoint Server monitoring tools and scenarios. Plan
 
 # Plan for monitoring in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 To make sure that SharePoint Server is running smoothly, IT professionals must monitor farms, servers, applications, services, and performance closely. You should do preventive maintenance regularly to prevent problems from happening, and create a plan that will minimize damage when a problem occurs.
   

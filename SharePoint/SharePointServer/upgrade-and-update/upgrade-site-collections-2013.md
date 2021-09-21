@@ -21,7 +21,7 @@ description: "Find out how to upgrade a site collection to SharePoint 2013."
 
 # Upgrade site collections to SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 The following downloadable resources, articles, video recordings, and related resources provide information about upgrading site collections to SharePoint 2013.
   

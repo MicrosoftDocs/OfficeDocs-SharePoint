@@ -17,7 +17,7 @@ description: "Learn how to disable co-authoring functionality in SharePoint Serv
 
 # Disable co-authoring in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Co-authoring in SharePoint Server allows multiple users to work on a document, at any time, without interfering with each other's changes. Although co-authoring is scalable and efficient, some organizations that have hardware limitations may want to turn off co-authoring to minimize effects on server performance.
   

@@ -18,7 +18,7 @@ description: "Learn about performance characteristics of features in SharePoint 
 
 # Performance and capacity test results and recommendations (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 The following articles describe the tested performance and capacity characteristics and effect of specific scenarios and feature sets in SharePoint Server 2013. These articles include information about the characteristics of the scenario or feature and how it was tested by Microsoft, including:
   

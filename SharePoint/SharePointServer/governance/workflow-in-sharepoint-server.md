@@ -17,7 +17,7 @@ description: "Workflows in SharePoint allow you to model and automate business p
 
 # Workflow in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Workflows in SharePoint allow you to model and automate business processes. These business processes can range from simple to complex. But most importantly, workflow lets users focus on doing the work -- rather than managing the workflow.
   

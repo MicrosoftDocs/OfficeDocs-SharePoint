@@ -19,7 +19,7 @@ description: "Learn how to restore a single site collection in SharePoint Server
 
 # Restore site collections in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can only restore a site collection in SharePoint Server by using PowerShell.
   

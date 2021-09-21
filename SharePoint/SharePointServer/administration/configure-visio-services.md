@@ -20,7 +20,7 @@ description: "Configure Visio Services by using SharePoint Central Administratio
 
 # Configure Visio Services
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The following steps show how to create a Visio Graphics Service service application.
   

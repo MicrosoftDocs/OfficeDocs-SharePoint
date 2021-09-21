@@ -19,7 +19,7 @@ description: "Learn how to delete a service application in SharePoint Server."
 
 # Delete a service application in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can delete a SharePoint Server service application by using the SharePoint Central Administration website or by using Microsoft PowerShell cmdlets. 
   

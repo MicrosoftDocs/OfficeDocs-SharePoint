@@ -18,7 +18,7 @@ description: "Learn about how compliance, eDiscovery, and large-scale document r
 
 # Estimate capacity and performance for compliance and eDiscovery for SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 Compliance feature sets, such as in-place holds and querying and exporting data under preservation, effect the processing, and storage requirements in SharePoint Server 2013 when used.
   

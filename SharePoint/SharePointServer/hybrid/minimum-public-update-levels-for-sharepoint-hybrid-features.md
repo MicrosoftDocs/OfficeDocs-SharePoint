@@ -24,7 +24,7 @@ description: "This article is a reference for which public updates are required 
 
 # Minimum public update levels for SharePoint hybrid features
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 SharePoint Server offers a variety of hybrid scenarios to help connect you on-premises SharePoint environment to Microsoft 365. Since these features have been released over time, they may require a minimum Public Update (PU) in order to work. This article is a reference for which updates are required for each hybrid feature.
   

@@ -21,7 +21,7 @@ description: "Learn how to plan, prepare, and perform an upgrade to SharePoint 2
 
 # Upgrade from SharePoint 2010 to SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 The following downloadable resources, articles, video recordings, and related resources provide information about performing an upgrade to SharePoint 2013.
   

@@ -16,7 +16,7 @@ description: "Learn how to upgrade SharePoint 2013 to SharePoint Server 2016 usi
 
 # Upgrade SharePoint 2013 to SharePoint 2016 through Workflow Manager
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-xxx-md.md)]
 
 ## Summary
 

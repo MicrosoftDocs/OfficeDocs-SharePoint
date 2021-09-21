@@ -20,7 +20,7 @@ description: "View this series of short overview videos to understand how upgrad
 
 # Upgrade overview videos for SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 The following six videos (each video is less than five minutes) can help you understand how to upgrade to SharePoint 2013.
   

@@ -19,7 +19,7 @@ description: "Learn how to restrict access to a service application by adding an
 
 # Restrict or enable access to a service application in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In SharePoint Server, you can restrict the access to a service application so that the service application is available to only specified web applications. 
   

@@ -25,7 +25,7 @@ description: "Learn how to enable display of previews of on-premises search resu
 
 # Enable previews of on-premises search results in cloud hybrid search
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 Learn how to enable display of previews of on-premises search results in a Search Center in Office 365 for cloud hybrid search.
   

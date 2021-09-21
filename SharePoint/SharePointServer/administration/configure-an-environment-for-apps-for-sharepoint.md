@@ -18,7 +18,7 @@ description: "Configure domain names, service applications, and URLs for apps fo
 
 # Configure an environment for apps for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 To enable users to install and use apps for SharePoint in their sites, you must configure your environment to support them. This article describes how to configure your environment to support apps. Use the [Plan for apps for SharePoint Server](plan-for-apps-for-sharepoint.md) article to review options and determine the values to use for configuration settings in this article. 
   

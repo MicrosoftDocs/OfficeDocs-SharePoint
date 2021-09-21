@@ -18,7 +18,7 @@ description: "Usage events enable you to track how users interact with items on 
 
 # Configure recommendations and usage event types in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Usage events enable you to track how users interact with items on your site. Items can be documents, sites, or catalog items. When a user interacts with an item on your site, SharePoint Server generates a usage event for this action. For example, if you want to monitor how often a catalog item is viewed from a mobile phone, you can track this activity. 
   

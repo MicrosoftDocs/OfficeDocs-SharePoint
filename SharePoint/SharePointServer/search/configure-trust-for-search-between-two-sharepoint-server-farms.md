@@ -18,7 +18,7 @@ description: "Configure a SharePoint Server content farm that receives search qu
 
 # Configure trust for search between two SharePoint Server farms
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 To configure an on-premises SharePoint Server content farm to return results from its search index to a separate on-premises SharePoint Server farm, you must perform the following two main procedures:
   

@@ -18,7 +18,7 @@ description: "Learn how to plan your site architecture when you want to use vari
 
 # Plan variations for multilingual cross-site publishing site in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can use variations features to create and maintain your multilingual SharePoint sites. For more information, see [Variations overview in SharePoint Server](variations-overview.md). When you use cross-site publishing and variations, you should set up your site architecture according to one of three scenarios.
   

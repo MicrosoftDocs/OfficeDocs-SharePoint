@@ -18,7 +18,7 @@ description: "Learn how to remove apps for SharePoint from SharePoint sites."
 
 # Remove app for SharePoint instances from a SharePoint site
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Site owners can remove apps for SharePoint from their sites. Several circumstances might influence farm administrators and site owners to remove apps from their sites. For example, an app for SharePoint may no longer be needed or could become too much of a distraction to employees. The following procedures provide steps for removing (or uninstalling) an app. 
   

@@ -18,7 +18,7 @@ description: "Create a well-designed plan to install and configure search in Sha
 
 # Plan search in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The following articles provide information about the planning you need to do to deploy search in SharePoint Server.
 

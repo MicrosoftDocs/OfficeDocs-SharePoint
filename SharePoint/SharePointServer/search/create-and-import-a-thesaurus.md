@@ -17,7 +17,7 @@ description: "Learn how to create and import a thesaurus in SharePoint Server."
 
 # Create and import a thesaurus in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 In this article, you'll learn:
   

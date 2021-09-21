@@ -18,7 +18,7 @@ description: "Learn how to add a managed path for a web application in SharePoin
 
 # Define managed paths in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can specify the paths in the URL namespace of a web application to use for site collections. This is known as a managed path. You can specify that one or more site collections exist at a specified path.
   

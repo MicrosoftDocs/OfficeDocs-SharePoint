@@ -21,7 +21,7 @@ description: "Upgrade service applications (Business Connectivity Services, Mana
 
 # Upgrade service applications to SharePoint Server 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]  
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]  
   
 When you upgrade from SharePoint Server 2016 to SharePoint Server 2019, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint Server 2019 environment, and copied the content and service application databases, you can upgrade the service applications to SharePoint Server 2019. This article contains the steps that you take to upgrade the service applications.
   

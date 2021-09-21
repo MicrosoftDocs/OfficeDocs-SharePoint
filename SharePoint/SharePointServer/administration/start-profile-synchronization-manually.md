@@ -17,7 +17,7 @@ description: "Learn how to start profile synchronization manually in SharePoint 
 
 # Start profile synchronization manually in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article describes how to start profile synchronization for SharePoint Server manually. You can start a full synchronization or an incremental synchronization of profile information. You might want to consider starting profile synchronization manually if you have made considerable changes to user profiles, and you don't want to wait for the next scheduled synchronization.
   

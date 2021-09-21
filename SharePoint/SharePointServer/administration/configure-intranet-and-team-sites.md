@@ -17,7 +17,7 @@ description: "Learn how to configure intranet and team sites based on the Test L
 
 # Test Lab Guide: Configure intranet and team sites for SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 This document explains how to set up multiple web applications, site collections, subsites, and pages for intranet departments and teams.
   

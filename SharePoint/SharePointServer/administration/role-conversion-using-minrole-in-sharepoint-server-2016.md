@@ -20,7 +20,7 @@ description: "Learn about how to convert your server roles in a SharePoint farm 
 
 # Role conversion using MinRole in SharePoint Servers 2016 and 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
   
 ## Role Conversion
 

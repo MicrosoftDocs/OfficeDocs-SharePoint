@@ -17,7 +17,7 @@ description: "Learn about the roles of networks, groups, and users in Yammer."
 
 # Yammer networks, groups, and users overview
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article describes Yammer networks, groups, and users, which together serve as a foundation for providing you with a rich Yammer experience within SharePoint.
   

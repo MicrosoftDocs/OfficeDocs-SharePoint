@@ -22,7 +22,7 @@ description: "Step through a process to design Microsoft Azure infrastructure se
 
 # Designing a SharePoint Server 2016 farm in Azure
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)] 
  
 This article provides an overview of the support for SharePoint Server 2016 farms in Azure infrastructure services and a step-by-step process and recommendations and best practices for designing the Azure environment, including network, storage, and compute resources.
   

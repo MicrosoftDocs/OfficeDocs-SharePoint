@@ -16,7 +16,7 @@ description: "Learn about the differences between the search experiences in Shar
 
 # Differences between the search experiences in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 In addition to the classic search experience, SharePoint Server 2019 comes with a modern search experience. Both search experiences use the same search index to find results.
 

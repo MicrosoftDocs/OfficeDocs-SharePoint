@@ -20,7 +20,7 @@ description: "To learn how to manage site collections in SharePoint Server, see 
 
 # Manage site collections in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The following articles provide information about how to create and delete site collections, how to manage site collection administrators, how to use quota templates to manage site collection storage limits, and how to create connections between specific types of sites in SharePoint Server.
   
