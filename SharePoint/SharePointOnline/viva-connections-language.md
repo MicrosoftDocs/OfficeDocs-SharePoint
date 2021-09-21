@@ -20,7 +20,7 @@ description: "How to set up the Viva Connections mobile experience in a specific
 ---
 
 # Set up the Viva Connections mobile experience in a specific language (Preview)
-Viva Connections is available in most major languages used in Microsoft 365. Learn more about how to create and deploy the Viva Connections mobile experience in a specific language other than your organization’s default language. Broadly, Viva Connections mobile has 4 components that influence the end user’s overall language experience - the Viva Connections Dashboard, Feed, Resources, and the Teams mobile app. 
+Viva Connections is available in most major languages used in Microsoft 365. Learn more about how to create and deploy the Viva Connections mobile experience in a specific language other than your organization’s default language. Broadly, Viva Connections mobile has four components that influence the end user’s overall language experience - the Viva Connections Dashboard, Feed, Resources, and the Teams mobile app. 
 
 
 > [!NOTE]
@@ -54,16 +54,16 @@ Viva Connections is available in most major languages used in Microsoft 365. Lea
 26. Turkish
 27. Ukrainian
 
-Learn how to setup Viva Connections components to display content in another language other than your organization’s default language. The steps below use English as an example, but the steps apply for any one of the 27 languages specified above. 
+Learn how to set up Viva Connections components to display content in another language other than your organization’s default language. The steps below use English as an example, but the steps apply for any one of the 27 languages specified above. 
 
 ## Viva Connections Dashboard
-The Dashboard is intended to enable quick access to content and tasks from a variety of sources including intranet content, line of business applications, HR tools, frontline worker tools, and other internal or 3rd party applications.
+The Dashboard is intended to enable quick access to content and tasks from various sources including intranet content, line-of-business applications, HR tools, frontline worker tools, and other internal or third party applications.
 
 1. Create a communication site and make sure to select English as the default language at site creation time.
 
    ![Image of where to specify the language for a site.](media/vc-language-select.png)
 
-2. Make this communication site the home site of your tenant which will enable the Dashboard creation on that site. [Learn more about how to set a home site in the SharePoint admin center](/SharePoint/home-site-admin-center). 
+2. Make this communication site the home site of your tenant, which will enable the Dashboard creation on that site. [Learn more about how to set a home site in the SharePoint admin center](/SharePoint/home-site-admin-center). 
 3. When creating the dashboard make sure the dashboard author is typing the content in the English language for details like card titles and descriptions – [even if their own preferred language setting](/office/change-your-personal-language-and-region-settings-caa1fccc-bcdb-42f3-9e5b-45957647ffd7) in Microsoft 365 is not English. 
 
 
@@ -73,7 +73,7 @@ The Dashboard is intended to enable quick access to content and tasks from a var
    ![Image of where to specify the language for a card.](media/vc-language-card.png)
 
 ## Viva Connections Feed
-The Feed experience will show SharePoint news posted from [organizational news sites](/SharePoint/organization-news-site) and announcements posted in the [All-company group in Yammer](/yammer/manage-yammer-groups/yammer-all-company-yammer-community) as well as [SharePoint news that has been boosted](/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
+The Feed experience will show SharePoint news posted from [organizational news sites](/SharePoint/organization-news-site) and announcements posted in the [All-company group in Yammer](/yammer/manage-yammer-groups/yammer-all-company-yammer-community) and [SharePoint news that has been boosted](/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
 
 #### Organizational news
 Make sure that authoritative news sites (there can be more than one organization news site) are created with English as the default language and that authors of news post are creating the news posts in English language – even if their own [preferred language setting in Microsoft 365](https://support.microsoft.com/office/change-your-personal-language-and-region-settings-caa1fccc-bcdb-42f3-9e5b-45957647ffd7) is not English. 
@@ -99,6 +99,6 @@ The Resources experience displays intranet resources from [global navigation in 
 ## Microsoft Teams mobile app 
 The Teams mobile app is where the Connections experience is deployed as another tab. The language experience of the mobile app is driven by the device language set by the user. Make sure to inform your users to set it to English for a cohesive experience – although it is not required. 
 
-If a user has a device set to the French language the Teams mobile app “system” strings (text that Microsoft provides out-of-the box for end user experience in the app) will all be in French while the Dashboard cards, Feed, and Resources content will be in English.
+If a user has a device set to the French language the Teams mobile app “system” strings (text that Microsoft provides out-of-the box for end-user experience in the app) will all be in French while the Dashboard cards, Feed, and Resources content will be in English.
 
 ![Image of where to specify the language for the mobile app.](media/vc-language-mobile-app.png)
