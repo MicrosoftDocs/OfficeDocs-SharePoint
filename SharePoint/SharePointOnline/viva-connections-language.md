@@ -61,7 +61,7 @@ The Dashboard is intended to enable quick access to content and tasks from a var
 
 1. Create a communication site and make sure to select English as the default language at site creation time.
 
-![image showing viva connections on mobile and desktop](media/vc-hero.png)
+   ![Image of where to specify the language for a site.](media/vc-language-select.png)
 
 2. Make this communication site the home site of your tenant which will enable the Dashboard creation on that site. [Learn more about how to set a home site in the SharePoint admin center](/SharePoint/home-site-admin-center). 
 3. When creating the dashboard make sure the dashboard author is typing the content in the English language for details like card titles and descriptions – [even if their own preferred language setting](/office/change-your-personal-language-and-region-settings-caa1fccc-bcdb-42f3-9e5b-45957647ffd7) in Microsoft 365 is not English. 
@@ -70,6 +70,7 @@ The Dashboard is intended to enable quick access to content and tasks from a var
 > [!NOTE]
 > For [custom cards](/sharepoint/dev/spfx/web-parts/guidance/localize-web-parts), ask your card developer to include strings localized in English language
 
+   ![Image of where to specify the language for a card.](media/vc-language-card.png)
 
 ## Viva Connections Feed
 The Feed experience will show SharePoint news posted from [organizational news sites](/SharePoint/organization-news-site) and announcements posted in the [All-company group in Yammer](/yammer/manage-yammer-groups/yammer-all-company-yammer-community) as well as [SharePoint news that has been boosted](/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
@@ -87,10 +88,17 @@ The Resources experience displays intranet resources from [global navigation in 
 > [!NOTE]
 > Global navigation and a Dashbaord can only be enabled and customized from the home site and required site owner (or higher) permissions. The default language of that site should already be English.
 
-The global navigation node names must be entered in English.
+![Image of where to specify the language for the global navigation.](media/vc-language-global-nav.png)
+
+1. Navigate to the **Settings** panel from the home site and select **Global navigation**.
+2. The global navigation **Title** should be in English.
+3. The navigational node in the global navigation must be entered in English.
+
+   ![Image of where to specify the language for a navigational node.](media/vc-language-nav.png)
 
 ## Microsoft Teams mobile app 
 The Teams mobile app is where the Connections experience is deployed as another tab. The language experience of the mobile app is driven by the device language set by the user. Make sure to inform your users to set it to English for a cohesive experience – although it is not required. 
 
-
 If a user has a device set to the French language the Teams mobile app “system” strings (text that Microsoft provides out-of-the box for end user experience in the app) will all be in French while the Dashboard cards, Feed, and Resources content will be in English.
+
+![Image of where to specify the language for the mobile app.](media/vc-language-mobile-app.png)
