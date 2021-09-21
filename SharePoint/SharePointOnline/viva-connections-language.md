@@ -1,8 +1,8 @@
 ---
-title: "Overview: Viva Connections (Preview)"
+title: "How to set up the Viva Connections mobile experience in a specific language (Preview)"
 ms.reviewer: 
-ms.author: loreenl
-author: loreenl
+ms.author: hokavian
+author: Holland-ODSP
 manager: pamgreen
 audience: Admin
 f1.keywords:
@@ -16,7 +16,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to set up and deploy Viva Connections on desktop and mobile devices"
+description: "How to set up the Viva Connections mobile experience in a specific language"
 ---
 
 # Overview: Viva Connections (Preview)
@@ -101,7 +101,7 @@ A tailored experience is one in which content is automatically displayed accordi
 Matching your company or organizational brand is integral to your employee’s connection with your company's values and goals. The branding you apply in Teams to the Viva Connections app – including your logo and colors – is automatically applied to the mobile app. For information on how to apply your branding in an app, see [Customize apps in Microsoft Teams](/microsoftteams/customize-apps).
 
 ## Localization
-Viva Connections is available in most major languages used in Microsoft 365. Learn more about how to set up the Viva Connections mobile experience in a specific language.  
+Viva Connections is available in most major languages used in Microsoft 365. Viva Connections is not a multilingual platform but can be localized into one or more languages.  
 
    - **Dashboard:** content can be set by Dashboard authors to support multiple languages.
    - **Feed:** the content will be available in the format in which it was authored and SharePoint news posts will display author-translated posts in the user’s preferred language.
