@@ -25,7 +25,7 @@ Microsoft [Viva Connections desktop](https://techcommunity.microsoft.com/t5/micr
 
 >[!IMPORTANT]
 > - This article covers the steps to deploy the Viva Connections desktop app, which is a custom line of business app for Microsoft Teams and is built using PowerShell provided by Microsoft. This app includes the desktop experience *only*. 
-> - Soon, guidance for the fully upgraded Viva Connections app that includes *both desktop and mobile* experiences will be available. Additional instructions will be published closer to its public availability.
+> - [Guidance for the fully upgraded Viva Connections app](/SharePoint/guide-to-setting-up-viva-connections) that includes *both desktop and mobile* experiences is now available
 > - Learn more about the different types of [Apps, bots, & connectors in Microsoft Teams](/microsoftteams/deploy-apps-microsoft-teams-landing-page.md).
 > - Viva Connections desktop is available for GCC, but not GCC High or DoD environments.
 
