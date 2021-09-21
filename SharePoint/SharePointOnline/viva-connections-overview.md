@@ -194,15 +194,7 @@ The **Resources** tab of the mobile app automatically uses the global navigation
 
 ## Step-by-step guidance to provision Viva Connections
 
-This is a basic summary of the steps to deploy Viva Connections.
-
-> [!IMPORTANT]
-> - Expanded step-by-step guidance will be published shortly after the release of Viva Connection for Public preview on September 9th, 2021. This is a summary of the basic steps needed to deploy Viva Connections. Check back soon for more details.
-
-1. Set up a home site and other organizational news sites
-2. Plan and design your information architecture, including the global navigation in the SharePoint app bar
-3. Create and configure your dashboard
-4. Enable, customize, and deploy the Viva connections app from the Microsoft Teams admin center
+Learn how to [set up and deploy Viva Connections for your organization](/SharePoint/guide-to-setting-up-viva-connections). 
 
 
 ## Summary of release notes
