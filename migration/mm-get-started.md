@@ -47,7 +47,9 @@ Make sure that you have:
 
 - **Access to the destination**: You must either be a global admin or OneDrive/SharePoint admin to the Microsoft 365 tenant where you want to migrate your content. 
 
-- **Access to the source**: Windows credentials that have read access to any of the network file shares you plan to migrate.
+- **Access to the source**: Windows credentials that have read access to any of the network file shares you plan to migrate. 
+
+- **SMB 2.0**:  The server hosting the data (your source) must support SMB 2.0 or higher 
 
 - **Prerequisites and endpoints:** Make sure your computer or VM has the necessary prerequisites installed and have the required endpoints open:  See here for the [List of prerequisites and required endpoints](mm-prerequisites.md).
 
