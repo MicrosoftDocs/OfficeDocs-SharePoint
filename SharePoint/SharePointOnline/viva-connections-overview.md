@@ -67,7 +67,7 @@ On desktop, Viva Connections surfaces your own home site as a branded app in Tea
 > [!NOTE]
 > Information in this article relates to the upgraded Viva Connections app that is in preview and includes *both the mobile and desktop* experiences.
 > Viva Connections desktop was released in March 2021 and requires the use of PowerShell to set up. Viva Connections desktop provides a *desktop-only* experience, allowing you to combine the power of your SharePoint intranet with the chat and collaboration capabilities of Microsoft Teams. [Learn more about Viva Connections desktop](/sharepoint/viva-connections). 
-<br>
+
 
 **Key capabilities of the desktop experience for Viva Connections:**
 - **Global navigation and way finding**: The desktop experience provides employees the ability to navigate to important resources using the global navigation curated by your organization, the important sites your organization frequently engages with, and with organizational news. This navigation panel appears when users select the branded app icon in Teams, and surfaces elements shared with the [SharePoint app bar](/sharepoint/sharepoint-app-bar).
