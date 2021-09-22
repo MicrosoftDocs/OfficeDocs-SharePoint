@@ -49,7 +49,7 @@ This article includes:
 
 ## Create a Dashboard and add cards
 
-A Dashboard can be created on any communication site, but we recommend you create it on your home site. You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissions) on the site on which you're creating it.
+A Dashboard can be created on any communication site, but we recommend you create it on your home site. You’ll need [edit permissions](customize-sharepoint-site-permissions.md) on the site on which you're creating it.
 
 1. On your home site, select **New > Dashboard**. The Dashboard page opens in Mobile view by default. 
 
