@@ -47,7 +47,7 @@ Using authentication context with SharePoint sites requires at least one of the 
 - Microsoft 365 E5 Information Protection and Governance
 - Microsoft 365 Security And Compliance For FLW
 - Microsoft 365 A5 for faculty
-- Microsoft 365 A5 for students: { "46c119d4-0379-4a9d-85e4-97c66d3f909e" }
+- Microsoft 365 A5 for students
 
 ## Setting up an authentication context
 
