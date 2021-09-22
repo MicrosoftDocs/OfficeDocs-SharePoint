@@ -37,7 +37,17 @@ Some apps do not currently work with authentication contexts. If you have Office
 - The OneDrive sync app won't sync sites with an authentication context.
 
 > [!NOTE]
-> Using authentication context with SharePoint sites requires a Microsoft 365 E5 or Microsoft 365 E5 Compliance license for each user accessing a labeled site.
+> Using authentication context with SharePoint sites requires at least one of the below licenses:
+1.  Office 365 E5: { "c7df2760-2c81-4ef7-b578-5b5392b571df" }
+2.  Office 365 A5 for faculty: { "a4585165-0533-458a-97e3-c400570268c4" }
+3. Office 365 A5 for students: { "ee656612-49fa-43e5-b67e-cb1fdf7699df" }
+4.  Microsoft 365 E5: { "06ebc4ee-1bb5-47dd-8120-11324bc54e06" }
+5.  Microsoft 365 E5 Compliance: { "184efa21-98c3-4e5d-95ab-d07053a96e67" }
+6.  Microsoft 365 E5 Information Protection and Governance: { "2bc9d149-a1dc-4d8f-bcd8-e9c5750a59b5" }
+7.  Microsoft 365 Security And Compliance For FLW: { "2347355b-4e81-41a4-9c22-55057a399791" }
+8. Microsoft 365 A5 for faculty: { "e97c048c-37a4-45fb-ab50-922fbf07a370" }
+9. Microsoft 365 A5 for students: { "46c119d4-0379-4a9d-85e4-97c66d3f909e" }
+
 
 Setting up an authentication context for labeled sites requires these basic steps:
 
