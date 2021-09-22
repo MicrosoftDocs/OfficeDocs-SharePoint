@@ -21,12 +21,6 @@ description: Overview of migration from Box to Microsoft 365 using Migration Man
 
 # Migrate Box to Microsoft 365 with Migration Manager
 
-#### Got a minute?
-
-![take our survey](https://docs.microsoft.com/office/media/icons/sign-up-blue.png)  Please take our <a href="https://microsoft.qualtrics.com/jfe/form/SV_5BeuymEC0Dnkn30" target="_blank">short survey about migrating to Microsoft 365</a>. We'd love to hear from you!
-
-
-</br>
 
 >[!Note]
 >This release currently supports the migration of up to approximately 10,000 Box accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
