@@ -91,7 +91,7 @@ Invite speakers who align with the message of the town hall. If the intent of yo
 
 - Develop the schedule and time limits for the town hall.
 - Assign roles to moderators and brief them on key tasks If you plan to use live Q&A during the event, prepare speakers with a list of known concerns or questions . 
-- Test equipment beforehand. Make sure each speaker and moderator knows  how to use the tools used to  conduct the town hall. This can range from how to share their screen,  access the Q&A box,locate incoming comments, and more.  
+- Test equipment beforehand. Make sure each speaker and moderator knows  how to use the tools used to  conduct the town hall. This can range from how to share their screen,  access the Q&A box, locate incoming comments, and more.  
 
 ### Review M365 town hall tools 
 
