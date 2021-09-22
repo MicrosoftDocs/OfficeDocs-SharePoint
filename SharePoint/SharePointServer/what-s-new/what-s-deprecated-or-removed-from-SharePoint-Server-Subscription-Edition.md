@@ -1,5 +1,5 @@
 ---
-title: "What's deprecated or removed from SharePoint Server Subscription Edition"
+title: "What's deprecated or removed from SharePoint Server Subscription Edition?"
 ms.reviewer: 
 ms.author: v-bshilpa
 author: Benny-54
@@ -15,16 +15,14 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_server
 ms.custom: 
-description: "Learn about the features and functionality that is deprecated or removed in SharePoint Server Subscription Edition."
+description: "Learn about the features and functionalities that are deprecated or removed in SharePoint Server Subscription Edition."
 ---
 
-# What's deprecated or removed from SharePoint Server Subscription Edition
+# What's deprecated or removed from SharePoint Server Subscription Edition?
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-Learn about the features and functionality that is deprecated or removed in SharePoint Server Subscription Edition.
-
-Deprecated features are included in SharePoint Server Subscription Edition for compatibility with previous product versions. For information about new features in SharePoint Server Subscription Edition, see [New and improved features in SharePoint Server Subscription Edition](new-and-improved-features-in-sharepoint-server-subscription-edition.md).
+Learn about the features and functionalities that are deprecated or removed in SharePoint Server Subscription Edition.
 
 ## Definitions
 
@@ -32,19 +30,21 @@ Different customers may have different interpretations of terms such as "depreca
 
 - **Deprecated**
  
-A deprecated feature is no longer being invested in by Microsoft and we discourage customers from taking a dependency on it if they haven't used it before. Deprecated features are still supported by Microsoft in SharePoint Server Subscription Edition for customers who are already using this feature in previous releases and need the feature for backward compatibility. Deprecated features may be removed in future major releases of SharePoint Server with no additional notice. Customers should begin to explore their options for migrating away from these features.
+A feature is deprecated when Microsoft decides to no longer invest in its enhancements or further developments. Customers are discouraged from having a dependency on a deprecated feature if they haven't used it before. Deprecated features are still supported by Microsoft in SharePoint Server Subscription Edition for customers who are already using this feature in previous releases and need the feature for backward compatibility. Deprecated features may be removed in future major releases of SharePoint Server with no additional notice. Customers should begin to explore their options for migrating away from these features.
+
+Deprecated features are included in SharePoint Server Subscription Edition for compatibility with previous product versions. For information about new features in SharePoint Server Subscription Edition, see [New and improved features in SharePoint Server Subscription Edition](new-and-improved-features-in-sharepoint-server-subscription-edition.md).
 
 - **Removed**
 
 A removed feature is no longer supported by Microsoft in SharePoint Server Subscription Edition. In many cases, the feature is actually removed from the product, but in some cases it may still be present. A feature labeled as "removed" is unsupported even if the feature is still present in the product.
  
-## Deprecated Features
+## Deprecated features
 
  - SharePoint 2010 workflows 
  
  - Update-SPHelp PowerShell cmdlet
 
-## Removed Features
+## Removed features
 
  - Access Services 2010 
  
