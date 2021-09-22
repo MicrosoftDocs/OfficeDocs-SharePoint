@@ -26,7 +26,7 @@ Help users find important content and resources no matter where they are in Shar
 
 ![Image of the SharePoint app bar](media/app-bar.png)
 
-<<<<Update image to include List entrypoint>>>>
+<<<<Update image to include List entrypoint
 
 ## The SharePoint app bar experience
 
