@@ -49,7 +49,7 @@ This article includes:
 
 ## Create a Dashboard and add cards
 
-A Dashboard can be created on any communication site, but we recommend you create it on your home site. You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissions) on the site on which you're creating it.
+A Dashboard can be created on any communication site, but we recommend you create it on your home site. You’ll need [edit permissions](customize-sharepoint-site-permissions.md) on the site on which you're creating it.
 
 1. On your home site, select **New > Dashboard**. The Dashboard page opens in Mobile view by default. 
 
@@ -198,4 +198,4 @@ To preview for different audiences:
    ![Audience targeting example.](media/dashboard-preview-examples.png)
    
    ### Put the Dashboard on your home site using the Dashboard web part
-   Once a Dashboard is authored and published, you can use the Dashboard web part to display it on your home site. You can add the web part to any section on your page. For best results, we recommend putting in a right vertical section. When added, it will automatically be populated with the cards from the existing Dashboard on your site. You'll be able to set the maximum number of cards you want to show. [Learn how to use the Dashboard web part](SharePoint/SharePointOnline/use-dashboard-web-part-on-home-site).
+   Once a Dashboard is authored and published, you can use the Dashboard web part to display it on your home site. You can add the web part to any section on your page. For best results, we recommend putting in a right vertical section. When added, it will automatically be populated with the cards from the existing Dashboard on your site. You'll be able to set the maximum number of cards you want to show. [Learn how to use the Dashboard web part](use-dashboard-web-part-on-home-site.md).
