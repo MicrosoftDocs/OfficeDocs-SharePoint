@@ -40,7 +40,7 @@ Town halls can help bring your organization together by:
 - Using live event analytics to understand event reach and engagement 
 - Connecting employees and teams through hybrid work
 
-Review [town Hall tools](#Review-M365-town-hall-tools)
+Review [town Hall tools](#review-m365-town-hall-tools)
 <br>
 
 
@@ -140,7 +140,7 @@ In the Yammer Home Feed, attendees can set up notifications that let them know w
 
 **Promote in SharePoint**
 
-![Image of the Yammer homepage](media/th13.png)
+![Image of event planning page in SharePoint](media/th13.png)
 
 Inform and prepare your audience for your event by creating a [SharePoint communications site](https://support.microsoft.com/en-us/office/plan-your-sharepoint-communication-site-35d9adfe-d5cc-462f-a63a-bae7f2529182)  using the [Events template](https://support.microsoft.com/en-us/office/use-the-sharepoint-event-planning-site-template-9464fe53-c85c-4e3b-94d9-0e70a45b08c6). Include instructions for attending as well as any other necessary top-of-mind items.
 
@@ -155,7 +155,7 @@ Yammer live events are also integrated with Outlook so that event organizers can
 
 **Promote in Viva Connections**
 
-![Image of the Yammer homepage](media/th7.png)![Image of the Yammer homepage](media/th14.png)
+![Image of the Viva Connections homepage](media/th7.png)![Image of the Yammer homepage](media/th14.png)
 
 Viva Connections is a digital platform built on the existing capabilities of Microsoft 365. It allows organizations to customize employee experiences and gain access to the most important information, tools, and resources on both desktop and mobile devices.
 
@@ -163,7 +163,7 @@ The Viva Connections home page features a feed and dashboard you can use to prom
 
 [Manage engagement during the during the town hall](#host-a-town-hall-in-yammer)
 
-[Manage engagement after the town hall](#Post-event-engagement)
+[Manage engagement after the town hall](#post-event-engagement)
 
 <br>
 
@@ -201,7 +201,7 @@ Learn more about [producing a live event in Yammer using an external device](htt
 
 Audience members and moderators can engage during the event using the conversation bar. 
 
-![Image of the Yammer homepage](media/th9.png)   ![Image of the Yammer homepage](media/th10.png)
+![Image of the mobile Yammer homepage](media/th9.png)   ![Image of the desktop Yammer homepage](media/th10.png)
 
 Yammer allows for a live Q&A during the event, as well as freeform conversation that promotes candid, organization-wide conversation. 
 
@@ -225,7 +225,7 @@ Access additional video analytics including views over time and viewer engagemen
 
 ### Measure attendee insights
 
-![Image of the Yammer homepage](media/th11.png)
+![Image of the Yammer attendee insights dashboard](media/th11.png)
 
 Yammer features insights that show attendee location, department insights, sentiment analysis, and API sensibility. 
 
@@ -234,7 +234,7 @@ View insights to see how many people attended, average watch time, and more. Rec
 
 ### Measure Community Engagement
 
-![Image of the Yammer homepage](media/th12.png)
+![Image of the Yammer community engagement dashboard](media/th12.png)
 
 Yammer’s insights that allow creators of town halls to identify trends such as conversations, questions, top contributors, topics, hashtags, location and department. 
 
