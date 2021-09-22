@@ -1,5 +1,5 @@
 ---
-title: Use the new SharePoint app bar and set up global navigation
+title: Set up global navigation in the SharePoint app bar
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -22,16 +22,20 @@ description: "Use the SharePoint app bar to enhance intranet way finding and dis
 
 # Introduction to the SharePoint app bar
 
-Help users find important content and resources no matter where they are in SharePoint. The SharePoint app bar is designed to improve the global way finding experience while dynamically displaying personalized sites, news, and files. The app bar can be accessed on the left-hand side anywhere in SharePoint.
+Help users find important content and resources no matter where they are in SharePoint. The SharePoint app bar is designed to improve the global way finding experience while dynamically displaying personalized sites, news, files, and lists. The app bar can be accessed on the left-hand side anywhere in SharePoint.
 
 ![Image of the SharePoint app bar](media/app-bar.png)
 
+<<<<Update image to include List entrypoint>>>>
+
 ## The SharePoint app bar experience
 
-The SharePoint app bar brings together intranet resources and personalized content like sites, news, and files. Enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Customize global navigation details and [Microsoft Graph](/graph/overview) will do the rest of the work by dynamically displaying and updating personalized content for sites, news, and files.
+The SharePoint app bar brings together intranet resources and personalized content like sites, news, files, and lists. Enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Customize global navigation details and [Microsoft Graph](/graph/overview) will do the rest of the work by dynamically displaying and updating personalized content for sites, news, and files.
 
 
 ![Image of the SharePoint app bar tabs](media/app-bar-experience.png)
+
+<<<<Update image to include List entrypoint
 
 >[!NOTE]
 > - Global navigation is the only app bar tab that can be customized. 
@@ -92,6 +96,8 @@ Global navigation can be enabled and customized in the SharePoint app bar. Custo
 6.	Then, enter a **Title** that will be displayed at the top of the global navigation pane.
 
     ![Image of where the logo and title will appear in global navigation](media/app-bar-title-logo.png)
+
+    <<<<Update image to include List entrypoint
 
 7.	Finally, determine the **Navigation source**. Learn more about selecting a source in the next step.
 
