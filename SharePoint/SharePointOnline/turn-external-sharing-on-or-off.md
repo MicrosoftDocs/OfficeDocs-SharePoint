@@ -93,14 +93,13 @@ You can also limit external sharing by domain by using the [Set-SPOTenant](/powe
 
 For info about this setting, see [Manage security groups](./manage-security-groups.md).
 
-**Allow guests to share items they don't own**
-
-By default, guests must have full control permission to share items externally.
-
 **Guests must sign in using the same account to which sharing invitations are sent**
 
 By default, guests can receive an invitation at one account but sign in with a different account. After they redeem the invitation, it can't be used with any other account.
 
+**Allow guests to share items they don't own**
+
+By default, guests must have full control permission to share items externally.
 
 **Guest access to a site or OneDrive will expire automatically after this many days**
 
