@@ -20,7 +20,7 @@ search.appverid:
 description: "Learn how to hold a town hall using Yammer"
 ---
 
-# Hold a town hall in Yammer and ceep the conversation going
+# Hold a town hall in Yammer and keep the conversation going
 
 Bring your organization together to communicate the overall state of the business, status of large-scale projects, success stories, and growth opportunities. Create an end-to-end live event experience in Yammer that engages audiences before, during, and after the event.
 
@@ -41,14 +41,26 @@ Town halls can help bring your organization together by:
 - Connecting employees and teams through hybrid work
 
 Review Town Hall tools (Bookmark link to review M365 Town Hall tools)
+<br>
 
+
+![Infographic of the town hall production and engagement cycle](media/th1.png)
+
+<br>
+<br>
+
+
+| Plan                 | Promote                | Produce         | Host
+| :-------------- | :--------------- |:-------------|:---------------|
+| insert icon  | insert icon | insert icon| insert icon |
+|- Define audience profile and scope audience size  - Align with stakeholders and define messaging  - Define and speaking order - Consider multi-geo and multi-lingual options - Review M365 tools to help produce and host the live event - Plan and organize pre- and post-event communication and promotion strategies   | - Identify channels where the town hall can be promoted (Yammer homepage, Teams, SharePoint News web part, Countdown web part, etc) - Consider where an event recording can be stored and can be accessed across the organization  | - Identify and assign the roles and tasks  - Review the set-up checklist - Prepare to moderate live Q&A - View attendee insights - Measure engagement  |- Share the recording to communication channels (Yammer homepage, Outlook, Teams, Viva Connections Feed, and Feed web part in SharePoint) - Make the recording sharable for employees - View Attendee insights  - Measure engagement             |
 
 
 ## Plan a town hall
 
 Since town halls reach broad and diverse audiences, you’ll want to consider the needs and preferences of your audience and make sure content can be accessed before, during, and after the event.
 
-(insert infographic)
+![Infographic of the town hall planning process](media/th2.png)
 
 **Planning considerations:**
 - The town hall is a virtual live event and can be accessed by different people across different regions and time zones.
@@ -91,13 +103,13 @@ Invite speakers who align with the message of the town hall. If the intent of yo
 
 - Develop the schedule and time limits for the town hall.
 - Assign roles to moderators and brief them on key tasks If you plan to use live Q&A during the event, prepare speakers with a list of known concerns or questions . 
-- Test equipment beforehand. Make sure each speaker and moderator knows  how to use the tools used to  conduct the town hall. This can range from how to share their screen,  access the Q&A box, locate incoming comments, and more.  
+- Test equipment beforehand. Make sure each speaker and moderator knows  how to use the tools used to  conduct the town hall. This can range from how to share their screen,  access the Q&A box,locate incoming comments, and more.  
 
 ### Review M365 town hall tools 
 
 Conduct a scalable town hall that engages your audience before, during, and after your event with Microsoft 365 tools. 
 
-(Insert screenshot)
+![Screenshot of a town hall in Yammer](media/th3.png)
 
 ### Use Yammer to host your town hall event
 
@@ -118,7 +130,7 @@ Get started with organizing live events in Yammer.
 
 **Promote in Yammer**
 
-(insert screenshot)
+![Image of the Yammer homepage](media/th4.png)
 
 Drive pre-event awareness in Yammer. When holding a town hall in Yammer, audience engagement begins as soon as the event has been created. Attendees can promote and discover the upcoming event through the event banner (when in the live feed), event notifications, and by accessing the Event tab on mobile.
 
@@ -126,7 +138,7 @@ In the Yammer Home Feed, attendees can set up notifications that let them know w
 
 **Promote in SharePoint**
 
-(Insert screenshot)
+![Image of the Yammer homepage](media/th13.png)
 
 Inform and prepare your audience for your event by creating a SharePoint communications site  using the Events template. Include instructions for attending as well as any other necessary top-of-mind items.
 
@@ -141,7 +153,7 @@ Yammer live events are also integrated with Outlook so that event organizers can
 
 **Promote in Viva Connections**
 
-(Insert Screenshot)
+![Image of the Yammer homepage](media/th7.png)![Image of the Yammer homepage](media/th14.png)
 
 Viva Connections is a digital platform built on the existing capabilities of Microsoft 365. It allows organizations to customize employee experiences and gain access to the most important information, tools, and resources on both desktop and mobile devices.
 
@@ -155,7 +167,14 @@ Manage engagement after the town hall (bookmark link to post event engagement)
 
 ## Produce and host a town hall
 
-(Insert produce a town hall infographic)
+Review live event roles
+
+| Icon               | Role               | Role description        | Role details
+| :------------------- | :------------------- |:---------------|:---------------|
+| insert icon  | **Producer**| To run a town hall successfully, you will need one or more producers. A producer can schedule, organize, and manipulate the screen while in the live event. This person is responsible for choosing the speakers and granting all attendees the proper permissions and licenses. In many cases, the producer is also a presenter or speaker.| - Schedule, Edit, or Cancel the event  -Organize the event  -Send out invitations to Attendees  -Prepare Moderators and Speakers  -Grant all attendees the proper permissions and licenses -Manipulate the screen while in the live event   |
+|insert icon              | **Moderator**                | The producer will also need to include one or more moderators who are responsible for driving engagement in the Yammer event by  keeping track of questions and comments from audience members as well as by offering technical support when needed.            |- Keep Track of Questions and Comments from Audience members  -Offer Technical Support to Audience members in need  -Ensure all attendees are following rules of Conduct  -Add comments, Questions, Polls  -Respond to Posts as needed  - Organize Posts  -Highlight the best answers to questions in the chat  -Help speakers manage time             |
+|insert icon                | **Speaker**               | Consider each speaker the main attraction. This is the person delivering the message. Your town hall can feature more than one speaker. Thiis can include the leader of an organization, a department, or even a subject matter expert. Your town hall can have more than one speaker.            |- Prepare presentations  - Prepare by testing audio and video quality before the presentation  - Configure the event streaming as needed  - Keep track of time             |
+|insert icon               | **Event attendee**                 | Each audience member attends town halls to gain insight or understanding of the talking point(s) of each speaker. Encourage audience engagement by taking advantage of the built in Q&A as well as the open form conversation feature on Yammer.              |- Attend the town hall - Ask the moderator questions - Engage in related conversation with other audience members             |
 
 Learn more about using PowerShell to set up live events and policies. 
 Learn more about producing and organizing a live event in Yammer. 
@@ -179,7 +198,7 @@ Learn more about producing a live event in Yammer using an external device.
 
 Audience members and moderators can engage during the event using the conversation bar. 
 
-(insert screenshots)
+![Image of the Yammer homepage](media/th9.png)   ![Image of the Yammer homepage](media/th10.png)
 
 Yammer allows for a live Q&A during the event, as well as freeform conversation that promotes candid, organization-wide conversation. 
 
@@ -203,7 +222,7 @@ Access additional video analytics including views over time and viewer engagemen
 
 ### Measure attendee insights
 
-(insert screenshot)
+![Image of the Yammer homepage](media/th11.png)
 
 Yammer features insights that show attendee location, department insights, sentiment analysis, and API sensibility. 
 
@@ -212,7 +231,7 @@ View insights to see how many people attended, average watch time, and more. Rec
 
 ### Measure Community Engagement
 
-(Insert screenshot)
+![Image of the Yammer homepage](media/th12.png)
 
 Yammer’s insights that allow creators of town halls to identify trends such as conversations, questions, top contributors, topics, hashtags, location and department. 
 
@@ -222,4 +241,4 @@ Learn more about viewing community insights in Yammer.
 
 
 ### Want more?
-Get inspired with more examples and the ability to add an example Giving site with the [SharePoint Look Book](https://lookbook.microsoft.com/details/5b5ef75c-2acc-410e-8c60-3ee01e7acfc8).
+insert relative article here.
