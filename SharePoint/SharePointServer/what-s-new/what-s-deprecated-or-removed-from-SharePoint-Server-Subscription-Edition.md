@@ -30,13 +30,13 @@ Different customers may have different interpretations of terms such as "depreca
 
 - **Deprecated**
  
-A feature is deprecated when Microsoft decides to no longer invest in its enhancements or further developments. Customers are discouraged from having a dependency on a deprecated feature if they haven't used it before. Deprecated features are still supported by Microsoft in SharePoint Server Subscription Edition for customers who are already using this feature in previous releases and need the feature for backward compatibility. Deprecated features may be removed in future major releases of SharePoint Server with no additional notice. Customers should begin to explore their options for migrating away from these features.
+  A feature is deprecated when Microsoft decides to no longer invest in its enhancements or further developments. Customers are discouraged from having a dependency on a deprecated feature if they haven't used it before. Deprecated features are still supported by Microsoft in SharePoint Server Subscription Edition for customers who are already using this feature in previous releases and need the feature for backward compatibility. Deprecated features may be removed in future major releases of SharePoint Server with no additional notice. Customers should begin to explore their options for migrating away from these features.
 
-Deprecated features are included in SharePoint Server Subscription Edition for compatibility with previous product versions. For information about new features in SharePoint Server Subscription Edition, see [New and improved features in SharePoint Server Subscription Edition](new-and-improved-features-in-sharepoint-server-subscription-edition.md).
+  Deprecated features are included in SharePoint Server Subscription Edition for compatibility with previous product versions. For information about new features in SharePoint Server Subscription Edition, see [New and improved features in SharePoint Server Subscription Edition](new-and-improved-features-in-sharepoint-server-subscription-edition.md).
 
 - **Removed**
 
-A removed feature is no longer supported by Microsoft in SharePoint Server Subscription Edition. In many cases, the feature is actually removed from the product, but in some cases it may still be present. A feature labeled as "removed" is unsupported even if the feature is still present in the product.
+  A removed feature is no longer supported by Microsoft in SharePoint Server Subscription Edition. In many cases, the feature is actually removed from the product, but in some cases it may still be present. A feature labeled as "removed" is unsupported even if the feature is still present in the product.
  
 ## Deprecated features
 
