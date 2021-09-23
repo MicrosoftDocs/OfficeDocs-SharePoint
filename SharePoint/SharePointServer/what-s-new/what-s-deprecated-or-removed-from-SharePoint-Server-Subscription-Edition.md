@@ -72,11 +72,11 @@ SharePoint 2010 workflows are deprecated but will remain supported for the Share
 
 ### Update-SPHelp PowerShell cmdlet
 
-As SharePoint PowerShell cmdlets are converted from snap-ins to modules in SharePoint Server Subscription Edition, the Update-SPHelp cmdlet is removed and no longer necessary to download the latest cmdlet help content.
+As SharePoint PowerShell cmdlets are converted from snap-ins to modules in SharePoint Server Subscription Edition, the Update-SPHelp cmdlet is deprecated and no longer necessary to download the latest cmdlet help content.
 
 ### Access Services 2010
 
-Access Services 2010 is deprecated but will remain supported for SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2010.
+Access Services 2010 is removed but will remain supported for SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2010.
 
 ### Access Services 2013
 
