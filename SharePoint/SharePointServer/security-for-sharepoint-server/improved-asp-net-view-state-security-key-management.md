@@ -27,55 +27,55 @@ Using the following new Powershell cmdlets, you can change the ASP.NET view stat
  
     Configures the ASP.NET view state decryption and validation keys of a web application.
 
-    ### Syntax
+    #### Syntax
    
     ```PowerShell
     Set-SPMachineKey -WebApplication <SPWebApplicationPipeBind> [-DecryptionKey <String>] [-ValidationKey <String>] [-Local] [<CommonParameters>]
     ```
 
-    ### Parameters
+    #### Parameters
    
-    #### `-WebApplication <SPWebApplicationPipeBind>`
+    1. `-WebApplication <SPWebApplicationPipeBind>`
    
-    Specifies the name, URL, or GUID of the Web application.
+       Specifies the name, URL, or GUID of the Web application.
 
-    #### `-DecryptionKey [<String>]`
+    2. `-DecryptionKey [<String>]`
    
-    Specifies the new ASP.NET view state decryption key. The key should be represented as a 64-character long hexadecimal string (0-9 and A-F).
+       Specifies the new ASP.NET view state decryption key. The key should be represented as a 64-character long hexadecimal string (0-9 and A-F).
 
-    If this parameter is not specified, a random decryption key is generated and used.
+       If this parameter is not specified, a random decryption key is generated and used.
 
-    #### `-ValidationKey [<String>]`
+    3. `-ValidationKey [<String>]`
    
-    Specifies the new ASP.NET view state validation key. The key should be represented as a 64-character long hexadecimal string (0-9 and A-F).
+       Specifies the new ASP.NET view state validation key. The key should be represented as a 64-character long hexadecimal string (0-9 and A-F).
 
-    If this parameter is not specified, a random decryption key is generated and used.
+       If this parameter is not specified, a random decryption key is generated and used.
 
-    #### `-Local`
+    4. `-Local`
    
-    Deploy the new decryption and validation keys only to the local server. Other servers in the farm continue to use the previous decryption and validation keys. Web sessions that are load balanced across multiple servers in the farm will fail if these keys are not synchronized on every server in the farm. Use the `Update-SPMachineKey` cmdlet to deploy the keys to additional servers in the farm.
+       Deploy the new decryption and validation keys only to the local server. Other servers in the farm continue to use the previous decryption and validation keys. Web sessions that are load balanced across multiple servers in the farm will fail if these keys are not synchronized on every server in the farm. Use the `Update-SPMachineKey` cmdlet to deploy the keys to additional servers in the farm.
 
-    If this parameter is not specified, the new decryption and validation keys is deployed to all servers in the farm.
+       If this parameter is not specified, the new decryption and validation keys is deployed to all servers in the farm.
     
  2. `Update-SPMachineKey`
  
     Deploys ASP.NET view state decryption and validation keys to servers in the farm.
 
-    ### Syntax
+    #### Syntax
    
     ```PowerShell
     Update-SPMachineKey -WebApplication <SPWebApplicationPipeBind> [-Local] [<CommonParameters>]
     ```
     
-    ### Parameters
+    #### Parameters
     
-    #### `-WebApplication <SPWebApplicationPipeBind>`
+    1. `-WebApplication <SPWebApplicationPipeBind>`
     
-    Specifies the name, URL, or GUID of the Web application.
+       Specifies the name, URL, or GUID of the Web application.
 
-    #### `-Local`
+    2. `-Local`
     
-    Deploys the new decryption and validation keys only to the local server. Other servers in the farm continue to use the previous decryption and validation keys. Web sessions that are load balanced across multiple servers in the farm will fail if these keys are not synchronized on every server in the farm.
+       Deploys the new decryption and validation keys only to the local server. Other servers in the farm continue to use the previous decryption and validation keys. Web sessions that are load balanced across multiple servers in the farm will fail if these keys are not synchronized on every server in the farm.
 
-    If this parameter is not specified, the decryption and validation keys is deployed to all servers in the farm.
+       If this parameter is not specified, the decryption and validation keys is deployed to all servers in the farm.
   
