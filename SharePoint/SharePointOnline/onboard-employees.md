@@ -39,11 +39,8 @@ When entering a new organization, knowing where resources are located, who to go
 
 - Creating a personalized onboarding checklist using the Onboarding checklist list template 
 
-- Curating a training experience for new team members using Viva Learning and LinkedIn Learning 
-
-Review [town Hall tools](#review-microsoft-365-town-hall-tools)
+- Curating a training experience for new team members using Viva Learning and LinkedIn Learning
 <br>
-
 
 
 <br>
