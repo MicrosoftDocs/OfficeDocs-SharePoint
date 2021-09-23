@@ -24,6 +24,12 @@ When creating a migration task you can choose to simply migrate data files from 
 
 >[!Note]
 >When you first launch SPMT, you are prompted for your Microsoft 365 username and password. The credentials you provide will be to the migration *destination*.
+
+Create a task that doesn't include all subsites
+Create a task and include all subsites
+Create a task uploading a CSV or JSON file
+
+### Create a task that doesn't include all subsites
   
 1. Start SPMT, and then enter your Microsoft 365 username and password.
     
@@ -36,18 +42,44 @@ When creating a migration task you can choose to simply migrate data files from 
     > [!IMPORTANT]
     > Proxy connections are not supported. Using Proxy connections yields errors such as "SharePoint login fail" or "cannot load document library". 
   
-5. Enter your username and password to the SharePoint Server site; username must use the format of someone@example.com. Select **Sign in**.
+5. Enter your username and password to the SharePoint Server site; it can be UserID or user email. Select **Sign in**.
     
     > [!NOTE]
     > If you have already signed in to that site once while using this tool, you won't be prompted again for the same site. 
 
   
-6. Select the document library where your files are located. The dropdown contains all your possible choices.
+6. Select the document library where your files are located. The dropdown contains all your possible choices. If don't select a document library or list, the site will be migrated.If you want to include all subsites, select **Include all subsites**.    
+7. Enter the URL of the SharePoint site where you want your files migrated.   
+8. Select the document library to where your files will be copied.   
+9. Select **Add**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
+    
+
+### Create a task that includes all subsites
+
+  
+1. Start SPMT, and then enter your Microsoft 365 username and password.
+    
+2. Select **Start your first migration**.
+    
+3. Select **SharePoint Server**.
+    
+4. Enter the SharePoint Server site URL where your content is located, and then select **Next**.
+    
+    > [!IMPORTANT]
+    > Proxy connections are not supported. Using Proxy connections yields errors such as "SharePoint login fail" or "cannot load document library". 
+  
+5. Enter your username and password to the SharePoint Server site; it can be UserID or user email. Select **Sign in**.
+    
+    > [!NOTE]
+    > If you have already signed in to that site once while using this tool, you won't be prompted again for the same site. 
+
+  
+6. Select the document library where your files are located. The dropdown contains all your possible choices. If don't select a document library or list, the site will be migrated.If you want to include all subsites, select **Include all subsites**. 
     
 7. Enter the URL of the SharePoint site where you want your files migrated.
     
 8. Select the document library to where your files will be copied.
-9. Select either **Keep the classic site structure** (make no changes to the site structure) or **Switch to modern site structure** to modernize your site structure during migration.
+9. If you selected **Include all subsites**, you will be see if the Select either **Keep the classic site structure** (make no changes to the site structure) or **Switch to modern site structure** to modernize your site structure during migration.
 
     ![choose your site structure ](media/spmt-site-structure-choice.png)
 
@@ -63,12 +95,14 @@ When creating a migration task you can choose to simply migrate data files from 
 
    ![enter the name of an existing hub to associate your sites with](media/spmt-site-structure-associate-existing-hub.png)
 
-10.	Review and edit destination URL for each subsite as needed.
+13.	Review and edit destination URL for each subsite as needed.
     
-11. Select **Add**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
-    
+14. Select **Add**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
 
-**To use a JSON or CSV file for bulk migration**
+
+
+
+### Create a task using a CSV or JSON file
 
 If you have many sources to migrate, you can use either a JSON or CSV file to do a bulk migration. To learn more on how to create a JSON or CSV file for data content migration, see [How to format your JSON or CSV file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md).
   
