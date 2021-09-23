@@ -16,7 +16,6 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to set up and launch Viva Connections for desktop and mobile devices"
 ---
 
@@ -64,11 +63,11 @@ A home site is a SharePoint communication site that acts as the front door to yo
 
 > [!IMPORTANT]
 > - A SharePoint home site is required to set up Viva Connections.
-> - Home sites are generally high-traffic sites that should be [optimized for performance](/portal-health)
+> - Home sites are generally high-traffic sites that should be [optimized for performance](/sharepoint/portal-health)
 
 ### Get started
-1. If your organization does not already have a home site, learn more about [how to plan a home site](/home-site-plan). 
-2. Then, [set the home site](/home-site-admin-center) in the SharePoint admin center or using [SharePoint PowerShell](/home-site).
+1. If your organization does not already have a home site, learn more about [how to plan a home site](/Sharepoint/home-site-plan). 
+2. Then, [set the home site](/Sharepoint/home-site-admin-center) in the SharePoint admin center.
 3. Make sure you [share the home site](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658) with everybody in your organization.
 
 
@@ -98,7 +97,7 @@ SharePoint app bar elements will display in Microsoft Teams (the access point is
 ## Step 4: Create your Dashboard, add cards, and apply audience targeting in SharePoint
 
 
-The Dashboard brings it all together – it provides a personalized landing experience and is designed to be the central destination where everyone can discover your organization's resources and complete daily tasks. Apply audience targeting to dashboard cards to give your users an experience tailored to their role and interests. Once you set up the Dashboard, you will be able to use the [Dashboard web part on the home site](/SharePoint/use-dashboard-web-part-on-home-site). 
+The Dashboard brings it all together – it provides a personalized landing experience and is designed to be the central destination where everyone can discover your organization's resources and complete daily tasks. Apply [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) to dashboard cards to give your users an experience tailored to their role and interests. Once you set up the Dashboard, you will be able to use the [Dashboard web part on the home site](/SharePoint/use-dashboard-web-part-on-home-site). 
 
 > [!NOTE]
 > The ability to create a Dashboard is only available from the home site.
