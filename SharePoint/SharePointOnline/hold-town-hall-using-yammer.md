@@ -84,7 +84,7 @@ Learn more about [how to scope and define your audience](https://review.docs.mic
 
 Town halls are designed to reach the entire organization or large groups within it. Make sure  the event’s  target audience  has access to the tools they need to consume the content.
 
-- Plan to record town hall events. When a live event is recorded, it will automatically be added to Microsoft Stream. Learn how to enable [autogenerate captions](https://docs.microsoft.com/stream/portal-autogenerate-captions). The live event can also be saved to the Yammer home page. 
+- Plan to record town hall events. When a live event is recorded, it will automatically be added to Microsoft Stream. Learn how to enable [autogenerate captions](/stream/portal-autogenerate-captions). The live event can also be saved to the Yammer home page. 
 - If your organization operates across multiple geographic regions, make sure the time zone the event takes place in allows for most people to attend live.  
 - Yammer supports live events and town halls in many languages across multiple platforms.
 - Ensure attendees have mobile access to the town hall via the Yammer app or Viva Connections (link). 
@@ -95,7 +95,7 @@ Town halls are designed to reach the entire organization or large groups within 
 
 Craft a message that’s well organized, detailed, and to the point. To engage your audience and make sure the messages in the town hall are understood by everyone:
  
-- Make the presentation visual. Use PowerPoint to create a visual display of your message to keep your audience connected. Organizations have the option of [broadcasting a live event in Yammer using Teams](https://support.microsoft.com/office/broadcast-a-live-event-in-classic-yammer-using-teams-333a5ea6-c73e-4717-8c53-7ea8f8de2724). Learn to [configure desktop sharing in Microsoft Teams](https://docs.microsoft.com/microsoftteams/configure-desktop-sharing) to display your PowerPoint deck during your town hall. (fact check)
+- Make the presentation visual. Use PowerPoint to create a visual display of your message to keep your audience connected. Organizations have the option of [broadcasting a live event in Yammer using Teams](https://support.microsoft.com/office/broadcast-a-live-event-in-classic-yammer-using-teams-333a5ea6-c73e-4717-8c53-7ea8f8de2724). Learn to [configure desktop sharing in Microsoft Teams](/microsoftteams/configure-desktop-sharing) to display your PowerPoint deck during your town hall. (fact check)
 - Provide town hall objectives to attendees beforehand. Share these objectives via email or the event SharePoint site.
 - Only share the most relevant information. Ensure the most important information is highlighted to reserve time and to keep your audience engaged. 
 
@@ -120,7 +120,7 @@ Yammer enables people to connect with each other across an entire organization. 
  
 
 >[!NOTE]
->To host a live event in Yammer, your organization must have **Enforce Office 365 identity** selected, and you must be using Microsoft 365 connected Yammer groups. For more information, see [Enforce Office 365 identity for Yammer users](https://docs.microsoft.com/yammer/configure-your-yammer-network/enforce-office-365-identity) and [Yammer and Microsoft 365 groups](https://docs.microsoft.com/yammer/manage-yammer-groups/yammer-and-office-365-groups).
+>To host a live event in Yammer, your organization must have **Enforce Office 365 identity** selected, and you must be using Microsoft 365 connected Yammer groups. For more information, see [Enforce Office 365 identity for Yammer users](/yammer/configure-your-yammer-network/enforce-office-365-identity) and [Yammer and Microsoft 365 groups](/yammer/manage-yammer-groups/yammer-and-office-365-groups).
 
 
 Get started with [organizing live events in Yammer](https://teamworktools.azurewebsites.net/yammer/How%20to%20host%20a%20live%20event%20in%20Yammer%20Playbook.pdf) 
@@ -179,7 +179,7 @@ The Viva Connections home page features a feed and dashboard you can use to prom
 |![Speaker icon](media/th-speaker.png)                | **Speaker**               | Consider each speaker the main attraction. This is the person delivering the message. Your town hall can feature more than one speaker. This can include the leader of an organization, a department, or even a subject matter expert. Your town hall can have more than one speaker.            |- Prepare presentations <br> - Prepare by testing audio and video quality before the presentation <br> - Configure the event streaming as needed <br> - Keep track of time             |
 |![Attendee icon](media/th-attendee.png)              | **Event attendee**                 | Each audience member attends town halls to gain insight or understanding of the talking point(s) of each speaker. Encourage audience engagement by taking advantage of the built-in Q&A and the open form conversation feature on Yammer.              |- Attend the town hall <br> - Ask the moderator questions <br> - Engage in related conversation with other audience members             |
 
-Learn more about [using PowerShell to set up live events and policies](https://docs.microsoft.com/microsoftteams/teams-live-events/set-teams-live-events-policies-using-powershell).
+Learn more about [using PowerShell to set up live events and policies](/microsoftteams/teams-live-events/set-teams-live-events-policies-using-powershell).
  
 Learn more about [producing and organizing a live event in Yammer](https://support.microsoft.com/office/organize-a-live-event-in-new-yammer-7338782a-4f0b-4fd0-a6c3-33625906ead1). 
 
@@ -190,7 +190,7 @@ Learn more about [producing and organizing a live event in Yammer](https://suppo
 Creating and producing live events in Yammer requires Microsoft Stream and/ or Teams licenses and specific permissions. Yammer administrators can schedule live meetings in Yammer.  
 For events using an external app or device, you will need to have your Microsoft Stream license enabled.
 
-Learn more about [Permissions for scheduling, creating, and producing live events in Yammer](https://docs.microsoft.com/yammer/manage-yammer-groups/yammer-live-events).
+Learn more about [Permissions for scheduling, creating, and producing live events in Yammer](/yammer/manage-yammer-groups/yammer-live-events).
 
 **Step 2: Test Equipment**
 
@@ -217,10 +217,10 @@ Be sure to record the event so people who weren’t able to attend live can watc
 
 Members of your organization can watch the recording of the event stream after the event. Communities created in Yammer during the event can continue the conversation and watch the recording of the town hall on the Yammer platform. Moderators can also provide automatic recaps for those who may have missed the town hall.
 
-Make your town hall and post-event engagement scalable by sharing your town hall recording across multiple platforms. Add it to your SharePoint site using the [Yammer web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) or the [News feed web part](https://docs.microsoft.com/yammer/integrate-yammer-with-other-apps/yammer-and-newsfeed), add it to your news feed in Viva Connections (link), or share it to a team channel in [Teams](https://docs.microsoft.com/microsoftteams/best-practices-large-groups).
+Make your town hall and post-event engagement scalable by sharing your town hall recording across multiple platforms. Add it to your SharePoint site using the [Yammer web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) or the [News feed web part](/yammer/integrate-yammer-with-other-apps/yammer-and-newsfeed), add it to your news feed in Viva Connections (link), or share it to a team channel in [Teams](/microsoftteams/best-practices-large-groups).
 
 
-[Stream](https://docs.microsoft.com/stream/portal-get-started) (on SharePoint) provides [Multi-Geo support](https://docs.microsoft.com/microsoft-365/enterprise/administering-a-multi-geo-environment?view=o365-worldwide) for video storage and advanced sharing options. Increase your event recording’s discoverability and shareability by adding it to your organization’s Stream portal.
+[Stream](/stream/portal-get-started) (on SharePoint) provides [Multi-Geo support](/microsoft-365/enterprise/administering-a-multi-geo-environment?view=o365-worldwide) for video storage and advanced sharing options. Increase your event recording’s discoverability and shareability by adding it to your organization’s Stream portal.
 
 Access additional video analytics including views over time and viewer engagement by saving your town hall recording to Stream.  
 
