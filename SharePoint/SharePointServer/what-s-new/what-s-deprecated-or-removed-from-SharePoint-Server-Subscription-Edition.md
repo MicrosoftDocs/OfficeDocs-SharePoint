@@ -18,7 +18,7 @@ ms.custom:
 description: "Learn about the features and functionalities that are deprecated or removed in SharePoint Server Subscription Edition."
 ---
 
-# What's deprecated or removed from SharePoint Server Subscription Edition?
+# What's deprecated or removed from SharePoint Server Subscription Edition
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
