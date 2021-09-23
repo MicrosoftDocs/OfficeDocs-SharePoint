@@ -39,7 +39,7 @@ By publishing a service application, you can optimize resources, avoid redundanc
     
 Additionally, a SharePoint (N-1) farm can consume services from a SharePoint Server (N) farm but a SharePoint Server (N) farm cannot consume services from a SharePoint (N-1) farm. This allows for upgrade of multi-farm environments in which a farm hosting service applications is upgraded first. In this scenario, the service applications and features that the SharePoint (N-1) farm experiences are limited to those that are available in SharePoint (N-1).
 
-For SharePoint Server Subscription Edition (N), we suport SharePoint (N-2) farm and can consume services from a SharePoint 2016 farm.
+As SharePoint (N-2) farm is supported for SharePoint Server Subscription Edition (N), a SharePoint Server (N) farm can now consume services from a SharePoint 2016 farm.
 
 Cross farm service publishing supported scenarios:
 
