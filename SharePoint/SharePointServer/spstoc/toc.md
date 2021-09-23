@@ -17,6 +17,7 @@
 #### [What's deprecated or removed from SharePoint Server 2016](../what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2016.md)
 ## [Getting started](../getting-started.md)
 ## [Security for SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md)
+### [Improved ASP.NET view state security and key management](../security-for-sharepoint-server/improved-asp-net-view-state-security-key-management.md)
 ### [Plan for administrative and service accounts](../security-for-sharepoint-server/plan-for-administrative-and-service-accounts.md)
 #### [Automatic password change planning](../security-for-sharepoint-server/automatic-password-change-planning.md)
 ### [Authentication overview](../security-for-sharepoint-server/authentication-overview.md)
