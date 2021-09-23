@@ -7,6 +7,7 @@
 ## [What's new](../what-s-new/what-s-new.md)
 ### [SharePoint Server Subscription Edition]()
 #### [New and improved features in SharePoint Server Subscription Edition](../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition.md)
+#### [What's deprecated or removed from SharePoint Server Subscription Edition](../what-s-new/what-s-deprecated-or-removed-from-SharePoint-Server-Subscription-Edition.md)
 ### [SharePoint Server 2019]()
 #### [New and improved features in SharePoint Server 2019](../what-s-new/new-and-improved-features-in-SharePoint-Server-2019.md)
 #### [What's deprecated or removed from SharePoint Server 2019](../what-s-new/what-s-deprecated-or-removed-from-SharePoint-Server-2019.md)
