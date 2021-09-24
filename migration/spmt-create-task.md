@@ -33,7 +33,7 @@ Choose how you want to create your task:
 |[Create a task that include all subsites](create-a-task-that-includes-all-subsites)|If you plan on including ALL your subsites in your migration, use this method.  It will prompt you for if and how you want to modernize your site structure (this feature is in public preview)|
 |[Create a task using a CSV or JSON file](#create-a-task-using-a-csv-or-json-file)|This is the bulk upload method of creating a task. If you have a large number of sources you can enter them into a CSV or JSON file, and upload the file to SPMT|
 
-### Create a task that doesn't include all subsites
+## Create a task that doesn't include all subsites
   
 1. Start SPMT, and then enter your Microsoft 365 username and password.
     
@@ -58,7 +58,7 @@ Choose how you want to create your task:
 9. Select **Add**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
     
 
-### Create a task that includes all subsites
+## Create a task that includes all subsites
 
   
 1. Start SPMT, and then enter your Microsoft 365 username and password.
@@ -106,7 +106,7 @@ Choose how you want to create your task:
 
 
 
-### Create a task using a CSV or JSON file
+## Create a task using a CSV or JSON file
 
 If you have many sources to migrate, you can use either a JSON or CSV file to do a bulk migration. To learn more on how to create a JSON or CSV file for data content migration, see [How to format your JSON or CSV file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md).
   
