@@ -28,6 +28,8 @@ description: "Learn about SharePoint view in File Explorer for Edge."
 
 Last year, we announced that Microsoft 365 apps and services would no longer support Internet Explorer 11 (IE 11). As a result, we no longer recommend View in File Explorer and encourage using the OneDrive sync client. The OneDrive sync client provides [Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e), which allows you to access all your files in SharePoint without using up local storage space. For info about using OneDrive to sync SharePoint files, visit [SharePoint file sync](sharepoint-sync.md).
 
+By default, the View in File Explorer menu option will not be visible to you or users in the SharePoint modern document library interface. In certain cases, organizations may still need to use View in File Explorer to access modern document libraries. Starting in Microsoft Edge Stable version 93, you can enable the View in File Explorer capability on SharePoint for modern document libraries.
+
 ## Configure View in File Explorer with Edge
 
 Follow the steps below to use View in File Explorer in Microsoft Edge:
@@ -128,7 +130,11 @@ If you don't enable ViewInFileExplorerEnabled via [Set-SPOTenant](/powershell/mo
 If you have enabled ViewInFileExplorerEnabled, you may see the View In File Explorer button appear in your SharePoint library, however, clicking the button will result in a blank screen.
 
 :::image type="content" source="media/edgepolicy-blank-screen.png" alt-text="Blank screen that appears when the tenant setting is enabled without the policy applied.":::
-    
+
+**When running Set-SPOTenant -ViewInFileExplorerEnabled $True I received the error "The requested operation is part of an experimental feature that is not supported in the current environment". What's wrong?**
+
+You may receive this error if this functionality is not supported in your current environment. We are still rolling out functionality to all Production environments and will update this article once worldwide rollout has been completed.
+
 ## Learn More
 
 - [Sync SharePoint and Team files with your computer](https://support.microsoft.com/en-us/office/sync-sharepoint-and-teams-files-with-your-computer-6de9ede8-5b6e-4503-80b2-6190f3354a88)
