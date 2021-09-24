@@ -29,7 +29,7 @@ When creating a migration task you can choose to simply migrate data files from 
 
 |How|Description|
 |:-----|:-----|
-|[Create a task that doesn't include all subsites](#create-a-task-that-doesn't-include-all-subsites)|If you plan on migrating only selected sites or document libraries, follow these steps.|
+|[Create a task that with selected content or subsites](#create-a-task-with-selected-content-or-subsites)|If you plan on migrating only selected sites or document libraries, follow these steps.|
 |[Create a task that include all subsites](create-a-task-that-includes-all-subsites)|If you are including ALL your subsites in your migration, use this method.  You will prompted if and how you want to modernize your site structure.  **Note**. This site sturcutre feature is currently feature is in public preview.)|
 |[Create a task using a CSV or JSON file](#create-a-task-using-a-csv-or-json-file)|This is the bulk upload method of creating a task. If you have a large number of sources you can enter them into a CSV or JSON file, and upload the file into SPMT.|
 
@@ -39,7 +39,7 @@ When creating a migration task you can choose to simply migrate data files from 
 -  **Proxy connections are not supported.** Using Proxy connections yields errors such as "SharePoint login fail" or "cannot load document library". 
 - If you have already signed in to the destination site already while using SPMT, you won't be prompted again for the same site credentials.
 
-## Create a task that doesn't include all subsites
+## Create a task with selected content or subsites
   
 1. Start SPMT, and then enter your Microsoft 365 username and password.    
 2. Select **Start your first migration**.   
