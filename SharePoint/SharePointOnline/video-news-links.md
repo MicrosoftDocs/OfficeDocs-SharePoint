@@ -27,7 +27,7 @@ description: "Embed Video news links in the Viva Connections feed"
 # Embed Video news links in the Viva Connections feed (Preview)
   
 Learn how to communicate with your organization by embedding videos in the Viva Connections feed.
-Videos are an engaging way to reach users in your organization. They provide endless opportunities to communicate with your organization. Share an update, rebroadcast an all-hands meeting, or provide reusable training materials.
+Videos are an engaging way to reach users in your organization. They provide endless opportunities to communicate with your organization. Share an update, rebroadcast an all-hands meeting, or provide reusable training materials. Learn more about [how videos are stored in Microsoft 365](https://aka.ms/NewStream).
  
 ## How to publish a Video news link
 
@@ -39,20 +39,26 @@ You can publish videos hosted on SharePoint sites as news posts in the Viva Conn
 
     > [!TIP]
     > Create a sharing link that includes members of your organization that already have access to the video so they can play it.
-    >
-    > ![Image of how to select a video from OneDrive](media/select-video.png)
+    
+    ![Image of how to select a video from OneDrive.](media/select-video.png)
 
 3.  Navigate to a SharePoint organizational site and select **Video** from the **+ New** menu.  Currently, videos can only be published as news items from organizational news sites.
 
-    ![Image of how to add a new video news link to a news site](media/add-video-link.png)
+    ![Image of how to add a new video news link to a news site.](media/add-video-link.png)
+
+
+    > [!NOTE]
+    > If Viva Connections hasn’t been configured for your organization, you’ll see the following   error. Learn more about [how to set up Viva Connections](guide-to-setting-up-viva-connections). 
+
+    ![Image of an error message in the Video News link panel.](media/video-news-link-error.png)
 
 4.  Paste the sharing link into the **Link** field.
 
-    ![Image of how to share a video news link](media/save-video-news-link.png)
+    ![Image of how to share a video news link.](media/save-video-news-link.png)
 
 5.  Update the **Title** and **Description** fields. A title and description will be automatically populated from the video. You can use the default information, or update it to say something different.
 
-    ![Image of the Video news link settings panel](media/video-news-link-panel-2.png)
+    ![Image of the Video news link settings panel.](media/video-news-link-panel-2.png)
 
 6.  Select **Post** to publish to the video news link to the Feed.
 
@@ -73,7 +79,7 @@ You can publish videos hosted on SharePoint sites as news posts in the Viva Conn
 
 3.  Select **Edit** on the top-right of the page.
 
-    ![Image of how to edit an active video news link](media/video-link-edit.png)
+    ![Image of how to edit an active video news link.](media/video-link-edit.png)
  
 4.  Edit content on the page, and then select **Update post** to republish.
 
@@ -113,4 +119,4 @@ You can publish videos hosted on SharePoint sites as news posts in the Viva Conn
 
 **A:** Video news links will appear as a card in the Viva Connections feed. Tapping on the card will play the video full screen.
 
-![Image of an active video news link](media/active-video-link.png)
+![Image of an active video news link.](media/active-video-link.png)
