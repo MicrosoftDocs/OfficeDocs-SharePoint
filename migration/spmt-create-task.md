@@ -47,7 +47,7 @@ Choose how you want to create your task:
 6. Select the document library where your files are located. The dropdown contains all your possible choices. If don't select a document library or list, the site will be migrated.If you want to include all subsites, select **Include all subsites**.    
 7. Enter the URL of the SharePoint site where you want your files migrated.   
 8. Select the document library to where your files will be copied.   
-9. Select **Add**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
+9. Select **Next**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
     
 
 ## Create a task that includes all subsites
@@ -79,7 +79,7 @@ Choose how you want to create your task:
 
 13.	Review and edit destination URL for each subsite as needed.
     
-14. Select **Add**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
+14. Select **Next**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
 
 
 
@@ -92,8 +92,7 @@ If you have many sources to migrate, you can use either a JSON or CSV file to do
 2. Select **Start your first migration**.   
 3. Select **JSON or CSV file for bulk migration.**   
 4. Enter the full path of your .CSV or .JSON file where your content is located, and then select **Add**.   
-5. Enter the URL of the SharePoint site where you want your files migrated, and then select **Next**.
-6. Select **JSON or CSV file for bulk migration**. Enter the location of your file, or select **Choose File** to locate it. Select **Add**.
+5. Select **JSON or CSV file for bulk migration**. Enter the location of your file, or select **Choose File** to locate it. Select **Add**.
     
     If you are migrating files from an on-premises SharePoint Server, you are prompted for your username and password for that site unless you provided those credentials in previous steps. 
   
