@@ -22,20 +22,22 @@ description: "Learn now to create a migration task using the SharePoint Migratio
 
 When creating a migration task you can choose to simply migrate data files from your SharePoint Server document libraries or also modernize your site collection structure during migration. 
 
+>[!Note]
+>The site structure feature shown in the "Create a task that includes all subsites" method, is currently in public preview and subject to change without notice.
 
-Choose how you want to create your task:
+## Choose how you want to create your task:
 
 |How|Description|
 |:-----|:-----|
-|[Create a task that doesn't include all subsites](#create-a-task-that-doesn't-include-all-subsites)|If you plan on migrating only selected sites or document libraries, follow these steps|
-|[Create a task that include all subsites](create-a-task-that-includes-all-subsites)|If you plan on including ALL your subsites in your migration, use this method.  It will prompt you for if and how you want to modernize your site structure (this feature is in public preview)|
-|[Create a task using a CSV or JSON file](#create-a-task-using-a-csv-or-json-file)|This is the bulk upload method of creating a task. If you have a large number of sources you can enter them into a CSV or JSON file, and upload the file to SPMT|
+|[Create a task that doesn't include all subsites](#create-a-task-that-doesn't-include-all-subsites)|If you plan on migrating only selected sites or document libraries, follow these steps.|
+|[Create a task that include all subsites](create-a-task-that-includes-all-subsites)|If you are including ALL your subsites in your migration, use this method.  You will prompted if and how you want to modernize your site structure.  **Note**. This site sturcutre feature is currently feature is in public preview.)|
+|[Create a task using a CSV or JSON file](#create-a-task-using-a-csv-or-json-file)|This is the bulk upload method of creating a task. If you have a large number of sources you can enter them into a CSV or JSON file, and upload the file into SPMT.|
 
 ## Before you begin
 
 - **Username and password**. When you first open SPMT, you are prompted for your Microsoft 365 username and password. The credentials you provide must be to the migration *destination*.
 -  **Proxy connections are not supported.** Using Proxy connections yields errors such as "SharePoint login fail" or "cannot load document library". 
-- If you have already signed in to that site once while using this tool, you won't be prompted again for the same site. 
+- If you have already signed in to the destination site already while using SPMT, you won't be prompted again for the same site credentials.
 
 ## Create a task that doesn't include all subsites
   
