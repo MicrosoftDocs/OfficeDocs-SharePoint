@@ -1,5 +1,5 @@
 ---
-title: "Migration Manager Box FAQs"
+title: "Migration Manager Dropbox FAQs"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -15,28 +15,28 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-description: Migration Manager Box FAQs
+description: Migration Manager Dropbox FAQs
 ---
 
-# Frequently Asked Questions: Migration Manager Box
+# Frequently Asked Questions: Migration Manager Dropbox
 
-**Question:**   **Can I still use Mover to migrate my Box accounts?**</br>
+**Question:**   **Can I still use Mover to migrate my Dropbox accounts?**</br>
 Answer.  Yes, you can continue to use Mover.  Find the tool at https://mover.io
 </br>
 
-**Question:**  **Is this available for GCC, GCCHigh, DoD tenants?**</br>
-Answer.  Currently Migration Manager Box is not available for any of the Government clouds.
+**Question:**  **Is Migration Manager Dropbox available for GCC, GCCHigh, DoD tenants?**</br>
+Answer.  Currently Migration Manager Dropbox is not available for any of the Government clouds.
 </br>
 
 **Question:** **Are there are any caveats to this release?**</br>
-Answer.  This release only supports small to medium Box accounts.  Continue to use https://Mover.io for large accounts.
+Answer.  Yes, this release only supports small to medium Dropbox accounts.  Continue to use https://Mover.io for large accounts.
 </br>
 
 **Question:**   **What gets transferred?**</br>
 Answer: Only owned folders and the root files for each user are copied. If a user is not the owner of data they can access, we do not copy it. Content may be automatically re-shared after it is migrated so that each user has access to their content exactly as before.
 </br>
 
-**Question:**   **Does Migration Manager Box sync files?**</br>
+**Question:**   **Does Migration Manager Dropbox sync files?**</br>
 Answer: There is a source-to-destination delta; when you run a transfer, we compare the destination directory to the source, and only transfer new or modified files over. We call this our incremental feature. We compare the timestamps of the files in both the source and destination and transfer the newest versions only. The incremental feature is always on.  Here are a few examples of how we deal with changes to files and folders.
 
 - **Content changes**: If a document is edited in your source or you have added a few new files, we copy them to your destination on the next incremental run, overwriting the previously existing file(s) in the destination.

@@ -79,3 +79,8 @@ Answer: Re-run the Migration Manager agent installer and click the **Uninstall**
 
 **Question:** Does Migration Manager do incremental migrations? </br>
 Answer:  Yes.  The jobs created in Migration Manager do perform incremental migrations when run subsequently. 
+
+**Question:**  Does adding more agents linearly increase the throughput? Is there a cap on the max number of agents?</br>
+Based on our current data, the average speed of migration scales linearly to the number of agents, unless the overall throughput hits the upper limit of your network bandwidth. If multiple agents read from the same source file share path, that can also impact throughput. There’s no limit on how many agents you can install. We have many customers who perform migrations using 20+ agents.  **Note:** A single agent can process up to 10 tasks at a given time.
+
+
