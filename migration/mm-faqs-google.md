@@ -20,10 +20,6 @@ description: Migration Manager Google FAQs
 
 # Frequently Asked Questions: Migration Manager Google
 
-**Question:**   **Can I still use Mover to migrate my Google accounts?**</br>
-Answer.  Yes, you can continue to use Mover.  Find the tool at https://mover.io
-</br>
-
 **Question:**  **Is this available for GCC, GCCHigh, DoD tenants?**</br>
 Answer.  No, currently this Migration Manager Google is not available for any of the Government clouds.
 </br>
