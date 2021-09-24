@@ -25,7 +25,7 @@ Answer.  Yes, you can continue to use Mover.  Find the tool at https://mover.io
 </br>
 
 **Question:**  **Is this available for GCC, GCCHigh, DoD tenants?**</br>
-Answer.  No, currently this Migration Manager Dropbox is not available for any of the Government clouds.
+Answer.  Currently Migration Manager Dropbox is not available for any of the Government clouds.
 </br>
 
 **Question:** **Are there are any caveats to this release?**</br>

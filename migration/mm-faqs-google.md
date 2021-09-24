@@ -29,7 +29,7 @@ Answer.  No, currently this Migration Manager Google is not available for any of
 </br>
 
 **Question:** **Are there are any caveats to this release?**</br>
-Answer.  Yes, this release only supports small to medium Google accounts.  Continue to use https://Mover.io for large accounts.
+Answer.  This release only supports small to medium Google accounts.  Continue to use https://Mover.io for large accounts.
 </br>
 
 **Question:**   **What gets transferred?**</br>
