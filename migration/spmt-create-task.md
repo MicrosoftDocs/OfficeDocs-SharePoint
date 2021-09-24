@@ -25,7 +25,7 @@ When creating a migration task you can choose to simply migrate data files from 
 >[!Note]
 >The site structure feature shown in the "Create a task that includes all subsites" method, is currently in public preview and subject to change without notice.
 
-## Choose how you want to create your task:
+## Choose how you want to create your task
 
 |How|Description|
 |:-----|:-----|
