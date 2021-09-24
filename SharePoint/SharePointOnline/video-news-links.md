@@ -20,7 +20,6 @@ search.appverid:
 - SPO160
 - MET150
 - BSA160
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Embed Video news links in the Viva Connections feed"
 ---
 
