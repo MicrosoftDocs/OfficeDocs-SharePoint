@@ -100,7 +100,7 @@ SharePoint app bar elements will display in Microsoft Teams (the access point is
 The Dashboard brings it all together – it provides a personalized landing experience and is designed to be the central destination where everyone can discover your organization's resources and complete daily tasks. Apply [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) to dashboard cards to give your users an experience tailored to their role and interests. Once you set up the Dashboard, you will be able to use the [Dashboard web part on the home site](/SharePoint/use-dashboard-web-part-on-home-site). 
 
 > [!NOTE]
-> The ability to create a Dashboard is only available from the home site.
+> - The ability to create a Dashboard is only available from the home site.
 
 **Popular scenarios that can be supported by Viva Connections include:** 
 <br>
@@ -180,12 +180,14 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 
 ## Step 7: Choose settings for your mobile Viva Connections app
 
+> [!NOTE]
+> A Dashboard is required to customize settings for the mobile app.
+
 | Viva Connections Dashboard on a mobile device                  |Mobile settings guidance              | 
 | :------------------- | :------------------- |
 | ![image of the Viva Connections mobile app](media/viva-dashboard-mobile.png)  | The Viva Connections app creates a custom app in Microsoft Teams that fits the needs of your organization. Your organization’s custom app will appear as a branded company app in the Microsoft Teams app center. Once the app is added, your organization’s icon will appear in the Teams app bar in the desktop and mobile Microsoft Teams experience. Users won’t see the app by default if you don’t pre-install and pre-pin.
 
-> [!NOTE]
-> A Dashboard is required to customize settings for the mobile app.
+
 
 ### Get started
 1.	If you have pre-pinned the app for your users with Teams app set up policies in step #6, then the app will automatically appear in users’ Teams mobile client apps on iOS and Android.

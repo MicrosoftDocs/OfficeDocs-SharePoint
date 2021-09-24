@@ -53,7 +53,9 @@ A Dashboard can be created on any communication site, but we recommend you creat
 1. On your home site, select **New > Dashboard**. The Dashboard page opens in Mobile view by default. 
 
    >[!NOTE]
-   >You can choose Mobile, Tablet, and Desktop views interchangeably as you’re authoring.
+   > - You can choose Mobile, Tablet, and Desktop views interchangeably as you’re authoring.
+   > - Image recommendations for cards in the Dashboard: medium cards should be 300x150 to 400x200 with 2:1 aspect ratio and large cards 300x300 to 400x400 with 1:1 aspect ratio in order to prevent stretching in the mobile app.
+   > - Image URLS in card properties must be an absolute URL in order for the link to work in the mobile app.
 
 
 2. Select **+ Add a card**.
