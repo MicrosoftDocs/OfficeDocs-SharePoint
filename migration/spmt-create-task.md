@@ -25,9 +25,13 @@ When creating a migration task you can choose to simply migrate data files from 
 >[!Note]
 >When you first launch SPMT, you are prompted for your Microsoft 365 username and password. The credentials you provide will be to the migration *destination*.
 
-Create a task that doesn't include all subsites
-Create a task and include all subsites
-Create a task uploading a CSV or JSON file
+Choose how you want to create your task:
+
+|How|Description|
+|:-----|:-----|
+|[Create a task that doesn't include all subsites](#create-a-task-that-doesn't-include-all-subsites)|If you plan on migrating only selected sites or document libraries, follow these steps|
+|[Create a task that include all subsites](create-a-task-that-includes-all-subsites)|If you plan on including ALL your subsites in your migration, use this method.  It will prompt you for if and how you want to modernize your site structure (this feature is in public preview)|
+|[Create a task using a CSV or JSON file](#create-a-task-using-a-csv-or-json-file)|This is the bulk upload method of creating a task. If you have a large number of sources you can enter them into a CSV or JSON file, and upload the file to SPMT|
 
 ### Create a task that doesn't include all subsites
   
@@ -79,7 +83,7 @@ Create a task uploading a CSV or JSON file
 7. Enter the URL of the SharePoint site where you want your files migrated.
     
 8. Select the document library to where your files will be copied.
-9. If you selected **Include all subsites**, you will be see if the Select either **Keep the classic site structure** (make no changes to the site structure) or **Switch to modern site structure** to modernize your site structure during migration.
+9. Select either **Keep the classic site structure** (make no changes to the site structure) or **Switch to modern site structure** to modernize your site structure during migration.
 
     ![choose your site structure ](media/spmt-site-structure-choice.png)
 
