@@ -44,6 +44,8 @@ Review common scenarios to get familiar with the different types of organization
 
 **Outcome:** The outcome will allow frontline workers to feel connected and informed while providing easy access to common tasks and tools all in one place. 
 
+[Learn more about setting up Viva Connections.](/guide-to-setting-up-viva-connections)
+
 
 ### Scenario B: Plan, create, and launch a home site in SharePoint
 
@@ -56,6 +58,8 @@ Review common scenarios to get familiar with the different types of organization
 <br>
 
 **Outcome:** The outcome of the landing experience allows all employees to easily catch up on organizational news, access popular resources, and find help and support.
+
+[Learn more about how to set a SharePoint home site.](/home-site-plan)
 
 
 ### Scenario C: Plan and produce a town hall for your organization
@@ -70,6 +74,10 @@ Review common scenarios to get familiar with the different types of organization
 
 **Outcome:** The outcome of this scenario is a large region or division of an organization engages with new information, resources, messages, and direction during a live event that’s recorded and can be viewed later.
 
+[Learn more about how to plan and produce a town hall.](/hold-town-hall-using-yammer)
+
+
+
 ### Scenario D: Distribute organizational news for your organization
 
 ![Conceptual image of how to distribute organizational news.](media/cc-news.png)
@@ -81,6 +89,9 @@ Review common scenarios to get familiar with the different types of organization
 <br>
 
 **Outcome:** The outcome will allow for relevant news to show up to the right audience on devices and in apps that are already being used in the flow of work.
+
+[Learn more about how to distribute organizational news.](/distribute-corporate-news-to-your-organization)
+
 
 
 ### Scenario E: Connect leadership and teams across the organization
@@ -95,6 +106,10 @@ Review common scenarios to get familiar with the different types of organization
 
 **Outcome:** The outcome will be a sustainable communications channel that connects people and provides learning opportunities beyond typical leadership announcements.
 
+[Learn more about how to connect leadership with your organization.](/leadership-connection)
+
+
+
 ### Scenario F: Plan, build, and maintain a new employee onboarding program
 
 ![Conceptual image of how to launch an employee onboarding program.](media/cc-neo.png)
@@ -107,7 +122,7 @@ Review common scenarios to get familiar with the different types of organization
 
 **Outcome:** The outcome makes new employees feel welcome and understand who and where to go to for help and more information.
 
-
+[Learn more about how to plan and launch a new employee onbaording program.](/onboard-employees)
 
 
 ## Up next:
