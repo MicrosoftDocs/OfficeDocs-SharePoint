@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
@@ -95,7 +95,7 @@ The following table details the SharePoint web parts that are currently supporte
 |Filters|Text Filter|Yes|
 |Filters|Apply Filter|Yes|
 |Filters|Filter Actions|No|
-|Filters|Sharepoint List Filter|Yes|
+|Filters|SharePoint List Filter|Yes|
 |Filters|SQL server analysis services filters|No|
 |Forms|HTML Form web part|No|
 |Forms|InfoPath Form web part|No|

@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
@@ -48,7 +48,7 @@ If you are having issues loading the SharePoint Migration tool, here are a few i
 
 If you are on a government cloud, you must first take these steps:
 
-1. Open microsoft.sharepoint.migration.common.dll.config.
+1. Open %localappdata%\Apps\SharePointMigrationTool\SPMT\microsoft.sharepoint.migration.common.dll.config.
 2. Change the value of **SPOEnvironmentType** to:
 
     - **3** if you are DoD

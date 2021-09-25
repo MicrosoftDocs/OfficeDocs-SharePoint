@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5978d831-4070-4b03-a81c-dfce3b7d594e
 description: "Change how long the SharePoint Server search crawler will wait for a connection to a content repository or for a response to a connection attempt."

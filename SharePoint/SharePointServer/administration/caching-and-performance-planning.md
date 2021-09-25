@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: fd6a6c07-1979-4254-873c-f146fb630de5
 description: "Learn about the BLOB cache, Bit Rate Throttling, and other SharePoint Server features that can improve browser performance."

@@ -9,7 +9,7 @@ audience: Admin
 f1.keywords: CSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
@@ -81,7 +81,7 @@ This video shows how the settings on the Sharing page in the SharePoint admin ce
 
 ### More external sharing settings
 
-![More external sharing settings](media/advanced-external-sharing.png)
+![More external sharing settings](media/external-sharing.png)
 
 **Limit external sharing by domain**
 
@@ -101,9 +101,14 @@ By default, guests can receive an invitation at one account but sign in with a d
 
 By default, guests must have full control permission to share items externally.
 
+**Guest access to a site or OneDrive will expire automatically after this many days**
+
+If your administrator has set an expiration time for guest access, each guest that you invite to the site or with whom you share individual files and folders will be given access for a certain number of days. For more information visit, [Manage guest expiration for a site](https://support.microsoft.com/en-us/office/manage-guest-expiration-for-a-site-25bee24f-42ad-4ee8-8402-4186eed74dea)
+
 **People who use a verification code must reauthenticate after this many days**
 
 If people who use a verification code have selected to "stay signed in" in the browser, they must prove they can still access the account they used to redeem the sharing invitation. 
+
 
 ## File and folder links
 

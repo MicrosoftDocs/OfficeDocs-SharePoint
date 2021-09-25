@@ -1,6 +1,5 @@
 ---
 title: "Assess SharePoint Migration Tool reports"
-ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
@@ -10,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 mscollection:
 - SPMigration
 - M365-collaboration
@@ -36,8 +35,6 @@ Task level reports:
 - [Item Report](#item-report)
 - [Scan Summary](#scan-summary)
 - [Structure Report](#structure-report)
-- [Structure Failure Report](#structure-failure-report)
-- [Structure Failure Summary](#structure-failure-summary)
 
 Performance report
 - [Performance Report](#performance-report)
@@ -243,40 +240,6 @@ Structure report at the task level.
 |Destination structure ID |ID when available. |
 |Time stamp |The time at which the action occurred. |
    
-### Structure failure report
-
-This is a failure report at the task level. This report will only be generated if there is a failure.
-  
-|**Column**|**Description**|
-|:-----|:-----|
-|Structure type |Site collection, site, list, field, content type, view |
-|Structure title |Display name of the object |
-|Operation |Skipped, created or updated. |
-|Status |Success, partial success, failure |
-|Details |Reason for failure. |
-|Source structure URL |Display the source URL. Site collection, site, and list will list the URL. Fields, content type. and view will display its container's URL. |
-|Destination structure URL |Display the source URL. Site collection, site, and list will list the URL. Fields, content type, and view will display its container's URL. |
-|Source structure ID |ID when available. |
-|Destination structure ID |ID when available. |
-|Time stamp |The time at which the action occurred. |
-   
-### Structure failure summary
-
-This is an aggregate of all the task failure reports. This will only be generated if there are failures.
-  
-|**Column**|**Description**|
-|:-----|:-----|
-|Structure type |Site collection, site, list, field, content type, view |
-|Structure title |Display name of the object |
-|Operation |Skipped, created or updated. |
-|Status |Success, partial success, failure |
-|Details |Reason for failure. |
-|Source structure URL |Display the source URL. Site collection, site, and list will list the URL. Fields, content type. and view will display its container's URL. |
-|Destination structure URL |Display the source URL. Site collection, site, and list will list the URL. Fields, content type, and view will display its container's URL. |
-|Source structure ID |ID when available. |
-|Destination structure ID |ID when available. |
-|Time stamp |The time at which the action occurred. |
- 
 
 ### Performance report
 
@@ -286,5 +249,5 @@ This report provides scores ranging from 1 to 100. The greater the number, the h
 |:-----|:-----|:-----|
 |Reading source speed score<br/> |[Improving the speed at which the source can be read](./spmt-performance-guidance.md#improving-the-speed-at-which-the-source-can-be-read)<br/> |
 |Local disk performance score<br/> |[Improving the migration computer speed](./spmt-performance-guidance.md#improving-the-migration-computer-speed)|
-|Uploading speed score |[Improving your connectivity to Office 365 and Azure](/harepointmigration/spmt-performance-guidance#improving-your-connectivity-to-0ffice-365-and-azure)<br/> |
+|Uploading speed score |[Improving your connectivity to Office 365 and Azure](spmt-performance-guidance.md#improving-your-connectivity-to-microsoft-365-and-azure)<br/> |
 |SharePoint throughput score|[Improving your migration performance when using SPMT](./sharepoint-online-and-onedrive-migration-speed.md)|

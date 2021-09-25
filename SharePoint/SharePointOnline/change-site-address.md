@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
@@ -114,7 +114,7 @@ While the change is in progress, the site is set to read-only, and a redirect is
 **Apps**<br>
 If apps in your organization refer to the site's URL, you might need to republish the apps when you change the site's address.
 
-**Custom Forms Created in PowerApps**<br>
+**Custom Forms Created in Power Apps**<br>
 You need to recreate the Custom Form after the site address change. 
 
 **Hub sites**<br>

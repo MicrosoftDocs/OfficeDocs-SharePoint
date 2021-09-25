@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: reference
 ms.service: one-drive
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - ODC160
 - MET150

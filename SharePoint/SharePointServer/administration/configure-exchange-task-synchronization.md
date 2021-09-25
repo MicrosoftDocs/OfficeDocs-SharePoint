@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 2a83671c-29c5-41af-a15c-54a573a05d99
 description: "Configuring Exchange Server 2016 and SharePoint Server for task synchronization by using the SharePoint Server Task Synchronization feature."
