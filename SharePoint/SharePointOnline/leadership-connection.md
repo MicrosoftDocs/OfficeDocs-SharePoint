@@ -117,3 +117,38 @@ Learn more about [how to organize the live event in Yammer](https://support.micr
 
 ### Insights and engagement metrics for live events
 Before the event starts, you will have access to a dashboard that will help you understand event reach, engagement during the event, top conversations, and more. Insights are only available to event organizers and producers. Learn more about [how to view live event data](https://support.microsoft.com/office/get-insights-about-live-events-in-yammer-2ce5e236-8b72-4715-88ea-a8e15d9488ba) and use insights to host powerful live events.
+
+
+## Step 4: Expand your reach and engagement using Viva Connections
+After you have set up your leadership site and Yammer community, Viva connections will make it easier for your organization to access conversations and news in the Microsoft teams desktop and mobile apps.
+
+>[!NOTE]
+> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](/viva-connections-overview) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.
+
+**Use Viva Connections to:**
+-	Meet your employees in the apps and devices they know and love with a personalized view of news, conversations, and communities
+-	Promote events, news, and conversations in Viva Connections dashboard to specific audiences using audience targeting
+-	Boost important news and announcements to the top of employees’ news feeds
+
+
+## Launch and manage your communication strategy
+Help others in your organization discover the leadership connection resource. Consider [hosting a kickoff event in Yammer](https://support.microsoft.com/office/organize-a-live-event-in-new-yammer-7338782a-4f0b-4fd0-a6c3-33625906ead1) to announce the new SharePoint site and Yammer community. Set the tone for what to expect in terms of ongoing engagement, mentorship and networking opportunities, event, and news publishing schedules. 
+
+**Launch checklist:**
+- Assign site owners and content authors who will be responsible for making sure the leadership site and news are always up to date
+- Make sure your audience has [access to the SharePoint site](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658)
+- Make sure your audience has been [added to the Yammer community](https://support.microsoft.com/office/manage-yammer-community-members-75253554-d0f3-4148-b835-e6a9a8a0c294#:~:text=Add%20community%20members%20from%20a%20.CSV%20file%201,4%20To%20preview%20your%20import%2C%20select%20Preview.%20)
+- Assign a Yammer community moderator and [review Yammer community best practices](https://techcommunity.microsoft.com/t5/yammer-blog/7-tips-to-run-a-successful-yammer-community-formerly-group/ba-p/444720)
+- [Use audience targeting](https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) to highlight leadership events, news, and links to the leadership SharePoint site across your intranet
+- Check site [SharePoint usage and analytics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) and [Yammer community insights](https://support.microsoft.com/office/view-community-insights-in-yammer-48bc648e-b567-49d7-b2b5-5fea23777c46) during and after the launch to measure engagement
+
+
+## More resources
+
+[Overview of corporate communications](corporate-communications-overview)
+
+[Use the SharePoint Leadership connection site template](https://support.microsoft.com/office/use-the-sharepoint-leadership-connection-site-template-a2996d9f-c08e-4de6-8696-a7de323c8add)
+
+[Viva Connections for leaders](https://resources.techcommunity.microsoft.com/viva-connections/leaders/)
+
+
