@@ -65,7 +65,7 @@ Start by making sure you understand your audience’s needs and preferences. Rev
 
 
 ## Build your communication strategy
-Start by creating or leveraging an existing SharePoint communication site. Then connect a new or existing Yammer community to the SharePoint site using the Yammer conversations web part. Then, plan and host live events, share the recordings on the leadership site, and keep the conversation going in Yammer channels. 
+Start by creating or using an existing SharePoint communication site. Then connect a new or existing Yammer community to the SharePoint site using the Yammer conversations web part. Then, plan and host live events, share the recordings on the leadership site, and keep the conversation going in Yammer channels. 
 
 ### Step 1: Create a SharePoint leadership site
 SharePoint communication sites are a great tool to create a landing place to share leadership news, initiatives, and opportunities to network and connect. This is an ideal opportunity to use the [Yammer web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) on the home page to connect to an existing Yammer community that connects leadership team members with the rest of the organization. Use the [Events web part](https://support.microsoft.com/\office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909) to post and [target leadership events to specific audiences](https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293).
@@ -138,7 +138,7 @@ Before the event starts, you will have access to a dashboard that will help you 
 
 
 ## Step 4: Expand your reach and engagement using Viva Connections
-After you have set up your leadership site and Yammer community, Viva connections will make it easier for your organization to access conversations and news in the Microsoft teams desktop and mobile apps.
+After you have set up your leadership site and Yammer community, Viva Connections will make it easier for your organization to access conversations and news in the Microsoft Teams desktop and mobile apps.
 
 >[!NOTE]
 > Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](/viva-connections-overview) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.
