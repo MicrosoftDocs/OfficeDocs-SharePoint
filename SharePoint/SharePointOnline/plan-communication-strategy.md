@@ -122,7 +122,7 @@ Review common scenarios to get familiar with the different types of organization
 
 **Outcome:** The outcome makes new employees feel welcome and understand who and where to go to for help and more information.
 
-[Learn more about how to plan and launch a new employee onbaording program.](/onboard-employees)
+[Learn more about how to plan and launch a new employee onboarding program.](/onboard-employees)
 
 
 ## Up next:
