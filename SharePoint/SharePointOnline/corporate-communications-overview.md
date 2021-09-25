@@ -31,8 +31,7 @@ Learn how to keep everyone informed and engaged using SharePoint, Microsoft Team
 - Learn how to launch, manage, and maintain corporate communications over time
 
 >[!NOTE]
-> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections]
-(/viva-connections-overview) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.
+> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](/viva-connections-overview) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.
 
 
 
@@ -113,8 +112,7 @@ Give end users a head start by helping them use and engage using popular M365 co
 <br>
 
 >[!NOTE]
-> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections]
-(/viva-connections-overview) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.  
+> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](/viva-connections-overview) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.  
 
 <br>
 
