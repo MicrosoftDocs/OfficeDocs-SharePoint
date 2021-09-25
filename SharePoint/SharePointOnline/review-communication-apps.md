@@ -10,10 +10,10 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid: MET150
-description: "Learn more about popular Microsoft 365 communication tools"
 ms.collection: 
   - m365solution-corpcomms
 ROBOTS: NOINDEX, NOFOLLOW
+description: "Learn more about popular Microsoft 365 communication tools"
 ---
 
 # Step 2: Review Microsoft 365 communication tools
@@ -30,6 +30,9 @@ Learn more about how Microsoft 365 tools and applications can help you create th
 | Review usage and engagement analytics to measure reach| Integrate web parts like Stream and Yammer to create a cohesive experience  | Collect feedback and answer questions during live events |Access engagement analytics to learn about user behavior  |Integrate video into SharePoint using the Stream web part|
 
 <br>
+
+>[!NOTE]
+> Access to app analytics and usage reports depends on permissions and your organization's usage data policies. 
 
 
 ## Teams: Video conferencing, chat, and live events
