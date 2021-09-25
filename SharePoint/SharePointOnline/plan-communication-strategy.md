@@ -10,20 +10,20 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid: MET150
-description: "Learn more about common communication scenarios"
 ms.collection: 
   - m365solution-corpcomms
 ROBOTS: NOINDEX, NOFOLLOW
+description: "Learn more about common communication scenarios and solutions"
 ---
 
-# Step 1: Review common communication scenarios
+# Step 1: Review common communication scenarios and solutions
 
 Review common scenarios to get familiar with the different types of organizational structures and details that will help narrow down communication options, considerations, and potential solutions. Then, learn about Microsoft 365 communication applications and how to scope your audience(s) and determine the audience profile. Finally, pick a solution and get started planning for your specific scenario.
 <br>
 <br>
 
 
-| Review scenarios    | Learn about methods |Scope audience   |Get started planning   |
+| Review scenarios and solutions    | Learn about methods |Scope audience   |Get started planning   |
 | :------------------: | :------------------: |:---------------:|:---------------:|
 | ![Image of a check list icon](media/task-check.png)  |   ![Image of a light bulb icon](media/bulb-blue.png) |   ![Image of a user in focus icon](media/icon-plan-personalize.png) | ![Image of a clipboard icon](media/icon-plan-plan.png) |
 | Learn about common communication scenarios|Review Microsoft 365 communication applications   | Identify audience, preferences, and scope audience size  |Get started planning for your specific scenario   |
@@ -32,7 +32,7 @@ Review common scenarios to get familiar with the different types of organization
 ### Scenario A: Use Viva Connections as a gateway to employee experiences
 
 >[!NOTE]
->**Viva Connections is not available for enterprise customers yet.** Viva Connections is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules that will be come available to all customers at the end of the summer in 2021.
+> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](/viva-connections-overview) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules. 
 
 **Goals:** You need to engage, inform, and connect thousands of frontline workers while in the field on a mobile device. The goal is to streamline and target experiences from across SharePoint, Microsoft Teams, Yammer, and Stream into one curated and branded employee experience. 
 <br>
