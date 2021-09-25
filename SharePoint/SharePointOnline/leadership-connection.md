@@ -19,19 +19,27 @@ description: "Use Microsoft 365 to connect leaders and teams"
 
 # Leadership connection: Use Microsoft 365 to connect leaders and teams
 
-Employee engagement is a significant contributor to workplace satisfaction, loyalty, and productivity at any organization. Across Microsoft 365, there are multiple ways to communicate. Knowing which method or combinations of methods to use and when depends on your audience and the communication culture of your organization.
-Learn how to keep everyone informed and engaged using SharePoint, Microsoft Teams, Yammer, Stream, and Viva Connections*. Learn more about the powerful strategies and communication tools available to you that help drive engagement in your organization.
+Microsoft 365 can help your organization’s leadership teams connect with employees to build community around a common purpose and goal. Learn how to create a culture and internal place to help engage and connect leadership teams with the rest of your organization. 
 
-**In this solution:**
+**Help unite your organization by:**
 
-- Discover applications best suited for your communication goals and audience
-- Get started planning for specific scenarios like Viva Connections*, holding a town hall, or distributing organizational news
-- Understand access, technical, and license requirements before getting started
-- Learn how to launch, manage, and maintain corporate communications over time
+-	Creating a sustainable, two-way dialogue between leadership and the rest of the organization by removing communication barriers 
+-	Hosting organizational or department-wide meetings with live Q&A sessions so everyone is up-to-speed on leadership initiatives 
+-	Sharing relevant news, ideas, and updates to encourage employees to engage and network with leadership teams
+-	Using analytics to gain insights on engagement and understand the impact of activities
+-	Bringing elements of the experience together using Viva Connections
+
 
 >[!NOTE]
->**Viva Connections is not available for enterprise customers yet.** Viva Connections is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules that will be come available to all customers at the end of the summer in 2021.
+> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](/viva-connections-overview) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.
 
+
+
+| Plan               | Build                 | Launch          | Maintain |
+| :------------------- | :-------------------  |:------------------- | :------------------- |
+| 
+- Define audience profile and scope audience size <br> - Align with stakeholders and define purpose and mission <br> - Develop a support team that will make sure content is relevant, plan future events, and publish news <br> - Consider multi-geo and multi-lingual options <br> - Find corporate sponsorship and champions <br> - Determine success metrics | - Create a SharePoint leadership site using a template <br> - Start a new community in Yammer <br> - Set up news that can be shared in SharePoint, Teams, and Outlook <br> - Use M365 groups to provide access to large audiences <br> - Use audience targeting to make sure your audience can find the right content <br> - Get user feedback before launching your communications <br> - Plan a kickoff event and identify promotional channels | 
+- Make sure the leadership SharePoint site, Yammer community, and event invites have been shared with the right audiences <br> - Send email invites to the kickoff event <br> - Use Microsoft Teams and Yammer to post messages about the kickoff event <br> - Equip champions and corporate sponsors with promotional materials <br> - Produce and host a live event with Q&A <br> - Create feedback channels <br> - Post the event recording on the leadership connection site | - Ensure content stays relevant over time <br> - Audit M365 group membership, access, and settings periodically <br> - Develop a news publishing cycle <br> - Schedule regular events and share them in advance |
 
 
 ## Overview of set-up
