@@ -10,11 +10,11 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid: MET150
-description: "Use Microsoft 365 to connect leaders and teams"
 ms.collection: 
   - m365solution-overview
   - m365solution-corpcomms
 ROBOTS: NOINDEX, NOFOLLOW
+description: "Use Microsoft 365 to connect leaders and teams"
 ---
 
 # Leadership connection: Use Microsoft 365 to connect leaders and teams
