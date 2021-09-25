@@ -34,6 +34,8 @@ Review common scenarios to get familiar with the different types of organization
 >[!NOTE]
 > Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](/viva-connections-overview) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules. 
 
+![Conceptual image of Viva Connections.](media/cc-viva-connections.png)
+
 **Goals:** You need to engage, inform, and connect thousands of frontline workers while in the field on a mobile device. The goal is to streamline and target experiences from across SharePoint, Microsoft Teams, Yammer, and Stream into one curated and branded employee experience. 
 <br>
 
@@ -44,6 +46,8 @@ Review common scenarios to get familiar with the different types of organization
 
 
 ### Scenario B: Plan, create, and launch a home site in SharePoint
+
+![Conceptual image of how to launch a SharePoint home site.](media/cc-home-site.png)
 
 **Goals:** You need to create a landing place in your organization’s internal networking of sites – also called an intranet. The goal is to create a gateway to the intranet to help everyone at your organization get easily orientated to the tools, resources, and news available to them. 
 <br>
@@ -56,6 +60,8 @@ Review common scenarios to get familiar with the different types of organization
 
 ### Scenario C: Plan and produce a town hall for your organization
 
+![Conceptual image of producing a town hall.](media/cc-town-hall.png)
+
 **Goals:** You want to host a live or pre-recorded event in the form of a town hall event for a large sales and support department of more than 1,000 people. The goal of the town hall is to update everyone on the state of the business and announce new products. 
 <br>
 
@@ -65,6 +71,8 @@ Review common scenarios to get familiar with the different types of organization
 **Outcome:** The outcome of this scenario is a large region or division of an organization engages with new information, resources, messages, and direction during a live event that’s recorded and can be viewed later.
 
 ### Scenario D: Distribute organizational news for your organization
+
+![Conceptual image of how to distribute organizational news.](media/cc-news.png)
 
 **Goals:** You need to share news that engage and inform all employees in your organization using more than one distribution method. The goal is to keep everyone at the organization up to date on initiatives, programs, events, and training opportunities. 
 <br>
@@ -77,6 +85,8 @@ Review common scenarios to get familiar with the different types of organization
 
 ### Scenario E: Connect leadership and teams across the organization
 
+![Conceptual image of how to connect leadership with the organization.](media/cc-leadership-connection.png)
+
 **Goals:** You need to find a way to connect leadership teams with the rest of the organization. The goal is to provide consistent and ongoing communication and connection from your top leadership representatives. 
 <br>
 
@@ -86,6 +96,8 @@ Review common scenarios to get familiar with the different types of organization
 **Outcome:** The outcome will be a sustainable communications channel that connects people and provides learning opportunities beyond typical leadership announcements.
 
 ### Scenario F: Plan, build, and maintain a new employee onboarding program
+
+![Conceptual image of how to launch an employee onboarding program.](media/cc-neo.png)
 
 **Goals:** You need to develop a scalable method of welcoming and orienting new employees. The goal is to help new employees get set up with onboarding paperwork, acquiring work devices, tools, and help understanding company policies and benefits. 
 <br>
