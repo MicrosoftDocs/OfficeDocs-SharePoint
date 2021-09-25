@@ -163,7 +163,7 @@ Help others in your organization discover the leadership connection resource. Co
 
 ## More resources
 
-[Overview of corporate communications](corporate-communications-overview)
+[Overview of corporate communications](/corporate-communications-overview)
 
 [Use the SharePoint Leadership connection site template](https://support.microsoft.com/office/use-the-sharepoint-leadership-connection-site-template-a2996d9f-c08e-4de6-8696-a7de323c8add)
 
