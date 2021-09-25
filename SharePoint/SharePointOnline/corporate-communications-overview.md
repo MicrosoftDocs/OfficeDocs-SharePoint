@@ -20,17 +20,19 @@ ROBOTS: NOINDEX, NOFOLLOW
 # Corporate communications: Guidance, methods, and products
 
 Employee engagement is a significant contributor to workplace satisfaction, loyalty, and productivity at any organization. Across Microsoft 365, there are multiple ways to communicate. Knowing which method or combinations of methods to use and when depends on your audience and the communication culture of your organization.
-Learn how to keep everyone informed and engaged using SharePoint, Microsoft Teams, Yammer, Stream, and Viva Connections*. Learn more about the powerful strategies and communication tools available to you that help drive engagement in your organization.
+
+Learn how to keep everyone informed and engaged using SharePoint, Microsoft Teams, Yammer, Stream, and Viva Connections. Learn more about the powerful strategies and communication tools available to you that help drive engagement in your organization.
 
 **In this solution:**
 
 - Discover applications best suited for your communication goals and audience
-- Get started planning for specific scenarios like Viva Connections*, holding a town hall, or distributing organizational news
+- Get started planning for specific scenarios like Viva Connections, holding a town hall, or distributing organizational news
 - Understand access, technical, and license requirements before getting started
 - Learn how to launch, manage, and maintain corporate communications over time
 
 >[!NOTE]
->**Viva Connections is not available for enterprise customers yet.** Viva Connections is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules that will be come available to all customers at the end of the summer in 2021.
+> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections]
+(/viva-connections-overview) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.
 
 
 
@@ -73,15 +75,15 @@ Learn how to plan your communication strategy by reviewing common communication 
 | :------------------: | :------------------- |:----------------|
 |![Image of a check list icon](media/task-check.png) | **Plan your strategy** | Review common communication scenarios <br> Learn about tools and solutions <br> Scope your audience and determine your specific scenario |
 |![Image of two people talking icon](media/chat-room.png)  | **Use Viva Connections***    | Create employee experiences that connect your organization <br> Provide an easy way to catch up on news <br> Create a branded company app within Microsoft Teams |
-|![Image of a house icon](media/icon-build-home.png)  | **Get a home site for your intranet**    |Take the first step in getting ready for Viva Connections* <br> Schedule and launch a healthy portal <br> Set up global navigation in the SharePoint app bar  |
+|![Image of a house icon](media/icon-build-home.png)  | **Get a home site for your intranet**    |Take the first step in getting ready for Viva Connections <br> Schedule and launch a healthy portal <br> Set up global navigation in the SharePoint app bar  |
 |![Image of a mega phone icon](media/icon-launch-engage.png) | **Plan and produce a town hall**  |Bring your organization together for a live or prerecorded event <br> Record, share, and keep the conversation going <br> Measure engagement and expand reach using news  |
-|![Image of a newspaper icon](media/icon-news.png) | **Distribute organizational news**  | Share organization news and announcements across your company  <br> Create an organizational news site, news posts, and use the News web part <br> Measure engagement and expand reach using Viva Connections* |
-|![Image of a networking icon](media/icon-launch-add.png)|  **Leadership connection**   | Create communication channels and networking opportunities <br> Create engaging experiences in Yammer and live events <br> Expand reach using Viva Connections* |
-|![Image of a location symbol icon](media/icon-build-global.png) | **New employee onboarding** |Create an end-to-end experience to onboard new employees <br> Create a home base to welcome new employees using, share resource, and provide support <br>  Expand reach using Viva Connections* |
+|![Image of a newspaper icon](media/icon-news.png) | **Distribute organizational news**  | Share organization news and announcements across your company  <br> Create an organizational news site, news posts, and use the News web part <br> Measure engagement and expand reach using Viva Connections |
+|![Image of a networking icon](media/icon-launch-add.png)|  **Leadership connection**   | Create communication channels and networking opportunities <br> Create engaging experiences in Yammer and live events <br> Expand reach using Viva Connections |
+|![Image of a location symbol icon](media/icon-build-global.png) | **New employee onboarding** |Create an end-to-end experience to onboard new employees <br> Create a home base to welcome new employees using, share resource, and provide support <br>  Expand reach using Viva Connections |
 
 
 ### End-user guidance and support
-Give end users a head start by helping them use and engage using popular M365 communication apps that may be a part of your solution. Consider using existing training playlists in [M365 Learning Pathways](https://docs.microsoft.com/office365/customlearning/) to help end users learn more about M365 apps like Teams and SharePoint. Or, help train people at your organization who will be managing corporate communications using [MS Learn training modules](https://docs.microsoft.com/learn/).
+Give end users a head start by helping them use and engage using popular M365 communication apps that may be a part of your solution. Consider using existing training playlists in [Microsoft 365 Learning Pathways](https://docs.microsoft.com/office365/customlearning/) to help end users learn more about M365 apps like Teams and SharePoint. Or, help train people at your organization who will be managing corporate communications using [Microsoft Learn training modules](https://docs.microsoft.com/learn/).
 
 
 | Logo                 | Communication app     | Guidance              | 
@@ -106,11 +108,13 @@ Give end users a head start by helping them use and engage using popular M365 co
 | Files and content management in OneDrive     | Access files from any device, at any time. Engage with intelligent video and create visually striking content in minutes.                | M365 E5 <br> M365 E3     |
 | Live events in Yammer                |Product and host a live event for people inside your organization. Keep the conversation going with live and moderated Q&A.               | M365 E5 <br> M365 E3         |
 | Live events in Microsoft Teams             | Host and record public or private live events. Decide how you want event attendees to participate.       | M365 E5 <br> M365 E3         |
-| Viva Connections*          | Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed.        | M365 E5 <br> M365 E3     |
+| Viva Connections          | Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed.        | M365 E5 <br> M365 E3     |
 
 <br>
 
-** **Viva Connections is not available for enterprise customers yet.** Viva Connections is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules that will be come available to all customers at the end of the summer in 2021.  
+>[!NOTE]
+> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections]
+(/viva-connections-overview) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.  
 
 <br>
 
