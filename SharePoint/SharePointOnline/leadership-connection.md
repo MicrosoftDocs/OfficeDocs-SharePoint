@@ -23,6 +23,7 @@ Microsoft 365 can help your organization’s leadership teams connect with emplo
 
 ![Image of the leadership connection solution.](media/icon-plan-organize.png)
 
+
 **Help unite your organization by:**
 
 -	Creating a sustainable, two-way dialogue between leadership and the rest of the organization by removing communication barriers 
@@ -30,6 +31,7 @@ Microsoft 365 can help your organization’s leadership teams connect with emplo
 -	Sharing relevant news, ideas, and updates to encourage employees to engage and network with leadership teams
 -	Using analytics to gain insights on engagement and understand the impact of activities
 -	Bringing elements of the experience together using Viva Connections
+
 
 
 >[!NOTE]
@@ -52,3 +54,32 @@ Start by making sure you understand your audience’s needs and preferences. Rev
 - **Viva Connections** - Bring the SharePoint site and Yammer conversation into one place where users can catch up and connect with leaders in the Microsoft Teams mobile app. [Learn more about Viva Connections](/guide-to-setting-up-viva-connections). 
 
 
+### Planning considerations:
+
+- Multiple communication solutions can be combined to provide opportunities across the organization to connect with leadership regardless of worksite location or time zone.
+- Create opportunities outside of a live event to allow everyone within the organization to connect, network, and learn from leadership teams.
+- Develop communication channels that collect feedback and questions for the leadership team, and save responses for the next live event.
+- Create a practice of recording live events that can be shared and viewed later.
+- Build durable communication methods that do not require organized events to generate content.
+- Identify other opportunities across the organization to spread awareness about the leadership connection initiative such as new. employee orientation, regular communications to networking groups, and promotion in employee resource groups.
+
+
+## Build your communication strategy
+Start by creating or leveraging an existing SharePoint communication site. Then connect a new or existing Yammer community to the SharePoint site using the Yammer conversations web part. Then, plan and host live events, share the recordings on the leadership site, and keep the conversation going in Yammer channels. 
+
+### Step 1: Create a SharePoint leadership site
+SharePoint communication sites are a great tool to create a landing place to share leadership news, initiatives, and opportunities to network and connect. This is an ideal opportunity to use the [Yammer web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) on the home page to connect to an existing Yammer community that connects leadership team members with the rest of the organization. Use the [Events web part](https://support.microsoft.com/\office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909) to post and [target leadership events to specific audiences](https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293).
+
+<image>
+
+#### Get started creating your SharePoint leadership site
+There are several resources that can help you quickly create a leadership site:
+-	Use a SharePoint site template provided by Microsoft. [Apply the Leadership connection template](https://support.microsoft.com/office/use-the-sharepoint-leadership-connection-site-template-a2996d9f-c08e-4de6-8696-a7de323c8add), then customize the site to for the needs of your organization.
+-	Create your own leadership site following [step-by-step instructions in this guided walkthrough](https://support.microsoft.com/office/guided-walkthrough-creating-a-leadership-site-for-your-organization-e4a984db-d277-45ab-b18e-fa117b25bb4d).  
+-	Use the Leadership connection template in the SharePoint look book. The [SharePoint look book Leadership connection template](https://lookbook.microsoft.com/details/c19f437b-35ca-42f2-b27a-1caa49ad8bde) requires the use of [SharePoint PowerShell](powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) and administrative credentials. 
+
+#### Publish news from the leadership site
+Once your leadership site has been created and shared with the right audiences, you can [publish news from this site](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7). Then, use the [News web part](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165) on the home page to display leadership news and [target leadership news to specific audiences](https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293). Other sites across your organization can customize the settings in the News web part to pull news from an organizational news site. Consider cross promoting leadership news on the home site, on a new employee onboarding site, and where other leadership-oriented news can be found.
+
+#### Monitor usage analytics for your SharePoint site
+As a SharePoint site owner, you can view information about how users interact with your site. For example, you can view the number of people who have visited the site, how many times people have visited the site, and a list of files that have received the most views. Learn more about how to [access usage data for your leadership site](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e).
