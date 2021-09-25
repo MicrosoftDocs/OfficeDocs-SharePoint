@@ -21,6 +21,8 @@ description: "Use Microsoft 365 to connect leaders and teams"
 
 Microsoft 365 can help your organization’s leadership teams connect with employees to build community around a common purpose and goal. Learn how to create a culture and internal place to help engage and connect leadership teams with the rest of your organization. 
 
+![Image of the leadership connection solution.](media/icon-plan-organize.png)
+
 **Help unite your organization by:**
 
 -	Creating a sustainable, two-way dialogue between leadership and the rest of the organization by removing communication barriers 
