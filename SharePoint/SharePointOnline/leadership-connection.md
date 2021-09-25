@@ -21,7 +21,7 @@ description: "Use Microsoft 365 to connect leaders and teams"
 
 Microsoft 365 can help your organization’s leadership teams connect with employees to build community around a common purpose and goal. Learn how to create a culture and internal place to help engage and connect leadership teams with the rest of your organization. 
 
-![Image of the leadership connection solution.](media/lc-concept.png)
+![Image of the leadership connection solution.](media/lc-concept-2.png)
 
 
 **Help unite your organization by:**
@@ -72,12 +72,17 @@ SharePoint communication sites are a great tool to create a landing place to sha
 
 
 **Image of the Leadership connection site template:**
-![Image of the leadership connection site template.](media/lc-event-recording.png)
 
-**Share recording from leadership events:**
 ![Image of the leadership connection site template.](media/lc-site-template.png)
 
+
+**Share recording from leadership events:**
+
+![Image of the leadership connection site template.](media/lc-event-recording.png)
+
+
 **Showcase leadership profiles:**
+
 ![Image of the leadership connection site template.](media/lc-profiles.png)
 
 #### Get started creating your SharePoint leadership site
@@ -94,7 +99,7 @@ As a SharePoint site owner, you can view information about how users interact wi
 
 
 ## Step 2: Create a leadership community in Yammer
-Communities in Yammer help employees share knowledge, engage with others in the employee experience, and provide a social platform for company-wide communications. It can also be used to drive leadership engagement by providing a central place for your conversations, documents, events, and updates. Yammer can help you host a live event with [moderated Q&A](https://support.microsoft.com/office/drive-engagement-in-a-classic-yammer-live-event-c0244ad8-6dcb-419c-add9-2e4a00543412) for up to 10,000 attendees. Get inspired about how to use Yammer in your organization by viewing the [Yammer look book](https://teamworktools.azurewebsites.net/yammer/Yammer Lookbook.pdf).
+Communities in Yammer help employees share knowledge, engage with others in the employee experience, and provide a social platform for company-wide communications. It can also be used to drive leadership engagement by providing a central place for your conversations, documents, events, and updates. Yammer can help you host a live event with [moderated Q&A](https://support.microsoft.com/office/drive-engagement-in-a-classic-yammer-live-event-c0244ad8-6dcb-419c-add9-2e4a00543412) for up to 10,000 attendees. 
 
 ![Image of the leadership connection Yammer community.](media/lc-yammer-community.png)
 
@@ -115,7 +120,9 @@ New to Yammer? Learn more about [managing a community in Yammer](https://support
 ## Step 3: Host a live leadership event in Yammer with Q&A
 Create and produce live events for people in the leadership Yammer network, with built-in discussions for use before, during, and after the event. Up to 10,000 people can attend at once from anywhere on their device or computer (higher limits for event attendees are temporarily available through the [Microsoft 365 Live Events Assistance program](/stream/live-events-assistance)). Make the video available after the event on the leadership site, so that people who can’t make it at the scheduled time can still participate.
 
+
 **Image of live questions and answers during an event**
+
 ![Image of how to plan a live event qith questions and answers.](media/lc-event-questions.png)
 
 There are two ways [live events in Yammer can be produced](/yammer/manage-yammer-groups/yammer-live-events#types-of-live-events). The requirements depend on which video production methods you intend to use in your organization. Learn more about which method of live event you should use. For live events that only require visual and audio support, consider [hosting a live event using Yammer in Teams](https://support.microsoft.com/office/schedule-and-produce-a-live-event-in-new-yammer-using-teams-d891bff6-eda2-493f-8b0d-d87932e7937d).
