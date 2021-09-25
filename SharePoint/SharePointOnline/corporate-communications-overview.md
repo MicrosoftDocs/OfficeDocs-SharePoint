@@ -10,11 +10,11 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid: MET150
-description: "Learn about planning and managing corporate communications for your organization"
 ms.collection: 
   - m365solution-overview
   - m365solution-corpcomms
 ROBOTS: NOINDEX, NOFOLLOW
+description: "Learn about planning and managing corporate communications for your organization"
 ---
 
 # Corporate communications: Guidance, methods, and products
