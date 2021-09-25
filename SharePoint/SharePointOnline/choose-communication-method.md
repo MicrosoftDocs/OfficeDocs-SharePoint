@@ -49,4 +49,4 @@ Many communication solutions will follow a similar path to get started – plan,
 
 ## More Resources
 
-Overview of corporate communications
+[Overview of corporate communications](/corporate-communications-overview)
