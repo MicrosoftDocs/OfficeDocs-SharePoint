@@ -47,6 +47,9 @@ In some cases, you might want to free up the old URL to use it for a new site. T
     Remove-SPOSite -Identity https://contoso.sharepoint.com/sites/OldSiteName
     ```
 
+> [!NOTE]
+> If you get an error message "The operation is not supported for the site." then validate that there is no retention policy applied to the old or new sites URLs. These may need to be removed in order to delete the redirect.
+
 4. When prompted, confirm that you want to delete the redirect. 
 
 To confirm that the redirect has been deleted, browse to the URL. It should return a 404 error. You can also run `Get-SPOSite -Identity https://contoso.sharepoint.com/sites/OldSiteName`. It will return that we cannot get the site.
