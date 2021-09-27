@@ -55,7 +55,7 @@ For example, you might be looking for content with the term executive, but you d
 | `OR` <br/> |Find content that contains either of the words or phrases it separates.  <br/> | `risk OR VAR` finds all the content that contains either word.  <br/> |
 | `NOT` <br/> |Exclude content that contains the term within a phrase.  <br/> | `Executive NOT Summary` finds all the content that contains the phrase Executive, unless the content also contains the term Summary.  <br/> |
 | `( )` <br/> |Group words or phrases to show the order in which they are applied.  <br/> | `(Risk AND management) OR (VAR OR Value-at-risk)` <br/> |
-| `NEAR(n)` <br/> |Finds words that are near each other, where n equals the number of words apart. If no number is specified, the default distance is 8 words.  <br/> | `Mid NEAR(5)` Office finds Mid and Back Office and Mid-Office and Mid, Back, and Front Office.  <br/> |
+| `NEAR(n)` <br/> |Finds words that are near each other, where n equals the number of words apart. If no number is specified, the default distance is eight words.  <br/> | `Mid NEAR(5)` Office finds Mid and Back Office and Mid-Office and Mid, Back, and Front Office.  <br/> |
    
 ## Using Wildcards
 <a name="__top"> </a>
@@ -64,14 +64,14 @@ Wildcards can help you expand your keywords to include terms that contain part o
   
 |**Use**|**To**|**Example**|
 |:-----|:-----|:-----|
-|\* at the end of word  <br/> |Find terms that contain the root word and any additional letters.  <br/> |risk\* finds risk, risks, risked, risking, and risky  <br/> |
+|\* at the end of word  <br/> |Find terms that contain the root word and any extra letters.  <br/> |risk\* finds risk, risks, risked, risking, and risky  <br/> |
    
 ## Basic rules for using keywords in filters and queries
 <a name="__top"> </a>
 
 - A content filter or query can include words, quoted phrases, and terms that use keywords and properties. Separate terms with spaces. 
     
-- Commonly used words such as  *the*  ,  *it*  , and  *by*  , and single-digit numbers, are ignored. 
+- Commonly used words such as *the*, *it*, and *by*, and single-digit numbers are ignored. 
     
 - When you enclose a phrase in quotation marks, your search returns content within the chosen scope that contains the exact phrase that you typed. If there is any variance between the phrase in quotations and the actual content, the content will not be found.
     
@@ -103,7 +103,7 @@ A query can apply to all the content in a case, to specific eDiscovery Sets, or 
   
 To set the scope of a query, click **Modify Query Scope**, and then select **All case content**, **Select eDiscovery Sets**, or **Select sources**.
   
-The **All case content** option includes all content from the list of sources, with any eDiscovery Set filters applied. You can also include additional content locations when setting query scope. 
+The **All case content** option includes all content from the list of sources, with any eDiscovery Set filters applied. You can also include more content locations when setting query scope. 
   
 ## Viewing and troubleshooting queries
 <a name="__top"> </a>

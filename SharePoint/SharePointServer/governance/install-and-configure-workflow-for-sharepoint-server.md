@@ -38,7 +38,7 @@ A new option exists when you build a workflow for SharePoint Server. This option
 
 ![Three workflow platforms in SharePoint 2013.](../media/WF15-WorkflowInstall1.png)
   
-The only platform available when you first install SharePoint Server is the SharePoint 2010 Workflow platform. The SharePoint 2013 Workflow platform and the Project Server platform require additional steps. The three workflow platforms are outlined in the following table.
+The only platform available when you first install SharePoint Server is the SharePoint 2010 Workflow platform. The SharePoint 2013 Workflow platform and the Project Server platform require more steps. The three workflow platforms are outlined in the following table.
   
 **Workflow Platform types available in SharePoint Server**
 
@@ -58,7 +58,7 @@ Workflow Manager may be installed on the same servers as SharePoint or on separa
 ## Install and configure SharePoint Server
 <a name="section3"> </a>
 
-You must install and configure SharePoint Server. To do so, see [Install and deploy SharePoint 2013](../../Hub/index.yml).
+Install and configure SharePoint Server. To do so, see [Install and deploy SharePoint 2013](../../Hub/index.yml).
   
 > [!NOTE]
 > The SharePoint 2010 Workflow platform installs automatically when you install SharePoint Server. The SharePoint 2013 Workflow platform requires Workflow Manager and must be installed separately and then configured to work with your SharePoint Server farm. > To function correctly SharePoint 2013 Workflows require to have App Management Service and Site Subscription Service provisioned. It is not required to setup a wildcard certificate and DNS registration but both instances need to be running. 
@@ -66,7 +66,7 @@ You must install and configure SharePoint Server. To do so, see [Install and dep
 ## Configure Workflow Manager to work with the SharePoint Server farm
 <a name="section5"> </a>
 
-You must consider the following two key factors before configuring Workflow Manager to work with SharePoint Server.
+Consider the following two key factors before configuring Workflow Manager to work with SharePoint Server.
   
 - Is Workflow Manager installed on a server that is part of the SharePoint farm?
     
@@ -89,7 +89,7 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
   
 1. Log on to the computer in the SharePoint Server farm where Workflow Manager was installed.
     
-2. Open the SharePoint Management Shell as an administrator. This is accomplished by right-clicking the **SharePoint Management Shell** and choosing **Run as administrator**.
+2. Open the SharePoint Management Shell as an administrator by right-clicking the **SharePoint Management Shell** and choosing **Run as administrator**.
     
 3. Run the **Register-SPWorkflowService** cmdlet. 
     
@@ -118,7 +118,7 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
     
 2. Log into the computer in the SharePoint Server farm where Workflow Manager was installed.
     
-3. Open the SharePoint Management Shell as an administrator. This is accomplished by right-clicking the **SharePoint Management Shell** and choosing **Run as administrator**.
+3. Open the SharePoint Management Shell as an administrator by right-clicking the **SharePoint Management Shell** and choosing **Run as administrator**.
     
 4. Run the **Register-SPWorkflowService** cmdlet. 
     
@@ -149,7 +149,7 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
     
     Download and install the Workflow Manager Client here: [https://go.microsoft.com/fwlink/p/?LinkID=268376](https://go.microsoft.com/fwlink/p/?LinkID=268376)
     
-3. Open the SharePoint Management Shell as an administrator. This is accomplished by right-clicking the **SharePoint 2013 Management Shell** command and choosing **Run as administrator**.
+3. Open the SharePoint Management Shell as an administrator by right-clicking the **SharePoint 2013 Management Shell** command and choosing **Run as administrator**.
     
 4. Run the **Register-SPWorkflowService** cmdlet. The cmdlet should be run only once and can be run from any of the servers in the SharePoint farm. 
     

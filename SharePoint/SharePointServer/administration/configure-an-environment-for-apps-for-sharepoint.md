@@ -20,16 +20,16 @@ description: "Configure domain names, service applications, and URLs for apps fo
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
-To enable users to install and use apps for SharePoint in their sites, you must configure your environment to support them. This article describes how to configure your environment to support apps. Use the [Plan for apps for SharePoint Server](plan-for-apps-for-sharepoint.md) article to review options and determine the values to use for configuration settings in this article.
+To enable users to install and use apps for SharePoint in their sites, configure your environment to support them. This article describes how to configure your environment to support apps. Use the [Plan for apps for SharePoint Server](plan-for-apps-for-sharepoint.md) article to review options and determine the values to use for configuration settings in this article.
 
 Learn about [Manage apps using the App Catalog for SharePoint in Microsoft 365](../../SharePointOnline/use-app-catalog.md).
   
 ## Before you begin
 <a name="BeforeyouBegin"> </a>
 
-- You must purchase a domain name from a domain name provider for your apps, for example, ContosoApps.com.
+- Purchase a domain name from a domain name provider for your apps, for example, ContosoApps.com.
     
-- You must be a member of the Farm Administrators group to perform the steps in this article. For some steps, you must also be a domain administrator.
+- Ensure that you are a member of the Farm Administrators group to perform the steps in this article. For some steps, you must also be a domain administrator.
     
 - If you have a multi-tenant environment, you need to do some steps by using Microsoft PowerShell. Make sure you have [permissions to administer SharePoint Server using Windows PowerShell](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
     
@@ -115,7 +115,7 @@ If you are using Secure Sockets Layer (SSL) for the SharePoint Server sites in y
   
 The domain should be added in the form of a wildcard (for example, \*.ContosoApps.com). You need a wildcard certificate instead of individual certificates because each installed app has its own subdomain.
   
-Note that in order to allow support for SSL offloading with SharePoint Server App Domains you must enable support for multiple app domains by using the following Microsoft PowerShell commands:
+In order to allow support for SSL offloading with SharePoint Server App Domains, enable support for multiple app domains by using the following Microsoft PowerShell commands:
   
 ```
 $contentService = [Microsoft.SharePoint.Administration.SPWebService]::ContentService
@@ -135,7 +135,7 @@ Apps rely on the App Management and Microsoft SharePoint Foundation Subscription
     
 2. For the **Microsoft SharePoint Foundation Subscription Settings Service**, click **Enable Auto Provision**
     
-Next, create a Subscription Settings service application and proxy. These must be created by using Microsoft PowerShell. Use the example script provided at [New-SPSubscriptionSettingsServiceApplication](/powershell/module/sharepoint-server/New-SPSubscriptionSettingsServiceApplication?view=sharepoint-ps&preserve-view=true).
+Next, create a Subscription Settings service application and proxy by using Microsoft PowerShell. Use the example script provided at [New-SPSubscriptionSettingsServiceApplication](/powershell/module/sharepoint-server/New-SPSubscriptionSettingsServiceApplication?view=sharepoint-ps&preserve-view=true).
   
 You also need an App Management service application. The following procedures provide the steps to configure it.
   
@@ -172,7 +172,7 @@ Use the following procedure to configure app URLs.
     
 5. Click **OK**.
     
-6. If you will install apps and you have changed the App prefix (also known as the site subscription name), you must perform additional steps that involve restarting the World Wide Web Publishing Service (WWW Service) that hosts the apps.
+6. If you will install apps and you have changed the App prefix (also known as the site subscription name), you must perform more steps that involve restarting the World Wide Web Publishing Service (WWW Service) that hosts the apps.
     
     > [!IMPORTANT]
     > Restarting the WWW Service will also restart the IIS Admin Service and the Windows Process Activation Service. This will also shut down all Web sites and applications that depend on these services and they may lose existing state and will be unavailable until the services successfully restart. You should plan to perform these steps during a planned maintenance time. >  To complete the App prefix rename tasks, perform these steps: >  Stop the SharePoint Timer service. >  Restart the World Wide Web Publishing Service that hosts the apps. >  Start the SharePoint Timer service. 
@@ -206,7 +206,7 @@ For more information, see Set-SPAppSiteSubscriptionName and Set-SPAppDomain.
 ## Configure the Internet-facing endpoints feature (Optional)
 <a name="ConfigureAppURLs"> </a>
 
-The SharePoint Store contains apps for SharePoint intended for use with sites that require Internet-facing endpoints. By default, these apps are not available (greyed out and cannot be purchased) because they are incompatible with most sites. However, if your farm is configured to allow internet-facing end points, you can turn on the Internet-facing endpoints feature to show these apps in the SharePoint Store. You turn this feature on in Central Administration.
+The SharePoint Store contains apps for SharePoint intended for use with sites that require Internet-facing endpoints. By default, these apps are not available (greyed out and cannot be purchased) because they are incompatible with most sites. However, if your farm is configured to allow internet-facing end points, you can turn on the Internet-facing endpoints feature to show these apps in the SharePoint Store. You turn on this feature in Central Administration.
   
  **To configure Internet-facing endpoints for apps**
   

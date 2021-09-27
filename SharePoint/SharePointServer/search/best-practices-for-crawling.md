@@ -24,7 +24,7 @@ Learn about best practices for crawling in SharePoint Server.
   
 The Search system crawls content to build a search index that users can run search queries against. This article contains suggestions as to how to manage crawls most effectively.
 
-Learn about [Manually requesting crawling and re-indexing of a site, a library or a list for SharePoint in Microsoft 365](../../SharePointOnline/crawl-site-content.md).
+Learn about [Manually requesting crawling and re-indexing of a site, a library, or a list for SharePoint in Microsoft 365](../../SharePointOnline/crawl-site-content.md).
   
     
 ## Use the default content access account to crawl most content
@@ -49,7 +49,7 @@ For more information, see [Manage crawl rules in SharePoint Server](manage-crawl
 ## Use content sources effectively
 <a name="BKMK_UseContentSources"> </a>
 
-A content source is a set of options in a Search service application that you use to specify each of the following:
+A content source is a set of options in a Search service application that you use to specify each of the following components:
   
 - One or more start addresses to crawl.
     
@@ -59,7 +59,7 @@ A content source is a set of options in a Search service application that you us
     
 When you create a Search service application, the search system automatically creates and configures one content source, which is named **Local SharePoint sites**. This preconfigured content source is for crawling user profiles, and for crawling all SharePoint Server sites in the web applications with which the Search service application is associated. You can also use this content source for crawling content in other SharePoint Server farms, including SharePoint Server 2007 farms, SharePoint Server 2010 farms, SharePoint Server 2013 farms, or other SharePoint Server farms.
   
-Create additional content sources when you want to do any of the following:
+Create extra content sources when you want to do any of the following tasks:
   
 - Crawl other types of content
     
@@ -67,9 +67,9 @@ Create additional content sources when you want to do any of the following:
     
 - Crawl certain content more or less frequently
     
-- Set different priorities for crawling certain content (this applies to full and incremental crawls, but not to continuous crawls)
+- Set different priorities for crawling certain content (this requirement applies to full and incremental crawls, but not to continuous crawls)
     
-- Crawl certain content on different schedules (this applies to full and incremental crawls, but not to continuous crawls)
+- Crawl certain content on different schedules (this requirement applies to full and incremental crawls, but not to continuous crawls)
     
 However, to keep administration as easy as possible, we recommend that you limit the number of content sources that you create and use.
   
@@ -91,7 +91,7 @@ Crawling content can significantly decrease the performance of the servers that 
     
 - Stagger crawl schedules so that the load on crawl servers and host servers is distributed over time. You can optimize crawl schedules in this manner as you become familiar with the typical crawl durations for each content source by checking the crawl log. For more information, see [Crawl log](view-search-diagnostics.md#proc3) in [View search diagnostics in SharePoint Server](view-search-diagnostics.md).
     
-- Run full crawls only when it is necessary. For more information, see [Reasons to do a full crawl](plan-crawling-and-federation.md#Plan_full_crawl) in [Plan crawling and federation in SharePoint Server](plan-crawling-and-federation.md). For any administrative change that requires a full crawl to take effect, such as creation of a crawl rule, perform the change shortly before the next full crawl so that an additional full crawl is not necessary. For more information, see [Manage crawl rules in SharePoint Server](manage-crawl-rules.md).
+- Run full crawls only when it is necessary. For more information, see [Reasons to do a full crawl](plan-crawling-and-federation.md#Plan_full_crawl) in [Plan crawling and federation in SharePoint Server](plan-crawling-and-federation.md). For any administrative change that requires a full crawl to take effect, such as creation of a crawl rule, perform the change shortly before the next full crawl so that an extra full crawl is not necessary. For more information, see [Manage crawl rules in SharePoint Server](manage-crawl-rules.md).
     
 ## Crawl user profiles before you crawl SharePoint Server sites
 <a name="BKMK_CrawlUserProfiles"> </a>
@@ -102,17 +102,17 @@ By default, in the first Search service application in a farm, the preconfigured
     
 - sps3s://myWebAppUrl, which is for crawling user profiles
     
-However, if you are deploying "People Search", we recommend that you create a separate content source for the start address sps3s://myWebAppUrl and run a crawl for that content source first. The reason for doing this is that after the crawl finishes, the search system generates a list to standardize people's names. This is so that when a person's name has different forms in one set of search results, all results for that person are displayed in a single group (known as a **result block**). For example, for the search query "Anne Weiler", all documents authored by Anne Weiler or A. Weiler or alias AnneW can be displayed in a result block that is labeled "Documents by Anne Weiler". Similarly, all documents authored by any of those identities can be displayed under the heading "Anne Weiler" in the refinement panel if "Author" is one of the categories there.
+However, if you are deploying "People Search", we recommend that you create a separate content source for the start address sps3s://myWebAppUrl and run a crawl for that content source first. The reason for the crawl execution is that after it finishes, the search system generates a list to standardize people's names. This is so that when a person's name has different forms in one set of search results, all results for that person are displayed in a single group (known as a **result block**). For example, for the search query "Anne Weiler", all documents authored by Anne Weiler or A. Weiler or alias AnneW can be displayed in a result block that is labeled "Documents by Anne Weiler". Similarly, all documents authored by any of those identities can be displayed under the heading "Anne Weiler" in the refinement panel if "Author" is one of the categories there.
   
  **To crawl user profiles and then crawl SharePoint Server sites**
   
 1. Verify that the user account that performs this procedure is an administrator for the Search service application that you want to configure.
     
-2. Follow the instructions in [Deploy people search in SharePoint Server](deploy-people-search.md). As part of those instructions, you do the following:
+2. Follow the instructions in [Deploy people search in SharePoint Server](deploy-people-search.md). As part of those instructions, you do the following tasks:
     
   - Create a content source that is only for crawling user profiles (the profile store). You might give that content source a name such as People. In the new content source, in the **Start Addresses** section, type sps3s:// myWebAppUrl, where myWebAppUrl is the URL of the My Site host. 
     
-  - Start a crawl for the People content source that you just created. 
+  - Start a crawl for the People content source that you created. 
     
   - Delete the start address sps3s://myWebAppUrl from the preconfigured content source **Local SharePoint sites**.
     
@@ -136,18 +136,18 @@ Because crawling consumes resources and bandwidth, during initial deployment it 
   
 - To avoid crawling irrelevant content by excluding one or more URLs.
     
-- To crawl links on a URL without crawling the URL itself. This is useful for sites that do not contain relevant content but have links to relevant content.
+- To crawl links on a URL without crawling the URL itself. This arrangement is useful for sites that do not contain relevant content but have links to relevant content.
     
-By default, the crawler will not follow complex URLs, which are URLs that contain a question mark followed by additional parameters — for example, http://contoso/page.aspx?x=y. If you enable the crawler to follow complex URLs, this can cause the crawler to gather many more URLs than is expected or appropriate. This can cause the crawler to gather unnecessary links, fill the crawl database with redundant links, and result in an index that is unnecessarily large.
+By default, the crawler will not follow complex URLs, which are URLs that contain a question mark followed by extra parameters — for example, http://contoso/page.aspx?x=y. If you enable the crawler to follow complex URLs, this arrangement can cause the crawler to gather many more URLs than is expected or appropriate. This over-assimilation can cause the crawler to gather unnecessary links, fill the crawl database with redundant links, and result in an index that is large.
   
 These measures can help reduce the use of server resources and network traffic, and can increase the relevance of search results. After the initial deployment, you can review the query and crawl logs and adjust content sources and crawl rules to include more content if it is necessary. For more information, see [Manage crawl rules in SharePoint Server](manage-crawl-rules.md).
   
 ## Crawl the default zone of SharePoint Server web applications
 <a name="BKMK_CrawlDefaultZone"> </a>
 
-When you crawl the default zone of a SharePoint Server web application, the query processor automatically maps and returns search-result URLs so that they are relative to the alternate access mapping (AAM) zone from which queries are performed. This makes it possible for users to readily view and open search results.
+When you crawl the default zone of a SharePoint Server web application, the query processor automatically maps and returns search-result URLs so that they are relative to the alternate access mapping (AAM) zone from which queries are performed. This setting makes it possible for users to readily view and open search results.
   
-However, if you crawl a zone of a web application other than the default zone, the query processor does not map search-result URLs so that they are relative to the AAM zone from which queries are performed. Instead, search-result URLS will be relative to the non-default zone that was crawled. Because of this, users might not readily be able to view or open search results.
+However, if you crawl a zone of a web application other than the default zone, the query processor does not map search-result URLs so that they are relative to the AAM zone from which queries are performed. Instead, search-result URLs will be relative to the non-default zone that was crawled. Because of this setting, users might not readily be able to view or open search results.
   
 For example, assume that you have the following AAMs for a web application named WebApp1:
   
@@ -163,7 +163,7 @@ Similarly, when queries originate from the Extranet zone—in this case, https:/
   
 In both of the previous cases, because of the zone consistency between the query location and the search-result URLs, users will readily be able to view and open search results, without having to change to the different security context of a different zone.
   
-However, now instead say that you crawl a non-default zone such as the Intranet zone, http://fabrikam. In this case, for queries from any zone, URLs of results from WebApp1 will always be relative to the non-default zone that was crawled. That is, a query from https://contoso/searchresults.aspx, https://fabrikam/searchresults.aspx, or http://fabrikam/searchresults.aspx will yield search-result URLs that begin with the non-default zone that was crawled, and therefore will be of the form http://fabrikam/ _path_/ _result_.aspx. This can cause unexpected or problematic behavior such as the following:
+However, now instead say that you crawl a non-default zone such as the Intranet zone, http://fabrikam. In this case, for queries from any zone, URLs of results from WebApp1 will always be relative to the non-default zone that was crawled. That is, a query from https://contoso/searchresults.aspx, https://fabrikam/searchresults.aspx, or http://fabrikam/searchresults.aspx will yield search-result URLs that begin with the non-default zone that was crawled, and therefore will be of the form http://fabrikam/ _path_/ _result_.aspx. This setting can cause unexpected or problematic behavior such as the following:
   
 - When users try to open search results, they might be prompted for credentials that they don't have. For example, forms-based authenticated users in the Extranet zone might not have Windows authentication credentials.
     
@@ -186,7 +186,7 @@ For more information, see [Manage crawl load (SharePoint Server 2010)](/previous
 
 To limit crawler impact, you can also create crawler impact rules, which are available from the Search_service_application_name: Search Administration page. A crawler impact rule specifies the rate at which the crawler requests content from a start address or range of start addresses. Specifically, a crawler impact rule either requests a specified number of documents at a time from a URL without waiting between requests, or it requests one document at a time from the URL and waits a specified time between requests. Each crawler impact rule applies to all crawl components.
   
-For servers in your organization, you can set crawler impact rules based on known server performance and capacity. However, this might not be possible for external sites. Therefore, you might unintentionally use too many resources on external servers by requesting too much content or requesting content too frequently. This could cause administrators of those external servers to limit server access so that it becomes difficult or impossible for you to crawl those repositories. Therefore, set crawler impact rules to have as little effect on external servers as possible while you still crawl enough content frequently enough to make sure that that the freshness of the index meets your requirements. 
+For servers in your organization, you can set crawler impact rules based on known server performance and capacity. However, this might not be possible for external sites. Therefore, you might unintentionally use too many resources on external servers by requesting too much content or requesting content too frequently. This could cause administrators of those external servers to limit server access so that it becomes difficult or impossible for you to crawl those repositories. Therefore, set crawler impact rules to have as little effect on external servers as possible while you still crawl enough content frequently enough to make sure that the freshness of the index meets your requirements. 
   
 ## Use Active Directory groups instead of individual users for permissions
 <a name="BKMK_UseADGroups"> </a>

@@ -53,25 +53,25 @@ When a user views another user's profile, the links on the left navigation bar a
   
 My Sites give users rich social networking and collaboration features, which enable users to explore and share interests, projects, business relationships, content, and other data with people in the organization.
   
-Because My Sites enable users to easily share information about themselves and their work, this sharing of information encourages collaboration, builds and promotes information about expertise, and targets relevant content to the people who want to see it. Once My Sites are deployed, a user can access his or her My Site by clicking his or her user name in the top-right corner of a SharePoint Server page and then clicking **About me**. A user can also click any photo or a name in a newsfeed to be directed to that user's My Site profile.
+Because My Sites enable users to easily share information about themselves and their work, this sharing of information encourages collaboration, builds and promotes information about expertise, and targets relevant content to the people who want to see it. Once My Sites are deployed, users can access their My Site by clicking their user names in the top-right corner of a SharePoint Server page and then clicking **About me**. A user can also click any photo or a name in a newsfeed to be directed to that user's My Site profile.
   
 ### Newsfeed
 
- **Newsfeed** is the user's social hub where he or she can see updates from the people, documents, sites, and tags that the user is following. **Newsfeed** is the default page that displays when a user accesses his or her My Site. This page displays the feed of recent activities related to a user's specified colleagues and interests. Users can customize their newsfeeds by adding or removing colleagues they are interested in, specifying interests, and configuring the kind of activities they want to follow, such as when a colleague tags a shared interest. 
+ **Newsfeed** is the user's social hub where a user can see updates from the people, documents, sites, and tags that the user is following. **Newsfeed** is the default page that displays when users access their My Site. This page displays the feed of recent activities related to a user's specified colleagues and interests. Users can customize their newsfeeds by adding or removing colleagues they are interested in, specifying interests, and configuring the kind of activities they want to follow, such as when a colleague tags a shared interest. 
   
-When the system generates an activity related to a user's action, such as when the user follows a site or changes a document, the activity includes the URL of the related item and an activity is created with a link to the affected content. These activities are  *security trimmed*  , which means that users can only see activities with links to which they have permission. This differs from user-generated posts with URLs to site or content, which are not security trimmed. 
+When the system generates an activity related to a user's action, such as when the user follows a site or changes a document, the activity includes the URL of the related item and an activity is created with a link to the affected content. These activities are  *security trimmed*, which means that users can only see activities with links to which they have permission. This status differs from user-generated posts with URLs to site or content, which are not security trimmed. 
   
 The **Newsfeed** page contains the information shown in the following table. 
   
 |**Heading**|**Description**|
 |:-----|:-----|
-|**Start a conversation** <br/> |A text box in which the user can post to the newsfeed. The user can either choose to share with everyone, or with the members of a team site of which he or she is a member.  <br/> |
+|**Start a conversation** <br/> |A text box in which the user can post to the newsfeed. The users can either choose to share with everyone, or with the members of a team site of which they are a member.  <br/> |
 |**Following** <br/> |Lists all the conversations, tags, groups, and documents that the user is following.  <br/> |
 |**Everyone** <br/> |Displays the recent conversations from everyone in the organization.  <br/> |
 |**Mentions** <br/> |Displays all the mentions other users have made of the user, tasks assigned to the user, and so on.  <br/> |
 |**Activities** <br/> |Displays all the activities by the user.  <br/> |
 |**Likes** <br/> |Displays all the items that the user has liked.  <br/> |
-|**I'm following** <br/> |Displays a number that indicates how many people, documents, sites, and tags the user is following. The user can click the numbers to get more details about any items that she or she is following.  <br/> |
+|**I'm following** <br/> |Displays a number that indicates how many people, documents, sites, and tags the user is following. The users can click the numbers to get more details about any items that they follow.  <br/> |
 |**Trending #tags** <br/> |Lists the top five tags.  <br/> |
    
 ### OneDrive
@@ -82,7 +82,7 @@ The user's OneDrive usually includes a private folder and a folder that is share
   
 ### Sites
 
-The **Sites** tab lists the sites that the user is following and suggested sites that the user might find interesting. The user can use this to easily keep track of the sites he or she is most interested in. 
+The **Sites** tab lists the sites that the users are following and suggested sites that they find interesting. The users can use this to easily keep track of the sites they are most interested in. 
   
 ### About me
 
@@ -90,7 +90,7 @@ The **About me** is the default page that displays when a user accesses another 
   
 SharePoint Server provides user profile policies that specify how profile information is displayed and how it can be used. Although there are recommended default policies for features and properties exposed in user profiles and personal sites, you can configure custom policies to meet specific needs of the organization. For example, you can configure a property to be more or less visible by default, and allow a user to override default settings for properties that you want to give them control over. You configure these policies for the User Profile service in the SharePoint Central Administration website. For more information, see [Plan user profiles in SharePoint Server](../administration/plan-user-profiles.md).
   
-The **About me** page includes a title that is typically "About <  _user's name_>" and it displays the user's profile data, such as the user's picture, title, group and telephone number. 
+The **About me** page includes a title that is typically "About <  _user's name_>" and it displays the user's profile data, such as the user's picture, title, group, and telephone number. 
   
 The **About me** page contains the information shown in the following table. 
   
@@ -98,7 +98,7 @@ The **About me** page contains the information shown in the following table.
 |:-----|:-----|
 |**Activities** <br/> |Displays the user's recent activities on newsfeeds, who the user is following, colleagues the user has added, and so on.  <br/> |
 |**edit your profile** <br/> |By clicking **edit your profile** link, a user can change or update their display photo and information, and privacy settings for their individual profile properties that you allow them to override in the profile policy. The privacy settings are assigned to one of the following two privacy groups: **Only Me** or **Everyone**. For example, a user might decide to display more information, such as a personal phone number.  <br/> |
-|**In Common** <br/> |When a user views another user's profile, he or she can see the lowest level manager that they share.  <br/> |
+|**In Common** <br/> |When a user views another user's profile, the user sees the lowest level manager that they share.  <br/> |
 |**Org Chart** <br/> |Displays an organization chart. The chart shows the user's position in the organization among management, peers, and direct reports. You can select other people from the chart to view their profiles.  <br/> |
    
 ### Blog
@@ -113,7 +113,7 @@ Displays the lists, libraries, and other apps for the user.
   
 ### Tasks
 
-Displays tasks assigned to the user. This is only visible to the owner of the My Site page.
+Displays tasks assigned to the user. These tasks are only visible to the owner of the My Site page.
   
 The tasks can be viewed based on importance, status (active), whether they are completed, recently added, or personal.
   
