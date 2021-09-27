@@ -65,12 +65,34 @@ To extend a web application to existing or new zone with port, URL, SSL certific
 
  1. In Sharepoint, select **WEB APPLICATIONS** > **Extend** to extend the web application.
     
-    ![Select-extend](../media/extend-exit.PNG)
+      ![Select-extend](../media/extend-exit.PNG)
     
- 2. 
+ 2. In **Extend Web Application to Another IIS Web Site** window, configure the following:
+ 
+    1. In **IIS Web Site** section, select **Create a new IIS web site** and enter the details.
 
-![extend-web-application-part1](../media/extend2.PNG)
+    2. In **Security Configuration** section, you can do the following:
 
-![extend-web-application-part2](../media/extend3.PNG)
+        - Select **No** for **Allow Anonymous**.
 
-![extend-web-application-part3](../media/extend4.PNG)
+        - Select **Yes** for **Use Secure Sockets Layer (SSL)**.
+
+        - Select a **Server Certificate** from the drop-down list.
+
+        - Select **Yes** for **Use Server Name Indication**.
+    
+       ![extend-web-application-part1](../media/extend2.PNG)
+
+    3. In **Claims Authentication Types** section, configure the following:
+
+        - Select **Enable Windows Authentication** and **Integration Windows authentication**.
+
+        - Select **NTLM** from the drop-down list.
+        
+       ![extend-web-application-part2](../media/extend3.PNG)
+        
+    4. In **Sign In Page URL** section, select **Default Sign In Page**.
+
+    5. In **Public URL** section, enter the **URL**, **Zone**, and click **OK**. 
+
+       ![extend-web-application-part3](../media/extend4.PNG)
