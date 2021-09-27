@@ -29,15 +29,15 @@ For OneDrive, information barriers can determine and prevent the following kinds
 - User access to OneDrive or stored content
 - Sharing OneDrive or stored content with other users
 
-## Information barriers and OneDrive
+## Information barriers modes and OneDrive
 
 Information barriers modes help strengthen access, sharing, and membership of a OneDrive site based on its IB mode and segments associated with the OneDrive. When information barriers are enabled on SharePoint and OneDrive, the OneDrive of segmented users are automatically protected with IB policies.
 
 When using information barriers with OneDrive, the following IB modes are supported:
 
 - **Open**: When a non-segmented user provisions their OneDrive, the site's IB mode is set as Open, by default. There are no segments associated with the site.
-- **Explicit**: When a segmented user provisions their OneDrive within 24 hours of enablement, the site's IB mode is set as Explicit by default. The user's segment and other segments that are compatible with the user's segment and with each other get associated with the user's OneDrive.
 - **Owner Moderated**: When a OneDrive is used for collaboration with incompatible users in the presence of the site owner / moderator, the OneDrive's IB mode can be set as Owner Moderated. See the next section for details on Owner Moderated site.
+- **Explicit**: When a segmented user provisions their OneDrive within 24 hours of enablement, the site's IB mode is set as Explicit by default. The user's segment and other segments that are compatible with the user's segment and with each other get associated with the user's OneDrive.
 
 A OneDrive site can have up to 100 associated segments. A global or SharePoint admin can manage these segments using PowerShell, as described later in the section [Associate or remove additional segments on a user's OneDrive](#associate-or-remove-segments-on-a-users-onedrive).
 
@@ -59,7 +59,7 @@ For a user to access content in a OneDrive that has segments and IB mode as *Exp
 
 1. The user's segment must match a segment that is associated with the OneDrive.
 
-AND
+    AND
 
 2. The files must be shared with the user.
 
@@ -124,7 +124,11 @@ A global or SharePoint admin can view and change the segments associated with a 
     Get-SPOSite -Identity <site URL> | Select InformationSegment 
     ```
 
-    Example: `Get-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_onmicrosoft_com | Select InformationSegment`
+    For example:
+
+    ```powershell
+    Get-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_onmicrosoft_com | Select InformationSegment
+    ```
 
 ## Associate or remove segments on a user's OneDrive
 
@@ -140,8 +144,11 @@ To associate a segment with a OneDrive, run the following command in the SharePo
 Set-Sposite -Identity <site URL> -AddInformationSegment <segment GUID> 
  ```
 
-Example: `Set-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_onmicrosoft_com  
--AddInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111`
+For example: 
+
+```powershell
+Set-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_onmicrosoft_com -AddInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111
+```
 
 When you add segments to a OneDrive, the site's IB mode is automatically updated to *Explicit*. An error will appear if you attempt to associate a segment that isn't compatible with the existing segments on the OneDrive.
 
@@ -151,8 +158,11 @@ To remove segment from a OneDrive, run the following command.
 Set-Sposite -Identity <site URL> -RemoveInformationSegment <segment GUID>
  ```
 
-Example: `Set-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_onmicrosoft_com  
--RemoveInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111`
+For example:
+
+```powershell
+Set-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_onmicrosoft_com -RemoveInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111
+```
 
 If all the segments of a OneDrive site are removed, the IB mode of the OneDrive is automatically updated to *Open*. 
 
