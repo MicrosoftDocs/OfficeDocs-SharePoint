@@ -20,18 +20,18 @@ description: "Learn now to create a migration task using the SharePoint Migratio
 ---
 # Step 2: Create a migration task with SPMT
 
-When creating a migration task you can choose to simply migrate data files from your SharePoint Server document libraries or also modernize your site collection structure during migration. 
+When creating a migration task, you can choose to migrate your sites, just your SharePoint Server lists or document libraries, or choose to modernize your site collection structure.  A bulk method is also available, letting you enter all your task information into a CSV or JSON file and uploading the file into SPMT.
 
 >[!Note]
->The site structure feature shown in the "Create a task that includes all subsites" method, is currently in public preview and subject to change without notice.
+>The site structure feature shown in the "Site migration" steps, is currently in **public preview** and subject to change without notice.
 
 ## Choose how you want to create your task
 
 |How|Description|
 |:-----|:-----|
-|[Create a task that with selected content or subsites](#create-a-task-with-selected-content-or-subsites)|If you plan on migrating only selected sites or document libraries, follow these steps.|
-|[Create a task that include all subsites](create-a-task-that-includes-all-subsites)|If you are including ALL your subsites in your migration, use this method.  You will prompted if and how you want to modernize your site structure.  **Note**. This site sturcutre feature is currently feature is in public preview.)|
-|[Create a task using a CSV or JSON file](#create-a-task-using-a-csv-or-json-file)|This is the bulk upload method of creating a task. If you have a large number of sources you can enter them into a CSV or JSON file, and upload the file into SPMT.|
+|[Site migration](#site-migration)|Migrate a single site or include all your subsites. Optionally you can choose to modernize your site structure during migration.  **Note**. This site structure feature is currently feature is in public preview.)|
+|[List and document library migration ](#list-and-document-library-migration)|Enter the site and select the document library where your files are located.|
+|[Bulk migration using a CSV or JSON file](#bulk-migration)|If you have a large number of sources you can enter them into a CSV or JSON file, and upload the file into SPMT.|
 
 ## Before you begin
 
@@ -39,20 +39,9 @@ When creating a migration task you can choose to simply migrate data files from 
 -  **Proxy connections are not supported.** Using Proxy connections yields errors such as "SharePoint login fail" or "cannot load document library". 
 - If you have already signed in to the destination site already while using SPMT, you won't be prompted again for the same site credentials.
 
-## Create a task with selected content or subsites
-  
-1. Start SPMT, and then enter your Microsoft 365 username and password.    
-2. Select **Start your first migration**.   
-3. Select **SharePoint Server**.   
-4. Enter the SharePoint Server site URL where your content is located, and then select **Next**.      
-5. Enter your username and password to the SharePoint Server site; it can be UserID or user email. Select **Sign in**.
-6. Select the document library where your files are located. The dropdown contains all your possible choices. If don't select a document library or list, the site will be migrated.If you want to include all subsites, select **Include all subsites**.    
-7. Enter the URL of the SharePoint site where you want your files migrated.   
-8. Select the document library to where your files will be copied.   
-9. Select **Next**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
-    
 
-## Create a task that includes all subsites
+
+## Site migration
 
   
 1. Start SPMT, and then enter your Microsoft 365 username and password.    
@@ -84,9 +73,20 @@ When creating a migration task you can choose to simply migrate data files from 
 14. Select **Next**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
 
 
+## List and document library migration
+  
+1. Start SPMT, and then enter your Microsoft 365 username and password.    
+2. Select **Start your first migration**.   
+3. Select **SharePoint Server**.   
+4. Enter the SharePoint Server site URL where your content is located, and then select **Next**.      
+5. Enter your username and password to the SharePoint Server site; it can be UserID or user email. Select **Sign in**.
+6. Select the document library where your files are located. The dropdown contains all your possible choices. If don't select a document library or list, the site will be migrated.If you want to include all subsites, select **Include all subsites**.    
+7. Enter the URL of the SharePoint site where you want your files migrated.   
+8. Select the document library to where your files will be copied.   
+9. Select **Next**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
+    
 
-
-## Create a task using a CSV or JSON file
+## Bulk migration
 
 If you have many sources to migrate, you can use either a JSON or CSV file to do a bulk migration. To learn more on how to create a JSON or CSV file for data content migration, see [How to format your JSON or CSV file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md).
   
@@ -117,7 +117,7 @@ If you need to close SPMT before a submitted job has completed, you can restart 
     
 2. After you sign in, a screen displays any paused migrations, providing details about what has been completed and what remains.
     
-3. If you want to add additional migration tasks, select **Select new sources and destinations**; otherwise, select **Next**. Your migration jobs will be resumed. If you are migrating files from an on-premises SharePoint Server, you are prompted for your username and password for that site.
+3. If you want to add more migration tasks, select **Select new sources and destinations**; otherwise, select **Next**. Your migration jobs will be resumed. If you are migrating files from an on-premises SharePoint Server, you are prompted for your username and password for that site.
     
 ## Incremental migration
 
