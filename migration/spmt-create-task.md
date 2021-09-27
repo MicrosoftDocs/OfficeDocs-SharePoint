@@ -98,8 +98,9 @@ If you have many sources to migrate, you can use either a JSON or CSV file to do
 
 4. Enter the full path of your .CSV or .JSON file where your content is located, and then select **Add**.   
    
-    >[!Note]If you are migrating files from an on-premises SharePoint Server, you are prompted for your username and password for that site unless you provided those credentials in previous steps. 
-   >If any errors appear in your file, it is detected on a line-by-line basis. The error indicates which line or lines contain(s) the errors. You cannot proceed until you correct the errors in your file. 
+>[!Note]If you are migrating files from an on-premises SharePoint Server, you will be prompted for your username and password for that site unless you provided those credentials in a previous step. 
+>
+>If any errors appear in your file, it is detected on a line-by-line basis. The error indicates which line or lines contain(s) the errors. You cannot proceed until you correct the errors in your file. 
   
 5. If you want to select another set of data files to migrate, select **Add another migration**. If not, select **Next**.  Or choose if you want to save this task for later. 
 6. Review your settings, and the select **Migrate**.
