@@ -1,6 +1,5 @@
 ---
-title: Importing tags with Migration Manager 
-ms.reviewer: 
+title: "Importing tags with Migration Manager"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
@@ -17,6 +16,7 @@ ms.collection:
 search.appverid: MET150
 description: "Importing tags with Migration Manager".
 ---
+
 # Importing and using tags with Microsoft Manager 
 
 Use tags to better organize, plan, and schedule your content migrations in Migration Manager. Tags let you filter tasks and easily navigate through a large quantity of sources and users to find what you need. 
