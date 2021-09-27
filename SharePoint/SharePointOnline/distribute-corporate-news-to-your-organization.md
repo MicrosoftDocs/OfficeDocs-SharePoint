@@ -72,7 +72,7 @@ To enable and specify the site for organization news, a SharePoint administrator
 - [Get-SPOOrgNewsSite](/powershell/module/sharepoint-online/get-spoorgnewssite)
 - [Set-SPOOrgNewsSite](/powershell/module/sharepoint-online/set-spoorgnewssite)
 
-For more information see [Create an organization news site](https://docs.microsoft.com/sharepoint/organization-news-site).
+For more information see [Create an organization news site](/sharepoint/organization-news-site).
 
 ## Create news posts on sites
 
