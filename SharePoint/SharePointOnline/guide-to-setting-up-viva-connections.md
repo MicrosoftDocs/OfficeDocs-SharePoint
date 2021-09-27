@@ -21,16 +21,14 @@ description: "Learn how to set up and launch Viva Connections for desktop and mo
 
 # Set up and launch Viva Connections (Preview)
 
-Microsoft [Viva Connections](/viva-connections-overview.md) is a desktop and mobile experience that brings together relevant news, conversations, and resources in one place for your organization. It's built on your current Microsoft 365 ecosystem and powered by SharePoint to help you engage, inform, and empower your hybrid workforce. The Viva Connections experience is deployed and accessed in Microsoft Teams.
+Microsoft [Viva Connections](/viva-connections-overview) is a desktop and mobile experience that brings together relevant news, conversations, and resources in one place for your organization. It's built on your current Microsoft 365 ecosystem and powered by SharePoint to help you engage, inform, and empower your hybrid workforce. The Viva Connections experience is deployed and accessed in Microsoft Teams.
 
-![Image of Viva Connections on desktop and mobile devices.](media/vc-hero2.png)
-
-Use these step-by-step instructions to help you set up and launch [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/viva-connections-public-preview/ba-p/2730869) on desktop and mobile devices using currently available features to create an engaging user experience.
+Use these step-by-step instructions to help you set up and launch Viva Connections on desktop and mobile devices using currently available features to create an engaging user experience.
 
 > [!IMPORTANT]
 > - Some Viva Connections features will become available sooner than others. This document reflects the most up to date guidance and will be updated over the next several weeks to include updates to features as they become available. 
 > - Information in this article relates to the upgraded Viva Connections app that is in Public preview. Viva Connections includes *both the desktop and mobile experiences*. It may be modified before it's generally available for all customers.
-> - In March 2021, a *desktop-only* version of Viva Connections called [Viva Connections desktop](/viva-connections.md) was released as a custom line of business app and it can be provisioned via PowerShell.
+> - In March 2021, a *desktop-only* version of Viva Connections called [Viva Connections desktop](/viva-connections) was released as a custom line of business app and it can be provisioned via PowerShell.
 > - To complete these step-by-step instructions, ensure that you have the permissions (or privileges) to the SharePoint and Microsoft Teams admin centers. Get more information about [permissions in SharePoint](customize-sharepoint-site-permissions.md) and [permissions in Microsoft Teams](/microsoftteams/teams-channels-overview#membership-roles-and-settings).
 
 
@@ -100,7 +98,7 @@ SharePoint app bar elements will display in Microsoft Teams (the access point is
 The Dashboard brings it all together – it provides a personalized landing experience and is designed to be the central destination where everyone can discover your organization's resources and complete daily tasks. Apply [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) to dashboard cards to give your users an experience tailored to their role and interests. Once you set up the Dashboard, you will be able to use the [Dashboard web part on the home site](/SharePoint/use-dashboard-web-part-on-home-site). 
 
 > [!NOTE]
-> The ability to create a Dashboard is only available from the home site.
+> - The ability to create a Dashboard is only available from the home site.
 
 **Popular scenarios that can be supported by Viva Connections include:** 
 <br>
@@ -144,6 +142,9 @@ If you are not already using SharePoint news or Yammer, learn how to use them by
 - [Welcome to new Yammer](https://support.microsoft.com/office/welcome-to-new-yammer-8c749c30-2d17-4153-a3cc-37a70f254681)
 - [Join and create Yammer community](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6#:~:text=Create%20a%20community%20in%20Yammer%20Click%20the%20Yammer,Community%20Name,%20enter%20the%20name%20of%20your%20community.)
 
+**Stream (built on SharePoint)**
+- [Video news links](/SharePoint/video-news-links) on organization news sites
+- Video in a SharePoint news post
 
 
 ### Get started
@@ -180,12 +181,14 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 
 ## Step 7: Choose settings for your mobile Viva Connections app
 
+> [!NOTE]
+> A Dashboard is required to customize settings for the mobile app.
+
 | Viva Connections Dashboard on a mobile device                  |Mobile settings guidance              | 
 | :------------------- | :------------------- |
 | ![image of the Viva Connections mobile app](media/viva-dashboard-mobile.png)  | The Viva Connections app creates a custom app in Microsoft Teams that fits the needs of your organization. Your organization’s custom app will appear as a branded company app in the Microsoft Teams app center. Once the app is added, your organization’s icon will appear in the Teams app bar in the desktop and mobile Microsoft Teams experience. Users won’t see the app by default if you don’t pre-install and pre-pin.
 
-> [!NOTE]
-> A Dashboard is required to customize settings for the mobile app.
+
 
 ### Get started
 1.	If you have pre-pinned the app for your users with Teams app set up policies in step #6, then the app will automatically appear in users’ Teams mobile client apps on iOS and Android.

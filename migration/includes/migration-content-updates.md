@@ -2,6 +2,19 @@
 
 
 
+## Week of September 20, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/21/2021 | [Agent groups in Migration Manager"](/SharepointMigration/mm-agent-targeting) | modified |
+| 9/22/2021 | [Troubleshooting SPMT installation issues](/SharepointMigration/spmt-install-issues) | modified |
+| 9/24/2021 | [Migration Manager Dropbox FAQs](/SharepointMigration/mm-faqs-dropbox) | added |
+| 9/24/2021 | [Migration Manager Google FAQs](/SharepointMigration/mm-faqs-google) | added |
+| 9/24/2021 | [Migration Manager Box FAQs](/SharepointMigration/mm-faqs-box) | modified |
+| 9/24/2021 | [Migration Manager FAQs](/SharepointMigration/mm-faqs) | modified |
+
+
 ## Week of September 13, 2021
 
 
