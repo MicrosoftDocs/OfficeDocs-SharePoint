@@ -134,13 +134,13 @@ When entering a new environment, understanding the order in which deliverables s
 
 **Curate learning materials**  
 
-Which learning materials are needed to help make the new employee successful? Curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily. Learn more about [using Viva Learning](#build-the-new-employee-onboarding-experience).. 
+Which learning materials are needed to help make the new employee successful? Curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily. Learn more about [using Viva Learning](#build-the-new-employee-onboarding-experience)
 
  
 
 **Get feedback along the way** 
 
-The goal of every onboarding process is to make sure each new employee feels fully equipped to be successful in their new job. Receiving honest feedback once employees are finished with the onboarding process is the best way to fill in the gaps and improve onboarding for incoming employees. Find out what worked and what could use improvement by creating simple and thoughtful surveys. Learn more about [getting feedback using Microsoft Forms]((#build-the-new-employee-onboarding-experience).). 
+The goal of every onboarding process is to make sure each new employee feels fully equipped to be successful in their new job. Receiving honest feedback once employees are finished with the onboarding process is the best way to fill in the gaps and improve onboarding for incoming employees. Find out what worked and what could use improvement by creating simple and thoughtful surveys. Learn more about [getting feedback using Microsoft Forms](#build-the-new-employee-onboarding-experience). 
 
  
 
@@ -250,7 +250,7 @@ Viva Learning (Preview) is an application for Microsoft Teams that allows users 
 
 In Viva Learning (Preview), managers of an organization or team can assign learning and track the learning progress of each module. The Viva Learning (Preview) home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. 
 
-Learn more about [Viva Learning (Preview)](https://docs.microsoft.com/en-us/microsoft-365/learning/?view=o365-worldwide).  
+Learn more about [Viva Learning (Preview)](https://docs.microsoft.com/microsoft-365/learning/?view=o365-worldwide).  
 
 
 ### Create Virtual Communities for new employees in Yammer
