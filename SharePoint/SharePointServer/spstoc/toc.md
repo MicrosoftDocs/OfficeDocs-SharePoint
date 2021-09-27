@@ -521,6 +521,7 @@
 #### [SharePoint Server design samples: Corporate portal and extranet sites](../administration/corporate-portal-and-extranet-sites-design-samples.md)
 #### [Host-named site collection architecture and deployment in SharePoint Server](../administration/host-named-site-collection-architecture-and-deployment.md)
 #### [Update a web application URL and IIS bindings for SharePoint Server](../administration/update-a-web-application-url-and-iis-bindings.md)
+#### [Change web application bindings for SharePoint Server Subscription Edition](../administration/change-web-application-bindings.md)
 #### [Plan alternate access mappings for SharePoint Server](../administration/plan-alternate-access-mappings.md)
 ##### [Configure alternate access mappings for SharePoint Server](../administration/configure-alternate-access-mappings.md)
 ### [Install and manage apps for SharePoint Server](../administration/install-and-manage-apps-for-sharepoint-server.md)
