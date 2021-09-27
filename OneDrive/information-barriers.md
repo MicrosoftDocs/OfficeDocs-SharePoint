@@ -67,7 +67,7 @@ For a user to access content in a OneDrive that has no segments associated and I
 
 - The files must be shared with the user.
 
-By default, non-segment users can access shared OneDrive files only from other non-segment users with IB modes as *Open*. They can't access shared files from OneDrive which have segment(s) applied and the IB mode is *Explicit*.
+By default, non-segment users can access shared OneDrive files only from other non-segment users with IB modes as *Open*. They can't access shared files from OneDrive that have segment(s) applied and the IB mode is *Explicit*.
 
 ## Example scenario
 
@@ -180,9 +180,9 @@ For example:
 Get-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_onmicrosoft_com | Select InformationBarriersMode
 ```
 
-Owner Moderated mode scenario: Allow an incompatible segment user access to a OneDrive. For example, you want to allow HR user's OneDrive which is accessed by both Sales and Research segment users.
+Owner Moderated mode scenario: Allow an incompatible segment user access to a OneDrive. For example, you want to allow HR user's OneDrive that is accessed by both Sales and Research segment users.
 
-*Owner Moderated* is a new mode applicable to OneDrive site which allows incompatible segment users access to OneDrive in the presence of a moderator/owner. Only the site owner has the capability to invite incompatible segment users on the same site.
+*Owner Moderated* is a new mode applicable to OneDrive site that allows incompatible segment users access to OneDrive in the presence of a moderator/owner. Only the site owner has the capability to invite incompatible segment users on the same site.
 
 To update a OneDrive to Owner Moderated, run the following PowerShell command:
 

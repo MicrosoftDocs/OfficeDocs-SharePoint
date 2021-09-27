@@ -36,7 +36,7 @@ For SharePoint, information barriers can determine and prevent the following kin
 When using information barriers with SharePoint, the following IB modes are supported:
 
 - **Open**: When a SharePoint site does not have segments, the site's IB mode is automatically set as Open. See the next section for details on managing segments with the Open mode configuration.
-- **Owner Moderated**: When a SharePoint site is created for collaboration with incompatible segment in the presence of an owner/moderator, the site's IB should be set as Owner Moderated. This mode is currently supported only for sites which are not connected to Microsoft365 group. See the next section for details on managing Owner Moderated site.
+- **Owner Moderated**: When a SharePoint site is created for collaboration with incompatible segment in the presence of an owner/moderator, the site's IB should be set as Owner Moderated. This mode is currently supported only for sites that are not connected to Microsoft365 group. See the next section for details on managing Owner Moderated site.
 - **Implicit**: When a site is provisioned by Microsoft Teams, the site's IB mode is set as Implicit by default. A SharePoint admin or global admin cannot manage segments with the Implicit mode configuration.
 - **Explicit**: When segment is added to a SharePoint site either via end-user site creation experience or by a SharePoint admin adding segment to a site, the site's IB mode is set as Explicit. See the next section for details on managing segments with the Explicit mode configuration.
 
@@ -217,7 +217,7 @@ To help site owners add a segment to a site, share the [Associate information se
 
 When a team is created in Microsoft Teams, a SharePoint site is automatically created for the team's files. Within 24 hours, the segments associated with the team's members are automatically associated with the site and site's information barriers mode is automatically set as *Implicit*. SharePoint admins can't change the segments associated with a site when the site is connected to a team and mode as *Implicit*. For more information, see [Learn more about information barriers in Teams](/microsoftteams/information-barriers-in-teams).
 
-If the global administrator updates IB mode of an existing Microsoft 365 group connected to Microsoft Teams to *Implicit*, make sure to update the IB mode of the Teams connected site to *Implicit*. For more information, see [the section](#view-and-manage-segments-as-an-administrator) on how manage IB mode of a site.  
+If the global administrator updates IB mode of an existing Microsoft 365 group connected to Microsoft Teams to *Implicit*, make sure to update the IB mode of the Teams connected site to *Implicit*. For more information, see [the section](#view-and-manage-segments-as-an-administrator) on how to manage IB mode of a site.  
 
 > [!NOTE]
 > When you create a new team or private channel in Microsoft Teams, a team site in SharePoint gets automatically created. To edit the site description or classification for this team site, go to the corresponding channel's [settings in Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d).
