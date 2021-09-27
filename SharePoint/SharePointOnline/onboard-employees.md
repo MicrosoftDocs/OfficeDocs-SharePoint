@@ -18,7 +18,7 @@ search.appverid:
 - SPO160
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
-description: "Learn how to onboard new employees into your organization using M365"
+description: "Learn how to onboard new employees into your organization using Microsoft 365"
 ---
 
 # Onboard new employees into your organization
@@ -57,7 +57,7 @@ When entering a new organization, knowing where resources are located, who to go
 | Plan                 | Build              | Launch        |
 | :-------------- | :--------------- |:-------------|
 | ![Planning icon](media/th-lb2.png)  | ![Building icon](media/oe-10.png) | ![Launching icon](media/oe-11.png)|
-|- Scope your audience <br>  - Map out the employee onboarding experience <br>  - Review M365 onboarding tools <br> - Consider creating a new employee support community in Yammer | - Consider using a live event to welcome and orient new team members <br> -  Include partners like hiring managers, business owners, and human resources in the planning process <br> - Have a plan to maintain NEO content over time <br> - Create an onboarding site using the New employee onboarding template  <br> - Customize an Onboarding checklist template in M365 Lists <br> - Prepare a survey to ask for feedback at the end of onboarding   | - Send out invites, instructions and resources using Outlook Mail and Calander.  <br> - Gather insights from each platform used to measure overall performance of the employee onboarding process  <br> - Use feedback to inform the next onboarding session. |
+|- Scope your audience <br>  - Map out the employee onboarding experience <br>  - Review Microsoft 365 onboarding tools <br> - Consider creating a new employee support community in Yammer | - Consider using a live event to welcome and orient new team members <br> -  Include partners like hiring managers, business owners, and human resources in the planning process <br> - Have a plan to maintain NEO content over time <br> - Create an onboarding site using the New employee onboarding template  <br> - Customize an Onboarding checklist template in Microsoft 365 Lists <br> - Prepare a survey to ask for feedback at the end of onboarding   | - Send out invites, instructions, and resources using Outlook Mail and Calender.  <br> - Gather insights from each platform used to measure overall performance of the employee onboarding process  <br> - Use feedback to inform the next onboarding session. |
 
 
 ## Plan the onboarding experience
@@ -65,7 +65,7 @@ When entering a new organization, knowing where resources are located, who to go
 <br>
 
 
-| Step 1: Scope your audience and goals                 |Step 2: Map the onboarding experience               | Step 3: Review M365 tools         |
+| Step 1: Scope your audience and goals                 |Step 2: Map the onboarding experience               | Step 3: Review Microsoft 365 tools         |
 | :-------------- | :--------------- |:-------------|
 | ![Scope your audience icon](media/oe-12.png)  | ![Map your onboarding experience icon](media/oe-13.png) | ![Review M365 tools icon](media/oe-14.png)|
 |-Determine the needs and the size of your audience.  <br>  -Define deliverables and desired outcomes of the onboarding experience  <br>  -Establish tone and messaging  | -Establish and onboarding timeline  <br> -Define which onboarding tasks need to be completed <br> - Prioritize onboarding tasks  <br> -Curate learning materials   <br> -Ask for feedback frequently    | - choose onboarding tools that will best suit your needs.   |
@@ -74,16 +74,16 @@ When entering a new organization, knowing where resources are located, who to go
 
 - Even before a new employee’s first day on the job, they will need some information about NEO before the event itself. Consider a pre-onboarding SharePoint site that can help new employees gather the right documents and prepare for the NEO event as soon as they sign their offer letter. 
 
-- Some new employees cannot attend the NEO event in-person. Consider if it’s better to pre-record an event that can be shown to people who cannot attend in-person or if you can live-stream the in-person event and new employees who are remote can join online. 
+- Some new employees cannot attend the NEO event in person. Consider if it’s better to pre-record an event that can be shown to people who cannot attend in person or if you can live-stream the in-person event and new employees who are remote can join online. 
 
-- Regardless of the NEO event attendance is in-person or remotely, the NEO audience will need access to the same resources on desktop and mobile devices. 
+- Regardless of the NEO event attendance is in person or remotely, the NEO audience will need access to the same resources on desktop and mobile devices. 
 
 
 ### Step 1: Start by determining your audience profile and size 
 
  
 
-New employees will have diverse backgrounds, roles, and career experience. Some new employees will be able to attend an event in-person while other can only attend remotely. Some tools and resources will need to be accessible from a mobile device. The same resources will need to be available regardless of the new employee orientation method. 
+New employees will have diverse backgrounds, roles, and career experience. Some new employees will be able to attend an event in person while other can only attend remotely. Some tools and resources will need to be accessible from a mobile device. The same resources will need to be available regardless of the new employee orientation method. 
 
 The size of your onboarding group will determine the platforms and resources you use. Learn more about defining your audience profile and scoping audience size. 
 <br>
@@ -92,11 +92,11 @@ The size of your onboarding group will determine the platforms and resources you
 | Groups of 1-19                |Groups of 20 or more              |
 | :--------------: | :---------------: |
 | ![Small group icon](media/oe-user.png)  | ![Large group icon](media/oe-users.png) |
-|Office (PowerPoint, word) <br> SharePoint <br> Teams <br> Viva learning <br> Viva Connections <br> SharePoint Spaces  | Office (PowerPoint, word) <br> SharePoint <br> Teams <br> Viva learning <br> Viva Connections <br> SharePoint Spaces <br> Yammer   |
+|Office (PowerPoint, word) <br> SharePoint <br> Teams <br> Viva Learning <br> Viva Connections <br> SharePoint Spaces  | Office (PowerPoint, word) <br> SharePoint <br> Teams <br> Viva Learning <br> Viva Connections <br> SharePoint Spaces <br> Yammer   |
 
 **Define the desired outcome and priority content**
 
-When each employee completes onboarding, what would the signifier of completion be? In many organizations, onboarding happens for more than one part of the business, consider offering an onboarding structure that allows the new employee to become familiar with the organization and the team they will be working with. Consider setting up modules that guide employees through onboarding and lets them know about their progress.  
+When each employee completes onboarding, what would the indication of completion be? In many organizations, onboarding happens for more than one part of the business, consider offering an onboarding structure that allows the new employee to become familiar with the organization and the team they will be working with. Consider setting up modules that guide employees through onboarding and lets them know about their progress.  
 
 **Consider the tone and messaging for your onboarding process** 
 
@@ -116,11 +116,11 @@ What does a healthy and sustainable onboarding timeline look like at your organi
 
 - The number of teams the employee will be working on 
 
-- The amount of things the employee will be responsible for 
+- The number of things the employee will be responsible for 
 
-- The amount of partner relationships the employee will have 
+- The number of partner relationships the employee will have 
 
-- The amount of tools the employee will need to learn how to use 
+- The number of tools the employee will need to learn how to use 
 
 The more items on this list, the longer the timeline should be. Establish a timeline that will give the new employee the space and opportunity to learn, establish relationships, and become acquainted with the tools and resources they will interact with daily.  
 
@@ -130,33 +130,31 @@ Create deliverables that let you know that each employee has achieved full compe
 
 **Collect, prioritize, and organize resources and content**  
 
-When entering a new environment, understanding the order in which deliverables should be completed may be a blind spot for new employees. Help them prioritize onboarding deliverables by laying them out in a way that signals priority. This could be as simple as writing them out for them or integrating [Microsoft Lists](https://support.microsoft.com/microsoft-lists). Learn how to use Microsoft Lists to help onboard employees (bookmark link to Lists section in Tools). 
+When entering a new environment, understanding the order in which deliverables should be completed may be a blind spot for new employees. Help them prioritize onboarding deliverables by laying them out in a way that signals priority. This could be as simple as writing them out for them or integrating [Microsoft Lists](https://support.microsoft.com/microsoft-lists). Learn how to [use Microsoft Lists to help onboard employees](#build-the-new-employee-onboarding-experience). 
 
 **Curate learning materials**  
 
-Which learning materials are needed to help make the new employee successful? Curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily. Learn more about using Viva Learning (bookmark link to Viva Learning in Tools) 
-
-(bookmark link to Viva Learning section in Tools). 
+Which learning materials are needed to help make the new employee successful? Curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily. Learn more about [using Viva Learning](#build-the-new-employee-onboarding-experience).. 
 
  
 
 **Get feedback along the way** 
 
-The goal of every onboarding process is to make sure each new employee feels fully equipped to be successful in their new job. Receiving honest feedback once employees are finished with the onboarding process is the best way to fill in the gaps and improve onboarding for incoming employees. Find out what worked and what could use improvement by creating simple and thoughtful surveys. Learn more about getting feedback using Microsoft Forms. (bookmark link to Microsoft Forms in Tools) 
+The goal of every onboarding process is to make sure each new employee feels fully equipped to be successful in their new job. Receiving honest feedback once employees are finished with the onboarding process is the best way to fill in the gaps and improve onboarding for incoming employees. Find out what worked and what could use improvement by creating simple and thoughtful surveys. Learn more about [getting feedback using Microsoft Forms]((#build-the-new-employee-onboarding-experience).). 
 
  
 
 ### Step 3: Review Microsoft 365 onboarding tools 
 
-A great option is to use Teams meetings, live events, and chat functionality to welcome new employees and provide an engaging experience for those that can attend in-person as well as remote. Direct users to information and contacts on a SharePoint communications site. Consider using a NEO Yammer channel where new people can ask questions and get answers. You can even consider using SharePoint spaces for virtual training or facility tours. Then, bring it all together using Viva Connections which integrates SharePoint content into Microsoft Teams. 
+A great option is to use Teams live meetings, live events, and chat functionality to welcome new employees and provide an engaging experience for those that can attend in-person as well as remote. Direct users to information and contacts on a SharePoint communications site. Consider using a NEO Yammer channel where new people can ask questions and get answers. You can even consider using SharePoint spaces for virtual training or facility tours. Then, bring it all together using Viva Connections, which integrates SharePoint content into Microsoft Teams. 
 
-- **Microsoft Teams meeting** - Meetings in Teams include audio, video, and screen sharing, and are great for communicating with groups of fewer than 300 individuals. Teams can be used for meetings that happen in-person, remotely, or a combination of the two. Additionally, the meeting can be recorded and shared with new employees who were unable to attend the meeting. 
+- **Microsoft Teams meeting** - Meetings in Teams include audio, video, and screen sharing, and are great for communicating with groups of fewer than 300 individuals. Teams can be used for meetings that happen in person, remotely, or a combination of the two. Additionally, the meeting can be recorded and shared with new employees who were unable to attend the meeting. 
 
 - **SharePoint communication site** - Create a SharePoint communication site using the [New employee onboarding site template](https://support.microsoft.com/office/new-employee-onboarding-template-38b5b290-1703-4c94-beb3-907e0ad4a052?ui=en-US&rs=en-US&ad=US). Use the site to direct new employees to relevant resources, contacts, and conversations in new employee Yammer communities.  
 
 - **Yammer channel** – Create a [Yammer channel](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) just for new employees. Choose to create one NEO channel for the entire organization or region or create channels for each new group of new employees. Then, use the [Yammer web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) on the SharePoint NEO site to integrate the conversation with other resources and contacts.  
 
-- **Viva Connections** – If your organization is using [Viva Connections](https://resources.techcommunity.microsoft.com/viva-connections/), you can integrate SharePoint sites into Microsoft Teams to bring new employee resources all into one place. Additionally, you can add new employee specific resources to the Viva Connections mobile experience and use [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) to make sure new employees see specific content. 
+- **Viva Connections** – If your organization is using [Viva Connections](https://resources.techcommunity.microsoft.com/viva-connections/), you can integrate SharePoint sites into Microsoft Teams to bring new employee resources all into one place. Additionally, you can add new employee-specific resources to the Viva Connections mobile experience and use [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) to make sure new employees see specific content. 
 
 - **Viva Learning** - Use Viva Learning to curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily. 
 
@@ -176,6 +174,8 @@ Build out the employee onboarding experience one platform at a time. The tools l
 <br>
 
 ![New employee onboarding template screenshot](media/oe-2.png)
+<br> 
+<br>
 
 Create an internal communication site that acts as a home for new employees. This site should lay out resources, deliverables, and company information in and organized way. This site should also contain the most up-to-date information to ensure the new employee has everything needed to be successful. Try organizing action items on this site in a way that signals priority. List the things that need to be finished first at the top. This will help employees organize their work in onboarding to the best of their ability and gives each new employee the same starting point. 
 
@@ -193,7 +193,7 @@ Get started with [SharePoint site templates](https://support.microsoft.com/offic
 <br>
 <br> 
 
-With the emergence of virtual work, having facetime with other people in the organization is still important in making sure employees can communicate with leaders, peers, and ask top-of-mind questions. Use Microsoft Teams to administer virtual employee orientation.  
+With the emergence of virtual work, having face time with other people in the organization is still important in making sure employees can communicate with leaders, peers, and ask top-of-mind questions. Use Microsoft Teams to administer virtual employee orientation.  
 
 Make this live event fun and engaging by giving employees an opportunity to communicate with each other in the Teams chat box or allow employees to ask questions on camera or through the moderated Q&A in Teams live events.  
 
@@ -209,7 +209,7 @@ Learn more about [Teams live events](https://docs.microsoft.com/microsoftteams/t
 <br>
 <br>
 
-SharePoint spaces is a tool that provides immersive online experiences using 2D and 3D web parts. Guide new employees through a virtual 360 degree tour of the campus. Incorporate helpful links and web parts that provide important information and helps the employee complete onboarding tasks.  
+SharePoint Spaces is a tool that provides immersive online experiences using 2D and 3D web parts. Guide new employees through a virtual 360-degree tour of the campus. Incorporate helpful links and web parts that provide important information and helps the employee complete onboarding tasks.  
 
  
 
@@ -230,6 +230,8 @@ When entering a new environment, understanding the order in which deliverables s
 <br>
 
 ![Viva Connections homepage screenshot](media/th8.png)
+<br>
+<br>
 
 Help orient new employees by providing them with the most important company information, resources, and updates regularly. Viva Connections is a digital platform built on the existing capabilities of Microsoft 365 that allows organizations to customize employee experiences and gain access to the most important information the most used tools and resources on both desktop and mobile devices. 
 
@@ -246,10 +248,10 @@ The Viva Connections home page features a feed and dashboard that can be used to
 
 Viva Learning (Preview) is an application for Microsoft Teams that allows users to discover, recommend, and access learning modules from different platforms to help users gain knowledge in any specific focus area. Viva Learning (Preview) pulls content from LinkedIn Learning, Microsoft Learn, Microsoft 365 Training, and other partners. Use Viva Learning to curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily.  
 
-In Viva Learning (Preview), managers of an organization or team can assign learning and track the learning progress of each module. The Viva Learning (Preview) home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. Learn more about Viva Learning (Preview) (Link).  
+In Viva Learning (Preview), managers of an organization or team can assign learning and track the learning progress of each module. The Viva Learning (Preview) home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. 
 
+Learn more about [Viva Learning (Preview)](https://docs.microsoft.com/en-us/microsoft-365/learning/?view=o365-worldwide).  
 
-Set to GA- Nov. 1 
 
 ### Create Virtual Communities for new employees in Yammer
 <br>
@@ -280,7 +282,7 @@ Learn more about [Microsoft forms](https://support.microsoft.com/forms).
 
 Use [Outlook](https://outlook.office.com/owa/) to invite all new employees to orientation. In this email, lay out all the resources starting with the Viva Connections homepage that contains links to the New Employee SharePoint site, the New Employee orientation live meeting event post, learning objectives and more. Be sure to include any necessary information and important direct contact. 
 
-Gether insights from each platform along the way. Use these insights to inform managers, team leads, and other stakeholders. Look for insights such as live event attendance, audience reach, site traffic, and more. 
+Gather insights from each platform along the way. Use these insights to inform managers, team leads, and other stakeholders. Look for insights such as live event attendance, audience reach, site traffic, and more. 
 
 Use the feedback gathered from each onboarding cycle to inform the next onboarding cycle. 
 
