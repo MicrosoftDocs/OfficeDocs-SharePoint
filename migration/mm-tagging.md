@@ -14,7 +14,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-description: "Importing tags with Migration Manager".
+description: "Importing tags with Migration Manager"
 ---
 
 # Importing and using tags with Microsoft Manager 
