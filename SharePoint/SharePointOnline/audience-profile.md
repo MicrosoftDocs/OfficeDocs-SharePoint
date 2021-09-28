@@ -113,6 +113,9 @@ Sharing confidential information and documents with large audiences always impos
 - [Classify confidential information](~/microsoft-365/compliance/sensitivity-labels.md) using sensitivity labels with ~ and .md
 - [Classify confidential information](/microsoft-365/compliance/sensitivity-labels) using sensitivity labels blank
 - [Classify confidential information](/microsoft-365/compliance/sensitivity-labels.md) using sensitivity labels just md
+- [Classify confidential information](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) actual URL
+
+
 
 
 ## Finally, learn to target content, conversations, and events to specific audiences
