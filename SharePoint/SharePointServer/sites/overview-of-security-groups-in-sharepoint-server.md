@@ -24,7 +24,7 @@ description: "Overview of SharePoint Server groups."
   
 You can manage users of SharePoint sites more efficiently if you assign permission levels to groups instead of to individual users. A SharePoint group is a set of individual users and can also include Active Directory Domain Services (AD DS) groups.
 
-Learn about [Comparing groups for SharepPoint in Microsoft 365](/microsoft-365/admin/create-groups/compare-groups). 
+Learn about [Comparing groups for SharePoint in Microsoft 365](/microsoft-365/admin/create-groups/compare-groups). 
     
 ## Introduction
 
@@ -57,16 +57,16 @@ Considering the previous advantages and disadvantages, here are the recommendati
 
 Each organization sets up its security groups differently. For easier permission management, security groups should be: 
   
-- Large and stable enough that you are not continually adding additional security groups to your SharePoint sites. 
+- Large and stable enough that you are not continually adding more security groups to your SharePoint sites. 
     
 - Small enough that you can assign appropriate permissions. 
     
-For example, a security group that is named "all users in building 2" is probably not small enough to assign permissions, unless all users in building 2 have the same job function, such as accounts receivable clerks. This is rarely the case. Therefore, you should look for a smaller, more specific set of users, such as "Accounts Receivable".
+For example, a security group that is named "all users in building 2" is probably not small enough to assign permissions, unless all users in building 2 have the same job function, such as accounts receivable clerks. This scenario occurs rarely. Therefore, you should look for a smaller, more specific set of users, such as "Accounts Receivable".
   
 ## Decide whether to allow access for all authenticated users
 <a name="section2"> </a>
 
-If you want all users within your domain to be able to view content on your site, consider granting access to all authenticated users (the Domain Users Windows security group). This special group allows all members of your domain to access a website (at the permission level that you choose), without your having to enable anonymous access. 
+If you want all users within your domain to be able to view content on your site, consider granting access to all authenticated users (the Domain Users Windows security group). This special group allows all members of your domain to access a website (at the permission level that you choose), without the need for you having to enable anonymous access. 
   
 ## Decide whether to allow access for anonymous users
 <a name="section3"> </a>
@@ -88,7 +88,7 @@ Anonymous access relies on the anonymous user account on the web server. This ac
   
 Permission policies provide a centralized way to configure and manage a set of permissions that applies to only a subset of users or groups in a web application. You can manage permission policy for anonymous users by enabling or disabling anonymous access for a web application. If you enable anonymous access for a web application, site administrators can then grant or deny anonymous access at the site collection, site, or item level. If anonymous access is disabled for a web application, no sites within that web application can be accessed by anonymous users. 
   
-- **None** No policy. This is the default option. No additional permission restrictions or additions are applied to site anonymous users. 
+- **None** No policy. This option is the default one. No extra permission restrictions or additions are applied to site anonymous users. 
     
 - **Deny Write** Anonymous users cannot write content, even if the site administrator specifically attempts to grant the anonymous user account that permission. 
     

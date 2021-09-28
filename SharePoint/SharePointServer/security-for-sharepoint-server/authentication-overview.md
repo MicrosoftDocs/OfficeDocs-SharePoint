@@ -67,7 +67,7 @@ App authentication is the validation of a remote SharePoint app's identity and t
   
 For example, suppose that a user opens a SharePoint page that contains an IFRAME of a SharePoint app, and that IFRAME needs an external component, such as a server on the intranet or the Internet, to access a secured SharePoint resource in order to render the page. The external component of the SharePoint app must be authenticated and authorized so that SharePoint provides the requested information and the app can render the page for the user.
   
-Note that if the SharePoint app does not require a SharePoint secured resource to render the page for the user, app authentication is not needed. For example, a SharePoint app that provides weather forecast information and only has to access a weather information server on the Internet does not have to use app authentication. 
+If the SharePoint app does not require a SharePoint secured resource to render the page for the user, app authentication is not needed. For example, a SharePoint app that provides weather forecast information and only has to access a weather information server on the Internet does not have to use app authentication. 
   
 App authentication is a combination of two processes:
   
@@ -131,7 +131,7 @@ For more information, see [Plan for app authentication in SharePoint 2013 Previe
 
 Server-to-server authentication is the validation of a server's request for resources that is based on a trust relationship established between the STS of the server that runs SharePoint Server and the STS of another server that supports the OAuth server-to-server protocol, such as on-premises running SharePoint Server, Exchange Server 2016, Skype for Business 2016, or Azure Workflow Service, and SharePoint Server running in Microsoft 365. Based on this trust relationship, a requesting server can access secured resources on the SharePoint server on behalf of a specified user account, subject to server and user permissions.
   
-For example, a server running Exchange Server 2016 can request resources of a server running SharePoint Server for a specific user account. This contrasts with app authentication, in which the app does not have access to user account credential information. The user can be currently signed in to the server making the resource request or not, depending on the service and the request.
+For example, a server running Exchange Server 2016 can request resources of a server running SharePoint Server for a specific user account. This provision contrasts with app authentication, in which the app does not have access to user account credential information. The user can be currently signed in to the server making the resource request or not, depending on the service and the request.
   
 When a server running SharePoint Server attempts to access a resource on a server or a server attempts to access a resource on a server running SharePoint Server, the incoming access request must be authenticated so that the server accepts the incoming access request and subsequent data. Server-to-server authentication verifies that the server running SharePoint Server and the user whom it is representing are trusted.
   

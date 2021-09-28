@@ -163,20 +163,20 @@ Similarly, when queries originate from the Extranet zone—in this case, https:/
   
 In both of the previous cases, because of the zone consistency between the query location and the search-result URLs, users will readily be able to view and open search results, without having to change to the different security context of a different zone.
   
-However, now instead say that you crawl a non-default zone such as the Intranet zone, http://fabrikam. In this case, for queries from any zone, URLs of results from WebApp1 will always be relative to the non-default zone that was crawled. That is, a query from https://contoso/searchresults.aspx, https://fabrikam/searchresults.aspx, or http://fabrikam/searchresults.aspx will yield search-result URLs that begin with the non-default zone that was crawled, and therefore will be of the form http://fabrikam/ _path_/ _result_.aspx. This setting can cause unexpected or problematic behavior such as the following:
+However, now instead say that you crawl a non-default zone such as the Intranet zone, http://fabrikam. In this case, for queries from any zone, URLs of results from WebApp1 will always be relative to the non-default zone that was crawled. That is, a query from https://contoso/searchresults.aspx, https://fabrikam/searchresults.aspx, or http://fabrikam/searchresults.aspx will yield search-result URLs that begin with the non-default zone that was crawled, and therefore will be of the form http://fabrikam/ _path_/ _result_.aspx. This setting can cause unexpected or problematic behavior such as:
   
 - When users try to open search results, they might be prompted for credentials that they don't have. For example, forms-based authenticated users in the Extranet zone might not have Windows authentication credentials.
     
-- The results from WebApp1 will use HTTP, but users might be searching from the Extranet zone at https://fabrikam/searchresults.aspx. This might have security implications because the results will not use secure sockets layer (SSL) encryption.
+- The results from WebApp1 will use HTTP, but users might be searching from the Extranet zone at https://fabrikam/searchresults.aspx. This search operation by the users might have security implications because the results will not use secure sockets layer (SSL) encryption.
     
-- Refinements might not filter correctly, because they filter on the public URL for the default zone instead of the URL that was crawled. This is because URL-based properties in the index will be relative to the non-default URL that was crawled.
+- Refinements might not filter correctly, because they filter on the public URL for the default zone instead of the URL that was crawled. This incorrect filtering is because URL-based properties in the index will be relative to the non-default URL that was crawled.
     
 ## Reduce the effect of crawling on SharePoint Server crawl targets
 <a name="BKMK_ReduceEffect"> </a>
 
-You can reduce the effect of crawling on SharePoint Server crawl targets (that is, SharePoint Server front-end web servers) by doing the following:
+You can reduce the effect of crawling on SharePoint Server crawl targets (that is, SharePoint Server front-end web servers) by doing the following tasks:
   
-- For a small SharePoint Server environment, redirect all crawl traffic to a single SharePoint Server front-end web server. For a large environment, redirect all crawl traffic to a specific group of front-end web servers. This prevents the crawler from using the same resources that are being used to render and serve web pages and content to active users.
+- For a small SharePoint Server environment, redirect all crawl traffic to a single SharePoint Server front-end web server. For a large environment, redirect all crawl traffic to a specific group of front-end web servers. This pattern of crawl redirection prevents the crawler from using the same resources that are being used to render and serve web pages and content to active users.
     
 - Limit search database usage in Microsoft SQL Server to prevent the crawler from using shared SQL Server disk and processor resources during a crawl.
     
@@ -186,12 +186,12 @@ For more information, see [Manage crawl load (SharePoint Server 2010)](/previous
 
 To limit crawler impact, you can also create crawler impact rules, which are available from the Search_service_application_name: Search Administration page. A crawler impact rule specifies the rate at which the crawler requests content from a start address or range of start addresses. Specifically, a crawler impact rule either requests a specified number of documents at a time from a URL without waiting between requests, or it requests one document at a time from the URL and waits a specified time between requests. Each crawler impact rule applies to all crawl components.
   
-For servers in your organization, you can set crawler impact rules based on known server performance and capacity. However, this might not be possible for external sites. Therefore, you might unintentionally use too many resources on external servers by requesting too much content or requesting content too frequently. This could cause administrators of those external servers to limit server access so that it becomes difficult or impossible for you to crawl those repositories. Therefore, set crawler impact rules to have as little effect on external servers as possible while you still crawl enough content frequently enough to make sure that the freshness of the index meets your requirements. 
+For servers in your organization, you can set crawler impact rules based on known server performance and capacity. However, this setting might not be possible for external sites. Therefore, you might unintentionally use too many resources on external servers by requesting too much content or requesting content too frequently. This high content usage could cause administrators of those external servers to limit server access so that it becomes difficult or impossible for you to crawl those repositories. Therefore, set crawler impact rules to have as little effect on external servers as possible while you still crawl enough content frequently enough to make sure that the freshness of the index meets your requirements. 
   
 ## Use Active Directory groups instead of individual users for permissions
 <a name="BKMK_UseADGroups"> </a>
 
-The ability of a user or group to perform various activities on a site is determined by the permission level that you assign. If you add or remove users individually for site permissions, or if you use a SharePoint Server group to specify site permissions and you change the membership of the group, the crawler must perform a "security-only crawl", which updates all affected items in the search index to reflect the change. Similarly, adding or updating web application policy with different users or SharePoint Server groups will trigger a crawl of all content covered by that policy. This increases crawl load and can reduce search-results freshness. Therefore, to specify site permissions, it is best to use Active Directory Domain Services (AD DS) groups, because this does not require the crawler to update the affected items in the search index.
+The ability of a user or group to perform various activities on a site is determined by the permission level that you assign. If you add or remove users individually for site permissions, or if you use a SharePoint Server group to specify site permissions and you change the membership of the group, the crawler must perform a "security-only crawl", which updates all affected items in the search index to reflect the change. Similarly, adding or updating web application policy with different users or SharePoint Server groups will trigger a crawl of all content covered by that policy. This increases crawl load and can reduce search-results freshness. Therefore, to specify site permissions, it is best to use Active Directory Domain Services (AD DS) groups, because these groups does not require the crawler to update the affected items in the search index.
   
 ## Add a second crawl component to provide fault tolerance
 <a name="BKMK_AddSecond"> </a>
@@ -211,12 +211,12 @@ For more information, see the following articles:
 ## Manage environment resources to improve crawl performance
 <a name="BKMK_ManageEnvironment"> </a>
 
-As the crawler crawls content, downloads the content to the crawl server (the server that hosts the crawl component), and feeds the content to content processing components, several factors can adversely affect performance. To improve crawl performance, you can do the following:
+As the crawler crawls content, downloads the content to the crawl server (the server that hosts the crawl component), and feeds the content to content processing components, several factors can adversely affect performance. To improve crawl performance, you can do the following task:
   
 | **To address this potential performance bottleneck** |                                       **Implement this solution**                                        |
 | :--------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
 | Slow response time from crawled servers              | Provide more CPU and RAM and faster disk I/O                                                             |
-| Low network bandwidth                                | Install one or two one-gigabit-per-second network adapters on each crawl server                          |
+| Low network bandwidth                                | Install 1 or 2 one-gigabit-per-second network adapters on each crawl server                          |
 | Content processing                                   | Provide more content processing components, and more CPU resources for each content processing component |
 | Slow processing by the index components              | Add I/O resources for servers that host index components                                                 |
    
@@ -245,7 +245,7 @@ To confirm that no crawls are in progress, on the  _Search_service_application_n
 ## Remove crawl components from a crawl host before you remove the host from a farm
 <a name="BKMK_RemoveCrawlComponents"> </a>
 
-When a server hosts a crawl component, removing the server from the farm can make it impossible for the Search system to crawl content. Therefore, before you remove a crawl host from a farm, we strongly recommend that you do the following:
+When a server hosts a crawl component, removing the server from the farm can make it impossible for the Search system to crawl content. Therefore, before you remove a crawl host from a farm, we strongly recommend that you do the following tasks:
   
 1. Make sure that no crawls are active.
     
@@ -288,7 +288,7 @@ We recommend that you test the crawl and query functionality in the server farm 
     
 5. After you finish testing, delete the temporary content source.
     
-    This removes the items specified by that content source from the search index so that they do not appear in search results after you finish testing.
+    This operation removes the items specified by that content source from the search index so that they do not appear in search results after you finish testing.
     
 ## Use the crawl log and crawl-health reports to diagnose problems
 <a name="BKMK_UseCrawlLog"> </a>
