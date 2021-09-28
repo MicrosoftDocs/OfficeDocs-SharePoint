@@ -107,7 +107,7 @@ Sharing confidential information and documents with large audiences always impos
 - [Classify confidential information](/microsoft-365/compliance/sensitivity-labels) using sensitivity labels
 - [Managing SharePoint Security: A Team Effort](/microsoft-365/community/sharepoint-security-a-team-effort)
 - [Set up Microsoft Teams with protection](/microsoft-365/solutions/configure-teams-highly-sensitive-protection) for highly sensitive data
-- [Set up secure external sharing in SharePoint](what-s-new-in-sharing-in-targeted-release)
+- [Set up secure external sharing in SharePoint](what-s-new-in-sharing-in-targeted-release.md)
 - [Use approval flows](https://support.microsoft.com/office/approval-flow-for-modern-pages-a8b2e689-d4a1-4639-8028-333c0ece30d9) for content updates to high traffic SharePoint pages
 
 
