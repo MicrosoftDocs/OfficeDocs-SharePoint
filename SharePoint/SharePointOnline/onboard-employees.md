@@ -197,7 +197,7 @@ With the emergence of virtual work, having face time with other people in the or
 
 Make this live event fun and engaging by giving employees an opportunity to communicate with each other in the Teams chat box or allow employees to ask questions on camera or through the moderated Q&A in Teams live events.  
 
-Learn more about [Teams live events](/microsoftteams/teams-live-events/what-are-teams-live-events.md).  
+Learn more about [Teams live events](/microsoftteams/teams-live-events/what-are-teams-live-events).  
 
  
 
@@ -222,7 +222,7 @@ Learn more about [SharePoint Spaces](https://support.microsoft.com/office/sharep
 <br>
 <br>
 
-When entering a new environment, understanding the order in which deliverables should be completed may be a blind spot for new employees. Help them prioritize onboarding deliverables by laying them out in a way that signals priority. This could be as simple as writing them out for them or creating tasks in [Microsoft Lists](https://support.microsoft.com/microsoft-lists) and adding the [List app](/MicrosoftTeams/manage-lists-app.md) in the New employee Teams channel for easy access. You can also integrate List into the new employee onboarding SharePoint site using the [List web part](https://support.microsoft.com/office/use-the-list-web-part-ef0a1b80-f8b3-443d-b04a-1e76c70b5537). 
+When entering a new environment, understanding the order in which deliverables should be completed may be a blind spot for new employees. Help them prioritize onboarding deliverables by laying them out in a way that signals priority. This could be as simple as writing them out for them or creating tasks in [Microsoft Lists](https://support.microsoft.com/microsoft-lists) and adding the [List app](/MicrosoftTeams/manage-lists-app) in the New employee Teams channel for easy access. You can also integrate List into the new employee onboarding SharePoint site using the [List web part](https://support.microsoft.com/office/use-the-list-web-part-ef0a1b80-f8b3-443d-b04a-1e76c70b5537). 
 
  
 
@@ -250,7 +250,7 @@ Viva Learning (Preview) is an application for Microsoft Teams that allows users 
 
 In Viva Learning (Preview), managers of an organization or team can assign learning and track the learning progress of each module. The Viva Learning (Preview) home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. 
 
-Learn more about [Viva Learning (Preview)](/microsoft-365/learning/?view=o365-worldwide.md).  
+Learn more about [Viva Learning (Preview)](/microsoft-365/learning/?view=o365-worldwide).  
 
 
 ### Create Virtual Communities for new employees in Yammer
@@ -263,7 +263,7 @@ Give new employees the opportunity to connect with each other and build a suppor
 
 Naturally, employees come across information at different times in their onboarding process. Creating a space where new employees can build a community for themselves gives them the opportunity to share information as they come across it. In this virtual space, new employees can share resources, share ideas, and get to know each other. It also helps them build internal bonds that can last over the course of their career.
 
-Learn more about building communities in [Yammer](/yammer/get-started-with-yammer/newyammer-faq.md). 
+Learn more about building communities in [Yammer](/yammer/get-started-with-yammer/newyammer-faq). 
 
 
 ### Ask for feedback using Microsoft Forms
