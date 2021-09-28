@@ -49,28 +49,27 @@ When creating a migration task, you can choose to migrate your sites, just your 
 3. Select **SharePoint Server**.    
 4. Enter the SharePoint Server site URL where your content is located, and then select **Next**. 
 5. Enter your username and password to the SharePoint Server site; it can be UserID or user email. Select **Sign in**.
-6. Select the document library where your files are located. The dropdown contains all your possible choices. If don't select a document library or list, the site will be migrated.If you want to include all subsites, select **Include all subsites**.   
+6. For site migration, select **Include all subsites**.  Don't select a document library or list as the site will be migrated.
 7. Enter the URL of the SharePoint site where you want your files migrated.    
-8. Select the document library to where your files will be copied.
-9. Select either **Keep the classic site structure** (make no changes to the site structure) or **Switch to modern site structure** to modernize your site structure during migration.
+8. Select either **Keep the classic site structure** (make no changes to the site structure) or **Switch to modern site structure** to modernize your site structure during migration.
 
     ![choose your site structure ](media/spmt-site-structure-choice.png)
 
-10.	If you chose **Switch to modern site structure**, select if you want the promoted level-one subsites associated with a hub. 
+9.	If you chose **Switch to modern site structure**, select if you want the promoted level-one subsites associated with a hub. 
 
    ![select a site structure hub association](media/spmt-select-hub-association.png)
 
-11. If you chose to associate with a hub, select if you want to register your destination as a hub or associate the sites with an existing hub.
+10. If you chose to associate with a hub, select if you want to register your destination as a hub or associate the sites with an existing hub.
 
     ![spmt-site-structure-associate-destination-register-hub](media/spmt-site-structure-associate-destination-as-hub.png)
 
-12.  If you selected to associate the promoted level-one subsites with an existing hub, select the hub name from the dropdown list, and select **Next**.
+11.  If you selected to associate the promoted level-one subsites with an existing hub, select the hub name from the dropdown list, and select **Next**.
 
    ![enter the name of an existing hub to associate your sites with](media/spmt-site-structure-associate-existing-hub.png)
 
-13.	Review and edit destination URL for each subsite as needed.
+12.	Review and edit destination URL for each subsite as needed.
     
-14. Select **Next**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
+13. Select **Next**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
 
 
 ## List and document library migration
@@ -80,7 +79,7 @@ When creating a migration task, you can choose to migrate your sites, just your 
 3. Select **SharePoint Server**.   
 4. Enter the SharePoint Server site URL where your content is located, and then select **Next**.      
 5. Enter your username and password to the SharePoint Server site; it can be UserID or user email. Select **Sign in**.
-6. Select the document library where your files are located. The dropdown contains all your possible choices. If don't select a document library or list, the site will be migrated.If you want to include all subsites, select **Include all subsites**.    
+6. Select the document library where your files are located from the dropdown list.
 7. Enter the URL of the SharePoint site where you want your files migrated.   
 8. Select the document library to where your files will be copied.   
 9. Select **Next**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
