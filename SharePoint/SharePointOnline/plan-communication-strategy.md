@@ -32,7 +32,7 @@ Review common scenarios to get familiar with the different types of organization
 ### Scenario A: Use Viva Connections as a gateway to employee experiences
 
 >[!NOTE]
-> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](/viva-connections-overview) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules. 
+> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](/viva-connections-overview.md) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules. 
 
 ![Conceptual image of Viva Connections.](media/cc-viva-connections.png)
 
@@ -44,7 +44,7 @@ Review common scenarios to get familiar with the different types of organization
 
 **Outcome:** The outcome will allow frontline workers to feel connected and informed while providing easy access to common tasks and tools all in one place. 
 
-**Get started:**[Learn more about setting up Viva Connections.](/guide-to-setting-up-viva-connections)
+**Get started:**[Learn more about setting up Viva Connections.](guide-to-setting-up-viva-connections.md)
 
 
 ### Scenario B: Plan, create, and launch a home site in SharePoint
@@ -59,7 +59,7 @@ Review common scenarios to get familiar with the different types of organization
 
 **Outcome:** The outcome of the landing experience allows all employees to easily catch up on organizational news, access popular resources, and find help and support.
 
-**Get started:**[Learn more about how to set a SharePoint home site.](/home-site-plan)
+**Get started:**[Learn more about how to set a SharePoint home site.](home-site-plan.md)
 
 
 ### Scenario C: Plan and produce a town hall for your organization
@@ -74,7 +74,7 @@ Review common scenarios to get familiar with the different types of organization
 
 **Outcome:** The outcome of this scenario is a large region or division of an organization engages with new information, resources, messages, and direction during a live event that’s recorded and can be viewed later.
 
-**Get started:**[Learn more about how to plan and produce a town hall.](/hold-town-hall-using-yammer)
+**Get started:**[Learn more about how to plan and produce a town hall.](hold-town-hall-using-yammer.md)
 
 
 
@@ -90,7 +90,7 @@ Review common scenarios to get familiar with the different types of organization
 
 **Outcome:** The outcome will allow for relevant news to show up to the right audience on devices and in apps that are already being used in the flow of work.
 
-**Get started:**[Learn more about how to distribute organizational news.](/distribute-corporate-news-to-your-organization)
+**Get started:**[Learn more about how to distribute organizational news.](distribute-corporate-news-to-your-organization.md)
 
 
 
@@ -106,7 +106,7 @@ Review common scenarios to get familiar with the different types of organization
 
 **Outcome:** The outcome will be a sustainable communications channel that connects people and provides learning opportunities beyond typical leadership announcements.
 
-**Get started:**[Learn more about how to connect leadership with your organization.](/leadership-connection)
+**Get started:**[Learn more about how to connect leadership with your organization.](leadership-connection.md)
 
 
 
@@ -122,18 +122,18 @@ Review common scenarios to get familiar with the different types of organization
 
 **Outcome:** The outcome makes new employees feel welcome and understand who and where to go to for help and more information.
 
-**Get started:**[Learn more about how to plan and launch a new employee onboarding program.](/onboard-employees)
+**Get started:**[Learn more about how to plan and launch a new employee onboarding program.](onboard-employees.md)
 
 
 ## Up next:
 
-**Step 2:** [Review Microsoft 365 communication tools and methods](/SharePoint/review-communication-apps.md)
+**Step 2:** [Review Microsoft 365 communication tools and methods](review-communication-apps.md)
 <br>
 
-**Step 3:** [Scope audience size and preferences](/SharePoint/audience-profile.md)
+**Step 3:** [Scope audience size and preferences](audience-profile.md)
 <br>
 
-**Step 4:** [Get started planning for your scenario](/SharePoint/choose-communication-method.md)
+**Step 4:** [Get started planning for your scenario](choose-communication-method.md)
 
 
 <br>
