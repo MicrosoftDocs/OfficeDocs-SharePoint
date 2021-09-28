@@ -140,7 +140,7 @@ For communication that takes place in SharePoint, you’ll have access to a feat
 
 ## Up next:
 
-**Step 4:** [Get started planning for your scenario](choose-communication-method)
+**Step 4:** [Get started planning for your scenario](choose-communication-method.md)
 
 
 

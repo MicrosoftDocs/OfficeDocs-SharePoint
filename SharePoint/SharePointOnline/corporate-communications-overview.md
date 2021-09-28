@@ -31,7 +31,7 @@ Learn how to keep everyone informed and engaged using SharePoint, Microsoft Team
 - Learn how to launch, manage, and maintain corporate communications over time
 
 >[!NOTE]
-> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](/viva-connections-overview) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.
+> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](viva-connections-overview) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.
 
 
 
@@ -112,22 +112,22 @@ Give end users a head start by helping them use and engage using popular M365 co
 <br>
 
 >[!NOTE]
-> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](/viva-connections-overview) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.  
+> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](viva-connections-overview) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.  
 
 <br>
 
 ## Up next:
 
-**Step 1:** [Learn how to plan for your communication scenario](/SharePoint/plan-communication-strategy.md)
+**Step 1:** [Learn how to plan for your communication scenario](plan-communication-strategy.md)
 <br>
 
-**Step 2:** [Review Microsoft 365 communication tools and methods](/SharePoint/review-communication-apps.md)
+**Step 2:** [Review Microsoft 365 communication tools and methods](review-communication-apps.md)
 <br>
 
-**Step 3:** [Scope audience size and preferences](/SharePoint/audience-profile.md)
+**Step 3:** [Scope audience size and preferences](audience-profile.md)
 <br>
 
-**Step 4:** [Get started planning for your scenario](/SharePoint/choose-communication-method.md)
+**Step 4:** [Get started planning for your scenario](choose-communication-method.md)
 
 <br>
 <br>
