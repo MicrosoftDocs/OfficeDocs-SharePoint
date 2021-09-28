@@ -25,7 +25,7 @@ Learn about the needs and preferences of your audience before you get started pl
 - **Estimate the size of your audience** <br> Know the general size of your target audience so that you can choose the right tools and methods to reach them. For example, some live event options have a maximum capacity of 25,000 people.
 - **Understand where your audience usually gets information** <br> It's best to meet users in apps they are already using to get work done. For example, if your audience is frontline workers who generally use Microsoft Teams, you'll want to make sure your communication will be shared and can be viewed in Teams. 
 - **Learn more about how your target audience typically communicates** <br> Some audiences will not be able to attend a live event or watch an event recording so alternative communication methods will be needed. For example, if your audience is remote workers who primarily get news in SharePoint, you may decide to only post news in SharePoint and then promote news in Yammer and Teams for the rest of the organization. 
-- **Target specific audiences using Microsoft 365 groups** <br> Organize your audience into Microsoft 365 groups. Users are likely to be in more than one group. This will make it much easier to send email messages and use tools like audience targeting in SharePoint. 
+- **Target specific audiences using Microsoft 365 groups** <br> Organize your audience into Microsoft 365 Groups. Users are likely to be in more than one group. This will make it much easier to send email messages and use tools like audience targeting in SharePoint. 
 
 
 
@@ -110,20 +110,22 @@ Sharing confidential information and documents with large audiences always impos
 - [Set up secure external sharing in SharePoint](what-s-new-in-sharing-in-targeted-release)
 - [Use approval flows](https://support.microsoft.com/office/approval-flow-for-modern-pages-a8b2e689-d4a1-4639-8028-333c0ece30d9) for content updates to high traffic SharePoint pages
 
-
+- [Classify confidential information](~/microsoft-365/compliance/sensitivity-labels.md) using sensitivity labels with ~ and .md
+- [Classify confidential information](/microsoft-365/compliance/sensitivity-labels) using sensitivity labels blank
+- [Classify confidential information](/microsoft-365/compliance/sensitivity-labels.md) using sensitivity labels just md
 
 
 ## Finally, learn to target content, conversations, and events to specific audiences
 Regardless of the app you choose to drive your communications, there are more Microsoft 365 services that can be used to ensure the right content gets to the right audience.
 
-### Organize and create Microsoft 365 groups
-Planning and organizing Microsoft 365 groups into different audiences based on role, region, department, and division will be helpful when producing and launching corporate communications. Most applications rely on Microsoft 365 groups to target content, for example email in Outlook, virtual meetings in Teams, permissions to SharePoint sites, and more.
+### Organize and create Microsoft 365 Groups
+Planning and organizing Microsoft 365 Groups into different audiences based on role, region, department, and division will be helpful when producing and launching corporate communications. Most applications rely on Microsoft 365 Groups to target content, for example email in Outlook, virtual meetings in Teams, permissions to SharePoint sites, and more.
 <br>
 
-Learn more about how to [manage Microsoft 365 groups](/admin/create-groups/office-365-groups) and how to [create Microsoft 365 groups](https://support.microsoft.com/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Learn more about how to [manage Microsoft 365 Groups](/admin/create-groups/office-365-groups) and how to [create Microsoft 365 Groups](https://support.microsoft.com/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 ### Use audience targeting in SharePoint
-For communication that takes place in SharePoint, you’ll have access to a feature called [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81). Audience targeting helps the most relevant content get to the right audiences. By enabling audience targeting, specific content will be prioritized to specific audiences using Microsoft 365 groups through SharePoint web parts, page libraries, and navigational links.
+For communication that takes place in SharePoint, you’ll have access to a feature called [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81). Audience targeting helps the most relevant content get to the right audiences. By enabling audience targeting, specific content will be prioritized to specific audiences using Microsoft 365 Groups through SharePoint web parts, page libraries, and navigational links.
 <br>
 
  ![Image of audience targeting in SharePoint navigation](media/audience-targeting-links2.png)
