@@ -155,7 +155,7 @@ Help others in your organization discover the leadership connection resource. Co
 **Launch checklist:**
 - Assign site owners and content authors who will be responsible for making sure the leadership site and news are always up to date
 - Make sure your audience has [access to the SharePoint site](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658)
-- Make sure your audience has been [added to the Yammer community](https://support.microsoft.com/office/manage-yammer-community-members-75253554-d0f3-4148-b835-e6a9a8a0c294#:~:text=Add%20community%20members%20from%20a%20.CSV%20file%201,4%20To%20preview%20your%20import%2C%20select%20Preview.%20)
+- Make sure your audience has been [added to the Yammer community](https://support.microsoft.com/office/manage-yammer-community-members-75253554-d0f3-4148-b835-e6a9a8a0c294)
 - Assign a Yammer community moderator and [review Yammer community best practices](https://techcommunity.microsoft.com/t5/yammer-blog/7-tips-to-run-a-successful-yammer-community-formerly-group/ba-p/444720)
 - [Use audience targeting](https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) to highlight leadership events, news, and links to the leadership SharePoint site across your intranet
 - Check site [SharePoint usage and analytics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) and [Yammer community insights](https://support.microsoft.com/office/view-community-insights-in-yammer-48bc648e-b567-49d7-b2b5-5fea23777c46) during and after the launch to measure engagement
