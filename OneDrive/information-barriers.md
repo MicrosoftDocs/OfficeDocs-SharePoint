@@ -31,17 +31,34 @@ For OneDrive, information barriers can determine and prevent the following kinds
 
 ## Information barriers modes and OneDrive
 
-Information barriers modes help strengthen access, sharing, and membership of a OneDrive site based on its IB mode and segments associated with the OneDrive. When information barriers are enabled on SharePoint and OneDrive, the OneDrive of segmented users are automatically protected with IB policies.
+When information barriers are enabled on SharePoint and OneDrive, the OneDrive of segmented users are automatically protected with IB policies. [Information barriers modes](/microsoft-365/compliance/information-barriers-policies.md#step-6-information-barriers-modes-preview) help strengthen access, sharing, and membership of a OneDrive site based on its IB mode and segments associated with the OneDrive.
 
 When using information barriers with OneDrive, the following IB modes are supported:
 
-- **Open**: When a non-segmented user provisions their OneDrive, the site's IB mode is set as Open, by default. There are no segments associated with the site.
-- **Owner Moderated**: When a OneDrive is used for collaboration with incompatible users in the presence of the site owner / moderator, the OneDrive's IB mode can be set as Owner Moderated. See the next section for details on Owner Moderated site.
-- **Explicit**: When a segmented user provisions their OneDrive within 24 hours of enablement, the site's IB mode is set as Explicit by default. The user's segment and other segments that are compatible with the user's segment and with each other get associated with the user's OneDrive.
+<<<<TABLE>>>>
 
-A OneDrive site can have up to 100 associated segments. A global or SharePoint admin can manage these segments using PowerShell, as described later in the section [Associate or remove additional segments on a user's OneDrive](#associate-or-remove-segments-on-a-users-onedrive).
+- **Open**: When a non-segmented user provisions their OneDrive, the site's IB mode is set as Open, by default. There are no segments associated with the site.
+- **Owner Moderated**: When a OneDrive is used for collaboration with incompatible users in the presence of the site owner/moderator, the OneDrive's IB mode can be set as Owner Moderated. See the next section for details on Owner Moderated site.
+- **Explicit**: When a segmented user provisions their OneDrive within 24 hours of enablement, the site's IB mode is set as *Explicit* by default. The user's segment and other segments that are compatible with the user's segment and with each other get associated with the user's OneDrive.
 
 ## Sharing files from OneDrive
+
+### Open
+
+When a OneDrive has no segments and IB mode as *Open*:
+
+- The user can share files and folders based on the information barrier policy applied to the user and the sharing setting for the OneDrive.
+
+### Owner Moderated
+
+When a site has information barriers mode is set to *Owner Moderated*:
+
+- The option to share with *Anyone with the link* is disabled.
+- The option to share with *Company-wide link* is disabled.
+- The site and its content can be shared with existing members.
+- The site and its content can be shared only by the OneDrive owner per their IB policy.
+
+### Explicit
 
 When a OneDrive has segments with IB mode as *Explicit*:
 
@@ -49,11 +66,21 @@ When a OneDrive has segments with IB mode as *Explicit*:
 - The option to share with *Company-wide link* is disabled.
 - Files and folders can be shared only with users whose segment matches that of the OneDrive.
 
-When a OneDrive has no segments and IB mode as *Open*:
-
-- The user can share files and folders based on the information barrier policy applied to the user and the sharing setting for the OneDrive.
-
 ## Accessing shared files from OneDrive
+
+### Open mode
+
+For a user to access content in a OneDrive that has no segments associated and IB mode as *Open*:
+
+- The files must be shared with the user.
+
+### Owner Moderated mode
+
+For a user to access a SharePoint site with site's information barriers mode is set to *Owner Moderated*:
+
+- The user has site access permissions.
+
+### Explicit mode
 
 For a user to access content in a OneDrive that has segments and IB mode as *Explicit*:
 
@@ -63,11 +90,8 @@ For a user to access content in a OneDrive that has segments and IB mode as *Exp
 
 2. The files must be shared with the user.
 
-For a user to access content in a OneDrive that has no segments associated and IB mode as *Open*:
-
-- The files must be shared with the user.
-
-By default, non-segment users can access shared OneDrive files only from other non-segment users with IB modes as *Open*. They can't access shared files from OneDrive that have segment(s) applied and the IB mode is *Explicit*.
+>[!NOTE]
+>By default, non-segment users can access shared OneDrive files only from other non-segment users with IB modes as *Open*. They can't access shared files from OneDrive that have segment(s) applied and the IB mode is *Explicit*.
 
 ## Example scenario
 
