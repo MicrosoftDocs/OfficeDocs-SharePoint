@@ -110,13 +110,6 @@ Sharing confidential information and documents with large audiences always impos
 - [Set up secure external sharing in SharePoint](what-s-new-in-sharing-in-targeted-release)
 - [Use approval flows](https://support.microsoft.com/office/approval-flow-for-modern-pages-a8b2e689-d4a1-4639-8028-333c0ece30d9) for content updates to high traffic SharePoint pages
 
-Links experiment:
-
-- [Classify confidential information](~/microsoft-365/compliance/sensitivity-labels.md) using sensitivity labels (root path relative)
-- [Classify confidential information](/microsoft-365/compliance/sensitivity-labels) using sensitivity labels (site relative))
-- [Classify confidential information](/microsoft-365/compliance/sensitivity-labels.md) using sensitivity labels (file relative)
-- [Classify confidential information](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) (full URL)
-
 
 
 
