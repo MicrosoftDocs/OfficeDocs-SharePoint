@@ -35,12 +35,12 @@ For SharePoint, information barriers can determine and prevent the following kin
 
 When using information barriers with SharePoint, the following IB modes are supported:
 
-<<<TABLE>>>
-
-- **Open**: When a SharePoint site does not have segments, the site's IB mode is automatically set as Open. See the next section for details on managing segments with the *Open* mode configuration.
-- **Owner Moderated**: When a SharePoint site is created for collaboration between incompatible segments moderated by the site owner, the site's IB mode should be set as *Owner Moderated*. This mode is currently supported only for sites that are not connected to Microsoft365 group. See [this section](#owner-moderated-mode-scenario) for details on managing Owner Moderated site.
-- **Implicit**: When a site is provisioned by Microsoft Teams, the site's IB mode is set as Implicit by default. A SharePoint admin or global admin cannot manage segments with the Implicit mode configuration.
-- **Explicit**: When segment is added to a SharePoint site either via end-user site creation experience or by a SharePoint admin adding segment to a site, the site's IB mode is set as Explicit. See the next section for details on managing segments with the Explicit mode configuration.
+| **Mode** | **Description** | **Examples** |
+|:-------  |:----------------|:-------------|
+| **Open** | When a SharePoint site does not have segments, the site's IB mode is automatically set as *Open*. See [this section](#view-and-manage-IB-mode-as-an-administrator-with-SharePoint-PowerShell) for details on managing segments with the *Open* mode configuration. | A Team site created for picnic event for your organization.  |
+| **Owner Moderated** | When a SharePoint site is created for collaboration between incompatible segments moderated by the site owner, the site's IB mode should be set as *Owner Moderated*. This mode is currently supported only for sites that are not connected to Microsoft365 group. See [this section](#owner-moderated-mode-scenario) for details on managing *Owner Moderated* site. | A site is created for collaboration between VP of Sales and Research in the presence of VP of HR (site owner).  |
+| **Implicit** | When a site is provisioned by Microsoft Teams, the site's IB mode is set as *Implicit* by default. A SharePoint admin or global admin cannot manage segments with the *Implicit* mode configuration. | A Team is created for all Sales segment users to collaborate with each other. |
+| **Explicit** | When segment is added to a SharePoint site either via end-user site creation experience or by a SharePoint admin adding segment to a site, the site's IB mode is set as *Explicit*. See [this section](#view-and-manage-IB-mode-as-an-administrator-with-SharePoint-PowerShell) for details on managing segments with the *Explicit* mode configuration. | A research site is created for Research segment users. |
 
 ## Sharing sites for IB modes
 

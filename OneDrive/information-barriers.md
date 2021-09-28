@@ -35,11 +35,11 @@ When information barriers are enabled on SharePoint and OneDrive, the OneDrive o
 
 When using information barriers with OneDrive, the following IB modes are supported:
 
-<<<<TABLE>>>>
-
-- **Open**: When a non-segmented user provisions their OneDrive, the site's IB mode is set as Open, by default. There are no segments associated with the site.
-- **Owner Moderated**: When a OneDrive is used for collaboration with incompatible users in the presence of the site owner/moderator, the OneDrive's IB mode can be set as Owner Moderated. See the next section for details on Owner Moderated site.
-- **Explicit**: When a segmented user provisions their OneDrive within 24 hours of enablement, the site's IB mode is set as *Explicit* by default. The user's segment and other segments that are compatible with the user's segment and with each other get associated with the user's OneDrive.
+| **Mode** | **Description** |
+|:-------  |:----------------|
+| **Open** | When a non-segmented user provisions their OneDrive, the site's IB mode is set as Open, by default. There are no segments associated with the site. |
+| **Owner Moderated** | When a OneDrive is used for collaboration with incompatible users in the presence of the site owner/moderator, the OneDrive's IB mode can be set as Owner Moderated. See [this section](#manage-the-IB-mode-of-a-users-OneDrive) for details on Owner Moderated site. |
+| **Explicit** | When a segmented user provisions their OneDrive within 24 hours of enablement, the site's IB mode is set as *Explicit* by default. The user's segment and other segments that are compatible with the user's segment and with each other get associated with the user's OneDrive. |
 
 ## Sharing files from OneDrive
 
@@ -110,6 +110,10 @@ The following table shoes the effects of this example configuration:
 | OneDrive content can be shared with | HR only | Sales and HR | Research and HR | Anyone based on the sharing settings selected |
 | OneDrive content can be accessed by | HR only | Sales and HR | Research and HR | Anyone with whom the content has been shared |
 
+## Enable SharePoint and OneDrive information barriers in your organization
+
+Enabling information barriers for SharePoint and OneDrive are configured in a single action. Information barriers for the services cannot be enabled separately. To enable information barriers for OneDrive, see [Enable SharePoint and OneDrive information barriers in your organization](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization). After you've enabled information barriers for SharePoint and OneDrive, continue with the OneDrive guidance in this article.  
+
 ## Prerequisites
 
 1. Make sure you meet the [licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
@@ -154,7 +158,7 @@ A global or SharePoint admin can view and change the segments associated with a 
     Get-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_onmicrosoft_com | Select InformationSegment
     ```
 
-## Associate or remove segments on a user's OneDrive
+## Manage segments on a user's OneDrive
 
 > [!WARNING]
 > If the segments associated with a user's OneDrive don't match the segment applied to the user, the user won't be able to access their OneDrive. Be careful not to associate any segments with the OneDrive of a non-segment user.
@@ -165,7 +169,7 @@ A global or SharePoint admin can view and change the segments associated with a 
 To associate a segment with a OneDrive, run the following command in the SharePoint Online Management Shell. A OneDrive can have up to 100 associated segments.
 
 ```PowerShell
-Set-Sposite -Identity <site URL> -AddInformationSegment <segment GUID> 
+Set-SPOsite -Identity <site URL> -AddInformationSegment <segment GUID> 
  ```
 
 For example: 
@@ -179,7 +183,7 @@ When you add segments to a OneDrive, the site's IB mode is automatically updated
 To remove segment from a OneDrive, run the following command.  
 
 ```PowerShell
-Set-Sposite -Identity <site URL> -RemoveInformationSegment <segment GUID>
+Set-SPOsite -Identity <site URL> -RemoveInformationSegment <segment GUID>
  ```
 
 For example:
@@ -215,33 +219,6 @@ Set-SPOsite -Identity <siteurl> InformationBarriersMode OwnerModerated
 ```
 
 Owner Moderated IB mode cannot be set on a site with segments. Remove the segments first before setting IB mode as Owner Moderated. Access to an Owner Moderated site is allowed to users who have site access permissions. Sharing of an Owner Moderated OneDrive and its contents is only allowed by the site owner per their IB policy.
-
-## Enable SharePoint and OneDrive information barriers in your organization
-
-Enabling information barriers for SharePoint and OneDrive are configured in a single action. Information barriers for the services cannot be enabled separately. To enable information barriers for OneDrive, see [Enable SharePoint and OneDrive information barriers in your organization](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization). After you've enabled information barriers for SharePoint and OneDrive, continue with the OneDrive guidance in this article.  
-
-## Sharing files from a OneDrive that has segments associated
-
-When a segment is associated with a OneDrive:
-
-- The option to share with "Anyone with the link" is disabled.
-- Files and folders can be shared only with users whose segment matches that of the OneDrive. In the above example, users in the Sales segment can share OneDrive content with other users in either the Sales or HR segment whereas users in the HR segment can share their OneDrive content with other users in the HR segment only.
-
-When a OneDrive has no segments associated:
-
-- The user can share files and folders based on the information barrier policy applied to the user and the sharing setting for the OneDrive.
-
-## Accessing shared files from a OneDrive that has segments associated
-
-For a user to access content in a OneDrive that has segments associated:
-
-- The user's segment must match a segment that is associated with the OneDrive.
-
-    AND
-
-- The files must be shared with the user.
-
-Non-segment users can access shared OneDrive files only from other non-segment users. They can't access shared OneDrive files from users who have a segment applied.
 
 ## Effects of changes to user segments
 
