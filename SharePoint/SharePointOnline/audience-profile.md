@@ -104,10 +104,10 @@ Part of ensuring content is accessible is knowing when content should be availab
 Sharing confidential information and documents with large audiences always imposes data risks. Microsoft has many tools that help protect data, prevent data loss, and ensure the right people have the right access to information. Review how to classify SharePoint sites and documents, guest sharing, and how to set up teams and channels in Microsoft for conversations that will include sensitive or confidential data.
 <br>
 
-- [Classify confidential information](/microsoft-365/compliance/sensitivity-labels) using sensitivity labels
-- [Managing SharePoint Security: A Team Effort](/microsoft-365/community/sharepoint-security-a-team-effort)
-- [Set up Microsoft Teams with protection](/microsoft-365/solutions/configure-teams-highly-sensitive-protection) for highly sensitive data
-- [Set up secure external sharing in SharePoint](/sharepoint/what-s-new-in-sharing-in-targeted-release)
+- [Classify confidential information](~/microsoft-365/compliance/sensitivity-labels) using sensitivity labels
+- [Managing SharePoint Security: A Team Effort](~/microsoft-365/community/sharepoint-security-a-team-effort)
+- [Set up Microsoft Teams with protection](~/microsoft-365/solutions/configure-teams-highly-sensitive-protection) for highly sensitive data
+- [Set up secure external sharing in SharePoint](what-s-new-in-sharing-in-targeted-release)
 - [Use approval flows](https://support.microsoft.com/office/approval-flow-for-modern-pages-a8b2e689-d4a1-4639-8028-333c0ece30d9) for content updates to high traffic SharePoint pages
 <br>
 
@@ -140,7 +140,7 @@ For communication that takes place in SharePoint, you’ll have access to a feat
 
 ## Up next:
 
-**Step 4:** [Get started planning for your scenario](/SharePoint/choose-communication-method)
+**Step 4:** [Get started planning for your scenario](choose-communication-method)
 
 <br>
 <br>
