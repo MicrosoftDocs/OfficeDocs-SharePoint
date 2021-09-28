@@ -35,7 +35,7 @@ Microsoft 365 can help your organization’s leadership teams connect with emplo
 
 
 >[!NOTE]
-> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](/viva-connections-overview) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.
+> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](/viva-connections-overview.md) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.
 
 <br>
 
@@ -46,12 +46,12 @@ Microsoft 365 can help your organization’s leadership teams connect with emplo
 
 
 ## Plan your leadership connection strategy
-Start by making sure you understand your audience’s needs and preferences. Review [how to profile and scope your audience](/audience-profile). This scenario will have the most successful outcome when multiple communication methods are combined. Start with a SharePoint communication site and a Yammer channel that connects the organization with leadership. Then, plan and host a live event that is recorded and shared with others. Finally, bring all these communication elements together into an engaging mobile experience using Viva Connections.
+Start by making sure you understand your audience’s needs and preferences. Review [how to profile and scope your audience](audience-profile.md). This scenario will have the most successful outcome when multiple communication methods are combined. Start with a SharePoint communication site and a Yammer channel that connects the organization with leadership. Then, plan and host a live event that is recorded and shared with others. Finally, bring all these communication elements together into an engaging mobile experience using Viva Connections.
 
 - **SharePoint communication site** - Create a SharePoint communication site that houses all things leadership – everything from news and announcements to events, people profiles and networking opportunities. [Use the Leadership connection site template.](https://support.microsoft.com/office/use-the-sharepoint-leadership-connection-site-template-a2996d9f-c08e-4de6-8696-a7de323c8add)
 - **Yammer community** - [Use Yammer](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) to instantly connect, ask questions, and share ideas with the leadership team. Then, [use the Yammer web part](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) to embed the conversation on the leadership connection SharePoint site. 
 - **Yammer live events** - Use the [Yammer community for live events](/stream/live-event-m365#live-events-and-microsoft-365) and questions and answers. 
-- **Viva Connections** - Bring the SharePoint site and Yammer conversation into one place where users can catch up and connect with leaders in the Microsoft Teams mobile app. [Learn more about Viva Connections](/guide-to-setting-up-viva-connections). 
+- **Viva Connections** - Bring the SharePoint site and Yammer conversation into one place where users can catch up and connect with leaders in the Microsoft Teams mobile app. [Learn more about Viva Connections](guide-to-setting-up-viva-connections.md). 
 
 
 ### Planning considerations:
@@ -118,7 +118,7 @@ New to Yammer? Learn more about [managing a community in Yammer](https://support
 
 
 ## Step 3: Host a live leadership event in Yammer with Q&A
-Create and produce live events for people in the leadership Yammer network, with built-in discussions for use before, during, and after the event. Up to 10,000 people can attend at once from anywhere on their device or computer (higher limits for event attendees are temporarily available through the [Microsoft 365 Live Events Assistance program](/stream/live-events-assistance)). Make the video available after the event on the leadership site, so that people who can’t make it at the scheduled time can still participate.
+Create and produce live events for people in the leadership Yammer network, with built-in discussions for use before, during, and after the event. Up to 10,000 people can attend at once from anywhere on their device or computer (higher limits for event attendees are temporarily available through the [Microsoft 365 Live Events Assistance program](/stream/live-events-assistance). Make the video available after the event on the leadership site, so that people who can’t make it at the scheduled time can still participate.
 
 
 **Image of live questions and answers during an event**
@@ -141,7 +141,7 @@ Before the event starts, you will have access to a dashboard that will help you 
 After you have set up your leadership site and Yammer community, Viva Connections will make it easier for your organization to access conversations and news in the Microsoft Teams desktop and mobile apps.
 
 >[!NOTE]
-> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](/viva-connections-overview) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.
+> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](viva-connections-overview.md) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.
 
 **Use Viva Connections to:**
 -	Meet your employees in the apps and devices they know and love with a personalized view of news, conversations, and communities
@@ -163,7 +163,7 @@ Help others in your organization discover the leadership connection resource. Co
 
 ## More resources
 
-[Overview of corporate communications](/corporate-communications-overview)
+[Overview of corporate communications](corporate-communications-overview.md)
 
 [Use the SharePoint Leadership connection site template](https://support.microsoft.com/office/use-the-sharepoint-leadership-connection-site-template-a2996d9f-c08e-4de6-8696-a7de323c8add)
 
