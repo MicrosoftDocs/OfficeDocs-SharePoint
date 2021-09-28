@@ -51,7 +51,7 @@ SharePoint Migration PowerShell cmdlets are designed to move on-premises content
 - Windows PowerShell 4.0
     
 > [!NOTE]
-> Permissions: You must be a site collection administrator on the sit that you're targeting.
+> Permissions: You must be a site collection administrator on the site that you're targeting.
   
 ## Before you begin
 
