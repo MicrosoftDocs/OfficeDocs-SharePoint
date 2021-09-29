@@ -18,10 +18,14 @@ description: "Mover Release Notes"
 
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
-## Frontend v1.19.12 September 29, 2021
+## Frontend v1.19.12 (September 29, 2021)
 
-- Accessibility fix: Update dropdown component. The narrator now announces the connector and first item.
+- Accessibility fix: An update has been made to the dropdown component. The narrator now announces the connector and first item.
 - Accessibility Fix: The name property of 'Create folder' has been fixed to match its visible label. Previously it was defined as 'Create folder plus' on the TW page with narrator announcing it as "Create Folder plus, group". 
+
+## Frontend (legacy app) V1.19.10 (June 30, 2021)
+- Accessibility fix.  Low vision users would face difficulty differentiating between normal text and disabled text when navigating through the User Actions Button DropDown Menu items on the Migration Manager page. This has been fixed.
+- Accessibility fix. Screen reader users now have the tooltip contents announced to them when hovering on the information icons.  Before, when the Transfer wizard, Migration manager, or Account manager links were activated, the narrator would announce information about the respective page opened, but screen readers were not properly announcing information icons with tooltips. One example of this was the Scheduling Info icon in the scheduling side panel. This has been fixed.
 
 ## Backend v1.20.8 May 17, 2021
 - New. Promote the new Migration Manager experience for Google Workspace migrations into Microsoft 365 when authorizing a new G Suite connector.  
