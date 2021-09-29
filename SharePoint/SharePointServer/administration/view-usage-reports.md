@@ -28,13 +28,13 @@ The Analytics Processing Component generates two reports that are based on usage
     
 The reports are broken down per usage event type. The default usage event types are as follows: 
   
-- **Views.** The number of views for a single item, page or document. 
+- **Views.** The number of views for a single item, page, or document. 
     
-- **Recommendations Displayed.** The number of times a single item, page or document was displayed as a recommendation. 
+- **Recommendations Displayed.** The number of times a single item, page, or document was displayed as a recommendation. 
     
-- **Recommendations Clicked.** The number of times a single item, page or document was clicked when it was displayed as a recommendation. 
+- **Recommendations Clicked.** The number of times a single item, page, or document was clicked when it was displayed as a recommendation. 
     
-If you have added any custom usage event types, these will also be displayed.
+If you have added any custom usage event types, these types will also be displayed.
   
 For more information about the Analytics Processing Component and usage events, see [Overview of analytics processing in SharePoint Server](../search/overview-of-analytics-processing.md). For information about search reports — for example, Number of Queries or Top Queries by Day — see "Usage reports" in [View search diagnostics in SharePoint Server](../search/view-search-diagnostics.md).
   
@@ -91,7 +91,7 @@ The Popularity Trends report is an Excel report that shows daily and monthly hit
     
 2. In the site collection, browse to the library or list that contains the item for which you want to view the Popularity Trends report.
     
-3. Select the item that you want to view the Popularity Trends report for, and then do one of the following:
+3. Select the item that you want to view the Popularity Trends report for, and then do one of the following tasks:
     
   - For a library, click the **FILES** tab, and then, on the ribbon, click **Popularity Trends**.
     
@@ -119,15 +119,15 @@ The Most Popular Items report lists the most popular items per usage event type 
   
 1. Verify that the user account that is performing this procedure is a member of the Visitors group.
     
-2. In the site collection, browse to the library or list for which you want to view the Most Popular Items report, and then do one of the following:
+2. In the site collection, browse to the library or list for which you want to view the Most Popular Items report, and then do one of the following tasks:
     
   - For a library, click the **LIBRARY** tab, and then, on the ribbon, click **Most Popular Items**.
     
   - For a list, click the **LIST** tab, and then, on the ribbon, click **Most Popular Items**.
     
-3. By default, the report lists items in the library or list that has most views for the Recent time period. To view other rankings, do the following:
+3. By default, the report lists items in the library or list that has most views for the Recent time period. To view other rankings, do the following tasks:
     
-  - To view a report that lists items for a different usage event types, select a usage event type from the menu at the top of the page.
+  - To view a report that lists items for a different usage event type, select a usage event type from the menu at the top of the page.
     
   - To view a report that list items for the complete time period the item was available, click **Ever**.
     

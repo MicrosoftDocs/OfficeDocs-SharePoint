@@ -43,25 +43,25 @@ The following sections describe recommendations on SharePoint Service accounts.
 
 ### Service account recommendations
 
-Microsoft recommends using a minimal number of Service Application Pool accounts in the farm. This is to reduce memory usage and increase performance while maintaining the appropriate level of security.
+Microsoft recommends using a minimal number of Service Application Pool accounts in the farm. This recommendation is to reduce memory usage and increase performance while maintaining the appropriate level of security.
 
 - Use an elevated, personally identifiable account for SharePoint installation, maintenance, and upgrades. This account will hold the roles required as outlined by the **SharePoint Farm Administrator account** outlined below. Each SharePoint admin should use a separate account to clearly identify activity performed by the administrator on the farm.
 
-- If possible use a security group, **SharePoint Farm Administrators Groups**, to unify all individual SharePoint Farm Administrator accounts and grant permissions as outlined below. This simplifies the management of the SharePoint Farm Administrator accounts significantly.
+- If possible use a security group, **SharePoint Farm Administrators Groups**, to unify all individual SharePoint Farm Administrator accounts and grant permissions as outlined below. This usage of a security group simplifies the management of the SharePoint Farm Administrator accounts significantly.
 
 - The **SharePoint Farm Service account** should only run the SharePoint Timer service, SharePoint Insights (if applicable), the IIS Application Pools for Central Administration, SharePoint Web Services System (used for the topology service), and SecurityTokenServiceApplicationPool (used for the Security Token Service).
 
-- A single account should be used for all Service Applications, named **Service Application Pool account**. This allows the administrator to use a single IIS Application Pool for all Service Applications. In addition, this account should run the following Windows Services: SharePoint Search Host Controller, SharePoint Server Search, and Distributed Cache (AppFabric Caching Service).
+- A single account should be used for all Service Applications, named **Service Application Pool account**. This usage of a single account allows the administrator to use a single IIS Application Pool for all Service Applications. In addition, this account should run the following Windows Services: SharePoint Search Host Controller, SharePoint Server Search, and Distributed Cache (AppFabric Caching Service).
 
-- A single account should be used for all Web Applications, named **Web Application pool account**. This allows the administrator to use a single IIS Application Pool for all Web Applications. The exception is the Central Administration Web Application, which as noted above, is run by the SharePoint farm service account.
+- A single account should be used for all Web Applications, named **Web Application pool account**. This usage of a single account allows the administrator to use a single IIS Application Pool for all Web Applications. The exception is the Central Administration Web Application, which as noted above, is run by the SharePoint farm service account.
 
-- With the exception of the Claims to Windows Token Service account, no Service Application Pool account should have Local Administrator access to any SharePoint server, nor any elevated SQL Server role, for example, the *sysadmin* fixed role. The SharePoint Farm Administrator account will require the *dbcreator* and *securityadmin* fixed roles unless you pre-provision SharePoint databases and manually assign permissions to each database.
+- Except for the Claims to Windows Token Service account, no Service Application Pool account should have Local Administrator access to any SharePoint server, nor any elevated SQL Server role, for example, the *sysadmin* fixed role. The SharePoint Farm Administrator account will require the *dbcreator* and *securityadmin* fixed roles unless you pre-provision SharePoint databases and manually assign permissions to each database.
 
-- Service Application Pool accounts, with the exception of the account running the Claims to Windows Token Service, should have *Deny logon locally* and *Deny logon through Remote Desktop Services* in the Local *Security Policy\User Rights Assignment*. This is set via *secpol.msc*.
+- Service Application Pool accounts, except for the account running the Claims to Windows Token Service, should have *Deny logon locally* and *Deny logon through Remote Desktop Services* in the Local *Security Policy\User Rights Assignment*. These values are set via *secpol.msc*.
 
 - Use separate accounts for the **Content access** (Search crawler), **Portal Super Reader**, **Portal Super User**, and **User Profile Service Application Synchronization**, if applicable.
 
-- The Claims to Windows Token Service account is a highly privileged account on the farm. Prior to deploying this service, verify it is required. If required, use a separate account for this service.
+- The Claims to Windows Token Service account is a highly privileged account on the farm. Prior to deploying this service, verify it is required. If necessary, use a separate account for this service.
 
 ### Service accounts recommendations overview
 
@@ -127,7 +127,7 @@ The SharePoint Farm service account, which is also referred to as the database a
 
 - It must have domain user account permissions.
 
-Additional permissions are automatically granted to the SharePoint Farm Service account on SharePoint servers that are joined to a server farm.
+Extra permissions are automatically granted to the SharePoint Farm Service account on SharePoint servers that are joined to a server farm.
 
 After you run Setup, machine-level permissions include:
 
@@ -213,7 +213,7 @@ This section describes the database roles that installation sets up by default o
 
 ### WSS_CONTENT_APPLICATION_POOLS database role
 
-The *WSS_CONTENT_APPLICATION_POOLS* database role applies to the application pool account for each web application that is registered in a SharePoint farm. This enables web applications to query and update the site map and have read-only access to other items in the configuration database. Setup assigns the *WSS_CONTENT_APPLICATION_POOLS* role to the following databases:
+The *WSS_CONTENT_APPLICATION_POOLS* database role applies to the application pool account for each web application that is registered in a SharePoint farm. This role applicability enables web applications to query and update the site map and have read-only access to other items in the configuration database. Setup assigns the *WSS_CONTENT_APPLICATION_POOLS* role to the following databases:
 
 - The SharePoint Config database (the configuration database)
 
@@ -227,7 +227,7 @@ The secure *SharePoint_SHELL_ACCESS* database role on the configuration database
 
 - The SharePoint_Config database (the configuration database).
 
-- One or more of the SharePoint Content databases. This is configurable by using the PowerShell command that manages membership and the object that is assigned to this role.
+- One or more of the SharePoint Content databases. This database is configurable by using the PowerShell command that manages membership and the object that is assigned to this role.
 
 Members of the *SharePoint_SHELL_ACCESS* role have the execute permission for all stored procedures for the database. In addition, members of this role have the read and write permissions on all of the database tables.
 
@@ -316,7 +316,7 @@ The following table shows the WSS_ADMIN_WPG file system permissions.
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\CONFIG|Full control|Yes|This directory contains files used to extend IIS Web sites with SharePoint Server. If this directory or its contents are altered, web application provisioning will not function correctly.|
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS|Full control|No|This directory contains setup and runtime tracing logs. If the directory is altered, diagnostic logging will not function correctly.|
 |%windir%\temp|Full control|Yes|This directory is used by platform components on which SharePoint Server depends. If the access control list is modified, Web Part rendering and other deserialization operations might fail.|
-|%windir%\System32\logfiles\SharePoint|Full control|No|This directory is used by SharePoint Server usage logging. If this directory is modified, usage logging will not function correctly.This registry key applies only to SharePoint Server.|
+|%windir%\System32\logfiles\SharePoint|Full control|No|This directory is used by SharePoint Server usage logging. If this directory is modified, usage logging will not function correctly. This registry key applies only to SharePoint Server.|
 |%systemdrive\program files\Microsoft Office Servers\16 folder on Index servers|Full control|Not applicable|This permission is granted for a %systemdrive\program files\Microsoft Office Servers\16 folder on Index servers.|
 
 ### WSS_WPG
@@ -342,10 +342,10 @@ The following table shows the WSS_WPG file system permissions.
 |%ProgramFiles%\Microsoft Office Servers\16.0\WebServices|Read|No|This directory is the root directory where back-end Web services are hosted, for example, Excel and Search. The SharePoint Server features that depend on these services will fail if this directory is removed or altered.|
 |%ProgramFiles%\Microsoft Office Servers\16.0\Logs|Read, write|Yes|This directory is the location where the runtime diagnostic logging is generated. Logging functionality will not function properly if this directory is removed or altered.|
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\ADMISAPI|Read|Yes|This directory contains the SOAP services for Central Administration. If this directory is altered, remote site creation and other methods exposed in the service will not function correctly.|
-|%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\CONFIG|Read|Yes|This directory contains files used to extend IIS Web sites with SharePoint Server . If this directory or its contents are altered, web application provisioning will not function correctly.|
+|%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\CONFIG|Read|Yes|This directory contains files used to extend IIS Web sites with SharePoint Server. If this directory or its contents are altered, web application provisioning will not function correctly.|
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS|Modify|No|This directory contains setup and runtime tracing logs. If the directory is altered, diagnostic logging will not function correctly.|
 |%windir%\temp|Read|Yes|This directory is used by platform components on which SharePoint Server depends. If the access control list is modified, Web Part rendering, and other deserialization operations might fail.|
-|%windir%\System32\logfiles\SharePoint|Read|No|This directory is used by SharePoint Server usage logging. If this directory is modified, usage logging will not function correctly.The registry key applies only to SharePoint Server.|
+|%windir%\System32\logfiles\SharePoint|Read|No|This directory is used by SharePoint Server usage logging. If this directory is modified, usage logging will not function correctly. The registry key applies only to SharePoint Server.|
 |%systemdrive\program files\Microsoft Office Servers\16|Read, execute|Not applicable|The permission is granted for %systemdrive\program files\Microsoft Office Servers\16 folder on Index servers.|
 
 ### Local service
@@ -368,7 +368,7 @@ The following table shows the local system registry entry permissions:
 
 |**Key name**|**Permissions**|**Inherit**|**Description**|
 |:-----|:-----|:-----|:-----|
-|HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LauncherSettings|Read|No|This key contains settings for the document conversion service. Altering this key will break document conversion functionality.This registry key applies only to SharePoint Server.|
+|HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LauncherSettings|Read|No|This key contains settings for the document conversion service. Altering this key will break document conversion functionality. This registry key applies only to SharePoint Server.|
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Secure|Full control|No|This key contains the connection string and the ID of the configuration database to which the machine is joined. If this key is altered, the SharePoint Server  installation on the machine will not function.|
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Secure\FarmAdmin|Full control|No|This key contains the encryption key that is used to store secrets in the configuration database. If this key is altered, service provisioning and other features will fail.|
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\WSS|Full control|Yes|This key contains settings that are used during setup. If this key is altered, diagnostic logging might fail and setup or post-setup configuration might fail.|
@@ -383,7 +383,7 @@ The following table shows the local file system permissions:
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\CONFIG|Full control|Yes|If this directory or its contents are altered, Web Application provisioning will not function correctly.|
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS|Full control|No|This directory contains setup and run-time tracing logs. If the directory is altered, diagnostic logging will not function correctly.|
 |%windir%\temp|Full control|Yes|This directory is used by platform components on which SharePoint Server depends. If the access control list is modified, Web Part rendering, and other deserialization operations might fail.|
-|%windir%\System32\logfiles\SharePoint|Full control|No|This directory is used by SharePoint Server for usage logging. If this directory is modified, usage logging will not function correctly.This registry key applies only to SharePoint Server.|
+|%windir%\System32\logfiles\SharePoint|Full control|No|This directory is used by SharePoint Server for usage logging. If this directory is modified, usage logging will not function correctly. This registry key applies only to SharePoint Server.|
 
 ### Network service
 
@@ -408,12 +408,12 @@ The following table shows the administrators file system permissions:
 |**File system path**|**Permissions**|**Inherit**|**Description**|
 |:-----|:-----|:-----|:-----|
 |%AllUsersProfile%\ Microsoft\SharePoint|Full control|No|This directory contains the file-system-backed cache of the farm configuration. Processes might fail to start and administrative actions might fail if this directory is altered or deleted.|
-|C:\Inetpub\wwwroot\wss|Full Control|No|This directory (or the corresponding directory under the Inetpub root on the server) is used as the default location for IIS Web sites. SharePoint sites will be unavailable and administrative actions might fail if this directory is altered or deleted, unless custom IIS web site paths are provided for all IIS web sites that are extended with SharePoint Server .|
+|C:\Inetpub\wwwroot\wss|Full Control|No|This directory (or the corresponding directory under the Inetpub root on the server) is used as the default location for IIS Web sites. SharePoint sites will be unavailable and administrative actions might fail if this directory is altered or deleted, unless custom IIS web site paths are provided for all IIS web sites that are extended with SharePoint Server.|
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\ADMISAPI|Full control|Yes|This directory contains the SOAP services for Central Administration. If this directory is altered, remote site creation and other methods exposed in the service will not function correctly.|
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\CONFIG|Full control|Yes|If this directory or its contents are altered, web application provisioning will not function correctly.|
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS|Full control|No|This directory contains setup and run-time tracing logs. If the directory is altered, diagnostic logging will not function correctly.|
 |%windir%\temp|Full control|Yes|This directory is used by platform components on which SharePoint Server depends. If the ACL is modified, Web Part rendering, and other deserialization operations might fail.|
-|%windir%\System32\logfiles\SharePoint|Full control|No|This directory is used by SharePoint Server for usage logging. If this directory is modified, usage logging will not function correctly.This registry key applies only to SharePoint Server.|
+|%windir%\System32\logfiles\SharePoint|Full control|No|This directory is used by SharePoint Server for usage logging. If this directory is modified, usage logging will not function correctly. This registry key applies only to SharePoint Server.|
 
 ### WSS_RESTRICTED_WPG
 

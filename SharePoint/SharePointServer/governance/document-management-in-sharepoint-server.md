@@ -28,7 +28,7 @@ Learn about [Collaborative governance for Sharepoint in Microsoft 365](/microsof
 ## The elements of a document management system
 <a name="section1"> </a>
 
-An effective document management solution specifies the following:
+An effective document management solution specifies:
   
 - What kinds of documents and other content can be created in an organization.
     
@@ -42,7 +42,7 @@ An effective document management solution specifies the following:
     
 - How to move documents within the organization as team members contribute to the documents' creation, review, approval, publication, and disposition.
     
-SharePoint Foundation 2013 includes features that implement all these aspects of document management. SharePoint Server includes the same features and also adds the following:
+SharePoint Foundation 2013 includes features that implement all these aspects of document management. SharePoint Server includes the same features and also adds:
   
 - What policies to apply to documents so that document-related actions are audited, documents are retained or disposed of appropriately, and content that is important to the organization is protected.
     
@@ -57,13 +57,13 @@ The document management planning process consists of the following major steps:
   
 1. **Identify document management roles** Ensure that your plans incorporate the feedback of your organization's key stakeholders, you have the best team to implement the solution, and you know who will participate in document management processes. 
     
-2. **Analyze document usage** After you identify who works on documents, determine the kinds of documents that they work on and how they use them. . 
+2. **Analyze document usage** After you identify who works on documents, determine the kinds of documents that they work on and how they use them. 
     
 3. **Plan the organization of documents** You can organize documents in site collections, sites, and libraries. SharePoint Server offers a range of features to help organize and store documents, from specialized sites to loosely structured document libraries for quick document creation and collaboration. Within a library, you can additionally organize content into folders and subfolders. 
     
 4. **Plan how content moves between locations** It might be necessary to move or copy a document from one site or library to another at different stages of its life cycle. 
     
-5. **Plan content types** Use content types to organize information about documents, such as metadata, document templates, and workflow processes. This is an important step to help you organize your documents and enforce consistency across your organization. 
+5. **Plan content types** Use content types to organize information about documents, such as metadata, document templates, and workflow processes. Implementing this method is an important step to help you organize your documents and enforce consistency across your organization. 
     
 6. **Plan workflows** When you plan workflows for your organization, you can control and track how documents move from one team member to another as each participant collaborates in a document's life cycle. SharePoint Server includes workflows for common team tasks such as reviewing and approving documents. SharePoint Server also supports creating and installing custom workflows. 
     

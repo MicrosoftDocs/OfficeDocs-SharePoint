@@ -22,7 +22,7 @@ description: "Learn how to import user profiles from Active Directory to SharePo
 You can use the SharePoint Active Directory import option (AD import) as an alternative to using Microsoft Identity Manager (MIM) to import user profile data from Active Directory Domain Services (AD DS) in your domain.
 
  
-Import operations that use AD import are significantly faster than the same operations that use MIM. However, AD import only works with Active Directory Domain Services (AD DS) and does not work with other directory services. Additionally, if you choose to use AD Import, MIM or other external identity managers are not available for connections to other data sources such as business applications.
+Import operations that use AD import are much faster than the same operations that use MIM. However, AD import only works with Active Directory Domain Services (AD DS) and does not work with other directory services. Additionally, if you choose to use AD Import, MIM or other external identity managers are not available for connections to other data sources such as business applications.
   
 You must be a member of the Farm Administrators group to perform the procedures in this article. You also need domain credentials with synchronization permissions in order to configure the connection.
   
@@ -69,7 +69,7 @@ Consider the following situations and note what the AD import option does not su
     
 - The AD import option does not support exporting data from SharePoint to Directory Sources.
     
-- The AD import option does not support Upgrading/Translating FIM based connections or synchronizing configuration to AD import (or in reverse order).
+- The AD import option does not support Upgrading/Translating FIM-based connections or synchronizing configuration to AD import (or in reverse order).
     
 - The AD import option does not ensure single-master of each object property (currently, the last writer wins).
     
@@ -96,7 +96,7 @@ In the third procedure, you determine how the properties of user profiles in Sha
     
 4. On the **Configure Synchronization Settings** page, in the **Synchronization Options** section, select the **Use SharePoint Active Directory Import** option, and then click **OK**.
     
-To import profiles, you must have at least one synchronization connection to AD DS. You may have connections to multiple AD DS servers. Using the following procedure, create a synchronization connection to each AD DS server from which you want to import profiles. You can synchronize after you create each connection, or you can synchronize one time, after you have created all of the connections. Although synchronizing after each connection takes longer, doing this makes it easier to troubleshoot any problems that you might encounter.
+To import profiles, you must have at least one synchronization connection to AD DS. You may have connections to multiple AD DS servers. Using the following procedure, create a synchronization connection to each AD DS server from which you want to import profiles. You can synchronize after you create each connection, or you can synchronize one time, after you have created all of the connections. Although synchronizing after each connection takes longer, the process makes it easier to troubleshoot any problems that you might encounter.
   
  **To create a connection to a directory service for import**
   
@@ -114,7 +114,7 @@ To import profiles, you must have at least one synchronization connection to AD 
     
 7. Fill in the **Connection Settings** section by completing the following steps: 
     
-1. In the **Fully Qualified Domain Name** box, type the fully-qualified domain name of the domain. 
+1. In the **Fully Qualified Domain Name** box, type the fully qualified domain name of the domain. 
     
 2. In the **Authentication Provider Type** box, select the type of authentication provider. 
     
@@ -161,7 +161,7 @@ To import profiles, you must have at least one synchronization connection to AD 
     
 5. To remove an existing mapping, in the **Property Mapping for Synchronization** section, select the mapping that you want to remove, and then click **Remove**.
     
-6. To add a new mapping, do the following: 
+6. To add a new mapping, do the following tasks: 
     
 1. In the **Add New Mapping** section, in the **Source Data Connection** list, select the data connection that represents the directory service to which you want to map the user profile property. 
     
@@ -174,7 +174,7 @@ To import profiles, you must have at least one synchronization connection to AD 
   
 7. Click **OK**.
     
-8. Repeat steps 4 through 7 to map additional properties.
+8. Repeat steps 4 through 7 to map more properties.
     
  **To start profile synchronization**
   
@@ -184,7 +184,7 @@ To import profiles, you must have at least one synchronization connection to AD 
     
 3. On the **Manage Profile Service** page, in the **Synchronization** section, click **Start Profile Synchronization**.
     
-4. On the **Start Profile Synchronization** page, select **Start Full Synchronization** if this is the first time that you are synchronizing or if you have added or modified any synchronization connections since the last time that you synchronized. Select **Start Incremental Synchronization** to synchronize only information that has changed since the last time that you synchronized. 
+4. On the **Start Profile Synchronization** page, select **Start Full Synchronization** for a first-time synchronization or if you have added or modified any synchronization connections since the last time that you synchronized. Select **Start Incremental Synchronization** to synchronize only information that has changed since the last time that you synchronized. 
     
 5. Click **OK**.
     

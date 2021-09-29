@@ -21,7 +21,7 @@ description: "Provides information about co-authoring and the permissions and so
   
  **Audience**: IT Professionals
   
-Co-authoring in SharePoint Server lets multiple users work on a document, at any time, without interfering with each other's changes. Co-authoring removes barriers to server-based document collaboration. This feature helps organizations avoid unintentional multiple versions of documents by reducing the need to share attachments. This feature requires no extra server setup and is the default state for documents stored in SharePoint Server. You manage co-authoring by using the same tools and technologies that are already used to manage SharePoint.
+Co-authoring in SharePoint Server lets multiple users work on a document, at any time, without interfering with each other's changes. Co-authoring removes barriers to server-based document collaboration. This feature helps organizations avoid unintentional multiple versions of documents by reducing the need to share attachments. This feature requires no extra server setup and is the default state for documents stored in SharePoint Server. You manage to co-author by using the same tools and technologies that are already used to manage SharePoint.
   
 Office provides co-authoring functionality for Word, PowerPoint, OneNote, and Visio. If you have SharePoint Server configured to use Office Web Apps Server, users can also co-author documents in Word, PowerPoint, Excel, and OneNote Web Apps.
   
@@ -61,7 +61,7 @@ The Excel client application doesn't support co-authoring workbooks in SharePoin
 
 Co-authoring functionality in SharePoint is designed to be easy to set up and requires minimal effort to manage. But, there are several things to consider when you set up and manage co-authoring:
   
-- **Permissions** - Each user who wants to edit a document needs edit permissions for the document library where that document is stored. The simplest way to guarantee that is to give all users access to the SharePoint site where documents are stored. In cases where only a subset of users should have permission to co-author documents in a particular library, SharePoint permissions can be used to manage access. For more information, see [Overview of site permissions in SharePoint Server](../sites/overview-of-site-permissions-in-sharepoint-server.md).
+- **Permissions** - Each user who wants to edit a document needs edit permissions for the document library where that document is stored. The simplest way to guarantee that is to give all users the access to the SharePoint site where documents are stored. In cases where only a subset of users should have permission to co-author documents in a particular library, SharePoint permissions can be used to manage access. For more information, see [Overview of site permissions in SharePoint Server](../sites/overview-of-site-permissions-in-sharepoint-server.md).
 
 - **Versioning** - SharePoint Server versioning keeps track of changes to documents while they're being edited, and even stores earlier versions for reference. By default, this feature is turned off in SharePoint Server. SharePoint Server supports two kinds of versioning, major and minor. Minor versioning should remain off for document libraries that are used for co-authoring in OneNote, because it may interfere with OneNote's synchronization and versioning. This limitation only applies to minor versioning. Major versioning may be used with OneNote. For more information, see [How does versioning work in a list or library?](https://go.microsoft.com/fwlink/p/?LinkId=275819).
 
@@ -85,7 +85,7 @@ Unlike Word and PowerPoint, OneNote stores version information within the file i
 
 SharePoint Server and Office applications minimize the performance and scalability impact that is associated with co-authoring in your environment. Office clients don't send or download co-authoring information from the server until more than one author is editing. When a single user is editing a document, the performance impact resembles that of earlier versions of SharePoint.
   
-To reduce server impact, Office clients synchronize co-authoring actions less often when the server is under heavy load, or when users are not actively editing the document. This helps reduce overall performance impact.
+To reduce server impact, Office clients synchronize co-authoring actions less often when the server is under heavy load, or when users are not actively editing the document. This timing of the synchronization helps reduce overall performance impact.
   
 ## See also
 <a name="bkmk_perf"> </a>
