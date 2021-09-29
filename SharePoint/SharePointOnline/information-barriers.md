@@ -129,7 +129,7 @@ SharePoint Administrators or Global Administrators can enable information barrie
 3. To enable information barriers in SharePoint and OneDrive, run the following command:
 
     ```PowerShell
-    Set-Spotenant -InformationBarriersSuspension $false 
+    Set-SPOTenant -InformationBarriersSuspension $false 
     ```
 
 4. After you've enabled information barriers for SharePoint and OneDrive in your organization, wait for approximately 1 hour for the changes to take effect. 
@@ -147,7 +147,7 @@ If you installed a previous version of the SharePoint Online Management Shell, c
 6. To enable information barriers in SharePoint and OneDrive, run the following command:
 
     ```PowerShell
-    Set-Spotenant -InformationBarriersSuspension $false 
+    Set-SPOTenant -InformationBarriersSuspension $false 
     ```
 
 7.After you've configured information barriers in SharePoint and OneDrive in your organization, wait for approximately 1 hour for the changes to take effect.
@@ -200,14 +200,16 @@ To edit the segments associated with the site, select **Edit**, add or remove se
 6. Run the following command:
 
       ```PowerShell
-      Set-Sposite -Identity <site URL> -AddInformationSegment <segment GUID>
+      Set-SPOSite -Identity <site URL> -AddInformationSegment <segment GUID>
       ```
 
-    Example:
-    Set-SPOSite -Identity https:<i></i>//contoso<i></i>.sharepoint<i></i>.com/sites/ResearchTeamSite
--AddInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111
+    For example:
 
-You'll see an error message if you attempt to associate a segment that isn't compatible with the site's existing segments. 
+    ```powershell
+    Set-SPOSite -Identity https://contoso.sharepoint.com/sites/ResearchTeamSite -AddInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111
+    ```
+
+You'll see an error message if you attempt to associate a segment that isn't compatible with the site's existing segments.
 
 >[!NOTE]
 >When you add a segment to a site, the site's IB mode is automatically updated as *Explicit*.
@@ -215,13 +217,16 @@ You'll see an error message if you attempt to associate a segment that isn't com
 To remove segment from a site, run the following command:  
 
 ```PowerShell
-Set-Sposite -Identity <site URL> -RemoveInformationSegment <segment GUID>
+Set-SPOSite -Identity <site URL> -RemoveInformationSegment <segment GUID>
  ```
 
-Example: Set-SPOSite -Identity https:<i></i>//contoso<i></i>.sharepoint<i></i>.com/sites/ResearchTeamSite  
--RemoveInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111
+For example:
 
-To view the segments of a site, run the following command to return the GUIDs of any segments associated with the site. 
+```powershell
+Set-SPOSite -Identity https://contoso.sharepoint.com/sites/ResearchTeamSite -RemoveInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111
+```
+
+To view the segments of a site, run the following command to return the GUIDs of any segments associated with the site.
 
 >[!NOTE]
 >When all segments are removed from a site, the site's IB mode is automatically updated to *Open*.
@@ -253,7 +258,7 @@ You want to allow Sales and Research user to collaborate on a SharePoint site in
 To update a site's mode to *Owner Moderated*, run the following PowerShell command:
 
 ```powershell
-Set-SPOsite -Identity <siteurl> InformationBarriersMode OwnerModerated
+Set-SPOSite -Identity <siteurl> InformationBarriersMode OwnerModerated
 ```
 
 Owner Moderated IB mode cannot be set on a site with segments. Remove the segments first before setting IB mode as Owner Moderated. Access to an Owner Moderated site is allowed to users who have site access permissions. Sharing of an Owner Moderated site and its contents is only allowed by the site owner per their IB policy.
@@ -295,7 +300,6 @@ If the global administrator updates IB mode of an existing Microsoft 365 group c
 >
 > Learn more about managing [Microsoft Teams connected teams sites](https://docs.microsoft.com/SharePoint/teams-connected-sites).
 
-
 ## Search
 
 Users will see search results from:
@@ -318,12 +322,13 @@ If your organization would like to temporarily suspend information barriers on S
 To suspend information barriers, run the following command:
 
 ```PowerShell
-Set-Spotenant -InformationBarriersSuspension $true 
+Set-SPOTenant -InformationBarriersSuspension $true 
 ```
 
 >[!NOTE]
 >If you have Microsoft 365 Multi-Geo, you must run this command for each of your geo-locations.
 
-## See also
+## Resources
 
-[Information barriers in OneDrive](/onedrive/information-barriers)
+- [Information barriers in Microsoft Teams](/microsoftteams/information-barriers-in-teams)
+- [Information barriers in OneDrive](/onedrive/information-barriers)

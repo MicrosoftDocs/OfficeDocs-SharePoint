@@ -169,10 +169,10 @@ A global or SharePoint admin can view and change the segments associated with a 
 To associate a segment with a OneDrive, run the following command in the SharePoint Online Management Shell. A OneDrive can have up to 100 associated segments.
 
 ```PowerShell
-Set-SPOsite -Identity <site URL> -AddInformationSegment <segment GUID> 
+Set-SPOSite -Identity <site URL> -AddInformationSegment <segment GUID> 
  ```
 
-For example: 
+For example:
 
 ```powershell
 Set-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_onmicrosoft_com -AddInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111
@@ -183,7 +183,7 @@ When you add segments to a OneDrive, the site's IB mode is automatically updated
 To remove segment from a OneDrive, run the following command.  
 
 ```PowerShell
-Set-SPOsite -Identity <site URL> -RemoveInformationSegment <segment GUID>
+Set-SPOSite -Identity <site URL> -RemoveInformationSegment <segment GUID>
  ```
 
 For example:
@@ -215,7 +215,7 @@ Owner Moderated mode scenario: Allow an incompatible segment user access to a On
 To update a OneDrive to Owner Moderated, run the following PowerShell command:
 
 ```powershell
-Set-SPOsite -Identity <siteurl> InformationBarriersMode OwnerModerated
+Set-SPOSite -Identity <siteurl> InformationBarriersMode OwnerModerated
 ```
 
 Owner Moderated IB mode cannot be set on a site with segments. Remove the segments first before setting IB mode as Owner Moderated. Access to an Owner Moderated site is allowed to users who have site access permissions. Sharing of an Owner Moderated OneDrive and its contents is only allowed by the site owner per their IB policy.
