@@ -18,6 +18,10 @@ description: "Mover Release Notes"
 
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
+## Frontend v1.19.12 September 29, 2021
+
+- Accessibility fix: Update dropdown component. The narrator now announces the connector and first item.
+- Accessibility Fix: The name property of 'Create folder' has been fixed to match its visible label. Previously it was defined as 'Create folder plus' on the TW page with narrator announcing it as "Create Folder plus, group". 
 
 ## Backend v1.20.8 May 17, 2021
 - New. Promote the new Migration Manager experience for Google Workspace migrations into Microsoft 365 when authorizing a new G Suite connector.  
