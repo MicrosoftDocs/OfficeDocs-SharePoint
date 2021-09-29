@@ -25,7 +25,7 @@ Microsoft [Viva Connections desktop](https://techcommunity.microsoft.com/t5/micr
 
 >[!IMPORTANT]
 > - This article covers the steps to deploy the Viva Connections desktop app, which is a custom line of business app for Microsoft Teams and is built using PowerShell provided by Microsoft. This app includes the desktop experience *only*. 
-> - Soon, guidance for the fully upgraded Viva Connections app that includes *both desktop and mobile* experiences will be available. Additional instructions will be published closer to its public availability.
+> - [Guidance for the fully upgraded Viva Connections app](/SharePoint/guide-to-setting-up-viva-connections) that includes *both desktop and mobile* experiences is now available
 > - Learn more about the different types of [Apps, bots, & connectors in Microsoft Teams](/microsoftteams/deploy-apps-microsoft-teams-landing-page.md).
 > - Viva Connections desktop is available for GCC, but not GCC High or DoD environments.
 
@@ -57,7 +57,7 @@ Microsoft [Viva Connections desktop](https://techcommunity.microsoft.com/t5/micr
 > - Some functionality will not be available for SharePoint pages viewed in Microsoft Teams such as social gestures like the ability to like, or comment on a page as well as the ability to add an event automatically to an Outlook calendar.
 . 
 > 
-> - [Global navigation in the SharePoint app bar](./viva-connections.md) must be enabled in order for SharePoint resources to display in the Microsoft Teams app bar for Viva Connections.
+> - [Global navigation in the SharePoint app bar](sharepoint-app-bar.md) must be enabled in order for SharePoint resources to display in the Microsoft Teams app bar for Viva Connections.
 > 
 > - Global navigation menu links can be [audience targeted](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) so that specific content is surfaced to certain groups of people. Audience targeting settings in the SharePoint global navigation menu will carry over to global navigation in Teams.
 > 
@@ -99,13 +99,13 @@ Viva Connections desktop can be provisioned through PowerShell and then will be 
 
 ## Step-by-step guide to setting up Viva Connections desktop
 
-Complete the following steps to enable Viva Connections desktop using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps):
+Complete the following steps to enable Viva Connections desktop using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell):
 
 1.	**Set up a SharePoint home site:** We highly recommend that you set up a [SharePoint home site](./home-site.md) and use that site as the default landing experience for your users in Teams. 
 
 2.	**Enable global navigation and customize navigational links:** [Set up and customize global navigation in the SharePoint app bar](./sharepoint-app-bar.md). Learn about the different ways you can [set up the home site navigation and global navigation](./sharepoint-app-bar.md#see-all-the-different-ways-you-can-set-up-global-navigation) to surface the right content at the right time.
 
-3.	**Create a Viva Connections app package in PowerShell:** The SharePoint admin needs to download and run PowerShell script from the Microsoft download center to create the Viva Connections desktop package. Ensure that you are using the [latest version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000) of the [SharePoint Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps) tool before running the script. 
+3.	**Create a Viva Connections app package in PowerShell:** The SharePoint admin needs to download and run PowerShell script from the Microsoft download center to create the Viva Connections desktop package. Ensure that you are using the [latest version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000) of the [SharePoint Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell) tool before running the script. 
 
     > [!IMPORTANT]
     > - The [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) is available now.
