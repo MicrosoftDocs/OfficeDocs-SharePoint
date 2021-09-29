@@ -24,11 +24,11 @@ description: "Learn how to build a learning and training experience for employee
 # Build learning and training experiences for employees
 <br>
 
-Learn how to build a training and learning experience that will keep employees and team members up-to-date with important skills, and proficiencies required for professional success.  
+Learn how to build a training and learning experience that will keep employees and team members up to date with important skills, and proficiencies required for professional success.  
 
 Organizations can provide an end-to-end training and learning experience that provides the tools needed to ensure all employees have access to developmental material needed for the highest level of proficiency in any field.
 
-This document will  show you how to create a training solution, starting with planning your experience, building your experience, then launching an end-to-solution that includes a durable training site, online learning, virtual training events, promotion, and tracking insights and feedback to improve your experience overtime.
+This article will  show you how to create a training solution, starting with planning your experience, building your experience, then launching an end-to-solution that includes a durable training site, online learning, virtual training events, promotion, and tracking insights and feedback to improve your experience overtime.
 
 <br>
 <br>
@@ -42,10 +42,10 @@ This document will  show you how to create a training solution, starting with pl
 
 - Keeping employees up to date about important learning and training due dates and opportunities
 
-- Launching an accessible and scalable experience by ensuring employees know how to access modules, courses and resources and asking for feedback to make improvements along the way 
+- Launching an accessible and scalable experience by ensuring employees know how to access modules, courses, and resources and asking for feedback to make improvements along the way 
 <br>
 
-Get started planning, building, and launching a training and learning experience with M365 tools.  
+Get started planning, building, and launching a training and learning experience with Microsoft 365 tools.  
 
 <br>
 <br>
@@ -58,7 +58,7 @@ Get started planning, building, and launching a training and learning experience
 | Plan                 | Build              | Launch        |
 | :-------------- | :--------------- |:-------------|
 | ![Planning icon](media/th-lb2.png)  | ![Building icon](media/oe-10.png) | ![Launching icon](media/oe-11.png)|
-|- Understand your organizational needs  <br>  - List all learning objectives <br>  - Categorize by department, areas of expertise, and proficiency levels <br> - Identify timelines <br> - Define goals and outcomes| - Choose the best tools for your training and learning experience <br> -  Make sure all tools and experiences are accessible by all employees  <br> - Create a place where employees with similar learning objectives can connect  | - Set realistic timelines and dates for completion   <br> - Notify employees of upcoming training and learning opportunities and initiatives  <br> - Gather insights from each platform used to measure overall effectiveness of training and learning experience  |
+|- Understand your organizational needs  <br>  - List all learning objectives <br>  - Categorize by department, areas of expertise, and skill levels <br> - Identify timelines <br> - Define goals and outcomes| - Choose the best tools for your training and learning experience <br> -  Make sure all tools and experiences are accessible by all employees  <br> - Create a place where employees with similar learning objectives can connect  | - Set realistic timelines and dates for completion   <br> - Notify employees of upcoming training and learning opportunities and initiatives  <br> - Gather insights from each platform used to measure overall effectiveness of training and learning experience  |
 
 
 ## Plan a training and learning experience
@@ -77,9 +77,9 @@ Get started planning, building, and launching a training and learning experience
 <br>
 
 
-| Step 1: Scope your audience and goals                 |Step 2: Map the onboarding experience               | Step 3: Review Microsoft 365 tools         | Step 3: Review Microsoft 365 tools         |
-| :-------------- | :--------------- |:-------------|:-------------|
-| ![Scope your audience icon](media/oe-12.png)  | ![Map your onboarding experience icon](media/oe-13.png) | ![Review M365 tools icon](media/oe-14.png)|![Review M365 tools icon](media/oe-14.png)
+| Step 1: Understand your organizational needs                |Step 2: List and categorize all learning objectives               | Step 3: Define goals and outcomes         | Step 4: Review Microsoft 365 Learning and Training tools          |
+| :--------------: | :---------------: |:-------------:|:-------------:|
+| ![Understand your organizational needs icon](media/lt-1.png)  | ![List learning objectives icon](media/lt-3.png) | ![Define goals and outcomes icon](media/lt-2.png)|![Review M365 tools icon](media/lt-4.png)
 
 
 <br>
@@ -89,7 +89,7 @@ Get started planning, building, and launching a training and learning experience
 
   
 
-Take inventory of all organizational departments, teams, and disciplines. Are there any legally required continued learning mandates for any employee groups in your organization? How many? Is there a broad range of disciplines and areas of expertise across your organization? Is there a certain budget that needs to be set and adhered to for learning and training resources? Set aside time to list these out to get a full scope of what is needed.   
+Take inventory of all organizational departments, teams, and disciplines. Are there any legally required continued learning mandates for any employee groups in your organization? How many? Is there a broad range of disciplines and areas of expertise across your organization? Is there a certain budget that needs to be set and adhered to for learning and training resources? Set aside time to list all foctors out to get a full scope of what is needed.
 
   
 
@@ -105,11 +105,11 @@ Now that you have listed out your organizational needs, identify the learn
 
  
 
-Every organization has its own variation of technical and soft skills that need to be upheld and maintained over time. These can range from learning how to use job-related tools and in-house resources to learning about the intricacies of the company’s culture and policies. Define what needs to be prioritized as learning goals and outcomes from the employees in your organization, prioritize these goals and begin curating modules and learning materials that best meet these desired goals and outcomes. 
+Every organization has its own variation of technical and soft skills that need to be upheld and maintained over time. These skills can range from learning how to use job-related tools and in-house resources to learning about the intricacies of the company’s culture and policies. Define what needs to be prioritized as learning goals and outcomes from the employees in your organization, prioritize these goals and begin curating modules and learning materials that best meet these desired goals and outcomes. 
 
   
 
-### Step 4: Review M365 Learning and Training tools 
+### Step 4: Review Microsoft 365 Learning and Training tools 
 
  
 
@@ -117,7 +117,7 @@ Every organization has its own variation of technical and soft skills that need 
 
 - **Create a learning and development landing page using SharePoint.** Create a SharePoint communication site using the [Learning Central SharePoint Communication site template](https://support.microsoft.com/office/use-the-sharepoint-learning-central-site-template-8a38c30a-746c-4081-8781-3679d6a3c0f6). Use the site to direct employees to events, news, and information about required learning and extra-curricular resources. 
 
-- **Use Microsoft Teams to hold live learning events.** Meetings in Teams include audio, video, and screen sharing, and are great for communicating with groups of fewer than 300 individuals. Teams can be used for meetings that happen in-person, remotely, or a combination of the two. Additionally, the meeting can be recorded and shared with new employees who were unable to attend the meeting. 
+- **Use Microsoft Teams to hold live learning events.** Meetings in Teams include audio, video, and screen sharing, and are great for communicating with groups of fewer than 300 individuals. Teams can be used for meetings that happen in person, remotely, or a combination of the two. Additionally, the meeting can be recorded and shared with new employees who were unable to attend the meeting. 
 
 - **Provide an opportunity for employees to learn from each other in Yammer.** [Create a Yammer channel](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) just for new employees. Choose to create one NEO channel for the entire organization or region or create channels for each new group of new employees. Then, use the [Yammer web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) on the SharePoint NEO site to integrate the conversation with other resources and contacts.   
  
@@ -136,7 +136,7 @@ Build out the learning and training experience one platform at a time. The tools
 <br>
 <br>
 
-![New employee onboarding template screenshot](media/oe-2.png)
+![Viva Learning homepage screenshot](media/oe-5.png)
 <br> 
 <br>
 
@@ -152,7 +152,7 @@ Learn more about [Viva Learning (Preview)](https://docs.microsoft.com/en-us/micr
 
 <br>
 
-![Teams live meeting screenshot](media/oe-3.png)
+![Learning Central SharePoint communication homepage screenshot](media/lt-5.png)
 <br>
 <br> 
 
@@ -168,11 +168,11 @@ Get started with [SharePoint site templates](https://support.microsoft.com/offic
 <br>
 <br>
 
-![SharePoint Spaces screenshot](media/oe-spaces.png) 
+![Teams live meeting screenshot](media/oe-3.png) 
 <br>
 <br>
 
-Many learning experiences require hands-on training. Some experiences are better held in live environments where employees can ask questions and get guidance in real time. With the emergence of virtual work, having facetime with other people in the organization is still important in making sure employees can communicate with learning instructors and other peers and ask top-of-mind questions. Use Microsoft Teams to administer live learning and training experiences.  
+Many learning experiences require hands-on training. Some experiences are better held in live environments where employees can ask questions and get guidance in real time. With the emergence of virtual work, having face time with other people in the organization is still important in making sure employees can communicate with learning instructors and other peers and ask top-of-mind questions. Use Microsoft Teams to administer live learning and training experiences.  
 
 Make this live event fun and engaging by giving employees an opportunity to communicate with each other in the Teams chat box or allow employees to ask questions on camera or through the moderated Q&A in Teams live events.  
 
@@ -183,7 +183,7 @@ Learn more about [Teams live events](microsoftteams/teams-live-events/what-are-t
 ### Provide an opportunity for employees to learn from each other in communities on Yammer  
 <br>
 
-![Microsoft lists screenshot](media/oe-4.png)
+![Yammer homepage screenshot](media/th4.png)
 <br>
 <br>
 
@@ -198,7 +198,7 @@ Learn more about building communities in [Yammer](yammer/get-started-with-yammer
 
 <br>
 
-Ensure each learning and training experience is accessible by [incorporating best practices across all selected M365 tools](https://www.microsoft.com/microsoft-365/business/accessibility-tools). Make sure everything in your learning and training experience is visible and labeled properly. Make proper use of alternative text for images and graphics. Incorporate [transcripts](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b) in videos and training material.  
+Ensure each learning and training experience is accessible by [incorporating best practices across all selected Microsoft 365 tools](https://www.microsoft.com/microsoft-365/business/accessibility-tools). Make sure everything in your learning and training experience is visible and labeled properly. Make proper use of alternative text for images and graphics. Incorporate [transcripts](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b) in videos and training material.  
 
  
 
@@ -228,7 +228,7 @@ After the learning and training experience has been planned and the tools have b
 
  
 
-Build awareness of upcoming training by sending an email in Outlook or by adding a [SharePoint news posts](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7) to spread the word across a variety of platforms.  Let employees know if the training is required or suggested. List important details about the training like the due date and the learning objectives. Ensure all employees know how to access the learning module or experience.  
+Build awareness of upcoming training by sending an email in Outlook or by adding a [SharePoint news posts](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7) to spread the word across various platforms.  Let employees know if the training is required or suggested. List important details about the training like the due date and the learning objectives. Ensure all employees know how to access the learning module or experience.  
 
  
 
