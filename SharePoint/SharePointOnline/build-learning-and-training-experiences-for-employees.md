@@ -144,7 +144,7 @@ Viva Learning (Preview) is an application for Microsoft Teams that allows users 
 
 In Viva Learning (Preview), managers of an organization or team can assign learning and track the learning progress of each module. The Viva Learning (Preview) home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. 
 
-Learn more about [Viva Learning (Preview)](https://docs.microsoft.com/en-us/microsoft-365/learning/overview-viva-learning?view=o365-worldwide)  
+Learn more about [Viva Learning (Preview)](/microsoft-365/learning/overview-viva-learning.md)  
 
  
 
@@ -178,7 +178,7 @@ Make this live event fun and engaging by giving employees an opportunity to comm
 
 Record each session so employees can review the learning material later, or so future employees can experience the session as well. Make this recording available through the SharePoint Learning and Training site or through the Viva Learning platform.  
 
-Learn more about [Teams live events](microsoftteams/teams-live-events/what-are-teams-live-events.md).  
+Learn more about [Teams live events](/microsoftteams/teams-live-events/what-are-teams-live-events.md).  
 
 ### Provide an opportunity for employees to learn from each other in communities on Yammer  
 <br>
@@ -191,7 +191,7 @@ Give employees that have similar learning objectives the opportunity to connect 
 
 Naturally, employees come across information at different times in their learning and training process. Creating a space where new employees can build a community for themselves gives them the opportunity to share information as they come across it. In this virtual space, new employees can share resources, share ideas, and get to know each other. It also helps them build internal bonds that can last over the course of their career. 
 
-Learn more about building communities in [Yammer](yammer/get-started-with-yammer/newyammer-faq.md). 
+Learn more about building communities in [Yammer](/yammer/get-started-with-yammer/newyammer-faq.md). 
  
 
 ### Make sure all tools and experiences are accessible  
@@ -202,7 +202,7 @@ Ensure each learning and training experience is accessible by [incorporating bes
 
  
 
-Share this experience with the right people. Make sure employees know how to access all the tools needed in the learning experience. Use all sharing options including email, Teams messages, Yammer posts, SharePoint web parts, Viva Learning, and [Viva Connections](sharepoint/viva-connections-overview.md) to build awareness and increase accessibility.  
+Share this experience with the right people. Make sure employees know how to access all the tools needed in the learning experience. Use all sharing options including email, Teams messages, Yammer posts, SharePoint web parts, Viva Learning, and [Viva Connections](/sharepoint/viva-connections-overview.md) to build awareness and increase accessibility.  
 
  
 
