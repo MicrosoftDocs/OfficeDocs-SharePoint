@@ -32,7 +32,7 @@ Review common scenarios to get familiar with the different types of organization
 ### Scenario A: Use Viva Connections as a gateway to employee experiences
 
 >[!NOTE]
-> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](/viva-connections-overview.md) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules. 
+> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](viva-connections-overview.md) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules. 
 
 ![Conceptual image of Viva Connections.](media/cc-viva-connections.png)
 
