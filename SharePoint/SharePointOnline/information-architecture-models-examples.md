@@ -104,7 +104,7 @@ Common methods of organizing navigational design:
 
 Your intranet is an ever-evolving component of your business that will need to grow and scale alongside your organization. Modern intranet navigation differs from classic navigation in the sense that it is “flat” -- in the modern SharePoint experience, sub-sites are not recommended. In the new “flat” world of modern SharePoint, plan to create one site for each discrete topic or unit of work. Classic SharePoint architecture is typically built using a hierarchical system of site collections and sub-sites, with inherited navigation, permissions, and site designs. Once built, this structure can be inflexible and difficult to maintain.
 
-Focus on incorporating modern changes that will have the greatest impact to your business first. [Plan and schedule](./intranet-overview.md) when changes will be incorporated and how you will track progress. Use site analytics to understand user behavior and collect feedback from users along the way.
+Focus on incorporating modern changes that will have the greatest impact to your business first. [Plan and schedule](./intranet-team-overview.md) when changes will be incorporated and how you will track progress. Use site analytics to understand user behavior and collect feedback from users along the way.
 How to get started
 
 Moving to modern navigation from classic SharePoint navigation is a process that depends on the size of your organization and the complexity of your tenant’s configuration. Below are general guidelines and tools you can use to get started:
