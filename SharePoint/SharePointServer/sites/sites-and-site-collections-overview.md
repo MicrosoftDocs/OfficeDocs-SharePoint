@@ -30,13 +30,13 @@ Learn about [Planning your SharePoint hub sites in Microsoft 365](../../SharePoi
 
 ![Diagram of a site collection](../media/DiagramOfSiteCollection.gif)
   
-The SharePoint Server 2019 modern experience is similar to the experience in SharePoint in Microsoft 365. The main difference is Hub sites aren't available in SharePoint Server. We do recommend that you use the same process as in SharePoint in Microsoft 365, create site collections for each unit of work instead of creating subsites. This will make it easier when migrating your SharePoint farm to SharePoint in Microsoft 365.
+The SharePoint Server 2019 modern experience is similar to the experience in SharePoint in Microsoft 365. The main difference is Hub sites aren't available in SharePoint Server. We do recommend that you use the same process as in SharePoint in Microsoft 365, create site collections for each unit of work instead of creating subsites. These site collections will make it easier when migrating your SharePoint farm to SharePoint in Microsoft 365.
 
 The following guidelines show the relationship between SharePoint Server sites and site collections, and content databases:
   
 - All content in a site collection must be stored in a single content database. You can't store a site collection's content across multiple content databases.
     
-- You can scale up content databases that support a site collection. You can also scale-out a content database at the web application level to support additional site collections.
+- You can scale up content databases that support a site collection. You can also scale out a content database at the web application level to support more site collections.
     
 - A site collection can exist in only one content database, but one content database can host the content for multiple site collections.
     
@@ -50,9 +50,9 @@ You create a site collection to host sites that have something in common. For ex
   
 SharePoint Server supports two types of site collections: host-named site collections and path-based site collections. In a path-based site collection, all the subsites in the site collection will share a root or parent URL (DNS name). For example, Team A could have a site collection at http<!-- nolink -->://contoso.com/sites/teamA, and Team B would have a site collection at http<!-- nolink -->://contoso/sites/teamB. All sites in either site collection would have the http<!-- nolink -->://contoso.com/sites/teamA or /teamB root. The only way to have a different URL root is to create a different web application.
   
-To better align with SharePoint best practices, you should use host-named site collections. Host-named site collections allow you to assign custom names to each site collection that you create in a web application. For example, you can have two site collections in the same web application addressed like this: http<!-- nolink -->://TeamA.contoso.com and http<!-- nolink -->://TeamB.contoso.com. This is much more scalable and has been heavily tested in SharePoint.
+To better align with SharePoint best practices, use host-named site collections. The host-named site collections allow you to assign custom names to each site collection that you create in a web application. For example, you can have two site collections in the same web application addressed like this: http<!-- nolink -->://TeamA.contoso.com and http<!-- nolink -->://TeamB.contoso.com. This scenario is much more scalable and has been heavily tested in SharePoint.
   
-Because site collections and sites exist in a parent-child relationship, there are aspects of control and functionality that can be configured at the site collection level and used at the site level. This provides many benefits as follows:
+Because site collections and sites exist in a parent-child relationship, there are aspects of control and functionality that can be configured at the site collection level and used at the site level. This aspect management pattern provides many benefits as follows:
   
 - For site designers, a site collection's galleries and libraries (such as the Master Page Gallery or the Site Collection Images library) provide a means for creating a unified, branded user experience across all sites in the site collection.
     
@@ -60,7 +60,7 @@ Because site collections and sites exist in a parent-child relationship, there a
 
   SharePoint Server 2019 offers the choice to create modern Team and Communication sites like in SharePoint in Microsoft 365, or keep the classic experience. Using the modern experience site collections is inline with our recommendation to create site collections for each unit of work to make it easier when you decide to migrate to SharePoint.
     
-- For farm administrators, site collections can be moved between content databases. By doing this, farm administrators can manage the size of their content databases.
+- For farm administrators, site collections can be moved between content databases. By this movement, farm administrators can manage the size of their content databases.
     
 - For site authors, shared site columns, content types, web parts, authoring resources, workflows, and other site collection features provide a consistent authoring environment.
     
