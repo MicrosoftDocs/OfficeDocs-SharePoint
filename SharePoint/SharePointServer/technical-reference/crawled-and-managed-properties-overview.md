@@ -25,11 +25,10 @@ Learn about [Manage the search schema in SharePoint in Microsoft 365](../../Shar
   
 ## Managed properties overview
 
-The following table lists the default managed properties and their attributes. For each managed property that by default is mapped to one or several crawled properties, these crawled properties are listed in the **Mapped Crawled Properties** column. 
+The following table lists the default managed properties and their attributes. For each managed property that by default is mapped to one or several crawled properties, these crawled properties are listed in the **Mapped Crawled Properties** column.
 
 ### Managed properties in SharePoint Server 2013 through 2019
   
-
 |**Property name**  |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |AboutMe   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:AboutMe, ows_Notes   ||
@@ -605,6 +604,7 @@ The following table lists the default managed properties and their attributes. F
 |YomiDisplayName   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:SPS-PhoneticDisplayName   ||
 
 ### Managed Properties Added in SharePoint Server 2016
+
 <a name="mp2016"></a>
 
 |**Property name** |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |
@@ -674,6 +674,7 @@ The following table lists the default managed properties and their attributes. F
 |XLWorksheetCountRngID|Integer|No|Yes|No|Yes|Yes|Yes|XLWorksheetCountRngID||
 
 ### Managed Properties Added in SharePoint Server 2019
+
 <a name="mp2019"></a>
 
 |**Property name**  |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |
