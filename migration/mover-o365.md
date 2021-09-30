@@ -105,6 +105,11 @@ This prevents site members/visitors from inheriting permissions to all the data 
 
 For more info about SharePoint Online permissions inheritance, see **here**.
 
+### Does Mover migrate SPO Group permissions?
+
+No, Mover does not migrate SPO Groups permissions. Mover only migrates Microsoft 365 users and groups permissions.
+
+
 ### Does Mover support Microsoft Teams?
 
 Microsoft Teams appears and operates the same as a SharePoint Online site.
