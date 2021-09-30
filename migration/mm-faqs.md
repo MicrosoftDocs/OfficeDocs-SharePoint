@@ -21,7 +21,7 @@ description: Migration Manager FAQs
 # Frequently Asked Questions: Migration Manager
 
 **Question:** Can I migrate content from SharePoint Server? </br>
-Answer:   At this time, Migration Manager only supports the migration of **file shares**.  It does not support the migration of content from SharePoint Server.
+Answer:   At this time, Migration Manager supports the migration of file shares and cloud sources including Google, Dropbox, and Box  It does not support the migration of content from SharePoint Server.  See SPMT (SharePoint Migration Tool) for SharePoint Server migration.
 
 **Question:** Can I run the SharePoint Migration Tool (SPMT) on the same computer that I have the Migration Manager agent installed?</br>
 Answer:   Yes.
@@ -61,7 +61,7 @@ Answer:  The connection between an agent and Migration Manager stays active as l
 Answer:  Yes. Here's how you configure it: [Government cloud settings](./mm-gov-cloud.md)
 
 **Question:**   What’s the retention policy for the blog storage?</br>
-Answer:  When using the Migration API, the customers/ISVs can either use the [SPO provided blob containers/queues](/sharepoint/dev/apis/migration-api-azure-container-and-queue) or their containers/queues created within their Azure subscriptions. If you choose to use the SPO provided ones, you will get [SAS URIs](/azure/storage/common/storage-sas-overview) to access those, which are valid for three days from creation for containers and 21 days for queues. After the SAS expiry, the content in the blob containers/queues will not be accessible. SPO backend jobs will delete the content in the container/queues within 30 to 90 days of the creation.
+Answer:  When using the Migration API, customers and ISVs use the [SPO-provided blob containers/queues](/sharepoint/dev/apis/migration-api-azure-container-and-queue). [SAS URIs](/azure/storage/common/storage-sas-overview) are provided to access those containers/queues. The SAS URIs are valid for three days from creation for containers and 21 days for queues. After the SAS expires, the content in the blob containers/queues will not be accessible. SPO backend jobs will delete the content in the container/queues within 30 to 90 days of the creation.
  
 **Question:**  Is the data in the SPO provided containers encrypted?</br>
 Answer: Yes. We mandate that the data uploaded to SPO provided containers must be encrypted using AES CBC to ensure the data is secure. To learn more, see: [OneDrive for Business and SharePoint Online Migration API encryption](/sharepoint/dev/apis/migration-api-encryption).
@@ -79,3 +79,8 @@ Answer: Re-run the Migration Manager agent installer and click the **Uninstall**
 
 **Question:** Does Migration Manager do incremental migrations? </br>
 Answer:  Yes.  The jobs created in Migration Manager do perform incremental migrations when run subsequently. 
+
+**Question:**  Does adding more agents linearly increase the throughput? Is there a cap on the max number of agents?</br>
+Based on our current data, the average speed of migration scales linearly to the number of agents, unless the overall throughput hits the upper limit of your network bandwidth. If multiple agents read from the same source file share path, that can also impact throughput. There’s no limit on how many agents you can install. We have many customers who perform migrations using 20+ agents.  **Note:** A single agent can process up to 10 tasks at a given time.
+
+
