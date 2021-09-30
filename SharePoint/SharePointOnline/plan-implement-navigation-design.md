@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - Strat_SP_modern
 - m365solution-spintranet
@@ -40,7 +40,7 @@ Similar to SharePoint intranet content, SharePoint architecture should be review
 The most important step in planning an effective information architecture is understanding your users:
 
 - Who are your users? What key roles do they have?
-- What vocabulary to they have? What terms do they use to look for content?
+- What vocabulary do they have? What terms do they use to look for content?
 - What do they want to learn?
 - What do they want to do? What are their top tasks?
 

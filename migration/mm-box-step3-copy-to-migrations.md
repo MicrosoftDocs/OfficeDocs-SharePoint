@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - m365solution-migratefileshares
 - m365solution-migratetom365
@@ -22,8 +22,7 @@ description: "Step 3: Copy to migrations using Migration Manager."
 
 # Step 3: Copy to migrations
 
->[!Note]
->This release currently supports the migration of up to approximately 1500 Box accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
+
 
 After a Box user has been scanned and determined ready, add them to your migration list.  
 

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
@@ -57,7 +57,7 @@ For more information, see [Create a communication site in SharePoint Online](htt
 
 You can quickly and easily customize the organization and navigation of your SharePoint site to make it easy for your visitors to navigate the site and find the information they need.
 
-   ![Image of the Sharepoint navigation tool bar](media/navigation-bar.png)
+   ![Image of the SharePoint navigation tool bar](media/navigation-bar.png)
 <br>
 - **Add and edit the main menu** Easily edit the top menu to link the page to other SharePoint pages or on the Internet.
 <br>

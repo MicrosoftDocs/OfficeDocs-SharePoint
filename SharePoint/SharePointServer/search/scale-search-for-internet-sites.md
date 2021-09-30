@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 651dba4d-8751-4bd8-9492-f2842b2e1177
 description: "Determine hardware requirements and review considerations to scale out SharePoint Server search topologies for Internet sites for performance and availability."

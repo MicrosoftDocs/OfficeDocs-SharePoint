@@ -18,7 +18,7 @@ ms.custom:
 -  seo-marvel-apr2020
 -  Adm_O365
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
@@ -142,8 +142,6 @@ You can stop sharing with people who have an "Anyone" link by going to the file 
 
 [!INCLUDE[discussionforums.md](includes/discussionforums.md)]
 
-You can also find help on security and permissions in these [YouTube videos from SharePoint community experts](https://www.youtube.com/playlist?list=PLXPr7gfUMmKxzj4SEwD8v7n13X_OkSOgY).
-  
 ## See also
 
 [How Microsoft manages and enables external sharing and collaboration with SharePoint (Microsoft Ignite)](https://www.youtube.com/watch?v=dK5uky1bJ1Y)

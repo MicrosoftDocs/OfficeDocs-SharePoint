@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - m365solution-overview
 - m365solution-spintranet
@@ -33,7 +33,7 @@ Keep employees informed and engaged by providing a shared place to securely view
 ![Intelligent intranet overview](media/intelligent_intranet_overview1.png)
  
 ### Build an intelligent intranet
-Learn how to move through the [process of creating an intranet](https://resources.techcommunity.microsoft.com/intelligent-intranet/align/) for your organization. Get familiar with [common intranet planning and creation roles](./intranet-overview.md#introduction-to-roles-tasks-and-timelines), design stages, and the [intranet lifecycle](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-SharePoint/live/SharePoint/SharePointOnline/spodownloads/Intranet%20lifecycle.pdf). Learn how to align goals into priority scenarios that you can [get started implementing](https://resources.techcommunity.microsoft.com/intelligent-intranet/implement/) quickly. Then, learn how to [engage with viewers](https://resources.techcommunity.microsoft.com/intelligent-intranet/engage/) and maintain your intranet over time as the organization changes and scales. 
+Learn how to move through the [process of creating an intranet](https://resources.techcommunity.microsoft.com/intelligent-intranet/align/) for your organization. Get familiar with [common intranet planning and creation roles](./intranet-roles-tasks.md), design stages, and the [intranet lifecycle](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-SharePoint/live/SharePoint/SharePointOnline/spodownloads/Intranet%20lifecycle.pdf). Learn how to align goals into priority scenarios that you can [get started implementing](https://resources.techcommunity.microsoft.com/intelligent-intranet/implement/) quickly. Then, learn how to [engage with viewers](https://resources.techcommunity.microsoft.com/intelligent-intranet/engage/) and maintain your intranet over time as the organization changes and scales. 
 
 ### Help your organization engage and inform
 
@@ -53,7 +53,7 @@ Use SharePoint to achieve specific business outcomes like narrowing the distance
 
 ## Overview of how to set up an intelligent intranet
 
-Harness the power of the intelligent intranet to communicate effectively across the organization, engage employees, and connect with relevant information and knowledge. Learn more about [intranet planning and implementation phases](https://resources.techcommunity.microsoft.com/intelligent-intranet) and how to get started, and considerations like how to design your home site and use multi-lingual features. Then, use the [intranet roadmap](./intranet-overview.md) to prepare business owners, stakeholders, site owners, and content authors.
+Harness the power of the intelligent intranet to communicate effectively across the organization, engage employees, and connect with relevant information and knowledge. Learn more about [intranet planning and implementation phases](https://resources.techcommunity.microsoft.com/intelligent-intranet) and how to get started, and considerations like how to design your home site and use multi-lingual features. Then, use the [intranet roadmap](./intranet-team-overview.md) to prepare business owners, stakeholders, site owners, and content authors.
  
 ![Intranet set up overview](media/intelligent_intranet_overview2.png)
 

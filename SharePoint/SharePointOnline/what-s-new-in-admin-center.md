@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: reference
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: Strat_SP_admin
 search.appverid:
 - SPO160

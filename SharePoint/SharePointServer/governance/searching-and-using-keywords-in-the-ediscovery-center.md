@@ -13,7 +13,7 @@ ms.custom:
 - DiscoverySearchSyntaxTips
 - WSSEndUser_DiscoverySearchSyntaxTips
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server
 ms.assetid: c9b29461-20f6-4ae6-84ac-ce9bed3ceabb
 description: "Keywords help you narrow down the specific content that you produce through export for an eDiscovery case. By creating focused searches, you increase the likelihood that content is applicable to a case, and reduce the amount of content that you need to manage."

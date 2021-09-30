@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MET150
 ms.collection: M365-collaboration

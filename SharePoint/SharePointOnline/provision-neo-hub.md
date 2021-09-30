@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
@@ -90,7 +90,7 @@ The New Employee Onboarding (NEO) sites can be provisioned from the [SharePoint 
 
 
 ### Prerequisites
-To successfully provision the NEO sites via the SharePoint look book, the person doing the provisioning must be a site collection admin of the tenant where ta NEO site(s) will be provisioned. If you have never provisioned a template from the Look book, [review overview guidance](./add-sample-site.md). 
+To successfully provision the NEO sites via the SharePoint look book, the person doing the provisioning must be a site collection admin of the tenant where the NEO site(s) will be provisioned. If you have never provisioned a template from the Look book, [review overview guidance](./add-sample-site.md). 
 
 
 ### Provision the NEO sites
@@ -150,7 +150,7 @@ It’s important to make sure the right content is available to users at the rig
 > There are three NEO site templates that can be used alone or all together. Check with your site collection administrator to confirm which NEO sites were provisioned and are available for customizations.
 
  
-1.	**New employee pre-Onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for pre-start hires who don't already have corporate credentials to give them access to the Pre-onboarding site only. 
+1.	**New employee pre-onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for pre-start hires who don't already have corporate credentials to give them access to the Pre-onboarding site only. 
 
     > [!IMPORTANT]
     > Enable external sharing for the Pre-onboarding site. The Pre-onboarding site is intended to be shared with new hires as soon as they sign their offer letter, but before they start their first day at work. Therefore, this site needs to be shared with external users. External sharing is off by default for SharePoint communication sites. In order for site owners to share externally, [turn on external sharing](./change-external-sharing-site.md?branch=hokavian-neo-sites) for the Pre-onboarding site.  
@@ -179,9 +179,9 @@ It’s important to make sure the right content is available to users at the rig
 
  To deliver a flexible and consistent new hire onboarding experience the NEO sites consists of three different SharePoint site templates, that are designed to work alone or as one cohesive and familiar experience for new hires. Check with your site collection administrator to confirm which NEO sites were provisioned and are available for customizations. 
 
-- Review content in the [Pre-onboarding site](https://review.docs.microsoft.com/SharePoint/provision-neo-hub?branch=neo-overview#pre-onboarding-site)
-- Review content in the [Corporate onboarding site](https://review.docs.microsoft.com/SharePoint/provision-neo-hub?branch=neo-overview#corporate-new-hire-site)
-- Review content in the [Department onboarding site](https://review.docs.microsoft.com/SharePoint/provision-neo-hub?branch=neo-overview#departmental-onboarding)
+- Review content in the [Pre-onboarding site](/SharePoint/provision-neo-hub?branch=neo-overview#pre-onboarding-site)
+- Review content in the [Corporate onboarding site](/SharePoint/provision-neo-hub?branch=neo-overview#corporate-new-hire-site)
+- Review content in the [Department onboarding site](/SharePoint/provision-neo-hub?branch=neo-overview#departmental-onboarding)
 
 > [!NOTE]
 > The NEO sites come with many pre-built pages that can be identified in the site navigation with this symbol ">>." Determine which pages and content to keep, edit, or delete based on the needs of your organization. 

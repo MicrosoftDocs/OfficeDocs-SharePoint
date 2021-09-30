@@ -9,7 +9,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - m365solution-migratefileshares
 - m365solution-migratetom365
@@ -22,13 +22,7 @@ description: "Step 5:  Map Box identities with Migration Manager."
 
 # Step 5: Map identities of Box accounts to Microsoft 365 accounts
 
->[!Note]
->This release currently supports the migration of up to approximately 1500 Box accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
-
-
-
 Identity Mapping is when you match the user and group identities that have access to your source environment (in this case Box) and map those identities to Microsoft 365 user and group identities. This process is important to migration. If identities are not properly set up prior to migration, it can result in users losing access to content. It can also result in information being incorrect at the destination.
-
 
 Map your groups and users in Box to those in Microsoft 365 to migrate your Box sharing settings.
 
