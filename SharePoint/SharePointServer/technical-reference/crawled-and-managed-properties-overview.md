@@ -603,7 +603,6 @@ The following table lists the default managed properties and their attributes. F
 |WorkId   |Integer   |No   |No   |No   |Yes   |No   |No   |||
 |WorkPhone   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:WorkPhone, ows_WorkPhone, ows_Work_x0020_Phone   |urn:schemas-microsoft-com:sharepoint:portal:profile:WorkPhone   |
 |YomiDisplayName   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:SPS-PhoneticDisplayName   ||
-   
 
 ### Managed Properties Added in SharePoint Server 2016
 <a name="mp2016"></a>
