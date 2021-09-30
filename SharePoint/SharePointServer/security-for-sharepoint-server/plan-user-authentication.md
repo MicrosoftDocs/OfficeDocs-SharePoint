@@ -251,11 +251,11 @@ The architecture for implementing SAML token-based providers includes the follow
     
 - **Realm** In the SharePoint claims architecture, the URI or URL that is associated with a SharePoint web application that is configured to use a SAML token-based provider represents a realm. When you create a SAML-based authentication provider on the farm, you specify the realms, or web application URLs, that you want the IP-STS to recognize, one at a time. The first realm is specified when you create the SPTrustedIdentityTokenIssuer. You can add more realms after you create the SPTrustedIdentityTokenIssuer. Realms are specified by using syntax similar to the following:  `$realm = "urn:sharepoint:mysites"`. After you add the realm to the SPTrustedIdentityTokenIssuer, you must create an RP-STS trust with the realm identifier on the IP-STS server. This process involves specifying the URL for the web application.
     
-- **SPTrustedIdentityTokenIssuer** This is the object that is created on the SharePoint farm that includes the values necessary to communicate with and receive tokens from the IP-STS. When you create the SPTrustedIdentityTokenIssuer, you specify which token-signing certificate to use, the first realm, the claim that represents the identity claim, and any additional claims. You can only associate a token-signing certificate from an STS with one SPTrustedIdentityTokenIssuer. However, after you create the SPTrustedIdentityTokenIssuer, you can add more realms for additional web applications. After you add a realm to the SPTrustedIdentityTokenIssuer, you must also add it to the IP-STS as a relying party. The SPTrustedIdentityTokenIssuer object is replicated across servers in the SharePoint Server farm. 
+- **SPTrustedIdentityTokenIssuer** This is the object that is created on the SharePoint farm that includes the values necessary to communicate with and receive tokens from the IP-STS. When you create the SPTrustedIdentityTokenIssuer, you specify which token-signing certificate to use, the first realm, the claim that represents the identity claim, and any other claims. You can only associate a token-signing certificate from an STS with one SPTrustedIdentityTokenIssuer. However, after you create the SPTrustedIdentityTokenIssuer, you can add more realms for extra web applications. After you add a realm to the SPTrustedIdentityTokenIssuer, you must also add it to the IP-STS as a relying party. The SPTrustedIdentityTokenIssuer object is replicated across servers in the SharePoint Server farm. 
     
 - **Relying party security token service (RP-STS)** In SharePoint Server, each web application that is configured to use a SAML provider is added to the IP-STS server as an RP-STS entry. A SharePoint Server farm can include multiple RP-STS entries. 
     
-- **Identity provider security token service (IP-STS)** This is the secure token service in the claims environment that issues SAML tokens on behalf of users who are included in the associated user directory. 
+- **Identity provider security token service (IP-STS)** This service is the secure token one in the claims environment that issues SAML tokens on behalf of users who are included in the associated user directory. 
     
 The following diagram shows the SharePoint Server SAML token claims architecture.
   
@@ -263,7 +263,7 @@ The following diagram shows the SharePoint Server SAML token claims architecture
 
 ![SharePoint claims authentication components](../media/Claims_architecture1.gif)
   
-The SPTrustedIdentityTokenIssuer object is created with several parameters, which include the following:
+The SPTrustedIdentityTokenIssuer object is created with several parameters, which include:
   
 - A single identity claim.
     
@@ -279,17 +279,17 @@ The SPTrustedIdentityTokenIssuer object is created with several parameters, whic
     
 - Multiple claims mappings.
     
-To implement SAML token-based authentication with SharePoint Server, use the following steps which require planning in advance:
+To implement SAML token-based authentication with SharePoint Server, implement the following steps that require planning in advance:
   
 1. Export the token-signing certificate from the IP-STS. Copy the certificate to a server in the SharePoint Server farm.
     
-2. Define the claim that will be used as the unique identifier of the user. This is known as the identity claim. The user principal name (UPN) or user e-mail name is frequently used as the user identifier. Coordinate with the administrator of the IP-STS to determine the correct identifier because only the owner of the IP-STS knows the value in the token that will always be unique per user. Identifying the unique identifier for the user is part of the claims-mapping process. You use Microsoft PowerShell to create claims mappings.
+2. Define the claim that will be used as the unique identifier of the user. This claim is known as the identity claim. The user principal name (UPN) or user e-mail name is frequently used as the user identifier. Coordinate with the administrator of the IP-STS to determine the correct identifier because only the owner of the IP-STS knows the value in the token that will always be unique per user. Identifying the unique identifier for the user is part of the claims-mapping process. You use Microsoft PowerShell to create claims mappings.
     
-3. Define additional claims mappings. Define the additional claims from the incoming token that the SharePoint Server farm will use. User roles are an example of a claim that can be used to assign permissions to resources in the SharePoint Server farm. All claims from an incoming token that do not have a mapping will be discarded.
+3. Define extra claims mappings. Define the extra claims from the incoming token that the SharePoint Server farm will use. User roles are an example of a claim that can be used to assign permissions to resources in the SharePoint Server farm. All claims from an incoming token that do not have a mapping will be discarded.
     
-4. Use PowerShell to create a new authentication provider to import the token-signing certificate. This process creates the **SPTrustedIdentityTokenIssuer**. During this process, you specify the identity claim and additional claims that you have mapped. You must also create and specify a realm that is associated with the first SharePoint web applications that you are configuring for SAML token-based authentication. After you create the **SPTrustedIdentityTokenIssuer**, you can create and add more realms for additional SharePoint web applications. This is how you configure multiple web applications to use the same **SPTrustedIdentityTokenIssuer**.
+4. Use PowerShell to create a new authentication provider to import the token-signing certificate. This process creates the **SPTrustedIdentityTokenIssuer**. During this process, you specify the identity claim and extra claims that you have mapped. Create and specify a realm that is associated with the first SharePoint web applications that you are configuring for SAML token-based authentication. After you create the **SPTrustedIdentityTokenIssuer**, you can create and add more realms for extra SharePoint web applications. This procedure enables you to configure multiple web applications to use the same **SPTrustedIdentityTokenIssuer**.
     
-5. For each realm that you add to the **SPTrustedIdentityTokenIssuer**, you must create an RP-STS entry on the IP-STS. You can do this before the SharePoint web application exists. Regardless, you must plan the URL before you create the web applications.
+5. For each realm that you add to the **SPTrustedIdentityTokenIssuer**, you must create an RP-STS entry on the IP-STS. You can create this entry before the SharePoint web application exists. Regardless, you must plan the URL before you create the web applications.
     
 6. For an existing or new SharePoint web application, configure it to use the newly created authentication provider. The authentication provider is displayed as a trusted identity provider in Central Administration when you create a web application. 
     
