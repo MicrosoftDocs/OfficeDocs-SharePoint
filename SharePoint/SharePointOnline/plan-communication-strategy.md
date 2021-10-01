@@ -43,7 +43,7 @@ Review popular communication scenarios to get familiar with the different types 
 
 **Outcome:** The outcome will allow frontline and hybrid workers to feel connected and informed while providing easy access to common tasks and tools all in one place. 
 
-**Get started:**[Learn more about setting up Viva Connections.](guide-to-setting-up-viva-connections.md)
+**Get started:** [Learn more about setting up Viva Connections.](guide-to-setting-up-viva-connections.md)
 
 
 ### Scenario B: Plan, build, and launch a home site in SharePoint
@@ -58,7 +58,7 @@ Review popular communication scenarios to get familiar with the different types 
 
 **Outcome:** The outcome of the landing experience allows all employees to easily catch up on organizational news, access popular resources, and find help and support.
 
-**Get started:**[Learn more about how to set a SharePoint home site.](home-site-plan.md)
+**Get started:** [Learn more about how to set a SharePoint home site.](home-site-plan.md)
 
 
 ### Scenario C: Plan and produce a town hall for your organization
@@ -73,7 +73,7 @@ Review popular communication scenarios to get familiar with the different types 
 
 **Outcome:** The outcome of this scenario is a large region or division of an organization engages with new information, resources, messages, and direction during a live event that’s recorded and can be viewed later.
 
-**Get started:**[Learn more about how to plan and produce a town hall using Yammer.](hold-town-hall-using-yammer.md)
+**Get started:** [Learn more about how to plan and produce a town hall using Yammer.](hold-town-hall-using-yammer.md)
 
 
 
@@ -89,7 +89,7 @@ Review popular communication scenarios to get familiar with the different types 
 
 **Outcome:** The outcome will allow for relevant news to show up to the right audience on devices and in apps that are already being used in the flow of work.
 
-**Get started:**[Learn more about how to distribute organizational news.](distribute-corporate-news-to-your-organization.md)
+**Get started:** [Learn more about how to distribute organizational news.](distribute-corporate-news-to-your-organization.md)
 
 
 
@@ -105,7 +105,7 @@ Review popular communication scenarios to get familiar with the different types 
 
 **Outcome:** The outcome will be a sustainable communications channel that connects people and provides learning opportunities beyond typical leadership announcements.
 
-**Get started:**[Learn more about how to connect leadership with your organization.](leadership-connection.md)
+**Get started:** [Learn more about how to connect leadership with your organization.](leadership-connection.md)
 
 
 
@@ -121,7 +121,7 @@ Review popular communication scenarios to get familiar with the different types 
 
 **Outcome:** The outcome makes new employees feel welcome and understand who and where to go to for help and more information.
 
-**Get started:**[Learn more about how to plan and launch a new employee onboarding program.](onboard-employees.md)
+**Get started:** [Learn more about how to plan and launch a new employee onboarding program.](onboard-employees.md)
 
 
 ## Up next:
