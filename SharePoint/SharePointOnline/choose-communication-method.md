@@ -12,7 +12,6 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - m365solution-corpcomms
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Select your communication solution and get started planning"
 ---
 
