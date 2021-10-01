@@ -20,7 +20,7 @@ description: "Learn how to distribute news within your organization."
 
 When you have organization-level announcements, CEO messages, philanthropic highlights, quarterly growth reports, or any other important stories that you want to share with your entire organization, you can create an organization news site where “official” or authoritative news can be posted and then distributed to your organization. News can be distributed on the SharePoint start page, on your home site, or on any page of a site where you want the news to be displayed. It’s also tightly integrated into Viva Connections for Teams Desktop and in the Viva Connections Feed where people can engage with corporate news wherever they are. 
 
-When news is distributed from an organization news site, it gets special visual treatment (see the "NEWS @ CONTOSO" color block below).
+When news is distributed from an organization news site, it gets special visual treatment (see the **"NEWS @ CONTOSO"** color block below).
 
 ![Image of example organization news posts](media/org-news-example.png)
 
