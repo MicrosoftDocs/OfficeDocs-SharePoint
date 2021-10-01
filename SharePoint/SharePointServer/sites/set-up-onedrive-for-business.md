@@ -37,7 +37,7 @@ When setting up Microsoft OneDrive in your SharePoint Server on-premises environ
     
 Before proceeding with setup, review planning considerations you might need to address that are described in [Plan for OneDrive in SharePoint Server](onedrive-for-business-planning.md).
 
-Learn about Microsoft OneDrive in [OneDrive guide for enterprises for SharePoint in Microsoft 365](/OneDrive/plan-onedrive-enterprise.md).
+Learn about [OneDrive in Microsoft 365](/OneDrive/plan-onedrive-enterprise.md).
   
 ## Set up the required services
 <a name="setup"> </a>
