@@ -12,13 +12,12 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - m365solution-corpcomms
-ROBOTS: NOINDEX, NOFOLLOW
-description: "Learn more about common communication scenarios and solutions"
+description: "Learn more about popular communication scenarios and solutions"
 ---
 
-# Step 1: Review common communication scenarios and solutions
+# Step 1: Review popular communication scenarios and solutions
 
-Review common scenarios to get familiar with the different types of organizational structures and details that will help narrow down communication options, considerations, and potential solutions. Then, learn about Microsoft 365 communication applications and how to scope your audience(s) and determine the audience profile. Finally, pick a solution and get started planning for your specific scenario.
+Review popular communication scenarios to get familiar with the different types of organizational structures and details that will help narrow down potential solutions. Then, learn about Microsoft 365 communication applications, how to scope your audience(s) and determine the audience profile. Finally, pick a solution and get started planning for your specific scenario.
 <br>
 <br>
 
@@ -26,7 +25,7 @@ Review common scenarios to get familiar with the different types of organization
 | Review scenarios and solutions    | Learn about methods |Scope audience   |Get started planning   |
 | :------------------: | :------------------: |:---------------:|:---------------:|
 | ![Image of a check list icon](media/task-check.png)  |   ![Image of a light bulb icon](media/bulb-blue.png) |   ![Image of a user in focus icon](media/icon-plan-personalize.png) | ![Image of a clipboard icon](media/icon-plan-plan.png) |
-| Learn about common communication scenarios|Review Microsoft 365 communication applications   | Identify audience, preferences, and scope audience size  |Get started planning for your specific scenario   |
+| Learn about common communication scenarios|Review Microsoft 365 communication applications   | Identify audience, preferences, and size  |Get started planning for your specific scenario   |
 
 
 ### Scenario A: Use Viva Connections as a gateway to employee experiences
@@ -36,22 +35,22 @@ Review common scenarios to get familiar with the different types of organization
 
 ![Conceptual image of Viva Connections.](media/cc-viva-connections.png)
 
-**Goals:** You need to engage, inform, and connect thousands of frontline workers while in the field on a mobile device. The goal is to streamline and target experiences from across SharePoint, Microsoft Teams, Yammer, and Stream into one curated and branded employee experience. 
+**Goals:** You need to engage, inform, and connect thousands of frontline and hybrid workers while in the field on a mobile device or at their desk. You want to streamline and target content from across SharePoint, Microsoft Teams, Yammer, and Stream into one curated and branded employee experience. 
 <br>
 
 **Considerations:** Your organization currently uses SharePoint news posts to share essential and time-sensitive information and event recordings that need to reach frontline workers. Additionally, building community and culture among the organizational is a priority and you want to make sure workers in the field can easily engage and participate in social channels. Some tools, resources, conversations, and news are more important to specific audiences and need to be highlighted in the mobile experience. 
 <br>
 
-**Outcome:** The outcome will allow frontline workers to feel connected and informed while providing easy access to common tasks and tools all in one place. 
+**Outcome:** The outcome will allow frontline and hybrid workers to feel connected and informed while providing easy access to common tasks and tools all in one place. 
 
-**Get started:**[Learn more about setting up Viva Connections.](guide-to-setting-up-viva-connections.md)
+**Get started:** [Learn more about setting up Viva Connections.](guide-to-setting-up-viva-connections.md)
 
 
-### Scenario B: Plan, create, and launch a home site in SharePoint
+### Scenario B: Plan, build, and launch a home site in SharePoint
 
 ![Conceptual image of how to launch a SharePoint home site.](media/cc-home-site.png)
 
-**Goals:** You need to create a landing place in your organization’s internal networking of sites – also called an intranet. The goal is to create a gateway to the intranet to help everyone at your organization get easily orientated to the tools, resources, and news available to them. 
+**Goals:** You need to create a landing place in your organization’s internal networking of sites – also called an intranet. You want to create a gateway to the intranet to help everyone at your organization get easily orientated to the tools, resources, and news available to them. 
 <br>
 
 **Considerations:** The same resources and functionality need to be available on a mobile device. Your organization has many offices in more than one country, so this landing destination needs to be available in more than one language. Additionally, some portals, news, and resources will be more relevant to certain regions and departments and should be highlighted to groups of viewers. 
@@ -59,7 +58,7 @@ Review common scenarios to get familiar with the different types of organization
 
 **Outcome:** The outcome of the landing experience allows all employees to easily catch up on organizational news, access popular resources, and find help and support.
 
-**Get started:**[Learn more about how to set a SharePoint home site.](home-site-plan.md)
+**Get started:** [Learn more about how to set a SharePoint home site.](home-site-plan.md)
 
 
 ### Scenario C: Plan and produce a town hall for your organization
@@ -74,7 +73,7 @@ Review common scenarios to get familiar with the different types of organization
 
 **Outcome:** The outcome of this scenario is a large region or division of an organization engages with new information, resources, messages, and direction during a live event that’s recorded and can be viewed later.
 
-**Get started:**[Learn more about how to plan and produce a town hall.](hold-town-hall-using-yammer.md)
+**Get started:** [Learn more about how to plan and produce a town hall using Yammer.](hold-town-hall-using-yammer.md)
 
 
 
@@ -90,7 +89,7 @@ Review common scenarios to get familiar with the different types of organization
 
 **Outcome:** The outcome will allow for relevant news to show up to the right audience on devices and in apps that are already being used in the flow of work.
 
-**Get started:**[Learn more about how to distribute organizational news.](distribute-corporate-news-to-your-organization.md)
+**Get started:** [Learn more about how to distribute organizational news.](distribute-corporate-news-to-your-organization.md)
 
 
 
@@ -106,7 +105,7 @@ Review common scenarios to get familiar with the different types of organization
 
 **Outcome:** The outcome will be a sustainable communications channel that connects people and provides learning opportunities beyond typical leadership announcements.
 
-**Get started:**[Learn more about how to connect leadership with your organization.](leadership-connection.md)
+**Get started:** [Learn more about how to connect leadership with your organization.](leadership-connection.md)
 
 
 
@@ -122,7 +121,7 @@ Review common scenarios to get familiar with the different types of organization
 
 **Outcome:** The outcome makes new employees feel welcome and understand who and where to go to for help and more information.
 
-**Get started:**[Learn more about how to plan and launch a new employee onboarding program.](onboard-employees.md)
+**Get started:** [Learn more about how to plan and launch a new employee onboarding program.](onboard-employees.md)
 
 
 ## Up next:
