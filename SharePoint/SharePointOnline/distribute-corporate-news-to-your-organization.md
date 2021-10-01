@@ -11,7 +11,7 @@ ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid:
 ms.collection:  
-ms.custom:
+  - m365solution-corpcomms
 description: "Learn how to distribute news within your organization."
 
 ---
