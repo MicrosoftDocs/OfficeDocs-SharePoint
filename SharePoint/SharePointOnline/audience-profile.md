@@ -17,7 +17,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Step 3: Scope audience size and determine audience preferences
-Learn about the needs and preferences of your audience before you get started planning your communication strategy. Consider who needs the information you will be communicating and the best way to reach them. Scope the size of your audience and then determine the right channels for your communication. 
+Learn about the needs and preferences of your audience before you get started planning your communication strategy. Consider who needs the information you will be communicating and the best way to reach them. Scope the size of your audience and then determine the right channels for communications. 
 <br>
 
 ### Best practices when scoping audience:
