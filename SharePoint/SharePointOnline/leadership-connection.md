@@ -39,10 +39,13 @@ Microsoft 365 can help your organization’s leadership teams connect with emplo
 
 <br>
 
+| Stage                  | Tasks                 | 
+| :------------------- | :------------------- |
+| **Plan**  | - Define audience profile and scope audience size <br> - Align with stakeholders <br> - Develop a support team that will make sure content is relevant, plan future events, and publish news <br> - Consider multi-geo and multi-lingual options <br> - Find corporate sponsorship and champions <br> - Determine success metrics | 
+| **Build** | - Create a SharePoint leadership site <br> - Start a new community in Yammer <br> - Set up news that can be shared in SharePoint, Teams, and Outlook <br> - Use M365 groups to provide access to large audiences <br> - Use audience targeting to make sure your audience can find the right content <br> - Get user feedback before launching your communications <br> - Plan a kickoff event and identify promotional channels | 
+| **Launch**  | - Make sure the leadership SharePoint site, Yammer community, and event invites have been shared with the right audiences <br> - Send email invites to the kickoff event <br> - Use Microsoft Teams and Yammer to post messages about the kickoff event <br> - Equip champions and corporate sponsors with promotional materials <br> - Produce and host a live event with Q&A <br> - Create feedback channels <br> - Post the event recording on the leadership connection site | 
+| **Maintain**   | - Ensure content stays relevant <br> - Audit M365 group membership, access, and settings periodically <br> - Develop a news publishing cycle <br> - Schedule regular events and share them in advance |
 
-| Plan               | Build                 | Launch          | Maintain |
-| :------------------- | :-------------------  |:------------------- | :------------------- |
-| - Define audience profile and scope audience size <br> - Align with stakeholders <br> - Develop a support team that will make sure content is relevant, plan future events, and publish news <br> - Consider multi-geo and multi-lingual options <br> - Find corporate sponsorship and champions <br> - Determine success metrics | - Create a SharePoint leadership site <br> - Start a new community in Yammer <br> - Set up news that can be shared in SharePoint, Teams, and Outlook <br> - Use M365 groups to provide access to large audiences <br> - Use audience targeting to make sure your audience can find the right content <br> - Get user feedback before launching your communications <br> - Plan a kickoff event and identify promotional channels | - Make sure the leadership SharePoint site, Yammer community, and event invites have been shared with the right audiences <br> - Send email invites to the kickoff event <br> - Use Microsoft Teams and Yammer to post messages about the kickoff event <br> - Equip champions and corporate sponsors with promotional materials <br> - Produce and host a live event with Q&A <br> - Create feedback channels <br> - Post the event recording on the leadership connection site | - Ensure content stays relevant <br> - Audit M365 group membership, access, and settings periodically <br> - Develop a news publishing cycle <br> - Schedule regular events and share them in advance |
 
 
 ## Plan your leadership connection strategy
