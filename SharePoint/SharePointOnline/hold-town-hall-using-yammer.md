@@ -127,7 +127,7 @@ Promote the town hall before the event date where your target audience usually g
 
 **Promote in Yammer**
 
-![Image of the Yammer homepage](media/th4.png)
+![Image of the Yammer homepage for a community](media/th4.png)
 
 Drive pre-event awareness in Yammer. When holding a town hall in Yammer, audience engagement begins as soon as the event has been created. Attendees can promote and discover the upcoming event through the event banner (when in the live feed), event notifications, and by accessing the Event tab on mobile.
 
