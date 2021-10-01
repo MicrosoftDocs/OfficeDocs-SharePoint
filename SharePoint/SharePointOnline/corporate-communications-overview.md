@@ -1,5 +1,5 @@
 ---
-title: "Corporate communications overview"
+title: "Organizational communications overview"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -13,13 +13,12 @@ search.appverid: MET150
 ms.collection: 
   - m365solution-overview
   - m365solution-corpcomms
-ROBOTS: NOINDEX, NOFOLLOW
-description: "Learn about planning and managing corporate communications for your organization"
+description: "Learn about planning and managing Organizational communications for your organization"
 ---
 
-# Corporate communications: Guidance, methods, and products
+# Organizational communications: Guidance, methods, and products
 
-Employee engagement is a significant contributor to workplace satisfaction, loyalty, and productivity at any organization. Across Microsoft 365, there are multiple ways to communicate. Knowing which method or combinations of methods to use and when depends on your audience and the communication culture of your organization.
+Employee engagement is a significant contributor to workplace satisfaction, loyalty, and productivity at any organization. Across Microsoft 365, there are multiple ways to communicate. Knowing which method (or combinations of methods) to use and when to use them depends on your audience and the communication culture of your organization.
 
 Learn how to keep everyone informed and engaged using SharePoint, Microsoft Teams, Yammer, Stream, and Viva Connections. Learn more about the powerful strategies and communication tools available to you that help drive engagement in your organization.
 
@@ -27,7 +26,7 @@ Learn how to keep everyone informed and engaged using SharePoint, Microsoft Team
 
 - Discover applications best suited for your communication goals and audience
 - Get started planning for specific scenarios like Viva Connections, holding a town hall, or distributing organizational news
-- Understand access, technical, and license requirements before getting started
+- Understand technical and license requirements before getting started
 - Learn how to launch, manage, and maintain corporate communications over time
 
 >[!NOTE]
@@ -36,11 +35,11 @@ Learn how to keep everyone informed and engaged using SharePoint, Microsoft Team
 
 
 ## Overview of set-up
-Start by learning what Microsoft 365 tools can help for your specific scenario and how to scope your audience. Then get started planning by learning how to create, launch, measure, and maintain a one-time communication or communications over time.
+Start by learning about Microsoft 365 tools that are designed for your specific scenario. Then, learn how to scope your audience. Finally, get started planning by learning how to create, launch, measure, and maintain a one-time communication or communications over time.
 <br>
 <br>
 
-| Step 1: Learn more about tools and define your audience profile    | Step 2: Identify the scenario(s) to meet your communication goal |Step 3: Plan, create, and launch your communication strategy   |Step 4: Manage and maintain communication and content over time   |
+| Step 1: Learn about tools and define your audience profile    | Step 2: Identify the scenario(s) to meet your communication goal |Step 3: Plan, build, and launch your communication strategy   |Step 4: Manage and maintain communication and content over time   |
 | :------------------: | :------------------: |:---------------:|:---------------:|
 | ![Image of a wayfinding sign icon.](media/icon-plan-organize.png)  |   ![Image of a thumb tack icon.](media/pin-blue.png) |   ![Image of a checklist icon.](media/numbered-blue.png) | ![Image of a calendar icon.](media/icon-calendar.png) |
 | Review common scenarios & outcomes|Select a scenario(s)   | Gather requirements and content  |Update permissions and settings as needed   |
@@ -48,7 +47,7 @@ Start by learning what Microsoft 365 tools can help for your specific scenario a
 | Scope your audience                   | Review considerations based on audience preferences        | Prepare and test environment             | Maintain performant sites, pages, and lists         |
 |Check technical and license requirements          | Learn how to use and integrate M365 apps    | Determine success metrics & plan the launch  |Retire content when it’s no longer needed          |
 
-#### Step 1: Learn more about tools and define your audience profile
+#### Step 1: Learn more about communication tools and define your audience profile
 Start by getting familiar with [common corporate communications scenarios](plan-communication-strategy.md). Next, [review Microsoft 365 communication apps](review-communication-apps.md) to make sure you understand engagement opportunities and analytics options. Then, learn how to [define and scope your audience](audience-profile.md). After following these basic steps, you will be ready to select the right communication solution that fits your organization's needs.
 
 
@@ -56,7 +55,7 @@ Start by getting familiar with [common corporate communications scenarios](plan-
 Once you have defined your audience profile and scoped the size of your audience,you can [choose a corporate communication solution](choose-communication-method.md) or combination of solutions. Each communication solution covers step-by-step guidance and includes best practices to ensure your success.
 
 
-#### Step 3: Plan, create, and launch your communication strategy
+#### Step 3: Plan, build, and launch your communication strategy
 Once you've selected a solution or combination of solutions, you'll learn how to plan, build, and launch. Each communication solution can be customized and integrated with other communication solutions depending on your goals. Understanding your audience's needs and how they currently use M365 apps will heavily influence how you make decisions.   
 
 
