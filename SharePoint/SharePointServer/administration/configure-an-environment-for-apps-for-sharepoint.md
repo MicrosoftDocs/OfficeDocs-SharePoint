@@ -22,7 +22,7 @@ description: "Configure domain names, service applications, and URLs for apps fo
   
 To enable users to install and use apps for SharePoint in their sites, configure your environment to support them. This article describes how to configure your environment to support apps. Use the [Plan for apps for SharePoint Server](plan-for-apps-for-sharepoint.md) article to review options and determine the values to use for configuration settings in this article.
 
-Learn about [Manage apps using the App Catalog for SharePoint in Microsoft 365](../../SharePointOnline/use-app-catalog.md).
+Learn about [managing apps using the App Catalog for SharePoint in Microsoft 365](../../SharePointOnline/use-app-catalog.md).
   
 ## Before you begin
 <a name="BeforeyouBegin"> </a>
