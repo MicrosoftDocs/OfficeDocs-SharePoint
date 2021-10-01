@@ -70,13 +70,9 @@ Since town halls reach broad and diverse audiences, you’ll want to consider th
 
 ### Learn about your audience
 
-Invest in learning what’s most important to your audience. Knowing your audience will help you determine how to effectively deliver your message, what speakers will resonate with your audience, how to moderate the town hall, and how to  structure the town hall.
+Invest in learning what’s most important to your audience. Knowing your audience will help you determine how to effectively deliver your message, what speakers will resonate with your audience, how to moderate the town hall, and how to  structure the town hall. [Learn more about how to scope and define your audience.](audience-profile.md)
 <br>
 
-<!-- This article is not yet available.
-Learn more about [how to scope and define your audience](https://review.docs.microsoft.com/SharePoint/audience-profile?branch=hokavian-corp-comms0) for your town hall. 
--->
-<br>
 
 ### Ensure content is accessible to everyone
 
