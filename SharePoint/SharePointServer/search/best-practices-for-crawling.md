@@ -24,7 +24,7 @@ Learn about best practices for crawling in SharePoint Server.
   
 The Search system crawls content to build a search index that users can run search queries against. This article contains suggestions as to how to manage crawls most effectively.
 
-Learn about [Manually requesting crawling and re-indexing of a site, a library, or a list for SharePoint in Microsoft 365](../../SharePointOnline/crawl-site-content.md).
+Learn about [Manually requesting crawling and re-indexing for SharePoint in Microsoft 365](../../SharePointOnline/crawl-site-content.md).
   
     
 ## Use the default content access account to crawl most content
