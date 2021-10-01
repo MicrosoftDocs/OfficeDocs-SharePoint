@@ -24,7 +24,7 @@ description: "Overview of SharePoint Server groups."
   
 You can manage users of SharePoint sites more efficiently if you assign permission levels to groups instead of to individual users. A SharePoint group is a set of individual users and can also include Active Directory Domain Services (AD DS) groups.
 
-Learn about [Comparing groups for SharePoint in Microsoft 365](/microsoft-365/admin/create-groups/compare-groups). 
+Learn about [groups in Microsoft 365](/microsoft-365/admin/create-groups/compare-groups). 
     
 ## Introduction
 
