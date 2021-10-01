@@ -171,9 +171,7 @@ The Viva Connections home page features a feed and dashboard you can use to prom
 |![Speaker icon](media/th-speaker.png)                | **Speaker**               | Consider each speaker the main attraction. This is the person delivering the message. Your town hall can feature more than one speaker. This can include the leader of an organization, a department, or even a subject matter expert. Your town hall can have more than one speaker.            |- Prepare presentations <br> - Prepare by testing audio and video quality before the presentation <br> - Configure the event streaming as needed <br> - Keep track of time             |
 |![Attendee icon](media/th-attendee.png)              | **Event attendee**                 | Each audience member attends town halls to gain insight or understanding of the talking point(s) of each speaker. Encourage audience engagement by taking advantage of the built-in Q&A and the open form conversation feature on Yammer.              |- Attend the town hall <br> - Ask the moderator questions <br> - Engage in related conversation with other audience members             |
 
-Learn more about [using PowerShell to set up live events and policies](/microsoftteams/teams-live-events/set-teams-live-events-policies-using-powershell).
- 
-Learn more about [producing and organizing a live event in Yammer](https://support.microsoft.com/office/organize-a-live-event-in-new-yammer-7338782a-4f0b-4fd0-a6c3-33625906ead1). 
+
 
 ### Host a town hall in Yammer
 
@@ -192,7 +190,7 @@ Learn more about [producing a live event in Yammer using an external device](htt
 
 #### Step 3: Manage Engagement
 
-Audience members and moderators can engage during the event using the conversation bar. 
+Audience members and moderators can engage during the event using the conversation bar. Be sure to record the event so people who weren’t able to attend live can watch later. 
 
 ![Image of the mobile Yammer homepage](media/th9.png)   ![Image of the desktop Yammer homepage](media/th10.png)
 
@@ -200,7 +198,7 @@ Yammer allows for a live Q&A during the event, as well as freeform conversation 
 
 Learn more about [using Q&A in a Yammer community](https://support.microsoft.com/office/use-questions-and-answers-in-a-yammer-community-a4f1b722-d1bf-42be-a592-7288c7c0b895).  
 
-Be sure to record the event so people who weren’t able to attend live can watch later. 
+
 
 
 ## Post-event engagement
@@ -235,3 +233,10 @@ These insights provide information that allows you to measure community growth b
 
 Learn more about [viewing community insights in Yammer](https://support.microsoft.com/office/view-community-insights-in-yammer-48bc648e-b567-49d7-b2b5-5fea23777c46#:~:text=How%20to%20see%20community%20insights%20in%20Yammer.%20In,highlights%20two%20metrics%3A%20Active%20People%20and%20Posted%20Messages.). 
 
+
+
+## More Resources
+
+[Use PowerShell to set up live events and policies](/microsoftteams/teams-live-events/set-teams-live-events-policies-using-powershell).
+ 
+[Produce and organize a live event in Yammer](https://support.microsoft.com/office/organize-a-live-event-in-new-yammer-7338782a-4f0b-4fd0-a6c3-33625906ead1). 
