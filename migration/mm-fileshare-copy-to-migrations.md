@@ -55,6 +55,7 @@ An incremental check of your SharePoint destination environment is performed. Fi
 |**Status**|**Result**|
 |:-----|:-----|
 |Modified time of the source file is earlier than the modified time of the target file.  <br/> |File will not be migrated.  <br/> |
+|A file is removed from the source location.  <br/> |Already migrated files will remain in the target location.  <br/> |
 |Files or lists exist in the SharePoint target location.  <br/> |Migration will skip those existing objects during scan.  <br/> |
 |Time stamp on files or object in the source location is newer in the source <br/> |The newer files are migrated.  <br/> |
 |Source is a file share.  <br/> |Validation for migration will be based on the file/folder path.  <br/> |
