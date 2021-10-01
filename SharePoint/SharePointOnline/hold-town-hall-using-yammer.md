@@ -14,10 +14,10 @@ localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+- m365solution-corpcomms
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to hold a town hall using Yammer"
 ---
 
@@ -30,8 +30,7 @@ Organizations often call their large-scale events for employees a town hall. Som
 Get started preparing and implementing a town hall that is on demand, secure, accessible to all audiences, and allows you to keep the conversation going after the live event.  
 
 
-
-Town halls can help bring your organization together by:  
+**Town halls can help bring your organization together by:**
 
 - Sharing information in a meaningful and engaging format
 - Building trust and connections across an organization
@@ -41,8 +40,6 @@ Town halls can help bring your organization together by:
 - Using live event analytics to understand event reach and engagement 
 - Connecting employees and teams through hybrid work
 
-Review [town Hall tools](#review-microsoft-365-town-hall-tools)
-<br>
 
 
 ![Infographic of the town hall production and engagement cycle](media/th1.png)
@@ -52,7 +49,7 @@ Review [town Hall tools](#review-microsoft-365-town-hall-tools)
 
 
 | Plan                 | Promote                | Produce         | Host
-| :-------------- | :--------------- |:-------------|:---------------|
+| :-------------: | :--------------: |:------------:|:--------------:|
 | ![Planning icon](media/th-lb2.png)  | ![Promoting icon](media/th-promote.png) | ![Producing icon](media/th-produce.png)| ![Hosting icon](media/th-host.png) |
 |- Define audience profile and scope audience size <br>  - Align with stakeholders and define messaging <br>  - Define and speaking order <br> - Consider multi-geo and multi-lingual options <br> - Review Microsoft 365 tools to help produce and host the live event <br> - Plan and organize pre- and post-event communication and promotion strategies   | - Identify channels where the town hall can be promoted <br> - Consider where an event recording can be stored and can be accessed across the organization  | - Identify and assign the roles and tasks <br> - Review the set-up checklist <br> - Prepare to moderate live Q&A <br> - View attendee insights <br> - Measure engagement  |- Share the recording to communication channels (Yammer homepage, Outlook, Teams, Viva Connections Feed, and Feed web part in SharePoint) <br> - Make the recording sharable for employees <br> - View Attendee insights <br>  - Measure engagement             |
 
@@ -117,20 +114,20 @@ Conduct a scalable town hall that engages your audience before, during, and afte
 
 ### Use Yammer to host your town hall event
 
-Yammer enables people to connect with each other across an entire organization. It helps unite people who don’t often interact and gives them the ability to discover content and meet and engage with organization leaders.
+Yammer enables people to connect with each other across an entire organization. It helps unite people who don’t often interact and gives them the ability to discover content and meet and engage with organization leaders. Get started with [organizing live events in Yammer](https://teamworktools.azurewebsites.net/yammer/How%20to%20host%20a%20live%20event%20in%20Yammer%20Playbook.pdf) 
  
 
 >[!NOTE]
 >To host a live event in Yammer, your organization must have **Enforce Office 365 identity** selected, and you must be using Microsoft 365 connected Yammer groups. For more information, see [Enforce Office 365 identity for Yammer users](/yammer/configure-your-yammer-network/enforce-office-365-identity) and [Yammer and Microsoft 365 groups](/yammer/manage-yammer-groups/yammer-and-office-365-groups).
 
 
-Get started with [organizing live events in Yammer](https://teamworktools.azurewebsites.net/yammer/How%20to%20host%20a%20live%20event%20in%20Yammer%20Playbook.pdf) 
+
 
 
 
 ## Promote the town hall and manage engagement
 
-### Before the event
+Promote the town hall before the event date where your target audience usually gets announcements and updates. Then [manage engagement during the during the town hall](#host-a-town-hall-in-yammer) and [after the town hall.](#post-event-engagement)
 
 **Promote in Yammer**
 
@@ -163,9 +160,7 @@ Viva Connections is a digital platform built on the existing capabilities of Mic
 
 The Viva Connections home page features a feed and dashboard you can use to promote your event. Learn more about [Viva Connections](https://www.microsoft.com/microsoft-viva/connections).  By publishing news posts in SharePoint to promote your event, users will learn about it wherever the Viva Connections Feed is available in your organization.
 
-[Manage engagement during the during the town hall](#host-a-town-hall-in-yammer)
 
-[Manage engagement after the town hall](#post-event-engagement)
 
 <br>
 
@@ -186,20 +181,20 @@ Learn more about [producing and organizing a live event in Yammer](https://suppo
 
 ### Host a town hall in Yammer
 
-**Step 1: Get set up in Yammer**
+#### Step 1: Get set up in Yammer
 
 Creating and producing live events in Yammer requires Microsoft Stream and/ or Teams licenses and specific permissions. Yammer administrators can schedule live meetings in Yammer.  
 For events using an external app or device, you will need to have your Microsoft Stream license enabled.
 
 Learn more about [Permissions for scheduling, creating, and producing live events in Yammer](/yammer/manage-yammer-groups/yammer-live-events).
 
-**Step 2: Test Equipment**
+#### Step 2: Test Equipment
 
 Determine whether your speakers will be broadcasting from a web cam or a studio-produced broadcast.  Make sure all equipment needed to connect video and audio is secured and in place.  
  
 Learn more about [producing a live event in Yammer using an external device](https://support.microsoft.com/office/schedule-and-produce-a-live-event-in-new-yammer-using-an-external-app-or-device-975f596a-8fc5-4400-8bf5-7ec77ec18415). 
 
-**Step 3: Manage Engagement**
+#### Step 3: Manage Engagement
 
 Audience members and moderators can engage during the event using the conversation bar. 
 
