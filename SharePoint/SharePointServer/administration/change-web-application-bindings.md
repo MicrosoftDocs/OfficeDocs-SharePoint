@@ -23,15 +23,15 @@ description: "Learn how to change a web application bindings for SharePoint Serv
 You can now easily change the SharePoint web application IIS bindings in PowerShell through Central Administration. The SharePoint farm administrators can use the new **Edit** button available in the Web Application Management page in Central Administration, to select a web application's zone. From here they can change the IIS bindings, SSL certificate, and public URL of the web application's zone. 
  
 > [!NOTE]
-> This functionality is only available to user's who are a member of the local Administrators group on the server.
+> This functionality is available only to those users who are a member of the local Administrator's group on the server.
  
 This article provides detailed guidance for changing the IIS bindings of a web application.
 
-## Editing a web appliction bindings for SharePoint Server Subscription Edition
+## Editing a web application bindings for SharePoint Server Subscription Edition
 
 To configure the existing zone attached with the web application and set the port, URL, SSL certificate host header, do the following:
 
- 1. In Sharepoint, select **WEB APPLICATIONS** > **Edit** to edit the web application.
+ 1. To edit the web application, navigate to **SharePoint** > **WEB APPLICATIONS** and click **Edit**.
  
     ![Select-edit](../media/extend-exit.PNG)
     
@@ -54,7 +54,7 @@ To configure the existing zone attached with the web application and set the por
     
      ![edit-web-application-part2](../media/edit3.PNG)
 
-## Extending a web appliction bindings for SharePoint Server Subscription Edition
+## Extending a web application bindings for SharePoint Server Subscription Edition
 
 You can extend a web application into a zone with a set of Internet Information Services (IIS) bindings and alternate access mapping URLs, or you might decide that you want to use a different URL to reach the web application.
 
@@ -63,7 +63,7 @@ You can extend a web application into a zone with a set of Internet Information 
 
 To extend a web application to existing or new zone with port, URL, SSL certificate and host header specified, do the following:
 
- 1. In Sharepoint, select **WEB APPLICATIONS** > **Extend** to extend the web application.
+ 1. To extend the web application, navigate to **SharePoint** > **WEB APPLICATIONS** and click **Extend**.
     
       ![Select-extend](../media/extend-exit.PNG)
     
