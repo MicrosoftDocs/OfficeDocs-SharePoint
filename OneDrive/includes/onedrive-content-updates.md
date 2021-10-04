@@ -2,6 +2,14 @@
 
 
 
+## Week of September 27, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/29/2021 | [Use information barriers with OneDrive](/OneDrive/information-barriers) | modified |
+
+
 ## Week of September 13, 2021
 
 
