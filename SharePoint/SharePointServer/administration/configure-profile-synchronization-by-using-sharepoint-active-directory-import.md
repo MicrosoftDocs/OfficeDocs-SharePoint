@@ -114,40 +114,40 @@ To import profiles, you must have at least one synchronization connection to AD 
     
 7. Fill in the **Connection Settings** section by completing the following steps: 
     
-1. In the **Fully Qualified Domain Name** box, type the fully qualified domain name of the domain. 
+    1. In the **Fully Qualified Domain Name** box, type the fully qualified domain name of the domain. 
+        
+    2. In the **Authentication Provider Type** box, select the type of authentication provider. 
+        
+    3. If you select **Forms Authentication** or **Trusted Claims Provider Authentication**, select an authentication provider from the **Authentication Provider Instance** box. 
+        
+        The **Authentication Provider Instance** box lists only the authentication providers that are currently used by a web application. 
+        
+    4. In the **Account name** box, type the name of the account you want the AD import tool to use to perform the synchronization. Use the form  _\<DOMAIN\>_\ _\<UserName\>_. The synchronization account must have Replicate Directory permissions at the root of the forest.
+        
+    5. In the **Password** and **Confirm password** boxes, type the password for the account. 
+        
+    6. In the **Port** box, type the connection port you want the AD import tool to use to connect to AD DS when it performs the synchronization. 
+        
+    7. If a Secure Sockets Layer (SSL) connection is required to connect to the directory service, select **Use SSL-secured connection**.
+        
+        > [!IMPORTANT]
+        > If you use an SSL connection, you must export the certificate of the domain controller from the AD DS server and import the certificate into the synchronization server if the SSL certificate is not trusted by the SharePoint server(s).
+      
+    8. If you want to filter out users that are disabled in AD DS, select the **Filter out disabled users** checkbox. 
+        
+    9. If you want to filter the objects that you import from the directory service, in the **Filter in LDAP syntax for Active Directory Import** box, type a standard LDAP query expression to define the filter. 
+        
+    8. In the **Containers** section, click **Populate Containers**, and then select the containers from the directory service that you want to synchronize. All organizational units (OUs) that you select will be synchronized with their child OUs. There is currently no utility that allows you to select a parent OU while excluding any of its child OUs from synchronization.
     
-2. In the **Authentication Provider Type** box, select the type of authentication provider. 
-    
-3. If you select **Forms Authentication** or **Trusted Claims Provider Authentication**, select an authentication provider from the **Authentication Provider Instance** box. 
-    
-    The **Authentication Provider Instance** box lists only the authentication providers that are currently used by a web application. 
-    
-4. In the **Account name** box, type the name of the account you want the AD import tool to use to perform the synchronization. Use the form  _\<DOMAIN\>_\ _\<UserName\>_. The synchronization account must have Replicate Directory permissions at the root of the forest.
-    
-5. In the **Password** and **Confirm password** boxes, type the password for the account. 
-    
-6. In the **Port** box, type the connection port you want the AD import tool to use to connect to AD DS when it performs the synchronization. 
-    
-7. If a Secure Sockets Layer (SSL) connection is required to connect to the directory service, select **Use SSL-secured connection**.
-    
-    > [!IMPORTANT]
-    > If you use an SSL connection, you must export the certificate of the domain controller from the AD DS server and import the certificate into the synchronization server if the SSL certificate is not trusted by the SharePoint server(s).
-  
-8. If you want to filter out users that are disabled in AD DS, select the **Filter out disabled users** checkbox. 
-    
-9. If you want to filter the objects that you import from the directory service, in the **Filter in LDAP syntax for Active Directory Import** box, type a standard LDAP query expression to define the filter. 
-    
-8. In the **Containers** section, click **Populate Containers**, and then select the containers from the directory service that you want to synchronize. All organizational units (OUs) that you select will be synchronized with their child OUs. There is currently no utility that allows you to select a parent OU while excluding any of its child OUs from synchronization.
-
-    > [!NOTE]
-    > Filtering of objects only occurs during the initial import of that object. Changes to the filter post-import will not impact objects that have already been imported.
-    
-9. Click **OK**.
-    
-    The newly created connection is listed on the **Synchronization Connections** page. 
-    
-    > [!TIP]
-    > On the **Synchronization Connections** page, you can click the name of a synchronization connection, and then click **Edit** or **Delete** to edit or delete the connection. 
+        > [!NOTE]
+        > Filtering of objects only occurs during the initial import of that object. Changes to the filter post-import will not impact objects that have already been imported.
+        
+    9. Click **OK**.
+        
+        The newly created connection is listed on the **Synchronization Connections** page. 
+        
+        > [!TIP]
+        > On the **Synchronization Connections** page, you can click the name of a synchronization connection, and then click **Edit** or **Delete** to edit or delete the connection. 
   
  **To map user profile properties**
   
