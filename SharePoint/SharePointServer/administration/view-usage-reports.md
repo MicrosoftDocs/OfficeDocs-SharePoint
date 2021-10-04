@@ -51,7 +51,7 @@ The Popularity Trends report is an Excel report that shows daily and monthly hit
 > [!IMPORTANT]
 > In a cross-site publishing scenario, the procedures below are performed on the authoring site collection. 
   
- **To view the Popularity Trends report for a site collection**
+**To view the Popularity Trends report for a site collection**
   
 1. Verify that the user account that is performing this procedure is a member of the Site Collection Administrators group. 
     
@@ -68,7 +68,7 @@ The Popularity Trends report is an Excel report that shows daily and monthly hit
     > [!NOTE]
     > The daily count for **Unique Users** shows the number of unique users per day. The monthly count for **Unique Users** shows the sum of unique users per day within the month ( SUM(UU/Day)) 
   
- **To view the Popularity Trends report for a site**
+**To view the Popularity Trends report for a site**
   
 1. Verify that the user account that is performing this procedure is a member of the default Owners group.
     
@@ -85,7 +85,7 @@ The Popularity Trends report is an Excel report that shows daily and monthly hit
     > [!NOTE]
     > The daily count for **Unique Users** shows the number of unique users per day. The monthly count for **Unique Users** shows the sum of unique users per day within the month ( SUM(UU/Day)) 
   
- **To view the Popularity Trends report for a library or list item**
+**To view the Popularity Trends report for a library or list item**
   
 1. Verify that the user account that is performing this procedure is a member of the Visitors group.
     
@@ -93,9 +93,9 @@ The Popularity Trends report is an Excel report that shows daily and monthly hit
     
 3. Select the item that you want to view the Popularity Trends report for, and then do one of the following tasks:
     
-  - For a library, click the **FILES** tab, and then, on the ribbon, click **Popularity Trends**.
+    - For a library, click the **FILES** tab, and then, on the ribbon, click **Popularity Trends**.
     
-  - For a list, click the **ITEMS** tab, and then, on the ribbon, click **Popularity Trends**.
+    - For a list, click the **ITEMS** tab, and then, on the ribbon, click **Popularity Trends**.
     
     > [!NOTE]
     > If you select more than one item, the Popularity Trends report will only display statistics for the View usage event type. To see statistics for all usage event types, select one item only. 
@@ -115,26 +115,28 @@ The Most Popular Items report lists the most popular items per usage event type 
 > [!IMPORTANT]
 > In a cross-site publishing scenario, the procedures below are performed on the authoring site collection. 
   
- **To view the Most Popular Items report for all items in a SharePoint library or list**
+**To view the Most Popular Items report for all items in a SharePoint library or list**
   
 1. Verify that the user account that is performing this procedure is a member of the Visitors group.
     
 2. In the site collection, browse to the library or list for which you want to view the Most Popular Items report, and then do one of the following tasks:
     
-  - For a library, click the **LIBRARY** tab, and then, on the ribbon, click **Most Popular Items**.
+    - For a library, click the **LIBRARY** tab, and then, on the ribbon, click **Most Popular Items**.
     
-  - For a list, click the **LIST** tab, and then, on the ribbon, click **Most Popular Items**.
+    - For a list, click the **LIST** tab, and then, on the ribbon, click **Most Popular Items**.
     
 3. By default, the report lists items in the library or list that has most views for the Recent time period. To view other rankings, do the following tasks:
     
-  - To view a report that lists items for a different usage event type, select a usage event type from the menu at the top of the page.
+    - To view a report that lists items for a different usage event type, select a usage event type from the menu at the top of the page.
     
-  - To view a report that list items for the complete time period the item was available, click **Ever**.
+    - To view a report that list items for the complete time period the item was available, click **Ever**.
     
-  - To search within the report list, type a search word in the search box on the top of the page.
+    - To search within the report list, type a search word in the search box on the top of the page.
     
     > [!NOTE]
-    > The usage event **Most Views by Unique Users** shows a ranking based on the sum of unique users per day ( SUM(UU/day)) within the specified time period. > To view the Popularity Trends report for a specific item in the list, click the **Popularity Trends** link located under the item URL. 
+    > The usage event **Most Views by Unique Users** shows a ranking based on the sum of unique users per day ( SUM(UU/day)) within the specified time period.
+    >
+    > To view the Popularity Trends report for a specific item in the list, click the **Popularity Trends** link located under the item URL. 
   
 ## See also
 <a name="BKMK_MostPopular"> </a>
