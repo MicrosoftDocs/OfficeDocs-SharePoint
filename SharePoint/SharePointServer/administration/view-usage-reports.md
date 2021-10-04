@@ -51,7 +51,7 @@ The Popularity Trends report is an Excel report that shows daily and monthly hit
 > [!IMPORTANT]
 > In a cross-site publishing scenario, the procedures below are performed on the authoring site collection. 
   
- **To view the Popularity Trends report for a site collection**
+**To view the Popularity Trends report for a site collection**
   
 1. Verify that the user account that is performing this procedure is a member of the Site Collection Administrators group. 
     
@@ -68,7 +68,7 @@ The Popularity Trends report is an Excel report that shows daily and monthly hit
     > [!NOTE]
     > The daily count for **Unique Users** shows the number of unique users per day. The monthly count for **Unique Users** shows the sum of unique users per day within the month ( SUM(UU/Day)) 
   
- **To view the Popularity Trends report for a site**
+**To view the Popularity Trends report for a site**
   
 1. Verify that the user account that is performing this procedure is a member of the default Owners group.
     
@@ -85,7 +85,7 @@ The Popularity Trends report is an Excel report that shows daily and monthly hit
     > [!NOTE]
     > The daily count for **Unique Users** shows the number of unique users per day. The monthly count for **Unique Users** shows the sum of unique users per day within the month ( SUM(UU/Day)) 
   
- **To view the Popularity Trends report for a library or list item**
+**To view the Popularity Trends report for a library or list item**
   
 1. Verify that the user account that is performing this procedure is a member of the Visitors group.
     
@@ -115,7 +115,7 @@ The Most Popular Items report lists the most popular items per usage event type 
 > [!IMPORTANT]
 > In a cross-site publishing scenario, the procedures below are performed on the authoring site collection. 
   
- **To view the Most Popular Items report for all items in a SharePoint library or list**
+**To view the Most Popular Items report for all items in a SharePoint library or list**
   
 1. Verify that the user account that is performing this procedure is a member of the Visitors group.
     
