@@ -139,8 +139,8 @@ To import profiles, you must have at least one synchronization connection to AD 
     
 8. In the **Containers** section, click **Populate Containers**, and then select the containers from the directory service that you want to synchronize. All organizational units (OUs) that you select will be synchronized with their child OUs. There is currently no utility that allows you to select a parent OU while excluding any of its child OUs from synchronization.
 
-> [!NOTE]
-> Filtering of objects only occurs during the initial import of that object. Changes to the filter post-import will not impact objects that have already been imported.
+    > [!NOTE]
+    > Filtering of objects only occurs during the initial import of that object. Changes to the filter post-import will not impact objects that have already been imported.
     
 9. Click **OK**.
     
