@@ -42,6 +42,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 > - For info about changing a site address, for example, from `https://contoso.sharepoint.com/sites/sample1` to  `https://contoso.sharepoint.com/sites/sample2`, see [Change a site address](change-site-address.md).  
 > - When you rename your SharePoint domain, we create a redirect at the previous address.
 > - You can only rename your SharePoint domain once every six months.
+> - Renaming your SharePoint domain back to the original name after changing your SharePoint domain is not supported. For example, if you change your SharePoint domain from`contoso.sharepoint.com` to `fabrikam.sharepoint.com`, it is not supported to change your your SharePoint domain from `fabrikam.sharepoint.com` back to `contoso.sharepoint.com`.
 
 ## Limitations
 
@@ -96,6 +97,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 |App/feature  |Limitation  |Action required  |
 |---------|---------|---------|
 | Deleted sites | Any sites that have been deleted can't be restored after the change. | Before changing your domain name, review the Deleted sites page in the SharePoint admin center and restore any sites that you might want to keep. |
+| Locked sites and OneDrives | Any sites or OneDrives that have been locked as NoAccess can't be renamed. | Before changing your domain name, review any sites and OneDrives that have been locked as No Access to determine if the lock should be removed. |
 | Multi-Geo configurations | Your SharePoint domain name can't be changed if your organization is currently set up for Microsoft 365 Multi-Geo or was previously set up for it.  | No action available. |
 | Point-in-time restoration | Restoring a site to a previous time before the domain name change isn't possible. | No action available.|
 | Vanity domain configurations | If your SharePoint domain is, for example, teams.contoso.com (versus contoso.sharepoint.com), your domain name can't be changed. | No action available. |
