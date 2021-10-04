@@ -86,7 +86,7 @@ In the second procedure, you create a synchronization connection to AD DS. The c
   
 In the third procedure, you determine how the properties of user profiles in SharePoint Server map to the user information that is retrieved from AD DS. 
   
- **To configure SharePoint Server to use AD Import**
+**To configure SharePoint Server to use AD Import**
   
 1. On the SharePoint Central Administration website, in the **Application Management** section, click **Manage service applications**.
     
@@ -98,7 +98,7 @@ In the third procedure, you determine how the properties of user profiles in Sha
     
 To import profiles, you must have at least one synchronization connection to AD DS. You may have connections to multiple AD DS servers. Using the following procedure, create a synchronization connection to each AD DS server from which you want to import profiles. You can synchronize after you create each connection, or you can synchronize one time, after you have created all of the connections. Although synchronizing after each connection takes longer, the process makes it easier to troubleshoot any problems that you might encounter.
   
- **To create a connection to a directory service for import**
+**To create a connection to a directory service for import**
   
 1. On the SharePoint Central Administration website, in the **Application Management** section, click **Manage service applications**.
     
@@ -114,42 +114,42 @@ To import profiles, you must have at least one synchronization connection to AD 
     
 7. Fill in the **Connection Settings** section by completing the following steps: 
     
-1. In the **Fully Qualified Domain Name** box, type the fully qualified domain name of the domain. 
+    1. In the **Fully Qualified Domain Name** box, type the fully qualified domain name of the domain. 
+        
+    2. In the **Authentication Provider Type** box, select the type of authentication provider. 
+        
+    3. If you select **Forms Authentication** or **Trusted Claims Provider Authentication**, select an authentication provider from the **Authentication Provider Instance** box. 
+        
+        The **Authentication Provider Instance** box lists only the authentication providers that are currently used by a web application. 
+        
+    4. In the **Account name** box, type the name of the account you want the AD import tool to use to perform the synchronization. Use the form  _\<DOMAIN\>_\ _\<UserName\>_. The synchronization account must have Replicate Directory permissions at the root of the forest.
+        
+    5. In the **Password** and **Confirm password** boxes, type the password for the account. 
+        
+    6. In the **Port** box, type the connection port you want the AD import tool to use to connect to AD DS when it performs the synchronization. 
+        
+    7. If a Secure Sockets Layer (SSL) connection is required to connect to the directory service, select **Use SSL-secured connection**.
+        
+        > [!IMPORTANT]
+        > If you use an SSL connection, you must export the certificate of the domain controller from the AD DS server and import the certificate into the synchronization server if the SSL certificate is not trusted by the SharePoint server(s).
+      
+    8. If you want to filter out users that are disabled in AD DS, select the **Filter out disabled users** checkbox. 
+        
+    9. If you want to filter the objects that you import from the directory service, in the **Filter in LDAP syntax for Active Directory Import** box, type a standard LDAP query expression to define the filter. 
+        
+    8. In the **Containers** section, click **Populate Containers**, and then select the containers from the directory service that you want to synchronize. All organizational units (OUs) that you select will be synchronized with their child OUs. There is currently no utility that allows you to select a parent OU while excluding any of its child OUs from synchronization.
     
-2. In the **Authentication Provider Type** box, select the type of authentication provider. 
-    
-3. If you select **Forms Authentication** or **Trusted Claims Provider Authentication**, select an authentication provider from the **Authentication Provider Instance** box. 
-    
-    The **Authentication Provider Instance** box lists only the authentication providers that are currently used by a web application. 
-    
-4. In the **Account name** box, type the name of the account you want the AD import tool to use to perform the synchronization. Use the form  _\<DOMAIN\>_\ _\<UserName\>_. The synchronization account must have Replicate Directory permissions at the root of the forest.
-    
-5. In the **Password** and **Confirm password** boxes, type the password for the account. 
-    
-6. In the **Port** box, type the connection port you want the AD import tool to use to connect to AD DS when it performs the synchronization. 
-    
-7. If a Secure Sockets Layer (SSL) connection is required to connect to the directory service, select **Use SSL-secured connection**.
-    
-    > [!IMPORTANT]
-    > If you use an SSL connection, you must export the certificate of the domain controller from the AD DS server and import the certificate into the synchronization server if the SSL certificate is not trusted by the SharePoint server(s).
+        > [!NOTE]
+        > Filtering of objects only occurs during the initial import of that object. Changes to the filter post-import will not impact objects that have already been imported.
+        
+    9. Click **OK**.
+        
+        The newly created connection is listed on the **Synchronization Connections** page. 
+        
+        > [!TIP]
+        > On the **Synchronization Connections** page, you can click the name of a synchronization connection, and then click **Edit** or **Delete** to edit or delete the connection. 
   
-8. If you want to filter out users that are disabled in AD DS, select the **Filter out disabled users** checkbox. 
-    
-9. If you want to filter the objects that you import from the directory service, in the **Filter in LDAP syntax for Active Directory Import** box, type a standard LDAP query expression to define the filter. 
-    
-8. In the **Containers** section, click **Populate Containers**, and then select the containers from the directory service that you want to synchronize. All organizational units (OUs) that you select will be synchronized with their child OUs. There is currently no utility that allows you to select a parent OU while excluding any of its child OUs from synchronization.
-
-> [!NOTE]
-> Filtering of objects only occurs during the initial import of that object. Changes to the filter post-import will not impact objects that have already been imported.
-    
-9. Click **OK**.
-    
-    The newly created connection is listed on the **Synchronization Connections** page. 
-    
-    > [!TIP]
-    > On the **Synchronization Connections** page, you can click the name of a synchronization connection, and then click **Edit** or **Delete** to edit or delete the connection. 
-  
- **To map user profile properties**
+**To map user profile properties**
   
 1. On the SharePoint Central Administration website, in the **Application Management** section, click **Manage service applications**.
     
@@ -161,22 +161,22 @@ To import profiles, you must have at least one synchronization connection to AD 
     
 5. To remove an existing mapping, in the **Property Mapping for Synchronization** section, select the mapping that you want to remove, and then click **Remove**.
     
-6. To add a new mapping, do the following tasks: 
-    
-1. In the **Add New Mapping** section, in the **Source Data Connection** list, select the data connection that represents the directory service to which you want to map the user profile property. 
-    
-2. In the **Attribute** box, type the name of the directory service attribute to which you want to map the property. 
-    
-3. Click **Add**.
-    
-    > [!NOTE]
-    > You cannot add multiple mappings or edit a mapping. To change mapping settings for a property, you must first remove the existing mapping, and then create a new mapping. 
+6. To add a new mapping, do the following tasks:
+
+    1. In the **Add New Mapping** section, in the **Source Data Connection** list, select the data connection that represents the directory service to which you want to map the user profile property. 
+        
+    2. In the **Attribute** box, type the name of the directory service attribute to which you want to map the property. 
+        
+    3. Click **Add**.
+        
+        > [!NOTE]
+        > You cannot add multiple mappings or edit a mapping. To change mapping settings for a property, you must first remove the existing mapping, and then create a new mapping.
   
 7. Click **OK**.
     
 8. Repeat steps 4 through 7 to map more properties.
     
- **To start profile synchronization**
+**To start profile synchronization**
   
 1. On the SharePoint Central Administration website, in the **Application Management** section, click **Manage service applications**.
     
