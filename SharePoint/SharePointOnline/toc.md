@@ -70,6 +70,7 @@
 ## [Lists]()
 ### [Control Microsoft Lists](control-lists.md)
 ### [Custom list templates](lists-custom-template.md)
+### [Lists sync policies](lists-sync-policies.md)
 ## [Sample sites]()
 ### [Add a sample site to your tenant](add-sample-site.md)
 ### [Add New Employee Onboarding sites](provision-neo-hub.md)
