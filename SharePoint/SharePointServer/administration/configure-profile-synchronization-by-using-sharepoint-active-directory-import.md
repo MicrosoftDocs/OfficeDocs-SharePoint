@@ -86,7 +86,7 @@ In the second procedure, you create a synchronization connection to AD DS. The c
   
 In the third procedure, you determine how the properties of user profiles in SharePoint Server map to the user information that is retrieved from AD DS. 
   
- **To configure SharePoint Server to use AD Import**
+**To configure SharePoint Server to use AD Import**
   
 1. On the SharePoint Central Administration website, in the **Application Management** section, click **Manage service applications**.
     
@@ -98,7 +98,7 @@ In the third procedure, you determine how the properties of user profiles in Sha
     
 To import profiles, you must have at least one synchronization connection to AD DS. You may have connections to multiple AD DS servers. Using the following procedure, create a synchronization connection to each AD DS server from which you want to import profiles. You can synchronize after you create each connection, or you can synchronize one time, after you have created all of the connections. Although synchronizing after each connection takes longer, the process makes it easier to troubleshoot any problems that you might encounter.
   
- **To create a connection to a directory service for import**
+**To create a connection to a directory service for import**
   
 1. On the SharePoint Central Administration website, in the **Application Management** section, click **Manage service applications**.
     
@@ -149,7 +149,7 @@ To import profiles, you must have at least one synchronization connection to AD 
         > [!TIP]
         > On the **Synchronization Connections** page, you can click the name of a synchronization connection, and then click **Edit** or **Delete** to edit or delete the connection. 
   
- **To map user profile properties**
+**To map user profile properties**
   
 1. On the SharePoint Central Administration website, in the **Application Management** section, click **Manage service applications**.
     
@@ -176,7 +176,7 @@ To import profiles, you must have at least one synchronization connection to AD 
     
 8. Repeat steps 4 through 7 to map more properties.
     
- **To start profile synchronization**
+**To start profile synchronization**
   
 1. On the SharePoint Central Administration website, in the **Application Management** section, click **Manage service applications**.
     
