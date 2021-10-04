@@ -134,7 +134,9 @@ The Most Popular Items report lists the most popular items per usage event type 
     - To search within the report list, type a search word in the search box on the top of the page.
     
     > [!NOTE]
-    > The usage event **Most Views by Unique Users** shows a ranking based on the sum of unique users per day ( SUM(UU/day)) within the specified time period. > To view the Popularity Trends report for a specific item in the list, click the **Popularity Trends** link located under the item URL. 
+    > The usage event **Most Views by Unique Users** shows a ranking based on the sum of unique users per day ( SUM(UU/day)) within the specified time period.
+    >
+    > To view the Popularity Trends report for a specific item in the list, click the **Popularity Trends** link located under the item URL. 
   
 ## See also
 <a name="BKMK_MostPopular"> </a>
