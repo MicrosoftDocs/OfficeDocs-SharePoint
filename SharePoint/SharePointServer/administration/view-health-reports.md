@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 9ff8ab96-6028-4f6a-8cc2-2ebe7eb19413
 description: "View SharePoint Server health reports from the SharePoint Central Administration website."

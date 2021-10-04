@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: e8c0fccd-8364-4352-8778-c9c46a668b70
 description: "Create a well-designed plan to install and configure search in SharePoint Server."

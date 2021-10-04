@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bf9068c7-9187-49bb-9946-c298389bf4b0
 
 description: "Learn how to customize PerformancePoint Services application settings to meet your business needs."

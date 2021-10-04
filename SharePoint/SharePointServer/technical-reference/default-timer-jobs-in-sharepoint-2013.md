@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: reference
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d1981c53-9445-454f-82f4-bce8379cdaea
 description: "Learn about the timer jobs in SharePoint."

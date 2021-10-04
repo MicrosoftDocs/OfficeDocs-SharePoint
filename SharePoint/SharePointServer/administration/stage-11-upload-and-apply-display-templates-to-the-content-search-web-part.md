@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 1969091e-9013-49ae-b600-6d033b3b4cb5
 description: "Learn how to upload and apply display templates to the Content Search Web Part in SharePoint Server 2016."

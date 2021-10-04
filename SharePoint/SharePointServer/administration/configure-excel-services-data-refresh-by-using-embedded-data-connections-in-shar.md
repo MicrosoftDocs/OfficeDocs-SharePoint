@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2be5291e-b6cc-4730-bc58-78b14ea1984b
 description: "Configure Excel Services in SharePoint Server to use a Secure Store target application for external data refresh."
 ---
