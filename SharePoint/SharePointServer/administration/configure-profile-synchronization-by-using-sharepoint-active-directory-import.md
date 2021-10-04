@@ -161,16 +161,16 @@ To import profiles, you must have at least one synchronization connection to AD 
     
 5. To remove an existing mapping, in the **Property Mapping for Synchronization** section, select the mapping that you want to remove, and then click **Remove**.
     
-6. To add a new mapping, do the following tasks: 
-    
-1. In the **Add New Mapping** section, in the **Source Data Connection** list, select the data connection that represents the directory service to which you want to map the user profile property. 
-    
-2. In the **Attribute** box, type the name of the directory service attribute to which you want to map the property. 
-    
-3. Click **Add**.
-    
-    > [!NOTE]
-    > You cannot add multiple mappings or edit a mapping. To change mapping settings for a property, you must first remove the existing mapping, and then create a new mapping. 
+6. To add a new mapping, do the following tasks:
+
+    1. In the **Add New Mapping** section, in the **Source Data Connection** list, select the data connection that represents the directory service to which you want to map the user profile property. 
+        
+    2. In the **Attribute** box, type the name of the directory service attribute to which you want to map the property. 
+        
+    3. Click **Add**.
+        
+        > [!NOTE]
+        > You cannot add multiple mappings or edit a mapping. To change mapping settings for a property, you must first remove the existing mapping, and then create a new mapping.
   
 7. Click **OK**.
     
