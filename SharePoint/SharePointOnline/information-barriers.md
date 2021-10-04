@@ -37,10 +37,10 @@ When using information barriers with SharePoint, the following IB modes are supp
 
 | **Mode** | **Description** | **Examples** |
 |:-------  |:----------------|:-------------|
-| **Open** | When a SharePoint site does not have segments, the site's IB mode is automatically set as *Open*. See [this section](#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) for details on managing segments with the *Open* mode configuration. | A Team site created for picnic event for your organization.  |
+| **Open** | When a SharePoint site does not have segments, the site's IB mode is automatically set as *Open*. See [this section](#view-and-manage-segments-as-an-administrator) for details on managing segments with the *Open* mode configuration. | A Team site created for picnic event for your organization.  |
 | **Owner Moderated** | When a SharePoint site is created for collaboration between incompatible segments moderated by the site owner, the site's IB mode should be set as *Owner Moderated*. This mode is currently supported only for sites that are not connected to Microsoft365 group. See [this section](#owner-moderated-mode-scenario) for details on managing *Owner Moderated* site. | A site is created for collaboration between VP of Sales and Research in the presence of VP of HR (site owner).  |
 | **Implicit** | When a site is provisioned by Microsoft Teams, the site's IB mode is set as *Implicit* by default. A SharePoint admin or global admin cannot manage segments with the *Implicit* mode configuration. | A Team is created for all Sales segment users to collaborate with each other. |
-| **Explicit** | When segment is added to a SharePoint site either via end-user site creation experience or by a SharePoint admin adding segment to a site, the site's IB mode is set as *Explicit*. See [this section](#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) for details on managing segments with the *Explicit* mode configuration. | A research site is created for Research segment users. |
+| **Explicit** | When segment is added to a SharePoint site either via end-user site creation experience or by a SharePoint admin adding segment to a site, the site's IB mode is set as *Explicit*. See [this section](#view-and-manage-segments-as-an-administrator) for details on managing segments with the *Explicit* mode configuration. | A research site is created for Research segment users. |
 
 ## Sharing sites for IB modes
 
@@ -90,6 +90,9 @@ For a user to access a SharePoint site that has no segment and site's informatio
 For a user to access a SharePoint site with site's information barriers mode is set to *Owner Moderated*:
 
 - The user has site access permissions.
+
+>[!NOTE]
+>Owner Moderated mode is only supported for non-group connected sites.
 
 ### Implicit and Explicit modes
 
@@ -226,10 +229,10 @@ For example:
 Set-SPOSite -Identity https://contoso.sharepoint.com/sites/ResearchTeamSite -RemoveInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111
 ```
 
-To view the segments of a site, run the following command to return the GUIDs of any segments associated with the site.
-
 >[!NOTE]
 >When all segments are removed from a site, the site's IB mode is automatically updated to *Open*.
+
+To view the segments of a site, run the following command to return the GUIDs of any segments associated with the site.
 
 ```PowerShell
 Get-SPOSite -Identity <site URL> | Select InformationSegment
@@ -251,14 +254,14 @@ Get-SPOSite -Identity <site URL> | Select InformationBarriersMode
 
 ### Owner Moderated mode scenario
 
-You want to allow Sales and Research user to collaborate on a SharePoint site in the presence of HR user.
+You want to allow a Sales and Research user to collaborate on a SharePoint site in the presence of HR user.
 
 *Owner Moderated* is a new mode applicable to site (not connected to Microsoft 365 group) which allows incompatible segment users access to site. Only the site owner has the capability to invite incompatible segment users on this same site.
 
 To update a site's mode to *Owner Moderated*, run the following PowerShell command:
 
 ```powershell
-Set-SPOSite -Identity <siteurl> InformationBarriersMode OwnerModerated
+Set-SPOSite -Identity <siteurl> -InformationBarriersMode OwnerModerated
 ```
 
 Owner Moderated IB mode cannot be set on a site with segments. Remove the segments first before setting IB mode as Owner Moderated. Access to an Owner Moderated site is allowed to users who have site access permissions. Sharing of an Owner Moderated site and its contents is only allowed by the site owner per their IB policy.
@@ -291,7 +294,7 @@ To help site owners add a segment to a site, share the [Associate information se
 
 ## Segments associated with Microsoft Teams sites
 
-When a team is created in Microsoft Teams, a SharePoint site is automatically created for the team's files. Within 24 hours, the segments associated with the team's members are automatically associated with the site and site's information barriers mode is automatically set as *Implicit*. SharePoint admins can't change the segments associated with a site when the site is connected to a team and mode as *Implicit*. For more information, see [Learn more about information barriers in Teams](/microsoftteams/information-barriers-in-teams).
+When a team is created in Microsoft Teams, a SharePoint site is automatically created for the team's files. Within 24 hours, the segments associated with the team's members are automatically associated with the site and site's information barriers mode is automatically set as *Implicit*. SharePoint admins can't change the segments associated with a site when the site is connected to a team and mode as *Implicit*. When a private channel is created, the associated site does not honor IB automatically. The SharePoint admin can add segments to the site if they want to allow only certain segment users have access to the site. For more information, see [Learn more about information barriers in Teams](/microsoftteams/information-barriers-in-teams).
 
 If the global administrator updates IB mode of an existing Microsoft 365 group connected to Microsoft Teams to *Implicit*, make sure to update the IB mode of the Teams connected site to *Implicit*. For more information, see [the section](#view-and-manage-segments-as-an-administrator) on how to manage IB mode of a site.  
 
@@ -307,13 +310,26 @@ Users will see search results from:
 - Sites that have an associated segment that matches the user's segment and the user has access permission to the site.
 - Sites that don't have associated segments if they have access to the site.
 
-## Effects of changes to user segments or information barrier policies
+## Effects of changes to user segments
 
-If a SharePoint site owner's segment changes, the user won't be able to access the site if their segment doesn't match any of the segments associated with the site. To allow the user to access the site, a SharePoint admin must associate the user's new segment with the site.
+If a SharePoint site owner or site member's segment changes, they will continue to have access to the site or content per the site's IB mode:
 
-If a compliance administrator changes an existing policy, the change may impact the compatibility of the segments associated with a site. For example, segments that were once compatible may no longer be compatible. A SharePoint admin must change the segments associated with an affected site accordingly. [Learn how to create an information barriers policy compliance report in PowerShell](info-barriers-report.md)
+- **Open mode**: User can access the site if they have existing site access permissions.
+- **Owner Moderated**: User can access the site if they have existing site access permissions.
+- **Implicit Mode**: If the user is a member of the Microsoft 365 group, they will continue to have access to the site.
+- **Explicit Mode**: If the user's new segment matches the site's segments and user has site access permissions, they will continue to have access to the site.  
 
-Any sharing links will only work if a user's new segment or the new information barrier policy still allows the user to access the site.
+## Effects of changes to existing information barrier policies
+
+If a compliance administrator changes an existing IB policy, the change may impact the compatibility of the segments associated with a site (in *Explicit* or *Implicit* mode).
+For example, segments that were once compatible may no longer be compatible.
+
+With Information barriers policy compliance report, the SharePoint admin will have the capability to view the list of sites where segments are no longer compatible. For more information, see [Learn how to create an information barriers policy compliance report in PowerShell](info-barriers-report.md).
+
+To manage out of compliance sites:
+
+- In *Explicit* mode, a SharePoint admin must change the associated segments to bring them in to IB compliance.
+- In *Implicit* mode for a site with segments, a SharePoint admin cannot manage segments directly. We recommend the Teams admin to manage the Team's membership to bring the Teams membership roster and segments in to IB compliance.
 
 ## How to suspend SharePoint and OneDrive information barriers in your tenant
 
