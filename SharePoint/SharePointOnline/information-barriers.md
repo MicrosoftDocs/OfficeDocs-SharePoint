@@ -294,7 +294,7 @@ To help site owners add a segment to a site, share the [Associate information se
 
 ## Segments associated with Microsoft Teams sites
 
-When a team is created in Microsoft Teams, a SharePoint site is automatically created for the team's files. Within 24 hours, the segments associated with the team's members are automatically associated with the site and site's information barriers mode is automatically set as *Implicit*. SharePoint admins can't change the segments associated with a site when the site is connected to a team and mode as *Implicit*. When a private channel is created, the associated site does not honor IB automatically. The SharePoint admin can add segments to the site if they want to allow only certain segment users have access to the site. For more information, see [Learn more about information barriers in Teams](/microsoftteams/information-barriers-in-teams).
+When a team is created in Microsoft Teams, a SharePoint site is automatically created for the team's files. Within 24 hours, the segments associated with the team's members are automatically associated with the site and site's information barriers mode is automatically set as *Implicit*. SharePoint admins can't change the segments associated with a site when the site is connected to a team and mode as *Implicit*. For more information, see [Learn more about information barriers in Teams](/microsoftteams/information-barriers-in-teams).
 
 If the global administrator updates IB mode of an existing Microsoft 365 group connected to Microsoft Teams to *Implicit*, make sure to update the IB mode of the Teams connected site to *Implicit*. For more information, see [the section](#view-and-manage-segments-as-an-administrator) on how to manage IB mode of a site.  
 
