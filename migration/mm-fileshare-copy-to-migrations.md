@@ -50,7 +50,7 @@ After a file share has been scanned and determined ready, add it to your migrati
 
 After a migration task has completed, you can rerun it at a later date, allowing you to copy only those new or updated files in the source location. 
 
-An incremental check of your SharePoint destination environment is performed. Files are evaluated as follows:
+An incremental check of your SharePoint destination environment is performed. Files are evaluated as follows (regardless of an initial or incremental migration):
   
 |**Status**|**Result**|
 |:-----|:-----|
