@@ -224,8 +224,10 @@ The SharePoint Store contains apps for SharePoint intended for use with sites th
     
 In some cases, for example, when you have an on-premises SharePoint Server farm where updates are installed infrequently, you will need to run a cmdlet to update the URL used to point to the SharePoint Store:
 
-`Set-SPAppStoreConfiguration -Url http://office.microsoft.com -Enable $true`
-  
+```
+Set-SPAppStoreConfiguration -Url http://office.microsoft.com -Enable $true
+```
+
 ## See also
 <a name="ConfigureAppURLs"> </a>
 
