@@ -31,7 +31,7 @@ description: "Step 1:  Connect to Egnyte"
 
 ## Create your Egnyte app
 
-Create an Egnyte Connect API application.  This will generate a pair of keys that you will use to connect to Migration Manager.
+Create an Egnyte Connect API application. Creating an application will generate a pair of keys that you will use to connect to Migration Manager.
 
 1. Sign in to your Egnyte developer account. 
 2. From the developers page, select **Get API Key** > **Create a new application**.
@@ -64,7 +64,6 @@ After you have created your new app in Egnyte:
 
 1. In the new SharePoint admin center, select [Migration Manager](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern). 
 2. Under **Egnyte**, select **Get started**.
-
 
 ![Egnyte start and connect ](media/mm-egnyte-get-started.png)
 
