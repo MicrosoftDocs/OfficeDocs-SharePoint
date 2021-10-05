@@ -2,6 +2,34 @@
 
 
 
+## Week of September 27, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/28/2021 | [Onboard new employees into your organization](/SharePoint/onboard-employees) | added |
+| 9/28/2021 | [Add Viva Connections desktop to Microsoft Teams](/SharePoint/viva-connections) | modified |
+| 9/28/2021 | [Define and scope audience](/SharePoint/audience-profile) | added |
+| 9/28/2021 | [Choose a communication method](/SharePoint/choose-communication-method) | added |
+| 9/28/2021 | [Corporate communications overview](/SharePoint/corporate-communications-overview) | added |
+| 9/28/2021 | [Use Microsoft 365 to connect leaders and teams](/SharePoint/leadership-connection) | added |
+| 9/28/2021 | [Plan your communication strategy](/SharePoint/plan-communication-strategy) | added |
+| 9/28/2021 | [Review communication tools](/SharePoint/review-communication-apps) | added |
+| 9/29/2021 | [Use information barriers with SharePoint](/SharePoint/information-barriers) | modified |
+| 9/30/2021 | [Prepare your SharePoint environment for the retirement of Internet Explorer 11 for Microsoft 365 apps and services](/SharePoint/prepare-ie11) | modified |
+| 9/30/2021 | [Build Learning and Training Experiences for Employees](/SharePoint/build-learning-and-training-experiences-for-employees) | added |
+| 9/30/2021 | [Summaries in sharing emails for Word docs](/SharePoint/word-email-summaries) | modified |
+| 10/1/2021 | [Define and scope audience](/SharePoint/audience-profile) | modified |
+| 10/1/2021 | [Choose a communication method](/SharePoint/choose-communication-method) | modified |
+| 10/1/2021 | [Organizational communications overview](/SharePoint/corporate-communications-overview) | modified |
+| 10/1/2021 | [Distribute corporate news to your organization](/SharePoint/distribute-corporate-news-to-your-organization) | modified |
+| 10/1/2021 | [Hold a town hall in Yammer and keep the conversation going](/SharePoint/hold-town-hall-using-yammer) | modified |
+| 10/1/2021 | [Use Microsoft 365 to connect leaders and teams](/SharePoint/leadership-connection) | modified |
+| 10/1/2021 | [Onboard new employees into your organization](/SharePoint/onboard-employees) | modified |
+| 10/1/2021 | [Plan your communication strategy](/SharePoint/plan-communication-strategy) | modified |
+| 10/1/2021 | [Review communication tools](/SharePoint/review-communication-apps) | modified |
+
+
 ## Week of September 20, 2021
 
 
