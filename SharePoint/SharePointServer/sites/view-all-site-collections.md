@@ -33,18 +33,18 @@ Use the following procedures to view all the site collections in a web applicati
 
 Refer to the following table in step 3.
   
-|**Item**|**Description**|
+| Item | Description |
 |:-----|:-----|
-|URL  <br/> |The URL of the site collection.  <br/> |
-|Title  <br/> |The current title for site collection.  <br/> |
-|Description  <br/> |The current description for the site collection.  <br/> |
-|Primary administrator  <br/> |The primary administrator for the site collection.  <br/> |
-|Email address  <br/> |The email address for the primary administrator.  <br/> |
-|Database name  <br/> |The content database that is used by the site collection.  <br/> |
+|URL  |The URL of the site collection.  |
+|Title  |The current title for site collection.  |
+|Description  |The current description for the site collection.  |
+|Primary administrator  |The primary administrator for the site collection.  |
+|Email address  |The email address for the primary administrator.  |
+|Database name  |The content database that is used by the site collection.  |
    
 1. Verify that you have the following administrative credentials:
     
-   - To view all site collections, you must be a member of the Farm Administrators group on the computer that is running the SharePoint Central Administration website.
+    To view all site collections, you must be a member of the Farm Administrators group on the computer that is running the SharePoint Central Administration website.
     
 2. Open Central Administration. On the **Application Management** page, in the **Site Collections** section, click **View all site collections**.
     
