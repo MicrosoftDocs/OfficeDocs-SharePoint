@@ -65,7 +65,6 @@ After you have created your new app in Egnyte:
 1. In the new SharePoint admin center, select [Migration Manager](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern). 
 2. Under **Egnyte**, select **Get started**.
 
-![Egnyte get started on landing page](/media/mm-egnyte-get-started.png)
 
 ![Egnyte start and connect ](media/mm-egnyte-get-started.png)
 
