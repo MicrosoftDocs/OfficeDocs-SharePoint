@@ -710,22 +710,22 @@ To install the WinHTTP KB update, follow the instructions from the KB article [U
     
 2. Copy, and then paste the following text.
     
-**For 64-bit operating system**
+   **For 64-bit operating system**
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
-  "DefaultSecureProtocols"=dword:00000A80
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
-  "DefaultSecureProtocols"=dword:00000A80
-  ```
+   ```
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
+   "DefaultSecureProtocols"=dword:00000A80
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
+   "DefaultSecureProtocols"=dword:00000A80
+   ```
 
-**For 32-bit operating system**
+   **For 32-bit operating system**
     
-  ```
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
-  "DefaultSecureProtocols"=dword:00000A80
-  ```
+   ```
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
+   "DefaultSecureProtocols"=dword:00000A80
+   ```
 
 3. Save the **winhttp-tls10-tls12-enable.reg** file. 
     
@@ -794,23 +794,23 @@ To enable strong cryptography in .NET Framework 4.5.1 and 4.5.2 on Windows 8.1 a
     
 2. Copy, and then paste the following text.
     
-**For 64-bit operating system**
+   **For 64-bit operating system**
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]
-  "SchUseStrongCrypto"=dword:00000001
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]
-  "SchUseStrongCrypto"=dword:00000001
-  ```
+   ```
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]
+   "SchUseStrongCrypto"=dword:00000001
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]
+   "SchUseStrongCrypto"=dword:00000001
+   ```
 
-**For 32-bit operating system**
+   **For 32-bit operating system**
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]
-  "SchUseStrongCrypto"=dword:00000001
-  ```
+   ```
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]
+   "SchUseStrongCrypto"=dword:00000001
+   ```
 
 3. Save the **net46-strong-crypto-enable.reg** file. 
     
@@ -867,23 +867,23 @@ No update needs to be installed. Configure the Windows Registry keys as describe
     
 2. Copy, and then paste the following text.
     
-**For 64-bit operating system**
+   **For 64-bit operating system**
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
-  "SystemDefaultTlsVersions"=dword:00000001
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v2.0.50727]
-  "SystemDefaultTlsVersions"=dword:00000001
-  ```
+   ```
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
+   "SystemDefaultTlsVersions"=dword:00000001
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v2.0.50727]
+   "SystemDefaultTlsVersions"=dword:00000001
+   ```
 
-**For 32-bit operating system**
+   **For 32-bit operating system**
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
-  "SystemDefaultTlsVersions"=dword:00000001
-  ```
+   ```
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
+   "SystemDefaultTlsVersions"=dword:00000001
+   ```
 
 3. Save the **net35-tls12-enable.reg** file. 
     
@@ -918,23 +918,23 @@ To enable strong cryptography in .NET Framework 3.5 on Windows 8.1 and Windows S
     
 2. Copy, and then paste the following text.
     
-**For 64-bit operating system**
+   **For 64-bit operating system**
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
-  "SchUseStrongCrypto"=dword:00000001
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v2.0.50727]
-  "SchUseStrongCrypto"=dword:00000001
-  ```
+   ```
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
+   "SchUseStrongCrypto"=dword:00000001
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v2.0.50727]
+   "SchUseStrongCrypto"=dword:00000001
+   ```
 
-**For 32-bit operating system**
+   **For 32-bit operating system**
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
-  "SchUseStrongCrypto"=dword:00000001
-  ```
+   ```
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
+   "SchUseStrongCrypto"=dword:00000001
+   ```
 
 3. Save the **net35-strong-crypto-enable.reg** file. 
     

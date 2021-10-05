@@ -299,8 +299,7 @@ To estimate the storage requirements for the service applications in the system,
 
 |**Service application**|**Size estimation recommendation**|
 |:-----|:-----|
-|User Profile  <br/> |The User Profile service application is associated with three databases: Profile, Synchronization, and Social Tagging.  <br/> > [!NOTE]
-> The testing for the User Profile database storage requirements and IOPS recommendations is not yet complete. Check back for additional information.  <br/> For User Profile database information, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md).  <br/> |
+|User Profile  <br/> |The User Profile service application is associated with three databases: Profile, Synchronization, and Social Tagging.  <br/> **Note**: The testing for the User Profile database storage requirements and IOPS recommendations is not yet complete. Check back for additional information.  <br/> For User Profile database information, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md).  <br/> |
 |Managed Metadata Service  <br/> |The Managed Metadata service application has one database. The size of the database is affected by the number of content types and keywords used in the system. Many environments will include multiple instances of the Managed Metadata service application.  <br/> |
 |Secure Store Service  <br/> |The size of the Secure Store service application database is determined by the number of credentials in the store and the number of entries in the audit table. We recommend that you allocate 5 MB for every 1,000 credentials for it. It has minimal IOPS.  <br/> |
 |State Service  <br/> |The State service application has one database. We recommend that you allocate 1 GB for it. It has minimal IOPS.  <br/> |
