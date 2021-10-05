@@ -16,7 +16,6 @@ search.appverid:
 - MET150
 ms.collection:  
 - M365-collaboration
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to control Lists sync by using Group Policy objects (GPOs)."
 ---
 # Use Group Policy to control Lists sync settings
