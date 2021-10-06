@@ -157,3 +157,5 @@ You can stop sharing with people who have an "Anyone" link by going to the file 
 [Create a secure guest sharing environment](/Office365/Enterprise/create-a-secure-guest-sharing-environment)
 
 [Settings interactions between Microsoft 365 Groups, Teams and SharePoint](/microsoft-365/solutions/groups-sharepoint-teams-governance)
+
+[Pricing - Active Directory External Identities](https://azure.microsoft.com/pricing/details/active-directory/external-identities/)
