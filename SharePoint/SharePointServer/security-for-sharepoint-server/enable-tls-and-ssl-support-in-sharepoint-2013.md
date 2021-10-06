@@ -74,7 +74,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Proto cols\TLS 1.1]
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
@@ -99,7 +99,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2]
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client]
@@ -143,7 +143,7 @@ To install the WinHTTP KB update, follow the instructions from the KB article [U
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
    "DefaultSecureProtocols"=dword:00000A80
@@ -220,7 +220,7 @@ Applications compiled for .NET Framework 4.6 or higher will behave as if the **S
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]
    "SchUseStrongCrypto"=dword:00000001
@@ -269,7 +269,7 @@ The **SystemDefaultTlsVersions** registry value defines which security protocol 
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
    "SystemDefaultTlsVersions"=dword:00000001
@@ -322,7 +322,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0]
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Client]
@@ -347,7 +347,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0]
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Client]
@@ -372,7 +372,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0]
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client]
@@ -397,7 +397,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1]
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
@@ -443,7 +443,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1]
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
@@ -468,7 +468,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2]
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client]
@@ -512,7 +512,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0]
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Client]
@@ -537,7 +537,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0]
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Client]
@@ -562,7 +562,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0]
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client]
@@ -587,7 +587,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1]
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
@@ -638,7 +638,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1]
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
@@ -663,7 +663,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2]
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client]
@@ -712,7 +712,7 @@ To install the WinHTTP KB update, follow the instructions from the KB article [U
     
    **For 64-bit operating system**
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
    "DefaultSecureProtocols"=dword:00000A80
@@ -722,7 +722,7 @@ To install the WinHTTP KB update, follow the instructions from the KB article [U
 
    **For 32-bit operating system**
     
-   ```
+   ```console
    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
    "DefaultSecureProtocols"=dword:00000A80
    ```
@@ -796,7 +796,7 @@ To enable strong cryptography in .NET Framework 4.5.1 and 4.5.2 on Windows 8.1 a
     
    **For 64-bit operating system**
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]
    "SchUseStrongCrypto"=dword:00000001
@@ -806,7 +806,7 @@ To enable strong cryptography in .NET Framework 4.5.1 and 4.5.2 on Windows 8.1 a
 
    **For 32-bit operating system**
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]
    "SchUseStrongCrypto"=dword:00000001
@@ -869,7 +869,7 @@ No update needs to be installed. Configure the Windows Registry keys as describe
     
    **For 64-bit operating system**
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
    "SystemDefaultTlsVersions"=dword:00000001
@@ -879,7 +879,7 @@ No update needs to be installed. Configure the Windows Registry keys as describe
 
    **For 32-bit operating system**
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
    "SystemDefaultTlsVersions"=dword:00000001
@@ -920,7 +920,7 @@ To enable strong cryptography in .NET Framework 3.5 on Windows 8.1 and Windows S
     
    **For 64-bit operating system**
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
    "SchUseStrongCrypto"=dword:00000001
@@ -930,7 +930,7 @@ To enable strong cryptography in .NET Framework 3.5 on Windows 8.1 and Windows S
 
    **For 32-bit operating system**
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
    "SchUseStrongCrypto"=dword:00000001
@@ -962,7 +962,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0]
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Client]
@@ -987,7 +987,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0]
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Client]
@@ -1012,7 +1012,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0]
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client]
@@ -1037,7 +1037,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-   ```
+   ```console
    Windows Registry Editor Version 5.00
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1]
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
