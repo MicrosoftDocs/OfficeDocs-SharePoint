@@ -8,7 +8,7 @@ ms.date: 8/17/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -26,11 +26,13 @@ description: "Learn how to define the correct SharePoint Server permission level
 A SharePoint group is a set of users that can be managed together. A permission level is a set of permissions that can be assigned to a specific group for a specific securable object. SharePoint groups and permission levels are defined at the site collection level and are inherited from the parent object by default. This article describes default groups and permission levels and helps you decide whether to use them as they are, customize them, or create different groups and permission levels. 
     
 The most important decision about your site and content security in SharePoint Server is how to group your users and which permission levels to assign.
+
+Learn about [Default SharePoint groups in Microsoft 365](../../SharePointOnline/default-sharepoint-groups.md).
   
 ## Review available default groups
 <a name="section1"> </a>
 
-SharePoint groups enable you to manage sets of users instead of individual users. These groups can contain many individual users, or they can include the contents of any corporate identity system, including Active Directory Domain Services (AD DS), LDAPv3-based directories, application-specific databases and new user-centric identity models, such as Windows Live ID. SharePoint groups do not confer specific rights to the site; they are a way to designate a set of users. You can organize yours users into any number of groups, depending on the size and complexity of your organization or Web site. SharePoint groups cannot be nested.
+SharePoint groups enable you to manage sets of users instead of individual users. These groups can contain many individual users, or they can include the contents of any corporate identity system, including Active Directory Domain Services (AD DS), LDAPv3-based directories, application-specific databases, and new user-centric identity models, such as Windows Live ID. SharePoint groups do not confer specific rights to the site; they are a way to designate a set of users. You can organize yours users into any number of groups, depending on the size and complexity of your organization or Web site. SharePoint groups cannot be nested.
   
 The following table displays default groups that are created for team sites in SharePoint Server. Each default group is assigned a default permission level.
   
@@ -41,20 +43,20 @@ The following table displays default groups that are created for team sites in S
 |Owners  <br/> |Full Control  <br/> |Use this group to grant people Full Control permissions to the SharePoint site.  <br/> |
 |Viewers  <br/> |View Only  <br/> |Use this group to grant people View Only permissions to the SharePoint site.  <br/> |
    
-If you use a site template other than the team site template, you will see a different list of default SharePoint groups. For example, the following table shows the additional groups provided by a publishing site template.
+If you use a site template other than the team site template, you will see a different list of default SharePoint groups. For example, the following table shows the other groups provided by a publishing site template.
   
 |**Group name**|**Default permission level**|**Description**|
 |:-----|:-----|:-----|
 |Restricted Readers  <br/> |Restricted Read to the site, plus Limited Access to specific lists  <br/> |Members of this group can view pages and documents, but cannot view historical versions or review user rights information.  <br/> |
-|Style Resource Readers  <br/> |Read to the Master Page Gallery and Restricted Read to the Style Library.  <br/> |Members of this group are given Read permission to the Master Page Gallery and Restricted Read permission to the Style Library. By default, all authenticated users are a member of this group.  <br/> > [!NOTE]> Do not remove all authenticated users from this group. Because Master Page Gallery and Style Library are shared across all sites in the site collection and must be accessible to all users of all sites. If you remove all authenticated users from the group, anyone with this permission level on a subsite will not be able to render the site. SharePoint will not automatically add or remove users of subsites to or from this group as needed.           |
-|Designers  <br/> |Design, Limited Access  <br/> |Members of this group can to view, add, update, delete, approve, and customize the layout of site pages by using the browser or SharePoint Designer 2013.  <br/> |
+|Style Resource Readers  <br/> |Read to the Master Page Gallery and Restricted Read to the Style Library.  <br/> |Members of this group are given Read permission to the Master Page Gallery and Restricted Read permission to the Style Library. By default, all authenticated users are a member of this group.  <br/> > [!NOTE]> Do not remove all authenticated users from this group as Master Page Gallery and Style Library are shared across all sites in the site collection and must be accessible to all users of all sites. If you remove all authenticated users from the group, anyone with this permission level on a subsite will not be able to render the site. SharePoint will not automatically add or remove users of subsites to or from this group as needed.           |
+|Designers  <br/> |Design, Limited Access  <br/> |Members of this group can view, add, update, delete, approve, and customize the layout of site pages by using the browser or SharePoint Designer 2013.  <br/> |
 |Approvers  <br/> |Approve, plus Limited Access  <br/> |Members of this group can edit and approve pages, list items, and documents.  <br/> |
 |Hierarchy Managers  <br/> |Manage Hierarchy, plus Limited Access  <br/> |Members of this group can create sites, lists, list items, and documents.  <br/> |
    
 > [!TIP]
 > The Limited Access permission level is used to give groups access to a specific list, library, folder, document, or item, without giving them access to the entire site. Do not remove this permission level from the groups listed above. If this permission level is removed, the groups might not be able to navigate through the site to get the specific items with which they need to interact. 
   
-Make most users members of the Visitors or Members groups. By default, users in the Members group can contribute to the site by adding or removing items or documents, but cannot change the structure, site settings, or appearance of the site. The Visitors group has read-only access to the site, which means that they can see pages and items, and open items and documents, but cannot add or remove pages, items, or documents.
+Make most users as members of the Visitors or Members groups. By default, users in the Members group can contribute to the site by adding or removing items or documents, but cannot change the structure, site settings, or appearance of the site. The Visitors group has read-only access to the site, which means that they can see pages and items, and open items and documents, but cannot add or remove pages, items, or documents.
   
 If the default groups do not map to the exact user groups in your organization, you can create custom groups. 
   
@@ -78,7 +80,7 @@ By default, the following permission levels are available:
   
 - **Read** Includes permissions that enable users to view items on the site pages. 
     
-- **Edit** Includes permissions that enable users to add, edit and delete lists; can view, add, update and delete list items and documents. 
+- **Edit** Includes permissions that enable users to add, edit, and delete lists; can view, add, update, and delete list items and documents. 
     
 - **Contribute** Includes permissions that enable users to add or change items on the site pages or in lists and document libraries. 
     
@@ -88,7 +90,7 @@ By default, the following permission levels are available:
     
 For more information about permissions that are included in the default permission levels, see [User permissions and permission levels in SharePoint 2013](user-permissions-and-permission-levels.md).
   
-The following additional permission levels are provided with the publishing template by default:
+The following extra permission levels are provided with the publishing template by default:
   
 - **Approve** Includes permissions to edit and approve pages, list items, and documents. 
     
@@ -103,11 +105,11 @@ The default groups and permission levels provide a general framework for permiss
   
 ### Do you need custom groups?
 
-The decision to create custom groups is fairly straightforward and has little effect on your site's security. You should create custom groups instead of using the default groups if either of the following situations applies:
+The decision to create custom groups is fairly straightforward and has little effect on your site's security. Create custom groups instead of using the default groups if either of the following situations applies:
   
 - You have more (or fewer) user roles within your organization than are obvious in the default groups. For example, if in addition to Approvers, Designers, and Hierarchy Managers, you have a set of people who are tasked with publishing content to the site, you might want to create a Publishers group.
     
-- There are well-known names for unique roles within your organization that perform very different tasks in the sites. For example, if you are creating a public site to sell your organization's products, you might want to create a Customers group that replaces Visitors or Viewers.
+- There are well-known names for unique roles within your organization that perform different tasks in the sites. For example, if you are creating a public site to sell your organization's products, you might want to create a Customers group that replaces Visitors or Viewers.
     
 - You want to preserve a one-to-one relationship between Windows security groups and the SharePoint groups. For example, if your organization has a security group that is named Web Site Managers, you might want to use that name as a group name for easy identification when you manage the site.
     
@@ -115,11 +117,11 @@ The decision to create custom groups is fairly straightforward and has little ef
     
 ### Do you need custom permission levels?
 
-The decision to customize permission levels is less straightforward than the decision to customize SharePoint groups. If you customize the permissions assigned to a permission level, you must keep track of that change, verify that it works for all groups and sites affected by the change, and make sure that that the change does not adversely affect your security or your server capacity or performance.
+The decision to customize permission levels is less straightforward than the decision to customize SharePoint groups. If you customize the permissions assigned to a permission level, you must keep track of that change, verify that it works for all groups and sites affected by the change, and make sure that the change does not adversely affect your security or your server capacity or performance.
   
 For example, if you customize the Contribute permission level to include the Create Subsites permission that is typically part of the Full Control permission level, members of the Contributors group can create and own subsites, and can potentially invite malicious users to their subsites or post unapproved content. If you customize the Read permission level to include the View Usage Data permission that is typically part of the Full Control permission level, all members of the Visitors group can see usage data, which could cause performance issues.
   
-You should customize the default permission levels if either of the following situations applies:
+Customize the default permission levels if either of the following situations applies:
   
 - A default permission level includes all permissions except one that the users must have to do their jobs, and you want to add that permission.
     
@@ -130,7 +132,7 @@ You should customize the default permission levels if either of the following si
   
 If you must make several changes to a permission level, create a custom permission level that includes all of the permissions that you need.
   
-You might want to create additional permission levels if either of the following conditions is true:
+You might want to create more permission levels if either of the following conditions is true:
   
 - You want to exclude several permissions from a specific permission level.
     
