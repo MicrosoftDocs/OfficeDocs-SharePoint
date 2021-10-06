@@ -161,7 +161,7 @@ To see which laptops are viewed most by visitors, on the **Most Popular Items** 
   
 ![Laptop Views](../media/OTCSP_LaptopViews.png)
   
-By narrowing the *Views* usage event statistics to a specific category, we can verify that the **Popular Items Web Part** is working correctly on our publishing site. For example, on the *Laptops* page, notice that the three items that are displayed in the **Popular Items Web Part** are the same that are shown to have the most *Views* in the Most Popular Items report that we just narrowed to *Laptops*. 
+By narrowing the *Views* usage event statistics to a specific category, we can verify that the **Popular Items Web Part** is working correctly on our publishing site. For example, on the *Laptops* page, notice that the three items that are displayed in the **Popular Items Web Part** are the same as those shown to have the most *Views* in the Most Popular Items report that we just narrowed to *Laptops*. 
   
 ![Popular Items Publishing And Report](../media/OTCSP_PopularItemsPublishingAndReport.png)
   
