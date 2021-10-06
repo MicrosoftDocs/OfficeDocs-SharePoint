@@ -29,6 +29,7 @@
 ### [Step 6: Migrate and Monitor](mm-box-step6-migrate-monitor.md)
 ### Reference
 #### [FAQs](mm-faqs-box.md)
+#### [Format a CSV file for bulk upload](mm-box-bulk-upload-source-paths-csv.md)
 #### [Troubleshooting](mm-box-troubleshooting.md)
 ## Migrate from Google Workspace
 ### [Overview](mm-google-overview.md)
