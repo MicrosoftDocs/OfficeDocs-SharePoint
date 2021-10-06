@@ -117,7 +117,7 @@ The domain should be added in the form of a wildcard (for example, \*.ContosoApp
   
 In order to allow support for SSL offloading with SharePoint Server App Domains, enable support for multiple app domains by using the following Microsoft PowerShell commands:
   
-```
+```powershell
 $contentService = [Microsoft.SharePoint.Administration.SPWebService]::ContentService
 $contentService.SupportMultipleAppDomains = $true
 $contentService.Update()
@@ -187,7 +187,7 @@ If you host multiple tenants in your environment, you must use Microsoft PowerSh
 1. Open the SharePoint Management Shell.
     
 2. At the Microsoft PowerShell command prompt, type the following commands and press **ENTER** after each one: 
-   ```
+   ```powershell
    Set-SPAppDomain <appDomain>
     
    Set-SPAppSiteSubscriptionName -Name "app" -Confirm:$false
@@ -224,7 +224,7 @@ The SharePoint Store contains apps for SharePoint intended for use with sites th
     
 In some cases, for example, when you have an on-premises SharePoint Server farm where updates are installed infrequently, you will need to run a cmdlet to update the URL used to point to the SharePoint Store:
 
-```
+```powershell
 Set-SPAppStoreConfiguration -Url http://office.microsoft.com -Enable $true
 ```
 
