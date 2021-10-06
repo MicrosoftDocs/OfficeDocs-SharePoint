@@ -52,7 +52,7 @@ SharePoint Server creates two usage analytics reports:
   
 - *Most Popular Items* shows usage event statistics for all items in a library or list
     
-- *Popularity Trends* shows usage event statistics for an item, a site or a site collection
+- *Popularity Trends* shows usage event statistics for an item, a site, or a site collection
     
 The reports are automatically updated every 24 hours, when the Usage analytics job is run.
   
