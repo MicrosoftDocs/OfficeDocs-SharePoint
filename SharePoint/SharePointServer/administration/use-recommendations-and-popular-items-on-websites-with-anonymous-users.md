@@ -92,7 +92,7 @@ Here are the steps to enable the recording of a usage event for anonymous users:
   $event = $tenantConfig.EventTypeDefinitions | where-object { $_.EventTypeId -eq <EventTypeId> }
   ```
 
-  *EventTypeID* is the number of the usage event that you want to enable for anonymous users, for example  *2*, which is the *Recommendation Displays* usage event. 
+  *EventTypeID* is the number of the usage event that you want to enable for anonymous users, for example *2*, which is the *Recommendation Displays* usage event. 
 
    ![Get Usage Event 2](../media/OTCSP_GetUsageEvent2.png)
   
