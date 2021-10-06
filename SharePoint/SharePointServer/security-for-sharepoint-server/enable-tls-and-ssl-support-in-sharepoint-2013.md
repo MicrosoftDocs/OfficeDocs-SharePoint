@@ -76,7 +76,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
    ```console
    Windows Registry Editor Version 5.00
-   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Proto cols\TLS 1.1]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1]
    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
    "DisabledByDefault"=dword:00000000
    "Enabled"=dword:00000001
@@ -492,7 +492,7 @@ The **DisabledByDefault** registry value defines whether the protocol version is
 
 SQL Server versions earlier than SQL Server 2016 don't support TLS 1.1 or TLS 1.2 by default. To add support for TLS 1.1 and TLS 1.2, you must install updates for SQL Server.
   
-To enable TLS 1.1 and TLS 1.2 support in SQL Server, follow the instructions from the KB article [TLS 1.2 s/upport for Microsoft SQL Server](https://support.microsoft.com/kb/3135244)
+To enable TLS 1.1 and TLS 1.2 support in SQL Server, follow the instructions from the KB article [TLS 1.2 support for Microsoft SQL Server](https://support.microsoft.com/kb/3135244)
   
 ## 2.3 - Disable earlier versions of SSL and TLS in Windows Schannel
 <a name="DisableSSL"> </a>
