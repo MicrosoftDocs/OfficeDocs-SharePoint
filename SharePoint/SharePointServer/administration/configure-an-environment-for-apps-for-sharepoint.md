@@ -187,11 +187,11 @@ If you host multiple tenants in your environment, you must use Microsoft PowerSh
 1. Open the SharePoint Management Shell.
     
 2. At the Microsoft PowerShell command prompt, type the following commands and press **ENTER** after each one: 
-    ```
-    Set-SPAppDomain <appDomain>
+   ```
+   Set-SPAppDomain <appDomain>
     
-    Set-SPAppSiteSubscriptionName -Name "app" -Confirm:$false
-    ```
+   Set-SPAppSiteSubscriptionName -Name "app" -Confirm:$false
+   ```
     Where:
     
     -  _\<appDomain\>_ is the domain name that you created. 

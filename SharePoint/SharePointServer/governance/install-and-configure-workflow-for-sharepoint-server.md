@@ -93,11 +93,11 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
     
 3. Run the **Register-SPWorkflowService** cmdlet. 
     
-    **Example**:
+   **Example**:
     
-  ```
-  Register-SPWorkflowService -SPSite "http://myserver/mysitecollection" -WorkflowHostUri "http://workflow.example.com:12291" -AllowOAuthHttp
-  ```
+   ```
+   Register-SPWorkflowService -SPSite "http://myserver/mysitecollection" -WorkflowHostUri "http://workflow.example.com:12291" -AllowOAuthHttp
+   ```
 
 4. Log on to each server in the SharePoint Server farm.
     
@@ -122,11 +122,11 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
     
 4. Run the **Register-SPWorkflowService** cmdlet. 
     
-    **Example**:
+   **Example**:
     
-  ```
-  Register-SPWorkflowService -SPSite "https://myserver/mysitecollection" -WorkflowHostUri "https://workflow.example.com:12290"
-  ```
+   ```
+   Register-SPWorkflowService -SPSite "https://myserver/mysitecollection" -WorkflowHostUri "https://workflow.example.com:12290"
+   ```
 
 5. Log on to each server in the SharePoint Server farm.
     
@@ -153,11 +153,11 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
     
 4. Run the **Register-SPWorkflowService** cmdlet. The cmdlet should be run only once and can be run from any of the servers in the SharePoint farm. 
     
-    **Example**:
+   **Example**:
     
-  ```
-  Register-SPWorkflowService -SPSite "http://myserver/mysitecollection" -WorkflowHostUri "http://workflow.example.com:12291" -AllowOAuthHttp
-  ```
+   ```
+   Register-SPWorkflowService -SPSite "http://myserver/mysitecollection" -WorkflowHostUri "http://workflow.example.com:12291" -AllowOAuthHttp
+   ```
 
 > [!IMPORTANT]
 > You must install the Workflow Manager Client on each server in the SharePoint farm before you run the pairing cmdlet. 
@@ -180,11 +180,11 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
     
 5. Run the **Register-SPWorkflowService** cmdlet. 
     
-    **Example**:
+   **Example**:
     
-  ```
-  Register-SPWorkflowService -SPSite "https://myserver/mysitecollection" -WorkflowHostUri "https://workflow.example.com:12290"
-  ```
+   ```
+   Register-SPWorkflowService -SPSite "https://myserver/mysitecollection" -WorkflowHostUri "https://workflow.example.com:12290"
+   ```
 
 > [!IMPORTANT]
 > You must install the Workflow Manager Client on each server in the SharePoint farm before you run the pairing cmdlet. 
