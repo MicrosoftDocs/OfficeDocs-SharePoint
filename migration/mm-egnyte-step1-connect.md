@@ -1,5 +1,5 @@
 ---
-title: "Step 1: Connect to Egynte"
+title: "Step 1: Connect to Egnyte"
 ms.reviewer: jhendr
 author: JoanneHendrickson
 ms.author: jhendr
@@ -26,7 +26,7 @@ description: "Step 1:  Connect to Egnyte"
 
 |Required|Description|
 |:-----|:-----|
-|Egnyte developers account| You must have an Egnyte developers account to register a new Egnyte Connect API application that is required you to connect to Migration Manager.</br></br> If you don't already have an account, see: [Create an Egnyte developers account](https:/developers.egnyte.com/register)
+|Egnyte developers account| You must have an Egnyte developers account to register a new Egnyte Connect API application that is required you to connect to Migration Manager.</br></br> If you don't already have an account, see: [Create an Egnyte developers account]( https://developers.egnyte.com/member/register)
 
 
 ## Create your Egnyte app
