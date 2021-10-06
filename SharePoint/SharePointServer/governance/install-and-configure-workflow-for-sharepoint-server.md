@@ -95,7 +95,7 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
     
    **Example**:
     
-   ```
+   ```powershell
    Register-SPWorkflowService -SPSite "http://myserver/mysitecollection" -WorkflowHostUri "http://workflow.example.com:12291" -AllowOAuthHttp
    ```
 
@@ -124,7 +124,7 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
     
    **Example**:
     
-   ```
+   ```powershell
    Register-SPWorkflowService -SPSite "https://myserver/mysitecollection" -WorkflowHostUri "https://workflow.example.com:12290"
    ```
 
@@ -155,7 +155,7 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
     
    **Example**:
     
-   ```
+   ```powershell
    Register-SPWorkflowService -SPSite "http://myserver/mysitecollection" -WorkflowHostUri "http://workflow.example.com:12291" -AllowOAuthHttp
    ```
 
@@ -182,7 +182,7 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
     
    **Example**:
     
-   ```
+   ```powershell
    Register-SPWorkflowService -SPSite "https://myserver/mysitecollection" -WorkflowHostUri "https://workflow.example.com:12290"
    ```
 
