@@ -194,7 +194,7 @@ For example, for the Views usage event the *TailTrimming* parameter is by defaul
   
 ![Tail Trimming 3](../media/OTCSP_TailTrimming3.png)
   
-This means that the usage analytics reports will be updated for an item when the item was viewed a minimum three times within the past 24 hours. For example, if the item *Fabrikam Laptop16 M6000* was viewed two times within the past 24 hours, these two views won't be displayed in the usage analytics reports. If within the next 24 hours the *Fabrikam Laptop16 M6000* item is viewed 4 times, the usage analytics report will be updated with 4 views. 
+This means that the usage analytics reports will be updated for an item when the item was viewed a minimum of three times within the past 24 hours. For example, if the item *Fabrikam Laptop16 M6000* was viewed two times within the past 24 hours, these two views won't be displayed in the usage analytics reports. If within the next 24 hours the *Fabrikam Laptop16 M6000* item is viewed four times, the usage analytics report will be updated with four views. 
   
 The reason the *TailTrimming* parameter is set to 3 is to avoid having to update items that almost none of your website visitors are interacting with. By not updating these items, you reduce the load on your system. On the other hand, when the *TailTrimming* parameter is set to 3, the usage analytics reports can be somewhat inaccurate. In the example with the *Fabrikam Laptop16 M6000*, the two views in the first 24 hours won't be displayed up in the usage analytic reports. Total number of views of *Fabrikam Laptop16 M6000* over the last 48 hours will show 4, but in reality, it was viewed 6 times. 
   
