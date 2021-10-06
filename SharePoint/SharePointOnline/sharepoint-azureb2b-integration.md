@@ -58,7 +58,7 @@ To enable Azure AD passcode authentication
 2. In the nav pane, select **Azure Active Directory**.
 3. Under **Manage**, click **External identities**.
 4. Click **All identity providers**.
-5. Under **Configured identity providers**, click **Email one-time passcode**, choose **Enable email one-time passcode for guests effective now**.
+5. Under **Configured identity providers**, select **Email one-time passcode** and choose **Enable email one-time passcode for guests effective now**.
 6. Select **Save**.
 
 To enable SharePoint and OneDrive integration with Azure AD B2B
