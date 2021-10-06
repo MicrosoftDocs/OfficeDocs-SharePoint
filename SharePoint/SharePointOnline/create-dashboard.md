@@ -16,7 +16,6 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to create the Viva Connections Dashboard"
 ---
 
@@ -46,15 +45,18 @@ This article includes:
 - [Add a Teams app card](#add-a-teams-app-card)
 - [Audience targeting](#audience-targeting)
 - [Preview your Dashboard to see how it will display for different audiences](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
+- [Put the Dashboard on your home site using the Dashboard web part](#put-the-dashboard-on-your-home-site-using-the-dashboard-web-part)
 
 ## Create a Dashboard and add cards
 
-A Dashboard can be created on any communication site, but we recommend you create it on your home site. You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissions) on the site on which you're creating it.
+A Dashboard can be created on any communication site, but we recommend you create it on your home site. You’ll need [edit permissions](customize-sharepoint-site-permissions.md) on the site on which you're creating it.
 
 1. On your home site, select **New > Dashboard**. The Dashboard page opens in Mobile view by default. 
 
    >[!NOTE]
-   >You can choose Mobile, Tablet, and Desktop views interchangeably as you’re authoring.
+   > - You can choose Mobile, Tablet, and Desktop views interchangeably as you’re authoring.
+   > - Image recommendations for cards in the Dashboard: medium cards should be 300x150 to 400x200 with 2:1 aspect ratio and large cards 300x300 to 400x400 with 1:1 aspect ratio in order to prevent stretching in the mobile app.
+   > - Image URLS in card properties must be an absolute URL in order for the link to work in the mobile app.
 
 
 2. Select **+ Add a card**.
@@ -196,3 +198,6 @@ To preview for different audiences:
    In the following example, the preview is set for Mobile, and the first one shows the top two cards are audience targeted as the part of the group that is selected for preview. In the second preview, the top two cards are not targeted for the chosen audience group.
 
    ![Audience targeting example.](media/dashboard-preview-examples.png)
+   
+   ### Put the Dashboard on your home site using the Dashboard web part
+   Once a Dashboard is authored and published, you can use the Dashboard web part to display it on your home site. You can add the web part to any section on your page. For best results, we recommend putting in a right vertical section. When added, it will automatically be populated with the cards from the existing Dashboard on your site. You'll be able to set the maximum number of cards you want to show. [Learn how to use the Dashboard web part](use-dashboard-web-part-on-home-site.md).
