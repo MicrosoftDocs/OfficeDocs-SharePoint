@@ -22,6 +22,8 @@ description: "How to see the list of site collections in SharePoint Server."
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 A site collection is a group of websites that have the same owner and share administrative settings, for example, permissions, and quotas. Site collections are created within a web application. When you create a site collection, a top-level site is automatically created in the site collection. You can then create one or more subsites below the top-level site. The entire structure of the top-level site and all its subsites is called a site collection.
+
+Learn about [Managing sites in the new SharePoint admin center in Microsoft 365](../../SharePointOnline/manage-sites-in-new-admin-center.md).
   
 ## View the site collections in a web application
 
@@ -31,18 +33,18 @@ Use the following procedures to view all the site collections in a web applicati
 
 Refer to the following table in step 3.
   
-|**Item**|**Description**|
+| Item | Description |
 |:-----|:-----|
-|URL  <br/> |The URL of the site collection.  <br/> |
-|Title  <br/> |The current title for site collection.  <br/> |
-|Description  <br/> |The current description for the site collection.  <br/> |
-|Primary administrator  <br/> |The primary administrator for the site collection.  <br/> |
-|Email address  <br/> |The email address for the primary administrator.  <br/> |
-|Database name  <br/> |The content database that is used by the site collection.  <br/> |
+|URL  |The URL of the site collection.  |
+|Title  |The current title for site collection.  |
+|Description  |The current description for the site collection.  |
+|Primary administrator  |The primary administrator for the site collection.  |
+|Email address  |The email address for the primary administrator.  |
+|Database name  |The content database that is used by the site collection.  |
    
 1. Verify that you have the following administrative credentials:
     
-   - To view all site collections, you must be a member of the Farm Administrators group on the computer that is running the SharePoint Central Administration website.
+    To view all site collections, you must be a member of the Farm Administrators group on the computer that is running the SharePoint Central Administration website.
     
 2. Open Central Administration. On the **Application Management** page, in the **Site Collections** section, click **View all site collections**.
     
@@ -69,7 +71,7 @@ Refer to the following table in step 3.
    > [!NOTE]
    > This command displays the URLs of all the web applications in a server farm and the site collections in each web application.
     
-For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps) and [Get-SPSite](/powershell/module/sharepoint-server/get-spsite?view=sharepoint-ps). 
+For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps&preserve-view=true) and [Get-SPSite](/powershell/module/sharepoint-server/get-spsite?view=sharepoint-ps&preserve-view=true). 
 
 We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   
