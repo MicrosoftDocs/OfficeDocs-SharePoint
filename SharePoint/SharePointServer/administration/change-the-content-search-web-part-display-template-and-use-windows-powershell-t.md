@@ -137,7 +137,7 @@ When Usage analytics is run, *SV Keyboard E10* will generate a recommendation fo
 ## Run Microsoft PowerShell scripts to start search analytics and push usage events to the Event store
 <a name="BKMK_RunWindowsPowerShellToStartSearchAnalyticsAndPushUsageEventsToTheEventStore"> </a>
 
-After you have generated *Views* usage events, you have two options on how to continue. The Usage analytics timer job runs one time every 24 hours.
+After you have generated *Views* usage events, you have two options on how to continue. The Usage analytics timer job runs once every 24 hours.
   
 If you want results faster, you can use some Microsoft PowerShell scripts to speed up the process. Here's what you have to do:
   
