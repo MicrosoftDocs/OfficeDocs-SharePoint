@@ -252,7 +252,7 @@ When the Usage analytics timer job starts, it'll take the usage events from yest
   $job.EnableTimerJobSchedule()
   ```
 
-   Notice that one command contains two placeholders: *host name* and *guid*. The host name is the name of the server where SharePoint Server is installed. You can see the guid in the file path of your EventStore. 
+   Notice that one command contains two placeholders: *host name* and *guid*. The host name is the name of the server where SharePoint Server is installed. You can see the GUID in the file path of your EventStore. 
     
    ![GUID](../media/OTCSP_GUID.png)
   
