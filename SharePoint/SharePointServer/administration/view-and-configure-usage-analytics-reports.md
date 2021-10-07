@@ -35,12 +35,14 @@ The previous article in this series, [Use recommendations and popular items on w
 - [About the TailTrimming parameter](view-and-configure-usage-analytics-reports.md#BKMK_AbouttheTailTrimmingParameter)
     
 > [!NOTE]
-> The examples in this series are based on an on-premises SharePoint Server deployment. 
+> The examples in this series are based on an on-premises SharePoint Server deployment.
+
+Learn about [Viewing usage data for your SharePoint site in Microsoft 365](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e).
   
 ## About the usage analytics reports
 <a name="BKMK_AbouttheUsageAnalyticsReports"> </a>
 
-The usage analytics reports show statistics of how visitors have interacted with the content on your website, for example which item is viewed the most. The reports are broken down per usage event. By default, this means that you'll be able to see:
+The usage analytics reports show statistics of how visitors have interacted with the content on your website, for example which item is viewed the most. The reports are broken down per usage event. By default, this report breakdown means that you'll be able to see:
   
 - The number of *views* for an item 
     
@@ -131,7 +133,7 @@ Notice that the value for the *RecentPopularityTimeframe* parameter has changed 
 ## Narrow the Most Popular Items report to a specific attribute or category
 <a name="BKMK_NarrowtheMostPopularItemsReporttoaSpecificAttributeorCategory"> </a>
 
-Viewing usage reports per usage event is useful when we want to see how visitors are interacting with our site. But many times we want to narrow the report to a specific attribute or category, for example all items that are on sale or all Laptops. To do this, we can use [Keyword Query Language (KQL)](/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference) If you don't know KQL, don't worry. You can easily narrow your Most Popular Items report without having much knowledge of the KQL syntax. 
+Viewing usage reports per usage event is useful when we want to see how visitors are interacting with our site. But many times we want to narrow the report to a specific attribute or category, for example all items that are on sale or all Laptops. To narrow the report, we can use [Keyword Query Language (KQL)](/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference) If you don't know KQL, don't worry. You can easily narrow your Most Popular Items report without having much knowledge of the KQL syntax. 
   
 In our Contoso catalog, we have a site column called *RetOnSale*. For each item, the value of *RetOnSale* specifies whether the item is on sale or not. 
   
@@ -198,7 +200,7 @@ This means that the usage analytics reports will be updated for an item when the
   
 The reason the *TailTrimming* parameter is set to 3 is to avoid having to update items that almost none of your website visitors are interacting with. By not updating these items, you reduce the load on your system. On the other hand, when the *TailTrimming* parameter is set to 3, the usage analytics reports can be somewhat inaccurate. In the example with the *Fabrikam Laptop16 M6000*, the two views in the first 24 hours won't be displayed in the usage analytic reports. The total number of views of *Fabrikam Laptop16 M6000* over the last 48 hours will show 4, but in reality, it was viewed six times. 
   
-If you want the usage analytics reports to be updated regardless of minimum amount of views within the last 24 hours, do the following:
+If you want the usage analytics reports to be updated regardless of minimum number of views within the last 24 hours, do the following tasks:
   
 1. In the SharePoint 2016 Management Shell, at the Microsoft PowerShell command prompt, type these commands:
     
@@ -226,4 +228,4 @@ In the following example, we wanted the usage analytics reports for the *Views* 
   
 Notice that the value of the *TailTrimming* parameter has changed to 0. 
     
-So with that, this series has come to an end. Hopefully you now have a better understanding of how recommendations and popular items work, and can start adding them to your website.
+So with that change, this series has come to an end. Hopefully you now have a better understanding of how recommendations and popular items work, and can start adding them to your website.
