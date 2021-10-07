@@ -32,6 +32,12 @@ The following Health Analyzer rules relate to security in SharePoint Server:
 - [Accounts used by application pools or service identities are in the local machine Administrators group (SharePoint Server)](accounts-used-by-application-pools-or-service-identities-are-in-the-local-machin.md)
     
 - [Business Data Connectivity connectors are currently enabled in a partitioned environment (SharePoint Server)](business-data-connectivity-connectors-are-currently-enabled-in-a-partitioned-env.md)
+
+- [Upcoming SSL certificate expirations (SharePoint Server Subscription Edition)](upcoming-ssl-certificate-expirations.md)
+
+- [SSL certificates are about to expire (SharePoint Server Subscription Edition)](ssl-certificates-expire.md)
+
+- [SSL certificates have expired (SharePoint Server Subscription Edition)](ssl-certificates-have-expired.md)
     
 - [Web Applications using Claims authentication require an update (SharePoint Server)](web-applications-using-claims-authentication-require-an-update.md)
     
@@ -80,6 +86,8 @@ The following Health Analyzer rules relate to configuration of SharePoint Server
 - [Automatic Update setting inconsistent across farm servers (SharePoint Server 2016)](automatic-update-setting-inconsistent-across-farm-servers.md)
     
 - [Built-in accounts are used as application pool or service identities (SharePoint Server)](built-in-accounts-are-used-as-application-pool-or-service-identities.md)
+
+- [Certificate notification contacts haven't been configured (SharePoint Server Subscription Edition)](certificate-notification-contacts-haven't-been-configured.md)
     
 - [Missing server side dependencies (SharePoint Server)](missing-server-side-dependencies.md)
     
