@@ -32,7 +32,7 @@ The previous article in this series, [Add and configure the Recommended Items an
 ## Enable usage cookies to generate unique user IDs
 <a name="BKMK_EnableUsageCookiestoGenerateUniqueUserIDs"> </a>
 
-The previous article in this series explained how to generate recommendations by inviting some co-workers to a to a "[Why you should simulate the generation of Views usage events](change-the-content-search-web-part-display-template-and-use-windows-powershell-t.md#BKMK_WhyYouShouldSimulateTheGenerationOfViewsUsageEvents)." All users who participated in the click party were logged in. When users are logged in, each user has a unique user ID. In the event store file we were therefore able to verify that different user IDs were recorded for the usage events.
+The previous article in this series explained how to generate recommendations by inviting some co-workers to a "[Why you should simulate the generation of Views usage events](change-the-content-search-web-part-display-template-and-use-windows-powershell-t.md#BKMK_WhyYouShouldSimulateTheGenerationOfViewsUsageEvents)." All users who participated in the click party were logged in. When users are logged in, each user has a unique user ID. In the event store file we were therefore able to verify that different user IDs were recorded for the usage events.
   
 ![Three User IDs](../media/OTCSP_ThreeUserIDs.png)
   
@@ -64,13 +64,13 @@ To enable usage cookies, do the following:
 ## Enable the recording of a usage event for anonymous users
 <a name="BKMK_EnabletheRecordingofaUsageEventforAnonymousUsers"> </a>
 
-When you enable usage cookies, only the  *Views*  usage event can be recorded for anonymous users. So, before you can record other usage events, for example  *Recommendation Displays*  , for anonymous users, you have to change a parameter value on the usage event. 
+When you enable usage cookies, only the  *Views*  usage event can be recorded for anonymous users. So, before you can record other usage events, for example  *Recommendation Displays*, for anonymous users, you have to change a parameter value on the usage event. 
   
-The  *Options*  parameter specifies whether the usage event can be recorded for anonymous users. For example, for the  *Views*  usage event, the  *Options*  parameter is by default set to  *AllowAnonymousWrite*  . This means that the  *Views*  usage event can be recorded for anonymous users. 
+The  *Options*  parameter specifies whether the usage event can be recorded for anonymous users. For example, for the  *Views*  usage event, the  *Options*  parameter is by default set to  *AllowAnonymousWrite*. This means that the  *Views*  usage event can be recorded for anonymous users. 
   
 ![Default Settings Views](../media/OTCSP_DefaultSettingsViews.png)
   
-For the  *Recommendation Displays*  usage event, the  *Options*  parameter is by default set to  *None*  . This means that the  *Recommendation Displays*  usage event cannot be recorded for anonymous users. 
+For the  *Recommendation Displays*  usage event, the  *Options*  parameter is by default set to  *None*. This means that the  *Recommendation Displays*  usage event cannot be recorded for anonymous users. 
   
 ![Default Settings Recommendations Display](../media/OTCSP_DefaultSettingsRecsDisp.png)
   
@@ -119,7 +119,7 @@ In the Event store, you can verify that three usage event types are logged.
     
    ![Three usage events recorded](../media/OTCSP_ThreeUsageEventsRecorded.png)
   
-So now you know how to configure and display recommendations and popular items on your website. If you want more details about the number of views for a specific item or category, you can do this by looking in the usage analytics reports on your catalog. We'll show you how you can do that in the next article. Now you know how to configure and display recommendations and popular items on your website. In the you want more details about the number of views for a specific item or category, look in the usage analytics reports on your catalog.
+So now you know how to configure and display recommendations and popular items on your website. If you want more details about the number of views for a specific item or category, you can do this by looking in the usage analytics reports on your catalog. We'll show you how you can do that in the next article. Now you know how to configure and display recommendations and popular items on your website. If you want more details about the number of views for a specific item or category, look in the usage analytics reports on your catalog.
   
 ### Next article in this series
 
