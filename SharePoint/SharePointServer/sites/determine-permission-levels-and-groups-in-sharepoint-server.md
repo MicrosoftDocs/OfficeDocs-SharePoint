@@ -48,7 +48,11 @@ If you use a site template other than the team site template, you will see a dif
 |**Group name**|**Default permission level**|**Description**|
 |:-----|:-----|:-----|
 |Restricted Readers  <br/> |Restricted Read to the site, plus Limited Access to specific lists  <br/> |Members of this group can view pages and documents, but cannot view historical versions or review user rights information.  <br/> |
-|Style Resource Readers  <br/> |Read to the Master Page Gallery and Restricted Read to the Style Library.  <br/> |Members of this group are given Read permission to the Master Page Gallery and Restricted Read permission to the Style Library. By default, all authenticated users are a member of this group.  <br/> > [!NOTE] > Do not remove all authenticated users from this group as Master Page Gallery and Style Library are shared across all sites in the site collection and must be accessible to all users of all sites. If you remove all authenticated users from the group, anyone with this permission level on a subsite will not be able to render the site. SharePoint will not automatically add or remove users of subsites to or from this group as needed.           |
+|Style Resource Readers  <br/> |Read to the Master Page Gallery and Restricted Read to the Style Library.  <br/> |Members of this group are given Read permission to the Master Page Gallery and Restricted Read permission to the Style Library. By default, all authenticated users are a member of this group.  <br/> 
+
+> [!NOTE] 
+> Do not remove all authenticated users from this group as Master Page Gallery and Style Library are shared across all sites in the site collection and must be accessible to all users of all sites. If you remove all authenticated users from the group, anyone with this permission level on a subsite will not be able to render the site. SharePoint will not automatically add or remove users of subsites to or from this group as needed.          |
+
 |Designers  <br/> |Design, Limited Access  <br/> |Members of this group can view, add, update, delete, approve, and customize the layout of site pages by using the browser or SharePoint Designer 2013.  <br/> |
 |Approvers  <br/> |Approve, plus Limited Access  <br/> |Members of this group can edit and approve pages, list items, and documents.  <br/> |
 |Hierarchy Managers  <br/> |Manage Hierarchy, plus Limited Access  <br/> |Members of this group can create sites, lists, list items, and documents.  <br/> |
