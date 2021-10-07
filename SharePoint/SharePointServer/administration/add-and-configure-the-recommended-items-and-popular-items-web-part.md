@@ -147,7 +147,7 @@ In [Change the Content Search Web Part display template and use Windows PowerShe
   
 ![Log Recs Click](../media/OTCSP_LogRecsClick.png)
   
-When you change your RIWP display template, you should copy the *Item_RecommendationsClickLogging* file, change the copied version and apply it to your RIWP. That way, you don't have to worry about how to add code in the same manner that we did for the CSWP. 
+When you change your RIWP display template, you should copy the *Item_RecommendationsClickLogging* file, change the copied version, and apply it to your RIWP. That way, you don't have to worry about how to add code in the same manner that we did for the CSWP. 
   
 After applying the changed display template to the RIWP, the recommended items are displayed nicely.
   
