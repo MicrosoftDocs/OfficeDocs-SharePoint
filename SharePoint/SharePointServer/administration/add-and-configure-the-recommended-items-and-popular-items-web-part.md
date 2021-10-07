@@ -45,7 +45,7 @@ In our Contoso scenario, we'll show the RIWP below the CSWP.
 ## About the recommendedfor managed property
 <a name="BKMK_AbouttherecommendedforManagedProperty"> </a>
 
-In a previous blog article we told you about the  *UsageAnalyticsId*  managed property that is used by Usage analytics to specify how recommendations between individual items should be calculated (see [About the UsageAnalyticsID managed property](an-introduction-to-recommendations-and-popular-items.md#BKMK_AbouttheUsageAnalyticsIDManagedProperty)). The result of this calculation is sent to the *recommendedfor* managed property. The RIWP uses the *recommendedfor* managed property to query for recommendations. You don't have to know about this managed property when you configure the RIWP. To understand how the query in the RIWP works, it's important that you keep the *recommendedfor* managed property in mind. 
+In a previous blog article, we told you about the *UsageAnalyticsId* managed property that is used by Usage analytics to specify how recommendations between individual items should be calculated (see [About the UsageAnalyticsID managed property](an-introduction-to-recommendations-and-popular-items.md#BKMK_AbouttheUsageAnalyticsIDManagedProperty)). The result of this calculation is sent to the *recommendedfor* managed property. The RIWP uses the *recommendedfor* managed property to query for recommendations. You don't have to know about this managed property when you configure the RIWP. To understand how the query in the RIWP works, it's important that you keep the *recommendedfor* managed property in mind. 
   
 ## Configure the Recommended Items Web Part
 <a name="BKMK_ConfiguretheRecommendedItemsWebPart"> </a>
