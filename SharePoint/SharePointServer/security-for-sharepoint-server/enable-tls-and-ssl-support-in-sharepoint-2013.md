@@ -31,7 +31,9 @@ TLS protocol version 1.1 and 1.2 support is not enabled by default in SharePoint
 3. Client computers used to access your SharePoint sites
     
 > [!IMPORTANT]
-> If you do not update each of these locations, you run the risk of systems failing to ﻿connect to each other using TLS 1.1 or TLS 1.2. The systems will instead fall back to an older security protocol; and if the older security protocols are disabled, ﻿the systems may fail to connect entirely. > **Example:** SharePoint servers may fail to connect to ﻿SQL Server databases, or client computers may fail to connect to your SharePoint sites. 
+> If you do not update each of these locations, you run the risk of systems failing to ﻿connect to each other using TLS 1.1 or TLS 1.2. The systems will instead fall back to an older security protocol; and if the older security protocols are disabled, ﻿the systems may fail to connect entirely. > **Example:** SharePoint servers may fail to connect to ﻿SQL Server databases, or client computers may fail to connect to your SharePoint sites.
+
+Learn about [data encryption in OneDrive and SharePoint in Microsoft 365](/microsoft-365/compliance/data-encryption-in-odb-and-spo).
   
 ## Summary of the update process
 
@@ -72,16 +74,16 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1]
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
-  "DisabledByDefault"=dword:00000000
-  "Enabled"=dword:00000001
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server]
-  "DisabledByDefault"=dword:00000000
-  "Enabled"=dword:00000001
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
+   "DisabledByDefault"=dword:00000000
+   "Enabled"=dword:00000001
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server]
+   "DisabledByDefault"=dword:00000000
+   "Enabled"=dword:00000001
+   ```
 
 3. Save the **tls11-enable.reg** file. 
     
@@ -97,16 +99,16 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2]
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client]
-  "DisabledByDefault"=dword:00000000
-  "Enabled"=dword:00000001
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server]
-  "DisabledByDefault"=dword:00000000
-  "Enabled"=dword:00000001
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client]
+   "DisabledByDefault"=dword:00000000
+   "Enabled"=dword:00000001
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server]
+   "DisabledByDefault"=dword:00000000
+   "Enabled"=dword:00000001
+   ```
 
 3. Save the **tls12-enable.reg** file. 
     
@@ -141,13 +143,13 @@ To install the WinHTTP KB update, follow the instructions from the KB article [U
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
-  "DefaultSecureProtocols"=dword:00000A80
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
-  "DefaultSecureProtocols"=dword:00000A80
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
+   "DefaultSecureProtocols"=dword:00000A80
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
+   "DefaultSecureProtocols"=dword:00000A80
+   ```
 
 3. Save the **winhttp-tls10-tls12-enable.reg** file. 
     
@@ -218,13 +220,13 @@ Applications compiled for .NET Framework 4.6 or higher will behave as if the **S
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]
-  "SchUseStrongCrypto"=dword:00000001
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]
-  "SchUseStrongCrypto"=dword:00000001
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]
+   "SchUseStrongCrypto"=dword:00000001
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]
+   "SchUseStrongCrypto"=dword:00000001
+   ```
 
 3. Save the **net46-strong-crypto-enable.reg** file. 
     
@@ -267,13 +269,13 @@ The **SystemDefaultTlsVersions** registry value defines which security protocol 
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
-  "SystemDefaultTlsVersions"=dword:00000001
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v2.0.50727]
-  "SystemDefaultTlsVersions"=dword:00000001
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
+   "SystemDefaultTlsVersions"=dword:00000001
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v2.0.50727]
+   "SystemDefaultTlsVersions"=dword:00000001
+   ```
 
 3. Save the **net35-tls12-enable.reg** file. 
     
@@ -320,16 +322,16 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0]
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Client]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Server]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Client]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Server]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   ```
 
 3. Save the **ssl20-disable.reg** file. 
     
@@ -345,16 +347,16 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0]
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Client]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Server]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Client]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Server]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   ```
 
 3. Save the **ssl30-disable.reg** file. 
     
@@ -370,16 +372,16 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0]
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   ```
 
 3. Save the **tls10-disable.reg** file. 
     
@@ -395,16 +397,16 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1]
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   ```
 
 3. Save the **tls11-disable.reg** file. 
     
@@ -441,16 +443,16 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1]
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
-  "DisabledByDefault"=dword:00000000
-  "Enabled"=dword:00000001
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server]
-  "DisabledByDefault"=dword:00000000
-  "Enabled"=dword:00000001
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
+   "DisabledByDefault"=dword:00000000
+   "Enabled"=dword:00000001
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server]
+   "DisabledByDefault"=dword:00000000
+   "Enabled"=dword:00000001
+   ```
 
 3. Save the **tls11-enable.reg** file. 
     
@@ -466,16 +468,16 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2]
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client]
-  "DisabledByDefault"=dword:00000000
-  "Enabled"=dword:00000001
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server]
-  "DisabledByDefault"=dword:00000000
-  "Enabled"=dword:00000001
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client]
+   "DisabledByDefault"=dword:00000000
+   "Enabled"=dword:00000001
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server]
+   "DisabledByDefault"=dword:00000000
+   "Enabled"=dword:00000001
+   ```
 
 3. Save the **tls12-enable.reg** file. 
     
@@ -510,16 +512,16 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0]
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Client]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Server]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Client]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Server]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   ```
 
 3. Save the **ssl20-disable.reg** file. 
     
@@ -535,16 +537,16 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0]
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Client]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Server]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Client]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Server]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   ```
 
 3. Save the **ssl30-disable.reg** file. 
     
@@ -560,16 +562,16 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0]
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   ```
 
 3. Save the **tls10-disable.reg** file. 
     
@@ -585,16 +587,16 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1]
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   ```
 
 3. Save the **tls11-disable.reg** file. 
     
@@ -636,16 +638,16 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1]
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
-  "DisabledByDefault"=dword:00000000
-  "Enabled"=dword:00000001
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server]
-  "DisabledByDefault"=dword:00000000
-  "Enabled"=dword:00000001
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
+   "DisabledByDefault"=dword:00000000
+   "Enabled"=dword:00000001
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server]
+   "DisabledByDefault"=dword:00000000
+   "Enabled"=dword:00000001
+   ```
 
 3. Save the **tls11-enable.reg** file. 
     
@@ -661,16 +663,16 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2]
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client]
-  "DisabledByDefault"=dword:00000000
-  "Enabled"=dword:00000001
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server]
-  "DisabledByDefault"=dword:00000000
-  "Enabled"=dword:00000001
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client]
+   "DisabledByDefault"=dword:00000000
+   "Enabled"=dword:00000001
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server]
+   "DisabledByDefault"=dword:00000000
+   "Enabled"=dword:00000001
+   ```
 
 3. Save the **tls12-enable.reg** file. 
     
@@ -687,7 +689,7 @@ WinHTTP doesn't inherit its SSL and TLS encryption protocol version defaults fro
   
 The WinHTTP ** DefaultSecureProtocols ** registry value is a bit field that accepts multiple values by adding them together into a single value. You can use the Windows Calculator program (Calc.exe) in Programmer mode to add the following hexadecimal values as desired. 
   
-## 
+## Hexadecimal values
 <a name="EnabledTLS11_12"> </a>
 
 |**DefaultSecureProtocols value**|**Description**|
@@ -708,22 +710,22 @@ To install the WinHTTP KB update, follow the instructions from the KB article [U
     
 2. Copy, and then paste the following text.
     
-    **For 64-bit operating system**
+   **For 64-bit operating system**
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
-  "DefaultSecureProtocols"=dword:00000A80
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
-  "DefaultSecureProtocols"=dword:00000A80
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
+   "DefaultSecureProtocols"=dword:00000A80
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
+   "DefaultSecureProtocols"=dword:00000A80
+   ```
 
-    **For 32-bit operating system**
+   **For 32-bit operating system**
     
-  ```
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
-  "DefaultSecureProtocols"=dword:00000A80
-  ```
+   ```console
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
+   "DefaultSecureProtocols"=dword:00000A80
+   ```
 
 3. Save the **winhttp-tls10-tls12-enable.reg** file. 
     
@@ -792,23 +794,23 @@ To enable strong cryptography in .NET Framework 4.5.1 and 4.5.2 on Windows 8.1 a
     
 2. Copy, and then paste the following text.
     
-    **For 64-bit operating system**
+   **For 64-bit operating system**
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]
-  "SchUseStrongCrypto"=dword:00000001
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]
-  "SchUseStrongCrypto"=dword:00000001
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]
+   "SchUseStrongCrypto"=dword:00000001
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]
+   "SchUseStrongCrypto"=dword:00000001
+   ```
 
-    **For 32-bit operating system**
+   **For 32-bit operating system**
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]
-  "SchUseStrongCrypto"=dword:00000001
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]
+   "SchUseStrongCrypto"=dword:00000001
+   ```
 
 3. Save the **net46-strong-crypto-enable.reg** file. 
     
@@ -865,23 +867,23 @@ No update needs to be installed. Configure the Windows Registry keys as describe
     
 2. Copy, and then paste the following text.
     
-    **For 64-bit operating system**
+   **For 64-bit operating system**
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
-  "SystemDefaultTlsVersions"=dword:00000001
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v2.0.50727]
-  "SystemDefaultTlsVersions"=dword:00000001
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
+   "SystemDefaultTlsVersions"=dword:00000001
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v2.0.50727]
+   "SystemDefaultTlsVersions"=dword:00000001
+   ```
 
-    **For 32-bit operating system**
+   **For 32-bit operating system**
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
-  "SystemDefaultTlsVersions"=dword:00000001
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
+   "SystemDefaultTlsVersions"=dword:00000001
+   ```
 
 3. Save the **net35-tls12-enable.reg** file. 
     
@@ -916,23 +918,23 @@ To enable strong cryptography in .NET Framework 3.5 on Windows 8.1 and Windows S
     
 2. Copy, and then paste the following text.
     
-    **For 64-bit operating system**
+   **For 64-bit operating system**
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
-  "SchUseStrongCrypto"=dword:00000001
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v2.0.50727]
-  "SchUseStrongCrypto"=dword:00000001
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
+   "SchUseStrongCrypto"=dword:00000001
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v2.0.50727]
+   "SchUseStrongCrypto"=dword:00000001
+   ```
 
-    **For 32-bit operating system**
+   **For 32-bit operating system**
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
-  "SchUseStrongCrypto"=dword:00000001
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
+   "SchUseStrongCrypto"=dword:00000001
+   ```
 
 3. Save the **net35-strong-crypto-enable.reg** file. 
     
@@ -960,16 +962,16 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0]
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Client]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Server]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Client]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Server]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   ```
 
 3. Save the **ssl20-disable.reg** file. 
     
@@ -985,16 +987,16 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0]
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Client]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Server]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Client]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Server]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   ```
 
 3. Save the **ssl30-disable.reg** file. 
     
@@ -1010,16 +1012,16 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0]
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   ```
 
 3. Save the **tls10-disable.reg** file. 
     
@@ -1035,16 +1037,16 @@ The **DisabledByDefault** registry value defines whether the protocol version is
     
 2. Copy, and then paste the following text.
     
-  ```
-  Windows Registry Editor Version 5.00
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1]
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server]
-  "DisabledByDefault"=dword:00000001
-  "Enabled"=dword:00000000
-  ```
+   ```console
+   Windows Registry Editor Version 5.00
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1]
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server]
+   "DisabledByDefault"=dword:00000001
+   "Enabled"=dword:00000000
+   ```
 
 3. Save the **tls11-disable.reg** file. 
     
