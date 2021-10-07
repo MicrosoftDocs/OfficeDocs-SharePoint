@@ -100,7 +100,7 @@ On the publishing site, we use the value of both *Group Number* and *Item Number
   
 ![Items Publishing](../media/OTCSP_ItemsPublishing.png)
   
-The default Usage analytics calculation will consider the color of items when calculating recommendations. For example, recommendations for a white  *Southridge Video Laptop15.4W M1548* could prove to be a white  *Litware Laptop Keyboard X105*, a blue *Litware Laptop Keyboard X105*, a white *Litware Wireless Laser Mouse M55* and a blue *Litware Wireless Laser Mouse M55*. 
+The default Usage analytics calculation will consider the color of items when calculating recommendations. For example, recommendations for a white *Southridge Video Laptop15.4W M1548* could prove to be a white *Litware Laptop Keyboard X105*, a blue *Litware Laptop Keyboard X105*, a white *Litware Wireless Laser Mouse M55*, and a blue *Litware Wireless Laser Mouse M55*. 
   
 ![Item Recommendations](../media/OTCSP_ItemRecommendations.png)
   
