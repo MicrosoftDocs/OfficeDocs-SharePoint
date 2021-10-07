@@ -169,7 +169,7 @@ The search analytics job is finished when **State** is **Stopped** and **Status*
     
    ![SA Stopped](../media/OTCSP_SAstoped.png)
   
-5. The usage events are added to the Event store in a 10 minute interval. To push the usage events to the Event store, type the following commands:
+5. The usage events are added to the Event store in 10-minute intervals. To push the usage events to the Event store, type the following commands:
     
   ```
   $job = Get-SPTimerJob -Identity ("job-usage-log-file-import")
