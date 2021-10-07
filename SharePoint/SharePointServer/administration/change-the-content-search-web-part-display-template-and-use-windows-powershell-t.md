@@ -28,7 +28,7 @@ description: "Learn how to change the Content Search Web Part display template a
 
 In our Contoso website, we want to recommend one product per product group, that is, we want Usage analytics to [ignore the product color](an-introduction-to-recommendations-and-popular-items.md). This means that our recommendations must be calculated on *Group Number*. We can do this, because *Group Number* is part of the friendly URL (FURL) on our item detail page (see [Stage 10: Configure the query in a Content Search Web Part on a catalog item page in SharePoint Server](stage-10-configure-the-query-in-a-content-search-web-part-on-a-catalog-item-page.md)).
   
-In the previous blog post, we told you that managed property that's used to specify how recommendations between individual catalog items should be calculated is  *UsageAnalyticsID* (see [About the UsageAnalyticsID managed property](an-introduction-to-recommendations-and-popular-items.md#BKMK_AbouttheUsageAnalyticsIDManagedProperty)). For Usage analytics to do its calculation on *Group Number*, we must change the mapping of the *UsageAnalyticsID* property. Here's how you do that: 
+In the previous blog post, we told you that managed property that's used to specify how recommendations between individual catalog items should be calculated is *UsageAnalyticsID* (see [About the UsageAnalyticsID managed property](an-introduction-to-recommendations-and-popular-items.md#BKMK_AbouttheUsageAnalyticsIDManagedProperty)). For Usage analytics to do its calculation on *Group Number*, we must change the mapping of the *UsageAnalyticsID* property. Here's how you do that: 
   
 > [!IMPORTANT]
 > You have to change the property mapping on the authoring site. 
