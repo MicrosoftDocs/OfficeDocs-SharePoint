@@ -52,26 +52,26 @@ As a global or SharePoint admin in Microsoft 365, you can let your users create 
 
 5. Select **Save**.
  
-## Manage detailed site and subsite creation settings in the classic SharePoint admin center
 
-   > [!NOTE]
-   > Subsite creation settings are being updated to improve clarity and also prohibit new subsite creation by way of URL or API when the “Hide the Subsite command” is selected. This article will be updated with more information by September 2021.
+
+## Manage detailed site and subsite creation settings in the classic SharePoint admin center
+Admins in the SharePoint admin center can choose to either enable or disable subsite creation across sites or enable for classic sites only. When disabling subsite creation, not only will the subsite option be hidden from the command bar including classic but also users will not be able to create new subsites directly through an URL or API.  
+
+> [!NOTE]
+> For info about classifying Microsoft 365 groups, see [Manage Microsoft 365 Groups with PowerShell](/office365/enterprise/manage-office-365-groups-with-powershell).
+
 
 1.  In the left pane of the new SharePoint admin center, select **Settings**. At the bottom of the page, select **classic settings page**.  
     
 2. Under **Site Creation**, select to show or hide the **Create site** command.
-    
-3. If you select **Show the Create site command**, specify the type of site that users can create.
-    
-    ![Site creation settings](media/df009314-836b-4ed1-b656-c5c6dd07f1a5.png)
-  
-    - **A new team site or communication site**: Select to create the group-connected team sites under (/sites or /teams) and whether a secondary contact is required. To let users create sites from a custom form you've created, enter its URL in the **Use the form at this URL** box. When users select which type of site they want to create, they'll be able to access the form by clicking "See other options." 
-    
-    - **A classic team subsite**: Use this option to let users create only default classic sites or sites from your custom form. Specify where sites are created, and whether a site classification or secondary contact is required. To specify a custom form, enter the URL for the custom form in the **Use the form at this URL** box. 
-    
-    > [!NOTE]
-    > For info about classifying Microsoft 365 groups, see [Manage Microsoft 365 Groups with PowerShell](/office365/enterprise/manage-office-365-groups-with-powershell).
-  
-4. Under **Subsite creation**, on the **Site contents** page, to create a new subsite, specify whether users can select **New** > **Subsite**. 
 
-5. Select **OK**.
+   - If you choose **Disable subsite creation for all sites** it will also hide the subsite creation command (including classic) and disable users from being able to create new subsites through a URL or API. 
+   - If you choose **Enable subsite creation for classic sites only** users will be able to create new subsites for classic sites. 
+   - If you choose **Enable subsite creation for all sites** users will be able to create new subsites from any SharePoint site. 
+ 
+
+3. Select **OK** when you are done.
+
+
+> [!NOTE]
+> Instead of using subsites, we recommend that you use hub sites. [SharePoint hub sites](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f) allow you to group similar topics and content together using modern architecture design. Plan to [create hub sites.](create-hub-site.md) 
