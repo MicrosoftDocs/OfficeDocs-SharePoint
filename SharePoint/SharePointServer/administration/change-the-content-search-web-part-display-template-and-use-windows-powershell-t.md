@@ -126,7 +126,7 @@ Now that our CSWP can correctly log usage events, the next step is to actually g
   
 When you set up your site, you'll most likely want to test the Usage analytics feature before you put it into production. To be able to test the Usage analytics feature, you'll have to generate usage events. To generate recommendations based on usage events, *a minimum of three users have to click the same items*.
   
-There is no single correct way of simulating the generation of *Views* usage events. To generate *Views* usage events for the Contoso site, you may want to invite coworkers to a "click party" (bribe them with candy if it is necessary). To to make sure that that recommendations are generated, give each user a list of items to click. That way, you can to make sure that that at least three users click the same items. 
+There is no single correct way of simulating the generation of *Views* usage events. To generate *Views* usage events for the Contoso site, you may want to invite coworkers to a "click party" (bribe them with candy if it is necessary). To to make sure that recommendations are generated, give each user a list of items to click. That way, you can make sure that at least three users click the same items. 
   
 Here's an example of the instructions that you can give your coworkers:
   
