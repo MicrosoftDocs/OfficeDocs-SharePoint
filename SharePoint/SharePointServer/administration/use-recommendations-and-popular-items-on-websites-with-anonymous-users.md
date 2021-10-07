@@ -119,7 +119,7 @@ In the Event store, you can verify that three usage event types are logged.
     
    ![Three usage events recorded](../media/OTCSP_ThreeUsageEventsRecorded.png)
   
-So now you know how to configure and display recommendations and popular items on your website. If you want more details about the number of views for a specific item or category, you can do this by looking in the usage analytics reports on your catalog. We'll show you how you can do that in the next article. Now you know how to configure and display recommendations and popular items on your website. If you want more details about the number of views for a specific item or category, look in the usage analytics reports on your catalog.
+So now you know how to configure and display recommendations and popular items on your website. If you want more details about the number of views for a specific item or category, you can do this by looking in the usage analytics reports on your catalog. We'll show you how you can do that in the next article. Now you know how to configure and display recommendations and popular items on your website. 
   
 ### Next article in this series
 
