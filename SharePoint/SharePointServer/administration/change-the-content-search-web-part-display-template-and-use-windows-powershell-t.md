@@ -222,7 +222,7 @@ When the Usage analytics timer job starts, it'll take the usage events from yest
     
      ![My Events](../media/OTCSP_myevents.png)
   
-2. Copy the usage event files that you want Usage analytics to process into your *myevents* folder. In our Contoso scenario, copy all files from the [View usage events in the Event store](change-the-content-search-web-part-display-template-and-use-windows-powershell-t.md#BKMK_ViewUsageEventsInTheEventStore) folder into  *myevents*  . 
+2. Copy the usage event files that you want Usage analytics to process into your *myevents* folder. In our Contoso scenario, copy all files from the [View usage events in the Event store](change-the-content-search-web-part-display-template-and-use-windows-powershell-t.md#BKMK_ViewUsageEventsInTheEventStore) folder into *myevents*. 
     
      ![Copied My Events](../media/OTCSP_CopiedMyEvents.png)
   
