@@ -41,7 +41,7 @@ As a global or SharePoint admin in Microsoft 365, you can let your users create 
     
 2. Select **Site creation**.
 
-    ![Site creation settings in the new SharePoint admin center](media/site-creation.png)
+    ![Site creation settings in the new SharePoint admin center](media/admin-site-creation.png)
 
 3. If you want users to be able to create sites from these services, select **Let users create sites from the SharePoint start page and OneDrive**.
 
