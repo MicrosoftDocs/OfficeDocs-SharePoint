@@ -21,7 +21,7 @@ description: "Learn how query client types decide in which order queries are per
 
 # Manage query client types
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../SharePointServer/includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Learn how query client types decide in which order queries are performed. 
   
