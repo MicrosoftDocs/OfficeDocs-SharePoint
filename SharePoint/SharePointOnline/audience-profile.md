@@ -10,14 +10,13 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid: MET150
-description: "Learn how to determine your audience profile"
 ms.collection: 
   - m365solution-corpcomms
-ROBOTS: NOINDEX, NOFOLLOW
+description: "Learn how to determine your audience profile"
 ---
 
 # Step 3: Scope audience size and determine audience preferences
-Learn about the needs and preferences of your audience before you get started planning your communication strategy. Consider who needs the information you will be communicating and the best way to reach them. Scope the size of your audience and then determine the right channels for your communication. 
+Learn about the needs and preferences of your audience before you get started planning your communication strategy. Consider who needs the information you will be communicating and the best way to reach them. Scope the size of your audience and then determine the right channels for communications. 
 <br>
 
 ### Best practices when scoping audience:
@@ -70,12 +69,12 @@ Most organizations consist of various audiences, and plan communication for a hy
 Understanding the size of your audience will help you narrow down what Microsoft 365 applications will help you reach your goals. Once you’ve determined your audiences, you can use one - or a combination of methods - to share news, announcements, and more. 
 <br>
 
-| Audience example  | Audience size  | Potential apps and method      | 
+| Audience example  | Size  | Potential apps and method      | 
 | :------------------- | :-------------------  |:------------------- | :------------------- |
 | Specific teams, roles, regions, departments, and projects  | 300 to 20,000  | Send an email <br> Publish SharePoint news <br> Post in a Teams channel <br> Schedule a Teams meeting <br> Post in a Yammer community <br> Host a Teams live event <br> Host a Yammer live event| 
 | Entire departments or regions    |5,000 to 20,000              | *All of the above, in addition to:* <br><br> Stream channel or live event in Stream |
 | **All employees**            | Up to 25,000                  | *All of the above*  |
-|   | 25,000 to 100,000  | <br> Microsoft 365 live events* <br> Publish SharePoint news <br> Send an email <br> *Live events with up to 100,000 attendees can be planned through the [Microsoft 365 live events assistance program](https://resources.techcommunity.microsoft.com/live-events/assistance/) |
+|   | 25,000 to 100,000  | Microsoft 365 live events* <br> Publish SharePoint news <br> Send an email <br> *Live events with up to 100,000 attendees can be planned through the [Microsoft 365 live events assistance program](https://resources.techcommunity.microsoft.com/live-events/assistance/) |
 
 
 

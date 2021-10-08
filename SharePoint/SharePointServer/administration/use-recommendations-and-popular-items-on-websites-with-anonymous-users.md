@@ -32,7 +32,7 @@ The previous article in this series, [Add and configure the Recommended Items an
 ## Enable usage cookies to generate unique user IDs
 <a name="BKMK_EnableUsageCookiestoGenerateUniqueUserIDs"> </a>
 
-The previous article in this series explained how to generate recommendations by inviting some co-workers to a to a "[Why you should simulate the generation of Views usage events](change-the-content-search-web-part-display-template-and-use-windows-powershell-t.md#BKMK_WhyYouShouldSimulateTheGenerationOfViewsUsageEvents)." All users who participated in the click party were logged in. When users are logged in, each user has a unique user ID. In the event store file we were therefore able to verify that different user IDs were recorded for the usage events.
+The previous article in this series explained how to generate recommendations by inviting some co-workers to a "[Why you should simulate the generation of Views usage events](change-the-content-search-web-part-display-template-and-use-windows-powershell-t.md#BKMK_WhyYouShouldSimulateTheGenerationOfViewsUsageEvents)." All users who participated in the click party were logged in. When users are logged in, each user has a unique user ID. In the event store file we were therefore able to verify that different user IDs were recorded for the usage events.
   
 ![Three User IDs](../media/OTCSP_ThreeUserIDs.png)
   
@@ -64,13 +64,13 @@ To enable usage cookies, do the following:
 ## Enable the recording of a usage event for anonymous users
 <a name="BKMK_EnabletheRecordingofaUsageEventforAnonymousUsers"> </a>
 
-When you enable usage cookies, only the  *Views*  usage event can be recorded for anonymous users. So, before you can record other usage events, for example  *Recommendation Displays*  , for anonymous users, you have to change a parameter value on the usage event. 
+When you enable usage cookies, only the  *Views*  usage event can be recorded for anonymous users. So, before you can record other usage events, for example  *Recommendation Displays*, for anonymous users, you have to change a parameter value on the usage event. 
   
-The  *Options*  parameter specifies whether the usage event can be recorded for anonymous users. For example, for the  *Views*  usage event, the  *Options*  parameter is by default set to  *AllowAnonymousWrite*  . This means that the  *Views*  usage event can be recorded for anonymous users. 
+The  *Options*  parameter specifies whether the usage event can be recorded for anonymous users. For example, for the  *Views*  usage event, the  *Options*  parameter is by default set to  *AllowAnonymousWrite*. This means that the  *Views*  usage event can be recorded for anonymous users. 
   
 ![Default Settings Views](../media/OTCSP_DefaultSettingsViews.png)
   
-For the  *Recommendation Displays*  usage event, the  *Options*  parameter is by default set to  *None*  . This means that the  *Recommendation Displays*  usage event cannot be recorded for anonymous users. 
+For the  *Recommendation Displays*  usage event, the  *Options*  parameter is by default set to  *None*. This means that the  *Recommendation Displays*  usage event cannot be recorded for anonymous users. 
   
 ![Default Settings Recommendations Display](../media/OTCSP_DefaultSettingsRecsDisp.png)
   
@@ -92,9 +92,9 @@ Here are the steps to enable the recording of a usage event for anonymous users:
   $event = $tenantConfig.EventTypeDefinitions | where-object { $_.EventTypeId -eq <EventTypeId> }
   ```
 
-     `<EventTypeID>` is the number of the usage event that you want to enable for anonymous users, for example  *2*  , which is the  *Recommendation Displays*  usage event. 
-    
-     ![Get Usage Event 2](../media/OTCSP_GetUsageEvent2.png)
+  *EventTypeID* is the number of the usage event that you want to enable for anonymous users, for example *2*, which is the *Recommendation Displays* usage event. 
+
+   ![Get Usage Event 2](../media/OTCSP_GetUsageEvent2.png)
   
   ```
   # Enable the recording of a usage event for anonymous users:
@@ -102,24 +102,24 @@ Here are the steps to enable the recording of a usage event for anonymous users:
   $tenantConfig.Update($SSP)
   ```
 
-     ![Allow Anonymous Write](../media/OTCSP_AllowAnonymousWrite.png)
+   ![Allow Anonymous Write](../media/OTCSP_AllowAnonymousWrite.png)
   
   ```
   # Verify that the recording of a usage event for anonymous users has been enabled:
   $event
   ```
 
-     ![Logging of Anonymous Write](../media/OTCSP_LoggingOfAnonymousWrite.png)
+   ![Logging of Anonymous Write](../media/OTCSP_LoggingOfAnonymousWrite.png)
   
-After enabling  *Recommendations Displays*  and  *Recommendations Clicked*  for anonymous users, you have to verify that these usage events are recorded. So, again ask some colleagues to click around on the Contoso website as anonymous users. Then start search analytics, and push the usage events to the Event store, as explained in [Run Microsoft PowerShell scripts to start search analytics and push usage events to the Event store](change-the-content-search-web-part-display-template-and-use-windows-powershell-t.md#BKMK_RunWindowsPowerShellToStartSearchAnalyticsAndPushUsageEventsToTheEventStore).
+After enabling *Recommendations Displays* and *Recommendations Clicked* for anonymous users, you have to verify that these usage events are recorded. So, again ask some colleagues to click around on the Contoso website as anonymous users. Then start search analytics, and push the usage events to the Event store, as explained in [Run Microsoft PowerShell scripts to start search analytics and push usage events to the Event store](change-the-content-search-web-part-display-template-and-use-windows-powershell-t.md#BKMK_RunWindowsPowerShellToStartSearchAnalyticsAndPushUsageEventsToTheEventStore).
     
-    Remember, in the Event store, each usage event type is recorded in a separate file. Each file name starts with the EventTypeID. Therefore, a file name that begins with  *1*  contains the  *Views*  usage events. A file name that begins with  *2*  contains the  *Recommendations Displays*  usage events. 
+Remember, in the Event store, each usage event type is recorded in a separate file. Each file name starts with the *EventTypeID*. Therefore, a file name that begins with *1* contains the *Views* usage events. A file name that begins with *2* contains the *Recommendations Displays* usage events. 
     
-    In the Event store, you can verify that three usage event types are logged. Nice!
+In the Event store, you can verify that three usage event types are logged.
     
-     ![Three usage events recorded](../media/OTCSP_ThreeUsageEventsRecorded.png)
+   ![Three usage events recorded](../media/OTCSP_ThreeUsageEventsRecorded.png)
   
-So now you know how to configure and display recommendations and popular items on your website. If you want more details about the number of views for a specific item or category, you can do this by looking in the usage analytics reports on your catalog. We'll show you how you can do that in the next article. Now you know how to configure and display recommendations and popular items on your website. In the you want more details about the number of views for a specific item or category, look in the usage analytics reports on your catalog.
+So now you know how to configure and display recommendations and popular items on your website. If you want more details about the number of views for a specific item or category, you can do this by looking in the usage analytics reports on your catalog. We'll show you how you can do that in the next article. Now you know how to configure and display recommendations and popular items on your website. 
   
 ### Next article in this series
 
