@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
@@ -31,14 +31,13 @@ Learn how to:
 
 - [Bulk upload using a CSV file](#use-a-csv-file-for-bulk-upload)
 - [Bulk upload using a JSON file](#use-a-json-file-for-bulk-upload)
-- [**Preview:** Define hub site structure using bulk upload](#hub-site-restructure-using-bulk-upload)
 - [Proxy settings and limitations](#proxy-connections)
   
 ## Use a CSV file for bulk upload
 
 Use any text editor, or an application like Microsoft Excel, to create the CSV file. The first three columns are source values that detail where your data is currently located. The remaining three columns indicate the site, document library, and optional subfolder where you're migrating your data.
 
-**Example**:  Here's an example of the CSV file format. The first row shows files that are being migrated from a local file share to SharePoint. The second row shows files that are being migrated from an on-premises SharePoint Server site to SharePoint in Microsoft 365. The third row show files that are being migrated from a local file share to OneDrive.
+**Example**: Here's an example of the CSV file format. The first row shows files that are being migrated from a local file share to SharePoint. The second row shows files that are being migrated from an on-premises SharePoint Server site to SharePoint in Microsoft 365. The third row show files that are being migrated from a local file share to OneDrive.
   
 ![Spreadsheet view of SharePoint Migration Tool sample format when using a CSV file.](media/73fadfad-77ad-4d3a-b738-bc7063bc2659.jpg)
   
@@ -53,20 +52,20 @@ https://sharepoint2013.com/sites/contosoteamsite/,DocumentLibraryName,DocLibrary
 
 **Before you begin**
 
-- Enter one migration source and destination per row. Account for all six colunns in your file.
+- Enter one migration source and destination per row. Account for all six columns in your file.
 - *Do not* include a header row in your CSV file. The example shown above included headers to demonstrate the order of the fields. 
 - Remember to account for all six columns in the file, even if you don't need a value for a given field.
 - If you use the standard out-of-the-box document library ("Shared Documents"), you must use the internal name "Documents" as the placeholder value for the *Source Document Library* (column B) in your CSV file. If you enter "Shared Documents" in that column, you'll get an "invalid document library" error.
 - If the language of the destination SharePoint site isn't English, check the internal name of the "Shared Documents" Document library at https://contoso.sharepoint.com/sites/SampleSite/_layouts/15/viewlsts.aspx?view=14.
-  Do not include column headings in your file.
+- Do not include column headings in your file.
 
 **Column definitions**    
   
 |Column content|Description|
 |:-----|:-----|
-|Column A "Source" | *Required*. Enter an on-premises SharePoint Server site URL. For SharePoint Server 2013 and 2016, you can also use the log-in name or the SID in this column. |
-|Column B "Source DocLib" | *Optional*. Enter the  name of the SharePoint Server document library that you're migrating. If you leave this field empty, all document libraries will be migrated.|
-|Column C "Source SubFolder" | *Optional*. Enter the name of the subfolder in the document library. If this column is left empty, the migration starts from the root. If there's a value in this column, the migration starts from the subfolder.|
+|Column A "Source" | *Required*. Enter an on-premises SharePoint Server site URL or the path to a local file share. For SharePoint Server 2013 and 2016, you can also use the log-in name or the SID in this column. |
+|Column B "Source DocLib" | *Optional*. Enter the name of the SharePoint Server document library that you're migrating. If you leave this field empty, all document libraries will be migrated. This column needs to be empty when migrating from a local file share.|
+|Column C "Source SubFolder" | *Optional*. Enter the name of the subfolder in the document library. If this column is left empty, the migration starts from the root. If there's a value in this column, the migration starts from the subfolder. This column needs to be empty when migrating from a local file share.|
 |Column D "Target Web" | *Required*. Enter the destination SharePoint site URL where the files are to be migrated.|
 |Column E "Target DocLib" | *Required*. Enter the name of the document library with the SharePoint site where the files are to be migrated.|
 |Column F "Target SubFolder "| *Optional*. Enter the name of the subfolder in the document library. If this column is left empty, the files will be moved to the root level. |
@@ -135,53 +134,10 @@ As with a CSV file, the minimum required values are *Source*, *Source DocLib*, *
 }
 ```
 
-## Hub site restructure using bulk upload
- 
->[!Important]
-> The site restructure feature described in the following section is part of a preview release. The content and the functionality may change and are not subject to the standard SLAs for support. 
-
-When migrating your content, you may want to take advantage of a Modern feature in Microsoft 365, SharePoint Hub sites. Using the bulk upload method, you can now indicate if your destination site is to be a hub site, or if you would like it associated with an existing hub site.
-
->[!Tip]
->Want to learn more about SharePoint hub sites? See [Planning SharePoint hub sites](https://microsoft.com/en-us/sharepoint/planning-hub-sites)
-
-</br>
-
-**Before you begin**
-
-A few important guidelines:
-
-- Plan your strategy, and make a note of your existing (if any) SharePoint hub sites.  
-- Check your existing hub site URLs to make sure they are valid.
-- If you want to designate your destination site as a hub, remember you can't associate it with a hub. At this time nested hub sites aren't supported.
-- You can't override existing hub site settings during migration. 
-- Include all eight columns in your file even if the value is blank.
-- Do not use column headings in your file.
-
-</br>
-
-**Columns for site restructure**
-
-The format is similar to regular bulk upload files, except there are two additional columns required. Include all eight columns. Do not use column headings.
-  
-|Column content|Description|
-|:-----|:-----|
-|Source | *Required*. Enter on-premises SharePoint Server site URL. |
-|Source DocLib | *Optional*. Enter the name of the SharePoint Server document library that you're migrating. If you leave this field empty, all document libraries will be migrated. |
-|Source SubFolder | *Optional*. Enter the name of the subfolder in the document library. If this column is left empty, the migration starts from the root. If there's a value in this column, the migration starts from the subfolder. This column is used only for SharePoint Server sites. |
-|Target Web | *Required*. Enter the SharePoint site URL where the files are migrating to. |
-|Target DocLib | *Required*. Enter the name of the document library with the SharePoint site where the files are migrating to. |
-|Target SubFolder | *Optional*. Enter the name of the subfolder in the document library. If this column is left empty, the files will be moved to the root level. |
-|RegisterAsHubSite|Indicate if you want the destination site be be a hub site. Enter **YES** or **NO**. If you say **YES**, do not put a value in the *AssociateWithHubURL* column.  Nested hub sites are not supported.|
-|AssociateWithHubURL|Enter the URL of an existing hub site you want to associate your destination site with. You cannot have a **YES** value in the *RegisterAsHubSite* column if you have a value here.  Nested hub sites are not supported.|
-
-
-
-
 
 ## Proxy connections
 
-Proxy connections are not supported for either SharePoint or file share migrations. By default, SPMT doesn't use system proxy credentials and web requests will fail if Internet Explorer proxy is configured.  Examples of errors you may see include "SharePoint login fail" or "cannot load document library". However, you can modify the SPMT app config file to follow your system proxy settings. 
+Proxy connections are not supported for either SharePoint or file share migrations. By default, SPMT doesn't use system proxy credentials and web requests will fail if Internet Explorer proxy is configured. Examples of errors you may see include "SharePoint login fail" or "cannot load document library". However, you can modify the SPMT app config file to follow your system proxy settings. 
 
 If you wish to leverage your system proxy settings, use one of these methods:
 

@@ -52,7 +52,7 @@ Using the steps below as a template, create your own custom guidance for SharePo
 - If you have specific site templates that you want your site owners to select when they create their own sites, include that info in this section.</br>
 - Include information on custom provisioning solutions.</br>
 - Are there any ownership or site classification requirements your organization has implemented? </br>
-- When you set up your site, it's important to select the appropriate site classification level. Include references or links to your your organization's data classification guidelines.</br>
+- When you set up your site, it's important to select the appropriate site classification level. Include references or links to your organization's data classification guidelines.</br>
 
 **Resources:**</br>
 - [Manage site creation in SharePoint](manage-site-creation.md)

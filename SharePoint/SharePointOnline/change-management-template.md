@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
@@ -129,7 +129,7 @@ The workplace transformation site is full of pre-populated content, web parts, n
 ### Considerations for M365 Learning Pathways
 [Microsoft 365 learning pathways](/office365/customlearning/) is a customizable, on-demand learning solution that displays playlists using the M365 Learning pathways web part right onto SharePoint pages. Consider using the M365 Learning pathways solution in combination with the workplace transformation site to embed training playlists on SharePoint pages. 
 
-Learn more about [how to provision the Microsoft 365 learning pathways solution for the first time](/office365/customlearning/custom_provision), how to [find Microsoft-maintained content packs](/office365/customlearning/custom_plancontent), and [how to custom learning pathways and playlists](/office365/customlearning/custom_overview). 
+Learn more about [how to provision the Microsoft 365 learning pathways solution for the first time](/office365/customlearning/custom_provision), how to [find Microsoft-maintained content packs](/office365/customlearning/custom_plancontent), and [how to customize learning pathways and playlists](/office365/customlearning/custom_overview). 
 
 
 ## Step 1: Provision the Workplace transformation site template

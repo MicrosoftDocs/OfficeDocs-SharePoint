@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 mscollection:
 - m365solution-migratefileshares
 - m365solution-migratetom365
@@ -23,8 +23,6 @@ description: "Steps to connect to Box when using Migration Manager in the ShareP
 
 # Step 1:  Connect your Box account to Microsoft 365
 
->[!Note]
->This release currently supports the migration of up to approximately 1500 Box accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
 
 
 Sign in to your Box account and add the Microsoft 365 migration app to your Box account custom apps. 

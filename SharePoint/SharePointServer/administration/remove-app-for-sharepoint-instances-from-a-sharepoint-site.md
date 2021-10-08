@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 94a8041c-f047-4f03-b973-65eb85f8e4fc
 description: "Learn how to remove apps for SharePoint from SharePoint sites."

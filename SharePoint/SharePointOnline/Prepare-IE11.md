@@ -10,13 +10,13 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - SPO160
 - MET150
 ms.collection:  
 - M365-collaboration
-description: "Prepare your SharePoint environment for the retirement of Internet Explorer 11 for Microsoft 365 apps and services."
+description: "Prepare your SharePoint and OneDrive environment for when Microsoft 365 apps and services stop supporting Internet Explorer 11."
 ---
 # Prepare your SharePoint environment for the retirement of Internet Explorer 11 for Microsoft 365 apps and services
 
@@ -26,7 +26,7 @@ As Microsoft 365 evolves, we continually evaluate our apps and services to make 
 Although support for Internet Explorer 11 continues, we’ve shifted web browser development resources to the
 [Microsoft Edge browser](https://www.microsoft.com/edge/business). Focusing on Microsoft Edge helps us accelerate innovation in Microsoft 365 experiences from the browser and in modern apps, such as Microsoft Teams, OneDrive, SharePoint, Lists, and more.
 
-Beginning on August 17, 2021, [Microsoft 365 apps and services will no longer support Internet Explorer 11](/lifecycle/announcements/internet-explorer-11-support-end-dates). While we know this change will be difficult for some customers, we believe that you'll get the most out of Microsoft 365 when using Microsoft Edge. To avoid disruptions, we’ve identified considerations and practices for admins as you transition off classic SharePoint features that rely on Internet Explorer 11.
+Beginning on August 17, 2021, [Microsoft 365 apps and services will no longer support Internet Explorer 11](/lifecycle/announcements/internet-explorer-11-support-end-dates). While we know this change will be difficult for some customers, we believe that you'll get the most out of Microsoft 365 when using Microsoft Edge. To avoid disruptions, we’ve identified considerations and practices for admins as you transition off SharePoint features that rely on Internet Explorer 11.
 
 ## Deploy a modern browser such as Microsoft Edge
 
@@ -38,9 +38,9 @@ For customers who want guidance on how to plan, deploy, or adopt Microsoft Edge,
 
 And for customers who prefer to get started on their own, we have [self-guided deployment and configuration materials](/deployedge/) on our Docs site, complete with a [series from Microsoft Mechanics](https://www.youtube.com/playlist?list=PLXtHYVsvn_b-uXh1tMeYpT-0iD8tD3tFy).
 
-## Use sync instead of Open with Explorer
+## Use sync instead of Open with Explorer or View in File Explorer
 
-[Open with Explorer](https://support.microsoft.com/office/66b574bb-08b4-46b6-a6a0-435fd98194cc) relies on Internet Explorer 11 and isn’t available in newer browsers like Microsoft Edge. We recommend using the OneDrive sync app to [sync SharePoint files with your computer](https://support.microsoft.com/office/6de9ede8-5b6e-4503-80b2-6190f3354a88), rather than using Open with Explorer.
+The [Open with Explorer](https://support.microsoft.com/office/aaee7bfb-e2a1-42ee-8fc0-bcc0754f04d2) command in the classic SharePoint experience relies on Internet Explorer 11 and isn't available in newer browsers. The [View in File Explorer](https://support.microsoft.com/office/66b574bb-08b4-46b6-a6a0-435fd98194cc) command in the modern experience when using Edge relies on the same underlying technology as Open with Explorer, and is therefore no longer recommended either. Instead, we recommend using the OneDrive sync app to [sync SharePoint files with your computer](https://support.microsoft.com/office/6de9ede8-5b6e-4503-80b2-6190f3354a88), rather than using Open with Explorer or View in File Explorer.
 
 Sync with [OneDrive Files On-Demand](https://support.microsoft.com/office/0e6860d3-d9f3-4971-b321-7092438fb38e) helps you work with all your cloud files in File Explorer without having to download all the files and use storage space on your device. For easy access to files that people share with you or that you find in SharePoint or Teams, you can [add shortcuts to shared folders](https://support.microsoft.com/office/d66b1347-99b7-4470-9360-ffc048d35a33). The shortcuts then appear in your OneDrive so you can find and work with the files.
 
@@ -54,7 +54,7 @@ To get started deploying and configuring OneDrive in your environment and migrat
 - Versions of Windows that don't support [Files On-Demand](https://support.microsoft.com/office/0e6860d3-d9f3-4971-b321-7092438fb38e). Files On-Demand requires Windows 10 Fall Creators Update (version 1709 or later) or Windows Server 2019. However, selective sync can be used as a workaround.
 
 > [!NOTE]
-> We understand that some customers may continue to use Open with Explorer to access document libraries. To avoid disruption, these customers will be able to use this feature for a limited time in the classic experience when they go to a document library in Internet Explorer 11. We encourage all customers to move to OneDrive sync for a better user experience and easier access to files.
+> We understand that some customers may continue to use Open with Explorer and View in File Explorer to access document libraries. To avoid disruption, these customers will be able to use these features when they go to a document library in Internet Explorer 11. These features remain in maintenance mode and aren't receiving further development. We encourage all customers to move to OneDrive sync for a better user experience and easier access to files.
 
 ## Use Power Apps to automate business processes
   

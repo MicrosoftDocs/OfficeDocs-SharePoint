@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 502fcb0a-c20a-433d-aac1-02ba20d81a7e
 description: "Query suggestions are phrases that you want the search system to suggest to users as they start typing a query. This article explains how to switch query suggestions on or off. It also explains how you can add phrases to the automatic query suggestions, and how you can add phrases that should not be used as query suggestions."

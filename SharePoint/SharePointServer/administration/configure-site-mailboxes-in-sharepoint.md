@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 57b7618a-2ca4-450d-aa8b-77bce21a9884
 description: "Configure Exchange Server, SharePoint Server for team email by using the Site Mailboxes feature."

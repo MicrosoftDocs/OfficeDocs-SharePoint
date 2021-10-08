@@ -15,7 +15,7 @@ metadata:
   manager: serdars
   audience: Admin
   ms.date: 03/17/2020 #Required; mm/dd/yyyy format
-  localization_priority: Priority
+  ms.localizationpriority: high
   search.appverid: MET150
   ms.custom: seo-marvel-apr2020
 

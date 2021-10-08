@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration

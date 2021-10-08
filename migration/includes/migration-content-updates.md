@@ -2,74 +2,72 @@
 
 
 
-## Week of May 10, 2021
+## Week of September 27, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 5/14/2021 | [Mover migration - Setting up your Box source connector](/SharepointMigration/mover-box) | modified |
-| 5/14/2021 | [Troubleshooting Mover migration errors](/SharepointMigration/mover-error-faq) | modified |
+| 9/27/2021 | [How to use SharePoint Migration Tool](/SharepointMigration/how-to-use-the-sharepoint-migration-tool) | modified |
+| 9/27/2021 | [SharePoint Migration Tool for SharePoint and OneDrive](/SharepointMigration/introducing-the-sharepoint-migration-tool) | modified |
+| 9/27/2021 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
+| 9/27/2021 | [Create a task in SharePoint Migration Tool (SPMT)](/SharepointMigration/spmt-create-task) | modified |
+| 9/27/2021 | [Assess SharePoint Migration Tool reports](/SharepointMigration/using-the-sharepoint-migration-tool-reports) | modified |
+| 9/27/2021 | [Mover Microsoft 365 Migration FAQ](/SharepointMigration/mover-microsoft-365-faq) | modified |
+| 9/28/2021 | Importing tags with Migration Manager | removed |
+| 9/28/2021 | [Create a task in SharePoint Migration Tool (SPMT)](/SharepointMigration/spmt-create-task) | modified |
+| 9/28/2021 | [Use PowerShell cmdlets to migrate on-premises content - SharePoint](/SharepointMigration/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets) | modified |
+| 9/28/2021 | [Migration Manager FAQs](/SharepointMigration/mm-faqs) | modified |
+| 9/28/2021 | [Migrate your files to Microsoft 365 with Migration Manager](/SharepointMigration/mm-get-started) | modified |
+| 9/28/2021 | [How to use Migration Manager](/SharepointMigration/mm-how-to-use) | modified |
+| 9/28/2021 | [Mover migration - setting up the Google Cloud storage connector](/SharepointMigration/mover-googlecloudstore) | modified |
+| 9/28/2021 | [What's new in Migration Manager](/SharepointMigration/mm-whats-new) | modified |
+| 9/29/2021 | [Bulk upload Box source paths into Migration Manager](/SharepointMigration/mm-box-bulk-upload-source-paths-csv) | added |
+| 9/29/2021 | [Bulk upload tasks into Migration Manager using a CSV or JSON file](/SharepointMigration/mm-bulk-upload-format-csv-json) | modified |
+| 9/29/2021 | [Migration Manager Google FAQs](/SharepointMigration/mm-faqs-google) | modified |
+| 9/29/2021 | [Authorizing the Office 365 Connector](/SharepointMigration/mover-o365) | modified |
+| 9/29/2021 | [Mover Release Notes](/SharepointMigration/mover-release-notes) | modified |
 
 
-## Week of May 03, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/3/2021 | [Migrate to Microsoft 365](/SharepointMigration/migrate-to-sharepoint-online) | modified |
-| 5/3/2021 | [Migrate your files to Microsoft 365 with Migration Manager](/SharepointMigration/mm-get-started) | modified |
-| 5/5/2021 | [Migrate to Microsoft 365](/SharepointMigration/migrate-to-sharepoint-online) | modified |
-| 5/6/2021 | [How to use SharePoint Migration Tool](/SharepointMigration/how-to-use-the-sharepoint-migration-tool) | modified |
-| 5/7/2021 | [Troubleshooting Mover migration errors](/SharepointMigration/mover-error-faq) | modified |
-
-
-## Week of April 26, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/26/2021 | [What's new in Migration Manager](/SharepointMigration/mm-whats-new) | modified |
-| 4/27/2021 | [Mover reports](/SharepointMigration/mover-reports) | modified |
-| 4/28/2021 | [Mover Release Notes](/SharepointMigration/mover-release-notes) | modified |
-| 4/28/2021 | [Mover reports](/SharepointMigration/mover-reports) | modified |
-| 4/29/2021 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
-| 4/29/2021 | [Connect to Google with Migration Manager](/SharepointMigration/mm-google-step1-connect) | modified |
-| 4/29/2021 | [Step 2: Scan and assess Google accounts using Migration Manager](/SharepointMigration/mm-google-step2-scan-assess) | modified |
-| 4/29/2021 | [Content Migration solutions posters](/SharepointMigration/migration-solution-posters) | added |
-| 4/29/2021 | [Step 3: Copy to migrations tab for Google migration](/SharepointMigration/mm-google-step3-copy-to-migrations) | modified |
-| 4/29/2021 | [Review the destination paths for your Google migration with Migration Manager](/SharepointMigration/mm-google-step4-review-destinations) | modified |
-| 4/29/2021 | [Step 5: Map Google identities with Migration Manager](/SharepointMigration/mm-google-step5-map-identities) | modified |
-| 4/29/2021 | [Step 6: Migrate and monitor Google migration](/SharepointMigration/mm-google-step6-migrate-monitor) | modified |
-| 4/30/2021 | [Overview: Migrate Box using Migration Manager](/SharepointMigration/mm-box-overview) | modified |
-
-
-## Week of April 19, 2021
+## Week of September 20, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 4/19/2021 | [What's new in Migration Manager](/SharepointMigration/mm-whats-new) | modified |
-| 4/21/2021 | [Migrating OneNote folders with the SharePoint Migration Tool (SPMT)](/SharepointMigration/migrate-onenote-spmt) | modified |
-| 4/22/2021 | [Migrate your file share content to SharePoint using the Azure Data Box](/SharepointMigration/how-to-migrate-file-share-content-to-spo-using-azuredatabox) | modified |
-| 4/22/2021 | [How to use SharePoint Migration Tool](/SharepointMigration/how-to-use-the-sharepoint-migration-tool) | modified |
-| 4/22/2021 | [SharePoint Migration Tool for SharePoint and OneDrive](/SharepointMigration/introducing-the-sharepoint-migration-tool) | modified |
-| 4/22/2021 | [Migration Manager Reports](/SharepointMigration/mm-reports) | modified |
-| 4/22/2021 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
-| 4/22/2021 | [Troubleshooting SPMT installation issues](/SharepointMigration/spmt-install-issues) | modified |
-| 4/22/2021 | [Use PowerShell cmdlets to migrate on-premises content - SharePoint](/SharepointMigration/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets) | modified |
+| 9/21/2021 | [Agent groups in Migration Manager"](/SharepointMigration/mm-agent-targeting) | modified |
+| 9/22/2021 | [Troubleshooting SPMT installation issues](/SharepointMigration/spmt-install-issues) | modified |
+| 9/24/2021 | [Migration Manager Dropbox FAQs](/SharepointMigration/mm-faqs-dropbox) | added |
+| 9/24/2021 | [Migration Manager Google FAQs](/SharepointMigration/mm-faqs-google) | added |
+| 9/24/2021 | [Migration Manager Box FAQs](/SharepointMigration/mm-faqs-box) | modified |
+| 9/24/2021 | [Migration Manager FAQs](/SharepointMigration/mm-faqs) | modified |
 
 
-## Week of April 12, 2021
+## Week of September 13, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 4/12/2021 | [Overview: Migrate Google Drive using Migration Manager](/SharepointMigration/mm-google-overview) | modified |
-| 4/12/2021 | [Connect to Google with Migration Manager](/SharepointMigration/mm-google-step1-connect) | modified |
-| 4/12/2021 | [Step 2: Scan and assess Google accounts using Migration Manager](/SharepointMigration/mm-google-step2-scan-assess) | modified |
-| 4/12/2021 | [Step 3: Copy to migrations tab for Google migration](/SharepointMigration/mm-google-step3-copy-to-migrations) | modified |
-| 4/12/2021 | [Review the destination paths for your Google migration with Migration Manager](/SharepointMigration/mm-google-step4-review-destinations) | modified |
-| 4/12/2021 | [Step 5: Map Google identities with Migration Manager](/SharepointMigration/mm-google-step5-map-identities) | modified |
-| 4/12/2021 | [Step 6: Migrate and monitor Google migration](/SharepointMigration/mm-google-step6-migrate-monitor) | modified |
-| 4/12/2021 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
-| 4/16/2021 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
+| 9/16/2021 | [Format your JSON or CSV file for data content migration - SharePoint](/SharepointMigration/how-to-format-your-csv-file-for-data-content-migration) | modified |
+| 9/16/2021 | [Overview: Migrate Box using Migration Manager](/SharepointMigration/mm-box-overview) | modified |
+| 9/16/2021 | [Step 2: Scan and assess file shares using Migration Manager](/SharepointMigration/mm-fileshare-scan-assess) | modified |
+| 9/16/2021 | [Migrate your files to Microsoft 365 with Migration Manager](/SharepointMigration/mm-get-started) | modified |
+| 9/16/2021 | [Migration Manager Prerequisites and Endpoints](/SharepointMigration/mm-prerequisites) | modified |
+| 9/17/2021 | [Bulk upload tasks into Migration Manager using a CSV or JSON file](/SharepointMigration/mm-bulk-upload-format-csv-json) | modified |
+| 9/17/2021 | [Migration Manager FAQs](/SharepointMigration/mm-faqs) | modified |
+| 9/17/2021 | [Step 2: Scan and assess file shares using Migration Manager](/SharepointMigration/mm-fileshare-scan-assess) | modified |
+| 9/17/2021 | [Migration Manager Prerequisites and Endpoints](/SharepointMigration/mm-prerequisites) | modified |
+
+
+## Week of September 06, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/7/2021 | [Format your JSON or CSV file for data content migration - SharePoint](/SharepointMigration/how-to-format-your-csv-file-for-data-content-migration) | modified |
+| 9/7/2021 | [Managed migration guide for use with Mover](/SharepointMigration/mover-managed-migration-guide) | modified |
+| 9/7/2021 | [Assess SharePoint Migration Tool reports](/SharepointMigration/using-the-sharepoint-migration-tool-reports) | modified |
+| 9/7/2021 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
+| 9/8/2021 | [Troubleshooting Migration Manager](/SharepointMigration/mm-troubleshoot) | modified |
+| 9/8/2021 | [Migration performance guide for SharePoint & OneDrive](/SharepointMigration/sharepoint-online-and-onedrive-migration-speed) | modified |
+| 9/9/2021 | [What's new in Migration Manager](/SharepointMigration/mm-whats-new) | modified |
+| 9/9/2021 | [Step 3: Copy to migrations for file share migration](/SharepointMigration/mm-fileshare-copy-to-migrations) | modified |
+| 9/10/2021 | [Migration Manager FAQs](/SharepointMigration/mm-faqs) | modified |

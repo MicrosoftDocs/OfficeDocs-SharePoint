@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5310987c-4499-4092-ac0c-fc4c1bb1a58d
 description: "Learn how to upload page layouts and create new pages in a publishing site in SharePoint Server 2016."

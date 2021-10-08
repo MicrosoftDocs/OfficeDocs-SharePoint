@@ -9,7 +9,7 @@ audience: Admin
 f1.keywords: NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - MET150
@@ -28,7 +28,9 @@ For example, in the following screenshot, "contoso" is automatically suggested.
   
 SharePoint has both a classic and a modern search experience, [learn about the differences between the classic and modern search experiences in SharePoint](differences-classic-modern-search.md). The modern search experience uses the same default result source as the classic search experience. Automatic query suggestions for the default result source appear in both the classic and modern search experiences.
 
- You can manually create your own lists of query suggestions and import them to SharePoint. Manual query suggestions apply to **all** result sources, **all** site collections, and to **both** search experiences.
+As an admin you can manually create your own lists of queries that always shall be suggested or phrases that never shall be suggested, and import them to SharePoint. 
+- Your list of queries that shall always be suggested only applies to modern search and only in tenant-wide scope.
+- Your list of phrases that never shall appear apply to both classic and modern search, to all result sources and all site collections.
   
 To create query suggestions for multiple languages, you'll need to create a separate file for each language. The language determines how the query suggestions are processed internally in the search system. All manual query suggestions are always displayed for **all** languages. Add each phrase as a separate line in the text file that you create and save the file in UTF-8 encoding. 
   
@@ -39,8 +41,10 @@ Query suggestions are turned on by default. To turn them off, go to **Search Sug
 
 1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+   > [!NOTE]
+   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page.
+   > 
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
 
@@ -64,4 +68,4 @@ You can edit a list of query suggestions that you've manually created. To edit a
   
 To get rid of a list of query terms, you must overwrite it. Do this by importing an empty text file. 
   
-You can also prevent terms from appearing in the search box. To do this, create a text file with the query terms that you never want users to see below the search box, and then import it to **Never suggest phrases**.
+To prevent terms from appearing in the search box, create a text file with the query terms that you never want users to see below the search box, and then import it to **Never suggest phrases**.

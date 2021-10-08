@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - MET150
@@ -88,7 +88,6 @@ For the classic search experience, you can create your own result sources, or us
 |**Choose this option**|**To do this**|
 |:-----|:-----|
 |Sort results  <br/> |Define sorting for results. The **Sort by** list contains managed properties that are set as sortable in the search schema.  <br/> Select a property to sort by, and then select **Descending** or **Ascending**. To sort by relevance, select **Rank**.  <br/> Click **Add sort level** if you want to specify more levels of sorting.  <br/> |
-|Ranking model  <br/> |If you selected **Rank** from the **Sort by** list, choose the ranking model to use for sorting.  <br/> |
 |Dynamic ordering  <br/> |Click **Add dynamic ordering rule** to specify additional ranking by adding rules that change the order of results within the result block when certain conditions are met. You can add conditions by choosing from the lists that appears.  <br/> |
    
 ### The TEST tab

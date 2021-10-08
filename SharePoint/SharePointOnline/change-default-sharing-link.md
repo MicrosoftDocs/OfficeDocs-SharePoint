@@ -4,7 +4,6 @@ ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-recommendations: true
 audience: Admin
 f1.keywords:
 - CSH
@@ -14,7 +13,7 @@ ms.custom:
 - 'SharingLinkTypeLearnMore'
 - 'seo-marvel-apr2020'
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
@@ -49,7 +48,7 @@ For info about the changing this setting at the organization level, see [File an
   
 ## Change the default link type for a site
 
-1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
     > [!NOTE]
     > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
@@ -63,6 +62,12 @@ For info about the changing this setting at the organization level, see [File an
     ![Screenshot of site-level default sharing link settings](media/default-sharing-link-type-site.png)
 
 5. Choose the default sharing link setting that you want to use for this site, and then select **Save**.
+
+### Use a sensitivity label to configure the default sharing link settings
+
+If you are using [sensitivity labels](/microsoft-365/compliance/sensitivity-labels) to classify and protect your SharePoint sites, you can also configure the default sharing link type and sharing link permissions for a site by using a sensitivity label.
+
+For more information about this scenario, see [Use sensitivity labels to protect content in SharePoint and Microsoft Teams sites, and Microsoft 365 groups](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites). For instructions how to configure the default sharing link settings, see the section [Configure settings for the default sharing link for a site by using PowerShell advanced settings](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#configure-settings-for-the-default-sharing-link-for-a-site-by-using-powershell-advanced-settings).
 
 ## Related topics
 

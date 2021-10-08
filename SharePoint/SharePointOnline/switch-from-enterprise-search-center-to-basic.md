@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 description: "Learn how to swap your default search center from Enterprise back to Basic."
