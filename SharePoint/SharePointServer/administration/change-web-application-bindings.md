@@ -1,8 +1,8 @@
 ---
 title: "Change web application bindings for SharePoint Server Subscription Edition"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-bshilpa
+author: Benny-54
 manager: serdars
 ms.date: 
 audience: ITPro
@@ -20,7 +20,9 @@ description: "Learn how to change a web application bindings for SharePoint Serv
 
 # Change web application bindings for SharePoint Server Subscription Edition
 
-You can now easily change the SharePoint web application IIS bindings in PowerShell through Central Administration. The SharePoint farm administrators can use the new **Edit** button available in the Web Application Management page in Central Administration, to select a web application's zone. From here they can change the IIS bindings, SSL certificate, and public URL of the web application's zone. 
+[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
+
+You can now easily change the SharePoint web application IIS bindings in PowerShell through Central Administration. The SharePoint farm administrators can use the **Edit** button available in the Web Application Management page in Central Administration, to select a web application's zone. From here they can change the IIS bindings, SSL certificate, and public URL of the web application's zone. 
  
 > [!NOTE]
 > This functionality is available only to those users who are a member of the local Administrator's group on the server.
@@ -39,9 +41,9 @@ To configure the existing zone attached with the web application and set the por
  
     ![edit-web-application-part1](../media/edit2.PNG)
     
- 3. In **IIS Web site** section, enter the port and host header.
+ 3. In **IIS Web site** section, you can change the port and host header.
  
- 4. In **Security Configuration** section, configure the following:
+ 4. In **Security Configuration** section, you can configure the following:
  
      - Select **Yes** for **Use Secure Sockets Layer (SSL)**.
      
@@ -50,7 +52,8 @@ To configure the existing zone attached with the web application and set the por
      - Select **Yes** for **Use Server Name Indication**.
      
      - Select **Yes** for **Allow Legacy Encryption**.
-  5. In **Public URL** section, enter the URL and click **Save** to save the changes.
+     
+  5. In **Public URL** section, you can change the URL and click **Save** to save the changes.
     
      ![edit-web-application-part2](../media/edit3.PNG)
 
