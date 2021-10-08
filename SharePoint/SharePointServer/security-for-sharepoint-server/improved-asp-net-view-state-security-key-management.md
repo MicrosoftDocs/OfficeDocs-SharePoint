@@ -17,6 +17,8 @@ description: "Learn how to set up improved ASP.NET view state security and key m
 
 # Improved ASP.NET view state security and key management
 
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
+
 SharePoint can now encrypt the `machineKey` section of its `web.config` files by default. This prevents attackers from reading your ASP.NET view state encryption and validation keys, even if they gain access to those `web.config` files.
 
 Using the following new Powershell cmdlets, you can change the ASP.NET view state decryption and validation keys of a SharePoint web application, thus allowing you to rotate those keys in your farm.
