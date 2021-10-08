@@ -84,6 +84,8 @@ Using a policy that affects all Microsoft 365 services can lead to better securi
 
     ![The Unmanaged devices pane in the new SharePoint admin center](media/unmanaged-devices-limit-access.png) 
 
+If you revert back to **Allow Full Access**, it could take up to 24 hours for the changes to take effect.
+
 > [!IMPORTANT] 
 > If you block or limit access from unmanaged devices, we recommend also blocking access from apps that don't use modern authentication. Some third-party apps and versions of Office prior to Office 2013 don't use modern authentication and can't enforce device-based restrictions. This means they allow users to bypass conditional access policies that you configure in Azure. In the new SharePoint admin center, on the Access control page, select **Apps that don't use modern authentication**, select **Block access**, and then select **Save**.
 

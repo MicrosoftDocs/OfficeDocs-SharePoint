@@ -73,7 +73,7 @@ The Dashboard is intended to enable quick access to content and tasks from vario
    ![Image of where to specify the language for a card.](media/vc-language-card.png)
 
 ## Viva Connections Feed
-The Feed experience will show SharePoint news posted from [organizational news sites](/SharePoint/organization-news-site) and announcements posted in the [All-company group in Yammer](/yammer/manage-yammer-groups/yammer-all-company-yammer-community) and [SharePoint news that has been boosted](/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
+The Feed experience will show SharePoint news posted from [organizational news sites](/SharePoint/organization-news-site), sites you frequent and follow, [videos hosted on SharePoint](/SharePoint/video-news-links), Yammer posts in the [All-company group](/yammer/manage-yammer-groups/yammer-all-company-yammer-community), Yammer posts in communities you follow, and [SharePoint news that has been boosted](/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
 
 #### Organizational news
 Make sure that authoritative news sites (there can be more than one organization news site) are created with English as the default language and that authors of news post are creating the news posts in English language – even if their own [preferred language setting in Microsoft 365](https://support.microsoft.com/office/change-your-personal-language-and-region-settings-caa1fccc-bcdb-42f3-9e5b-45957647ffd7) is not English. 
