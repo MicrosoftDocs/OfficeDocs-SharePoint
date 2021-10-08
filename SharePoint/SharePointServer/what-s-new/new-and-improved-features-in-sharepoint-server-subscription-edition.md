@@ -480,8 +480,6 @@ Now with bulk check-out and check-in, you can select multiple files and perform 
 SharePoint Server Subscription Edition now supports downloading multiple files at once from document libraries and OneDrive personal sites.
 You can select multiple files and folders and then click **Download** in the command bar. SharePoint will compress the selected files and folders into a ZIP file and then download the ZIP file to the user. 
 
-If users select a single file and click **Download** in the command bar, the file will continue to be directly downloaded to the user.
-
 The following are limitation on the bulk download feature: 
 
  1.	Each single file can't exceed 10 GB.
@@ -502,7 +500,7 @@ SharePoint Server Subscription Edition can render thumbnails of files in the Til
 <a name="llmw"> </a>
 ### List and library modern web parts support adding/editing/deleting content
 
-SharePoint Server Subscription Edition adds the ability to perform the following actions in modern document library and modern list web parts:
+SharePoint Server Subscription Edition adds the ability to perform the following actions in modern document library web part and modern list web part:
 
  - Document library web part: create, upload, share, download, rename, delete, and edit documents and folders.
  
