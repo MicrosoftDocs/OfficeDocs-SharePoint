@@ -48,7 +48,7 @@ In some cases, you might want to free up the old URL to use it for a new site. T
     ```
 
 > [!NOTE]
-> If you get an error message "The operation is not supported for the site." then validate that there is no retention policy applied to the old or new sites URLs. These may need to be removed in order to delete the redirect.
+> If you get an error message "The operation is not supported for the site," make sure a retention policy isn't applied to the old or new URL for the site. You might need to remove the retention policy to delete the redirect.
 
 4. When prompted, confirm that you want to delete the redirect. 
 
