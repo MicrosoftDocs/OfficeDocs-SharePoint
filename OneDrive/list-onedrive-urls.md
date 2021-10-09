@@ -41,7 +41,8 @@ Numbers or GUIDs might be appended to the URL if a conflict is detected, so it's
 
 > [!NOTE]
 > Unless OneDrive accounts are [pre-provisioned](pre-provision-accounts.md), the URL isn't created until a user accesses their OneDrive for the first time.
-Also, the OneDrive URL will automatically change if the user's [UPN changes](upn-changes.md). For example, if the user changes their name or the domain name changes for a rebranding or business restructuring. 
+> 
+> Also, the OneDrive URL will automatically change if the user's [UPN changes](upn-changes.md). For example, if the user changes their name or the domain name changes for a rebranding or business restructuring. 
   
 ## Use the OneDrive usage report to view the list of OneDrive users and URLs
 
@@ -74,13 +75,13 @@ The list you create in these steps will be saved to a text file.
 
 2. Save the following text to a PowerShell file. For example, you could save it to a file named OneDriveSites.ps1.
     
-     ```PowerShell
+    ```PowerShell
     $TenantUrl = Read-Host "Enter the SharePoint admin center URL"
     $LogFile = [Environment]::GetFolderPath("Desktop") + "\OneDriveSites.log"
     Connect-SPOService -Url $TenantUrl
     Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like '-my.sharepoint.com/personal/'" | Select -ExpandProperty Url | Out-File $LogFile -Force
     Write-Host "Done! File saved as $($LogFile)."
-     ```
+    ```
 
 3. Open the SharePoint Online Management Shell. Navigate to the directory where the script has been saved and run:
 
@@ -97,7 +98,7 @@ The list you create in these steps will be saved to a text file.
 
 After the script successfully completes, a text file is created in the location specified by the **$LogFile** variable in the script. This file contains a list of all OneDrive URLs in your organization. The following text provides an example of how the list of URLs in this file should be formatted.
   
-```
+```https
 https://contoso-my.sharepoint.com/personal/annb_contoso_onmicrosoft_com/
 https://contoso-my.sharepoint.com/personal/carolt_contoso_onmicrosoft_com/
 https://contoso-my.sharepoint.com/personal/esterv_contoso_onmicrosoft_com/  
