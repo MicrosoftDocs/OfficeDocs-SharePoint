@@ -55,7 +55,7 @@ To edit the web application and set the port, URL, SSL certificate host header, 
 
 ## Editing a web application bindings through Central Administration 
 
-To edit the web application with new bings through PowerShell, Set-SPWebApplication cmdlet can be used. This functionality is supported in all web application zones. 
+To edit the web application with new bindings through PowerShell, use `Set-SPWebApplication` cmdlet. This functionality is supported in all web application zones. 
 
 For example, you can run the following PowerShell command to change a SharePoint web application on HTTP port 80 to instead use a host header binding on SSL port 443: 
 
