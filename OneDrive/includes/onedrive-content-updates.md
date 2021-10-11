@@ -2,6 +2,15 @@
 
 
 
+## Week of October 04, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/6/2021 | [Use OneDrive policies to control sync settings](/OneDrive/use-group-policy) | modified |
+| 10/7/2021 | [Use information barriers with OneDrive](/OneDrive/information-barriers) | modified |
+
+
 ## Week of September 27, 2021
 
 
