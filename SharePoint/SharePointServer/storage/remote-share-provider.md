@@ -26,6 +26,7 @@ By default, all the contents in SharePoint Server are stored in content database
 From SharePoint 2013, Remote BLOB Storage (RBS) was created in SQL server to offload BLOBs from content database. SharePoint server supports both FILESTREAM provider.
 SharePoint Server provides a reasonable and easy to use storage solution to the IT administrators to lower down the overall cost of SharePoint deployment in on-premise environment.
 
+
 In this new generation of SharePoint Server, we provide a new RBS provider -"Remote Share Provider".
   
 You must perform the following tasks to configure remote share provider:
