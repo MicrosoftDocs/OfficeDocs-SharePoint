@@ -366,7 +366,7 @@ In OIDC authentication, the people picker does not validate the input, which can
 
 ### Prerequisites
 
-You would require the following resources when you configure with AD FS OIDC:
+Ensure you have the following resources before you configure with AD FS OIDC:
 
 1. A SharePoint Server farm.
 2. AD FS in Windows Server 2016 TP4 or later, already created, with the public key of the AD FS signing certificate exported in a .cer file.
@@ -389,20 +389,20 @@ This article uses the following values for:
 If you choose to use AD FS as identity provider, perform the following steps to setup OIDC with AD FS:
 
 1. In AD FS Management, right-click on **Application Groups** and select **Add Application Group**.
-2. On the Application Group Wizard, enter **ADFSSSO** in the **Name** field and under **Client-Server applications**, select the **Web browser accessing a web application** template. Then, select **Next**.
+2. In the **Welcome** page, enter **ADFSSSO** in the **Name** field and under **Client-Server applications**, select the **Web browser accessing a web application** template. Then, click **Next**.
 
     :::image type="content" source="../media/add-application-group-wizard.png" alt-text="Add Application Group Wizard":::
 
-3. Copy the **Client Identifier** value. It will be used later as the value for `DefaultClientIdentifier` parameter during SharePoint configuration.
-4. Under the **Redirect URL** field, enter <https://spsites.contoso.local/> and choose **Add**. Then select **Next**.
+3. In the **Native Application** page, copy the **Client Identifier** value. It will be used later as the value for `DefaultClientIdentifier` parameter during SharePoint configuration.
+4. Under the **Redirect URL** field, enter <https://spsites.contoso.local/> and choose **Add**. Then click **Next**.
 
     :::image type="content" source="../media/add-application-group-wizard-2.png" alt-text="Add Application Group Wizard 2":::
 
-5. On the **Summary** screen, select **Next**.
+5. In the **Summary** page, click **Next**.
 
     :::image type="content" source="../media/add-application-group-wizard-3.png" alt-text="Add Application Group Wizard 3":::
 
-6. On the **Complete** screen, select **Close**.
+6. In the the **Complete** page, click **Close**.
 7. Export Token-signing certificate from AD FS. This token-signing certificate will be used in SharePoint setup.
 
     :::image type="content" source="../media/adfs-certificates.png" alt-text="AD FS Certificate Export 1":::
@@ -417,21 +417,21 @@ If you choose to use AD FS as identity provider, perform the following steps to 
 
     We assume that your AD FS has configured the rule that read identifier claim from attribute store, such as AD. Perform the following steps to create Issuance Transform Rule for this specific web application we created in AD FS above:
 
-    1. Open the web application you just created and go to 'Issue Transformation Rule' tab.
+    1. Open the web application you just created and go to **Issue Transformation Rule** tab.
 
         :::image type="content" source="../media/issue-transformation-rule.jpg" alt-text="Issue Transformation Rule":::
 
         :::image type="content" source="../media/issue-transformation-add-rule.JPG" alt-text="Issue Transformation Add Rule":::
 
-    2. Select **Add Rule** followed by **Pass Through or Filter an Incoming Claim** from the **Claim rule template** options.
+    2. Select **Add Rule** and click **Apply**. In the **Add Transform Claim Rule Wizard**, select **Pass Through or Filter an Incoming Claim** from the **Claim rule template** options.
 
         :::image type="content" source="../media/add-transform-claim-rule.JPG" alt-text="Add Transform Claim Rule":::
 
-    3. Select **Next** and fill in the next form as shown.
+    3. Click **Next** and fill in the next form as shown.
 
         :::image type="content" source="../media/add-transform-claim-rule-2.jpg" alt-text="Add Transform Claim Rule 2":::
 
-    4. Select **Finish**.
+    4. Click **Finish**.
 
 If you are setting OIDC with SharePoint Server, nbf claim must be configured in AD FS server side in the web application you just created. If nbf claim doesn’t exist in this web application, perform the following steps to create it:
 
@@ -441,17 +441,17 @@ If you are setting OIDC with SharePoint Server, nbf claim must be configured in 
 
     :::image type="content" source="../media/issue-transformation-add-rule.JPG" alt-text="Issue Transformation Add Rule":::
 
-2. Select **Add Rule** followed by **Send Claims Using a Custom Rule** from the **Claim rule template** options.
+2. Select **Add Rule** and then click **Apply**. In the **dd Transform Claim Rule Wizard** select **Send Claims Using a Custom Rule** from the **Claim rule template** options.
 
     :::image type="content" source="../media/add-transform-claim-rule-3.JPG" alt-text="Add Transform Claim Rule 3":::
 
-3. Select **Next** and input the following string in the **Custom rule** field:
+3. Click **Next** and input the following string in the **Custom rule** field:
 
     `c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname"] => issue(Type = "nbf", Value = "0");`
 
     :::image type="content" source="../media/add-transform-claim-rule-4.JPG" alt-text="Add Transform Claim Rule 4":::
 
-4. Select **Finish**.
+4. Click **Finish**.
 
 ### Step 2: Change SharePoint Farm properties
 
