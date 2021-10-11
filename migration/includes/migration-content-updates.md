@@ -2,6 +2,16 @@
 
 
 
+## Week of October 04, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/6/2021 | [Bulk upload Box source paths into Migration Manager](/SharepointMigration/mm-box-bulk-upload-source-paths-csv) | modified |
+| 10/7/2021 | [Step 2: Scan and assess Box accounts using Migration Manager](/SharepointMigration/mm-box-step2-scan-assess) | modified |
+| 10/7/2021 | [Step 3: Copy to migrations tab for Box migration](/SharepointMigration/mm-box-step3-copy-to-migrations) | modified |
+
+
 ## Week of September 27, 2021
 
 
