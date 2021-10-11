@@ -76,19 +76,19 @@ As SharePoint PowerShell cmdlets are converted from snap-ins to modules in Share
 
 ### Access Services 2010
 
-Access Services 2010 is removed but will remain supported for SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2010.
+Access Services 2010 is removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2010.
 
 ### Access Services 2013
 
-Access Services 2013 is removed but will remain supported for SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2013.  
+Access Services 2013 is removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2013.  
 
 ### Groove sync app support
 
-Groove sync app support is removed but will remain supported for SharePoint Server Subscription Edition. We recommend to explore Microsoft [OneDrive sync app](https://support.microsoft.com/office/sync-files-with-onedrive-in-windows-615391c4-2bd3-4aae-a42a-858262e42a49#bkmk_install) as a potential alternative to Groove sync app support.
+Groove sync app support is removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend to explore Microsoft [OneDrive sync app](https://support.microsoft.com/office/sync-files-with-onedrive-in-windows-615391c4-2bd3-4aae-a42a-858262e42a49#bkmk_install) as a potential alternative to Groove sync app support.
 
 ### Lists web service APIs for Groove sync app 
 
-Lists web service APIs for Groove sync app are removed but will remain supported for SharePoint Server Subscription Edition. We recommend to explore Microsoft [OneDrive sync app](https://support.microsoft.com/office/sync-files-with-onedrive-in-windows-615391c4-2bd3-4aae-a42a-858262e42a49#bkmk_install) as a potential alternative to lists web service APIs.
+Lists web service APIs for Groove sync app is removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend to explore Microsoft [OneDrive sync app](https://support.microsoft.com/office/sync-files-with-onedrive-in-windows-615391c4-2bd3-4aae-a42a-858262e42a49#bkmk_install) as a potential alternative to lists web service APIs.
 
 ### PerformancePoint Services
 
@@ -109,10 +109,3 @@ This feature has been replaced by an internal version that will be installed thr
 
 This feature has been replaced by an internal version that will be installed through SharePoint setup and serviced through SharePoint public updates.
 
-### Infopath form service
-
-Infopath form service is removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) as a potential alternative to Infopath form service.
-
-### Sharepoint designer support
-
-Sharepoint designer support is removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend to customize SharePoint using SharePoint Framework front-end development model as a potential alternative to Sharepoint designer support.
