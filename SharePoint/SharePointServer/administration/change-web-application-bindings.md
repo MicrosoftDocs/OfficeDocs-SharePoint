@@ -15,7 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 
-description: "Learn how to change a web application bindings for SharePoint Server."
+description: "Learn how to change a web application binding for SharePoint Server."
 ---
 
 # Update a web application URL and IIS bindings for SharePoint Server Subscription Edition
@@ -31,7 +31,7 @@ You can now easily change the SharePoint web application IIS bindings in place t
  
 This article provides detailed guidance for changing the IIS bindings of a web application.
 
-## Editing a web application bindings through Central Administration 
+## Editing the web application bindings through Central Administration 
 
 To edit the web application and set the port, URL, SSL certificate host header, do the following:
 
@@ -53,7 +53,7 @@ To edit the web application and set the port, URL, SSL certificate host header, 
     
      ![edit-web-application-part2](../media/edit3.PNG)
 
-## Editing a web application bindings through Central Administration 
+## Editing the web application bindings through PowerShell 
 
 To edit the web application with new bindings through PowerShell, use `Set-SPWebApplication` cmdlet. This functionality is supported in all web application zones. 
 
