@@ -58,10 +58,6 @@ Different customers may have different interpretations of terms such as "depreca
  
  - Stsadm.exe command-line tool 
  
- - Infopath form service
- 
- - Sharepoint designer support
- 
 ## Detailed description of features deprecated or removed in SharePoint Server Subscription Edition
 
 The following features and functionality have been deprecated or removed in SharePoint Server Subscription Edition.
@@ -101,11 +97,4 @@ The stsadm.exe command-line administration tool has been removed from SharePoint
 > [!NOTE]
 > As SharePoint PowerShell cmdlets have been converted from snap-ins to modules in SharePoint Server Subscription Edition, the Update-SPHelp cmdlet is no longer necessary to download the latest cmdlet help content. This cmdlet has been removed.
 
-### Microsoft Information Protection and Control Client 2.1 (MSIPC)
-
-This feature has been replaced by an internal version that will be installed through SharePoint setup and serviced through SharePoint public updates.
-
-### Windows Server AppFabric 1.1
-
-This feature has been replaced by an internal version that will be installed through SharePoint setup and serviced through SharePoint public updates.
 
