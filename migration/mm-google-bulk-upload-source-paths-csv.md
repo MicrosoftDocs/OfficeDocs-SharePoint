@@ -47,14 +47,14 @@ Migration Manager lets you bulk upload your Google drives using a comma-separate
 ## Uploading your file
 
 1. [Connect to Google](mm-google-step1-connect.md).
-2. On the menu bar, select **Add source**.
+2. On the menu bar, select **Add source path**.
 
   ![Add new source to upload bulk file](media/mm-upload-cloud-csv.png)
 
 
 3. Select **Upload a CSV file**.  Browse to your file and then select **Add**.
 
-![upload box sources from csv](media/mm-box-add-source-paths.png)
+![add new Google source paths](media/mm-google-add-source-paths.png)
 
 4. Assess your files, and then continue to the next step, [Copy to migrations](mm-box-step3-copy-to-migrations.md)
 
