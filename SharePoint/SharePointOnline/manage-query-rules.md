@@ -23,11 +23,11 @@ description: "Improve search results by creating and managing query rules. Query
 
 As a global or SharePoint admin in Microsoft 365, you can improve search results in the classic search experience by creating and managing query rules. Query rules help searches respond to the intent of users. 
   
-In a query rule, you specify conditions and associated actions. When a query meets the conditions in a query rule, the search system performs the actions specified in the rule to improve the relevance of the search results. This could be by narrowing results or changing the order in which results are displayed. For example, a query rule condition could be that a term in a query matches a particular term in a SharePoint term set, or that a query is frequently performed on a particular result source in a search system, such as videos. When the query rule condition is met, an associated action could be to show a specific item at the top of the search results. Say you have an intranet site where all company events are maintained in a library, and you want to promote a first-aid seminar. To do this, you create a query rule that boosts the first-aid seminar to the top of the search results when someone searches for "seminar" or "event."
+In a query rule, you specify conditions and associated actions. When a query meets the conditions in a query rule, the search system performs the actions specified in the rule to improve the relevance of the search results. This could be by narrowing results or changing the order in which results are displayed. When the query rule condition is met, an associated action could be to show a specific item at the top of the search results. Say you have an intranet site where all company events are maintained in a library, and you want to promote a first-aid seminar. To do this, you create a query rule that boosts the first-aid seminar to the top of the search results when someone searches for "seminar" or "event."
 
 A query rule can specify the following three types of actions:
 - Promote a search result to appear above ranked results. For example, for the query "sick leave", a query rule could specify a particular result, such as a link to a site that has a statement of company policy regarding time off work.
-- Add one or more groups of search results, called result blocks. For example, for a query that contains “Fabrikam sales report”, a query rule might use a taxonomy dictionary to recognize “Fabrikam” as a customer, and then display a result block with pertinent results about Fabrikam from your customer relationship management (CRM) system.
+- Add one or more groups of search results, called result blocks. For example, for a query that contains “Fabrikam sales report”, a query rule might recognize “Fabrikam” as a customer, and then display a result block with pertinent results about Fabrikam from your customer relationship management (CRM) system.
 - Change the ranking of search results. For example, for a query that contains “download toolbox”, a query rule could recognize the word “download” as an action term and boost search results that point to a particular download site on your intranet.
   
 You can create query rules at different levels: for the whole tenant, for a site collection, or for a site. When you create query rules at tenant level, the query rules can be used in all site collections. When you create query rules at site collection level, the rules can be used on all sites in the site collection. When you create query rules at site level, the rules can only be used on that site.
@@ -66,13 +66,7 @@ You can add several individual promoted results. When there is more than one pro
     
   - To apply the query rule to one or more specific result sources, select **One of these sources**. By default, the result source that you specified earlier is selected. To add a result source to the query rule, select **Add Source**, select a result source in the dialog, and then select **Save**.
     
-7. To restrict the query rule to categories—for example, that a query rule should fire only when a term from your managed navigation term set is included in the query, do as follows: 
-    
-  - To restrict the query rule to a category, select **Add category**. In the **Import from term store** dialog, select a term which, when you include it in a query, will cause the query rule to fire, and then select **Save**.
-    
-  - To restrict the query rule to a user segment, select **Add User Segment**. In the dialog, in the **Title** field, type the name for this rule, and then select **Add user segment term**. In the **Import from term store** dialog, select a term that represents a user segment that will cause the query rule to fire when it appears in a query. Select **Save**
-    
-8. In the **Query Conditions** section, do one of the following: 
+7. In the **Query Conditions** section, do one of the following: 
     
   - Select one of the conditions listed in [Overview of conditions that make a query rule fire](manage-query-rules.md#BKMK_Conditions_that_fire_query_rule). 
     
@@ -83,7 +77,7 @@ You can add several individual promoted results. When there is more than one pro
     
   - Select **Remove Condition** to configure this query rule to fire for every query that users type at the level at which you are creating the rule, and then go to the next step. For example, if you are creating this rule for a site collection, select **Remove Condition** if you want this rule to fire for every query that users type inside any search box in the site collection. 
     
-9. In the **Actions** section, specify the action to take when the query rule fires. Specify one of the following: 
+8. In the **Actions** section, specify the action to take when the query rule fires. Specify one of the following: 
     
   - To promote individual results so that they appear towards the top of search results, select **Add Promoted Result** (in SharePoint 2010 Products this was called Best Bets). In the dialog, in the **Title** field, type the name that you want to give this promoted result. In the **URL** field, type the URL of the result that should be promoted. Choose **Render the URL as a banner instead of as a hyperlink**. Select **Save**.
     
@@ -93,9 +87,9 @@ You can add several individual promoted results. When there is more than one pro
     
   - To change ranked search results, select **Change ranked results by changing the query**. For more information, see [Change ranked search results by changing the query](manage-query-rules.md#__toc343764780) a bit further down. 
     
-10. To make the query rule active during a particular time period, select **Publishing**, and then specify the period.
+9. To make the query rule active during a particular time period, select **Publishing**, and then specify the period.
     
-11. Select **Save**.
+10. Select **Save**.
     
 ## Create and display a result block
 <a name="__toc343764779"> </a>
@@ -121,11 +115,7 @@ When you configure a query condition for a result block, you use  *query variabl
   
 4. Specify how the search results within your result block should be sorted. Sorting of search results is case sensitive. On the **SORTING** tab, in the **Sort by drop-down list**, select a managed property, and then select **Descending** or **Ascending**. The list only contains managed properties that are set as sortable in the search schema. You can also sort by rank. To add more sorting levels, click **Add sort level**.
     
-5. If you chose to sort by rank, you can optionally:
-    
-  - Select which model to use for ranking search results (this selection is optional). Use the **Ranking Model** drop-down list. 
-    
-  - Define rules for dynamically changing the ordering of results. In the **Dynamic ordering** section, define when to change ranking by selecting a condition from the drop-down list and then specifying whether to **promote** or **demote** the result. To add more rules, click **Add dynamic ordering rules**
+5. If you chose to sort by rank, you can optionally define rules for dynamically changing the ordering of results. In the **Dynamic ordering** section, define when to change ranking by selecting a condition from the drop-down list and then specifying whether to **promote** or **demote** the result. To add more rules, click **Add dynamic ordering rules**
     
 6. Preview the final query that will be run by the Content Search Web Part, on the **TEST** tab. The preview is based on the original query template where dynamic variables are substituted with current values. Other changes to the query may have to be made as part of query rules. Click **Show more** to display additional information. 
     
@@ -166,11 +156,7 @@ You can also dynamically change the sorting order of the search results, based o
     
 3. Specify how the search results within your result block should be sorted. Sorting of search results is case sensitive. On the **SORTING** tab, in the **Sort by drop-down list**, select a managed property, and then select **Descending** or **Ascending**. The list only contains managed properties that are set as sortable in the search schema. You can also sort by rank. To add more sorting levels, click **Add sort level**.
     
-4. If you chose to sort by rank, you can optionally:
-    
-  - Select which model to use for ranking search results (this selection is optional). Use the **Ranking Model** drop-down list. 
-    
-  - Define rules for dynamically changing the ordering of results. In the **Dynamic ordering** section, define when to change ranking by selecting a condition from the drop-down list and then specifying whether to **promote** or **demote** the result. To add more rules, click **Add dynamic ordering rules**
+4. If you chose to sort by rank, you can optionally define rules for dynamically changing the ordering of results. In the **Dynamic ordering** section, define when to change ranking by selecting a condition from the drop-down list and then specifying whether to **promote** or **demote** the result. To add more rules, click **Add dynamic ordering rules**
     
 5. Preview the final query that will be run by the Content Search Web Part, on the **TEST** tab. The preview is based on the original query template where dynamic variables are substituted with current values. Other changes to the query may have to be made as part of query rules. Click **Show more** to display additional information. 
     
@@ -233,8 +219,7 @@ When multiple query rules are active for a tenant, a site collection, or a site,
 |**Query condition**|**Description**|**Configuration**|**Example**|
 |:-----|:-----|:-----|:-----|
 |**Query Matches Keyword Exactly** <br/> |The query rule fires when a query exactly matches a word or phrase that you specify.  <br/> |In the **Query exactly matches one of these phrases** text box, type one or more phrases separated by semicolons.  <br/> |Type "picture; pic" in the box. The query rule fires when a user types "picture" or "pic" in a search box. The rule doesn't fire if a user types "pictures" or "sunny picture."  <br/> |
-|Query Contains Action Term  <br/> |The query rule fires when a query contains a term for something that the user wants to do. The term must be at the beginning or end of the query.  <br/> |Enter the action term that causes the query rule to fire by doing one of the following:  <br/> Select **Action term is one of these phrases**, and type one or more phrases.  <br/> Select **Action term is an entry in this dictionary**, and then click **Import from term store**. In the dialog, select a term from a term set, and then click **Save**.  <br/> |Type the word "download" in the **Action term is one of these phrases** box. When a user types "download Contoso Electronics datasheet" in a search box, there are chances the user isn't searching for a document that contains the words "download," "Contoso," "Electronics," and "datasheet." Instead, the user most likely wants to download a Contoso Electronics datasheet. The query rule fires, and only the words "Contoso," "Electronics," and "datasheet" are sent to the search index.  <br/> |
-|Query Matches Dictionary Exactly  <br/> |The query rule fires when the query is an exact match of a dictionary entry.  <br/> |From the **Query exactly matches an entry in this dictionary** list, select a dictionary. To specify a different dictionary, click **Import from term store**, select a term from a term set in the dialog, and then click **Save**.  <br/> |A word that a user types in a search box perfectly matches an entry in the preconfigured **People Names** dictionary.  <br/> |
+|Query Contains Action Term  <br/> |The query rule fires when a query contains a term for something that the user wants to do. The term must be at the beginning or end of the query.  <br/> |Enter the action term that causes the query rule to fire by doing one of the following:  <br/> Select **Action term is one of these phrases**, and type one or more phrases.  <br/> |Type the word "download" in the **Action term is one of these phrases** box. When a user types "download Contoso Electronics datasheet" in a search box, there are chances the user isn't searching for a document that contains the words "download," "Contoso," "Electronics," and "datasheet." Instead, the user most likely wants to download a Contoso Electronics datasheet. The query rule fires, and only the words "Contoso," "Electronics," and "datasheet" are sent to the search index.  <br/> |
 |Query More Common in Source  <br/> |The query rule fires if users frequently sent this query from another source that you have already specified.  <br/> |In the **Query is more likely to be used in this source** list, select a result source.  <br/> |You selected **Local Video Results** in the list. The query rule fires if a user types the word "training" in a search box and if that word had already been frequently typed in a search box in the Videos vertical.  <br/> |
 |Result Type Commonly Clicked  <br/> |The query rule fires if other users frequently clicked a particular result type after typing the same query.  <br/> |In the **Commonly clicked results match result type** list, select a result type.  <br/> |You selected **SharePoint MicroBlog Post** in the list. If users frequently click a microblog post in search results, consider configuring the most recent microblog post as the first promoted result, and the next most recent microblog post as the second promoted result (in the **Actions** section).  <br/> |
-|Advanced Query Text Match  <br/> |You want to use a phrase or a dictionary entry that causes the query rule to fire, and then define more detailed conditions for when the query rule fires.  <br/> |Enter the phrase or term that causes the query rule to fire by doing one of the following:  <br/> Select **Query contains one of these phrases**, and type one or more phrases.  <br/> Select **Query contains an entry in this dictionary**, and then click **Import from term store**. In the dialog, select a term from a term set, and then click **Save**.  <br/> Then, add more conditions by checking off options in the lists.  <br/> |You selected **Query contains one of these phrases**, and then chose **Start of query matches, but not entire query**. The query rule fires only if the phrase is at the beginning of a query, not if it's at the end.  <br/> |
+|Advanced Query Text Match  <br/> |You want to use a phrase or a dictionary entry that causes the query rule to fire, and then define more detailed conditions for when the query rule fires.  <br/> |Enter the phrase or term that causes the query rule to fire by doing one of the following:  <br/> Select **Query contains one of these phrases**, and type one or more phrases.  <br/> |You selected **Query contains one of these phrases**, and then chose **Start of query matches, but not entire query**. The query rule fires only if the phrase is at the beginning of a query, not if it's at the end.  <br/> |

@@ -30,11 +30,11 @@ A table summary appears at the top to give you an at-a-glance overview of your u
 
 
 1. Review the scanned users. Search for specific text, or select a filter to review the list more easily
-2. Select **Look for new users** to manually search for more users.
+2. Select **Add source path** to manually search for more users, and then select how to do it.
 
-    ![Box menu bar after scan](media/mm-box-scan-menu.png)
+![add source paths manually in Box](media/mm-add-source-path.png)
 
-
+![add source path selections](media/mm-add-source-path-choices-box.png)
 
 ## Download reports
 
@@ -42,12 +42,12 @@ Summary and detailed scan reports are available to troubleshoot any issues.
 
 1. Once the scan is complete, select **Download reports** from the menu bar for summary reports.
 
-    ![Box menu bar after scan](media/mm-box-scan-menu.png)
+![add source paths manually in Box](media/mm-add-source-path.png)
 
 
 2. Highlight a selected Box user, and select **Download scan log**  to download a detailed scan report of that user account. </br>
 
-    ![Download individual scan log button](media/mm-box-scan-download-scan-log.png)
+
 
 [ **Step 3: Copy to migrations**](mm-box-step3-copy-to-migrations.md)
 
