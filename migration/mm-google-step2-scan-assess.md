@@ -22,39 +22,35 @@ description: "Step 2:  Scan and assess Google users using Migration Manager."
 
 # Step 2: Scan and assess Google Drives
 
-After you have connected to Google, Google Drives are displayed automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
+After you have connected to Google, the drives are displayed automatically for you. Once the scan is complete, download the generated reports and logs to investigate any possible issues that might block your migration.
 
 A table summary appears at the top to give you an at-a-glance overview of your users and content size.
 
-
+![google table summary of scan drives](media/mm-google-table-summary.png)
 
 1. Select **Scan**. Review the scanned drives. 
 2. Search for specific text, or select a filter to review the list more easily.
 
 ![filter options for google drive scan results](media/mm-google-filters-scan.png)
 
-1. To include additional sources, select **Add source path**. Choose to look for new sources, enter a specific source, or bulk upload many sources via a CSV file.1.  Review the scanned drives. Select **Add source path** if you want to do a manually search.
-
-![review scanned google drives](media/mm-google-scan-step.png)
-
-2. Search for specific text, or select a filter to review the list more easily.
+3. To include other sources, select **Add source path**. Choose to look for new sources, enter a specific source, or bulk upload many sources via a CSV file.
 
 
+![add more google source drives](media/mm-google-add-source-paths.png)
 
-3. Once the scan is complete, select **Download reports** from the menu bar, to troubleshoot any issues. The file will be available from your task bar or downloads folder: **Scan task report.csv**
 
 
 
 ## Download reports
 
-Summary and detailed scan reports are available to troubleshoot any issues.
+Summary and detailed reports are available to troubleshoot any issues.
 
 1. Once the scan is complete, select **Download reports**.
 
 ![download reports for google](media/mm-dropbox-summary-report-menu.png)
 
 
-2. To download a detailed scan report for an indiviual account, select a single row, then select **Download scan log**.   </br>
+2. To download a detailed scan report for an individual account, select a single row, then select **Download scan log**.   </br>
 
 
 
