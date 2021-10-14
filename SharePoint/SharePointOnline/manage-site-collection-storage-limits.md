@@ -14,6 +14,7 @@ ms.localizationpriority: high
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- m365initiative-spsitemanagement
 ms.custom: 
 - seo-marvel-apr2020
 search.appverid:
