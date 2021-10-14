@@ -31,7 +31,7 @@ A table summary appears at the top to give you an at-a-glance overview of your u
 
 
 1. Select **Scan**. Review the scanned root folders. Search for specific text, or select a filter to review the list more easily.
-2. To include additional sources, select **Add source path**. Choose to look for new sources, enter a specific source, or bulk upload many sources via a CSV file.
+2. To include other sources, select **Add source path**. Choose to look for new sources, enter a specific source, or bulk upload many sources via a CSV file.
 
 ![download summary reports for dropbox](media/mm-dropbox-summary-report-menu.png)
 
@@ -46,7 +46,7 @@ Summary and detailed scan reports are available to troubleshoot any issues.
 ![download summary reports for dropbox](media/mm-dropbox-summary-report-menu.png)
 
 
-2. To download a detailed scan report for an indiviual account, select a single row, then select **Download scan log**.   </br>
+2. To download a detailed scan report for an individual account, select a single row, then select **Download scan log**.   </br>
 
 
 

@@ -33,8 +33,7 @@ Migration Manager lets you bulk upload your Google drives using a comma-separate
 
 ## Formatting your CSV file
 
-![Format for bulk uploading Box source files into Migration Manager](media/mm-box-csv-bulk-upload-source.png)
-
+![Format for bulk uploading google drives into Migration Manager](media/mm-google-csv-format.png)
 
 1. Start Excel. 
 2. Enter one source per row.  The column heading is optional. Enter your source in one of the following ways: 
