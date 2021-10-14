@@ -22,15 +22,33 @@ description: "Step 2:  Scan and assess Dropbox users using Migration Manager."
 
 # Step 2: Scan and assess Dropbox
 
-After you have connected to Dropbox, accounts are scanned automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
+After you connect to Dropbox, the accounts are displayed automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
 
 A table summary appears at the top to give you an at-a-glance overview of your users and content size.
 
+![table summary of scanned sources](media/mm-dropbox-scan-summary.png)
 
 
-1.  Review the scanned drives. Select **Look for new drives** if you want to do a manually search.
-2. Search for specific text, or select a filter to review the list more easily.
-3. Once the scan is complete, select **Download reports** from the menu bar, to troubleshoot any issues. The file will be available from your task bar or downloads folder: **Scan task report.csv**
+
+1. Select **Scan**. Review the scanned root folders. Search for specific text, or select a filter to review the list more easily.
+2. To include additional sources, select **Add source path**. Choose to look for new sources, enter a specific source, or bulk upload many sources via a CSV file.
+
+![download summary reports for dropbox](media/mm-dropbox-summary-report-menu.png)
+
+![Add Dropbox source paths](media/mm-dropbox-add-source-path.png)
+
+## Download reports
+
+Summary and detailed scan reports are available to troubleshoot any issues.
+
+1. Once the scan is complete, select **Download summary report**.
+
+![download summary reports for dropbox](media/mm-dropbox-summary-report-menu.png)
+
+
+2. To download a detailed scan report for an indiviual account, select a single row, then select **Download scan log**.   </br>
+
+
 
 **NEXT:**  [ **Step 3: Copy to migrations**](mm-dropbox-step3-copy-to-migrations.md)
 
