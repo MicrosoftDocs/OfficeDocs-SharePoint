@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - Strat_SP_modern
 - m365solution-spintranet
@@ -40,7 +40,7 @@ Similar to SharePoint intranet content, SharePoint architecture should be review
 The most important step in planning an effective information architecture is understanding your users:
 
 - Who are your users? What key roles do they have?
-- What vocabulary to they have? What terms do they use to look for content?
+- What vocabulary do they have? What terms do they use to look for content?
 - What do they want to learn?
 - What do they want to do? What are their top tasks?
 
@@ -70,7 +70,7 @@ Information architecture includes five primary elements:
 
 |Plan    |Build    |Manage   |
 | ------------- | ------------- | ------------- |
-|1. Ensure you understand your [users needs and the site goals](./information-architecture-modern-experience.md#understand-your-users) <br>2. Learn about designing for [local navigation](./plan-navigation-modern-experience.md#local-navigation) |1. Customize the [navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) of your site <br>2. Consider [joining a hub site](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05) to increase viewership <br>3. Target [navigational links](https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) to specific audiences |1. Use [site analytics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) to understand how users are engaging with your site <br>2. Review site navigation as needed to ensure all links are active, relevant, and up to date|
+|1. Ensure you understand your [users needs and the site goals](./information-architecture-modern-experience.md#understand-your-role-and-how-to-collaborate). <br>2. Learn about designing for [local navigation](./information-architecture-modern-experience.md#local-navigation). |1. Customize the [navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) of your site. <br>2. Consider [joining a hub site](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05) to increase viewership. <br>3. Target [navigational links](https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) to specific audiences. |1. Use [site analytics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) to understand how users are engaging with your site. <br>2. Review site navigation as needed to ensure all links are active, relevant, and up to date.|
 
 **New navigational design for a hub:**
 
@@ -79,7 +79,7 @@ Information architecture includes five primary elements:
 
 |Plan    |Build    |Manage   |
 | ------------- | ------------- | ------------- |
-|1. Ensure you understand your [users needs and the site goals](./information-architecture-modern-experience.md#understand-your-users) <br>2. Learn about designing for [global navigation](./plan-navigation-modern-experience.md#global-navigation) <br>3. Consider using a [hub site](./planning-hub-sites.md) to group similar sites together <br>4. Learn about [multi-lingual](./plan-navigation-modern-experience.md#multilingual-considerations) considerations |1. Decide on a [menu style](./plan-navigation-modern-experience.md#navigation-menus-in-sharepoint) <br>2. Customize the [navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) for individual sites <br>3. Set up [associations and permissions for hub sites](https://support.microsoft.com/office/set-up-your-sharepoint-hub-site-e2daed64-658c-4462-aeaf-7d1a92eba098) |1. Use [hub analytics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) to understand how users are engaging with your site <br>2. Review site navigation as needed to ensure all links are active, relevant, and up to date |
+|1. Ensure you understand your [users needs and the site goals](./information-architecture-modern-experience.md#understand-your-role-and-how-to-collaborate). <br>2. Learn about designing for [global navigation](./information-architecture-modern-experience.md#global-navigation). <br>3. Consider using a [hub site](./planning-hub-sites.md) to group similar sites together. <br>4. Learn about [multi-lingual](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c) considerations. |1. Decide on a [menu style](./plan-navigation-modern-experience.md#navigation-menus-in-sharepoint). <br>2. Customize the [navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) for individual sites. <br>3. Set up [associations and permissions for hub sites](https://support.microsoft.com/office/set-up-your-sharepoint-hub-site-e2daed64-658c-4462-aeaf-7d1a92eba098). |1. Use [hub analytics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) to understand how users are engaging with your site. <br>2. Review site navigation as needed to ensure all links are active, relevant, and up to date. |
 
 **New navigational design for an intranet site:**
 
@@ -88,6 +88,6 @@ Information architecture includes five primary elements:
 
 |Plan    |Build    |Manage   |
 | ------------- | ------------- | ------------- |
-|1. Define new intranet [business objectives](./plan-intranet.md#identify-initiatives) and choose [pilot scenarios](./plan-intranet.md#choose-pilot-scenarios) <br>2. Learn about [user needs](./information-architecture-modern-experience.md#understand-your-content) and find methods to [test potential designs](https://www.nngroup.com/articles/quantitative-user-research-methods/) <br>3. Take an inventory of your current sites and subsites <br>4. Plan the [home site](./home-site.md) |1. Start [planning hubs](./planning-hub-sites.md) and your [home site](./home-site.md) by grouping high priority tasks and content <br>2. Set up [associations and permissions for hub sites](https://support.microsoft.com/office/set-up-your-sharepoint-hub-site-e2daed64-658c-4462-aeaf-7d1a92eba098) <br>3. Release hubs and associated sites in phases |1. Establish an intranet review team that ensures navigation and content are up to date and aligned with your organization <br>2. Regularly review [hub and site analytics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) to track page traffic and popular content <br>3. Make navigation changes based on your learning from user testing and analytics |
+|1. Define new intranet [business objectives](./plan-intranet.md#identify-initiatives) and choose [pilot scenarios](./plan-intranet.md#choose-pilot-scenarios). <br>2. Learn about [user needs](./information-architecture-principles.md#get-organized) and find methods to [test potential designs](https://www.nngroup.com/articles/quantitative-user-research-methods/). <br>3. Take an inventory of your current sites and subsites <br>4. Plan the [home site](./home-site.md). |1. Start [planning hubs](./planning-hub-sites.md) and your [home site](./home-site.md) by grouping high priority tasks and content. <br>2. Set up [associations and permissions for hub sites](https://support.microsoft.com/office/set-up-your-sharepoint-hub-site-e2daed64-658c-4462-aeaf-7d1a92eba098). <br>3. Release hubs and associated sites in phases. |1. Establish an intranet review team that ensures navigation and content are up to date and aligned with your organization. <br>2. Regularly review [hub and site analytics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) to track page traffic and popular content. <br>3. Make navigation changes based on your learning from user testing and analytics. |
 
 [**Next: learn how to get started planning and implementing SharePoint site navigation**](plan-navigation-modern-experience.md)

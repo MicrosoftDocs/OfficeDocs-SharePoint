@@ -9,7 +9,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - m365solution-migratefileshares
 - m365solution-migratetom365
@@ -20,17 +20,9 @@ search.appverid: MET150
 description: "Step 5:  Map Box identities with Migration Manager." 
 ---
 
-# Step 5: Map identities of Box accounts to Microsoft 365 accounts (preview)
-
->[!Note]
-> Features described in this topic are part of a public preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
->
->This preview release currently supports the migration of up to approximately 1500 Box accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
-
-
+# Step 5: Map identities of Box accounts to Microsoft 365 accounts
 
 Identity Mapping is when you match the user and group identities that have access to your source environment (in this case Box) and map those identities to Microsoft 365 user and group identities. This process is important to migration. If identities are not properly set up prior to migration, it can result in users losing access to content. It can also result in information being incorrect at the destination.
-
 
 Map your groups and users in Box to those in Microsoft 365 to migrate your Box sharing settings.
 
@@ -72,6 +64,6 @@ Upload your own users and groups mappings using the M
 
 
 >[!NOTE]
->Migration Manager Box preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Box isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

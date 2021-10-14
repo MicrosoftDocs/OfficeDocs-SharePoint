@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b35afb63-94d0-4f32-912e-4e64c555ffdf
 description: "Learn about planning, creating, and managing sites and site collections in SharePoint Server."
 ---
@@ -32,4 +32,4 @@ The following articles are included in this section:
 |[Overview of managing digital assets in SharePoint Server 2013](managing-digital-assets-overview.md) <br/> | Learn about the asset library and how you can use it to store and share image, audio, or video files.  <br/> |
 |[Overview of OneDrive in SharePoint Server](onedrive-for-business-overview.md) <br/> |Learn about OneDrive in SharePoint Server.  <br/> |
    
-
+Learn about [managing sites in the new SharePoint admin center in Microsoft 365](../../SharePointOnline/manage-sites-in-new-admin-center.md).

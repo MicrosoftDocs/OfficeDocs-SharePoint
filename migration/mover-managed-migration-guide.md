@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
@@ -120,7 +120,7 @@ We recommend the following best practices as you prepare your environment.
 |**Account setup** |As manager of the project, retain ownership of the migration account.  This ensures that only those running the migration have control of the migration, including running, monitoring, and maintaining the migration. |
 |**Disable mail notifications**|Disable all migration notification emails to avoid getting spammed.  Otherwise, you and your customers will receive test emails regarding transfers, failures, progress, etc.  Learn more: [Disable email notifications](./mover-disable-emails.md)|
 |**Destination upload folder**|Map an upload/destination folder for uploading the migrated data.|
-|**Review important general considerations**|Make sure to review how the tool handles what gets transfered, synced, permissions, and other best practices here: [Mover Migration FAQ](./mover-migration-faq.md)
+|**Review important general considerations**|Make sure to review how the tool handles what gets transferred, synced, permissions, and other best practices here: [Mover Migration FAQ](./mover-migration-faq.md)
 
 ## Migration performance optimizations
 
@@ -186,7 +186,7 @@ Develop a plan for sending communications to your user base, providing clear sta
 ### Onboarding related resources
 
 - [Microsoft 365 end user adoption guide](https://adoption.microsoft.com/): Outlining methodology and resources for implementing proven adoption success factors
-- [OneDrive and SharePoint adoption resources](https://fasttrack.microsoft.com/office365/resourcehub): including customizable posters and templates to generate internal awareness and excitement
+- [Microsoft 365 adoption resources](https://www.microsoft.com/en-us/fasttrack/resources): including customizable posters and templates to generate internal awareness and excitement
 - [OneDrive](https://support.office.com/article/1f608184-b7e6-43ca-8753-2ff679203132) and [team library](https://support.office.com/article/551e190a-8fbe-47ae-a88a-798b443c46b1) video training
 - [OneDrive](https://support.office.com/article/a1397e56-61ec-4ed2-9dac-727bf8ac3357) and [team library](https://support.office.com/article/324a89ec-e77b-4475-b64a-13a0c14c45ec) Quick start training guides: get up and running quickly with the basic info you need to be productive right away
 - [Microsoft 365 Learning Pathways:](/office365/customlearning/) customizable product training experience for end user readiness

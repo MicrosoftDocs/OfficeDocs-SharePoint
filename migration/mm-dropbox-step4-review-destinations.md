@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - m365solutions-migratefileshares
 - m365solution-migratetom365
@@ -19,60 +19,23 @@ ms.collection:
 search.appverid: MET150
 description: Review your destination paths for your Dropbox migration while using Migration Manager.
 ---
-# Step 4: Review destination paths in Migration Manager Dropbox (preview)
-
->[!Note]
-> Features described in this topic are in a preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
-
-
+# Step 4: Review destination paths in Migration Manager Dropbox
 
 In this step, review the destination paths of the accounts you have moved to the migrations list, making sure they are correct. An account cannot be migrated without a destination indicated. Once you start migrating content to a destination, it cannot be modified.
 
+
+
 ## Single destination edit
-If a destination is missing, highlight the row. A panel will appear to the right. Under **Destination**, select **Edit**.  You have the choice of selecting a OneDrive, SharePoint, or Teams path as a destination.
-
-
-### OneDrive
+If a destination is missing, highlight the row. A panel will appear to the right. Under **Destination**, select **Edit**.  
 
 1. Highlight the row. Under **Destination**, select **Edit.**
-2. Select **OneDrive** as a destination.
+2. You have the choice of selecting a OneDrive, SharePoint, or Teams path as a destination.  Depending your selection:
 
-![edit OD destination path](media/mm-box-select-od-destination.png)
+    - For OneDrive, enter the OneDrive URL or email address and the location/folder name
+    - For SharePoint, enter site URL and location
+    - For Teams, select the team and the channel
 
-3. Select a folder (optional).
-
-![select OneDrive folder path](media/mm-box-destination-folder-onedrive.png)
-
-4. Select **Save path**.
-
-
-###  SharePoint
-
-1. Highlight the row. Under **Destination**, select **Edit.**
-2. Select **OneDrive** as a destination.
-
-![edit SP destination path](media/mm-box-sp-destination-path.png)
-
-3. Select a location where you want to move the content.
-
-![select SP library path](media/mm-box-sharepoint-destination-folder.png)
-4. Select **Save path**.
-
-
-
-### Teams
-
-
-1. Highlight the row. Under **Destination**, select **Edit.**
-2. Select **OneDrive** as a destination.
-
-![select teams destination](media/mm-box-teams-destination-path.png)
-
-3. Select a channel.
-
-![select teams channel](media/mm-box-teams-destination-channel.png)
-
-4. Select **Save path**.
+3. Select **Save path**.
 
 
 ## Upload destinations using a CSV file
@@ -95,6 +58,6 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
 
 
 >[!NOTE]
->Migration Manager Dropbox preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Dropbox isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

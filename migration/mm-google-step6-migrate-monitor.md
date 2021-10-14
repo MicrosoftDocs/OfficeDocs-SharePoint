@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - m365solution-migratefileshares
 - m365solution-migratetom365
@@ -19,12 +19,7 @@ ms.collection:
 search.appverid: MET150
 description: "Step 6: Migrate and monitor Google migration"
 ---
-# Step 6:  Migrate and monitor your Google migration (preview)
-
->[!Note]
-> Features described in this topic are part of a preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
->
-
+# Step 6:  Migrate and monitor your Google migration
 
 Once have reviewed the accounts, confirmed the destinations, correctly mapped identities, you are ready to migrate.
 
@@ -45,6 +40,6 @@ Once have reviewed the accounts, confirmed the destinations, correctly mapped id
 
 
 >[!NOTE]
->Migration Manager Google Workspace preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Google Workspace isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

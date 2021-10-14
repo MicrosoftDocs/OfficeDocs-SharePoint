@@ -13,15 +13,11 @@ ms.service: sharepoint-online
 mscollection: 
 - SPMigration
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: "Learn about creating and using agent groups in Migration Manager."
 ---
-#  Agent groups in Migration Manager (preview)
-
->[!Important]
-> This advanced feature is currently in private preview and subject to change without notice.
-
+#  Agent groups in Migration Manager
 
 With Migration Manager, you can create "agent groups" and assign agents to them.  Agent groups are considered an advanced feature and not commonly used by most users.
 

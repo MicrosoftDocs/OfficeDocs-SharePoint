@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
@@ -33,7 +33,7 @@ When developers build SharePoint Framework solutions, they might need to connect
 The API access page shows pending and approved requests. It also shows which requests apply to any SharePoint Framework component or custom script in your organization (organization-wide) and which requests apply to only the specific component (isolated).
 
    > [!NOTE]
-   > The admin role that's required to approve permissions depends on the API. To approve permissions to any of the third-party APIs registered in the tenant, the [application administrator](/azure/active-directory/roles/permissions-reference#application-administrator) role is sufficient. To approve permissions for Microsoft Graph or any other Microsoft API, the global admin role is required.
+   > The admin role that's required to approve permissions depends on the API. To approve permissions to any of the third-party APIs registered in the tenant, the [application administrator](/azure/active-directory/roles/permissions-reference#application-administrator) role is sufficient. To approve permissions for Microsoft Graph or any other Microsoft API, the global admin role is required. The API access page is not available for people signed in with the global reader role. 
 
 ## Approve a pending request
 
@@ -66,6 +66,6 @@ When you remove access, solutions and custom scripts that rely on the permission
 You can also use PowerShell to manage permission requests.
 
 - To view pending requests, use the cmdlet [Get-SPOTenantServicePrincipalPermissionRequests](/powershell/module/sharepoint-online/get-spotenantserviceprincipalpermissionrequests?view=sharepoint-ps&preserve-view=true).
-- To approve a request, use the cmdlet [Approve-SPOTenantServicePrincipalPermissionRequest](/powershell/module/sharepoint-online/approve-spotenantserviceprincipalpermissiongrant?view=sharepoint-ps&preserve-view=true).
+- To approve a request, use the cmdlet [Approve-SPOTenantServicePrincipalPermissionRequest](/powershell/module/sharepoint-online/Approve-SPOTenantServicePrincipalPermissionRequest?view=sharepoint-ps&preserve-view=true).
 - To reject a request, use the cmdlet [Deny-SPOTenantServicePrincipalPermissionRequest](/powershell/module/sharepoint-online/deny-spotenantserviceprincipalpermissionrequest?view=sharepoint-ps&preserve-view=true).
 - To remove access to a previously approved request, use the cmdlet [Revoke-SPOTenantServicePrincipalPermission](/powershell/module/sharepoint-online/revoke-spotenantserviceprincipalpermission?view=sharepoint-ps&preserve-view=true).

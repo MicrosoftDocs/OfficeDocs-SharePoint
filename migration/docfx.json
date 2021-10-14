@@ -40,7 +40,8 @@
       "breadcrumb_path": "/sharepointmigration/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
       "uhfHeaderId": "MSDocsHeader-M365-IT",
-      "titleSuffix": "Migrate to SharePoint and OneDrive",
+      "titleSuffix": "Migrate to Microsoft 365",
+      "recommendations": true,
       "contributors_to_exclude": [
         "dstrome",
         "daswifty",
@@ -54,7 +55,7 @@
         "tiburd",
         "garycentric"
       ],
-      "searchScope": ["SharePoint Migration"],
+      "searchScope": ["Microsoft 365 Migration"],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SharePoint",
       "feedback_product_url": "https://sharepoint.uservoice.com/" 

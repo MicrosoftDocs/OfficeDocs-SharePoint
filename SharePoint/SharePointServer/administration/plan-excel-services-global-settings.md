@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 955084c9-91e1-4f66-9ec4-09d2816c5c6f
 description: "Learn how to choose authorization (impersonation or process account) and encryption (IPsec or SSL) options for Excel Services in SharePoint Server."
 ---

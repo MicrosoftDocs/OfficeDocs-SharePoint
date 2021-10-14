@@ -10,9 +10,9 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6710f7e9-889d-4644-bfab-26f63b76ceaf
-description: "Learn about the default managed properties, their settings and the default mapping between crawled and managed properties."
+description: "Learn about the default managed properties, their settings, and the default mapping between crawled and managed properties."
 ---
 
 # Overview of crawled and managed properties in SharePoint Server
@@ -20,16 +20,17 @@ description: "Learn about the default managed properties, their settings and the
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 A  *crawled property*  is content and metadata that is extracted from an item, such as a document or a URL, during a crawl. A crawled property can be an author, title, or subject. To include the content and metadata of crawled properties in the search index, you map crawled properties to managed properties. Managed properties can have a large number of settings, or attributes. These attributes determine how the contents are shown in search results. The search schema contains the attributes on managed properties and the mapping between crawled properties and managed properties. For more information, see [Overview of the search schema in SharePoint Server](../search/search-schema-overview.md) and [Manage the search schema in SharePoint Server](../search/manage-the-search-schema.md).
+
+Learn about [managing the search schema for SharePoint in Microsoft 365](../../SharePointOnline/manage-search-schema.md).
   
 ## Managed properties overview
 
-The following table lists the default managed properties and their attributes. For each managed property that by default is mapped to one or several crawled properties, these crawled properties are listed in the **Mapped Crawled Properties** column. 
+The following table lists the default managed properties and their attributes. For each managed property that by default is mapped to one or several crawled properties, these crawled properties are listed in the **Mapped Crawled Properties** column.
 
 ### Managed properties in SharePoint Server 2013 through 2019
   
-|||||||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |**Property name**  |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |AboutMe   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:AboutMe, ows_Notes   ||
 |Account   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_Name   ||
 |AccountName   |Text   |No   |Yes   |Yes   |Yes   |No   |No   |People:AccountName   ||
@@ -601,14 +602,13 @@ The following table lists the default managed properties and their attributes. F
 |WorkId   |Integer   |No   |No   |No   |Yes   |No   |No   |||
 |WorkPhone   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:WorkPhone, ows_WorkPhone, ows_Work_x0020_Phone   |urn:schemas-microsoft-com:sharepoint:portal:profile:WorkPhone   |
 |YomiDisplayName   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:SPS-PhoneticDisplayName   ||
-   
 
 ### Managed Properties Added in SharePoint Server 2016
+
 <a name="mp2016"></a>
 
-|||||||||||
+|**Property name** |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|**Property name**  |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |
 |AADObjectID   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:AboutMe, ows_Notes   ||
 |AnalyticsPath |Text   |No   |Yes  |No |Yes  |No  |No  |People:msOnline-ObjectId||
 |ChannelVersion |Text |No|No|No|Yes|No|No|ows_ChannelVersion||
@@ -660,7 +660,7 @@ The following table lists the default managed properties and their attributes. F
 |ViewableByAnonymousUsers|Yes/No|No|Yes|No|Yes|Yes|Yes|ows_ViewableByAnonymousUsers||
 |ViewableByExternalUsers|Yes/No|No|Yes|No|Yes|Yes|Yes|ows_ViewableByExternalUsers||
 |WebApplicationId|Text|No|Yes|No|Yes|No|No|ows_WebApplicationId||
-|WebUrl|Text|No|Yes|No|Yes|No|No|No|WebUrl||
+|WebUrl|Text|No|Yes|No|Yes|No|No|No|WebUrl|
 |XLDataConnCount|Decimal|No|No|No|Yes|No|No|XLDataConnCount||
 |XLDataConnCountRngID|Integer|No|Yes|No|Yes|Yes|Yes|XLDataConnCountRngID||
 |XLFormulaCount|Decimal|No|No|No|Yes|No|No|XLFormulaCount||
@@ -674,11 +674,11 @@ The following table lists the default managed properties and their attributes. F
 |XLWorksheetCountRngID|Integer|No|Yes|No|Yes|Yes|Yes|XLWorksheetCountRngID||
 
 ### Managed Properties Added in SharePoint Server 2019
+
 <a name="mp2019"></a>
 
-|||||||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |**Property name**  |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |AppVersion   |Text   |No   |No   |No   |Yes   |No   |No   |ows_AppVersion  ||
 |AutoTagClassificationId|Text|No|Yes|No|Yes|Yes|No|||
 |ClassificationContext|Text|Yes|No|No|Yes|No|No|||

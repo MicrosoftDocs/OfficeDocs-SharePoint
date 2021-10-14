@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -36,7 +36,9 @@ The following table describes the locking options that are available in SharePoi
 > If you want to limit the amount of content that can be stored in a site collection, you can apply a quota template to the site collection. When the content storage limit that is specified in the quota template is reached, the site collection is locked automatically until the storage limit quota has been increased or some content has been removed. For more information, see [Create, edit, and delete quota templates in SharePoint Server](create-edit-and-delete-quota-templates.md). 
   
 > [!IMPORTANT]
-> The steps in this article apply to SharePoint Server 2016, SharePoint Foundation 2013, and SharePoint Server 2013. 
+> The steps in this article apply to SharePoint Server 2016, SharePoint Foundation 2013, and SharePoint Server 2013.
+
+Learn about [Locking and unlocking sites for SharePoint in Microsoft 365](../../SharePointOnline/manage-lock-status.md).
   
 ## Manage the lock status for a site collection by using Central Administration
 
@@ -72,7 +74,7 @@ Use this procedure to lock or unlock a site collection by using PowerShell.
   
  **To manage the lock status for a site collection by using PowerShell**
   
-1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps).
+1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps&preserve-view=true).
     
 2. Open the SharePoint Management Shell.
     
@@ -96,7 +98,7 @@ Use this procedure to lock or unlock a site collection by using PowerShell.
     
       - **NoAccess** to prevent users from accessing the site collection and its content. Users who attempt to access the site receive an error message. 
     
- For more information, see [Set-SPSite](/powershell/module/sharepoint-server/Set-SPSite?view=sharepoint-ps).
+ For more information, see [Set-SPSite](/powershell/module/sharepoint-server/Set-SPSite?view=sharepoint-ps&preserve-view=true).
   
 ## See also
 

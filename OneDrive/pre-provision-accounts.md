@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: one-drive
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - ODB160
@@ -27,7 +27,7 @@ description: "Learn how to use PowerShell to create OneDrive file storage for yo
 
 # Pre-provision OneDrive for users in your organization
 
-By default, the first time that a user browses to their OneDrive it's automatically provisioned for them. In some cases, such as the following, you might want your users' OneDrive locations to be ready beforehand, or pre-provisioned:
+By default, the first time that a user browses to their OneDrive it's automatically created (provisioned) for them. In some cases, such as the following, you might want your users' OneDrive locations to be ready beforehand, or pre-provisioned:
 
 - Your organization has a custom process for adding new employees, and you want to create a OneDrive when you add a new employee.
 
@@ -42,8 +42,12 @@ This article describes how to pre-provision OneDrive for your users by using Pow
 - For info about the storage you get with each plan, see [OneDrive Service Description](/office365/servicedescriptions/onedrive-for-business-service-description).
 
 > [!IMPORTANT]
-> The user accounts that you are pre-provisioning must be allowed to sign in and must also have a SharePoint license assigned.
+> The user accounts that you're pre-provisioning must be allowed to sign in and must also have a SharePoint license assigned.
 > To provision OneDrive by using this cmdlet, you must be a global or SharePoint administrator and must be assigned a SharePoint license.
+
+
+> [!NOTE]
+> If you're pre-provisioning OneDrive for a large number of users, it might take multiple days for the OneDrive locations to be created. 
 
 ## Pre-provision OneDrive for users
 
@@ -59,8 +63,6 @@ This article describes how to pre-provision OneDrive for your users by using Pow
 
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
-	> 
-	> On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
 
 3. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
@@ -80,12 +82,10 @@ This article describes how to pre-provision OneDrive for your users by using Pow
 
 To verify that OneDrive has been created for your users, see [Get a list of all user OneDrive URLs in your organization](list-onedrive-urls.md).
 
-   > [!NOTE]
-   > If you are pre-provisioning OneDrive for many users, it might take up to 24 hours for the OneDrive locations to be created. If a user's OneDrive isn't ready after 24 hours, please contact Support.
 
-## Pre-provision many users at the same time
+## Pre-provision OneDrive for all licensed users in your organization
 
-The following code snippet will pre-provision OneDrive for a large number of users.
+The following code snippet will pre-provision OneDrive in batches of 199.
 
 ```PowerShell
 $Credential = Get-Credential

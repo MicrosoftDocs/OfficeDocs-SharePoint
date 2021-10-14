@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d8d31277-7cce-4302-a198-de5ae4cef1ca
 description: "Use test results and recommendations in this article to estimate performance and capacity requirements for an enterprise intranet collaboration solution for SharePoint Server."

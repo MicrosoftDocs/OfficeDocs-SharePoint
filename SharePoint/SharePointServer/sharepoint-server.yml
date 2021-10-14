@@ -12,7 +12,7 @@ metadata:
   author: SerdarSoysal #Required; your GitHub user alias, with correct capitalization.
   ms.author: serdars #Required; microsoft alias of author; optional team alias.
   ms.date: 03/09/2020 #Required; mm/dd/yyyy format
-  localization_priority: Priority
+  ms.localizationpriority: high
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -80,6 +80,8 @@ landingContent:
     linkLists:
       - linkListType: deploy
         links:
+          - text: Installation overview for SharePoint Server Subscription Edition
+            url: install/install-overview-spserver-se.md
           - text: SharePoint Server 2016 and 2019 large scale farms
             url: install/install-sharepoint-server-2016-across-multiple-servers.md
           - text: SharePoint Server 2016 and 2019 small scale farms

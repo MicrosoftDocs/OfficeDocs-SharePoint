@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MET150
 ms.collection: M365-collaboration
@@ -57,18 +57,21 @@ To enable Azure AD passcode authentication
 1. Sign in to the [Azure portal](https://portal.azure.com) as an Azure AD global admin.
 2. In the nav pane, select **Azure Active Directory**.
 3. Under **Manage**, click **External identities**.
-4. Click **External collaboration settings**.
-5. Under **Email one-time passcode for guests**, choose **Enable email one-time passcode for guests effective now**.
+4. Click **All identity providers**.
+5. Under **Configured identity providers**, select **Email one-time passcode** and choose **Enable email one-time passcode for guests effective now**.
 6. Select **Save**.
 
 To enable SharePoint and OneDrive integration with Azure AD B2B
+
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
 
 2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+
 3. Run the following cmdlets:
+
    ```PowerShell
    Set-SPOTenant -EnableAzureADB2BIntegration $true
    Set-SPOTenant -SyncAadB2BManagementPolicy $true

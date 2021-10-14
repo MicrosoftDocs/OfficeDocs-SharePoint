@@ -15,7 +15,7 @@ ms.collection:
 - m365initiative-healthyonedrive
 ms.custom:
 - seo-marvel-apr2020
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MET150
 description: "This article is a guide for enterprises on using OneDrive. Learn about features, planning, configuration, deployment, and management of OneDrive."
@@ -173,11 +173,11 @@ You can deploy and manage OneDrive in many ways, but certain options make more s
 
 | Size of organization | Deployment tools used | Management |
 |:-----|:-----|:-----|
-|Small business|Local installation|Microsoft 365 admin center, SharePoint admin center, and OneDrive admin center|
-|Medium-sized business|Scripted installation or Microsoft Intune mobile device management (MDM)|Office 365 with MDM, SharePoint and OneDrive admin centers, PowerShell, Intune mobile application management (MAM) or MDM|
+|Small business|Local installation|Microsoft 365 admin center, SharePoint admin center|
+|Medium-sized business|Scripted installation or Microsoft Intune mobile device management (MDM)|Office 365 with MDM, SharePoint admin center, PowerShell, Intune mobile application management (MAM) or MDM|
 |Enterprise|Microsoft Endpoint Configuration Manager with Intune or Windows Autopilot|Microsoft Endpoint Configuration Manger, Group Policy, PowerShell, and so on. |
 
-Depending on where your organization fits in this table and the technologies available to you, you can choose which portion of this guide to use. For example, if you run a small business, you may want to keep your OneDrive deployment simple by installing the sync app manually on your employees' computers and using the OneDrive admin center to manage a few settings for your users. Alternatively, if you're running an enterprise, you may choose to deploy and manage OneDrive by using advanced tools like Microsoft Endpoint Configuration Manager and Group Policy, and you could use the sections that correspond to those tools, instead. To accommodate various situations, the deployment and management portions of this guide are in a modular format so that you can consume the document in the way that best aligns with your deployment needs and capabilities. This format also provides visibility into alternate technologies to improve your current processes.
+Depending on where your organization fits in this table and the technologies available to you, you can choose which portion of this guide to use. For example, if you run a small business, you may want to keep your OneDrive deployment simple by installing the sync app manually on your employees' computers and using the SharePoint admin center to manage a few settings for your users. Alternatively, if you're running an enterprise, you may choose to deploy and manage OneDrive by using advanced tools like Microsoft Endpoint Configuration Manager and Group Policy, and you could use the sections that correspond to those tools, instead. To accommodate various situations, the deployment and management portions of this guide are in a modular format so that you can consume the document in the way that best aligns with your deployment needs and capabilities. This format also provides visibility into alternate technologies to improve your current processes.
 
 ## Prerequisites
 
@@ -196,7 +196,7 @@ When deploying any new technology, there's always an ideal process to follow to 
 
 Your organization doesn't have to manage all connected devices for them to use OneDrive, but securing and managing the interaction with the data do require a layer of management capabilities. Start by determining which types of devices—iOS, Android, Windows 10—require access to OneDrive and who owns them (the business or the employee). Put this info in a spreadsheet to help you determine which capabilities you need from your technology solutions. Some management options are more suitable for devices that the organization owns and manages. Regardless of the platform running OneDrive and who owns it, the following management options are available to you:
 
-- Microsoft 365 admin center, SharePoint admin center, and OneDrive admin center
+- Microsoft 365 admin center and SharePoint admin center
 
 - Microsoft 365 MDM
 
@@ -361,25 +361,25 @@ Key decisions:
 
 ### Files in on-premises OneDrive or MySites libraries
 
-If users' existing files are in on-premises SharePoint, OneDrive, or MySites, you can use the SharePoint Migration Tool to migrate the files to Microsoft 365.
+If users' existing files are in on-premises SharePoint, OneDrive, or MySites, you can use the SharePoint Migration Tool to migrate the files to Microsoft 365. For info, see [Overview of the SharePoint Migration Tool (SPMT)](/sharepointmigration/introducing-the-sharepoint-migration-tool).
 
-For detailed info about the SharePoint Migration Tool, see [How the SharePoint Migration Tool works](/sharepointmigration/how-the-sharepoint-migration-tool-works/).
+The SharePoint Migration Tool can be used by your IT department to migrate files for users. This is the recommended method of migration for files in an on-premises SharePoint farm.
 
-The SharePoint Migration Tool can be used by your IT department to migrate files on their behalf. This is the recommended method of migration for files in an on-premises SharePoint farm.
+### Files on users' local known folders
 
-### Files on users' local disk in known folders
-
-If user files are located in Windows known folders such as their desktop, Documents, or Pictures, you can use Known Folder Move. Known Folder Move enables users to select known folders to automatically synchronize to OneDrive. You can add this feature during the initial setup of OneDrive or after it has been configured. This capability provides a simple migration option for users looking to add known folders to their existing list of synchronized folders.
-
-Known Folder Move can be configured by administrators to automatically redirect known folders for all users on the domain. It's an easy way to migrate files kept in these locations. For more info, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md).
+If user files are located in Windows known folders such as their Desktop, Documents, or Pictures folders, you can use Known Folder Move to move and redirect these locations. You can enable this feature during the initial rollout of OneDrive or sometime later. For more info, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md).
 
 ### Files in other local disk folders
 
 If users have other work files in various locations on their computers, it's often easiest for them to manually move the files to OneDrive. After you deploy the OneDrive sync app to your users' computers, you can instruct them to move their work files to the OneDrive folder on their computer.
 
+### Files in file shares or other cloud providers
+
+You can use Migration Manager to migrate these files to OneDrive. [Migrate files shares to Microsoft 365 with Migration Manager](/sharepointmigration/mm-get-started)
+
 ### Migrating with FastTrack
 
-FastTrack is a Microsoft benefit that is included in your subscription.  FastTrack provides you with a set of best practices, tools, resources, and experts committed to making your experience with the Microsoft Cloud a great one! Guidance around OneDrive onboarding, migration, and adoption are included in the benefit offering. This guidance includes: help to discover what's possible, creating a plan for success, and onboarding new users, providing guidance on migrating content from file share, Box, or Google Drive source environments, and introducing capabilities at a flexible pace, your pace! FastTrack guidance provides enablement of both OneDrive and getting the source environment ready for your transition. In addition, the FastTrack data migration benefit will also perform specific data migration activities on behalf of you, the customer,  for those with 500 or more licenses. For more details, see [FastTrack Center Benefit Overview](/fasttrack/data-migration/). Interested in getting started? Visit [FastTrack.Microsoft.Com](https://www.microsoft.com/fasttrack/), review resources, and submit a Request for Assistance.
+FastTrack is a Microsoft benefit that is included in your subscription. FastTrack provides you with a set of best practices, tools, resources, and experts committed to making your experience with the Microsoft Cloud a great one! Guidance around OneDrive onboarding, migration, and adoption are included in the benefit offering. This guidance includes: help to discover what's possible, creating a plan for success, and onboarding new users, providing guidance on migrating content from file share, Box, or Google Drive source environments, and introducing capabilities at a flexible pace, your pace! FastTrack guidance provides enablement of both OneDrive and getting the source environment ready for your transition. In addition, the FastTrack data migration benefit will also perform specific data migration activities on behalf of you, the customer, for those with 500 or more licenses. For more details, see [FastTrack Center Benefit Overview](/fasttrack/data-migration/). Interested in getting started? Visit [FastTrack.Microsoft.Com](https://www.microsoft.com/fasttrack/), review resources, and submit a Request for Assistance.
 
 ## Sync
 
@@ -506,27 +506,32 @@ The tools and technologies you use to manage OneDrive are based on the individua
 
 | Category | Tasks | Technology or method |
 |:-----|:-----|:-----|
-|OneDrive organization-wide settings|Manage settings such as storage limits and sharing capabilities.|OneDrive admin center<br>Microsoft PowerShell|
-|App updates|Update the OneDrive sync app or mobile apps|MDM (for example, Intune)<br>Microsoft Endpoint Configuration Manager<br>Group Policy<br>OneDrive admin center<br>Manually|
+|OneDrive organization-wide settings|Manage settings such as storage limits and sharing capabilities.|SharePoint admin center<br>Microsoft PowerShell|
+|App updates|Update the OneDrive sync app or mobile apps|MDM (for example, Intune)<br>Microsoft Endpoint Configuration Manager<br>Group Policy<br>SharePoint admin center<br>Manually|
 |Sync app settings|Configure the sync app update ring, DLP policies, and other device or app restrictions.|MDM (for example, Intune)<br>Microsoft Endpoint Configuration Manager<br>Group Policy<br>Manually|
 
-## Manage OneDrive by using the OneDrive admin center
+## Manage OneDrive by using the new SharePoint admin center
 
-The OneDrive admin center [https://admin.onedrive.com](https://admin.onedrive.com) enables you to manage OneDrive settings and device access from one central location. Some settings in the OneDrive admin center you'll use regardless of any other technologies you use to manage OneDrive (for example, to configure storage space settings). Others may overlap management apps in use (for example, the MDM section). Most organizations will use the OneDrive admin center for some of their settings, but only those organizations without an MDM application would likely use the device access functionality in the OneDrive admin center.
+The [new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true) enables you to manage OneDrive settings and device access from one central location. Some settings in the SharePoint admin center you'll use regardless of any other technologies you use to manage OneDrive (for example, to configure storage space settings). Others may overlap management apps in use (for example, the MDM section). Most organizations will use the SharePoint admin center for some of their settings, but only those organizations without an MDM application would likely use the device access functionality in the SharePoint admin center.
 
-Settings in the OneDrive admin center are grouped into six categories:
+Settings in the SharePoint admin center to manage OneDrive are grouped into six categories:
 
-- **Sharing** - Instead of using this page, use the [Sharing page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true), to configure your sharing options based on the decisions you made earlier in this guide. To learn more, see [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off).
+- **Sharing** - Use the [Sharing page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true), to configure your sharing options based on the decisions you made earlier in this guide. To learn more, see [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off).
 
-- **Sync** - On the **Sync** page, you can configure sync restrictions based on file types, require that synced devices be domain joined, or restrict synchronization from computers running macOS. Depending on your device management tool, the PC device restrictions in this section may overlap other management settings.
+- **Sync** - On the **Settings** - **OneDrive - Sync** page, you can configure sync restrictions based on file types, require that synced devices be domain joined, or restrict synchronization from computers running macOS. Depending on your device management tool, the PC device restrictions in this section may overlap other management settings.
 
-- **Storage** - On the **Storage** page, you specify the default OneDrive storage limit for users in your organization. You can also configure data retention settings for users whose accounts have been deleted (the maximum value is 10 years). These organization-wide configuration settings are applicable to all organizations, regardless of the device management tool they use. Use this page to configure the data retention value based on the decisions you made in Part 2, [Plan for OneDrive for enterprises](plan-onedrive-enterprise.md).
+- **Storage limit** - On the **Settings** - **Storage limit** page, you specify the default OneDrive storage limit for users in your organization. This organization-wide configuration setting is applicable to all organizations, regardless of the device management tool they use.
 
-- **Device Access** - Instead of using this page, use the [Access control page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true).
+-  **Retention** - On the **Settings** - **Retention** page, you can configure data retention settings for users whose accounts have been deleted (the maximum value is 10 years). This organization-wide configuration setting is applicable to all organizations, regardless of the device management tool they use. Use this page to configure the data retention value based on the decisions you made in Part 2, [Plan for OneDrive for enterprises](plan-onedrive-enterprise.md).
 
-- **Compliance** - The **Compliance** page provides a centralized list of links to auditing, DLP, retention, eDiscovery, and alerting capabilities within Microsoft 365 that are applicable to OneDrive. Selecting an item's link redirects you to the Compliance Center, where you can configure that item. You can create DLP policies from templates that protect certain types of data, such as Social Security numbers, banking information, and other financial and medical content. Some capabilities won't be available if you're using Intune (for example, device management). For a walkthrough of how to create DLP policies and apply them to OneDrive, see [Create a DLP policy from a template](/office365/securitycompliance/create-a-dlp-policy-from-a-template/).
+- **Notifications** - On the **Settings** - **Notifications** page, you define if OneDrive users should receive notifications about file activity. For info about enabling these options, see [Turn on external sharing notifications for OneDrive](turn-on-external-sharing-notifications.md).
 
-- **Notifications** - On the **Notifications** page, you define when OneDrive owners should receive notifications about sharing or accessing their data. For info about enabling these options, see [Turn on external sharing notifications for OneDrive](turn-on-external-sharing-notifications.md).
+- **Device Access** - Use the [Access control page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true).
+
+## Manage OneDrive by using the Microsoft 365 compliance center
+
+The [Microsoft 365 compliance center](https://compliance.microsoft.com/) provides a centralized location to auditing, DLP, retention, eDiscovery, and alerting capabilities within Microsoft 365 that are applicable to OneDrive. You can create DLP policies from templates that protect certain types of data, such as Social Security numbers, banking information, and other financial and medical content. Some capabilities won't be available if you're using Intune (for example, device management). For a walkthrough of how to create DLP policies and apply them to OneDrive, see [Create a DLP policy from a template](/office365/securitycompliance/create-a-dlp-policy-from-a-template/).
+
 
 ## Manage OneDrive settings by using Intune
 

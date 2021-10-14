@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
@@ -28,6 +28,7 @@ After an agent is configured, anyone with the permission to go into the SharePoi
 
 > [!Important]
 > Make sure to download the latest version of the agent setup file.
+> Passwords **are not** stored in the installer.
 
 ## Planning checklist
 
@@ -38,7 +39,7 @@ After an agent is configured, anyone with the permission to go into the SharePoi
 |[Verify prerequisites](mm-prerequisites.md)|Make sure your computer meets the requirements.|
 |[Check required endpoints](mm-prerequisites.md)|Verify that you have the required endpoints configured.|
 |[Multi-geo tenant](#multi-geo-agent-setup)|If you have a multi-geo tenant, make sure to understand where the agent will be installed.|
-|[Pre-provision OneDrive accounts](https://docs.microsoft.com/onedrive/pre-provision-accounts)|If you are migrating to OneDrive accounts, make sure the accounts are pre-provisioned before you migrate. Pre-provisioning can be done by using a script as described here: [Pre-provision OneDrive for users in your organization](https://docs.microsoft.com/onedrive/pre-provision-accounts).|
+|[Pre-provision OneDrive accounts](/onedrive/pre-provision-accounts)|If you are migrating to OneDrive accounts, make sure the accounts are pre-provisioned before you migrate. The migration account must also be give site collection administrator rights to each OneDrive site. Pre-provisioning can be done by using a script as described here: [Pre-provision OneDrive for users in your organization](/onedrive/pre-provision-accounts).|
 |[Government Cloud](mm-gov-cloud.md)|If your tenant resides in a government cloud, you may have extra steps to perform before using Migration Manager.|
 
 >[!Tip]
@@ -70,7 +71,7 @@ A working folder named **%appdata%\Microsoft\SPMigration** is created for each a
 
 If you have a Multi-Geo SharePoint tenant, the agent will be installed in the geo-location set in the SharePoint admin center. Before installing the agent, make sure the desired geo-location is the one set in the admin center. To change an agent's geo-location, delete and reinstall the agent. 
 
-Learn more: [Multi-Geo Capabilities in OneDrive and SharePoint Online](https://docs.microsoft.com/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365)
+Learn more: [Multi-Geo Capabilities in OneDrive and SharePoint Online](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365)
 
 To install an agent to a different Geo location:
 
@@ -79,21 +80,46 @@ To install an agent to a different Geo location:
 3. **Open** this file:  %temp%\SPMigrationAgentSetup\SPMigrationAgentSetup\Microsoft.SharePoint.Migration.ClientShared.dll.config
 4. Under appSettings, add an entry as shown in the following **example** for the desired country or data center. (Note: this is an example for Canada.) </br>
 
-    *< add key="GeoLocation" value="CAN" / >*
+```powershell 
+ 
+<add key="GeoLocation" value="CAN" />
 
-The country or regional GEO code can be found here [Microsoft 365 Multi-Geo availability](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo)
+```
+
+The country or regional GEO code can be found here [Microsoft 365 Multi-Geo availability](/microsoft-365/enterprise/microsoft-365-multi-geo)
+
+
+## Installing the agent as an app
+
+ If the system detects you are not joined to a domain when installing the agent, you can install the agent as a Windows app.  If you still wish to install it as a service, exit and sign in with a domain-joined account.
 
 >[!Important]
-> Passwords are not stored in the installer.
+> If you install the agent as an app, it will not run if the computer is asleep, effectively pausing your migration.  
 
->[!NOTE]
-> Migration Manager automatically assigns tasks to a available agent.  You cannot manually assign a task to a specific agent. Each agent can have up to 10 tasks in its queue.
->
->Pausing a task does not release the agent to another task. An agent remains unavailable to accept a new task until the task is resumed and completed, or if the task is deleted.
+1. Select **Install as an app**. 
+
+![Install agent as an app](media/mm-agent-app.png)
+
+2. After the agent installs, sign in with your SharePoint Admin credentials.
+3. Test if your agent has access to the file shares you want to migrate (optional).
+
+![Install as an app settings](media/mm-agent-app-settings.png)
+
+4. The settings screen will display if and to what tenant you are connected.  Select **unlink tenant** if you wish to sign in to a different tenant.
+
+5. Microsoft 365 will automatically renew authorization to access your tenant as long as the migration agent is active.  If the agent has been inactive for longer than seven days, you may need to sign in again.
 
 
->[!Important]
->The connection between the agent and Migration Manager stays active as long as the computer is still running and the SharePoint admin credentials that were used to sign into the agent are still valid. 
->
->If the agent does becomes disconnected, it still holds the token to the Migration Manager for up to 7 days. After that time, the agent will need to be reinstalled.
+
+## Agent task assignment
+
+Migration Manager automatically assigns tasks to a available agent. You cannot manually assign a task to a specific agent. Each agent can have up to 10 tasks in its queue.
+
+Pausing a task does not release the agent to another task. An agent remains unavailable to accept a new task until the task is resumed and completed, or if the task is deleted.
+
+
+## How long will the connection stay active?
+The connection between the agent (as a service) and Migration Manager stays active as long as the computer is still running and the SharePoint admin credentials that were used to sign into the agent are still valid. 
+
+If the agent does becomes disconnected, it still holds the token to the Migration Manager for up to 7 days. After that time, the agent will need to be reinstalled.
 

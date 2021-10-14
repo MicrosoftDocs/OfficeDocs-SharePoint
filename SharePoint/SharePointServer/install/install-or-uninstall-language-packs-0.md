@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -30,7 +30,6 @@ Word breakers and stemmers enable you to search efficiently and effectively acro
 > [!IMPORTANT]
 > If you are uninstalling SharePoint Server, you must uninstall all language packs before you uninstall SharePoint Server. 
   
-    
 ## About language IDs and language packs
 <a name="section1"> </a>
 
@@ -123,7 +122,7 @@ Folders for the language-specific components are identified by the language tag 
 SharePoint Servers 2016 and 2019 support the following languages:
 
 |Language|Language tag|LCID|
-|:-----|:-----|:-----|:-----
+|:-----|:-----|:-----|
 Arabic <br/>|ar-sa  <br/> | 1025 <br/>
 Azerbaijani <br/> |az-latn-az  <br/> |1068 <br/>
 Basque <br/> |eu-es  <br/> |1069 <br/>||

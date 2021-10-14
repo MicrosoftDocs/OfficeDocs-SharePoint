@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
@@ -20,7 +20,7 @@ description: Create a task in Migration Manager
 
 # Create a task in Migration Manager
 
-After a agent is configured, anyone with the permission to go into the SharePoint Admin center can create tasks. The tasks will be automatically distributed to one of the configured agents.
+After an agent is configured, anyone with the permission to go into the SharePoint Admin center can create tasks. The tasks will be automatically distributed to one of the configured agents.
 
 
 

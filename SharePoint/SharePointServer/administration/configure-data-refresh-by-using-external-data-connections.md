@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 067783ba-e22f-41a8-9a1b-38a89c3a30c2
 description: "Configure Visio Services to refresh data using an external Office Data Connection (ODC) file and a Secure Store Service target application."
 ---

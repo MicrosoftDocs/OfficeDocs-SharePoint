@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
@@ -74,6 +74,7 @@ The following table lists the required endpoints for using the SharePoint Migrat
 |https:<span><span>//graph.<span><span>microsoft.<span><span>com| Access Microsoft Graph API to get tenant information and site information for public cloud and GCC|
 |https:<span><span>//graph.<span><span>microsoft.<span><span>us |Access Microsoft Graph API to get tenant information and site information for GCC high|
 |https:<span><span>//dod-graph.<span><span>microsoft.<span><span>us |Access Microsoft Graph API to get tenant information and site information for DoD|
+|https://<spam><spam>spmt.<spam><spam>sharepointonline.<spam><spam>com|SPMT Installation link.
 
 
 

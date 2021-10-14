@@ -8,9 +8,9 @@ ms.date: 04/06/2018
 audience: ITPro
 f1.keywords:
 - CSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -34,17 +34,17 @@ You must complete this phase before moving on to [SharePoint Intranet Farm in Az
 
 First, you need to fill out the **Virtual machine name** column of Table M and modify virtual machine sizes as needed in the **Minimum size** column. 
   
-|**Item**|**Virtual machine name**|**Gallery image**|**Minimum size**|**Storage type**|
+| Item | Virtual machine name | Gallery image | Minimum size | Storage type |
 |:-----|:-----|:-----|:-----|:-----|
-|1.  <br/> |![](../media/TableLine.png) (first domain controller, example DC1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_D2  <br/> |StandardLRS  <br/> |
-|2.  <br/> |![](../media/TableLine.png) (second domain controller, example DC2)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_D2  <br/> |StandardLRS  <br/> |
-|3.  <br/> |![](../media/TableLine.png) (first SQL Server computer, example SQL1)  <br/> |Microsoft SQL Server 2016 Enterprise - Windows Server 2016  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
-|4.  <br/> |![](../media/TableLine.png) (second SQL Server computer, example SQL2)  <br/> |Microsoft SQL Server 2016 Enterprise - Windows Server 2016  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
-|5.  <br/> |![](../media/TableLine.png) (majority node witness for the cluster, example MN1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_D2  <br/> |StandardLRS  <br/> |
-|6.  <br/> |![](../media/TableLine.png) (first SharePoint application and search server, example APP1)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
-|7.  <br/> |![](../media/TableLine.png) (second SharePoint application and search server, example APP2)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
-|8.  <br/> |![](../media/TableLine.png) (first SharePoint front end and distributed cache server, example WEB1)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
-|9.  <br/> |![](../media/TableLine.png) (second SharePoint front end and distributed cache server, example WEB2)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
+|1.  <br/> |![Image of a blank line, instance 1](../media/TableLine.png) (first domain controller, example DC1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_D2  <br/> |StandardLRS  <br/> |
+|2.  <br/> |![Image of a blank line, instance 2](../media/TableLine.png) (second domain controller, example DC2)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_D2  <br/> |StandardLRS  <br/> |
+|3.  <br/> |![Image of a blank line, instance 3](../media/TableLine.png) (first SQL Server computer, example SQL1)  <br/> |Microsoft SQL Server 2016 Enterprise - Windows Server 2016  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
+|4.  <br/> |![Image of a blank line, instance 4](../media/TableLine.png) (second SQL Server computer, example SQL2)  <br/> |Microsoft SQL Server 2016 Enterprise - Windows Server 2016  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
+|5.  <br/> |![Image of a blank line, instance 5](../media/TableLine.png) (majority node witness for the cluster, example MN1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_D2  <br/> |StandardLRS  <br/> |
+|6.  <br/> |![Image of a blank line, instance 6](../media/TableLine.png) (first SharePoint application and search server, example APP1)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
+|7.  <br/> |![Image of a blank line, instance 7](../media/TableLine.png) (second SharePoint application and search server, example APP2)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
+|8.  <br/> |![Image of a blank line, instance 8](../media/TableLine.png) (first SharePoint front end and distributed cache server, example WEB1)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
+|9.  <br/> |![Image of a blank line, instance 9](../media/TableLine.png) (second SharePoint front end and distributed cache server, example WEB2)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
    
  **Table M - Virtual machines for the SharePoint Server 2016 intranet farm in Azure**
   
@@ -71,7 +71,7 @@ Recall that you defined Tables R, V, S, I, and A in [SharePoint Intranet Farm in
   
 When you have supplied all the correct values, run the resulting block at the Azure PowerShell prompt or in the PowerShell Integrated Script Environment (ISE) on your local computer.
   
-```
+```powershell
 # Set up variables common to both virtual machines
 $locName="<Azure location of the SharePoint farm>"
 $vnetName="<Table V - Item 1 - Value column>"
@@ -118,7 +118,6 @@ $diskConfig=New-AzDiskConfig -AccountType $diskStorageType -Location $locName -C
 $dataDisk1=New-AzDisk -DiskName ($vmName + "-DataDisk1") -Disk $diskConfig -ResourceGroupName $rgName
 $vm=Add-AzVMDataDisk -VM $vm -Name ($vmName + "-DataDisk1") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
 New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
-
 ```
 
 > [!NOTE]
@@ -130,9 +129,8 @@ Use the remote desktop client of your choice and create a remote desktop connect
   
 Next, you need to add the extra data disk to the first domain controller with these commands from a Windows PowerShell command prompt:
   
-```
+```powershell
 Get-Disk | Where PartitionStyle -eq "RAW" | Initialize-Disk -PartitionStyle MBR -PassThru | New-Partition -AssignDriveLetter -UseMaximumSize | Format-Volume -FileSystem NTFS -NewFileSystemLabel "WSAD Data"
-
 ```
 
 Next, test the first domain controller's connectivity to locations on your organization network by using the **ping** command to ping names and IP addresses of resources on your organization network. 
@@ -141,12 +139,11 @@ This procedure ensures that DNS name resolution is working correctly (that the v
   
 Next, from the Windows PowerShell command prompt on the first domain controller, run the following commands:
   
-```
+```powershell
 $domname="<DNS domain name of the domain for which this computer will be a domain controller, such as corp.contoso.com>"
 $cred = Get-Credential -Message "Enter credentials of an account with permission to join a new domain controller to the domain"
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 Install-ADDSDomainController -InstallDns -DomainName $domname  -DatabasePath "F:\NTDS" -SysvolPath "F:\SYSVOL" -LogPath "F:\Logs" -Credential $cred
-
 ```
 
 You will be prompted to supply the credentials of a domain administrator account. The computer will restart.
@@ -157,25 +154,24 @@ Use the remote desktop client of your choice and create a remote desktop connect
   
 Next, you need to add the extra data disk to the second domain controller with these commands from a Windows PowerShell command prompt:
   
-```
+```powershell
 Get-Disk | Where PartitionStyle -eq "RAW" | Initialize-Disk -PartitionStyle MBR -PassThru | New-Partition -AssignDriveLetter -UseMaximumSize | Format-Volume -FileSystem NTFS -NewFileSystemLabel "WSAD Data"
 ```
 
 Next, run the following commands:
   
-```
+```powershell
 $domname="<DNS domain name of the domain for which this computer will be a domain controller, such as corp.contoso.com>"
 $cred = Get-Credential -Message "Enter credentials of an account with permission to join a new domain controller to the domain"
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 Install-ADDSDomainController -InstallDns -DomainName $domname  -DatabasePath "F:\NTDS" -SysvolPath "F:\SYSVOL" -LogPath "F:\Logs" -Credential $cred
-
 ```
 
 You will be prompted to supply the credentials of a domain administrator account. The computer will restart.
   
 Next, you need to update the DNS servers for your virtual network so that Azure assigns virtual machines the IP addresses of the two new domain controllers to use as their DNS servers.
   
-```
+```powershell
 $rgName="<Table R - Item 4 - Resource group name column>"
 $adrgName="<Table R - Item 1 - Resource group name column>"
 $locName="<your Azure location>"
@@ -200,12 +196,11 @@ Note that we restart the two domain controllers so that they are not configured 
   
 Next, we need to create an Active Directory replication site to ensure that servers in the Azure virtual network use the local domain controllers. Log on to the primary domain controller with a domain administrator account and run the following commands from an administrator-level Windows PowerShell prompt:
   
-```
+```powershell
 $vnet="<Table V - Item 1 - Value column>"
 $vnetSpace="<Table V - Item 5 - Value column>"
 New-ADReplicationSite -Name $vnet 
 New-ADReplicationSubnet -Name $vnetSpace -Site $vnet
-
 ```
 
 ## Configure SharePoint farm accounts and permissions
@@ -222,19 +217,19 @@ The SharePoint farm needs the following user accounts:
     
 Log on to any computer with a domain administrator account for the domain for which the domain controllers are members, open an administrator-level Windows PowerShell command prompt, and run these commands  *one at a time*  : 
   
-```
+```powershell
 New-ADUser -SamAccountName sp_farm -AccountPassword (read-host "Set user password" -assecurestring) -name "sp_farm" -enabled $true -PasswordNeverExpires $true -ChangePasswordAtLogon $false
 ```
 
-```
+```powershell
 New-ADUser -SamAccountName sp_farm_db -AccountPassword (read-host "Set user password" -assecurestring) -name "sp_farm_db" -enabled $true -PasswordNeverExpires $true -ChangePasswordAtLogon $false
 ```
 
-```
+```powershell
 New-ADUser -SamAccountName sp_install -AccountPassword (read-host "Set user password" -assecurestring) -name "sp_install" -enabled $true -PasswordNeverExpires $true -ChangePasswordAtLogon $false
 ```
 
-```
+```powershell
 New-ADUser -SamAccountName sqlservice -AccountPassword (read-host "Set user password" -assecurestring) -name "sqlservice" -enabled $true -PasswordNeverExpires $true -ChangePasswordAtLogon $false
 ```
 

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - SPMigration
@@ -32,6 +32,7 @@ This article describes how to resolve issues and errors you may experience when 
 - [Task stuck in "Queued" state](#task-stuck-in-queued-status)
 - [Task report cannot be downloaded](#task-report-cannot-be-downloaded)
 - [Migration errors](#migration-error)
+- [Google migration error reports contain HTML](#google-error-report-shows-html-code-in-report)
 - [Error codes](#error-codes)
 
 
@@ -138,6 +139,8 @@ If errors occurred during installation process:
 
 - Check the network health on the computer on which the agent is installed.
 - If the password of the logged-in Tenant Administrator account has changed, or any other similar, critical changes applied to the Tenant Admin account that would require re-sign in, all of the agents will be disconnected and reinstallation is required on all of them.
+- If the agent failed to auto-upgrade, the version is likely too old. Reinstall the agent.
+- Token expiration can also cause the agent to disconnect.  
 
 
 **Mitigation**
@@ -185,11 +188,11 @@ The Task report cannot be downloaded from the link on the task details panel.
 
 On the computer that completed the task, try to retrieve the reports.
 
-- In folder **%AppData%\Microsoft\SPMigration\Logs\Migration\MigrationTool\[tenant_site]**, sort the subfolders by their modified time. Find the subfolder whose modified time is the closest to the task's start time. If the task reports exist, they will be in the "Report" folder within this subfolder.
+- In folder **%AppData%\Microsoft\SPMigration\Logs\Migration\MigrationTool\[tenant_site]**, or **< Your-Customized-Working-Folder >\Migration\MigrationTool[tenant_site]**, sort the subfolders by their modified time. Find the subfolder whose modified time is the closest to the task's start time. If the task reports exist, they will be in the "Report" folder within this subfolder.
 
 Or 
 
-- If the task has failed, navigate to the folder **%AppData%\Microsoft\SPMigration\Logs\ErrorReports**, then sort the subfolders by their modified time. Find the subfolder whose modified time is the closest to the task's start time. The error report will be in this subfolder.
+- If the task has failed, navigate to the folder **%AppData%\Microsoft\SPMigration\Logs**, then sort the subfolders by their modified time. Find the subfolder whose modified time is the closest to the task's start time. The error report will be in this subfolder.
 
 
 ## Migration error
@@ -213,6 +216,31 @@ Check the settings on any AntiVirus application installed on the agent machine. 
 
 - microsoft.sharepoint.migration.clientservice.exe
 - microsoft.sharepoint.migration.mthost.exe
+
+
+## Google error report shows HTML code in report
+
+
+**Issue**
+Error reports generated for a Google migration will sometimes have HTML code embedded in the report.
+
+</br>
+
+   ![Google error report includes HTML code ](media/mm-troubleshoot-google-error-report-html.png)
+
+</br>
+
+**Details**
+The Google APIs are returning HTML errors that are being included in the generated reports. This may happen when there is a Google server load error. 
+
+**Mitigation**
+Run less concurrent transations.
+
+**Status**
+This is a known issue. ETA not set.
+
+
+
 
  ## Error codes 
 |**Error Code**|**Recommended action**|
@@ -268,3 +296,4 @@ Check the settings on any AntiVirus application installed on the agent machine. 
 |0x01710006|Errors or timeout for server processing the file: Job Fatal Error.|
 |0x01710004|Errors or timeout for server processing the file. Fail to look up folder name. The item may exist in other list or site in the same site collection. Or the item is in the recycle bin.|
 |0x0131000F|Failed to Read the file. File is checked out.|
+

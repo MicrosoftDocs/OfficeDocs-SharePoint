@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_SharePoint_Hybrid_Top
@@ -165,7 +165,7 @@ On the application server that hosts the SharePoint ServerCentral Administration
   
 1. Ensure that the date and time of the server is synchronized with the other servers in the SharePoint Server farm.
     
-2. Download and install the [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkID=286152) from the Microsoft Download Center. 
+2. Download and install the [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://download.microsoft.com/download/7/1/E/71EF1D05-A42C-4A1F-8162-96494B5E615C/msoidcli_64bit.msi) from the Microsoft Download Center. 
     
 3. Download and install the latest version of the [Azure Active Directory Module for Windows PowerShell](https://www.powershellgallery.com/packages/MSOnline/1.1.183.8) from the PowerShell Gallery. 
     

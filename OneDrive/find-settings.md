@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: one-drive
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
@@ -39,6 +39,12 @@ Go to the [Settings page in the new SharePoint admin center](https://admin.micro
 | OneDrive admin center | SharePoint admin center |
 |:-----|:-----|
 |![Sync page in the OneDrive admin center](media/sync-page.png)|![Sync settings in the SharePoint admin center](media/sp-sync-settings.png) |
+
+To change the setting "Block sync on Mac OS," you can use the following PowerShell command. [Learn more about this command](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
+
+```PowerShell
+Set-SPOTenantSyncClientRestriction -BlockMacSync:$true
+```
 
 ## Storage page
 
@@ -101,7 +107,7 @@ For info about the "E-mail OneDrive owners when" settings, refer to the followin
 
 ## Data migration
 
-This page redirects to the [Migration page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migration&modern=true).
+This page redirects to the [Migration page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migration&modern=true). [Learn about migrating content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online).
 
 ## Geo locations
 

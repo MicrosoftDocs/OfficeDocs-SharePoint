@@ -1,6 +1,5 @@
 ---
 title: "Mover Account FAQ"
-recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -11,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - SPMigration

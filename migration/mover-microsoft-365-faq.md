@@ -7,7 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
@@ -24,7 +24,7 @@ Mover only migrates data from:
 or
 - Data located in a **shared drive**, including Dropbox Team's Folder, SharePoint Document Library, Google Shared Drive, etc.
 
-Mover **does not** migrate e-mails, mailboxes, contacts, calendars, site layouts/collections, etc.
+Mover **does not** migrate e-mails, mailboxes, contacts, calendars, site layouts/collections/pages/lists, etc.
 
 
 
@@ -74,8 +74,7 @@ To save time and headaches, before you migrate, you are encouraged to shorten an
 
 |Source Connector|Creation date|Created by user|File modified date|Last modified by (user)|Folder permissions|Notes|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Agent|No|No|*Read clarification note below|No|Yes||
-|Amazon S3|Buckets: Yes</br>Folders: No</br>Files: Same as Modified date|No|*Read clarification note below|Yes|No|No||
+|Amazon S3|Buckets: Yes</br>Folders: No</br>Files: Same as Modified date|No|*Read clarification note below|Yes|No|No|
 |Azure Blob Storage|No|No|*Read clarification note below|No|No||
 |Box (co-admin)|Yes|Yes|*Read clarification note below|Yes|Yes|Box Notes are converted to Word documents.|
 |Box (single user)|Yes|Yes|*Read clarification note below|Yes|Yes|Box Notes are converted to Word documents.|
@@ -169,3 +168,17 @@ Many sites claim that SharePoint has a 5,000-item limit. This is not true. The S
 SharePoint sites do have file size and number limits, which are covered in detail here: [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
 
 Some list view options may prevent search list views with more than 5,000 items from appearing.
+
+## How are permissions handled?
+
+Permissions are handled in different ways depending on the source/destination connectors used.
+ 
+- When migrating data from a Single User Connector, permissions will not be applied to any migrated data.
+- When migrating from a non-Microsoft Administrative connector (such as G Suite or Dropbox), apply permissions at the folder level with the child folders inheriting those permissions. 
+- When migrating from one Office 365 tenant to another Office 365 tenant using Office 365 (OneDrive/SharePoint Admin), apply permissions at the file level.
+ 
+## How many user Transfer Rows can I run at once?
+ 
+- Only twelve user Transfer Rows that can run concurrently.
+- If you select more than twelve rows and start migrating, only twelve rows chosen at random will run while the rest will be in the "Queued Transfer Rows".
+- As a transfer row completes, another from the queue will start migrating automatically.

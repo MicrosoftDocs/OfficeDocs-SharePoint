@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: one-drive
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
@@ -74,6 +74,8 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 
 - (AutoMountTeamSites) [Configure team site libraries to sync automatically](use-group-policy.md#configure-team-site-libraries-to-sync-automatically)
 
+- (BlockExternalListSync) This setting controls Lists sync and is listed here for convenience. For more info, see [Prevent users from syncing lists shared from other organizations](/sharepoint/lists-sync-policies#prevent-users-from-syncing-lists-shared-from-other-organizations).
+
 - (BlockExternalSync) [Prevent users from syncing libraries and folders shared from other organizations](use-group-policy.md#prevent-users-from-syncing-libraries-and-folders-shared-from-other-organizations)
 
 - (BlockKnownFolderMove) [Prevent users from moving their Windows known folders to OneDrive](use-group-policy.md#prevent-users-from-moving-their-windows-known-folders-to-onedrive)
@@ -89,6 +91,10 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 - (DisableFirstDeleteDialog) [Hide the "Deleted files are removed everywhere" reminder](use-group-policy.md#hide-the-deleted-files-are-removed-everywhere-reminder)
 
 - (DisableFRETutorial) [Disable the tutorial that appears at the end of OneDrive Setup](use-group-policy.md#disable-the-tutorial-that-appears-at-the-end-of-onedrive-setup)
+
+- (DisableNucleusSilentConfig) This setting controls Lists sync and is listed here for convenience. For more info, see [Prevent users from getting silently signed in to Lists sync with their Windows credentials](/sharepoint/lists-sync-policies#prevent-users-from-getting-silently-signed-in-to-lists-sync-with-their-windows-credentials).
+
+- (DisableNucleusSync) This setting controls Lists sync and is listed here for convenience. For more info, see [Prevent Lists sync from running on the device](/sharepoint/lists-sync-policies#prevent-lists-sync-from-running-on-the-device).
 
 - (DisablePauseOnBatterySaver) [Continue syncing when devices have battery saver mode turned on](use-group-policy.md#continue-syncing-when-devices-have-battery-saver-mode-turned-on)
 
@@ -183,7 +189,7 @@ Users are prompted with options to help free up space.
   
 Enabling this policy sets the following registry key value to a number from 0 through 10240000:
 
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]" MinDiskSpaceLimitInMB`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "MinDiskSpaceLimitInMB"="dword:00000000"`
 
 
 ### Block syncing OneDrive accounts for specific organizations
@@ -482,6 +488,20 @@ where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md
   
 Setting this value to 1 shows a notification after successful redirection.
 
+If you don't set any of the following policies then the default policy will move all the folders (Desktop, Documents and Pictures) into OneDrive.  If you want to specify which folder(s) to move then you can set any combination of the following policies:
+
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInDesktop"`
+  
+Setting this value to 1 will move the Desktop folder.
+
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInDocuments"`
+  
+Setting this value to 1 will move the Documents folder.
+
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInPictures"`
+  
+Setting this value to 1 will move the Pictures folder.
+
 For more info, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md).
   
 ### Silently sign in users to the OneDrive sync app with their Windows credentials
@@ -535,7 +555,7 @@ This setting lets you specify a minimum amount of available disk space, and warn
   
 Enabling this policy sets the following registry key value to a number from 0 through 10240000:
 
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]" WarningMinDiskSpaceLimitInMB"`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "WarningMinDiskSpaceLimitInMB"="dword:00000000"`
 
 
 ## User Configuration policies
@@ -771,3 +791,5 @@ If you disable this setting, the local  *OneDrive - {organization name}*  folder
 [Block syncing of specific file types](block-file-types.md)
 
 [Deploy and configure the new OneDrive sync app for Mac](deploy-and-configure-on-macos.md)
+
+[Lists sync policies](/sharepoint/lists-sync-policies)

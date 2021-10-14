@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 68551945-009f-43c2-b38f-5248aaf6d540
 
 description: "Learn about the different mobile device browsers supported in SharePoint Server 2013."

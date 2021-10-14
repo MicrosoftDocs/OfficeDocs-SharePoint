@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
@@ -47,9 +47,12 @@ Make sure that you have:
 
 - **Access to the destination**: You must either be a global admin or OneDrive/SharePoint admin to the Microsoft 365 tenant where you want to migrate your content. 
 
-- **Access to the source**: Windows credentials that have read access to any of the network file shares you plan to migrate.
+- **Access to the source**: Windows credentials that have read access to any of the network file shares you plan to migrate. 
 
-- **Prerequisites installed:** Make sure your computer or VM has the necessary prerequisites installed:  See here for the [List of prerequisites](mm-setup-clients.md).
+- **SMB 2.0**:  The server hosting the data (your source) must support SMB 2.0 or higher 
+
+- **Prerequisites and endpoints:** Make sure your computer or VM has the necessary prerequisites installed and have the required endpoints open:  See here for the [List of prerequisites and required endpoints](mm-prerequisites.md).
+- **File size**:  File share migration supports migrating individual files of up to 100 GB.
 
 >[!Note]
 >When using Migration Manager to migrate content to non-English SharePoint sites, make sure the site title does not include non-English characters.

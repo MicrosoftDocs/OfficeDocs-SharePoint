@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: one-drive
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - ODB160
 - ODB150
@@ -38,7 +38,9 @@ As a global or SharePoint admin in Microsoft 365, you can set the OneDrive stora
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
     
     > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.
+    > If you have Office 365 Germany, sign in at https://portal.office.de.<br/>
+    > If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/.<br/>
+    > Then select the Admin tile to open the admin center.
     
 2. In the left pane, select **Users** \> **Active users**.
 
@@ -60,7 +62,7 @@ When a user has filled their 5 TB of OneDrive storage to at least 90% capacity, 
 
 For any user that reaches at least 90% capacity of their 25 TB of OneDrive storage, additional cloud storage will be provided as 25 TB SharePoint team sites to individual users. 
 
-Admins can [open a case with Microsoft technical support](/microsoft-365/admin/contact-support-for-business-products) to request storage beyond 5 TB.
+Admins can check for OneDrive eligibility beyond 5 TB via [Check OneDrive site eligibility for increased storage](/sharepoint/troubleshoot/storage/check-storage-increase-eligibility). 
     
     
 ## Change a user's storage space by using PowerShell
@@ -69,8 +71,6 @@ Admins can [open a case with Microsoft technical support](/microsoft-365/admin/c
 
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
-	> 
-	> On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
 
 2. Save the following script as a PowerShell file. For example, you could save it to a file named UpdateOneDriveStorage.ps1.
     
