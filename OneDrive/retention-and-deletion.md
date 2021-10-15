@@ -58,7 +58,7 @@ By default, when a user is deleted, the user's manager is automatically given ac
 
 2. The account deletion is synchronized to SharePoint.
 
-3. The OneDrive Clean Up Job runs, and the OneDrive is marked for deletion. The deleted user will appear in the Microsoft 365 admin center for 30 days. The default retention period for OneDrive is also 30 days, but you can change this in the OneDrive admin center (see [Set the OneDrive retention for deleted users](set-retention.md)) or by using the PowerShell cmdlet `SetSPOTenant -OrphanedPersonalSitesRetentionPeriod <int32>`. For more information about using this cmdlet, see [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant).
+3. The OneDrive Clean Up Job runs, and the OneDrive is marked for deletion. The deleted user will appear in the Microsoft 365 admin center for 30 days. The default retention period for OneDrive is also 30 days, but you can change this in the SharePoint admin center (see [Set the OneDrive retention for deleted users](set-retention.md)) or by using the PowerShell cmdlet `SetSPOTenant -OrphanedPersonalSitesRetentionPeriod <int32>`. For more information about using this cmdlet, see [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant).
 
 4. If a manager is specified for the deleted user, the manager will receive an email telling them they have access to the OneDrive, and that the OneDrive will be deleted at the end of the retention period. For info about specifying a user's manager in the Azure Active Directory admin center, see [Add or update a user's profile information](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal).
 
