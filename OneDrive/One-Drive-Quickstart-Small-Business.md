@@ -133,7 +133,7 @@ To learn how to perform tasks in OneDrive on an Android device, see [Use OneDriv
 
 ## Manage OneDrive
 
-Many small businesses use OneDrive without changing any of the options. To change these settings, use the SHarePoint admin center.
+Many small businesses use OneDrive without changing any of the options. To change these settings, use the SharePoint admin center.
 
 - **Sharing.** Go to the [Sharing page](https://admin.microsoft.com/sharepoint?page=sharing&modern=true) to set sharing settings at the organization level. To learn more, see [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off).
 
