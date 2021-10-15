@@ -161,6 +161,7 @@
 ## [Search]()
 ### [Search](get-started-with-modern-search-experience.md)
 ### [Overview](overview-of-search.md)
+### [View search usage reports](view-search-usage-reports-modern-sites.md)
 ### [Manage search: the admin center](manage-search-the-admin-center.md)
 ### [Make sure content can be found]()
 #### [Overview](make-sure-content-can-be-found.md)

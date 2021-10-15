@@ -2,6 +2,64 @@
 
 
 
+## Week of October 04, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/4/2021 | [Mark new files as sensitive by default](/SharePoint/sensitive-by-default) | modified |
+| 10/4/2021 | [Use information barriers with SharePoint](/SharePoint/information-barriers) | modified |
+| 10/5/2021 | [Lists sync policies](/SharePoint/lists-sync-policies) | modified |
+| 10/5/2021 | [Control access from unmanaged devices](/SharePoint/control-access-from-unmanaged-devices) | modified |
+| 10/5/2021 | [How to set up the Viva Connections mobile experience in a specific language (Preview)](/SharePoint/viva-connections-language) | modified |
+| 10/6/2021 | [Create the Viva Connections Dashboard (Preview)](/SharePoint/create-dashboard) | modified |
+| 10/6/2021 | [External sharing overview](/SharePoint/external-sharing-overview) | modified |
+| 10/6/2021 | [Lists sync policies](/SharePoint/lists-sync-policies) | modified |
+| 10/6/2021 | [Configure an environment for apps for SharePoint Server](/SharePoint/administration/configure-an-environment-for-apps-for-sharepoint) | modified |
+| 10/6/2021 | [Configure profile synchronization by using SharePoint Active Directory Import in SharePoint Server](/SharePoint/administration/configure-profile-synchronization-by-using-sharepoint-active-directory-import) | modified |
+| 10/6/2021 | [Storage and SQL Server capacity planning and configuration (SharePoint Server)](/SharePoint/administration/storage-and-sql-server-capacity-planning-and-configuration) | modified |
+| 10/6/2021 | [View and configure usage analytics reports in SharePoint Server](/SharePoint/administration/view-and-configure-usage-analytics-reports) | modified |
+| 10/6/2021 | [View usage reports in SharePoint Server](/SharePoint/administration/view-usage-reports) | modified |
+| 10/6/2021 | [Overview of co-authoring in SharePoint Server](/SharePoint/governance/co-authoring-overview) | modified |
+| 10/6/2021 | [Document management in SharePoint Server](/SharePoint/governance/document-management-in-sharepoint-server) | modified |
+| 10/6/2021 | [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server) | modified |
+| 10/6/2021 | [Searching and using keywords in the eDiscovery Center](/SharePoint/governance/searching-and-using-keywords-in-the-ediscovery-center) | modified |
+| 10/6/2021 | [Account permissions and security settings in SharePoint Servers](/SharePoint/install/account-permissions-and-security-settings-in-sharepoint-server-2016) | modified |
+| 10/6/2021 | [Overview of My Sites in SharePoint Server](/SharePoint/install/my-sites-overview) | modified |
+| 10/6/2021 | [Software boundaries and limits for SharePoint Servers 2016 and 2019](/SharePoint/install/software-boundaries-and-limits-0) | modified |
+| 10/6/2021 | [Software boundaries and limits for SharePoint 2013](/SharePoint/install/software-boundaries-and-limits) | modified |
+| 10/6/2021 | [User Profile service overview](/SharePoint/install/user-profile-service-overview) | modified |
+| 10/6/2021 | [Best practices for crawling in SharePoint Server](/SharePoint/search/best-practices-for-crawling) | modified |
+| 10/6/2021 | [Create and configure a Search service application in SharePoint Server](/SharePoint/search/create-and-configure-a-search-service-application) | modified |
+| 10/6/2021 | [Authentication overview for SharePoint Server](/SharePoint/security-for-sharepoint-server/authentication-overview) | modified |
+| 10/6/2021 | [Enable TLS and SSL support in SharePoint 2013](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013) | modified |
+| 10/6/2021 | [Plan for administrative and service accounts in SharePoint Server](/SharePoint/security-for-sharepoint-server/plan-for-administrative-and-service-accounts) | modified |
+| 10/6/2021 | [Plan for user authentication methods in SharePoint Server](/SharePoint/security-for-sharepoint-server/plan-user-authentication) | modified |
+| 10/6/2021 | [Security for SharePoint Server](/SharePoint/security-for-sharepoint-server/security-for-sharepoint-server) | modified |
+| 10/6/2021 | [Change site collection administrators in SharePoint Server](/SharePoint/sites/change-site-collection-administrators) | modified |
+| 10/6/2021 | [Determine permission levels and groups in SharePoint Server](/SharePoint/sites/determine-permission-levels-and-groups-in-sharepoint-server) | modified |
+| 10/6/2021 | [Manage the lock status for site collections in SharePoint Server](/SharePoint/sites/manage-the-lock-status-for-site-collections) | modified |
+| 10/6/2021 | [Overview of security groups in SharePoint Server](/SharePoint/sites/overview-of-security-groups-in-sharepoint-server) | modified |
+| 10/6/2021 | [Set up OneDrive in a SharePoint Server on-premises environment](/SharePoint/sites/set-up-onedrive-for-business) | modified |
+| 10/6/2021 | [Overview of sites and site collections in SharePoint Server](/SharePoint/sites/sites-and-site-collections-overview) | modified |
+| 10/6/2021 | [Sites](/SharePoint/sites/sites) | modified |
+| 10/6/2021 | [User permissions and permission levels in SharePoint Server](/SharePoint/sites/user-permissions-and-permission-levels) | modified |
+| 10/6/2021 | [View all site collections in SharePoint Server](/SharePoint/sites/view-all-site-collections) | modified |
+| 10/6/2021 | [Overview of crawled and managed properties in SharePoint Server](/SharePoint/technical-reference/crawled-and-managed-properties-overview) | modified |
+| 10/6/2021 | [Technical diagrams for SharePoint Server](/SharePoint/technical-reference/technical-diagrams) | modified |
+| 10/7/2021 | [Use information barriers with SharePoint](/SharePoint/information-barriers) | modified |
+| 10/7/2021 | [Manage access to Azure AD-secured APIs - SharePoint](/SharePoint/api-access) | modified |
+| 10/7/2021 | [Azure AD B2B integration for SharePoint & OneDrive](/SharePoint/sharepoint-azureb2b-integration) | modified |
+| 10/7/2021 | [Add and configure the Recommended Items and Popular Items Web Part in SharePoint Server](/SharePoint/administration/add-and-configure-the-recommended-items-and-popular-items-web-part) | modified |
+| 10/7/2021 | [An introduction to recommendations and popular items in SharePoint Server](/SharePoint/administration/an-introduction-to-recommendations-and-popular-items) | modified |
+| 10/7/2021 | [Change the Content Search Web Part display template and use Windows PowerShell to start Usage analytics in SharePoint Server](/SharePoint/administration/change-the-content-search-web-part-display-template-and-use-windows-powershell-t) | modified |
+| 10/7/2021 | [Use recommendations and popular items on websites with anonymous users in SharePoint Server](/SharePoint/administration/use-recommendations-and-popular-items-on-websites-with-anonymous-users) | modified |
+| 10/7/2021 | [View and configure usage analytics reports in SharePoint Server](/SharePoint/administration/view-and-configure-usage-analytics-reports) | modified |
+| 10/7/2021 | [Determine permission levels and groups in SharePoint Server](/SharePoint/sites/determine-permission-levels-and-groups-in-sharepoint-server) | modified |
+| 10/8/2021 | [Manage site creation in SharePoint](/SharePoint/manage-site-creation) | modified |
+| 10/8/2021 | [Overview: Viva Connections (Preview)](/SharePoint/viva-connections-overview) | modified |
+
+
 ## Week of September 27, 2021
 
 
