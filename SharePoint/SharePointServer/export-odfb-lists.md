@@ -18,7 +18,7 @@ description: "Learn about exporting OneDrive experience settings."
 
 A user's Microsoft OneDrive experience stores information to help the user find and navigate to content of interest to them. Most of this information can be accessed by end users using the corresponding in-product features listed in the following table:
 
-|Experience|Data stored|End user access|
+|Experience|Data stored|User access|
 |:----|:----|:----|
 |Shared items|A list of documents shared with the user by others. It also presents a view of the documents the user has shared with others, which is a view of the permissions the user has set on the items in their OneDrive account.|From a user's OneDrive, select **Shared**.|
 |Mobile Push Notifications|Push notifications to users' OneDrive and SharePoint mobile apps, if configured. This includes relevant activity such as new files shared with them. <br>Admins can manage these on the Settings page of the new SharePoint admin center.|

@@ -54,7 +54,7 @@ You can also create a card by [tracking a view](manage-sites-in-new-admin-center
 
 ## April 2021
 
-- **New "How can we help?" experience**. To search help, open a new service request, or manage existing service requests, select **Need help?** in the lower-right corner.
+- **New "How can we help?" experience**. To search help, open a new support request, or manage existing support requests, select **Need help?** in the lower-right corner.
 
 ## March 2021
 
