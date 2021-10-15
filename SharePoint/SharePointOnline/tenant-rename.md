@@ -99,7 +99,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 |App/feature  |Limitation  |Action required  |
 |---------|---------|---------|
 | Deleted sites | Any sites that have been deleted can't be restored after the change. | Before changing your domain name, review the Deleted sites page in the SharePoint admin center and restore any sites that you might want to keep. |
-| Locked sites and OneDrives | Any sites or OneDrives that have been locked as NoAccess can't be renamed. | Before changing your domain name, review any sites and OneDrives that have been locked as No Access to determine if the lock should be removed. |
+| Locked sites and OneDrive accounts | Any site or OneDrive that has been locked (the LockState is NoAccess) can't be renamed. | Before changing your domain name, review any sites and OneDrive accounts that have been locked to determine if the lock should be removed. [Lock and unlock sites](manage-lock-status.md)|
 | Multi-Geo configurations | Your SharePoint domain name can't be changed if your organization is currently set up for Microsoft 365 Multi-Geo or was previously set up for it.  | No action available. |
 | Point-in-time restoration | Restoring a site to a previous time before the domain name change isn't possible. | No action available.|
 | Vanity domain configurations | If your SharePoint domain is, for example, teams.contoso.com (versus contoso.sharepoint.com), your domain name can't be changed. | No action available. |
