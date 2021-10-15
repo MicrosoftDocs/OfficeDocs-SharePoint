@@ -16,6 +16,7 @@ search.appverid:
 - MET150
 ms.collection:  
 - M365-collaboration
+- m365initiative-spsitemanagement
 description: "Specify a library as a location for assets that are centrally stored and managed in your organization."
 ---
 
