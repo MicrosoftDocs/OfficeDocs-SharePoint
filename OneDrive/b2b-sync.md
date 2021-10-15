@@ -83,11 +83,10 @@ Here's an example of what happens after someone at "Contoso" shares a site or fo
 
 In order for users at your organization to be able to share with their partners at other organizations, external sharing must be enabled at the organization level. To do this, you must be a global or SharePoint admin in Microsoft 365. After you enable external sharing at the organization level, you can restrict it site by site. A site's settings can be the same as the organization setting, or more restrictive, but not more permissive.
 
-You can change your organization-level sharing settings in three different places (all three control the same thing):
+You can change your organization-level sharing settings in two different places (both control the same thing):
 
 - On the Sharing page in the new SharePoint admin center. For more info, see [Change the organization-level external sharing setting](/sharepoint/turn-external-sharing-on-or-off#change-the-organization-level-external-sharing-setting)
-- In the Microsoft 365 admin center, under Settings \> Services &amp; add-ins \> Sites. 
-- On the Sharing page in the OneDrive admin center
+- In the Microsoft 365 admin center, on the Org settings page > SharePoint. 
 
 > [!IMPORTANT]
 > If you allow Anyone links (sometimes referred to as "anonymous access" or "shareable"), these links do not create guest accounts and therefore the external share recipient will not be able to leverage B2B Sync when receiving that link type.

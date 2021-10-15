@@ -67,7 +67,7 @@ You can also create a card by [tracking a view](manage-sites-in-new-admin-center
 
 ## April 2020
 
-- **Support for the Global reader role**. Users assigned this role can view all info in the admin center, but can't save any changes. [Learn more about this role](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader). The following features aren't available for people who are signed in as global readers: Content type gallery page, Migration page, API access page, link to OneDrive admin center, customizing the navigation in the left pane.
+- **Support for the Global reader role**. Users assigned this role can view all info in the admin center, but can't save any changes. [Learn more about this role](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader). The following features aren't available for people who are signed in as global readers: Content type gallery page, Migration page, API access page, customizing the navigation in the left pane.
 
 ## December 2019
 
