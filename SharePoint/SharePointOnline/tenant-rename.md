@@ -42,7 +42,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 > - For info about changing a site address, for example, from `https://contoso.sharepoint.com/sites/sample1` to  `https://contoso.sharepoint.com/sites/sample2`, see [Change a site address](change-site-address.md).  
 > - When you rename your SharePoint domain, we create a redirect at the previous address.
 > - You can only rename your SharePoint domain once every six months.
-> - Renaming your SharePoint domain back to the original name after changing your SharePoint domain is not supported. For example, if you change your SharePoint domain from`contoso.sharepoint.com` to `fabrikam.sharepoint.com`, it is not supported to change your your SharePoint domain from `fabrikam.sharepoint.com` back to `contoso.sharepoint.com`.
+> - Renaming your SharePoint domain back to the original name after changing your SharePoint domain is not supported. For example, if you change your SharePoint domain from `contoso.sharepoint.com` to `fabrikam.sharepoint.com`, it is not supported to change your your SharePoint domain from `fabrikam.sharepoint.com` back to `contoso.sharepoint.com`.
 
 ## Limitations
 
