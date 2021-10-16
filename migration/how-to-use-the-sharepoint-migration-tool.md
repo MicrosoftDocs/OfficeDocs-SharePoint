@@ -42,7 +42,7 @@ Before you begin using SPMT, review the required permissions, prequisites, and e
 |What|Description|
 |:-----|:-----|
 |Permissions required| **Global or SharePoint Admin.** To migrate at the organization-level, you must sign in as a Global or SharePoint admin in Microsoft 365.</br>**Site Admin**. To migrate at the site collection level, you must be a site admin for that site collection.  Learn more: [Understanding permissions when using the SharePoint Migration Tool](understanding-permissions-when-migrating.md)</br>|
-|Prerequisites and Endpoints| Review the [SPMT system prerequisites and endoints](spmt-prerequisites.md)|
+|Prerequisites and Endpoints| Review the [SPMT system prerequisites and endpoints](spmt-prerequisites.md)|
 |SPMT Settings|Review [SPMT settings](spmt-settings.md) to understand how settings can impact your migration|
 
 ##### Understanding Custom scripts 
