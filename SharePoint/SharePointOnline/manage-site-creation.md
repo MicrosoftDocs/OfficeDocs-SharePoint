@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- m365initiative-spsitemanagement
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
@@ -56,7 +57,7 @@ As a global or SharePoint admin in Microsoft 365, you can let your users create 
 
 
 ## Manage detailed site and subsite creation settings in the classic SharePoint admin center
-Admins in the SharePoint admin center can choose to either enable or disable subsite creation across sites or enable for classic sites only. When disabling subsite creation, not only will the subsite option be hidden from the command bar including classic but also users will not be able to create new subsites directly through an URL or API.  
+Admins in the SharePoint admin center can choose to either enable or disable subsite creation across sites or enable for classic sites only. When disabling subsite creation, not only will the subsite option be hidden from the command bar including classic but also users will not be able to create new subsites directly through a URL or API.  
 
 > [!NOTE]
 > For info about classifying Microsoft 365 groups, see [Manage Microsoft 365 Groups with PowerShell](/office365/enterprise/manage-office-365-groups-with-powershell).
