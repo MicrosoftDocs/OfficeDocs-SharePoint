@@ -461,6 +461,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "sharepoint/sharepointonline/tenant-rename.md",
+      "redirect_url": "/sharepoint/change-your-sharepoint-domain-name",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "SharePoint/SharePointOnline/intranet-overview.md",
       "redirect_url": "SharePoint/SharePointOnline/intranet-team-overview.md",
       "redirect_document_id": false
