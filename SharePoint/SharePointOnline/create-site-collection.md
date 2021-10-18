@@ -55,7 +55,7 @@ For info about creating site collections in SharePoint Server, see [Create a sit
 
 3. Select **Team site** (to create a Microsoft 365 group-connected team site), **Communication site**, or **Other options** to create a new team site without a Microsoft 365 group.
 
-    ![The Create a site panel](media/c4c5173f-ca83-426f-a940-cb2869a3a64b.png)
+    ![The Create a site panel](media/new-site-creation-admin.png)
 
 4. Follow the steps to specify a site name, owner, language, and other settings. When you're done, select **Finish**.
  
@@ -74,8 +74,7 @@ We recommend using the new site templates for all your new sites. However, if yo
   
 2. At the bottom of the panel, select **Other options**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Other options in the Create a site panel](https://user-images.githubusercontent.com/7239963/112038959-d6da3500-8b19-11eb-8315-7f780ac46649.png)
+    ![Image of the site creation panel with admin controls highlighted.](media/new-site-admin-bottom.png)
 
 3. Under **Choose a template**, select **More templates**. 
 
