@@ -32,7 +32,7 @@ This article covers all the features on the classic site collections page and wh
 > [!IMPORTANT]
 > The classic site collections page has been removed. This article shows the features that were present on the classic site collections page and where to find them in the new SharePoint admin center.
 
-## Create a new private site collection
+## New (create a new private site collection)
 
 To create a site collection in the new SharePoint admin center, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and then select **Create**. To create a classic site, select **Other options**.
 
@@ -100,7 +100,7 @@ To change the owners for any site that isn't connected to a Microsoft 365 group,
 |Site Collection Administrators <br/> |Use the Add an admin box to add an admin and the Remove button to remove an admin. <br/> |
 |Add Support Partner <br/> |This option is available in PowerShell only. Go to the Site Permissions page for a site where you’ve added the support partner. Copy the encoded string for the partner, and to add it to other sites, use the [PowerShell cmdlet Set-SPOUser](/powershell/module/sharepoint-online/set-spouser?view=sharepoint-ps&preserve-view=true). <br/> |
 
-## Site collection-level sharing
+## Sharing
 
 To change sharing settings for a site, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and select **Sharing** on the command bar.
 
