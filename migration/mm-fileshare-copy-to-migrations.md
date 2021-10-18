@@ -50,13 +50,14 @@ After a file share has been scanned and determined ready, add it to your migrati
 
 After a migration task has completed, you can rerun it at a later date, allowing you to copy only those new or updated files in the source location. 
 
-An incremental check of your SharePoint destination environment is performed. Files are evaluated as follows:
+An incremental check of your SharePoint destination environment is performed. Files are evaluated as follows (regardless of an initial or incremental migration):
   
 |**Status**|**Result**|
 |:-----|:-----|
 |Modified time of the source file is earlier than the modified time of the target file.  <br/> |File will not be migrated.  <br/> |
+|A file is removed from the source location.  <br/> |Already migrated files will remain in the target location.  <br/> |
 |Files or lists exist in the SharePoint target location.  <br/> |Migration will skip those existing objects during scan.  <br/> |
-|Time stamp on files or object in the source location is newer in the source <br/> |The newer files are migrated.  <br/> |
+|Time stamp on files or object in the source location is newer in the source. <br/> |The newer files are migrated.  <br/> |
 |Source is a file share.  <br/> |Validation for migration will be based on the file/folder path.  <br/> |
 |Source is an on-premises SharePoint Server/  <br/> |Validation for migration will be based on list item GUID. Use the folder path as a fallback.  <br/> |
 
