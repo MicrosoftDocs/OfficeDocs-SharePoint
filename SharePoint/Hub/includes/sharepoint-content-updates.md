@@ -2,6 +2,44 @@
 
 
 
+## Week of October 11, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/11/2021 | [Manage authoritative pages](/SharePoint/manage-authoritative-pages) | modified |
+| 10/11/2021 | [Manage query rules](/SharePoint/manage-query-rules) | modified |
+| 10/11/2021 | [Manage result sources](/SharePoint/manage-result-sources) | modified |
+| 10/11/2021 | [Manage search dictionaries](/SharePoint/manage-search-dictionaries) | modified |
+| 10/11/2021 | [Manage query client types](/SharePoint/query-throttling) | modified |
+| 10/11/2021 | [Change settings for the Search Box Web Part](/SharePoint/search-box-web-part) | modified |
+| 10/11/2021 | [Changing the ranking of classic search results in SharePoint Server](/SharePoint/search/changing-the-ranking-of-search-results) | modified |
+| 10/11/2021 | What's deprecated or removed from SharePoint Server Subscription Edition | removed |
+| 10/11/2021 | [View search usage reports in modern sites](/SharePoint/view-search-usage-reports-modern-sites) | added |
+| 10/14/2021 | [Display hybrid federated search results in SharePoint](/SharePoint/hybrid/display-hybrid-federated-search-results-in-sharepoint-online) | modified |
+| 10/14/2021 | [Plan hybrid federated search for SharePoint Server](/SharePoint/hybrid/plan-hybrid-federated-search) | modified |
+| 10/14/2021 | [Configure result sources for search in SharePoint Server](/SharePoint/search/configure-result-sources-for-search) | modified |
+| 10/14/2021 | [Understanding result sources for search in SharePoint Server](/SharePoint/search/understanding-result-sources-for-search) | modified |
+| 10/15/2021 | [Change a site address](/SharePoint/change-site-address) | modified |
+| 10/15/2021 | [Create a hub site in SharePoint](/SharePoint/create-hub-site) | modified |
+| 10/15/2021 | [Create a site](/SharePoint/create-site-collection) | modified |
+| 10/15/2021 | [Delete a site](/SharePoint/delete-site-collection) | modified |
+| 10/15/2021 | [Get started with the SharePoint admin center](/SharePoint/get-started-new-admin-center) | modified |
+| 10/15/2021 | [Manage site admins](/SharePoint/manage-site-collection-administrators) | modified |
+| 10/15/2021 | [Manage site storage limits](/SharePoint/manage-site-collection-storage-limits) | modified |
+| 10/15/2021 | [Manage site creation in SharePoint](/SharePoint/manage-site-creation) | modified |
+| 10/15/2021 | [Manage sites in the new SharePoint admin center](/SharePoint/manage-sites-in-new-admin-center) | modified |
+| 10/15/2021 | [Modernize your root site](/SharePoint/modern-root-site) | modified |
+| 10/15/2021 | [Create an organization assets library](/SharePoint/organization-assets-library) | modified |
+| 10/15/2021 | [Planning your SharePoint hub sites](/SharePoint/planning-hub-sites) | modified |
+| 10/15/2021 | [Restore deleted sites](/SharePoint/restore-deleted-site-collection) | modified |
+| 10/15/2021 | [About the SharePoint admin role in Microsoft 365](/SharePoint/sharepoint-admin-role) | modified |
+| 10/15/2021 | [Find site collection features in the new SharePoint admin center](/SharePoint/site-collections-page) | modified |
+| 10/15/2021 | [Manage sharing settings](/SharePoint/turn-external-sharing-on-or-off) | modified |
+| 10/15/2021 | [What's new in the SharePoint admin center](/SharePoint/what-s-new-in-admin-center) | modified |
+| 10/15/2021 | [Export OneDrive experience settings](/SharePoint/export-odfb-lists) | modified |
+
+
 ## Week of October 04, 2021
 
 
@@ -143,18 +181,3 @@
 | 9/16/2021 | [Set a site as your home site](/SharePoint/home-site) | modified |
 | 9/16/2021 | [Add the Viva Connections app in the Teams admin center (Preview)](/SharePoint/add-viva-connections-app) | added |
 | 9/17/2021 | [Overview: Viva Connections (Preview)](/SharePoint/viva-connections-overview) | modified |
-
-
-## Week of September 06, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/3/2021 | Intelligent intranet roadmap | removed |
-| 9/7/2021 | [Lock and unlock sites](/SharePoint/manage-lock-status) | modified |
-| 9/7/2021 | [Enable the communication site experience on classic team sites](/SharePoint/modernize-classic-team-site) | modified |
-| 9/8/2021 | [Designate a home site from the SharePoint admin center (Preview)](/SharePoint/home-site-admin-center) | added |
-| 9/8/2021 | [Embed Video news links in the Viva Connections feed (Preview)](/SharePoint/video-news-links) | added |
-| 9/8/2021 | [Overview: Viva Connections (Preview)](/SharePoint/viva-connections-overview) | added |
-| 9/8/2021 | [Add Viva Connections desktop to Microsoft Teams](/SharePoint/viva-connections) | modified |
-| 9/9/2021 | [Overview: Viva Connections (Preview)](/SharePoint/viva-connections-overview) | modified |
