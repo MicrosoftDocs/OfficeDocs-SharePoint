@@ -26,14 +26,17 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 576325ad-8c40-4fe8-8a63-68c3b7d536cf
-description: "Learn about changing your organization name in SharePoint and OneDrive URLs"
+description: "Learn about changing the domain name in your SharePoint and OneDrive URLs"
 ---
 
 # Change your SharePoint domain name (preview)
 
-When you first signed up for Microsoft 365, you created an onmicrosoft.com domain. Even if you later added a custom domain, this original onmicrosoft.com domain is used for all your SharePoint and OneDrive URLs. 
+When you first signed up for Microsoft 365, you created an onmicrosoft.com domain. Even if you later added a custom domain, the original onmicrosoft.com domain is used for all your SharePoint and OneDrive URLs. 
 
 If your organization has gone through a rebranding, merger, or acquisition and needs to change the domain in your SharePoint and OneDrive URLs, you can now do this using PowerShell. For example, if your organization name changed from Contoso to Fabrikam, you can now change your SharePoint URLs from `contoso.sharepoint.com` to `fabrikam.sharepoint.com`.
+
+>[!IMPORTANT]
+> This feature is in preview and currently available to organizations that have no more than 1000 total SharePoint sites and OneDrive accounts combined.
 
 > [!NOTE]
 > - This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses.
