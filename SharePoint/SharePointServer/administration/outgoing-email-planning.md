@@ -115,6 +115,31 @@ Set **Use TLS connection encryption** to Yes to require SharePoint to establish 
 > [!NOTE]
 > Although SharePoint can require TLS connection encryption when sending email to an SMTP server, it can't control whether connection encryption will be used when that SMTP server sends the email to other SMTP servers. Work with your email administrator to configure your SMTP servers to favor connection encryption.
 
+### Use client certificate authentication with an SMTP server
+
+Client certificate authentication over SMTP is an optional, advanced authentication configuration that allows the “client” (in this scenario, SharePoint) to authenticate to the SMTP server using an X.509 certificate that the client presents to the server. This authentication is either “instead of” or “in addition to” the username/password credentials. This configuration isn’t common, but it can be used in high security environments where standard username/password authentication isn’t considered sufficient.
+
+> [!NOTE]
+> You don’t have to use client certificate authentication to use TLS connection encryption to the SMTP server.
+
+Following are the requirements for SharePoint to use client certificate authentication with an SMTP server:
+
+1.	The SMTP server must be configured to support STARTTLS for TLS connection encryption.
+2.	The SMTP server must be configured to either accept or require client certificates when establishing TLS connections using STARTTLS.
+3.	SharePoint must be configured to use TLS connection encryption to the SMTP server.
+4.	SharePoint must be configured to use a client certificate when connecting to the SMTP server.
+5.	SharePoint process accounts that send emails (which may include the SharePoint farm service account and the web application service account) must have permission to read the private key of the X.509 certificate.
+6.	The X.509 certificate must meet the following requirements:
+    - The X.509 certificate must be in the “End Entity” certificate store in SharePoint.
+    - The X.509 certificate must use RSA or ECC (ECDSA) keys.  DSA keys are not supported.
+    - The X.509 certificate must have a private key.
+    - If the X.509 certificate has a Key Usage extension, the extension must contain the "Digital Signature" usage.
+    - If the X.509 certificate has an Extended Key Usage extension, the extension must contain the "Client Authentication" (OID: 1.3.6.1.5.5.7.3.2) usage.
+
+Example screenshot of how this is configured in Central Administration:
+
+:::image type="content" source="../media/outgoing-email-setting_1.png" alt-text="How use client certificate authentication with an SMTP server":::
+
 ### Email impersonation
 
 Some SharePoint features may impersonate end users when sending email to personalize the message. For example, when a user requests access to a site, SharePoint will set the "From" address of the email notification to be the user who made the request.
@@ -153,18 +178,19 @@ You can configure each SharePoint web application to disable email impersonation
 1.  Launch the **SharePoint 2019 Management Shell**.
 2. Run the following commands:
 
-```powershell
-$webapp = Get-SPWebApplication <web application URL>
-$webapp.OutboundMailOverrideEnvelopeSender = $true
-$webapp.Update()
-```
+    ```powershell
+    $webapp = Get-SPWebApplication <web application URL>
+    $webapp.OutboundMailOverrideEnvelopeSender = $true
+    $webapp.Update()
+    ```
+
 #### Use an externally secured receive connector <a name="connector"> </a>
 
 Microsoft Exchange Server receive connectors can be configured to automatically trust all emails as authenticated, even if no authentication is performed. SharePoint will then send emails to this receive connector anonymously. Follow these steps to create an externally secured receive connector:
 
 1.	Create a dedicated "Custom" receive connector for the SharePoint farm.
-2.	Set the receive connector's permission group to "Exchange Servers."
-3.	Set the receive connector's authentication type to "externally secured."
+2.	Set the receive connector's permission group to "Exchange Servers".
+3.	Set the receive connector's authentication type to "externally secured".
 
 Due to the risk of spoofing in this configuration, it's recommended to restrict the IP addresses this receive connector will accept email messages from to just the servers in your SharePoint farm.
 
@@ -174,4 +200,3 @@ Due to the risk of spoofing in this configuration, it's recommended to restrict 
 #### Concepts
 
 [Configure outgoing email for a SharePoint Server farm](outgoing-email-configuration.md)
-
