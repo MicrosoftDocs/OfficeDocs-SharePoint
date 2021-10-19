@@ -30,24 +30,24 @@ description: The SharePoint Migration Tool copies your files from SharePoint on-
 Download and install SPMT using one of the links listed below.  
 
 
-|**Public preview**|**First release**|**General Availability**|
+| Public preview | First release | General Availability |
 |:-----|:-----|:-----|
 |[Install here](https://spmt.sharepointonline.com/betainstall/default.htm) |[Install here](https://aka.ms/spmt-ga-page)|[Install here](https://aka.ms/spmt-ga-page)|
 
 
 #### Before you begin
 
-Before you begin using SPMT, review the required permissions, prequisites, and endpoints.
+Before you begin using SPMT, review the required permissions, prerequisites, and endpoints.
 
 |What|Description|
 |:-----|:-----|
-|Permissions required| **Global or SharePoint Admin.** To migrate at the organization-level, you must sign in as a Global or SharePoint admin in Microsoft 365.</br>**Site Admin**. To migrate at the site collection level, you must be a site admin for that site collection.  Learn more: [Understanding permissions when using the SharePoint Migration Tool](understanding-permissions-when-migrating.md)</br>|
+|Permissions required| **Global or SharePoint Admin.** To migrate at the organization-level, you must sign in as a Global or SharePoint admin in Microsoft 365.<br/>**Site Admin**. To migrate at the site collection level, you must be a site admin for that site collection.  Learn more: [Understanding permissions when using the SharePoint Migration Tool](understanding-permissions-when-migrating.md)<br/>|
 |Prerequisites and Endpoints| Review the [SPMT system prerequisites and endpoints](spmt-prerequisites.md)|
 |SPMT Settings|Review [SPMT settings](spmt-settings.md) to understand how settings can impact your migration|
 
 ##### Understanding Custom scripts 
 
-**Allow or prevent Custom Script (NoScript)**</br>
+**Allow or prevent Custom Script (NoScript)**<br/>
 
 In Microsoft 365, tenants can control if users can run custom script on personal sites and self-service created sites. 
 
@@ -64,7 +64,7 @@ At least 24 hours before you start migration, do the following:
 
 3. Under **Custom Script**, select:
 
-   **Allow users to run custom script on personal sites**</br>
+   **Allow users to run custom script on personal sites**<br/>
    **Allow users to run customer script on self-service created sites**
 
    Leave these settings in place for the duration of your migration.
@@ -81,7 +81,7 @@ At least 24 hours before you start migration, do the following:
     
 
 > [!NOTE]
-> Currently, the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. </br></br> It is also not available for users of Microsoft 365 with the German cloud with the data trustee, *German Telekom*. However, we do support it for users in Germany whose data location is not in the German datacenter.
+> Currently, the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. <br/><br/> It is also not available for users of Microsoft 365 with the German cloud with the data trustee, *German Telekom*. However, we do support it for users in Germany whose data location is not in the German datacenter.
 
    
 ## Related Topics
