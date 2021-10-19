@@ -16,9 +16,10 @@ ms.assetid: 354706a8-a7f0-4e83-b2b0-bfccd1753c2e
 description: "To learn how to configure incoming and outgoing email for a SharePoint Server, see these articles."
 ---
 
-[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 # Introducing SSL Certificate Management Operations
+
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 SSL certificate management is the process of monitoring and managing the life cycles—from acquisition and deployment to tracking renewal, usage, and expiration—of all SSL certificates deployed within a network.
  
