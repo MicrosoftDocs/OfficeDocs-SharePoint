@@ -51,7 +51,7 @@ After a migration task has completed, you can rerun it at a later date, allowing
 
 An incremental check of your SharePoint destination environment is performed. Files are evaluated as follows (regardless of an initial or incremental migration):
   
-|**Status**|**Result**|
+| Status | Result |
 |:-----|:-----|
 |Modified time of the source file is earlier than the modified time of the target file.  |File will not be migrated.  |
 |A file is removed from the source location.  |Already migrated files will remain in the target location.  |
