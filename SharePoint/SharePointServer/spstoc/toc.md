@@ -237,6 +237,7 @@
 #### [Configure the OneDrive modern user experience](../sites/configure-the-onedrive-for-business-modern-user-experience.md)
 ## [Storage](../storage/storage.md)
 ### [Remote Share Provider](../storage/remote-share-provider.md)
+### [Remote Share Provider Diagnostic Tool](../storage/remote-share-provider-diagnostic-tool.md)
 ## [Search](../search/search.md)
 ### [Search planning](../search/search-planning.md)
 #### [Search architecture overview](../search/search-architecture-overview.md)

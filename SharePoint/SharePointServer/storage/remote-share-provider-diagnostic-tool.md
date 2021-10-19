@@ -16,27 +16,23 @@ ms.assetid:
 description: "Learn how the new diagnostic tool helps to validate the data consistency of the content database."
 ---
 
-# New Remote Share Provider diagnostic tool
+# Remote Share Provider Diagnostic Tool
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
 We have a new PowerShell cmdlet help admin to validate the data consistency of content database, which is Remote Share Provider enabled. It makes it easier for admin to figure out what are the problems in the remote storage.
 
-```
 SYNTEX
+```powershell
+Test-SPRemoteShareBlobStore-ContentDatabase <SPContentDatabasePipeBind> [-LogPath <String>]
 
-Test-SPRemoteShareBlobStore 
+```
+The cmdlet parameters are:
 
--ContentDatabase <SPContentDatabasePipeBind>
-
-[-LogPath <String>]
-
-The comlet parameters are:
-
--ContentDatabase <SPContentDatabasePipeBind>
+**`-ContentDatabase <SPContentDatabasePipeBind>`**
 
 The content database need to be validated against
 
-[-LogPath <String>]
- ```
+**`[-LogPath <String>]`**
+
 The path of the validation log
