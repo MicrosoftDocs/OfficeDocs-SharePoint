@@ -58,7 +58,7 @@ This video shows how the settings on the Sharing page in the SharePoint admin ce
     > 
     > The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive.
     > 
-    > The SharePoint external sharing setting on this page is the same as the one in the Microsoft 365 admin center, under **Settings** \> **Services & add-ins** \> **Sites**. These settings are also the same as those in the OneDrive admin center. 
+    > The SharePoint external sharing setting on this page is the same as the one in the Microsoft 365 admin center, on the Org settings page \> SharePoint. 
 
     ![External sharing settings](media/externalsharing.png)
 

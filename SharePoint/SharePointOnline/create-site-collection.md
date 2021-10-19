@@ -21,6 +21,7 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- m365initiative-spsitemanagement
 search.appverid:
 - SPO160
 - MOE150
