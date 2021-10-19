@@ -25,13 +25,13 @@ After a file share has been scanned and determined ready, add it to your migrati
 
 1. Highlight one or rows from the scanned list. From the menu bar, select **Copy to migrations**.
 
-    ![File share scan list](media/mm-fileshare-scan-list.png)
+    :::image type="content" alt-text="File share scan list." source="media/mm-fileshare-scan-list.png" lightbox="media/mm-fileshare-scan-list.png":::
 
 2. Add a destination -- OneDrive, SharePoint or Teams. Select **Next**.
 
 3. Select a SharePoint site destination.  Enter the site path and the location within the site from the dropdown list. Select **Next**.
 
-   ![Select a destination for your file share](media/mm-fileshare-copy-migrations-destinations.png)
+   :::image type="content" alt-text="Select a destination for your file share." source="media/mm-fileshare-copy-migrations-destinations.png":::
 
 4. Depending on the destination you selected: 
     - For OneDrive, enter a OneDrive URL or email address and the location/folder name
@@ -46,7 +46,7 @@ After a file share has been scanned and determined ready, add it to your migrati
 
 7. If you choose **Run now**, select **Run**.
 
-   ![Configure settings for your file share migration](media/mm-fileshare-copy-migrations-configure-settings-page.png)
+   :::image type="content" alt-text="Configure settings for your file share migration." source="media/mm-fileshare-copy-migrations-configure-settings-page.png":::
 
 
 ## Incremental migration
