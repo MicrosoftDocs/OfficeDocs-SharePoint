@@ -23,10 +23,9 @@ search.appverid: MET150to the migration list in Migration Manager."
 
 After a file share has been scanned and determined ready, add it to your migration list.  
 
-1. Highlight one or rows from the scanned list. From the menu bar, select **Copy to migrations**. </br></br>
+1. Highlight one or rows from the scanned list. From the menu bar, select **Copy to migrations**.
 
     ![File share scan list](media/mm-fileshare-scan-list.png)
-</br>
 
 2. Add a destination -- OneDrive, SharePoint or Teams. Select **Next**.
 3.  Select a SharePoint site destination.  Enter the site path and the location within the site from the dropdown list. Select **Next**.
@@ -54,12 +53,12 @@ An incremental check of your SharePoint destination environment is performed. Fi
   
 |**Status**|**Result**|
 |:-----|:-----|
-|Modified time of the source file is earlier than the modified time of the target file.  <br/> |File will not be migrated.  <br/> |
-|A file is removed from the source location.  <br/> |Already migrated files will remain in the target location.  <br/> |
-|Files or lists exist in the SharePoint target location.  <br/> |Migration will skip those existing objects during scan.  <br/> |
-|Time stamp on files or object in the source location is newer in the source. <br/> |The newer files are migrated.  <br/> |
-|Source is a file share.  <br/> |Validation for migration will be based on the file/folder path.  <br/> |
-|Source is an on-premises SharePoint Server/  <br/> |Validation for migration will be based on list item GUID. Use the folder path as a fallback.  <br/> |
+|Modified time of the source file is earlier than the modified time of the target file.  |File will not be migrated.  |
+|A file is removed from the source location.  |Already migrated files will remain in the target location.  |
+|Files or lists exist in the SharePoint target location.  |Migration will skip those existing objects during scan.  |
+|Time stamp on files or object in the source location is newer in the source. |The newer files are migrated.  |
+|Source is a file share.  |Validation for migration will be based on the file/folder path.  |
+|Source is an on-premises SharePoint Server/  |Validation for migration will be based on list item GUID. Use the folder path as a fallback.  |
 
 
 >[!NOTE]
