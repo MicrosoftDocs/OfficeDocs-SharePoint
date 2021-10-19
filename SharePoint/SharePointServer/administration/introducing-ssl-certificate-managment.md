@@ -1,10 +1,10 @@
 ---
 title: "Introducing SSL Certificate Management Operations"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-nsatapathy
+author: nimishasatapathy
 manager: serdars
-ms.date: 8/11/2017
+ms.date: 10/19/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -432,6 +432,7 @@ Specify the number of days before a certificate expires to trigger a certificate
 Specify the number of days after a certificate expired to trigger a certificate expiration alert. This is an alert about certificates that have already expired and should be handled with critical priority. A certificate will only trigger an alert when it is assigned to SharePoint objects.
 
 ```
+
 ## Certificates administrative action logging
 
 Major certificate management actions are now logged in the SharePoint Administrative Actions log. The logging actions include:
