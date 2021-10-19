@@ -16,7 +16,7 @@ ms.assetid:
 description: "Learn how the new Remote Share Provider helps to store large volumes of data."
 ---
 
-# Remote Share Provider for larger volumes of data
+# Remote Share Provider
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
