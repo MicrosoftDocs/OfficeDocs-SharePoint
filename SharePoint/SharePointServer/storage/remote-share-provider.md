@@ -190,28 +190,31 @@ Register-SPRemoteShareBlobStore -ContentDatabase <SPContentDatabasePipeBind> -Na
 
 The cmdlet parameters are:
 
-```powershell
--ContentDatabase <SPContentDatabasePipeBind>
+
+**`-ContentDatabase <SPContentDatabasePipeBind>`**
 
 The content database the new BLOB store will be applied to. It can either be the content database object or the content database name.
 
--Name <BlobStoreName[ValidateLength(8, 128)]>
+
+**`-Name <BlobStoreName[ValidateLength(8, 128)]>`**
 
 The name of new created BLOB store.
 
--Location<UNCPath[ValidateLength(5, 256)]>
+
+**`-Location<UNCPath[ValidateLength(5, 256)]>`**
 
 The UNC path of the SMB storage this BLOB store will use.
 
-[-BlobStoreCredential] < PSCredential>
+
+**`[-BlobStoreCredential] < PSCredential>`**
 
 The PSCredential object which is used to access the SMB storage. If this parameter is not specified, it will use the service account which is applied to the current web application.
 
-[-PoolCapacity] <Int [ValidateRange(1024, 10000)]>
+**`[-PoolCapacity] <Int [ValidateRange(1024, 10000)]>`**
 
 The number of BLOB trunks in each BLOB pool. If this parameter is not specified, it will be set to 1024.
 
-```
+
 
 Example cmdlet syntax:
 
@@ -247,13 +250,12 @@ Switch-SPBlobStorage -ContentDatabase < SPContentDatabasePipeBind> -SQ
 
 This cmdlet will switch default BLOB storage back to content database in SQL.
 
-```powershell
--ContentDatabase < SPContentDatabasePipeBind
-```
+
+**`-ContentDatabase < SPContentDatabasePipeBind`**
 
 The content database, which will need to set back to SQL. It can either be a content database object or content database name.
 
-**SQL**
+**`SQL`**
 
 Indicates that the content database will use SQL for BLOB storage for new contents.
 
@@ -309,28 +311,22 @@ Set-SPRemoteShareBlobStore -RemoteShareBlobStore <SPRemoteShareBlobStorePipeBind
 
 The cmdlet parameters are:
 
-```powershell
--RemoteShareBlobStore <SPRemoteShareBlobStorePipeBind>
-```
+
+**`-RemoteShareBlobStore <SPRemoteShareBlobStorePipeBind>`**
 
 The remote share BLOB store needs to be changed. It can either be the remote share BLOB store object or be the remote share BLOB store name.
 
-```powershell
-[-Location <String>]
-
-```
+**`[-Location <String>]`**
 
 The UNC path, which the BLOB storage needs to switch to. This parameter changes the UNC path of the SMB storage used. It will not move the BLOBs from the old SMB storage to the new SMB storage.
 
-```powershell
-[-BlobStoreCredential <PSCredential>]
-```
+
+**`[-BlobStoreCredential <PSCredential>]`**
 
 The PSCredential object, which the BLOB storage needs to switch to apply.
 
-```powershell
-[-PoolCapacity <int>]
-```
+
+**`[-PoolCapacity <int>]`**
 
 The capacity of each pool that is used in the BLOB store.
 
@@ -368,11 +364,12 @@ Unregister-SPRemoteShareBlobStore -RemoteShareBlobStore <SPRemoteShareBlobStoreP
 
 The cmdlet parameters are:
 
-**[RemoteShareBlobStore <SPRemoteShareBlobStorePipeBind>]**
+
+**`RemoteShareBlobStore <SPRemoteShareBlobStorePipeBind>`**
 
 The remote share BLOB store needs to be unregistered. It can either be the remote share BLOB store object or be the remote share BLOB store name.
 
-**[-Force]**
+**`[-Force]`**
 
 This switch forces unregistration even when the BLOBs are still in use in the remote share BLOB store. If there are still BLOBs in use in the BLOB store while unregistering, this cmdlet will throw an exception to prevent unintentional un-registering of a BLOB store in-use.
 
@@ -390,10 +387,11 @@ Test-SPRemoteShareBlobSotore -ContentDatabase <SPContentDatabasePipeBind> [-LogP
 ```
 The cmdlet parameters are:
 
-**[-ContentDatabase <SPContentDatabasePipeBind>]**
+
+**`-ContentDatabase <SPContentDatabasePipeBind>`**
 
 The content database needs to be validated against
 
-**[-LogPath <String>]**
+**`[-LogPath <String>]`**
 
 The path of the validation log.

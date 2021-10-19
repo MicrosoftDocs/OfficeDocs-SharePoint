@@ -235,6 +235,8 @@
 #### [OneDrive planning](../sites/onedrive-for-business-planning.md)
 #### [Set up OneDrive](../sites/set-up-onedrive-for-business.md)
 #### [Configure the OneDrive modern user experience](../sites/configure-the-onedrive-for-business-modern-user-experience.md)
+## [Storage](../storage/storage.md)
+### [Storage](../storage/remote-share-provider.md)
 ## [Search](../search/search.md)
 ### [Search planning](../search/search-planning.md)
 #### [Search architecture overview](../search/search-architecture-overview.md)
