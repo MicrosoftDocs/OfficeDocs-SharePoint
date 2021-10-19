@@ -37,7 +37,7 @@ Download and install SPMT using one of the links listed below.
 
 #### Before you begin
 
-Before you begin using SPMT, review the required permissions, prequisites, and endpoints.
+Before you begin using SPMT, review the required permissions, prerequisites, and endpoints.
 
 |What|Description|
 |:-----|:-----|
