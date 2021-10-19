@@ -77,7 +77,7 @@ Admins in the SharePoint admin center can choose to either enable or disable sub
 3. Select **OK** when you are done.
 
 > [!NOTE]
-> Currently, the following Site Templates are considered "Modern".
+> Currently, the following site templates are considered "modern".
 > 
 > - GROUP#0
 > - STS#3
