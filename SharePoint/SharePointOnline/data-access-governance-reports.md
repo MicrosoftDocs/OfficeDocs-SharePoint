@@ -110,7 +110,7 @@ The resultant screen provides you:
         
 1. Data in these reports could be delayed by 48 hours (maximum).
 
-## Feedback
+## Support
 
 If you are facing any issues or have any feedback, please reach out to **dag_feedback@microsoft.com**.
 
