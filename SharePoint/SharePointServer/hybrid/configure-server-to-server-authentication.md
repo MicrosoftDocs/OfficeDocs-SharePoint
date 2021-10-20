@@ -368,7 +368,7 @@ Where:
 
 Starting October, 2021, an extra step is required to adjust an existing SharePoint Hybrid configuration to work with and authenticate using the new Microsoft 365 search engine. For more information about this change, please see Message Center post [270671](https://admin.microsoft.com/#/MessageCenter/:/messages/MC270671).
 
-The script must be run on a server where SharePoint On-Premises is installed (2013, 2016 or 2019). The script will attempt to install the required module dependencies (MSOnline, AzureAD) on the server where it is being run.
+The script must be run on a server where SharePoint On-Premises is installed (2013, 2016, or 2019). The script will attempt to install the required module dependencies (MSOnline, AzureAD) on the server where it is run.
 
 1. Download the [configuration script](https://www.microsoft.com/download/103240).
 2. From the directory where the script was downloaded, execute the script using SharePoint On-Premises Farm Administrator account, using the following command:
