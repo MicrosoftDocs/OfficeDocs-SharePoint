@@ -377,7 +377,7 @@ The script must be run on a server where SharePoint On-Premises is installed (20
 Update-FederatedHybridSearchForM365.ps1 -HybridWebApp YourHybridWebApplication -Force
 ```
 
-For more information on the parameter values please run the following command:
+For more information on the parameter values, run the following command:
 
 ```
 Get-Help .\Update-FederatedHybridSearchForM365.ps1
