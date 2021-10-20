@@ -384,7 +384,7 @@ Get-Help .\Update-FederatedHybridSearchForM365.ps1
 ```
 
 3. When prompted, login using Microsoft 365 Global Administrator account.
-4. Wait for script execution to finish, in case there are any issues, please contact Microsoft Support.
+4. Wait for script execution to complete; in case there are any issues, contact Microsoft Support.
 5. After script execution, users will not see any changes when this change is implemented.
 
 
