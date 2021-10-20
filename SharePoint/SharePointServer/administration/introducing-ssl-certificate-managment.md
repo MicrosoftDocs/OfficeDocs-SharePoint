@@ -1,5 +1,5 @@
 ---
-title: "Introducing SSL Certificate Management Operations"
+title: "Introducing SSL Certificate management operations"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
@@ -16,12 +16,11 @@ ms.assetid: 354706a8-a7f0-4e83-b2b0-bfccd1753c2e
 description: "To learn how to configure incoming and outgoing email for a SharePoint Server, see these articles."
 ---
 
-
-# Introducing SSL Certificate Management Operations
-
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
-SSL certificate management is the process of monitoring and managing the life cycles—from acquisition and deployment to tracking renewal, usage, and expiration—of all SSL certificates deployed within a network.
+# Introducing SSL Certificate management operations
+
+Secure Sockets Layer (SSL) certificate management is the process of monitoring and managing the life cycles from acquisition and deployment to tracking renewal, usage, and expiration of all SSL certificates deployed within a network.
  
 This article focuses on the following SSL certificate management operations.
 
@@ -86,7 +85,7 @@ To assign a certificate to a web application when creating that web application 
 
 ## Replacing a certificate assignment
 
-If you wish to replace all usage of a certificate within SharePoint with a different certificate. For example, if an existing certificate is approaching its expiration and you've imported a new certificate to replace it. Use the Switch-SPCertificate cmdlet to replace the assignments of one certificate with a different certificate. All usage of that certificate within SharePoint will then be replaced with the different certificate. 
+You can replace all usage of an existing certificate within SharePoint with a different certificate, for example, if an existing certificate is approaching its expiration and you've imported a new certificate. To replace, use the Switch-SPCertificate cmdlet to replace the assignments of the existing certificate with the new certificate. All usage of the existing certificate within SharePoint will then be replaced with the new certificate. 
 
 The cmdlet parameters are:
 
@@ -148,13 +147,13 @@ If a positive number, only return certificates that will expire in the number of
 ```
 
 The following are the examples of cmdlet syntax:
-
+ 
 - Get-SPCertificate -FriendlyName "Contoso SharePoint (2020)"
 - Get-SPCertificate -InUse -DaysToExpiration 30
+ 
+ ## Exporting certificates
 
-## Exporting certificates
-
-SharePoint supports exporting certificates to PFX (PKCS #12) files, P7B (PKCS #7) files, and CER files. Both PFX files and P7B files can contain multiple certificates, which is useful for exporting a chain of certificates from the end entity (leaf) certificate to the root certificate.  However, only PFX files can contain private keys for certificates, which are necessary for a server certificate to be assigned to an IIS web site. CER files contain only a single certificate.
+SharePoint supports exporting certificates to PFX (PKCS #12) files, P7B (PKCS #7) files, and CER files. Both PFX files and P7B files can contain multiple certificates, which is useful for exporting a chain of certificates from the end entity (leaf) certificate to the root certificate.  However, only PFX files can contain private keys for certificates, which are necessary for a server certificate to be assigned to an IIS website. CER files contain only a single certificate.
 
 In the future builds, SharePoint will store exported certificate files in a SharePoint list in the Central Administration site for easy retrieval.  But for now, SharePoint only supports storing exported certificate files on the file system.
 
