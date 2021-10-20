@@ -42,6 +42,8 @@ Perform the following steps:
 
     - Sharing links
     - Sensitivity labels applied to files
+   
+   <include the image data-access-governance-screen.png>
 
 1. Click **View reports** under the **Sharing links** pane or the **Sensitivity labels applied to files** pane.
 
@@ -54,6 +56,8 @@ The "Sharing links" reports help identify potential oversharing by reviewing sit
 - **"Anyone" links**: This report gives you a list of sites in which the highest number of “Anyone” links were created. These links let anyone access files and folders without signing in.
 - **"People in the organization" links**: This report gives you a list of sites in which the highest number of “People in the organization” links were created. These links can be forwarded internally and let anyone in the organization access files and folders.
 - **"Specific people" links (shared externally)**: This report gives you a list of sites in which the highest number of “specific people” links were created for people outside the organization.
+
+<include the image sharing-links-screen.png>
 
 ### Run the reports
 
@@ -71,13 +75,15 @@ The resultant screen provides you:
 1. Information on the policies applied on these sites – [site sensitivity](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), [site unmanaged device policy](control-access-from-unmanaged-devices.md), and [site external sharing policy](external-sharing-overview.md).
 1. Details of the administrators for these sites.
 
+   <include the image anyone-links-screen.png>
+
 ### Download the reports
 
 You can further download a detailed CSV report to get the same view of top 10,000 sites, sorted in decreasing order of the number of sharing links created in the last 30 days.
 
 ## Sensitivity labels for files reports
 
-The "Sensitivity labels for files" reports help you control access to sensitive content by finding sites in which [sensitivity labelled files](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files) are stored. You can review these sites for verify for the right policies applied.
+The "Sensitivity labels for files" reports help you control access to sensitive content by finding sites in which [sensitivity labeled files](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files) are stored. You can review these sites for verify for the right policies applied.
 
 ### Add and run the reports
 
@@ -86,6 +92,8 @@ You can add one report for every sensitivity label you want to track. Once a rep
 > [!NOTE]
 > You can add and run the reports on only those sensitivity labels whose scope includes "File".
 
+<include the image sensitivity-labels-screen.png>
+
 ### Run reports
 
 To get the latest data for an added report, run the added report. You can choose to run all reports or select individual reports and run them. Once the report-run process starts, it might take a few hours for it to complete. You can track the status of the report to see if it is running or check when it was last updated.
@@ -93,13 +101,17 @@ To get the latest data for an added report, run the added report. You can choose
 > [!NOTE]
 > Each report can be made to run only once in 24 hours.
 
+<include the image sensitivity-labels-reports-link.png>
+
 ### Download reports
 
 Once a report is run and updated, you can click the report's link to download it.
 The resultant screen provides you:
 
-1. Top 10,000 sites, sorted in decreasing order of the number of specific [sensitivity labelled files](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files) present in the sites.
+1. Top 10,000 sites, sorted in decreasing order of the number of specific [sensitivity labeled files](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files) present in the sites.
 1. Information on the policies applied on these sites - [site sensitivity](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), [site unmanaged device policy](control-access-from-unmanaged-devices.md), and [site external sharing policy](external-sharing-overview.md).
+
+<include the image details-screen.png>
 
 ## Limitations or known issues
 
@@ -112,7 +124,7 @@ The resultant screen provides you:
 
 ## Support
 
-If you are facing any issues or have any feedback, please reach out to **dag_feedback@microsoft.com**.
+If you are facing any issues or have any feedback, reach out to **dag_feedback@microsoft.com**.
 
 
 
