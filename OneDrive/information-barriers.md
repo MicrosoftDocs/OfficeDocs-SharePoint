@@ -31,7 +31,7 @@ For OneDrive, information barriers can determine and prevent the following kinds
 
 ## Information barriers modes and OneDrive
 
-When information barriers are enabled on SharePoint and OneDrive, the OneDrive of segmented users are automatically protected with IB policies. [Information barriers modes](/microsoft-365/compliance/information-barriers-policies.md#step-6-information-barriers-modes-preview) help strengthen access, sharing, and membership of a OneDrive site based on its IB mode and segments associated with the OneDrive.
+When information barriers are enabled on SharePoint and OneDrive, the OneDrive of segmented users are automatically protected with IB policies. [Information barriers modes](/microsoft-365/compliance/information-barriers-policies#step-6-information-barriers-modes-preview) help strengthen access, sharing, and membership of a OneDrive site based on its IB mode and segments associated with the OneDrive.
 
 When using information barriers with OneDrive, the following IB modes are supported:
 
