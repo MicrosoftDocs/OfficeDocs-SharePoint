@@ -77,6 +77,9 @@ Answer:  In general, site performance should not be impacted by running a migrat
 **Question:** How do I remove the Migration Manager agent from a computer? </br>
 Answer: Re-run the Migration Manager agent installer and click the **Uninstall** button.
 
+**Question:** How do I update the Migration Manager agent? </br>
+Answer: The agent is set to automatically update to the latest version by default.
+
 **Question:** Does Migration Manager do incremental migrations? </br>
 Answer:  Yes.  The jobs created in Migration Manager do perform incremental migrations when run subsequently. 
 
