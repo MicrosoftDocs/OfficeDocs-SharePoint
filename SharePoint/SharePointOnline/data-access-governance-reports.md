@@ -42,9 +42,9 @@ Perform the following steps:
 
     - Sharing links
     - Sensitivity labels applied to files
+    
+      :::image type="content" source="media/data-access-governance-screen.png" alt-text="Data Governance Access screen":::
    
-   <data-access-governance-screen.png>
-
 1. Click **View reports** under the **Sharing links** pane or the **Sensitivity labels applied to files** pane.
 
 For more information, see [Sharing links reports](#sharing-links-reports) and Sensitivity labels for files reports.
@@ -57,7 +57,7 @@ The "Sharing links" reports help identify potential oversharing by reviewing sit
 - **"People in the organization" links**: This report gives you a list of sites in which the highest number of “People in the organization” links were created. These links can be forwarded internally and let anyone in the organization access files and folders.
 - **"Specific people" links (shared externally)**: This report gives you a list of sites in which the highest number of “specific people” links were created for people outside the organization.
 
-<sharing-links-screen.png>
+:::image type="content" source="media/sharing-links-screen.png" alt-text="Sharing Links Reports screen":::
 
 ### Run the reports
 
@@ -75,7 +75,7 @@ The resultant screen provides you:
 1. Information on the policies applied on these sites – [site sensitivity](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), [site unmanaged device policy](control-access-from-unmanaged-devices.md), and [site external sharing policy](external-sharing-overview.md).
 1. Details of the administrators for these sites.
 
-   <anyone-links-screen.png>
+   :::image type="content" source="media/anyone-links-screen.png" alt-text="Anyone link type screen":::
 
 ### Download the reports
 
@@ -92,7 +92,7 @@ You can add one report for every sensitivity label you want to track. Once a rep
 > [!NOTE]
 > You can add and run the reports on only those sensitivity labels whose scope includes "File".
 
-<sensitivity-labels-screen.png>
+:::image type="content" source="media/sensitivity-labels-screen.png" alt-text="Screen on which reports are added":::
 
 ### Run reports
 
@@ -101,7 +101,7 @@ To get the latest data for an added report, run the added report. You can choose
 > [!NOTE]
 > Each report can be made to run only once in 24 hours.
 
-<sensitivity-labels-reports-link.png>
+:::image type="content" source="media/sensitivity-labels-reports-link.png" alt-text="Screen displaying information about sites with labeled files":::
 
 ### Download reports
 
@@ -111,7 +111,7 @@ The resultant screen provides you:
 1. Top 10,000 sites, sorted in decreasing order of the number of specific [sensitivity labeled files](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files) present in the sites.
 1. Information on the policies applied on these sites - [site sensitivity](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), [site unmanaged device policy](control-access-from-unmanaged-devices.md), and [site external sharing policy](external-sharing-overview.md).
 
-<details-screen.png>
+:::image type="content" source="media/details-screen.png" alt-text="Screen displaying in-depth details":::
 
 ## Limitations or known issues
 
