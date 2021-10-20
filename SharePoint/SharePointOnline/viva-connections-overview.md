@@ -34,7 +34,7 @@ description: "Learn how to set up and deploy Viva Connections on desktop and mob
 
 
 ## Overview
-Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed. Viva Connections gives everyone a personalized destination to discover relevant news, conversations, and the tools they need to succeed. [Get step-by-step guidance on how to get Viva Vonnections for your organization.](guide-to-setting-up-viva-connections.md)
+Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed. Viva Connections gives everyone a personalized destination to discover relevant news, conversations, and the tools they need to succeed. [Get step-by-step guidance on how to get Viva Connections for your organization.](guide-to-setting-up-viva-connections.md)
  
 
 **Viva Connections is:**
