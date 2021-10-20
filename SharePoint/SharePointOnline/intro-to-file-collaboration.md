@@ -109,6 +109,8 @@ Most of the file collaboration features in Microsoft 365 are available to you re
 
 - Integration with Microsoft Office
 
+- Private and shared channels in Teams
+
 - Auditing and reporting
 
 - Hybrid
@@ -149,6 +151,10 @@ If your users are used to sharing files as attachments in Outlook, they can use 
 In the Office apps, users can easily [open files saved in the Microsoft cloud](https://support.office.com/article/97f087d8-3136-4485-8e86-c5b12a8c4176) and [save documents to OneDrive](https://support.office.com/article/b9e0c0a9-2bd7-42cf-9178-24d60c51ac75). [Learn more](https://support.office.com/article/ea3807bc-2b73-406f-a8c9-a493de18258b). When users comment on an Office document and use the **@** sign with someone's name, the person mentioned receives mail with a link to the comment. Clicking the link brings them into the document and into the conversation.
 
 ![A contact mentioned in a comment](media/sp-collabguide10.png)
+
+### Private and shared channels in Teams
+
+Teams has workspaces for chat and file collaboration called channels. While standard channels include everyone in the team, [private channels](/microsoftTeams/private-channels) allow you to collaborate with a subset of team members and [shared channels](/microsoftteams/shared-channels) allow you to collaborate with people outside the team. All channel types allow you to collaborate with people outside your organization. Each private and shared channels has its own SharePoint site for file storage and collaboration.
 
 ### Migration tools
 
@@ -237,7 +243,9 @@ When a Microsoft 365 group is created from anywhere within Microsoft 365, a Shar
 
 ### Sharing
 
-To set up external sharing in your organization, you need to make sure that settings across multiple admin centers are set the way you want. Sharing with people outside your organization is enabled by default in SharePoint and OneDrive, but disabled for Microsoft Teams. [Configure Microsoft 365 to enable guest collaboration for Teams](/Office365/Enterprise/collaborate-as-a-team). Set the external sharing level and the default sharing link type.
+To set up external sharing in your organization, you need to make sure that settings across multiple admin centers are set the way you want. Sharing with people outside your organization is enabled by default in SharePoint, OneDrive, and Teams. [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team). Set the external sharing level and the default sharing link type.
+
+Sharing with people outside your organization in shared channels in Teams requires additional configuration. See [Collaborate with external participants in a channel](/microsoft-365/solutions/collaborate-teams-direct-connect) for information.
 
 ![External sharing permission levels for SharePoint and OneDrive](media/sp-collabguide15.png)
 
