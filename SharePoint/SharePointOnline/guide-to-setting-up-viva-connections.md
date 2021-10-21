@@ -211,7 +211,7 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 
 ## Resources
 
-[Overview of Viva Connections](/viva-connections-overview)
+[Overview of Viva Connections](viva-connections-overview.md)
 
 
 [Public preview announcement on the TechCommunity blog](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/viva-connections-public-preview/ba-p/2730869#:~:text=Viva%20Connections%20is%20the%20gateway%20to%20your%20organization%27s,from%20information%20workers%20to%20frontline%20and%20deskless%20employees.)
