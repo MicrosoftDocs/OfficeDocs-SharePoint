@@ -36,7 +36,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath
 - The following Windows PowerShell command has been run:  `Set-SPInfoPathFormsService -AllowUserFormBrowserRendering $false`.
  
 > [!NOTE]
-> Infopath form service is removed but will remain supported for SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) as a potential alternative to Infopath form service.
+> Infopath form service is removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) as a potential alternative to Infopath form service.
  
 **Resolution: Enable browser rendering of user forms by using Central Administration**
   
