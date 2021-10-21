@@ -37,20 +37,22 @@ By publishing a service application, you can optimize resources, avoid redundanc
     
 - Secure Store
     
-Additionally, a SharePoint (N-1) farm can consume services from a SharePoint Server (N) farm but a SharePoint Server (N) farm cannot consume services from a SharePoint (N-1) farm. This allows for upgrade of multi-farm environments in which a farm hosting service applications is upgraded first. In this scenario, the service applications and features that the SharePoint (N-1) farm experiences are limited to those that are available in SharePoint (N-1).
+Additionally, a SharePoint (N-1) farm can consume services from a SharePoint Server (N) farm. However, a SharePoint Server (N) farm cannot consume services from a SharePoint (N-1) farm. This allows for upgrade of multi-farm environments in which a farm hosting service applications is upgraded first. In this scenario, the service applications and features that the SharePoint (N-1) farm experiences are limited to those that are available in SharePoint (N-1).
 
-As SharePoint (N-2) farm is supported for SharePoint Server Subscription Edition (N), a SharePoint Server (N) farm can now consume services from a SharePoint 2016 farm.
+As SharePoint (N-2) farm is supported for SharePoint Server Subscription Edition (N), a SharePoint Server (N-2) farm can now consume services from a SharePoint Server Subscription Edition farm.
 
 Cross farm service publishing supported scenarios:
 
-- A SharePoint 2013 farm can consume services from a SharePoint 2016 farm.
+- A SharePoint 2013 farm can consume services from a SharePoint 2013 farm or a SharePoint 2016 farm.
 
-- A SharePoint 2016 farm can consume services from a SharePoint 2019 farm.
+- A SharePoint 2016 farm can consume services from a SharePoint 2016 farm, a SharePoint 2019 farm, or a SharePoint Subscription Edition farm.
 
-- A SharePoint Subscription Edition farm can consume services from a SharePoint 2016 farm.
+- A SharePoint 2019 farm can consume services from a SharePoint 2019 farm or a SharePoint Subscription Edition farm.
+
+- A SharePoint Subscription Edition farm can consume services from a SharePoint Subscription Edition farm.
 
 > [!NOTE]
-> It is not supported to consume services from a server version which is more than one version behind. This means it is not supported for a SharePoint (N-2+) farm to consume services from a SharePoint (N) farm. For example, SharePoint 2013 cannot consume services from SharePoint 2019 as well as SharePoint 2010 cannot consume services from SharePoint 2016.
+> It is not supported to consume services from a server version which is more than one version behind unless it's listed as supported above. This means it is not supported for a SharePoint (N-2+) farm to consume services from a SharePoint (N) farm. For example, SharePoint 2013 cannot consume services from SharePoint 2019, SharePoint 2010 cannot consume services from SharePoint 2016, etc.
 
  **Important:** There are significant restrictions on when services and content can be shared between a SharePoint 2010 farm and a SharePoint 2013 farm. Content type syndication uses the backup and restore mechanism in SharePoint Server to publish the content types across site collections. Backup and restore does not work across versions in the following scenarios:
   
