@@ -29,7 +29,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath
  **Cause:** No service connection for the State Service is configured for the Web application that is in the Health Analyzer alert. 
  
 > [!NOTE]
-> Infopath form service is removed but will remain supported for SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) as a potential alternative to Infopath form service.
+> Infopath form service is removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) as a potential alternative to Infopath form service.
  
  **Resolution: Configure a service connection by using the SharePoint Central Administration website**
   
