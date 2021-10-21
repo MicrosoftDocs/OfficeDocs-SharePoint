@@ -117,6 +117,9 @@ Set **Use TLS connection encryption** to Yes to require SharePoint to establish 
 
 ### Use client certificate authentication with an SMTP server
 
+> [!NOTE]
+> This Use client certificate authentication with an SMTP server feature is available only in SharePoint Server Subscription Edition.
+
 Client certificate authentication over SMTP is an optional, advanced authentication configuration that allows the “client” (in this scenario, SharePoint) to authenticate to the SMTP server using an X.509 certificate that the client presents to the server. This authentication is either “instead of” or “in addition to” the username/password credentials. This configuration isn’t common, but it can be used in high security environments where standard username/password authentication isn’t considered sufficient.
 
 > [!NOTE]
