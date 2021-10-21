@@ -54,7 +54,7 @@ Cross farm service publishing supported scenarios:
 > [!NOTE]
 > It is not supported to consume services from a server version which is more than one version behind unless it's listed as supported above. This means it is not supported for a SharePoint (N-2+) farm to consume services from a SharePoint (N) farm. For example, SharePoint 2013 cannot consume services from SharePoint 2019, SharePoint 2010 cannot consume services from SharePoint 2016, etc.
 
- **Important:** There are significant restrictions on when services and content can be shared between a SharePoint 2010 farm and a SharePoint 2013 farm. Content type syndication uses the backup and restore mechanism in SharePoint Server to publish the content types across site collections. Backup and restore does not work across versions in the following scenarios:
+ **Important:** There are significant restrictions on when services and content can be shared between a SharePoint 2010 farm and a SharePoint 2013 farm. Content type syndication uses the backup and restore mechanism in SharePoint Server to publish the content types across site collections. Backup and restore do not work across versions in the following scenarios:
   
 - Between a SharePoint 2010 farm and a SharePoint 2013 farm
     
