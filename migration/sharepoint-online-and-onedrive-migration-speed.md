@@ -114,12 +114,12 @@ After the migration is completed, verify that your content has been successfully
 
 > [!NOTE]
 >
-> - This process should only be followed if you meet the following requirements:
-> - The Migration is occurring within the next 30 days. 
-> - The Migration is over 100TB of data
+> This process should only be followed if you meet the following requirements:
+> - The migration is occurring within the next 30 days. 
+> - The migration is over 100 TB of data.
 
 
-If you are planning to migrate over 100TB, please submit a support request following the steps listed below. Make sure to include all requested information.
+If you are planning to migrate over 100 TB, please submit a support request following the steps listed below. Make sure to include all requested information.
 
 Follow these steps:
 
