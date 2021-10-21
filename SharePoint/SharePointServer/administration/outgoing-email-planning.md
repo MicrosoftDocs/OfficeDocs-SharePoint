@@ -33,7 +33,7 @@ Properly configuring outgoing email is a requirement for implementing email aler
     In a large and growing site collection, users need a way to keep up with updates to lists, libraries, and discussions. Alerts help to keep users aware of changes. For example, if many users work on the same document, the owner of the document can set up alerts to be notified whenever there are changes to this document. Users can specify which areas of the site collection or which documents they want to track and decide how often they want to receive alerts.
     
     > [!NOTE]
-    > Users must have at least View permissions to set up alerts. 
+    > Users must have at least **View** permissions to set up alerts. 
   
 - **Administrative messages**
     
@@ -50,7 +50,7 @@ You must consider the following components when planning your outgoing email set
     
 - An address to use in the header of an alert message that identifies the sender of the message.
     
-- A Reply-to address that is displayed in the To field of a message when a user replies to an alert or notification.
+- A Reply-to address that is displayed in the **To** field of a message when a user replies to an alert or notification.
     
 - A character set to use in the body of alert messages.
     
@@ -71,11 +71,11 @@ When configuring outgoing email, you can configure the following two addresses:
   
 - **From address**
     
-    Alerts and notifications are sent from an administrative account on the server farm. This account is probably not the one you want to be displayed in the From field of an email message. The address that you use does not need to correspond to an actual email account; it can be a simple friendly address that is recognizable to an end user. For example, "Site administrator" might be an appropriate From address.
+    Alerts and notifications are sent from an administrative account on the server farm. This account is probably not the one you want to be displayed in the **From** field of an email message. The address that you use does not need to correspond to an actual email account; it can be a simple friendly address that is recognizable to an end user. For example, "Site administrator" might be an appropriate From address.
     
 - **Reply-to address**
     
-    This is the address that is displayed in the To field of a message when a user replies to an alert or notification. The Reply-to address should also be a monitored account to ensure that end users receive prompt feedback for issues they might have. For example, a help desk alias might be an appropriate Reply-to address.
+    This is the address that is displayed in the **To** field of a message when a user replies to an alert or notification. The Reply-to address should also be a monitored account to ensure that end users receive prompt feedback for issues they might have. For example, a help desk alias might be an appropriate Reply-to address.
     
 ### Character set
 
@@ -87,7 +87,7 @@ Be aware that if you select a specific language code, the text is less likely to
 
 The SMTP server authentication feature is only available in SharePoint Server 2019.
 
-SharePoint Server 2019 supports connecting to SMTP servers anonymously or with authentication. If your SMTP server requires authentication, you'll need to provide credentials that SharePoint will use to authenticate to the SMTP server. It's recommended to use account credentials that match the From address. If you wish to use credentials for a different account, ensure that account has "Send As" permission to impersonate the From address.
+SharePoint Server 2019 supports connecting to SMTP servers anonymously or with authentication. If your SMTP server requires authentication, you'll need to provide credentials that SharePoint will use to authenticate to the SMTP server. It's recommended to use account credentials that match the **From** address. If you wish to use credentials for a different account, ensure that account has "Send As" permission to impersonate the From address.
 
 > [!NOTE]
 > If you're using a Windows account to authenticate to the SMTP server, you can specify the user name using either the Universal Principal Name (UPN) format (user@domain.com) or the NT4 login format (DOMAIN\user). If you're using a non-Windows account to authenticate to the SMTP server, contact your email administrator to determine the correct user name format.
