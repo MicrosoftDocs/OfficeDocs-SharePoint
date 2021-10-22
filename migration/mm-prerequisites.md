@@ -46,8 +46,8 @@ This article is a resource where you can find prerequisites and endpoint informa
 | Required endpoints | For |
 |:-----|:-----|
 |`https://secure.aadcdn.microsoftonline-p.com`|Authentication|
-|`https://api.office.com`|Microsoft 365 APIs for content move and validation|
-|`https://graph.windows.net`|Microsoft 365 APIs for content move and validation|
+|`https://api.office.com`|Microsoft 365 APIs for content move and validation.|
+|`https://graph.windows.net`|Microsoft 365 APIs for content move and validation.|
 |`https://spmtreleasescus.blob.core.windows.net`|Installation|
 |`https://*.queue.core.windows.net`|Migration API Azure requirement|
 |`https://*.blob.core.windows.net`|Migration API Azure requirement|
@@ -60,4 +60,5 @@ This article is a resource where you can find prerequisites and endpoint informa
 |`https://spmt.sharepointonline.com`|SPMT Installation link.
 |`https://api.mover.io`|Scan feature for Migration Manager requirement.|
 |`https://production.odyssey.ops.mover.io`|Scan feature for Migration Manager requirement.|
+|`https://production-wus2-signalr.service.signalr.net`|Scan feature for Migration Manager requirement. Used to communicate with the server.|
 
