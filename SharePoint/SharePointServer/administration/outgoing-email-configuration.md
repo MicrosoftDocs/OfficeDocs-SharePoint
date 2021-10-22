@@ -315,6 +315,7 @@ You can configure outgoing email for a specific web application by using the Cen
 
     > [!NOTE]
     > After you've set up SMTP authentication in your farm, you can test to see if it's authenticating. For more information, see [Is SMTP Auth Really Working?](https://techcommunity.microsoft.com/t5/SharePoint-Support-Blog/Is-SMTP-Auth-Really-Working/ba-p/303577).
+
 ---
 
 ## See also
