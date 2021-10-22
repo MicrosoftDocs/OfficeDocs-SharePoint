@@ -75,22 +75,20 @@ Stopping the cache results in partial data loss. The Feed Cache depends on the D
 
 At the SharePoint Management Shell command prompt, run the following command:
 
-```
+```powershell
 $instanceName ="SPDistributedCacheService Name=AppFabricCachingService"
 $serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $instanceName -and ($_.server.name) -eq $env:computername}
 $serviceInstance.Provision()
-
 ```
 
 ### To stop the Distributed Cache service by using SharePoint Management Shell
 
 At the SharePoint Management Shell command prompt, run the following command:
 
-```
+```powershell
 $instanceName ="SPDistributedCacheService Name=AppFabricCachingService"
 $serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $instanceName -and ($_.server.name) -eq $env:computername}
 $serviceInstance.Unprovision()
-
 ```
 
 ## Change the memory allocation of the Distributed Cache service
@@ -118,10 +116,9 @@ Use this procedure to reconfigure the memory allocation of the cache size of the
 
 1. (Optional) To check the existing memory allocation for the Distributed Cache service on a server, run the following command at the SharePoint Management Shell command prompt:
 
-      ```
+      ```powershell
       Use-CacheCluster
       Get-AFCacheHostConfiguration -ComputerName $Env:ComputerName -CachePort "22233"
-      
       ```
     Where:
 
@@ -131,14 +128,14 @@ Use this procedure to reconfigure the memory allocation of the cache size of the
 
 3. To reconfigure the cache size of the Distributed Cache service, run the following command one time only on any cache host at the SharePoint Management Shell command prompt:
 
-      ```
+      ```powershell
       Update-SPDistributedCacheSize -CacheSizeInMB CacheSize
       ```
     Where:
         
       -  _CacheSize_ is the cache size's memory allocation assignment in MB. In the previous example, the cache size was calculated at 7168 MB for a server with 16 GB of total memory. 
     
-4. Restart the Distributed Cache service on all cache hosts. To restart the Distributed Cache service, go to **Services on Server** in Central Administration, and **Start** the Distributed Cache service on all cache hosts in the farm. 
+4. Restart the Distributed Cache service on all cache hosts. To restart the Distributed Cache service, go to **Services on Server** in Central Administration, and **Start** the Distributed Cache service on all cache hosts in the farm.
 
 ## Add or remove a server in a Distributed Cache cluster
 <a name="addremove"> </a>
@@ -154,18 +151,16 @@ Use the following procedures to add and remove a server from a cache cluster. Th
 
 At the SharePoint Management Shell command prompt, run the following command:
 
-```
+```powershell
 Add-SPDistributedCacheServiceInstance
-
 ```
 
 ### Remove a server from the cache cluster by using SharePoint Management Shell
 
 At the SharePoint Management Shell command prompt, run the following command:
 
-```
+```powershell
 Remove-SPDistributedCacheServiceInstance
-
 ```
 
 > [!IMPORTANT]
@@ -192,9 +187,9 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
 2. Copy the following variable declarations, and paste them into a text editor such as Notepad. Set parameter values specific to your organization. Save the file, and name it `GracefulShutdown.ps1`.
 
     > [!NOTE]
-    > You can use a different file name, but you must save the file as an ANSI-encoded text file with the extension `.ps1`. 
+    > You can use a different file name, but you must save the file as an ANSI-encoded text file with the extension `.ps1`.
 
-      ```
+      ```powershell
       ## Settings you may want to change for your scenario ##
       $startTime = Get-Date
       $currentTime = $startTime
@@ -231,9 +226,9 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
 
 5. At the PowerShell command prompt, type the following command:
 
-      ```
-      ./GracefulShutdown.ps1
-      ```
+    ```powershell
+    ./GracefulShutdown.ps1
+    ```
 
 For more information about PowerShell scripts and `.ps1` files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
 
@@ -246,7 +241,7 @@ When the server farm is first configured, the server farm account is set as the 
 
 2. Set the Managed account as the service account on the AppFabric Caching service. At the SharePoint Management Shell command prompt, run the following command:
 
-      ```
+      ```powershell
       $farm = Get-SPFarm
       $cacheService = $farm.Services | where {$_.Name -eq "AppFabricCachingService"}
       $accnt = Get-SPManagedAccount -Identity domain_name\user_name
@@ -280,14 +275,14 @@ Some of the [counters](/previous-versions/appfabric/ff637725(v=azure.10)) that a
 
 7. Total failure exceptions/sec and Total Retry exceptions/sec.
 
-The Distributed Cache service setting for **MaxConnectionsToServer** is often tuned based on the number of CPUs that are used in the host computer. If, for instance you use multiple cores and then set the **MaxConnectionsToServer** setting to the same number of CPUs then the computer often uses too much memory and freezes. Similar issues happen when tuning the **DistributedLogonTokenCache** and **DistributedViewStateCache** settings. The default setting is 20ms but often exceptions are found when the token caching doesn't happen in the 20-ms setting. Use the following PowerShell scripts to change the settings for max connections and timeouts in SharePoint Server 2016 and SharePoint Server 2013.
+The Distributed Cache service setting for **MaxConnectionsToServer** is often tuned based on the number of CPUs that are used in the host computer. If for instance, you use multiple cores and then set the **MaxConnectionsToServer** setting to the same number of CPUs then the computer often uses too much memory and freezes. Similar issues happen when tuning the **DistributedLogonTokenCache** and **DistributedViewStateCache** settings. The default setting is 20ms but often exceptions are found when the token caching doesn't happen in the 20-ms setting. Use the following PowerShell scripts to change the settings for max connections and timeouts in SharePoint Server 2016 and SharePoint Server 2013.
 
- **To fine-tune the Distributed Cache service by using a PowerShell script**
+**To fine-tune the Distributed Cache service by using a PowerShell script**
 
 1. Verify that you meet the following minimum requirements:
 
       - See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
-        
+
       - You need to read [about_Execution_Policies](/previous-versions//dd347641(v=technet.10)).
 
 2. Copy the following variable declarations, and paste them into a text editor such as Notepad. Set parameter values specific to your organization. Save the file, and name it `MaxConnections.ps1`.
@@ -295,9 +290,40 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
     > [!NOTE]
     > You can use a different file name, but you must save the file as an ANSI-encoded text file with the extension `.ps1`.
 
+    **SharePoint Server Subscription Edition PowerShell script**
+
+    ```powershell
+    #Start-SPCacheCluster
+    Start-SPCacheCluster    
+    
+    #Stop-SPCacheCluster
+    Stop-SPCacheCluster
+
+    #Import-SPCacheClusterConfig
+    Import-SPCacheClusterConfig -Path C:\Config.txt
+    
+    #Export-SPCacheClusterConfig
+    Export-SPCacheClusterConfig -Path C:\Config.txt
+    
+    #Get-SPCacheClusterHealth
+    Get-SPCacheClusterHealth
+    
+    #Get-SPCacheHost
+    Get-SPCacheHost -HostName SP01 -CachePort 22233
+    
+    #New-SPCache
+    New-SPCache -CacheName DistributedViewStateCache_b6c5efa9-e390-4d47-aa8a-45232229992b
+    
+    #Get-SPCache
+    Get-SPCache
+    
+    #Get-SPCacheStatistics
+    Get-SPCacheStatistics -CacheName DistributedAccessCache_b6c5efa9-e390-4d47-aa8a-45232229992b
+    ```
 
     **SharePoint Server 2019 PowerShell script**
-      ```
+
+      ```powershell
       Add-PSSnapin Microsoft.Sharepoint.Powershell -ea 0
     
       #DistributedLogonTokenCache
@@ -470,7 +496,8 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
       ```
 
       **SharePoint Server 2016 PowerShell script**
-      ```
+
+      ```powershell
       Add-PSSnapin Microsoft.Sharepoint.Powershell -ea 0
     
       #DistributedLogonTokenCache
@@ -580,7 +607,8 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
       ```
 
      **SharePoint Server 2013 PowerShell script**
-      ```
+
+      ```powershell
       Add-PSSnapin Microsoft.Sharepoint.Powershell -ea 0
     
       #DistributedLogonTokenCache
@@ -660,7 +688,7 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
 
 5. At the PowerShell command prompt, type the following command:
 
-      ```
+      ```powershell
       ./MaxConnections.ps1
       ```
 
@@ -684,7 +712,7 @@ On the non-functioning Distributed Cache host, use the following procedures to r
   
       - At the SharePoint Management Shell command prompt, type the following syntax.
 
-          ```
+          ```powershell
           $instanceName ="SPDistributedCacheService Name=AppFabricCachingService"
          
           $serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $instanceName -and ($_.server.name) -eq $env:computername}
