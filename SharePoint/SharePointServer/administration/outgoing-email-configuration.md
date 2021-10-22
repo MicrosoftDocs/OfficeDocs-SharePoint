@@ -247,8 +247,8 @@ Follow these versions to specify credentials for SMTP authentication.
     
     $SmtpServer = "mail.example.com"
     $SmtpServerPort = 587
-    $FromAddress = 'user@example.com'
-    $ReplyToAddress = 'replyto@example.com'
+    $FromAddress = "user@example.com"
+    $ReplyToAddress = "replyto@example.com"
     $Credentials = Get-Credential
     $smtpcert = Get-SPCertificate -Identity "SMTP Cert"
     
