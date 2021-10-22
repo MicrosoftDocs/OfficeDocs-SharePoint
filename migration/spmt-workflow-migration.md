@@ -71,7 +71,47 @@ Follow the steps below to install the SPMT private build with supporting workflo
 
 3.	Unzip the package under a folder, also known as SPMT binary folder.
 4.	Copy the attached sample files under the SPMT binary folder. Replace values of variables in the scripts with the right ones of your own environment. The PowerShell scripts can be placed in folder other than SPMT binary folder. Make sure you change the path of “Import-Module” to SPMT binary folder.
- 
+
+## Sample PowerShell script
+
+```powershell
+
+Import-Module "$((Resolve-Path .\).Path)\Microsoft.SharePoint.MigrationTool.PowerShell.dll"
+
+clear
+Remove-Variable * -ErrorAction SilentlyContinue
+
+$currentFolder = (Resolve-Path .\).Path
+$userMappingFile = "$($currentFolder)\Sample-UserMap.csv"
+$defaultOwnerName = "please enter flow owner email here"
+
+$targetSite = "please enter destination site URL here"
+$targetUserName = "please enter destination site admin user email here"
+$targetPassWord = ConvertTo-SecureString -String "please enter destination user password here" -AsPlainText -Force 
+$targetCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $targetUserName, $targetPassWord
+
+Register-SPMTMigration -SPOCredential $targetCredential -UserMappingFile $userMappingFile -IgnoreUpdate -MigrationType WORKFLOW -DefaultFlowOwnerEmail $defaultOwnerName -Force
+
+$sourceSite = "please enter source site URL here"
+$sourceUsername = "please enter source site admin username here"
+$sourcePassword = ConvertTo-SecureString -String "please enter destination user password here" -AsPlainText -Force
+$sourceCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $sourceUsername, $sourcePassword
+Add-SPMTTask -SharePointSourceCredential $sourcecredential -SharePointSourceSiteUrl $sourceSite -TargetSiteUrl $targetSite `
+#-SourceList "please enter source list name here" -TargetList "please enter destination list name here"
+
+Write-Host "Start migration"
+$StartTime = [DateTime]::UtcNow
+
+# Let the migration run in background using NoShow mode
+Start-SPMTMigration
+
+$migration = Get-SPMTMigration
+
+# open report folder
+start $migration.ReportFolderPath
+
+```
+
 ## Migrate workflow to Power Automate
 
 PowerShell is available to help users migrate workflows to PA flows. 
