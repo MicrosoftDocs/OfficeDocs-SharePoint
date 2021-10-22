@@ -19,6 +19,8 @@ description: "Learn how to setup OIDC authentication in SharePoint Server."
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
+OpenID Connect 1.0 (OIDC) is a modern authentication protocol that makes it easy to integrate applications and devices with your organization's identity and authentication management solutions to better meet your evolving security and compliance needs.
+
 In SharePoint 2019 and prior versions, SharePoint Server supported three types of authentication methods:
 
 1. Windows authentication (NTLM, Kerberos, etc.)
@@ -130,7 +132,7 @@ Open jwks_uri (<https://login.microsoftonline.com/common/discovery/keys>), and s
 
 ### Step 2: Change SharePoint Farm properties
 
-In this step, it will need to modify farm properties. Start the SharePoint Management Shell and run the following script:
+In this step, you will need to modify farm properties. Start the SharePoint Management Shell and run the following script:
 
 ```powershell
 # Setup farm properties to work with OIDC
@@ -210,7 +212,7 @@ Here, `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet is extended to suppor
 
 #### Configure SharePoint to trust AAD OIDC by using metadata endpoint
 
-SharePoint Server Subscription Edition now supports OIDC meta data discovery capability during configuration.
+SharePoint Server Subscription Edition now supports OIDC metadata discovery capability during configuration.
 
 By using the metadata endpoint provided from OIDC identity provider, some of the configuration will be retrieved from OIDC provider metadata endpoint directly, including:
 
@@ -339,28 +341,161 @@ In this step, you create a team site collection with two administrators: One as 
 
 1. Open the SharePoint Central Administration site.
 2. Navigate to **Application Management** > **Create site collections** > **Create site collections**.
-3. Type a Title, Url, and select the template Team Site.
-4. In the Primary Site Collection Administrator section, click on the book icon to open the people picker dialog.
+3. Type a title, url, and select the template Team Site.
+4. In the Primary Site Collection Administrator section, click the :::image type="content" source="../media/Book-icon.png" alt-text="Book-icon"::: (book) icon to open the people picker dialog.
 5. In the people picker dialog, type the Windows administrator account, for example **yvand**.
 6. On the left, filter the list by selecting **Organizations**. Following is a sample output:
 
     :::image type="content" source="../media/select-people.png" alt-text="Select people":::
 
-7. Select the account and choose **OK**.
+7. Select the account and click **OK**.
 8. In the Secondary Site Collection Administrator section, select the book icon to open the people picker dialog.
 9. In the people picker dialog, type the exact email value of the AAD administrator account, for example **yvand@contoso.local**.
 10. On the left, filter the list by selecting **Contoso.local**. Following is a sample output:
 
     :::image type="content" source="../media/select-people-2.png" alt-text="Select people 2":::
 
-11. Select the account and choose **OK**.
+11. Select the account and choose **OK** to close the people picker dialog.
 12. Select **OK** to create the site collection.
 
 Once the site collection is created, you should be able to sign-in to it using either the Windows or the federated site collection administrator account.
 
 ### Step 7: Set up people picker
 
-In OIDC authentication, the people picker does not validate the input, which can lead to misspellings or users accidentally choosing the wrong claim type. This can be addressed using the new UPA backed claim provider in SharePoint Server. For more information on the new people picker feature, see [Enhanced People Picker for modern authentication](../administration/enhanced-people-picker-for-trusted-authentication-method.md).
+In OIDC authentication the people picker does not validate the input, which can lead to misspellings or users accidentally choosing the wrong claim type. This can be addressed using the new UPA backed claim provider in SharePoint Server.
+
+To do this, perform the following steps:
+
+1. Create new claim provider:
+
+    In the [previous step](#step-3-configure-sharepoint-to-trust-identity-provider), you have already created an OIDC `SPTrustedIdentityTokenIssuer` by using `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet. In this step, you create a claim provider which uses the User Profile Application service to search and resolve users and groups in the People Picker and specifies to use the OIDC `SPTrustedIdentityTokenIssuer`:
+
+    ```powershell
+    $claimprovider = New-SPClaimProvider - AssemblyName "Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c" – DisplayName “OIDC Claim Provider” - Type "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider" - TrustedTokenIssuer $tokenissuer
+    ```
+
+    There are three parameters that need to be specified here:
+
+    | Parameter | Description |
+    |------------|-------------|
+    | AssemblyName | To be specified as "Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c". |
+    | Type | To be specified as "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider" so that this command knows it needs to create a claim provider which uses UPA as the claim source. |
+    | TrustedTokenIssuer | To be specified as the OIDC `SPTrustedIdentityTokenIssuer` created in the previous step which will use this claim provider. This is a new parameter the user needs to provide when the type of the claim provider is "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider". |
+
+2. Connect `SPTrustedIdentityTokenIssuer` with `SPClaimProvider`:
+
+    In this step, the OIDC `SPTrustedIdentityTokenIssuer` uses the claim provider created in step 1 'Create new claim provider' for searching and resolving users and groups:
+
+    ```powershell
+    Set-SPTrustedIdentityTokenIssuer <token issuer name> -ClaimProvider <claim provider object> -IsOpenIDConnect
+    ```
+
+    An example of this command is:
+
+    ```powershell
+    $claimprovider = Get-SPClaimProvider -Identity "UPATest"
+    Set-SPTrustedIdentityTokenIssuer "ADFS Provider" -ClaimProvider $claimprovider -IsOpenIDConnect
+    ```
+
+    The following parameters need to be specified here:
+
+    | Parameter | Description |
+    |------------|-------------|
+    | token issuer name | The token issuer this people picker will use. |
+    | -ClaimProvider | The `SPClaimProvider` which will be used to generate claim. |
+    | -IsOpenIDConnect | It is needed when `SPTrustedIdentityTokenIssuer` is OIDC `SPTrustedIdentityTokenIssuer`. Without this parameter it will fail to configure OIDC `SPTrustedIdentityTokenIssuer`. |
+
+3. Synchronize profiles to UPSA:
+
+    Now, customers can start to synchronize profiles into the SharePoint User Profile Application service from the identity provider used in the organization so that the newly created claim provider can work on the correct data set.
+
+    There are two ways to synchronize user profiles into the SharePoint User Profile Application service:
+
+    - One way is creating a new SharePoint Active Directory Import (AD Import) connection with “**Trusted Claims Provider Authentication**” as the “**Authentication Provider Type**” in the connection setting. To utilize AD Import, see [Manage user profile synchronization in SharePoint Server](/sharepoint/administration/manage-profile-synchronization).
+
+        :::image type="content" source="../media/add-new-sync-connection-2.png" alt-text="add-new-sync-connection-2":::
+
+    - Another way is using Microsoft Identity Manager (MIM). To utilize MIM, see [Microsoft Identity Manager in SharePoint Servers 2016 and 2019](/sharepoint/administration/microsoft-identity-manager-in-sharepoint-server-2016).
+        - There should be two agents inside the MIM synchronization Manager UX after MIM is set up. One agent is used to import user profiles from the source IDP to the MIM database. The other agent is used to export user profiles from the MIM database to the SharePoint User Profile Application service.
+
+    During the synchronization, the following 3 properties need to be provided to the User Profile Application service:
+
+    - `SPS-ClaimID`
+    - `SPS-ClaimProviderID`
+    - `SPS-ClaimProviderType`
+
+    1. `SPS-ClaimID`
+
+        During the synchronization, you must pick which unique identity property in the source will be mapped to the “`SPS-ClaimID`” property in the User Profile Application service. We suggest using “Email” or “User Principal Name” for the “`SPS-ClaimID`”. The corresponding “IdentifierClaim” value needs to be set when token issuer is created from the [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) cmdlet.
+
+        For AD Import synchronization, the “**Central Administration -> Application Management -> Manage service applications -> User Profile Service Application -> Manage User Properties**” UX will allow administrators to edit the `SPS-ClaimID` to indicate which property in the source identity provider should be synchronized to `SPS-ClaimID`. (The display name of this property is “**Claim User Identifier**” in the UX, and it can be customized to other display names by the administrator.) For example, if email is to be used as the `SPS-ClaimID`, “**Claim User Identifier**” should be set to “Email” in this UX.
+
+        :::image type="content" source="../media/SPS-ClaimID-1.png" alt-text="SPS-ClaimID-1":::
+        :::image type="content" source="../media/SPS-ClaimID-2.png" alt-text="SPS-ClaimID-2":::
+        :::image type="content" source="../media/SPS-ClaimID-3.png" alt-text="SPS-ClaimID-3":::
+
+        For MIM synchronization, it is done by mapping “Email” or “User Principal Name” to “`SPS-ClaimID`” in the MIM database to the SharePoint User Profile Application service agent:
+        - In the MIM synchronization Service Manager, select the agent and open the “**Configure Attribute Flow**” UX. You can map “**mail**” to “`SPS-ClaimID`”.
+        :::image type="content" source="../media/SPS-ClaimID-4.png" alt-text="SPS-ClaimID-4":::
+
+    1. “`SPS-ClaimProviderID`” and “`SPS-ClaimProviderType`”.
+
+        For AD Import synchronization, these two properties can be modified in the “**User Profile Service Application -> Configure Synchronization Connections -> Create New Connection**” UX when you create a new AD Import synchronization connection.
+
+        - “`SPS-ClaimProviderID`” should be set to the provider name just created in step 1 by the `New-SPClaimProvider` cmdlet.
+        - “`SPS-ClaimProviderType`” should be set to “`SPTrustedBackedByUPAClaimProvider`”.
+
+        For MIM synchronization, these two properties can be set in the “**Configure Attribute Flow**” UX for the MIM database to SharePoint User Profile Application service agent:
+
+        - “`SPS-ClaimProviderType`” should be set to “**Trusted**” as Constant type.
+        - “`SPS-ClaimProviderID`” should be set to the provider name just created in step 1 by the `New-SPClaimProvider` cmdlet.
+        :::image type="content" source="../media/configure-attribute-flow-2.png" alt-text="configure-attribute-flow-2":::
+
+4. Make groups searchable:
+
+    To enable the People Picker control to work with groups, the following steps need to be run:
+    1. Group object must have a property named “SID” of type “groupid” in the identity provider.
+
+        You can create a `ClaimTypeMapping` object by using [New-SPClaimTypeMapping](/powershell/module/sharepoint-server/new-spclaimtypemapping) and then provide this object to [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) cmdlet with `-ClaimsMappings` parameter.
+
+        ```powershell
+        $sidClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.microsoft.com/ws/2008/06/identity/claims/groupsid" -IncomingClaimTypeDisplayName "SID" -SameAsIncoming $tokenissuer = New-SPTrustedIdentityTokenIssuer -ClaimsMappings $sidClaimMap, $emailClaimMap
+        ```
+
+        This sample cmdlet first creates a 'claimmap' object of type 'groupsid' and indicates it works with the “SID” property of the group and then it creates a new identity issuer which can understand this mapping.
+
+    2. Synchronize “SID” property of groups from the identity provider to the “SID” property in User Profile Application service.
+        1. For AD Import synchronization, SID will be synchronized automatically without additional setup from the source identity provider to the SharePoint User Profile Application service.
+        1. For MIM synchronization, the property mapping needs to be taken from the identity provider to MIM and then from MIM to the SharePoint User Profile Application service so that MIM can synchronize the group “SID” from the identity provider to the SharePoint User Profile Application service. It’s similar to how we do user profile synchronization for the “`SPS-ClaimID`” property for user profiles.
+
+    3. For MIM synchronization, “sAMAccountName” should also be mapped to “accountName” from MIM to the SharePoint User Profile Application service.
+
+5. Enable fields being searchable in UPSA:
+
+    To make people picker work, the final step is to enable fields to be searchable in UPSA.
+
+    Users can set which properties are searched by the People Picker by following this sample PowerShell script:
+
+    ```powershell
+    #Get the property list of UPSA connected with the web application 
+    $site = $(Get-SPWebApplication $WebApplicationName).Sites[0] 
+    $context= Get-SPServiceContext $site 
+    $psm = [Microsoft.Office.Server.UserProfiles.ProfileSubTypeManager]::Get($context) 
+    $ps = 
+    $psm.GetProfileSubtype([Microsoft.Office.Server.UserProfiles.ProfileSubtypeManager]::GetDefaultProfileName([Microsoft.Office.Server.UserProfiles.ProfileType]::User)) 
+    $properties = $ps.Properties
+
+    #Enable people picker search for property name “FistName”, “LastName” and “SPS-ClaimID” 
+    $PropertyNames = 'FirstName', 'LastName', 'SPS-ClaimID'
+    foreach ($p in $PropertyNames) { 
+        $property = $properties.GetPropertyByName($p) 
+        if ($property) { 
+            $property.CoreProperty.IsPeoplePickerSearchable = $true 
+            $property.CoreProperty.Commit() 
+            $property.Commit() 
+        } 
+    } 
+    ```
 
 ## Setup OIDC authentication in SharePoint Server with AD FS
 
@@ -369,7 +504,7 @@ In OIDC authentication, the people picker does not validate the input, which can
 Ensure you have the following resources before you configure with AD FS OIDC:
 
 1. A SharePoint Server farm.
-2. AD FS in Windows Server 2016 TP4 or later, already created, with the public key of the AD FS signing certificate exported in a .cer file.
+2. AD FS in Windows Server 2016 TP4 or later, already created, with the public key of the AD FS signing certificate exported in a `.cer` file.
 
 This article uses the following values for:
 
@@ -402,7 +537,7 @@ If you choose to use AD FS as identity provider, perform the following steps to 
 
     :::image type="content" source="../media/add-application-group-wizard-3.png" alt-text="Add Application Group Wizard 3":::
 
-6. In the the **Complete** page, click **Close**.
+6. In the **Complete** page, click **Close**.
 7. Export Token-signing certificate from AD FS. This token-signing certificate will be used in SharePoint setup.
 
     :::image type="content" source="../media/adfs-certificates.png" alt-text="AD FS Certificate Export 1":::
@@ -455,7 +590,7 @@ If you are setting OIDC with SharePoint Server, nbf claim must be configured in 
 
 ### Step 2: Change SharePoint Farm properties
 
-In this step, it will need to modify the farm properties. Start the SharePoint Management Shell and run the following script:
+In this step, you will need to modify the farm properties. Start the SharePoint Management Shell and run the following script:
 
 ```powershell
 # Setup farm properties to work with OIDC
@@ -567,9 +702,8 @@ There are two possible configurations:
 
       :::image type="content" source="../media/authentication-providers-3.jpg" alt-text="Authentication Providers 3":::
 
-  5. Open the SharePoint Central Administration site.
-  6. Navigate to **System Settings** > **Configure Alternate Access Mappings** > **Alternate Access Mapping Collection**.
-  7. Filter the display with the new web application and confirm that you see something like this:
+  5. Navigate to **System Settings** > **Configure Alternate Access Mappings** > **Alternate Access Mapping Collection**.
+  6. Filter the display with the new web application and confirm that you see something like this:
 
       :::image type="content" source="../media/alternate-access-mapping-collection.png" alt-text="Alternate Access Mapping Collection":::
 
@@ -646,4 +780,4 @@ Once the site collection is created, you should be able to sign-in to it using e
 
 ### Step 7: Set up people picker
 
-In OIDC authentication, the people picker does not validate the input, which can lead to misspellings or users accidentally choosing the wrong claim type. This can be addressed using the new UPA backed claim provider in SharePoint Server. For more information on the new people picker feature, see [Enhanced People Picker for modern authentication](../administration/enhanced-people-picker-for-trusted-authentication-method.md).
+For more information on how to set up people picker, see [Step 7: Set up people picker](#step-7-set-up-people-picker).
