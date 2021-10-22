@@ -25,8 +25,9 @@ description: "This article introduces the topic that describes software requirem
 ## Operating systems
 
 SharePoint Server supports the following operating systems:
-- [Windows Server 2019](https://www.microsoft.com/en-in/evalcenter/evaluate-windows-server-2019) Standard or Datacenter
-- [Windows Server 2022](https://www.microsoft.com/en-in/evalcenter/evaluate-windows-server-2022-preview) Standard or Datacenter
+
+- [Windows Server 2019](https://www.microsoft.com/evalcenter/evaluate-windows-server-2019) Standard or Datacenter
+- [Windows Server 2022](https://www.microsoft.com/evalcenter/evaluate-windows-server-2022-preview) Standard or Datacenter
 
 Earlier versions of windows server are not supported. SharePoint server supports both the Standard and Datacenter editions of windows server, as well as both the Windows Server with Desktop Experience and windows server core installation options.
 
@@ -45,9 +46,8 @@ SharePoint Server Subscription Edition also requires additional software prerequ
 The SharePoint Server Subscription Edition prerequisite installer `prerequisiteinstaller.exe` installs the following software, if it has not already been installed on the target server, in the following order:
 
 1. Web Server (IIS) Role
-2. [Microsoft WCF Data Services 5.6](https://go.microsoft.com/fwlink/?LinkId=320724)
-3. [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?LinkId=2085155)
-4. [Visual C++ Redistributable Package for Visual Studio 2015-2019](https://go.microsoft.com/fwlink/?linkid=2130438)
+2. [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?LinkId=2085155)
+3. [Visual C++ Redistributable Package for Visual Studio 2015-2019](https://go.microsoft.com/fwlink/?linkid=2130438)
 
 You can run `prerequisiteinstaller.exe` at a command prompt with the following options. When you run `prerequisiteinstaller.exe` at a command prompt, you might be asked to restart the server one or more times during the installation process. After restarting, you should continue the prerequisite installation by running `prerequisiteinstaller.exe` with the /continue option.
 
@@ -59,21 +59,9 @@ You can run `prerequisiteinstaller.exe` at a command prompt with the following o
 
 The installer installs from the file that you specify in the command-line options described in the following list. In this list, the "file" signifies the file from which you want to install. If you do not specify the `"file" option, the installer downloads the file from the Internet and installs it. If the option does not apply to the current operating system, it is ignored.
 
-- **/WCFDataServices56:<_file_>** Install Microsoft WCF Data Services 5.6 from <_file_>.
-
 - **/DotNet48:<_file_>** Install Microsoft .NET Framework 4.8 from <_file_>.
 
 - **/MSVCRT142:<_file_>** Install Visual C++ Redistributable Package for Visual Studio 2015-2019 from <_file_>.
-
-### Installation options
-
-Certain prerequisites are installed by the prerequisite installer with specific options. Those prerequisites with specific installation options are listed below with the options that are used by the prerequisite installer.
-- Microsoft WCF Data Services
-  
-  /quiet
-
-The prerequisite installer creates log files at **%TEMP%\prerequisiteinstaller.<date>.<time>**.log. You can check these log files for specific details about all changes the installer makes to the target computer.
-
 
 ### Manually configure Windows Server Roles and Features
 
