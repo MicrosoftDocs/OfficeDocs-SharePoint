@@ -88,7 +88,7 @@ To get the latest data for a report, run the report. You can run all reports or 
 > [!NOTE]
 > Each report can run only once in 24 hours.
 
-:::image type="content" source="media/sensitivity-labels-reports-link.png" alt-text="Reports for sites with files labeled "Confidential" and "Highly confidential":::
+:::image type="content" source="media/sensitivity-labels-reports-link.png" alt-text="Reports for sites with files labeled Confidential and Highly confidential":::
 
 ### Download reports
 
