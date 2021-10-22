@@ -389,7 +389,7 @@ The modern search result page will now show thumbnails for popular document and 
 <a name="sslcm"> </a>
 ### SSL certificate management
   
-SharePoint farm administrators can now directly manage the deployment and lifecycle of SSL/TLS certificates in their SharePoint Server farms.  SharePoint certificate management is built on top of [Cryptography API: Next Generation](/windows/win32/seccng/cng-portal), a modern and flexible infrastructure that supports both Elliptic Curve Cryptography (ECC) and classic RSA certificates.
+SharePoint farm administrators can now directly manage the deployment and lifecycle of SSL/TLS certificates in their SharePoint Server farms.  SharePoint certificate management is built on top of [Cryptography API: Next Generation](/windows/win32/seccng/cng-portal), a modern, and flexible infrastructure that supports both Elliptic Curve Cryptography (ECC) and classic RSA certificates.
 
 Certificate management capabilities include:
   
@@ -509,9 +509,9 @@ A Document Set is a group of related documents that you can manage as a single e
 <a name="blob"> </a>
 ### Remote Share Provider  
   
-In SharePoint Server Subscription Edition, Remote Share Provider, a new RBS (Remote BLOB Storage) provider, is introduced to enable customer to offload BLOB storages from SQL server to low cost remote Server Message Block (SMB) systems. 
+In SharePoint Server Subscription Edition, Remote Share Provider, a new RBS (Remote BLOB Storage) provider, is introduced to enable customer to offload BLOB storages from SQL server to low-cost remote Server Message Block (SMB) systems. 
 
-By using this new technology, customer can shift data storage from costly SQL server to low cost SMB file storage. It can also incrase the total size of the content in a content database by offloading BLOBs to a remote data storage system.
+By using this new technology, customer can shift data storage from costly SQL server to low-cost SMB file storage. It can also increase the total size of the content in a content database by offloading BLOBs to a remote data storage system.
 
 <a name="rspdt"> </a>
 ### Remote Share Provider diagnostic tool
