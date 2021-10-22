@@ -71,7 +71,7 @@ Follow these steps to transfer ownership of a OneDrive to a different user, or g
     ![Manage the owners of a OneDrive](media/120f7c8c-262f-4a41-a484-e830c662f534.png)
   
 > [!WARNING]
-> Do not remove a user as the admin of their own OneDrive. Doing this causes many experiences to break.
+> Do not change the Primary Site Collection Administrator or remove a user as the admin of their own OneDrive. Doing this is not supported and causes many experiences to break.
 
 For info about automatically transferring ownership of OneDrive to a user's manager when the user account is marked for deletion, see [Set up access delegation](/onedrive/retention-and-deletion).
   
