@@ -22,14 +22,14 @@ description: "In SharePoint Server Subscription Edition, People Picker is enhanc
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-When modern authentication (trusted identity provider) such as SAML 1.1 or OIDC 1.0 is used, the People Picker control can’t search, resolve, and validate users and groups without writing a custom claim provider through C#.
+When modern authentication (trusted identity provider) such as Security Assertion Markup Language (SAML) 1.1 or OpenID Connect (OIDC) 1.0 is used, the People Picker control can’t search, resolve, and validate users and groups without writing a custom claim provider through C#.
 
 In SharePoint Server Subscription Edition, People Picker is enhanced to search and pick user in User Profile service application to help you avoid creating a customized claim provider. Rather than writing a piece of C# code to implement a new claim provider, customers can simply synchronize user profiles from their identity provider to the User Profile service application to make People Picker work.
 
 > [!IMPORTANT]
 > This article describes how to setup UPA-backed people picker for SAML. For setting UPA-backed people picker for OIDC, see [**OIDC ADFS guide**](/SharePoint/security-for-sharepoint-server/oidc-1-0-authentication#step-7-set-up-people-picker) and [**OIDC AAD guide**](/SharePoint/security-for-sharepoint-server/oidc-1-0-authentication#step-7-set-up-people-picker-1).
 
-These are the configuration steps to make People Picker work.
+Following are the configuration steps to make People Picker work.
 
 ## Step 1. Create a UPABacked SPTrustedIdentityTokenIssuer
 
@@ -85,7 +85,7 @@ New-SPTrustedIdentityTokenIssuer -Name "UPATest" -Description "Contoso.local" -C
 
 ## Step 2. Synchronize profiles to UPSA
 
-You can, now, start synchronizing profiles into the SharePoint User Profile service application from the identity provider that are used in the organization, so that the newly created claim provider can work on the correct data set.
+You can now start synchronizing profiles into the SharePoint User Profile service application from the identity provider that are used in the organization, so that the newly created claim provider can work on the correct data set.
 
 Following are the two ways to synchronize user profiles into the SharePoint User Profile service application:
 
