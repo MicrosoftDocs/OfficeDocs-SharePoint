@@ -30,15 +30,15 @@ The following table provides the list of new features and updates to existing fe
 
 |**Feature Group**|**Features**|**More info**|
 |:-----|:-----|:-----|
-|Authentication and Identity Management <br/> | <ul><li>Adds support for OpenID Connect (OIDC) 1.0</li><li>Enhanced People Picker for modern authentication</li><li>Improved Integrated Windows authentication over TLS</li></ul> | <ul><li>For more information, see [OpenID Connect (OIDC) 1.0 authentication](#OIDCa).</li><li>For more information, see [People Picker improvement for modern authentication](#people).</li><li>For more information, see [Reduced Integrated Windows authentication latency over TLS](#IIW).</li></ul> | 
-|Deployment and Upgrade <br/> | <ul><li>Adds support for Windows Server 2022</li><li>Adds support for Windows Server Core</li><li>Supports "N - 2" upgrading from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)</li><li>AppFabric Cache integration</li></ul> | <ul><li>For more information, see [Windows Server 2022](#server).</li><li>For more information, see [Windows Server Core](#core).</li><li>For more information, see [Upgrading directly from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)](#upgrade).</li><li>For more information, see [AppFabric Cache integration](#cache).</li></ul> |
-|Farm Administration <br/> | <ul><li>Adds support for host header bindings on Central Admin web application</li><li>Adds support for Server Name Indication (SNI) for host header bindings</li><li>Change web application bindings</li><li>Easier AAM configuration for Central Administration</li><li>Federated service applications support "N - 2" content farms (SharePoint 2016, 2019, and Subscription Edition)</li><li>Support for client certificate authentication to SMTP servers</li></ul> | <ul><li>For more information, see [Central Administration now supports host header bindings](#cenadmin).</li><li>For more information, see [Server Name Indication](#sni).</li><li>For more information, see [Change web application IIS bindings](#webiis).</li><li>For more information, see [Easier AAM configuration for Central Administration](#aamcon).</li><li>For more information, see [Federated service applications support "N - 2" content farms (SharePoint 2016, 2019, and Subscription Edition)](#fedral).</li><li>For more information, see [Client certificate authentication to SMTP servers](#client).</li></ul> | 
-|Health and Monitoring <br/> | <ul><li>Certificate notification contacts haven't been configured</li><li>Upcoming SSL certificate expirations</li><li>SSL certificates are about to expire</li><li>SSL certificates have expired</li></ul> | <ul><li>For more information, see [Certificate notification contacts haven't been configured](#cncc).</li><li>For more information, see [Upcoming SSL certificate expirations](#usce).</li><li>For more information, see [SSL certificates are about to expire](#sslcate).</li><li>For more information, see [SSL certificates have expired](#sslche).</li></ul> |
+|Authentication and Identity Management <br/> | <ul><li>Support for OpenID Connect (OIDC) 1.0</li><li>Enhanced People Picker for modern authentication</li><li>Improved Integrated Windows authentication over TLS</li></ul> | <ul><li>For more information, see [OpenID Connect (OIDC) 1.0 authentication](#OIDCa).</li><li>For more information, see [People Picker improvement for modern authentication](#people).</li><li>For more information, see [Reduced Integrated Windows authentication latency over TLS](#IIW).</li></ul> | 
+|Deployment and Upgrade <br/> | <ul><li>Support for Windows Server 2022</li><li>Support for Windows Server Core</li><li>Support for "N - 2" upgrade from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)</li><li>AppFabric Cache integration</li></ul></ul> | <ul><li>For more information, see [Windows Server 2022](#server).</li><li>For more information, see [Windows Server Core](#core).</li><li>For more information, see [Upgrading directly from SharePoint 2016 and SharePoint 2019 (and Project Server 2016 and 2019)](#upgrade).</li><li>For more information, see [AppFabric Cache integration](#cache).</li></ul> |
+|Farm Administration <br/> | <ul><li>Support for host header bindings on Central Administration web application</li><li>Support for Server Name Indication (SNI) for host header bindings</li><li>Support for changing web application bindings</li><li>Easier AAM configuration for Central Administration</li><li>Federated service applications support "N - 2" consuming farms (SharePoint 2016, 2019, and Subscription Edition)</li><li>Support for client certificate authentication to SMTP servers</li></ul> | <ul><li>For more information, see [Central Administration now supports host header bindings](#cenadmin).</li><li>For more information, see [Server Name Indication](#sni).</li><li>For more information, see [Change web application IIS bindings](#webiis).</li><li>For more information, see [Easier AAM configuration for Central Administration](#aamcon).</li><li>For more information, see [Federated service applications support "N - 2" consuming farms (SharePoint 2016, 2019, and Subscription Edition)](#fedral).</li><li>For more information, see [Client certificate authentication to SMTP servers](#client).</li></ul> |
+|Health and Monitoring <br/> | New Health Analyzer rules:<p/><ul><li>Certificate notification contacts haven't been configured</li><li>Upcoming SSL certificate expirations</li><li>SSL certificates are about to expire</li><li>SSL certificates have expired</li></ul> | <ul><li>For more information, see [Certificate notification contacts haven't been configured](#cncc).</li><li>For more information, see [Upcoming SSL certificate expirations](#usce).</li><li>For more information, see [SSL certificates are about to expire](#sslcate).</li><li>For more information, see [SSL certificates have expired](#sslche).</li></ul> |
 |Hybrid <br/> | <ul><li>Better integration with Power Apps and Power Automate</li><li>Improved hybrid search troubleshooting</li></ul> | <ul><li>For more information, see [Power Apps and Power Automate integration](#power).</li><li>For more information, see [Improved hybrid search troubleshooting](#ihst).</li></ul> | 
-|PowerShell <br/> | <ul><li>SharePoint PowerShell cmdlets converted from snap-in to module</li><li>Distributed Cache cmdlets</li><li>New-SPWebApplication creates web applications in Windows claims mode by default</li><li>New People Picker cmdlets</li><li>Remove-SPConfigurationObject cmdlet</li><li>SharePoint Volume Shadow Copy Service writer cmdlets</li></ul> | <ul><li>For more information, see [SharePoint PowerShell cmdlets converted from snap-in to module](#snap).</li><li>For more information, see [Distributed Cache cmdlets](#dcc).</li><li>For more information, see [New-SPWebApplication PowerShell cmdlet](#spweb).</li><li>For more information, see [New People Picker cmdlets](#nppc)</li><li>For more information, see [Introducing Remove-SPConfigurationObject PowerShell cmdlet](#resp).</li><li>For more information, see [SharePoint Volume Shadow Copy Service writer cmdlets](#vscs).</li></ul> |
+|PowerShell <br/> | <ul><li>SharePoint PowerShell cmdlets converted from snap-in to module</li><li>SharePoint Management Shell warns when not running as an elevated administrator</li><li>Distributed Cache cmdlets</li><li>New-SPWebApplication creates web applications in Windows claims mode by default</li><li>New People Picker cmdlets</li><li>Remove-SPConfigurationObject cmdlet</li><li>SharePoint Volume Shadow Copy Service writer cmdlets</li></ul> | <ul><li>For more information, see [SharePoint PowerShell cmdlets converted from snap-in to module](#snap).</li><li>For more information, see [SharePoint Management Shell warns when not running as an elevated administrator](#shellelevate).</li><li>For more information, see [Distributed Cache cmdlets](#dcc).</li><li>For more information, see [New-SPWebApplication PowerShell cmdlet](#spweb).</li><li>For more information, see [New People Picker cmdlets](#nppc)</li><li>For more information, see [Introducing Remove-SPConfigurationObject PowerShell cmdlet](#resp).</li><li>For more information, see [SharePoint Volume Shadow Copy Service writer cmdlets](#vscs).</li></ul> |
 |Search <br/> | <ul><li>Search result page modernization</li><li>Support for returning list content in modern results page</li><li>Thumbnails in modern search result page</li></ul> | <ul><li>For more information, see [Search result page modernization](#seres).</li><li>For more information, see [Support for returning list content in modern results page](#listmrp).</li><li>For more information, see [Thumbnails in modern search result page](#tmsr).</li></ul> |
-|Security <br/> | <ul><li>SSL certificate management</li><li>Adds support for TLS 1.3</li><li>Strong TLS encryption by default</li><li>Improved ASP.NET view state security and key management</li></ul> | <ul><li>For more information, see [SSL certificate management](#sslcm).</li><li>For more information, see [TLS 1.3](#tlss).</li><li>For more information, see [Strong TLS encryption by default](#tlsed).</li><li>For more information, see [Improved ASP.NET view state security and key management](#aspnet).</li></ul> |
-|Sites, Lists, and Libraries <br/> | <ul><li>Accessibility improvements</li><li>Brick layout for document library thumbnails and image gallery web part</li><li>Bulk check-in and check-out</li><li>Bulk download files from document libraries and OneDrive personal sites</li><li>Image and document thumbnails in document libraries and picture libraries</li><li>List and library modern web parts support adding/editing/deleting content</li><li>Modern document sets</li></ul> | <ul><li>For more information, see [Accessibility improvements across modern UX](#aiamu).</li><li>For more information, see [Brick layout for document library thumbnails and image gallery web part](#briclil).</li><li>For more information, see [Bulk check-in/check-out in modern Document library experience](#bulkinout).</li><li>For more information, see [Bulk download files from document libraries and OneDrive personal sites](#bulkdod).</li><li>For more information, see [Image and document thumbnails in document libraries and picture libraries](#idt).</li><li>For more information, see [List and library modern web parts support adding/editing/deleting content](#llmw).</li><li>For more information, see [Modern document sets](#mds).</li></ul> |
+|Security <br/> | <ul><li>SSL certificate management</li><li>Support for TLS 1.3</li><li>Strong TLS encryption by default</li><li>Improved ASP.NET view state security and key management</li></ul> | <ul><li>For more information, see [SSL certificate management](#sslcm).</li><li>For more information, see [TLS 1.3](#tlss).</li><li>For more information, see [Strong TLS encryption by default](#tlsed).</li><li>For more information, see [Improved ASP.NET view state security and key management](#aspnet).</li></ul> |
+|Sites, Lists, and Libraries <br/> | <ul><li>Accessibility improvements</li><li>Brick layout for document library thumbnails and image gallery web part</li><li>Bulk check-in and check-out</li><li>Bulk file download from document libraries and OneDrive personal sites</li><li>Image and document thumbnails in document libraries and picture libraries</li><li>Modern list and library web parts support adding, editing, and deleting content</li><li>Modern document sets</li></ul> | <ul><li>For more information, see [Accessibility improvements across modern UX](#aiamu).</li><li>For more information, see [Brick layout for document library thumbnails and image gallery web part](#briclil).</li><li>For more information, see [Bulk check-in/check-out in modern Document library experience](#bulkinout).</li><li>For more information, see [Bulk file download from document libraries and OneDrive personal sites](#bulkdod).</li><li>For more information, see [Image and document thumbnails in document libraries and picture libraries](#idt).</li><li>For more information, see [Modern list and library web parts support adding, editing, and deleting content](#llmw).</li><li>For more information, see [Modern document sets](#mds).</li></ul> |
 |Storage <br/> | <ul><li>New BLOB storage provider: Remote Share Provider</li><li>Remote Share Provider diagnostic tool</li></ul> | <ul><li>For more information, see [Remote Share Provider](#blob).</li><li>For more information, see [Remote Share Provider diagnostic tool](#rspdt).</li></ul> |
 
 ## Detailed description of features
@@ -59,7 +59,7 @@ To set up OIDC authentication in SharePoint Server, see [OpenID Connect 1.0 auth
 <a name="people"> </a>
 ### People Picker improvement for modern authentication
 
-When modern authentication (trusted identity provider) such as SAML 1.1 or OIDC 1.0 is used, the People Picker control can’t search, resolve, and validate users and groups without writing a custom claim provider through C#.
+When modern authentication (a trusted identity provider) such as SAML 1.1 or OIDC 1.0 is used, the People Picker control can’t search, resolve, and validate users and groups without writing a custom claim provider through C#.
 
 In SharePoint Server Subscription Edition, the People Picker has been enhanced to allow resolving users and groups based on their profiles in the User Profile Application (UPA). UPA must be configured to synchronize users and groups from the trusted identity provider membership store. This allows the People Picker to only resolve valid users and groups without requiring a custom claims provider.
 
@@ -144,7 +144,7 @@ To configure this, specify the host header binding with the `-HostHeader` parame
 <a name="sni"> </a>
 ### Server Name Indication (SNI)
 
-Server Name Indication (SNI) allows multiple IIS websites with unique host headers and unique server certificates to share the same Secure Sockets Layer (SSL) port. The server examines the server name specified by the client during the SSL handshake to determine which server certificate should be used to complete the connection. Your IIS website must have a host header and must use SSL to use Server Name Indication. If Server Name Indication isn't used, all IIS websites sharing the same SSL port will share the same server certificate.
+Server Name Indication (SNI) allows multiple IIS websites with unique host headers and unique server certificates share the same Secure Sockets Layer (SSL) port. The server examines the server name specified by the client during the SSL handshake to determine which server certificate should be used to complete the connection. Your IIS website must have a host header and must use SSL to use Server Name Indication. If Server Name Indication isn't used, all IIS websites sharing the same SSL port will share the same server certificate.
 
 Server Name Indication can be configured by the **Use Server Name Indication** setting on the **Create New Web Application** and **Extend Web Application** pages in SharePoint Central Administration.  
 
@@ -165,15 +165,11 @@ It can also be configured by the following commands:
 <a name="webiis"> </a>
 ### Change web application IIS bindings
   
-You can change your web application IIS bindings in SharePoint Server Subscription Edition without having to first delete and then recreate your web applications. This functionality is supported in all web application zones.
+In previous versions of SharePoint, it was difficult to change the IIS bindings of your SharePoint web application once it was created. You could try to remove a web application from a zone and then re-extend it to the zone with updated bindings, but this was a time consuming operation and risked potentially losing customizations in that IIS web site. Or you could manually edit the bindings of the IIS web site itself, but SharePoint would be unaware of such manual changes, so you risked SharePoint overwriting those bindings at any time.
 
-To change your web application IIS binding in PowerShell, use the `Set-SPWebApplication` cmdlet. For example, you can run the following PowerShell command to change a SharePoint web application at http://servername on HTTP port 80 to use a host header binding "sharepoint.contoso.com" on SSL port 443:
+You can now easily change your web application IIS bindings through PowerShell or Central Administration without having to first delete and then recreate your web applications. This functionality is supported in all web application zones.
 
- ```PowerShell
-Set-SPWebApplication -Identity http://servername -Zone Default -Port 443 -SecureSocketsLayer -HostHeader sharepoint.contoso.com -Url https://sharepoint.contoso.com
-```
-
-You can also change the SharePoint web application IIS bindings through Central Administration. The SharePoint farm administrators can use the Edit button in the **Web Application Management** page in Central Administration, to select a web application's zone. Here you can change the IIS bindings, SSL certificate, and public URL of this web application's zone. This functionality is only available to users who are a member of the local Administrators group on the server.
+For more information, see [Update a web application URL and IIS bindings for SharePoint Server Subscription Edition](../administration/change-web-application-bindings.md).
 
 <a name="aamcon"> </a>
 ### Easier AAM configuration for Central Administration
@@ -187,7 +183,7 @@ You can now specify the public AAM URL directly in the Central Administration co
  - `PSConfig.exe -cmd adminvs`
 
 <a name="fedral"> </a>  
-### Federated service applications support "N - 2" content farms (SharePoint 2016, 2019, and Subscription Edition)
+### Federated service applications support "N - 2" consuming farms (SharePoint 2016, 2019, and Subscription Edition)
   
 In SharePoint Server, some service applications can be shared across server farms. Microsoft supports service applications published by a SharePoint Server Subscription Edition farm being consumed by the following versions of SharePoint Server:
 
@@ -202,9 +198,13 @@ For more information, see [Share service applications across farms in SharePoint
 <a name="client"> </a>
 ### Client certificate authentication to SMTP servers
 
-You can now authenticate to Simple Mail Transfer Protocol (SMTP) servers using client certificates. You need to import a client certificate into your farm using our SSL certificate management, then assign that client certificate to the outgoing email settings within the SharePoint farm.
+You can now authenticate to Simple Mail Transfer Protocol (SMTP) servers using client certificates. This is typically used for more advanced security configurations where password-based authentication isn't sufficient.
+
+For more information, see [Plan outgoing email for a SharePoint Server farm](../administration/outgoing-email-planning.md).
 
 ## Health and Monitoring
+
+The following Health Analyzer rules have been added:
 
 <a name="cncc"> </a>
 ### Certificate notification contacts haven't been configured
@@ -264,11 +264,24 @@ It includes the following benefits:
 > [!NOTE]
 > The SharePoint Management Shell will continue to be included in the product to provide a familiar PowerShell UI for managing SharePoint Server. The SharePoint Server PowerShell cmdlets will continue to require Windows PowerShell. These cmdlets will not be compatible with PowerShell Core 6.x or PowerShell 7.x.
 
+<a name="shellelevate"> </a>
+### SharePoint Management Shell warns when not running as an elevated administrator
+
+Some SharePoint PowerShell cmdlets require the user to be an elevated administrator to run successfully. However, the Windows User Account Control feature can block a user's elevated administrator token unless PowerShell is launched with the "Run as Administrator" option. To prevent confusion about whether you're running as an elevated administrator, the SharePoint Management Shell will now notify users if they're not running as an elevated administrator when it's first launched.
+
 <a name="dcc"> </a>
 ### Distributed Cache cmdlets
   
 The following SharePoint cmdlets have been added to help manage Distributed Cache in SharePoint Server Subscription Edition. These cmdlets are equivalent to the direct Distributed Cache cmdlets that were available in the standalone AppFabric Distributed Cache product used with previous versions of SharePoint Server.
-  
+
+ - `New-SPCache`: Creates a new named cache.
+
+ - `Get-SPCache`: Gets the cache information from the cache cluster.
+
+ - `Get-SPCacheStatistics`: Gets the name cache state.
+
+ - `Get-SPCacheHost`: Gets the cache host information from the cache cluster.
+ 
  - `Start-SPCacheCluster`: Starts the Caching Service on all cache hosts in the cluster.
    
  - `Stop-SPCacheCluster`: Stops the Caching Service on all cache hosts in the cluster.
@@ -278,22 +291,10 @@ The following SharePoint cmdlets have been added to help manage Distributed Cach
  - `Export-SPCacheClusterConfig -Path <String>`: Export cache cluster configuration details to an XML file.
    
  - `Get-SPCacheClusterHealth`: Returns statistics for all of the named caches in the cache cluster.
-  
-The `Get-SPCacheHost` PowerShell cmdlet is added to help manage the SharePoint Distributed Cache feature. It provides the same functionality as the `Get-CacheHost` cmdlet in previous versions of AppFabric Caching.
 
 The `Stop-SPDistributedCacheServiceInstance` cmdlet is improved to better support graceful shutdowns. You can specify the `-Graceful` switch parameter with the cmdlet to ensure that the cached data in a Distributed Cache service instance is transferred to another Distributed Cache service instance before the first service instance shuts down. 
 
 You can specify the time limit for a graceful shutdown data transfer to complete via the `-Timeout` parameter.  If the `-Timeout` parameter isn't specified, the default is 900 seconds (5 minutes). You can also specify the `-Force` switch parameter to force a Distributed Cache service instance to shut down, even if it isn’t able to complete a graceful shutdown before it times out.
-
-To improve the management of Distributed Cache in SharePoint Server Subscription Edition, the following new PowerShell cmdlets are introduced:
-
- - `New-SPCache`
- 
- - `Get-SPCache`
- 
- - `Get-SPCacheStatistics`
- 
-These cmdlets work similar to the `New-Cache`,`Get-Cache`, and `Get-CacheStatistics` cmdlets of AppFabric Cache in previous versions of SharePoint.
 
 <a name="spweb"> </a>
 ### New-SPWebApplication PowerShell cmdlet
@@ -356,7 +357,7 @@ To improve the management of the [SharePoint Volume Shadow Copy Service (VSS) wr
  
  - `Unregister-SPVssWriter`
  
-These cmdlets perform the same actions as the [stsadm.exe -o registerwsswriter](https://docs.microsoft.com/previous-versions/office/sharepoint-2007-products-and-technologies/cc262819(v=office.12))and [stsadm.exe -o unregisterwsswriter](https://docs.microsoft.com/previous-versions/office/sharepoint-2007-products-and-technologies/cc262416(v=office.12)) commands.
+These cmdlets perform the same actions as the [stsadm.exe -o registerwsswriter](https://docs.microsoft.com/previous-versions/office/sharepoint-2007-products-and-technologies/cc262819(v=office.12)) and [stsadm.exe -o unregisterwsswriter](https://docs.microsoft.com/previous-versions/office/sharepoint-2007-products-and-technologies/cc262416(v=office.12)) commands.
 
 ## Search
 
@@ -371,7 +372,7 @@ The following features have been modernized and introduced into this release:
  
  - Content type filters including **All**, **Files**, **Sites**, and **News**. **All** is introduced to have the results of **Files**, **Sites**, and **News**.
  
- - Duration filter. Filter content by time scope.
+ - Duration filter to filter content by time scope.
 
 <a name="listmrp"> </a>
 ### Support for returning list content in modern results page
@@ -388,27 +389,27 @@ The modern search result page will now show thumbnails for popular document and 
 <a name="sslcm"> </a>
 ### SSL certificate management
   
-SharePoint farm administrators can now directly manage the deployment and lifecycle of SSL/TLS certificates in their SharePoint Server farms. Certificate management is built on a modern and flexible infrastructure that supports both Elliptic Curve Cryptography (ECC) and classic RSA certificates.
+SharePoint farm administrators can now directly manage the deployment and lifecycle of SSL/TLS certificates in their SharePoint Server farms.  SharePoint certificate management is built on top of [Cryptography API: Next Generation](/windows/win32/seccng/cng-portal), a modern and flexible infrastructure that supports both Elliptic Curve Cryptography (ECC) and classic RSA certificates.
 
 Certificate management capabilities include:
   
-  - Generating new/renewal certificate signing requests (CSRs) to submit to their certificate authorities.
+  - Generating new and renewal certificate signing requests (CSRs) to submit to certificate authorities.
   
-  - Importing/exporting certificates, with or without private keys.
+  - Importing and exporting certificates, with or without private keys.
 
   - Viewing certificate properties.
   
-  - Automatically deploy/retract certificates to each server in their SharePoint farm. 
+  - Automatically deploying and retracting certificates to each server in their SharePoint farm. 
   
-  - Assigning/unassigning certificates to web applications. 
+  - Assigning and unassigning certificates to web applications. 
   
   - Automated scanning and notification of certificates that will soon expire or have already expired based on thresholds that can be configured by farm administrators. 
   
-  - Certificate management functionality exposed via PowerShell command line and Central Admin UI. 
+  - Certificates can be fully managed through PowerShell cmdlets and Central Administration. 
  
-  - Administrative logging of all certificate management operations for auditing purposes
+  - Administrative logging of all certificate management operations for auditing purposes.
 
-  - Public APIs allow external tools to integrate with the SharePoint certificate management feature.
+  - Public APIs allow external tools to integrate with SharePoint certificate management.
 
 <a name="tlss"> </a>
 ### TLS 1.3 
@@ -428,9 +429,7 @@ For more information, see [TLS 1.3 Support](../security-for-sharepoint-server/tl
 <a name="tlsed"> </a> 
 ### Strong TLS encryption by default
 
-SharePoint Server Subscription Edition will use the advanced security capabilities of Windows Server 2022 to ensure that TLS connections made to SharePoint sites only use the strongest encryption by default. SharePoint Server will configure itself to enforce the minimum TLS version and cipher suite requirements of HTTP/2 on its SSL bindings regardless of whether the connection uses HTTP/2. 
-
-Specifically:
+SharePoint Server Subscription Edition will use the advanced security capabilities of Windows Server 2022 to ensure that TLS connections made to your SharePoint sites only use the strongest encryption by default. SharePoint Server will configure itself to enforce the following minimum TLS version and cipher suite requirements on its SSL bindings:
 
  - The SSL/TLS protocol version negotiated must be TLS 1.2 or higher.
 
@@ -448,7 +447,7 @@ For more information, see [Strong TLS Encryption](../security-for-sharepoint-ser
 
 SharePoint now encrypts the `machineKey` section of its `web.config` files by default. This prevents attackers from reading your ASP.NET view state encryption and validation keys even if they gain access to those `web.config` files.
 
-Farm administrators can also change the ASP.NET view state decryption and validation keys of a SharePoint web application through two new PowerShell cmdlets. This allows you to rotate those keys in your farm.
+Farm administrators can also change the ASP.NET view state decryption and validation keys of a SharePoint web application through the new `Set-SPMachineKey` and `Update-SPMachineKey` PowerShell cmdlets. This allows you to rotate those keys in your farm.
 
 ## Sites, Lists, and Libraries
 
@@ -472,10 +471,9 @@ Now with bulk check-out and check-in, you can select multiple files and perform 
 <a name="bulkdod"> </a>
 ### Bulk download files from document library and OneDrive personal sites
   
-SharePoint Server Subscription Edition now supports downloading multiple files at once from document libraries and OneDrive personal sites.
-You can select multiple files and folders and then click **Download** in the command bar. SharePoint will compress the selected files and folders into a ZIP file and then download the ZIP file to the user. 
+SharePoint Server Subscription Edition now supports downloading multiple files at once from document libraries and OneDrive personal sites. Once you select multiple files and folders and then click **Download** in the command bar, SharePoint will compress the selected files and folders into a ZIP file and then download the ZIP file to the user. 
 
-The following are limitation on the bulk download feature: 
+The following limitations apply to  the bulk download feature:
 
  1.	Each single file can't exceed 10 GB.
  
@@ -490,16 +488,16 @@ For more information about this feature, see [Download files and folders from On
 <a name="idt"> </a>
 ### Image and document thumbnails in document libraries and picture libraries
 
-SharePoint Server Subscription Edition can render thumbnails of files in the Tiles view of document libraries and picture libraries. SharePoint will render thumbnails of popular image file formats such as PNG, JPEG, GIF, and more. And if you've linked your SharePoint Server farm to an Office Online Server farm, SharePoint will also be able to render thumbnails of popular document formats such as PDFs, Word documents, PowerPoint documents, and Rich Text Files.
+SharePoint Server Subscription Edition can render thumbnails of files in the Tiles view of document libraries, picture libraries, and OneDrive personal sites. SharePoint will render thumbnails of popular image file formats such as PNG, JPEG, GIF, and more. And if you've linked your SharePoint Server farm to an Office Online Server farm, SharePoint will also be able to render thumbnails of popular document formats such as PDFs, Word documents, PowerPoint documents, and Rich Text Files.
 
 <a name="llmw"> </a>
-### List and library modern web parts support adding/editing/deleting content
+### Modern list and library web parts support adding, editing, and deleting content
 
-SharePoint Server Subscription Edition adds the ability to perform the following actions in modern document library web part and modern list web part:
+SharePoint Server Subscription Edition adds the ability to perform the following actions in modern document library web parts and modern list web parts:
 
- - Document library web part: create, upload, share, download, rename, delete, and edit documents and folders.
+ - Document library web parts: create, upload, share, download, rename, delete, and edit documents and folders.
  
- - List web part: create, edit, and delete list items.
+ - List web parts: create, edit, and delete list items.
  
 <a name="mds"> </a> 
 ### Modern document sets
@@ -511,9 +509,9 @@ A Document Set is a group of related documents that you can manage as a single e
 <a name="blob"> </a>
 ### Remote Share Provider  
   
-In SharePoint Server Subscription Edition, Remote Share Provider, a new RBS(Remote BLOB Storage) provider, is introduced to enable customer to offload BLOB storages from SQL server to low cost remote SMB system. 
+In SharePoint Server Subscription Edition, Remote Share Provider, a new RBS (Remote BLOB Storage) provider, is introduced to enable customer to offload BLOB storages from SQL server to low cost remote Server Message Block (SMB) systems. 
 
-By using this new technology, customer can shift data storage from costly SQL server to low cost SMB file storage. And also it can enlarge the total size of contents in same content database as BLOB is offload to remote system.
+By using this new technology, customer can shift data storage from costly SQL server to low cost SMB file storage. It can also incrase the total size of the content in a content database by offloading BLOBs to a remote data storage system.
 
 <a name="rspdt"> </a>
 ### Remote Share Provider diagnostic tool
