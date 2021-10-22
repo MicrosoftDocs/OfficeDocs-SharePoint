@@ -184,6 +184,7 @@ You can configure outgoing email for a farm by using the SharePoint Central Admi
 9. In the **SMTP server authentication** section, select the **Anonymous** radio button if your SMTP server doesn't require authentication. Otherwise, select the **Authenticated** radio button if your SMTP server requires authentication.
 
     - If you selected the **Authenticated** radio button, provide the user name in the User name box and the password in the Password box.
+
     > [!NOTE]
     > If you're using a Windows account to authenticate to the SMTP server, you can specify the user name using either the Universal Principal Name (UPN) format (user@domain.com) or the NT4 login format (DOMAIN\user). If you're using a non-Windows account to authenticate to the SMTP server, contact your email administrator to determine the correct user name format.
 
@@ -193,6 +194,9 @@ You can configure outgoing email for a farm by using the SharePoint Central Admi
     > The SMTP server must be configured with a valid TLS certificate (matching the SMTP server name entered above) that is trusted by the SharePoint server in order for email to be sent via TLS.
 
 11. Click **OK**.
+
+    > [!NOTE]
+    > In SharePoint Server Subscription Edition, you can use client certificate authentication if you set **Use TLS connection encryption** to **Yes**. To enable client certificate authentication, set **Use client certificate authentication** to **Yes** and select the required client certificate in the Client certificate drop-down list.
 
 ### To configure outgoing email for a farm by using Microsoft PowerShell
 
@@ -262,9 +266,14 @@ You can configure outgoing email for a specific web application by using the Cen
 
 11. Click **OK**.
 
+    > [!NOTE]
+    > In SharePoint Server Subscription Edition, you can use client certificate authentication if you set **Use TLS connection encryption** to **Yes**. To enable client certificate authentication, set **Use client certificate authentication** to **Yes** and select the required client certificate in the Client certificate drop-down list.
+
 ### To configure outgoing email for a specific web application by using Microsoft PowerShell
 
-# [2019](#tab/2019web)
+Follow these versions to specify credentials for SMTP authentication.
+
+# [SharePoint Server 2019](#tab/2019web)
 
 1. Open the **SharePoint 2019 Management Shell**.
   
@@ -288,7 +297,7 @@ You can configure outgoing email for a specific web application by using the Cen
     > [!NOTE]
     > After you've set up SMTP authentication in your farm, you can test to see if it's authenticating. For more information, see [Is SMTP Auth Really Working?](https://techcommunity.microsoft.com/t5/SharePoint-Support-Blog/Is-SMTP-Auth-Really-Working/ba-p/303577).
 
-# [Subscription Edition](#tab/SEweb)
+# [SharePoint Server Subscription Edition](#tab/SEweb)
 
 1. Open the **SharePoint Management Shell**.
   
