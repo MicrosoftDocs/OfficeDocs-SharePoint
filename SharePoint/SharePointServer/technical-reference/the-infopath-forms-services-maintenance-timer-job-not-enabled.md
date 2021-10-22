@@ -31,7 +31,7 @@ The InfoPath Forms Services Maintenance timer job is used by InfoPath Forms Serv
  **Cause:** The timer job may have been disabled on the Job Definitions page on the SharePoint Central Administration website or the Microsoft PowerShell **Disable-SPTimerJob** cmdlet was used. 
 
 > [!NOTE]
-> Infopath form service is removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) as a potential alternative to Infopath form service.
+> Infopath form service is removed and is no longer supported by Microsoft in SharePoint Server Subscription Edition. We recommend exploring Microsoft [Power Apps](https://powerapps.microsoft.com/) as a potential alternative to Infopath form service.
 
  **Resolution: Enable the timer job by using the Central Administration web site**
   
