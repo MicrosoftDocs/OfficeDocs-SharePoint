@@ -379,7 +379,7 @@ To do this, perform the following steps:
     | Parameter | Description |
     |------------|-------------|
     | AssemblyName | To be specified as "Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c". |
-    | Type | To be specified as "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider" so that this command knows it needs to create a claim provider which uses UPA as the claim source. |
+    | Type | To be specified as "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider" so that this command creates a claim provider which uses UPA as the claim source. |
     | TrustedTokenIssuer | To be specified as the OIDC `SPTrustedIdentityTokenIssuer` created in the previous step which will use this claim provider. This is a new parameter the user needs to provide when the type of the claim provider is "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider". |
 
 2. Connect `SPTrustedIdentityTokenIssuer` with `SPClaimProvider`:
@@ -403,7 +403,7 @@ To do this, perform the following steps:
     |------------|-------------|
     | token issuer name | The token issuer this people picker will use. |
     | -ClaimProvider | The `SPClaimProvider` which will be used to generate claim. |
-    | -IsOpenIDConnect | It is needed when `SPTrustedIdentityTokenIssuer` is OIDC `SPTrustedIdentityTokenIssuer`. Without this parameter it will fail to configure OIDC `SPTrustedIdentityTokenIssuer`. |
+    | -IsOpenIDConnect | Required when `SPTrustedIdentityTokenIssuer` is OIDC `SPTrustedIdentityTokenIssuer`. Without this parameter OIDC `SPTrustedIdentityTokenIssuer` configuration will fail. |
 
 3. Synchronize profiles to UPSA:
 
@@ -411,14 +411,14 @@ To do this, perform the following steps:
 
     There are two ways to synchronize user profiles into the SharePoint User Profile Application service:
 
-    - One way is creating a new SharePoint Active Directory Import (AD Import) connection with “**Trusted Claims Provider Authentication**” as the “**Authentication Provider Type**” in the connection setting. To utilize AD Import, see [Manage user profile synchronization in SharePoint Server](/sharepoint/administration/manage-profile-synchronization).
+    - By creating a new SharePoint Active Directory Import (AD Import) connection with “**Trusted Claims Provider Authentication**” as the “**Authentication Provider Type**” in the connection setting. To utilize AD Import, see [Manage user profile synchronization in SharePoint Server](/sharepoint/administration/manage-profile-synchronization).
 
         :::image type="content" source="../media/add-new-sync-connection-2.png" alt-text="add-new-sync-connection-2":::
 
-    - Another way is using Microsoft Identity Manager (MIM). To utilize MIM, see [Microsoft Identity Manager in SharePoint Servers 2016 and 2019](/sharepoint/administration/microsoft-identity-manager-in-sharepoint-server-2016).
+    - By using Microsoft Identity Manager (MIM). To utilize MIM, see [Microsoft Identity Manager in SharePoint Servers 2016 and 2019](/sharepoint/administration/microsoft-identity-manager-in-sharepoint-server-2016).
         - There should be two agents inside the MIM synchronization Manager UX after MIM is set up. One agent is used to import user profiles from the source IDP to the MIM database. The other agent is used to export user profiles from the MIM database to the SharePoint User Profile Application service.
 
-    During the synchronization, the following 3 properties need to be provided to the User Profile Application service:
+    During the synchronization, the following three properties need to be provided to the User Profile Application service:
 
     - `SPS-ClaimID`
     - `SPS-ClaimProviderID`
@@ -426,29 +426,31 @@ To do this, perform the following steps:
 
     1. `SPS-ClaimID`
 
-        During the synchronization, you must pick which unique identity property in the source will be mapped to the “`SPS-ClaimID`” property in the User Profile Application service. We suggest using “Email” or “User Principal Name” for the “`SPS-ClaimID`”. The corresponding “IdentifierClaim” value needs to be set when token issuer is created from the [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) cmdlet.
+        During the synchronization, you must pick which unique identity property in the source will be mapped to the `SPS-ClaimID` property in the User Profile Application service. We suggest using “Email” or “User Principal Name” for the `SPS-ClaimID`. The corresponding “IdentifierClaim” value needs to be set when token issuer is created from the [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) cmdlet.
 
-        For AD Import synchronization, the “**Central Administration -> Application Management -> Manage service applications -> User Profile Service Application -> Manage User Properties**” UX will allow administrators to edit the `SPS-ClaimID` to indicate which property in the source identity provider should be synchronized to `SPS-ClaimID`. (The display name of this property is “**Claim User Identifier**” in the UX, and it can be customized to other display names by the administrator.) For example, if email is to be used as the `SPS-ClaimID`, “**Claim User Identifier**” should be set to “Email” in this UX.
+        For AD Import synchronization, **Central Administration -> Application Management -> Manage service applications -> User Profile Service Application -> Manage User Properties** will allow administrators to edit the `SPS-ClaimID` to indicate which property in the source identity provider should be synchronized to `SPS-ClaimID`. (The display name of this property is **Claim User Identifier** in the UX, and it can be customized to other display names by the administrator.) For example, if email is to be used as the `SPS-ClaimID`, **Claim User Identifier** should be set to “Email”.
 
         :::image type="content" source="../media/SPS-ClaimID-1.png" alt-text="SPS-ClaimID-1":::
         :::image type="content" source="../media/SPS-ClaimID-2.png" alt-text="SPS-ClaimID-2":::
         :::image type="content" source="../media/SPS-ClaimID-3.png" alt-text="SPS-ClaimID-3":::
 
-        For MIM synchronization, it is done by mapping “Email” or “User Principal Name” to “`SPS-ClaimID`” in the MIM database to the SharePoint User Profile Application service agent:
-        - In the MIM synchronization Service Manager, select the agent and open the “**Configure Attribute Flow**” UX. You can map “**mail**” to “`SPS-ClaimID`”.
+        For MIM synchronization, it is done by mapping “Email” or “User Principal Name” to `SPS-ClaimID` in the MIM database to the SharePoint User Profile Application service agent:
+        - In the MIM synchronization Service Manager, select the agent and open the **Configure Attribute Flow**. You can map **mail** to `SPS-ClaimID`.
+
         :::image type="content" source="../media/SPS-ClaimID-4.png" alt-text="SPS-ClaimID-4":::
 
-    1. “`SPS-ClaimProviderID`” and “`SPS-ClaimProviderType`”.
+    1. `SPS-ClaimProviderID` and `SPS-ClaimProviderType`
 
-        For AD Import synchronization, these two properties can be modified in the “**User Profile Service Application -> Configure Synchronization Connections -> Create New Connection**” UX when you create a new AD Import synchronization connection.
+        For AD Import synchronization, these two properties can be modified in **User Profile Service Application -> Configure Synchronization Connections -> Create New Connection** when you create a new AD Import synchronization connection.
 
-        - “`SPS-ClaimProviderID`” should be set to the provider name just created in step 1 by the `New-SPClaimProvider` cmdlet.
-        - “`SPS-ClaimProviderType`” should be set to “`SPTrustedBackedByUPAClaimProvider`”.
+        - `SPS-ClaimProviderID` should be set to the provider name just created in step 1 by the `New-SPClaimProvider` cmdlet.
+        - `SPS-ClaimProviderType` should be set to `SPTrustedBackedByUPAClaimProvider`.
 
-        For MIM synchronization, these two properties can be set in the “**Configure Attribute Flow**” UX for the MIM database to SharePoint User Profile Application service agent:
+        For MIM synchronization, these two properties can be set in the **Configure Attribute Flow** for the MIM database to SharePoint User Profile Application service agent:
 
-        - “`SPS-ClaimProviderType`” should be set to “**Trusted**” as Constant type.
-        - “`SPS-ClaimProviderID`” should be set to the provider name just created in step 1 by the `New-SPClaimProvider` cmdlet.
+        - `SPS-ClaimProviderType` should be set to **Trusted** as Constant type.
+        - `SPS-ClaimProviderID` should be set to the provider name just created in step 1 by the `New-SPClaimProvider` cmdlet.
+
         :::image type="content" source="../media/configure-attribute-flow-2.png" alt-text="configure-attribute-flow-2":::
 
 4. Make groups searchable:
@@ -466,7 +468,7 @@ To do this, perform the following steps:
 
     2. Synchronize “SID” property of groups from the identity provider to the “SID” property in User Profile Application service.
         1. For AD Import synchronization, SID will be synchronized automatically without additional setup from the source identity provider to the SharePoint User Profile Application service.
-        1. For MIM synchronization, the property mapping needs to be taken from the identity provider to MIM and then from MIM to the SharePoint User Profile Application service so that MIM can synchronize the group “SID” from the identity provider to the SharePoint User Profile Application service. It’s similar to how we do user profile synchronization for the “`SPS-ClaimID`” property for user profiles.
+        1. For MIM synchronization, the property mapping needs to be taken from the identity provider to MIM and then from MIM to the SharePoint User Profile Application service so that MIM can synchronize the group “SID” from the identity provider to the SharePoint User Profile Application service. This is similar to how we do user profile synchronization for the `SPS-ClaimID` property for user profiles.
 
     3. For MIM synchronization, “sAMAccountName” should also be mapped to “accountName” from MIM to the SharePoint User Profile Application service.
 
