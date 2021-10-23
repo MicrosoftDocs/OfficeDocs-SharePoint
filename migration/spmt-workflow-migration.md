@@ -60,17 +60,6 @@ If your tenant has never used Power Automate before, you must configure it befor
 4.	To sync AAD user to CDS, sign in to **Microsoft Power Automate | Microsoft Power Platform** with the account you’d like to set as the default flow owner.
 
 
-## Installation
-
-Follow the steps below to install the SPMT private build with supporting workflow migration.
-
-1.	Download SPMT_buildnumber.zip file from the link shared to you.
-2.	Right-click on the zip file, select properties menu item. check “Unblock” in General->Security, then click OK to save the change.
-
-![Properties of SPMT zip file](media/spmt-zip-screen-settings.png)
-
-3.	Unzip the package under a folder, also known as SPMT binary folder.
-4.	Copy the attached sample files under the SPMT binary folder. Replace values of variables in the scripts with the right ones of your own environment. The PowerShell scripts can be placed in folder other than SPMT binary folder. Make sure you change the path of “Import-Module” to SPMT binary folder.
 
 ## Sample PowerShell script
 
