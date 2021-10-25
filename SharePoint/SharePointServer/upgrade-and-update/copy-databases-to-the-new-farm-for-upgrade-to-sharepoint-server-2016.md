@@ -20,8 +20,8 @@ description: "How to copy SharePoint Server 2013 content and service databases t
 
 # Copy databases to the new farm for upgrade to SharePoint Server 2016
 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
-  
 When you upgrade from SharePoint Server 2013 to SharePoint Server 2016, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured a new SharePoint Server 2016 environment, you can copy the content and service application databases from the SharePoint Server 2013 environment to the SharePoint Server 2016 environment. You use a backup and restore process to copy the database, and you can also choose to set the databases to read-only in the SharePoint Server 2013 environment so that users can continue to access their information, but not change it. This article contains the steps that you take to copy the databases.
   
 **Phase 2 of the upgrade process: Copy databases to the new farm**

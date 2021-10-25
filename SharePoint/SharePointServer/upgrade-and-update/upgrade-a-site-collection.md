@@ -20,8 +20,8 @@ description: "Learn how site collection administrators can upgrade their sites t
 
 # Upgrade a site collection to SharePoint Server 2016
 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
-  
 In SharePoint Server 2016 the way site collection upgrades are performed has changed. After a server farm administrator has upgraded the databases, site collections are automatically upgraded.
   
 > [!NOTE]
