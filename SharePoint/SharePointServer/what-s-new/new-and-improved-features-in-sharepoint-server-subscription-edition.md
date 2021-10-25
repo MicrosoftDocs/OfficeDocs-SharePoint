@@ -308,31 +308,31 @@ As the Windows Classic authentication mode is no longer supported, the behaviors
 
 We've added the following PowerShell cmdlets to configure the People Picker and replace the `stsadm.exe` commands described in [Configure People Picker (SharePoint Server 2010)](https://docs.microsoft.com/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14)).
 
- - `Get-SPPeoplePickerConfig`
+ - [`Get-SPPeoplePickerConfig`](/powershell/module/sharepoint-server/get-sppeoplepickerconfig)
 
- - `Set-SPPeoplePickerConfig`
+ - [`Set-SPPeoplePickerConfig`](/powershell/module/sharepoint-server/set-sppeoplepickerconfig)
 
- - `Add-SPPeoplePickerSearchADDomain`
+ - [`Add-SPPeoplePickerSearchADDomain`](/powershell/module/sharepoint-server/add-sppeoplepickersearchaddomain)
 
- - `Clear-SPPeoplePickerSearchADDomain`
+ - [`Clear-SPPeoplePickerSearchADDomain`](/module/sharepoint-server/clear-sppeoplepickersearchaddomain)
 
- - `Get-SPPeoplePickerSearchADDomain`
+ - [`Get-SPPeoplePickerSearchADDomain`](/powershell/module/sharepoint-server/get-sppeoplepickersearchaddomain)
 
- - `Remove-SPPeoplePickerSearchADDomain`
+ - [`Remove-SPPeoplePickerSearchADDomain`](/powershell/module/sharepoint-server/remove-sppeoplepickersearchaddomain)
 
- - `Add-SPPeoplePickerDistributionListSearchDomain`
+ - [`Add-SPPeoplePickerDistributionListSearchDomain`](/powershell/module/sharepoint-server/add-sppeoplepickerdistributionlistsearchdomain)
 
- - `Clear-SPPeoplePickerDistributionListSearchDomain`
+ - [`Clear-SPPeoplePickerDistributionListSearchDomain`](/powershell/module/sharepoint-server/clear-sppeoplepickerdistributionlistsearchdomain)
 
- - `Get-SPPeoplePickerDistributionListSearchDomain`
+ - [`Get-SPPeoplePickerDistributionListSearchDomain`](/powershell/module/sharepoint-server/get-sppeoplepickerdistributionlistsearchdomain)
 
- - `Remove-SPPeoplePickerDistributionListSearchDomain`
+ - [`Remove-SPPeoplePickerDistributionListSearchDomain`](/powershell/module/sharepoint-server/remove-sppeoplepickerdistributionlistsearchdomain)
 
- - `Add-SPPeoplePickerServiceAccountDirectoryPath`
+ - [`Add-SPPeoplePickerServiceAccountDirectoryPath`](/powershell/module/sharepoint-server/add-sppeoplepickerserviceaccountdirectorypath)
 
- - `Clear-SPPeoplePickerServiceAccountDirectoryPath`
+ - [`Clear-SPPeoplePickerServiceAccountDirectoryPath`](/powershell/module/sharepoint-server/clear-sppeoplepickerserviceaccountdirectorypath)
 
- - `Remove-SPPeoplePickerServiceAccountDirectoryPath`
+ - [`Remove-SPPeoplePickerServiceAccountDirectoryPath`](/powershell/module/sharepoint-server/remove-sppeoplepickerserviceaccountdirectorypath)
 
 <a name="resp"> </a>
 ### Introducing Remove-SPConfigurationObject PowerShell cmdlet
@@ -353,9 +353,9 @@ Its parameters are:
   
 To improve the management of the [SharePoint Volume Shadow Copy Service (VSS) writer](https://docs.microsoft.com/sharepoint/dev/general-development/overview-of-sharepoint-and-the-volume-shadow-copy-service), the following new PowerShell cmdlets are introduced:
 
- - `Register-SPVssWriter`
+ - [`Register-SPVssWriter`](/powershell/module/sharepoint-server/register-spvsswriter)
  
- - `Unregister-SPVssWriter`
+ - [`Unregister-SPVssWriter`](/powershell/module/sharepoint-server/unregister-spvsswriter)
  
 These cmdlets perform the same actions as the [stsadm.exe -o registerwsswriter](https://docs.microsoft.com/previous-versions/office/sharepoint-2007-products-and-technologies/cc262819(v=office.12)) and [stsadm.exe -o unregisterwsswriter](https://docs.microsoft.com/previous-versions/office/sharepoint-2007-products-and-technologies/cc262416(v=office.12)) commands.
 
@@ -389,7 +389,7 @@ The modern search result page will now show thumbnails for popular document and 
 <a name="sslcm"> </a>
 ### SSL certificate management
   
-SharePoint farm administrators can now directly manage the deployment and lifecycle of SSL/TLS certificates in their SharePoint Server farms.  SharePoint certificate management is built on top of [Cryptography API: Next Generation](/windows/win32/seccng/cng-portal), a modern, and flexible infrastructure that supports both Elliptic Curve Cryptography (ECC) and classic RSA certificates.
+SharePoint farm administrators can now directly manage the deployment and lifecycle of SSL/TLS certificates in their SharePoint Server farms.  SharePoint certificate management is built on top of [Cryptography API: Next Generation](/windows/win32/seccng/cng-portal), a modern and flexible infrastructure that supports both Elliptic Curve Cryptography (ECC) and classic RSA certificates.
 
 Certificate management capabilities include:
   

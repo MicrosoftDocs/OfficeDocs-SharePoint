@@ -148,8 +148,6 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
     
 - Microsoft SQL Server 2012 Service Pack 1 Native Client
     
-- Microsoft WCF Data Services 5.6
-    
 - Microsoft Identity Extensions
     
 - Microsoft Information Protection and Control Client (MSIPC)
@@ -203,8 +201,6 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Microsoft .NET Framework version 4.6](https://go.microsoft.com/fwlink/?LinkId=722763)
     
-- [Microsoft WCF Data Services 5.6](https://go.microsoft.com/fwlink/p/?LinkId=320724 )
-    
 - [Microsoft Information Protection and Control Client (MSIPC)](https://go.microsoft.com/fwlink/p/?LinkId=544913)
     
 - [Microsoft SQL Server 2012 Service Pack 1 (SP1) Native Client (installs with Microsoft SQL Server 2012 Feature Pack)](https://go.microsoft.com/fwlink/p/?LinkId=618409)
@@ -246,15 +242,13 @@ The SharePoint Server 2016 prerequisite installer (prerequisiteinstaller.exe) in
     
 7. Microsoft Information Protection and Control Client 2.1
     
-8. Microsoft WCF Data Services 5.6
+8. Microsoft .NET Framework 4.6
     
-9. Microsoft .NET Framework 4.6
+9. Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB 3092423)
     
-10. Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB 3092423)
+10. Visual C++ Redistributable Package for Visual Studio 2012
     
-11. Visual C++ Redistributable Package for Visual Studio 2012
-    
-12. Visual C++ Redistributable Package for Visual Studio 2015
+11. Visual C++ Redistributable Package for Visual Studio 2015
     
 You can run prerequisiteinstaller.exe at a command prompt with the following options. When you run prerequisiteinstaller.exe at a command prompt, you might be asked to restart the server one or more times during the installation process. After restarting, you should continue the prerequisite installation by running prerequisiteinstaller.exe with the /continue option.
   
@@ -278,8 +272,6 @@ The installer installs from the file that you specify in the command-line option
     
 - **/MSIPCClient:< _file_>** Install Microsoft Information Protection and Control Client from <  _file_>.
     
-- **/WCFDataServices56:< _file_>** Install Microsoft WCF Data Services 5.6 from <  _file_>.
-    
 - **/ODBC:< _file_>** Install Microsoft ODBC Driver 11 for SQL Server from < _file_>.
     
 - **/DotNetFx:< _file_>** Install Microsoft .NET Framework 4.6 from < _file_>.
@@ -295,9 +287,5 @@ Certain prerequisites are installed by the prerequisite installer with specific 
 - Windows AppFabric
     
     /i CacheClient,CachingService,CacheAdmin /gac
-    
-- Microsoft WCF Data Services
-    
-    /quiet
     
 The prerequisite installer creates log files at %TEMP%\prerequisiteinstaller.\<date\>.\<time\>.log. You can check these log files for specific details about all changes the installer makes to the target computer.

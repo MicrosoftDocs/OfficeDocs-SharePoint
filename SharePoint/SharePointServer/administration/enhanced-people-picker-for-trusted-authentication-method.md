@@ -22,9 +22,9 @@ description: "In SharePoint Server Subscription Edition, People Picker is enhanc
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-When modern authentication (trusted identity provider) such as Security Assertion Markup Language (SAML) 1.1 or OpenID Connect (OIDC) 1.0 is used, the People Picker control can’t search, resolve, and validate users and groups without writing a custom claim provider through C#.
+When modern authentication (a trusted identity provider) such as SAML 1.1 or OIDC 1.0 is used, the People Picker control can’t search, resolve, and validate users and groups without writing a custom claim provider through C#.
 
-In SharePoint Server Subscription Edition, People Picker is enhanced to search and pick user in User Profile service application to help you avoid creating a customized claim provider. Rather than writing a piece of C# code to implement a new claim provider, customers can simply synchronize user profiles from their identity provider to the User Profile service application to make People Picker work.
+In SharePoint Server Subscription Edition, the People Picker has been enhanced to allow resolving users and groups based on their profiles in the User Profile Application (UPA). UPA must be configured to synchronize users and groups from the trusted identity provider membership store. This allows the People Picker to only resolve valid users and groups without requiring a custom claims provider.
 
 > [!IMPORTANT]
 > This article describes how to setup UPA-backed people picker for SAML. For setting UPA-backed people picker for OIDC, see [**OIDC ADFS guide**](/SharePoint/security-for-sharepoint-server/oidc-1-0-authentication#step-7-set-up-people-picker) and [**OIDC AAD guide**](/SharePoint/security-for-sharepoint-server/oidc-1-0-authentication#step-7-set-up-people-picker-1).
