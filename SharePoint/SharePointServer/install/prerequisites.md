@@ -1,5 +1,5 @@
 ---
-title: "Prequisites for SharePoint Server 2013"
+title: "Prerequisites for SharePoint Server 2013"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -8,7 +8,7 @@ ms.date: 3/7/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 70475732-62f1-4b28-95fd-02bd1e49cd42
@@ -16,7 +16,7 @@ ms.assetid: 70475732-62f1-4b28-95fd-02bd1e49cd42
 description: "Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Server."
 ---
 
-# Prequisites for SharePoint Server 2013
+# Prerequisites for SharePoint Server 2013
 
 [!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
