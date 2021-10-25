@@ -194,7 +194,7 @@ Select the version to follow the steps.
     > [!NOTE]
     > The SMTP server must be configured with a valid TLS certificate (matching the SMTP server name entered above) that is trusted by the SharePoint server in order for email to be sent via TLS.
 
-11. In SharePoint Server Subscription Edition, you can use client certificate authentication if you set **Use TLS connection encryption** to **Yes**. To enable client certificate authentication, set **Use client certificate authentication** to **Yes** and select the required client certificate in the Client certificate drop-down list.
+11. In SharePoint Server Subscription Edition, you have the option to use client certificate authentication if you set **Use TLS connection encryption** to **Yes**. To enable client certificate authentication, set **Use client certificate authentication** to **Yes** and select the required client certificate in the **Client certificate** drop-down list. To disable client certificate authentication, select the **No** radio button.
 
 12. Click **OK**.
 
@@ -256,10 +256,10 @@ Follow these versions to specify credentials for SMTP authentication.
     ```
 
     > [!NOTE]
-    > SharePoint Server Subscription Edition adds an optional `-Certificate` parameter to the cmdlet that lets user specify which client certificate should be used.
+    > To specify credentials for SMTP authentication, use the `Get-Credential` cmdlet and pass it as the value for the `-SMTPCredentials` parameter. To specify that SharePoint should connect to the SMTP server anonymously, pass **$null** as the value for the `-SMTPCredentials` parameter. If you don't specify the `-SMTPCredentials` parameter, it will preserve the existing authentication settings.
 
     > [!NOTE]
-    > To specify credentials for SMTP authentication, use the `Get-Credential` cmdlet and pass it as the value for the `-SMTPCredentials` parameter. To specify that SharePoint should connect to the SMTP server anonymously, pass **$null** as the value for the `-SMTPCredentials` parameter. If you don't specify the `-SMTPCredentials` parameter, it will preserve the existing authentication settings.
+    > SharePoint Server Subscription Edition adds an optional `-Certificate` parameter to the cmdlet that lets user specify which client certificate should be used. To specify that SharePoint shouldn't use client certificate authentication, pass **$null** as the value for the `-Certificate` parameter.
 
 # [SharePoint Server 2019](#tab/2019farm)
 
@@ -278,6 +278,9 @@ Follow these versions to specify credentials for SMTP authentication.
     
     Set-SPWebApplication -Identity $CentralAdmin -SMTPServer $SmtpServer -SMTPServerPort $SmtpServerPort -OutgoingEmailAddress $FromAddress -ReplyToEmailAddress $ReplyToAddress -SMTPCredentials $Credentials
     ```
+
+    > [!NOTE]
+    > To specify credentials for SMTP authentication, use the `Get-Credential` cmdlet and pass it as the value for the `-SMTPCredentials` parameter. To specify that SharePoint should connect to the SMTP server anonymously, pass **$null** as the value for the `-SMTPCredentials` parameter. If you don't specify the `-SMTPCredentials` parameter, it will preserve the existing authentication settings.
 
 ---
 
@@ -320,7 +323,7 @@ Select the version to follow the steps.
 
 10. In the **Use TLS connection encryption** section, select the **Yes** radio button to require SharePoint to establish an encrypted connection to the SMTP server before sending email. Otherwise, select the **No** radio button.
 
-11. In SharePoint Server Subscription Edition, you can use client certificate authentication if you set **Use TLS connection encryption** to **Yes**. To enable client certificate authentication, set **Use client certificate authentication** to **Yes** and select the required client certificate in the Client certificate drop-down list.
+11. In SharePoint Server Subscription Edition, you have the option to use client certificate authentication if you set **Use TLS connection encryption** to **Yes**. To enable client certificate authentication, set **Use client certificate authentication** to **Yes** and select the required client certificate in the **Client certificate** drop-down list. To disable client certificate authentication, select the **No** radio button.
 
 12. Click **OK**.
 
@@ -379,13 +382,13 @@ Follow these versions to specify credentials for SMTP authentication.
     ```
 
     > [!NOTE]
-    > SharePoint Server Subscription Edition adds an optional `-Certificate` parameter to the cmdlet that lets user specify which client certificate should be used.
-
-    > [!NOTE]
     > To specify credentials for SMTP authentication, use the `Get-Credential` cmdlet and pass it as the value for the `-SMTPCredentials` parameter. To specify that SharePoint should connect to the SMTP server anonymously, pass **$null** as the value for the `-SMTPCredentials` parameter. If you don't specify the `-SMTPCredentials` parameter, it will preserve the existing authentication settings.
 
     > [!NOTE]
     > After you've set up SMTP authentication in your farm, you can test to see if it's authenticating. For more information, see [Is SMTP Auth Really Working?](https://techcommunity.microsoft.com/t5/SharePoint-Support-Blog/Is-SMTP-Auth-Really-Working/ba-p/303577).
+
+    > [!NOTE]
+    > SharePoint Server Subscription Edition adds an optional `-Certificate` parameter to the cmdlet that lets user specify which client certificate should be used. To specify that SharePoint shouldn't use client certificate authentication, pass **$null** as the value for the `-Certificate` parameter.
 
 # [SharePoint Server 2019](#tab/2019web)
 
