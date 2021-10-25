@@ -144,7 +144,7 @@ To configure this, specify the host header binding with the `-HostHeader` parame
 <a name="sni"> </a>
 ### Server Name Indication (SNI)
 
-Server Name Indication (SNI) allows multiple IIS websites with unique host headers and unique server certificates share the same Secure Sockets Layer (SSL) port. The server examines the server name specified by the client during the SSL handshake to determine which server certificate should be used to complete the connection. Your IIS website must have a host header and must use SSL to use Server Name Indication. If Server Name Indication isn't used, all IIS websites sharing the same SSL port will share the same server certificate.
+Server Name Indication (SNI) allows multiple IIS websites with unique host headers and unique server certificates to share the same Secure Sockets Layer (SSL) port. The server examines the server name specified by the client during the SSL handshake to determine which server certificate should be used to complete the connection. Your IIS website must have a host header and must use SSL to use Server Name Indication. If Server Name Indication isn't used, all IIS websites sharing the same SSL port will share the same server certificate.
 
 Server Name Indication can be configured by the **Use Server Name Indication** setting on the **Create New Web Application** and **Extend Web Application** pages in SharePoint Central Administration.  
 
@@ -306,33 +306,33 @@ As the Windows Classic authentication mode is no longer supported, the behaviors
 <a name="nppc"> </a>
 ### New People Picker cmdlets
 
-We've added the following PowerShell cmdlets to configure the People Picker and replace the `stsadm.exe` commands described in [Configure People Picker (SharePoint Server 2010)](https://docs.microsoft.com/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14)).
+We've added the following PowerShell cmdlets to configure the People Picker and replace the `stsadm.exe` commands described in [Configure People Picker (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14)).
 
- - [`Get-SPPeoplePickerConfig`](/powershell/module/sharepoint-server/get-sppeoplepickerconfig)
+ - [`Get-SPPeoplePickerConfig`](/powershell/module/sharepoint-server/get-sppeoplepickerconfig): Gets People Picker settings of a specified Web application.
 
- - [`Set-SPPeoplePickerConfig`](/powershell/module/sharepoint-server/set-sppeoplepickerconfig)
+ - [`Set-SPPeoplePickerConfig`](/powershell/module/sharepoint-server/set-sppeoplepickerconfig): Configures People Picker settings of a specified Web application.
 
- - [`Add-SPPeoplePickerSearchADDomain`](/powershell/module/sharepoint-server/add-sppeoplepickersearchaddomain)
+ - [`Add-SPPeoplePickerSearchADDomain`](/powershell/module/sharepoint-server/add-sppeoplepickersearchaddomain): Adds a forest or domain to the list that the People Picker uses when searching for users.
 
- - [`Clear-SPPeoplePickerSearchADDomain`](/module/sharepoint-server/clear-sppeoplepickersearchaddomain)
+ - [`Clear-SPPeoplePickerSearchADDomain`](/powershell/module/sharepoint-server/clear-sppeoplepickersearchaddomain): Clears the list of People Picker search forests and domains for a specified Web application.
 
- - [`Get-SPPeoplePickerSearchADDomain`](/powershell/module/sharepoint-server/get-sppeoplepickersearchaddomain)
+ - [`Get-SPPeoplePickerSearchADDomain`](/powershell/module/sharepoint-server/get-sppeoplepickersearchaddomain): Returns all Active Directory forests or domains that the People Picker uses when searching for users.
 
- - [`Remove-SPPeoplePickerSearchADDomain`](/powershell/module/sharepoint-server/remove-sppeoplepickersearchaddomain)
+ - [`Remove-SPPeoplePickerSearchADDomain`](/powershell/module/sharepoint-server/remove-sppeoplepickersearchaddomain): Removes a forest of domain from the list that the People Picker uses when searching for users.
 
- - [`Add-SPPeoplePickerDistributionListSearchDomain`](/powershell/module/sharepoint-server/add-sppeoplepickerdistributionlistsearchdomain)
+ - [`Add-SPPeoplePickerDistributionListSearchDomain`](/powershell/module/sharepoint-server/add-sppeoplepickerdistributionlistsearchdomain): Adds a domain to the People Picker distribution list search domains.
 
- - [`Clear-SPPeoplePickerDistributionListSearchDomain`](/powershell/module/sharepoint-server/clear-sppeoplepickerdistributionlistsearchdomain)
+ - [`Clear-SPPeoplePickerDistributionListSearchDomain`](/powershell/module/sharepoint-server/clear-sppeoplepickerdistributionlistsearchdomain): Clears the list of People Picker distribution list search domains.
+ 
+ - [`Get-SPPeoplePickerDistributionListSearchDomain`](/powershell/module/sharepoint-server/get-sppeoplepickerdistributionlistsearchdomain): Returns all domains in the People Picker distribution list search domains.
+ 
+ - [`Remove-SPPeoplePickerDistributionListSearchDomain`](/powershell/module/sharepoint-server/remove-sppeoplepickerdistributionlistsearchdomain): Removes a domain from the People Picker distribution list search domains.
 
- - [`Get-SPPeoplePickerDistributionListSearchDomain`](/powershell/module/sharepoint-server/get-sppeoplepickerdistributionlistsearchdomain)
+ - [`Add-SPPeoplePickerServiceAccountDirectoryPath`](/powershell/module/sharepoint-server/add-sppeoplepickerserviceaccountdirectorypath): Adds an OU to People Picker service account directory path list.
 
- - [`Remove-SPPeoplePickerDistributionListSearchDomain`](/powershell/module/sharepoint-server/remove-sppeoplepickerdistributionlistsearchdomain)
+ - [`Clear-SPPeoplePickerServiceAccountDirectoryPath`](/powershell/module/sharepoint-server/clear-sppeoplepickerserviceaccountdirectorypath): Clears the OUs of People Picker service account directory path list.
 
- - [`Add-SPPeoplePickerServiceAccountDirectoryPath`](/powershell/module/sharepoint-server/add-sppeoplepickerserviceaccountdirectorypath)
-
- - [`Clear-SPPeoplePickerServiceAccountDirectoryPath`](/powershell/module/sharepoint-server/clear-sppeoplepickerserviceaccountdirectorypath)
-
- - [`Remove-SPPeoplePickerServiceAccountDirectoryPath`](/powershell/module/sharepoint-server/remove-sppeoplepickerserviceaccountdirectorypath)
+ - [`Remove-SPPeoplePickerServiceAccountDirectoryPath`](/powershell/module/sharepoint-server/remove-sppeoplepickerserviceaccountdirectorypath): Removes an OU from People Picker service account directory path list.
 
 <a name="resp"> </a>
 ### Introducing Remove-SPConfigurationObject PowerShell cmdlet
@@ -351,13 +351,13 @@ Its parameters are:
 <a name="vscs"> </a>
 ### SharePoint Volume Shadow Copy Service writer cmdlets
   
-To improve the management of the [SharePoint Volume Shadow Copy Service (VSS) writer](https://docs.microsoft.com/sharepoint/dev/general-development/overview-of-sharepoint-and-the-volume-shadow-copy-service), the following new PowerShell cmdlets are introduced:
+To improve the management of the [SharePoint Volume Shadow Copy Service (VSS) writer](/sharepoint/dev/general-development/overview-of-sharepoint-and-the-volume-shadow-copy-service), the following new PowerShell cmdlets are introduced:
 
- - [`Register-SPVssWriter`](/powershell/module/sharepoint-server/register-spvsswriter)
+ - [`Register-SPVssWriter`](/powershell/module/sharepoint-server/register-spvsswriter): Registers the SharePoint VSS Writer service on the local server.
  
- - [`Unregister-SPVssWriter`](/powershell/module/sharepoint-server/unregister-spvsswriter)
+ - [`Unregister-SPVssWriter`](/powershell/module/sharepoint-server/unregister-spvsswriter): Unregisters the SharePoint VSS Writer service on the local server.
  
-These cmdlets perform the same actions as the [stsadm.exe -o registerwsswriter](https://docs.microsoft.com/previous-versions/office/sharepoint-2007-products-and-technologies/cc262819(v=office.12)) and [stsadm.exe -o unregisterwsswriter](https://docs.microsoft.com/previous-versions/office/sharepoint-2007-products-and-technologies/cc262416(v=office.12)) commands.
+These cmdlets perform the same actions as the [stsadm.exe -o registerwsswriter](/previous-versions/office/sharepoint-2007-products-and-technologies/cc262819(v=office.12)) and [stsadm.exe -o unregisterwsswriter](/previous-versions/office/sharepoint-2007-products-and-technologies/cc262416(v=office.12)) commands.
 
 ## Search
 
@@ -466,7 +466,7 @@ SharePoint Server Subscription Edition introduces the Brick layout as a layout o
 
 Checking out a file from a document library allows you to make changes to a file while preventing others from making changes to that file. Once you're done making changes to the file, checking it in to the document library will allow others to see your changes.
 
-Now with bulk check-out and check-in, you can select multiple files and perform the check-out and check-in operations on all of that at the same time. This saves you time by avoiding repetitive steps.
+With bulk check-out and check-in, you can now select multiple files and perform the check-out and check-in operations on all of them at the same time. This saves you time by avoiding repetitive steps.
 
 <a name="bulkdod"> </a>
 ### Bulk download files from document library and OneDrive personal sites
@@ -481,7 +481,7 @@ The following limitations apply to  the bulk download feature:
  
  3.	Maximum level of folders is limited to 100 levels.
  
- 4.	No more than 10000 files can be downloaded at once.
+ 4.	No more than 10,000 files can be downloaded at once.
   
 For more information about this feature, see [Download files and folders from OneDrive or SharePoint](https://support.microsoft.com/office/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05).
 
@@ -493,7 +493,9 @@ SharePoint Server Subscription Edition can render thumbnails of files in the Til
 <a name="llmw"> </a>
 ### Modern list and library web parts support adding, editing, and deleting content
 
-SharePoint Server Subscription Edition adds the ability to perform the following actions in modern document library web parts and modern list web parts:
+In SharePoint Server 2019, modern document library web parts and modern list web parts provided a read-only experience to access documents and list items. Users couldn't add new content or edit existing content through these web parts and instead had to navigate to the document library or list to perform these actions.
+
+SharePoint Server Subscription Edition adds the ability to perform the following actions directly in modern document library web parts and modern list web parts:
 
  - Document library web parts: create, upload, share, download, rename, delete, and edit documents and folders.
  

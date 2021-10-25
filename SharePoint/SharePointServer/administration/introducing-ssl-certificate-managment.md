@@ -1,5 +1,5 @@
 ---
-title: "Introducing SSL Certificate management operations"
+title: "Introducing SSL Certificate Management Operations"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
@@ -18,7 +18,8 @@ description: "To learn how to configure incoming and outgoing email for a ShareP
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
-# Introducing SSL Certificate management operations
+
+# Introducing SSL Certificate Management Operations
 
 Secure Sockets Layer (SSL) certificate management is the process of monitoring and managing the life cycles from acquisition and deployment to tracking renewal, usage, and expiration of all SSL certificates deployed within a network.
  
@@ -32,48 +33,56 @@ Certificates are automatically deployed to the Windows certificate store on each
 
 Disconnecting a server from a SharePoint farm will not automatically remove SharePoint-managed certificates from that server's Windows certificate store. Uninstalling SharePoint from a server will not automatically remove SharePoint-managed certificates from that server's Windows certificate store.
 
-Use the Import-SPCertificate PowerShell cmdlet to import certificates from certificate files. The cmdlet parameters are:
+Use the `Import-SPCertificate` PowerShell cmdlet to import certificates from certificate files. 
+
+`Import-SPCertificate`
+
+The cmdlet parameters are:
+
+**`[-Path] <string>`** 
+The path to the PFX, P7B, or CER file containing certificates.
+
+**`[-Password <securestring>]`** 
+The password if the certificate file is protected by a password (for PFX files).
+
+**`[-Store {EndEntity | Intermediate | Pending | Root}]`** 
+The certificate store that certificates should be imported into. Unless there is a need to override SharePoint's automatic certificate detection, we recommend omitting this parameter, so that SharePoint will automatically select the appropriate certificate store for each certificate.
 
 
-```PowerShell
-Import-SPCertificate
+**`[-Exportable]`**
+Specifies whether private keys of the certificates imported into SharePoint may be exported. If this parameter is not specified, the private keys of certificates deployed to the Windows Certificate Store on each server in the SharePoint farm will not be exportable, and SharePoint will not allow you to export the private keys from within the SharePoint administration interface.
 
-[-Path] <string> The path to the PFX, P7B, or CER file containing certificates.
-
-[-Password <securestring>] The password if the certificate file is protected by a password (for PFX files).
-
-[-Store {EndEntity | Intermediate | Pending | Root}] The certificate store that certificates should be imported into. Unless there's a need to override SharePoint's automatic certificate detection, we recommend omitting this parameter so that SharePoint will automatically select the appropriate certificate store for each certificate.
-
-[-Exportable] Specifies whether private keys of the certificates imported into SharePoint may be exported. If this parameter isn't specified, the private keys of certificates deployed to the Windows Certificate Store on each server in the SharePoint farm will not be exportable, and SharePoint will not allow you to export the private keys from within the SharePoint administration interface.
-
-[-Replace] Currently unused. In future builds, this will allow automatically replacing previous certificates assignments with new certificates during the certificate renewal process.
+**`[-Replace]`**
+Currently unused. In future builds, this will allow automatically replacing previous certificates assignments with new certificates during the certificate renewal process.
 
 Example cmdlet syntax:
 
+```PowerShell
 $password = ConvertTo-SecureString -AsPlainText -Force Import-SPCertificate -Path "\\server\fileshare\certificates.pfx" -Password $password -Exportable
+
 ```
 
 ## Assigning certificates to web applications
 
 SharePoint supports assigning SharePoint-managed certificates to web applications with an SSL binding. The certificate must be in SharePoint's End Entity certificate store and the certificate's private key must also be imported. You can assign a certificate when the web application is first created or after it is created.
 
-```PowerShell
-A "-Certificate <SPServerCertificatePipeBind>" parameter has been added to the following cmdlets and commands:
 
-· New-SPWebApplication
+A `-Certificate <SPServerCertificatePipeBind>` parameter has been added to the following cmdlets and commands:
 
-· New-SPWebApplicationExtension
+- New-SPWebApplication
 
-· Set-SPWebApplication
+- New-SPWebApplicationExtension
 
-· New-SPCentralAdministration
+- Set-SPWebApplication
 
-· Set-SPCentralAdministration
+- New-SPCentralAdministration
 
-· PSConfig.exe -cmd adminvs
+- Set-SPCentralAdministration
 
-```
-The SPServerCertificatePipeBind accepts the following values:
+- PSConfig.exe -cmd adminvs
+
+
+The `SPServerCertificatePipeBind`accepts the following values:
 
 - GUID: ID property of the SPServerCertificate object.
 
@@ -81,83 +90,99 @@ The SPServerCertificatePipeBind accepts the following values:
 
 - String: Friendly name of the certificate.
 
-To assign a certificate to a web application when creating that web application or extending a web application to an additional zone through Central Administration, set "Use Server Sockets Layer (SSL)" to Yes, and then select the server certificate from the Server Certificate drop-down list.
+To assign a certificate to a web application when creating that web application or extending a web application to an additional zone through Central Administration, set "Use Server Sockets Layer (SSL)" to **Yes**, and then select the **server certificate** from the **Server Certificate** drop-down list.
 
 ## Replacing a certificate assignment
 
-You can replace all usage of an existing certificate within SharePoint with a different certificate, for example, if an existing certificate is approaching its expiration and you've imported a new certificate. To replace, use the Switch-SPCertificate cmdlet to replace the assignments of the existing certificate with the new certificate. All usage of the existing certificate within SharePoint will then be replaced with the new certificate. 
+You can replace all usage of an existing certificate within SharePoint with a different certificate, for example, if an existing certificate is approaching its expiration and you have imported a new certificate. To replace, use the Switch-SPCertificate cmdlet to replace the assignments of the existing certificate with the new certificate. All usage of the existing certificate within SharePoint will then be replaced with the new certificate. 
+
+` Switch-SPCertificate`
 
 The cmdlet parameters are:
 
+**`-Identity <SPServerCertificatePipeBind>`**
+The certificate whose assignments you want to replace.
 
-```PowerShell
-Switch-SPCertificate
+**`-NewCertificate <SPServerCertificatePipeBind>`**
+The certificate that should replace all of the assignments of the certificate specified by the Identity parameter.
 
--Identity <SPServerCertificatePipeBind> The certificate whose assignments you want to replace.
-
--NewCertificate <SPServerCertificatePipeBind> The certificate that should replace all of the assignments of the certificate specified by the Identity parameter.
-```
 For example:
 
+```PowerShell
 Switch-SPCertificate -Identity "Contoso SharePoint (2020)" -NewCertificate "Contoso SharePoint (2021)"
+```
 
 ## Removing certificates
 
 The following are the known issues when you remove a certificate from SharePoint:
 
-- By default, SharePoint won't allow you to remove a certificate if it's currently assigned to a SharePoint object. You must override the default behavior if you want to force the removal of a certificate. If you override the default behavior, existing assignments of the certificate are cleared.
+- By default, SharePoint will not allow you to remove a certificate if it is currently assigned to a SharePoint object. You must override the default behavior if you want to force the removal of a certificate. If you override the default behavior, existing assignments of the certificate are cleared.
 - The certificate and any private key associated with that certificate is removed from the Windows certificate store on every server in the SharePoint farm.
 - The certificate and any private key associated with it is removed from the SharePoint configuration database.
-- Any previous exports from the certificate through the SharePoint administration interface won't be removed. Those exported files will still exist.
+- Any previous exports from the certificate through the SharePoint administration interface will not be removed. Those exported files will still exist.
 
-Use the Remove-SPCertificate cmdlet to remove a certificate from SharePoint. The cmdlet parameters are:
+Use the `Remove-SPCertificate` cmdlet to remove a certificate from SharePoint. 
+
+`Remove-SPCertificate`
+
+The cmdlet parameters are:
+
+**`[-Identity] <SPServerCertificatePipeBind>`**
+The certificate to remove from SharePoint.
 
 
-```PowerShell
-Remove-SPCertificate
+**`[-Force] `**
+Specifies that the certificate should be removed from SharePoint, even if the certificate is currently assigned to SharePoint objects. If this parameter is specified, any existing assignments of the certificate are also cleared. If this parameter is not specified and the certificate is assigned to a SharePoint object, the operation will fail.
 
-[-Identity] <SPServerCertificatePipeBind> The certificate to remove from SharePoint.
-
-[-Force] Specifies that the certificate should be removed from SharePoint, even if the certificate is currently assigned to SharePoint objects. If this parameter is specified, any existing assignments of the certificate are also cleared. If this parameter isn't specified and the certificate is assigned to a SharePoint object, the operation will fail.
-```
 For example:
 
+```PowerShell
 Remove-SPCertificate -Identity "Contoso SharePoint (2020)"
+```
 
 ## Finding/viewing certificates
 
 SharePoint supports finding certificates via the Get-SPCertificate PowerShell cmdlet. Optional parameters are available to filter the results returned by this cmdlet.
 
-Get-SPCertificate [-Identity <SPServerCertificatePipeBind>] [-FriendlyName <string>] [-Store {EndEntity | Intermediate | Pending | Root}] [-InUse] [-DaysToExpiration <int>]
-
-The cmdlet parameters are:
 
 ```PowerShell
-[-Identity] <SPServerCertificatePipeBind>
-The certificate to find.
-[-FriendlyName <string>]
-The friendly name of the certificate to find. Use this parameter instead of the Identity parameter if multiple certificates might match this criteria. The Identity parameter can only return a single certificate.
-[-Store {EndEntity | Intermediate | Pending | Root}]
-Specifies the certificate store to search. If this parameter isn't specified, all certificate stores will be searched.
-[-InUse]
-Specifies to only return certificates that are directly assigned to SharePoint objects (i.e. currently in use).
-[-DaysToExpiration <int>]
-If a positive number, only return certificates that will expire in the number of days from now specified by this parameter. Specify "-1" to only return certificates that have already expired. Specifying "0" will result in no filtering based on expiration date.
+Get-SPCertificate [-Identity <SPServerCertificatePipeBind>] [-FriendlyName <string>] [-Store {EndEntity | Intermediate | Pending | Root}] [-InUse] [-DaysToExpiration <int>]
 
 ```
 
+The cmdlet parameters are:
+
+**`[-Identity] <SPServerCertificatePipeBind>`**
+The certificate to find.
+
+**`[-FriendlyName <string>]`**
+The friendly name of the certificate to find. Use this parameter instead of the Identity parameter if multiple certificates might match this criteria. The Identity parameter can only return a single certificate.
+
+**`[-Store {EndEntity | Intermediate | Pending | Root}]`**
+Specifies the certificate store to search. If this parameter is not specified, all certificate stores will be searched.
+
+**`[-InUse]`**
+Specifies to only return certificates that are directly assigned to SharePoint objects (that is, currently in use).
+
+**`[-DaysToExpiration <int>]`**
+If a positive number, only return certificates that will expire in the number of days from now specified by this parameter. Specify "-1" to only return certificates that have already expired. Specifying "0" will result in no filtering based on expiration date.
+
+
 The following are the examples of cmdlet syntax:
  
+
+```PowerShell
 - Get-SPCertificate -FriendlyName "Contoso SharePoint (2020)"
 - Get-SPCertificate -InUse -DaysToExpiration 30
- 
- ## Exporting certificates
+```
+
+## Exporting certificate
 
 SharePoint supports exporting certificates to PFX (PKCS #12) files, P7B (PKCS #7) files, and CER files. Both PFX files and P7B files can contain multiple certificates, which is useful for exporting a chain of certificates from the end entity (leaf) certificate to the root certificate.  However, only PFX files can contain private keys for certificates, which are necessary for a server certificate to be assigned to an IIS website. CER files contain only a single certificate.
 
 In the future builds, SharePoint will store exported certificate files in a SharePoint list in the Central Administration site for easy retrieval.  But for now, SharePoint only supports storing exported certificate files on the file system.
 
-Use the Export-SPCertificate PowerShell cmdlet to import certificates from certificate files.  
+Use the `Export-SPCertificate` PowerShell cmdlet to import certificates from certificate files.  
 
 This cmdlet supports multiple parameter sets:
 
@@ -168,28 +193,35 @@ Export-SPCertificate [-Identity] <SPServerCertificatePipeBind> -Type {Cert | Pkc
 ```
 The cmdlet parameters are:
 
-```PowerShell
-[-Identity] <SPServerCertificatePipeBind>
+
+**`[-Identity] <SPServerCertificatePipeBind>`**
 The certificate to export.
 -Password <securestring>
 The password to use to protect the exported PFX file. This parameter is only compatible with PFX files.
-[-EncryptionType {AES256 | TripleDes}]
-Specifies the encryption algorithm to use to protect the exported PFX file. AES256 specifies that AES-256 encryption with SHA256 hashing will be used. TripleDes specifies that 3DES encryption with SHA1 hashing will be used. AES-256 encryption is stronger than 3DES encryption, but is only supported with PFX files on Windows Server 2019 and newer operating systems. Use 3DES encryption if the PFX file needs to be compatible with older operating systems. If this parameter isn't specified, AES-256 encryption is used by default. This parameter is only compatible with PFX files.
--Type {Cert | Pkcs7}
+
+**`[-EncryptionType {AES256 | TripleDes}]`**
+Specifies the encryption algorithm to use to protect the exported PFX file. AES256 specifies that AES-256 encryption with SHA256 hashing will be used. TripleDes specifies that 3DES encryption with SHA1 hashing will be used. AES-256 encryption is stronger than 3DES encryption, but is only supported with PFX files on Windows Server 2019 and newer operating systems. Use 3DES encryption if the PFX file needs to be compatible with older operating systems. If this parameter is not specified, AES-256 encryption is used by default. This parameter is only compatible with PFX files.
+
+**`-Type {Cert | Pkcs7}`**
 Specifies the type of file to generate. Cert will generate a CER file containing a single DER-encoded certificate. Pkcs7 will generate a P7B (PKCS #7) file containing one or more certificates. This parameter is only compatible with CER and P7B files.
-[-IncludeAllCertificatesInCertificationPath]
+
+
+**`[-IncludeAllCertificatesInCertificationPath]`**
 Specifies whether to export additional certificates that are part of the certificate chain of the specified certificate. This will only add parent certificates of the specified certificate, not child certificates issued by the specified certificate. This parameter is only compatible with PFX and P7B files.
-[-IncludeExtendedProperties]
+
+**`[-IncludeExtendedProperties]`**
 Specifies whether extended properties of the certificate should be exported, such as the friendly name of the certificate. This parameter is only compatible with PFX files.
-[-Path] <string>
+
+**`[-Path] <string>`**
 The path to the PFX, P7B, or CER file containing certificates.
-[-Force]
+
+**`[-Force]`**
 Specifies whether to overwrite a file if it already exists at the specified path.
 Example cmdlet syntax:
 $password = ConvertTo-SecureString -AsPlainText -Force
 Export-SPCertificate -Identity "Contoso SharePoint (2020)" -Password $password -IncludeAllCertificatesInCertificationPath -IncludeExtendedProperties -Path "\\server\fileshare\certificates.pfx"
 
-```
+
 ## Outgoing SMTP support for client certificate authentication
 
 Some SMTP servers may require the use of client certificates for authentication before accepting email messages. SharePoint now supports client certificate authentication when sending emails to an SMTP server. The outbound SMTP settings in SharePoint must be configured to use TLS connection encryption and a certificate must be assigned to use this capability. The certificate must be in SharePoint's End Entity certificate store, the certificate's private key must be imported, and the certificate's enhanced key usage extension must specify the certificate is valid for client authentication if that extension is present.
@@ -200,7 +232,7 @@ A "-Certificate <SPServerCertificatePipeBind>" parameter has been added to the f
 Set-SPWebApplication [-Identity] <SPWebApplicationPipeBind> -SMTPServer <String> [-Certificate <SPServerCertificatePipeBind>] [-DisableSMTPEncryption] [-Force] [-NotProvisionGlobally] [-OutgoingEmailAddress <String>] [-ReplyToEmailAddress <String>] [-SMTPServerPort <Int32>] [-SMTPCredentials <PSCredential>]
 
 ```
-To assign a certificate to the outbound SMTP settings through Central Administration, set "Use TLS connection encryption" and "Use client certificate authentication" to **Yes**, and then select the **client certificate** from the **Client certificate** drop-down list.
+To assign a certificate to the outbound SMTP settings through Central Administration, set **Use TLS connection encryption** and **Use client certificate authentication** to **Yes**, and then select the **client certificate** from the **Client certificate** drop-down list.
 
 ## Creating new certificates
 
@@ -215,39 +247,43 @@ New-SPCertificateRequest -FriendlyName <string> -CommonName <string> [-Alternati
 
 The cmdlet parameters are:
 
-```PowerShell
--FriendlyName <string>
+**`-FriendlyName <string>`**
 The friendly name for the certificate. This name can be used to help you remember the purpose of this certificate. The friendly name will only be visible to administrators, not to end users.
--CommonName <string>
+
+**`-CommonName <string>`**
 The primary DNS domain name or IP address that this certificate will be assigned to. Fully Qualified Domain Names (FQDNs) are recommended.
-[-AlternativeNames <string[]>]
+
+**`[-AlternativeNames <string[]>]`**
 Additional DNS domain names or IP addresses that this certificate will be assigned to. Fully Qualified Domain Names (FQDNs) are recommended.
-[-OrganizationalUnit <string>]
+
+**`[-OrganizationalUnit <string>]`**
 The name of your department within your organization or company. If this parameter is not specified, the default organizational unit of the farm will be used.
-[-Organization <string>]
+
+**`[-Organization <string>]`**
 The legally registered name of your organization or company. If this parameter is not specified, the default organization of the farm will be used.
-[-Locality <string>]
+
+**`[-Locality <string>]`**
 The name of the city or locality where your organization is legally located. Do not abbreviate the name. If this parameter is not specified, the default locality of the farm will be used.
-[-State <string>]
+
+**`[-State <string>]`**
 The name of the state or province where your organization is legally located. Do not abbreviate the name. If this parameter is not specified, the default state of the farm will be used.
-[-Country <string>]
-The 2 letter country code where your organization is legally located. This must be an ISO 3166-1 alpha-2 country code. If this parameter is not specified, the default country of the farm will be used.
-[-Exportable]
-Specifies whether the private key of the certificate may be exported. If this parameter isn't specified, the private key of certificate deployed to the Windows Certificate Store on each server in the SharePoint farm will not be exportable, and SharePoint will not allow you to export the private key from within the SharePoint administration interface.
-[-KeyAlgorithm {ECC | RSA}]
+
+**`[-Country <string>]`**
+The two letter country code where your organization is legally located. This must be an ISO 3166-1 alpha-2 country code. If this parameter is not specified, the default country of the farm will be used.
+
+**`[-Exportable]`**
+Specifies whether the private key of the certificate may be exported. If this parameter is not specified, the private key of certificate deployed to the Windows Certificate Store on each server in the SharePoint farm will not be exportable, and SharePoint will not allow you to export the private key from within the SharePoint administration interface.
+
+**`[-KeyAlgorithm {ECC | RSA}]`**
 Specifies the key algorithm for your certificate. This choice will be used for both the public key and the private key of your certificate.
 
-```
 RSA is the most common and widely supported key algorithm for certificates. Select the RSA algorithm if you are unsure, which type of key your certificate authority supports.
 
 ECC uses elliptic curve cryptography based on ECDSA keys with NIST P-256, P-384, or P-521 curves. SSL/TLS connections are faster to complete with ECC certificates than RSA certificates at the equivalent security strength. Verify that your certificate authority supports ECC certificates before selecting it.
 
 If this parameter is not specified, the default key algorithm of the farm will be used.
 
-```PowerShell
-[-KeySize {2048 | 4096 | 8192 | 16384}]
-
-```
+**`[-KeySize {2048 | 4096 | 8192 | 16384}]`**
 Specifies the size of your public and private RSA keys in bits.
 
 Larger key sizes provide more cryptographic strength than smaller key sizes, but they are also more computationally expensive and take more time to complete the SSL/TLS connection. Select 2048 if you are unsure, which key size to use. Key sizes larger than 4096 are not recommended.
@@ -277,55 +313,69 @@ Renew-SPCertificate [-Identity] <SPServerCertificatePipeBind> -FriendlyName <str
 ```
 The cmdlet parameters are:
 
-```PowerShell
-[-Identity] <SPServerCertificatePipeBind>
+
+**`[-Identity] <SPServerCertificatePipeBind>`**
 The certificate to be renewed.
--FriendlyName <string>
+
+**`-FriendlyName <string>`**
 The friendly name for the certificate. This name can be used to help you remember the purpose of this certificate. The friendly name will only be visible to administrators, not to end users.
-[-CommonName <string>]
+
+**`[-CommonName <string>]`**
 The primary DNS domain name or IP address that this certificate will be assigned to. Fully Qualified Domain Names (FQDNs) are recommended.
 If this parameter is not specified, the common name of the certificate to be renewed will be used.
-[-AlternativeNames <string[]>]
+
+**`[-AlternativeNames <string[]>]`**
 Additional DNS domain names or IP addresses that this certificate will be assigned to. Fully Qualified Domain Names (FQDNs) are recommended.
 If this parameter is not specified, the alternative names of the certificate to be renewed will be used.
-[-OrganizationalUnit <string>]
+
+**`[-OrganizationalUnit <string>]`**
 The name of your department within your organization or company.
-If this parameter is not specified, the organizational unit of the certificate to be renewed will be used. If an organizational unit can't be found in the certificate to be renewed, the default organizational unit of the farm will be used.
-[-Organization <string>]
+If this parameter is not specified, the organizational unit of the certificate to be renewed will be used. If an organizational unit cannot be found in the certificate to be renewed, the default organizational unit of the farm will be used.
+
+**`[-OrganizationalUnit <string>]`**
 The legally registered name of your organization or company.
-If this parameter is not specified, the organization of the certificate to be renewed will be used. If an organization can't be found in the certificate to be renewed, the default organization of the farm will be used.
-[-Locality <string>]
+If this parameter is not specified, the organization of the certificate to be renewed will be used. If an organization cannot be found in the certificate to be renewed, the default organization of the farm will be used.
+
+**`[-Locality <string>]`**
 The name of the city or locality where your organization is legally located. Do not abbreviate the name.
-If this parameter is not specified, the locality of the certificate to be renewed will be used. If a locality can't be found in the certificate to be renewed, the default locality of the farm will be used.
-[-State <string>]
+If this parameter is not specified, the locality of the certificate to be renewed will be used. If a locality cannot be found in the certificate to be renewed, the default locality of the farm will be used.
+
+**`[-State <string>]`**
 The name of the state or province where your organization is legally located. Do not abbreviate the name.
-If this parameter is not specified, the state of the certificate to be renewed will be used. If a state can't be found in the certificate to be renewed, the default state of the farm will be used.
-[-Country <string>]
-The 2 letter country code where your organization is legally located. This must be an ISO 3166-1 alpha-2 country code.
-If this parameter is not specified, the country of the certificate to be renewed will be used. If a country can't be found in the certificate to be renewed, the default country of the farm will be used.
-[-Exportable]
-Specifies whether the private key of the certificate may be exported. If this parameter isn't specified, the private key of certificate deployed to the Windows Certificate Store on each server in the SharePoint farm will not be exportable, and SharePoint will not allow you to export the private key from within the SharePoint administration interface.
-[-KeyAlgorithm {ECC | RSA}]
+If this parameter is not specified, the state of the certificate to be renewed will be used. If a state cannot be found in the certificate to be renewed, the default state of the farm will be used.
+
+**`[-Country <string>]`**
+The two letter country code where your organization is legally located. This must be an ISO 3166-1 alpha-2 country code.
+If this parameter is not specified, the country of the certificate to be renewed will be used. If a country cannot be found in the certificate to be renewed, the default country of the farm will be used.
+
+
+**`[-Exportable]`**
+Specifies whether the private key of the certificate may be exported. If this parameter is nto specified, the private key of certificate deployed to the Windows Certificate Store on each server in the SharePoint farm will not be exportable, and SharePoint will not allow you to export the private key from within the SharePoint administration interface.
+
+**`[-KeyAlgorithm {ECC | RSA}]`**
 Specifies the key algorithm for your certificate. This choice will be used for both the public key and the private key of your certificate.
-RSA is the most common and widely supported key algorithm for certificates. Select the RSA algorithm if you're unsure which type of key your certificate authority supports.
+RSA is the most common and widely supported key algorithm for certificates. Select the RSA algorithm if you are unsure, which type of key your certificate authority supports.
 ECC uses elliptic curve cryptography based on ECDSA keys with NIST P-256, P-384, or P-521 curves. SSL/TLS connections are faster to complete with ECC certificates than RSA certificates at the equivalent security strength. Verify that your certificate authority supports ECC certificates before selecting it.
 If this parameter is not specified, the key algorithm of the certificate to be renewed will be used.
-[-KeySize {2048 | 4096 | 8192 | 16384}]
+
+**`[-KeySize {2048 | 4096 | 8192 | 16384}]`**
 Specifies the size of your public and private RSA keys in bits.
-Larger key sizes provide more cryptographic strength than smaller key sizes, but they're also more computationally expensive and take more time to complete the SSL/TLS connection. Select 2048 if you're unsure which key size to use. Key sizes larger than 4096 are not recommended.
+Larger key sizes provide more cryptographic strength than smaller key sizes, but they are also more computationally expensive and take more time to complete the SSL/TLS connection. Select 2048 if you are unsure, which key size to use. Key sizes larger than 4096 are not recommended.
 If this parameter is not specified, the key size of the certificate to be renewed will be used.
-[-EllipticCurve {nistP256 | nistP384 | nistP521}]
+
+**`[-EllipticCurve {nistP256 | nistP384 | nistP521}]`**
 Specifies the elliptic curve of your public and private ECC keys.
-Larger elliptic curves provide more cryptographic strength than smaller elliptic curves, but they're also more computationally expensive and take more time to complete the SSL/TLS connection. Select nistP256 if you're unsure which elliptic curve to use. Elliptic curves larger than nistP384 are not recommended.
+Larger elliptic curves provide more cryptographic strength than smaller elliptic curves, but they are also more computationally expensive and take more time to complete the SSL/TLS connection. Select nistP256 if you are unsure, which elliptic curve to use. Elliptic curves larger than nistP384 are not recommended.
 If this parameter is not specified, the elliptic curve of the certificate to be renewed will be used.
-[-HashAlgorithm {SHA256 | SHA384 | SHA512}]
-Specifies the hash algorithm of your certificate signature, which your certificate authority will use to verify that your certificate request hasn't been tampered with.
-Larger hash algorithms provide more cryptographic strength than smaller hash algorithms, but they're also more computationally expensive. Select SHA256 if you're unsure which hash algorithm to use. Hash algorithms larger than SHA384 are not recommended.
+
+**`[-HashAlgorithm {SHA256 | SHA384 | SHA512}]`**
+Specifies the hash algorithm of your certificate signature, which your certificate authority will use to verify that your certificate request has not been tampered with.
+Larger hash algorithms provide more cryptographic strength than smaller hash algorithms, but they are also more computationally expensive. Select SHA256 if you are unsure, which hash algorithm to use. Hash algorithms larger than SHA384 are not recommended.
 If this parameter is not specified, the hash algorithm of the certificate to be renewed will be used.
-[-Path <string>]
+
+**`[-Path <string>]`**
 The path to the certificate signing request file that will be generated.
 
-```
 Example cmdlet syntax:
 
 ```PowerShell
@@ -341,13 +391,11 @@ Rename-SPCertificate [-Identity] <SPServerCertificatePipeBind> -NewFriendlyName 
 ```
 The cmdlet parameters are:
 
-```PowerShell
-[-Identity] <SPServerCertificatePipeBind>
+**`[-Identity] <SPServerCertificatePipeBind>`**
 The certificate to be renamed.
 -NewFriendlyName <string>
 The new friendly name for the certificate.
 
-```
 Example cmdlet syntax:
 
 ```PowerShell
@@ -364,21 +412,20 @@ Move-SPCertificate [-Identity] <SPServerCertificatePipeBind> -NewStore {Default 
 ```
 The cmdlet parameters are:
 
-```PowerShell
-[-Identity] <SPServerCertificatePipeBind>
+
+**`[-Identity] <SPServerCertificatePipeBind>`**
 The certificate to move.
 -NewStore {Default | EndEntity | Intermediate | Root}
 The certificate store to move the certificate to. If Default is specified, SharePoint will automatically select the appropriate certificate store for the certificate.
-[-Force]
-Specifies that the certificate should be moved to a different certificate store, even if the certificate is currently assigned to SharePoint objects. If this parameter is specified, any existing assignments of the certificate are cleared. If this parameter isn't specified and the certificate is assigned to a SharePoint object, the operation will fail.
 
-```
+**`[-Force]`**
+Specifies that the certificate should be moved to a different certificate store, even if the certificate is currently assigned to SharePoint objects. If this parameter is specified, any existing assignments of the certificate are cleared. If this parameter is not specified and the certificate is assigned to a SharePoint object, the operation will fail.
+
 Example cmdlet syntax:
-
 ```PowerShell
 Move-SPCertificate -Identity "Contoso SharePoint (2020)" -NewStore EndEntity
-
 ```
+
 ## View certificate default settings
 
 SharePoint supports farm-wide default settings for certificate management. These include default properties for creating and renewing certificates and certificate health rule thresholds.
@@ -400,38 +447,49 @@ Set-SPCertificateDefaults [-OrganizationalUnit <string>] [-Organization <string>
 ```
 The cmdlet parameters are:
 
-```PowerShell
-[-OrganizationalUnit <string>]
+
+**`[-OrganizationalUnit <string>]`**
 The name of your department within your organization or company.
-[-Organization <string>]
+
+**`[-Organization <string>]`**
 The legally registered name of your organization or company.
-[-Locality <string>]
+
+**`[-Locality <string>]`**
 The name of the city or locality where your organization is legally located. Do not abbreviate the name.
-[-State <string>]
+
+**`[-State <string>]`**
 The name of the state or province where your organization is legally located. Do not abbreviate the name.
-[-Country <string>]
-The 2 letter country code where your organization is legally located. This must be an ISO 3166-1 alpha-2 country code.
-[-KeyAlgorithm {ECC | RSA}]
+
+**`[-Country <string>]`**
+The two letter country code where your organization is legally located. This must be an ISO 3166-1 alpha-2 country code.
+
+**`[-KeyAlgorithm {ECC | RSA}]`**
 Specifies the key algorithm for your certificate. This choice will be used for both the public key and the private key of your certificate.
+
 RSA is the most common and widely supported key algorithm for certificates. Select the RSA algorithm if you're unsure which type of key your certificate authority supports.
 ECC uses elliptic curve cryptography based on ECDSA keys with NIST P-256, P-384, or P-521 curves. SSL/TLS connections are faster to complete with ECC certificates than RSA certificates at the equivalent security strength. Verify that your certificate authority supports ECC certificates before selecting it.
-[-KeySize {2048 | 4096 | 8192 | 16384}]
+
+**`[-KeySize {2048 | 4096 | 8192 | 16384}]`**
 Specifies the size of your public and private RSA keys in bits.
-Larger key sizes provide more cryptographic strength than smaller key sizes, but they're also more computationally expensive and take more time to complete the SSL/TLS connection. Select 2048 if you're unsure which key size to use. Key sizes larger than 4096 are not recommended.
-[-EllipticCurve {nistP256 | nistP384 | nistP521}]
+Larger key sizes provide more cryptographic strength than smaller key sizes, but they are also more computationally expensive and take more time to complete the SSL/TLS connection. Select 2048 if you are unsure, which key size to use. Key sizes larger than 4096 are not recommended.
+
+**`[-EllipticCurve {nistP256 | nistP384 | nistP521}]`**
 Specifies the elliptic curve of your public and private ECC keys.
-Larger elliptic curves provide more cryptographic strength than smaller elliptic curves, but they're also more computationally expensive and take more time to complete the SSL/TLS connection. Select nistP256 if you're unsure which elliptic curve to use. Elliptic curves larger than nistP384 are not recommended.
-[-HashAlgorithm {SHA256 | SHA384 | SHA512}]
-Specifies the hash algorithm of your certificate signature, which your certificate authority will use to verify that your certificate request hasn't been tampered with.
-Larger hash algorithms provide more cryptographic strength than smaller hash algorithms, but they're also more computationally expensive. Select SHA256 if you're unsure which hash algorithm to use. Hash algorithms larger than SHA384 are not recommended.
-[-CertificateExpirationAttentionThreshold <int>]
+Larger elliptic curves provide more cryptographic strength than smaller elliptic curves, but they're also more computationally expensive and take more time to complete the SSL/TLS connection. Select nistP256 if you are unsure, which elliptic curve to use. Elliptic curves larger than nistP384 are not recommended.
+
+**`[-HashAlgorithm {SHA256 | SHA384 | SHA512}]`**
+Specifies the hash algorithm of your certificate signature, which your certificate authority will use to verify that your certificate request has not been tampered with.
+Larger hash algorithms provide more cryptographic strength than smaller hash algorithms, but they are also more computationally expensive. Select SHA256 if you are unsure, which hash algorithm to use. Hash algorithms larger than SHA384 are not recommended.
+
+**`[-CertificateExpirationAttentionThreshold <int>]`**
 Specify the number of days before a certificate expires to trigger a certificate expiration notification. This is a reminder of upcoming certificate expirations that can be handled with normal priority. A certificate will only trigger a notification when it is assigned to SharePoint objects.
-[-CertificateExpirationWarningThreshold <int>]
+
+**`[-CertificateExpirationWarningThreshold <int>]`**
 Specify the number of days before a certificate expires to trigger a certificate expiration warning. This is a warning of imminent certificate expirations that should be handled with high priority. A certificate will only trigger a warning when it is assigned to SharePoint objects.
-[-CertificateExpirationErrorThreshold <int>]
+
+**`[-CertificateExpirationErrorThreshold <int>]`**
 Specify the number of days after a certificate expired to trigger a certificate expiration alert. This is an alert about certificates that have already expired and should be handled with critical priority. A certificate will only trigger an alert when it is assigned to SharePoint objects.
 
-```
 
 ## Certificates administrative action logging
 
@@ -448,10 +506,10 @@ Major certificate management actions are now logged in the SharePoint Administra
 - Administration.Security.Certificate.Uninstall
 - Administration.Security.Certificate.Unregister
 
-## Big fixes and refinements
+## Bug fixes and refinements
 
-Following bug fixes have been made  in the certificate management experience:
-- Usability improvements in the create/extend web application Central Administration UI.
+Following bug fixes have been made in the certificate management experience:
+- Usability improvements in the create/extend web application of the Central Administration UI.
 - Better support for certificates with hash algorithms other than SHA-2.
 - Import-SPCertificate provides a summary of the certificates that were just imported.
 - Support for relative paths in PowerShell cmdlets.
