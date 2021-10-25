@@ -20,8 +20,8 @@ description: "Learn how to address problems that may occur after you upgrade a s
 
 # Troubleshoot site collection upgrade issues in SharePoint Server 2016
 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
-  
 When you upgrade a site collection to SharePoint Server 2016, errors can occasionally occur. This article helps you understand those errors and address them.
   
 ## Check upgrade status and log files

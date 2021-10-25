@@ -250,13 +250,13 @@ The SharePoint Server 2016 prerequisite installer (prerequisiteinstaller.exe) in
     
 11. Visual C++ Redistributable Package for Visual Studio 2015
     
-You can run prerequisiteinstaller.exe at a command prompt with the following options. When you run prerequisiteinstaller.exe at a command prompt, you might be asked to restart the server one or more times during the installation process. After restarting, you should continue the prerequisite installation by running prerequisiteinstaller.exe with the /continue option.
+You can run prerequisiteinstaller.exe at a command prompt with the following options. When you run prerequisiteinstaller.exe at a command prompt, you might be asked to restart the server one or more times during the installation process. After restarting, you should continue the prerequisite installation by running prerequisiteinstaller.exe with the `/continue` option.
   
-- /? This displays command-line options.
+- `/?` displays command-line options.
     
-- /continue This is used to tell the installer that it is continuing from being restarted.
+- `/continue` is used to tell the installer that it is continuing from being restarted.
     
-- /unattended This indicates no user interaction.
+- `/unattended` indicates no user interaction.
     
 The installer installs from the file that you specify in the command-line options described in the following list. In this list, < _file_> signifies the file from which you want to install. If you do not specify the < _file_> option, the installer downloads the file from the Internet and installs it. If the option does not apply to the current operating system, it is ignored.
   

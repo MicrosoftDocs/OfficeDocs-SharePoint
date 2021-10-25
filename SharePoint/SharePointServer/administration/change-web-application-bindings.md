@@ -43,11 +43,11 @@ To edit the web application and set the port, URL, SSL certificate host header, 
  
      ![edit-web-application-part1](../media/edit2.PNG)
     
-  4. In **IIS Web site** section, you can change the port and host header.
+  4. In the **IIS Web site** section, you can change the **Port** and **Host Header** settings.
  
-  5. In **Security Configuration** section, you can change the **Use Secure Sockets Layer (SSL)**, **Server Certificate** and **Use Server Name Indication** settings.
+  5. In the **Security Configuration** section, you can change the **Use Secure Sockets Layer (SSL)**, **Server Certificate**, **Use Server Name Indication**, and **Allow Legacy Encryption** settings.
      
-  6. In **Public URL** section, you can change the public URL for this zone.
+  6. In the **Public URL** section, you can change the public URL for this zone.
   
   7. Click **Save** to save the changes.
     

@@ -20,8 +20,8 @@ description: "Create and configure a SharePoint Server 2016 farm so that you can
 
 # Create the SharePoint Server 2016 farm for a database attach upgrade
 
- 
-  
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
+
 When you upgrade from SharePoint Server 2013 to SharePoint Server 2016, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. Before you can upgrade the content, you must configure a new server or server farm by using SharePoint Server 2016. This article lists the items that you have to configure when you create that new environment.
   
 **Phase 1 of the upgrade process: Create SharePoint Server 2016 farm**
