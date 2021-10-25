@@ -43,7 +43,7 @@ The SharePoint app bar brings together intranet resources and personalized conte
 > -	Personalized content in the SharePoint app bar is enabled by Microsoft Graph.
 > - The SharePoint app bar will not display in SharePoint for external or guest users outside of your organization.
 > -	When Microsoft Graph is disabled, the news and sites experience will be degraded.
-> -	The SharePoint app bar can be temporarily disabled between today and when it becomes available to all customers to give customers more time to prepare for this change. Temporarily disabling the app bar will delay the rollout of this feature in your organization until October 31, 2021.
+> -	The SharePoint app bar can be temporarily disabled between today and when it becomes available to all customers to give customers more time to prepare for this change. Temporarily disabling the app bar will delay the rollout of this feature in your organization until March 31, 2022.
 > - Global navigation in the SharePoint app bar must be enabled in order for SharePoint resources to display in the [Microsoft Teams app bar for Viva Connections](viva-connections.md).
 
 
@@ -211,7 +211,7 @@ Help end users understand [how the new SharePoint app bar works](https://support
 
 ## Temporarily disable the SharePoint app bar
 
-You can temporarily disable the SharePoint app bar in your tenant to prepare for this change or control its rollout to users. The tool that disables the app bar will be available until October 31, 2021. Updates and more information about temporarily disabling the SharePoint app bar will be shared in future Message Center posts.
+You can temporarily disable the SharePoint app bar in your tenant to prepare for this change or control its rollout to users. The tool that disables the app bar will be available until March 31, 2022. Updates and more information about temporarily disabling the SharePoint app bar will be shared in future Message Center posts.
 
 Temporarily disable the SharePoint app bar:
 
