@@ -1,5 +1,5 @@
 ---
-title: "Introducing SSL Certificate management operations"
+title: "Introducing SSL Certificate Management Operations"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
@@ -18,7 +18,8 @@ description: "To learn how to configure incoming and outgoing email for a ShareP
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
-# Introducing SSL Certificate management operations
+
+# Introducing SSL Certificate Management Operations
 
 Secure Sockets Layer (SSL) certificate management is the process of monitoring and managing the life cycles from acquisition and deployment to tracking renewal, usage, and expiration of all SSL certificates deployed within a network.
  
@@ -88,11 +89,11 @@ The SPServerCertificatePipeBind accepts the following values:
 
 - String: Friendly name of the certificate.
 
-To assign a certificate to a web application when creating that web application or extending a web application to an additional zone through Central Administration, set "Use Server Sockets Layer (SSL)" to Yes, and then select the server certificate from the Server Certificate drop-down list.
+To assign a certificate to a web application when creating that web application or extending a web application to an additional zone through Central Administration, set "Use Server Sockets Layer (SSL)" to **Yes**, and then select the **server certificate** from the **Server Certificate** drop-down list.
 
 ## Replacing a certificate assignment
 
-You can replace all usage of an existing certificate within SharePoint with a different certificate, for example, if an existing certificate is approaching its expiration and you've imported a new certificate. To replace, use the Switch-SPCertificate cmdlet to replace the assignments of the existing certificate with the new certificate. All usage of the existing certificate within SharePoint will then be replaced with the new certificate. 
+You can replace all usage of an existing certificate within SharePoint with a different certificate, for example, if an existing certificate is approaching its expiration and you have imported a new certificate. To replace, use the Switch-SPCertificate cmdlet to replace the assignments of the existing certificate with the new certificate. All usage of the existing certificate within SharePoint will then be replaced with the new certificate. 
 
 The cmdlet parameters are:
 
@@ -114,7 +115,7 @@ Switch-SPCertificate -Identity "Contoso SharePoint (2020)" -NewCertificate "Cont
 
 The following are the known issues when you remove a certificate from SharePoint:
 
-- By default, SharePoint will not allow you to remove a certificate if it's currently assigned to a SharePoint object. You must override the default behavior if you want to force the removal of a certificate. If you override the default behavior, existing assignments of the certificate are cleared.
+- By default, SharePoint will not allow you to remove a certificate if it is currently assigned to a SharePoint object. You must override the default behavior if you want to force the removal of a certificate. If you override the default behavior, existing assignments of the certificate are cleared.
 - The certificate and any private key associated with that certificate is removed from the Windows certificate store on every server in the SharePoint farm.
 - The certificate and any private key associated with it is removed from the SharePoint configuration database.
 - Any previous exports from the certificate through the SharePoint administration interface will not be removed. Those exported files will still exist.
@@ -157,7 +158,7 @@ The certificate to find.
 The friendly name of the certificate to find. Use this parameter instead of the Identity parameter if multiple certificates might match this criteria. The Identity parameter can only return a single certificate.
 
 **`[-Store {EndEntity | Intermediate | Pending | Root}]`**
-Specifies the certificate store to search. If this parameter isn't specified, all certificate stores will be searched.
+Specifies the certificate store to search. If this parameter is not specified, all certificate stores will be searched.
 
 **`[-InUse]`**
 Specifies to only return certificates that are directly assigned to SharePoint objects (that is, currently in use).
@@ -419,13 +420,11 @@ The certificate store to move the certificate to. If Default is specified, Share
 **`[-Force]`**
 Specifies that the certificate should be moved to a different certificate store, even if the certificate is currently assigned to SharePoint objects. If this parameter is specified, any existing assignments of the certificate are cleared. If this parameter is not specified and the certificate is assigned to a SharePoint object, the operation will fail.
 
-```
 Example cmdlet syntax:
-
 ```PowerShell
 Move-SPCertificate -Identity "Contoso SharePoint (2020)" -NewStore EndEntity
-
 ```
+
 ## View certificate default settings
 
 SharePoint supports farm-wide default settings for certificate management. These include default properties for creating and renewing certificates and certificate health rule thresholds.
@@ -508,7 +507,7 @@ Major certificate management actions are now logged in the SharePoint Administra
 
 ## Bug fixes and refinements
 
-Following bug fixes have been made  in the certificate management experience:
+Following bug fixes have been made in the certificate management experience:
 - Usability improvements in the create/extend web application of the Central Administration UI.
 - Better support for certificates with hash algorithms other than SHA-2.
 - Import-SPCertificate provides a summary of the certificates that were just imported.
