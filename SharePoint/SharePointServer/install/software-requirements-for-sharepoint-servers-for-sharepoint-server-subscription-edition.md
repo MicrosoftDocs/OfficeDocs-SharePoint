@@ -15,7 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 
-description: "This article introduces the topic that describes software requirements for SharePoint Server."
+description: "This article introduces the article that describes software requirements for SharePoint Server."
 ---
 
 # Software requirements for SharePoint Servers for SharePoint Server Subscription Edition
@@ -58,7 +58,7 @@ The SharePoint Server Subscription Edition prerequisite installer (`prerequisite
 
 ### Prerequisite installer operation and command-line options
 
-You can run `prerequisiteinstaller.exe` with no parameters or at a command prompt with the following optional parameters. When you run `prerequisiteinstaller.exe` you might be asked to restart the server one or more times during the software installation process. If you're running it at a command prompt, you should continue the prerequisite installation by running `prerequisiteinstaller.exe` with the **/continue** parameter after restarting.
+You can run `prerequisiteinstaller.exe` with no parameters or at a command prompt with the following optional parameters. When you run `prerequisiteinstaller.exe`, you might be asked to restart the server one or more times during the software installation process. If you're running it at a command prompt, you should continue the prerequisite installation by running `prerequisiteinstaller.exe` with the **/continue** parameter after restarting.
 
 - **/?** This displays command-line options.
 
