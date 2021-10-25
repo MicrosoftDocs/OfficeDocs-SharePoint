@@ -33,11 +33,11 @@ Certificates are automatically deployed to the Windows certificate store on each
 
 Disconnecting a server from a SharePoint farm will not automatically remove SharePoint-managed certificates from that server's Windows certificate store. Uninstalling SharePoint from a server will not automatically remove SharePoint-managed certificates from that server's Windows certificate store.
 
-Use the Import-SPCertificate PowerShell cmdlet to import certificates from certificate files. 
+Use the `Import-SPCertificate` PowerShell cmdlet to import certificates from certificate files. 
+
+`Import-SPCertificate`
 
 The cmdlet parameters are:
-
-Import-SPCertificate
 
 **`[-Path] <string>`** 
 The path to the PFX, P7B, or CER file containing certificates.
@@ -65,23 +65,23 @@ $password = ConvertTo-SecureString -AsPlainText -Force Import-SPCertificate -Pat
 
 SharePoint supports assigning SharePoint-managed certificates to web applications with an SSL binding. The certificate must be in SharePoint's End Entity certificate store and the certificate's private key must also be imported. You can assign a certificate when the web application is first created or after it is created.
 
-```PowerShell
-A "-Certificate <SPServerCertificatePipeBind>" parameter has been added to the following cmdlets and commands:
 
-· New-SPWebApplication
+A `-Certificate <SPServerCertificatePipeBind>` parameter has been added to the following cmdlets and commands:
 
-· New-SPWebApplicationExtension
+- New-SPWebApplication
 
-· Set-SPWebApplication
+- New-SPWebApplicationExtension
 
-· New-SPCentralAdministration
+- Set-SPWebApplication
 
-· Set-SPCentralAdministration
+- New-SPCentralAdministration
 
-· PSConfig.exe -cmd adminvs
+- Set-SPCentralAdministration
 
-```
-The SPServerCertificatePipeBind accepts the following values:
+- PSConfig.exe -cmd adminvs
+
+
+The `SPServerCertificatePipeBind`accepts the following values:
 
 - GUID: ID property of the SPServerCertificate object.
 
@@ -95,9 +95,9 @@ To assign a certificate to a web application when creating that web application 
 
 You can replace all usage of an existing certificate within SharePoint with a different certificate, for example, if an existing certificate is approaching its expiration and you have imported a new certificate. To replace, use the Switch-SPCertificate cmdlet to replace the assignments of the existing certificate with the new certificate. All usage of the existing certificate within SharePoint will then be replaced with the new certificate. 
 
-The cmdlet parameters are:
+` Switch-SPCertificate`
 
-Switch-SPCertificate
+The cmdlet parameters are:
 
 **`-Identity <SPServerCertificatePipeBind>`**
 The certificate whose assignments you want to replace.
@@ -120,11 +120,11 @@ The following are the known issues when you remove a certificate from SharePoint
 - The certificate and any private key associated with it is removed from the SharePoint configuration database.
 - Any previous exports from the certificate through the SharePoint administration interface will not be removed. Those exported files will still exist.
 
-Use the Remove-SPCertificate cmdlet to remove a certificate from SharePoint. 
+Use the `Remove-SPCertificate` cmdlet to remove a certificate from SharePoint. 
+
+`Remove-SPCertificate`
 
 The cmdlet parameters are:
-
-Remove-SPCertificate
 
 **`[-Identity] <SPServerCertificatePipeBind>`**
 The certificate to remove from SharePoint.
@@ -181,7 +181,7 @@ SharePoint supports exporting certificates to PFX (PKCS #12) files, P7B (PKCS #7
 
 In the future builds, SharePoint will store exported certificate files in a SharePoint list in the Central Administration site for easy retrieval.  But for now, SharePoint only supports storing exported certificate files on the file system.
 
-Use the Export-SPCertificate PowerShell cmdlet to import certificates from certificate files.  
+Use the `Export-SPCertificate` PowerShell cmdlet to import certificates from certificate files.  
 
 This cmdlet supports multiple parameter sets:
 
@@ -231,7 +231,7 @@ A "-Certificate <SPServerCertificatePipeBind>" parameter has been added to the f
 Set-SPWebApplication [-Identity] <SPWebApplicationPipeBind> -SMTPServer <String> [-Certificate <SPServerCertificatePipeBind>] [-DisableSMTPEncryption] [-Force] [-NotProvisionGlobally] [-OutgoingEmailAddress <String>] [-ReplyToEmailAddress <String>] [-SMTPServerPort <Int32>] [-SMTPCredentials <PSCredential>]
 
 ```
-To assign a certificate to the outbound SMTP settings through Central Administration, set "Use TLS connection encryption" and "Use client certificate authentication" to **Yes**, and then select the **client certificate** from the **Client certificate** drop-down list.
+To assign a certificate to the outbound SMTP settings through Central Administration, set **Use TLS connection encryption** and **Use client certificate authentication** to **Yes**, and then select the **client certificate** from the **Client certificate** drop-down list.
 
 ## Creating new certificates
 
