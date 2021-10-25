@@ -61,6 +61,7 @@ Example cmdlet syntax:
 $password = ConvertTo-SecureString -AsPlainText -Force Import-SPCertificate -Path "\\server\fileshare\certificates.pfx" -Password $password -Exportable
 
 ```
+
 ## Assigning certificates to web applications
 
 SharePoint supports assigning SharePoint-managed certificates to web applications with an SSL binding. The certificate must be in SharePoint's End Entity certificate store and the certificate's private key must also be imported. You can assign a certificate when the web application is first created or after it is created.
