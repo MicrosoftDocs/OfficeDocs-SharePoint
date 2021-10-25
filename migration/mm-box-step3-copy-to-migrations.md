@@ -20,7 +20,7 @@ search.appverid: MET150
 description: "Step 3: Copy to migrations using Migration Manager."
 ---
 
-# Step 3: Copy to migrations
+# Step 3: Copy to migrations using Migration Manager
 
 
 

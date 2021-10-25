@@ -19,7 +19,7 @@ ms.collection:
 search.appverid: MET150to the migration list in Migration Manager."
 ---
 
-# Step 3: Copy to migrations
+# Step 3: Copy to migrations for file share migration
 
 After a file share has been scanned and determined ready, add it to your migration list.  
 
