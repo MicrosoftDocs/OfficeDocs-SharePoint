@@ -509,7 +509,7 @@ Major certificate management actions are now logged in the SharePoint Administra
 ## Bug fixes and refinements
 
 Following bug fixes have been made  in the certificate management experience:
-- Usability improvements in the create/extend web application Central Administration UI.
+- Usability improvements in the create/extend web application of the Central Administration UI.
 - Better support for certificates with hash algorithms other than SHA-2.
 - Import-SPCertificate provides a summary of the certificates that were just imported.
 - Support for relative paths in PowerShell cmdlets.
