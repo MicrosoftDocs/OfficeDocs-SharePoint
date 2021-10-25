@@ -39,13 +39,13 @@ By default, users can receive notifications about file activity in OneDrive and 
   
 3. Select or clear **Allow notifications**.
   
-This setting is the same as the setting on the Notifications page of the OneDrive admin center called "Display device notifications to users when OneDrive files are shared with them". You can also control this setting in PowerShell by using [Set-SPOTenant -NotificationsInOneDriveForBusinessEnabled](/powershell/module/sharepoint-online/set-spotenant).
+You can also control this setting in PowerShell by using [Set-SPOTenant -NotificationsInOneDriveForBusinessEnabled](/powershell/module/sharepoint-online/set-spotenant).
 
-The Notifications page of the OneDrive admin center includes three other settings under "Email OneDrive owners when":
+The Notifications page of the OneDrive admin center included three other settings under "Email OneDrive owners when":
 
-- Other users invite additional external users to shared files. You can also control this by using [Set-SPOTenant -NotifyOwnersWhenItemsReshared](/powershell/module/sharepoint-online/set-spotenant). 
+- Other users invite additional external users to shared files. You can control this by using [Set-SPOTenant -NotifyOwnersWhenItemsReshared](/powershell/module/sharepoint-online/set-spotenant). 
 - External users accept invitations to access files. (This setting no longer works for the new sharing experience that appears in most places.)
-- An anonymous access link is created or changed. You can also control this by using [Set-SPOTenant -OwnerAnonymousNotification](/powershell/module/sharepoint-online/set-spotenant).
+- An anonymous access link is created or changed. You can control this by using [Set-SPOTenant -OwnerAnonymousNotification](/powershell/module/sharepoint-online/set-spotenant).
 
 ## See also
 

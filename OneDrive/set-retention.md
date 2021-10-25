@@ -21,7 +21,7 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: fa1641ea-9f03-4f34-a826-dbd8697e76fe
-description: "Learn how to specify how long the files of deleted users are preserved using the OneDrive admin center. "
+description: "Learn how to specify how long the OneDrive files of deleted users are preserved. "
 ---
 
 # Set the OneDrive retention for deleted users
