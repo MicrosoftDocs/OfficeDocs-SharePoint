@@ -25,11 +25,15 @@ description: "This article introduces the topic that describes software requirem
 ## Operating systems
 
 SharePoint Server Subscription Edition supports the following operating systems:
+
 - [Windows Server 2019](https://www.microsoft.com/evalcenter/evaluate-windows-server-2019) Standard or Datacenter
+
 - [Windows Server 2022](https://www.microsoft.com/evalcenter/evaluate-windows-server-2022) Standard or Datacenter
 
 SharePoint Server Subscription Edition supports the following Windows Server installation options:
+
 - Server with Desktop Experience
+
 - Server Core
 
 > [!NOTE]
@@ -47,7 +51,9 @@ SharePoint Server Subscription Edition requires additional software prerequisite
 The SharePoint Server Subscription Edition prerequisite installer (`prerequisiteinstaller.exe`) installs the following software if they haven't already been installed on the target server. The software is installed in the following order:
 
 1. Web Server (IIS) Role
+
 2. [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?LinkId=2085155)
+
 3. [Visual C++ Redistributable Package for Visual Studio 2015-2019](https://go.microsoft.com/fwlink/?LinkId=2130438)
 
 ### Prerequisite installer operation and command-line options
