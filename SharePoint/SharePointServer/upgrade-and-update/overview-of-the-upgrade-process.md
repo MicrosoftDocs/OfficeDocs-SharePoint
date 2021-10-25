@@ -21,8 +21,8 @@ description: "Learn about the process of upgrading databases, service applicatio
 
 # Overview of the upgrade process to SharePoint Server 2016
 
-  
-  
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
+
 To upgrade from Microsoft SharePoint Server 2013 with the March 2013 Cumulative Update to SharePoint Server 2016, you use the database-attach method. In the database-attach method, you first create and configure a SharePoint Server 2016 farm. Then you copy the content and service application databases from the SharePoint Server 2013 with the March 2013 Cumulative Update farm, and then attach and upgrade the databases. This upgrades the data to the new version. Site owners can then upgrade individual site collections.
   
 SharePoint Server 2016 supports an upgrade from SharePoint Server 2013 with the March 2013 Cumulative Update (CU), version 15.0.4481.1005 or higher.
