@@ -506,7 +506,7 @@ Major certificate management actions are now logged in the SharePoint Administra
 - Administration.Security.Certificate.Uninstall
 - Administration.Security.Certificate.Unregister
 
-## Big fixes and refinements
+## Bug fixes and refinements
 
 Following bug fixes have been made  in the certificate management experience:
 - Usability improvements in the create/extend web application Central Administration UI.
