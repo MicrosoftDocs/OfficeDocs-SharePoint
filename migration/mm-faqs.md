@@ -21,7 +21,7 @@ description: Migration Manager FAQs
 # Frequently Asked Questions: Migration Manager
 
 **Question:** Can I migrate content from SharePoint Server? </br>
-Answer:   At this time, Migration Manager only supports the migration of **file shares**.  It does not support the migration of content from SharePoint Server.
+Answer:   At this time, Migration Manager supports the migration of file shares and cloud sources including Google, Dropbox, and Box  It does not support the migration of content from SharePoint Server.  See SPMT (SharePoint Migration Tool) for SharePoint Server migration.
 
 **Question:** Can I run the SharePoint Migration Tool (SPMT) on the same computer that I have the Migration Manager agent installed?</br>
 Answer:   Yes.
@@ -77,5 +77,16 @@ Answer:  In general, site performance should not be impacted by running a migrat
 **Question:** How do I remove the Migration Manager agent from a computer? </br>
 Answer: Re-run the Migration Manager agent installer and click the **Uninstall** button.
 
+**Question:** How do I update the Migration Manager agent? </br>
+Answer: The agent is set to automatically update to the latest version by default.
+
 **Question:** Does Migration Manager do incremental migrations? </br>
 Answer:  Yes.  The jobs created in Migration Manager do perform incremental migrations when run subsequently. 
+
+**Question:**  Does adding more agents linearly increase the throughput? Is there a cap on the max number of agents?</br>
+Based on our current data, the average speed of migration scales linearly to the number of agents, unless the overall throughput hits the upper limit of your network bandwidth. If multiple agents read from the same source file share path, that can also impact throughput. There’s no limit on how many agents you can install. We have many customers who perform migrations using 20+ agents.  **Note:** A single agent can process up to 10 tasks at a given time.
+
+**Question:**  How do I set the time zone for Migration Manager? 
+Answer:  Migration Manager uses the setting in the SharePoint Admin center to convert to your time zone.  In the SharePoint Admin center choose Settings > Site creation. A side panel displays where you can select the time zone.
+
+

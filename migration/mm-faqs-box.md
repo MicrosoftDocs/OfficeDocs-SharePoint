@@ -25,11 +25,11 @@ Answer.  Yes, you can continue to use Mover.  Find the tool at https://mover.io
 </br>
 
 **Question:**  **Is this available for GCC, GCCHigh, DoD tenants?**</br>
-Answer.  No, currently this Migration Manager Box preview is not available for any of the Government clouds.
+Answer.  Currently Migration Manager Box is not available for any of the Government clouds.
 </br>
 
-**Question:** **Are there are any caveats to this preview release?**</br>
-Answer.  Yes, this release only supports small to medium Box accounts.  Continue to use https://Mover.io for large accounts.
+**Question:** **Are there are any caveats to this release?**</br>
+Answer.  This release only supports small to medium Box accounts.  Continue to use https://Mover.io for large accounts.
 </br>
 
 **Question:**   **What gets transferred?**</br>

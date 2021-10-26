@@ -45,23 +45,31 @@ This article includes:
 - [Add a Teams app card](#add-a-teams-app-card)
 - [Audience targeting](#audience-targeting)
 - [Preview your Dashboard to see how it will display for different audiences](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
+- [Put the Dashboard on your home site using the Dashboard web part](#put-the-dashboard-on-your-home-site-using-the-dashboard-web-part)
 
 ## Create a Dashboard and add cards
 
-A Dashboard can be created on any communication site, but we recommend you create it on your home site. You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissions) on the site on which you're creating it.
+You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissions) on your home site.
 
-1. On your home site, select **New > Dashboard**. The Dashboard page opens in Mobile view by default. 
+1. On your home site, select the **Settings** gear at the top of the page.
+2. Select **Set up Viva Connections**.
+3. Select the **+ Create Dashboard** button.
+
+The Dashboard page opens in Mobile view by default. 
+
 
    >[!NOTE]
-   >You can choose Mobile, Tablet, and Desktop views interchangeably as you’re authoring.
+   > - You can choose Mobile, Tablet, and Desktop views interchangeably as you’re authoring.
+   > - Image recommendations for cards in the Dashboard: medium cards should be 300x150 to 400x200 with 2:1 aspect ratio and large cards 300x300 to 400x400 with 1:1 aspect ratio in order to prevent stretching in the mobile app.
+   > - Image URLS in card properties must be an absolute URL in order for the link to work in the mobile app.
 
 
-2. Select **+ Add a card**.
+4. Select **+ Add a card**.
 
    ![Image of adding a dashboard card.](media/add-a-card.png)
 
 
-3. Select the type of card you want to add from the Dashboard card toolbox and then follow the steps below to set up each type of card. As you’re building the Dashboard, you can preview its appearance in mobile, desktop, and tablet for different audiences.
+5. Select the type of card you want to add from the Dashboard card toolbox and then follow the steps below to set up each type of card. As you’re building the Dashboard, you can preview its appearance in mobile, desktop, and tablet for different audiences.
 Here are the built-in cards available now:
 
    [Web link](#add-a-web-link-card): Add an internal or external link
@@ -71,7 +79,7 @@ Here are the built-in cards available now:
    [Teams app](#add-a-teams-app-card): Use an existing Teams app or bot
 
  
-4. When you're done adding cards and targeting audiences, and you’re satisfied with how the Dashboard looks in preview, select **Publish** at the top-right of your Dashboard to make it available for use on your home site, in Teams, and in Teams mobile app. The view will default to Desktop view after you’ve published the Dashboard.
+6. When you're done adding cards and targeting audiences, and you’re satisfied with how the Dashboard looks in preview, select **Publish** at the top-right of your Dashboard to make it available for use on your home site, in Teams, and in Teams mobile app. The view will default to Desktop view after you’ve published the Dashboard.
 
 ## Add a Web link card
 
@@ -195,3 +203,6 @@ To preview for different audiences:
    In the following example, the preview is set for Mobile, and the first one shows the top two cards are audience targeted as the part of the group that is selected for preview. In the second preview, the top two cards are not targeted for the chosen audience group.
 
    ![Audience targeting example.](media/dashboard-preview-examples.png)
+   
+   ### Put the Dashboard on your home site using the Dashboard web part
+   Once a Dashboard is authored and published, you can use the Dashboard web part to display it on your home site. You can add the web part to any section on your page. For best results, we recommend putting in a right vertical section. When added, it will automatically be populated with the cards from the existing Dashboard on your site. You'll be able to set the maximum number of cards you want to show. [Learn how to use the Dashboard web part](use-dashboard-web-part-on-home-site.md).
