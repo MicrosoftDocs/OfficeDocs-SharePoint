@@ -28,7 +28,7 @@ Help users find important content and resources no matter where they are in Shar
 
 **The SharePoint app bar:**
 
-![Image of the SharePoint app bar.](media/app-bar-close-2.png)
+![Image of the SharePoint app bar.](media/app-bar-close-3.png)
 
 
 ## The SharePoint app bar experience
