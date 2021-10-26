@@ -20,7 +20,23 @@ description: "Create and launch a healthy SharePoint portal to ensure a performa
 
 # Creating and launching a healthy SharePoint portal
 
-A portal is a Microsoft SharePoint site on your intranet that has a large number of site viewers who consume content on the site. In large organizations there could be several of these; for example, a company portal and an HR portal. Typically portals have relatively few people who create and author the site and its content. Most visitors to the portal only read and consume the content.
+A portal is a Microsoft SharePoint site on your intranet that has many site viewers who consume the site content. In large organizations, you could have several; for example, a company portal and an HR portal. Typically portals have relatively few people who create and author the site and its content. Most visitors to the portal only read and consume the content.
+
+## What type of site should I use as my portal?
+
+There are several types of sites, each designed for a specific purpose.  
+
+|Type|Best for|Notes|
+|:-----|:-----|:-----|
+|Communication site|Portals, or to broadcast information out to a large audience.|Supports CDN, cache optimization, analytics. [Learn more](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb) |
+|Teams sites|Collaboration, active team work. Use a team site when you want to collaborate with other members of your team or with others on a specific project. |[Learn more](https://support.microsoft.com/en-us/office/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d)|
+|App pages|When custom code is needed, designed for business applications|Allows for custom code. CDN, cache optimization, and analytics are not supported. [Learn more](https://docs.microsoft.com/en-us/visualstudio/sharepoint/creating-application-pages-for-sharepoint?view=vs-2019)|
+
+>[!Important]
+>We highly recommend that you use a **Communication site** for your portal, to take advantage of all the features offered by this site type. Utilizing CDN and optimizing caches is one of the features that a Communication site uniquely offers to help you maintain a healthy SharePoint portal.
+
+
+
 
 ## Guidance
 
@@ -38,7 +54,7 @@ This set of guidance will walk you through best practices and recommendations be
 | |![Bill blue](/Office/media/icons/bill-blue.png "Page weight") [Review page weight](/microsoft-365/Enterprise/modern-page-weight-optimization)|Follow guidance to reduce page weight in your site pages|
 | |![Task list planning blue 32](/Office/media/icons/PNGs/task-list-planning-blue-32.png "Calls on a page") [Limit the number of requests to a page](/Office365/Enterprise/modern-page-call-optimization)|Limit the number of web parts and calls into SharePoint|
 | |![Picture photo blue 32](/Office/media/icons/PNGs/picture-photo-blue-32.png "Optimize images") [Optimize your images](/microsoft-365/Enterprise/modern-image-optimization)|Follow basic image optimization for the web|
-| |![Files blue 32](/Office/media/icons/PNGs/files-blue-32.png "iFrames") [Limit and use Iframes carefully](/microsoft-365/Enterprise/modern-iframe-optimization)|Don't use more than 2 Iframes on a page|
+| |![Files blue 32](/Office/media/icons/PNGs/files-blue-32.png "iFrames") [Limit and use Iframes carefully](/microsoft-365/Enterprise/modern-iframe-optimization)|Don't use more than two Iframes on a page|
 | |![Graph 3 blue](/office/media/icons/graph-3-blue.png "Optimize extensions") [Optimize extensions](/microsoft-365/Enterprise/modern-custom-extensions)|Follow the guidance to optimize and limit your custom extensions|
 |![Task checklist planning blue 32](/office/media/icons/PNGs/task-checklist-planning-blue-32.png "Modern portal limits")|[Modern portal limits](/Office365/Enterprise/modern-portal-limits)|Follow the limits for modern portals to further optimize performance|
 |![Globe Internet](/Office/media/icons/globe-internet.png "Network optimization")|[Network optimization](/microsoft-365/enterprise/urls-and-ip-address-ranges)|Configure your URLs and IP endpoints|
