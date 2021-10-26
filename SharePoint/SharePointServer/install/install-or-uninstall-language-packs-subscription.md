@@ -61,7 +61,7 @@ Follow these steps for each language that you want to support. If you decide to 
 > By default, the Microsoft PowerShell Help files are installed in English (en-us). To view these files in the same language as the operating system, install the language pack for the same language in which the operating system was installed. 
   
   
-## Installing language packs on the SharePoint servers
+## Installing language packs on the sharepoint servers
 <a name="section4"> </a>
 
 Language packs are available as individual downloads (one download for each supported language). If you have a server farm environment and you are installing language packs to support multiple languages, you must install the language packs on each SharePoint server.
@@ -69,22 +69,24 @@ Language packs are available as individual downloads (one download for each supp
 > [!IMPORTANT]
 > The language pack is installed in its native language. The procedure that follows is for the English language pack. 
   
- **To install a language pack**
+ ### Install a language pack on desktop experience
   
  Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-1. Mount the **ISO disc images** to download disc images for the language pack installers.
+1. Mount the **ISO disc image** as a drive on your computer by double-clicking on it, or by specifying it as a virtual drive in your virtual machine manager.
 
-2.  Run the setup.exe (`setup.exe`) on your servers.
+2. Navigate to the mounted drive and run (`setup.exe`) to launch the language pack setup program.
     
-3. On the **Read the Microsoft Software License Terms** page, review the terms, select the **I accept the terms of this agreement** check box, and then click **Continue**.   
+3. On the **Read the Microsoft Software License Terms** page, review the terms, select the **I accept the terms of this agreement** check box, and then click **Continue**.
+   
 4. The Setup wizard runs and installs the language pack.
+   
+5. Rerun the SharePoint Products Configuration Wizard by using the default settings. 
     
-5. Rerun the SharePoint Products Configuration Wizard by using the default settings. If you do not run the SharePoint Products Configuration Wizard after you install a language pack, the language pack will not be installed correctly.
-    
-    The SharePoint Products Configuration Wizard runs in the language of the base installation of SharePoint Server, not in the language of the language pack that you just installed.
-    
- **To rerun the SharePoint Products Configuration Wizard**
+    > [!NOTE]
+    > If you do not run the SharePoint Products Configuration Wizard after you install a language pack, the language pack will not be installed correctly.
+       
+### Run the sharepoint products configuration wizard
   
 Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
@@ -109,7 +111,32 @@ where,
 `_LanguageID_` is the Language ID number for the language that you are installing. 
 
 For example, the United States English language pack installs to the `%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\TEMPLATE\1033` directory. After you install a language pack, site owners and site collection administrators can create sites and site collections based on the language-specific site templates by specifying a language when they are creating a new SharePoint site or site collection. 
-  
+
+### Install a language pack on windows server core
+
+Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
+
+1. Mount the ISO disc image as a drive on your computer by using the [Mount-DiskImage](https://docs.microsoft.com/powershell/module/storage/mount-diskimage?view=windowsserver2019-ps) cmdlet, or by specifying it as a virtual drive in your virtual machine manager.
+2. Run Language Pack for SharePoint and Project Server Subscription Edition Setup (`setup.exe`) on your computer in command line mode. This is done by adding the following command line parameters when launching (`setup.exe`).
+- /config `<config file>` (Where `<config file>` is the path to the **\Files\SetupSilent\config.xml** file on your mounted drive.)
+- `/IAcceptTheLicenseTerms `(Specifying this parameter signifies that you have read, understand, and agree to the license terms of Language Pack for SharePoint and Project Server Subscription Edition.)
+3. Once Language Pack for SharePoint and Project Server Server Subscription Edition Setup has completed, reboot your computer.
+4. Run **Install-SPHelpCollection -All**.
+5. Run **Initialize-SPResourceSecurity**.
+6. Run **Install-SPService**.
+7. Run **Install-SPFeature -AllExistingFeatures**.
+8. Run **Install-SPApplicationContent**.
+
+### Remove language pack
+
+1. From the **Start** menu, click **Control Panel**.
+2. Click **Uninstall** a program.
+3. In the list of currently installed programs, select **Language Pack for SharePoint and Project Server Subscription Edition - Language** and then click **Uninstall**.
+4. Click **Yes** to confirm that you want to remove the program.
+5. Click **OK** in the dialog-box alerting you that this might result in partial loss of functionality for sites that depends on this language pack.
+6. After the language pack has been successfully uninstalled, click **Close**.
+
+
 ## List of Languages
 
 Each folder name has a language tag appended to it, in the form ll-cc. That tag identifies the language and culture. For example, U.S. English language folders are identified by the folder name extension en-us. 
