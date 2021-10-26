@@ -90,10 +90,10 @@ You can use the procedures that are described in this article to create a new co
 2. Open **SharePoint Management Shell**.
     
 3. At the PowerShell command prompt, type the following command:
-    
-  ```
-  New-SPContentDatabase -Name <ContentDbName> -WebApplication <WebApplicationName>
-  ```
+  
+    ```
+    New-SPContentDatabase -Name <ContentDbName> -WebApplication <WebApplicationName>
+    ```
 
     Where:
     
