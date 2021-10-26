@@ -85,7 +85,7 @@ You can use the procedures that are described in this article to create a new co
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin). 
   
 2. Open **SharePoint Management Shell**.
     
@@ -101,10 +101,10 @@ You can use the procedures that are described in this article to create a new co
     
   -  _\<WebApplicationName\>_ is the name of the web application to which the new database is attached. 
     
-For more information, see [New-SPContentDatabase](/powershell/module/sharepoint-server/New-SPContentDatabase?view=sharepoint-ps).
+For more information, see [New-SPContentDatabase](/powershell/module/sharepoint-server/New-SPContentDatabase).
   
 > [!NOTE]
-> To attach an existing content database to a web application, use the Microsoft PowerShell cmdlet **Mount-SPContentDatabase**. For more information, see [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps). 
+> To attach an existing content database to a web application, use the Microsoft PowerShell cmdlet **Mount-SPContentDatabase**. For more information, see [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
