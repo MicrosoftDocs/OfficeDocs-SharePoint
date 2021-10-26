@@ -35,4 +35,4 @@ The following articles help you prepare for the installation of SharePoint Serve
 
 ## Environments without an Internet Connection
 
-The SharePoint prerequisite installer requires an active Internet connection to download and install the prerequisites. In scenarios, where there is no access to the Internet, you can download the prerequisites and then install them from a network share. For more information, see [Hardware and software requirements for SharePoint Server 2019](hardware-and-software-requirements-2019.md).
+The SharePoint prerequisite installer requires an active Internet connection to download and install the prerequisites. In scenarios, where there is no access to the Internet, you can download the prerequisites and then install them from a network share. For more information, see [Software Requirements for SharePoint Servers for SharePoint Server Subscription Edition](software-requirements-for-sharepoint-servers-for-sharepoint-server-subscription-edition.md).
