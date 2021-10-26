@@ -24,6 +24,10 @@ description: "Use the SharePoint app bar to enhance intranet way finding and dis
 
 Help users find important content and resources no matter where they are in SharePoint. The SharePoint app bar is designed to improve the global way finding experience while dynamically displaying personalized sites, news, files, and lists. The app bar can be accessed on the left-hand side anywhere in SharePoint.
 
+![Aninimated GIF of the tabs in the SharEPoint app bar.](media/app-bar-gif.gif)
+
+**The SharePoint app bar:**
+
 ![Image of the SharePoint app bar.](media/app-bar-close.png)
 
 
