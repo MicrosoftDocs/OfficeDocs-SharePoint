@@ -21,7 +21,7 @@ description: "To learn how to configure incoming and outgoing email for a ShareP
 
 # Introducing SSL Certificate Management Operations
 
-Secure Sockets Layer (SSL) certificate management is the process of monitoring and managing the life cycles from acquisition and deployment to tracking renewal, usage, and expiration of all SSL certificates deployed within a network.
+SSL certificate management is the process of monitoring and managing the life cycles from acquisition and deployment to tracking renewal, usage, and expiration of all SSL certificates deployed within a network.
  
 This article focuses on the following SSL certificate management operations.
 

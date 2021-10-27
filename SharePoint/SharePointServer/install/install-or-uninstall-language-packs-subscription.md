@@ -81,7 +81,7 @@ Language packs are available as individual downloads (one download for each supp
    
 4. The Setup wizard runs and installs the language pack.
    
-5. Rerun the SharePoint Products Configuration Wizard by using the default settings. 
+5. Run the SharePoint Products Configuration Wizard by using the default settings. 
     
     > [!NOTE]
     > If you do not run the SharePoint Products Configuration Wizard after you install a language pack, the language pack will not be installed correctly.
