@@ -24,19 +24,12 @@ A portal is a Microsoft SharePoint site on your intranet that has many site view
 
 ## What type of site should I use as my portal?
 
-There are several types of sites, each designed for a specific purpose.  
-
-|Type|Best for|Notes|
-|:-----|:-----|:-----|
-|Communication site|Portals, or to broadcast information out to a large audience.|Supports CDN, cache optimization, analytics. [Learn more](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb) |
-|Teams sites|Collaboration, active team work. Use a team site when you want to collaborate with other members of your team or with others on a specific project. |[Learn more](https://support.microsoft.com/en-us/office/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d)|
-|App pages|When custom code is needed, designed for business applications|Allows for custom code. CDN, cache optimization, and analytics are not supported. [Learn more](https://docs.microsoft.com/en-us/visualstudio/sharepoint/creating-application-pages-for-sharepoint?view=vs-2019)|
+SharePoint Online has several types of sites and page types but for portals, we highly recommend using a communication site ([Learn more](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb)) with a site page for the home page.  That is the default configuration when you create a communication site. Site pages allow usage of out of the box web parts as well as custom web parts and extensions. 
 
 >[!Important]
->We highly recommend that you use a **Communication site** for your portal, to take advantage of all the features offered by this site type. Utilizing CDN and optimizing caches is one of the features that a Communication site uniquely offers to help you maintain a healthy SharePoint portal.
-
-
-
+>Modern Team sites ([Learn more](https://support.microsoft.com/office/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d)) are designed for use on collaboration sites, like departmental / interest groups / focus areas or when you would like to collaborate with other team members. 
+>
+>The App page type ([Learn more](https://docs.microsoft.com/visualstudio/sharepoint/creating-application-pages-for-sharepoint?view=vs-2019)) was designed to be used for specific business aplications within SharePoint Online and was not designed to be used as a SharePoint Team site or a SharePoint Portal. 
 
 ## Guidance
 
