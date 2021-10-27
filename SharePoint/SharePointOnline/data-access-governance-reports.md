@@ -47,7 +47,7 @@ The Sharing links reports help you identify potential oversharing by seeing the 
 
 ### Run the reports
 
-To get the latest data for a report, run the report. You can run all reports or select individual reports to run. It might take a few hours for reports to run. To check if a report is ready or when it was last updated, see the Status column.
+To get the latest data for a report, run the report. You can run all reports or select individual reports to run. It might take a few hours for reports to run. To check if a report is ready or when it was last updated, see the **Status** column.
 
 > [!NOTE]
 > Each report can be run only once in 24 hours.
@@ -67,7 +67,7 @@ You can download a .csv file to get the same information for up to 10,000 sites.
 
 ## Sensitivity labels for files reports
 
-The "Sensitivity labels for files" reports help you control access to sensitive content by finding sites storing [Office files that have sensitivity labels applied](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files). You can review these sites to make sure the correct policies are applied.
+The "Sensitivity labels for files" reports help you control access to sensitive content by finding sites storing [Office files that have sensitivity labels applied](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files). You can review these sites to ensure the correct policies are applied.
 
 ### Add the reports
 
@@ -80,7 +80,7 @@ You can add a report for each sensitivity label you want to track. Adding a repo
 
 ### Run reports
 
-To get the latest data for a report, run the report. You can run all reports or select individual reports to run. It might take a few hours for reports to run. To check if a report is ready or when it was last updated, see the Status column.
+To get the latest data for a report, run the report. You can run all reports or select individual reports to run. It might take a few hours for reports to run. To check if a report is ready or when it was last updated, see the **Status** column.
 
 > [!NOTE]
 > Each report can run only once in 24 hours.
@@ -93,7 +93,6 @@ After you run a report, select it to download the data. The report includes:
 
 - Up to 10,000 sites with the highest number of [Office files that have sensitivity labels applied](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files) present in the sites.
 - The policies applied on these sites - [site sensitivity](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), [site unmanaged device policy](control-access-from-unmanaged-devices.md), and [site external sharing policy](external-sharing-overview.md).
-
 :::image type="content" source="media/details-screen.png" alt-text="Downloaded .csv file":::
 
 ## Limitations or known issues
