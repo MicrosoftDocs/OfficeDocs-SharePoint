@@ -54,11 +54,11 @@ Invoke-SPOSiteSwap
   
 Here's an example of how to use these parameters when swapping an existing Enterprise Search Center to Basic:
 
-- **For your -SourceUrl**, you need the URL of your Basic Search Center site. The site must exist before running the cmdlet. For our example, we'll use <spam><spam>https://contoso.sharepoint.com/sites/SiteSearch<spam><spam>.
+- **For your -SourceUrl**, you need the URL of your Basic Search Center site. The site must exist before running the cmdlet. For our example, we'll use \<spam\>\<spam\>https://contoso.sharepoint.com/sites/SiteSearch\<spam\>\<spam\>.
 
     You can [create a Basic Search Center site](https://support.office.com/article/449eccec-ff99-4cf3-b62e-dcfee37e8da4) from an Enterprise site template.
-- **For your -TargetUrl**, you need the URL of your Enterprise Search Center site that you want to replace. For our example, we'll use <spam><spam>https://contoso.sharepoint.com/search<spam><spam>.
-- **For your -ArchiveUrl**, use a Url that does not currently exist at the location. Your Enterprise Search Center site will be archived to this site location. For our example, we'll use <spam><spam>https://contoso.sharepoint.com/sites/ArchivedEntSearch<spam><spam>. 
+- **For your -TargetUrl**, you need the URL of your Enterprise Search Center site that you want to replace. For our example, we'll use \<spam\>\<spam\>https://contoso.sharepoint.com/search\<spam\>\<spam\>.
+- **For your -ArchiveUrl**, use a Url that does not currently exist at the location. Your Enterprise Search Center site will be archived to this site location. For our example, we'll use \<spam\>\<spam\>https://contoso.sharepoint.com/sites/ArchivedEntSearch\<spam\>\<spam\>. 
 
 Here's how to use the examples above in the Invoke-SPOSiteSwap cmdlet:
 
@@ -67,7 +67,7 @@ Invoke-SPOSiteSwap -SourceUrl https://contoso.sharepoint.com/sites/SearchSite -T
 ```
 
 Successfully running the cmdlet above would result in:
-- Basic Search will be the default Search Center experience. When users go to <spam><spam>https://contoso.sharepoint.com/search<spam><spam>, they will now be using the Basic Search Center.
+- Basic Search will be the default Search Center experience. When users go to \<spam\>\<spam\>https://contoso.sharepoint.com/search\<spam\>\<spam\>, they will now be using the Basic Search Center.
 - The Enterprise Search Center site will no longer be available as the default Search Center experience.
 
 
