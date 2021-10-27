@@ -86,7 +86,7 @@ Language packs are available as individual downloads (one download for each supp
     > [!NOTE]
     > If you do not run the SharePoint Products Configuration Wizard after you install a language pack, the language pack will not be installed correctly.
        
-### Run the sharepoint products configuration wizard
+### Run the SharePoint products configuration wizard
   
 Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
@@ -112,7 +112,7 @@ where,
 
 For example, the United States English language pack installs to the `%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\TEMPLATE\1033` directory. After you install a language pack, site owners and site collection administrators can create sites and site collections based on the language-specific site templates by specifying a language when they are creating a new SharePoint site or site collection. 
 
-### Install a language pack on windows server core
+### Install a language pack on Windows Server Core
 
 Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
 
