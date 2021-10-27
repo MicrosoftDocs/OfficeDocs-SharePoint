@@ -91,7 +91,7 @@ You can use the procedures that are described in this article to create a new co
     
 3. At the PowerShell command prompt, type the following command:
   
-    ```
+    ```powershell
     New-SPContentDatabase -Name <ContentDbName> -WebApplication <WebApplicationName>
     ```
 
