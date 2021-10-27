@@ -29,7 +29,7 @@ A table summary appears at the top to give you an at-a-glance overview of your u
    ![Summary of scanned Box users](media/mm-box-scan-assess-summary.png)
 
 
-1. Review the scanned users. Search for specific text, or select a filter to review the list more easily
+1. Review the scanned users. Search for specific text, or select a filter to review the list more easily.
 2. Select **Add source path** to manually search for more users, and then select how to do it.
 
 ![add source paths manually in Box](media/mm-add-source-path.png)
