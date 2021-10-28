@@ -49,13 +49,14 @@ Summary and detailed scan reports are available to troubleshoot any issues.
 2. To download a detailed scan report for an individual account, select a single row, then select **Download scan log**.   </br>
 
 ## Managing Users Who Own Large Amounts of Data 
-Upon completion of your Scan, you should download the Scan Reports and review/address any large Source data owners. 
+
+Upon completing your scan, download the scan reports and review/address any large source data owners. 
  
 The more users simultaneously being transferred, the higher our throughput for your migration. Users with large data sets should be broken into smaller Service Accounts to facilitate faster transfers. 
 To maximize throughput, users should not own greater than 400,000 items or 5 TB of data. The more users you have, and the smaller the amounts of data they own, the faster your migration proceeds. 
 Examples: 
  
-If a user owns more than 400,000 items, this should be divided between 4 users so that each user owns 100,000 items. 
+If a user owns more than 400,000 items, this should be divided between four users so that each user owns 100,000 items. 
 If a user owns more than 5 TB of data, this should be divided between 5 users so that each user owns 1 TB. 
  
 To create Service Accounts, you can work with your Dropbox Admin to carry out the following: 
@@ -67,13 +68,15 @@ This may require that the original owner first share it with the new owner, wher
 1.	When it comes to migrating the Service Account, create a corresponding OneDrive user/SharePoint site to migrate the new Service Account content to. 
  
 When mapping please ensure that each Service Account has its own unique matching Destination account to optimize performance. 
-| 
-Source Path                                  Destination Path 
-originaluser@contoso.com        > originaluser@contoso.com/[upload folder]* 
-serviceaccount1@contoso.com > serviceaccount1@contoso.com/[upload folder]* 
-serviceaccount2@contoso.com > serviceaccount2@contoso.com/[upload folder]* 
-serviceaccount3@contoso.com > serviceaccount3@contoso.com/[upload folder]* 
-* = optional folder 
+ 
+|Source Path|Destination Path |
+|:-----|:-----|
+|originaluser@contoso.com | originaluser@contoso.com/[upload folder]* |
+|serviceaccount1@contoso.com |serviceaccount1@contoso.com/[upload folder]* |
+|serviceaccount2@contoso.com |serviceaccount2@contoso.com/[upload folder]* |
+|serviceaccount3@contoso.com | serviceaccount3@contoso.com/[upload folder]* |
+
+Asterix (*) = optional folder 
 
 
 **NEXT:**  [ **Step 3: Copy to migrations**](mm-dropbox-step3-copy-to-migrations.md)
