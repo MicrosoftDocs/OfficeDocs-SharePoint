@@ -13,7 +13,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid:
-description: "Learn how to replace the expiring certificates to ensure uninterrupted access to resources."
+description: "Learn how to replace SSL certificates that have expired."
 ---
 
 # SSL certificates have expired
