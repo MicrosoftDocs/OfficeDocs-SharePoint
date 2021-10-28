@@ -58,12 +58,19 @@ Upon completing your ccan, download the scan reports and review/address any larg
  
 The more users simultaneously being transferred, the higher our throughput for your migration. Users with large data sets should be broken into smaller Service Accounts to facilitate faster transfers. 
 To maximize throughput, users should not own greater than 400,000 items or 5 TB of data. The more users you have, and the smaller the amounts of data they own, the faster your migration proceeds. 
+
 Examples: 
- 
+
+|Size|Action|
+|:-----|:-----|
+|If a user owns more than 400,000 items|this should be divided between 4 users so that each user owns 100,000 items. |
+|If a user owns more than 5 TB of data, |divided between 5 users so that each user owns 1 TB. |
+
 If a user owns more than 400,000 items, this should be divided between 4 users so that each user owns 100,000 items. 
 If a user owns more than 5 TB of data, this should be divided between 5 users so that each user owns 1 TB. 
  
-To create Service Accounts, you can work with your G-Suite Admin to carry out the following: 
+To create Service Accounts, work with your G-Suite Admin to carry out the following: 
+
 1.	Once you have identified a large user determine how many Service Accounts will be required (see example above). 
 2.	Create the Service Accounts in G-Suite and assign them a license. 
 3.	From the original large user, identify the folder(s) you would like to assign to the Service Account. 

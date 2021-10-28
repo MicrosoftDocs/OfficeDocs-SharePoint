@@ -65,6 +65,7 @@ To create Service Accounts, you can work with your Box Admin to carry out the fo
 4.	Change the ownership of said folder(s) to the new Service Account. 
 This may require that the original owner first share it with the new owner, where  the new owner would have to accept, then the original owner will then have the  option to select them as owner. 
 5.	When it comes to migrating the Service Account, create a corresponding OneDrive user/SharePoint site to migrate the new Service Account content to. 
+6. Before making any changes, you should reach out to your tenant administrator, investigate any source custom solutions or ​integrations that you might be using, and determine if these ownership changes will have any impact.
 
 When mapping please ensure that each Service Account has its own unique matching Destination account to optimize performance. 
 

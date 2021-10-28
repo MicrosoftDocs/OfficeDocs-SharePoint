@@ -60,12 +60,13 @@ If a user owns more than 400,000 items, this should be divided between four user
 If a user owns more than 5 TB of data, this should be divided between 5 users so that each user owns 1 TB. 
  
 To create Service Accounts, you can work with your Dropbox Admin to carry out the following: 
-1.	Once you have identified a large user determine how many Service Accounts will be required (see example above). 
-2.	Create the Service Accounts in Dropbox and assign them a license. 
-3.	From the original large user, identify the folder(s) you would like to assign to the Service Account. 
-4.	Change the ownership of said folder(s) to the new Service Account. 
+1. Once you have identified a large user,determine how many Service Accounts will be required (see example above). 
+2. Create the Service Accounts in Dropbox and assign them a license. 
+3. From the original large user, identify the folder(s) you would like to assign to the Service Account. 
+4. Change the ownership of said folder(s) to the new Service Account. 
 This may require that the original owner first share it with the new owner, where  the new owner would have to accept, then the original owner will then have the  option to select them as owner. 
-1.	When it comes to migrating the Service Account, create a corresponding OneDrive user/SharePoint site to migrate the new Service Account content to. 
+5. When it comes to migrating the Service Account, create a corresponding OneDrive user/SharePoint site to migrate the new Service Account content to. 
+6. Before making any changes, you should reach out to your tenant administrator, investigate any source custom solutions or ​integrations that you might be using, and determine if these ownership changes will have any impact.
  
 When mapping please ensure that each Service Account has its own unique matching Destination account to optimize performance. 
  
