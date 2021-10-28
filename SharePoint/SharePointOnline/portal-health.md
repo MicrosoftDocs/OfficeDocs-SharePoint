@@ -33,7 +33,7 @@ To learn more, see [Create communication sites in SharePoint](/office/create-a-c
 >[!Important]
 >**Modern Team sites** are designed for use on collaboration sites, like projects / interest groups / focus areas or when you would like to collaborate with other team members. To learn more, see [Create team sites in SharePoint](/office/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).
 >
->The **App page type** was designed to be used for specific business aplications within SharePoint Online and was not designed to be used as a SharePoint Team site or a SharePoint Portal. To learn more, see [Creating application pages in SharePoint](/visualstudio/sharepoint/creating-application-pages-for-sharepoint).
+>The **App page type** was designed to be used for specific business applications within SharePoint Online. It was not designed to be used as a SharePoint Team site or a SharePoint Portal. To learn more, see [Creating application pages in SharePoint](/visualstudio/sharepoint/creating-application-pages-for-sharepoint).
 
 ## Guidance
 
