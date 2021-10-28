@@ -36,7 +36,7 @@ A table summary appears at the top to give you an at-a-glance overview of your u
 
 ![add source path selections](media/mm-add-source-path-choices-box.png)
 
-## Download reports
+'## Download reports
 
 Summary and detailed scan reports are available to troubleshoot any issues.
 
@@ -47,6 +47,33 @@ Summary and detailed scan reports are available to troubleshoot any issues.
 
 2. Highlight a selected Box user, and select **Download scan log**  to download a detailed scan report of that user account. </br>
 
+## Managing Users Who Own Large Amounts of Data 
+
+Upon completion of your Scan, download the Scan reports and review/address any large Source data owners. 
+ 
+The more users simultaneously being transferred, the higher our throughput for your migration. Users with large data sets should be broken into smaller Service Accounts to facilitate faster transfers. 
+To maximize throughput, users should not own greater than 400,000 items or 5 TB of data. The more users you have, and the smaller the amounts of data they own, the faster your migration proceeds. 
+Examples: 
+ 
+If a user owns more than 400,000 items, this should be divided between 4 users so that each user owns 100,000 items. 
+If a user owns more than 5 TB of data, this should be divided between 5 users so that each user owns 1 TB. 
+ 
+To create Service Accounts, you can work with your Box Admin to carry out the following: 
+1.	Once you have identified a large user determine how many Service Accounts will be required (see example above). 
+2.	Create the Service Accounts in Box and assign them a license. 
+3.	From the original large user, identify the folder(s) you would like to assign to the Service Account. 
+4.	Change the ownership of said folder(s) to the new Service Account. 
+This may require that the original owner first share it with the new owner, where  the new owner would have to accept, then the original owner will then have the  option to select them as owner. 
+5.	When it comes to migrating the Service Account, create a corresponding OneDrive user/SharePoint site to migrate the new Service Account content to. 
+
+When mapping please ensure that each Service Account has its own unique matching Destination account to optimize performance. 
+| 
+Source Path                                  Destination Path 
+originaluser@contoso.com        > originaluser@contoso.com/[upload folder]* 
+serviceaccount1@contoso.com > serviceaccount1@contoso.com/[upload folder]* 
+serviceaccount2@contoso.com > serviceaccount2@contoso.com/[upload folder]* 
+serviceaccount3@contoso.com > serviceaccount3@contoso.com/[upload folder]* 
+* = optional folder 
 
 
 [ **Step 3: Copy to migrations**](mm-box-step3-copy-to-migrations.md)
