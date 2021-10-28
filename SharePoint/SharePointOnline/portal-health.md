@@ -26,7 +26,7 @@ Typically portals have relatively few people who create and author the site and 
 
 ## What type of site should I use as my portal?
 
-SharePoint Online has several types of sites and page types. But for portals, we highly recommend using a communication site ([Learn more](/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb)) with a site page for the home page. That is the default configuration when you create a communication site. Site pages allow you to use out-of-the-box web parts, custom web parts, and extensions. 
+SharePoint Online has several types of sites and page types. But for portals, **we highly recommend using a communication site with a site page for the home page** ([Learn more](/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb)). That is the default configuration when you create a communication site. Site pages allow you to use out-of-the-box web parts, custom web parts, and extensions. 
 
 >[!Important]
 >Modern Team sites ([Learn more](/office/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d)) are designed for use on collaboration sites, like projects / interest groups / focus areas or when you would like to collaborate with other team members. 
