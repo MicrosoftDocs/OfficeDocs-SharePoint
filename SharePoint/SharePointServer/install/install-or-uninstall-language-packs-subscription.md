@@ -152,7 +152,7 @@ Verify that the user account that is performing this procedure is the Setup user
 
 ### Uninstall a language pack on Windows Server Core
 
-1. Run SharePoint setup (`setup.exe`) from your `%CommonProgramFiles%\Microsoft Shared\SERVER16\Server Setup Controller` directory with the following parameters:
+1. Run SharePoint setup (`setup.exe`) from your `$env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\config.xml` directory with the following parameters:
     - **/config** `<config file>` This parameter signifies where `<config file>` is the path to your config.xml file.
 
     - **/uninstall OSMUI** `<Languageculture>` This parameter signifies the language pack language to uninstall.
@@ -160,7 +160,7 @@ Verify that the user account that is performing this procedure is the Setup user
     For example, the following PowerShell command is used to uninstall Japanese language pack:
 
     ```powershell
-    ""$env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\setup.exe" /config "$env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\config.xml" /uninstall OSMUI.JA-JP   
+    $env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\setup.exe   
     ```
 
 
@@ -171,6 +171,7 @@ Each folder name has a language tag appended to it, in the form ll-cc. That tag 
 Folders for the language-specific components are identified by the language tag that is shown in the table. The Windows operating system uses locale identifiers (LCIDs) to identify languages in the Windows registry.
 
 SharePoint Servers Subscription Edition, 2019, and 2016 support the following languages:
+
 
 |Language|Language tag|LCID|
 |:-----|:-----|:-----|
