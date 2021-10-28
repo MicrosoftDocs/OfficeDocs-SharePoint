@@ -24,10 +24,10 @@ A portal is a Microsoft SharePoint site on your intranet that has many site view
 
 ## What type of site should I use as my portal?
 
-SharePoint Online has several types of sites and page types, but for portals, we highly recommend using a communication site ([Learn more](/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb)) with a site page for the home page.  That is the default configuration when you create a communication site. Site pages allow you to use out-of-the-box web parts as well as custom web parts and extensions. 
+SharePoint Online has several types of sites and page types, but for portals, we highly recommend using a communication site ([Learn more](/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb)) with a site page for the home page. That is the default configuration when you create a communication site. Site pages allow you to use out-of-the-box web parts, custom web parts, and extensions. 
 
 >[!Important]
->Modern Team sites ([Learn more](/office/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d)) are designed for use on collaboration sites, like departmental / interest groups / focus areas or when you would like to collaborate with other team members. 
+>Modern Team sites ([Learn more](/office/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d)) are designed for use on collaboration sites, like projects / interest groups / focus areas or when you would like to collaborate with other team members. 
 >
 >The App page type ([Learn more](/visualstudio/sharepoint/creating-application-pages-for-sharepoint)) was designed to be used for specific business aplications within SharePoint Online and was not designed to be used as a SharePoint Team site or a SharePoint Portal. 
 
