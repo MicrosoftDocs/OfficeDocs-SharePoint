@@ -57,11 +57,12 @@ Do you already have SharePoint Server installed and want to upgrade to a new ver
 |**What do you need to do?**|**Read**|
 |:-----|:-----|
 |I have SharePoint Server 2019 or 2016 installed and want to upgrade to SharePoint Server Subscription Edition|[Upgrade to SharePoint Server Subscription Edition](upgrade-and-update/upgrade-to-sharepoint-server-subscription-edition.md)|
+|I have SharePoint Server 2016 installed and want to upgrade to SharePoint Server 2019|[Upgrade to SharePoint Server 2019](/sharepoint/upgrade-and-update/upgrade-to-sharepoint-server-2019)|
 |I have SharePoint Server 2013 installed and want to upgrade to SharePoint Server 2019|[Upgrade to SharePoint Server 2019](upgrade-and-update/upgrade-from-sharepoint2013-to-sharepointserver-2019.md)|
 |I have SharePoint Server 2013 installed and want to upgrade to SharePoint 2016|[Upgrade to SharePoint Server 2016](upgrade-and-update/upgrade-to-sharepoint-server-2016.md)|
 |I have SharePoint Server 2010 installed and want to upgrade to SharePoint 2013|[Upgrade from SharePoint 2010 to SharePoint 2013](upgrade-and-update/upgrade-from-sharepoint-2010-to-sharepoint-2013.md)|
-|How do I apply updates to SharePoint Server 2013?|[Deploy software updates for SharePoint 2013](upgrade-and-update/deploy-software-updates-for-sharepoint-2013.md)|
 |How do I apply updates to SharePoint Server 2016?|[Deploy software updates for SharePoint Server 2016](upgrade-and-update/deploy-updates-for-sharepoint-server-2016.md)|
+|How do I apply updates to SharePoint Server 2013?|[Deploy software updates for SharePoint 2013](upgrade-and-update/deploy-software-updates-for-sharepoint-2013.md)|
 
 ## I have SharePoint Server and want to move to the cloud
 
