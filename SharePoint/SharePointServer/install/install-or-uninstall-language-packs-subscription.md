@@ -153,14 +153,14 @@ Verify that the user account that is performing this procedure is the Setup user
 ### Uninstall a language pack on Windows Server Core
 
 1. Run SharePoint setup (`setup.exe`) from your `%CommonProgramFiles%\Microsoft Shared\SERVER16\Server Setup Controller` directory with the following parameters:
-    - **/config** This parameter signifies where `<config file>` is the path to your writable config.xml file.
+    - **/config** `<config file>` This parameter signifies where `<config file>` is the path to your config.xml file.
 
-    - **/uninstall OSMUI** `.<LanguageCulture>` 
+    - **/uninstall OSMUI** `<Languageculture>` This parameter signifies the language pack language to uninstall.
     
     For example, the following PowerShell command is used to uninstall Japanese language pack:
 
     ```powershell
-    "$env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\setup.exe" /config "C:\SharePoint Files\config.xml" /uninstall OSMUI.JA-JP   
+    ""$env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\setup.exe" /config "$env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\config.xml" /uninstall OSMUI.JA-JP   
     ```
 
 
