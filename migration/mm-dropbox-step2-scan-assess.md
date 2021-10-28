@@ -53,10 +53,11 @@ Summary and detailed scan reports are available to troubleshoot any issues.
 Upon completing your scan, download the scan reports and review/address any large source data owners. 
  
 The more users simultaneously being transferred, the higher our throughput for your migration. Users with large data sets should be broken into smaller Service Accounts to facilitate faster transfers. 
-To maximize throughput, users should not own greater than 400,000 items or 5 TB of data. The more users you have, and the smaller the amounts of data they own, the faster your migration proceeds. 
 
 >[!Important]
-> We recommend 100,000 files or 1 TB per account to aid in faster transfers.
+>To maximize throughput, **users should not own greater than 100,000 items or 1 TB of data**. The more users you have, and the smaller the amounts of data they own, the faster your migration proceeds. 
+
+
 
 **Examples** 
 
