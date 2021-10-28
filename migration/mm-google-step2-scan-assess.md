@@ -52,30 +52,31 @@ Summary and detailed reports are available to troubleshoot any issues.
 
 2. To download a detailed scan report for an individual account, select a single row, then select **Download scan log**.   </br>
 
-## Managing Users Who Own Large Amounts of Data 
+## Managing users who own large amounts of data 
 
-Upon completing your ccan, download the scan reports and review/address any large source data owners. 
+Upon completing your scan, download the scan reports and review/address any large source data owners. 
  
 The more users simultaneously being transferred, the higher our throughput for your migration. Users with large data sets should be broken into smaller Service Accounts to facilitate faster transfers. 
+
 To maximize throughput, users should not own greater than 400,000 items or 5 TB of data. The more users you have, and the smaller the amounts of data they own, the faster your migration proceeds. 
 
-Examples: 
+>[!Important]
+> We recommend 100,000 files or 1 TB per account to aid in faster transfers.
+
+**Examples** 
 
 |Size|Action|
 |:-----|:-----|
-|If a user owns more than 400,000 items|this should be divided between 4 users so that each user owns 100,000 items. |
-|If a user owns more than 5 TB of data, |divided between 5 users so that each user owns 1 TB. |
+|If a user owns more than 400,000 items|Divide the items between four users each with 100,000 items.|
+|If a user owns more than 5 TB of data|Divide between five users so that each user owns 1 TB. |
 
-If a user owns more than 400,000 items, this should be divided between 4 users so that each user owns 100,000 items. 
-If a user owns more than 5 TB of data, this should be divided between 5 users so that each user owns 1 TB. 
  
-To create Service Accounts, work with your G-Suite Admin to carry out the following: 
+To create Service Accounts, work with your G-Suite Admin to carry out the following steps: 
 
-1.	Once you have identified a large user determine how many Service Accounts will be required (see example above). 
+1.	Once you have identified a large user, determine how many Service Accounts will be required (see example above). 
 2.	Create the Service Accounts in G-Suite and assign them a license. 
 3.	From the original large user, identify the folder(s) you would like to assign to the Service Account. 
-4.	Change the ownership of said folder(s) to the new Service Account. 
-This may require that the original owner first share it with the new owner, where  the new owner would have to accept, then the original owner will then have the  option to select them as owner. 
+4.	Change the ownership of said folder(s) to the new Service Account. This may require that the original owner first share it with the new owner, where the new owner would have to accept, then the original owner will then have the option to select them as owner. The original owner becomes co-owner of the folder and the permissions will reflect that new status in the Source account. The Folder will no longer appear in their My Files folder but will now appear in Shared with me.
 1.	When it comes to migrating the Service Account, create a corresponding OneDrive user/SharePoint site to migrate the new Service Account content to. 
  
 When mapping please ensure that each Service Account has its own unique matching Destination account to optimize performance. 
@@ -86,7 +87,8 @@ When mapping please ensure that each Service Account has its own unique matching
 |serviceaccount1@contoso.com |serviceaccount1@contoso.com/[upload folder]* |
 |serviceaccount2@contoso.com |serviceaccount2@contoso.com/[upload folder]* |
 |serviceaccount3@contoso.com| serviceaccount3@contoso.com/[upload folder]* |
-* = optional folder 
+
+Asterix (*) = optional folder 
 
 
 

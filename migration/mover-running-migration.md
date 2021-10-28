@@ -55,22 +55,24 @@ Upon completing your Scan, download the scan reports and review/address any larg
 The more users simultaneously being transferred, the higher our throughput for your migration. Users with large data sets should be broken into smaller Service Accounts to facilitate faster transfers. 
 To maximize throughput, users should not own greater than 400,000 items or 5 TB of data. The more users you have, and the smaller the amounts of data they own, the faster your migration proceeds. 
 
-**Examples**
+>[!Important]
+> We recommend 100,000 files or 1 TB per account to aid in faster transfers.
 
-|Size|Action| 
-|:-----|:-----| 
-|If a user owns more than 400,000 items, this should be |divided between 4 users so that each user owns 100,000 items. |
-|If a user owns more than 5 TB of data, this should be |divided between 5 users so that each user owns 1 TB.| 
+**Examples** 
+
+|Size|Action|
+|:-----|:-----|
+|If a user owns more than 400,000 items|Divide the items between four users each with 100,000 items.|
+|If a user owns more than 5 TB of data|Divide between five users so that each user owns 1 TB. | 
  
-To create Service Accounts, work with your Source Cloud Storage Admin to carry out the following: 
+To create Service Accounts, work with your Source Cloud Storage Admin to carry out the following steps: 
 
 1.	Once you have identified a large user, determine how many Service Accounts will be required (see example above). 
 2.	Create the Service Accounts and assign them a license. 
 3.	From the original large user, identify the folder(s) you would like to assign to the Service Account. 
-4.	Change the ownership of said folder(s) to the new Service Account. 
-This may require that the original owner first share it with the new owner, where  the new owner would have to accept, then the original owner will then have the  option to select them as owner. 
+4.	Change the ownership of said folder(s) to the new Service Account. This may require that the original owner first share it with the new owner and the new owner to accept. The original owner will then have the option to select them as owner. 
 5.	When it comes to migrating the Service Account, create a corresponding OneDrive user/SharePoint site to migrate the new Service Account content to.
-6. Before making any changes, you should reach out to your tenant administrator, investigate any source custom solutions or ​integrations that you might be using, and determine if these ownership changes will have any impact.
+1. Before making any changes, you should reach out to your tenant administrator, investigate any source custom solutions or ​integrations that you might be using, and determine if these ownership changes will have any impact.
  
 When mapping please ensure that each Service Account has its own unique matching Destination account to optimize performance. 
 

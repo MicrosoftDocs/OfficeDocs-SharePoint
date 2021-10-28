@@ -134,17 +134,33 @@ The tool will migrate as fast as possible, but we also must factor in the follow
 - Time of day. Schedule migrations outside of standard office hours to allow more data to migrate quicker.  Source and Destination tenants tend to be quieter when there is less daily user usage.
 
 
-The more users simultaneously being transferred, the higher our throughput for your migration. We highly recommend that users with very large data sets be broken into smaller accounts to facilitate faster transfers.
+The more users simultaneously being transferred, the higher our throughput for your migration. Users with large data sets should be broken into smaller accounts to facilitate faster transfers. 
+To maximize throughput, users should not own greater than 400,000 items or 5 TB of data. The more users you have, and the smaller the amounts of data they own, the faster your migration proceeds. 
+Examples: 
+ 
+If a user owns more than 400,000 items, this should be divided between 4 users so that each user owns 100,000 items. 
+If a user owns more than 5 TB of data, this should be divided between 5 users so that each user owns 1 TB. 
+ 
+To create Service Accounts, you can work with your Source Cloud Storage Admin to carry out the following steps: 
 
-To maximize throughput, users should not own greater than 5 TB of data or have greater than 400,000 items. **The more users you have, and the smaller the amounts of data they own, the faster your migration proceeds.**
+1.	Once you have identified a large user determine how many Service Accounts will be required (see example above). 
+2.	Create the Service Accounts and assign them a license. 
+3.	From the original large user, identify the folder(s) you would like to assign to the Service Account. 
+4.	Change the ownership of said folder(s) to the new Service Account. This may require that the original owner first share it with the new owner, and the new owner accept. The original owner will then have the option to select them as owner. 
+5.	When it comes to migrating the Service Account, create a corresponding OneDrive user/SharePoint site to migrate the new Service Account content to. 
+ 
+When mapping please ensure that each Service Account has its own unique matching Destination account to optimize performance. 
+ 
+|Source Path| Destination Path |
+|:-----|:-----|
+|originaluser@contoso.com |originaluser@contoso.com/[upload folder]* |
+|serviceaccount1@contoso.com |serviceaccount1@contoso.com/[upload folder]* |
+|serviceaccount2@contoso.com | serviceaccount2@contoso.com/[upload folder]* |
+|serviceaccount3@contoso.com |serviceaccount3@contoso.com/[upload folder]* |
 
-**Examples:**
+Asterix (*) = optional folder 
+ 
 
-- If a user owns 10 TB of data, we recommend dividing that between 10 users so that each user owns 1 TB.
-
-- The same principle applies to users owning more than 400,000 items. These should also be broken into smaller service accounts to aid with the speed of completing a migration.
-
-If data cannot be broken up, this should not hinder other users from migrating. In general, users with a lot of data require a lot of time to migrate.
 
 
 
