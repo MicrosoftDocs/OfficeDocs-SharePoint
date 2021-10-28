@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: b12bff2c-0486-41e2-be81-d0a8122ed1f9
 description: "Learn how to map a crawled property to a refinable managed property, enable a managed property as a refiner, and configure refiners for faceted navigation."

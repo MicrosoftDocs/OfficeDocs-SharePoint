@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0864e3e6-37bc-4b43-ae38-6a01f8728e8b
 description: "Learn how to make classic people search work in SharePoint Server."

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: adcaa180-eafe-4636-9547-6edadabd4fed
 description: "Learn how to resolve alerts about Microsoft Project Server 2013 in the SharePoint Server 2013 management pack for Systems Center Operations Manager (SCOM)."

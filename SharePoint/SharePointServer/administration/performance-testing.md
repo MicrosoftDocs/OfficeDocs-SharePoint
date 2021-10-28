@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: fe3d1a2a-6147-4d10-8d88-cba86ee2f436
 description: "Learn about how to plan and execute performance testing of a SharePoint Server 2013 environment."

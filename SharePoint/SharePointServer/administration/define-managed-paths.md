@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0f95a1e6-7044-487e-8681-b1d717caabb3
 description: "Learn how to add a managed path for a web application in SharePoint Server."

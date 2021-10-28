@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: one-drive
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
@@ -24,7 +24,7 @@ description: "Learn how the OneDrive sync app allows users to sync folders share
 
 The OneDrive sync app now lets users sync libraries or folders in Microsoft SharePoint or Microsoft OneDrive that have been shared from other organizations. This scenario is often referred to as Business-to-Business (B2B) Collaboration. We're calling this new feature in the OneDrive sync app "B2B Sync". 
 
-Azure Active Directory (AAD) guest accounts play a key role in making B2B Collaboration possible. A guest account at one organization links to a member account at another organization. Once created, a guest account allows Microsoft 365 services like OneDrive and SharePoint to grant a guest permission to sites and folders the same way a member within the organization is granted permission. Since the accounts at two organizations are linked, the user only needs to remember the username and password for the account at their organization. As a result, a single sign in to their account enables access to content from their own organization and from any other organizations that have created guest accounts for them.
+Azure Active Directory (AAD) guest accounts play a key role in making B2B Collaboration possible. A guest account at one organization links to a member account at another organization. Once created, a guest account allows Microsoft 365 services like OneDrive and SharePoint to grant a guest permission to sites and folders the same way a member within the organization is granted permission. Since the accounts at two organizations are linked, the user only needs to remember the username and password for the account at their organization. As a result, a single sign-in to their account enables access to content from their own organization and from any other organizations that have created guest accounts for them.
 
 > [!IMPORTANT]
 > We recommend that you sign up for the [SharePoint and OneDrive integration with Azure AD B2B](/sharepoint/sharepoint-azureb2b-integration) to help ensure that the required Azure AD guest account for the share recipient is created in your organization's directory.
@@ -46,7 +46,7 @@ This article gives an overview of the B2B Sync experience and describes these re
 - On the Mac, Files On-Demand thumbnails will not display from external organization's sites. Thumbnails will display correctly for files from the user's own organization. 
 - On the Mac, if the guest account was created with a different email address format than the form they are using with the sync app, the external site's content cannot be synced. For example, first.last@fabrikam.com vs alias@fabrikam.com.
 - On the Mac, the external content may be placed on the local computer in the user's own organization's folder instead of one with the external organization's name.
-- Multi-Factor Authentication from an external organization is not yet supported. Only guest accounts that don't require MFA will sync.
+- Multifactor authentication from an external organization is not yet supported. Only guest accounts that don't require MFA will sync.
 
 ## Overview of the B2B Sync experience
 
@@ -75,19 +75,18 @@ Here's an example of what happens after someone at "Contoso" shares a site or fo
     > [!NOTE]
     > The content is placed in a folder whose name includes the name of the organization ("SharePoint - Contoso" in this example). If the user is syncing SharePoint content from Fabrikam as well, they'll also have a "SharePoint - Fabrikam" folder.
 
-8.    The guest will continue through the OneDrive sync app setup wizard.
+8. The guest will continue through OneDrive sync app setup.
 
-9. After closing the wizard, the site will begin syncing. The user can click the blue cloud icon in the notification area to open the OneDrive sync activity center and see the files syncing, open the local folder with the files, or open the SharePoint site in a web browser.
+9. After the guest completes setup, the site will begin syncing. The user can click the blue cloud icon in the notification area to open the OneDrive sync activity center and see the files syncing, open the local folder with the files, or open the SharePoint site in a web browser.
 
 ## Enable external sharing for your organization
 
 In order for users at your organization to be able to share with their partners at other organizations, external sharing must be enabled at the organization level. To do this, you must be a global or SharePoint admin in Microsoft 365. After you enable external sharing at the organization level, you can restrict it site by site. A site's settings can be the same as the organization setting, or more restrictive, but not more permissive.
 
-You can change your organization-level sharing settings in three different places (all three control the same thing):
+You can change your organization-level sharing settings in two different places (both control the same thing):
 
 - On the Sharing page in the new SharePoint admin center. For more info, see [Change the organization-level external sharing setting](/sharepoint/turn-external-sharing-on-or-off#change-the-organization-level-external-sharing-setting)
-- In the Microsoft 365 admin center, under Settings \> Services &amp; add-ins \> Sites. 
-- On the Sharing page in the OneDrive admin center
+- In the Microsoft 365 admin center, on the Org settings page > SharePoint. 
 
 > [!IMPORTANT]
 > If you allow Anyone links (sometimes referred to as "anonymous access" or "shareable"), these links do not create guest accounts and therefore the external share recipient will not be able to leverage B2B Sync when receiving that link type.

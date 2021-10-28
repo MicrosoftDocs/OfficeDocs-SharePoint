@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: one-drive
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - ODB160
 - ODB150
@@ -38,7 +38,9 @@ As a global or SharePoint admin in Microsoft 365, you can set the OneDrive stora
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
     
     > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.
+    > If you have Office 365 Germany, sign in at https://portal.office.de.<br/>
+    > If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/.<br/>
+    > Then select the Admin tile to open the admin center.
     
 2. In the left pane, select **Users** \> **Active users**.
 
@@ -56,11 +58,11 @@ As a global or SharePoint admin in Microsoft 365, you can set the OneDrive stora
 
 When you need cloud storage for individual users beyond the initial 5 TB, additional cloud storage will be granted as follows:
 
-When a user has filled their 5 TB of OneDrive storage to at least 90% capacity, Microsoft will increase your default storage space in OneDrive to up to 25 TB per user (admins may set a lower per-user limit if they want to).
+- When a user has filled their 5 TB of OneDrive storage to at least 90% capacity, Microsoft will increase your default storage space in OneDrive to up to 25 TB per user (admins may set a lower per-user limit if they want to).
 
-For any user that reaches at least 90% capacity of their 25 TB of OneDrive storage, additional cloud storage will be provided as 25 TB SharePoint team sites to individual users. 
+- For any user that reaches at least 90% capacity of their 25 TB of OneDrive storage, additional cloud storage will be provided as 25 TB SharePoint team sites to individual users.  For more information and assistance, contact [Microsoft Support](https://go.microsoft.com/fwlink/?linkid=869559). 
 
-Admins can [open a case with Microsoft technical support](/microsoft-365/admin/contact-support-for-business-products) to request storage beyond 5 TB.
+- Admins can check for OneDrive eligibility beyond 5 TB via [Check OneDrive site eligibility for increased storage](/sharepoint/troubleshoot/storage/check-storage-increase-eligibility). 
     
     
 ## Change a user's storage space by using PowerShell

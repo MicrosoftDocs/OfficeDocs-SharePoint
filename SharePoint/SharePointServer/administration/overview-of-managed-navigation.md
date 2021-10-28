@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 9d1f5998-e6b6-474c-a2aa-47782b63e53e
 description: "Learn about managed navigation and navigation term sets for SharePoint Server publishing sites."

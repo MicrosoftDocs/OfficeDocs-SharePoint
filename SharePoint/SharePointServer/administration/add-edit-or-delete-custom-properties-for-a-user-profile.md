@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3cfb2148-9d1a-4022-a55a-a6d2963bef0e
 description: "Learn how to create, edit, and delete user profile properties in SharePoint Server."
 ---

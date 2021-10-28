@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 71322660-64f2-4d34-9b63-a39fc9548dfc
 description: "Learn how to plan to use refiners on a search results page in SharePoint Server."
 ---

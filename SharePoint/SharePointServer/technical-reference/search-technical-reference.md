@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 4192cf8b-0f17-43ad-8e79-87acfc96e935
 description: "Learn about default crawled file name extensions and parsed file types, default crawled and managed properties, default connectors and linguistics features per language for search in SharePoint Server."

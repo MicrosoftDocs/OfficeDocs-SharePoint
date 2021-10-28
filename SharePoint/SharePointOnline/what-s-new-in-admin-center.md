@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: reference
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: Strat_SP_admin
 search.appverid:
 - SPO160
@@ -54,7 +54,7 @@ You can also create a card by [tracking a view](manage-sites-in-new-admin-center
 
 ## April 2021
 
-- **New "How can we help?" experience**. To search help, open a new service request, or manage existing service requests, select **Need help?** in the lower-right corner.
+- **New "How can we help?" experience**. To search help, open a new support request, or manage existing support requests, select **Need help?** in the lower-right corner.
 
 ## March 2021
 
@@ -67,7 +67,7 @@ You can also create a card by [tracking a view](manage-sites-in-new-admin-center
 
 ## April 2020
 
-- **Support for the Global reader role**. Users assigned this role can view all info in the admin center, but can't save any changes. [Learn more about this role](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader). The following features aren't available for people who are signed in as global readers: Content type gallery page, Migration page, API access page, link to OneDrive admin center, customizing the navigation in the left pane.
+- **Support for the Global reader role**. Users assigned this role can view all info in the admin center, but can't save any changes. [Learn more about this role](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader). The following features aren't available for people who are signed in as global readers: Content type gallery page, Migration page, API access page, customizing the navigation in the left pane.
 
 ## December 2019
 

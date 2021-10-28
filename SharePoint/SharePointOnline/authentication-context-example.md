@@ -11,7 +11,7 @@ ms.topic: article
 ms.custom:
 -  Adm_O365
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - M365-collaboration
 search.appverid:
@@ -28,6 +28,8 @@ Authentication contexts are used with sensitivity labels to connect [Azure AD co
 > [!NOTE]
 > If you don't use sensitivity labels with SharePoint sites, you can directly apply an authentication context to a SharePoint site by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet.
 
+## Requirements
+
 Some apps do not currently work with authentication contexts. If you have Office apps or third party apps, we recommend testing them on a site with authentication context enabled before broadly deploying this feature. Currently, the following apps do *not* work with authentication contexts:
 
 - Older version of Office apps (see the [list of supported versions](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#more-information-about-the-dependencies-for-the-authentication-context-option))
@@ -36,8 +38,18 @@ Some apps do not currently work with authentication contexts. If you have Office
 - Third-party apps
 - The OneDrive sync app won't sync sites with an authentication context.
 
-> [!NOTE]
-> Using authentication context with SharePoint sites requires a Microsoft 365 E5 or Microsoft 365 E5 Compliance license for each user accessing a labeled site.
+Using authentication context with SharePoint sites requires at least one of the below licenses:
+- Office 365 E5
+- Office 365 A5 for faculty
+- Office 365 A5 for students
+- Microsoft 365 E5
+- Microsoft 365 E5 Compliance
+- Microsoft 365 E5 Information Protection and Governance
+- Microsoft 365 Security And Compliance For FLW
+- Microsoft 365 A5 for faculty
+- Microsoft 365 A5 for students
+
+## Setting up an authentication context
 
 Setting up an authentication context for labeled sites requires these basic steps:
 
@@ -49,7 +61,7 @@ Setting up an authentication context for labeled sites requires these basic step
 
 In this article, we'll look at the example of requiring guests to agree to a [terms of use](/azure/active-directory/conditional-access/terms-of-use) before gaining access to a sensitive SharePoint site. You can also use any of the other conditional access conditions and access controls that you might need for your organization.
 
-## Add an authentication context
+### Add an authentication context
 
 First, add an authentication context in Azure Active Directory.
 
@@ -64,7 +76,7 @@ To add an authentication context
 
 4. Click **Save**.
 
-## Create a conditional access policy
+### Create a conditional access policy
 
 Next, create a conditional access policy that applies to that authentication context and that requires guests to agree to a terms of use as a condition of access.
 
@@ -83,7 +95,7 @@ To create a conditional access policy
 
 6. Choose if you want to enable the policy, and then click **Create**.
 
-## Update a sensitivity label
+### Update a sensitivity label
 
 Next, update a sensitivity label (or create a new one) to use the authentication context.
 

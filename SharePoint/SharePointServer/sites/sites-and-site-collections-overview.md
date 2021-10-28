@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -23,18 +23,20 @@ description: "Learn about site collections, sites, and site templates in SharePo
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 A site collection is made up of one top-level site and all sites below it. As shown in the following figure, it is the top level of organization in a SharePoint Server web application. The number of site collections you can have in a single web application depends on the capacity of your server infrastructure. For more information about SharePoint Server boundaries, see [Software boundaries and limits for SharePoint Servers 2016 and 2019](../install/software-boundaries-limits-2019.md).
+
+Learn about [Planning your SharePoint hub sites in Microsoft 365](../../SharePointOnline/planning-hub-sites.md).
   
 **Figure: Structure of a site collection in SharePoint Server 2016**
 
 ![Diagram of a site collection](../media/DiagramOfSiteCollection.gif)
   
-The SharePoint Server 2019 modern experience is similar to the experience in SharePoint in Microsoft 365. The main difference is Hub sites aren't available in SharePoint Server. We do recommend that you use the same process as in SharePoint in Microsoft 365, create site collections for each unit of work instead of creating subsites. This will make it easier when migrating your SharePoint farm to SharePoint in Microsoft 365.
+The SharePoint Server 2019 modern experience is similar to the experience in SharePoint in Microsoft 365. The main difference is Hub sites aren't available in SharePoint Server. We do recommend that you use the same process as in SharePoint in Microsoft 365, create site collections for each unit of work instead of creating subsites. These site collections will make it easier when migrating your SharePoint farm to SharePoint in Microsoft 365.
 
 The following guidelines show the relationship between SharePoint Server sites and site collections, and content databases:
   
 - All content in a site collection must be stored in a single content database. You can't store a site collection's content across multiple content databases.
     
-- You can scale up content databases that support a site collection. You can also scale-out a content database at the web application level to support additional site collections.
+- You can scale up content databases that support a site collection. You can also scale out a content database at the web application level to support more site collections.
     
 - A site collection can exist in only one content database, but one content database can host the content for multiple site collections.
     
@@ -48,9 +50,9 @@ You create a site collection to host sites that have something in common. For ex
   
 SharePoint Server supports two types of site collections: host-named site collections and path-based site collections. In a path-based site collection, all the subsites in the site collection will share a root or parent URL (DNS name). For example, Team A could have a site collection at http<!-- nolink -->://contoso.com/sites/teamA, and Team B would have a site collection at http<!-- nolink -->://contoso/sites/teamB. All sites in either site collection would have the http<!-- nolink -->://contoso.com/sites/teamA or /teamB root. The only way to have a different URL root is to create a different web application.
   
-To better align with SharePoint best practices, you should use host-named site collections. Host-named site collections allow you to assign custom names to each site collection that you create in a web application. For example, you can have two site collections in the same web application addressed like this: http<!-- nolink -->://TeamA.contoso.com and http<!-- nolink -->://TeamB.contoso.com. This is much more scalable and has been heavily tested in SharePoint.
+To better align with SharePoint best practices, use host-named site collections. The host-named site collections allow you to assign custom names to each site collection that you create in a web application. For example, you can have two site collections in the same web application addressed like this: http<!-- nolink -->://TeamA.contoso.com and http<!-- nolink -->://TeamB.contoso.com. This scenario is much more scalable and has been heavily tested in SharePoint.
   
-Because site collections and sites exist in a parent-child relationship, there are aspects of control and functionality that can be configured at the site collection level and used at the site level. This provides many benefits as follows:
+Because site collections and sites exist in a parent-child relationship, there are aspects of control and functionality that can be configured at the site collection level and used at the site level. This aspect management pattern provides many benefits as follows:
   
 - For site designers, a site collection's galleries and libraries (such as the Master Page Gallery or the Site Collection Images library) provide a means for creating a unified, branded user experience across all sites in the site collection.
     
@@ -58,7 +60,7 @@ Because site collections and sites exist in a parent-child relationship, there a
 
   SharePoint Server 2019 offers the choice to create modern Team and Communication sites like in SharePoint in Microsoft 365, or keep the classic experience. Using the modern experience site collections is inline with our recommendation to create site collections for each unit of work to make it easier when you decide to migrate to SharePoint.
     
-- For farm administrators, site collections can be moved between content databases. By doing this, farm administrators can manage the size of their content databases.
+- For farm administrators, site collections can be moved between content databases. By this movement, farm administrators can manage the size of their content databases.
     
 - For site authors, shared site columns, content types, web parts, authoring resources, workflows, and other site collection features provide a consistent authoring environment.
     
@@ -98,9 +100,9 @@ The following table describes the 2013 experience version site templates that ar
 
 |**Type**|**Name**|**Description**|**Availability**|
 |:-----|:-----|:-----|:-----|
-|**Collaboration** <br/> |Team Site  <br/> |A place to work together with a group of people.  <br/> |Site collection and site, Server and Foundation  <br/> |
-|**Blog** <br/> ||A site for a person or team to post ideas, observations, and expertise that site visitors can comment on.  <br/> |Site collection and site, Server and Foundation  <br/> |
-|**Develop Site** <br/> ||A site for developers to build, test, and publish apps for Office.  <br/> |Site collection and site, Server and Foundation  <br/> |
+|**Collaboration** <br/> |Team Site  <br/> |A place to work together with a group of people.  <br/> |Site collection and site, Server, and Foundation  <br/> |
+|**Blog** <br/> ||A site for a person or team to post ideas, observations, and expertise that site visitors can comment on.  <br/> |Site collection and site, Server, and Foundation  <br/> |
+|**Develop Site** <br/> ||A site for developers to build, test, and publish apps for Office.  <br/> |Site collection and site, Server, and Foundation  <br/> |
 |**Project Site** <br/> ||A site for managing and collaborating on a project. This site template brings all status, communication, and artifacts relevant to the project into one place.  <br/> |Site collection and site, Server only  <br/> |
 |**Community Site** <br/> ||A place where community members discuss topics of common interest. Members can browse and discover relevant content by exploring categories, sorting discussions, by popularity or by viewing only posts that have a best reply. Members gain reputation points by participating in the community, such as starting discussions and replying to them, liking posts, and specifying best replies.  <br/> |Site collection and site, Server only  <br/> |
 |**Enterprise** <br/> |Document Center  <br/> |A site to centrally manage documents in your enterprise.  <br/> |Site collection and site, Server only  <br/> |
@@ -110,14 +112,14 @@ The following table describes the 2013 experience version site templates that ar
 |**Enterprise Search Center** <br/> ||A site focused on delivering an enterprise-wide search experience.  <br/> **Note:** <br/> Search Centers should be separate site collections because they search for information across a company portal or division. If you create a Search Center as a subsite, you might have to create some workarounds for a full customization. For more information, see [Customizing the Search Center](/previous-versions/office/developer/sharepoint-2010/ee872308(v=office.14)) in the MSDN Library.  <br/> |Site collection and site, Server only  <br/> |
 |**My Site Host** <br/> ||A site used for hosting personal sites (My Sites) and the public People Profile page.  <br/> |Site collection only, Server only  <br/> |
 |**Community Portal** <br/> ||A site for discovering communities.  <br/> |Site collection only, Server only  <br/> |
-|**Basic Search Center** <br/> ||A site focused on delivering a basic search experience. It includes a welcome page with a search box that connects users to a search results page and an advanced search page. This Search Center will not appear in navigation.  <br/> **Note:** <br/> Search Centers should be separate site collections because they search for information across a company portal or division. If you create a Search Center as a subsite, you might have to create some workarounds for a full customization. For more information, see [Customizing the Search Center](/previous-versions/office/developer/sharepoint-2010/ee872308(v=office.14)) in the MSDN Library.  <br/> |Site collection and site, Server and Foundation  <br/> |
+|**Basic Search Center** <br/> ||A site focused on delivering a basic search experience. It includes a welcome page with a search box that connects users to a search results page and an advanced search page. This Search Center will not appear in navigation.  <br/> **Note:** <br/> Search Centers should be separate site collections because they search for information across a company portal or division. If you create a Search Center as a subsite, you might have to create some workarounds for a full customization. For more information, see [Customizing the Search Center](/previous-versions/office/developer/sharepoint-2010/ee872308(v=office.14)) in the MSDN Library.  <br/> |Site collection and site, Server, and Foundation  <br/> |
 |**Visio Process Repository** <br/> ||A site for viewing, sharing, and storing Visio process diagrams. It includes a versioned document library and templates for Basic Flowcharts, Cross-functional Flowcharts, and BPMN diagrams.  <br/> **Note:** <br/> The Visio Process Repository site template will be removed in the next version of SharePoint Server.  <br/> |Site collection and site, Server only  <br/> |
 |**Publishing** <br/> |Publishing Portal  <br/> |A starter hierarchy for an Internet-facing site or a large intranet portal. This site can be customized easily with distinctive branding. Typically, this site has many more readers than contributors and it is used to publish web pages with approval workflows.  <br/> |Site collection only, Server only  <br/> |
 |**Enterprise Wiki** <br/> ||A site for publishing knowledge that you capture and want to share across the enterprise.  <br/> |Site collection and site, Server only  <br/> |
 |**Product Catalog** <br/> ||A site for managing product catalog data that can be published to an Internet-facing site through search.  <br/> |Site collection only, Server only  <br/> |
 |**Blank** <br/> |Publishing site  <br/> |A blank site for expanding your website and quickly publishing web pages. Contributors can work on draft versions of pages and publish them to make them visible to readers. The site includes document and image libraries for storing web publishing assets.  <br/> |Site only, Server only  <br/> |
 ||Publishing Site with workflow  <br/> |A site for publishing web pages on a schedule by using approval workflows. It includes document and image libraries for storing web publishing assets. By default, only sites with this template can be created under this site.  <br/> |Site only, Server only  <br/> |
-|**Custom** <br/> |\<Select template later…\>  <br/> |Create an empty site and pick a template for the site at a later time.  <br/> |Site collection only, Server and Foundation  <br/> |
+|**Custom** <br/> |\<Select template later…\>  <br/> |Create an empty site and pick a template for the site at a later time.  <br/> |Site collection only, Server, and Foundation  <br/> |
    
 The following table describes the 2010 experience version site templates that are available in SharePoint 2013.
   
@@ -125,28 +127,28 @@ The following table describes the 2010 experience version site templates that ar
 
 |**Type**|**Name**|**Description**|**Availability**|
 |:-----|:-----|:-----|:-----|
-|Collaboration  <br/> |Team Site  <br/> |Same functionality as the 2013 Team site.  <br/> |Site collection and site, Server and Foundation  <br/> |
-|Blank Site  <br/> |A blank site for you to customize based on your requirements.  <br/> |Site collection and site, Server and Foundation  <br/> |Site collection and site, Server and Foundation  <br/> |
-|Document Workspace  <br/> |A site for colleagues to work together on a document. It provides a document library for storing the primary document and supporting files.  <br/> |Site collection and site, Server and Foundation  <br/> |Site collection and site, Server and Foundation  <br/> |
-|Blog  <br/> |Same functionality as the 2013 Blog site.  <br/> |Site collection and site, Server and Foundation  <br/> |Site collection and site, Server and Foundation  <br/> |
-|Group Work Site  <br/> |This template provides a groupware solution that enables teams to create, organize, and share information. It includes a Group Calendar, Circulation, Phone-Call Memo, a document library, and other basic lists.  <br/> |Site collection and site, Server and Foundation  <br/> |Site collection and site, Server and Foundation  <br/> |
-|Visio Process Repository  <br/> |Same functionality as the 2013 Visio Process Repository.  <br/> |Site collection and site, Server only  <br/> |Site collection and site, Server and Foundation  <br/> Site collection and site, Server and Foundation  <br/> |
-|Meetings  <br/> |Basic Meeting Workspace  <br/> |A site to plan, organize, and capture the results of a meeting. It provides lists for managing the agenda, meeting attendees, and documents.  <br/> |Site collection and site, Server and Foundation  <br/> |
-|Blank Meeting Workspace  <br/> |A blank meeting site for you to customize based on your requirements.  <br/> |Site collection and site, Server and Foundation  <br/> |Site collection and site, Server and Foundation  <br/> |
-|Decision Meeting Workspace  <br/> |A site for meetings that track status or make decisions. It provides lists for creating tasks, storing documents, and recording decisions.  <br/> |Site collection and site, Server and Foundation  <br/> |Site collection and site, Server and Foundation  <br/> |
-|Social Meeting Workspace  <br/> |A site to plan social occasions. It provides lists for tracking attendees, providing directions, and storing pictures of the event.  <br/> |Site collection and site, Server and Foundation  <br/> |Site collection and site, Server and Foundation  <br/> |
-|Multipage Meeting Workspace  <br/> |A site to plan, organize, and capture the results of a meeting. It provides lists for managing the agenda and meeting attendees in addition to two blank pages for you to customize based on your requirements.  <br/> |Site collection and site, Server and Foundation  <br/> |Site collection and site, Server and Foundation  <br/> |
+|Collaboration  <br/> |Team Site  <br/> |Same functionality as the 2013 Team site.  <br/> |Site collection and site, Server, and Foundation  <br/> |
+|Blank Site  <br/> |A blank site for you to customize based on your requirements.  <br/> |Site collection and site, Server, and Foundation  <br/> |Site collection and site, Server, and Foundation  <br/> |
+|Document Workspace  <br/> |A site for colleagues to work together on a document. It provides a document library for storing the primary document and supporting files.  <br/> |Site collection and site, Server, and Foundation  <br/> |Site collection and site, Server, and Foundation  <br/> |
+|Blog  <br/> |Same functionality as the 2013 Blog site.  <br/> |Site collection and site, Server, and Foundation  <br/> |Site collection and site, Server, and Foundation  <br/> |
+|Group Work Site  <br/> |This template provides a groupware solution that enables teams to create, organize, and share information. It includes a Group Calendar, Circulation, Phone-Call Memo, a document library, and other basic lists.  <br/> |Site collection and site, Server, and Foundation  <br/> |Site collection and site, Server, and Foundation  <br/> |
+|Visio Process Repository  <br/> |Same functionality as the 2013 Visio Process Repository.  <br/> |Site collection and site, Server only  <br/> |Site collection and site, Server, and Foundation  <br/> Site collection and site, Server, and Foundation  <br/> |
+|Meetings  <br/> |Basic Meeting Workspace  <br/> |A site to plan, organize, and capture the results of a meeting. It provides lists for managing the agenda, meeting attendees, and documents.  <br/> |Site collection and site, Server, and Foundation  <br/> |
+|Blank Meeting Workspace  <br/> |A blank meeting site for you to customize based on your requirements.  <br/> |Site collection and site, Server, and Foundation  <br/> |Site collection and site, Server, and Foundation  <br/> |
+|Decision Meeting Workspace  <br/> |A site for meetings that track status or make decisions. It provides lists for creating tasks, storing documents, and recording decisions.  <br/> |Site collection and site, Server, and Foundation  <br/> |Site collection and site, Server, and Foundation  <br/> |
+|Social Meeting Workspace  <br/> |A site to plan social occasions. It provides lists for tracking attendees, providing directions, and storing pictures of the event.  <br/> |Site collection and site, Server, and Foundation  <br/> |Site collection and site, Server, and Foundation  <br/> |
+|Multipage Meeting Workspace  <br/> |A site to plan, organize, and capture the results of a meeting. It provides lists for managing the agenda and meeting attendees in addition to two blank pages for you to customize based on your requirements.  <br/> |Site collection and site, Server, and Foundation  <br/> |Site collection and site, Server, and Foundation  <br/> |
 |Enterprise  <br/> |Document Center  <br/> |A site to centrally manage documents in your enterprise.  <br/> |Site collection and site, Server only  <br/> |
 |Records Center  <br/> |This template creates a site designed for records management. Records managers can configure the routing table to direct incoming files to specific locations.  <br/> |Site collection and site, Server only  <br/> |Site collection and site, Server only  <br/> |
 |Business Intelligence Center  <br/> |Same functionality as the 2013 Business Intelligence site.  <br/> |Site collection only, Server only  <br/> |Site collection and site, Server only  <br/> |
 |Enterprise Search Center  <br/> |A site for delivering the search experience. It includes a search box with scopes for general searches and for people searches. You can add and customize tabs to focus on other search scopes or result types.  <br/> |Site collection and site, Server only  <br/> |Site collection and site, Server only  <br/> |
 |My Site Host  <br/> |Same functionality as the 2013 My Site Host site.  <br/> |Site collection only, Server only  <br/> |Site collection and site, Server only  <br/> |
-|Basic Search Center  <br/> |A site for delivering the search experience. The site includes pages for search results and advanced searches.  <br/> |Site collection and site, Server and Foundation  <br/> |Site collection and site, Server only  <br/> |
+|Basic Search Center  <br/> |A site for delivering the search experience. The site includes pages for search results and advanced searches.  <br/> |Site collection and site, Server, and Foundation  <br/> |Site collection and site, Server only  <br/> |
 |FAST Search Center  <br/> |A site for delivering the FAST search experience.  <br/> |Site collection and site, Server only  <br/> |Site collection and site, Server only  <br/> |
 |Publishing  <br/> |Publishing Portal  <br/> |Same functionality as the 2013 Publishing Portal site.  <br/> |Site collection only, Server only  <br/> |
 |Enterprise Wiki  <br/> |Same functionality as the 2013 Enterprise Wiki site.  <br/> |Site collection only, Server only  <br/> |Site collection only, Server only  <br/> |
 |Publishing Site with Workflow  <br/> |Same functionality as the 2013 Publishing Site with Workflow site.  <br/> |2010 site only, Server only  <br/> |Site collection only, Server only  <br/> |
-|Custom  <br/> |\<Select template later…\>  <br/> |Same functionality as the 2013 \<Select template later…\> option.  <br/> |Site collection only, Server and Foundation  <br/> |
+|Custom  <br/> |\<Select template later…\>  <br/> |Same functionality as the 2013 \<Select template later…\> option.  <br/> |Site collection only, Server, and Foundation  <br/> |
 |Web Databases  <br/> |Assets Web Database  <br/> |Create an assets database to keep track of assets, including asset details and owners.  <br/> |2010 site only  <br/> |
 |Charitable Contributions Web Database  <br/> |Create a database to track information about fundraising campaigns including donations made by contributors, campaign-related events, and pending tasks.  <br/> |2010 site only  <br/> |2010 site only  <br/> |
 |Contacts Web Database  <br/> |Create a contacts database to manage information about people that your team works with, such as customer and partner.  <br/> |2010 site only  <br/> |2010 site only  <br/> |

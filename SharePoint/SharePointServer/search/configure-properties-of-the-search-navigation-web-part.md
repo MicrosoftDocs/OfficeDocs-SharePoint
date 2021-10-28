@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 79428586-0a1c-4fd8-ae49-e1e76eb022e1
 description: "Learn how to configure properties of the Search Navigation Web Part, and how to add a link to a new search vertical page."

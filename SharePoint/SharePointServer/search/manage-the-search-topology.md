@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: a2420e0a-bc3d-4a07-b7b9-f44c7a74ade1
 description: "Learn how to manage search components to scale out the search topology in SharePoint Server."

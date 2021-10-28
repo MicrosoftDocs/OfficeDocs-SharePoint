@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3e2db0df-d07c-4adc-98a1-81e3fd42a272
 description: "Learn which approach to use to scale your enterprise search architecture for performance and availability."

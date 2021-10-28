@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 087d42aa-7ea9-4ef4-bcce-98371b733d8c
 description: "Learn how to import list content into the Product Catalog Site Collection in SharePoint Server 2016."

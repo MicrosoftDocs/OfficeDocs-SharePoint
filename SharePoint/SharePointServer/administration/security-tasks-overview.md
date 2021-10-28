@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: ec012300-2ebe-48f0-b110-a5bc9166e353
 description: "Understand Microsoft Business Connectivity Services security in SharePoint Server."

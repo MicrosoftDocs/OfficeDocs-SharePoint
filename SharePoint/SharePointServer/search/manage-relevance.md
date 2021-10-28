@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 76e31e76-afb3-4f2f-b3cb-f3b42886fb6e
 description: "Learn how you can configure settings to provide the most relevant search results in SharePoint Server."

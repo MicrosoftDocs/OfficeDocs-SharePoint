@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4e26b32c-f5f8-40b7-a240-bad147c33402
 description: "Add, configure, or delete trusted data connection libraries in Excel Services in SharePoint Server."
 ---

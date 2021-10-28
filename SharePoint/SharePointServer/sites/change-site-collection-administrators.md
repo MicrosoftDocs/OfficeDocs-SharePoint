@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,9 @@ description: "How to change site collection administrators for SharePoint Server
 # Change site collection administrators in SharePoint Server
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
-A site collection administrator in SharePoint Server can configure the appearance and behavior of the site, configure search settings and site directory settings, and allocate storage space. A site collection must have one primary site collection administrator and can have one secondary site collection administrator. The primary and secondary site collection administrators receive administrative email alerts for the site collection. The primary and secondary site collection administrators are automatically added to the SharePoint Site Collection Administrators group. You can add as many additional accounts as you want to the SharePoint Site Collection administrators group, but only the primary and secondary site collection administrators will receive administrative alerts for the site collection. All members of the SharePoint Site Collection Administrators group have full administrative permissions to the site collection. 
+A site collection administrator in SharePoint Server can configure the appearance and behavior of the site, configure search settings and site directory settings, and allocate storage space. A site collection must have one primary site collection administrator and can have one secondary site collection administrator. The primary and secondary site collection administrators receive administrative email alerts for the site collection. The primary and secondary site collection administrators are automatically added to the SharePoint Site Collection Administrators group. You can add as many additional accounts as you want to the SharePoint Site Collection administrators group, but only the primary and secondary site collection administrators will receive administrative alerts for the site collection. All members of the SharePoint Site Collection Administrators group have full administrative permissions to the site collection.
+
+Learn about [Managing site admins for SharePoint in Microsoft 365](../../SharePointOnline/manage-site-collection-administrators.md).
   
     
 ## Change the primary or secondary site collection administrator
@@ -49,7 +51,7 @@ Use this procedure when you want to make a user a primary or secondary site coll
     
 ### To add a primary or secondary site collection administrator by using Microsoft PowerShell
 
-1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
     
 2. Open the SharePoint Management Shell.
     
@@ -65,7 +67,7 @@ Use this procedure when you want to make a user a primary or secondary site coll
     
    -  _\<User\>_ is name of the user whom you want to add in the format  _\<domain\>_\ _\<username\>_.
     
-The previous procedure shows a common way to use the **Set-SPSite** cmdlet to add a secondary site collection administrator. You can specify different parameters to configure different settings for a site collection. For more information, see [Set-SPSite](/powershell/module/sharepoint-server/set-spsite?view=sharepoint-ps). 
+The previous procedure shows a common way to use the **Set-SPSite** cmdlet to add a secondary site collection administrator. You can specify different parameters to configure different settings for a site collection. For more information, see [Set-SPSite](/powershell/module/sharepoint-server/set-spsite?view=sharepoint-ps&preserve-view=true). 
 
 We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   

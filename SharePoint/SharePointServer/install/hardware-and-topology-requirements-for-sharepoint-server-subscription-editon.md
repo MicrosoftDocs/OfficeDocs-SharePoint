@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -47,7 +47,7 @@ Ensure the following before you proceed with deployment of SharePoint environmen
 |:-----|:-----|:-----|:-----|:-----|
 |Single server role that uses SQL Server  <br/> |Development or evaluation installation with the minimum recommended services for development environments.  <br/> |64-bit, 4 cores <br/> |16 GB  <br/> |80 GB for system drive  <br/> 100 GB for second drive  <br/> |
 |Single server role that uses SQL Server  <br/> |Pilot or user acceptance test installation running all available services.  <br/> |64-bit, 4 cores <br/> |24 GB   <br/> |80 GB for system drive  <br/> 100 GB for second drive and additional drives  <br/> |
-|SharePoint server in amulti-tier farm  <br/> |Development or evaluation installation with a minimum number of services.  <br/> |64-bit, 4 cores <br/> |12 GB  <br/> |80 GB for system drive  <br/> 80 GB for second drive  <br/> |
+|SharePoint server in a multi-tier farm  <br/> |Development or evaluation installation with a minimum number of services.  <br/> |64-bit, 4 cores <br/> |12 GB  <br/> |80 GB for system drive  <br/> 80 GB for second drive  <br/> |
 |SharePoint server in a multi-tier farm  <br/> |Pilot or user acceptance test installation running all available services.  <br/> |64-bit, 4 cores  <br/> |16 GB    <br/> |80 GB for system drive  <br/> 80 GB for second drive and additional drives  <br/> 
 
 > [!NOTE]
@@ -59,7 +59,7 @@ Some enterprises have datacenters that are in close proximity to one another and
 
 For a stretched farm architecture to work as a supported high-availability solution, the following prerequisites must be met:
 
-- There is a highly consistent intra-farm latency of <1 ms one way, 99.9% of the time over a period of 10 minutes. (Intra-farm latency is commonly defined as the latency between the front-end web servers and the database servers.
+- There is a highly consistent intra-farm latency of <1 ms one way, 99.9% of the time over a period of 10 minutes. Intra-farm latency is commonly defined as the latency between the front-end web servers and the database servers.
 - The bandwidth speed must be at least 1 gigabit per second.
 
 To provide fault tolerance in a stretched farm, use the standard best practice guidance to configure redundant service applications and databases.

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 88317397-e0cb-47c7-9093-7872bc685213
 description: "Learn how to install and configure the SMTP service, prepare your environment, and configure incoming email for a SharePoint Server 2016, SharePoint Server 2013, and SharePoint Foundation 2013 farm."

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c0adc0b5-ea84-46ae-b2a1-9d8d05dbac03
 description: "Learn how to configure SSL certificates for encrypted communication between Workflow Manager and SharePoint Server."
 ---

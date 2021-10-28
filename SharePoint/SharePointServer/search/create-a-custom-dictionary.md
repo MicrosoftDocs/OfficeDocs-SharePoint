@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms:assetid: c686f4f8-deda-4e15-8fbb-b1e130f2c6d5
 description: "Learn about word breakers, normalizations and thesaurus files, supported and unsupported entries, and supported languages."
@@ -77,52 +77,16 @@ The following table shows examples of supported and unsupported entries.
 **Table 1 – Examples of supported and unsupported entries for custom dictionary files**
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Supported</th>
-<th>Not supported</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>dogfood</p></td>
-<td><p>dog food</p></td>
-</tr>
-<tr class="even">
-<td><p>3#</p></td>
-<td><p>#3</p></td>
-</tr>
-<tr class="odd">
-<td><p>For#sale</p></td>
-<td><p>For|sale</p></td>
-</tr>
-<tr class="even">
-<td><p>ASP.NET</p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>IT&amp;T</p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>(2-Methoxymethylethoxy)propanol</p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>34590-97-8</p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>C7H1603</p></td>
-<td><p></p></td>
-</tr>
-</tbody>
-</table>
+| Supported | Not supported |
+| --- | --- |
+| dogfood | dog food |
+| 3# | #3 |
+| For#sale | For\|sale |
+| ASP.NET |  |
+| IT&amp;T |  |
+| (2-Methoxymethylethoxy)propanol |  |
+| 34590-97-8 |  |
+| C7H1603 |  |
 
 
 The maximum limit to the number of entries in a custom dictionary is 10,000. There are no settings available to change this limit. However, we recommend that the total file size of a custom dictionary file does not exceed 2 gigabytes (GB). In practice, we suggest that you limit the number of entries to a few thousand.
@@ -212,221 +176,46 @@ The following table indicates the languages and dialects for which SharePoint Se
 **Table 2 - Supported languages**
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Language / dialect</th>
-<th>LCID</th>
-<th>Language hexadecimal code</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Arabic</p></td>
-<td><p>1025</p></td>
-<td><p>0001</p></td>
-</tr>
-<tr class="even">
-<td><p>Bengali</p></td>
-<td><p>1093</p></td>
-<td><p>0045</p></td>
-</tr>
-<tr class="odd">
-<td><p>Bulgarian</p></td>
-<td><p>1026</p></td>
-<td><p>0002</p></td>
-</tr>
-<tr class="even">
-<td><p>Catalan</p></td>
-<td><p>1027</p></td>
-<td><p>0003</p></td>
-</tr>
-<tr class="odd">
-<td><p>Croatian</p></td>
-<td><p>1050</p></td>
-<td><p>001a</p></td>
-</tr>
-<tr class="even">
-<td><p>Danish</p></td>
-<td><p>1030</p></td>
-<td><p>0006</p></td>
-</tr>
-<tr class="odd">
-<td><p>Dutch</p></td>
-<td><p>1043</p></td>
-<td><p>0013</p></td>
-</tr>
-<tr class="even">
-<td><p>English</p></td>
-<td><p>1033</p></td>
-<td><p>0009</p></td>
-</tr>
-<tr class="odd">
-<td><p>French</p></td>
-<td><p>1036</p></td>
-<td><p>000c</p></td>
-</tr>
-<tr class="even">
-<td><p>German</p></td>
-<td><p>1031</p></td>
-<td><p>0007</p></td>
-</tr>
-<tr class="odd">
-<td><p>Gujarati</p></td>
-<td><p>1095</p></td>
-<td><p>0047</p></td>
-</tr>
-<tr class="even">
-<td><p>Hebrew</p></td>
-<td><p>1037</p></td>
-<td><p>000d</p></td>
-</tr>
-<tr class="odd">
-<td><p>Hindi</p></td>
-<td><p>1081</p></td>
-<td><p>0039</p></td>
-</tr>
-<tr class="even">
-<td><p>Icelandic</p></td>
-<td><p>1039</p></td>
-<td><p>000f</p></td>
-</tr>
-<tr class="odd">
-<td><p>Indonesian</p></td>
-<td><p>1057</p></td>
-<td><p>0021</p></td>
-</tr>
-<tr class="even">
-<td><p>Italian</p></td>
-<td><p>1040</p></td>
-<td><p>0010</p></td>
-</tr>
-<tr class="odd">
-<td><p>Japanese</p></td>
-<td><p>1041</p></td>
-<td><p>0011</p></td>
-</tr>
-<tr class="even">
-<td><p>Kannada</p></td>
-<td><p>1099</p></td>
-<td><p>004b</p></td>
-</tr>
-<tr class="odd">
-<td><p>Latvian</p></td>
-<td><p>1062</p></td>
-<td><p>0026</p></td>
-</tr>
-<tr class="even">
-<td><p>Lithuanian</p></td>
-<td><p>1063</p></td>
-<td><p>0027</p></td>
-</tr>
-<tr class="odd">
-<td><p>Malay</p></td>
-<td><p>1086</p></td>
-<td><p>003e</p></td>
-</tr>
-<tr class="even">
-<td><p>Malayalam</p></td>
-<td><p>1100</p></td>
-<td><p>004c</p></td>
-</tr>
-<tr class="odd">
-<td><p>Marathi</p></td>
-<td><p>1102</p></td>
-<td><p>004e</p></td>
-</tr>
-<tr class="even">
-<td><p>Norwegian_Bokmaal</p></td>
-<td><p>1044</p></td>
-<td><p>0414</p></td>
-</tr>
-<tr class="odd">
-<td><p>Portuguese</p></td>
-<td><p>2070</p></td>
-<td><p>0816</p></td>
-</tr>
-<tr class="even">
-<td><p>Portuguese_Braz</p></td>
-<td><p>1046</p></td>
-<td><p>0416</p></td>
-</tr>
-<tr class="odd">
-<td><p>Punjabi</p></td>
-<td><p>1094</p></td>
-<td><p>0046</p></td>
-</tr>
-<tr class="even">
-<td><p>Romanian</p></td>
-<td><p>1048</p></td>
-<td><p>0018</p></td>
-</tr>
-<tr class="odd">
-<td><p>Russian</p></td>
-<td><p>1049</p></td>
-<td><p>0019</p></td>
-</tr>
-<tr class="even">
-<td><p>Serbian_Cyrillic</p></td>
-<td><p>3098</p></td>
-<td><p>0c1a</p></td>
-</tr>
-<tr class="odd">
-<td><p>Serbian_Latin</p></td>
-<td><p>2074</p></td>
-<td><p>081a</p></td>
-</tr>
-<tr class="even">
-<td><p>Slovak</p></td>
-<td><p>1051</p></td>
-<td><p>001b</p></td>
-</tr>
-<tr class="odd">
-<td><p>Slovenian</p></td>
-<td><p>1060</p></td>
-<td><p>0024</p></td>
-</tr>
-<tr class="even">
-<td><p>Spanish</p></td>
-<td><p>3082</p></td>
-<td><p>000a</p></td>
-</tr>
-<tr class="odd">
-<td><p>Swedish</p></td>
-<td><p>1053</p></td>
-<td><p>001d</p></td>
-</tr>
-<tr class="even">
-<td><p>Tamil</p></td>
-<td><p>1097</p></td>
-<td><p>0049</p></td>
-</tr>
-<tr class="odd">
-<td><p>Telugu</p></td>
-<td><p>1098</p></td>
-<td><p>004a</p></td>
-</tr>
-<tr class="even">
-<td><p>Ukrainian</p></td>
-<td><p>1058</p></td>
-<td><p>0022</p></td>
-</tr>
-<tr class="odd">
-<td><p>Urdu</p></td>
-<td><p>1056</p></td>
-<td><p>0020</p></td>
-</tr>
-<tr class="even">
-<td><p>Vietnamese</p></td>
-<td><p>1066</p></td>
-<td><p>002a</p></td>
-</tr>
-</tbody>
-</table>
-
+| Language / dialect | LCID | Language hexadecimal code |
+| --- | --- | --- |
+| Arabic | 1025 | 0001 |
+| Bengali | 1093 | 0045 |
+| Bulgarian | 1026 | 0002 |
+| Catalan | 1027 | 0003 |
+| Croatian | 1050 | 001a |
+| Danish | 1030 | 0006 |
+| Dutch | 1043 | 0013 |
+| English | 1033 | 0009 |
+| French | 1036 | 000c |
+| German | 1031 | 0007 |
+| Gujarati | 1095 | 0047 |
+| Hebrew | 1037 | 000d |
+| Hindi | 1081 | 0039 |
+| Icelandic | 1039 | 000f |
+| Indonesian | 1057 | 0021 |
+| Italian | 1040 | 0010 |
+| Japanese | 1041 | 0011 |
+| Kannada | 1099 | 004b |
+| Latvian | 1062 | 0026 |
+| Lithuanian | 1063 | 0027 |
+| Malay | 1086 | 003e |
+| Malayalam | 1100 | 004c |
+| Marathi | 1102 | 004e |
+| Norwegian_Bokmaal | 1044 | 0414 |
+| Portuguese | 2070 | 0816 |
+| Portuguese_Braz | 1046 | 0416 |
+| Punjabi | 1094 | 0046 |
+| Romanian | 1048 | 0018 |
+| Russian | 1049 | 0019 |
+| Serbian_Cyrillic | 3098 | 0c1a |
+| Serbian_Latin | 2074 | 081a |
+| Slovak | 1051 | 001b |
+| Slovenian | 1060 | 0024 |
+| Spanish | 3082 | 000a |
+| Swedish | 1053 | 001d |
+| Tamil | 1097 | 0049 |
+| Telugu | 1098 | 004a |
+| Ukrainian | 1058 | 0022 |
+| Urdu | 1056 | 0020 |
+| Vietnamese | 1066 | 002a |
 

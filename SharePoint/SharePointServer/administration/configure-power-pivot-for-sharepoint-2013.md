@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9cea4a3d-c196-4d9e-942d-2677a6c15c13
 description: "Learn how to configure Power Pivot for SharePoint Server."
 ---

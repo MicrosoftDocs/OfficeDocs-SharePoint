@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4c50e9d2-a1f9-45a5-8466-829e056a92d0
 
 description: "Learn how to create, publish and use a basic Excel Services dashboard using a Data Model that is created in Excel."

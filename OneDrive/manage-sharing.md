@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: one-drive
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
@@ -25,14 +25,12 @@ description: "Learn how to control sharing at the organization level for OneDriv
 
 # Manage sharing in OneDrive
 
-To manage the OneDrive sharing settings for your organization, use the [**Sharing page** of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true), instead of the **Sharing page** in the OneDrive admin center. It lets you manage all the settings and latest features in one place.
-
-To learn more, see [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off).
+To manage the OneDrive sharing settings for your organization, use the [**Sharing page** in the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true). To learn more, see [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off).
 
 To learn how to change the external sharing setting of an individual user's OneDrive, see [Change the external sharing setting for a user's OneDrive](user-external-sharing-settings.md). For info about how to share a file or folder in OneDrive, see [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07#BKMK_BusinessTab).
 
 > [!NOTE]
-> Some sharing settings exist in multiple admin centers. For example, the SharePoint setting on the [**Settings page** in the Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/Home#/SettingsMultiPivot) is the same as the SharePoint external sharing setting in the OneDrive admin center and the new SharePoint admin center. When you change sharing settings, make sure you communicate the changes with any other admins in your organization. 
+> Some sharing settings exist in multiple admin centers. For example, the SharePoint setting on the [**Org settings page** in the Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/Home#/SettingsMultiPivot) is the same as the SharePoint external sharing setting in the SharePoint admin center. When you change sharing settings, make sure you communicate the changes with any other admins in your organization. 
 
 ## See also
 

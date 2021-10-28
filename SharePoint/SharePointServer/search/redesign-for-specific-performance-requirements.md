@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: e1c3fe21-9110-4861-9fc9-715745c9197a
 description: "Learn how to redesign enterprise search topology so you can scale search performance to meet specific performance requirements."

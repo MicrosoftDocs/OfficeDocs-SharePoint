@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 9e7368a1-9299-4827-b756-45fb3b4ad809
 description: "Learn how to use Microsoft PowerShell and XML to automate the configuration of monitoring settings for SharePoint Server."

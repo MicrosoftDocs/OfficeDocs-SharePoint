@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 838d2f49-554b-4918-b3db-ba376be9d236
 description: "Learn how to improve search results by creating and managing query rules in SharePoint Server."

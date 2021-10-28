@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0ae2f59b-309e-4853-8ce7-99bc40de4c03
 description: "Learn about the available caches and the settings that can be configured for the BLOB cache and cache profiles and object cache settings in SharePoint Server."

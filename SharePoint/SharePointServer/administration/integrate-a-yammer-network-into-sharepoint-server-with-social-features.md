@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e8baee59-a84d-4f56-bdeb-45de7d522b68
 description: "Learn how to integrate a Yammer network together with the SharePoint Server environment where you already use SharePoint social features."
 ---

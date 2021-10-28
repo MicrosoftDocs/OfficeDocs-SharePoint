@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f3c0fda5-7a36-4c5d-801f-8a3baccb6d6a
 description: "Learn about the Document Set feature in SharePoint Server, how to administer Document Sets, and plan for Document Set content types."
 ---

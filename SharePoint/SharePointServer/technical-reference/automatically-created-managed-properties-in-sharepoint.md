@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 2496edef-5bc4-4bd5-8b14-076894374a3f
 description: "Learn about the naming conventions for automatically created crawled properties and managed properties."

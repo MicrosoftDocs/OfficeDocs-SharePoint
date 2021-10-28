@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: b35d9b02-2207-417c-bb90-870474b6f57c
 description: "Learn how to clear the contents of the BLOB cache for a web application in SharePoint Server."

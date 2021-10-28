@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: fbfd98f1-403f-4648-9850-f7bd37f2255e
 description: "Learn how to start, pause, resume or stop a full or incremental crawl for a content source."

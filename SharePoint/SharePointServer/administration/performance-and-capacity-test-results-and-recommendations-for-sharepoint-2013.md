@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: c7f0ba55-d909-4665-85ba-706ef08d3ec8
 description: "Learn about performance characteristics of features in SharePoint Server 2013."

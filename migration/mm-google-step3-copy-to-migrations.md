@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - m365solution-migratefileshares
 - m365solution-migratetom365
@@ -44,7 +44,7 @@ After a Google user has been scanned and determined ready, add them to your migr
 ![Migrations tab](media/mm-box-migration-tab.png)
 
 
-[**Step 4: Review destinations**](mm-box-step4-review-destinations.md)
+[**Step 4: Review destinations**](mm-google-step4-review-destinations.md)
 
 
 >[!NOTE]

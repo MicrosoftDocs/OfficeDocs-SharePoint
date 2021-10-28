@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 432973c1-21c1-4fdc-87e6-a2252596937a
 description: "Specify whether a SharePoint Server crawler will crawl a site if there is a problem with the site's Secure Sockets Layer (SSL) certificate."

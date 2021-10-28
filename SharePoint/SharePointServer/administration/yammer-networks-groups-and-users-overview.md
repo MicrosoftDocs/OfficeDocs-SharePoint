@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 85ba39ff-5dd3-4a88-98c2-5ec9d6928d2e
 description: "Learn about the roles of networks, groups, and users in Yammer."
 ---

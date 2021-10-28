@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 215432d7-cb3b-4af4-beed-47492a6777f0
 
 description: "Learn how to administer the User Profile service in SharePoint Server."

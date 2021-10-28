@@ -12,7 +12,7 @@ ms.topic: article
 ms.custom:
 - WSSCentralAdmin_ConfigEmail
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f3ccc8bd-922e-49f6-9929-b5b8a6982d76
 description: "Learn how to install and configure the SMTP service and configure outgoing email for a SharePoint Server farm."

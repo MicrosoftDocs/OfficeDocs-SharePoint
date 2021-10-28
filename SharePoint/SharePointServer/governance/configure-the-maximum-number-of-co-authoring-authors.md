@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dca8b241-85f9-486c-97eb-ed9ef23622b8
 description: "Learn how to limit the number of users who can co-author a Word document or PowerPoint presentation at the same time."
 ---

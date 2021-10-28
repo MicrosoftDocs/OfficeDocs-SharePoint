@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: ffec2e36-9142-45ae-866e-308d6efbc114
 description: "Learn how to create a crawl rule and add a content source to crawl Exchange Server public folders."

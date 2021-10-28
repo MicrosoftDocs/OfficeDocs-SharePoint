@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 mscollection:
 - SPMigration
 - M365-collaboration
@@ -18,7 +18,7 @@ search.appverid: MET150
 description: "Learn about the reports available when using Migration Manager in Microsoft 365."
 ---
 
-# Step 3: Monitor and report in Migration Manager
+# Migration Manager reports
 
 Migration Manager generates log files, summary and task level reports, and a performance report.  These will help you manage, audit and troubleshoot your migration process.
 

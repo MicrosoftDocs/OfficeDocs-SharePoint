@@ -16,7 +16,7 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - M365-collaboration
 - SPO_Content
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f0565d7f-3efd-46c5-9a73-e307bc2df669
 description: "Provide an easy way for users of on-premises SharePoint Server to search for documents that are in OneDrive."
 ---

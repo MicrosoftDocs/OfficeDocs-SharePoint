@@ -13,12 +13,13 @@ ms.service: sharepoint-online
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- m365initiative-spsitemanagement
 ms.custom:
 -  seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4dc86d69-84c9-426c-b83f-e6e674722d85
 description: "In this article, you'll learn how to delete SharePoint sites in the SharePoint admin center."
 ---

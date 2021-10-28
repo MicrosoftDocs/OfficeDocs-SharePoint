@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3e61c238-cc09-4369-b8d3-f1150c1ae89b
 
 description: "Find resources about how to plan for user profiles for SharePoint Server."

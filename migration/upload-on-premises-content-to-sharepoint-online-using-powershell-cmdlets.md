@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - IT_SharePoint_Hybrid
 - IT_SharePoint_Hybrid_Top
@@ -51,7 +51,7 @@ SharePoint Migration PowerShell cmdlets are designed to move on-premises content
 - Windows PowerShell 4.0
     
 > [!NOTE]
-> Permissions: You must be a site collection administrator on the sit that you're targeting.
+> Permissions: You must be a site collection administrator on the site that you're targeting.
   
 ## Before you begin
 

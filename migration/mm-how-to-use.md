@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
@@ -34,6 +34,7 @@ Before you create your first migration task, do the following checks:
 |[Required Endpoints](mm-prerequisites.md#required-endpoints)|Review the required Endpoints|
 |[Government cloud](mm-gov-cloud.md)|If you are on a Government cloud, make sure your settings are correctly configured before you begin.|
 |[Set up your Migration Manager agent](mm-setup-clients.md#set-up-an-agent)|You can set up as many agents as needed to scale your project.|
+|File size|File share migration supports migrating individual files of up to 100 GB.|
 
 
 ## Source and destination
@@ -55,9 +56,9 @@ For every migration task you create, you'll be prompted for a **source** and a *
  -  SharePoint:  Enter the SharePoint site and document folder
  -  Teams:  Enter the team name and channel.  
 
-7.Select **Next**.
+7. Select **Next**.
 8. Under **Settings**, enter a friendly Task name to identify your task.
-9. If you have you Agent groups and want to assign this task to a specific group of agents, make your selection from the dropdown list. Otherwise the task will be in the default group and be assigned to the next available agent. (Optional) 
+9. If you have Agent groups and want to assign this task to a specific group of agents, make your selection from the dropdown list. Otherwise the task will be in the default group and be assigned to the next available agent. (Optional) 
 10. Select **All settings** to make certain they're set correctly for you. To learn more about specific settings, see [Migration Manager settings](mm-settings.md).
 11. Select **Run now**. The task will added to the list waiting for the next available agent. For each file share you want to migrate, select **Add task**.
 

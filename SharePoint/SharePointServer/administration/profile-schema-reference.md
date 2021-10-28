@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 05bdd5cb-2c97-40ca-bbac-bb91d300ad5c
 description: "Understand the XML schema for profiles for use in scripted monitoring configuration for SharePoint Server."

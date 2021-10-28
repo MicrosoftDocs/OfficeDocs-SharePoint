@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 29631b03-598b-49d0-83e5-bac61cfc643b
 description: "Learn how to set up a Search Center in SharePoint Server."
 ---

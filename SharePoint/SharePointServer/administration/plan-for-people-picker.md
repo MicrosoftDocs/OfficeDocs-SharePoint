@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2093c146-c880-48c6-9526-24cdf80969ba
 description: "Learn how to plan for the People Picker web control in SharePoint Server."
 ---

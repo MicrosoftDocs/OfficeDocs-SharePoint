@@ -13,7 +13,7 @@ ms.custom:
 - 'SPOTACfgInfoPathWebSrvcPrx'
 - 'SPOTACfgInfoPathSrvc'
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - BSA160

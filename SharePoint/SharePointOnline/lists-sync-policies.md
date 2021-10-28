@@ -10,18 +10,17 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - SPO160
 - MET150
 ms.collection:  
 - M365-collaboration
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to control Lists sync by using Group Policy objects (GPOs)."
 ---
 # Use Group Policy to control Lists sync settings
 
-This article describes the Group Policy objects (GPOs) for Microsoft Lists (and SharePoint lists) that admins can configure by using Group Policy. Use the registry key info to confirm that a setting is enabled. Lists sync policies are listed under OneDrive because Lists sync gets packaged, installed, and updated through the OneDrive sync app’s existing update mechanism.
+This article describes the Group Policy objects (GPOs) for Microsoft Lists (and SharePoint lists) that admins can configure by using Group Policy. Use the registry key info to confirm that a setting is enabled. Lists sync policies are listed under OneDrive because Lists sync gets packaged, installed, and updated through the OneDrive sync app’s existing update mechanism. For info about controlling OneDrive sync settings by Group Policy, see [OneDrive policies](/onedrive/use-group-policy).
 
 ## List of policies by string ID
 
@@ -37,11 +36,11 @@ By default, Lists sync is turned on for users of Microsoft Lists. If you enable 
 
 Prevent Lists sync from running on the device:
 
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableNucleusSync" = "dword:1"
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableNucleusSync" = "dword:1"`
 
 Re-enable Lists sync on the device:
 
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableNucleusSync" = "dword:0"
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableNucleusSync" = "dword:0"`
 
 ### Prevent users from syncing lists shared from other organizations
 
@@ -49,22 +48,22 @@ Enabling this setting prevents users at your organization from syncing lists tha
 
 Prevent external List sync with:
 
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "BlockExternalListSync" = "dword:1
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "BlockExternalListSync" = "dword:1`
 
 Restore external List sync with:
 
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "BlockExternalListSync" = "dword:0"
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "BlockExternalListSync" = "dword:0"`
 
 ### Prevent users from getting silently signed in to Lists sync with their Windows credentials
 
 Lists sync is set up to automatically sign users in with their Windows account credentials. If you enable this setting, people who used Microsoft Lists previously and who are signed in on an Azure AD-joined PC will no longer be able to set up Lists sync without entering their account credentials.  
 
 > [!IMPORTANT]
-> If the [Office browser extension](https://microsoftedge.microsoft.com/addons/detail/office/gggmmkjegpiggikcnhidnjjhmicpibll?source=sfw) isn't installed on users’ Chromium-based browsers (Edge, Chrome, etc.), we strongly recommend leaving silent account configuration enabled to ensure the seamless operation of List sync via Nucleus.exe.  
+> If the [Office browser extension](https://microsoftedge.microsoft.com/addons/detail/office/gggmmkjegpiggikcnhidnjjhmicpibll?source=sfw) isn't installed on users’ Chromium-based browsers (Microsoft Edge, Chrome, etc.), we strongly recommend leaving silent account configuration enabled to ensure the seamless operation of List sync via Microsoft.SharePoint.exe.  
 
 Enabling this policy sets the following registry key value to 1:
 
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableNucleusSilentConfig" = "dword:00000001"
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableNucleusSilentConfig" = "dword:00000001"`
 
 For more info about this feature, including troubleshooting steps, see [Silently configure user accounts](/onedrive/use-silent-account-configuration).
 
