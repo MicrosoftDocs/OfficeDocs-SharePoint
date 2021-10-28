@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 6c4f87aa-1004-4b87-aaca-2c262588fc46
 description: "Learn how and when to use Windows PowerShell to scale out the search index in SharePoint Server by adding an index component to create an additional index replica or index partition."

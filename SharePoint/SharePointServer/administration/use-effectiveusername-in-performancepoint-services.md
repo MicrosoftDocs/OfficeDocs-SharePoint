@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: bd5f42e5-81a9-47bc-a17e-1f9574324961
 description: "Learn how to use the EffectiveUserName option when it connects to an Analysis Services data from PerformancePoint Services Dashboard Designer."

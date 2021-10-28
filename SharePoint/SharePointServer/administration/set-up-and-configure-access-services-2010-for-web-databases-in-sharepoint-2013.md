@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f2d89390-aea4-4995-8b3f-b510c5d40247
 description: "Learn how to use Access Services 2010 to modify and publish an Access web database in SharePoint Server 2013 that was previously created in SharePoint Server 2010."

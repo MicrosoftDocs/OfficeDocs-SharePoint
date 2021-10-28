@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3df3e82d-df89-4d3d-b320-96d921e2d697
 description: "Learn how to configure the query in a Content Search Web Part on a category page in SharePoint Server 2016."

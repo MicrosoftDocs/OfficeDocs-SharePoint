@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cdaf9810-59dc-4afb-af6a-36ceb3795da7
 
 description: "Learn how to create an Excel Services dashboard that can be published to a library in SharePoint Server 2013."

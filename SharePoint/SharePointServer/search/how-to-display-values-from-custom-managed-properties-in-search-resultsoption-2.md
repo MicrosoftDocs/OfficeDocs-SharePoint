@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e2e13d19-21ca-44ef-bd49-0f6120137186
 description: "Learn a second option for displaying values from custom managed properties in SharePoint Server."
 ---

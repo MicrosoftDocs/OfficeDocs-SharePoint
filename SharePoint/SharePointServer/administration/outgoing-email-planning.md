@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 75401651-ef01-4348-878e-8a636f0b072d
 description: "How to configure outgoing email to relay email alerts and notifications in SharePoint Server."

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d43984b2-7a31-452f-afd4-c6837ee7a91d
 description: "Learn how to add refiners for faceted navigation to a publishing site in SharePoint Server 2016."

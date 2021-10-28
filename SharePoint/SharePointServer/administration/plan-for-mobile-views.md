@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9528dfeb-3f44-4c76-8d07-eb916e04b674
 
 description: "Learn how to plan for using a mobile browser experience in SharePoint Server 2013."

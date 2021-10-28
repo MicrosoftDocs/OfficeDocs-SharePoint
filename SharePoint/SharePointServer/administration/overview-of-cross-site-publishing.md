@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f6c7b56e-f684-45d9-8752-67fff01c1728
 description: "Learn how you can use cross-site publishing and Search Web Parts to create adaptive SharePoint Server Internet, intranet, and extranet sites."

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: c12cdce4-1a73-4602-96ff-ac50da27f614
 description: "Learn about SharePoint Server search architecture, SharePoint Server search components, SharePoint Server search databases, and the SharePoint Server search topology."

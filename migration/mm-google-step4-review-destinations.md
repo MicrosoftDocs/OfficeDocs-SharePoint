@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - m365solutions-migratefileshares
 - m365solution-migratetom365
@@ -24,50 +24,21 @@ description: Review your destination paths for your Google migration while using
 In this step, review the destination paths of the accounts you have moved to the migrations list, making sure they are correct. An account cannot be migrated without a destination indicated. Once you start migrating content to a destination, it cannot be modified.
 
 ## Single destination edit
-If a destination is missing, highlight the row. A panel will appear to the right. Under **Destination**, select **Edit**.  You have the choice of selecting a OneDrive, SharePoint, or Teams path as a destination.
+If a destination is missing, highlight the row. A panel will appear to the right. Under **Destination**, select **Edit**.  In this step, review the destination paths of the accounts you have moved to the migrations list, making sure they are correct. An account cannot be migrated without a destination indicated. Once you start migrating content to a destination, it cannot be modified.
 
+## Single destination edit
+If a destination is missing, highlight the row. A panel will appear to the right. Under **Destination**, select **Edit**.  
 
-### OneDrive
-
-1. Highlight the row. Under **Destination**, select **Edit.**
-2. Select **OneDrive** as a destination.
-
-![edit OD destination path](media/mm-box-select-od-destination.png)
-
-3. Select a folder (optional).
-
-![select OneDrive folder path](media/mm-box-destination-folder-onedrive.png)
-
-4. Select **Save path**.
-
-
-###  SharePoint
-
-1. Highlight the row. Under **Destination**, select **Edit.**
-2. Select **OneDrive** as a destination.
-
-![edit SP destination path](media/mm-box-sp-destination-path.png)
-
-3. Select a location where you want to move the content.
-
-![select SP library path](media/mm-box-sharepoint-destination-folder.png)
-4. Select **Save path**.
-
-
-
-### Teams
 
 
 1. Highlight the row. Under **Destination**, select **Edit.**
-2. Select **OneDrive** as a destination.
+2. You have the choice of selecting a OneDrive, SharePoint, or Teams path as a destination.  Depending your selection:
 
-![select teams destination](media/mm-box-teams-destination-path.png)
+    - For OneDrive, enter the OneDrive URL or email address and the location/folder name
+    - For SharePoint, enter site URL and location
+    - For Teams, select the team and the channel
 
-3. Select a channel.
-
-![select teams channel](media/mm-box-teams-destination-channel.png)
-
-4. Select **Save path**.
+3. Select **Save path**.
 
 
 ## Upload destinations using a CSV file
@@ -86,7 +57,7 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
 >Review your destination CSV file before you upload it to make sure you have entered the values in correctly.  The destination file is not validated, and once you have migrated to these destinations it cannot be undone.
 
 
-[**Step 5: Map identities**](mm-box-step5-map-identities.md)
+[**Step 5: Map identities**](mm-google-step5-map-identities.md)
 
 
 >[!NOTE]

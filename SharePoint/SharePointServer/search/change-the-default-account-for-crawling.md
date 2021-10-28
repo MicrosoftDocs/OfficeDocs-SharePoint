@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: fa4625ab-9076-4506-aa7c-a19b6e45a847
 description: "Change the user name or password of the account that the SharePoint Server Search service uses by default for crawling."

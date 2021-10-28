@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: cba65279-cba5-46cb-aea1-f095365ed83a
 description: "Learn how to manage SharePoint Server web application permission policy levels."

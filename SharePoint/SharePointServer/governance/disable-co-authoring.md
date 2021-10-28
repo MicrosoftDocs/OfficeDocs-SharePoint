@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7d2cbe64-5888-415e-81be-98b6921929de
 description: "Learn how to disable co-authoring functionality in SharePoint Server by using Group Policy or by using PowerShell."
 ---

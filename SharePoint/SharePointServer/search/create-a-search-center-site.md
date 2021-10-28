@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: bd9db767-6b87-450d-a8e6-9dc684d59ae4
 description: "Learn how to create a Search Center site and grant site access to users in SharePoint Server."

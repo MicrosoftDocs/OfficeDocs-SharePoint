@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 28a53440-2adc-4957-84bd-99ed97f0c430
 description: "Learn how to globally enable or disable permissions for SharePoint Server web applications."

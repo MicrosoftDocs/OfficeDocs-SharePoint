@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f4581a3b-696b-4573-98c5-26d2cdfee526
 description: "Learn how to display values from custom managed properties in the hover panel in SharePoint Server."
 ---

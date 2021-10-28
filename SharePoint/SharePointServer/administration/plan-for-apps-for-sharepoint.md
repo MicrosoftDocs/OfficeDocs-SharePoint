@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: eebac7af-f3e4-4e71-ad57-4c5ff3a58f30
 description: "Plan for apps for SharePoint, including the App Catalog and how to monitor and license apps."

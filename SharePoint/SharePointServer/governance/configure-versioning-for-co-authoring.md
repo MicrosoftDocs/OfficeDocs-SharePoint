@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d0db716b-1ee7-42c7-b8cf-694360b39d56
 description: "Learn how to configure SharePoint document library versioning settings to support co-authoring."
 ---

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 7b98ece5-14c4-4751-acf9-d280c3bc44ab
 description: "Learn how to add a taxonomy refinement panel web part to a publishing site in SharePoint Server 2016."

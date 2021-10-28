@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a19e8cb8-4b41-492b-b33c-bc490f911f1d
 description: "Learn how Secure Store works with Excel Services, PerformancePoint Services, and Visio Services to refresh data on SharePoint Server."
 ---

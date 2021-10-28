@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: c77f5006-d023-463f-8256-e4570d32dd1e
 description: "Learn how to configure server-to-server authentication when you share User Profile service application across SharePoint Server publishing and consuming farms."

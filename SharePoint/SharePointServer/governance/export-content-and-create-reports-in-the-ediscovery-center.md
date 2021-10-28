@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server
 ms.assetid: 7b2ea190-5f9b-4876-86e5-4440354c381a
 description: "You export content from a case when you are ready to deliver it to an authority or want to work on it with another legal program. You can also create reports to identify the contents of and any search indexing issues with the export. The export includes a load file based on the Electronic Discovery Reference Model standard."

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 9a7d541e-8db7-48b3-8c5a-6173f7358763
 description: "Learn how to enable a list as a catalog in SharePoint Server 2016."

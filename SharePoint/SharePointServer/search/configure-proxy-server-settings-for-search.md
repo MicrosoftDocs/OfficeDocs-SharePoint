@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3e7b12cf-e9bb-48be-9484-950ba70f466c
 description: "Specify a proxy server to send requests to crawl content or query federated content repositories."

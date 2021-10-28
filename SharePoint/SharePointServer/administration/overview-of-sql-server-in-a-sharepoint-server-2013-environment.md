@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 4dd5daa5-a22c-40c8-b250-6b4779714bb3
 description: "Learn about the SharePoint Server relationship with SQL Server 2008 R2 with Service Pack 1 (SP1), SQL Server 2012, and SQL Server 2014 and how you can interact with the databases."

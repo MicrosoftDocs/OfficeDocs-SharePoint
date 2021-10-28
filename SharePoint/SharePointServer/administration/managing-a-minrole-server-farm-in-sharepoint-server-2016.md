@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 883fac19-3048-4ef0-b473-10b3b05493b6
 description: "Learn how to manage your MinRole farm deployment in SharePoint Server."

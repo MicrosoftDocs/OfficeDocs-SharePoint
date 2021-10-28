@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e283aaec-e962-46b4-92e4-b8a825521641
 description: "Learn about profile synchronization, also known as profile sync,in SharePoint Server 2016."
 ---

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 16fdd865-105f-47e6-8a3a-6b37092a463c
 description: "Learn how to create the navigation term set to provide site navigation for SharePoint Server publishing sites."

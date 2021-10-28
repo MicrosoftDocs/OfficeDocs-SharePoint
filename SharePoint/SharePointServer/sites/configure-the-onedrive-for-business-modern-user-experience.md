@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 94d4fecf-3250-42aa-8230-5890790e24db
 description: "Learn how to turn the OneDrive modern user experience on or off in SharePoint Server."

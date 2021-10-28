@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 41ec2552-43cd-471a-ba22-1962297758c0
 description: "Learn how to create a Microsoft Business Connectivity Services service application in SharePoint Server."

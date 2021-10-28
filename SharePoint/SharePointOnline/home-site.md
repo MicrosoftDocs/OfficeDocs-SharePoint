@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
@@ -22,6 +22,7 @@ search.appverid:
 - SPO160
 - MET150
 - BSA160
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to use PowerShell to set a communication site as the home site for your organization."
 ---
 
@@ -32,14 +33,15 @@ A home site is a SharePoint [communication site](https://support.office.com/arti
 Before you begin, make sure you've reviewed how to [plan, build, and launch a home site](./home-site-plan.md). 
 
 > [!NOTE]
-> You can set only one site in your organization as a home site. The site can be registered as a hub site, but can't be associated with a hub. The first time you set up a home site, it might take up to several minutes for the changes to take effect. If you run the command again to switch your home site to a different site, it might take up to 2 hours.
+>- Targeted Release customer will have the option to [set a communication site as a home site in the SharePoint admin center](/SharePoint/home-site-admin-center) in September. This feature will become available to all customers on September 20 2021.
+>- You can set only one site in your organization as a home site. The site can be registered as a hub site, but can't be associated with a hub. The first time you set up a home site, it might take up to several minutes for the changes to take effect. If you run the command again to switch your home site to a different site, it might take up to 2 hours.
 
 ## Set a site as your home site
 
 After you create and customize the communication site that you want to use as your home site, you need to run a PowerShell cmdlet to set it as your home site. To run this cmdlet, you must be a site admin of the site.
 
-> [!IMPORTANT]
-> If the site you want to be your home site isn't currently your root site and you want it to be, first [replace your root site with the site](modern-root-site.md), and then make the site your home site. 
+> [!IMPORTANT] 
+> - If the site you want to be your home site isn't currently your root site and you want it to be, first [replace your root site with the site](modern-root-site.md), and then make the site your home site. 
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 

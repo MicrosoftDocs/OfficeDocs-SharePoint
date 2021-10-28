@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1d93093a-4da3-40c0-b0fd-f2567a32d2e9
 description: "Learn about the options available for using the Secure Store Service with PerformancePoint Services to connect to and refresh data from external data sources."
 ---

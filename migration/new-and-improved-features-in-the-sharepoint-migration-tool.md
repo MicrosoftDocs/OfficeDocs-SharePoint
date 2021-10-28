@@ -13,7 +13,7 @@ ms.service: sharepoint-online
 mscollection: 
 - SPMigration
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: "Learn about the new features and updates to existing features in SharePoint Migration Tool in these release notes."
 ---
@@ -29,9 +29,46 @@ Download and install SPMT using one of the links listed below.
 
 | Release |**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.121.7](https://aka.ms/spmt-beta-page)|[3.4.121.6](https://aka.ms/spmt-ga-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.122.3](https://aka.ms/spmt-beta-page)|[3.4.122.1](https://aka.ms/spmt-ga-page)|[3.4.121.7](https://aka.ms/spmt-ga-page)|[3.4.121.7](https://aka.ms/spmt-ga-page)|
 
 
+## SPMT 3.4.122.3
+
+**New features and important changes**
+
+|Feature|Description|
+|:-----|:-----|
+|Modernize site structure during migration|This feature lets users choose the migrated site structure when opting to "include all subsites."  Choose to keep the classic source site structure or promote all level-one subsites to site collections and associate them to a hub site during migration.|
+
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+## SPMT 3.4.122.1
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+## SPMT 3.4.122.0
+
+**New features and important changes**
+
+|Feature|Description|
+|:-----|:-----|
+|File size|File size up to 250GB is now supported.|
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
 
 ## SPMT 3.4.121.7
 

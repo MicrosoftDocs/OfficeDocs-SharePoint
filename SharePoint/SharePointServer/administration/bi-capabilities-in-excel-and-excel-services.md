@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cdd1d3d6-034e-458f-9324-c51d90fa9273
 
 description: "Excel 2013 offers a wide range of business intelligence capabilities. Learn which capabilities are supported in Excel Services (on premises)."

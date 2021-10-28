@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0d32d946-52d0-4913-bfdb-d3c1193cfc4a
 description: "Show the Yammer tile or the SharePoint Newsfeed link in SharePoint Server navigation."
 ---

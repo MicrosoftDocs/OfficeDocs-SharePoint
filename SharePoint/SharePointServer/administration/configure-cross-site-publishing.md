@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: b08c20f6-a142-4001-a92a-cee49b1145b2
 description: "Learn to create and tag catalog content in authoring sites and configure search settings for cross-site publishing in SharePoint Server."

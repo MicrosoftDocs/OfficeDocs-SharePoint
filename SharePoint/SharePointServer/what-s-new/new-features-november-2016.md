@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 486a1b2e-b1e3-4736-9d92-9dca61d57d56
 description: "Learn about the new features that are included in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1)."

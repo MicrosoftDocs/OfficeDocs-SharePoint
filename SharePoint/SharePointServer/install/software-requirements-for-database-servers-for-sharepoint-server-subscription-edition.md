@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -34,7 +34,7 @@ SharePoint Server Subscription Edition supports database servers deployed with t
 	
 ## Database versions
 
-SharePoint server supports the following database versions:
+SharePoint Server Subscription Edition supports the following database versions:
 
 - A Standard or Enterprise Edition of SQL Server for Windows that supports database compatibility level 150. This includes SQL Server 2019 Cumulative Update 5 (CU5) or later and any future version of SQL Server for Windows that supports database compatibility level 150. For more information about database compatibility levels, see [Compatibility Certification](/sql/database-engine/install-windows/compatibility-certification) and [ALTER DATABASE (Transact-SQL) Compatibility Level](/sql/t-sql/statements/alter-database-transact-sql-compatibility-level).
 

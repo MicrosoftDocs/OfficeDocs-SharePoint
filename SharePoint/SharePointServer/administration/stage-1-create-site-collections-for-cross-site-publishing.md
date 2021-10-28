@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: aa3e602d-3ba2-40a6-ac9a-7d1f510bf0c9
 description: "Learn how to create site collections for cross-site publishing in SharePoint Server."

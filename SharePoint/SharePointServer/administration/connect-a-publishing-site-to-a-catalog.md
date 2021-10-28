@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d32c1b21-60c4-465e-82c9-d907d913f8aa
 description: "Learn how to connect a publishing site collection to a library or list that is shared as a catalog."

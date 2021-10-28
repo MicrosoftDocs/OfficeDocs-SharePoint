@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 92ba47ea-a881-4f31-9b8d-e2587edff16d
 description: "Learn about the new features that are included in the September 2017 Public Update for SharePoint Server 2016 (Feature Pack 2)."

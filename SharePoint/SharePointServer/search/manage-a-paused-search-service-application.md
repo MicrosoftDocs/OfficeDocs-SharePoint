@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 18b1dbaf-d8e1-416b-b2fb-fe6cd0a369f1
 description: "Learn why the Search service application is paused and what you can do to resume it in SharePoint Server."

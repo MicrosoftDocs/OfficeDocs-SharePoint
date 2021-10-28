@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 7d88430f-2f0f-4c83-863b-ad840bdbf696
 description: "Learn how to add or remove a file type from the search index and how to start or stop including content from the file type, in the search index."

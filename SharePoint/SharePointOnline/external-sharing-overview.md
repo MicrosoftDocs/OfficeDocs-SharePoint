@@ -18,7 +18,7 @@ ms.custom:
 -  seo-marvel-apr2020
 -  Adm_O365
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
@@ -157,3 +157,5 @@ You can stop sharing with people who have an "Anyone" link by going to the file 
 [Create a secure guest sharing environment](/Office365/Enterprise/create-a-secure-guest-sharing-environment)
 
 [Settings interactions between Microsoft 365 Groups, Teams and SharePoint](/microsoft-365/solutions/groups-sharepoint-teams-governance)
+
+[Pricing - Active Directory External Identities](https://azure.microsoft.com/pricing/details/active-directory/external-identities/)

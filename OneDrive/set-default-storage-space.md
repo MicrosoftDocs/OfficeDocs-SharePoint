@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: one-drive
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
@@ -20,7 +20,7 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 ms.assetid: cec51d07-d7e0-42a3-b794-9c00ad0f0083
-description: "In this article, you'll learn how to change the default storage space for OneDrive users in the OneDrive admin center."
+description: "In this article, you'll learn how to change the default storage space for OneDrive users."
 ---
 
 # Set the default storage space for OneDrive users
@@ -43,9 +43,9 @@ This storage space setting applies to all new and existing users who are license
 1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
  
    > [!NOTE]
-   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. 
+   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. 
    > 
-   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
 
 2. Select the OneDrive **Storage limit** setting.
 
@@ -53,8 +53,8 @@ This storage space setting applies to all new and existing users who are license
   
 3. In the **Default storage limit** box, enter the default storage amount (in GB), and then select **Save**.
 
-> [!NOTE]
-> The minimum storage is 1 GB.
+   > [!NOTE]
+   > The minimum storage is 1 GB.
 
   
 ## Check if a user has the default storage limit or a specific limit

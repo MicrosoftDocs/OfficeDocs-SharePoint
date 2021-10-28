@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 48d39f84-9698-4249-b7e0-b885c462622e
 description: "Learn how to remove an item from the search index or SharePoint Server search results by removing the URL."
