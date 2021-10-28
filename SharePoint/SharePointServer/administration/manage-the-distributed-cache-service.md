@@ -35,17 +35,18 @@ To perform management and operational tasks on the Distributed Cache service in 
 
 The following PowerShell cmdlets are now available in SharePoint Server PowerShell.
 
-| Command name | Description |
-|--------------|-------------|
-| `Start-SPCacheCluster` | Starts the Caching Service on all cache hosts in the cluster. |
-| `Stop-SPCacheCluster` | Stops the Caching Service on all cache hosts in the cluster. |
-| `Import-SPCacheClusterConfig` | Imports the cache cluster configuration details from an XML file. |
-| `Export-SPCacheClusterConfig` | Export cache cluster configuration details to an XML file. |
-| `Get-SPCacheClusterHealth` | Returns statistics for all of the named caches in the cache cluster. |
-| `Get-SPCacheHost` | Provides the same functionality as the `Get-CacheHost` cmdlet in previous versions of AppFabric. |
-| `New-SPCache` | Works similar to `New-Cache` cmdlet of AppFabric Cache in previous versions of SharePoint. |
-| `Get-SPCache` | Works similar to `Get-Cache` cmdlet of AppFabric Cache in previous versions of SharePoint. |
-| `Get-SPCacheStatistics` | Works similar to `Get-CacheStatistics` cmdlet of AppFabric Cache in previous versions of SharePoint. |
+| SharePoint Server Subscription Edition Cmdlet | APP Fabric Cmdlet | Description |
+|-----------------------------------------------|-------------------|-------------|
+| New-SPCache | New-Cache | Creates a new named cache when the cluster is running. |
+| Get-SPCache | Get-Cache | Lists all caches and regions in the cluster, and the cache host where each region resides. Without any parameters, all the cluster caches and their host-region details are returned. With Hostname and CachePort parameters provided, caches, and region details are returned only for the specified host. |
+| Get-SPCacheStatistics | Get-CacheStatistics | Returns statistics for a Cache or for a Cache Host. |
+| Get-SPCacheHost | Get-CacheHost | Lists all cache host services that are members of the cache cluster. |
+| Start-SPCacheCluster | Start-CacheCluster | Starts the Caching Service on all cache hosts in the cluster. Lead hosts are started first. |
+| Stop-SPCacheCluster | Stop-CacheCluster | Stops the Caching Services on all cache hosts in the cluster. |
+| Import-SPCacheClusterConfig | Import-CacheClusterConfig | Import cache cluster configuration details from an XML file. |
+| Export-SPCacheClusterConfig | Export-CacheClusterConfig | Export cache cluster configuration to an XML file. |
+| Get-SPCacheClusterHealth | Get-CacheClusterHealth | Returns health statistics for all of the named caches in the cache cluster. This includes those that haven't been allocated yet. |
+| Use-SPCacheCluster | Use-CacheCluster | Sets the context of your PowerShell session to a particular cache cluster. |
 
 ## Start and stop the Distributed Cache service
 <a name="startstopcache"> </a>
@@ -122,9 +123,9 @@ Use this procedure to reconfigure the memory allocation of the cache size of the
       ```
     Where:
 
-      -  _ComputerName_ is the computer name of the server that you are running the SharePoint Management Shell cmdlet on. 
+      -  _ComputerName_ is the computer name of the server that you are running the SharePoint Management Shell cmdlet on.
 
-2. Stop the Distributed Cache service on all cache hosts. To stop the Distributed Cache service, go to **Services on Server** in Central Administration, and **Stop** the Distributed Cache service on all cache hosts in the farm. 
+2. Stop the Distributed Cache service on all cache hosts. To stop the Distributed Cache service, go to **Services on Server** in Central Administration, and **Stop** the Distributed Cache service on all cache hosts in the farm.
 
 3. To reconfigure the cache size of the Distributed Cache service, run the following command one time only on any cache host at the SharePoint Management Shell command prompt:
 
@@ -180,7 +181,7 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
 
 1. Verify that you meet the following minimum requirements:
 
-      - See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+      - See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin).
 
       - You must read [about_Execution_Policies](/previous-versions//dd347641(v=technet.10)).
 
@@ -235,7 +236,29 @@ For more information about PowerShell scripts and `.ps1` files, see [Running Win
 ## Change the service account
 <a name="changesvcacct"> </a>
 
-When the server farm is first configured, the server farm account is set as the service account of the AppFabric Caching service. The Distributed Cache service depends on the AppFabric Caching service. To change the service account of the AppFabric Caching service to a managed account:
+When the server farm is first configured, the server farm account is set as the service account of the AppFabric Caching service/SharePoint Caching Service. The Distributed Cache service depends on the AppFabric Caching service/SharePoint Caching Service. To change the service account of the AppFabric Caching service/SharePoint Caching Service to a managed account:
+
+Select the service to change the service account.
+
+# [SharePoint Caching Service](#tab/SCS)
+
+1. Create a managed account.
+
+2. Set the Managed account as the service account on the SharePoint Caching Service. At the SharePoint Management Shell command prompt, run the following command:
+
+      ```powershell
+      $farm = Get-SPFarm
+      $cacheService = $farm.Services | where {$_.Name -eq "SPCache"}
+      $accnt = Get-SPManagedAccount -Identity domain_name\user_name
+      $cacheService.ProcessIdentity.CurrentIdentityType = "SpecificUser"
+      $cacheService.ProcessIdentity.ManagedAccount = $accnt
+      $cacheService.ProcessIdentity.Update() 
+      $cacheService.ProcessIdentity.Deploy()
+      ```
+
+    Where _Domain_name\user_name_ is the domain name and user name of the SharePoint managed account.
+
+# [AppFabric Caching service](#tab/ACS)
 
 1. Create a managed account.
 
@@ -252,6 +275,8 @@ When the server farm is first configured, the server farm account is set as the 
       ```
 
     Where _Domain_name\user_name_ is the domain name and user name of the SharePoint managed account.
+
+---
 
 ## Fine-tune the Distributed Cache service by using a PowerShell script
 <a name="finetune"> </a>
@@ -281,7 +306,7 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
 
 1. Verify that you meet the following minimum requirements:
 
-      - See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+      - See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin).
 
       - You need to read [about_Execution_Policies](/previous-versions//dd347641(v=technet.10)).
 
@@ -293,6 +318,18 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
     **SharePoint Server Subscription Edition PowerShell script**
 
     ```powershell
+    #New-SPCache
+    New-SPCache -CacheName DistributedViewStateCache_b6c5efa9-e390-4d47-aa8a-45232229992b
+    
+    #Get-SPCache
+    Get-SPCache
+    
+    #Get-SPCacheStatistics
+    Get-SPCacheStatistics -CacheName DistributedAccessCache_b6c5efa9-e390-4d47-aa8a-45232229992b
+    
+    #Get-SPCacheHost
+    Get-SPCacheHost -HostName SP01 -CachePort 22233
+    
     #Start-SPCacheCluster
     Start-SPCacheCluster    
     
@@ -307,18 +344,9 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
     
     #Get-SPCacheClusterHealth
     Get-SPCacheClusterHealth
-    
-    #Get-SPCacheHost
-    Get-SPCacheHost -HostName SP01 -CachePort 22233
-    
-    #New-SPCache
-    New-SPCache -CacheName DistributedViewStateCache_b6c5efa9-e390-4d47-aa8a-45232229992b
-    
-    #Get-SPCache
-    Get-SPCache
-    
-    #Get-SPCacheStatistics
-    Get-SPCacheStatistics -CacheName DistributedAccessCache_b6c5efa9-e390-4d47-aa8a-45232229992b
+
+    #Use-SPCacheCluster
+    Use-SPCacheCluster
     ```
 
     **SharePoint Server 2019 PowerShell script**
@@ -682,7 +710,7 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
       Set-SPDistributedCacheClientSetting -ContainerType DistributedServerToAppServerAccessTokenCache $DSTAC
       ```
 
-3. Open the SharePoint Management Shell
+3. Open the SharePoint Management Shell.
 
 4. Change to the directory to which you saved the file.
 
@@ -703,9 +731,9 @@ There are two steps to repair a cache host.
 
 On the non-functioning Distributed Cache host, use the following procedures to restore the Distributed Cache host.
 
-1. At the SharePoint Management Shell command prompt, run the [Remove-SPDistributedCacheServiceInstance](/powershell/module/sharepoint-server/Remove-SPDistributedCacheServiceInstance?view=sharepoint-ps) cmdlet.
+1. At the SharePoint Management Shell command prompt, run the [Remove-SPDistributedCacheServiceInstance](/powershell/module/sharepoint-server/Remove-SPDistributedCacheServiceInstance) cmdlet.
 
-2. At the SharePoint Management Shell command prompt, run the [Add-SPDistributedCacheServiceInstance](/powershell/module/sharepoint-server/Add-SPDistributedCacheServiceInstance?view=sharepoint-ps) cmdlet.
+2. At the SharePoint Management Shell command prompt, run the [Add-SPDistributedCacheServiceInstance](/powershell/module/sharepoint-server/Add-SPDistributedCacheServiceInstance) cmdlet.
 
     > [!NOTE]
     > If step 1 fails, manually remove the Distributed Cache service, use the following steps. 
