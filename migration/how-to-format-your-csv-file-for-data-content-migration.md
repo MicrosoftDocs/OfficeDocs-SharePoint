@@ -146,7 +146,7 @@ If you wish to leverage your system proxy settings, use one of these methods:
 1. Download the latest version of SPMT. Start SPMT.
 2. If SPMT doesn't connect to Microsoft 365, go to  **%localappdata%\Apps\SharePointMigrationTool\SPMT**.
 3. Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
-4. Comment out the default proxy setting shown here:
+4. Uncomment the default proxy setting shown here:
     ![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)
 
 5. Restart SPMT.
@@ -164,7 +164,7 @@ If you wish to leverage your system proxy settings, use one of these methods:
 
 4. Launch installclient.exe and SPMT should auto-upgrade to latest SPMT release.
 5. Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
-6. Comment out the default proxy setting:
+6. Uncomment the default proxy setting:
 7. 
     ![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)
 
