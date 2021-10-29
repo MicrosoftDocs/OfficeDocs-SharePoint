@@ -134,9 +134,9 @@ Verify that the user account that is performing this procedure is the Setup user
 
 2. Run Language Pack for SharePoint and Project Server Subscription Edition Setup (`setup.exe`) on your computer in command line mode. This is done by adding the following command line parameters when launching (`setup.exe`):
 
-    - **/config** `<config file>` This parameter signifies where `<config file>` is the path to the **\Files\SetupSilent\config.xml** file on your mounted drive.
+    - `/config <config file>` (Where `<config file>` is the path to the **\Files\SetupSilent\config.xml** file on your mounted drive).
 
-    - **/IAcceptTheLicenseTerms** This parameter signifies that you have read, understand, and agree to the license terms of Language Pack for SharePoint and Project Server Subscription Edition.
+    - `/IAcceptTheLicenseTerms` (This parameter signifies that you have read, understand, and agree to the license terms of language pack for SharePoint and Project Server Subscription edition).
 
 3. Once language pack for SharePoint and Project Server Server Subscription Edition setup has completed, reboot your computer.
 
@@ -153,9 +153,10 @@ Verify that the user account that is performing this procedure is the Setup user
 ### Uninstall a language pack on Windows Server Core
 
 1. Run SharePoint setup (`setup.exe`) from your `%CommonProgramFiles%\Microsoft Shared\SERVER16\Server Setup Controller` directory with the following parameters:
-    - **/config** `<config file>` This parameter signifies where `<config file>` is the path to your config.xml file.
 
-    - **/uninstall OSMUI** `.<language tag>` This parameter signifies the language pack language to uninstall.
+    - `/config <config file>` (Where `<config file>` is the path to your `config.xml` file).
+
+    - `/uninstall OSMUI.<language tag>` (This parameter signifies the language pack language to uninstall).
     
     For example, the following PowerShell command is used to uninstall Japanese language pack:
 
