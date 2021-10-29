@@ -43,8 +43,8 @@ The following PowerShell cmdlets are now available in SharePoint Server PowerShe
 | Get-SPCacheHost | Get-CacheHost | Lists all cache host services that are members of the cache cluster. |
 | Start-SPCacheCluster | Start-CacheCluster | Starts the Caching Service on all cache hosts in the cluster. Lead hosts are started first. |
 | Stop-SPCacheCluster | Stop-CacheCluster | Stops the Caching Services on all cache hosts in the cluster. |
-| Import-SPCacheClusterConfig | Import-CacheClusterConfig | Import cache cluster configuration details from an XML file. |
-| Export-SPCacheClusterConfig | Export-CacheClusterConfig | Export cache cluster configuration to an XML file. |
+| Import-SPCacheClusterConfig | Import-CacheClusterConfig | Imports cache cluster configuration details from an XML file. |
+| Export-SPCacheClusterConfig | Export-CacheClusterConfig | Exports cache cluster configuration to an XML file. |
 | Get-SPCacheClusterHealth | Get-CacheClusterHealth | Returns health statistics for all of the named caches in the cache cluster. This includes those that haven't been allocated yet. |
 | Use-SPCacheCluster | Use-CacheCluster | Sets the context of your PowerShell session to a particular cache cluster. |
 
@@ -76,21 +76,45 @@ Stopping the cache results in partial data loss. The Feed Cache depends on the D
 
 At the SharePoint Management Shell command prompt, run the following command:
 
+# [SharePoint Caching Service](#tab/SCS1)
+
+```powershell
+$instanceName ="SPDistributedCacheService Name=SPCache"
+$serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $instanceName -and ($_.server.name) -eq $env:computername}
+$serviceInstance.Provision()
+```
+
+# [AppFabric Caching service](#tab/ACS1)
+
 ```powershell
 $instanceName ="SPDistributedCacheService Name=AppFabricCachingService"
 $serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $instanceName -and ($_.server.name) -eq $env:computername}
 $serviceInstance.Provision()
 ```
 
+---
+
 ### To stop the Distributed Cache service by using SharePoint Management Shell
 
 At the SharePoint Management Shell command prompt, run the following command:
+
+# [SharePoint Caching Service](#tab/SCS2)
+
+```powershell
+$instanceName ="SPDistributedCacheService Name=SPCache"
+$serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $instanceName -and ($_.server.name) -eq $env:computername}
+$serviceInstance.Unprovision()
+```
+
+# [AppFabric Caching service](#tab/ACS2)
 
 ```powershell
 $instanceName ="SPDistributedCacheService Name=AppFabricCachingService"
 $serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $instanceName -and ($_.server.name) -eq $env:computername}
 $serviceInstance.Unprovision()
 ```
+
+---
 
 ## Change the memory allocation of the Distributed Cache service
 <a name="memory"> </a>
@@ -117,6 +141,19 @@ Use this procedure to reconfigure the memory allocation of the cache size of the
 
 1. (Optional) To check the existing memory allocation for the Distributed Cache service on a server, run the following command at the SharePoint Management Shell command prompt:
 
+    # [SharePoint Caching Service](#tab/SCS3)
+
+      ```powershell
+      Use-SPCacheCluster
+      Get-SPCacheHostConfig -HostName $Env:ComputerName
+      ```
+    Where:
+
+      -  _ComputerName_ is the computer name of the server that you are running the SharePoint Management Shell cmdlet on.
+
+
+    # [AppFabric Caching service](#tab/ACS3)
+
       ```powershell
       Use-CacheCluster
       Get-AFCacheHostConfiguration -ComputerName $Env:ComputerName -CachePort "22233"
@@ -124,6 +161,8 @@ Use this procedure to reconfigure the memory allocation of the cache size of the
     Where:
 
       -  _ComputerName_ is the computer name of the server that you are running the SharePoint Management Shell cmdlet on.
+
+    ---
 
 2. Stop the Distributed Cache service on all cache hosts. To stop the Distributed Cache service, go to **Services on Server** in Central Administration, and **Stop** the Distributed Cache service on all cache hosts in the farm.
 
@@ -231,7 +270,10 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
     ./GracefulShutdown.ps1
     ```
 
-For more information about PowerShell scripts and `.ps1` files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
+    > [!NOTE]
+    > In SharePoint Server Subscription Edition, don’t run `ps` script for graceful shutdown. Instead, run [Stop-SPDistributedCacheServiceInstance](/powershell/module/sharepoint-server/stop-spdistributedcacheserviceinstance) with `-Graceful` parameter to execute it.
+
+    For more information about PowerShell scripts and `.ps1` files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
 
 ## Change the service account
 <a name="changesvcacct"> </a>
