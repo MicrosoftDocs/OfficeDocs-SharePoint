@@ -414,7 +414,6 @@
 ##### [Video series: Install and configure Workflow in SharePoint Server 2013](../governance/video-series-install-and-configure-workflow-in-sharepoint-server-2013.md)
 #### [Update Workflow in SharePoint Server](../governance/update-workflow-in-sharepoint-server.md)
 ## [Administration](../administration/administration.md)
-### [SharePoint Central Administration - Support for host header bindings and easier Alternate Access Mappings (AAM) configuration](../administration/sharepoint-central-administration-host-header-bindings-and-easier-aam-configuration.md)
 ### [Server Management](../administration/server-management.md)
 #### [Configure Request Manager in SharePoint Server](../security-for-sharepoint-server/configure-request-manager-in-sharepoint-server.md)
 #### [Global deployment of multiple farms](../administration/global-deployment-of-multiple-farms.md)
