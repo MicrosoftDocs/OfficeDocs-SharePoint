@@ -29,7 +29,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Database
   
  **Summary:** The database has large amounts of unused space allocated on the disk. This database uses a large amount of space on the file system unless it is shrunk down to a small size. This event occurs if the unused space is more than 20% of the disk space and the unused space is greater than the auto-growth size plus 50 megabytes (MB). 
   
- **Cause:** Many activities can create unused space in the database. These activities include running the Windows PowerShell [Move-SPSite](/powershell/module/sharepoint-server/Move-SPSite?view=sharepoint-ps) command, and deleting documents, document libraries, lists, list items, and sites. 
+ **Cause:** Many activities can create unused space in the database. These activities include running the Windows PowerShell [Move-SPSite](/powershell/module/sharepoint-server/Move-SPSite?view=sharepoint-ps&preserve-view=true) command, and deleting documents, document libraries, lists, list items, and sites. 
   
  **Resolution: Ignore this event, or shrink the database if you have to.**
   

@@ -43,7 +43,7 @@ The custom tile feature is not enabled by default. To enable the feature, do the
     
     If these permissions are not satisfied, contact your Setup administrator or SQL Server administrator to request these permissions.
     
-    For additional information about PowerShell permissions, see [Permissions](/powershell/sharepoint/sharepoint-server/sharepoint-server-cmdlets?view=sharepoint-ps) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+    For additional information about PowerShell permissions, see [Permissions](/powershell/sharepoint/sharepoint-server/sharepoint-server-cmdlets?view=sharepoint-ps&preserve-view=true) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
     
 2. On the **Start** menu, click **All Programs**
     
@@ -119,7 +119,7 @@ If you want to use the same list of custom tiles across multiple web application
     
     If these permissions are not satisfied, contact your Setup administrator or SQL Server administrator to request these permissions.
     
-    For additional information about PowerShell permissions, see [Permissions](/powershell/sharepoint/sharepoint-server/sharepoint-server-cmdlets?view=sharepoint-ps) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+    For additional information about PowerShell permissions, see [Permissions](/powershell/sharepoint/sharepoint-server/sharepoint-server-cmdlets?view=sharepoint-ps&preserve-view=true) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
     
 2. On the **Start** menu, click **All Programs**
     

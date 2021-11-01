@@ -62,7 +62,7 @@ You can assign or remove service application administrators by using the SharePo
    > [!NOTE]
    > If these permissions are not satisfied, contact your Setup administrator or SQL Server administrator to request these permissions. 
   
-   For additional information about PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/?view=sharepoint-ps#section3) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps)
+   For additional information about PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/?view=sharepoint-ps#section3&preserve-view=true) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true)
     
 2. Start the SharePoint Management Shell.
     
@@ -86,7 +86,7 @@ You can assign or remove service application administrators by using the SharePo
    Where  _ServiceApplicationDisplayName_ is the display name of the service application. The service application identification is stored in the  _$spapp_ variable. 
     
    > [!IMPORTANT]
-   > The display name must be enclosed in quotation marks, and it must exactly match the service application display name. This includes capitalization. If you have more than one service application that has the identical display name (we do not recommend this), you can use the **Get-SPServiceApplication** cmdlet to view all service applications. You can then identify the service application by its GUID. For more information, see [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps). 
+   > The display name must be enclosed in quotation marks, and it must exactly match the service application display name. This includes capitalization. If you have more than one service application that has the identical display name (we do not recommend this), you can use the **Get-SPServiceApplication** cmdlet to view all service applications. You can then identify the service application by its GUID. For more information, see [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps&preserve-view=true). 
   
 5. To retrieve the administrator security object for the service application, type the following command:
     
@@ -156,17 +156,17 @@ Set-SPServiceApplicationSecurity $spapp $security -Admin
 
 For more information, see the following Microsoft PowerShell articles:
   
-- [New-SPClaimsPrincipal](/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps)
+- [New-SPClaimsPrincipal](/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps&preserve-view=true)
     
-- [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps)
+- [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps&preserve-view=true)
     
-- [Get-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Get-SPServiceApplicationSecurity?view=sharepoint-ps)
+- [Get-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Get-SPServiceApplicationSecurity?view=sharepoint-ps&preserve-view=true)
     
-- [Grant-SPObjectSecurity](/powershell/module/sharepoint-server/Grant-SPObjectSecurity?view=sharepoint-ps)
+- [Grant-SPObjectSecurity](/powershell/module/sharepoint-server/Grant-SPObjectSecurity?view=sharepoint-ps&preserve-view=true)
     
 - [Revoke-SPObjectSecurity](/powershell/module/sharepoint-online/revoke-spobjectsecurity)
     
-- [Set-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Set-SPServiceApplicationSecurity?view=sharepoint-ps)
+- [Set-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Set-SPServiceApplicationSecurity?view=sharepoint-ps&preserve-view=true)
     
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

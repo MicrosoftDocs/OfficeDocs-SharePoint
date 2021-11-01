@@ -20,6 +20,7 @@ description: "Learn how to use the Yammer Embed widget to include Yammer feeds o
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You can choose the type of Yammer feed to include.
+
 | Type           |Description            | Example     |
 |:--------------:|:----------------------|:-------------|
 |Group           |The feed for one group | On a team intranet page.|

@@ -281,5 +281,5 @@ An audit log entry stores information about a Secure Store Service action, such 
 
 #### Other Resources
 
-[Secure Store Service cmdlets in SharePoint 2013](/powershell/module/sharepoint-server/?view=sharepoint-ps)
+[Secure Store Service cmdlets in SharePoint 2013](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true)
 

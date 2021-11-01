@@ -108,4 +108,4 @@ The personal site collections are upgraded automatically when a user visits thei
 
 [Upgrade a site collection](upgrade-a-site-collection-2019.md)
   
-[Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps)
+[Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps&preserve-view=true)

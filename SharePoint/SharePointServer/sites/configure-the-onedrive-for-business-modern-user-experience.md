@@ -26,7 +26,7 @@ The OneDrive modern user experience requires an active [Software Assurance](http
   
  **Turn the OneDrive modern user experience off**
   
-Make sure you have [permissions to administer SharePoint Server with Windows PowerShell](/powershell/module/sharepoint-server/?view=sharepoint-ps), and log in to a server in your SharePoint farm. Open the SharePoint 2016 Management Shell as administrator and run the following script:
+Make sure you have [permissions to administer SharePoint Server with Windows PowerShell](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true), and log in to a server in your SharePoint farm. Open the SharePoint 2016 Management Shell as administrator and run the following script:
   
 ```
 $Farm = Get-SPFarm
@@ -37,7 +37,7 @@ $Farm.Update()
 
  **Turn the OneDrive modern user experience on**
   
-Make sure you have [permissions to administer SharePoint Server with Windows PowerShell](/powershell/module/sharepoint-server/?view=sharepoint-ps), and log in to a server in your SharePoint farm. Open the SharePoint 2016 Management Shell as administrator and run the following script:
+Make sure you have [permissions to administer SharePoint Server with Windows PowerShell](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true), and log in to a server in your SharePoint farm. Open the SharePoint 2016 Management Shell as administrator and run the following script:
   
 ```
 $Farm = Get-SPFarm

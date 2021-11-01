@@ -341,7 +341,7 @@ To upgrade the Managed Metadata service application, you create the new service 
     
    This command sets a variable, $mms, that you use when you create the proxy later.
     
-   For more information, see [New-SPMetadataServiceApplication](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+   For more information, see [New-SPMetadataServiceApplication](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
     
 5. At the PowerShell command prompt, type the following command to create a proxy for the Managed Metadata service application:
     
@@ -784,7 +784,7 @@ Use the following procedure to verify that the steps to create the proxies and a
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
-    **Note**: If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+    **Note**: If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
     
 2. Start the SharePoint 2019 Management Shell.
     

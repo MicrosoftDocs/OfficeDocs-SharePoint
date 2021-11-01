@@ -43,7 +43,7 @@ Verify that you have the following memberships:
   - Member of built-in Administrators group on the server on which you are running the PowerShell cmdlets.
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets.  
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
 
 ## Configure server-to-server authentication between publishing and consuming farms
 <a name="begin"> </a>
@@ -107,6 +107,6 @@ $mgr.AddSiteSubscriptionPermission($appPrincipal, $privateAPITypeId, [Microsoft.
 
 ### Other Resources
   
-[New-SPTrustedSecurityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedsecuritytokenissuer?view=sharepoint-ps)
+[New-SPTrustedSecurityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedsecuritytokenissuer?view=sharepoint-ps&preserve-view=true)
 
-[Set-SPAppPrincipalPermission](/powershell/module/sharepoint-server/set-spappprincipalpermission?view=sharepoint-ps)
+[Set-SPAppPrincipalPermission](/powershell/module/sharepoint-server/set-spappprincipalpermission?view=sharepoint-ps&preserve-view=true)

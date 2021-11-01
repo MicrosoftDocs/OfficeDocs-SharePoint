@@ -47,7 +47,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Cached o
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -55,7 +55,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Cached o
     
      `Get-SPDistributedCacheClientSetting`
     
-    For more information, see [Get-SPDistributedCacheClientSetting](/powershell/module/sharepoint-server/Get-SPDistributedCacheClientSetting?view=sharepoint-ps)
+    For more information, see [Get-SPDistributedCacheClientSetting](/powershell/module/sharepoint-server/Get-SPDistributedCacheClientSetting?view=sharepoint-ps&preserve-view=true)
     
 4. Stop the Distributed Cache service on all cache hosts in the farm. To do this, run the following command on each cache host:
     
@@ -83,6 +83,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Cached o
 [Plan for feeds and the Distributed Cache service in SharePoint Server](../administration/plan-for-feeds-and-the-distributed-cache-service.md)
 #### Other Resources
 
-[Update-SPDistributedCacheSize](/powershell/module/sharepoint-server/Update-SPDistributedCacheSize?view=sharepoint-ps)
+[Update-SPDistributedCacheSize](/powershell/module/sharepoint-server/Update-SPDistributedCacheSize?view=sharepoint-ps&preserve-view=true)
   
 [Planning and using the Distributed Cache service](https://go.microsoft.com/fwlink/p/?LinkID=271302)

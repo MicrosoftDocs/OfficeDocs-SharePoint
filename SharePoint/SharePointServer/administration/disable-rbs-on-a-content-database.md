@@ -36,7 +36,7 @@ Before you begin this operation, review the following information about prerequi
 This operation can be performed on any Web server in the farm. You only have to perform the operation one time on one Web server for each content database for which you want to disable RBS.
   
 > [!CAUTION]
-> Do not use the **Disable()** method on the **RemoteBlobStorageSettings** object. This method is used only to uninstall RBS, and we do not recommend that you just disable the writing of new BLOBs into RBS. To completely remove RBS, perform the below task and then use [Move-SPSite](/powershell/module/sharepoint-server/move-spsite?view=sharepoint-ps) to move all sites into a non-RBS enabled database. This will allow you to delete the content database that previously had RBS enabled.
+> Do not use the **Disable()** method on the **RemoteBlobStorageSettings** object. This method is used only to uninstall RBS, and we do not recommend that you just disable the writing of new BLOBs into RBS. To completely remove RBS, perform the below task and then use [Move-SPSite](/powershell/module/sharepoint-server/move-spsite?view=sharepoint-ps&preserve-view=true) to move all sites into a non-RBS enabled database. This will allow you to delete the content database that previously had RBS enabled.
   
 You must use Microsoft PowerShell cmdlets to disable RBS. There is no user interface option for this task.
   
@@ -62,7 +62,7 @@ You must use Microsoft PowerShell cmdlets to disable RBS. There is no user inter
 
 Where  http://yourSiteURL is the Web application that is attached to the content database that is being disabled for RBS. 
     
-For more information, see [Get-SPSite](/powershell/module/sharepoint-server/Get-SPSite?view=sharepoint-ps).
+For more information, see [Get-SPSite](/powershell/module/sharepoint-server/Get-SPSite?view=sharepoint-ps&preserve-view=true).
     
 ## See also
 <a name="proc1"> </a>

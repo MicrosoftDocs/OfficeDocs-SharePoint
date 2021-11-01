@@ -142,5 +142,5 @@ Once you have created the service application, you are ready to start using Exce
 
 #### Other Resources
 
-[Excel Services cmdlets in SharePoint Server 2013](/powershell/module/sharepoint-server/?view=sharepoint-ps)
+[Excel Services cmdlets in SharePoint Server 2013](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true)
 

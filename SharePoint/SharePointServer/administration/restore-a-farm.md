@@ -91,7 +91,7 @@ You can use Microsoft PowerShell to restore a farm.
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Open the SharePoint Management Shell.
     
@@ -130,7 +130,7 @@ You can use Microsoft PowerShell to restore a farm.
 
    Where _\<ServiceApplicationID\>_ is the GUID of the service application. 
     
-For more information about how to restart service applications by using PowerShell, see [Start-SPServiceInstance](/powershell/module/sharepoint-server/Start-SPServiceInstance?view=sharepoint-ps).
+For more information about how to restart service applications by using PowerShell, see [Start-SPServiceInstance](/powershell/module/sharepoint-server/Start-SPServiceInstance?view=sharepoint-ps&preserve-view=true).
     
 For more information about how to restore the farm by using PowerShell_2nd_NoVer, see Restore-SPFarm.PShell_stsadm_deprecated
   

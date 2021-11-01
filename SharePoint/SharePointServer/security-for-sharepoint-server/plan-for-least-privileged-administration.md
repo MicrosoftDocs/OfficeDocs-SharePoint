@@ -92,7 +92,7 @@ The following list provides information about locking down other SharePoint Serv
   
 - **SharePoint_Shell_Access role**
     
-    When you remove this SQL Server role, you remove the ability to write entries to the configuration and content database and the ability to perform any tasks by using Microsoft PowerShell. For additional information about this role, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps).
+    When you remove this SQL Server role, you remove the ability to write entries to the configuration and content database and the ability to perform any tasks by using Microsoft PowerShell. For additional information about this role, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps&preserve-view=true).
     
 - **SharePoint Timer service (SPTimerV4)**
     
