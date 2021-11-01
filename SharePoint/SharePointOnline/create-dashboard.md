@@ -37,7 +37,7 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 - [Create a Dashboard and add cards](#create-a-dashboard-and-add-cards)
 - [Add a Web link card](#add-a-web-link-card)
 - [Add a Teams app card](#add-a-teams-app-card)
-- [Add a card from a third-party](##add-a-3rd-party-card-or-Microsoft-apps)
+- [Add a card from a third-party](#add-a-3rd-party-card-or-Microsoft-apps)
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
 - [Preview your Dashboard to see how it will display for different audiences and devices](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
 - [Put the Dashboard on your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections)
@@ -158,14 +158,14 @@ To create custom experiences on Viva Connections Dashboard and Viva Connections 
 There are two ways to acquire partner solution packages and install them on the Viva Connections Dashboard:
 1.	Through a Microsoft AppSource
 <br>
-    Option A: Add an App via the SharePoint home site
+    Option A: Add an App via the SharePoint home site <br>
     Option B: Add an App via the App Catalog
     
-2.	Directly from the ISV or Partner
+2.	Directly from the ISV partner
 
 #### Acquire the solution package from a Microsoft AppSource
 
-**Option A:** Add an App via the SharePoint Homesite - [Learn how to explore and deploy SharePoint Framework solutions from partners in SharePoint.](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289)
+**Option A:** Add an App via the SharePoint home site - [Learn how to explore and deploy SharePoint Framework solutions from partners in SharePoint.](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289)
 
 **Option B:** Add an App via the App Catalog - [Learn how to manage apps using the App Catalog.](use-app-catalog#work-with-sharepoint-store-apps.md)
 
