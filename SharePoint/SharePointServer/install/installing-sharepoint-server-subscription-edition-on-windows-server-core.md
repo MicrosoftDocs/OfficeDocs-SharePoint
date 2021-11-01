@@ -37,7 +37,7 @@ Windows Server Core support has been introduced with the SharePoint Server relea
 Perform the following steps to install SharePoint Server Subscription Edition on Windows Server Core:
 
 1. Mount the ISO file to your server by using the `Mount-DiskImage` cmdlet, or by specifying it as a virtual drive in your virtual machine manager.
-    ```
+    ```powershell
     Mount-DiskImage -ImagePath "C:\SharePoint Files\OfficeServer.iso"
     ```
 2. Run the SharePoint prerequisite installer (`prerequisiteinstaller.exe`) on your server.
