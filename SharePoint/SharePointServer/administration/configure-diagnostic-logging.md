@@ -166,7 +166,7 @@ You can use PowerShell to configure diagnostic logging.
   Set-SPDiagnosticConfig -LogMaxDiskSpaceUsageEnabled
   ```
 
-    Or assign the maximum disk space for logs:
+Or assign the maximum disk space for logs:
     
   ```
   Set-SPDiagnosticConfig -LogDiskSpaceUsageGB 500
@@ -184,7 +184,7 @@ You can use PowerShell to configure diagnostic logging.
   Set-SPLogLevel -TraceSeverity Monitorable
   ```
 
-    To set all categories back to default levels, at the PowerShell command prompt, type the following command, and then press ENTER: 
+To set all categories back to default levels, at the PowerShell command prompt, type the following command, and then press ENTER: 
     
   ```
   Clear-SPLogLevel

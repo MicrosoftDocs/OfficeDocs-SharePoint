@@ -148,9 +148,9 @@ By default, anonymous access is enabled when you share a library or list as a ca
   
 In this example, let's say that you have a list that contains data for different electronic products. The following items were specified when the list was shared as catalog:
   
-> Electronic products
+Electronic products
     
-    - Audio
+  - Audio
     
   - Car audio
     
@@ -214,7 +214,7 @@ After you create a term set on the authoring site collection, you have to make i
     
 4. In the **Term Store Management Tool**, click the group that contains all term sets within the site collection. 
     
-5. In the **Site Collection Access** section, type the URLs of the site collections to which you want to make the term set available — for example, http://<site>/sites/products. 
+5. In the **Site Collection Access** section, type the URLs of the site collections to which you want to make the term set available — for example, http://site/sites/products. 
     
 6. Click **Save**.
     
