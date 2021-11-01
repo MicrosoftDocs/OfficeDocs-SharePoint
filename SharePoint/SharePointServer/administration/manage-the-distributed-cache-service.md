@@ -76,7 +76,7 @@ Stopping the cache results in partial data loss. The Feed Cache depends on the D
 
 At the SharePoint Management Shell command prompt, run the following command:
 
-# [SharePoint Caching Service](#tab/SCS1)
+# [SharePoint Server Subscription Edition](#tab/SCS1)
 
 ```powershell
 $instanceName ="SPDistributedCacheService Name=SPCache"
@@ -84,7 +84,7 @@ $serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $insta
 $serviceInstance.Provision()
 ```
 
-# [AppFabric Caching service](#tab/ACS1)
+# [SharePoint Server 2019, 2016, and 2013](#tab/ACS1)
 
 ```powershell
 $instanceName ="SPDistributedCacheService Name=AppFabricCachingService"
@@ -98,7 +98,7 @@ $serviceInstance.Provision()
 
 At the SharePoint Management Shell command prompt, run the following command:
 
-# [SharePoint Caching Service](#tab/SCS2)
+# [SharePoint Server Subscription Edition](#tab/SCS2)
 
 ```powershell
 $instanceName ="SPDistributedCacheService Name=SPCache"
@@ -106,7 +106,7 @@ $serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $insta
 $serviceInstance.Unprovision()
 ```
 
-# [AppFabric Caching service](#tab/ACS2)
+# [SharePoint Server 2019, 2016, and 2013](#tab/ACS2)
 
 ```powershell
 $instanceName ="SPDistributedCacheService Name=AppFabricCachingService"
@@ -141,7 +141,7 @@ Use this procedure to reconfigure the memory allocation of the cache size of the
 
 1. (Optional) To check the existing memory allocation for the Distributed Cache service on a server, run the following command at the SharePoint Management Shell command prompt:
 
-    # [SharePoint Caching Service](#tab/SCS3)
+    # [SharePoint Server Subscription Edition](#tab/SCS3)
 
       ```powershell
       Use-SPCacheCluster
@@ -152,7 +152,7 @@ Use this procedure to reconfigure the memory allocation of the cache size of the
       -  _ComputerName_ is the computer name of the server that you are running the SharePoint Management Shell cmdlet on.
 
 
-    # [AppFabric Caching service](#tab/ACS3)
+    # [SharePoint Server 2019, 2016, and 2013](#tab/ACS3)
 
       ```powershell
       Use-CacheCluster
@@ -218,6 +218,9 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
 > [!NOTE]
 > There is no need to remove the cache host from a cache cluster if you use the PowerShell script in the following procedure to perform a graceful shutdown.
 
+> [!NOTE]
+> In SharePoint Server Subscription Edition, don’t run `ps` script for graceful shutdown. Instead, run [Stop-SPDistributedCacheServiceInstance](/powershell/module/sharepoint-server/stop-spdistributedcacheserviceinstance) with `-Graceful` parameter to execute it.
+
 1. Verify that you meet the following minimum requirements:
 
       - See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin).
@@ -270,9 +273,6 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
     ./GracefulShutdown.ps1
     ```
 
-    > [!NOTE]
-    > In SharePoint Server Subscription Edition, don’t run `ps` script for graceful shutdown. Instead, run [Stop-SPDistributedCacheServiceInstance](/powershell/module/sharepoint-server/stop-spdistributedcacheserviceinstance) with `-Graceful` parameter to execute it.
-
     For more information about PowerShell scripts and `.ps1` files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
 
 ## Change the service account
@@ -282,7 +282,7 @@ When the server farm is first configured, the server farm account is set as the 
 
 Select the service to change the service account.
 
-# [SharePoint Caching Service](#tab/SCS)
+# [SharePoint Server Subscription Edition](#tab/SCS)
 
 1. Create a managed account.
 
@@ -300,7 +300,7 @@ Select the service to change the service account.
 
     Where _Domain_name\user_name_ is the domain name and user name of the SharePoint managed account.
 
-# [AppFabric Caching service](#tab/ACS)
+# [SharePoint Server 2019, 2016, and 2013](#tab/ACS)
 
 1. Create a managed account.
 
@@ -746,7 +746,23 @@ On the non-functioning Distributed Cache host, use the following procedures to r
     > [!NOTE]
     > If step 1 fails, manually remove the Distributed Cache service, use the following steps. 
   
-      - At the SharePoint Management Shell command prompt, type the following syntax.
+     - At the SharePoint Management Shell command prompt, type the following syntax.
+
+        # [SharePoint Server Subscription Edition](#tab/SCS4)
+
+          ```powershell
+          $instanceName ="SPDistributedCacheService Name=SPCache"
+         
+          $serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $instanceName -and ($_.server.name) -eq $env:computername}
+        
+          If($serviceInstance -ne $null)
+          {
+          $serviceInstance.Delete()
+          }
+          
+          ```
+
+        # [SharePoint Server 2019, 2016, and 2013](#tab/ACS4)
 
           ```powershell
           $instanceName ="SPDistributedCacheService Name=AppFabricCachingService"
@@ -760,7 +776,9 @@ On the non-functioning Distributed Cache host, use the following procedures to r
           
           ```
 
-      - After the Distributed Cache Service has been manually deleted, run step 2 again.
+        ---
+
+    - After the Distributed Cache Service has been manually deleted, run step 2 again.
 
 
 ## See also
