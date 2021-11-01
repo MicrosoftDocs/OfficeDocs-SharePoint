@@ -45,7 +45,7 @@ This article includes:
 - [Add a Teams app card](#add-a-teams-app-card)
 - [Audience targeting](#apply-audience-targeting-to-cards)
 - [Preview your Dashboard to see how it will display for different audiences](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
-- [Put the Dashboard on your home site using the Dashboard web part](#put-the-dashboard-on-your-home-site-using-the-dashboard-web-part)
+- [Put the Dashboard on your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections)
 
 ## Create a Dashboard and add cards
 
@@ -107,7 +107,7 @@ Add a web link card when you want your users to go to an internal or external li
    - **Auto-selected**: This option when chosen automatically displays a built-in icon associated with the page.
    - **Custom image**: This option when chosen enables the **Change** button.  You can select this button to choose an image you want to use.
     - **Icon**: This option when chosen enables the **Change** button.  You can select this button to choose from a set of stock icons.
-5. If you want to target your card to specific audiences (that is, only the audience you specify will see the card in the dashboard), select one or more groups to target from the **Audiences to target**. For more information on audience targeting, see [Audience targeting](#audience-targeting).
+5. If you want to target your card to specific audiences (that is, only the audience you specify will see the card in the dashboard), select one or more groups to target from the **Audiences to target**. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 
 
@@ -127,7 +127,7 @@ The Assigned tasks card enables automatic display of information to users about 
 
    ![Choosing card size.](media/choosing-card-size.png)
 
-4. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#audience-targeting).
+4. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 
 ## Add a Teams app card
@@ -150,7 +150,7 @@ A Teams app card allows you to create a card for an existing Teams app. To add a
 6.  Set the card-display options:
     - Enter a title for the card in the **Card title** text box. (This title won't change your page title; it is the title that will be displayed on the top of the card.)
     - Enter a description for the card in the **Card description** text box. This description will be displayed in larger text under the title.
-7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#audience-targeting).
+7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 
 ## Set up 3rd party cards and Microsoft apps
@@ -224,14 +224,13 @@ What you see in *preview mode* approximates how the Dashboard will display for c
 
    3. Search for and select a groups. Once added, the group will be selected by default. You can select the group again in the **Select audiences to preview as** drop-down list to de-select it.
 
-     ![Audience targeting group label.](media/selecting-groups.png)
+   ![Audience targeting group label.](media/selecting-groups.png)
 
     - Cards that targeted to a specific group will display.
     - When one or more audiences are selected, cards that *do not* have audience targeting applied will also display.
     - If no audiences are targeted, only cards that *are not* audience targeted will display. If there aren't any cards with audience targeting applied, none will display.
     - If you are not part of one of the audiences you've selected, you will only see cards that are not audience targeted. If none are audience targeted, you won't see any cards.
 
-   You can also see how your Dashboard will display on Mobile, Tablet, and Desktop by selecting those options.
 
    #### Examples:
 
