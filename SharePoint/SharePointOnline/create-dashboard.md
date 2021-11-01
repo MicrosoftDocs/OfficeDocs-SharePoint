@@ -43,7 +43,7 @@ This article includes:
 - [Create a Dashboard and add cards to it](#create-a-dashboard-and-add-cards)
 - [Add a Web link card](#add-a-web-link-card)
 - [Add a Teams app card](#add-a-teams-app-card)
-- [Audience targeting](#audience-targeting)
+- [Audience targeting](#apply-audience-targeting-to-cards)
 - [Preview your Dashboard to see how it will display for different audiences](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
 - [Put the Dashboard on your home site using the Dashboard web part](#put-the-dashboard-on-your-home-site-using-the-dashboard-web-part)
 
@@ -182,7 +182,7 @@ Once you receive the package from the ISV partner, follow the **Work with Custom
 
 
 
-## Apply audience targeting to cards on the Dashboard
+## Apply audience targeting to cards
 
 By using audience targeting, you can promote cards to specific groups of people. This kind of targeting is useful when you want to present information that is especially relevant to a particular group of people. For example, you can target cards to a specific department.
 
@@ -201,37 +201,55 @@ By using audience targeting, you can promote cards to specific groups of people.
 
    ![Audience targeting confirmation.](media/card-targeted-audience.png)
 
+
 ### Preview your dashboard to see how it will display for different audiences
 
-When you've audience-targeted cards, you can see how different people will see your dashboard depending on the audience they are part of, and how the dashboard will look on mobile, desktop, and tablet.
-What you see in **preview** mode approximates what it will look like on a device for audiences you choose (you can choose Desktop, Tablet, or Mobile). The actual view will depend on the device display of each user.
+What you see in *preview mode* approximates how the Dashboard will display for certain audiences and devices. When you apply audience targeting to cards, you can preview how different people will view the Dashboard depending on the audience or device - mobile, desktop, and tablet.
+ 
+#### To preview different audiences:
 
-To preview for different audiences:
+   1. While in edit mode, select **Preview** on the top right.
 
-1. While in edit mode, select **Preview** on the top right.
-
-   ![Audience targeting icon.](media/preview-option.png)
-
-
-2. Open the **Select audiences to preview as** drop-down list. (if no cards are audience targeted, you will see a dimmed **Audience targeting** label).
+      ![Audience targeting icon.](media/preview-option.png)
 
 
-3. Search for a group and select it. Once added, the group will be selected by default. You can select the group again in the **Select audiences to preview as** drop-down list to de-select it.
+   2. Open the **Select audiences to preview as** drop-down list. (if no cards are audience targeted, you will see a disabled **Audience targeting** label).
 
-   ![Audience targeting group label.](media/selecting-groups.png)
 
-   - The cards that are targeted for the group you added will display.
-   - When one or more audiences are selected, cards that have no audience targeting will also display.
-   - If no audiences are selected, only cards that are not audience targeted will display. If no cards are audience targeted, none will display.
-   - If you are not part of one of the audiences you've selected, you will only see cards that are not audience targeted. If none are audience targeted, you won't see any cards.
+   3. Search for and select a groups. Once added, the group will be selected by default. You can select the group again in the **Select audiences to preview as** drop-down list to de-select it.
 
-   You can also see how your Dashboard will look on Mobile, Tablet, and Desktop by selecting those options.
+     ![Audience targeting group label.](media/selecting-groups.png)
+
+    - Cards that targeted to a specific group will display.
+    - When one or more audiences are selected, cards that *do not* have audience targeting applied will also display.
+    - If no audiences are targeted, only cards that *are not* audience targeted will display. If there aren't any cards with audience targeting applied, none will display.
+    - If you are not part of one of the audiences you've selected, you will only see cards that are not audience targeted. If none are audience targeted, you won't see any cards.
+
+   You can also see how your Dashboard will display on Mobile, Tablet, and Desktop by selecting those options.
 
    #### Examples:
 
-   In the following example, the preview is set for Mobile, and the first one shows the top two cards are audience targeted as the part of the group that is selected for preview. In the second preview, the top two cards are not targeted for the chosen audience group.
+   In the following example, the preview is set for Mobile.
+
+   - The image on the left shows the view for a specific audience that includes 2 specific cards. 
+   - In the second image on the right, the top two cards are not displayed when previewing a different audience group.
 
    ![Audience targeting example.](media/dashboard-preview-examples.png)
    
-   ### Put the Dashboard on your home site using the Dashboard web part
-   Once a Dashboard is authored and published, you can use the Dashboard web part to display it on your home site. You can add the web part to any section on your page. For best results, we recommend putting in a right vertical section. When added, it will automatically be populated with the cards from the existing Dashboard on your site. You'll be able to set the maximum number of cards you want to show. [Learn how to use the Dashboard web part](use-dashboard-web-part-on-home-site.md).
+
+
+## Use the Dashboard web part for Viva Connections
+
+>[!NOTE] 
+> - After editing content on the Dashboard, it may take several minutes until the new content is available in the Dashboard web part.
+> - For best results, we recommend placing the Dashboard web part in a right vertical section.
+
+Once a Dashboard is authored and published, you can use the Dashboard web part to display it on your home site. You can add the web part to any section on your page.  
+
+When added, it will automatically be populated with the cards from the existing Dashboard on your site. You'll be able to set the maximum number of cards you want to display. [Learn how to use the Dashboard web part](use-dashboard-web-part-on-home-site.md).
+
+
+
+## More resources
+
+[Step-by-step guide to setting up Viva Connections](guide-to-setting-up-viva-connections.md)
