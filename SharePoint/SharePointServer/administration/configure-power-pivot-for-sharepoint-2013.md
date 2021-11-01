@@ -135,7 +135,7 @@ In order for the Power Pivot Management Dashboard reports to work, the account t
     
 2. Expand **Security** and double-click the account that is used for the Excel Services application pool. 
     
-3. On the **User Mapping** page, click the SharePoint Admin content database (usually named SharePoint_AdminContent_<GUID>). 
+3. On the **User Mapping** page, click the SharePoint Admin content database (usually named SharePoint_AdminContent_\<GUID\>). 
     
 4. Select the **SPDataAccess** database role check box. 
     

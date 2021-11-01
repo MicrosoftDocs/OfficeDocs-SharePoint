@@ -134,9 +134,9 @@ If you are using cross-site publishing, where you show catalog content on a publ
   }
   ```
 
-  - <CustomUsageEventType> is the name of the custom event — for example,  *BuyEventType*  . 
+  - \<CustomUsageEventType\> is the name of the custom event — for example,  *BuyEventType*  . 
     
-  - <GUID> is the numeric ID of the usage event type — for example,  *4e605543-63cf-4b5f-aab6-99a10b8fb257*. 
+  - \<GUID\> is the numeric ID of the usage event type — for example,  *4e605543-63cf-4b5f-aab6-99a10b8fb257*. 
     
 5. In an HTML editor, open the file that refers to the custom usage event, and add the following code:
     

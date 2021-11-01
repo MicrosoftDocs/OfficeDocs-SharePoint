@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -48,7 +48,7 @@ Do not run backup jobs during times when users need access to the system. Typica
 
 Keep databases small to speed both backup and restore. For example, use multiple content databases for a web application instead of one large content database. For more information, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md). 
   
-For a graphical overview of the databases that support SharePoint Server 2016, see [Quick reference guide: SharePoint Server 2016 databases](../technical-reference/technical-diagrams.md#sharepoint-server-2016-databases). 
+For a graphical overview of the databases that support SharePoint Server 2016, see [Quick reference guide: SharePoint Server 2016 databases](/sharepoint/technical-reference/technical-diagrams#sharepoint-servers-2016-and-2019-databases). 
   
 ### Use incremental backups for large databases
 

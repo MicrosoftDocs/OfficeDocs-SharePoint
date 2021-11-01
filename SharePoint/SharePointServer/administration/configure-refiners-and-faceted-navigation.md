@@ -263,7 +263,7 @@ Note that there are two methods depending on whether you are using the default d
 6. In the **Parts** list, click **Content Editor**, and then click **Add**.
     
 7. In the Web Part, click **Click here to add new content**, and type one of the following two code strings:
-    
+            
   ```
   # To ensure correct refiner formatting by using type code:
   Srch.ValueInfo.overrideRenderingForProperty( "<ManagedPropertyName>", "Property<TypeCode>" );
@@ -271,7 +271,7 @@ Note that there are two methods depending on whether you are using the default d
   Srch.ValueInfo.overrideRenderingForProperty("<ManagedPropertyName>", "<DefaultRefinableManagedProperty>");
   ```
 
-    Where:
+  Where:
     
   -  *\<ManagedPropertyName\>*  is the name of the managed property that is enabled as a refiner, for example  *CreatedOWSDATE*  . 
     
@@ -309,7 +309,7 @@ Note that there are two methods depending on whether you are using the default d
   
   ```
 
-    Where:
+  Where:
     
   -  *\<ManagedPropertyName\>*  is the name of the managed property that is enabled as a refiner, for example  *CreatedOWSDATE*  . 
     

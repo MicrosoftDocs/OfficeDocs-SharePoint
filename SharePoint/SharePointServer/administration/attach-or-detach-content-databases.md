@@ -131,8 +131,8 @@ The steps to add a database and to attach a database are very similar. For more 
 
   Where  _\<ContentdBName\>_ is the name of the content database. 
     
-    > [!IMPORTANT]
-    > If you have multiple content databases that have the same name, you must use the content database GUID in this command instead of using the content database name. To retrieve the GUID of the content database, run the **Get-SPContentDatabase** cmdlet with no arguments. 
+  > [!IMPORTANT]
+  > If you have multiple content databases that have the same name, you must use the content database GUID in this command instead of using the content database name. To retrieve the GUID of the content database, run the **Get-SPContentDatabase** cmdlet with no arguments. 
   
 The **Dismount-SPContentDatabase** cmdlet detaches the content database from the web application, but it does not delete the content database from SQL Server. After a content database is detached, you cannot delete it by using PowerShell. You can only remove it by using SQL Server tools. If you want to delete the content database from SQL Server while you detach it, use the **Remove-SPContentDatabase** cmdlet instead. 
     
