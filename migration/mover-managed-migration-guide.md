@@ -66,7 +66,7 @@ Using the results from your inventory scan, assess and remediate in the followin
 |Scan result area|Assess|Remediate|
 |:-----|:-----|:-----|
 |**Data ownership**|How many users are in the domain and who owns the data|Most data will be shared data.  Only owned folders and the root files for each user is copied. If a user does not own any data, then consider excluding them from the migration.  Content that was shared with them will be migrated by the data owner then reshared to those users in the Destination during the migration process. Content can be automatically reshared after it is migrated so that each user has access to their content exactly as before. |
-|**Data distribution**|Find all accounts that exceed 400,000 files or items greater than 5 TB.|Split these accounts into smaller service accounts. Users with large data sets must be broken into smaller accounts to facilitate faster transfers. To learn more, see [Managing Users Who Own Large Amounts of Data](). |
+|**Data distribution**|Find all accounts that exceed 400,000 files or items greater than 5 TB.|Split these accounts into smaller service accounts. Users with large data sets must be broken into smaller accounts to facilitate faster transfers. To learn more, see [Migration performance optimizations](#migration-performance-optimization). |
 |**File and folder path length**|Find all items whose path exceeds the file path length described here: [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)|Work with your customer to reorganize the file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
 |**Size and number of files/data**|Get an accurate count of the number of files and data size.|This number will be the most accurate, as it will not include items in the trash, or externally shared data. Do not rely on your cloud provider's reporting to give you an accurate picture. Use this information to more clearly define migration timeline and length of time required for the migration.|
 
@@ -122,7 +122,7 @@ We recommend the following best practices as you prepare your environment.
 |**Destination upload folder**|Map an upload/destination folder for uploading the migrated data.|
 |**Review important general considerations**|Make sure to review how the tool handles what gets transferred, synced, permissions, and other best practices here: [Mover Migration FAQ](./mover-migration-faq.md)
 
-## Migration performance optimizations
+## Migration performance optimization
 
 Many factors determine how long a migration might take. It is not an exact science, but one of the basic rules of thumb is that it moves one file per second on average. If a customer has 1 million files, it will take 1 million seconds to migrate, which equates to roughly 12 days.
 
@@ -135,11 +135,16 @@ The tool will migrate as fast as possible, but we also must factor in the follow
 
 
 The more users simultaneously being transferred, the higher our throughput for your migration. Users with large data sets should be broken into smaller accounts to facilitate faster transfers. 
-To maximize throughput, users should not own greater than 400,000 items or 5 TB of data. The more users you have, and the smaller the amounts of data they own, the faster your migration proceeds. 
-Examples: 
- 
-If a user owns more than 400,000 items, this should be divided between 4 users so that each user owns 100,000 items. 
-If a user owns more than 5 TB of data, this should be divided between 5 users so that each user owns 1 TB. 
+
+>[!Important]
+>To maximize throughput, **users should not own greater than 100,000 items or 1 TB of data**. The more users you have, and the smaller the amounts of data they own, the faster your migration proceeds. 
+
+**Examples** 
+
+|Size|Action|
+|:-----|:-----|
+|If a user owns more than 400,000 items|Divide the items between four users each with 100,000 items.|
+|If a user owns more than 5 TB of data|Divide between five users so that each user owns 1 TB. |
  
 To create Service Accounts, you can work with your Source Cloud Storage Admin to carry out the following steps: 
 
