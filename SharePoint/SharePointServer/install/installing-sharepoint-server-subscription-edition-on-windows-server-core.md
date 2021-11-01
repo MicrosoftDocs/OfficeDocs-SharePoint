@@ -26,7 +26,7 @@ description: "Learn how to install SharePoint Server Subscription Edition on Win
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-1. Install [Windows Server 2019](https://www.microsoft.com/evalcenter/evaluate-windows-server-2019) or Windows Server 2022 on your server.
+1. Install [Windows Server 2019](https://www.microsoft.com/evalcenter/evaluate-windows-server-2019) or [Windows Server 2022 on your server](https://www.microsoft.com/evalcenter/evaluate-windows-server-2022).
 2. Install [SQL Server 2019](https://www.microsoft.com/evalcenter/evaluate-sql-server-2019) on your server or an additional server.
 5. The next steps are based on whether you are installing on Windows Server with Desktop Experience or Windows Server Core.
 
@@ -34,25 +34,13 @@ Compared to classic Windows Server with Desktop Experience, Windows Server Core 
 
 Windows Server Core support has been introduced with the SharePoint Server release. This support makes SharePoint Server Subscription Edition an even better citizen in the Windows Server ecosystem and makes easier to host SharePoint Server in datacenters that have standardized on Server Core. We encourage customers to start testing this installation option in addition to the classic Windows Server with Desktop Experience.
 
-1. Mount the ISO file to your server by double-clicking on it, or by specifying it as a virtual drive in your virtual machine manager.
-2. Run the SharePoint prerequisite installer `prerequisiteinstaller.exe` on your server.
-3. Run SharePoint setup `setup.exe` on your server.
-4. Run the SharePoint Products Configuration Wizard to create or join a farm `PSConfigUI.exe`
-5. Configure the service applications and web applications in your farm, such as through the Farm Configuration Wizard.
-
 Perform the following steps to install SharePoint Server Subscription Edition on Windows Server Core:
 
 1. Mount the ISO file to your server by using the `Mount-DiskImage` cmdlet, or by specifying it as a virtual drive in your virtual machine manager.
     ```
-    Mount-DiskImage -ImagePath "C:\SharePoint Files\16.0.14131.10000_OfficeServer_none_ship_x64_en-us.iso"
+    Mount-DiskImage -ImagePath "C:\SharePoint Files\OfficeServer.iso"
     ```
 2. Run the SharePoint prerequisite installer (`prerequisiteinstaller.exe`) on your server.
-
-    ```powershell
-    Mount-DiskImage -ImagePath "C:\SharePoint Files\16.0.14131.10000_OfficeServer_none_ship_x64_en-us.iso    
-    ```
-
-2. Run the SharePoint prerequisite installer (`prerequisiteinstaller.exe`) on your servers.
 
 3. Copy the **\Files\SetupSilent\config.xml** file from your mounted ISO disk image to a writable location.
 
@@ -88,7 +76,7 @@ Perform the following steps to install SharePoint Server Subscription Edition on
 
 11. Run the following SharePoint PowerShell cmdlets with their appropriate parameters to create or join a farm.
 
-    1. `New-SPConfigurationDatabase` to create a farm or `Connect-SPConfigurationDatabase` to join a farm
+    1. `New-SPConfigurationDatabase` to create a farm or `Connect-SPConfigurationDatabase` to join a farm.
     2. `Install-SPHelpCollection -All`
     3. `Initialize-SPResourceSecurity`
     4. `Install-SPService`
