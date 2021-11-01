@@ -54,7 +54,9 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links:
-          - text: Hardware and software requirements
+          - text: Hardware and software requirements for SharePoint Server Subscription Edition 
+            url: install/system-requirements-for-sharepoint-subscription-edition.md
+          - text: Hardware and software requirements for 2019
             url: install/hardware-and-software-requirements-2019.md
           - text: Hybrid
             url: hybrid/sharepoint-hybrid-sites-and-search.md
