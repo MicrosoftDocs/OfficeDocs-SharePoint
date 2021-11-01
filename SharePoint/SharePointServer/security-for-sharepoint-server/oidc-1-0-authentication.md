@@ -391,7 +391,7 @@ There are two ways to synchronize user profiles into the SharePoint User Profile
 
 - By creating a new SharePoint Active Directory Import (AD Import) connection with **Trusted Claims Provider Authentication** as the **Authentication Provider Type** in the connection setting. To utilize AD Import, see [Manage user profile synchronization in SharePoint Server](/sharepoint/administration/manage-profile-synchronization).
 
-    :::image type="content" source="../media/add-new-sync-connection-2.png" alt-text="add-new-sync-connection-2":::
+    :::image type="content" source="../media/add-new-sync-connection-2.png" alt-text="Add New Synchronization Connections":::
 
 - By using Microsoft Identity Manager (MIM). To utilize MIM, see [Microsoft Identity Manager in SharePoint Servers 2016 and 2019](/sharepoint/administration/microsoft-identity-manager-in-sharepoint-server-2016).
   - There should be two agents inside the MIM synchronization Manager UX after MIM is set up. One agent is used to import user profiles from the source IDP to the MIM database. The other agent is used to export user profiles from the MIM database to the SharePoint User Profile Application service.
@@ -408,14 +408,14 @@ During the synchronization, the following three properties need to be provided t
 
         For AD Import synchronization, **Central Administration > Application Management > Manage service applications > User Profile Service Application > Manage User Properties** will allow administrators to edit the `SPS-ClaimID` to indicate which property in the source identity provider should be synchronized to `SPS-ClaimID`. (The display name of this property is **Claim User Identifier** in the UX, and it can be customized to other display names by the administrator.) For example, if email is to be used as the `SPS-ClaimID`, **Claim User Identifier** should be set to **Email**.
 
-        :::image type="content" source="../media/SPS-ClaimID-1.png" alt-text="SPS-ClaimID-1":::
-        :::image type="content" source="../media/SPS-ClaimID-2.png" alt-text="SPS-ClaimID-2":::
-        :::image type="content" source="../media/SPS-ClaimID-3.png" alt-text="SPS-ClaimID-3":::
+        :::image type="content" source="../media/SPS-ClaimID-1.png" alt-text="SPS-ClaimID":::
+        :::image type="content" source="../media/SPS-ClaimID-2.png" alt-text="SPS-ClaimProviderID":::
+        :::image type="content" source="../media/SPS-ClaimID-3.png" alt-text="SPS-ClaimProviderType":::
 
         MIM synchronization is done by mapping **Email** or **User Principal Name** to `SPS-ClaimID` in the MIM database to the SharePoint User Profile Application service agent:
         - In the MIM synchronization Service Manager, select the agent and open the **Configure Attribute Flow**. You can map **mail** to `SPS-ClaimID`.
 
-            :::image type="content" source="../media/SPS-ClaimID-4.png" alt-text="SPS-ClaimID-4":::
+            :::image type="content" source="../media/SPS-ClaimID-4.png" alt-text="SPS-ClaimID4":::
 
     2. `SPS-ClaimProviderID` and `SPS-ClaimProviderType`
 
@@ -429,7 +429,7 @@ During the synchronization, the following three properties need to be provided t
         - `SPS-ClaimProviderType` should be set to **Trusted** as Constant type.
         - `SPS-ClaimProviderID` should be set to the provider name created in [step 1](#1-create-new-claim-provider) by the `New-SPClaimProvider` cmdlet.
 
-        :::image type="content" source="../media/configure-attribute-flow-2.png" alt-text="configure-attribute-flow-2":::
+        :::image type="content" source="../media/configure-attribute-flow-2.png" alt-text="Configure Attribute Flow":::
 
 #### 4. Make groups searchable
 
@@ -438,7 +438,7 @@ To enable the People Picker control to work with groups, the following steps nee
 1. Group object must have a property named “SID” of type “groupid” in the identity provider.
 
     You can create a `ClaimTypeMapping` object by using [New-SPClaimTypeMapping](/powershell/module/sharepoint-server/new-spclaimtypemapping) and then provide this object to [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) cmdlet with `-ClaimsMappings` parameter.
-check with Steve
+
     ```powershell
     $sidClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.microsoft.com/ws/2008/06/identity/claims/groupsid" -IncomingClaimTypeDisplayName "SID" -SameAsIncoming $tokenissuer = New-SPTrustedIdentityTokenIssuer -ClaimsMappings $sidClaimMap, $emailClaimMap
     ```
@@ -697,7 +697,7 @@ There are two possible configurations:
   5. Navigate to **System Settings** > **Configure Alternate Access Mappings** > **Alternate Access Mapping Collection**.
   6. Filter the display with the new web application and confirm that you see something like this:
 
-      :::image type="content" source="../media/alternate-access-mapping-collection.png" alt-text="Alternate Access Mapping Collection":::
+      :::image type="content" source="../media/alternate-access-mapping-collection.png" alt-text="Alternate Access Mapping Collection-1":::
 
 - If you extend an existing web application to set AD FS OIDC authentication on a new zone:
     1. Start the SharePoint Management Shell and run the following script:
