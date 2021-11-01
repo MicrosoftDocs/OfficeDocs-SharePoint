@@ -152,6 +152,41 @@ A Teams app card allows you to create a card for an existing Teams app. To add a
     - Enter a description for the card in the **Card description** text box. This description will be displayed in larger text under the title.
 7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#audience-targeting).
 
+## Set up 3rd party applications and Microsoft apps
+
+The Viva Connections dashboard and mobile experience can be extended and customized using cards, which are based on [adaptive cards](https://adaptivecards.io/) and the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview). These adaptive cards are used to display data, complete tasks, and connect to Teams Apps, Websites, and mobile apps on Viva Connections. They provide a low-code solution to bring your line-of-business apps into the Dashboard. To create custom experiences on Viva Connections Dashboard and Viva Connections Mobile App, developers must use the SPFx to create custom ACEs. To learn more about creating ACEs, see the following tutorial: [Build your first SharePoint Adaptive Card Extension](/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptive-card-extension). Learn more about [Viva Connections extensibility.](/sharepoint/dev/spfx/viva/overview-viva-connections)
+
+### Acquire 3rd party applications
+There are 2 ways to acquire partner solution package and install them on the Viva Connections dashboard:
+1.	Through Microsoft AppSource
+    a.	Add an App via the SharePoint Homesite
+    b.	Add an App via App Catalog
+2.	Directly from the ISV/Partner
+
+#### Acquire the solution package from a Microsoft AppSource
+
+**Option A:** Add an App via the SharePoint Homesite - [Learn how to explore and deploy SharePoint Framework solutions from partners in SharePoint.](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289)
+
+**Option B:** Add an App via the App Catalog - [Learn how to manage apps using the App Catalog.](use-app-catalog#work-with-sharepoint-store-apps.md)
+
+ >[!NOTE]
+ > SharePoint administrative permissions are required to complete option B.
+
+#### Or, acquire the solution package directly from the ISV
+
+ >[!NOTE]
+ > SharePoint administrative permissions are required to complete this task.
+
+Once you receive the package from the ISV partner, follow the **Work with Custom Apps** steps in the [App Catalog guidance.](use-app-catalog#work-with-custom-apps.md) 
+
+
+
+
+
+
+
+
+
 
 ## Audience targeting
 
