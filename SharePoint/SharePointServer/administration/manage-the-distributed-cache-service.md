@@ -357,41 +357,7 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
     > [!NOTE]
     > You can use a different file name, but you must save the file as an ANSI-encoded text file with the extension `.ps1`.
 
-    **SharePoint Server Subscription Edition PowerShell script**
-
-    ```powershell
-    #New-SPCache
-    New-SPCache -CacheName DistributedViewStateCache_b6c5efa9-e390-4d47-aa8a-45232229992b
-    
-    #Get-SPCache
-    Get-SPCache
-    
-    #Get-SPCacheStatistics
-    Get-SPCacheStatistics -CacheName DistributedAccessCache_b6c5efa9-e390-4d47-aa8a-45232229992b
-    
-    #Get-SPCacheHost
-    Get-SPCacheHost -HostName SP01 -CachePort 22233
-    
-    #Start-SPCacheCluster
-    Start-SPCacheCluster    
-    
-    #Stop-SPCacheCluster
-    Stop-SPCacheCluster
-
-    #Import-SPCacheClusterConfig
-    Import-SPCacheClusterConfig -Path C:\Config.txt
-    
-    #Export-SPCacheClusterConfig
-    Export-SPCacheClusterConfig -Path C:\Config.txt
-    
-    #Get-SPCacheClusterHealth
-    Get-SPCacheClusterHealth
-
-    #Use-SPCacheCluster
-    Use-SPCacheCluster
-    ```
-
-    **SharePoint Server 2019 PowerShell script**
+    **SharePoint Server Subscription Edition and SharePoint Server 2019 PowerShell script**
 
       ```powershell
       Add-PSSnapin Microsoft.Sharepoint.Powershell -ea 0
