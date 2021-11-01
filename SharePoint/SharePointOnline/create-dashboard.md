@@ -22,45 +22,37 @@ description: "Learn how to create the Viva Connections Dashboard"
 
 # Create a Viva Connections Dashboard (Preview)
 
->[!NOTE]
->The information in this article relates to a preview product that may be modified before it's generally available.
-
-The Viva Connections Dashboard provides fast and easy-access to information and job-related tasks. Content on the Dashboard can be targeted to users in specific roles, markets, and job functions. A Dashboard can be built with no code, or a developer can create custom cards to meet the specific needs of an organization.
+The Viva Connections Dashboard provides fast and easy-access to information and job-related tasks. Content on the Dashboard can be targeted to users in specific roles, markets, and job functions. The Dashboard consists of cards that engage viewers with existing Teams apps, third-party apps, custom solutions, internal, and external links. The Dashboard can be built with no code, or a developer can create custom cards to meet the specific needs of an organization. 
 
 ![Image of a Dashboard example.](media/vc-hero2.png)
 
-Once [certain requirements are met](guide-to-setting-up-viva-connections.md), the Dashboard can be created and edited from your home site. You can add it to Microsoft Teams so that it's easily accessible to your users' mobile devices and desktops. You can also add it to your home page using the [Dashboard web part.](use-dashboard-web-part-on-home-site.md)
-
-The Dashboard consists of cards that engage viewers with existing Teams apps, third-party apps, custom solutions, internal, and external links. 
-
-As you are building the Dashboard, you can see a preview of how it will display for targeted audiences and different devices. Then publish your Dashboard to make it available to users who have access to your home site.
+Once [certain requirements are met](guide-to-setting-up-viva-connections.md), the Dashboard can be created and edited from your [home site.](home-site-plan.md) As you are building the Dashboard, you can see a preview of how it will display for targeted audiences and different devices. Then publish your Dashboard to make it available to users who have access to your home site. When you are done, you can add it to Microsoft Teams so that it's easily accessible from a mobile device and desktop. You can also add it to your home page using the [Dashboard web part.](use-dashboard-web-part-on-home-site.md)
 
 >[!NOTE]
 >Images are an important aspect to making your cards rich and inviting. If you're a SharePoint admin, we recommend enabling a Content Delivery Network (CDN) to improve performance for getting images. Consider when storing images that /siteassets is by default a CDN source when Private CDN is enabled while /style library is the default source when the Public CDN is enabled. [Learn more about CDNs](/office365/enterprise/content-delivery-networks).  
 
 
-This article includes:
+**This article includes:**
 
 - [Create a Dashboard and add cards](#create-a-dashboard-and-add-cards)
 - [Add a Web link card](#add-a-web-link-card)
 - [Add a Teams app card](#add-a-teams-app-card)
-- [Add a card from a third-party](#set-up-3rd-party-cards-and-Microsoft-apps)
+- [Add a card from a third-party](#add-3rd-party-cards-and-Microsoft-apps)
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
-- [Preview your Dashboard to see how it will display for different audiences](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
+- [Preview your Dashboard to see how it will display for different audiences and devices](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
 - [Put the Dashboard on your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections)
+
 
 ## Create a Dashboard and add cards
 
-You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissions) on your home site.
+You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissions) for the home site.
 
-1. On your home site, select the **Settings** gear at the top of the page.
+1. From the [home site,](home-site-plan.md) select the **Settings** gear at the top-right of the page.
 2. Select **Set up Viva Connections**.
 3. Select the **+ Create Dashboard** button.
 
-The Dashboard page opens in Mobile view by default. 
-
-
    >[!NOTE]
+   > - The Dashboard page opens in Mobile view by default.
    > - You can choose Mobile, Tablet, and Desktop views interchangeably as you’re authoring.
    > - Image recommendations for cards in the Dashboard: medium cards should be 300x150 to 400x200 with 2:1 aspect ratio and large cards 300x300 to 400x400 with 1:1 aspect ratio in order to prevent stretching in the mobile app.
    > - Image URLS in card properties must be an absolute URL in order for the link to work in the mobile app.
@@ -155,18 +147,18 @@ A Teams app card allows you to create a card for an existing Teams app. To add a
 7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 
-## Set up 3rd party cards and Microsoft apps
+## Add a 3rd party card or Microsoft apps
 
 The Viva Connections Dashboard and mobile experience can be extended and customized using cards, which are based on [adaptive cards](https://adaptivecards.io/) and the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview). These adaptive cards are used to display data, complete tasks, and connect to Teams Apps, Websites, and mobile apps on Viva Connections. They provide a low-code solution to bring your line-of-business apps into the Dashboard. 
 
 To create custom experiences on Viva Connections Dashboard and Viva Connections Mobile App, developers must use the SPFx to create custom ACEs. To learn more about creating ACEs, see the following tutorial: [Build your first SharePoint Adaptive Card Extension](/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptive-card-extension). Learn more about [Viva Connections extensibility.](/sharepoint/dev/spfx/viva/overview-viva-connections)
 
 
-### Use 3rd party cards and applications
-There are 2 ways to acquire partner solution packages and install them on the Viva Connections Dashboard:
+### Get 3rd party cards and applications
+There are two ways to acquire partner solution packages and install them on the Viva Connections Dashboard:
 1.	Through a Microsoft AppSource
 <br>
-    Option A: Add an App via the SharePoint Homesite
+    Option A: Add an App via the SharePoint home site
     Option B: Add an App via the App Catalog
     
 2.	Directly from the ISV or Partner
@@ -238,7 +230,7 @@ What you see in *preview mode* approximates how the Dashboard will display for c
 
    In the following example, the preview is set for Mobile.
 
-   - The image on the left shows the view for a specific audience that includes 2 specific cards. 
+   - The image on the left shows the view for a specific audience that includes two specific cards. 
    - In the second image on the right, the top two cards are not displayed when previewing a different audience group.
 
    ![Audience targeting example.](media/dashboard-preview-examples.png)
