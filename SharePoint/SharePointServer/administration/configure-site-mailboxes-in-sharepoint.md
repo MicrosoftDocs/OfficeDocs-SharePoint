@@ -487,7 +487,7 @@ Please review the following table if you encounter issues.
 [Configure email integration for a SharePoint Server farm](configure-email-integration.md)
 #### Other Resources
 
-[Site mailboxes](/Exchange/collaboration/site-mailboxes?view=exchserver-2019)
+[Site mailboxes](/Exchange/collaboration/site-mailboxes?view=exchserver-2019&preserve-view=true)
   
-[Collaboration](/Exchange/collaboration/collaboration?view=exchserver-2019)
+[Collaboration](/Exchange/collaboration/collaboration?view=exchserver-2019&preserve-view=true)
 

@@ -74,7 +74,7 @@ You can use the Content Search Web Part in Quick Mode and create a query by sele
     
    **Quick Mode (default)**
 
-|||
+|**Query options**|**Description**|
 |:-----|:-----|
 |Select a query  <br/> |Select a result source to specify which content should be searched. If you have shared a document library or list as catalog, the catalog result source will be displayed in this drop-down list. By default, this is set to **Recently changed items (System).** <br/> |
 |Restrict results by app  <br/> |Select an option from the list to restrict results to a specific site, library, list, or URL. By default, this is set to **Current site**.  <br/> |
@@ -94,7 +94,7 @@ You can use the Content Search Web Part in Quick Mode and create a query by sele
   
    **Advanced Mode**
 
-|||
+|**Query mode**|**Description**|
 |:-----|:-----|
 |Select a query  <br/> |Select a result source to specify which content should be searched.  <br/> Default result source is Local SharePoint Results (System).  <br/> |
 |Keyword filter  <br/> |You can use keyword filters to add query variables to your query. See [Query variables in SharePoint Server](../technical-reference/query-variables.md) for a list of available query variables.  <br/> You can select pre-defined query variables from the drop-down list, and then add them to the query by clicking **Add keyword filter**.  <br/> |
@@ -125,7 +125,7 @@ You can use the Content Search Web Part in Quick Mode and create a query by sele
     
 9. On the **SETTINGS** tab, specify the settings that are listed in the following table. 
     
-|||
+|**Settings**|**Description**|
 |:-----|:-----|
 |Query Rules  <br/> |Select whether to use Query Rules or not.  <br/> |
 |URL Rewriting  <br/> |Select if the URL rewrite to the item details page should continue to be relative for each catalog item as defined when you set up the catalog connection. If you select **Don't rewrite URLs**, the URLs for catalog items are pointed directly to the library item of the connected catalog.  <br/> |
@@ -148,9 +148,9 @@ You can use the Content Search Web Part in Quick Mode and create a query by sele
 |Grouped by  <br/> |Shows the managed property on which search results should be grouped as defined on the **REFINERS** tab.  <br/> |
 |Applied query rules  <br/> |Shows which query rules are applied to the query.  <br/> |
    
-    The **Query template variables** section shows the query variables that will be applied to the query, and the values of the variables that apply to the current page. You can type other values to test the effect they will have on the query. Click the **Test Query** button to preview the search results. 
+The **Query template variables** section shows the query variables that will be applied to the query, and the values of the variables that apply to the current page. You can type other values to test the effect they will have on the query. Click the **Test Query** button to preview the search results. 
     
-    You can also test how the query works for different user segment terms. Click **Add user segment term** to add terms to be added to the query. Click the **Test query** button to preview the search results. 
+You can also test how the query works for different user segment terms. Click **Add user segment term** to add terms to be added to the query. Click the **Test query** button to preview the search results. 
     
 |||
 |:-----|:-----|
@@ -398,7 +398,7 @@ You can use the Recommended Items Web Part to show content recommendations based
 |:-----|:-----|
 |Query text  <br/> |Shows the content of the query template that is applied to the query.  <br/> |
    
-    Click **Show more** to display additional information. 
+Click **Show more** to display additional information. 
     
 |||
 |:-----|:-----|

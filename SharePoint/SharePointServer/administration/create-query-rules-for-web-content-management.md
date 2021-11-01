@@ -109,7 +109,7 @@ To add or edit a query rule, you must go to the **Manage query rules** page. Dep
     
 3. In the **Import from taxonomy** dialog, select a term that represents a user segment that will cause the query rule to fire when it appears in a query. 
     
-4. Click **Save**
+4. Click **Save**.
     
 7. In the **Query Conditions** section, select one of the conditions listed in the following table. 
     
@@ -161,7 +161,7 @@ When you configure the query condition for a result block, you can use query var
     
   - On the **BASIC** tab, select options from the following lists to define the query for the result block: 
     
-|||
+|**Query options**|**Description**|
 |:-----|:-----|
 |**Select a query** <br/> |Select a result source to specify which content should be searched.  <br/> |
 |**Keyword filter** <br/> |You can use keyword filters to add query variables to your query. See [Query variables in SharePoint Server](../technical-reference/query-variables.md) for a list of available query variables.  <br/> You can select pre-defined query variables from the drop-down list, and then add them to the query by clicking **Add keyword filter**.  <br/> |

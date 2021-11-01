@@ -200,7 +200,7 @@ For more detailed instructions about how to create a User Profile service applic
     
 8. In the **My Site Host URL** section, enter the My Site Host site collection URL that you created in the previous step (see the Profile Synchronization Planning worksheet). 
     
-9. In the **My Site Managed Path** section, enter the part of the path which, when appended to the My Site host URL, will give the path of users' My Sites (see the Profile Synchronization Planning worksheet). For example, if the My Site host URL is http://server:12345/ and you want each user's My Site to be at http://server:12345/personal/<user name>, enter /personal for the My Site managed path. The managed path that you enter is created automatically. There does not already have to be a managed path with the name that you provide. 
+9. In the **My Site Managed Path** section, enter the part of the path which, when appended to the My Site host URL, will give the path of users' My Sites (see the Profile Synchronization Planning worksheet). For example, if the My Site host URL is http://server:12345/ and you want each user's My Site to be at http://server:12345/personal/user-name, enter /personal for the My Site managed path. The managed path that you enter is created automatically. There does not already have to be a managed path with the name that you provide. 
     
 10. In the **Site Naming Format** section, select a naming scheme. 
     

@@ -66,8 +66,8 @@ Learn how to use a Microsoft PowerShell script to create an audience.
   
   ```
 
-    > [!NOTE]
-    > You can use a different file name, but you must save the file as an ANSI-encoded text file with the extension .ps1. 
+> [!NOTE]
+> You can use a different file name, but you must save the file as an ANSI-encoded text file with the extension .ps1. 
   
 4. Click SharePoint Management Shell.
     

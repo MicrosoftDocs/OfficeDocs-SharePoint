@@ -136,7 +136,7 @@ The event types that are listed on the Configure usage and health data collectio
   Set-SPUsageDefinition -Identity <SPUsageDefinitionPipeBind> [-Enable] [-DaysRetained <0-31>] [-Verbose]
   ```
 
-    Where  _\<SPUsageDefinitionPipeBind\>_ specifies the usage definition object that you want to update. The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of a usage definition (for example, SiteSubscriptionConfig1); or an instance of a valid **SPUsageDefinition** object. You can use the PowerShell **Get-SPUsageDefinition** cmdlet to obtain this GUID. For more information, see [Get-SPUsageDefinition](/powershell/module/sharepoint-server/Get-SPUsageDefinition).
+ Where  _\<SPUsageDefinitionPipeBind\>_ specifies the usage definition object that you want to update. The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of a usage definition (for example, SiteSubscriptionConfig1); or an instance of a valid **SPUsageDefinition** object. You can use the PowerShell **Get-SPUsageDefinition** cmdlet to obtain this GUID. For more information, see [Get-SPUsageDefinition](/powershell/module/sharepoint-server/Get-SPUsageDefinition).
     
 Use the **Enable** parameter to enable usage logging for this usage definition. Use the **DaysRetained** parameter to specify how long the usage data is retained in the log before it is deleted. The range is 0 to 31 days. To view the progress of the command, use the **Verbose** parameter. 
     
