@@ -19,15 +19,13 @@ description: "Learn how to setup OIDC authentication in SharePoint Server."
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-OpenID Connect (OIDC) 1.0 is a modern authentication protocol that makes it easy to integrate applications and devices with your organization's identity and authentication management solutions to better meet your evolving security and compliance needs.
+SharePoint Server Subscription Edition now supports OpenID Connect (OIDC) 1.0 authentication protocol. OIDC 1.0 is a modern authentication protocol that makes it easy to integrate applications and devices with your organization's identity and authentication management solutions to better meet your evolving security and compliance needs.
 
 In SharePoint 2019 and prior versions, SharePoint Server supported three types of authentication methods:
 
 1. Windows authentication (NTLM, Kerberos, etc.)
 2. Forms-based authentication
 3. SAML 1.1-based authentication
-
-SharePoint Server Subscription Edition now supports OIDC 1.0 authentication protocol. OIDC is a modern authentication protocol that makes it easy to integrate applications and devices with your organization's identity and authentication management solutions to better meet your evolving security and compliance needs.
 
 With this new capability, you can now set up an OIDC-enabled `SPTrustedIdentityTokenIssuer` that works with a remote identity provider to enable OIDC authentication.
 
@@ -38,31 +36,31 @@ With this new capability, you can now set up an OIDC-enabled `SPTrustedIdentityT
 To perform the configuration, you need the following resources when you configure with Azure Active Directory (AAD) OIDC:
 
 1. A SharePoint Server Subscription Edition farm
-2. AAD administration privilege and M365 tenant
+2. AAD Global Administrator role of the M365 tenant
 
 This article uses the following values for AAD OIDC setup:
 
 | Value | Link |
 |---------|---------|
 | SharePoint site URL | `https://spsites.contoso.local/` |
-| OIDC site URL     | `https://sts.windows.net/\<tenantid\>/` |
-| AAD OIDC authentication endpoint     | `https://login.microsoftonline.com/\<tenantid\>/oauth2/authorize` |
-| AAD OIDC RegisteredIssuerName URL     | `https://sts.windows.net/\<tenantid\>/` |
-| AAD OIDC SignOut URL     | `https://login.microsoftonline.com/>\<tenantid\>/oauth2/logout` |
+| OIDC site URL     | `https://sts.windows.net/<tenantid>/` |
+| AAD OIDC authentication endpoint     | `https://login.microsoftonline.com/<tenantid>/oauth2/authorize` |
+| AAD OIDC RegisteredIssuerName URL     | `https://sts.windows.net/<tenantid>/` |
+| AAD OIDC SignOut URL     | `https://login.microsoftonline.com/<tenantid>/oauth2/logout` |
 | Identity claim type     | `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress` |
 | Windows site collection administrator     | contoso\yvand |
 | Email value of the federated (AD FS) site collection administrator     | yvand@contoso.local |
 
 ### Step 1: Setup Identity Provider
 
-If you choose to use AAD as federated identity provider, perform the following steps to setup AAD OIDC:
+If you choose to use AAD as federated identity provider, perform the following steps to set up AAD OIDC:
 
 1. Go to the **App Registration** page `https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps`.
 2. Enter the following for Redirect URL: `https://spsites.contoso.local/` and select **Register**.
 
     :::image type="content" source="../media/register-an-app.PNG" alt-text="Register an application":::
 
-3. Save **Directory (tenant) ID** as the tenant ID we will use in future and save **Application (client) ID** which will be used as **DefaultClientIdentifier** in SharePoint setup.
+3. Save **Directory (tenant) ID** as the tenant ID we will use in the future and save **Application (client) ID** which will be used as **DefaultClientIdentifier** in SharePoint setup.
 
     :::image type="content" source="../media/sharepoint-onprem-oidc-connection.png" alt-text="Save Application":::
 
@@ -78,7 +76,7 @@ If you choose to use AAD as federated identity provider, perform the following s
 
     :::image type="content" source="../media/sharepoint-oidc-token-configuration.png" alt-text="Token Configuration":::
 
-7. Go to the **Manifest** tab, and manually change **replyUrlsWithType.url** from `https://spsites.contoso.local/` to `https://spsites.contoso.local/`*. Then select **Save**.
+7. Go to the **Manifest** tab, and manually change **replyUrlsWithType.url** from `https://spsites.contoso.local/` to `https://spsites.contoso.local/*`. Then select **Save**.
 
     :::image type="content" source="../media/sharepoint-oidc-manifest.png" alt-text="Manifest":::
 
@@ -86,19 +84,22 @@ If you choose to use AAD as federated identity provider, perform the following s
 
 In AAD, there are two versions of OIDC authentication endpoints. Therefore, there are two versions of OIDC discovery endpoints, respectively:
 
-- V1.0: `https://login.microsoftonline.com/\<TenantID\>/.well-known/openid-configuration`
-- V2.0: `https://login.microsoftonline.com/\<TenantID\>/v2.0/.well-known/openid-configuration`
+- V1.0: `https://login.microsoftonline.com/<TenantID>/.well-known/openid-configuration`
+- V2.0: `https://login.microsoftonline.com/<TenantID>/v2.0/.well-known/openid-configuration`
 
-Replace TenantID with the **Directory (tenant) ID** saved in the third step mentioned above and connect to the endpoint by your browser. Then, save the following information:
+> [!NOTE]
+> For OIDC authentication, both endpoints are supported but we recommend using V2.0.
+
+Replace TenantID with the **Directory (tenant) ID** saved in the third step mentioned above and connect to the endpoint through your browser. Then, save the following information:
 
 | Value | Link |
 |---------|---------|
-| authorization_endpoint | `https://login.microsoftonline.com/\<tenantid\>/oauth2/authorize` |
-| end_session_endpoint   | `https://login.microsoftonline.com/\<tenantid\>/oauth2/logout` |
-| issuer     | `https://sts.windows.net/\<tenantid\>/` |
+| authorization_endpoint | `https://login.microsoftonline.com/<tenantid>/oauth2/authorize` |
+| end_session_endpoint   | `https://login.microsoftonline.com/<tenantid>/oauth2/logout` |
+| issuer     | `https://sts.windows.net/<tenantid>/` |
 | jwks_uri     | `https://login.microsoftonline.com/common/discovery/keys` |
 
-Open jwks_uri (`https://login.microsoftonline.com/common/discovery/keys`), and save **x5c** certificate string of the first **key** for later use in SharePoint setup (if the first key doesn’t work, try the second or third key).
+Open jwks_uri (`https://login.microsoftonline.com/common/discovery/keys`), and save the **x5c** certificate string of the first key for later use in SharePoint setup (if the first key doesn’t work, try the second or third key).
 
 :::image type="content" source="../media/sharepoint-setup-keys.png" alt-text="Discovery keys":::
 
@@ -108,7 +109,7 @@ In this step, you will need to modify farm properties. Start the SharePoint Mana
 
 ```powershell
 # Setup farm properties to work with OIDC
-$cert = New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -Provider 'Microsoft Enhanced RSA and AES Cryptographic Provider' -Subject “CN=SharePoint Cookie Cert”
+$cert = New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -Provider 'Microsoft Enhanced RSA and AES Cryptographic Provider' -Subject 'CN=SharePoint Cookie Cert'
 $rsaCert = [System.Security.Cryptography.X509Certificates.RSACertificateExtensions]::GetRSAPrivateKey($cert)
 $fileName = $rsaCert.key.UniqueName
 
@@ -131,17 +132,20 @@ $f.Farm.Properties['SP-NonceCookieHMACSecretKey']='seed'
 $f.Farm.Update()
 ```
 
-### Step 3: Configure SharePoint to trust Identity Provider
+### Step 3: Configure SharePoint to trust the Identity Provider
 
-You can configure SharePoint to trust Identity provider in the following two ways:
+You can configure SharePoint to trust the Identity provider in the following two ways:
 
-- Configure SharePoint to trust AAD as OIDC provider manually
-- Configure SharePoint to trust AAD as OIDC provider by using metadata endpoint
-  - By using metadata endpoint, a lot of parameters you need in 'Configure SharePoint to trust AAD as OIDC provider manually' can be automatically retrieved by metadata endpoint.
+- Configure SharePoint to trust AAD as the OIDC provider manually
+- Configure SharePoint to trust AAD as the OIDC provider by using metadata endpoint
+  - By using metadata endpoint, a lot of parameters you need in 'Configure SharePoint to trust AAD as the OIDC provider manually' can be automatically retrieved by metadata endpoint.
 
-#### Configure SharePoint to trust AAD as OIDC provider manually
+#### Configure SharePoint to trust AAD as the OIDC provider manually
 
-In this step, you create a `SPTrustedTokenIssuer` that will store the configuration that SharePoint needs to trust AAD OIDC as OIDC provider. Start the SharePoint Management Shell and run the following script to create it:
+In this step, you create a `SPTrustedTokenIssuer` that will store the configuration that SharePoint needs to trust AAD OIDC as the OIDC provider. Start the SharePoint Management Shell and run the following script to create it:
+
+> [!NOTE]
+> Be sure to follow the instructions mentioned in the following PowerShell script.
 
 ```powershell
 # Define claim types
@@ -159,7 +163,7 @@ $signouturl = " https://login.microsoftonline.com/<tenantid>/oauth2/logout"
 $clientIdentifier = <Application (Client)ID>
 
 # Create a new SPTrustedIdentityTokenIssuer in SharePoint
-New-SPTrustedIdentityTokenIssuer -Name "Contoso.local" -Description "Contoso.local" -ImportTrustCertificate $signingCert -ClaimsMappings $email -IdentifierClaim $email.InputClaimType  -RegisteredIssuerName $registeredissuernameurl  -AuthorizationEndPointUri $authendpointurl -SignOutUrl $signouturl -DefaultClientIdentifier $clientIdentifier
+New-SPTrustedIdentityTokenIssuer -Name "contoso.local" -Description "contoso.local" -ImportTrustCertificate $signingCert -ClaimsMappings $email -IdentifierClaim $email.InputClaimType  -RegisteredIssuerName $registeredissuernameurl  -AuthorizationEndPointUri $authendpointurl -SignOutUrl $signouturl -DefaultClientIdentifier $clientIdentifier
 ```
 
 Here, `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet is extended to support OIDC by using the following parameters:
@@ -186,16 +190,19 @@ Here, `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet is extended to suppor
 
 SharePoint Server Subscription Edition now supports OIDC metadata discovery capability during configuration.
 
-By using the metadata endpoint provided from OIDC identity provider, some of the configuration will be retrieved from OIDC provider metadata endpoint directly, including:
+By using the metadata endpoint provided from the OIDC identity provider, some of the configuration will be retrieved from the OIDC provider metadata endpoint directly, including:
 
 1. Certificate
 2. Issuer
 3. Authorization Endpoint
 4. SignoutURL
 
-This can simplify the configuration of OIDC token issuer.
+This can simplify the configuration of the OIDC token issuer.
 
-By using below PowerShell example, we can use metadata endpoint from AAD to configure SharePoint to trust AAD OIDC.
+By using the below PowerShell example, we can use metadata endpoint from AAD to configure SharePoint to trust AAD OIDC.
+
+> [!NOTE]
+> Be sure to follow the instructions mentioned in the following PowerShell script.
 
 ```powershell
 # Define claim types
@@ -208,11 +215,7 @@ $metadataendpointurl = "https://login.microsoftonline.com/<TenantID>/.well-known
 $clientIdentifier = <Application (Client)ID>
 
 # Create a new SPTrustedIdentityTokenIssuer in SharePoint
-New-SPTrustedIdentityTokenIssuer -Name "Contoso.local" -Description "Contoso.local" -ClaimsMappings $email -IdentifierClaim $email.InputClaimType  -DefaultClientIdentifier $clientIdentifier -MetadataEndPoint $ metadataendpointurl
-```
-
-```powershell
-New-SPTrustedIdentityTokenIssuer -Name <issuer name> -Description <Issuer description> -ClaimsMappings <ClaimMappings>  -IdentifierClaim <InputClaimType>  -DefaultClientIdentifier <client_id>  -MetadataEndPoint <metadata endpoint>
+New-SPTrustedIdentityTokenIssuer -Name "contoso.local" -Description "contoso.local" -ClaimsMappings $email -IdentifierClaim $email.InputClaimType  -DefaultClientIdentifier $clientIdentifier -MetadataEndPoint $ metadataendpointurl
 ```
 
 | Parameter | Description |
@@ -232,7 +235,7 @@ In this step, you configure a web application in SharePoint to be federated with
 The important rules to respect here are:
 
 - The default zone of the SharePoint web application must have Windows authentication enabled. This is required for the Search crawler.
-- SharePoint URL that will use AAD OIDC federation must be configured with HTTPS.
+- The SharePoint URL that will use AAD OIDC federation must be configured with HTTPS.
 
 There are two possible configurations:
 
@@ -243,7 +246,7 @@ There are two possible configurations:
         ```powershell
         # This script creates a trusted authentication provider for OIDC
         
-        $sptrust = Get-SPTrustedIdentityTokenIssuer "Contoso.local"
+        $sptrust = Get-SPTrustedIdentityTokenIssuer "contoso.local"
         $trustedAp = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
         ```
 
@@ -282,7 +285,7 @@ There are two possible configurations:
 
         :::image type="content" source="../media/sharepoint-administration-site.png" alt-text="SharePoint Administration Site":::
 
-### Step 5: Ensure web application is configured with HTTPS certificate
+### Step 5: Ensure web application is configured with SSL certificate
 
 Since OpenID Connect 1.0 authentication can only work with HTTPS protocol, a certificate must be set on the corresponding web application. Perform the following steps to set a certificate:
 
@@ -295,7 +298,7 @@ Since OpenID Connect 1.0 authentication can only work with HTTPS protocol, a cer
     2. Run the following script to generate a self-signed certificate and add it to the SharePoint farm:
 
         ```powershell
-        New-SPCertificate -FriendlyName " Contoso SharePoint (2021)" -KeySize 2048 -CommonName spsites.contoso.local -AlternativeNames extranet.contoso.local, onedrive.contoso.local -OrganizationalUnit "Contoso IT Department" -Organization "Contoso" -Locality "Redmond" -State "Washington" -Country "US" -Exportable -HashAlgorithm SHA256 -Path "\\server\fileshare\Contoso SharePoint 2021 Certificate Signing Request.txt"
+        New-SPCertificate -FriendlyName "Contoso SharePoint (2021)" -KeySize 2048 -CommonName spsites.contoso.local -AlternativeNames extranet.contoso.local, onedrive.contoso.local -OrganizationalUnit "Contoso IT Department" -Organization "Contoso" -Locality "Redmond" -State "Washington" -Country "US" -Exportable -HashAlgorithm SHA256 -Path "\\server\fileshare\Contoso SharePoint 2021 Certificate Signing Request.txt"
         Move-SPCertificate -Identity "Contoso SharePoint (2021)" -NewStore EndEntity
         ```
 
@@ -316,28 +319,28 @@ In this step, you create a team site collection with two administrators: One as 
 
 1. Open the SharePoint Central Administration site.
 2. Navigate to **Application Management** > **Create site collections** > **Create site collections**.
-3. Type a title, url, and select the template Team Site.
-4. In the Primary Site Collection Administrator section, click the :::image type="content" source="../media/Book-icon.png" alt-text="Book-icon"::: (book) icon to open the people picker dialog.
-5. In the people picker dialog, type the Windows administrator account, for example **yvand**.
+3. Type a title, URL, and select the template Team Site.
+4. In the Primary Site Collection Administrator section, click the :::image type="content" source="../media/Book-icon.png" alt-text="Book-icon"::: (book) icon to open the People Picker dialog.
+5. In the People Picker dialog, type the Windows administrator account, for example **yvand**.
 6. On the left, filter the list by selecting **Organizations**. Following is a sample output:
 
     :::image type="content" source="../media/select-people.png" alt-text="Select people":::
 
 7. Select the account and click **OK**.
-8. In the Secondary Site Collection Administrator section, select the book icon to open the people picker dialog.
-9. In the people picker dialog, type the exact email value of the AAD administrator account, for example **yvand@contoso.local**.
-10. On the left, filter the list by selecting **Contoso.local**. Following is a sample output:
+8. In the Secondary Site Collection Administrator section, select the book icon to open the People Picker dialog.
+9. In the People Picker dialog, type the exact email value of the AAD administrator account, for example **yvand@contoso.local**.
+10. On the left, filter the list by selecting **contoso.local**. Following is a sample output:
 
     :::image type="content" source="../media/select-people-2.png" alt-text="Select people 2":::
 
-11. Select the account and choose **OK** to close the people picker dialog.
+11. Select the account and choose **OK** to close the People Picker dialog.
 12. Select **OK** to create the site collection.
 
 Once the site collection is created, you should be able to sign-in to it using either the Windows or the federated site collection administrator account.
 
-### Step 7: Set up people picker
+### Step 7: Set up People Picker
 
-In OIDC authentication the people picker does not validate the input, which can lead to misspellings or users accidentally choosing the wrong claim type. This can be addressed using the new UPA backed claim provider in SharePoint Server.
+In OIDC authentication the People Picker does not validate the input, which can lead to misspellings or users accidentally choosing the wrong claim type. This can be addressed using the new UPA backed claim provider in SharePoint Server.
 
 To do this, perform the following steps:
 
@@ -346,7 +349,7 @@ To do this, perform the following steps:
 In the [previous step](#step-3-configure-sharepoint-to-trust-identity-provider) you have already created an OIDC `SPTrustedIdentityTokenIssuer` by using `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet. In this step, you will create a claim provider which uses the User Profile Application service to search and resolve users and groups in the People Picker and specifies to use the OIDC `SPTrustedIdentityTokenIssuer`:
 
   ```powershell
-  $claimprovider = New-SPClaimProvider - AssemblyName "Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c" – DisplayName “OIDC Claim Provider” - Type "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider" - TrustedTokenIssuer $tokenissuer
+  $claimprovider = New-SPClaimProvider - AssemblyName "Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c" –DisplayName 'OIDC Claim Provider'-Type "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider" - TrustedTokenIssuer $tokenissuer
   ```
 
 There are three parameters that need to be specified here:
@@ -369,7 +372,7 @@ The following parameters need to be specified here:
 
 | Parameter | Description |
 |------------|-------------|
-| token issuer name | The token issuer this people picker will use. |
+| token issuer name | The token issuer this People Picker will use. |
 | -ClaimProvider | The `SPClaimProvider` which will be used to generate claim. |
 | -IsOpenIDConnect | Required when `SPTrustedIdentityTokenIssuer` is OIDC `SPTrustedIdentityTokenIssuer`. Without this parameter OIDC `SPTrustedIdentityTokenIssuer` configuration will fail. |
 
@@ -386,7 +389,7 @@ Now, customers can start to synchronize profiles into the SharePoint User Profil
 
 There are two ways to synchronize user profiles into the SharePoint User Profile Application service:
 
-- By creating a new SharePoint Active Directory Import (AD Import) connection with “**Trusted Claims Provider Authentication**” as the “**Authentication Provider Type**” in the connection setting. To utilize AD Import, see [Manage user profile synchronization in SharePoint Server](/sharepoint/administration/manage-profile-synchronization).
+- By creating a new SharePoint Active Directory Import (AD Import) connection with **Trusted Claims Provider Authentication** as the **Authentication Provider Type** in the connection setting. To utilize AD Import, see [Manage user profile synchronization in SharePoint Server](/sharepoint/administration/manage-profile-synchronization).
 
     :::image type="content" source="../media/add-new-sync-connection-2.png" alt-text="add-new-sync-connection-2":::
 
@@ -403,7 +406,7 @@ During the synchronization, the following three properties need to be provided t
 
         During the synchronization, you must pick which unique identity property in the source will be mapped to the `SPS-ClaimID` property in the User Profile Application service. We suggest using **Email** or **User Principal Name** for the `SPS-ClaimID`. The corresponding **IdentifierClaim** value needs to be set when token issuer is created from the [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) cmdlet.
 
-        For AD Import synchronization, **Central Administration -> Application Management -> Manage service applications -> User Profile Service Application -> Manage User Properties** will allow administrators to edit the `SPS-ClaimID` to indicate which property in the source identity provider should be synchronized to `SPS-ClaimID`. (The display name of this property is **Claim User Identifier** in the UX, and it can be customized to other display names by the administrator.) For example, if email is to be used as the `SPS-ClaimID`, **Claim User Identifier** should be set to **Email**.
+        For AD Import synchronization, **Central Administration > Application Management > Manage service applications > User Profile Service Application > Manage User Properties** will allow administrators to edit the `SPS-ClaimID` to indicate which property in the source identity provider should be synchronized to `SPS-ClaimID`. (The display name of this property is **Claim User Identifier** in the UX, and it can be customized to other display names by the administrator.) For example, if email is to be used as the `SPS-ClaimID`, **Claim User Identifier** should be set to **Email**.
 
         :::image type="content" source="../media/SPS-ClaimID-1.png" alt-text="SPS-ClaimID-1":::
         :::image type="content" source="../media/SPS-ClaimID-2.png" alt-text="SPS-ClaimID-2":::
@@ -416,7 +419,7 @@ During the synchronization, the following three properties need to be provided t
 
     2. `SPS-ClaimProviderID` and `SPS-ClaimProviderType`
 
-        For AD Import synchronization, these properties can be modified in **User Profile Service Application -> Configure Synchronization Connections -> Create New Connection** when you create a new AD Import synchronization connection.
+        For AD Import synchronization, these properties can be modified in **User Profile Service Application > Configure Synchronization Connections > Create New Connection** when you create a new AD Import synchronization connection.
 
         - `SPS-ClaimProviderID` should be set to the provider name created in [step 1](#1-create-new-claim-provider) by the `New-SPClaimProvider` cmdlet.
         - `SPS-ClaimProviderType` should be set to `SPTrustedBackedByUPAClaimProvider`.
@@ -435,7 +438,7 @@ To enable the People Picker control to work with groups, the following steps nee
 1. Group object must have a property named “SID” of type “groupid” in the identity provider.
 
     You can create a `ClaimTypeMapping` object by using [New-SPClaimTypeMapping](/powershell/module/sharepoint-server/new-spclaimtypemapping) and then provide this object to [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) cmdlet with `-ClaimsMappings` parameter.
-
+check with Steve
     ```powershell
     $sidClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.microsoft.com/ws/2008/06/identity/claims/groupsid" -IncomingClaimTypeDisplayName "SID" -SameAsIncoming $tokenissuer = New-SPTrustedIdentityTokenIssuer -ClaimsMappings $sidClaimMap, $emailClaimMap
     ```
@@ -450,7 +453,7 @@ To enable the People Picker control to work with groups, the following steps nee
 
 #### 5. Enable fields being searchable in UPSA
 
-To make people picker work, the final step is to enable fields to be searchable in UPSA.
+To make People Picker work, the final step is to enable fields to be searchable in UPSA.
 
 Users can set which properties are searched by the People Picker by following this sample PowerShell script:
 
@@ -463,7 +466,7 @@ Users can set which properties are searched by the People Picker by following th
   $psm.GetProfileSubtype([Microsoft.Office.Server.UserProfiles.ProfileSubtypeManager]::GetDefaultProfileName([Microsoft.Office.Server.UserProfiles.ProfileType]::User)) 
   $properties = $ps.Properties
 
-  #Enable people picker search for property name “FistName”, “LastName” and “SPS-ClaimID” 
+  #Enable people picker search for property name 'FistName', 'LastName' and 'SPS-ClaimID' 
   $PropertyNames = 'FirstName', 'LastName', 'SPS-ClaimID'
   foreach ($p in $PropertyNames) { 
       $property = $properties.GetPropertyByName($p) 
@@ -528,7 +531,7 @@ If you choose to use AD FS as identity provider, perform the following steps to 
 
 8. Ensure that the required claim ID is included in the `id_token` from AD FS. Let’s take email as an example:
 
-    We assume that your AD FS has configured the rule that read identifier claim from attribute store, such as AD. Perform the following steps to create Issuance Transform Rule for this specific web application we created in AD FS above:
+    We assume that your AD FS has configured the rule that read identifier claim from attribute store, such as AD. Perform the following steps to create Issuance Transform Rule for this specific web application we created in AD FS previously:
 
     1. Open the web application you just created and go to **Issue Transformation Rule** tab.
 
@@ -536,15 +539,20 @@ If you choose to use AD FS as identity provider, perform the following steps to 
 
         :::image type="content" source="../media/issue-transformation-add-rule.JPG" alt-text="Issue Transformation Add Rule":::
 
-    2. Select **Add Rule** and click **Apply**. In the **Add Transform Claim Rule Wizard**, select **Pass Through or Filter an Incoming Claim** from the **Claim rule template** options.
+    2. Select **Add Rule** and select **Send LDAP Attributes as Claims** from the option list.
 
-        :::image type="content" source="../media/add-transform-claim-rule.JPG" alt-text="Add Transform Claim Rule":::
+        :::image type="content" source="../media/add-transform-claim-rule.png" alt-text="Add Transform Claim Rule":::
 
-    3. Click **Next** and fill in the next form as shown.
+    3. Give your Claim rule a name of **AD** and select **Active Directory** from the Attribute store drop down menu. Create two mappings using the drop-down boxes as shown:
 
-        :::image type="content" source="../media/add-transform-claim-rule-2.jpg" alt-text="Add Transform Claim Rule 2":::
+        | Attribute | Value |
+        |---------|---------|
+        | E-Mail-Addresses | E-Mail Address |
+        | Token-Groups - Qualified by Domain Name | Role |
 
-    4. Click **Finish**.
+        :::image type="content" source="../media/add-transform-claim-rule-2.png" alt-text="Add Transform Claim Rule 2":::
+
+    4. Select **Finish** to close the Rule wizard and select **OK** to close the web application properties. Select **OK** one more time to complete the Rule.
 
 If you are setting OIDC with SharePoint Server, nbf claim must be configured in AD FS server side in the web application you just created. If nbf claim doesn’t exist in this web application, perform the following steps to create it:
 
@@ -554,21 +562,24 @@ If you are setting OIDC with SharePoint Server, nbf claim must be configured in 
 
     :::image type="content" source="../media/issue-transformation-add-rule.JPG" alt-text="Issue Transformation Add Rule":::
 
-2. Select **Add Rule** and then click **Apply**. In the **Add Transform Claim Rule Wizard** select **Send Claims Using a Custom Rule** from the **Claim rule template** options.
+2. Select **Add Rule** and then select **Apply**. In the **Add Transform Claim Rule Wizard** select **Send Claims Using a Custom Rule** from the **Claim rule template** options.
 
     :::image type="content" source="../media/add-transform-claim-rule-3.JPG" alt-text="Add Transform Claim Rule 3":::
 
-3. Click **Next** and input the following string in the **Custom rule** field:
+3. Select **Next** and input the following string in the **Custom rule** field:
 
     `c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname"] => issue(Type = "nbf", Value = "0");`
 
     :::image type="content" source="../media/add-transform-claim-rule-4.JPG" alt-text="Add Transform Claim Rule 4":::
 
-4. Click **Finish**.
+4. Select **Finish**.
 
 ### Step 2: Change SharePoint Farm properties
 
 In this step, you will need to modify the farm properties. Start the SharePoint Management Shell and run the following script:
+
+> [!NOTE]
+> Be sure to follow the instructions mentioned in the following PowerShell script.
 
 ```powershell
 # Setup farm properties to work with OIDC
@@ -598,6 +609,9 @@ $f.Farm.Update()
 ### Step 3: Configure SharePoint to Identity Providers
 
 In this step, you create a `SPTrustedTokenIssuer` that will store the configuration that SharePoint needs to trust AD FS as OIDC provider. Start the SharePoint Management Shell and run the following script to create it:
+
+> [!NOTE]
+> Be sure to follow the instructions mentioned in the following PowerShell script.
 
 ```powershell
 # Define claim types
@@ -670,7 +684,7 @@ There are two possible configurations:
         ```powershell
         # This script creates a trusted authentication provider for OIDC
         
-        $sptrust = Get-SPTrustedIdentityTokenIssuer "Contoso.local"
+        $sptrust = Get-SPTrustedIdentityTokenIssuer "contoso.local"
         $trustedAp = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
         ```
 
@@ -691,7 +705,7 @@ There are two possible configurations:
         ```powershell
         # This script creates a trusted authentication provider for OIDC
         
-        $sptrust = Get-SPTrustedIdentityTokenIssuer "Contoso.local"
+        $sptrust = Get-SPTrustedIdentityTokenIssuer "contoso.local"
         $ap = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
         ```
 
@@ -700,13 +714,12 @@ There are two possible configurations:
 
         :::image type="content" source="../media/authentication-providers-4.jpg" alt-text="Authentication Providers 4":::
 
-    4. Open the SharePoint Central Administration site.
-    5. Navigate to **System Settings** > **Configure Alternate Access Mappings** > **Alternate Access Mapping Collection**.
-    6. Filter the display with the web application that was extended and confirm that you see something like this:
+    4. Navigate to **System Settings** > **Configure Alternate Access Mappings** > **Alternate Access Mapping Collection**.
+    5. Filter the display with the web application that was extended and confirm that you see something like this:
 
         :::image type="content" source="../media/alternate-access-mapping-collection-2.png" alt-text="Alternate Access Mapping Collection":::
 
-### Step 5: Ensure web application is configured with HTTPS certificate
+### Step 5: Ensure web application is configured with SSL certificate
 
 Since OpenID Connect 1.0 authentication can only work with HTTPS protocol, a certificate must be set on the corresponding web application. Perform the following steps to set a certificate:
 
@@ -739,17 +752,17 @@ Since OpenID Connect 1.0 authentication can only work with HTTPS protocol, a cer
 In this step, you create a team site collection with two administrators: One as a Windows administrator and one as a federated (AD FS) administrator.
 
 1. Open the SharePoint Central Administration site.
-2. Navigate to **Application Management** > **Create site collections** > **Create site collections**.
-3. Type a Title, Url, and select the template Team Site.
-4. In the Primary Site Collection Administrator section, click on the book icon to open the people picker dialog.
-5. In the people picker dialog, type the Windows administrator account, for example **yvand**.
+2. Navigate to **Application Management** > **Create site collections**.
+3. Type a Title, URL, and select the template Team Site.
+4. In the Primary Site Collection Administrator section, click on the book icon to open the People Picker dialog.
+5. In the People Picker dialog, type the Windows administrator account, for example **yvand**.
 6. On the left, filter the list by selecting **Organizations**. Following is a sample output:
 
     :::image type="content" source="../media/select-people-3.png" alt-text="Select People 3":::
 
 7. Select the account and choose **OK**.
-8. In the Secondary Site Collection Administrator section, select the book icon to open the people picker dialog.
-9. In the people picker dialog, type the exact email value of the AD FS administrator account, for example **yvand@contoso.local**.
+8. In the Secondary Site Collection Administrator section, select the book icon to open the People Picker dialog.
+9. In the People Picker dialog, type the exact email value of the AD FS administrator account, for example **yvand@contoso.local**.
 10. On the left, filter the list by selecting **Contoso.local**. Following is a sample output:
 
     :::image type="content" source="../media/select-people-4.png" alt-text="Select People 4":::
@@ -759,6 +772,6 @@ In this step, you create a team site collection with two administrators: One as 
 
 Once the site collection is created, you should be able to sign-in to it using either the Windows or the federated site collection administrator account.
 
-### Step 7: Set up people picker
+### Step 7: Set up People Picker
 
-For more information on how to set up people picker, see [Step 7: Set up people picker](#step-7-set-up-people-picker).
+For more information on how to set up People Picker, see [Step 7: Set up People Picker](#step-7-set-up-people-picker).

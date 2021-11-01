@@ -313,18 +313,13 @@ After you install and configure SharePoint Server, your browser window opens to 
     
 - **Configure Search settings** You can configure Search settings to crawl the content in SharePoint Server. 
 
-- **Configure Center Admin Access URL**
+- **Configure Central Administration Access URL**
 
-  - **Using Alternative URL to Access Center Admin**: You can specify an alternative URL to access Center Admin by using Alternate Access Mapping (AAM). This can be done via the optional "`-Url <String>`" parameter in the following PowerShell cmdlets and PSConfig.exe command line utility:
+  - **Using Alternative URL to Access Central Administration**: You can specify an alternative URL to access Central Administration by using Alternate Access Mapping (AAM). This can be done via the optional "`-Url <String>`" parameter in the following PowerShell cmdlets and PSConfig.exe command line utility:
   
     - `New-SPCentralAdministration`
     - `Set-SPCentralAdministration`
     - `PSConfig.exe -cmd adminvs`
 
-  - **Use host name binding for Center Admin**: You can configure the SharePoint Central Administration website to use host header bindings, that will allow it to share the same Transmission Control Protocol (TCP) port number as other websites. This would typically be used to let the SharePoint Central Administration site and your content website to be hosted on the same TCP port, such as port 443 for Secure Sockets Layer (SSL).</br>
+  - **Use host name binding for Central Administration**: You can configure the SharePoint Central Administration website to use host header bindings, that will allow it to share the same Transmission Control Protocol (TCP) port number as other websites. This would typically be used to let the SharePoint Central Administration site and your content website to be hosted on the same TCP port, such as port 443 for Secure Sockets Layer (SSL).</br>
     To configure the SharePoint Central Administration website, specify the host header binding with the `-HostHeader` parameter of the `New-SPCentralAdministration` and `Set-SPCentralAdministration` cmdlets, or with the `-hostheader` parameter of the `psconfig.exe -cmd adminvs` command.</br>
-    To perform this configuration, set host header to sharepoint.example.com and alternate access mapping to <https://sharepoint.example.com> and run the following script:</br>
-  
-    ```powershell
-    Set-SPWebApplication -Identity http://servername -Zone Default -Port 443 -SecureSocketsLayer -HostHeader "sharepoint.example.com" -Url "https://sharepoint.example.com"
-    ```
