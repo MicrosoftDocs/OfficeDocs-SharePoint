@@ -158,7 +158,7 @@ Verify that the user account that is performing this procedure is the Setup user
 
     - `/config <config file>` (Where `<config file>` is the path to your `config.xml` file).
 
-    - `/uninstall OSMUI.<language tag>` (This parameter signifies the language pack language to uninstall).
+    - `/uninstall OSMUI.<language tag>` (This parameter signifies the language pack to uninstall).
     
     For example, the following PowerShell command is used to uninstall Japanese language pack:
 
