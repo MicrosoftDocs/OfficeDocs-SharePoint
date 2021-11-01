@@ -80,4 +80,4 @@ You create and maintain the thesaurus file in a file external to SharePoint Serv
 
 [Linguistic search features in SharePoint Server](../technical-reference/linguistic-search-features.md)
 
-[Import-SPEnterpriseSearchThesaurus](/powershell/module/sharepoint-server/Import-SPEnterpriseSearchThesaurus?view=sharepoint-ps)
+[Import-SPEnterpriseSearchThesaurus](/powershell/module/sharepoint-server/Import-SPEnterpriseSearchThesaurus?view=sharepoint-ps&preserve-view=true)

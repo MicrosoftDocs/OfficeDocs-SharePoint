@@ -100,4 +100,4 @@ Scripted monitoring configuration consists of both PowerShell scripts and Profil
 [Run scripted monitoring configuration in SharePoint Server](run-scripted-monitoring-configuration.md)
 #### Other Resources
 
-[App Management Service cmdlets in SharePoint Server](/powershell/module/sharepoint-server/?view=sharepoint-ps)
+[App Management Service cmdlets in SharePoint Server](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true)

@@ -264,7 +264,7 @@ Refer to the following table in step 2.
 
 3. If you changed any of the following parameters, restart the service now:  `KeepAliveTimeout`,  `MaximumTranslationTime`,  `TotalActiveProcesses`,  `RecycleProcessThreshold`,  `WebProxyAddress`,  `MachineTranslationAddress`, or  `UseDefaultInternetSettings`. For more information, see [Start or stop a service in SharePoint Server](start-or-stop-a-service.md).
     
-For more information, see [Set-SPTranslationServiceApplication](/powershell/module/sharepoint-server/Set-SPTranslationServiceApplication?view=sharepoint-ps).
+For more information, see [Set-SPTranslationServiceApplication](/powershell/module/sharepoint-server/Set-SPTranslationServiceApplication?view=sharepoint-ps&preserve-view=true).
   
 ## Additional steps
 <a name="more"> </a>

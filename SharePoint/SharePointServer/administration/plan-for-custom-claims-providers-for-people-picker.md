@@ -49,7 +49,7 @@ Depending on the authentication method selected for a zone of a web application,
 |Forms-based authentication  <br/> |[SPFormsClaimProvider](/previous-versions/office/sharepoint-server/ee549669(v=office.15)) <br/> |
 |Security Assertion Markup Language (SAML) token-based authentication  <br/> |[SPTrustedClaimProvider](/previous-versions/office/sharepoint-server/ee550134(v=office.15)) <br/> |
    
-You can see a list of claims providers for a farm by using the [Get-SPClaimProvider](/powershell/module/sharepoint-server/Get-SPClaimProvider?view=sharepoint-ps) Microsoft PowerShell cmdlet. 
+You can see a list of claims providers for a farm by using the [Get-SPClaimProvider](/powershell/module/sharepoint-server/Get-SPClaimProvider?view=sharepoint-ps&preserve-view=true) Microsoft PowerShell cmdlet. 
   
 > [!NOTE]
 > When a web application is configured to use SAML token-based authentication, the SPTrustedClaimProvider class does not provide search functionality to the People Picker web control. Any text entered in the People Picker control will automatically be displayed as if it was resolved, regardless of whether it is a valid user, group, or claim. If your SharePoint Server solution will use SAML token-based authentication, you should plan to create a custom claims provider to implement custom search and name resolution. 
@@ -81,7 +81,7 @@ To make sure that customer partners are never added to the extranet collaboratio
   
 You can set the IsUsedByDefault property by configuring it in a feature receiver that you create for your custom claims provider. 
   
-You can also override the settings of the IsEnabled and IsUsedByDefault properties by using the [Set-SPClaimProvider](/powershell/module/sharepoint-server/Set-SPClaimProvider?view=sharepoint-ps) PowerShell cmdlet. 
+You can also override the settings of the IsEnabled and IsUsedByDefault properties by using the [Set-SPClaimProvider](/powershell/module/sharepoint-server/Set-SPClaimProvider?view=sharepoint-ps&preserve-view=true) PowerShell cmdlet. 
   
 > [!IMPORTANT]
 > Changing the IsEnabled property to False will disable the claims provider for the server farm. This can be useful if you have to troubleshoot issues that might be caused by a custom claims provider. In general, the IsEnabled property should be set to True. 

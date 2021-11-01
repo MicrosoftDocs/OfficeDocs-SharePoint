@@ -95,9 +95,9 @@ Before you begin this operation, review [Share service applications across farms
 
 #### Other Resources
 
-[Publish-SPServiceApplication](/powershell/module/sharepoint-server/Publish-SPServiceApplication?view=sharepoint-ps)
+[Publish-SPServiceApplication](/powershell/module/sharepoint-server/Publish-SPServiceApplication?view=sharepoint-ps&preserve-view=true)
   
-[Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps)
+[Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps&preserve-view=true)
   
-[Get-SPTopologyServiceApplication](/powershell/module/sharepoint-server/Get-SPTopologyServiceApplication?view=sharepoint-ps)
+[Get-SPTopologyServiceApplication](/powershell/module/sharepoint-server/Get-SPTopologyServiceApplication?view=sharepoint-ps&preserve-view=true)
 

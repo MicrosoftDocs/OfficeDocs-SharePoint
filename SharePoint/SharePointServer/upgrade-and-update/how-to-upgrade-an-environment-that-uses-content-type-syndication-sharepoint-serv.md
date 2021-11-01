@@ -182,7 +182,7 @@ The following illustration shows the steps to follow to restore and upgrade the 
   Set-SPMetadataServiceApplication -Identity "<ServiceApplication>" -HubURI "<HubURI>"
   ```
 
-  For information, see [Set-SPMetadataServiceApplication](/powershell/module/sharepoint-server/Set-SPMetadataServiceApplication?view=sharepoint-ps).
+  For information, see [Set-SPMetadataServiceApplication](/powershell/module/sharepoint-server/Set-SPMetadataServiceApplication?view=sharepoint-ps&preserve-view=true).
     
 7. Upgrade the ContentTypeHub1 site collection to 2013 mode.
     

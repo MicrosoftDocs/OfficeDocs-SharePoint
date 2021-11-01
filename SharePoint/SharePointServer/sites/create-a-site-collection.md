@@ -99,7 +99,7 @@ You typically use Microsoft PowerShell to create a site collection when you want
    New-SPSite -Url "<URL for the new site collection>" -OwnerAlias "<domain\user>" -Template $template
    ```
 
-    This example retrieves a list of all available site templates and then creates a site collection by using the Team Site template. For more information, see [New-SPSite](/powershell/module/sharepoint-server/New-SPSite?view=sharepoint-ps) and [Get-SPWebTemplate](/powershell/module/sharepoint-server/Get-SPWebTemplate?view=sharepoint-ps).
+    This example retrieves a list of all available site templates and then creates a site collection by using the Team Site template. For more information, see [New-SPSite](/powershell/module/sharepoint-server/New-SPSite?view=sharepoint-ps&preserve-view=true) and [Get-SPWebTemplate](/powershell/module/sharepoint-server/Get-SPWebTemplate?view=sharepoint-ps&preserve-view=true).
     
     We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
     

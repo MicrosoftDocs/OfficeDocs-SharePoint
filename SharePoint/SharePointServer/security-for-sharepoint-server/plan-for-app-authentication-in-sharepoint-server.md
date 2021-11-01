@@ -33,7 +33,7 @@ To provide the requested resources from an app for SharePoint, the server that r
     
 - Verify that the type of access that the app is requesting is authorized.
     
-    To authorize the access, SharePoint Server relies on the set of app permissions, which was specified in the app manifest file when it was installed, and the permissions that are associated with the user on whose behalf the app is acting. SharePoint Server also relies on the permissions that were granted to the SPAppPrincipal when the trust was established by using the [Set-SPAppPrincipalPermission](/powershell/module/sharepoint-server/Set-SPAppPrincipalPermission?view=sharepoint-ps) PowerShell cmdlet. 
+    To authorize the access, SharePoint Server relies on the set of app permissions, which was specified in the app manifest file when it was installed, and the permissions that are associated with the user on whose behalf the app is acting. SharePoint Server also relies on the permissions that were granted to the SPAppPrincipal when the trust was established by using the [Set-SPAppPrincipalPermission](/powershell/module/sharepoint-server/Set-SPAppPrincipalPermission?view=sharepoint-ps&preserve-view=true) PowerShell cmdlet. 
     
 Note that app authentication in SharePoint Server is separate from user authentication and is not used as a sign-in authentication protocol by SharePoint users. App authentication uses the [Open Authorization (OAuth) 2.0 protocol](https://go.microsoft.com/fwlink/p/?LinkID=214783) and does not add to the set of user authentication or sign-on protocols, such as WS-Federation. There are no new user authentication protocols in SharePoint Server. App authentication and OAuth do not appear in the list of identity providers. 
   

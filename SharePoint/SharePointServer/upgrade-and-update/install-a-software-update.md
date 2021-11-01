@@ -179,7 +179,7 @@ The following illustration shows the steps that are required to install the upda
     
 6. Add the updated web servers (WEB-3 and WEB-4) back to the load-balancing rotation.
     
-7. Install the update on all application servers that host Search components (APP-1 and APP-2). To do this, perform the procedure [Install a software update for SharePoint Server 2016](#UpdateSearchMinimalDowntime) which appears later in this article, and then return to the next step in this procedure. Do not run the SharePoint Products Configuration Wizard at this time. 
+7. Install the update on all application servers that host Search components (APP-1 and APP-2). To do this, perform the procedure [Install a software update for SharePoint Server 2016](#install-a-software-update-on-servers-that-host-search-components) which appears later in this article, and then return to the next step in this procedure. Do not run the SharePoint Products Configuration Wizard at this time. 
     
 8. If your farm has additional application servers that do not host Search components, run the update executable file to install the update on these servers. Do not run the SharePoint Products Configuration Wizard on these servers at this time.
     
@@ -223,7 +223,7 @@ The following procedure shows all the steps to upgrade the farm. You can upgrade
     
     You can create a short offline period to upgrade the service without having to upgrade the complete farm. The additional PowerShell cmdlets to upgrade specific service applications should be in the notes if this is required.
     
-3. (Optional) Use the PowerShell **Upgrade-SPContentDatabase** cmdlet to upgrade each content database. For more information, see [Upgrade-SPContentDatabase](/powershell/module/sharepoint-server/Upgrade-SPContentDatabase?view=sharepoint-ps).
+3. (Optional) Use the PowerShell **Upgrade-SPContentDatabase** cmdlet to upgrade each content database. For more information, see [Upgrade-SPContentDatabase](/powershell/module/sharepoint-server/Upgrade-SPContentDatabase?view=sharepoint-ps&preserve-view=true).
     
     This is an optional step, but it will help ensure that all content databases are upgraded first. It has the advantage of enabling some parallelism to reduce the outage time. If it is not performed, all remaining non-upgraded content databases will be upgraded serially when you run the SharePoint Products Configuration Wizard to upgrade the farm servers. 
     

@@ -145,11 +145,11 @@ No SQL database servers are configured for Access to provision new databases.
     
 ### Related topics
 
-[Get-SPAccessServicesDatabaseServerGroupMapping](/powershell/module/sharepoint-server/Get-SPAccessServicesDatabaseServerGroupMapping?view=sharepoint-ps)
+[Get-SPAccessServicesDatabaseServerGroupMapping](/powershell/module/sharepoint-server/Get-SPAccessServicesDatabaseServerGroupMapping?view=sharepoint-ps&preserve-view=true)
   
-[Get-SPAccessServicesDatabaseServerGroup](/powershell/module/sharepoint-server/Get-SPAccessServicesDatabaseServerGroup?view=sharepoint-ps)
+[Get-SPAccessServicesDatabaseServerGroup](/powershell/module/sharepoint-server/Get-SPAccessServicesDatabaseServerGroup?view=sharepoint-ps&preserve-view=true)
   
-[Get-SPAccessServicesDatabaseServer](/powershell/module/sharepoint-server/Get-SPAccessServicesDatabaseServer?view=sharepoint-ps)
+[Get-SPAccessServicesDatabaseServer](/powershell/module/sharepoint-server/Get-SPAccessServicesDatabaseServer?view=sharepoint-ps&preserve-view=true)
   
 ## Partitioned SSS communication failure
 <a name="SSSFail"> </a>
@@ -343,7 +343,7 @@ Use  `new-SPAccessServicesApplicationProxy` to create a new default proxy.
   
 ### Related topics
 
-[New-SPAccessServicesApplication](/powershell/module/sharepoint-server/New-SPAccessServicesApplication?view=sharepoint-ps)
+[New-SPAccessServicesApplication](/powershell/module/sharepoint-server/New-SPAccessServicesApplication?view=sharepoint-ps&preserve-view=true)
   
 ## Failed to register database server
 <a name="NoDBServ"> </a>

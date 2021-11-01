@@ -507,7 +507,7 @@ Continue with [Create a crawl rule for Documentum](configure-and-use-the-documen
 ## Create the Documentum crawled properties category
 <a name="BKMK_CrawledPropertiesCategory"> </a>
 
-You must create a crawled properties category that will contain the Documentum crawled properties. To do so, you use the [New-SPEnterpriseSearchMetadataCategory](/powershell/module/sharepoint-server/New-SPEnterpriseSearchMetadataCategory?view=sharepoint-ps) cmdlet and specify the predefined value 34972762-7E3F-4f4f-AE5C-5ABBA92EC530 for the cmdlet's PropSet parameter. Use the following PowerShell code to create the crawled properties category in this way. 
+You must create a crawled properties category that will contain the Documentum crawled properties. To do so, you use the [New-SPEnterpriseSearchMetadataCategory](/powershell/module/sharepoint-server/New-SPEnterpriseSearchMetadataCategory?view=sharepoint-ps&preserve-view=true) cmdlet and specify the predefined value 34972762-7E3F-4f4f-AE5C-5ABBA92EC530 for the cmdlet's PropSet parameter. Use the following PowerShell code to create the crawled properties category in this way. 
   
 ```
 $ssa = Get-SPEnterpriseSearchServiceApplication

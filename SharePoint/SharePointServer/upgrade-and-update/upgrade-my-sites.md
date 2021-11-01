@@ -163,5 +163,5 @@ If users are experiencing issues, such as mixed user interface modes or they can
 
 [Upgrade a site collection](upgrade-a-site-collection.md)
   
-[Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps)
+[Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps&preserve-view=true)
 

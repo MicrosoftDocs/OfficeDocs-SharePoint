@@ -151,5 +151,5 @@ You can set incremental crawl times on the  _Search_Service_Application_Name_: A
 
 [Plan crawling and federation in SharePoint Server](plan-crawling-and-federation.md)
 
-[Set-SPEnterpriseSearchCrawlContentSource](/powershell/module/sharepoint-server/Set-SPEnterpriseSearchCrawlContentSource?view=sharepoint-ps)
+[Set-SPEnterpriseSearchCrawlContentSource](/powershell/module/sharepoint-server/Set-SPEnterpriseSearchCrawlContentSource?view=sharepoint-ps&preserve-view=true)
 

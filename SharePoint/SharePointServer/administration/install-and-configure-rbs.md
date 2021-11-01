@@ -230,7 +230,7 @@ You must enable RBS on one web server in the SharePoint farm. It is not importan
 
    Where  _\<ContentDatabaseName\>_ is the name of the content database. 
     
-For more information, see [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps).
+For more information, see [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps&preserve-view=true).
   
 ## Assign db_owner permissions to the web application
 <a name="dbOwnPerm"> </a>

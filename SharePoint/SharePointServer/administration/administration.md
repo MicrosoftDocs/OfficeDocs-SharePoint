@@ -39,7 +39,7 @@ description: "The articles in this section help you operate and maintain servers
 
 ## Related operations and maintenance articles for SharePoint Server
 
-- [Microsoft PowerShell Reference for SharePoint](/powershell/sharepoint/?view=sharepoint-ps)
+- [Microsoft PowerShell Reference for SharePoint](/powershell/sharepoint/?view=sharepoint-ps&preserve-view=true)
     
 - [System Center Operations Manager knowledge articles for SharePoint Server](../technical-reference/system-center-operations-manager-knowledge-articles.md)
     

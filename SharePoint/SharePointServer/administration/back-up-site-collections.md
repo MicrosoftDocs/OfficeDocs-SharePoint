@@ -55,7 +55,7 @@ You can use PowerShell to back up a site collection manually or as part of a scr
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -84,7 +84,7 @@ You can use PowerShell to back up a site collection manually or as part of a scr
   
     For more information about how to use SQL snap-shots, see [Back up databases to snapshots in SharePoint Server](back-up-databases-to-snapshots.md).
     
-For more information, see [Backup-SPSite](/powershell/module/sharepoint-server/backup-spsite?view=sharepoint-ps).
+For more information, see [Backup-SPSite](/powershell/module/sharepoint-server/backup-spsite?view=sharepoint-ps&preserve-view=true).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

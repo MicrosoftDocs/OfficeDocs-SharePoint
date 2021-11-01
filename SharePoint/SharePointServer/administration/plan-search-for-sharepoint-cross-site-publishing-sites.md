@@ -144,7 +144,7 @@ The following illustration shows how usage events are sent from Web Parts, throu
   
 **Overview of data flow for usage analytics, usage events, and recommendations**
 
-![Recommendations](../media/Recommendations.gif)
+![Usage analytics, usage events, and recommendations](../media/Recommendations.gif)
   
 For more information about the usage analytics framework, see [Overview of analytics processing in SharePoint Server](../search/overview-of-analytics-processing.md).
   
