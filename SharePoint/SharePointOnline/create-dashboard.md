@@ -152,17 +152,22 @@ A Teams app card allows you to create a card for an existing Teams app. To add a
     - Enter a description for the card in the **Card description** text box. This description will be displayed in larger text under the title.
 7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#audience-targeting).
 
-## Set up 3rd party applications and Microsoft apps
 
-The Viva Connections dashboard and mobile experience can be extended and customized using cards, which are based on [adaptive cards](https://adaptivecards.io/) and the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview). These adaptive cards are used to display data, complete tasks, and connect to Teams Apps, Websites, and mobile apps on Viva Connections. They provide a low-code solution to bring your line-of-business apps into the Dashboard. To create custom experiences on Viva Connections Dashboard and Viva Connections Mobile App, developers must use the SPFx to create custom ACEs. To learn more about creating ACEs, see the following tutorial: [Build your first SharePoint Adaptive Card Extension](/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptive-card-extension). Learn more about [Viva Connections extensibility.](/sharepoint/dev/spfx/viva/overview-viva-connections)
+## Set up 3rd party cards and Microsoft apps
+
+The Viva Connections Dashboard and mobile experience can be extended and customized using cards, which are based on [adaptive cards](https://adaptivecards.io/) and the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview). These adaptive cards are used to display data, complete tasks, and connect to Teams Apps, Websites, and mobile apps on Viva Connections. They provide a low-code solution to bring your line-of-business apps into the Dashboard. 
+
+To create custom experiences on Viva Connections Dashboard and Viva Connections Mobile App, developers must use the SPFx to create custom ACEs. To learn more about creating ACEs, see the following tutorial: [Build your first SharePoint Adaptive Card Extension](/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptive-card-extension). Learn more about [Viva Connections extensibility.](/sharepoint/dev/spfx/viva/overview-viva-connections)
 
 
-### Use 3rd party applications
-There are 2 ways to acquire partner solution packages and install them on the Viva Connections dashboard:
-1.	Through Microsoft AppSource
-    a.	Add an App via the SharePoint Homesite
-    b.	Add an App via App Catalog
-2.	Directly from the ISV/Partner
+### Use 3rd party cards and applications
+There are 2 ways to acquire partner solution packages and install them on the Viva Connections Dashboard:
+1.	Through a Microsoft AppSource
+<br>
+    Option A: Add an App via the SharePoint Homesite
+    Option B: Add an App via the App Catalog
+    
+2.	Directly from the ISV or Partner
 
 #### Acquire the solution package from a Microsoft AppSource
 
@@ -184,12 +189,12 @@ Once you receive the package from the ISV partner, follow the **Work with Custom
 
 ## Apply audience targeting to cards
 
-By using audience targeting, you can promote cards to specific groups of people. This kind of targeting is useful when you want to present information that is especially relevant to a particular group of people. For example, you can target cards to a specific department.
+By using audience targeting, you can promote cards to specific groups of people. This kind of targeting is useful when you want to present information that is especially relevant to a particular group of people. For example, you can target cards to a specific department. Learn more about [audience targeting.](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) 
 
 ### Set the target audiences for a card
 
-1. If your page is not already in **edit** mode, click **Edit** at the top-right of the dashboard page.
-2. Select the card you want to target to one or more audiences, and click the **Edit card** pencil from the toolbar on the left.
+1. If your page is not already in **edit** mode, select **Edit** at the top-right of the Dashboard page.
+2. Select the card you want to target to one or more audiences, and select the **Edit card** pencil from the toolbar on the left.
 3. In the property pane on the right, under **Audiences to target**, type or search for the audience group(s) you want to target.
 
 
@@ -200,6 +205,7 @@ By using audience targeting, you can promote cards to specific groups of people.
 4. When a card is successfully audience targeted, you’ll see a **people** icon in the lower-left corner of the card.
 
    ![Audience targeting confirmation.](media/card-targeted-audience.png)
+
 
 
 ### Preview your dashboard to see how it will display for different audiences
