@@ -37,7 +37,7 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 - [Create a Dashboard and add cards](#create-a-dashboard-and-add-cards)
 - [Add a Web link card](#add-a-web-link-card)
 - [Add a Teams app card](#add-a-teams-app-card)
-- [Add a card from a third-party](#add-a-3rd-party-card-or-Microsoft-apps)
+- [Add a card from a third-party](##add-a-3rd-party-card-or-Microsoft-apps)
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
 - [Preview your Dashboard to see how it will display for different audiences and devices](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
 - [Put the Dashboard on your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections)
