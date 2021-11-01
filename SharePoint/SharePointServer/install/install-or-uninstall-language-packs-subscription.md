@@ -112,20 +112,6 @@ Verify that the user account that is performing this procedure is the Setup user
     
 8. After you install a new language pack and run the **SharePoint Products Configuration Wizard**, you must deactivate and then reactivate any language-specific features before you use the new language pack.
 
-### Uninstall a language pack on Windows Server with Desktop Experience
-
-1. From the **Start** menu, click **Control Panel**.
-
-2. Click **Uninstall** a program.
- 
-3. In the list of currently installed programs, select **Language Pack for SharePoint and Project Server Subscription Edition - Language** and then click **Uninstall**.
- 
-4. Click **Yes** to confirm that you want to remove the program.
- 
-5. Click **OK** in the dialog-box alerting you that this might result in partial loss of functionality for sites that depends on this language pack.
- 
-6. After the language pack has been successfully uninstalled, click **Close**. 
-
 ### Install a language pack on Windows Server Core
 
 Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
@@ -150,13 +136,29 @@ Verify that the user account that is performing this procedure is the Setup user
  
 8. Run **Install-SPApplicationContent**.
 
+
+### Uninstall a language pack on Windows Server with Desktop Experience
+
+1. From the **Start** menu, click **Control Panel**.
+
+2. Click **Uninstall** a program.
+ 
+3. In the list of currently installed programs, select **Language Pack for SharePoint and Project Server Subscription Edition - Language** and then click **Uninstall**.
+ 
+4. Click **Yes** to confirm that you want to remove the program.
+ 
+5. Click **OK** in the dialog-box alerting you that this might result in partial loss of functionality for sites that depends on this language pack.
+ 
+6. After the language pack has been successfully uninstalled, click **Close**. 
+
+
 ### Uninstall a language pack on Windows Server Core
 
 1. Run SharePoint setup (`setup.exe`) from your `%CommonProgramFiles%\Microsoft Shared\SERVER16\Server Setup Controller` directory with the following parameters:
 
     - `/config <config file>` (Where `<config file>` is the path to your `config.xml` file).
 
-    - `/uninstall OSMUI.<language tag>` (This parameter signifies the language pack language to uninstall).
+    - `/uninstall OSMUI.<language tag>` (This parameter signifies the language pack to uninstall).
     
     For example, the following PowerShell command is used to uninstall Japanese language pack:
 
