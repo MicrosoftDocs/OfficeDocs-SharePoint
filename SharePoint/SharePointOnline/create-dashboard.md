@@ -13,6 +13,7 @@ localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+- m365initiative-viva-connections
 search.appverid:
 - SPO160
 - MET150
@@ -24,15 +25,15 @@ description: "Learn how to create the Viva Connections Dashboard"
 >[!NOTE]
 >The information in this article relates to a preview product that may be modified before it's generally available.
 
-The Viva Connections Dashboard provides fast and easy access to key employee data and job-related tasks targeted to users across roles, markets, and job functions. A Dashboard can be built with no code, or a developer can create custom cards to meet the specific needs of an organization.
+The Viva Connections Dashboard provides fast and easy-access to information and job-related tasks. Content on the Dashboard can be targeted to users in specific roles, markets, and job functions. A Dashboard can be built with no code, or a developer can create custom cards to meet the specific needs of an organization.
 
 ![Image of a Dashboard example.](media/vc-hero2.png)
 
-Once certain prerequisites are met, the Dashboard is authored on your home site.  You can add it to Teams so that it's easily accessible to your users' mobile devices and desktops. And, you can add it to your home page using the Dashboard web part.
+Once [certain requirements are met](guide-to-setting-up-viva-connections.md), the Dashboard can be created and edited from your home site. You can add it to Microsoft Teams so that it's easily accessible to your users' mobile devices and desktops. You can also add it to your home page using the [Dashboard web part.](use-dashboard-web-part-on-home-site.md)
 
-The Dashboard consists of cards that provide for user interaction such as existing Teams apps, third-party apps, custom solutions, and internal and external links. 
+The Dashboard consists of cards that engage viewers with existing Teams apps, third-party apps, custom solutions, internal, and external links. 
 
-As you are building the Dashboard, you can see an approximation of how it will look on different devices. If you've audience targeted by any of the cards, use **preview** mode to see how it will look for different audiences. Then publish your Dashboard to make it available to users who have access to your home site.
+As you are building the Dashboard, you can see a preview of how it will display for targeted audiences and different devices. Then publish your Dashboard to make it available to users who have access to your home site.
 
 >[!NOTE]
 >Images are an important aspect to making your cards rich and inviting. If you're a SharePoint admin, we recommend enabling a Content Delivery Network (CDN) to improve performance for getting images. Consider when storing images that /siteassets is by default a CDN source when Private CDN is enabled while /style library is the default source when the Public CDN is enabled. [Learn more about CDNs](/office365/enterprise/content-delivery-networks).  
@@ -40,10 +41,11 @@ As you are building the Dashboard, you can see an approximation of how it will l
 
 This article includes:
 
-- [Create a Dashboard and add cards to it](#create-a-dashboard-and-add-cards)
+- [Create a Dashboard and add cards](#create-a-dashboard-and-add-cards)
 - [Add a Web link card](#add-a-web-link-card)
 - [Add a Teams app card](#add-a-teams-app-card)
-- [Audience targeting](#apply-audience-targeting-to-cards)
+- [Add a card from a third-party](#set-up-3rd-party-cards-and-Microsoft-apps)
+- [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
 - [Preview your Dashboard to see how it will display for different audiences](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
 - [Put the Dashboard on your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections)
 
