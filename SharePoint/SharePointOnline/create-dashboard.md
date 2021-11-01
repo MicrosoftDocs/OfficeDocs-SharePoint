@@ -156,8 +156,9 @@ A Teams app card allows you to create a card for an existing Teams app. To add a
 
 The Viva Connections dashboard and mobile experience can be extended and customized using cards, which are based on [adaptive cards](https://adaptivecards.io/) and the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview). These adaptive cards are used to display data, complete tasks, and connect to Teams Apps, Websites, and mobile apps on Viva Connections. They provide a low-code solution to bring your line-of-business apps into the Dashboard. To create custom experiences on Viva Connections Dashboard and Viva Connections Mobile App, developers must use the SPFx to create custom ACEs. To learn more about creating ACEs, see the following tutorial: [Build your first SharePoint Adaptive Card Extension](/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptive-card-extension). Learn more about [Viva Connections extensibility.](/sharepoint/dev/spfx/viva/overview-viva-connections)
 
-### Acquire 3rd party applications
-There are 2 ways to acquire partner solution package and install them on the Viva Connections dashboard:
+
+### Use 3rd party applications
+There are 2 ways to acquire partner solution packages and install them on the Viva Connections dashboard:
 1.	Through Microsoft AppSource
     a.	Add an App via the SharePoint Homesite
     b.	Add an App via App Catalog
@@ -181,14 +182,7 @@ Once you receive the package from the ISV partner, follow the **Work with Custom
 
 
 
-
-
-
-
-
-
-
-## Audience targeting
+## Apply audience targeting to cards on the Dashboard
 
 By using audience targeting, you can promote cards to specific groups of people. This kind of targeting is useful when you want to present information that is especially relevant to a particular group of people. For example, you can target cards to a specific department.
 
