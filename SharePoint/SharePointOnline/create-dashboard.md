@@ -37,7 +37,7 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 - [Create a Dashboard and add cards](#create-a-dashboard-and-add-cards)
 - [Add a Web link card](#add-a-web-link-card)
 - [Add a Teams app card](#add-a-teams-app-card)
-- [Add a card from a third-party](#add-3rd-party-cards-and-Microsoft-apps)
+- [Add a card from a third-party](#add-a-3rd-party-card-or-Microsoft-apps)
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
 - [Preview your Dashboard to see how it will display for different audiences and devices](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
 - [Put the Dashboard on your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections)
@@ -220,10 +220,10 @@ What you see in *preview mode* approximates how the Dashboard will display for c
 
    ![Audience targeting group label.](media/selecting-groups.png)
 
-    - Cards that targeted to a specific group will display.
-    - When one or more audiences are selected, cards that *do not* have audience targeting applied will also display.
-    - If no audiences are targeted, only cards that *are not* audience targeted will display. If there aren't any cards with audience targeting applied, none will display.
-    - If you are not part of one of the audiences you've selected, you will only see cards that are not audience targeted. If none are audience targeted, you won't see any cards.
+   - Cards that targeted to a specific group will display.
+   - When one or more audiences are selected, cards that *do not* have audience targeting applied will also display.
+   - If no audiences are targeted, only cards that *are not* audience targeted will display. If there aren't any cards with audience targeting applied, none will display.
+   - If you are not part of one of the audiences you've selected, you will only see cards that are not audience targeted. If none are audience targeted, you won't see any cards.
 
 
    #### Examples:
