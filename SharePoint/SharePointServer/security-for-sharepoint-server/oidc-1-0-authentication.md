@@ -346,7 +346,7 @@ To do this, perform the following steps:
 
 #### 1. Create new claim provider
 
-In the [previous step](#step-3-configure-sharepoint-to-trust-identity-provider) you have already created an OIDC `SPTrustedIdentityTokenIssuer` by using `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet. In this step, you will create a claim provider which uses the User Profile Application service to search and resolve users and groups in the People Picker and specifies to use the OIDC `SPTrustedIdentityTokenIssuer`:
+In the [previous step](#step-3-configure-sharepoint-to-trust-the-identity-provider) you have already created an OIDC `SPTrustedIdentityTokenIssuer` by using `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet. In this step, you will create a claim provider which uses the User Profile Application service to search and resolve users and groups in the People Picker and specifies to use the OIDC `SPTrustedIdentityTokenIssuer`:
 
   ```powershell
   $claimprovider = New-SPClaimProvider - AssemblyName "Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c" –DisplayName 'OIDC Claim Provider'-Type "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider" - TrustedTokenIssuer $tokenissuer
@@ -358,7 +358,7 @@ There are three parameters that need to be specified here:
 |------------|-------------|
 | AssemblyName | To be specified as "Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c". |
 | Type | To be specified as "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider" so that this command creates a claim provider which uses UPA as the claim source. |
-| TrustedTokenIssuer | To be specified as the OIDC `SPTrustedIdentityTokenIssuer` created in the [previous step](#step-3-configure-sharepoint-to-trust-identity-provider) which will use this claim provider. This is a new parameter the user needs to provide when the type of the claim provider is "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider". |
+| TrustedTokenIssuer | To be specified as the OIDC `SPTrustedIdentityTokenIssuer` created in the [previous step](#step-3-configure-sharepoint-to-trust-the-identity-provider) which will use this claim provider. This is a new parameter the user needs to provide when the type of the claim provider is "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider". |
 
 #### 2. Connect `SPTrustedIdentityTokenIssuer` with `SPClaimProvider`
 
