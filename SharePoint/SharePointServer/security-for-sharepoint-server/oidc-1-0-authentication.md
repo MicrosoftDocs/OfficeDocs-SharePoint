@@ -320,7 +320,7 @@ In this step, you create a team site collection with two administrators: One as 
 1. Open the SharePoint Central Administration site.
 2. Navigate to **Application Management** > **Create site collections** > **Create site collections**.
 3. Type a title, URL, and select the template Team Site.
-4. In the Primary Site Collection Administrator section, click the :::image type="content" source="../media/Book-icon.png" alt-text="Book-icon"::: (book) icon to open the People Picker dialog.
+4. In the Primary Site Collection Administrator section, click the :::image type="content" source="../media/Book-icon.png" alt-text="Book Icon People Picker"::: (book) icon to open the People Picker dialog.
 5. In the People Picker dialog, type the Windows administrator account, for example **yvand**.
 6. On the left, filter the list by selecting **Organizations**. Following is a sample output:
 
