@@ -61,7 +61,7 @@ During the crawl of library content, the following actions are performed on the 
 |Person or Group     |ows_q_USER_SiteColumnName   |SiteColumnNameOWSUSER   |Email, Display name, or Encoded claim. For example, ellenk@contoso.com, Ellen Kessels, or i:0#.w&#x7c;contoso\ellenk|
 |Hyperlink or Picture     |ows_q_URLH_SiteColumnName   |SiteColumnNameOWSURLH   |URL, description. For example, http://www.contoso.com, Welcome to the home page of Contoso.   |
 |Publishing HTML     |ows_r_HTML_SiteColumnName   |SiteColumnNameOWSHTML   |Html escaped enclosed in a paragraph tag. For example, \<p\>&amp;lt;div&amp;gt;&amp;lt;b&amp;gt;some html &amp;lt;/b&amp;&amp;lt;/div&amp;gt;\</p\>.   |
-|Publishing Image     |ows_q_IMGE_SiteColumnName   |SiteColumnNameOWSIMGE   |Html image tag. For example, \<img alt="" src="/sites/pub/SiteCollectionImages/home.jpg" style="BORDER&amp;#58;0px solid;" /\>.   |
+|Publishing Image     |ows_q_IMGE_SiteColumnName   |SiteColumnNameOWSIMGE   |Html image tag. For example, \<img alt="" src="/sites/pub/SiteCollectionImages/home.jpg" style="BORDER&amp;#58;0px solid;" \/>.   |
 |Publishing Link     |ows_q_LINK_SiteColumnName   |SiteColumnNameOWSLINK   |Html link tag. For example, \<a href="http&amp;#58;//www.microsoft.com" target="_blank" title="mytooltip"\>Microsoft Website\</a\>.   |
 |Managed Metadata     |ows_taxId_SiteColumnName   |owstaxIdSiteColumnName   |See "Data format for Managed Metadata" below.   |
 |Integer\*     |ows_q_INTG_SiteColumnName   |SiteColumnNameOWSINTG   |Textual representation of the integer.  <br/> This format cannot be used in a greater than or less than comparison with other integers. It should only be used when querying for and displaying an exact value.   |
