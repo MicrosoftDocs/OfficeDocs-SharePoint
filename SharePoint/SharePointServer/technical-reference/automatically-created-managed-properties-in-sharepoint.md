@@ -19,7 +19,7 @@ description: "Learn about the naming conventions for automatically created crawl
 # Automatically created managed properties in SharePoint Server
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
-    
+
 ## How site columns become managed properties
 <a name="BKMK_FromSiteColumnsToManagedProperties"> </a>
 
@@ -74,9 +74,9 @@ During the crawl of library content, the following actions are performed on the 
 \*Column creation not available through user interface.
   
 > [!NOTE]
->  Automatic creation of managed properties is not supported for the following site column types: >  Lookup >  Calculated >  Task outcome >  Summary Links data >  Rich media data for publishing 
+> Automatic creation of managed properties is not supported for the following site column types: >  Lookup >  Calculated >  Task outcome >  Summary Links data >  Rich media data for publishing 
   
- **Data format for Managed Metadata.**
+**Data format for Managed Metadata.**
   
 To query for items tagged with a Managed Metadata field, you have to use the Unique Identifier for each label. You can find the Unique Identifier for each term in a term set in the Term Store Management Tool, on the **GENERAL** tab. In addition, the data format that is used in the query has to specify from which level in the term set the query should apply. This specification is set by adding one of the following prefixes to the Unique Identifier: 
   
