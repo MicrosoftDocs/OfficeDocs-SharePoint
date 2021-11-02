@@ -48,7 +48,7 @@ During the crawl of library content, the following actions are performed on the 
   
 **Examples of automatically created crawled property names and managed property names for site columns without special characters**
 
-|**Site column type**|**Site column name**|**Crawled property name**|**Managed property name**|**Data format**|
+| Site column type | Site column name | Crawled property name | Managed property name | Data format |
 |:-----|:-----|:-----|:-----|:-----|
 |Single line of text  <br/> | Site Column Name  <br/> |ows_q_TEXT_SiteColumnName  <br/> |SiteColumnNameOWSTEXT  <br/> |As is.  <br/> |
 |Multiple lines of text  <br/> |Site Column Name  <br/> |ows_r_MTXT_SiteColumnName  <br/> |SiteColumnNameOWSMTXT  <br/> |As is.  <br/> |
@@ -106,7 +106,7 @@ The catalog entries and examples of queries are shown in the following tables.
   
 **Catalog entries for restaurants and locations**
 
-|**Restaurant**|**Location**|
+| Restaurant | Location |
 |:-----|:-----|
 |Restaurant 1  <br/> |Mumbai  <br/> |
 |Restaurant 2  <br/> |Mumbai  <br/> |
@@ -116,7 +116,7 @@ The catalog entries and examples of queries are shown in the following tables.
    
 **Query examples**
 
-|**Query for**|**Data format**|**Query will return**|
+| Query for | Data format | Query will return |
 |:-----|:-----|:-----|
 |All restaurants in Mumbai  <br/> |GP0|#ad491ed9-c21c-46d9-896c-c0d148957c60  <br/> |Restaurant 1, Restaurant 2  <br/> |
 |All restaurants in Delhi  <br/> |GP0|#c195b6e0-9062-446a-9af1-8ec1a642fede  <br/> |Restaurant 3  <br/> |
@@ -132,7 +132,7 @@ If a site column name contains diacritics, such as the German umlaut, or a non-s
   
 **Examples of automatically created crawled property names and managed property names for site columns with special or non-supported characters**
 
-|**Site column name**|**Crawled property name**|**Managed property name**|
+| Site column name | Crawled property name | Managed property name |
 |:-----|:-----|:-----|
 |Germanäö  <br/> |ows_q_TEXT_ Germanäö  <br/> |GermanOWSTEXT  <br/> |
 |Site_Column#  <br/> |ows_q_TEXT_Site_Column#  <br/> |SiteColumnOWSTEXT  <br/> |
@@ -147,7 +147,7 @@ The Product Catalog list in the Product Catalog site collection has six default 
   
 **Automatically created crawled property names and managed property names for site columns that belong to the Product Catalog content type**
 
-|**Site column name**|**Crawled property name**|**Managed property name**|
+| Site column name | Crawled property name | Managed property name |
 |:-----|:-----|:-----|
 |Title  <br/> |Title  <br/> |Title  <br/> |
 |Item Number  <br/> |ows_q_TEXT_ProductCatalogItemNumber  <br/> |ProductCatalogItemNumberOWSTEXT  <br/> |
