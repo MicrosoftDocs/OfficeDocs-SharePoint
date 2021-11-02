@@ -48,28 +48,28 @@ During the crawl of library content, the following actions are performed on the 
   
 **Examples of automatically created crawled property names and managed property names for site columns without special characters**
 
-| Site column type | Site column name | Crawled property name | Managed property name | Data format |
+| Site column type | Crawled property name | Managed property name | Data format |
 |:-----|:-----|:-----|:-----|:-----|
 |Single line of text   | Site Column Name   |ows_q_TEXT_SiteColumnName   |SiteColumnNameOWSTEXT   |As is.   |
-|Multiple lines of text   |Site Column Name   |ows_r_MTXT_SiteColumnName   |SiteColumnNameOWSMTXT   |As is.   |
-|Choice   |Site Column Name   |ows_q_CHCS_SiteColumnName   |SiteColumnNameOWSCHCS   |The text value of the choice.   |
-|Choice (allow multiple selections)   |Site Column Name   |ows_q_CHCM_SiteColumnName   |SiteColumnNameOWSCHCM   |Selected values separated by semicolon and hash mark — for example, MultiValue 2;# MultiValue 4;#.   |
-|Number   |Site Column Name   |ows_q_NMBR_SiteColumnName   |SiteColumnNameOWSNMBR   |Textual representation of the number. The value will use dot as a decimal symbol.  <br/> This format cannot be used in a greater than or less than comparison with other integers. It should only be used when querying for and displaying an exact value.   |
-|Currency   |Site Column Name   |ows_q_CURR_SiteColumnName   |SiteColumnNameOWSCURR   |Textual representation of the number. The value will use dot as a decimal symbol.  <br/> This format cannot be used in a greater than or less than comparison with other integers. It should only be used when querying for and displaying an exact value.   |
-|Date and Time   |Site Column Name   |ows_q_DATE_SiteColumnName   |SiteColumnNameOWSDATE   |Textual representation of the date in the format YYYY-MM-DDTHH:MM:SSZ. For example, December 25, 2012, 7 AM GMT is 2012-12-25T07:00:00Z.  <br/> This format cannot be used in a greater than or less than comparison with other dates. It should only be used when querying for and displaying an exact date.   |
-|Yes/No   |Site Column Name   |ows_q_BOOL_SiteColumnName   |SiteColumnNameOWSBOOL   |For true, use value 1. For false, use value 0.   |
-|Person or Group   |Site Column Name   |ows_q_USER_SiteColumnName   |SiteColumnNameOWSUSER   |Email, Display name, or Encoded claim. For example, ellenk@contoso.com, Ellen Kessels, or i:0#.w&#x7c;contoso\ellenk|
-|Hyperlink or Picture   |Site Column Name   |ows_q_URLH_SiteColumnName   |SiteColumnNameOWSURLH   |URL, description. For example, http://www.contoso.com, Welcome to the home page of Contoso.   |
-|Publishing HTML   |Site Column Name   |ows_r_HTML_SiteColumnName   |SiteColumnNameOWSHTML   |Html escaped enclosed in a paragraph tag. For example, \<p\>&amp;lt;div&amp;gt;&amp;lt;b&amp;gt;some html &amp;lt;/b&amp;&amp;lt;/div&amp;gt;\</p\>.   |
-|Publishing Image   |Site Column Name   |ows_q_IMGE_SiteColumnName   |SiteColumnNameOWSIMGE   |Html image tag. For example, \<img alt="" src="/sites/pub/SiteCollectionImages/home.jpg" style="BORDER&amp;#58;0px solid;" /\>.   |
-|Publishing Link   |Site Column Name   |ows_q_LINK_SiteColumnName   |SiteColumnNameOWSLINK   |Html link tag. For example, \<a href="http&amp;#58;//www.microsoft.com" target="_blank" title="mytooltip"\>Microsoft Website\</a\>.   |
-|Managed Metadata   |Site Column Name   |ows_taxId_SiteColumnName   |owstaxIdSiteColumnName   |See "Data format for Managed Metadata" below.   |
-|Integer\*   |Site Column Name   |ows_q_INTG_SiteColumnName   |SiteColumnNameOWSINTG   |Textual representation of the integer.  <br/> This format cannot be used in a greater than or less than comparison with other integers. It should only be used when querying for and displaying an exact value.   |
-|GUID\*   |Site Column Name   |ows_q_GUID_SiteColumnName   |SiteColumnNameOWSGUID   |Values separated by hyphens, enclosed in brackets. For example, {147C6BA1-709C-4401-964A-27AC36B62C54}.   |
-|Grid Choice\*   |Site Column Name   |ows_q_CHCG_SiteColumnName   |SiteColumnNameOWSCHCG   |For each row, row name separated by semi-colon and hash mark, followed by the selected value.   |
-|ContentTypeIDFieldType\*   |Site Column Name   |ows_q_CTID_SiteColumnName   |SiteColumnNameOWSCTID   |Name:#ContentTypeID;#   |
-|SPS average rating   |Site Column Name   |ows_q_RAVG_SiteColumnName   |SiteColumnNameOWSRAVG   |Textual representation of the number. The value will use dot as a decimal symbol.   |
-|SPS rating count   |Site Column Name   |ows_q_RCNT_SiteColumnName   |SiteColumnNameOWSRCNT   |Textual representation of the integer.   |
+|Multiple lines of text     |ows_r_MTXT_SiteColumnName   |SiteColumnNameOWSMTXT   |As is.   |
+|Choice     |ows_q_CHCS_SiteColumnName   |SiteColumnNameOWSCHCS   |The text value of the choice.   |
+|Choice (allow multiple selections)     |ows_q_CHCM_SiteColumnName   |SiteColumnNameOWSCHCM   |Selected values separated by semicolon and hash mark — for example, MultiValue 2;# MultiValue 4;#.   |
+|Number     |ows_q_NMBR_SiteColumnName   |SiteColumnNameOWSNMBR   |Textual representation of the number. The value will use dot as a decimal symbol.  <br/> This format cannot be used in a greater than or less than comparison with other integers. It should only be used when querying for and displaying an exact value.   |
+|Currency     |ows_q_CURR_SiteColumnName   |SiteColumnNameOWSCURR   |Textual representation of the number. The value will use dot as a decimal symbol.  <br/> This format cannot be used in a greater than or less than comparison with other integers. It should only be used when querying for and displaying an exact value.   |
+|Date and Time     |ows_q_DATE_SiteColumnName   |SiteColumnNameOWSDATE   |Textual representation of the date in the format YYYY-MM-DDTHH:MM:SSZ. For example, December 25, 2012, 7 AM GMT is 2012-12-25T07:00:00Z.  <br/> This format cannot be used in a greater than or less than comparison with other dates. It should only be used when querying for and displaying an exact date.   |
+|Yes/No     |ows_q_BOOL_SiteColumnName   |SiteColumnNameOWSBOOL   |For true, use value 1. For false, use value 0.   |
+|Person or Group     |ows_q_USER_SiteColumnName   |SiteColumnNameOWSUSER   |Email, Display name, or Encoded claim. For example, ellenk@contoso.com, Ellen Kessels, or i:0#.w&#x7c;contoso\ellenk|
+|Hyperlink or Picture     |ows_q_URLH_SiteColumnName   |SiteColumnNameOWSURLH   |URL, description. For example, http://www.contoso.com, Welcome to the home page of Contoso.   |
+|Publishing HTML     |ows_r_HTML_SiteColumnName   |SiteColumnNameOWSHTML   |Html escaped enclosed in a paragraph tag. For example, \<p\>&amp;lt;div&amp;gt;&amp;lt;b&amp;gt;some html &amp;lt;/b&amp;&amp;lt;/div&amp;gt;\</p\>.   |
+|Publishing Image     |ows_q_IMGE_SiteColumnName   |SiteColumnNameOWSIMGE   |Html image tag. For example, \<img alt="" src="/sites/pub/SiteCollectionImages/home.jpg" style="BORDER&amp;#58;0px solid;" /\>.   |
+|Publishing Link     |ows_q_LINK_SiteColumnName   |SiteColumnNameOWSLINK   |Html link tag. For example, \<a href="http&amp;#58;//www.microsoft.com" target="_blank" title="mytooltip"\>Microsoft Website\</a\>.   |
+|Managed Metadata     |ows_taxId_SiteColumnName   |owstaxIdSiteColumnName   |See "Data format for Managed Metadata" below.   |
+|Integer\*     |ows_q_INTG_SiteColumnName   |SiteColumnNameOWSINTG   |Textual representation of the integer.  <br/> This format cannot be used in a greater than or less than comparison with other integers. It should only be used when querying for and displaying an exact value.   |
+|GUID\*     |ows_q_GUID_SiteColumnName   |SiteColumnNameOWSGUID   |Values separated by hyphens, enclosed in brackets. For example, {147C6BA1-709C-4401-964A-27AC36B62C54}.   |
+|Grid Choice\*     |ows_q_CHCG_SiteColumnName   |SiteColumnNameOWSCHCG   |For each row, row name separated by semi-colon and hash mark, followed by the selected value.   |
+|ContentTypeIDFieldType\*     |ows_q_CTID_SiteColumnName   |SiteColumnNameOWSCTID   |Name:#ContentTypeID;#   |
+|SPS average rating     |ows_q_RAVG_SiteColumnName   |SiteColumnNameOWSRAVG   |Textual representation of the number. The value will use dot as a decimal symbol.   |
+|SPS rating count     |ows_q_RCNT_SiteColumnName   |SiteColumnNameOWSRCNT   |Textual representation of the integer.   |
    
 \*Column creation not available through user interface.
   
