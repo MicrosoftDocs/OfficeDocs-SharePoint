@@ -79,6 +79,13 @@ The following table details the settings available in SPMT.  Advanced settings s
 |Migrate lists with lookup columns|This setting controls the behavior of migrating all lists referenced in lookup columns.  Options include:  *Migrate all lists referenced in lookup columns*, *Ignore lookup columns in migrated lists*, and *Only report error for any list with a lookup column. Do not migrate.*   This setting is only available if the source selected in a task is a list.  If you are doing a site migration, SPMT will automatically migrate all referred lists, so this setting will not appear to the user.
 
 
+**Workflow migration**
+
+
+|**Setting**|**Description**|
+|:-----|:-----|
+|Default flow owner|The names of the default owner of the Power Automate flow.|
+
 
 **Advanced**
 
