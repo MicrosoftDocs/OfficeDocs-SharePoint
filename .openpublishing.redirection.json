@@ -461,6 +461,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "sharepoint/sharepointonline/tenant-rename.md",
+      "redirect_url": "/sharepoint/change-your-sharepoint-domain-name",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "SharePoint/SharePointServer/what-s-new/new-features-in-feature-pack-1.md",
       "redirect_url": "/SharePoint/SharePointServer/what-s-new/new-features-november-2016",
       "redirect_document_id": false
