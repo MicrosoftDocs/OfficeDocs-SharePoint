@@ -145,6 +145,7 @@
 ### [Control notifications](notifications.md)
 ### [Use information barriers](information-barriers.md)
 ### [Configure information barriers compliance assistant](information-barriers-compliance-assistant.md)
+### [Create an information barriers policy report](info-barriers-report.md)
 ### [Sign out inactive users](sign-out-inactive-users.md)
 ## [Content services]()
 ### [Term store]()
