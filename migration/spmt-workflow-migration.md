@@ -1,5 +1,5 @@
 ---
-title: "SPMT Workflow migration user guide"
+title: "Migrating workflows with the SharePoint Migration Tool (SPMT)"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -19,16 +19,14 @@ ms.assetid:
 description: "Migrate your SharePoint Server workflows to Microsoft 365 using the SharePoint Migration Tool (SPMT)"
 ---
 
-# Migrate SharePoint Server workflows to Microsoft 365 User Guide (preview)
+# Migrate SharePoint Server workflows to Microsoft 365
 
-Microsoft removed SharePoint 2010 workflow services from existing tenants on November 1, 2020. We recommend that you move your classic SharePoint workflows to Power Automate flows. 
+Microsoft removed SharePoint 2010 workflow services from existing tenants on November 1, 2020. We recommend that you move your classic SharePoint Server workflows to Power Automate flows. 
 
-This document describes the tool, released with SPMT, which helps customers autoconvert workflow to Power Automate.
+Using the SharePoint Migration Tool (SPMT), you can now migrate your SharePoint Server flows to Microsoft 365.
+Workflow migration is limited to:
 
-
-The SharePoint Migration tool workflow migration is limited to:
-
-•	List and library OOB ("out-of-box) approval workflows
+•	List and library OOB ("out-of-box") approval workflows
 •	Workflow definitions and associations
 
 History data and draft definitions are not migrated. 
@@ -37,14 +35,16 @@ History data and draft definitions are not migrated.
 
 The following endpoints are required by workflow migration.
 
-•	https://service.powerapps.com 
-•	https://api.bap.microsoft.com
-•	https://gov.service.powerapps.us
-•	https://gov.api.bap.microsoft.us
-•	https://high.service.powerapps.us
-•	https://high.api.bap.microsoft.us
-•	https://service.apps.appsplatform.us
-•	https://api.bap.appsplatform.us
+|Endpoint|Description|
+|:-----|:-----|
+|https://service.powerapps.com |
+|https://api.bap.microsoft.com|
+|https://gov.service.powerapps.us|
+|https://gov.api.bap.microsoft.us|
+|https://high.service.powerapps.us|
+|https://high.api.bap.microsoft.us|
+|https://service.apps.appsplatform.us|
+|https://api.bap.appsplatform.us|
 
 
 ## Configure Power Automate 
@@ -59,83 +59,16 @@ If your tenant has never used Power Automate before, you must configure it befor
 3.	Wait for "State" status to change to **Ready**.
 4.	To sync AAD user to CDS, sign in to **Microsoft Power Automate | Microsoft Power Platform** with the account you’d like to set as the default flow owner.
 
+## Migrate workflows
+
+1. Start SPMT, and then enter your Microsoft 365 username and password.    
+2. Select **Start your first migration**.
+3. Select **Workflow migration**.
+4. Enter the URL of the SharePoint Server workflow you want to migrate and select which workflows to include in the migration. Select **Next**.
+5. Enter your destination; the SharePoint site and list where you want to migrate your content.  If the site or the list doesn't currently exist, they will be created for you. Select **Next**. 
+6. Review your migrations.  Select **Add another task** to select another set of files to migrate.
 
 
-## Sample PowerShell script
-
-```powershell
-
-Import-Module "$((Resolve-Path .\).Path)\Microsoft.SharePoint.MigrationTool.PowerShell.dll"
-
-clear
-Remove-Variable * -ErrorAction SilentlyContinue
-
-$currentFolder = (Resolve-Path .\).Path
-$userMappingFile = "$($currentFolder)\Sample-UserMap.csv"
-$defaultOwnerName = "please enter flow owner email here"
-
-$targetSite = "please enter destination site URL here"
-$targetUserName = "please enter destination site admin user email here"
-$targetPassWord = ConvertTo-SecureString -String "please enter destination user password here" -AsPlainText -Force 
-$targetCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $targetUserName, $targetPassWord
-
-Register-SPMTMigration -SPOCredential $targetCredential -UserMappingFile $userMappingFile -IgnoreUpdate -MigrationType WORKFLOW -DefaultFlowOwnerEmail $defaultOwnerName -Force
-
-$sourceSite = "please enter source site URL here"
-$sourceUsername = "please enter source site admin username here"
-$sourcePassword = ConvertTo-SecureString -String "please enter destination user password here" -AsPlainText -Force
-$sourceCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $sourceUsername, $sourcePassword
-Add-SPMTTask -SharePointSourceCredential $sourcecredential -SharePointSourceSiteUrl $sourceSite -TargetSiteUrl $targetSite `
-#-SourceList "please enter source list name here" -TargetList "please enter destination list name here"
-
-Write-Host "Start migration"
-$StartTime = [DateTime]::UtcNow
-
-# Let the migration run in background using NoShow mode
-Start-SPMTMigration
-
-$migration = Get-SPMTMigration
-
-# open report folder
-start $migration.ReportFolderPath
-
-```
-
-## Migrate workflow to Power Automate
-
-PowerShell is available to help users migrate workflows to PA flows. 
-
-### Scan workflows
-
-This command scans workflows of a given site or list and generates a scan report. 
-
-```powershell
-
-Register-SPMTMigration -ScanOnly $true -SPOCredential $targetCredential -UserMappingFile $userMappingFile -MigrationType WORKFLOW -DefaultFlowOwnerEmail  $defaultOwnerName -Force
-...
-Start-SPMTMigration
-
-```
-
-### Migrate workflows
-
-This command migrates workflows to Power Automate. It migrates workflow of given site or list, generate a migration package, import the package to PA and generate a migration report. 
-
-**MigrationType**
-
-When MigrationType is WORKFLOW, if the structure has not been migrated yet, the command does migrate site or list structure (not content), then migrate its workflows.
-
-**DefaultFlowOwnerEmail**
-
-Default flow owner is required for OOTB Approval workflow because there isn’t an owner in workflow definition. After migration, only flow owner and Power Automate admin can access the migrated flows. If the given owner email is not a valid user at destination, migration will fail. The flow owner also needs to have permission to access the destination SPO list.
-
-```powershell
-
-> Register-SPMTMigration -SPOCredential $targetCredential -UserMappingFile $userMappingFile -MigrationType WORKFLOW -DefaultFlowOwnerEmail $defaultOwnerName -Force
-...
-Start-SPMTMigration
-
-```
 
 ## Migrations report
 
