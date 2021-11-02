@@ -18,7 +18,7 @@ description: "Create a plan for your Microsoft Business Connectivity Services so
 
 # Plan a Business Connectivity Services solution in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Microsoft Business Connectivity Services solutions integrate external data deeply into SharePoint Server and Office. Each Business Connectivity Services solution is custom-built using Visual Studio. There are no out-of-the-box Business Connectivity Services configurations or templates that you can use.
   

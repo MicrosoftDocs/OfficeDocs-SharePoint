@@ -20,7 +20,7 @@ description: "This article describes the versions of the Secure Sockets Layer (S
 
 # Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol support in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 SharePoint Server supports the following versions of the TLS protocol:
   

@@ -20,7 +20,7 @@ description: "Lists the minimum hardware and software requirements to install an
 
 # Hardware and software requirements for SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 > [!IMPORTANT]
 > If you contact Microsoft Customer Support Services about a production system that does not meet the minimum hardware specifications described in this document, support will be limited until the system is upgraded to the minimum requirements. 
@@ -43,7 +43,7 @@ If you plan to use capabilities that are offered through SharePoint 2013 or thro
     
 - For eDiscovery, each front-end web server must have the Exchange Web Services Managed API, version 1.2 installed. For more information, see the following articles:
     
-  - [Configure eDiscovery in SharePoint Server](../governance/configure-ediscovery-0.md)
+  - [Configure eDiscovery in SharePoint Server](../governance/configure-ediscovery-2019.md)
     
   - [Configure Exchange for SharePoint eDiscovery Center](/exchange/configure-exchange-for-sharepoint-ediscovery-center-exchange-2013-help)
     
@@ -196,8 +196,6 @@ Minimum requirements for a single server with built-in database:
     
   - SQL Server 2008 R2 SP1 Native Client
     
-  - Microsoft WCF Data Services 5.0
-    
   - Microsoft Information Protection and Control Client (MSIPC)
     
   - Microsoft Sync Framework Runtime v1.0 SP1 (x64)
@@ -248,8 +246,6 @@ Minimum requirements for front-end web servers and application servers in a farm
   - Microsoft .NET Framework version 4.5
     
   - SQL Server 2008 R2 SP1 Native Client
-    
-  - Microsoft WCF Data Services 5.0
     
   - Microsoft Information Protection and Control Client (MSIPC)
     
@@ -331,8 +327,6 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Workflow Manager](https://go.microsoft.com/fwlink/p/?LinkID=252092)
     
-- [WCF Data Services 5.0 for OData](https://go.microsoft.com/fwlink/p/?LinkId=238821)
-    
 - [Microsoft Information Protection and Control Client (MSIPC)](https://go.microsoft.com/fwlink/p/?LinkID=219568)
     
 - [Windows Management Framework 3.0](https://go.microsoft.com/fwlink/p/?LinkId=273961) which includes Microsoft PowerShell 3.0 
@@ -361,7 +355,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - Microsoft SQL Server 2012 with Service Pack 1 (SP1) LocalDB 64-bit edition, which is also a component of SQL Server 2012 with Service Pack 1 (SP1) Express - [ENU\x64\SqlLocalDB.msi](https://go.microsoft.com/fwlink/p/?LinkId=262352)
     
-- [Microsoft SQL Server 2014](/sql/sql-server/sql-server-technical-documentation?view=sql-server-2017)
+- [Microsoft SQL Server 2014](/sql/sql-server/sql-server-technical-documentation)
     
 ## Prerequisite installer operations and command-line options
 <a name="section7"> </a>
@@ -384,19 +378,17 @@ The SharePoint 2013 prerequisite installer (prerequisiteinstaller.exe) installs 
     
 8. Microsoft Information Protection and Control Client
     
-9. Microsoft WCF Data Services 5.0
+9. Windows Server AppFabric
     
-10. Windows Server AppFabric
+10. Cumulative Update Package 1 for Microsoft AppFabric 1.1 for Windows Server (KB 2671763)
     
-11. Cumulative Update Package 1 for Microsoft AppFabric 1.1 for Windows Server (KB 2671763)
-    
-You can run prerequisiteinstaller.exe at a command prompt with the following options. When you run prerequisiteinstaller.exe at a command prompt, you may be asked to restart the server one or more times during the installation process. After rebooting, you should continue the prerequisite installation by running prerequisiteinstaller.exe with the /continue option.
+You can run prerequisiteinstaller.exe at a command prompt with the following options. When you run prerequisiteinstaller.exe at a command prompt, you may be asked to restart the server one or more times during the installation process. After rebooting, you should continue the prerequisite installation by running prerequisiteinstaller.exe with the `/continue` option.
   
-- /? Display command-line options
+- `/?` Display command-line options
     
-- /continue This is used to tell the installer that it is continuing from a restart
+- `/continue` is used to tell the installer that it is continuing from a restart
     
-- /unattended No user interaction
+- `/unattended` No user interaction
     
 The installer installs from the file that you specify in the command-line options described in the following list. In this list, < _file_> signifies the file from which you want to install. If you do not specify the < _file_> option, the installer downloads the file from the Internet and installs it. If the option does not apply to the current operating system, it is ignored.
   
@@ -418,8 +410,6 @@ The installer installs from the file that you specify in the command-line option
     
 - **/MSIPCClient:< _file_>** Install Microsoft Information Protection and Control Client from <  _file_>
     
-- **/WCFDataServices:< _file_>** Install Microsoft WCF Data Services from <  _file_>
-    
 ### Installation options
 
 Certain prerequisites are installed by the prerequisite installer with specific options. Those prerequisites with specific installation options are listed below with the options that are used by the prerequisite installer.
@@ -427,9 +417,5 @@ Certain prerequisites are installed by the prerequisite installer with specific 
 - Windows AppFabric
     
     /i CacheClient,CachingService,CacheAdmin /gac
-    
-- Microsoft WCF Data Services
-    
-    /quiet
     
 The prerequisite installer creates log files at %TEMP%\prerequisiteinstaller.\<date\>.\<time\>.log. You can check these log files for specific details about all changes the installer makes to the target computer.

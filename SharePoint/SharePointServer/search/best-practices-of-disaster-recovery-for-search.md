@@ -17,7 +17,7 @@ description: "Learn how to implement best practice disaster recovery for search 
 
 # Disaster recovery best practices and strategies for SharePoint search
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
 Learn how to implement best practice disaster recovery for search in a SharePoint Server farm.
   
@@ -333,10 +333,10 @@ For additional information, we recommend that you use the following resources.
     
 In addition to the options that are provided in these articles and in this paper, there are other methods that you can use to back up and restore the search service application in SharePoint Server. These methods are more fine grained and involve independently restoring the search indexes and search databases to a new farm. We haven't covered these steps, but if you are considering a scripted approach, we recommend that you start by reviewing the following resources.
   
-- [Get-SPEnterpriseSearchServiceApplicationBackupStore](/powershell/module/sharepoint-server/Get-SPEnterpriseSearchServiceApplicationBackupStore?view=sharepoint-ps)
+- [Get-SPEnterpriseSearchServiceApplicationBackupStore](/powershell/module/sharepoint-server/Get-SPEnterpriseSearchServiceApplicationBackupStore?view=sharepoint-ps&preserve-view=true)
     
-- [Restore-SPEnterpriseSearchServiceApplication](/powershell/module/sharepoint-server/Restore-SPEnterpriseSearchServiceApplication?view=sharepoint-ps)
+- [Restore-SPEnterpriseSearchServiceApplication](/powershell/module/sharepoint-server/Restore-SPEnterpriseSearchServiceApplication?view=sharepoint-ps&preserve-view=true)
     
-- [Restore-SPEnterpriseSearchServiceApplicationIndex](/powershell/module/sharepoint-server/Restore-SPEnterpriseSearchServiceApplicationIndex?view=sharepoint-ps)
+- [Restore-SPEnterpriseSearchServiceApplicationIndex](/powershell/module/sharepoint-server/Restore-SPEnterpriseSearchServiceApplicationIndex?view=sharepoint-ps&preserve-view=true)
     
 - [Back up and restore a search service application in SharePoint 2013 using VSS](/sharepoint/dev/general-development/how-to-back-up-and-restore-a-search-service-application-in-sharepoint-using). .

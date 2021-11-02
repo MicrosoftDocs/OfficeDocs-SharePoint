@@ -17,7 +17,7 @@ description: "Learn to configure scheduled data refresh in Power Pivot for Share
 
 # Configure scheduled data refresh for Power Pivot by using Secure Store (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 > [!IMPORTANT]
 > This scenario applies only to SharePoint Server 2013. 

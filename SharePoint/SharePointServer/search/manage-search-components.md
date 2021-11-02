@@ -18,7 +18,7 @@ description: "Learn how to use Windows PowerShell to manage search components in
 
 # Manage search components in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The procedures and the examples in this article assume that SharePoint ServerSharePoint Server and the Search service application are installed, and that there is an existing search topology and items in the SharePoint Server search index. If SharePoint Server and the Search service application are newly installed and there are no items in the SharePoint Server search index, follow the procedures in [Change the default search topology in SharePoint Server](change-the-default-search-topology.md).
   

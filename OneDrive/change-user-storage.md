@@ -119,6 +119,6 @@ When you need cloud storage for individual users beyond the initial 5 TB, additi
 
 
 > [!NOTE]
-> To change the storage space for multiple users, use PowerShell to [Display a list of OneDrive accounts by using PowerShell](list-onedrive-urls.md) and use [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite?preserve-view=true&view=sharepoint-ps) to make the change.
+> To change the storage space for multiple users, use PowerShell to [Display a list of OneDrive accounts by using PowerShell](list-onedrive-urls.md) and use [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite?preserve-view=true&view=sharepoint-ps&preserve-view=true) to make the change.
 > 
 > To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](/sharepoint/manage-user-profiles).

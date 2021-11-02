@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -19,7 +19,7 @@ description: "Learn about Microsoft Identity Manager (MIM) and how it's used for
 
 # Install Microsoft Identity Manager for User Profiles in SharePoint Servers 2016 and 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
   
  **Contents**
   
