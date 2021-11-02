@@ -20,7 +20,7 @@ description: "SharePoint 2013 supports Internet Protocol Version 4 (IPv4) and In
 
 # IP support in SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 SharePoint Server 2013 supports the following environments:
   

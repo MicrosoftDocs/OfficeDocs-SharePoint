@@ -20,7 +20,7 @@ description: "Learn how to update a web application and IIS bindings for SharePo
 
 # Update a web application URL and IIS bindings for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 After you have extended a web application into a zone with a set of Internet Information Services (IIS) bindings and alternate access mapping URLs, you might decide that you want to use a different URL to reach the web application. For example, you might have originally created a web application to use HTTP and later decide to use SSL instead. Or, you might create a web application to use the www.contoso1.com host header and then decide to use the www.contoso2.com host header instead. This article provides detailed guidance for changing the URL and IIS bindings of a web application.
   

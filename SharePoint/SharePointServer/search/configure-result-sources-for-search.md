@@ -18,7 +18,7 @@ description: "Learn how to create and manage result sources in SharePoint Server
 
 # Configure result sources for search in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Result sources limit searches to certain content or to a subset of search results. SharePoint Server provides 16 pre-defined result sources for the classic search experience. The pre-configured default result source is **Local SharePoint Results**. You can specify a different result source as the default. The modern search experience uses the default results source, so if you change the default result source for classic search, you also change it for modern search. For more information, see [Understanding result sources for search in SharePoint Server](understanding-result-sources-for-search.md).
 

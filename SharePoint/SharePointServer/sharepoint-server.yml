@@ -1,7 +1,7 @@
 ### YamlMime:Landing
 
 title: SharePoint Server # < 60 chars
-summary: This guide helps IT Pros plan, deploy, and manage SharePoint Server 2013, 2016 and 2019. # < 160 chars
+summary: This guide helps IT Pros plan, deploy, and manage SharePoint Server Subscription Edition, 2019, 2016, and 2013. # < 160 chars
 
 metadata:
   title: Learn about how to use SharePoint Server. # Required; page title displayed in search results. Include the brand. < 60 chars.
@@ -54,7 +54,9 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links:
-          - text: Hardware and software requirements
+          - text: Hardware and software requirements for SharePoint Server Subscription Edition 
+            url: install/system-requirements-for-sharepoint-subscription-edition.md
+          - text: Hardware and software requirements for 2019
             url: install/hardware-and-software-requirements-2019.md
           - text: Hybrid
             url: hybrid/sharepoint-hybrid-sites-and-search.md
@@ -96,6 +98,8 @@ landingContent:
     linkLists:
       - linkListType: deploy
         links:
+          - text: Upgrade to SharePoint Server Subscription Edition
+            url: upgrade-and-update/upgrade-to-sharepoint-server-subscription-edition.md
           - text: Upgrade to SharePoint Server 2019
             url: upgrade-and-update/upgrade-to-sharepoint-server-2019.md
           - text: Upgrade to SharePoint Server 2016

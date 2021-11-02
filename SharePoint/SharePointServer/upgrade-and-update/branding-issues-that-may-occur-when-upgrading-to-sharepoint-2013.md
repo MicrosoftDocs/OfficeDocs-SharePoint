@@ -8,7 +8,7 @@ ms.date: 7/27/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -20,7 +20,7 @@ description: "Learn how to address issues with branding, such as custom CSS, cus
 
 # Branding issues that may occur when upgrading to SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 SharePoint 2013 introduces a new user interface that is lightweight, fast, and fluid. This UI is built by using new CSS styles, themes, and master pages. To get this new experience, you must upgrade to the new UI. But the significant changes that were made to support the new UI may break the upgrade story for some scenarios where you use custom branding.
   

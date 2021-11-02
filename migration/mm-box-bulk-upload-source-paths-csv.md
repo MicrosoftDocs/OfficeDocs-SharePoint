@@ -33,8 +33,6 @@ Migration Manager lets you bulk upload your Box source paths using a comma-separ
 
 ## Formatting your CSV file
 
-
-
 ![Format for bulk uploading Box source files into Migration Manager](media/mm-box-csv-bulk-upload-source.png)
 
 

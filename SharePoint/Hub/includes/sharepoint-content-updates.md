@@ -2,6 +2,33 @@
 
 
 
+## Week of October 25, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/25/2021 | [Control access from unmanaged devices](/SharePoint/control-access-from-unmanaged-devices) | modified |
+| 10/25/2021 | [Manage site creation in SharePoint](/SharePoint/manage-site-creation) | modified |
+| 10/25/2021 | [Use the new SharePoint app bar and set up global navigation](/SharePoint/sharepoint-app-bar) | modified |
+| 10/26/2021 | [Set up global navigation in the SharePoint app bar](/SharePoint/sharepoint-app-bar) | modified |
+| 10/28/2021 | [Use information barriers with SharePoint](/SharePoint/information-barriers) | modified |
+| 10/28/2021 | [Creating and launching a healthy SharePoint portal](/SharePoint/portal-health) | modified |
+
+
+## Week of October 18, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/18/2021 | [Manage site redirects](/SharePoint/manage-site-redirects) | modified |
+| 10/18/2021 | [Rename your SharePoint domain](/SharePoint/tenant-rename) | modified |
+| 10/19/2021 | [Create a site](/SharePoint/create-site-collection) | modified |
+| 10/20/2021 | [File collaboration in Microsoft 365 - SharePoint](/SharePoint/intro-to-file-collaboration) | modified |
+| 10/21/2021 | [Guide to setting up Viva Connections (Preview)](/SharePoint/guide-to-setting-up-viva-connections) | modified |
+| 10/21/2021 | [Overview: Viva Connections (Preview)](/SharePoint/viva-connections-overview) | modified |
+| 10/22/2021 | [Create an organization assets library](/SharePoint/organization-assets-library) | modified |
+
+
 ## Week of October 11, 2021
 
 
@@ -124,60 +151,3 @@
 | 10/1/2021 | [Onboard new employees into your organization](/SharePoint/onboard-employees) | modified |
 | 10/1/2021 | [Plan your communication strategy](/SharePoint/plan-communication-strategy) | modified |
 | 10/1/2021 | [Review communication tools](/SharePoint/review-communication-apps) | modified |
-
-
-## Week of September 20, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/20/2021 | [Create the Viva Connections Dashboard (Preview)](/SharePoint/create-dashboard) | added |
-| 9/20/2021 | [Guide to setting up Viva Connections (Preview)](/SharePoint/guide-to-setting-up-viva-connections) | added |
-| 9/20/2021 | [The Viva Connections Dashboard web part(Preview)](/SharePoint/use-dashboard-web-part-on-home-site) | added |
-| 9/21/2021 | [Distribute corporate news to your organization](/SharePoint/distribute-corporate-news-to-your-organization) | added |
-| 9/21/2021 | [Create the Viva Connections Dashboard (Preview)](/SharePoint/create-dashboard) | modified |
-| 9/21/2021 | [Guide to setting up Viva Connections (Preview)](/SharePoint/guide-to-setting-up-viva-connections) | modified |
-| 9/21/2021 | [Designate a home site from the SharePoint admin center (Preview)](/SharePoint/home-site-admin-center) | modified |
-| 9/21/2021 | [Plan, build, and launch a home site for your organization](/SharePoint/home-site-plan) | modified |
-| 9/21/2021 | [Set a site as your home site](/SharePoint/home-site) | modified |
-| 9/21/2021 | [The Viva Connections Dashboard web part(Preview)](/SharePoint/use-dashboard-web-part-on-home-site) | modified |
-| 9/21/2021 | [Overview: Viva Connections (Preview)](/SharePoint/viva-connections-overview) | modified |
-| 9/21/2021 | [Add Viva Connections desktop to Microsoft Teams](/SharePoint/viva-connections) | modified |
-| 9/21/2021 | [Manage sharing settings](/SharePoint/turn-external-sharing-on-or-off) | modified |
-| 9/21/2021 | [Lists sync policies](/SharePoint/lists-sync-policies) | modified |
-| 9/21/2021 | [How to set up the Viva Connections mobile experience in a specific language (Preview)](/SharePoint/viva-connections-language) | added |
-| 9/22/2021 | [Create the Viva Connections Dashboard (Preview)](/SharePoint/create-dashboard) | modified |
-| 9/22/2021 | [Overview: Viva Connections (Preview)](/SharePoint/viva-connections-overview) | modified |
-| 9/22/2021 | [Hold a town hall in Yammer and keep the conversation going](/SharePoint/hold-town-hall-using-yammer) | added |
-| 9/23/2021 | [View SharePoint files with File Explorer in Microsoft Edge](/SharePoint/sharepoint-view-in-edge) | modified |
-| 9/24/2021 | [Control access from unmanaged devices](/SharePoint/control-access-from-unmanaged-devices) | modified |
-| 9/24/2021 | [Configure cloud hybrid search - roadmap](/SharePoint/hybrid/configure-cloud-hybrid-searchroadmap) | modified |
-| 9/24/2021 | [Create the Viva Connections Dashboard (Preview)](/SharePoint/create-dashboard) | modified |
-| 9/24/2021 | [Guide to setting up Viva Connections (Preview)](/SharePoint/guide-to-setting-up-viva-connections) | modified |
-| 9/24/2021 | [Embed Video news links in the Viva Connections feed (Preview)](/SharePoint/video-news-links) | modified |
-| 9/24/2021 | [Add Viva Connections desktop to Microsoft Teams](/SharePoint/viva-connections) | modified |
-
-
-## Week of September 13, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/13/2021 | [Associate a hub site to another hub site in the SharePoint admin center](/SharePoint/hub-to-hub-association) | added |
-| 9/13/2021 | [Hardware and software requirements for SharePoint Server 2019](/SharePoint/install/hardware-and-software-requirements-2019) | modified |
-| 9/14/2021 | [Overview: Viva Connections (Preview)](/SharePoint/viva-connections-overview) | modified |
-| 9/14/2021 | [Allow or prevent custom script](/SharePoint/allow-or-prevent-custom-script) | modified |
-| 9/14/2021 | [Default SharePoint groups](/SharePoint/default-sharepoint-groups) | modified |
-| 9/14/2021 | [Permissions planning for sites and content in SharePoint Server](/SharePoint/sites/permissions-planning-for-sites-and-content) | modified |
-| 9/15/2021 | [Designate a home site from the SharePoint admin center (Preview)](/SharePoint/home-site-admin-center) | modified |
-| 9/15/2021 | [Information architecture models and examples](/SharePoint/information-architecture-models-examples) | modified |
-| 9/15/2021 | [Intelligent intranet overview](/SharePoint/intelligent-internet-overview) | modified |
-| 9/15/2021 | [Planning intranet governance](/SharePoint/intranet-governance) | modified |
-| 9/15/2021 | [How to think about your intelligent intranet](/SharePoint/trad-vs-modern-intranet) | modified |
-| 9/15/2021 | [Engage audiences with workplace communication](/SharePoint/workplace-communications) | modified |
-| 9/15/2021 | [Rename your SharePoint domain](/SharePoint/tenant-rename) | modified |
-| 9/16/2021 | [View SharePoint files with File Explorer in Microsoft Edge](/SharePoint/sharepoint-view-in-edge) | added |
-| 9/16/2021 | [Plan, build, and launch a home site for your organization](/SharePoint/home-site-plan) | modified |
-| 9/16/2021 | [Set a site as your home site](/SharePoint/home-site) | modified |
-| 9/16/2021 | [Add the Viva Connections app in the Teams admin center (Preview)](/SharePoint/add-viva-connections-app) | added |
-| 9/17/2021 | [Overview: Viva Connections (Preview)](/SharePoint/viva-connections-overview) | modified |
