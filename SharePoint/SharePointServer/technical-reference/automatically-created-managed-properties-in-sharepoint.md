@@ -50,7 +50,7 @@ During the crawl of library content, the following actions are performed on the 
 
 | Site column type | Crawled property name | Managed property name | Data format |
 |:-----|:-----|:-----|:-----|:-----|
-|Single line of text   | Site Column Name   |ows_q_TEXT_SiteColumnName   |SiteColumnNameOWSTEXT   |As is.   |
+|Single line of text  | ows_q_TEXT_SiteColumnName   |SiteColumnNameOWSTEXT   |As is.   |
 |Multiple lines of text     |ows_r_MTXT_SiteColumnName   |SiteColumnNameOWSMTXT   |As is.   |
 |Choice     |ows_q_CHCS_SiteColumnName   |SiteColumnNameOWSCHCS   |The text value of the choice.   |
 |Choice (allow multiple selections)     |ows_q_CHCM_SiteColumnName   |SiteColumnNameOWSCHCM   |Selected values separated by semicolon and hash mark — for example, MultiValue 2;# MultiValue 4;#.   |
