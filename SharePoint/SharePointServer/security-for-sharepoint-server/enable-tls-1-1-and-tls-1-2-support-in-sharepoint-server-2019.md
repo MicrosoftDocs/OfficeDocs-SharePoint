@@ -20,7 +20,7 @@ description: "This article describes how to enable Transport Layer Security (TLS
 
 # Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2019
 
-[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-xxx-md.md)] 
   
 SharePoint Server 2019 supports TLS protocol versions 1.0, 1.1, and 1.2 by default. However, to enable end-to-end support for TLS protocol versions 1.1 and 1.2 in your SharePoint 2019 environment, you may need to install updates or change configuration settings in the following locations:
   

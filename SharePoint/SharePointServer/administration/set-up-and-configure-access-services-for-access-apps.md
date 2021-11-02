@@ -18,7 +18,7 @@ description: "Learn how to install, set up, and provision Access Services for Ac
 
 # Set up and configure Access Services for Access apps in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 To install, set up, and provision Access apps for SharePoint in Access Services in SharePoint Server 2013, perform the following steps:
   

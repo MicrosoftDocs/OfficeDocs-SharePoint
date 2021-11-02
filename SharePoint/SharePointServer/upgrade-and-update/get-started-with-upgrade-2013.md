@@ -8,7 +8,7 @@ ms.date: 7/24/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -20,7 +20,7 @@ description: "Find resources to help you understand how to upgrade databases and
 
 # Get started with upgrades to SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]. 
   
 The first step in any upgrade process is to learn about the process itself so that you can plan and prepare appropriately. These articles help you understand how the process of upgrading from SharePoint 2010 Products to SharePoint 2013 works. These articles also include overviews of how to upgrade service applications.
   

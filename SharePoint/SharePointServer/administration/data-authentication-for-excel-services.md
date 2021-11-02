@@ -17,7 +17,7 @@ description: "Summary Learn how Excel Services in SharePoint Server supports con
 
 # Data authentication for Excel Services in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 Retrieving data from a data source requires a user to be authenticated by the data source and then authorized to access the data that is contained therein. In the case of a workbook, Excel Services authenticates to the data source on behalf of the user who is viewing it in order to refresh the data to which the workbook is connected.
   
@@ -117,7 +117,7 @@ The authentication method to choose depends on various factors as outlined in th
   
 **Comparison of authentication methods**
 
-||||||
+| | | | | |
 |:-----|:-----|:-----|:-----|:-----|
 |**Authentication method** <br/> |Kerberos delegation  <br/> |Secure Store  <br/> |Unattended Service Account  <br/> |Effective User Name  <br/> |
 |**Description** <br/> |Using constrained Kerberos delegation, the workbook viewer's Windows credentials are sent to the data source directly.  <br/> |Using the Secure Store Service, the viewer's Windows credentials are mapped to another set of credentials specified in a Secure Store target application.  <br/> |Using the Secure Store Service, all viewers are mapped to a unique set of credentials called the Unattended Service Account that is stored in a specific Secure Store target application specified in Excel Services Global Settings.  <br/> |Using the EffectiveUserName Global Setting, the user's domain user name is passed to Analysis Services data sources.  <br/> |
@@ -161,7 +161,7 @@ The unattended service account is used by Excel Services in these scenarios:
   
 Choose the unattended service account when you are connecting to small ad-hoc deployments in which security is less important or for which speed of deployment is essential.
   
-For information about using the unattended service account with Excel Services, see [Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2016](configure-the-unattended-service-account-0.md). 
+For information about using the unattended service account with Excel Services, see [Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2016](configure-unattended-service-account-2013.md). 
   
 ### SQL Server Authentication
 

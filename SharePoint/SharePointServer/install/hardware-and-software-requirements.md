@@ -17,12 +17,12 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 4d88c402-24f2-449b-86a6-6e7afcfec0cd
-description: "Find out the minimum hardware and software requirements you need to install and run SharePoint Server."
+description: "Find out the minimum hardware and software requirements you need to install and run SharePoint Server 2016."
 ---
 
 # Hardware and software requirements for SharePoint Server 2016
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)] 
   
 > [!IMPORTANT]
 > If you contact Microsoft Customer Support Services about a production system that does not meet the minimum hardware specifications described in this document, support will be limited until the system is upgraded to the minimum requirements. 
@@ -51,7 +51,7 @@ The following table lists minimum hardware requirements for installing and runni
   
 For all installation scenarios, you must have sufficient hard disk space for the base installation and sufficient space for diagnostics such as logging, debugging, creating memory dumps, and so on. For production use, you must also have additional free disk space for day-to-day operations. In addition, maintain two times as much free space as you have RAM for production environments.
   
-For information about hardware and software requirements for Microsoft SQL Server 2014, see [Hardware and Software Requirements for Installing SQL Server 2014](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?view=sql-server-2014).
+For information about hardware and software requirements for Microsoft SQL Server 2014, see [Hardware and Software Requirements for Installing SQL Server 2014](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server).
   
 |**Installation scenario**|**Deployment type and scale**|**RAM**|**Processor**|**Hard disk space**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -148,8 +148,6 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
     
 - Microsoft SQL Server 2012 Service Pack 1 Native Client
     
-- Microsoft WCF Data Services 5.6
-    
 - Microsoft Identity Extensions
     
 - Microsoft Information Protection and Control Client (MSIPC)
@@ -171,7 +169,7 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
     
 #### Minimum requirements for client computers
 
-- A supported browser. For more information, see [Plan browser support in SharePoint Server 2016](browser-support-planning-0.md).
+- A supported browser. For more information, see [Plan browser support in SharePoint Server 2016](browser-support-planning-2016-2019.md).
     
 ## Optional software supported in SharePoint Server 2016
 <a name="OptionalSoftware"> </a>
@@ -202,8 +200,6 @@ In scenarios where installing prerequisites directly from the Internet is not po
 - [Microsoft SQL Server 2014 Service Pack 1 (SP1)](https://go.microsoft.com/fwlink/p/?LinkId=618406)
     
 - [Microsoft .NET Framework version 4.6](https://go.microsoft.com/fwlink/?LinkId=722763)
-    
-- [Microsoft WCF Data Services 5.6](https://go.microsoft.com/fwlink/p/?LinkId=320724 )
     
 - [Microsoft Information Protection and Control Client (MSIPC)](https://go.microsoft.com/fwlink/p/?LinkId=544913)
     
@@ -246,23 +242,21 @@ The SharePoint Server 2016 prerequisite installer (prerequisiteinstaller.exe) in
     
 7. Microsoft Information Protection and Control Client 2.1
     
-8. Microsoft WCF Data Services 5.6
+8. Microsoft .NET Framework 4.6
     
-9. Microsoft .NET Framework 4.6
+9. Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB 3092423)
     
-10. Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB 3092423)
+10. Visual C++ Redistributable Package for Visual Studio 2012
     
-11. Visual C++ Redistributable Package for Visual Studio 2012
+11. Visual C++ Redistributable Package for Visual Studio 2015
     
-12. Visual C++ Redistributable Package for Visual Studio 2015
-    
-You can run prerequisiteinstaller.exe at a command prompt with the following options. When you run prerequisiteinstaller.exe at a command prompt, you might be asked to restart the server one or more times during the installation process. After restarting, you should continue the prerequisite installation by running prerequisiteinstaller.exe with the /continue option.
+You can run prerequisiteinstaller.exe at a command prompt with the following options. When you run prerequisiteinstaller.exe at a command prompt, you might be asked to restart the server one or more times during the installation process. After restarting, you should continue the prerequisite installation by running prerequisiteinstaller.exe with the `/continue` option.
   
-- /? This displays command-line options.
+- `/?` displays command-line options.
     
-- /continue This is used to tell the installer that it is continuing from being restarted.
+- `/continue` is used to tell the installer that it is continuing from being restarted.
     
-- /unattended This indicates no user interaction.
+- `/unattended` indicates no user interaction.
     
 The installer installs from the file that you specify in the command-line options described in the following list. In this list, < _file_> signifies the file from which you want to install. If you do not specify the < _file_> option, the installer downloads the file from the Internet and installs it. If the option does not apply to the current operating system, it is ignored.
   
@@ -277,8 +271,6 @@ The installer installs from the file that you specify in the command-line option
 - **/KB3092423:< _file_>** Install Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB3092423) from <  _file_>.
     
 - **/MSIPCClient:< _file_>** Install Microsoft Information Protection and Control Client from <  _file_>.
-    
-- **/WCFDataServices56:< _file_>** Install Microsoft WCF Data Services 5.6 from <  _file_>.
     
 - **/ODBC:< _file_>** Install Microsoft ODBC Driver 11 for SQL Server from < _file_>.
     
@@ -295,9 +287,5 @@ Certain prerequisites are installed by the prerequisite installer with specific 
 - Windows AppFabric
     
     /i CacheClient,CachingService,CacheAdmin /gac
-    
-- Microsoft WCF Data Services
-    
-    /quiet
     
 The prerequisite installer creates log files at %TEMP%\prerequisiteinstaller.\<date\>.\<time\>.log. You can check these log files for specific details about all changes the installer makes to the target computer.

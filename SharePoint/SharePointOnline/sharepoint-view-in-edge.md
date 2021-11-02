@@ -123,7 +123,7 @@ This error will occur when you attempt to apply this policy to a non-domain join
 
 **What happens if I have the policy applied without the tenant setting enabled?**
 
-If you don't enable ViewInFileExplorerEnabled via [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps), the View in File Explorer button will not appear in the interface of the SharePoint site.
+If you don't enable ViewInFileExplorerEnabled via [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps&preserve-view=true), the View in File Explorer button will not appear in the interface of the SharePoint site.
 
 **What happens if the tenant setting is enabled without the Edge policy applied?**
 
@@ -140,4 +140,4 @@ You may receive this error if this functionality is not supported in your curre
 - [Sync SharePoint and Team files with your computer](https://support.microsoft.com/en-us/office/sync-sharepoint-and-teams-files-with-your-computer-6de9ede8-5b6e-4503-80b2-6190f3354a88)
 - [View and open SharePoint with File Explorer](https://support.microsoft.com/en-us/office/view-and-open-sharepoint-files-with-file-explorer-66b574bb-08b4-46b6-a6a0-435fd98194cc)
 - [Troubleshoot View in File Explorer](/sharepoint/troubleshoot/lists-and-libraries/troubleshoot-issues-using-open-with-explorer)
-- [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps)
+- [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps&preserve-view=true)

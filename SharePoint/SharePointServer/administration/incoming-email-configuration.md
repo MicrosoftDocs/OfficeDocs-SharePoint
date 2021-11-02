@@ -18,7 +18,7 @@ description: "Learn how to install and configure the SMTP service, prepare your 
 
 # Configure incoming email for a SharePoint Server farm
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article describes how to configure incoming email for SharePoint Server. This article also describes how to install and configure the SharePoint Migration Tool service to enable incoming email.
   

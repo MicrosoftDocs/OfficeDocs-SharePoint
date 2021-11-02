@@ -18,7 +18,7 @@ description: "Learn how to redesign enterprise search topology so you can scale 
 
 # Redesign enterprise search topology for specific performance requirements in SharePoint
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 If your search environment has specific performance requirements that weren't met by following the guidance in [Plan enterprise search architecture in SharePoint Server 2016](plan-enterprise-search-architecture.md), then the solution is to scale the topology of your enterprise search architecture:
   
@@ -72,7 +72,7 @@ To deliver higher performance or to remove a bottleneck, you can add more search
     
 - If the analytics components don't complete their analyses quickly enough, scale up the processor resources, disk IOPS or network bandwidth of the servers hosting analytics components.
     
-Note that we don't support unlimited scale-out of the number of search components or databases. Look up the maximum limits in [Search limits](../install/software-boundaries-and-limits-0.md#Search) and stay within these limits to ensure timely and robust communication between the search components and databases. If it's necessary, reduce the capacity of your search architecture by reducing the number of search components. 
+Note that we don't support unlimited scale-out of the number of search components or databases. Look up the maximum limits in [Search limits](../install/software-boundaries-limits-2019.md#Search) and stay within these limits to ensure timely and robust communication between the search components and databases. If it's necessary, reduce the capacity of your search architecture by reducing the number of search components. 
   
 In the following sections we have guidelines for you on which search components or databases to scale to satisfy each requirement:
   
@@ -280,7 +280,7 @@ Now that you've redesigned your search topology, your next step is to assign the
 ### One search component type per server
 <a name="BKMK_HostOne"> </a>
 
-Each physical server or virtual machine can only host one search component of each type. The index component is an exception. Physical servers or virtual machines can host up to four index components. You can read about these limits in [Search limits](../install/software-boundaries-and-limits-0.md).
+Each physical server or virtual machine can only host one search component of each type. The index component is an exception. Physical servers or virtual machines can host up to four index components. You can read about these limits in [Search limits](../install/software-boundaries-limits-2019.md).
   
 ### Separate bulk processing and real-time components from each other
 <a name="BKMK_HostBulkRealtime"> </a>

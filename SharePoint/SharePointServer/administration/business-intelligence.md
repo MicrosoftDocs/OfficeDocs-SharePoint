@@ -18,7 +18,7 @@ description: "Learn about the Microsoft business intelligence (BI) tools for Sha
 
 # Business intelligence in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-xxx-md.md)]
 
 Learn about the Microsoft business intelligence (BI) tools for SharePoint Server 2016 and SharePoint Server 2013.
   
