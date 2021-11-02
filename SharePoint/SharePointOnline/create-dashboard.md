@@ -154,7 +154,7 @@ The Viva Connections Dashboard and mobile experience can be extended and customi
 To create custom experiences on Viva Connections Dashboard and Viva Connections Mobile App, developers must use the SPFx to create custom ACEs. To learn more about creating ACEs, see the following tutorial: [Build your first SharePoint Adaptive Card Extension](/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptive-card-extension). Learn more about [Viva Connections extensibility.](/sharepoint/dev/spfx/viva/overview-viva-connections)
 
 
-### Get 3rd party cards and applications
+### Add a 3rd party app card
 There are two ways to acquire third-party developers and partners solution package and add them on the Viva Connections dashboard.
 
 #### Option 1: Acquire the app from a Microsoft AppSource or the SharePoint store
@@ -180,7 +180,7 @@ A Microsoft app card allows you to create a card that links to Microsoft apps e.
 1.	While in edit mode, select **+ Add a card** from the Dashboard.
 2.	Select the Microsoft App you want to add from the web toolbox.
 
-![Image of how to find a Microsoft app in the card picker window.](media/3p-apps-1.png)
+   ![Image of how to find a Microsoft app in the card picker window.](media/3p-apps-1.png)
 
 3. Select your options in the property pane on the right side of the page.
 4.	When you **Republish**, the card will appear on your dashboard.
