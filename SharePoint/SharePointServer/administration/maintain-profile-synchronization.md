@@ -17,7 +17,7 @@ description: "Learn how to maintain User Profile synchronization settings in Sha
 
 # Maintain user profile synchronization settings in SharePoint Server
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Profile synchronization in SharePoint Server enables an administrator of an instance of the User Profile service to synchronize user and group profile information that is stored in the SharePoint Server profile store with profile information that is stored in directory services across the enterprise. After you have configured User Profile synchronization, you must complete tasks to maintain those settings. These tasks include, for example, removing users whose accounts are disabled or deleted, moving or renaming a server, and starting or stopping the User Profile Synchronization service. For more information, see [Plan profile synchronization for SharePoint Server 2013](plan-profile-synchronization-for-sharepoint-server-2013.md).
   
@@ -125,7 +125,7 @@ There are two reasons why obsolete users or groups can exist in the SharePoint S
   Set-SPProfileServiceApplication $upa -PurgeNonImportedObjects $true
   ```
 
-For more information, see [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps) and [Set-SPProfileServiceApplication](/powershell/module/sharepoint-server/Set-SPProfileServiceApplication?view=sharepoint-ps).
+For more information, see [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps&preserve-view=true) and [Set-SPProfileServiceApplication](/powershell/module/sharepoint-server/Set-SPProfileServiceApplication?view=sharepoint-ps&preserve-view=true).
   
 ## Maintain profile schema changes
 <a name="schemaChanges"> </a>
@@ -159,7 +159,7 @@ Use the following procedure to rename a profile synchronization server.
     
   -  _newName_ is the new name for the server. 
     
-For more information about renaming a server by using Microsoft PowerShell, see [Rename-SPServer](/powershell/module/sharepoint-server/Rename-SPServer?view=sharepoint-ps).
+For more information about renaming a server by using Microsoft PowerShell, see [Rename-SPServer](/powershell/module/sharepoint-server/Rename-SPServer?view=sharepoint-ps&preserve-view=true).
   
 ## Move the User Profile Synchronization service to a new server
 <a name="moveService"> </a>

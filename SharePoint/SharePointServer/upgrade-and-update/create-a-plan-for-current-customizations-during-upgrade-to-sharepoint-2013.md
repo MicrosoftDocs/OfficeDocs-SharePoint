@@ -8,7 +8,7 @@ ms.date: 7/26/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -20,7 +20,7 @@ description: "Identify all customizations in your environment and determine what
 
 # Create a plan for current customizations during upgrade to SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 If you have extensively customized your sites based on SharePoint 2010 Products, you must determine how you want to handle your customizations when you upgrade to SharePoint 2013. Your approach will vary based on the extent of the customizations, the kind of customization, the complexity of your site, and your goals for upgrading. Before you upgrade, you must identify and then evaluate the customizations in your environment and determine whether you will upgrade them, and how.
   
@@ -100,7 +100,7 @@ Some methods of deploying customizations might require additional steps in Share
 |Customizations deployed as MSI files  <br/> |Contact the vendor for updated files. Most likely, you will have to get a replacement file compatible with SharePoint 2013.  <br/> |
 |Manually deployed features, files, or changes  <br/> |You can re-deploy them to the equivalent directory in SharePoint 2013. However, consider packaging them into a deployable solution package for easier administration.  <br/> |
 |Sandboxed solutions  <br/> |No special steps. Sandboxed solutions are upgraded with the content databases.  <br/> |
-|Solution packages  <br/> |Deploy to SharePoint 2013 again. Make sure that you deploy it to the appropriate directory (/14 or /15), depending on the version.  <br/> Note that you can no longer add partial trust solution packages to the \bin directory. Any files deployed to the \bin directory must be full trust. Be sure to test any such solutions to make sure that deploying them in full trust does not introduce security vulnerabilities. Also, update any deployment scripts to make sure that they specify the correct trust level.  <br/> For more information, see [Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps).  <br/> |
+|Solution packages  <br/> |Deploy to SharePoint 2013 again. Make sure that you deploy it to the appropriate directory (/14 or /15), depending on the version.  <br/> Note that you can no longer add partial trust solution packages to the \bin directory. Any files deployed to the \bin directory must be full trust. Be sure to test any such solutions to make sure that deploying them in full trust does not introduce security vulnerabilities. Also, update any deployment scripts to make sure that they specify the correct trust level.  <br/> For more information, see [Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps&preserve-view=true).  <br/> |
 |Administrator-deployed form templates  <br/> |You must extract them from SharePoint Server 2010 and redeploy them to SharePoint 2013. For more information, see [Upgrade service applications to SharePoint 2013](upgrade-service-applications-to-sharepoint-2013.md).  <br/> |
    
 The following kinds of customizations are not supported. If you have any of these customizations in your environment, you must replace them by using a supported kind of customization before you can upgrade. Otherwise, you might experience upgrade issues that cannot be fixed: 

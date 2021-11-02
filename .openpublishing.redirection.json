@@ -461,6 +461,86 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "SharePoint/SharePointServer/what-s-new/new-features-in-feature-pack-1.md",
+      "redirect_url": "/SharePoint/SharePointServer/what-s-new/new-features-november-2016",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointServer/search/how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md",
+      "redirect_url": "/SharePoint/SharePointServer/search/display-values-custom-managed-properties",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointServer/install/browser-support-planning-0.md",
+      "redirect_url": "/SharePoint/SharePointServer/install/browser-support-planning-2016-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointServer/install/software-boundaries-and-limits-0.md",
+      "redirect_url": "/SharePoint/SharePointServer/install/software-boundaries-limits-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointServer/install/prerequisites-0.md",
+      "redirect_url": "/SharePoint/SharePointServer/install/prerequisites-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointServer/install/install-or-uninstall-language-packs-0.md",
+      "redirect_url": "/SharePoint/SharePointServer/install/install-uninstall-language-packs-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointServer/install/hardware-and-software-requirements-0.md",
+      "redirect_url": "/SharePoint/SharePointServer/install/hardware-software-requirements-2013",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointServer/upgrade-and-update/get-started-with-upgrade-0.md",
+      "redirect_url": "/SharePoint/SharePointServer/upgrade-and-update/get-started-with-upgrade-2013",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointServer/upgrade-and-update/test-and-troubleshoot-an-upgrade-0.md",
+      "redirect_url": "/SharePoint/SharePointServer/upgrade-and-update/test-troubleshoot-upgrade-2013",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointServer/upgrade-and-update/upgrade-databases-0.md",
+      "redirect_url": "/SharePoint/SharePointServer/upgrade-and-update/upgrade-databases-2013",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointServer/upgrade-and-update/upgrade-site-collections-0.md",
+      "redirect_url": "/SharePoint/SharePointServer/upgrade-and-update/upgrade-site-collections-2013",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointServer/hybrid/plan-server-to-server-authentication-0.md",
+      "redirect_url": "/SharePoint/SharePointServer/hybrid/plan-server-to-server-authentication-m365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointServer/governance/configure-ediscovery-0.md",
+      "redirect_url": "/SharePoint/SharePointServer/governance/configure-ediscovery-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointServer/administration/business-intelligence-0.md",
+      "redirect_url": "/SharePoint/SharePointServer/administration/business-intelligence",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointServer/technical-reference/verify-that-oauth-is-configured-correctly-for-the-machine-translation-service-ap-0.md",
+      "redirect_url": "/SharePoint/SharePointServer/technical-reference/verify-oauth-configured-correctly-machine-translation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointServer/administration/configure-the-unattended-service-account-0.md",
+      "redirect_url": "/SharePoint/SharePointServer/administration/configure-unattended-service-account-2013",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "SharePoint/SharePointOnline/intranet-overview.md",
       "redirect_url": "SharePoint/SharePointOnline/intranet-team-overview.md",
       "redirect_document_id": false

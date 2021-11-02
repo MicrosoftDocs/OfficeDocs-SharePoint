@@ -17,7 +17,7 @@ description: "Learn ways that users can turn active documents into records in th
 
 # Plan ways to convert active documents to records in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 After you develop a file plan and design your records management solution in SharePoint Server, plan how active documents in your organization - electronic and hard copy - will become records. This article reviews techniques that you can use to declare active documents to be records and suggests one way to plan how items in your file plan will become records.
   
