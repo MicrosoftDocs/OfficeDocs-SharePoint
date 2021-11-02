@@ -50,26 +50,26 @@ During the crawl of library content, the following actions are performed on the 
 
 | Site column type | Site column name | Crawled property name | Managed property name | Data format |
 |:-----|:-----|:-----|:-----|:-----|
-|Single line of text  <br/> | Site Column Name  <br/> |ows_q_TEXT_SiteColumnName  <br/> |SiteColumnNameOWSTEXT  <br/> |As is.  <br/> |
-|Multiple lines of text  <br/> |Site Column Name  <br/> |ows_r_MTXT_SiteColumnName  <br/> |SiteColumnNameOWSMTXT  <br/> |As is.  <br/> |
-|Choice  <br/> |Site Column Name  <br/> |ows_q_CHCS_SiteColumnName  <br/> |SiteColumnNameOWSCHCS  <br/> |The text value of the choice.  <br/> |
-|Choice (allow multiple selections)  <br/> |Site Column Name  <br/> |ows_q_CHCM_SiteColumnName  <br/> |SiteColumnNameOWSCHCM  <br/> |Selected values separated by semicolon and hash mark — for example, MultiValue 2;# MultiValue 4;#.  <br/> |
-|Number  <br/> |Site Column Name  <br/> |ows_q_NMBR_SiteColumnName  <br/> |SiteColumnNameOWSNMBR  <br/> |Textual representation of the number. The value will use dot as a decimal symbol.  <br/> This format cannot be used in a greater than or less than comparison with other integers. It should only be used when querying for and displaying an exact value.  <br/> |
-|Currency  <br/> |Site Column Name  <br/> |ows_q_CURR_SiteColumnName  <br/> |SiteColumnNameOWSCURR  <br/> |Textual representation of the number. The value will use dot as a decimal symbol.  <br/> This format cannot be used in a greater than or less than comparison with other integers. It should only be used when querying for and displaying an exact value.  <br/> |
-|Date and Time  <br/> |Site Column Name  <br/> |ows_q_DATE_SiteColumnName  <br/> |SiteColumnNameOWSDATE  <br/> |Textual representation of the date in the format YYYY-MM-DDTHH:MM:SSZ. For example, December 25, 2012, 7 AM GMT is 2012-12-25T07:00:00Z.  <br/> This format cannot be used in a greater than or less than comparison with other dates. It should only be used when querying for and displaying an exact date.  <br/> |
-|Yes/No  <br/> |Site Column Name  <br/> |ows_q_BOOL_SiteColumnName  <br/> |SiteColumnNameOWSBOOL  <br/> |For true, use value 1. For false, use value 0.  <br/> |
-|Person or Group  <br/> |Site Column Name  <br/> |ows_q_USER_SiteColumnName  <br/> |SiteColumnNameOWSUSER  <br/> |Email, Display name, or Encoded claim. For example, ellenk@contoso.com, Ellen Kessels, or i:0#.w&#x7c;contoso\ellenk|
-|Hyperlink or Picture  <br/> |Site Column Name  <br/> |ows_q_URLH_SiteColumnName  <br/> |SiteColumnNameOWSURLH  <br/> |URL, description. For example, http://www.contoso.com, Welcome to the home page of Contoso.  <br/> |
-|Publishing HTML  <br/> |Site Column Name  <br/> |ows_r_HTML_SiteColumnName  <br/> |SiteColumnNameOWSHTML  <br/> |Html escaped enclosed in a paragraph tag. For example, \<p\>&amp;lt;div&amp;gt;&amp;lt;b&amp;gt;some html &amp;lt;/b&amp;&amp;lt;/div&amp;gt;\</p\>.  <br/> |
-|Publishing Image  <br/> |Site Column Name  <br/> |ows_q_IMGE_SiteColumnName  <br/> |SiteColumnNameOWSIMGE  <br/> |Html image tag. For example, \<img alt="" src="/sites/pub/SiteCollectionImages/home.jpg" style="BORDER&amp;#58;0px solid;" /\>.  <br/> |
-|Publishing Link  <br/> |Site Column Name  <br/> |ows_q_LINK_SiteColumnName  <br/> |SiteColumnNameOWSLINK  <br/> |Html link tag. For example, \<a href="http&amp;#58;//www.microsoft.com" target="_blank" title="mytooltip"\>Microsoft Website\</a\>.  <br/> |
-|Managed Metadata  <br/> |Site Column Name  <br/> |ows_taxId_SiteColumnName  <br/> |owstaxIdSiteColumnName  <br/> |See "Data format for Managed Metadata" below.  <br/> |
-|Integer\*  <br/> |Site Column Name  <br/> |ows_q_INTG_SiteColumnName  <br/> |SiteColumnNameOWSINTG  <br/> |Textual representation of the integer.  <br/> This format cannot be used in a greater than or less than comparison with other integers. It should only be used when querying for and displaying an exact value.  <br/> |
-|GUID\*  <br/> |Site Column Name  <br/> |ows_q_GUID_SiteColumnName  <br/> |SiteColumnNameOWSGUID  <br/> |Values separated by hyphens, enclosed in brackets. For example, {147C6BA1-709C-4401-964A-27AC36B62C54}.  <br/> |
-|Grid Choice\*  <br/> |Site Column Name  <br/> |ows_q_CHCG_SiteColumnName  <br/> |SiteColumnNameOWSCHCG  <br/> |For each row, row name separated by semi-colon and hash mark, followed by the selected value.  <br/> |
-|ContentTypeIDFieldType\*  <br/> |Site Column Name  <br/> |ows_q_CTID_SiteColumnName  <br/> |SiteColumnNameOWSCTID  <br/> |Name:#ContentTypeID;#  <br/> |
-|SPS average rating  <br/> |Site Column Name  <br/> |ows_q_RAVG_SiteColumnName  <br/> |SiteColumnNameOWSRAVG  <br/> |Textual representation of the number. The value will use dot as a decimal symbol.  <br/> |
-|SPS rating count  <br/> |Site Column Name  <br/> |ows_q_RCNT_SiteColumnName  <br/> |SiteColumnNameOWSRCNT  <br/> |Textual representation of the integer.  <br/> |
+|Single line of text   | Site Column Name   |ows_q_TEXT_SiteColumnName   |SiteColumnNameOWSTEXT   |As is.   |
+|Multiple lines of text   |Site Column Name   |ows_r_MTXT_SiteColumnName   |SiteColumnNameOWSMTXT   |As is.   |
+|Choice   |Site Column Name   |ows_q_CHCS_SiteColumnName   |SiteColumnNameOWSCHCS   |The text value of the choice.   |
+|Choice (allow multiple selections)   |Site Column Name   |ows_q_CHCM_SiteColumnName   |SiteColumnNameOWSCHCM   |Selected values separated by semicolon and hash mark — for example, MultiValue 2;# MultiValue 4;#.   |
+|Number   |Site Column Name   |ows_q_NMBR_SiteColumnName   |SiteColumnNameOWSNMBR   |Textual representation of the number. The value will use dot as a decimal symbol.  <br/> This format cannot be used in a greater than or less than comparison with other integers. It should only be used when querying for and displaying an exact value.   |
+|Currency   |Site Column Name   |ows_q_CURR_SiteColumnName   |SiteColumnNameOWSCURR   |Textual representation of the number. The value will use dot as a decimal symbol.  <br/> This format cannot be used in a greater than or less than comparison with other integers. It should only be used when querying for and displaying an exact value.   |
+|Date and Time   |Site Column Name   |ows_q_DATE_SiteColumnName   |SiteColumnNameOWSDATE   |Textual representation of the date in the format YYYY-MM-DDTHH:MM:SSZ. For example, December 25, 2012, 7 AM GMT is 2012-12-25T07:00:00Z.  <br/> This format cannot be used in a greater than or less than comparison with other dates. It should only be used when querying for and displaying an exact date.   |
+|Yes/No   |Site Column Name   |ows_q_BOOL_SiteColumnName   |SiteColumnNameOWSBOOL   |For true, use value 1. For false, use value 0.   |
+|Person or Group   |Site Column Name   |ows_q_USER_SiteColumnName   |SiteColumnNameOWSUSER   |Email, Display name, or Encoded claim. For example, ellenk@contoso.com, Ellen Kessels, or i:0#.w&#x7c;contoso\ellenk|
+|Hyperlink or Picture   |Site Column Name   |ows_q_URLH_SiteColumnName   |SiteColumnNameOWSURLH   |URL, description. For example, http://www.contoso.com, Welcome to the home page of Contoso.   |
+|Publishing HTML   |Site Column Name   |ows_r_HTML_SiteColumnName   |SiteColumnNameOWSHTML   |Html escaped enclosed in a paragraph tag. For example, \<p\>&amp;lt;div&amp;gt;&amp;lt;b&amp;gt;some html &amp;lt;/b&amp;&amp;lt;/div&amp;gt;\</p\>.   |
+|Publishing Image   |Site Column Name   |ows_q_IMGE_SiteColumnName   |SiteColumnNameOWSIMGE   |Html image tag. For example, \<img alt="" src="/sites/pub/SiteCollectionImages/home.jpg" style="BORDER&amp;#58;0px solid;" /\>.   |
+|Publishing Link   |Site Column Name   |ows_q_LINK_SiteColumnName   |SiteColumnNameOWSLINK   |Html link tag. For example, \<a href="http&amp;#58;//www.microsoft.com" target="_blank" title="mytooltip"\>Microsoft Website\</a\>.   |
+|Managed Metadata   |Site Column Name   |ows_taxId_SiteColumnName   |owstaxIdSiteColumnName   |See "Data format for Managed Metadata" below.   |
+|Integer\*   |Site Column Name   |ows_q_INTG_SiteColumnName   |SiteColumnNameOWSINTG   |Textual representation of the integer.  <br/> This format cannot be used in a greater than or less than comparison with other integers. It should only be used when querying for and displaying an exact value.   |
+|GUID\*   |Site Column Name   |ows_q_GUID_SiteColumnName   |SiteColumnNameOWSGUID   |Values separated by hyphens, enclosed in brackets. For example, {147C6BA1-709C-4401-964A-27AC36B62C54}.   |
+|Grid Choice\*   |Site Column Name   |ows_q_CHCG_SiteColumnName   |SiteColumnNameOWSCHCG   |For each row, row name separated by semi-colon and hash mark, followed by the selected value.   |
+|ContentTypeIDFieldType\*   |Site Column Name   |ows_q_CTID_SiteColumnName   |SiteColumnNameOWSCTID   |Name:#ContentTypeID;#   |
+|SPS average rating   |Site Column Name   |ows_q_RAVG_SiteColumnName   |SiteColumnNameOWSRAVG   |Textual representation of the number. The value will use dot as a decimal symbol.   |
+|SPS rating count   |Site Column Name   |ows_q_RCNT_SiteColumnName   |SiteColumnNameOWSRCNT   |Textual representation of the integer.   |
    
 \*Column creation not available through user interface.
   
@@ -108,20 +108,20 @@ The catalog entries and examples of queries are shown in the following tables.
 
 | Restaurant | Location |
 |:-----|:-----|
-|Restaurant 1  <br/> |Mumbai  <br/> |
-|Restaurant 2  <br/> |Mumbai  <br/> |
-|Restaurant 3  <br/> |Delhi  <br/> |
-|Restaurant 4  <br/> |Paris  <br/> |
-|Restaurant 5  <br/> |Lyon  <br/> |
+|Restaurant 1   |Mumbai   |
+|Restaurant 2   |Mumbai   |
+|Restaurant 3   |Delhi   |
+|Restaurant 4   |Paris   |
+|Restaurant 5   |Lyon   |
    
 **Query examples**
 
 | Query for | Data format | Query will return |
 |:-----|:-----|:-----|
-|All restaurants in Mumbai  <br/> |GP0|#ad491ed9-c21c-46d9-896c-c0d148957c60  <br/> |Restaurant 1, Restaurant 2  <br/> |
-|All restaurants in Delhi  <br/> |GP0|#c195b6e0-9062-446a-9af1-8ec1a642fede  <br/> |Restaurant 3  <br/> |
-|All restaurants in India  <br/> |GPP|#c8a43f13-5ea1-45f2-b46d-3a1986a1cbd7  <br/> |Restaurant 1, Restaurant 2, Restaurant 3  <br/> |
-|All restaurants in the World  <br/> |GTSet|#fc01ae6d-8ed3-4872-9cef-d2199d52d61c  <br/> |Restaurant 1, Restaurant 2, Restaurant 3, Restaurant 4, Restaurant 5  <br/> |
+|All restaurants in Mumbai   |GP0|#ad491ed9-c21c-46d9-896c-c0d148957c60   |Restaurant 1, Restaurant 2   |
+|All restaurants in Delhi   |GP0|#c195b6e0-9062-446a-9af1-8ec1a642fede   |Restaurant 3   |
+|All restaurants in India   |GPP|#c8a43f13-5ea1-45f2-b46d-3a1986a1cbd7   |Restaurant 1, Restaurant 2, Restaurant 3   |
+|All restaurants in the World   |GTSet|#fc01ae6d-8ed3-4872-9cef-d2199d52d61c   |Restaurant 1, Restaurant 2, Restaurant 3, Restaurant 4, Restaurant 5   |
    
 To display values by label — for example, Mumbai — you have to use the prefix L0|.
   
@@ -134,8 +134,8 @@ If a site column name contains diacritics, such as the German umlaut, or a non-s
 
 | Site column name | Crawled property name | Managed property name |
 |:-----|:-----|:-----|
-|Germanäö  <br/> |ows_q_TEXT_ Germanäö  <br/> |GermanOWSTEXT  <br/> |
-|Site_Column#  <br/> |ows_q_TEXT_Site_Column#  <br/> |SiteColumnOWSTEXT  <br/> |
+|Germanäö   |ows_q_TEXT_ Germanäö   |GermanOWSTEXT   |
+|Site_Column#   |ows_q_TEXT_Site_Column#   |SiteColumnOWSTEXT   |
    
 > [!NOTE]
 > The following Unicode code blocks are considered non-supported characters: Unicode 0000-0021, Unicode 0080 - 00a1, Unicode 2000 - 2070, Unicode ff00 ff10, and Unicode ff1a ff20. 
@@ -149,9 +149,9 @@ The Product Catalog list in the Product Catalog site collection has six default 
 
 | Site column name | Crawled property name | Managed property name |
 |:-----|:-----|:-----|
-|Title  <br/> |Title  <br/> |Title  <br/> |
-|Item Number  <br/> |ows_q_TEXT_ProductCatalogItemNumber  <br/> |ProductCatalogItemNumberOWSTEXT  <br/> |
-|Group Number  <br/> |ows_q_TEXT_ProductCatalogGroupNumber  <br/> |ProductCatalogGroupNumberOWSTEXT  <br/> |
-|Language Tag  <br/> |ows_q_CHCS_ProductCatalogLanguageTag  <br/> |ProductCatalogLanguageTagOWSCHCS  <br/> |
-|Item Category  <br/> |ows_taxId_ProductCatalogItemCategory  <br/> |owstaxIdProductCatalogItemCategory  <br/> |
-|Rollup Image  <br/> |ows_r_IMGE_PublishingRollupImage  <br/> |PublishingImage  <br/> |
+|Title   |Title   |Title   |
+|Item Number   |ows_q_TEXT_ProductCatalogItemNumber   |ProductCatalogItemNumberOWSTEXT   |
+|Group Number   |ows_q_TEXT_ProductCatalogGroupNumber   |ProductCatalogGroupNumberOWSTEXT   |
+|Language Tag   |ows_q_CHCS_ProductCatalogLanguageTag   |ProductCatalogLanguageTagOWSCHCS   |
+|Item Category   |ows_taxId_ProductCatalogItemCategory   |owstaxIdProductCatalogItemCategory   |
+|Rollup Image   |ows_r_IMGE_PublishingRollupImage   |PublishingImage   |
