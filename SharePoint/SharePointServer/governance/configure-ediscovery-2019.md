@@ -17,7 +17,7 @@ description: "Learn the steps to set up and configure eDiscovery in SharePoint S
 
 # Configure eDiscovery in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 This article identifies the steps that are required to configure eDiscovery in SharePoint Server. When you complete the steps that are listed in this article, users will be able to create and work with eDiscovery cases.
   
@@ -50,7 +50,7 @@ Perform the following steps:
     
 3. If you want content from Skype for Business Server to be discoverable, configure the server to archive to Exchange Server 2016. For information about how to configure Skype for Business Server 2015 archiving, see [Configure Skype for Business Server 2015 to use Exchange Server archiving](/skypeforbusiness/deploy/integrate-with-exchange-server/use-exchange-archiving).
 
-4. If you want SharePoint Server 2019 users to link to and share documents that are stored in OneDrive instead of attaching file to Outlook messages, see the [Document collaboration](/Exchange/new-features/new-features?view=exchserver-2019#document-collaboration) section in **What's new in Exchange Server**.
+4. If you want SharePoint Server 2019 users to link to and share documents that are stored in OneDrive instead of attaching file to Outlook messages, see the [Document collaboration](/Exchange/new-features/new-features#document-collaboration) section in **What's new in Exchange Server**.
     
 5. Perform the eDiscovery configuration steps for Exchange. For information about how to configure Exchange Server 2013 for eDiscovery, see [Integration with SharePoint](/Exchange/policy-and-compliance/ediscovery/ediscovery).
     
@@ -84,7 +84,7 @@ We recommend that you create a security group to contain all users of the eDisco
     
 4. If you will use a SharePoint eDiscovery Center to discover content in Exchange Server, grant the security group permissions to access Exchange Server mailboxes. For information about how to grant permissions in Exchange, see [Integration with SharePoint](/Exchange/policy-and-compliance/ediscovery/ediscovery).
     
-5. Grant the security group permissions to view the crawl log. For information about how to grant permissions to access the crawl log, see [Set-SPEnterpriseSearchCrawlLogReadPermission](/powershell/module/sharepoint-server/Set-SPEnterpriseSearchCrawlLogReadPermission?view=sharepoint-ps).
+5. Grant the security group permissions to view the crawl log. For information about how to grant permissions to access the crawl log, see [Set-SPEnterpriseSearchCrawlLogReadPermission](/powershell/module/sharepoint-server/Set-SPEnterpriseSearchCrawlLogReadPermission).
     
 ## Create an eDiscovery center
 <a name="create-eDC"> </a>
@@ -98,8 +98,8 @@ An eDiscovery Center is a site collection from which users can create and manage
 
 [eDiscovery and in-place holds in SharePoint Server](ediscovery-and-in-place-holds-in-sharepoint-server.md)
   
-[Configure eDiscovery in SharePoint Server](configure-ediscovery-0.md)
+[Configure eDiscovery in SharePoint Server](configure-ediscovery-2019.md)
 
-[Search and place a hold on public folders using In-Place eDicovery](/Exchange/policy-and-compliance/ediscovery/search-public-folders?view=exchserver-2019)
+[Search and place a hold on public folders using In-Place eDicovery](/Exchange/policy-and-compliance/ediscovery/search-public-folders)
 
-[Assign eDiscovery permissions in Exchange Server](/Exchange/policy-and-compliance/ediscovery/assign-permissions?view=exchserver-2019)
+[Assign eDiscovery permissions in Exchange Server](/Exchange/policy-and-compliance/ediscovery/assign-permissions)

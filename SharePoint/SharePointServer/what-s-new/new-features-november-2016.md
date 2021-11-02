@@ -18,7 +18,7 @@ description: "Learn about the new features that are included in the November 201
 
 # New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
 For a list of updates and associated KB articles for SharePoint Server 2016, SharePoint 2013, and SharePoint 2010, see [SharePoint Updates](/officeupdates/sharepoint-updates).
   
@@ -32,7 +32,7 @@ The following table provides a summary of the new features and enhancements that
 |**SharePoint Custom Tiles** <br/> |SharePoint admins can now add SharePoint and Microsoft 365 workloads as custom tiles in SharePoint app launcher.  <br/> |For more info, see [Custom Tiles in SharePoint Server 2016](../administration/custom-tiles-in-sharepoint-server-2016.md).  <br/> |
 |**Hybrid Taxonomy** <br/> |Hybrid Taxonomy is a new solution that you can use to create and maintain a shared taxonomy between your SharePoint Server 2016 farm and your SharePoint in Microsoft 365 tenant.  <br/> |For more info, see [SharePoint Hybrid Taxonomy](../hybrid/plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md).  <br/> |
 |**Administrative Actions Logging** <br/> |The Administrative Actions Logging feature provides logging around common SharePoint administrative actions to aid SharePoint admins in troubleshooting changes to their farm.  <br/> |For more info, see [Using Administrative Actions logging in SharePoint Server 2016](../administration/using-administrative-actions-logging-in-sharepoint-server-2016.md) topic.  <br/> |
-|**OneDrive API for SharePoint on-premises and Microsoft 365** <br/> |The OneDrive API provides a support for access to files located in SharePoint Server 2016 and in Microsoft 365. Use it to work with data stored in OneDrive and across SharePoint sites.  <br/> |For more info, see [OneDrive API](/onedrive/developer/rest-api/?view=odsp-graph-online).  <br/> |
+|**OneDrive API for SharePoint on-premises and Microsoft 365** <br/> |The OneDrive API provides a support for access to files located in SharePoint Server 2016 and in Microsoft 365. Use it to work with data stored in OneDrive and across SharePoint sites.  <br/> |For more info, see [OneDrive API](/onedrive/developer/rest-api/).  <br/> |
 |**SharePoint Hybrid Auditing** <br/> |This new feature for SharePoint Server 2016 lets administrators view user activity logs in the Microsoft 365 admin center. <br/><br/>Note: This feature is no longer available in SharePoint Server 2016 starting with the [Security update for SharePoint Enterprise Server 2016: November 12, 2019](https://support.microsoft.com/help/4484143/security-update-for-sharepoint-enterprise-server-2016-november-12). <br/> |For more info, see [SharePoint Hybrid Auditing (Preview)](../administration/configure-sharepoint-hybrid-auditing-preview.md).  <br/> |
 |**OneDrive modern experience** <br/> |OneDrive user experience has been updated with new functionalities from Microsoft 365.  <br/> The OneDrive modern user experience requires an active Software Assurance contract at the time it is enabled.  <br/> |For more info, see [Configure the OneDrive modern user experience](../sites/configure-the-onedrive-for-business-modern-user-experience.md).  <br/> |
    

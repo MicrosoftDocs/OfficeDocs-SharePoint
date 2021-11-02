@@ -20,7 +20,7 @@ description: "Learn about how to use least-privileged administration to configur
 
 # Plan for least-privileged administration in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The concept of least-privileged administration is to assign users the minimum permissions that are required for users to complete authorized tasks. The goal of least-privileged administration is to configure and help maintain secure control of an environment. The result is that each account under which a service runs is granted access to only the resources that are absolutely necessary.
   
@@ -92,7 +92,7 @@ The following list provides information about locking down other SharePoint Serv
   
 - **SharePoint_Shell_Access role**
     
-    When you remove this SQL Server role, you remove the ability to write entries to the configuration and content database and the ability to perform any tasks by using Microsoft PowerShell. For additional information about this role, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps).
+    When you remove this SQL Server role, you remove the ability to write entries to the configuration and content database and the ability to perform any tasks by using Microsoft PowerShell. For additional information about this role, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps&preserve-view=true).
     
 - **SharePoint Timer service (SPTimerV4)**
     

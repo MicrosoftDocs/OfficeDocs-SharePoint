@@ -18,7 +18,7 @@ description: "Learn how to turn the OneDrive modern user experience on or off in
 
 # Configure the Microsoft OneDrive modern user experience
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
   
 As part of the November 2016 public update for SharePoint Server 2016 (Feature Pack 1), a new modern user experience for Microsoft OneDrive is included. This modern user experience is turned on automatically when you install the public update. However, you can use Microsoft PowerShell to toggle the user experience off and on if you need to.
   
@@ -26,7 +26,7 @@ The OneDrive modern user experience requires an active [Software Assurance](http
   
  **Turn the OneDrive modern user experience off**
   
-Make sure you have [permissions to administer SharePoint Server with Windows PowerShell](/powershell/module/sharepoint-server/?view=sharepoint-ps), and log in to a server in your SharePoint farm. Open the SharePoint 2016 Management Shell as administrator and run the following script:
+Make sure you have [permissions to administer SharePoint Server with Windows PowerShell](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true), and log in to a server in your SharePoint farm. Open the SharePoint 2016 Management Shell as administrator and run the following script:
   
 ```
 $Farm = Get-SPFarm
@@ -37,7 +37,7 @@ $Farm.Update()
 
  **Turn the OneDrive modern user experience on**
   
-Make sure you have [permissions to administer SharePoint Server with Windows PowerShell](/powershell/module/sharepoint-server/?view=sharepoint-ps), and log in to a server in your SharePoint farm. Open the SharePoint 2016 Management Shell as administrator and run the following script:
+Make sure you have [permissions to administer SharePoint Server with Windows PowerShell](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true), and log in to a server in your SharePoint farm. Open the SharePoint 2016 Management Shell as administrator and run the following script:
   
 ```
 $Farm = Get-SPFarm

@@ -8,7 +8,7 @@ ms.date: 9/12/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -25,7 +25,7 @@ description: "When you have both SharePoint Server and Microsoft 365, by default
 
 # Plan hybrid profiles
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 When you have both SharePoint Server and Microsoft 365, by default, users have a different profile in each location. This can lead to a confusing profile experience for your users. With hybrid profiles, users have a single profile in Microsoft 365 where they can maintain all of their profile information.
   

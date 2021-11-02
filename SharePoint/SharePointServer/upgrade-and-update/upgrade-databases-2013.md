@@ -8,7 +8,7 @@ ms.date: 7/27/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -20,9 +20,9 @@ description: "Find resources to help you perform the steps to upgrade databases 
 
 # Upgrade databases from SharePoint 2010 to SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
-After you learn about the upgrade process, plan for your upgrade, and test your upgrade process by following the steps in the articles in [Test and troubleshoot an upgrade to SharePoint 2013](test-and-troubleshoot-an-upgrade-0.md), you are ready to perform a database-attach upgrade to SharePoint 2013. Follow the steps in this section for both a trial upgrade and your actual upgrade for your production farm.
+After you learn about the upgrade process, plan for your upgrade, and test your upgrade process by following the steps in the articles in [Test and troubleshoot an upgrade to SharePoint 2013](test-troubleshoot-upgrade-2013.md), you are ready to perform a database-attach upgrade to SharePoint 2013. Follow the steps in this section for both a trial upgrade and your actual upgrade for your production farm.
   
 The following downloadable resources, articles, video recordings, and related resources provide information about upgrading databases to SharePoint 2013.
   
@@ -30,15 +30,15 @@ The following downloadable resources, articles, video recordings, and related re
 
 Download the following content for information about upgrading databases.
   
-||**Content**|**Description**|
+| |**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Architecture icon](../media/mod_icon_architectureDiagrams_S.png)|[SharePoint 2013 Products Preview - Upgrade Process model](https://go.microsoft.com/fwlink/?LinkId=255047) <br/> |Describes the steps in the process for a database-attach upgrade  <br/> |
-   
+
 ## Articles about upgrading databases
 
 The following articles about how to upgrade databases are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
-||**Content**|**Description**|
+| |**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Checklist icon](../media/mod_icon_checklist_done_M.png)|[Checklist for database-attach upgrade (SharePoint 2013)](checklist-for-database-attach-upgrade-sharepoint-2013.md) <br/> |Use this checklist to make sure that you follow all necessary steps as you prepare for upgrade, perform the upgrade, and perform post-upgrade steps.  <br/> |
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)|[Create the SharePoint 2013 farm for a database attach upgrade](create-the-sharepoint-2013-farm-for-a-database-attach-upgrade.md) <br/> |Create and configure a SharePoint 2013 farm so that you can upgrade databases from SharePoint 2010 Products.  <br/> |
@@ -52,9 +52,8 @@ The following articles about how to upgrade databases are available to view onli
 
 #### Other Resources
 
-[Test and troubleshoot an upgrade to SharePoint 2013](test-and-troubleshoot-an-upgrade-0.md)
+[Test and troubleshoot an upgrade to SharePoint 2013](test-troubleshoot-upgrade-2013.md)
   
 [Plan for upgrade to SharePoint 2013](plan-for-upgrade.md)
   
-[Get started with upgrades to SharePoint 2013](get-started-with-upgrade-0.md)
-
+[Get started with upgrades to SharePoint 2013](get-started-with-upgrade-2013.md)

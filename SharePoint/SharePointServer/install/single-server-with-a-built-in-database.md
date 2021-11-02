@@ -8,7 +8,7 @@ ms.date: 9/27/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -20,7 +20,7 @@ description: "Learn how to install SharePoint with a built-in database on a sing
 
 # Install SharePoint 2013 on a single server with a built-in database
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 You can quickly publish a SharePoint site by deploying SharePoint 2013 on a single server that has a built-in database. This configuration is useful if you want to evaluate SharePoint 2013 features and capabilities, such as collaboration, document management, and search. This configuration is also useful if you are deploying only a few websites and you want to minimize administrative overhead.
   
@@ -56,7 +56,7 @@ Consider the following restrictions of this method of installation:
 ## Before you begin
 <a name="section2"> </a>
 
-Before you begin installation, make sure that you have met all hardware and software requirements. For more information, see [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md). To make sure that you perform a clean installation of SharePoint 2013, you must first remove any earlier version of SharePoint 2013 and any pre-release prerequisites if installed.
+Before you begin installation, make sure that you have met all hardware and software requirements. For more information, see [Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md). To make sure that you perform a clean installation of SharePoint 2013, you must first remove any earlier version of SharePoint 2013 and any pre-release prerequisites if installed.
   
 ## Install SharePoint 2013
 <a name="section3"> </a>

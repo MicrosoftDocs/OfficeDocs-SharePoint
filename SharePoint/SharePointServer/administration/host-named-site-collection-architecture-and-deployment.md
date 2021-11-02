@@ -20,7 +20,7 @@ description: "Plan and implement host-named site collections in SharePoint Serve
 
 # Host-named site collection architecture and deployment in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Host-named site collections are the preferred method to deploy sites in SharePoint Server. Because the Microsoft 365 environment uses host-named site collections, new features are optimized for these site collections and they are expected to be more reliable. Learn how to plan for and implement host-named site collections, design URLs, and manage URLs.
     
@@ -199,7 +199,7 @@ If you do not intend to configure two or more IIS websites that share the same p
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Open the **SharePoint Management Shell**.
     
@@ -245,7 +245,7 @@ You can create a host-named site collection by using the Microsoft PowerShell Ne
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Open the **SharePoint Management Shell**.
     
@@ -503,10 +503,10 @@ Get-WebBinding -Name 'webapp' -HostHeader 'webapp.contoso.com' | Remove-WebBindi
 
 #### Other Resources
 
-[Get-SPSiteUrl](/powershell/module/sharepoint-server/Get-SPSiteUrl?view=sharepoint-ps)
+[Get-SPSiteUrl](/powershell/module/sharepoint-server/Get-SPSiteUrl?view=sharepoint-ps&preserve-view=true)
   
-[Set-SPSiteUrl](/powershell/module/sharepoint-server/Set-SPSiteUrl?view=sharepoint-ps)
+[Set-SPSiteUrl](/powershell/module/sharepoint-server/Set-SPSiteUrl?view=sharepoint-ps&preserve-view=true)
   
-[Remove-SPSiteUrl](/powershell/module/sharepoint-server/Remove-SPSiteUrl?view=sharepoint-ps)
+[Remove-SPSiteUrl](/powershell/module/sharepoint-server/Remove-SPSiteUrl?view=sharepoint-ps&preserve-view=true)
   
 [Plan logical architectures for SharePoint Server](./administration.md)

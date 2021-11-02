@@ -8,7 +8,7 @@ ms.date: 10/19/2017
 audience: ITPro
 f1.keywords:
 - CSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -24,7 +24,7 @@ description: "Get an overview of deploying SharePoint Server in Microsoft Azure 
 
 # Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
   
 Step through the deployment an intranet-only, high availability SharePoint Server 2016 farm in Azure with these virtual machines:
   

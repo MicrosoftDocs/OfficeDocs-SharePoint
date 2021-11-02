@@ -18,7 +18,7 @@ description: "Learn how to plan your site architecture when you want to use vari
 
 # Plan variations for multilingual cross-site publishing site in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can use variations features to create and maintain your multilingual SharePoint sites. For more information, see [Variations overview in SharePoint Server](variations-overview.md). When you use cross-site publishing and variations, you should set up your site architecture according to one of three scenarios.
   
@@ -188,7 +188,7 @@ For this combination, you should plan to do the following:
   
 [Connect a publishing site to a catalog in SharePoint Server](connect-a-publishing-site-to-a-catalog.md)
   
-[Install or uninstall language packs for SharePoint Server 2016](../install/install-or-uninstall-language-packs-0.md)
+[Install or uninstall language packs for SharePoint Server 2016](../install/install-uninstall-language-packs-2019.md)
 #### Other Resources
 
 [Configure the query for a Content Search Web Part](configure-search-web-parts.md#BKMK_ConfigureWP)
