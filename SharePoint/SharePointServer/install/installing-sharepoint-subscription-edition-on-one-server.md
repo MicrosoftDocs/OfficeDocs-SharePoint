@@ -321,5 +321,5 @@ After you install and configure SharePoint Server, your browser window opens to 
     - `Set-SPCentralAdministration`
     - `PSConfig.exe -cmd adminvs`
 
-  - **Use host name binding for Central Administration**: You can configure the SharePoint Central Administration website to use host header bindings, that will allow it to share the same Transmission Control Protocol (TCP) port number as other websites. This would typically be used to let the SharePoint Central Administration site and your content website to be hosted on the same TCP port, such as port 443 for Secure Sockets Layer (SSL).</br>
+  - **Using host name binding for Central Administration**: You can configure the SharePoint Central Administration website to use host header bindings, that will allow it to share the same Transmission Control Protocol (TCP) port number as other websites. This would typically be used to let the SharePoint Central Administration site and your content website to be hosted on the same TCP port, such as port 443 for Secure Sockets Layer (SSL).</br>
     To configure the SharePoint Central Administration website, specify the host header binding with the `-HostHeader` parameter of the `New-SPCentralAdministration` and `Set-SPCentralAdministration` cmdlets, or with the `-hostheader` parameter of the `psconfig.exe -cmd adminvs` command.</br>

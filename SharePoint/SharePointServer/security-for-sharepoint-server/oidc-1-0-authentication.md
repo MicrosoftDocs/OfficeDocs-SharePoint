@@ -109,7 +109,7 @@ In this step, you will need to modify farm properties. Start the SharePoint Mana
 
 ```powershell
 # Setup farm properties to work with OIDC
-$cert = New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -Provider 'Microsoft Enhanced RSA and AES Cryptographic Provider' -Subject 'CN=SharePoint Cookie Cert'
+$cert = New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -Provider 'Microsoft Enhanced RSA and AES Cryptographic Provider' -Subject "CN=SharePoint Cookie Cert"
 $rsaCert = [System.Security.Cryptography.X509Certificates.RSACertificateExtensions]::GetRSAPrivateKey($cert)
 $fileName = $rsaCert.key.UniqueName
 
@@ -349,7 +349,7 @@ To do this, perform the following steps:
 In the [previous step](#step-3-configure-sharepoint-to-trust-the-identity-provider) you have already created an OIDC `SPTrustedIdentityTokenIssuer` by using `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet. In this step, you will create a claim provider which uses the User Profile Application service to search and resolve users and groups in the People Picker and specifies to use the OIDC `SPTrustedIdentityTokenIssuer`:
 
   ```powershell
-  $claimprovider = New-SPClaimProvider - AssemblyName "Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c" –DisplayName 'OIDC Claim Provider'-Type "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider" - TrustedTokenIssuer $tokenissuer
+  $claimprovider = New-SPClaimProvider -AssemblyName "Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c" -DisplayName 'OIDC Claim Provider' -Type "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider" - TrustedTokenIssuer $tokenissuer
   ```
 
 There are three parameters that need to be specified here:
@@ -440,7 +440,8 @@ To enable the People Picker control to work with groups, the following steps nee
     You can create a `ClaimTypeMapping` object by using [New-SPClaimTypeMapping](/powershell/module/sharepoint-server/new-spclaimtypemapping) and then provide this object to [New-SPTrustedIdentityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedidentitytokenissuer) cmdlet with `-ClaimsMappings` parameter.
 
     ```powershell
-    $sidClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.microsoft.com/ws/2008/06/identity/claims/groupsid" -IncomingClaimTypeDisplayName "SID" -SameAsIncoming $tokenissuer = New-SPTrustedIdentityTokenIssuer -ClaimsMappings $sidClaimMap, $emailClaimMap
+    $sidClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.microsoft.com/ws/2008/06/identity/claims/groupsid" -IncomingClaimTypeDisplayName "SID" -SameAsIncoming 
+    $tokenissuer = New-SPTrustedIdentityTokenIssuer -ClaimsMappings $sidClaimMap, $emailClaimMap
     ```
 
     This sample cmdlet first creates a 'claimmap' object of type 'groupsid' and indicates that it works with the “SID” property of the group and then creates a new identity issuer which can understand this mapping.
@@ -584,7 +585,7 @@ In this step, you will need to modify the farm properties. Start the SharePoint 
 ```powershell
 # Setup farm properties to work with OIDC
 #Create a self-signed certificate in one SharePoint Server in the farm
-$cert = New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -Provider 'Microsoft Enhanced RSA and AES Cryptographic Provider' -Subject “CN=SharePoint Cookie Cert”
+$cert = New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -Provider 'Microsoft Enhanced RSA and AES Cryptographic Provider' -Subject "CN=SharePoint Cookie Cert"
 
 #if you have multiple SharePoint servers in the farm, you need to export certificate by Export-PfxCertificate and import certificate to all the SharePoint servers in the farm by Import-PfxCertificate. 
 
@@ -732,7 +733,7 @@ Since OpenID Connect 1.0 authentication can only work with HTTPS protocol, a cer
     2. Run the following script to generate a self-signed certificate and add it to the SharePoint farm:
 
         ```powershell
-        New-SPCertificate -FriendlyName " Contoso SharePoint (2021)" -KeySize 2048 -CommonName spsites.contoso.local -AlternativeNames extranet.contoso.local, onedrive.contoso.local -OrganizationalUnit "Contoso IT Department" -Organization "Contoso" -Locality "Redmond" -State "Washington" -Country "US" -Exportable -HashAlgorithm SHA256 -Path "\\server\fileshare\Contoso SharePoint 2021 Certificate Signing Request.txt"
+        New-SPCertificate -FriendlyName "Contoso SharePoint (2021)" -KeySize 2048 -CommonName spsites.contoso.local -AlternativeNames extranet.contoso.local, onedrive.contoso.local -OrganizationalUnit "Contoso IT Department" -Organization "Contoso" -Locality "Redmond" -State "Washington" -Country "US" -Exportable -HashAlgorithm SHA256 -Path "\\server\fileshare\Contoso SharePoint 2021 Certificate Signing Request.txt"
         Move-SPCertificate -Identity "Contoso SharePoint (2021)" -NewStore EndEntity
         ```
 
