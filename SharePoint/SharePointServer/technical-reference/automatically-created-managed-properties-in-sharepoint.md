@@ -31,17 +31,17 @@ During the crawl of library content, the following actions are performed on the 
   
 1. A crawled property is created. Spaces are removed from the site column name, and then the following prefixes are added to the site column name to create the crawled property name:
     
-  - For site columns of type **Publishing HTML** and **Multiple line of text**: ows_r_ _\<four letter code\>__
+   - For site columns of type **Publishing HTML** and **Multiple line of text**: ows_r_ _\<four letter code\>__
     
-  - For site columns of type **Managed Metadata**: ows_taxId_
+   - For site columns of type **Managed Metadata**: ows_taxId_
     
-  - For all other site column types: ows_q_ _\<four letter code\>__
+   - For all other site column types: ows_q_ _\<four letter code\>__
     
 2. A managed property is created and mapped to the corresponding crawled property. Spaces are removed from the site column name, and the following items are added to the site column name to create the managed property name:
     
-  - For all site columns of type **Managed Metadata**, the following prefix is added: owstaxId
+   - For all site columns of type **Managed Metadata**, the following prefix is added: owstaxId
     
-  - For all other site column types, the following suffix is added: OWS _ \<four letter code\> _
+   - For all other site column types, the following suffix is added: OWS _ \<four letter code\> _
     
 > [!IMPORTANT]
 > The four letter code represents the site column type, not the managed property type. All automatically created managed properties are of type Text. 
