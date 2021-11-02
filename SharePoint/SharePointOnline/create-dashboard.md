@@ -155,30 +155,35 @@ To create custom experiences on Viva Connections Dashboard and Viva Connections 
 
 
 ### Get 3rd party cards and applications
-There are two ways to acquire partner solution packages and install them on the Viva Connections Dashboard:
-1.	Through a Microsoft AppSource
-<br>
-    Option A: Add an App via the SharePoint home site <br>
-    Option B: Add an App via the App Catalog
-    
-2.	Directly from the ISV partner
+There are two ways to acquire third-party developers and partners solution package and add them on the Viva Connections dashboard.
 
-#### Acquire the solution package from a Microsoft AppSource
+#### Option 1: Acquire the app from a Microsoft AppSource or the SharePoint store
+You can acquire apps from third- party developers by browsing the [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=sharepoint) or [SharePoint store](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289) (recommended).
 
-**Option A:** Add an App via the SharePoint home site - [Learn how to explore and deploy SharePoint Framework solutions from partners in SharePoint.](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289)
+- If you are an **end user**, you can request the app directly, but you will need approval from an admin of the tenant-level app catalog to continue with the installation
+- If you are an **admin** of a tenant-level app catalog, you can deploy business apps directly.
 
-**Option B:** Add an App via the App Catalog - [Learn how to manage apps using the App Catalog.](use-app-catalog#work-with-sharepoint-store-apps.md)
+[Get step-by-step guidance](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289) on how to request and deploy an app, and add an app to your site. For tenant admin, [learn how to manage apps](/sharepoint/use-app-catalog#work-with-sharepoint-store-apps) in the App Catalog.
 
- >[!NOTE]
- > SharePoint administrative permissions are required to complete option B.
 
-#### Or, acquire the solution package directly from the ISV
+#### Option 2: Acquire the app directly from the third-party developer
 
  >[!NOTE]
  > SharePoint administrative permissions are required to complete this task.
 
-Once you receive the package from the ISV partner, follow the **Work with Custom Apps** steps in the [App Catalog guidance.](use-app-catalog#work-with-custom-apps.md) 
+You can request apps directly from the Viva Connections third-party developers and partners. Admin permissions are required to [add the app to tenant level app catalog.](use-app-catalog.md) 
 
+
+### Add a Microsoft app as a card on the Dashboard
+A Microsoft app card allows you to create a card that links to Microsoft apps e.g., Shifts, Approvals, Task. Microsoft apps cards will be available Out of the Box when Viva Connections is enabled.
+
+1.	While in edit mode, select **+ Add a card** from the Dashboard.
+2.	Select the Microsoft App you want to add from the web toolbox.
+
+![Image of how to find a Microsoft app in the card picker window.](media/3p-apps-1.png)
+
+3. Select your options in the property pane on the right side of the page.
+4.	When you **Republish**, the card will appear on your dashboard.
 
 
 ## Apply audience targeting to cards
