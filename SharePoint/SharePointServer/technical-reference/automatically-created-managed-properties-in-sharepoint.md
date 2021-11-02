@@ -116,7 +116,7 @@ The catalog entries and examples of queries are shown in the following tables.
    
 **Query examples**
 
-| Query for | Data format | Query will return |
+| Query for | Data format | Query will return |&nbsp;|
 |:-----|:-----|:-----|
 |All restaurants in Mumbai   |GP0|#ad491ed9-c21c-46d9-896c-c0d148957c60   |Restaurant 1, Restaurant 2   |
 |All restaurants in Delhi   |GP0|#c195b6e0-9062-446a-9af1-8ec1a642fede   |Restaurant 3   |
