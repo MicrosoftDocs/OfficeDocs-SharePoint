@@ -1,6 +1,6 @@
 ---
 title: "Data access governance reports"
-ms.reviewer: 
+ms.reviewer: karthig
 ms.author: v-smandalika
 author: v-smandalika
 manager: dansimp
@@ -19,13 +19,12 @@ search.appverid: MET150
 description: "In this article, you'll learn about reports that can help you govern access to data in SharePoint."
 ---
 
-# Data access governance reports
+# Data access governance reports (preview)
 
-As security and compliance requirements increase across industries and the amount of business data grows exponentially, organizations need tools to help govern their data. Data access governance reports provide info that helps you govern access to SharePoint data.
-The reports help you discover sites that contain potentially overshared or sensitive content. You can use these reports to assess and apply appropriate security and compliance policies.
+As security and compliance requirements increase across industries and the amount of business data grows exponentially, organizations need tools to help govern their data. Data access governance reports provide info that helps you govern access to SharePoint data. The reports help you discover sites that contain potentially overshared or sensitive content. You can use these reports to assess and apply appropriate security and compliance policies.
 
 > [!NOTE]
-> This feature is in preview for organizations that have Microsoft 365 E5.
+> This feature is in preview for organizations that have Microsoft 365 E5. We will begin rolling out in mid-November and be complete by mid-December.
 
 ## Access the reports in the SharePoint admin center
 
@@ -83,7 +82,7 @@ You can add a report for each sensitivity label you want to track. Adding a repo
 To get the latest data for a report, run the report. You can run all reports or select individual reports to run. It might take a few hours for reports to run. To check if a report is ready or when it was last updated, see the **Status** column.
 
 > [!NOTE]
-> Each report can run only once in 24 hours.
+> Each report can be run only once in 24 hours.
 
 :::image type="content" source="media/sensitivity-labels-reports-link.png" alt-text="Reports for sites with files labeled Confidential and Highly confidential":::
 
@@ -91,13 +90,13 @@ To get the latest data for a report, run the report. You can run all reports or 
 
 After you run a report, select it to download the data. The report includes:
 
-- Up to 10,000 sites with the highest number of [Office files that have sensitivity labels applied](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files) present in the sites.
+- Up to 10,000 sites with the highest number of [Office files that have sensitivity labels applied](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files).
 - The policies applied on these sites - [site sensitivity](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), [site unmanaged device policy](control-access-from-unmanaged-devices.md), and [site external sharing policy](external-sharing-overview.md).
 :::image type="content" source="media/details-screen.png" alt-text="Downloaded .csv file":::
 
 ## Limitations or known issues
 
-- Site ID, Site URL, and primary admin info are hidden or pseudonymized by default. Microsoft has made a privacy change, as part of our privacy commitment, to pseudonymize user-level information by default in all our reports. To get non-pseudonymized data in these reports, review [Privacy changes to Microsoft 365 Usage Analytics](https://techcommunity.microsoft.com/t5/microsoft-365-blog/privacy-changes-to-microsoft-365-usage-analytics/ba-p/2694137). To update the setting, you must be Global Administrator. Go to the [Reports setting in the Microsoft 365 admin center](https://admin.microsoft.com/#/Settings/Services/:/Settings/L1/Reports) and then select **Display concealed user, group, and site names in all reports**.
+- These reports work only if you have non-pseudonymized report data selected for your organization. To change this setting, you must be Global Administrator. Go to the [Reports setting in the Microsoft 365 admin center](https://admin.microsoft.com/#/Settings/Services/:/Settings/L1/Reports) and select **Display concealed user, group, and site names in all reports**.
 - Data in these reports might be delayed by up to 48 hours.
 
 
