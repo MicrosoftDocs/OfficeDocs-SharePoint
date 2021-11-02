@@ -35,6 +35,8 @@ When you first signed up for Microsoft 365, you created an onmicrosoft.com domai
 
 If your organization has gone through a rebranding, merger, or acquisition and needs to change the domain in your SharePoint and OneDrive URLs, you can now do this using PowerShell. For example, if your organization name changed from Contoso to Fabrikam, you can now change your SharePoint URLs from `contoso.sharepoint.com` to `fabrikam.sharepoint.com`.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOnwY]
+
 >[!IMPORTANT]
 > This feature is in preview and currently available to organizations that have no more than 1000 total SharePoint sites and OneDrive accounts combined.
 
@@ -75,7 +77,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 | Delve | It can take 24 hours before People profiles can be viewed. | None |
 | eDiscovery | Holds can't be removed until you update the URLs. | In the Compliance center, change the eDiscovery hold URLs to the new domain name. |
 | InfoPath forms | Forms that use a SharePoint connection as a data source won't work. | Reconnect these forms to SharePoint. |
-| Office apps | While the domain name is being changed, users might experience an error when saving Word, Excel, and PowerPoint documents that are located in a site or OneDrive. | Attempt to save the document again and if required change the URL of the save location.  |
+| Office apps | While the domain name is being changed, users might experience an error when saving Word, Excel, and PowerPoint documents that are located in a site or OneDrive. | Attempt to save the document again and if necessary change the URL of the save location.  |
 | Power Automate | Request sign-off flows that use SharePoint as a connection won’t work. | Remove and re-create the Request sign-off flow. |
 | Power Automate | Any flows deployed as solutions with managed layers that use SharePoint as a connection won’t work. | Remove and re-create the flows. |
 | Power BI | Power BI reports using SharePoint connections as a data source won't work. |	Before changing your domain name, download the Power BI reports that are using SharePoint connections as a data source as a .pbix file. After you change the domain name, edit the connections in the Power BI Desktop app and republish the report. <br> Power BI reports that are not created or maintained in the Power BI Desktop app will need to be recreated. |
@@ -108,7 +110,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 
 ## Step 1: Add the new domain name
 
-1. Check the availability of the new domain you want. For example, if you want your SharePoint and OneDrive URLs to begin with `fabrikam.sharepoint.com`, enter `https://fabrikam.sharepoint.com` in a browser. If you get a message that the address couldn’t be found (404), it’s probably available. If you get a sign in screen or a message that your username couldn’t be found in the fabrikam.sharepoint.com directory, then the domain has already been taken and you’ll need to try a different one. If the domain is already registered by another customer, we can't provide any information or contact the customer. 
+1. Check the availability of the new domain you want. For example, if you want your SharePoint and OneDrive URLs to begin with `fabrikam.sharepoint.com`, enter `https://fabrikam.sharepoint.com` in a browser. If you get a message that the address couldn’t be found (404), it’s probably available. If you get a sign-in screen or a message that your username couldn’t be found in the fabrikam.sharepoint.com directory, then the domain has already been taken and you’ll need to try a different one. If the domain is already registered by another customer, we can't provide any information or contact the customer. 
 
     -or-
 
@@ -152,12 +154,12 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 > [!WARNING]
 > Changing your SharePoint domain name might take several hours to days depending on the number of sites and OneDrive users that you have. We strongly recommend that you make this change during a period of low usage (like a weekend) and tell users to avoid accessing SharePoint and OneDrive content during the change. In addition, any actions that create new OneDrives and sites (such as creating a new team or private channel in Microsoft Teams) will be temporarily blocked during the rename. 
   
-1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+1. **REQUIRED** - [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!IMPORTANT]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell".
     > 
-    > When installing the latest version of the SharePoint Online Management Shell, please refer to the System Requirements and Install Instructions. The app isn't supported on Mac.
+    > Make sure you review the System Requirements and Install Instructions. The app isn't supported on Mac.
 
 2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
@@ -178,13 +180,13 @@ If your organization has gone through a rebranding, merger, or acquisition and n
     `Start-SPOTenantRename -DomainName "fabrikam" -ScheduledDateTime "2021-12-31T10:25:00"`
 
     > [!NOTE]
-    > If the PowerShell command Start-SPOTenantRename is not found or nothing is returned, ensure that you have installed the latest SharePoint Online Management Shell. If required, before installing the latest version, you might need to uninstall all previous versions by running `Uninstall-Module Microsoft.Online.SharePoint.PowerShell -Force -AllVersions`.
+    > If the PowerShell command Start-SPOTenantRename is not found or nothing is returned, make sure you installed the latest SharePoint Online Management Shell. Before installing the latest version, you might need to uninstall all previous versions by running `Uninstall-Module Microsoft.Online.SharePoint.PowerShell -Force -AllVersions`. For more info about the Start-SPOTenantRename cmdlet, see [Start-SPOTenantRename](/powershell/module/sharepoint-online/start-spotenantrename)
 
-You can get the status of the rename by running `Get-SPOTenantRenameStatus`. Make sure you open a new PowerShell window to sign in again. The date and time shown with this command is in UTC format.
+You can get the status of the rename by running `Get-SPOTenantRenameStatus`. Make sure you open a new PowerShell window to sign in again. The date and time shown with this command is in UTC format. [More info about Get-SPOTenantRenameStatus](/powershell/module/sharepoint-online/get-spotenantrenamestatus)
 
 During and after the rename, you can get the state of a site by running `Get-SPOSiteRenameState`. For more info about this cmdlet, see [Get-SPOSiteRenameState](/powershell/module/sharepoint-online/get-spositerenamestate). 
 
-To cancel a rename that has not started, you can run `Stop-SPOTenantRename`.
+To cancel a rename that has not started, you can run `Stop-SPOTenantRename`. [More info about this cmdlet](/powershell/module/sharepoint-online/start-spotenantrename)
 
 ## Step 3: Review features and settings after the rename
 
@@ -193,3 +195,8 @@ To cancel a rename that has not started, you can run `Stop-SPOTenantRename`.
 2. Review organization browser settings to make sure  the new domain is a trusted location. This includes reviewing any Group Policy settings that might control browser settings.
 
 3. Review any third-party apps, custom apps, and scripts that access SharePoint. They might need to be modified to use the new domain.
+
+## Troubleshooting
+
+- [Frequently asked questions](/sharepoint/troubleshoot/administration/domain-rename-faq)
+- [Errors and how to fix them](/sharepoint/troubleshoot/administration/errors-when-renaming)
