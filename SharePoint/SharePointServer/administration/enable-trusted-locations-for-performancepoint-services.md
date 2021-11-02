@@ -17,9 +17,12 @@ description: "Learn how to limit PerformancePoint Services features that use tru
 
 # Enable trusted locations for PerformancePoint Services
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 After you enable a feature on a site collection in SharePoint Server, the content types or PerformancePoint Services objects are made available for others to use on any site within that site collection. An administrator may want to limit PerformancePoint Services features that use trusted locations by allowing one or more sites, lists, or document libraries rather than an entire site collection. In this way the administrator can limit use of PerformancePoint Services to specific locations in the farm to prevent unauthorized access to data sources. See [To add a trusted data source location](#proc1).
+
+> [!NOTE]
+> PerformancePoint Services has been removed from SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power BI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services.
   
 ## Establish trusted locations for data sources and dashboard content
 <a name="establish_trusted_locations"> </a>

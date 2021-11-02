@@ -17,7 +17,7 @@ description: "Learn how to configure and demonstrate user profile synchronizatio
 
 # Test Lab Guide: Demonstrate profile synchronization for SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 This document explains how to set up the SharePoint Server 2013 synchronization tool to synchronize profiles between SharePoint Server 2013 and a single Active Directory Domain Services (AD DS) domain controller.
   

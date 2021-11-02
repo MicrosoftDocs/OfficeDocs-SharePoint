@@ -18,7 +18,7 @@ description: "Learn how to configure the Portal Super User and Portal Super Read
 
 # Configure object cache user accounts in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The object cache stores properties about items in SharePoint Server. Items in this cache are used by the publishing feature when it renders web pages. The goals of the object cache are to reduce the load on the computer on which SQL Server is running, and to improve request latency and throughput. The object cache makes its queries as one of two out-of-box user accounts: the Portal Super User and the Portal Super Reader. These user accounts must be properly configured to ensure that the object cache works correctly. The Portal Super User account must be an account that has Full Control access to the web application. The Portal Super Reader account must be an account that has Full Read access to the web application.
   
@@ -82,7 +82,7 @@ You can configure the user accounts for the object cache by the the SharePoint C
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Paste the following code into a text editor, such as Notepad:
     

@@ -17,17 +17,17 @@ description: "Learn one option for displaying values from custom managed propert
 
 # How to display values from custom managed properties in classic search results - option 1 in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In this article, you'll learn:
   
-- [How to display a custom icon](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md#BKMK_HowtoDisplayaCustomIcon)
+- [How to display a custom icon](display-values-custom-managed-properties.md#BKMK_HowtoDisplayaCustomIcon)
     
-- [How to find a managed property name](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md#BKMK_HowtoFindaManagedPropertyName)
+- [How to find a managed property name](display-values-custom-managed-properties.md#BKMK_HowtoFindaManagedPropertyName)
     
-- [How to change an item display template to show values from custom managed properties - option 1](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md#BKMK_HowtoModifyanItemDisplayTemplatetoShowValuesFromCustomManagedPropertiesOption1)
+- [How to change an item display template to show values from custom managed properties - option 1](display-values-custom-managed-properties.md#BKMK_HowtoModifyanItemDisplayTemplatetoShowValuesFromCustomManagedPropertiesOption1)
     
-- [About click tracking and automatically improved relevancy](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md#BKMK_AboutClickTrackingandAutomaticallyImprovedRelevancy)
+- [About click tracking and automatically improved relevancy](display-values-custom-managed-properties.md#BKMK_AboutClickTrackingandAutomaticallyImprovedRelevancy)
     
 ## How to display a custom icon
 <a name="BKMK_HowtoDisplayaCustomIcon"> </a>
@@ -113,8 +113,8 @@ Here's what you should do:
   ```
 
  In our Search Center scenario, we wanted the values from the managed properties *ContentSummaryOWSMTXT* and *owstaxIdTechnicalSubject* to appear in the search result. To make the file easier to maintain, we named the current item properties the same as the managed properties. 
-    
-     ![Add MPs](../media/OTCSP_AddMPs.png)
+
+![Add MPs](../media/OTCSP_AddMPs.png)
   
 3. Inside the second \<div\> tag in the \<body\>, use the following syntax to add code that will display the value of the custom managed property:
     
@@ -129,7 +129,7 @@ Here's what you should do:
   <div>_#= ctx.CurrentItem. owstaxIdTechnicalSubject =#></div>
   ```
 
-    ![Display Two New MPs](../media/OTCSP_DisplayTwoNewMPs.png)
+![Display Two New MPs](../media/OTCSP_DisplayTwoNewMPs.png)
   
 4. Save the item display template.
     

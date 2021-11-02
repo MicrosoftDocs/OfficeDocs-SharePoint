@@ -17,7 +17,7 @@ description: "Show the Yammer tile or the SharePoint Newsfeed link in SharePoint
 
 # Add Yammer to the SharePoint Server navigation
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 You can choose whether users see a link to Yammer or Newsfeed in the site navigation.
 
