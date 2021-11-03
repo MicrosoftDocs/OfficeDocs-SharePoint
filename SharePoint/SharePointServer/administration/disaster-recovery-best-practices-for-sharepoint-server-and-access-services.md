@@ -18,7 +18,7 @@ description: "Learn how to apply a disaster recovery strategy for Access Service
 
 # Disaster Recovery best practices for SharePoint Server and Access Services
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The article explains how to successfully implement a disaster recovery (DR) strategy for Access Services service applications for SharePoint Server.
   

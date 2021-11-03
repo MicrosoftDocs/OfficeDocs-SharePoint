@@ -18,7 +18,7 @@ description: "Learn more about SharePoint diagnostic logging, SharePoint Health 
 
 # Configure monitoring in SharePoint Server 2016
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 It may be necessary to configure your monitoring settings after your initial SharePoint deployment or upgrade.
   

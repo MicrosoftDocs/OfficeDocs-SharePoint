@@ -18,7 +18,7 @@ description: "Learn how to view, add, edit, map, and delete crawled properties, 
 
 # Manage the search schema in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The search schema in SharePoint Server determines how content is collected in and retrieved from the search index in SharePoint Server.
   

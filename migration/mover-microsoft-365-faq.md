@@ -179,6 +179,8 @@ Permissions are handled in different ways depending on the source/destination co
  
 ## How many user Transfer Rows can I run at once?
  
-- Only twelve user Transfer Rows that can run concurrently.
-- If you select more than twelve rows and start migrating, only twelve rows chosen at random will run while the rest will be in the "Queued Transfer Rows".
+- A maximum of 50 user transfer rows can run concurrently.
+- If you select more than 50 rows and start migrating, only 50 rows - chosen at random - will run while the rest will be in the "Queued Transfer Rows."
 - As a transfer row completes, another from the queue will start migrating automatically.
+- While 50 concurrent user transfer rows is the maximum allowed, if a migration experiences any slowdowns or back-off requests, it may drop lower than this number to keep the migration stable.
+

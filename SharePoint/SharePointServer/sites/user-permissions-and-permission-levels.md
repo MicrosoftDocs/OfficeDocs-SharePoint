@@ -17,7 +17,7 @@ description: "Learn about the default permission levels and user permissions in 
 
 # User permissions and permission levels in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Default permission levels are predefined sets of permissions that you can assign to individual users, groups of users, or security groups, based on the functional requirements of the users and on security considerations. SharePoint Server permission levels are defined at the site collection level and are inherited from the parent object by default.
 

@@ -8,7 +8,7 @@ ms.date: 3/9/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
@@ -18,7 +18,7 @@ description: "Learn about the SharePoint Server relationship with SQL Server 200
 
 # Overview of SQL Server in a SharePoint Server 2013 environment
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 SharePoint Server 2013 supports several versions of SQL Server. Depending on the installed version, you can use specific features of SQL Server, such as reporting and business intelligence (BI).
   
@@ -110,7 +110,7 @@ For more information, see [AlwaysOn Availability Groups (SQL Server)](/sql/datab
 ### Reporting Services SharePoint mode
 <a name="RSsp"> </a>
 
-SharePoint mode in SQL Server 2012 Reporting Services and SQL Server 2014 Reporting Services is a SharePoint Server 2013 shared service that you configure in either the SharePoint Central Administration website or by using Reporting Services SharePoint mode Microsoft PowerShell cmdlets. For more information, see [PowerShell cmdlets (Reporting Services SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/powershell-cmdlets-for-reporting-services-sharepoint-mode?view=sql-server-2016). SharePoint mode supports SharePoint Server 2013 backup and restore for SQL Server Reporting Services service application and Unified Logging Service (ULS) trace logs. SharePoint mode also supports claims-based authentication. For more information, see the "SharePoint Mode" section of [What's New (Reporting Services)](/previous-versions/sql/sql-server-2012/ms170438(v=sql.110)). For more information about the SharePoint Microsoft PowerShell cmdlets for ULS, see [Logging and events cmdlets in SharePoint 2013](/powershell/module/sharepoint-server/?view=sharepoint-ps).
+SharePoint mode in SQL Server 2012 Reporting Services and SQL Server 2014 Reporting Services is a SharePoint Server 2013 shared service that you configure in either the SharePoint Central Administration website or by using Reporting Services SharePoint mode Microsoft PowerShell cmdlets. For more information, see [PowerShell cmdlets (Reporting Services SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/powershell-cmdlets-for-reporting-services-sharepoint-mode?view=sql-server-2016). SharePoint mode supports SharePoint Server 2013 backup and restore for SQL Server Reporting Services service application and Unified Logging Service (ULS) trace logs. SharePoint mode also supports claims-based authentication. For more information, see the "SharePoint Mode" section of [What's New (Reporting Services)](/previous-versions/sql/sql-server-2012/ms170438(v=sql.110)). For more information about the SharePoint Microsoft PowerShell cmdlets for ULS, see [Logging and events cmdlets in SharePoint 2013](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true).
   
 SharePoint mode requires that a report server component of Reporting Services must run within a SharePoint Server farm. This means that a SharePoint application server must exist with the Reporting Services shared service installed and at least one Reporting Services service application.
   

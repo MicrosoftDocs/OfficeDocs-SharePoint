@@ -19,7 +19,7 @@ description: "Removing SharePoint hybrid scenarios in SharePoint Server"
 
 # Removing SharePoint hybrid scenarios
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 This guide will walk you through removing SharePoint Hybrid functionality from your SharePoint in Microsoft 365 farm.
 
