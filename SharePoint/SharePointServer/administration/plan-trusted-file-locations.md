@@ -17,7 +17,7 @@ description: "Plan Excel Services trusted file location parameters, including se
 
 # Plan Trusted File Locations in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]. 
   
 This article describes trusted file locations for Excel Services.
   

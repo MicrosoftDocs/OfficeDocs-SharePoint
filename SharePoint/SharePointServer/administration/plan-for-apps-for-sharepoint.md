@@ -18,7 +18,7 @@ description: "Plan for apps for SharePoint, including the App Catalog and how to
 
 # Plan for apps for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 If you want to use apps for SharePoint in your environment, there are several prerequisites and other planning considerations to keep in mind. This article covers what you need to plan for before you get started with the actual configuration.
   

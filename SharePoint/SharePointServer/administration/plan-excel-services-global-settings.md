@@ -17,7 +17,7 @@ description: "Learn how to choose authorization (impersonation or process accoun
 
 # Plan Excel Services Global Settings in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 When you deploy Excel Services, you need to plan for the following Global Settings:
   

@@ -18,7 +18,7 @@ description: "Learn how to manage SharePoint Server web application permission p
 
 # Manage permission policies for a web application in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Permission policy levels provide a centralized way to configure and manage a set of permissions that applies to a subset of users or groups across all the site collections in a web application.
   

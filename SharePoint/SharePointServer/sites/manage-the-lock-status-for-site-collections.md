@@ -19,7 +19,7 @@ description: "How to manage lock status for a site collection in SharePoint Serv
 
 # Manage the lock status for site collections in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You use the lock status of a site collection to control the actions allowed on a site collection.
   

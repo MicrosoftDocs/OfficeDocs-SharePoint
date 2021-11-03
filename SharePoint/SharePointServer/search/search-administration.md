@@ -18,7 +18,7 @@ description: "Learn how to manage the search topology and how to customize the s
 
 # Administer search in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Below are the main areas where you can customize and impact the search experience for your users and make sure that search is performing the way you want. SharePoint Server 2019 has both a classic and a modern search experience. Both search experiences use the same search index to find search results, and some settings can impact both experiences. [Learn about the differences between the search experiences in SharePoint Server](differences-search-2016-2019.md).
 
