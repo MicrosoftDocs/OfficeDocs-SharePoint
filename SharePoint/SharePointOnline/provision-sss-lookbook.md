@@ -22,7 +22,7 @@ description: "Provision the SharePoint Success Site from the look book."
 
 # Provision the SharePoint Success Site from the look book
 
-You can provision the SharePoint Success Site after you confirm that you *and* your tenant meet the following [prerequisites](./provision-sss.md#meet-the-prerequisites):
+You can provision the SharePoint Success Site after you confirm that you *and* your tenant meet the following [prerequisites](./provision-sss.md#meet-the-requirements):
 
 - You're using global admin credentials.
 - Your tenant has the App Catalog installed.
@@ -33,7 +33,7 @@ You can provision the SharePoint Success Site after you confirm that you *and* y
 ## Start provisioning from the look book
 If your tenant is already provisioned with Microsoft 365 learning pathways version 4.0 *or later*, you can provision the SharePoint Success Site from the look book. 
 
-If you aren't sure what version of Microsoft 365 learning pathways is installed on your tenant, review the [prerequisites](./provision-sss.md#meet-the-prerequisites). Then provision the SharePoint Success Site. 
+If you aren't sure what version of Microsoft 365 learning pathways is installed on your tenant, review the [prerequisites](./provision-sss.md#meet-the-requirements). Then provision the SharePoint Success Site. 
 
 1. Go to the [look book](https://lookbook.microsoft.com/details/0b860749-56a0-4c4c-992c-536d56d9accf), and then select **Add to your tenant**.
 

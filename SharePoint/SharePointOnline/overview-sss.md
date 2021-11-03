@@ -91,7 +91,7 @@ The site creation guidelines page provides a starting point to educate new Site 
 
 ## Summary of how to launch a SharePoint Success Site
 
-**Step 1:** [Meet the pre-requisites](./provision-sss.md#meet-the-prerequisites) and then [provision](./provision-sss.md#provision-the-sharepoint-success-site-1) the SharePoint Success Site 
+**Step 1:** [Meet the pre-requisites](./provision-sss.md#meet-the-requirements) and then [provision](./provision-sss.md#provision-the-sharepoint-success-site-1) the SharePoint Success Site 
 <br> 
 
 **Step 2:** [Customize](./customize-sss.md) the site design, playlists, success stories, and site creation guidelines
