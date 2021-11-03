@@ -29,12 +29,12 @@ Most migrations fall into incremental phases. Proven success factors for migrati
 - Assessment & Planning
 - Remediating
 - Preparing your destination environment
-- Migrating, and 
+- Migration
 - Onboarding your users
 
 
 > [!NOTE]
-> The Mover Migration tool is a Microsoft owned migration tool available at no cost to subscribers of Microsoft 365.
+> The Mover Migration tool is a Microsoft owned migration tool available at no cost to subscribers of Microsoft 365 with qualifying licences.
 
 
 >[!Tip]
@@ -47,19 +47,19 @@ Before beginning your migration, it's important you plan your outcome by doing a
 
 - The design of the target environment and the mapping between source and destination.
  - Ensuring that all OneDrive users and SharePoint sites are provisioned.
- - Determine who gets what data – Large Shared data should go to SharePoint Online, while mostly user owned data should go to OneDrive.
- - Address large data owners and make informed decisions to split up this data and migrate into SharePoint sites.
- - If large data amounts are being migrated, make sure that you have provisioned adequate storage in the destination before migrating.
+ - Determine where to migrate your content. Content that is shared among many users is best migrated to SharePoint.  Content primarily owned and consumed by one user is best migrated to that user's OneDrive account
+  - Address large data owners and make informed decisions to split up this data and migrate into SharePoint sites.
+ -  Ensure that you have provisioned adequate storage in the destination before migrating, especially when moving a large amount of data.
 
 - The amount of content you migrate. Determine if content is redundant, out of date, or still relevant.
-- Understand the scope of your project, anytime restrictions, or deadlines
+- Understand the scope of your project, time restrictions, or deadlines
 - Build your user onboarding into your upfront planning. Communicate early and often with your users about the migration and how it will impact them. Don't wait until the very end to start preparing them for the change.
 
-Before beginning your migration, it is important that you perform an analysis of your current environment. Only you know your data and how and who uses it. 
+Before beginning your migration, it is important that you perform an analysis of your current environment. 
 
 ### Inventory scan
 
-You or your customer might have a relative idea of how many users are in their source domain and how many they might want to migrate. However, it is important to get an accurate count of the user base by running an **Inventory Scan.**  This scan will let you know how many users are in the domain and help determine who owns the data. To learn more, see [Running a migration inventory scan with Mover.](mover-scan.md) 
+You or your customer might have a relative idea of how many users and files are in the source environment and which might be migrated. However, it is important to get an accurate count of the user base and files (including the size) by running an **Inventory Scan**. This scan will let you know how many users and files are in the source environment and help determine who owns the data. To learn more, see [Running a migration inventory scan with Mover.](mover-scan.md) 
 
 Using the results from your inventory scan, assess and remediate in the following areas:
 
@@ -84,7 +84,7 @@ The most common question from customers is “How long will the migration take?�
 - File size 
 - Total amount of data being moved
 - Server connections with the source or destination
-- Both source and destination connectors have rate limits. We are constrained to how fast they allow us to download, upload and process data between the two.
+- Both source and destination connectors have rate limits. We are constrained to how fast they allow us to download, upload, and process data between the two.
 - Complexity of permissions or sharing of data: Applying permissions as part of the migration is another factor that can influence speed. When permissions are applied, we are again making numerous API calls that will increase the time it takes to migrate the data.
 
 Mapping out timelines and setting expectations of what can be achieved with those timelines is essential to managing a successful migration project.
@@ -126,11 +126,11 @@ We recommend the following best practices as you prepare your environment.
 
 Many factors determine how long a migration might take. It is not an exact science, but one of the basic rules of thumb is that it moves one file per second on average. If a customer has 1 million files, it will take 1 million seconds to migrate, which equates to roughly 12 days.
 
-The tool will migrate as fast as possible, but we also must factor in the following, which may affect performance speed:
+The tool will migrate as fast as possible, but performance can be impacted by:
 
-- The distribution of the data - If you have many users who own a lot of file/data these will take longer to complete.
-- The temperament of both the source and destination servers (how fast they can download and upload the data).
-- The size of the files (large files will migrate quicker than lots of small files, as it takes more API calls to migrate many small files).
+- The distribution of the data - If you have many users who own a large number of files, the migration will take longer to complete.
+- The state of both the source and destination servers; how fast they can download and upload the data.
+- The size of the files. Large files will migrate quicker than large number of small files, as fewer files make less API calls.
 - Time of day. Schedule migrations outside of standard office hours to allow more data to migrate quicker.  Source and Destination tenants tend to be quieter when there is less daily user usage.
 
 
