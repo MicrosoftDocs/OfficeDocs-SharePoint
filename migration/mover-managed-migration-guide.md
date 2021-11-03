@@ -100,11 +100,9 @@ A migration is a significant undertaking for any customer. Trying to grasp the e
 
 Before, during, and after a migration, it is critical to communicate clearly and effectively with your user base. 
 
-**Management**. Management needs succinct information about the how’s and why’s of the migration, including the benefits, and expectations. Clearly communicate what a successful migration looks like 
-
-**Users**. They need to know when changes are taking place and who to go to with questions or issues, and in turn whoever we are working with for that customer we will be available to provide answers to those questions when they occur.
-
-**IT Helpdesk/Support staff**. If your organization is large enough to have specific support staff for other employees, they must understand each step of the migration and how to help troubleshoot many of the questions that might arise.
+**Management**. Management needs concise information about the how’s and why’s of the migration, including the benefits and expectations. Communicate what a successful migration looks like. 
+**Users**. They need to know when changes are taking place, and who to go to with questions or issues.  
+**IT Helpdesk/Support staff**. If your organization is large enough to have specific support staff for other employees, they must understand each step of the migration and be able to troubleshoot questions that arise.
 
 
 
@@ -165,7 +163,6 @@ When mapping please ensure that each Service Account has its own unique matching
 
 Asterix (*) = optional folder 
  
-
 
 
 
