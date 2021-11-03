@@ -131,6 +131,7 @@
 ### [SharePoint and OneDrive error messages](sharepoint-onedrive-error-message.md)
 ### [Report on sharing](sharing-reports.md)
 ### [Manage site access based on sensitivity label](authentication-context-example.md)
+### [Data access governance reports](data-access-governance-reports.md) 
 ### [Restricted domains sharing](restricted-domains-sharing.md)
 ### [Create a B2B extranet](create-b2b-extranet.md)
 ### [Advanced permissions customization]()
