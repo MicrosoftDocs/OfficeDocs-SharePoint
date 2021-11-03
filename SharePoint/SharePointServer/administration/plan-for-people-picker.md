@@ -17,7 +17,7 @@ description: "Learn how to plan for the People Picker web control in SharePoint 
 
 # Plan for People Picker in SharePoint
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You use the People Picker control to find and select people, groups, and claims when a site, list, or library owner assigns permissions in SharePoint Server. This article describes how to plan for People Picker. For information about how to configure People Picker, see [Configure People Picker in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14)).
   

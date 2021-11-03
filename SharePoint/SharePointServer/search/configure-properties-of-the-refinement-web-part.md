@@ -18,7 +18,7 @@ description: "Learn how to configure properties of the Refinement Web Part, how 
 
 # Configure properties of the Refinement Web Part in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 By default, the Refinement Web Part is used on all search vertical pages (results.aspx, peopleresults.aspx, conversationresults.aspx, videoresults.aspx). The Web Part filters search results from a Search Results Web Part into categories to help users narrow search results to help them find what they are looking for. By changing properties in the Refinement Web Part you can you can do the following:
   

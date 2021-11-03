@@ -19,7 +19,7 @@ description: "The Administrative Actions logging feature is included in the Nove
 
 # Using Administrative Actions logging in SharePoint Server 2016
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
 The Administrative Actions logging feature is included in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1). This feature enables logging of SharePoint Server 2016 administrative actions.
   

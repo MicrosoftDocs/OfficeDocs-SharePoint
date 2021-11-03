@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -21,7 +21,7 @@ description: "Learn about supported high availability and disaster recovery opti
 
 # Supported high availability and disaster recovery options for SharePoint databases
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 This article describes the supported high availability and disaster recovery options for SharePoint Server databases. For detailed information about these databases, such as size and supported backup and recovery tools, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md). 
   
@@ -47,7 +47,7 @@ The following tables provide the supported high availability and disaster recove
 For supported versions of SQL Server, see:
 - [Hardware and software requirements for SharePoint Server 2019](../install/hardware-and-software-requirements-2019.md)
 - [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md)
-- [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md) 
+- [Hardware and software requirements for SharePoint 2013](../install/hardware-software-requirements-2013.md) 
   
 **Configuration database**
 

@@ -19,10 +19,8 @@ description: "Learn how to install and configure SharePoint Server web content m
 
 # Configure web content management solutions in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
-## 
-
 The articles that are listed in the following table describe how to set up cross-site publishing features in a SharePoint Server environment. 
   
 |**        ![Building blocks](../media/mod_icon_buildingblock_M.png)                 **|**Content**|**Description**|

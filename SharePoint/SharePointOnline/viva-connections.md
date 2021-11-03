@@ -234,7 +234,7 @@ If you have already provisioned Viva Connections desktop via PowerShell, and you
 
 [Enable and set up global navigation in the SharePoint app bar](./sharepoint-app-bar.md)
 
-[Introduction to SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps)
+[Introduction to SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps&preserve-view=true)
 
 [Learn more about Microsoft Viva](https://www.microsoft.com/microsoft-365/blog/2021/02/04/microsoft-viva-empowering-every-employee-for-the-new-digital-age/)
 

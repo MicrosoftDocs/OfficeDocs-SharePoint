@@ -18,7 +18,7 @@ description: "Learn how to improve search results by creating and managing query
 
 # Manage query rules in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Without using any custom code, a Search service application administrator, site collection administrator, or site owner can improve classic search results by creating and managing query rules. Query rules help searches respond to the intent of users. 
 

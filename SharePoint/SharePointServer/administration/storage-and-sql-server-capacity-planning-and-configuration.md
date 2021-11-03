@@ -6,7 +6,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 f1.keywords: NOCSH
-ms.topic: article
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: high
 ms.collection:
@@ -20,7 +20,7 @@ description: "Learn how to plan and configure the storage and database tier for 
 
 # Storage and SQL Server capacity planning and configuration (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The capacity planning information that we provide contains guidelines to help you plan and configure the storage and SQL Server database tier in a SharePoint Server environment. This information is based on testing performed at Microsoft on live properties. However, your results may vary based on the equipment you use and the features and functionality that you implement for your sites.
 
@@ -169,7 +169,7 @@ The SQL Server 2016 Reporting Services (SSRS) add-in can be used with any ShareP
 - The SQL Server 2008 R2 Reporting Services (SSRS) plug-in can be used with any SharePoint 2013 environment. If you are using the plug-in, plan to support the two SQL Server 2008 R2 Reporting Services databases and the extra load that is required for SQL Server 2008 R2 Reporting Services.
  
 > [!NOTE]
-> SQL Server Reporting Services integration with SharePoint Server 2019 is no longer supported. For more information, see [Reporting Services Report Server (SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016&viewFallbackFrom=sql-server-2017&preserve-view=true) and [Supported combinations of SharePoint and Reporting Services server](/sql/reporting-services/install-windows/supported-combinations-of-sharepoint-and-reporting-services-server?view=sql-server-2016&preserve-view=true).
+> SQL Server Reporting Services integration with SharePoint Server 2019 is no longer supported. For more information, see [Reporting Services Report Server (SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode) and [Supported combinations of SharePoint and Reporting Services server](/sql/reporting-services/install-windows/supported-combinations-of-sharepoint-and-reporting-services-server).
     
 
 <a name="Section1_5a"> </a>
@@ -199,7 +199,7 @@ Configuration and content storage and IOPS are the base layer that you must plan
 
 Storage requirements for the Configuration database and the Central Administration content database are not large. We recommend that you allocate 2 GB for the Configuration database and 1 GB for the Central Administration content database. Over time, the configuration database may grow beyond 1 GB. It does not grow quickly — it grows by approximately 40 MB for each 50,000 site collections. 
   
-Transaction logs for the configuration database can be large. We recommend that you back up the transaction log for the configuration database regularly to force truncation. If you are using SQL Server Always On availability groups or database mirroring, you should also keep the database running in full recovery mode. For more information, see [The Transaction Log (SQL Server)](/sql/relational-databases/logs/the-transaction-log-sql-server?viewFallbackFrom=sql-server-2014).
+Transaction logs for the configuration database can be large. We recommend that you back up the transaction log for the configuration database regularly to force truncation. If you are using SQL Server Always On availability groups or database mirroring, you should also keep the database running in full recovery mode. For more information, see [The Transaction Log (SQL Server)](/sql/relational-databases/logs/the-transaction-log-sql-server).
   
 > [!TIP]
 > If you are not using a SQL Server high availability solution which requires the use of the full recovery model, you may consider changing the configuration database to the simple recovery model.
@@ -334,7 +334,7 @@ We recommend that for SharePoint Server 2013 you consider running your environme
   
 In particular, you should consider your need for the following features: 
   
-- **Backup compression** Backup compression can speed up any SharePoint backup, and is available in every edition of SQL Server 2008 and later. By setting the compression option in your backup script, or by configuring the server that is running SQL Server to compress by default, you can significantly reduce the size of your database backups and shipped logs. For more information, see [Backup Compression (SQL Server)](/sql/relational-databases/backup-restore/backup-compression-sql-server?viewFallbackFrom=sql-server-2014) for SQL Server 2014 and [Backup Compression (SQL Server)](/sql/relational-databases/backup-restore/backup-compression-sql-server) for SQL Server 2016 and SQL Server 2017 RTM. 
+- **Backup compression** Backup compression can speed up any SharePoint backup, and is available in every edition of SQL Server 2008 and later. By setting the compression option in your backup script, or by configuring the server that is running SQL Server to compress by default, you can significantly reduce the size of your database backups and shipped logs. For more information, see [Backup Compression (SQL Server)](/sql/relational-databases/backup-restore/backup-compression-sql-server) for SQL Server 2014 and [Backup Compression (SQL Server)](/sql/relational-databases/backup-restore/backup-compression-sql-server) for SQL Server 2016 and SQL Server 2017 RTM. 
     
     > [!NOTE]
     > SQL Server data compression is not supported for SharePoint Server, except for the Search service application databases. 
@@ -368,7 +368,7 @@ In particular, you should consider your need for the following features:
 
     - SQL Server 2012 Enterprise Edition
     
-- **Resource governor** Resource Governor is a technology introduced in SQL Server 2008 to enable you to manage SQL Server workloads and resources by specifying limits on resource consumption by incoming requests. Resource Governor enables you to differentiate workloads and allocate CPU and memory as they are requested, based on the limits that you specify. For more information about how to use Resource Governor, see [Resource Governor](/sql/relational-databases/resource-governor/resource-governor?viewFallbackFrom=sql-server-2014) for SQL Server 2014 and [Resource Governor](/sql/relational-databases/resource-governor/resource-governor) for SQL Servers 2016 and 2019.
+- **Resource governor** Resource Governor is a technology introduced in SQL Server 2008 to enable you to manage SQL Server workloads and resources by specifying limits on resource consumption by incoming requests. Resource Governor enables you to differentiate workloads and allocate CPU and memory as they are requested, based on the limits that you specify. For more information about how to use Resource Governor, see [Resource Governor](/sql/relational-databases/resource-governor/resource-governor) for SQL Server 2014 and [Resource Governor](/sql/relational-databases/resource-governor/resource-governor) for SQL Servers 2016 and 2019.
     
     We recommend that you use Resource Governor with SharePoint Server to:
     
@@ -474,7 +474,7 @@ As you add service applications and features, your requirements are likely to in
 |Recommendation for more than 5 terabytes  <br/> |Extra RAM over 64 GB can improve SQL Server caching speed  <br/> |
    
 > [!NOTE]
-> These values are higher than those recommended as the minimum values for SQL Server because of the distribution of data required for a SharePoint Server environment. For more information about SQL Server system requirements, see [Hardware and Software Requirements for Installing SQL Server 2014](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?viewFallbackFrom=sql-server-2014) and [Hardware and Software Requirements for Installing SQL Server](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server) for SQL Servers 2016 and 2017. 
+> These values are higher than those recommended as the minimum values for SQL Server because of the distribution of data required for a SharePoint Server environment. For more information about SQL Server system requirements, see [Hardware and Software Requirements for Installing SQL Server 2014](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server) and [Hardware and Software Requirements for Installing SQL Server](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server) for SQL Servers 2016 and 2017. 
   
 For information about SQL Server capacity limits and specifications, see [Compute Capacity Limits by Edition of SQL Server](/sql/sql-server/compute-capacity-limits-by-edition-of-sql-server) and [Maximum Capacity Specifications for SQL Server](/sql/sql-server/maximum-capacity-specifications-for-sql-server).
   
@@ -544,7 +544,7 @@ On the server that is running SQL Server, we recommend that the L2 cache per CPU
 
 For optimal performance when you configure a physical storage array, adhere to the hardware configuration recommendations supplied by the storage vendor instead of relying on the default values of the operating system.
   
-If you do not have guidance from your vendor, we recommend using the PowerShell storage cmdlets that are available for Windows Server 2012 R2. For more information, see [Storage Cmdlets in Windows PowerShell](/powershell/module/storage/index?view=win10-ps&preserve-view=true).
+If you do not have guidance from your vendor, we recommend using the PowerShell storage cmdlets that are available for Windows Server 2012 R2. For more information, see [Storage Cmdlets in Windows PowerShell](/powershell/module/storage/index).
   
 #### Provide as many resources as possible
 
@@ -614,7 +614,7 @@ For more information about how to create and manage filegroups, see [Physical Da
 
 Plan for database sizing that will improve manageability, performance, and ease of upgrade for your environment. 
   
-To help ensure system performance, we recommended that you limit the size of content databases to 200 GB, except when specific usage scenarios and conditions support larger sizes. For more information about content database size limits, see the "Content database limits" section in [Software boundaries and limits for SharePoint Servers 2016 and 2019](../install/software-boundaries-and-limits-0.md).
+To help ensure system performance, we recommended that you limit the size of content databases to 200 GB, except when specific usage scenarios and conditions support larger sizes. For more information about content database size limits, see the "Content database limits" section in [Software boundaries and limits for SharePoint Servers 2016 and 2019](../install/software-boundaries-limits-2019.md).
   
 We generally recommend that a site collection should not exceed 100 GB unless it is the only site collection in the database so that you can use the SharePoint Server granular backup tools to move a site collection to another database if you need to.
   
@@ -639,7 +639,7 @@ Test that your performance and backup solution on your hardware enables you to m
   
 Test the backup solution that you are using to make sure that it can back up the system within the available maintenance window. If the backup solution can't meet the SLAs your business requires, consider using an incremental backup solution such as Microsoft System Center Data Protection Manager. 
   
-It is important to track the following resource components of a server that is running SQL Server: CPU, memory, cache/hit ratio, and I/O subsystem. When one or more of the components seems slow or overburdened, analyze the appropriate strategy based on the current and projected workload. For more information, see [Monitor and Tune for Performance](/sql/relational-databases/performance/monitor-and-tune-for-performance?viewFallbackFrom=sql-server-2014) for SQL Server 2014 (SP1) and [Monitor and Tune for Performance](/sql/relational-databases/performance/monitor-and-tune-for-performance) for SQL Server 2016 and SQL Server 2017 RTM. 
+It is important to track the following resource components of a server that is running SQL Server: CPU, memory, cache/hit ratio, and I/O subsystem. When one or more of the components seems slow or overburdened, analyze the appropriate strategy based on the current and projected workload. For more information, see [Monitor and Tune for Performance](/sql/relational-databases/performance/monitor-and-tune-for-performance) for SQL Server 2014 (SP1) and [Monitor and Tune for Performance](/sql/relational-databases/performance/monitor-and-tune-for-performance) for SQL Server 2016 and SQL Server 2017 RTM. 
   
 The following section lists the performance counters that we recommend that you use to monitor the performance of the SQL Server databases that are running in your SharePoint Server environment. Also listed are approximate healthy values for each counter.
   
@@ -705,11 +705,11 @@ Monitor the following counters to ensure the health of your computers that are r
     
 For more information and memory troubleshooting methods, see the following resources:
   
-- **SQL Server 2014 (SP1) -**[Monitor Memory Usage](/sql/relational-databases/performance-monitor/monitor-memory-usage?viewFallbackFrom=sql-server-2014)
+- **SQL Server 2014 (SP1) -**[Monitor Memory Usage](/sql/relational-databases/performance-monitor/monitor-memory-usage)
     
-- [Monitor Disk Usage](/sql/relational-databases/performance-monitor/monitor-disk-usage?viewFallbackFrom=sql-server-2014)
+- [Monitor Disk Usage](/sql/relational-databases/performance-monitor/monitor-disk-usage)
     
-- [Monitor CPU Usage](/sql/relational-databases/performance-monitor/monitor-cpu-usage?viewFallbackFrom=sql-server-2014)
+- [Monitor CPU Usage](/sql/relational-databases/performance-monitor/monitor-cpu-usage)
     
 - **SQL Server 2016 &amp; SQL Server 2017 -**[Monitor Memory Usage](/sql/relational-databases/performance-monitor/monitor-memory-usage)
     
@@ -717,7 +717,7 @@ For more information and memory troubleshooting methods, see the following resou
     
 - [Monitor CPU Usage](/sql/relational-databases/performance-monitor/monitor-cpu-usage)
     
-For more information and memory troubleshooting methods, see [Monitoring Memory Usage](/previous-versions/sql/sql-server-2008-r2/ms176018(v=sql.105)) for SQL Server 2008 R2 with SP1, [Monitoring Memory Usage](/previous-versions/sql/sql-server-2012/ms176018(v=sql.110)) for SQL Server 2012, and [Monitor Memory Usage](/sql/relational-databases/performance-monitor/monitor-memory-usage?view=sql-server-2014&preserve-view=true) for SQL Server 2014. 
+For more information and memory troubleshooting methods, see [Monitoring Memory Usage](/previous-versions/sql/sql-server-2008-r2/ms176018(v=sql.105)) for SQL Server 2008 R2 with SP1, [Monitoring Memory Usage](/previous-versions/sql/sql-server-2012/ms176018(v=sql.110)) for SQL Server 2012, and [Monitor Memory Usage](/sql/relational-databases/performance-monitor/monitor-memory-usage) for SQL Server 2014. 
   
 ### Disk counters to monitor
 
