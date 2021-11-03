@@ -179,7 +179,7 @@ A Microsoft app card allows you to create a card that links to Microsoft apps e.
 1.	While in edit mode, select **+ Add a card** from the Dashboard.
 2.	Select the Microsoft App you want to add from the web toolbox.
 
-   ![Image of how to find a Microsoft app in the card picker window.](media/3p-apps-1.png)
+![Image of how to find a Microsoft app in the card picker window.](media/3p-apps-1.png)
 
 3. Select your options in the property pane on the right side of the page.
 4.	When you **Republish**, the card will appear on your dashboard.
