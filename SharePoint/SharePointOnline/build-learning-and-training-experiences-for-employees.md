@@ -31,7 +31,7 @@ This article will  show you how to create a training solution, starting with pla
 <br>
 <br>
 
-**Create a learning and training experience**
+**Create a learning and training experience by:**
 
 - Taking inventory of all organizational needs, learning objectives and goals, and identifying important timelines  
 
