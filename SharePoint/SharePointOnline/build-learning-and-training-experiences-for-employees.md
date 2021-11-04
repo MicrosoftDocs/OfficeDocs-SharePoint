@@ -23,7 +23,7 @@ description: "Learn how to build a learning and training experience for employee
 # Build learning and training experiences for employees
 <br>
 
-Learn how to build a training and learning experience that will keep employees and team members up to date with important skills, and proficiencies required for professional success.  
+Learn how to build a training and learning experience that will keep employees and team members up to date with important skills and proficiencies required for professional success.  
 
 Organizations can provide an end-to-end training and learning experience that provides the tools needed to ensure all employees have access to developmental material needed for the highest level of proficiency in any field.
 
@@ -31,7 +31,7 @@ This article will  show you how to create a training solution, starting with pla
 <br>
 <br>
 
-**Create a learning and training experience by** 
+**Create a learning and training experience**
 
 - Taking inventory of all organizational needs, learning objectives and goals, and identifying important timelines  
 
