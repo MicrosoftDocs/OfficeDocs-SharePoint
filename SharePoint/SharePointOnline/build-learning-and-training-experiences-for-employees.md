@@ -70,7 +70,7 @@ Get started planning, building, and launching a training and learning experience
 
 ### Step 1: Understand your organizational needs  
 
-Take inventory of all organizational departments, teams, and disciplines. Are there any legally required continued learning mandates for any employee groups in your organization? How many? Is there a broad range of disciplines and areas of expertise across your organization? Is there a certain budget that needs to be set and adhered to for learning and training resources? Set aside time to list all foctors out to get a full scope of what is needed.
+Take inventory of all organizational departments, teams, and disciplines. Are there any legally required continued learning mandates for any employee groups in your organization? How many? Is there a broad range of disciplines and areas of expertise across your organization? Is there a certain budget that needs to be set and adhered to for learning and training resources? Set aside time to list all factors out to get a full scope of what is needed.
 
 ### Step 2: List and categorize all learning objectives  
 
