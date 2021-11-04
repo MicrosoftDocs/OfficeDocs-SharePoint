@@ -57,6 +57,7 @@
 ### [Connect leaders and your organization](leadership-connection.md)
 ### [Onboard new employees](onboard-employees.md)
 ### [Hold a town hall using Yammer](hold-town-hall-using-yammer.md)
+### [Build learning and training experiences](build-learning-and-training-experiences-for-employees.md)
 ## [Governance]()
 ### [Governance overview](governance-overview.md)
 ### [Create guidelines for site usage ](sites-usage-guidelines.md)
