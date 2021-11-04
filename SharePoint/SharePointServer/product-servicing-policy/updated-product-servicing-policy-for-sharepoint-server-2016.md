@@ -20,7 +20,7 @@ description: "This article explains the updated product servicing policy of Shar
 
 # Updated Product Servicing Policy for SharePoint Server 2016
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
   
 During mainstream support, Microsoft releases new Public Update (PU) builds for SharePoint Server 2016 each month that contain the latest functionality, performance, and stability improvements for the product. To ensure that customers have a high-quality experience, Microsoft is adopting the following product servicing policy for SharePoint Server 2016.
   

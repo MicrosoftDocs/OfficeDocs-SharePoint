@@ -29,6 +29,7 @@
 ### [Step 6: Migrate and Monitor](mm-box-step6-migrate-monitor.md)
 ### Reference
 #### [FAQs](mm-faqs-box.md)
+#### [Format a CSV file for bulk upload](mm-box-bulk-upload-source-paths-csv.md)
 #### [Troubleshooting](mm-box-troubleshooting.md)
 ## Migrate from Google Workspace
 ### [Overview](mm-google-overview.md)
@@ -40,6 +41,7 @@
 ### [Step 6: Migrate and Monitor](mm-google-step6-migrate-monitor.md)
 ### Reference
 #### [FAQs](mm-faqs-google.md)
+#### [Bulk upload Google drives using a CSV file](mm-google-bulk-upload-source-paths-csv.md)
 ## Migrate from Dropbox
 ### [Overview](mm-Dropbox-overview.md)
 ### [Step 1: Connect to Dropbox](mm-Dropbox-step1-connect.md)
@@ -50,6 +52,7 @@
 ### [Step 6: Migrate and Monitor](mm-Dropbox-step6-migrate-monitor.md)
 ### Reference
 #### [FAQs](mm-faqs-dropbox.md)
+#### [Bulk upload Dropbox accounts using a CSV file](mm-dropbox-bulk-upload-source-paths-csv.md)
 ## Migrate SharePoint Server sites and content
 ### [Overview](introducing-the-sharepoint-migration-tool.md)
 ### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)

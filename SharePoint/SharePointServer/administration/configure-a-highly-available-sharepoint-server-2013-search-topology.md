@@ -17,7 +17,7 @@ description: "Learn how to configure search for high availability by using the c
 
 # Test Lab Guide: Configure a highly available SharePoint Server 2013 Search topology
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 This document is the [Test Lab Guide](https://go.microsoft.com/fwlink/p/?LinkId=202817) version of the procedures that are described in [Test Lab Guide: Configure a highly available SharePoint Server 2013 Search topology](configure-a-highly-available-sharepoint-server-2013-search-topology.md).
   

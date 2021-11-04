@@ -18,7 +18,7 @@ description: "Learn how site columns are transformed into managed properties in 
 
 # From site column to managed property - What's up with that?
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)] 
   
 ## Quick overview
 

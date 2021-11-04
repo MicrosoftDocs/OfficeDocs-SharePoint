@@ -17,9 +17,9 @@ description: "Learn how to change the ranking of classic search results in Share
 
 # Changing the ranking of classic search results in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
- **Audience:** SharePoint Server and SharePoint in Microsoft 365 search administrators. 
+ **Audience:** SharePoint Server search administrators.
   
  **Before you start:**
   
@@ -47,7 +47,7 @@ Search results are ranked using a ranking model. A ranking model calculates the 
 
 If you are not satisfied with the search result ranking that SharePoint provides, we recommend that you add query rules to optimize search result ranking for your search scenarios.
   
-The good thing about query rules is that they are available to a large range of search administrators. You can add query rules to the Search service application as a search administrator on premises, or as a global or SharePoint admin in Microsoft 365. You can also add and reuse query rules as a site collection administrator or site owner, both on premises and online.
+The good thing about query rules is that they are available to a large range of search administrators. You can add query rules to the Search service application as a search administrator on premises. You can also add and reuse query rules as a site collection administrator or site owner.
   
 For each query rule, you can influence the way that you sort, rank and display search results. Each query rule consists of a query rule condition and a query rule action. Whenever a query matches a query rule condition, the query rule action that you specify in the query rule is triggered. After you have entered a condition, you can specify to:
   

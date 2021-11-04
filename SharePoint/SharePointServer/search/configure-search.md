@@ -18,7 +18,7 @@ description: "Learn how to configure enterprise search in a SharePoint Server en
 
 # Configure enterprise search in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Enterprise search finds the information that's most relevant to an organization's customers, employees, and partners. Enterprise search empowers them to take action and drive business outcomes.
 

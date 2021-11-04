@@ -7,7 +7,7 @@ ms.date: 9/25/2020
 ms.audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -18,7 +18,7 @@ description: "Implement federated authentication in SharePoint Server."
 ---
 
 # Implement federated authentication
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]  
 
 ## Implement federated authentication in SharePoint Server
 

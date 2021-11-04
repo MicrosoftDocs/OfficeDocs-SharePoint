@@ -22,7 +22,7 @@ description: "Learn how to manually extract a Business Data Connectivity model, 
 
 # Deploy the Business Connectivity Services hybrid scenario as an external list
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 The procedures in this article show you how to integrate external data by using an external list. Make sure you've already [prepared your environment for the Business Connectivity Services hybrid scenario](prepare-your-environment.md) before you follow the procedures in this article. 
   

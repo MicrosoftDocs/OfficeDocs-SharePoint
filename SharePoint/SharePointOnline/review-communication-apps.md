@@ -12,13 +12,12 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - m365solution-corpcomms
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn more about popular Microsoft 365 communication tools"
 ---
 
 # Step 2: Review Microsoft 365 communication tools
 
-Learn more about how Microsoft 365 tools and applications can help you create the right communication channel for the right audience. Review communication tools and learn more about engagement options, maintenance requirements, analytics, and other details to help you decide which tool is best for your scenario and desired outcome. 
+Learn more about how Microsoft 365 tools and applications can help you create the right communication channels for the right audiences. Review communication tools and learn more about engagement options, maintenance requirements, analytics, and other details to help you decide which tool is best for your scenario and desired outcome. 
 <br>
 
 | Teams            | SharePoint    | Yammer       |Outlook        |Stream         |
@@ -32,7 +31,7 @@ Learn more about how Microsoft 365 tools and applications can help you create th
 <br>
 
 >[!NOTE]
-> Access to app analytics and usage reports depends on permissions and your organization's usage data policies. 
+> Access to app analytics and usage reports depends on the permission settings and your organization's usage data policies. 
 
 
 ## Teams: Video conferencing, chat, and live events

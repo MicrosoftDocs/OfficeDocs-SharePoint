@@ -21,6 +21,7 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- m365initiative-spsitemanagement
 search.appverid:
 - SPO160
 - MOE150
@@ -48,14 +49,14 @@ For info about creating site collections in SharePoint Server, see [Create a sit
 
 2. Select **Create**.
 
-    ![The Create button on the Active sites page](media/create-site-button.png)
+    ![The Create button on the Active sites page.](media/create-site-button.png)
 
     > [!TIP]
     > If you go to **Resources** > **Sites** in the Microsoft 365 admin center and select **Add a site**, it opens the Active sites page of the SharePoint admin center in a new tab, and opens the Create a site panel.  
 
-3. Select **Team site** (to create a Microsoft 365 group-connected team site), **Communication site**, or **Other options** to create a new team site without a Microsoft 365 group.
+3. Select **Team site** (to create a Microsoft 365 group-connected team site), **Communication site**, or **Other options** to create a new team site without a Microsoft 365 Group.
 
-    ![The Create a site panel](media/c4c5173f-ca83-426f-a940-cb2869a3a64b.png)
+    ![The Create a site panel.](media/new-site-creation-admin.png)
 
 4. Follow the steps to specify a site name, owner, language, and other settings. When you're done, select **Finish**.
  
@@ -68,23 +69,22 @@ For info about creating site collections in SharePoint Server, see [Create a sit
 
 We recommend using the new site templates for all your new sites. However, if you need to create a site that uses a classic template, you can do so using the following steps:  
   
-1. On the [Active sites page of the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select **Create**.
+1. On the [Active sites page of the SharePoint admin center.](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select **Create**.
     
-    ![The Create button on the Active sites page](media/create-site-button.png)
+    ![The Create button on the Active sites page.](media/create-site-button.png)
   
 2. At the bottom of the panel, select **Other options**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Other options in the Create a site panel](https://user-images.githubusercontent.com/7239963/112038959-d6da3500-8b19-11eb-8315-7f780ac46649.png)
+    ![Image of the site creation panel with admin controls highlighted.](media/new-site-admin-bottom.png)
 
 3. Under **Choose a template**, select **More templates**. 
 
     > [!div class="mx-imgBorder"]
-    > ![More templates in the Choose a template list](https://user-images.githubusercontent.com/7239963/112038982-dfcb0680-8b19-11eb-9b78-d6bd375b86fa.png)
+    > ![More templates in the Choose a template list.](https://user-images.githubusercontent.com/7239963/112038982-dfcb0680-8b19-11eb-9b78-d6bd375b86fa.png)
 
     - In the **Title** box, enter a name for the site. 
     
-    - In the **Web Site Address** drop-down lists, select a domain name and a URL path — either **/sites/** or **/teams/** — and then type a URL name for the site. 
+    - In the **Web Site Address** drop-down lists, select a domain name and a URL path—either **/sites/** or **/teams/—and then type a URL name for the site. 
     
     - In the **Template Selection** section, in the **Select a language** drop-down list, select a language for the site. You can enable the SharePoint multiple language interface on your sites, but the primary language for the site will remain the one you select here. 
     

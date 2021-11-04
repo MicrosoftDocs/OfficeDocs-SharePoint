@@ -22,7 +22,7 @@ description: "Plan to configure a SharePoint hybrid environment so that user sea
 
 # Plan hybrid federated search for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
   
 A SharePoint hybrid environment enables you to provide hybrid solutions that integrate functionality and data access between services and features of SharePoint in Microsoft 365 and SharePoint Server. With SharePoint hybrid federated search, user searches from a Search Center display hybrid results—that is, results from both the SharePoint Server 2013 and SharePoint in Microsoft 365 search indexes.
   
@@ -41,6 +41,9 @@ You can set up either search option first, and then optionally also set up the o
 **Watch a video about some of the main concepts behind hybrid SharePoint Search. (Length: 9 minutes 20 seconds)**
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/fbfdea50-faac-4232-806a-390d4f4e8900?autoplay=false]
+
+> [!IMPORTANT]
+> The Exchange option for searching results from the exchange source shown at 6 minutes 50 seconds mark in the video is deprecated.
   
 ## Choosing an option for displaying hybrid federated search
 <a name="BKMK_ChoosingSolution"> </a>

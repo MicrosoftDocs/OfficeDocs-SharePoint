@@ -18,7 +18,7 @@ description: "Learn about SharePoint Server search architecture, SharePoint Serv
 
 # Overview of search architecture in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The search architecture contains search components and databases. How you structure the search architecture depends on where you intend to use search: for the enterprise or for Internet sites. When building the search architecture, you should take into account considerations such as high availability and fault tolerance, the volume of your content and the estimated amount of page views and queries per second.
   

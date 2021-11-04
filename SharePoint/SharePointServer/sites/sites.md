@@ -17,7 +17,7 @@ description: "Learn about planning, creating, and managing sites and site collec
 
 # Sites
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The following articles are included in this section:
   
@@ -32,4 +32,4 @@ The following articles are included in this section:
 |[Overview of managing digital assets in SharePoint Server 2013](managing-digital-assets-overview.md) <br/> | Learn about the asset library and how you can use it to store and share image, audio, or video files.  <br/> |
 |[Overview of OneDrive in SharePoint Server](onedrive-for-business-overview.md) <br/> |Learn about OneDrive in SharePoint Server.  <br/> |
    
-
+Learn about [managing sites in the new SharePoint admin center in Microsoft 365](../../SharePointOnline/manage-sites-in-new-admin-center.md).

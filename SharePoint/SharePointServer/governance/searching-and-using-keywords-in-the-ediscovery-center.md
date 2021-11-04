@@ -21,11 +21,13 @@ description: "Keywords help you narrow down the specific content that you produc
 
 # Searching and using keywords in the eDiscovery Center
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Keywords help you narrow down the specific content that you produce through export for an eDiscovery case. By creating focused searches, you increase the likelihood that content is applicable to a case, and reduce the amount of content that you need to manage. 
   
 Your organization may create an eDiscovery case if it receives a request for potential evidence to support litigation, an audit, or an investigation.
+
+Learn about [Core eDiscovery for SharePoint in Microsoft 365](/microsoft-365/compliance/get-started-core-ediscovery).
   
 ## Filters and Queries
 <a name="__top"> </a>
@@ -53,7 +55,7 @@ For example, you might be looking for content with the term executive, but you d
 | `OR` <br/> |Find content that contains either of the words or phrases it separates.  <br/> | `risk OR VAR` finds all the content that contains either word.  <br/> |
 | `NOT` <br/> |Exclude content that contains the term within a phrase.  <br/> | `Executive NOT Summary` finds all the content that contains the phrase Executive, unless the content also contains the term Summary.  <br/> |
 | `( )` <br/> |Group words or phrases to show the order in which they are applied.  <br/> | `(Risk AND management) OR (VAR OR Value-at-risk)` <br/> |
-| `NEAR(n)` <br/> |Finds words that are near each other, where n equals the number of words apart. If no number is specified, the default distance is 8 words.  <br/> | `Mid NEAR(5)` Office finds Mid and Back Office and Mid-Office and Mid, Back, and Front Office.  <br/> |
+| `NEAR(n)` <br/> |Finds words that are near each other, where n equals the number of words apart. If no number is specified, the default distance is eight words.  <br/> | `Mid NEAR(5)` Office finds Mid and Back Office and Mid-Office and Mid, Back, and Front Office.  <br/> |
    
 ## Using Wildcards
 <a name="__top"> </a>
@@ -62,23 +64,23 @@ Wildcards can help you expand your keywords to include terms that contain part o
   
 |**Use**|**To**|**Example**|
 |:-----|:-----|:-----|
-|\* at the end of word  <br/> |Find terms that contain the root word and any additional letters.  <br/> |risk\* finds risk, risks, risked, risking, and risky  <br/> |
+|\* at the end of word  <br/> |Find terms that contain the root word and any extra letters.  <br/> |risk\* finds risk, risks, risked, risking, and risky  <br/> |
    
 ## Basic rules for using keywords in filters and queries
 <a name="__top"> </a>
 
 - A content filter or query can include words, quoted phrases, and terms that use keywords and properties. Separate terms with spaces. 
     
-- Commonly used words such as  *the*  ,  *it*  , and  *by*  , and single-digit numbers, are ignored. 
+- Commonly used words such as *the*, *it*, and *by*, and single-digit numbers are ignored. 
     
 - When you enclose a phrase in quotation marks, your search returns content within the chosen scope that contains the exact phrase that you typed. If there is any variance between the phrase in quotations and the actual content, the content will not be found.
     
 - Operators (for example, Boolean operators) - such as **OR** and **AND** — should be written as all uppercase. 
     
 - If a property of SharePoint content is not listed in the **Specify Property** dropdown menu, you can search for it with keywords. Enclose a property value in quotation marks to find an exact match, or leave the value unquoted to find partial matches that begin with the letters typed. For example, if you look for filename:"Budget" (with quotation marks), your search will return a file named "Budget.xlsx." A search for filename:budget (without quotation marks) will also return the files "Budget_Current.xlsx" and "Budget_Next.xlsx." 
-    
--     > [!NOTE]
-    >  A query must include a term to find. Queries that consist only of terms to exclude will produce an error message. 
+
+> [!NOTE]
+>  A query must include a term to find. Queries that consist only of terms to exclude will produce an error message. 
   
 ## Examples for applying rules
 <a name="__top"> </a>
@@ -101,7 +103,7 @@ A query can apply to all the content in a case, to specific eDiscovery Sets, or 
   
 To set the scope of a query, click **Modify Query Scope**, and then select **All case content**, **Select eDiscovery Sets**, or **Select sources**.
   
-The **All case content** option includes all content from the list of sources, with any eDiscovery Set filters applied. You can also include additional content locations when setting query scope. 
+The **All case content** option includes all content from the list of sources, with any eDiscovery Set filters applied. You can also include more content locations when setting query scope. 
   
 ## Viewing and troubleshooting queries
 <a name="__top"> </a>

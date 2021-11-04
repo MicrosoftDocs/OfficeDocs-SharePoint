@@ -26,7 +26,7 @@ description: "Overview and introductory articles on SharePoint Server hybrid to 
 
 # Explore SharePoint Server hybrid
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 Discover how a SharePoint hybrid environment using SharePoint Server and SharePoint in Microsoft 365 can integrate functionality and access between the services and features of both environments.
   
