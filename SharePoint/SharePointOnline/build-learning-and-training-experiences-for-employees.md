@@ -17,14 +17,13 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to build a learning and training experience for employees using Microsoft 365"
 ---
 
 # Build learning and training experiences for employees
 <br>
 
-Learn how to build a training and learning experience that will keep employees and team members up to date with important skills, and proficiencies required for professional success.  
+Learn how to build a training and learning experience that will keep employees and team members up to date with important skills and proficiencies required for professional success.  
 
 Organizations can provide an end-to-end training and learning experience that provides the tools needed to ensure all employees have access to developmental material needed for the highest level of proficiency in any field.
 
@@ -32,7 +31,7 @@ This article will  show you how to create a training solution, starting with pla
 <br>
 <br>
 
-**Create a learning and training experience by** 
+**Create a learning and training experience by:**
 
 - Taking inventory of all organizational needs, learning objectives and goals, and identifying important timelines  
 
@@ -71,7 +70,7 @@ Get started planning, building, and launching a training and learning experience
 
 ### Step 1: Understand your organizational needs  
 
-Take inventory of all organizational departments, teams, and disciplines. Are there any legally required continued learning mandates for any employee groups in your organization? How many? Is there a broad range of disciplines and areas of expertise across your organization? Is there a certain budget that needs to be set and adhered to for learning and training resources? Set aside time to list all foctors out to get a full scope of what is needed.
+Take inventory of all organizational departments, teams, and disciplines. Are there any legally required continued learning mandates for any employee groups in your organization? How many? Is there a broad range of disciplines and areas of expertise across your organization? Is there a certain budget that needs to be set and adhered to for learning and training resources? Set aside time to list all factors out to get a full scope of what is needed.
 
 ### Step 2: List and categorize all learning objectives  
 
