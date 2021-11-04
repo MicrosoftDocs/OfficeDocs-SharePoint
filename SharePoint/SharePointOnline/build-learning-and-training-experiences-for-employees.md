@@ -17,7 +17,6 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to build a learning and training experience for employees using Microsoft 365"
 ---
 
