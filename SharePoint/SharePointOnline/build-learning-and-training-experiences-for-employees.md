@@ -90,7 +90,7 @@ Every organization has its own variation of technical and soft skills that need 
 
 - **Provide an opportunity for employees to learn from each other in Yammer.** [Create a Yammer channel](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) just for new employees. Choose to create one NEO channel for the entire organization or region or create channels for each new group of new employees. Then, use the [Yammer web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) on the SharePoint NEO site to integrate the conversation with other resources and contacts.   
 
-## Build the new employee onboarding experience 
+## Build the learning and training experience 
 
 
 Build out the learning and training experience one platform at a time. The tools listed here can be connected to each other, providing a thorough and connected learning and training journey for all employees.    
