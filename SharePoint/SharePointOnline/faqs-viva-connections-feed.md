@@ -102,7 +102,7 @@ The content in the feed is personalized for each user based on their memberships
 **Question:** What controls do customers have over the Feed configuration?
 <br>
 
-**Answer:**There’s no configuration required to get the feed working.  For the current release, customers have the ability to affect content placement in the feed by targeting content, or by promoting it.
+**Answer:** There’s no configuration required to get the feed working.  For the current release, customers have the ability to affect content placement in the feed by targeting content, or by promoting it.
 
 - **Promote important ‘official’ communications** - Use Boost to raise the visibility of crucial news posts.
 - **Highlight community discussions** - Feature posts in public Yammer communities that you’d like seen by the entire organization.
