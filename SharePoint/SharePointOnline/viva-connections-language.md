@@ -1,5 +1,5 @@
 ---
-title: "How to set up the Viva Connections mobile experience in a specific language (Preview)"
+title: "How to set up the Viva Connections mobile experience in a specific language"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -19,8 +19,8 @@ search.appverid:
 description: "How to set up the Viva Connections mobile experience in a specific language"
 ---
 
-# Set up the Viva Connections mobile experience in a specific language (Preview)
-Viva Connections is available in most major languages used in Microsoft 365. Learn more about how to create and deploy the Viva Connections mobile experience in a specific language other than your organization’s default language. Broadly, Viva Connections mobile has four components that influence the end user’s overall language experience - the Viva Connections Dashboard, Feed, Resources, and the Teams mobile app. 
+# Set up the Viva Connections mobile experience in a specific language
+Viva Connections is available in most major languages used in Microsoft 365. Learn more about how to create and deploy the Viva Connections mobile experience in a specific language other than your organization’s default language. Broadly, [Viva Connections](viva-connections-overview.md) mobile has four components that influence the end user’s overall language experience - the Viva Connections Dashboard, Feed, Resources, and the Teams mobile app. 
 
 
 > [!NOTE]
@@ -57,13 +57,13 @@ Viva Connections is available in most major languages used in Microsoft 365. Lea
 Learn how to set up Viva Connections components to display content in another language other than your organization’s default language. The steps below use English as an example, but the steps apply for any one of the 27 languages specified above. 
 
 ## Viva Connections Dashboard
-The Dashboard is intended to enable quick access to content and tasks from various sources including intranet content, line-of-business applications, HR tools, frontline worker tools, and other internal or third party applications.
+The Dashboard is intended to enable quick access to content and tasks from various sources including intranet content, line-of-business applications, HR tools, frontline worker tools, and other internal or third-party applications.
 
 1. Create a communication site and make sure to select English as the default language at site creation time.
 
    ![Image of where to specify the language for a site.](media/vc-language-select.png)
 
-2. Make this communication site the home site of your tenant, which will enable the Dashboard creation on that site. [Learn more about how to set a home site in the SharePoint admin center](/SharePoint/home-site-admin-center). 
+2. Make this communication site the home site of your tenant, which will enable the Dashboard creation on that site. [Learn more about how to set a home site in the SharePoint admin center](home-site-admin-center.md). 
 3. When creating the dashboard make sure the dashboard author is typing the content in the English language for details like card titles and descriptions – [even if their own preferred language setting](/office/change-your-personal-language-and-region-settings-caa1fccc-bcdb-42f3-9e5b-45957647ffd7) in Microsoft 365 is not English. 
 
 
@@ -73,7 +73,7 @@ The Dashboard is intended to enable quick access to content and tasks from vario
    ![Image of where to specify the language for a card.](media/vc-language-card.png)
 
 ## Viva Connections Feed
-The Feed experience will show SharePoint news posted from [organizational news sites](/SharePoint/organization-news-site), sites you frequent and follow, [videos hosted on SharePoint](/SharePoint/video-news-links), Yammer posts in the [All-company group](/yammer/manage-yammer-groups/yammer-all-company-yammer-community), Yammer posts in communities you follow, and [SharePoint news that has been boosted](/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
+The Feed experience will show SharePoint news posted from [organizational news sites](organization-news-site.md), sites you frequent and follow, [videos hosted on SharePoint](video-news-links.md), Yammer posts in the [All-company group](/yammer/manage-yammer-groups/yammer-all-company-yammer-community), Yammer posts in communities you follow, and [SharePoint news that has been boosted](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
 
 #### Organizational news
 Make sure that authoritative news sites (there can be more than one organization news site) are created with English as the default language and that authors of news post are creating the news posts in English language – even if their own [preferred language setting in Microsoft 365](https://support.microsoft.com/office/change-your-personal-language-and-region-settings-caa1fccc-bcdb-42f3-9e5b-45957647ffd7) is not English. 
@@ -83,10 +83,10 @@ Announcement posts in the [All-company group in Yammer](/yammer/manage-yammer-gr
 
 
 ## Viva Connections Resources
-The Resources experience displays intranet resources from [global navigation in the SharePoint app bar](/SharePoint/sharepoint-app-bar).
+The Resources experience displays intranet resources from [global navigation in the SharePoint app bar](sharepoint-app-bar.md).
 
 > [!NOTE]
-> Global navigation and a Dashbaord can only be enabled and customized from the home site and required site owner (or higher) permissions. The default language of that site should already be English.
+> Global navigation and a Dashbaord can only be enabled and customized from the [home site](home-site-plan) and required site owner (or higher) permissions. The default language of that site should already be English.
 
 ![Image of where to specify the language for the global navigation.](media/vc-language-global-nav.png)
 
