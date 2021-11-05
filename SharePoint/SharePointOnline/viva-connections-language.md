@@ -86,7 +86,7 @@ Announcement posts in the [All-company group in Yammer](/yammer/manage-yammer-gr
 The Resources experience displays intranet resources from [global navigation in the SharePoint app bar](sharepoint-app-bar.md).
 
 > [!NOTE]
-> Global navigation and a Dashbaord can only be enabled and customized from the [home site](home-site-plan) and required site owner (or higher) permissions. The default language of that site should already be English.
+> Global navigation and a Dashbaord can only be enabled and customized from the [home site](home-site-plan.md) and required site owner (or higher) permissions. The default language of that site should already be English.
 
 ![Image of where to specify the language for the global navigation.](media/vc-language-global-nav.png)
 
@@ -102,3 +102,11 @@ The Teams mobile app is where the Connections experience is deployed as another 
 If a user has a device set to the French language the Teams mobile app “system” strings (text that Microsoft provides out-of-the box for end-user experience in the app) will all be in French while the Dashboard cards, Feed, and Resources content will be in English.
 
 ![Image of where to specify the language for the mobile app.](media/vc-language-mobile-app.png)
+
+
+## More resources
+
+[Overview of Viva Connections](viva-connections-overview.md)
+<br>
+
+[Set up and launch Viva Connections](guide-to-setting-up-viva-connections.md)
