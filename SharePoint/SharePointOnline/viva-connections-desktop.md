@@ -224,4 +224,4 @@ If you have already provisioned Viva Connections desktop via PowerShell, and you
 
 [Introduction to SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell)
 
-[Learn more about Viva Connections](viva-connections-overview?branch=hokavian-teams-connected.md)
+[Learn more about Viva Connections](viva-connections-overview.md)
