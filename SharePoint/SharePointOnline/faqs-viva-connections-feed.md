@@ -79,7 +79,6 @@ Not all of the content will be given equal weight in the ranking, refer to the q
 - **Source Priority** - “Top Down” messaging is ranked slightly higher than organic content from people around you.
 - **Engagement** - Ensure dynamic mix of content types within each bucket.
 
-![Image of the logic for the Feed.](media/viva-feed-faq.png)
 
 One of the primary goals of the feed is to give content publishers a reliable means of distributing important news and information. We can only do this if we convince most your organization to visit the feed regularly. To keep them interested and coming back regularly we’re trying to strike a balance between the engaging content, they want (from sites they are a member of/follow and communities they favorite/follow) and the information they need (SharePoint Org News and Yammer All Company).
 To achieve this, we don’t rely on a pure chronological ranking.  
