@@ -1,5 +1,5 @@
 ---
-title: "The Viva Connections Dashboard web part"
+title: "Frequently asked questions about the Feed for Viva Connections"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -16,69 +16,86 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to use the Dashboard web part on your home site"
+description: "Frequently asked questions about the Feed for Viva Connections"
 ---
 
-# The Viva Connections Dashboard web part 
+# Get answers to common questions about the Viva Connections Feed 
 
-[Viva Connections](https://www.microsoft.com/microsoft-viva/connections) is an integrated experience designed to drive employee engagement. When deploying Viva Connections, you'll [set up a Dashboard](create-dashboard.md) and [use cards](viva-connections-overview.md) to bring together resources for different audiences to provide a comprehensive view of everything they need to complete common tasks. For example, the Dashboard could include a card that allows users to access cafeteria menus, schedules, reports, shift schedules, HR policies, and more.
+**Question:** What do I expect to see on the Feed?
+<br>
 
-Once a Dashboard is published, you can use the Dashboard web part to display it on your home site. If you want to add, remove, or reorder cards, the existing Dashboard on your site must be edited. To learn how to create or edit a Dashboard, see [Create a Viva Connections Dashboard](create-dashboard.md).
+**Answer:** The Feed will give content publishers a reliable means of distributing important news and information that their users need within their organizations.  In addition, users will also see engaging content from sites they are a member of/follow and communities they follow. The list of content that users will see in their feed for the Viva Connections current release is listed in the question “Where is content sourced for the Feed?”. As fresher content is added to your feed, older content will be pushed down the feed. 
 
-## Add the Dashboard web part
-
-To add a Dashboard web part, firstly ensure that you are in the **edit** mode. To do this, select **Edit** at the top-right of the home site page.
-
-Once in **edit** mode, perform the following steps:
-
-1. Hover your mouse around the section within which you want to place the web part, and select the **circled +**.
-
-2. In the web part search box, enter **Dashboard** to quickly find and select the **Dashboard (Preview) for Viva Connections** web part.
-
-   :::image type="content" source="media/searching-selecting-web-part.png" alt-text="The screen on which you can search for a web part and select it once displayed.":::
-
-   The web part will be added to your page where it is populated with the cards from the existing Dashboard on your site, as in this example where the Dashboard is placed in a vertical column on the right:
-
-   :::image type="content" source="media/display-of-web-card.png" alt-text="The screen that displays the web card.":::
-
-3. Optionally, you can change the title of the Dashboard by selecting it in the web part and typing over it with your own title.
-
-   :::image type="content" source="media/editing-title-of-Dashboard.png" alt-text="The screen that displays the option that allows you to edit the title of a Dashboard.":::
-
-4. To move the web part, select the **Move web part** icon and drag the web part to a different section or column on the page.
-
-
-5. To set the value for maximum number of cards to display on the web part, select the **Edit web part** pencil icon.
-
-
-6. Use the slider to indicate the maximum number of cards to display.
-
-   :::image type="content" source="media/defining-threshold-cards-to-display.png" alt-text="The screen displaying the option by which you can define the count of the cards to be displayed.":::
-
-   > [!NOTE]
-   > When there are more cards available than the maximum number set for the web part, users can select **See all** to see the rest of them.
-
-7. Once the card-count threshold is set, select **Publish** or **Republish** to make the page available with your newly placed Dashboard web part.
+However, we don’t rely on a pure chronological ranking. We will look at several factors to determine the content ranking and users will only be able to view content that they have permission to view. Refer to the question “How is the feed personalized and ranked?" for more information.
 
 
 
-## Additional information
+**Question:** Where is content sourced for the Feed?
+<br>
 
-- **The Dashboard web part is hidden when there are no cards to show**: There may be no cards to show when the Dashboard author has targeted cards for specific audiences, and people outside of those audiences are viewing the page. For example, if all cards are targeted to your development group, only people in the development group will see the Dashboard.
+**Answer:** In the current release of Viva Connections, Feed content will come from:
+1. News published via SharePoint sites:
+- SharePoint News from [organizational news sites](organization-news-site.md) 
+- SharePoint News from sites you follow/sites you are a member of
+- Boosted SharePoint News from Org News Sites
+- User Targeted News from Org News site or sites you follow
+2. Posts published in Yammer communities:
+- Yammer All Company Featured Posts
+- Yammer All Company Announcements 
+- Yammer All Company Posts
+- Yammer Followed Community Featured Posts
+- Yammer Followed Community Announcements
+- Yammer Followed Community Posts
+3. [Stream videos](/stream/streamnew/new-stream) built on SharePoint or OneDrive 
 
 
-- **We recommend you use the Dashboard web part in a vertical section**: Although a vertical section is recommended, the web part can be used in any section in 1, 2, or 3-column layouts. Here’s an example of a Dashboard web part in a horizontal section:
+Not all of the content will be given equal weight in the ranking, refer to the question “How is the feed personalized and ranked?" for more information.
 
-   :::image type="content" source="media/Dashboard-web-part-horizontal-section.png" alt-text="The screen displaying the web part in a horizontal layout.":::
 
-- **The Dashboard web part can be added to any page on your home site**: The Dashboard is most useful on your home page, but it is possible to add it to any page on your home site. One practical use for doing this is to experiment with your page layout to see where you think the Dashboard will fit best. To do this, just create a copy of your home page and start experimenting.
-- **The Dashboard web part can be used in sections with a colored background**: When editing a section, you can change the background of the section and the cards of the Dashboard will have a different color from that background.
 
-   :::image type="content" source="media/card-color.png" alt-text="The screen indicating the color of the card.":::
 
-- **“See all” appears on the top-right of the Dashboard web part** when there are more Dashboard cards available than can be displayed in the Dashboard web part. When **See all** is selected, a page that shows the entire Dashboard is displayed.
+**Question:** How often is Feed content refreshed? 
+<br>
 
-   :::image type="content" source="media/full-display-Dashboard.png" alt-text="The screen displaying a full view of the Dashboard.":::
+**Answer:** For mobile, the feed refreshes on each boot of the application. Users can also manually refresh the feed through the pull-down action. On the web, the feed automatically refreshes each time the web page is refreshed.
+
+
+
+**Question:** When can we expect to see a post in the feed after creating it?
+<br>
+
+**Answer:** Posts will typically take up to a maximum of 1 hour to appear on a user’s feed.  Content from newly created Home sites is sometimes delayed for 7 days after the site is initially created.  After that initial 7 day period has passed, it will take the typical 1 hour to appear.
+
+
+
+
+**Question:** How is the feed personalized and ranked?
+<br>
+
+**Answer:** We’re experimenting and rapidly iterating on the logic used:
+
+- **Chronology** - Content is sorted into 3 buckets.
+- **Promotion** - Boost & Featured is surfaced highly in each bucket.
+- **Source Priority** - “Top Down” messaging is ranked slightly higher than organic content from people around you.
+- **Engagement** - Ensure dynamic mix of content types within each bucket.
+
+
+
+
+**Question:** 
+<br>
+
+**Answer:**
+
+
+**Question:** 
+<br>
+
+**Answer:**
+
+
+
+
 
 ## More resources
 
@@ -86,5 +103,6 @@ Once in **edit** mode, perform the following steps:
 <br>
 
 [Set up and launch Viva Connections](guide-to-setting-up-viva-connections.md)
+<br>
 
-
+[Use the Feed web part for Viva Connections](https://support.microsoft.com/office/use-the-feed-web-part-for-viva-connections-001fbe90-3778-4801-9ea9-71308711d330)
