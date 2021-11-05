@@ -188,7 +188,7 @@ If you have already provisioned Viva Connections desktop via PowerShell, and you
 
 **Q: Is this the same feature that was announced in fall 2020 as the Home site app?**
 
-**A:** Viva Connections was originally announced as the [Home site app](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/the-home-site-app-for-microsoft-teams/ba-p/1714255) but will be called Viva Connections moving forward.
+**A:** Viva Connections was originally announced as the [Home site app](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/the-home-site-app-for-microsoft-teams/ba-p/1714255) but will be called Viva Connections desktop moving forward.
 <br>
 <br>
 
