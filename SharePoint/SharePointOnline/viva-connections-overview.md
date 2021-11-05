@@ -164,7 +164,7 @@ These cards are available in the Dashboard toolbox when authoring a Dashboard, a
 ![Image showing display of cards on dashboard.](media/vc-tool-box-2.png) 
 
 ## Viva Connections Feed
-In the Viva Connections app, users will see a personalized Feed with relevant information from across their organization. The Feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. Individual messages can be promoted to raise greater awareness among users by using SharePoint’s Boost and Yammer’s Featured options. [Get answers to common questions](faqs-viva-connections-feed) about how content in the Feed gets prioritized and displayed.
+In the Viva Connections app, users will see a personalized Feed with relevant information from across their organization. The Feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. Individual messages can be promoted to raise greater awareness among users by using SharePoint’s Boost and Yammer’s Featured options. [Get answers to common questions](faqs-viva-connections-feed.md) about how content in the Feed gets prioritized and displayed.
 
 The Feed requires usage of modern SharePoint or Yammer communities, but the best experience is delivered when both are used together.
 
