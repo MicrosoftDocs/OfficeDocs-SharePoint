@@ -1,5 +1,5 @@
 ---
-title: Guide to setting up Viva Connections (Preview)
+title: Guide to setting up Viva Connections 
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -19,7 +19,7 @@ search.appverid:
 description: "Learn how to set up and launch Viva Connections for desktop and mobile devices"
 ---
 
-# Set up and launch Viva Connections (Preview)
+# Set up and launch Viva Connections 
 
 Microsoft [Viva Connections](viva-connections-overview.md) is a desktop and mobile experience that brings together relevant news, conversations, and resources in one place for your organization. It's built on your current Microsoft 365 ecosystem and powered by SharePoint to help you engage, inform, and empower your hybrid workforce. The Viva Connections experience is deployed and accessed in Microsoft Teams.
 
@@ -28,9 +28,7 @@ Microsoft [Viva Connections](viva-connections-overview.md) is a desktop and mobi
 Use these step-by-step instructions to help you set up and launch Viva Connections on desktop and mobile devices using currently available features to create an engaging user experience.
 
 > [!IMPORTANT]
-> - Some Viva Connections features will become available sooner than others. This document reflects the most up to date guidance and will be updated over the next several weeks to include updates to features as they become available. 
-> - Information in this article relates to the upgraded Viva Connections app that is in Public preview. Viva Connections includes *both the desktop and mobile experiences*. It may be modified before it's generally available for all customers.
-> - In March 2021, a *desktop-only* version of Viva Connections called [Viva Connections desktop](viva-connections.md) was released as a custom line of business app and it can be provisioned via PowerShell.
+> - Information in this article relates to the upgraded Viva Connections app that includes *both the desktop and mobile experiences*.
 > - To complete these step-by-step instructions, ensure that you have the permissions (or privileges) to the SharePoint and Microsoft Teams admin centers. Get more information about [permissions in SharePoint](customize-sharepoint-site-permissions.md) and [permissions in Microsoft Teams](/microsoftteams/teams-channels-overview#membership-roles-and-settings).
 
 
