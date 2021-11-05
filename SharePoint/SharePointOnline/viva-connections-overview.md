@@ -132,17 +132,17 @@ The dashboard experience has been designed to be consistent across mobile platfo
 #### Dashboard authoring
 A Dashboard is authored in a SharePoint home site on a Dashboard page. A site editor can create the Dashboard, add cards in the size and layout of choice, and target the cards to specific audiences.
 
-![image showing how to edit a Viva Connections dashboard.](media/vc-dashboard-preview-2.png)
+![Image showing how to edit a Viva Connections dashboard.](media/vc-dashboard-preview-2.png)
 
 The layout of the dashboard, including the size of the cards (which can be individually set as medium or large), is set up by the person who authors the dashboard. The cards in the dashboard reflow based on the screen real estate of the Dashboard. These cards may look different depending on whether the Dashboard is used on mobile or in the Dashboard web part on the home site.
 
 #### Dashboard cards
 
-![image showing the dashboard in preview mode.](media/vc-dashboard-preview-2.png)
+![Image showing the dashboard in preview mode.](media/vc-dashboard-preview-2.png)
 
 The Viva Connections Dashboard comes with an initial set of built-in cards, but is also designed to enable SaaS providers, system integrators, and in-house development teams create their own cards to meet their business needs.
 
-![image showing dashboard cards.](media/card-examples.png)
+![Image showing dashboard cards.](media/card-examples.png)
 
 Cards in the Viva Connections Dashboard are based on adaptive cards and the SharePoint Framework (SPFx). They provide a low-code solution to bring your line-of-business apps into the Dashboard.
 In addition, in Viva Connections for Desktop, the experience leverages SharePoint home sites, which can already be extended using Web parts and SPFx.
@@ -161,7 +161,7 @@ In addition, in Viva Connections for Desktop, the experience leverages SharePoin
 
 These cards are available in the Dashboard toolbox when authoring a Dashboard, as shown in the following image:
 
-![image showing display of cards on dashboard.](media/vc-tool-box-2.png) 
+![Image showing display of cards on dashboard.](media/vc-tool-box-2.png) 
 
 ## Viva Connections Feed
 In the Viva Connections app, users will see a personalized Feed with relevant information from across their organization. The Feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. Individual messages can be promoted to raise greater awareness among users by using SharePoint’s Boost and Yammer’s Featured options.
@@ -179,8 +179,9 @@ Users will see content aggregated from the following sources, provided they have
     - Featured posts
     - Posts to communities that the user follows
 - **Stream (built on SharePoint)**
-    - [Video news links](/SharePoint/video-news-links) on organization news sites
+    - [Video news links](video-news-links.md) on organization news sites
     - Video in a news post
+
 
 ## Viva Connections Resources
 The **Resources** tab of the mobile app automatically uses the global navigation links that you set up in your [SharePoint app bar](sharepoint-app-bar.md). This type of functioning provides users with a familiar navigation structure and allows them to open sites, pages, news, and more — right from their mobile devices.
@@ -193,12 +194,16 @@ Learn how to [set up and deploy Viva Connections for your organization](guide-to
 
 ## Summary of release notes
 
-| Public preview known issues  | Target release                 | 
+| Known issues  | Target release                 | 
 | :------------------- | :------------------- |
 | [SPFx] Isolated components are not currently supported  | December | 
+| [SPFx] Domain isolation is not supported yet  | December | 
 | [Feed] Social reactions/comments still enabled but not functional (when disabled)  | December    | 
 | [Mobile] App acquisition flow. Workaround is to install missing app from desktop| December     | 
-| [Mobile] MDL2 icons are not supported on cards in the Teams mobile experience  | December |
+| [Config] MDL2 icons are not supported on cards in the Teams mobile experience  | December |
+| Guest user access is not yet supported  | December |
 
 
+## More resources
 
+[Set up and launch Viva Connections](guide-to-setting-up-viva-connections.md)
