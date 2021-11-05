@@ -191,7 +191,7 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 
 
 ### Get started
-1.	If you have pre-pinned the app for your users with Teams app set up policies in step #6, then the app will automatically appear in users’ Teams mobile client apps on iOS and Android.
+1.	If you have pre-pinned the app for your users with Teams app set-up policies in step #6, then the app will automatically appear in users’ Teams mobile client apps on iOS and Android.
 2.	If you have not pinned the app via policy, then users will first need to search for and install Viva Connections from the Teams desktop application. [Learn more about Viva Connections mobile settings.](https://support.microsoft.com/office/choose-settings-for-the-viva-connections-mobile-app-61bc93fe-5d58-4b4c-a0b1-abdd484ccf46)
 
 ### Permissions
