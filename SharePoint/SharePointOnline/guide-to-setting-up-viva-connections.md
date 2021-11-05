@@ -125,7 +125,7 @@ The Dashboard brings it all together – it provides a personalized landing expe
 > [!div class="mx-imgBorder"]
 > ![image of content in the Feed web part](media/viva-feed-web-part.png)
 
-In the Viva Connections app, users will see a Feed that is personalized with relevant content personalized to them. The Feed automatically balances fresh and engaging content with corporate communications to keep users engaged, while also ensuring that the users see the most important messages. [Get answers to common questions](faqs-viva-connections-feed) about how content in the Feed gets prioritized and displayed.
+In the Viva Connections app, users will see a Feed that is personalized with relevant content personalized to them. The Feed automatically balances fresh and engaging content with corporate communications to keep users engaged, while also ensuring that the users see the most important messages. [Get answers to common questions](faqs-viva-connections-feed.md) about how content in the Feed gets prioritized and displayed.
 
 The Feed requires usage of modern SharePoint and either SharePoint news or a Yammer community. For the best and most engaging experience, use both. We recommend creating or using an existing organization news site so that users get the most important news.
 
