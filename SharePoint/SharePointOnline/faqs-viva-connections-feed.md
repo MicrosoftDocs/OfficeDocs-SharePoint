@@ -22,7 +22,6 @@ description: "Frequently asked questions about the Feed for Viva Connections"
 # Get answers to common questions about the Viva Connections Feed 
 
 **Question:** What do I expect to see on the Feed?
-<br>
 
 **Answer:** The Feed will give content publishers a reliable means of distributing important news and information that their users need within their organizations.  In addition, users will also see engaging content from sites they are a member of/follow and communities they follow. The list of content that users will see in their feed for the Viva Connections current release is listed in the question “Where is content sourced for the Feed?”. As fresher content is added to your feed, older content will be pushed down the feed. 
 
@@ -31,7 +30,6 @@ However, we don’t rely on a pure chronological ranking. We will look at severa
 
 
 **Question:** Where is content sourced for the Feed?
-<br>
 
 **Answer:** In the current release of Viva Connections, Feed content will come from:
 1. News published via SharePoint sites:
@@ -55,14 +53,12 @@ Not all of the content will be given equal weight in the ranking, refer to the q
 
 
 **Question:** How often is Feed content refreshed? 
-<br>
 
 **Answer:** For mobile, the feed refreshes on each boot of the application. Users can also manually refresh the feed through the pull-down action. On the web, the feed automatically refreshes each time the web page is refreshed.
 
 
 
 **Question:** When can we expect to see a post in the feed after creating it?
-<br>
 
 **Answer:** Posts will typically take up to a maximum of 1 hour to appear on a user’s feed.  Content from newly created Home sites is sometimes delayed for seven days after the site is initially created.  After that initial seven day period has passed, it will take the typical 1 hour to appear.
 
@@ -70,7 +66,6 @@ Not all of the content will be given equal weight in the ranking, refer to the q
 
 
 **Question:** How is the feed personalized and ranked?
-<br>
 
 **Answer:** We’re experimenting and rapidly iterating on the logic used:
 
@@ -90,17 +85,15 @@ The content in the feed is personalized for each user based on their memberships
 
 
 **Question:** Why don’t I see any content in the Feed?
-<br>
 
 **Answer:** If you’re not seeing any content in your feed, it could be because of a few reasons:
-1.	There needs to be some content published to a SharePoint site or Yammer community that you’re a member of.  
-2.	Yammer Posts that are not Featured or to All Company communities or Announcements may be removed and replaced in subsequent feed views to give users more dynamic content.
-3.	The SharePoint site you are publishing from (Home site or Org News site) is less than seven days old.  This issue will resolve itself and content will appear normally after the initial seven days after site creation.
+1. There needs to be some content published to a SharePoint site or Yammer community that you’re a member of.  
+2. Yammer Posts that are not Featured or to All Company communities or Announcements may be removed and replaced in subsequent feed views to give users more dynamic content.
+3. The SharePoint site you are publishing from (Home site or Org News site) is less than seven days old.  This issue will resolve itself and content will appear normally after the initial seven days after site creation.
 
 
 
 **Question:** What controls do customers have over the Feed configuration?
-<br>
 
 **Answer:** There’s no configuration required to get the feed working.  For the current release, customers have the ability to affect content placement in the feed by targeting content, or by promoting it.
 
@@ -113,7 +106,6 @@ In Yammer, moderators of the All-Company community can Feature a post to indicat
 
 
 **Question:** What actions can I take on the feed?
-<br>
 
 **Answer:** For the current release, users on the Feed can do the following actions on posts:
 1.	Comment on a post.
@@ -125,7 +117,6 @@ In Yammer, moderators of the All-Company community can Feature a post to indicat
 
 
 **Question:** What can I do to keep content after I have viewed it?  
-<br>
 
 **Answer:** Users can keep content that they like for whatever intended purpose through the **Save for Later** feature. These items can then be accessed through the save for later feature in the Viva Connections mobile app in Teams.
 
@@ -133,9 +124,7 @@ In Yammer, moderators of the All-Company community can Feature a post to indicat
 ## More resources
 
 [Overview of Viva Connections](viva-connections-overview.md)
-<br>
 
 [Set up and launch Viva Connections](guide-to-setting-up-viva-connections.md)
-<br>
 
 [Use the Feed web part for Viva Connections](https://support.microsoft.com/office/use-the-feed-web-part-for-viva-connections-001fbe90-3778-4801-9ea9-71308711d330)
