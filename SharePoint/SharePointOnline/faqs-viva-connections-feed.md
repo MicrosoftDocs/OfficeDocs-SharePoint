@@ -64,7 +64,7 @@ Not all of the content will be given equal weight in the ranking, refer to the q
 **Question:** When can we expect to see a post in the feed after creating it?
 <br>
 
-**Answer:** Posts will typically take up to a maximum of 1 hour to appear on a user’s feed.  Content from newly created Home sites is sometimes delayed for 7 days after the site is initially created.  After that initial 7 day period has passed, it will take the typical 1 hour to appear.
+**Answer:** Posts will typically take up to a maximum of 1 hour to appear on a user’s feed.  Content from newly created Home sites is sometimes delayed for seven days after the site is initially created.  After that initial seven day period has passed, it will take the typical 1 hour to appear.
 
 
 
@@ -81,7 +81,7 @@ Not all of the content will be given equal weight in the ranking, refer to the q
 
 ![Image of the logic for the Feed.](media/viva-feed-faq.png)
 
-One of the primary goals of the feed is to give content publishers a reliable means of distributing important news and information. We can only do this if we convince the majority of your organization to visit the feed regularly. To keep them interested and coming back regularly we’re trying to strike a balance between the engaging content they want (from sites they are a member of/follow and communities they favorite/follow) and the information they need (SharePoint Org News and Yammer All Company).
+One of the primary goals of the feed is to give content publishers a reliable means of distributing important news and information. We can only do this if we convince most your organization to visit the feed regularly. To keep them interested and coming back regularly we’re trying to strike a balance between the engaging content, they want (from sites they are a member of/follow and communities they favorite/follow) and the information they need (SharePoint Org News and Yammer All Company).
 To achieve this, we don’t rely on a pure chronological ranking.  
 
 We look at several factors such as the content’s age, whether it’s been ‘promoted’ by the organization, the publishing source, and the author’s relationship to the reader to determine the content ranking. We want users to discover new content each time they open the Feed so it never gets boring or predictable. However, this relies on how often content is created on the SharePoint sites and Yammer communities.  
@@ -96,7 +96,7 @@ The content in the feed is personalized for each user based on their memberships
 **Answer:** If you’re not seeing any content in your feed, it could be because of a few reasons:
 1.	There needs to be some content published to a SharePoint site or Yammer community that you’re a member of.  
 2.	Yammer Posts that are not Featured or to All Company communities or Announcements may be removed and replaced in subsequent feed views to give users more dynamic content.
-3.	The SharePoint site you are publishing from (Home site or Org News site) is less than 7 days old.  This issue will resolve itself and content will appear normally after the initial 7 days after site creation.
+3.	The SharePoint site you are publishing from (Home site or Org News site) is less than seven days old.  This issue will resolve itself and content will appear normally after the initial seven days after site creation.
 
 
 
@@ -109,8 +109,8 @@ The content in the feed is personalized for each user based on their memberships
 - **Highlight community discussions** - Feature posts in public Yammer communities that you’d like seen by the entire organization.
 - **Publish from official sources** - Where content is from, impacts the ranking.
 
-On SharePoint News, additional filtering is available through Audience Targeting which allows publishers to designate content relevant to specific groups of individuals.  Examples might be employees in a specific region, building, or title.  This is done by enabling audience targeting on the site where content is being published, then using Azure Active Directory groups to define the target audience. However, if audience targeting is not applied, users will still get the SharePoint News on their feed. Publishers also have the ability to promote critical messages in the Feed.  News published from Org News sites has a Boost feature that explicitly tells the feed ‘this content is important’.  As a result, that content is artificially pushed to the top of the feed.  
-In Yammer, moderators of the All-Company community can Feature a post to indicate it’s significant and increase visibility within the organization.  Featured posts from Yammer are treated as important by our ranking algorithm. For communities that you are a member of, communication managers can also create Announcements within those communities which will also be treated as important by our ranking algorithm.
+On SharePoint News, more filtering is available through Audience Targeting, which allows publishers to designate content relevant to specific groups of individuals.  Examples might be employees in a specific region, building, or title.  This is done by enabling audience targeting on the site where content is being published, then using Azure Active Directory groups to define the target audience. However, if audience targeting is not applied, users will still get the SharePoint News on their feed. Publishers also have the ability to promote critical messages in the Feed.  News published from Org News sites has a Boost feature that explicitly tells the feed ‘this content is important’.  As a result, that content is artificially pushed to the top of the feed.  
+In Yammer, moderators of the All-Company community can Feature a post to indicate it’s significant and increase visibility within the organization.  Featured posts from Yammer are treated as important by our ranking algorithm. For communities that you are a member of, communication managers can also create Announcements within those communities, which will also be treated as important by our ranking algorithm.
 
 
 **Question:** What actions can I take on the feed?
@@ -128,7 +128,7 @@ In Yammer, moderators of the All-Company community can Feature a post to indicat
 **Question:** What can I do to keep content after I have viewed it?  
 <br>
 
-**Answer:** Users can keep content that they like for whatever intended purpose through the Save for Later feature. These items can then be accessed through the save for later feature in the Viva Connections mobile app in Teams.
+**Answer:** Users can keep content that they like for whatever intended purpose through the **Save for Later** feature. These items can then be accessed through the save for later feature in the Viva Connections mobile app in Teams.
 
 
 ## More resources
