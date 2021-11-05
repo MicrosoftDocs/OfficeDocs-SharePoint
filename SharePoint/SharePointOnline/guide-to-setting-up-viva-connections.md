@@ -143,7 +143,7 @@ If you are not already using SharePoint news or Yammer, learn how to use them by
 - [Join and create Yammer community](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6#:~:text=Create%20a%20community%20in%20Yammer%20Click%20the%20Yammer,Community%20Name,%20enter%20the%20name%20of%20your%20community.)
 
 **Stream (built on SharePoint)**
-- [Video news links](/SharePoint/video-news-links) on organization news sites
+- [Video news links](video-news-links.md) on organization news sites
 - Video in a SharePoint news post
 
 
