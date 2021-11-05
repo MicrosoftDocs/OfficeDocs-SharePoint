@@ -146,6 +146,8 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
 - Microsoft .NET Framework version 4.7.2
     
 - Microsoft SQL Server 2012 Service Pack 4 Native Client
+
+- Microsoft WCF Data Services 5.6
     
 - Microsoft Identity Extensions
     
@@ -218,6 +220,8 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Microsoft .NET Framework version 4.7.2](https://www.microsoft.com/net/download/dotnet-framework-runtime)
 
+- [Microsoft WCF Data Services 5.6](https://go.microsoft.com/fwlink/p/?LinkId=320724)
+
 - [Microsoft Information Protection and Control Client (MSIPC)](https://go.microsoft.com/fwlink/p/?LinkId=544913)
    
 - [Microsoft SQL Server 2012 SP4 Feature Pack - Native Client \x64\sqlncli.msi](https://www.microsoft.com/download/details.aspx?id=56041)
@@ -251,17 +255,18 @@ The SharePoint Server 2019 prerequisite installer (prerequisiteinstaller.exe) in
     
 5. Microsoft Identity Extensions
     
-6. Microsoft Information Protection and Control Client 2.1
-    
-7. Microsoft .NET Framework 4.7.2
-    
-8. Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB 3092423)
+6. Microsoft Information Protection and Control Client 2.1\
 
-9. Visual C++ Redistributable Package for Visual Studio 2012
+7. Microsoft WCF Data Services 5.6
     
-10. Visual C++ Redistributable Package for Visual Studio 2017
-   
+8. Microsoft .NET Framework 4.7.2
     
+9. Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB 3092423)
+
+10. Visual C++ Redistributable Package for Visual Studio 2012
+    
+11. Visual C++ Redistributable Package for Visual Studio 2017
+
 You can run prerequisiteinstaller.exe at a command prompt with the following options. When you run prerequisiteinstaller.exe at a command prompt, you might be asked to restart the server one or more times during the installation process. After restarting, you should continue the prerequisite installation by running prerequisiteinstaller.exe with the `/continue` option.
   
 - `/?` displays command-line options.
@@ -283,6 +288,8 @@ The installer installs from the file that you specify in the command-line option
 - **/MSIPCClient:<_file_>** Install Microsoft Information Protection and Control Client from <_file_>.
 
 - **/KB3092423:<_file_>** Install Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB3092423) from <_file_>.
+
+- **/WCFDataServices56:<_file_>** Install Microsoft WCF Data Services 5.6 from <_file_>.
     
 - **/DotNet472:<_file_>** Install Microsoft .NET Framework 4.7.2 from <_file_>.
     

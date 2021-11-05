@@ -193,6 +193,8 @@ Minimum requirements for a single server with built-in database:
   - Application Server role
     
   - Microsoft .NET Framework version 4.5
+
+  - Microsoft WCF Data Services 5.0
     
   - SQL Server 2008 R2 SP1 Native Client
     
@@ -246,6 +248,8 @@ Minimum requirements for front-end web servers and application servers in a farm
   - Microsoft .NET Framework version 4.5
     
   - SQL Server 2008 R2 SP1 Native Client
+
+  - Microsoft WCF Data Services 5.0
     
   - Microsoft Information Protection and Control Client (MSIPC)
     
@@ -326,6 +330,8 @@ In scenarios where installing prerequisites directly from the Internet is not po
 - [Microsoft SQL Server 2008 R2 SP1 - Express Edition](https://go.microsoft.com/fwlink/p/?LinkId=238818)
     
 - [Workflow Manager](https://go.microsoft.com/fwlink/p/?LinkID=252092)
+
+- [WCF Data Services 5.0 for OData](https://go.microsoft.com/fwlink/p/?LinkId=238821)
     
 - [Microsoft Information Protection and Control Client (MSIPC)](https://go.microsoft.com/fwlink/p/?LinkID=219568)
     
@@ -377,10 +383,12 @@ The SharePoint 2013 prerequisite installer (prerequisiteinstaller.exe) installs 
 7. Windows Identity Extensions
     
 8. Microsoft Information Protection and Control Client
+
+9. Microsoft WCF Data Services 5.0
     
-9. Windows Server AppFabric
+10. Windows Server AppFabric
     
-10. Cumulative Update Package 1 for Microsoft AppFabric 1.1 for Windows Server (KB 2671763)
+11. Cumulative Update Package 1 for Microsoft AppFabric 1.1 for Windows Server (KB 2671763)
     
 You can run prerequisiteinstaller.exe at a command prompt with the following options. When you run prerequisiteinstaller.exe at a command prompt, you may be asked to restart the server one or more times during the installation process. After rebooting, you should continue the prerequisite installation by running prerequisiteinstaller.exe with the `/continue` option.
   
@@ -409,6 +417,8 @@ The installer installs from the file that you specify in the command-line option
 - **/KB2671763:< _file_>** Install Microsoft AppFabric 1.1 for Windows Server (AppFabric 1.1) from <  _file_>
     
 - **/MSIPCClient:< _file_>** Install Microsoft Information Protection and Control Client from <  _file_>
+
+- **/WCFDataServices:< _file_>** Install Microsoft WCF Data Services from <  _file_>
     
 ### Installation options
 
@@ -417,5 +427,9 @@ Certain prerequisites are installed by the prerequisite installer with specific 
 - Windows AppFabric
     
     /i CacheClient,CachingService,CacheAdmin /gac
+    
+- Microsoft WCF Data Services
+    
+    /quiet
     
 The prerequisite installer creates log files at %TEMP%\prerequisiteinstaller.\<date\>.\<time\>.log. You can check these log files for specific details about all changes the installer makes to the target computer.
