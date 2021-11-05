@@ -157,7 +157,7 @@ If you have already provisioned Viva Connections desktop via PowerShell, and you
 
 **Q: Can any site be pinned as default landing experience in Teams?**
 
-**A:** Modern SharePoint communication sites are eligible for pinning in Teams via Viva Connections. However, we **highly recommend** that you nominate a [home site in SharePoint](./home-site.md) and pin that as the default landing experience for your users in Teams.
+**A:** Modern SharePoint communication sites are eligible for pinning in Teams via Viva Connections. However, we **highly recommend** that you nominate a [home site in SharePoint](home-site-admin-center.md) and pin that as the default landing experience for your users in Teams.
 <br>
 <br>
 
@@ -170,7 +170,7 @@ If you have already provisioned Viva Connections desktop via PowerShell, and you
 
 **Q: Do I need Viva Connections for the global navigation to show up in Teams?**
 
-**A:** Yes, the global navigation menu links are stored in the home site of a tenant, and is required in order for the navigation panel to appear in Viva Connections in Teams. Learn more about how to [enable and set up global navigation in the SharePoint app bar](./sharepoint-app-bar.md).
+**A:** Yes, the global navigation menu links are stored in the home site of a tenant, and is required in order for the navigation panel to appear in Viva Connections in Teams. Learn more about how to [enable and set up global navigation in the SharePoint app bar](sharepoint-app-bar.md).
 <br>
 <br>
 
@@ -218,12 +218,10 @@ If you have already provisioned Viva Connections desktop via PowerShell, and you
 
 ## More resources
 
-[Set up a home site for your organization](./home-site.md)
+[Set up a home site for your organization](home-site-plan.md)
 
-[Enable and set up global navigation in the SharePoint app bar](./sharepoint-app-bar.md)
+[Enable and set up global navigation in the SharePoint app bar](sharepoint-app-bar.md)
 
-[Introduction to SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps&preserve-view=true)
+[Introduction to SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell)
 
-[Learn more about Microsoft Viva](https://www.microsoft.com/microsoft-365/blog/2021/02/04/microsoft-viva-empowering-every-employee-for-the-new-digital-age/)
-
-[Learn more about Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/microsoft-viva-connections-to-start-rollout-to-general/ba-p/2175802)
+[Learn more about Viva Connections](viva-connections-overview?branch=hokavian-teams-connected.md)
