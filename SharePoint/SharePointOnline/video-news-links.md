@@ -118,3 +118,11 @@ You can publish videos hosted on SharePoint sites as news posts in the Viva Conn
 **A:** Video news links will appear as a card in the Viva Connections feed. Tapping on the card will play the video full screen.
 
 ![Image of an active video news link.](media/active-video-link.png)
+
+
+## More resources
+
+[Overview of Viva Connections](viva-connections-overview.md)
+<br>
+
+[Set up and launch Viva Connections](guide-to-setting-up-viva-connections.md)
