@@ -2,6 +2,20 @@
 
 
 
+## Week of October 25, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/25/2021 | [Bulk upload Dropbox drives into Migration Manager](/SharepointMigration/mm-dropbox-bulk-upload-source-paths-csv) | added |
+| 10/25/2021 | [Bulk upload Google drives into Migration Manager](/SharepointMigration/mm-google-bulk-upload-source-paths-csv) | added |
+| 10/25/2021 | [Bulk upload Box source paths into Migration Manager](/SharepointMigration/mm-box-bulk-upload-source-paths-csv) | modified |
+| 10/25/2021 | [Step 2: Scan and assess Box accounts using Migration Manager](/SharepointMigration/mm-box-step2-scan-assess) | modified |
+| 10/25/2021 | [Step 2: Scan and assess Dropbox accounts using Migration Manager](/SharepointMigration/mm-dropbox-step2-scan-assess) | modified |
+| 10/25/2021 | [Migration Manager FAQs](/SharepointMigration/mm-faqs) | modified |
+| 10/25/2021 | [Step 2: Scan and assess Google accounts using Migration Manager](/SharepointMigration/mm-google-step2-scan-assess) | modified |
+
+
 ## Week of October 18, 2021
 
 
@@ -56,16 +70,3 @@
 | 9/29/2021 | [Migration Manager Google FAQs](/SharepointMigration/mm-faqs-google) | modified |
 | 9/29/2021 | [Authorizing the Office 365 Connector](/SharepointMigration/mover-o365) | modified |
 | 9/29/2021 | [Mover Release Notes](/SharepointMigration/mover-release-notes) | modified |
-
-
-## Week of September 20, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/21/2021 | [Agent groups in Migration Manager"](/SharepointMigration/mm-agent-targeting) | modified |
-| 9/22/2021 | [Troubleshooting SPMT installation issues](/SharepointMigration/spmt-install-issues) | modified |
-| 9/24/2021 | [Migration Manager Dropbox FAQs](/SharepointMigration/mm-faqs-dropbox) | added |
-| 9/24/2021 | [Migration Manager Google FAQs](/SharepointMigration/mm-faqs-google) | added |
-| 9/24/2021 | [Migration Manager Box FAQs](/SharepointMigration/mm-faqs-box) | modified |
-| 9/24/2021 | [Migration Manager FAQs](/SharepointMigration/mm-faqs) | modified |

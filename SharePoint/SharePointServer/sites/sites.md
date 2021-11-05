@@ -17,7 +17,7 @@ description: "Learn about planning, creating, and managing sites and site collec
 
 # Sites
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The following articles are included in this section:
   

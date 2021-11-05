@@ -160,7 +160,6 @@ In addition, in Viva Connections for Desktop, the experience leverages SharePoin
 
 |Card Name  |Description  |
 |---------|---------|
-|SharePoint page    |Access a SharePoint modern page without leaving the Viva Connections app         |
 |Web link    |  Access a site without leaving the Viva Connections app       |
 |Card designer    |     Create your own cards and quick views using the adaptive cards framework    |
 |Teams app card     |    Use to open a Teams personal app or bot specified by the dashboard author     |

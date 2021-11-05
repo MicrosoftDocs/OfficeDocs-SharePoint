@@ -18,7 +18,7 @@ description: "Learn how to set up search and enable crawl of your catalog conten
 
 # Stage 4: Set up search and enable the crawling of your catalog content in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 > [!NOTE]
 > Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 

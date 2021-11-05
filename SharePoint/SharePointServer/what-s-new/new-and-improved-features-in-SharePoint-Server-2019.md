@@ -20,7 +20,7 @@ description: "Learn about the new features and updates to existing features in S
 
 # New and improved features in SharePoint Server 2019
 
-[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-xxx-md.md)]
 
 Learn about the new features and updates to existing features in SharePoint Server 2019.
 
