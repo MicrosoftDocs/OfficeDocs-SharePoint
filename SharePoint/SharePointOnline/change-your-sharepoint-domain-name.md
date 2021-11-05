@@ -17,7 +17,9 @@ ms.custom:
 - 'O365E_DomainsProp_SPO'
 - 'O365E_DomainsMain_PublicWebsite'
 ms.service: sharepoint-online
-ms.localizationpriority: medium
+ms.localizationpriority: Priority
+ms.collection:  
+- m365initiative-spsitemanagement
 search.appverid:
 - SPO160
 - MOE150
