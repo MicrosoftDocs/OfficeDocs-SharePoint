@@ -80,4 +80,11 @@ Once in **edit** mode, perform the following steps:
 
    :::image type="content" source="media/full-display-Dashboard.png" alt-text="The screen displaying a full view of the Dashboard.":::
 
+   ## More resources
+
+[Overview of Viva Connections](viva-connections-overview.md)
+<br>
+
+[Set up and launch Viva Connections](guide-to-setting-up-viva-connections.md)
+
 
