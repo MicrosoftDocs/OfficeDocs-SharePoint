@@ -62,7 +62,7 @@ Not all of the content will be given equal weight in the ranking, refer to the q
 
 **Question:** When can we expect to see a post in the feed after creating it?
 
-**Answer:** Posts will typically take up to a maximum of 1 hour to appear on a user’s feed.  Content from newly created Home sites is sometimes delayed for seven days after the site is initially created.  After that initial seven day period has passed, it will take the typical 1 hour to appear.
+**Answer:** Posts will typically take up to a maximum of 1 hour to appear on a user’s feed.  Content from newly created Home sites is sometimes delayed for seven days after the site is initially created.  After that initial seven-day period has passed, it will take the typical 1 hour to appear.
 
 
 
