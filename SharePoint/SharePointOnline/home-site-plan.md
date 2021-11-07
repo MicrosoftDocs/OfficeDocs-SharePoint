@@ -22,7 +22,7 @@ search.appverid:
 - SPO160
 - MET150
 - BSA160
-description: "Learn about creating the main landing site for your organization."
+description: "Learn about how to plan, build, and launch the main landing site for your organization."
 ---
 
 # Plan, build, and launch a home site for your organization
@@ -45,11 +45,6 @@ If you’ve already created the communication site and are ready to specify it a
 
 
 
-> [!NOTE] 
->- Targeted Release customer will have the option to [set a communication site as a home site in the SharePoint admin center](/SharePoint/home-site-admin-center) in September. This feature will become available to all customers on September 20 2021.
->- [Viva Connections](/sharepoint/viva-connections-overview) is currently in Public preview and some Viva Connections features will become available sooner than others.
-
-
 ## What is a SharePoint home site?
 
 You only need one home site to take advantage of home site features. Home sites do not replace communication or team sites, but instead provide a landing place for your organization. Think of home sites as an *add-on* to your intranet design. Home sites are SharePoint communication sites that have special capabilities such as being marked as an official source of news in the organization. Consider making your tenant's root site the home site. Next, review key differences between standard SharePoint communication sites and home sites.
@@ -61,7 +56,7 @@ Home sites are unlike any other site in SharePoint. When you set a SharePoint co
 
 #### Search for content across the entire intranet
 
-Home sites allow users to search for content (such as sites, news, and files) across the entire intranet rather than searching just the site like typical SharePoint sites.
+Home sites allow users to search for content (such as sites, news, and files) across the entire intranet rather than searching just the site like typical SharePoint sites. This becomes possible because the search scope for the home site searches the entire intranet instead of just the site collection like a typical site.
 
 #### Official source of organizational news  
 By default, a home site is set as the organizational news source. News posts that are created from the home site automatically become official organizational news and take priority on the [SharePoint start page](https://support.microsoft.com/office/discover-content-with-the-sharepoint-start-page-6b85097a-87e0-4611-a29a-dfd49b1a1220) and in the home section of the SharePoint mobile app. Administrators can [set sites as official organizations news sources in the admin center](/sharepoint/organization-news-site).
@@ -91,7 +86,7 @@ Before you get started planning and building your home site, review best practic
 
 
 #### Considerations:
--	Align the branding on the home site to the overall intranet brand 
+-	Align the branding on the home site to the overall intranet brand where possible
 -	For organizations with many portals and resources, consider [making your home site a hub site](/sharepoint/planning-hub-sites) to expand navigational options and easily sync permissions and branding across many sites
 - If the site you want to be your home site isn't currently your root site and you want it to be, first [replace your root site with the site](modern-root-site.md), and then make the site your home site
 -	Use a home site template from the SharePoint look book called [The Landing](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) to jump-start the design process
