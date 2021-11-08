@@ -1,10 +1,10 @@
 ---
 title: "Introduction of Remote Share Provider"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-nsatapathy
+author: nimishasatapathy
 manager: serdars
-ms.date: 3/9/2018
+ms.date: 11/23/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -18,123 +18,395 @@ ms.assetid: d359cdaa-0ebd-4c59-8fc5-002cba241b18
 description: "Learn about how to use Remote BLOB Storage (RBS) in a SharePoint Server farm."
 ---
 
-# Overview of RBS in SharePoint Server
+# Remote Share Provider
 
-[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
+With organizations increasingly using SharePoint for rich contents rather than normal documents, the storage requirements have grown multifold. Administrators must regularly review and clean up contents in the SharePoint. By default, all the structured content such as metadata, or unstructured content such as files, are stored in content databases in the SQL server attached to SharePoint Server. Unstructured data in SharePoint are stored in content database as Binary Large Object (BLOB) and they are immutable.
+
+In SharePoint 2013, Remote BLOB Storage (RBS) technology was created in SQL server to offload BLOBs from content database and SQL FILESTREAM provider was provided at that time. In SharePoint Server Subscription, new Remote Share Provider was created for IT administrators to lower down the overall cost of SharePoint deployment in on-premise environments as reasonable and easy to use storage solution by offloading content from SQL server to network SMB storage.
+
+## Key features of remote share provider
+
+In SharePoint Server subscription edition, we provide a new RBS provider **Remote Share Provider**.
   
-This article describes how to use SharePoint Server together with Remote BLOB Storage (RBS) and SQL Server to optimize database storage resources.
-  
-Before you implement RBS, we highly recommend that you evaluate its potential costs and benefits. For more information and recommendations about how to use RBS in a SharePoint Server installation, see [Deciding to use RBS in SharePoint Server](rbs-planning.md).
-  
+Following are the key features of Remote Share Provider:
+- This provider is built in SharePoint, hence no additional installation process is needed as compared to FILESTREAM provider.
+- This provider supports offload Binary Large Object (BLOB) storage to remote SMB system and totally enables content database storage in SQL server side. Therefore, with the same amount of limitation of content database, as in 200-GB size, more file volumes can be stored in one content database. Hence, it helps not only to reduce the cost for storage but also for the maintenance.
+- There is a diagnostic PS cmdlet to check the data completeness to figure out storage problem.
+- By applying the existing backup and restore methodology of SMB system, it provides relatively reasonable disaster recover.
+
+## Limitations of remote share provider
+
+Remote Share Provider introduces the new storage system into SharePoint. Any additional system can introduce complexity and reliability downgrade in some circumstances. As it is based on RBS, following are some of the limitations that are also applicable to Remote Share Provider:
+- Encryption is not supported on BLOBs, even if transparent data encryption is enabled.
+- RBS does not support using data compression.
+- As content database and BLOB storages are separated. Backup and restore from farm and content database level are not enough for disaster recovering. BLOB storages need to be backed up and recovered at the same time when performing farm and content database level back up and recover.
+
+## Advantages and disadvantages of remote share provider
+
+When compared with storing BLOBs inside SQL server, there are advantages and disadvantages to use Remote Share Provider.
+
+**Advantages**
+- Improve SQL performance by moving unstructured data outside of SQL.
+- Lower down storage cost by using low-cost SMB storage.
+- Stores large number of files.
+
+**Disadvantages**
+- Need to include additional backup and restore step for remote storage (SMB).
+- Security and data protection need to be configured separately in the remote storage (SMB).
+- Another storage layer reduces availability and reliability of the overall system that is High availability and Disaster Recovery (HADR) will not work by default until you set up HADR for SMB storage.
+
+## Planning remote share provider
+
+Remote Share Provider is suitable for the scenarios when you need:
+- Huge volume of contents in site collection, which can cause a problem in storage cost and system performance.
+- Site collection is not for time critical business. If the site collection is down, you can take time to restore content database and remote BLOB storage. Service downtime for this specific site collection will not have significant impact to organization business.
+- More READ operations than WRITE operations on that site collection.
+
+Backup and restore methodology must be planned for remote storage system as SharePoint as SQL server backup or restore might not be able to cover BLOBs stored in the remote storage system.
+It is recommended to use System Center Data Protection Manager (DPM) to manage backup and restore so that content database and remote BLOB storage can be backed up at the same time.
+
+In DPM, you can create protection group for both SharePoint content database and remote SMB storage so that these data sets can be backed up/managed together by DPM. For more information, see
+
+- [How to backup SharePoint with DPM](/system-center/dpm/back-up-sharepoint)
+- [How to backup SQL with DPM](/system-center/dpm/back-up-sql-server)
+- [How to backup file data with DPM](/system-center/dpm/back-up-file-data)
+
+If you do not use DPM to manage backup and restore, you can follow the two steps to back up SharePoint in sequence:
+
+1. Backup Farm or content database by using Backup-SPFarm PS cmdlet.
+2. Backup remote SMB storage by using your existing backup tool.
+
+Therefore, restoring SharePoint back is taking the reverse steps:
+
+1. Restore the SMB storage from backup storage.
+2. Restore content database or farm by using Restore-SPFarm PS cmdlet.
+
+Remote Share Provider does not provide encryption to ensure the data security. It relies on the security and access control provided by SMB storage. Hence, to keep you BLOB data safe from threaten, proper actions need to be taken on the storage level
+
+1. Enable SMB encryption to ensure BLOBs are transferred safely through network and storage.
+2. Enable access control so that only limited user can access BLOBs in the SMB storage.
+3. Enable BitLocker to strengthen the data safety.
+
+### Considering high availability
+
+By using previous FILESTREAM provider, which is default shipped with SQL server, High availability and Disaster Recovery (HADR) is handled by SQL Server HADR cluster.
+
+By moving to new Remote Share Provider, this SQL Server level HADR cannot cover the BLOBs inside SMB storage. Hence, Remote Share Provider can support same as SQL server HADR by default. It requires additional cost and effort to setup a HADR ready SMB storage and integrate with SharePoint and SQL server with layer HADR system.
+
+High availability can be supported by setting up a failover SharePoint farm in the past. With remote share provider, it can still work. 
+
+There are two different configurations for failover farm with remote share provider.
+
+1. Share same SMB BLOB storage between active the SharePoint farm and the failover farm.
+
+    :::image type="content" source="../media/SMR_BLOB.png" alt-text="This is a SMR BLOB.":::
+
+    For this configuration, there are two sets of SharePoint servers and SQL servers, however, they share the same SMB storage for BLOBs. Real time database synchronization is set up to stream changes from active SQL server in active SharePoint farm to fail over SQL server in failover SharePoint farm. So that if there is problem in active SharePoint farm, admin can immediately switch to failover SharePoint farm.
+
+2. Share same SMB BLOB storage between active SharePoint farm and failover farm with SMB BLOB storage failover backup.
+
+    :::image type="content" source="../media/SMR_Storage.png" alt-text="This is an SMR storage.":::
+
+    This configuration is exactly the same as configuration #1 except there is a failover backup for SMB BLOB storage. Not only database is synced but also SMB storage is also backed up. In this situation, when active SharePoint farm has problem, it can switch to fail over farm with additional setting to change the SMB storage UNC path to failover SMB storage.
+
+### Security and permission
+
+Remote Share Provider does not provide encryption to ensure the data security. It relies on the security and access control provided by SMB storage. Therefore, to keep the BLOB data safe from threats, proper actions must be taken at the storage level:
+
+- Enable SMB encryption to ensure BLOBs are transferred safely through network and storage.
+- Enable access control so that only limited users can access BLOBs in the SMB storage.
+- Enable BitLocker to strengthen the data safety if possible.
+- The user account used to perform the steps in the [Provision a BLOB store for each content database](/sharepoint/administration/install-and-configure-rbs#provision) section must be a member of the `db_owner` fixed database role on each database that you are configuring RBS for.
+- The user account installing the client library in the steps in the [Install the RBS client library on SQL Server](/sharepoint/administration/install-and-configure-rbs#library) and each front-end or application server section must be a member of the administrators' group on all of the computers where you are installing the library.
+- The user account enabling RBS in the [Enable RBS for each content database](/sharepoint/administration/install-and-configure-rbs#enableRBS) section must have sufficient permissions to run Microsoft PowerShell.
+
+## Setting up remote share provider
+
+#### Install RBS library to evert SharePoint front end and application server
+
+You need to install RBS library to every SharePoint Front end and Application server in SharePoint farm using the following command line:
+
+```
+Msiexec /qn /lvx* rbs_install_log.txt /I RBS.msi ADDLOCAL="Client"
+```
+
 > [!NOTE]
-> Unless otherwise specified, the information in this article is specific to RBS using the FILESTREAM provider. For guidance specific to another provider, contact the provider manufacturer. 
-  
-    
-## Introduction to RBS
-<a name="Section2"> </a>
+> Do not install RBS library through the GUI.
 
-In SharePoint Server, a binary large object (BLOB) is a large block of data stored in a database that is known by its size and location instead of by its structure — for example a Office document or a video file. By default, these BLOBs, also known as unstructured data, are stored directly in the SharePoint content database together with the associated metadata, or structured data. Because these BLOBs can be very large, it might be better to store BLOBs outside the content database. BLOBs are immutable. Therefore, a new copy of the BLOB must be stored for each version of that BLOB. Because of this, as a database's usage increases, the total size of its BLOB data can expand quickly and grow larger than the total size of the document metadata and other structured data that is stored in the database. BLOB data can consume lots of space and uses server resources that are optimized for database access patterns. Therefore, it can be helpful to move BLOB data out of the SQL Server database, and onto commodity or content addressable storage. To do this, you can use RBS. 
-  
-RBS is a SQL Server library API set that is incorporated as an add-in feature pack that you can install when you install the following:
-  
-- SQL Server 2014 Service Pack 1 (SP1)
-    
-- SQL Server 2014
-    
-- SQL Server 2012
-    
-- SQL Server 2008 R2 Express
-    
-- SQL Server 2008 R2
-    
-- SQL Server 2008
-    
-The RBS feature enables applications, such as SharePoint Server, to store BLOBs in a location outside the content databases. Storing the BLOBs externally can reduce how much SQL Server database storage space is required. The metadata for each BLOB is stored in the SQL Server database and the BLOB is stored in the RBS store. 
-  
-SharePoint Server uses the RBS feature to store BLOBs outside the content database. SQL Server and SharePoint Server jointly manage the data integrity between the database records and contents of the RBS external store on a per-database basis.
-  
-RBS is composed of the following components: 
-  
-- **RBS client library**
-    
-    An RBS client library consists of a managed library that coordinates the BLOB storage with SharePoint Server, SQL Server, and RBS provider components.
-    
-- **Remote BLOB Storage provider**
-    
-    An RBS provider consists of a managed library and, optionally, a set of native libraries that communicate with the BLOB store.
-    
-    An example of an RBS provider is the SQL FILESTREAM provider. The SQL FILESTREAM provider is an add-in feature of SQL Server 2014 Service Pack 1 (SP1) that enables storage of and efficient access to BLOB data by using a combination of SQL Server 2014 (SP1) and the NTFS file system. For more information about FILESTREAM, see [FILESTREAM (SQL Server)](/sql/relational-databases/blob/filestream-sql-server?viewFallbackFrom=sql-server-2014) For information about how to enable and configure FILESTREAM, see [Enable and Configure FILESTREAM](/sql/relational-databases/blob/enable-and-configure-filestream?viewFallbackFrom=sql-server-2014).
-    
-- **BLOB store**
-    
-    A BLOB store is an entity that is used to store BLOB data. This can be a content-addressable storage (CAS) solution, a file server that supports Server Message Block (SMB), or a SQL Server database.
-    
-## RBS providers
-<a name="providers"> </a>
+#### Enable RBS feature in specific content database
 
-RBS uses a provider to connect to any dedicated BLOB store that uses the RBS APIs. SharePoint Server supports a BLOB storage implementation that accesses BLOB data by using the RBS APIs through such a provider. There are two kinds of RBS providers, local and remote. 
-  
-The location in which an RBS provider stores the BLOB data depends on the provider that you use. In the case of the FILESTREAM provider, the data is not stored in the .mdf file. Instead, it is stored in another folder that is associated with the database.
-  
-### Local RBS provider
+RBS is applied to specific content database. Hence, every time when a new content database needs to use RBS, it needs to be set up. Then RBS providers can be registered on the content database.
 
-A local provider stores the BLOBS outside the database but on the same server that is running SQL Server. You can conserve resources by using the local RBS FILESTREAM provider to put the extracted BLOB data on a different (that is, less resource-intensive) local disk. Because the BLOBs are stored in the same Filegroup as the metadata, SharePoint Server features, such as backup and restore in Central Administration, can be used.
-  
-The RBS FILESTREAM provider is available as an add-in when you install SQL Server 2014 Service Pack 1 (SP1). The RBS FILESTREAM provider uses the SQL Server FILESTREAM feature to store BLOBs in an additional resource that is attached to the same database and stored locally on the server. The FILESTREAM feature manages BLOBs in a SQL database by using the underlying NTFS file system. 
-  
-> [!IMPORTANT]
-> The local FILESTREAM provider is supported only when it is used on local hard disk drives or an attached Internet Small Computer System Interface (iSCSI) device. You cannot use the local RBS FILESTREAM provider on remote storage devices such as network attached storage (NAS). 
-  
-### Remote RBS provider
+Ensure that there is a master key for this content database for which you want to apply RBS. If the master key does not exist, create a new one for the content database.
 
-A remote RBS provider stores the BLOBs on a separate server. This is typically on a separate volume on the same network as the database server.
-  
-Because the BLOBs are not stored in the same Filegroup with the metadata, some SharePoint Server features — for example, backup and restore in Central Administration — cannot be used with remote RBS providers. The metadata and the BLOBs must be managed separately. For more information about what features can be used with the provider, contact the provider manufacturer.
-  
-## Using RBS together with SharePoint Server
-<a name="Section3"> </a>
+To create master key for specific content database:
+1. Confirm that the user account performing these steps is a member of the `db_owner` fixed database role on each database that you are configuring for RBS.
+2. Open **SQL Server Management Studio**.
+3. Connect to the instance of SQL Server that hosts the content database.
+4. Expand **Databases**.
+5. Select the content database for which you want to create a BLOB store, and then click **New Query**.
+6. Paste the following SQL queries in **Query** pane, and then run them in the sequence listed. In each case, replace `[WSS_Content]` with the content database name, and replace `c:\BlobStore` with the `volume\directory` in which you want the BLOB store created. The provisioning process creates a folder in the location that you specify. Be aware that you can provision a BLOB store only once. If you attempt to provision the same BLOB store multiple times, you will receive an error.
 
-SharePoint Server 2016 supports the FILESTREAM provider that is included in SQL Server 2014 (SP1). This version of RBS is included on the SQL Server installation media, but is not installed by the SQL Server Setup program..
-  
-SharePoint 2013 supports the FILESTREAM provider that is included in the SQL Server Remote BLOB Store installation package from the Feature Pack for SQL Server 2008 R2, SQL Server 2012, and SQL Server 2014. These versions of RBS are available at the following locations:
-  
-- [Microsoft SQL Server 2008 R2 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=177388)
+    ```
+    #Replace with <your content database>
     
-- [Microsoft SQL Server 2012 Feature Pack](https://www.microsoft.com/download/details.aspx?id=29065)
+    use [<Your content database>]
     
-- [Microsoft SQL Server 2014 Feature Pack](https://www.microsoft.com/download/details.aspx?id=42295)
+    #Replace with your <Admin Key Password>
     
-Be aware that SQL Server Remote BLOB Store installation package for SQL Server 2014 is the only version of RBS that is supported by SharePoint Server 2016. SQL Server Remote BLOB Store installation package from the Feature Pack for SQL Server 2008 R2 and later are the only versions of RBS that are supported by SharePoint 2013. Earlier versions are not supported. Third-party RBS providers can also be used with the RBS APIs to create a BLOB storage solution that is compatible with SharePoint Server.
-  
-In SharePoint Server, site collection backup and restore and site import or export will download the file contents and upload them back to the server regardless of which RBS provider is being used. This process is known as a deep copy. However, the FILESTREAM provider is the only provider that is currently supported for SharePoint Server farm database backup and restore operations.
-  
-To use RBS, you must install an RBS provider on each server where SharePoint Server is installed and on each database server in the topology. The provider includes a set of DLLs that implement methods for the RBS APIs and perform the actual operation of externalizing the BLOBs.
-  
-> [!NOTE]
-> If Visio web services runs on SharePoint Server application servers that do not have an RBS provider installed, a Visio error occurs when you attempt to open a Visio diagram from this server. You must install an RBS client on SharePoint Server servers that run the Visio Graphics Service if you want to open Visio diagrams on that server. 
-  
- **SharePoint Server 2016:** To run RBS on a remote server, you must be running SQL Server 2014 (SP1) Enterprise on the server that is running SQL Server where the metadata is stored in the database. 
-  
-If you plan to store BLOB data in an RBS store that differs from your SharePoint Server 2016 content databases, you must run SQL Server 2014 (SP1). This is true for all RBS providers.
-  
- **SharePoint Server 2013:** To run RBS on a remote server, you must be running SQL Server 2008 R2, SQL Server 2012, or SQL Server 2014 Enterprise on the server that is running SQL Server where the metadata is stored in the database. 
-  
-If you plan to store BLOB data in an RBS store that differs from your SharePoint 2013 content databases, you must run SQL Server 2008 with SP1 and Cumulative Update 2, SQL Server 2012, or SQL Server 2014. This is true for all RBS providers.
-  
-The FILESTREAM provider that is recommended for upgrading from stand-alone installations of Windows SharePoint Services 3.0 that have content databases that are over 4 gigabytes (GB) to SharePoint 2013 associates data locally with the current content database, and does not require SQL Server Enterprise. 
-  
-> [!IMPORTANT]
-> Although RBS can be used to store BLOB data externally, accessing or changing those BLOBs is not supported using any tool or product other than SharePoint Server. All access must occur by using SharePoint Server only. 
-  
-## See also
-<a name="Section3"> </a>
+    if not exists
+    
+    (select * from sys.symmetric_keys
+    
+    where name = N'##MS_DatabaseMasterKey##')
+    
+    create master key encryption by password = N'<Admin Key Password>
+    
+    ```
 
-#### Other Resources
+You can set up RBS for each content database by using below command line. Replace DBNAME and DBINSTANCE with your specific content database name and database instance name.
 
-[Binary Large Object (Blob) Data (SQL Server)](/sql/relational-databases/blob/binary-large-object-blob-data-sql-server?viewFallbackFrom=sql-server-2014)
-  
-[FILESTREAM (SQL Server)](/sql/relational-databases/blob/filestream-sql-server?viewFallbackFrom=sql-server-2014)
-  
-[Remote BLOB Store Provider Library Implementation Specification](/previous-versions/sql/sql-server-2008/cc905212(v=sql.100))
-  
-[Install and configure RBS with SharePoint 2013 and SQL Server 2012](/archive/blogs/bogdang/install-and-configure-rbs-with-sharepoint-2013-and-sql-server-2012)
+```
+msiexec /qn /lvc* rbs.log /i rbs.msi TRUSTSERVERCERTIFICATE=true DBNAME="Your content database" ADDLOCAL="ServerScript,EnableRBS" DBINSTANCE="Your SQL database instance
+```
+
+
+#### Setting up credentials for remote share provider
+
+To access restricted SMB storage, it is recommended that specific domain account is assigned to Remote Share Provider to READ/WRITE BLOB files in SMB storage. The provider is using PSCredential object to sign-in remote RBS storage with this specific account credential.
+
+See [Get-Credential](/powershell/module/microsoft.powershell.security/get-credential) to get PSCredential object for the RBS provider.
+
+#### Registering BLOB store with remote share provider
+
+To offload BLOB storage from content database to SMB storage, you need to create and register a new remote share BLOB store by using Remote Share Provider to a given content database.
+
+You can use Register-SPRemoteShareBlobStore cmdlet to register a new BLOB store for specific content database.
+
+```
+Register-SPRemoteShareBlobStore -ContentDatabase <SPContentDatabasePipeBind> -Name <BlobStoreName[ValidateLength(8, 128)]> -Location <UNCPath> [-BlobStoreCredential < PSCredential>][- PoolCapacity <Int>]
+
+```
+
+The cmdlet parameters are:
+
+
+**`-ContentDatabase <SPContentDatabasePipeBind>`**
+
+The content database the new BLOB store will be applied to. It can either be the content database object or the content database name.
+
+
+**`-Name <BlobStoreName[ValidateLength(8, 128)]>`**
+
+The name of new created BLOB store.
+
+
+**`-Location<UNCPath[ValidateLength(5, 256)]>`**
+
+The UNC path of the SMB storage this BLOB store will use.
+
+
+**`[-BlobStoreCredential] < PSCredential>`**
+
+The PSCredential object which is used to access the SMB storage. If this parameter is not specified, it will use the service account which is applied to the current web application.
+
+**`[-PoolCapacity] <Int [ValidateRange(1000, 10000)]>`**
+
+The number of BLOB trunks in each BLOB pool. If this parameter is not specified, it will be set to 1000.
+
+
+
+Example cmdlet syntax:
+
+```
+Register-SPRemoteShareBlobStore -ContentDatabase $db -Name "RemoteBlob" -Location "\\SPVNEXT\blobstore"
+```
+
+
+#### Switching and activating BLOB store
+
+The registered remote share BLOB store will not take effect until it is activated. Switch-SPBlobStorage cmdlet needs to be run after Register-SPRemoteShareBlobStore, so that new contents to the content database will be routed to the newly created remote share BLOB store.
+
+```
+Switch-SPBlobStorage -RemoteShareBlobStore <SPRemoteShareBlobStorePipeBind
+```
+
+This cmdlet will switch default BLOB storage of the content database to the given remote share BLOB store. Since BLOB store is unique in farm and linked to specific content database. There is no need to specify the content database in this cmdlet.
+
+```
+-RemoteShareBlobStore <SPRemoteShareBlobStorePipeBind>
+```
+
+The remote share BLOB store, which will be active. It can either be a remote share BLOB store object or the remote share BLOB store name.
+
+Syntax example:
+
+```
+$blobstore = Register-SPRemoteShareBlobStore -ContentDatabase $db -Name "RemoteBlob" -Location \\SPVNEXT\blobstore
+Switch-SPBlobStorage -RemoteShareBlobStore $blobstore
+Switch-SPBlobStorage -ContentDatabase < SPContentDatabasePipeBind> -SQ
+
+```
+
+This cmdlet will switch default BLOB storage back to content database in SQL.
+
+
+**`-ContentDatabase < SPContentDatabasePipeBind`**
+
+The content database, which will need to set back to SQL. It can either be a content database object or content database name.
+
+**`SQL`**
+
+Indicates that the content database will use SQL for BLOB storage for new contents.
+
+Syntax example:
+
+```
+Switch-SPBlobStorage -ContentDatabase $db -SQL
+```
+
+#### Grant permission to web application pool account and SharePoint service application pool account
+
+After the RBS setup, new schema `mssqlrbs` is created in the content database. Hence, the access permission for this new schema must be granted to Web Application Pool Account and SharePoint Service Application Pool Account, so that the web application and the service application can access RBS in the content database.
+
+Use the below sample SQL command in SQL server to grant the permission.
+
+```
+ALTER AUTHORIZATION ON SCHEMA::mssqlrbs to [web_app_pool_account];
+ALTER AUTHORIZATION ON SCHEMA::mssqlrbs to`[service app_pool_account];
+```
+
+
+#### Resetting IIS
+
+After remote share BLOB store becomes the default BLOB storage to the content database, you need to run `iisreset` in every SharePoint front end server and SharePoint application server. Then any new content will be written to the external SMB storage using remote share provider.
+
+### Managing and configuring remote share BLOB store
+
+You can use Get-SPRemoteShareBlobStore cmdlet to get the remote share BLOB stores in the farm.
+
+```
+Get-SPRemoteShareBlobStore –RemoteShareBlobStore <SPRemoteShareBlobStorePipeBind>
+```
+
+This cmdlet will get a remote share BLOB store object by remote share BLOB store name.
+
+```
+Get-SPRemoteShareBlobStore -ContentDatabase <SPContentDatabasePipeBind>
+```
+
+This cmdlet will get all the remote share BLOB store objects for the given content database.
+
+```
+Get-SPRemoteShareBlobStore
+```
+
+This cmdlet will get all the remote share BLOB store objects for the current farm.
+
+You can change the configuration of remote share BLOB store at any time.
+
+```
+Set-SPRemoteShareBlobStore -RemoteShareBlobStore <SPRemoteShareBlobStorePipeBind> [-Location <String>] [-BlobStoreCredential <PSCredential>] [-PoolCapacity <int>]
+```
+
+The cmdlet parameters are:
+
+
+**`-RemoteShareBlobStore <SPRemoteShareBlobStorePipeBind>`**
+
+The remote share BLOB store needs to be changed. It can either be the remote share BLOB store object or be the remote share BLOB store name.
+
+**`[-Location <String>]`**
+
+The UNC path, which the BLOB storage needs to switch to. This parameter changes the UNC path of the SMB storage used. It will not move the BLOBs from the old SMB storage to the new SMB storage.
+
+
+**`[-BlobStoreCredential <PSCredential>]`**
+
+The PSCredential object, which the BLOB storage needs to switch to apply.
+
+
+**`[-PoolCapacity <int>]`**
+
+The capacity of each pool that is used in the BLOB store.
+
+### Migrating BLOBs from one remote share BLOB store to another
+
+One content database can have several BLOB stores, and at any time only one of these BLOB stores can be active for WRITE while others are just for READ. Sometimes, there is a need to move BLOBs from one BLOB store to another. For example, you may need to set up a new SMB storage and move all BLOBs to the new SMB storage. In this situation, you need to migrate data from SQL or old BLOB stores to the new BLOB store.
+
+By following the below sample, you can migrate your BLOBs from old BLOB storage to a new active BLOB store created by committing Migrate().
+
+```
+$db = Get-SPContentDatabase $YourDatabaseName
+$rbss = $db.RemoteBlobStorageSettings
+$rbss.SetActiveProviderName($YourBlobStoreName)
+$rbss.Migrate()
+
+```
+
+If you want to migrate your BLOBs from BLOB stores back to SQL content database, you can follow below example by setting active provider to empty.
+
+```
+$db = Get-SPContentDatabase $YourDatabaseName
+$rbss = $db.RemoteBlobStorageSettings
+$rbss.SetActive
+$rbss.Migrate()
+```
+
+### Unregistering remote share BLOB store
+
+You can unregister remote share BLOB store by using cmdlet Unregister-SPRemoteShareBlobStore.
+
+```
+Unregister-SPRemoteShareBlobStore -RemoteShareBlobStore <SPRemoteShareBlobStorePipeBind> [-Force]
+```
+
+The cmdlet parameters are:
+
+**`RemoteShareBlobStore <SPRemoteShareBlobStorePipeBind>`**
+
+The remote share BLOB store needs to be unregistered. It can either be the remote share BLOB store object or be the remote share BLOB store name. If the RemoteShareBlobStore is active in the content database, or there are still BLOBs in use in this blob store, this cmdlet will throw exception.
+
+**`[-Force]`**
+
+This switch forces unregistration even when the RemoteShareBLOBStore is not active but the BLOBs are still in use. If there is need to unregister such BLOB store, you can run the cmdlet with this switch to ignore the detection of in-use BLOBs in the BLOB store. If the blob store is active in the content database, this cmdlet will throw an exception to prevent unintentional un-registering of a BLOB store in-use.
+
+We do not recommend using this **-Force** switch because it will leave BLOBs in the SMB storage behind and make your SharePoint contents unaccessible. We recommend to migrate BLOBs firstly and then unregister remote share BLOB store.
+
+### Validating data consistency of remote share BLOB store
+
+You can validate remote share BLOB store used by the content database by cmdlet Test-SPRemoteShareBlobStore. 
+
+```
+Test-SPRemoteShareBlobSotore -ContentDatabase <SPContentDatabasePipeBind> [-LogPath <String>]
+
+```
+The cmdlet parameters are:
+
+
+**`-ContentDatabase <SPContentDatabasePipeBind>`**
+
+The content database needs to be validated against
+
+**`[-LogPath <String>]`**
+
+The path of the validation log.
+
+### Remote Share Provider Diagnostic Tool
+
+We have a new PowerShell cmdlet help admin to validate the data consistency of content database, which is Remote Share Provider enabled. It makes it easier for admin to figure out what are the problems in the remote storage.
+
+SYNTEX
+```
+Test-SPRemoteShareBlobStore-ContentDatabase <SPContentDatabasePipeBind> [-LogPath <String>]
+
+```
+The cmdlet parameters are:
+
+**`-ContentDatabase <SPContentDatabasePipeBind>`**
+
+The content database needs to be validated against
+
+**`[-LogPath <String>]`**
+
+The path of the validation log.
