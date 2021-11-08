@@ -1,5 +1,5 @@
 ---
-title: "The Viva Connections Dashboard web part(Preview)"
+title: "The Viva Connections Dashboard web part"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -19,14 +19,11 @@ search.appverid:
 description: "Learn how to use the Dashboard web part on your home site"
 ---
 
-# The Viva Connections Dashboard web part (Preview)
+# The Viva Connections Dashboard web part 
 
->[!NOTE]
->The information in this article relates to a preview product that may be modified before it's generally available.
+[Viva Connections](https://www.microsoft.com/microsoft-viva/connections) is an integrated experience designed to drive employee engagement. When deploying Viva Connections, you'll [set up a Dashboard](create-dashboard.md) and [use cards](viva-connections-overview.md) to bring together resources for different audiences to provide a comprehensive view of everything they need to complete common tasks. For example, the Dashboard could include a card that allows users to access cafeteria menus, schedules, reports, shift schedules, HR policies, and more.
 
-
-Viva Connections is an integrated employee experience, and the Viva Connections Dashboard brings together resources for different employee groups to provide a comprehensive view of everything they need. For example, the Dashboard could include a card that allows users to access cafeteria menus, schedules, reports, shift schedules, HR notices, and more.
-Once a Dashboard is authored, you can use the Dashboard web part to display it on your home site. If you want to add, remove, or reorder cards, the existing Dashboard on your site must be edited. To learn how to create or edit a Dashboard, see [Create a Viva Connections Dashboard](/SharePoint/create-dashboard).
+Once a Dashboard is published, you can use the Dashboard web part to display it on your home site. If you want to add, remove, or reorder cards, the existing Dashboard on your site must be edited. To learn how to create or edit a Dashboard, see [Create a Viva Connections Dashboard](create-dashboard.md).
 
 ## Add the Dashboard web part
 
@@ -69,8 +66,6 @@ Once in **edit** mode, perform the following steps:
 
 - **The Dashboard web part is hidden when there are no cards to show**: There may be no cards to show when the Dashboard author has targeted cards for specific audiences, and people outside of those audiences are viewing the page. For example, if all cards are targeted to your development group, only people in the development group will see the Dashboard.
 
-  > [!IMPORTANT]
-  > *Known issue (7/30/21): The title of the Dashboard shows even when the Dashboard is hidden. A temporary workaround is to make the title blank. This issue will be fixed before General Release.*
 
 - **We recommend you use the Dashboard web part in a vertical section**: Although a vertical section is recommended, the web part can be used in any section in 1, 2, or 3-column layouts. Here’s an example of a Dashboard web part in a horizontal section:
 
@@ -79,13 +74,17 @@ Once in **edit** mode, perform the following steps:
 - **The Dashboard web part can be added to any page on your home site**: The Dashboard is most useful on your home page, but it is possible to add it to any page on your home site. One practical use for doing this is to experiment with your page layout to see where you think the Dashboard will fit best. To do this, just create a copy of your home page and start experimenting.
 - **The Dashboard web part can be used in sections with a colored background**: When editing a section, you can change the background of the section and the cards of the Dashboard will have a different color from that background.
 
-   > [!IMPORTANT]
-   > *Known issue (7/30/21): Card color sometimes match the section background color. This will be fixed prior to General Release.*
-
    :::image type="content" source="media/card-color.png" alt-text="The screen indicating the color of the card.":::
 
 - **“See all” appears on the top-right of the Dashboard web part** when there are more Dashboard cards available than can be displayed in the Dashboard web part. When **See all** is selected, a page that shows the entire Dashboard is displayed.
 
    :::image type="content" source="media/full-display-Dashboard.png" alt-text="The screen displaying a full view of the Dashboard.":::
+
+## More resources
+
+[Overview of Viva Connections](viva-connections-overview.md)
+<br>
+
+[Set up and launch Viva Connections](guide-to-setting-up-viva-connections.md)
 
 

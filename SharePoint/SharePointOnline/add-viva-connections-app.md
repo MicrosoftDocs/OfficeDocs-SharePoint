@@ -1,5 +1,5 @@
 ---
-title: Add the Viva Connections app in the Teams admin center (Preview)
+title: Add the Viva Connections app in the Teams admin center
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -19,16 +19,16 @@ search.appverid:
 description: "Learn how to add the Viva Connections app in Microsoft Teams"
 ---
 
-# Add the Viva Connections app in the Teams Admin Center (Preview)
+# Add the Viva Connections app in the Teams Admin Center
 
-After you have prepared your intranet for Viva Connections in SharePoint, you are ready to add the Viva Connections app in the Microsoft Teams Admin Center. Add the Viva Connections app, and then customize app settings to add your organization's logo, pre-install, and pre-pin the app for end users. 
+After you have [prepared your intranet for Viva Connections](guide-to-setting-up-viva-connections.md) in SharePoint, you are ready to add the Viva Connections app in the Microsoft Teams Admin Center. Add the Viva Connections app, and then customize app settings to add your organization's logo, pre-install, and pre-pin the app for end users. 
 
 > [!IMPORTANT]
 > - Some Viva Connections features will become available sooner than others. This document reflects the most up to date guidance and will be updated over the next several weeks to include updates to features as they become available. 
 > - Teams administrator (or higher) permissions are required to add the Viva Connections app to the Teams Admin Center.
 
 
-![Image of Viva Connections app in the Teams admin center](media/viva-teams-add-app.png)
+![Image of Viva Connections app in the Teams admin center.](media/viva-teams-add-app.png)
 
 
 ## Start by adding the app in the Teams Admin Center
@@ -43,7 +43,7 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 
 ## Next, customize the app
 
-![Image of the app customization panel](media/viva-app-customize.png)
+![Image of the app customization panel.](media/viva-app-customize.png)
 
 1. Select **Actions** in the top-right area and then select **Customize**
 
@@ -51,11 +51,11 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 
    The **Short name** will be the display name of the Viva Connections app in your tenant.  In this example, it is “Relecloud”. 
 
-   ![Image of the app customization panel for the app logo](media/viva-app-customize-logo.png)
+   ![Image of the app customization panel for the app logo.](media/viva-app-customize-logo.png)
 
 3. Next, select **Icon** at the bottom of the **Customize** panel.
 
-4.  Upload a full color icon 192x192px and also upload a transparent outline icon 32x32px. Optionally, select an accent color that will be applied on card elements in the app on Teams mobile
+4.  Upload a full color icon 192x192px and also upload a transparent outline icon 32x32px. Optionally, select an accent color that will be applied on card elements in the app on Teams mobile.
  
 5. Select **Apply** when you are done.
 
@@ -70,7 +70,7 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 
 ## Finally, make the app available to end users
 
-![Image of the app panel](media/viva-allow-app.png)
+![Image of the app panel.](media/viva-allow-app.png)
 
 1. Return to the Teams admin center and select **Teams apps** then **Manage apps** and search for the Viva Connections app using the name you selected as the **Short name** when you first customized the Viva Connections app.
 
@@ -79,11 +79,12 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 
 
 
-## Resources
+## More resources
 
-[Overview of Viva Connections](/viva-connections-overview)
+[Overview of Viva Connections](viva-connections-overview.md)
 <br>
 
+[Set up and launch Viva Connections](guide-to-setting-up-viva-connections.md)
 
 
 
