@@ -73,7 +73,7 @@ You can run the **Add-SPShellAdmin** cmdlet to add a user account to this role. 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin). 
   
 2. Start the SharePoint Management Shell.
     
@@ -113,7 +113,7 @@ You can run the **Add-SPShellAdmin** cmdlet to add a user account to this role. 
    ForEach ($db in Get-SPDatabase) {Get-SPShellAdmin -Database $db}
    ```
 
-For more information, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+For more information, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

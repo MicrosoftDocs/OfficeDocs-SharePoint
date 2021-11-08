@@ -142,7 +142,7 @@ Use PowerShell backup and recovery cmdlets to create a script file (\*.ps1) and 
   
 - [Running Scripts](/previous-versions//bb613481(v=vs.85))
     
-- [Backup and recovery cmdlets in SharePoint Server 2016](/powershell/module/sharepoint-server/?view=sharepoint-ps)
+- [Backup and recovery cmdlets in SharePoint Server 2016](/powershell/module/sharepoint-server/)
     
 ### Use the SQL FILESTREAM provider with BLOB storage
 

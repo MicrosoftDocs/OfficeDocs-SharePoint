@@ -86,7 +86,7 @@ On our Contoso site, we use a Content Search Web Part (CSWP) to display items on
       'SiteID'{SiteID}:'SiteID',
       ```
     
-       ![Two MPs](../media/OTCSP_TwoMPs.png)
+     ![Two MPs](../media/OTCSP_TwoMPs.png)
   
 3. Add the following JavaScript just above the HTML part of your display template:
     
@@ -113,7 +113,7 @@ On our Contoso site, we use a Content Search Web Part (CSWP) to display items on
           LogViewsToEventStore(originalPath.value, originalSite.value);
       ```
     
-       In [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) we explained the EventTypeIDs for the usage events. The value *1* in this script represents the *EventTypeID* of the *Views* usage event. To log a different usage event, substitute this value with the *EventTypeID* of the usage event that you want to log. 
+     In [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) we explained the EventTypeIDs for the usage events. The value *1* in this script represents the *EventTypeID* of the *Views* usage event. To log a different usage event, substitute this value with the *EventTypeID* of the usage event that you want to log. 
         
        ![JavaScript](../media/OTCSP_JavaScript.png)
   
@@ -141,7 +141,7 @@ After you have generated *Views* usage events, you have two options on how to co
   
 If you want results faster, you can use some Microsoft PowerShell scripts to speed up the process. Here's what you have to do:
   
-1. Verify that you meet the [minimum permission](/powershell/module/sharepoint-server/?view=sharepoint-ps#section3) requirements. 
+1. Verify that you meet the [minimum permission](/powershell/module/sharepoint-server/) requirements. 
     
 2. On the server where SharePoint Server is installed, open the **SharePoint 2013 Management Shell** as an Administrator. 
     
@@ -266,7 +266,7 @@ When the Usage analytics timer job starts, it'll take the usage events from yest
 
      The Usage analytics job is finished when **State** is **Stopped** and **Status** is **100**. 
         
-       ![UA Stopped](../media/OTCSP_UAstopped.png)
+     ![UA Stopped](../media/OTCSP_UAstopped.png)
   
 Now that Usage analytics have processed the usage events, the next step is to display the results of the analysis on our Publishing site. To do that, we'll add and configure two Web Parts.
   
