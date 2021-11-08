@@ -115,7 +115,23 @@ The default result source is **Local SharePoint Results**, but you can choose to
 
     
 2. On the **Manage Result Sources** page, point to the result source that you want to set as the default, select the arrow that appears, and then select **Set as Default**.
+
+## Delete a result source
+
+A result source may no longer be needed. The following procedure provides the steps for removing a result source.
+  
+1. Go to the **Manage Result Sources** page for the tenant, for a site collection, or a site: 
+
+    - For a **tenant**, in the new SharePoint admin center, select **More features**. Under **Search**, select **Open**, and then on the search administration page, select **Manage Result Sources**.
     
+     - For a site collection, in your site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Site Collection Administration**, select **Search Result Sources**.
+    
+      - For a site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Search**, select **Result Sources**.
+
+
+    
+2. On the **Manage Result Sources** page, point to the result source that you want to remove, select the arrow that appears, select **Delete**, and then select **Ok** in the confirmation dialog.
+
 ## See also
 <a name="__toc342634788"> </a>
 
