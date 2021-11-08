@@ -20,7 +20,7 @@ description: "Learn about supported architectures for SharePoint Server in WAN e
 
 # Global architectures for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 SharePoint Server is optimized to perform well over wide-area network (WAN) connections. For most customers, a centralized environment is the recommended architecture for serving a world-wide user base. Customers who have sites that are not well connected might benefit from deploying one or more regional farms. This article describes supported architectures, strategies to optimize SharePoint Server for WAN connections, and recommendations for service applications.
     

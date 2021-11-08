@@ -18,7 +18,7 @@ description: "Learn how to view and configure usage analytics reports in SharePo
 
 # View and configure usage analytics reports in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The previous article in this series, [Use recommendations and popular items on websites with anonymous users in SharePoint Server](use-recommendations-and-popular-items-on-websites-with-anonymous-users.md), explained how to display recommendations on a website with anonymous users. In this article you'll learn:
   
@@ -139,7 +139,7 @@ In our Contoso catalog, we have a site column called *RetOnSale*. For each item,
   
 ![Ret On Sale Column](../media/OTCSP_RetOnSaleColumn.png)
   
-To narrow the Most Popular Items report to only show items that are on sale, we'll use the managed property that represents the *RetOnSale* site column. In our Contoso scenario, this is *RetOnSale* (see [How to find a managed property name](../search/how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md#BKMK_HowtoFindaManagedPropertyName)).
+To narrow the Most Popular Items report to only show items that are on sale, we'll use the managed property that represents the  *RetOnSale*  site column. In our Contoso scenario, this is  *RetOnSale*  (see [How to find a managed property name](../search/display-values-custom-managed-properties.md#BKMK_HowtoFindaManagedPropertyName)).
   
 In the Search Schema, we can see that the *RetOnSale* managed property is *Queryable*. This means that we can use it to narrow the Most Popular Items report. 
   

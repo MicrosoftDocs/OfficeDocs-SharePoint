@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: One of t
 
 # One of the cache hosts in the cluster is down (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
  **Rule Name:** One of the cache hosts in the cluster is down. 
   

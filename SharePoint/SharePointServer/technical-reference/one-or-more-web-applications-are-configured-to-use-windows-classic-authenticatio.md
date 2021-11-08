@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: One or m
 
 # One or more web applications are configured to use Windows Classic authentication (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
  **Rule Name:** One or more web applications are configured to use Windows Classic authentication. 
   
