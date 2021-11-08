@@ -96,7 +96,7 @@ After you run a report, select it to download the data. The report includes:
 
 ## Limitations or known issues
 
-- These reports work only if you have non-pseudonymized report data selected for your organization. To change this setting, you must be Global Administrator. Go to the [Reports setting in the Microsoft 365 admin center](https://admin.microsoft.com/#/Settings/Services/:/Settings/L1/Reports) and select **Display concealed user, group, and site names in all reports**.
+- These reports work only if you have non-pseudonymized report data selected for your organization. To change this setting, you must be Global Administrator. Go to the [Reports setting in the Microsoft 365 admin center](https://admin.microsoft.com/#/Settings/Services/:/Settings/L1/Reports) and clear **Display concealed user, group, and site names in all reports**.
 - Data in these reports might be delayed by up to 48 hours.
 
 
