@@ -113,9 +113,9 @@ On our Contoso site, we use a Content Search Web Part (CSWP) to display items on
           LogViewsToEventStore(originalPath.value, originalSite.value);
       ```
     
-     In [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) we explained the EventTypeIDs for the usage events. The value *1* in this script represents the *EventTypeID* of the *Views* usage event. To log a different usage event, substitute this value with the *EventTypeID* of the usage event that you want to log. 
+     In [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) we explained the EventTypeIDs for the usage events. The value *1* in this script represents the *EventTypeID* of the *Views* usage event. To log a different usage event, substitute this value with the *EventTypeID* of the usage event that you want to log.
         
-       ![JavaScript](../media/OTCSP_JavaScript.png)
+     ![JavaScript](../media/OTCSP_JavaScript.png)
   
 4. Save the file.
     
