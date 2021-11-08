@@ -54,7 +54,7 @@ To ensure consistent behavior and performance, configure the following options a
 - For SharePoint Server 2013, Maintenance Plans are managed by SharePoint:
 	- SQL statistics are managed by the health rule “Databases used by SharePoint have outdated index statistics” that calls proc_updatestatics   
 	- Content databases have the Auto Update Statistics property set to **False**  
-	
+
 - For SharePoint Servers 2016 and 2019, SQL administrator must create [Maintenance Plans](/sql/relational-databases/maintenance-plans/maintenance-plans?view=sql-server-2017) for SharePoint content databases:
 	- SQL statistics are not managed by the health rule “Databases used by SharePoint have outdated index statistics”   
 	- Content databases have the Auto Update Statistics property set to **True** `
