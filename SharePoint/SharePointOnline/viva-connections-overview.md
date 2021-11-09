@@ -33,7 +33,7 @@ Microsoft Viva Connections is your gateway to a modern engagement experience des
 
 
 > [!NOTE]
-> - Information in this article relates to the upgraded Viva Connections app. Viva Connections includes *both the desktop and mobile experiences*. It may be modified before it's generally available for all customers.
+> - Information in this article relates to the upgraded Viva Connections app. Viva Connections includes *both the desktop and mobile experiences*. 
 
 
 **Viva Connections is:**
