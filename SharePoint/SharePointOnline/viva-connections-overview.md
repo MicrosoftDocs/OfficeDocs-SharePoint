@@ -13,6 +13,8 @@ localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+- m365initiative-viva-connections 
+- intro-overview 
 search.appverid:
 - SPO160
 - MET150
