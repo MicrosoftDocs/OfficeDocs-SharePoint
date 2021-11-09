@@ -118,7 +118,7 @@ The default result source is **Local SharePoint Results**, but you can choose to
 
 ## Delete a result source
 
-A result source may no longer be needed. The following procedure provides the steps for removing a result source.
+A result source might be no longer needed. The following procedure provides the steps for removing a result source.
   
 1. Go to the **Manage Result Sources** page for the tenant, for a site collection, or a site: 
 
