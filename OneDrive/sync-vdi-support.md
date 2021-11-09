@@ -37,7 +37,7 @@ For all [supported operating systems](https://support.office.com/article/cc0cb2b
   - Windows Server 2008 R2 (supports VHD)
  
 > [!NOTE]
-> The minimum supported versions are: OneDrive 19.174.0902.0013 and FSLogix Apps [2.9.7653.47581](https://docs.microsoft.com/fslogix/whats-new).
+> The minimum supported versions are: OneDrive 19.174.0902.0013 and FSLogix Apps [2.9.7653.47581](/fslogix/whats-new).
 >
 > Using the OneDrive sync app with non-persistent environments requires that you [install the sync app per machine](./per-machine-installation.md).
 >
