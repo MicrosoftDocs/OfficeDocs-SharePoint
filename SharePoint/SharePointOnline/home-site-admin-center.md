@@ -1,5 +1,5 @@
 ---
-title: "Designate a home site from the SharePoint admin center (Preview)"
+title: "Designate a home site from the SharePoint admin center"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 - m365solution-scenario
 - m365solution-spintranet
+- m365initiative-viva-connections  
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
@@ -24,7 +25,7 @@ search.appverid:
 - BSA160
 description: "Set up a home site from the SharePoint admin center"
 ---
-# Set up a home site from the SharePoint admin center (Preview)
+# Set up a home site from the SharePoint admin center
   
 Learn how to set up and manage a home site for your organization in the SharePoint admin center. If you have already set a home site for your organization, you can skip this step.
 
