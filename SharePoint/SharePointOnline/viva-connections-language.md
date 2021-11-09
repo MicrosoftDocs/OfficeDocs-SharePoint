@@ -1,5 +1,5 @@
 ---
-title: "How to set up the Viva Connections mobile experience in a specific language"
+title: "Set up the Viva Connections experience in a specific language"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -16,10 +16,10 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "How to set up the Viva Connections mobile experience in a specific language"
+description: "Set up the Viva Connections experience in a specific language"
 ---
 
-# Set up the Viva Connections mobile experience in a specific language
+# Set up the Viva Connections experience in a specific language
 Viva Connections is available in most major languages used in Microsoft 365. Learn more about how to create and deploy the Viva Connections mobile experience in a specific language other than your organization’s default language. 
 
 Broadly, [Viva Connections](viva-connections-overview.md) mobile has four components that influence the end user’s overall language experience - the Viva Connections Dashboard, Feed, Resources, and the Teams mobile app. 
@@ -66,7 +66,8 @@ The Dashboard is intended to enable quick access to content and tasks from vario
    ![Image of where to specify the language for a site.](media/vc-language-select.png)
 
 2. Make this communication site the home site of your tenant, which will enable the Dashboard creation on that site. [Learn more about how to set a home site in the SharePoint admin center](home-site-admin-center.md). 
-3. When creating the dashboard make sure the dashboard author is typing the content in the English language for details like card titles and descriptions – [even if their own preferred language setting](https://support.microsoft.com/office/change-your-personal-language-and-region-settings-caa1fccc-bcdb-42f3-9e5b-45957647ffd7) in Microsoft 365 is not English. 
+
+3. When creating the dashboard make sure the Dashboard author is typing the content in the English language for details like card titles and descriptions – [even if their own preferred language setting](https://support.microsoft.com/office/change-your-personal-language-and-region-settings-caa1fccc-bcdb-42f3-9e5b-45957647ffd7) in Microsoft 365 is not English. 
 
 
 > [!NOTE]
@@ -99,7 +100,7 @@ The Resources experience displays intranet resources from [global navigation in 
    ![Image of where to specify the language for a navigational node.](media/vc-language-nav.png)
 
 ## Microsoft Teams mobile app 
-The Teams mobile app is where the Connections experience is deployed as another tab. The language experience of the mobile app is driven by the device language set by the user. Make sure to inform your users to set it to English for a cohesive experience – although it is not required. 
+In the Teams mobile app, Viva Connections is displayed as another tab tab in the Teams app bar. The language experience of the mobile app is driven by the device language set by the user. Make sure to inform your users to set it to English for a cohesive experience – although it is not required. 
 
 If a user has a device set to the French language the Teams mobile app “system” strings (text that Microsoft provides out-of-the box for end-user experience in the app) will all be in French while the Dashboard cards, Feed, and Resources content will be in English.
 
