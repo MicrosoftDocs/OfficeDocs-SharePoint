@@ -136,7 +136,7 @@ Review popular communication scenarios to get familiar with the different types 
 
 **Outcome:** The outcome is a high functioning organization comprised of highly skilled and knowledgeable employees who are equipped with the most up-to-date skills and know where to go to find the training opportunities.
 
-**Get started:** [Learn more about how to build a learning and training experience for employees.](build-learning-and-training-experience-for-employees.md)
+**Get started:** [Learn more about how to build a learning and training experience for employees.](build-learning-and-training-experiences-for-employees.md)
 
 
 ## Up next:
