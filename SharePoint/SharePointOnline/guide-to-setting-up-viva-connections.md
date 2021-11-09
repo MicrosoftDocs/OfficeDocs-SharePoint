@@ -8,11 +8,14 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
+ms.service: viva
+ms.subservice: viva-connections
 localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+- m365initiative-viva-connections
+- intro-get-started 
 search.appverid:
 - SPO160
 - MET150
