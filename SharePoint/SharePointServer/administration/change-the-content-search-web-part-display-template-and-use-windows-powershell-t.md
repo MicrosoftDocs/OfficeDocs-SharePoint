@@ -18,7 +18,7 @@ description: "Learn how to change the Content Search Web Part display template a
 
 # Change the Content Search Web Part display template and use Windows PowerShell to start Usage analytics in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 > [!NOTE]
 > The examples in this series are based on an on-premises SharePoint Server deployment. 
@@ -141,7 +141,7 @@ After you have generated *Views* usage events, you have two options on how to co
   
 If you want results faster, you can use some Microsoft PowerShell scripts to speed up the process. Here's what you have to do:
   
-1. Verify that you meet the [minimum permission](/powershell/module/sharepoint-server/) requirements. 
+1. Verify that you meet the [minimum permission](/powershell/module/sharepoint-server/?view=sharepoint-ps#section3&preserve-view=true) requirements. 
     
 2. On the server where SharePoint Server is installed, open the **SharePoint 2013 Management Shell** as an Administrator. 
     

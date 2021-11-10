@@ -20,7 +20,7 @@ description: "Learn how to attach and detach content databases to your SharePoin
 
 # Attach or detach content databases in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You can attach or detach SharePoint Server content databases by using the SharePoint Central Administration website or Microsoft PowerShell
   
@@ -103,7 +103,7 @@ The steps to add a database and to attach a database are very similar. For more 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Open **SharePoint Management Shell**.
     
@@ -131,12 +131,13 @@ The steps to add a database and to attach a database are very similar. For more 
 
     Where  _\<ContentdBName\>_ is the name of the content database. 
     
-    > [!IMPORTANT]
-    > If you have multiple content databases that have the same name, you must use the content database GUID in this command instead of using the content database name. To retrieve the GUID of the content database, run the **Get-SPContentDatabase** cmdlet with no arguments. 
+> [!IMPORTANT]
+> If you have multiple content databases that have the same name, you must use the content database GUID in this command instead of using the content database name. To retrieve the GUID of the content database, run the **Get-SPContentDatabase** cmdlet with no arguments.
   
 The **Dismount-SPContentDatabase** cmdlet detaches the content database from the web application, but it does not delete the content database from SQL Server. After a content database is detached, you cannot delete it by using PowerShell. You can only remove it by using SQL Server tools. If you want to delete the content database from SQL Server while you detach it, use the **Remove-SPContentDatabase** cmdlet instead. 
     
-For more information, see [Dismount-SPContentDatabase](/powershell/module/sharepoint-server/Dismount-SPContentDatabase) and [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase). 
+For more information, see [Dismount-SPContentDatabase](/powershell/module/sharepoint-server/Dismount-SPContentDatabase?view=sharepoint-ps&preserve-view=true
+) and [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps&preserve-view=true). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -146,9 +147,9 @@ For more information, see [Dismount-SPContentDatabase](/powershell/module/sharep
 
 #### Other Resources
 
-[Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase)
+[Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps&preserve-view=true)
   
-[New-SPContentDatabase](/powershell/module/sharepoint-server/New-SPContentDatabase)
+[New-SPContentDatabase](/powershell/module/sharepoint-server/New-SPContentDatabase?view=sharepoint-ps&preserve-view=true)
   
-[Remove-SPContentDatabase](/powershell/module/sharepoint-server/Remove-SPContentDatabase)
+[Remove-SPContentDatabase](/powershell/module/sharepoint-server/Remove-SPContentDatabase?view=sharepoint-ps&preserve-view=true)
 

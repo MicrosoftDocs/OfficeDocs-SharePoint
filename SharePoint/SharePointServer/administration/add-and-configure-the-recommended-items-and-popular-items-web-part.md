@@ -18,7 +18,7 @@ description: "Learn how to add and configure the Recommended Items and Popular I
 
 # Add and configure the Recommended Items and Popular Items Web Part in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The previous article in this series, [Change the Content Search Web Part display template and use Windows PowerShell to start Usage analytics in SharePoint Server](change-the-content-search-web-part-display-template-and-use-windows-powershell-t.md), explained how to change the CSWP to log the  *Views*  usage event, and how you can use Microsoft PowerShell to start Usage analytics. 
   

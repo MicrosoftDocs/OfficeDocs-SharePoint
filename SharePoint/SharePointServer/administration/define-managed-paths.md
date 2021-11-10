@@ -18,7 +18,7 @@ description: "Learn how to add a managed path for a web application in SharePoin
 
 # Define managed paths in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can specify the paths in the URL namespace of a web application to use for site collections. This is known as a managed path. You can specify that one or more site collections exist at a specified path.
   
@@ -87,9 +87,9 @@ Use the procedures that are described here to add or delete managed paths for a 
 
 #### Other Resources
 
-[New-SPManagedPath](/powershell/module/sharepoint-server/New-SPManagedPath?view=sharepoint-ps)
+[New-SPManagedPath](/powershell/module/sharepoint-server/New-SPManagedPath?view=sharepoint-ps&preserve-view=true)
   
-[Get-SPManagedPath](/powershell/module/sharepoint-server/Get-SPManagedPath?view=sharepoint-ps)
+[Get-SPManagedPath](/powershell/module/sharepoint-server/Get-SPManagedPath?view=sharepoint-ps&preserve-view=true)
   
-[Remove-SPManagedPath](/powershell/module/sharepoint-server/Remove-SPManagedPath?view=sharepoint-ps)
+[Remove-SPManagedPath](/powershell/module/sharepoint-server/Remove-SPManagedPath?view=sharepoint-ps&preserve-view=true)
 

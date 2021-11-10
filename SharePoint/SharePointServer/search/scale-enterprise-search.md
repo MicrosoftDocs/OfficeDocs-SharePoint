@@ -18,7 +18,7 @@ description: "Learn which approach to use to scale your enterprise search archit
 
 # Scale enterprise search in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Sometimes it's necessary to scale your search topology, for example:
   

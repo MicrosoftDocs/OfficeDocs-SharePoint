@@ -16,7 +16,7 @@ description: "Learn how to upgrade SharePoint Server 2016 to SharePoint Server 2
 
 # Upgrade SharePoint 2016 to SharePoint 2019 through Workflow Manager
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
 
 ## Summary
 

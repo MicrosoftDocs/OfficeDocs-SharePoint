@@ -8,7 +8,7 @@ ms.date: 01/26/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -23,7 +23,7 @@ description: "Learn about the new MinRole farm topology and its benefits in Shar
 
 # Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
 
 Learn about the new MinRole farm topology and its benefits in SharePoint Servers 2016 and 2019.
   

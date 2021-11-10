@@ -18,7 +18,7 @@ description: "Learn to configure diagnostic logging in SharePoint Server from th
 
 # Configure diagnostic logging in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
     
 ## Prerequisites
@@ -150,7 +150,7 @@ You can use PowerShell to configure diagnostic logging.
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use PowerShell cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. From the SharePoint Management Shell, change the drive to which the server writes logs.
     
@@ -166,11 +166,11 @@ You can use PowerShell to configure diagnostic logging.
       Set-SPDiagnosticConfig -LogMaxDiskSpaceUsageEnabled
       ```
 
-    Or assign the maximum disk space for logs:
-        
-      ```powershell
-      Set-SPDiagnosticConfig -LogDiskSpaceUsageGB 500
-      ```
+Or assign the maximum disk space for logs:
+    
+  ```
+  Set-SPDiagnosticConfig -LogDiskSpaceUsageGB 500
+  ```
 
 5. To view the current logging level, at the PowerShell command prompt, type the following command:
         
@@ -184,11 +184,11 @@ You can use PowerShell to configure diagnostic logging.
       Set-SPLogLevel -TraceSeverity Monitorable
       ```
 
-    To set all categories back to default levels, at the PowerShell command prompt, type the following command, and then press ENTER: 
-        
-      ```powershell
-      Clear-SPLogLevel
-      ```
+To set all categories back to default levels, at the PowerShell command prompt, type the following command, and then press ENTER: 
+    
+  ```
+  Clear-SPLogLevel
+  ```
 
 7. To enable event log flooding protection, at the PowerShell command prompt, type the following command:
         
@@ -196,7 +196,7 @@ You can use PowerShell to configure diagnostic logging.
       Set-SPDiagnosticConfig -EventLogFloodProtectionEnabled
       ```
 
-For more information, see [Set-SPDiagnosticConfig](/powershell/module/sharepoint-server/Set-SPDiagnosticConfig), [Set-SPLogLevel](/powershell/module/sharepoint-server/Set-SPLogLevel) and [Get-SPLogLevel](/powershell/module/sharepoint-server/Get-SPLogLevel). 
+For more information, see [Set-SPDiagnosticConfig](/powershell/module/sharepoint-server/Set-SPDiagnosticConfig?view=sharepoint-ps&preserve-view=true), [Set-SPLogLevel](/powershell/module/sharepoint-server/Set-SPLogLevel?view=sharepoint-ps&preserve-view=true) and [Get-SPLogLevel](/powershell/module/sharepoint-server/Get-SPLogLevel?view=sharepoint-ps&preserve-view=true). 
   
 ## See also
 <a name="section3"> </a>
