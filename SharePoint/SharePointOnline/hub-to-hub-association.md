@@ -53,15 +53,15 @@ The following diagram illustrates how hub sites can be associated to other hubs 
 ![Image of the basic hub site structure when hubs are associated to eachother](media/hub-structure-layered.png)
 
 - **Parent hub (level 1):** Think of associated hubs on level one as “Parent” hubs that determine the search scope for peer associated hubs.
-- **Associated child hub (level 2):** These hub sites are already associated to the parent hub and content within these sites will appear when users search at any of these hubs
+- **Associated child hub (level 2):** These hub sites are already associated to the parent hub and content within these sites will appear when users search at any of these hubs.
 - **Associated child hub (level 3):** This level (and all proceeding levels) of peer associated hubs behaves the same way as the first level. Content on sites beyond level 3 will not appear in search results.
 
 ## Associate a hub to another hub
 
 ![Image of the hub management panel in the SharePoint admin center](media/hub-settings-admin-2.png)
  
-1.	In the SharePoint admin center, navigate to **Active Sites**
-2.	Select the hub site that you’d like to make an association to, then select **Hub settings** in the command bar to open to hub settings panel
+1.	In the SharePoint admin center, navigate to **Active Sites**.
+2.	Select the hub site that you’d like to make an association to, then select **Hub settings** in the command bar to open to hub settings panel.
 3.	Next, select a hub to associate to in the **Parent hub association** field. Hubs that are available for association will appear here. 
 4.	To confirm which hubs have already been associated with your hub site, select **View child hubs associated to this hub**.
 5.	Then, select **Save** when you are done.
@@ -71,8 +71,8 @@ Hub site owners can quickly add links to the associated parent hub or child hubs
 
 ![Image of the navigation section on a SharePoint site in edit mode](media/hub-nav-links.png)
  
-1.	On the hub site, select **Edit** in the hub navigation bar
-2.	Next, select **Associated hubs** to add navigational links to the Parent hub(s)
+1.	On the hub site, select **Edit** in the hub navigation bar.
+2.	Next, select **Associated hubs** to add navigational links to the Parent hub(s).
 
     - In the hub structure example above, if you are on the North American marketing hub (level 2) and you select **Associated hubs**, you will see a links to the *Teams*, and *Guidelines* hubs.
 
@@ -80,9 +80,9 @@ Hub site owners can quickly add links to the associated parent hub or child hubs
 
     - In the hub structure example above, if you are on the North American marketing hub (level 2) and you select **Associated child hubs**, you will see links to the *South America Marketing* and *Asia Marketing* hubs.
 
-4.	Then, enter a display name for the new navigational links
-5.	Select **OK** to save your selection
-6. Select **Save** when you are done
+4.	Then, enter a display name for the new navigational links.
+5.	Select **OK** to save your selection.
+6. Select **Save** when you are done.
 
 >[!NOTE]
 >Navigational links to associated hubs *are not* automatically updated when there are changes to hub associations in the SharePoint admin center.
