@@ -22,7 +22,6 @@ search.appverid:
 - SPO160
 - MET150
 - BSA160
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to associate a SharePoint hub site to another hub site."
 ---
 
