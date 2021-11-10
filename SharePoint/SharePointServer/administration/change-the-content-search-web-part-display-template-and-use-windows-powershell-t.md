@@ -81,7 +81,7 @@ On our Contoso site, we use a Content Search Web Part (CSWP) to display items on
     
 2. In the **ManagedPropertyMapping** element, add the following two properties: 
     
-      ```
+      ```powershell
       'Original Path'{Original Path}:'OriginalPath',
       'SiteID'{SiteID}:'SiteID',
       ```
@@ -149,7 +149,7 @@ If you want results faster, you can use some Microsoft PowerShell scripts to spe
   
 3. At the Microsoft PowerShell command prompt, type the following commands to start Search analytics. The output from Search analytics is used by Usage analytics to map usage events against the actual items in the search index.
     
-      ```
+      ```powershell
       $job = Get-SPTimerJob -Type Microsoft.Office.Server.Search.Analytics.AnalyticsJobDefinition
       $sa = $job.GetAnalysis("Microsoft.Office.Server.Search.Analytics.SearchAnalyticsJob")
       $sa.StartAnalysis()
@@ -157,7 +157,7 @@ If you want results faster, you can use some Microsoft PowerShell scripts to spe
 
 4. Wait for the search analytics job to finish. To check the status of the search analytics job, type the following command:
     
-      ```
+      ```powershell
       $sa.GetAnalysisInfo()
       ```
 
@@ -171,7 +171,7 @@ If you want results faster, you can use some Microsoft PowerShell scripts to spe
   
 5. The usage events are added to the Event store in 10-minute intervals. To push the usage events to the Event store, type the following commands:
     
-      ```
+      ```powershell
       $job = Get-SPTimerJob -Identity ("job-usage-log-file-import")
       $job.RunNow()
       ```
@@ -245,7 +245,7 @@ When the Usage analytics timer job starts, it'll take the usage events from yest
 
 1. At the Microsoft PowerShell command prompt, type the following commands:
     
-      ```
+      ```powershell
       $job = get-sptimerjob -type microsoft.office.server.search.analytics.usageanalyticsjobdefinition 
       $job.DisableTimerJobSchedule() 
       $job.StartAnalysis("\\<hostname>\Analytics_<guid>\EventStore\myevents") 
@@ -260,7 +260,7 @@ When the Usage analytics timer job starts, it'll take the usage events from yest
   
 2. Check the status of the Usage analytics job by entering the following command:
     
-      ```
+      ```powershell
       $job.GetAnalysisInfo()
       ```
 

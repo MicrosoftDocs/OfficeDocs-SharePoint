@@ -156,43 +156,43 @@ You can use PowerShell to configure diagnostic logging.
     
 3. At the PowerShell command prompt, type the following command:
 
-      ```
+      ```powershell
       Set-SPDiagnosticConfig -LogLocation D:\DiagnosticLogs
       ```
 
 4. To restrict log disk space usage, at the PowerShell command prompt, type the following command:
     
-      ```
+      ```powershell
       Set-SPDiagnosticConfig -LogMaxDiskSpaceUsageEnabled
       ```
 
     Or assign the maximum disk space for logs:
         
-      ```
+      ```powershell
       Set-SPDiagnosticConfig -LogDiskSpaceUsageGB 500
       ```
 
 5. To view the current logging level, at the PowerShell command prompt, type the following command:
         
-      ```
+      ```powershell
       Get-SPLogLevel
       ```
 
 6. To change the logging level, at the PowerShell command prompt, type the following command:
         
-      ```
+      ```powershell
       Set-SPLogLevel -TraceSeverity Monitorable
       ```
 
     To set all categories back to default levels, at the PowerShell command prompt, type the following command, and then press ENTER: 
         
-      ```
+      ```powershell
       Clear-SPLogLevel
       ```
 
 7. To enable event log flooding protection, at the PowerShell command prompt, type the following command:
         
-      ```
+      ```powershell
       Set-SPDiagnosticConfig -EventLogFloodProtectionEnabled
       ```
 

@@ -111,7 +111,7 @@ The steps to add a database and to attach a database are very similar. For more 
     
     **To attach an existing content database:**
     
-    ```
+    ```powershell
     Mount-SPContentDatabase "<ContentDb>" -DatabaseServer "<DbServer>" -WebApplication http://SiteName
     ```
 
@@ -125,7 +125,7 @@ The steps to add a database and to attach a database are very similar. For more 
     
     **To detach a content database:**
     
-    ```
+    ```powershell
     Dismount-SPContentDatabase "<ContentdBName>"
     ```
 

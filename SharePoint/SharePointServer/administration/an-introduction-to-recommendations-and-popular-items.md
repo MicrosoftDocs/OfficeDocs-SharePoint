@@ -58,7 +58,7 @@ To view the usage event definitions, do the following:
   
 2. At the Microsoft PowerShell command prompt, type the following commands:
     
-    ```
+    ```powershell
     $ssp = Get-SPEnterpriseSearchServiceApplicationProxy
     $ssp.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
     ```

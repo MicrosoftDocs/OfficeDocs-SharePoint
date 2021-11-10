@@ -264,7 +264,7 @@ Note that there are two methods depending on whether you are using the default d
     
 7. In the Web Part, click **Click here to add new content**, and type one of the following two code strings:
             
-  ```
+  ```powershell
   # To ensure correct refiner formatting by using type code:
   Srch.ValueInfo.overrideRenderingForProperty( "<ManagedPropertyName>", "Property<TypeCode>" );
   # To ensure correct refiner formatting by using a managed properties that is enabled as a refiner by default:
@@ -301,7 +301,7 @@ Note that there are two methods depending on whether you are using the default d
     
 7. In the Web Part, click **Click here to add new content**, and then type the following code strings:
     
-  ```
+  ```powershell
   # To ensure correct refiner formatting by using type code:
   Srch.ValueInfo.overrideRefinementTemplateForProperty("<ManagedPropertyName>", "Property<TypeCode>", "~sitecollection/<PathToDisplayTemplate>" );
   # To ensure correct refiner formatting by using a managed properties that is enabled as a refiner by default:
