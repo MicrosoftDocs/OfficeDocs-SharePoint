@@ -121,7 +121,7 @@ If you are using cross-site publishing, where you show catalog content on a publ
 
 4. In an HTML editor, open the file where the custom usage event should be logged — for example, a display template for a Content Search Web Part, and add the following code:
     
-  ```
+  ```powershell
   window.Log<CustomUsageEventType>ToEventStore = function(url)
   {
       ExecuteOrDelayUntilScriptLoaded(function()
