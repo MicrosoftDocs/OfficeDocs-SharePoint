@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 - m365solution-scenario
 - m365solution-spintranet
+- m365initiative-viva-connections  
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
