@@ -101,7 +101,7 @@ The Resources experience displays intranet resources from [global navigation in 
    ![Image of where to specify the language for a navigational node.](media/vc-language-nav.png)
 
 ## Microsoft Teams mobile app 
-In the Teams mobile app, Viva Connections is displayed as another tab tab in the Teams app bar. The language experience of the mobile app is driven by the device language set by the user. Make sure to inform your users to set it to English for a cohesive experience – although it is not required. 
+In the Teams mobile app, Viva Connections is displayed as another tab in the Teams app bar. The language experience of the mobile app is driven by the device language set by the user. Make sure to inform your users to set it to English for a cohesive experience – although it is not required. 
 
 If a user has a device set to the French language the Teams mobile app “system” strings (text that Microsoft provides out-of-the box for end-user experience in the app) will all be in French while the Dashboard cards, Feed, and Resources content will be in English.
 
@@ -111,6 +111,6 @@ If a user has a device set to the French language the Teams mobile app “system
 ## More resources
 
 [Overview of Viva Connections](viva-connections-overview.md)
-<br>
+
 
 [Set up and launch Viva Connections](guide-to-setting-up-viva-connections.md)
