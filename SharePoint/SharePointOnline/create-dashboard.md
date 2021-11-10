@@ -176,15 +176,18 @@ You can request apps directly from the Viva Connections third-party developers a
 
 
 ### Add a Microsoft app as a card on the Dashboard
+
 A Microsoft app card allows you to create a card that links to Microsoft apps e.g., Shifts, Approvals, Task. Microsoft apps cards will be available Out of the Box when Viva Connections is enabled.
 
-1.	While in edit mode, select **+ Add a card** from the Dashboard.
-2.	Select the Microsoft App you want to add from the web toolbox.
+1. While in edit mode, select **+ Add a card** from the Dashboard.
+
+2. Select the Microsoft App you want to add from the web toolbox.
 
    ![Image of how to find a Microsoft app in the card picker window.](media/3p-apps-1.png)
 
 3. Select your options in the property pane on the right side of the page.
-4.	When you **Republish**, the card will appear on your dashboard.
+
+4. When you **Republish**, the card will appear on your dashboard.
 
 
 ## Apply audience targeting to cards
