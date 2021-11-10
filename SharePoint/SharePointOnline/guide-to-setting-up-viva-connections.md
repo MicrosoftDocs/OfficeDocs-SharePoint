@@ -8,11 +8,14 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
+ms.service: viva
+ms.subservice: viva-connections
 localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+- m365initiative-viva-connections
+- intro-get-started 
 search.appverid:
 - SPO160
 - MET150
@@ -202,7 +205,7 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 ## Step 8: Let your users know how to access and use Viva Connections
 
 
-| Viva Connections Dashboard interaction                 |End user guidance                 | 
+| Viva Connections Dashboard interaction                 |End-user guidance                 | 
 | :------------------- | :------------------- |
 | ![Automated GIF of the Dashboard on a mobile device.](media/new-vc-dashboard-interaction.GIF)  | Help make end users aware of this new resource and provide guidance on what icon in the Teams app bar is your organization's instance of Viva Connections. Then, help end users understand how to use [the desktop experience](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b). | 
 

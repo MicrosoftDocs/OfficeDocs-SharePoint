@@ -8,11 +8,14 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
+ms.service: viva
+ms.subservice: viva-connections
 localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+- m365initiative-viva-connections 
+- intro-overview 
 search.appverid:
 - SPO160
 - MET150
@@ -31,7 +34,7 @@ Microsoft Viva Connections is your gateway to a modern engagement experience des
 
 
 > [!NOTE]
-> - Information in this article relates to the upgraded Viva Connections app. Viva Connections includes *both the desktop and mobile experiences*. It may be modified before it's generally available for all customers.
+> - Information in this article relates to the upgraded Viva Connections app. Viva Connections includes *both the desktop and mobile experiences*. 
 
 
 **Viva Connections is:**

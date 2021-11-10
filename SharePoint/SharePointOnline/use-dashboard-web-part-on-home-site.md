@@ -1,5 +1,5 @@
 ---
-title: "The Viva Connections Dashboard web part"
+title: "Use the Viva Connections Dashboard web part"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -8,15 +8,17 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
+ms.service: viva
+ms.subservice: viva-connections
 localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+- m365initiative-viva-connections 
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to use the Dashboard web part on your home site"
+description: "Learn how to use the Dashboard web part"
 ---
 
 # The Viva Connections Dashboard web part 
