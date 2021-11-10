@@ -54,7 +54,7 @@ This video shows the steps involved in setting up Power Pivot for SharePoint 201
 ## Prepare the farm
 <a name="proc1"> </a>
 
-In this section, we will prepare the farm for Power Pivot installation. This includes registering a managed account and configuring some Secure Store settings in Central Administration, as well as configuring some security settings in SQL Server. You'll need to be a farm administrator and a SQL Server administrator to do these steps, as well as a [Shell Administrator](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps) to do the PowerShell steps. 
+In this section, we will prepare the farm for Power Pivot installation. This includes registering a managed account and configuring some Secure Store settings in Central Administration, as well as configuring some security settings in SQL Server. You'll need to be a farm administrator and a SQL Server administrator to do these steps, as well as a [Shell Administrator](/powershell/module/sharepoint-server/Add-SPShellAdmin) to do the PowerShell steps. 
   
  **Register a domain account as a managed account in SharePoint Server 2013**
   
@@ -84,7 +84,7 @@ You must also grant access to the SharePoint content database for this account. 
     
 2. At the Microsoft PowerShell Command Prompt, type the following syntax (press ENTER after each line):
     
-  ```
+  ```powershell
   $w = Get-SPWebApplication -identity http://<WebApplication>
   $w.GrantAccessToProcessIdentity("<Domain>\<PowerPivotApplicationPoolAccount>")
   ```
@@ -135,7 +135,7 @@ In order for the Power Pivot Management Dashboard reports to work, the account t
     
 2. Expand **Security** and double-click the account that is used for the Excel Services application pool. 
     
-3. On the **User Mapping** page, click the SharePoint Admin content database (usually named SharePoint_AdminContent_<GUID>). 
+3. On the **User Mapping** page, click the SharePoint Admin content database (usually named SharePoint_AdminContent_\<GUID\>). 
     
 4. Select the **SPDataAccess** database role check box. 
     

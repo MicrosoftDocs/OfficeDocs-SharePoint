@@ -8,7 +8,7 @@ ms.date: 7/14/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -73,7 +73,7 @@ Once you have registered the managed account, you must grant that account access
     
 2. At the Microsoft PowerShell command prompt, type the following, pressing Enter after each line:
     
-  ```
+  ```powershell
   $w = Get-SPWebApplication -identity <web application>
   $w.GrantAccessToProcessIdentity("<service account>")
   ```
