@@ -38,6 +38,7 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 - [Create a Dashboard and add cards](#create-a-dashboard-and-add-cards)
 - [Add a Web link card](#add-a-web-link-card)
 - [Add a Teams app card](#add-a-teams-app-card)
+- [Add a Shifts card](#add-a-shifts-card)
 - [Add a 3rd party card](#add-a-third-party-card-or-microsoft-app)
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
 - [Preview your Dashboard to see how it will display for different audiences and devices](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
@@ -146,6 +147,12 @@ A Teams app card allows you to create a card for an existing Teams app. To add a
     - Enter a title for the card in the **Card title** text box. (This title won't change your page title; it is the title that will be displayed on the top of the card.)
     - Enter a description for the card in the **Card description** text box. This description will be displayed in larger text under the title.
 7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+
+
+## Add a Shifts card
+
+
+
 
 
 ## Add a third party card or Microsoft app
