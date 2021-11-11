@@ -101,7 +101,7 @@ If you’re not seeing any content in your feed, it could be because of a few re
 
 There’s no configuration required to get the Feed working.  For the current release, customers have the ability to impact content placement in the Feed by targeting content, or by promoting it.
 
-- **Promote important ‘official’ communications** - Use [News boost](https://support.microsoft.com/ office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to raise the visibility of crucial news posts.
+- **Promote important ‘official’ communications** - Use [News boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to raise the visibility of crucial news posts.
 - **Highlight community discussions** - Feature posts in public Yammer communities that you’d like seen by the entire organization.
 - **Publish from official news sources** - Where content is from, impacts the ranking.
 
