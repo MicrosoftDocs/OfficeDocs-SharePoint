@@ -163,7 +163,7 @@ The Shifts card shows users information about their next or current shift from t
 
 3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
-4. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#audience-targeting).
+4. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 
 ## Add a third party card or Microsoft app
