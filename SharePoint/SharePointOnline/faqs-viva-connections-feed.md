@@ -23,7 +23,7 @@ description: "Frequently asked questions about the Feed for Viva Connections"
 
 # Get answers to common questions about the Viva Connections Feed 
 
-**Question:** What do I expect to see on the Feed?
+## Question: What can I expect to see in the Feed?
 
 **Answer:** The Feed will give content publishers a reliable means of distributing important news and information that their users need within their organizations.  In addition, users will also see engaging content from sites they are a member of/follow and communities they follow. The list of content that users will see in their feed for the Viva Connections current release is listed in the question “Where is content sourced for the Feed?” As fresher content is added to your feed, older content will be pushed down the feed. 
 
