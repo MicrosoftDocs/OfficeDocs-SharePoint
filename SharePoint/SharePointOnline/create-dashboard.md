@@ -1,5 +1,5 @@
 ---
-title: "Create the Viva Connections Dashboard (Preview)"
+title: "Create the Viva Connections Dashboard"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -8,7 +8,8 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
+ms.service: viva
+ms.subservice: viva-connections
 localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern
@@ -20,7 +21,7 @@ search.appverid:
 description: "Learn how to create the Viva Connections Dashboard"
 ---
 
-# Create a Viva Connections Dashboard (Preview)
+# Create a Viva Connections Dashboard
 
 The Viva Connections Dashboard provides fast and easy-access to information and job-related tasks. Content on the Dashboard can be targeted to users in specific roles, markets, and job functions. The Dashboard consists of cards that engage viewers with existing Teams apps, third-party apps, custom solutions, internal, and external links. The Dashboard can be built with no code, or a developer can create custom cards to meet the specific needs of an organization. 
 
@@ -37,6 +38,8 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 - [Create a Dashboard and add cards](#create-a-dashboard-and-add-cards)
 - [Add a Web link card](#add-a-web-link-card)
 - [Add a Teams app card](#add-a-teams-app-card)
+- [Add a Shifts card](#add-a-shifts-card)
+- [Add a 3rd party card](#add-a-third-party-card-or-microsoft-app)
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
 - [Preview your Dashboard to see how it will display for different audiences and devices](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
 - [Put the Dashboard on your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections)
@@ -146,14 +149,31 @@ A Teams app card allows you to create a card for an existing Teams app. To add a
 7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 
-## Add a 3rd party card or Microsoft apps
+## Add a Shifts card
+
+The Shifts card shows users information about their next or current shift from the Shifts app in Teams. They can also clock in and out and track break time when Time clock is enabled in Teams. 
+
+>[!NOTE]
+> The ability to use a Shifts card to clock-in and clock-out will become available in January 2022.
+
+1. While in edit mode, select **+ Add a card** from the dashboard.
+2. Select **Shifts** from the Dashboard toolbox.
+
+   ![Adding a Shifts app card](media/shiftsicon.png)
+
+3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+
+4. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+
+
+## Add a third party card or Microsoft app
 
 The Viva Connections Dashboard and mobile experience can be extended and customized using cards, which are based on [adaptive cards](https://adaptivecards.io/) and the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview). These adaptive cards are used to display data, complete tasks, and connect to Teams Apps, Websites, and mobile apps on Viva Connections. They provide a low-code solution to bring your line-of-business apps into the Dashboard. 
 
 To create custom experiences on Viva Connections Dashboard and Viva Connections Mobile App, developers must use the SPFx to create custom ACEs. To learn more about creating ACEs, see the following tutorial: [Build your first SharePoint Adaptive Card Extension](/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptive-card-extension). Learn more about [Viva Connections extensibility.](/sharepoint/dev/spfx/viva/overview-viva-connections)
 
 
-### Add a 3rd party app card
+### Add a 3rd party card
 There are two ways to acquire third-party developers and partners solution package and add them on the Viva Connections dashboard.
 
 #### Option 1: Acquire the app from a Microsoft AppSource or the SharePoint store
@@ -174,15 +194,18 @@ You can request apps directly from the Viva Connections third-party developers a
 
 
 ### Add a Microsoft app as a card on the Dashboard
+
 A Microsoft app card allows you to create a card that links to Microsoft apps e.g., Shifts, Approvals, Task. Microsoft apps cards will be available Out of the Box when Viva Connections is enabled.
 
-1.	While in edit mode, select **+ Add a card** from the Dashboard.
-2.	Select the Microsoft App you want to add from the web toolbox.
+1. While in edit mode, select **+ Add a card** from the Dashboard.
+
+2. Select the Microsoft App you want to add from the web toolbox.
 
    ![Image of how to find a Microsoft app in the card picker window.](media/3p-apps-1.png)
 
 3. Select your options in the property pane on the right side of the page.
-4.	When you **Republish**, the card will appear on your dashboard.
+
+4. When you **Republish**, the card will appear on your dashboard.
 
 
 ## Apply audience targeting to cards
