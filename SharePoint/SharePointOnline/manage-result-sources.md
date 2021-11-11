@@ -35,11 +35,11 @@ For the classic search experience, you can create your own result sources, or us
 
 1. Go to the **Manage Result Sources** page for the tenant, for a site collection, or a site: 
 
-  - For a tenant, in the new SharePoint admin center, select **More features**. Under **Search**, select **Open**, and then on the search administration page, select **Manage Result Sources**.
+   - For a tenant, in the new SharePoint admin center, select **More features**. Under **Search**, select **Open**, and then on the search administration page, select **Manage Result Sources**.
 
-  - For a site collection, in your site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Site Collection Administration**, select **Search Result Sources**.
+   - For a site collection, in your site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Site Collection Administration**, select **Search Result Sources**.
     
-  - For a site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Search**, select **Result Sources**.
+   - For a site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Search**, select **Result Sources**.
     
 2. On the **Manage Result Sources** page, select **New Result Source**.
     
@@ -47,30 +47,30 @@ For the classic search experience, you can create your own result sources, or us
     
 4. In the **Protocol** section, select one of the following protocols for retrieving search results: 
     
-  - **Local SharePoint**, the default protocol, provides results from the search index of this tenant (Search Service).
+   - **Local SharePoint**, the default protocol, provides results from the search index of this tenant (Search Service).
     
-  - **Remote SharePoint** provides results from the index of a search service in a different farm (external source). In the **Remote Service URL** box, type the address of the root site collection of the remote SharePoint farm. 
+   - **Remote SharePoint** provides results from the index of a search service in a different farm (external source). In the **Remote Service URL** box, type the address of the root site collection of the remote SharePoint farm. 
     
-  - **OpenSearch 1.0/1.1** provides results from a search engine that uses the OpenSearch 1.0/1.1 protocol. 
+   - **OpenSearch 1.0/1.1** provides results from a search engine that uses the OpenSearch 1.0/1.1 protocol. 
     
-  - **Exchange** provides results from Microsoft Exchange Server. Select **Use AutoDiscover** to have the search system find an Exchange Server endpoint automatically, or type the URL of the Exchange web service to retrieve results from — for example, https://contoso.com/ews/exchange.asmx 
+   - **Exchange** provides results from Microsoft Exchange Server. Select **Use AutoDiscover** to have the search system find an Exchange Server endpoint automatically, or type the URL of the Exchange web service to retrieve results from — for example, https://contoso.com/ews/exchange.asmx 
     
     > [!NOTE]
     >  The Exchange Web Services Managed API must be installed on the computer where the search service is running. 
   
 5. If you choose **Local SharePoint** or **Remote SharePoint** for protocol, choose a **Type**:
     
-  - **SharePoint Search Results** to search the whole index. 
+   - **SharePoint Search Results** to search the whole index. 
     
-  - **People Search Results** to search in people profiles and enable query processing that is specific to people search, such as phonetic name matching or nickname matching. 
+   - **People Search Results** to search in people profiles and enable query processing that is specific to people search, such as phonetic name matching or nickname matching. 
     
 6. In the **Query Transform** section, you can change incoming queries to use a new query text instead. Choose one of these options: 
     
-  - Leave the default query transform ( **searchTerms**) as is. The query will be unchanged since the previous transform.
+   - Leave the default query transform ( **searchTerms**) as is. The query will be unchanged since the previous transform.
     
-  - Type a different query transform in the box. See [Understanding query transforms](https://support.office.com/article/b31631a5-0c1f-436e-8061-fd807bb96ae1).
+   - Type a different query transform in the box. See [Understanding query transforms](https://support.office.com/article/b31631a5-0c1f-436e-8061-fd807bb96ae1).
     
-  - Build your own query. Select **Launch Query Builder** and build your query by specifying filters on the **BASICS**, sorting on the **SORTING** tab, and then testing the query on the **TEST** tab. Each of these tabs are described in the following sections. 
+   - Build your own query. Select **Launch Query Builder** and build your query by specifying filters on the **BASICS**, sorting on the **SORTING** tab, and then testing the query on the **TEST** tab. Each of these tabs are described in the following sections. 
     
 7. In the **Credentials Information** section, choose an authentication type for users to connect to the result source. 
     
