@@ -159,7 +159,7 @@ The Shifts card shows users information about their next or current shift from t
 1. While in edit mode, select **+ Add a card** from the dashboard.
 2. Select **Shifts** from the Dashboard toolbox.
 
-![Adding a Shifts app card](media/shiftsicon.png)
+   ![Adding a Shifts app card](media/shiftsicon.png)
 
 3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
