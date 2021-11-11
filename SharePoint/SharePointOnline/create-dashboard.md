@@ -151,8 +151,19 @@ A Teams app card allows you to create a card for an existing Teams app. To add a
 
 ## Add a Shifts card
 
+The Shifts card shows users information about their next or current shift from the Shifts app in Teams. They can also clock in and out and track break time when Time clock is enabled in Teams. 
 
+>[!NOTE]
+> The ability to use a Shifts card to clock-in and clock-out will become available in January 2022.
 
+1. While in edit mode, select **+ Add a card** from the dashboard.
+2. Select **Shifts** from the Dashboard toolbox.
+
+![Adding a Shifts app card](media/shiftsicon.png)
+
+3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+
+4. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#audience-targeting).
 
 
 ## Add a third party card or Microsoft app
