@@ -159,7 +159,7 @@ In addition, in Viva Connections for Desktop, the experience leverages SharePoin
 |Card designer    |     Create your own cards and quick views using the adaptive cards framework    |
 |Teams app card     |    Use to open a Teams personal app or bot specified by the dashboard author     |
 |Tasks     |    Use to open the Teams Tasks app     |
-|Shifts     | Use to open the Shifts app in Teams (upon General Availability release)          |
+|Shifts     | Show users information about their next or current shift from the Shifts app in Teams          |
 
 
 These cards are available in the Dashboard toolbox when authoring a Dashboard, as shown in the following image:
