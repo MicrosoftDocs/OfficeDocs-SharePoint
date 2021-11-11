@@ -39,7 +39,7 @@ Following are the key features of Remote Share Provider:
 Remote Share Provider introduces the new storage system into SharePoint. Any additional system can introduce complexity and reliability downgrade in some circumstances. As it is based on RBS, following are some of the limitations that are also applicable to Remote Share Provider:
 - Encryption is not supported on BLOBs, even if transparent data encryption is enabled.
 - RBS does not support using data compression.
-- As content database and BLOB storages are separated. Backup and restore from farm and content database level are not enough for disaster recovering. BLOB storages need to be backed up and recovered at the same time when performing farm and content database level back up and recover.
+- As content database and BLOB storages are separated. Backup and restore from farm and content database level are not enough for disaster recovering. BLOB storages need to be backed up and recovered at the same time when performing farm and content database level backup and recover.
 
 ## Advantages and disadvantages of remote share provider
 
@@ -91,7 +91,7 @@ Remote Share Provider does not provide encryption to ensure the data security. I
 
 By using previous FILESTREAM provider, which is default shipped with SQL server, High availability and Disaster Recovery (HADR) is handled by SQL Server HADR cluster.
 
-By moving to new Remote Share Provider, this SQL Server level HADR cannot cover the BLOBs inside SMB storage. Hence, Remote Share Provider can support same as SQL server HADR by default. It requires additional cost and effort to setup a HADR ready SMB storage and integrate with SharePoint and SQL server with layer HADR system.
+By moving to new Remote Share Provider, this SQL Server level HADR cannot cover the BLOBs inside SMB storage. Hence, Remote Share Provider can support same as SQL server HADR by default. It requires additional cost and effort to set up a HADR ready SMB storage and integrate with SharePoint and SQL server with layer HADR system.
 
 High availability can be supported by setting up a failover SharePoint farm in the past. With remote share provider, it can still work. 
 
@@ -101,7 +101,7 @@ There are two different configurations for failover farm with remote share provi
 
     :::image type="content" source="../media/SMR_BLOB.png" alt-text="This is a SMR BLOB.":::
 
-    For this configuration, there are two sets of SharePoint servers and SQL servers, however, they share the same SMB storage for BLOBs. Real time database synchronization is set up to stream changes from active SQL server in active SharePoint farm to fail over SQL server in failover SharePoint farm. So that if there is problem in active SharePoint farm, admin can immediately switch to failover SharePoint farm.
+    For this configuration, there are two sets of SharePoint servers and SQL servers, however, they share the same SMB storage for BLOBs. Real-time database synchronization is set up to stream changes from active SQL server in active SharePoint farm to fail over SQL server in failover SharePoint farm. So that if there is problem in active SharePoint farm, admin can immediately switch to fail over SharePoint farm.
 
 2. Share same SMB BLOB storage between active SharePoint farm and failover farm with SMB BLOB storage failover backup.
 
