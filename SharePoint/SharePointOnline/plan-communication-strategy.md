@@ -124,6 +124,21 @@ Review popular communication scenarios to get familiar with the different types 
 **Get started:** [Learn more about how to plan and launch a new employee onboarding program.](onboard-employees.md)
 
 
+### Scenario G: Build a learning and training experience for employees
+
+![Conceptual image of how to launch an employee onboarding program.](media/cc-neo.png)
+
+**Goals:** YoYour organization is full of different types of disciplines. In order to make sure every employee is equipped with the most up-to-date industry or job-related knowledge and proficiencies, you’d like to build an experience that allows your organization to administer learning modules and experiences and track the progress and performance of each employee.
+<br>
+
+**Considerations:** This experience will also need to be accessible to people in all regions, across multiple devices, and in all necessary languages. Your experience will need to be able to reach remote workers, front line workers, as well as those working in an office. This experience will also need to be accessible to people in all regions, across multiple devices, and in all necessary languages.
+<br>
+
+**Outcome:** The outcome is a high functioning organization comprised of highly skilled and knowledgeable employees who are equipped with the most up-to-date skills and know where to go to find the training opportunities.
+
+**Get started:** [Learn more about how to build a learning and training experience for employees.](build-learning-and-training-experiences-for-employees.md)
+
+
 ## Up next:
 
 **Step 2:** [Review Microsoft 365 communication tools and methods](review-communication-apps.md)
