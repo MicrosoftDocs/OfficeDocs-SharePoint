@@ -80,24 +80,24 @@ For the classic search experience, you can create your own result sources, or us
 
 | Choose this option | To do this |
 |:-----|:-----|
-|Keyword filter  <br/> |Use keyword filters to add predefined query variables to the query transform. Select query variables from the list, and add them to the query by clicking **Add keyword filter**.  <br/> |
-|Property filter  <br/> |Use property filters to query the content of managed properties that are set to **queryable** in the search schema.  <br/> Select managed properties from the **Property filter** list. Click **Add property filter** to add the filter to the query. </br>**NOTE**: Custom managed properties are not shown in the **Property filter** list. To add a custom managed property to your query, in the **Query text** box, enter the name of your custom managed property followed by the query condition, for example *MyCustomColorProperty:Green*           |
+|Keyword filter  |Use keyword filters to add predefined query variables to the query transform. Select query variables from the list, and add them to the query by clicking **Add keyword filter**.  |
+|Property filter  |Use property filters to query the content of managed properties that are set to **queryable** in the search schema.  <br/> Select managed properties from the **Property filter** list. Click **Add property filter** to add the filter to the query. </br>**NOTE**: Custom managed properties are not shown in the **Property filter** list. To add a custom managed property to your query, in the **Query text** box, enter the name of your custom managed property followed by the query condition, for example *MyCustomColorProperty:Green*           |
    
 ### The SORTING tab
 
 | Choose this option | To do this |
 |:-----|:-----|
-|Sort results  <br/> |Define sorting for results. The **Sort by** list contains managed properties that are set as sortable in the search schema.  <br/> Select a property to sort by, and then select **Descending** or **Ascending**. To sort by relevance, select **Rank**.  <br/> Click **Add sort level** if you want to specify more levels of sorting.  <br/> |
-|Dynamic ordering  <br/> |Click **Add dynamic ordering rule** to specify additional ranking by adding rules that change the order of results within the result block when certain conditions are met. You can add conditions by choosing from the lists that appears.  <br/> |
+|Sort results  |Define sorting for results. The **Sort by** list contains managed properties that are set as sortable in the search schema.  <br/> Select a property to sort by, and then select **Descending** or **Ascending**. To sort by relevance, select **Rank**.  <br/> Click **Add sort level** if you want to specify more levels of sorting.  |
+|Dynamic ordering  |Click **Add dynamic ordering rule** to specify additional ranking by adding rules that change the order of results within the result block when certain conditions are met. You can add conditions by choosing from the lists that appears.  |
    
 ### The TEST tab
 
 | Choose this option | To do this |
 |:-----|:-----|
-|Query text  <br/> |See the final query text, which is based on the original query template, the applicable query rules, and the variable values.  <br/> |
-|Show more  <br/> |Click the link to show more options.  <br/> |
-|Query template  <br/> |See the query as it is defined in the **BASICS** tab or in the text box in the **Query transform** section on the Add Result Source page.  <br/> |
-|Query template variables  <br/> |Test the query template by specifying values for the query variables. Click **Test query** to see the results.  <br/> |
+|Query text  |See the final query text, which is based on the original query template, the applicable query rules, and the variable values.  |
+|Show more  |Click the link to show more options.  |
+|Query template  |See the query as it is defined in the **BASICS** tab or in the text box in the **Query transform** section on the Add Result Source page.  |
+|Query template variables  |Test the query template by specifying values for the query variables. Click **Test query** to see the results.  |
    
 ## Set a result source as default
 <a name="__toc342634788"> </a>
