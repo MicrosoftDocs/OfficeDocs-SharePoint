@@ -97,20 +97,20 @@ If you’re not seeing any content in your feed, it could be because of a few re
 
 
 
-## Question: What controls do customers have over the Feed configuration?
+## Question: What are the available controls to influence content in the Feed?
 
-There’s no configuration required to get the feed working.  For the current release, customers have the ability to affect content placement in the feed by targeting content, or by promoting it.
+There’s no configuration required to get the Feed working.  For the current release, customers have the ability to impact content placement in the Feed by targeting content, or by promoting it.
 
 - **Promote important ‘official’ communications** - Use [News boost](https://support.microsoft.com/ office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to raise the visibility of crucial news posts.
 - **Highlight community discussions** - Feature posts in public Yammer communities that you’d like seen by the entire organization.
-- **Publish from official sources** - Where content is from, impacts the ranking.
+- **Publish from official news sources** - Where content is from, impacts the ranking.
 
 For SharePoint news, more filtering is available through [audience targeting](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293), which allows publishers to designate content relevant to specific groups of individuals. Examples might be employees in a specific region, building, or title.  This is done by enabling audience targeting on the site where content is being published, then using Azure Active Directory groups to define the target audience. However, if audience targeting is not applied, users will still get the SharePoint News on their feed. Publishers also have the ability to promote critical messages in the Feed.  News published from Org News sites has a Boost feature that explicitly tells the feed ‘this content is important’.  As a result, that content is artificially pushed to the top of the feed.
 
 In Yammer, moderators of the All-Company community can Feature a post to indicate it’s significant and increase visibility within the organization.  Featured posts from Yammer are treated as important by our ranking algorithm. For communities that you are a member of, communication managers can also create Announcements within those communities, which will also be treated as important by our ranking algorithm.
 
 
-## Question: What actions can I take on the Feed?
+## Question: What actions can viewers take on the Feed?
 
 For the current release, users on the Feed can do the following actions on posts:
 1.	Comment on a post
@@ -121,7 +121,7 @@ For the current release, users on the Feed can do the following actions on posts
 
 
 
-## Question: What can I do to save content after I have viewed it?  
+## Question: What can I do to save content in the Feed after I have viewed it?  
 
 Users can bookmark content that they would like to view later by selecting the **Save for Later**. Content can then be accessed through the save for later feature in the Viva Connections mobile app in Teams.
 
@@ -133,3 +133,5 @@ Users can bookmark content that they would like to view later by selecting the *
 [Set up and launch Viva Connections](guide-to-setting-up-viva-connections.md)
 
 [Use the Viva Connections Feed web part](https://support.microsoft.com/office/use-the-feed-web-part-for-viva-connections-001fbe90-3778-4801-9ea9-71308711d330)
+
+[Create an organizational news site in SharePoint](organization-news-site.md)
