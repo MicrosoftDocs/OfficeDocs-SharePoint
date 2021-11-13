@@ -17,7 +17,7 @@ description: "Use the following articles to manage your SharePoint Server enviro
 
 # Server Management
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Use the following articles to manage your SharePoint Server environment.
   

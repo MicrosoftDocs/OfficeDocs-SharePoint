@@ -23,7 +23,7 @@ description: "The articles in this section describe how to configure the underly
 
 # Configure the hybrid infrastructure
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 The articles in this section describe how to configure the underlying infrastructure that you need to create a hybrid environment with SharePoint Server and Microsoft 365 for enterprises. Be sure to follow a [SharePoint hybrid roadmap](configuration-roadmaps.md) when following the procedures in these articles. 
   

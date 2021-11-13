@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -19,7 +19,7 @@ description: "Learn how to implement best practices before you back up and resto
 
 # Backup and restore best practices in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Best practices for backup and restore help make sure that backup and restore operations in SharePoint Server are successful and that the environment is protected against data loss or continuity gaps.
   
@@ -48,7 +48,7 @@ Do not run backup jobs during times when users need access to the system. Typica
 
 Keep databases small to speed both backup and restore. For example, use multiple content databases for a web application instead of one large content database. For more information, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md). 
   
-For a graphical overview of the databases that support SharePoint Server 2016, see [Quick reference guide: SharePoint Server 2016 databases](../technical-reference/technical-diagrams.md#sharepoint-server-2016-databases). 
+For a graphical overview of the databases that support SharePoint Server 2016, see [Quick reference guide: SharePoint Server 2016 and 2019 databases](../technical-reference/technical-diagrams.md#sharepoint-servers-2016-and-2019-databases). 
   
 ### Use incremental backups for large databases
 
@@ -142,7 +142,7 @@ Use PowerShell backup and recovery cmdlets to create a script file (\*.ps1) and 
   
 - [Running Scripts](/previous-versions//bb613481(v=vs.85))
     
-- [Backup and recovery cmdlets in SharePoint Server 2016](/powershell/module/sharepoint-server/?view=sharepoint-ps)
+- [Backup and recovery cmdlets in SharePoint Server 2016](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true)
     
 ### Use the SQL FILESTREAM provider with BLOB storage
 

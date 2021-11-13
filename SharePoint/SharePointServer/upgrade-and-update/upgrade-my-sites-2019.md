@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -20,7 +20,7 @@ description: "Learn how to upgrade My Sites site collections in SharePoint Serve
 
 # Upgrade My Sites to SharePoint Server 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
   
 ## 
 
@@ -108,4 +108,4 @@ The personal site collections are upgraded automatically when a user visits thei
 
 [Upgrade a site collection](upgrade-a-site-collection-2019.md)
   
-[Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps)
+[Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps&preserve-view=true)

@@ -22,7 +22,7 @@ description: "Learn about how user authentication, app authentication, and serve
 
 # Authentication overview for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 SharePoint Server requires authentication for the following types of interactions:
   
