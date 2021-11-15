@@ -1,5 +1,5 @@
 ---
-title: "Manage sites in the SharePoint admin center"
+title: "Customize the SharePoint admin center site list"
 ms.reviewer: trgreen
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -20,18 +20,12 @@ search.appverid:
 - SPO160
 - MET150
 - BSA160
-ms.assetid: d8c63491-0410-405c-880a-8cef7fa4480a
-description: "In this article, you'll learn about tasks you can perform on the Active sites page of the SharePoint admin center."
+description: "In this article, you'll learn about how to customize views on the SharePoint admin center active sites page."
 ---
 
-# Manage sites in the SharePoint admin center
+# Customize the SharePoint admin center site list
 
-The [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) of the SharePoint admin center lets you view the SharePoint sites in your organization, including communication sites, channel sites, and sites that belong to Microsoft 365 groups. It also lets you sort and filter sites, search for a site, and create new sites.
-  
-![Active sites page](media/active-sites-page.png)
-  
-> [!NOTE]
-> The Active sites page lists the root website for each site collection. Subsites and redirect sites (REDIRECTSITE#0) created by changing a site address or replacing the root site. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different. 
+The [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) of the SharePoint admin center lets you view the SharePoint sites in your organization. You sort and filter sites, search for sites, and customize the columns and views.
 
 ## Sort and filter the site list
 <a name="sortfilter"> </a>
