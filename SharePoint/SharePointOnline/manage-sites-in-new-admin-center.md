@@ -64,7 +64,7 @@ For all site types except channel sites, you can add or remove site admins and c
 ## View site details
 <a name="viewsitedetails"> </a>
 
-For more info about a site, select the site name to open the details panel or for channel sites select the link in the **Channel sites** column.
+For more info about a site, select the site name to open the details panel or for channel sites select the link in the **Channel sites** column and then select the site name.
   
 ![The General tab of the details panel](media/general-tab-details-panel.png)
   
