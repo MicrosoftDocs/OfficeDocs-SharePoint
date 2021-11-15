@@ -75,20 +75,22 @@ Follow these steps to specify individual site storage limits when your storage m
     >[!NOTE]
     >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
     
-2. Select a site, and then select **Storage**. 
+2. Click a site, or for a channel site, select the link in the **Channel sites** column.
+
+3. Under **Storage limit**, select **Edit**.
 
     ![Changing the storage limit for a site](media/site-storage-limit.png)
     
-3. Enter the maximum storage in GB for the site. 
+4. Enter the maximum storage in GB for the site. 
 
     > [!NOTE]
     > The max value you can enter is 25600 GB, although this may be more space than your organization has. To learn how your total storage is calculated, see [SharePoint Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
     > 
     > If you set site storage limits in PowerShell, you enter them in MB. The values are converted and rounded down to the nearest integer to appear in GB in both the SharePoint admin center. So a value of 5000 MB becomes 4 GB. The minimum storage limit is 1 GB, so if you set a value of less than 1024 MB by using PowerShell, it will be rounded up to 1 GB.
     
-4. Make sure **Notifications** is turned on to send an email to site admins when the site approaches the storage limit. Then, enter a value as a percent for how full you want the storage to be when the email is sent. 
+5. Make sure **Notifications** is turned on to send an email to site admins when the site approaches the storage limit. Then, enter a value as a percent for how full you want the storage to be when the email is sent. 
  
-5. Select **Save**.
+6. Select **Save**.
 
 If a site runs out of storage, site admins can request more by following these steps:
 
