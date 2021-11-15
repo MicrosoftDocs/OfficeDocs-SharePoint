@@ -51,7 +51,7 @@ While working to prepare your intranet, align with stakeholders to define top sc
 
 
 ### Permissions
-- SharePoint administrators (or higher) can [create home sites](home-site-admin-center.md) and [hub sites](create-hub-site.md).
+- SharePoint or Global Administrators can [create home sites](home-site.md) and [hub sites](create-hub-site.md).
 - Site owners of the home site (or higher) can [enable and customize global navigation](sharepoint-app-bar.md).
 - Site owner and site member permissions are required to [customize site-level navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca).
 
@@ -68,7 +68,7 @@ A home site is a SharePoint communication site that acts as the front door to yo
 
 ### Get started
 1. If your organization does not already have a home site, learn more about [how to plan a home site](home-site-plan.md). 
-2. Then, [set the home site](home-site-admin-center.md) in the SharePoint admin center.
+2. Then, [set the home site](home-site.md) in the SharePoint admin center.
 3. Make sure you [share the home site](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658) with everybody in your organization.
 
 
