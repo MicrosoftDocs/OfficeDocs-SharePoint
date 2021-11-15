@@ -29,7 +29,6 @@ In SharePoint 2013, Remote BLOB Storage (RBS) technology was created in SQL serv
 In SharePoint Server subscription edition, we provide a new RBS provider **Remote Share Provider**.
   
 Following are the key features of Remote Share Provider:
-- This provider is built in SharePoint, hence no additional installation process is needed as compared to FILESTREAM provider.
 - This provider supports offload Binary Large Object (BLOB) storage to remote SMB system and totally enables content database storage in SQL server side. Therefore, with the same amount of limitation of content database, as in 200-GB size, more file volumes can be stored in one content database. Hence, it helps not only to reduce the cost for storage but also for the maintenance.
 - There is a diagnostic PS cmdlet to check the data completeness to figure out storage problem.
 - By applying the existing backup and restore methodology of SMB system, it provides relatively reasonable disaster recover.
@@ -152,7 +151,7 @@ To create master key for specific content database:
     
     use [<Your content database>]
     
-    #Replace with your <Admin Key Password>
+    #Replace with your <Your SQL database instance>
     
     if not exists
     
@@ -160,7 +159,7 @@ To create master key for specific content database:
     
     where name = N'##MS_DatabaseMasterKey##')
     
-    create master key encryption by password = N'<Admin Key Password>
+    create master key encryption by password = N'<Admin Key Password>'
     
     ```
 
