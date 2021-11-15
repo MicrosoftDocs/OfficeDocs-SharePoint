@@ -41,7 +41,6 @@ For more info about tasks on the Active sites page, see:
 - [Delete a site](delete-site-collection.md)
 - [Manage site storage limits](manage-site-collection-storage-limits.md)
 
-
 ## Add or remove site admins and group owners
 <a name="addremoveadmins"> </a>
 
