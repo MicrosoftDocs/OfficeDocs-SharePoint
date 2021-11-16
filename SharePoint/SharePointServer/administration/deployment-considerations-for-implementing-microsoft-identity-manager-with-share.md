@@ -19,7 +19,7 @@ description: "Learn about deployment considerations of a Microsoft Identity Mana
 
 # Deployment considerations for implementing Microsoft Identity Manager with SharePoint Servers 2016 and 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
  
 To increase your chances of a successful MIM deployment in SharePoint Server, follow these recommendations:
   

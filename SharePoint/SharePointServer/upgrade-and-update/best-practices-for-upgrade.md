@@ -8,7 +8,7 @@ ms.date: 9/17/2016
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -20,7 +20,7 @@ description: "Understand how to get the most out of testing upgrade and how to g
 
 # Best practices for upgrading to SharePoint Server 2016
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
   
 To increase your chances of a successful and faster upgrade to SharePoint Server 2016, follow these best practices to test and complete an upgrade.
   

@@ -17,7 +17,7 @@ description: "Learn how to configure the Search Results Web Part to use a new re
 
 # How to configure the Search Results Web Part to use a new result source in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In the previous article in this series, [How to create a Search Center Site Collection and enable crawling of your content in SharePoint Server](how-to-create-a-search-center-site-collection-and-enable-crawling-of-your-conten.md), we explained how you can create a Search Center Site Collection and enable crawling of your content. In this article, you'll learn:
   

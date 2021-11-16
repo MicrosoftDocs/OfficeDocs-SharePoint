@@ -20,7 +20,7 @@ description: "Learn how use the FILESTREAM provider to enable Remote BLOB Storag
 
 # Install and configure RBS with FILESTREAM in a SharePoint Server farm
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 SharePoint Server uses the RBS feature to store binary large objects (BLOBs) outside the content database. For more information about RBS, see [Overview of RBS in SharePoint Server](rbs-overview.md).
   
@@ -230,7 +230,7 @@ You must enable RBS on one web server in the SharePoint farm. It is not importan
 
    Where  _\<ContentDatabaseName\>_ is the name of the content database. 
     
-For more information, see [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps).
+For more information, see [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps&preserve-view=true).
   
 ## Assign db_owner permissions to the web application
 <a name="dbOwnPerm"> </a>

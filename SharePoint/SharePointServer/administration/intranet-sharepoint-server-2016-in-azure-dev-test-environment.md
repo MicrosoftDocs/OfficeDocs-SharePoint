@@ -24,7 +24,7 @@ description: "Create an intranet SharePoint Server farm running in Microsoft Azu
 
 # Intranet SharePoint Server 2016 in Azure dev/test environment
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
   
 This topic steps you through creating a simulated intranet SharePoint farm hosted in Azure. Here is the resulting configuration:
   

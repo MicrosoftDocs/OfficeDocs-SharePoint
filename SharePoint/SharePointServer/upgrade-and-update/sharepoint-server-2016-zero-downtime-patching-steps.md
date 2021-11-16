@@ -8,7 +8,7 @@ ms.date: 10/21/2016
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -20,7 +20,7 @@ description: "Zero downtime patching (ZDP) is available in SharePoint Server 201
 
 # SharePoint Server zero downtime patching steps
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
 
 Zero downtime patching (ZDP) is available in SharePoint Server 2016 and SharePoint Server 2019. Let users keep working on, saving, and searching documents as you patch your SharePoint Server 2016 or SharePoint Server 2019 farm.
 
@@ -107,7 +107,7 @@ The first phase is getting the patch binaries on the servers and installing them
 Every node in the SharePoint Server 2016 farm has the patches installed, and all have been rebooted. It's time to do the build-to-build upgrade.
   
 > [!NOTE]
-> During the ZDP process, you can run [Upgrade-SPContentdatabase](/powershell/module/sharepoint-server/Upgrade-SPContentDatabase?view=sharepoint-ps) to reduce the overall time it will take to finish running PSCONFIG. Consider this if you have a large number of databases, or select large databases.
+> During the ZDP process, you can run [Upgrade-SPContentdatabase](/powershell/module/sharepoint-server/Upgrade-SPContentDatabase?view=sharepoint-ps&preserve-view=true) to reduce the overall time it will take to finish running PSCONFIG. Consider this if you have a large number of databases, or select large databases.
   
 1. ![Step 5 in the ZDP process s shown in a graphic.](../media/4c2c5d4d-f81c-40d8-b645-ba5bf8e9e1bc.png)
   
@@ -123,7 +123,7 @@ Every node in the SharePoint Server 2016 farm has the patches installed, and all
     > The last step in the PSCONFIG process ensures that updates to the User Interface (UI) are copied from the /layouts folder to a version-specific folder. This is part of the side-by-side UI update that lets users browsing your farm have one experience of the UI until the upgrade is completed, and you're ready to switch over to the new interface.  
     > To be sure the side-by-side copy was successful, check the associated logfile. By default, this is located under:  
     *C:\program files\common files\Microsoft shared\web server extensions\16\logs.*  (Your root drive letter may vary!)  
-    > If, for some reason, PSCONFIG didn't successfully copy UI files, please run this command to manually copy them [Copy-SidebySideFiles](/powershell/module/sharepoint-server/Copy-SPSideBySideFiles?view=sharepoint-ps)!
+    > If, for some reason, PSCONFIG didn't successfully copy UI files, please run this command to manually copy them [Copy-SidebySideFiles](/powershell/module/sharepoint-server/Copy-SPSideBySideFiles?view=sharepoint-ps&preserve-view=true)!
   
 2. ![Step 6 in the ZDP process is shown in this graphic.](../media/0d89cbbf-e92c-4bda-b32c-c019ee6cbb29.png)
   
@@ -142,7 +142,7 @@ Every node in the SharePoint Server 2016 farm has the patches installed, and all
     For all remaining servers in column 1 (SPApp01, SPDCH01, SPSRCH01), run the same PSCONFIG command in the SharePoint 2016 Management Shell. Do this on each server, one at a time, until all servers in column 1 are upgraded.
 
     > [!IMPORTANT]
-    > Remember to gracefully [remove the Distributed Cache](/powershell/module/sharepoint-server/Remove-SPDistributedCacheServiceInstance?view=sharepoint-ps) before running PSCONFIG and [add the Distributed Cache to the server](/powershell/module/sharepoint-server/Add-SPDistributedCacheServiceInstance?view=sharepoint-ps) again after completion.
+    > Remember to gracefully [remove the Distributed Cache](/powershell/module/sharepoint-server/Remove-SPDistributedCacheServiceInstance?view=sharepoint-ps&preserve-view=true) before running PSCONFIG and [add the Distributed Cache to the server](/powershell/module/sharepoint-server/Add-SPDistributedCacheServiceInstance?view=sharepoint-ps&preserve-view=true) again after completion.
 
     ```powershell
     PSCONFIG.exe -cmd upgrade -inplace b2b -wait -cmd applicationcontent -install -cmd installfeatures -cmd secureresources -cmd services -install
@@ -153,7 +153,7 @@ Every node in the SharePoint Server 2016 farm has the patches installed, and all
     For all remaining servers in column 2 (SPApp02, SPDCH02, SPSRCH02), run the same PSCONFIG command in the SharePoint 2016 Management Shell. Do this on each server, one at a time, until all servers in column 2 are upgraded.
 
     > [!IMPORTANT]
-    > Remember to gracefully [remove the Distributed Cache](/powershell/module/sharepoint-server/Remove-SPDistributedCacheServiceInstance?view=sharepoint-ps) before running PSCONFIG and [add the Distributed Cache to the server](/powershell/module/sharepoint-server/Add-SPDistributedCacheServiceInstance?view=sharepoint-ps) again after completion.
+    > Remember to gracefully [remove the Distributed Cache](/powershell/module/sharepoint-server/Remove-SPDistributedCacheServiceInstance?view=sharepoint-ps&preserve-view=true) before running PSCONFIG and [add the Distributed Cache to the server](/powershell/module/sharepoint-server/Add-SPDistributedCacheServiceInstance?view=sharepoint-ps&preserve-view=true) again after completion.
 
     ```powershell
     PSCONFIG.exe -cmd upgrade -inplace b2b -wait -cmd applicationcontent -install -cmd installfeatures -cmd secureresources -cmd services -install

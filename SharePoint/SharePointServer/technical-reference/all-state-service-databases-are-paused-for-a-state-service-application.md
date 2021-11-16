@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: All Stat
 
 # All State Service databases are paused for a State Service Application (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
  **Rule Name:** All State Service databases are paused for a State Service Application 
   
@@ -41,7 +41,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: All Stat
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -79,4 +79,4 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: All Stat
     
   -  _\<Credential\>_ is SQL Server authentication credentials for the database server. If this parameter is not specified, Windows authentication will be used. 
     
-For more information, see [Resume-SPStateServiceDatabase](/powershell/module/sharepoint-server/Resume-SPStateServiceDatabase?view=sharepoint-ps) or [New-SPStateServiceDatabase](/powershell/module/sharepoint-server/New-SPStateServiceDatabase?view=sharepoint-ps). 
+For more information, see [Resume-SPStateServiceDatabase](/powershell/module/sharepoint-server/Resume-SPStateServiceDatabase?view=sharepoint-ps&preserve-view=true) or [New-SPStateServiceDatabase](/powershell/module/sharepoint-server/New-SPStateServiceDatabase?view=sharepoint-ps&preserve-view=true). 

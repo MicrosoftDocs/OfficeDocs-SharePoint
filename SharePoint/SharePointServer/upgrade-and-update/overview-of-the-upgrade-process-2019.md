@@ -8,7 +8,7 @@ ms.date: 07/24/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -23,7 +23,7 @@ description: "Learn about the process of upgrading databases, service applicatio
 
 # Overview of the upgrade process to SharePoint Server 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]  
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]  
   
 To upgrade from Microsoft SharePoint Server 2016 to SharePoint Server 2019, you use the database-attach method. In the database-attach method, you first create and configure a SharePoint Server 2019 farm. Then you copy the content and service application databases from the SharePoint Server 2016, and then attach and upgrade the databases. This upgrades the data to the new version. Site owners can then upgrade individual site collections.
   
