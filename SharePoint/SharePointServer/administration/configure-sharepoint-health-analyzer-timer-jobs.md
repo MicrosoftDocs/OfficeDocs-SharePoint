@@ -83,15 +83,15 @@ You can configure the health data collection timer job schedule by using PowerSh
   Set-SPTimerJob -Identity <SPTimerJobPipeBind> -Schedule <ScheduleString>
   ```
 
-    The value of the **Identity** parameter specifies the timer job. If you do not use the **Identity** parameter, all timer jobs are configured. To see a list of all the timer jobs, type the following command: 
+  The value of the **Identity** parameter specifies the timer job. If you do not use the **Identity** parameter, all timer jobs are configured. To see a list of all the timer jobs, type the following command: 
     
   ```
   Get-SPTimerJob | Format-Table -property id,title
   ```
 
-     _\<SPTimerJobPipeBind\>_ can be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of a timer job (for example, TimerJob1); or an instance of a valid **SPTimerJob** object. 
+  _\<SPTimerJobPipeBind\>_ can be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of a timer job (for example, TimerJob1); or an instance of a valid **SPTimerJob** object. 
     
-    Use the value of the **Schedule** parameter to specify the schedule, where  _\<ScheduleString\>_ is one of the following: 
+  Use the value of the **Schedule** parameter to specify the schedule, where  _\<ScheduleString\>_ is one of the following: 
     
   - **Every 5 minutes between 0 and 59**
     

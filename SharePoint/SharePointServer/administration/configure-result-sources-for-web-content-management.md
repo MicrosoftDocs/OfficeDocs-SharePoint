@@ -113,8 +113,8 @@ You can create a result source for a Search service application, a site collecti
     
 2. In the **Build Your Query** dialog, optionally build the query by specifying filters, sorting, and testing on the tabs as shown in the following tables. 
     
-  - 
-   **On the BASICS tab**
+  -
+ **On the BASICS tab**
 
 |||
 |:-----|:-----|
@@ -122,11 +122,11 @@ You can create a result source for a Search service application, a site collecti
 |**Property filter** <br/> |You can use property filters to query the content of managed properties that are set to  *queryable*  in the search schema.  <br/> You can select managed properties from the **Property filter** drop-down list. Click **Add property filter** to add the filter to the query.  <br/> |
    
   - 
-   **On the SORTING tab**
+ **On the SORTING tab**
 
 |||
 |:-----|:-----|
-|**Sort results** <br/> |In the **Sort by** menu, you can select a managed property from the list of managed properties that are set as sortable in the search schema, and then select **Descending** or **Ascending**. To sort by relevance, that is, to use a ranking model, select **Rank**. You can click **Add sort level** to specify a property for a secondary level of sorting for search results.  <br/> > [!NOTE]> Sorting of search results is case sensitive.           |
+|**Sort results** <br/> |In the **Sort by** menu, you can select a managed property from the list of managed properties that are set as sortable in the search schema, and then select **Descending** or **Ascending**. To sort by relevance, that is, to use a ranking model, select **Rank**. You can click **Add sort level** to specify a property for a secondary level of sorting for search results.  <br/> > [!NOTE]> Sorting of search results is case sensitive.|
 |**Ranking Model** <br/> |If you selected  *Rank*  from the **Sort by** list, you can select the ranking model to use for sorting.  <br/> |
 |**Dynamic ordering** <br/> |You can click **Add dynamic ordering rule** to specify additional ranking by adding rules that change the order of results within the result block when certain conditions are satisfied.  <br/> |
    

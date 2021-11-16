@@ -108,10 +108,10 @@ The destination farm must be running the same version or a later version of Shar
   Get-SPContentDatabase -WebApplication <http://SiteName>
   ```
 
-    Where:  _\<http://SiteName\>_ is the URL of the web application. 
+  Where:  _\<http://SiteName\>_ is the URL of the web application. 
     
-    > [!NOTE]
-    > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
+  > [!NOTE]
+  > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
   
 ### 2. To pause timer jobs by using Central Administration
 
@@ -244,7 +244,7 @@ The destination farm must be running the same version or a later version of Shar
   Get-SPContentDatabase -WebApplication <http://SiteName>
   ```
 
-    Where:  _\<http://SiteName\>_ is the URL of the web application. 
+  Where:  _\<http://SiteName\>_ is the URL of the web application. 
     
 For more information, see [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps)
   
@@ -278,7 +278,7 @@ For more information, see [Get-SPContentDatabase](/powershell/module/sharepoint-
   
   ```
 
-    Where:
+  Where:
     
   -  _\<http://WebApplicationURL\>_ is the Web application associated with the content database that you are moving. 
     
@@ -314,15 +314,15 @@ For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/
   Dismount-SPContentDatabase "<ContentDB>"
   ```
 
-    Where:  _\<ContentDB\>_ is the name of the content database. 
+  Where:  _\<ContentDB\>_ is the name of the content database. 
     
-    > [!NOTE]
-    > If you have multiple content databases that have the same name, you must use the content database GUID in this command instead of using the content database name. To retrieve the GUID of the content database, run the **Get-SPContentDatabase** cmdlet without arguments. 
+  > [!NOTE]
+  > If you have multiple content databases that have the same name, you must use the content database GUID in this command instead of using the content database name. To retrieve the GUID of the content database, run the **Get-SPContentDatabase** cmdlet without arguments. 
   
-    For more information, see [Dismount-SPContentDatabase](/powershell/module/sharepoint-server/Dismount-SPContentDatabase?view=sharepoint-ps) and [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps). 
+  For more information, see [Dismount-SPContentDatabase](/powershell/module/sharepoint-server/Dismount-SPContentDatabase?view=sharepoint-ps) and [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps). 
     
-    > [!NOTE]
-    > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
+  > [!NOTE]
+  > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
   
 ### 4. To detach the content databases from SQL Server
 
@@ -332,8 +332,8 @@ For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/
     
 3. Right-click the content database, point to **Tasks**, and then click **Detach**. Repeat this step for each content database that you want to move.
     
-    > [!NOTE]
-    > Use this procedure to move only content databases. Do not detach any other kinds of databases. 
+> [!NOTE]
+> Use this procedure to move only content databases. Do not detach any other kinds of databases. 
   
 ### 5. To move the content databases to a new location
 
@@ -367,10 +367,10 @@ For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/
     
   - The **dbcreator** and **securityadmin** fixed server roles on the destination server, in order to attach the database and configure SQL Server logins. 
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
+  An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+  > [!NOTE]
+  > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -380,7 +380,7 @@ For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/
   Mount-SPContentDatabase "<ContentDB>" -DatabaseServer "<DBServer>" -WebApplication <http://SiteName>
   ```
 
-    Where:
+  Where:
     
   -  _\<ContentDB\>_ is the name of the content database to be attached. 
     
@@ -388,10 +388,10 @@ For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/
     
   -  _\<http://SiteName\>_ is the URL of the Web application to which the content database is being attached. 
     
-    For more information, see [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Dismount-SPContentDatabase?view=sharepoint-ps).
+  For more information, see [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Dismount-SPContentDatabase?view=sharepoint-ps).
     
-    > [!NOTE]
-    > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
+  > [!NOTE]
+  > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
   
 ### 8. To restart timer jobs by using PowerShell
 
@@ -405,10 +405,10 @@ For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/
     
   - The **dbcreator** and **securityadmin** fixed server roles on the destination server, in order to attach the database and configure SQL Server logins. 
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
+  An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+  > [!NOTE]
+  > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -419,12 +419,12 @@ For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/
   
   ```
 
-    Where:  _\<c:\timerjobfile.txt\>_ is the location of the file that you created that lists all of the timer jobs associated with the Web application. 
+  Where:  _\<c:\timerjobfile.txt\>_ is the location of the file that you created that lists all of the timer jobs associated with the Web application. 
     
-     For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/Get-SPTimerJob?view=sharepoint-ps), [ForEach-Object](/powershell/module/microsoft.powershell.core/foreach-object), [Get-Content](/powershell/module/microsoft.powershell.management/get-content), and [Enable-SPTimerJob](/powershell/module/sharepoint-server/Enable-SPTimerJob?view=sharepoint-ps).
+  For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/Get-SPTimerJob?view=sharepoint-ps), [ForEach-Object](/powershell/module/microsoft.powershell.core/foreach-object), [Get-Content](/powershell/module/microsoft.powershell.management/get-content), and [Enable-SPTimerJob](/powershell/module/sharepoint-server/Enable-SPTimerJob?view=sharepoint-ps).
     
-    > [!NOTE]
-    > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
+  > [!NOTE]
+  > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
   
 ## See also
 <a name="proc2"> </a>

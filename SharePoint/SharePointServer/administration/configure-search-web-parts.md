@@ -78,14 +78,14 @@ You can use the Content Search Web Part in Quick Mode and create a query by sele
 |:-----|:-----|
 |Select a query  <br/> |Select a result source to specify which content should be searched. If you have shared a document library or list as catalog, the catalog result source will be displayed in this drop-down list. By default, this is set to **Recently changed items (System).** <br/> |
 |Restrict results by app  <br/> |Select an option from the list to restrict results to a specific site, library, list, or URL. By default, this is set to **Current site**.  <br/> |
-|Restrict by tag  <br/> |You can limit results to content that is tagged with a term from a term set.  <br/> Select one of the following options:  <br/> |||
+|Restrict by tag  <br/> |You can limit results to content that is tagged with a term from a term set.  <br/> Select one of the following options:  <br/> |
 |:-----|:-----|
 |Don't restrict by any tag  <br/> |Search results will not be limited based on tags (default).  <br/> |
 |Restrict by navigation term of current page  <br/> |Search results will be limited to content that is tagged with the term of the current page. The current tag is displayed as the last part of the friendly URL. This option is only meaningful for sites that use managed navigation.  <br/> |
-|Restrict by current and child navigation  <br/> |Search results will be limited to content that is tagged with the term of the current page (displayed as the last part of the friendly URL), and content that is tagged with sub-terms of the current page. This option is only meaningful for sites that use managed navigation.  <br/> > [!NOTE]> In a cross-site publishing scenario, this selection will only work when the result source selected in the **Select a query** section is the catalog result source that is created when a publishing site is connected to a catalog.           |
+|Restrict by current and child navigation  <br/> |Search results will be limited to content that is tagged with the term of the current page (displayed as the last part of the friendly URL), and content that is tagged with sub-terms of the current page. This option is only meaningful for sites that use managed navigation.  <br/> > [!NOTE]> In a cross-site publishing scenario, this selection will only work when the result source selected in the **Select a query** section is the catalog result source that is created when a publishing site is connected to a catalog.|
 |Restrict on this tag  <br/> |Search results will be limited to content that is tagged with the tag that you type inside the box.  <br/> |
    
-|
+
    
   - To create your own query by using Keyword Query Language (KQL), click **Switch to Advanced Mode**. For information about KQL, see [Keyword Query Language (KQL) syntax reference](/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference). When you configure the query in Advanced Mode, you can also use query variables. Query variables are placeholders for values that change dynamically depending on the context of the page when the page that contains the Content Search Web Part is being displayed. The correct information is inserted dynamically from the context the query is sent to the index. Examples of query variables are {User.Name}, which represents the name of the user who is viewing the page, or {searchBoxQuery}, which represents the query that a user typed in a search box. Select options as described in the following table:
     
@@ -131,7 +131,7 @@ You can use the Content Search Web Part in Quick Mode and create a query by sele
 |URL Rewriting  <br/> |Select if the URL rewrite to the item details page should continue to be relative for each catalog item as defined when you set up the catalog connection. If you select **Don't rewrite URLs**, the URLs for catalog items are pointed directly to the library item of the connected catalog.  <br/> |
 |Loading Behavior  <br/> |Select when the search results returned by the Content Search Web Part appear on the web page. The default option is **Sync option: Issue query from the server**. By using this loading behavior, queries are issued from the server, and the search results are included in the page response that is sent back from SharePoint Server. If you select **Async option: Issue query from the browser**, the queries will be issued from the end-users browser after the complete page is received. This option may be considered for secondary content on a page — for example Recommendations or Popular Items.  <br/> |
 |Priority  <br/> |Select the level that best describes the relative importance of content that is displayed by this Web Part in relation to other Search Web Parts. If SharePoint Server is running under heavy load, the queries will be run according to their priority.  <br/> |
-|Caching  <br/> |Select one Active Directory security group if you want search results to be cached for users in the group. By caching search results for a security group, you can reduce page reload time.  <br/> > [!NOTE]> You should only select a security group where search results are identical for all users in the group. For more information, see [this article](/archive/blogs/technet/helgesolheim/new-group-cache-for-the-content-search-web-part).           |
+|Caching  <br/> |Select one Active Directory security group if you want search results to be cached for users in the group. By caching search results for a security group, you can reduce page reload time.  <br/> > [!NOTE]> You should only select a security group where search results are identical for all users in the group. For more information, see [this article](/archive/blogs/technet/helgesolheim/new-group-cache-for-the-content-search-web-part).|          |
    
 10. On the **TEST** tab, you can preview the query that is sent by the Content Search Web Part. 
     
@@ -139,7 +139,7 @@ You can use the Content Search Web Part in Quick Mode and create a query by sele
 |:-----|:-----|
 |**Query text** <br/> | Shows the final query that will be run by the Content Search Web Part. It is based on the original query template where dynamic variables are substituted with current values. Other changes to the query may have to be made as part of query rules.  <br/> |
    
-    Click **Show more** to display additional information. 
+Click **Show more** to display additional information. 
     
 |||
 |:-----|:-----|
@@ -148,9 +148,9 @@ You can use the Content Search Web Part in Quick Mode and create a query by sele
 |Grouped by  <br/> |Shows the managed property on which search results should be grouped as defined on the **REFINERS** tab.  <br/> |
 |Applied query rules  <br/> |Shows which query rules are applied to the query.  <br/> |
    
-    The **Query template variables** section shows the query variables that will be applied to the query, and the values of the variables that apply to the current page. You can type other values to test the effect they will have on the query. Click the **Test Query** button to preview the search results. 
+The **Query template variables** section shows the query variables that will be applied to the query, and the values of the variables that apply to the current page. You can type other values to test the effect they will have on the query. Click the **Test Query** button to preview the search results. 
     
-    You can also test how the query works for different user segment terms. Click **Add user segment term** to add terms to be added to the query. Click the **Test query** button to preview the search results. 
+You can also test how the query works for different user segment terms. Click **Add user segment term** to add terms to be added to the query. Click the **Test query** button to preview the search results. 
     
 |||
 |:-----|:-----|
@@ -390,7 +390,7 @@ You can use the Recommended Items Web Part to show content recommendations based
 |URL Rewriting|Select if the URL rewrite to the item details page should continue to be relative for each catalog item as defined when you set up the catalog connection. If you select **Don't rewrite URLs**, the URLs for your catalog items are pointed directly to the library item of the connected catalog.|
 |Loading Behavior|Select when the search results returned by the Recommended Items Web Part should be displayed on the web page. The default option is **Display the page and web party simultaneously**. By using this loading behavior, queries are issued from the server, and the search results are included in the page response that is sent back from SharePoint Server. If you select **Display the page and web part independently**, the queries will be issued from the end-users browser after the complete page is received. This option may be considered for secondary content on a page — for example, Recommendations or Popular Items|
 |Priority|Select the level that best describes the relative importance of content that is displayed by this Web Part in relation to other Search Web Parts. If SharePoint Server is running under heavy load, the queries will be run according to their priority.|
-|Caching|Select one Active Directory security group if you want search results to be cached for users in the group. By caching search results for a security group, you can reduce page reload time.> [!NOTE]> You should only select a security group where search results are identical for all users in the group. For more information, see [this article](/archive/blogs/technet/helgesolheim/new-group-cache-for-the-content-search-web-part).           |
+|Caching|Select one Active Directory security group if you want search results to be cached for users in the group. By caching search results for a security group, you can reduce page reload time.> [!NOTE]> You should only select a security group where search results are identical for all users in the group. For more information, see [this article](/archive/blogs/technet/helgesolheim/new-group-cache-for-the-content-search-web-part).|
    
 9. On the **TEST** tab, you can preview the query that is sent by the Recommended Items Web Part. 
     
@@ -398,7 +398,7 @@ You can use the Recommended Items Web Part to show content recommendations based
 |:-----|:-----|
 |Query text  <br/> |Shows the content of the query template that is applied to the query.  <br/> |
    
-    Click **Show more** to display additional information. 
+Click **Show more** to display additional information. 
     
 |||
 |:-----|:-----|
@@ -406,7 +406,7 @@ You can use the Recommended Items Web Part to show content recommendations based
 |Grouped by  <br/> |Shows the managed property on which search results should be grouped as defined in the **REFINERS** tab.  <br/> |
 |Applied query rules  <br/> |Shows which query rules are applied to the query.  <br/> |
    
-    In the **Query template variables** section, the selections that you made on the BASIC tab are displayed. In addition, you can type additional values for testing as outlined in the following table. Click the **Test query** button to preview the search results. 
+In the **Query template variables** section, the selections that you made on the BASIC tab are displayed. In addition, you can type additional values for testing as outlined in the following table. Click the **Test query** button to preview the search results. 
     
 |||
 |:-----|:-----|
@@ -414,7 +414,7 @@ You can use the Recommended Items Web Part to show content recommendations based
 |{Scope}\*  <br/> |Shows the scope that you selected for the search results.  <br/> |
 |{ContentTypeID}\*  <br/> |Shows the content type that you selected for the search results.  <br/> |
    
-    You can also test how the query works for different user segment terms. Click **Add user segment term for testing** to add terms to be added to the query. Click the **Test query** button to preview the search results. 
+You can also test how the query works for different user segment terms. Click **Add user segment term for testing** to add terms to be added to the query. Click the **Test query** button to preview the search results. 
     
 |||
 |:-----|:-----|

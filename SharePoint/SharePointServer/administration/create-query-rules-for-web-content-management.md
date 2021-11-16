@@ -125,10 +125,10 @@ To add or edit a query rule, you must go to the **Manage query rules** page. Dep
 |**Result Type Commonly Clicked** <br/> |Select this option if you want the query rule to fire if other users frequently clicked a particular result type after they typed the same query.  <br/> |In the **Commonly clicked results match result type** menu, select a result type.  <br/> |In an Internet business scenario, you have a catalog of electronic products. Each product has a PDF datasheet. So when users query for a specific product, the search results will return two result types: one that links to the page that has the product details, and one that links to the PDF datasheet. You can create a query rule that will fire if the system over time recognizes that users frequently click the search result for the PDF datasheet. When you know the type of content the user is looking for, you can specify an action for this query rule.  <br/> |
 |**Advanced Query Text Match** <br/> |Select this option if you want to use a regular expression, a phrase, or a dictionary entry that will cause the query rule to fire.  <br/> |To match all phone numbers that are in a certain format, you specify a regular expression in the **Query matches this regular expression** box.  <br/> |To match all phone numbers that are in the format nnn-nnn-nnnn, you specify the regular expression "\(?(\d{3})\)?-?(\d{3})-(\d{4})".  <br/> |
    
-    To add conditions, click **Add Alternate Conditions**. 
+  To add conditions, click **Add Alternate Conditions**. 
     
-    > [!NOTE]
-    > The rule will fire when any condition is true. 
+  > [!NOTE]
+  > The rule will fire when any condition is true. 
   
 8. In the **Actions** section, specify the action to take when the query rule fires. Specify one of the following: 
     
@@ -186,7 +186,7 @@ When you configure the query condition for a result block, you can use query var
 |:-----|:-----|
 |**Query text** <br/> |Shows the final query that will be run by the Content Search Web Part. It is based on the original query template where dynamic variables are substituted with current values. Other changes to the query may have to be made as part of query rules.  <br/> |
    
-    Click **Show more** to display additional information. 
+  Click **Show more** to display additional information. 
     
 |||
 |:-----|:-----|
@@ -273,7 +273,7 @@ The ranking model calculates a ranking order of search results. You can change t
 |:-----|:-----|
 |**Query text** <br/> |Shows the final query that will be run by the Content Search Web Part. It is based on the original query template where dynamic variables are substituted with current values. Other changes to the query may have to be made as part of query rules.  <br/> |
    
-    Click **Show more** to display additional information. 
+  Click **Show more** to display additional information. 
     
 |||
 |:-----|:-----|

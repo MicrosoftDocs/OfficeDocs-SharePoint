@@ -144,8 +144,6 @@ Depending on the topology, the administrator experience can be significantly dif
 
 This section describes the different type of topologies that can be deployed for a SharePoint Server 2016 hosting environment.
   
-### 
-
 There three topologies available for hosting in SharePoint Server 2016 in an on-premises environment appear in the following table.
   
 ****

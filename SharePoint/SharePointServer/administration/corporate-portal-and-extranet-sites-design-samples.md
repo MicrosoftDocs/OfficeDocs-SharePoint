@@ -155,10 +155,7 @@ The rest of this article discusses each of the logical components that appear in
 <a name="section3"> </a>
 
 This section describes the topologies of the server farms that are illustrated in the design sample and discusses scaling beyond a single farm.
-  
-### 
 
-#### 
 
 #### Topology of the server farms
 
@@ -198,8 +195,6 @@ Table: Contrasting approaches for zone configurations in the design samples
 |User experience  <br/> |All users are prompted to choose the type of account they are using to log in.  <br/> |The authentication method is predetermined. Users are not required to select the account type by using a logon page.  <br/> |
    
 The following sections specifically discuss how authentication is incorporated by using the two different approaches.
-  
-### 
 
 #### Extranet with dedicated zones design sample
 
@@ -401,10 +396,6 @@ Although we recommend host-named site collections for most architectures, you sh
     
 For more information about host-named site collections, including a comparison with path-based site collections, see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment.md).
   
-### 
-
-#### 
-
 #### Design goals for site collections
 
 Site collections bridge logical architecture and information architecture. The design goals for site collections are to fulfill requirements for URL design and to create logical divisions of content. For each site collection, managed paths incorporate a second tier of top-level site collections. For more information about URL requirements and using managed paths, see [Zones and URLs](#section12) later in this article. Beyond the second tier of site collections, each site is a subsite. 
@@ -512,10 +503,6 @@ If you choose to associate site collections to specific content databases, you c
 3. Create the site collections. They are automatically added to the database.
     
 4. Set the status of all other databases back to **Ready**.
-    
-### 
-
-#### 
 
 #### Published intranet content
 
@@ -574,8 +561,6 @@ The design samples illustrate how to coordinate URLs across multiple sites withi
     
 - Port numbers are not included in URLs. In practice, port numbers are typically not used in production environments.
     
-### 
-
 #### Designing load-balanced URLs
 
 When you create a web application, you must choose a load-balanced URL to assign to the application. The URL that you choose applies to the Default zone. Additionally, you must create a load-balanced URL for each additional zone that you create within a web application. The load-balanced URL includes the protocol, scheme, hostname, and port, if used. The load-balanced URL must be unique across all web applications and zones. Consequently, each web application and each zone within each web application requires a unique URL across the design sample.

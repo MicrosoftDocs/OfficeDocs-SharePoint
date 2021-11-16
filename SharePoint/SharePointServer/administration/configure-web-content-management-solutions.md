@@ -21,7 +21,7 @@ description: "Learn how to install and configure SharePoint Server web content m
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
-## 
+
 
 The articles that are listed in the following table describe how to set up cross-site publishing features in a SharePoint Server environment. 
   
