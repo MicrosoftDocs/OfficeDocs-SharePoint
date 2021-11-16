@@ -19,7 +19,7 @@ description: "Learn how to configure the different Web Parts that use search tec
 
 # Configure Search Web Parts in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Web Parts that use search technology to show content in a publishing environment (referred to in this article as Search Web Parts) show content that was crawled and added to the search index, as described in "Understanding how content is added to and managed in the search index" in [Overview of cross-site publishing in SharePoint Server](overview-of-cross-site-publishing.md). These Web Parts have queries defined in them, and when users browse to a page that contains a Web Part that uses search technology, the Web Part issues the query automatically. The query result is then displayed in the Web Part. You can modify the query in the search Web Part to fit your content needs. 
   
@@ -28,7 +28,7 @@ Web Parts that use search technology to show content in a publishing environment
 <a name="BKMK_AvailableOOTRefiners"> </a>
 
 > [!NOTE]
->  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](../install/browser-support-planning-0.md)> [Accessibility guidelines in SharePoint](../accessibility-guidelines.md)> [Accessibility in SharePoint](/sharepoint/dev/general-development/accessibility-in-sharepoint)> [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](/windows/win32/wintouch/windows-touch-gestures-overview).
+>  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](../install/browser-support-planning-2016-2019.md)> [Accessibility guidelines in SharePoint](../accessibility-guidelines.md)> [Accessibility in SharePoint](/sharepoint/dev/general-development/accessibility-in-sharepoint)> [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](/windows/win32/wintouch/windows-touch-gestures-overview).
   
 There are many Search Web Parts available in SharePoint Server. These Web Parts have predefined queries, such as what type of content to search for, where to search for content, and how to show content. For information about different Search Web Parts, see "Plan to add search Web Parts to pages" in [Plan publishing sites for cross-site publishing in SharePoint Server](plan-sharepoint-publishing-sites-for-cross-site-publishing.md). Many of the Search Web Parts use result sources and have query rules that are applied to them. Result sources narrow the scope of search results that are retrieved. A query rule is a set of conditions that will cause the query to be changed in a specific way. For more information about result sources and query rules, see [Plan result sources and query rules](plan-search-for-sharepoint-cross-site-publishing-sites.md#BKMK_PlanResultSourcesAndQueryRules).
   
@@ -74,7 +74,7 @@ You can use the Content Search Web Part in Quick Mode and create a query by sele
     
    **Quick Mode (default)**
 
-|||
+|**Query options**|**Description**|
 |:-----|:-----|
 |Select a query  <br/> |Select a result source to specify which content should be searched. If you have shared a document library or list as catalog, the catalog result source will be displayed in this drop-down list. By default, this is set to **Recently changed items (System).** <br/> |
 |Restrict results by app  <br/> |Select an option from the list to restrict results to a specific site, library, list, or URL. By default, this is set to **Current site**.  <br/> |
@@ -94,7 +94,7 @@ You can use the Content Search Web Part in Quick Mode and create a query by sele
   
    **Advanced Mode**
 
-|||
+|**Query mode**|**Description**|
 |:-----|:-----|
 |Select a query  <br/> |Select a result source to specify which content should be searched.  <br/> Default result source is Local SharePoint Results (System).  <br/> |
 |Keyword filter  <br/> |You can use keyword filters to add query variables to your query. See [Query variables in SharePoint Server](../technical-reference/query-variables.md) for a list of available query variables.  <br/> You can select pre-defined query variables from the drop-down list, and then add them to the query by clicking **Add keyword filter**.  <br/> |
@@ -125,7 +125,7 @@ You can use the Content Search Web Part in Quick Mode and create a query by sele
     
 9. On the **SETTINGS** tab, specify the settings that are listed in the following table. 
     
-|||
+|**Settings**|**Description**|
 |:-----|:-----|
 |Query Rules  <br/> |Select whether to use Query Rules or not.  <br/> |
 |URL Rewriting  <br/> |Select if the URL rewrite to the item details page should continue to be relative for each catalog item as defined when you set up the catalog connection. If you select **Don't rewrite URLs**, the URLs for catalog items are pointed directly to the library item of the connected catalog.  <br/> |
@@ -245,7 +245,7 @@ When you add a Refinement Web Part, the name of the managed property that is ena
     
 7. Open the **CustomStrings.js** file. 
     
-8. Add one line to the file for each managed property that is enabled as a refiner for which you want to change the display name byusing the following syntax: 
+8. Add one line to the file for each managed property that is enabled as a refiner for which you want to change the display name by using the following syntax: 
     
      `"rf_RefinementTitle_ManagedPropertyName": "Sample Refinement Title for ManagedPropertyName"`
     

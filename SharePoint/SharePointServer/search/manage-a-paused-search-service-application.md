@@ -18,7 +18,7 @@ description: "Learn why the Search service application is paused and what you ca
 
 # Manage a paused Search service application in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Most operations that require the Search service application to be paused have to complete before the Search service application automatically resumes.
   

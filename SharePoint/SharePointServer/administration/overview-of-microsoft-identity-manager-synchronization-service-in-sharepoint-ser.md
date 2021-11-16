@@ -20,7 +20,7 @@ description: "Learn about the MIM Synchronization service that is used in a Shar
 
 # Overview of Microsoft Identity Manager Synchronization Service in SharePoint Servers 2016 and 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
   
 > [!IMPORTANT]
 > This article is only intended to introduce basic concepts and value of the Microsoft Identity Manager (MIM) Synchronization Service. > If you are planning to fully deploy and maintain a MIM Server, it is strongly recommended that you work with a consultant or a MIM specialist. 
