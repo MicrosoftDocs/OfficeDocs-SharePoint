@@ -182,13 +182,13 @@ When you configure the query condition for a result block, you can use query var
     
   - On the **TEST** tab, you can preview the query that is sent. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |**Query text** <br/> |Shows the final query that will be run by the Content Search Web Part. It is based on the original query template where dynamic variables are substituted with current values. Other changes to the query may have to be made as part of query rules.  <br/> |
    
   Click **Show more** to display additional information. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |**Query template** <br/> |Shows the content of the query template that is applied to the query.  <br/> |
 |**Query template variables** <br/> |Shows the query variables that will be applied to the query, and the values of the variables that apply to the current page. You can type other values to test the effect they will have on the query. Click the **Test Query** button to preview the search results.  <br/> |
@@ -246,7 +246,7 @@ The ranking model calculates a ranking order of search results. You can change t
     
   - On the **BASIC** tab, select options from the following lists to change ranked search results: 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |**Select a query** <br/> |Select a result source to specify which content should be searched.  <br/> |
 |**Keyword filter** <br/> |You can use keyword filters to add query variables to your query. See [Query variables in SharePoint Server](../technical-reference/query-variables.md) for a list of available query variables.  <br/> You can select pre-defined query variables from the drop-down list, and then add them to the query by clicking **Add keyword filter**.  <br/> |
@@ -269,13 +269,13 @@ The ranking model calculates a ranking order of search results. You can change t
     
   - On the **TEST** tab, you can preview the query. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |**Query text** <br/> |Shows the final query that will be run by the Content Search Web Part. It is based on the original query template where dynamic variables are substituted with current values. Other changes to the query may have to be made as part of query rules.  <br/> |
    
   Click **Show more** to display additional information. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |**Query template** <br/> |Shows the content of the query template that is applied to the query.  <br/> |
 |**Query template variables** <br/> |Shows the query variables that will be applied to the query, and the values of the variables that apply to the current page. You can type other values to test the effect they will have on the query. Click the **Test Query** button to preview the search results.  <br/> |

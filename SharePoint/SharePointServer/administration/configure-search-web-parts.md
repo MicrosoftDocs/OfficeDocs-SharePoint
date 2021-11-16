@@ -125,7 +125,7 @@ You can use the Content Search Web Part in Quick Mode and create a query by sele
     
 9. On the **SETTINGS** tab, specify the settings that are listed in the following table. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |Query Rules  <br/> |Select whether to use Query Rules or not.  <br/> |
 |URL Rewriting  <br/> |Select if the URL rewrite to the item details page should continue to be relative for each catalog item as defined when you set up the catalog connection. If you select **Don't rewrite URLs**, the URLs for catalog items are pointed directly to the library item of the connected catalog.  <br/> |
@@ -135,13 +135,13 @@ You can use the Content Search Web Part in Quick Mode and create a query by sele
    
 10. On the **TEST** tab, you can preview the query that is sent by the Content Search Web Part. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |**Query text** <br/> | Shows the final query that will be run by the Content Search Web Part. It is based on the original query template where dynamic variables are substituted with current values. Other changes to the query may have to be made as part of query rules.  <br/> |
    
 Click **Show more** to display additional information. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |Query template  <br/> |Shows the content of the query template that is applied to the query.  <br/> |
 |Refined by  <br/> |Shows the refiners applied to the query as defined on the **REFINERS** tab.  <br/> |
@@ -152,7 +152,7 @@ The **Query template variables** section shows the query variables that will be 
     
 You can also test how the query works for different user segment terms. Click **Add user segment term** to add terms to be added to the query. Click the **Test query** button to preview the search results. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |Query text  <br/> |Shows the final query that will be run by the Content Search Web Part. It is based on the original query template where dynamic variables are substituted with current values. Other changes to the query may have to be made as part of query rules.  <br/> |
    
@@ -371,7 +371,7 @@ You can use the Recommended Items Web Part to show content recommendations based
     
 6. On the **BASICS** tab, define your query by selecting options described in the following table. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |Get recommended items for  <br/> |From the drop-down list, select from which value recommendations should be displayed. In a catalog scenario, this will often be **A token from a URL**. If you select this option, you will also have to select which URL token you want to obtain recommendations for.  <br/> For example, let's say that you want to obtain recommendations for items in your catalog. You have a catalog item page where you display your catalog items, and the item number is part of your friendly URL — for example, www.contoso/audio/mp3/4010101. (4010101 represents the item number.) When you want to obtain recommendations for a token from the URL, you should select {URLToken.1} (4010101) from the second drop-down list.  <br/> |
 |Restrict results by app  <br/> |Use this drop-down list to specify a scope for the search results.  <br/> |
@@ -384,7 +384,7 @@ You can use the Recommended Items Web Part to show content recommendations based
     
 8. On the **SETTINGS** tab, specify the following: 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |Query Rules| Select whether to use Query Rules or not. |
 |URL Rewriting|Select if the URL rewrite to the item details page should continue to be relative for each catalog item as defined when you set up the catalog connection. If you select **Don't rewrite URLs**, the URLs for your catalog items are pointed directly to the library item of the connected catalog.|
@@ -394,13 +394,13 @@ You can use the Recommended Items Web Part to show content recommendations based
    
 9. On the **TEST** tab, you can preview the query that is sent by the Recommended Items Web Part. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |Query text  <br/> |Shows the content of the query template that is applied to the query.  <br/> |
    
 Click **Show more** to display additional information. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |Refined by  <br/> |Shows the refiners applied to the query as defined in the **REFINERS** tab.  <br/> |
 |Grouped by  <br/> |Shows the managed property on which search results should be grouped as defined in the **REFINERS** tab.  <br/> |
@@ -408,7 +408,7 @@ Click **Show more** to display additional information.
    
 In the **Query template variables** section, the selections that you made on the BASIC tab are displayed. In addition, you can type additional values for testing as outlined in the following table. Click the **Test query** button to preview the search results. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |{RecsURL}\*  <br/> |Shows the token you selected when specifying for which value recommendations should be displayed.  <br/> |
 |{Scope}\*  <br/> |Shows the scope that you selected for the search results.  <br/> |
@@ -416,7 +416,7 @@ In the **Query template variables** section, the selections that you made on the
    
 You can also test how the query works for different user segment terms. Click **Add user segment term for testing** to add terms to be added to the query. Click the **Test query** button to preview the search results. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |Query text  <br/> |Shows the final query that will be run by the Recommended Items Web Part. It is based on the original query template where dynamic variables are substituted with current values. Other changes to the query may have be made as part of query rules.  <br/> |
    
