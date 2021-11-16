@@ -114,7 +114,7 @@ Global navigation can be enabled and customized in the SharePoint app bar. Custo
 
 ### Determine the global navigation source depending on your home site’s configuration:
 
-If you haven’t set up your [home site](home-site-admin-center.md), do that first and if you are setting up a home site specifically to implement global navigation, review this guidance.
+If you haven’t set up your [home site](home-site.md), do that first and if you are setting up a home site specifically to implement global navigation, review this guidance.
 
 #### For home sites that are a hub, you have two source options:
 
