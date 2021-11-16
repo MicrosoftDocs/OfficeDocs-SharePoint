@@ -74,7 +74,7 @@ You can use the Content Search Web Part in Quick Mode and create a query by sele
     
    **Quick Mode (default)**
 
-|||
+|Value|Description|
 |:-----|:-----|
 |Select a query  <br/> |Select a result source to specify which content should be searched. If you have shared a document library or list as catalog, the catalog result source will be displayed in this drop-down list. By default, this is set to **Recently changed items (System).** <br/> |
 |Restrict results by app  <br/> |Select an option from the list to restrict results to a specific site, library, list, or URL. By default, this is set to **Current site**.  <br/> |
@@ -94,7 +94,7 @@ You can use the Content Search Web Part in Quick Mode and create a query by sele
   
    **Advanced Mode**
 
-|||
+|Value|Description|
 |:-----|:-----|
 |Select a query  <br/> |Select a result source to specify which content should be searched.  <br/> Default result source is Local SharePoint Results (System).  <br/> |
 |Keyword filter  <br/> |You can use keyword filters to add query variables to your query. See [Query variables in SharePoint Server](../technical-reference/query-variables.md) for a list of available query variables.  <br/> You can select pre-defined query variables from the drop-down list, and then add them to the query by clicking **Add keyword filter**.  <br/> |
