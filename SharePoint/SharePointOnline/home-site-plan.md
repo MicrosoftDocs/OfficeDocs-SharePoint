@@ -30,7 +30,7 @@ description: "Learn about how to plan, build, and launch the main landing site f
   
 A SharePoint home site provides a customized landing experience that reflects the organization’s brand, voice, and priorities. A home site also serves as the gateway to other portals in your organization’s intranet. Your organization needs a home site not only to provide the best intranet experience for viewers but also to take advantage of features like SharePoint global navigation and the many ways to integrate your intranet with Microsoft Teams by using [Viva Connections](https://www.microsoft.com/microsoft-viva).
 
-If you’ve already created the communication site and are ready to specify it as your home site now, learn how to [Set a site as your home site in the SharePoint admin center](home-site-admin-center.md).
+If you’ve already created the communication site and are ready to specify it as your home site now, learn how to [Set a site as your home site](home-site.md).
 
 
 **Use a SharePoint home site to:**
@@ -95,7 +95,7 @@ Before you get started planning and building your home site, review best practic
 
 ## Summary of how to get a home site for your organization
 
-Since home sites are the gateway to your intranet, you’ll want to prioritize content and resources that are relevant to most employees. Work with business owners and stakeholders to organize and align the flow of information and the navigational design. Then, use the [Page diagnostics for SharePoint tool](/microsoft-365/Enterprise/page-diagnostics-for-spo) to ensure to best viewing experience. Next, [set your communication site as a home site](/SharePoint/home-site-admin-center) in the SharePoint admin center. Finally, use the [Portal launch scheduler](/microsoft-365/enterprise/portallaunchscheduler) to plan the launch of your new site and make the site discoverable by adding links to key entry-points in the Microsoft 365 experience.
+Since home sites are the gateway to your intranet, you’ll want to prioritize content and resources that are relevant to most employees. Work with business owners and stakeholders to organize and align the flow of information and the navigational design. Then, use the [Page diagnostics for SharePoint tool](/microsoft-365/Enterprise/page-diagnostics-for-spo) to ensure to best viewing experience. Next, [set your communication site as a home site](/SharePoint/home-site) in the SharePoint admin center. Finally, use the [Portal launch scheduler](/microsoft-365/enterprise/portallaunchscheduler) to plan the launch of your new site and make the site discoverable by adding links to key entry-points in the Microsoft 365 experience.
 
 Before you get started planning your home site, [hear from the Microsoft product team on how to think](https://techcommunity.microsoft.com/t5/video-hub/build-and-launch-a-sharepoint-home-site-tips-and-tricks-from-the/m-p/1696758) about and approach the design of your organization’s home site. 
 <br>
@@ -129,7 +129,7 @@ When you've prepared a plan, you're ready to start creating the home site in Sha
 | ![image of an audience](media/icon-build-audience.png)   | **Apply audience targeting**| Next, turn on audience targeting on for the home site. By enabling audience targeting, specific content will be prioritized to specific audiences in navigational links, news, and certain web parts. Learn more about [how audience targeting works](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) and [how to apply it](https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) to navigational links, news, and web parts.|
 | ![image of a site](media/icon-build-flow.png)   | **Set up a page approval flow** | Then, make sure the home site is set up for regular content updates. Turn on content approval to ensure only high-quality content is published on the home site. Learn how to [turn on a page approval flow](https://support.microsoft.com/office/approval-flow-for-modern-pages-a8b2e689-d4a1-4639-8028-333c0ece30d9?ui=en-us&rs=en-us&ad=us).|
 | ![image of a two sites getting switched](media/icon-build-swap.png)   | **Replace the home site with the root site**  | Before you set a communication site as the home site, make the communication site the root site of your tenant. The root site for your organization is one of the sites that's provisioned automatically when you purchase and set up a Microsoft 365 plan. Make the home site with the root site to ensure home site features are fully active. Learn how to [make the root site the home site](/sharepoint/modern-root-site#replace-your-root-site).|
-| ![image of a house](media/icon-build-home.png)   | **Set the home site** | Next, [set the home site in the SharePoint admin center](/SharePoint/home-site-admin-center).|
+| ![image of a house](media/icon-build-home.png)   | **Set the home site** | Next, [set the home site](home-site.md).|
 | ![image of a map](media/icon-build-global.png)   | **Set up global navigation** | Then, enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Global navigation can only be customized from the home site’s home page.Learn how to [enable and customize global navigation](/SharePoint/sharepoint-app-bar).|
 | ![image of an approved site](media/icon-build-test.png)   | **Test site health and the viewing experience**  | Finally, review portal launch guidance and understand the main elements that will make sure your home site is healthy. A healthy home site optimizes performance to ensure the best possible viewing experience. Use the Page diagnostics for SharePoint tool to make sure the home page is healthy before sharing with end users. Learn more about [healthy portals](/sharepoint/portal-health) and using the [Page diagnostics tool for SharePoint](/microsoft-365/enterprise/page-diagnostics-for-spo).|
 
@@ -152,7 +152,7 @@ After you've set your home site, it’s time to plan the launch and make sure th
 
 **Q:** I have a new site that I want to use as my home site. What do I do?
 <br>
-As long as your site is a communication site, you can [set the site as a home site in the SharePoint admin center](/SharePoint/home-site-admin-center).
+As long as your site is a communication site, you can [set the site as a home site](home-site.md).
 
 **Q:** What’s the difference between a home site and the SharePoint start page?
 <br>
