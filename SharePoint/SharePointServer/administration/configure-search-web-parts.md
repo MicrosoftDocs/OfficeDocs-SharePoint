@@ -125,7 +125,7 @@ You can use the Content Search Web Part in Quick Mode and create a query by sele
     
 9. On the **SETTINGS** tab, specify the settings that are listed in the following table. 
     
-|Value|Description|
+| Value | Description |
 |:-----|:-----|
 |Query Rules  <br/> |Select whether to use Query Rules or not.  <br/> |
 |URL Rewriting  <br/> |Select if the URL rewrite to the item details page should continue to be relative for each catalog item as defined when you set up the catalog connection. If you select **Don't rewrite URLs**, the URLs for catalog items are pointed directly to the library item of the connected catalog.  <br/> |
