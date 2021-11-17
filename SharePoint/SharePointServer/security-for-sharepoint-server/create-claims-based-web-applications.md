@@ -208,6 +208,9 @@ Use the procedure in this section to create a new claims-based SharePoint Server
 <a name="section3"> </a>
 
 Use the procedure in this section to create a new classic-mode SharePoint Server web application using PowerShell.
+
+   > [!NOTE]
+   > Windows Classic authentication mode is not supported in Subscription Edition, see [New and improved features in SharePoint Server Subscription Edition](../what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition.md), for more information.
   
  **To create a classic-mode web application by using PowerShell**
   
