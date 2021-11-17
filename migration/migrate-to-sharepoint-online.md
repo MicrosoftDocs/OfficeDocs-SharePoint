@@ -42,9 +42,9 @@ Check out what's new and what is coming soon to [SharePoint Migration Tool (SPMT
 Migrating your file shares with Migration Manager lets you have a centralized way of connecting servers, creating tasks, and automatically load balancing your migration tasks. You're guided through the steps of migrating your file shares, from the setup of agents, the creation of tasks, and the final migration to Microsoft 365. You can specify global or task level settings, view all-up task progress, and download aggregated summary and task level reports.
 
 
-![Get started in file share migration](https://docs.microsoft.com/office/media/icons/get-started-blue.png)  **Get started!**  [Migrating File shares](mm-get-started.md)
+![Get started in file share migration](/office/media/icons/get-started-blue.png)  **Get started!**  [Migrating File shares](mm-get-started.md)
 
-![What's new in file share migration](https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.png)   [**What's new**](mm-whats-new.md)
+![What's new in file share migration](/office/media/icons/whats-new-megaphone-blue.png)   [**What's new**](mm-whats-new.md)
 
 ![Migrating file shares workflow](media/mm-flow-3box.png)
 
@@ -56,11 +56,11 @@ Migrating your file shares with Migration Manager lets you have a centralized wa
 
 Migrate your SharePoint Server sites and content to take advantage of the latest collaboration, intelligence, and security solutions in Microsoft 365. The modern experience features in Microsoft SharePoint are designed to be compelling, flexible, and more performant. Migrate your SharePoint Server 2010, 2013, and 2016 environments.
 
-![Get started SharePoint Server migration](https://docs.microsoft.com/office/media/icons/get-started-blue.png)  **Get started!**    [Migrate SharePoint Server to Microsoft 365](introducing-the-sharepoint-migration-tool.md)
+![Get started SharePoint Server migration](/office/media/icons/get-started-blue.png)  **Get started!**    [Migrate SharePoint Server to Microsoft 365](introducing-the-sharepoint-migration-tool.md)
 
  
 
-![What's new in SP migration](https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.png)  [**What's new**](new-and-improved-features-in-the-sharepoint-migration-tool.md)
+![What's new in SP migration](/office/media/icons/whats-new-megaphone-blue.png)  [**What's new**](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 
 ![Migrating SPMT workflow](media/spmt-flow-3box.png)
 
@@ -73,9 +73,9 @@ Are you migrating from another Cloud providers? The [Mover tool](https://mover.i
 - Azure Blob Storage
 - Google Cloud Storage
 
-![Get started SharePoint Server migration](https://docs.microsoft.com/office/media/icons/get-started-blue.png) **Get started!** [Mover migration tool](https://mover.io/)
+![Get started SharePoint Server migration](m/office/media/icons/get-started-blue.png) **Get started!** [Mover migration tool](https://mover.io/)
 
-![What's new in mover migration](https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.png)   [**What's new**](mover-release-notes.md)
+![What's new in mover migration]/office/media/icons/whats-new-megaphone-blue.png)   [**What's new**](mover-release-notes.md)
 
 
 
@@ -98,4 +98,4 @@ Are you migrating from another Cloud providers? The [Mover tool](https://mover.i
 >
 >**Mover** supports migration from over a dozen cloud service providers – including Box, Dropbox, Egnyte, and Google Drive – into OneDrive and SharePoint, enabling seamless file collaboration across Microsoft 365 apps and services, including the Office apps and Microsoft Teams.
 >
->Learn more:  [Microsoft acquires Mover to simplify and speed file migration to Microsoft 365](https://aka.ms/migration/news)
+>Learn more:  [Microsoft acquires Mover to simplify and speed file migration to Microsoft 365](https://blogs.microsoft.com/blog/2019/10/21/microsoft-acquires-mover-to-simplify-and-speed-file-migration-to-microsoft-365/)
