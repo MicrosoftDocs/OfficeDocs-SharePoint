@@ -1,5 +1,5 @@
 # [Migrate to Microsoft 365](migrate-to-sharepoint-online.md)
-## [What's new in Migration MAnager](mm-whats-new.md)
+## [What's new in Migration Manager](mm-whats-new.md)
 ## [What's new in SPMT](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 ## Migrate file shares
 ### [Overview](mm-get-started.md)
