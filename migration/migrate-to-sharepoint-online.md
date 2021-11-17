@@ -28,7 +28,7 @@ Moving to Microsoft 365? Let us help you migrate your content easily and securel
 
 >
 > **Got a minute?**
->![take our survey](https://docs.microsoft.com/office/media/icons/sign-up-blue.png)  Please take our <a href="https://microsoft.qualtrics.com/jfe/form/SV_5BeuymEC0Dnkn30" target="_blank">short survey about migrating to Microsoft 365</a>. We'd love to hear from you!
+>![take our survey](/office/media/icons/sign-up-blue.png)  Please take our <a href="https://microsoft.qualtrics.com/jfe/form/SV_5BeuymEC0Dnkn30" target="_blank">short survey about migrating to Microsoft 365</a>. We'd love to hear from you!
 >
 
 
@@ -73,7 +73,7 @@ Are you migrating from another Cloud providers? The [Mover tool](https://mover.i
 - Azure Blob Storage
 - Google Cloud Storage
 
-![Get started SharePoint Server migration](m/office/media/icons/get-started-blue.png) **Get started!** [Mover migration tool](https://mover.io/)
+![Get started SharePoint Server migration](/office/media/icons/get-started-blue.png) **Get started!** [Mover migration tool](https://mover.io/)
 
 ![What's new in mover migration]/office/media/icons/whats-new-megaphone-blue.png)   [**What's new**](mover-release-notes.md)
 
