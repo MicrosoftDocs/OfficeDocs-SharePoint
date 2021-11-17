@@ -44,7 +44,6 @@ Migrating your file shares with Migration Manager lets you have a centralized wa
 
 ![Get started in file share migration](/office/media/icons/get-started-blue.png)  **Get started!**  [Migrating File shares](mm-get-started.md)
 
-![What's new in file share migration](/office/media/icons/whats-new-megaphone-blue.png)   [**What's new**](mm-whats-new.md)
 
 ![Migrating file shares workflow](media/mm-flow-3box.png)
 
@@ -60,7 +59,6 @@ Migrate your SharePoint Server sites and content to take advantage of the latest
 
  
 
-![What's new in SP migration](/office/media/icons/whats-new-megaphone-blue.png)  [**What's new**](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 
 ![Migrating SPMT workflow](media/spmt-flow-3box.png)
 
@@ -75,7 +73,7 @@ Are you migrating from another Cloud providers? The [Mover tool](https://mover.i
 
 ![Get started SharePoint Server migration](/office/media/icons/get-started-blue.png) **Get started!** [Mover migration tool](https://mover.io/)
 
-![What's new in mover migration]/office/media/icons/whats-new-megaphone-blue.png)   [**What's new**](mover-release-notes.md)
+![What's new in Mover migration]/office/media/icons/whats-new-megaphone-blue.png)   [**What's new**](mover-release-notes.md)
 
 
 
