@@ -35,8 +35,9 @@ Moving to Microsoft 365? Let us help you migrate your content easily and securel
 
 ### What's new
 
-Check out what's new and what is coming soon to [Migration Manager](mm-whats-new.md).
-Check out what's new and what is coming soon to [SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md).
+- Check out what's new and coming soon to [Migration Manager](mm-whats-new.md).
+
+- Check out what's new and coming soon to [SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 
 ## Migrate File Shares
 Migrating your file shares with Migration Manager lets you have a centralized way of connecting servers, creating tasks, and automatically load balancing your migration tasks. You're guided through the steps of migrating your file shares, from the setup of agents, the creation of tasks, and the final migration to Microsoft 365. You can specify global or task level settings, view all-up task progress, and download aggregated summary and task level reports.
