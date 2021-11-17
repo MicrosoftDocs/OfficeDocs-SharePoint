@@ -31,6 +31,10 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 - **Egnyte migrations**.  Migrate your Egnyte content to Microsoft 365.
 - **Tag support**.  A new tags feature is coming soon to allow you to sort, organize, and navigate through a large quantity of sources and users to find what you need. 
 
+
+## November
+- **Fix.** Reporting for scans and migrations with more than 40,000 records were failing. This has been fixed. 
+
 ## September
 
 - **New feature**.  A "Reinstall recommended" message displays detailed information as to why it is needed. 
