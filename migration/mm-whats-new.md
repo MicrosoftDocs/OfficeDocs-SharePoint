@@ -43,7 +43,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 - **Feature Improvement**  The error messages during agent installation have been improved.
 - **Fix.** Before, if the destination cross-geo site did not exist, the migration would fail. Fixed.
 - **Fix.**  Before, if the agent app and agent service were both installed on the same computer, the upgrader would always start the agent app after the agent service was updated. Fixed.
-- **Fix.** If the agent service and the agent app were installed on the same computer, file share migration tasks would fail. Fixed.
+- **Fix.** If the agent service and the agent app are installed on the same computer, file share migration tasks would fail. Fixed.
 - **Deprecated.** Several task reports have been deprecated, including the *performance recommendation.csv* report, as they contained inaccurate or unnecessary information. Users should use the customer-facing dashboard in Migration Manager for performance analysis and improvement recommendations.
 
 
@@ -63,7 +63,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 ## June 2021
 
 - **Scan file shares (preview).**  Scan and view your sources for migration readiness. Learn more: [Migration Manager Scan (preview)](mm-scan.md)
-- **Agent app mode**. Install agent on non-domain joined computers (app mode). You now haave the option of installing the Migration Manager agent on non-domain joined computers using an agent app.
+- **Agent app mode**. Install agent on non-domain joined computers (app mode). You now have the option of installing the Migration Manager agent on non-domain joined computers using an agent app.
 
 ## May 2021
 
