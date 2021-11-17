@@ -100,7 +100,7 @@ The migration task generates workflow migration report as WorkflowMigrationRepor
 
 After the migration has completed, the flow owner must sign in to Power Automate to turn on the migrated flows.
 
-1.	Sign in Power Automate
+1.	Sign in to Power Automate.
 2.	Navigate to **Solutions**, choose the latest one matching “Solution” in migration report.
 3.	Edit connection references. Create new connection if there is no existing connection found. Pick an existing connection to a connection reference is recommended.
  
