@@ -34,6 +34,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## November
 - **Fix.** Reporting for scans and migrations with more than 40,000 records were failing. This has been fixed. 
+- **New feature.**  You can now bulk upload your Google drives using a comma-separated (CSV) file. 
 
 ## September
 
