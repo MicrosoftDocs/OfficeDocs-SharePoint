@@ -13,7 +13,7 @@ ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0dea3ea8-5a2c-4ae1-b96e-f74a5984e340
-description: "Learn how to plan to use refiners for faceted navigation in SharePoint Server 2016."
+description: "Learn how to plan to use refiners for faceted navigation in SharePoint Server 2016 - Part I."
 ---
 
 # Stage 12: Plan to use refiners for faceted navigation in SharePoint Server - Part I

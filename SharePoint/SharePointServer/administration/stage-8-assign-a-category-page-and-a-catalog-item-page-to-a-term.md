@@ -144,7 +144,7 @@ The friendly URL appears in the **Configure Friendly URL for this term** section
   
 Similarly, when you select "Car audio," you'll see the friendly URL for this page.
   
-![Configure Friendly URL](../media/OTCSP_FURLCarAudio.png)
+![Configure Friendly URL for Car](../media/OTCSP_FURLCarAudio.png)
   
 If you want to change a friendly URL, for example from "audio" to "audio players," you should change the actual term itself. That way, the friendly URL and the term that is used to tag your content will remain consistent.
   
