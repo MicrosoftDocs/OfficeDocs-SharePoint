@@ -92,7 +92,7 @@ From an elevated Command Prompt, run the following to create and install the cer
 certreq -new request.inf
 certutil -store My "sts.contoso.com"
 ````
-copy the SerialNumber output from the second command and use it in the following command. Replace <SerialNumber> with the actual value.
+copy the SerialNumber output from the second command and use it in the following command. Replace \<SerialNumber\> with the actual value.
   
 ```
 certutil -exportPFX -p "P@ssw0rd1!" CA <SerialNumber> C:\sts.pfx
