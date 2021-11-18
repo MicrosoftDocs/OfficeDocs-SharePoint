@@ -70,8 +70,8 @@ Verify that you have the following memberships:
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin). 
+  > [!NOTE]
+  > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin). 
   
 1. From a PowerShell command prompt, type the following command.
     
@@ -79,8 +79,8 @@ Verify that you have the following memberships:
   Disconnect-SPConfigurationDatabase 
   ```
 
-    > [!NOTE]
-    > This cmdlet only removes the **local SharePoint server** from the SharePoint farm. It can't remove remote SharePoint servers or database servers from the SharePoint farm. 
+  > [!NOTE]
+  > This cmdlet only removes the **local SharePoint server** from the SharePoint farm. It can't remove remote SharePoint servers or database servers from the SharePoint farm. 
   
 #### Remove a server from a SharePoint farm by using the PSConfig.exe command-line tool
 <a name="RemovePSConfig"> </a>

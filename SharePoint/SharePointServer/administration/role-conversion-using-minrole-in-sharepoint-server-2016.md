@@ -89,7 +89,7 @@ Role conversion can't convert a server from a role hosting Search to a role that
   Set-SPServer -Identity <server name> -Role <server role>
   ```
 
-    Where:
+  Where:
     
   - \<server name\> is the server to change.
     

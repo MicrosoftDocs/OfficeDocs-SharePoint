@@ -124,7 +124,7 @@ Suddenly, our "Audio" page is looking like it has been to one of those makeover 
   
 Now our "Audio" page is looking really good. By using the paging arrows, we can easily browse through the different items in the "Audio" category.
     
-     ![Audio Paging](../media/OTCSP_AudioPaging.png)
+![Audio Paging](../media/OTCSP_AudioPaging.png)
   
 Now that our category page has a Contoso look, the next task is to apply display templates to the CSWP on our catalog item page.
   
