@@ -447,10 +447,10 @@ To verify that the alias name you chose for your CNAME record is resolving to th
   
   ```
 
-    The command prompt should return the IP address of the SharePoint farm that's specified in the CNAME record. If not, verify that the fully qualified domain name of the SharePoint farm is correctly specified in the CNAME record and then repeat these verification steps.
+The command prompt should return the IP address of the SharePoint farm that's specified in the CNAME record. If not, verify that the fully qualified domain name of the SharePoint farm is correctly specified in the CNAME record and then repeat these verification steps.
     
-    > [!NOTE]
-    > If the  `ping` command is blocked on the network, try using either the  `tracert -4` or the  `pathping -4` command instead. 
+> [!NOTE]
+> If the  `ping` command is blocked on the network, try using either the  `tracert -4` or the  `pathping -4` command instead. 
   
 ## Create and configure a target application for the SSL certificate in SharePoint in Microsoft 365
 <a name="configurespo"> </a>
