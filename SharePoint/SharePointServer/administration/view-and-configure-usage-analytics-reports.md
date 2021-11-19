@@ -116,7 +116,7 @@ The **Recent** time period is defined by the *RecentPopularityTimeframe* propert
 
 *EventTypeId* is the numeric [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) of the usage event that we want to change. *TimeFrame* is the new time period we want to set for the usage event. 
     
-    In the following example, to change the *Views* **Recent** time to a week, enter *1* and *7*. 
+In the following example, to change the *Views* **Recent** time to a week, enter *1* and *7*. 
     
    ![Set Recent to 7](../media/OTCSP_SetRecentTo7.png)
   

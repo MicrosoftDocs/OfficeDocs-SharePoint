@@ -158,7 +158,7 @@ select * from [WSS_Logging].[dbo].[AdministrativeActions_Partition31]
 You can also retrieve Administrative Actions logs using the Windows PowerShell cmdlet, ** Merge-SPUsageLog **. 
   
 > [!IMPORTANT]
-> Remote cmdlet execution must be enabled to use **Merge-SPUsageLog**. To configure the computer to receive remote commands, see [Enable-PSRemoting](/powershell/module/Microsoft.PowerShell.Core/Enable-PSRemoting?view=powershell-5.1). 
+> Remote cmdlet execution must be enabled to use **Merge-SPUsageLog**. To configure the computer to receive remote commands, see [Enable-PSRemoting](/powershell/module/Microsoft.PowerShell.Core/Enable-PSRemoting). 
   
 The **Merge-SPUsageLog** cmdlet gathers, filters, and aggregates logs based on the your specified criteria. We recommend that you filter by using the StartTime and EndTime parameters to optimize performance of this cmdlet. 
   
