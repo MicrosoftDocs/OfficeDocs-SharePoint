@@ -65,9 +65,8 @@ To complete the configuration steps you'll need these items:
 
 If you already completed step 1 when you configured a different hybrid solution, skip that step and go to the next.
   
-|||
-|:-----|:-----|
 |Step  <br/> |Description  <br/> |
+|:-----|:-----|
 |**1. [Configure Microsoft 365 for SharePoint hybrid](./configure-office-365-for-sharepoint-hybrid.md)** <br/> |Configure your Microsoft 365 organization for a hybrid environment, including registering your domain, configuring UPN suffixes, and synchronizing your on-premises user accounts with Microsoft 365.  <br/> |
 |**2. [Create a cloud Search service application in SharePoint Server](configure-cloud-hybrid-searchroadmap.md#BKMK_CreateCloudSSA)** <br/> |Run the Hybrid Picker wizard on the application farm that hosts the SharePoint ServerCentral Administration website.  <br/> Alternatively, run the **CreateCloudSSA.ps1** PowerShellscript  <br/> |
 |**3. [Connect your cloud Search service application to your Microsoft 365 organization](configure-cloud-hybrid-searchroadmap.md#BKMK_ConnectCloudSSAToO365)** <br/> |If you used the Hybrid Picker wizard to create a cloud Search service application, skip this step. The Hybrid Picker automatically connected your environments.  <br/> Otherwise, run the **Onboard-CloudHybridSearch.ps1** PowerShell script to onboard your cloud SSA and Microsoft 365 organization to cloud hybrid search. The script sets up the cloud SSA to interact with the Microsoft 365 organization and also sets up server-to-server authentication.  <br/> |
