@@ -98,7 +98,7 @@ There are also four main aspects to every Business Connectivity Services solutio
 |:-----|:-----|:-----|
 |Set permissions on any object contained in the BDC Metadata Store via propagation  <br/> |SetPermissions  <br/> |The BDC Metadata Store  <br/> |
    
-    **The model** A model is a XML file that contains sets of descriptions of one or more external content types, the related external systems, and information that is specific to the environment, such as authentication properties. 
+**The model** A model is a XML file that contains sets of descriptions of one or more external content types, the related external systems, and information that is specific to the environment, such as authentication properties. 
     
    **Table: Mapping permissions on the model**
 
@@ -110,7 +110,7 @@ There are also four main aspects to every Business Connectivity Services solutio
 |Import a model  <br/> |Edit  <br/> |The BDC Metadata Store  <br/> |
 |Export a model  <br/> |Edit  <br/> |The model and all external systems in the model  <br/> |
    
-    **The external system in the BDC Metadata Store** An external system is the metadata definition of a supported source of data that can be modeled, such as a database, web service, or .NET connectivity assembly. 
+**The external system in the BDC Metadata Store** An external system is the metadata definition of a supported source of data that can be modeled, such as a database, web service, or .NET connectivity assembly. 
     
    **Table: Mapping permissions on the external system in the BDC Metadata Store**
 
@@ -120,7 +120,7 @@ There are also four main aspects to every Business Connectivity Services solutio
 |Edit an external system  <br/> |Edit  <br/> |The external system object  <br/> |
 |Set permissions on the external system  <br/> |SetPermissions  <br/> |The external system object  <br/> |
    
-    **External content type** An external content type is a reusable collection of metadata that defines a set of data from one or more external systems, the operations available on that data, and connectivity information related to that data. 
+**External content type** An external content type is a reusable collection of metadata that defines a set of data from one or more external systems, the operations available on that data, and connectivity information related to that data. 
     
    **Table: Mapping permissions on the external content type**
 
@@ -131,7 +131,7 @@ There are also four main aspects to every Business Connectivity Services solutio
 |Create lists of the external content type  <br/> |Selectable in clients  <br/> |The external content type  <br/> |
 |Set permissions on the external content type  <br/> |SetPermissions  <br/> |The external content type  <br/> |
    
-    **The method** A Business Data Connectivity method is an XML definition of how Business Connectivity Services can interact with an external data source. 
+**The method** A Business Data Connectivity method is an XML definition of how Business Connectivity Services can interact with an external data source. 
     
    **Table: Mapping permissions on the method**
 
@@ -140,7 +140,7 @@ There are also four main aspects to every Business Connectivity Services solutio
 |Edit a method  <br/> |Edit  <br/> |The method  <br/> |
 |Set permissions on a method  <br/> |SetPermissions  <br/> |The method  <br/> |
    
-    **The method instance** A method instance describes, for a particular method, how to use a method by using a specific set of default values. 
+**The method instance** A method instance describes, for a particular method, how to use a method by using a specific set of default values. 
     
    **Table: Mapping permissions on the method instance**
 
