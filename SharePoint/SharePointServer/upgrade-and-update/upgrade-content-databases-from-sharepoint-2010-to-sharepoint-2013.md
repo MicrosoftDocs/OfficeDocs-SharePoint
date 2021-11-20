@@ -27,13 +27,13 @@ When you upgrade from SharePoint 2010 Products to SharePoint 2013, you must use 
   
 This article does not provide steps for how to upgrade a site collection. The process to upgrade site collections is separate from the process for upgrading the databases. For steps to upgrade a site collection, see [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md).
   
-**Phase 4 of the upgrade process: Upgrade content databases**
+**Phase 4 of the upgrade process: Upgrade content databases:**
 
 ![Stages in upgrade process for SharePoint 2013](../media/77510e88-3b41-4f68-ab89-53e11566efeb.png)
   
-| | |
+|Phase|Description|
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the fourth phase in the process to upgrade SharePoint 2010 Products data and sites to SharePoint 2013. The process includes the following phases that must be completed in order:  <br/> Create the SharePoint 2013 farm for a database attach upgradeCopy databases to the new farm for upgrade to SharePoint 2013Upgrade service applications to SharePoint 2013Upgrade content databases from SharePoint 2010 to SharePoint 2013  (this phase) Upgrade a site collection to SharePoint 2013For an overview of the whole process, see [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013.md) and the Upgrade Process model [Download the upgrade process model](https://go.microsoft.com/fwlink/p/?LinkId=255047)| .  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png) | This is the fourth phase in the process to upgrade SharePoint 2010 Products data and sites to SharePoint 2013. The process includes the following phases that must be completed in order:  <br/> Create the SharePoint 2013 farm for a database attach upgradeCopy databases to the new farm for upgrade to SharePoint 2013Upgrade service applications to SharePoint 2013Upgrade content databases from SharePoint 2010 to SharePoint 2013  (this phase) Upgrade a site collection to SharePoint 2013For an overview of the whole process, see [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013.md) and the Upgrade Process model [Download the upgrade process model](https://go.microsoft.com/fwlink/p/?LinkId=255047)|
    
 > [!IMPORTANT]
 > This article applies to both SharePoint Foundation 2013 and SharePoint 2013. 
@@ -126,7 +126,7 @@ You can also use the **Get-SPWeb** Microsoft PowerShell cmdlet in your SharePoin
   
 Before you attach the content databases to the web applications, use the **Test-SPContentDatabase** Microsoft PowerShell cmdlet to verify that you have all the custom components that you must have for that database. 
   
- **To verify custom components are available by using PowerShell**
+ **To verify custom components are available by using PowerShell:**
   
 1. Verify that you have the following memberships:
     
@@ -181,7 +181,7 @@ Ensure that the account that you use to attach the databases is a member of the 
 > [!NOTE]
 > One frequent cause of failures during upgrade is that the environment is missing customized features, solutions, or other elements. Be sure that all custom elements from the SharePoint 2010 Products environment are installed on your front-end web servers in the SharePoint 2013 environment before you start the upgrade process. Use the **test-spcontentdatabase** Microsoft PowerShell cmdlet to identify custom elements that your sites might be missing. 
   
- **To attach a content database to a web application by using PowerShell**
+ **To attach a content database to a web application by using PowerShell:**
   
 1. Verify that you have the following memberships:
     
@@ -228,7 +228,7 @@ After you attach a database, you can use the **Upgrade Status** page in Central 
     
 - In Central Administration, click **Upgrade and Migration**, and then click **Check upgrade status**.
     
- **To view the upgrade log file**
+ **To view the upgrade log file:**
   
 - The upgrade error log file and the upgrade log file are located at %COMMONPROGRAMFILES%\Microsoft Shared\web server extensions\15\LOGS. The upgrade log file contains more detailed information than the upgrade error log. Be sure to check the summary at the bottom of the log files for information about the overall status and a count of the warnings and errors in the file.
     
@@ -249,7 +249,7 @@ After you attach a database, you can use the **Upgrade Status** page in Central 
     > [!NOTE]
     > The format of the upgrade log for SharePoint 2013 is based on the same structure as ULS. > The upgrade log file includes the name of the content database being upgraded. 
   
- **To view upgrade status for all databases by using PowerShell**
+ **To view upgrade status for all databases by using PowerShell:**
   
 1. Verify that you have the following memberships:
     
@@ -321,14 +321,14 @@ After you upgrade the databases, you might want to perform additional steps to m
     
 After your farm is ready, you can enable access to users, and then start to upgrade site collections. For information about how to upgrade site collections, see [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md).
   
-| | |
+|Phase|Description|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the fourth phase in the process to upgrade SharePoint 2010 Products data and sites to SharePoint 2013.  <br/>  Next phase: [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013.md).  <br/> |
    
 ## See also
 <a name="Next"> </a>
 
-#### Other Resources
+### Other Resources
 
 [Checklist for database-attach upgrade (SharePoint 2013)](checklist-for-database-attach-upgrade-sharepoint-2013.md)
   

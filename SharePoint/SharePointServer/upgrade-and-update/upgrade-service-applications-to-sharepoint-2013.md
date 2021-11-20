@@ -25,18 +25,18 @@ description: "Upgrade service applications (Business Connectivity Services, Mana
   
 When you upgrade from SharePoint 2010 Products to SharePoint 2013, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint 2013 environment, and copied the content and service application databases, you can upgrade the service applications to SharePoint 2013. This article contains the steps that you take to upgrade the service applications.
   
-**Phase 3 of the upgrade process: Upgrade service applications**
+**Phase 3 of the upgrade process: Upgrade service applications:**
 
 ![Stages in upgrade process for SharePoint 2013](../media/77510e88-3b41-4f68-ab89-53e11566efeb.png)
   
-|||
+|Phase|Description|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the third phase in the process to upgrade SharePoint 2010 Products data and sites to SharePoint 2013. The process includes the following phases that must be completed in order:  <br/> Create the SharePoint 2013 farm for a database attach upgradeCopy databases to the new farm for upgrade to SharePoint 2013Upgrade service applications to SharePoint 2013  (this phase) Upgrade content databases from SharePoint 2010 to SharePoint 2013Upgrade a site collection to SharePoint 2013For an overview of the whole process, see [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013.md) and the Upgrade Process model [Download the upgrade process model](https://go.microsoft.com/fwlink/p/?LinkId=255047).  <br/> |
    
 > [!IMPORTANT]
 > Although this article applies to both SharePoint Foundation 2013 and SharePoint 2013, the sections about how to upgrade service applications apply only to SharePoint 2013. (The exception is the section about how to upgrade the Business Data Connectivity service application which applies to SharePoint Foundation 2013 and SharePoint 2013). 
   
-**Watch the SharePoint 2013 Upgrade: Phase 3 video**
+**Watch the SharePoint 2013 Upgrade: Phase 3 video:**
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/9651647c-a16e-4d0c-8b5b-2b323cb6133f?autoplay=false]
 ## Before you begin
@@ -94,7 +94,7 @@ The following sections provide procedures to complete these steps.
 
 The following procedures start the service instances.
   
- **To start service application instances from Central Administration**
+ **To start service application instances from Central Administration:**
   
 1. Start the SharePoint Central Administration website.
     
@@ -112,7 +112,7 @@ The following procedures start the service instances.
     
 The Search service instance must be started by using PowerShell because you cannot start it from Central Administration unless a Search Service application already exists.
   
- **To start the Search service instance by using PowerShell**
+ **To start the Search service instance by using PowerShell:**
   
 1. Verify that you have the following memberships:
     
@@ -148,7 +148,7 @@ For more information, see Get-SPEnterpriseSearchServiceInstance and Start-SPServ
 
 To upgrade the Secure Store service application, you create the new service application and upgrade the database, create a proxy and add it to the default proxy group, and then restore the passphrase from the previous environment.
   
- **To upgrade the Secure Store service application by using PowerShell**
+ **To upgrade the Secure Store service application by using PowerShell:**
   
 1. Verify that you have the following memberships:
     
@@ -171,11 +171,15 @@ To upgrade the Secure Store service application, you create the new service appl
   $applicationPool = Get-SPServiceApplicationPool -Identity 'SharePoint Web Services default'
   ```
 
-    Where:
+  ```
+  Where:
+  ```
     
   -  _SharePoint Web Services default_ is the name of the service application pool that will contain the new service applications. This is the default service application pool. You can specify a different service application pool. 
     
-    This cmdlet sets the service application pool as a variable that you can use again in the cmdlets that follow. If you have multiple application pools and have to use a different application pool for a particular service application, repeat this step in the procedure to create each service application to use the appropriate application pool.
+  ```
+  This cmdlet sets the service application pool as a variable that you can use again in the cmdlets that follow. If you have multiple application pools and have to use a different application pool for a particular service application, repeat this step in the procedure to create each service application to use the appropriate application pool.
+  ```
     
 4. To upgrade the Secure Store service application, at the Microsoft PowerShell command prompt, type the following command:
     
@@ -246,7 +250,7 @@ To upgrade the Business Data Connectivity service application, you create the ne
 > [!NOTE]
 > The Business Data Connectivity service application is available in both SharePoint Foundation 2013 and SharePoint 2013. 
   
- **To upgrade the Business Data Connectivity service application by using PowerShell**
+ **To upgrade the Business Data Connectivity service application by using PowerShell:**
   
 1. Verify that you have the following memberships:
     
@@ -299,7 +303,7 @@ To upgrade the Business Data Connectivity service application, you create the ne
 
 To upgrade the Managed Metadata service application, you create the new service application and upgrade the database, and then create a proxy and add it to the default proxy group. You must upgrade the Managed Metadata service application before you can upgrade the User Profile service application.
   
- **To upgrade the Managed Metadata service application by using PowerShell**
+ **To upgrade the Managed Metadata service application by using PowerShell:**
   
 1. Verify that you have the following memberships:
     
@@ -376,7 +380,7 @@ To upgrade the User Profile service application, you create the new service appl
 > [!NOTE]
 > You must upgrade the Managed Metadata service application before you can upgrade the User Profile service application. 
   
- **To upgrade the User Profile service application by using PowerShell**
+ **To upgrade the User Profile service application by using PowerShell:**
   
 1. Verify that you have the following memberships:
     
@@ -440,8 +444,10 @@ To upgrade the User Profile service application, you create the new service appl
   New-SPProfileServiceApplicationProxy -Name ProxyName -ServiceApplication $upa -DefaultProxyGroup
   ```
 
-    Where:
-    
+  ```
+  Where:
+  ```
+  
   -  _ProxyName_ is the proxy name that you want to use. 
     
   - $upa is the variable that you set earlier to identify the new User Profile service application.
@@ -455,7 +461,7 @@ To upgrade the User Profile service application, you create the new service appl
     
 After you have created the User Profile Service service application, you can start the User Profile Synchronization service.
   
- **Start the User Profile Synchronization service**
+ **Start the User Profile Synchronization service:**
   
 1. Start the SharePoint Central Administration website.
     
@@ -469,7 +475,7 @@ After you have created the User Profile Service service application, you can sta
     
 After you have started the User Profile Synchronization service, you must import the Microsoft Identity Integration Server Key (MIIS) encryption key. Import this key to the following directory: < _root directory drive_>\Program Files\Microsoft Office Servers\15.0\Synchronization Service\Bin.
   
- **To import the encryption key for User Profile service application**
+ **To import the encryption key for User Profile service application:**
   
 1. Verify that you have the following memberships:
     
@@ -501,7 +507,7 @@ For more information, see [Install a software update (SharePoint Server 2010)](.
 
 To upgrade the PerformancePoint Services service application, you create the new service application and upgrade the database, and then create a proxy and add it to the default proxy group. 
   
- **To upgrade the PerformancePoint Services service application by using PowerShell**
+ **To upgrade the PerformancePoint Services service application by using PowerShell:**
   
 1. Verify that you have the following memberships:
     
@@ -536,8 +542,10 @@ To upgrade the PerformancePoint Services service application, you create the new
   $pps = New-SPPerformancePointServiceApplication -Name 'PerformancePoint Service' -ApplicationPool $applicationPool -DatabaseName 'PerformancePoint Service Application_DB'
   ```
 
-    Where:
-    
+  ```
+  Where:
+  ```
+
   -  _PerformancePoint Service_ is the name that you want to give the new PerformancePoint Services service application. 
     
   - $applicationpool is the variable that you set earlier to identify the service application pool to use.
@@ -578,7 +586,7 @@ To upgrade the Search service application, you create the new service applicatio
 > [!NOTE]
 > This section applies to only SharePoint 2013. Although SharePoint Foundation 2013 includes search functionality, it is not the same Search service application that is in SharePoint 2013 and it cannot be upgraded. 
   
- **To upgrade the Search service application by using PowerShell**
+ **To upgrade the Search service application by using PowerShell:**
   
 1. Verify that you have the following memberships:
     
@@ -728,7 +736,7 @@ For more information, see Get-SPServiceApplicationProxyGroup.
   
 Now that the service applications are upgraded, you can start the process to upgrade the content databases. The first step in that process is to create the web applications that are needed for each content database.
   
-|||
+|Phase|Description|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the third phase in the process to upgrade SharePoint 2010 Products data and sites to SharePoint 2013.  <br/>  Next phase: [Upgrade content databases from SharePoint 2010 to SharePoint 2013](upgrade-content-databases-from-sharepoint-2010-to-sharepoint-2013.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013.md).  <br/> |
    
