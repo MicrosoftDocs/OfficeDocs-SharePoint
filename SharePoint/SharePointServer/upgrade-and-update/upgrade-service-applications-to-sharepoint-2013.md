@@ -431,9 +431,11 @@ To upgrade the User Profile service application, you create the new service appl
     
   -  _User Profile Service Application_SyncDB_ is name of the User Profile service application Sync database that you want to upgrade. 
     
-    > [!NOTE]
-    > The **SocialDBName** and **ProfileSyncDBName** parameters are optional. Use these parameters if you have Social and Sync databases that you want to upgrade. If you do not specify these parameters, new Social and Sync databases are created for you. 
-  
+  ```
+  > [!NOTE]
+  > The **SocialDBName** and **ProfileSyncDBName** parameters are optional. Use these parameters if you have Social and Sync databases that you want to upgrade. If you do not specify these parameters, new Social and Sync databases are created for you. 
+  ```
+
    This command sets a variable, $upa, that you use when you create the proxy later.
     
    For more information, see [New-SPProfileServiceApplication](/powershell/module/sharepoint-server/New-SPProfileServiceApplication). 
