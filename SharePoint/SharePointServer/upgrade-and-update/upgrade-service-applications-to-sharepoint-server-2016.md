@@ -24,11 +24,11 @@ description: "Upgrade service applications (Business Connectivity Services, Mana
 
 When you upgrade from SharePoint Server 2013 with Service Pack 1 (SP1) to SharePoint Server 2016, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint Server 2016 environment, and copied the content and service application databases, you can upgrade the service applications to SharePoint Server 2016. This article contains the steps that you take to upgrade the service applications.
   
-**Phase 3 of the upgrade process: Upgrade service applications**
+**Phase 3 of the upgrade process: Upgrade service applications:**
 
 ![Phase 3 of the upgrade process: Upgrade service applications](../media/SP15Upgrade_Phase3.png)
   
-|||
+|Phase|Description|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the third phase in the process to upgrade SharePoint Server 2013 with Service Pack 1 (SP1) data and sites to SharePoint Server 2016. The process includes the following phases that must be completed in order:  <br/> [Create the SharePoint Server 2016 farm for a database attach upgrade](create-the-sharepoint-server-2016-farm-for-a-database-attach-upgrade.md) <br/> [Copy databases to the new farm for upgrade to SharePoint Server 2016](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md) <br/> [Upgrade service applications to SharePoint Server 2016](upgrade-service-applications-to-sharepoint-server-2016.md) (this phase)  <br/> [Upgrade content databases to SharePoint Server 2016](upgrade-content-databases.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2016](overview-of-the-upgrade-process.md).  <br/> |
    
@@ -89,7 +89,7 @@ The following sections provide procedures to complete these steps.
 
 The following procedures start the service instances.
   
-**To start service application instances from Central Administration**
+**To start service application instances from Central Administration:**
   
 1. Start SharePoint 2016 Central Administration.
     
@@ -115,7 +115,7 @@ The following procedures start the service instances.
     
 The Search service instance must be started by using PowerShell because you cannot start it from Central Administration unless a Search Service application already exists.
   
-**To start the Search service instance by using PowerShell**
+**To start the Search service instance by using PowerShell:**
   
 1. Verify that you have the following memberships:
     
@@ -161,7 +161,7 @@ For more info, see [Get-SPEnterpriseSearchServiceInstance](/powershell/module/sh
 
 To upgrade the Secure Store service application, you create the new service application and upgrade the database, create a proxy and add it to the default proxy group, and then restore the passphrase from the previous environment.
   
- **To upgrade the Secure Store service application by using PowerShell**
+ **To upgrade the Secure Store service application by using PowerShell:**
   
 1. Verify that you have the following memberships:
     
@@ -266,7 +266,7 @@ To upgrade the Secure Store service application, you create the new service appl
 
 To upgrade the Business Data Connectivity service application, you create the new service application and upgrade the database. You do not have to create a proxy for the Business Data Connectivity service application. The Business Data Connectivity service application automatically creates a proxy and assigns it to the default proxy group when you create the service application.
   
-**To upgrade the Business Data Connectivity service application by using PowerShell**
+**To upgrade the Business Data Connectivity service application by using PowerShell:**
   
 1. Verify that you have the following memberships:
     
@@ -311,6 +311,7 @@ To upgrade the Business Data Connectivity service application, you create the ne
     New-SPBusinessDataCatalogServiceApplication -Name 'BDC Service' -ApplicationPool $applicationPool -DatabaseName 'BDC_Service_DB'
     ```
 
+  
     Where:
     
     -  _BDC Service_ is the name that you want to give the new Business Data Connectivity service application. 
@@ -329,7 +330,7 @@ To upgrade the Business Data Connectivity service application, you create the ne
 
 To upgrade the Managed Metadata service application, you create the new service application and upgrade the database, and then create a proxy and add it to the default proxy group.
   
-**To upgrade the Managed Metadata service application by using PowerShell**
+**To upgrade the Managed Metadata service application by using PowerShell:**
   
 1. Verify that you have the following memberships:
     
@@ -365,7 +366,7 @@ To upgrade the Managed Metadata service application, you create the new service 
     Where:
         
       -  _SharePoint Web Services default_ is the name of the service application pool that will contain the new service applications.
-    
+  
     This cmdlet sets the service application pool as a variable that you can use again in the cmdlets that follow. If you have multiple application pools and have to use a different application pool for a particular service application, repeat this step in the procedure to create each service application to use the appropriate application pool.
     
 4. To upgrade the Managed Metadata service application, at the Microsoft PowerShell command prompt, type the following command:
@@ -413,7 +414,7 @@ To upgrade the Managed Metadata service application, you create the new service 
 
 To upgrade the PerformancePoint Services service application, you create the new service application and upgrade the database, and then create a proxy and add it to the default proxy group.
   
-**To upgrade the PerformancePoint Services service application by using PowerShell**
+**To upgrade the PerformancePoint Services service application by using PowerShell:**
   
 1. Verify that you have the following memberships:
     
@@ -447,7 +448,7 @@ To upgrade the PerformancePoint Services service application, you create the new
       ```
 
     Where:
-        
+
       -  _SharePoint Web Services default_ is the name of the service application pool that will contain the new service applications. 
     
     This cmdlet sets the service application pool as a variable that you can use again in the cmdlets that follow. If you have multiple application pools and have to use a different application pool for a particular service application, repeat this step in the procedure to create each service application to use the appropriate application pool.
@@ -502,7 +503,7 @@ To upgrade the User Profile service application, you copy the Profile and Social
 > [!NOTE]
 > As SharePoint Server 2016 does not have the User Profile Synchronization Service, you do not copy the Synchronization database. Instead, a new database will be created with an empty schema.
   
-**To upgrade the User Profile service application by using PowerShell**
+**To upgrade the User Profile service application by using PowerShell:**
   
 1. Copy the Profile and Social databases in the SharePoint Server 2013 with Service Pack 1 (SP1) farm to the SharePoint Server 2016 farm by following these steps:
  
@@ -659,7 +660,7 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
 > [!IMPORTANT]
 > Because the search topology in the SharePoint Server 2016 farm is new, the index is empty. You have to perform a full crawl of the entire indexed corpus after you have [upgraded all content sources](./upgrade-content-databases.md) (the fourth phase in the process to upgrade SharePoint Server 2013 with Service Pack 1 (SP1) data and sites to SharePoint Server 2016). 
   
- **To upgrade the Search service application by using PowerShell**
+ **To upgrade the Search service application by using PowerShell:**
   
 1. Copy the search administration database in the SharePoint Server 2013 with Service Pack 1 (SP1) farm to the SharePoint Server 2016 farm by following these steps:
 
@@ -863,7 +864,7 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
 
 Use the following procedure to verify that the steps to create the proxies and add them to the default proxy group worked.
   
- **To verify that all of the new proxies are in the default proxy group by using PowerShell**
+ **To verify that all of the new proxies are in the default proxy group by using PowerShell:**
   
 1. Verify that you have the following memberships:
     
@@ -909,7 +910,7 @@ Now that the service applications are upgraded, you can start the process to upg
 
 <a name="VerifyProxies"> </a>
 
-|||
+|Phase|Description|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the third phase in the process to upgrade SharePoint Server 2013 with Service Pack 1 (SP1) data and sites to SharePoint Server 2016.  <br/> For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2016](overview-of-the-upgrade-process.md).  <br/> |
    

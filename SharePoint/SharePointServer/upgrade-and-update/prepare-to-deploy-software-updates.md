@@ -8,7 +8,7 @@ ms.date: 9/27/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: conceptual
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -155,11 +155,11 @@ You do not need to complete this procedure if you are downloading and installing
 1. Download the software update that you want to install.
     
 2. Extract the software update to a shared location by using the following command:
-    
-    <package> **/extract:** <path> 
-    
+
+    &lt;package&gt; **/extract:** &lt;path&gt;
+
     The **/extract** switch prompts you to provide a folder name for the files. Here's an example of a folder name for x64 systems: 
-    
+
     sps-kb999999-x64-fullfile-en-us.exe /extract:\<\\computername\updateshare\Updates\>
     
 3. Copy the extracted files from the shared location to an Updates folder that you create on the computer where you want to start to install the update. 
