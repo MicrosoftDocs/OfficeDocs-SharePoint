@@ -38,9 +38,8 @@ Before you begin the software update process, review the following information a
 
 To understand how to implement software updates in SharePoint 2013, it is important to understand the terminology for the core components.
   
-| | | |
-|:-----|:-----|:-----|
 |**Term** <br/> |**Definition** <br/> |**Comment** <br/> |
+|:-----|:-----|:-----|
 |**Cumulative Update (CU)** <br/> |A CU is a rollup update that contains all previous critical on-demand hotfixes to date. Additionally, a CU contains fixes for issues that meet the hotfix acceptance criteria. These criteria may include the availability of a workaround, the effect on the customer, the reproducibility of the problem, the complexity of the code that must be changed, or other reasons.  <br/> ||
 |**patch** <br/> |A compiled, executable installer file that contains updates to one or more products. Examples of packages are the executable (.exe) files that you download to install a service pack, cumulative update (CU), or hotfix. Packages are also known as MSI files.  <br/> ||
 |**software update** <br/> |A software update is any update, update rollup, service pack, feature pack, critical update, security update, or hotfix that is used to improve or to fix a software product that is released by Microsoft Corporation.  <br/> ||

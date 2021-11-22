@@ -431,7 +431,7 @@ You can now apply themes to your Suite Navigation.
 ### Use SMTP ports other than the default (25)
 <a name="smtpport"> </a>
 
-To configure SharePoint to use a non-default SMTP port open SharePoint Central Administration, browse to **System Settings** > **Configure outgoing email settings**, and set the **SMTP server port** to the port number of your SMTP server. To configure SharePoint to use a non-default SMTP port in PowerShell, use the  `Set-SPWebApplication` cmdlet with the **SMTPServerPort** <port number> parameter. For example: 
+To configure SharePoint to use a non-default SMTP port open SharePoint Central Administration, browse to **System Settings** > **Configure outgoing email settings**, and set the **SMTP server port** to the port number of your SMTP server. To configure SharePoint to use a non-default SMTP port in PowerShell, use the  `Set-SPWebApplication` cmdlet with the **SMTPServerPort** \<port number\> parameter. For example:
   
 ```
 $WebApp = Get-SPWebApplication -IncludeCentralAdministration | ? { $_.IsAdministrationWebApplication -eq $true }
