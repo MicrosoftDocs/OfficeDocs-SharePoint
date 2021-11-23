@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to perform maintenance tasks that are associated with Re
 
 # Maintain RBS in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You perform most of the maintenance tasks associated with RBS in SharePoint Server by using the RBS Maintainer, which is a tool in SQL Server. The RBS Maintainer performs periodic garbage collection and other maintenance tasks for a SharePoint Server RBS deployment. You can schedule these tasks for each database that uses RBS by using Windows Task Scheduler or SQL Server Agent. You must provision the RBS Maintainer by using command-line parameters or through an XML file. In the case of mirrored or replicated databases, you can run the RBS Maintainer against any single instance.
   
@@ -74,7 +74,7 @@ Any discovered problems are logged and the RBS Maintainer attempts to fix them b
 ## Running the RBS Maintainer
 <a name="proc3"> </a>
 
-RBS requires you to define a connection string to each database that uses RBS before you run the RBS Maintainer. This string is stored in a configuration file in the  _\<RBS installation path\>_\Microsoft SQL Remote Blob Storage 10.50\Maintainer folder that is ordinarily created during installation. The RBS Maintainer can be run manually by executing the Microsoft.Data.SqlRemoteBlobs.Maintainer.exe program together with the command line parameters that are listed in [Running RBS Maintainer](https://blogs.msdn.microsoft.com/sqlrbs/2010/03/19/running-rbs-maintainer/). 
+RBS requires you to define a connection string to each database that uses RBS before you run the RBS Maintainer. This string is stored in a configuration file in the  _\<RBS installation path\>_\Microsoft SQL Remote Blob Storage 10.50\Maintainer folder that is ordinarily created during installation. The RBS Maintainer can be run manually by executing the Microsoft.Data.SqlRemoteBlobs.Maintainer.exe program together with the command line parameters that are listed in [Running RBS Maintainer](/archive/blogs/sqlrbs/running-rbs-maintainer). 
   
 You must schedule a separate RBS Maintainer task for every database that uses RBS. The following steps describe how to schedule an RBS Maintainer task.
   
@@ -142,4 +142,3 @@ You must schedule a separate RBS Maintainer task for every database that uses RB
 [Migrate content into or out of RBS in SharePoint Server](migrate-content-into-or-out-of-rbs.md)
   
 [Disable RBS on content databases in SharePoint Server](disable-rbs-on-a-content-database.md)
-

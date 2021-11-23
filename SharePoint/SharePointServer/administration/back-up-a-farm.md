@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -19,7 +19,7 @@ description: "Learn how to back up a SharePoint Server farm."
 
 # Back up farms in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You can back up a SharePoint Server farm by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. The backup tool that you use depends on the kind of environment that you have deployed, your backup schedule requirements, and service level agreements that you have with your organization.
   
@@ -50,7 +50,7 @@ Before you begin this operation, review the following information to help you pr
     
     If you are using another provider, you must manually back up the remote BLOB stores.
     
-- If you are using SQL Server with Transparent Data Encryption (TDE), and you are backing up your environment by using either SharePoint tools or SQL Server tools, the TDE encryption key in not backed up or restored. You must back up the key manually. When restoring, you must manually restore the key before you restore the data. For more information, see [Understanding Transparent Data Encryption (TDE)](https://go.microsoft.com/fwlink/p/?LinkID=715703&amp;clcid=0x409).
+- If you are using SQL Server with Transparent Data Encryption (TDE), and you are backing up your environment by using either SharePoint tools or SQL Server tools, the TDE encryption key in not backed up or restored. You must back up the key manually. When restoring, you must manually restore the key before you restore the data. For more information, see [Understanding Transparent Data Encryption (TDE)](/sql/relational-databases/security/encryption/transparent-data-encryption?viewFallbackFrom=sql-server-2014).
     
 ## Use PowerShell to back up a farm in SharePoint Server
 <a name="begin"> </a>
@@ -70,7 +70,7 @@ You can use PowerShell to back up the farm manually or as part of a script that 
      An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -87,7 +87,7 @@ You can use PowerShell to back up the farm manually or as part of a script that 
     > [!NOTE]
     > If you are backing up the farm for the first time, you must use the **Full** option. You must perform a full backup before you can perform a differential backup. 
   
-For more information, see [Backup-SPFarm](/powershell/module/sharepoint-server/Backup-SPFarm?view=sharepoint-ps).
+For more information, see [Backup-SPFarm](/powershell/module/sharepoint-server/Backup-SPFarm?view=sharepoint-ps&preserve-view=true).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -135,7 +135,7 @@ If you want to back up the complete farm, you must use either PowerShell or Cent
     
 5. In the **Back Up Database** dialog, confirm the database name. 
     
-6. Next, select the kind of backup that you want to perform from the **Backup type** list. For more information about which backup type to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=715706&amp;clcid=0x409).
+6. Next, select the kind of backup that you want to perform from the **Backup type** list. For more information about which backup type to use, see [Recovery Models (SQL Server)](/sql/relational-databases/backup-restore/recovery-models-sql-server).
     
 7. In the **Backup component** area, click **Database**.
     
@@ -149,5 +149,3 @@ If you want to back up the complete farm, you must use either PowerShell or Cent
     
 ## See also
 <a name="proc3"> </a>
-
-

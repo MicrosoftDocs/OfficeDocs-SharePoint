@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f8578d9f-2826-4d21-873e-607c53b5c040
 description: "Learn how item display templates and hit highlighting work in the classic search experience in SharePoint Server."
 ---
 
 # Understanding how item display templates and hit highlighting work in the classic search experience in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In this article, you'll learn:
   
@@ -171,6 +171,4 @@ In the next article you'll learn the first step in customizing search results: c
   
 #### Next article in this series
 
-[How to display values from custom managed properties in search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md)
-  
-
+[How to display values from custom managed properties in search results - option 1 in SharePoint Server](display-values-custom-managed-properties.md)

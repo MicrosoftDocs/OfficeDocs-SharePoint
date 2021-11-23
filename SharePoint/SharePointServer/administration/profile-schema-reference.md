@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 05bdd5cb-2c97-40ca-bbac-bb91d300ad5c
 description: "Understand the XML schema for profiles for use in scripted monitoring configuration for SharePoint Server."
@@ -18,14 +18,14 @@ description: "Understand the XML schema for profiles for use in scripted monitor
 
 # Profile schema reference in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 When you run the BackupMonitoringSettings.ps1 Microsoft PowerShell script on a SharePoint farm, you create a file that's called a Profile. The Profile follows an XML schema. You can modify settings of elements of the schema to create a custom Profile. You can then use the custom Profile to automate configuration of the monitoring settings in a SharePoint environment. For an introduction to scripted monitoring configuration, see [Overview of scripted monitoring configuration in SharePoint Server](overview-of-scripted-monitoring-configuration.md).
   
 Administrators can run the scripts before, during, and after changes to the farm, such as farm topology, major security changes, applying software updates, or running a performance test. The scripts alter the monitoring settings so that all of the necessary monitoring data are collected during the event without flooding the Logging database during normal operation.
   
 > [!NOTE]
-> You must download the PowerShell scripts to back up, restore, or modify the farm monitoring settings. The scripts are available on the TechNet Gallery at [Scripted Monitoring Configuration - BackupMonitoringSettings](https://go.microsoft.com/fwlink/p/?LinkID=299269) and [Scripted Monitoring Configuration - AlterMonitoringSettings](https://go.microsoft.com/fwlink/p/?LinkID=299270). The **BackupMonitoringSettings.ps1** PowerShell script creates the backup Profile from which you can create other Profiles. 
+> You must download the PowerShell scripts to back up, restore, or modify the farm monitoring settings. The scripts are available on the TechNet Gallery at [Scripted Monitoring Configuration - BackupMonitoringSettings](/samples/browse/?redirectedfrom=TechNet-Gallery) and [Scripted Monitoring Configuration - AlterMonitoringSettings](/samples/browse/?redirectedfrom=TechNet-Gallery). The **BackupMonitoringSettings.ps1** PowerShell script creates the backup Profile from which you can create other Profiles. 
   
 You can create one or more Profiles to adjust the level of monitoring during different phases of the SharePoint lifecycle. You can also use a custom Profile to configure monitoring on several farms at once.
   
@@ -176,4 +176,3 @@ You might want to use a naming convention for your Profiles so that you can orga
 [Overview of scripted monitoring configuration in SharePoint Server](overview-of-scripted-monitoring-configuration.md)
   
 [Run scripted monitoring configuration in SharePoint Server](run-scripted-monitoring-configuration.md)
-

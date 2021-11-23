@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 31b74292-9333-455d-8c52-aba97bbfc0e6
 description: "Learn how the Analytics Processing Component analyzes content and user actions to improve search relevance."
@@ -18,7 +18,7 @@ description: "Learn how the Analytics Processing Component analyzes content and 
 
 # Overview of analytics processing in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 To help identify and surface the content that users consider to be the most useful and relevant, the **Analytics Processing Component** in SharePoint Server analyzes both the content itself, and also the way that users interact with it. The results from the analysis are added to the items in the search index so that search relevance improves automatically over time. Also, the results are used in reports that help search administrators see which manual steps they can take to improve the search system. 
   
@@ -140,6 +140,4 @@ By default, usage cookies are not enabled for a SharePoint Server web applicatio
 > [!IMPORTANT]
 > Local legal restrictions might apply when you enable cookies on sites that have anonymous users. 
   
-To enable usage cookies for a SharePoint web application, see [Edit general settings on a web application in SharePoint Server](/SharePoint/administration/edit-general-settings-on-a-web-application). This article also applies to SharePoint Server 2016.
-  
-
+To enable usage cookies for a SharePoint web application, see [Edit general settings on a web application in SharePoint Server](../administration/edit-general-settings-on-a-web-application.md). This article also applies to SharePoint Server 2016.

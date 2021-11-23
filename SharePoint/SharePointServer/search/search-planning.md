@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: e8c0fccd-8364-4352-8778-c9c46a668b70
 description: "Create a well-designed plan to install and configure search in SharePoint Server."
@@ -18,7 +18,7 @@ description: "Create a well-designed plan to install and configure search in Sha
 
 # Plan search in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The following articles provide information about the planning you need to do to deploy search in SharePoint Server.
 

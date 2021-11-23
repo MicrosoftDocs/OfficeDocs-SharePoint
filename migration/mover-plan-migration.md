@@ -3,13 +3,15 @@ title: Mover Migration Tools overview and planning
 author: JoanneHendrickson
 ms.author: jhendr
 manager: serdars
+recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Overview and planning to the Mover Migration tools"
 ---
@@ -82,8 +84,8 @@ This scan is effectively a simulated dry-run migration, with no set destination,
 >[!Note]
 >The scan is available in our **Migration Manager** after you have first set up a migration.
 
-Read through this guide to better understand the full migration process, or skip ahead to **Setting Up the Migration**. For detailed instructions about how to run the scan, see **Scanning.**
-
+Read through this guide to better understand the full migration process, or skip ahead to **Setting Up the Migration**. For detailed instructions about how to run the scan, see **Scanning.** See also [Running the Mover migration](mover-running-migration.md)
+ 
 ### Number of users to migrate
 
 Each *user* is defined by a unique source and destination pairing.

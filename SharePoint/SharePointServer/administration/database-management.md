@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to manage the databases that are associated with SharePo
 
 # Manage databases in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The following articles and related resources provide information about database management with SharePoint Server.
   

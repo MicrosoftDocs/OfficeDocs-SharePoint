@@ -4,12 +4,13 @@ ms.reviewer:
 ms.author: loreenl
 author: LoreenLa
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
@@ -27,14 +28,14 @@ description: "In this article, you'll learn how to allow or prevent users from a
 
 Using modern pages in Microsoft SharePoint is a great way to share ideas using images, Office files, video, and more. Users can [Add a page to a site](https://support.office.com/article/b3d46deb-27a6-4b1e-87b8-df851e503dec) quickly and easily, and modern pages look great on any device. 
   
-If you're a global or SharePoint admin in Microsoft 365, you can allow or prevent users from creating modern pages. You can do this at the organization level by changing settings in the SharePoint admin center. If you allow the creation of site pages as the organization level, site owners can [turn it of or off at the site level](https://support.office.com/article/787F3BA1-9DF6-480A-AB4C-9F4525490CB9). 
+If you're a global or SharePoint admin in Microsoft 365, you can allow or prevent users from creating modern pages. You can do this at the organization level by changing settings in the SharePoint admin center. If you allow the creation of site pages as the organization level, you can turn it on or off at the site level by using PowerShell. Site owners can also [turn it on or off at the site level](https://support.office.com/article/787F3BA1-9DF6-480A-AB4C-9F4525490CB9).
   
 > [!NOTE]
 > If you want to prevent members from creating or modifying any SharePoint pages on a site, go to Site Pages, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) > **Library settings** > **Permissions for this document library**, and then set the Members group to Read. 
   
 ## Change page creation settings at the organization level 
 
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
     >[!NOTE]
     >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
@@ -53,18 +54,19 @@ If you're a global or SharePoint admin in Microsoft 365, you can allow or preven
 
     
 ## Prevent users from creating modern pages on a specific site by using PowerShell
+If you allow the creation of site pages as the organization level, you can turn it off at the site level by using PowerShell.
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
 
 2. Install the [SharePoint Online Client Components SDK](https://www.microsoft.com/download/details.aspx?id=42038).
     
-3. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+3. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
     > [!NOTE]
-    > Read [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255) and make sure you run the SharePoint Online Management Shell as an administrator and the correct execution policy to run unsigned scripts. 
+    > Read [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies) and make sure you run the SharePoint Online Management Shell as an administrator and the correct execution policy to run unsigned scripts. 
   
 4. Copy the following code and paste it into a text editor, such as Notepad. 
     
@@ -141,14 +143,16 @@ If you're a global or SharePoint admin in Microsoft 365, you can allow or preven
     
 ## Allow users to create modern pages on a specific site by using PowerShell
 
+If you prevented users from creating modern pages on a site, follow these steps to allow it again. 
+
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
 2. Install the [SharePoint Client Components SDK](https://www.microsoft.com/download/details.aspx?id=42038).
     
-3. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+3. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
     > [!NOTE]
-    > Read [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255) and make sure you run the SharePoint Online Management Shell as an administrator and the correct execution policy to run unsigned scripts. 
+    > Read [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies) and make sure you run the SharePoint Online Management Shell as an administrator and the correct execution policy to run unsigned scripts. 
    
 4. Copy the following code and paste it into a text editor, such as Notepad. 
     
@@ -220,5 +224,3 @@ If you're a global or SharePoint admin in Microsoft 365, you can allow or preven
     For the **SiteUrl** you would enter:  `https://contoso.sharepoint.com/sites/marketing`
     
     And for the **WebUrl** you would enter  `sites/marketing/northwindcompete`
-    
-

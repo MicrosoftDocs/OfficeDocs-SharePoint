@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: c5c6fd31-d747-49c0-9784-b4f29bd82809
 description: "Learn about the SharePoint logging database, how to view monitoring information, use custom SQL views, and export into Excel."
@@ -18,7 +18,7 @@ description: "Learn about the SharePoint logging database, how to view monitorin
 
 # View data in the logging database in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 - [Introduction to the SharePoint logging database](#section1)
     
@@ -27,7 +27,7 @@ description: "Learn about the SharePoint logging database, how to view monitorin
 - [Custom SQL views in the SharePoint logging database](#section3)
     
 > [!NOTE]
->  Because SharePoint Server 2016 runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server 2016 supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](https://docs.microsoft.com/sharepoint/install/browser-support-planning-0)> [Accessibility guidelines in SharePoint](https://docs.microsoft.com/sharepoint/accessibility-guidelines)> [Accessibility in SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/accessibility-in-sharepoint)> [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506).
+>  Because SharePoint Server 2016 runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server 2016 supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](../install/browser-support-planning-2016-2019.md)> [Accessibility guidelines in SharePoint](../accessibility-guidelines.md)> [Accessibility in SharePoint](/sharepoint/dev/general-development/accessibility-in-sharepoint)> [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](/windows/win32/wintouch/windows-touch-gestures-overview).
   
 ## Introduction to the SharePoint logging database
 <a name="section1"> </a>
@@ -83,7 +83,7 @@ To access the pre-defined views, you must access the SharePoint Server 2016 logg
 2. On the taskbar, click **Start**, point to **All Programs**, click **Microsoft SQL Server 2008** or the latest Microsoft SQL Server version that is installed, and then click **SQL Server Management Studio**.
     
     > [!NOTE]
-    > If you do not have Management Studio on the server, reinstall SQL Server 2008 and add the Management Studio component. For more information, see [SQL Server Install](https://go.microsoft.com/fwlink/p/?LinkId=237482). 
+    > If you do not have Management Studio on the server, reinstall SQL Server 2008 and add the Management Studio component. For more information, see [SQL Server Install](/previous-versions/sql/sql-server-2012/hh231622(v=sql.110)). 
   
 3. In the **Connect to Server** dialog, choose **Database Engine**. Then specify the server name, for example, ServerName\SharePoint. Select the authentication type ( **Windows Authentication** or **SQL Server Authentication**) that you configured through SharePoint Server 2016Central Administration. If it is **SQL Server Authentication**, specify the credentials for the database administrator. After the information is set, click **Connect**. 
     
@@ -101,53 +101,53 @@ To access the pre-defined views, you must access the SharePoint Server 2016 logg
     
     The operation **Select Top 1000 Rows** is the following T-SQL query script: 
     
-  ```
-  /****** Script for SelectTopNRows command from SSMS ******/
-  SELECT TOP 1000 [PartitionId]
-        ,[RowId]
-        ,[LogTime]
-        ,[MachineName]
-        ,[FarmId]
-        ,[SiteSubscriptionId]
-        ,[UserLogin]
-        ,[CorrelationId]
-        ,[WebApplicationId]
-        ,[ServerUrl]
-        ,[SiteId]
-        ,[SiteUrl]
-        ,[WebId]
-        ,[WebUrl]
-        ,[DocumentPath]
-        ,[ContentTypeId]
-        ,[QueryString]
-        ,[BytesConsumed]
-        ,[HttpStatus]
-        ,[SessionId]
-        ,[ReferrerUrl]
-        ,[ReferrerQueryString]
-        ,[Browser]
-        ,[UserAgent]
-        ,[UserAddress]
-        ,[RequestCount]
-        ,[QueryCount]
-        ,[QueryDurationSum]
-        ,[ServiceCallCount]
-        ,[ServiceCallDurationSum]
-        ,[OperationCount]
-        ,[Duration]
-        ,[RequestType]
-        ,[Title]
-        ,[RowCreatedTime]
-    FROM [SharePoint_Logging].[dbo].[RequestUsage]
-  ```
+      ```
+      /****** Script for SelectTopNRows command from SSMS ******/
+      SELECT TOP 1000 [PartitionId]
+            ,[RowId]
+            ,[LogTime]
+            ,[MachineName]
+            ,[FarmId]
+            ,[SiteSubscriptionId]
+            ,[UserLogin]
+            ,[CorrelationId]
+            ,[WebApplicationId]
+            ,[ServerUrl]
+            ,[SiteId]
+            ,[SiteUrl]
+            ,[WebId]
+            ,[WebUrl]
+            ,[DocumentPath]
+            ,[ContentTypeId]
+            ,[QueryString]
+            ,[BytesConsumed]
+            ,[HttpStatus]
+            ,[SessionId]
+            ,[ReferrerUrl]
+            ,[ReferrerQueryString]
+            ,[Browser]
+            ,[UserAgent]
+            ,[UserAddress]
+            ,[RequestCount]
+            ,[QueryCount]
+            ,[QueryDurationSum]
+            ,[ServiceCallCount]
+            ,[ServiceCallDurationSum]
+            ,[OperationCount]
+            ,[Duration]
+            ,[RequestType]
+            ,[Title]
+            ,[RowCreatedTime]
+        FROM [SharePoint_Logging].[dbo].[RequestUsage]
+      ```
 
-    The top 1000 rows of the table category **Request Usage** appear in the result window. 
+      The top 1000 rows of the table category **Request Usage** appear in the result window. 
     
 4. You can modify the T-SQL query in the SQL editor window. For example, if there are more than 1000 rows in the tables, you might want to view the top 5000 rows. To do that, change the script by replacing "SELECT TOP 1000" with "SELECT TOP 5000", and then click **Execute**.
-    
-If you want to view logs by using tools other than Management Studio, you can extract the monitoring information from the views and save as a text file or a CSV file. In the following procedure, Excel is used as an example. 
-  
- **To export and view the logging data by using Excel**
+
+If you want to view logs by using tools other than Management Studio, you can extract the monitoring information from the views and save as a text file or a CSV file. In the following procedure, Excel is used as an example.
+
+**To export and view the logging data by using Excel**
   
 1. Verify that the user account that is performing this procedure has the **db_owner** fixed database role. 
     
@@ -210,4 +210,3 @@ In usage tables and the ULSTraceLog tables, the **CorrelationId** is an importan
 [View reports and logs in SharePoint Server 2016](view-reports-and-logs.md)
   
 [Overview of monitoring in SharePoint Server](monitoring-overview.md)
-

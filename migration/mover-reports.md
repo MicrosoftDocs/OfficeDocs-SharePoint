@@ -3,10 +3,11 @@ title: Mover reports
 author: JoanneHendrickson
 ms.author: jhendr
 manager: serdars
+recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
@@ -19,7 +20,7 @@ description: "Mover reports"
 
 The dashboard statistics given at the top of the **Migration Manager** provide a visual summary of your overall migration. This includes the number of users in the current selected migration, the number of files scanned or transferred, and the amount of data scanned or transferred; as well as any issues, errors, or failures that may have occurred.
 
-![migration manager dash](media/migration-manager-dash.png)
+![migration manager dash](media/mover-migration-manager-dash.png)
 
 ## Transfers
 
@@ -60,7 +61,7 @@ The **Data** section of the **Migration Manager** dashboard shows the total of a
 
 ![migration manager data](media/migration-manager-data.png)
 
-           ## Active filter list
+## Active filter list
 
 This provides the list of all current **Filters** that you can apply to the **Active Filter** search bar.
 
@@ -77,7 +78,7 @@ This provides the list of all current **Filters** that you can apply to the **Ac
 |Skipped	|Displays all data and files that were skipped.|
 |Schedule	|Displays all users with scheduled transfers [for example, Hourly, Daily, Weekly, Monthly].|
 |Path	|Filters for specific source or destination path [for example, path:username].|
-|Destination|	Filters for specific destination path [for exaample, path:@domain<spam><spam>.com].|
+|Destination|	Filters for specific destination path [for example, path:@domain<spam><spam>.com].|
 |Source|	Filters for specific source path [for example, path:foldername].|
 |Destination path	|Functions the same as **Destination**.|
 |Source path	|Functions the same as **Source**.|
@@ -107,7 +108,7 @@ To download this as a CSV, at the top right of the **Migration Manager**, select
 
 The CSV report provides the following information for each user pairing:
 
-|**Header/Statistic**|**Definition**|
+|Statistic|Definition|
 |:-----|:-----|
 |Schedule ID|Our internal reference unique to the user pairing created.|
 |Source|Source directory path.|
@@ -141,10 +142,16 @@ The CSV report provides the following information for each user pairing:
 |Average File Velocity (files/hour)|Files transferred, divided by the total duration.|
 |Average Data Velocity (Bytes/hour)|Data (bytes) transferred, divided by the total duration.|
 |Average Data Velocity (MB/hour)|Data (MB) transferred, divided by the total duration.|
+|Completed Files Transferred|Total files transferred to the destination in the last run that finished with status code 1xx (successful) or 2xx (some errors). If and only if the "Last Status Code" is in the 1xx or 2xx ranges, this will refer to the latest run; otherwise it will refer to a previous run. If this is zero, it may mean that the schedule has not been run to completion before.|
+|Completed Bytes Transferred|Total data (bytes) transferred to the destination in the last run that finished with status code 1xx (successful) or 2xx (some errors).  If and only if the "Last Status Code" is in the 1xx or 2xx ranges, this will refer to the latest run; otherwise, it will refer to a previous run. If this is zero, it may mean that the schedule has not been run to completion before.|
+|Completed MB Transferred|Total data (MB) transferred to the destination in the last run that finished with status code 1xx (successful) or 2xx (some errors). If and only if the "Last Status Code" is in the 1xx or 2xx ranges, this will refer to the latest run; otherwise, it will refer to a previous run. If this is zero, it may mean that the schedule has not been run to completion before.|
+|Completed Successfully Files Transferred|Total files transferred to the destination in the last run that finished with status code 1xx (successful). If and only if the "Last Status Code" is in the 1xx range, this will refer to the latest run; otherwise, it will refer to a previous run. If this is zero, it may mean that the schedule has not been run to successful completion before.|
+|Completed Successfully Bytes Transferred|Total data (bytes) transferred to the destination in the last run that finished with status code 1xx (successful). If and only if the "Last Status Code" is in the 1xx range, this will refer to the latest run; otherwise, it will refer to a previous run. If this is zero, it may mean that the schedule has not been run to successful completion before.|
+|Completed Successfully MB Transferred|Total data (MB) transferred to the destination in the last run that finished with status code 1xx (successful). If and only if the "Last Status Code" is in the 1xx range, this will refer to the latest run; otherwise, it will refer to a previous run. If this is zero, it may mean that the schedule has not been run to successful completion before.|
 
 Download an example CSV:
 
-[example_migration_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_report.csv)
+[example_migration_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_report%20.csv)
 
 ## Migration table report
 
@@ -169,6 +176,7 @@ To download this as a CSV, at the top right of the **Migration Manager**, select
 ![migration error example](media/migration_error_example.png)
 
 Download an example CSV:
+
 
 [example_migration_error_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_error_report.csv)
 

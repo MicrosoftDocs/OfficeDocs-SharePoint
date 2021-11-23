@@ -3,12 +3,13 @@ title: "Set up a new term set"
 ms.reviewer: anfra
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
+recommendations: true
 audience: Admin
 f1.keywords: NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - OSU150

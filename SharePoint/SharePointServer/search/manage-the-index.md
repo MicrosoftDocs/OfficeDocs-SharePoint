@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 626fc816-cd0e-44e1-8ea7-0d0b536b379b
 description: "Learn how to manage collection of content in the search index and retrieval from the search index."
@@ -18,7 +18,7 @@ description: "Learn how to manage collection of content in the search index and 
 
 # Manage the search index in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The following articles describe how you can manage the search index. 
 

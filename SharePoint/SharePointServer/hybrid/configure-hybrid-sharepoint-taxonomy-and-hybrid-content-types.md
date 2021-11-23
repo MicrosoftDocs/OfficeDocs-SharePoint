@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
@@ -25,11 +25,11 @@ description: "In this article, we look at how to configure hybrid SharePoint tax
 
 # Configure hybrid SharePoint taxonomy and hybrid content types
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 In this article, we look at how to configure hybrid SharePoint taxonomy and hybrid content types.
   
-Hybrid SharePoint taxonomy allows you to have a shared taxonomy between SharePoint Server and SharePoint in Microsoft 365e. Hybrid content types allows you to have a shared set of content types between SharePoint Server and SharePoint in Microsoft 365e.
+Hybrid SharePoint taxonomy allows you to have a shared taxonomy between SharePoint Server and SharePoint in Microsoft 365. Hybrid content types allows you to have a shared set of content types between SharePoint Server and SharePoint in Microsoft 365.
   
 Before you follow the procedures in this article, be sure to read [Plan hybrid SharePoint taxonomy and hybrid content types](plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md). 
   
@@ -53,7 +53,7 @@ This video shows a walkthrough of configuring hybrid taxonomy and hybrid content
 
 If you have an existing taxonomy in SharePoint Server, the best practice is to copy any term groups you want to be part of the shared taxonomy to SharePoint in Microsoft 365 before you configure hybrid SharePoint taxonomy. You can migrate additional taxonomy groups from SharePoint Server to SharePoint in Microsoft 365 to add to the shared taxonomy later, but if you do you may need to run the configuration wizard again to include them in the shared taxonomy.
   
-The migration process copies taxonomy groups from SharePoint Server to SharePoint in Microsoft 365. This is done by using the [Copy-SPTaxonomyGroups](/powershell/module/sharepoint-server/Copy-SPTaxonomyGroups?view=sharepoint-ps) PowerShell cmdlet. 
+The migration process copies taxonomy groups from SharePoint Server to SharePoint in Microsoft 365. This is done by using the [Copy-SPTaxonomyGroups](/powershell/module/sharepoint-server/Copy-SPTaxonomyGroups?view=sharepoint-ps&preserve-view=true) PowerShell cmdlet. 
   
  **Active Directory groups**
   
@@ -108,7 +108,7 @@ Note that you can also simply run Copy-SPTaxonomyGroups and you will be prompted
   
  **Copying content types**
   
-If you're planning to use hybrid content types, you can copy your SharePoint Server content types to SharePoint in Microsoft 365 by using the [Copy-SPContentTypes](/powershell/module/sharepoint-server/copy-spcontenttypes?view=sharepoint-ps) cmdlet. For example: 
+If you're planning to use hybrid content types, you can copy your SharePoint Server content types to SharePoint in Microsoft 365 by using the [Copy-SPContentTypes](/powershell/module/sharepoint-server/copy-spcontenttypes?view=sharepoint-ps&preserve-view=true) cmdlet. For example: 
   
 ```
 Copy-SPContentTypes -LocalSiteUrl http://localsite/ -LocalTermStoreName "managed metadata service application proxy" -RemoteSiteUrl https://contoso.sharepoint.com/ -ContentTypeNames @("ContentTypeA", "ContentTypeB") -Credential $credential
@@ -144,7 +144,7 @@ The next step is to configure hybrid SharePoint taxonomy by running the Hybrid P
     
 2. From your SharePoint Server computer, open a web browser.
     
-3. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365.
+3. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
 
 4. Under **Hybrid picker**, select **Open**.
     
@@ -166,13 +166,13 @@ After you've configured hybrid SharePoint taxonomy, the taxonomy replication tim
 
 Hybrid SharePoint taxonomy uses a timer job called Taxonomy Groups Replication to copy taxonomy information from SharePoint in Microsoft 365 to SharePoint Server. The SharePoint in Microsoft 365 APP Identity is used to authenticate to Microsoft 365. By default, this timer job replicates taxonomy on a daily basis.
   
-Like other timer jobs in SharePoint in Microsoft 365, you can configure the Taxonomy Groups Replication job to run on a different schedule, or you can run it manually, by searcing for it in the timer job list in Central Administration.
+Like other timer jobs in SharePoint in Microsoft 365, you can configure the Taxonomy Groups Replication job to run on a different schedule, or you can run it manually, by searching for it in the timer job list in Central Administration.
   
 ## Stopping replication of taxonomy groups
 
 If at any time you want to stop taxonomy replication between SharePoint in Microsoft 365 and SharePoint Server, you can do so by using PowerShell. 
   
-The [Stop-SPTaxonomyReplication](/powershell/module/sharepoint-server/Stop-SPTaxonomyReplication?view=sharepoint-ps) cmdlet will stop taxonomy replication. For example: 
+The [Stop-SPTaxonomyReplication](/powershell/module/sharepoint-server/Stop-SPTaxonomyReplication?view=sharepoint-ps&preserve-view=true) cmdlet will stop taxonomy replication. For example: 
   
 ```
 $credential = Get-Credential
@@ -182,7 +182,7 @@ $credential = Get-Credential
 Stop-SPTaxonomyReplication -Credential $credential
 ```
 
-The [Stop-SPContentTypeReplication](/powershell/module/sharepoint-server/?view=sharepoint-ps) cmdlet will stop content type replication: 
+The [Stop-SPContentTypeReplication](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true) cmdlet will stop content type replication: 
   
 ```
 Stop-SPContentTypeReplication
@@ -197,4 +197,3 @@ If you simply want to reconfigure which taxonomy groups you are replicating, the
 #### Other Resources
 
 [TechNet Forums - Hybrid Taxonomy](https://social.technet.microsoft.com/Forums/office/home?forum=hybridtaxonomy)
-

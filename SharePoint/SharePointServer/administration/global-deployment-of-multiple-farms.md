@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -21,7 +21,7 @@ description: "Discover links to articles that explain issues about global deploy
 
 # Global deployment of multiple farms (SharePoint 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 The following downloadable resources, articles, video recordings, and related resources provide information about global deployment of multiple SharePoint 2013 farms.
   

@@ -3,10 +3,11 @@ title: Mover transfer logs
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
@@ -35,14 +36,11 @@ You can view a user's transfer logs by doing one of the following:
 
 2. To select multiple users, from the **User Actions** dropdown menu or the **Actions** menu in the side tab, select **Download Logs (zip file)**. As the label implies, multiple log files are zipped together for download.
 
-![multiple logs](media/multiple_logs.png)
+![multiple logs](media/mover-multiple-logs.png)
 
 >[!Note]
 >The zipped file provides logs in both CSV and HTML formats for only the most recent transfer of each user.
 
-View an example CSV log or in your browser here:
-
-[Example_user_log.html](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/live/migration/downloads/example_user_log.html)
 
 ## Interpreting a log file
 
@@ -53,8 +51,8 @@ View an example CSV log or in your browser here:
 
 |**Message**|**Definition**|
 |:-----|:-----|
-|Failed to download file successfully	|An issue occured with the Source Connector.|
-|Failed to upload file successfully	|An issue occured with the Destination Connector.|
+|Failed to download file successfully	|An issue occurred with the Source Connector.|
+|Failed to upload file successfully	|An issue occurred with the Destination Connector.|
 |Unknown error of type 400	|A 'bad request' error. It could be a problem with the Source (File Download) or Destination (File Upload). Typically, this means that something has changed client-side or server-side and could be resolved the next time you run the transfer.|
 |Unknown error of type 404	|This is a *server not found* error. Typically, this means that the Source (File Download) or Destination (File Upload) server is down or experiencing a temporary outage.|
 |Auth failure: attempt to renew authentication successful|	Authorization is failing either on the Source (File Download) or Destination (File Upload) Connector.|

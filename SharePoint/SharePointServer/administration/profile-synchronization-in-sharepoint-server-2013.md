@@ -10,24 +10,24 @@ f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e283aaec-e962-46b4-92e4-b8a825521641
 description: "Learn about profile synchronization, also known as profile sync,in SharePoint Server 2016."
 ---
 
 # Overview of profile synchronization in SharePoint Server 2016
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)] 
   
 A user profile is a collection of properties that describes a SharePoint user. Features such as My Sites and People Search use user profiles to provide a rich, personalized experience for the users in your organization. You can create user profiles by importing data from directory services, such as Active Directory Domain Services (AD DS). You can augment user profiles by importing data from business systems, such as SAP or SQL Server. The process of importing profile data from external systems and writing data back to these systems is called profile synchronization.
   
 ## Options for profile synchronization
 
-Previous versions of SharePoint Server had a built-in copy of ForeFront Identity Manager (FIM) that ran inside SharePoint Server. That version of FIM powered the User Profile Synchronization for products like SharePoint Server 2010 and SharePoint Server 2013. But in SharePoint Server 2016, FIM has been removed in favor of [Microsoft Identity Manager (MIM)](https://go.microsoft.com/fwlink/?LinkId=760650), which is the successor to the FIM technology. MIM is a separate server technology (not built-in to SharePoint Server). That means, if you have MIM running in your company, more than one SharePoint Server 2016 farm can rely upon it. 
+Previous versions of SharePoint Server had a built-in copy of ForeFront Identity Manager (FIM) that ran inside SharePoint Server. That version of FIM powered the User Profile Synchronization for products like SharePoint Server 2010 and SharePoint Server 2013. But in SharePoint Server 2016, FIM has been removed in favor of [Microsoft Identity Manager (MIM)](/microsoft-identity-manager/microsoft-identity-manager-2016), which is the successor to the FIM technology. MIM is a separate server technology (not built-in to SharePoint Server). That means, if you have MIM running in your company, more than one SharePoint Server 2016 farm can rely upon it. 
   
 It's also important to note, here, that Active Directory Import (sometimes called Active Directory Direct Import) is still included with SharePoint Server 2016, and is a User Profile Synchronization alternative that does not need a separate server installation. This means that SharePoint Server 2016 offers two options for User Profile Sync.
   
-A third option, if you're using Microsoft 365, is to use [hybrid profiles](https://go.microsoft.com/fwlink/p/?LinkID=746962) as part of a [SharePoint hybrid deployment](https://go.microsoft.com/fwlink/p/?LinkID=746868). With hybrid profiles, SharePoint Server 2016 on-premises profiles aren't necessary, as users are automatically redirected to their profile in SharePoint in Microsoft 365.
+A third option, if you're using Microsoft 365, is to use [hybrid profiles](../hybrid/plan-hybrid-profiles.md) as part of a [SharePoint hybrid deployment](../hybrid/sharepoint-hybrid-sites-and-search.md). With hybrid profiles, SharePoint Server 2016 on-premises profiles aren't necessary, as users are automatically redirected to their profile in SharePoint in Microsoft 365.
   
 Which option is right for you?
   
@@ -75,5 +75,3 @@ To learn how to configure MIM for use with SharePoint Server 2016, see the follo
 Hybrid profiles can be configured as part of an overall SharePoint Hybrid deployment. Hybrid features help you integrate the user experience between SharePoint Server and Microsoft 365 by linking common features together or by automatically redirecting users to Microsoft 365 to use a given feature.
   
 With hybrid profiles, your users' profiles are handled entirely in Microsoft 365. If there is data in your on-premises network that you want to include in your Microsoft 365 profiles, you can create a custom solution to copy this data to Microsoft 365.
-  
-

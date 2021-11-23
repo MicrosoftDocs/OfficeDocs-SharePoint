@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45ad90e6-c2e1-497a-9d4e-e7ac32ae09a5
 description: "Learn how search results are displayed in SharePoint Server."
 ---
 
 # Understanding how classic search results are displayed in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In this article, you'll learn:
   

@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 144baa85-cbd8-45d6-9141-e6e688cac210
 description: "Learn how to create, publish and use a basic sales dashboard by using Excel and Excel Services in SharePoint Server 2013."
 ---
 
 # Create an Excel Services dashboard using SQL Server Analysis Services data
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 This article describes, step by step, how to use Excel 2016 to create a basic sales dashboard that contains several reports and a filter using an external data connection. The example dashboard described in this article resembles the following image:
   

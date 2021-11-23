@@ -8,9 +8,9 @@ ms.date: 3/2/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -22,7 +22,7 @@ description: "Learn how to plan for server-to-server authentication in SharePoin
 
 # Plan for server-to-server authentication in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 Server-to-server authentication enables servers that are capable of server-to-server authentication to access and request resources from one another on behalf of users. Servers that are capable of server-to-server authentication run SharePoint Server, Exchange Server 2016, Skype for Business Server 2015, Azure Workflow Service, or other software that supports the Microsoft server-to-server protocol. Server-to-server authentication enables a new set of functionality and scenarios that can be achieved through cross-server resource sharing and access.
   
@@ -69,13 +69,13 @@ For each farm that runs SharePoint Server, make a list of servers that are capab
   
  **Case 1: Farms are on-premises**
   
-If the farm that can perform server-to-server authentication is on-premises, you must configure the farm that runs SharePoint Server. Use the [New-SPTrustedSecurityTokenIssuer](/powershell/module/sharepoint-server/New-SPTrustedSecurityTokenIssuer?view=sharepoint-ps) PowerShell cmdlet to add a JavaScript Object Notation (JSON) metadata endpoint of the server that can perform server-to-server authentication to the server that runs SharePoint Server. If the server that can perform server-to-server authentication is another server that runs SharePoint Server, the JSON metadata endpoint is in the format: https://<HostName>/_layouts/15/metadata/json/1. 
+If the farm that can perform server-to-server authentication is on-premises, you must configure the farm that runs SharePoint Server. Use the [New-SPTrustedSecurityTokenIssuer](/powershell/module/sharepoint-server/New-SPTrustedSecurityTokenIssuer?view=sharepoint-ps&preserve-view=true) PowerShell cmdlet to add a JavaScript Object Notation (JSON) metadata endpoint of the server that can perform server-to-server authentication to the server that runs SharePoint Server. If the server that can perform server-to-server authentication is another server that runs SharePoint Server, the JSON metadata endpoint is in the format: https://<HostName>/_layouts/15/metadata/json/1. 
   
  **Case 2: Farms are part of a Microsoft 365 tenancy**
   
 If the farm that runs SharePoint Server and the other server that can perform server-to-server authentication are both part of a Microsoft 365 organization, no additional configuration for server-to-server authentication is needed.
   
-After you determine the set of servers that require server-to-server authentication, see [Configure server-to-server authentication in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server) to configure the server-to-server trust relationships. 
+After you determine the set of servers that require server-to-server authentication, see [Configure server-to-server authentication in SharePoint Server](./security-for-sharepoint-server.md) to configure the server-to-server trust relationships. 
   
 ## See also
 <a name="trust"> </a>
@@ -85,4 +85,3 @@ After you determine the set of servers that require server-to-server authenticat
 [Authentication overview for SharePoint Server](authentication-overview.md)
   
 [Server-to-server authentication and user profiles in SharePoint Server](server-to-server-authentication-and-user-profiles.md)
-

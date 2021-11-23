@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 74b5c26f-a033-4d3a-a2ae-812ef043c3a7
 description: "Add, configure, or delete Excel Services trusted data providers in SharePoint Server."
 ---
 
 # Manage Excel Services trusted data providers (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 > [!IMPORTANT]
 > The steps in this article apply to SharePoint Server 2013 Enterprise. 
@@ -95,5 +95,4 @@ Use the following procedure to delete a trusted data provider from Excel Service
 
 #### Other Resources
 
-[Configure Excel Services in SharePoint](/SharePoint/administration/configure-excel-services)
-
+[Configure Excel Services in SharePoint](./configure-excel-services.md)

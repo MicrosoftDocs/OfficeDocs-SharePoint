@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 432973c1-21c1-4fdc-87e6-a2252596937a
 description: "Specify whether a SharePoint Server crawler will crawl a site if there is a problem with the site's Secure Sockets Layer (SSL) certificate."
@@ -18,7 +18,7 @@ description: "Specify whether a SharePoint Server crawler will crawl a site if t
 
 # Configure the crawler in case of SSL certificate warnings in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 When a crawler requests a connection to crawl a site, the system generates a warning if there is a problem with the site's SSL certificate. By default, the crawler does not crawl the site when this happens. For security reasons, we strongly recommend that you do not change this default crawler behavior unless you have sufficient reason to do so.
   

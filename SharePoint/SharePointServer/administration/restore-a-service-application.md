@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -19,7 +19,7 @@ description: "Learn how to restore a service application in SharePoint Server."
 
 # Restore service applications in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You can restore a service application in SharePoint Server by using the SharePoint Central Administration website or Microsoft PowerShell. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization. 
   
@@ -62,7 +62,7 @@ You can use PowerShell to restore a service application.
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. 
   
-    For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+    For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
     
 2. Start the SharePoint Management Shell.
     
@@ -104,7 +104,7 @@ You can use PowerShell to restore a service application.
     
    -  _\<GUID\>_ is the ID of the backup to use. 
     
-For more information, see [Restore-SPFarm](/powershell/module/sharepoint-server/Restore-SPFarm?view=sharepoint-ps).
+For more information, see [Restore-SPFarm](/powershell/module/sharepoint-server/Restore-SPFarm?view=sharepoint-ps&preserve-view=true).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -162,7 +162,7 @@ You cannot restore the complete service application by using SQL Server tools. H
     
 8. On the Options tab, select the recovery state from the **Recover state** section.
     
-    For more information about which recovery type to use, see [ Recovery Models (SQL Server) ](https://go.microsoft.com/fwlink/p/?LinkID=626889&amp;clcid=0x409) in SQL Server Books Online.
+    For more information about which recovery type to use, see [ Recovery Models (SQL Server) ](/sql/relational-databases/backup-restore/recovery-models-sql-server?viewFallbackFrom=sql-server-2014) in SQL Server Books Online.
     
 9. Click **OK** to restore the database.
     
@@ -174,4 +174,3 @@ You cannot restore the complete service application by using SQL Server tools. H
 #### Concepts
 
 [Back up service applications in SharePoint Server](back-up-a-service-application.md)
-

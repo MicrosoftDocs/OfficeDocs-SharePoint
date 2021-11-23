@@ -1,15 +1,15 @@
 ---
 title: "Set Files On-Demand states in Windows"
-ms.reviewer: joleung
-ms.author: kaarins
-author: kaarins
-manager: pamgreen
+ms.reviewer: 
+ms.author: adjoseph
+author: adeejoseph
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: one-drive
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration

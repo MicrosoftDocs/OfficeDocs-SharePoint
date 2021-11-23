@@ -8,9 +8,9 @@ ms.date: 2/20/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -21,7 +21,7 @@ description: "Use this checklist as you upgrade from SharePoint 2010 Products to
 
 # Checklist for database-attach upgrade (SharePoint 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 This checklist helps you confirm that you follow all the steps that you must follow as you prepare for upgrade, perform the upgrade, and perform post-upgrade steps. This checklist applies only to upgrade of the content and service application databases. It does not apply to upgrade of My Sites or other site collections. For more information, see [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md).
   
@@ -58,7 +58,7 @@ Follow these steps in order while you upgrade the content and service applicatio
 |[ ]  <br/> |**Configure general farm settings** <br/> Reapply any general farm settings that you must have from your previous farm — such as blocked file types, e-mail setting, and quota settings — and add users or groups to the Farm Administrators group. Configure new settings such as usage and health data collection, diagnostic logging, and mobile accounts.  <br/> |Complete this step one time for the whole environment.  <br/> |
    
 > [!IMPORTANT]
-> If you had disabled the Workflow Auto Cleanup timer job in your SharePoint 2013 environment, make sure that you disable this timer job in your new environment also. If this timer job is enabled in the new environment and disabled in the previous version environment, you might lose workflow associations when you upgrade. For more information about this timer job, see [Disable preservation of workflow history (SharePoint Server 2010)](https://go.microsoft.com/fwlink/?LinkId=403874). 
+> If you had disabled the Workflow Auto Cleanup timer job in your SharePoint 2013 environment, make sure that you disable this timer job in your new environment also. If this timer job is enabled in the new environment and disabled in the previous version environment, you might lose workflow associations when you upgrade. For more information about this timer job, see [Disable preservation of workflow history (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/ee662522(v=office.14)). 
   
 Detailed steps for this phase: [Create the SharePoint 2013 farm for a database attach upgrade](create-the-sharepoint-2013-farm-for-a-database-attach-upgrade.md). 
   
@@ -123,7 +123,7 @@ Follow these steps in order after you perform a database-attach upgrade.
 |:-----|:-----|
 |[ ]  <br/> |**Verify that site collections are working as expecting in 2010 mode** <br/> Review the site collections and make sure that they work in 2010 mode before you begin to upgrade any site collections. You can use a similar review list as the one provided for upgraded sites in [Review site collections upgraded to SharePoint 2013](review-site-collections-upgraded-to-sharepoint-2013.md) <br/> > [!NOTE]> If the SharePoint 2013 Web Application was created in Windows Claims mode, complete the next step prior to testing site collections.           |Complete this step one time for your whole environment.  <br/> |
 |[ ]  <br/> |**Migrate user accounts to claims authentication, if it is necessary** <br/> By default, new web applications in SharePoint 2013 use claims authentication. If you were using classic authentication in the previous environment, you must migrate the users to claims authentication. For more information, see [Migrate from classic-mode to claims-based authentication in SharePoint 2013](migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013.md).  <br/> |Complete this step one time for every web application that has changed authentication methods.<br/> |
-|[ ]  <br/> |**Update links that are used in any upgraded InfoPath form templates** <br/> For a database-attach upgrade, you exported and imported all InfoPath form templates in your environment when you created the new environment. After upgrade, you can now update the links that are used in those upgraded form templates to point to the correct URLs by using a Microsoft PowerShell cmdlet.  <br/> For more information, see [Configure InfoPath Forms Services (SharePoint Server 2010)](https://go.microsoft.com/fwlink/?LinkId=403876).  <br/> |Complete this step one time for your whole environment.  <br/> |
+|[ ]  <br/> |**Update links that are used in any upgraded InfoPath form templates** <br/> For a database-attach upgrade, you exported and imported all InfoPath form templates in your environment when you created the new environment. After upgrade, you can now update the links that are used in those upgraded form templates to point to the correct URLs by using a Microsoft PowerShell cmdlet.  <br/> For more information, see [Configure InfoPath Forms Services (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/cc262263(v=office.14)).  <br/> |Complete this step one time for your whole environment.  <br/> |
 |[ ]  <br/> |**Configure your Search topology** <br/> The architecture for the Search service has changed for SharePoint 2013. Plan and configure your Search topology to suit your environment and the new architecture. For more information, see [Scale search for Internet sites in SharePoint Server](../search/scale-search-for-internet-sites.md) and [Manage the search topology in SharePoint Server](../search/manage-the-search-topology.md).  <br/> |Complete this step one time for your whole environment.  <br/> |
 |[ ]  <br/> |**Start a full crawl** <br/> After all content is upgraded and all settings are configured, you can start a full search crawl of your content. For more information, see [Start, pause, resume, or stop a crawl in SharePoint Server](../search/start-pause-resume-or-stop-a-crawl.md).  <br/> |Complete this step one time for your whole environment.  <br/> A full crawl can take several hours or days to complete, depending on how much content is in your environment.  <br/> |
 |[ ]  <br/> |**Back up your farm** <br/> Back up your farm so that you have a current backup of your upgraded environment before you start to upgrade site collections. For more information, see [Back up farms in SharePoint Server](../administration/back-up-a-farm.md).  <br/> |Complete this step one time for your whole environment.  <br/> |
@@ -145,5 +145,4 @@ Follow these steps in order after you perform a database-attach upgrade.
   
 [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md)
   
-[Test and troubleshoot an upgrade to SharePoint 2013](test-and-troubleshoot-an-upgrade-0.md)
-
+[Test and troubleshoot an upgrade to SharePoint 2013](test-troubleshoot-upgrade-2013.md)

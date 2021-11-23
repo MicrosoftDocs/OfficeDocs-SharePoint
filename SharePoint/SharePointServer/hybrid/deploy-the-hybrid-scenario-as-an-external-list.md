@@ -15,20 +15,20 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
 - SPO_Content
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d7173fc7-65cd-4201-8095-7ad805f50c95
 description: "Learn how to manually extract a Business Data Connectivity model, import the model into SharePoint in Microsoft 365, and manually create an external list to surface the on-premises data."
 ---
 
 # Deploy the Business Connectivity Services hybrid scenario as an external list
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 The procedures in this article show you how to integrate external data by using an external list. Make sure you've already [prepared your environment for the Business Connectivity Services hybrid scenario](prepare-your-environment.md) before you follow the procedures in this article. 
   
 ## Manually extract an external content type to a BDCM file
 
-The external content type that you configured must be manually extracted and saved as a file with a .bcdm extension. This is done by using Visual Studio 2012. Follow the procedure in [How to: Convert an App-Scoped External Content Type to Tenant-Scoped](https://go.microsoft.com/fwlink/?LinkId=290983) in the MSDN Library. 
+The external content type that you configured must be manually extracted and saved as a file with a .bcdm extension. This is done by using Visual Studio 2012. Follow the procedure in [How to: Convert an App-Scoped External Content Type to Tenant-Scoped](/sharepoint/dev/general-development/how-to-convert-an-add-in-scoped-external-content-type-to-tenant-scoped) in the MSDN Library. 
   
 You'll need the .bcdm file for the next procedure.
   
@@ -38,7 +38,7 @@ When you import the BDC Model file into SharePoint in Microsoft 365, you must be
   
  **To import a BDCM file into the SharePoint in Microsoft 365 BDC Metadata Store**
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365. 
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
 
 2. Under **BCS**, select **Open**.
     
@@ -77,4 +77,3 @@ Once the list is created, [validate the scenario](validate-the-hybrid-scenario.m
 #### Concepts
 
 [Deploy a Business Connectivity Services hybrid solution in SharePoint in Microsoft 365](deploy-a-business-connectivity-services-hybrid-solution.md)
-

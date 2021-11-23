@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 59be233e-be37-4639-b7b4-9059f5bb59ba
 description: "Learn how to import query suggestions in SharePoint Server."
 ---
 
 # Create and import query suggestions for the classic search experience in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 An easy way to help users search for information in SharePoint Server is to create  *query suggestions*  . Query suggestions are words that appear under the search box as users type a query. 
   
@@ -43,7 +43,7 @@ Now that you have a query suggestions file, the next task is to import it to Sha
 ## How to import a query suggestions file to SharePoint
 <a name="BKMK_HowToImportQuerySuggestionsFileToSharepointOnline"> </a>
 
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365. 
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
 
 2. Under **Search**, select **Open**.
   
@@ -106,5 +106,4 @@ To verify that your query suggestions are working correctly, in a search box, ty
 [Manage query suggestions in SharePoint Server](manage-query-suggestions.md)
 #### Other Resources
 
-[Customize query suggestions in SharePoint search](https://docs.microsoft.com/sharepoint/manage-query-suggestions)
-
+[Customize query suggestions in SharePoint search](../../SharePointOnline/manage-query-suggestions.md)

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cdd1d3d6-034e-458f-9324-c51d90fa9273
 
 description: "Excel 2013 offers a wide range of business intelligence capabilities. Learn which capabilities are supported in Excel Services (on premises)."
@@ -18,7 +18,7 @@ description: "Excel 2013 offers a wide range of business intelligence capabiliti
 
 # Business intelligence capabilities in Excel Service (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 Excel offers certain business intelligence capabilities that make it easier than ever to explore and analyze data. Many of these features are supported by Excel Services. Read this article to learn about which capabilities in Excel are supported in SharePoint Server 2013 and Office Web Apps Server. 
   
@@ -59,7 +59,7 @@ After you have created reports, scorecards, and dashboards using Excel, you can 
 
 |**Item**|**Supported in Excel Services in the on-premises version of SharePoint Server 2013?**|
 |:-----|:-----|
-|External data connections  <br/> |Most external data connections are supported in Excel Services. Excel Services supports SQL Server Analysis Services (SSAS), SQL Server databases, and OLE DB and ODBC data sources. For more information, see [Data authentication for Excel Services (SharePoint Server 2013)](/SharePoint/administration/excel-services-overview).  <br/> |
+|External data connections  <br/> |Most external data connections are supported in Excel Services. Excel Services supports SQL Server Analysis Services (SSAS), SQL Server databases, and OLE DB and ODBC data sources. For more information, see [Data authentication for Excel Services (SharePoint Server 2013)](./excel-services-overview.md).  <br/> |
 |Data Models  <br/> |Data Models are supported in Excel Services as long as an instance of SQL Server Analysis Services is specified for Excel Services. For more information, see [Plan Excel Services Data Model settings in SharePoint Server 2013](plan-excel-services-data-model-settings.md).  <br/> |
 |Flash Fill  <br/> |Flash Fill is not supported when you view a workbook in a browser window. You can edit a workbook in Excel to use Flash Fill.  <br/> |
 |Quick Analysis  <br/> |Quick Analysis is not supported when you view a workbook in a browser window. You can edit a workbook in Excel to use Quick Analysis.  <br/> |
@@ -70,7 +70,7 @@ After you have created reports, scorecards, and dashboards using Excel, you can 
 |Quick Explore  <br/> |The ability to use Quick Explore is supported in Excel Services. You can use Quick Explore to drill up and down to view higher or lower levels of information. However, you can't create new views using Quick Explore in a browser window.  <br/> |
 |Calculated Members and Calculated Measures  <br/> |The ability to use existing calculated members and calculated measures is supported in Excel Services. However, to create calculated members and calculated measures, you must use the Excel client.  <br/> |
 |Calculated Fields  <br/> |The ability to use existing calculated fields is supported in Excel Services. However, to create calculated fields, you must use Power Pivot for Excel.  <br/> |
-|Business Intelligence Center  <br/> |A Business Intelligence Center site template is available in SharePoint Server 2013. This enables you to create a site that serves as a central location to store business intelligence content, such as reports, scorecards, and dashboards. For more information, see [Configure a Business Intelligence Center in SharePoint Server 2013](/SharePoint/sharepoint-server).  <br/> |
+|Business Intelligence Center  <br/> |A Business Intelligence Center site template is available in SharePoint Server 2013. This enables you to create a site that serves as a central location to store business intelligence content, such as reports, scorecards, and dashboards. For more information, see [Configure a Business Intelligence Center in SharePoint Server 2013](../sharepoint-server.yml).  <br/> |
 |Excel Web Access Web Part  <br/> |An Excel Web Access Web Part is available in SharePoint Server 2013. This enables you to display all or part of an Excel workbook that was published to SharePoint Server 2013. For more information about how to use the Excel Web Access Web Part, see [Display Excel content in an Excel Web Access Web Part](https://go.microsoft.com/fwlink/p/?LinkId=296506).  <br/> |
    
 ## Business intelligence capabilities supported in Office Web Apps Server 2013 and SharePoint Server 2013
@@ -79,7 +79,7 @@ After you have created reports, scorecards, and dashboards using Excel, you can 
 Office Web Apps Server is the online companion to Office Word, Excel, PowerPoint, and OneNote applications. Office Web Apps Server gives users a browser-based viewing and editing experience by providing a representation of an Office document in the browser. Organizations that have SharePoint Server 2013 might also be using Office Web Apps Server, and that has certain implications for which business intelligence capabilities are supported in a browser window.
   
 > [!IMPORTANT]
-> If your organization is using Office Web Apps Server together with SharePoint Server 2013, then your organization can use either Office Web Apps Server or SharePoint Server 2013 to display workbooks. This decision affects which business intelligence capabilities are supported in a browser window. > To enable people to interact with workbooks that contain a Data Model or Power View views in a browser window, configure Excel Services in SharePoint Server 2013 to display workbooks. This requires a SharePoint admin to run the **New-SPWOPISupressionSetting** cmdlet on the server where SharePoint Server 2013 in installed. For more information, see [New-SPWOPISuppressionSetting](/powershell/module/sharepoint-server/New-SPWOPISuppressionSetting?view=sharepoint-ps). 
+> If your organization is using Office Web Apps Server together with SharePoint Server 2013, then your organization can use either Office Web Apps Server or SharePoint Server 2013 to display workbooks. This decision affects which business intelligence capabilities are supported in a browser window. > To enable people to interact with workbooks that contain a Data Model or Power View views in a browser window, configure Excel Services in SharePoint Server 2013 to display workbooks. This requires a SharePoint admin to run the **New-SPWOPISupressionSetting** cmdlet on the server where SharePoint Server 2013 in installed. For more information, see [New-SPWOPISuppressionSetting](/powershell/module/sharepoint-server/New-SPWOPISuppressionSetting?view=sharepoint-ps&preserve-view=true). 
   
 The following table summarizes the business intelligence features that are supported by Office Web Apps Server and by SharePoint Server 2013.
   
@@ -87,7 +87,7 @@ The following table summarizes the business intelligence features that are suppo
 
 |**Excel Capability**|**What's supported when Office Web Apps Server is used to display workbooks**|**What's supported when SharePoint Server 2013 is used to display workbooks**|
 |:-----|:-----|:-----|
-|External data connections and authentication methods  <br/> |Office Web Apps Server supports some, but not all, kinds of secure external data connections. Data connections that use Secure Store Service or an unattended service account are supported as long as SharePoint Server 2013 is configured to use these methods.  <br/> |SharePoint Server 2013 supports most kinds of external data connections. These include SQL Server Analysis Services (SSAS), SQL Server databases, and OLE DB and ODBC data sources.  <br/> For more information about authentication methods, see [Data authentication for Excel Services in SharePoint Server 2013 ](/SharePoint/administration/excel-services-overview).  <br/> |
+|External data connections and authentication methods  <br/> |Office Web Apps Server supports some, but not all, kinds of secure external data connections. Data connections that use Secure Store Service or an unattended service account are supported as long as SharePoint Server 2013 is configured to use these methods.  <br/> |SharePoint Server 2013 supports most kinds of external data connections. These include SQL Server Analysis Services (SSAS), SQL Server databases, and OLE DB and ODBC data sources.  <br/> For more information about authentication methods, see [Data authentication for Excel Services in SharePoint Server 2013 ](./excel-services-overview.md).  <br/> |
 |Data Models  <br/> |Office Web Apps Server enables you to view workbooks that contain Data Models that use native data. However, you can't explore data in items such as PivotTable reports, PivotChart reports, and timeline controls that use a Data Model as the data source.  <br/> |SharePoint Server 2013 enables you to view, interact with, and refresh workbooks that contain Data Models using native or external data. This includes the ability to explore data in PivotChart reports and PivotTable reports and to use timeline controls in a browser window.  <br/> |
 |Flash Fill  <br/> |Office Web Apps Server does not support using Flash Fill when you edit a workbook in a browser window. However, you can open the workbook in Excel to use Flash Fill.  <br/> |SharePoint Server 2013 does not support Flash Fill when you view a workbook in a browser window. However, you can open the workbook in Excel to use Flash Fill.  <br/> |
 |Quick Analysis  <br/> |Office Web Apps Server does not support using Quick Analysis when you edit a workbook in a browser window. However, you can use open the workbook in Excel to use Quick Analysis.  <br/> |SharePoint Server 2013 does not support Quick Analysis when you view a workbook in a browser window.  <br/> |
@@ -98,7 +98,7 @@ The following table summarizes the business intelligence features that are suppo
 |Quick Explore  <br/> |Office Web Apps Server enables you to use Quick Explore.  <br/> |SharePoint Server 2013 enables you to use Quick Explore.  <br/> |
 |Calculated Members and Calculated Measures  <br/> |Office Web Apps Server supports workbooks that contain calculated members and calculated measures. However, to create calculated members and calculated measures, you must use the Excel client.  <br/> |SharePoint Server 2013 enables you to use existing calculated members and calculated measures. However, to create calculated members and calculated measures, you must use the Excel client.  <br/> |
 |Calculated Fields  <br/> |Office Web Apps Server does not support calculated fields.  <br/> |SharePoint Server 2013 enables you to use existing calculated fields. However, to create calculated fields, you must use Power Pivot for Excel.  <br/> |
-|Business Intelligence Center  <br/> |You can use the Business Intelligence Center site template to create a central location to store business intelligence content, such as reports, scorecards, and dashboards. For more information, see [Configure a Business Intelligence Center in SharePoint Server 2013](/SharePoint/sharepoint-server).  <br/> |You can use the Business Intelligence Center site template to create a central location to store business intelligence content, such as reports, scorecards, and dashboards. For more information, see [Configure a Business Intelligence Center in SharePoint Server 2013](/SharePoint/sharepoint-server).  <br/> |
+|Business Intelligence Center  <br/> |You can use the Business Intelligence Center site template to create a central location to store business intelligence content, such as reports, scorecards, and dashboards. For more information, see [Configure a Business Intelligence Center in SharePoint Server 2013](../sharepoint-server.yml).  <br/> |You can use the Business Intelligence Center site template to create a central location to store business intelligence content, such as reports, scorecards, and dashboards. For more information, see [Configure a Business Intelligence Center in SharePoint Server 2013](../sharepoint-server.yml).  <br/> |
 |Excel Web Access Web Part  <br/> |The Excel Web Access Web Part that is available in SharePoint Server 2013 enables you to display all or part of an Excel workbook that was published to a SharePoint library in a Web Part on a SharePoint page. Even if Office Web Apps Server is used to display workbooks in a browser window, the Excel Web Access Web Part uses Excel Services in SharePoint Server 2013 to display content in that Web Part.  <br/> For more information about how to use the Excel Web Access Web Part, see [Display Excel content in an Excel Web Access Web Part](https://go.microsoft.com/fwlink/p/?LinkId=296506).  <br/> |The Excel Web Access Web Part that is available in SharePoint Server 2013 enables you to display all or part of an Excel workbook that was published to a SharePoint library in a Web Part on a SharePoint page.  <br/> For more information about how to use the Excel Web Access Web Part, see [Display Excel content in an Excel Web Access Web Part](https://go.microsoft.com/fwlink/p/?LinkId=296506).  <br/> |
    
 To learn more about Office Web Apps Server, see [Overview of Office Web Apps Server ](/webappsserver/office-web-apps-server-overview).
@@ -111,6 +111,6 @@ To learn more about Office Web Apps Server, see [Overview of Office Web Apps Ser
 [Overview of Excel Services in SharePoint Server 2013](excel-services-overview.md)
 #### Other Resources
 
-[What's new in business intelligence in SharePoint Server 2013](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016)
+[What's new in business intelligence in SharePoint Server 2013](../what-s-new/new-and-improved-features-in-sharepoint-server-2016.md)
   
 [Office Web Apps ](/webappsserver/office-web-apps-server)

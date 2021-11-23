@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Server r
 
 # Server role configuration isn't correct (SharePoint Server 2016)
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)] 
   
  **Rule Name:** Server role configuration isn't correct. 
   

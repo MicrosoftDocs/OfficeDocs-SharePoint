@@ -3,10 +3,11 @@ title: Mover Migration Connectors
 author: JoanneHendrickson
 ms.author: jhendr
 manager: serdars
+recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration

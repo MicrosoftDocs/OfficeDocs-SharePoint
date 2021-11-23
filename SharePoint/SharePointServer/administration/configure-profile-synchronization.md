@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 144e5f6e-0c9c-4f01-9b1f-26190d527e85
 description: "Learn how to synchronize user and group profile information by using the SharePoint Server 2013 profile synchronization method."
 ---
 
 # Synchronize user and group profiles in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 Configuring profile synchronization (or profile sync) is a process that involves many steps. This article divides the process into shorter phases, both so that you can see progress and to reduce the number of steps through which you have to backtrack if you make an error. There are four phases to configuring profile synchronization. Depending on your situation, you might not have to perform all of the phases. This article also includes Phase 0, which contains instructions for configuring the prerequisites that are required before you can configure profile synchronization.
   
@@ -87,7 +87,7 @@ To perform the tasks in this phase, you must be a member of the Farm Administrat
 ### Create a web application to host My Sites
 <a name="WebAppProc"> </a>
 
-In this procedure, you create the web application in which My Sites will reside. We recommend that My Sites be in a separate web application, although the web application may be in an application pool that is shared with other collaboration sites, or it may be in a separate application pool but in a shared IIS website. For more information about SharePoint Server 2013 sites, application pools, and IIS websites, see [Architecture design for SharePoint 2013 IT pros](/sharepoint/). For more detailed instructions about how to create a web application, see [Create a web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc261875(v=office.14)).
+In this procedure, you create the web application in which My Sites will reside. We recommend that My Sites be in a separate web application, although the web application may be in an application pool that is shared with other collaboration sites, or it may be in a separate application pool but in a shared IIS website. For more information about SharePoint Server 2013 sites, application pools, and IIS websites, see [Architecture design for SharePoint 2013 IT pros](../../Hub/index.yml). For more detailed instructions about how to create a web application, see [Create a web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc261875(v=office.14)).
   
  **To create a web application**
   
@@ -200,7 +200,7 @@ For more detailed instructions about how to create a User Profile service applic
     
 8. In the **My Site Host URL** section, enter the My Site Host site collection URL that you created in the previous step (see the Profile Synchronization Planning worksheet). 
     
-9. In the **My Site Managed Path** section, enter the part of the path which, when appended to the My Site host URL, will give the path of users' My Sites (see the Profile Synchronization Planning worksheet). For example, if the My Site host URL is http://server:12345/ and you want each user's My Site to be at http://server:12345/personal/<user name>, enter /personal for the My Site managed path. The managed path that you enter is created automatically. There does not already have to be a managed path with the name that you provide. 
+9. In the **My Site Managed Path** section, enter the part of the path which, when appended to the My Site host URL, will give the path of users' My Sites (see the Profile Synchronization Planning worksheet). For example, if the My Site host URL is http://server:12345/ and you want each user's My Site to be at http://server:12345/personal/user-name, enter /personal for the My Site managed path. The managed path that you enter is created automatically. There does not already have to be a managed path with the name that you provide. 
     
 10. In the **Site Naming Format** section, select a naming scheme. 
     
@@ -227,12 +227,12 @@ If the NetBIOS name of any domain with which you are synchronizing differs from 
     
   - Administrators group on the server on which you are running PowerShell cmdlets.
     
-  - You must read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050).
+  - You must read [about_Execution_Policies](/previous-versions//dd347641(v=technet.10)).
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Paste the following code into a text editor, such as Notepad:
     
@@ -598,7 +598,7 @@ Use this procedure to synchronize profile information between SharePoint Server 
 2. If you have already imported users or created My Sites, and you have enabled NetBIOS domain names, you must disable the My Site cleanup timer job before you start profile synchronization. 
 
 > [!NOTE] 
-> For information about this timer job, please see the [Default timer jobs in SharePoint Server 2013](https://docs.microsoft.com/sharepoint/technical-reference/default-timer-jobs-in-sharepoint-2013). For information about the PowerShell cmdlets that you use to enable and disable this timer job, see [SharePoint Server cmdlet reference](https://docs.microsoft.com/powershell/module/sharepoint-server).
+> For information about this timer job, please see the [Default timer jobs in SharePoint Server 2013](../technical-reference/default-timer-jobs-in-sharepoint-2013.md). For information about the PowerShell cmdlets that you use to enable and disable this timer job, see [SharePoint Server cmdlet reference](/powershell/module/sharepoint-server).
     
 3. If the user account that is performing this procedure is a farm administrator, complete these steps. Otherwise, if the user account is not a farm administrator go to the next step: 
     
@@ -628,7 +628,7 @@ Use this procedure to synchronize profile information between SharePoint Server 
     
 15. In the **Find Profiles** box, type the domain for the profiles, and then click **Find**.
     
-16. For each profile that is returned, check the originating directory service, such as Active Directory, for the status of that profile. If the status of any of the returned profiles in the directory is not disabled or is not deleted, do not enable the My Site cleanup timer job. Contact Microsoft support for more assistance. Otherwise, enable the My Site cleanup timer job. For information about the PowerShell cmdlets that you use to enable and disable this timer job, see the [SharePoint Server cmdlet reference](/powershell/module/sharepoint-server/?view=sharepoint-ps).
+16. For each profile that is returned, check the originating directory service, such as Active Directory, for the status of that profile. If the status of any of the returned profiles in the directory is not disabled or is not deleted, do not enable the My Site cleanup timer job. Contact Microsoft support for more assistance. Otherwise, enable the My Site cleanup timer job. For information about the PowerShell cmdlets that you use to enable and disable this timer job, see the [SharePoint Server cmdlet reference](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true).
     
 A full synchronization can take a long time. If you refresh the **Manage Profile Service** page, the right side of the page displays the progress of the synchronization job. Be aware that profile synchronization consists of several stages, and the profiles will not be imported immediately. The **Manage Profile Service** page is not refreshed automatically as synchronization progresses. 
   
@@ -792,4 +792,3 @@ The SharePoint Server 2013 Content Publishing team thanks Spencer Harbar, Enterp
 [Schedule profile synchronization in SharePoint Server](schedule-profile-synchronization.md)
   
 [Plan profile synchronization for SharePoint Server 2013](plan-profile-synchronization-for-sharepoint-server-2013.md)
-

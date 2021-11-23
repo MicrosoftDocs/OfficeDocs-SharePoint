@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Take a SharePoint tutorial that can help you learn how to enable R
 
 # Video: How to enable Remote Windows PowerShell to use with SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]  
   
 By using Remote Microsoft PowerShell, you can make the administration of a SharePoint farm easier. To learn how to enable it, watch the following video.
   

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: a61b531f-218e-4edf-ab90-f2f30f490900
 description: "Learn how to configure enterprise search in a SharePoint Server environment."
@@ -18,7 +18,7 @@ description: "Learn how to configure enterprise search in a SharePoint Server en
 
 # Configure enterprise search in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Enterprise search finds the information that's most relevant to an organization's customers, employees, and partners. Enterprise search empowers them to take action and drive business outcomes.
 

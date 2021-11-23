@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to address problems that may occur after you upgrade a s
 
 # Troubleshoot site collection upgrade issues in SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 When you upgrade a site collection to SharePoint 2013, errors can occasionally occur. This article helps you understand those errors and address them.
   
@@ -38,7 +38,7 @@ Upgrade status indicators and log files should give you an indication of what we
     
 3. Review the site collection upgrade log files. You can review the site collection upgrade logs from the following locations:
     
-  - **For site collection administrators:** There are also log files for site collection upgrade stored inside the site collection itself, in the Maintenance Logs catalog at (http://<SiteName>/_catalogs/MaintenanceLogs/YYYYMMDD-HHMMSS-SSS.txt , where  _YYYYMMDD_ is the date and  _HHMMSS-SSS_ is the time (hours in 24-hour clock format, minutes, seconds, and milliseconds). 
+  - **For site collection administrators:** There are also log files for site collection upgrade stored inside the site collection itself, in the Maintenance Logs catalog at (`http://<SiteName>/_catalogs/MaintenanceLogs/YYYYMMDD-HHMMSS-SSS.txt` , where  _YYYYMMDD_ is the date and  _HHMMSS-SSS_ is the time (hours in 24-hour clock format, minutes, seconds, and milliseconds). 
     
   - **For farm administrators:** The site collection upgrade log file and the upgrade error log file are located at %COMMONPROGRAMFILES%\Microsoft Shared\Web server extensions\15\LOGS. The logs are named in the following format: SiteUpgrade-  _YYYYMMDD-HHMMSS-SSS_.log, where  _YYYYMMDD_ is the date and  _HHMMSS-SSS_ is the time (hours in 24-hour clock format, minutes, seconds, and milliseconds). These file system logs have more information if you want details about issues. 
     
@@ -83,14 +83,14 @@ This error indicates that a third-party content type was added to the specified 
 
 - **A:** Either edit the page or reset the page to the default version, or remove or replace the custom files.
     
-    A problem with custom or inline JavaScript or CSS files can cause these issues. For more information, see [Branding issues that may occur when upgrading to SharePoint 2013 [Migrated]](/SharePoint/upgrade-and-update/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013).
+    A problem with custom or inline JavaScript or CSS files can cause these issues. For more information, see [Branding issues that may occur when upgrading to SharePoint 2013 [Migrated]](./branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013.md).
     
 ### Q: Custom content in my site disappeared or doesn't work
 <a name="UI"> </a>
 
 - **A:** Change the master page, or change the content so that it doesn't require specific zones. 
     
-    The master page might have different zone layouts and the content might no longer reference it correctly. As a last resort, you can also reset the page to the default version. However, if you reset the page, you might lose zone specific content. For more information, see [Branding issues that may occur when upgrading to SharePoint 2013 [Migrated]](/SharePoint/upgrade-and-update/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013).
+    The master page might have different zone layouts and the content might no longer reference it correctly. As a last resort, you can also reset the page to the default version. However, if you reset the page, you might lose zone specific content. For more information, see [Branding issues that may occur when upgrading to SharePoint 2013 [Migrated]](./branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013.md).
     
 ### Q: I receive an error that says a control or page cannot render
 <a name="UI"> </a>
@@ -126,14 +126,14 @@ This error indicates that a third-party content type was added to the specified 
   
 To support the new faster, more fluid UI in SharePoint 2013, changes have been made to the default master pages and CSS files. For this reason, you cannot apply a master page created in SharePoint 2010 to a site in SharePoint 2013. However, when you upgrade your SharePoint 2010 site to SharePoint 2013, the master page is reset to use the default master page in SharePoint 2013. Therefore, after upgrade, your site will not appear with its custom branding. 
   
-To resolve this, you should first create an evaluation site collection, and then re-create the master page in the SharePoint 2013 site. For more information, see [Branding issues that may occur when upgrading to SharePoint 2013 [Migrated]](/SharePoint/upgrade-and-update/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013).
+To resolve this, you should first create an evaluation site collection, and then re-create the master page in the SharePoint 2013 site. For more information, see [Branding issues that may occur when upgrading to SharePoint 2013 [Migrated]](./branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013.md).
   
 ### Q: My upgraded site does not render at all; instead, I see an "unexpected error" with a correlation ID
 <a name="UI"> </a>
 
  **A:** Your custom branding may use a custom master page that contains a custom content placeholder. 
   
-If your custom master page contains a custom content placeholder, and if custom page layouts also contain this custom content placeholder, then an error may prevent the home page of your site from rendering at all after upgrade. Instead, after upgrade, you may see the error message "An unexpected error has occurred." For more information, see [Branding issues that may occur when upgrading to SharePoint 2013 [Migrated]](/SharePoint/upgrade-and-update/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013).
+If your custom master page contains a custom content placeholder, and if custom page layouts also contain this custom content placeholder, then an error may prevent the home page of your site from rendering at all after upgrade. Instead, after upgrade, you may see the error message "An unexpected error has occurred." For more information, see [Branding issues that may occur when upgrading to SharePoint 2013 [Migrated]](./branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013.md).
   
 ## See also
 
@@ -143,7 +143,6 @@ If your custom master page contains a custom content placeholder, and if custom 
   
 [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md)
   
-[Test and troubleshoot an upgrade to SharePoint 2013](test-and-troubleshoot-an-upgrade-0.md)
+[Test and troubleshoot an upgrade to SharePoint 2013](test-troubleshoot-upgrade-2013.md)
   
 [Use a trial upgrade to SharePoint 2013 to find potential issues](/previous-versions/office/sharepoint-server-2010/cc262155(v=office.14))
-

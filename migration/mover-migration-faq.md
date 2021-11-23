@@ -3,10 +3,11 @@ title: Mover Migration FAQ
 author: JoanneHendrickson
 ms.author: jhendr
 manager: serdars
+recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
@@ -58,7 +59,7 @@ In Office 365, ownership of files and folders is always implicitly set by virtue
 
 Not recommended. Any major changes in directory structure should happen before or after your migration. It is also not a good idea to use our app to rearrange content.
 
-The risks that come with rearranging content during the migration are primarily in the form of data duplication; our incremental process sees all changes as new data. So, for example, if you change a folder name at the root, we detect that as a new folder, and all of the contents is re-transfered, including all subfolders.
+The risks that come with rearranging content during the migration are primarily in the form of data duplication; our incremental process sees all changes as new data. So, for example, if you change a folder name at the root, we detect that as a new folder, and all of the contents is re-transferred, including all subfolders.
 
 When sharing permissions are transferred, both owners and collaborators receive duplicate data if content has been rearranged or renamed.
 

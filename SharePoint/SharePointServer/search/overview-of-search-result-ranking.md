@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 7c8ddec1-c8ff-4a90-afae-387b27a653f1
 description: "Learn how SharePoint Server uses ranking models to calculate the relevance rank of search results for the classic search experience and how you can influence the order of search results by using query rules, the search schema and ranking models."
@@ -18,7 +18,7 @@ description: "Learn how SharePoint Server uses ranking models to calculate the r
 
 # Overview of search result ranking in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The search engine calculates the relevance rank, that is to say, the order in which the search results for a query appear. The ranking model is at the core of this calculation. In most cases, you can influence relevance by using the available SharePoint Server ranking models in combination with query rules without having to consider customizing any ranking models. 
   
@@ -216,7 +216,7 @@ Examples of when you may want to create and use a custom ranking model:
 > [!CAUTION]
 > If you create a custom ranking model, this influences all the queries using that ranking model. You should test the effect of the custom ranking model on many queries. 
   
-You can read more about how to create, deploy and use a custom ranking model in the article [Customizing ranking models to improve relevance in SharePoint 2013](https://msdn.microsoft.com/library/c166ecdd-7f93-4bbb-b543-2687992dd2bc.aspx) on MSDN. 
+You can read more about how to create, deploy and use a custom ranking model in the article [Customizing ranking models to improve relevance in SharePoint 2013](/sharepoint/dev/general-development/customizing-ranking-models-to-improve-relevance-in-sharepoint) on MSDN. 
   
 > [!NOTE]
 > If you want to create a custom ranking model for the default search results, use a copy of the **Search Ranking Model with Two Linear Stages** as the base model for your custom ranking model, it will be easier to re-tune and customize your ranking model. 
@@ -229,5 +229,4 @@ You can read more about how to create, deploy and use a custom ranking model in 
   
 [Overview of the search schema in SharePoint Server](search-schema-overview.md)
   
-[Create a custom ranking model by using the Ranking Model Tuning App](https://docs.microsoft.com/sharepoint/search/create-custom-ranking-model)
-
+[Create a custom ranking model by using the Ranking Model Tuning App](./create-custom-ranking-model.md)

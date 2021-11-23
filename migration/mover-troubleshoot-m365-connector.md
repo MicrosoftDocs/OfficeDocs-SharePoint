@@ -3,10 +3,11 @@ title: Mover migration - Troubleshoot Office 365 connector
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
@@ -25,7 +26,7 @@ If your connector authorization fails with **Tenant lacks SPO license** error, t
 
 For additional information related to Azure Active Directory licenses, see:
 
--   [What is Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)   
+-   [What is Azure Active Directory?](/azure/active-directory/fundamentals/active-directory-whatis)   
 
 
 

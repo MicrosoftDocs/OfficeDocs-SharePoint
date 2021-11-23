@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -19,7 +19,7 @@ description: "Learn about how SharePoint supports Internet Explorer, Google Chro
 
 # Plan browser support in SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]. 
   
 SharePoint 2013 supports several commonly used web browsers, such as ![Internet Explorer browser logo](../media/internetexplorersmall.png) Internet Explorer, ![Google Chrome browser logo](../media/chrome-small.jpg) Google Chrome, ![Mozilla Firefox browser logo](../media/firefox_small.png) Mozilla Firefox, ![Apple Safari browser logo](../media/safari-small.png) Apple Safari, and Microsoft Edge. However, certain web browsers could cause some SharePoint 2013 functionality to be downgraded, limited, or available only through alternative steps. 
   

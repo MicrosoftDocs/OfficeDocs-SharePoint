@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: reference
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 52966fa3-1654-41b2-aea5-d1d5d007534e
 description: "Learn how to apply a disaster recovery strategy for Access Services in SharePoint Server."
@@ -18,7 +18,7 @@ description: "Learn how to apply a disaster recovery strategy for Access Service
 
 # Disaster Recovery best practices for SharePoint Server and Access Services
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The article explains how to successfully implement a disaster recovery (DR) strategy for Access Services service applications for SharePoint Server.
   

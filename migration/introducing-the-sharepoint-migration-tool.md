@@ -4,77 +4,73 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
+- m365solution-scenario
 ms.custom:
 - seo-marvel-apr2020
-description: "This article is an overview of the SharePoint Migration Tool and provides resources for download and support."
+description: "Overview of the SharePoint Migration Tool and resources for download and support."
 ---
 
-# Download and install the SharePoint Migration Tool
+# Overview of the SharePoint Migration Tool (SPMT)
 
+The SharePoint Migration Tool (SPMT) is a free and easy to use migration solution to help you migrate content from on-premises SharePoint sites to Microsoft 365.
 
-Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool (SPMT) will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Microsoft 365.
+Migrate your SharePoint Server sites and content to take advantage of the latest collaboration, intelligence, and security solutions in Microsoft 365. The modern experience features in Microsoft SharePoint are designed to be compelling, flexible, and performant.
 
-**SPMT** lets you migrate content to SharePoint and OneDrive from the following locations:
+SPMT supports migration to SharePoint, OneDrive, and Teams from:
 
-- SharePoint Server 2016
-- SharePoint Server 2013
-- SharePoint Foundation 2013
-- SharePoint Server 2010
-- SharePoint Foundation 2010
-- Network and local file shares
+- SharePoint Server 2010, 2013, and 2016
+- SharePoint Foundation 2010 and 2013
 
->[!Note]
->Learn more about how to migrate your file shares with [Migration Manager](mm-get-started.md).
-  
-</br></br>
+For a complete description of features, see [What does SPMT support?](what-is-supported-SPMT.md) 
 
+All SPMT functionality is also supported in PowerShell, if you prefer to use that method. See [Migrate to SharePoint using PowerShell](overview-spmt-ps-cmdlets.md).
 
-## Current and pre-release versions
+### Supported authentication methods
 
-Download and install SPMT using one of the links listed below.  
+SPMT supports NTLM, Kerberos, Forms, ADFS, multifactor authentication, SAML-based claims, and Client certificate authentication.
 
-
-|**Public preview**|**First release**|**General Availability**|
-|:-----|:-----|:-----|
-|[Install here](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm) |[Install here](https://aka.ms/spmt-ga-page)|[Install here](https://aka.ms/spmt-ga-page)|
-
-
-
-After downloading and installing SPMT, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started.
-
-If you experience issues with your installation, see [Troubleshooting installation issues](spmt-install-issues.md).
-
-
-
-## Supported features
-
-For a complete description of features see:  [What does SPMT support?](what-is-supported-SPMT.md) 
-
-If you prefer using PowerShell, all SPMT functionality is supported. For more information see: [Migrate to SharePoint using PowerShell](overview-spmt-ps-cmdlets.md).
-
-
+> [!IMPORTANT]
+> If the on-premises server is configured to support multiple authentication providers, including Windows authentication, then Windows authentication **will not be supported**. If this describes your environment, use other authentication methods instead of Windows authentication. 
 
 ## Planning and assessment
 
-Planning is the key to a successful data migration.  The SharePoint Migration Assessment Tool (SMAT) is a simple command line executable that will scan the contents of your SharePoint Server 2013 farm to help identify any issues with data you plan to migrate to SharePoint in Microsoft 365. The results report points you to articles to help you fix any issues that were discovered. The tool runs in the background without impacting your production environment.
+Planning is the key to successful data migration. The *SharePoint Migration Assessment Tool* (SMAT) is a simple command-line tool that scans your SharePoint Server 2013 farm to help identify potential issues with the data that you plan to migrate to SharePoint in Microsoft 365. The results report points to articles to help fix any issues that are discovered. The tool runs in the background and doesn't affect your production environment.
   
-To download the tool: [SharePoint Migration Assessment Tool (SMAT)](https://www.microsoft.com/download/details.aspx?id=53598&amp;751be11f-ede8-5a0c-058c-2ee190a24fa6=True)
+To download the tool, go to [SharePoint Migration Assessment Tool (SMAT)](https://www.microsoft.com/download/details.aspx?id=53598&amp;751be11f-ede8-5a0c-058c-2ee190a24fa6=True)
   
 >[!NOTE]
->The **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. It is also not available for users of Microsoft 365 with the German cloud using the data trustee, *German Telekom*. However, it is supported for users in Germany whose data location is not in the German datacenter.
+>The *SharePoint Migration Tool* isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
 
 
-## Related Topics
+## Get started
+
+To get started:
+
+Make sure that you have:
+
+- **Access to the destination**: You must either be a global admin or OneDrive/SharePoint admin. 
+- **Access to the source**: SharePoint credentials that have read access to the SharePoint Server content you plan to migrate.
+- **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
+
+#### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
+#### [Step 2: Create a migration task](spmt-create-task.md)
+#### [Step 3: Monitor and report](using-the-sharepoint-migration-tool-reports.md)
+
+
+
+## Related articles
 
 [What does SPMT support?](what-is-supported-SPMT.md)
 
@@ -84,10 +80,9 @@ To download the tool: [SharePoint Migration Assessment Tool (SMAT)](https://www.
   
 [How to format your JSON or CSV for data content migration](how-to-format-your-csv-file-for-data-content-migration.md)
   
-[Create a user mapping file for data content migration](create-a-user-mapping-file-for-data-content-migration.md)
+[Create a user-mapping file for data content migration](create-a-user-mapping-file-for-data-content-migration.md)
   
 [SharePoint and OneDrive migration speed](sharepoint-online-and-onedrive-migration-speed.md)
   
 [SharePoint provided Azure containers and queues for SharePoint Migration API](sharepoint-online-provided-azure-containers-and-queues-for-spo-migration-api.md)
   
-

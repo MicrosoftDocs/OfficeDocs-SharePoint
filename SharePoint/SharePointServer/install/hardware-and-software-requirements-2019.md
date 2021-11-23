@@ -10,19 +10,19 @@ f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - SP2019
 ms.custom: 
 ms.assetid: 4d88c402-24f2-449b-86a6-6e7afcfec0cd
-description: "Find out the minimum hardware and software requirements you need to install and run SharePoint Server."
+description: "Find out the minimum hardware and software requirements you need to install and run SharePoint Server 2019."
 ---
 
 # Hardware and software requirements for SharePoint Server 2019
 
-[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-xxx-md.md)] 
   
 > [!IMPORTANT]
 > If you contact Microsoft Customer Support Services about a production system that does not meet the minimum hardware specifications described in this document, support will be limited until the system is upgraded to the minimum requirements. 
@@ -51,7 +51,7 @@ The values in the following table are minimum values for installations on server
   
 For all installation scenarios, you must have sufficient hard disk space for the base installation and sufficient space for diagnostics such as logging, debugging, creating memory dumps, and so on. For production use, you must also have additional free disk space for day-to-day operations. In addition, maintain two times as much free space as you have RAM for production environments.
   
-For information about hardware and software requirements for Microsoft SQL Server 2016 or higher, see [Hardware and Software Requirements for Installing SQL Server](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?view=sql-server-2017).
+For information about hardware and software requirements for Microsoft SQL Server 2016 or higher, see [Hardware and Software Requirements for Installing SQL Server](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server).
   
 |**Installation scenario**|**Deployment type and scale**|**RAM**|**Processor**|**Hard disk space**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -76,13 +76,13 @@ The requirements in the following section apply to the following installations:
     
   
 > [!NOTE]
-> SharePoint Server 2019 supports drives that are formatted with the Resilient File System (ReFS). For additional information about ReFs, see [Resilient File System Overview](https://go.microsoft.com/fwlink/p/?LinkId=618431) and [Resilient File System](https://go.microsoft.com/fwlink/p/?LinkId=618432)
+> SharePoint Server 2019 supports drives that are formatted with the Resilient File System (ReFS). For additional information about ReFs, see [Resilient File System Overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831724(v=ws.11)) and [Resilient File System](/windows/win32/w8cookbook/resilient-file-system--refs-)
 
 > [!IMPORTANT]
-> SharePoint Server 2019 requires a minimum Active Directory domain and forest functional level of Windows Server 2003 (native). For more information about Active Directory functional levels, see [Forest and Domain Functional Levels](https://docs.microsoft.com/windows-server/identity/ad-ds/active-directory-functional-levels).
+> SharePoint Server 2019 requires a minimum Active Directory domain and forest functional level of Windows Server 2003 (native). For more information about Active Directory functional levels, see [Forest and Domain Functional Levels](/windows-server/identity/ad-ds/active-directory-functional-levels).
   
 > [!IMPORTANT]
-> SharePoint Server 2019 does not support single label domain names. For more information, see [Information about configuring Windows for domains with single-label DNS names](https://go.microsoft.com/fwlink/p/?LinkID=193849). 
+> SharePoint Server 2019 does not support single label domain names. For more information, see [Information about configuring Windows for domains with single-label DNS names](/troubleshoot/windows-server/identity/deployment-operation-ad-domains). 
   
 The Microsoft SharePoint Products Preparation Tool can assist you in the installation of the software prerequisites for SharePoint Server 2019. Ensure that you have an Internet connection because some prerequisites are installed from the Internet.
   
@@ -110,6 +110,8 @@ One of the following server operating systems:
 - Windows Server 2016 Standard or Datacenter
     
 - Windows Server 2019 Standard or Datacenter 
+
+- Windows Server 2022 Standard or Datacenter 
     
 #### Minimum requirements for SharePoint servers in a farm
 
@@ -118,6 +120,8 @@ One of the following server operating systems:
 - Windows Server 2016 Standard or Datacenter (Desktop Experience)
     
 - Windows Server 2019 Standard or Datacenter (Desktop Experience)
+
+- Windows Server 2022 Standard or Datacenter (Desktop Experience)
 
 > [!NOTE]
 > We don't support installing or upgrading SharePoint 2019 RTM on a server that previously hosted a prerelease version of SharePoint. A new server build is required to host SharePoint 2019 RTM.
@@ -142,7 +146,7 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
 - Microsoft .NET Framework version 4.7.2
     
 - Microsoft SQL Server 2012 Service Pack 4 Native Client
-    
+
 - Microsoft WCF Data Services 5.6
     
 - Microsoft Identity Extensions
@@ -164,7 +168,7 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
     
 #### Minimum requirements for client computers
 
-- A supported browser. For more information, see [Plan browser support in SharePoint Server 2019](browser-support-planning-0.md).
+- A supported browser. For more information, see [Plan browser support in SharePoint Server 2019](browser-support-planning-2016-2019.md).
 
 ## Manually configure Windows Server Roles and Features
 To manually configure the required Windows Server Roles and Features, you can use one of two methods: 1. Server Manager 2. Microsoft PowerShell
@@ -207,15 +211,17 @@ In scenarios where installing prerequisites directly from the Internet is not po
 - [Windows Server 2016](https://www.microsoft.com/evalcenter/evaluate-windows-server-2016)
     
 - [Windows Server 2019](https://www.microsoft.com/evalcenter/evaluate-windows-server-2019)
+
+- [Windows Server 2022](https://www.microsoft.com/evalcenter/evaluate-windows-server-2022)
     
 - [Microsoft SQL Server 2016](https://www.microsoft.com/evalcenter/evaluate-sql-server-2016) 
 
 - [Microsoft SQL Server 2017 RTM](https://www.microsoft.com/evalcenter/evaluate-sql-server-2017-rtm)
     
 - [Microsoft .NET Framework version 4.7.2](https://www.microsoft.com/net/download/dotnet-framework-runtime)
-    
-- [Microsoft WCF Data Services 5.6](https://go.microsoft.com/fwlink/p/?LinkId=320724 )
-    
+
+- [Microsoft WCF Data Services 5.6](https://go.microsoft.com/fwlink/p/?LinkId=320724)
+
 - [Microsoft Information Protection and Control Client (MSIPC)](https://go.microsoft.com/fwlink/p/?LinkId=544913)
    
 - [Microsoft SQL Server 2012 SP4 Feature Pack - Native Client \x64\sqlncli.msi](https://www.microsoft.com/download/details.aspx?id=56041)
@@ -249,8 +255,8 @@ The SharePoint Server 2019 prerequisite installer (prerequisiteinstaller.exe) in
     
 5. Microsoft Identity Extensions
     
-6. Microsoft Information Protection and Control Client 2.1
-    
+6. Microsoft Information Protection and Control Client 2.1\
+
 7. Microsoft WCF Data Services 5.6
     
 8. Microsoft .NET Framework 4.7.2
@@ -260,15 +266,14 @@ The SharePoint Server 2019 prerequisite installer (prerequisiteinstaller.exe) in
 10. Visual C++ Redistributable Package for Visual Studio 2012
     
 11. Visual C++ Redistributable Package for Visual Studio 2017
-   
-    
-You can run prerequisiteinstaller.exe at a command prompt with the following options. When you run prerequisiteinstaller.exe at a command prompt, you might be asked to restart the server one or more times during the installation process. After restarting, you should continue the prerequisite installation by running prerequisiteinstaller.exe with the /continue option.
+
+You can run prerequisiteinstaller.exe at a command prompt with the following options. When you run prerequisiteinstaller.exe at a command prompt, you might be asked to restart the server one or more times during the installation process. After restarting, you should continue the prerequisite installation by running prerequisiteinstaller.exe with the `/continue` option.
   
-- /? This displays command-line options.
+- `/?` displays command-line options.
     
-- /continue This is used to tell the installer that it is continuing from being restarted.
+- `/continue` is used to tell the installer that it is continuing from being restarted.
     
-- /unattended This indicates no user interaction.
+- `/unattended` indicates no user interaction.
     
 The installer installs from the file that you specify in the command-line options described in the following list. In this list, < _file_> signifies the file from which you want to install. If you do not specify the < _file_> option, the installer downloads the file from the Internet and installs it. If the option does not apply to the current operating system, it is ignored.
   
@@ -283,7 +288,7 @@ The installer installs from the file that you specify in the command-line option
 - **/MSIPCClient:<_file_>** Install Microsoft Information Protection and Control Client from <_file_>.
 
 - **/KB3092423:<_file_>** Install Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB3092423) from <_file_>.
-    
+
 - **/WCFDataServices56:<_file_>** Install Microsoft WCF Data Services 5.6 from <_file_>.
     
 - **/DotNet472:<_file_>** Install Microsoft .NET Framework 4.7.2 from <_file_>.

@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -19,7 +19,7 @@ description: "Learn how to resolve alerts about the Machine Translation service 
 
 # Machine Translation service in SharePoint Server knowledge articles
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Learn how to resolve alerts about the Machine Translation service in the SharePoint Servers 2019, 2016, and 2013 management pack for Systems Center Operations Manager (SCOM).
   
@@ -294,7 +294,7 @@ Resolution 2: Verify the SQL Server network connection:
     
 Resolution 3: Verify Server to Server Authentication is configured correctly:
   
-See [Configure server-to-server authentication in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
+See [Configure server-to-server authentication in SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md).
   
 ## Machine Translation Service: Worker failure
 <a name="TransWorker"> </a>
@@ -373,4 +373,3 @@ Resolution 5: Create a new Machine Translation Service application
 [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568)
   
 [System Center Monitoring Pack for SharePoint Server 2016](https://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409)
-

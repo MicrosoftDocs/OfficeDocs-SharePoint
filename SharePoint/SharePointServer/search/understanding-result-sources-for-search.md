@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f3855245-795f-4a77-bc70-5456511eaadd
 description: "Use a result source in SharePoint Server to specify a provider to get search results from for the classic search experience, and optionally to narrow a search to a subset of those results."
@@ -18,7 +18,7 @@ description: "Use a result source in SharePoint Server to specify a provider to 
 
 # Understanding result sources for search in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article provides a brief overview of result sources in SharePoint Server. 
 
@@ -40,7 +40,7 @@ A result source can also specify other settings, such as an authentication metho
   
 An example of a pre-configured result source is "Local Video Results". This result source specifies the local SharePoint search index as the provider and "Local SharePoint" as the protocol, and it has a query transform that specifies that it will return only files that have file extensions that correspond to videos, such as MP4. The "Local Video Results" result source is used by the Videos search experience, or search vertical, on the default enterprise Search Center results page.
   
-The following screen shot shows the four search experiences that are available on a default enterprise Search Center results page. The user can choose one of these search experiences before submitting a query from the search box.
+The following screenshot shows the four search experiences that are available on a default enterprise Search Center results page. The user can choose one of these search experiences before submitting a query from the search box.
   
 ![enterprise Search Center default search experiences](../media/Videos_search_experience.gif)
   
@@ -98,7 +98,6 @@ A result source specifies one of four protocols to use to get search results, as
 | Local SharePoint                                 | The search index of the local Search service                                                                                     |
 | Remote SharePoint                                | The search index of a Search service hosted in another farm                                                                      |
 | OpenSearch 1.0/1.1                               | An external search provider (such as a remote search engine or feed) that uses the OpenSearch protocol to provide search results |
-| Exchange                                         | Exchange Web Services                                                                                                            |
    
 A result source that uses a protocol other than "Local SharePoint" must also specify a URL from which to get search results, as shown in the following table.
   
@@ -108,7 +107,6 @@ A result source that uses a protocol other than "Local SharePoint" must also spe
 | :------------------------------------------ | :----------------------------------------------------------------------------- |
 | Remote SharePoint                           | The address of the root site collection of the remote SharePoint Server farm   |
 | OpenSearch 1.0/1.1                          | The URL of the RSS feed of a search provider that uses the OpenSearch protocol |
-| Exchange                                    | An Exchange Web Services URL                                                   |
    
 ## Who can create result sources?
 <a name="BKMK_Who"> </a>
@@ -118,7 +116,7 @@ Result sources can be created at the Search service application level, site coll
 ## Specifying a result source to use for a query
 <a name="BKMK_When"> </a>
 
-A query is initially associated with a result source according to the search experience in which the user performs the query. For example, if a user clicks **People** below a search box (see the screen shot earlier in this article) to specify the People search experience, the query uses the "Local People Results" result source. 
+A query is initially associated with a result source according to the search experience in which the user performs the query. For example, if a user clicks **People** below a search box (see the screenshot earlier in this article) to specify the People search experience, the query uses the "Local People Results" result source. 
   
 A Search Box Web Part is always associated with a particular Search Results Web Part. When a user types a query in a search box, the Search Box Web Part sends the query to the associated Search Results Web Part. That Search Results Web Part specifies the result source for the query; by default, this result source is "Local SharePoint Results". You can set a different result source as the default. You can also edit any Search Results Web Part to specify a different result source for it to use. For example, you might add a new search experience called "Reports", and create a search results page for displaying search results for that search experience. You could then edit the default Search Results Web Part that is on the new Reports results page to specify an appropriate result source for that search experience. An example of such a result source would be a SharePoint site that contains content types that correspond to reports. For more information, see the following resources:
   
@@ -145,7 +143,7 @@ Each pre-configured result source uses a query transform and thus provides an ex
   
 {?{searchTerms} ContentClass=urn:content-class:SPSPeople}
   
-For more information, see [Building search queries in SharePoint 2013 (https://msdn.microsoft.com/library/jj163973.aspx)](https://msdn.microsoft.com/library/jj163973.aspx).
+For more information, see [Building search queries in SharePoint 2013 (/sharepoint/dev/general-development/building-search-queries-in-sharepoint)](/sharepoint/dev/general-development/building-search-queries-in-sharepoint).
   
 ## See also
 <a name="BKMK_How-does_query_transform_affect_query"> </a>
@@ -157,4 +155,3 @@ For more information, see [Building search queries in SharePoint 2013 (https://m
 [Transforming queries in result sources](plan-to-transform-queries-and-order-results.md#Trans_Result_Sources)
   
 [About result sources and federation](plan-crawling-and-federation.md#Section12)
-

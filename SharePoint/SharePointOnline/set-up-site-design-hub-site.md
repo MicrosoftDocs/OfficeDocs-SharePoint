@@ -3,13 +3,14 @@ title: "Set up a site design for your hub site"
 ms.reviewer: metorres
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
+recommendations: true
 audience: Admin
 f1.keywords:
 - CSH
 ms.topic: overview
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: 
 - Adm_O365
 - seo-marvel-apr2020

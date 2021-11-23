@@ -7,9 +7,9 @@ ms.date: 6/24/2019
 ms.audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -18,7 +18,7 @@ description: "Learn how Request Manager in SharePoint Server can route and throt
 ---
 
 # Configure Request Manager in SharePoint Server
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]  
 
 
 ## Overview ##
@@ -47,7 +47,7 @@ The following table describes possible scenarios and resolutions that Request Ma
 
 Request Manager's task is to decide two things: a SharePoint farm will accept a request, and if the answer is "yes", to which front-end web server SharePoint Server will send it. The three major functional components of Request Manager are Request Routing, Request Throttling and Prioritizing, and Request Load Balancing. These components determine how to handle requests. Request Manager manages all requests on a per-web-application basis. Because Request Manager is part of the SharePoint Server  Internet Information Services (IIS) module, it only affects requests that IIS hosts.
 
-When a new request is received, Request Manager is the first code that runs in a SharePoint farm. Although Request Manager is installed during setup of SharePoint Server on a front-end web server, the Request Management service is not enabled. You can use the [Start-SPServiceInstance](https://docs.microsoft.com/powershell/module/sharepoint-server/start-spserviceinstance?view=sharepoint-ps) and [Stop-SPServiceInstance](https://docs.microsoft.com/powershell/module/sharepoint-server/stop-spserviceinstance?view=sharepoint-ps) cmdlets to start and stop the Request Management service instance respectively or the Manage services on server page on the the SharePoint Central Administration website. You can use the **RoutingEnabled** or **ThrottlingEnabled** parameters of the [Set-SPRequestManagementSettings](https://docs.microsoft.com/powershell/module/sharepoint-server/set-sprequestmanagementsettings?view=sharepoint-ps) Microsoft PowerShell cmdlet to change properties of Request Manager.
+When a new request is received, Request Manager is the first code that runs in a SharePoint farm. Although Request Manager is installed during setup of SharePoint Server on a front-end web server, the Request Management service is not enabled. You can use the [Start-SPServiceInstance](/powershell/module/sharepoint-server/start-spserviceinstance?view=sharepoint-ps&preserve-view=true) and [Stop-SPServiceInstance](/powershell/module/sharepoint-server/stop-spserviceinstance?view=sharepoint-ps&preserve-view=true) cmdlets to start and stop the Request Management service instance respectively or the Manage services on server page on the the SharePoint Central Administration website. You can use the **RoutingEnabled** or **ThrottlingEnabled** parameters of the [Set-SPRequestManagementSettings](/powershell/module/sharepoint-server/set-sprequestmanagementsettings?view=sharepoint-ps&preserve-view=true) Microsoft PowerShell cmdlet to change properties of Request Manager.
 
 **NOTE**: There is no user interface to configure properties of Request Manager. The Windows PowerShell cmdlet is the only way to perform this task.
 
@@ -79,7 +79,7 @@ Request Manager has two configurable parts: **General settings** and **Decision 
 
 ### General settings ##
 
-By default, request routing and request throttling and prioritizing are enabled. You use the [Set-SPRequestManagementSettings](https://docs.microsoft.com/powershell/module/sharepoint-server/set-sprequestmanagementsettings?view=sharepoint-ps) cmdlet to change the properties of request routing, request throttling and prioritizing, and select a routing weight scheme.
+By default, request routing and request throttling and prioritizing are enabled. You use the [Set-SPRequestManagementSettings](/powershell/module/sharepoint-server/set-sprequestmanagementsettings?view=sharepoint-ps&preserve-view=true) cmdlet to change the properties of request routing, request throttling and prioritizing, and select a routing weight scheme.
 
 The table describes the configuration situation and Windows PowerShell syntax to use.
 

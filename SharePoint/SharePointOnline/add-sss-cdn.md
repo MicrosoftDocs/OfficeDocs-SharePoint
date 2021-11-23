@@ -4,12 +4,13 @@ ms.reviewer: holland-odsp
 ms.author: hokavian
 author: pamgreen-msft
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
@@ -23,7 +24,7 @@ description: "In this article, learn how to add the SharePoint Success Site play
 ---
 # Add the SharePoint Success Site playlist to your M365 Learning Pathways solution
 
-If you already have [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) solution provisioned, you can add the SharePoint Success Site Content Pack to M365 learning pathways without [provisioning the SharePoint Success Site template](https://docs.microsoft.com/sharepoint/provision-sss). In the learning pathways administration page, you can add a reference to the SharePoint Success Site CDN (Content Delivery Network), so the SharePoint Success Site content can be delivered through the Learning Pathways Web part. 
+If you already have [Microsoft 365 learning pathways](/office365/customlearning/) solution provisioned, you can add the SharePoint Success Site Content Pack to M365 learning pathways without [provisioning the SharePoint Success Site template](./provision-sss.md). In the learning pathways administration page, you can add a reference to the SharePoint Success Site CDN (Content Delivery Network), so the SharePoint Success Site content can be delivered through the Learning Pathways Web part. 
 
 The SharePoint Success Site’s up-to-date CDN includes a range of content that helps new users and existing site owners plan, build, and manage SharePoint sites:
 
@@ -47,7 +48,7 @@ The SharePoint Success Site’s up-to-date CDN includes a range of content that 
 
 - **Content Pack Id/Partner Id:** a748d357-1879-436f-96fc-20dd1fed87bb
 - **Display Name:** SharePoint Success Site
-- **Base URL:** http://microsoft.github.io/customlearning_staging/SSK/
+- **Base URL:** https://pnp.github.io/custom-learning-office-365/sss/
 
 
 
@@ -80,5 +81,4 @@ You can add the Learning Pathways Web part to a SharePoint page, and then filter
 
 
 
-For more information about filtering content, see [Add and edit the Microsoft 365 learning pathways web part](https://docs.microsoft.com/office365/customlearning/custom_addwebpart). 
-
+For more information about filtering content, see [Add and edit the Microsoft 365 learning pathways web part](/office365/customlearning/custom_addwebpart).

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: e913bd67-b50b-47d7-9784-2d312b97de0b
 description: "Learn how to organize SharePoint Server content and metadata to make the content easier to find."
@@ -18,7 +18,7 @@ description: "Learn how to organize SharePoint Server content and metadata to ma
 
 # Best practices for organizing content for search in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 These best practices for organizing SharePoint Server content and applying useful metadata will help make sure that the right content is included in the search index and that the right content is returned in search results. 
   

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5fe4de15-946a-4944-aab3-3de379901add
 description: "Learn how site columns are transformed into managed properties in SharePoint Server 2016."
@@ -18,7 +18,7 @@ description: "Learn how site columns are transformed into managed properties in 
 
 # From site column to managed property - What's up with that?
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)] 
   
 ## Quick overview
 

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
@@ -23,29 +23,27 @@ description: "Learn how to prepare the on-premises account and security group to
 
 # Prepare your environment for the Business Connectivity Services hybrid scenario
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
   
 This example of the Microsoft Business Connectivity Services (BCS) hybrid scenario shows you how to use standard Windows domain security to control access to the on-premises OData service endpoint. You configure one domain account with which to access the OData service endpoint, and one global security group for your federated user accounts. Then, you map the group to the account by using a Secure Store Service target application.
   
-## 
-
- **To prepare on-premises security for the BCS hybrid scenario**
+**To prepare on-premises security for the BCS hybrid scenario**
   
 1. Identify all the user accounts in your on-premises domain that need to use the BCS hybrid solution and make sure that they are federated accounts. You will add these accounts to a domain global security group later in this procedure.
     
-2. In your on-premises domain, [create a service account](https://go.microsoft.com/fwlink/?LinkId=287046) that will access the OData service endpoint. These procedures use an account named **ODataAccount**.
+2. In your on-premises domain, [create a service account](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732336(v=ws.11)) that will access the OData service endpoint. These procedures use an account named **ODataAccount**.
     
-3. In your on-premises domain, [create a global security group](https://go.microsoft.com/fwlink/?LinkId=287048). These procedures use a group named **ODataGroup**.
+3. In your on-premises domain, [create a global security group](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc733146(v=ws.11)). These procedures use a group named **ODataGroup**.
     
 4. Add the accounts that you identified in step 1 to the **ODataGroup** group. 
     
 ## Create and configure a Secure Store target application
 
- In this procedure, you link the **ODataGroup** to the **ODataAccount** by using a Secure Store target application. This way, users in the **ODataGroup** access the OData service endpoint through only one account, the **ODataAccount**.
+In this procedure, you link the **ODataGroup** to the **ODataAccount** by using a Secure Store target application. This way, users in the **ODataGroup** access the OData service endpoint through only one account, the **ODataAccount**.
   
 In this procedure, you create and configure the on-premises Secure Store target application named **ODataApp** for the BCS hybrid scenario. (You can choose a different name if you want.) 
   
- **To create a target application**
+**To create a target application**
   
 1. On the Central Administration home page, in the **Application Management** section, select **Manage service applications**.
     
@@ -69,7 +67,7 @@ In this procedure, you create and configure the on-premises Secure Store target 
     
 Next, we need to add the credentials that we'll be using.
   
- **To set credentials for a target application**
+**To set credentials for a target application**
   
 1. In the target application list, point at the target application that you just created, select the arrow that appears, and then, in the menu, select **Set credentials**.
     
@@ -85,13 +83,13 @@ Next, we need to add the credentials that we'll be using.
 
 The BCS hybrid scenario supports connecting only to an OData source. If your external data already has an OData service endpoint, then you can skip the creating an OData service endpoint portions of this procedure. You will still need to configure permissions on the service endpoint for the **ODataAccount**. For the purposes of these procedures, we use the SQL Server[Adventureworks sample database](https://go.microsoft.com/fwlink/?LinkId=290978) and the [AdventureWorks 2012 LT sample data](https://go.microsoft.com/fwlink/?LinkId=290980) as the data source and create an OData service endpoint to make the data available to the BCS hybrid solution. You use Visual Studio 2012 to create and configure the OData service. 
   
-To create and configure the OData service endpoint, perform the procedures in [How to: Create an OData data service that sends notifications to BCS in SharePoint 2013](https://go.microsoft.com/fwlink/?LinkId=290977) in the MSDN Library. You will need the **ODataAccount** account to secure the service endpoint in Internet Information Services (IIS) 7.0. 
+To create and configure the OData service endpoint, perform the procedures in [How to: Create an OData data service that sends notifications to BCS in SharePoint 2013](/sharepoint/dev/general-development/how-to-create-an-odata-data-service-for-use-as-a-bcs-external-system) in the MSDN Library. You will need the **ODataAccount** account to secure the service endpoint in Internet Information Services (IIS) 7.0. 
   
 ## Prepare the SharePoint in Microsoft 365 site and App Catalog
 
 The BCS hybrid scenario publishes on-premises data to select users of SharePoint in Microsoft 365. You can present the data either through a SharePoint in Microsoft 365 external list or through an app for SharePoint in Microsoft 365. In either case, you must identify or create a site in SharePoint in Microsoft 365 through which the data will be offered. If you choose to use an app for SharePoint in Microsoft 365, you must also have a SharePoint in Microsoft 365 App Catalog configured.
   
- **To prepare the SharePoint in Microsoft 365 site and App Catalog**
+**To prepare the SharePoint in Microsoft 365 site and App Catalog**
   
 1. Identify or [create a site](https://go.microsoft.com/fwlink/?LinkId=288864) in SharePoint in Microsoft 365 for your external list or app for SharePoint in Microsoft 365. Ensure that all the federated users who will be using the BCS hybrid solution are added to the **Members** group for access to the site. (The easiest way to do this is to add your ODataGroup as a Member.) 
     
@@ -104,9 +102,9 @@ The BCS hybrid scenario publishes on-premises data to select users of SharePoint
 
 The Business Data Connectivity service (BDC) Metadata Store holds external content types, external systems, and BDC model definitions for the BDC Service Application. In this procedure, you configure administrative permissions on the Metadata Store and everything that it will contain. Later in this scenario, if you are using the manual import of the external content type method, you will be using the BDC Metadata Store. This external content type will be available across SharePoint in Microsoft 365. If you will only be using the automated deployment of an app for SharePoint in Microsoft 365, then you will not use the BDC Metadata Store, and the external content type is scoped to the app only.
   
- **To set permissions on the BDC Metadata Store in SharePoint in Microsoft 365**
+**To set permissions on the BDC Metadata Store in SharePoint in Microsoft 365**
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
 
 2. Under **BCS**, select **Open**.
     
@@ -132,7 +130,7 @@ Before you begin this procedure, make sure you have the following:
     
 - The credentials of a federated account.
     
- **To confirm access to external URL**
+**To confirm access to external URL**
   
 1. Copy the certificate to your extranet computer, and then click the certificate. You will be prompted for the certificate password. This adds the certificate to your personal certificate store.
     
@@ -154,9 +152,9 @@ Before you begin this procedure, make sure you have the following:
     
 - The ID of the Secure Store target application for the Secure Channel certificate in Microsoft 365.
     
- **To configure the connection settings object for the BCS hybrid scenario**
+**To configure the connection settings object for the BCS hybrid scenario**
   
-1. go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365. 
+1. go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
 
 2. Under **BCS**, select **Open**.
     
@@ -171,7 +169,7 @@ Before you begin this procedure, make sure you have the following:
   
 6. In the **Service Address** box, enter the URL of the OData service endpoint that you created. 
     
-7. For this scenario, select the **Use credentials stored in Sharepoint on-premises** as the authentication option, and then enter the name of target application ID that holds the group to account mapping. In this scenario, it is **ODataApp** that you created. 
+7. For this scenario, select the **Use credentials stored in SharePoint on-premises** as the authentication option, and then enter the name of target application ID that holds the group to account mapping. In this scenario, it is **ODataApp** that you created. 
     
 8. In the **Authentication Mode** dropdown, select **Impersonate Window's Identity**.
     
@@ -195,7 +193,7 @@ Before you begin, make sure you have the following:
     
 - Microsoft Office Tools for Visual Studio 2012
     
-After you have all of that, complete the steps in [How to: Create an external content type from an OData source in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=290982) in the MSDN Library. 
+After you have all of that, complete the steps in [How to: Create an external content type from an OData source in SharePoint 2013](/sharepoint/dev/general-development/how-to-create-an-external-content-type-from-an-odata-source-in-sharepoint) in the MSDN Library. 
   
 When you are done creating the external content type, [deploy the hybrid scenario to an external list](deploy-the-hybrid-scenario-as-an-external-list.md).
   
@@ -206,4 +204,3 @@ When you are done creating the external content type, [deploy the hybrid scenari
 [Deploy a Business Connectivity Services hybrid solution in SharePoint in Microsoft 365](deploy-a-business-connectivity-services-hybrid-solution.md)
   
 [Overview of Business Connectivity Services security tasks in SharePoint Server](../administration/security-tasks-overview.md)
-

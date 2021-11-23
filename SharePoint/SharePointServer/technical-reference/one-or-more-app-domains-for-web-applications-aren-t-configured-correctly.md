@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: One or m
 
 # One or more app domains for web applications aren't configured correctly (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
  **Rule Name:** One or more app domains for web applications aren't configured correctly. 
   
@@ -30,6 +30,4 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: One or m
   
  **Resolution:**
   
-1. You have to configure the app domains for web applications. For more information, see [Enable apps in AAM or host-header environments for SharePoint 2016](/SharePoint/administration/plan-for-apps-for-sharepoint).
-    
-
+1. You have to configure the app domains for web applications. For more information, see [Enable apps in AAM or host-header environments for SharePoint 2016](../administration/plan-for-apps-for-sharepoint.md).

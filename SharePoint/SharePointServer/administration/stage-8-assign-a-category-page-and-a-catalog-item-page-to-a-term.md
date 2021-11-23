@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 4e9272a2-78f0-4257-a896-26ae55ff0e51
 description: "Learn how to assign a category page and a catalog item page to a term in SharePoint Server 2016."
@@ -18,7 +18,7 @@ description: "Learn how to assign a category page and a catalog item page to a t
 
 # Stage 8: Assign a category page and a catalog item page to a term in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 > [!NOTE]
 > Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 

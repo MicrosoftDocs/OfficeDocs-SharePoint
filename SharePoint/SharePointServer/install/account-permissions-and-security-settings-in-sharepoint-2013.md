@@ -8,9 +8,9 @@ ms.date: 9/8/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn what permissions and security settings to use with a deploym
 
 # Account permissions and security settings in SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 This article describes SharePoint administrative and services account permissions for the following areas: Microsoft SQL Server, the file system, file shares, and registry entries.
   
@@ -225,7 +225,7 @@ Members of the WSS_SHELL_ACCESS role have the execute permission for all stored 
 The **SP_READ_ONLY** role should be used for setting the database to read only mode instead of using sp_dboption. This role as its name suggests should be used when only read access is required for data such as usage and telemetry data. 
   
 > [!NOTE]
-> The sp_dboption stored procedure is not available in SQL Server 2012. For more information about sp_dboption see [sp_dboption (Transact-SQL)](https://go.microsoft.com/fwlink/?LinkId=507398). 
+> The sp_dboption stored procedure is not available in SQL Server 2012. For more information about sp_dboption see [sp_dboption (Transact-SQL)](/previous-versions/sql/sql-server-2008-r2/ms187310(v=sql.105)). 
   
 The SP_READ_ONLY SQL role will have the following permissions:
   

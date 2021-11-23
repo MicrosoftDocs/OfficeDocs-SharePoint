@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 2d8373ff-0808-40b7-8a21-5534720719f4
 description: "Learn about the query variables that you can use when you configure a query."
@@ -18,7 +18,7 @@ description: "Learn about the query variables that you can use when you configur
 
 # Query variables in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 ## Query variables
 

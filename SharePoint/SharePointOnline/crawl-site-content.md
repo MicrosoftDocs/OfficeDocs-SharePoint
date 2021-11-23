@@ -1,16 +1,17 @@
 ---
 title: "Manually request crawling and re-indexing of a site, a library or a list"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
+recommendations: true
 ms.date: 6/20/2018
 audience: End User
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - MET150
@@ -65,4 +66,4 @@ See also: [Enable content on a site to be searchable](make-site-content-searchab
 2. Scroll down to **Reindex Document Library** or **Reindex List**, and click the button. The content will be re-indexed during the next scheduled crawl.
     
 ## See also
-[Get-PnPSearchCrawlLog](https://docs.microsoft.com/powershell/module/sharepoint-pnp/get-pnpsearchcrawllog)
+[Get-PnPSearchCrawlLog](/powershell/module/sharepoint-pnp/get-pnpsearchcrawllog)

@@ -8,9 +8,9 @@ ms.date: 3/13/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn about the Microsoft Identity Manager (MIM) in SharePoint Ser
 
 # Microsoft Identity Manager in SharePoint Servers 2016 and 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
   
 When it comes to User Profile synchronization there are more options in SharePoint Server 2016 than previous versions. The articles in this section provide information on MIM and how to use it in SharePoint Server 2016. 
   

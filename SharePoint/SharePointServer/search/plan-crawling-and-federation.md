@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 4356bad9-de1d-4e81-b049-17248b4a86c1
 description: "Plan to crawl or federate for search in SharePoint Server."
@@ -18,7 +18,7 @@ description: "Plan to crawl or federate for search in SharePoint Server."
 
 # Plan crawling and federation in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Before users can perform searches in SharePoint Server, you must crawl or federate the content that you want them to be able to search. When you crawl content, the Search service builds a search index that users can run queries (search requests) against. You can also configure the Search system to display search results from an external provider (such as Bing) alongside the results from the local search index. The process of getting search results from an external provider and displaying the results locally is called federation.
   
@@ -62,7 +62,7 @@ You can crawl only one kind of content per content source. For example, you can 
    
 #### Content sources for line-of-business data
 
-Business data content sources require that the applications hosting the data are specified in an Application Model in a Business Data Connectivity service application. You can create one content source to crawl all applications that are registered in the Business Data Connectivity service, or you can create separate content sources to crawl individual applications. For more information, see [Search connector framework in SharePoint 2013](https://msdn.microsoft.com/library/office/ee556429%28v=office.15%29) (This MSDN article also applies to SharePoint Server). 
+Business data content sources require that the applications hosting the data are specified in an Application Model in a Business Data Connectivity service application. You can create one content source to crawl all applications that are registered in the Business Data Connectivity service, or you can create separate content sources to crawl individual applications. For more information, see [Search connector framework in SharePoint 2013](/sharepoint/dev/general-development/search-connector-framework-in-sharepoint) (This MSDN article also applies to SharePoint Server). 
   
 Often, the people who plan for integration of business data into site collections are not the same people involved in the overall content planning process. Therefore, include business application administrators in content planning teams so that they can advise you how to integrate the business application data into content and effectively present it in the site collections. 
   
@@ -281,5 +281,4 @@ To use federation in SharePoint Server, you select one of the following protocol
   
 [Default crawled file name extensions and parsed file types in SharePoint Server](../technical-reference/default-crawled-file-name-extensions-and-parsed-file-types.md)
   
-[Search connector framework in SharePoint 2013](https://msdn.microsoft.com/library/office/ee556429%28v=office.15%29)
-
+[Search connector framework in SharePoint 2013](/sharepoint/dev/general-development/search-connector-framework-in-sharepoint)

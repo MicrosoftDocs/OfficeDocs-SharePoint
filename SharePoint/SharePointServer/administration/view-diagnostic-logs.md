@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: ae1e3447-46e2-45f9-852a-ab39f23345d4
 description: "Learn to view and filter log events by using Microsoft PowerShell, and view and export diagnostic logs by using the Out-GridView cmdlet."
@@ -18,7 +18,7 @@ description: "Learn to view and filter log events by using Microsoft PowerShell,
 
 # View diagnostic logs in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can troubleshoot problems in the farm by using data from the Unified Logging Service (ULS) logs in SharePoint Server . The ULS logs can collect data at varying levels depending on the logging settings. Use PowerShell to filter the data, display it in various ways, and output the data to a data grid with which you can filter, sort, group, and export data to Excel 2016.
   
@@ -41,7 +41,7 @@ You can use PowerShell to view and filter log events. You cannot view or filter 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Go to the SharePoint Management Shell.
     
@@ -107,7 +107,7 @@ You can use PowerShell to view and filter log events. You cannot view or filter 
   Get-SPLogEvent | Where-Object {$_.Area -eq "SharePoint Foundation"} | Format-List
   ```
 
-For more information, see [Get-SPLogEvent](/powershell/module/sharepoint-server/Get-SPLogEvent?view=sharepoint-ps). 
+For more information, see [Get-SPLogEvent](/powershell/module/sharepoint-server/Get-SPLogEvent?view=sharepoint-ps&preserve-view=true). 
   
 ## View and export diagnostic logs by using the PowerShell Out-GridView cmdlet
 <a name="section2"> </a>
@@ -140,7 +140,7 @@ PowerShell provides a powerful and easy-to-use feature that displays tabular dat
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Go to the SharePoint Management Shell.
     
@@ -184,6 +184,4 @@ PowerShell provides a powerful and easy-to-use feature that displays tabular dat
     
 3. Open the spreadsheet workbook page, and then paste the copied rows into it by using CTRL+V.
     
-For more information, see [Out-GridView](https://go.microsoft.com/fwlink/p/?LinkId=181248) and [Out-GridView Revisited](https://devblogs.microsoft.com/powershell/out-gridview-revisited/). 
-  
-
+For more information, see [Out-GridView](/previous-versions//dd315268(v=technet.10)) and [Out-GridView Revisited](https://devblogs.microsoft.com/powershell/out-gridview-revisited/). 

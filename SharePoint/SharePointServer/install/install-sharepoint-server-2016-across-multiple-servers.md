@@ -7,9 +7,9 @@ manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Critical
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -22,7 +22,7 @@ description: "Learn how to install SharePoint Servers to create a SharePoint ser
 
 # Install SharePoint Servers 2016 or 2019 across multiple servers
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
   
 The deployment sequence and configurations that are described in this article are based on recommended best practices. While the farm configuration is not complex, it provides a fundamental infrastructure to implement a SharePoint Server solution on similar — or more complex farms.
   
@@ -56,7 +56,7 @@ For additional information about MinRole, see [Overview of MinRole Server Roles 
 
 Before you begin to install and configure SharePoint Servers 2016 or 2019, do the following:
   
-- Ensure that you are familiar with the operating-system guidelines described in [Performance Tuning Guidelines for Windows Server 2012 R2](https://msdn.microsoft.com/library/dn529133%28v=vs.85%29.aspx).
+- Ensure that you are familiar with the operating-system guidelines described in [Performance Tuning Guidelines for Windows Server 2012 R2](/previous-versions//dn529133(v=vs.85)).
     
 - Ensure that you have met all hardware and software requirements. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md). For SharePoint Server 2019, see [Hardware and software requirements for SharePoint Server 2019](hardware-and-software-requirements-2019.md).
     
@@ -248,5 +248,3 @@ After you install and configure SharePoint Server, your browser window opens to 
 - **Configure outgoing email** You can configure outgoing email so that your Simple Mail Transfer Protocol (SMTP) server sends email alerts to site users and notifications to site administrators. You can configure both the "From" email address and the "Reply" email address that appear in outgoing alerts. 
     
 - **Configure Search settings** You can configure Search settings to crawl the content in SharePoint Servers 2016 or 2019. 
-    
-

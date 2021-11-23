@@ -3,13 +3,14 @@ title: "SharePoint Migration Identity Mapping Active Directory Identity Scan"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 ms.date: 01/5/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - SPmigration
 - M365-collaboration

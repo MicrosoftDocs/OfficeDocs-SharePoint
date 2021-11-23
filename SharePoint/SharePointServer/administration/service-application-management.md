@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to manage and share service applications across farms in
 
 # Manage service applications in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 SharePoint Server includes a set of service applications that you can use to share services across web applications. In some cases, you can also share service applications across farms. You can manage service applications by using the SharePoint Central Administration website or by using Windows PowerShell 3.0. 
   
@@ -61,9 +61,7 @@ Some SharePoint service applications have specific instructions for their creati
 |Subscription Settings and App Management service <br/> |[Configure the Subscription Settings and App Management service applications](configure-an-environment-for-apps-for-sharepoint.md) <br/> |
 |Business Data Connectivity service <br/> |[Configure a Business Data Connectivity service application in SharePoint Server](configure-a-business-data-connectivity-service-application.md) <br/> |
 |Machine Translation service <br/> |[Turn on automated document translation in SharePoint Server](turn-on-automated-document-translation.md) <br/> |
-|Word Automation Service <br/> |[Configuring Word Automation Services](https://docs.microsoft.com/previous-versions/office/developer/sharepoint-2010/ee557330(v=office.14)) <br/> |
-|PowerPoint Automation Service <br/> |[PowerPoint Automation Services in SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/powerpoint-automation-services-in-sharepoint) <br/> |
+|Word Automation Service <br/> |[Configuring Word Automation Services](/previous-versions/office/developer/sharepoint-2010/ee557330(v=office.14)) <br/> |
+|PowerPoint Automation Service <br/> |[PowerPoint Automation Services in SharePoint](/sharepoint/dev/general-development/powerpoint-automation-services-in-sharepoint) <br/> |
    
 ## See also
-
-

@@ -7,9 +7,9 @@ manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -21,7 +21,7 @@ description: "Understand the disaster recovery options and supported technologie
 
 # Choose a disaster recovery strategy for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 We define disaster recovery as the ability to recover from a situation in which the primary data center that hosts a SharePoint Server farm is unable to continue to operate. Regardless of the nature of event and its cause, the data center outage is significant enough to set into motion the actions defined in your organization's disaster recovery plan. This means putting a fully operational farm into production using computer resources that are located in a data center that is not affected by the event.
   
@@ -67,7 +67,7 @@ Each of these standby data centers has specific characteristics and requirements
     
     **Cons:** The slowest option to recover. 
     
-- Warm standby disaster recovery strategy with [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-sharepoint).
+- Warm standby disaster recovery strategy with [Azure Site Recovery](/azure/site-recovery/site-recovery-sharepoint).
     
     **Pros:** Often fairly inexpensive to recover, because a virtual server farm can require little configuration upon recovery. 
     

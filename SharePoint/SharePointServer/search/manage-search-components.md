@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 197ce911-c4f6-40a3-84c1-fb5999623b51
 description: "Learn how to use Windows PowerShell to manage search components in an existing search topology that has content in the SharePoint Server search index. Use these procedures to scale out or scale down the search topology of the Search service application."
@@ -18,7 +18,7 @@ description: "Learn how to use Windows PowerShell to manage search components in
 
 # Manage search components in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The procedures and the examples in this article assume that SharePoint ServerSharePoint Server and the Search service application are installed, and that there is an existing search topology and items in the SharePoint Server search index. If SharePoint Server and the Search service application are newly installed and there are no items in the SharePoint Server search index, follow the procedures in [Change the default search topology in SharePoint Server](change-the-default-search-topology.md).
   

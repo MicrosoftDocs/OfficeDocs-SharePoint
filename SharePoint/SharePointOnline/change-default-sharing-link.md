@@ -3,7 +3,7 @@ title: "Change the default sharing link for a site"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - CSH
@@ -13,7 +13,7 @@ ms.custom:
 - 'SharingLinkTypeLearnMore'
 - 'seo-marvel-apr2020'
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
@@ -62,6 +62,12 @@ For info about the changing this setting at the organization level, see [File an
     ![Screenshot of site-level default sharing link settings](media/default-sharing-link-type-site.png)
 
 5. Choose the default sharing link setting that you want to use for this site, and then select **Save**.
+
+### Use a sensitivity label to configure the default sharing link settings
+
+If you are using [sensitivity labels](/microsoft-365/compliance/sensitivity-labels) to classify and protect your SharePoint sites, you can also configure the default sharing link type and sharing link permissions for a site by using a sensitivity label.
+
+For more information about this scenario, see [Use sensitivity labels to protect content in SharePoint and Microsoft Teams sites, and Microsoft 365 groups](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites). For instructions how to configure the default sharing link settings, see the section [Configure settings for the default sharing link for a site by using PowerShell advanced settings](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#configure-settings-for-the-default-sharing-link-for-a-site-by-using-powershell-advanced-settings).
 
 ## Related topics
 

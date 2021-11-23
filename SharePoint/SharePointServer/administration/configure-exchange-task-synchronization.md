@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 2a83671c-29c5-41af-a15c-54a573a05d99
 description: "Configuring Exchange Server 2016 and SharePoint Server for task synchronization by using the SharePoint Server Task Synchronization feature."
@@ -18,7 +18,7 @@ description: "Configuring Exchange Server 2016 and SharePoint Server for task sy
 
 # Configure Exchange task synchronization in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 Configuring task Synchronization can be relatively complex. By following the guidance below, you should be able to quickly configure task synchronization between your Exchange Server 2016, SharePoint Server 2013 and Project Server 2013 environments. This is great functionality for any business, because you are able to integrate tasks from different applications into one application, like Outlook 2016 or SharePoint MySites.
   

@@ -8,9 +8,9 @@ ms.date: 9/27/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how site collection administrators can preview a copy of the
 
 # Upgrade a site collection to SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 After a server farm administrator has upgraded the databases, site collection administrators can upgrade individual site collections. When site collection administrators first browse to their sites after the database has been upgraded, a notification bar at the top of the site indicates that their sites can be upgraded. The choices are to **Start now** or **Remind me later**. **Start now** begins the site collection upgrade process. 
   
@@ -34,7 +34,7 @@ To upgrade a site collection, site collection administrators complete the follow
     
 4. Verify that upgrade was successful and the site works as expected. For more information, see [Review site collections upgraded to SharePoint 2013](review-site-collections-upgraded-to-sharepoint-2013.md).
     
-This article discusses the second and third steps, and includes procedures for performing these tasks from Site Settings. For information about using Microsoft PowerShell cmdlets to upgrade sites from the command line, see [Manage site collection upgrades (SharePoint 2013 Products)](/SharePoint/upgrade-and-update/manage-site-collection-upgrades-to-sharepoint-2013). 
+This article discusses the second and third steps, and includes procedures for performing these tasks from Site Settings. For information about using Microsoft PowerShell cmdlets to upgrade sites from the command line, see [Manage site collection upgrades (SharePoint 2013 Products)](./manage-site-collection-upgrades-to-sharepoint-2013.md). 
   
 **Upgrade step 2: Request evaluation site collection and Step 3: Upgrade the site**
 
@@ -75,7 +75,7 @@ When you request an evaluation site collection, the request is added to a Timer 
     
 After you have reviewed the upgrade evaluation and made any necessary changes in your original site based on your evaluation, you can upgrade your site collection.
   
-Farm administrators can use PowerShell to request an upgrade evaluation site collection. For more information, see [Manage site collection upgrades (SharePoint 2013 Products)](/SharePoint/upgrade-and-update/manage-site-collection-upgrades-to-sharepoint-2013).
+Farm administrators can use PowerShell to request an upgrade evaluation site collection. For more information, see [Manage site collection upgrades (SharePoint 2013 Products)](./manage-site-collection-upgrades-to-sharepoint-2013.md).
   
 ## Upgrade a site collection
 <a name="UpgradeSite"> </a>
@@ -146,4 +146,3 @@ Next, review your upgraded site collection to be sure that everything is working
 #### Other Resources
 
 [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013.md)
-

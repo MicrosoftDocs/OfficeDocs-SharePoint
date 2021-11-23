@@ -3,11 +3,12 @@ title: "Enable the communication site experience on classic team sites"
 ms.reviewer: dipadur
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
+recommendations: true
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
@@ -56,9 +57,9 @@ You can use either the SharePoint Online Management Shell **OR** SharePoint PnP 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251). Version 20122.1200 or later is required.
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following command:
 
@@ -70,7 +71,7 @@ For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sha
 
 ### Site admin instructions
 
-1. [Learn how to use SharePoint PnP PowerShell commands](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps).
+1. [Learn how to use SharePoint PnP PowerShell commands](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps&preserve-view=true).
 2. In Windows 10, run the following commands in PowerShell:
 
     ```PowerShell
@@ -102,8 +103,8 @@ For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sha
 ```PowerShell
 function Get-CommsiteEnabledSites{
  
-    $adminUrl = Read-Host "Enter the Admin URL of 0365 (eg. https://<Tenant Name>-admin.sharepoint.com)" 
-    $userName = Read-Host "Enter the username of 0365 (eg. admin@<tenantName>.onmicrosoft.com)" 
+    $adminUrl = Read-Host "Enter the Admin URL of O365 (eg. https://<Tenant Name>-admin.sharepoint.com)" 
+    $userName = Read-Host "Enter the username of O365 (eg. admin@<tenantName>.onmicrosoft.com)" 
     $password = Read-Host "Please enter the password for $($userName)" -AsSecureString
  
     # set credentials 

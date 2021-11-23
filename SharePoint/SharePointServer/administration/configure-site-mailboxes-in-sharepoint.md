@@ -4,13 +4,12 @@ ms.reviewer:
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 9/20/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 57b7618a-2ca4-450d-aa8b-77bce21a9884
 description: "Configure Exchange Server, SharePoint Server for team email by using the Site Mailboxes feature."
@@ -18,7 +17,7 @@ description: "Configure Exchange Server, SharePoint Server for team email by usi
 
 # Configure site mailboxes in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 This article describes how to configure Site Mailboxes in SharePoint Server and Exchange Server. The Site Mailboxes feature provides SharePoint Server users with team email on a site. Site Mailboxes also provides links to SharePoint document libraries in Microsoft Outlook, enabling users to share files and email messages with other members of a team that are working on a joint project. 
   
@@ -27,7 +26,7 @@ This article describes how to configure Site Mailboxes in SharePoint Server and 
 
 Before you begin this operation, review the following information about prerequisites:
   
-- Site Mailboxes requires Exchange Server 2016 or Exchange Server 2013.
+- Site Mailboxes requires Exchange Server 2013 or later.
     
 - Any previous version of Exchange Web Services (EWS) will need to be uninstalled from the SharePoint servers.
     
@@ -36,7 +35,7 @@ Before you begin this operation, review the following information about prerequi
   
 - Site Mailboxes feature requires that user profile synchronization be configured in the farm. For information about configuring user profile synchronization, see [User profiles and identities](user-profiles-and-identities.md), and [Manage user profile synchronization in SharePoint Server](manage-profile-synchronization.md).
     
-- Site Mailboxes feature requires that the app management service application be configured in the farm. For information about configuring the app management service application, see [New-SPAppManagementServiceApplication](/powershell/module/sharepoint-server/New-SPAppManagementServiceApplication?view=sharepoint-ps).
+- Site Mailboxes feature requires that the app management service application be configured in the farm. For information about configuring the app management service application, see [New-SPAppManagementServiceApplication](/powershell/module/sharepoint-server/New-SPAppManagementServiceApplication?view=sharepoint-ps&preserve-view=true).
     
 - Secure Sockets Layer (SSL) configured for the Default Zone is a requirement for web applications that are deployed in scenarios that support server-to-server authentication and app authentication. This is such a scenario. As a prerequisite for configuring Site Mailboxes, the computer that is running SharePoint Server must have SSL configured. For more information, see [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)) and follow the steps for creating an SSL site collection and server certificate. 
     
@@ -488,7 +487,7 @@ Please review the following table if you encounter issues.
 [Configure email integration for a SharePoint Server farm](configure-email-integration.md)
 #### Other Resources
 
-[Site mailboxes](/Exchange/collaboration/site-mailboxes?view=exchserver-2019)
+[Site mailboxes](/Exchange/collaboration/site-mailboxes?view=exchserver-2019&preserve-view=true)
   
-[Collaboration](/Exchange/collaboration/collaboration?view=exchserver-2019)
+[Collaboration](/Exchange/collaboration/collaboration?view=exchserver-2019&preserve-view=true)
 

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d43984b2-7a31-452f-afd4-c6837ee7a91d
 description: "Learn how to add refiners for faceted navigation to a publishing site in SharePoint Server 2016."
@@ -18,7 +18,7 @@ description: "Learn how to add refiners for faceted navigation to a publishing s
 
 # Stage 15: Add refiners for faceted navigation to a publishing site in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 > [!NOTE]
 > Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 

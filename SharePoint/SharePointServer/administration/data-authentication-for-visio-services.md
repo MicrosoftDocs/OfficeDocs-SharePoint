@@ -8,9 +8,9 @@ ms.date: 7/6/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Visio Services supports connections with Excel workbooks, SharePoi
 
 # Data authentication for Visio Services in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 Data sources are categorized as internal or external as follows: 
   
@@ -180,7 +180,7 @@ The Unattended Service Account is used by Visio Services in the following circum
   
 Choose the Unattended Service Account when you connect to small ad-hoc deployments in which security is less important or for which speed of deployment is very important.
   
-For information about how to use the Unattended Service Account with Visio Services, see [Secure Store for Business Intelligence service applications](/SharePoint/administration/secure-store-for-business-intelligence-service-applications). 
+For information about how to use the Unattended Service Account with Visio Services, see [Secure Store for Business Intelligence service applications](./secure-store-for-business-intelligence-service-applications.md). 
   
 ### SQL Server Authentication
 
@@ -220,6 +220,4 @@ Refresh can be triggered in one of following ways from the browser:
     > [!NOTE]
     > A SharePoint site designer must place the Visio Web Access Web Part on a page and configure it to refresh periodically. 
   
-If there are no previously cached versions of this diagram, any of these actions will trigger a refresh and update the diagram. For information about how to configure cache settings for Visio Services, see [Configure Visio Services](/SharePoint/administration/configure-visio-services).
-  
-
+If there are no previously cached versions of this diagram, any of these actions will trigger a refresh and update the diagram. For information about how to configure cache settings for Visio Services, see [Configure Visio Services](./configure-visio-services.md).

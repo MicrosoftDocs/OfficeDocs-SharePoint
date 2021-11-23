@@ -8,16 +8,16 @@ ms.date: 3/7/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 76b11fdc-8516-4841-8013-5907928f7ed5
 description: "Learn how to create virtual test environments for SharePoint Server."
 ---
 
 # Create Test and Developer Environments
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-xxx-md.md)]
 
 There are several options for creating test environments for SharePoint Server.
   

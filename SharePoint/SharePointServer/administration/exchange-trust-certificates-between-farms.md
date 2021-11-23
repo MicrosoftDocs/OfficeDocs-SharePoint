@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -21,7 +21,7 @@ description: "Learn how to exchange trust certificates between the publishing fa
 
 # Exchange trust certificates between farms in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In SharePoint Server, a farm can connect to and consume a service application that is published on another SharePoint Server farm. For this to occur, the farms must exchange trust certificates. 
   
@@ -64,7 +64,7 @@ You can only export and copy certificates by using Windows PowerShell 3.0 or lat
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -94,7 +94,7 @@ You can only export and copy certificates by using Windows PowerShell 3.0 or lat
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -125,7 +125,7 @@ You can only export and copy certificates by using Windows PowerShell 3.0 or lat
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -172,7 +172,7 @@ To establish trust on the consuming farm, you must import the root certificate t
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
    > [!NOTE]
-   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -212,7 +212,7 @@ To establish trust on the publishing farm, you must import the root certificate 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
    > [!NOTE]
-   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -248,7 +248,7 @@ To establish trust on the publishing farm, you must import the root certificate 
    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
    > [!NOTE]
-   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -271,17 +271,17 @@ To establish trust on the publishing farm, you must import the root certificate 
     
 For more information about these PowerShell cmdlets, see the following articles:
   
- - [Get-SPCertificateAuthority](/powershell/module/sharepoint-server/Get-SPCertificateAuthority?view=sharepoint-ps)
+ - [Get-SPCertificateAuthority](/powershell/module/sharepoint-server/Get-SPCertificateAuthority?view=sharepoint-ps&preserve-view=true)
     
- - [Get-SPSecurityTokenServiceConfig](/powershell/module/sharepoint-server/Get-SPSecurityTokenServiceConfig?view=sharepoint-ps)
+ - [Get-SPSecurityTokenServiceConfig](/powershell/module/sharepoint-server/Get-SPSecurityTokenServiceConfig?view=sharepoint-ps&preserve-view=true)
     
- - [New-SPTrustedRootAuthority](/powershell/module/sharepoint-server/New-SPTrustedRootAuthority?view=sharepoint-ps)
+ - [New-SPTrustedRootAuthority](/powershell/module/sharepoint-server/New-SPTrustedRootAuthority?view=sharepoint-ps&preserve-view=true)
     
- - [New-SPTrustedServiceTokenIssuer](/powershell/module/sharepoint-server/New-SPTrustedServiceTokenIssuer?view=sharepoint-ps)
+ - [New-SPTrustedServiceTokenIssuer](/powershell/module/sharepoint-server/New-SPTrustedServiceTokenIssuer?view=sharepoint-ps&preserve-view=true)
     
  - [Get-PfxCertificate](https://go.microsoft.com/fwlink/?LinkID=717913&amp;clcid=0x409)
     
-For information about how to use a script to automate part of this process, see [Exchange trust certificates between farms](https://go.microsoft.com/fwlink/p/?LinkId=230666).
+For information about how to use a script to automate part of this process, see [Exchange trust certificates between farms](/samples/browse/?redirectedfrom=TechNet-Gallery).
   
 ## Managing trust certificates by using Central Administration
 <a name="Section4"> </a>
@@ -321,4 +321,3 @@ You can manage trusts on a farm only after the relevant certificates have alread
 [Create a web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc261875(v=office.14))
   
 [Configure SAML-based claims authentication with AD FS in SharePoint Server](/previous-versions/office/sharepoint-server-2010/hh305235(v=office.14))
-

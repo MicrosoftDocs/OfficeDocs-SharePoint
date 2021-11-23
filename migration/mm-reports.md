@@ -4,19 +4,21 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 mscollection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
+description: "Learn about the reports available when using Migration Manager in Microsoft 365."
 ---
 
-# Using the Migration Manager Reports
+# Migration Manager reports
 
 Migration Manager generates log files, summary and task level reports, and a performance report.  These will help you manage, audit and troubleshoot your migration process.
 
@@ -51,11 +53,26 @@ These reports can be viewed while the migration is taking place or after the job
 2. An aggregate summary report will be downloaded to your computer.
 
 
+## Download detailed task level reports via Powershell
+
+To download task level reports, run the following Powershell cmdlet.
+
+
+1. [Download the powershell script](https://spmt.sharepointonline.com/download/ReportAggregator.zip) and extract the files.
+2. **Run** *aggregatereports.ps1*. 
+3. Enter your tenant credentials.
+4. From the Task Filter pane, select how you want to filter your reports:
+
+![Screen to choose how to filter Migratino Manager reports](media/mm-reports-powershell-filter.png).
+
+5. The aggregated report zip file will be found in the same folder as the PowerShell cmdlet.
+
+
 ## Summary Report
 
 The summary report is an aggregate report that lists all successfully completed, failed, and in-progress tasks.
   
-- **SummaryReport.csv.** This report contains a single row of data that gives the total picture; including total size, number of files migrated, duration.
+- **Aggregate Summary Report.csv.** This report contains a single row of data that gives the total picture; including total size, number of files migrated, duration.
 
 When assessing your migration jobs, we recommend that you first look at these summary reports. 
   
@@ -77,16 +94,21 @@ When assessing your migration jobs, we recommend that you first look at these su
 |Migrated GB <br/> |The total size of the files migrated, expressed in gigabytes.  <br/> |
 |Agent|The address of the migration agent (VM or computer) that is running the migration task.|	
 |Duration  <br/> |Length of time in minutes that the migration task took to complete.  <br/> |
+|TaskID|Unique ID of the task.|
+|Task failure reason|Explanation of task failure.|
+|Agent group|Name of agent group the task was assigned to.|
 
 
    
 ## Task Reports
 
-When you need to do deeper investigation or a thorough verification of your migration task, the task level reports help you drill down into the specific details. The four recommended task level reports to use are:
+When you need to do a more in-depth investigation or a thorough verification of your migration task, the task level reports help you drill down into the specific details.  We recommend using these reports to help you accomplish this.
+
+
   
 - **ItemSummary.csv:** This is similar to the overall summary report except that it aggregates the data just for a single task. 
     
-- **ItemFailureReport.csv:** This is the failure report at the item level. This is a filtered version of the filese report, showing only failures. 
+- **ItemFailureReport.csv:** This is the failure report at the item level. This is a filtered version of the files report, showing only failures. 
     
 - **ItemReport.csv:**  A list of all the items this task attempted to do 
     
@@ -140,7 +162,7 @@ The **ItemFailureReport.csv**, is only generated if an error resulting in a file
 |Message  <br/> |Detailed error or informational message .  <br/> |
 |Error code  <br/> |Failed reason error code.  <br/> |
 |Source item ID  <br/> |ID of the item at the source.  <br/> |
-|Destination item ID  <br/> |ID ofthe item at the destination.  <br/> |
+|Destination item ID  <br/> |ID of the item at the destination.  <br/> |
 |Package number  <br/> |ID generated for the package number during the transition.  <br/> |
 |Migration job ID  <br/> |The ID number of the job (which could contain one or more tasks).  <br/> |
 |Incremental Round  <br/> |The round number added to the end of the report name (RO, R1, etc.) indicates if the scan or job has been rerun.  <br/> |
@@ -163,7 +185,7 @@ The **ItemReport.csv** is a detailed report that provides data on each file with
 |Result category  <br/> |General code associated with the item to indicate what happened with that item.  <br/> |
 |Message  <br/> |more detailed Error or informational message generated.  <br/> |
 |Source item ID  <br/> |ID of the item at the source.  <br/> |
-|Destination item ID  <br/> |ID ofthe item at the destination.  <br/> |
+|Destination item ID  <br/> |ID of the item at the destination.  <br/> |
 |Package number  <br/> |ID generated for the package number during the transition.  <br/> |
 |Migration job ID  <br/> |The ID number of the job (which could contain one or more tasks).  <br/> |
 |Incremental round  <br/> |The round number added to the end of the report name (RO, R1, etc.) indicates if the scan or job has been rerun.  <br/> |
@@ -247,7 +269,7 @@ This report provides scores ranging from 1 to 100. The greater the number, the h
 
 |**Column**|**Recommendation**|
 |:-----|:-----|:-----|
-|Reading source speed score<br/> |[Improving the speed at which the source can be read](https://docs.microsoft.com/sharepointmigration/mm-performance#improving-the-speed-at-which-the-source-can-be-read)<br/> |
-|Local disk performance score<br/> |[Improving the migration computer speed](https://docs.microsoft.com/sharepointmigration/mm-performance#improving-the-migration-computer-speed) <br/> |
-|Uploading speed score  <br/> |[Improving your connectivity to Office 365 and Azure](https://docs.microsoft.com/harepointmigration/mm-performance#improving-your-connectivity-to-0ffice-365-and-azure)<br/> |
-|SharePoint throughput score <br/> |[Improving your migration performance](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed) <br/> |
+|Reading source speed score<br/> |[Improving the speed at which the source can be read](./mm-performance.md#improving-the-speed-at-which-the-source-can-be-read)<br/> |
+|Local disk performance score<br/> |[Improving the migration computer speed](./mm-performance.md#improving-the-migration-computer-speed) <br/> |
+|Uploading speed score  <br/> |[Improving your connectivity to Office 365 and Azure](./mm-performance.md#improving-your-connectivity-to-office-365-and-azure)<br/> |
+|SharePoint throughput score <br/> |[Improving your migration performance](./sharepoint-online-and-onedrive-migration-speed.md) <br/> |

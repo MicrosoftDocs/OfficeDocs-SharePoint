@@ -8,9 +8,9 @@ ms.date: 7/6/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn about security considerations for data-connected diagrams re
 
 # Plan Visio Services security in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 In addition to the security requirements to deploy SharePoint Server, you should also review security considerations for a deployment that includes Visio Services. Visio Services enables you to render Visio diagrams in a browser window. These diagrams can be connected to external data, and diagram elements can be updated based on that data. Security is an important component for enabling these data-rendering scenarios. Visio Services gives you a significant level of fine-grained control for the processing and displaying of Visio diagrams and what data sources they can connect to.
   
@@ -75,5 +75,4 @@ In a larger server farm it is likely that Visio diagrams will use a mix of the a
 
 #### Other Resources
 
-[Secure Store for Business Intelligence service applications](/SharePoint/administration/secure-store-for-business-intelligence-service-applications)
-
+[Secure Store for Business Intelligence service applications](./secure-store-for-business-intelligence-service-applications.md)

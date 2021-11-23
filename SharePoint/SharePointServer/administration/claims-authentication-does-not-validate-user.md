@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Because SharePoint Server recommends claims-based authentication f
 
 # Claims authentication does not validate user in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 When users try to connect to a web application, logs record failed authentication events. If you use tools that Microsoft provides and use a systematic approach to examine failures, you can learn about common issues that relate to claims-based authentication and resolve them.
   
@@ -106,7 +106,7 @@ Even after you enable the maximum level of ULS logging, SharePoint Server doesn'
     
 You can now use Event Viewer on the AD FS server to examine details about claims from the Applications and Services Logs/AD FS 2.0 Tracing/Debug node. Look for events with Event ID 1001.
   
-You can also enumerate claims with an HttpModule or web part or through OperationContext. For more information, see [How to Get All User Claims at Claims Augmentation Time in SharePoint 2010](https://go.microsoft.com/fwlink/p/?LinkId=275447). This information about SharePoint 2010 applies also to SharePoint 2013.
+You can also enumerate claims with an HttpModule or web part or through OperationContext. For more information, see [How to Get All User Claims at Claims Augmentation Time in SharePoint 2010](/archive/blogs/speschka/how-to-get-all-user-claims-at-claims-augmentation-time-in-sharepoint-2010). This information about SharePoint 2010 applies also to SharePoint 2013.
   
 ## Troubleshooting methodology for claims user authentication
 
@@ -126,7 +126,7 @@ You can find the failed authentication attempt in the ULS log files either manua
     
 3. In the **LOGS** folder, click **Date modified** to sort the folder by date, with the most recent at the top.
     
-4. Try the authentication task againl
+4. Try the authentication task again.
     
 5. In the **LOGS** folder window, double-click the log file at the top of the list to open the file in Notepad.
     
@@ -192,7 +192,7 @@ To determine how a web application or zone is configured to support one or more 
 
 After you check the log files and web application configuration, verify the following:
   
-- The web browser on the web client computer supports claims. For more information, see [Plan browser support in SharePoint Server 2016](../install/browser-support-planning-0.md).
+- The web browser on the web client computer supports claims. For more information, see [Plan browser support in SharePoint Server 2016](../install/browser-support-planning-2016-2019.md).
     
 - For Windows claims authentication, verify that the following:
     
@@ -231,7 +231,7 @@ Use a tool such as [HttpWatch](https://go.microsoft.com/fwlink/p/?LinkId=275459)
     For example, you can monitor the HTTP messages that the web client computer sends and the responses of the federation server, which could include security tokens and their claims.
     
 > [!NOTE]
-> If you use Fiddler, the authentication attempt can fail after requiring three authentication prompts. To prevent this behavior, see [Using Fiddler With SAML and SharePoint to Get Past the Three Authentication Prompts](https://go.microsoft.com/fwlink/p/?LinkId=276792).
+> If you use Fiddler, the authentication attempt can fail after requiring three authentication prompts. To prevent this behavior, see [Using Fiddler With SAML and SharePoint to Get Past the Three Authentication Prompts](/archive/blogs/speschka/using-fiddler-with-saml-and-sharepoint-to-get-past-the-three-authentication-prompts).
   
 ### Step 5: Capture and analyze authentication network traffic
 
@@ -275,4 +275,3 @@ For SAML-based claims authentication, you can capture and analyze the traffic be
 [Configure forms-based authentication for a claims-based web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806890(v=office.14))
   
 [Configure SAML-based claims authentication with AD FS in SharePoint Server](/previous-versions/office/sharepoint-server-2010/hh305235(v=office.14))
-

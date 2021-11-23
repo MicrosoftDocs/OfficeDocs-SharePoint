@@ -1,9 +1,10 @@
 ---
-title: "Remove deleted users from SharePoint"
+title: "Remove users from SharePoint"
 ms.reviewer: waynewin
-ms.author: kaarins
-author: kaarins
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
+recommendations: true
 audience: Admin
 f1.keywords:
 - CSH
@@ -13,7 +14,7 @@ ms.custom:
 - 'SPOTAMgUserProfiles'
 - 'seo-marvel-apr2020'
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - MOE150
@@ -21,20 +22,20 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 494bec9c-6654-41f0-920f-f7f937ea9723
-description: "In this article, you'll learn how to remove deleted users from SharePoint in different scenarios."
+description: "In this article, you'll learn how to remove users from SharePoint in different scenarios."
 ---
 
-# How to remove deleted users from SharePoint
+# How to remove users from SharePoint
 
-This article describes how to remove deleted users so they no longer appear in SharePoint. It should be used to troubleshoot Profile Property synchronization or PUID issues only as advised by Microsoft Customer Support Services.
+This article describes how to remove users so they no longer appear in SharePoint. It should be used to troubleshoot Profile Property synchronization or mismatched ID issues only as advised by Microsoft Customer Support Services.
 
 - **Scenario 1: Someone is deleted from the Microsoft 365 admin center but still appears in SharePoint.**
  
     When a user or guest browses to a SharePoint site, their user information is cached in the UserInfo list. When the user or guest is deleted, their related UserInfo information is not removed. Their profile still appears, which may cause confusion when people view the people picker.
 
-- **Scenario 2: A mismatched PUID.**
+- **Scenario 2: Site User ID Mismatch.**
  
-    This issue most frequently occurs when a user is deleted and the account is then re-created with the same user name. The account in the Microsoft 365 admin center or Active Directory (in directory synchronization scenarios) is deleted and re-created with the same user principal name (UPN). The new account is created by using a different PUID value. When the user tries to access a site collection or their OneDrive, the user has an incorrect PUID. A second scenario involves directory synchronization with an Active Directory organizational unit (OU). If users have already signed in to SharePoint, and then are moved to a different OU and resynced with SharePoint, they may experience this problem.
+    This issue most frequently occurs when a user is deleted and the account is then re-created with the same user name. The account in the Microsoft 365 admin center or Active Directory (in directory synchronization scenarios) is deleted and re-created with the same user principal name (UPN). The new account is created by using a different ID value. When the user tries to access a site collection or their OneDrive, the user has an incorrect ID. A second scenario involves directory synchronization with an Active Directory organizational unit (OU). If users have already signed in to SharePoint, and then are moved to a different OU and resynced with SharePoint, they may experience this problem.
  
 ## Delete a user from the Microsoft 365 admin center
 
@@ -62,7 +63,7 @@ For the steps to delete a user in the Microsoft 365 admin center, see [Delete a 
 
 1. [Install the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
 3. Run the following command:
  
@@ -105,7 +106,7 @@ You'll have to browse to each site collection that the user or guest visited, an
 
 1. [Install the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
 3. Run the following command:
 
@@ -120,7 +121,3 @@ You'll have to browse to each site collection that the user or guest visited, an
 SharePoint uses browser caching in several scenarios, including in the people picker. Even when a user is fully removed, he or she may still remain in the browser cache. Clearing the browser history resolves this issue. For info about doing this in Edge, see [View and delete browser history in Microsoft Edge](https://support.microsoft.com/help/10607).
 
 When you clear the browser history, make sure that you also select to clear cookies and website data.
-
-
-
-

@@ -3,14 +3,15 @@ title: "Understanding permission levels in SharePoint"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
+recommendations: true
 audience: ITPro
 ROBOTS: NOINDEX
 f1.keywords:
 - NOCSH
 ms.topic: reference
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: high
 ms.assetid: 87ecbb0e-6550-491a-8826-c075e4859848
 description: "Learn about permission levels in SharePoint and about the permissions that are associated with each level."
 ---
@@ -55,27 +56,27 @@ Default permission levels allow you to quickly and easily provide common levels 
   
 You can make changes to any of the default permissions levels, except **Full Control** and **Limited Access**, both of which are described more fully in the following table.
   
-|**Permission Level**|**Description**||
-|:-----|:-----|:-----|
+|**Permission Level**|**Description**|
+|-----|-----|
 |Full Control  <br/> |Contains all available SharePoint permissions. By default, this permission level is assigned to the Owners group. It can't be customized or deleted.  <br/> |
 |Design  <br/> |Create lists and document libraries, edit pages and apply themes, borders, and style sheets on the site. There is no SharePoint group that is assigned this permission level automatically.  <br/> |
 |Edit  <br/> |Add, edit, and delete lists; view, add, update, and delete list items and documents. By default, this permission level is assigned to the Members group.  <br/> |
 |Contribute  <br/> |View, add, update, and delete list items and documents.  <br/> |
 |Read  <br/> |View pages and items in existing lists and document libraries and download documents.  <br/> |
-|Limited Access  <br/> |Enables a user or group to browse to a site page or library to access a specific content item when they do not have permissions to open or edit any other items in the site or library. This level is automatically assigned by SharePoint when you provide access to one specific item. You cannot assign Limited Access permissions directly to a user or group yourself. Instead, when you assign edit or open permissions to the single item, SharePoint automatically assigns Limited Access to other required locations, such as the site or library in which the single item is located. This allows SharePoint to render the user interface correctly and show the user some context around their location in the site. Limited Access does not grant any additional permissions to the user, so they can't see or access any other content.
- <br/>|
+|Limited Access  <br/> |Enables a user or group to browse to a site page or library to access a specific content item when they do not have permissions to open or edit any other items in the site or library. This level is automatically assigned by SharePoint when you provide access to one specific item. You cannot assign Limited Access permissions directly to a user or group yourself. Instead, when you assign edit or open permissions to the single item, SharePoint automatically assigns Limited Access to other required locations, such as the site or library in which the single item is located. This allows SharePoint to render the user interface correctly and show the user some context around their location in the site. Limited Access does not grant any additional permissions to the user, so they can't see or access any other content. <br/>|
+|Web-Only Limited Access <br/> |Web-Only Limited access is a variant of the ‘Limited Access’ permission level which enables users’ access to the web object only.  <br/>|
 |Approve  <br/> |Edit and approve pages, list items, and documents. By default, the  *Approvers*  group has this permission.  <br/> |
 |Manage Hierarchy  <br/> |Create sites and edit pages, list items, and documents. By default, this permission level is assigned to the  *Hierarchy Managers*  group.  <br/> |
 |Restricted Read  <br/> |View pages and documents, but not historical versions or user permissions.  <br/> |
-|View Only  <br/> |View pages, items, and documents. Any document that has a server-side file handler can be viewed in the browser but not downloaded. File types that do not have a server-side file handler (cannot be opened in the browser), such as video files, .pdf files, and .png files, can still be downloaded.  <br/> |
+|View Only  <br/> |View pages, items, and documents. Any document that has a server-side file handler can be viewed in the browser but not downloaded. File types that do not have a server-side file handler (cannot be opened in the browser), such as video files and .png files, can still be downloaded.  <br/> |
 |||
    
 > [!NOTE]
-> Microsoft 365 subscriptions create a security group called "Everyone except external users" that contains every person you add into the Microsoft 365 directory (except people who you add explicitly as External Users). This security group added to the Members group automatically on Modern Team sites with *Public* privacy settings, so that users in Microsoft 365 can access and edit the SharePoint site. Also, for Modern Team sites created as *Private*, "Everyone except external users" cannot be granted any permissions and people must be explicitly granted permissions.  In addition, Microsoft 365 subscriptions create a security group called "Company Administrators", which contains Microsoft 365 Admins (such as Global and Billing Admins). This security group is added to the Site Collection Administrators group. For more info, see [Default SharePoint groups](/sharepoint/default-sharepoint-groups).
+> Microsoft 365 subscriptions create a security group called "Everyone except external users" that contains every person you add into the Microsoft 365 directory (except people who you add explicitly as External Users). This security group added to the Members group automatically on Modern Team sites with *Public* privacy settings, so that users in Microsoft 365 can access and edit the SharePoint site. Also, for Modern Team sites created as *Private*, "Everyone except external users" cannot be granted any permissions and people must be explicitly granted permissions.  In addition, Microsoft 365 subscriptions create a security group called "Company Administrators", which contains Microsoft 365 Admins (such as Global and Billing Admins). This security group is added to the Site Collection Administrators group. For more info, see [Default SharePoint groups](./default-sharepoint-groups.md).
 
 By default, site owners and members can add new users to the site.
 
-To learn more about "Everyone except external users" permission, see [Special SharePoint Groups](https://docs.microsoft.com/sharepoint/default-sharepoint-groups#special-sharepoint-groups)
+To learn more about "Everyone except external users" permission, see [Special SharePoint Groups](./default-sharepoint-groups.md#special-sharepoint-groups)
   
 ## Permission levels and SharePoint groups
 <a name="__migbm_0"> </a>
@@ -88,7 +89,7 @@ The way this works is that you put related permissions together into a permissio
   
 By default, each kind of SharePoint site includes certain SharePoint groups. For example, a Team Site automatically includes the Owners, Members, and Visitors group. A Publishing Portal site includes those groups and several more, such as Approvers, Designers, Hierarchy Managers, and so on. When you create a site, SharePoint automatically creates a pre-defined set of SharePoint groups for that site. In addition, a SharePoint admin can define custom groups and permission levels.
   
-To learn more about SharePoint groups, see [Understanding SharePoint groups](/sharepoint/default-sharepoint-groups).
+To learn more about SharePoint groups, see [Understanding SharePoint groups](./default-sharepoint-groups.md).
   
 The SharePoint groups and permission levels that are included by default in your site may differ, depending on:
   
@@ -255,4 +256,4 @@ If you disable the limited-access user permission lockdown mode site collection 
 ## Plan your permission strategy
 <a name="__toc313623995"> </a>
 
-Now that you have learned about permissions, inheritance, and permission levels, you may want to plan your strategy so that you can set guidelines for your users, minimize maintenance, and ensure compliance with your organization's data governance policies. For tips on planning your strategy, see [Plan your permissions strategy](plan-your-permissions-strategy.md).
+Now that you have learned about permissions, inheritance, and permission levels, you may want to plan your strategy so that you can set guidelines for your users, minimize maintenance, and ensure compliance with your organization's data governance policies. For tips on planning your strategy, see [Plan your permissions strategy](./default-sharepoint-groups.md).

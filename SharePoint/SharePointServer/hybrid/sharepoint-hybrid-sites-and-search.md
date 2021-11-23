@@ -8,9 +8,9 @@ ms.date: 9/12/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
@@ -25,7 +25,7 @@ description: "A hybrid environment can help your company get started in the clou
 
 # SharePoint hybrid sites and search
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 A hybrid environment can help your company get started in the cloud, taking a first step to explore the cloud functionality at own your own pace. It also enables enterprise users to be connected from almost anywhere to the resources and content they need.
   
@@ -47,7 +47,7 @@ This table gives a quick overview of hybrid integration between SharePoint Serve
 |**Profiles** <br/> |Users have separate profiles in SharePoint Server and in Microsoft 365.  <br/> |Profiles exist in both locations, but SharePoint Server links to users' profiles redirect profiles in Microsoft 365.  <br/> (See [Plan hybrid profiles](plan-hybrid-profiles.md) for detailed information.)  <br/> |
 |**Extensible app launcher** <br/> |Users see a different app launcher in Microsoft 365 and in SharePoint Server.  <br/> |There are still separate app launchers, but the SharePoint Server app launcher includes several tiles from Microsoft 365.  <br/> (See [The extensible hybrid app launcher](the-extensible-hybrid-app-launcher.md) for detailed information.)  <br/> |
 |**Hybrid self-service site creation** <br/> |Users see separate self-service site creation experiences in SharePoint Server and SharePoint in Microsoft 365, as configured by the administrator.  <br/> |Users going to the default SharePoint Server site creation page are redirected to the SharePoint in Microsoft 365 Group Creation page, allowing them to create sites in SharePoint in Microsoft 365.  <br/> (See [Hybrid self-service site creation](hybrid-self-service-site-creation.md) for detailed information.)  <br/> |
-|**Search** <br/> |Separate search indexes and search centers for SharePoint Server and Microsoft 365. Users must search from SharePoint Server to find items stored there and they must search from Microsoft 365 to find items stored there.  <br/> |Search results between the two locations are combined in one of two ways. Cloud hybrid search crawls on-premises content and indexes it in the search index in Office 365. Users can search the Microsoft 365 index from either location. Hybrid federated search combines search results from each search index in a single search center.  <br/> For detailed info, see [Hybrid search in SharePoint in Microsoft 365](/SharePoint/hybrid/hybrid-search-in-sharepoint).   <br/> |
+|**Search** <br/> |Separate search indexes and search centers for SharePoint Server and Microsoft 365. Users must search from SharePoint Server to find items stored there and they must search from Microsoft 365 to find items stored there.  <br/> |Search results between the two locations are combined in one of two ways. Cloud hybrid search crawls on-premises content and indexes it in the search index in Office 365. Users can search the Microsoft 365 index from either location. Hybrid federated search combines search results from each search index in a single search center.  <br/> For detailed info, see [Hybrid search in SharePoint in Microsoft 365](./hybrid-search-in-sharepoint.md).   <br/> |
    
 ## What is redirection?
 
@@ -91,5 +91,3 @@ To get started configuring hybrid features for your environment, choose a featur
 - [Configure hybrid sites features - roadmap](configure-hybrid-sites-featuresroadmap.md)
     
 - [Configure cloud hybrid search - roadmap](configure-cloud-hybrid-searchroadmap.md)
-    
-

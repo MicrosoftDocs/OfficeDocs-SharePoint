@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 4de99997-edda-4414-85f2-d210ea717d1a
 description: "Learn how to plan SharePoint Server publishing sites, multilingual support, and SharePoint Server cross-site publishing or author-in-place."
@@ -18,7 +18,7 @@ description: "Learn how to plan SharePoint Server publishing sites, multilingual
 
 # Plan for Internet, intranet, and extranet publishing sites in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can use the publishing features in SharePoint Server to create branded Internet, intranet, and extranet sites. However, some publishing features are available only in SharePoint Server.
   

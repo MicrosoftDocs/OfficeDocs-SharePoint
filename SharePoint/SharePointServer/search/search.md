@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f39ef086-a317-44ba-b6db-3ee2f460c9fb
 description: "Learn about planning, configuring and deploying search in SharePoint Server."
 ---
 
 # Search
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Learn about planning, configuring and deploying search in SharePoint Server.
   

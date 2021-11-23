@@ -1,16 +1,17 @@
 ---
 title: "View Popularity Trends and Most Popular Items"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
+recommendations: true
 ms.date: 6/21/2018
 audience: End User
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - MET150

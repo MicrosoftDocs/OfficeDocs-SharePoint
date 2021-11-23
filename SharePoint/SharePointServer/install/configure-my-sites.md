@@ -8,9 +8,9 @@ ms.date: 8/1/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to set up and configure My Sites in SharePoint Server."
 
 # Configure My Sites in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article describes how to set up My Sites in SharePoint Server. Like other tasks in SharePoint Server, there are multiple ways to complete a task. This article provides ordered tasks with prerequisites and procedures to help you set up My Sites in your enterprise.
   

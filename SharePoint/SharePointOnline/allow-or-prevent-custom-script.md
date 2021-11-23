@@ -3,7 +3,8 @@ title: "Allow or prevent custom script"
 ms.reviewer: lucaband
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
+recommendations: true
 ms.date: 5/21/2018
 audience: Admin
 f1.keywords:
@@ -14,7 +15,7 @@ ms.custom:
 - 'O365E_NoScript'
 - 'seo-marvel-apr2020'
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
@@ -30,7 +31,7 @@ description: "Learn how global and SharePoint admins can change the custom scrip
 
 # Allow or prevent custom script
 
-As a global or SharePoint admin in Microsoft 365, you can allow custom script as a way of letting users change the look, feel, and behavior of sites and pages to meet organizational objectives or individual needs. If you allow custom script, all users who have "Add and Customize Pages" permission to a site or page can add any script they want. (By default, users who create sites are site owners and therefore have this permission. For more info about SharePoint permission levels, see [Understanding permission levels in SharePoint](/sharepoint/understanding-permission-levels).) 
+As a global or SharePoint admin in Microsoft 365, you can allow custom script as a way of letting users change the look, feel, and behavior of sites and pages to meet organizational objectives or individual needs. If you allow custom script, all users who have "Add and Customize Pages" permission to a site or page can add any script they want. (By default, users who create sites are site owners and therefore have this permission.) 
   
 > [!NOTE]
 > For simple ways to change the look and feel of a site, see [Change the look of your SharePoint site](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818). 
@@ -48,18 +49,18 @@ In the SharePoint admin center, you can choose to allow users to run custom scri
 > [!CAUTION]
 > Before you allow custom script on sites in your organization, make sure you understand the [security implications](security-considerations-of-allowing-custom-script.md). 
   
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **Settings** page.
+    >[!NOTE]
+    >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **Settings** page.
 
 2. At the bottom of the page, select **classic settings page**.
 
 3. Under **Custom Script**, select:
 
-  - **Allow users to run custom script on personal sites**.
+    - **Allow users to run custom script on personal sites**.
 
-  - **Allow users to run custom script on self-service created sites**.
+    - **Allow users to run custom script on self-service created sites**.
 
     ![Custom script section of settings page in SharePoint admin center](media/a96d5c23-6389-4343-81cb-7f055617f6e8.png)
   
@@ -79,14 +80,19 @@ To allow custom script on a particular site (previously called "site collection"
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following command.
 
     ```PowerShell
-    Set-SPOsite <SiteURL> -DenyAddAndCustomizePages 0
+    Set-SPOSite <SiteURL> -DenyAddAndCustomizePages 0
+    ```
+    or by means of the PnP.PowerShell cmdlet [Set-PnPSite](/powershell/module/sharepoint-pnp/set-pnpsite)
+    
+    ```PowerShell
+    Set-PnPSite <SiteURL> -NoScriptSite $false
     ``` 
 
 If you change this setting for a user's OneDrive or a classic team site, it will be overridden by the Custom Script setting in the admin center within 24 hours.
@@ -98,7 +104,7 @@ When users are prevented from running custom script on OneDrive or the classic t
   
 The following site settings are unavailable when users are prevented from running custom script:
   
-|**Site feature**|**Behavior**|**Notes**|
+| Site feature | Behavior | Notes |
 |:-----|:-----|:-----|
 |Save Site as Template  <br/> |No longer available in Site Settings  <br/> |Users can still build sites from templates created before custom script was blocked.  <br/> |
 |Save document library as template  <br/> |No longer available in Library Settings  <br/> |Users can still build document libraries from templates created before custom script was blocked.  <br/> |
@@ -114,7 +120,7 @@ The following site settings are unavailable when users are prevented from runnin
    
 The following web parts and features are unavailable to site admins and owners when you prevent them from running custom script.
   
-|**Web part category**|**Web part**|
+| Web part category | Web part |
 |:-----|:-----|
 |Business Data  <br/> |Business Data Actions  <br/> Business Data Item  <br/> Business Data Item Builder  <br/> Business Data List  <br/> Business Data Related List  <br/> Excel Web Access  <br/> Indicator Details  <br/> Status List  <br/> Visio Web Access  <br/> |
 |Community  <br/> |About This Community  <br/> Join  <br/> My Membership  <br/> Tools  <br/> What's Happening  <br/> |

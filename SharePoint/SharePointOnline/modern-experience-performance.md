@@ -4,13 +4,14 @@ ms.reviewer:
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
+recommendations: true
 ms.date: 3/19/2019
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.custom:
 - seo-marvel-apr2020

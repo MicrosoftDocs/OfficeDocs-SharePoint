@@ -8,9 +8,9 @@ ms.date: 2/20/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -21,7 +21,7 @@ description: "Create and configure a SharePoint 2013 farm so that you can upgrad
 
 # Create the SharePoint 2013 farm for a database attach upgrade
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 When you upgrade from SharePoint 2010 Products to SharePoint 2013, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. Before you can upgrade the content, you must configure a new server or server farm by using SharePoint 2013. This article lists the items that you have to configure when you create that new environment.
   
@@ -44,7 +44,7 @@ When you upgrade from SharePoint 2010 Products to SharePoint 2013, you must use 
 
 Before you create the SharePoint 2013 farm, review the following information and take any recommended actions.
   
-- Make sure that the hardware and software that you are using meets the requirements in [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md).
+- Make sure that the hardware and software that you are using meets the requirements in [Hardware and software requirements for SharePoint 2013](../install/hardware-software-requirements-2013.md).
     
 - Make sure that you have appropriately planned your logical and physical architecture to support the features and functionality that you want in the SharePoint 2013 farm. 
     
@@ -80,7 +80,7 @@ You also have to turn off or remove services or components in the SharePoint 201
 ## Record the passphrase for the Secure Store service application
 <a name="passphrase"> </a>
 
-The Secure Store service application uses a passphrase to encrypt information. You have to know what this passphrase is so that you can use it in the new environment. Otherwise, you will not have access to the information in the Secure Store. If you do not know the passphrase, you can refresh the key, and then back up the Secure Store database. For more information, see [Working with encryption keys](/SharePoint/administration/configure-the-secure-store-service).
+The Secure Store service application uses a passphrase to encrypt information. You have to know what this passphrase is so that you can use it in the new environment. Otherwise, you will not have access to the information in the Secure Store. If you do not know the passphrase, you can refresh the key, and then back up the Secure Store database. For more information, see [Working with encryption keys](../administration/configure-the-secure-store-service.md).
   
 ## Export the encryption key for the User Profile service application
 <a name="ExportKey"> </a>
@@ -170,7 +170,7 @@ The following services in SharePoint 2013 also require additional steps to enabl
   
 - **Excel Services**
     
-    You can use the Farm Configuration Wizard to enable this service, but you must make sure that you create all trusted data connections again. For more information, see [Configure Excel Services in SharePoint](/SharePoint/administration/configure-excel-services).
+    You can use the Farm Configuration Wizard to enable this service, but you must make sure that you create all trusted data connections again. For more information, see [Configure Excel Services in SharePoint](../administration/configure-excel-services.md).
     
 - **InfoPath Forms Service**
     
@@ -208,7 +208,7 @@ And you must configure all new farm-level settings that you want to use, such as
 - Settings and schedules for timer jobs
     
 > [!IMPORTANT]
-> If you had disabled the Workflow Auto Cleanup timer job in your SharePoint 2010 Products environment, make sure that you disable this timer job in your new environment also. If this timer job is enabled in the new environment and disabled in the SharePoint 2010 Products environment, you might lose workflow associations when you upgrade. For more information about this timer job, see[Disable preservation of workflow history (SharePoint Server 2010)](https://go.microsoft.com/fwlink/?LinkId=403874)[Disable preservation of workflow history (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/ee662522(v=office.14)). 
+> If you had disabled the Workflow Auto Cleanup timer job in your SharePoint 2010 Products environment, make sure that you disable this timer job in your new environment also. If this timer job is enabled in the new environment and disabled in the SharePoint 2010 Products environment, you might lose workflow associations when you upgrade. For more information about this timer job, see[Disable preservation of workflow history (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/ee662522(v=office.14))[Disable preservation of workflow history (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/ee662522(v=office.14)). 
   
 In a standard installation, the next step would be to create web applications. However, for upgrade, you create web applications later in the process, after you upgrade the service application databases. For more information, see [Create web applications](upgrade-content-databases.md#CreateWebApps).
   
@@ -225,5 +225,4 @@ In a standard installation, the next step would be to create web applications. H
   
 [Upgrade farms that share services (parent and child farms) to SharePoint 2013](upgrade-farms-that-share-services-parent-and-child-farmsto-sharepoint-2013.md)
   
-[Test and troubleshoot an upgrade to SharePoint 2013](test-and-troubleshoot-an-upgrade-0.md)
-
+[Test and troubleshoot an upgrade to SharePoint 2013](test-troubleshoot-upgrade-2013.md)

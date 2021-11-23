@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
@@ -22,7 +22,7 @@ description: "Configure a SharePoint hybrid environment so that user searches fr
 
 # Display hybrid federated search results in SharePoint in Microsoft 365
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article.**
   
@@ -53,9 +53,9 @@ In this procedure, you create a result source in SharePoint in Microsoft 365. Th
     
 Result sources can be created at the organization level, the site collection level, or the site level. In this procedure, you create the result source at the organization level. This makes the result source available to any query rule that is created at the same level, and also to any query rule that is created for a site collection or site.
   
-For more info about result sources, see [Understanding result sources](https://office.microsoft.com/support/sharepoint-help/sharepointsearch/understanding-result-sources-HA102848849.aspx?CTT=5&amp;origin=HA103639370) and [Manage result sources](https://docs.microsoft.com/sharepoint/manage-result-sources).
+For more info about result sources, see [Understanding result sources](https://office.microsoft.com/support/sharepoint-help/sharepointsearch/understanding-result-sources-HA102848849.aspx?CTT=5&amp;origin=HA103639370) and [Manage result sources](../../SharePointOnline/manage-result-sources.md).
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
 
 2. Under **Search**, select **Open**.
 
@@ -67,7 +67,7 @@ For more info about result sources, see [Understanding result sources](https://o
     
    - In the General Information section, in the **Name** text box, enter a name for the new result source (for example, Get results from SharePoint Server 2013).
     
-     ![First four sections of result source page for getting hybrid search results from SharePoint Server 2013](../media/SP2013ResultSource.jpg)
+     ![First four sections of result source page for getting hybrid search results from SharePoint Server 2013](../media/sps-2013-resultsource.png)
   
    - (Optional) In the General Information section, in the **Description** text box, enter a description of the new result source. This description appears as a tooltip when the pointer rests on the result source on certain configuration pages. 
     
@@ -77,7 +77,7 @@ For more info about result sources, see [Understanding result sources](https://o
     
    - In the **Type** section, select **SharePoint Search Results**.
     
-   - In the **Query Transform** section you can enter a query transform to narrow the search results to a specified subset (for example, a subset that is from a particular SharePoint in Microsoft 365 site collection or site). However, if you are **not** familiar with query transforms in SharePoint Server or SharePoint in Microsoft 365, we recommend that you **keep** the default query transform that's in the text box. The default transform is **{searchTerms}**, which is a query variable that stands for the query that the user entered, as it was changed by the most recent query transform. If you are familiar with query transforms, you can change the default query transform by either entering a different query transform in the text box, or launching the Query Builder to help you configure a query transform. For more info, see [Plan to transform queries and order results in SharePoint Server](../search/plan-to-transform-queries-and-order-results.md) and [Query variables in SharePoint Server](../technical-reference/query-variables.md).
+   - In the **Query Transform** section, you can enter a query transform to narrow the search results to a specified subset (for example, a subset that is from a particular SharePoint in Microsoft 365 site collection or site). However, if you are **not** familiar with query transforms in SharePoint Server or SharePoint in Microsoft 365, we recommend that you **keep** the default query transform that's in the text box. The default transform is **{searchTerms}**, which is a query variable that stands for the query that the user entered, as it was changed by the most recent query transform. If you are familiar with query transforms, you can change the default query transform by either entering a different query transform in the text box, or launching the Query Builder to help you configure a query transform. For more info, see [Plan to transform queries and order results in SharePoint Server](../search/plan-to-transform-queries-and-order-results.md) and [Query variables in SharePoint Server](../technical-reference/query-variables.md).
     
      ![Query Transform and Credentials Information sections on New Result Source page in SharePoint in Microsoft 365](../media/ResultSourceInSPO_QueryTransform.gif)
   
@@ -94,7 +94,7 @@ Query rules can be created at the organization level, the site collection level,
   
 For more info about query rules, see [Plan to transform queries and order results in SharePoint Server](../search/plan-to-transform-queries-and-order-results.md) and [Manage query rules in SharePoint Server](../search/manage-query-rules.md)
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
 
 2. Under **Search**, select **Open**.
     
@@ -178,7 +178,7 @@ Use the following procedure to validate your configuration for viewing search re
 > [!IMPORTANT]
 > If you are using single sign-on (SSO) authentication, it is important to test the hybrid Search functionality by using federated user accounts. Native user accounts and AD accounts that are not federated are not recognized by both directory services. Therefore, they cannot authenticate using SSO and cannot be granted permissions to resources in both environments. For more info, see [Accounts needed for hybrid configuration and testing](accounts-needed-for-hybrid-configuration-and-testing.md). 
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
 
 2. Under **Search**, select **Open**.
     
@@ -244,7 +244,7 @@ To validate your configuration for displaying search results from both SharePoin
     
 6. If you still do not see search results from both search indexes, check the SharePoint in Microsoft 365 Unified Logging Service (ULS) logs, also called the SharePoint in Microsoft 365 trace logs.
     
-    For more info, see [Overview of Unified Logging System (ULS) Logging](https://go.microsoft.com/fwlink/p/?LinkId=393137).
+    For more info, see [Overview of Unified Logging System (ULS) Logging](/previous-versions/office/developer/sharepoint-2010/ff512738(v=office.14)).
     
 ## See also
 <a name="section4"> </a>
@@ -252,4 +252,3 @@ To validate your configuration for displaying search results from both SharePoin
 #### Concepts
 
 [Plan hybrid federated search for SharePoint Server](plan-hybrid-federated-search.md)
-

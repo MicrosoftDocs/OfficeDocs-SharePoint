@@ -3,22 +3,24 @@ title: "Create a hub site in SharePoint"
 ms.reviewer: metorres
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
+recommendations: true
 audience: Admin
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- m365initiative-spsitemanagement
 ms.custom: seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
 ms.assetid: 92bea781-15d8-4bda-805c-e441e2191ff3
-description: "In this article, you'll learn how to convert a site into a hub site in the SharePoint admin center."
+description: "In this article, you'll learn how to register a site as a hub site in the SharePoint admin center."
 ---
 
 # Create a hub site in SharePoint
@@ -30,7 +32,7 @@ If you're a global or SharePoint admin in Microsoft 365, you can convert any exi
   
 ## Create a hub site in the new SharePoint admin center
 
-1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.

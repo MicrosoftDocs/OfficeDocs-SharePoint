@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 20a9c358-4813-4e49-ba74-87879ba1ee93
 description: "Learn how to integrate social media with public-facing websites in SharePoint Server."
@@ -18,7 +18,7 @@ description: "Learn how to integrate social media with public-facing websites in
 
 # Integrating social media with public-facing websites in SharePoint
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
   
 Integrating social media within your organization can help you reach your organization's goals. The integration can be done on your organization's intranet to increase transparency, but you can also make social networks a part of your public-facing website to expand reach and increase conversion of your website.
   

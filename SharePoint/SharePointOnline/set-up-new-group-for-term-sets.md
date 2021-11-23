@@ -3,12 +3,13 @@ title: "Set up a new group for term sets"
 ms.reviewer: anfra
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
+recommendations: true
 audience: End User
 f1.keywords: NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - OSU150

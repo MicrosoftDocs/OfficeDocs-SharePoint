@@ -8,9 +8,9 @@ ms.date: 3/5/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to plan for Kerberos authentication in SharePoint Server
 
 # Plan for Kerberos authentication in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]  
   
 The Kerberos protocol supports an authentication method that uses tickets that a trusted source provides. Kerberos tickets indicate that the network credentials of a user who is associated with a client computer were authenticated. The Kerberos protocol defines how users interact with a network service to gain access to network resources. The Kerberos Key Distribution Center (KDC) issues a ticket-granting-ticket (TGT) to a client computer on behalf of a user. In Windows, the client computer is a member of an Active Directory Domain Services (AD DS) domain and the TGT is proof that the domain controller authenticated the user credentials. 
   
@@ -90,13 +90,13 @@ Claims-based authentication can be used as an alternative to Kerberos delegation
     
 For more information about Kerberos authentication, see the following resources:
    
-- [Microsoft Kerberos](https://docs.microsoft.com/windows/desktop/secauthn/microsoft-kerberos)
+- [Microsoft Kerberos](/windows/desktop/secauthn/microsoft-kerberos)
     
 - [Kerberos Explained](/previous-versions/windows/it-pro/windows-2000-server/bb742516(v=technet.10))
 
 - [How the Kerberos Version 5 Authentication Protocol Works](/previous-versions/windows/it-pro/windows-server-2003/cc772815(v=ws.10))
 
-- [Kerberos Authentication Tools and Settings](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc738673(v%3dws.10)) 
+- [Kerberos Authentication Tools and Settings](/previous-versions/windows/it-pro/windows-server-2003/cc738673(v%3dws.10)) 
     
 ## Kerberos authentication and claims-based authentication
 <a name="section2"> </a>
@@ -108,7 +108,7 @@ For more information about Kerberos authentication, see the following resources:
 - [Windows Identity Foundation home page](https://go.microsoft.com/fwlink/p/?LinkId=198943)
     
     
-When you create a SharePoint Server web application by using Central Administration, you must select one or more claims-based authentication types. When you create a SharePoint Server web application by using the **New-SPWebApplication** Microsoft PowerShell cmdlet, you can specify either claims authentication and claims authentication types or classic mode authentication. Claims authentication is recommended for all SharePoint Server web applications. By using claims authentication, all supported authentication types are available for your web applications and you can take advantage of server-to-server authentication and app authentication. For more information, see [What's new in authentication for SharePoint Server 2013](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016).
+When you create a SharePoint Server web application by using Central Administration, you must select one or more claims-based authentication types. When you create a SharePoint Server web application by using the **New-SPWebApplication** Microsoft PowerShell cmdlet, you can specify either claims authentication and claims authentication types or classic mode authentication. Claims authentication is recommended for all SharePoint Server web applications. By using claims authentication, all supported authentication types are available for your web applications and you can take advantage of server-to-server authentication and app authentication. For more information, see [What's new in authentication for SharePoint Server 2013](../what-s-new/new-and-improved-features-in-sharepoint-server-2016.md).
   
 > [!IMPORTANT]
 > The following service applications in SharePoint Server require the translation of claims-based credentials to Windows credentials. This process of translation uses the Claims to Windows Token Service (C2WTS): > **Excel Services**> **PerformancePoint Services**> **InfoPath Forms Services**> **Visio Services**> > These service applications are not available in SharePoint Foundation 2013. Excel Services is not available in SharePoint Server 2016. 
@@ -126,4 +126,3 @@ If you are using Windows claims mode for user authentication and the web applica
 #### Concepts
 
 [Plan for user authentication methods in SharePoint Server](plan-user-authentication.md)
-

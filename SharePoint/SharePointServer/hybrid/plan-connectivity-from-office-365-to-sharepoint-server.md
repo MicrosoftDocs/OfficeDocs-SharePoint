@@ -15,14 +15,14 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
 - SPO_Content
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b291ea58-cfda-48ec-92d7-5180cb7e9469
 description: "Plan and prepare to configure inbound connectivity from Microsoft 365 to SharePoint Server hybrid environment."
 ---
 
 # Plan connectivity from Microsoft 365 to SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
   
 This article is designed to help you plan and prepare to configure inbound connectivity from Microsoft 365 for enterprises to SharePoint Server through a reverse proxy device. This is required for the following hybrid environments: 
   

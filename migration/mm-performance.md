@@ -3,12 +3,13 @@ title: Improving your Migration Manager performance
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
@@ -19,14 +20,16 @@ description: "How to improve performance when using Migration Manager."
 ---
 # Improving your migration performance when using Migration Manager
 
-When using Migration Manager, follow these guidelines to help improve your migration performance.
+There are four general areas to examine when trying to improve performance when using Migration Manager.  Migration Manager will detect an area that needs improvement and direct you to guidance to make adjustments.
+
+The concept of "score" as it relates to performance is only available in the SharePoint Migration Tool (SPMT), and is not part of Migration Manager.  Instead, Migration Manager identifies one or more specific areas for improvement so you can more effectively refine your efforts to improve performance.
 
 ## Recommendations 
 
 -	[Improving the speed at which the source can be read](#improving-the-speed-at-which-the-source-can-be-read)
 -	[Improving the migration computer speed](#improving-the-migration-computer-speed)
 -	[Improving your connectivity to Office 365 and Azure](#improving-your-connectivity-to-office-365-and-azure)
--	[Performing migration following our published guidance](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed)
+-	[Performing migration following our published guidance](./sharepoint-online-and-onedrive-migration-speed.md)
 
 
 ## Improving the speed at which the source can be read 
@@ -65,6 +68,4 @@ Suggestions:
 
 Migration performance can be impacted by network infrastructure, file size, migration time, and throttling. Understanding these will help you plan and maximize the efficiency of your migration. These are detailed here:
 
-- [General guidelines for migration performance](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed)
-
-
+- [General guidelines for migration performance](./sharepoint-online-and-onedrive-migration-speed.md)

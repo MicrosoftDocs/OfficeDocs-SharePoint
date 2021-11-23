@@ -16,7 +16,7 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - Strat_SP_gtc
 - SPO_Content
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.custom: 
 ms.assetid: f6d49e94-ad29-456d-8cd9-f940154d5a0e
 description: "Learn how to configure hybrid federated search from SharePoint in Microsoft 365 to SharePoint Server."
@@ -24,7 +24,7 @@ description: "Learn how to configure hybrid federated search from SharePoint in 
 
 # Configure hybrid federated search from SharePoint in Microsoft 365 to SharePoint Server - roadmap
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
   
 This article provides the roadmap for configuring hybrid search from SharePoint in Microsoft 365 for enterprises to SharePoint Server, which allows your users to use see search results from SharePoint Server when searching from Microsoft 365.
   

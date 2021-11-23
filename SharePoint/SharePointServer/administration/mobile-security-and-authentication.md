@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0fe9d4a1-faf9-4941-a45a-b54f47a5dea5
 
 description: "Learn how to help secure a SharePoint mobile infrastructure, and learn about the different authentication types supported in SharePoint Server 2013."
@@ -18,7 +18,7 @@ description: "Learn how to help secure a SharePoint mobile infrastructure, and l
 
 # Mobile security and authentication in SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 This article provides security guidance and recommendations to help ensure that access to SharePoint Server 2013 and specific data in SharePoint is not compromised on a mobile device. This article also details the supported authentication types for select devices, and authentication specifics for the SharePoint Newsfeed App. 
   
@@ -55,7 +55,7 @@ The following table lists a selection of Exchange ActiveSync features and polici
 |Maximum inactivity time lock (MaxInactivityTimeDeviceLock)  <br/> |This option determines how long the mobile phone must be inactive before the user is prompted for a password to unlock the mobile phone.  <br/> |
    
 > [!IMPORTANT]
-> The selection of Exchange ActiveSync policies that can be used might differ on a device-by-device basis. For more information about which policies are supported on a specific device platform, such as Windows Phone and Apple iPhone, see [Understanding Exchange ActiveSync Mailbox Policies](https://go.microsoft.com/fwlink/?LinkId=253672).
+> The selection of Exchange ActiveSync policies that can be used might differ on a device-by-device basis. For more information about which policies are supported on a specific device platform, such as Windows Phone and Apple iPhone, see [Understanding Exchange ActiveSync Mailbox Policies](/exchange/exchange-activesync-exchange-2013-help).
   
 ### Finding a lost device
 <a name="lostdevice"> </a>
@@ -173,4 +173,3 @@ For more info about how to deploy the SharePoint Newsfeed App in your network, i
 #### Concepts
 
 [Overview of mobile devices and SharePoint Server 2013](mobile-devices-overview.md)
-

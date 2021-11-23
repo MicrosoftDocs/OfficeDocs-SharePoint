@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 45264de9-6859-45c1-9d6d-70035c471a2a
 description: "Learn how to plan for variations, identify the source and target variation sites, and decide how content will be synced on target variation sites in SharePoint Server and SharePoint in Microsoft 365."
@@ -18,7 +18,7 @@ description: "Learn how to plan for variations, identify the source and target v
 
 # Plan for variations in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
   
 The variations feature in SharePoint Server and SharePoint in Microsoft 365 makes content available to specific audiences on different sites by syncing content from a source variation site to each target variation site. Content on a target variation site can be translated into other languages before it is published. Variations can be used only on sites that are created by using one of the Publishing site templates, or on a site for which the SharePoint Server Publishing Infrastructure feature was activated.
   
@@ -47,7 +47,7 @@ Before you plan to use variations with a SharePoint Server solution, you should 
 ### Content approval
 <a name="Section2a"> </a>
 
-Content approval is the method by which site members with approver permissions control the publication of content. In content approval, content is considered published when a new major version is approved, because major versions are viewable by users who have read permissions. Content approval in variation sites requires major and minor versioning in the Pages libraries on the source and target variation sites. For more information about content approval, see [Plan content approval and scheduling (SharePoint Server 2010)](https://go.microsoft.com/fwlink/p/?LinkID=95836).
+Content approval is the method by which site members with approver permissions control the publication of content. In content approval, content is considered published when a new major version is approved, because major versions are viewable by users who have read permissions. Content approval in variation sites requires major and minor versioning in the Pages libraries on the source and target variation sites. For more information about content approval, see [Plan content approval and scheduling (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/cc263156(v=office.14)).
   
 Content approval has unique factors that you should consider when you are planning variations:
   
@@ -88,7 +88,7 @@ Content deployment copies content from a source site collection to a destination
   
 We recommend that you disable any content deployment jobs that include the source variation site while Variations Create Hierarchies Job Definition runs. If content deployment runs while the Variations Create Hierarchies Job Definition timer job is also running, a target variation site that is only partially created may be synced to the target variation site on the destination server.
   
-For more information about content deployment planning, see [Plan content deployment ](https://go.microsoft.com/fwlink/p/?LinkID=95854).
+For more information about content deployment planning, see [Plan content deployment ](/previous-versions/office/sharepoint-server-2010/cc263428(v=office.14)).
   
 ### Cross-site publishing
 <a name="Section2c"> </a>
@@ -121,7 +121,7 @@ SharePoint Server has several features that enable you to support users in diffe
 
 Variations are used to create multilingual sites, and sites based on regional differences. Determine which variations are needed for your solution, and make a list of the sites that will belong to the variations hierarchy.
   
-If you will be using variations for creating multilingual sites in SharePoint Server, and if you want the site administration pages of the target variation sites to be displayed in another language, you must install the language pack for each language that corresponds to a variation site. For information about how to install language packs, see [Install or uninstall language packs for SharePoint Server 2016](../install/install-or-uninstall-language-packs-0.md). If you will be using variations for creating multilingual sites in SharePoint in Microsoft 365, all language packs are installed and available for use.
+If you will be using variations for creating multilingual sites in SharePoint Server, and if you want the site administration pages of the target variation sites to be displayed in another language, you must install the language pack for each language that corresponds to a variation site. For information about how to install language packs, see [Install or uninstall language packs for SharePoint Server 2016](../install/install-uninstall-language-packs-2019.md). If you will be using variations for creating multilingual sites in SharePoint in Microsoft 365, all language packs are installed and available for use.
   
 ## Specify the source variation site
 <a name="bkm_source"> </a>
@@ -271,4 +271,3 @@ Download an Excel version of the [Variations planning worksheet](https://go.micr
 #### Concepts
 
 [Variations overview in SharePoint Server](variations-overview.md)
-

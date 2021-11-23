@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 9d1f5998-e6b6-474c-a2aa-47782b63e53e
 description: "Learn about managed navigation and navigation term sets for SharePoint Server publishing sites."
@@ -18,7 +18,7 @@ description: "Learn about managed navigation and navigation term sets for ShareP
 
 # Overview of managed navigation in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]. 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]. 
   
 The managed navigation feature in SharePoint Server enables you to build navigation for a publishing site that is derived from a SharePoint Server managed metadata taxonomy. In SharePoint Server 2010, by default, you could base navigation only on the structure of a site. To create site navigation based on any data structure, you had to create a custom navigation provider. By using managed navigation, you can design site navigation around important business concepts. Managed navigation also lets you create friendly URLs without changing the structure of your site. In SharePoint Server 2010, all publishing site URLs contained a reference to the Pages library and any folders within that library — for example, http://contoso.com/Pages/AboutUs.aspx. In SharePoint Server 2016 and SharePoint Server 2013, you can create URLs that are better for Search Engine Optimization (SEO), and easier for site visitors to read — for example, http://contoso.com/AboutUs. Managed navigation is not available in SharePoint Foundation 2013. 
   
@@ -37,7 +37,7 @@ This section describes key concepts that are related to managed navigation.
 
 A term is a word or phrase that can be associated with an item in SharePoint Server. A term set is a collection of related terms. The term set that managed navigation uses to build site navigation is called a navigation term set. For more information, see [Plan for managed metadata in SharePoint Server](../governance/managed-metadata-planning.md) and [Plan managed metadata (OLD)](/previous-versions/office/sharepoint-server-2010/ee530389(v=office.14)).
   
-The navigation term set is the backbone of the managed navigation feature. By default, as you create new pages in your publishing site, new terms are automatically added to the navigation term set. For example, when you create a new page named Company History, a term named Company History is added to the navigation term set. You can choose to turn off automatic term creation on the Navigation Settings page. You can also manually add terms to the navigation term set by using the Term Store Management Tool. For more information, see [Create and manage terms in a term set](https://docs.microsoft.com/sharepoint/create-and-manage-terms). 
+The navigation term set is the backbone of the managed navigation feature. By default, as you create new pages in your publishing site, new terms are automatically added to the navigation term set. For example, when you create a new page named Company History, a term named Company History is added to the navigation term set. You can choose to turn off automatic term creation on the Navigation Settings page. You can also manually add terms to the navigation term set by using the Term Store Management Tool. For more information, see [Create and manage terms in a term set](../../SharePointOnline/create-and-manage-terms.md). 
   
 > [!NOTE]
 > If automatic term creation is enabled, a new term will only be created if you choose **Add a page** on the **Settings** menu. Adding a page by using the **New Document** button on the **Files** tab in the ribbon does not create a new term in the navigation term set. 
@@ -68,7 +68,7 @@ Friendly URLs are URLs that correspond to a term in the navigation term set, and
   
 ### Global navigation and current navigation controls
 
-The global navigation control (called Top Navigation in the Snippet Gallery) is the primary navigation control that is used to display the navigation for a site. The global navigation control appears at the top of the page in the default master page, and can show one or more levels of navigation, based on terms in the navigation term set. The current navigation control (called Vertical Navigation in the Snippet Gallery) is a secondary navigation control that appears on the left side of the page in the default master page. Current navigation can show one or more levels of navigation that represent the next level of the navigation term set hierarchy based on the term that is selected in the global navigation control. For information about the Snippet Gallery, see [Add snippets to a master page or a page layout in SharePoint Server 2016](https://go.microsoft.com/fwlink/p/?LinkId=286810) in the MSDN Library. 
+The global navigation control (called Top Navigation in the Snippet Gallery) is the primary navigation control that is used to display the navigation for a site. The global navigation control appears at the top of the page in the default master page, and can show one or more levels of navigation, based on terms in the navigation term set. The current navigation control (called Vertical Navigation in the Snippet Gallery) is a secondary navigation control that appears on the left side of the page in the default master page. Current navigation can show one or more levels of navigation that represent the next level of the navigation term set hierarchy based on the term that is selected in the global navigation control. For information about the Snippet Gallery, see [Add snippets to a master page or a page layout in SharePoint Server 2016](/sharepoint/dev/general-development/sharepoint-design-manager-display-templates) in the MSDN Library. 
   
 ## How managed navigation works in SharePoint Server
 <a name="section2"> </a>
@@ -293,4 +293,3 @@ Because managed navigation uses term sets to build the site navigation, it has t
 #### Other Resources
 
 [Plan managed metadata (OLD)](/previous-versions/office/sharepoint-server-2010/ee530389(v=office.14))
-

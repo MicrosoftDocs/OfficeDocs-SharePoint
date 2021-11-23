@@ -8,9 +8,9 @@ ms.date: 9/29/2016
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -18,7 +18,9 @@ ms.assetid: 5aeff319-0a8f-4d6b-86d5-6086611c48ed
 description: "Create a plan to upgrade data for service applications when you upgrade from SharePoint Server 2013 to SharePoint Server 2016."
 ---
 
-# Services upgrade overview for SharePoint Server 2016   
+# Services upgrade overview for SharePoint Server 2016
+
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
   
 The upgrade process for SharePoint Server 2016 uses the database attach upgrade method. When you move your databases to a new farm and upgrade the content, you must create your services infrastructure in the new farm, and configure the services appropriately for your new farm and new version. The following service applications have databases that can be upgraded when you upgrade from SharePoint Server 2013 to SharePoint Server 2016:
   
@@ -83,7 +85,7 @@ Specifically, the following service application databases can be upgraded:
 |Secure Store  <br/> |Secure_Store_Service_DB_\<GUID\>  <br/> |
 |User Profile: Profile and Social databases  <br/> |User Profile Service Application_ProfileDB_\<GUID\>  <br/> User Profile Service Application_SocialDB_\<GUID\>  <br/> User Profile Service Application_SyncDB_\<GUID\>  <br/> |
    
-The steps to upgrade these service application databases are included in [Upgrade service applications to SharePoint Server 2016](/SharePoint/upgrade-and-update/upgrade-service-applications-to-sharepoint-server-2016).
+The steps to upgrade these service application databases are included in [Upgrade service applications to SharePoint Server 2016](./upgrade-service-applications-to-sharepoint-server-2016.md).
   
 ## Considerations for specific services
 <a name="Considerations"> </a>
@@ -106,4 +108,3 @@ The following services in SharePoint Server 2016 also require additional steps t
 [Overview of the upgrade process to SharePoint Server 2016](overview-of-the-upgrade-process.md)
   
 [Upgrade content databases to SharePoint Server 2016](upgrade-content-databases.md)
-

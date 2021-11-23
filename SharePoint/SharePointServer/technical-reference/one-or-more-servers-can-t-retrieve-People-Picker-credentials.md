@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: One or m
 
 # One or more servers can't retrieve People Picker credentials (SharePoint Server 2019)
 
-[!INCLUDE[appliesto-xxx-xxx-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-xxx-md.md)]
 
 **Rule Name:** One or more servers can't retrieve People Picker credentials.
 

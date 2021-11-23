@@ -3,13 +3,14 @@ title: "Change site collection version and upgrade settings"
 ms.reviewer: trgreen
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
+ms.topic: article
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration

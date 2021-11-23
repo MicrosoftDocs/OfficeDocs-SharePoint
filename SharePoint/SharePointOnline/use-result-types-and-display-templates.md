@@ -1,16 +1,17 @@
 ---
 title: "Change how search results look by using result types and display templates"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
+recommendations: true
 ms.date: 4/5/2018
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - MET150
@@ -58,4 +59,4 @@ You can create your own display templates that show information that's important
     
 - For information about the Search Center and how to set it up, see [Manage the Search Center in SharePoint](manage-search-center.md).
     
-- For a full list of available display templates, see **Display templates for the Search Results Web Part** in [Display template reference in SharePoint Server 2013](/SharePoint/technical-reference/display-template-reference-in-sharepoint-server).
+- For a full list of available display templates, see **Display templates for the Search Results Web Part** in [Display template reference in SharePoint Server 2013](../SharePointServer/technical-reference/display-template-reference-in-sharepoint-server.md).

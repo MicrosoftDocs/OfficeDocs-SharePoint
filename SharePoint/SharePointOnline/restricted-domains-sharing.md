@@ -3,13 +3,14 @@ title: "Domain restrictions when sharing SharePoint & OneDrive content"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
+recommendations: true
 audience: End User
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - Strat_OD_share
@@ -26,7 +27,7 @@ description: "Allow sharing only with guests on specific domains, or block shari
 If you want to restrict sharing with other organizations (either at the organization level or site level), you can limit sharing by domain.
 
 > [!NOTE]
-> If you have enrolled in the [SharePoint and OneDrive integration with Azure AD B2B Preview](sharepoint-azureb2b-integration-preview.md), invitations in SharePoint are also subject to any [domain restrictions configured in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).
+> If you have enrolled in the [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md), invitations in SharePoint are also subject to any [domain restrictions configured in Azure Active Directory](/azure/active-directory/b2b/allow-deny-list).
 
 ## Limiting domains
 
@@ -34,14 +35,14 @@ You can limit domains by allowing only the domains you specify or by allowing al
   
  **To limit domains at the organization level**
   
-1. Go to the [Sharing page of the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Sharing page of the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
     >[!NOTE]
     >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
     
 2. Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box, and then select **Add domains**.
     
-3. To create an allow list (most restrictive), select **Allow only specific domains**; to block only the domains you specify, select **Block specific domains**.
+3. To create an allowlist (most restrictive), select **Allow only specific domains**; to block only the domains you specify, select **Block specific domains**.
     
 4. List the domains (maximum of 3000) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line.
     
@@ -50,21 +51,21 @@ You can limit domains by allowing only the domains you specify or by allowing al
 
 5. Select **Save**.
 
-You can also configure the organization-wide setting by using the [Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant) PowerShell cmdlet.
+You can also configure the organization-wide setting by using the [Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant) PowerShell cmdlet.
   
 You can also limit domains at the site collection level. Note the following considerations:
   
 - In the case of conflicts, the organization-wide configuration takes precedence over the site collection configuration.
     
-- If an organization-wide allow list is configured, then you can only configure an allow list at the site collection level. The site collection allow list must be a subset of the organization's allow list.
+- If an organization-wide allowlist is configured, then you can only configure an allowlist at the site collection level. The site collection allowlist must be a subset of the organization's allowlist.
     
-- If an organization-wide deny list is configured, then you can configure either an allow list or a deny list at the site collection level.
+- If an organization-wide blocklist is configured, then you can configure either an allowlist or a blocklist at the site collection level.
     
-- For individual OneDrive site collections, you can only configure this setting by using the [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOSite) Windows PowerShell cmdlet.
+- For individual OneDrive site collections, you can only configure this setting by using the [Set-SPOSite](/powershell/module/sharepoint-online/Set-SPOSite) Windows PowerShell cmdlet.
     
  **To limit domains for a site**
 
-1. Go to the [Active sites page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sitemanagement&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Active sites page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sitemanagement&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
     >[!NOTE]
     >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -75,7 +76,7 @@ You can also limit domains at the site collection level. Note the following cons
     
 2. Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box, and then select **Add domains**.
     
-3. Select **Allow only specific domains** to create an allow list (most restrictive), or to block only the domains you specify, select **Block specific domains**.
+3. Select **Allow only specific domains** to create an allowlist (most restrictive), or to block only the domains you specify, select **Block specific domains**.
     
 4. List the domains (maximum of 100) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line.
     
@@ -85,7 +86,7 @@ You can also limit domains at the site collection level. Note the following cons
 5. Select **Save**, and then select **Save** again.  
 
     > [!NOTE]
-    > To configure the site collection setting for site collections that do not appear in this list (such as Group-connected sites or individual OneDrive site collections), you must use the [Set-SPOSite](https://go.microsoft.com/fwlink/?linkid=2003901) PowerShell cmdlet.
+    > To configure the site collection setting for site collections that do not appear in this list (such as Group-connected sites or individual OneDrive site collections), you must use the [Set-SPOSite](/powershell/module/sharepoint-online/Set-SPOSite) PowerShell cmdlet.
   
 ## Sharing experience
 
@@ -107,7 +108,7 @@ After you limit sharing by domain, here's what you'll see when you share a docum
   
 ## User auditing and lifecycle management
 
-As with any extranet sharing scenario it's important to consider the lifecycle of your guest users, how to audit their activity, and eventually how to archive the site. See [Planning SharePoint business-to-business (B2B) extranet sites](plan-b2b-extranet-sites.md) for more information.
+As with any extranet sharing scenario it's important to consider the lifecycle of your guests, how to audit their activity, and eventually how to archive the site. See [Planning SharePoint business-to-business (B2B) extranet sites](./create-b2b-extranet.md) for more information.
   
 ## See also
 
@@ -115,4 +116,4 @@ As with any extranet sharing scenario it's important to consider the lifecycle o
   
 [Extranet for Partners with Microsoft 365](create-b2b-extranet.md)
   
-[Set-SPOTenant](https://go.microsoft.com/fwlink/?linkid=2003900)
+[Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant)

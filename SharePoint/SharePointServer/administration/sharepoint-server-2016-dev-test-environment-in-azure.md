@@ -8,9 +8,9 @@ ms.date: 03/15/2019
 audience: ITPro
 f1.keywords:
 - CSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -23,7 +23,7 @@ description: "Create a single-server SharePoint 2016 dev/test farm in Microsoft 
 
 # SharePoint Server 2016 dev/test environment in Azure
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)] 
   
 This article steps you through the creation of a SharePoint Server 2016 dev/test farm hosted in Azure. Here is the resulting configuration.
   

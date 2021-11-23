@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 55f2a3c6-34f5-4131-9968-7f7b682144dd
 description: "Learn how to use Access Services in SharePoint Server to share solutions on the web."
@@ -18,7 +18,7 @@ description: "Learn how to use Access Services in SharePoint Server to share sol
 
 # Overview of Access Services in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 Access Services in SharePoint Server 2013 are service applications that enable you to share two types of Access 2013 solutions on the web.
   
@@ -42,5 +42,4 @@ There is no way to automatically convert a web database to an Access app. If you
 
 [What's new in Access 2013](https://go.microsoft.com/fwlink/p/?LinkId=268109)
   
-[Welcome to the Access 2013 developer reference](https://go.microsoft.com/fwlink/p/?LinkId=268112)
-
+[Welcome to the Access 2013 developer reference](/previous-versions/office/developer/office-2010/ee861519(v=office.14))

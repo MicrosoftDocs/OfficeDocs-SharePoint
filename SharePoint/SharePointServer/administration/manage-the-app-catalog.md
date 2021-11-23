@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: a19bb905-2984-4512-8e8a-3c17ec3680c0
 description: "Learn how to configure and manage an App Catalog for SharePoint Server environments to control access to available apps."
@@ -18,7 +18,7 @@ description: "Learn how to configure and manage an App Catalog for SharePoint Se
 
 # Manage the App Catalog in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can store apps for SharePoint and Office apps for your organization's internal use in an App Catalog site. This article contains an overview of the App Catalog site and shows how to configure the App Catalog for a web application.
   
@@ -72,7 +72,7 @@ Once the site has been created, a link to it is available on the Manage App Cata
 ## Configure app requests
 <a name="AppRequests"> </a>
 
-By default, site owners can purchace and download apps from the SharePoint Store. If you don't want site owners to be able to purchase apps directly, you can configure the SharePoint Store settings in Central Administration to only allow site owners to request apps. Apps can then be approved or denied by the App Catalog administrator.
+By default, site owners can purchase and download apps from the SharePoint Store. If you don't want site owners to be able to purchase apps directly, you can configure the SharePoint Store settings in Central Administration to only allow site owners to request apps. Apps can then be approved or denied by the App Catalog administrator.
   
  **To configure app requests in the SharePoint Store settings**
   
@@ -140,8 +140,8 @@ After you have configured the App Catalog, you can add apps that users can then 
   
  **To add an app to the App Catalog**
   
-1. Verify that the user account that is performing this procedure is a member of the site Owners or Designers group for the App Catalog.
-    
+1. Verify that the user account that is performing this procedure is a member of the site Owners or Designers group for the App Catalog (site collection administrator for SharePoint Server 2019).
+  
 2. On the App Catalog site, click the **Apps for SharePoint** list. 
     
     On the **Apps for SharePoint** page, click **new item**.
@@ -172,8 +172,8 @@ If you no longer want to offer a particular app to your users, you can remove it
   
  **To remove an app from the App Catalog**
   
-1. Verify that the user account that is performing this procedure is a member of the site Owners or Designers group for the App Catalog.
-    
+1. Verify that the user account that is performing this procedure is a member of the site Owners or Designers group for the App Catalog (site collection administrator for SharePoint Server 2019).
+
 2. On the App Catalog site, click the **Apps for SharePoint** list. 
     
 3. On the **Apps for SharePoint** page, select the app that you want to remove. 
@@ -186,8 +186,6 @@ If you no longer want to offer a particular app to your users, you can remove it
     
 ## See also
 <a name="RemoveApp"> </a>
-
-#### Concepts
 
 [Install and manage apps for SharePoint Server](install-and-manage-apps-for-sharepoint-server.md)
   

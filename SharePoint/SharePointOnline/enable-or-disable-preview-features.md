@@ -3,13 +3,14 @@ title: "Enable or disable preview features in SharePoint"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: overview
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration

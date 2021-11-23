@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -19,7 +19,7 @@ description: "Learn how to back up a web application in SharePoint Server by usi
 
 # Back up web applications in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can back up a web application by using the SharePoint Central Administration website, PowerShell, or SQL Server tools. The backup tool that you use depends on the kind of environment that you have deployed, your backup schedule requirements, and service level agreements that you have with your organization. 
   
@@ -63,7 +63,7 @@ You can use PowerShell to back up a web application manually or as part of a scr
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -82,7 +82,7 @@ You can use PowerShell to back up a web application manually or as part of a scr
     > [!NOTE]
     > If you are backing up the web application for the first time, you must use the  `Full` option. You must perform a full backup before you can perform a differential backup. 
   
-For more information, see [Backup-SPFarm.](/powershell/module/sharepoint-server/Backup-SPFarm?view=sharepoint-ps). 
+For more information, see [Backup-SPFarm.](/powershell/module/sharepoint-server/Backup-SPFarm?view=sharepoint-ps&preserve-view=true). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -135,7 +135,7 @@ You cannot back up the complete web application by using SQL Server tools. Howev
     
 5. In the **Back Up Database** dialog, confirm the database name. 
     
-6. Next, select the kind of backup that you want to perform from the **Backup type** list. For more information about which backup type to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=715706&amp;clcid=0x409).
+6. Next, select the kind of backup that you want to perform from the **Backup type** list. For more information about which backup type to use, see [Recovery Models (SQL Server)](/sql/relational-databases/backup-restore/recovery-models-sql-server).
     
 7. In the **Backup component** area, click **Database**.
     
@@ -157,6 +157,3 @@ You cannot back up the complete web application by using SQL Server tools. Howev
 [Back up farms in SharePoint Server](back-up-a-farm.md)
   
 [Plan for backup and recovery in SharePoint Server](backup-and-recovery-planning.md)
-  
-
-

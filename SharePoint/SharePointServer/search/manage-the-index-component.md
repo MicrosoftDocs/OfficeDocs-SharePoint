@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 6c4f87aa-1004-4b87-aaca-2c262588fc46
 description: "Learn how and when to use Windows PowerShell to scale out the search index in SharePoint Server by adding an index component to create an additional index replica or index partition."
@@ -18,7 +18,7 @@ description: "Learn how and when to use Windows PowerShell to scale out the sear
 
 # Manage the index component in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The procedures and the examples in this article assume that SharePoint Server and the Search service application are installed, that there is an existing search topology and that there are items in the SharePoint Server search index. If SharePoint Server and the Search service application are newly installed and there is no content in the SharePoint Server search index, follow the procedures outlined in [Change the default search topology in SharePoint Server](change-the-default-search-topology.md) to scale out the search topology. 
   

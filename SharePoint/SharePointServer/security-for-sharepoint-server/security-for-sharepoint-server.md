@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,11 +20,11 @@ description: "Find resources about security, including planning for authenticati
 
 # Security for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]  
   
 The following article provides information about authentication planning in SharePoint Server.
   
-||**Content**|**Description**|
+|**Image**|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol support in SharePoint Server](secure-sockets-layer-ssl-and-transport-layer-security-tls-protocol-support-in-sh.md) <br/> |Describes the versions of the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols that SharePoint Server 2016 supports.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2016](enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016.md) <br/> |Describes how to enable Transport Layer Security (TLS) protocol versions 1.1 and 1.2 in a SharePoint Server 2016 environment. SharePoint Server 2016 fully supports TLS 1.1 and TLS 1.2.  <br/> |
@@ -32,4 +32,4 @@ The following article provides information about authentication planning in Shar
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Plan security hardening for SharePoint Server](security-hardening.md) <br/> |Learn about security hardening requirements for SharePoint Server 2013 and SharePoint Server 2016.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Federal Information Processing Standard security standards and SharePoint Server](federal-information-processing-standard-security-standards.md) <br/> |Learn about SharePoint Server 2016 and SharePoint Server 2013 support for Federal Information Processing Standard (FIPS).  <br/> |
    
-
+Learn about [How SharePoint and OneDrive safeguard your data in the cloud for SharePoint in Microsoft 365](../../SharePointOnline/safeguarding-your-data.md).

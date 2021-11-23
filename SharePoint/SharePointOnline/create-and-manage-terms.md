@@ -3,12 +3,13 @@ title: "Create and manage terms in a term set"
 ms.reviewer: anfra
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
+recommendations: true
 audience: End User
 f1.keywords: NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - M365-collaboration
 search.appverid:

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: b19ef60e-d8a1-421c-9b80-1e284ca52ca4
 description: "Learn guidelines for how to plan video content types and video player pages using the Rich Media Web Part to provide better user experiences when you play videos in SharePoint Server."
@@ -18,7 +18,7 @@ description: "Learn guidelines for how to plan video content types and video pla
 
 # Estimate capacity and performance for video content management in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 SharePoint Server 2013 supports the video content type and the video player page, where you can use the Rich Media Web Part to play videos. This article contains test data to help you optimize the video playing experience for users in a SharePoint Server 2013 environment.
   

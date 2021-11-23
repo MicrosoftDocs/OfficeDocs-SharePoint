@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 48d39f84-9698-4249-b7e0-b885c462622e
 description: "Learn how to remove an item from the search index or SharePoint Server search results by removing the URL."
@@ -18,13 +18,13 @@ description: "Learn how to remove an item from the search index or SharePoint Se
 
 # Delete items from the search index or from search results in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 If you want to remove the metadata of an item from the search index or from the search results, you remove the URL of that item. To remove a URL from the search index, use the **Remove the Item from the Index** option that is available through the crawl log. To remove a URL from search results, use the **Search Result Removal** feature that allows for bulk URL removal. This can provide a more efficient method if many search results should be removed. 
   
 > [!NOTE]
 > 
-> - If your SharePoint environment is hybrid and uses [cloud hybrid search](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint), you index your on-premises content in your search index in Office 365. See [Learn about cloud hybrid search for SharePoint](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint) for guidance on deleting the metadata of an on-premises item and deleting on-premises search results from the search index in Office 365. 
+> - If your SharePoint environment is hybrid and uses [cloud hybrid search](../hybrid/learn-about-cloud-hybrid-search-for-sharepoint.md), you index your on-premises content in your search index in Office 365. See [Learn about cloud hybrid search for SharePoint](../hybrid/learn-about-cloud-hybrid-search-for-sharepoint.md) for guidance on deleting the metadata of an on-premises item and deleting on-premises search results from the search index in Office 365. 
 >
 > - For SharePoint Server 2019, removing the URL of an item affects both the **classic** and **modern** search experiences.
   
@@ -74,5 +74,3 @@ If you want to remove the metadata of an item from the search index or from the 
 5. On the Exclude URLs From Search Results page, in the **URLs to remove** box, type the URLs of the items that you want to remove from the search results. 
     
 6. Click **Remove Now**.
-    
-

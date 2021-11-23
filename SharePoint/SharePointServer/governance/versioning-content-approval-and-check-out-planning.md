@@ -8,16 +8,16 @@ ms.date: 3/1/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b607e000-9436-4cbb-b6aa-9e76d70a4314
 description: "Learn how to use versioning, content approval, and check-out in SharePoint Server to control document versions throughout their life cycle."
 ---
 
 # Plan document versioning, content approval, and check-out controls in SharePointServer
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article describes how to plan to use versioning, content approval, and check-out in SharePoint Server to control document versions throughout their life cycle.
   
@@ -53,9 +53,6 @@ The default versioning control for a document library depends on the site collec
     
     Use major and minor versioning when you want to differentiate between published content that can be viewed by an audience and draft content that is not yet ready for publication. For example, on a human resources Web site that describes organizational benefits, use major and minor versioning to restrict employees' access to benefits descriptions while the descriptions are being revised.
     
-> [!NOTE]
-> When you create a new version of a document, [the incremental changes are stored in SQL Server](https://docs.microsoft.com/sql/relational-databases/track-changes/about-change-data-capture-sql-server?view=sql-server-2017), rather than a completely new copy of the document. This provides the most efficient storage and helps reduce overall storage requirements. 
-  
 ## Plan content approval
 <a name="bkmk_plan_conapprov"> </a>
 

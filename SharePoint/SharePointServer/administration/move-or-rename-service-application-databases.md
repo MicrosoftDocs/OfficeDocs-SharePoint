@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -19,7 +19,7 @@ description: "Learn how to move or rename service application databases in Share
 
 # Move or rename service application databases in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Learn how to move or rename service application databases in SharePoint Server.
   
@@ -133,7 +133,7 @@ When you move or rename service application databases, the first step is to stop
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     > [!NOTE]
-    > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+    > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -147,7 +147,7 @@ When you move or rename service application databases, the first step is to stop
 
    Where  _\<ServiceGUID\>_ is the GUID of the service. 
     
-   For more information, see [Stop-SPServiceInstance](/powershell/module/sharepoint-server/Stop-SPServiceInstance?view=sharepoint-ps).
+   For more information, see [Stop-SPServiceInstance](/powershell/module/sharepoint-server/Stop-SPServiceInstance?view=sharepoint-ps&preserve-view=true).
     
 ### Move a database by using SQL Server Management Studio and File Explorer
 <a name="MoveFull"> </a>
@@ -217,7 +217,7 @@ Pointing to the moved or renamed database is the next step. You can do this with
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     > [!NOTE]
-    > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+    > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -245,7 +245,7 @@ Pointing to the moved or renamed database is the next step. You can do this with
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     > [!NOTE]
-    > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+    > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -284,7 +284,7 @@ The State Service database stores temporary state information data. You can use 
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     > [!NOTE]
-    > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+    > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -318,7 +318,7 @@ The State Service database stores temporary state information data. You can use 
 
    Where  _\<DatabaseID\>_ is the State Service database to remove from the service application. The type must be a valid GUID in the form 12345678-90ab-cdef-1234-567890bcdefgh, a valid name of a state database, or an instance of a valid **SPStateServiceDatabase** object. 
     
-   For more information, see [Dismount-SPStateServiceDatabase](/powershell/module/sharepoint-server/Dismount-SPStateServiceDatabase?view=sharepoint-ps).
+   For more information, see [Dismount-SPStateServiceDatabase](/powershell/module/sharepoint-server/Dismount-SPStateServiceDatabase?view=sharepoint-ps&preserve-view=true).
     
 3. Move the database. For details, see [Move a database by using SQL Server Management Studio and File Explorer](#MoveFull).
     
@@ -345,7 +345,7 @@ The State Service database stores temporary state information data. You can use 
    - Administrators group on the server on which you are running the PowerShell cmdlets.
     
    > [!NOTE]
-   > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+   > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -375,7 +375,7 @@ The State Service database stores temporary state information data. You can use 
    - Administrators group on the server on which you are running the PowerShell cmdlets.
     
    > [!NOTE]
-   > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+   > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -405,7 +405,7 @@ The State Service database stores temporary state information data. You can use 
    - Administrators group on the server on which you are running the PowerShell cmdlets.
     
    > [!NOTE]
-   > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+   > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -463,7 +463,7 @@ The following procedures show how to move or delete the Business Data Connectivi
 
    Where  _\<ServiceGUID\>_ is the GUID of the service. If you don't know the service GUID, you can retrieve a list of all services in the farm together with their GUIDs by using the **Get-SPServiceInstance** cmdlet. 
     
-    For more information, see [Stop-SPServiceInstance](/powershell/module/sharepoint-server/Stop-SPServiceInstance?view=sharepoint-ps) and [Get-SPServiceInstance](/powershell/module/sharepoint-server/Get-SPServiceInstance?view=sharepoint-ps).
+    For more information, see [Stop-SPServiceInstance](/powershell/module/sharepoint-server/Stop-SPServiceInstance?view=sharepoint-ps&preserve-view=true) and [Get-SPServiceInstance](/powershell/module/sharepoint-server/Get-SPServiceInstance?view=sharepoint-ps&preserve-view=true).
     
 ### Step 2: To detach a database from SQL Server
 
@@ -604,7 +604,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
 5. In the **Back Up Database** dialog, in the **Source** area, select the kind of backup that you want to perform from the **Backup type** list. 
     
-    For more information about the type of backup to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=626889).
+    For more information about the type of backup to use, see [Recovery Models (SQL Server)](/sql/relational-databases/backup-restore/recovery-models-sql-server?viewFallbackFrom=sql-server-2014).
     
 6. In the **Backup component** area, click **Database**.
     
@@ -638,7 +638,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
 4. In the **Max Degree of Parallelism** box, select **1** to limit the number of processors to use in parallel plan execution. 
     
-    For more information, see [Configure the max degree of parallelism Server Configuration Option](https://go.microsoft.com/fwlink/p/?LinkID=724373).
+    For more information, see [Configure the max degree of parallelism Server Configuration Option](/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option?viewFallbackFrom=sql-server-2014).
     
 ### To restore the Search service application databases to a new database server
 
@@ -658,7 +658,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
 8. On the **Options** tab, select the recovery state from the **Recover state** section. 
     
-    For more information about which recovery type to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=626889&amp) in SQL Server Books Online.
+    For more information about which recovery type to use, see [Recovery Models (SQL Server)](/sql/relational-databases/backup-restore/recovery-models-sql-server?viewFallbackFrom=sql-server-2014) in SQL Server Books Online.
     
 9. Click **OK** to restore the database. 
     
@@ -806,7 +806,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
 5. In the **Back Up Database** dialog, in the **Source** area, select the kind of backup that you want to perform from the **Backup type** list. 
     
-    For more information about the type of backup to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=626889&amp).
+    For more information about the type of backup to use, see [Recovery Models (SQL Server)](/sql/relational-databases/backup-restore/recovery-models-sql-server?viewFallbackFrom=sql-server-2014).
     
 6. In the **Backup component** area, click **Database**.
     
@@ -840,7 +840,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
 4. In the **Max Degree of Parallelism** box, select **1** to limit the number of processors to use in parallel plan execution. 
     
-    For more information, see [Configure the max degree of parallelism Server Configuration Option](https://go.microsoft.com/fwlink/p/?LinkID=724373).
+    For more information, see [Configure the max degree of parallelism Server Configuration Option](/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option?viewFallbackFrom=sql-server-2014).
     
 ### To restore the Search service application databases to a new database server
 
@@ -860,7 +860,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
 8. On the **Options** tab, select the recovery state from the **Recover state** section. 
     
-    For more information about which recovery type to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=626889) in SQL Server Books Online.
+    For more information about which recovery type to use, see [Recovery Models (SQL Server)](/sql/relational-databases/backup-restore/recovery-models-sql-server?viewFallbackFrom=sql-server-2014) in SQL Server Books Online.
     
 9. Click **OK** to restore the database. 
     
@@ -958,4 +958,3 @@ In some environments, you must coordinate the rename and move procedures with th
 #### Concepts
 
 [Move all databases in SharePoint Server](move-all-databases.md)
-

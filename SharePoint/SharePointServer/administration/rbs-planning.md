@@ -8,9 +8,9 @@ ms.date: 3/2/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Outlines the costs and benefits of using Remote BLOB Storage (RBS)
 
 # Deciding to use RBS in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article provides information to help you decide whether to use Remote BLOB Storage (RBS) in a SharePoint Server environment, and to understand the benefits and costs of using RBS.
   
@@ -40,7 +40,7 @@ For more information about RBS including information about RBS providers, we hig
 
 Each RBS provider has different capabilities and limitations. The FILESTREAM provider has the following limitations:
   
-- RBS has specific content database size limits for specific scenarios. For more information about these limitations, see the "Content database limits" section in [Software boundaries and limits for SharePoint 2013](../install/software-boundaries-and-limits.md) and [Content database limits](../install/software-boundaries-and-limits-0.md#ContentDB).
+- RBS has specific content database size limits for specific scenarios. For more information about these limitations, see the "Content database limits" section in [Software boundaries and limits for SharePoint 2013](../install/software-boundaries-and-limits.md) and [Content database limits](../install/software-boundaries-limits-2019.md#ContentDB).
     
 - Encryption is not supported on BLOBs, even if Transparent Data Encryption is enabled.
     
@@ -86,7 +86,7 @@ You should evaluate the implications of using RBS in different site scenarios. B
 If you are considering using RBS with team sites or other highly-collaborative sites, and the sites typically contain documents smaller than 256 KB, you will not see significant gains by using RBS. Moreover, by using versioning, you can cause the content database to grow very quickly if documents are being revised frequently.
   
 > [!IMPORTANT]
-> The use of RBS-enabled content databases larger than 200GB with collaboration sites is not supported. You cannot upload any document larger than 2GB to an RBS-enabled content database. For more information about RBS limits, see the "Content database limits" section in [Software boundaries and limits for SharePoint 2013](../install/software-boundaries-and-limits.md) and [Content database limits](../install/software-boundaries-and-limits-0.md#ContentDB). 
+> The use of RBS-enabled content databases larger than 200GB with collaboration sites is not supported. You cannot upload any document larger than 2GB to an RBS-enabled content database. For more information about RBS limits, see the "Content database limits" section in [Software boundaries and limits for SharePoint 2013](../install/software-boundaries-and-limits.md) and [Content database limits](../install/software-boundaries-limits-2019.md#ContentDB). 
   
 ### Record centers
 
@@ -112,7 +112,7 @@ This section discusses the benefits and costs of using the FILESTREAM provider. 
   
 ### Benefits
 
-Microsoft currently supports only the FILESTREAM RBS provider with SharePoint Server. When you use this provider, the backup and restore features in SharePoint Server also back up and restore the BLOBs and the structured data in the content database without requiring you to do additional work. The FILESTREAM provider also supports Internet Small Computer System Interface (iSCSI) connected storage devices. For more information, see [FILESTREAM Compatibility with Other SQL Server Features](https://go.microsoft.com/fwlink/p/?LinkID=733605&amp;clcid=0x409). 
+Microsoft currently supports only the FILESTREAM RBS provider with SharePoint Server. When you use this provider, the backup and restore features in SharePoint Server also back up and restore the BLOBs and the structured data in the content database without requiring you to do additional work. The FILESTREAM provider also supports Internet Small Computer System Interface (iSCSI) connected storage devices. For more information, see [FILESTREAM Compatibility with Other SQL Server Features](/sql/relational-databases/blob/filestream-compatibility-with-other-sql-server-features?viewFallbackFrom=sql-server-2014). 
   
 ### Costs
 
@@ -210,7 +210,6 @@ If the FILESTREAM provider is not practical for the environment, you can purchas
 
 #### Other Resources
 
-[Remote Blob Store (RBS) (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=733607&amp;clcid=0x409)
+[Remote Blob Store (RBS) (SQL Server)](/sql/relational-databases/blob/remote-blob-store-rbs-sql-server?viewFallbackFrom=sql-server-2014)
   
 [SQL Server Remote BLOB Store and FILESTREAM feature comparison](https://blogs.msdn.com/b/sqlrbs/archive/2009/11/18/sql-server-remote-blob-store-and-filestream-feature-comparison.aspx)
-

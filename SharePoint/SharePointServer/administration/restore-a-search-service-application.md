@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -19,7 +19,7 @@ description: "Learn how to restore the Search service application in SharePoint 
 
 # Restore Search service applications in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You can restore SharePoint Server search by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. The restore tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and service level agreements that you have made with your organization. 
   
@@ -68,7 +68,7 @@ You can use PowerShell to restore a service application.
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Make sure that the server you are restoring to use the same drive mapping as the server where you created the backup.
     
@@ -102,7 +102,7 @@ You can use PowerShell to restore a service application.
     
    -  _\<GUID\>_is the ID of the backup to use.
     
-    For more information, see [Restore-SPFarm](/powershell/module/sharepoint-server/Restore-SPFarm?view=sharepoint-ps).
+    For more information, see [Restore-SPFarm](/powershell/module/sharepoint-server/Restore-SPFarm?view=sharepoint-ps&preserve-view=true).
     
 5. When you restore a Search service application, it is automatically paused. To resume the Search service application when the restore has completed, type the following command: 
     
@@ -161,7 +161,7 @@ Use the following procedure to restore a search service application by using the
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 10. Start the SharePoint Management Shell.
     
@@ -203,7 +203,7 @@ You cannot restore the complete SharePoint Search service application by using S
     
 8. On the Options tab, select the recovery state from the **Recover state** section.
     
-    For more information about which recovery type to use, see [ Recovery Models (SQL Server) ](https://go.microsoft.com/fwlink/p/?LinkID=626889&amp;clcid=0x409).
+    For more information about which recovery type to use, see [ Recovery Models (SQL Server) ](/sql/relational-databases/backup-restore/recovery-models-sql-server?viewFallbackFrom=sql-server-2014).
     
 9. Click **OK** to restore the database.
     
@@ -215,4 +215,3 @@ You cannot restore the complete SharePoint Search service application by using S
 #### Concepts
 
 [Back up Search service applications in SharePoint Server](back-up-a-search-service-application.md)
-

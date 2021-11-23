@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5978d831-4070-4b03-a81c-dfce3b7d594e
 description: "Change how long the SharePoint Server search crawler will wait for a connection to a content repository or for a response to a connection attempt."
@@ -18,7 +18,7 @@ description: "Change how long the SharePoint Server search crawler will wait for
 
 # Configure time-out values for crawler connections in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 By default, when the crawler attempts to connect to a content repository, it waits 60 seconds for a connection or for a response to a connection attempt. Use the procedure in this article to change these crawler time-out values. 
   

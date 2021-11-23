@@ -8,9 +8,9 @@ ms.date: 9/13/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to configure a Managed Metadata service application in S
 
 # Configure the Managed Metadata service
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In this article we cover how to configure a Managed Metadata service application in SharePoint Server. Be sure you've [planned your configuration](managed-metadata-planning.md) before you follow the procedures below. 
   

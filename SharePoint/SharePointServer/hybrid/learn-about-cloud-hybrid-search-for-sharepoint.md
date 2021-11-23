@@ -8,9 +8,9 @@ ms.date: 10/4/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
@@ -25,7 +25,7 @@ description: "With the cloud hybrid search solution for SharePoint in Microsoft 
 
 # Learn about cloud hybrid search for SharePoint in Microsoft 365
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 With the cloud hybrid search solution for SharePoint in Microsoft 365, you index all your crawled content, including on-premises content, in your search index in Office 365. When users query your search index in Office 365, they get search results from both on-premises and Microsoft 365 content.
   
@@ -114,13 +114,13 @@ You **manage all other settings** in search administration in SharePoint in Micr
   
 ### Crawling on-premises content
 
-With cloud hybrid search, the crawler can crawl the same content sources and use the same search connectors as in earlier SharePoint Server versions. This lets you crawl and push content from your SharePoint Server 2007, SharePoint Server 2010, SharePoint Server 2013 and SharePoint Server 2016 farms into the Microsoft 365 search index. But, you can't index content that requires custom security trimming, because SharePoint in Microsoft 365 doesn't support adding [custom security trimmers](https://msdn.microsoft.com/library/ee819930.aspx).
+With cloud hybrid search, the crawler can crawl the same content sources and use the same search connectors as in earlier SharePoint Server versions. This lets you crawl and push content from your SharePoint Server 2007, SharePoint Server 2010, SharePoint Server 2013 and SharePoint Server 2016 farms into the Microsoft 365 search index. But, you can't index content that requires custom security trimming, because SharePoint in Microsoft 365 doesn't support adding [custom security trimmers](/sharepoint/dev/general-development/custom-security-trimming-for-search-in-sharepoint-server).
   
 The crawler can crawl the same default file types as in earlier SharePoint Server versions. If you need to crawl other file types on-premises, you just add custom iFilters to the SharePoint Server 2013 or SharePoint Server 2016 farm. From the SharePoint Server 2013 or SharePoint Server 2016 farm, you can also change which file types the crawler crawls and includes in the search index in Office 365.
   
 ### The search schema in SharePoint in Microsoft 365
 
-You manage the search schema in SharePoint in Microsoft 365, see [Manage the Search Center in SharePoint in Microsoft 365](/sharepoint/manage-search-center).
+You manage the search schema in SharePoint in Microsoft 365, see [Manage the Search Center in SharePoint in Microsoft 365](../../SharePointOnline/manage-search-center.md).
   
 The default mappings between crawled and managed properties in the search schema in Microsoft 365 also apply to the on-premises content. As long as you don't remove your existing, standard SSA, you can still set up a search schema in SharePoint Server, but this search schema won't apply to your on-premises content that the cloud SSA crawls.
   
@@ -162,4 +162,3 @@ Here's how it works:
 [Plan cloud hybrid search for SharePoint in Microsoft 365](plan-cloud-hybrid-search-for-sharepoint.md)
   
 [Hybrid search in SharePoint in Microsoft 365](hybrid-search-in-sharepoint.md)
-

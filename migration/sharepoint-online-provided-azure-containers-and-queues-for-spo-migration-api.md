@@ -4,13 +4,14 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 ms.date: 7/18/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
@@ -82,7 +83,7 @@ The call will return an object that contains two strings containing two SAS toke
 
 public SPProvisionedMigrationQueueInfo ProvisionMigrationQueue()
   
-This method will return a string containing the SAS token for accessing the Azure queue. The Queue can be reused across multiple migration jobs so this call should not be used as frequently as the SPProbisionnedMigrationContainersInfo() call.
+This method will return a string containing the SAS token for accessing the Azure queue. The Queue can be reused across multiple migration jobs so this call should not be used as frequently as the SPProvisionedMigrationContainersInfo() call.
   
 - Uri JobQueueUri
     

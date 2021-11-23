@@ -1,15 +1,16 @@
 ---
 title: "Control access in the new SharePoint admin center"
 ms.reviewer: trgreen
-manager: pamgreen
+manager: serdars
+recommendations: true
 ms.author: kaarins
 author: kaarins
 audience: Admin
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration

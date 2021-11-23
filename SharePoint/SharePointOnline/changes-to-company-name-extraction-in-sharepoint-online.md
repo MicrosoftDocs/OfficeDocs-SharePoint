@@ -3,14 +3,15 @@ title: "Changes to company name extraction in SharePoint"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
+recommendations: true
 ms.date: 9/18/2019
 audience: End User
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "The Company Name Extraction option in SharePoint is being deprecated."
 ---
 

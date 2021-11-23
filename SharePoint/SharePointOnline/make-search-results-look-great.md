@@ -1,16 +1,17 @@
 ---
 title: "Make the search results look great"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
+recommendations: true
 ms.date: 6/14/2017
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: overview
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - MET150
@@ -22,7 +23,7 @@ description: "Presenting the search results the right way makes content easier t
 
 Presenting the search results the right way makes content easier to find for users.
 
-SharePoint has both a classic and a modern search experience, where [Microsoft Search in SharePoint](https://docs.microsoft.com/microsoftsearch/overview-microsoft-search) is the modern search experience. [Learn about the differences between the search experiences in SharePoint](differences-classic-modern-search.md).
+SharePoint has both a classic and a modern search experience, where [Microsoft Search in SharePoint](/microsoftsearch/overview-microsoft-search) is the modern search experience. [Learn about the differences between the search experiences in SharePoint](differences-classic-modern-search.md).
 
 If you're responsible for search in your organization, you can customize how results are presented on classic search results pages. Read about how you can use the search web parts in SharePoint to make it easier for users find what they're looking for in the classic search experience.  
   

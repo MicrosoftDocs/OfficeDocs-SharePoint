@@ -8,9 +8,9 @@ ms.date: 2/15/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to install SharePoint on a single server with SQL Server
 
 # Install SharePoint 2013 on a single server with SQL Server
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 A single server installation consists of one server that runs both SQL Server and SharePoint 2013. You can install and configure SharePoint 2013 on a single server if you are hosting only a few sites for a limited number of users or if you want to create a trial or development environment. This configuration is also useful if you want to configure a farm to meet your needs first, and then add servers to the farm at a later stage.
   
@@ -38,18 +38,18 @@ When you install SharePoint 2013 on a single server, you can configure SharePoin
 
 Before you begin to install and configure SharePoint 2013, do the following:
   
-- Ensure that you are familiar with the operating-system guidelines described in [Performance Tuning Guidelines for Windows Server 2008](https://go.microsoft.com/fwlink/p/?LinkID=121171) and [Performance Tuning Guidelines for Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?LinkID=184531).
+- Ensure that you are familiar with the operating-system guidelines described in [Performance Tuning Guidelines for Windows Server 2008](https://go.microsoft.com/fwlink/p/?LinkID=121171) and [Performance Tuning Guidelines for Windows Server 2008 R2](/windows-server/administration/performance-tuning/).
     
-- Ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2008 R2 SP1. For server farms, you must also have a 64-bit version of SQL Server 2008 R2 SP1. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md).
+- Ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2008 R2 SP1. For server farms, you must also have a 64-bit version of SQL Server 2008 R2 SP1. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md).
     
 - Ensure that you perform a clean installation of SharePoint 2013.
     
 - Ensure that you are prepared to set up the required accounts by using appropriate permissions. For detailed information, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-- Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](https://go.microsoft.com/fwlink/p/?LinkId=780865&amp;clcid=0x409)and [Degree of Parallelism](https://go.microsoft.com/fwlink/p/?LinkId=780866&amp;clcid=0x409).
+- Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](/previous-versions/sql/sql-server-2012/ms189094(v=sql.110))and [Degree of Parallelism](/previous-versions/sql/sql-server-2008-r2/ms188611(v=sql.105)).
     
 > [!NOTE]
-> The Distributed Cache service gives you a complete social computing experience. For more information about the Distributed Cache service, see [Overview of microblog features, feeds, and the Distributed Cache service in SharePoint Server](/sharepoint/administration/administration), [Manage the Distributed Cache service in SharePoint Server](../administration/manage-the-distributed-cache-service.md), [Plan for feeds and the Distributed Cache service in SharePoint Server](../administration/plan-for-feeds-and-the-distributed-cache-service.md), and [What's new in authentication for SharePoint Server 2013](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016)
+> The Distributed Cache service gives you a complete social computing experience. For more information about the Distributed Cache service, see [Overview of microblog features, feeds, and the Distributed Cache service in SharePoint Server](../administration/administration.md), [Manage the Distributed Cache service in SharePoint Server](../administration/manage-the-distributed-cache-service.md), [Plan for feeds and the Distributed Cache service in SharePoint Server](../administration/plan-for-feeds-and-the-distributed-cache-service.md), and [What's new in authentication for SharePoint Server 2013](../what-s-new/new-and-improved-features-in-sharepoint-server-2016.md)
   
 > [!NOTE]
 > As a security best practice, we recommend that you install SharePoint 2013 by using least-privilege administration. 
@@ -336,5 +336,3 @@ After you install and configure SharePoint 2013, your browser window opens to th
 - **Configure outgoing email** You can configure outgoing email so that your Simple Mail Transfer Protocol (SMTP) server sends email alerts to site users and notifications to site administrators. You can configure both the "From" email address and the "Reply" email address that appear in outgoing alerts. For more information, see [Configure outgoing email for a SharePoint Server farm](../administration/outgoing-email-configuration.md).
     
 - **Configure Search settings** You can configure Search settings to crawl the content in SharePoint 2013. 
-    
-

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: a3ad4dea-36b2-48df-b699-8fd9725df53c
 description: "Learn about SharePoint Server publishing, the kinds of SharePoint Server publishing sites, and the publishing methods available for SharePoint Server sites."
@@ -18,7 +18,7 @@ description: "Learn about SharePoint Server publishing, the kinds of SharePoint 
 
 # Overview of publishing to Internet, intranet, and extranet sites in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can use the publishing features in SharePoint Server to create branded Internet, intranet, and extranet sites. However, some publishing features are available only in SharePoint Server 2016.
   
@@ -65,7 +65,7 @@ Publishing in SharePoint Server consists of two separate features: the SharePoin
     
 - **Navigation** The global navigation menu replaces the top link bar, and the managed navigation feature is enabled. 
     
-- **Master pages, page layouts, and display templates** Master pages, page layouts, and display templates let you customize the overall behavior and appearance of your site. For more information, see [SharePoint page model overview](https://go.microsoft.com/fwlink/p/?LinkId=261548).
+- **Master pages, page layouts, and display templates** Master pages, page layouts, and display templates let you customize the overall behavior and appearance of your site. For more information, see [SharePoint page model overview](/sharepoint/dev/general-development/overview-of-the-sharepoint-page-model).
     
 - **Design Manager and design packages** The Design Manager is a new interface and central hub for managing all aspects of branding your SharePoint site. It enables a step-by-step approach for creating design assets in the web development tool of your choice that you can use to brand sites. 
     
@@ -123,4 +123,3 @@ SharePoint Server has two ways that you can make published content available to 
 [Plan for cross-site publishing in SharePoint Server](plan-for-cross-site-publishing.md)
   
 [Estimate capacity and performance for Web Content Management (SharePoint Server 2013)](web-content-management-capacity-and-performance.md)
-

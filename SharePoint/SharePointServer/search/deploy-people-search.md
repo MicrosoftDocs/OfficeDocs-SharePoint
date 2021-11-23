@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0864e3e6-37bc-4b43-ae38-6a01f8728e8b
 description: "Learn how to make classic people search work in SharePoint Server."
@@ -18,7 +18,7 @@ description: "Learn how to make classic people search work in SharePoint Server.
 
 # Deploy people search in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 People search is a SharePoint Server feature that allows users to get information about people in the organization and to get links to the documents that they have authored. Users can access this feature by entering a search query in the enterprise Search Center search box and clicking the link for the **People** search vertical.
   
@@ -81,7 +81,7 @@ When you configure My Sites, the default content access account for search is au
     
     - Right-click **Computer**, click **All apps**, and then click **SharePoint Central Administration**.
     
-    For more information about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=276950).
+    For more information about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
     
 3. In Central Administration, in the **Application Management** section, click **Manage service applications**.
     
@@ -213,7 +213,7 @@ Before you can obtain meaningful people search results, you must add user profil
     
   - [Configure profile synchronization by using SharePoint Active Directory Import in SharePoint Server](../administration/configure-profile-synchronization-by-using-sharepoint-active-directory-import.md)
     
-- Copy user profiles from one farm to another by using the User Profile Replication Engine (UPRE). For more information, see [Use UPRE to replicate user profiles across multiple farms in SharePoint Server 2013](/SharePoint/administration/manage-profile-synchronization). 
+- Copy user profiles from one farm to another by using the User Profile Replication Engine (UPRE). For more information, see [Use UPRE to replicate user profiles across multiple farms in SharePoint Server 2013](../administration/manage-profile-synchronization.md). 
     
 - Add user profiles manually.
     
@@ -274,4 +274,3 @@ For information about how to view the status of a crawl, see [Start, pause, resu
 [Manage crawling in SharePoint Server](manage-crawling.md)
   
 [Add, edit, or delete a content source in SharePoint Server](add-edit-or-delete-a-content-source.md)
-

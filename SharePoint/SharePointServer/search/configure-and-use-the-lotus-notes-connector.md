@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: a7960bf4-d5be-4ad7-a430-724ef194ad39
 description: "Learn about the administrative roles, required software, user accounts, and processes that are required to install and operate the Lotus Notes Client and the Lotus Notes Connector to work with SharePoint Server search."
@@ -18,7 +18,7 @@ description: "Learn about the administrative roles, required software, user acco
 
 # Configure and use the Lotus Notes connector for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
     
 ## Before you begin
 <a name="begin"> </a>

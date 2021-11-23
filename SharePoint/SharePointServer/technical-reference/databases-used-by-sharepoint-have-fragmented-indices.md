@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Database
 
 # Databases used by SharePoint have fragmented indices (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
  **Rule Name:** Databases used by SharePoint have fragmented indices. 
   
@@ -30,4 +30,4 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Database
   
  **Resolution: Reorganize and rebuild indexes**
   
-1. To correct index fragmentation, you can reorganize an index or rebuild an index. For more information, see [Reorganize and Rebuild Indexes](https://go.microsoft.com/fwlink/?LinkID=780583&amp;clcid=0x409).
+1. To correct index fragmentation, you can reorganize an index or rebuild an index. For more information, see [Reorganize and Rebuild Indexes](/sql/relational-databases/indexes/reorganize-and-rebuild-indexes).

@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8fe00c69-317f-49c9-8669-832a5f85e42c
 description: "Summary Learn how Excel Services in SharePoint Server supports connections with SQL Server Analysis Services (SSAS), SQL Server databases, and OLE DB and ODBC data sources."
 ---
 
 # Data authentication for Excel Services in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 Retrieving data from a data source requires a user to be authenticated by the data source and then authorized to access the data that is contained therein. In the case of a workbook, Excel Services authenticates to the data source on behalf of the user who is viewing it in order to refresh the data to which the workbook is connected.
   
@@ -107,7 +107,7 @@ ODC files must be stored in a trusted data connection library. Centralizing data
     
 - Workbook authors only have a single location to find workbook data connections, reducing confusion and user training.
     
-For information about how to create data connection libraries, see [How to: Create and Use a Data Connection Library](https://go.microsoft.com/fwlink/p/?LinkID=188117) (https://go.microsoft.com/fwlink/p/?LinkID=188117). For information about how to create ODC files, see [Create, edit, and manage connections to external data](https://go.microsoft.com/fwlink/p/?LinkID=196894) (https://go.microsoft.com/fwlink/p/?LinkID=196894). 
+For information about how to create data connection libraries, see [How to: Create and Use a Data Connection Library](/previous-versions/office/developer/sharepoint-2010/ms772101(v=office.14)) (https://go.microsoft.com/fwlink/p/?LinkID=188117). For information about how to create ODC files, see [Create, edit, and manage connections to external data](https://go.microsoft.com/fwlink/p/?LinkID=196894) (https://go.microsoft.com/fwlink/p/?LinkID=196894). 
   
 ### Windows authentication
 
@@ -117,7 +117,7 @@ The authentication method to choose depends on various factors as outlined in th
   
 **Comparison of authentication methods**
 
-||||||
+| | | | | |
 |:-----|:-----|:-----|:-----|:-----|
 |**Authentication method** <br/> |Kerberos delegation  <br/> |Secure Store  <br/> |Unattended Service Account  <br/> |Effective User Name  <br/> |
 |**Description** <br/> |Using constrained Kerberos delegation, the workbook viewer's Windows credentials are sent to the data source directly.  <br/> |Using the Secure Store Service, the viewer's Windows credentials are mapped to another set of credentials specified in a Secure Store target application.  <br/> |Using the Secure Store Service, all viewers are mapped to a unique set of credentials called the Unattended Service Account that is stored in a specific Secure Store target application specified in Excel Services Global Settings.  <br/> |Using the EffectiveUserName Global Setting, the user's domain user name is passed to Analysis Services data sources.  <br/> |
@@ -132,7 +132,7 @@ Choose Kerberos delegation for secure and fast authentication to enterprise-scal
   
 - [Configuring Kerberos Authentication for Microsoft SharePoint 2010 Products](https://go.microsoft.com/fwlink/p/?LinkId=196600) (https://go.microsoft.com/fwlink/p/?LinkId=196600) 
     
-- [Configure Kerberos authentication (SharePoint Server 2010)](/SharePoint/security-for-sharepoint-server/kerberos-authentication-planning)
+- [Configure Kerberos authentication (SharePoint Server 2010)](../security-for-sharepoint-server/kerberos-authentication-planning.md)
     
 #### Secure Store
 
@@ -161,7 +161,7 @@ The unattended service account is used by Excel Services in these scenarios:
   
 Choose the unattended service account when you are connecting to small ad-hoc deployments in which security is less important or for which speed of deployment is essential.
   
-For information about using the unattended service account with Excel Services, see [Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2016](configure-the-unattended-service-account-0.md). 
+For information about using the unattended service account with Excel Services, see [Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2016](configure-unattended-service-account-2013.md). 
   
 ### SQL Server Authentication
 
@@ -209,5 +209,3 @@ Refresh can be triggered in one of following ways from within the browser:
 - The end-user clicks on the refresh button on an already open workbook.
     
 If there are no previously cached versions of this workbook, any of these actions will trigger a refresh and update the workbook.
-  
-

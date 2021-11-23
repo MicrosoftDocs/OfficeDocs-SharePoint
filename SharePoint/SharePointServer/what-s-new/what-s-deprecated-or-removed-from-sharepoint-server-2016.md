@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn about the features and functionality that are deprecated or 
 
 # What's deprecated or removed from SharePoint Server 2016
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
 Learn about the features and functionality that are deprecated or removed in SharePoint Server 2016
   
@@ -52,7 +52,7 @@ Earlier versions of SharePoint used ForeFront Identity Manager client (FIM) to s
   
 ### Excel Services in SharePoint
 
-Excel Services and its associated business intelligence capabilities are no longer hosted on SharePoint Server. Excel Services functionality is now part of Excel Online in Office Online Server (this is the next version of Office Web Apps Server), and SharePoint users can use the services from there. For more information, see [Office Online Server now available](https://blogs.office.com/2016/05/04/office-online-server-now-available/), [Office Online Server](/webappsserver/office-web-apps-server), and [Configure Excel Online administrative settings](/SharePoint/administration/configure-excel-services).
+Excel Services and its associated business intelligence capabilities are no longer hosted on SharePoint Server. Excel Services functionality is now part of Excel Online in Office Online Server (this is the next version of Office Web Apps Server), and SharePoint users can use the services from there. For more information, see [Office Online Server now available](https://blogs.office.com/2016/05/04/office-online-server-now-available/), [Office Online Server](/webappsserver/office-web-apps-server), and [Configure Excel Online administrative settings](../administration/configure-excel-services.md).
   
 If you currently use Excel Services in SharePoint 2013 and upgrade to SharePoint Server 2016 you must also deploy Office Online Server with Excel Online to ensure Excel Services functionality remains available.
   
@@ -129,5 +129,3 @@ The Work Management Service Application has been removed from SharePoint Server 
 ## Stsadm.exe
 
 We recommend that you use Microsoft PowerShell when you perform command-line administrative tasks. The Stsadm command-line tool has been deprecated, but it is included to support compatibility with previous product versions. 
-  
-

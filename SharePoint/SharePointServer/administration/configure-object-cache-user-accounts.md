@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: cd646bb3-28c6-4040-866c-7d7936837ade
 description: "Learn how to configure the Portal Super User and Portal Super Reader accounts that are used by the object cache in SharePoint Server."
@@ -18,7 +18,7 @@ description: "Learn how to configure the Portal Super User and Portal Super Read
 
 # Configure object cache user accounts in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The object cache stores properties about items in SharePoint Server. Items in this cache are used by the publishing feature when it renders web pages. The goals of the object cache are to reduce the load on the computer on which SQL Server is running, and to improve request latency and throughput. The object cache makes its queries as one of two out-of-box user accounts: the Portal Super User and the Portal Super Reader. These user accounts must be properly configured to ensure that the object cache works correctly. The Portal Super User account must be an account that has Full Control access to the web application. The Portal Super Reader account must be an account that has Full Read access to the web application.
   
@@ -41,7 +41,7 @@ By default, the Portal Super User account is the site's System Account, and the 
 You can configure the user accounts for the object cache by the the SharePoint Central Administration website and Microsoft PowerShell. You must first create the accounts in Central Administration and then add the accounts to the web application by using PowerShell. You must add the user accounts to each web application.
   
 > [!CAUTION]
-> At the end of this procedure, you must reset Internet Information Services (IIS) to apply the changes to the web application. Be sure to perform this procedure when there will be minimal disruption to users that are connected to the site. For more information about IISReset, see [IIS Reset Activity](https://go.microsoft.com/fwlink/p/?LinkId=179336). 
+> At the end of this procedure, you must reset Internet Information Services (IIS) to apply the changes to the web application. Be sure to perform this procedure when there will be minimal disruption to users that are connected to the site. For more information about IISReset, see [IIS Reset Activity](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd364067(v=ws.10)). 
   
  **To create the user accounts by using Central Administration**
   
@@ -82,7 +82,7 @@ You can configure the user accounts for the object cache by the the SharePoint C
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Paste the following code into a text editor, such as Notepad:
     
@@ -114,7 +114,7 @@ You can configure the user accounts for the object cache by the the SharePoint C
     
 8. At the PowerShell command prompt, type the following command: ./SetUsers.ps1
     
-9. Reset Internet Information Services (IIS). For more information about IISReset, see [Start or Stop the Web Server (IIS 8)](https://go.microsoft.com/fwlink/?LinkID=718159&amp;clcid=0x409).
+9. Reset Internet Information Services (IIS). For more information about IISReset, see [Start or Stop the Web Server (IIS 8)](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj635851(v=ws.11)).
     
 ## See also
 <a name="section2"> </a>
@@ -122,4 +122,3 @@ You can configure the user accounts for the object cache by the the SharePoint C
 #### Concepts
 
 [Cache settings operations in SharePoint Server](cache-settings-operations.md)
-

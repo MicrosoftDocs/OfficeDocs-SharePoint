@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 371181ec-d27c-4899-9d3c-ae0ffefa1cc0
 description: "Add, edit or delete Excel Services user-defined function assemblies in SharePoint Server."
 ---
 
 # Manage Excel Services user defined function assemblies (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 > [!IMPORTANT]
 > The steps in this article apply to SharePoint Server 2013 Enterprise. 
@@ -99,5 +99,4 @@ Use the following procedure to remove a user-defined function assembly from the 
 
 #### Other Resources
 
-[Configure Excel Services in SharePoint](/SharePoint/administration/configure-excel-services)
-
+[Configure Excel Services in SharePoint](./configure-excel-services.md)

@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c8209ecc-59e4-4568-a7e6-782a6b0ab02f
 description: "Learn to configure scheduled data refresh in Power Pivot for SharePoint by using Secure Store."
 ---
 
 # Configure scheduled data refresh for Power Pivot by using Secure Store (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 > [!IMPORTANT]
 > This scenario applies only to SharePoint Server 2013. 

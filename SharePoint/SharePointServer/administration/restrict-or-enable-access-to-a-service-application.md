@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -19,7 +19,7 @@ description: "Learn how to restrict access to a service application by adding an
 
 # Restrict or enable access to a service application in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In SharePoint Server, you can restrict the access to a service application so that the service application is available to only specified web applications. 
   
@@ -143,7 +143,7 @@ After you have started PowerShell, the remaining steps to restrict access to a s
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -329,23 +329,22 @@ Set-SPServiceApplicationSecurity $spguid -ObjectSecurity $security
 [Account permissions and security settings in SharePoint Servers 2016 and 2019](../install/account-permissions-and-security-settings-in-sharepoint-server-2016.md)
 #### Other Resources
 
-[Create a web application in SharePoint Server](/SharePoint/administration/create-a-web-application)
+[Create a web application in SharePoint Server](./create-a-web-application.md)
   
-[Get-SPWebApplication](/SharePoint/administration/create-a-web-application)
+[Get-SPWebApplication](./create-a-web-application.md)
   
-[New-SPClaimsPrincipal](/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps)
+[New-SPClaimsPrincipal](/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps&preserve-view=true)
   
-[Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps)
+[Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps&preserve-view=true)
   
-[Get-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/get-spserviceapplicationsecurity?view=sharepoint-ps)
+[Get-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/get-spserviceapplicationsecurity?view=sharepoint-ps&preserve-view=true)
   
-[Grant-SPObjectSecurity](/powershell/module/sharepoint-server/Grant-SPObjectSecurity?view=sharepoint-ps)
+[Grant-SPObjectSecurity](/powershell/module/sharepoint-server/Grant-SPObjectSecurity?view=sharepoint-ps&preserve-view=true)
   
 [Revoke-SPObjectSecurity](/powershell/module/sharepoint-online/revoke-spobjectsecurity)
   
-[Set-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Set-SPServiceApplicationSecurity?view=sharepoint-ps)
+[Set-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Set-SPServiceApplicationSecurity?view=sharepoint-ps&preserve-view=true)
   
-[Get-SPFarm](/powershell/module/sharepoint-server/Get-SPFarm?view=sharepoint-ps)
+[Get-SPFarm](/powershell/module/sharepoint-server/Get-SPFarm?view=sharepoint-ps&preserve-view=true)
   
-[Get-SPClaimProvider](/powershell/module/sharepoint-server/Get-SPClaimProvider?view=sharepoint-ps)
-
+[Get-SPClaimProvider](/powershell/module/sharepoint-server/Get-SPClaimProvider?view=sharepoint-ps&preserve-view=true)

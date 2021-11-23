@@ -4,12 +4,13 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
@@ -29,7 +30,8 @@ description: "SharePoint Migration Tool table of supported SharePoint web parts 
 >At least 24 hours before you start migration, do the following:
 >1. From the SharePoint Admin Center, select Settings.
 >2. Scroll down to "Custom Script".
->3. Select both of the following:</br>
+>3. If using the modern experience, click on Go to the classic settings page
+>4. Select both of the following:</br>
 >*Allow users to run custom script on personal sites*</br>
 >*Allow users to run customer script on self-service created sites*
 >
@@ -39,12 +41,12 @@ description: "SharePoint Migration Tool table of supported SharePoint web parts 
  > [!NOTE]
  > Changes to this setting might take up to 24 hours to take effect.
 
-For more information, see: [Allow or prevent custom script](https://docs.microsoft.com/sharepoint/allow-or-prevent-custom-script)</br>
+For more information, see: [Allow or prevent custom script](/sharepoint/allow-or-prevent-custom-script)</br>
 
 
-The following table details the SharePoint Webparts that are currently supported by the SharePoint Migration Tool (SPMT). 
+The following table details the SharePoint web parts that are currently supported by the SharePoint Migration Tool (SPMT). 
 
-|**Category**|**Webpart Name**|**Supported**|
+|**Category**|**Web part name**|**Supported**|
 |:-----|:-----|:-----|
 |Blog|Blog Archive|Yes|
 |Blog|Blog notification|Yes|
@@ -64,7 +66,7 @@ The following table details the SharePoint Webparts that are currently supported
 |Community|Tools (community admin)|Yes|
 |Community|About this community|Yes|
 |Community|My membership|Yes|
-|Community|Whats happening|Yes|
+|Community|What's happening|Yes|
 |Content Rollup|Categories|No|
 |Content Rollup|Project Summary|Yes|
 |Content Rollup|Relevant Documents|Yes|
@@ -93,10 +95,10 @@ The following table details the SharePoint Webparts that are currently supported
 |Filters|Text Filter|Yes|
 |Filters|Apply Filter|Yes|
 |Filters|Filter Actions|No|
-|Filters|Sharepoint List Filter|Yes|
+|Filters|SharePoint List Filter|Yes|
 |Filters|SQL server analysis services filters|No|
-|Forms|HTML Form webpart|No|
-|Forms|infopath Form webpart|No|
+|Forms|HTML Form web part|No|
+|Forms|InfoPath Form web part|No|
 |List|List Form |No|
 |List|Document library|Yes|
 |List|List View|Yes|
@@ -111,8 +113,8 @@ The following table details the SharePoint Webparts that are currently supported
 |Media and Content|SilverLight web Part|Yes|
 |Mysite|My Site First Run Experience |No|
 |Mysite|My Site Personal Site Upgrade On Navigation |No|
-|OutLook|Outlook web acces|No|
-|Performance Point|Performance Point webparts|No|
+|OutLook|Outlook web access|No|
+|Performance Point|Performance Point web parts|No|
 |Search|Actions Links|No|
 |Search|Advanced Search Box|No|
 |Search|Best Bets|No|
@@ -129,7 +131,7 @@ The following table details the SharePoint Webparts that are currently supported
 |Search|Statistics|No|
 |Search|Taxonomy Refinement Panel|No|
 |Search-Driven Content|Catalog-item reuse|No|
-|Search-Driven Content|Items Matchin a tag|No|
+|Search-Driven Content|Items matching a tag|No|
 |Search-Driven Content|Pages|No|
 |Search-Driven Content|Pictures|No|
 |Search-Driven Content|Popular items|No|
@@ -143,7 +145,7 @@ The following table details the SharePoint Webparts that are currently supported
 |Social Collaboration|Contact Details|Yes|
 |Social Collaboration|Micro Feed |Yes|
 |Social Collaboration|Note Board|Yes|
-|Social Collaboration|Organisation Browser|Yes|
+|Social Collaboration|Organization Browser|Yes|
 |Social Collaboration|Followed Counts |No|
 |Social Collaboration|Site Feed |Yes|
 |Social Collaboration|Site Users|Yes|
@@ -153,4 +155,3 @@ The following table details the SharePoint Webparts that are currently supported
 |XSLT|XSlt Larges client |No|
 |XSLT|XSlt Larges Image |No|
 |XSLT|XSlt List View|Yes|
-

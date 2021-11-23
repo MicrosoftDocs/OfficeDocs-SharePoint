@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 087d42aa-7ea9-4ef4-bcce-98371b733d8c
 description: "Learn how to import list content into the Product Catalog Site Collection in SharePoint Server 2016."
@@ -18,7 +18,7 @@ description: "Learn how to import list content into the Product Catalog Site Col
 
 # Stage 2: Import list content into the Product Catalog Site Collection in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 > [!NOTE]
 > Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
@@ -55,7 +55,7 @@ Before we can run the PowerShell scripts, we'll have to prepare the following:
     
 - A tab delimited text file that contains the taxonomy to be added to the **Product Hierarchy** term set. 
     
-The PowerShell scripts, instructions on how to create the tab delimited text files, and instructions on how to change and use the import scripts can be found in [Import list content to Products list for SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=400443).
+The PowerShell scripts, instructions on how to create the tab delimited text files, and instructions on how to change and use the import scripts can be found in [Import list content to Products list for SharePoint 2013](/samples/browse/?redirectedfrom=TechNet-Gallery).
   
 After we have run the five PowerShell scripts, we get the following:
   
@@ -78,4 +78,3 @@ So, now that we have content in the **Products** list, the next task is to enabl
 #### Concepts
 
 [Configure cross-site publishing in SharePoint Server](configure-cross-site-publishing.md)
-

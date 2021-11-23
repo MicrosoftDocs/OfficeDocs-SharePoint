@@ -4,15 +4,19 @@ ms.reviewer:
 ms.author: hokavian
 author: Holland-ODSP
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - Strat_SP_modern
+- m365solution-spintranet
 - M365-collaboration
+- enabler-strategic
+- m365initiative-spsites
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
@@ -53,9 +57,9 @@ This planning guide primarily addresses *site* navigation: the top (communicatio
 
 ## Why navigation is important
 
-The most effective SharePoint sites help viewers find what they need quickly so that they can use the information they to make decisions, learn about what is going on, access the tools they need, or engage with colleagues to help solve a problem.
+The most effective SharePoint sites help viewers find what they need quickly so that they can use the information they need to make decisions, learn about what is going on, access the tools they need, or engage with colleagues to help solve a problem.
 
-Even when search is available, [most viewers start their web experiences by browsing](http://gerrymcgovern.com/search-and-navigation-interconnections/). That pattern persists on internal web sites as well. Good navigation experiences present viewers with a complete picture of what is available on the site and, combined with the home page, provide a comprehensive "story" for the site.
+Even when search is available, [most viewers start their web experiences by browsing](https://gerrymcgovern.com/search-and-navigation-interconnections/). That pattern persists on internal web sites as well. Good navigation experiences present viewers with a complete picture of what is available on the site and, combined with the home page, provide a comprehensive "story" for the site.
 
 Page navigation and site navigation display differently. The links that you see in site navigation are static on every page in the site. The navigation links on individual pages are accessed only when the viewer lands on the page. A benefit to on-page links is that they can be different from page to page. Both types of navigational links guide your viewers by providing *wayfinding* experiences. 
 
@@ -72,7 +76,7 @@ Planning site and page navigation involves thinking about:
 
 Navigation should always be planned from the perspective of the user of information – the viewers to your site. Planning effective navigation involves considering not just the information you want to *present*, but also thinking about the information your viewers want or need to *consume*. 
 
-Therefore, organizing and labeling your navigation links is critical for the purposes of usability and findability. If 70% of viewers come to your sites expecting to browse for information, the usability of your site depends on creating a great browsing experience. To learn more, see [Information architecture principals in SharePoint](information-architecture-principles.md)
+Therefore, organizing and labeling your navigation links is critical for the purposes of usability and findability. If 70% of viewers come to your sites expecting to browse for information, the usability of your site depends on creating a great browsing experience. To learn more, see [Information architecture principles in SharePoint](information-architecture-principles.md)
 
 ### Organizing
 

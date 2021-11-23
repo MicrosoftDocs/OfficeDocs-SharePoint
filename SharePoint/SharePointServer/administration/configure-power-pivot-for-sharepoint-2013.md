@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9cea4a3d-c196-4d9e-942d-2677a6c15c13
 description: "Learn how to configure Power Pivot for SharePoint Server."
 ---
 
 # Configure Power Pivot for SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 > [!IMPORTANT]
 > This scenario applies only to SharePoint Server 2013 and SQL Server 2012 with Service Pack 1 (SP1). 
@@ -31,7 +31,7 @@ Before getting started, make sure you have:
   
 - [Configured Excel Services](configure-excel-services.md) in your SharePoint Server farm.
     
-- [Configured a data model server](manage-excel-services-data-model-settings.md) in Excel Services. You'll need an instance of [Analysis Services 2012 SP1 configured in Power Pivot mode](https://msdn.microsoft.com/library/jj219067.aspx) in order to do this.
+- [Configured a data model server](manage-excel-services-data-model-settings.md) in Excel Services. You'll need an instance of [Analysis Services 2012 SP1 configured in Power Pivot mode](/analysis-services/instances/install-windows/install-analysis-services-in-power-pivot-mode?viewFallbackFrom=sql-server-ver15) in order to do this.
     
 - [Configured Secure Store](configure-the-secure-store-service.md) in your SharePoint Server farm.
     
@@ -54,7 +54,7 @@ This video shows the steps involved in setting up Power Pivot for SharePoint 201
 ## Prepare the farm
 <a name="proc1"> </a>
 
-In this section, we will prepare the farm for Power Pivot installation. This includes registering a managed account and configuring some Secure Store settings in Central Administration, as well as configuring some security settings in SQL Server. You'll need to be a farm administrator and a SQL Server administrator to do these steps, as well as a [Shell Administrator](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps) to do the PowerShell steps. 
+In this section, we will prepare the farm for Power Pivot installation. This includes registering a managed account and configuring some Secure Store settings in Central Administration, as well as configuring some security settings in SQL Server. You'll need to be a farm administrator and a SQL Server administrator to do these steps, as well as a [Shell Administrator](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true) to do the PowerShell steps. 
   
  **Register a domain account as a managed account in SharePoint Server 2013**
   
@@ -135,7 +135,7 @@ In order for the Power Pivot Management Dashboard reports to work, the account t
     
 2. Expand **Security** and double-click the account that is used for the Excel Services application pool. 
     
-3. On the **User Mapping** page, click the SharePoint Admin content database (usually named SharePoint_AdminContent_<GUID>). 
+3. On the **User Mapping** page, click the SharePoint Admin content database (usually named SharePoint_AdminContent_GUID). 
     
 4. Select the **SPDataAccess** database role check box. 
     
@@ -307,5 +307,3 @@ On the Manage Data Refresh page, select the **Enable** and **Also refresh as soo
 ![Screenshot of Power Pivot data refresh settings.](../media/PowerPivotEnableRefreshSettings.png)
   
 Repeat this several times while making some changes to your data. If the changes show up in the report when it's rendered in the browser, then data refresh is working properly.
-  
-

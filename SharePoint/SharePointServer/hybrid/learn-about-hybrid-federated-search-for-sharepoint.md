@@ -8,9 +8,9 @@ ms.date: 10/4/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
@@ -24,7 +24,7 @@ description: "With the hybrid federated search solution, you use both your index
 
 # Learn about hybrid federated search for SharePoint in Microsoft 365
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 With the hybrid federated search solution, you use both your index in SharePoint Server and your index in Microsoft 365. Both SharePoint Server and SharePoint in Microsoft 365 Search services can query the search index in the other environment and return federated results. When users search from a Search Center, the search results come from both your search index in SharePoint Server and your search index in Office 365.
   

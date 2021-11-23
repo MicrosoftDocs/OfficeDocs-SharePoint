@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Web.conf
 
 # Web.config file has incorrect settings for the requestFiltering element (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
  **Rule Name:** Web.config file has incorrect settings for the requestFiltering element. 
   
@@ -54,6 +54,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Web.conf
     
   - The requestLimits element has a maxAllowedContentLength attribute and its value is set to **2147483647**.
     
-    For more information, see [How to: Add and Remove Web.config Settings Programmatically](https://go.microsoft.com/fwlink/p/?LinkID=227014).
+    For more information, see [How to: Add and Remove Web.config Settings Programmatically](/previous-versions/office/developer/sharepoint-2010/bb861909(v=office.14)).
     
 10. After you have made changes to these settings, in the **Actions** pane, click **Apply**.

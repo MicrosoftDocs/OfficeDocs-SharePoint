@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -21,7 +21,7 @@ description: "Technical reference articles provide information about PowerShell 
 
 # Technical reference for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The following articles provide information about reference content for SharePoint Server.
   
@@ -31,7 +31,7 @@ The following technical reference articles about SharePoint Server are available
   
 |**Content**|**Description**|
 |:-----|:-----|
-|[Microsoft PowerShell for SharePoint Server](/powershell/module/sharepoint-server/?view=sharepoint-ps) <br/> |Learn about how to use PowerShell to administer SharePoint Server.  <br/> |
+|[Microsoft PowerShell for SharePoint Server](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true) <br/> |Learn about how to use PowerShell to administer SharePoint Server.  <br/> |
 |[System Center Operations Manager knowledge articles for SharePoint Server](system-center-operations-manager-knowledge-articles.md) <br/> |Learn about resolving alerts from the Systems Center Operations Manager (SCOM) management pack.  <br/> |
 |[Database types and descriptions in SharePoint Server](database-types-and-descriptions.md) <br/> |Learn about the databases that support SharePoint Server.  <br/> |
 |[Timer job reference for SharePoint Server](timer-job-reference-for-sharepoint-server.md) <br/> |Learn about the default timer jobs for SharePoint Server 2019, SharePoint Server 2016, and SharePoint 2013.  <br/> |
@@ -39,11 +39,10 @@ The following technical reference articles about SharePoint Server are available
 |[Publishing technical reference for SharePoint Server](publishing-technical-reference.md) <br/> |Learn about SharePoint Server 2013 publishing sites.  <br/> |
 |[Stsadm to Microsoft PowerShell mapping in SharePoint Server](stsadm-to-microsoft-powershell-mapping.md) <br/> |Learn about Stsadm operations and their equivalent PowerShell cmdlets.  <br/> |
 |[Display template reference in SharePoint Server](display-template-reference-in-sharepoint-server.md) <br/> |Learn about different display templates available in SharePoint Server 2013.  <br/> |
-|[Index of Microsoft PowerShell cmdlets for SharePoint Server](/powershell/module/sharepoint-server/?view=sharepoint-ps) <br/> |Displays a listing of Microsoft PowerShell cmdlets for SharePoint Server.  <br/> |
+|[Index of Microsoft PowerShell cmdlets for SharePoint Server](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true) <br/> |Displays a listing of Microsoft PowerShell cmdlets for SharePoint Server.  <br/> |
    
 ## See also
 
 #### Other Resources
 
-[Stsadm command-line tool (Office SharePoint Server)](https://go.microsoft.com/fwlink/p/?LinkID=186993)
-
+[Stsadm command-line tool (Office SharePoint Server)](/previous-versions/office/sharepoint-2007-products-and-technologies/cc261956(v=office.12))

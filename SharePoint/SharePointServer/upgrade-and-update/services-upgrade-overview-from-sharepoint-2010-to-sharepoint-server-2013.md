@@ -8,9 +8,9 @@ ms.date: 7/26/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Create a plan to upgrade data for service applications when you up
 
 # Services upgrade overview from SharePoint 2010 to SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 The upgrade process for SharePoint Server 2013 uses the database attach upgrade method. When you move your databases to a new farm and upgrade the content, you must create your services infrastructure in the new farm, and configure the services appropriately for your new farm and new version. The following service applications have databases that can be upgraded when you upgrade from SharePoint Server 2010 to SharePoint Server 2013:
   
@@ -101,7 +101,7 @@ The following services in SharePoint Server 2013 also require additional steps t
     
 - **InfoPath Forms Service**
     
-    This service is not part of the Farm Configuration Wizard. If you want to use this service, you can use the **Configure InfoPath Forms Services** link on the **General Application Settings** page in SharePoint Central Administration to configure it. If you want to continue using form templates from your previous environment, you can export any administrator-deployed form templates (.xsn files) and data connection files (.udcx files) from your SharePoint Server 2010 environment, and then import them to your new SharePoint Server 2013 environment by using the **Export-SPInfoPathAdministrationFiles** PowerShell cmdlet. If the URL of the new server differs from the URL of the previous server, you can run the **Update-SPInfoPathAdminFileUrl** PowerShell cmdlet to update links that are used in the upgraded form templates. For more information, see [Configure InfoPath Forms Services (SharePoint Server 2010)](https://go.microsoft.com/fwlink/?LinkId=403876). 
+    This service is not part of the Farm Configuration Wizard. If you want to use this service, you can use the **Configure InfoPath Forms Services** link on the **General Application Settings** page in SharePoint Central Administration to configure it. If you want to continue using form templates from your previous environment, you can export any administrator-deployed form templates (.xsn files) and data connection files (.udcx files) from your SharePoint Server 2010 environment, and then import them to your new SharePoint Server 2013 environment by using the **Export-SPInfoPathAdministrationFiles** PowerShell cmdlet. If the URL of the new server differs from the URL of the previous server, you can run the **Update-SPInfoPathAdminFileUrl** PowerShell cmdlet to update links that are used in the upgraded form templates. For more information, see [Configure InfoPath Forms Services (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/cc262263(v=office.14)). 
     
 - **Office Web Apps**
     
@@ -115,4 +115,3 @@ The following services in SharePoint Server 2013 also require additional steps t
 [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013.md)
   
 [Upgrade content databases from SharePoint 2010 to SharePoint 2013](upgrade-content-databases-from-sharepoint-2010-to-sharepoint-2013.md)
-

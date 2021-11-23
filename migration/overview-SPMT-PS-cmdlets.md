@@ -1,23 +1,20 @@
 ---
 title: "Migrate to SharePoint and OneDrive using PowerShell cmdlets"
+audience:  ITPro
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
-audience: ITPro
+recommendations: true
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
-- IT_SharePoint_Hybrid
-- IT_SharePoint_Hybrid_Top
-- IT_Sharepoint_Server
-- IT_Sharepoint_Server_Top
-- Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
@@ -26,7 +23,7 @@ description: "Learn how the PowerShell cmdlets based on the SharePoint Migration
 
 # Migrate to SharePoint using PowerShell
 
-This article is about the new PowerShell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine. They can be used to move files from SharePoint 2010 and SharePoint 2013 on-premises document libraries and list items, and file shares to Microsoft 365.  For information on all current PowerShell cmdlets relating to SharePoint migration, please see the [Microsoft SharePoint Migration Tool cmdlet reference](https://docs.microsoft.com/powershell/spmt/intro?view=spmt-ps).
+This article is about the new PowerShell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine. They can be used to move files from SharePoint 2010 and SharePoint 2013 on-premises document libraries and list items, and file shares to Microsoft 365.  For information on all current PowerShell cmdlets relating to SharePoint migration, please see the [Microsoft SharePoint Migration Tool cmdlet reference](/powershell/spmt/intro).
 
 The PowerShell cmdlets provide the same functionalities as the [SharePoint Migration Tool](introducing-the-sharepoint-migration-tool.md).
 
@@ -62,12 +59,12 @@ The PowerShell cmdlets provide the same functionalities as the [SharePoint Migra
 
 ## Before you begin
 
-1. Provision your Microsoft 365 with either your existing active directory or one of the other options for adding accounts to Microsoft 365. See [Microsoft 365 integration with on-premises environments](https://go.microsoft.com/fwlink/?LinkID=616610&amp;clcid=0x409) and [Add users to Microsoft 365 Apps for business](https://go.microsoft.com/fwlink/?LinkID=616611&amp;clcid=0x409) for more information.
+1. Provision your Microsoft 365 with either your existing active directory or one of the other options for adding accounts to Microsoft 365. See [Microsoft 365 integration with on-premises environments](/microsoft-365/enterprise/microsoft-365-integration) and [Add users to Microsoft 365 Apps for business](/microsoft-365/admin/add-users/add-users) for more information.
 2. Open the folder:
 
    *$env:UserProfile\Documents\WindowsPowerShell\Modules\Microsoft.SharePoint.MigrationTool.PowerShell*
 
-   Make sure you have DLLs inside of it.
+   Make sure you have DLLs inside of it, if you're using OneDrive you may need to copy the WindowsPowershell Folder into OneDrive / Documents.
 3. From this location, run the following PowerShell command
 
    ```powershell
@@ -121,48 +118,47 @@ Use this cmdlet to delete the migration session.
 
 ## Sample Scenarios
 
-Example 1: IT admin adds a SharePoint on-prem task and starts migration in the background.
+**Example 1:** IT admin adds a SharePoint on-prem task and starts migration in the background.
 
 ```powershell
 #Define SharePoint 2013 data source#
-$Global:SourceSiteUrl = "http://YourOnPremSite/"
-$Global:OnPremUserName = "Yourcomputer\administrator"
-$Global:OnPremPassword = ConvertTo-SecureString -String "OnPremPassword" -AsPlainText -Force
-$Global:SPCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $Global:OnPremUserName, $Global:OnPremPassword
-$Global:SourceListName = "SourceListName"
-
+$SourceSiteUrl = "http://YourOnPremSite/"
+$OnPremUserName = "Yourcomputer\administrator"
+$OnPremPassword = ConvertTo-SecureString -String "OnPremPassword" -AsPlainText -Force
+$SPCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $OnPremUserName, $OnPremPassword
+$SourceListName = "SourceListName"
 
 #Define SharePoint target#
-$Global:SPOUrl = "https://contoso.sharepoint.com"
-$Global:UserName = "admin@contoso.onmicrosoft.com"
-$Global:PassWord = ConvertTo-SecureString -String "YourSPOPassword" -AsPlainText -Force
-$Global:SPOCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $Global:UserName, $Global:PassWord
-$Global:TargetListName = "TargetListName"
+$SPOUrl = "https://contoso.sharepoint.com"
+$UserName = "admin@contoso.onmicrosoft.com"
+$PassWord = ConvertTo-SecureString -String "YourSPOPassword" -AsPlainText -Force
+$SPOCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $UserName, $PassWord
+$TargetListName = "TargetListName"
 
 #Define File Share data source#
-$Global:FileshareSource = "YourFileShareDataSource"
+$FileshareSource = "YourFileShareDataSource"
 
 #Import SPMT Migration Module#
 Import-Module Microsoft.SharePoint.MigrationTool.PowerShell
 
 #Register the SPMT session with SharePoint credentials#
-Register-SPMTMigration -SPOCredential $Global:SPOCredential -Force
+Register-SPMTMigration -SPOCredential $SPOCredential -Force
 
 #Add two tasks into the session. One is SharePoint migration task, and another is File Share migration task.#
-Add-SPMTTask -SharePointSourceCredential $Global:SPCredential -SharePointSourceSiteUrl $Global:SourceSiteUrl  -TargetSiteUrl $Global:SPOUrl -MigrateAll
-Add-SPMTTask -FileShareSource $Global:FileshareSource -TargetSiteUrl $Global:SPOUrl -TargetList $Global:TargetListName
+Add-SPMTTask -SharePointSourceCredential $SPCredential -SharePointSourceSiteUrl $SourceSiteUrl  -TargetSiteUrl $SPOUrl -MigrateAll
+Add-SPMTTask -FileShareSource $FileshareSource -TargetSiteUrl $SPOUrl -TargetList $TargetListName
 
 #Start Migration in the console. #
 Start-SPMTMigration
 ```
 
-Example 2: IT admin wants to bring the migration from the background "NoShow mode" to the foreground, run below the cmdlet, so he can see the migration progress in the console.
+**Example 2:** IT admin wants to bring the migration from the background "NoShow mode" to the foreground, and run below the cmdlet so the migration progress is shown in the console.
 
 ```powershell
 Show-SPMTMigration
 ```
 
-Example 3:  IT Admin wants to do a bulk migration by loading a .csv file.  The sample file in this example is SPMT.csv.
+**Example 3:**  IT Admin wants to do a bulk migration by loading a .csv file.  The sample file in this example is SPMT.csv.
 
 ```powershell
 Load CSV;
@@ -180,7 +176,6 @@ Two migration tasks are defined in the file of spmt.csv.
 D:\MigrationTest\Files\Average_1M\c,,,https://SPOSite.sharepoint.com,Documents,Test
 C:\work\Powershell\negative,,,https://SPOSite.sharepoint.com/,Documents,DocLibrary_SubfolderName
 ```
-
 Code snippets for bulk migration by loading one JSON file:
 
 ```powershell
@@ -246,3 +241,40 @@ Three migration tasks are defined in the file of spmt.json.
    ]
 }
  ```
+
+**Example 4:** Display migration progress
+
+These samples show how to display the progress of your migration project. **Get-SPMTMigration** returns the object of current session. It includes current tasks status and current session level settings.
+The status of current tasks includes:
+- Count of scanned files
+- Count of filtered out files
+- Count of migrated files
+- Count of failed files
+- Migration progress of current task (0 ~ 100)
+- Current task status
+- Migration error message if there is any.
+
+```powershell
+
+# Start migration in the background
+Start-SPMTMigration -NoShow
+
+# Get the object of current migration
+$session = Get-SPMTMigration
+
+# Query migration status every 5 seconds until migration is finished
+while ($session.Status -ne "Finished")
+{
+Write-Host $session.Status
+
+    # Query migration progress of each tasks
+    Foreach ($taskStatus in $session.StatusOfTasks)
+    {
+        $taskStatus.MigratingProgressPercentage
+}
+
+    Start-Sleep -Seconds 5
+} 
+ 
+```
+

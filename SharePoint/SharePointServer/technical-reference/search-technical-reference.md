@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 4192cf8b-0f17-43ad-8e79-87acfc96e935
 description: "Learn about default crawled file name extensions and parsed file types, default crawled and managed properties, default connectors and linguistics features per language for search in SharePoint Server."
@@ -18,7 +18,7 @@ description: "Learn about default crawled file name extensions and parsed file t
 
 # Search technical reference for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The following articles provide technical reference information for search in SharePoint Server.
   

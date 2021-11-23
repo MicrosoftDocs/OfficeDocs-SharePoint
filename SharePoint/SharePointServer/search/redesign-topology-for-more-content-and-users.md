@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 9b5a1f99-0193-4a97-b0d1-4a5633b32c43
 description: "Learn how to redesign the topology of your enterprise search architecture for growth in content, growth in number of users, or both."
@@ -18,7 +18,7 @@ description: "Learn how to redesign the topology of your enterprise search archi
 
 # Redesign enterprise search topology for more content and users in SharePoint
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Over time most search environments grow, both in amount of content and number of users. At some point the search environment outgrows the capacity and performance of your search architecture. The solution is to scale the topology of your search architecture:
   
@@ -231,7 +231,7 @@ The way that you decide to distribute data from the search components and from t
 #### Choose type of storage
 <a name="BKMK_ChooseStoragePerf"> </a>
 
-For an overview of storage architectures and disk types, see [Storage and SQL Server capacity planning and configuration (SharePoint Server 2013)](/SharePoint/administration/storage-and-sql-server-capacity-planning-and-configuration). The servers that host the index, analytics processing, and the search administration components, or search databases, require storage that can maintain low latency, while providing sufficient I/O operations per second (IOPS). The following tables show how many IOPS each of these search components and databases require.
+For an overview of storage architectures and disk types, see [Storage and SQL Server capacity planning and configuration (SharePoint Server 2013)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md). The servers that host the index, analytics processing, and the search administration components, or search databases, require storage that can maintain low latency, while providing sufficient I/O operations per second (IOPS). The following tables show how many IOPS each of these search components and databases require.
   
 If you deploy shared storage like SAN/NAS, the peak disk load of one search component typically coincides with the peak disk load of another search component. To get the number of IOPS search requires from the shared storage, you need to add up the IOPS requirement of each of these components.
   
@@ -268,5 +268,3 @@ If you aren't familiar with high availability strategies, here's an article that
 All of the sample search architectures host redundant search components on independent servers. In the sample search architectures, the rightmost host in each host pair is redundant. Here's the large search architecture with outlined redundant hosts:
   
 ![Diagram of large enterprise search farm indicating which servers host redundant search components.](../media/SearchLargeEnterpriseSearchFarmRedundantIndication.gif)
-  
-

@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 26f02074-af0b-4548-ab68-9d46dd05b8ff
 description: "Learn how to maintain User Profile synchronization settings in SharePoint Server  after you configure User Profile synchronization."
 ---
 
 # Maintain user profile synchronization settings in SharePoint Server
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Profile synchronization in SharePoint Server enables an administrator of an instance of the User Profile service to synchronize user and group profile information that is stored in the SharePoint Server profile store with profile information that is stored in directory services across the enterprise. After you have configured User Profile synchronization, you must complete tasks to maintain those settings. These tasks include, for example, removing users whose accounts are disabled or deleted, moving or renaming a server, and starting or stopping the User Profile Synchronization service. For more information, see [Plan profile synchronization for SharePoint Server 2013](plan-profile-synchronization-for-sharepoint-server-2013.md).
   
@@ -62,7 +62,7 @@ SharePoint Server lets you handle several different user migration scenarios. Th
 4. Ensure that user migration by using  `stsadm -o migrateuser` has succeeded.
 
 >[!NOTE]
->[Move-SPUser](https://docs.microsoft.com/powershell/module/sharepoint-server/move-spuser) can also be used to migrate users.
+>[Move-SPUser](/powershell/module/sharepoint-server/move-spuser) can also be used to migrate users.
     
 5. Ensure that the profile of the migrated user can be accessed by browsing to the My Site for that user, for example, http://mysite/person.aspx?accountname=\<new account name\>.
     
@@ -125,7 +125,7 @@ There are two reasons why obsolete users or groups can exist in the SharePoint S
   Set-SPProfileServiceApplication $upa -PurgeNonImportedObjects $true
   ```
 
-For more information, see [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps) and [Set-SPProfileServiceApplication](/powershell/module/sharepoint-server/Set-SPProfileServiceApplication?view=sharepoint-ps).
+For more information, see [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps&preserve-view=true) and [Set-SPProfileServiceApplication](/powershell/module/sharepoint-server/Set-SPProfileServiceApplication?view=sharepoint-ps&preserve-view=true).
   
 ## Maintain profile schema changes
 <a name="schemaChanges"> </a>
@@ -159,7 +159,7 @@ Use the following procedure to rename a profile synchronization server.
     
   -  _newName_ is the new name for the server. 
     
-For more information about renaming a server by using Microsoft PowerShell, see [Rename-SPServer](/powershell/module/sharepoint-server/Rename-SPServer?view=sharepoint-ps).
+For more information about renaming a server by using Microsoft PowerShell, see [Rename-SPServer](/powershell/module/sharepoint-server/Rename-SPServer?view=sharepoint-ps&preserve-view=true).
   
 ## Move the User Profile Synchronization service to a new server
 <a name="moveService"> </a>
@@ -217,7 +217,7 @@ Use the following procedure to restrict profile synchronization communication to
   ```
 
     > [!NOTE]
-    > It may take five minutes for the changed property value to propagate to the SharePoint Central Administration website. Resetting IIS on the Central Administration server will force the new value to be loaded immediately. For more information about resetting IIS, see [IIS Reset Activity](https://go.microsoft.com/fwlink/p/?LinkId=179336). 
+    > It may take five minutes for the changed property value to propagate to the SharePoint Central Administration website. Resetting IIS on the Central Administration server will force the new value to be loaded immediately. For more information about resetting IIS, see [IIS Reset Activity](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd364067(v=ws.10)). 
   
 For more information, see Get-SPServiceApplication and Set-SPProfileServiceApplication.
   
@@ -298,5 +298,3 @@ A time-out can occur on the following occasions:
     Where  _\<file name\>_ is the name of the file to execute. 
     
 For more information, see Get-SPServiceApplicationProxy and Get-SPServiceApplication.
-  
-

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9528dfeb-3f44-4c76-8d07-eb916e04b674
 
 description: "Learn how to plan for using a mobile browser experience in SharePoint Server 2013."
@@ -18,7 +18,7 @@ description: "Learn how to plan for using a mobile browser experience in SharePo
 
 # Plan for mobile views in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
  
 > [!IMPORTANT]
 > In 2016, the SharePoint mobile app was introduced with support for SharePoint Server 2013. Please see [Supporting the SharePoint mobile apps online and on-premises](supporting-the-sharepoint-mobile-apps-online-and-on-premises.md) for more details.

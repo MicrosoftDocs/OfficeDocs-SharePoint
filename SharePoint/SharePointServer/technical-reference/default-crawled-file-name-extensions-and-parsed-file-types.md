@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 19d553a7-7001-4b07-a03d-616b865b05ae
 description: "Learn which file name extensions SharePoint Server crawls by default and which file types it parses by default."
@@ -18,7 +18,7 @@ description: "Learn which file name extensions SharePoint Server crawls by defau
 
 # Default crawled file name extensions and parsed file types in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 The crawl component can only crawl a file if the list on the Manage File Types page includes the file name extension. The content processing component can only parse the contents of a crawled file:
   
@@ -39,7 +39,7 @@ The following table shows all the file formats that SharePoint Server has built-
 |||||
 |:-----|:-----|:-----|:-----|
 |**File format** <br/> |**Format ID** <br/> |**File name extension** <br/> |**File name extension listed on the Manage File Types page by default** <br/> |
-|Email message  <br/> |eml  <br/> |.eml  <br/> |Yes  <br/> | Not supported with SharePoint in Microsoft 365. 
+|Email message  <br/> |eml  <br/> |.eml  <br/> |Yes  <br/> |  
 |Email message  <br/> |nws  <br/> |.nws  <br/> |Yes  <br/> |
 |HTML  <br/> |html  <br/> |.ascx  <br/> |Yes  <br/> |
 |HTML  <br/> |html  <br/> |.asp  <br/> |Yes  <br/> |
@@ -52,7 +52,7 @@ The following table shows all the file formats that SharePoint Server has built-
 |HTML  <br/> |html  <br/> |.htx  <br/> |No  <br/> |
 |HTML  <br/> |html  <br/> |.jhtml  <br/> |No  <br/> |
 |HTML  <br/> |html  <br/> |.stm  <br/> |No  <br/> |
-|MHTML document  <br/> |mhtml  <br/> |.mht  <br/> |Yes  <br/> | Not supported with SharePoint in Microsoft 365. 
+|MHTML document  <br/> |mhtml  <br/> |.mht  <br/> |Yes  <br/> | 
 |MHTML document  <br/> |mhtml  <br/> |.mhtml  <br/> |Yes  <br/> |
 |Microsoft Excel  <br/> |xlb  <br/> |.xlb  <br/> |No  <br/> |
 |Microsoft Excel  <br/> |xlc  <br/> |.xlc  <br/> |No  <br/> |

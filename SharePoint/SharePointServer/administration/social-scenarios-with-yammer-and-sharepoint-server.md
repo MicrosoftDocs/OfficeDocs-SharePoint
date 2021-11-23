@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ebf72243-3d0c-43e4-8538-df8e4f4b9c5c
 
 description: "Learn about common scenarios for integrating Yammer with SharePoint Server."
@@ -18,7 +18,7 @@ description: "Learn about common scenarios for integrating Yammer with SharePoin
 
 # Social scenarios with Yammer and SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article provides links to common scenarios and the specific steps you need to take to integrate the cloud-based Yammer service with your SharePoint Server 2019, SharePoint Server 2016, or SharePoint Server 2013 environment. Depending on your current environment and the state of your Yammer deployment, the steps will vary.
   

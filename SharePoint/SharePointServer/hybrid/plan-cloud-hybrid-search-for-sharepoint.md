@@ -8,9 +8,9 @@ ms.date: 12/5/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
@@ -25,7 +25,7 @@ description: "Setting up cloud hybrid search for SharePoint in Microsoft 365 req
 
 # Plan cloud hybrid search for SharePoint in Microsoft 365
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 Setting up [cloud hybrid search](learn-about-cloud-hybrid-search-for-sharepoint.md) for SharePoint in Microsoft 365 requires careful planning. This article helps you design a highly reliable, secure and scalable cloud hybrid search solution. 
   

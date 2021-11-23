@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cc3686d1-e786-478b-aa0c-68796c02e198
 description: "Learn how to create a new result type in SharePoint Server."
 ---
 
 # How to create a new result type for classic search in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In this article, you'll learn:
   
@@ -152,6 +152,4 @@ To save space, we'll only look at how to create a result type as a Site collecti
     
 ### Next article in this series
 
-[How to display values from custom managed properties in search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md)
-  
-
+[How to display values from custom managed properties in search results - option 1 in SharePoint Server](display-values-custom-managed-properties.md)

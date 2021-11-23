@@ -4,13 +4,14 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 ms.date: 9/12/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
@@ -34,7 +35,7 @@ Any file modified by the SharePoint System Account is excluded from the scan rep
   
 For more information on customized files and how to reset a file back to the default, read the following article:
   
-- [Customize a SharePoint page by using remote provisioning and CSS](https://msdn.microsoft.com/pnp_articles/customize-a-sharepoint-page-by-using-remote-provisioning-and-css)
+- [Customize a SharePoint page by using remote provisioning and CSS](/sharepoint/dev/solution-guidance/customize-a-sharepoint-page-by-using-remote-provisioning-and-css)
     
 ## Data Migration
 
@@ -76,5 +77,3 @@ This scan report provides a list of all the customized files and who last modifi
 |ModifiedBy  <br/> |User that modified the file  <br/> |
 |File  <br/> |File that was customized.  <br/> |
 |ScanID  <br/> |Unique identifier assigned to a specific execution of the SharePoint Migration Assessment Tool.  <br/> |
-   
-

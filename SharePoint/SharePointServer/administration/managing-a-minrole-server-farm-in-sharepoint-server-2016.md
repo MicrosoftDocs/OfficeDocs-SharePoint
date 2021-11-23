@@ -8,9 +8,9 @@ ms.date: 7/24/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 883fac19-3048-4ef0-b473-10b3b05493b6
 description: "Learn how to manage your MinRole farm deployment in SharePoint Server."
@@ -18,7 +18,7 @@ description: "Learn how to manage your MinRole farm deployment in SharePoint Ser
 
 # Managing a MinRole Server Farm in SharePoint Servers 2016 and 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
 
 Learn how to manage your MinRole farm deployment in SharePoint Servers 2016 and 2019.
   
@@ -100,12 +100,12 @@ New PowerShell cmdlets have been introduced to manage the services in the farm.
 ||||
 |:-----|:-----|:-----|
 |**Cmdlet name** <br/> |**Description** <br/> |**Syntax example** <br/> |
-|Get-SPService  <br/> |The [Get-SPService](/powershell/module/sharepoint-server/Get-SPService?view=sharepoint-ps) cmdlet gets a service in the farm.  <br/> | *Get-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |
-|Start-SPService  <br/> |The [Start-SPService](/powershell/module/sharepoint-server/Start-SPService?view=sharepoint-ps) cmdlet enables a service in the farm. Service instances for this service will be started on the appropriate MinRole-managed servers in the farm.  <br/> | *Start-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |
-|Stop-SPService  <br/> |The [Stop-SPService](/powershell/module/sharepoint-server/Stop-SPService?view=sharepoint-ps) cmdlet disables a service in the farm. Service instances for this service will be stopped on the appropriate MinRole-managed servers in the farm.  <br/> | *Stop-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |
+|Get-SPService  <br/> |The [Get-SPService](/powershell/module/sharepoint-server/Get-SPService?view=sharepoint-ps&preserve-view=true) cmdlet gets a service in the farm.  <br/> | *Get-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |
+|Start-SPService  <br/> |The [Start-SPService](/powershell/module/sharepoint-server/Start-SPService?view=sharepoint-ps&preserve-view=true) cmdlet enables a service in the farm. Service instances for this service will be started on the appropriate MinRole-managed servers in the farm.  <br/> | *Start-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |
+|Stop-SPService  <br/> |The [Stop-SPService](/powershell/module/sharepoint-server/Stop-SPService?view=sharepoint-ps&preserve-view=true) cmdlet disables a service in the farm. Service instances for this service will be stopped on the appropriate MinRole-managed servers in the farm.  <br/> | *Stop-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |
    
 > [!NOTE]
-> An optional **IncludeCustomServerRole** parameter has been added to the **Start-SPService** and **Stop-SPService** Windows PowerShell cmdlets in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1). If specified, it will also create a timer job that starts or stops service instances on servers that are assigned to the Custom server role. This is a one-time timer job. MinRole will make no further attempts to manage the service instances on servers assigned to the Custom server role. > Services that have associated service applications cannot be started or stopped by using the [Start-SPService](/powershell/module/sharepoint-server/Stop-SPService?view=sharepoint-ps) and [Stop-SPService](/powershell/module/sharepoint-server/Stop-SPService?view=sharepoint-ps) cmdlets. These services can be started or stopped by creating or deleting their associated service applications. If you use the [Start-SPService](/powershell/module/sharepoint-server/Start-SPService?view=sharepoint-ps) or [Stop-SPService](/powershell/module/sharepoint-server/Stop-SPService?view=sharepoint-ps) cmdlets with services that have associated service applications, an error message will be shown indicating that the associated service applications should be created or deleted instead. 
+> An optional **IncludeCustomServerRole** parameter has been added to the **Start-SPService** and **Stop-SPService** Windows PowerShell cmdlets in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1). If specified, it will also create a timer job that starts or stops service instances on servers that are assigned to the Custom server role. This is a one-time timer job. MinRole will make no further attempts to manage the service instances on servers assigned to the Custom server role. > Services that have associated service applications cannot be started or stopped by using the [Start-SPService](/powershell/module/sharepoint-server/Stop-SPService?view=sharepoint-ps&preserve-view=true) and [Stop-SPService](/powershell/module/sharepoint-server/Stop-SPService?view=sharepoint-ps&preserve-view=true) cmdlets. These services can be started or stopped by creating or deleting their associated service applications. If you use the [Start-SPService](/powershell/module/sharepoint-server/Start-SPService?view=sharepoint-ps&preserve-view=true) or [Stop-SPService](/powershell/module/sharepoint-server/Stop-SPService?view=sharepoint-ps&preserve-view=true) cmdlets with services that have associated service applications, an error message will be shown indicating that the associated service applications should be created or deleted instead. 
   
 ### Health monitoring
 
@@ -134,12 +134,10 @@ If you are a SharePoint developer intending to create an application with servic
     
 4. Override the **ShouldProvision(SPServerRole serverRole)** method to assign this service to specific server roles if necessary. 
     
-For more information about how to subscribe a service to a specific role, see [SPService class](https://msdn.microsoft.com/elibrary/office/microsoft.sharepoint.administration.spservice.aspx) and [SPServiceInstance class](https://msdn.microsoft.com/library/office/microsoft.sharepoint.administration.spserviceinstance.aspx).
+For more information about how to subscribe a service to a specific role, see [SPService class](/previous-versions/office/sharepoint-server/ms474045(v=office.15)) and [SPServiceInstance class](/previous-versions/office/sharepoint-server/ms461328(v=office.15)).
   
  **Integrate with role conversion pre-validation**
   
 1. ﻿Implement the service instance class of the service by inheriting from the **SPServiceInstance** class. 
     
 2. ﻿Override the **IsReadyForRoleConversion(SPServerRole newRole, out IEnumerable\<string\> errorMessages)** method to detect if your service instance is ready for role conversion to the server role specified by the newRole parameter. Return **true** if it's ready or **false** if it isn't ready. If you return **false**, provide a list of messages to explain why ﻿the service instance isn't ready for role conversion and instructions for resolving the issue ﻿via the errorMessages parameter.
-    
-

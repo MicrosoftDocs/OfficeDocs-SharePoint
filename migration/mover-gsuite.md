@@ -3,13 +3,15 @@ title: Authorizing the G Suite Connector
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Authorizing the G Suite Connector"
 ---
@@ -36,6 +38,9 @@ If you're creating a user mapping via CSV, you would map your Accounting Shared 
 
 Our app is not able to read or write permissions to Google Shared Drives. Shared Drives do not allow explicit folder level permissions. Rather, Shared Drive permissions are set based on the Shared Drive members.
 
+>[!Important]
+>The Shared Drive must have *at least one member* with either the Writer or Organizer role in it for Mover to scan or transfer content out of the Shared Drive. If no members have the Writer or Organizer role, the scan or transfer will fail with errors stating we cannot access the Shared Drive.
+
 ### What's the difference between file versions and revision history?
 
 Revision history for Google Docs, Sheets, and Slides is different than file versions in Google Drive. Revision history refers to the ability to see earlier versions of a file, and view who made specific edits to the document. During the migration, revision history is not transferred. Only the most recent version of a file is transferred.
@@ -52,7 +57,6 @@ Google does not allow us to export Drawings, Forms, Sites, and Maps from Drive. 
 
 Google's proprietary formats are not compatible with anything other than G Suite Drive. When migrating from G Suite, our app converts to the Microsoft Office format from Google's format.
 
-Any Google format that is larger than 10 MB when it is converted fails. This is a limitation Google has placed on their infrastructure. For more info, see https://developers.google.com/drive/api/v3/reference/files/export.
 
 >[!Note]
 >The only way to migrate/download a Google format file is to request that they [Google] convert it. Mover does not control the conversion process, and the forced limitations are strictly on Google's end.
@@ -128,7 +132,7 @@ The Google folder assignment process is fairly complicated; however, here are so
 To authorize or add a **G Suite Drive** account as a **Connector**, follow these simple steps:
 
 > [!Important]
-> You must be a G Suite Administrator.
+> You must be a G Suite Administrator with the ability to manage third party applications.
 
 1. From your **Google Apps** dashboard, select our app's grid logo, and then select **Admin**.
 2. Select **Apps**, and then select **Marketplace Apps**.
@@ -184,3 +188,10 @@ Our app requires a Global Admin for authorization. The following table provides 
 |View domains related to your customers    |View domain aliases and multi-domains (secondary domains) for your customers.|
 |View and manage the provisioning of groups on your domain    |Provision and modify groups on your domain, as well as view and modify details and metadata of groups on your domain.|
 |View users on your domain    |View basic details and metadata of users on your domain.|
+
+
+## Connect your source G Suite Drive account
+
+If you are not already connected after you have authorized your source, click **G Suite Drive** and load the connector. An icon will appear and show you how many users you are migrating.
+
+![Select G Suite Drive Source](media/execution-select-google-drive-source.png) 

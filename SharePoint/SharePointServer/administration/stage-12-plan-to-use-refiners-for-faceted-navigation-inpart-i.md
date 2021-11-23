@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0dea3ea8-5a2c-4ae1-b96e-f74a5984e340
 description: "Learn how to plan to use refiners for faceted navigation in SharePoint Server 2016."
@@ -18,7 +18,7 @@ description: "Learn how to plan to use refiners for faceted navigation in ShareP
 
 # Stage 12: Plan to use refiners for faceted navigation in SharePoint Server - Part I
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 > [!NOTE]
 > Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 

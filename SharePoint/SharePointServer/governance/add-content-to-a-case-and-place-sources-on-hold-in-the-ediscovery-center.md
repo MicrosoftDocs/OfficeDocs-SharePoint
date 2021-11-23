@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server
 ms.assetid: 54d70de9-1ec2-4325-84f3-aeb588554479
 description: "Content that is part of an eDiscovery case - such as potential evidence for litigation, audits and investigations -can be managed in an eDiscovery Set. Each case can have multiple eDiscovery Sets. You can also filter the source content you include, such as by author or sender, by a date range, or by search keywords."
@@ -18,7 +18,7 @@ description: "Content that is part of an eDiscovery case - such as potential evi
 
 # Add content to a case and place sources on hold in the eDiscovery Center
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Content that is part of an eDiscovery case - such as potential evidence for litigation, audits and investigations -can be managed in an eDiscovery Set. Each case can have multiple eDiscovery Sets. You can also filter the source content you include, such as by author or sender, by a date range, or by search keywords. 
   
@@ -165,9 +165,9 @@ This procedure creates an eDiscovery Set and adds content sources to it. To also
 
 For more information about eDiscovery cases, see the following articles:
   
-[Scenario: eDiscovery in SharePoint Server 2013 and Exchange Server 2013](/sharepoint/)
+[Scenario: eDiscovery in SharePoint Server 2013 and Exchange Server 2013](../../Hub/index.yml)
   
-[Plan and manage cases in the eDiscovery Center](/sharepoint/governance/plan-and-manage-cases-in-the-ediscovery-center)
+[Plan and manage cases in the eDiscovery Center](./plan-and-manage-cases-in-the-ediscovery-center.md)
   
 [Create and run queries in the eDiscovery Center](create-and-run-queries-in-the-ediscovery-center.md)
   

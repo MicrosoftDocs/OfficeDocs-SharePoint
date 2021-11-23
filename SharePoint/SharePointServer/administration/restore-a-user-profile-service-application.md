@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -19,7 +19,7 @@ description: "Learn how to restore the User Profile Service service application 
 
 # Restore User Profile Service applications in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can restore the User Profile Service application by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization. 
   
@@ -58,7 +58,7 @@ You can use Microsoft PowerShell to restore a User Profile service application.
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
@@ -78,7 +78,7 @@ You can use Microsoft PowerShell to restore a User Profile service application.
     
     If you do not specify the `BackupId`, the most recent backup will be used. You cannot restore a service application from a configuration-only backup.
     
-For more information, see [Restore-SPFarm](/powershell/module/sharepoint-server/Restore-SPFarm?view=sharepoint-ps).
+For more information, see [Restore-SPFarm](/powershell/module/sharepoint-server/Restore-SPFarm?view=sharepoint-ps&preserve-view=true).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -147,7 +147,7 @@ You cannot restore the complete service application or service application proxy
     
 9. In the **Restore Database** dialog, on the **Options** page, select the kind of recovery that you want to perform from the **Recovery state** list.
     
-    For more information about which recovery type to use, see [ Recovery Models (SQL Server) ](https://go.microsoft.com/fwlink/p/?LinkID=626889&amp;clcid=0x409).
+    For more information about which recovery type to use, see [ Recovery Models (SQL Server) ](/sql/relational-databases/backup-restore/recovery-models-sql-server?viewFallbackFrom=sql-server-2014).
     
 10. On the **General** page, in the **Destination for restore** section, select the database from the **To database** list.
     
@@ -181,5 +181,4 @@ You cannot restore the complete service application or service application proxy
 [Back up User Profile service applications in SharePoint Server](back-up-a-user-profile-service-application.md)
 #### Other Resources
 
-[Windows PowerShell for SharePoint Server reference](/powershell/module/sharepoint-server/?view=sharepoint-ps)
-
+[Windows PowerShell for SharePoint Server reference](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true)

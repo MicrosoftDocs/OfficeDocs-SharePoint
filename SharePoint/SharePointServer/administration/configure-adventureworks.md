@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5e44cf6c-2271-4ff1-af7f-4e73849ffdf6
 description: "Configure the AdventureWorks sample data for use with Excel, Excel Services in SharePoint Server 2013, and PerformancePoint Services business intelligence scenarios."
 ---
 
 # Configure AdventureWorks for Business Intelligence solutions
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 The AdventureWorks sample data set provides a sample database, data warehouse, and OLAP cube. The subsequent articles in this section make use of this sample data to demonstrate Business Intelligence capabilities in Excel, Excel Services in SharePoint Server 2013, and PerformancePoint Services. This article describes how to install and configure the AdventureWorks sample data set and configure a Business Intelligence Center on your SharePoint Server 2013 farm.
   
@@ -43,7 +43,7 @@ Before starting, read the following information about permissions and software r
     
 - To create a Business Intelligence Center, you must be a farm administrator on the SharePoint Server 2013 farm.
     
-The subsequent articles make use of Excel Services and PerformancePoint Services. It is assumed that these are configured on your farm. For information about deploying Excel Services, see [Overview of Excel Services in SharePoint Server 2013](excel-services-overview.md) and [Configure Excel Services in SharePoint Server 2013](/SharePoint/administration/configure-excel-services). 
+The subsequent articles make use of Excel Services and PerformancePoint Services. It is assumed that these are configured on your farm. For information about deploying Excel Services, see [Overview of Excel Services in SharePoint Server 2013](excel-services-overview.md) and [Configure Excel Services in SharePoint Server 2013](./configure-excel-services.md). 
   
 When using Excel Services or PerformancePoint Services, user access can be provided using Windows Authentication with Kerberos delegation, the Secure Store Service, or, with OLAP data sources, the EffectiveUserName feature. It is assumed that one or more of these options are configured on your farm. For information about configuring Secure Store, see [Plan the Secure Store Service in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)) and [Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md). For information about configuring the EffectiveUserName feature for OLAP data sources, see [Use Analysis Services EffectiveUserName in SharePoint Server](use-analysis-services-effectiveusername-in-sharepoint-server.md).
   
@@ -77,7 +77,7 @@ Use the following procedure to download and deploy the AdventureWorks2012 databa
   
  **To deploy the AdventureWorks2012 database**
   
-1. Download [AdvetureWorks Database 2012](https://docs.microsoft.com/sql/samples/adventureworks-install-configure).
+1. Download [AdvetureWorks Database 2012](/sql/samples/adventureworks-install-configure).
     
     > [!NOTE]
     > Because this file was downloaded from the Internet, it may be blocked by Windows. Right-click the file, and then click **Properties**. Click the **Unblock** button if it is present, and then click **OK**. (If the **Unblock** button is not present, then the file is not blocked.) 
@@ -104,7 +104,7 @@ Use the following procedure to download and deploy the AdventureWorksDW2012 data
   
  **To deploy the AdventureWorksDW2012 data warehouse**
   
-1. Download [AdvetureWorks Database 2012](https://docs.microsoft.com/sql/samples/adventureworks-install-configure).
+1. Download [AdvetureWorks Database 2012](/sql/samples/adventureworks-install-configure).
     
     > [!NOTE]
     > Because this file was downloaded from the Internet, it may be blocked by Windows. Right-click the file, and then click **Properties**. Click the **Unblock** button if it is present, and then click **OK**. (If the **Unblock** button is not present, then the file is not blocked.) 
@@ -370,5 +370,3 @@ Use the following procedure to configure permissions for the Business Intelligen
 The following scenarios use the AdventureWorks sample data and Business Intelligence Center as configured in this article:
   
 > [Create an Excel Services dashboard using SQL Server Analysis Services data](create-an-excel-services-dashboard-using-sql-server-analysis-services-data.md)
-    
-

@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fe776cf2-17a4-4bb6-95ea-66288f243a93
 description: "Excel Services is a business intelligence tool in SharePoint Server that allows you to share data-connected workbooks across an organization."
 ---
 
 # Overview of Excel Services in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 Excel Services is a shared service that you can use to publish Excel workbooks on SharePoint Server 2013. The published workbooks can be managed and secured according to your organizational needs and shared among SharePoint Server 2013 users, who can render the workbooks in a browser. Excel Services is available only in the Enterprise edition of SharePoint Server 2013.
   

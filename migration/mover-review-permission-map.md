@@ -3,10 +3,11 @@ title: Mover migration - Review permission map
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
@@ -29,20 +30,20 @@ We automatically detect users and handle perfect matches. Any inconsistencies mu
 
 1. To view your permission map, in the top right of the **Migration Manager**, select **Migration Actions**, and then, from the dropdown menu, select **Edit Permission Map**.
 
-![permission map](media/edit-permission-map.png)
+    ![permission map in a menu](media/edit-permission-map.png)
 
 You may either auto-discover or upload a permission map file. We automatically pair perfect matches. If a user or group does not have a perfect match in Office 365, you can correct it in our interface.
 
 2. Select **Auto-discover Users**.
 
-![permission map](media/permission-map-auto-discover-users.png)
+    ![permission map, automatically discovery users or supply a file](media/permission-map-auto-discover-users.png)
 
 3. At any time, you may view and edit your permission map.
 
-![permission map](media/permission-map.png)</br></br>
+    ![viewing an existing permission map](media/permission-map.png)</br></br>
 
->[!Note]
->A blank destination entry automatically cancels any permission sharing for that user or group.
+    >[!Note]
+    >A blank destination entry automatically cancels any permission sharing for that user or group.
 
->[!Note]
->Adding a new line for a specific users - for example, user01@gmail.com to user01@hotmail.com - that perfectly matches auto-discovered permissions by the domain - for example, @gmail.com to @hotmail.com - is automatically removed. Our app marks these as redundant entries.
+    >[!Note]
+    >Adding a new line for a specific users - for example, user01@gmail.com to user01@hotmail.com - that perfectly matches auto-discovered permissions by the domain - for example, @gmail.com to @hotmail.com - is automatically removed. Our app marks these as redundant entries.

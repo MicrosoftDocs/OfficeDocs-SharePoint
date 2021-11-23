@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Applicat
 
 # Application pools recycle when memory limits are exceeded (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
  **Rule Name:** Application pools recycle when memory limits are exceeded. 
   
@@ -52,4 +52,4 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Applicat
 
 #### Other Resources
 
-[Recycling Settings for an Application Pool \<recycling\>](https://go.microsoft.com/fwlink/?LinkID=761158&amp;clcid=0x409)
+[Recycling Settings for an Application Pool \<recycling\>](/iis/configuration/system.applicationHost/applicationPools/add/recycling/)

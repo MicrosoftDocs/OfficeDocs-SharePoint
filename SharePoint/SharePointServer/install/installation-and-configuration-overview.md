@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn about how to install and configure SharePoint Server 2013 in
 
 # Overview of SharePoint 2013 installation and configuration
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 Although SharePoint products farms vary in complexity and size, a combination of careful planning and a phased deployment that includes ongoing testing and evaluation significantly reduces the risk of unexpected outcomes. This article provides an overview for all types of SharePoint Server 2013 farm deployment.
   
@@ -98,7 +98,7 @@ In this phase, you get your servers ready to host the product. This includes the
   
 - Database server: The required version of SQL Server, including service packs and cumulative updates must be installed on the database server. The installation must include any additional features, such as SQL Analysis Services, and the appropriate SharePoint Server 2013 logins have to be added and configured. The database server must be hardened and, if it is required, databases must be created by the DBA. For more information, see:
     
-  - [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md)
+  - [Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md)
     
   - [Configure SQL Server security for SharePoint Server](../security-for-sharepoint-server/configure-sql-server-security-for-sharepoint-environments.md)
     
@@ -106,7 +106,7 @@ In this phase, you get your servers ready to host the product. This includes the
     
   - [System requirements for SharePoint 2013](system-requirements-for-sharepoint-2013.md)
     
-  - "Installing software prerequisites" in [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md)
+  - "Installing software prerequisites" in [Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md)
     
   - [Plan security hardening for SharePoint Server](../security-for-sharepoint-server/security-hardening.md)
     
@@ -114,7 +114,7 @@ In this phase, you get your servers ready to host the product. This includes the
 - Domain controller: The required farm accounts have to be configured for the domain and directory synchronization must be configured. 
     
     > [!IMPORTANT]
-    > SharePoint Server 2013 does not support installation on to a domain controller in a production environment. Additionally, SharePoint Server 2013 does not support installation on to a domain controller when using the sandbox service in developer, test, or demo environments. > A single label domain (SLD) names or single label forests is also not supported. Because the use of SLD names is not a recommended practice, SharePoint Server 2013 is not tested in this scenario. Therefore, there may be incompatibility issues when SharePoint Server 2013 are implemented in a single label domain environment. For more information, see [Information about configuring Windows for domains with single-label DNS names](https://go.microsoft.com/fwlink/p/?LinkID=193849) and the [DNS Namespace Planning Solution Center](https://go.microsoft.com/fwlink/p/?LinkId=198010). 
+    > SharePoint Server 2013 does not support installation on to a domain controller in a production environment. Additionally, SharePoint Server 2013 does not support installation on to a domain controller when using the sandbox service in developer, test, or demo environments. > A single label domain (SLD) names or single label forests is also not supported. Because the use of SLD names is not a recommended practice, SharePoint Server 2013 is not tested in this scenario. Therefore, there may be incompatibility issues when SharePoint Server 2013 are implemented in a single label domain environment. For more information, see [Information about configuring Windows for domains with single-label DNS names](/troubleshoot/windows-server/identity/deployment-operation-ad-domains) and the [DNS Namespace Planning Solution Center](https://go.microsoft.com/fwlink/p/?LinkId=198010). 
   
     For information about required accounts, see:
     
@@ -242,5 +242,3 @@ Putting the farm into production requires you to complete the following tasks:
 - Implement the operations plan.
     
 - If required, deploy additional environments such as authoring and staging farms, and services farms.
-    
-

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3fa7973f-2c1a-4be0-b903-3f1e6bdcf1d8
 description: "Learn how to create and configure a SharePoint Search service application so that you can crawl content and provide search results to users."
@@ -18,14 +18,15 @@ description: "Learn how to create and configure a SharePoint Search service appl
 
 # Create and configure a Search service application in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 ## Before you begin
 <a name="begin"> </a>
 
-If you used the Farm Configuration Wizard after you installed SharePoint Server 2016 or SharePoint Server 2019, a Search service application might have been created at that time. To verify whether a Search service application exists, you can click **Manage service applications** in the **Application Management** section on the Central Administration home page. For the remainder of this article, it is assumed that a Search service application does not exist yet, and that therefore you must create one. 
-  
-    
+If you used the Farm Configuration Wizard after you installed SharePoint Server 2016 or SharePoint Server 2019, a Search service application might have been created at that time. To verify whether a Search service application exists, you can click **Manage service applications** in the **Application Management** section on the Central Administration home page. For the remainder of this article, it is assumed that a Search service application does not exist yet, and that therefore you must create one.
+
+Learn about [Search experiences in SharePoint in Microsoft 365](../../SharePointOnline/get-started-with-modern-search-experience.md).
+
 ## How to create and configure a SharePoint Search service application
 <a name="begin"> </a>
 
@@ -86,15 +87,15 @@ Use the following procedure to create a Search service application or a cloud Se
     
 3. On the Manage Service Applications page, on the ribbon, click **New**, and then click **Search Service Application**.
     
-4. On the Create New Search Service Application page, do the following: 
+4. On the Create New Search Service Application page, do the following tasks: 
     
   - Accept the default value for **Service Application name**, or type a new name for the Search service application.
     
-  - To make this a cloud Search service application, in the **Search Service Application type** section, checkmark the **Cloud Search Service Application** box. Otherwise, leave the box unchecked. 
+  - To make this application a cloud Search service one, in the **Search Service Application type** section, checkmark the **Cloud Search Service Application** box. Otherwise, leave the box unchecked. 
     
   - In the **Search Service Account** list, select the managed account that you registered in the previous procedure to run the Search service. 
     
-  - In the **Application Pool for Search Admin Web Service** section, do the following: 
+  - In the **Application Pool for Search Admin Web Service** section, do the following tasks: 
     
     - Select the **Create new application pool** option, and then specify a name for the application pool in the **Application pool name** text box. 
     
@@ -149,7 +150,7 @@ Use the following procedure to specify the default content access account.
     
 ### Specify the contact email address
 
-The Search service writes the contact email address to the logs of crawled servers. The default contact email address, someone@example.com, is a placeholder. We recommend that you change this to an account that an external administrator can contact when a crawl might be contributing to a problem such as a decrease in performance on a server that the search system is crawling.
+The Search service writes the contact email address to the logs of crawled servers. The default contact email address, someone@example.com, is a placeholder. We recommend that you change this placeholder to an account that an external administrator can contact when a crawl might be contributing to a problem such as a decrease in performance on a server that the search system is crawling.
   
 Use the following procedure to specify the contact email address.
   
@@ -165,7 +166,7 @@ Use the following procedure to specify the contact email address.
 
 In order for users to be able to get search results, the search system must first crawl the corresponding content. Crawling requires at least one content source. A content source is a set of options that you use to specify the type of content to crawl, the starting URLs to crawl, and when and how deep to crawl. When a Search service application is created, a content source named "Local SharePoint sites" is automatically created and configured for crawling all SharePoint sites in the local server farm, and for crawling user profiles. You can create content sources to specify other content to crawl and how the system will crawl that content. For more information, see [Add, edit, or delete a content source in SharePoint Server](add-edit-or-delete-a-content-source.md). However, you do not have to create other content sources if you do not want to crawl content other than the SharePoint sites in the local farm.
   
-If you choose the **Standalone** installation option when you install SharePoint Server 2016 or SharePoint Server 2019, a full crawl of all SharePoint sites in the farm is automatically performed after installation and an incremental crawl is scheduled to occur every 20 minutes after that. If you choose the **Server Farm** installation option when you install SharePoint Server 2016 or SharePoint Server 2019, no crawls are automatically scheduled or performed. In the latter case, you must either start crawls manually or schedule times for crawls to be performed. For more information, see the following articles; 
+If you choose the **Standalone** installation option when you install SharePoint Server 2016 or SharePoint Server 2019, a full crawl of all SharePoint sites in the farm is automatically performed after installation and an incremental crawl is scheduled to occur every 20 minutes after the post-installation crawl. If you choose the **Server Farm** installation option when you install SharePoint Server 2016 or SharePoint Server 2019, no crawls are automatically scheduled or performed. In the latter case, you must either start crawls manually or schedule times for crawls to be performed. For more information, see the following articles; 
   
 - [Start, pause, resume, or stop a crawl in SharePoint Server](start-pause-resume-or-stop-a-crawl.md)
     
@@ -174,16 +175,15 @@ If you choose the **Standalone** installation option when you install SharePoint
 ## Step 4: Configure the SharePoint Search service application topology
 <a name="begin"> </a>
 
-When you create a Search service application, the SharePoint Server Search service is started on the application server that is hosting the Central Administration website, and search components are deployed to that server. If you have more than one application server in your farm, you can deploy additional search components on other application servers, depending on your requirements. You can deploy multiple instances of certain components. For more information, see the following articles:
+When you create a Search service application, the SharePoint Server Search service is started on the application server that is hosting the Central Administration website, and search components are deployed to that server. If you have more than one application server in your farm, you can deploy more search components on other application servers, depending on your requirements. You can deploy multiple instances of certain components. For more information, see the following articles:
   
 - [Manage the search topology in SharePoint Server](manage-the-search-topology.md)
     
 - [Plan enterprise search architecture in SharePoint Server 2016](plan-enterprise-search-architecture.md)
     
-- [Plan your search architecture in SharePoint Server for cloud hybrid search](/SharePoint/hybrid/plan-cloud-hybrid-search-for-sharepoint)
+- [Plan your search architecture in SharePoint Server for cloud hybrid search](../hybrid/plan-cloud-hybrid-search-for-sharepoint.md)
     
 ## See also
 <a name="begin"> </a>
 
 [Create a Search Center site in SharePoint Server](create-a-search-center-site.md)
-

@@ -8,9 +8,9 @@ ms.date: 7/26/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -21,7 +21,7 @@ description: "Understand how to minimize downtime and plan for special cases dur
 
 # Determine strategy for upgrade to SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 When you upgrade your environment to SharePoint 2013, you want to limit how much downtime that users experience. You might also have a special case that you must address during upgrade. This article describes how to minimize downtime and work with these special cases.
   

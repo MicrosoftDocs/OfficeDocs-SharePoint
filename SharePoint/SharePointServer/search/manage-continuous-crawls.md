@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f1bb8664-85dd-49bc-b162-daebf657377e
 description: "Learn how to enable and disable continuous crawls in SharePoint Server, and how to change the frequency interval of continuous crawls."
@@ -18,7 +18,7 @@ description: "Learn how to enable and disable continuous crawls in SharePoint Se
 
 # Manage continuous crawls in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
  **Enable continuous crawls** is a crawl schedule option that is an alternative to incremental crawls. This option is new in SharePoint Server and applies only to content sources of type **SharePoint Sites**.
   
@@ -151,5 +151,5 @@ You can set incremental crawl times on the  _Search_Service_Application_Name_: A
 
 [Plan crawling and federation in SharePoint Server](plan-crawling-and-federation.md)
 
-[Set-SPEnterpriseSearchCrawlContentSource](/powershell/module/sharepoint-server/Set-SPEnterpriseSearchCrawlContentSource?view=sharepoint-ps)
+[Set-SPEnterpriseSearchCrawlContentSource](/powershell/module/sharepoint-server/Set-SPEnterpriseSearchCrawlContentSource?view=sharepoint-ps&preserve-view=true)
 

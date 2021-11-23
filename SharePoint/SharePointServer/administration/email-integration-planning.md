@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5c9d5c10-a7a8-43d1-ac36-a6f50f2d0cd1
 description: "Learn how to plan for email integration in SharePoint Server."
@@ -18,7 +18,7 @@ description: "Learn how to plan for email integration in SharePoint Server."
 
 # Plan email integration for a SharePoint Server farm
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 To enable communication in SharePoint Server is a critical component for creating web applications in which group members can interact with each other and keep up with changes to information through the use of alerts. The following site collection features depend on communications being properly set up:
   
@@ -44,7 +44,7 @@ The following resources about email integration in SharePoint Server are also av
   
 |**Content**|**Description**|
 |:-----|:-----|
-|[SharePoint Migration Tool authentication when sending emails](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-2019#smtpauth) <br/> |Learn about SMTP authentication when sending emails in SharePoint Server 2019.  <br/> |
+|[SharePoint Migration Tool authentication when sending emails](../what-s-new/new-and-improved-features-in-sharepoint-server-2019.md#smtpauth) <br/> |Learn about SMTP authentication when sending emails in SharePoint Server 2019.  <br/> |
 |[SharePoint Migration Tool connection encryption](../what-s-new/new-and-improved-features-in-sharepoint-server-2016.md#smtpcon) <br/> |Learn about new security available for SharePoint Server 2016 and SharePoint Migration Tool servers.  <br/> |
 |[Document collaboration](/Exchange/new-features/new-features?view=exchserver-2019#DocCollab2013) <br/> |Learn about new features available for Exchange 2016 and SharePoint Server 2016.  <br/> |
    
@@ -53,4 +53,3 @@ The following resources about email integration in SharePoint Server are also av
 #### Concepts
 
 [Configure email integration for a SharePoint Server farm](configure-email-integration.md)
-

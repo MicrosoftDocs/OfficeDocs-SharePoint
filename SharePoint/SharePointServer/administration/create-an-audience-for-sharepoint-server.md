@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to use a Microsoft PowerShell script to create an audien
 
 # Create an audience for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Learn how to use a Microsoft PowerShell script to create an audience.
   
@@ -28,9 +28,9 @@ Learn how to use a Microsoft PowerShell script to create an audience.
 
 1. Verify that you meet the following minimum requirements:
     
-  - See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+  - See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
     
-  - You must read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050).
+  - You must read [about_Execution_Policies](/previous-versions//dd347641(v=technet.10)).
     
 2. Copy the following variable declarations, and paste them into a text editor such as Notepad. Set input values specific to your organization. You will use these values in step 3. Save the file, and name it Audiences.ps1.
     
@@ -66,8 +66,8 @@ Learn how to use a Microsoft PowerShell script to create an audience.
   
   ```
 
-    > [!NOTE]
-    > You can use a different file name, but you must save the file as an ANSI-encoded text file with the extension .ps1. 
+> [!NOTE]
+> You can use a different file name, but you must save the file as an ANSI-encoded text file with the extension .ps1. 
   
 4. Click SharePoint Management Shell.
     
@@ -81,6 +81,4 @@ Learn how to use a Microsoft PowerShell script to create an audience.
 
 For additional information about PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
   
-For additional information about how to create audiences, see [AudienceRuleComponent class](https://msdn.microsoft.com/library/office/ms578007).
-  
-
+For additional information about how to create audiences, see [AudienceRuleComponent class](/previous-versions/office/sharepoint-server/ms578007(v=office.15)).

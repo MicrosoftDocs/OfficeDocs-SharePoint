@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: A State 
 
 # A State Service Application has no database defined (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
  **Rule Name:** A State Service Application has no database defined 
   
@@ -45,11 +45,11 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: A State 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 Products cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell.
     
-    For more information about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows](https://go.microsoft.com/fwlink/?LinkID=715712&amp;clcid=0x409).
+    For more information about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
     
 3. If no database already exists that you can use, type the following command at the PowerShell command prompt:
     
@@ -83,6 +83,4 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: A State 
     
   -  _\<ID\>_ is the identifier for the State Service service application as a string or a GUID. If there is only one State Service service application, you do not have to specify this parameter. 
     
-For more information, see [Mount-SPStateServiceDatabase](/powershell/module/sharepoint-server/Mount-SPStateServiceDatabase?view=sharepoint-ps) or [New-SPStateServiceDatabase](/powershell/module/sharepoint-server/New-SPStateServiceDatabase?view=sharepoint-ps). 
-  
-
+For more information, see [Mount-SPStateServiceDatabase](/powershell/module/sharepoint-server/Mount-SPStateServiceDatabase?view=sharepoint-ps&preserve-view=true) or [New-SPStateServiceDatabase](/powershell/module/sharepoint-server/New-SPStateServiceDatabase?view=sharepoint-ps&preserve-view=true). 

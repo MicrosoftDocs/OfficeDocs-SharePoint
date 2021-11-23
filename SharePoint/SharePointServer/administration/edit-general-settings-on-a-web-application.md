@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Illustrates how to make changes to general settings for a SharePoi
 
 # Edit general settings on a web application in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 ## Edit a web application by using Central Administration
 <a name="section1"> </a>
@@ -98,5 +98,4 @@ Use the procedure described in this section to edit a SharePoint Server web appl
 <a name="section1"> </a>
 
 
-[Extend claims-based web applications in SharePoint](/SharePoint/administration/extend-a-claims-based-web-application)
-
+[Extend claims-based web applications in SharePoint](./extend-a-claims-based-web-application.md)

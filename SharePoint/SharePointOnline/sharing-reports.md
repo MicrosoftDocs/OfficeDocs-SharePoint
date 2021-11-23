@@ -3,13 +3,14 @@ title: "Report on sharing"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
@@ -33,10 +34,10 @@ To run the report (SharePoint)
 1. Open the site where you want to run the report
 2. On the **Settings** menu, click **Site usage**.
 3. In the **Shared with external users** section, click **Run report**.
-4. Choose a location to save the report, and then click **Run report**.
+4. Choose a location to save the report, and then click **Save**.
 
 To run the report (OneDrive)
-1. Open OneDrive.
+1. From the Microsoft 365 app launcher, select the OneDrive tile.
 2. On the **Settings** menu, click **OneDrive settings**.
 3. Click **More settings**, and then click **Run sharing report**.
 4. Choose a location to save the report, and then click **Save**.

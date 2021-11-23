@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 265ace67-3115-4987-ab2d-80c55e452d4b
 description: "Learn how to extend an existing claims-based SharePoint Server web application into a new zone to surface content to different types of users."
@@ -18,7 +18,7 @@ description: "Learn how to extend an existing claims-based SharePoint Server web
 
 # Extend claims-based web applications in SharePoint
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You can extend a web application that uses claims-based authentication by using Central Administration. When you extend a web application, you expose the same content to different sets of users by using an additional IIS web site to host the same content.
   
@@ -61,7 +61,7 @@ Use the procedure described in this section to extend a claims-based SharePoint 
     
     Kerberos is the recommended security configuration to use with Integrated Windows authentication. Kerberos requires special configuration by the domain administrator. NTLM authentication will work with any application pool account.
     
-  - In the **Security Configuration** section, click **Yes** or **No** for the **Use Secure Sockets Layer (SSL)** options. If you choose **Yes**, you must request and install an SSL certificate to configure SSL. For more information about how to set up SSL, see [How to Setup SSL on IIS 7.0](https://go.microsoft.com/fwlink/p/?LinkId=187887).
+  - In the **Security Configuration** section, click **Yes** or **No** for the **Use Secure Sockets Layer (SSL)** options. If you choose **Yes**, you must request and install an SSL certificate to configure SSL. For more information about how to set up SSL, see [How to Setup SSL on IIS 7.0](/iis/manage/configuring-security/how-to-set-up-ssl-on-iis).
     
 9. In the **Public URL** section, type the URL for the domain name for all sites that users will access in this web application. This URL will be the base URL for links on pages within the web application. The default URL is the current server name and port. 
     
@@ -87,7 +87,6 @@ If you're using [cross-site publishing](overview-of-cross-site-publishing.md), b
 
 #### Other Resources
 
-[New-SPWebApplicationExtension](/powershell/module/sharepoint-server/New-SPWebApplicationExtension?view=sharepoint-ps)
+[New-SPWebApplicationExtension](/powershell/module/sharepoint-server/New-SPWebApplicationExtension?view=sharepoint-ps&preserve-view=true)
   
 [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14))
-

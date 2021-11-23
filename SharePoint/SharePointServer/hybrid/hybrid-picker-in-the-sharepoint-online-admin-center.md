@@ -7,10 +7,10 @@ manager: serdars
 ms.date: 12/5/2017
 audience: ITPro
 f1.keywords:
-- NOCSH
-ms.topic: concetpual
+- CSH
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
@@ -26,7 +26,7 @@ description: Learn how to use the Hybrid Picker wizard in the SharePoint admin c
 
 # Hybrid picker in the SharePoint admin center
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 ## What is the Hybrid Picker?
 
@@ -69,13 +69,13 @@ The Hybrid picker helps with or completes the setup of these hybrid features:
 
 - **[Hybrid App Launcher](the-extensible-hybrid-app-launcher.md)** - This hybrid feature further integrates Microsoft 365 with your on-premises SharePoint Server farm by placing tiles like Office 365 Delve and Video (as well as custom Microsoft 365 tiles you may have) on the on-premises SharePoint Server App Launcher. This option also sets up hybrid OneDrive with user profile redirection, and sites features. 
 
-- **[Business-to-business (B2B) extranet sites](/sharepoint/create-b2b-extranet)** - Choosing this option will install extra features you can integrate with an extranet site you create in Microsoft 365. With Microsoft 365 extranet, partners can connect directly to a members-only site in Microsoft 365 without access to the corporate on-premises environment or any other Microsoft 365 site. Choosing this option sets up OneDrive and user profile redirection, sites features, and hybrid app launcher. 
+- **[Business-to-business (B2B) extranet sites](../../SharePointOnline/create-b2b-extranet.md)** - Choosing this option will install extra features you can integrate with an extranet site you create in Microsoft 365. With Microsoft 365 extranet, partners can connect directly to a members-only site in Microsoft 365 without access to the corporate on-premises environment or any other Microsoft 365 site. Choosing this option sets up OneDrive and user profile redirection, sites features, and hybrid app launcher. 
 
 - **[Hybrid Taxonomy](plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md)** - This feature allows a centralized taxonomy that's readable and writable in the Microsoft 365 Cloud, to be used as a read-only copy on-premises. This feature includes Hybrid Content type (June 2017 PU required) which will replicate the published content types in Microsoft 365 to on-premises. Choosing this option sets up OneDrive and user profile redirection, sites features, and hybrid app launcher. 
 
 - **[Hybrid self-service site creation](hybrid-self-service-site-creation.md)** - This feature redirects the default self-service site creation page in SharePoint Server 2013, SharePoint Server 2016, or SharePoint Server 2019 (/_layouts/15/scsignup.aspx) to the SharePoint in Microsoft 365 Group Creation page. This setting can be configured independently for each web application in your farm. It helps your users create their sites in SharePoint in Microsoft 365 instead of SharePoint Server. 
 
-- **[Cloud hybrid search](/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint)** - Choosing this option creates a cloud Search service application in SharePoint Server and connects the cloud Search service application to your Microsoft 365 organization. This is one of the steps needed to set up cloud hybrid search, you must do the rest of the steps yourself (see the [roadmap](configure-cloud-hybrid-searchroadmap.md)). This option doesn't include set-up of other hybrid features.
+- **[Cloud hybrid search](./learn-about-cloud-hybrid-search-for-sharepoint.md)** - Choosing this option creates a cloud Search service application in SharePoint Server and connects the cloud Search service application to your Microsoft 365 organization. This is one of the steps needed to set up cloud hybrid search, you must do the rest of the steps yourself (see the [roadmap](configure-cloud-hybrid-searchroadmap.md)). This option doesn't include set-up of other hybrid features.
 
 > [!TIP]
 > If the Hybrid Picker is run a second time with an enabled feature unchecked, this will not cause the feature to be uninstalled. Any additional selections will be installed and previously installed features will remain. 

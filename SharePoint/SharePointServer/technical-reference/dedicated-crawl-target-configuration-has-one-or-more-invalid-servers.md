@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Dedicate
 
 # Dedicated crawl target configuration has one or more invalid servers (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
  **Rule Name:** Dedicated crawl target configuration has one or more invalid servers. 
   
@@ -38,7 +38,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Dedicate
     
   - The URI must not contain an absolute path.
     
-    For more information, see [URI class](https://go.microsoft.com/fwlink/p/?LinkID=193513).
+    For more information, see [URI class](/dotnet/api/system.uri).
     
 2. Make sure that the server is joined with a valid role to the SharePoint farm. The server can be any of the following:
     
@@ -61,4 +61,3 @@ For more information, see [Overview of MinRole Server Roles in SharePoint Server
 #### Concepts
 
 [Add a server to a SharePoint Server 2016 farm](../install/add-a-server-to-a-sharepoint-server-2016-farm.md)
-

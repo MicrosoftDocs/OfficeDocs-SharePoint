@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,9 +20,9 @@ description: "Learn about the themes in SharePoint Server and how to use them to
 
 # Overview of themes in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
-Themes give you a quick and easy way to change the look and feel of any site in SharePoint Server. They are pre-designed collections of web page elements, such as fonts, color schemes, layout, and background pictures that come with SharePoint Server. In SharePoint Server, you can apply a theme to a site, and then preview it before committing the change. You can change the theme of a site any number of times. For more information about themes, see [Themes overview for SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=306431). Note that this article still applies to SharePoint Server.
+Themes give you a quick and easy way to change the look and feel of any site in SharePoint Server. They are pre-designed collections of web page elements, such as fonts, color schemes, layout, and background pictures that come with SharePoint Server. In SharePoint Server, you can apply a theme to a site, and then preview it before committing the change. You can change the theme of a site any number of times. For more information about themes, see [Themes overview for SharePoint 2013](/sharepoint/dev/general-development/themes-overview-for-sharepoint). Note that this article still applies to SharePoint Server.
   
 Using themes is one way to change the look and feel of a site. Themes are part of the larger, updated branding and design capabilities in SharePoint Servers 2016 and 2019. 
 
@@ -115,8 +115,8 @@ You can create new designs by creating new list items in the composed looks list
 
 #### Other Resources
 
-[Use composed looks to brand SharePoint sites](https://go.microsoft.com/fwlink/?linkid=845556)
+[Use composed looks to brand SharePoint sites](/sharepoint/dev/solution-guidance/use-composed-looks-to-brand-sharepoint-sites)
   
-[Branding SharePoint sites in the SharePoint add-in model](https://go.microsoft.com/fwlink/?linkid=845555)
+[Branding SharePoint sites in the SharePoint add-in model](/sharepoint/dev/solution-guidance/branding-sharepoint-sites-sharepoint-add-in)
 
 [Change the look of your SharePoint site](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818)

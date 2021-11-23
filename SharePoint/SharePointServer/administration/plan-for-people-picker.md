@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2093c146-c880-48c6-9526-24cdf80969ba
 description: "Learn how to plan for the People Picker web control in SharePoint Server."
 ---
 
 # Plan for People Picker in SharePoint
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You use the People Picker control to find and select people, groups, and claims when a site, list, or library owner assigns permissions in SharePoint Server. This article describes how to plan for People Picker. For information about how to configure People Picker, see [Configure People Picker in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14)).
   
@@ -27,9 +27,9 @@ Before reading this article, you should understand the concepts described in the
     
 - [People Picker and claims providers overview](people-picker-and-claims-providers-overview.md)
     
-- [The Role of Claims](https://go.microsoft.com/fwlink/p/?LinkID=208326)
+- [The Role of Claims](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee913589(v=ws.10))
     
-- [SharePoint Claims-Based Identity](https://go.microsoft.com/fwlink/p/?LinkID=196647)
+- [SharePoint Claims-Based Identity](/sharepoint/dev/general-development/claims-based-identity-in-sharepoint)
     
     
 ## People Picker and claims providers
@@ -42,7 +42,7 @@ For more information about how claims providers are related to the People Picker
 ## Using People Picker with multiple forests or domains
 <a name="forests"> </a>
 
-By default, People Picker will return users, groups, and claims from the domain on which SharePoint Server is installed, only. If you want People Picker to return query results from more than one forest or domain, you must configure People Picker to use an encrypted account and password even if you have a one- or two-way trust between the forests or domains. For more information about trusts, see [Managing Trusts](https://go.microsoft.com/fwlink/p/?LinkId=207573).
+By default, People Picker will return users, groups, and claims from the domain on which SharePoint Server is installed, only. If you want People Picker to return query results from more than one forest or domain, you must configure People Picker to use an encrypted account and password even if you have a one- or two-way trust between the forests or domains. For more information about trusts, see [Managing Trusts](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771568(v=ws.11)).
   
 To configure People Picker for a one-way trust, see [Configure People Picker in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14)).
   
@@ -80,4 +80,3 @@ Planning for the users, groups, and claims you want to display in the query resu
 #### Other Resources
 
 [Configure People Picker in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14))
-

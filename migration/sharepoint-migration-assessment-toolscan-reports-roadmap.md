@@ -3,13 +3,14 @@ title: "SharePoint Migration Assessment Tool Scan Reports Roadmap"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 ms.date: 12/6/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration

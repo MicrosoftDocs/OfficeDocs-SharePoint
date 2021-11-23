@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -19,16 +19,18 @@ description: "Use these articles to develop a business case for choosing SharePo
 
 # What's new
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
   
 Articles contain an overview of new and improved product features, updates, deprecated and removed features.
   
 |**Content**|**Description**|
 |:-----|:-----|
+|[New and improved features in SharePoint Server Subscription edition](new-and-improved-features-in-sharepoint-server-subscription-edition.md) <br/> |Learn about the new features and updates to existing features in SharePoint Server Subscription edition.  <br/> |
+|[What's deprecated or removed from SharePoint Server Subscription edition](what-s-deprecated-or-removed-from-SharePoint-Server-Subscription-Edition.md) <br/> |Learn about the features and functionality that are deprecated or removed in SharePoint Server Subscription edition.  <br/> |
 |[New and improved features in SharePoint Server 2019](new-and-improved-features-in-sharepoint-server-2019.md) <br/> |Learn about the new features and updates to existing features in SharePoint Server 2019.  <br/> |
 |[What's deprecated or removed from SharePoint Server 2019](what-s-deprecated-or-removed-from-sharepoint-server-2019.md) <br/> |Learn about the features and functionality that are deprecated or removed in SharePoint Server 2019.  <br/> |
 |[New and improved features in SharePoint Server 2016](new-and-improved-features-in-sharepoint-server-2016.md) <br/> |Learn about the new features and updates to existing features in SharePoint Server 2016.  <br/> |
-|[New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)](new-features-in-feature-pack-1.md) <br/> |Learn about the new features that are included in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1).  <br/> |
+|[New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)](new-features-november-2016.md) <br/> |Learn about the new features that are included in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1).  <br/> |
 |[New features in September 2017 PU for SharePoint Server 2016 (Feature Pack 2)](new-feature-in-feature-pack-2.md) <br/> |Learn about the new features that are included in the September 2017 Public Update for SharePoint Server 2016(Feature Pack 2).  <br/> |
 |[What's deprecated or removed from SharePoint Server 2016](what-s-deprecated-or-removed-from-sharepoint-server-2016.md) <br/> |Learn about the features and functionality that are deprecated or removed in SharePoint Server 2016.  <br/> |
    

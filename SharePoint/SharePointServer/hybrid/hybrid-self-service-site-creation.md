@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
@@ -25,7 +25,7 @@ description: "Hybrid self-service site creation redirects the default self-servi
 
 # Hybrid self-service site creation
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 Hybrid self-service site creation redirects the default self-service site creation page in SharePoint Server (/_layouts/15/scsignup.aspx) or (/_layouts/16/scsignup.aspx) to the SharePoint in Microsoft 365 Group Creation page. By configuring this feature, you can help your users to create their sites in SharePoint in Microsoft 365 instead of SharePoint Server.
   
@@ -48,7 +48,7 @@ Configuring hybrid self-service site creation is done by using the hybrid picker
     
 2. From your SharePoint Server computer, open a web browser.
     
-3. go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365. 
+3. go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
 
 4. Under **Hybrid picker**, select **Open**.
     
@@ -76,5 +76,3 @@ Once you have configured hybrid self-service site creation, you can manage it in
     > While hybrid users of this web application will be redirected to SharePoint in Microsoft 365 for self-service site creation, the other settings on this page continue to apply to any on-premises only users. 
   
 4. Select **OK**.
-    
-

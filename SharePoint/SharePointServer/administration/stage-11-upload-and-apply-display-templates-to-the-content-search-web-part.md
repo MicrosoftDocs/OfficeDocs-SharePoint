@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 1969091e-9013-49ae-b600-6d033b3b4cb5
 description: "Learn how to upload and apply display templates to the Content Search Web Part in SharePoint Server 2016."
@@ -18,7 +18,7 @@ description: "Learn how to upload and apply display templates to the Content Sea
 
 # Stage 11: Upload and apply display templates to the Content Search Web Part in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 > [!NOTE]
 > Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
@@ -66,7 +66,7 @@ The image below shows how the control display template and item display template
   
 ![Web Part Display Templates](../media/OTCSP_WebPartDisplayTemplates.png)
   
-For more conceptual information about display templates, and for more information about how to create your own display templates, see [SharePoint 2013 Design Manager display templates](https://go.microsoft.com/fwlink/p/?LinkId=401787).
+For more conceptual information about display templates, and for more information about how to create your own display templates, see [SharePoint 2013 Design Manager display templates](/sharepoint/dev/general-development/sharepoint-design-manager-design-packages).
   
 ### How to upload display templates
 <a name="BKMK_HowToUploadDisplayTemplates"> </a>
@@ -150,7 +150,6 @@ Our Contoso site is really starting to look good. But we must also make sure our
 
 #### Other Resources
 
-[SharePoint 2013 Design Manager display templates](https://msdn.microsoft.com/library/jj945138.aspx)
+[SharePoint 2013 Design Manager display templates](/sharepoint/dev/general-development/sharepoint-design-manager-design-packages)
   
-[Overview of Design Manager in SharePoint 2013](https://msdn.microsoft.com/library/jj822363.aspx)
-
+[Overview of Design Manager in SharePoint 2013](/sharepoint/dev/general-development/overview-of-design-manager-in-sharepoint)

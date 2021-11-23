@@ -4,13 +4,14 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 ms.date: 12/14/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 617ba8f7-eff1-4fcb-b9b8-ee5ef459a18c
 ms.collection:
 - SPMigration

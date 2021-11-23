@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b98f39e-649f-4b00-b025-0775ac996268
 description: "Learn how to integrate a Yammer network together with your SharePoint Server environment and your Microsoft 365 organization."
 ---
 
 # Integrate a Yammer network into SharePoint Server and Microsoft 365
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This scenario describes the prerequisites and recommended steps to integrate a Yammer network together with your SharePoint Server environment and your Microsoft 365 Apps for enterprise or Microsoft 365 Apps for business.
   
@@ -42,7 +42,7 @@ For this scenario, we assume that you have:
 
 You probably have already set up directory synchronization for Microsoft 365 and your on-premises directory. If not, sync your on-premises directory with Azure Active Directory by using Azure Active Directory Connect. 
   
-For more info, see [Plan for directory synchronization for Microsoft 365](https://go.microsoft.com/fwlink/?linkid=875044) and [Integrate your on-premises directories with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=869669).
+For more info, see [Plan for directory synchronization for Microsoft 365](/microsoft-365/enterprise/plan-for-directory-synchronization) and [Integrate your on-premises directories with Azure Active Directory](/azure/active-directory/hybrid/whatis-hybrid-identity).
 
 ## Step 2: Use Yammer Embed
 
@@ -56,5 +56,4 @@ For more info, see [Plan for directory synchronization for Microsoft 365](https:
   
 [Social scenarios with Yammer and SharePoint Server](social-scenarios-with-yammer-and-sharepoint-server.md)
 
-[Yammer - Admin Help](https://go.microsoft.com/fwlink/?linkid=525575)
-
+[Yammer - Admin Help](/yammer/)

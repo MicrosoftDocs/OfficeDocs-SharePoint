@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f3fae102-5b20-4c9f-9707-ab76c68be937
 description: "Learn ways that users can turn active documents into records in the Records Center site in SharePoint Server."
 ---
 
 # Plan ways to convert active documents to records in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 After you develop a file plan and design your records management solution in SharePoint Server, plan how active documents in your organization - electronic and hard copy - will become records. This article reviews techniques that you can use to declare active documents to be records and suggests one way to plan how items in your file plan will become records.
   
@@ -60,7 +60,7 @@ You can also use the SharePoint object model to create a custom workflow that co
   
 ### Using a custom solution
 
-You can develop custom solutions that use objects in the **Microsoft.Office.RecordsManagement.OfficialFileWSProxy** namespace to send content from other data sources to the Records Center site. For more information about how to implement custom solutions using the SharePoint Server object model, see the SharePoint Server [Software Development Kit](https://go.microsoft.com/fwlink/p/?LinkId=259788) (https://go.microsoft.com/fwlink/p/?LinkId=259788). 
+You can develop custom solutions that use objects in the **Microsoft.Office.RecordsManagement.OfficialFileWSProxy** namespace to send content from other data sources to the Records Center site. For more information about how to implement custom solutions using the SharePoint Server object model, see the SharePoint Server [Software Development Kit](/sharepoint/dev/general-development/add-sharepoint-capabilities) (https://go.microsoft.com/fwlink/p/?LinkId=259788). 
   
 ## Completing your plan
 <a name="section2"> </a>
@@ -83,5 +83,3 @@ The following table shows how some records in a sample file plan will move to a 
 |Insurance plan  <br/> |Description of employee insurance plan.  <br/> |Print  <br/> |Physical document associated with list item in SharePoint Server  <br/> |By sending it to a physical vault and creating a list item in the Records Center site to track (using a barcode)  <br/> |
 |Payroll timesheets  <br/> |Summaries of hours worked, overtime, and salaries paid.  <br/> |Electronic documents  <br/> |Payroll records server not based on SharePoint Server  <br/> |Using a custom program  <br/> |
 |Product development files  <br/> |Specifications of products and associated documents.  <br/> |Electronic documents  <br/> |SharePoint Server document library  <br/> |Using custom workflow associated with expiration policy and manually by using **Send to** command  <br/> |
-   
-

@@ -3,19 +3,32 @@ title: Mover migration - Setting up your Box source connector
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Setting up your Box source connector to migrate to Office 365."
 ---
 # Setting up your source:  Box
 
 ## Box FAQ
+
+### Role changes from Box to Office 365
+
+When moving from Box to OneDrive for Business, user roles *on folders* will change. Mover does not explicitly set a user as an owner of data during a migration.
+
+Ownership of files and folders is always implicitly set by virtue of copying data into a user in OneDrive for Business. 
+
+![Box to OneDrive for Business role comparison chart](media/old-box-role-to-o365-role.png)
+
+>[!Note]
+>Mover only sets permissions on folders.
 
 ### Should we disable our Box accounts?
 Disabling employee access to their Box accounts mitigates any risk of them accessing data after the migration takes place.
@@ -104,7 +117,9 @@ You should now be connected to Box with Co-Admin authorization!
 
 ## Troubleshooting a Box (Co-Admin) connector
 
-**App Permissions**: Your organization may default all apps to disabled. See the following quick guide about how to ensure our app is enabled.
+### **App Permissions**
+ 
+Your organization may default all apps to disabled. See the following quick guide about how to ensure our app is enabled.
 
 1. Under **Enterprise Settings**, navigate to **Apps**. Here is a shortcut link: https://app.box.com/master/settings/apps
 
@@ -119,6 +134,25 @@ You should now be connected to Box with Co-Admin authorization!
 4. Select **Available**.
 
    ![enterprise app available](media/mover-enterprise-app-available.png)
+
+### Unable to sign in to Box
+
+If you are unable to sign in to Box, you may have turned on the option to *Disable unpublished apps by default* without providing the two App IDs required. 
+
+
+ 1. Under Global app settings, look for the setting **Disable unpublished apps by default**.  By default, this setting is turned off.
+![screen showing disable unpublished apps option default off](media/mover-disable-unpublished-apps.png)
+
+2. If you have turned this setting on, you need to enter the following two App IDs in the **Except for** box.
+
+
+    `7ypzdr66s3m80h3hutop34u7yml8928x` </br>
+    `4zb2998onvpk5934brgh48hh5ji20rgz`
+
+![screen showing disable unpublished apps option on](media/mover-disable-unpublished-apps-on.png)
+
+
+ 
 
 ## Box permission requirements
 For authorization, our app requires an **Administrator** or **Co-Administrator**. The following table lists the scopes we require:
@@ -152,3 +186,4 @@ To remove our app's access to Box:
 If you are not already connected after you have authorized your source, select **Box**, and load the connector. An icon appears, and shows you how many users you are migrating.
 
 ![execution select box source](media/execution-select-box-source.png)
+

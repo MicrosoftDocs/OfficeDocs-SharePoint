@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to monitor the SharePoint BLOB cache, the ASP.NET output
 
 # Monitor cache performance in SharePoint Server 2016
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 By monitoring cache performance, you can make sure that that the farm cache settings are correct and that the caching is running at maximum performance. 
   
@@ -56,12 +56,17 @@ The following sections provide specific information for monitoring each kind of 
 
 You can monitor the effectiveness of the cache settings by using the performance monitors that are listed in the following table. 
   
-**SharePoint Publishing Cache counter group**
+**SharePoint Disk-Based Cache counter group**
 
 |**Counter name**|**Ideal value or pattern**|**Notes**|
 |:-----|:-----|:-----|
 |Total Number of cache Compactions  <br/> |0  <br/> |If this number is continually or frequently high, the cache size is too small for the data being requested. To improve performance, increase the size of the cache.  <br/> |
-|BLOB Cache % full  <br/> |\>= 90% shows red  <br/> \>= 80% shows yellow  <br/> \<80% shows green  <br/> |This can show that the cache size is too small. To improve performance, increase the size of the cache.  <br/> |
+|BLOB Cache fill ratio  <br/> |\>= 90% shows red  <br/> \>= 80% shows yellow  <br/> \<80% shows green  <br/> |This can show that the cache size is too small. To improve performance, increase the size of the cache.  <br/> |
+
+**SharePoint Publishing Cache counter group**
+
+|**Counter name**|**Ideal value or pattern**|**Notes**|
+|:-----|:-----|:-----|
 |Publishing cache flushes / second  <br/> |0  <br/> |Site owners might be performing actions on the sites that are causing the cache to be flushed. To improve performance during peak-use hours, make sure that site owners only perform these actions during off-peak hours.  <br/> |
 |Publishing cache hit ratio  <br/> |Depends on usage pattern. For read-only sites, the ratio should be 1. For read-write sites, the ratio may be lower.  <br/> |A low ratio can indicate that unpublished items are being requested, and these cannot be cached. If this is a portal site, the site might be set to require check-out, or many users have items checked out.  <br/> |
    
@@ -83,7 +88,7 @@ You can monitor the effectiveness of the cache settings by using the performance
 > [!NOTE]
 > For the ASP.NET output cache, all pages are cached for a fixed duration that is independent of user actions. Therefore, there are flush-related monitoring events. 
   
-For more information about the ASP.NET output cache, see [Output Caching and Cache Profiles](https://go.microsoft.com/fwlink/p/?LinkID=121543) (https://go.microsoft.com/fwlink/p/?LinkID=121543) or [cache Element for caching (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/p/?LinkId=195986) (https://go.microsoft.com/fwlink/p/?LinkId=195986). 
+For more information about the ASP.NET output cache, see [Output Caching and Cache Profiles](/previous-versions/office/developer/sharepoint-2010/aa661294(v=office.14)) or [cache Element for caching (ASP.NET Settings Schema)](/previous-versions/dotnet/netframework-4.0/ms228248(v=vs.100)). 
   
 ## Monitoring object cache performance
 <a name="object"> </a>
@@ -101,5 +106,3 @@ You can monitor the effectiveness of the cache settings by using the performance
 |Total number of cache compactions  <br/> |0  <br/> |If this number is high, the cache size is too small for the data being requested. To improve performance, increase the size of the cache.  <br/> |
 |Publishing cache flushes / second  <br/> |0  <br/> |Site owners might be performing actions on the sites that are causing the cache to be flushed. To improve performance during peak-use hours, make sure that site owners perform these actions only during off-peak hours.  <br/> |
 |Publishing cache hit ratio  <br/> |Depends on usage pattern. For read-only sites, the ratio should be 1. For read-write sites, the ratio may be lower.  <br/> | If the ratio starts to decrease, this might be caused by one or more of the following:  <br/>  The cache was recently flushed or compacted.  <br/>  Users are accessing content that was recently added to the site. This might occur after lots of new content is added to the site.  <br/> |
-   
-

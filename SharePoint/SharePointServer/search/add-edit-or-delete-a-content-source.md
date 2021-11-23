@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f687788b-f9b6-4a63-94d2-008939108c65
 description: "Learn how to create a content source to specify what type of content to crawl, schedules for crawling, start addresses, and crawl priority."
@@ -18,7 +18,7 @@ description: "Learn how to create a content source to specify what type of conte
 
 # Add, edit, or delete a content source in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 A content source is a set of options that you use to specify what, when, and how to crawl. 
   

@@ -3,14 +3,16 @@ title: Authorizing the Amazon S3 Connector
 author: JoanneHendrickson
 ms.author: jhendr
 manager: serdars
+recommendations: true
 audience: ITPro
 ms.date: 6/22/2020
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Authorizing the Amazon S3 Connector"
 ---
@@ -26,7 +28,7 @@ Authorizing Amazon S3 is straightforward. To authorize or add a Amazon S3 accoun
 2. Find Amazon S3 in the Connector list.
 3. Click **Authorize.**
 
-![Amazon S3 Connector List](media/amazon_s3_connector_list_auth.png)
+![Amazon S3 Connector List](media/mover-auth-source-connector.png)
 
 4. A new window (tab) will open. Name your Connector (Optional).
 5. Enter your Access Key ID and Secret Access Key.
@@ -48,11 +50,6 @@ Authorizing Amazon S3 is straightforward. To authorize or add a Amazon S3 accoun
 - Select your finished transfer and click Start Migrating on the top right of the Migration Manager to rerun the the transfer.
 - View your most recent transfer log by selecting the transfer and clicking View Log from the User Actions dropdown menu and see if there are any particular error messages you could act on.
 
-**Transfer to Amazon S3 destination:** If you're having trouble transferring into Amazon S3:
-
-- Select your finished transfer and click Start Migrating on the top right of the Migration Manager to rerun the the transfer.
-- View your most recent transfer log by selecting the transfer and clicking View Log from the User Actions dropdown menu and see if there are any particular error messages you could act on.
-- Amazon S3 Regions: We now support all S3 regions with Signature Version 4.
 
 **Using Amazon S3 via IAM:** With Amazon S3, by default we should have no trouble accessing your buckets. Here's how to connect to S3 via IAM:
 

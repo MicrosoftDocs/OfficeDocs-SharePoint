@@ -3,10 +3,11 @@ title: Mover - Reviewing users before migration
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
@@ -30,20 +31,20 @@ Be aware that Users can only be edited if they haven't been scanned, or had a tr
 To edit a user source entry:
 
 1. To select a user row, on the left side of a row, select the respective checkbox.
-2. On the right and directly above the user rows, find **User Actions**, or right-click the user row for which you want to edit the source path.
+2. On the right and directly above the user rows, find **User Actions**.
 3. A new side panel opens, enabling you to edit the source path.
 4. To select your parent source path, double-click it, and to complete your edit, select **Save**.
 
-![Edit source user](media/edit-source-user.png)
+![Edit source user](media/mover-edit-source-user.png)
 
 To edit a user destination entry:
 
 1. To select a user row, on the left side of a row, select the respective checkbox.
-2. On the right and directly above the user rows, find **User Actions**, or right-click the user row for which you want to edit the destination path.
+2. On the right and directly above the user rows, find **User Actions**.
 3. A new side panel opens, enabling you to edit the Office 365 destination path.
 4. To select your parent destination path, double-click it. To complete your edit, select **Save**.
 
-![Edit destination user](media/edit-destination-user.png)
+![Edit destination user](media/mover-edit-destination-user.png)
 
 You can also choose to edit your user entries via CSV, though this is a fairly in-depth process. *If you are simply looking to make a handful of edits to your paths, we recommend using the previous method.*
 
@@ -119,6 +120,10 @@ To create or edit a schedule:
 3. Select **Schedule # Users**.
 4. Configure your Hourly, Daily, Weekly, or Monthly setup, including the timing and day of the week (where applicable).
 5. Select **Apply Schedules to X Users**.
+6. Click **Start migration x users**
+7. Click **On schedule**.
+8. Agree to **Terms and Conditions**.
+9. Click **continue**.
 
 ## Deleting
 

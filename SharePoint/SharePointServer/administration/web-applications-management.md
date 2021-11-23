@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 1ad49d4e-598d-446c-aabd-de4a8f6ad391
 description: "Learn how to manage web applications in a SharePoint Server farm."
@@ -18,7 +18,7 @@ description: "Learn how to manage web applications in a SharePoint Server farm."
 
 # Web applications management in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The following articles describe how to create and manage web applications in a SharePoint Server farm. These articles are written for farm administrators who will operate SharePoint Server. The articles also describe how to manage permissions and permission policies for a web application.
   

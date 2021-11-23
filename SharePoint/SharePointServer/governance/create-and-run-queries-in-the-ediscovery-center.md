@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server
 ms.assetid: 77fdaae5-ded4-45c2-98ef-52c88cceead8
 description: "Once you have defined your sources, and placed them on hold if necessary, you can run queries to narrow down and extract exactly the content you need for a particular case."
@@ -18,7 +18,7 @@ description: "Once you have defined your sources, and placed them on hold if nec
 
 # Create and run queries in the eDiscovery Center
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Once you have defined your sources, and placed them on hold if necessary, you can run queries to narrow down and extract exactly the content you need for a particular case. 
   
@@ -82,14 +82,12 @@ By default, a query searches across all content sources, you can choose which di
 
 For more information about eDiscovery cases, see the following articles:
   
-[Scenario: eDiscovery in SharePoint Server 2013 and Exchange Server 2013](/sharepoint/)
+[Scenario: eDiscovery in SharePoint Server 2013 and Exchange Server 2013](../../Hub/index.yml)
   
-[Plan and manage cases in the eDiscovery Center](/sharepoint/governance/plan-and-manage-cases-in-the-ediscovery-center)
+[Plan and manage cases in the eDiscovery Center](./plan-and-manage-cases-in-the-ediscovery-center.md)
   
 [Add content to a case and place sources on hold in the eDiscovery Center](add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center.md)
   
 [Searching and using keywords in the eDiscovery Center](searching-and-using-keywords-in-the-ediscovery-center.md)
   
 [Export content and create reports in the eDiscovery Center](export-content-and-create-reports-in-the-ediscovery-center.md)
-  
-

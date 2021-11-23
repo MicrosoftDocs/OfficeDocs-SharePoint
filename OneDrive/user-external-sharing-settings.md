@@ -3,13 +3,13 @@ title: "Change the external sharing setting for a user's OneDrive"
 ms.reviewer: srice
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: one-drive
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
@@ -37,7 +37,7 @@ After you set the organization-wide sharing settings for Microsoft SharePoint an
 
 3. Select the user.
 
-4. Select the **OneDrive** tab, and under **Sharing**, select **Manage sharing**.
+4. Select the **OneDrive** tab, and under **Sharing**, select **Manage external sharing**.
 
 5. Select a new external sharing level, and then select **Save**.
 

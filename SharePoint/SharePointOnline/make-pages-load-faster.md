@@ -1,16 +1,17 @@
 ---
 title: "Make pages load faster with caching in the Content Search Web Part"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
+recommendations: true
 ms.date: 6/29/2018
 audience: End User
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 - SPO160
@@ -51,7 +52,7 @@ We recommend that you use caching only in CSWPs that are on pages that have more
     > To test that the CSWP returns the expected results, you have to be member of the AD security group that you select.
   
 > [!TIP]
-> You can't look up the name of your AD security groups from the CSWP. To look up your AD security groups, go to your Azure classic portal. For more information, see [Managing groups in Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/.)
+> You can't look up the name of your AD security groups from the CSWP. To look up your AD security groups, go to your Azure classic portal. For more information, see [Managing groups in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
   
 ## When should I use caching?
 <a name="BKMK_WhenToUse"> </a>

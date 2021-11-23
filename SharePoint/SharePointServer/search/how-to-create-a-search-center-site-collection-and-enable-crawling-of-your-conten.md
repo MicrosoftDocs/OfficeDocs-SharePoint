@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ef585c89-f18c-41a6-b8fa-5a73be4930aa
 description: "Learn how to create a Search Center Site Collection and enable crawling of your content in SharePoint Server."
 ---
 
 # How to create a Search Center Site Collection and enable crawling of your content in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 In this article, you'll learn:
   

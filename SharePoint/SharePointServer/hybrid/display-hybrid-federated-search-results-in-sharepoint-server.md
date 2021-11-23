@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
@@ -22,7 +22,7 @@ description: "Configure a SharePoint hybrid environment so that user searches fr
 
 # Display hybrid federated search results in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article.**
   
@@ -216,7 +216,7 @@ To validate your configuration for displaying search results from both SharePoin
     
 6. If you still do not see search results from both search indexes, check the SharePoint Unified Logging Service (ULS) logs, also called the SharePoint in Microsoft 365 trace logs.
     
-    For more info, see [Overview of Unified Logging System (ULS) Logging](https://go.microsoft.com/fwlink/p/?LinkId=393137).
+    For more info, see [Overview of Unified Logging System (ULS) Logging](/previous-versions/office/developer/sharepoint-2010/ff512738(v=office.14)).
     
 ## See also
 <a name="section3"> </a>
@@ -226,4 +226,3 @@ To validate your configuration for displaying search results from both SharePoin
 [Plan hybrid federated search for SharePoint Server](plan-hybrid-federated-search.md)
   
 [Display hybrid federated search results in SharePoint in Microsoft 365](display-hybrid-federated-search-results-in-sharepoint-online.md)
-

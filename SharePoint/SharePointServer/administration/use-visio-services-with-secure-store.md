@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7c82bdf9-453f-4ee9-a2e6-20adf05ad59c
 description: "Secure Store can be used to store encrypted credentials for use in refreshing data-connected Visio diagrams in Visio Services."
 ---
 
 # Use Visio Services with Secure Store Service in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Visio Services can be configured to use the Secure Store Service to provide user authentication for data-connected diagrams that use an external data source such as SQL Server.
   

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -21,7 +21,7 @@ description: Learn how to use the Managed Solutions Gallery for code-based sandb
 
 # How to use the Managed Solutions Gallery
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Learn how to use the Managed Solutions Gallery for code-based sandbox solutions in SharePoint Server 2013, SharePoint Server 2016, and SharePoint Server 2019.
   
@@ -34,13 +34,13 @@ After an administrator uploads a solution to the Managed Solutions Gallery, site
   
 ## Overview
 
-The Managed Solutions Gallery is a new feature in the September Public Update for code-based sandbox solutions which can be downloaded from here, [SharePoint Updates](https://go.microsoft.com/fwlink/?LinkID=827479) https://go.microsoft.com/fwlink/?LinkID=827479 
+The Managed Solutions Gallery is a new feature in the September Public Update for code-based sandbox solutions which can be downloaded from here, [SharePoint Updates](/officeupdates/sharepoint-updates) https://go.microsoft.com/fwlink/?LinkID=827479 
   
 > [!NOTE]
 > The September Public Update includes the English-language version of the Managed Solutions Gallery. A future Public Update will include the Multi-language versions of the Managed Solutions Gallery.
   
 > [!NOTE]
-> To initially setup and configure the Managed Solutions Gallery is only available by using the following Microsoft PowerShell cmdlets: [New-SPUserSolutionAllowList](/powershell/module/sharepoint-server/New-SPUserSolutionAllowList?view=sharepoint-ps), [Enable-SPUserSolutionAllowList](/powershell/module/sharepoint-server/Enable-SPUserSolutionAllowList?view=sharepoint-ps). To use these cmdlets you must use elevated administrator privileges, by using RunAs Administrator. > Once the gallery is configured, it is treated as a document library (that is, SPList) and can be managed by using the user interface. 
+> To initially setup and configure the Managed Solutions Gallery is only available by using the following Microsoft PowerShell cmdlets: [New-SPUserSolutionAllowList](/powershell/module/sharepoint-server/New-SPUserSolutionAllowList?view=sharepoint-ps&preserve-view=true), [Enable-SPUserSolutionAllowList](/powershell/module/sharepoint-server/Enable-SPUserSolutionAllowList?view=sharepoint-ps&preserve-view=true). To use these cmdlets you must use elevated administrator privileges, by using RunAs Administrator. > Once the gallery is configured, it is treated as a document library (that is, SPList) and can be managed by using the user interface. 
   
 Before you can use the Managed Solutions Gallery, you must create a site collection on the Master Gallery, and then enable the functionality of the Managed Solutions Gallery.
   
@@ -54,7 +54,7 @@ Before you can use the Managed Solutions Gallery, you must create a site collect
     
   - You must be a member of the Administrators group on the server on which you are running the Microsoft PowerShell cmdlet.
     
-    An administrator can use the [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps) cmdlet to grant permissions to use SharePoint Server  cmdlets. 
+    An administrator can use the [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true) cmdlet to grant permissions to use SharePoint Server  cmdlets. 
     
 2. Start the SharePoint Management Shell.
     
@@ -82,14 +82,14 @@ Before you can use the Managed Solutions Gallery, you must create a site collect
     
 ## Transform your sandbox solutions to the SharePoint add-in model
 
-We encourage customers that are considering moving away from the sandbox solution to the new SharePoint add-in model to review the considerations outlined here, [Sandbox solution transformation guidance - InfoPath](https://go.microsoft.com/fwlink/?LinkID=827587&amp;clcid=0x409)
+We encourage customers that are considering moving away from the sandbox solution to the new SharePoint add-in model to review the considerations outlined here, [Sandbox solution transformation guidance - InfoPath](/sharepoint/dev/solution-guidance/sandbox-solution-transformation-guidance-infopath)
   
-SharePoint Add-ins are self-contained extensions of SharePoint websites that you create, and that run without custom code on the SharePoint server. To learn more about Add-ins see, [SharePoint Add-ins](https://go.microsoft.com/fwlink/?LinkId=827588&amp;clcid=0x409)
+SharePoint Add-ins are self-contained extensions of SharePoint websites that you create, and that run without custom code on the SharePoint server. To learn more about Add-ins see, [SharePoint Add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins)
   
 ## See also
 
 #### Other Resources
 
-[Disable-SPUserSolutionAllowList](/powershell/module/sharepoint-server/Disable-SPUserSolutionAllowList?view=sharepoint-ps)
+[Disable-SPUserSolutionAllowList](/powershell/module/sharepoint-server/Disable-SPUserSolutionAllowList?view=sharepoint-ps&preserve-view=true)
   
-[Get-SPUserSolutionAllowList](/powershell/module/sharepoint-server/Get-SPUserSolutionAllowList?view=sharepoint-ps)
+[Get-SPUserSolutionAllowList](/powershell/module/sharepoint-server/Get-SPUserSolutionAllowList?view=sharepoint-ps&preserve-view=true)

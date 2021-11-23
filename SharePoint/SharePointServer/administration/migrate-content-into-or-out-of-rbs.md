@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to migrate content into or out of Remote BLOB Storage (R
 
 # Migrate content into or out of RBS in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 After installing RBS and setting a content database to use RBS, all existing content in that database can be migrated into the database's active provider. You use the same Microsoft PowerShell command to migrate content into or out of RBS, or to another RBS provider. When RBS is implemented, SQL Server itself is regarded as an RBS provider. 
   
@@ -51,7 +51,7 @@ This operation can be performed on any front-end or application server in the fa
   $rbs=(Get-SPContentDatabase <ContentDbName>).RemoteBlobStorageSettings
   ```
 
-    Where  _\<ContentDbName\>_ is the name of the content database. 
+   Where  _\<ContentDbName\>_ is the name of the content database. 
     
 5. To view a list the RBS providers installed on the Web server:
     
@@ -65,7 +65,7 @@ This operation can be performed on any front-end or application server in the fa
   $rbs.SetActiveProviderName(<NewProvider>)
   ```
 
-    Where  _\<NewProvider\>_ is the name of the provider that you want to make active for this content database. If you want to migrate the content database out of RBS completely and back into SQL Server inline storage, set this value to  `()`.
+   Where  _\<NewProvider\>_ is the name of the provider that you want to make active for this content database. If you want to migrate the content database out of RBS completely and back into SQL Server inline storage, set this value to  `()`.
     
 7. Migrate the data from RBS to the new provider or to SQL Server:
     

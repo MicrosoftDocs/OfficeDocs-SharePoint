@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -18,7 +18,7 @@ description: "Learn how to configure self-service site creation in different web
 
 # Configure self-service site creation in SharePoint Server 2019
 
-[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-xxx-md.md)]
 
 The self-service site creation experience in SharePoint supports creating new sites in a different web application, regardless of whether the web application is hosted on the local farm or a remote farm. This gives greater flexibility and control in managing SharePoint farms.
 
@@ -71,9 +71,8 @@ The self-service site creation experience in the SharePoint home page supports n
 
 SharePoint will treat the external resource as an external web application. The external resource on the local farm should be fully populated with the URLs and zones of the web application on the remote farm. And conversely, the external resource on the remote farm should be fully populated with the URLs and zones of the web application on the local farm. Be sure that the zones of the local web application and the remote web application are synchronized.
 
-For more information, see [Plan alternate access mappings for SharePoint Server](/SharePoint/administration/plan-alternate-access-mappings) and [Configure alternate access mappings for SharePoint Server](/SharePoint/administration/configure-alternate-access-mappings).
+For more information, see [Plan alternate access mappings for SharePoint Server](../administration/plan-alternate-access-mappings.md) and [Configure alternate access mappings for SharePoint Server](../administration/configure-alternate-access-mappings.md).
 
 ## See also
 
-[Plan self-service site creation in SharePoint Server](/SharePoint/sites/plan-self-service-site-creation)
-
+[Plan self-service site creation in SharePoint Server](./plan-self-service-site-creation.md)

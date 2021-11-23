@@ -8,9 +8,9 @@ ms.date: 03/15/2019
 audience: ITPro
 f1.keywords:
 - CSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -21,9 +21,9 @@ description: "Configure the Microsoft Azure infrastructure to host a high-availa
 
 # SharePoint Intranet Farm in Azure Phase 1: Configure Azure
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)] 
   
-In this phase of deploying an intranet-only SharePoint Server 2016 farm in Azure, you build out the Azure infrastructure. You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers.md). See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](/SharePoint/administration/deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in) for all of the phases. 
+In this phase of deploying an intranet-only SharePoint Server 2016 farm in Azure, you build out the Azure infrastructure. You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers.md). See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](./deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md) for all of the phases. 
   
 Azure must be provisioned with these basic components for networking and storage:
   
@@ -41,13 +41,13 @@ Azure must be provisioned with these basic components for networking and storage
 
 Before you begin configuring Azure components, fill in the following tables. To assist you in the procedures for configuring Azure, print this section and write down the needed information or copy this section to a document and fill it in. For the settings of the Azure virtual network (VNet), fill in Table V.
   
-|**Item**|**Configuration setting**|**Description**|**Value**|
+| Item | Configuration setting | Description | Value |
 |:-----|:-----|:-----|:-----|
-|1.  <br/> |VNet name  <br/> |A name to assign to the Azure Virtual Network (example SPFarmNet).  <br/> |![](../media/TableLine.png)  <br/> |
-|2.  <br/> |VNet location  <br/> |The Azure datacenter that will contain the virtual network.  <br/> |![](../media/TableLine.png)  <br/> |
-|3.  <br/> |VPN device IP address  <br/> |The public IPv4 address of your VPN device's interface on the Internet.  <br/> |![](../media/TableLine.png)  <br/> |
-|4.  <br/> |VNet address space  <br/> |The address space for the virtual network. Work with your IT department to determine this address space.  <br/> |![](../media/TableLine.png)  <br/> |
-|5.  <br/> |IPsec shared key  <br/> |A 32-character random, alphanumeric string that will be used to authenticate both sides of the site-to-site VPN connection. Work with your IT or security department to determine this key value. Alternately, see [Create a random string for an IPsec preshared key](https://social.technet.microsoft.com/wiki/contents/articles/32330.create-a-random-string-for-an-ipsec-preshared-key.aspx).  <br/> |![](../media/TableLine.png)  <br/> |
+|1. |VNet name |A name to assign to the Azure Virtual Network (example SPFarmNet). | :::image type="icon" source="../media/TableLine.png"::: |
+|2. |VNet location |The Azure datacenter that will contain the virtual network. | :::image type="icon" source="../media/TableLine.png"::: |
+|3. |VPN device IP address |The public IPv4 address of your VPN device's interface on the Internet. | :::image type="icon" source="../media/TableLine.png"::: |
+|4. |VNet address space |The address space for the virtual network. Work with your IT department to determine this address space. | :::image type="icon" source="../media/TableLine.png"::: |
+|5. |IPsec shared key |A 32-character random, alphanumeric string that will be used to authenticate both sides of the site-to-site VPN connection. Work with your IT or security department to determine this key value. Alternately, see [Create a random string for an IPsec preshared key](https://social.technet.microsoft.com/wiki/contents/articles/32330.create-a-random-string-for-an-ipsec-preshared-key.aspx). | :::image type="icon" source="../media/TableLine.png"::: |
 
    
  **Table V: Cross-premises virtual network configuration**
@@ -64,40 +64,40 @@ See [Address space calculator for Azure gateway subnets](https://gallery.technet
   
 Work with your IT department to determine these address spaces from the virtual network address space.
   
-|**Item**|**Subnet name**|**Subnet address space**|**Purpose**|
+| Item | Subnet name | Subnet address space | Purpose |
 |:-----|:-----|:-----|:-----|
-|1.  <br/> |![](../media/TableLine.png)  <br/> |![](../media/TableLine.png)  <br/> |The subnet used by the Windows Server Active Directory (AD) VMs.  <br/> |
-|2.  <br/> |![](../media/TableLine.png)  <br/> |![](../media/TableLine.png)  <br/> |The subnet used by the VMs in the SQL Server cluster.  <br/> |
-|3.  <br/> |![](../media/TableLine.png)  <br/> |![](../media/TableLine.png)  <br/> |The subnet used by the SharePoint app and search servers.  <br/> |
-|4.  <br/> |![](../media/TableLine.png)  <br/> |![](../media/TableLine.png)  <br/> |The subnet used by the front end and distributed cache servers.  <br/> |
-|5.  <br/> |GatewaySubnet  <br/> |![](../media/TableLine.png)  <br/> |The subnet used by the Azure gateway virtual machines.  <br/> |
+|1. | :::image type="icon" source="../media/TableLine.png"::: | :::image type="icon" source="../media/TableLine.png"::: |The subnet used by the Windows Server Active Directory (AD) VMs. |
+|2. | :::image type="icon" source="../media/TableLine.png"::: | :::image type="icon" source="../media/TableLine.png"::: |The subnet used by the VMs in the SQL Server cluster. |
+|3. | :::image type="icon" source="../media/TableLine.png"::: | :::image type="icon" source="../media/TableLine.png"::: |The subnet used by the SharePoint app and search servers. |
+|4. | :::image type="icon" source="../media/TableLine.png"::: | :::image type="icon" source="../media/TableLine.png"::: |The subnet used by the front end and distributed cache servers. |
+|5. |GatewaySubnet | :::image type="icon" source="../media/TableLine.png"::: |The subnet used by the Azure gateway virtual machines. |
    
  **Table S: Subnets in the virtual network**
   
 Next, fill in Table I for the static IP addresses assigned to virtual machines and load balancer instances.
   
-|**Item**|**Purpose**|**IP address on the subnet**|**Value**|
+| Item | Purpose | IP address on the subnet | Value |
 |:-----|:-----|:-----|:-----|
-|1.  <br/> |Static IP address of the first domain controller  <br/> |The fourth possible IP address for the address space of the subnet defined in Item 1 of Table S.  <br/> |![](../media/TableLine.png)  <br/> |
-|2.  <br/> |Static IP address of the second domain controller  <br/> |The fifth possible IP address for the address space of the subnet defined in Item 1 of Table S.  <br/> |![](../media/TableLine.png)  <br/> |
-|3.  <br/> |Static IP address of the internal load balancer for the front end and distributed cache SharePoint servers  <br/> |The sixth possible IP address for the address space of the subnet defined in Item 4 of Table S.  <br/> |![](../media/TableLine.png)  <br/> |
-|4.  <br/> |Static IP address of the internal load balancer for the listener address of the SQL server cluster  <br/> |The fourth possible IP address for the address space of the subnet defined in Item 2 of Table S.  <br/> |![](../media/TableLine.png)  <br/> |
-|5.  <br/> |Static IP address of the first SQL server  <br/> |The fifth possible IP address for the address space of the subnet defined in Item 2 of Table S.  <br/> |![](../media/TableLine.png)  <br/> |
-|6.  <br/> |Static IP address of the second SQL server  <br/> |The sixth possible IP address for the address space of the subnet defined in Item 2 of Table S.  <br/> |![](../media/TableLine.png)  <br/> |
-|7.  <br/> |Static IP address of the minority node server  <br/> Note that this is not needed if you are using a [cloud witness](/windows-server/failover-clustering/deploy-cloud-witness).  <br/> |The seventh possible IP address for the address space of the subnet defined in Item 2 of Table S.  <br/> |![](../media/TableLine.png)  <br/> |
-|8.  <br/> |Static IP address of the first application and search SharePoint server  <br/> |The fourth possible IP address for the address space of the subnet defined in Item 3 of Table S.  <br/> |![](../media/TableLine.png)  <br/> |
-|9.  <br/> |Static IP address of the second application and search SharePoint server  <br/> |The fifth possible IP address for the address space of the subnet defined in Item 3 of Table S.  <br/> |![](../media/TableLine.png)  <br/> |
-|10.  <br/> |Static IP address of the first front end and distributed cache SharePoint server  <br/> |The fourth possible IP address for the address space of the subnet defined in Item 4 of Table S.  <br/> |![](../media/TableLine.png)  <br/> |
-|11.  <br/> |Static IP address of the second front end and distributed cache SharePoint server  <br/> |The fifth possible IP address for the address space of the subnet defined in Item 4 of Table S.  <br/> |![](../media/TableLine.png)  <br/> |
+|1. |Static IP address of the first domain controller |The fourth possible IP address for the address space of the subnet defined in Item 1 of Table S. | :::image type="icon" source="../media/TableLine.png"::: |
+|2. |Static IP address of the second domain controller |The fifth possible IP address for the address space of the subnet defined in Item 1 of Table S. | :::image type="icon" source="../media/TableLine.png"::: |
+|3. |Static IP address of the internal load balancer for the front end and distributed cache SharePoint servers |The sixth possible IP address for the address space of the subnet defined in Item 4 of Table S. | :::image type="icon" source="../media/TableLine.png"::: |
+|4. |Static IP address of the internal load balancer for the listener address of the SQL server cluster |The fourth possible IP address for the address space of the subnet defined in Item 2 of Table S. | :::image type="icon" source="../media/TableLine.png"::: |
+|5. |Static IP address of the first SQL server |The fifth possible IP address for the address space of the subnet defined in Item 2 of Table S. | :::image type="icon" source="../media/TableLine.png"::: |
+|6. |Static IP address of the second SQL server |The sixth possible IP address for the address space of the subnet defined in Item 2 of Table S. | :::image type="icon" source="../media/TableLine.png"::: |
+|7. |Static IP address of the minority node server  <br/> Note that this is not needed if you are using a [cloud witness](/windows-server/failover-clustering/deploy-cloud-witness). |The seventh possible IP address for the address space of the subnet defined in Item 2 of Table S. | :::image type="icon" source="../media/TableLine.png"::: |
+|8. |Static IP address of the first application and search SharePoint server |The fourth possible IP address for the address space of the subnet defined in Item 3 of Table S. | :::image type="icon" source="../media/TableLine.png"::: |
+|9. |Static IP address of the second application and search SharePoint server |The fifth possible IP address for the address space of the subnet defined in Item 3 of Table S. | :::image type="icon" source="../media/TableLine.png"::: |
+|10. |Static IP address of the first front end and distributed cache SharePoint server |The fourth possible IP address for the address space of the subnet defined in Item 4 of Table S. | :::image type="icon" source="../media/TableLine.png"::: |
+|11. |Static IP address of the second front end and distributed cache SharePoint server |The fifth possible IP address for the address space of the subnet defined in Item 4 of Table S. | :::image type="icon" source="../media/TableLine.png"::: |
    
  **Table I: Static IP addresses in the virtual network**
   
 For the two Domain Name System (DNS) servers in your on-premises network that you want to use when initially setting up the domain controllers in your virtual network, fill in Table D. Note that two blank entries are listed, but you can add more. Work with your IT department to determine this list.
   
-|**Item**|**DNS server friendly name**|**DNS server IP address**|
+| Item | DNS server friendly name | DNS server IP address |
 |:-----|:-----|:-----|
-|1.  <br/> |![](../media/TableLine.png)  <br/> |![](../media/TableLine.png)  <br/> |
-|2.  <br/> |![](../media/TableLine.png)  <br/> |![](../media/TableLine.png)  <br/> |
+|1. | :::image type="icon" source="../media/TableLine.png"::: | :::image type="icon" source="../media/TableLine.png"::: |
+|2. | :::image type="icon" source="../media/TableLine.png"::: | :::image type="icon" source="../media/TableLine.png"::: |
    
  **Table D: On-premises DNS servers**
   
@@ -108,11 +108,11 @@ To route packets from the cross-premises network to your organization network ac
   
 For the set of local network address spaces, fill in Table L. Note that three blank entries are listed but you will typically need more. Work with your IT department to determine this list of address spaces.
   
-|**Item**|**Local network address space**|
+| Item | Local network address space |
 |:-----|:-----|
-|1.  <br/> |![](../media/TableLine.png)  <br/> |
-|2.  <br/> |![](../media/TableLine.png)  <br/> |
-|3.  <br/> |![](../media/TableLine.png)  <br/> |
+|1. | :::image type="icon" source="../media/TableLine.png"::: |
+|2. | :::image type="icon" source="../media/TableLine.png"::: |
+|3. | :::image type="icon" source="../media/TableLine.png"::: |
    
  **Table L: Address prefixes for the local network**
   
@@ -123,44 +123,44 @@ Now let's begin building the Azure infrastructure to host your SharePoint farm.
   
 First, start an Azure PowerShell prompt and login to your account.
   
-```
+```powershell
 Connect-AzAccount
 ```
 
 Get your subscription name using the following command.
   
-```
+```powershell
 Get-AzSubscription | Sort Name | Select Name
 ```
 
 Set your Azure subscription. Replace everything within the quotes, including the \< and \> characters, with the correct name.
   
-```
+```powershell
 $subscr="<subscription name>"
 Select-AzSubscription -SubscriptionName $subscr
 ```
 
 Next, create the new resource groups for your intranet SharePoint farm. To determine a unique set of resource group names, use this command to list your existing resource groups.
   
-```
+```powershell
 Get-AzResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
 ```
 
 Fill in the following table for the set of unique resource group names.
   
-|**Item**|**Resource group name**|**Purpose**|
+| Item | Resource group name | Purpose |
 |:-----|:-----|:-----|
-|1.  <br/> |![](../media/TableLine.png)  <br/> |Domain controllers  <br/> |
-|2.  <br/> |![](../media/TableLine.png)  <br/> |Database cluster servers  <br/> |
-|3.  <br/> |![](../media/TableLine.png)  <br/> |App and search servers  <br/> |
-|4.  <br/> |![](../media/TableLine.png)  <br/> |Front end and distributed cache servers  <br/> |
-|5.  <br/> |![](../media/TableLine.png)  <br/> |Infrastructure elements  <br/> |
+|1. | :::image type="icon" source="../media/TableLine.png"::: |Domain controllers |
+|2. | :::image type="icon" source="../media/TableLine.png"::: |Database cluster servers |
+|3. | :::image type="icon" source="../media/TableLine.png"::: |App and search servers |
+|4. | :::image type="icon" source="../media/TableLine.png"::: |Front end and distributed cache servers |
+|5. | :::image type="icon" source="../media/TableLine.png"::: |Infrastructure elements |
    
  **Table R: Resource groups**
   
 Create your new resource groups with these commands.
   
-```
+```powershell
 $locName="<an Azure location, such as West US>"
 $rgName="<Table R - Item 1 - Name column>"
 New-AzResourceGroup -Name $rgName -Location $locName
@@ -176,7 +176,7 @@ New-AzResourceGroup -Name $rgName -Location $locName
 
 Next, you create the Azure virtual network and its subnets that will host your intranet SharePoint farm.
   
-```
+```powershell
 $rgName="<Table R - Item 5 - Resource group name column>"
 $locName="<Azure location>"
 $locShortName="<the location of the resource group in lowercase with spaces removed, example: westus>"
@@ -204,7 +204,7 @@ New-AzVirtualNetwork -Name $vnetName -ResourceGroupName $rgName -Location $locNa
 
 Next, you create network security groups for each subnet that contains virtual machines. To perform subnet isolation, you can add rules for the specific types of traffic allowed or denied to the network security group of a subnet.
   
-```
+```powershell
 # Create network security groups
 $vnet=Get-AzVirtualNetwork -ResourceGroupName $rgName -Name $vnetName
 New-AzNetworkSecurityGroup -Name $spSubnet1Name -ResourceGroupName $rgName -Location $locShortName
@@ -224,7 +224,7 @@ $vnet | Set-AzVirtualNetwork
 
 Next, use these commands to create the gateways for the site-to-site VPN connection.
   
-```
+```powershell
 $rgName="<Table R - Item 5 - Resource group name column>"
 $locName="<Azure location>"
 $vnetName="<Table V - Item 1 - Value column>"
@@ -248,12 +248,11 @@ $localGateway=New-AzLocalNetworkGateway -Name $localGatewayName -ResourceGroupNa
 $vnetConnectionName="SPS2SConnection"
 $vnetConnectionKey="<Table V - Item 5 - Value column>"
 $vnetConnection=New-AzVirtualNetworkGatewayConnection -Name $vnetConnectionName -ResourceGroupName $rgName -Location $locName -ConnectionType IPsec -SharedKey $vnetConnectionKey -VirtualNetworkGateway1 $vnetGateway -LocalNetworkGateway2 $localGateway
-
 ```
 
 Next, record the public IPv4 address of the Azure VPN gateway for your virtual network from the display of this command:
   
-```
+```powershell
 Get-AzPublicIpAddress -Name $publicGatewayVipName -ResourceGroupName $rgName
 ```
 
@@ -269,12 +268,12 @@ Next, ensure that the address space of the virtual network is reachable from you
   
 Next, define the names of four availability sets. Fill out Table A. 
   
-|**Item**|**Purpose**|**Availability set name**|
+| Item | Purpose | Availability set name |
 |:-----|:-----|:-----|
-|1.  <br/> |Domain controllers  <br/> |![](../media/TableLine.png)  <br/> |
-|2.  <br/> |SQL servers  <br/> |![](../media/TableLine.png)  <br/> |
-|3.  <br/> |Application and search servers  <br/> |![](../media/TableLine.png)  <br/> |
-|4.  <br/> |Front-end and distributed cache servers  <br/> |![](../media/TableLine.png)  <br/> |
+|1. |Domain controllers | :::image type="icon" source="../media/TableLine.png"::: |
+|2. |SQL servers | :::image type="icon" source="../media/TableLine.png"::: |
+|3. |Application and search servers | :::image type="icon" source="../media/TableLine.png"::: |
+|4. |Front-end and distributed cache servers | :::image type="icon" source="../media/TableLine.png"::: |
    
  **Table A: Availability sets**
   
@@ -282,7 +281,7 @@ You will need these names when you create the virtual machines in phases 2, 3, a
   
 Create your availability sets with these Azure PowerShell commands.
   
-```
+```powershell
 $locName="<the Azure location of your resource group>"
 $rgName="<Table R - Item 1 - Resource group name column>"
 $avName="<Table A - Item 1 - Availability set name column>"
@@ -312,11 +311,10 @@ Use [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sh
 
 #### Other Resources
 
-[Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](/SharePoint/administration/deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in)
+[Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](./deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md)
   
-[SharePoint Server 2016 in Microsoft Azure](/SharePoint/administration/sharepoint-server-2016-in-microsoft-azure)
+[SharePoint Server 2016 in Microsoft Azure](./sharepoint-server-2016-in-microsoft-azure.md)
   
-[Designing a SharePoint Server 2016 farm in Azure](/SharePoint/administration/designing-a-sharepoint-server-2016-farm-in-azure)
+[Designing a SharePoint Server 2016 farm in Azure](./designing-a-sharepoint-server-2016-farm-in-azure.md)
   
-[Install SharePoint Server](/SharePoint/install/install)
-
+[Install SharePoint Server](../install/install.md)

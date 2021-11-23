@@ -4,13 +4,14 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 ms.date: 5/9/2018
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - Strat_SP_gtc
 - SPMigration
@@ -87,6 +88,7 @@ The following table details SharePoint List templates and which ones are support
 |500|Categories List|ListTemplateType.  Value = 500|Yes
 |600|ExternalList|External. Value = 600|No|
 |700|MySiteDocumentLibrary|MySiteDocumentLibrary.Value = 700|Yes|
+|850|List Pages|ListTemplateType.  Value = 850|No|
 |851|Asset Library|ListTemplateType.  Value = 851|Yes|
 |1100|IssueTracking|Issue tracking. Value = 1100|Yes|
 |1200|AdminTasks|Administrator Tasks. Value = 1200|No|

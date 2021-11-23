@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 95e12c80-7a86-4655-ba11-a05b9587fee0
 description: "Configure PerformancePoint Services to use a Secure Store target application for external data refresh."
 ---
 
 # Configure Secure Store for use with PerformancePoint Services
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 PerformancePoint Services supports two methods of using Secure Store Service to connect to external data:
   
@@ -140,7 +140,7 @@ You must configure your PerformancePoint Services data connection to use the Sec
 7. Create and publish your dashboard.
     
     > [!NOTE]
-    > For detailed information about creating dashboards, see [Create Dashboards by using PerformancePoint Services (SharePoint Server 2016)](/SharePoint/administration/performancepoint-services-overview). 
+    > For detailed information about creating dashboards, see [Create Dashboards by using PerformancePoint Services (SharePoint Server 2016)](./performancepoint-services-overview.md). 
   
 With the target application specified in Dashboard Designer, PerformancePoint Services uses the credentials associated with that target application to refresh the data in the dashboard after you have published it to SharePoint Server.
   
@@ -150,4 +150,3 @@ With the target application specified in Dashboard Designer, PerformancePoint Se
 #### Concepts
 
 [Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md)
-

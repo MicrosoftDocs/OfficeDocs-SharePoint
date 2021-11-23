@@ -8,9 +8,9 @@ ms.date: 7/7/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Plan to store authorization credentials in an encrypted database b
 
 # Plan the Secure Store Service in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The Secure Store Service is a claims-aware authorization service that includes an encrypted database for storing credentials.
     
@@ -92,5 +92,4 @@ The Secure Store Service is a claims-aware service. It can accept security token
 
 #### Other Resources
 
-[Configure the Secure Store Service in SharePoint Server](/SharePoint/administration/configure-the-secure-store-service)
-
+[Configure the Secure Store Service in SharePoint Server](./configure-the-secure-store-service.md)

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0112182a-6246-4d8a-8c07-39622be3c4a1
 description: "Learn how to export and import customized search configuration settings."
@@ -18,7 +18,7 @@ description: "Learn how to export and import customized search configuration set
 
 # Export and import customized search configuration settings in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can export and import customized search configuration settings between site collections and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models, and site search settings. It is also possible to export customized search configuration settings from a Search service application and import the settings to site collections and sites, but you cannot import customized search configuration settings to a Search service application. You can't export the default search configuration settings, and you can't import customized search configurations from SharePoint Server to SharePoint in Microsoft 365, or the other way around.
   
@@ -28,7 +28,7 @@ You can use the following methods to export or import customized search configur
     
 - To export customized search configuration settings from a Search service application, use CSOM.
     
-If you want to transfer all **Master Page Gallery** files, use the **Design Manager**. If you want to transfer a whole site, use **Save site as template**. If you want to export or import customized search settings programmatically, see [Exporting and importing search configuration settings in SharePoint](https://msdn.microsoft.com/library/dn205276.aspx) on MSDN. 
+If you want to transfer all **Master Page Gallery** files, use the **Design Manager**. If you want to transfer a whole site, use **Save site as template**. If you want to export or import customized search settings programmatically, see [Exporting and importing search configuration settings in SharePoint](/sharepoint/dev/general-development/exporting-and-importing-search-configuration-settings-in-sharepoint) on MSDN. 
   
 This article describes how to use the **Site Settings** page to export and import customized search configuration settings for site collections, and sites. 
   
@@ -46,11 +46,11 @@ Before you begin this operation, review the information in [Overview of customiz
     
 > [!NOTE]
 > Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: 
->- [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)
->- [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines)
+>- [Plan browser support](../install/browser-support-planning.md)
+>- [Accessibility for SharePoint 2013](../accessibility-guidelines.md)
 >- [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)
 >- [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
->- [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
+>- [Touch](/windows/win32/wintouch/windows-touch-gestures-overview)
     
 ## Export customized search configuration settings from a site collection
 <a name="proc2"> </a>
@@ -197,5 +197,3 @@ If managed properties or aliases contain any of the listed characters, the impor
 | ^             | caret                 |
 | \'            | escape sequence       |
 | \"            | escape sequence       |
-   
-

@@ -8,9 +8,9 @@ ms.date: 07/24/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -22,7 +22,7 @@ description: "Create and configure a SharePoint Server 2019 farm so that you can
 
 # Create the SharePoint Server 2019 farm for a database attach upgrade
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]   
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]   
   
 When you upgrade from SharePoint Server 2016 to SharePoint Server 2019, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. Before you can upgrade the content, you must configure a new server or server farm by using SharePoint Server 2019. This article lists the items that you have to configure when you create that new environment.
   
@@ -30,7 +30,7 @@ When you upgrade from SharePoint Server 2016 to SharePoint Server 2019, you must
 
 ![Phase 1 of the upgrade process: Create SharePoint 2019 farm](../media/CreateFarm_SP2019.png)
   
-|||
+| | |
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the first phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019. The process includes the following phases that must be completed in order:  <li/> Create the SharePoint Server 2019 farm for a database attach upgrade  (this phase). <li/> Copy databases to the new farm for upgrade to SharePoint Server 2019. <li/>Upgrade service applications to SharePoint Server 2019. <li/>Upgrade content databases to SharePoint Server 2019.
 <br/>For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process-2019.md). |
@@ -77,7 +77,7 @@ You also have to turn off or remove services or components in the SharePoint Ser
 ## Record the passphrase for the Secure Store service application
 <a name="passphrase"> </a>
 
-The Secure Store service application uses a passphrase to encrypt information. You have to know what this passphrase is so that you can use it in the new environment. Otherwise, you will not have access to the information in the Secure Store. If you do not know the passphrase, you can refresh the key, and then back up the Secure Store database. For more information, see **Work with encryption keys** in [ Configure the Secure Store Service in SharePoint Server ](/SharePoint/administration/configure-the-secure-store-service).
+The Secure Store service application uses a passphrase to encrypt information. You have to know what this passphrase is so that you can use it in the new environment. Otherwise, you will not have access to the information in the Secure Store. If you do not know the passphrase, you can refresh the key, and then back up the Secure Store database. For more information, see **Work with encryption keys** in [ Configure the Secure Store Service in SharePoint Server ](../administration/configure-the-secure-store-service.md).
   
 ## Install SharePoint Server 2019 in a new environment
 <a name="Install"> </a>
@@ -91,7 +91,7 @@ Before you can upgrade your databases, you must use SharePoint Server 2019 to co
 3. Install all language packs that you want in your environment.
     
     > [!NOTE]
-    > For more information about how to install available language packs, see [Install or uninstall language packs for SharePoint Server 2016](../install/install-or-uninstall-language-packs-0.md). 
+    > For more information about how to install available language packs, see [Install or uninstall language packs for SharePoint Server 2016](../install/install-uninstall-language-packs-2019.md). 
   
 4. Run the SharePoint Products Configuration Wizard to configure your server or servers.
     
@@ -145,8 +145,6 @@ And you must configure all new farm-level settings that you want to use, such as
   
 In a standard installation, the next step would be to create web applications. However, for upgrade, you create web applications later in the process, after you upgrade the service application databases. For more information, see [Create web applications](upgrade-content-databases.md#CreateWebApps).
   
-|||
+| | |
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the first phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019.  <br/>  Next phase: [Copy databases to the new farm for upgrade to SharePoint Server 2019](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process-2019.md).  <br/> |
-   
-

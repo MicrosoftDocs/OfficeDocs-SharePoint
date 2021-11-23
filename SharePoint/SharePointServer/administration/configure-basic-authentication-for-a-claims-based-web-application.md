@@ -8,9 +8,9 @@ ms.date: 2/28/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to configure basic authentication for a web application 
 
 # Configure basic authentication for a claims-based web application in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You can configure basic authentication for one or more zones in a SharePoint Server claims-based web application. A web application is an Internet Information Services (IIS) web site that SharePoint Server creates and uses. Zones represent different logical paths for gaining access to the network services that are available within the same web application. Within each web application, you can create up to five zones. A different web site in IIS represents each zone. Use zones to enforce different access and policy conditions for large groups of users. To configure basic authentication for one or more zones in a SharePoint Server web application, use IIS Manager console, instead of SharePoint Server Central Administration.
   
@@ -48,7 +48,7 @@ Use the IIS Manager console to configure IIS to enable basic authentication for 
     
 - Extranet
     
-The Default zone is the zone that is first created when a web application is created. The other zones are created by extending a web application. For more information, see [Extend claims-based web applications in SharePoint](/SharePoint/administration/extend-a-claims-based-web-application).
+The Default zone is the zone that is first created when a web application is created. The other zones are created by extending a web application. For more information, see [Extend claims-based web applications in SharePoint](./extend-a-claims-based-web-application.md).
   
  **To configure IIS to enable basic authentication**
   
@@ -87,7 +87,6 @@ You can also configure basic authentication when you create a web application in
 [Configure Digest authentication for a claims-based Web application](configure-digest-authentication-for-a-claims-based-web-application.md)
 #### Other Resources
 
-[Plan for user authentication methods in SharePoint Server](/SharePoint/security-for-sharepoint-server/plan-user-authentication)
+[Plan for user authentication methods in SharePoint Server](../security-for-sharepoint-server/plan-user-authentication.md)
   
-[Extend claims-based web applications in SharePoint](/SharePoint/administration/extend-a-claims-based-web-application)
-
+[Extend claims-based web applications in SharePoint](./extend-a-claims-based-web-application.md)

@@ -1,7 +1,7 @@
 ### YamlMime:Landing
 
 title: SharePoint Server # < 60 chars
-summary: This guide helps IT Pros plan, deploy, and manage SharePoint Server 2013, 2016 and 2019. # < 160 chars
+summary: This guide helps IT Pros plan, deploy, and manage SharePoint Server Subscription Edition, 2019, 2016, and 2013. # < 160 chars
 
 metadata:
   title: Learn about how to use SharePoint Server. # Required; page title displayed in search results. Include the brand. < 60 chars.
@@ -12,7 +12,7 @@ metadata:
   author: SerdarSoysal #Required; your GitHub user alias, with correct capitalization.
   ms.author: serdars #Required; microsoft alias of author; optional team alias.
   ms.date: 03/09/2020 #Required; mm/dd/yyyy format
-  localization_priority: Priority
+  ms.localizationpriority: high
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -27,9 +27,9 @@ landingContent:
           - text: Get started
             url: getting-started.md
           - text: Migration
-            url: https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online
+            url: /sharepointmigration/migrate-to-sharepoint-online
           - text: Hybrid
-            url: https://docs.microsoft.com/SharePoint/hybrid/hybrid
+            url: ./hybrid/hybrid.md
           - text: Community
             url: https://techcommunity.microsoft.com/t5/SharePoint/ct-p/SharePoint
           - text: Product feedback
@@ -54,7 +54,9 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links:
-          - text: Hardware and software requirements
+          - text: Hardware and software requirements for SharePoint Server Subscription Edition 
+            url: install/system-requirements-for-sharepoint-subscription-edition.md
+          - text: Hardware and software requirements for 2019
             url: install/hardware-and-software-requirements-2019.md
           - text: Hybrid
             url: hybrid/sharepoint-hybrid-sites-and-search.md
@@ -80,6 +82,8 @@ landingContent:
     linkLists:
       - linkListType: deploy
         links:
+          - text: Installation overview for SharePoint Server Subscription Edition
+            url: install/install-overview-spserver-se.md
           - text: SharePoint Server 2016 and 2019 large scale farms
             url: install/install-sharepoint-server-2016-across-multiple-servers.md
           - text: SharePoint Server 2016 and 2019 small scale farms
@@ -94,6 +98,8 @@ landingContent:
     linkLists:
       - linkListType: deploy
         links:
+          - text: Upgrade to SharePoint Server Subscription Edition
+            url: upgrade-and-update/upgrade-to-sharepoint-server-subscription-edition.md
           - text: Upgrade to SharePoint Server 2019
             url: upgrade-and-update/upgrade-to-sharepoint-server-2019.md
           - text: Upgrade to SharePoint Server 2016
@@ -111,11 +117,10 @@ landingContent:
       - linkListType: reference
         links:
           - text: SharePoint Server 2007 end of support roadmap
-            url: https://docs.microsoft.com/office365/enterprise/sharepoint-2007-end-of-support
+            url: /office365/enterprise/sharepoint-2007-end-of-support
           - text: Upgrading from Server 2010 and end of support
-            url: https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010
+            url: /office365/enterprise/upgrade-from-sharepoint-2010
           - text: SharePoint Server 2010
-            url: https://docs.microsoft.com/previous-versions/office/
+            url: /previous-versions/office/
           - text: SharePoint Server 2007
-            url: https://docs.microsoft.com/previous-versions/office/sharepoint-2007-products-and-technologies/cc303422(v=office.12)
-
+            url: /previous-versions/office/sharepoint-2007-products-and-technologies/cc303422(v=office.12)

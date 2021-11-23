@@ -8,9 +8,9 @@ ms.date: 3/1/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_OneDriveAdmin
 - IT_OneDriveAdmin_Top
@@ -22,10 +22,10 @@ description: "Learn the steps needed to set up OneDrive in a SharePoint Server o
 
 # Set up Microsoft OneDrive in a SharePoint Server on-premises environment
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 > [!NOTE]
-> This article describes how to set up OneDrive in a SharePoint Server on-premises environment, and does not describe OneDrive in a Microsoft 365 environment. For more info about administering OneDrive, see [OneDrive admin help](https://go.microsoft.com/fwlink/p/?LinkId=824831). 
+> This article describes how to set up OneDrive in a SharePoint Server on-premises environment, and does not describe OneDrive in a Microsoft 365 environment. For more info about administering OneDrive, see [OneDrive admin help](/onedrive/onedrive). 
   
 When setting up Microsoft OneDrive in your SharePoint Server on-premises environment, an IT-administrator will need to go through the following steps: 
   
@@ -35,7 +35,9 @@ When setting up Microsoft OneDrive in your SharePoint Server on-premises environ
     
 - [Verify that OneDrive is available to your users](set-up-onedrive-for-business.md#verify)
     
-Before proceeding with setup, please review planning considerations you might need to address that are described in [Plan for OneDrive in SharePoint Server](onedrive-for-business-planning.md).
+Before proceeding with setup, review planning considerations you might need to address that are described in [Plan for OneDrive in SharePoint Server](onedrive-for-business-planning.md).
+
+Learn about [OneDrive in Microsoft 365](/OneDrive/plan-onedrive-enterprise).
   
 ## Set up the required services
 <a name="setup"> </a>
@@ -117,7 +119,7 @@ Next, we need to create the site collection that will host users' My Sites.
   
 1. On Central Administration, in the **Application Management** section, select **Create site collections**. 
     
-2. On the **Create Site Collection** page, in the **Web Application** section, select the web application that you just created for My Sites. 
+2. On the **Create Site Collection** page, in the **Web Application** section, select the web application that you created for My Sites. 
     
 3. In the **Title and Description** section, for the site collection, enter the title and description. 
     
@@ -133,7 +135,7 @@ Next, we need to create the site collection that will host users' My Sites.
     
 9. Select **OK**.
     
-The **Top-Level Site Successfully Created** page appears when the My Site Host site collection is created. Although you can select the link to browse to the root of the site collection, doing this results in an error because the user profile cannot be loaded. This behavior is to be expected; user profiles are not imported at this point. 
+The **Top-Level Site Successfully Created** page appears when the My Site Host site collection is created. Although you can select the link to browse to the root of the site collection, this selection results in an error because the user profile cannot be loaded. This behavior is to be expected; user profiles are not imported at this point. 
   
 ### User Profile service
 
@@ -160,7 +162,7 @@ Next, let's create a User Profile service application.
 
 This step allows your users to immediately view files that are shared explicitly with them in their OneDrive Shared with Me View.
   
-The Shared with Me view in OneDrive lets users to see which documents and folders that users have shared directly with them. By default, the Shared with Me view is populated once a shared item is crawled and re-indexed through search. This means that your crawling/indexing schedule may cause some latency between the when the item was shared and when the it appears in the user's Shared with Me View.
+The Shared with Me view in OneDrive lets users to see which documents and folders that users have shared directly with them. By default, the Shared with Me view is populated once a shared item is crawled and re-indexed through search. This default behavior means that your crawling/indexing schedule may cause some latency between when the item was shared and when it appears in the user's Shared with Me View.
   
 Your users will still be able to open the shared items or folder if they are sent a link (for example, through an email notification), they just won't be able to see the items listed in the Shared with me View until the items have been crawled and indexed. For more information about how files are shared in OneDrive, see [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07).
   
@@ -193,7 +195,7 @@ Use the following procedure to check if OneDrive is available to your users.
   
 1. Have a user open a SharePoint Server site (for example, their own My Site: http://\<hostname\>/my).
     
-2. In the top left corner of the page, select the app launcher, which will display the OneDrive tile.
+2. In the top-left corner of the page, select the app launcher, which will display the OneDrive tile.
     
 3. Select the OneDrive tile, which shows your OneDrive documents page.
     

@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 6d980186-7f23-46e9-a2aa-750f1c24fc3d
 description: "Learn how to crawl content that you want users to be able to search for in SharePoint Server."
@@ -18,7 +18,7 @@ description: "Learn how to crawl content that you want users to be able to searc
 
 # Manage crawling in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 The following articles provide information about how to manage crawling in SharePoint Server and apply to both the classic and modern search experiences.
   
@@ -41,5 +41,4 @@ The following articles provide information about how to manage crawling in Share
    
 ## See also
 
-[Search in SharePoint Server](https://go.microsoft.com/fwlink/p/?LinkID=261554)
-
+[Search in SharePoint Server](../what-s-new/new-and-improved-features-in-sharepoint-server-2016.md)

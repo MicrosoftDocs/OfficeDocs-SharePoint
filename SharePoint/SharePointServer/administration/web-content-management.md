@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: a2db324b-bcbe-40b4-8fa1-66f16cc89890
 description: "To learn how to plan publishing sites by using SharePoint Server features, see these articles and related resources."
@@ -18,7 +18,7 @@ description: "To learn how to plan publishing sites by using SharePoint Server f
 
 # Web content management in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 |**Content**|**Description**|
 |:-----|:-----|

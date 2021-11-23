@@ -4,12 +4,13 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: conceptual
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 mscollection: 
 - SPMigration
 - M365-collaboration

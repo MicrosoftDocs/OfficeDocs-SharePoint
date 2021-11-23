@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4fbe0228-54c6-40ce-a9d3-3198423fe688
 description: "Use the Analysis Services EffectiveUserName feature to refresh data-connected workbooks in Excel Services in SharePoint Server 2013 using the workbook viewer's Windows identity."
 ---
 
 # Use EffectiveUserName with Excel Services (SharePoint Server 2013)
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 > [!IMPORTANT]
 > This scenario applies only to Excel Services with an Analysis Services data source on SharePoint Server 2013 Enterprise. 
@@ -35,7 +35,7 @@ Using the EffectiveUserName option allows passing the user's identity to SQL Ser
 
 Before starting, read the following information about permissions and software requirements.
   
-- This scenario assumes that you have Excel Services configured on your farm and an Excel Services trusted file location where you can save your report. For information about configuring Excel Services, see [Overview of Excel Services in SharePoint Server 2013](excel-services-overview.md) and [Configure Excel Services in SharePoint Server 2013 Preview](/SharePoint/administration/configure-excel-services). For information about configuring a trusted file location, see [Manage Excel Services trusted file locations (SharePoint Server 2013)](manage-excel-services-trusted-file-locations.md).
+- This scenario assumes that you have Excel Services configured on your farm and an Excel Services trusted file location where you can save your report. For information about configuring Excel Services, see [Overview of Excel Services in SharePoint Server 2013](excel-services-overview.md) and [Configure Excel Services in SharePoint Server 2013 Preview](./configure-excel-services.md). For information about configuring a trusted file location, see [Manage Excel Services trusted file locations (SharePoint Server 2013)](manage-excel-services-trusted-file-locations.md).
     
 - This scenario requires that you have Farm Administrator access to the SharePoint Server 2013 farm and administrator access to SQL Server Analysis Services.
     
@@ -169,5 +169,3 @@ When you have finished creating your report, the next step is to save it to a Sh
 4. Type a file name, and then click **Save**.
     
 Once the workbook has been saved to SharePoint Server 2013, you can render it using Excel Services and the data will refresh based on the refresh settings configured in the Excel Services trusted file location settings.
-  
-

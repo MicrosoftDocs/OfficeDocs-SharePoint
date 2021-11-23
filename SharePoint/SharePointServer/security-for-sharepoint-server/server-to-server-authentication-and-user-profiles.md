@@ -8,9 +8,9 @@ ms.date: 8/24/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to plan user profiles for server-to-server authenticatio
 
 # Server-to-server authentication and user profiles in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 Server-to-server authentication allows for servers that are capable of server-to-server authentication to access and request resources from one another on behalf of users. Therefore, the server that runs SharePoint Server and that services the incoming resource request must be able to complete two tasks: 
   

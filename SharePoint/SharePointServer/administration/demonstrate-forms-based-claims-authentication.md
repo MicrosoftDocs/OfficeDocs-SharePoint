@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 78df8a76-0dbc-403b-b54d-9572fc918531
 description: "Learn how to configure and demonstrate form-based authentication for SharePoint Server 2013 based on the Test Lab Guide: Configure SharePoint Server in a three-tier farm."
 ---
 
 # Test Lab Guide: Demonstrate forms-based claims authentication for SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 This document is the [Test Lab Guide](https://go.microsoft.com/fwlink/p/?LinkId=202817) version of the configuration described in [Configure forms-based authentication for a claims-based web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806890(v=office.14)). 
   

@@ -8,9 +8,9 @@ ms.date: 2/21/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -21,7 +21,7 @@ description: "This article describes how to perform a search-first migration fro
 
 # Search-first migration from FAST Search Server for SharePoint 2010 to SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
 
 This article describes how to perform a search-first migration from Microsoft FAST Search Server 2010 for SharePoint to SharePoint Server 2013.
   
@@ -59,7 +59,7 @@ To complete a search-first migration:
   
 1. Install SharePoint 2013 on a single server with an additional dedicated SQL Server.
     
-    See also: [Install SharePoint 2013 on a single server with SQL Server](/SharePoint/install/single-server-with-sql-server)
+    See also: [Install SharePoint 2013 on a single server with SQL Server](../install/single-server-with-sql-server.md)
     
 2. On the SharePoint 2013 SQL Server, install:
     
@@ -154,5 +154,3 @@ When you run SharePoint 2013 in mixed mode, certain features will function with 
 |:-----|:-----|
 |Best Bets  <br/> |SharePoint 2013 does not support Best Bets. The feature's been replaced by query rules. Best Bets are not automatically converted to query rules, so you have to create new query rules.  <br/> |
 |Front end  <br/> |It isn't possible to automatically upgrade the FAST Search Server 2010 for SharePoint front end.  <br/> |
-   
-

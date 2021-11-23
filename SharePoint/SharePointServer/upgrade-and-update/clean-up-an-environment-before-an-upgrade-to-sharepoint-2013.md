@@ -8,9 +8,9 @@ ms.date: 9/27/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Make sure that your environment is in a healthy state, and delete 
 
 # Clean up an environment before an upgrade to SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 Before you start to upgrade from SharePoint 2010 Products to SharePoint 2013, you should make sure that your environment is functioning in a healthy state and that you clean up any content that you do not have to upgrade. You can also take the time to remove or rearrange content so that you will have the structure that you want after you perform the upgrade.
   
@@ -38,9 +38,9 @@ You do not want to upgrade content that you do not have to keep. If it was unuse
   
 For more information about how to delete site collections and subwebs, see the following articles:
   
-- [Remove-SPSite](/powershell/module/sharepoint-server/Remove-SPSite?view=sharepoint-ps)
+- [Remove-SPSite](/powershell/module/sharepoint-server/Remove-SPSite)
     
-- [Remove-SPWeb](/powershell/module/sharepoint-server/Remove-SPWeb?view=sharepoint-ps)
+- [Remove-SPWeb](/powershell/module/sharepoint-server/Remove-SPWeb)
     
 ### Check large lists (lists with lots of data)
 
@@ -50,25 +50,25 @@ By default, large list query throttling is turned on in SharePoint 2010 Products
 
 Wide lists are lists with more columns than fit in a single rowspan in the content database. During upgrade, the underlying storage in the database is changed to a sparse table structure, and a very wide list can cause upgrade to fail. Use the **Test-SPContentDatabase** command in PowerShell to look for wide lists in the content databases and then remove excess columns, or remove the wide list before you upgrade. 
   
-For more information about maximum column sizes in a list, see [Column limits](../install/software-boundaries-and-limits-0.md#Column).
+For more information about maximum column sizes in a list, see [Column limits](../install/software-boundaries-limits-2019.md#Column).
   
 ### Consider moving site collections into separate databases
 
 If you have 5,000 or more site collections in a database, consider breaking them out into multiple databases. In SharePoint 2010 Products, there was a default warning at 9,000 site collections and a hard limit at 15,000 site collections. In SharePoint 2013, these values change to 2,000 site collections for the warning and 5,000 site collections for the limit. To avoid errors during upgrade or broken sites after upgrade, we recommend that you move some site collections into separate databases. If you have multiple content databases, you can also speed up an upgrade process by upgrading multiple databases in parallel. 
   
-For more information about site collection limits, see [Content database limits](../install/software-boundaries-and-limits-0.md#ContentDB). For more information about how to move site collections to a new database, see [Move site collections between databases in SharePoint Server](../administration/move-site-collections-between-databases.md).
+For more information about site collection limits, see [Content database limits](../install/software-boundaries-limits-2019.md#ContentDB). For more information about how to move site collections to a new database, see [Move site collections between databases in SharePoint Server](../administration/move-site-collections-between-databases.md).
   
 ### Remove extraneous document versions
 
-Large numbers of document versions can slow down an upgrade significantly. If you do not have to keep multiple versions, you can have users delete them manually or use the object model to find and remove them. For more information about how to programmatically remove extraneous versions, see [Versions Web Service](https://go.microsoft.com/fwlink/p/?LinkId=182330) on MSDN. 
+Large numbers of document versions can slow down an upgrade significantly. If you do not have to keep multiple versions, you can have users delete them manually or use the object model to find and remove them. For more information about how to programmatically remove extraneous versions, see [Versions Web Service](/previous-versions/office/developer/sharepoint-services/ms772545(v=office.12)) on MSDN. 
   
 ### Remove unused templates, features, and Web Parts
 
 First, verify that no sites are using the template, feature, or Web Part. You can use the **Stsadm -o EnumAllWebs** operation with the - **includefeatures** and - **includewebparts** parameters to identify these customizations in your environment. This operation identifies Web Parts, features, event handlers, and setup files that are being used in your environment. The **EnumAllWebs** command also specifies which files are used by which sites. Changes were made to the **EnumAllWebs** command in the February 2011 Cumulative update to make it return both site collection and web-level features. For more information, and to get the cumulative update, see [Description of the SharePoint Foundation 2010 cumulative update package (SharePoint Foundation server-package): March 3, 2011](https://go.microsoft.com/fwlink/p/?LinkId=254687).
   
-You can remove a feature during site collection upgrade. Simple features can also be removed by deprecating them in the template. You can use feature upgrade to remove more complex features. For more information, see [Upgrading Features](https://go.microsoft.com/fwlink/p/?LinkId=254688) and [Feature Upgrade Overview](https://go.microsoft.com/fwlink/p/?LinkId=254690) on MSDN. 
+You can remove a feature during site collection upgrade. Simple features can also be removed by deprecating them in the template. You can use feature upgrade to remove more complex features. For more information, see [Upgrading Features](/previous-versions/office/developer/sharepoint-2010/aa544511(v=office.14)) and [Feature Upgrade Overview](/previous-versions/office/developer/sharepoint-2010/ee535723(v=office.14)) on MSDN. 
   
-For more information about how to identify customizations in your environment, see [Use a trial upgrade to SharePoint 2013 to find potential issues](/previous-versions/office/sharepoint-server-2010/cc262155(v=office.14)). If customizations are not being used, delete them. For more information about how to manage these kinds of customizations, see [Features and Templates](https://go.microsoft.com/fwlink/p/?LinkId=182338) and [Solutions and Web Part Packages](https://go.microsoft.com/fwlink/p/?LinkId=182332) on MSDN. 
+For more information about how to identify customizations in your environment, see [Use a trial upgrade to SharePoint 2013 to find potential issues](/previous-versions/office/sharepoint-server-2010/cc262155(v=office.14)). If customizations are not being used, delete them. For more information about how to manage these kinds of customizations, see [Features and Templates](/previous-versions/office/developer/sharepoint-services/ms439657(v=office.12)) and [Solutions and Web Part Packages](/previous-versions/office/developer/sharepoint-services/ms413687(v=office.12)) on MSDN. 
   
 ### Remove PowerPoint Broadcast sites
 
@@ -88,7 +88,7 @@ You can also use the **Get-SPSite** and **Remove-SPSite** PowerShell commands to
 Get-SPSite | Where-Object{$_.RootWeb.Template -eq "PowerPointBroadcast#0"} | Remove-SPSite
 ```
 
-Be sure to back up these sites before you remove them. For more information, see [Get-SPSite](/powershell/module/sharepoint-server/Get-SPSite?view=sharepoint-ps) and [Remove-SPSite](/powershell/module/sharepoint-server/Remove-SPSite?view=sharepoint-ps).
+Be sure to back up these sites before you remove them. For more information, see [Get-SPSite](/powershell/module/sharepoint-server/Get-SPSite) and [Remove-SPSite](/powershell/module/sharepoint-server/Remove-SPSite).
   
 ### Remove FAST Search Center sites
 
@@ -121,7 +121,7 @@ To check for sites in the old experience, on the SharePoint 2010 Products enviro
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin). 
   
 2. On the **Start** menu, click **All Programs**.
     
@@ -141,7 +141,7 @@ To check for sites in the old experience, on the SharePoint 2010 Products enviro
   Get-SPSite | ForEach-Object{$_.VisualUpgradeWebs()}
   ```
 
-For more information, see [Get-SPSite](/powershell/module/sharepoint-server/Get-SPSite?view=sharepoint-ps) and [Manage visual upgrade (SharePoint Server 2010)](https://go.microsoft.com/fwlink/?LinkId=403882).
+For more information, see [Get-SPSite](/powershell/module/sharepoint-server/Get-SPSite) and [Manage visual upgrade (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/ff607998(v=office.14)).
   
 ### Repair data issues
 
@@ -159,9 +159,9 @@ Make sure that you repair all issues in your databases or site content before yo
     
     Make sure that site collections exist in only one content database. Occasionally, site collections can leave behind duplicate or orphaned references in old content databases if they are moved to new databases, or if a copy of a database was attached to the farm, or if there was an error when a site collection was provisioned. If a site collection is referenced in more than one content database or there is more than one instance of the site collection in a content database, it can cause issues when you upgrade by using the database attach upgrade method. If you upgrade a duplicate version of the site collection first, the site map in your configuration database might end up pointing to that version of the site instead of the current version. 
     
-    Before you upgrade, use the **Enumallwebs** operation in stsadm command-line tool to discover which sites are in which content databases and compare the results. Also, examine each site collection in the results and check whether it is listed as missing in the site map. Being listed as missing indicates that it is an orphaned site. For more information, see [Enumallwebs: Stsadm operation](https://go.microsoft.com/fwlink/?LinkId=403887). If you find duplicate or orphaned sites, you can use the **Remove-SPSite** cmdlet in PowerShell to remove the duplicate or orphaned sites from the database. 
+    Before you upgrade, use the **Enumallwebs** operation in stsadm command-line tool to discover which sites are in which content databases and compare the results. Also, examine each site collection in the results and check whether it is listed as missing in the site map. Being listed as missing indicates that it is an orphaned site. For more information, see [Enumallwebs: Stsadm operation](/previous-versions/office/sharepoint-2007-products-and-technologies/dd789634(v=office.12)). If you find duplicate or orphaned sites, you can use the **Remove-SPSite** cmdlet in PowerShell to remove the duplicate or orphaned sites from the database. 
     
-    For more information, see [Remove-SPSite](/powershell/module/sharepoint-server/Remove-SPSite?view=sharepoint-ps).
+    For more information, see [Remove-SPSite](/powershell/module/sharepoint-server/Remove-SPSite).
     
 - **Check variations**
     
@@ -174,9 +174,9 @@ To make structural changes to your environment, such as moving site collections 
   
 - **Move-SPSite** Use this to move site collections between databases. If a database is very large or contains lots of site collections, you can move sites to address this to make upgrade more efficient. Also, you can move all collaboration sites into one database and all My Sites into another to make the upgrade administration easier for those different sets of sites. You can also use this operation to divide large databases if they contain multiple site collections. This can also help increase upgrade efficiency. 
     
-    For more information, see [Move-SPSite](/powershell/module/sharepoint-server/Move-SPSite?view=sharepoint-ps).
+    For more information, see [Move-SPSite](/powershell/module/sharepoint-server/Move-SPSite).
     
-- **Export-SPWeb and Import-SPWeb** Use this method to move subwebs or site collections inside a farm or between farms. For more information, see [Export-SPWeb](/powershell/module/sharepoint-server/Export-SPWeb?view=sharepoint-ps) and [Import-SPWeb](/powershell/module/sharepoint-server/Import-SPWeb?view=sharepoint-ps).
+- **Export-SPWeb and Import-SPWeb** Use this method to move subwebs or site collections inside a farm or between farms. For more information, see [Export-SPWeb](/powershell/module/sharepoint-server/Export-SPWeb) and [Import-SPWeb](/powershell/module/sharepoint-server/Import-SPWeb).
     
 ## See also
 <a name="Structure"> </a>
@@ -186,4 +186,3 @@ To make structural changes to your environment, such as moving site collections 
 [Use a trial upgrade to SharePoint 2013 to find potential issues](/previous-versions/office/sharepoint-server-2010/cc262155(v=office.14))
   
 [Best practices for upgrading from SharePoint 2010 to SharePoint 2013](best-practices-for-upgrading-from-sharepoint-2010-to-sharepoint-2013.md)
-

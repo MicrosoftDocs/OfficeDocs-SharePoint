@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -12,7 +13,7 @@ ms.service: sharepoint-online
 mscollection: 
 - SPMigration
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: "Learn about the new features and updates to existing features in SharePoint Migration Tool in these release notes."
 ---
@@ -26,18 +27,251 @@ Learn about the new features and updates to existing features in SharePoint Migr
 
 Download and install SPMT using one of the links listed below.  
 
-||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
+| Release |**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.119.7](https://aka.ms/spmt-beta-page)|[3.4.119.7](https://aka.ms/spmt-ga-page)|[3.4.119.6](https://aka.ms/spmt-ga-page)|[3.4.119.6](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.122.3](https://aka.ms/spmt-beta-page)|[3.4.122.3](https://aka.ms/spmt-ga-page)|[3.4.121.7](https://aka.ms/spmt-ga-page)|[3.4.121.7](https://aka.ms/spmt-ga-page)|
 
-</br>
+
+## SPMT 3.4.122.3
+
+**New features and important changes**
+
+|Feature|Description|
+|:-----|:-----|
+|Modernize site structure during migration|This feature lets users choose the migrated site structure when opting to "include all subsites."  Choose to keep the classic source site structure or promote all level-one subsites to site collections and associate them to a hub site during migration.|
+
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+## SPMT 3.4.122.1
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+## SPMT 3.4.122.0
+
+**New features and important changes**
+
+|Feature|Description|
+|:-----|:-----|
+|File size|File size up to 250GB is now supported.|
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+## SPMT 3.4.121.7
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+## SPMT 3.4.121.6
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+## SPMT 3.4.121.5
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+
+
+## SPMT 3.4.121.4
+
+**New features and important changes**
+
+|Feature|Description|
+|:-----|:-----|
+|Support migration of files with size up to 100GB|We now support the migration of individual files up to 100GB, which is file size limit for SharePoint online.|
+|Display time elapsed and time remaining for each migration|On the migration progress page, the *time elapsed* and  *time remaining* values are displayed for each migration task. *Time remaining* is estimated based on the migration history and displays when there is enough historical data available to run the estimation. The *time remaining" value adjusts according to the history data. After the migration completes, a performance recommendation based on the analysis of the data displays below the top progress bar. </br>Learn more:  [How to improve migration performance](./spmt-performance-guidance.md) |
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+## SPMT 3.4.121.2
+
+**New features and important changes**
+
+|Feature|Description|
+|:-----|:-----|
+|Government Cloud configuration|The configuration value of DoD has been changed from 2 to 3.  DoD customers must change the value of *SPOEnvironmentType* to 3. The value for GCC high is still 2.|
+|OneNote setting deprecated|The setting *Migrate OneNote folder as OneNote notebook* has been deprecated. SPMT will now always migrate OneNote folders to the destination as OneNote Notebooks. Discontinue the use of *MigrateOneNoteFolderAsOneNoteNoteBook* in PowerShell.
+
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+
+## SPMT 3.4.121.1
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+## SPMT 3.4.121.0
+
+The following improvements were added to this release:
+
+**New Features**
+
+|Feature| Description|
+|:-----|:-----|
+|New setting|A  new setting for SharePoint migration, **Migrate lists with lookup columns**, will control the behavior of migrating all lists referenced in lookup columns.|
+|New PowerShell parameter|A new parameter for SharePoint migration, -LookupReferencePolicy, has been added to the cmdlet Register-SPMTMigration. This parameter will control the behavior of migrating all lists referenced in lookup columns. Setting options include: *FIND_ALL_REFERENCE*, *SKIP_AND_CONTINUE* and *DO_NOT_MIGRATE*. The default setting is *FIND_ALL_REFERENCE*. |
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+|User interface|Warning messages will display in the tool when migration is throttled by SharePoint.|
+
+
+## SPMT 3.4.120.7
+
+The following improvements were added to this release:
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+## SPMT 3.4.120.6
+
+The following improvements were added to this release:
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+## SPMT 3.4.120.5
+
+The following improvements were added to this release:
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+## SPMT 3.4.120.4
+
+The following improvements were added to this release:
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+
+## SPMT 3.4.120.3
+
+The following improvements were added to this release:
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+
+## SPMT 3.4.120.2
+
+The following improvements were added to this release:
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|Performance|New checks have been added when a customer uses the bulk upload feature.|
+|User experience|Enhancements have been made to the user interface.|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+## SPMT 3.4.120.1
+
+The following improvements were added to this release:
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+
+## SPMT 3.4.120.0
+
+The following features are now available in SPMT:
+
+**New Features**
+
+|Feature| Description|
+|:-----|:-----|
+|Setting deprecated|The setting, **Migrate files and folders with invalid characters** has been deprecated.|
+|New setting|A new setting for file share migration, **Replace invalid filename characters**, will auto-replace invalid characters in a filename with a character chosen by the user.
+|New PowerShell parameter|A new parameter for file share migration, **-ReplacementOfInvalidChar**, has been added to the cmdlet **Start-SPMTMigration**. This parameter will auto-replace invalid characters in a filename with a character chosen by the user.|
+|UI|Tenant admin users can select the promotional link, "Go to Migration Manager" on the SPMT Welcome page.|
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+|Performance|Improvements have been made to optimize migration performance.|
+|UI|Warning messages will display in the tool when network issues occur during uploading.|
+
+
 
 ## SPMT 3.4.119.7
 
-The following features are now available in the public preview version of the SharePoint Migration Tool.
+The following features were added in this release:
 
+**New features**
 
-|**Feature**|**Description**|
+|Feature|Description|
 |:----|:-----|
 |New/updated setting|The setting, **Migrate site settings**, is now an options setting, giving the user more control over what is migrated.  The user can select one of the following: *Preserve all settings*, *Skip title and logo*, *Only title and logo*, or *Skip all settings*.|
 |New parameter|A new parameter, **-MigrateWithoutRootFolder**, has been added to the cmdlet, Register-SPMTMigration. In file share migrations, use this parameter to migrate only the root folder's contents to the target. |
@@ -51,7 +285,8 @@ The following features are now available in the public preview version of the Sh
 
 ## SPMT 3.4.119.6
 
-The following features are now available in the public preview version of the SharePoint Migration Tool.
+The following features were added in this release:
+
 
 **Improvements**
 
@@ -62,7 +297,8 @@ The following features are now available in the public preview version of the Sh
 
 ## SPMT 3.4.119.5
 
-The following features are now available in the SharePoint Migration Tool.
+The following features were added in this release:
+
 
 **Improvements**
 
@@ -73,7 +309,8 @@ The following features are now available in the SharePoint Migration Tool.
 
 ## SPMT 3.4.119.4
 
-The following features were added to the SharePoint Migration Tool in this release:
+The following features were added in this release:
+
 
 **Improvements**
 
@@ -85,7 +322,9 @@ The following features were added to the SharePoint Migration Tool in this relea
 
 ## SPMT 3.4.119.3
 
-The following features were added to the SharePoint Migration Tool in this release:
+The following features were added in this release:
+
+**New features**
 
 |**Feature**|**Description**|
 |:-----|:-----|
@@ -100,7 +339,9 @@ The following features were added to the SharePoint Migration Tool in this relea
 
 ## SPMT 3.4.119.2
 
-The following features were added to the SharePoint Migration Tool in this release:
+The following features were added in this release:
+
+**New features**
 
 |**Feature**|**Description**|
 |:-----|:-----|
@@ -110,13 +351,13 @@ The following features were added to the SharePoint Migration Tool in this relea
 
 |**Issue**|**Fix**|
 |:----|:-----|
-|Group mapping|Improvements have been made to the support of SharePoint group mapping.|
+|Group mapping|SPMT now migrates default SharePoint groups. Note: You cannot map to other groups.|
 
 
 
 ## SPMT 3.2.119.2
 
-The following features were added to the SharePoint Migration Tool in this release:
+The following features were added in this release:
 
 **New features**
 
@@ -146,7 +387,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 |:-----|:-----|
 |User feedback|Users can now provide feedback directly from the tool.|
 |Site creation for file shares|Site structure creation is now supported for file share migration.|
-|Records management|Support for SharePoint Server migration of Record libraries.|
+|Records management|Support for SharePoint Server migration of Record libraries with limitations. Library record declaration settings are supported for SharePoint Server 2013 and 2016 only. Files declared as records can be migrated directly. Site collection record declarations settings are not supported for SharePoint Online group sites and communication sites.|
 |Enable publishing|Users can now choose to skip enabling publishing feature on SharePoint communication site| 
 |Setting|New setting allows you to not migrate the site and list general settings in a single list migration.| 
 |Setting|New SharePoint setting, "Migrate site settings". Choose if you want to migrate site logo, title, description and other general settings). Default value is on. If it's turned off, the setting will be skipped when migrating to existing destination site in site migration.| 
@@ -325,7 +566,7 @@ To use the SPMT 2.1 PowerShell feature (currently in open beta): <br>
     Import-Module Microsoft.SharePoint.MigrationTool.PowerShell
     ```
     <br>To learn more, see:<br> 
-[Migrate to SharePoint using PowerShell](/sharepointmigration/overview-spmt-ps-cmdlets)<br>
+[Migrate to SharePoint using PowerShell](./overview-spmt-ps-cmdlets.md)<br>
 [SharePoint Migration Tool PowerShell Reference](/powershell/module/spmt)
 
    
@@ -364,7 +605,6 @@ In addition to a number of minor fixes, here are the primary improvements made i
    
 
 
-[Download SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
+[Download SharePoint Migration Tool](https://spmt.sharepointonline.com/install/default.htm)
   
 [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
-

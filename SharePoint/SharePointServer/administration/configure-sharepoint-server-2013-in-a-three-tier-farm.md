@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c23f9ea-d019-4750-abdf-0633bffa84f4
 description: "Learn how to install and configure SharePoint Server 2013 on multiple servers with Microsoft SQL Server 2012 by using the computers in the Base Configuration test lab."
 ---
 
 # Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 This document is the [Test Lab Guide](https://go.microsoft.com/fwlink/p/?LinkId=202817) version of the procedures that are described in [Install SharePoint Server 2016 across multiple servers](../install/install-sharepoint-server-2016-across-multiple-servers.md).
   

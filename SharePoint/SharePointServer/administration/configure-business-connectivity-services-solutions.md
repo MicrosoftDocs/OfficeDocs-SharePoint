@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f255d39a-8231-42e7-957d-c4855b9ab529
 description: "Find links to steps that will help you install and configure SharePoint Server Business Connectivity Services (BCS). Choose from on-premises, cloud-only, and hybrid BCS solutions."
 ---
 
 # Configure Business Connectivity Services solutions for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article is your starting place for the procedures to install common Microsoft Business Connectivity Services scenarios for SharePoint Server 2016. The Business Connectivity Services solution that you deploy will most likely look different from the solutions presented here, but you can model your installation on these examples. Also, you can select the individual procedures from here to build your own procedural documents for your Business Connectivity Services solution scenario.
   
@@ -60,7 +60,7 @@ The procedures in [Deploy a Business Connectivity Services on-premises solution 
 ## Cloud-only deployment
 <a name="sectioncloud"> </a>
 
-The procedures in [Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store](/sharepoint/make-external-list)[Deploy a Business Connectivity Services cloud-only solution in SharePoint 2013](/SharePoint/administration/deploy-an-on-premises-solution) show you how to deploy a solution that involves a Business Connectivity Services infrastructure that is in SharePoint in Microsoft 365. 
+The procedures in [Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store](../../SharePointOnline/make-external-list.md)[Deploy a Business Connectivity Services cloud-only solution in SharePoint 2013](./deploy-an-on-premises-solution.md) show you how to deploy a solution that involves a Business Connectivity Services infrastructure that is in SharePoint in Microsoft 365. 
   
 ## Hybrid deployment
 <a name="sectionhybrid"> </a>
@@ -68,4 +68,3 @@ The procedures in [Make an External List from a SQL Azure table with Business Co
 The procedures in [Deploy a Business Connectivity Services hybrid solution in SharePoint](../hybrid/deploy-a-business-connectivity-services-hybrid-solution.md) shows you how to publish on-premises data to an external list or app for SharePoint in Microsoft 365. 
   
 ## See also
-

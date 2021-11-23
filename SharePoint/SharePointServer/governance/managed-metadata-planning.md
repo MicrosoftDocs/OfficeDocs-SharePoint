@@ -8,9 +8,9 @@ ms.date: 7/6/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,11 +20,11 @@ description: "Learn about the decisions you need to make when planning for the m
 
 # Plan for managed metadata in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 With managed metadata in SharePoint Server, you can create a unified taxonomy of terms that you can use throughout your SharePoint farm. In this article, we walk through the configuration decisions that you need to make before you configure the managed metadata service application in SharePoint Server.
   
-Before you configure managed metadata, it's important to understand what managed metadata is and how it works in SharePoint. Before you read this article, be sure to read [Introduction to managed metadata](https://go.microsoft.com/fwlink/p/?LinkId=626754).
+Before you configure managed metadata, it's important to understand what managed metadata is and how it works in SharePoint. Before you read this article, be sure to read [Introduction to managed metadata](../../SharePointOnline/managed-metadata.md).
   
 ## Overview of the managed metadata service in SharePoint Server
 
@@ -92,5 +92,4 @@ Before you configure managed metadata in SharePoint, decide if you want to creat
   
 ## See also
 <a name="SeeAlso"> </a>
-For the SharePoint in Microsoft 365 version of this article, see [Introduction to managed metadata](https://docs.microsoft.com/sharepoint/managed-metadata).
-
+For the SharePoint in Microsoft 365 version of this article, see [Introduction to managed metadata](../../SharePointOnline/managed-metadata.md).

@@ -4,13 +4,14 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 ms.date: 7/5/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
@@ -34,7 +35,7 @@ The target environment leverages Azure Active Directory (Azure AD) to populate t
   
 For guidance on updating profile property values leveraging the Client Side Object Model (CSOM), see:
   
-- [SharePoint user profile properties now writable with CSOM](https://blogs.msdn.microsoft.com/vesku/2014/11/07/sharepoint-user-profile-properties-now-writable-with-csom/)
+- [SharePoint user profile properties now writable with CSOM](/archive/blogs/vesku/sharepoint-user-profile-properties-now-writable-with-csom)
     
 This scan output will provide you with a list of profile property mappings that will not be included in the target environment. This will enable you to make a decision on the direction moving forward.
   
@@ -78,5 +79,3 @@ This scan report contains a list of all the profile property mappings that will 
 |:-----|:-----|:-----|
 |Phonetic First Name  <br/> |SPS-PhoneticFirstName  <br/> |MsDS-PhoneticFirstName  <br/> |
 |Phonetic Display Name  <br/> |SPS-PhoneticDisplayName  <br/> |MsDS-PhoneticDisplayName  <br/> |
-   
-

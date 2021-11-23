@@ -1,15 +1,17 @@
 ---
 title: "SPMT Supported SharePoint Server site features"
+audience: ITPro
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 ms.audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration

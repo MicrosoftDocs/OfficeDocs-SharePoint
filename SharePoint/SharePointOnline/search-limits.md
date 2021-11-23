@@ -1,14 +1,15 @@
 ---
 title: "Search limits for SharePoint"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
+recommendations: true
 audience: End User
 f1.keywords: NOCSH
 ms.topic: reference
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - MET150
@@ -36,7 +37,7 @@ The following table lists the limits for SharePoint search.
 |Parsed content size  <br/> |2 million characters  <br/> |Boundary  <br/> |Search stops parsing an item after it has parsed up to 2 million characters of content from it, including the item's attachments. The actual amount of parsed characters can be lower than this limit because search uses a maximum of 30 seconds on parsing a single item and its attachments. When search stops parsing an item, the item is marked as partially processed. Any unparsed content isn't processed and therefore isn't indexed.  <br/> |
 |Characters processed by the word breaker  <br/> |1,000,000  <br/> |Boundary  <br/> |Search breaks content into individual words (tokens). The word breaker produces tokens from the first 1,000,000 characters of a single item, including the item's attachments.  <br/> The actual amount of tokens can be lower than this limit because search uses a maximum of 30 seconds on word breaking. Any remaining content isn't processed.  <br/> |
 |Indexed managed property size  <br/> |512 KB per managed property that is set to either "searchable" or "queryable"  <br/> |Boundary  <br/> ||
-|Retrievable managed property size  <br/> |16 KB per managed property  <br/> |Boundary  <br/> ||
+|Retrievable managed property size  <br/> |64 KB per managed property  <br/> |Boundary  <br/> ||
 |Sortable and refinable managed property size  <br/> |16 KB per managed property  <br/> |Boundary  <br/> ||
 |Token size  <br/> |Variable - the size depends on the word breaker, and the word-breaker is language-dependent.  <br/> |Boundary  <br/> |Search can index tokens of any length but the word breaker that is used to produce tokens can limit the token length. Word breakers are language-aware components that break content into single words (tokens).  <br/> ||
 |Unique indexed tokens per managed property <br/> |10,000 <br/> |Boundary <br/> |This is the maximum number of unique tokens that can be added to the search index per managed property. If the limit is exceeded, the index will contain the first 10,000 tokens from the managed property and the file will be marked as partially processed by setting the IsPartiallyProcessed property to true. <br/> ||
@@ -44,6 +45,7 @@ The following table lists the limits for SharePoint search.
 |Number of entries in a custom search dictionary  <br/> |5,000 terms per tenant  <br/> |Boundary  <br/> |This limits the number of terms allowed for inclusions and exclusions dictionaries for query spelling correction and company extraction. You can store more terms than this limit in the term store, but search only uses 5,000 terms per tenant.  <br/> |
 |Managed property mappings  <br/> |100 per managed property  <br/> |Supported  <br/> |Crawled properties can be mapped to managed properties. Exceeding this limit may decrease crawl speed and query performance.  <br/> |
 |Values per managed property  <br/> |1,000  <br/> |Boundary  <br/> |A managed property can have multiple values of the same type. This is the maximum number of values per managed multi-valued managed property per document. If this number is exceeded, the remaining values are discarded.  <br/> |
+|Number of bytes in a multi-valued string property  <br/> |32 KB  <br/> |Boundary  <br/> |If you reach this limit, the multi-valued property will be truncated.  <br/> |
 |Unique contexts used for ranking  <br/> |15 unique contexts per rank model  <br/> |Boundary  <br/> ||
 |Authoritative pages  <br/> |1 top level and minimal second- and third-level pages per tenant  <br/> |Supported  <br/> |Use as few second- and third-level pages as possible while still achieving the desired relevance.  <br/> If you add additional pages you may not achieve the desired relevance. Add the key site to the first relevance level. Add more key sites at either second or third relevance levels, one at a time. Evaluate relevance after each addition to ensure that you have achieved the desired relevance effect.  <br/> |
 |Text length for queries using Keyword Query Language  <br/> |4 KB (4,096 characters)  <br/> |Boundary  <br/> ||
@@ -53,7 +55,7 @@ The following table lists the limits for SharePoint search.
 
 ## See also
   
-- [SharePoint Limit](https://go.microsoft.com/fwlink/p/?LinkID=856113)
+- [SharePoint Limit](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
 - [SharePoint Service Description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description)
-- [Overview of the search schema in SharePoint Server 2013](/SharePoint/search/search-schema-overview)
+- [Overview of the search schema in SharePoint Server 2013](../SharePointServer/search/search-schema-overview.md)
 - [SharePoint feature availability across Office 365 plans](/office365/servicedescriptions/sharepoint-online-service-description/search#bkmk_searchfeaturessp)

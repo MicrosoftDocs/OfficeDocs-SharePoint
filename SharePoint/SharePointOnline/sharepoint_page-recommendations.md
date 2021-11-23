@@ -4,12 +4,13 @@ ms.reviewer: patkel
 ms.author: loreenl
 author: LoreenLa
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: Adm_O365
 ms.collection:  
 - Strat_SP_admin
@@ -24,6 +25,9 @@ description: "Learn how page recommendations are determined"
 SharePoint recommendations on modern pages help you and your users discover pages and news in your organization. At the bottom of news posts and pages, you'll see recommendations especially for you or your users. Recommendations show below the heading **You may also be interested in**.
 
 ![Recommendations](media/PageRecommendationsDocs.png)
+
+> [!NOTE]
+> This feature is in an early release phase, and is not yet available to all users.
 
 Recommendations are shown on all newly-created pages and news posts by default.
 
@@ -48,7 +52,7 @@ In the article linked above, you'll learn the three different ways to hide or di
 
 Recommendations can't be disabled for an entire tenant.
 
-## How are recommendations determined for each user?
+## How are recommendations determined for each user? (text version)
 
 This is a text version of the diagram above.
 

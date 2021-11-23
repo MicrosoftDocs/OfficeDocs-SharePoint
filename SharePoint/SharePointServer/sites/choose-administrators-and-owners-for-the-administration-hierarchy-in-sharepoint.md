@@ -8,9 +8,9 @@ ms.date: 8/17/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn about the levels at which you can delegate administration of
 
 # Choose administrators and owners for the administration hierarchy in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article describes the administrator roles that correspond to the SharePoint Server server and site hierarchy. Many people can be involved in managing SharePoint Server. Administration of SharePoint Server occurs at the following levels: 
   

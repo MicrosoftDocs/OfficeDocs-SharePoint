@@ -3,13 +3,14 @@ title: "Manage site redirects"
 ms.reviewer: adwood
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:  
@@ -36,15 +37,18 @@ In some cases, you might want to free up the old URL to use it for a new site. T
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following command:
 
     ```PowerShell
     Remove-SPOSite -Identity https://contoso.sharepoint.com/sites/OldSiteName
     ```
+
+    > [!NOTE]
+    > If you get an error message "The operation is not supported for the site," make sure a retention policy isn't applied to the old or new URL for the site. You might need to remove the retention policy to delete the redirect.
 
 4. When prompted, confirm that you want to delete the redirect. 
 
@@ -60,5 +64,3 @@ Run the following command.
  ```PowerShell
  Get-SPOSite -Template REDIRECTSITE#0
  ```
-
-

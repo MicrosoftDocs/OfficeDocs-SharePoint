@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 067783ba-e22f-41a8-9a1b-38a89c3a30c2
 description: "Configure Visio Services to refresh data using an external Office Data Connection (ODC) file and a Secure Store Service target application."
 ---
 
 # Configure Visio Services data refresh in SharePoint Server by using external data connections
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 You can map a specific group of users to a specific data source by using group mappings and an external data connection file in Secure Store. This provides more fine-grained security than using the unattended service account. Creating a group mapping with an external data connection file consists of the following steps:
   

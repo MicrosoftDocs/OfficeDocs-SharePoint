@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -21,8 +21,8 @@ description: "Learn how to upgrade a site collection to SharePoint Server 2016, 
 
 # Upgrade site collections to SharePoint Server 2016
 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
-  
 ## Articles about how to upgrade site collections
 
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|**Description**|

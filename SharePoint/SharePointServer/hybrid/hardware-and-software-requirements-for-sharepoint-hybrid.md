@@ -8,9 +8,9 @@ ms.date: 2/5/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
@@ -24,7 +24,7 @@ description: "Learn what prerequisites you'll need to configure hybrid for Share
 
 # Hardware and software requirements for SharePoint hybrid
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 This article describes the prerequisites that are required to deploy a SharePoint hybrid solution between SharePoint Server and SharePoint in Microsoft 365 for enterprises.
   
@@ -41,7 +41,7 @@ This article describes the prerequisites that are required to deploy a SharePoin
 
 The default STS certificate in the SharePoint farm is used by the hybrid picker to establish the token signing trust when configuring hybrid workloads. Using the inbuilt STS certificate is the recommended approach when configuring hybrid workloads. If however, you intend to use a publicly signed certificate instead of the inbuilt STS one then you must replace the inbuilt certificate with your own following the provided guidance.
   
-For more information, see [Replace the STS certificate](plan-server-to-server-authentication-0.md).
+For more information, see [Replace the STS certificate](plan-server-to-server-authentication-m365.md).
   
 ## Inbound connectivity requirements
 <a name="CertReq"> </a>
@@ -90,7 +90,7 @@ The following table lists the currently supported reverse proxy devices for Shar
 |**Supported reverse proxy devices**|**Configuration article**|**More information**|
 |:-----|:-----|:-----|
 |Windows Server 2012 R2 with Web Application Proxy (WA-P)  <br/> |[Configure Web Application Proxy for a hybrid environment](configure-web-application-proxy-for-a-hybrid-environment.md) <br/> |Web Application Proxy (WA-P) is a Remote Access service in Windows Server 2012 R2 that publishes web applications that users can interact with from many devices.  <br/> > [!IMPORTANT]> To use Web Application Proxy as a reverse proxy device in a hybrid SharePoint Server environment, you must also deploy AD FS in Windows Server 2012 R2. Earlier versions of Windows don't support Web Application Proxy           |
-|Forefront Threat Management Gateway (TMG) 2010  <br/> |[Configure Forefront TMG for a hybrid environment](configure-forefront-tmg-for-a-hybrid-environment.md) <br/> |Forefront TMG 2010 is a comprehensive, secure, web gateway solution that provides secure reverse proxy functionality.  <br/> Note that Forefront TMG 2010 is no longer sold by Microsoft but will be supported through 4/14/2020. For more information, see [Microsoft Support Lifecycle information for Forefront TMG 2010](https://go.microsoft.com/fwlink/p/?LinkID=784960&amp;clcid=0x409).           |
+|Forefront Threat Management Gateway (TMG) 2010  <br/> |[Configure Forefront TMG for a hybrid environment](configure-forefront-tmg-for-a-hybrid-environment.md) <br/> |Forefront TMG 2010 is a comprehensive, secure, web gateway solution that provides secure reverse proxy functionality.  <br/> Note that Forefront TMG 2010 is no longer sold by Microsoft but will be supported through 4/14/2020. For more information, see [Microsoft Support Lifecycle information for Forefront TMG 2010](/lifecycle/products/?alpha=Forefront+Threat+Management+Gateway+2010&Filter=FilterNO).           |
 |F5 BIG-IP  <br/> |[Enabling SharePoint 2013 Hybrid Search with the BIG-IP](https://devcentral.f5.com/articles/enabling-sharepoint-2013-hybrid-search-with-the-big-ip) <br/> |This is external content that's managed by F5 Networks.  <br/> |
    
 #### General reverse proxy requirements
@@ -111,5 +111,3 @@ In a hybrid SharePoint Server scenario, the reverse proxy must be able to:
 - Relay traffic to an on-premises SharePoint Server farm or load balancer without rewriting any packet headers.
     
 For an overview of reverse proxy devices in a SharePoint hybrid topology, see [Configure a reverse proxy device for SharePoint Server hybrid](configure-a-reverse-proxy-device-for-sharepoint-server-hybrid.md).
-  
-

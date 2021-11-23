@@ -3,7 +3,8 @@ title: "External sharing overview"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
+recommendations: true
 audience: Admin
 f1.keywords:
 - CSH
@@ -17,7 +18,7 @@ ms.custom:
 -  seo-marvel-apr2020
 -  Adm_O365
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
@@ -36,13 +37,15 @@ description: "Learn about the external sharing options in SharePoint in Microsof
 
 # External sharing overview
 
-The external sharing features of Microsoft SharePoint let users in your organization share content with people outside the organization (such as partners, vendors, clients, or customers). You can also use external sharing to share between licensed users on multiple Microsoft 365 subscriptions if your organization has more than one subscription. Planning for external sharing should be included as part of your overall permissions planning for SharePoint in Microsoft 365. This article describes what happens when users share, depending on what they're sharing and with whom. 
+The external sharing features of Microsoft SharePoint let users in your organization share content with people outside the organization (such as partners, vendors, clients, or customers). You can also use external sharing to share between licensed users on multiple Microsoft 365 subscriptions if your organization has more than one subscription. External sharing in SharePoint is part of [secure collaboration with Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
+
+Planning for external sharing should be included as part of your overall permissions planning for SharePoint in Microsoft 365. This article describes what happens when users share, depending on what they're sharing and with whom. 
 
 If you want to get straight to setting up sharing, choose the scenario you want to enable:
 
-- [Collaborate with guests on a document](https://docs.microsoft.com/Office365/Enterprise/collaborate-on-documents)
-- [Collaborate with guests in a site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site)
-- [Collaborate with guests in a team](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team)
+- [Collaborate with guests on a document](/Office365/Enterprise/collaborate-on-documents)
+- [Collaborate with guests in a site](/Office365/Enterprise/collaborate-in-a-site)
+- [Collaborate with guests in a team](/Office365/Enterprise/collaborate-as-a-team)
 
 (If you're trying to share a file or folder, see [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) or [Share SharePoint files or folders in Microsoft 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c).)
   
@@ -91,7 +94,7 @@ When users share *sites*, recipients will be prompted to sign in with:
 When users share *files and folders*, recipients will also be prompted to sign in if they have:
 - A Microsoft account
 
-These recipients will typically be added to your directory as guests, and then permissions and groups work the same for these guests as they do for internal users. (To ensure that all guests are added to your directory, use the [SharePoint and OneDrive integration with Azure AD B2B preview](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview).)
+These recipients will typically be added to your directory as guests, and then permissions and groups work the same for these guests as they do for internal users. (To ensure that all guests are added to your directory, use the [SharePoint and OneDrive integration with Azure AD B2B](./sharepoint-azureb2b-integration.md).)
   
 Because these guests do not have a license in your organization, they are limited to basic collaboration tasks:
   
@@ -139,8 +142,6 @@ You can stop sharing with people who have an "Anyone" link by going to the file 
 
 [!INCLUDE[discussionforums.md](includes/discussionforums.md)]
 
-You can also find help on security and permissions in these [YouTube videos from SharePoint community experts](https://www.youtube.com/playlist?list=PLXPr7gfUMmKxzj4SEwD8v7n13X_OkSOgY).
-  
 ## See also
 
 [How Microsoft manages and enables external sharing and collaboration with SharePoint (Microsoft Ignite)](https://www.youtube.com/watch?v=dK5uky1bJ1Y)
@@ -151,4 +152,10 @@ You can also find help on security and permissions in these [YouTube videos from
   
 [Searching for site content shared externally](/office365/securitycompliance/keyword-queries-and-search-conditions)
 
-[Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment)
+[Configure Teams with three tiers of protection](/microsoft-365/solutions/configure-teams-three-tiers-protection)
+
+[Create a secure guest sharing environment](/Office365/Enterprise/create-a-secure-guest-sharing-environment)
+
+[Settings interactions between Microsoft 365 Groups, Teams and SharePoint](/microsoft-365/solutions/groups-sharepoint-teams-governance)
+
+[Pricing - Active Directory External Identities](https://azure.microsoft.com/pricing/details/active-directory/external-identities/)

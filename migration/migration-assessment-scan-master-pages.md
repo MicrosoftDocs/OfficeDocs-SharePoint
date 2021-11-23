@@ -4,13 +4,14 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 ms.date: 9/13/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
@@ -28,7 +29,7 @@ Learn how to mitigate issues with Master pages during migration.
   
 ## Overview
 
-During migration, the default master page shouldbe set on all sites that are migrated. This ensures that the site will render once the migration is complete as the content migration will not have a dependency on any custom master pages. If you have custom master pages assigned to sites, you will need to set the Master Page property on the new site after the migration has completed.
+During migration, the default master page should be set on all sites that are migrated. Doing this ensures that the site will render once the migration is complete as the content migration will not have a dependency on any custom master pages. If you have custom master pages assigned to sites, you will need to set the Master Page property on the new site after the migration has completed.
   
 ## Data Migration
 

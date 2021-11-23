@@ -8,9 +8,9 @@ ms.date: 9/27/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to install SharePoint with a built-in database on a sing
 
 # Install SharePoint 2013 on a single server with a built-in database
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 You can quickly publish a SharePoint site by deploying SharePoint 2013 on a single server that has a built-in database. This configuration is useful if you want to evaluate SharePoint 2013 features and capabilities, such as collaboration, document management, and search. This configuration is also useful if you are deploying only a few websites and you want to minimize administrative overhead.
   
@@ -39,7 +39,7 @@ When you deploy SharePoint 2013 on a single server that has a built-in database 
 > This article does not describe how to install SharePoint 2013 in a farm environment, or how to upgrade from previous releases of SharePoint 2013. For more information about how to install SharePoint 2013 on a single-server farm, see [Install SharePoint 2013 on a single server with SQL Server](single-server-with-sql-server.md). For more information about how to install SharePoint 2013 on a multiple server farm, see [Install SharePoint 2013 across multiple servers for a three-tier farm](multiple-servers-for-a-three-tier-farm.md). For more information about upgrade, see [Upgrade from SharePoint 2010 to SharePoint 2013](../upgrade-and-update/upgrade-from-sharepoint-2010-to-sharepoint-2013.md). 
   
 > [!NOTE]
-> The Distributed Cache service gives you a complete social computing experience. For more information about the Distributed Cache service, see [Overview of microblog features, feeds, and the Distributed Cache service in SharePoint Server](/sharepoint/administration/administration), [Manage the Distributed Cache service in SharePoint Server](../administration/manage-the-distributed-cache-service.md), [Plan for feeds and the Distributed Cache service in SharePoint Server](../administration/plan-for-feeds-and-the-distributed-cache-service.md), and [What's new in authentication for SharePoint Server 2013](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016)
+> The Distributed Cache service gives you a complete social computing experience. For more information about the Distributed Cache service, see [Overview of microblog features, feeds, and the Distributed Cache service in SharePoint Server](../administration/administration.md), [Manage the Distributed Cache service in SharePoint Server](../administration/manage-the-distributed-cache-service.md), [Plan for feeds and the Distributed Cache service in SharePoint Server](../administration/plan-for-feeds-and-the-distributed-cache-service.md), and [What's new in authentication for SharePoint Server 2013](../what-s-new/new-and-improved-features-in-sharepoint-server-2016.md)
   
 Consider the following restrictions of this method of installation:
   
@@ -56,7 +56,7 @@ Consider the following restrictions of this method of installation:
 ## Before you begin
 <a name="section2"> </a>
 
-Before you begin installation, make sure that you have met all hardware and software requirements. For more information, see [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md). To make sure that you perform a clean installation of SharePoint 2013, you must first remove any earlier version of SharePoint 2013 and any pre-release prerequisites if installed.
+Before you begin installation, make sure that you have met all hardware and software requirements. For more information, see [Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md). To make sure that you perform a clean installation of SharePoint 2013, you must first remove any earlier version of SharePoint 2013 and any pre-release prerequisites if installed.
   
 ## Install SharePoint 2013
 <a name="section3"> </a>
@@ -250,5 +250,3 @@ After you install SharePoint 2013, your browser window opens to the SharePoint C
 - **Configure outgoing e-mail** You can configure outgoing e-mail so that your Simple Mail Transfer Protocol (SMTP) server sends e-mail alerts to site users and notifications to site administrators. You can configure both the "From" e-mail address and the "Reply" e-mail address that appear in outgoing alerts. For more information, see [Configure outgoing email for a SharePoint Server farm](../administration/outgoing-email-configuration.md).
     
 - **Configure search settings** You can configure search settings to crawl the content in SharePoint 2013. 
-    
-

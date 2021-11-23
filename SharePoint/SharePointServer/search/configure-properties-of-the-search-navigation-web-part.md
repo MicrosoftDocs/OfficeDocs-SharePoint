@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 79428586-0a1c-4fd8-ae49-e1e76eb022e1
 description: "Learn how to configure properties of the Search Navigation Web Part, and how to add a link to a new search vertical page."
@@ -18,7 +18,7 @@ description: "Learn how to configure properties of the Search Navigation Web Par
 
 # Configure properties of the Search Navigation Web Part in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The Search Navigation Web Part is configured to display links to the search verticals **Everything**, **People**, **Conversations** and **Videos**. It uses search results from the Search Results Web Part so that when users click a search vertical link, the search results are filtered and displayed following the configuration of the search vertical. You can also create your own search vertical and add it to be displayed in the Search Navigation Web Part. 
   
@@ -39,15 +39,15 @@ The search vertical properties, such as display name and links, are configured o
   
 For more information, see the following resources:
   
-- [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)
+- [Plan browser support](../install/browser-support-planning.md)
     
-- [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines)
+- [Accessibility for SharePoint 2013](../accessibility-guidelines.md)
     
 - [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)
     
 - [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
     
-- [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
+- [Touch](/windows/win32/wintouch/windows-touch-gestures-overview)
     
 ## Configure the properties of the Search Navigation Web Part
 <a name="BKMK_ConfigureSearchNavigation"> </a>
@@ -112,5 +112,3 @@ Before you start this procedure, verify that you have created a new page for the
   - In the **URL** field, type the URL to the new search vertical. 
     
   - Click **OK** to save the new search vertical. 
-    
-

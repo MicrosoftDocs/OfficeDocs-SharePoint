@@ -10,14 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: de0a2fb6-4372-47fc-9871-584724b7e7c7
 description: "Learn how to change the text that is displayed in the Search Box Web Part in SharePoint Server."
 ---
 
 # How to change the text that is displayed in the Search Box Web Part in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 This article will be short and sweet, so let's get right to it.
   

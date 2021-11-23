@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,13 +20,13 @@ description: "Helps you prepare to manage security for web parts pages and contr
 
 # Manage web parts in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In SharePoint Server, a web parts page is a collection of web parts that combines list data, timely information, or useful graphics into a dynamic web page. The layout and content of a web parts page can be set for all users and then, optionally, personalized for individual users. A site owner or a site member with the appropriate permissions can create and customize web parts pages by using a browser to add, reconfigure, or remove web parts.
   
 You can use web parts on web parts pages, wiki pages, content pages, and publishing pages.
   
-The web parts infrastructure in SharePoint Server exists on a layer above the ASP.NET web parts infrastructure. To effectively protect SharePoint sites, server administrators must be familiar with security guidelines and best practices for ASP.NET. For more information, see [Security Guidelines: ASP.NET](https://go.microsoft.com/fwlink/p/?LinkId=103423).
+The web parts infrastructure in SharePoint Server exists on a layer above the ASP.NET web parts infrastructure. To effectively protect SharePoint sites, server administrators must be familiar with security guidelines and best practices for ASP.NET. For more information, see [Security Guidelines: ASP.NET](/previous-versions/msp-n-p/ff649487(v=pandp.10)).
   
 > [!NOTE]
 > The apps for SharePoint add functionality to a site. Site owners can add apps for SharePoint to SharePoint sites so that they and other users of the site can use the application. For more information, see [Add apps for SharePoint to a SharePoint site](../administration/add-apps-for-sharepoint-to-a-sharepoint-site.md). 
@@ -43,10 +43,10 @@ The following table shows the security roles that are responsible for configurin
 
 |**Role**|**Category**|**Applies to**|**Description**|**Recommended guidelines**|
 |:-----|:-----|:-----|:-----|:-----|
-|Developer  <br/> |Input Validation  <br/> |Web Part code  <br/> |Input validation refers to how your application filters, scrubs, or rejects input before additional processing. This includes verification that the input that your application receives is valid and safe.  <br/> |[Building Secure ASP.NET Pages and Controls](https://go.microsoft.com/fwlink/p/?LinkId=103424) <br/> [Creating Web Parts For SharePoint](https://go.microsoft.com/fwlink/p/?LinkId=274097) <br/> |
+|Developer  <br/> |Input Validation  <br/> |Web Part code  <br/> |Input validation refers to how your application filters, scrubs, or rejects input before additional processing. This includes verification that the input that your application receives is valid and safe.  <br/> |[Building Secure ASP.NET Pages and Controls](/previous-versions/msp-n-p/ff648635(v=pandp.10)) <br/> [Creating Web Parts For SharePoint](/visualstudio/sharepoint/creating-web-parts-for-sharepoint) <br/> |
 |Server administrator  <br/> |Authentication  <br/> |IIS  <br/> |Authentication is the process where an entity validates the identity of another entity, typically through credentials such as a user name and password.  <br/> |[Plan for user authentication methods in SharePoint Server](../security-for-sharepoint-server/plan-user-authentication.md) <br/> |
-|Site administrator/ Server administrator  <br/> |Authorization  <br/> |Site collections  <br/> |Authorization is the process that provides access controls for Web sites, lists, folders, or items by determining which users can perform specific actions on a given object. The authorization process assumes that the user has already been authenticated.  <br/> |[Authorization and Authentication](https://go.microsoft.com/fwlink/p/?LinkId=103428) <br/> |
-|Server administrator  <br/> |Configuration Management  <br/> |.NET Framework configuration  <br/> |Configuration management encompasses a broad range of settings that allow an administrator to manage the Web application and its environment. These settings are stored in XML configuration files, some of which control computer-wide settings, while others control application-specific configurations. You can define special security constraints in configuration files and computer-level code access security permissions.  <br/> |[Code Access Security](https://go.microsoft.com/fwlink/p/?LinkId=274098) <br/> [Microsoft Windows SharePoint Services and Code Access Security](https://go.microsoft.com/fwlink/p/?LinkId=103436) <br/> [Using Code Access Security with ASP.NET](https://go.microsoft.com/fwlink/p/?LinkId=103438) <br/> |
+|Site administrator/ Server administrator  <br/> |Authorization  <br/> |Site collections  <br/> |Authorization is the process that provides access controls for Web sites, lists, folders, or items by determining which users can perform specific actions on a given object. The authorization process assumes that the user has already been authenticated.  <br/> |[Authorization and Authentication](/sharepoint/dev/general-development/authentication-authorization-and-security-in-sharepoint) <br/> |
+|Server administrator  <br/> |Configuration Management  <br/> |.NET Framework configuration  <br/> |Configuration management encompasses a broad range of settings that allow an administrator to manage the Web application and its environment. These settings are stored in XML configuration files, some of which control computer-wide settings, while others control application-specific configurations. You can define special security constraints in configuration files and computer-level code access security permissions.  <br/> |[Code Access Security](/dotnet/framework/misc/code-access-security) <br/> [Microsoft Windows SharePoint Services and Code Access Security](/previous-versions/office/developer/sharepoint2003/dd583158(v=office.11)) <br/> [Using Code Access Security with ASP.NET](/previous-versions/msp-n-p/ff648665(v=pandp.10)) <br/> |
    
 Thank you to Waqas Sarwar, Microsoft MVP, for providing the following article about web part security in SharePoint Server 2016, [SharePoint 2016 Central Admin - Security - Manage Web Part security](https://krossfarm.com/?p=1483).
   
@@ -73,4 +73,3 @@ The following articles about managing web parts in SharePoint Server are availab
 [Add, edit, minimize, or delete a Web Part from a page](https://support.office.com/article/362b1684-ad95-4a53-b826-443d8d9bdee0)
   
 [Using web parts on pages](https://support.office.com/article/336e8e92-3e2d-4298-ae01-d404bbe751e0)
-

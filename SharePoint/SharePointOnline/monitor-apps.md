@@ -3,13 +3,14 @@ title: "Monitor apps for your SharePoint environment"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - MET150
@@ -24,7 +25,7 @@ As a SharePoint or global admin in Microsoft 365, you can monitor information su
 ## Select apps to monitor
 <a name="__top"> </a>
 
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -40,7 +41,7 @@ As a SharePoint or global admin in Microsoft 365, you can monitor information su
 ## View app details or errors
 <a name="__top"> </a>
 
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -57,6 +58,6 @@ As a SharePoint or global admin in Microsoft 365, you can monitor information su
 |View error information for an app  <br/> | On the ribbon, select **View Errors**. To find the errors in the error log, use the Correlation ID. In the **Location** column, to view more error details for this app, select the URL. |
    
 > [!NOTE]
-> If you no longer want to monitor an app, you can select it on the Monitor Apps page, and on the ribbonm select **Remove App**. <br>
+> If you no longer want to monitor an app, you can select it on the Monitor Apps page, and on the ribbon select **Remove App**. <br>
     
 App usage and error detail info is processed by different timer jobs that are pre-configured to run at set times for SharePoint. These timer jobs pick up events for the previous day. For this reason, the data visible on the Monitor Apps page may be delayed for up to 29 hours.

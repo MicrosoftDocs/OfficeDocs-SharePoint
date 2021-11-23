@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
@@ -20,7 +20,7 @@ description: "Learn how to set a SharePoint Server content database to use Remot
 
 # Set a content database to use RBS with FILESTREAM in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article describes how to set a content database to use Remote BLOB Storage (RBS) that uses the FILESTREAM provider. If you are using a third-party provider, these instructions might not apply. For more information, contact the manufacturer of the provider. These instructions assume that you have already installed RBS for use with SharePoint Server. To install and configure RBS, see [Install and configure RBS with FILESTREAM in a SharePoint Server farm](install-and-configure-rbs.md). 
   
@@ -60,25 +60,25 @@ These instructions assume that you have installed SQL Server Management Studio o
     
 6. In the **Query** pane, copy and execute the following SQL queries in the sequence that is provided. 
     
-  ```
+  ```sql
   use [ContentDbName]
   if not exists (select * from sys.symmetric_keys where name = N'##MS_DatabaseMasterKey##')
   create master key encryption by password = N'Admin Key Password !2#4'
   ```
 
-  ```
+  ```sql
   use [ContentDbName]
   if not exists (select groupname from sysfilegroups where groupname=N'RBSFilestreamProvider')
   alter database [ContentDbName] add filegroup RBSFilestreamProvider contains filestream
   
   ```
 
-  ```
+  ```sql
   use [ContentDbName]
   alter database [ContentDbName] add file (name = RBSFilestreamFile, filename = 'c:\RBSStore') to filegroup RBSFilestreamProvider
   ```
 
-    Where  _[ContentDbName]_ is the content database name and  _c:\RBSStore_ is the volume\directory that will contain the RBS data store. Be aware that you can provision a RBS store only one time. If you attempt to provision the same RBS data store multiple times, you will receive an error. 
+   Where  _[ContentDbName]_ is the content database name and  _c:\RBSStore_ is the volume\directory that will contain the RBS data store. Be aware that you can provision a RBS store only one time. If you attempt to provision the same RBS data store multiple times, you will receive an error. 
     
     > [!TIP]
     > For best performance, simplified troubleshooting, and as a general best practice, we recommend that you create the RBS data store on a volume that does not contain the operating system, paging files, database data, log files, or the tempdb file. 
@@ -92,7 +92,7 @@ These instructions assume that you have installed SQL Server Management Studio o
   
   ```
 
-    Where  _\<ContentDbName\>_ is the name of the content database, and  _\<DBInstanceName\>_ is the name of the SQL Server. The operation should finish within approximately one minute. 
+   Where  _\<ContentDbName\>_ is the name of the content database, and  _\<DBInstanceName\>_ is the name of the SQL Server. The operation should finish within approximately one minute. 
     
 ### To test the RBS data store
 
@@ -116,5 +116,4 @@ These instructions assume that you have installed SQL Server Management Studio o
 [Migrate content into or out of RBS in SharePoint Server](migrate-content-into-or-out-of-rbs.md)
 #### Other Resources
 
-[Install and configure RBS with SharePoint 2013 and SQL Server 2012](https://blogs.technet.com/b/bogdang/archive/2014/12/04/install-and-configure-rbs-with-sharepoint-2013-and-sql-server-2012.aspx)
-
+[Install and configure RBS with SharePoint 2013 and SQL Server 2012](/archive/blogs/bogdang/install-and-configure-rbs-with-sharepoint-2013-and-sql-server-2012)

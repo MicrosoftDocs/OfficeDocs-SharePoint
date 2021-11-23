@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 94a8041c-f047-4f03-b973-65eb85f8e4fc
 description: "Learn how to remove apps for SharePoint from SharePoint sites."
@@ -18,7 +18,7 @@ description: "Learn how to remove apps for SharePoint from SharePoint sites."
 
 # Remove app for SharePoint instances from a SharePoint site
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Site owners can remove apps for SharePoint from their sites. Several circumstances might influence farm administrators and site owners to remove apps from their sites. For example, an app for SharePoint may no longer be needed or could become too much of a distraction to employees. The following procedures provide steps for removing (or uninstalling) an app. 
   
@@ -46,7 +46,6 @@ Use the following procedure to remove an app from a SharePoint site.
 [Add apps for SharePoint to a SharePoint site](add-apps-for-sharepoint-to-a-sharepoint-site.md)
 #### Other Resources
 
-[Get all App instances for a specific App on a specific web application](https://go.microsoft.com/fwlink/p/?LinkId=273969)
+[Get all App instances for a specific App on a specific web application](/samples/browse/?redirectedfrom=TechNet-Gallery)
   
-[Remove all App instances for a specific App on a specific web application](https://go.microsoft.com/fwlink/p/?LinkId=273970)
-
+[Remove all App instances for a specific App on a specific web application](/samples/browse/?redirectedfrom=TechNet-Gallery)
