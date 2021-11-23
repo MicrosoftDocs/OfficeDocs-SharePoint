@@ -24,7 +24,7 @@ description: "Learn how to plan, prepare, and perform an upgrade to SharePoint S
   
 The following articles provide information about performing an upgrade to SharePoint Server 2019.
 
-||**Content**|**Description**|
+|Image|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Get started with upgrades to SharePoint Server 2019](get-started-with-upgrade-2019.md) <br/> |Find resources about how to start the upgrade process from SharePoint Server 2016 to SharePoint Server 2019.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Upgrade databases from SharePoint 2016 to SharePoint Server 2019](upgrade-databases-2019.md) <br/> |Find resources to help you perform the steps to upgrade databases from SharePoint Server 2016 to SharePoint Server 2019.  <br/> |

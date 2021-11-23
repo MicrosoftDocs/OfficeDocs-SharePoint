@@ -1,5 +1,5 @@
 ---
-title: Guide to setting up Viva Connections (Preview)
+title: Guide to setting up Viva Connections 
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -8,18 +8,21 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
+ms.service: viva
+ms.subservice: viva-connections
 localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+- m365initiative-viva-connections
+- intro-get-started 
 search.appverid:
 - SPO160
 - MET150
 description: "Learn how to set up and launch Viva Connections for desktop and mobile devices"
 ---
 
-# Set up and launch Viva Connections (Preview)
+# Set up and launch Viva Connections 
 
 Microsoft [Viva Connections](viva-connections-overview.md) is a desktop and mobile experience that brings together relevant news, conversations, and resources in one place for your organization. It's built on your current Microsoft 365 ecosystem and powered by SharePoint to help you engage, inform, and empower your hybrid workforce. The Viva Connections experience is deployed and accessed in Microsoft Teams.
 
@@ -28,10 +31,8 @@ Microsoft [Viva Connections](viva-connections-overview.md) is a desktop and mobi
 Use these step-by-step instructions to help you set up and launch Viva Connections on desktop and mobile devices using currently available features to create an engaging user experience.
 
 > [!IMPORTANT]
-> - Some Viva Connections features will become available sooner than others. This document reflects the most up to date guidance and will be updated over the next several weeks to include updates to features as they become available. 
-> - Information in this article relates to the upgraded Viva Connections app that is in Public preview. Viva Connections includes *both the desktop and mobile experiences*. It may be modified before it's generally available for all customers.
-> - In March 2021, a *desktop-only* version of Viva Connections called [Viva Connections desktop](viva-connections.md) was released as a custom line of business app and it can be provisioned via PowerShell.
-> - To complete these step-by-step instructions, ensure that you have the permissions (or privileges) to the SharePoint and Microsoft Teams admin centers. Get more information about [permissions in SharePoint](customize-sharepoint-site-permissions.md) and [permissions in Microsoft Teams](/microsoftteams/teams-channels-overview#membership-roles-and-settings).
+> - Information in this article relates to the upgraded Viva Connections app that includes *both the desktop and mobile experiences*.
+> - To complete these step-by-step instructions, ensure that you have the permissions (or privileges) to the SharePoint and Microsoft Teams admin centers. Get more information about [permissions in SharePoint](customize-sharepoint-site-permissions.md) and [permissions in Microsoft Teams](/microsoftteams/teams-channels-overview).
 
 
 
@@ -50,8 +51,8 @@ While working to prepare your intranet, align with stakeholders to define top sc
 
 
 ### Permissions
-- SharePoint administrators (or higher) can [create home sites](/SharePoint/home-site-admin-center) and [hub sites](/sharepoint/create-hub-site).
-- Site owners of the home site (or higher) can [enable and customize global navigation](/SharePoint/sharepoint-app-bar).
+- SharePoint or Global Administrators can [create home sites](home-site.md) and [hub sites](create-hub-site.md).
+- Site owners of the home site (or higher) can [enable and customize global navigation](sharepoint-app-bar.md).
 - Site owner and site member permissions are required to [customize site-level navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca).
 
 
@@ -63,11 +64,11 @@ A home site is a SharePoint communication site that acts as the front door to yo
 
 > [!IMPORTANT]
 > - A SharePoint home site is required to set up Viva Connections.
-> - Home sites are generally high-traffic sites that should be [optimized for performance](/sharepoint/portal-health)
+> - Home sites are generally high-traffic sites that should be [optimized for performance](portal-health.md)
 
 ### Get started
-1. If your organization does not already have a home site, learn more about [how to plan a home site](/Sharepoint/home-site-plan). 
-2. Then, [set the home site](/Sharepoint/home-site-admin-center) in the SharePoint admin center.
+1. If your organization does not already have a home site, learn more about [how to plan a home site](home-site-plan.md). 
+2. Then, [set the home site](home-site.md) in the SharePoint admin center.
 3. Make sure you [share the home site](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658) with everybody in your organization.
 
 
@@ -114,8 +115,8 @@ The Dashboard brings it all together – it provides a personalized landing expe
 
 
 ### Get started
-1.  Learn how to [author your Dashboard, add cards, and apply audience targeting](/SharePoint/create-dashboard).
-2.  *Optional* - Develop your own custom cards using [Adaptive Cards](/adaptive-cards/).
+1.  Learn how to [author your Dashboard, add cards, and apply audience targeting](create-dashboard.md).
+2.  *Optional* - Develop your own custom cards using [Adaptive Cards](/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptive-card-extension).
 
 ### Permissions
 - Site editor (or higher) permissions to the Dashboard site are required to create and edit Dashboard resources.
@@ -127,7 +128,7 @@ The Dashboard brings it all together – it provides a personalized landing expe
 > [!div class="mx-imgBorder"]
 > ![image of content in the Feed web part](media/viva-feed-web-part.png)
 
-In the Viva Connections app, users will see a Feed that is personalized with relevant content personalized to them. The Feed automatically balances fresh and engaging content with corporate communications to keep users engaged, while also ensuring that the users see the most important messages. 
+In the Viva Connections app, users will see a Feed that is personalized with relevant content personalized to them. The Feed automatically balances fresh and engaging content with corporate communications to keep users engaged, while also ensuring that the users see the most important messages. [Get answers to common questions](faqs-viva-connections-feed.md) about how content in the Feed gets prioritized and displayed.
 
 The Feed requires usage of modern SharePoint and either SharePoint news or a Yammer community. For the best and most engaging experience, use both. We recommend creating or using an existing organization news site so that users get the most important news.
 
@@ -145,14 +146,14 @@ If you are not already using SharePoint news or Yammer, learn how to use them by
 - [Join and create Yammer community](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6#:~:text=Create%20a%20community%20in%20Yammer%20Click%20the%20Yammer,Community%20Name,%20enter%20the%20name%20of%20your%20community.)
 
 **Stream (built on SharePoint)**
-- [Video news links](/SharePoint/video-news-links) on organization news sites
+- [Video news links](video-news-links.md) on organization news sites
 - Video in a SharePoint news post
 
 
 ### Get started
 1. In Yammer, target the conversations you want to display in the Feed by using Yammer’s **Boost** and [**Featured**](https://support.microsoft.com/office/feature-a-conversation-in-new-yammer-92469ece-8a63-424f-9ad6-802ad90fc5c4) options on Yammer community pages.
 2. Use [News boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to elevate SharePoint news and announcements into a priority position in the Feed.
-3. Use [Video news links](/video-news-links) in SharePoint to create an engaging viewing experience in the Feed.
+3. Use [Video news links](video-news-links.md) in SharePoint to create an engaging viewing experience in the Feed.
 4. Use the [Feed web part](https://prod.support.services.microsoft.com/office/use-the-feed-web-part-for-viva-connections-001fbe90-3778-4801-9ea9-71308711d330?preview=true) to display personalized news and announcements to viewers on the home site.
 
 
@@ -170,7 +171,7 @@ If you are not already using SharePoint news or Yammer, learn how to use them by
 After you have prepared your intranet for Viva Connections in SharePoint, you are ready to add the Viva Connections app in the Microsoft Teams Admin Center. Add the Viva Connections app, and then customize app settings to add your organization's logo, pre-install, and pre-pin the app for end users.
 
 ### Get started
-1. [Add the Viva Connections app](/SharePoint/add-viva-connections-app) in the Teams admin center.
+1. [Add the Viva Connections app](add-viva-connections-app.md) in the Teams admin center.
 2. Then customize app settings like the app name and logo and decide user policies.
 3. Finally, make the app available to end users.
 
@@ -188,12 +189,12 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 
 | Viva Connections Dashboard on a mobile device                  |Mobile settings guidance              | 
 | :------------------- | :------------------- |
-| ![image of the Viva Connections mobile app](media/viva-dashboard-mobile.png)  | The Viva Connections app creates a custom app in Microsoft Teams that fits the needs of your organization. Your organization’s custom app will appear as a branded company app in the Microsoft Teams app center. Once the app is added, your organization’s icon will appear in the Teams app bar in the desktop and mobile Microsoft Teams experience. Users won’t see the app by default if you don’t pre-install and pre-pin.
+| ![image of the Viva Connections mobile app.](media/viva-dashboard-mobile.png)  | The Viva Connections app creates a custom app in Microsoft Teams that fits the needs of your organization. Your organization’s custom app will appear as a branded company app in the Microsoft Teams app center. Once the app is added, your organization’s icon will appear in the Teams app bar in the desktop and mobile Microsoft Teams experience. Users won’t see the app by default if you don’t pre-install and pre-pin.
 
 
 
 ### Get started
-1.	If you have pre-pinned the app for your users with Teams app set up policies in step #6, then the app will automatically appear in users’ Teams mobile client apps on iOS and Android.
+1.	If you have pre-pinned the app for your users with Teams app set-up policies in step #6, then the app will automatically appear in users’ Teams mobile client apps on iOS and Android.
 2.	If you have not pinned the app via policy, then users will first need to search for and install Viva Connections from the Teams desktop application. [Learn more about Viva Connections mobile settings.](https://support.microsoft.com/office/choose-settings-for-the-viva-connections-mobile-app-61bc93fe-5d58-4b4c-a0b1-abdd484ccf46)
 
 ### Permissions
@@ -204,9 +205,9 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 ## Step 8: Let your users know how to access and use Viva Connections
 
 
-| Viva Connections Dashboard interaction                 |End user guidance                 | 
+| Viva Connections Dashboard interaction                 |End-user guidance                 | 
 | :------------------- | :------------------- |
-| ![Automated GIF of the Dashboard on a mobile device](media/new-vc-dashboard-interaction.GIF)  | Help make end users aware of this new resource and provide guidance on what icon in the Teams app bar is your organization's instance of Viva Connections. Then, help end users understand how to use [the desktop experience](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b). | 
+| ![Automated GIF of the Dashboard on a mobile device.](media/new-vc-dashboard-interaction.GIF)  | Help make end users aware of this new resource and provide guidance on what icon in the Teams app bar is your organization's instance of Viva Connections. Then, help end users understand how to use [the desktop experience](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b). | 
 
 
 ## Resources
@@ -214,7 +215,6 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 [Overview of Viva Connections](viva-connections-overview.md)
 
 
-[Public preview announcement on the TechCommunity blog](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/viva-connections-public-preview/ba-p/2730869#:~:text=Viva%20Connections%20is%20the%20gateway%20to%20your%20organization%27s,from%20information%20workers%20to%20frontline%20and%20deskless%20employees.)
 
 
 

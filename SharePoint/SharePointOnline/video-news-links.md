@@ -1,5 +1,5 @@
 ---
-title: "Embed Video news links in the Viva Connections feed"
+title: "Embed Video news links in the Viva Connections Feed"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -14,16 +14,17 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - m365solution-scenario
+- m365initiative-viva-connections  
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
 - BSA160
-description: "Embed Video news links in the Viva Connections feed"
+description: "Embed Video news links in the Viva Connections Feed"
 ---
 
-# Embed Video news links in the Viva Connections feed
+# Embed Video news links in the Viva Connections Feed
   
 Learn how to communicate with your organization by embedding videos in the [Viva Connections Feed](viva-connections-overview.md). Videos are an engaging way to reach users in your organization. They provide endless opportunities to communicate with your organization. Share an update, rebroadcast an all-hands meeting, or provide reusable training materials. Learn more about [how videos are stored in Microsoft 365](https://aka.ms/NewStream).
  
