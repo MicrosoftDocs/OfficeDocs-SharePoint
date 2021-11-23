@@ -163,13 +163,13 @@ Use the procedure in this section to create a new claims-based SharePoint Server
   
 2. To create a claims-based authentication provider, from the PowerShell command prompt, type the following:
     
-   ```
+   ```powershell
    $ap = New-SPAuthenticationProvider
    ```
 
 3. To create a claims-based web application, from the PowerShell command prompt, type the following:
     
-   ```
+   ```powershell
    New-SPWebApplication -Name <Name> 
    -ApplicationPool <ApplicationPool> 
    -ApplicationPoolAccount <ApplicationPoolAccount> 
@@ -193,7 +193,7 @@ Use the procedure in this section to create a new claims-based SharePoint Server
   
    The following example creates an https claims-based web application, using the current user credentials and the current machine name:
     
-   ```
+   ```powershell
    $ap = New-SPAuthenticationProvider
    New-SPWebApplication -Name "Contoso Internet Site" -URL "https://www.contoso.com"  -Port 80 
    -ApplicationPool "ContosoAppPool" 
@@ -223,7 +223,7 @@ Use the procedure in this section to create a new classic-mode SharePoint Server
     
 2. From the PowerShell command prompt, type the following:
     
-   ```
+   ```powershell
    New-SPWebApplication -Name <Name> 
    -ApplicationPool <ApplicationPool>
    -AuthenticationMethod <WindowsAuthType>
