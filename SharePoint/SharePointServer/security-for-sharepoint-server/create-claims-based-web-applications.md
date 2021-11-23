@@ -125,7 +125,7 @@ Use the procedure described in this section to create a new claims-based SharePo
   
 12. In the **Database Name and Authentication** section, choose the database server, database name, and authentication method for your new web application, as described in the following table. 
     
-    |**Item**|**Action**|
+    | Item | Action |
     |:-----|:-----|
     |**Database Server** <br/> |Type the name of the database server and SQL Server instance you want to use in the format < _SERVERNAME_\ _instance_>. You can also use the default entry.  <br/> |
     |**Database Name** <br/> |Type the name of the database, or use the default entry.  <br/> |
