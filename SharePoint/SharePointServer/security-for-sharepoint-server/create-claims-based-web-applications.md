@@ -49,7 +49,7 @@ Use the procedure described in this section to create a new claims-based SharePo
     
 5. In the **Contribute** group of the ribbon, click **New**.
     
-6. On the **Create New Web Application** page, in the **IIS Web Site** section, you can configure the settings for your new web application by selecting one of the following two options: 
+6. On **Create New Web Application**, in the **IIS Web Site** section, you can configure the settings for your new web application by selecting one of the following two options: 
     
    - Click **Use an existing IIS web site**, and then select the web site on which to install your new web application.
     
@@ -74,8 +74,8 @@ Use the procedure described in this section to create a new claims-based SharePo
   
     - In the **Security Configuration** section, click **Yes** or **No** for the **Allow Anonymous** options. If you choose to **Yes**, visitors can use the computer-specific anonymous access account (that is, IIS_IUSRS) to access the web site.
     
-    > [!NOTE]
-    > If you want users to be able to access any site content anonymously, you must enable anonymous access for the entire web application zone before you enable anonymous access at the SharePoint Server site level. Later, site owners can configure anonymous access for their sites. If you do not enable anonymous access at the web application level, site owners cannot enable anonymous access at the site level. 
+      > [!NOTE]
+      > If you want users to be able to access any site content anonymously, you must enable anonymous access for the entire web application zone before you enable anonymous access at the SharePoint Server site level. Later, site owners can configure anonymous access for their sites. If you do not enable anonymous access at the web application level, site owners cannot enable anonymous access at the site level. 
   
     - In the **Security Configuration** section, click **Yes** or **No** for the **Use Secure Sockets Layer (SSL)** options. If you choose **Yes**, you must request and install an SSL certificate to configure SSL. 
     
@@ -121,7 +121,7 @@ Use the procedure described in this section to create a new claims-based SharePo
     - Click **Configurable** to specify a new security account to be used for an existing application pool. 
     
     > [!NOTE]
-    > To create a new account, click the **Register new managed account** link. 
+    > To create a new account, click **Register new managed account**. 
   
 12. In the **Database Name and Authentication** section, choose the database server, database name, and authentication method for your new web application, as described in the following table. 
     
@@ -129,9 +129,9 @@ Use the procedure described in this section to create a new claims-based SharePo
     |:-----|:-----|
     |**Database Server** |Type the name of the database server and SQL Server instance you want to use in the format < _SERVERNAME_\ _instance_>. You can also use the default entry.  |
     |**Database Name** |Type the name of the database, or use the default entry.  |
-    |**Database Authentication** | Select the database authentication to use by doing one of the following:  <ul><li>To use Windows authentication, leave this option selected. We recommend this option because Windows authentication automatically encrypts the password when it connects to SQL Server.</li> <li>To use SQL authentication, click **SQL authentication**. In the **Account** box, type the name of the account that you want the web application to use to authenticate to the SQL Server database, and then type the password in the **Password** box.</li></ul> <p>**Note**&nbsp;&nbsp;&nbsp;SQL authentication sends the SQL authentication password to SQL Server in an unencrypted format. We recommend that you only use SQL authentication if you force protocol encryption to SQL Server to encrypt your network traffic by using IPsec. |
+    |**Database Authentication** | Select the database authentication to use by doing one of the following:  <ul><li>To use Windows authentication, leave this option selected. We recommend this option because Windows authentication automatically encrypts the password when it connects to SQL Server.</li> <li>To use SQL authentication, click **SQL authentication**. In the **Account** box, type the name of the account that you want the web application to use to authenticate to the SQL Server database, and then type the password in the **Password** box.</li></ul> <p>**Note**&nbsp;&nbsp;&nbsp;SQL authentication sends the SQL authentication password to SQL Server in an unencrypted format. We recommend that you only use SQL authentication if you force protocol encryption to SQL Server to encrypt your network traffic by using IPsec.</p> |
    
-13. If you use database mirroring, in the **Failover Server** section, in the **Failover Database Server** box, type the name of a specific failover database server that you want to associate with a content database 
+13. If you use database mirroring, in the **Failover Server** section, in the **Failover Database Server** box, type the name of a specific failover database server that you want to associate with a content database.
     
 14. In the **Service Application Connections** section, select the service application connections that will be available to the web application. In the drop-down menu, click **default** or **[custom]**. You use the **[custom]** option to choose the service application connections that you want to use for the web application. 
     
@@ -144,7 +144,7 @@ Use the procedure described in this section to create a new claims-based SharePo
 
 Use the procedure in this section to create a new claims-based SharePoint Server web application using PowerShell.
   
- **To create a claims-based web application by using PowerShell**
+**To create a claims-based web application by using PowerShell**
   
 1. Verify that you have the following memberships:
     
