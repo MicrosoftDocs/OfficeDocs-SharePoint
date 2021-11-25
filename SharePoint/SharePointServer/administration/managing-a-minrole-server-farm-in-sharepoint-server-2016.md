@@ -22,7 +22,7 @@ description: "Learn how to manage your MinRole farm deployment in SharePoint Ser
 
 Learn how to manage your MinRole farm deployment in SharePoint Servers 2016 and 2019.
   
- **MinRole** is a new farm topology based on a set of predefined server roles introduced in SharePoint Server 2016. When configuring your SharePoint farm, you now select the role of a server when you create a new farm or join a server to an existing farm. SharePoint will automatically configure the services on each server based on the server's role. SharePoint Servers 2016 and 2019 has been optimized for the MinRole farm topology. 
+ **MinRole** is a new farm topology based on a set of predefined server roles introduced in SharePoint Server 2016. When configuring your SharePoint farm, you now select the role of a server when you create a new farm or join a server to an existing farm. SharePoint will automatically configure the services on each server based on the server's role. SharePoint Servers 2016 and 2019 are optimized for the MinRole farm topology. 
   
 ## MinRole administration
 
@@ -48,7 +48,7 @@ The **Compliant** column displays whether the server configuration is in complia
   
 #### Manage services in this farm
 
-This is a new page in the System Settings category of Central Administration. It displays the state of each service in the farm. This page has three column of interest: **Auto Provision**, **Action**, and **Compliant**. 
+This is a new page in the System Settings category of Central Administration. It displays the state of each service in the farm. This page has three columns of interest: **Auto Provision**, **Action**, and **Compliant**. 
   
 ![Displays services in a SharePoint Servers 2016 and 2019 farm](../media/90e10233-ba14-4bc4-8213-b8866a7ae2b1.PNG)
   
@@ -98,7 +98,7 @@ The **Action** column has changed. The link to start or stop a service has been 
 New PowerShell cmdlets have been introduced to manage the services in the farm.
   
 ||||
-|:-----|:-----|:-----|
+|:-----|:-----|
 |**Cmdlet name** <br/> |**Description** <br/> |**Syntax example** <br/> |
 |Get-SPService  <br/> |The [Get-SPService](/powershell/module/sharepoint-server/Get-SPService?view=sharepoint-ps&preserve-view=true) cmdlet gets a service in the farm.  <br/> | *Get-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |
 |Start-SPService  <br/> |The [Start-SPService](/powershell/module/sharepoint-server/Start-SPService?view=sharepoint-ps&preserve-view=true) cmdlet enables a service in the farm. Service instances for this service will be started on the appropriate MinRole-managed servers in the farm.  <br/> | *Start-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |

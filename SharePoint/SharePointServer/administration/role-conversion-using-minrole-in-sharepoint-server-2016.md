@@ -85,16 +85,16 @@ Role conversion can't convert a server from a role hosting Search to a role that
     
 4. At the PowerShell command prompt, type the following command:
     
-  ```
-  Set-SPServer -Identity <server name> -Role <server role>
-  ```
+   ```
+   Set-SPServer -Identity <server name> -Role <server role>
+   ```
 
-    Where:
+   Where:
     
-  - \<server name\> is the server to change.
+   - \<server name\> is the server to change.
     
-  -  _\<server role\>_ is the name of the new server role, which includes the values: WebFrontEnd, Application, DistributedCache, Search, WebFrontEndWithDistributedCache, ApplicationWithSearch, SingleServerFarm, or Custom. 
-    
+   -  _\<server role\>_ is the name of the new server role, which includes the values: WebFrontEnd, Application, DistributedCache, Search, WebFrontEndWithDistributedCache, ApplicationWithSearch, SingleServerFarm, or Custom.
+
 For more information about how to change a server role by using PowerShell, see Set-SPServer.
   
 
