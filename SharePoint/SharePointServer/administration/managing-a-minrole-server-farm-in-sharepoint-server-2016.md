@@ -97,9 +97,8 @@ The **Action** column has changed. The link to start or stop a service has been 
 
 New PowerShell cmdlets have been introduced to manage the services in the farm.
   
-||||
-|:-----|:-----|
 |**Cmdlet name** <br/> |**Description** <br/> |**Syntax example** <br/> |
+|:-----|:-----|:-----|
 |Get-SPService  <br/> |The [Get-SPService](/powershell/module/sharepoint-server/Get-SPService?view=sharepoint-ps&preserve-view=true) cmdlet gets a service in the farm.  <br/> | *Get-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |
 |Start-SPService  <br/> |The [Start-SPService](/powershell/module/sharepoint-server/Start-SPService?view=sharepoint-ps&preserve-view=true) cmdlet enables a service in the farm. Service instances for this service will be started on the appropriate MinRole-managed servers in the farm.  <br/> | *Start-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |
 |Stop-SPService  <br/> |The [Stop-SPService](/powershell/module/sharepoint-server/Stop-SPService?view=sharepoint-ps&preserve-view=true) cmdlet disables a service in the farm. Service instances for this service will be stopped on the appropriate MinRole-managed servers in the farm.  <br/> | *Stop-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |
