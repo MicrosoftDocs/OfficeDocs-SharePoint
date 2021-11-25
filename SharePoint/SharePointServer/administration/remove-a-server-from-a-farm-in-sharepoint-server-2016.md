@@ -19,7 +19,7 @@ description: "Learn how to remove a server from a SharePoint Server farm."
 
 # Remove a server from a farm in SharePoint Servers 2016 or 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)] 
   
     
 ## Removing a server from a SharePoint farm
