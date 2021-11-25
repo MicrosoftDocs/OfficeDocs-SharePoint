@@ -20,7 +20,7 @@ description: "Learn about the MinRole feature in SharePoint Server and the servi
 
 # Description of MinRole and associated services in SharePoint Servers 2016 and 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)] 
   
 The MinRole feature in SharePoint Servers 2016 and 2019 lets SharePoint farm administrators assign each server's role in a farm topology. The role of a server is specified when you create a new farm or join a server to an existing farm.
   
