@@ -164,7 +164,7 @@ We're the fastest way to migrate your data, but the speed of your migration may 
 
 What may be surprising is how large of an impact factors other than the size of the data you are moving can have.
 
-For example, it is common for there to be half a second of overhead per file being moved. If you are moving 200,000 files, this would be 100,000 seconds or more than a day worth of overhead alone!
+For example, it is common for there to be half a second of overhead per file being moved. If you are moving 200,000 files, this would be 100,000 seconds or more than a day's worth of overhead alone!
 
 Suffice to say, we cannot give you exact estimates on time because there are too many factors at play at any given point. By the time you have read this section, we could have easily copied several files totaling many GB, or a few hundred files equaling a small amount of data.
 
