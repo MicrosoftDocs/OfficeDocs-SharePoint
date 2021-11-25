@@ -18,7 +18,7 @@ description: "Learn how to manage your MinRole farm deployment in SharePoint Ser
 
 # Managing a MinRole Server Farm in SharePoint Servers 2016 and 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
 
 Learn how to manage your MinRole farm deployment in SharePoint Servers 2016 and 2019.
   
