@@ -8,7 +8,7 @@ ms.date: 3/12/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -23,7 +23,7 @@ description: "Plan for governance in SharePoint."
 
 # Governance SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Read these articles to learn about planning the different aspects of governance in SharePoint.
   

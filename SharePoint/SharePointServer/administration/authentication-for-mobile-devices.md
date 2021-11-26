@@ -17,7 +17,7 @@ description: "This article contains information about the supported authenticati
 
 # Authentication for mobile devices in SharePoint 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
 
 This article contains information about the supported authentication types for select devices in SharePoint Server 2013.
   

@@ -22,7 +22,7 @@ description: "Learn how to configure Windows Server 2012 R2 with Web Application
 
 # Configure Web Application Proxy for a hybrid environment
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 This article describes Web Application Proxy and helps you set it up to use as a reverse proxy for a hybrid SharePoint Server environment.
   

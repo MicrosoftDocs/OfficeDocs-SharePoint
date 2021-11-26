@@ -20,7 +20,7 @@ description: "Learn supported scenarios for deploying custom features to upgrade
 
 # Deploy custom features to upgraded site collections in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 This article describes how to deploy custom features through solution packages to a SharePoint Server 2013 farm that has been upgraded from SharePoint Server 2010. It includes information and procedures for supported scenarios. It also introduces feature masking. 
   
@@ -43,13 +43,13 @@ For the purposes of this article, you should be familiar with the following Micr
   
 |**Name**|**What does this do?**|**Example**|
 |:-----|:-----|:-----|
-| *[Add-SPSolution](/powershell/module/sharepoint-server/add-spsolution?view=sharepoint-ps)*  <br/> |Adds the solution to the farm's solution store.  <br/> | `Add-SPSolution -LiteralPath c:\contoso_solution.wsp` <br/> |
-| *[Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps)*  <br/> |Deploys a solution that has been added to the farm's solution store.  <br/> | `Install-SPSolution -Identity contoso_solution.wsp -GACDeployment -CompatibilityLevel 15` <br/> |
-| *[Uninstall-SPSolution](/powershell/module/sharepoint-server/Uninstall-SPSolution?view=sharepoint-ps)*  <br/> |Retracts a deployed solution.  <br/> | `Uninstall-SPSolution -Identity contoso_solution.wsp` <br/> |
-| *[Remove-SPSolution](/powershell/module/sharepoint-server/Remove-SPSolution?view=sharepoint-ps)*  <br/> |Removes a deployed solution.  <br/> | `Remove-SPSolution -Identity contoso_solution.wsp` <br/> |
+| *[Add-SPSolution](/powershell/module/sharepoint-server/add-spsolution?view=sharepoint-ps&preserve-view=true)*  <br/> |Adds the solution to the farm's solution store.  <br/> | `Add-SPSolution -LiteralPath c:\contoso_solution.wsp` <br/> |
+| *[Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps&preserve-view=true)*  <br/> |Deploys a solution that has been added to the farm's solution store.  <br/> | `Install-SPSolution -Identity contoso_solution.wsp -GACDeployment -CompatibilityLevel 15` <br/> |
+| *[Uninstall-SPSolution](/powershell/module/sharepoint-server/Uninstall-SPSolution?view=sharepoint-ps&preserve-view=true)*  <br/> |Retracts a deployed solution.  <br/> | `Uninstall-SPSolution -Identity contoso_solution.wsp` <br/> |
+| *[Remove-SPSolution](/powershell/module/sharepoint-server/Remove-SPSolution?view=sharepoint-ps&preserve-view=true)*  <br/> |Removes a deployed solution.  <br/> | `Remove-SPSolution -Identity contoso_solution.wsp` <br/> |
    
 > [!NOTE]
-> For more information about how to use PowerShell and the minimum permissions required to run a PowerShell for SharePoint cmdlet, see [Use Windows Powershell to administer SharePoint 2013](/powershell/module/sharepoint-server/?view=sharepoint-ps). 
+> For more information about how to use PowerShell and the minimum permissions required to run a PowerShell for SharePoint cmdlet, see [Use Windows Powershell to administer SharePoint 2013](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true). 
   
 ### Overview of deploying a solution package
 <a name="Add-OverviewofDeploy"> </a>
@@ -148,7 +148,7 @@ The steps for this scenario include the following:
      `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 15 -GAC …`
     
 > [!NOTE]
-> The **-CompatibilityLevel** parameter in **Install-SPSolution** Windows PowerShell cmdlet also allows you the option to install a solution package to both the 14 and 15 root directories at the same time. You can do this by using the values of "14,15" or "All". For example: >  `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14, 15 -GAC …`> For more information about the **CompatibilityLevel** parameter in the **Install-SPSolution** Windows PowerShell cmdlet, see  *[Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps)*  . 
+> The **-CompatibilityLevel** parameter in **Install-SPSolution** Windows PowerShell cmdlet also allows you the option to install a solution package to both the 14 and 15 root directories at the same time. You can do this by using the values of "14,15" or "All". For example: >  `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14, 15 -GAC …`> For more information about the **CompatibilityLevel** parameter in the **Install-SPSolution** Windows PowerShell cmdlet, see  *[Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps&preserve-view=true)*  . 
   
 ![Legacy custom feature works in both modes](../media/FMScen1.jpg)
   
@@ -193,7 +193,7 @@ The steps for this scenario include the following:
      `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 15 -GAC …`
     
 > [!NOTE]
-> The **CompatibilityLevel** parameter in **Install-SPSolution** Microsoft PowerShell cmdlet also allows you the option to install a solution package to both the 14 and 15 root directories at the same time. You can do this by using the values of "14,15" or "All". For example: >  `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14, 15 -GAC …`> For more information about the **-CompatibilityLevel** parameter in the **Install-SPSolution** Microsoft PowerShell cmdlet, see  *[Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps)*  . 
+> The **CompatibilityLevel** parameter in **Install-SPSolution** Microsoft PowerShell cmdlet also allows you the option to install a solution package to both the 14 and 15 root directories at the same time. You can do this by using the values of "14,15" or "All". For example: >  `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14, 15 -GAC …`> For more information about the **-CompatibilityLevel** parameter in the **Install-SPSolution** Microsoft PowerShell cmdlet, see  *[Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps&preserve-view=true)*  . 
   
 ![Legacy custom feature needs conditional logic](../media/FMScen2.jpg)
   

@@ -8,7 +8,7 @@ ms.date: 5/30/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -20,7 +20,7 @@ description: "How to configure SharePoint Server profile synchronization with Mi
 
 # Use a sample MIM solution in SharePoint Servers 2016 and 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
   
 The article outlines a solution that will help you to install and synchronize accounts to SharePoint Server using Microsoft Identity Management, or MIM. MIM 2016 is the successor to a profile synchronization technology leveraged by previous versions of SharePoint Server that was known as Forefront Identity Manager, or FIM. FIM is no longer included as part of the product as of SharePoint Server 2016. However, MIM is not the only synchronization solution that SharePoint Server 2016 offers. If you would prefer to use the Active Directory Direct Import that is built-in with SharePoint Server 2016, please see the configuration article [here](./configure-profile-synchronization-by-using-sharepoint-active-directory-import.md). Otherwise, follow the steps in this article to configure a new installation of MIM for your User Profile Synchronization.
   

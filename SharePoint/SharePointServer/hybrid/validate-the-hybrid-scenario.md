@@ -23,7 +23,7 @@ description: "How to validate the Business Connectivity Services (BCS) hybrid so
 
 # Validate the Business Connectivity Services hybrid scenario
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 Now that you have created an external list or deployed an app for SharePoint in Microsoft 365, you need to test the security you put in place. Every account that will be accessing and manipulating the external data must have three properties:
   

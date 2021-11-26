@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -19,7 +19,7 @@ description: "Learn how to improve the security of SQL Server for SharePoint Ser
 
 # Configure SQL Server security for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 When you install SQL Server, the default settings help to provide a safe database. In addition, you can use SQL Server tools and Windows Firewall to add additional security to SQL Server for SharePoint Server environments. 
   
