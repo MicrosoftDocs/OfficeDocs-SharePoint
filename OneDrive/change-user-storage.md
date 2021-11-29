@@ -122,3 +122,13 @@ When you need cloud storage for individual users beyond the initial 5 TB, additi
 > To change the storage space for multiple users, use PowerShell to [Display a list of OneDrive accounts by using PowerShell](list-onedrive-urls.md) and use [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite?preserve-view=true&view=sharepoint-ps&preserve-view=true) to make the change.
 > 
 > To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](/sharepoint/manage-user-profiles).
+
+## Automated Troubleshooting for issues changing OneDrive Storage
+
+If you're an administrator, and you're having trouble changing a users OneDrive Storage, select Run Tests below, which will populate a diagnostic in the Microsoft 365 Admin Center. These tests will check your configuration and quickly recommend next steps to resolve the issue. 
+
+ > [!NOTE]
+ > This feature is only available for Microsoft 365 admins and is not available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany.
+
+> [!div class="nextstepaction"]
+> [Run Tests: OneDrive Storage Quota](https://aka.ms/PillarOneDriveQuota)
