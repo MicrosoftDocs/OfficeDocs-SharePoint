@@ -380,7 +380,7 @@ You can validate remote share BLOB store used by the content database by cmdlet 
 Test-SPRemoteShareBlobSotore -ContentDatabase <SPContentDatabasePipeBind> [-LogPath <String>]
 
 ```
-The cmdlet parameters are:
+The cmdlet parameters are:.
 
 
 **`-ContentDatabase <SPContentDatabasePipeBind>`**
