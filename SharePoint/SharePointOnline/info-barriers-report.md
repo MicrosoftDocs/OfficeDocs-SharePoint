@@ -34,7 +34,7 @@ The SharePoint information barriers policy compliance report lets SharePoint adm
 
 The report displays the list of sites that are noncompliant per the existing policies which were recently updated. For each noncompliant site, it shows compatible segments, incompatible segments, and invalid segments (those segments that no longer exist)
 
-If a OneDrive is noncompliant, the report lets you remove other segments so that only the user's segment is associated with the OneDrive.
+If a OneDrive is noncompliant, this report lets you update the OneDrive to be compliant with the latest IB policies in your organization.
 
 > [!NOTE]
 > You only need to run this report if information barriers policies are changed. Depending on the number of sites in your organization, it can take a long time for this report to run.
