@@ -29,7 +29,7 @@ When you upgrade from SharePoint Server 2016 to SharePoint Server 2019, you must
 
 ![Phase 4 of the upgrade process: Upgrade content databases](../media/UpgradeContentDatabase_2019.png)
   
-|||
+|Phase|Description|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019. The process includes the following phases that must be completed in order:  <br/> [Create the SharePoint Server 2019 farm for a database attach upgrade](create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade.md) <br/> [Copy databases to the new farm for upgrade to SharePoint Server 2019](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md) <br/> [Upgrade service applications to SharePoint Server 2019](upgrade-service-applications-to-sharepoint-server-2019.md) <br/> [Upgrade content databases to SharePoint Server 2019](upgrade-content-databases-2019.md) (this phase)  <br/><br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process-2019.md).  <br/> |
    
@@ -127,8 +127,10 @@ Before you attach the content databases to the web applications, use the [Test-S
   Test-SPContentDatabase -Name DatabaseName -WebApplication URL
   ```
 
-    Where:
-    
+  ```
+  Where:
+  ```
+
   -  _DatabaseName_ is the name of the database that you want to test. 
     
   -  _URL_ is the URL for the web application that will host the sites. 
@@ -187,8 +189,10 @@ By default, when you created the web applications in the new SharePoint Server 2
   Mount-SPContentDatabase -Name DatabaseName -DatabaseServer ServerName -WebApplication URL
   ```
 
-    Where:
-    
+  ```
+  Where:
+  ```
+
   -  _DatabaseName_ is the name of the database that you want to upgrade. 
     
   -  _ServerName_ is server on which the database is stored. 
@@ -287,7 +291,7 @@ After you upgrade the databases, you might want to perform additional steps to m
     
     For more information, see [Back up farms in SharePoint Server](../administration/back-up-a-farm.md).
     
-|||
+|Phase|Description|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019.  <br/> For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process-2019.md).  <br/> |
    
