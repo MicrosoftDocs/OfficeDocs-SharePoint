@@ -39,7 +39,7 @@ Modern search usage reports with Microsoft Search provide a few graphs
 
 The first date picker lets you pick past 31 days (about one month) or past 12 months for the first two graphs. The second date picker lets you select a particular day or month for the bottom three tables (top, abandoned, no results). Downloading a report will allow you to see reports from a broader range of time. Click on the download arrow and select past 31 days (about one month) or past 12 months. The report is downloaded as an Excel spreadsheet. If you selected the past 31 days (about one month), the spreadsheet will have an individual tab for each day. The past 12 months download will have a tab for each month.  
 
-:::image type="content" source="media/view-search-usage-reports.png" alt-text="view usage reports." lightbox="media/view-search-usage-reports.png":::
+:::image type="content" source="media/view-search-usage-reports-1.png" alt-text="view usage reports." lightbox="media/view-search-usage-reports-1.png":::
 
 ## Overview of search reports 
 
