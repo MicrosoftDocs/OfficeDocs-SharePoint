@@ -18,7 +18,7 @@ description: "Learn how you can transform queries to provide more targeted Share
 
 # Plan to transform queries and order results in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 You can add query transforms to a Web Part, add query rules that transform queries when certain conditions are met, and you can transform all queries directed to a result source to create a specialized search experience. 
   

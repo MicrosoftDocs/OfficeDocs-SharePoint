@@ -14,6 +14,7 @@ ms.localizationpriority: high
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- m365initiative-spsitemanagement
 ms.custom: 
 - seo-marvel-apr2020
 search.appverid:
@@ -96,7 +97,7 @@ If a site runs out of storage, site admins can request more by following these s
 2. Under **Site Collection Administration**, select **Storage Metrics**.
 3. Select **Request more quota** in the upper right.
 
-This sends a storage request email to the global and SharePoint admins in the organization.
+This sends a storage request email to the global admins in the organization.
 
 ![Storage request email](media/request-more-storage.png)
     

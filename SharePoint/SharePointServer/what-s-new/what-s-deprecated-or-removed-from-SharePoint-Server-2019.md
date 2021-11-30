@@ -20,7 +20,7 @@ description: "Learn about the features and functionality that are deprecated or 
 
 # What's deprecated or removed from SharePoint Server 2019
 
-[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-xxx-md.md)]
 
 Learn about the features and functionality that are deprecated or removed in SharePoint Server 2019.
 

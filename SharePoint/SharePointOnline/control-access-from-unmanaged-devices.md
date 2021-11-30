@@ -84,6 +84,8 @@ Using a policy that affects all Microsoft 365 services can lead to better securi
 
     ![The Unmanaged devices pane in the new SharePoint admin center](media/unmanaged-devices-limit-access.png) 
 
+If you revert back to **Allow Full Access**, it could take up to 24 hours for the changes to take effect.
+
 > [!IMPORTANT] 
 > If you block or limit access from unmanaged devices, we recommend also blocking access from apps that don't use modern authentication. Some third-party apps and versions of Office prior to Office 2013 don't use modern authentication and can't enforce device-based restrictions. This means they allow users to bypass conditional access policies that you configure in Azure. In the new SharePoint admin center, on the Access control page, select **Apps that don't use modern authentication**, select **Block access**, and then select **Save**.
 
@@ -160,7 +162,7 @@ To block or limit access to specific sites, follow these steps. If you have conf
 
 The following parameters can be used with  `-ConditionalAccessPolicy AllowLimitedAccess` for both the organization-wide setting and the site-level setting: 
   
- `-AllowEditing $false` Prevents users from editing Office files in the browser and copying and pasting Office file contents out of the browser window. 
+ `-AllowEditing $false` Prevents users from editing Office files in the browser. 
   
  `-LimitedAccessFileType OfficeOnlineFilesOnly` Allows users to preview only Office files in the browser. This option increases security but may be a barrier to user productivity. 
   

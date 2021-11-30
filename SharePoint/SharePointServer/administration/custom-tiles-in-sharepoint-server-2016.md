@@ -20,7 +20,7 @@ description: "This article describes Custom Tiles which is one of the new featur
 
 # Custom Tiles in SharePoint Servers 2016 and 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
   
 In SharePoint Server, users can quickly and easily get to all of their SharePoint and Microsoft 365 workloads directly from the app launcher. Now in addition to those, you can also add your own custom tiles that point to other SharePoint sites, external sites, legacy apps, and more. This makes it easy to find the relevant sites, apps, and resources to do your job
   
@@ -43,7 +43,7 @@ The custom tile feature is not enabled by default. To enable the feature, do the
     
     If these permissions are not satisfied, contact your Setup administrator or SQL Server administrator to request these permissions.
     
-    For additional information about PowerShell permissions, see [Permissions](/powershell/sharepoint/sharepoint-server/sharepoint-server-cmdlets?view=sharepoint-ps) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+    For additional information about PowerShell permissions, see [Permissions](/powershell/sharepoint/sharepoint-server/sharepoint-server-cmdlets?view=sharepoint-ps&preserve-view=true) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
     
 2. On the **Start** menu, click **All Programs**
     
@@ -119,7 +119,7 @@ If you want to use the same list of custom tiles across multiple web application
     
     If these permissions are not satisfied, contact your Setup administrator or SQL Server administrator to request these permissions.
     
-    For additional information about PowerShell permissions, see [Permissions](/powershell/sharepoint/sharepoint-server/sharepoint-server-cmdlets?view=sharepoint-ps) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+    For additional information about PowerShell permissions, see [Permissions](/powershell/sharepoint/sharepoint-server/sharepoint-server-cmdlets?view=sharepoint-ps&preserve-view=true) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
     
 2. On the **Start** menu, click **All Programs**
     

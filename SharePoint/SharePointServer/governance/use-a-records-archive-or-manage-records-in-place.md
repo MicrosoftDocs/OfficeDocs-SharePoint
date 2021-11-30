@@ -17,7 +17,7 @@ description: "Decide which records management approach to choose in SharePoint S
 
 # Use a SharePoint Server records archive or manage records in place
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 In SharePoint Server you can manage records in an archive, or you can manage records in the same document repository as active documents. By using the SharePoint Server in-place approach, when you declare that a document has become a record, the record remains in place, but SharePoint Server now manages it as a record. For example, a document might get a different retention policy when it is declared to be a record, or users might be unable to edit it.
   

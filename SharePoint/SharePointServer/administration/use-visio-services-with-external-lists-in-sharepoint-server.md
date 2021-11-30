@@ -17,7 +17,7 @@ description: "Connect to an external list in Visio by using Microsoft Business C
 
 # Use Visio Services with external lists in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This document describes the procedures necessary to connect a Visio diagram to an external list in SharePoint Server 2013 or SharePoint Server 2016.
   

@@ -1,5 +1,5 @@
 ---
-title: "Embed Video news links in the Viva Connections feed (Preview)"
+title: "Embed Video news links in the Viva Connections Feed"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -14,19 +14,19 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - m365solution-scenario
+- m365initiative-viva-connections  
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
 - BSA160
-description: "Embed Video news links in the Viva Connections feed"
+description: "Embed Video news links in the Viva Connections Feed"
 ---
 
-# Embed Video news links in the Viva Connections feed (Preview)
+# Embed Video news links in the Viva Connections Feed
   
-Learn how to communicate with your organization by embedding videos in the Viva Connections feed.
-Videos are an engaging way to reach users in your organization. They provide endless opportunities to communicate with your organization. Share an update, rebroadcast an all-hands meeting, or provide reusable training materials. Learn more about [how videos are stored in Microsoft 365](https://aka.ms/NewStream).
+Learn how to communicate with your organization by embedding videos in the [Viva Connections Feed](viva-connections-overview.md). Videos are an engaging way to reach users in your organization. They provide endless opportunities to communicate with your organization. Share an update, rebroadcast an all-hands meeting, or provide reusable training materials. Learn more about [how videos are stored in Microsoft 365](https://aka.ms/NewStream).
  
 ## How to publish a Video news link
 
@@ -47,7 +47,7 @@ You can publish videos hosted on SharePoint sites as news posts in the Viva Conn
 
 
     > [!NOTE]
-    > If Viva Connections hasn’t been configured for your organization, you’ll see the following   error. Learn more about [how to set up Viva Connections](/guide-to-setting-up-viva-connections). 
+    > If Viva Connections hasn’t been configured for your organization, you’ll see the following error. Learn more about [how to set up Viva Connections](guide-to-setting-up-viva-connections.md). 
 
     ![Image of an error message in the Video News link panel.](media/video-news-link-error.png)
 
@@ -119,3 +119,11 @@ You can publish videos hosted on SharePoint sites as news posts in the Viva Conn
 **A:** Video news links will appear as a card in the Viva Connections feed. Tapping on the card will play the video full screen.
 
 ![Image of an active video news link.](media/active-video-link.png)
+
+
+## More resources
+
+[Overview of Viva Connections](viva-connections-overview.md)
+<br>
+
+[Set up and launch Viva Connections](guide-to-setting-up-viva-connections.md)

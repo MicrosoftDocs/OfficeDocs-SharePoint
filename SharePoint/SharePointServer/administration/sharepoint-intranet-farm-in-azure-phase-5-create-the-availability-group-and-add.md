@@ -8,7 +8,7 @@ ms.date: 04/06/2018
 audience: ITPro
 f1.keywords:
 - CSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -21,7 +21,7 @@ description: "Configure the SQL Server availability group for your high-availabi
 
 # SharePoint Intranet Farm in Azure Phase 5: Create the availability group and add the SharePoint databases
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)] 
   
 In this final phase of deploying an intranet-only SharePoint Server 2016 farm in Azure infrastructure services, you create a new SQL Server AlwaysOn Availability Group with the databases of the SharePoint farm, create the availability group listener, and then complete the SharePoint farm configuration.
   
