@@ -1,5 +1,5 @@
 ---
-title: "Custom Tiles in SharePoint Servers 2016 and 2019"
+title: "Custom Tiles in SharePoint Servers 2016, 2019 and Subscription Edition"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -15,10 +15,10 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 8e7535ee-8a38-4878-aaf3-78b669f4aca8
-description: "This article describes Custom Tiles which is one of the new features in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1)."
+description: "This article describes Custom Tiles, which is one of the new features in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1)."
 ---
 
-# Custom Tiles in SharePoint Servers 2016 and 2019
+# Custom Tiles in SharePoint Servers 2016, 2019 and Subscription Edition
 
 [!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)] 
   
@@ -43,7 +43,7 @@ The custom tile feature is not enabled by default. To enable the feature, do the
     
     If these permissions are not satisfied, contact your Setup administrator or SQL Server administrator to request these permissions.
     
-    For additional information about PowerShell permissions, see [Permissions](/powershell/sharepoint/sharepoint-server/sharepoint-server-cmdlets?view=sharepoint-ps&preserve-view=true) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
+    For more information about PowerShell permissions, see [Permissions](/powershell/sharepoint/sharepoint-server/sharepoint-server-cmdlets?view=sharepoint-ps&preserve-view=true) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
     
 2. On the **Start** menu, click **All Programs**
     
@@ -92,7 +92,7 @@ The custom tile feature is not enabled by default. To enable the feature, do the
     > [!NOTE]
     > List or library items in SharePoint Server can be targeted to appear only to people who are members of a particular group or audience. An audience can be identified by using SharePoint groups, distribution lists, or security groups or by using a rules-based system to create a global audience. 
   
-After you add a new item in the custom tiles list due to caching, it may take up to 24 hours before you can see it appear in the app launcher. If you want to see it immediately, you can run **ClearSuiteLinksCache()** function in the developer browser's console which is displayed by pressing **F12** while in a browser session as displayed in the following diagram. 
+After you add a new item in the custom tiles list due to caching, it may take up to 24 hours before you can see it appear in the app launcher. If you want to see it immediately, you can run **ClearSuiteLinksCache()** function in the developer browser's console that is displayed by pressing **F12** while in a browser session as displayed in the following diagram. 
 
   > [!NOTE]
   > The **ClearSuiteLinksCache()** function is not available for modern sites in SharePoint Server 2019 and will generate an error if used.
@@ -119,7 +119,7 @@ If you want to use the same list of custom tiles across multiple web application
     
     If these permissions are not satisfied, contact your Setup administrator or SQL Server administrator to request these permissions.
     
-    For additional information about PowerShell permissions, see [Permissions](/powershell/sharepoint/sharepoint-server/sharepoint-server-cmdlets?view=sharepoint-ps&preserve-view=true) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
+    For more information about PowerShell permissions, see [Permissions](/powershell/sharepoint/sharepoint-server/sharepoint-server-cmdlets?view=sharepoint-ps&preserve-view=true) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true).
     
 2. On the **Start** menu, click **All Programs**
     
@@ -135,9 +135,9 @@ If you want to use the same list of custom tiles across multiple web application
   $w.Update()
   ```
 
-If you want to unhide list of custom tiles you can do this by using PowerShell.
+If you want to unhide list of custom tiles, you can do this by using PowerShell.
   
-From a PowerShell command prompt, type the follow commands:
+From a PowerShell command prompt, type the following commands:
   
 ```
 $web = get-spweb "http://web_app"
@@ -149,11 +149,11 @@ $list.update()
 > [!NOTE]
 > The List will be visible when site Contents is viewed. 
   
-To add this list to Left Navigation pane, do the follow steps:
+To add this list to Left Navigation pane, do the following steps:
   
 1. Browse to List settings.
     
-2. Click on **List** name, description and navigation. 
+2. Click on **List** name, description, and navigation. 
     
 3. Select **Yes** for Navigation setting to display list on **Quick Launch** as displayed with this image. 
     
