@@ -29,7 +29,7 @@ This article describes the services associated with each server role. These serv
 > [!NOTE]
 > The services listed is the list of what will be running on each server role if all of the services are enabled. Services associated with service applications will only be enabled if the farm administrator provisions that service application. Services that aren't associated with service applications will only be running if Auto Provision is enabled on that service. 
   
-For additional information about the MinRole feature in SharePoint Server 2016, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](../install/overview-of-minrole-server-roles-in-sharepoint-server.md).
+For more information about the MinRole feature in SharePoint Server 2016, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](../install/overview-of-minrole-server-roles-in-sharepoint-server.md).
   
 ## MinRole and associated services for each server role
 

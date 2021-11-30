@@ -26,7 +26,7 @@ description: "Learn about how to convert your server roles in a SharePoint farm 
 
  **About Server Role Conversion**
   
-Servers can be converted to a different server role without having to disconnect them from your farm and then rejoining them using the different server role. Servers can be converted to dedicated roles, shared roles, the Custom server role, or the Single-Server Farm server role. Server role conversion can be performed through the the SharePoint Central Administration website or Microsoft PowerShell.
+Servers can be converted to a different server role without having to disconnect them from your farm and then rejoining them using the different server role. Servers can be converted to dedicated roles, shared roles, the Custom server role, or the Single-Server Farm server role. Server role conversion can be performed through the SharePoint Central Administration website or Microsoft PowerShell.
   
 > [!NOTE]
 > You can only convert a server to the Single-Server Farm server role if it is the only SharePoint server in the farm. 
@@ -44,7 +44,7 @@ To enable the Distributed Cache service, the administrator runs the **Add-SPDist
   
  **Search and role conversion**
   
-Role conversion can't convert a server from a role hosting Search to a role that doesn't host Search if the server is part of an active Search topology. You must remove the server from the active Search topology before performing role conversion. If this step isn't performed before role conversion, role conversion pre-validation will block the role conversion.
+Role conversion can't convert a server from a role hosting Search to a role that doesn't host Search if the server is part of an active Search topology. Remove the server from the active Search topology before performing role conversion. If this step isn't performed before role conversion, role conversion pre-validation will block the role conversion.
   
 > [!NOTE]
 > After you convert a server to a role that hosts Search, you must add the server into the active Search topology. 
@@ -72,12 +72,12 @@ Role conversion can't convert a server from a role hosting Search to a role that
     
   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - local Administrators group on the server on which you are running the PowerShell cmdlets.
+  - Local Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true) cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+    > If you do not have permissions, contact your setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. On the **Start** menu, click **Microsoft SharePoint Products**.
     

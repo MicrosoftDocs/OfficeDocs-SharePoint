@@ -1,5 +1,5 @@
 ---
-title: "Managing a MinRole Server Farm in SharePoint Servers 2016 and 2019"
+title: "Managing a MinRole Server Farm in SharePoint Servers 2016, 2019 and Subscription Edition"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -22,7 +22,7 @@ description: "Learn how to manage your MinRole farm deployment in SharePoint Ser
 
 Learn how to manage your MinRole farm deployment in SharePoint Servers 2016, 2019 and Subscription Edition.
   
- **MinRole** is a new farm topology based on a set of predefined server roles introduced in SharePoint Server 2016. When configuring your SharePoint farm, you now select the role of a server when you create a new farm or join a server to an existing farm. SharePoint will automatically configure the services on each server based on the server's role. SharePoint Servers 2016, 2019 and Subscription Edition are optimized for the MinRole farm topology. 
+ **MinRole** is a new farm topology based on a set of predefined server roles introduced in SharePoint Server 2016. When configuring your SharePoint farm, you now select the role of a server when you create a new farm or join a server to an existing farm. SharePoint will automatically configure the services on each server based on the server's role. SharePoint Servers 2016, 2019 and Subscription Edition is optimized for the MinRole farm topology. 
   
 ## MinRole administration
 
@@ -41,7 +41,7 @@ The **Role** column displays the role that is assigned to the server in the farm
 > [!NOTE]
 > In the "Servers in Farm" page, the SQL server and SMTP server will be listed as belonging to the "External" role, while in Microsoft PowerShell, their server roles are displayed as "Invalid". These two role names are equivalent. 
   
-The **Compliant** column displays whether the server configuration is in compliance with its server role. If the server is not in compliance, a **Fix** link will be provided to automatically reconfigure the server to match the expected configuration of its server role. 
+The **Compliant** column displays whether the server configuration is in compliance with its server role. If the server isn't in compliance, a **Fix** link will be provided to automatically reconfigure the server to match the expected configuration of its server role. 
   
 > [!NOTE]
 > Only members of the local Administrators group on the server that hosts Central Administration have access to the **Fix** link. 
