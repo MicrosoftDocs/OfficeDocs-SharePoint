@@ -129,6 +129,7 @@ When you need cloud storage for individual users beyond the initial 5 TB, additi
 >> [!div class="nextstepaction"]
 >> [Run Tests: Check OneDrive Storage Quota](https://aka.ms/PillarOneDriveQuota)
 
->[!NOTE] This feature is not available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany. 
+> [!NOTE]
+> This feature is not available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany. 
 
 > To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](/sharepoint/manage-user-profiles).
