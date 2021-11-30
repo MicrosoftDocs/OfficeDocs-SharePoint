@@ -125,7 +125,7 @@ When you need cloud storage for individual users beyond the initial 5 TB, additi
 
 ## Automated troubleshooting for issues when changing OneDrive storage
 
-If you're an administrator, and you're having trouble changing a users OneDrive Storage, select Run Tests below, which will populate a diagnostic in the Microsoft 365 Admin Center. These tests will check your configuration and quickly recommend next steps to resolve the issue. 
+If you are an administrator, and you're having trouble changing a user's OneDrive storage, select **Run Tests** below, which will populate a diagnostic in the Microsoft 365 admin center. These tests will check your configuration and quickly recommend the next steps to resolve the issue. 
 
  > [!NOTE]
  > This feature is only available for Microsoft 365 admins and is not available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany.
