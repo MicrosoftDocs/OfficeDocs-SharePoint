@@ -123,7 +123,7 @@ When you need cloud storage for individual users beyond the initial 5 TB, additi
 
 ## Diagnose issues with changing the OneDrive storage
 
-> If you are attempting to change the OneDrive storage for a user and are not able to do so or the storage amount reverts to the original value, a Microsoft 365 administrator can run tests to determine what may be preventing the storage from changing. 
+If you are attempting to change the OneDrive storage for a user and are not able to do so or the storage amount reverts to the original value, a Microsoft 365 administrator can run tests to determine what may be preventing the storage from changing. 
 
 > [!NOTE]
 > If you're an administrator and you're having trouble changing the OneDrive storage for a user or the storage amount reverts to the original value, select **Run Tests** below, which will populate the OneDrive storage quota diagnostic in the Microsoft 365 admin center. These tests will help determine what may be preventing the storage from changing and recommend steps for a resolution. 
