@@ -115,11 +115,12 @@ When users share files or folders, recipients will be asked to enter a verificat
 
 ![Enter Verification Code screen](media/verification-code.png)
 
-If Azure B2B integration is not enabled, recipients will enter the code each time they access the file or folder and are not added to your directory.
+If Azure AD B2B integration is not enabled, recipients will enter the code each time they access the file or folder and are not added to your directory.
 
-If Azure B2B integration is enabled, recipients will go through the Azure B2B invitation which may prompt them to sign in or use a one-time passcode, depending on your organization's settings in Azure B2B.
+If Azure AD B2B integration is enabled, recipients may be prompted to sign in or use a one-time passcode, depending on your organization's Azure AD B2B settings.
 
 More information about this feature can be found at [SharePoint and OneDrive integration with Azure AD B2B](./sharepoint-azureb2b-integration.md).
+
 > [!NOTE]
 > Sites can't be shared with people unless they have a Microsoft account or a work or school account in Azure AD.
   
