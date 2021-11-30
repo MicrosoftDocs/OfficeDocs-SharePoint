@@ -119,7 +119,7 @@ If Azure AD B2B integration is not enabled, recipients will enter the code each 
 
 If Azure AD B2B integration is enabled, recipients may be prompted to sign in or use a one-time passcode, depending on your organization's Azure AD B2B settings.
 
-More information about this feature can be found at [SharePoint and OneDrive integration with Azure AD B2B](./sharepoint-azureb2b-integration.md).
+More information about Azure AD B2B integration can be found at [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md).
 
 > [!NOTE]
 > Sites can't be shared with people unless they have a Microsoft account or a work or school account in Azure AD.
