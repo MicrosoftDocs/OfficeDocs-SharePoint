@@ -123,7 +123,7 @@ When you need cloud storage for individual users beyond the initial 5 TB, additi
 > 
 > To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](/sharepoint/manage-user-profiles).
 
-## Automated Troubleshooting for issues changing OneDrive Storage
+## Automated troubleshooting for issues when changing OneDrive storage
 
 If you're an administrator, and you're having trouble changing a users OneDrive Storage, select Run Tests below, which will populate a diagnostic in the Microsoft 365 Admin Center. These tests will check your configuration and quickly recommend next steps to resolve the issue. 
 
