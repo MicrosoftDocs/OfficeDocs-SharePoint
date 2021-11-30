@@ -115,7 +115,7 @@ When users share files or folders, recipients will be asked to enter a verificat
 
 ![Enter Verification Code screen](media/verification-code.png)
 
-If Azure B2B Integration is not enabled, recipients will enter the code each time they access the file or folder and are not added to your directory.
+If Azure B2B integration is not enabled, recipients will enter the code each time they access the file or folder and are not added to your directory.
 
 If Azure B2B Integration is enabled, recipients will go through the Azure B2B invitation which may prompt them to sign-in or use a one time passcode, depending on your organization's settings in Azure B2B.
 
