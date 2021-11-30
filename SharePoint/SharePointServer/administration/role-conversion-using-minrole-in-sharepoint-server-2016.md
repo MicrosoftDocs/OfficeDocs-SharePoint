@@ -1,5 +1,5 @@
 ---
-title: "Role conversion using MinRole in SharePoint Servers 2016 and 2019"
+title: "Role conversion using MinRole in SharePoint Servers 2016, 2019 and Subscription Edition"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -18,7 +18,7 @@ ms.assetid: bcbddee7-1c77-4788-9a32-fb585c48ee37
 description: "Learn about how to convert your server roles in a SharePoint farm deployment using MinRole. MinRole help administrators select the right server role when provisioning SharePoint Server."
 ---
 
-# Role conversion using MinRole in SharePoint Servers 2016 and 2019
+# Role conversion using MinRole in SharePoint Servers 2016, 2019 and Subscription Edition
 
 [!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)] 
   
@@ -60,7 +60,7 @@ Role conversion can't convert a server from a role hosting Search to a role that
     
 3. On the **System Settings** page, click **Convert server role in this farm**.
     
-4. On the **Role Conversion** page, in the **New Role** area, click the drop-down box to select the new server role for each server to ﻿change. 
+4. On the **Role Conversion** page, in the **New Role** area, click the drop-down box to select the new server role for each server to change. 
     
 5. Click **Apply**.
     
