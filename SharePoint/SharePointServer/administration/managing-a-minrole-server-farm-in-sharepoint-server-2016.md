@@ -16,13 +16,13 @@ ms.assetid: 883fac19-3048-4ef0-b473-10b3b05493b6
 description: "Learn how to manage your MinRole farm deployment in SharePoint Server."
 ---
 
-# Managing a MinRole Server Farm in SharePoint Servers 2016 and 2019
+# Managing a MinRole Server Farm in SharePoint Servers 2016, 2019 and Subscription Edition
 
 [!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
 
-Learn how to manage your MinRole farm deployment in SharePoint Servers 2016 and 2019.
+Learn how to manage your MinRole farm deployment in SharePoint Servers 2016, 2019 and Subscription Edition.
   
- **MinRole** is a new farm topology based on a set of predefined server roles introduced in SharePoint Server 2016. When configuring your SharePoint farm, you now select the role of a server when you create a new farm or join a server to an existing farm. SharePoint will automatically configure the services on each server based on the server's role. SharePoint Servers 2016 and 2019 are optimized for the MinRole farm topology. 
+ **MinRole** is a new farm topology based on a set of predefined server roles introduced in SharePoint Server 2016. When configuring your SharePoint farm, you now select the role of a server when you create a new farm or join a server to an existing farm. SharePoint will automatically configure the services on each server based on the server's role. SharePoint Servers 2016, 2019 and Subscription Edition are optimized for the MinRole farm topology. 
   
 ## MinRole administration
 
@@ -137,6 +137,6 @@ For more information about how to subscribe a service to a specific role, see [S
   
  **Integrate with role conversion pre-validation**
   
-1. ﻿Implement the service instance class of the service by inheriting from the **SPServiceInstance** class. 
+1. Implement the service instance class of the service by inheriting from the **SPServiceInstance** class. 
     
-2. ﻿Override the **IsReadyForRoleConversion(SPServerRole newRole, out IEnumerable\<string\> errorMessages)** method to detect if your service instance is ready for role conversion to the server role specified by the newRole parameter. Return **true** if it's ready or **false** if it isn't ready. If you return **false**, provide a list of messages to explain why ﻿the service instance isn't ready for role conversion and instructions for resolving the issue ﻿via the errorMessages parameter.
+2. Override the **IsReadyForRoleConversion(SPServerRole newRole, out IEnumerable\<string\> errorMessages)** method to detect if your service instance is ready for role conversion to the server role specified by the newRole parameter. Return **true** if it's ready or **false** if it isn't ready. If you return **false**, provide a list of messages to explain why the service instance isn't ready for role conversion and instructions for resolving the issue via the errorMessages parameter.
