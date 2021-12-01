@@ -32,7 +32,6 @@ SharePoint Server supports the following operating systems:
 SharePoint Server Subscription Edition supports the following Windows Server installation options:
 
 - Server with Desktop Experience
-
 - Server Core
 
 > [!NOTE]

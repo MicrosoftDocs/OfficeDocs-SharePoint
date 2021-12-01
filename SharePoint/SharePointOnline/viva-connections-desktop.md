@@ -8,7 +8,8 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint-online
+ms.service: viva
+ms.subservice: viva-connections
 ms.localizationpriority: high
 ms.collection:  
 - Strat_SP_modern
@@ -90,7 +91,7 @@ Viva Connections desktop can be provisioned through PowerShell and then will be 
 
 Complete the following steps to enable Viva Connections desktop using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell):
 
-1.	**Set up a SharePoint home site:** We highly recommend that you set up a [SharePoint home site](home-site-admin-center.md) and use that site as the default landing experience for your users in Teams. 
+1.	**Set up a SharePoint home site:** We highly recommend that you set up a [SharePoint home site](home-site.md) and use that site as the default landing experience for your users in Teams. 
 
 2.	**Enable global navigation and customize navigational links:** [Set up and customize global navigation in the SharePoint app bar](sharepoint-app-bar.md). Learn about the different ways you can [set up the home site navigation and global navigation](./sharepoint-app-bar.md#see-all-the-different-ways-you-can-set-up-global-navigation) to surface the right content at the right time.
 
@@ -157,7 +158,7 @@ If you have already provisioned Viva Connections desktop via PowerShell, and you
 
 **Q: Can any site be pinned as default landing experience in Teams?**
 
-**A:** Modern SharePoint communication sites are eligible for pinning in Teams via Viva Connections. However, we **highly recommend** that you nominate a [home site in SharePoint](home-site-admin-center.md) and pin that as the default landing experience for your users in Teams.
+**A:** Modern SharePoint communication sites are eligible for pinning in Teams via Viva Connections. However, we **highly recommend** that you nominate a [home site in SharePoint](home-site.md) and pin that as the default landing experience for your users in Teams.
 <br>
 <br>
 

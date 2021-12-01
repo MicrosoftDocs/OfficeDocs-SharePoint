@@ -549,6 +549,41 @@
       "source_path": "SharePoint/SharePointOnline/intranet-overview.md",
       "redirect_url": "SharePoint/SharePointOnline/intranet-team-overview.md",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "sharepoint/sharepointonline/home-site-admin-center.md",
+      "redirect_url": "/sharepoint/home-site",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/viva-connections-overview.md",
+      "redirect_url": "/viva/connections/viva-connections-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/guide-to-setting-up-viva-connections.md",
+      "redirect_url": "/viva/connections/guide-to-setting-up-viva-connections",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/home-site-plan.md",
+      "redirect_url": "/viva/connections/home-site-plan",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/sharepoint-app-bar.md",
+      "redirect_url": "/viva/connections/sharepoint-app-bar",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/create-dashboard.md",
+      "redirect_url": "/viva/connections/create-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/add-viva-connections-app,md",
+      "redirect_url": "/viva/connections/add-viva-connections-app,md",
+      "redirect_document_id": false
     }
   ]
 }
