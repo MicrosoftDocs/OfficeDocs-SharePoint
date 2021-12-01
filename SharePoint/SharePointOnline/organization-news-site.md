@@ -26,7 +26,7 @@ To specify SharePoint sites as "official" or "authoritative" for news in your or
 
 ![A post from an organization news site on the SharePoint start page](media/c9335bc4-6be2-41e8-bd53-bf32a946d179.png)
 
-SharePoint admins can specify any number of organization news sites. For multi-geo tenants, organization news sites would have to be set up for each geo location. Each geo location could use the same central organization news site, and/or have its own unique site that shows organization news specific to that region.
+SharePoint admins can create and specify up to 250 organization news sites. For multi-geo tenants, organization news sites would have to be set up for each geo location. Each geo location could use the same central organization news site, and/or have its own unique site that shows organization news specific to that region.
 
 > [!NOTE]
 > When SharePoint home sites are released, they will be automatically configured as organization news sites.
