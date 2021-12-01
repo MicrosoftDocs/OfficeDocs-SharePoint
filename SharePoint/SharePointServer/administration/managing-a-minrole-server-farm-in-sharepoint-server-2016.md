@@ -1,5 +1,5 @@
 ---
-title: "Managing a MinRole Server Farm in SharePoint Servers 2016, 2019 and Subscription Edition"
+title: "Managing a MinRole Server Farm in SharePoint Servers 2016, 2019, and Subscription Edition"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -16,13 +16,13 @@ ms.assetid: 883fac19-3048-4ef0-b473-10b3b05493b6
 description: "Learn how to manage your MinRole farm deployment in SharePoint Server."
 ---
 
-# Managing a MinRole Server Farm in SharePoint Servers 2016, 2019 and Subscription Edition
+# Managing a MinRole Server Farm in SharePoint Servers 2016, 2019, and Subscription Edition
 
 [!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
 
-Learn how to manage your MinRole farm deployment in SharePoint Servers 2016, 2019 and Subscription Edition.
+Learn how to manage your MinRole farm deployment in SharePoint Servers 2016, 2019, and Subscription Edition.
   
- **MinRole** is a new farm topology based on a set of predefined server roles introduced in SharePoint Server 2016. When configuring your SharePoint farm, you now select the role of a server when you create a new farm or join a server to an existing farm. SharePoint will automatically configure the services on each server based on the server's role. SharePoint Servers 2016, 2019 and Subscription Edition is optimized for the MinRole farm topology. 
+ **MinRole** is a new farm topology based on a set of predefined server roles introduced in SharePoint Server 2016. When configuring your SharePoint farm, you now select the role of a server when you create a new farm or join a server to an existing farm. SharePoint will automatically configure the services on each server based on the server's role. SharePoint Servers 2016, 2019, and Subscription Edition is optimized for the MinRole farm topology. 
   
 ## MinRole administration
 

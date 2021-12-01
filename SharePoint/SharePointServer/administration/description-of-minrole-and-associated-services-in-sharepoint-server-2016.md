@@ -1,5 +1,5 @@
 ---
-title: "Description of MinRole and associated services in SharePoint Servers 2016, 2019 and Subscription Edition"
+title: "Description of MinRole and associated services in SharePoint Servers 2016, 2019, and Subscription Edition"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -18,7 +18,7 @@ ms.assetid: 00c33e26-dacb-47d4-97b8-84659095b108
 description: "Learn about the MinRole feature in SharePoint Server and the services that are associated with each server role."
 ---
 
-# Description of MinRole and associated services in SharePoint Servers 2016, 2019 and Subscription Edition
+# Description of MinRole and associated services in SharePoint Servers 2016, 2019, and Subscription Edition
 
 [!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)] 
   
@@ -55,5 +55,5 @@ The following table shows the services for each server role.
 
 [Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server.md)
   
-[Managing a MinRole Server Farm in SharePoint Servers 2016, 2019 and Subscription Edition](managing-a-minrole-server-farm-in-sharepoint-server-2016.md)
+[Managing a MinRole Server Farm in SharePoint Servers 2016, 2019, and Subscription Edition](managing-a-minrole-server-farm-in-sharepoint-server-2016.md)
 
