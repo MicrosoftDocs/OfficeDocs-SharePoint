@@ -48,7 +48,7 @@ We're continuously adding new features to the new SharePoint admin center and fi
     - Term store operations
     - Microsoft 365 active users report
 
-You can also create a card by [tracking a view](manage-sites-in-new-admin-center.md#track-a-view) on the Active sites page. 
+You can also create a card by [tracking a view](customize-admin-center-site-list.md#track-a-view) on the Active sites page. 
 
 [Learn more about the new home page dashboard](get-started-new-admin-center.md)
 
@@ -62,7 +62,7 @@ You can also create a card by [tracking a view](manage-sites-in-new-admin-center
 
 ## June 2020
 
-- **Improvements to the Export feature**. On the Active sites page, you can [export your customized view as a .csv file](manage-sites-in-new-admin-center.md#export-to-csv).
+- **Improvements to the Export feature**. On the Active sites page, you can [export your customized view as a .csv file](customize-admin-center-site-list.md#export-to-csv).
 - **New Segments column on the Active sites page**. Organizations that use information barriers can now view and manage the segments associated with sites. [Learn about using information barriers with SharePoint](information-barriers.md)
 
 ## April 2020

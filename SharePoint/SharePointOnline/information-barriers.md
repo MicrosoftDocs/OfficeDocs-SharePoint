@@ -166,7 +166,7 @@ SharePoint or Global Administrators can view and manage segments on a SharePoint
 
 To view, edit, or remove information segments for a site, use the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true).  
 
-The Segments column lists the first segment associated with the site and shows whether the site has other segments associated. [Learn how to show or move this column](manage-sites-in-new-admin-center.md#customize-columns)
+The Segments column lists the first segment associated with the site and shows whether the site has other segments associated. [Learn how to show or move this column](customize-admin-center-site-list.md#customize-columns)
 
 ![Segments column on the Active sites page.](media/info-barriers-segments-column.png)
 
