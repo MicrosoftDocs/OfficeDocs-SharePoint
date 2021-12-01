@@ -17,7 +17,7 @@ description: "Learn how to configure SharePoint document library versioning sett
 
 # Configure versioning for co-authoring in SharePoint 2013
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 Document library versioning is the method by which successive iterations of a document are numbered and saved. By default, versioning is disabled in SharePoint Server 2013 document libraries . We recommend that you enable this feature for document libraries in which users plan to co-author documents or presentations.
   

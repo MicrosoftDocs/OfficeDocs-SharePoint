@@ -22,7 +22,7 @@ description: "Learn how to govern applications for SharePoint by creating a cust
 
 # Application management and governance in SharePoint
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 How will you manage the applications that are developed for your environment? What customization do you allow in your applications, and what are your processes for managing those applications?
   

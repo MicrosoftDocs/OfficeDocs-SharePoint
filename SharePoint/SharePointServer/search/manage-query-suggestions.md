@@ -18,7 +18,7 @@ description: "Query suggestions are phrases that you want the search system to s
 
 # Manage query suggestions in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
 Query suggestions help users find information quickly by showing queries that might be similar to the one they're typing. For example, as users start to type "sales", they may be able to pick common sales-related queries from a list below the Search Box. 
   

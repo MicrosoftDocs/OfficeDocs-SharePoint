@@ -25,7 +25,7 @@ description: "Hybrid self-service site creation redirects the default self-servi
 
 # Hybrid self-service site creation
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 Hybrid self-service site creation redirects the default self-service site creation page in SharePoint Server (/_layouts/15/scsignup.aspx) or (/_layouts/16/scsignup.aspx) to the SharePoint in Microsoft 365 Group Creation page. By configuring this feature, you can help your users to create their sites in SharePoint in Microsoft 365 instead of SharePoint Server.
   

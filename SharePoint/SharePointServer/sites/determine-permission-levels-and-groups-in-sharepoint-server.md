@@ -21,7 +21,7 @@ description: "Learn how to define the correct SharePoint Server permission level
 
 # Determine permission levels and groups in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 A SharePoint group is a set of users that can be managed together. A permission level is a set of permissions that can be assigned to a specific group for a specific securable object. SharePoint groups and permission levels are defined at the site collection level and are inherited from the parent object by default. This article describes default groups and permission levels and helps you decide whether to use them as they are, customize them, or create different groups and permission levels. 
     
@@ -48,10 +48,13 @@ If you use a site template other than the team site template, you will see a dif
 |**Group name**|**Default permission level**|**Description**|
 |:-----|:-----|:-----|
 |Restricted Readers  <br/> |Restricted Read to the site, plus Limited Access to specific lists  <br/> |Members of this group can view pages and documents, but cannot view historical versions or review user rights information.  <br/> |
-|Style Resource Readers  <br/> |Read to the Master Page Gallery and Restricted Read to the Style Library.  <br/> |Members of this group are given Read permission to the Master Page Gallery and Restricted Read permission to the Style Library. By default, all authenticated users are a member of this group.  <br/> > [!NOTE]> Do not remove all authenticated users from this group as Master Page Gallery and Style Library are shared across all sites in the site collection and must be accessible to all users of all sites. If you remove all authenticated users from the group, anyone with this permission level on a subsite will not be able to render the site. SharePoint will not automatically add or remove users of subsites to or from this group as needed.           |
+|Style Resource Readers  <br/> |Read to the Master Page Gallery and Restricted Read to the Style Library.  <br/> |Members of this group are given Read permission to the Master Page Gallery and Restricted Read permission to the Style Library. By default, all authenticated users are a member of this group.  <br/>           |
 |Designers  <br/> |Design, Limited Access  <br/> |Members of this group can view, add, update, delete, approve, and customize the layout of site pages by using the browser or SharePoint Designer 2013.  <br/> |
 |Approvers  <br/> |Approve, plus Limited Access  <br/> |Members of this group can edit and approve pages, list items, and documents.  <br/> |
 |Hierarchy Managers  <br/> |Manage Hierarchy, plus Limited Access  <br/> |Members of this group can create sites, lists, list items, and documents.  <br/> |
+   
+> [!NOTE] 
+> Do not remove all authenticated users from the Style Resource Readers group as Master Page Gallery and Style Library are shared across all sites in the site collection and must be accessible to all users of all sites. If you remove all authenticated users from the group, anyone with this permission level on a subsite will not be able to render the site. SharePoint will not automatically add or remove users of subsites to or from this group as needed.
    
 > [!TIP]
 > The Limited Access permission level is used to give groups access to a specific list, library, folder, document, or item, without giving them access to the entire site. Do not remove this permission level from the groups listed above. If this permission level is removed, the groups might not be able to navigate through the site to get the specific items with which they need to interact. 

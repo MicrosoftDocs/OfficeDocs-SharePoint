@@ -42,7 +42,7 @@ When you've completed these tasks, you're ready to plan for, deploy, and configu
 
 2.  **Install and configure.** Sync apps are available for the Windows and macOS operating systems that provide a seamless experience for users interacting with their files. Most small businesses start by installing the sync app on their users' devices, and then consider the OneDrive mobile apps later. In fact, you may already have the OneDrive client on your devices. Devices running the Windows 10 operating system and devices running Windows or macOS with Microsoft Office 2016 or later will have the OneDrive sync app already. For information about how to install and configure the OneDrive sync app and mobile apps, see the section [Install and configure OneDrive](#install-and-set-up-onedrive-apps).
 
-3.  **Manage OneDrive.** For many small businesses, managing OneDrive is optional. You could simply install and configure OneDrive and leave it at that. If you want to use advanced features of OneDrive or add device sharing or access restrictions, however, you can easily manage those and other settings in the OneDrive admin center. For more information about managing OneDrive, see the section [Manage OneDrive](#manage-onedrive).
+3.  **Manage OneDrive.** For many small businesses, managing OneDrive is optional. You could simply install and configure OneDrive and leave it at that. If you want to use advanced features of OneDrive or add device sharing or access restrictions, however, you can easily manage those and other settings in the SharePoint admin center. For more information about managing OneDrive, see the section [Manage OneDrive](#manage-onedrive).
 
 ## Key OneDrive features for small businesses
 
@@ -133,25 +133,21 @@ To learn how to perform tasks in OneDrive on an Android device, see [Use OneDriv
 
 ## Manage OneDrive
 
-Many small businesses use OneDrive without changing any of the options.
+Many small businesses use OneDrive without changing any of the options. To change these settings, use the SharePoint admin center.
 
-If you want to add some basic device and sharing restrictions to OneDrive, you can use the OneDrive admin center. To access the new OneDrive admin center, go to https://admin.onedrive.com. There, you can restrict the people with whom your users can share files, choose the devices your employees can use to access OneDrive, and more.
+- **Sharing.** Go to the [Sharing page](https://admin.microsoft.com/sharepoint?page=sharing&modern=true) to set sharing settings at the organization level. To learn more, see [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off).
 
-Settings in the OneDrive admin center are grouped into six categories:
+- **Sync.** Go to the [Settings page](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and select  **Sync**. You can require that synced computers be joined to your domain or block uploads based on file type.
 
--   **Sharing.** Instead of using this page, use the [Sharing page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true). To learn more, see [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off).
+- **Storage limit.** Go to the [Settings page](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and select **Storage limit**. Set the default storage space for all new and existing users who are licensed for a qualifying plan and for whom you haven't set specific storage limits. 
 
--   **Sync.** On the **Sync** page, you can require that synced devices be joined to your domain or configure sync restrictions based on file type.
+- **Retention.** Go to the [Settings page](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and select **Retention**. Configure how long to keep data for users whose accounts have been deleted (the default is 30 days).
 
--   **Storage.** On the **Storage** page, you specify the default OneDrive storage limit for users within your Office 365 organization. You can also configure how long to keep data for users whose accounts have been deleted (the maximum value is 10 years).
+- **Access control.** Go to the [Access control page](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true) to control access from unmanaged devices or based on network location.
 
--   **Device Access.** Instead of using this page, use the [Access control page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true).
+- **Compliance.** [View the compliance and risk management solutions available in Microsoft 365](https://compliance.microsoft.com/solutioncatalog)
 
--   **Compliance.** The **Compliance** page provides a centralized list of links to auditing, data loss prevention (DLP), retention, eDiscovery, and alerting capabilities within Office 365 that are applicable to OneDrive. (Most small businesses won't use these options.)
-
-    Selecting an item's link redirects you to the Office 365 Security & Compliance Center, where you can configure that item. You can create DLP policies from templates that protect certain types of data, such as Social Security numbers, banking information, and other financial and medical content. For a walkthrough of how to create DLP policies in Office 365 and apply them to OneDrive, see [Create a DLP policy from a template](/office365/securitycompliance/create-a-dlp-policy-from-a-template).
-
--   **Notifications.** On the **Notifications** page, you define when OneDrive owners should receive notifications about sharing or accessing their data. These settings are helpful for small businesses that likely don't have IT staff who can audit this information. For information about enabling these options, see [Turn on external sharing notifications for OneDrive](turn-on-external-sharing-notifications.md).
+- **Notifications.** Go to the [Settings page](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and select **Notifications**. For information about this setting, see [Control notifications](turn-on-external-sharing-notifications.md).
 
 ## Get help with OneDrive
 

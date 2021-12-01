@@ -18,7 +18,7 @@ description: "Learn about configuring monitoring, viewing SharePoint reports and
 
 # Overview of monitoring in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The primary goal of monitoring is to ensure a healthy SharePoint Server 2016 environment so that you can achieve service performance objectives such as short response time. You can use the monitoring features from the SharePoint Central Administration website, System Center Management Pack for SharePoint Server 2013, and Microsoft PowerShell scripts to monitor the SharePoint Server 2016 environment and services.
   

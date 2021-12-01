@@ -8,7 +8,7 @@ ms.date: 01/8/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -19,6 +19,8 @@ description: "Learn how to deploy a software update to a SharePoint Server 2016 
 ---
 
 # Software updates overview for SharePoint Server 2016 and 2019
+
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
 
 Administrators update SharePoint Server 2016 or SharePoint Server 2019 to deploy or update assemblies that provide functionality and to upgrade databases. A successful update follows a methodical approach that minimizes interruptions in service. Review information in this article to learn about the process before you begin the update process.
 
@@ -61,9 +63,8 @@ The second type of patch is the language dependent patch. This patch covers all 
 
 To understand how to implement software updates in SharePoint Server 2016, it is important to understand the terminology for the core components.
   
-||||
-|:-----|:-----|:-----|
 |**Term** <br/> |**Definition** <br/> |**Comment** <br/> |
+|:-----|:-----|:-----|
 |**Public Update (PU)** <br/> |A PU is a rollup update that contains all previous critical on-demand hotfixes to date. Additionally, a PU contains fixes for issues that meet the hotfix acceptance criteria. These criteria may include the availability of a workaround, the effect on the customer, the reproducibility of the problem, the complexity of the code that must be changed, or other reasons.  <br/> ||
 |**patch** <br/> |A compiled, executable installer file that contains updates to one or more products. Examples of packages are the executable (.exe) files that you download to install a service pack, public update (PU), or hotfix. Packages are also known as MSI files.  <br/> ||
 |**software update** <br/> |A software update is any update, update rollup, service pack, feature pack, critical update, security update, or hotfix that is used to improve or to fix a software product that is released by Microsoft Corporation.  <br/> ||

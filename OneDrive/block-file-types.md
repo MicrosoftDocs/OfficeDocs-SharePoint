@@ -20,7 +20,7 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: 7d7168dd-9015-4245-a971-61b504f834d6
-description: "In this article, you'll learn how to prevent users from uploading specific file types using the OneDrive admin center."
+description: "In this article, you'll learn how to prevent users from uploading specific file types."
 ---
 
 # Block syncing of specific file types

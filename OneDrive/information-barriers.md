@@ -31,14 +31,14 @@ For OneDrive, information barriers can determine and prevent the following kinds
 
 ## Information barriers modes and OneDrive
 
-When information barriers are enabled on SharePoint and OneDrive, the OneDrive of segmented users are automatically protected with IB policies. [Information barriers modes](/microsoft-365/compliance/information-barriers-policies.md#step-6-information-barriers-modes-preview) help strengthen access, sharing, and membership of a OneDrive site based on its IB mode and segments associated with the OneDrive.
+When information barriers are enabled on SharePoint and OneDrive, the OneDrive of segmented users are automatically protected with IB policies. [Information barriers modes](/microsoft-365/compliance/information-barriers-policies#step-6-information-barriers-modes) help strengthen access, sharing, and membership of a OneDrive site based on its IB mode and segments associated with the OneDrive.
 
 When using information barriers with OneDrive, the following IB modes are supported:
 
 | **Mode** | **Description** |
 |:-------  |:----------------|
 | **Open** | When a non-segmented user provisions their OneDrive, the site's IB mode is set as Open, by default. There are no segments associated with the site. |
-| **Owner Moderated** | When a OneDrive is used for collaboration with incompatible users in the presence of the site owner/moderator, the OneDrive's IB mode can be set as Owner Moderated. See [this section](#manage-the-ib-mode-of-a-users-onedrive) for details on Owner Moderated site. |
+| **Owner Moderated** | When a OneDrive is used for collaboration with incompatible users in the presence of the site owner/moderator, the OneDrive's IB mode can be set as Owner Moderated. See [this section](#manage-the-ib-mode-of-a-users-onedrive-preview) for details on Owner Moderated site. |
 | **Explicit** | When a segmented user provisions their OneDrive within 24 hours of enablement, the site's IB mode is set as *Explicit* by default. The user's segment and other segments that are compatible with the user's segment and with each other get associated with the user's OneDrive. |
 
 ## Sharing files from OneDrive
@@ -194,7 +194,7 @@ Set-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_on
 
 If all the segments of a OneDrive site are removed, the IB mode of the OneDrive is automatically updated to *Open*. 
 
-## Manage the IB mode of a user's OneDrive
+## Manage the IB mode of a user's OneDrive (preview)
 
 A SharePoint admin or global administrator can manage the IB mode of a OneDrive with the following PowerShell command:
 

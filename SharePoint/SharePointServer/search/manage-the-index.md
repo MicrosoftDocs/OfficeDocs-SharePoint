@@ -18,7 +18,7 @@ description: "Learn how to manage collection of content in the search index and 
 
 # Manage the search index in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The following articles describe how you can manage the search index. 
 

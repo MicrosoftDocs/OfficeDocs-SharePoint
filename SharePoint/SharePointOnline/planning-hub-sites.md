@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- m365initiative-spsitemanagement
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
@@ -57,7 +58,7 @@ Many successful intranets include the following elements:
   
 - **Communication**: For example, a home page that includes news from around the organization to keep employees informed, overall navigation, links to key tools and information, internal marketing promotions, and a place to engage employees around important topics. 
     
-- **Content**: A place for the functional parts of the organization, such as Human Resources (HR), Legal, and Information Technology (IT), to offer their services to the rest of the organization. For example, the HR part of the intranet could be where employees can find out how many vacation days they have left, whether their benefits program offers vision or dental coverage, or what training is available for individual roles. The Legal area might be where employees can find a sample Non-Disclosure Agreement they can execute prior to having a conversation with a prospective vendor. 
+- **Content**: A place for the functional parts of the organization, such as Human Resources (HR), Legal, and Information Technology (IT), to offer their services to the rest of the organization. For example, the HR part of the intranet could be where employees can find out how many vacation days they have left, whether their benefits program offers vision or dental coverage, or what training is available for individual roles. The Legal area might be where employees can find a sample non-disclosure agreement they can execute prior to having a conversation with a prospective vendor. 
     
 - **Actions and activities**: Links to the time-tracking system or the expense report form and a place where managers can approve expenses or timesheets. 
     
@@ -88,7 +89,7 @@ At their core, the three types of building blocks share a common structure. For 
 |**Governance** <br/> (as allowed for your organization based on the settings in the Security &amp; Compliance center)  <br/> |Norms typically **determined by the team**. Practices are aligned in the best way to get work done.  <br/> |Policies often **determined by the organization** to ensure consistency of experience and effective management of organizational information.  <br/> |Governance **determined by each owner of the associated site based on the type of site and organizational policies**. The best experience for visitors is achieved when everyone has at least read permissions for associated sites (but this is not required).  <br/> |
 |**Permissions** <br/> |Microsoft 365 group, plus SharePoint groups and permission levels  <br/> |SharePoint group  <br/> |Same as original site type. Hub sites do not alter an associated site's permissions.  <br/> |
 |**Created by** <br/> |**Site owner** (unless this has been disabled in your organization) or **admin**.  <br/> |**Site owner** (unless this has been disabled in your organization)  <br/> |**Global admin** or **SharePoint admin** in Microsoft 365  <br/> |
-|**Examples** <br/> | Project team working together to complete deliverables and manage tasks  <br/>  Holiday party planning committee planning the annual get-together  <br/>  HR performance management team  <br/>  Executive committee—different leadership groups within the organization  <br/>  Extranet site to work with Partner A  <br/> | Travel team publishing guidelines about corporate travel  <br/>  Policies and procedures  <br/>  Micro-site for a new corporate initiative  <br/>  Resources for the sales team for a product or service  <br/> | HR hub that provides a connection and roll-up for all HR functions, such as benefits, compensation, performance management, talent acquisition, and a manager portal  <br/>  Sales hub providing enterprise resources for the Sales organization and connecting regional sales team and communication sites  <br/>  Location-specific hub that groups the communication and team sites for a specific location (the New York office)  <br/> |
+|**Examples** <br/> | - Project team working together to complete deliverables and manage tasks.  <br/> - Holiday party planning committee planning the annual get-together.  <br/>  - HR performance management team.  <br/> - Executive committee—different leadership groups within the organization.  <br/> - Extranet site to work with Partner A.  <br/> | - Travel team publishing guidelines about corporate travel.  <br/> - Policies and procedures.  <br/> - Micro-site for a new corporate initiative.  <br/> - Resources for the sales team for a product or service.  <br/> | - HR hub that provides a connection and roll-up for all HR functions, such as benefits, compensation, performance management, talent acquisition, and a manager portal.  <br/> - Sales hub providing enterprise resources for the Sales organization and connecting regional sales team and communication sites.  <br/>  - Location-specific hub that groups the communication and team sites for a specific location (the New York office).  <br/> |
    
 ## What should be a hub site?
 

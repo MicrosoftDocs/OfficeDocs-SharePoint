@@ -18,7 +18,7 @@ description: "Determine hardware requirements and review considerations to scale
 
 # Scale search for Internet sites in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article lists the minimum hardware requirements for virtual machines and physical servers for search topologies for Internet sites.
   

@@ -18,7 +18,7 @@ description: "Find quick access to information about how to resolve issues with 
 
 # Troubleshooting SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 We encourage you to give us your feedback. Your comments, suggestions, and troubleshooting tips can be incorporated into future versions of this content. You can send your feedback to us at [ITSPDOCS@microsoft.com](mailto:ITSPDOCS@microsoft.com).
   

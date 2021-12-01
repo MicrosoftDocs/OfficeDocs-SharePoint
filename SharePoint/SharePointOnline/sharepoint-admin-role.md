@@ -17,6 +17,7 @@ ms.custom:
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- m365initiative-spsitemanagement
 search.appverid:
 - SPO160
 - MOE150
@@ -32,6 +33,8 @@ description: "Learn about the SharePoint admin role in Microsoft 365. SharePoint
 # About the SharePoint admin role in Microsoft 365
 
 Global admins in Microsoft 365 can assign users the SharePoint admin role for help with administering Microsoft SharePoint. The global admin role already has all the permissions of the SharePoint admin role. For info about assigning a user the SharePoint admin role, see [Assign admin roles in Microsoft 365 for business](/office365/admin/add-users/assign-admin-roles).
+
+For info about adding or removing a site admin (previously called "site collection administrator"), see [Manage site admins](manage-site-collection-administrators.md).
 
 ![Manage admin roles in the Microsoft 365 admin center](media/sharepoint-admin-role.png)
   
