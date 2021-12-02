@@ -121,7 +121,7 @@
 #### [SharePoint Migration Identity Mapping Tool: SharePoint Identity Scan](sharepoint-migration-identity-mapping-tool-sharepoint-identity-scan.md)
 #### [SharePoint Migration Identity Mapping: Active Directory Identity Scan](sharepoint-migration-identity-mapping-active-directory-identity-scan.md)
 #### [SharePoint Migration Identity Mapping Tool: Azure Active Directory Identity Scan](sharepoint-migration-identity-mapping-tool-azure-active-directory-identity-scan.md)
-## Cloud to cloud migrations (Mover)
+## Other migrations (Legacy Mover tool)
 ###  Overview
 #### [Plan your migration](mover-plan-migration.md)
 #### [Manage connectors](mover-manage-connectors.md)
