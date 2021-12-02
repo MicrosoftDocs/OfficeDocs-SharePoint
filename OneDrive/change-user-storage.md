@@ -120,5 +120,27 @@ When you need cloud storage for individual users beyond the initial 5 TB, additi
 
 > [!NOTE]
 > To change the storage space for multiple users, use PowerShell to [Display a list of OneDrive accounts by using PowerShell](list-onedrive-urls.md) and use [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite?preserve-view=true&view=sharepoint-ps&preserve-view=true) to make the change.
-> 
+
+## Diagnose issues with changing the OneDrive storage
+
+If you are attempting to change the OneDrive storage for a user and are not able to do so or the storage amount reverts to the original value, a Microsoft 365 administrator can run tests to determine what may be preventing the storage from changing. 
+
+> [!NOTE]
+> If you're an administrator and you're having trouble changing the OneDrive storage for a user or the storage amount reverts to the original value, select **Run Tests** below, which will populate the OneDrive storage quota diagnostic in the Microsoft 365 admin center. These tests will help determine what may be preventing the storage from changing and recommend steps for a resolution. 
+>> [!div class="nextstepaction"]
+>> [Run Tests: Check OneDrive Storage Quota](https://aka.ms/PillarOneDriveQuota)
+
+> [!NOTE]
+> This feature is not available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany. 
+
 > To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](/sharepoint/manage-user-profiles).
+
+## Automated troubleshooting for issues when changing OneDrive storage
+
+If you are an administrator, and you're having trouble changing a user's OneDrive storage, select **Run Tests** below, which will populate a diagnostic in the Microsoft 365 admin center. These tests will check your configuration and quickly recommend the next steps to resolve the issue. 
+
+ > [!NOTE]
+ > This feature is only available for Microsoft 365 admins and is not available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany.
+
+> [!div class="nextstepaction"]
+> [Run Tests: OneDrive Storage Quota](https://aka.ms/PillarOneDriveQuota)
