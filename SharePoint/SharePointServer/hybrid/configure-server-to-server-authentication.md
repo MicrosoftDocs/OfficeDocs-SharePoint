@@ -187,12 +187,12 @@ This section describes the variables you will set in the procedure that follows.
   
 | Variable | Comments |
 |:-----|:-----|
-|$spcn  <br/> |The root domain name of your public domain. This value should not be in the form of a URL; it should be the **domain name only**, with **no protocol**.  <br/> An example is adventureworks.com.  <br/> |
-|$spsite  <br/> |The internal URL of your on-premises primary web application, such as **http://sharepoint** or **https://sharepoint.adventureworks.com**. This value is a full URL using the proper protocol (either **http:** // or **https://** ).  <br/> This is the internal URL of the web application that you are using for hybrid functionality.  <br/> An example is http://sharepoint or https://sharepoint.adventureworks.com.  <br/> |
-|$site  <br/> |The object of your on-premises primary web application. The command that populates this variable gets the object of the site you specified in the **$spsite** variable.  <br/> This variable is automatically populated.  <br/> |
-|$spoappid  <br/> |The SharePoint in Microsoft 365 application principal ID is always 00000003-0000-0ff1-ce00-000000000000. This generic value identifies SharePoint in Microsoft 365 objects in a Microsoft 365 organization.  <br/> |
-|$spocontextID  <br/> |The context ID (ObjectID) of your SharePoint in Microsoft 365 tenant. This value is a unique GUID that identifies your SharePoint in Microsoft 365 tenant.  <br/> This value is automatically detected when you run the command to set the variable.  <br/> |
-|$metadataEndpoint  <br/> |The URL that is used by your Azure Active Directory proxy to connect to your Azure Active Directory tenancy.  <br/> You don't need to input a value for this variable.  <br/> |
+|$spcn  |The root domain name of your public domain. This value should not be in the form of a URL; it should be the **domain name only**, with **no protocol**.  <br/> An example is adventureworks.com.  |
+|$spsite  |The internal URL of your on-premises primary web application, such as **http://sharepoint** or **https://sharepoint.adventureworks.com**. This value is a full URL using the proper protocol (either **http:** // or **https://** ).  <br/> This is the internal URL of the web application that you are using for hybrid functionality.  <br/> An example is http://sharepoint or https://sharepoint.adventureworks.com.  |
+|$site  |The object of your on-premises primary web application. The command that populates this variable gets the object of the site you specified in the **$spsite** variable.  <br/> This variable is automatically populated.  |
+|$spoappid  |The SharePoint in Microsoft 365 application principal ID is always 00000003-0000-0ff1-ce00-000000000000. This generic value identifies SharePoint in Microsoft 365 objects in a Microsoft 365 organization.  |
+|$spocontextID  |The context ID (ObjectID) of your SharePoint in Microsoft 365 tenant. This value is a unique GUID that identifies your SharePoint in Microsoft 365 tenant.  <br/> This value is automatically detected when you run the command to set the variable.  |
+|$metadataEndpoint  |The URL that is used by your Azure Active Directory proxy to connect to your Azure Active Directory tenancy.  <br/> You don't need to input a value for this variable.  |
    
 #### Step 1: Set variables
 <a name="step3"> </a>
