@@ -50,7 +50,7 @@ For in-depth info about **Scan Report**, see the **Reports** subsection under th
 
 ## Interpreting Scan Results for Final Delta/Cutover Events 
   
- You or your customer might have a relative idea of how many items and users are in their source domain and how many they might want to migrate. However, it is essential to get an accurate count of your total items/number of users by running an Inventory Scan. This scan will let you know how many items/users are in the domain and help determine who owns the data. To learn more, see Running a migration inventory scan with Mover. 
+ You or your customer might have a relative idea of how many items and users are in their source domain and how many they might want to migrate. However, it is essential to get an accurate count of your total items/number of users by running an Inventory Scan. This scan will let you know how many items/users are in the domain and help determine who owns the data. To learn more, see [Running a migration inventory scan with Mover](/sharepointmigration/mover-scan). 
   
  Another critical fundamental of running the Inventory Scan is determining the viability of completing a Final Delta or Cutover pass before letting your users start using their OneDrive accounts and SharePoint sites when they switch over to using Microsoft 365. 
   
