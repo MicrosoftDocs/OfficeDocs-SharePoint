@@ -107,17 +107,17 @@ Here's a high-level view of the procedures you have to complete in this section:
 
 2. Configure server-to-server authentication:
     
-  - Set variables you'll be using in later steps.
+   - Set variables you'll be using in later steps.
     
-  - Upload the built-in SharePoint Server STS certificate to SharePoint in Microsoft 365.
+   - Upload the built-in SharePoint Server STS certificate to SharePoint in Microsoft 365.
     
-  - Add a Service Principal Name (SPN) to Azure.
+   - Add a Service Principal Name (SPN) to Azure.
     
-  - Register the SharePoint in Microsoft 365 application principal object ID with on-premises SharePoint Server.
+   - Register the SharePoint in Microsoft 365 application principal object ID with on-premises SharePoint Server.
     
-  - Configure a common authentication realm between your on-premises SharePoint Server farm and SharePoint in Microsoft 365.
+   - Configure a common authentication realm between your on-premises SharePoint Server farm and SharePoint in Microsoft 365.
     
-  - Configure an Azure Active Directory application proxy on-premises.
+   - Configure an Azure Active Directory application proxy on-premises.
     
 ### Install online service management tools and configure the Windows PowerShell window
 <a name="step2"> </a>
@@ -157,21 +157,20 @@ To install the online service management tools and configure the PowerShell wind
     
 8. This step loads the modules you downloaded so you can use them in your PowerShell session. Copy the following commands into your PowerShell session, and press **Enter**. 
     
-  ```powershell
-  Add-PSSnapin Microsoft.SharePoint.PowerShell
-  Import-Module Microsoft.PowerShell.Utility
-  Import-Module MSOnline -force
-  
-  ```
+   ```powershell
+   Add-PSSnapin Microsoft.SharePoint.PowerShell
+   Import-Module Microsoft.PowerShell.Utility
+   Import-Module MSOnline -force
+   ```
 
    If you need to run any of the configuration steps again later, remember to run these commands again to load the required modules and snap-ins in PowerShell.
     
 9. Enter the following commands to sign in to SharePoint in Microsoft 365, from the PowerShell command prompt:
     
-  ```powershell
-  $cred=Get-Credential
-  Connect-MsolService -Credential $cred
-  ```
+   ```powershell
+   $cred=Get-Credential
+   Connect-MsolService -Credential $cred
+   ```
 
    You are prompted to sign in. You need to sign in using a Microsoft 365 global admin account.
     
@@ -349,19 +348,19 @@ To validate the **New-SPAzureAccessControlServiceApplicationProxy** command:
     
 2. Make sure you have an entry with a name that begins with **ACS**, and the enter **Trusted Service Consumer**.
     
-To validate this step, from the PowerShell command prompt, enter the following command.
-  
-```powershell
-Get-SPTrustedSecurityTokenIssuer
-```
-
-The output that's expected is a description of the farm's trusted token issuer, where the value of the **RegisteredIssuerName** property is the following: 
-  
-`00000001-0000-0000-c000-000000000000@<context ID>`
-
-Where:
-
-- \<context ID\> is the context ID of your SharePoint in Microsoft 365 tenancy, which is the value in the $spocontextID variable.
+    To validate this step, from the PowerShell command prompt, enter the following command.
+      
+    ```powershell
+    Get-SPTrustedSecurityTokenIssuer
+    ```
+    
+    The output that's expected is a description of the farm's trusted token issuer, where the value of the **RegisteredIssuerName** property is the following: 
+      
+    `00000001-0000-0000-c000-000000000000@<context ID>`
+    
+    Where:
+    
+    - \<context ID\> is the context ID of your SharePoint in Microsoft 365 tenancy, which is the value in the $spocontextID variable.
 
 #### Step 7: Update Hybrid federated search
 <a name="step9"> </a>
@@ -371,20 +370,23 @@ Starting October 2021, an extra step is required to adjust an existing SharePoin
 The script must be run on a server where SharePoint On-Premises is installed (2013, 2016, or 2019). The script will attempt to install the required module dependencies (MSOnline, AzureAD) on the server where it is run.
 
 1. Download the [configuration script](https://www.microsoft.com/download/103240).
+
 2. From the directory where the script was downloaded, execute the script using SharePoint On-Premises Farm Administrator account, using the following command:
 
-```powershell
-Update-FederatedHybridSearchForM365.ps1 -HybridWebApp YourHybridWebApplication -Force
-```
+    ```powershell
+    Update-FederatedHybridSearchForM365.ps1 -HybridWebApp YourHybridWebApplication -Force
+    ```
 
-For more information on the parameter values, run the following command:
-
-```powershell
-Get-Help .\Update-FederatedHybridSearchForM365.ps1
-```
+    For more information on the parameter values, run the following command:
+    
+    ```powershell
+    Get-Help .\Update-FederatedHybridSearchForM365.ps1
+    ```
 
 3. When prompted, login using Microsoft 365 Global Administrator account.
+
 4. Wait for script execution to complete; in case there are any issues, contact Microsoft Support.
+
 5. After script execution, users will not see any changes when this change is implemented.
 
 
