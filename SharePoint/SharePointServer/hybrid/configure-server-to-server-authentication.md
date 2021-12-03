@@ -185,9 +185,8 @@ Now that you installed the tools to enable you to remotely administer Azure Acti
 
 This section describes the variables you will set in the procedure that follows. These variables contain important information used in many of the remaining configuration steps. 
   
-|||
+| Variable | Comments |
 |:-----|:-----|
-|**Variable** <br/> |**Comments** <br/> |
 |$spcn  <br/> |The root domain name of your public domain. This value should not be in the form of a URL; it should be the **domain name only**, with **no protocol**.  <br/> An example is adventureworks.com.  <br/> |
 |$spsite  <br/> |The internal URL of your on-premises primary web application, such as **http://sharepoint** or **https://sharepoint.adventureworks.com**. This value is a full URL using the proper protocol (either **http:** // or **https://** ).  <br/> This is the internal URL of the web application that you are using for hybrid functionality.  <br/> An example is http://sharepoint or https://sharepoint.adventureworks.com.  <br/> |
 |$site  <br/> |The object of your on-premises primary web application. The command that populates this variable gets the object of the site you specified in the **$spsite** variable.  <br/> This variable is automatically populated.  <br/> |
