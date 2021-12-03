@@ -78,3 +78,15 @@ We do not preserve file versions. During a migration, only the most recent versi
 ## Does Mover notify users?
 
 We automatically suppress all emails to users so they are not bombarded with excessive notifications about the data they now have access to.
+
+## Will multiple duplicate migrations and accounts help?
+
+
+Creating multiple duplicate migrations, either in a single account or across multiple accounts, is not recommended.
+
+The Mover application has an allotted amount of resources per tenant-to-tenant connection. Creating multiple duplicate migrations will not increase the number of resources provided.
+
+>[!Warning]
+>Creating multiple or duplicate migrations of the same source or destination tenant connection typically result in throttling, crashes, and even outright failures.
+
+
