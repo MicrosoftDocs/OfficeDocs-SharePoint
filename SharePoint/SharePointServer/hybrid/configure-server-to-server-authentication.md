@@ -70,7 +70,7 @@ By default, OAuth in SharePoint Server requires **HTTPS**. If you configured you
   
 To enable OAuth over HTTP, run the following commands as a farm administrator account from the SharePoint 2016 Management Shell command prompt on each web server in your SharePoint Server farm.
   
-```
+```powershell
 $serviceConfig = Get-SPSecurityTokenServiceConfig
 $serviceConfig.AllowOAuthOverHttp = $true
 $serviceConfig.Update()
@@ -78,7 +78,7 @@ $serviceConfig.Update()
 
 If you have enabled OAuth over HTTP for testing but want to reconfigure your environment to use SSL, you can disable OAuth over HTTP by running the following commands as a farm administrator account from the SharePoint 2016 Management Shell command prompt on each web server in your SharePoint Server farm.
   
-```
+```powershell
 $serviceConfig = Get-SPSecurityTokenServiceConfig
 $serviceConfig.AllowOAuthOverHttp = $false
 $serviceConfig.Update()
@@ -157,7 +157,7 @@ To install the online service management tools and configure the PowerShell wind
     
 8. This step loads the modules you downloaded so you can use them in your PowerShell session. Copy the following commands into your PowerShell session, and press **Enter**. 
     
-  ```
+  ```powershell
   Add-PSSnapin Microsoft.SharePoint.PowerShell
   Import-Module Microsoft.PowerShell.Utility
   Import-Module MSOnline -force
@@ -168,7 +168,7 @@ To install the online service management tools and configure the PowerShell wind
     
 9. Enter the following commands to sign in to SharePoint in Microsoft 365, from the PowerShell command prompt:
     
-  ```
+  ```powershell
   $cred=Get-Credential
   Connect-MsolService -Credential $cred
   ```
@@ -206,7 +206,7 @@ Now that you identified the variables that you need to set, use these instructio
   
 Copy the following variable declarations and paste them into a text editor like Notepad. Set the input values specific to your organization. From the PowerShell command prompt you configured with the online service management tools, run the commands.
   
-```
+```powershell
 $spcn="*.<public_root_domain_name>.com"
 $spsite=Get-Spsite <principal_web_application_URL>
 $site=Get-Spsite $spsite
@@ -217,7 +217,7 @@ $metadataEndpoint = "https://accounts.accesscontrol.windows.net/" + $spocontextI
 
 After you populate these variables, you can view their values by entering the variable name in the PowerShell window. For example, entering  `$metadataEndpoint` returns a value similar to the following: 
   
- `https://accounts.accesscontrol.windows.net/00fceb75-246c-4ac4-a0ad-7124xxxxxxxx/metadata/json/1`
+`https://accounts.accesscontrol.windows.net/00fceb75-246c-4ac4-a0ad-7124xxxxxxxx/metadata/json/1`
   
 #### Step 2: Upload the STS certificate to SharePoint in Microsoft 365
 <a name="step4"> </a>
@@ -230,7 +230,7 @@ The commands in this step add the on-premises STS certificate (public key only) 
   
 From the PowerShell command prompt, type the following commands.
   
-```
+```powershell
 $stsCert=(Get-SPSecurityTokenServiceConfig).LocalLoginProvider.SigningCertificate
 $binCert = $stsCert.GetRawCertData()
 $credValue = [System.Convert]::ToBase64String($binCert);
@@ -244,7 +244,7 @@ In this step, you add a service principal name (SPN) to your Azure Active Direct
   
 Just like SPNs function in Active Directory, creating this SPN registers an object in Azure Active Directory that is used to support mutual authentication between SharePoint Server and SharePoint in Microsoft 365. The basic syntax for the SPN is:
   
- **\<service type\>/\<instance name\>**
+**\<service type\>/\<instance name\>**
   
 Where:
   
@@ -264,7 +264,7 @@ Using a wildcard value lets SharePoint in Microsoft 365 validate connections wit
   
 To add the SPN to Azure Active Directory, enter the following commands in the Azure Active Directory Module for Windows PowerShell command prompt.
   
-```
+```powershell
 $msp = Get-MsolServicePrincipal -AppPrincipalId $spoappid
 $spns = $msp.ServicePrincipalNames
 $spns.Add("$spoappid/$spcn") 
@@ -273,7 +273,7 @@ Set-MsolServicePrincipal -AppPrincipalId $spoappid -ServicePrincipalNames $spns
 
 To validate that the SPN was set, enter the following commands in the Azure Active Directory Module for Windows PowerShell command prompt.
   
-```
+```powershell
 $msp = Get-MsolServicePrincipal -AppPrincipalId $spoappid
 $spns = $msp.ServicePrincipalNames 
 $spns
@@ -292,7 +292,7 @@ This step registers the SharePoint in Microsoft 365 application principal object
   
 From the PowerShell command prompt, type the following commands.
   
-```
+```powershell
 $spoappprincipalID = (Get-MsolServicePrincipal -ServicePrincipalName $spoappid).ObjectID
 $sponameidentifier = "$spoappprincipalID@$spocontextID"
 $appPrincipal = Register-SPAppPrincipal -site $site.rootweb -nameIdentifier $sponameidentifier -displayName "SharePoint"
@@ -300,7 +300,7 @@ $appPrincipal = Register-SPAppPrincipal -site $site.rootweb -nameIdentifier $spo
 
 To validate this step, from the PowerShell command prompt, type the $appPrincipal variable:
   
-```
+```powershell
 $appPrincipal | fl
 ```
 
@@ -315,13 +315,13 @@ This step sets the authentication realm of your SharePoint Server farm to the co
   
 From the PowerShell command prompt, enter the following command:
   
-```
+```powershell
 Set-SPAuthenticationRealm -realm $spocontextID
 ```
 
 To validate this step, from the PowerShell command prompt, enter the following commands:
   
-```
+```powershell
 $spocontextID
 Get-SPAuthenticationRealm
 ```
@@ -338,7 +338,7 @@ In this step, you create an Azure Active Directory proxy service in the SharePoi
   
 From the PowerShell command prompt, enter the following commands.
   
-```
+```powershell
 New-SPAzureAccessControlServiceApplicationProxy -Name "ACS" -MetadataServiceEndpointUri $metadataEndpoint -DefaultProxyGroup
 New-SPTrustedSecurityTokenIssuer -MetadataEndpoint $metadataEndpoint -IsTrustBroker:$true -Name "ACS"
 ```
@@ -351,7 +351,7 @@ To validate the **New-SPAzureAccessControlServiceApplicationProxy** command:
     
 To validate this step, from the PowerShell command prompt, enter the following command.
   
-```
+```powershell
 Get-SPTrustedSecurityTokenIssuer
 ```
 
@@ -373,13 +373,13 @@ The script must be run on a server where SharePoint On-Premises is installed (20
 1. Download the [configuration script](https://www.microsoft.com/download/103240).
 2. From the directory where the script was downloaded, execute the script using SharePoint On-Premises Farm Administrator account, using the following command:
 
-```
+```powershell
 Update-FederatedHybridSearchForM365.ps1 -HybridWebApp YourHybridWebApplication -Force
 ```
 
 For more information on the parameter values, run the following command:
 
-```
+```powershell
 Get-Help .\Update-FederatedHybridSearchForM365.ps1
 ```
 
