@@ -76,7 +76,7 @@ Using the results from your inventory scan, assess and remediate in the followin
 >**Email** - The Mover tool does not migrate email. For help finding a service that migrates email, see [FastTrack migrations](/fasttrack/data-migration#migration-to-exchange-online)</br>
 >**Trash** - Customer should communicate to their user base that items in the trash can not be moved and to ensure they check items in trash and if needed reclaim from trash for migration.</br>
 
-#### Interpreting Scan Results for Final Delta/Cutover Events 
+### Interpreting Scan Results for Final Delta/Cutover Events 
   
  You or your customer might have a relative idea of how many items and users are in their source domain and how many they might want to migrate. However, it is essential to get an accurate count of your total items/number of users by running an Inventory Scan. This scan will let you know how many items/users are in the domain and help determine who owns the data. To learn more, see [Running a migration inventory scan with Mover](/sharepointmigration/mover-scan). 
   
