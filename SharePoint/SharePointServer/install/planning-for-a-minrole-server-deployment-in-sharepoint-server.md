@@ -28,7 +28,7 @@ description: "Learn about planning your SharePoint farm deployment using MinRole
 
 There are eight pre-defined server roles in 3 categories﻿ you can choose from in SharePoint Servers 2016, 2019, and Subscription Edition. Read more about the roles and their descriptions in the following tables:
   
- **Dedicated Roles:** Dedicated roles are optimized for performance and scalability and are typically used in large scale farms. They can also be used in medium scale farms with shared roles. 
+ **Dedicated Roles:** Dedicated roles are optimized for performance and scalability and are typically used in large-scale farms. They can also be used in medium scale farms with shared roles. 
   
 ||||
 |:-----|:-----|:-----|
@@ -43,7 +43,7 @@ There are eight pre-defined server roles in 3 categories﻿ you can choose from 
 ||||
 |:-----|:-----|:-----|
 |**Server Role** <br/> |**Description** <br/> |**Notes** <br/> |
-|Front-end with Distributed Cache  <br/> |Shared role that combines the Front-end and Distributed Cache roles on the same server. Make sure the server meets the system requirements for hosting a shared server role.  <br/> |This shared role was introduced in the November Public Update for SharePoint Server 2016 (Feature Pack 1).  <br/> |
+|Front end with Distributed Cache  <br/> |Shared role that combines the Front-end and Distributed Cache roles on the same server. Make sure the server meets the system requirements for hosting a shared server role.  <br/> |This shared role was introduced in the November Public Update for SharePoint Server 2016 (Feature Pack 1).  <br/> |
 |Application with Search  <br/> |Shared role that combines the Application and Search roles on the same server. Make sure the server meets the system requirements for hosting a shared server role.  <br/> |This shared role was introduced in November Public Update for SharePoint Server 2016 (Feature Pack 1).  <br/> |
    
  **Special Roles:** For special case scenarios, testing, development, and services that are not integrated with MinRole. 
@@ -86,10 +86,10 @@ Refer to the table below for the list of recommended MinRole content farm topolo
 |:-----|:-----|:-----|
 |**Content Farm Topology** <br/> |**Total Servers in Farm** <br/> |**Description** <br/> |
 |Single-Server Farm  <br/> |1  <br/> | One server with all roles:  <br/>  Evaluation, development, testing.  <br/>  Very light and simple production workloads.  <br/> |
-|Small Non-High Availability MinRole farm  <br/> |2  <br/> | Two servers with two shared roles:  <br/>  One Front-end with Distributed Cache server  <br/>  One Application with Search server  <br/> |
-|Small High Availability (HA) MinRole farm  <br/> |4  <br/> | Four servers with two shared roles:  <br/>  Two Front-end with Distributed Cache servers  <br/>  Two Application with Search servers  <br/> |
+|Small Non-High Availability MinRole farm  <br/> |2  <br/> | Two servers with two shared roles:  <br/>  One Front end with Distributed Cache server  <br/>  One Application with Search server  <br/> |
+|Small High Availability (HA) MinRole farm  <br/> |4  <br/> | Four servers with two shared roles:  <br/>  Two Front-ends with Distributed Cache servers  <br/>  Two Application with Search servers  <br/> |
 |Medium Non-High Availability MinRole farm  <br/> |4  <br/> | Four servers with four dedicated roles:  <br/>  One Front-end server  <br/>  One Distributed Cache server  <br/>  One Application server  <br/>  One Search server  <br/> |
-|Medium High Availability (HA) MinRole farm (Search optimized)  <br/> |6  <br/> | Six servers with both dedicated and shared roles:  <br/>  Two Front-end with Distributed Cache servers  <br/>  Two Application servers  <br/>  Two Search servers  <br/> |
+|Medium High Availability (HA) MinRole farm (Search optimized)  <br/> |6  <br/> | Six servers with both dedicated and shared roles:  <br/>  Two Front-ends with Distributed Cache servers  <br/>  Two Application servers  <br/>  Two Search servers  <br/> |
 |Medium High Availability (HA) MinRole farm (user optimized)  <br/> |6  <br/> | Six servers with both dedicated and shared ﻿roles:  <br/>  Two Front-end servers  <br/>  Two Distributed Cache servers  <br/>  Two Application with Search servers  <br/> |
 |Large High Availability (HA) MinRole farm  <br/> |8  <br/> | Eight servers with four dedicated roles:  <br/>  Two Front-end servers  <br/>  Two Distributed Cache servers  <br/>  Two Application servers  <br/>  Two Search servers  <br/> |
    
@@ -101,7 +101,7 @@ Use the following methods to create a new farm or join servers to an existing fa
   
 - SharePoint Products Configuration Wizard (PSConfigUI.exe)
     
-- PSConfig.exe command line tool
+- PSConfig.exe command-line tool
     
 - Microsoft PowerShell cmdlets
     
@@ -115,7 +115,7 @@ The MinRole feature introduces two new command-line parameters for PSConfig.exe 
     
 - Search (Search server role)
     
-- WebFrontEndWithDistributedCache (Front-end with Distributed Cache server role)
+- WebFrontEndWithDistributedCache (Front end with Distributed Cache server role)
     
 - ﻿ApplicationWithSearch (Application with Search server role)
     
@@ -171,7 +171,7 @@ The farm administrator should configure Search to crawl web applications using t
   
 ### Converting Single-Server Farm into a multiple server farm
 
-You can convert a single-server farm into a multiple-server farm. To do this, use the role conversion feature. For additional information about how to change a server role, see [Role conversion using MinRole in SharePoint Servers 2016 and 2019](../administration/role-conversion-using-minrole-in-sharepoint-server-2016.md).
+You can convert a single-server farm into a multiple-server farm. To do this, use the role conversion feature. For more information about how to change a server role, see [Role conversion using MinRole in SharePoint Servers 2016 and 2019](../administration/role-conversion-using-minrole-in-sharepoint-server-2016.md).
   
 ## Opting out of MinRole
 <a name="opt"> </a>
