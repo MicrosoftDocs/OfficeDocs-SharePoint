@@ -48,6 +48,31 @@ After users appear in green, yellow, or red, on the top right side of your scree
 
 For in-depth info about **Scan Report**, see the **Reports** subsection under the **Scan Report** section of this guide.
 
+## Interpreting Scan Results for Final Delta/Cutover Events 
+  
+ You or your customer might have a relative idea of how many items and users are in their source domain and how many they might want to migrate. However, it is essential to get an accurate count of your total items/number of users by running an Inventory Scan. This scan will let you know how many items/users are in the domain and help determine who owns the data. To learn more, see [Running a migration inventory scan with Mover](/sharepointmigration/mover-scan). 
+  
+ Another critical fundamental of running the Inventory Scan is determining the viability of completing a Final Delta or Cutover pass before letting your users start using their OneDrive accounts and SharePoint sites when they switch over to using Microsoft 365. 
+  
+For migrations, there are two key stages to consider. 
+- **Migration Sync**. This is where you run the migration, and most of your content is migrated on the first or subsequent passes.  These passes can vary from 1 to many, depending on the amount of content migrated, remediation of failed users, failed files, or new users added during the migration. 
+- **Final Delta/Cutover**. Once the Migration Sync passes are complete, it is prudent to run a Final Delta/Cutover event.  A final delta cutover event ensures that any new or modified Source content is migrated and that all current content is available for Microsoft 365 users. 
+Final Delta/Cutover events are typically run over a weekend when your tenant tends to be quieter than the standard working week. It allows time to prepare for users starting to use Microsoft 365 on the Monday after the cutover. 
+  
+You can use the Scan Results for large migrations to evaluate how many items/users you have to migrate and determine if a single weekend cutover event will complete in the required timeframe. 
+  
+Currently, the estimated upper limits for completing a Final Delta/Cutover event from Friday to Monday is approximately 100 to 150 million files or 12,000 - 15,000 users.  
+  
+If your file or user count exceeds these limits, planning should be set early in the migration to address how best to perform the Final Delta/Cutover. 
+
+Our recommendation is to split your users by either GEO Region (APAC, EMEA, AMER) or even by Department (HR, IT, Sales etc.) and schedule multiple cutover events to ensure that each Region or Department is completed before the Monday deadline. 
+
+You can use the Tagging feature on the Migration tools to help identify by Region or Department and use the Filtering options to help plan, run, and monitor their progress. 
+
+
+
+
+
 ## Managing Users Who Own Large Amounts of Data 
 
 Upon completing your Scan, download the scan reports and review/address any large Source data owners. 
