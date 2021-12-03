@@ -29,7 +29,7 @@ Workflow migration is limited to:
 - List and library OOB ("out-of-box") approval workflows
 - Workflow definitions and associations
 
->!Note]
+>[!Note]
 >History data and draft definitions are not migrated. 
 
 ## Prerequisites 
@@ -73,14 +73,14 @@ If your tenant has never used Power Automate before, you must configure it befor
 
 ## Migrations report
 
-The migration task generates workflow migration report as WorkflowMigrationReport.csv file under WF_xxx/Report/TaskReport_xxx/ folder. 
+The migration task generates a workflow migration report titled *WorkflowMigrationReport.csv*.  The file under WF_xxx/Report/TaskReport_xxx/ folder. 
 
 |Column name|Notes|
 |:-----|:-----|
 |Source association url|Source SharePoint object URL that associated with the workflow. Can be URL of list, library, site |
 |Destination association url|Destination SharePoint object URL that associated with the migrated Power Automate flow. Can be URL of list, library.|
-|Source workflow url||	
-|Destination workflow url||	
+|Source workflow url|Location of the source workflow.|	
+|Destination workflow url|The location where the workflow will be migrated. |	
 |Source workflow ID||	
 |Destination flow ID||
 |Source workflow name||	
