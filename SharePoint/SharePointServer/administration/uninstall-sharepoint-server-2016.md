@@ -19,7 +19,7 @@ description: "Learn about the limited set of supported methods to uninstall Shar
 
 # Uninstall SharePoint Servers 2016, 2019, or Subscription Edition
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
   
 You remove SharePoint Server by uninstalling it from Control Panel. When you uninstall SharePoint Server, most files and subfolders in the installation folders are removed. However, some files are not removed. Also, 
   
@@ -28,6 +28,9 @@ You remove SharePoint Server by uninstalling it from Control Panel. When you uni
 - SQL Server databases are detached but are not removed from the database server.
     
 - When you uninstall SharePoint Server, all user data remains in the database files.
+
+> [!NOTE]
+>  To uninstall SharePoint Server Subscription Edition on Windows Server Core, see [Uninstall SharePoint Server Subscription Edition](/sharepoint/install/uninstall-for-sharepoint-server-subscription-edition).
     
 ## Before you begin
 <a name="begin"> </a>
@@ -37,7 +40,7 @@ Before you begin this operation, confirm that you have uninstalled all language 
 ## Uninstall SharePoint Servers 2016, 2019, or Subscription Edition
 <a name="begin"> </a>
 
-Use this procedure to uninstall SharePoint Server 2016.
+Use this procedure to uninstall SharePoint Servers 2016, 2019, and Subscription Edition.
   
  **To uninstall SharePoint Servers 2016, 2019, or Subscription Edition**
   
