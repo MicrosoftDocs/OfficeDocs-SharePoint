@@ -16,7 +16,7 @@ ms.custom:
 -  seo-marvel-apr2020
 search.appverid:
 ms.assetid: 
-description: "In this article, you'll learn how to apply conditional access settings."
+description: "In this article, you'll learn how to apply limit access settings."
 ---
 
 # Limit OneDrive access by security group
