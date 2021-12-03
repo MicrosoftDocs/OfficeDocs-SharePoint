@@ -58,7 +58,7 @@ For example, you have to make sure that the on-premises search center site(s) th
     
 5. In the **Edit Authentication** dialog box, verify that Integrated Windows authentication and NTLM are selected as shown in the following picture. 
     
-     ![Authentication type setting for a web application](../media/ClaimType.jpg)
+     :::image type="content" alt-text="Authentication type setting for a web application." source="../media/ClaimType.jpg":::
   
 ## Configure OAuth over HTTP (if it is required)
 <a name="configOAuth"> </a>
