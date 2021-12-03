@@ -1,5 +1,5 @@
 ---
-title: "Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019"
+title: "Planning for a MinRole server deployment in SharePoint Servers 2016, 2019, and Subscription Edition"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -20,13 +20,13 @@ ms.assetid: 9fc3a696-b2cb-435c-8199-7048953ec609
 description: "Learn about planning your SharePoint farm deployment using MinRole. MinRole helps administrators select the right server role when provisioning SharePoint Servers."
 ---
 
-# Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019
+# Planning for a MinRole server deployment in SharePoint Servers 2016, 2019, and Subscription Edition
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
   
 ## Server roles in SharePoint Servers 2016 and 2019
 
-There are eight pre-defined server roles in 3 categories﻿ you can choose from in SharePoint Servers 2016 and 2019. Read more about the roles and their descriptions in the following tables:
+There are eight pre-defined server roles in 3 categories﻿ you can choose from in SharePoint Servers 2016, 2019, and Subscription Edition. Read more about the roles and their descriptions in the following tables:
   
  **Dedicated Roles:** Dedicated roles are optimized for performance and scalability and are typically used in large scale farms. They can also be used in medium scale farms with shared roles. 
   
@@ -61,13 +61,13 @@ There are eight pre-defined server roles in 3 categories﻿ you can choose from 
 
 There are three different types of SharePoint farms:
   
-- ﻿Content Farms: These farms host sites and service applications, and can optionally consume service applications from other farms.
+- Content Farms: These farms host sites and service applications, and can optionally consume service applications from other farms.
     
-- ﻿Services Farms: These farms host service applications that are consumed by other farms. Example service applications include: Managed Metadata, Search, and User Profile.
+- Services Farms: These farms host service applications that are consumed by other farms. Example service applications include: Managed Metadata, Search, and User Profile.
     
-- ﻿Search Farms: These farms are dedicated to hosting Search service applications that are consumed by other farms.
+- Search Farms: These farms are dedicated to hosting Search service applications that are consumed by other farms.
     
-﻿Each type of SharePoint farm requires different MinRole server roles to function properly. Refer to the table below for the list of server roles required ﻿for each type of farm.
+Each type of SharePoint farm requires different MinRole server roles to function properly. Refer to the table below for the list of server roles required ﻿for each type of farm.
   
 |||||
 |:-----|:-----|:-----|:-----|
@@ -78,7 +78,7 @@ There are three different types of SharePoint farms:
 |Search  <br/> |Yes, if hosting Search  <br/> |Yes, if hosting Search  <br/> |Yes  <br/> |
    
 > [!NOTE]
-> Shared roles can be substituted for their equivalent ﻿dedicated roles to reduce the ﻿number of servers in a farm. ﻿For example, the "Front-end with ﻿Distributed Cache" role can be used in place of the separate "Front-end" and "Distributed Cache" roles to meet the requirements of a content farm. > Dedicated roles, shared roles, and the Custom server role can be used together in the same farm. If you substitute the ﻿Custom server role for one or more MinRole-managed server roles, you must ensure that servers assigned to the Custom role are configured properly with the service instances needed in that type of farm. > SQL Server can be running on the same server or a different server as SharePoint, but for better performance we recommend running SQL Server on a separate server. 
+> Shared roles can be substituted for their equivalent dedicated roles to reduce the number of servers in a farm. ﻿For example, the "Front-end with ﻿Distributed Cache" role can be used in place of the separate "Front-end" and "Distributed Cache" roles to meet the requirements of a content farm. > Dedicated roles, shared roles, and the Custom server role can be used together in the same farm. If you substitute the Custom server role for one or more MinRole-managed server roles, you must ensure that servers assigned to the Custom role are configured properly with the service instances needed in that type of farm. > SQL Server can be running on the same server or a different server as SharePoint, but for better performance we recommend running SQL Server on a separate server. 
   
 Refer to the table below for the list of recommended MinRole content farm topologies.
   
@@ -153,21 +153,21 @@ The state of Central Administration will not affect whether a server is consider
   
 ### Deploying services
 
-﻿Do not attempt to create service applications in a MinRole farm until it has reached the minimum supported MinRole farm topology. For example, if you're deploying a content farm using dedicated ﻿server roles, then you shouldn't try to create service applications until at least one of each of the following server roles have been deployed:
+Do not attempt to create service applications in a MinRole farm until it has reached the minimum supported MinRole farm topology. For example, if you're deploying a content farm using dedicated ﻿server roles, then you shouldn't try to create service applications until at least one of each of the following server roles have been deployed:
   
-- ﻿Front-end
+- Front-end
     
-- ﻿Application
+- Application
     
-- ﻿Distributed Cache
+- Distributed Cache
     
-- ﻿Search (if hosting a Search service application)
+- Search (if hosting a Search service application)
     
- **﻿Note:** This guidance does not apply to farms that use the Custom server role. 
+ **Note:** This guidance does not apply to farms that use the Custom server role. 
   
 ### Manually configuring Search to crawl
 
-The farm administrator should configure Search to crawl web applications using the Application server role or the Application with Search server role instead of the Front-end server role for optimal performance. This can be done by configuring your load balancer to forward Search crawler requests to the ﻿Application or Application with Search servers, or by configuring the SharePoint Request Manager to forward Search crawler requests to the Application or Application with Search servers.
+The farm administrator should configure Search to crawl web applications using the Application server role or the Application with Search server role instead of the Front-end server role for optimal performance. This can be done by configuring your load balancer to forward Search crawler requests to the Application or Application with Search servers, or by configuring the SharePoint Request Manager to forward Search crawler requests to the Application or Application with Search servers.
   
 ### Converting Single-Server Farm into a multiple server farm
 
@@ -176,7 +176,7 @@ You can convert a single-server farm into a multiple-server farm. To do this, us
 ## Opting out of MinRole
 <a name="opt"> </a>
 
-SharePoint Servers 2016 and 2019 supports the backward compatible behavior of previous SharePoint releases with the Custom server role. SharePoint farm administrators can directly manage service instances on individual servers assigned to the Custom role. MinRole won't attempt to manage servers assigned to the Custom role. You can assign zero, some, or all servers in a farm to the Custom role.
+SharePoint Servers 2016, 2019, and Subscription Edition supports the backward compatible behavior of previous SharePoint releases with the Custom server role. SharePoint farm administrators can directly manage service instances on individual servers assigned to the Custom role. MinRole won't attempt to manage servers assigned to the Custom role. You can assign zero, some, or all servers in a farm to the Custom role.
   
 If you have existing deployment scripts that you do not want to modify to support MinRole, you can specify the **ServerRoleOptional** parameter when you create a new SharePoint farm by using the PSConfig.exe command-line tool or PowerShell. This parameter configures the farm to not require a server role to be specified. If no server role is specified, the server defaults to the Custom role. 
   
@@ -187,10 +187,9 @@ If you have existing deployment scripts that you do not want to modify to suppor
 
 [SharePoint Server 2016 zero downtime patching steps](../upgrade-and-update/sharepoint-server-2016-zero-downtime-patching-steps.md)
   
-[Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019
-](overview-of-minrole-server-roles-in-sharepoint-server.md)
+[Overview of MinRole Server Roles in SharePoint Servers 2016, 2019, and Subscription Edition](overview-of-minrole-server-roles-in-sharepoint-server.md)
   
-[Description of MinRole and associated services in SharePoint Servers 2016 and 2019](../administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016.md)
+[Description of MinRole and associated services in SharePoint Servers 2016, 2019, and Subscription Edition](../administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016.md)
 #### Other Resources
 
-[Managing a MinRole Server Farm in SharePoint Servers 2016 and 2019](../administration/managing-a-minrole-server-farm-in-sharepoint-server-2016.md)
+[Managing a MinRole Server Farm in SharePoint Servers 2016, 2019, and Subscription Edition](../administration/managing-a-minrole-server-farm-in-sharepoint-server-2016.md)
