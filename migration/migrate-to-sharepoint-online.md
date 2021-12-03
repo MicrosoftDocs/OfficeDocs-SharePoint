@@ -63,7 +63,7 @@ Migrate your SharePoint Server sites and content to take advantage of the latest
 
 ![Migrating SPMT workflow](media/spmt-flow-3box.png)
 
-## Cloud to cloud migrations
+## Other migrations 
 Are you migrating from another Cloud providers? The [Mover tool](https://mover.io/) is ideal for:
 
 - Microsoft 365 tenant to tenant migration
@@ -74,7 +74,6 @@ Are you migrating from another Cloud providers? The [Mover tool](https://mover.i
 
 ![Get started SharePoint Server migration](/office/media/icons/get-started-blue.png) **Get started!** [Mover migration tool](https://mover.io/)
 
-![What's new in Mover migration]/office/media/icons/whats-new-megaphone-blue.png)   [**What's new**](mover-release-notes.md)
 
 
 
