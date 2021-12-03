@@ -27,9 +27,9 @@ description: "Learn how to build a server-to server trust between SharePoint Ser
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
   
- **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article. **
+This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article.
 
-> [!NOTE] 
+> [!NOTE]
 > We recommend using the [SharePoint Hybrid Picker](hybrid-picker-in-the-sharepoint-online-admin-center.md) to establish the Server-to-Server authentication between SharePoint Server and SharePoint in Microsoft 365. If you are unable to use the Hybrid Picker for any reason, follow the steps in this article to enable server-to-server authentication.
 
 ## Configure server-to-server authentication
@@ -46,7 +46,7 @@ In SharePoint hybrid, federated users can send requests to SharePoint in Microso
   
 For example, you have to make sure that the on-premises search center site(s) that you want to use in your solution are configured to use Integrated Windows authentication with NTLM. If they're not, you have to either reconfigure the web application to use Windows authentication with NTLM or use a search center site on a web application that meets this requirement. You also have to make sure that the users who expect search results to be returned from SharePoint in Microsoft 365 are federated users.
   
- **To verify that a web application meets the requirement**
+**To verify that a web application meets the requirement**
   
 1. Confirm that the user account that will do this procedure is a member of the Farm Admins SharePoint group.
     
