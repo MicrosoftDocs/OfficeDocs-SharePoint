@@ -98,15 +98,14 @@ There are two different configurations for failover farm with remote share provi
 
 1. Share same SMB BLOB storage between active the SharePoint farm and the failover farm.
 
-    :::image type="content" source="../media/SMR_BLOB.png" alt-text="This is a SMR BLOB.":::
+    
 
     For this configuration, there are two sets of SharePoint servers and SQL servers, however, they share the same SMB storage for BLOBs. Real-time database synchronization is set up to stream changes from active SQL server in active SharePoint farm to fail over SQL server in failover SharePoint farm. So that if there is problem in active SharePoint farm, admin can immediately switch to fail over SharePoint farm.
 
 2. Share same SMB BLOB storage between active SharePoint farm and failover farm with SMB BLOB storage failover backup.
 
-    
-    :::image type="content" source="../media/failure-smb.png" alt-text="this is a failure smb":::
-    
+      
+
     This configuration is exactly the same as configuration #1 except there is a failover backup for SMB BLOB storage. Not only database is synced but also SMB storage is also backed up. In this situation, when active SharePoint farm has problem, it can switch to fail over farm with additional setting to change the SMB storage UNC path to failover SMB storage.
 
 ### Security and permission
