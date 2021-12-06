@@ -45,7 +45,7 @@ Microsoft Teams can have [standard or private channels.](https://support.microso
 <br>
 
 These Teams connected team sites and channel sites are a specialized type of SharePoint team sites that have been optimized for a Microsoft Teams connection. You’ll notice that a handful of typical SharePoint team site features aren’t available in Teams connected team sites and channel sites, such as:
-- The ability to select the start symbol (follow links) on sites, lists, and libraries.
+- The ability to select the star symbol (follow links) on sites, lists, and libraries.
 - 2013 Workflows
 - The InfoPath form option is not available
 
