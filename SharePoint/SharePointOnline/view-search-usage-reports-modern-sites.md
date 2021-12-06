@@ -46,7 +46,7 @@ The first date picker lets you pick past 31 days (about one month) or 
 |Report    |Description    |
 |---------|---------|
 |Query Volume     |  This report shows the number of search queries performed. Use this report to identify search query volume trends and to determine periods of high and low search activity.|
-|Top Queries       |  This report shows the most popular search queries. [!NOTE] A query is added to this report when it's searched at least three times with a click on a result. Use this report to understand what types of information your users are searching for.|
+|Top Queries       |  This report shows the most popular search queries.<br/> **NOTE**: A query is added to this report when it's searched at least three times with a click on a result. Use this report to understand what types of information your users are searching for.|
 |Abandoned Queries   |  This report shows popular search queries that receive low click-through. Use this report to identify search queries that might create user dissatisfaction and to improve the finding of content.|
 |No Results Queries     |  This report shows popular search queries that returned no results. Use this report to identify search queries that might create user dissatisfaction and to improve the finding of content.|
 |Impression distribution     |   This report shows impressions over various time frames. The timeline shows the daily number of impressions for a result type. Determine which result type is most frequently, or infrequently, used. Use this report to understand what result types users are using and any changes in user behavior over a period of time.       |
