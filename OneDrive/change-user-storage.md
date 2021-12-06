@@ -134,13 +134,3 @@ If you are attempting to change the OneDrive storage for a user and are not able
 > This feature is not available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany. 
 
 > To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](/sharepoint/manage-user-profiles).
-
-## Automated troubleshooting for issues when changing OneDrive storage
-
-If you are an administrator, and you're having trouble changing a user's OneDrive storage, select **Run Tests** below, which will populate a diagnostic in the Microsoft 365 admin center. These tests will check your configuration and quickly recommend the next steps to resolve the issue. 
-
- > [!NOTE]
- > This feature is only available for Microsoft 365 admins and is not available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany.
-
-> [!div class="nextstepaction"]
-> [Run Tests: OneDrive Storage Quota](https://aka.ms/PillarOneDriveQuota)
