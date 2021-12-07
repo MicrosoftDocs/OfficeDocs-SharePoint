@@ -1,0 +1,92 @@
+---
+title: "Migration Manager error codes"
+ms.reviewer: 
+ms.author: jhendr
+author: JoanneHendrickson
+manager: serdars
+recommendations: true
+audience: ITPro
+f1.keywords:
+- NOCSH
+ms.topic: article
+ms.service: sharepoint-online
+ms.localizationpriority: high
+ms.collection: 
+- M365-collaboration
+- SPMigration
+search.appverid: MET150
+description: Migration Manager error codes
+---
+
+# Migration Manager error codes
+
+
+
+|Error code|Description |User action|
+|:-----|:-----|:-----|
+|MACCESSDENIED|User denied access.|
+|MACCESSTOKENNULL|Failed to execute request as connector authorization failed.|
+|MAUTHACCESSTOKEN|Connector authorization failure. Failed to get access token.|
+|MAUTHACCESSTOKENINVALID|Connector authorization failure. The API request failed because the access token in passed in the request header is invalid or expired.|
+|MAUTHCALLERNOTAUTHENTICATED|Connector authorization failed. The service is not allowing to connect as it does not recognize the caller.|
+|MAUTHMOVERAPP|Mover Application in Users Admin Account/tenant needs to be authorized.|
+|MAUTHNOCODE|Connector authorization failed as auth code is not provided.|
+|MAUTHNOEMAIL|Connector authorization failure. Failed to get email from claim.|
+|MAUTHNOIDTOKEN|Connector authorization failure. Failed to get id token from access token.|
+|MAUTHNOTENANT|"Connector authorization failed; no tenant/enterprise id found. Tenant = Enterprise Tenant is the term in MS/Azure| and Enterprise is used by Box and others."|
+|MAUTHREFRESHTOKEN|Connector authorization failure. Failed to get refresh token.|
+|MAUTHUSERNOTADMIN|"Connector authorization failed| user does not have admin role."|
+|MBADREQUEST|Bad request when operating on source or destination item.|
+|MCONNECTORNOTFOUND|Connector not found in database.|
+|MCORRELATE|Collection correlate missing source listing.|
+|MDESTINATIONNOTWRITABLE|You do not have write access to the destination.  Check permissions and try again.|Check permissions and try again.|
+|MDUPLICATE|Duplicate.  This file already exists in your destination location.|No action required.  File already exists in destination.|
+|MEMPTYMETADATA|Unable to find metadata. |Try again.|
+|MEXPORTFILERESTRICTED|"This file is  restricted| and can’t be migrated from the source.  "|Check to see if this file has legal restrictions such as copyright claims.|
+|MEXPORTFILEUNSUPPORTED|Unsupported file type.  You cannot migrate this file from the source. |You cannot migrate this file from the source.|
+|MEXPORTFILEUNSUPPORTEDMIMETYPE|Unsupported file type.  You cannot migrate this file from the source.|You cannot migrate this file from the source.|
+|MFAILEDGETROOTITEM|Failed to get root folder listing. This is set in both Google and Office365 connector. .|Office365 connector. .
+|MFILEIMPORT|This file type is not supported in the destination location. |This file type is not supported in the destination location.|
+|MFILELOCKED|"File is locked| cannot download or get metadata.  Action:  Unlock file. "|Unlock file.|
+|MFILENAMELENGTH|Filename exceeds maximum allowable length.  Rename file and try again.|Rename file and try again.|
+|MFILESIZEINCORRECT|Downloaded file is smaller than expected.|Downloaded file is smaller than expected.|
+|MGETFOLDERACLS|Failure to get shared folder membership. |Check folder permissions and try again|
+|MHTTPCONNECTION|Connection failure.  |Check your network and try again.|
+|MINVALIDEMAIL|Invalid user email; unable to find user with that email. |Check user name and try again.|
+|MINVALIDPAGESIZE|The page size for connector pagination must be greater than zero.|
+|MINVALIDPARENTID|Item has no parent ID . Id-based connectors  require the item to have a parent id.|Id-based connectors will require the item to have a parent id.|
+|MINVALIDPATH|"Could not find| create or upload as path is invalid."|"Could not find| create or upload as path is invalid."
+|MINVALIDRESPONSE|Invalid response from API call. |Try again.|
+|MITEMPATHLENGTH|Item path exceeds length restrictions.|Check file path for length and try again.|
+|MLARGEFILESIZEEXPORT|File exceeds maximum size for export from the source. .|No action required.  File already exists in the.
+|MLARGEFILESIZEIMPORT|File exceeds maximum allowed size for import into destination. |No action required.  File already exists in into.|
+|MLISTGROUP|API request to list groups for connector failed.  | This may be caused by an invalid or throttling.  Try again. |
+|MLISTING|Folder listing failed.|
+|MLISTUSER|Failure to get user listing. This may be caused by an invalid requestor throttling. | Try again. |
+|MLOCKACQ|"Failed to acquire lock within timeout period| obtain new access token."|Try again.|
+|MNONDESTRUCTIVEOPTIONENABLED| Unable to delete file or folder.|Unable to delete file or folder as connector is set to prevent deletes.|
+|MNOPARENT|Item does not have a parent item.|Item does not have a parent item.|
+|MNOTAFILE|"We were expecting a file| but the given path refers to something that isn't a file."|Check the path and correct if necessary.  Try again.|
+|MNOTAFOLDER|"We were expecting a folder| but the given path refers to something that isn't a folder."|Check the path and correct if necessary.  Try again.|
+|MNOTFOUND|Item not found.|Item not found.|
+|MNOTIMPLEMENTED|"{Method} not implemented for connector. Method: addUserToGroup| deleteFolder| DeleteFile| createFolder."|Folder.
+|MNOTPERMITTED|Cannot traverse to the folder level. Cannot perform actions outside a users folder.|Cannot perform actions outside a users folder.|
+|MOWNERNOTFOUND|The original owner was removed or its information was not found.|Reassign ownership of the file. Try again.|
+|MPATHMALFORMED|Invalid path format.  Check your source and try again. |No action required.  File already exists in try.
+|MSERVICENOTAVAILABLE|Service unavailable.|Try again.|
+|MSETITEMPERMISSION|Failed to set permission|Failure may be caused  by throttling . Try again.|
+|MSOURCENOTREADABLE|Unable to read the source directory. |Confirm source location.  Try again.|
+|MSTORAGEQUOTAREACHED|Storage quota exceeded for connector.|Increase storage limit and try again.|
+|MTHROTTLE|API requests made by connector are getting throttled.|Try again.|
+|MUNVERIFIEDPARENT|Item we are trying to upload does not have a verified parent item. |Check file and try again.|
+|MUPDATEITEMPERMISSION|Failed to remove permissions. |
+|MUSERCOUNT|Unexpected failure to get user count.   Try again.|Try again.|
+|MUSERFORBIDDEN|The current user does not have permission to access the file or folder.|The current user does not have permission to access the file or folder.|
+|MUSERINFONOTFOUND|User account info not found.|Check user info and try again.|
+|MUSERNOTFOUND|"User is not found| either it is disabled or deleted."|Check user and correct as necessary.  Try again.|
+|MUSERQUOTAREACHED|User quota limit reached.|Learn more:  https://docs.microsoft.com/en-us/graph/errors |
+|MZEROBYTEFILESIZEIMPORT|0 byte not supported for import to a connector.|Check file and try again.|
+|PFAIL|Failed to set permission|Check permissions and try again.|
+|PFAILUNSUP|Unsupported file permissions not set.|Check permissions and try again.|
+|PSUCCESS|Set permission successfully|
+|PUNSUP|Unable to set permissions.|Check permission settings and try again.|
