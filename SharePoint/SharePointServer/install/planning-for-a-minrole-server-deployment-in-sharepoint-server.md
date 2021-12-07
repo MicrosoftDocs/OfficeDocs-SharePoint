@@ -30,9 +30,8 @@ There are eight pre-defined server roles in 3 categories you can choose from in 
   
  **Dedicated Roles:** Dedicated roles are optimized for performance and scalability and are typically used in large-scale farms. They can also be used in medium scale farms with shared roles. 
   
-||||
-|:-----|:-----|:-----|
 |**Server Role** <br/> |**Description** <br/> |**Notes** <br/> |
+|:-----|:-----|:-----|
 |Front-end  <br/> |Service applications, services, and components that serve user requests belong on a Front-end server. These servers are optimized for high performance.  <br/> |The Application server and the Front-end server roles host a similar set of services. However, each role serves a different purpose. The Front-end role is performance-sensitive and optimized for serving user traffic by running service instances appropriate for user requests on the local server. It's normal for the Front-end server role to run service instances that would have been hosted on the Application server role in previous versions.  <br/> |
 |Application  <br/> |Service applications, services, and components that serve back-end requests, such as search crawl requests, belong on an Application server. These servers are optimized for high throughput.  <br/> |2.	From SharePoint 2016, the use of the term "Application server" has a different meaning from the common use of the term in previous versions. In previous versions of SharePoint, the Application server typically hosted service application endpoints that Front-end servers would call while serving user requests. In SharePoint Servers 2016, 2019, and Subscription Edition, the Application server role runs background tasks such as Timer jobs, and can be the target for search crawl requests.  <br/> |
 |Distributed Cache  <br/> |Service applications, services, and components that are required for a distributed cache belong on a Distributed Cache server.  <br/> |Distributed Cache doesn't support High Availability the way that other services do. While you can have multiple Distributed Cache servers in your SharePoint farm to help distribute the load, the data cached on each Distributed Cache server is not replicated to the other Distributed Cache servers. If a Distributed Cache server unexpectedly goes down, the data cached in that server will be lost.  <br/> |
@@ -40,17 +39,15 @@ There are eight pre-defined server roles in 3 categories you can choose from in 
    
  **Shared Roles:** Shared roles are optimized for fewer servers in a farm by combining dedicated roles together. They can also be used in medium scale farms with dedicated roles. Shared roles may require higher available system resources because they are running more services. 
   
-||||
-|:-----|:-----|:-----|
 |**Server Role** <br/> |**Description** <br/> |**Notes** <br/> |
+|:-----|:-----|:-----|
 |Front end with Distributed Cache  <br/> |Shared role that combines the Front-end and Distributed Cache roles on the same server. Make sure the server meets the system requirements for hosting a shared server role.  <br/> |This shared role was introduced in the November Public Update for SharePoint Server 2016 (Feature Pack 1).  <br/> |
 |Application with Search  <br/> |Shared role that combines the Application and Search roles on the same server. Make sure the server meets the system requirements for hosting a shared server role.  <br/> |This shared role was introduced in November Public Update for SharePoint Server 2016 (Feature Pack 1).  <br/> |
    
  **Special Roles:** For special case scenarios, testing, development, and services that are not integrated with MinRole. 
-  
-||||
-|:-----|:-----|:-----|
+ 
 |**Server Role** <br/> |**Description** <br/> |**Notes** <br/> |
+|:-----|:-----|:-----|
 |Single-Server Farm  <br/> |Service applications, services, and components required for a single-server farm belong on a server running the Single-Server Farm role. Use this role for development, testing, and limited production tasks.  <br/> |The Single-Server Farm role replaces the Standalone Install mode available in previous SharePoint Server releases. Unlike Standalone Install, the SharePoint admin must separately install and prepare Microsoft SQL Server. The SharePoint admin must also configure the SharePoint farm services and web applications, either manually or by running the Farm Configuration Wizard. A SharePoint farm with the Single-Server Farm role cannot have more than one SharePoint server in the farm.  <br/> |
 |Custom  <br/> |Service applications, services, and components that you want to manage, instead of using MinRole to manage them, belong on a Custom server.  <br/> |This server role is typically used to run services that do not integrate with MinRole. The farm administrator has full control over which service instances can run on servers assigned to the Custom server role. MinRole ﻿will not attempt to manage servers assigned to this role.  <br/> |
    
@@ -69,9 +66,8 @@ There are three different types of SharePoint farms:
     
 Each type of SharePoint farm requires different MinRole server roles to function properly. Refer to the table below for the list of server roles required ﻿for each type of farm.
   
-|||||
-|:-----|:-----|:-----|:-----|
 |****Server Role**** <br/> |****Required for Content Farm?**** <br/> |****Required for Services Farm?**** <br/> |****Required for Search Farm?**** <br/> |
+|:-----|:-----|:-----|:-----|
 |Front-end  <br/> |Yes  <br/> |No  <br/> |No  <br/> |
 |Application  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |Distributed Cache  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
@@ -82,9 +78,8 @@ Each type of SharePoint farm requires different MinRole server roles to function
   
 Refer to the table below for the list of recommended MinRole content farm topologies.
   
-||||
-|:-----|:-----|:-----|
 |**Content Farm Topology** <br/> |**Total Servers in Farm** <br/> |**Description** <br/> |
+|:-----|:-----|:-----|
 |Single-Server Farm  <br/> |1  <br/> | One server with all roles:  <br/>  Evaluation, development, testing.  <br/>  Very light and simple production workloads.  <br/> |
 |Small Non-High Availability MinRole farm  <br/> |2  <br/> | Two servers with two shared roles:  <br/>  One Front end with Distributed Cache server  <br/>  One Application with Search server  <br/> |
 |Small High Availability (HA) MinRole farm  <br/> |4  <br/> | Four servers with two shared roles:  <br/>  Two Front-ends with Distributed Cache servers  <br/>  Two Application with Search servers  <br/> |
@@ -117,7 +112,7 @@ The MinRole feature introduces two new command-line parameters for PSConfig.exe 
     
 - WebFrontEndWithDistributedCache (Front end with Distributed Cache server role)
     
-- ﻿ApplicationWithSearch (Application with Search server role)
+- ApplicationWithSearch (Application with Search server role)
     
 - Custom (Custom server role)
     
@@ -134,8 +129,6 @@ When you create a new farm or join a server to an existing farm by using the Sha
 ![Displays PSConfig dialog with shared roles in SharePoint Server 2016](../media/dea8528b-e903-4cc9-a698-25d203a91229.png)
 
 ![Displays PSConfig dialog with shared roles in SharePoint Server 2019](../media/PSConfigMinRole_2019.png)
-
-
   
 ### Deploying the SharePoint Central Administration web site
 
