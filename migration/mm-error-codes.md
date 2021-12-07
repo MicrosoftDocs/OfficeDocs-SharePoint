@@ -55,7 +55,7 @@ description: Migration Manager error codes
 |MINVALIDEMAIL|Invalid user email; unable to find user with that email. |Check user name and try again.|
 |MINVALIDPAGESIZE|The page size for connector pagination must be greater than zero.|Try again.
 |MINVALIDPARENTID|Item has no parent ID. Id-based connectors require the item to have a parent id.|Check file and try again.|
-|MINVALIDPATH|Could not find, create or upload as path is invalid.|Check path and try again.|
+|MINVALIDPATH|Path is invalid.|Check path and try again.|
 |MINVALIDRESPONSE|Invalid response from API call. |Try again.|
 |MITEMPATHLENGTH|Item path exceeds length restrictions.|Check file path for length and try again.|
 |MLARGEFILESIZEEXPORT|File exceeds maximum size for export from the source.|Check file size.|
@@ -69,16 +69,16 @@ description: Migration Manager error codes
 |MNOTAFILE|The path refers to something that isn't a file.|Check the path and correct as necessary. Try again.|
 |MNOTAFOLDER|The path refers to something that isn't a folder.|Check the path and correct as necessary.  Try again.|
 |MNOTFOUND|Item not found.|Try again.|
-|MNOTIMPLEMENTED|{Method} not implemented for connector. |Try again.|
-|MNOTPERMITTED|Cannot traverse to the folder level;  cannot perform actions outside a users folder.|Check permissions and try again.|
+|MNOTIMPLEMENTED|Method not implemented for connector. |Try again.|
+|MNOTPERMITTED|Cannot traverse to the folder level; cannot perform actions outside a users folder.|Check permissions and try again.|
 |MOWNERNOTFOUND|The original owner was removed or its information was not found.|Reassign ownership of the file.|
 |MPATHMALFORMED|Invalid path format. | Check your source and try again.|
 |MSERVICENOTAVAILABLE|Service unavailable.|Try again.|
-|MSETITEMPERMISSION|Failed to set permissio. Failure may be caused by throttling.|Try again.|
+|MSETITEMPERMISSION|Failed to set permission. Failure may be caused by throttling.|Try again.|
 |MSOURCENOTREADABLE|Unable to read the source directory. |Confirm source location. Try again.|
 |MSTORAGEQUOTAREACHED|Storage quota exceeded for connector.|Increase storage limit and try again.|
 |MTHROTTLE|API requests made by connector are getting throttled.|Try again.|
-|MUNVERIFIEDPARENT|Item we are trying to upload does not have a verified parent item. |Check file and try again.|
+|MUNVERIFIEDPARENT|Item does not have a verified parent item. |Check file and try again.|
 |MUPDATEITEMPERMISSION|Failed to remove permissions. |Try again.|
 |MUSERCOUNT|Unexpected failure to get user count. |Try again.|
 |MUSERFORBIDDEN|The current user does not have permission to access the file or folder.|Check permissions and try again.|
