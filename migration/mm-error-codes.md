@@ -66,8 +66,8 @@ description: Migration Manager error codes
 |MLOCKACQ|Failed to acquire lock within timeout period and obtain new access token.|Try again.|
 |MNONDESTRUCTIVEOPTIONENABLED| Unable to delete file or folder.|Try again.|
 |MNOPARENT|Item does not have a parent item.|Check file and try again.|
-|MNOTAFILE|We were expecting a file, but the given path refers to something that isn't a file.|Check the path and correct as necessary. Try again.|
-|MNOTAFOLDER|We were expecting a folder, but the given path refers to something that isn't a folder.|Check the path and correct as necessary.  Try again.|
+|MNOTAFILE|The path refers to something that isn't a file.|Check the path and correct as necessary. Try again.|
+|MNOTAFOLDER|The path refers to something that isn't a folder.|Check the path and correct as necessary.  Try again.|
 |MNOTFOUND|Item not found.|Try again.|
 |MNOTIMPLEMENTED|{Method} not implemented for connector. |Try again.|
 |MNOTPERMITTED|Cannot traverse to the folder level;  cannot perform actions outside a users folder.|Check permissions and try again.|
