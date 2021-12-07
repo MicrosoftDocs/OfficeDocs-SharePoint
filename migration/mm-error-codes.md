@@ -74,8 +74,8 @@ description: Migration Manager error codes
 |MOWNERNOTFOUND|The original owner was removed or its information was not found.|Reassign ownership of the file.|
 |MPATHMALFORMED|Invalid path format. | Check your source and try again.|
 |MSERVICENOTAVAILABLE|Service unavailable.|Try again.|
-|MSETITEMPERMISSION|Failed to set permission|Failure may be caused by throttling.|Try again.|
-|MSOURCENOTREADABLE|Unable to read the source directory. |Confirm source location.|  Try again.|
+|MSETITEMPERMISSION|Failed to set permissio. Failure may be caused by throttling.|Try again.|
+|MSOURCENOTREADABLE|Unable to read the source directory. |Confirm source location. Try again.|
 |MSTORAGEQUOTAREACHED|Storage quota exceeded for connector.|Increase storage limit and try again.|
 |MTHROTTLE|API requests made by connector are getting throttled.|Try again.|
 |MUNVERIFIEDPARENT|Item we are trying to upload does not have a verified parent item. |Check file and try again.|
