@@ -30,7 +30,7 @@ description: Migration Manager error codes
 |MAUTHACCESSTOKENINVALID|Connector authorization failure. The API request failed because the access token is invalid or expired.|Retry.|
 |MAUTHCALLERNOTAUTHENTICATED|Connector authorization failed. The service is not allowing to connect as it does not recognize the caller.|Try again.|
 |MAUTHMOVERAPP|Mover Application in Users Admin Account/tenant needs to be authorized.|To authorize this connector, you need to grant permissions to the Mover application. Try again.|
-|MAUTHNOCODE|Connector authorization failed as auth code is not provided.||
+|MAUTHNOCODE|Connector authorization failed as auth code is not provided.|Try again.|
 |MAUTHNOEMAIL|Connector authorization failure. Failed to get email from claim.|Unexpected error. Try again.|
 |MAUTHNOIDTOKEN|Connector authorization failure. Failed to get id token from access token.|Unexpected error. Try again.|
 |MAUTHNOTENANT|Connector authorization failed; no tenant/enterprise ID found. Tenant = Enterprise. Tenant is the term in MS/Azure and Enterprise is used by Box and others.|Try again.|
@@ -68,7 +68,7 @@ description: Migration Manager error codes
 |MNOPARENT|Item does not have a parent item.|Check file and try again.|
 |MNOTAFILE|The path refers to something that isn't a file.|Check the path and correct as necessary. Try again.|
 |MNOTAFOLDER|The path refers to something that isn't a folder.|Check the path and correct as necessary.  Try again.|
-|MNOTFOUND|Item not found.|Try again.|
+|MNOTFOUND|Item not found.|Check file and try again.|
 |MNOTIMPLEMENTED|Method not implemented for connector. |Try again.|
 |MNOTPERMITTED|Cannot traverse to the folder level; cannot perform actions outside a users folder.|Check permissions and try again.|
 |MOWNERNOTFOUND|The original owner was removed or its information was not found.|Reassign ownership of the file.|
