@@ -17,18 +17,18 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Create an organization site"
+description: "Learn how to create a SharePoint organization site"
 ---
 
 # Guided walkthrough: Creating an organization site
 
-In this article, we show you elements of an example enterprise landing site to inspire you and help you learn how to create similar sites for your own organization. In this example, the site emphasizes news, resources, and personalized content. You'll see which web parts on used in different sections, along with links for more information on each web part.
+In this article, we show you elements of an example SharePoint enterprise landing site to inspire you and help you learn how to create similar sites for your own organization. In this example, the site emphasizes news, resources, and personalized content. You'll see which web parts on used in different sections, along with links for more information on each web part.
 
 First, if you haven't already created a Communication site, check out the Create your site section in this article.
 
 Once you have your created your site and know how to edit pages, you can use the steps below to add the elements shown.
 
-## Example enterprise landing site
+## Example SharePoint enterprise landing site
 
 |Web part|Description|
 |----------|------------|

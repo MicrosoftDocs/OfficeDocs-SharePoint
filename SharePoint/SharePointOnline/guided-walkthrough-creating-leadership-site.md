@@ -17,7 +17,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Create a leadership site for your organization"
+description: "Learn how to create a SharePoint leadership site for your organization"
 ---
 
 # Guided walkthrough: Creating a leadership site for your organization
