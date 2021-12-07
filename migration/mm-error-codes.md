@@ -84,8 +84,8 @@ description: Migration Manager error codes
 |MUSERFORBIDDEN|The current user does not have permission to access the file or folder.|Check permissions and try again.|
 |MUSERINFONOTFOUND|User account info not found.|Check user info and try again.|
 |MUSERNOTFOUND|User is not found; either it is disabled or deleted.|Check user and correct as necessary. Try again.|
-|MUSERQUOTAREACHED|User quota limit reached.|Learn more:  https://docs.microsoft.com/en-us/graph/errors |
-|MZEROBYTEFILESIZEIMPORT|0 byte not supported for import to a connector.|Check file and try again.|
+|MUSERQUOTAREACHED|User quota limit reached.|Learn more: [Microsoft Graph error resonses and resource types](/graph/error) |
+|MZEROBYTEFILESIZEIMPORT|You cannot import a 0 byte file to a connector.|Check file and try again.|
 |PFAIL|Failed to set permission|Check permissions and try again.|
 |PFAILUNSUP|Unsupported file permissions not set.|Check permissions and try again.|
 |PSUCCESS|Set permission successfully|
