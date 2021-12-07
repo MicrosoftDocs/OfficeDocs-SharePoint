@@ -76,7 +76,7 @@ This page displays all of the service instances on a server. Some things have ch
   
 ![Displays services on servers in SharePoint Servers 2016 and 2019](../media/65dd3268-93e8-47ea-9486-7c500b8af90c.PNG)
   
-In previous releases of SharePoint, this page was accessible only to members of the local Administrators group on the Central Administration server. In SharePoint Server 2016, all members of the SharePoint Farm Administrators group have access to this page.
+In previous releases of SharePoint, this page was accessible only to members of the local Administrators group on the Central Administration server. From SharePoint Server 2016, all members of the SharePoint Farm Administrators group have access to this page.
   
 The role of the server is now displayed next to the name of the server.
   
