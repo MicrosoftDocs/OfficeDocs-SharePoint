@@ -54,6 +54,12 @@
 ### Reference
 #### [FAQs](mm-faqs-dropbox.md)
 #### [Bulk upload Dropbox accounts using a CSV file](mm-dropbox-bulk-upload-source-paths-csv.md)
+## Migrate SharePoint Server workflows
+### [Overview](spmt-workflow-overview.md)
+### [Step 1: Configure endpoints and Power Automate](spmt-workflow-step1.md)
+### [Step 2: Migrate workflows](spmt-workflow-step2.md)
+### [Step 3: Activate workflows](spmt-workflow-step3.md)
+### [Workflow migration reports](spmt-workflow-report.md)
 ## Migrate SharePoint Server sites and content
 ### [Overview](introducing-the-sharepoint-migration-tool.md)
 ### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)

@@ -21,13 +21,22 @@ description: "Overview Migrate your SharePoint Server workflows to Microsoft 365
 
 # Overview
 
+# Migrate SharePoint Server workflows to Microsoft 365
 
+Microsoft removed SharePoint Server 2010 workflow services from existing tenants on November 1, 2020. We recommend that you move your classic SharePoint Server workflows to Power Automate flows. 
+
+Using the SharePoint Migration Tool (SPMT), you can now migrate your SharePoint Server flows to Microsoft 365.
+Workflow migration is limited to:
+
+- List and library OOB ("out-of-box") approval workflows
+- Workflow definitions and associations
 
 ## How does it work?
-
-Step 1: Configure endpoints and Power Automate
-Step 2: Migrate workflows
-Step 3: Activate workflows
+|Step|What happens|
+|:-----|:-----|
+|[Step 1: Configure endpoints and Power Automate](spmt-workflow-step1)|Configure required endpoints.  If your tenant has never used Power Automate, configure it before you begin migration.|
+|[Step 2: Migrate workflows](spmt-workflow-step2)||
+|[Step 3: Activate workflows](spmt-workflow-step2)||
 
 
 ## Get started
