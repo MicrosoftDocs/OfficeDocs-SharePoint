@@ -21,7 +21,7 @@ description: "Overview Migrate your SharePoint Server workflows to Microsoft 365
 
 # Step 1 - Configure endpoints and Power Automate
 
-Before you begin your workflow migration, configure the following endpoints.
+Before you begin your workflow migration, configure the required endpoints
 
 ## Configure endpoints
 
