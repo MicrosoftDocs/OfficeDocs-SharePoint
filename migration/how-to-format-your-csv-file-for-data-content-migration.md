@@ -31,7 +31,7 @@ Learn how to:
 
 - [Bulk upload using a CSV file](#use-a-csv-file-for-bulk-upload)
 - [Bulk upload using a JSON file](#use-a-json-file-for-bulk-upload)
-- [Proxy settings and limitations](#proxy-connections)
+- [Troubleshooting](#proxy-connections)
   
 ## Use a CSV file for bulk upload
 
@@ -145,6 +145,6 @@ As with a CSV file, the minimum required values are *Source*, *Source DocLib*, *
 
 |Error|Description|
 |:-----|:-----|
-|**Destination site cannot associate to an invalid hub site**|This error occurs if the destination site is already registered as a hub site.  SPMT will not change the hub egistration of a destination site.||
+|**Destination site cannot associate to an invalid hub site**|This error occurs if the destination site is already registered as a hub site.  SPMT will not change the hub egistration of a destination site.|
 |**Desination site cannot associate to an invalid hub site**|This happens if you are attempting to associate with an invalid hub site. Check the URL and try again.|
 |**Destination site associates with an existing hub, it cannot be changed during migration**| This error occurs if the destination site is already associated with a different hub.  SPMT will not change the association a destination site.|
