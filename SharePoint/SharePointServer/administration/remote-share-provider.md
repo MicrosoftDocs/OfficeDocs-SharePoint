@@ -26,7 +26,7 @@ In SharePoint 2013, Remote BLOB Storage (RBS) technology was created in SQL serv
 
 ## Key features of remote share provider
 
-In SharePoint Server subscription edition, we provide a new RBS provider **Remote Share Provider**.
+In SharePoint Server Subscription Edition, we provide a new RBS provider **Remote Share Provider**.
   
 Following are the key features of Remote Share Provider:
 - This provider supports offload Binary Large Object (BLOB) storage to remote SMB system and totally enables content database storage in SQL server side. Therefore, with the same amount of limitation of content database, as in 200-GB size, more file volumes can be stored in one content database. Hence, it helps not only to reduce the cost for storage but also for the maintenance.
@@ -98,13 +98,13 @@ There are two different configurations for failover farm with remote share provi
 
 1. Share same SMB BLOB storage between active the SharePoint farm and the failover farm.
 
-    :::image type="content" source="../media/failure-smb.png" alt-text="sm failure":::
+   
 
     For this configuration, there are two sets of SharePoint servers and SQL servers, however, they share the same SMB storage for BLOBs. Real-time database synchronization is set up to stream changes from active SQL server in active SharePoint farm to fail over SQL server in failover SharePoint farm. So that if there is problem in active SharePoint farm, admin can immediately switch to fail over SharePoint farm.
 
 2. Share same SMB BLOB storage between active SharePoint farm and failover farm with SMB BLOB storage failover backup.
 
-   :::image type="content" source="../media/SMR_BLOB.png" alt-text="smr blov":::
+   
 
     This configuration is exactly the same as configuration #1 except there is a failover backup for SMB BLOB storage. Not only database is synced but also SMB storage is also backed up. In this situation, when active SharePoint farm has problem, it can switch to fail over farm with additional setting to change the SMB storage UNC path to failover SMB storage.
 
@@ -123,7 +123,7 @@ Remote Share Provider does not provide encryption to ensure the data security. I
 
 #### Install RBS library to evert SharePoint front end and application server
 
-You need to install RBS library to every SharePoint Front end and Application server in SharePoint farm using the following command line:
+You need to install RBS library to every SharePoint Front End and Application server in SharePoint farm using the following command line:
 
 ```
 Msiexec /qn /lvx* rbs_install_log.txt /I RBS.msi ADDLOCAL="Client"
@@ -183,7 +183,7 @@ To offload BLOB storage from content database to SMB storage, you need to create
 You can use Register-SPRemoteShareBlobStore cmdlet to register a new BLOB store for specific content database.
 
 ```
-Register-SPRemoteShareBlobStore -ContentDatabase <SPContentDatabasePipeBind> -Name <BlobStoreName[ValidateLength(8, 128)]> -Location <UNCPath> [-BlobStoreCredential < PSCredential>][- PoolCapacity <Int>]
+Register-SPRemoteShareBlobStore -ContentDatabase <SPContentDatabasePipeBind> -Name <BlobStoreName[ValidateLength(8, 128)]> -Location <UNCPath> [-BlobStoreCredential <PSCredential>][- PoolCapacity <Int>]
 
 ```
 
@@ -243,14 +243,14 @@ Syntax example:
 ```
 $blobstore = Register-SPRemoteShareBlobStore -ContentDatabase $db -Name "RemoteBlob" -Location \\SPVNEXT\blobstore
 Switch-SPBlobStorage -RemoteShareBlobStore $blobstore
-Switch-SPBlobStorage -ContentDatabase < SPContentDatabasePipeBind> -SQ
+Switch-SPBlobStorage -ContentDatabase <SPContentDatabasePipeBind> -SQ
 
 ```
 
 This cmdlet will switch default BLOB storage back to content database in SQL.
 
 
-**`-ContentDatabase < SPContentDatabasePipeBind`**
+**`-ContentDatabase <SPContentDatabasePipeBind`**
 
 The content database, which will need to set back to SQL. It can either be a content database object or content database name.
 
@@ -391,21 +391,3 @@ The content database needs to be validated against
 
 The path of the validation log.
 
-### Remote Share Provider Diagnostic Tool
-
-We have a new PowerShell cmdlet help admin to validate the data consistency of content database, which is Remote Share Provider enabled. It makes it easier for admin to figure out what are the problems in the remote storage.
-
-SYNTEX
-```
-Test-SPRemoteShareBlobStore-ContentDatabase <SPContentDatabasePipeBind> [-LogPath <String>]
-
-```
-The cmdlet parameters are:
-
-**`-ContentDatabase <SPContentDatabasePipeBind>`**
-
-The content database needs to be validated against
-
-**`[-LogPath <String>]`**
-
-The path of the validation log.
