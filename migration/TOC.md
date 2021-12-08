@@ -56,7 +56,7 @@
 #### [Bulk upload Dropbox accounts using a CSV file](mm-dropbox-bulk-upload-source-paths-csv.md)
 ## Migrate from Egnyte
 ### [Overview](mm-egnyte-overview.md)
-### [Step 1: Connect to Dropbox](mm-egnyte-step1-connect.md)
+### [Step 1: Connect to Egnyte](mm-egnyte-step1-connect.md)
 ### [Step 2: Scan and assess](mm-egnyte-step2-scan-assess.md)
 ### [Step 3: Copy to Migrations list](mm-egnyte-step3-copy-to-migrations.md)
 ### [Step 4: Review destination paths](mm-egnyte-step4-review-destinations.md)
