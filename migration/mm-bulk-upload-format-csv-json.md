@@ -31,11 +31,10 @@ The entries are manually entered by you into whichever format you choose.  The f
 - **Column headings**.  You can optionally use columns headings in your CSV file to make your file easier to read.
 - **All columns must be account for**.  Remember to account for all six columns in the file, even if you are not needing a value for a given field. 
 - **UTF-8**.  The encoding of the CSV file must be UTF-8.
-- **If you are migrating to OneDrive accounts**. When entering your OneDrive target, **do not** include *"?_layouts/15/onedrive.aspx"* at the end of the entry.  Also, the document library of a OneDrive target should be **Documents** not "MyFiles".
+- **If you are migrating to OneDrive accounts**. When entering your OneDrive target, **do not** include *"_layouts/15/onedrive.aspx"* at the end of the entry.  Also, the document library of a OneDrive target should be **Documents** not "MyFiles".
 
-## Notes for OneDrive users
-- When entering the target value 
-  
+
+
 ## Using a comma-separated value (CSV) file for bulk upload
 
 
@@ -57,10 +56,6 @@ FileSharePath,,,SharePointSite,DocLibrary,DocSubFolder
 \\MigrationTests\testfiles,,,https://contoso.sharepoint.com/sites/sitecollection,Documents,SubFolderName
 \\MigrationTests\testfiles,,,https://contoso-my.sharepoint.com/personal/user_contoso_onmicrosoft_com,Documents,
 ```
-
-
-
-
 
 
   

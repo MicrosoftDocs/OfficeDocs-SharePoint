@@ -1,11 +1,12 @@
 # [Migrate to Microsoft 365](migrate-to-sharepoint-online.md)
+## [What's new in Migration Manager](mm-whats-new.md)
+## [What's new in SPMT](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 ## Migrate file shares
 ### [Overview](mm-get-started.md)
 ### [Step 1: Set up Migration Manager agents](mm-setup-clients.md)
 ### [Step 2: Scan sources and assess](mm-fileshare-scan-assess.md)
 ### [Step 3: Copy to Migrations](mm-fileshare-copy-to-migrations.md)
 ### Reference
-#### [What's new](mm-whats-new.md)
 #### [Prerequisites and endpoints](mm-prerequisites.md)
 #### [Migration solutions posters](migration-solution-posters.md)
 #### [Settings](mm-settings.md)
@@ -29,6 +30,7 @@
 ### [Step 6: Migrate and Monitor](mm-box-step6-migrate-monitor.md)
 ### Reference
 #### [FAQs](mm-faqs-box.md)
+#### [Format a CSV file for bulk upload](mm-box-bulk-upload-source-paths-csv.md)
 #### [Troubleshooting](mm-box-troubleshooting.md)
 ## Migrate from Google Workspace
 ### [Overview](mm-google-overview.md)
@@ -38,6 +40,9 @@
 ### [Step 4: Review destination paths](mm-google-step4-review-destinations.md)
 ### [Step 5: Map identities](mm-google-step5-map-identities.md)
 ### [Step 6: Migrate and Monitor](mm-google-step6-migrate-monitor.md)
+### Reference
+#### [FAQs](mm-faqs-google.md)
+#### [Bulk upload Google drives using a CSV file](mm-google-bulk-upload-source-paths-csv.md)
 ## Migrate from Dropbox
 ### [Overview](mm-Dropbox-overview.md)
 ### [Step 1: Connect to Dropbox](mm-Dropbox-step1-connect.md)
@@ -46,13 +51,15 @@
 ### [Step 4: Review destination paths](mm-Dropbox-step4-review-destinations.md)
 ### [Step 5: Map identities](mm-Dropbox-step5-map-identities.md)
 ### [Step 6: Migrate and Monitor](mm-Dropbox-step6-migrate-monitor.md)
+### Reference
+#### [FAQs](mm-faqs-dropbox.md)
+#### [Bulk upload Dropbox accounts using a CSV file](mm-dropbox-bulk-upload-source-paths-csv.md)
 ## Migrate SharePoint Server sites and content
 ### [Overview](introducing-the-sharepoint-migration-tool.md)
 ### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
 ### [Step 2: Create a migration task](spmt-create-task.md)
 ### [Step 3: Monitor and report](using-the-sharepoint-migration-tool-reports.md)
 ### Reference
-#### [What's new](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 #### [Migration solutions posters](migration-solution-posters.md)
 #### [Prerequisites and endpoints](spmt-prerequisites.md)
 #### [Supported features](what-is-supported-spmt.md)
@@ -114,7 +121,7 @@
 #### [SharePoint Migration Identity Mapping Tool: SharePoint Identity Scan](sharepoint-migration-identity-mapping-tool-sharepoint-identity-scan.md)
 #### [SharePoint Migration Identity Mapping: Active Directory Identity Scan](sharepoint-migration-identity-mapping-active-directory-identity-scan.md)
 #### [SharePoint Migration Identity Mapping Tool: Azure Active Directory Identity Scan](sharepoint-migration-identity-mapping-tool-azure-active-directory-identity-scan.md)
-## Cloud to cloud migrations (Mover)
+## Other migrations (Legacy Mover tool)
 ###  Overview
 #### [Plan your migration](mover-plan-migration.md)
 #### [Manage connectors](mover-manage-connectors.md)

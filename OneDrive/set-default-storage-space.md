@@ -20,7 +20,7 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 ms.assetid: cec51d07-d7e0-42a3-b794-9c00ad0f0083
-description: "In this article, you'll learn how to change the default storage space for OneDrive users in the OneDrive admin center."
+description: "In this article, you'll learn how to change the default storage space for OneDrive users."
 ---
 
 # Set the default storage space for OneDrive users

@@ -20,7 +20,20 @@ description: "Create and launch a healthy SharePoint portal to ensure a performa
 
 # Creating and launching a healthy SharePoint portal
 
-A portal is a Microsoft SharePoint site on your intranet that has a large number of site viewers who consume content on the site. In large organizations there could be several of these; for example, a company portal and an HR portal. Typically portals have relatively few people who create and author the site and its content. Most visitors to the portal only read and consume the content.
+A **portal** is a Microsoft SharePoint site on your intranet with many site viewers who consume the content. In large organizations, you could have several, such as a company portal and an HR portal. 
+
+Typically portals have relatively few people who create and author the site and its content. Most visitors to the portal only read and consume the content.
+
+## What type of site should I use as my portal?
+
+SharePoint Online has several types of sites and page types. **For portals, we highly recommend using a communication site with a site page for the home page**, the default configuration when you create a communication site. Site pages allow you to use out-of-the-box web parts, custom web parts, and extensions. 
+
+To learn more, see [Create communication sites in SharePoint](/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb). 
+
+>[!Important]
+>**Modern Team sites** are designed for use on collaboration sites, like projects / interest groups / focus areas or when you would like to collaborate with other team members. To learn more, see [Create team sites in SharePoint](/office/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).
+>
+>The **App page type** was designed to be used for specific business applications within SharePoint Online. It was not designed to be used as a SharePoint Team site or a SharePoint Portal. To learn more, see [Creating application pages in SharePoint](/visualstudio/sharepoint/creating-application-pages-for-sharepoint).
 
 ## Guidance
 
@@ -38,7 +51,7 @@ This set of guidance will walk you through best practices and recommendations be
 | |![Bill blue](/Office/media/icons/bill-blue.png "Page weight") [Review page weight](/microsoft-365/Enterprise/modern-page-weight-optimization)|Follow guidance to reduce page weight in your site pages|
 | |![Task list planning blue 32](/Office/media/icons/PNGs/task-list-planning-blue-32.png "Calls on a page") [Limit the number of requests to a page](/Office365/Enterprise/modern-page-call-optimization)|Limit the number of web parts and calls into SharePoint|
 | |![Picture photo blue 32](/Office/media/icons/PNGs/picture-photo-blue-32.png "Optimize images") [Optimize your images](/microsoft-365/Enterprise/modern-image-optimization)|Follow basic image optimization for the web|
-| |![Files blue 32](/Office/media/icons/PNGs/files-blue-32.png "iFrames") [Limit and use Iframes carefully](/microsoft-365/Enterprise/modern-iframe-optimization)|Don't use more than 2 Iframes on a page|
+| |![Files blue 32](/Office/media/icons/PNGs/files-blue-32.png "iFrames") [Limit and use Iframes carefully](/microsoft-365/Enterprise/modern-iframe-optimization)|Don't use more than two Iframes on a page|
 | |![Graph 3 blue](/office/media/icons/graph-3-blue.png "Optimize extensions") [Optimize extensions](/microsoft-365/Enterprise/modern-custom-extensions)|Follow the guidance to optimize and limit your custom extensions|
 |![Task checklist planning blue 32](/office/media/icons/PNGs/task-checklist-planning-blue-32.png "Modern portal limits")|[Modern portal limits](/Office365/Enterprise/modern-portal-limits)|Follow the limits for modern portals to further optimize performance|
 |![Globe Internet](/Office/media/icons/globe-internet.png "Network optimization")|[Network optimization](/microsoft-365/enterprise/urls-and-ip-address-ranges)|Configure your URLs and IP endpoints|

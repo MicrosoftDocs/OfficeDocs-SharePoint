@@ -100,6 +100,11 @@ The final step of the migration process is when the data is moved from Azure to 
 
 To improve throughput, users are encouraged to run parallel tasks against different site collections if possible. We recommend that you do not submit more than 5,000 migration jobs/requests at one time. Over-queuing the network will create an extra load on the database and slow migration down. Make sure your task has completed before you upload a new migration request. Some tools may already be doing this for you.
 
+>[!Important]
+>We recommend that you do not have more than 5,000 migration jobs/requests **in the queue**. This number *does not* refer to the number of jobs *processing*. 
+>
+>To learn more about processing performance, see [Avoid getting throttled or blocked in SharePoint Online](/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online).
+
 During migration, it is not uncommon for your migration task to be throttled. Throttling is implemented to ensure the best user experience and reliability of SharePoint. It is primarily used to load balance the database and can occur if you misconfigure migration settings, such as migrating all your content in a single task or attempting to migrate during peak hours. 
 
 
@@ -112,7 +117,14 @@ After the migration is completed, verify that your content has been successfully
 
 ### Large migrations over 100TB 
 
-If you are planning to migrate over 100TB, please submit a support request following the steps listed below. Make sure to include all requested information.
+> [!NOTE]
+>
+> This process should only be followed if you meet the following requirements:
+> - The migration is occurring within the next 30 days. 
+> - The migration is over 100 TB of data.
+
+
+If you are planning to migrate over 100 TB, please submit a support request following the steps listed below. Make sure to include all requested information.
 
 Follow these steps:
 

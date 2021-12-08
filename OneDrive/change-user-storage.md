@@ -25,13 +25,16 @@ description: In this article, you'll learn how to change a user's OneDrive stora
 
 # Change a specific user's OneDrive storage space
 
-As a global or SharePoint admin in Microsoft 365, you can set the OneDrive storage space for a specific user.
+As a global or SharePoint admin in Microsoft 365, you can set the OneDrive storage space for a specific user. 
   
 > [!NOTE]
 > For info about setting the default storage space, see [Set the default storage space for OneDrive users](set-default-storage-space.md). For info about the storage available for your Microsoft 365 subscription, see the [OneDrive service description](/office365/servicedescriptions/onedrive-for-business-service-description).
 
 > [!NOTE]
 > If your organization is configured for multi-geo, you need to use PowerShell to change a user's OneDrive storage space. Editing storage limits isn't available in the Microsoft 365 admin center.  
+
+>[!IMPORTANT]
+> If a user has run out of storage, consider instructing them to proactively identify and review items that are taking up space by following the instructions at [Manage your OneDrive for work](https://support.microsoft.com/en-us/office/manage-your-onedrive-for-work-or-school-storage-31519161-059c-4764-b6f8-f5cd29f7fe68). 
 
 ## Change a user's storage space in the Microsoft 365 admin center
 
@@ -58,11 +61,11 @@ As a global or SharePoint admin in Microsoft 365, you can set the OneDrive stora
 
 When you need cloud storage for individual users beyond the initial 5 TB, additional cloud storage will be granted as follows:
 
-When a user has filled their 5 TB of OneDrive storage to at least 90% capacity, Microsoft will increase your default storage space in OneDrive to up to 25 TB per user (admins may set a lower per-user limit if they want to).
+- When a user has filled their 5 TB of OneDrive storage to at least 90% capacity, Microsoft will increase your default storage space in OneDrive to up to 25 TB per user (admins may set a lower per-user limit if they want to).
 
-For any user that reaches at least 90% capacity of their 25 TB of OneDrive storage, additional cloud storage will be provided as 25 TB SharePoint team sites to individual users. 
+- For any user that reaches at least 90% capacity of their 25 TB of OneDrive storage, additional cloud storage will be provided as 25 TB SharePoint team sites to individual users.  For more information and assistance, contact [Microsoft Support](https://go.microsoft.com/fwlink/?linkid=869559). 
 
-Admins can check for OneDrive eligibility beyond 5 TB via [Check OneDrive site eligibility for increased storage](/sharepoint/troubleshoot/storage/check-storage-increase-eligibility). 
+- Admins can check for OneDrive eligibility beyond 5 TB via [Check OneDrive site eligibility for increased storage](/sharepoint/troubleshoot/storage/check-storage-increase-eligibility). 
     
     
 ## Change a user's storage space by using PowerShell
@@ -119,6 +122,18 @@ Admins can check for OneDrive eligibility beyond 5 TB via [Check OneDrive site e
 
 
 > [!NOTE]
-> To change the storage space for multiple users, use PowerShell to [Display a list of OneDrive accounts by using PowerShell](list-onedrive-urls.md) and use [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite?preserve-view=true&view=sharepoint-ps) to make the change.
-> 
+> To change the storage space for multiple users, use PowerShell to [Display a list of OneDrive accounts by using PowerShell](list-onedrive-urls.md) and use [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite?preserve-view=true&view=sharepoint-ps&preserve-view=true) to make the change.
+
+## Diagnose issues with changing the OneDrive storage
+
+If you are attempting to change the OneDrive storage for a user and are not able to do so or the storage amount reverts to the original value, a Microsoft 365 administrator can run tests to determine what may be preventing the storage from changing. 
+
+> [!NOTE]
+> If you're an administrator and you're having trouble changing the OneDrive storage for a user or the storage amount reverts to the original value, select **Run Tests** below, which will populate the OneDrive storage quota diagnostic in the Microsoft 365 admin center. These tests will help determine what may be preventing the storage from changing and recommend steps for a resolution. 
+>> [!div class="nextstepaction"]
+>> [Run Tests: Check OneDrive Storage Quota](https://aka.ms/PillarOneDriveQuota)
+
+> [!NOTE]
+> This feature is not available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany. 
+
 > To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](/sharepoint/manage-user-profiles).

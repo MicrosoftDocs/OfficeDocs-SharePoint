@@ -18,7 +18,7 @@ description: "Get an introduction to cross-site publishing."
 
 # An introduction to cross-site publishing in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 To build our Contoso website, we'll use cross-site publishing, a publishing method introduced with SharePoint Server 2016. But before we start, let's get a bit more familiar with how cross-site publishing works.
   

@@ -17,7 +17,7 @@ description: "Learn which SharePoint Designer features can be turned off by a Sh
 
 # Deactivated controls in SharePoint Designer 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 A SharePoint Server administrator can deactivate the following features in SharePoint Designer 2013 clients that are connected to the server:
   

@@ -2,11 +2,19 @@
 
 
 
-## Week of September 13, 2021
+## Week of November 29, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 9/14/2021 | [View the list of OneDrive URLs for users in your organization](/OneDrive/list-onedrive-urls) | modified |
-| 9/15/2021 | [View the list of OneDrive URLs for users in your organization](/OneDrive/list-onedrive-urls) | modified |
-| 9/15/2021 | [Set the default storage space for OneDrive users](/OneDrive/set-default-storage-space) | modified |
+| 11/30/2021 | [Change a specific user's OneDrive storage space](/OneDrive/change-user-storage) | modified |
+| 12/1/2021 | [OneDrive sync reports in the Apps Admin Center](/OneDrive/sync-health) | modified |
+
+
+## Week of November 22, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/24/2021 | [Use information barriers with OneDrive](/OneDrive/information-barriers) | modified |
+| 11/24/2021 | [OneDrive sync reports in the Apps Admin Center](/OneDrive/sync-health) | modified |

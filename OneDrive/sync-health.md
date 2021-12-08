@@ -45,6 +45,9 @@ From the Sync health dashboard, admins can check the sync status and sync app ve
 
 - Devices can reach the endpoint [https://config.office.com](https://config.office.com).
 
+>[!NOTE]
+> This feature isn’t available to customers who have the following plans: Office 365 operated by 21Vianet, Office 365 Germany, Office 365 GCC, or Office 365 GCC High and DoD.
+
 ## Set up the OneDrive sync health dashboard
 
 1. Make sure you have the required role and app versions listed in the previous section.
@@ -160,7 +163,7 @@ Use this section to troubleshoot if the OneDrive sync reports don't appear after
 
     If the SyncAdminReports setting was not applied, go back and follow the steps under [Set up the OneDrive sync health dashboard](#set-up-the-onedrive-sync-health-dashboard).
 
-If the device is on the Insiders or Production ring and the setting was applied correctly, wait for 24 hours with the device turned on and signed in to OneDrive. If the device still doesn't appear on the dashboard, open a support ticket with Microsoft. For more information, see the next section, [Report a problem](#report-a-problem).
+If the device is on the Insiders or Production ring and the setting was applied correctly, wait for 36 hours with the device turned on and signed in to OneDrive. If the device still doesn't appear on the dashboard, open a support ticket with Microsoft. For more information, see the next section, [Report a problem](#report-a-problem).
 
 ## Report a problem
 

@@ -28,6 +28,8 @@ description: "Learn about SharePoint view in File Explorer for Edge."
 
 Last year, we announced that Microsoft 365 apps and services would no longer support Internet Explorer 11 (IE 11). As a result, we no longer recommend View in File Explorer and encourage using the OneDrive sync client. The OneDrive sync client provides [Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e), which allows you to access all your files in SharePoint without using up local storage space. For info about using OneDrive to sync SharePoint files, visit [SharePoint file sync](sharepoint-sync.md).
 
+By default, the View in File Explorer menu option will not be visible to you or users in the SharePoint modern document library interface. In certain cases, organizations may still need to use View in File Explorer to access modern document libraries. Starting in Microsoft Edge Stable version 93, you can enable the View in File Explorer capability on SharePoint for modern document libraries.
+
 ## Configure View in File Explorer with Edge
 
 Follow the steps below to use View in File Explorer in Microsoft Edge:
@@ -121,7 +123,7 @@ This error will occur when you attempt to apply this policy to a non-domain join
 
 **What happens if I have the policy applied without the tenant setting enabled?**
 
-If you don't enable ViewInFileExplorerEnabled via [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps), the View in File Explorer button will not appear in the interface of the SharePoint site.
+If you don't enable ViewInFileExplorerEnabled via [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps&preserve-view=true), the View in File Explorer button will not appear in the interface of the SharePoint site.
 
 **What happens if the tenant setting is enabled without the Edge policy applied?**
 
@@ -138,4 +140,4 @@ You may receive this error if this functionality is not supported in your curre
 - [Sync SharePoint and Team files with your computer](https://support.microsoft.com/en-us/office/sync-sharepoint-and-teams-files-with-your-computer-6de9ede8-5b6e-4503-80b2-6190f3354a88)
 - [View and open SharePoint with File Explorer](https://support.microsoft.com/en-us/office/view-and-open-sharepoint-files-with-file-explorer-66b574bb-08b4-46b6-a6a0-435fd98194cc)
 - [Troubleshoot View in File Explorer](/sharepoint/troubleshoot/lists-and-libraries/troubleshoot-issues-using-open-with-explorer)
-- [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps)
+- [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps&preserve-view=true)

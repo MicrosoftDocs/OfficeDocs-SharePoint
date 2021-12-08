@@ -8,7 +8,7 @@ ms.date: 3/9/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -26,7 +26,7 @@ description: "Learn how to configure cloud hybrid search for SharePoint Server b
 
 # Configure cloud hybrid search - roadmap
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
 Learn how to configure [cloud hybrid search](./learn-about-cloud-hybrid-search-for-sharepoint.md) for SharePoint Server by setting up a cloud Search service application in your SharePoint Server environment and connecting it to your search index in Office 365. 
   
@@ -165,7 +165,7 @@ On the application server that hosts the SharePoint ServerCentral Administration
   
 1. Ensure that the date and time of the server is synchronized with the other servers in the SharePoint Server farm.
     
-2. Download and install the [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkID=286152) from the Microsoft Download Center. 
+2. Download and install the [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://download.microsoft.com/download/7/1/E/71EF1D05-A42C-4A1F-8162-96494B5E615C/msoidcli_64bit.msi) from the Microsoft Download Center. 
     
 3. Download and install the latest version of the [Azure Active Directory Module for Windows PowerShell](https://www.powershellgallery.com/packages/MSOnline/1.1.183.8) from the PowerShell Gallery. 
     

@@ -17,7 +17,7 @@ description: "Learn how to configure and demonstrate the new social features of 
 
 # Test Lab Guide: Demonstrate Social Features for SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 This document contains instructions for the following: 
   

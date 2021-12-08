@@ -24,7 +24,7 @@ description: "If the standard SharePoint ranking models don't satisfy the releva
 
 # Create a custom ranking model by using the Ranking Model Tuning App
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 If the standard ranking models don't satisfy the relevance requirements you have, you can create a custom ranking model for the classic search experience. With the Ranking Model Tuning App, you can do this more easily than before. The app provides a user interface for copying an existing ranking model, judge the results for a set of queries, add or remove rank features, and adjust the weight of these features. Finally, you can evaluate the changes, and publish the new ranking model when you're satisfied with the results.
   
