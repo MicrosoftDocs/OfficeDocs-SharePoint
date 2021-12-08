@@ -35,6 +35,7 @@ Task level reports:
 - [Item Report](#item-report)
 - [Scan Summary](#scan-summary)
 - [Structure Report](#structure-report)
+- [Hub site report](#hub-site-report)
 
 Performance report
 - [Performance Report](#performance-report)
@@ -239,6 +240,16 @@ Structure report at the task level.
 |Source structure ID |ID when available. |
 |Destination structure ID |ID when available. |
 |Time stamp |The time at which the action occurred. |
+
+### Hub site report
+
+|**Column**|**Description**|
+|:-----|:-----|
+|URL|URL of the SPO site|
+|HubSiteUrl|URL of the hubsite. This column is empty if the site is not hubsite|
+|Result|Registered/Associated/Failed|
+|Error|	Error type. Blank if no error occurred.|
+|Message|Error message||
    
 
 ### Performance report
