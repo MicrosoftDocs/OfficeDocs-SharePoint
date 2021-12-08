@@ -31,7 +31,7 @@ Learn how to:
 
 - [Bulk upload using a CSV file](#use-a-csv-file-for-bulk-upload)
 - [Bulk upload using a JSON file](#use-a-json-file-for-bulk-upload)
-- [Troubleshooting](#proxy-connections)
+- [Troubleshooting](#troubleshooting)
   
 ## Use a CSV file for bulk upload
 
