@@ -25,7 +25,7 @@ See if the crawler has added content to the search index, and if your users are 
   
 ## View search usage reports
   
-This article describes how you can use search reports in the SharePoint admin center to find answers to questions about how search is being used in your organization. You can for example see the number of queries and the top queries. [Learn more](view-search-usage-reports.md).
+This article describes how you can use search reports in the SharePoint admin center to find answers to questions about how search is being used in your organization. You can for example see the number of queries and the top queries. [Learn more](view-search-usage-reports-modern-sites.md).
   
 ## Query throttling
   
