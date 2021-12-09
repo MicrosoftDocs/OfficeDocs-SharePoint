@@ -43,7 +43,7 @@ Create an Egnyte Connect API application. Creating an application will generate 
 |Type|Internal application |
 |Current user base|New app|
 |Platform |Web App|
-|Egnyte domain that you will use for testing | enter your organizations Egnyte domain|
+|Egnyte domain that you will use for testing | Enter your organizations Egnyte domain|
 
 
 Under **Select which Web APIs you will use**, select:
@@ -74,12 +74,12 @@ After you have created your new app in Egnyte:
 
 ## Request rate limit increase
 
-Your new Egnyte application lets you connect to your Egnyte account.  However, it will likely not let you migrate content to Microsoft 365 due to the limits Egnyte imposes on new applications.  You need to contact Egnyte support a request a rate limit increase for your application.  [**Contact Egnyte**](https://developers.egnyte.com/contact)
+Your new Egnyte application lets you connect to your Egnyte account.  However, it will likely not let you migrate content to Microsoft 365 due to the limits Egnyte imposes on new applications.  Contact Egnyte support to request a rate limit increase for your application.  [**Contact Egnyte support**](https://developers.egnyte.com/contact)
 
 **Sample email:**
 
    **Subject:**  Egnyte connection</br>
-   **Text:**     I would like the user rate limties increase for my application [enter application name] to x calls per second and y calls per day.
+   **Text:**     I would like the user rate limits increase for my application [enter application name] to x calls per second and y calls per day.
 
 
 
