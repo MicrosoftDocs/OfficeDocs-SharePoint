@@ -36,6 +36,7 @@
 ### [Turn on external sharing notifications](turn-on-external-sharing-notifications.md)
 ### [Allow syncing only on specific domains](allow-syncing-only-on-specific-domains.md)
 ### [Control access based on network location or app](control-access-based-on-network-location-or-app.md)
+### [Limit OneDrive access by security group](limit-access.md)
 ### [Control access to mobile app features](control-access-to-mobile-app-features.md)
 ### [Enable conditional access](enable-conditional-access.md)
 ### [Use information barriers](information-barriers.md)
