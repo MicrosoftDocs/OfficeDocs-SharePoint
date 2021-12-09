@@ -1,22 +1,20 @@
 ---
-title: "Limit Access"
+title: "Limit access"
 ms.author: v-bshilpa
 author: Benny-54
 manager: serdars
 audience: Admin
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: one-drive
 ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
-ms.custom:
--  seo-marvel-apr2020
 search.appverid:
 ms.assetid: 
-description: "In this article, you'll learn how to apply limit access settings."
+description: "In this article, you'll learn how to all only users in specified security groups to access OneDrive."
 ---
 
 # Limit OneDrive access by security group
@@ -45,13 +43,11 @@ To enable this feature:
 
 1. Go to the [Access control page of the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
-[image]
-
 2. Select **Limit OneDrive access**.
 
 3. Select **Limit OneDrive access to only users in specified security groups**.
 
-[image]
+![Limit access on the Access control page in the SharePoint admin center](media/limit-access.png)
 
 4. Add the security groups you want to be able to use OneDrive.
 
