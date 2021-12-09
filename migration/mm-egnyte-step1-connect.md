@@ -74,12 +74,12 @@ After you have created your new app in Egnyte:
 
 ## Request rate limit increase
 
-Your new Egnyte application lets you connect to your Egnyte account.  However, it will likely not let you migrate content to Microsoft 365 due to the limits Egnyte imposes on new applications.  You need to contact Egnyte support a request a rate limit increase for your application.
+Your new Egnyte application lets you connect to your Egnyte account.  However, it will likely not let you migrate content to Microsoft 365 due to the limits Egnyte imposes on new applications.  You need to contact Egnyte support a request a rate limit increase for your application.  [**Contact Egnyte**](https://developers.egnyte.com/contact)
 
-Sample email:
+**Sample email:**
 
-Subject:  Egnyte connection
-Text:     I would like the user rate limties increase for my application [enter application name] to x calls per second and y calls per day.
+   **Subject:**  Egnyte connection
+   **Text:**     I would like the user rate limties increase for my application [enter application name] to x calls per second and y calls per day.
 
 
 
