@@ -78,7 +78,7 @@ Your new Egnyte application lets you connect to your Egnyte account.  However, i
 
 **Sample email:**
 
-   **Subject:**  Egnyte connection
+   **Subject:**  Egnyte connection</br>
    **Text:**     I would like the user rate limties increase for my application [enter application name] to x calls per second and y calls per day.
 
 
