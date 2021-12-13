@@ -32,7 +32,7 @@ Instead of turning off external sharing entirely, you can address this issue by 
 1. Since once this setting is enabled any content not explicitly checked in a DLP policy will be blocked from being externally accessed, you must ensure any content that needs to be shared externally is covered by at least one DLP policy. If you prefer to require explicit authorization in a DLP policy for a site to be shareable, no further action is needed after this setting is enabled. If not all locations with content that needs to be shared externally are already covered by an existing DLP policy, you must add them to at least one policy. The easiest way to do this is to create a DLP policy that includes all locations, that has any “content contains” condition selected, and that specifies no actions, no alerts, no notifications and no reports. Also, make sure the rule doesn’t use the option to stop processing additional DLP rules. [Learn how to create and turn on a DLP policy](/microsoft-365/compliance/create-test-tune-dlp-policy)
 
     > [!IMPORTANT]
-    > Unless you want to block access to all locations by default and only allow locations authorized in a DLP policy, the DLP policy must include all SharePoint sites and OneDrive accounts and exclude none.
+    > Any content not in the scope of DLP policies would not be blocked for external access.
 
 2. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
