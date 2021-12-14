@@ -1,5 +1,5 @@
 ---
-title: "Uninstall SharePoint Server 2016 or SharePoint Server 2019"
+title: "Uninstall SharePoint Server 2016, 2019, or Subscription Edition"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -28,6 +28,9 @@ You remove SharePoint Server by uninstalling it from Control Panel. When you uni
 - SQL Server databases are detached but are not removed from the database server.
     
 - When you uninstall SharePoint Server, all user data remains in the database files.
+
+> [!NOTE]
+>  To uninstall SharePoint Server Subscription Edition on Windows Server Core, see [Uninstall SharePoint Server Subscription Edition](/sharepoint/install/uninstall-for-sharepoint-server-subscription-edition).
     
 ## Before you begin
 <a name="begin"> </a>
@@ -46,7 +49,6 @@ Use this procedure to uninstall SharePoint Server 2016.
 2. On the computer that runs SharePoint Server, log on as a local or domain administrator.
     
 3. Start Control Panel.
-    
   
 4. In the **Programs** area, click **Uninstall a program**.
     
