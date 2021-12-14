@@ -35,6 +35,7 @@ Task level reports:
 - [Item Report](#item-report)
 - [Scan Summary](#scan-summary)
 - [Structure Report](#structure-report)
+- [Hub site report](#hub-site-report)
 
 Performance report
 - [Performance Report](#performance-report)
@@ -185,9 +186,10 @@ The **ItemFailureReport.csv**, is only generated if an error resulting in a file
 
 The **ItemReport.csv** is a detailed report that provides data on each file within the task.
 
+
 |Column name|Description|
 |:-----|:-----|
-|Source  |File path or URL of the location of the data being migrated. |
+|Source |File path or URL of the location of the data being migrated. |
 |Destination |the URL of the tenant and library to where the data will be migrated. |
 |File name |The name of the file migrated. |
 |Extension  |The extension, indicating the file type. |
@@ -239,6 +241,16 @@ Structure report at the task level.
 |Source structure ID |ID when available. |
 |Destination structure ID |ID when available. |
 |Time stamp |The time at which the action occurred. |
+
+### Hub site report
+
+|**Column**|**Description**|
+|:-----|:-----|
+|URL|URL of the SPO site|
+|HubSiteUrl|URL of the hubsite. This column is empty if the site is not hubsite|
+|Result|Registered/Associated/Failed|
+|Error|	Error type. Blank if no error occurred.|
+|Message|Error message||
    
 
 ### Performance report
