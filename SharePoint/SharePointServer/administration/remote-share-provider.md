@@ -26,7 +26,7 @@ In SharePoint 2013, Remote BLOB Storage (RBS) technology was created in SQL serv
 
 ## Key features of remote share provider
 
-In SharePoint Server subscription edition, we provide a new RBS provider **Remote Share Provider**.
+In SharePoint Server Subscription Edition, we provide a new RBS provider **Remote Share Provider**.
   
 Following are the key features of Remote Share Provider:
 - This provider supports offload Binary Large Object (BLOB) storage to remote SMB system and totally enables content database storage in SQL server side. Therefore, with the same amount of limitation of content database, as in 200-GB size, more file volumes can be stored in one content database. Hence, it helps not only to reduce the cost for storage but also for the maintenance.
@@ -123,7 +123,7 @@ Remote Share Provider does not provide encryption to ensure the data security. I
 
 #### Install RBS library to evert SharePoint front end and application server
 
-You need to install RBS library to every SharePoint Front end and Application server in SharePoint farm using the following command line:
+You need to install RBS library to every SharePoint Front End and Application server in SharePoint farm using the following command line:
 
 ```
 Msiexec /qn /lvx* rbs_install_log.txt /I RBS.msi ADDLOCAL="Client"
@@ -183,7 +183,7 @@ To offload BLOB storage from content database to SMB storage, you need to create
 You can use Register-SPRemoteShareBlobStore cmdlet to register a new BLOB store for specific content database.
 
 ```
-Register-SPRemoteShareBlobStore -ContentDatabase <SPContentDatabasePipeBind> -Name <BlobStoreName[ValidateLength(8, 128)]> -Location <UNCPath> [-BlobStoreCredential < PSCredential>][- PoolCapacity <Int>]
+Register-SPRemoteShareBlobStore -ContentDatabase <SPContentDatabasePipeBind> -Name <BlobStoreName[ValidateLength(8, 128)]> -Location <UNCPath> [-BlobStoreCredential <PSCredential>][- PoolCapacity <Int>]
 
 ```
 
@@ -205,7 +205,7 @@ The name of new created BLOB store.
 The UNC path of the SMB storage this BLOB store will use.
 
 
-**`[-BlobStoreCredential] < PSCredential>`**
+**`[-BlobStoreCredential] <PSCredential>`**
 
 The PSCredential object which is used to access the SMB storage. If this parameter is not specified, it will use the service account which is applied to the current web application.
 
@@ -243,14 +243,14 @@ Syntax example:
 ```
 $blobstore = Register-SPRemoteShareBlobStore -ContentDatabase $db -Name "RemoteBlob" -Location \\SPVNEXT\blobstore
 Switch-SPBlobStorage -RemoteShareBlobStore $blobstore
-Switch-SPBlobStorage -ContentDatabase < SPContentDatabasePipeBind> -SQ
+Switch-SPBlobStorage -ContentDatabase <SPContentDatabasePipeBind> -SQ
 
 ```
 
 This cmdlet will switch default BLOB storage back to content database in SQL.
 
 
-**`-ContentDatabase < SPContentDatabasePipeBind`**
+**`-ContentDatabase <SPContentDatabasePipeBind`**
 
 The content database, which will need to set back to SQL. It can either be a content database object or content database name.
 
@@ -270,11 +270,11 @@ After the RBS setup, new schema `mssqlrbs` is created in the content database. H
 
 Use the below sample SQL command in SQL server to grant the permission.
 
-```
+
+    ```powershell
 ALTER AUTHORIZATION ON SCHEMA::mssqlrbs to [web_app_pool_account];
 ALTER AUTHORIZATION ON SCHEMA::mssqlrbs to [service app_pool_account];
-```
-
+    ```
 
 #### Resetting IIS
 
@@ -391,21 +391,3 @@ The content database needs to be validated against
 
 The path of the validation log.
 
-### Remote Share Provider Diagnostic Tool
-
-We have a new PowerShell cmdlet help admin to validate the data consistency of content database, which is Remote Share Provider enabled. It makes it easier for admin to figure out what are the problems in the remote storage.
-
-SYNTEX
-```
-Test-SPRemoteShareBlobStore-ContentDatabase <SPContentDatabasePipeBind> [-LogPath <String>]
-
-```
-The cmdlet parameters are:
-
-**`-ContentDatabase <SPContentDatabasePipeBind>`**
-
-The content database needs to be validated against
-
-**`[-LogPath <String>]`**
-
-The path of the validation log.
