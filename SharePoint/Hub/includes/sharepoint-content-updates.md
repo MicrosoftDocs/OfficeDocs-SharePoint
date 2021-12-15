@@ -2,6 +2,46 @@
 
 
 
+## Week of December 06, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/6/2021 | [Manage Teams connected sites](/SharePoint/teams-connected-sites) | modified |
+| 12/7/2021 | [Guided walkthrough - Creating a leadership site for your organization](/SharePoint/guided-walkthrough-creating-leadership-site) | modified |
+| 12/7/2021 | [Guided walkthrough - Creating an organization site](/SharePoint/guided-walkthrough-creating-organization-site) | modified |
+| 12/7/2021 | [Guided walkthrough - Creating a Team site](/SharePoint/guided-walkthrough-creating-team-site) | modified |
+| 12/7/2021 | [Guided walkthrough - Setting up news for your organization using a hub site](/SharePoint/guided-walkthrough-set-up-news-with-hub-site) | modified |
+| 12/7/2021 | [Domain restrictions when sharing SharePoint & OneDrive content](/SharePoint/restricted-domains-sharing) | modified |
+| 12/9/2021 | [Check logs, limits and reports](/SharePoint/check-logs-limits-and-reports) | modified |
+| 12/9/2021 | [SharePoint classic search administration overview](/SharePoint/manage-search-the-admin-center) | modified |
+| 12/9/2021 | [View Popularity Trends and Most Popular Items](/SharePoint/view-popularity-trends-and-most-popular-items) | modified |
+| 12/9/2021 | View search usage reports | removed |
+
+
+## Week of November 29, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/29/2021 | [Manage site storage limits](/SharePoint/manage-site-collection-storage-limits) | modified |
+| 11/29/2021 | [View search usage reports in modern sites](/SharePoint/view-search-usage-reports-modern-sites) | modified |
+| 11/30/2021 | [Change a site address](/SharePoint/change-site-address) | modified |
+| 11/30/2021 | [External sharing overview](/SharePoint/external-sharing-overview) | modified |
+| 11/30/2021 | [Manage query rules](/SharePoint/manage-query-rules) | modified |
+| 11/30/2021 | [Create an organization news site](/SharePoint/organization-news-site) | modified |
+| 11/30/2021 | Add the Viva Connections app in the Teams admin center | removed |
+| 11/30/2021 | Create the Viva Connections Dashboard | removed |
+| 11/30/2021 | Guide to setting up Viva Connections | removed |
+| 11/30/2021 | Plan, build, and launch a home site for your organization | removed |
+| 11/30/2021 | Set up global navigation in the SharePoint app bar | removed |
+| 11/30/2021 | Overview: Viva Connections | removed |
+| 12/1/2021 | [Create guidelines for site usage](/SharePoint/sites-usage-guidelines) | modified |
+| 12/1/2021 | [Create an organization news site](/SharePoint/organization-news-site) | modified |
+| 12/3/2021 | [Manage search dictionaries](/SharePoint/manage-search-dictionaries) | modified |
+| 12/3/2021 | [Configure server-to-server authentication from SharePoint Server to SharePoint in Microsoft 365](/SharePoint/hybrid/configure-server-to-server-authentication) | modified |
+
+
 ## Week of November 22, 2021
 
 
@@ -55,16 +95,3 @@
 | 11/15/2021 | [Set up the Viva Connections experience in a specific language](/SharePoint/viva-connections-language) | modified |
 | 11/18/2021 | [Create an information barriers policy compliance report](/SharePoint/info-barriers-report) | modified |
 | 11/19/2021 | [Change your SharePoint domain name](/SharePoint/change-your-sharepoint-domain-name) | modified |
-
-
-## Week of October 25, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 10/25/2021 | [Control access from unmanaged devices](/SharePoint/control-access-from-unmanaged-devices) | modified |
-| 10/25/2021 | [Manage site creation in SharePoint](/SharePoint/manage-site-creation) | modified |
-| 10/25/2021 | [Use the new SharePoint app bar and set up global navigation](/SharePoint/sharepoint-app-bar) | modified |
-| 10/26/2021 | [Set up global navigation in the SharePoint app bar](/SharePoint/sharepoint-app-bar) | modified |
-| 10/28/2021 | [Use information barriers with SharePoint](/SharePoint/information-barriers) | modified |
-| 10/28/2021 | [Creating and launching a healthy SharePoint portal](/SharePoint/portal-health) | modified |
