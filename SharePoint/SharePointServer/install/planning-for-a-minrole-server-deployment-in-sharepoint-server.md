@@ -52,7 +52,8 @@ There are eight pre-defined server roles in 3 categories you can choose from in 
 |Custom  |Service applications, services, and components that you want to manage, instead of using MinRole to manage them, belong on a Custom server.  |This server role is typically used to run services that do not integrate with MinRole. The farm administrator has full control over which service instances can run on servers assigned to the Custom server role. MinRole ﻿will not attempt to manage servers assigned to this role.  |
    
 > [!NOTE]
-> You must have the November Public Update for SharePoint Server 2016 (Feature Pack 1) installed to use shared roles in your farm topology. > 
+> You must have the November Public Update for SharePoint Server 2016 (Feature Pack 1) installed to use shared roles in your farm topology.
+
   
 ## MinRole Topologies
 
@@ -74,7 +75,11 @@ Each type of SharePoint farm requires different MinRole server roles to function
 |Search  |Yes, if hosting Search  |Yes, if hosting Search  |Yes  |
    
 > [!NOTE]
-> Shared roles can be substituted for their equivalent dedicated roles to reduce the number of servers in a farm. For example, the "Front-end with Distributed Cache" role can be used in place of the separate "Front-end" and "Distributed Cache" roles to meet the requirements of a content farm. > Dedicated roles, shared roles, and the Custom server role can be used together in the same farm. If you substitute the Custom server role for one or more MinRole-managed server roles, you must ensure that servers assigned to the Custom role are configured properly with the service instances needed in that type of farm. > SQL Server can be running on the same server or a different server as SharePoint, but for better performance we recommend running SQL Server on a separate server. 
+> Shared roles can be substituted for their equivalent dedicated roles to reduce the number of servers in a farm. For example, the "Front-end with Distributed Cache" role can be used in place of the separate "Front-end" and "Distributed Cache" roles to meet the requirements of a content farm.
+>
+> Dedicated roles, shared roles, and the Custom server role can be used together in the same farm. If you substitute the Custom server role for one or more MinRole-managed server roles, you must ensure that servers assigned to the Custom role are configured properly with the service instances needed in that type of farm.
+>
+> SQL Server can be running on the same server or a different server as SharePoint, but for better performance we recommend running SQL Server on a separate server. 
   
 Refer to the table below for the list of recommended MinRole content farm topologies.
 
