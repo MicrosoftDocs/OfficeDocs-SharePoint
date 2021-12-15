@@ -24,7 +24,7 @@ description: "Learn about how to convert your server roles in a SharePoint farm 
   
 ## Role Conversion
 
- **About Server Role Conversion**
+**About Server Role Conversion**
   
 Servers can be converted to a different server role without having to disconnect them from your farm and then rejoining them using the different server role. Servers can be converted to dedicated roles, shared roles, the Custom server role, or the Single-Server Farm server role. Server role conversion can be performed through the the SharePoint Central Administration website or Microsoft PowerShell.
   
@@ -36,13 +36,13 @@ Before a server is converted to a different server role, SharePoint will perform
 > [!NOTE]
 > Role conversion pre-validation was first introduced in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1). 
   
- **Distributed Cache and role conversion**
+**Distributed Cache and role conversion**
   
 Role conversion can't automatically enable, disable, or reconfigure the Distributed Cache service. You must manually enable, disable, or reconfigure the Distributed Cache service before performing role conversion. If this step isn't performed before role conversion, role conversion pre-validation will block the role conversion.
   
 To enable the Distributed Cache service, the administrator runs the **Add-SPDistributedCacheServiceInstance** cmdlet on the target server, specifying the desired role with the **Role** parameter (that is,  `-Role <role name>`). To disable the Distributed Cache service, the administrator runs the **Remove-SPDistributedCacheServiceInstance** cmdlet on the target server. 
   
- **Search and role conversion**
+**Search and role conversion**
   
 Role conversion can't convert a server from a role hosting Search to a role that doesn't host Search if the server is part of an active Search topology. You must remove the server from the active Search topology before performing role conversion. If this step isn't performed before role conversion, role conversion pre-validation will block the role conversion.
   
@@ -52,7 +52,7 @@ Role conversion can't convert a server from a role hosting Search to a role that
 ## How to change a server role
 <a name="changerole"> </a>
 
- **To change a server role by using the Central Administration Web site**
+**To change a server role by using the Central Administration Web site**
   
 1. Verify that the user account that is performing this procedure is a member of the local Administrators group.
     
@@ -64,20 +64,20 @@ Role conversion can't convert a server from a role hosting Search to a role that
     
 5. Click **Apply**.
     
- **To change a server role by using PowerShell**
+**To change a server role by using PowerShell**
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - local Administrators group on the server on which you are running the PowerShell cmdlets.
+   - local Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true) cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
+     An administrator can use the [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true) cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
-    > [!NOTE]
-    > If you do not have permissions, contact your setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+     > [!NOTE]
+     > If you do not have permissions, contact your setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. On the **Start** menu, click **Microsoft SharePoint Products**.
     
@@ -85,16 +85,15 @@ Role conversion can't convert a server from a role hosting Search to a role that
     
 4. At the PowerShell command prompt, type the following command:
     
-  ```
-  Set-SPServer -Identity <server name> -Role <server role>
-  ```
+   ```powershell
+   Set-SPServer -Identity <server name> -Role <server role>
+   ```
 
-    Where:
+   Where:
     
-  - \<server name\> is the server to change.
+   - \<server name\> is the server to change.
     
-  -  _\<server role\>_ is the name of the new server role, which includes the values: WebFrontEnd, Application, DistributedCache, Search, WebFrontEndWithDistributedCache, ApplicationWithSearch, SingleServerFarm, or Custom. 
+   -  _\<server role\>_ is the name of the new server role, which includes the values: WebFrontEnd, Application, DistributedCache, Search, WebFrontEndWithDistributedCache, ApplicationWithSearch, SingleServerFarm, or Custom. 
     
-For more information about how to change a server role by using PowerShell, see Set-SPServer.
-  
+For more information about how to change a server role by using PowerShell, see [Set-SPServer](/powershell/module/sharepoint-server/set-spserver).
 
