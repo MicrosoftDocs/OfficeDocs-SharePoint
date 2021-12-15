@@ -24,7 +24,7 @@ description: "Learn about the MinRole feature in SharePoint Server and the servi
   
 The MinRole feature in SharePoint Servers 2016, 2019 and Subscription Edition lets SharePoint farm administrators assign each server's role in a farm topology. The role of a server is specified when you create a new farm or join a server to an existing farm.
   
-This article describes the services associated with each server role. These services are listed in Central Administration -> System settings -> Manage services in this farm, or by running the Get-SPService cmdlet. The service instances for some services are hidden because they are internal to the operation of SharePoint and not meant to be directly controlled. To retrieve a list of services instances on a server, including hidden services, use this syntax,  `(Get-SPServer <server_name>).ServiceInstances`.
+This article describes the services associated with each server role. These services are listed in **Central Administration** > **System settings** > **Manage services in this farm**, or by running the Get-SPService cmdlet. The service instances for some services are hidden because they are internal to the operation of SharePoint and not meant to be directly controlled. To retrieve a list of services instances on a server, including hidden services, use this syntax,  `(Get-SPServer <server_name>).ServiceInstances`.
   
 > [!NOTE]
 > The services listed is the list of what will be running on each server role if all of the services are enabled. Services associated with service applications will only be enabled if the farm administrator provisions that service application. Services that aren't associated with service applications will only be running if Auto Provision is enabled on that service. 
