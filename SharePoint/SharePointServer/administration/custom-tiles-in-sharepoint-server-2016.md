@@ -157,6 +157,6 @@ To add this list to Left Navigation pane, do the following steps:
     
 3. Select **Yes** for Navigation setting to display list on **Quick Launch** as displayed with this image. 
     
-:::image type="content" alt-text="Displays Quick Launch settings." source="../media/22b5e6e8-37c1-4120-9c89-456d06867a6e.jpg":::
+   :::image type="content" alt-text="Displays Quick Launch settings." source="../media/22b5e6e8-37c1-4120-9c89-456d06867a6e.jpg":::
   
 
