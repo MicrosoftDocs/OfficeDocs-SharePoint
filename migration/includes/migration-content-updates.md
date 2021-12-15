@@ -2,6 +2,17 @@
 
 
 
+## Week of December 06, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/8/2021 | [Migrate SharePoint workflows in Microsoft 365 using the SharePoint Migration tool](/SharepointMigration/spmt-workflow) | added |
+| 12/8/2021 | [How to use SharePoint Migration Tool](/SharepointMigration/how-to-use-the-sharepoint-migration-tool) | modified |
+| 12/8/2021 | [Assess SharePoint Migration Tool reports](/SharepointMigration/using-the-sharepoint-migration-tool-reports) | modified |
+| 12/8/2021 | [Format your JSON or CSV file for data content migration - SharePoint](/SharepointMigration/how-to-format-your-csv-file-for-data-content-migration) | modified |
+
+
 ## Week of November 29, 2021
 
 
