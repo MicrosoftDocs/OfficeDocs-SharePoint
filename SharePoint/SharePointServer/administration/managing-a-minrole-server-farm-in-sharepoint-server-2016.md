@@ -33,8 +33,8 @@ With the addition of the MinRole feature, there are several changes to the Centr
 #### Manage servers in this farm
 
 This page shows the servers that are joined to the farm. Two columns have been added to this page: **Role** and **Compliant**. 
-  
-![Displays Servers In Farm for the November PU 2016 in SharePoint Server 2016 (Feature Pack 1)](../media/44119bfc-88ed-47c6-a5cb-0408b03f06eb.png)
+
+::image type="content" alt-text="Displays Servers In Farm for the November PU 2016 in SharePoint Server 2016 (Feature Pack 1)" source="../media/44119bfc-88ed-47c6-a5cb-0408b03f06eb.png" lightbox="../media/44119bfc-88ed-47c6-a5cb-0408b03f06eb.png":::
   
 The **Role** column displays the role that is assigned to the server in the farm. 
   
