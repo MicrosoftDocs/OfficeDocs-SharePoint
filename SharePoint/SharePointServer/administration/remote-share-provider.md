@@ -270,11 +270,10 @@ After the RBS setup, new schema `mssqlrbs` is created in the content database. H
 
 Use the below sample SQL command in SQL server to grant the permission.
 
-
-    ```powershell
+```
 ALTER AUTHORIZATION ON SCHEMA::mssqlrbs to [web_app_pool_account];
 ALTER AUTHORIZATION ON SCHEMA::mssqlrbs to [service app_pool_account];
-    ```
+```
 
 #### Resetting IIS
 
