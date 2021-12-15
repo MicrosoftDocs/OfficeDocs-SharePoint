@@ -58,53 +58,54 @@ Before you remove a database server from a farm, make sure that you have moved a
 > [!NOTE]
 > Using PowerShell is the recommended way to remove a server from the farm. 
   
- **To remove a server from a SharePoint farm by using PowerShell**
+**To remove a server from a SharePoint farm by using PowerShell**
   
-Verify that you have the following memberships:
+1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016, 2019 and Subscription Edition cmdlets. 
+     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016, 2019 and Subscription Edition cmdlets. 
     
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin). 
+     > [!NOTE]
+     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin). 
   
 1. From a PowerShell command prompt, type the following command.
     
-  ```
-  Disconnect-SPConfigurationDatabase 
-  ```
+   ```powershell
+   Disconnect-SPConfigurationDatabase 
+   ```
 
-  > [!NOTE]
-  > This cmdlet only removes the **local SharePoint server** from the SharePoint farm. It can't remove remote SharePoint servers or database servers from the SharePoint farm. 
+   > [!NOTE]
+   > This cmdlet only removes the **local SharePoint server** from the SharePoint farm. It can't remove remote SharePoint servers or database servers from the SharePoint farm. 
+
   
 #### Remove a server from a SharePoint farm by using the PSConfig.exe command-line tool
 <a name="RemovePSConfig"> </a>
 
 You can remove a server from the SharePoint farm by using the PSConfig.exe tool, which is an alternative interface to perform several operations that control how SharePoint Server 2016, 2019, and Subscription Edition is configured. You must be a member of the Administrators group on the local computer to perform these operations. 
   
- **To remove a SharePoint server from a farm by using PSConfig**
+**To remove a SharePoint server from a farm by using PSConfig**
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PSConfig.exe tool. 
+   - Administrators group on the server on which you are running the PSConfig.exe tool. 
     
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. 
+     > [!NOTE]
+     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. 
   
-  - From a command prompt, type the following syntax.
+1. From a command prompt, type the following syntax.
     
-  ```
-  psconfig.exe -cmd configdb -disconnect
-  ```
+   ```console
+   psconfig.exe -cmd configdb -disconnect
+   ```
 
 ### Remove a server from a SharePoint farm by using Control Panel
 <a name="removewebappCP"> </a>
@@ -113,24 +114,24 @@ You can remove a server from the farm by uninstalling SharePoint Server 2016 fro
   
  **To remove a server from a SharePoint farm by using Control Panel**
   
-Verify that you have the following memberships:
+1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which SharePoint Server 2016 is installed. 
+   - Administrators group on the server on which SharePoint Server 2016 is installed. 
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
+     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+     > [!NOTE]
+     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 1. On the server that you want to remove from the farm, click **Start**, click **Control Panel**, and then double-click **Programs and Features**.
     
 2. In the list of currently installed programs, click **Microsoft SharePoint Server 2016** or **Microsoft SharePoint Server 2019** or, **Microsoft SharePoint Server Subscription Edition** and then click **Uninstall**.
     
-3. Click **Continue** at the confirmation prompt to uninstall the program. 
+1. Click **Continue** at the confirmation prompt to uninstall the program. 
     
 ## Remove a server from a SharePoint farm by using Central Administration
 <a name="RemoveAnyServer"> </a>
@@ -146,21 +147,21 @@ You can follow these steps to remove a SharePoint or database server from the fa
   
 Before you remove a database server from a farm, make sure that you have moved any databases stored on that server to a different database server in your farm. 
   
- **To remove a server from a SharePoint farm by using Central Administration**
+**To remove a server from a SharePoint farm by using Central Administration**
   
-Verify that the user account that completes this procedure has the following credentials:
+1. Verify that the user account that completes this procedure has the following credentials:
     
-  - The user account that performs this procedure is a member of the Farm Administrators SharePoint group.
+   - The user account that performs this procedure is a member of the Farm Administrators SharePoint group.
     
-  - The user account that performs this procedure is a member of the Administrators group on the server.
+   - The user account that performs this procedure is a member of the Administrators group on the server.
     
 1. On the SharePoint Central Administration website, in the **System Settings** section, click **Manage servers in this farm**.
     
-2. On the **Servers in Farm** page, locate the row that contains the name of the server that you want to remove, and then click **Remove Server**. 
+1. On the **Servers in Farm** page, locate the row that contains the name of the server that you want to remove, and then click **Remove Server**. 
     
-3. In the warning that appears, click **OK** to remove the server or click **Cancel** to stop the operation. 
+1. In the warning that appears, click **OK** to remove the server or click **Cancel** to stop the operation. 
     
-    The page updates, and the server that you removed no longer appears in the list of servers.
+   The page updates, and the server that you removed no longer appears in the list of servers.
     
-<a name="RemoveAnyServer"> </a>
+
 
