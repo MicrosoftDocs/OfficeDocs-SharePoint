@@ -28,7 +28,7 @@ description: "Learn about planning your SharePoint farm deployment using MinRole
 
 There are eight pre-defined server roles in 3 categories﻿ you can choose from in SharePoint Servers 2016 and 2019. Read more about the roles and their descriptions in the following tables:
   
- **Dedicated Roles:** Dedicated roles are optimized for performance and scalability and are typically used in large scale farms. They can also be used in medium scale farms with shared roles. 
+**Dedicated Roles:** Dedicated roles are optimized for performance and scalability and are typically used in large scale farms. They can also be used in medium scale farms with shared roles. 
   
 | Server Role | Description | Notes |
 |:-----|:-----|:-----|
@@ -158,7 +158,8 @@ The state of Central Administration will not affect whether a server is consider
     
 - ﻿Search (if hosting a Search service application)
     
- **﻿Note:** This guidance does not apply to farms that use the Custom server role. 
+> [!NOTE]
+> This guidance does not apply to farms that use the Custom server role. 
   
 ### Manually configuring Search to crawl
 
