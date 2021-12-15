@@ -33,7 +33,7 @@ Learn about the new MinRole farm topology and its benefits in SharePoint Servers
   
 The following video gives a general overview what MinRole is and can do for your organization.
 
-<br/>
+&nbsp;
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/05c5d811-fbce-4bac-b95e-820acf941b01?autoplay=false]
 
