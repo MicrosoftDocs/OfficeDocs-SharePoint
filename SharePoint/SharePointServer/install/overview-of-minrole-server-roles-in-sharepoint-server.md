@@ -29,9 +29,11 @@ Learn about the new MinRole farm topology and its benefits in SharePoint Servers
   
 ## What is MinRole?
 
- **MinRole** is a new farm topology based on a set of predefined server roles introduced in SharePoint Server 2016. When configuring your SharePoint farm, you now select the role of a server when you create a new farm or join a server to an existing farm. SharePoint will automatically configure the services on each server based on the server's role. SharePoint Server 2016 and 2019 has been optimized for the MinRole farm topology. 
+**MinRole** is a new farm topology based on a set of predefined server roles introduced in SharePoint Server 2016. When configuring your SharePoint farm, you now select the role of a server when you create a new farm or join a server to an existing farm. SharePoint will automatically configure the services on each server based on the server's role. SharePoint Server 2016 and 2019 has been optimized for the MinRole farm topology. 
   
 The following video gives a general overview what MinRole is and can do for your organization.
+
+<br/>
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/05c5d811-fbce-4bac-b95e-820acf941b01?autoplay=false]
 
@@ -88,6 +90,7 @@ Microsoft recommends installing the November 2016 Public Update (or newer) for S
 [Technical diagrams for SharePoint Server](../technical-reference/technical-diagrams.md)
   
 [Description of MinRole and associated services in SharePoint Servers 2016 and 2019](../administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016.md)
+
 #### Other Resources
 
 [Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019](planning-for-a-minrole-server-deployment-in-sharepoint-server.md)
