@@ -77,7 +77,7 @@ The custom tile feature is not enabled by default. To enable the feature, do the
     
 8. Click **new item** to add a new item to the list. 
     
-    ![Displays dialog to create a new entry for a CustomTile in the November 2016 PU for SharePoint Server 2016](../media/6597a87e-cd66-463e-b405-8897926f9c55.jpg)
+    ![Displays dialog to create a new entry for a CustomTile in the November 2016 PU for SharePoint Server 2016.](../media/6597a87e-cd66-463e-b405-8897926f9c55.jpg)
   
 9. Enter a **Title** for the new tile. The name will appear in the tile. 
     
@@ -97,13 +97,13 @@ After you add a new item in the custom tiles list due to caching, it may take up
   > [!NOTE]
   > The **ClearSuiteLinksCache()** function is not available for modern sites in SharePoint Server 2019 and will generate an error if used.
   
-  :::image type="content" alt-text="Displays the developer browser's console in a browser session" source="../media/313b5ce5-07df-4fd3-8861-59d3c7635970.jpg":::
+  :::image type="content" alt-text="Displays the developer browser's console in a browser session." source="../media/313b5ce5-07df-4fd3-8861-59d3c7635970.jpg":::
   
 After the **ClearSuiteLinksCache()** function is run, it returns "undefined". 
   
-:::image type="content" alt-text="Displays results in the developer browser's console" source="../media/12b97d35-e877-40f7-ae0a-73003c0cff47.jpg":::
+:::image type="content" alt-text="Displays results in the developer browser's console." source="../media/12b97d35-e877-40f7-ae0a-73003c0cff47.jpg":::
   
-You must refresh the page by pressing **F5** or the refresh button ![Displays the Refresh key on the Address toolbar of your browser](../media/8b874097-7bdd-4571-96e8-a3f3ee6af8d4.jpg) on the Address bar of your browser for the tile to now appear in the app launcher. 
+You must refresh the page by pressing **F5** or the refresh button ![Displays the Refresh key on the Address toolbar of your browser.](../media/8b874097-7bdd-4571-96e8-a3f3ee6af8d4.jpg) on the Address bar of your browser for the tile to now appear in the app launcher. 
   
 ## Enable Custom Tiles across multiple web applications
 
@@ -157,6 +157,6 @@ To add this list to Left Navigation pane, do the follow steps:
     
 3. Select **Yes** for Navigation setting to display list on **Quick Launch** as displayed with this image. 
     
-:::image type="content" alt-text="Displays Quick Launch settings" source="../media/22b5e6e8-37c1-4120-9c89-456d06867a6e.jpg":::
+:::image type="content" alt-text="Displays Quick Launch settings." source="../media/22b5e6e8-37c1-4120-9c89-456d06867a6e.jpg":::
   
 
