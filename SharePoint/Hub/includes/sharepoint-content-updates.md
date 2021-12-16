@@ -2,6 +2,23 @@
 
 
 
+## Week of December 06, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/6/2021 | [Manage Teams connected sites](/SharePoint/teams-connected-sites) | modified |
+| 12/7/2021 | [Guided walkthrough - Creating a leadership site for your organization](/SharePoint/guided-walkthrough-creating-leadership-site) | modified |
+| 12/7/2021 | [Guided walkthrough - Creating an organization site](/SharePoint/guided-walkthrough-creating-organization-site) | modified |
+| 12/7/2021 | [Guided walkthrough - Creating a Team site](/SharePoint/guided-walkthrough-creating-team-site) | modified |
+| 12/7/2021 | [Guided walkthrough - Setting up news for your organization using a hub site](/SharePoint/guided-walkthrough-set-up-news-with-hub-site) | modified |
+| 12/7/2021 | [Domain restrictions when sharing SharePoint & OneDrive content](/SharePoint/restricted-domains-sharing) | modified |
+| 12/9/2021 | [Check logs, limits and reports](/SharePoint/check-logs-limits-and-reports) | modified |
+| 12/9/2021 | [SharePoint classic search administration overview](/SharePoint/manage-search-the-admin-center) | modified |
+| 12/9/2021 | [View Popularity Trends and Most Popular Items](/SharePoint/view-popularity-trends-and-most-popular-items) | modified |
+| 12/9/2021 | View search usage reports | removed |
+
+
 ## Week of November 29, 2021
 
 
