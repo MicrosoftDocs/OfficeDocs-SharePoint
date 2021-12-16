@@ -28,7 +28,7 @@ Microsoft removed SharePoint Server 2010 workflow services from existing tenants
 Using the SharePoint Migration Tool (SPMT), you can now migrate your SharePoint Server flows to Microsoft 365.
 Workflow migration is limited to:
 
-- List and library OOB ("out-of-box") approval workflows
+- List and library "out-of-box" (OOTB) approval workflows
 - Workflow definitions and associations
 
 ## How does it work?
