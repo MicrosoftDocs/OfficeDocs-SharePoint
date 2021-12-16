@@ -125,9 +125,12 @@ Remote Share Provider does not provide encryption to ensure the data security. I
 
 You need to install RBS library to every SharePoint Front End and Application server in SharePoint farm using the following command line:
 
-```
+```PowerShell
+
 Msiexec /qn /lvx* rbs_install_log.txt /I RBS.msi ADDLOCAL="Client"
+
 ```
+
 
 > [!NOTE]
 > Do not install RBS library through the GUI.
@@ -146,7 +149,8 @@ To create master key for specific content database:
 5. Select the content database for which you want to create a BLOB store, and then click **New Query**.
 6. Paste the following SQL queries in **Query** pane, and then run them in the sequence listed. In each case, replace `[WSS_Content]` with the content database name, and replace `c:\BlobStore` with the `volume\directory` in which you want the BLOB store created. The provisioning process creates a folder in the location that you specify. Be aware that you can provision a BLOB store only once. If you attempt to provision the same BLOB store multiple times, you will receive an error.
 
-    ```
+```PowerShell
+
     #Replace with <your content database>
     
     use [<Your content database>]
@@ -159,16 +163,18 @@ To create master key for specific content database:
     
     where name = N'##MS_DatabaseMasterKey##')
     
-    create master key encryption by password = N'<Admin Key Password>'
-    
-    ```
+    create master key encryption by password = N'<Admin Key Password
+
+```
 
 You can set up RBS for each content database by using below command line. Replace DBNAME and DBINSTANCE with your specific content database name and database instance name.
 
-```
-msiexec /qn /lvc* rbs.log /i rbs.msi TRUSTSERVERCERTIFICATE=true DBNAME="Your content database" ADDLOCAL="ServerScript,EnableRBS" DBINSTANCE="Your SQL database instance
-```
 
+```PowerShell
+
+msiexec /qn /lvc* rbs.log /i rbs.msi TRUSTSERVERCERTIFICATE=true DBNAME="Your content database" ADDLOCAL="ServerScript,EnableRBS" DBINSTANCE="Your SQL database instance
+
+```
 
 #### Setting up credentials for remote share provider
 
@@ -182,7 +188,8 @@ To offload BLOB storage from content database to SMB storage, you need to create
 
 You can use Register-SPRemoteShareBlobStore cmdlet to register a new BLOB store for specific content database.
 
-```
+```PowerShell
+
 Register-SPRemoteShareBlobStore -ContentDatabase <SPContentDatabasePipeBind> -Name <BlobStoreName[ValidateLength(8, 128)]> -Location <UNCPath> [-BlobStoreCredential <PSCredential>][- PoolCapacity <Int>]
 
 ```
@@ -217,30 +224,40 @@ The number of BLOB trunks in each BLOB pool. If this parameter is not specified,
 
 Example cmdlet syntax:
 
-```
-Register-SPRemoteShareBlobStore -ContentDatabase $db -Name "RemoteBlob" -Location "\\SPVNEXT\blobstore"
-```
 
+```PowerShell
+
+Register-SPRemoteShareBlobStore -ContentDatabase $db -Name "RemoteBlob" -Location "\\SPVNEXT\blobstore"
+
+```
 
 #### Switching and activating BLOB store
 
 The registered remote share BLOB store will not take effect until it is activated. Switch-SPBlobStorage cmdlet needs to be run after Register-SPRemoteShareBlobStore, so that new contents to the content database will be routed to the newly created remote share BLOB store.
 
-```
+
+```PowerShell
+
 Switch-SPBlobStorage -RemoteShareBlobStore <SPRemoteShareBlobStorePipeBind
+
 ```
 
 This cmdlet will switch default BLOB storage of the content database to the given remote share BLOB store. Since BLOB store is unique in farm and linked to specific content database. There is no need to specify the content database in this cmdlet.
 
-```
+```PowerShell
+
 -RemoteShareBlobStore <SPRemoteShareBlobStorePipeBind>
+
 ```
+
 
 The remote share BLOB store, which will be active. It can either be a remote share BLOB store object or the remote share BLOB store name.
 
 Syntax example:
 
-```
+
+```PowerShell
+
 $blobstore = Register-SPRemoteShareBlobStore -ContentDatabase $db -Name "RemoteBlob" -Location \\SPVNEXT\blobstore
 Switch-SPBlobStorage -RemoteShareBlobStore $blobstore
 Switch-SPBlobStorage -ContentDatabase <SPContentDatabasePipeBind> -SQ
@@ -260,9 +277,12 @@ Indicates that the content database will use SQL for BLOB storage for new conten
 
 Syntax example:
 
-```
+```PowerShell
+
 Switch-SPBlobStorage -ContentDatabase $db -SQL
+
 ```
+
 
 #### Grant permission to web application pool account and SharePoint service application pool account
 
@@ -270,9 +290,12 @@ After the RBS setup, new schema `mssqlrbs` is created in the content database. H
 
 Use the below sample SQL command in SQL server to grant the permission.
 
-```
+
+```PowerShell
+
 ALTER AUTHORIZATION ON SCHEMA::mssqlrbs to [web_app_pool_account];
 ALTER AUTHORIZATION ON SCHEMA::mssqlrbs to [service app_pool_account];
+
 ```
 
 #### Resetting IIS
@@ -283,29 +306,41 @@ After remote share BLOB store becomes the default BLOB storage to the content da
 
 You can use Get-SPRemoteShareBlobStore cmdlet to get the remote share BLOB stores in the farm.
 
-```
+```PowerShell
+
 Get-SPRemoteShareBlobStore –RemoteShareBlobStore <SPRemoteShareBlobStorePipeBind>
+
 ```
+
 
 This cmdlet will get a remote share BLOB store object by remote share BLOB store name.
 
-```
+```PowerShell
+
 Get-SPRemoteShareBlobStore -ContentDatabase <SPContentDatabasePipeBind>
+
 ```
+
 
 This cmdlet will get all the remote share BLOB store objects for the given content database.
 
-```
+```PowerShell
+
 Get-SPRemoteShareBlobStore
+
 ```
+
 
 This cmdlet will get all the remote share BLOB store objects for the current farm.
 
 You can change the configuration of remote share BLOB store at any time.
 
-```
+```PowerShell
+
 Set-SPRemoteShareBlobStore -RemoteShareBlobStore <SPRemoteShareBlobStorePipeBind> [-Location <String>] [-BlobStoreCredential <PSCredential>] [-PoolCapacity <int>]
+
 ```
+
 
 The cmdlet parameters are:
 
@@ -334,7 +369,8 @@ One content database can have several BLOB stores, and at any time only one of t
 
 By following the below sample, you can migrate your BLOBs from old BLOB storage to a new active BLOB store created by committing Migrate().
 
-```
+```PowerShell
+
 $db = Get-SPContentDatabase $YourDatabaseName
 $rbss = $db.RemoteBlobStorageSettings
 $rbss.SetActiveProviderName($YourBlobStoreName)
@@ -342,21 +378,27 @@ $rbss.Migrate()
 
 ```
 
+
 If you want to migrate your BLOBs from BLOB stores back to SQL content database, you can follow below example by setting active provider to empty.
 
-```
+```PowerShell
+
 $db = Get-SPContentDatabase $YourDatabaseName
 $rbss = $db.RemoteBlobStorageSettings
 $rbss.SetActive
 $rbss.Migrate()
+
 ```
 
 ### Unregistering remote share BLOB store
 
 You can unregister remote share BLOB store by using cmdlet Unregister-SPRemoteShareBlobStore.
 
-```
+
+```PowerShell
+
 Unregister-SPRemoteShareBlobStore -RemoteShareBlobStore <SPRemoteShareBlobStorePipeBind> [-Force]
+
 ```
 
 The cmdlet parameters are:
@@ -375,10 +417,13 @@ We do not recommend using this **-Force** switch because it will leave BLOBs in 
 
 You can validate remote share BLOB store used by the content database by cmdlet Test-SPRemoteShareBlobStore. 
 
-```
+```PowerShell
+
 Test-SPRemoteShareBlobSotore -ContentDatabase <SPContentDatabasePipeBind> [-LogPath <String>]
 
 ```
+
+
 The cmdlet parameters are:.
 
 
