@@ -46,7 +46,7 @@ From the Sync health dashboard, admins can check the sync status and sync app ve
 - Devices can reach the endpoint [https://config.office.com](https://config.office.com).
 
 >[!NOTE]
-> This feature isn’t available to customers who have the following plans: Office 365 operated by 21Vianet, Office 365 Germany, Office 365 GCC, or Office 365 GCC High and DoD.
+> This feature isn’t available to customers who have the following plans: Office 365 operated by 21Vianet, Office 365 GCC, or Office 365 GCC High and DoD.
 
 ## Set up the OneDrive sync health dashboard
 
