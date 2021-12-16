@@ -27,7 +27,7 @@ After configuring the required endpoints and configuring Power Automate, you are
 2. Select **Start your first migration**.
 3. Select **Workflow migration**.
 
-![Select workflow migration](media/spmt-workflow-selection.png)
+![Select workflow migration](media/spmt-workflow-select.png)
 
 4. Enter the URL of the SharePoint Server workflow you want to migrate and select which workflows to include in the migration. If you select the option for a specific list, you will be prompted for the list name.  Select **Next**.
 
