@@ -18,10 +18,10 @@ ms.custom:
 ms.assetid: 
 description: "Overview Migrate your SharePoint Server workflows to Microsoft 365 using the SharePoint Migration Tool (SPMT)"
 ---
-
-This feature is currently in public preview, and subject to change.
-
 # Overview: Migrate SharePoint Server workflows to Microsoft 365
+
+>[!Note]
+>This feature is currently in public preview, and subject to change.
 
 Microsoft removed SharePoint Server 2010 workflow services from existing tenants on November 1, 2020. We recommend that you move your classic SharePoint Server workflows to Power Automate flows. 
 
