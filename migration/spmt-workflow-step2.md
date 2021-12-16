@@ -19,6 +19,8 @@ ms.assetid:
 description: "Overview Migrate your SharePoint Server workflows to Microsoft 365 using the SharePoint Migration Tool (SPMT)"
 ---
 
+This feature is currently in public preview, and subject to change.
+
 # Step 2 Migrate workflows
 
 After configuring the required endpoints and configuring Power Automate, you are ready to start migrating your SharePoint Server workflows.
@@ -48,5 +50,31 @@ After configuring the required endpoints and configuring Power Automate, you are
 12. Review your migrations.  Select **Add another task** to select another set of files to migrate, or Next to submit migration.
 
 ![Review workflow migrations](media/spmt-workflow-review-workflow-migrations.png)
+
+## Migrations report
+
+The migration task generates a workflow migration report titled *WorkflowMigrationReport.csv*.  The file under WF_xxx/Report/TaskReport_xxx/ folder. 
+
+
+|Column name|Notes|
+|:-----|:-----|
+|Source association url|Source SharePoint object URL that associated with the workflow. Can be URL of list, library, site |
+|Destination association url|Destination SharePoint object URL that associated with the migrated Power Automate flow. Can be URL of list, library.|
+|Source workflow url|Location of the source workflow.|	
+|Destination workflow url|The location where the workflow will be migrated. |	
+|Source workflow ID||	
+|Destination flow ID||
+|Source workflow name||	
+|Destination flow name||		
+|Solution name|The name of Power Automate solution that contains migrated flows. Flow owner can find migrated flows in the solution.| 
+|Source workflow owner|	The creator of source workflow instance|
+|Destination flow owner|The owner(s) of migrated PA flow|
+|Association type|Possible values: List, Site, or content type|
+|Workflow version|Possible values: Workflow2010, Workflow2013|
+|Workflow template name||	
+|Status|Possible values: Migrated, Failed, or skipped|
+|Result category|Possible values: Migrated, SCAN FILTER, SCAN FAILURE, FLOW CREATE FAILURE|
+|Message|Error message|
+|Error code||
 
 ## Step 3:  [Activate workflows](spmt-workflow-step3.md)

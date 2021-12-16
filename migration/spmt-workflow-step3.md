@@ -19,6 +19,8 @@ ms.assetid:
 description: "Overview Migrate your SharePoint Server workflows to Microsoft 365 using the SharePoint Migration Tool (SPMT)"
 ---
 
+This feature is currently in public preview, and subject to change.
+
 # Step 3 - Activate workflows 
 
 
@@ -28,10 +30,13 @@ After the migration has completed, the flow owner must sign in to Power Automate
 
 1.	Sign in to Power Automate.
 2.	Navigate to **Solutions**, choose the latest one matching “Solution” in migration report.
-3.	Edit connection references. Select **Create new connection** if no existing connection found. If this is the case, we recommend you pick an existing connection.
+3.	Edit connection references. Select **New connection** if no existing connection found. If this is the case, we recommend you pick an existing connection.
+
+![Select a new workflow connection](media/spmt-workflow-automate-connection.png)
  
 4.	Turn on flow after all connection references are configured.
  
+![Turn on workflow after connection references are configured](media/spmt-workflow-turn-on-flow-after-connection.png)
 
 After the migrated flows are turned on, testing is suggested to verify the behavior of the flows.
 
@@ -50,6 +55,8 @@ In the following examples,  **W** is the migraton of a list workflow, **L** is t
 
 When SPMT migrates workflows to Power Automate, the transformation uses the modern Power Automate capabilities. An easy process lets you create the same or similar business requirements as in the original SharePoint workflows.
 
+![out of the box workflows](media/spmt-workflow-ootb-options.png)
+
 #### Migrated approval workflow
 
 |Type|Options|
@@ -67,4 +74,5 @@ When SPMT migrates workflows to Power Automate, the transformation uses the mode
 |List workflow|Manual start on selected item will have a new list flow with manual trigger, also known as *LIST_MANUAL_COLLECTFEEDBACK*.</br>Trigger by new item and update item will have a new list flow with auto trigger, also known as *LIST_AUTO_COLLECTFEEDBACK*.|
 |Document library|Manual start on selected file will have a new file flow with manual trigger, also known as *FILE_MANUAL_COLLECTFEEDBACK*<br/>Trigger by new file and update file will have a new file flow with auto trigger, also known as *FILE_AUTO_COLLECTFEEDBACK*.|
 |Manual approval PA flow|Three user inputs are supported in the migrated flow. They are: </br><br>- Reviewers. Emails<br>- Request. Text<br>- CC. Emails|
-| Auto triggered PA flow|The following configurations in workflow are migrated to destination flow. They are: </br><br>- Reviewers. Emails<br>- Request. Text<br>- CC. Emails||
+| Auto triggered PA flow|The following configurations in workflow are migrated to destination flow. They are: </br><br>- Reviewers. Emails<br>- Request. Text<br>- CC. Emails|
+

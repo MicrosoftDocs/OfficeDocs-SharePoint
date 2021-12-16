@@ -19,6 +19,7 @@ ms.assetid:
 description: "Overview Migrate your SharePoint Server workflows to Microsoft 365 using the SharePoint Migration Tool (SPMT)"
 ---
 
+This feature is currently in public preview, and subject to change.
 
 # Overview: Migrate SharePoint Server workflows to Microsoft 365
 
