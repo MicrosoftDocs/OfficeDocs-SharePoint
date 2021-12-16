@@ -34,8 +34,8 @@ Workflow migration is limited to:
 |Step|What happens|
 |:-----|:-----|
 |[Step 1: Configure endpoints and Power Automate](spmt-workflow-step1)|Configure required endpoints.  If your tenant has never used Power Automate, configure it before you begin migration.|
-|[Step 2: Migrate workflows](spmt-workflow-step2)||
-|[Step 3: Activate workflows](spmt-workflow-step2)||
+|[Step 2: Migrate workflows](spmt-workflow-step2)|Using SPMT, migrate your SharePoint Server workflows.|
+|[Step 3: Activate workflows](spmt-workflow-step2)|Sign in to Power Automate to activate the newly migrated workflows.|
 
 
 ## Get started
