@@ -17,6 +17,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
+ROBOTS: NOINDEX
 description: "Step 6: Migrate and monitor Egnyte migration"
 ---
 # Step 6:  Migrate and monitor your Egnyte migration

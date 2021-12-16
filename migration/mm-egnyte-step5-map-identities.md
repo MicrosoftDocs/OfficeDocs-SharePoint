@@ -17,6 +17,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
+ROBOTS: NOINDEX
 description: "Step 5:  Map Egnyte identities with Migration Manager." 
 ---
 

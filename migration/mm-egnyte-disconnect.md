@@ -17,6 +17,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
+ROBOTS: NOINDEX
 description: "How to disconnect from Egnyte" 
 ---
 # Disconnect from Egynte when using Migration Manager

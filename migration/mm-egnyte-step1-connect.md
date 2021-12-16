@@ -17,6 +17,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
+ROBOTS: NOINDEX
 description: "Step 1:  Connect to Egnyte" 
 ---
 # Step 1:  Connect to Egynte

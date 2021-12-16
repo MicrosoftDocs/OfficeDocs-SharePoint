@@ -17,6 +17,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
+ROBOTS: NOINDEX
 description: Review your destination paths for your Egnyte migration while using Migration Manager.
 ---
 # Step 4: Review destination paths in Migration Manager Egnyte

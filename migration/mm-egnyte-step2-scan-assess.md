@@ -17,6 +17,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
+ROBOTS: NOINDEX
 description: "Step 2:  Scan and assess Egnyte users using Migration Manager."
 ---
 
