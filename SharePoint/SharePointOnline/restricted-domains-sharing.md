@@ -78,7 +78,7 @@ You can also limit domains at the site collection level. Note the following cons
     
 3. Select **Allow only specific domains** to create an allowlist (most restrictive), or to block only the domains you specify, select **Block specific domains**.
     
-4. List the domains (maximum of 100) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line.
+4. List the domains (maximum of 500) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line.
     
     > [!NOTE]
     > Wildcards are not supported for domain entries.
