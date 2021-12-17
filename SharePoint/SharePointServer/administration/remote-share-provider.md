@@ -165,6 +165,8 @@ To create master key for specific content database:
     
     create master key encryption by password = N'<Admin Key Password
 
+    msiexec /qn /lvc* rbs.log /i rbs.msi TRUSTSERVERCERTIFICATE=true DBNAME="Your content database" ADDLOCAL="ServerScript,EnableRBS" DBINSTANCE="Your SQL database instance
+
 ```
 
 You can set up RBS for each content database by using below command line. Replace DBNAME and DBINSTANCE with your specific content database name and database instance name.
