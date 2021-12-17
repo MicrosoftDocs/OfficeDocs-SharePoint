@@ -163,9 +163,9 @@ To create master key for specific content database:
     
     where name = N'##MS_DatabaseMasterKey##')
     
-    create master key encryption by password = N'<Admin Key Password
+    create master key encryption by password = N'<Admin Key Password>
 
-    msiexec /qn /lvc* rbs.log /i rbs.msi TRUSTSERVERCERTIFICATE=true DBNAME="Your content database" ADDLOCAL="ServerScript,EnableRBS" DBINSTANCE="Your SQL database instance
+    msiexec /qn /lvc* rbs.log /i rbs.msi TRUSTSERVERCERTIFICATE=true DBNAME="Your content database" ADDLOCAL="ServerScript,EnableRBS" DBINSTANCE="Your SQL database instance"
 
 ```
 
@@ -174,7 +174,7 @@ You can set up RBS for each content database by using below command line. Replac
 
 ```PowerShell
 
-msiexec /qn /lvc* rbs.log /i rbs.msi TRUSTSERVERCERTIFICATE=true DBNAME="Your content database" ADDLOCAL="ServerScript,EnableRBS" DBINSTANCE="Your SQL database instance
+msiexec /qn /lvc* rbs.log /i rbs.msi TRUSTSERVERCERTIFICATE=true DBNAME="Your content database" ADDLOCAL="ServerScript,EnableRBS" DBINSTANCE="Your SQL database instance"
 
 ```
 
