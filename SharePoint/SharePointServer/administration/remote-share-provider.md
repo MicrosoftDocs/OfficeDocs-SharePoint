@@ -163,7 +163,7 @@ To create master key for specific content database:
     
     where name = N'##MS_DatabaseMasterKey##')
     
-    create master key encryption by password = N'<Admin Key Password>
+    create master key encryption by password = N'<Admin Key Password>'
 
     msiexec /qn /lvc* rbs.log /i rbs.msi TRUSTSERVERCERTIFICATE=true DBNAME="Your content database" ADDLOCAL="ServerScript,EnableRBS" DBINSTANCE="Your SQL database instance"
 
@@ -240,7 +240,7 @@ The registered remote share BLOB store will not take effect until it is activate
 
 ```PowerShell
 
-Switch-SPBlobStorage -RemoteShareBlobStore <SPRemoteShareBlobStorePipeBind
+Switch-SPBlobStorage -RemoteShareBlobStore <SPRemoteShareBlobStorePipeBind>
 
 ```
 
