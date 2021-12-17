@@ -50,7 +50,7 @@ In the following examples,  **W** is the migraton of a list workflow, **L** is t
 
 ## The migrated flows
 
-When SPMT migrates workflows to Power Automate, the transformation uses the modern Power Automate capabilities. An easy process lets you create the same or similar business requirements as in the original SharePoint workflows.
+When SPMT migrates the workflow to Power Automate, it finds the Power Automate built-in actions that best match the functions in the original SharePoint workflow. Due to the feature gaps between SharePoint workflow and Power Automate, a converted flow may not carry the exact same behavior as the original one.
 
 ![out of the box workflows](media/spmt-workflow-ootb-options.png)
 
