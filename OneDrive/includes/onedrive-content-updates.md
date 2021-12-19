@@ -2,6 +2,15 @@
 
 
 
+## Week of December 13, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/15/2021 | [Redirect and move Windows known folders to OneDrive](/OneDrive/redirect-known-folders) | modified |
+| 12/16/2021 | [OneDrive sync reports in the Apps Admin Center](/OneDrive/sync-health) | modified |
+
+
 ## Week of December 06, 2021
 
 
