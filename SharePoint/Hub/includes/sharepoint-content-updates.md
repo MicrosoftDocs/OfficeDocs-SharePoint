@@ -2,6 +2,41 @@
 
 
 
+## Week of December 13, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/14/2021 | [Branding your SharePoint site](/SharePoint/branding-sharepoint-online-sites-modern-experience) | modified |
+| 12/14/2021 | [View SharePoint files with File Explorer in Microsoft Edge](/SharePoint/sharepoint-view-in-edge) | modified |
+| 12/14/2021 | [Custom Tiles in SharePoint Servers 2016, 2019, and Subscription Edition](/SharePoint/administration/custom-tiles-in-sharepoint-server-2016) | modified |
+| 12/14/2021 | [Description of MinRole and associated services in SharePoint Servers 2016, 2019, and Subscription Edition](/SharePoint/administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016) | modified |
+| 12/14/2021 | [Managing a MinRole Server Farm in SharePoint Servers 2016, 2019, and Subscription Edition](/SharePoint/administration/managing-a-minrole-server-farm-in-sharepoint-server-2016) | modified |
+| 12/14/2021 | [Remove a server from a farm in SharePoint Servers 2016, 2019, and Subscription Edition](/SharePoint/administration/remove-a-server-from-a-farm-in-sharepoint-server-2016) | modified |
+| 12/14/2021 | [Role conversion using MinRole in SharePoint Servers 2016, 2019, and Subscription Edition](/SharePoint/administration/role-conversion-using-minrole-in-sharepoint-server-2016) | modified |
+| 12/14/2021 | [Uninstall SharePoint Server 2016, 2019, or Subscription Edition](/SharePoint/administration/uninstall-sharepoint-server-2016) | modified |
+| 12/14/2021 | [Overview of MinRole Server Roles in SharePoint Servers 2016, 2019, and Subscription Edition](/SharePoint/install/overview-of-minrole-server-roles-in-sharepoint-server) | modified |
+| 12/14/2021 | [Planning for a MinRole server deployment in SharePoint Servers 2016, 2019, and Subscription Edition](/SharePoint/install/planning-for-a-minrole-server-deployment-in-sharepoint-server) | modified |
+| 12/17/2021 | [Mark new files as sensitive by default](/SharePoint/sensitive-by-default) | modified |
+
+
+## Week of December 06, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/6/2021 | [Manage Teams connected sites](/SharePoint/teams-connected-sites) | modified |
+| 12/7/2021 | [Guided walkthrough - Creating a leadership site for your organization](/SharePoint/guided-walkthrough-creating-leadership-site) | modified |
+| 12/7/2021 | [Guided walkthrough - Creating an organization site](/SharePoint/guided-walkthrough-creating-organization-site) | modified |
+| 12/7/2021 | [Guided walkthrough - Creating a Team site](/SharePoint/guided-walkthrough-creating-team-site) | modified |
+| 12/7/2021 | [Guided walkthrough - Setting up news for your organization using a hub site](/SharePoint/guided-walkthrough-set-up-news-with-hub-site) | modified |
+| 12/7/2021 | [Domain restrictions when sharing SharePoint & OneDrive content](/SharePoint/restricted-domains-sharing) | modified |
+| 12/9/2021 | [Check logs, limits and reports](/SharePoint/check-logs-limits-and-reports) | modified |
+| 12/9/2021 | [SharePoint classic search administration overview](/SharePoint/manage-search-the-admin-center) | modified |
+| 12/9/2021 | [View Popularity Trends and Most Popular Items](/SharePoint/view-popularity-trends-and-most-popular-items) | modified |
+| 12/9/2021 | View search usage reports | removed |
+
+
 ## Week of November 29, 2021
 
 
