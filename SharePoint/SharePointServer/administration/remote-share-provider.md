@@ -133,7 +133,6 @@ Msiexec /qn /lvx* rbs_install_log.txt /I RBS.msi ADDLOCAL="Client"
 
 ```
 
-
 > [!NOTE]
 > Do not install RBS library through the GUI.
 
@@ -166,14 +165,6 @@ To create master key for specific content database:
     where name = N'##MS_DatabaseMasterKey##')
     
     create master key encryption by password = N'<Admin Key Password>'
-
-
-```
-
-```PowerShell
-
-
-    msiexec /qn /lvc* rbs.log /i rbs.msi TRUSTSERVERCERTIFICATE=true DBNAME="Your content database" ADDLOCAL="ServerScript,EnableRBS" DBINSTANCE="Your SQL database instance"
 
 ```
 
@@ -263,7 +254,7 @@ Syntax example:
 
 $blobstore = Register-SPRemoteShareBlobStore -ContentDatabase $db -Name "RemoteBlob" -Location \\SPVNEXT\blobstore
 Switch-SPBlobStorage -RemoteShareBlobStore $blobstore
-Switch-SPBlobStorage -ContentDatabase <SPContentDatabasePipeBind> -SQ
+Switch-SPBlobStorage -ContentDatabase <SPContentDatabasePipeBind> -SQL
 
 ```
 
@@ -285,7 +276,6 @@ Syntax example:
 Switch-SPBlobStorage -ContentDatabase $db -SQL
 
 ```
-
 
 #### Grant permission to web application pool account and SharePoint service application pool account
 
@@ -388,10 +378,11 @@ If you want to migrate your BLOBs from BLOB stores back to SQL content database,
 
 $db = Get-SPContentDatabase $YourDatabaseName
 $rbss = $db.RemoteBlobStorageSettings
-$rbss.SetActive
+$rbss.SetActiveProviderName()  
 $rbss.Migrate()
 
 ```
+
 
 ### Unregistering remote share BLOB store
 
