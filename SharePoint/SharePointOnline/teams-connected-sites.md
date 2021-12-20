@@ -57,9 +57,6 @@ These are the basic parts of Teams and SharePoint and how they relate to each ot
 
 - **Azure AD** - Azure AD is the directory service where Microsoft 365 user accounts are stored. (You can manage these accounts from Microsoft 365 as well.) Microsoft 365 groups are also stored in Azure AD. Azure AD allows administrators to manage users and groups and to apply business rules to user accounts, such as requiring multifactor authentication.
 
-This diagram shows the relationships between Azure AD, Microsoft 365 Groups, Teams, and SharePoint.
-
-[ ![Diagram of how Azure AD, Microsoft 365 Groups, Teams, and SharePoint relate to each other.](media/azure-groups-teams-sharepoint-small.png)](media/azure-groups-teams-sharepoint.png#lightbox)
 
 ## When do Teams and SharePoint get connected?
 
