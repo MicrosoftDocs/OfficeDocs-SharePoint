@@ -57,7 +57,7 @@ When SharePoint sites and Teams are integrated, certain setting and classificati
 ## Learn more
 [Overview of SharePoint and Teams integration](teams-connected-sites.md)
 
-[Manage policies in Teams](/MicrosoftTeams/teams-policies)
+[Manage policies in Teams](teams-policies.md)
 
 [Manage settings and permissions in Teams](https://support.microsoft.com/office/ce053b04-1b8e-4796-baa8-90dc427b3acc)
 
