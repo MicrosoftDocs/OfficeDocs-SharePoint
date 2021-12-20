@@ -53,7 +53,7 @@ Grant-SPOSiteDesignRights
   -Rights View 
 ```
 
-Replace <ID> with the site design ID from when you added the site script.
+Replace \<ID> with the site design ID from when you added the site script.
 
 ## 3. Set your site design for the hub site 
 You can set the hub site design in two ways. You can do it using the following PowerShell command: 
@@ -66,7 +66,7 @@ Set-SPOHubSite https://contoso.sharepoint.com/sites/Marketing
 -SiteDesignId "<ID>" 
 ```
 
-Replace <ID> with the site script ID from when you added the site script.  
+Replace \    <ID> with the site script ID from when you added the site script.  
 
 You can also let hub site owners set the hub site design by using a new option available in the UI. For info about the hub site settings available to site owners, see [Set up your SharePoint hub site](https://support.office.com/article/e2daed64-658c-4462-aeaf-7d1a92eba098). 
 
