@@ -21,7 +21,7 @@ search.appverid:
 description: "Manage settings and permissions when SharePoint and Teams are integrated"
 ---
 # Manage settings and permissions when SharePoint and Teams are integrated"
-In this article, learn how to manage settings and permissions when Teams and SharePoint are integrated together. [Learn more about integrations between SharePoint and Teams, basic terminology, and structure.](sharepoint-teams-integration.md)
+In this article, learn how to manage settings and permissions when Teams and SharePoint are integrated together. [Learn more about integrations between SharePoint and Teams, basic terminology, and structure.](teams-connected-sites.md)
 
 ## How to identify and navigate between SharePoint and Teams
 Teams-connected sites include additional information to indicate the connection to Teams. In the SharePoint site header, you will see the Teams icon following the site logo and site title.
@@ -46,7 +46,7 @@ When SharePoint sites and Teams are integrated, certain setting and classificati
 - **Use team templates in Teams and SharePoint** - Teams has team templates that can be used to quickly create a new team and connected site that come pre-populated with resources and folders. [Learn more about how to create a new team using a template](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 
 ## Learn more
-[Overview of SharePoint and Teams integration](sharepoint-teams-integration.md)
+[Overview of SharePoint and Teams integration](teams-connected-sites.md)
 [Manage policies in Teams](/MicrosoftTeams/teams-policies)
 [Manage settings and permissions in Teams](https://support.microsoft.com/office/ce053b04-1b8e-4796-baa8-90dc427b3acc)
 [Create a Microsoft Team from SharePoint](https://support.microsoft.com/office/create-a-microsoft-team-from-sharepoint-545973b6-c38f-426a-b2b6-16405a561628)
