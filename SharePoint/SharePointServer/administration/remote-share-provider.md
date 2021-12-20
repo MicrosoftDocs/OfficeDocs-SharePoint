@@ -20,6 +20,8 @@ description: "Learn about how to use Remote BLOB Storage (RBS) in a SharePoint S
 
 # Remote Share Provider
 
+[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
+
 With organizations increasingly using SharePoint for rich contents rather than normal documents, the storage requirements have grown multifold. Administrators must regularly review and clean up contents in the SharePoint. By default, all the structured content such as metadata, or unstructured content such as files, are stored in content databases in the SQL server attached to SharePoint Server. Unstructured data in SharePoint are stored in content database as Binary Large Object (BLOB) and they are immutable.
 
 In SharePoint 2013, Remote BLOB Storage (RBS) technology was created in SQL server to offload BLOBs from content database and SQL FILESTREAM provider was provided at that time. In SharePoint Server Subscription, new Remote Share Provider was created for IT administrators to lower down the overall cost of SharePoint deployment in on-premise environments as reasonable and easy to use storage solution by offloading content from SQL server to network SMB storage.
