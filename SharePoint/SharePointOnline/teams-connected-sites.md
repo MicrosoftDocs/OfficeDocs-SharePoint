@@ -1,5 +1,5 @@
 ---
-title: "Teams and SharePoint integration"
+title: Teams and SharePoint integration
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
