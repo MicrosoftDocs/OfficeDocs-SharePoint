@@ -1,8 +1,8 @@
 ---
 title: Guided walkthrough - Creating a leadership site for your organization
 ms.reviewer: 
-ms.author: daisyfeller
-author: daisyfell
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
