@@ -1,7 +1,7 @@
 ---
 title: How to think about your intelligent intranet
-ms.reviewer: holland-odsp
-ms.author: hokavian
+ms.author: matteva
+author: MattEEvans
 author: pamgreen-msft
 manager: pamgreen
 recommendations: true
