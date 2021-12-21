@@ -2,7 +2,6 @@
 title: Intelligent intranet overview
 ms.author: matteva
 author: MattEEvans
-author: pamgreen-msft
 manager: pamgreen
 recommendations: true
 audience: Admin
