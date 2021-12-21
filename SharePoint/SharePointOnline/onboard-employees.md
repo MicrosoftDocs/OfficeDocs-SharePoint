@@ -1,8 +1,8 @@
 ---
 title: Onboard new employees into your organization
 ms.reviewer: 
-ms.author: dowallace
-author: dowallace
+ms.author: hokavian
+author: Holland-ODSP
 manager: pamgreen
 recommendations: true
 audience: Admin
