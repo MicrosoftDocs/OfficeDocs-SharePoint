@@ -1,8 +1,8 @@
 ---
 title: "Information architecture models and examples"
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
