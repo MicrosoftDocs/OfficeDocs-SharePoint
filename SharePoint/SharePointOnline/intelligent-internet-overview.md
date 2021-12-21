@@ -1,7 +1,7 @@
 ---
 title: Intelligent intranet overview
-ms.reviewer: holland-odsp
-ms.author: hokavian
+ms.author: matteva
+author: MattEEvans
 author: pamgreen-msft
 manager: pamgreen
 recommendations: true
