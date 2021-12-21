@@ -86,6 +86,9 @@
 ### [Add the Workplace transformation site](change-management-template.md)
 ## [Publishing]()
 ### [How page recommendations work](sharepoint_page-recommendations.md)
+## [SharePoint and Teams integration]()
+### [Overview of integration](teams-connected-sites.md)
+### [Manage collaboration experiences](manage-teams-sharepoint-experiences.md)
 ## [Site administration]()
 ### [Create sites](create-site-collection.md)
 ### [Delete sites](delete-site-collection.md)
@@ -100,7 +103,7 @@
 ### [Plan, build, and launch a home site](home-site-plan.md)
 ### [Set up a home site](home-site.md)
 ### [Change your domain name](change-your-sharepoint-domain-name.md)
-### [Manage Teams connected team sites](teams-connected-sites.md)
+
 ### [Enable and set up global navigation](sharepoint-app-bar.md)
 ### [Create an organization assets library](organization-assets-library.md)
 ### [Create an organization news site](organization-news-site.md)
