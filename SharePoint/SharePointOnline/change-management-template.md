@@ -1,8 +1,8 @@
 ---
 title: Add the Workplace transformation site
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
