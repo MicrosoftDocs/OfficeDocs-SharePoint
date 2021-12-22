@@ -1,8 +1,8 @@
 ---
 title: Hold a town hall in Yammer and keep the conversation going
 ms.reviewer: 
-ms.author: dowallace
-author: dowallace
+ms.author: hokavian
+author: Holland-ODSP
 manager: pamgreen
 recommendations: true
 audience: Admin
