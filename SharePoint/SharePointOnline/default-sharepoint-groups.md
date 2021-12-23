@@ -57,7 +57,7 @@ For example, the following table shows the groups and permission levels that are
 |Restricted Readers  | Restricted Read  | No  | 
 |Style Resource Readers  | Limited Access  | No  | 
 |Quick Deploy Users  | Contribute  | No  | 
-|Translation Mangers  | Limited Access  | No  | 
+|Translation Managers  | Limited Access  | No  | 
    
 ## Suggested uses for SharePoint groups
 <a name="__toc352237425"> </a>
