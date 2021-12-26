@@ -2,6 +2,49 @@
 
 
 
+## Week of December 20, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/20/2021 | [Manage settings and permissions when SharePoint and Teams are integrated](/SharePoint/manage-teams-sharepoint-experiences) | added |
+| 12/21/2021 | [Teams and SharePoint integration](/SharePoint/teams-connected-sites) | modified |
+| 12/22/2021 | [Add SharePoint Success Site content to your M365 Learning Pathways solution](/SharePoint/add-sss-cdn) | modified |
+| 12/22/2021 | [Branding your SharePoint site](/SharePoint/branding-sharepoint-online-sites-modern-experience) | modified |
+| 12/22/2021 | [Build Learning and Training Experiences for Employees](/SharePoint/build-learning-and-training-experiences-for-employees) | modified |
+| 12/22/2021 | [Add the Workplace transformation site](/SharePoint/change-management-template) | modified |
+| 12/22/2021 | [Guided walkthrough- Create a Giving site for your organization](/SharePoint/create-a-giving-site-for-your-organization) | modified |
+| 12/22/2021 | [Guided walkthrough - Create a communication site](/SharePoint/create-communication-site) | modified |
+| 12/22/2021 | [Guided walkthrough- Creating a Hub site for your organization](/SharePoint/create-hub-site-for-your-organization) | modified |
+| 12/22/2021 | [Guided walkthrough: Creating a training site for your organization](/SharePoint/create-training-site) | modified |
+| 12/22/2021 | [Customize the SharePoint Success Site](/SharePoint/customize-sss) | modified |
+| 12/22/2021 | [Automatic modernization of classic home pages](/SharePoint/disable-auto-modernization-classic-home-pages) | modified |
+| 12/22/2021 | [Distribute corporate news to your organization](/SharePoint/distribute-corporate-news-to-your-organization) | modified |
+| 12/22/2021 | [Guided walkthrough - Creating a leadership site for your organization](/SharePoint/guided-walkthrough-creating-leadership-site) | modified |
+| 12/22/2021 | [Guided walkthrough - Creating an organization site](/SharePoint/guided-walkthrough-creating-organization-site) | modified |
+| 12/22/2021 | [Guided walkthrough - Creating a Team site](/SharePoint/guided-walkthrough-creating-team-site) | modified |
+| 12/22/2021 | [Guided walkthrough - Setting up news for your organization using a hub site](/SharePoint/guided-walkthrough-set-up-news-with-hub-site) | modified |
+| 12/22/2021 | [Hold a town hall in Yammer and keep the conversation going](/SharePoint/hold-town-hall-using-yammer) | modified |
+| 12/22/2021 | [Associate a hub site to another hub site in the SharePoint admin center](/SharePoint/hub-to-hub-association) | modified |
+| 12/22/2021 | [Information architecture models and examples](/SharePoint/information-architecture-models-examples) | modified |
+| 12/22/2021 | [Introduction to SharePoint information architecture](/SharePoint/information-architecture-modern-experience) | modified |
+| 12/22/2021 | [Information architecture principles in SharePoint](/SharePoint/information-architecture-principles) | modified |
+| 12/22/2021 | [Intelligent intranet overview](/SharePoint/intelligent-internet-overview) | modified |
+| 12/22/2021 | [Get started planning your intranet](/SharePoint/intranet-get-started) | modified |
+| 12/22/2021 | [Planning intranet governance](/SharePoint/intranet-governance) | modified |
+| 12/22/2021 | [Intelligent intranet roles and tasks](/SharePoint/intranet-roles-tasks) | modified |
+| 12/22/2021 | [Intelligent intranet introduction](/SharePoint/intranet-team-overview) | modified |
+| 12/22/2021 | [Onboard new employees into your organization](/SharePoint/onboard-employees) | modified |
+| 12/22/2021 | [Introduction to the SharePoint Success Site](/SharePoint/overview-sss) | modified |
+| 12/22/2021 | [Get started planning and implementing SharePoint navigation design](/SharePoint/plan-implement-navigation-design) | modified |
+| 12/22/2021 | [Plan an intelligent SharePoint intranet](/SharePoint/plan-intranet) | modified |
+| 12/22/2021 | [Plan and implement SharePoint site navigation](/SharePoint/plan-navigation-modern-experience) | modified |
+| 12/22/2021 | [Overview of the Microsoft New Employee Onboarding sites](/SharePoint/provision-neo-hub) | modified |
+| 12/22/2021 | [Provision the SharePoint Success Site from the look book](/SharePoint/provision-sss-lookbook) | modified |
+| 12/22/2021 | [Provision the SharePoint Success Site](/SharePoint/provision-sss) | modified |
+| 12/22/2021 | [How to think about your intelligent intranet](/SharePoint/trad-vs-modern-intranet) | modified |
+
+
 ## Week of December 13, 2021
 
 
@@ -98,18 +141,3 @@
 | 11/24/2021 | [Azure AD B2B integration for SharePoint & OneDrive](/SharePoint/sharepoint-azureb2b-integration) | modified |
 | 11/24/2021 | [Software requirements for SharePoint Servers for SharePoint Server Subscription Edition](/SharePoint/install/software-requirements-for-sharepoint-servers-for-sharepoint-server-subscription-edition) | modified |
 | 11/24/2021 | [Create claims-based web applications in SharePoint Server](/SharePoint/security-for-sharepoint-server/create-claims-based-web-applications) | modified |
-
-
-## Week of November 15, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 11/15/2021 | [Guide to setting up Viva Connections](/SharePoint/guide-to-setting-up-viva-connections) | modified |
-| 11/15/2021 | [Plan, build, and launch a home site for your organization](/SharePoint/home-site-plan) | modified |
-| 11/15/2021 | [Set a site as your home site using PowerShell](/SharePoint/home-site) | modified |
-| 11/15/2021 | [Set up global navigation in the SharePoint app bar](/SharePoint/sharepoint-app-bar) | modified |
-| 11/15/2021 | [Add Viva Connections desktop to Microsoft Teams (Desktop only)](/SharePoint/viva-connections-desktop) | modified |
-| 11/15/2021 | [Set up the Viva Connections experience in a specific language](/SharePoint/viva-connections-language) | modified |
-| 11/18/2021 | [Create an information barriers policy compliance report](/SharePoint/info-barriers-report) | modified |
-| 11/19/2021 | [Change your SharePoint domain name](/SharePoint/change-your-sharepoint-domain-name) | modified |
