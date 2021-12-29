@@ -58,7 +58,7 @@ Certain posts in various Yammer communities will appear in the Feed. These Yamme
 [Stream videos](/stream/streamnew/new-stream) built on SharePoint or OneDrive that are shared with your entire organization will appear in the Feed. Depending on how your organization stores and shares videos in Stream will impact the viewing experience for videos in the Feed. 
 
 
-Not all of the three sources of content will be given equal weight in the ranking, refer to the question *“How is the feed personalized and ranked?"* for more information.
+Not all of the three sources of content will be given equal weight in the ranking, so refer to the question *How is the feed personalized and ranked?* for more information.
 
 
 
