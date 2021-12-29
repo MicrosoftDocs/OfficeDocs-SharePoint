@@ -45,7 +45,7 @@ SharePoint news that's published from [organizational news sites](organization-n
 2. **Posts in Yammer communities**
 Certain posts in various Yammer communities will appear in the Feed. These Yammer posts will come from Yammer communicaties that are authorized to post to "All Company" or the entire organization. Posts that are [All Company](https://techcommunity.microsoft.com/t5/yammer-blog/engage-your-entire-organization-with-new-all-company-features/ba-p/1441124) are intended to be viewed by everyone. 
 
-In addition to All Company Yammer posts, you will also see the following activity from Yammer in the Feed:
+    In addition to All Company Yammer posts, you will also see the following activity from Yammer in the Feed:
 
     - Yammer All Company Featured Posts
     - Yammer All Company Announcements 
