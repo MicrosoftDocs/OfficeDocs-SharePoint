@@ -20,7 +20,7 @@ search.appverid: MET150
 description: "Learn what the third step in using Migration Manager to migrate Dropbox."
 ---
 
-# Step 3: Copy to migrations
+# Step 3: Copy to migrations tab for Dropbox migration
 
 After a Dropbox account has been scanned and determined ready, add it to your migration list.  
 
