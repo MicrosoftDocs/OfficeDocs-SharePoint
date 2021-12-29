@@ -31,14 +31,16 @@ There are several factors to determine the content ranking and users will only b
 
 
 
-## Question: Where is content sourced for the Feed?
+## Question: Where does content from the Feed come from?
 
-In the current release of Viva Connections, the content in the Feed will come from:
-1. News published on organizational news sites in SharePoint:
-    - SharePoint News from [organizational news sites](organization-news-site.md) 
-    - SharePoint News from sites you follow and sites you are a member of
-    - Boosted SharePoint News from organizational news sites
-    - User targeted news from organizational news site or sites you follow
+Content that is displayed in the Feed comes from three primary sources - Organizational news published in SharePoint, posts in Yammar communities, and videos in Stream that are shared with the entire organization. 
+
+1. **News published on organizational news sites in SharePoint**
+SharePoint news that's published from [organizational news sites](organization-news-site.md) will display in the Feed. Organizational news sites are communication sites that have been specifically designated as a source of authoratative news in the SharePoint admin center. In addition to organizational news posts, the following news will also be displayed in the Feed:
+
+    - SharePoint news from [sites you follow and sites you are a member of](https://support.microsoft.com/office/find-and-follow-sites-news-and-content-4411e38f-9bc5-4ecc-bd33-3dbe939ac84c)
+    - [Boosted news in SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) from organizational news sites
+    - News that has [audience targeting applied](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) from organizational news site or sites you follow
     
 2. Posts published in Yammer communities:
     - Yammer All Company Featured Posts
