@@ -55,10 +55,10 @@ In addition to All Company Yammer posts, you will also see the following activit
     - Yammer Followed Community Posts
     
 3. **Videos in SharePoint hosted by Stream**
-[Stream videos](/stream/streamnew/new-stream) built on SharePoint or OneDrive 
+[Stream videos](/stream/streamnew/new-stream) built on SharePoint or OneDrive that are shared with your entire organization will appear in the Feed. Depending on how your organization stores and shares videos in Stream will impact the viewing experience for videos in the Feed. 
 
 
-Not all of the content will be given equal weight in the ranking, refer to the question “How is the feed personalized and ranked?" for more information.
+Not all of the three sources of content will be given equal weight in the ranking, refer to the question *“How is the feed personalized and ranked?"* for more information.
 
 
 
