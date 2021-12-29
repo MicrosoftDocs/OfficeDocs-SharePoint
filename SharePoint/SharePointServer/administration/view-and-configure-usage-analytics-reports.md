@@ -96,7 +96,7 @@ The **Ever** time period shows statistics from the first day a usage event was r
   $tenantConfig = $ssp.GetAnalyticsTenantConfiguration([Guid]::Empty)
   $event = $tenantConfig.EventTypeDefinitions | where-object {$_.EventTypeId -eq <EventTypeId>}
   $event
-  ```
+ ```
 
 *EventTypeId* is the numeric [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) of the usage event that you want to view. In the following example, we'll view the *Views* event. Therefore, we'll enter *1*. 
     
@@ -112,11 +112,11 @@ The **Recent** time period is defined by the *RecentPopularityTimeframe* propert
   $event = $tenantConfig.EventTypeDefinitions | where-object { $_.EventTypeId -eq <EventTypeId> }
   $event.RecentPopularityTimeFrame = <TimeFrame>
   $tenantConfig.Update($ssp)
-  ```
+ ```
 
 *EventTypeId* is the numeric [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) of the usage event that we want to change. *TimeFrame* is the new time period we want to set for the usage event. 
     
-    In the following example, to change the *Views* **Recent** time to a week, enter *1* and *7*. 
+In the following example, to change the *Views* **Recent** time to a week, enter *1* and *7*. 
     
    ![Set Recent to 7](../media/OTCSP_SetRecentTo7.png)
   
@@ -124,7 +124,7 @@ The **Recent** time period is defined by the *RecentPopularityTimeframe* propert
     
   ```
   $event
-  ```
+ ```
 
    ![Recent Popluarity Set to 7](../media/OTCSP_RecentPopularitySetTo7.png)
   
@@ -210,7 +210,7 @@ If you want the usage analytics reports to be updated regardless of minimum numb
   $event = $tenantConfig.EventTypeDefinitions | where-object { $_.EventTypeId -eq <EventTypeId> }
   $event.TailTrimming = <TailTrimming>
   $tenantConfig.Update($ssp)
-  ```
+ ```
 
 Where *EventTypeId* is the numeric [View the usage event definitions](an-introduction-to-recommendations-and-popular-items.md#BKMK_ViewtheUsageEventDefinitions) of the usage event that you want to change, and *TailTrimming* is the minimum number of times the usage event has to occur within 24 hours for the usage analytics reports to be updated.
     
@@ -222,7 +222,7 @@ In the following example, we wanted the usage analytics reports for the *Views* 
     
   ```
   $event
-  ```
+ ```
 
    ![Tail Trimming Changed](../media/OTCSP_TailTrimmingChanged.png)
   

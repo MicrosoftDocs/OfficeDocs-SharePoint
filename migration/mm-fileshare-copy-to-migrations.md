@@ -17,9 +17,10 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150to the migration list in Migration Manager."
+description: "Learn how to copy to migrations for file share migration."
 ---
 
-# Step 3: Copy to migrations
+# Step 3: Copy to migrations for file share migration
 
 After a file share has been scanned and determined ready, add it to your migration list.  
 
