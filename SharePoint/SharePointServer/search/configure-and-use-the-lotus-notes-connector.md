@@ -62,8 +62,8 @@ The following software is required:
     
 The following table shows combinations of versions of the Lotus Notes Domino server and Lotus Notes client that the Lotus Notes Connector works with.
   
-|                     |                 |                 |                 |
-| :------------------ | :-------------- | :-------------- | :-------------- |
+| &nbsp; |  &nbsp; |  &nbsp; | &nbsp; |
+| :----- | :----- | :----- | :----- |
 | This server version | With client 6.x | With client 7.x | With client 8.x |
 | Server 6.x          | YES             | NO              | NO              |
 | Server 7.x          | NO              | YES             | YES             |

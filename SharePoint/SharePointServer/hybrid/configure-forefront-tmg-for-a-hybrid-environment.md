@@ -70,7 +70,7 @@ If you have not already installed TMG 2010 and configured it for your network, u
 
 You must import the Secure Channel SSL certificate into both the Personal store of the local computer account and the Personal store of the Microsoft Forefront TMG Firewall service account (fwsvc).
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|The location of the **Secure Channel SSL certificate** is recorded in **Row 1** (Secure Channel SSL Certificate location and Filename) of **Table 4b: Secure Channel SSL Certificate**.  <br/> If the certificate contains a private key, you will need to provide the certificate password, which is recorded in **Row 4** (Secure Channel SSL Certificate password) of **Table 4b: Secure Channel SSL Certificate**.  <br/> |
    
@@ -122,7 +122,7 @@ Use the following procedure to create the publishing rule and web listener.
     > [!NOTE]
     > Do not enter the protocol (http:// or https://). 
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)| The Bridging URL is recorded in one the following locations in the SharePoint Hybrid worksheet:  <br/>  If your primary web application is configured with a  *host-named site collection*  , use the value in **Row 1** (Primary web application URL) of **Table 5a: Primary web application (host-named site collection)**.  <br/>  If your primary web application is configured with a  *path-based site collection*  , use the value in **Row 1** (Primary web application URL) of **Table 5b: Primary web application (path-based site collection without AAM)**.  <br/>  If your primary web application is configured with a  *path-based site collection with AAM*  , use the value in **Row 5** (Primary web application URL) of **Table 5c: Primary web application (path-based site collection with AAM)**.  <br/> |
    
@@ -136,7 +136,7 @@ Use the following procedure to create the publishing rule and web listener.
     > [!NOTE]
     > Do not enter the protocol (http:// or https://). 
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|The External URL is recorded in **Row 3** (External URL) of **Table 3: Public Domain Info** in the SharePoint Hybrid worksheet. |
    

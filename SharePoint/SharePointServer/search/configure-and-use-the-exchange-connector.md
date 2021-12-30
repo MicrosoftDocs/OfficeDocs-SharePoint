@@ -85,12 +85,10 @@ Use one of the following procedures to create a content source for Exchange Serv
 8. In the **Start Addresses** section, in the **Type start addresses below (one per line)** box, type the URLs for the Exchange Server public folders that you want to crawl. These URLs are typically in one of the following forms: 
     
   -  _\<protocol\>_:// _host name_/public
-    
-    Where  _\<protocol\>_ can be http or https, and  _host name_ is the NetBIOS or fully qualified domain name (FQDN) of the server that is running Exchange Server. 
+     - Where  _\<protocol\>_ can be http or https, and  _host name_ is the NetBIOS or fully qualified domain name (FQDN) of the server that is running Exchange Server. 
     
   -  _\<protocol\>_:// _host name_/public/ _subfolder_
-    
-    Where  _\<protocol\>_ can be http or https,  _host name_ is the NetBIOS or FQDN of the server that is running Exchange Server, and  _subfolder_ is the name of the specific subfolder that you want to crawl. 
+     - Where  _\<protocol\>_ can be http or https,  _host name_ is the NetBIOS or FQDN of the server that is running Exchange Server, and  _subfolder_ is the name of the specific subfolder that you want to crawl. 
     
   For example, if you want to crawl all subfolders in the public folder on a server that is named exch-01 and that is in the Contoso domain, and that server does not use SSL, you could type either http://exch-01/public or http://exch-01.contoso.com. To crawl only a specific subfolder named Bob in the same public folder, type http://exch-01/public/bob or http://exch-01.contoso.com/bob.
     
