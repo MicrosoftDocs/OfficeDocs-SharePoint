@@ -317,9 +317,9 @@ The following procedure contains steps to view and manage the site collection up
 
   Where:
     
-  -  _\<DatabaseName\>_ is name of the database that you want to check. You can also use the GUID for the database instead of the name. 
+   -  _\<DatabaseName\>_ is name of the database that you want to check. You can also use the GUID for the database instead of the name. 
     
-    For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps&preserve-view=true). 
+     For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps&preserve-view=true). 
     
 4. To see all sites that are currently being upgraded, at the PowerShell command prompt, type the following command:
     
@@ -341,7 +341,7 @@ The following procedure contains steps to view and manage the site collection up
 
   Where:
     
-  -  _\<http://site\>_ is URL for the site collection you want to add to the upgrade queue. 
+   -  _\<http://site\>_ is URL for the site collection you want to add to the upgrade queue. 
     
     For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps&preserve-view=true). 
     
@@ -359,15 +359,15 @@ The following procedure contains steps to view and manage the site collection up
     
 7. To remove a site collection from the upgrade queue, at the PowerShell command prompt, type the following command:
     
-  ```
-  Remove-SPSiteUpgradeSessionInfo -Identity <URL>
-  ```
+    ```
+    Remove-SPSiteUpgradeSessionInfo -Identity <URL>
+    ```
 
-    Where:
+  Where:
     
-  -  _\<URL\>_ is URL for the site collection you want to add to the upgrade queue. 
-    
-   For more information, see [Remove-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Remove-SPSiteUpgradeSessionInfo?view=sharepoint-ps&preserve-view=true). 
+  -  _\<URL\>_ is URL for the site collection you want to add to the upgrade queue.
+  
+    For more information, see [Remove-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Remove-SPSiteUpgradeSessionInfo?view=sharepoint-ps&preserve-view=true). 
     
 ## Control site throttle settings for upgrade to SharePoint 2013
 <a name="Throttling"> </a>
@@ -636,9 +636,9 @@ To upgrade all site collections in a database, use PowerShell. However, because 
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
-   Get-SPSite -ContentDatabase <DBName> -Limit All | Upgrade-SPSite -VersionUpgrade -QueueOnly
-   ```
+    ```
+    Get-SPSite -ContentDatabase <DBName> -Limit All | Upgrade-SPSite -VersionUpgrade -QueueOnly
+    ```
 
    Where:
     
@@ -684,18 +684,18 @@ You can view upgrade status for all databases, for a single site collection, or 
     
 4. Or, you can use the following command to view the information about a specific site collection upgrade:
     
-   ```
-   $sc = Get-SPSite <http://site>
-   # Sets a variable for the site collection
-   $sc.CompatibilityLevel
-   # Returns the compatibility level for the site collection (either 14 or 15 for 2010 or 2013 mode)
-   $sc.UpgradeInfo
-   # Returns the upgrade information for the site collection
-   ```
+    ```
+    $sc = Get-SPSite <http://site>
+    # Sets a variable for the site collection
+    $sc.CompatibilityLevel
+    # Returns the compatibility level for the site collection (either 14 or 15 for 2010 or 2013 mode)
+    $sc.UpgradeInfo
+    # Returns the upgrade information for the site collection
+    ```
 
-   Where:
+    Where:
     
-   -  _\<http://site\>_ is the URL of the site collection. 
+    -  _\<http://site\>_ is the URL of the site collection. 
     
    This command returns the compatibility level and upgrade information (such as a pointer to the log file) for the specified site collection. If the compatibility level is "15," then it has been upgraded to 2013 mode. For more information, see [Get-SPSite](/powershell/module/sharepoint-server/Get-SPSite?view=sharepoint-ps&preserve-view=true).
     
@@ -718,9 +718,9 @@ You can view upgrade status for all databases, for a single site collection, or 
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
-   Get-SPSiteUpgradeSessionInfo -ContentDatabase <DatabaseName> -ShowInProgress -ShowCompleted -ShowFailed
-   ```
+    ```
+    Get-SPSiteUpgradeSessionInfo -ContentDatabase <DatabaseName> -ShowInProgress -ShowCompleted -ShowFailed
+    ```
 
     Where:
     
@@ -747,9 +747,9 @@ You can view upgrade status for all databases, for a single site collection, or 
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
-   Get-SPSite -Limit All
-   ```
+    ```
+    Get-SPSite -Limit All
+    ```
 
 This cmdlet returns the URL for all site collections in the environment and the compatibility level (14 or 15) for each site collection.
   
