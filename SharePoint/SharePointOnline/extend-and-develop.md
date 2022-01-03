@@ -1,8 +1,8 @@
 ---
 title: "Plan customizations, solutions, and apps for SharePoint"
 ms.reviewer: lucaband
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
