@@ -27,7 +27,7 @@ After the migration has completed, the flow owner must sign in to Power Automate
 
 1.	Sign in to Power Automate.
 2.	Navigate to **Solutions**, choose the latest one matching “Solution” in migration report.
-3.	Edit connection references. Select **New connection** if no existing connection found. If this is the case, we recommend you pick an existing connection.
+3.	Edit connection references. Select **New connection** if no existing connection found. If so, we recommend you pick an existing connection.
 
 ![Select a new workflow connection](media/spmt-workflow-automate-connection.png)
  
@@ -37,20 +37,12 @@ After the migration has completed, the flow owner must sign in to Power Automate
 
 After the migrated flows are turned on, testing is suggested to verify the behavior of the flows.
 
-## Incremental migration 
-
-A workflow migration can be rerun as incremental migration. During an incremental migration, SPMT migrates source workflows when they are newer than corresponding destination flows.  
-
-In the following examples,  **W** is the migraton of a list workflow, **L** is the destination list, and **U** represents the flow owner.
-
-- If the source workflow **W** is updated after the previous migration, the latest workflow will be migrated to the same flow with new changes.
-
-- If flow owner **U** is changed to another user (e.g. the owner of source workflow is changed), this user will be added as a new owner of the previous migrated workflow. 
-
 
 ## The migrated flows
 
-When SPMT migrates the workflow to Power Automate, it finds the Power Automate built-in actions that best match the functions in the original SharePoint workflow. Due to the feature gaps between SharePoint workflow and Power Automate, a converted flow may not carry the exact same behavior as the original one.
+When SPMT migrates the workflow to Power Automate, it finds the Power Automate built-in actions that best match the functions in the original SharePoint workflow. Because of the feature gaps between SharePoint workflow and Power Automate, a converted flow may not carry the exact same behavior as the original one.
+
+The chart below shows the first action in a flow migrated from an out-of-the-box (OOTB) approval workflow (manual start) and the UI form when a user starts the flow. It lists the mapping of five user inputs between original workflow and converted flow.
 
 ![out of the box workflows](media/spmt-workflow-ootb-options.png)
 
