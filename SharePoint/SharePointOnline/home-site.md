@@ -1,8 +1,8 @@
 ---
 title: "Set a site as your home site using PowerShell"
 ms.reviewer: dipadur
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin

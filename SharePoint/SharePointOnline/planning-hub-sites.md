@@ -3,8 +3,8 @@ title: "Planning your SharePoint hub sites"
 ms.reviewer: metorres
 manager: serdars
 recommendations: true
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 audience: Admin
 f1.keywords:
 - CSH

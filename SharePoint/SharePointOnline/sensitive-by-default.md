@@ -1,8 +1,8 @@
 ---
 title: "Mark new files as sensitive by default"
 ms.reviewer: samust
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
