@@ -53,30 +53,30 @@ When a site collection is available to upgrade, site collection administrators s
     
 3. At the PowerShell command prompt, type the following commands to view the upgrade notification settings for a web application:
     
-  ```
-  $wa=Get-SPWebApplication <URL>
-  $wa.UpgradeReminderDelay
-  $wa.UpgradeMaintenanceLink
-  ```
+   ```
+   $wa=Get-SPWebApplication <URL>
+   $wa.UpgradeReminderDelay
+   $wa.UpgradeMaintenanceLink
+   ```
 
-  Where:
+   Where:
     
-  -  _\<URL\>_ is URL for the web application that you want to check. 
+   -  _\<URL\>_ is URL for the web application that you want to check. 
     
     This command returns the Upgrade reminder delay setting for the specified web application.
     
 4. At the PowerShell command prompt, type the following command to view the self-service upgrade setting for a site collection:
     
-  ```
-  $site=Get-SPSite <URL>
-  $site.AllowSelfServiceUpgrade=<Value>
-  ```
+   ```
+   $site=Get-SPSite <URL>
+   $site.AllowSelfServiceUpgrade=<Value>
+   ```
 
-  Where:
+   Where:
     
-  -  _\<URL\>_ is URL for the site collection that you want to affect. 
+   -  _\<URL\>_ is URL for the site collection that you want to affect. 
     
-  -  _\<Value\>_ is either 'true' to allow site collection administrators to upgrade the site, or 'false' to not show them the notification and not allow them to upgrade. 
+   -  _\<Value\>_ is either 'true' to allow site collection administrators to upgrade the site, or 'false' to not show them the notification and not allow them to upgrade. 
     
 For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps&preserve-view=true) and [Get-SPSite](/powershell/module/sharepoint-server/Get-SPSite?view=sharepoint-ps&preserve-view=true).
   
@@ -84,16 +84,19 @@ For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-s
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets.
     
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+
+
+
+>[!NOTE]
+>If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell. 
     
@@ -566,8 +569,8 @@ Site collection administrators can request a preview of their site collection. T
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Request-SPUpgradeEvaluationSiteCollection -identity URL to site
+   ```
+    Request-SPUpgradeEvaluationSiteCollection -identity URL to site
   ```
 
   Where:
@@ -581,15 +584,15 @@ For more information, see [Request-SPUpgradeEvaluationSite](/powershell/module/s
 
 You can upgrade a single site collection or all site collections in a specific database by using PowerShell. 
   
- **To upgrade a single site collection in a database by using PowerShell**
+**To upgrade a single site collection in a database by using PowerShell**
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
@@ -600,15 +603,15 @@ You can upgrade a single site collection or all site collections in a specific d
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Upgrade-SPSite <http://site> -VersionUpgrade [-Unthrottled]
-  ```
+   ```
+   Upgrade-SPSite <http://site> -VersionUpgrade [-Unthrottled]
+   ```
 
-  Where:
+   Where:
     
-  -  _\<http://site\>_ is the URL for the site collection. 
+   -  _\<http://site\>_ is the URL for the site collection. 
     
-  - Add the option **-Unthrottled** option to skip the site collection upgrade queue and start the upgrade immediately. 
+   - Add the option **-Unthrottled** option to skip the site collection upgrade queue and start the upgrade immediately. 
     
 This cmdlet upgrades the specific site collection to 2013 mode. For more information, see Upgrade-SPSite.
   
@@ -618,11 +621,11 @@ To upgrade all site collections in a database, use PowerShell. However, because 
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
@@ -633,13 +636,13 @@ To upgrade all site collections in a database, use PowerShell. However, because 
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Get-SPSite -ContentDatabase <DBName> -Limit All | Upgrade-SPSite -VersionUpgrade -QueueOnly
-  ```
+   ```
+   Get-SPSite -ContentDatabase <DBName> -Limit All | Upgrade-SPSite -VersionUpgrade -QueueOnly
+   ```
 
-  Where:
+   Where:
     
-  -  _\<DBName\>_ is the name of the content database for which you want to upgrade all site collections. 
+   -  _\<DBName\>_ is the name of the content database for which you want to upgrade all site collections. 
     
    The **QueueOnly** parameter adds the site collections to the upgrade queue. This allows the timer job to perform parallel upgrades when it is possible and can save time. The sites are upgraded in the order in which they are added to the queue. 
     
@@ -654,11 +657,11 @@ You can view upgrade status for all databases, for a single site collection, or 
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
+     
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
-    
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
@@ -669,30 +672,30 @@ You can view upgrade status for all databases, for a single site collection, or 
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Get-SPSiteUpgradeSessionInfo -Site <http://site>
-  ```
+   ```
+   Get-SPSiteUpgradeSessionInfo -Site <http://site>
+   ```
 
-  Where:
+   Where:
     
-  -  _\<http://site\>_ is the URL of the site collection. 
+   -  _\<http://site\>_ is the URL of the site collection. 
     
    This cmdlet returns the upgrade status for the specified site collection together with information about the upgrade session and a link to the log files for more information. For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps&preserve-view=true).
     
 4. Or, you can use the following command to view the information about a specific site collection upgrade:
     
-  ```
-  $sc = Get-SPSite <http://site>
-  # Sets a variable for the site collection
-  $sc.CompatibilityLevel
-  # Returns the compatibility level for the site collection (either 14 or 15 for 2010 or 2013 mode)
-  $sc.UpgradeInfo
-  # Returns the upgrade information for the site collection
-  ```
+   ```
+   $sc = Get-SPSite <http://site>
+   # Sets a variable for the site collection
+   $sc.CompatibilityLevel
+   # Returns the compatibility level for the site collection (either 14 or 15 for 2010 or 2013 mode)
+   $sc.UpgradeInfo
+   # Returns the upgrade information for the site collection
+   ```
 
-  Where:
+   Where:
     
-  -  _\<http://site\>_ is the URL of the site collection. 
+   -  _\<http://site\>_ is the URL of the site collection. 
     
    This command returns the compatibility level and upgrade information (such as a pointer to the log file) for the specified site collection. If the compatibility level is "15," then it has been upgraded to 2013 mode. For more information, see [Get-SPSite](/powershell/module/sharepoint-server/Get-SPSite?view=sharepoint-ps&preserve-view=true).
     
@@ -700,11 +703,11 @@ You can view upgrade status for all databases, for a single site collection, or 
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
@@ -715,13 +718,13 @@ You can view upgrade status for all databases, for a single site collection, or 
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Get-SPSiteUpgradeSessionInfo -ContentDatabase <DatabaseName> -ShowInProgress -ShowCompleted -ShowFailed
-  ```
+   ```
+   Get-SPSiteUpgradeSessionInfo -ContentDatabase <DatabaseName> -ShowInProgress -ShowCompleted -ShowFailed
+   ```
 
-  Where:
+    Where:
     
-  -  _\<DatabaseName\>_ is the name of the database that you want to check. 
+    -  _\<DatabaseName\>_ is the name of the database that you want to check. 
     
    This cmdlet returns any site collections that have an upgrade in progress, completed, or failed and lists their status, plus a link to the log files for more information. You can use only one parameter to find only in progress, completed, or failed upgrades. For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps&preserve-view=true).
     
@@ -729,11 +732,11 @@ You can view upgrade status for all databases, for a single site collection, or 
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
@@ -744,9 +747,9 @@ You can view upgrade status for all databases, for a single site collection, or 
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Get-SPSite -Limit All
-  ```
+   ```
+   Get-SPSite -Limit All
+   ```
 
 This cmdlet returns the URL for all site collections in the environment and the compatibility level (14 or 15) for each site collection.
   
