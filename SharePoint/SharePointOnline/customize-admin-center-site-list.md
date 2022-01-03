@@ -63,7 +63,7 @@ Sorting and filtering the site list is just like sorting and filtering other lis
 ## Switch views and create custom views
 <a name="views"> </a>
 
-The SharePoint admin center comes with a few built-in views: All sites, Sites connected to Teams, Microsoft 365 Group sites, Sites without a group, Classic sites, Largest sites, Least active sites, and Most popular shared sites. 
+The SharePoint admin center comes with a few built-in views: **All sites**, **Sites connected to Teams**, **Microsoft 365 Group sites**, **Sites without a group**, **Classic sites**, **Largest sites**, **Least active sites**, and **Most popular shared sites**.
 
 To select a different view:
 
