@@ -18,7 +18,7 @@ ms.assetid: 75113d71-7193-44ab-b79b-34cb9cf9aa94
 description: "Learn how to address problems that may occur after you upgrade a site to SharePoint Server 2016."
 ---
 
-# Troubleshoot site collection upgrade issues in SharePoint Server 2016
+# How to troubleshoot site collection upgrade issues in SharePoint Server 2016
 
 [!INCLUDE[applies to-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 

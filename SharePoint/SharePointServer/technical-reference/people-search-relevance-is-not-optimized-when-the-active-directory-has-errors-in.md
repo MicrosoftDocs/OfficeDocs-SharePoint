@@ -52,17 +52,17 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: People S
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  $upaProxy = Get-SPServiceApplicationProxy <AppID>
-  ```
+   ```
+   $upaProxy = Get-SPServiceApplicationProxy <AppID>
+   ```
 
     where  *\<AppID\>*  is the GUID of the User Profile service application proxy. For more information, see [Get-SPProfileLeader](/powershell/module/sharepoint-server/Get-SPProfileLeader?view=sharepoint-ps&preserve-view=true).
     
 4. Type the following command:
     
-  ```
-  Add-SPProfileLeader -ProfileServiceApplicationProxy $upaProxy -Name "<Domain\UserName> "
-  ```
+   ```
+   Add-SPProfileLeader -ProfileServiceApplicationProxy $upaProxy -Name "<Domain\UserName> "
+   ```
 
     where  *\<Domain\UserName\>*  is the user account that you want to add as a leader — for example, Contoso\Joe.Healy. For more information, see [Add-SPProfileLeader](/powershell/module/sharepoint-server/Add-SPProfileLeader?view=sharepoint-ps&preserve-view=true).
     
