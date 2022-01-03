@@ -20,7 +20,7 @@ search.appverid: MET150
 description: "Learn what the third step in using Migration Manager to migrate Google Drive."
 ---
 
-# Step 3: Copy to migrations
+# Step 3: Copy to migrations tab for Google migration
 
 After a Google user has been scanned and determined ready, add them to your migration list.  
 

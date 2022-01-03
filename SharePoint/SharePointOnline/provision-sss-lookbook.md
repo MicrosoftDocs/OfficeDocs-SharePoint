@@ -1,8 +1,8 @@
 ---
 title: Provision the SharePoint Success Site from the look book
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin

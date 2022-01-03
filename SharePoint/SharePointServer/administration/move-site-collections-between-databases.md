@@ -77,14 +77,14 @@ Regardless of the reason for moving a site collection, you should always begin t
   $used
   ```
 
-    Where:
+  Where:
     
   -  _\<http://ServerName/Sites/SiteName\>_ is the name of the site collection. 
     
-    The amount of disk space that is being used by the specified site collection is stored in the  _$used_ variable, and is displayed at the command prompt when the second command is run. 
+  The amount of disk space that is being used by the specified site collection is stored in the  _$used_ variable, and is displayed at the command prompt when the second command is run. 
     
-    > [!NOTE]
-    > The amount of disk space that is displayed does not include the disk space that is used by the auditing data that will be moved with the site collection. 
+  > [!NOTE]
+  > The amount of disk space that is displayed does not include the disk space that is used by the auditing data that will be moved with the site collection. 
   
 For more information, see [Get-SPSiteAdministration](/powershell/module/sharepoint-server/Get-SPSiteAdministration?view=sharepoint-ps&preserve-view=true).
   
@@ -111,11 +111,11 @@ For more information, see [Get-SPSiteAdministration](/powershell/module/sharepoi
   (Get-SPSite -Identity <http://ServerName/Sites/SiteName>).Audit.TrimAuditLog(deleteEndDate)
   ```
 
-    Where:
+  Where:
     
   -  _\<http://ServerName/Sites/SiteName\>_ is the name of the site collection. 
     
-    To delete the audit data without archiving it first, type the following command:
+  To delete the audit data without archiving it first, type the following command:
     
   ```
   (Get-SPSite -Identity <http://ServerName/Sites/SiteName>).Audit.DeleteEntries(deleteEndDate)
@@ -154,7 +154,7 @@ You can use the PowerShell command **Move-SPSite** to move site collections betw
   Move-SPSite <http://ServerName/Sites/SiteName> -DestinationDatabase <DestinationContentDb>
   ```
 
-    Where:
+  Where:
     
   -  _\<http://ServerName/Sites/SiteName\>_ is the name of the site collection. 
     
@@ -183,13 +183,13 @@ You can use the PowerShell command **Move-SPSite** to move site collections betw
   Get-SPSite -ContentDatabase <SourceContentDb> | Move-SPSite -DestinationDatabase <DestinationContentDb>
   ```
 
-    Where:
+  Where:
     
   -  _\<SourceContentDb\>_ is the name of the original content database. 
     
   -  _\<DestinationContentDb\>_ is the name of the destination content database. 
     
-    This command moves all site collections from the source content database to the destination content database.
+  This command moves all site collections from the source content database to the destination content database.
     
 For more information, see [Move-SPSite](/powershell/module/sharepoint-server/Move-SPSite?view=sharepoint-ps&preserve-view=true).
   
