@@ -1,8 +1,8 @@
 ---
 title: "Security considerations of allowing custom script"
 ms.reviewer: lucaband
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 ms.date: 6/15/2017

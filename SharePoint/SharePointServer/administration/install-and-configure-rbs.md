@@ -177,8 +177,8 @@ You must install RBS client library on the SQL Server node and all Front-end or 
   msiexec /qn /lvx* rbs_install_log.txt /i RBS_amd64.msi DBNAME="WSS_Content" DBINSTANCE="DBInstanceName" ADDLOCAL=Client,Docs,Maintainer,ServerScript,FilestreamClient,FilestreamServer
   ```
 
-    > [!NOTE]
-    > If you attempt to install SQL Server 2012 Remote Blob Store for an additional database on the same instance of SQL Server, you will receive an error. For more information, see [KB2767183](https://support.microsoft.com/kb/2767183). 
+  > [!NOTE]
+  > If you attempt to install SQL Server 2012 Remote Blob Store for an additional database on the same instance of SQL Server, you will receive an error. For more information, see [KB2767183](https://support.microsoft.com/kb/2767183). 
   
 For subsequent content databases for which you want to enable RBS, change the `msiexec` command similar to below.
     

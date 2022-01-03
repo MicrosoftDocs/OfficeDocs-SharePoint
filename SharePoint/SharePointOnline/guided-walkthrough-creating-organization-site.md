@@ -1,8 +1,8 @@
 ---
 title: Guided walkthrough - Creating an organization site
 ms.reviewer: 
-ms.author: daisyfeller
-author: daisyfell
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin

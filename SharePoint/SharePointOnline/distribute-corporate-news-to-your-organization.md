@@ -1,7 +1,7 @@
 ---
 title: "Distribute corporate news to your organization"
-ms.author: loreenl
-author: loreenl
+ms.author: hokavian
+author: Holland-ODSP
 manager: pamgr
 recommendations: true
 audience: Admin
