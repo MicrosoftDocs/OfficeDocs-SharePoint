@@ -91,16 +91,16 @@ Here we go!
   
 Two crawled properties are found: *ows_q_NMBR_RetBasePrice* and *ows_RetBasePrice*. 
     
-     ![Two CPs Found](../media/OTCSP_TwoCPsFound.png)
+![Two CPs Found](../media/OTCSP_TwoCPsFound.png)
   
 This part is really tricky. Not only are two crawled properties found (very strange, considering we only had one "RetBasePrice" site column), but which one should we map to the refinable managed property?
     
-    Let's take a closer look at what's going on. [From site column to managed property - What's up with that?](from-site-column-to-managed-propertywhat-s-up-with-that.md) explained the naming convention for automatically created crawled properties. All automatically created crawled property names have the format  *ows_\<something\>_SiteColumnName*  . For the site column  *RetBasePrice*  , the  *\<something\>*  is "q_NMBR". Based on this information,  *ows_q_NMBR_RetBasePrice*  can be identified as an automatically created managed property. 
+Let's take a closer look at what's going on. [From site column to managed property - What's up with that?](from-site-column-to-managed-propertywhat-s-up-with-that.md) explained the naming convention for automatically created crawled properties. All automatically created crawled property names have the format  *ows_\<something\>_SiteColumnName*  . For the site column  *RetBasePrice*  , the  *\<something\>*  is "q_NMBR". Based on this information,  *ows_q_NMBR_RetBasePrice*  can be identified as an automatically created managed property. 
     
-    To differentiate the two crawled properties found by our search, let's call the one whose name does not have the format of an automatically created managed property ( *ows_RetBasePrice*  in this example) a  *regular*  crawled property. 
+To differentiate the two crawled properties found by our search, let's call the one whose name does not have the format of an automatically created managed property ( *ows_RetBasePrice*  in this example) a  *regular*  crawled property. 
     
-    > [!IMPORTANT]
-    > When mapping a crawled property to a refinable managed property, select the  *regular*  crawled property! 
+> [!IMPORTANT]
+> When mapping a crawled property to a refinable managed property, select the  *regular*  crawled property! 
   
 6. Select the regular crawled property found by the search you performed in the previous step, and then select **OK**. In our Contoso scenario, we'll select *ows_RetBasePrice*. 
     
@@ -108,7 +108,7 @@ This part is really tricky. Not only are two crawled properties found (very stra
   
 On the **Edit Managed Property** page, note that the crawled property *ows_RetBasePrice* is added to the **Mappings to crawled properties** field. 
     
-     ![CP Added](../media/OTCSP_CPadded.png)
+![CP Added](../media/OTCSP_CPadded.png)
   
 7. In the **Alias** field, enter a name for the refiner. In our Contoso scenario, we'll enter *Price*. 
     
@@ -123,7 +123,7 @@ On the **Edit Managed Property** page, note that the crawled property *ows_RetBa
   
 As stated at the beginning of this procedure, we have to do the mapping for all the refiners we want to use. So, for the "Audio" and "Cameras" categories we have mapped crawled properties to the  *RefinableStringXX*  refinable managed properties, as shown in the following screen shot. 
     
-     ![Refinable String Mapped](../media/OTCSP_RefinableStringMapped.png)
+![Refinable String Mapped](../media/OTCSP_RefinableStringMapped.png)
   
 ### How to initiate a reindexing of the catalog
 <a name="BKMK_HowToInitiateAReindixingOfTheCatalog"> </a>
@@ -148,11 +148,11 @@ After the catalog is reindexed, we can finally start to do some configuration. B
   
 Because we used the Product Catalog template when we created our authoring site collection in [Stage 1: Create site collections for cross-site publishing in SharePoint Server](stage-1-create-site-collections-for-cross-site-publishing.md), our Product Hierarchy term set is enabled for faceted navigation by default.
     
-    If you used a different template when you created your authoring site collection, you must first enable the term set for faceted navigation. For information about how to do this, see [Enable a term set for faceted navigation](configure-refiners-and-faceted-navigation.md#BKMK_EnableATermSetForFacetedNavigation).
+If you used a different template when you created your authoring site collection, you must first enable the term set for faceted navigation. For information about how to do this, see [Enable a term set for faceted navigation](configure-refiners-and-faceted-navigation.md#BKMK_EnableATermSetForFacetedNavigation).
     
-    Now that we have verified that our term set can be used for faceted navigation, let's continue with the configuration.
+Now that we have verified that our term set can be used for faceted navigation, let's continue with the configuration.
     
-    From [Stage 12: Plan to use refiners for faceted navigation in SharePoint Server - Part I](stage-12-plan-to-use-refiners-for-faceted-navigation-inpart-i.md), remember that we want to add some refiners to all categories, and other refiners to only a subset of categories. Let's start by adding the refiners that we want to use for all categories:  *Brand*  ,  *Color*  and  *Price*  . 
+From [Stage 12: Plan to use refiners for faceted navigation in SharePoint Server - Part I](stage-12-plan-to-use-refiners-for-faceted-navigation-inpart-i.md), remember that we want to add some refiners to all categories, and other refiners to only a subset of categories. Let's start by adding the refiners that we want to use for all categories:  *Brand*  ,  *Color*  and  *Price*  . 
     
 ### How to add refiners to all terms in a term set
 <a name="BKMK_HowToAddRefinersToAllTermsInATermSeT"> </a>
@@ -171,7 +171,7 @@ Because we used the Product Catalog template when we created our authoring site 
   
 This moves the **RefinableString01** property over to the **Selected refiners** section. When a refiner is moved to the **Selected refiners** section, additional configuration options are shown. (We'll discuss them in Steps 7 and 8.) 
     
-     ![RefinableString01 Selected](../media/OTCSP_RefinableString01Selected.png)
+![RefinableString01 Selected](../media/OTCSP_RefinableString01Selected.png)
   
 4. Repeat Steps 1 - 3 to add **RefinableString02** (the *Color* refiner) and **RefinableInt01** (the *Price* refiner). 
     
