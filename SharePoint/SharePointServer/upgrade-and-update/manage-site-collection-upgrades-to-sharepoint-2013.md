@@ -343,7 +343,7 @@ The following procedure contains steps to view and manage the site collection up
     
    -  _\<http://site\>_ is URL for the site collection you want to add to the upgrade queue. 
     
-    For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps&preserve-view=true). 
+   For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps&preserve-view=true). 
     
 6. To add a site collection to the upgrade queue, at the PowerShell command prompt, type the following command:
     
@@ -367,7 +367,7 @@ The following procedure contains steps to view and manage the site collection up
     
   -  _\<URL\>_ is URL for the site collection you want to add to the upgrade queue.
   
-    For more information, see [Remove-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Remove-SPSiteUpgradeSessionInfo?view=sharepoint-ps&preserve-view=true). 
+  For more information, see [Remove-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Remove-SPSiteUpgradeSessionInfo?view=sharepoint-ps&preserve-view=true). 
     
 ## Control site throttle settings for upgrade to SharePoint 2013
 <a name="Throttling"> </a>
@@ -603,9 +603,9 @@ You can upgrade a single site collection or all site collections in a specific d
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
-   Upgrade-SPSite <http://site> -VersionUpgrade [-Unthrottled]
-   ```
+    ```
+    Upgrade-SPSite <http://site> -VersionUpgrade [-Unthrottled]
+    ```
 
    Where:
     
