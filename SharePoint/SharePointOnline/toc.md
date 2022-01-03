@@ -28,6 +28,7 @@
 ### [Overview](get-started-new-admin-center.md)
 ### [What's new in admin center](what-s-new-in-admin-center.md)
 ### [Manage sites in new admin center](manage-sites-in-new-admin-center.md)
+### [Customize the site list](customize-admin-center-site-list.md)
 ### [Find classic site collection features](site-collections-page.md)
 ### [Find classic sharing settings](sharing-settings.md)
 ### [Find classic geo locations settings](manage-geo-locations.md)
