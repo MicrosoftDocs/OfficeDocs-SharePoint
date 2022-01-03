@@ -15,6 +15,8 @@ ms.collection:
 - m365initiative-healthyonedrive
 ms.custom:
 - seo-marvel-apr2020
+- intro-overview
+- intro-get-started
 ms.localizationpriority: high
 search.appverid:
 - MET150

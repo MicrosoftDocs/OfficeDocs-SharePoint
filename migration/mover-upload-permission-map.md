@@ -14,7 +14,7 @@ ms.collection:
 search.appverid: MET150
 description: "Mover Migration: Update a permission map"
 ---
-# Uploading a permission map <optional>
+# Uploading a permission map \<optional\>
 
 You can upload a permission map in CSV format. An uploaded file overwrites any existing permission map, so use caution. In an ideal world, all users are matched. If there are a few unmatched users, from the web interface, you can manually add names to the **Destination** field.
 

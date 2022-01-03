@@ -1,8 +1,8 @@
 ---
 title: Guided walkthrough- Create a Giving site for your organization
 ms.reviewer: 
-ms.author: dowallace
-author: dowallace
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin

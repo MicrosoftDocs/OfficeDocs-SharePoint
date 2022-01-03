@@ -92,7 +92,7 @@ Here are the steps to enable the recording of a usage event for anonymous users:
   $event = $tenantConfig.EventTypeDefinitions | where-object { $_.EventTypeId -eq <EventTypeId> }
   ```
 
-  *EventTypeID* is the number of the usage event that you want to enable for anonymous users, for example *2*, which is the *Recommendation Displays* usage event. 
+*EventTypeID* is the number of the usage event that you want to enable for anonymous users, for example *2*, which is the *Recommendation Displays* usage event. 
 
    ![Get Usage Event 2](../media/OTCSP_GetUsageEvent2.png)
   
@@ -102,17 +102,17 @@ Here are the steps to enable the recording of a usage event for anonymous users:
   $tenantConfig.Update($SSP)
   ```
 
-   ![Allow Anonymous Write](../media/OTCSP_AllowAnonymousWrite.png)
+![Allow Anonymous Write](../media/OTCSP_AllowAnonymousWrite.png)
   
   ```
   # Verify that the recording of a usage event for anonymous users has been enabled:
   $event
   ```
 
-   ![Logging of Anonymous Write](../media/OTCSP_LoggingOfAnonymousWrite.png)
+![Logging of Anonymous Write](../media/OTCSP_LoggingOfAnonymousWrite.png)
   
 After enabling *Recommendations Displays* and *Recommendations Clicked* for anonymous users, you have to verify that these usage events are recorded. So, again ask some colleagues to click around on the Contoso website as anonymous users. Then start search analytics, and push the usage events to the Event store, as explained in [Run Microsoft PowerShell scripts to start search analytics and push usage events to the Event store](change-the-content-search-web-part-display-template-and-use-windows-powershell-t.md#BKMK_RunWindowsPowerShellToStartSearchAnalyticsAndPushUsageEventsToTheEventStore).
-    
+   
 Remember, in the Event store, each usage event type is recorded in a separate file. Each file name starts with the *EventTypeID*. Therefore, a file name that begins with *1* contains the *Views* usage events. A file name that begins with *2* contains the *Recommendations Displays* usage events. 
     
 In the Event store, you can verify that three usage event types are logged.

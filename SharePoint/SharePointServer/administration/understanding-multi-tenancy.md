@@ -1087,10 +1087,10 @@ This section describes the processes and approaches for provisioning tenants and
 <a name="begin"> </a>
 
 To create a tenant, follow the steps in the table. 
+
   
-|||
-|:-----|:-----|
 |**Tasks** <br/> |**Steps** <br/> |
+|:-----|:-----|
 |1. Create a site subscription.  <br/> |At the Microsoft PowerShell command prompt, type the following syntax:  <br/> ```$sub = New-SPSiteSubscription```|
 |2. Assign a feature pack to the site subscription and configure custom OU by using People Picker.  <br/> |At the Microsoft PowerShell command prompt, type the following syntax:  <br/> ```Set-SPSiteSubscriptionConfig -id $sub -FeaturePack $customerFeatures -UserAccountDirectoryPath "OU=$customerName,OU=Customers,DC=contoso,DC=com"```|
 |3. Create one or more site collections to be assigned to the site subscription.  <br/> |At the Microsoft PowerShell command prompt, type the following syntax:  <br/> ```Write-Host "Creating Member Site..." New-SPSite -url "http://$customerName.contoso.com" -SiteSubscription $sub -HostHeaderWebApplication $webApp -owneralias $customerTenantAdmin -owneremail $customerTenantAdminEmail -template sts#0 -ContentDatabase $contentDBName``````# create Tenant Admin site  Write-Host "Creating Tenant Admin site..." New-SPSite -url "http://$customerName.contoso.com/admin" -SiteSubscription $sub -HostHeaderWebApplication $webApp -owneralias $customerTenantAdmin -owneremail $customerTenantAdminEmail -template tenantadmin#0 -AdministrationSiteType TenantAdministration -ContentDatabase $contentDBName``````Write-Host "Creating My Site Host..."     New-SPSite -url "http://$customerName.contoso.com/mysites" -SiteSubscription $sub -HostHeaderWebApplication $webApp -owneralias $customerTenantAdmin -owneremail $customerTenantAdminEmail -template SPSMSITEHOST#0 -ContentDatabase $contentDBName```|

@@ -1,8 +1,8 @@
 ---
 title: Build Learning and Training Experiences for Employees
 ms.reviewer: 
-ms.author: dowallace
-author: dowallace
+ms.author: hokavian
+author: Holland-ODSP
 manager: pamgreen
 recommendations: true
 audience: Admin
