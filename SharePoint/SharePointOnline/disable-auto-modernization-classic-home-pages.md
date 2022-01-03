@@ -1,8 +1,8 @@
 ---
 title: Automatic modernization of classic home pages
 ms.reviewer: metorres
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin

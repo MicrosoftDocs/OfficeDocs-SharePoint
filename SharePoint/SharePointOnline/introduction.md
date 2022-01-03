@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- intro-overview
 ms.assetid: d5089cdf-3fd2-4230-acbd-20ecda2f9bb8
 description: "Learn about SharePoint in Microsoft 365, which is a cloud-based service that helps organizations share and manage content, and collaborate with others."
 ---

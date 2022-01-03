@@ -110,7 +110,7 @@ As mentioned above, when we configured the query in the CSWP on the catalog page
   
 In Advanced Mode, in the **Query text** field, you'll see some text. This is the query text that represents our result source *catalog - Products Results*. (We saw the same query text in Stage 9, when we looked at [How to view details of the query configuration](stage-9-configure-the-query-in-a-content-search-web-part-on-a-category-page.md#BKMK_HowToViewDetailsOfTheQueryConfiguration).)
     
-     ![Search Results From a Particular Site](../media/OTCSP_QueryTextResultSource.png)
+![Search Results From a Particular Site](../media/OTCSP_QueryTextResultSource.png)
   
 5. In the **Property filter** list, select **Show all managed properties**. 
     
@@ -128,7 +128,7 @@ In Advanced Mode, in the **Query text** field, you'll see some text. This is the
   
 Notice that **ProductCatalogGroupNumberOWSTEXT:{URLToken.1}** is added to the **Query text** field. So without having to know about query syntax or type a curly bracket, we have added a query variable. 
     
-    So now you might be thinking "OK, that was easy, but what does **ProductCatalogGroupNumberOWSTEXT:{URLToken.1}** actually mean?" Let's break it down: 
+So now you might be thinking "OK, that was easy, but what does **ProductCatalogGroupNumberOWSTEXT:{URLToken.1}** actually mean?" Let's break it down: 
     
   - **ProductCatalogGroupNumberOWSTEXT** is the managed property that represents the *Group Number* column in our catalog. 
     

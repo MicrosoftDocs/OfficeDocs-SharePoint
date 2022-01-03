@@ -76,7 +76,7 @@ Once you have registered the managed account, you must grant that account access
     
 2. At the Microsoft PowerShell command prompt, type the following, pressing Enter after each line:
     
-  ```
+  ```powershell
   $w = Get-SPWebApplication -identity <web application>
   $w.GrantAccessToProcessIdentity("<service account>")
   ```
