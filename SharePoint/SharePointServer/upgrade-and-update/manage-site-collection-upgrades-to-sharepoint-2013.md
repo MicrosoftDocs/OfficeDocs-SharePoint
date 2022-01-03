@@ -311,15 +311,15 @@ The following procedure contains steps to view and manage the site collection up
     
 3. To view all site collections in the queue for a content database, at the PowerShell command prompt, type the following command:
     
-  ```
-  Get-SPSiteUpgradeSessionInfo -ContentDatabase <DatabaseName> -ShowInProgress -ShowCompleted -ShowFailed |ft
-  ```
+    ```
+    Get-SPSiteUpgradeSessionInfo -ContentDatabase <DatabaseName> -ShowInProgress -ShowCompleted -ShowFailed |ft
+    ```
 
   Where:
     
    -  _\<DatabaseName\>_ is name of the database that you want to check. You can also use the GUID for the database instead of the name. 
     
-     For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps&preserve-view=true). 
+  For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps&preserve-view=true). 
     
 4. To see all sites that are currently being upgraded, at the PowerShell command prompt, type the following command:
     
@@ -335,9 +335,9 @@ The following procedure contains steps to view and manage the site collection up
     
 5. To see whether a particular site is in the queue, at the PowerShell command prompt, type the following command:
     
-  ```
-  Get-SPSiteUpgradeSessionInfo -Site <http://site>
-  ```
+    ```
+    Get-SPSiteUpgradeSessionInfo -Site <http://site>
+    ```
 
   Where:
     
@@ -347,9 +347,9 @@ The following procedure contains steps to view and manage the site collection up
     
 6. To add a site collection to the upgrade queue, at the PowerShell command prompt, type the following command:
     
-  ```
-  Upgrade-SPSite <http://site> -VersionUpgrade -QueueOnly
-  ```
+    ```
+    Upgrade-SPSite <http://site> -VersionUpgrade -QueueOnly
+    ```
 
   Where:
     
@@ -672,9 +672,9 @@ You can view upgrade status for all databases, for a single site collection, or 
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
-   Get-SPSiteUpgradeSessionInfo -Site <http://site>
-   ```
+    ```
+    Get-SPSiteUpgradeSessionInfo -Site <http://site>
+    ```
 
    Where:
     
