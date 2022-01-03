@@ -57,15 +57,15 @@ The following diagram shows how you should set up your site architecture if your
   
 ![Variations scenario 1 on a cross-site publishing site.](../media/XSP_Variations_Scenario1.gif)
   
-|**AUTHORING**|
-|:-----|
-|contoso.authoring  <br/> |
+|**AUTHORING**|Description|
+|:-----|:-----|
+|contoso.authoring  <br/> | |
 |A  <br/> |The term set that is used to tag items in the **Products** catalog. This term set is translated into three languages: English, Norwegian and German.  <br/> |
 |1  <br/> |Authoring site that contains the **Products** catalog. Variations is not used. In the **Products** catalog, the  *Language Tag*  site column categorizes the different languages:  *en-US*  for English content,  *nb-NO*  for Norwegian content and  *de-DE*  for German content.  <br/> |
    
-|**PUBLISHING**|
-|:-----|
-|contoso.com  <br/> |
+|**PUBLISHING**|Description|
+|:-----|:-----|
+|contoso.com  <br/> | |
 |2  <br/> |The English publishing site, which is connected to the **Products** catalog (1). In this site, Search Web Parts are configured to display catalog items where the value of the  *Language Tag*  site column is  *en-US*  .  <br/> |
 |B  <br/> |The term set that drives managed navigation for the English publishing site. This term set has pinned the terms from the term set (A) on the authoring site, and displays the English versions of the terms.  <br/> |
 |contoso.no  <br/> |
@@ -84,17 +84,17 @@ The following diagram shows how you should set up your site architecture so that
   
 ![Variations scenario 2 on a cross-site publishing site.](../media/XSP_Variations_Scenario2.gif)
   
-|**AUTHORING**|
-|:-----|
-|contoso.authoring  <br/> |
+|**AUTHORING**|Description|
+|:-----|:-----|
+|contoso.authoring  <br/> | |
 |A  <br/> |The term set that is used to tag catalog items. This term set is translated into three languages: English, Norwegian and German.  <br/> |
 |1  <br/> |The English source variation site (contoso.authoring/en-us). This site contains a catalog, which is propagated to the Norwegian and German target variation sites (2 and 3).  <br/> |
 |2  <br/> |The Norwegian target variation site (contoso.authoring/nb-no). This site contains a Norwegian version of the catalog.  <br/> |
 |3  <br/> |The German target variations site (contoso.authoring/de-de). This site contains a German version of the catalog.  <br/> |
    
-|**PUBLISHING**|
-|:-----|
-|contoso.com  <br/> |
+|**PUBLISHING**|Description|
+|:-----|:-----|
+|contoso.com  <br/> | |
 |4  <br/> |The English publishing site, which is connected to the catalog from on English source variation site (1).  <br/> |
 |B  <br/> |The term set that drives managed navigation for the English publishing site. This term set has pinned the terms from the term set (A) on the authoring site, and displays the English versions of the terms.  <br/> |
 |contoso.no  <br/> |
@@ -118,16 +118,16 @@ The following diagram shows how you should set up your site architecture so that
   
 ![Variations scenario 3 on a cross-site publishing site.](../media/XSP_Variations_Scenario3.gif)
   
-|**AUTHORING**|
-|:-----|
-|contoso.authoring  <br/> |
+|**AUTHORING**|Description|
+|:-----|:-----|
+|contoso.authoring  <br/> | |
 |A  <br/> |The term set that is used to tag catalog items. This term set is translated into three languages: English, Norwegian and German.  <br/> |
 |1  <br/> |The English source variation site (contoso.authoring/en-us). This site contains a catalog, which is propagated to the Norwegian and German target variation sites (2 and 3).  <br/> |
 |2  <br/> |The Norwegian target variation site (contoso.authoring/nb-no). This site contains a Norwegian version of the catalog.  <br/> |
 |3  <br/> |The German target variations site (contoso.authoring/de-de). This site contains a German version of the catalog.  <br/> |
    
-|**PUBLISHING**|
-|:-----|
+|**PUBLISHING**|Description|
+|:-----|:-----|
 |4  <br/> |The English publishing site and source variation site for non-catalog content (contoso.com/en-us). This site is connected to the catalog on the English source variation site (1).  <br/> |
 |B  <br/> |The English variations term set and term set that drives managed navigation on the English source variations site. This term set has pinned the terms from the term set (A) on the authoring site, and displays the English versions of the terms.  <br/> |
 |5  <br/> |The Norwegian publishing site and target variation site for non-catalog content (contoso.com/nb-no). This site is connected to the catalog on the Norwegian target variation site (2).  <br/> |

@@ -144,7 +144,7 @@ Some steps in the authorization process can be completed by a global or SharePoi
 
     ![Authorize O365](media/authorize-o365.png)
 
-3. **Global or SharePoint admin**: A window with an **Authorize** button appears. It prompts you to provide a display name <optional> for your **Office 365 Connector**.  Select **Authorize**.
+3. **Global or SharePoint admin**: A window with an **Authorize** button appears. It prompts you to provide a display name \<optional\> for your **Office 365 Connector**.  Select **Authorize**.
 
     ![Authorize windows](media/authorize-window.png)
 
