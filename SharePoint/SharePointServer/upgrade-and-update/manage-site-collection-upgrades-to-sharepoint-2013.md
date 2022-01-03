@@ -569,13 +569,13 @@ Site collection administrators can request a preview of their site collection. T
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+    ```
     Request-SPUpgradeEvaluationSiteCollection -identity URL to site
-  ```
+    ```
 
-  Where:
+    Where:
     
-  -  _URL to site_ is the URL to a site collection in 2010 mode. 
+    -  _URL to site_ is the URL to a site collection in 2010 mode. 
     
 For more information, see [Request-SPUpgradeEvaluationSite](/powershell/module/sharepoint-server/Request-SPUpgradeEvaluationSite?view=sharepoint-ps&preserve-view=true). 
   
