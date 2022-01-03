@@ -1,8 +1,8 @@
 ---
 title: "Restore a deleted OneDrive"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
