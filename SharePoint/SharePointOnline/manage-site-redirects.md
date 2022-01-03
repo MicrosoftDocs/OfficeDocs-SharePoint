@@ -1,8 +1,8 @@
 ---
 title: "Manage site redirects"
 ms.reviewer: adwood
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin

@@ -3,8 +3,8 @@ title: "Delete a site"
 ms.reviewer: 
 manager: serdars
 recommendations: true
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 audience: Admin
 f1.keywords:
 - NOCSH

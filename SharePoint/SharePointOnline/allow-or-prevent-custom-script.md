@@ -1,8 +1,8 @@
 ---
 title: "Allow or prevent custom script"
 ms.reviewer: lucaband
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 ms.date: 5/21/2018
