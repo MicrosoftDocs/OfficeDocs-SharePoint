@@ -1,8 +1,8 @@
 ---
 title: "Change a specific user's OneDrive storage space"
 ms.reviewer: waynewin
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:

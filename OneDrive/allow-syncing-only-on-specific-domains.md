@@ -1,8 +1,8 @@
 ---
 title: "Allow syncing only on computers joined to specific domains"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
