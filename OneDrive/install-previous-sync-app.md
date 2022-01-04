@@ -1,8 +1,8 @@
 ---
 title: "Install the previous OneDrive sync app"
 ms.reviewer: garezni
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
