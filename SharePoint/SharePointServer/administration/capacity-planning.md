@@ -53,7 +53,7 @@ Workload describes the demand that the system will need to sustain, the user bas
 |Average daily concurrent users  <br/> ||
 |Peak concurrent users at peak time  <br/> ||
 |Total number of requests per day  <br/> ||
-|Expected workload distribution  <br/> |No. of Requests per day  <br/> |
+|Expected workload distribution  <br/> |No. of Requests per day  <br/> |% <br/> |
 |Web Browser - Search Crawl  <br/> ||
 |Web Browser - General Collaboration Interaction  <br/> ||
 |Web Browser - Social Interaction  <br/> ||
