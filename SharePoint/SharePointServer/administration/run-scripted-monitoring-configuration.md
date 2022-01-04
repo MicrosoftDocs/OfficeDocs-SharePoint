@@ -55,7 +55,7 @@ You can use scripted monitoring configuration to back up the monitoring settings
   .\BackupMonitoringSettings.ps1 "<ProfileFolder>"
   ```
 
-    Where:
+  Where:
     
   -  _\<ProfileFolder\>_ is full path of the folder that you want to store the backup settings Profile in. The XML file name is in the form "BackupSetting_[DATE] @ [Time].xml". The script will create a new file every time that it is run. 
     
@@ -95,7 +95,7 @@ You can use scripted monitoring configuration to restore the monitoring settings
   .\AlterMonitoringSettings.ps1 "<ProfilePath>"
   ```
 
-    Where:
+  Where:
     
   -  _\<ProfilePath\>_ is full path of the backup Profile that you want to use to restore the monitoring settings for the farm. 
     
@@ -130,7 +130,7 @@ You can use scripted monitoring configuration to change the monitoring settings 
   .\AlterMonitoringSettings.ps1 "<ProfilePath>"
   ```
 
-    Where:
+  Where:
     
   -  _\<ProfilePath\>_ is full path of the specific Profile that you want to use to configure the monitoring settings for the farm. 
     

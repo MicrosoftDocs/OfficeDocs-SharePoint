@@ -197,7 +197,7 @@ The **ItemReport.csv** is a detailed report that provides data on each file with
 |Content type |The file type. |
 |Status |Status indicating at what stage the file is. |
 |Result category |General code associated with the item to indicate what happened with that item. |
-|Message |More detailed error or informational message generated. |```
+|Message |More detailed error or informational message generated. |
 |Source item ID |ID of the item at the source. |
 |Destination item ID |ID of the item at the destination. |
 |Package number |ID generated for the package number during the transition. |

@@ -155,8 +155,9 @@ The rest of this article discusses each of the logical components that appear in
 <a name="section3"> </a>
 
 This section describes the topologies of the server farms that are illustrated in the design sample and discusses scaling beyond a single farm.
-  
+
 ### Topology of the server farms
+
 
 Each server farm in the design sample is composed of six servers with the following fault-tolerant topology:
   
@@ -194,7 +195,7 @@ Table: Contrasting approaches for zone configurations in the design samples
 |User experience  <br/> |All users are prompted to choose the type of account they are using to log in.  <br/> |The authentication method is predetermined. Users are not required to select the account type by using a logon page.  <br/> |
    
 The following sections specifically discuss how authentication is incorporated by using the two different approaches.
-  
+
 ### Extranet with dedicated zones design sample
 
 The extranet design sample illustrates three different classes of users, and each is assigned to a different zone. Within each web application, you can create up to five zones by using one of the available zone names: Default, Intranet, Internet, Custom, or Extranet. The search crawl account requires access to the Default zone by using Integrated Windows authentication (NTLM or the Kerberos protocol), which is accounted for in the design sample. The following table shows how zones are set up in the extranet design sample.

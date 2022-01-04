@@ -125,10 +125,10 @@ To add or edit a query rule, you must go to the **Manage query rules** page. Dep
 |**Result Type Commonly Clicked** <br/> |Select this option if you want the query rule to fire if other users frequently clicked a particular result type after they typed the same query.  <br/> |In the **Commonly clicked results match result type** menu, select a result type.  <br/> |In an Internet business scenario, you have a catalog of electronic products. Each product has a PDF datasheet. So when users query for a specific product, the search results will return two result types: one that links to the page that has the product details, and one that links to the PDF datasheet. You can create a query rule that will fire if the system over time recognizes that users frequently click the search result for the PDF datasheet. When you know the type of content the user is looking for, you can specify an action for this query rule.  <br/> |
 |**Advanced Query Text Match** <br/> |Select this option if you want to use a regular expression, a phrase, or a dictionary entry that will cause the query rule to fire.  <br/> |To match all phone numbers that are in a certain format, you specify a regular expression in the **Query matches this regular expression** box.  <br/> |To match all phone numbers that are in the format nnn-nnn-nnnn, you specify the regular expression "\(?(\d{3})\)?-?(\d{3})-(\d{4})".  <br/> |
    
-    To add conditions, click **Add Alternate Conditions**. 
+  To add conditions, click **Add Alternate Conditions**. 
     
-    > [!NOTE]
-    > The rule will fire when any condition is true. 
+  > [!NOTE]
+  > The rule will fire when any condition is true. 
   
 8. In the **Actions** section, specify the action to take when the query rule fires. Specify one of the following: 
     
@@ -182,13 +182,13 @@ When you configure the query condition for a result block, you can use query var
     
   - On the **TEST** tab, you can preview the query that is sent. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |**Query text** <br/> |Shows the final query that will be run by the Content Search Web Part. It is based on the original query template where dynamic variables are substituted with current values. Other changes to the query may have to be made as part of query rules.  <br/> |
    
-    Click **Show more** to display additional information. 
+  Click **Show more** to display additional information. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |**Query template** <br/> |Shows the content of the query template that is applied to the query.  <br/> |
 |**Query template variables** <br/> |Shows the query variables that will be applied to the query, and the values of the variables that apply to the current page. You can type other values to test the effect they will have on the query. Click the **Test Query** button to preview the search results.  <br/> |
@@ -246,7 +246,7 @@ The ranking model calculates a ranking order of search results. You can change t
     
   - On the **BASIC** tab, select options from the following lists to change ranked search results: 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |**Select a query** <br/> |Select a result source to specify which content should be searched.  <br/> |
 |**Keyword filter** <br/> |You can use keyword filters to add query variables to your query. See [Query variables in SharePoint Server](../technical-reference/query-variables.md) for a list of available query variables.  <br/> You can select pre-defined query variables from the drop-down list, and then add them to the query by clicking **Add keyword filter**.  <br/> |
@@ -269,13 +269,13 @@ The ranking model calculates a ranking order of search results. You can change t
     
   - On the **TEST** tab, you can preview the query. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |**Query text** <br/> |Shows the final query that will be run by the Content Search Web Part. It is based on the original query template where dynamic variables are substituted with current values. Other changes to the query may have to be made as part of query rules.  <br/> |
    
-    Click **Show more** to display additional information. 
+  Click **Show more** to display additional information. 
     
-|||
+|Value|Description|
 |:-----|:-----|
 |**Query template** <br/> |Shows the content of the query template that is applied to the query.  <br/> |
 |**Query template variables** <br/> |Shows the query variables that will be applied to the query, and the values of the variables that apply to the current page. You can type other values to test the effect they will have on the query. Click the **Test Query** button to preview the search results.  <br/> |

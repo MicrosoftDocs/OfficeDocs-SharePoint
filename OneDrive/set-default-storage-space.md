@@ -1,8 +1,8 @@
 ---
 title: "Set the default storage space for OneDrive users"
 ms.reviewer: waynewin
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
