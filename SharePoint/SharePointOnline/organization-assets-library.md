@@ -1,8 +1,8 @@
 ---
 title: "Create an organization assets library"
 ms.reviewer: niwoon
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
