@@ -36,7 +36,7 @@ The following table shows all the file formats that SharePoint Server has built-
 > [!NOTE]
 >  SharePoint in Microsoft 365 supports the same file name extensions as in the table, except for .eml or .mht files. In addition, SharePoint in Microsoft 365 also supports the following: .one .xlt .xlc .xlb 
   
-|||||
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|
 |**File format** <br/> |**Format ID** <br/> |**File name extension** <br/> |**File name extension listed on the Manage File Types page by default** <br/> |
 |Email message  <br/> |eml  <br/> |.eml  <br/> |Yes  <br/> |  
