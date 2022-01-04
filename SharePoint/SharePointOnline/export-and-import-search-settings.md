@@ -60,7 +60,7 @@ The managed property names and aliases of a search schema must be unique for a s
     
 > [!NOTE]
 >  Any customized search settings that were created and enabled by SharePoint before the import failed, remain enabled. 
-  
+
 If the import fails, remove the condition that caused the failure and reimport the search configuration file. For example, if the Notes column states that there is already a query rule with the same name as the query rule that you are trying to import, then you should remove that query rule either from the target or from the import file, and then reimport the file. See [Invalid characters causing your import to fail](export-and-import-search-settings.md#__toc351540665) later in this article. 
   
 ## Export customized search configuration settings from a tenant
@@ -196,8 +196,16 @@ If managed properties or aliases contain any of the listed characters, the impor
 ## Known issue
 <a name="__toc351540666"> </a>
 
-When you import search configuration files into the tenant admin search settings page, you might encounter an issue that the **Search Config List** could not display properly and you might receive a "File not found" error.
+ **Unable to load Search Configuration List**
+
+When you import search configuration files into the tenant admin search settings page, you might encounter an issue that the **Search Configuration List** could not display properly and you might receive a "File not found" error.
 
 This issue only blocks the UI from displaying the list of search configuration files you imported and would not break the **Import** functionality. Your search configuration will be imported properly.
 
 Since you are unable to check the status of the search configuration file you imported from the UI, you could choose an alternative way to access the list, like [SharePoint CSOM API](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) or [SharePoint Online REST API](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-rest-endpoints).
+
+ **Unable to export stale search configuration xml file**
+
+If the search configuration file is exported long time ago, then the import might fail.
+
+If you are improting a stale exported search configuration file, please export a new search configuration firstly and then use it to import.
