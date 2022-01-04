@@ -1,7 +1,6 @@
 ---
 title: "Configure enterprise search in SharePoint Server"
 ms.reviewer: 
-manager: 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
