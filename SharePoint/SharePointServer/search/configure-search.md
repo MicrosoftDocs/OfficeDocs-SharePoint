@@ -4,6 +4,7 @@ ms.reviewer:
 manager: 
 ms.author: serdars
 author: SerdarSoysal
+manager: serdars
 ms.date: 3/9/2018
 audience: ITPro
 f1.keywords:
