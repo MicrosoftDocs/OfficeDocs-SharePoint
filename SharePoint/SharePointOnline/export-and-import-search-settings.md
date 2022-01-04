@@ -60,7 +60,7 @@ The managed property names and aliases of a search schema must be unique for a s
     
 > [!NOTE]
 >  Any customized search settings that were created and enabled by SharePoint before the import failed, remain enabled. 
-
+ 
 If the import fails, remove the condition that caused the failure and reimport the search configuration file. For example, if the Notes column states that there is already a query rule with the same name as the query rule that you are trying to import, then you should remove that query rule either from the target or from the import file, and then reimport the file. See [Invalid characters causing your import to fail](export-and-import-search-settings.md#__toc351540665) later in this article. 
   
 ## Export customized search configuration settings from a tenant
