@@ -32,13 +32,13 @@ description: Migration Manager error codes
 |MAUTHMOVERAPP|Mover Application in Users Admin Account/tenant needs to be authorized.|To authorize this connector, you need to grant permissions to the Mover application. Try again.|
 |MAUTHNOCODE|Connector authorization failed as auth code is not provided.|Try again.|
 |MAUTHNOEMAIL|Connector authorization failure. Failed to get email from claim.|Unexpected error. Try again.|
-|MAUTHNOIDTOKEN|Connector authorization failure. Failed to get id token from access token.|Unexpected error. Try again.|
+|MAUTHNOIDTOKEN|Connector authorization failure. Failed to get ID token from access token.|Unexpected error. Try again.|
 |MAUTHNOTENANT|Connector authorization failed; no tenant/enterprise ID found. Tenant = Enterprise. Tenant is the term in MS/Azure and Enterprise is used by Box and others.|Try again.|
 |MAUTHREFRESHTOKEN|Connector authorization failure. Failed to get refresh token.|Try again.|
 |MAUTHUSERNOTADMIN|Connector authorization failed; user does not have admin role.|Check permissions and try again.|
 |MBADREQUEST|Bad request when operating on source or destination item.|Unexpected error.  Try again.|
 |MCONNECTORNOTFOUND|Connector not found in database.|Check connector settings.  Try again.|
-|MCORRELATE|Collection correlate missing source listing.|Confirm source location, try again.|
+|MCORRELATE|Collection correlates missing source listing.|Confirm source location, try again.|
 |MDESTINATIONNOTWRITABLE|You do not have write access to the destination. |Check permissions and try again.|
 |MDUPLICATE|Duplicate. This file already exists in your destination location.|Confirm file is in destination already.|
 |MEMPTYMETADATA|Unable to find metadata. |Try again.|
