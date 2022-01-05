@@ -81,7 +81,7 @@ SharePoint Server supports both host-named and path-based site collections. The 
   
 **Table: Comparison of host-named site collections and path-based site collections**
 
-||**Host-named site collections**|**Path-based site collections**|
+|&nbsp;| Host-named site collections | Path-based site collections |
 |:-----|:-----|:-----|
 |Creating sites  <br/> | You can use Microsoft PowerShell to create host-named site collections. You cannot use Central Administration to create host-named site collections.  <br/> |You can use Central Administration or PowerShell to create path-based site collections.  <br/> |
 |URLs  <br/> |Each host-named site collection in a web application is assigned a unique DNS name.  <br/> You can use zones to assign up to five URLs to host-named sites, including vanity URLs.  <br/> |All path-based site collections in a web application share the same host name (DNS name) as the web application. You can extend a web application to implement up to five zones and create different host names for each zone. However, the host name for a zone applies to all site collections within the web application.  <br/> |
@@ -236,11 +236,11 @@ You can create a host-named site collection by using the Microsoft PowerShell Ne
   
 1. Verify that you have the following memberships:
     
-  - The **securityadmin** fixed server role on the SQL Server instance. 
+   - The **securityadmin** fixed server role on the SQL Server instance. 
     
-  - The **db_owner** fixed database role on all databases that are to be updated. 
+   - The **db_owner** fixed database role on all databases that are to be updated. 
     
-  - The Administrators group on the server on which you are running the Microsoft PowerShell cmdlet.
+   - The Administrators group on the server on which you are running the Microsoft PowerShell cmdlet.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
@@ -251,9 +251,9 @@ You can create a host-named site collection by using the Microsoft PowerShell Ne
     
 3. At the PowerShell command prompt (that is, PS C:\\>), type the following syntax:
     
-  ```
-  New-SPSite 'http://portal.contoso.com' -HostHeaderWebApplication (Get-SPWebApplication 'Contoso Sites') -Name 'Portal' -Description 'Customer root' -OwnerAlias 'contoso\administrator' -language 1033 -Template 'STS#0'
-  
+    ```
+    New-SPSite 'http://portal.contoso.com' -HostHeaderWebApplication (Get-SPWebApplication 'Contoso Sites') -Name 'Portal' -Description 'Customer root' -OwnerAlias 'contoso\administrator' -language 1033 -Template 'STS#0'
+    
   ```
 
 This creates a host-named site collection that has the URL, http://portal.contoso.com, in the SharePoint Server web application that has the URL, http://portal.contoso.com.
@@ -356,7 +356,7 @@ Reverse proxy servers can publish SharePoint Server host-named site collections 
   
 **Table: Front-End-Https header values**
 
-|**Value**|**Description**|
+| Value | Description |
 |:-----|:-----|
 |On  <br/> |The reverse proxy server received the end user's request over an encrypted (SSL or TLS) HTTPS connection. For example, **Front-End-Https: On**.  <br/> |
 |Off  <br/> |The reverse proxy server received the end user's request over an unencrypted HTTP connection.  <br/> |
