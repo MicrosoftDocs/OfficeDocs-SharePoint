@@ -105,7 +105,7 @@ To view information about the file formats that the content processing component
     
     ```
     $ssa = Get-SPEnterpriseSearchServiceApplication
-  Get-SPEnterpriseSearchFileFormat -SearchApplication $ssa
+    Get-SPEnterpriseSearchFileFormat -SearchApplication $ssa
   
     ```
 
@@ -133,7 +133,7 @@ To enable or disable parsing of a file format, you have to use Windows PowerShel
     
     ```
     $ssa = Get-SPEnterpriseSearchServiceApplication
-  Set-SPEnterpriseSearchFileFormatState -SearchApplication $ssa FormatID $TRUE
+    Set-SPEnterpriseSearchFileFormatState -SearchApplication $ssa FormatID $TRUE
     ```
 
     Where:
