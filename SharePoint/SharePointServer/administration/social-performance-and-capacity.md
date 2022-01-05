@@ -297,6 +297,7 @@ One physical database server runs the default SQL Server instance that has the S
 > If you enable usage reporting, we recommend that you store the logging database on a separate Logical Unit Number (LUN). Large deployments and some medium deployments might require a dedicated logging database server to accommodate the demand on the processor that a high volume of logging events generates. > In this lab environment, logging was constrained, and the logging database was stored in a separate instance of SQL Server. 
   
 **Database Server - Default Instance**
+
 |&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Processors** <br/> |2 Quad-core 3.3 GHz processors  <br/> |
