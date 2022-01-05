@@ -103,11 +103,11 @@ To view information about the file formats that the content processing component
     
 3. At the Microsoft PowerShell command prompt, type the following commands:
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication
+    ```
+    $ssa = Get-SPEnterpriseSearchServiceApplication
   Get-SPEnterpriseSearchFileFormat -SearchApplication $ssa
   
-  ```
+    ```
 
     The result is a list of all file formats that the content processing component in the Search service application referenced by  `$ssa` can parse. For each file format the list shows: 
     
@@ -131,10 +131,10 @@ To enable or disable parsing of a file format, you have to use Windows PowerShel
     
 3. At the Microsoft PowerShell command prompt, type the following commands:
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication
+    ```
+    $ssa = Get-SPEnterpriseSearchServiceApplication
   Set-SPEnterpriseSearchFileFormatState -SearchApplication $ssa FormatID $TRUE
-  ```
+    ```
 
     Where:
     
@@ -160,10 +160,10 @@ To enable or disable parsing of a file format, you have to use Windows PowerShel
     
 3. At the Microsoft PowerShell command prompt, type the following commands:
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication
-  Set-SPEnterpriseSearchFileFormatState -SearchApplication $ssa FormatID $FALSE
-  ```
+    ```
+    $ssa = Get-SPEnterpriseSearchServiceApplication
+    Set-SPEnterpriseSearchFileFormatState -SearchApplication $ssa FormatID $FALSE
+    ```
 
     Where:
     
@@ -188,11 +188,11 @@ To enable or disable parsing of a file format, you have to use Windows PowerShel
 2. Start a SharePoint Management Shell on the server that hosts the content processing component.
     
 3. At the Microsoft PowerShell command prompt, type the following commands:
-    
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication
-  New-SPEnterpriseSearchFileFormat -SearchApplication $ssa FileNameExtension FileFormat application/FileApplication
-  ```
+      
+    ```
+    $ssa = Get-SPEnterpriseSearchServiceApplication
+    New-SPEnterpriseSearchFileFormat -SearchApplication $ssa FileNameExtension FileFormat application/FileApplication
+    ```
 
     Where:
     
@@ -221,10 +221,10 @@ To enable or disable parsing of a file format, you have to use Windows PowerShel
     
 3. At the Microsoft PowerShell command prompt, type the following commands:
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication
-  Remove-SPEnterpriseSearchFileFormat -SearchApplication $ssa -Identity FileNameExtension
-  ```
+    ```
+    $ssa = Get-SPEnterpriseSearchServiceApplication
+    Remove-SPEnterpriseSearchFileFormat -SearchApplication $ssa -Identity FileNameExtension
+    ```
 
     Where:
     
