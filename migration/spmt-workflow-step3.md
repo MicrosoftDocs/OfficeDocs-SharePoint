@@ -1,5 +1,5 @@
 ---
-title: "Overview Migrating workflows with the SharePoint Migration Tool (SPMT)"
+title: "Step 3: Activate workflows after migration"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -16,7 +16,7 @@ ms.collection:
 - M365-collaboration
 ms.custom: 
 ms.assetid: 
-description: "Overview Migrate your SharePoint Server workflows to Microsoft 365 using the SharePoint Migration Tool (SPMT)"
+description: "The third step in migrating SharePoint Server workflows to Microsoft 365, activating the migrating flows."
 ---
 # Step 3 - Activate workflows 
 

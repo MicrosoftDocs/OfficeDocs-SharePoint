@@ -1,5 +1,5 @@
 ---
-title: "Overview Migrating workflows with the SharePoint Migration Tool (SPMT)"
+title: "Step 2: Migrate SharePoint Server workflows with SPMT"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -15,8 +15,7 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 ms.custom: 
-ms.assetid: 
-description: "Overview Migrate your SharePoint Server workflows to Microsoft 365 using the SharePoint Migration Tool (SPMT)"
+ms.assetid:  Overview Migrate your SharePoint Server workflows to Microsoft 365 using the SharePoint Migration Tool (SPMT)"
 ---
 # Step 2 Migrate workflows
 
