@@ -496,7 +496,6 @@ New-WebBinding -Name 'webapp' -IPAddress '192.168.10.20' -HostHeader ''
 Sleep 60
 # remove existing binding webapp.contoso.com from existing web application
 Get-WebBinding -Name 'webapp' -HostHeader 'webapp.contoso.com' | Remove-WebBinding
-
 ```
 
 ## See also
