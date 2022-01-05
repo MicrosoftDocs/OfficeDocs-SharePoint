@@ -1,8 +1,8 @@
 ---
 title: "Manage app licenses for a SharePoint environment"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
