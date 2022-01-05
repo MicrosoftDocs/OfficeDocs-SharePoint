@@ -1,5 +1,5 @@
 ---
-title: "Overview Migrating workflows with the SharePoint Migration Tool (SPMT)"
+title: "Migrate SharePoint workflows with the SharePoint Migration Tool (SPMT)"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -16,7 +16,7 @@ ms.collection:
 - M365-collaboration
 ms.custom: 
 ms.assetid: 
-description: "Overview Migrate your SharePoint Server workflows to Microsoft 365 using the SharePoint Migration Tool (SPMT)"
+description: "Overview of how to migrate your SharePoint Server workflows to Microsoft 365 using the SharePoint Migration Tool (SPMT)."
 ---
 # Overview: Migrate SharePoint Server workflows to Microsoft 365
 
@@ -34,9 +34,9 @@ Workflow migration is limited to:
 ## How does it work?
 |Step|What happens|
 |:-----|:-----|
-|[Step 1: Configure endpoints and Power Automate](spmt-workflow-step1)|Configure required endpoints.  If your tenant has never used Power Automate, configure it before you begin migration.|
-|[Step 2: Migrate workflows](spmt-workflow-step2)|Using SPMT, migrate your SharePoint Server workflows.|
-|[Step 3: Activate workflows](spmt-workflow-step2)|Sign in to Power Automate to activate the newly migrated workflows.|
+|[Step 1: Configure endpoints and Power Automate](spmt-workflow-step1.md)|Configure required endpoints.  If your tenant has never used Power Automate, configure it before you begin migration.|
+|[Step 2: Migrate workflows](spmt-workflow-step2.md)|Using SPMT, migrate your SharePoint Server workflows.|
+|[Step 3: Activate workflows](spmt-workflow-step2.md)|Sign in to Power Automate to activate the newly migrated workflows.|
 
 
 ## Get started

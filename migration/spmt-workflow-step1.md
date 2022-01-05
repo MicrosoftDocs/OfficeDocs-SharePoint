@@ -1,5 +1,5 @@
 ---
-title: "Overview Migrating workflows with the SharePoint Migration Tool (SPMT)"
+title: "Step 1: Configure endpoints and Power Automate for Sharepoint workflow migration"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -16,7 +16,7 @@ ms.collection:
 - M365-collaboration
 ms.custom: 
 ms.assetid: 
-description: "Overview Migrate your SharePoint Server workflows to Microsoft 365 using the SharePoint Migration Tool (SPMT)"
+description: "The first step in migrating SharePoint Server workflows to Microsoft 365."
 ---
 # Step 1 - Configure endpoints and Power Automate
 
