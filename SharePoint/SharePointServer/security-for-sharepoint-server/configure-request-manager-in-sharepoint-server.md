@@ -154,7 +154,7 @@ Every rule has one or more match criteria, which consist of three things: match 
 
 The following table describes the different types of match properties and match types:
 
-|**Match property**|**Match type**|&nbsp; |
+| Match property | Match type | &nbsp; |
 |:-----|:-----|:-----|
 |Hostname <br/>| ReqEx| <br/> ||
 |URL <br/>| Equals<br/> ||
@@ -205,7 +205,7 @@ Decisions might include useful information such as the following.
 
 An administrator can use this information to adjust the routing and throttling rule sets to optimize the system and correct problems. To help you monitor and evaluate your farm's performance, you can create a performance monitor log file and add the following SharePoint Foundation Request Manager Performance counters:
 
-|**Counter name**|**Description**|&nbsp; |
+| Counter name | Description | &nbsp; |
 |:-----|:-----|:-----|
 |Connections Current <br/>| The total number of connections that are currently open by Request Manager.| <br/> ||
 |Connections Reused / Sec <br/>| The number of connections per second that are reused when the same client connection makes another request without closing the connection.<br/> ||
