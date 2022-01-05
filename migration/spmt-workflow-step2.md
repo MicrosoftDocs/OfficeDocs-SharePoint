@@ -15,7 +15,8 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 ms.custom: 
-ms.assetid:  Overview Migrate your SharePoint Server workflows to Microsoft 365 using the SharePoint Migration Tool (SPMT)"
+ms.assetid:  
+description: Overview Migrate your SharePoint Server workflows to Microsoft 365 using the SharePoint Migration Tool (SPMT)"
 ---
 # Step 2 Migrate workflows
 
