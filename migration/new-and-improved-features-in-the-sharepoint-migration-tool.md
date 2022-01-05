@@ -41,8 +41,6 @@ Download and install SPMT using one of the links listed below.
 |Migtate SharePoint Server OOTB Workflows to Power Automate|This feature allows users to migrate SharePoint Server list out-of-the-box (OOTB) workflows, including approval and collect feedback, to Power Automate.|
 |Upgrade user authentication with MSAL|SPMT user authentication library has been upgraded from ADAL to MSAL. Users will continue using their Microsoft credentials to sign in SPMT.|
 
-
-
 **Improvements**
 
 |Issue|Fix|
