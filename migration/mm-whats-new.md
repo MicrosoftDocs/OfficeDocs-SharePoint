@@ -10,6 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 mscollection: 
 - SPMigration
 - M365-collaboration
