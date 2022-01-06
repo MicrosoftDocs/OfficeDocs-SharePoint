@@ -27,19 +27,19 @@ ms.custom:
 
 ## Overview
 
-In SharePoint it is possible to enable Audience Targeting on a list or library. After this feature is enabled users are able to target audiences on a given list item. Unfortunately during a migration from on-premises SharePoint to SharePoint in Microsoft 365, the list and list item audience data will not migrate. This report will contain all the list items in the environment that are targeting audiences.
+In SharePoint, it is possible to enable Audience Targeting on a list or library. After this feature is enabled users are able to target audiences on a given list item. Unfortunately during a migration from on-premises SharePoint to SharePoint in Microsoft 365, the list and list item audience data will not migrate. This report will contain all the list items in the environment that are targeting audiences.
 
   
 ## Data Migration
 
-The audience targeting data will not migrate.
+Audience targeting data will not migrate.
   
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output. 
   
 ## Preparing for Migration
 
-Leverage the report to understand the audiences that are being used to target list content to users. If this functionality is needed after migration to SharePoint, plan for the remediation of impacted content. This will involve creating new audiences in SharePoint environment and fixing the impacted list items post migration.
+Use the report to understand the audiences that are being used to target list content to users. If this functionality is needed after migration to SharePoint, plan for the remediation of impacted content. Remediation will involve creating new audiences in SharePoint environment and fixing the impacted list items post migration.
   
 ## Post Migration
 
@@ -53,7 +53,7 @@ This scan report provides a list of all the add-ins installed in the environment
 
   |**Column**|**Description**|
 |:-----|:-----|
-|SiteId |Unique identifier of the impacted site collection. |
+|SiteId |Unique identifier of the impacted site collection.|
 |SiteURL |URL to the impacted site collection. |
 |SiteOwner |Owner of the site collection. |
 |SiteAdmins |List of people listed as site collection administrators. |
