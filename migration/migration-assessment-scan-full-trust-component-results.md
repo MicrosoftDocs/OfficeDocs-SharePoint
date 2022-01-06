@@ -59,7 +59,7 @@ In the July 2017 update, the full trust components are split into two separate s
     
 - FullTrustSolution_Content scans for full trust code references in your content.
     
-The output for full trust solution scans are now focused on reporting areas of your environment that are leveraging functionality provided by farm level WSP files deployed to your farm. If there are orphaned full trust solution references in your content, this tool will not report that information. You could leverage the Test-SPContentDatabase PowerShell cmdlet that ships with SharePoint to look for those if they are of concern for your migration.
+The outputs for full trust solution scans are now focused on reporting areas of your environment that are leveraging functionality provided by farm level WSP files deployed to your farm. If there are orphaned full trust solution references in your content, this tool will not report that information. You could leverage the Test-SPContentDatabase PowerShell cmdlet that ships with SharePoint to look for those if they are of concern for your migration.
   
 /powershell/module/sharepoint-server/Test-SPContentDatabase?view=sharepoint-ps
   
