@@ -54,6 +54,11 @@
 ### Reference
 #### [FAQs](mm-faqs-dropbox.md)
 #### [Bulk upload Dropbox accounts using a CSV file](mm-dropbox-bulk-upload-source-paths-csv.md)
+## Migrate SharePoint Server workflows
+### [Overview](spmt-workflow-overview.md)
+### [Step 1: Configure endpoints and Power Automate](spmt-workflow-step1.md)
+### [Step 2: Migrate workflows](spmt-workflow-step2.md)
+### [Step 3: Activate workflows](spmt-workflow-step3.md)
 ## Migrate SharePoint Server sites and content
 ### [Overview](introducing-the-sharepoint-migration-tool.md)
 ### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
@@ -121,7 +126,7 @@
 #### [SharePoint Migration Identity Mapping Tool: SharePoint Identity Scan](sharepoint-migration-identity-mapping-tool-sharepoint-identity-scan.md)
 #### [SharePoint Migration Identity Mapping: Active Directory Identity Scan](sharepoint-migration-identity-mapping-active-directory-identity-scan.md)
 #### [SharePoint Migration Identity Mapping Tool: Azure Active Directory Identity Scan](sharepoint-migration-identity-mapping-tool-azure-active-directory-identity-scan.md)
-## Cloud to cloud migrations (Mover)
+## Other migrations (Legacy Mover tool)
 ###  Overview
 #### [Plan your migration](mover-plan-migration.md)
 #### [Manage connectors](mover-manage-connectors.md)

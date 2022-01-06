@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -52,7 +53,7 @@ Authorizing **Dropbox Business** as an administrator is straightforward. To auth
 
 ![authorize source connector](media/mover-auth-source-connector.png)</br>
 
-4. A new window (tab) opens. Name your Connector <optional>.</br>
+4. A new window (tab) opens. Name your Connector \<optional\>.</br>
 
 ![Name new dropbox connector](media/name-new-dropbox-connector.png)</br>
 

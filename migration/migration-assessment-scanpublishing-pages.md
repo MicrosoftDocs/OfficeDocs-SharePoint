@@ -11,6 +11,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection:
 - SPMigration
@@ -35,7 +36,7 @@ The files can migrate however the pages may not function correctly on the new pl
   
 ## Preparing for Migration
 
-Catalog the pages that leverage page layouts. Perform test migrations and plan for post migration remediation. You may find it's easier to start a new portal in SharePoint in Microsoft 365 and archive your on-premises portal once that site is up and running.
+Catalog the pages that use page layouts. Perform test migrations and plan for post migration remediation. You may find it's easier to start a new portal in SharePoint in Microsoft 365 and archive your on-premises portal once that site is up and running.
   
 ## Post Migration
 
@@ -58,7 +59,7 @@ The following table describes the columns in the **PublishingPages-detail.csv** 
 |ContentDBSizeInMB  <br/> |Size of the content database hosting the site collection.  <br/> |
 |LastContentModifiedDate  <br/> |Date/Time the site collection had content modified.  <br/> |
 |TotalItemCount  <br/> |Total number of items found in the site collection.  <br/> |
-|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
+|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. The usage logging service is disabled this row shows N/A.  <br/> |
 |DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
 |DaysOfUsageData  <br/> |Number of days the usage logging service retains data. This provides context for Hits and DistinctUsers. For example, if this is 14 days, the Hits and DistinctUsers data is for the last 14 days.  <br/> |
 |PublishingPageURL  <br/> |Url to the publishing page.  <br/> |

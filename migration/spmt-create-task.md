@@ -9,6 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: troubleshooting
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - IT_Sharepoint_Server_Top
@@ -25,12 +26,13 @@ When creating a migration task, you can choose to migrate your sites, just your 
 >[!Note]
 >The site structure feature shown in the "Site migration" steps, is currently in **public preview** and subject to change without notice.
 
-## Choose how you want to create your task
+## Migration types
 
 |How|Description|
 |:-----|:-----|
 |[Site migration](#site-migration)|Migrate a single site or include all your subsites. Optionally you can choose to modernize your site structure during migration.  **Note**. This site structure feature is currently feature is in public preview.)|
-|[List and document library migration ](#list-and-document-library-migration)|Enter the site and select the document library where your files are located.|
+|[List and document library migration](#list-and-document-library-migration)|Enter the site and select the document library where your files are located.|
+|[Workflow migration](#workflow-migration)|Migrate SharePoint Server workflows to Power Automate.|
 |[Bulk migration using a CSV or JSON file](#bulk-migration)|If you have a large number of sources you can enter them into a CSV or JSON file, and upload the file into SPMT.|
 
 ## Before you begin
@@ -82,8 +84,19 @@ When creating a migration task, you can choose to migrate your sites, just your 
 6. Select the document library where your files are located from the dropdown list.
 7. Enter the URL of the SharePoint site where you want your files migrated.   
 8. Select the document library to where your files will be copied.   
-9. Select **Next**. This task is added to the list. If you want to select another set of data files to migrate, select **Add a source**.
+9. Select **Next**. This task is added to the list. If you want to select another set of data files to migrate, select **Add another task**.
     
+
+## Workflow migration
+
+1. Start SPMT, and then enter your Microsoft 365 username and password.    
+2. Select **Start your first migration**.
+3. Select **Workflow migration**.
+4. Enter the URL of the SharePoint Server workflow you want to migrate and select which workflows to include in the migration. Select **Next**.
+5. Enter your destination; the SharePoint site and list where you want to migrate your content.  If the site or the list doesn't currently exist, they will be created for you. Select **Next**. 
+6. Review your migrations.  Select **Add another task** to select another set of files to migrate.
+
+
 
 ## Bulk migration
 

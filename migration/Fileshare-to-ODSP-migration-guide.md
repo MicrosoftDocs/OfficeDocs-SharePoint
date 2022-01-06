@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
@@ -24,14 +25,17 @@ ms.assetid:
 description: "Learn how to evaluate the environment, prepare, and migrate content from file shares to OneDrive and SharePoint in Microsoft 365."
 ---
 
-# File share to OneDrive and SharePoint migration guide
+# Guide to migrating file shares to OneDrive, Teams, and SharePoint
 
-This guide helps you prepare to migrate from file shares to OneDrive and SharePoint in Microsoft 365.
+This guide helps you prepare to migrate from file shares to OneDrive, Teams, and SharePoint in Microsoft 365.
 
 Most migrations fall into regular phases as follows. Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating, and onboarding your users.
 
 > [!NOTE]
-> The SharePoint Migration Tool is a Microsoft-developed migration tool available at no cost. To download: [SharePoint Migration Tool ](https://aka.ms/spmt-ga-page).
+> Migrating your file shares with Migration Manager lets you have a centralized way of connecting servers, creating tasks, and automatically load balancing your migration tasks. You are guided through the steps of migrating your file shares, from the setup of agents, the creation of tasks, and the migration to Microsoft 365. 
+>
+> **Get started:**  [Migrate file shares to Microsoft 365 with Migration Manager](/sharepointmigration/mm-get-started)
+
 
    ![Migration process](media/migrationprocess-fileshare.png)
 
@@ -134,7 +138,7 @@ Currently, there are a variety of migration offerings available to you. Which on
 
 |Customer Self service|FastTrack driven|Partner driven|
 |:-----|:-----|:-----|
-|No cost for Microsoft provided tool</br>[SharePoint Migration Tool ](https://aka.ms/spmt-ga-page)|No cost; included in your [Microsoft 365 subscription](/fasttrack/o365-data-migration)|Price dependent on complexity|
+|[Migration Manager](/sharepointmigration/mm-get-started)|Included in your [Microsoft 365 subscription](/fasttrack/o365-data-migration)|Price dependent on complexity|
 |Process flexible, you set the pace|Highly structured process and schedule|Customized to your need|
 |No need to configure complex infrastructure|Must set up infrastructure including external access rights, VPNs, test environment, admin environment, establish framework of contacts|Customized to your need|
 |Less time required involved in scheduling process and restrictions|Scheduling templates and questionnaires provided as part of the organization process|Customized to your need|
@@ -144,7 +148,7 @@ Currently, there are a variety of migration offerings available to you. Which on
 
 **Self service**
 
-The benefit for self-service migration is that you have full control over your process and timing, and you determine the pace of migration. We provide the [SharePoint Migration Tool](https://aka.ms/spmt-ga-page) free of charge, and you will be able to leverage your own IT resources rather than having to invest in outside expertise.
+The benefit for self-service migration is that you have full control over your process and timing, and you determine the pace of migration. Using [Migration Manager](/sharepointmigration/mm-get-started), you will be able to leverage your own IT resources rather than having to invest in outside expertise.
 
 **Microsoft FastTrack**
 
