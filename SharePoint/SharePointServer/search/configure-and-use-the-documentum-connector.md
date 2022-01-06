@@ -138,7 +138,7 @@ The following steps provide a high-level overview of the tasks that are involved
     <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
     maxBytesPerRead="4096" maxNameTableCharCount="16384" />
     <security mode="None">
-  <transport clientCredentialType="None" proxyCredentialType="None"
+    <transport clientCredentialType="None" proxyCredentialType="None"
   realm="" />
     <message clientCredentialType="UserName" algorithmSuite="Default" />
     </security>
