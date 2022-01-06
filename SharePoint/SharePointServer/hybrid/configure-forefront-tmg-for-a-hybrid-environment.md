@@ -37,8 +37,10 @@ Before you begin, there are a few things you need to know:
     
 - The TMG server has to be a domain member in the Active Directory domain forest that contains your Active Directory Federation Services (AD FS) 2.0 server. The TMG server has to be joined to this domain to use SSL client certificate authentication, which is used for authenticating inbound connections from SharePoint in Microsoft 365.
     
-    > [!SECURITY NOTE]
-    > As a general best practice for edge deployments, you normally install Forefront TMG in a separate forest (rather than in the internal forest of your corporate network), with a one-way trust to the corporate forest. However, you can configure client certificate authentication only for users in the domain to which the TMG server is joined, so this practice cannot be followed for hybrid environments. > For more info about TMG network topology considerations, see [Workgroup and domain considerations](/previous-versions/tn-archive/dd897048(v=technet.10)). 
+  > [!NOTE]
+  > As a general best practice for edge deployments, you normally install Forefront TMG in a separate forest (rather than in the internal forest of your corporate network), with a one-way trust to the corporate forest. However, you can configure client certificate authentication only for users in the domain to which the TMG server is joined, so this practice cannot be followed for hybrid environments.
+  >
+  > For more info about TMG network topology considerations, see [Workgroup and domain considerations](/previous-versions/tn-archive/dd897048(v=technet.10)).
   
 - Deploying TMG 2010 for use in a SharePoint Server hybrid environment in a back-to-back configuration is theoretically possible but has not been tested and may not work.
     
@@ -122,9 +124,9 @@ Use the following procedure to create the publishing rule and web listener.
     > [!NOTE]
     > Do not enter the protocol (http:// or https://). 
   
-|&nbsp;|&nbsp;|
-|:-----|:-----|
-|![Edit icon](../media/mod_icon_edit_m.png)| The Bridging URL is recorded in one the following locations in the SharePoint Hybrid worksheet:  <br/>  If your primary web application is configured with a  *host-named site collection*  , use the value in **Row 1** (Primary web application URL) of **Table 5a: Primary web application (host-named site collection)**.  <br/>  If your primary web application is configured with a  *path-based site collection*  , use the value in **Row 1** (Primary web application URL) of **Table 5b: Primary web application (path-based site collection without AAM)**.  <br/>  If your primary web application is configured with a  *path-based site collection with AAM*  , use the value in **Row 5** (Primary web application URL) of **Table 5c: Primary web application (path-based site collection with AAM)**.  <br/> |
+   |&nbsp;|&nbsp;|
+   |:-----|:-----|
+   |![Edit icon](../media/mod_icon_edit_m.png)| The Bridging URL is recorded in one the following locations in the SharePoint Hybrid worksheet:  <br/>  If your primary web application is configured with a  *host-named site collection*  , use the value in **Row 1** (Primary web application URL) of **Table 5a: Primary web application (host-named site collection)**.  <br/>  If your primary web application is configured with a  *path-based site collection*  , use the value in **Row 1** (Primary web application URL) of **Table 5b: Primary web application (path-based site collection without AAM)**.  <br/>  If your primary web application is configured with a  *path-based site collection with AAM*  , use the value in **Row 5** (Primary web application URL) of **Table 5c: Primary web application (path-based site collection with AAM)**.  <br/> |
    
 7. In the **Use a computer name or IP address to connect to the published server** box, optionally enter the IP address or the fully qualified domain name (FQDN) of the primary web application or network load balancer, and then select **Next**. 
     
@@ -136,9 +138,9 @@ Use the following procedure to create the publishing rule and web listener.
     > [!NOTE]
     > Do not enter the protocol (http:// or https://). 
   
-|&nbsp;|&nbsp;|
-|:-----|:-----|
-|![Edit icon](../media/mod_icon_edit_m.png)|The External URL is recorded in **Row 3** (External URL) of **Table 3: Public Domain Info** in the SharePoint Hybrid worksheet. |
+   |&nbsp;|&nbsp;|
+   |:-----|:-----|
+   |![Edit icon](../media/mod_icon_edit_m.png)|The External URL is recorded in **Row 3** (External URL) of **Table 3: Public Domain Info** in the SharePoint Hybrid worksheet. |
    
 9. In the **Select a Web Listener** dialog box, select **New**.
     

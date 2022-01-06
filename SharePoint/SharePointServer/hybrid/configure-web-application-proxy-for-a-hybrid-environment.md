@@ -76,7 +76,7 @@ For information about how to import an SSL certificate, see [Import a Certificat
   
 To configure a published application to accept and relay requests from your SharePoint in Microsoft 365 tenant, type the following Microsoft PowerShell command.
   
-```
+```powershell
 Add-WebApplicationProxyApplication -ExternalPreauthentication ClientCertificate -ExternalUrl <external URL> -BackendServerUrl <bridging URL> -name <friendly name of the published application> -ExternalCertificateThumbprint <certificate thumbprint> -ClientCertificatePreauthenticationThumbprint <certificate thumbprint> -DisableTranslateUrlInRequestHeaders:$False -DisableTranslateUrlInResponseHeaders:$False
 ```
 
@@ -108,7 +108,7 @@ For additional info about the **Add-WebApplicationProxyApplication** cmdlet, see
 
 To validate the published application, use the **Get-WebApplicationProxyApplication** cmdlet. Enter the following Microsoft PowerShell command:
   
-```
+```powershell
 Get-WebApplicationProxyApplication |fl
 ```
 
