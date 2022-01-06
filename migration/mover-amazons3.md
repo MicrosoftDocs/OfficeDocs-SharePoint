@@ -21,8 +21,8 @@ description: "Authorizing the Amazon S3 Connector"
 
 ## Authorizing Amazon S3
 
-Authorizing Amazon S3 is straightforward. To authorize or add a Amazon S3 account as a Connector, follow these simple steps:
-1.	 In the Transfer Wizard click Authorize New Connector.
+Authorizing Amazon S3 is straightforward. To authorize or add an Amazon S3 account as a Connector, follow these steps:
+1.	 In the Transfer Wizard, click Authorize New Connector.
 
 ![Auth New Connector](media/clear_auth.png)
 
@@ -40,7 +40,7 @@ Authorizing Amazon S3 is straightforward. To authorize or add a Amazon S3 accoun
 
 ## Troubleshooting an Amazon S3 Connector
 
-**Authorization:** If you're having trouble creating or adding a Amazon S3 connector, here are some things to try:
+**Authorization:** If you're having trouble creating or adding an Amazon S3 connector, here are some things to try:
 
 - Double check that you're entering in your Access Key ID and Secret Key correctly - these are both long alphanumeric strings prone to mistakes if entered manually. If copy and pasting, ensure that your computer is accurately performing that task.
 - Hover over your existing Amazon S3 integration in the Connector selection screen and select Reauthorize. This will take you through the Connector creation steps again in order to refresh the token/permissions that we have with your Amazon S3 account.
@@ -48,8 +48,8 @@ Authorizing Amazon S3 is straightforward. To authorize or add a Amazon S3 accoun
 
 **Transfer from Amazon S3 source:** If you're having trouble transferring from Amazon S3:
 
-- Select your finished transfer and click Start Migrating on the top right of the Migration Manager to rerun the the transfer.
-- View your most recent transfer log by selecting the transfer and clicking View Log from the User Actions dropdown menu and see if there are any particular error messages you could act on.
+- Select your finished transfer and click Start Migrating on the top right of the Migration Manager to rerun the transfer.
+- View your most recent transfer log by selecting the transfer and clicking View Log from the User Actions dropdown menu. Check if there are any error messages you can act on.
 
 
 **Using Amazon S3 via IAM:** With Amazon S3, by default we should have no trouble accessing your buckets. Here's how to connect to S3 via IAM:
