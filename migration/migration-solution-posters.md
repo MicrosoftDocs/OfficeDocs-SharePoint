@@ -9,6 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - m365solution-migratetom365
