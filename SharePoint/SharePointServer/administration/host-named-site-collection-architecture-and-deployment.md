@@ -29,7 +29,7 @@ Host-named site collections are the preferred method to deploy sites in SharePoi
 
 Host-named site collections enable you to assign a unique DNS name to site collections. For example, you can address them as http://TeamA.contoso.com and http://TeamB.contoso.com. This enables you to deploy many sites with unique DNS names in the same web application. It also enables hosters to scale an environment to many customers. If you do not use host-named site collections, your SharePoint web application will contain many path-based site collections that share the same host name (DNS name). For example, Team A has a site collection at http://contoso.com/sites/teamA, and Team B has a site collection at http://contoso.com/sites/teamB.
   
-We recommend host-named site collections unless requirements dictate that path-based sites with alternate access mapping are necessary (described later in this article). This article describes how to implement host-named site collections in a recommended configuration with SharePoint Server. Information about advanced configurations is included at the end of this article: [Use multiple web applications with host-named site collections](host-named-site-collection-architecture-and-deployment.md#section4).
+We recommend host-named site collections unless requirements dictate that path-based sites with alternate access mapping are necessary (described later in this article). This article describes how to implement host-named site collections in a recommended configuration with SharePoint Server. Information about advanced configurations is included at the end of this article: [Use multiple web applications with host-named site collections](host-named-site-collection-architecture-and-deployment.md).
   
 ### Recommended architecture for host-named site collections
 <a name="section1a"> </a>
@@ -81,7 +81,7 @@ SharePoint Server supports both host-named and path-based site collections. The 
   
 **Table: Comparison of host-named site collections and path-based site collections**
 
-||**Host-named site collections**|**Path-based site collections**|
+|&nbsp;| Host-named site collections | Path-based site collections |
 |:-----|:-----|:-----|
 |Creating sites  <br/> | You can use Microsoft PowerShell to create host-named site collections. You cannot use Central Administration to create host-named site collections.  <br/> |You can use Central Administration or PowerShell to create path-based site collections.  <br/> |
 |URLs  <br/> |Each host-named site collection in a web application is assigned a unique DNS name.  <br/> You can use zones to assign up to five URLs to host-named sites, including vanity URLs.  <br/> |All path-based site collections in a web application share the same host name (DNS name) as the web application. You can extend a web application to implement up to five zones and create different host names for each zone. However, the host name for a zone applies to all site collections within the web application.  <br/> |
@@ -134,7 +134,7 @@ The cmdlets that manage URLs only operate on the root site collection for a host
   
 #### Off-box termination of SSL with host-named site collections
 
-Off-box termination of SSL occurs when a proxy server terminates an SSL request and uses HTTP to forward the request to a web server. To achieve off-box SSL termination with host-named site collections, the device that terminates the SSL connection, such as a reverse proxy server, must be capable of generating a custom HTTP header: **Front-End-Https: On**. For more information, see [Use host-named site collections with off-box SSL termination](host-named-site-collection-architecture-and-deployment.md#section2g), later in this article.
+Off-box termination of SSL occurs when a proxy server terminates an SSL request and uses HTTP to forward the request to a web server. To achieve off-box SSL termination with host-named site collections, the device that terminates the SSL connection, such as a reverse proxy server, must be capable of generating a custom HTTP header: **Front-End-Https: On**. For more information, see [Use host-named site collections with off-box SSL termination](host-named-site-collection-architecture-and-deployment.md).
   
 The protocol used for a host-named site collection depends on the value of the Url parameter that you specified when you used the Set-SPSiteURL cmdlet to map the URL to a particular zone: http or https. Ensure that the IIS bindings for the web application, SSL certificates, reverse proxy configuration, and any other configuration necessary is complete.
   
@@ -153,7 +153,7 @@ Although we recommend host-named site collections for most architectures, you sh
     
 - You plan to use different application pools for the additional security that these provide or you need to use multiple proxy groups. 
     
-    In these cases, you can use host-named site collections. However, the additional configuration that is required to map URLs for host-named site collections across multiple web applications greatly outweigh the benefits of using host-named site collections. For more information, see [Use multiple web applications with host-named site collections](host-named-site-collection-architecture-and-deployment.md#section4). For more information about creating path-based site collections, see [Create a site collection in SharePoint Server](../sites/create-a-site-collection.md).
+    In these cases, you can use host-named site collections. However, the additional configuration that is required to map URLs for host-named site collections across multiple web applications greatly outweigh the benefits of using host-named site collections. For more information, see [Use multiple web applications with host-named site collections](host-named-site-collection-architecture-and-deployment.md). For more information about creating path-based site collections, see [Create a site collection in SharePoint Server](../sites/create-a-site-collection.md).
     
 ### Use host headers and host-named site collections
 <a name="section1e"> </a>
@@ -236,11 +236,11 @@ You can create a host-named site collection by using the Microsoft PowerShell Ne
   
 1. Verify that you have the following memberships:
     
-  - The **securityadmin** fixed server role on the SQL Server instance. 
+   - The **securityadmin** fixed server role on the SQL Server instance. 
     
-  - The **db_owner** fixed database role on all databases that are to be updated. 
+   - The **db_owner** fixed database role on all databases that are to be updated. 
     
-  - The Administrators group on the server on which you are running the Microsoft PowerShell cmdlet.
+   - The Administrators group on the server on which you are running the Microsoft PowerShell cmdlet.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
@@ -251,9 +251,9 @@ You can create a host-named site collection by using the Microsoft PowerShell Ne
     
 3. At the PowerShell command prompt (that is, PS C:\\>), type the following syntax:
     
-  ```
-  New-SPSite 'http://portal.contoso.com' -HostHeaderWebApplication (Get-SPWebApplication 'Contoso Sites') -Name 'Portal' -Description 'Customer root' -OwnerAlias 'contoso\administrator' -language 1033 -Template 'STS#0'
-  
+    ```
+    New-SPSite 'http://portal.contoso.com' -HostHeaderWebApplication (Get-SPWebApplication 'Contoso Sites') -Name 'Portal' -Description 'Customer root' -OwnerAlias 'contoso\administrator' -language 1033 -Template 'STS#0'
+    
   ```
 
 This creates a host-named site collection that has the URL, http://portal.contoso.com, in the SharePoint Server web application that has the URL, http://portal.contoso.com.
@@ -356,7 +356,7 @@ Reverse proxy servers can publish SharePoint Server host-named site collections 
   
 **Table: Front-End-Https header values**
 
-|**Value**|**Description**|
+| Value | Description |
 |:-----|:-----|
 |On  <br/> |The reverse proxy server received the end user's request over an encrypted (SSL or TLS) HTTPS connection. For example, **Front-End-Https: On**.  <br/> |
 |Off  <br/> |The reverse proxy server received the end user's request over an unencrypted HTTP connection.  <br/> |
