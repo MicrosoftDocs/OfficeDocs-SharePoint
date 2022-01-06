@@ -188,7 +188,7 @@ To enable or disable parsing of a file format, you have to use Windows PowerShel
 2. Start a SharePoint Management Shell on the server that hosts the content processing component.
     
 3. At the Microsoft PowerShell command prompt, type the following commands:
-    
+      
     ```
     $ssa = Get-SPEnterpriseSearchServiceApplication
     New-SPEnterpriseSearchFileFormat -SearchApplication $ssa FileNameExtension FileFormat application/FileApplication

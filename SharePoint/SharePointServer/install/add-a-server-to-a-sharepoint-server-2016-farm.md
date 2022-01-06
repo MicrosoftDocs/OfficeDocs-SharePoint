@@ -156,7 +156,7 @@ Verify that the user account that is performing this procedure is the Setup user
     
     ```
     psconfig.exe -cmd configdb -connect -server <SqlServerName> -database <ConfigDbName> -user <DOMAIN\FarmServiceAccount> -password <FarmServiceAccountPassword> -passphrase <FarmPassphrase> -admincontentdatabase <AdminContentDbName> -localserverrole <ServerRole> -cmd helpcollections -installall -cmd secureresources -cmd services -install -cmd installfeatures -cmd adminvs -provision -port <PortNumber> -windowsauthprovider onlyusentlm -cmd applicationcontent -install
-  ```
+    ```
 
 Where \<ServerRole\> can be any of the following values: WebFrontEnd, Application, DistributedCache, Search, or Custom.
     
@@ -257,9 +257,10 @@ Verify that you have the following memberships:
 
 10. At the PowerShell command prompt, type the following command to get a list of servers in the farm. 
     
-  ```
-  Get-SPServer
-  ```
+    ```
+    Get-SPServer
+  
+    ```
 
 > [!NOTE]
 > You can also verify a successful server addition or troubleshoot a failed addition by examining the log files. These files are located on the drive on which SharePoint Servers 2016 or 2019 is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS folder.  
