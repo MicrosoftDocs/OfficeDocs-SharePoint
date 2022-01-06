@@ -25,7 +25,7 @@ The [SharePoint Store](https://appsource.microsoft.com/marketplace/apps?product=
 ## Specify whether users can get apps from the SharePoint Store
 <a name="__top"> </a>
 
-By default, SharePoint is configured to allow users to get or request apps from the SharePoint Store. The option to change this setting will not be enabled if you have not yet created an App Catalog site. For information about how to create an App Catalog site, see [Use the App Catalog to make custom business apps available for your SharePoint environment](use-app-catalog.md).
+By default, SharePoint is configured to allow users to get or request apps from the SharePoint Store. The option to change this setting will not be enabled if you have not yet created an Apps site. For information about how to create an Apps site, see [Use the Apps site to make custom business apps available for your SharePoint environment](use-app-catalog.md).
   
 Even if you choose not to allow users to add apps from the SharePoint Store, they will still be able to browse the SharePoint Store and request apps.
   
