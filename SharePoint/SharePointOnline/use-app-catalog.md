@@ -1,8 +1,8 @@
 ---
 title: "Manage apps using the App Catalog - SharePoint"
 ms.reviewer: yihan1
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin

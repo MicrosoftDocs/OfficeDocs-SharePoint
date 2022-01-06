@@ -3,8 +3,8 @@ title: "Change the default list and library experience"
 ms.reviewer: jdemaris
 manager: serdars
 recommendations: true
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 audience: ITPro
 f1.keywords:
 - NOCSH
