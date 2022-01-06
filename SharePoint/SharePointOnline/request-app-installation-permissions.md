@@ -60,19 +60,7 @@ When they click **Request**, an automated email is sent to everyone who is a sit
     
     ![Screen shot showing the Approve or Reject App Request dialog](media/c5527b3f-6413-4591-9d91-5f89f2e253a3.png)
   
-The app catalog is where you store and manage all apps for the organization. There you can see a list of all pending app installation requests. 
-  
- **View all requests**
-  
-1. Browse to your app catalog. (In the SharePoint admin center, select **apps** in the left pane and then click the **App Catalog** link.) 
-    
-2. Click **Settings** ![Settings icon](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png)\> **Site settings** \> **Site Collection Administration** \> **Manage App Requests**.
-    
-3. In the left nav, select **App Requests**.
-    
-    ![Screen shot showing the App Request link](media/43dc9a1b-61da-4304-acd1-70e16e06907b.png)
-  
-4. Click the title of each pending request to review it. Once the request is approved or denied, it's removed from the view. If you change your mind about allowing an app or apps to be added to your sites, you can revoke approval on the request. To revoke approval for a request, choose the request and click **Remove Approvals**.
+The Manage apps page is where you store and manage all apps for the organization. There you can see a list of all pending app installation requests. See [Manage app requests](manage-app-requests.md) for more information.
 
 ## Make the application available
 
