@@ -90,8 +90,6 @@ When you upload a custom app to the App Catalog, it's available for users to ins
 
 1. On the Manage apps page, select **Upload**, and browse to the app you want upload, or drag the app into the library. SharePoint Framework solutions have the file name extension .sppkg. and SharePoint add-ins have the file name extension .app.
 
-    ![New button in the App catalog.](media/ef9d8d34-290c-4397-9422-836871c7de08.png)
-
 1. Review the info in the "Do you trust" dialog box. Depending on the functionality that the app provides, the developer can set a flag that allows you to add the app to all sites in the organization. To do this, select **Make this solution available to all sites in the organization**. 
 
     > [!NOTE]
@@ -101,8 +99,6 @@ When you upload a custom app to the App Catalog, it's available for users to ins
 
 1. To help site owners identify and use the app, right-click it, and then select **Properties**.
     
-    ![Apps for SharePoint apps catalog with app selected](media/2113dcee-8f47-4f96-afb7-6978d4cf22d6.PNG)
-  
 1. Review and edit the **Name** for the app and enter optional information like a description, images, category, publisher, and support URL. Follow the instructions on the screen for details like image size.
     
 1. Make sure the **Enabled** checkbox is selected so that users are able to add this app to sites.
