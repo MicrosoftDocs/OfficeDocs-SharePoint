@@ -19,7 +19,7 @@ description: "Learn how to manage app requests in SharePoint in Microsoft 365."
 
 # Manage app requests
 
-When users request an app, they are requesting that an admin get that app on their behalf. In an app request, users can request a specific number of licenses, and they can provide a business justification for why they need the app. App requests are saved to the App Requests list in the App Catalog site.
+When users request an app, they are requesting that an admin get that app on their behalf. In an app request, users can request a specific number of licenses, and they can provide a business justification for why they need the app. App requests are saved to the App Requests list in the Apps site.
 
 To manage app requests
 1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
