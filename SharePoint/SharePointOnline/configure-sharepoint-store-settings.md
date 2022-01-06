@@ -20,13 +20,8 @@ description: "Learn how to allow or prevent users from getting apps from the Sha
 
 # Configure settings for the SharePoint Store
 
-The [SharePoint Store](https://appsource.microsoft.com/marketplace/apps?product=sharepoint) is a public marketplace that offers apps for Microsoft 365, as well as Dynamics 365 and Power Platform. Site users can access the SharePoint Store directly from a SharePoint site to browse for and add third-party apps. If a SharePoint environment has been configured to prevent users from getting apps from the SharePoint Store, users can still browse for and request apps. These requests are added to the App Requests list in the App Catalog.
+The [SharePoint Store](https://appsource.microsoft.com/marketplace/apps?product=sharepoint) is a public marketplace that offers apps for Microsoft 365, as well as Dynamics 365 and Power Platform. Site users can access the SharePoint Store directly from a SharePoint site to browse for and add third-party apps. If a SharePoint environment has been configured to prevent users from getting apps from the SharePoint Store, users can still browse for and request apps. These requests are added to the App Requests list in the SharePoint admin center.
 
-Learn more
-  
-- [Add an app to a site](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43)
-- [Office Store and SharePoint Store Terms of Use](https://support.office.com/article/64c7f343-16b5-40bb-b39f-66c9d1c4d405)
-  
 ## Specify whether users can get apps from the SharePoint Store
 <a name="__top"> </a>
 
@@ -93,8 +88,6 @@ To decline an app
 1. Select **Decline request**.
 
 1. On the confirmation panel, select **Decline request**.
-    
-
 
 If you didn't add the app to all sites in the approval process, users need to add it to the site. See [Add an app to a site](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43).
     
@@ -108,12 +101,22 @@ Documents stored on sites may contain apps for Office from several sources. You 
 1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
    > [!NOTE]
-   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **More features** page.
+   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page.
+   > 
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
 
-2. Under **Apps**, select **Open**, and then select **Configure Store Settings**.
- 
-3. Next to **Apps for Office from the Store**, do one of the following:
+1. Under **Apps**, select **Open**, and then select **More features**.
+
+1. Select **Configure store settings**.
+
+1. Next to **Apps for Office from the Store**, do one of the following:
     
    - If you want to allow apps for Office to start when documents are opened in the browser, select **Yes**. 
     
    - If you do not want to allow apps for Office to start when documents are opened in the browser, select **No**.
+
+## Related topics
+
+[Add an app to a site](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43)
+
+[Office Store and SharePoint Store Terms of Use](https://support.office.com/article/64c7f343-16b5-40bb-b39f-66c9d1c4d405)
