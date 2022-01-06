@@ -1,5 +1,5 @@
 ---
-title: "Request app installation permissions"
+title: "Overview of apps in SharePoint in Microsoft 365"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
@@ -16,16 +16,16 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 5a25c5b0-bdfb-49f8-8ca3-046edc9cf598
-description: "Apps are small, easy-to-use web applications that add functionality to SharePoint sites. They offer unlimited possibilities for customizing your sites in ways that are specific to your organization. For example, you can add apps that perform general tasks such as time and expense tracking, or apps that make it easy for customers to contact you, or productivity apps that enable you to establish data connections and develop reports for your stakeholders."
+description: "Learn how app requests work in SharePoint in Microsoft 365."
 ---
 
-# Request app installation permissions
+# Overview of apps in SharePoint
 
 Apps are small, easy-to-use web applications that add functionality to SharePoint sites. They offer unlimited possibilities for customizing your sites in ways that are specific to your organization. For example, you can add apps that perform general tasks such as time and expense tracking, or apps that make it easy for customers to contact you, or productivity apps that enable you to establish data connections and develop reports for your stakeholders. 
   
 Some apps are included with SharePoint, others might be developed by your organization, and still others are created by third-party developers and available for purchase from the SharePoint Store. 
   
- Only those users who have the appropriate permission level can add apps to a site. Typically, Full Control permission (or membership in the Site Owners group) is the minimum requirement. But some apps require access to data sources or web services to read data required for the app. This kind of app has permissions associated with it. 
+Only those users who have the appropriate permission level can add apps to a site. Typically, Full Control permission (or membership in the Site Owners group) is the minimum requirement. But some apps require access to data sources or web services to read data required for the app. This kind of app has permissions associated with it. 
  
 When the app requires organization-level permissions, the requestor will need approval from a Microsoft 365 admin to continue with the installation. The approval process includes a workflow, called the permission request flow, which ensures installation requests are directed to the right person. 
   
@@ -75,14 +75,10 @@ As a global admin or SharePoint admin in your organization, you can delegate app
 > [!CAUTION]
 > When you promote users to site collection administrators on the app catalog site collection, you are giving them the ability to approve the installation of apps that have organization-wide impact. Consider this decision carefully. 
   
- **Add site collection admins to the app catalog**
-  
-1. Browse to your app catalog. (In the SharePoint admin center, select **apps** in the left pane and then click the **App Catalog** link.) 
-    
-2. Select **Settings** ![Settings icon](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png) \> **Site settings** \> **Users and Permissions** \> **Site collection administrators**.
-    
-3. Type the name of the group or individuals who you want to add as site collection administrators.
-    
-4. Select **OK**.
-    
+To add site collection admins to the app catalog
+1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+
+1. Select the Apps site, and then choose **Manage admins** from the **Permissions** dropdown menu.
+
+1. Type and select the name of the person who you want to manage apps, and then select **Save**.
 
