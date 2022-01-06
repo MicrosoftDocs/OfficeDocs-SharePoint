@@ -58,7 +58,7 @@ Even if you don't plan to make internal custom apps available, you won't be able
 
 When you add an app from the SharePoint Store to the App Catalog, you make it available for site owners to add from the My apps page. 
 
-1. In the App Catalog, select **SharePoint Store** in the left pane.
+1. On the Manage apps page, select **SharePoint Store** in the left pane.
 
 2. Search for an app or select a category on the left to scroll through available apps.
 
@@ -76,7 +76,6 @@ When you add an app from the SharePoint Store to the App Catalog, you make it av
 
 8. If the app requires additional permissions, a message will appear. Select **Go to API access page** to approve the permission request.
 
-
 ## Work with custom apps
 <a name="__add_custom_apps"> </a>
 
@@ -87,75 +86,43 @@ When you upload a custom app to the App Catalog, it's available for users to ins
     >[!NOTE]
     >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
-2. Under **Apps**, select **Open**.
+1. Under **Apps**, select **Open**.
 
-3. Select **App Catalog**. If you just created the App Catalog, it might take a few minutes to appear. 
-  
-4. On the home page of the App Catalog, select the tile labeled either **Distribute apps for SharePoint** or **Distribute apps for Office**, depending on which type of app you're uploading.
-
-5. Select **New**, and browse to the app you want upload, or drag the app into the library. SharePoint Framework solutions have the file name extension .sppkg. and SharePoint add-ins have the file name extension .app.
+1. On the Manage apps page, select **Upload**, and browse to the app you want upload, or drag the app into the library. SharePoint Framework solutions have the file name extension .sppkg. and SharePoint add-ins have the file name extension .app.
 
     ![New button in the App catalog.](media/ef9d8d34-290c-4397-9422-836871c7de08.png)
 
-6. Review the info in the "Do you trust" dialog box. Depending on the functionality that the app provides, the developer can set a flag that allows you to add the app to all sites in the organization. To do this, select **Make this solution available to all sites in the organization**. 
+1. Review the info in the "Do you trust" dialog box. Depending on the functionality that the app provides, the developer can set a flag that allows you to add the app to all sites in the organization. To do this, select **Make this solution available to all sites in the organization**. 
 
     > [!NOTE]
     > We recommend testing solutions before deploying them broadly. 
 
-7. Select **Deploy**.
+1. Select **Deploy**.
 
-8. To help site owners identify and use the app, right-click it, and then select **Properties**.
+1. To help site owners identify and use the app, right-click it, and then select **Properties**.
     
     ![Apps for SharePoint apps catalog with app selected](media/2113dcee-8f47-4f96-afb7-6978d4cf22d6.PNG)
   
-9. Review and edit the **Name** for the app and enter optional information like a description, images, category, publisher, and support URL. Follow the instructions on the screen for details like image size.
+1. Review and edit the **Name** for the app and enter optional information like a description, images, category, publisher, and support URL. Follow the instructions on the screen for details like image size.
     
-10. Make sure the **Enabled** checkbox is selected so that users are able to add this app to sites.
+1. Make sure the **Enabled** checkbox is selected so that users are able to add this app to sites.
     
-11. If it appears, in the **Hosting Licenses** box, specify the number of licenses you think you will need.
+1. If it appears, in the **Hosting Licenses** box, specify the number of licenses you think you will need.
     
-12. Select **Save**.
-    
-### Deploy SharePoint add-ins
-
-After you add a SharePoint add-in (.app file) to the App Catalog, follow these steps to deploy the add-in to specific sites, managed paths, or site templates. This installs the add-in so that site owners don't need to add it. 
-    
-1. In the App Catalog, go to **Settings**![Microsoft 365 Settings button](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png) and then select **Add an app**.
-    
-2. Select the app you want to add, and when prompted, select **Trust It**.
-    
-3. On the **Site Contents** page, find the app you want to deploy.
-    
-4. Next to the app, select **...** (ellipses icon), and to view the menu, select **...** (ellipses icon) again in the callout, and then select **Deployment**. (For some apps the **Deployment** command may appear on the first callout.)
-    
-    ![The Deployment command is available in the properties callout for an app in the App Catalog.](media/1bcafa7e-d96c-4080-a27f-8489173c5088.jpg)
-  
-5. On the **Manage App Deployments** page, enter the URL for each site collection to which you want to deploy the app, and to add it to the list, select **Add**.
-    
-6. In the **Managed Paths** section, to specify which managed paths should have this app available, select **Add**.
-    
-7. In the **Site Templates** section, to specify which site templates should have this app available, select **Add**.
-    
-8. Select **OK**.
-    
-9. If you're prompted to Trust the app, select **Trust It**.
-    
-    > [!NOTE]
-    >  It may take up to 30 minutes for an app to deploy. <br>If you deploy an app that adds commands to the item callout for document libraries or lists, then those commands are visible to users. However, if you deploy an app that features custom ribbon controls or an App Part, additional steps may be required to make the user interface commands for the app appear.
-  
+1. Select **Save**.
 
 ## Remove an app from the App Catalog
 <a name="__toc347303053"> </a>
 
-If you no longer want a specific app to be available for users to add, you can remove it from the App Catalog. Any instances of the app that have already been added to sites by users will remain, but the app will no longer be available for users to add to additional sites.
+If you no longer want a specific app to be available for users to add, you can remove it from on the Manage apps page. Any instances of the app that have already been added to sites by users will remain, but the app will no longer be available for users to add to additional sites.
   
-1. In the App Catalog, select the **Apps for SharePoint** list.
+1. On the Manage apps page, select the app that you want to delete.
     
-2. Right-click the app that you want to remove, and select **Delete**.
+1. Select **Delete**.
     
-3. Select **OK** to confirm that you want to send the app to the recycle bin.
-    
-## See also
+1. Select **Delete** to confirm that you want to send the app to the recycle bin.
+
+## Related topics
 <a name="__toc347303053"> </a>
 
 [Configure settings for the SharePoint Store](configure-sharepoint-store-settings.md)
