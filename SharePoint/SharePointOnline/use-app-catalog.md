@@ -1,5 +1,5 @@
 ---
-title: "Manage apps using the App Catalog - SharePoint"
+title: "Manage apps using the Apps site - SharePoint"
 ms.reviewer: yihan1
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -22,41 +22,19 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: 0b6ab336-8b83-423f-a06b-bcc52861cba0
-description: "Learn how to create and use the App Catalog to manage custom business apps and apps from the SharePoint Store."
+description: "Learn how to create and use the Apps site to manage custom business apps and apps from the SharePoint Store."
 ---
 
-# Manage apps using the App Catalog
+# Manage apps using the Apps site
 
-As a SharePoint or global admin in Microsoft 365, you can acquire solutions from the SharePoint Store or distribute custom apps that can be used across SharePoint, Microsoft Teams, and Viva Connections. The first step in acquiring solutions is to have an App Catalog you can use to store and distribute solutions. 
+As a SharePoint or global admin in Microsoft 365, you can acquire solutions from the SharePoint Store or distribute custom apps that can be used across SharePoint, Microsoft Teams, and Viva Connections.
   
 For information about your options for developing custom apps for SharePoint, see [Overview of the SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) and [SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
-  
-## Create the App Catalog 
-<a name="__toc347303048"> </a>
 
-The first step is to create the App Catalog if it hasn't already been created. You can have only one App Catalog for your organization, and you only need to create it once. (If your organization is set up for Microsoft 365 Multi-Geo, you will have an App Catalog for each geo location.)
-  
-Even if you don't plan to make internal custom apps available, you won't be able to do things like change settings for the SharePoint Store until you create the App Catalog. 
-  
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
-
-    >[!NOTE]
-    >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
- 
-2. Under **Apps**, select **Open**.
-
-3. Select **App Catalog**.
-
-    ![Apps page.](media/app-catalog.png)
-    
-4. If the **App Catalog** site doesn't open, select an option for creating it or specifying it, and then select **OK**.
-    
-    ![Apps page with Automatically create a new app catalog site selected.](media/automatically-create-app-catalog.png)
-  
 ## Work with SharePoint Store apps
 <a name="__toc347303050"> </a>
 
-When you add an app from the SharePoint Store to the App Catalog, you make it available for site owners to add from the My apps page. 
+When you add an app from the SharePoint Store to the Apps site, you make it available for site owners to add from the My apps page. 
 
 1. On the Manage apps page, select **SharePoint Store** in the left pane.
 
@@ -79,7 +57,7 @@ When you add an app from the SharePoint Store to the App Catalog, you make it av
 ## Work with custom apps
 <a name="__add_custom_apps"> </a>
 
-When you upload a custom app to the App Catalog, it's available for users to install when they browse apps under **From Your Organization**. 
+When you upload a custom app to the Apps site, it's available for users to install when they browse apps under **From Your Organization**. 
 
 1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
@@ -107,7 +85,7 @@ When you upload a custom app to the App Catalog, it's available for users to ins
     
 1. Select **Save**.
 
-## Remove an app from the App Catalog
+## Remove an app from the Apps site
 <a name="__toc347303053"> </a>
 
 If you no longer want a specific app to be available for users to add, you can remove it from on the Manage apps page. Any instances of the app that have already been added to sites by users will remain, but the app will no longer be available for users to add to additional sites.
