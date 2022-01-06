@@ -41,9 +41,11 @@ Even if you choose not to allow users to add apps from the SharePoint Store, the
    > 
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
 
-2. Under **Apps**, select **Open**, and then select **Configure Store Settings**.
+1. Under **Apps**, select **Open**, and then select **More features**.
+
+1. Select **Configure store settings**.
     
-3. Next to **App Purchases**, do one of the following:
+1. Next to **App Purchases**, do one of the following:
     
    - If you want users to be able to add apps, select **Yes**. (The setting uses the word "purchases" and mentions paid apps, but all apps in the SharePoint Store are now free.)
     
@@ -53,7 +55,8 @@ Even if you choose not to allow users to add apps from the SharePoint Store, the
 <a name="__top"> </a>
 
 When users request an app, they are requesting that an admin get that app on their behalf. In an app request, users can request a specific number of licenses, and they can provide a business justification for why they need the app. App requests are saved to the App Requests list in the App Catalog site.
-  
+
+To manage app requests
 1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
    > [!NOTE]
@@ -61,21 +64,39 @@ When users request an app, they are requesting that an admin get that app on the
    > 
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
 
-2. Under **Apps**, select **Open**, and then select **Configure Store Settings**.
+1. Under **Apps**, select **Open**, and then select **More features**.
+
+1. Select **Configure store settings**.
+
+1. Expand **App Requests**, and then select **Pending**.
+
+To approve an app    
+1. In the **App Requests** list, select a request.
     
-3. Next to **App Requests**, select the link **Select here to view app requests**.
+1. On the app request form, add any comments in the **Comments** field.
     
-4. In the **App Requests** list, select a request, and then select **Edit**.
+1. Select **Approve and add this app**.
+
+1. If the app allows allows you to automatically add it to all sites, choose if you want to add it to all sites.
+
+1. Confirm the data access required by the app by selecting **Confirm**.
+
+1. If the app requires additional permissions, go to the API access page to approve those permissions.
+
+1. Close the panel.
+
+To decline an app    
+1. In the **App Requests** list, select a request.
     
-5. In the **Status** list, do one of the following: 
+1. On the app request form, add any comments in the **Comments** field.
     
-   - To approve the request, select **Approved**. If you approve the app request and want to add the app immediately, select the link next to **View App Details**. The app details page in the SharePoint Store will open in another tab in your browser, and you can follow the steps to add the app. 
+1. Select **Decline request**.
+
+1. On the confirmation panel, select **Decline request**.
     
-   - To decline the request, select **Declined**.
-    
-6. On the app request form, add any comments in the **Approvers Comments** field, and then select **Save**.
-    
-7. After the status has been changed to **Approved**, if you didn't add the app in the approval process, users need to add it to the site. See [Add an app to a site](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43).
+
+
+If you didn't add the app to all sites in the approval process, users need to add it to the site. See [Add an app to a site](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43).
     
 Site users who request apps can view their requests by going to **Settings** \> **Add an app** \> **Your Requests**.
   
