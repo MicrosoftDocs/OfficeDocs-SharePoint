@@ -445,11 +445,13 @@ Finally, grant the OSearch15 account read access to the user mapping table.
     
 2. At the Microsoft PowerShell command prompt, type the following command(s):
     
-  ```
-  Set-SPEnterpriseSearchDCTMConnectorConfig -Shared -ACLTranslation UserMappingTable -DisplayURLPatternForContainer "http://<MyWebTopServer:PortOfMyWebTopServer>/webtop/component/drl?objectId={ObjectId}&amp;RepositoryName={RepositoryName}" -DisplayURLPatternForDocument "http://<MyWebTopServer:PortOfMyWebTopServer>/webtop/component/drl?objectId={ObjectId}&amp;format={Format}&amp;RepositoryName={RepositoryName}" -UnmappedAccount "DiscardACE" -UserMappingTableSQLServer "<YourDatabaseServerName>" -UserMappingTableSQLInstance "<YourDatabaseInstanceName>" -UserMappingTableDBName "<YourMappingDatabaseName>" -UserMappingTableName "<YourMappingTableName>"
-  Set-SPEnterpriseSearchDCTMConnectorConfig -Repository -RepositoryName "<MyRepository1>" -DFSWebServiceURL @("http://<DFSWebServices>:<30000>/services", "http://<DFSWebServices2>:<30000>/services")
-  Set-SPEnterpriseSearchDCTMConnectorConfig -Repository -RepositoryName "<MyRepository2>" -DFSWebServiceURL @("http://<DFSWebServices>:<30000>/services")
-  ```
+    ```
+    Set-SPEnterpriseSearchDCTMConnectorConfig -Shared -ACLTranslation UserMappingTable -DisplayURLPatternForContainer "http://<MyWebTopServer:PortOfMyWebTopServer>/webtop/component/drl?objectId={ObjectId}&amp;RepositoryName={RepositoryName}" -DisplayURLPatternForDocument "http://<MyWebTopServer:PortOfMyWebTopServer>/webtop/component/drl?objectId={ObjectId}&amp;format={Format}&amp;RepositoryName={RepositoryName}" -UnmappedAccount "DiscardACE" -UserMappingTableSQLServer "<YourDatabaseServerName>" -UserMappingTableSQLInstance "<YourDatabaseInstanceName>" -UserMappingTableDBName "<YourMappingDatabaseName>" -UserMappingTableName "<YourMappingTableName>"
+    Set-SPEnterpriseSearchDCTMConnectorConfig -Repository -RepositoryName "<MyRepository1>" -DFSWebServiceURL @("http://<DFSWebServices>:<30000>/services", "http://<DFSWebServices2>:<30000>/services")
+    Set-SPEnterpriseSearchDCTMConnectorConfig -Repository -RepositoryName "<MyRepository2>" -DFSWebServiceURL @("http://<DFSWebServices>:<30000>/services")
+  
+    ```
+  
 
     Where:
     
