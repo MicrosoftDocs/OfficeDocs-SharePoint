@@ -34,7 +34,7 @@ The Indexing Connector for Documentum:
     
 - Supports Documentum security definitions and policies.
     
-- Supports Microsoft PowerShell for automated configuration and administration. See [Using the SPEnterpriseSearchDCTMConnectorConfig cmdlet](configure-and-use-the-documentum-connector.md#DCTM_cmdlet).
+- Supports Microsoft PowerShell for automated configuration and administration. See [Using the SPEnterpriseSearchDCTMConnectorConfig cmdlet](configure-and-use-the-documentum-connector.md).
     
 - Has a configurable search results URL to support multiple Documentum client applications.
     
@@ -79,7 +79,7 @@ The following steps provide a high-level overview of the tasks that are involved
     
 4. [Prepare the SharePoint servers that host a crawl component](configure-and-use-the-documentum-connector.md#DCTM_PrepareCrawlServer). On each server:
     
-  - [Set the DFS Productivity Layer .NET assemblies](configure-and-use-the-documentum-connector.md#DCTM_Assemblies).
+  - [Set the DFS Productivity Layer .NET assemblies](configure-and-use-the-documentum-connector.md).
     
   - [Edit the machine.config file](configure-and-use-the-documentum-connector.md#DCTM_machineconfig) to set the Documentum bindings. 
     
@@ -96,15 +96,15 @@ The following steps provide a high-level overview of the tasks that are involved
 |                                                         **Configuration**                                                         | **ACL Translation** |                                                                                                                                                     **Description**                                                                                                                                                     |                                                                     **See this section**                                                                      |
 | :-------------------------------------------------------------------------------------------------------------------------------- | :------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Support crawling EMC Documentum Trusted Content Services (TCS) content or regular Documentum content with automatic user mapping. | Claims              | You enable automatic user mapping by configuring a separate Security Trimmer Sync Service and pre- and post-trimmers.                                                                                                                                                                                                   | [Configure the Indexing Connector for Documentum to support TCS and automatic user mapping](configure-and-use-the-documentum-connector.md#DCTM_Configure_TCS) |
-| Support crawling Documentum content and use a manually created user mapping table.                                                | UserMappingTable    | You manually create a user mapping table in SQL Server to specify how the Documentum users are mapped to Active Directory Domain Services (AD DS) or Active Directory service users. You configure the connector by specifying in which database you have created the user mapping table by using Microsoft PowerShell. | [Configure the Indexing Connector for Documentum using a user mapping table](configure-and-use-the-documentum-connector.md#DCTM_UserMapping)                  |
-| Support crawling Documentum content when Documentum and Windows user accounts are the same.                                       | SameAccountName     | The Indexing Connector for Documentum assumes that Documentum and SharePoint users share the same account, such as a shared account in Active Directory. Once an account is found that is not valid, the Indexing Connector for Documentum discards the account permission.                                             | [Using the SPEnterpriseSearchDCTMConnectorConfig cmdlet](configure-and-use-the-documentum-connector.md#DCTM_cmdlet)                                           |
-| Support crawling Documentum content without security trimming the search results.                                                 | NoSecurity          | All users will be able to see all Documentum search results. This can be useful if you have a public Documentum repository that everyone can access, for example.                                                                                                                                                       | [Using the SPEnterpriseSearchDCTMConnectorConfig cmdlet](configure-and-use-the-documentum-connector.md#DCTM_cmdlet)                                           |
+| Support crawling Documentum content and use a manually created user mapping table.                                                | UserMappingTable    | You manually create a user mapping table in SQL Server to specify how the Documentum users are mapped to Active Directory Domain Services (AD DS) or Active Directory service users. You configure the connector by specifying in which database you have created the user mapping table by using Microsoft PowerShell. | [Configure the Indexing Connector for Documentum using a user mapping table](configure-and-use-the-documentum-connector.md)                  |
+| Support crawling Documentum content when Documentum and Windows user accounts are the same.                                       | SameAccountName     | The Indexing Connector for Documentum assumes that Documentum and SharePoint users share the same account, such as a shared account in Active Directory. Once an account is found that is not valid, the Indexing Connector for Documentum discards the account permission.                                             | [Using the SPEnterpriseSearchDCTMConnectorConfig cmdlet](configure-and-use-the-documentum-connector.md)                                           |
+| Support crawling Documentum content without security trimming the search results.                                                 | NoSecurity          | All users will be able to see all Documentum search results. This can be useful if you have a public Documentum repository that everyone can access, for example.                                                                                                                                                       | [Using the SPEnterpriseSearchDCTMConnectorConfig cmdlet](configure-and-use-the-documentum-connector.md)                                           |
    
 ### 4. Configure a Documentum crawl rule and content source in the Search service application by using Central Administration
 
-1. [Create a crawl rule for Documentum](configure-and-use-the-documentum-connector.md#DCTM_Crawl_rule).
+1. [Create a crawl rule for Documentum](configure-and-use-the-documentum-connector.md).
     
-2. [Create a Documentum content source](configure-and-use-the-documentum-connector.md#DCTM_Content_source)
+2. [Create a Documentum content source](configure-and-use-the-documentum-connector.md)
     
 3. Perform a full crawl. 
     
@@ -490,6 +490,7 @@ You must create a crawled properties category that will contain the Documentum c
 ```
 $ssa = Get-SPEnterpriseSearchServiceApplication
 New-SPEnterpriseSearchMetadataCategory -Name "Documentum Connector" -SearchApplication $ssa -PropSet "34972762-7E3F-4f4f-AE5C-5ABBA92EC530" -DiscoverNewProperties $true
+
 ```
 
 ## Create a crawl rule for Documentum
