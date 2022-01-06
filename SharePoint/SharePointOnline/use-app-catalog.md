@@ -66,16 +66,18 @@ When you upload a custom app to the Apps site, it's available for users to insta
  
 1. Under **Apps**, select **Open**.
 
-1. On the Manage apps page, select **Upload**, and browse to the app you want upload, or drag the app into the library. SharePoint Framework solutions have the file name extension .sppkg. and SharePoint add-ins have the file name extension .app.
+1. On the Manage apps page, select **Upload**, and browse to the app you want upload, or drag the app into the library. SharePoint Framework solutions have the file name extension .sppkg.
 
-1. Review the info in the "Do you trust" dialog box. Depending on the functionality that the app provides, the developer can set a flag that allows you to add the app to all sites in the organization. To do this, select **Make this solution available to all sites in the organization**. 
+1. Review the info in the **Enable app** panel. Depending on the functionality that the app provides, the developer can set a flag that allows you to add the app to all sites in the organization. To do this, select **Enable this app and add it to all sites**. 
 
     > [!NOTE]
     > We recommend testing solutions before deploying them broadly. 
 
-1. Select **Deploy**.
+1. Select **Enable app**.
 
-1. To help site owners identify and use the app, right-click it, and then select **Properties**.
+1. Select **Close**.
+
+1. To help site owners identify and use the app, select the app, and then select **Properties**.
     
 1. Review and edit the **Name** for the app and enter optional information like a description, images, category, publisher, and support URL. Follow the instructions on the screen for details like image size.
     
@@ -83,7 +85,7 @@ When you upload a custom app to the Apps site, it's available for users to insta
     
 1. If it appears, in the **Hosting Licenses** box, specify the number of licenses you think you will need.
     
-1. Select **Save**.
+1. Close the panel.
 
 ## Remove an app from the Apps site
 <a name="__toc347303053"> </a>
