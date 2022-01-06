@@ -103,19 +103,19 @@ To view information about the file formats that the content processing component
     
 3. At the Microsoft PowerShell command prompt, type the following commands:
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication
-  Get-SPEnterpriseSearchFileFormat -SearchApplication $ssa
+    ```
+    $ssa = Get-SPEnterpriseSearchServiceApplication
+    Get-SPEnterpriseSearchFileFormat -SearchApplication $ssa
   
-  ```
+    ```
 
     The result is a list of all file formats that the content processing component in the Search service application referenced by  `$ssa` can parse. For each file format the list shows: 
     
-  - The file name extension and mime type
+   - The file name extension and mime type
     
-  - The type of format handler that the content processing component uses to parse the format. The entry "BuiltIn:True" indicates a built-in format handler. The entry "BuiltIn:False" indicates a third-party filter-based format handler.
+   - The type of format handler that the content processing component uses to parse the format. The entry "BuiltIn:True" indicates a built-in format handler. The entry "BuiltIn:False" indicates a third-party filter-based format handler.
     
-  - The parsing state of the format. The entry "Enabled:True" indicates that parsing is enabled. The entry "Enabled:False" indicates that parsing is disabled.
+   - The parsing state of the format. The entry "Enabled:True" indicates that parsing is enabled. The entry "Enabled:False" indicates that parsing is disabled.
     
 ## Enable or disable parsing of a file format
 <a name="EnbleParsing"> </a>
@@ -131,16 +131,16 @@ To enable or disable parsing of a file format, you have to use Windows PowerShel
     
 3. At the Microsoft PowerShell command prompt, type the following commands:
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication
-  Set-SPEnterpriseSearchFileFormatState -SearchApplication $ssa FormatID $TRUE
-  ```
+    ```
+    $ssa = Get-SPEnterpriseSearchServiceApplication
+    Set-SPEnterpriseSearchFileFormatState -SearchApplication $ssa FormatID $TRUE
+    ```
 
     Where:
     
-    FormatID is the identity of the file format.
+    - FormatID is the identity of the file format.
     
-    $TRUE enables the format handler to parse the file type.
+    - $TRUE enables the format handler to parse the file type.
     
 4. Restart the SharePoint Search Host Controller service to apply the changes:
     
@@ -160,24 +160,24 @@ To enable or disable parsing of a file format, you have to use Windows PowerShel
     
 3. At the Microsoft PowerShell command prompt, type the following commands:
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication
-  Set-SPEnterpriseSearchFileFormatState -SearchApplication $ssa FormatID $FALSE
-  ```
+    ```
+    $ssa = Get-SPEnterpriseSearchServiceApplication
+    Set-SPEnterpriseSearchFileFormatState -SearchApplication $ssa FormatID $FALSE
+    ```
 
     Where:
     
-    FormatID is the identity of the file format.
+    - FormatID is the identity of the file format.
     
-    $FALSE disables the format handler from parsing the file type.
+    - $FALSE disables the format handler from parsing the file type.
     
 4. Restart the SharePoint Search Host Controller service to apply the changes:
     
-  - Open a command prompt window on the server that hosts the content processing component. On the **Start** menu, click **All Programs**, click **Accessories**, right-click **Command Prompt** and then click **Run as administrator**.
+   - Open a command prompt window on the server that hosts the content processing component. On the **Start** menu, click **All Programs**, click **Accessories**, right-click **Command Prompt** and then click **Run as administrator**.
     
-  - To stop the SharePoint Search Host Controller, type this command: **net stop spsearchhostcontroller**
+   - To stop the SharePoint Search Host Controller, type this command: **net stop spsearchhostcontroller**
     
-  - To restart the SharePoint Search Host Controller, type this command: **net start spsearchhostcontroller**
+   - To restart the SharePoint Search Host Controller, type this command: **net start spsearchhostcontroller**
     
 5. **Verification:** show the list of file name extensions and file formats that the content processing component can parse and make sure that the file name extension is not there. See [View information about file formats that can be parsed](add-or-remove-a-file-type-from-the-search-index.md#ViewInformationFileFormats).
     
@@ -189,26 +189,26 @@ To enable or disable parsing of a file format, you have to use Windows PowerShel
     
 3. At the Microsoft PowerShell command prompt, type the following commands:
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication
-  New-SPEnterpriseSearchFileFormat -SearchApplication $ssa FileNameExtension FileFormat application/FileApplication
-  ```
+    ```
+    $ssa = Get-SPEnterpriseSearchServiceApplication
+    New-SPEnterpriseSearchFileFormat -SearchApplication $ssa FileNameExtension FileFormat application/FileApplication
+    ```
 
     Where:
     
-    FileNameExtension is the file name extension of the file type.
+    - FileNameExtension is the file name extension of the file type.
     
-    FileFormat is the format of the file type. The format is often the name of the application.
+    - FileFormat is the format of the file type. The format is often the name of the application.
     
-    application/FileApplication is the mime type of the file type. The mime type must consist of a type and a subtype. In this example, application is the type and FileApplication is the subtype. For example, for Word files, the type is application and the subtype is msword. Together they form the complete mime type: application/msword.
+    - application/FileApplication is the mime type of the file type. The mime type must consist of a type and a subtype. In this example, application is the type and FileApplication is the subtype. For example, for Word files, the type is application and the subtype is msword. Together they form the complete mime type: application/msword.
     
 4. Restart the SharePoint Search Host Controller service to apply the changes:
     
-  - Open a command prompt window on the server that hosts the content processing component. On the **Start** menu, click **All Programs**, click **Accessories**, right-click **Command Prompt** and then click **Run as administrator**.
+   - Open a command prompt window on the server that hosts the content processing component. On the **Start** menu, click **All Programs**, click **Accessories**, right-click **Command Prompt** and then click **Run as administrator**.
     
-  - To stop the SharePoint Search Host Controller, type this command: **net stop spsearchhostcontroller**
+   - To stop the SharePoint Search Host Controller, type this command: **net stop spsearchhostcontroller**
     
-  - To restart the SharePoint Search Host Controller, type this command: **net start spsearchhostcontroller**
+   - To restart the SharePoint Search Host Controller, type this command: **net start spsearchhostcontroller**
     
 5. **Verification:** show the list of file name extensions and file formats that the content processing component can parse and make sure that the file name extension is there. See [View information about file formats that can be parsed](add-or-remove-a-file-type-from-the-search-index.md#ViewInformationFileFormats). 
     
@@ -221,21 +221,21 @@ To enable or disable parsing of a file format, you have to use Windows PowerShel
     
 3. At the Microsoft PowerShell command prompt, type the following commands:
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication
-  Remove-SPEnterpriseSearchFileFormat -SearchApplication $ssa -Identity FileNameExtension
-  ```
+    ```
+    $ssa = Get-SPEnterpriseSearchServiceApplication
+    Remove-SPEnterpriseSearchFileFormat -SearchApplication $ssa -Identity FileNameExtension
+    ```
 
     Where:
     
-    FileNameExtension is the file name extension of the file type.
+    - FileNameExtension is the file name extension of the file type.
     
 4. Restart the SharePoint Search Host Controller service to apply the changes:
     
-  - Open a command prompt window on the server that hosts the content processing component. On the **Start** menu, click **All Programs**, click **Accessories**, right-click **Command Prompt** and then click **Run as administrator**.
+   - Open a command prompt window on the server that hosts the content processing component. On the **Start** menu, click **All Programs**, click **Accessories**, right-click **Command Prompt** and then click **Run as administrator**.
     
-  - To stop the SharePoint Search Host Controller, type this command: **net stop spsearchhostcontroller**
+   - To stop the SharePoint Search Host Controller, type this command: **net stop spsearchhostcontroller**
     
-  - To restart the SharePoint Search Host Controller, type this command: **net start spsearchhostcontroller**
+   - To restart the SharePoint Search Host Controller, type this command: **net start spsearchhostcontroller**
     
 5. **Verification:** show the list of file name extensions and file formats that the content processing component can parse and make sure that the file name extension is not there. See [View information about file formats that can be parsed](add-or-remove-a-file-type-from-the-search-index.md#ViewInformationFileFormats).
