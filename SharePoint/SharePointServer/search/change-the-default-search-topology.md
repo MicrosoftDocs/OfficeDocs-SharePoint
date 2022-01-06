@@ -132,7 +132,7 @@ You can follow the same procedures using different variables if you want to scal
     New-SPEnterpriseSearchQueryProcessingComponent -SearchTopology $newTopology -SearchServiceInstance $hostD
     New-SPEnterpriseSearchIndexComponent -SearchTopology $newTopology -SearchServiceInstance $hostD -IndexPartition 0 
   
-  ```
+    ```
 
 7. Activate the new search topology. At the Windows PowerShell command prompt, type the following command:
     
