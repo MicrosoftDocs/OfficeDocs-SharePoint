@@ -142,13 +142,6 @@ Users don't need to sign in again or take any other action.
 **Permissions**<br>
 People who have permission to access the site can access the site during and after the site address change.  
 
-**Power Apps**<br>
-You need to reconnect the app or apps to your data source. 
-Start by deleting the existing SharePoint connections to any lists you may have before you reconnect to your data. Once you've done that, reconnect your app to the SharePoint lists you were using. Most fields should update automatically. Certain types seem to have trouble updating and can be fixed by simply deleting the field and then undoing the delete.
-
-**Power Automate**<br>
-Flows will need to be recreated after the site address change.  
-
 **Recent lists inside Office apps**<br>
 The Word, Excel, and PowerPoint desktop apps and apps for the web will show the new URL after the change.
 
@@ -176,9 +169,7 @@ When the site address change is complete, users will be able to access their Sha
 
 |Functionality  |Limitation  |
 |:---------|:---------|
-|Files tab in channels  |The Files tab will need to be refreshed once after the address change.  |
 |Viewing files in Teams |Files shared in channels before the address was changed can be viewed in the Teams app on the channel's Files tab. They can also be viewed in Office apps for the web from the channel's Files tab or the conversation. To view Word, Excel, and PowerPoint files in the desktop apps:<br>Select the “Open in Desktop” option from the channel's Files tab.<br>Open the file in the Office app for the web, and then select “Open in Desktop”. |
 |Uploading files to channels |Uploading files from a computer or OneDrive to a channel conversation will work after a user has visited the Files tab for any channel in the site. |
-|File search |Search in Teams will show files only from sites whose addresses have not been changed. |
 |File app – Microsoft Teams page |The Microsoft Teams page in the Teams File app will work after a user has visited the Files tab for any channel in the site. |
 |Teams mobile app |Open and download will continue to work. To edit a Word, Excel, or PowerPoint file in the site, use the Office app for the web or the desktop app. Files shared after the site address was changed can be edited in the Office mobile apps. |
