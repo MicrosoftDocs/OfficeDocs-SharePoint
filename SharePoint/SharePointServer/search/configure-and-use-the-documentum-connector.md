@@ -34,7 +34,7 @@ The Indexing Connector for Documentum:
     
 - Supports Documentum security definitions and policies.
     
-- Supports Microsoft PowerShell for automated configuration and administration. See [Using the SPEnterpriseSearchDCTMConnectorConfig cmdlet](configure-and-use-the-documentum-connector.md#DCTM_cmdlet).
+- Supports Microsoft PowerShell for automated configuration and administration. See [Using the SPEnterpriseSearchDCTMConnectorConfig cmdlet](configure-and-use-the-documentum-connector.md).
     
 - Has a configurable search results URL to support multiple Documentum client applications.
     
@@ -79,7 +79,7 @@ The following steps provide a high-level overview of the tasks that are involved
     
 4. [Prepare the SharePoint servers that host a crawl component](configure-and-use-the-documentum-connector.md#DCTM_PrepareCrawlServer). On each server:
     
-  - [Set the DFS Productivity Layer .NET assemblies](configure-and-use-the-documentum-connector.md#DCTM_Assemblies).
+  - [Set the DFS Productivity Layer .NET assemblies](configure-and-use-the-documentum-connector.md).
     
   - [Edit the machine.config file](configure-and-use-the-documentum-connector.md#DCTM_machineconfig) to set the Documentum bindings. 
     
@@ -96,15 +96,15 @@ The following steps provide a high-level overview of the tasks that are involved
 |                                                         **Configuration**                                                         | **ACL Translation** |                                                                                                                                                     **Description**                                                                                                                                                     |                                                                     **See this section**                                                                      |
 | :-------------------------------------------------------------------------------------------------------------------------------- | :------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Support crawling EMC Documentum Trusted Content Services (TCS) content or regular Documentum content with automatic user mapping. | Claims              | You enable automatic user mapping by configuring a separate Security Trimmer Sync Service and pre- and post-trimmers.                                                                                                                                                                                                   | [Configure the Indexing Connector for Documentum to support TCS and automatic user mapping](configure-and-use-the-documentum-connector.md#DCTM_Configure_TCS) |
-| Support crawling Documentum content and use a manually created user mapping table.                                                | UserMappingTable    | You manually create a user mapping table in SQL Server to specify how the Documentum users are mapped to Active Directory Domain Services (AD DS) or Active Directory service users. You configure the connector by specifying in which database you have created the user mapping table by using Microsoft PowerShell. | [Configure the Indexing Connector for Documentum using a user mapping table](configure-and-use-the-documentum-connector.md#DCTM_UserMapping)                  |
-| Support crawling Documentum content when Documentum and Windows user accounts are the same.                                       | SameAccountName     | The Indexing Connector for Documentum assumes that Documentum and SharePoint users share the same account, such as a shared account in Active Directory. Once an account is found that is not valid, the Indexing Connector for Documentum discards the account permission.                                             | [Using the SPEnterpriseSearchDCTMConnectorConfig cmdlet](configure-and-use-the-documentum-connector.md#DCTM_cmdlet)                                           |
-| Support crawling Documentum content without security trimming the search results.                                                 | NoSecurity          | All users will be able to see all Documentum search results. This can be useful if you have a public Documentum repository that everyone can access, for example.                                                                                                                                                       | [Using the SPEnterpriseSearchDCTMConnectorConfig cmdlet](configure-and-use-the-documentum-connector.md#DCTM_cmdlet)                                           |
+| Support crawling Documentum content and use a manually created user mapping table.                                                | UserMappingTable    | You manually create a user mapping table in SQL Server to specify how the Documentum users are mapped to Active Directory Domain Services (AD DS) or Active Directory service users. You configure the connector by specifying in which database you have created the user mapping table by using Microsoft PowerShell. | [Configure the Indexing Connector for Documentum using a user mapping table](configure-and-use-the-documentum-connector.md)                  |
+| Support crawling Documentum content when Documentum and Windows user accounts are the same.                                       | SameAccountName     | The Indexing Connector for Documentum assumes that Documentum and SharePoint users share the same account, such as a shared account in Active Directory. Once an account is found that is not valid, the Indexing Connector for Documentum discards the account permission.                                             | [Using the SPEnterpriseSearchDCTMConnectorConfig cmdlet](configure-and-use-the-documentum-connector.md)                                           |
+| Support crawling Documentum content without security trimming the search results.                                                 | NoSecurity          | All users will be able to see all Documentum search results. This can be useful if you have a public Documentum repository that everyone can access, for example.                                                                                                                                                       | [Using the SPEnterpriseSearchDCTMConnectorConfig cmdlet](configure-and-use-the-documentum-connector.md)                                           |
    
 ### 4. Configure a Documentum crawl rule and content source in the Search service application by using Central Administration
 
-1. [Create a crawl rule for Documentum](configure-and-use-the-documentum-connector.md#DCTM_Crawl_rule).
+1. [Create a crawl rule for Documentum](configure-and-use-the-documentum-connector.md).
     
-2. [Create a Documentum content source](configure-and-use-the-documentum-connector.md#DCTM_Content_source)
+2. [Create a Documentum content source](configure-and-use-the-documentum-connector.md)
     
 3. Perform a full crawl. 
     
@@ -115,30 +115,9 @@ The following steps provide a high-level overview of the tasks that are involved
 
 1. You have to specify the Documentum content access account and the password later in the configuration procedure when you set up crawl rules. The Indexing Connector for Documentum uses the content access account to retrieve content from the Documentum repository. This account must have the following minimum permissions:
     
-  - Read permission to documents that you want to crawl.
+   - Read permission to documents that you want to crawl.
     
-  - Browse permission to cabinets, folders, and records (documents with only metadata) that you want to crawl.
-    
-### <a name="DCTM_Assemblies"></a>Set the DFS Productivity Layer .NET assemblies
-
-1. Locate the following DFS Productivity Layer .NET assemblies and verify that the version number is **6.7.2000.36** for all files. When extracted to the default path, these files are located in the  `%local%\emc-dfs-sdk-6.7\emc-dfs-sdk-6.7\lib\dotnet` directory. 
-    
-  - Emc.Documentum.FS.DataModel.Core.dll
-    
-  - Emc.Documentum.FS.DataModel.Shared.dll
-    
-  - Emc.Documentum.FS.runtime.dll
-    
-  - Emc.Documentum.FS.Services.Core.dll
-    
-2. On each server that hosts a crawl component, log on with an account that is a member of the Administrators group on that server and deploy the DFS Productivity Layer .NET assemblies to the global assembly cache  `%windir%\assembly`.
-    
-    > [!NOTE]
-    > You can drag and drop the four DLLs into the global assembly cache ( `%windir%\assembly`) to deploy them, but you might have to turn off User Account Control to do this. 
-  
-The following procedure explains how to edit the machine.config file on each SharePoint server that hosts a crawl component to include WCF settings for the DFS Productivity Layer. This is done to make sure that the DFS Productivity Layer .NET assemblies function correctly.
-  
-The WCF settings that you are about to set in [Edit the machine.config file](configure-and-use-the-documentum-connector.md#DCTM_machineconfig) allow a maximum of 30 megabytes (MB) per Documentum content object (the document file plus its metadata) transferred. The administrator can increase  *maxReceivedMessageSize*  in  *DfsDefaultService*  binding for larger content. 
+  he WCF settings that you are about to set in [Edit the machine.config file](configure-and-use-the-documentum-connector.md#DCTM_machineconfig) allow a maximum of 30 megabytes (MB) per Documentum content object (the document file plus its metadata) transferred. The administrator can increase  *maxReceivedMessageSize*  in  *DfsDefaultService*  binding for larger content. 
   
 ### <a name="DCTM_machineconfig"></a>Edit the machine.config file
 
@@ -146,49 +125,49 @@ The WCF settings that you are about to set in [Edit the machine.config file](con
     
 2. Copy the following XML snippet to the **\<configuration\>** element: 
     
-  ```
-  <system.serviceModel>
-  <bindings>
-  <basicHttpBinding>
-  <binding name="DfsAgentService" closeTimeout="00:01:00"
-   openTimeout="00:01:00" receiveTimeout="00:10:00" sendTimeout="00:01:00"
-   allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
-   maxBufferSize="10000000" maxBufferPoolSize="10000000" maxReceivedMessageSize="10000000"
-   messageEncoding="Text" textEncoding="utf-8" transferMode="Buffered"
-   useDefaultWebProxy="true">
-  <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
-    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
-  <security mode="None">
-  <transport clientCredentialType="None" proxyCredentialType="None"
-  realm="" />
-  <message clientCredentialType="UserName" algorithmSuite="Default" />
-  </security>
-  </binding>
-  <binding name="DfsContextRegistryService" closeTimeout="00:01:00"
+    ```
+    <system.serviceModel>
+    <bindings>
+    <basicHttpBinding>
+    <binding name="DfsAgentService" closeTimeout="00:01:00"
      openTimeout="00:01:00" receiveTimeout="00:10:00" sendTimeout="00:01:00"
      allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
      maxBufferSize="10000000" maxBufferPoolSize="10000000" maxReceivedMessageSize="10000000"
      messageEncoding="Text" textEncoding="utf-8" transferMode="Buffered"
      useDefaultWebProxy="true">
-  <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
-  maxBytesPerRead="4096" maxNameTableCharCount="16384" />
-  <security mode="None">
-  <transport clientCredentialType="None" proxyCredentialType="None"
+    <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+    <security mode="None">
+    <transport clientCredentialType="None" proxyCredentialType="None"
   realm="" />
-  <message clientCredentialType="UserName" algorithmSuite="Default" />
-  </security>
-  </binding>
-  <binding name="DfsDefaultService" closeTimeout="00:01:00" openTimeout="00:10:00" receiveTimeout="00:20:00" sendTimeout="00:10:00" allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard" maxBufferSize="10000000" maxBufferPoolSize="10000000" maxReceivedMessageSize="30000000" messageEncoding="Text" textEncoding="utf-8" transferMode="StreamedResponse" useDefaultWebProxy="true">
-  <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384" maxBytesPerRead="1048576" maxNameTableCharCount="16384"/>
-  <security mode="None">
-  <transport clientCredentialType="None" proxyCredentialType="None" realm=""/>
-  <message clientCredentialType="UserName" algorithmSuite="Default"/>
-  </security>
-  </binding>
-  </basicHttpBinding>
-  </bindings>
-  </system.serviceModel>
-  ```
+    <message clientCredentialType="UserName" algorithmSuite="Default" />
+    </security>
+    </binding>
+    <binding name="DfsContextRegistryService" closeTimeout="00:01:00"
+       openTimeout="00:01:00" receiveTimeout="00:10:00" sendTimeout="00:01:00"
+       allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+       maxBufferSize="10000000" maxBufferPoolSize="10000000" maxReceivedMessageSize="10000000"
+       messageEncoding="Text" textEncoding="utf-8" transferMode="Buffered"
+     useDefaultWebProxy="true">
+    <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+    <security mode="None">
+    <transport clientCredentialType="None" proxyCredentialType="None"
+    realm="" />
+    <message clientCredentialType="UserName" algorithmSuite="Default" />
+    </security>
+    </binding>
+    <binding name="DfsDefaultService" closeTimeout="00:01:00" openTimeout="00:10:00" receiveTimeout="00:20:00" sendTimeout="00:10:00" allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard" maxBufferSize="10000000" maxBufferPoolSize="10000000" maxReceivedMessageSize="30000000" messageEncoding="Text" textEncoding="utf-8" transferMode="StreamedResponse" useDefaultWebProxy="true">
+    <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384" maxBytesPerRead="1048576" maxNameTableCharCount="16384"/>
+    <security mode="None">
+    <transport clientCredentialType="None" proxyCredentialType="None" realm=""/>
+    <message clientCredentialType="UserName" algorithmSuite="Default"/>
+    </security>
+    </binding>
+    </basicHttpBinding>
+    </bindings>
+    </system.serviceModel>
+    ```
 
 ## Install and register the Indexing Connector for Documentum
 <a name="DCTM_InstallCon"> </a>
@@ -208,16 +187,15 @@ The WCF settings that you are about to set in [Edit the machine.config file](con
     
 3. At the Microsoft PowerShell command prompt, type the following command(s):
     
-  ```
-  New-SPEnterpriseSearchCrawlCustomConnector -SearchApplication "<name of your Search service application>" -Protocol "dctm" -ModelFilePath "<%CommonProgramFiles%\Microsoft Shared\Web Server Extensions\15\CONFIG\SearchConnectors\Documentum\MODEL.xml>" -Name "Microsoft SharePoint 2016 Indexing Connector for Documentum"
-  
-  ```
+    ```
+    New-SPEnterpriseSearchCrawlCustomConnector -SearchApplication "<name of your Search service application>" -Protocol "dctm" -ModelFilePath "<%CommonProgramFiles%\Microsoft Shared\Web Server Extensions\15\CONFIG\SearchConnectors\Documentum\MODEL.xml>" -Name "Microsoft SharePoint 2016 Indexing Connector for Documentum"
+    ```
 
     Where:
     
-  -  _\<name of your Search service application\>_ is the name of the Search service application that you are registering the connector to. 
+   -  _\<name of your Search service application\>_ is the name of the Search service application that you are registering the connector to. 
     
-  -  _\<%CommonProgramFiles%\Microsoft Shared\Web Server Extensions\15\CONFIG\SearchConnectors\Documentum\MODEL.xml\>_ is the path of the Indexing Connector for Documentum model file. The default location is given in this example. 
+   -  _\<%CommonProgramFiles%\Microsoft Shared\Web Server Extensions\15\CONFIG\SearchConnectors\Documentum\MODEL.xml\>_ is the path of the Indexing Connector for Documentum model file. The default location is given in this example. 
     
 ## Configure the Indexing Connector for Documentum
 <a name="DCTM_ConfigureConn"> </a>
@@ -239,21 +217,21 @@ The Security Trimmer Sync Service maps Documentum users to AD users by looking a
     
 2. At the Microsoft PowerShell command prompt, type the following command(s):
     
-  ```
-  Set-SPEnterpriseSearchDCTMConnectorConfig -Shared -ACLTranslation "Claims" -DisplayURLPatternForDocument "http://<MyWebTopServer:PortOfMyWebTopServer>/webtop/component/drl?objectId={ObjectId}&amp;format={Format}&amp;RepositoryName={RepositoryName}" -DisplayURLPatternForContainer "http://<MyWebTopServer:PortOfMyWebTopServer>/webtop/component/drl?objectId={ObjectId}&amp;RepositoryName={RepositoryName}"
-  Set-SPEnterpriseSearchDCTMConnectorConfig -Repository -RepositoryName "<MyRepository1>" -DFSWebServiceURL @("http://<DFSWebServices>:<30000>/services"), ("http://<DFSWebServices2>:<30000>/services")
+    ```
+    Set-SPEnterpriseSearchDCTMConnectorConfig -Shared -ACLTranslation "Claims" -DisplayURLPatternForDocument "http://<MyWebTopServer:PortOfMyWebTopServer>/webtop/component/drl?objectId={ObjectId}&amp;format={Format}&amp;RepositoryName={RepositoryName}" -DisplayURLPatternForContainer "http://<MyWebTopServer:PortOfMyWebTopServer>/webtop/component/drl?objectId={ObjectId}&amp;RepositoryName={RepositoryName}"
+    Set-SPEnterpriseSearchDCTMConnectorConfig -Repository -RepositoryName "<MyRepository1>" -DFSWebServiceURL @("http://<DFSWebServices>:<30000>/services"), ("http://<DFSWebServices2>:<30000>/services")
    
-  Set-SPEnterpriseSearchDCTMConnectorConfig -Repository -RepositoryName "<MyRepository2>" -DFSWebServiceURL @("http://<DFSWebServices>:<30000>/services")
+    Set-SPEnterpriseSearchDCTMConnectorConfig -Repository -RepositoryName "<MyRepository2>" -DFSWebServiceURL @("http://<DFSWebServices>:<30000>/services")
   
-  ```
+    ```
 
     Where:
     
-  -  _\<MyWebTopServer:PortOfMyWebTopServer\>_ is the name and the port number of the DFS Web Top Server you are using. 
+   -  _\<MyWebTopServer:PortOfMyWebTopServer\>_ is the name and the port number of the DFS Web Top Server you are using. 
     
-  -  _\<MyRepository n\>_ is the name of Documentum repository that you want to crawl. 
+   -  _\<MyRepository n\>_ is the name of Documentum repository that you want to crawl. 
     
-  -  _\<DFSWebServices n\>:\<30000\>_ is the name and the port number of the Documentum Web Services server that hosts the Documentum repository that you want to crawl. 
+   -  _\<DFSWebServices n\>:\<30000\>_ is the name and the port number of the Documentum Web Services server that hosts the Documentum repository that you want to crawl. 
     
 3. Restart the OSearch15 service. This must be done before you create a content source for Documentum.
     
@@ -309,13 +287,13 @@ The Security Trimmer Sync Service maps Documentum users to AD users by looking a
     
   - Locate the following DFS Productivity Layer .NET assemblies and verify that the version number is **6.7.2000.36** for all files. When extracted to the default path, these files are located in the  `%local%\emc-dfs-sdk-6.7\emc-dfs-sdk-6.7\lib\dotnet` directory. 
     
-    - Emc.Documentum.FS.DataModel.Core.dll
+     - Emc.Documentum.FS.DataModel.Core.dll
     
     - Emc.Documentum.FS.DataModel.Shared.dll
     
-    - Emc.Documentum.FS.runtime.dll
+     - Emc.Documentum.FS.runtime.dll
     
-    - Emc.Documentum.FS.Services.Core.dll
+     - Emc.Documentum.FS.Services.Core.dll
     
   - On the server that hosts the Security Trimming Sync Service, log on with an account that is a member of the Administrators group on that server and deploy the DFS Productivity Layer .NET assemblies to the global assembly cache  `%windir%\assembly`.
     
@@ -324,35 +302,35 @@ The Security Trimmer Sync Service maps Documentum users to AD users by looking a
   
 5. Configure authentication for the Security Trimming Sync Service and install the service. 
     
-  - Verify that the user account that is performing this procedure is a member of the Farm Administrators group.
+   - Verify that the user account that is performing this procedure is a member of the Farm Administrators group.
     
-  - Open a Command Prompt window on each server that hosts a query processing component. 
+   - Open a Command Prompt window on each server that hosts a query processing component. 
     
-  - Type the following command: **Microsoft.Office.Server.Search.Connector.Documentum.TrimmerSync.exe -p**
+   - Type the following command: **Microsoft.Office.Server.Search.Connector.Documentum.TrimmerSync.exe -p**
     
-    When prompted, enter the password for the account that you provided in the **login** attribute. Use the same login name as the Documentum content access account. The password will now automatically be encrypted and added to the Security Trimming Sync Service config file. 
+     When prompted, enter the password for the account that you provided in the **login** attribute. Use the same login name as the Documentum content access account. The password will now automatically be encrypted and added to the Security Trimming Sync Service config file. 
     
   - Install the Security Trimming Sync Service. Type the following command: **Microsoft.Office.Server.Search.Connector.Documentum.TrimmerSync.exe -i**
     
 6. Start the Security Trimming Sync Service. 
     
-  - Open **Windows Server Manager**.
+   - Open **Windows Server Manager**.
     
-  - Expand the **Configuration** menu and click **Services**. 
+   - Expand the **Configuration** menu and click **Services**. 
     
-  - Right-click the **SharePoint Documentum Security Sync** service and then click **Properties**. In the **LogOn** tab, select **This account** and provide the account details and credentials for the account that runs the SharePoint services. Click **OK**.
+   - Right-click the **SharePoint Documentum Security Sync** service and then click **Properties**. In the **LogOn** tab, select **This account** and provide the account details and credentials for the account that runs the SharePoint services. Click **OK**.
     
-  - Right-click the **SharePoint Documentum Security Sync** service and then click **Start**. 
+   - Right-click the **SharePoint Documentum Security Sync** service and then click **Start**. 
     
-  - Verify that the **Status** column changes to **Started**. 
+   - Verify that the **Status** column changes to **Started**. 
     
 7. Verify that the service is running and that the security sync is completed. 
     
-  - Run the command **Microsoft.Office.Server.Search.Connector.Documentum.TrimmerSync.exe -d** to write the Security Trimming Sync Service memory to a text file. 
+   - Run the command **Microsoft.Office.Server.Search.Connector.Documentum.TrimmerSync.exe -d** to write the Security Trimming Sync Service memory to a text file. 
     
-  - Verify that the Security Trimming Sync Service connects to the Documentum server. Read the file DCTMSecuritySync.log that is located in the directory  `<Microsoft Office Server path>\15.0\Data\Office Server\Applications\Search\Nodes` 
+   - Verify that the Security Trimming Sync Service connects to the Documentum server. Read the file DCTMSecuritySync.log that is located in the directory  `<Microsoft Office Server path>\15.0\Data\Office Server\Applications\Search\Nodes` 
     
-  - Verify that the membership information from the Documentum server is written to the file DCTMSecuritySync_Dump.txt that is located in the directory  `<Microsoft Office Server path>\15.0\Data\Office Server\Applications\Search\Nodes`
+   - Verify that the membership information from the Documentum server is written to the file DCTMSecuritySync_Dump.txt that is located in the directory  `<Microsoft Office Server path>\15.0\Data\Office Server\Applications\Search\Nodes`
     
 Before you can add the pre- and post- security trimmers, you must add one simple crawl rule for Documentum. Later, you can further specify or expand the crawl rules. 
   
@@ -370,13 +348,13 @@ Before you can add the pre- and post- security trimmers, you must add one simple
     
 6. On the Add Crawl Rule page, specify the following information to create a crawl rule:
     
-  - In **Path** box, type **dctm://\***. 
+   - In **Path** box, type **dctm://\***. 
     
-  - In **Crawl Configuration** section, select **Include all items in this path**, and then select **Crawl complex URLs (URLs that contain a question mark - ?)**.
+   - In **Crawl Configuration** section, select **Include all items in this path**, and then select **Crawl complex URLs (URLs that contain a question mark - ?)**.
     
-  - In the **Specify Authentication** section, select **Specify a different content access account**, and then type the Documentum content access account and password in the appropriate boxes.
+   - In the **Specify Authentication** section, select **Specify a different content access account**, and then type the Documentum content access account and password in the appropriate boxes.
     
-  - Make sure that the **Do not allow Basic Authentication** check box is cleared. 
+   - Make sure that the **Do not allow Basic Authentication** check box is cleared. 
     
 7. Click **OK** to add the crawl rule. 
     
@@ -386,23 +364,23 @@ Before you can add the pre- and post- security trimmers, you must add one simple
     
 2. At the Microsoft PowerShell command prompt, type the following command(s):
     
-  ```
-  New-SPEnterpriseSearchSecurityTrimmer -SearchApplication <name of your Search service application> -typeName "Microsoft.Office.Server.Search.Connector.Documentum.Trimmers.DctmTrimPre, Microsoft.Office.Server.Search.Connector.Documentum.Trimmers, Version=15.0.0.0,Culture=neutral, PublicKeyToken=48e046c834625a88, processorArchitecture=MSIL" -id 26 -RulePath dctm:\\*
-  New-SPEnterpriseSearchSecurityTrimmer -SearchApplication <name of your Search service application> -typeName "Microsoft.Office.Server.Search.Connector.Documentum.Trimmers.DctmTrimPost, Microsoft.Office.Server.Search.Connector.Documentum.Trimmers, Version=15.0.0.0,Culture=neutral, PublicKeyToken=48e046c834625a88, processorArchitecture=MSIL" -id 17 -RulePath dctm:\\*
-  
+    ```
+    New-SPEnterpriseSearchSecurityTrimmer -SearchApplication <name of your Search service application> -typeName "Microsoft.Office.Server.Search.Connector.Documentum.Trimmers.DctmTrimPre, Microsoft.Office.Server.Search.Connector.Documentum.Trimmers, Version=15.0.0.0,Culture=neutral, PublicKeyToken=48e046c834625a88, processorArchitecture=MSIL" -id 26 -RulePath dctm:\\*
+    New-SPEnterpriseSearchSecurityTrimmer -SearchApplication <name of your Search service application> -typeName "Microsoft.Office.Server.Search.Connector.Documentum.Trimmers.DctmTrimPost, Microsoft.Office.Server.Search.Connector.Documentum.Trimmers, Version=15.0.0.0,Culture=neutral, PublicKeyToken=48e046c834625a88, processorArchitecture=MSIL" -id 17 -RulePath dctm:\\*
+    
   ```
 
     Where:
     
-  -  _\<name of your Search service application\>_ is the name of the Search service application. 
+     -  _\<name of your Search service application\>_ is the name of the Search service application. 
     
 3. Restart the SharePoint Search Host Controller. 
     
-  - Open a Command Prompt window. 
+    - Open a Command Prompt window. 
     
-  - To stop the SharePoint Search Host Controller, type this command: **net stop spsearchhostcontroller**
+    - To stop the SharePoint Search Host Controller, type this command: **net stop spsearchhostcontroller**
     
-  - To start the SharePoint Search Host Controller, type this command: **net start spsearchhostcontroller**
+    - To start the SharePoint Search Host Controller, type this command: **net start spsearchhostcontroller**
     
 4. Continue with [Create a Documentum content source](configure-and-use-the-documentum-connector.md#DCTM_Content_source).
     
@@ -467,40 +445,42 @@ Finally, grant the OSearch15 account read access to the user mapping table.
     
 2. At the Microsoft PowerShell command prompt, type the following command(s):
     
-  ```
-  Set-SPEnterpriseSearchDCTMConnectorConfig -Shared -ACLTranslation UserMappingTable -DisplayURLPatternForContainer "http://<MyWebTopServer:PortOfMyWebTopServer>/webtop/component/drl?objectId={ObjectId}&amp;RepositoryName={RepositoryName}" -DisplayURLPatternForDocument "http://<MyWebTopServer:PortOfMyWebTopServer>/webtop/component/drl?objectId={ObjectId}&amp;format={Format}&amp;RepositoryName={RepositoryName}" -UnmappedAccount "DiscardACE" -UserMappingTableSQLServer "<YourDatabaseServerName>" -UserMappingTableSQLInstance "<YourDatabaseInstanceName>" -UserMappingTableDBName "<YourMappingDatabaseName>" -UserMappingTableName "<YourMappingTableName>"
-  Set-SPEnterpriseSearchDCTMConnectorConfig -Repository -RepositoryName "<MyRepository1>" -DFSWebServiceURL @("http://<DFSWebServices>:<30000>/services", "http://<DFSWebServices2>:<30000>/services")
-  Set-SPEnterpriseSearchDCTMConnectorConfig -Repository -RepositoryName "<MyRepository2>" -DFSWebServiceURL @("http://<DFSWebServices>:<30000>/services")
-  ```
+    ```
+    Set-SPEnterpriseSearchDCTMConnectorConfig -Shared -ACLTranslation UserMappingTable -DisplayURLPatternForContainer "http://<MyWebTopServer:PortOfMyWebTopServer>/webtop/component/drl?objectId={ObjectId}&amp;RepositoryName={RepositoryName}" -DisplayURLPatternForDocument "http://<MyWebTopServer:PortOfMyWebTopServer>/webtop/component/drl?objectId={ObjectId}&amp;format={Format}&amp;RepositoryName={RepositoryName}" -UnmappedAccount "DiscardACE" -UserMappingTableSQLServer "<YourDatabaseServerName>" -UserMappingTableSQLInstance "<YourDatabaseInstanceName>" -UserMappingTableDBName "<YourMappingDatabaseName>" -UserMappingTableName "<YourMappingTableName>"
+    Set-SPEnterpriseSearchDCTMConnectorConfig -Repository -RepositoryName "<MyRepository1>" -DFSWebServiceURL @("http://<DFSWebServices>:<30000>/services", "http://<DFSWebServices2>:<30000>/services")
+    Set-SPEnterpriseSearchDCTMConnectorConfig -Repository -RepositoryName "<MyRepository2>" -DFSWebServiceURL @("http://<DFSWebServices>:<30000>/services")
+  
+    ```
+  
 
     Where:
     
-  -  _\<MyWebTopServer:PortOfMyWebTopServer\>_ is the name and the port number of the DFS Web Top Server you are using. 
+    -  _\<MyWebTopServer:PortOfMyWebTopServer\>_ is the name and the port number of the DFS Web Top Server you are using. 
     
-  -  _\<YourDatabaseServerName\>_ is the name of the database server on which you created the user mapping table. 
+    -  _\<YourDatabaseServerName\>_ is the name of the database server on which you created the user mapping table. 
     
-  -  _\<YourDatabaseInstanceName\>_ is the name of the database instance of the database server on which you created the user mapping table. 
+    -  _\<YourDatabaseInstanceName\>_ is the name of the database instance of the database server on which you created the user mapping table. 
     
-  -  _\<YourMappingDatabaseName\>_ is the name of the database in which you created the user mapping table. 
+    -  _\<YourMappingDatabaseName\>_ is the name of the database in which you created the user mapping table. 
     
-  -  _\<YourMappingTableName\>_ is the name of the user mapping table that you created. 
+    -  _\<YourMappingTableName\>_ is the name of the user mapping table that you created. 
     
-  -  _\<MyRepository n\>_ is the name of Documentum repository that you want to crawl. 
+    -  _\<MyRepository n\>_ is the name of Documentum repository that you want to crawl. 
     
-  -  _\<DFSWebServices n\>:\<30000\>_ is the name and port number of the Documentum Web Services server that hosts the Documentum repository that you want to crawl. 
+    -  _\<DFSWebServices n\>:\<30000\>_ is the name and port number of the Documentum Web Services server that hosts the Documentum repository that you want to crawl. 
     
 3. Restart the OSearch15 service. The server administrator of the server that hosts the crawl component must restart the OSearch15 service before a content source can be created for Documentum.
     
     > [!IMPORTANT]
     > Do not use the Services on Server page on the SharePoint Central Administration website to restart this service. Doing so resets the search index, which requires you to do a full crawl of all content to rebuild the index. 
   
-  - Verify that the user account that is performing this procedure is an administrator for the server that hosts the crawl component. 
+   - Verify that the user account that is performing this procedure is an administrator for the server that hosts the crawl component. 
     
-  - Open a Command Prompt window.
+   - Open a Command Prompt window.
     
-  - To stop the OSearch15 service, type this command: **net stop osearch15**
+   - To stop the OSearch15 service, type this command: **net stop osearch15**
     
-  - To start the OSearch15 service, type this command: **net start osearch15**
+   - To start the OSearch15 service, type this command: **net start osearch15**
     
 Continue with [Create a crawl rule for Documentum](configure-and-use-the-documentum-connector.md#DCTM_Crawl_rule) and then continue with [Create a Documentum content source](configure-and-use-the-documentum-connector.md#DCTM_Content_source).
   
@@ -512,6 +492,7 @@ You must create a crawled properties category that will contain the Documentum c
 ```
 $ssa = Get-SPEnterpriseSearchServiceApplication
 New-SPEnterpriseSearchMetadataCategory -Name "Documentum Connector" -SearchApplication $ssa -PropSet "34972762-7E3F-4f4f-AE5C-5ABBA92EC530" -DiscoverNewProperties $true
+
 ```
 
 ## Create a crawl rule for Documentum
