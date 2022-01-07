@@ -30,7 +30,7 @@ When planning to create, or update, your organization's intranet, there will be 
 
 See what the [intranet lifecycle](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-SharePoint/live/SharePoint/SharePointOnline/spodownloads/Intranet%20lifecycle.pdf) looks like.
 
-Learn more about basic site [building blocks.](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-SharePoint/live/SharePoint/SharePointOnline/spodownloads/Building%20blocks%20-%20sites%20and%20pages.pdf)
+Learn more about basic site [building blocks.](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-SharePoint/public/SharePoint/SharePointOnline/spodownloads/Building%20blocks%20-%20sites%20and%20pages.pdf)
 
 
 ## Organization intranet owners
