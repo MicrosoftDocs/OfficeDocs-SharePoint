@@ -93,6 +93,7 @@ When creating a migration task, you can choose to migrate your sites, just your 
 >For a complete overview and solution on migrating SharePoint Server workflows, see: 
 >- [**Migrating SharePoint Workflows with SPMT**](/sharepointmigration/spmt-workflow-overview)
 
+Steps:
 
 1. Start SPMT, and then enter your Microsoft 365 username and password.    
 2. Select **Start your first migration**.
