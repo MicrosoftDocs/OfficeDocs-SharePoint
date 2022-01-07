@@ -9,6 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection:
 - m365solution-migratefileshares
@@ -20,7 +21,7 @@ search.appverid: MET150
 description: "Learn what the third step in using Migration Manager to migrate Dropbox."
 ---
 
-# Step 3: Copy to migrations
+# Step 3: Copy to migrations tab for Dropbox migration
 
 After a Dropbox account has been scanned and determined ready, add it to your migration list.  
 

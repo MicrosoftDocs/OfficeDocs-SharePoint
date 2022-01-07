@@ -1,8 +1,8 @@
 ---
 title: Introduction to the SharePoint Success Site 
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -91,7 +91,7 @@ The site creation guidelines page provides a starting point to educate new Site 
 
 ## Summary of how to launch a SharePoint Success Site
 
-**Step 1:** [Meet the pre-requisites](./provision-sss.md#meet-the-requirements) and then [provision](./provision-sss.md#provision-the-sharepoint-success-site-1) the SharePoint Success Site 
+**Step 1:** [Meet the prerequisites](./provision-sss.md#meet-the-requirements) and then [provision](./provision-sss.md#provision-the-sharepoint-success-site-1) the SharePoint Success Site 
 
 
 **Step 2:** [Customize](./customize-sss.md) the site design, playlists, success stories, and site creation guidelines
