@@ -96,8 +96,8 @@ After you install the prerequisites, follow these steps to install SharePoint Se
     
 5. Accept the default file location where SharePoint Server will be installed or change the installation path in order to suit your requirements.
     
-> [!TIP]
-> As a best practice, we recommend that you install SharePoint Server on a drive that does not contain the operating system. 
+   > [!TIP]
+   > As a best practice, we recommend that you install SharePoint Server on a drive that does not contain the operating system. 
   
 6. Click **Install Now**.
     
@@ -204,56 +204,56 @@ Verify that you have the following memberships:
     
     Where \<ServerRole\> can be any of the following values: WebFrontEnd, Application, DistributedCache, Search, or Custom. 
     
-> [!NOTE]
-> If SharePoint Server 2016 Feature Pack 2 has been applied, additional \<ServerRole> options are available: ApplicationWithSearch, WebFrontEndWithDistributedCache. These options are also available in SharePoint Server 2019.
+   > [!NOTE]
+   > If SharePoint Server 2016 Feature Pack 2 has been applied, additional \<ServerRole> options are available: ApplicationWithSearch, WebFrontEndWithDistributedCache. These options are also available in SharePoint Server 2019.
     
-> [!NOTE]
-> The concept of server roles has changed starting with SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server.md). 
+   > [!NOTE]
+   > The concept of server roles has changed starting with SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server.md). 
   
 3. At the PowerShell command prompt, type the following command to install the Help File Collections:
     
-  ```
-  Install-SPHelpCollection -All
-  ```
+    ```
+    Install-SPHelpCollection -All
+    ```
 
 4. At the PowerShell command prompt, type the following command to install the Security Resource for SharePoint Server:
     
-  ```
-  Initialize-SPResourceSecurity
-  ```
+    ```
+    Initialize-SPResourceSecurity
+    ```
 
 5. At the PowerShell command prompt, type the following command to install the basic services: 
     
-  ```
-  Install-SPService
-  ```
+    ```
+    Install-SPService
+    ```
 
 6. At the PowerShell command prompt, type the following command to install all the features:
     
-  ```
-  Install-SPFeature -AllExistingFeatures
-  ```
+    ```
+    Install-SPFeature -AllExistingFeatures
+    ```
 
 7. At the PowerShell command prompt, type the following command to set the port number of the SharePoint Central Administration website:
     
-  ```
-  New-SPCentralAdministration -Port <PortNumber> -WindowsAuthProvider NTLM
-  ```
+    ```
+    New-SPCentralAdministration -Port <PortNumber> -WindowsAuthProvider NTLM
+    ```
 
-> [!NOTE]
-> If the SharePoint Central Administration website is already provisioned on an existing server in the farm, you can skip this step. 
+   > [!NOTE]
+   > If the SharePoint Central Administration website is already provisioned on an existing server in the farm, you can skip this step. 
   
 8. At the PowerShell command prompt, type the following command to install application content:
-    
+      
   ```
-  Install-SPApplicationContent
+      Install-SPApplicationContent
   ```
 
 9. At the PowerShell command prompt, type the following command to start the Timer service:
     
-  ```
-  Start-Service SPTimerV4
-  ```
+    ```
+    Start-Service SPTimerV4
+    ```
 
 10. At the PowerShell command prompt, type the following command to get a list of servers in the farm. 
     

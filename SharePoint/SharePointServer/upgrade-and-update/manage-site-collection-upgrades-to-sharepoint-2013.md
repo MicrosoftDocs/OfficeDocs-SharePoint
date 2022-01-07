@@ -38,11 +38,11 @@ When a site collection is available to upgrade, site collection administrators s
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
@@ -93,42 +93,40 @@ For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-s
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets.
     
 
-
-
->[!NOTE]
->If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+   >[!NOTE]
+   >If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell. 
     
 3. At the PowerShell command prompt, type the following command to change the upgrade notification settings for a web application:
     
-  ```
-  $wa=Get-SPWebApplication <URL>
-  $wa.UpgradeReminderDelay=<Value>
-  $wa.UpgradeMaintenanceLink='<LinkURL>'
+    ```
+    $wa=Get-SPWebApplication <URL>
+    $wa.UpgradeReminderDelay=<Value>
+    $wa.UpgradeMaintenanceLink='<LinkURL>'
   
-  ```
+    ```
 
-  Where:
+   Where:
     
-  -  _\<URL\>_ is URL for the web application that you want to affect. 
+   -  _\<URL\>_ is URL for the web application that you want to affect. 
     
-  -  _\<Value\>_ is the numeric value that you want to set for the delay (for example, 10 for 10 days). 
+   -  _\<Value\>_ is the numeric value that you want to set for the delay (for example, 10 for 10 days). 
     
-  -  _\<LinkURL\>_ is a link where the user can find more information. 
+   -  _\<LinkURL\>_ is a link where the user can find more information. 
     
 4. At the PowerShell command prompt, type the following command to change the self-service upgrade setting for a site collection:
     
-  ```
-  $site=Get-SPSite <URL>
-  $site.AllowSelfServiceUpgrade=<Value>
-  ```
+    ```
+    $site=Get-SPSite <URL>
+    $site.AllowSelfServiceUpgrade=<Value>
+    ```
 
-  Where:
+   Where:
     
-  -  _\<URL\>_ is URL for the site collection that you want to affect. 
+   -  _\<URL\>_ is URL for the site collection that you want to affect. 
     
-  -  _\<Value\>_ is either 'true' to allow site collection administrators to upgrade the site, or 'false' to not show them the notification and not allow them to upgrade. 
+   -  _\<Value\>_ is either 'true' to allow site collection administrators to upgrade the site, or 'false' to not show them the notification and not allow them to upgrade. 
     
 For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps&preserve-view=true) and [Get-SPSite](/powershell/module/sharepoint-server/Get-SPSite?view=sharepoint-ps&preserve-view=true).
   
@@ -141,11 +139,11 @@ You can control which mode (2010 or 2013, or both) can be used when a user creat
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
@@ -156,44 +154,44 @@ You can control which mode (2010 or 2013, or both) can be used when a user creat
     
 3. At the PowerShell command prompt, type the following commands to view the compatibility range settings for a web application:
     
-  ```
-  $wa=Get-SPWebApplication <URL>
-  # Stores the web application at that URL as a variable 
-  $wa.CompatibilityRange
-  # Returns the CompatibilityRange for the specified web application
-  ```
+    ```
+    $wa=Get-SPWebApplication <URL>
+    # Stores the web application at that URL as a variable 
+    $wa.CompatibilityRange
+    # Returns the CompatibilityRange for the specified web application
+    ```
 
-  Where:
+   Where:
     
-  -  _\<URL\>_ is URL for the web application that you want to check. 
+   -  _\<URL\>_ is URL for the web application that you want to check. 
     
    This command returns the compatibility range for the specified web application. For example:
     
-  ```
-  MaxCompatibilityLevel   MinCompatibilityLevel  DefaultCompatibilityLevel   Singular
-  ---------------------   ---------------------  -------------------------   --------
-                  15                    14                           15         False
+    ```
+    MaxCompatibilityLevel   MinCompatibilityLevel  DefaultCompatibilityLevel   Singular
+    ---------------------   ---------------------  -------------------------   --------
+                    15                    14                           15         False
   
-  ```
+    ```
 
 4. At the PowerShell command prompt, type the following commands to view the maximum, minimum, and default settings for a specific range:
     
-  ```
-  [Microsoft.SharePoint.SPCompatibilityRange]::<RangeName>
-  ```
+    ```
+    [Microsoft.SharePoint.SPCompatibilityRange]::<RangeName>
+    ```
 
-  Where:
+   Where:
     
-  -  _RangeName_ is one of the following values: **OldVersions**, **NewVersion**, **AllVersions**. 
+   -  _RangeName_ is one of the following values: **OldVersions**, **NewVersion**, **AllVersions**. 
     
    This command returns the compatibility range for the specified value. For example, for **NewVersion**: 
     
-  ```
-  MaxCompatibilityLevel   MinCompatibilityLevel  DefaultCompatibilityLevel   Singular
-  ---------------------   ---------------------  -------------------------   --------
+    ```
+    MaxCompatibilityLevel   MinCompatibilityLevel  DefaultCompatibilityLevel   Singular
+    ---------------------   ---------------------  -------------------------   --------
                  15                     15                           15         True
   
-  ```
+    ```
 
 For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps&preserve-view=true).
   
@@ -201,11 +199,11 @@ For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-s
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
@@ -216,54 +214,54 @@ For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-s
     
 3. At the PowerShell command prompt, type the following command to change the compatibility range settings to a specific range:
     
-  ```
-  $wa=Get-SPWebApplication <URL>
-  # Stores the web application at that URL as a variable 
-  $wa.CompatibilityRange = [Microsoft.SharePoint.SPCompatibilityRange]::<RangeName>
-  # Specifies which range to use
-  $wa.Update()
-  # Updates the CompatibilityRange setting to use only the range you specified
-  $wa.CompatibilityRange
-  # Returns the new CompatibilityRange for the web application
+    ```
+    $wa=Get-SPWebApplication <URL>
+    # Stores the web application at that URL as a variable 
+    $wa.CompatibilityRange = [Microsoft.SharePoint.SPCompatibilityRange]::<RangeName>
+    # Specifies which range to use
+    $wa.Update()
+    # Updates the CompatibilityRange setting to use only the range you specified
+    $wa.CompatibilityRange
+    # Returns the new CompatibilityRange for the web application
   
-  ```
+   ```
 
-  Where:
+   Where:
     
-  -  _\<URL\>_ is URL for the web application that you want to change. 
+   -  _\<URL\>_ is URL for the web application that you want to change. 
     
-  -  _RangeName_ is one of the following values: **OldVersions**, **NewVersion**, **AllVersions**. 
+   -  _RangeName_ is one of the following values: **OldVersions**, **NewVersion**, **AllVersions**. 
     
 4. At the PowerShell command prompt, type the following command to change the values for the CompatibilityRange manually:
     
-  ```
-  $wa=Get-SPWebApplication <URL>
-  # Stores the web application at that URL as a variable 
-  $range = New-Object Microsoft.SharePoint.SPCompatibilityRange(<Integer>,<Integer>)
-  # Creates a new compatibility range from <Integer> to <Integer>
-  $wa.CompatibilityRange = $range
-  # Specifies which range to use
-  $wa.Update()
-  #Updates the CompatibilityRange setting to use only the range you specified with $range
-  $wa.CompatibilityRange
-  # Returns the new CompatibilityRange for the web application
+    ```
+    $wa=Get-SPWebApplication <URL>
+    # Stores the web application at that URL as a variable 
+    $range = New-Object Microsoft.SharePoint.SPCompatibilityRange(<Integer>,<Integer>)
+    # Creates a new compatibility range from <Integer> to <Integer>
+    $wa.CompatibilityRange = $range
+    # Specifies which range to use
+    $wa.Update()
+    #Updates the CompatibilityRange setting to use only the range you specified with $range
+    $wa.CompatibilityRange
+    # Returns the new CompatibilityRange for the web application
   
-  ```
+    ```
 
-  Where:
+   Where:
     
-  -  _\<URL\>_ is URL for the web application that you want to change. 
+   -  _\<URL\>_ is URL for the web application that you want to change. 
     
-  -  _Integer_ is a number to use as the minimum or maximum value. For example, (14,15) would set the MinCompatibilityLevel to 14 (2010) and the MaxCompatibilityLevel to 15 (2013). The DefaultCompatibilityLevel is automatically set to the lower of the MaxCompatibilityLevel and the current major version (for example, 15). 
+   -  _Integer_ is a number to use as the minimum or maximum value. For example, (14,15) would set the MinCompatibilityLevel to 14 (2010) and the MaxCompatibilityLevel to 15 (2013). The DefaultCompatibilityLevel is automatically set to the lower of the MaxCompatibilityLevel and the current major version (for example, 15). 
     
    This command sets and then returns the range that you specified. For example:
     
-  ```
-  MaxCompatibilityLevel   MinCompatibilityLevel   DefaultCompatibilityLevel   Singular
-  ---------------------   ---------------------   -------------------------   --------
-                  15                     14                           15         False
+    ```
+    MaxCompatibilityLevel   MinCompatibilityLevel   DefaultCompatibilityLevel   Singular
+    ---------------------   ---------------------   -------------------------   --------
+                    15                     14                           15         False
   
-  ```
+    ```
 
 For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps&preserve-view=true).
   
@@ -296,11 +294,11 @@ The following procedure contains steps to view and manage the site collection up
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
@@ -323,13 +321,13 @@ The following procedure contains steps to view and manage the site collection up
     
 4. To see all sites that are currently being upgraded, at the PowerShell command prompt, type the following command:
     
-  ```
-  Get-SPSiteUpgradeSessionInfo -ContentDatabase <DatabaseName> -ShowInProgress
-  ```
+    ```
+    Get-SPSiteUpgradeSessionInfo -ContentDatabase <DatabaseName> -ShowInProgress
+    ```
 
-  Where:
+    Where:
     
-  -  _\<DatabaseName\>_ is name of the database that you want to check. You can also use the GUID for the database instead of the name. 
+   -  _\<DatabaseName\>_ is name of the database that you want to check. You can also use the GUID for the database instead of the name. 
     
    For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps&preserve-view=true). 
     
@@ -339,7 +337,7 @@ The following procedure contains steps to view and manage the site collection up
     Get-SPSiteUpgradeSessionInfo -Site <http://site>
     ```
 
-  Where:
+   Where:
     
    -  _\<http://site\>_ is URL for the site collection you want to add to the upgrade queue. 
     
@@ -351,9 +349,9 @@ The following procedure contains steps to view and manage the site collection up
     Upgrade-SPSite <http://site> -VersionUpgrade -QueueOnly
     ```
 
-  Where:
+   Where:
     
-  -  _\<http://site\>_ is URL for the site collection you want to add to the upgrade queue. 
+   -  _\<http://site\>_ is URL for the site collection you want to add to the upgrade queue. 
     
    For more information, see [Upgrade-SPSite](/powershell/module/sharepoint-server/Upgrade-SPSite?view=sharepoint-ps&preserve-view=true). 
     
@@ -363,9 +361,9 @@ The following procedure contains steps to view and manage the site collection up
     Remove-SPSiteUpgradeSessionInfo -Identity <URL>
     ```
 
-  Where:
+   Where:
     
-  -  _\<URL\>_ is URL for the site collection you want to add to the upgrade queue.
+   -  _\<URL\>_ is URL for the site collection you want to add to the upgrade queue.
   
   For more information, see [Remove-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Remove-SPSiteUpgradeSessionInfo?view=sharepoint-ps&preserve-view=true). 
     
@@ -382,46 +380,46 @@ The following procedure provides steps to view upgrade throttling settings for a
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+    - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
-    
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
+   An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets.
+  
+   > [!NOTE]
+   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps&preserve-view=true). 
   
 2. Start the SharePoint Management Shell. 
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  $wa = Get-SPWebApplication <URL>
-  $wa.SiteUpgradeThrottleSettings
-  ```
+    ```
+    $wa = Get-SPWebApplication <URL>
+    $wa.SiteUpgradeThrottleSettings
+    ```
 
-  Where:
+   Where:
     
-  -  _\<URL\>_ is URL for the web application that you want to check. 
+   -  _\<URL\>_ is URL for the web application that you want to check. 
     
    This command returns the set of throttling settings for the specified web application. For example:
     
-  ```
-  AppPoolConcurrentUpgradeSessionLimit : 5
-  UsageStorageLimit                    : 10
-  SubwebCountLimit                     : 10
-  Name                                 :
-  TypeName                             : Microsoft.SharePoint.Administration.SPSiteUpgradeThrottleSettings
-  DisplayName                          :
-  Id                                   : ca76dda0-7050-4c6b-a126-05917da39f8a
-  Status                               : Online
-  Parent                               : SPWebApplication Name=SharePoint - 80
-  Version                              : 8222
-  Properties                           : {}
-  Farm                                 : SPFarm Name=SharePoint_ConfigUpgradedPersistedProperties          : {}
-  ```
+    ```
+    AppPoolConcurrentUpgradeSessionLimit : 5
+    UsageStorageLimit                    : 10
+    SubwebCountLimit                     : 10
+    Name                                 :
+    TypeName                             : Microsoft.SharePoint.Administration.SPSiteUpgradeThrottleSettings
+    DisplayName                          :
+    Id                                   : ca76dda0-7050-4c6b-a126-05917da39f8a
+    Status                               : Online
+    Parent                               : SPWebApplication Name=SharePoint - 80
+    Version                              : 8222
+    Properties                           : {}
+    Farm                                 : SPFarm Name=SharePoint_ConfigUpgradedPersistedProperties          : {}
+    ```
 
 For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps&preserve-view=true).
   
@@ -431,11 +429,11 @@ You can change the upgrade throttle settings for a web application. The followin
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
@@ -446,22 +444,22 @@ You can change the upgrade throttle settings for a web application. The followin
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  $wa=Get-SPWebApplication <URL>
-  $wa.SiteUpgradeThrottleSettings.AppPoolConcurrentUpgradeSessionLimit=<Value>
-  $wa.SiteUpgradeThrottleSettings.UsageStorageLimit=<Value>
-  $wa.SiteUpgradeThrottleSettings.SubwebCountLimit=<Value>
-  ```
+    ```
+    $wa=Get-SPWebApplication <URL>
+    $wa.SiteUpgradeThrottleSettings.AppPoolConcurrentUpgradeSessionLimit=<Value>
+    $wa.SiteUpgradeThrottleSettings.UsageStorageLimit=<Value>
+    $wa.SiteUpgradeThrottleSettings.SubwebCountLimit=<Value>
+    ```
 
-  Where:
+   Where:
     
-  -  _\<URL\>_ is URL for the web applications that you want to affect. 
+   -  _\<URL\>_ is URL for the web applications that you want to affect. 
     
-  -  _Value_ is the numeric value that you want to set for that limit (for example, 8). 
+   -  _Value_ is the numeric value that you want to set for that limit (for example, 8). 
     
    This command changes the throttling settings for a web application to the value that you supply. 
     
-For more information, see [Set-SPWebApplication](/powershell/module/sharepoint-server/Set-SPWebApplication?view=sharepoint-ps&preserve-view=true). 
+   For more information, see [Set-SPWebApplication](/powershell/module/sharepoint-server/Set-SPWebApplication?view=sharepoint-ps&preserve-view=true). 
   
 The following procedure provides steps to view upgrade throttling settings for a content database. 
   
@@ -469,11 +467,11 @@ The following procedure provides steps to view upgrade throttling settings for a
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
@@ -484,19 +482,19 @@ The following procedure provides steps to view upgrade throttling settings for a
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  $db = Get-SPContentDatabase <DatabaseName> 
-  # Stores the database name as a variable to use in the next command
-  ```
+    ```
+    $db = Get-SPContentDatabase <DatabaseName> 
+    # Stores the database name as a variable to use in the next command
+    ```
 
-  ```
-  $db.ConcurrentSiteUpgradeSessionLimit
-  # Returns the value for the limit for that database
-  ```
+    ```
+    $db.ConcurrentSiteUpgradeSessionLimit
+    # Returns the value for the limit for that database
+    ```
 
-  Where:
+   Where:
     
-  -  _\<DatabaseName\>_ is name of the database that you want to check. You can also use the GUID for the database instead of the name. 
+   -  _\<DatabaseName\>_ is name of the database that you want to check. You can also use the GUID for the database instead of the name. 
     
    This command returns the set of throttling settings for the specified content database.
     
@@ -508,11 +506,11 @@ You can change the upgrade throttle settings for a content database. The followi
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
@@ -523,21 +521,21 @@ You can change the upgrade throttle settings for a content database. The followi
     
 3. At the PowerShell command prompt, type the following commands:
     
-  ```
-  $db = Set-SPContentDatabase <DatabaseName>
-  # Stores the database name as a variable to use in the next command
-  ```
+    ```
+    $db = Set-SPContentDatabase <DatabaseName>
+    # Stores the database name as a variable to use in the next command
+    ```
 
-  ```
-  $db.ConcurrentSiteUpgradeSessionLimit=<value>
-  # Changes the limit to the value you specify.
-  ```
+    ```
+    $db.ConcurrentSiteUpgradeSessionLimit=<value>
+    # Changes the limit to the value you specify.
+    ```
 
-  Where:
+   Where:
     
-  -  _\<DatabaseName\>_ is name of the database that you want to affect. You can also use the GUID for the database instead of the name. 
+   -  _\<DatabaseName\>_ is name of the database that you want to affect. You can also use the GUID for the database instead of the name. 
     
-  -  _\<value\>_ is a numeric value to set the property to, such as 9. 
+   -  _\<value\>_ is a numeric value to set the property to, such as 9. 
     
    This command changes the throttling settings for the specified content database to the value that you supply.
     
@@ -552,13 +550,13 @@ Site collection administrators can request a preview of their site collection. T
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-  - Either a site collection administrator or be granted full control (for repair mode) for the web application by policy. For more information about permission policies for web applications, see [Manage permission policies for a web application in SharePoint Server](../administration/manage-permission-policies-for-a-web-application.md).
+   - Either a site collection administrator or be granted full control (for repair mode) for the web application by policy. For more information about permission policies for web applications, see [Manage permission policies for a web application in SharePoint Server](../administration/manage-permission-policies-for-a-web-application.md).
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
