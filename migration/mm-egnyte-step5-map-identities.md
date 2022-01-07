@@ -9,6 +9,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 localization_priority: Priority
 ms.collection: 
 - m365solution-migratefileshares

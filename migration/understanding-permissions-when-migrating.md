@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: conceptual
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: medium
 mscollection: 
 - SPMigration
