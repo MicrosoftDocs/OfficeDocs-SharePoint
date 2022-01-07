@@ -79,9 +79,9 @@ The following steps provide a high-level overview of the tasks that are involved
     
 4. [Prepare the SharePoint servers that host a crawl component](configure-and-use-the-documentum-connector.md#DCTM_PrepareCrawlServer). On each server:
     
-  - [Set the DFS Productivity Layer .NET assemblies](configure-and-use-the-documentum-connector.md).
+    - [Set the DFS Productivity Layer .NET assemblies](configure-and-use-the-documentum-connector.md#DCTM_Assemblies).
     
-  - [Edit the machine.config file](configure-and-use-the-documentum-connector.md#DCTM_machineconfig) to set the Documentum bindings. 
+    - [Edit the machine.config file](configure-and-use-the-documentum-connector.md#DCTM_machineconfig) to set the Documentum bindings. 
     
 ### 2. Install the Indexing Connector for Documentum
 
@@ -116,15 +116,36 @@ The following steps provide a high-level overview of the tasks that are involved
 1. You have to specify the Documentum content access account and the password later in the configuration procedure when you set up crawl rules. The Indexing Connector for Documentum uses the content access account to retrieve content from the Documentum repository. This account must have the following minimum permissions:
     
    - Read permission to documents that you want to crawl.
-    
-  he WCF settings that you are about to set in [Edit the machine.config file](configure-and-use-the-documentum-connector.md#DCTM_machineconfig) allow a maximum of 30 megabytes (MB) per Documentum content object (the document file plus its metadata) transferred. The administrator can increase  *maxReceivedMessageSize*  in  *DfsDefaultService*  binding for larger content. 
+   - Browse permission to cabinets, folders, and records (documents with only metadata) that you want to crawl.
+
+### <a name="DCTM_Assemblies"></a>Set the DFS Productivity Layer .NET assemblies
+
+1. Locate the following DFS Productivity Layer .NET assemblies and verify that the version number is **6.7.2000.36** for all files. When extracted to the default path, these files are located in the  `%local%\emc-dfs-sdk-6.7\emc-dfs-sdk-6.7\lib\dotnet` directory. 
+
+   - Emc.Documentum.FS.DataModel.Core.dll
+
+   - Emc.Documentum.FS.DataModel.Shared.dll
+ 
+   - Emc.Documentum.FS.runtime.dll
+
+   - Emc.Documentum.FS.Services.Core.dll
+
+2. On each server that hosts a crawl component, log on with an account that is a member of the Administrators group on that server and deploy the DFS Productivity Layer .NET assemblies to the global assembly cache  `%windir%\assembly`.
+
+    > [!NOTE]
+    > You can drag and drop the four DLLs into the global assembly cache ( `%windir%\assembly`) to deploy them, but you might have to turn off User Account Control to do this. 
+  
+The following procedure explains how to edit the machine.config file on each SharePoint server that hosts a crawl component to include WCF settings for the DFS Productivity Layer. This is done to make sure that the DFS Productivity Layer .NET assemblies function correctly.
+  
+The WCF settings that you are about to set in [Edit the machine.config file](configure-and-use-the-documentum-connector.md#DCTM_machineconfig) allow a maximum of 30 megabytes (MB) per Documentum content object (the document file plus its metadata) transferred. The administrator can increase  *maxReceivedMessageSize*  in  *DfsDefaultService*  binding for larger content. 
+ 
   
 ### <a name="DCTM_machineconfig"></a>Edit the machine.config file
 
 1. On each server that hosts a crawl component, open the machine.config file. This file is located in the directory  `%windir%\Microsoft.NET\Framework64\v4.0.30319\Config`.
     
 2. Copy the following XML snippet to the **\<configuration\>** element: 
-    
+ 
     ```
     <system.serviceModel>
     <bindings>
@@ -136,10 +157,10 @@ The following steps provide a high-level overview of the tasks that are involved
      messageEncoding="Text" textEncoding="utf-8" transferMode="Buffered"
      useDefaultWebProxy="true">
     <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
-    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+      maxBytesPerRead="4096" maxNameTableCharCount="16384" />
     <security mode="None">
     <transport clientCredentialType="None" proxyCredentialType="None"
-  realm="" />
+    realm="" />
     <message clientCredentialType="UserName" algorithmSuite="Default" />
     </security>
     </binding>
@@ -148,7 +169,7 @@ The following steps provide a high-level overview of the tasks that are involved
        allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
        maxBufferSize="10000000" maxBufferPoolSize="10000000" maxReceivedMessageSize="10000000"
        messageEncoding="Text" textEncoding="utf-8" transferMode="Buffered"
-     useDefaultWebProxy="true">
+       useDefaultWebProxy="true">
     <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
     maxBytesPerRead="4096" maxNameTableCharCount="16384" />
     <security mode="None">
@@ -368,19 +389,19 @@ Before you can add the pre- and post- security trimmers, you must add one simple
     New-SPEnterpriseSearchSecurityTrimmer -SearchApplication <name of your Search service application> -typeName "Microsoft.Office.Server.Search.Connector.Documentum.Trimmers.DctmTrimPre, Microsoft.Office.Server.Search.Connector.Documentum.Trimmers, Version=15.0.0.0,Culture=neutral, PublicKeyToken=48e046c834625a88, processorArchitecture=MSIL" -id 26 -RulePath dctm:\\*
     New-SPEnterpriseSearchSecurityTrimmer -SearchApplication <name of your Search service application> -typeName "Microsoft.Office.Server.Search.Connector.Documentum.Trimmers.DctmTrimPost, Microsoft.Office.Server.Search.Connector.Documentum.Trimmers, Version=15.0.0.0,Culture=neutral, PublicKeyToken=48e046c834625a88, processorArchitecture=MSIL" -id 17 -RulePath dctm:\\*
     
-  ```
+    ```
 
-    Where:
+   Where:
     
-     -  _\<name of your Search service application\>_ is the name of the Search service application. 
+   -  _\<name of your Search service application\>_ is the name of the Search service application.
     
 3. Restart the SharePoint Search Host Controller. 
     
-    - Open a Command Prompt window. 
+   - Open a Command Prompt window. 
     
-    - To stop the SharePoint Search Host Controller, type this command: **net stop spsearchhostcontroller**
+   - To stop the SharePoint Search Host Controller, type this command: **net stop spsearchhostcontroller**
     
-    - To start the SharePoint Search Host Controller, type this command: **net start spsearchhostcontroller**
+   - To start the SharePoint Search Host Controller, type this command: **net start spsearchhostcontroller**
     
 4. Continue with [Create a Documentum content source](configure-and-use-the-documentum-connector.md#DCTM_Content_source).
     
@@ -427,7 +448,7 @@ Example:
   
 A Documentum repository user Dan Park has a logon that is linked to the Finance repository. Dan's Windows domain user account is Contoso\dpark. In this case, the user mapping table entry for Dan should be:
   
-|                          |               |
+| &nbsp; | &nbsp; |
 | :----------------------- | :------------ |
 | DCTMCredentialDomain     | ''            |
 | DCTMCredentialRepository | Finance       |
@@ -512,13 +533,13 @@ Before a crawl, you must create at least one crawl rule to authenticate the craw
     
 6. On the Add Crawl Rule page, specify the following information:
     
-  - In the **Path** box, type the path to which the crawl rule will apply. You can use standard wildcard characters. To use regular expressions instead of wildcard characters, select **Use regular expression syntax for matching this rule**. For examples, see [Syntax to refer to a Documentum object](configure-and-use-the-documentum-connector.md#DCTM_Syntax).
+   - In the **Path** box, type the path to which the crawl rule will apply. You can use standard wildcard characters. To use regular expressions instead of wildcard characters, select **Use regular expression syntax for matching this rule**. For examples, see [Syntax to refer to a Documentum object](configure-and-use-the-documentum-connector.md#DCTM_Syntax).
     
-  - In **Crawl Configuration** section, select **Include all items in this path**, and then select **Crawl complex URLs (URLs that contain a question mark - ?)**.
+   - In **Crawl Configuration** section, select **Include all items in this path**, and then select **Crawl complex URLs (URLs that contain a question mark - ?)**.
     
-  - In the **Specify Authentication** section, select **Specify a different content access account**, and then type the Documentum content access account and password in the boxes. See _Determine which Documentum content access account to use_  earlier in this article. 
+   - In the **Specify Authentication** section, select **Specify a different content access account**, and then type the Documentum content access account and password in the boxes. See _Determine which Documentum content access account to use_  earlier in this article. 
     
-  - Make sure that the **Do not allow Basic Authentication** check box is cleared. 
+   - Make sure that the **Do not allow Basic Authentication** check box is cleared. 
     
 7. Click **OK** to add the crawl rule. 
     
@@ -544,19 +565,19 @@ You create a content source for Documentum content to specify which Documentum c
     
 6. On the Add Content Source page, do the following:
     
-  - In the **Name** box, type the name for the new content source. 
+   1. In the **Name** box, type the name for the new content source. 
     
-  - In the **Content Source Type** section, select **Custom Repository**.
+   1. In the **Content Source Type** section, select **Custom Repository**.
     
-  - In the **Type of Repository** section, select **SharePoint Indexing Connector for Documentum**. Use the name that you specified when you registered the Indexing Connector for Documentum with the Search service application. 
+   1. In the **Type of Repository** section, select **SharePoint Indexing Connector for Documentum**. Use the name that you specified when you registered the Indexing Connector for Documentum with the Search service application. 
     
-  - In the **Start Addresses** section, type the start addresses. The start address format is the same as the path pattern. You can type more than one start address for the content source, one per line. For examples, see [Syntax to refer to a Documentum object](configure-and-use-the-documentum-connector.md#DCTM_Syntax).
+   1. In the **Start Addresses** section, type the start addresses. The start address format is the same as the path pattern. You can type more than one start address for the content source, one per line. For examples, see [Syntax to refer to a Documentum object](configure-and-use-the-documentum-connector.md#DCTM_Syntax).
     
-  - In the **Crawl Schedules** section, select schedules from the **Full Crawl** and **Incremental Crawl** drop-down lists, or create schedules for each kind of crawl. 
+   1. In the **Crawl Schedules** section, select schedules from the **Full Crawl** and **Incremental Crawl** drop-down lists, or create schedules for each kind of crawl. 
     
-  - In the **Content Source Priority** section, assign a priority level to the content source according to your business requirements. 
+   1. In the **Content Source Priority** section, assign a priority level to the content source according to your business requirements. 
     
-  - Click **OK**.
+   1. Click **OK**.
     
 7. On the **Manage Content Sources** page, right-click the content source for Documentum and click **Start Full Crawl**.
     
