@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -64,5 +65,5 @@ For the complete list of all required endpoints:  [Prerequisites & Endpoints for
 
 |Government endpoints|For|
 |:-----|:-----|
-|https://<spam><spam>*.blob.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
-|https://<spam><spam>*.queue.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
+|https://\<spam\>\<spam\>*.blob.core.usgovcloudapi.\<spam\>\<spam\>net|Migration API Azure Government requirement|
+|https://\<spam\>\<spam\>*.queue.core.usgovcloudapi.\<spam\>\<spam\>net|Migration API Azure Government requirement|

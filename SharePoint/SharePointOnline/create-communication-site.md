@@ -1,8 +1,8 @@
 ---
 title: Guided walkthrough - Create a communication site
 ms.reviewer: hokavian
-ms.author: dowallace
-author: dowallace
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin

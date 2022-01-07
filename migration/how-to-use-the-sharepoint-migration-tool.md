@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - IT_Sharepoint_Server_Top
@@ -35,7 +36,7 @@ Download and install SPMT using one of the links listed below.
 |[Install here](https://spmt.sharepointonline.com/betainstall/default.htm) |[Install here](https://aka.ms/spmt-ga-page)|[Install here](https://aka.ms/spmt-ga-page)|
 
 
-#### Before you begin
+### Before you begin
 
 Before you begin using SPMT, review the required permissions, prerequisites, and endpoints.
 
@@ -45,7 +46,7 @@ Before you begin using SPMT, review the required permissions, prerequisites, and
 |Prerequisites and Endpoints| Review the [SPMT system prerequisites and endpoints](spmt-prerequisites.md)|
 |SPMT Settings|Review [SPMT settings](spmt-settings.md) to understand how settings can impact your migration|
 
-##### Understanding Custom scripts 
+### Understanding Custom scripts 
 
 **Allow or prevent Custom Script (NoScript)**<br/>
 
@@ -75,7 +76,43 @@ At least 24 hours before you start migration, do the following:
    For more info, see, [Allow or prevent custom script](/sharepoint/allow-or-prevent-custom-script).
   
       
-## Next step
+
+## Proxy connections
+
+Proxy connections are not supported for either SharePoint or file share migrations. By default, SPMT doesn't use system proxy credentials and web requests will fail if Internet Explorer proxy is configured. Examples of errors you may see include "SharePoint login fail" or "cannot load document library". However, you can modify the SPMT app config file to follow your system proxy settings. 
+
+If you wish to leverage your system proxy settings, use one of these methods:
+
+**Update proxy** 
+
+1. Download the latest version of SPMT. Start SPMT.
+2. If SPMT doesn't connect to Microsoft 365, go to  **%localappdata%\Apps\SharePointMigrationTool\SPMT**.
+3. Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
+4. Comment out the default proxy setting shown here:
+    ![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)
+
+5. Restart SPMT.
+
+</br>
+
+**If SPMT doesn't upgrade**
+
+1. If SPMT cannot upgrade itself, go to **%localappdata%\Apps\SharePointMigrationTool\InstallerClient.**
+2. Open the **installclient.exe.config** file. 
+3. Add the following configuration at line 31, just after the ```<appSettings></appSettings``` tag: 
+</br>
+
+   ![Edit the config file](media/spmt-proxy-edits.png)
+
+4. Launch installclient.exe and SPMT should auto-upgrade to latest SPMT release.
+5. Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
+6. Comment out the default proxy setting:
+7. 
+    ![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)
+
+5. Restart SPMT.
+6. 
+7. ## Next step
 
 [**Step 2: Create a migration task**](spmt-create-task.md) 
     

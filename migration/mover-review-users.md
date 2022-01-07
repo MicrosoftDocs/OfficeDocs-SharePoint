@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -67,9 +68,6 @@ Tips for creating the CSV:
         
         You'll now be able to see the ID appearing in each row. If you refresh the page, this info disappears unless you select **Save Column State**.
 
-Download an example CSV here:
-
-[example_path_edit.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_path_edit.csv)
 
 ![Add ID customize column](media/add-id-customize-column.png)
 
