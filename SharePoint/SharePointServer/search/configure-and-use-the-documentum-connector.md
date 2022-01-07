@@ -448,7 +448,7 @@ Example:
   
 A Documentum repository user Dan Park has a logon that is linked to the Finance repository. Dan's Windows domain user account is Contoso\dpark. In this case, the user mapping table entry for Dan should be:
   
-|                          |               |
+| &nbsp; | &nbsp; |
 | :----------------------- | :------------ |
 | DCTMCredentialDomain     | ''            |
 | DCTMCredentialRepository | Finance       |
