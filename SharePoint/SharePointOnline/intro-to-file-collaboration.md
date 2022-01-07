@@ -1,8 +1,8 @@
 ---
 title: "File collaboration in Microsoft 365 - SharePoint"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin

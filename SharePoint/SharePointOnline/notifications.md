@@ -1,8 +1,8 @@
 ---
 title: "Control notifications"
 ms.reviewer: shahna
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
