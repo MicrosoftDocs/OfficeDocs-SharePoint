@@ -1,5 +1,5 @@
 ---
-title: "Introduction of Remote Share Provider"
+title: "Introduction of a new RBS provider **Remote Share Provider**."
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
