@@ -15,7 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: d359cdaa-0ebd-4c59-8fc5-002cba241b18
-description: "Learn about how to use Remote BLOB Storage (RBS) in a SharePoint Server farm."
+description: "Learn about a new RBS provider."
 ---
 
 # Remote Share Provider
