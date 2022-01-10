@@ -31,12 +31,12 @@
 #### [Step 4: Review destination paths](mm-Dropbox-step4-review-destinations.md)
 #### [Step 5: Map identities](mm-Dropbox-step5-map-identities.md)
 #### [Step 6: Migrate and Monitor](mm-Dropbox-step6-migrate-monitor.md)
-### Migrate SharePoint Server sites and content
+### Migrate SharePoint Server sites and content with SPMT
 #### [Overview](introducing-the-sharepoint-migration-tool.md)
 #### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
 #### [Step 2: Create a migration task](spmt-create-task.md)
 #### [Step 3: Monitor and report](using-the-sharepoint-migration-tool-reports.md)
-### Migrate SharePoint Server workflows
+### Migrate SharePoint Server workflows with SPMT
 #### [Overview](spmt-workflow-overview.md)
 #### [Step 1: Configure endpoints and Power Automate](spmt-workflow-step1.md)
 #### [Step 2: Migrate workflows](spmt-workflow-step2.md)
@@ -44,7 +44,7 @@
 
 
 ## Migration Manager Reference
-### FS Reference
+### File share Reference
 #### [Prerequisites and endpoints](mm-prerequisites.md)
 #### [Migration solutions posters](migration-solution-posters.md)
 #### [Settings](mm-settings.md)
@@ -58,16 +58,13 @@
 #### [FAQs](mm-faqs.md)
 #### [How to reinstall a Migration agent](mm-reinstall-agent.md)
 #### [Troubleshooting](mm-troubleshoot.md)
-
 ### BOX Reference
 #### [FAQs](mm-faqs-box.md)
 #### [Format a CSV file for bulk upload](mm-box-bulk-upload-source-paths-csv.md)
 #### [Troubleshooting](mm-box-troubleshooting.md)
-
 ### GOOGLE Reference
 #### [FAQs](mm-faqs-google.md)
 #### [Bulk upload Google drives using a CSV file](mm-google-bulk-upload-source-paths-csv.md)
-
 ### DROPBOX eference
 #### [FAQs](mm-faqs-dropbox.md)
 #### [Bulk upload Dropbox accounts using a CSV file](mm-dropbox-bulk-upload-source-paths-csv.md)
