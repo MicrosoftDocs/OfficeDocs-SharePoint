@@ -1,6 +1,7 @@
 # [Migrate to Microsoft 365](migrate-to-sharepoint-online.md)
 ## [What's new in Migration Manager](mm-whats-new.md)
 ## [What's new in SPMT](new-and-improved-features-in-the-sharepoint-migration-tool.md)
+## [Migration solutions posters](migration-solution-posters.md)
 ## Solutions
 ### Migrate file shares
 #### [Overview](mm-get-started.md)
@@ -41,12 +42,9 @@
 #### [Step 1: Configure endpoints and Power Automate](spmt-workflow-step1.md)
 #### [Step 2: Migrate workflows](spmt-workflow-step2.md)
 #### [Step 3: Activate workflows](spmt-workflow-step3.md)
-
-
 ## Migration Manager Reference
 ### File share Reference
 #### [Prerequisites and endpoints](mm-prerequisites.md)
-#### [Migration solutions posters](migration-solution-posters.md)
 #### [Settings](mm-settings.md)
 #### [Create an Agent group](mm-agent-targeting.md)
 #### [Government cloud configuration](mm-gov-cloud.md)
@@ -69,7 +67,6 @@
 #### [FAQs](mm-faqs-dropbox.md)
 #### [Bulk upload Dropbox accounts using a CSV file](mm-dropbox-bulk-upload-source-paths-csv.md)
 ## SPMT Reference
-### [Migration solutions posters](migration-solution-posters.md)
 ### [Prerequisites and endpoints](spmt-prerequisites.md)
 ### [Supported features](what-is-supported-spmt.md)
 ### [Supported SharePoint list templates](sharepoint-migration-supported-list-templates.md) 
