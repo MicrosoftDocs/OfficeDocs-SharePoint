@@ -3,7 +3,7 @@
 ## [What's new in SPMT](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 ## Solutions
 ### Migrate file shares
-### [Overview](mm-get-started.md)
+#### [Overview](mm-get-started.md)
 #### [Step 1: Set up Migration Manager agents](mm-setup-clients.md)
 #### [Step 2: Scan sources and assess](mm-fileshare-scan-assess.md)
 #### [Step 3: Copy to Migrations](mm-fileshare-copy-to-migrations.md)
@@ -25,7 +25,7 @@
 #### [Step 6: Migrate and Monitor](mm-google-step6-migrate-monitor.md)
 ### Migrate from Dropbox
 #### [Overview](mm-Dropbox-overview.md)
-### [Step 1: Connect to Dropbox](mm-Dropbox-step1-connect.md)
+#### [Step 1: Connect to Dropbox](mm-Dropbox-step1-connect.md)
 #### [Step 2: Scan and assess](mm-Dropbox-step2-scan-assess.md)
 #### [Step 3: Copy to Migrations list](mm-Dropbox-step3-copy-to-migrations.md)
 #### [Step 4: Review destination paths](mm-Dropbox-step4-review-destinations.md)
@@ -73,7 +73,7 @@
 ### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
 ### [Step 2: Create a migration task](spmt-create-task.md)
 ### [Step 3: Monitor and report](using-the-sharepoint-migration-tool-reports.md)
-### Reference
+### SMPT Reference
 #### [Migration solutions posters](migration-solution-posters.md)
 #### [Prerequisites and endpoints](spmt-prerequisites.md)
 #### [Supported features](what-is-supported-spmt.md)
