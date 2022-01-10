@@ -43,6 +43,7 @@
 #### [Step 2: Migrate workflows](spmt-workflow-step2.md)
 #### [Step 3: Activate workflows](spmt-workflow-step3.md)
 ## Migration Manager Reference
+### [Error codes](mm-error-codes.md)
 ### File share Reference
 #### [Prerequisites and endpoints](mm-prerequisites.md)
 #### [Settings](mm-settings.md)
