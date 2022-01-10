@@ -58,19 +58,16 @@
 #### [FAQs](mm-faqs.md)
 #### [How to reinstall a Migration agent](mm-reinstall-agent.md)
 #### [Troubleshooting](mm-troubleshoot.md)
-### BOX Reference
+### Box Reference
 #### [FAQs](mm-faqs-box.md)
 #### [Format a CSV file for bulk upload](mm-box-bulk-upload-source-paths-csv.md)
 #### [Troubleshooting](mm-box-troubleshooting.md)
-### GOOGLE Reference
+### Google  Reference
 #### [FAQs](mm-faqs-google.md)
 #### [Bulk upload Google drives using a CSV file](mm-google-bulk-upload-source-paths-csv.md)
-### DROPBOX eference
+### Dropbox  Reference
 #### [FAQs](mm-faqs-dropbox.md)
 #### [Bulk upload Dropbox accounts using a CSV file](mm-dropbox-bulk-upload-source-paths-csv.md)
-
-
-
 ## SPMT Reference
 ### [Migration solutions posters](migration-solution-posters.md)
 ### [Prerequisites and endpoints](spmt-prerequisites.md)
@@ -133,6 +130,7 @@
 ### [SharePoint Migration Identity Mapping: Active Directory Identity Scan](sharepoint-migration-identity-mapping-active-directory-identity-scan.md)
 ### [SharePoint Migration Identity Mapping Tool: Azure Active Directory Identity Scan](sharepoint-migration-identity-mapping-tool-azure-active-directory-identity-scan.md)
 ## Other migrations (Legacy Mover tool)
+### [Mover managed migration guide](mover-managed-migration-guide.md)
 ###  Overview
 #### [Plan your migration](mover-plan-migration.md)
 #### [Manage connectors](mover-manage-connectors.md)
@@ -170,7 +168,6 @@
 #### [Error messages](mover-error-faq.md)
 #### [Account FAQ](mover-account-faq.md)
 #### [Mover Migration FAQ](mover-migration-faq.md)
-## [Mover managed migration guide](mover-managed-migration-guide.md)
 ## [Migrate to Microsoft 365 using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to Microsoft 365 using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## Migration performance
