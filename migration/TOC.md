@@ -1,12 +1,40 @@
 # [Migrate to Microsoft 365](migrate-to-sharepoint-online.md)
 ## [What's new in Migration Manager](mm-whats-new.md)
 ## [What's new in SPMT](new-and-improved-features-in-the-sharepoint-migration-tool.md)
-## Migrate file shares
+## Solutions
+### Migrate file shares
 ### [Overview](mm-get-started.md)
-### [Step 1: Set up Migration Manager agents](mm-setup-clients.md)
-### [Step 2: Scan sources and assess](mm-fileshare-scan-assess.md)
-### [Step 3: Copy to Migrations](mm-fileshare-copy-to-migrations.md)
-### Reference
+#### [Step 1: Set up Migration Manager agents](mm-setup-clients.md)
+#### [Step 2: Scan sources and assess](mm-fileshare-scan-assess.md)
+#### [Step 3: Copy to Migrations](mm-fileshare-copy-to-migrations.md)
+### Migrate from Box
+#### [Overview](mm-box-overview.md)
+#### [Step 1: Connect to Box](mm-box-step1-connect.md)
+#### [Step 2: Scan and assess](mm-box-step2-scan-assess.md)
+#### [Step 3: Copy to Migrations list](mm-box-step3-copy-to-migrations.md)
+#### [Step 4: Review destination paths](mm-box-step4-review-destinations.md)
+#### [Step 5: Map identities](mm-box-step5-map-identities.md)
+#### [Step 6: Migrate and Monitor](mm-box-step6-migrate-monitor.md)
+### Migrate from Google Workspace
+#### [Overview](mm-google-overview.md)
+#### [Step 1: Connect to Google Workspace](mm-google-step1-connect.md)
+#### [Step 2: Scan and assess](mm-google-step2-scan-assess.md)
+#### [Step 3: Copy to Migrations list](mm-google-step3-copy-to-migrations.md)
+#### [Step 4: Review destination paths](mm-google-step4-review-destinations.md)
+#### [Step 5: Map identities](mm-google-step5-map-identities.md)
+#### [Step 6: Migrate and Monitor](mm-google-step6-migrate-monitor.md)
+### Migrate from Dropbox
+#### [Overview](mm-Dropbox-overview.md)
+### [Step 1: Connect to Dropbox](mm-Dropbox-step1-connect.md)
+#### [Step 2: Scan and assess](mm-Dropbox-step2-scan-assess.md)
+#### [Step 3: Copy to Migrations list](mm-Dropbox-step3-copy-to-migrations.md)
+#### [Step 4: Review destination paths](mm-Dropbox-step4-review-destinations.md)
+#### [Step 5: Map identities](mm-Dropbox-step5-map-identities.md)
+#### [Step 6: Migrate and Monitor](mm-Dropbox-step6-migrate-monitor.md)
+
+
+## Migration Manager Reference
+### FS Reference
 #### [Prerequisites and endpoints](mm-prerequisites.md)
 #### [Migration solutions posters](migration-solution-posters.md)
 #### [Settings](mm-settings.md)
@@ -20,40 +48,21 @@
 #### [FAQs](mm-faqs.md)
 #### [How to reinstall a Migration agent](mm-reinstall-agent.md)
 #### [Troubleshooting](mm-troubleshoot.md)
-## Migrate from Box
-### [Overview](mm-box-overview.md)
-### [Step 1: Connect to Box](mm-box-step1-connect.md)
-### [Step 2: Scan and assess](mm-box-step2-scan-assess.md)
-### [Step 3: Copy to Migrations list](mm-box-step3-copy-to-migrations.md)
-### [Step 4: Review destination paths](mm-box-step4-review-destinations.md)
-### [Step 5: Map identities](mm-box-step5-map-identities.md)
-### [Step 6: Migrate and Monitor](mm-box-step6-migrate-monitor.md)
-### Reference
+
+### BOX Reference
 #### [FAQs](mm-faqs-box.md)
 #### [Format a CSV file for bulk upload](mm-box-bulk-upload-source-paths-csv.md)
 #### [Troubleshooting](mm-box-troubleshooting.md)
-## Migrate from Google Workspace
-### [Overview](mm-google-overview.md)
-### [Step 1: Connect to Google Workspace](mm-google-step1-connect.md)
-### [Step 2: Scan and assess](mm-google-step2-scan-assess.md)
-### [Step 3: Copy to Migrations list](mm-google-step3-copy-to-migrations.md)
-### [Step 4: Review destination paths](mm-google-step4-review-destinations.md)
-### [Step 5: Map identities](mm-google-step5-map-identities.md)
-### [Step 6: Migrate and Monitor](mm-google-step6-migrate-monitor.md)
-### Reference
+
+### GOOGLE Reference
 #### [FAQs](mm-faqs-google.md)
 #### [Bulk upload Google drives using a CSV file](mm-google-bulk-upload-source-paths-csv.md)
-## Migrate from Dropbox
-### [Overview](mm-Dropbox-overview.md)
-### [Step 1: Connect to Dropbox](mm-Dropbox-step1-connect.md)
-### [Step 2: Scan and assess](mm-Dropbox-step2-scan-assess.md)
-### [Step 3: Copy to Migrations list](mm-Dropbox-step3-copy-to-migrations.md)
-### [Step 4: Review destination paths](mm-Dropbox-step4-review-destinations.md)
-### [Step 5: Map identities](mm-Dropbox-step5-map-identities.md)
-### [Step 6: Migrate and Monitor](mm-Dropbox-step6-migrate-monitor.md)
-### Reference
+
+### DROPBOX eference
 #### [FAQs](mm-faqs-dropbox.md)
 #### [Bulk upload Dropbox accounts using a CSV file](mm-dropbox-bulk-upload-source-paths-csv.md)
+
+
 ## Migrate SharePoint Server workflows
 ### [Overview](spmt-workflow-overview.md)
 ### [Step 1: Configure endpoints and Power Automate](spmt-workflow-step1.md)
