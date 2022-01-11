@@ -114,7 +114,7 @@ When you upload a custom app to the App Catalog, it's available for users to ins
   
 9. Review and edit the **Name** for the app and enter optional information like a description, images, category, publisher, and support URL. Follow the instructions on the screen for details like image size.
     
-10. Make sure the **Enabled** checkbox is selected so that users are able to add this app to sites.
+10. Make sure the **Enabled** checkbox is selected so that users are able to add and use this app in sites.
     
 11. If it appears, in the **Hosting Licenses** box, specify the number of licenses you think you will need.
     

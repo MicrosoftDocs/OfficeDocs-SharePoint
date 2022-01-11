@@ -27,6 +27,7 @@ Authentication contexts are used with sensitivity labels to connect [Azure AD co
 
 > [!NOTE]
 > If you don't use sensitivity labels with SharePoint sites, you can directly apply an authentication context to a SharePoint site by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet.
+> This capability can't be applied to the root site in SharePoint (for example, https://contoso.sharepoint.com).
 
 ## Requirements
 
