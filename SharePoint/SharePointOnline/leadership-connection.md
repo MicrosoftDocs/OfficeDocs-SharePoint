@@ -12,6 +12,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - m365solution-corpcomms
+  - m365solution-scenario
 description: "Use Microsoft 365 to connect leaders and teams"
 ---
 
