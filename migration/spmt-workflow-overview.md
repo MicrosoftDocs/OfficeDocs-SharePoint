@@ -33,7 +33,7 @@ Using the SharePoint Migration Tool (SPMT), you can now migrate:
 - Workflow definitions and associations
 
 >[!Note]
-> Currently, the migration of workflows created with SharePoint Designer or SharePoint Server 2013 is not supported.
+> Workflows created with SharePoint Designer or SharePoint Server 2013 are currently not supported.
 
 
 ## How does it work?

@@ -1,5 +1,5 @@
 ---
-title: How does Migration Manager work
+title: How does Migration Manager work for file share migrations
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
@@ -18,7 +18,7 @@ ms.collection:
 search.appverid: MET150
 description: "Learn how File share migration works when using Migration Manager in Microsoft 365 SharePoint admin center."
 ---
-# How does Migration Manager work for file share migrations?
+# How does Migration Manager work for file share migrations
 
 The Migration Manager centralizes the management of large file share migrations by configuring one or more computers or virtual machines (VMs) as migration "agents".  Each computer or VM can be running migration tasks simultaneously. 
 
