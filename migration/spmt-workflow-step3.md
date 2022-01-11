@@ -19,8 +19,7 @@ ms.custom:
 ms.assetid: 
 description: "The third step in migrating SharePoint Server workflows to Microsoft 365, activating the migrating flows."
 ---
-# Step 3 - Activate workflows 
-
+# Step 3 - Activate migrated workflows Power Automate
 >[!Note]
 >This feature is currently in public preview, and subject to change.
 
