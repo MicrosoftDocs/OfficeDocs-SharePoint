@@ -204,8 +204,8 @@ This issue only blocks the UI from displaying the list of search configuration f
 
 Since you are unable to check the status of the search configuration file you imported from the UI, you could choose an alternative way to access the list, like [SharePoint CSOM API](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) or [SharePoint Online REST API](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-rest-endpoints).
 
- **Unable to export stale search configuration xml file**
+ **Unable to export stale search configuration XML file**
 
-If the search configuration file is exported long time ago, then the import might fail.
+If the search configuration file was exported a long time ago, the import might fail.
 
-If you are improting a stale exported search configuration file, please export a new search configuration firstly and then use it to import.
+If the exported search configuration file is stale, you should export a new search configuration first and then use it to import the list of search configuration files.
