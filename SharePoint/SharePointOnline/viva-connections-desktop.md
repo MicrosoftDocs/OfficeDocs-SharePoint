@@ -113,7 +113,7 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 
 **When you create a new package in PowerShell, you will be required to complete the following fields:**
     
-    - **URL of your tenant’s home site:** Provide the tenant's home site URL starting with "https://". This site will become the default landing experience for Viva Connections.
+ - **URL of your tenant’s home site:** Provide the tenant's home site URL starting with "https://". This site will become the default landing experience for Viva Connections.
 
     - Provide the following details when requested:
     
