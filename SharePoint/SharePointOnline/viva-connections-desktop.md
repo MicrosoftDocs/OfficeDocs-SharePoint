@@ -138,11 +138,11 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 
 5.	**Upload the Viva Connections desktop package in the Teams Admin Center:** Once you successfully provide the details, a Teams app manifest, which is a .zip file, will be created and saved on your device. The Teams administrator of your tenant will then need to upload this app manifest to **Teams admin center > Manage apps**. 
 
-      Learn more about [how to upload custom apps in Teams admin center](/microsoftteams/upload-custom-apps).
+Learn more about [how to upload custom apps in Teams admin center](/microsoftteams/upload-custom-apps).
 
 6.	**Manage and pin the app by default for your users:** Once the Viva Connections desktop package is successfully uploaded in the Teams admin center, it can be managed like any other app. You can [configure user permissions](/microsoftteams/teams-app-permission-policies) to make this app available to the right set of users. Permitted users can then find this app in Teams app catalog. 
 
-      We *highly recommend* that you pin this app by default for users in your tenant so that they can easily access their company’s intranet resources without having to discover the app in Teams app catalog. Use [Teams app setup policies](/MicrosoftTeams/teams-app-setup-policies) to pin this app by default in Teams app bar and then [apply this policy to a batch of users](/microsoftteams/assign-policies#assign-a-policy-to-a-batch-of-users).
+    We *highly recommend* that you pin this app by default for users in your tenant so that they can easily access their company’s intranet resources without having to discover the app in Teams app catalog. Use [Teams app setup policies](/MicrosoftTeams/teams-app-setup-policies) to pin this app by default in Teams app bar and then [apply this policy to a batch of users](/microsoftteams/assign-policies#assign-a-policy-to-a-batch-of-users).
 
 
 ### Then, onboard end users for Viva Connections desktop
