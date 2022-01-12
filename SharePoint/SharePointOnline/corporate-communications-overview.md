@@ -118,11 +118,6 @@ Give end users a head start by helping them use and engage using popular M365 co
 
 <br>
 
->[!NOTE]
-> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](viva-connections-overview.md) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.  
-
-<br>
-
 ## Up next:
 
 **Step 1:** [Learn how to plan for your communication scenario](plan-communication-strategy.md)
