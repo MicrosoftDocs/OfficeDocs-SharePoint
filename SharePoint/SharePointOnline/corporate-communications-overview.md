@@ -73,7 +73,7 @@ This poster illustrates how Contoso keeps employees informed and engaged across 
 
 [Download the PDF version of this poster](https://download.microsoft.com/download/0/3/4/034fbee5-ecf4-4559-86d3-815e898f21ea/contoso-corporate-communication-poster.pdf) or [download this poster as a Visio file](https://download.microsoft.com/download/0/3/4/034fbee5-ecf4-4559-86d3-815e898f21ea/contoso-corporate-communication-poster.vsdx) to make custom edits for your organization.
 <br>
-
+<br>
 
 
 | Icon                 | Scenario             | Solution details|
