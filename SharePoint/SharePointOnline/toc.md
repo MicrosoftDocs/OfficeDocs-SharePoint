@@ -209,7 +209,7 @@
 #### [Make External List](make-external-list.md)
 ### [Customizations and apps]()
 #### [Apps overview](request-app-installation-permissions.md)
-#### [Use App Catalog](use-app-catalog.md)
+#### [Manage apps](use-app-catalog.md)
 #### [Manage app requests](manage-app-requests.md)
 #### [Manage API access](api-access.md)
 #### [Allow or prevent custom script](allow-or-prevent-custom-script.md)
