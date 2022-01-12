@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection:
 - SPMigration
@@ -18,8 +19,7 @@ ms.custom:
 ms.assetid: 
 description: "The third step in migrating SharePoint Server workflows to Microsoft 365, activating the migrating flows."
 ---
-# Step 3 - Activate workflows 
-
+# Step 3 - Activate migrated workflows Power Automate
 >[!Note]
 >This feature is currently in public preview, and subject to change.
 
