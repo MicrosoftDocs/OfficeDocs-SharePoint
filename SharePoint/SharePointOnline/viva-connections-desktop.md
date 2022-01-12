@@ -154,10 +154,10 @@ If you have already provisioned Viva Connections desktop via PowerShell, and you
 <br>
 Follow these instructions:
 
-1. Follow the steps to [set up the Viva Connections app](/viva/connections/guide-to-setting-up-viva-connections#step-6-enable-the-viva-connections-app-in-the-microsoft-teams-admin-center). 
+1. Follow the steps to [set up the Viva Connections app](/viva/connections/guide-to-setting-up-viva-connections#step-6-enable-the-viva-connections-app-in-the-microsoft-teams-admin-center) starting at Step 6. 
 2. Keep the new instance of the Viva Connections app blocked but complete all of the other requirements.
-3. Next, enable the *new* Viva Connections app.
-4. Finally, disable and uninstall the first version of Viva Connections desktop.
+3. Next, enable the new Viva Connections app.
+4. Finally, disable and uninstall the **first version** of Viva Connections desktop.
 
 
 
