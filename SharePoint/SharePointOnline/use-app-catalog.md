@@ -31,7 +31,7 @@ As a SharePoint or global admin in Microsoft 365, you can acquire solutions from
   
 For information about your options for developing custom apps for SharePoint, see [Overview of the SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) and [SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
 
-## Work with SharePoint Store apps
+## Add apps from the SharePoint Store
 <a name="__toc347303050"> </a>
 
 When you add an app from the SharePoint Store to the Apps site, you make it available for site owners to add from the My apps page. 
@@ -54,7 +54,7 @@ When you add an app from the SharePoint Store to the Apps site, you make it avai
 
 8. If the app requires additional permissions, a message will appear. Select **Go to API access page** to approve the permission request.
 
-## Work with custom apps
+## Add custom apps
 <a name="__add_custom_apps"> </a>
 
 When you upload a custom app to the Apps site, it's available for users to install when they browse apps under **From Your Organization**. 
