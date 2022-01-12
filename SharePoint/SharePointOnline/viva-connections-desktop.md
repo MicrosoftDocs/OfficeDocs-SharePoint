@@ -111,7 +111,7 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 > Any changes to the manifest that the script generates will not be supported. To take advantage of a mobile experience for Viva Connections, follow the guidance to [provision Viva Connections for desktop and mobile](/viva/connections/guide-to-setting-up-viva-connections).
 
 
-    **When you create a new package in PowerShell, you will be required to complete the following fields:**
+**When you create a new package in PowerShell, you will be required to complete the following fields:**
     
     - **URL of your tenant’s home site:** Provide the tenant's home site URL starting with "https://". This site will become the default landing experience for Viva Connections.
 
