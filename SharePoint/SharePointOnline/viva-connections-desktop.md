@@ -23,7 +23,7 @@ description: "Add Viva Connections desktop to integrate SharePoint resources int
 # Add the Viva Connections desktop app to Microsoft Teams (Desktop only)
 
 >[!IMPORTANT]
-> - This article covers the steps to deploy the Viva Connections desktop app, which is a custom line of business app for Microsoft Teams and is built using PowerShell provided by Microsoft. This app includes the desktop experience *only*. 
+> - This article covers the steps to deploy the Viva Connections desktop app, which is a custom line of business app for Microsoft Teams and is built using PowerShell provided by Microsoft. **This app includes the desktop experience only**. 
 > - To set up the Viva Connections desktop *and* mobile experience, [review the step-by-step guidance.](guide-to-setting-up-viva-connections.md)
 
 Microsoft [Viva Connections desktop](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/microsoft-viva-connections-to-start-rollout-to-general/ba-p/2175802) was formerly known as the [Home site app](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/the-home-site-app-for-microsoft-teams/ba-p/1714255), which combines the power of your intelligent SharePoint intranet with chat and collaboration tools in Microsoft Teams. Viva Connections desktop enables users to discover and search relevant content, sites, and news from across the organization right from the Team’s app bar. Viva Connections desktop also allows you to incorporate your organization’s brand and identity directly in Teams. 
@@ -87,9 +87,10 @@ Viva Connections desktop can be provisioned through PowerShell and then will be 
 - **Modern SharePoint sites and pages -** Only modern SharePoint sites and pages can be viewed in Teams and all other content will open in a browser. Learn more about how to [modernize classic SharePoint sites and pages](/sharepoint/dev/transform/modernize-userinterface-site-pages).
 
 
-## Step-by-step guide to setting up Viva Connections desktop
+## Step-by-step guide to setting up Viva Connections (desktop only)
 
-Complete the following steps to enable Viva Connections desktop using [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell):
+Complete the following steps to enable Viva Connections desktop using [SharePoint PowerShell.](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell)
+
 
 1.	**Set up a SharePoint home site:** We highly recommend that you set up a [SharePoint home site](home-site.md) and use that site as the default landing experience for your users in Teams. 
 
@@ -98,12 +99,16 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 3.	**Create a Viva Connections app package in PowerShell:** The SharePoint admin needs to download and run PowerShell script from the Microsoft download center to create the Viva Connections desktop package. Ensure that you are using the [latest version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000) of the [SharePoint Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell) tool before running the script. 
 
     > [!IMPORTANT]
+    > - Any changes to the manifest that the script generates will not be supported.
     > - SharePoint admin credentials are required to use SharePoint PowerShell.
     > - The SharePoint admin who creates the Viva Connections desktop package needs site owner permissions (or higher) to the home site in SharePoint.
     > - If your tenant is using an older version of PowerShell, uninstall the older version and replace it with the most [up to date version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000).
     > - Icons need to be PNG files.
 
 4.	**Provide tenant and site information to create the package:** Download the [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) and provide the information below.
+
+> [!IMPORTANT]
+> Any changes to the manifest that the script generates will not be supported. To take advantage of a mobile experience for Viva Connections, follow the guidance to [provision Viva Connections for desktop and mobile](/viva/connections/guide-to-setting-up-viva-connections).
 
 
     **When you create a new package in PowerShell, you will be required to complete the following fields:**
@@ -145,9 +150,11 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 Help end users understand [how to use Viva Connections](https://support.microsoft.com/office/your-intranet-is-now-in-micosoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b) to improve workplace communication and collaboration. 
 
 ## How to add the mobile experience
-If you have already provisioned Viva Connections desktop via PowerShell, and you want to add the mobile experience, follow these instructions:
+If you have already provisioned Viva Connections desktop via PowerShell, and you want to add the mobile experience, you'll want to disable and uninstall the PowerShell version, and enable the [Viva Connections first party app from the Teams Admin Center](/viva/connections/add-viva-connections-app). 
+<br>
+Follow these instructions:
 
-1. Follow the steps to [set up the Viva Connections app](guide-to-setting-up-viva-connections.md). 
+1. Follow the steps to [set up the Viva Connections app](/viva/connections/guide-to-setting-up-viva-connections#step-6-enable-the-viva-connections-app-in-the-microsoft-teams-admin-center). 
 2. Keep the new instance of the Viva Connections app blocked but complete all of the other requirements.
 3. Next, enable the *new* Viva Connections app.
 4. Finally, disable and uninstall the first version of Viva Connections desktop.
