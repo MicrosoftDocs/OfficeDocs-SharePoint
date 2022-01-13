@@ -233,7 +233,7 @@ This setting specifies whether Files On-Demand is enabled.
 If you don't set this setting, Files On-Demand will be enabled automatically as we roll out the feature, and users can turn the setting on or off.  
 
 > [!NOTE]
-> Beginning in macOS 12.1 Monterey Files On-Demand will be the default and there will not be a setting for users to turn it off.
+> Beginning in macOS Monterey 12.1, Files On-Demand will be the default and there will not be a setting for users to turn it off.
 
 If you set this setting to **True**, **FilesOnDemand** is enabled and the users who set up the sync app can view the online-only files, by default. 
 
