@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -47,7 +48,7 @@ Authorizing **Egnyte** as an administrator is straightforward. To authorize or a
 
 ![Egnyte connector list auth](media/mover-auth-source-connector.png)
 
-4. A new window (tab) opens. Name your Connector <optional>.</br>
+4. A new window (tab) opens. Name your Connector \<optional\>.</br>
 
 5. Provide the Egnyte domain, for example, if your Egnyte domain is companyname.egnyte.com, enter "company name".
 

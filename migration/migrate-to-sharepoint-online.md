@@ -10,6 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: conceptual
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: null
 search.appverid: MET150
 msCollection: 
@@ -19,6 +20,8 @@ msCollection:
 - m365solution-overview
 ms.custom:
 - seo-marvel-apr2020
+- intro-overview
+- intro-get-started
 description: "This article helps you understand, which tool to use when migrating content to SharePoint and OneDrive in Microsoft 365."
 ---
 
@@ -63,7 +66,7 @@ Migrate your SharePoint Server sites and content to take advantage of the latest
 
 ![Migrating SPMT workflow](media/spmt-flow-3box.png)
 
-## Cloud to cloud migrations
+## Other migrations 
 Are you migrating from another Cloud providers? The [Mover tool](https://mover.io/) is ideal for:
 
 - Microsoft 365 tenant to tenant migration
@@ -74,7 +77,6 @@ Are you migrating from another Cloud providers? The [Mover tool](https://mover.i
 
 ![Get started SharePoint Server migration](/office/media/icons/get-started-blue.png) **Get started!** [Mover migration tool](https://mover.io/)
 
-![What's new in Mover migration]/office/media/icons/whats-new-megaphone-blue.png)   [**What's new**](mover-release-notes.md)
 
 
 

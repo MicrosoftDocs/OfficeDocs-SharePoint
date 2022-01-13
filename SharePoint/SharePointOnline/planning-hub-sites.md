@@ -3,8 +3,8 @@ title: "Planning your SharePoint hub sites"
 ms.reviewer: metorres
 manager: serdars
 recommendations: true
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 audience: Admin
 f1.keywords:
 - CSH
@@ -89,7 +89,7 @@ At their core, the three types of building blocks share a common structure. For 
 |**Governance** <br/> (as allowed for your organization based on the settings in the Security &amp; Compliance center)  <br/> |Norms typically **determined by the team**. Practices are aligned in the best way to get work done.  <br/> |Policies often **determined by the organization** to ensure consistency of experience and effective management of organizational information.  <br/> |Governance **determined by each owner of the associated site based on the type of site and organizational policies**. The best experience for visitors is achieved when everyone has at least read permissions for associated sites (but this is not required).  <br/> |
 |**Permissions** <br/> |Microsoft 365 group, plus SharePoint groups and permission levels  <br/> |SharePoint group  <br/> |Same as original site type. Hub sites do not alter an associated site's permissions.  <br/> |
 |**Created by** <br/> |**Site owner** (unless this has been disabled in your organization) or **admin**.  <br/> |**Site owner** (unless this has been disabled in your organization)  <br/> |**Global admin** or **SharePoint admin** in Microsoft 365  <br/> |
-|**Examples** <br/> | Project team working together to complete deliverables and manage tasks  <br/>  Holiday party planning committee planning the annual get-together  <br/>  HR performance management team  <br/>  Executive committee—different leadership groups within the organization  <br/>  Extranet site to work with Partner A  <br/> | Travel team publishing guidelines about corporate travel  <br/>  Policies and procedures  <br/>  Micro-site for a new corporate initiative  <br/>  Resources for the sales team for a product or service  <br/> | HR hub that provides a connection and roll-up for all HR functions, such as benefits, compensation, performance management, talent acquisition, and a manager portal  <br/>  Sales hub providing enterprise resources for the Sales organization and connecting regional sales team and communication sites  <br/>  Location-specific hub that groups the communication and team sites for a specific location (the New York office)  <br/> |
+|**Examples** <br/> | - Project team working together to complete deliverables and manage tasks.  <br/> - Holiday party planning committee planning the annual get-together.  <br/>  - HR performance management team.  <br/> - Executive committee—different leadership groups within the organization.  <br/> - Extranet site to work with Partner A.  <br/> | - Travel team publishing guidelines about corporate travel.  <br/> - Policies and procedures.  <br/> - Micro-site for a new corporate initiative.  <br/> - Resources for the sales team for a product or service.  <br/> | - HR hub that provides a connection and roll-up for all HR functions, such as benefits, compensation, performance management, talent acquisition, and a manager portal.  <br/> - Sales hub providing enterprise resources for the Sales organization and connecting regional sales team and communication sites.  <br/>  - Location-specific hub that groups the communication and team sites for a specific location (the New York office).  <br/> |
    
 ## What should be a hub site?
 

@@ -1,8 +1,8 @@
 ---
 title: "Manage access to Azure AD-secured APIs - SharePoint"
 ms.reviewer: lucaband
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
