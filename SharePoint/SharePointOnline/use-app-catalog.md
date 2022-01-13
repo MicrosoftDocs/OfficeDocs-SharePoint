@@ -87,6 +87,36 @@ When you upload a custom app to the Apps site, it's available for users to insta
     
 1. Close the panel.
 
+## Add an app to all sites
+
+App developers can choose to allow administrators to automatically add an app to all sites. This makes the app available for site owners.
+
+If you did not choose to add an app to all sites when you enabled it, you can do so later on the Apps site.
+
+To add an app to all sites
+1. On the Manage apps page, select the app that you want to add to all sites.
+1.  Select **Add to all sites**.
+1. Select **Confirm**.
+1. Select **Close**.
+
+## Stop automatically adding an app to new sites
+
+If you chose to have an app automatically added to all sites, you can stop adding it to new sites by changing the setting on the Apps site.
+
+To stop adding an app to new sites
+1. On the Manage apps page, select the app that you want to stop adding to new sites.
+1. Select **Stop adding to new sites**.
+1. Select **Confirm**.
+1. Select **Close**.
+
+## Add an app to Teams
+
+Some apps can be added to Teams. You can add them on the Apps site.
+
+To add an app to Teams
+1. On the Manage apps page, select the app that you want to add to Teams.
+1. Select **Add to Teams**.
+
 ## Disable an app
 
 If you want to prevent users from using an app that you've already enabled, you can disable it.
@@ -103,7 +133,7 @@ If you want to prevent users from using an app that you've already enabled, you 
 If you no longer want a specific app to be available for users to add, you can remove it from on the Manage apps page. Any instances of the app that have already been added to sites by users will remain, but the app will no longer be available for users to add to additional sites.
 
 > [!IMPORTANT]
-> If you delete an app, you can't disable it in the future. Users who have already added the app to their site will continue to have access to it.
+> If you delete an app, existing instances of the app will no longer work.
   
 1. On the Manage apps page, select the app that you want to delete.
     
