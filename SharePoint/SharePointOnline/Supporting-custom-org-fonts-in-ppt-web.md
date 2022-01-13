@@ -23,10 +23,10 @@ Custom fonts allow customers to create a brand for their organizations to encour
 ## How does this work? 
 The following diagram outlines the key steps in making our solution work: 
 
-   ![Manage User Properties link under Admin user profiles.](media/Company-admin.png)
+   :::image type="content" source="media/Company-admin.png" alt-text="Manage User Properties link under Admin user profiles.":::
 
 1. Company admin uploads their fonts to their company’s SharePoint site using the <b>SharePoint Online Management Shell.</b>
-2. SharePoint stores the assets in a [public Office 365 Content Delivery Network.](https://docs.microsoft.com/microsoft-365/enterprise/use-microsoft-365-cdn-with-spo?view=o365-worldwide) 
+2. SharePoint stores the assets in a [public Office 365 Content Delivery Network.](/microsoft-365/enterprise/use-microsoft-365-cdn-with-spo?view=o365-worldwide&preserve-view=true) 
 3. Users in the company will open a PowerPoint file on the web platform, PowerPoint for the web will fetch the appropriate fonts by accessing the CDN, when needed. 
 4. PowerPoint for the web will render the fonts correctly on all web-based experiences. 
 
@@ -34,7 +34,7 @@ The following diagram outlines the key steps in making our solution work:
 1. [Create a new site](https://support.microsoft.com/office/create-a-site-in-sharepoint-4d1e11bf-8ddc-499d-b889-2b48d10b1ce8) or use your existing site for organization asset libraries and set permissions. 
 2. Create a new document library for your custom font.
   
-   ![Login to document library with your credentials](media/create-document-library.png)
+   :::image type="content" source="media/create-document-library.png" alt-text="Login to document library with your credentials":::
 3.	Using the <b>SharePoint Online Management Shell,</b> run the following commands to choose  the library as font organization asset library. 
 
       ```Add-SPOOrgAssetsLibary -LibraryUrl <New Document Library SharePoint URL> -OrgAssetType OfficeFontLibary -CdnType Public```
@@ -63,5 +63,4 @@ The following diagram outlines the key steps in making our solution work:
 
 ## Public CDNs and licensing 
 In general, custom fonts for <b>public</b> will be stored in a cloud location, and it won't be accessible for public. In this scenario, public means - access to asset is anonymous and unauthenticated. Whenever a user requests the custom font, we don't check for company specific authentication. However, to gain access for your fonts, users outside of your company need to maliciously reconstruct or guess the URL location of your font. Later, spoof the request through an approved list of hosts (PPT, SharePoint, and Teams). If users can guess the URL of your fonts, they're unable to plug the URL into their browsers to download the fonts. 
-
 
