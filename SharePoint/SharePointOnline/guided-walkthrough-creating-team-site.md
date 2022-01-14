@@ -1,8 +1,8 @@
 ---
 title: Guided walkthrough - Creating a Team site
 ms.reviewer: 
-ms.author: daisyfeller
-author: daisyfell
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin

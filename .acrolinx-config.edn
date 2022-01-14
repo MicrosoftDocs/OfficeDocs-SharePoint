@@ -1,4 +1,4 @@
-{:allowed-branchname-matches ["master"]
+{:allowed-branchname-matches ["master" "main"]
  :allowed-filename-matches ["migration/" "OneDrive/" "SharePoint/"]
  
   :targets 

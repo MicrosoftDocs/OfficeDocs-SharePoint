@@ -1,7 +1,7 @@
 ---
 title: "Distribute corporate news to your organization"
-ms.author: loreenl
-author: loreenl
+ms.author: hokavian
+author: Holland-ODSP
 manager: pamgr
 recommendations: true
 audience: Admin
@@ -12,6 +12,7 @@ localization_priority: Normal
 search.appverid:
 ms.collection:  
   - m365solution-corpcomms
+  - m365solution-scenario
 description: "Learn how to distribute news within your organization."
 
 ---

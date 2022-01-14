@@ -1,8 +1,8 @@
 ---
 title: "View the list of OneDrive URLs for users in your organization"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:

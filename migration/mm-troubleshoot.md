@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - IT_Sharepoint_Server_Top
@@ -246,7 +247,7 @@ This is a known issue. ETA not set.
 |**Error Code**|**Recommended action**|
 |:-----|:-----|
 |0x0111000F|The parent folder was not migrated.  Check the failure report to determine the file and then try again.|
-|0x01110010|Invalid characters in the file name. Check report for files names with <>:"|?*/\,|
+|0x01110010|Invalid characters in the file name. Check report for files names with <>:"?*/\,|
 |0x0201000D|Check if the list exists or if you can access it in the source site and target site.|
 |0x02050008|Unable to access your local storage.  Restart your migration.|
 |0x02010023|Your source list template is not supported.  Try another.|
@@ -265,12 +266,12 @@ This is a known issue. ETA not set.
 || 6 - A problem occurred accessing SharePoint.  Check your credentials and try again.  If the problem continues, please create a support case.|
 || 7 - A problem occurred accessing SharePoint.  Check your credentials and try opening your site in a browser.|
 |0x0204000A|Cannot create package file. All files and folders in the Migration Manager working folder, *%appdata%\Microsoft\SPMigration\Logs\Migration\MigrationToolStorage*, must be closed. Restart your migration.|
-|0x02030001|1 - Check your credentials.  Restart your migration. 
-|| 2 - Check your credentials. Restart your migration.
-|| 3 - Check your credentials and your network connection. Restart your migration. 
-|| 4 - Check your credentials and your site URL. Restart your migration.
-|| 5 - Check your credentials and the format of your URL.  Restart your migration.
-|| 6 - Check your credentials and restart your migration.  If this continues, please a support case.
+|0x02030001|1 - Check your credentials.  Restart your migration.| 
+|| 2 - Check your credentials. Restart your migration.|
+|| 3 - Check your credentials and your network connection. Restart your migration.| 
+|| 4 - Check your credentials and your site URL. Restart your migration.|
+|| 5 - Check your credentials and the format of your URL.  Restart your migration.|
+|| 6 - Check your credentials and restart your migration.  If this continues, please a support case.|
 || 7 - Check your credentials and try opening your site in a browser. Restart your migration.|
 |0x02010008|Confirm the path and format of the user-mapping file and that you have permission to access it.|
 |0x02050001|All files and folders in the Migration Manager working folder, *%appdata%\Microsoft\SPMigration\Logs\Migration\MigrationToolStorage*, must be closed. Restart your migration.|
@@ -287,7 +288,7 @@ This is a known issue. ETA not set.
 |0X0201000F|Invalid site URL. Check if the site URL is valid. Try to access the URL via a browser. If this is a OneDrive account, make sure it has been pre-provisioned before you migrate.|
 |0x0207001|You do not have access to the task folder. Check if you can access *%appdata%\Microsoft\SPMigration\Logs\Migration\MigrationToolStorage*.|
 |0x01410010|A failure occurred because of missing dependencies on list items. Check the FailureSummaryReport.csv for details. Check if the dependencies have been included in your migration scope.|
-|0x01510001|Packages failed to upload. If you have customized Azure storage, check if you can access the Azure storage and check if you can access the target site. Try migrating again.
+|0x01510001|Packages failed to upload. If you have customized Azure storage, check if you can access the Azure storage and check if you can access the target site. Try migrating again.|
 |0x01510001|Failed to Upload the Job to Server: Upload file failed during migration.|
 |0x02070009|Several packages failed to upload. Pause the task and check your network connection.|
 |0x01710009|A failure occurred due to job end failures; some items failed in the package. Restart migration.|

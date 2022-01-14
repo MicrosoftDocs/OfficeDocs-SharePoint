@@ -10,6 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: conceptual
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: null
 search.appverid: MET150
 msCollection: 
@@ -19,6 +20,8 @@ msCollection:
 - m365solution-overview
 ms.custom:
 - seo-marvel-apr2020
+- intro-overview
+- intro-get-started
 description: "This article helps you understand, which tool to use when migrating content to SharePoint and OneDrive in Microsoft 365."
 ---
 

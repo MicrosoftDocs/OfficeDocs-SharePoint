@@ -21,7 +21,8 @@ description: "Learn how to integrate multiple active Yammer networks together wi
 
 This scenario describes the prerequisites and recommended steps to integrate multiple active Yammer networks together with your SharePoint Server environment.
 
-    [!NOTE] Multiple active Yammer networks on one account are no longer supported after October 26, 2018. For more info, see [FAQ: Consolidating multiple Yammer networks](/yammer/configure-your-yammer-network/faq-consolidate-multiple-yammer-networks)
+> [!NOTE]
+> Multiple active Yammer networks on one account are no longer supported after October 26, 2018. For more info, see [FAQ: Consolidating multiple Yammer networks](/yammer/configure-your-yammer-network/faq-consolidate-multiple-yammer-networks).
   
 ## Scenario prerequisites
 

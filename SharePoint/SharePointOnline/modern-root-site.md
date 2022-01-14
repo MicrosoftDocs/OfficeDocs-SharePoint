@@ -1,8 +1,8 @@
 ---
 title: "Modernize your root site"
 ms.reviewer: waynewin
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -66,6 +66,7 @@ If you've [turned on audit log search](/office365/securitycompliance/turn-audit-
 - When you replace the root site, both the current site and the new site can't be hub sites or associated with a hub. If either site is a hub site, unregister it as a hub site, replace the root site, and then re-register the site as a hub site. If either site is associated with a hub, disassociate the site, replace the root site, and then reassociate the site. [Learn how to manage hubs in the new SharePoint admin center](manage-sites-in-new-admin-center.md#change-a-sites-hub-association)
 - Replacing the root site with another site replaces the entire site collection with the new site collection. If your current root site has subsites, they'll be archived. 
 - The site you select as the new root site must be within the same domain as the current root site.
+- If the site is on hold, you'll receive an informative error and you can't replace the site.
   
 ### Use the new SharePoint admin center
 

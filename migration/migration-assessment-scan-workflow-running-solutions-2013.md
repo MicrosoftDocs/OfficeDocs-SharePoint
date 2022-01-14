@@ -11,6 +11,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection:
 - IT_SharePoint_Hybrid_Top
@@ -49,7 +50,7 @@ Communicate with end users that in progress workflows will need to be restarted 
 
  **WorkflowRunning2013-detail.csv** This report contains all the running SharePoint 2013 workflow instances. 
   
-|**Column**|**Description**||
+|Column|Description||
 |:-----|:-----|:-----|
 |SiteId  <br/> |Unique identifier of the impacted site collection.  <br/> ||
 |SiteURL  <br/> |URL to the impacted site collection.  <br/> ||
@@ -60,11 +61,11 @@ Communicate with end users that in progress workflows will need to be restarted 
 |ContentDBName  <br/> |Name of the content database hosting the site collection.  <br/> ||
 |ContentDBServerName  <br/> |SQL Server hosting the content database.  <br/> ||
 |ContentDBSizeInMB  <br/> |Size of the content database hosting the site collection.  <br/> ||
-|LastContentModifiedDate  <br/> |Date/Time the site collection had content modified.  <br/> |
-|TotalItemCount  <br/> |Total number of items found in the site collection.  <br/> |
-|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
-|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> |
-|DaysOfUsageData  <br/> |Number of days the usage logging service retains data. This provides context for Hits and DistinctUsers. For example, if this is 14 days, the Hits and DistinctUsers data is for the last 14 days.  <br/> |
+|LastContentModifiedDate  <br/> |Date/Time the site collection had content modified.  <br/> ||
+|TotalItemCount  <br/> |Total number of items found in the site collection.  <br/> ||
+|Hits  <br/> |Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> ||
+|DistinctUsers  <br/> |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A.  <br/> ||
+|DaysOfUsageData  <br/> |Number of days the usage logging service retains data. This provides context for Hits and DistinctUsers. For example, if this is 14 days, the Hits and DistinctUsers data is for the last 14 days.  <br/> ||
 |WorkflowName  <br/> |Name of the workflow  <br/> ||
 |ItemURL  <br/> |URL to the item the workflow was started against.  <br/> If this is a **site workflow**, the URL will point to the site.  <br/> If this is a **list item workflow**, the URL will point to the list item.  <br/> ||
 |Scope  <br/> |Either Site or List.  <br/> ||

@@ -1,8 +1,8 @@
 ---
 title: "Control access to features in the OneDrive and SharePoint mobile apps"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:

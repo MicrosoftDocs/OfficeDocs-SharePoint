@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -24,7 +25,7 @@ Once we have loaded your users, *do not* modify your users in any way. Our syste
 
 Confirm that the users in the source match the users in the Office 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
 
-## Editing
+## Manually editing a source or destination
 
 Be aware that Users can only be edited if they haven't been scanned, or had a transfer run.
 
@@ -45,6 +46,8 @@ To edit a user destination entry:
 4. To select your parent destination path, double-click it. To complete your edit, select **Save**.
 
 ![Edit destination user](media/mover-edit-destination-user.png)
+
+## Editing sources or destinations using a .csv file
 
 You can also choose to edit your user entries via CSV, though this is a fairly in-depth process. *If you are simply looking to make a handful of edits to your paths, we recommend using the previous method.*
 
@@ -67,9 +70,6 @@ Tips for creating the CSV:
         
         You'll now be able to see the ID appearing in each row. If you refresh the page, this info disappears unless you select **Save Column State**.
 
-Download an example CSV here:
-
-[example_path_edit.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_path_edit.csv)
 
 ![Add ID customize column](media/add-id-customize-column.png)
 
