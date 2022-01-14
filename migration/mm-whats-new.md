@@ -32,6 +32,10 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 - **Egnyte migrations**.  Migrate your Egnyte content to Microsoft 365.
 - **Tag support**.  A new tags feature is coming soon to allow you to sort, organize, and navigate through a large quantity of sources and users to find what you need. 
 
+## January
+
+- **Add source path fix**. Previously, when doing a file share migration, the "Add source Path" button wasn't active on the Scan page, even if the agent was installed and connected. Fixed.
+
 
 ## November
 
