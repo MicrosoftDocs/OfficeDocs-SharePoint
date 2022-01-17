@@ -107,6 +107,7 @@
 
 ### [Enable and set up global navigation](sharepoint-app-bar.md)
 ### [Create an organization assets library](organization-assets-library.md)
+#### [Supporting custom org fonts in ppt web](supporting-custom-org-fonts-in-ppt-web.md)
 ### [Create an organization news site](organization-news-site.md)
 ### [Retirement of site mailboxes](deprecation-of-site-mailboxes.md)
 ## [Sync]()
