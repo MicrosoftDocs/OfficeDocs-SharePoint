@@ -109,7 +109,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 | Locked sites and OneDrive accounts | Any site or OneDrive that has been locked (the LockState is NoAccess) can't be renamed. | Before changing your domain name, review any sites and OneDrive accounts that have been locked to determine if the lock should be removed. [Lock and unlock sites](manage-lock-status.md)|
 | Multi-Geo configurations | Your SharePoint domain name can't be changed if your organization is currently set up for Microsoft 365 Multi-Geo or was previously set up for it.  | No action available. |
 | Point-in-time restoration | Restoring a site to a previous time before the domain name change isn't possible. | No action available.|
-| Site Swap | Performing a Site Swap after a domain name has been scheduled (and before it has been completed) will cause the domain name rename to fail. | Perform the Site Swap either prior to the domain name being scheduled or after it has been completed. |
+| Root site replacement | Your [root site](modern-root-site.md) can't be replaced (using either the SharePoint admin center or the PowerShell cmdlet Invoke-SPOSiteSwap) between the time you schedule your domain name change and when it completes. | Replace your root site before you schedule the domain name change or after it completes. |
 | Vanity domain configurations | If your SharePoint domain is, for example, teams.contoso.com (versus contoso.sharepoint.com), your domain name can't be changed. | No action available. |
 
 ## Step 1: Add the new domain name
