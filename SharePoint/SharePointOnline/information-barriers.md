@@ -31,7 +31,7 @@ For SharePoint, information barriers can determine and prevent the following kin
 
 ## Information barriers modes and SharePoint sites
 
-[Information barriers modes](/microsoft-365/compliance/information-barriers-policies.md#step-6-information-barriers-modes) help strengthen access, sharing, and membership of a site based on its IB mode and segments associated with the site.
+[Information barriers modes](/microsoft-365/compliance/information-barriers-policies#step-6-information-barriers-modes) help strengthen access, sharing, and membership of a site based on its IB mode and segments associated with the site.
 
 When using information barriers with SharePoint, the following IB modes are supported:
 
