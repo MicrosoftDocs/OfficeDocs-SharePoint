@@ -11,6 +11,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: medium
 ms.assetid: de809b30-8e4d-4223-b47e-81912d617dd1
 ms.collection:

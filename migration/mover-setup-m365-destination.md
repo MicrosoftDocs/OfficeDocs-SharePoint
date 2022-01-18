@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -15,7 +16,7 @@ ms.collection:
 search.appverid: MET150
 description: "Mover migration: Authorizing Office 365"
 ---
-# Authorizing the Office 365 Connector
+# Mover migration: Authorizing Office 365
 
 ## Authorize Office 365
 
@@ -39,7 +40,7 @@ Some steps in the authorization process can be completed by a global or SharePoi
 
     ![Authorize O365](media/mover-auth-destination-connector.png)
 
-3. **Global or SharePoint admin**: A window with an **Authorize** button appears. It prompts you to provide a display name <optional> for your **Office 365 Connector**.  Select **Authorize**.
+3. **Global or SharePoint admin**: A window with an **Authorize** button appears. It prompts you to provide a display name \<optional\> for your **Office 365 Connector**.  Select **Authorize**.
 
     ![Authorize windows](media/authorize-window.png)
 

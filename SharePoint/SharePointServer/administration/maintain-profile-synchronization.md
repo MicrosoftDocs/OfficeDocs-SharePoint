@@ -108,7 +108,7 @@ There are two reasons why obsolete users or groups can exist in the SharePoint S
   $upa = Get-spserviceapplication <identity>
   ```
 
-    Where  _\<identity\>_ is the GUID of the User Profile synchronization service application. 
+  Where  _\<identity\>_ is the GUID of the User Profile synchronization service application. 
     
 2. To view the users and groups to delete, type the following command:
     
@@ -153,7 +153,7 @@ Use the following procedure to rename a profile synchronization server.
   Rename-SPServer <Identity> -Name <newName>
   ```
 
-    Where:
+  Where:
     
   -  _Identity_ is the old name of the server. 
     
@@ -208,7 +208,7 @@ Use the following procedure to restrict profile synchronization communication to
   $upa=Get-SPServiceApplication <GUID>
   ```
 
-    Where  _\<GUID\>_ is the GUID of the User Profile Synchronization Service application. 
+  Where  _\<GUID\>_ is the GUID of the User Profile Synchronization Service application. 
     
 3. To restrict profile synchronization communication to a specific domain controller, type the following command:
     
@@ -216,8 +216,8 @@ Use the following procedure to restrict profile synchronization communication to
   Set-SPProfileServiceApplication $upa -UseOnlyPreferredDomainControllers $true
   ```
 
-    > [!NOTE]
-    > It may take five minutes for the changed property value to propagate to the SharePoint Central Administration website. Resetting IIS on the Central Administration server will force the new value to be loaded immediately. For more information about resetting IIS, see [IIS Reset Activity](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd364067(v=ws.10)). 
+  > [!NOTE]
+  > It may take five minutes for the changed property value to propagate to the SharePoint Central Administration website. Resetting IIS on the Central Administration server will force the new value to be loaded immediately. For more information about resetting IIS, see [IIS Reset Activity](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd364067(v=ws.10)). 
   
 For more information, see Get-SPServiceApplication and Set-SPProfileServiceApplication.
   
@@ -295,6 +295,6 @@ A time-out can occur on the following occasions:
   ./<file name>.ps1
   ```
 
-    Where  _\<file name\>_ is the name of the file to execute. 
+  Where  _\<file name\>_ is the name of the file to execute. 
     
 For more information, see Get-SPServiceApplicationProxy and Get-SPServiceApplication.

@@ -1,8 +1,8 @@
 ---
 title: OneDrive guide for enterprises
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -15,6 +15,8 @@ ms.collection:
 - m365initiative-healthyonedrive
 ms.custom:
 - seo-marvel-apr2020
+- intro-overview
+- intro-get-started
 ms.localizationpriority: high
 search.appverid:
 - MET150

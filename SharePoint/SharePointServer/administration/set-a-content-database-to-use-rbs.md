@@ -80,8 +80,8 @@ These instructions assume that you have installed SQL Server Management Studio o
 
    Where  _[ContentDbName]_ is the content database name and  _c:\RBSStore_ is the volume\directory that will contain the RBS data store. Be aware that you can provision a RBS store only one time. If you attempt to provision the same RBS data store multiple times, you will receive an error. 
     
-    > [!TIP]
-    > For best performance, simplified troubleshooting, and as a general best practice, we recommend that you create the RBS data store on a volume that does not contain the operating system, paging files, database data, log files, or the tempdb file. 
+  > [!TIP]
+  > For best performance, simplified troubleshooting, and as a general best practice, we recommend that you create the RBS data store on a volume that does not contain the operating system, paging files, database data, log files, or the tempdb file. 
   
 7. Right-click **Start**, click **Run**, type cmd into the **Run** text box, and then click **OK**.
     
