@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 mscollection: 
 - SPMigration
 - M365-collaboration
@@ -29,7 +30,33 @@ Download and install SPMT using one of the links listed below.
 
 | Release |**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.122.3](https://aka.ms/spmt-beta-page)|[3.4.122.3](https://aka.ms/spmt-ga-page)|[3.4.121.7](https://aka.ms/spmt-ga-page)|[3.4.121.7](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.5.123.1](https://aka.ms/spmt-beta-page)|[3.4.122.4](https://aka.ms/spmt-ga-page)|[3.4.121.7](https://aka.ms/spmt-ga-page)|[3.4.121.7](https://aka.ms/spmt-ga-page)|
+
+
+## SPMT 3.5.123.0
+
+**New features**
+
+|Feature|Description|
+|:-----|:-----|
+|Migtate SharePoint Server 2010 OOTB Workflows to Power Automate|This feature allows users to migrate SharePoint Server 2010 list out-of-the-box (OOTB) workflows, including approval and collect feedback, to Power Automate. Workflows created with SharePoint Designer or SharePoint Server 2013 currently not supported.|
+|Upgrade user authentication with MSAL|SPMT user authentication library has been upgraded from ADAL to MSAL. Users will continue using their Microsoft credentials to sign in SPMT.|
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+
+## SPMT 3.4.122.4
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
 
 
 ## SPMT 3.4.122.3

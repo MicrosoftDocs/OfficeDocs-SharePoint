@@ -127,7 +127,7 @@ To create a new page:
   
 After you select **OK**, the newly created page is shown in the **Pages** library. 
     
-     ![New Category Page](../media/OTCSP_NewCategoryPage.png)
+![New Category Page](../media/OTCSP_NewCategoryPage.png)
   
 4. In our Contoso scenario, we'll also need a catalog item page. To create this page, repeat Steps 3 and 4 from the previous procedure. However for **Page Layout**, select *ContosoElectroniceCatalogItemPageLayout*. 
     
@@ -135,7 +135,7 @@ After you select **OK**, the newly created page is shown in the **Pages** librar
   
 Our **Pages** library now contains two new pages: *ContosoCategoryPage* and *ContosoCatalogItemPage*. 
     
-     ![Two New Pages](../media/OTCSP_TwoNewPages.png)
+![Two New Pages](../media/OTCSP_TwoNewPages.png)
   
 Now that we have created these pages, the next step is to assign them to the terms that drive our site navigation.
   

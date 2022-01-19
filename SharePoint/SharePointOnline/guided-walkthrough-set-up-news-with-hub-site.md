@@ -1,8 +1,8 @@
 ---
 title: Guided walkthrough - Setting up news for your organization using a hub site
 ms.reviewer: 
-ms.author: daisyfeller
-author: daisyfell
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -17,7 +17,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Use a hub site to set up news for your organization"
+description: "How to use a SharePoint hub site to set up news for your organization"
 ---
 
 # Guided walkthrough: Setting up news for your organization using a hub site

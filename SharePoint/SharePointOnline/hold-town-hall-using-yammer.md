@@ -1,8 +1,8 @@
 ---
 title: Hold a town hall in Yammer and keep the conversation going
 ms.reviewer: 
-ms.author: dowallace
-author: dowallace
+ms.author: hokavian
+author: Holland-ODSP
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -15,6 +15,7 @@ ms.collection:
 - Strat_SP_modern
 - M365-collaboration
 - m365solution-corpcomms
+- m365solution-scenario
 search.appverid:
 - SPO160
 - MET150

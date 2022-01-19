@@ -1,8 +1,8 @@
 ---
 title: "Network location-based access to SharePoint and OneDrive"
 ms.reviewer: samust
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
