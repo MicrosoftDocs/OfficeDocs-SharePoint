@@ -11,6 +11,7 @@ f1.keywords:
 ms.topic: article
 description: Learn about SharePoint Migration Identity Mapping Tool for Azure AD Identity Scan.
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: medium
 ms.collection:
 - SPmigration

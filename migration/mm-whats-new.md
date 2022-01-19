@@ -10,6 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 mscollection: 
 - SPMigration
 - M365-collaboration
@@ -29,7 +30,12 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 ## Coming soon
 
 - **Egnyte migrations**.  Migrate your Egnyte content to Microsoft 365.
-- **Tag support**.  A new tags feature is coming soon to allow you to sort, organize, and navigate through a large quantity of sources and users to find what you need. 
+- **Tag support for File share migrations**.  The tags feature is coming soon for File Share migrations to allow you to sort, organize, and navigate through a large quantity of sources and users.
+
+## January
+
+- **Add source path fix**. Previously, when doing a file share migration, the "Add source Path" button wasn't active on the Scan page, even if the agent was installed and connected. Fixed.
+- **Tag support - cloud migrations**.  A new tags feature to let you to sort, organize, and navigate through a large quantity of sources and users. Available for cloud migrations only.
 
 
 ## November
