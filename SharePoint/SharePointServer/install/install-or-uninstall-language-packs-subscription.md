@@ -116,7 +116,7 @@ Verify that the user account that is performing this procedure is the Setup user
 
 Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
 
-1. Mount the ISO disc image as a drive on your computer by using the [Mount-DiskImage](https://docs.microsoft.com/powershell/module/storage/mount-diskimage?view=windowsserver2019-ps) cmdlet, or by specifying it as a virtual drive in your virtual machine manager.
+1. Mount the ISO disc image as a drive on your computer by using the [Mount-DiskImage](/powershell/module/storage/mount-diskimage?view=windowsserver2019-ps) cmdlet, or by specifying it as a virtual drive in your virtual machine manager.
 
 2. Run Language Pack for SharePoint and Project Server Subscription Edition Setup (`setup.exe`) on your computer in command line mode. This is done by adding the following command line parameters when launching (`setup.exe`):
 
@@ -177,53 +177,53 @@ SharePoint Servers Subscription Edition, 2019, and 2016 support the following la
 
 |Language|Language tag|LCID|
 |:-----|:-----|:-----|
-Arabic <br/>|ar-sa  <br/> | 1025 <br/>
-Azerbaijani <br/> |az-latn-az  <br/> |1068 <br/>
-Basque <br/> |eu-es  <br/> |1069 <br/>||
-Bosnian (Latin) <br/> |bs-latn-ba  <br/> |5146 <br/>
-Bulgarian <br/> |bg-bg  <br/> |1026 <br/>||
-Catalan <br/> |ca-es <br/> |1027 <br/>||
-Chinese (Simplified) <br/> |zh-cn  <br/> |2052 <br/>
-Chinese (Traditional) <br/> |zh-tw  <br/> |1028 <br/>||
-Croatian <br/> |hr-hr  <br/> |1050 <br/>||
-Czech <br/> |cs-cz  <br/> |1029 <br/>||
-Danish <br/> |da-dk  <br/> |1030 <br/>||
-Dutch <br/> |nl-nl  <br/> |1043 <br/>||
-English <br/> |en-us  <br/> |1033 <br/>||
-Estonian <br/> |et-ee  <br/> |1061 <br/>||
-Finnish <br/> |fi-fi  <br/> |1035 <br/>||
-French <br/> |fr-fr  <br/> |1036 <br/>
-Galician <br/> |gl-es  <br/> |1110 <br/>||
-German <br/> |de-de  <br/> |1031 <br/>||
-Greek <br/> |el-el  <br/> |1032 <br/>||
-Hebrew <br/> |he-il  <br/> |1037 <br/>||
-Hindi <br/> |hi-in  <br/> |1081 <br/>||
-Hungarian <br/> |hu-hu  <br/> |1038<br/>||
-Indonesian <br/> |id-id  <br/> |1057 <br/>||
-Irish <br/> |ga-ie  <br/> |2108 <br/>||
-Italian <br/> |it-it  <br/> |1040 <br/>||
-Japanese <br/> |ja-jp  <br/> |1041 <br/>||
-Kazakh <br/> |kk-kz  <br/> |1087 <br/>||
-Korean <br/> |ko-kr  <br/> |1042 <br/>||
-Latvian <br/> |lv-lv  <br/> |1062 <br/>
-Lithuanian <br/> |lt-lt  <br/> |1063 <br/>||
-Macedonian (FYROM) <br/> |mk-mk  <br/> |1071 <br/>||
-Malay (Malaysia) <br/> |ms-my  <br/> |1086 <br/>||
-Norwegian (Bokmål) <br/> |nb-no  <br/> |1044 <br/>||
-Polish <br/> |pl-pl  <br/> |1045 <br/>
-Portuguese (Brazil) <br/> |pt-br  <br/> |1046 <br/>||
-Portuguese (Portugal) <br/> |pt-pt  <br/> |2070<br/>||
-Romanian <br/> |ro-ro  <br/> |1048 <br/>||
-Russian <br/> |ru-ru  <br/> |1049 <br/>||
-Serbian (Cyrillic) <br/> |sr-cyrl-rs  <br/> |10266 <br/>||
-Serbian (Latin) <br/> |sr-latn-rs  <br/> |9242 <br/>||
-Slovak <br/> |sk-sk  <br/> |1051 <br/>||
-Slovenian <br/> |sl-si  <br/> |1060 <br/>||
-Spanish <br/> |es-es  <br/> |3082 <br/>||
-Swedish <br/> |sv-se  <br/> |1053 <br/>||
-Thai <br/> |th-th  <br/> |1054 <br/>||
-Turkish <br/> |tr-tr  <br/> |1055 <br/>||
-Ukrainian <br/> |uk-ua <br/> |1058<br/>||
-Vietnamese <br/> |vi-vn  <br/> |1066 <br/>||
-Welsh <br/> |cy-gb  <br/> |1106 <br/>||
+|Arabic <br/>|ar-sa  <br/> | 1025 <br/>|
+|Azerbaijani <br/> |az-latn-az  <br/> |1068 <br/>|
+|Basque <br/> |eu-es  <br/> |1069 <br/>|
+|Bosnian (Latin) <br/> |bs-latn-ba  <br/> |5146 <br/>|
+|Bulgarian <br/> |bg-bg  <br/> |1026 <br/>|
+|Catalan <br/> |ca-es <br/> |1027 <br/>|
+|Chinese (Simplified) <br/> |zh-cn  <br/> |2052 <br/>|
+|Chinese (Traditional) <br/> |zh-tw  <br/> |1028 <br/>|
+|Croatian <br/> |hr-hr  <br/> |1050 <br/>|
+|Czech <br/> |cs-cz  <br/> |1029 <br/>|
+|Danish <br/> |da-dk  <br/> |1030 <br/>|
+|Dutch <br/> |nl-nl  <br/> |1043 <br/>|
+|English <br/> |en-us  <br/> |1033 <br/>|
+|Estonian <br/> |et-ee  <br/> |1061 <br/>|
+|Finnish <br/> |fi-fi  <br/> |1035 <br/>|
+|French <br/> |fr-fr  <br/> |1036 <br/>|
+|Galician <br/> |gl-es  <br/> |1110 <br/>|
+|German <br/> |de-de  <br/> |1031 <br/>|
+|Greek <br/> |el-el  <br/> |1032 <br/>|
+|Hebrew <br/> |he-il  <br/> |1037 <br/>|
+|Hindi <br/> |hi-in  <br/> |1081 <br/>|
+|Hungarian <br/> |hu-hu  <br/> |1038<br/>|
+|Indonesian <br/> |id-id  <br/> |1057 <br/>|
+|Irish <br/> |ga-ie  <br/> |2108 <br/>|
+|Italian <br/> |it-it  <br/> |1040 <br/>|
+|Japanese <br/> |ja-jp  <br/> |1041 <br/>|
+|Kazakh <br/> |kk-kz  <br/> |1087 <br/>|
+|Korean <br/> |ko-kr  <br/> |1042 <br/>|
+|Latvian <br/> |lv-lv  <br/> |1062 <br/>|
+|Lithuanian <br/> |lt-lt  <br/> |1063 <br/>|
+|Macedonian (FYROM) <br/> |mk-mk  <br/> |1071 <br/>|
+|Malay (Malaysia) <br/> |ms-my  <br/> |1086 <br/>|
+|Norwegian (Bokmål) <br/> |nb-no  <br/> |1044 <br/>|
+|Polish <br/> |pl-pl  <br/> |1045 <br/>|
+|Portuguese (Brazil) <br/> |pt-br  <br/> |1046 <br/>|
+|Portuguese (Portugal) <br/> |pt-pt  <br/> |2070<br/>|
+|Romanian <br/> |ro-ro  <br/> |1048 <br/>|
+|Russian <br/> |ru-ru  <br/> |1049 <br/>|
+|Serbian (Cyrillic) <br/> |sr-cyrl-rs  <br/> |10266 <br/>|
+|Serbian (Latin) <br/> |sr-latn-rs  <br/> |9242 <br/>|
+|Slovak <br/> |sk-sk  <br/> |1051 <br/>|
+|Slovenian <br/> |sl-si  <br/> |1060 <br/>|
+|Spanish <br/> |es-es  <br/> |3082 <br/>|
+|Swedish <br/> |sv-se  <br/> |1053 <br/>|
+|Thai <br/> |th-th  <br/> |1054 <br/>|
+|Turkish <br/> |tr-tr  <br/> |1055 <br/>|
+|Ukrainian <br/> |uk-ua <br/> |1058<br/>|
+|Vietnamese <br/> |vi-vn  <br/> |1066 <br/>|
+|Welsh <br/> |cy-gb  <br/> |1106 <br/>|
 
