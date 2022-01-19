@@ -108,7 +108,7 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 4.	**Provide tenant and site information to create the package:** Download the [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) and provide the information below.
 
 > [!IMPORTANT]
-> Updates to the required fields (mentioned below) in the manifest file are the only supported changes. Any other updates will not be supported. . To take advantage of a mobile experience for Viva Connections, follow the guidance to [provision Viva Connections for desktop and mobile](/viva/connections/guide-to-setting-up-viva-connections).
+> Updates to the required fields (mentioned below) in the manifest file are the only supported changes. Any other updates will not be supported. To take advantage of a mobile experience for Viva Connections, follow the guidance to [provision Viva Connections for desktop and mobile](/viva/connections/guide-to-setting-up-viva-connections).
 
 
 **When you create a new package in PowerShell, you will be required to complete the following fields:**
