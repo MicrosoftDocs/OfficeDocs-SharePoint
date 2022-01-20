@@ -53,6 +53,18 @@ Make sure that you have:
 
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
 
+## Google Shared Drives
+
+We are not able to read or write permissions to Google Shared Drives - therefore, we cannot migrate permissions or membership of Google Shared Drives. 
+
+**If you are migrating Google Shared Drives:**
+
+1.  Manually gather the membership list of the Google Shared Drive during your migration planning.
+2. Create the team site and document library in SharePoint (destination) **before** you start your migration. You can optionally re-establish the membership list of the shared drive as this time.
+3. Migrate the shared folder.  If you didn't do it in step 2, manually make any membership changes to the shared folder.
+
+
+
 >[!NOTE]
 >Migration Manager Google Workspace isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
 >

@@ -2,6 +2,18 @@
 
 
 
+## Week of January 10, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/10/2022 | [How does Migration Manager work for file share migrations](/SharepointMigration/mm-how-it-works) | modified |
+| 1/10/2022 | [Migrate SharePoint workflows with the SharePoint Migration Tool (SPMT) to POwer Automate](/SharepointMigration/spmt-workflow-overview) | modified |
+| 1/13/2022 | [Available settings in SharePoint Migration Tool](/SharepointMigration/spmt-settings) | modified |
+| 1/13/2022 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
+| 1/14/2022 | [What's new in Migration Manager](/SharepointMigration/mm-whats-new) | modified |
+
+
 ## Week of January 03, 2022
 
 
@@ -216,14 +228,3 @@
 | 12/16/2021 | [Review the destination paths for your Egnyte migration with Migration Manager](/SharepointMigration/mm-egnyte-step4-review-destinations) | added |
 | 12/16/2021 | [Step 5: Map Egnyte identities with Migration Manager](/SharepointMigration/mm-egnyte-step5-map-identities) | added |
 | 12/16/2021 | [Step 6: Migrate and monitor Egnyte migration](/SharepointMigration/mm-egnyte-step6-migrate-monitor) | added |
-
-
-## Week of December 06, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/8/2021 | [Migrate SharePoint workflows in Microsoft 365 using the SharePoint Migration tool](/SharepointMigration/spmt-workflow) | added |
-| 12/8/2021 | [How to use SharePoint Migration Tool](/SharepointMigration/how-to-use-the-sharepoint-migration-tool) | modified |
-| 12/8/2021 | [Assess SharePoint Migration Tool reports](/SharepointMigration/using-the-sharepoint-migration-tool-reports) | modified |
-| 12/8/2021 | [Format your JSON or CSV file for data content migration - SharePoint](/SharepointMigration/how-to-format-your-csv-file-for-data-content-migration) | modified |

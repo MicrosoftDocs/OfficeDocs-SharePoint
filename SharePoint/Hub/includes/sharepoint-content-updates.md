@@ -2,6 +2,21 @@
 
 
 
+## Week of January 10, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/11/2022 | [Build Learning and Training Experiences for Employees](/SharePoint/build-learning-and-training-experiences-for-employees) | modified |
+| 1/11/2022 | [Distribute corporate news to your organization](/SharePoint/distribute-corporate-news-to-your-organization) | modified |
+| 1/11/2022 | [Hold a town hall in Yammer and keep the conversation going](/SharePoint/hold-town-hall-using-yammer) | modified |
+| 1/11/2022 | [Use Microsoft 365 to connect leaders and teams](/SharePoint/leadership-connection) | modified |
+| 1/11/2022 | [Onboard new employees into your organization](/SharePoint/onboard-employees) | modified |
+| 1/12/2022 | [Organizational communications overview](/SharePoint/corporate-communications-overview) | modified |
+| 1/12/2022 | [Modernize your root site](/SharePoint/modern-root-site) | modified |
+| 1/12/2022 | [Add Viva Connections desktop to Microsoft Teams (Desktop only)](/SharePoint/viva-connections-desktop) | modified |
+
+
 ## Week of January 03, 2022
 
 
@@ -136,20 +151,3 @@
 | 12/14/2021 | [Overview of MinRole Server Roles in SharePoint Servers 2016, 2019, and Subscription Edition](/SharePoint/install/overview-of-minrole-server-roles-in-sharepoint-server) | modified |
 | 12/14/2021 | [Planning for a MinRole server deployment in SharePoint Servers 2016, 2019, and Subscription Edition](/SharePoint/install/planning-for-a-minrole-server-deployment-in-sharepoint-server) | modified |
 | 12/17/2021 | [Mark new files as sensitive by default](/SharePoint/sensitive-by-default) | modified |
-
-
-## Week of December 06, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/6/2021 | [Manage Teams connected sites](/SharePoint/teams-connected-sites) | modified |
-| 12/7/2021 | [Guided walkthrough - Creating a leadership site for your organization](/SharePoint/guided-walkthrough-creating-leadership-site) | modified |
-| 12/7/2021 | [Guided walkthrough - Creating an organization site](/SharePoint/guided-walkthrough-creating-organization-site) | modified |
-| 12/7/2021 | [Guided walkthrough - Creating a Team site](/SharePoint/guided-walkthrough-creating-team-site) | modified |
-| 12/7/2021 | [Guided walkthrough - Setting up news for your organization using a hub site](/SharePoint/guided-walkthrough-set-up-news-with-hub-site) | modified |
-| 12/7/2021 | [Domain restrictions when sharing SharePoint & OneDrive content](/SharePoint/restricted-domains-sharing) | modified |
-| 12/9/2021 | [Check logs, limits and reports](/SharePoint/check-logs-limits-and-reports) | modified |
-| 12/9/2021 | [SharePoint classic search administration overview](/SharePoint/manage-search-the-admin-center) | modified |
-| 12/9/2021 | [View Popularity Trends and Most Popular Items](/SharePoint/view-popularity-trends-and-most-popular-items) | modified |
-| 12/9/2021 | View search usage reports | removed |
