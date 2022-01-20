@@ -57,6 +57,7 @@ This article is a resource where you can find prerequisites and endpoint informa
 |`https://*.blob.core.usgovcloudapi.net`|Migration API Azure Government requirement|
 |`https://*.queue.core.usgovcloudapi.net`|Migration API Azure Government requirement|
 |`https://*.login.microsoftonline.com`|Sign into the MMA agent for SPO access|
+|`https://*.login.windows.net`|Sign into the MMA agent for SPO access|
 |`https://*.msauth.net`|Sign into the MMA agent for SPO access|
 |`https://spmt.sharepointonline.com`|SPMT Installation link.
 |`https://api.mover.io`|Scan feature for Migration Manager requirement.|
