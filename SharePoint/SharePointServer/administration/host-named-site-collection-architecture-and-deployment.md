@@ -253,8 +253,7 @@ You can create a host-named site collection by using the Microsoft PowerShell Ne
     
     ```
     New-SPSite 'http://portal.contoso.com' -HostHeaderWebApplication (Get-SPWebApplication 'Contoso Sites') -Name 'Portal' -Description 'Customer root' -OwnerAlias 'contoso\administrator' -language 1033 -Template 'STS#0'
-    
-  ```
+    ```
 
 This creates a host-named site collection that has the URL, http://portal.contoso.com, in the SharePoint Server web application that has the URL, http://portal.contoso.com.
   
@@ -377,8 +376,8 @@ This example creates a host-named site collection that has the URL, https://port
 ### Enable apps in environments with multiple zones
 <a name="section2h"> </a>
 
-> [!NOTE]
-> This section applies only to SharePoint Server 2013 
+>[!NOTE]
+>This section applies only to SharePoint Server 2013. 
   
 The March 2013 Public Update enables you to configure an app domain for each web application zone and use alternate access mapping and host-header web application configuration. Before the release of this update, you could only host one app domain and it had to be in the Default zone. You could not use the app domain on alternate access mappings or host-header web application configurations. 
   
@@ -491,7 +490,7 @@ Use the following commands to add unique IP bindings to each of the web applicat
   
 ```
 Import-Module WebAdministration
-# add empty binding to webapp on IP 192.168.10.20
+#add empty binding to webapp on IP 192.168.10.20
 New-WebBinding -Name 'webapp' -IPAddress '192.168.10.20' -HostHeader '' 
 Sleep 60
 # remove existing binding webapp.contoso.com from existing web application
