@@ -99,7 +99,7 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 3.	**Create a Viva Connections app package in PowerShell:** The SharePoint admin needs to download and run PowerShell script from the Microsoft download center to create the Viva Connections desktop package. Ensure that you are using the [latest version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000) of the [SharePoint Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell) tool before running the script. 
 
     > [!IMPORTANT]
-    > - Any changes to the manifest that the script generates will not be supported.
+    > - Updates to the required fields (mentioned below) in the manifest file are the only supported changes. Any other updates will not be supported. 
     > - SharePoint admin credentials are required to use SharePoint PowerShell.
     > - The SharePoint admin who creates the Viva Connections desktop package needs site owner permissions (or higher) to the home site in SharePoint.
     > - If your tenant is using an older version of PowerShell, uninstall the older version and replace it with the most [up to date version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000).
@@ -108,7 +108,7 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 4.	**Provide tenant and site information to create the package:** Download the [Viva Connections for desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) and provide the information below.
 
 > [!IMPORTANT]
-> Any changes to the manifest that the script generates will not be supported. To take advantage of a mobile experience for Viva Connections, follow the guidance to [provision Viva Connections for desktop and mobile](/viva/connections/guide-to-setting-up-viva-connections).
+> Updates to the required fields (mentioned below) in the manifest file are the only supported changes. Any other updates will not be supported. To take advantage of a mobile experience for Viva Connections, follow the guidance to [provision Viva Connections for desktop and mobile](/viva/connections/guide-to-setting-up-viva-connections).
 
 
 **When you create a new package in PowerShell, you will be required to complete the following fields:**
