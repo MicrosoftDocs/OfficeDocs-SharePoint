@@ -36,7 +36,7 @@ If your organization needs to store and manage files for all your users to use, 
     ![Selecting a template in PowerPoint](media/office-template-library.png)
 
     > [!NOTE]
-    > - For the organization assets library to appear to a user in PowerPoint on the web, the user must be assigned a license to Office 365 E3 or E5. Users who use the Word, Excel, or PowerPoint desktop app also need Microsoft 365 Apps Version 2002 or later. [Learn more about custome org fonts in ppt for web](/SharePoint/supporting-custom-org-fonts-in-ppt-web?branch=pr-en-us-4285).
+    > - For the organization assets library to appear to a user in PowerPoint on the web, the user must be assigned a license to Office 365 E3 or E5. Users who use the Word, Excel, or PowerPoint desktop app also need Microsoft 365 Apps Version 2002 or later. [Learn more about custom org fonts in ppt for web](/SharePoint/supporting-custom-org-fonts-in-ppt-web?branch=pr-en-us-4285).
     > - Allow up to 24 hours for the organization assets library to appear to a user in the desktop apps.
     > - The files uploaded to the library must be in the template format .xltx. ([learn how to save an Excel workbook as a template](https://support.microsoft.com/office/save-a-workbook-as-a-template-58c6625a-2c0b-4446-9689-ad8baec39e1e)), .dotx. ([learn how to save a Word document in this format](https://support.microsoft.com/topic/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb)), or .potx. ([learn how to save a PowerPoint file in this format](https://support.microsoft.com/office/ee4429ad-2a74-4100-82f7-50f8169c8aca)).
 
