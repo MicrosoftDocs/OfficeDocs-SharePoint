@@ -29,12 +29,12 @@ The following diagram outlines the key steps in making our solution work:
 2. SharePoint stores the assets in a [public Office 365 Content Delivery Network.](/microsoft-365/enterprise/use-microsoft-365-cdn-with-spo?view=o365-worldwide&preserve-view=true) 
 3. When a user opens a PowerPoint file on the web platform, PowerPoint for the web will access the CDN and fetches appropriate fonts.
 
-## Adding custom fonts to SharePoint as organization asset libraries 
-1. [Create a new site](https://support.microsoft.com/office/create-a-site-in-sharepoint-4d1e11bf-8ddc-499d-b889-2b48d10b1ce8) or use your existing site for organization asset libraries and set permissions. 
+## Adding custom fonts to SharePoint as Organization Asset Libraries 
+1. [Create a new site](https://support.microsoft.com/office/create-a-site-in-sharepoint-4d1e11bf-8ddc-499d-b889-2b48d10b1ce8) or use your existing site for Organization Asset Libraries and set permissions. 
 2. Create a new document library for your custom font.
   
    :::image type="content" source="media/create-document-library.png" alt-text="Login to document library with your credentials":::
-3.	To choose the library as font organization asset library, use the **SharePoint Online Management Shell,** and run the following command: 
+3.	To choose the library as Font Organization Asset Libraries, use the **SharePoint Online Management Shell,** and run the following command: 
 
       ```Add-SPOOrgAssetsLibrary -LibraryUrl <New Document Library SharePoint URL> -OrgAssetType OfficeFontLibary -CdnType Public```
  
@@ -54,11 +54,11 @@ The following diagram outlines the key steps in making our solution work:
 - This feature or support will be available in PowerPoint for the web in the month of February 2022. Following endpoints are supporting this feature: 
   - Windows Desktop – March 2022 
   - Mac + mobile – June 2022 
-- Updates to font organization asset libraries takes 24 hours to update across your organization. 
+- Updates to font Organization Asset Libraries take 24 hours to update across your organization. 
 - This feature supports only TTF and OTF font filetypes. 
-- Don't use the **Document Library SharePoint Web UI** for making changes to your font libraries, these changes won't reflect. Use only the **SharePoint Online Management Shell** commands to make changes.
+- Do not use the **Document Library SharePoint Web UI** for making changes to your font libraries, these changes will not reflect. Use only the **SharePoint Online Management Shell** commands to make changes.
   - Only use the `Remove-SPOOrgAssetsLibrary` command to remove an Office Font Library. 
-- Your custom fonts will only be available internally, and external users can't render or use your custom font.
+- Your custom fonts will only be available internally, and external users cannot render or use your custom font.
 
 ## Public CDNs and licensing 
-In general, custom fonts for **public** will be stored in a cloud location, and it won't be accessible for public. In this scenario, **public** means - access to asset is anonymous and unauthenticated. Whenever a user requests the custom font, we don't check for company specific authentication. However, to gain access for your custom fonts, users outside of your company need to maliciously reconstruct or guess the URL location of your font. Later, spoof the request through an approved list of hosts (PPT, SharePoint, and Teams). If users can guess the URL of your custom fonts, they're unable to plug the URL into their browsers to download the custom fonts.
+In general, custom fonts for **public** will be stored in a cloud location, and it will not be accessible for public. In this scenario, **public** means - access to asset is anonymous and unauthenticated. Whenever a user requests the custom font, we do not check for company specific authentication. However, to gain access for your custom fonts, users outside of your company need to maliciously reconstruct or guess the URL location of your font. Later, spoof the request through an approved list of hosts (PPT, SharePoint, and Teams). If users can guess the URL of your custom fonts, they are unable to plug the URL into their browsers to download the custom fonts.
