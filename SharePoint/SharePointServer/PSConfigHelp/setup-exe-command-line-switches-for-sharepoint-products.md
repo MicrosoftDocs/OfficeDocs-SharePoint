@@ -72,9 +72,9 @@ Use the following procedure to run Setup.exe with a configuration file (Config.x
     
 2. Run Setup.exe with the selected Config.xml file.
     
-  ```
-  setup /config <path and file name>
-  ```
+    ```
+    setup /config <path and file name>
+    ```
 
     > [!NOTE]
     > You can select one of the example files that is included in the SharePoint Server 2016 product DVD, or customize your own configuration file. 

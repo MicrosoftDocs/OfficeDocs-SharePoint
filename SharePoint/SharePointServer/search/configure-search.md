@@ -1,9 +1,8 @@
 ---
 title: "Configure enterprise search in SharePoint Server"
-ms.reviewer: 
-manager: 
 ms.author: serdars
 author: SerdarSoysal
+manager: serdars
 ms.date: 3/9/2018
 audience: ITPro
 f1.keywords:
@@ -31,10 +30,11 @@ SharePoint Server 2019 has both a classic and a modern search experience. Both s
 
 The following articles reflect the steps to get started with enterprise search in SharePoint Server. The articles are available to view online and writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
-|                                                                                                                                     |                                                                                                                                                                                                                                                                                          |
-| :---------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Create and configure a Search service application in SharePoint Server](create-and-configure-a-search-service-application.md) | The Search service application crawls content and provides search results. You can either create it as part of a new deployment of SharePoint Server, or as needed.                                                                                                                 |
-| [Create a Search Center site in SharePoint Server](create-a-search-center-site.md)                                                  | The Search Center is one classic search interface where users submit search queries and view search results.                                                                                                                                                                                            |
-| [Deploy people search in SharePoint Server](deploy-people-search.md)                                                                | In classic search, People search lets users get information about people in the organization and get links to the documents that they have authored. |
+| &nbsp;  | &nbsp; |
+|:---|:---|
+| [Create and configure a Search service application in SharePoint Server](create-and-configure-a-search-service-application.md) | The Search service application crawls content and provides search results. You can either create it as part of a new deployment of SharePoint Server, or as needed.|
+| [Create a Search Center site in SharePoint Server](create-a-search-center-site.md) | The Search Center is one classic search interface where users submit search queries and view search results.  |
+| [Deploy people search in SharePoint Server](deploy-people-search.md) | In classic search, People search lets users get information about people in the organization and get links to the documents that they have authored.|
+
    
 
