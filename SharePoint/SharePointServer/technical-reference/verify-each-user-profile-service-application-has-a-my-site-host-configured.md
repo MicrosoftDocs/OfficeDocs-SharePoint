@@ -53,15 +53,15 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Verify e
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Set-SPProfileServiceApplication [-Name <UserProfileServiceApplicationName>] -MySiteHostLocation <URL>
-  ```
+   ```
+   Set-SPProfileServiceApplication [-Name <UserProfileServiceApplicationName>] -MySiteHostLocation <URL>
+   ```
 
     Where:
     
-  -  _\<UserProfileServiceApplicationName\>_ is the friendly name of the User Profile Service service application. If you only have one User Profile Service service application, you do not need to specify the name. 
+   -  _\<UserProfileServiceApplicationName\>_ is the friendly name of the User Profile Service service application. If you only have one User Profile Service service application, you do not need to specify the name. 
     
-  -  _\<URL\>_ is URL of an empty site collection that has no templates associated with it. 
+   -  _\<URL\>_ is URL of an empty site collection that has no templates associated with it. 
     
 ## See also
 <a name="server"> </a>

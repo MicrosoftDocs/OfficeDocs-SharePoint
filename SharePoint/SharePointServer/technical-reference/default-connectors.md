@@ -26,7 +26,7 @@ The crawler uses connectors to connect to content repositories. In previous Shar
 
 The following table lists the connectors that by default are installed in SharePoint Server, and to which content repositories they connect.
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Connector** <br/> |**Content repository** <br/> |
 |Bcs  <br/> |Business Connectivity Services (internal protocol)  <br/> |

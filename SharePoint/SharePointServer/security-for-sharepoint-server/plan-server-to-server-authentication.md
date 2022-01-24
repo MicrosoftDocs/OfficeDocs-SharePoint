@@ -69,7 +69,7 @@ For each farm that runs SharePoint Server, make a list of servers that are capab
   
  **Case 1: Farms are on-premises**
   
-If the farm that can perform server-to-server authentication is on-premises, you must configure the farm that runs SharePoint Server. Use the [New-SPTrustedSecurityTokenIssuer](/powershell/module/sharepoint-server/New-SPTrustedSecurityTokenIssuer?view=sharepoint-ps&preserve-view=true) PowerShell cmdlet to add a JavaScript Object Notation (JSON) metadata endpoint of the server that can perform server-to-server authentication to the server that runs SharePoint Server. If the server that can perform server-to-server authentication is another server that runs SharePoint Server, the JSON metadata endpoint is in the format: https://<HostName>/_layouts/15/metadata/json/1. 
+If the farm that can perform server-to-server authentication is on-premises, you must configure the farm that runs SharePoint Server. Use the [New-SPTrustedSecurityTokenIssuer](/powershell/module/sharepoint-server/New-SPTrustedSecurityTokenIssuer?view=sharepoint-ps&preserve-view=true) PowerShell cmdlet to add a JavaScript Object Notation (JSON) metadata endpoint of the server that can perform server-to-server authentication to the server that runs SharePoint Server. If the server that can perform server-to-server authentication is another server that runs SharePoint Server, the JSON metadata endpoint is in the format: https://\<HostName>/_layouts/15/metadata/json/1. 
   
  **Case 2: Farms are part of a Microsoft 365 tenancy**
   
