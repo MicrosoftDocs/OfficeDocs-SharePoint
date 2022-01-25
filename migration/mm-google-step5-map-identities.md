@@ -62,6 +62,14 @@ Upload your own users and groups mappings using the M
 >[!Important]
 >Make sure to verify your mappings before uploading the file.  The file will not be validated, and once migration cannot be changed.
 
+### Migrating Google Shared Drives
+
+If you are migrating Google Shared Drives: 
+
+1. Manually gather the membership list of the Google Shared Drive during your migration planning.
+2. Create the destination document library in the appropriate team site of your SharePoint tenant. At this time, we recommend that you re-establish the membership list of the Google Shared Drive on the destination document library in your SharePoint tenant.
+3. Migrate the Google Shared Drive. If you didn't do it in step 2, re-establish the membership list of the Google Shared Drive in the destination document library in your SharePoint tenant.
+
 
 [**Step 6: Migrate and monitor**](mm-Google-step6-migrate-monitor.md)
 
