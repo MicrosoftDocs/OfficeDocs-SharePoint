@@ -37,6 +37,6 @@ The following articles about performance and capacity management are available t
 
 The following resources about performance and capacity management are available from other subject matter experts. 
   
-||**Content**|**Description**|
+|&nbsp;|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![TechNet logo](../media/otc_LandingPage_55px_MSTechNetLogo.png)|[Capabilities and features in SharePoint 2013 Resource Center](../../Hub/index.yml) <br/> [Architecture design for SharePoint 2013 IT pros](../../Hub/index.yml) <br/> |Visit the TechCenter to access videos, community sites, documentation, and more.  <br/> |

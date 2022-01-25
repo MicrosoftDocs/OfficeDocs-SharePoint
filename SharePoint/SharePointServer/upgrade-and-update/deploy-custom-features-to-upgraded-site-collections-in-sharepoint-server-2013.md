@@ -113,7 +113,7 @@ When you use legacy custom features in a SharePoint 2013 farm, you might find yo
 
 When you deploy custom features to a SharePoint 2013 farm that has been upgraded from SharePoint Server 2010, three different deployment scenarios are supported:
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Scenario 1** <br/> |Legacy solution for SharePoint 2010 compatibility mode, and functionality is expected to remain the same when upgraded to SharePoint 2013 mode.  <br/> |
 |**Scenario 2** <br/> |Legacy solution for SharePoint 2010 compatibility mode, but rebuilt the solution to incrementally add functionality for SharePoint 2013 mode.  <br/> |

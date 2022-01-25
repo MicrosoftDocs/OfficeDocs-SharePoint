@@ -28,7 +28,7 @@ Before you install SharePoint Server, you must make sure that you have installed
 The following articles help you prepare for the installation of SharePoint Server by providing information about the prerequisites that you must have in order to run SharePoint Server.
   
   
-||**Content**|**Description**|
+|&nbsp; |**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks](../media/mod_icon_buildingblock_M.png)           <br/> |[Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md) <br/> |Describes the hardware and software requirements that you must meet to successfully install SharePoint Server 2016.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)           <br/> |[Hardware and software requirements for SharePoint Server 2019](hardware-and-software-requirements-2019.md) <br/> |Describes the hardware and software requirements that you must meet to successfully install SharePoint Server 2019.  <br/> |
