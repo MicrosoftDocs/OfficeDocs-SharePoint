@@ -107,14 +107,12 @@ If you wish to leverage your system proxy settings, use one of these methods:
 4. Launch installclient.exe and SPMT should auto-upgrade to latest SPMT release.
 5. Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
 6. Comment out the default proxy setting:
-7. 
+
     ![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)
 
-5. Restart SPMT.
-6. 
-7. ## Next step
-
-[**Step 2: Create a migration task**](spmt-create-task.md) 
+7. Restart SPMT.
+ 
+## [**Step 2: Create a migration task**](spmt-create-task.md) 
     
 
 > [!NOTE]

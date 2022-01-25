@@ -23,7 +23,7 @@ search.appverid: MET150
 description: "Learn about how the Migration Manager tool in the modern SharePoint Admin Center works and how to get started with it."
 ---
 
-# Overview:  Migrate your file shares to Microsoft 365 with Migration Manager
+# Overview: Migrate your file shares to Microsoft 365
 
 Migrating your on-premises file share content to Microsoft 365 lets you collaborate with innovative Office apps, intelligent cloud services, and world-class security.  Migration Manager helps you get there.
 
