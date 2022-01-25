@@ -10,6 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.service: one-drive
 ms.localizationpriority: medium
+ms.custom: admindeeplinkSPO
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
@@ -33,7 +34,7 @@ By default, users receive notifications about file activity in OneDrive and Shar
   
 ## Allow or block notifications
 
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the new SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
     
 2. Select the **Notifications** setting for OneDrive.
   
