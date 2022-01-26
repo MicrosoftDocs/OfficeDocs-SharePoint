@@ -15,16 +15,17 @@ search.appverid:
 - MET150
 ms.collection:  
 - M365-collaboration
+ms.custom: admindeeplinkSPO
 description: "Learn how to publish a content type from the SharePoint admin center."
 ---
 
 # Publish a content type
 
-You can publish, unpublish, or republish content types in the content type hub at /sites/ContentTypeHub or from the SharePoint admin center.
+You can publish, unpublish, or republish content types in the content type hub at /sites/ContentTypeHub or from the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>.
 
 **To publish, republish, or unpublish a content type**
 
-1. Go to the [Content type gallery page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=contentTypes&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
+1. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185074" target="_blank">**Content type gallery** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
 
 2. Under the **Site content type** column, select the name of the site content type for which you want to manage updates. That site content type page appears.
 
