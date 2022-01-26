@@ -95,7 +95,9 @@ To allow custom script on a particular site (previously called "site collection"
     Set-PnPSite <SiteURL> -NoScriptSite $false
     ``` 
 
-If you change this setting for a user's OneDrive or a classic team site, it will be overridden by the Custom Script setting in the admin center within 24 hours.
+If you change this setting for a classic team site, it will be overridden by the Custom Script setting in the admin center within 24 hours.
+> [!NOTE]
+    > Allow/disallow of custom script to individual OneDrive’s cannot be done.
   
 ## Features affected when custom script is blocked
 <a name="__top"> </a>
