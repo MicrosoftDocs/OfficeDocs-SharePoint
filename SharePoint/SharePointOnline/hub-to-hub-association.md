@@ -18,6 +18,7 @@ ms.collection:
 - m365solution-spintranet
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
