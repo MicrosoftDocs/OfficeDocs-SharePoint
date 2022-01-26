@@ -47,7 +47,7 @@ If you have a reliance on any of the following, plan what you intend to replace 
 Use supported service applications and consider phasing out the use of these deprecated service applications. For any of the SharePoint BI tools, you can use PowerBI as a replacement:
 
 
-|**Deprecated feature or service**
+|Deprecated feature or service|
 |:-----|
 |Access Services and Access Services 2010 |
 |Document Conversions services|
@@ -57,7 +57,7 @@ Use supported service applications and consider phasing out the use of these dep
 |PowerPoint Conversion Service |
 |Visio Graphics Service  |
 |Word Automation Services  |
-|InfoPath | |
+|InfoPath |
 |Workflow Manager |
 
 ## Customizations

@@ -38,7 +38,7 @@ The following table shows the languages that SharePoint Server by default suppor
     
 ||||||||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|**Language** <br/> |**Code** <br/> |**Document language detection** <br/> |**Word breaking** <br/> |**Stemming** <br/> |**Spelling variants** <br/> |**Spelling correction, static** <br/> |**Spelling correction, dynamic** <br/> |**Decompounding** <br/> |**Fuzzy name matching** <br/> |**Company name extraction** <br/> |
+|**Language** |**Code**|**Document language detection** |**Word breaking**  |**Stemming**  |**Spelling variants**  |**Spelling correction, static**  |**Spelling correction, dynamic**  |**Decompounding**  |**Fuzzy name matching**  |**Company name extraction**  |
 |Afrikaans  <br/> |af  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Not applicable  <br/> |No  <br/> |No  <br/> |
 |Albanian  <br/> |sq  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Not applicable  <br/> |No  <br/> |No  <br/> |
 |Arabic  <br/> |ar  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Not applicable  <br/> |No  <br/> |Yes  <br/> |

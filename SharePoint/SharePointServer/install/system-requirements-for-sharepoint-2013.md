@@ -27,7 +27,7 @@ Before you install SharePoint 2013, you must make sure that you have installed a
 The following articles help you prepare for the installation of SharePoint 2013 by providing information about the prerequisites that you must have in order to run SharePoint 2013.
   
   
-| |**Content**|**Description**|
+|&nbsp; |**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Hardware and software requirements for SharePoint 2013](hardware-software-requirements-2013.md) <br/> |Describes the hardware and software requirements that you must meet to successfully install SharePoint 2013.  <br/> |
 |![Checklist icon (not checked)](../media/mod_icon_checklist_.png)|[Plan browser support in SharePoint 2013](browser-support-planning.md) <br/> |Describes levels of support for web browsers to use with SharePoint 2013.  <br/> |
