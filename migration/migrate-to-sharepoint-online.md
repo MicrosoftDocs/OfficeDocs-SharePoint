@@ -30,11 +30,13 @@ description: "This article helps you understand, which tool to use when migratin
 Moving to Microsoft 365? Let us help you migrate your content easily and securely.
 
 
-### What's new
+## What's new
 
 - Check out what's new and coming soon to [Migration Manager](mm-whats-new.md).
 
 - Check out what's new and coming soon to [SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md)
+
+##  Where are you migrating from?
 
 |Migrate from|Description|
 |:-----|:-----|
