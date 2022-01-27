@@ -72,7 +72,7 @@ Several hybrid features are bundled together to help ease deployment. The two fe
   
 The following table shows which hybrid features are included with each option.
   
-||**Hybrid OneDrive**|**Hybrid sites features**|
+|&nbsp;|**Hybrid OneDrive**|**Hybrid sites features**|
 |:-----|:-----|:-----|
 |OneDrive  <br/> |X  <br/> |X  <br/> |
 |Site following  <br/> ||X  <br/> |

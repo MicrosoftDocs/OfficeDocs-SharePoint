@@ -43,7 +43,7 @@ It's also important to note, here, that Active Directory Import (sometimes calle
   
 Which option is right for you?
   
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
 ||**Microsoft Identity Management server** <br/> |**Active Directory Import** <br/> |
 |Pros  <br/> |1. Flexibility allows for customized import.  <br/> 2. Can be customized for bidirectional flow.  <br/> 3. Imports user profile photos automatically.  <br/> 4. Supports non-Active Directory LDAP sources.  <br/> 5. Multi-forest scenarios are supported.  <br/> |1. Very fast and performant.  <br/> 2. Known to be reliable (used by Microsoft 365).  <br/> 3. Configurable inside of Central Administration. (Less complex.)  <br/> |

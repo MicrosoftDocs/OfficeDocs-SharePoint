@@ -27,7 +27,7 @@ Before you install SharePoint Server Subscription Edition, you must make sure th
 
 The following articles help you prepare for the installation of SharePoint Server by providing information about the prerequisites that you must have in order to run SharePoint Server.
     
-||**Content**|**Description**|
+|&nbsp;| Content | Description |
 |:-----|:-----|:-----|
 |![Checklist icon (not checked)](../media/mod_icon_checklist_.png)|[Hardware and Topology Requirements for SharePoint Server Subscription Edition](hardware-and-topology-requirements-for-sharepoint-server-subscription-editon.md)|Find out the minimum hardware requirements that you need for installing and running SharePoint Server Subscription Edition.  <br/> |
 |![Checklist icon (not checked)](../media/mod_icon_checklist_.png)|[Software Requirements for Database Servers for SharePoint Server Subscription Edition](software-requirements-for-database-servers-for-sharepoint-server-subscription-edition.md)|This article introduces topics that describe software and database servers requirements for SharePoint Server.  <br/> |
