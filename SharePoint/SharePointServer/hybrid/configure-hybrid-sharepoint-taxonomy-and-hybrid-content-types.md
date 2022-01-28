@@ -18,7 +18,7 @@ ms.collection:
 - Strat_SP_gtc
 - M365-collaboration
 - SPO_Content
-ms.custom: 
+ms.custom: admindeeplinkSPO
 ms.assetid: 0809325c-9b99-46bf-b98d-6d2f5e3d2a4b
 description: "In this article, we look at how to configure hybrid SharePoint taxonomy and hybrid content types."
 ---
@@ -118,7 +118,7 @@ The content types will be copied into https://contoso.sharepoint.com/sites/conte
 
 ## Configure hybrid SharePoint taxonomy
 
-Configuration of hybrid SharePoint taxonomy is done using the Hybrid Picker in the SharePoint admin center. The Hybrid Picker has a number of prerequisites. Be sure to read [Hybrid picker in the SharePoint admin center](hybrid-picker-in-the-sharepoint-online-admin-center.md) before you follow the procedures in this section. 
+Configuration of hybrid SharePoint taxonomy is done using the Hybrid Picker in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. The Hybrid Picker has a number of prerequisites. Be sure to read [Hybrid picker in the SharePoint admin center](hybrid-picker-in-the-sharepoint-online-admin-center.md) before you follow the procedures in this section. 
   
 We also recommend that you back up your term store before you proceed.
   
@@ -136,7 +136,7 @@ For taxonomy replication to work properly, the account that runs the SharePoint 
     
  **Configure hybrid SharePoint taxonomy using the Hybrid Picker**
   
-The next step is to configure hybrid SharePoint taxonomy by running the Hybrid Picker in the SharePoint admin center.
+The next step is to configure hybrid SharePoint taxonomy by running the Hybrid Picker in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>.
   
  **To configure hybrid SharePoint taxonomy**
   
@@ -144,7 +144,7 @@ The next step is to configure hybrid SharePoint taxonomy by running the Hybrid P
     
 2. From your SharePoint Server computer, open a web browser.
     
-3. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
+3. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
 
 4. Under **Hybrid picker**, select **Open**.
     
