@@ -132,12 +132,12 @@ Use the following table for the LogLevel settings.
 
 **The elements of the LogLevel settings**
 
-|**Name**|**Value Type**|**Notes**|
+|Name|Value Type|Notes|
 |:-----|:-----|:-----|
 |Area  <br/> |String: **Read-Only** <br/> |The component or service that the LogLevel applies to.  <br/> |
 |Identity  <br/> |String: **Read-Only** <br/> |Specifies the names of the category or set of categories to set the throttle for; for example, "Unified Logging Service".  <br/> **Note:** <br/> If the Identity parameter is not specified, the event-throttling setting is applied to all categories in the farm.  <br/> |
-|EventSeverity  <br/> |String:[None | ErrorCritical |Error | Warning |Information | Verbose]  <br/> |Specifies the category level to be set. The category level is any one of the following values:[None | ErrorCritical |Error | Warning |Information | Verbose]  <br/> |
-|TraceSeverity  <br/> |String:[None | Unexpected |Monitorable | High |Medium | Verbose | VerboseX]  <br/> |Specifies trace throttle to set the specified categories to. The trace log files are text files that are written to the trace log path that is defined on the Diagnostic Logging Settings page on the the SharePoint Central Administration website. The type must be any one of the following values::[None | Unexpected |Monitorable | High |Medium | Verbose | VerboseX]  <br/> |
+|EventSeverity  <br/> |String:[None \| ErrorCritical \|Error \| Warning \|Information \| Verbose]  <br/> |Specifies the category level to be set. The category level is any one of the following values:[None \| ErrorCritical \|Error \| Warning \|Information \| Verbose]  <br/> |
+|TraceSeverity  <br/> |String:[None \| Unexpected \|Monitorable \| High \|Medium \| Verbose \| VerboseX]  <br/> |Specifies trace throttle to set the specified categories to. The trace log files are text files that are written to the trace log path that is defined on the Diagnostic Logging Settings page on the the SharePoint Central Administration website. The type must be any one of the following values::[None \| Unexpected \|Monitorable \| High \|Medium \| Verbose \| VerboseX]  <br/> |
    
 Use the following table for the TimerJob settings.
 

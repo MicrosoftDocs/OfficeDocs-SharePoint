@@ -104,7 +104,6 @@
 ### [Plan, build, and launch a home site](home-site-plan.md)
 ### [Set up a home site](home-site.md)
 ### [Change your domain name](change-your-sharepoint-domain-name.md)
-
 ### [Enable and set up global navigation](sharepoint-app-bar.md)
 ### [Create an organization assets library](organization-assets-library.md)
 ### [Create an organization news site](organization-news-site.md)

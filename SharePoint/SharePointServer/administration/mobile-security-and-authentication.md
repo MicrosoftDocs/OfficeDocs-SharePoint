@@ -45,7 +45,7 @@ The following table lists a selection of Exchange ActiveSync features and polici
   
 **Table: Exchange ActiveSync policies for mobile devices**
 
-|**Exchange ActiveSync policy**|**Description**|
+| Exchange ActiveSync policy | Description |
 |:-----|:-----|
 |Remote wipe (this is a feature and not an Exchange ActiveSync policy)  <br/> |If a mobile phone is lost, stolen, or otherwise compromised, you can issue a remote wipe command from the Exchange computer or from any web browser by using Outlook Web App. This command restores the device to factory defaults.  <br/> > [!IMPORTANT]> After a remote device wipe has occurred, data recovery is very difficult. However, no data removal process leaves a device as free from residual data as when it is new. Recovery of data from a device may still be possible using sophisticated tools.           |
 |Enforce password on device (DevicePasswordEnabled)  <br/> |This setting enables the mobile phone password.  <br/> |
@@ -90,8 +90,8 @@ The following tables detail the authentication types supported for browsers, One
   
 **Table: Mobile authentication support for SharePoint browsers**
 
-|**SharePoint Infrastructure**|**Mobile Devices**|
-|:-----|:-----|
+| SharePoint Infrastructure | Mobile Devices |
+|-----|-----|
 |**Authentication Type** <br/> |**Authentication Protocol** <br/> |**ID Provider** <br/> |**SharePoint deployment** <br/> |**Windows Phone 7.5 (Internet Explorer Mobile)** <br/> |**Windows Phone 8 (Internet Explorer Mobile)** <br/> |**Windows 8 (Internet Explorer)** <br/> |**iOS 5.x or later versions (Safari Browser)** <br/> |**Android 4.x or later versions (Android Browser** )  <br/> |
 |**Windows Authentication** <br/> |NTLM  <br/> |Active Directory  <br/> |On-premises  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Basic Authentication  <br/> |Active Directory  <br/> |On-premises, extranet  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
@@ -101,7 +101,7 @@ The following tables detail the authentication types supported for browsers, One
    
 **Table: Supported authentication types for the OneDrive app**
 
-|**Authentication type**|**Description**|**Supported**|**Administrator type required for configuration**|
+| Authentication type | Description | Supported | Administrator type required for configuration |
 |:-----|:-----|:-----|:-----|
 |**Org-ID** <br/> |Organizations with a Microsoft 365 or SharePoint organization without any federation.  <br/> |Yes  <br/> |Global admin  <br/> |
 |**ADFS and Org-ID federation** <br/> |Organizations with a hybrid Microsoft 365 or SharePoint organization with users federated from an on-premises directory.  <br/> |Yes  <br/> |Global admin plus the on-premises network administrator plus the SharePoint admin  <br/> |
@@ -117,8 +117,8 @@ The following tables detail the authentication types supported for browsers, One
   
 **Table: Mobile authentication support matrix for Office Hub**
 
-|**SharePoint Infrastructure**|**Client side**|**Mobile devices**|
-|:-----|:-----|:-----|
+| SharePoint Infrastructure | Client side | Mobile devices |
+|-----|-----|-----|
 |**Authentication Type** <br/> |**Authentication Protocol** <br/> |**ID Provider** <br/> |**SharePoint deployment** <br/> |**Handled through:** <br/> |**Windows Phone 7.5 (Internet Explorer Mobile)** <br/> |**Windows Phone 8 (Internet Explorer Mobile)** <br/> |
 |**Windows Authentication** <br/> |NTLM  <br/> |Active Directory  <br/> |On-premises  <br/> |NTLM  <br/> |Yes  <br/> |Yes  <br/> |
 |Basic Authentication  <br/> |Active Directory  <br/> |On-premises, extranet  <br/> |Basic Authentication  <br/> |No  <br/> |Yes (https)  <br/> |
@@ -140,10 +140,10 @@ This section provides authentication guidance and considerations for the SharePo
   
 The following table details the authentication types supported for the SharePoint Newsfeed App in SharePoint Server 2013. For the following, OrgID refers to Microsoft Online Services ID, the identity provider for Microsoft 365. Also, MSOFBA refers to Microsoft Office Forms Based Authentication.
   
-**Table: Mobile authentication support matrix for the SharePoint Newsfeed App**
+**Table: Mobile authentication support matrix for the SharePoint Newsfeed App**\
 
-|**SharePoint Infrastructure**|**Client side**|**Mobile devices**|
-|:-----|:-----|:-----|
+| SharePoint Infrastructure | Client side | Mobile devices |
+|-----|-----|-----|
 |**Authentication Type** <br/> |**Authentication Protocol** <br/> |**ID Provider** <br/> |**SharePoint deployment** <br/> |**Handled through:** <br/> |**Windows Phone 7.5 Apps** <br/> |**Windows Phone 8 Apps** <br/> |**Windows 8 Apps** <br/> |**iOS 6.x or later versions Apps** <br/> |
 |**Windows Authentication** <br/> |NTLM  <br/> |Active Directory  <br/> |On-premises  <br/> |NTLM  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |
 |Basic Authentication  <br/> |Active Directory  <br/> |On-premises, extranet  <br/> |Basic Authentication  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes (https)  <br/> |
@@ -160,7 +160,7 @@ The following table details the authentication types supported for the SharePoin
   
 The SharePoint Newsfeed App is supported for both on-premises and SharePoint in Microsoft 365 use. Each option can present differences with end user authentication workflow. For example, this table provides sample authentication experiences for each type of implementation. 
   
-|**Deployment**|**Workflow**|**Details**|
+| Deployment | Workflow | Details |
 |:-----|:-----|:-----|
 |**On-premises** <br/> |![SharePoint Newsfeed On-premises](../media/SP15Mobile_SPNewsOnPrem.jpg)| Supported Authentication Types  <br/>  Windows Authentication  <br/>  Forms Based Authentication  <br/>  SAML  <br/> |
 |**SharePoint in Microsoft 365** <br/> |![Newsfeed in SharePoint in Microsoft 365](../media/SP15Mobile_SPNewsSPO.jpg)| Supported Authentication Types  <br/>  Forms-based Authentication  <br/>  SAML  <br/> |

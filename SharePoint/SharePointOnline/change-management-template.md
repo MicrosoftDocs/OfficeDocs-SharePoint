@@ -139,7 +139,7 @@ Learn more about [how to provision the Microsoft 365 learning pathways solution 
 > -	The workplace transformation site will take about 15 minutes to provision 
 
 
-1.	Start by navigating to the [SharePoint look book](https://lookbook.microsoft.com/) and selecting the work transformation template. Select **Add to your tenant**.
+1.	Start by navigating to the [SharePoint look book](https://lookbook.microsoft.com/) and selecting the workplace transformation site template. Select **Add to your tenant**.
 2.	Then, select a site name, URL, and email address where an email confirmation will be sent when the site is successfully created.
 3.	Select **Provision**, and in less than 15 minutes you will receive an email confirmation with a link to your new site.
 <br> 
