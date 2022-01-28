@@ -64,7 +64,14 @@ Upload your own users and groups mappings using the M
 
 ### Migrating Google Shared Drives
 
-If you are migrating Google Shared Drives: 
+>[!Important]
+>We are not able to read or write permissions to Google Shared Drives, therefore we cannot migrate permissions or membership of Google Shared Drives. 
+>
+>Google Shared Drives do not allow explicit folder-level permissions. Instead, Shared Drive permissions are based on the Shared Drive members.
+>
+>If you are migrating Google Shared Drives, follow the steps below.
+
+**To migrate Google Shared Drives:**
 
 1. Manually gather the membership list of the Google Shared Drive during your migration planning.
 2. Create the destination document library in the appropriate team site of your SharePoint tenant. At this time, we recommend that you re-establish the membership list of the Google Shared Drive on the destination document library in your SharePoint tenant.
