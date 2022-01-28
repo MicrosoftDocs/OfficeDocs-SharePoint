@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
@@ -25,7 +26,7 @@ description: "In this article, you'll learn about finding site collection featur
 
 # Find site collection features in the new SharePoint admin center
 
-This article covers all the features on the classic site collections page and where you can find them in the new SharePoint admin center.
+This article covers all the features on the classic site collections page and where you can find them in the new <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>.
 
 ![Ribbon on site collections page](media/site-collections-menu.png)
 
@@ -34,7 +35,7 @@ This article covers all the features on the classic site collections page and wh
 
 ## New (create a new private site collection)
 
-To create a site collection in the new SharePoint admin center, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and then select **Create**. To create a classic site, select **Other options**.
+To create a site collection in the new SharePoint admin center, go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites**</a>, and then select **Create**. To create a classic site, select **Other options**.
 
 <br/>
 
@@ -162,7 +163,7 @@ These features haven't been in use for more than a year.
 
 ## Recycle bin
 
-To view your deleted sites, go to the new SharePoint admin center, go to the [Deleted sites page](https://admin.microsoft.com/sharepoint?page=recycleBin&modern=true).
+To view your deleted sites, go to the new SharePoint admin center, go to <a href="https://go.microsoft.com/fwlink/?linkid=2185070" target="_blank">**Deleted sites**</a>.
 
 <br/>
 
@@ -180,7 +181,7 @@ To view your deleted sites, go to the new SharePoint admin center, go to the [De
 
 ## Search by URL
 
-On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), use the Search box. As with the classic SharePoint admin center, you can also sort by URL.
+On <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">** in the SharePoint admin center**</a>, use the Search box. As with the classic SharePoint admin center, you can also sort by URL.
 
 ## Available storage and storage limit bar
 
@@ -198,10 +199,10 @@ This information is no longer displayed because you shouldn't need to worry abou
 
 ![Storage columns](media/storage-columns.png)
 
-Most of the sites that were listed in the classic SharePoint admin center are included on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true). A few are hidden because they're system sites that you shouldn’t need to change. The [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) contains all the new team sites and communication sites that didn’t appear in the classic SharePoint admin center. To see the site list as it appeared in the classic SharePoint admin center, from the **Built-in views** menu, select **Classic sites**.  
+Most of the sites that were listed in the classic SharePoint admin center are included on <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites**</a>. A few are hidden because they're system sites that you shouldn’t need to change. The [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) contains all the new team sites and communication sites that didn’t appear in the classic SharePoint admin center. To see the site list as it appeared in the classic SharePoint admin center, from the **Built-in views** menu, select **Classic sites**.  
 
 In both the classic and new admin centers, you can select multiple sites and bulk edit the sharing or storage settings, or delete the sites.  
 
-In the classic site list, locked sites appeared with an icon. In the new SharePoint admin center, to see if a site is locked, select the site to open the details panel. **This site is locked** appears at the top of the panel. 
+In the classic site list, locked sites appeared with an icon. In the new <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, to see if a site is locked, select the site to open the details panel. **This site is locked** appears at the top of the panel. 
 
-If you use manual storage limits, the Storage limit and Percent used columns appear. In the new SharePoint admin center, on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), the Storage limit and Storage used columns appear. The Storage used column isn’t color coded. The Storage limit column can be sorted by size.
+If you use manual storage limits, the Storage limit and Percent used columns appear. In the new SharePoint admin center, on <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites**</a>, the Storage limit and Storage used columns appear. The Storage used column isn’t color coded. The Storage limit column can be sorted by size.

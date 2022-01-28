@@ -12,6 +12,7 @@ ms.topic: reference
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection: Strat_SP_admin
+ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
 - BSA160
@@ -22,7 +23,7 @@ description: "Learn about the features currently in the new SharePoint admin cen
 
 # What's new in the SharePoint admin center
 
-We're continuously adding new features to the new SharePoint admin center and fixing issues we learn about. Here's a summary of what's included. You can help us improve the admin center by sending us your suggestions and reporting bugs you encounter. In the lower-right corner of the admin center, click the **Feedback** button.
+We're continuously adding new features to the new <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> and fixing issues we learn about. Here's a summary of what's included. You can help us improve the admin center by sending us your suggestions and reporting bugs you encounter. In the lower-right corner of the admin center, click the **Feedback** button.
   
 > [!NOTE]
 > The new SharePoint admin center is supported in Microsoft Edge, Internet Explorer, Chrome, Firefox, and Safari.
@@ -99,7 +100,7 @@ You can also create a card by [tracking a view](customize-admin-center-site-list
 
     ![The Settings page.](media/settings-page.png)
 
-- **Updated More features page**. Classic features can now be found on the [More features page](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true). [Learn where to find features in the new SharePoint admin center](./get-started-new-admin-center.md#where-to-find-things-in-the-new-sharepoint-admin-center).
+- **Updated More features page**. Classic features can now be found on <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features**</a>. [Learn where to find features in the new SharePoint admin center](./get-started-new-admin-center.md#where-to-find-things-in-the-new-sharepoint-admin-center).
 
     ![The More features page.](media/more-features-page.png)
 
@@ -113,10 +114,10 @@ You can also create a card by [tracking a view](customize-admin-center-site-list
 
 ## June 2019
 
-- The new SharePoint admin center is set as the default experience unless you select to open the classic SharePoint admin center by default (on the Settings page).
+- The new SharePoint admin center is set as the default experience unless you select to open the classic SharePoint admin center by default (on <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings**</a>).
 
 - On the Active sites page, you can select multiple sites and bulk edit sharing and hub association settings.
 
-- Classic SharePoint admin features such as Term Store, User Profiles, Search, Apps, and more are available from the More features page so you can access them directly from the new SharePoint admin center.
+- Classic SharePoint admin features such as Term Store, User Profiles, Search, Apps, and more are available from <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features**</a> so you can access them directly from the new SharePoint admin center.
 
 

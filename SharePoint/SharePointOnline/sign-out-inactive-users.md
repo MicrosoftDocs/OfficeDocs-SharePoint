@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
 - ODB160
@@ -55,7 +56,7 @@ If users don't select **Continue**, they are automatically signed out, and the f
   
 ## Specify idle session sign-out settings in the new SharePoint admin center
 
-1. Go to the [Access control page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">**Access control** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
    > [!NOTE]
    > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Access control page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Access control page.
