@@ -45,7 +45,7 @@ The following diagram outlines the key steps in making our solution work:
 
    :::image type="content" source="media/new-drop-down.png" alt-text="New drop-down option":::
 
-   :::image type="content" source="media/create-document-library.png" alt-text="Create-Document-Library":::
+   :::image type="content" source="media/create-document-library.png" alt-text="Create and name your font library":::
 
 3. [Download the latest version of the SharePoint Online Management Shell.](https://go.microsoft.com/fwlink/p/?LinkId=255251)
 4. Using the **SharePoint Online Management Shell**, run the following command to designate the library as custom fonts asset library.
