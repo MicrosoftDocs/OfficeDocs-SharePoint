@@ -18,6 +18,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 description: "You can use the SharePoint Migration Tool to migrate content to OneDrive (for work or school accounts) for free."
 ---
 # Migrate content to a OneDrive work or school account
@@ -26,7 +27,7 @@ You can use either of the following tools to migrate files and folders on your c
 
 
 ## Migration Manager
-Go to the [Migration Manager page in the new SharePoint admin center](https://aka.ms/ODSP-MM). Sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a>. Sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 To learn more, see [Get started with Migration Manager](mm-get-started.md).
 

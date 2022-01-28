@@ -18,6 +18,7 @@ mscollection:
 - m365solution-scenario
 - SPMigration
 - M365-collaboration
+ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: "Steps to connect to Box when using Migration Manager in the SharePoint Admin center."
 ---
@@ -28,7 +29,7 @@ description: "Steps to connect to Box when using Migration Manager in the ShareP
 
 Sign in to your Box account and add the Microsoft 365 migration app to your Box account custom apps. 
 
-1. From the [Migration page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern), under **Box**, select **Get started**.
+1. From the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, under **Box**, select **Get started**.
 2. Select **Connect to Box**. 
 3. Select **Authorize Mover**. Sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization. Select **Next**.
 4. Select **Go to Enterprise applications**. This step takes you to Azure.

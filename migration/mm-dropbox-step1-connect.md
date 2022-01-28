@@ -18,6 +18,7 @@ mscollection:
 - m365solution-scenario
 - SPMigration
 - M365-collaboration
+ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: "Steps to connect to Dropbox when using Migration Manager in the SharePoint Admin center."
 ---
@@ -26,7 +27,7 @@ description: "Steps to connect to Dropbox when using Migration Manager in the Sh
 
 Sign in to your Dropbox for Business administrator account to connect to your Microsoft 365 migration.
 
-1. In the new SharePoint admin center, select [Migration Manager](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern). 
+1. In the new SharePoint admin center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">**Migration center**</a>. 
 2. Under **Dropbox**, select **Get started**.
 3. Select **Connect to Dropbox**. 
 4. Select **Sign in to Dropbox**.
