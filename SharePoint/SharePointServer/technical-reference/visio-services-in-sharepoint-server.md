@@ -48,7 +48,7 @@ In this section:
     
 - [Visio Graphics Service unable to connect to the application server returned by the application proxy ](#VisioApp)
     
-## Visio Graphics Service failed to initialize the rasterizer
+## Visio Graphics Service failed to initialize the rasterizer - #1
 <a name="Rasterizer"> </a>
 
  **Alert Name:**Visio Graphics Service failed to initialize the rasterizer
@@ -73,7 +73,7 @@ Restart Visio Services:
     
 3. In the **Service** column, locate **Visio Graphics Service**. Click **Stop**, and then click **Start**.
     
-## Visio Graphics Service failed to initialize the rasterizer
+## Visio Graphics Service failed to initialize the rasterizer - #2
 <a name="Rasterizer2"> </a>
 
  **Alert Name:**Visio Graphics Service failed to initialize the rasterizer

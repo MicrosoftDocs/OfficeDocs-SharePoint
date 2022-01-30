@@ -78,7 +78,7 @@ Before you create a new result type, you should create a new item display templa
   
 3. Open the new display template and change the \<title\> tag. Remember, the text in this tag is what will be shown when you do configurations in the SharePoint Server UI.
     
-    In our scenario, we changed the <title> tag to  *TechNet content*  . 
+    In our scenario, we changed the \<title> tag to  *TechNet content*. 
     
      ![Tech Net Title Tag](../media/OTCSP_TechNetTitleTag.png)
   
@@ -112,17 +112,17 @@ To save space, we'll only look at how to create a result type as a Site collecti
   
 3. On the Add Result Type page, here are the steps to follow:
     
-  - In the **Give it a name** field, enter a name for the new result type. 
+   - In the **Give it a name** field, enter a name for the new result type. 
     
-    In our scenario, we entered  *TechNet content*  . 
+     In our scenario, we entered  *TechNet content*  . 
     
-  - From the **Which source should results match** menu, select the result source that we have used to configure the query in our Search Result Web Part. 
+   - From the **Which source should results match** menu, select the result source that we have used to configure the query in our Search Result Web Part. 
     
-  - In the **What types of content should match? You can skip this rule to match all content** menu, all the default result type are listed. 
+   - In the **What types of content should match? You can skip this rule to match all content** menu, all the default result type are listed. 
     
     In our scenario, we chose **Select a value**. 
     
-  - Click **Show more conditions**. 
+   - Click **Show more conditions**. 
     
      ![Show More Conditions](../media/OTCSP_ShowMoreConditions.png)
   

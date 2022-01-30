@@ -61,7 +61,7 @@ The following table lists the business intelligence features available in Excel 
   
 **BI features in Excel Services, by mode**
 
-||**SharePoint Server only**|**SharePoint Server with Excel Web App (SharePoint view mode)**|**SharePoint Server with Excel Web App (Office Web Apps Server view mode)**|
+|&nbsp;|**SharePoint Server only**|**SharePoint Server with Excel Web App (SharePoint view mode)**|**SharePoint Server with Excel Web App (Office Web Apps Server view mode)**|
 |:-----|:-----|:-----|:-----|
 |Excel Web Access Web Part  <br/> |×  <br/> |×  <br/> ||
 |Refresh OData connections  <br/> |×  <br/> |×  <br/> ||

@@ -339,7 +339,7 @@ The disk controller and the spindles of the disk strongly influence these result
   
 If you test on empty disks, you'll get elevated results because the test file will be in the most optimal tracks across all spindles (short stroking). This can increase performance by up to two or three times. You'll get unrealistically high results if you test a hard disk that optimizes away accesses on uninitialized storage space, or storage containing all zeros, for example dynamic VHD/VHDX files. In this case, use a very large test file that contains real data, rather than generating a synthetic test file using DiskSpd commands.
   
-|                                                                                                               |        |        |        |        |      |
+| &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 | :------------------------------------------------------------------------------------------------------------ | :----- | :----- | :----- | :----- | :--- |
 | Disk layout                                                                                                   | Test 1 | Test 2 | Test 3 | Test 4 |      |
 | Recommended minimum IOPS during ordinary operations                                                           | 300    | 100    | 200    | 200    |      |
