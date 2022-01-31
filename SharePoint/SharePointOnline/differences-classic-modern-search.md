@@ -29,6 +29,8 @@ The most visible difference is that the Microsoft Search box is placed at the to
 
 Search admin can customize the *classic* search experience, but not the Microsoft Search experience. As a search admin you can *tailor* Microsoft Search to your organization so it's easy for your users to find often needed content in your organization.
 
+For Example if your organization have Microsoft Search full deployed , Custom Result sources at site collection or tenant level won't affect the search result instead search admin can use Microsoft Search Verticarls [Learn about Manage search verticals](https://docs.microsoft.com/en-us/microsoftsearch/manage-verticals)
+
 You use the SharePoint admin center to manage classic search and the Microsoft 365 admin center to manage Microsoft Search. Certain aspects of the classic search settings also impact the modern search experience:
 
 - The [search schema](manage-search-schema.md) determines how content is collected in and retrieved from the search index. Because both search experiences use the same search index to find search results, any changes you make to the search schema, apply to both experiences. The Microsoft Search experience doesn't support changing the sort order of results or building refiners based on metadata. Therefore, the following search schema settings don’t affect the Microsoft Search experience:
