@@ -47,13 +47,9 @@ To check your tenant's default file permissions
 
 To check if the Fluid Framework is enabled, run `Get-SPOTenant` without any arguments. Verify the value of IsFluidEnabled is true.
 
-To enable the Fluid Framework, run `Set-SPOTenant -IsFluidEnabled $true`.
-
-The change will take a short time to apply across your organization. 
+To enable the Fluid Framework, run `Set-SPOTenant -IsFluidEnabled $true`. The change will take a short time to apply across your organization. 
 
 The feature will be available on Teams Windows Desktop, Mac, iOS, Android. When enabled, users will see a new option for inserting live components in the message compose experience for these clients.
 
-To disable Fluid Framework, run `Set-SPOTenant cmdlet Set-SPOTenant -IsFluidEnabled $false`.
-
-The change will take a short time to apply across your organization. 
+To disable Fluid Framework, run `Set-SPOTenant cmdlet Set-SPOTenant -IsFluidEnabled $false`. The change will take a short time to apply across your organization. 
 
