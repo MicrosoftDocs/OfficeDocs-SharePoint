@@ -53,3 +53,6 @@ The feature will be available on Teams Windows Desktop, Mac, iOS, Android. When 
 
 To disable Fluid Framework, run `Set-SPOTenant cmdlet Set-SPOTenant -IsFluidEnabled $false`. The change will take a short time to apply across your organization. 
 
+## Related topics
+
+[Overview of live components in Teams](/microsoftteams/live-components-in-teams)
