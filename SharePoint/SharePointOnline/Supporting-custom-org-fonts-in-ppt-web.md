@@ -19,7 +19,7 @@ description: "Learn how to add customized fonts to the SharePoint as Organizatio
 ---
 
 # Supporting Custom Organization Fonts in PowerPoint for web 
-Custom fonts allow customers to create a brand for their organizations and encourage consistency in documents and presentations. Earlier, organization users could only see and use custom fonts when they were installed locally on their desktops. Now, customers with an E3 or E5 license can take advantage of **Custom Font Support** on PowerPoint for editing and displaying their fonts. When you upload your font as a SharePoint OAL, you'll see that your custom font now renders properly on PowerPoint for the web. Seamless support for the desktop experiences is coming soon. 
+Custom fonts allow customers to create a brand for their organizations and encourage consistency in documents and presentations. Earlier, organization users could only see and use custom fonts when they were installed locally on their desktops. Now, customers with an E3 or E5 license can take advantage of **Custom Font Support** on PowerPoint for editing and displaying their fonts. When you upload your font as a SharePoint Organization Asset Library (OAL), you'll see that your custom font now renders properly on PowerPoint for the web. Seamless support for the desktop experiences is coming soon. 
 
 ## Disclaimer
 The Support Custom Organization Fonts in PowerPoint for the web feature isn't available for Office 365 Germany, Office 365 operated by 21Vianet (China), or Microsoft 365 US Government plans. 
