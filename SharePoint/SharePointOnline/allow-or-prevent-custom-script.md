@@ -97,7 +97,7 @@ To allow custom script on a particular site (previously called "site collection"
 
 If you change this setting for a classic team site, it will be overridden by the Custom Script setting in the admin center within 24 hours.
 > [!NOTE]
-    > Allow/disallow of custom script to individual OneDrive’s cannot be done.
+> You cannot allow or prevent custom scripts to an individual user's OneDrive.
   
 ## Features affected when custom script is blocked
 <a name="__top"> </a>
