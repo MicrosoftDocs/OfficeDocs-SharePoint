@@ -193,7 +193,7 @@ The next set of results shows performance for the same load test across a larger
   
 **Fabrikam— Results across the feature set for differentlocations**
 
-![Fabrikam test results for WAN connections initiating in Australia, Germany, India, Singapore, South Africa, and the UK. 2-6 seconds for file download. 3-8 seconds for file upload. less than 2 seconds for most social tasks.](../media/WAN_CaseStudy_chart2.gif)
+![Fabrikam test results for WAN connections initiating in Australia, India, Singapore, South Africa, and the UK. 2-6 seconds for file download. 3-8 seconds for file upload. less than 2 seconds for most social tasks.](../media/WAN_CaseStudy_chart2.gif)
   
 Even though there are varying degrees of latency, performance is good for users across the globe. The Fabrikam test results provide an example of systematic WAN testing that uses a load test made up of many SharePoint tasks that are important to the company. 
   

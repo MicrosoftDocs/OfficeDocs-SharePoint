@@ -55,7 +55,7 @@ When you create a site and install language packs on all the web and application
   
 The MUI feature, lets team members work on documents and projects in a shared language while they view the site and perform tasks in their preferred language. In addition to team collaboration, the MUI feature enables farm, site collection administrators, and site owners to perform administrative tasks in their preferred language. For example, farm administrators can view the administrative links and instructions on the SharePoint Central Administration website in their preferred language.
   
-The MUI feature also enables users to change new and existing application content — such as list or library titles and descriptions — and it enables users to have those changes be reflected in the user interface for users of other languages. For example, a team member who uses English as the preferred language creates a new document library named "Team Reports." Another team member, who has the preferred language set to German, logs on to the site and changes the library title to "Mannschaftsberichte." The next time that users who have their preferred language set to German logs on to the site, the name of the document library is displayed as "Mannschaftsberichte." But users who have their preferred language set to English still see the document library name displayed as "Team Reports."
+The MUI feature also enables users to change new and existing application content — such as list or library titles and descriptions — and it enables users to have those changes be reflected in the user interface for users of other languages. For example, a team member who uses English as the preferred language creates a new document library named "Team Reports."
   
 ## What is supported by the multilingual user interface
 <a name="supported"> </a>
@@ -99,7 +99,7 @@ When users add or edit application content, the following rules apply:
     
 - **When users view a site in another language, any new application content that they create is displayed in that language, even when the site is viewed in the default site language, or in any other language.**
     
-    For example, if the default site language is English, and a user views the site in German and adds a document library named "Mannschaftsdokumente," the library title is displayed as "Mannschaftsdokumente" even when the site is viewed in English. To translate application content, such as a document library title into the default site language or into an alternate language, users must first change the language preference either in their user profile, or in their web browser settings, to display the site in the language they want to use, and then change the user interface string. The exception to this behavior is if the **Overwrite Translations** option is enabled. For more information, see [Overwriting translated application content](#Overwrite).
+    To translate application content, such as a document library title into the default site language or into an alternate language, users must first change the language preference either in their user profile, or in their web browser settings, to display the site in the language they want to use, and then change the user interface string. The exception to this behavior is if the **Overwrite Translations** option is enabled. For more information, see [Overwriting translated application content](#Overwrite).
     
 When a site is displayed in a user's preferred language, any changes that are made to existing application content strings are changed for that language only. The strings that are associated with specific application content in the default site language and any alternate languages remain unchanged. To translate application content strings, such as a document library title into the default site language or into any alternate languages, the user must change the language preferences in the browser or user profile to display the site in the default or switch language, and then make the change to the user interface strings.
   
@@ -151,7 +151,7 @@ The following properties that are associated with permissions are not MUI-enable
 
 Many of the Search site limitations are not actually related to MUI features, but are architectural designs that affect the user interface. The following limitations are a mix of MUI and architectural limitations for Search sites:
   
-- **Search** Search indexes content in the default language of the SharePoint Server installation. Even if content is provided in alternate languages, that content is only searchable by using the default site language. For example, if your preferred language is German, and the default site language is English, a search for "Freigegebene Dokumente" returns no results. A search for "Shared Documents" does return results. 
+- **Search** Search indexes content in the default language of the SharePoint Server installation. Even if content is provided in alternate languages, that content is only searchable by using the default site language. 
     
 - **Search Web Part properties** Title, description, and custom properties are MUI-enabled. But if the default search prompt for the search box is customized, its customized value will be displayed for all languages. 
     

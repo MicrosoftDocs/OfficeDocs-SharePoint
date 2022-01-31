@@ -187,7 +187,6 @@ The following table indicates the languages and dialects for which SharePoint Se
 | Dutch | 1043 | 0013 |
 | English | 1033 | 0009 |
 | French | 1036 | 000c |
-| German | 1031 | 0007 |
 | Gujarati | 1095 | 0047 |
 | Hebrew | 1037 | 000d |
 | Hindi | 1081 | 0039 |
