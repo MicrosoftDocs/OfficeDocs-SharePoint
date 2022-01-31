@@ -49,6 +49,8 @@ Numbers or GUIDs might be appended to the URL if a conflict is detected, so it's
 1. Go to the [OneDrive usage report in the Microsoft 365 admin center](https://admin.microsoft.com/#/reportsUsage/OneDriveSiteUsage) and sign in as a SharePoint admin, global admin, global reader, or reports reader. (If you see a message that you don't have permission to access the page, you don't have one of these roles in your organization.)
     
    > [!NOTE]
+   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), browse to **Reports** \> **Usage**. Under **OneDrive files**, select **View more**. 
+   > 
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), browse to **Reports** \> **Usage**. Under  **OneDrive files**, select **View more**.
 
 2. Scroll to the table below the charts. 
