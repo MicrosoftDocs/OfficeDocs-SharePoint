@@ -118,7 +118,7 @@ To create a cloud SSA by running the **CreateCloudSSA.ps1** PowerShell script, f
 > [!NOTE]
 > When you installed SharePoint Server, the user account from which you ran the installation was granted the appropriate permissions to run Windows PowerShell cmdlets. 
   
-On the application server that hosts the SharePoint ServerCentral Administration website , follow these steps:
+On the application server that hosts the SharePoint ServerCentral Administration website, follow these steps:
   
 1. Make sure you're using the same user account as when you installed SharePoint Server. This account is granted the appropriate permissions to run Window Powershell cmdlets.
     
@@ -172,11 +172,11 @@ On the application server that hosts the SharePoint ServerCentral Administration
     
 5. If your environment is Microsoft 365 Apps for business, Office 365 Enterprise, Office 365 Education, Office 365 operated by 21Vianet, or Office 365 US Government Defense, open an elevated PowerShell prompt, and run the **OnBoard-CloudHybridSearch.ps1** PowerShell script as follows: 
     
-   ```
+   ```powershell
    Import-Module MSOnline
    ```
 
-   ```
+   ```powershell
    .\OnBoard-CloudHybridSearch.ps1 -PortalUrl <SPOTenantPortalUrl> -CloudSsaId <CloudSSANameCreatd>
    ```
 
@@ -184,11 +184,11 @@ On the application server that hosts the SharePoint ServerCentral Administration
     
 6. If your environment is Office 365 US Government Communication, open an elevated PowerShell prompt, and run the **OnBoard-CloudHybridSearch.ps1** PowerShell script as follows: 
      
-   ```
+   ```powershell
    Import-Module MSOnline
    ```
 
-   ```
+   ```powershell
    .\OnBoard-CloudHybridSearch.ps1 -PortalUrl <SPOTenantPortalUrl> -CloudSsaId <CloudSSANameCreatd> -IsPortalForUSGovernment $true
    ```
 
