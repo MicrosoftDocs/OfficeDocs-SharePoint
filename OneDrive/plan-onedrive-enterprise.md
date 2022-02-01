@@ -517,19 +517,17 @@ The tools and technologies you use to manage OneDrive are based on the individua
 
 The <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> enables you to manage OneDrive settings and device access from one central location. Some settings in the SharePoint admin center you'll use regardless of any other technologies you use to manage OneDrive (for example, to configure storage space settings). Others may overlap management apps in use (for example, the MDM section). Most organizations will use the SharePoint admin center for some of their settings, but only those organizations without an MDM application would likely use the device access functionality in the SharePoint admin center.
 
-Settings in the SharePoint admin center to manage OneDrive are grouped into six categories:
+- **Sharing** - Use the <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">Sharing page in the SharePoint admin center</a> to configure your sharing options based on the decisions you made earlier in this guide. To learn more, see [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off).
 
-- **Sharing** - Use the <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">Sharing in the new SharePoint admin center</a>, to configure your sharing options based on the decisions you made earlier in this guide. To learn more, see [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off).
+- **Sync** - On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings page in the SharePoint admin center</a>, select **Sync** to configure sync restrictions based on file types, require that synced devices be domain joined, or restrict synchronization from computers running macOS. Depending on your device management tool, the PC device restrictions in this section may overlap other management settings.
 
-- **Sync** - On the **Settings** - **OneDrive - Sync** page, you can configure sync restrictions based on file types, require that synced devices be domain joined, or restrict synchronization from computers running macOS. Depending on your device management tool, the PC device restrictions in this section may overlap other management settings.
+- **Storage limit** - On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings page in the SharePoint admin center</a>, select **Storage limit** to specify the default OneDrive storage limit for users in your organization. This organization-wide configuration setting is applicable to all organizations, regardless of the device management tool they use.
 
-- **Storage limit** - On the **Settings** - **Storage limit** page, you specify the default OneDrive storage limit for users in your organization. This organization-wide configuration setting is applicable to all organizations, regardless of the device management tool they use.
+-  **Retention** - On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings page in the SharePoint admin center</a>, select **Retention** to configure data retention settings for users whose accounts have been deleted (the maximum value is 10 years). This organization-wide configuration setting is applicable to all organizations, regardless of the device management tool they use. Use this page to configure the data retention value based on the decisions you made in Part 2, [Plan for OneDrive for enterprises](plan-onedrive-enterprise.md).
 
--  **Retention** - On the **Settings** - **Retention** page, you can configure data retention settings for users whose accounts have been deleted (the maximum value is 10 years). This organization-wide configuration setting is applicable to all organizations, regardless of the device management tool they use. Use this page to configure the data retention value based on the decisions you made in Part 2, [Plan for OneDrive for enterprises](plan-onedrive-enterprise.md).
+- **Notifications** - On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings page in the SharePoint admin center</a>, select **Notifications** to define if OneDrive users should receive notifications about file activity. For info about enabling these options, see [Turn on external sharing notifications for OneDrive](turn-on-external-sharing-notifications.md).
 
-- **Notifications** - On the **Settings** - **Notifications** page, you define if OneDrive users should receive notifications about file activity. For info about enabling these options, see [Turn on external sharing notifications for OneDrive](turn-on-external-sharing-notifications.md).
-
-- **Device Access** - Use <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">Access control in the new SharePoint admin center</a>.
+- **Device Access** - Use the <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">Access control page in the SharePoint admin center</a>.
 
 ## Manage OneDrive by using the Microsoft 365 compliance center
 
