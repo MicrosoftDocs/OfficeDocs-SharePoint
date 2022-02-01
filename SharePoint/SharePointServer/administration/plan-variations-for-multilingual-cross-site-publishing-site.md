@@ -60,8 +60,8 @@ The following diagram shows how you should set up your site architecture if your
 |**AUTHORING**|Description|
 |:-----|:-----|
 |contoso.authoring  <br/> | |
-|A  <br/> |The term set that is used to tag items in the **Products** catalog. This term set is translated into three languages: English, Norwegian, and German.  <br/> |
-|1  <br/> |Authoring site that contains the **Products** catalog. Variations is not used. In the **Products** catalog, the  *Language Tag*  site column categorizes the different languages:  *en-US*  for English content, *nb-NO* for Norwegian content, and *de-DE* for German content.  <br/> |
+|A  <br/> |The term set that is used to tag items in the **Products** catalog. This term set is translated into three languages: English, Norwegian and German.  <br/> |
+|1  <br/> |Authoring site that contains the **Products** catalog. Variations is not used. In the **Products** catalog, the  *Language Tag*  site column categorizes the different languages:  *en-US*  for English content,  *nb-NO*  for Norwegian content and  *de-DE*  for German content.  <br/> |
    
 |**PUBLISHING**|Description|
 |:-----|:-----|
@@ -72,7 +72,7 @@ The following diagram shows how you should set up your site architecture if your
 |3  <br/> |The Norwegian publishing site, which is connected to the **Products** catalog (1). In this site, Search Web Parts are configured to display catalog items where the value of the  *Language Tag*  site column is  *nb-NO*  .  <br/> |
 |C  <br/> |The term set that drives managed navigation for the Norwegian publishing site. This term set has pinned the terms from the term set (A) on the authoring site, and displays the Norwegian versions of the terms.  <br/> |
 |contoso.de  <br/> |
-|4  <br/> |The German publishing site, which is connected to the **Products** catalog (1). In this site, Search Web Parts are configured to display catalog items where the value of the  *Language Tag*  site column is  *de-DE*.  <br/> |
+|4  <br/> |The German publishing site, which is connected to the **Products** catalog (1). In this site, Search Web Parts are configured to display catalog items where the value of the  *Language Tag*  site column is  *de-DE*  .  <br/> |
 |D  <br/> |The term set that drives managed navigation for the German publishing site. This term set has pinned the terms from the term set (A) on the authoring site, and displays the German versions of the terms.  <br/> |
    
 ## Scenario 2: Your publishing site should contain only multilingual catalog content or a mix of catalog and non-catalog content, and you don't want to use variations on your non-catalog content
@@ -87,9 +87,10 @@ The following diagram shows how you should set up your site architecture so that
 |**AUTHORING**|Description|
 |:-----|:-----|
 |contoso.authoring  <br/> | |
-|A  <br/> |The term set that is used to tag catalog items. This term set is translated into three languages: English, Norwegian, and German.  <br/> |
+|A  <br/> |The term set that is used to tag catalog items. This term set is translated into three languages: English, Norwegian and German.  <br/> |
 |1  <br/> |The English source variation site (contoso.authoring/en-us). This site contains a catalog, which is propagated to the Norwegian and German target variation sites (2 and 3).  <br/> |
 |2  <br/> |The Norwegian target variation site (contoso.authoring/nb-no). This site contains a Norwegian version of the catalog.  <br/> |
+|3  <br/> |The German target variations site (contoso.authoring/de-de). This site contains a German version of the catalog.  <br/> |
    
 |**PUBLISHING**|Description|
 |:-----|:-----|
@@ -120,9 +121,10 @@ The following diagram shows how you should set up your site architecture so that
 |**AUTHORING**|Description|
 |:-----|:-----|
 |contoso.authoring  <br/> | |
-|A  <br/> |The term set that is used to tag catalog items. This term set is translated into three languages: English, Norwegian, and German.  <br/> |
-|1  <br/> |The English source variation site (contoso.authoring/en-us). This site contains a catalog, which is propagated to the Norwegian and German target variation sites (2 and 3).<br/> |
+|A  <br/> |The term set that is used to tag catalog items. This term set is translated into three languages: English, Norwegian and German.  <br/> |
+|1  <br/> |The English source variation site (contoso.authoring/en-us). This site contains a catalog, which is propagated to the Norwegian and German target variation sites (2 and 3).  <br/> |
 |2  <br/> |The Norwegian target variation site (contoso.authoring/nb-no). This site contains a Norwegian version of the catalog.  <br/> |
+|3  <br/> |The German target variations site (contoso.authoring/de-de). This site contains a German version of the catalog.  <br/> |
    
 |**PUBLISHING**|Description|
 |:-----|:-----|
@@ -130,22 +132,22 @@ The following diagram shows how you should set up your site architecture so that
 |B  <br/> |The English variations term set and term set that drives managed navigation on the English source variations site. This term set has pinned the terms from the term set (A) on the authoring site, and displays the English versions of the terms.  <br/> |
 |5  <br/> |The Norwegian publishing site and target variation site for non-catalog content (contoso.com/nb-no). This site is connected to the catalog on the Norwegian target variation site (2).  <br/> |
 |C  <br/> |The Norwegian variations term set and term set that drives managed navigation on the Norwegian target variations site. This term set has pinned the terms from the term set (A) on the authoring site, and displays the Norwegian versions of the terms.  <br/> |
-|6  <br/> |The German publishing site and target variation site for non-catalog content (contoso.com/de-de). This site is connected to the catalog on the German target variation site (3).<br/> |
+|6  <br/> |The German publishing site and target variation site for non-catalog content (contoso.com/de-de). This site is connected to the catalog on the German target variation site (3).  <br/> |
 |D  <br/> |The German variations term set and term set that drives managed navigation on the German target variations site. This term set has pinned the terms from the term set (A) on the authoring site, and displays the German versions of the terms.  <br/> |
    
 ## Use locale-specific site collections to show differences in search engine rankings for your language versions
 <a name="BKMK_LocaleSpecific"> </a>
 
 When you use variations on your publishing site as described in scenario 3, your sites are not hosted on the top-level domain of the respective country/region code, such as www.contoso.com, www.contoso.no, and www.contoso.de. Instead, the URLs are www.contoso.com/en-us, www.contoso.com/nb-no, and www.contoso.com/de-de. When sites aren't hosted on the top-level domain of the respective country/region code, search engines such as Bing or Google might rank search results identically for all language versions of your site.
-
+  
 For example, consider a company that sells washing machines in different countries. The most popular washing machine in a small country, for example Norway, differs from the most popular washing machine in a large country, for example Germany. This means that if someone searches for a Contoso washing machine in Norway, it's possible that the search results will show the most popular washing machine in Germany high up in the search results because overall this is the most popular washing machine.
-
+  
 To show differences in local search engine rankings, you must use locale-specific site collections on your publishing site (scenario 1 and 2).
   
 ## Maintenance of design assets for the different scenarios
 <a name="BKMK_Design"> </a>
 
-When you use locale-specific site collections on your publishing site as described in scenario 1 and 2, you'll have to maintain your design files such as master pages, page layouts and display templates separately for each of your locale-specific site collections. For example, in scenario 1 and 2 you'll have to maintain three sets of design files. One in the English publishing site, one in the Norwegian publishing site, and one in the German publishing site. You can use [Design Manager design packages](/sharepoint/dev/general-development/sharepoint-composites-handbook) to export and import the design files from your publishing sites. 
+When you use locale-specific site collections on your publishing site as described in scenario 1 and 2, you'll have to maintain your design files such as master pages, page layouts and display templates separately for each of your locale-specific site collections. For example, in scenario 1 and 2 you'll have to maintain three sets of design files. One in the English publishing site, one in the Norwegian publishing site and one in the German publishing site. You can use [Design Manager design packages](/sharepoint/dev/general-development/sharepoint-composites-handbook) to export and import the design files from your publishing sites. 
   
 If you use variations on your publishing site such as described in scenario 3, you can use the same design files across all your variation sites.
   

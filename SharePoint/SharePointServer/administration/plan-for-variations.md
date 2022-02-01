@@ -156,9 +156,9 @@ Review the list of sites for your variations solution, and decide which site wil
 
 Review the list of sites for your variations hierarchy, and record each target variation site in the [Variations planning worksheet](https://go.microsoft.com/fwlink/p/?LinkId=279753). For each site, enter the information for the following columns.
   
-- **Site template language** The name of the language pack to use as the default user interface language, for example, German. If you are not using the multilingual user interface on the target sites, leave this column empty. 
+- **Site template language** The name of the language pack to use as the default user interface language. For example, German. If you are not using the multilingual user interface on the target sites, leave this column empty. 
     
-- **Locale** The locale that the label represents, for example, German (Germany).
+- **Locale** The locale that the label represents. For example, German (Germany). 
     
 - **Label name** The name as it will appear in the URL. 
     

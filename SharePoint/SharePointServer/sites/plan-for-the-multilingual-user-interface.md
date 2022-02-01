@@ -151,7 +151,7 @@ The following properties that are associated with permissions are not MUI-enable
 
 Many of the Search site limitations are not actually related to MUI features, but are architectural designs that affect the user interface. The following limitations are a mix of MUI and architectural limitations for Search sites:
   
-- **Search** Search indexes content in the default language of the SharePoint Server installation. Even if content is provided in alternate languages, that content is only searchable by using the default site language. For example, if your preferred language is German, and the default site language is English, a search for "Freigegebene Dokumente" returns no results. A search for "Shared Documents" does return results.
+- **Search** Search indexes content in the default language of the SharePoint Server installation. Even if content is provided in alternate languages, that content is only searchable by using the default site language. For example, if your preferred language is German, and the default site language is English, a search for "Freigegebene Dokumente" returns no results. A search for "Shared Documents" does return results. 
     
 - **Search Web Part properties** Title, description, and custom properties are MUI-enabled. But if the default search prompt for the search box is customized, its customized value will be displayed for all languages. 
     
