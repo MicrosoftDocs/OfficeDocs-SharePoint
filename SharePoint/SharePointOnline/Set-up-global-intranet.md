@@ -84,6 +84,8 @@ The M365 administrator needs to enable Multi-Geo, and then SharePoint admins man
 
 >**Notes**  Due to the unique nature of data requirements in China, a differentiated version of Office 365 is available and operated by a partner from datacenters inside China. This service is not considered a Multi-Geo service. It is powered by technology that Microsoft has licensed to 21Vianet. For more information, see  [Office 365 operated by 21Vianet - Service Descriptions](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet).
 
+>A differentiated service called Microsoft Cloud Germany is being migrated to Office 365 services in the new German datacenter. For more information see [Migration from Microsoft Cloud Deutschland to Office 365 services in the new German datacenter regions](/microsoft-365/enterprise/ms-cloud-germany-transition)
+
 **Next steps for Microsoft 365 Multi-Geo**
 * Microsoft 365 administrators [plan](/microsoft-365/enterprise/multi-geo-tenant-configuration) and [set up](/microsoft-365/enterprise/multi-geo-tenant-configuration) Multi-Geo for their organization
 
