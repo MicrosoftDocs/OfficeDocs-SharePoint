@@ -45,6 +45,7 @@ The following tables contain error messages you may encounter and how to resolve
 |Error: Item has no parent id|Files in the root directory of a OneDrive user often cause this error. Move the files into a folder or attempt rerun the user transfer rows until successful.|
 |Error: This file has been identified as malware or spam and cannot be downloaded.|The source performed a scan on the file and found it to be either malware or spam. The source won't allow Mover to migrate the file.|
 |Error: Failed to load migration job, please retry.|Re-run the transfer at least twice.  If you continue to see this error in all instances, escalate to our support team.|
+|Error code: MNOTUSERORTEAMDRIVE {Source Path}" is not a user or a team drive during the Source Initialization|Confirm that the name of the item in the source service matches what you have in the task's source path. Note: Google Suite allows invisible characters to be added to item names. We advise that your rename the item in the source service to ensure there's no invisible characters and then use that same name in the task source path.|
 
 ## Other Mover errors
 
