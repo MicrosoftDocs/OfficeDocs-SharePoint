@@ -131,7 +131,7 @@ Here's what to do:
     
 3. Follow the guidelines to increase the ingestion speed in these time periods.
     
-|                                                              **Guideline**                                                              |
+| **Guideline**  |
 | :-------------------------------------------------------------------------------------------------------------------------------------- |
 | [Improve freshness for a specific content source](redesign-for-specific-performance-requirements.md#BKMK_ImproveContentSourceFreshness) |
 | [Increase processing resources for crawling](redesign-for-specific-performance-requirements.md#BKMK_ProcessingCrawl)                    |
@@ -351,7 +351,7 @@ The minimum storage that the analytics reporting database requires can vary. Thi
 
 These are the minimum resources a server or virtual machine must have to host one index component, or to host one index component and one query processing component:
   
-|                                  |                   |                                                    |                       |
+| &nbsp; | &nbsp; |&nbsp; | &nbsp; |
 | :------------------------------- | :---------------- | :------------------------------------------------- | :-------------------- |
 | **Storage**                      | **Memory**        | **Processor**                                      | **Network bandwidth** |
 | 500 GB for the index<sup>1</sup> | 32 GB<sup>1</sup> | 64-bit, 8 cores minimum<sup>1</sup>, <sup>2</sup>. | 2 Gbps                |
@@ -365,7 +365,7 @@ These are the minimum resources a server or virtual machine must have to host on
 
 These are the minimum resources a server or virtual machine must have to host one analytics processing component:
   
-|                                          |            |                                                   |                       |
+| &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 | :--------------------------------------- | :--------- | :------------------------------------------------ | :-------------------- |
 | **Storage**                              | **Memory** | **Processor**                                     | **Network bandwidth** |
 | 300 GB for local processing of analytics | 8 GB       | 64-bit, 4 cores minimum, but 8 cores recommended. | 2 Gbps                |
@@ -377,7 +377,7 @@ If the server hosts one analytics processing component and one or more bulk proc
 
 These are the minimum resources a server or virtual machine must have to host one of these components:
   
-|              |            |                                                   |                       |
+| &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 | :----------- | :--------- | :------------------------------------------------ | :-------------------- |
 | **Storage**  | **Memory** | **Processor**                                     | **Network bandwidth** |
 | Not required | 8 GB       | 64-bit, 4 cores minimum, but 8 cores recommended. | 2 Gbps                |
@@ -391,7 +391,7 @@ The query processing component requires good network bandwidth. It's the number 
 
 These are the minimum resources a server or virtual machine must have to host one or more search databases:
   
-|                                                                                                                                                                                                                         |                                                                 |                  |                       |
+|  &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :--------------- | :-------------------- |
 | **Storage**                                                                                                                                                                                                             | **Memory**                                                      | **Processor**    | **Network bandwidth** |
 | The storage that the analytics reporting database requires varies with how the search environment uses analytics, and how often. Use the current amount of storage for the analytics reporting database as a guideline. | 8 GB for small deployments.  <br/> <br/> 16 GB for medium deployments | 64-bit, 4 cores. | 2 Gbps                |
