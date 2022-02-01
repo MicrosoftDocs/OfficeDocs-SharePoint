@@ -118,7 +118,7 @@ The content types will be copied into https://contoso.sharepoint.com/sites/conte
 
 ## Configure hybrid SharePoint taxonomy
 
-Configuration of hybrid SharePoint taxonomy is done using the Hybrid Picker in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. The Hybrid Picker has a number of prerequisites. Be sure to read [Hybrid picker in the SharePoint admin center](hybrid-picker-in-the-sharepoint-online-admin-center.md) before you follow the procedures in this section. 
+Configuration of hybrid SharePoint taxonomy is done using the Hybrid Picker in the SharePoint admin center. The Hybrid Picker has a number of prerequisites. Be sure to read [Hybrid picker in the SharePoint admin center](hybrid-picker-in-the-sharepoint-online-admin-center.md) before you follow the procedures in this section. 
   
 We also recommend that you back up your term store before you proceed.
   
@@ -136,7 +136,7 @@ For taxonomy replication to work properly, the account that runs the SharePoint 
     
  **Configure hybrid SharePoint taxonomy using the Hybrid Picker**
   
-The next step is to configure hybrid SharePoint taxonomy by running the Hybrid Picker in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>.
+The next step is to configure hybrid SharePoint taxonomy by running the Hybrid Picker in the SharePoint admin center.
   
  **To configure hybrid SharePoint taxonomy**
   
