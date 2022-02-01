@@ -21,9 +21,9 @@ Quite frequently, we receive questions regarding Cloud hybrid search service app
 
 ***Is there an automated wizard that can help configure hybrid in my environment?***
 
-Yes, you can leverage the Hybrid picker in <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> for hybrid configurations. This wizard automates certain configuration steps required to connect on-premises SharePoint Server environment with SharePoint in Microsoft 365. You can read more about the Hybrid picker [here](./hybrid-picker-in-the-sharepoint-online-admin-center.md).
+Yes, you can leverage the Hybrid picker on the <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** page of the SharePoint admin center</a> for hybrid configurations. This wizard automates certain configuration steps required to connect on-premises SharePoint Server environment with SharePoint in Microsoft 365. [Read more about the Hybrid picker](./hybrid-picker-in-the-sharepoint-online-admin-center.md).
 
-***Can I leverage SharePoint in Microsoft 365 Hybrid picker to perform a clean-up of hybrid environment or deactivate the hybrid features that was activated by picker?***
+***Can I leverage SharePoint Hybrid picker to perform a clean-up of hybrid environment or deactivate the hybrid features that was activated by picker?***
 
 The Hybrid picker automates certain configuration steps to configure hybrid between on-premises SharePoint Server with SharePoint in Microsoft 365. This is not designed to undo the changes once the wizard completes. The Hybrid picker creates a Server-to-Server (S2S)/OAuth trust between the SharePoint in Microsoft 365 and SharePoint on-premises farm. After this is configured, re-running the wizard does not clean up the trust. You can refer to the documentation at [Hybrid picker in the SharePoint admin center](./hybrid-picker-in-the-sharepoint-online-admin-center.md#sharepoint-hybrid-features-offered-in-the-hybrid-picker).
 
@@ -209,7 +209,7 @@ This question primarily revolves around the following use cases:
 Hybrid features/Cloud search service application can be implemented on same SharePoint farm as mentioned above. When you try to establish a S2S trust via the Cloud SSA onboarding script or Hybrid picker, the authentication realm of the on-premises Farm is updated to match the Microsoft 365 organization context id. Within the script, we set it using [Set-SPAuthenticationRealm](/powershell/module/sharepoint-server/set-spauthenticationrealm). Once the authentication realm is changed, existing SharePoint Add-ins fail to authenticate; users will get a HTTP 401 when they are redirected to the add-ins. You can read more about the problem as well and fix in the article [Provider-hosted add-ins stop working and HTTP 401 error after you configure SharePoint farm hybrid features](/sharepoint/support/administration/provider-hosted-add-ins-stop-working-and-http-401-error-after-configure-farm-hybrid-features).
 
 > [!NOTE]
-> If you configure hybrid using Hybrid picker in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, then the wizard takes care of the fix.
+> If you configure hybrid using Hybrid picker from the <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** page of the SharePoint admin center</a>, then the wizard takes care of the fix.
 
 ***What are the out-of-box Cloud hybrid search service application crawl limits? Also, can I request additional index quota for my tenant?***
 
