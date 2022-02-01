@@ -37,7 +37,7 @@ Hybrid self-service site creation is available in SharePoint Server 2013 with th
   
 ## Configure hybrid self-service site creation using the Hybrid Picker
 
-Configuring hybrid self-service site creation is done by using the hybrid picker in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>.
+Configuring hybrid self-service site creation is done by using the hybrid picker in the SharePoint admin center.
   
 > [!NOTE]
 > If you've previously configured other hybrid features with the hybrid picker, you can go directly to the SharePoint Central Administration website to manage hybrid self-service site creation. In this case, the hybrid connection has been made and there's no need to run the hybrid picker again. 
