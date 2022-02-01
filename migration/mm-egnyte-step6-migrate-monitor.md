@@ -39,6 +39,6 @@ Once have reviewed the accounts, confirmed the destinations, correctly mapped id
 
 </br></br>
 >[!NOTE]
->Migration Manager Egnyte Workspace isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Egnyte Workspace isn't available for users of Office 365 operated by 21Vianet in China.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
