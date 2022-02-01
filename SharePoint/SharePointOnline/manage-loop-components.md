@@ -1,5 +1,5 @@
 ---
-title: "Manage live components in SharePoint"
+title: "Manage loop components in SharePoint"
 ms.reviewer: trhoan
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -17,12 +17,12 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to manage live components by using PowerShell."
+description: "Learn how to manage loop components by using PowerShell."
 ---
 
-# Manage live components in SharePoint
+# Manage loop components in SharePoint
 
-Loop experiences on Microsoft 365 OneDrive or SharePoint are backed by .fluid files and powered by Microsoft Fluid Framework. Administrators need to manage access to Loop experiences from SharePoint and not from the Microsoft Teams admin center.
+Loop experiences on Microsoft 365 OneDrive or SharePoint are backed by .fluid files and powered by Microsoft Fluid Framework. Administrators need to manage access to loop experiences from SharePoint and not from the Microsoft Teams admin center.
 
 ## Loop service requirements
 
@@ -49,10 +49,10 @@ To check if the Fluid Framework is enabled, run `Get-SPOTenant` without any argu
 
 To enable the Fluid Framework, run `Set-SPOTenant -IsFluidEnabled $true`. The change will take a short time to apply across your organization. 
 
-The feature will be available on Teams Windows Desktop, Mac, iOS, Android. When enabled, users will see a new option for inserting live components in the message compose experience for these clients.
+The feature will be available on Teams Windows Desktop, Mac, iOS, Android. When enabled, users will see a new option for inserting Loop components in the message compose experience for these clients.
 
 To disable Fluid Framework, run `Set-SPOTenant cmdlet Set-SPOTenant -IsFluidEnabled $false`. The change will take a short time to apply across your organization. 
 
 ## Related topics
 
-[Overview of live components in Teams](/microsoftteams/live-components-in-teams)
+[Overview of loop components in Teams](/microsoftteams/live-components-in-teams)
