@@ -59,7 +59,7 @@ At least 24 hours before you start migration, do the following:
 1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
    > [!NOTE]
-   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **Settings** page.
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **Settings** page.
 
 2. At the bottom of the page, select **classic settings page**.
 
@@ -117,7 +117,7 @@ If you wish to leverage your system proxy settings, use one of these methods:
 </br></br>    
 
 > [!NOTE]
-> Currently, the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. <br/><br/> It is also not available for users of Microsoft 365 with the German cloud with the data trustee, *German Telekom*. However, we do support it for users in Germany whose data location is not in the German datacenter.
+> Currently, the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China.
 
    
 ## Related Topics
