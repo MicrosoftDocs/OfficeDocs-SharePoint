@@ -42,7 +42,7 @@ To enable this feature, you need a subscription to one of the following plans:
 
 To enable this feature:
 
-1. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">Access control page of the SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">Access control in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 2. Select **Limit OneDrive access**.
 
