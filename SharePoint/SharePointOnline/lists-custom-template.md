@@ -89,6 +89,14 @@ The following example shows how to remove a custom list template so that it's no
 Remove-SPOListDesign <List design ID> 
 ```
 
+## Get template(s) 
+
+The following example retrieves all custom list templates. 
+
+```PowerShell
+Get-SPOListDesign <List design ID> 
+```
+
 You can also remove the associated site scripts that the list design is referencing using:  
 
 ```PowerShell
