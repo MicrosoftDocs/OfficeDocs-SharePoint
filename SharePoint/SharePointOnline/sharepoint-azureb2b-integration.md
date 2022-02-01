@@ -44,6 +44,9 @@ This integration is not supported in the following Microsoft 365 services:
 - Office 365 operated by 21Vianet
 - GCC High and DoD
 
+ > [!NOTE]
+ > At this time, customers in national and restricted clouds who enable Azure B2B Integration with SharePoint Online will not be able to share files and folders with recipients outside those environments.
+
 ## Enabling the integration
 
 This integration requires that your organization also enable [Azure AD email one-time passcode authentication](/azure/active-directory/b2b/one-time-passcode).
