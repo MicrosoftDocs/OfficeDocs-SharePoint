@@ -34,7 +34,7 @@ You can prevent users from uploading specific file types when they sync their On
   
  **To block uploading of specific file types**
   
-1. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings page of the new SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
  
    > [!NOTE]
    > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. 
