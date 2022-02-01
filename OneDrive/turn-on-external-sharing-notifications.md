@@ -10,6 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.service: one-drive
 ms.localizationpriority: medium
+ms.custom: admindeeplinkSPO
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
@@ -29,11 +30,11 @@ description: "Allow users to receive notifications about file activity in OneDri
 By default, users receive notifications about file activity in OneDrive and SharePoint. These notifications appear across apps and devices. For example, the service sends notifications through the Firebase Cloud Messaging service to the Office mobile app for Android or the Apple Push Notification service to the Office mobile app for iOS. It also sends notifications to the OneDrive sync app for Windows or Mac. As a global or SharePoint admin in Microsoft 365, you can turn off these notifications for all users for compliance purposes. If you allow these notifications, users can select to turn them off app by app where they don't want them.
 
 > [!NOTE]
-> Currently, the service sends notifications to users when files are shared with them. Later, it will send notifications when people @mention the user in a comment. Other notifications might be added in the future. <br> Notifications aren't available for the US government environments, Office 365 Germany, or Office 365 operated by 21Vianet (China).
+> Currently, the service sends notifications to users when files are shared with them. Later, it will send notifications when people @mention the user in a comment. Other notifications might be added in the future. <br> Notifications aren't available for the US government environments or Office 365 operated by 21Vianet (China).
   
 ## Allow or block notifications
 
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the new SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
     
 2. Select the **Notifications** setting for OneDrive.
   
