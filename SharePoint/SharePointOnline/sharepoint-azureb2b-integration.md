@@ -28,7 +28,7 @@ Azure AD B2B provides authentication and management of guests. Authentication ha
 
 With SharePoint and OneDrive integration with Azure B2B Invitation Manager enabled, Azure B2B Invitation Manager can be used for sharing of files, folders, list items, document libraries and sites with people outside your organization. This feature provides an upgraded experience from the existing secure external sharing recipient experience. Additionally, Azure B2B Invitation Manager one-time passcode feature allows users who don't have existing Work or School accounts or Microsoft Accounts to not have to create accounts to authenticate, but can instead use the one time passcode to verify their identity.
 
-Enabling this integration doesn't change your sharing settings. For example, if you've site collections where external sharing is turned off, it will remain off.
+Enabling this integration doesn't change your sharing settings. For example, if you have site collections where external sharing is turned off, it will remain off.
 
 Once the integration is enabled you and your users don't have to reshare or do any manual migration for guests previously shared with. Instead, when someone outside your organization clicks on a link that was created before Azure AD B2B integration was enabled, SharePoint will automatically create a B2B guest account. This guest account is created for the user who originally created the sharing link. (If the user who created the link is no longer in the organization or no longer has permission to share, the guest won't be added to the directory and the file will need to be reshared.)
 
