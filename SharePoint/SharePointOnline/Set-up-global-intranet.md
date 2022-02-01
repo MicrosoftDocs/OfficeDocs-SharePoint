@@ -25,7 +25,7 @@ description: Learn about setting up a SharePoint intranet for a global organizat
 ---
 # Considerations when planning for a global intranet
 
-If your organization has team members in multiple locations around the world, you have additional considerations and options as you plan for your SharePoint intelligent intranet. For example, you may want different branding for individual regions. You may want to target content to team members in certain regions or countries. You may want to provide sites in multiple languages. Or you may need to comply with data residency requirements in certain countries.
+If your organization has team members in multiple locations around the world, you have additional considerations and options as you plan for your SharePoint intelligent intranet. For example, you want different branding for individual regions. You want to target content to team members in certain regions or countries. You want to provide sites in multiple languages. Or you need to comply with data residency requirements in certain countries.
 Here are options to consider which can be used independently or in combination to meet the needs of your global intranet and create the best experience for your users.
 
 [Hub sites](#hub-sites)
@@ -50,7 +50,7 @@ If you have subsidiaries in different regions that have their own branding and n
 ## Multilingual sites and pages 
 A separate consideration for a global or regional intranet is whether you want to set up sites on your intranet to be multilingual so that users can read and work with content in their preferred languages. 
 
-User interface elements like site navigation, site title, and site description can be shown in the [user's preferred language](https://support.microsoft.com/office/change-your-personal-language-and-region-settings-caa1fccc-bcdb-42f3-9e5b-45957647ffd7). Additionally, you can provide pages and news posts on communication sites that you translate to users’ preferred languages. For example, you may have provisioned your site with a default language of English, but you have users who have set their language preference to Spanish, and users who have set their language preference to French. You can set up your site(s) to view in the site default language as well as in French and Spanish. 
+User interface elements like site navigation, site title, and site description are available in the [user's preferred language](https://support.microsoft.com/office/change-your-personal-language-and-region-settings-caa1fccc-bcdb-42f3-9e5b-45957647ffd7). Additionally, you can provide pages and news posts on communication sites that you translate to users’ preferred languages. For example, you may have provisioned your site with a default language of English, but you have users who have set their language preference to Spanish, and users who have set their language preference to French. You can set up your site(s) to view in the site default language and in French and Spanish. 
 >**Note** User interface elements and pages are not translated automatically. Each page created in your default language can have a corresponding page in a chosen target language that you, or someone you assign, manually translates. After you translate such a page and publish it, it will automatically be displayed to users who have set a preferred language in their Office personal profile. 
 
 **Next steps for multilingual sites and pages**

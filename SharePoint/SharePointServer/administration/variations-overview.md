@@ -36,7 +36,7 @@ Many organizations have a global reach. However, even in domestic markets, organ
 ## Scenarios for using variations
 <a name="scenarios"> </a>
 
-You can use variations to create sites, lists, and page content for specific languages. In this scenario, most of the content is authored in the language of the source variation site and synced to some or all of the target variation sites for translation into different languages. For example, the content might be authored in English and be synced to target variation sites for translation into French and Spanish.
+You can use variations to create sites, lists, and page content for specific languages. In this scenario, most of the content is authored in the language of the source variation site and synced to some or all of the target variation sites for translation into different languages. For example, the content might be authored in English and be synced to target variation sites for translation into German, French, and Spanish.
   
 You can also use variations to create content for specific locales. For example, a company based in North America might have target variation sites for the following locales: English (United States), English (Canada), French (Canada), and Spanish (Mexico). Most of the content is authored in English (United States), and the variation feature syncs that content to the target variation sites. Content on the French (Canada) and Spanish (Mexico) site is translated into French and Spanish, whereas content for English (Canada) is edited to account for regional differences in United States and Canadian English. Other content that is unique to a specific locale is created on the target variation sites for which it is needed.
   
