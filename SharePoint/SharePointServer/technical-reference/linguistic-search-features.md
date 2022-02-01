@@ -67,6 +67,7 @@ The following table shows the languages that SharePoint Server by default suppor
 |Frisian  <br/> |fy  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Not applicable  <br/> |No  <br/> |No  <br/> |
 |Galician  <br/> |gl  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Not applicable  <br/> |No  <br/> |No  <br/> |
 |Georgian  <br/> |ka  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Not applicable  <br/> |No  <br/> |No  <br/> |
+|German <br/> |de <br/> |Yes <br/> |Yes <br/> |Yes <br/> |Yes <br/> |Yes <br/> |Yes <br/> |Yes <br/> |Yes <br/> |Yes <br/> |
 |Greek  <br/> |el  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Not applicable  <br/> |No  <br/> |No  <br/> |
 |Gujarati  <br/> |gu  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Not applicable  <br/> |No  <br/> |No  <br/> |
 |Hausa  <br/> |ha  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Not applicable  <br/> |No  <br/> |No  <br/> |
