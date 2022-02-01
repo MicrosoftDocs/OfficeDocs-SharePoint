@@ -1,5 +1,5 @@
 ---
-title: "Manage loop components in SharePoint"
+title: "Manage Loop components in SharePoint"
 ms.reviewer: trhoan
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -17,12 +17,12 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to manage loop components by using PowerShell."
+description: "Learn how to manage Loop components by using PowerShell."
 ---
 
-# Manage loop components in SharePoint
+# Manage Loop components in SharePoint
 
-Loop experiences on Microsoft 365 OneDrive or SharePoint are backed by .fluid files and powered by Microsoft Fluid Framework. Administrators need to manage access to loop experiences from SharePoint and not from the Microsoft Teams admin center.
+Loop experiences on Microsoft 365 OneDrive or SharePoint are backed by .fluid files and powered by Microsoft Fluid Framework. Administrators need to manage access to Loop experiences from SharePoint and not from the Microsoft Teams admin center.
 
 ## Loop service requirements
 
@@ -32,7 +32,7 @@ Just like other Microsoft 365 experiences, Loop also leverages core services acr
 
 ## Settings management
 
-You'll need the latest version of SharePoint PowerShell module to enable or disable all Fluid Experiences across your Microsoft 365 organization. Microsoft Fluid Framework defaults to ON for all targeted release organizations. Because loop components are designed for collaboration, the components are always shared as editable by others, even if your organization is set to default to view-only for other file types. See the Learn more link next to the setting for more details.
+You'll need the latest version of SharePoint PowerShell module to enable or disable all Fluid Experiences across your Microsoft 365 organization. Microsoft Fluid Framework defaults to ON for all targeted release organizations. Because Loop components are designed for collaboration, the components are always shared as editable by others, even if your organization is set to default to view-only for other file types. See the Learn more link next to the setting for more details.
 
 |Experience|SharePoint organization properties|Notes|
 |:---------|:---------------------------------|:------|
@@ -55,4 +55,4 @@ To disable Fluid Framework, run `Set-SPOTenant cmdlet Set-SPOTenant -IsFluidEnab
 
 ## Related topics
 
-[Overview of loop components in Teams](/microsoftteams/live-components-in-teams)
+[Overview of Loop components in Teams](/microsoftteams/live-components-in-teams)
