@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 description: Manage settings and permissions when SharePoint and Teams are integrated
 ---
-# Manage settings and permissions when SharePoint and Teams are integrated"
+# Manage settings and permissions when SharePoint and Teams are integrated
 In this article, learn how to manage settings and permissions when Teams and SharePoint are integrated together. Learn more about [integrations between SharePoint and Teams, basic terminology, and structure.](teams-connected-sites.md)
 
 ## How to identify and navigate between SharePoint and Teams
