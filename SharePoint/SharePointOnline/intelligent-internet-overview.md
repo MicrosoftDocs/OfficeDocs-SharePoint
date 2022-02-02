@@ -42,7 +42,7 @@ Integrate [Yammer](https://support.microsoft.com/office/what-is-yammer-47526868-
 
 ### Enhance collaboration and sharing
 
-Create and increase opportunities to collaborate across your organization. Use [Microsoft Lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f) and [document libraries](https://support.microsoft.com/office/introduction-to-libraries-7d4221d9-8fb9-40d5-8441-2374c84b5e26) to securely store and dynamically display content that can be accessed on any device. Then, users can view, share, and [co-author content](https://support.microsoft.com/office/document-collaboration-and-co-authoring-ee1509b4-1f6e-401e-b04a-782d26f564a4) in real time.
+Create and increase opportunities to collaborate across your organization. Use [Microsoft Lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f) and [document libraries](https://support.microsoft.com/office/introduction-to-libraries-7d4221d9-8fb9-40d5-8441-2374c84b5e26) to securely store and dynamically display content that can be accessed on any device. Then, users can view, share, and [coauthor content](https://support.microsoft.com/office/document-collaboration-and-co-authoring-ee1509b4-1f6e-401e-b04a-782d26f564a4) in real time.
 
 Use [SharePoint team sites](https://support.microsoft.com/office/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e) to create secure collaboration spaces for teams to share content, get updates, and news. Consider [adding Microsoft Teams](https://support.microsoft.com/office/create-a-microsoft-team-from-sharepoint-545973b6-c38f-426a-b2b6-16405a561628) to your team site to add real-time chat and virtual meetings.
 
