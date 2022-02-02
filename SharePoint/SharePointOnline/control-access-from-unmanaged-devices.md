@@ -156,8 +156,9 @@ To block or limit access to specific sites, follow these steps. If you have conf
 
 > [!NOTE]
 > By default, a setting that includes web access allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
- 
+
 ## Advanced configurations
+<a name="advanced"> </a>
 
 The following parameters can be used with  `-ConditionalAccessPolicy AllowLimitedAccess` for both the organization-wide setting and the site-level setting: 
   
