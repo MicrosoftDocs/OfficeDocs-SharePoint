@@ -111,7 +111,7 @@ If you revert back to **Allow Full Access**, it could take up to 24 hours for th
     ```
     
 > [!NOTE]
-> By default, this policy allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
+> By default, this policy allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced-configurations). 
   
 ## Block or limit access to a specific SharePoint site or OneDrive 
 
@@ -155,7 +155,7 @@ To block or limit access to specific sites, follow these steps. If you have conf
     This example gets the OneDrive for every user and passes it as an array to Set-SPOTenant to limit access. The initial comma and the parentheses are required for running this cmdlet as a batch request, which is fastest.
 
 > [!NOTE]
-> By default, a setting that includes web access allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
+> By default, a setting that includes web access allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced-configurations). 
 
 ## Advanced configurations
 
