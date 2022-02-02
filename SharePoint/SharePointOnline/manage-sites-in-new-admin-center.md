@@ -68,7 +68,7 @@ For more info about a site, select the site name to open the details panel or fo
   
 ![The General tab of the details panel](media/general-tab-details-panel.png)
   
-To view site activity including the number of files stored and storage usage, select the **Activity** tab. Activity information is not available for Office 365 Germany customers and US Government GCC High and DoD customers.
+To view site activity including the number of files stored and storage usage, select the **Activity** tab. Activity information is not available for US Government GCC High and DoD customers.
   
 To view site admins, owners, members, and visitors, select the **Permissions** tab.
 

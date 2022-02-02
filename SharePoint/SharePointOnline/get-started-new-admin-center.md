@@ -29,7 +29,7 @@ description: "Learn about the cards on the home page of the SharePoint admin cen
 Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->[Microsoft Partners](/office365/admin/misc/add-partner) can't access the new SharePoint admin center. <br>Report data is not available for Office 365 Germany customers and US Government GCC High and DoD customers.<br>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center. 
+>[Microsoft Partners](/office365/admin/misc/add-partner) can't access the new SharePoint admin center. <br>Report data is not available for US Government GCC High and DoD customers.<br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center. 
 
 > [!NOTE]
 > Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different.
