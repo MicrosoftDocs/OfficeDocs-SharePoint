@@ -110,10 +110,10 @@ Learn more about forming a site owner or [intranet champions community](https://
 
 |**Capability or feature**|**Description**|**Licensing**|
 |:-----|:-----|:-----|
-|Office apps|Office client apps – Word, Excel, PowerPoint, OneNote, Publisher, and Access on up to 5 PC/Macs, tablets, or mobile devices per person.|M365 E5<br> M365 E3|
-|Social and intranet|Use SharePoint and Yammer to connect and engage across your organization with an intelligent, mobile intranet and enterprise social networking.|M365 E5<br> M365 E3|
-|Files and content|OneDrive helps you work on a file and save it directly to OneDrive or SharePoint and changes are updated across synced devices. Stream lets you easily create engaging video content. Access and sync files on PC or Mac and mobile devices. Share files with external contacts by providing access or guest links.|M365 E5<br> M365 E3|
-|Work management|Efficiently manage work across individuals, teams, and organizations. Create and automate business processes.|M365 E5<br> M365 E3|
+|Office apps|Office client apps – Word, Excel, PowerPoint, OneNote, Publisher, and Access on up to 5 PC/Macs, tablets, or mobile devices per person.|Microsoft 365 E5<br> Microsoft 365 E3|
+|Social and intranet|Use SharePoint and Yammer to connect and engage across your organization with an intelligent, mobile intranet and enterprise social networking.|Microsoft 365 E5<br> Microsoft 365 E3|
+|Files and content|OneDrive helps you work on a file and save it directly to OneDrive or SharePoint and changes are updated across synced devices. Stream lets you easily create engaging video content. Access and sync files on PC or Mac and mobile devices. Share files with external contacts by providing access or guest links.|Microsoft 365 E5<br> Microsoft 365 E3|
+|Work management|Efficiently manage work across individuals, teams, and organizations. Create and automate business processes.|Microsoft 365 E5<br> Microsoft 365 E3|
 
 #### Learn more about Microsoft licensing
 
