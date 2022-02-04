@@ -35,6 +35,18 @@ We're continuously adding new features to the new <a href="https://go.microsoft.
 > [!IMPORTANT]
 > Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting November 30, 2020). [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed. 
 
+## December 2021
+
+On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** page</a>), you can [limit access to OneDrive by security group](/onedrive/limit-access). 
+
+## November 2021
+
+On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, you can [view and manage sites for private channels](manage-sites-in-new-admin-center.md).
+
+## September 2021
+
+On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** page</a>), you can [set a site as your home site](home-site.md).
+
 ## June 2021
 
 - **Info about connection to Microsoft Teams**. On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, you can use the new Teams column to view and filter sites connected to Microsoft Teams. When you select a site, the details panel also shows whether the site is connected to Microsoft Teams. 
@@ -59,7 +71,7 @@ You can also create a card by [tracking a view](customize-admin-center-site-list
 
 ## March 2021
 
-- **OneDrive settings**. On the Settings page, you can now manage OneDrive settings. The OneDrive **Notifications** setting lets you [control whether users can receive notifications about file activity](/onedrive/turn-on-external-sharing-notifications). The **Retention** setting lets you [specify the days to retain a deleted user's OneDrive](/onedrive/set-retention). The **Storage limit** setting lets you [set the default OneDrive storage space](/onedrive/set-default-storage-space). The **Sync** setting lets you show or hide the Sync button on the OneDrive website, [allow syncing only on computers joined to specific domains](/onedrive/allow-syncing-only-on-specific-domains), and [block upload of specific file types](/onedrive/block-file-types). 
+- **OneDrive settings**. On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** page</a>), you can now manage OneDrive settings. The OneDrive **Notifications** setting lets you [control whether users can receive notifications about file activity](/onedrive/turn-on-external-sharing-notifications). The **Retention** setting lets you [specify the days to retain a deleted user's OneDrive](/onedrive/set-retention). The **Storage limit** setting lets you [set the default OneDrive storage space](/onedrive/set-default-storage-space). The **Sync** setting lets you show or hide the Sync button on the OneDrive website, [allow syncing only on computers joined to specific domains](/onedrive/allow-syncing-only-on-specific-domains), and [block upload of specific file types](/onedrive/block-file-types). 
 
 ## June 2020
 
@@ -96,7 +108,7 @@ You can also create a card by [tracking a view](customize-admin-center-site-list
 
     ![The permissions tab in the details panel.](media/permissions-panel.png)
 
-- **Redesigned Settings page**. The [Settings page](https://admin.microsoft.com/sharepoint?page=settings&modern=true) has been redesigned to let you see the value for each setting without selecting each one for more info.
+- **Redesigned Settings page**. The <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** page</a>) has been redesigned to let you see the value for each setting without selecting each one for more info.
 
     ![The Settings page.](media/settings-page.png)
 
@@ -114,7 +126,7 @@ You can also create a card by [tracking a view](customize-admin-center-site-list
 
 ## June 2019
 
-- The new SharePoint admin center is set as the default experience unless you select to open the classic SharePoint admin center by default (on <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings**</a>).
+- The new SharePoint admin center is set as the default experience unless you select to open the classic SharePoint admin center by default (from the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** page</a>).
 
 - On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, you can select multiple sites and bulk edit sharing and hub association settings.
 
