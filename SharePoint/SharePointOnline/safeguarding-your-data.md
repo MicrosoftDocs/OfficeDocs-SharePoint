@@ -17,7 +17,6 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-mar2020
-- admindeeplinkSPO
 search.appverid:
 - SPO160
 - ODB160
