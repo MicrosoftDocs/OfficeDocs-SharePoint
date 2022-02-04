@@ -78,18 +78,18 @@ For example, you might want to prominently display news about a sales meeting in
 ## Microsoft 365 Multi-Geo 
 Some countries have laws requiring that user data be stored within that country. To accommodate these requirements, you can set up a Microsoft 365 Multi-Geo tenant. With a Multi-Geo tenant, your tenant may be provisioned in one country, but user data for SharePoint, OneDrive, and Exchange can be stored in other countries. For example, you may have 5,000 employees in Europe and 8,000 employees in North America. All the users are working within the same tenant, but data for the 5,000 employees are stored in Europe while data for the 8,000 employees is stored in North America. This allows for seamless collaboration across your organization while still meeting data residency requirements.
 
-A global administrator needs to enable Multi-Geo, and then SharePoint admins manage the Multi-Geo feature in the SharePoint admin center.
+After Multi-Geo is enabled for your tenant, you can set up and manage geo locations on the <a href="https://go.microsoft.com/fwlink/p/?linkid=2185076" target="_blank">Geo locations page</a> in the SharePoint admin center.
 
 ![SharePoint Multi-Geo Admin Center](media\sharepoint-multi-geo-admin-center.png)
 
 >**Notes**  Due to the unique nature of data requirements in China, a differentiated version of Office 365 is available and operated by a partner from datacenters inside China. This service is not considered a Multi-Geo service. It is powered by technology that Microsoft has licensed to 21Vianet. For more information, see  [Office 365 operated by 21Vianet - Service Descriptions](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet).
 
->A differentiated service called Microsoft Cloud Germany is being migrated to Office 365 services in the new German datacenter. For more information see [Migration from Microsoft Cloud Deutschland to Office 365 services in the new German datacenter regions](/microsoft-365/enterprise/ms-cloud-germany-transition).
+>A differentiated service called Microsoft Cloud Germany is being migrated to Office 365 services in the new German datacenter. For more information, see [Migration from Microsoft Cloud Deutschland to Office 365 services in the new German datacenter regions](/microsoft-365/enterprise/ms-cloud-germany-transition).
 
 **Next steps for Microsoft 365 Multi-Geo**
-* Microsoft 365 administrators [plan](/microsoft-365/enterprise/multi-geo-tenant-configuration) and [set up](/microsoft-365/enterprise/multi-geo-tenant-configuration) Multi-Geo for their organization
+* Learn how to [plan and set up](/microsoft-365/enterprise/multi-geo-tenant-configuration) Multi-Geo for your organization
 
-* SharePoint administrators [set up Multi-Geo](https://techcommunity.microsoft.com/t5/office-365-blog/now-available-multi-geo-in-sharepoint-and-office-365-groups/ba-p/263302) in the SharePoint admin center to enable Multi-Geo features [across the user experience](/microsoft-365/enterprise/multi-geo-user-experience)
+* Learn how to [set up Multi-Geo](https://techcommunity.microsoft.com/t5/office-365-blog/now-available-multi-geo-in-sharepoint-and-office-365-groups/ba-p/263302) in the SharePoint admin center to enable Multi-Geo features [across the user experience](/microsoft-365/enterprise/multi-geo-user-experience)
 
 
 	
