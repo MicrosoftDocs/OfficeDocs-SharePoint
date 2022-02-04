@@ -15,6 +15,7 @@ ms.collection:
 - Strat_SP_admin
 - M365-collaboration
 - m365initiative-spsitemanagement
+ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
@@ -25,10 +26,10 @@ description: "Learn about the cards on the home page of the SharePoint admin cen
 
 # Get started with the SharePoint admin center
 
-To [go to the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=home&modern=true), you need to sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->[Microsoft Partners](/office365/admin/misc/add-partner) can't access the new SharePoint admin center. <br>Report data is not available for Office 365 Germany customers and US Government GCC High and DoD customers.<br>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center. 
+>[Microsoft Partners](/office365/admin/misc/add-partner) can't access the new SharePoint admin center. <br>Report data is not available for US Government GCC High and DoD customers.<br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center. 
 
 > [!NOTE]
 > Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different.
@@ -115,7 +116,7 @@ This card shows the usage of each Microsoft 365 service. To view the full report
 
 ## Where to find things in the new SharePoint admin center
 
-If you're used to working in the classic SharePoint admin center, to learn where you can find features and tasks in the new admin center, use the following table.
+If you're used to working in the classic SharePoint admin center, to learn where you can find features and tasks in the new <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, use the following table.
 
 
 |Classic page |New page |Notes  |

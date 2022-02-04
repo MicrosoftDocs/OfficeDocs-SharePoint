@@ -39,7 +39,7 @@ Currently, notifications are sent for the following activities:
 Other notifications might be added in the future.
 
 >[!NOTE]
->Notifications aren't available for the US government environments, Office 365 Germany, or Office 365 operated by 21Vianet (China).
+>Notifications aren't available for the US government environments or Office 365 operated by 21Vianet (China).
 
 ## Allow or block notifications
 
