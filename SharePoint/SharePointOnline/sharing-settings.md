@@ -26,7 +26,7 @@ description: "In this article, you'll learn where to find sharing settings in th
 
 # Find sharing settings in the new SharePoint admin center
 
-This article covers all the features on the sharing page in the classic SharePoint admin center and where you can find them <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">**Sharing**</a> in the new SharePoint admin center. 
+This article covers all the features on the sharing page in the classic SharePoint admin center and where you can find them on the <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">**Sharing** page</a> in the new SharePoint admin center. 
 
 ## Sharing outside your organization
 
