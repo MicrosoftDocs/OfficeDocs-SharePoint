@@ -37,7 +37,7 @@ To change the sharing settings for a site after you've set the organization-leve
 
 ## Video demonstration
 
-This video shows how the settings on <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">**Sharing** in the SharePoint admin center</a> affect the sharing options available to users.
+This video shows how the settings on the <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">**Sharing** page in the SharePoint admin center</a> affect the sharing options available to users.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yw9m?autoplay=false]
 
