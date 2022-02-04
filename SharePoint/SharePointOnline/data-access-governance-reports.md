@@ -15,6 +15,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid: MET150
 description: "In this article, you'll learn about reports that can help you govern access to data in SharePoint."
 ---
@@ -28,7 +29,7 @@ As security and compliance requirements increase across industries and the amoun
 
 ## Access the reports in the SharePoint admin center
 
-1. Go to the [SharePoint admin center](https://admin.microsoft.com/sharepoint?page=home&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 2. In the left pane, select **Reports** > **Data access governance**. The following reports are currently available:
 
    - Sharing links

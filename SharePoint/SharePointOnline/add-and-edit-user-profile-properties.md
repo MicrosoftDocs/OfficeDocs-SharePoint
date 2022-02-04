@@ -11,6 +11,7 @@ f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
+ms.custom: admindeeplinkSPO
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
@@ -28,12 +29,11 @@ description: "Learn how to add and edit properties on SharePoint user profiles t
 If your organization uses the cloud identity model, your user accounts are stored in Azure AD and you can manage most user profile info in the Microsoft 365 admin center. For info, see [Edit or change a user in Microsoft 365](/office365/admin/add-users/change-a-user-name-and-email-address). You can also manage user profiles (including adding user pictures and defining user managers) in the Azure AD admin center. For info, see [Add or change profile information for a user in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal). If you need to create custom user profile properties, such as languages spoken, emergency contact info, or sales account, you can use user properties in SharePoint. Note that these properties are NOT synced back to Azure AD.
   
 ## Add a property for a user profile
-<a name="__top"> </a>
 
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the new SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
 
 2. Under **User profiles**, select **Open**.
 
@@ -76,12 +76,11 @@ If your organization uses the cloud identity model, your user accounts are store
 16. Select **OK**.
 
 ## Edit or delete a property you added
-<a name="__top"> </a>
 
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the new SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
     
 2. Select **User profiles**, and then select **Open**. Under **People**, choose **Manage User Properties**.
     
@@ -97,7 +96,6 @@ If your organization uses the cloud identity model, your user accounts are store
 5. When you're done, select **OK**.
     
  ## Synchronize custom properties
-<a name="__top"> </a>
 
 Custom properties from Active Directory or Azure AD are not synchronized with SharePoint. For info about bulk updating custom user profile properties by using PowerShell, see [Call the import API from PowerShell](/sharepoint/dev/solution-guidance/bulk-user-profile-update-api-for-sharepoint-online#call-the-import-api-from-powershell).
 

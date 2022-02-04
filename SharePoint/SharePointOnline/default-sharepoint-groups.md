@@ -15,6 +15,7 @@ ROBOTS: NOINDEX
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
+ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
 - BSA160
@@ -103,6 +104,6 @@ In SharePoint Server, you designate a site collection administrator when you cre
 |:-----|:-----|:-----|
 |Who can use this group?  | Yes  | No, by default.  <br/> Requires special installation.  | 
    
-In SharePoint in Microsoft 365, there is also a SharePoint admin. A SharePoint admin can use the SharePoint admin center or PowerShell to manage settings for all sites. Any global admin in Microsoft 365 also has the permissions of a SharePoint admin. For more info about the SharePoint admin role, see [About the SharePoint admin role in Microsoft 365](sharepoint-admin-role.md).
+In SharePoint in Microsoft 365, there is also a SharePoint admin. A SharePoint admin can use the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> or PowerShell to manage settings for all sites. Any global admin in Microsoft 365 also has the permissions of a SharePoint admin. For more info about the SharePoint admin role, see [About the SharePoint admin role in Microsoft 365](sharepoint-admin-role.md).
     
 If you are using SharePoint Server, you do not have a SharePoint admin or SharePoint admin center.

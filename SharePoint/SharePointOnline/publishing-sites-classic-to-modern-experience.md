@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-mar2020
+- admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
@@ -211,7 +212,7 @@ You probably don’t want a large group of people having the ability to make cha
 
 To help you limit who has permissions to change the site, communication sites are not group-enabled like modern team sites. This means that a communication site is not automatically connected to a group of people with edit permissions. However, you can give specific people permission to make changes to your communication sites by selecting **Site permissions** under **Settings** and then **Share a site**. You can use Advanced permissions to give even more granular permissions if needed. For more in-depth information on the differences between classic and modern permissions, see [Permissions and Sharing in the SharePoint modern experience](./modern-experience-sharing-permissions.md).
 
-You can also share a communication site externally if needed from the SharePoint admin center.
+You can also share a communication site externally if needed from the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>.
 
 ## Audience targeting
 

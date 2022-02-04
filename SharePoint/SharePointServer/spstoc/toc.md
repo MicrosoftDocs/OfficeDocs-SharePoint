@@ -436,6 +436,7 @@
 ###### [Manage RBS](../administration/manage-rbs.md)
 ####### [RBS overview](../administration/rbs-overview.md)
 ####### [RBS planning](../administration/rbs-planning.md)
+####### [Remote Share Provider](../administration/remote-share-provider.md)
 ####### [Install and configure RBS](../administration/install-and-configure-rbs.md)
 ####### [Install and configure RBS with a 3rd party provider](../administration/install-and-configure-rbs-with-a-3rd-party-provider.md)
 ####### [Set a content database to use RBS](../administration/set-a-content-database-to-use-rbs.md)
