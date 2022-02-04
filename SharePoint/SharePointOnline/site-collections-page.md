@@ -59,11 +59,11 @@ To create a site collection in the new SharePoint admin center, go to <a href="h
 
 ## Delete
 
-On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and on the command bar, select **Delete**. As with the classic SharePoint admin center, you can’t delete the root (top-level) site. To swap this site with a different site, see [Replace your root site](./modern-root-site.md).
+On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, select the site, and on the command bar, select **Delete**. As with the classic SharePoint admin center, you can’t delete the root (top-level) site. To swap this site with a different site, see [Replace your root site](./modern-root-site.md).
 
 ## Properties
 
-The columns on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) show most of this information, so you don't even need to select a site to see details. To see the properties for an individual site, select anywhere in the site row, except in the URL column.
+The columns on the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a> show most of this information, so you don't even need to select a site to see details. To see the properties for an individual site, select anywhere in the site row, except in the URL column.
 
 <br/>
 
@@ -85,7 +85,7 @@ The columns on the [Active sites page](https://admin.microsoft.com/sharepoint?pa
 
 ## Owners
 
-To change the owners for any site that isn't connected to a Microsoft 365 group, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, select **Permissions** on the command bar, and then select **Manage admins**.
+To change the owners for any site that isn't connected to a Microsoft 365 group, go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, select the site, select **Permissions** on the command bar, and then select **Manage admins**.
 
 <br/>
 
@@ -103,7 +103,7 @@ To change the owners for any site that isn't connected to a Microsoft 365 group,
 
 ## Sharing
 
-To change sharing settings for a site, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and select **Sharing** on the command bar.
+To change sharing settings for a site, go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, select the site, and select **Sharing** on the command bar.
 
 <br/>
 
@@ -123,7 +123,7 @@ To change sharing settings for a site, go to the [Active sites page](https://adm
 
 ## Storage quota
 
-These options appear if you use manual site storage limits in your organization. To change the storage limit for a site, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and select **Storage** on the command bar.
+These options appear if you use manual site storage limits in your organization. To change the storage limit for a site, go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, select the site, and select **Storage** on the command bar.
 
 <br/>
 
@@ -140,7 +140,7 @@ These options appear if you use manual site storage limits in your organization.
 
 ## Buy storage
 
-In the Microsoft 365 admin center, go to the [Purchase services page](https://go.microsoft.com/fwlink/p/?linkid=868433). For more information, please see [Add storage space for your subscription](/microsoft-365/commerce/add-storage-space).
+In the Microsoft 365 admin center, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">**Purchase services** page</a>. For more information, see [Add storage space for your subscription](/microsoft-365/commerce/add-storage-space).
 
 ## Server resource quota
 
@@ -181,11 +181,11 @@ To view your deleted sites, go to the new SharePoint admin center, go to <a href
 
 ## Search by URL
 
-On <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">** in the SharePoint admin center**</a>, use the Search box. As with the classic SharePoint admin center, you can also sort by URL.
+On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, use the Search box. As with the classic SharePoint admin center, you can also sort by URL.
 
 ## Available storage and storage limit bar
 
-The upper-right corner of the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) shows the storage used (in GB) and storage limit for your organization.
+The upper-right corner of the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a> shows the storage used (in GB) and storage limit for your organization.
 
 ## Available resources bar
 
@@ -199,10 +199,10 @@ This information is no longer displayed because you shouldn't need to worry abou
 
 ![Storage columns](media/storage-columns.png)
 
-Most of the sites that were listed in the classic SharePoint admin center are included on <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites**</a>. A few are hidden because they're system sites that you shouldn’t need to change. The [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) contains all the new team sites and communication sites that didn’t appear in the classic SharePoint admin center. To see the site list as it appeared in the classic SharePoint admin center, from the **Built-in views** menu, select **Classic sites**.  
+Most of the sites that were listed in the classic SharePoint admin center are included on the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>. A few are hidden because they're system sites that you shouldn’t need to change. The Active sites page contains all the new team sites and communication sites that didn’t appear in the classic SharePoint admin center. To see the site list as it appeared in the classic SharePoint admin center, from the **Built-in views** menu, select **Classic sites**.  
 
 In both the classic and new admin centers, you can select multiple sites and bulk edit the sharing or storage settings, or delete the sites.  
 
-In the classic site list, locked sites appeared with an icon. In the new <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, to see if a site is locked, select the site to open the details panel. **This site is locked** appears at the top of the panel. 
+In the classic site list, locked sites appeared with an icon. In the new SharePoint admin center, to see if a site is locked, select the site to open the details panel. **This site is locked** appears at the top of the panel. 
 
-If you use manual storage limits, the Storage limit and Percent used columns appear. In the new SharePoint admin center, on <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites**</a>, the Storage limit and Storage used columns appear. The Storage used column isn’t color coded. The Storage limit column can be sorted by size.
+If you use manual storage limits, the Storage limit and Percent used columns appear. In the new SharePoint admin center, the Storage limit and Storage used columns appear. The Storage used column isn’t color coded. The Storage limit column can be sorted by size.
