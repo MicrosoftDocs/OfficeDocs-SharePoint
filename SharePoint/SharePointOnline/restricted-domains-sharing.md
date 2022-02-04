@@ -17,6 +17,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-mar2020
+- admindeeplinkSPO
 search.appverid: MET150
 ms.assetid: 5d7589cd-0997-4a00-a2ba-2320ec49c4e9
 description: "Allow sharing only with guests on specific domains, or block sharing with guests on specific domains."
@@ -35,7 +36,7 @@ You can limit domains by allowing only the domains you specify or by allowing al
   
  **To limit domains at the organization level**
   
-1. Go to the [Sharing page of the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">**Sharing** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
     >[!NOTE]
     >If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
@@ -65,7 +66,7 @@ You can also limit domains at the site collection level. Note the following cons
     
  **To limit domains for a site**
 
-1. Go to the [Active sites page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sitemanagement&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
     >[!NOTE]
     >If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
