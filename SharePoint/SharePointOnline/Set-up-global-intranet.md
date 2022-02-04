@@ -78,7 +78,7 @@ For example, you might want to prominently display news about a sales meeting in
 ## Microsoft 365 Multi-Geo 
 Some countries have laws requiring that user data be stored within that country. To accommodate these requirements, you can set up a Microsoft 365 Multi-Geo tenant. With a Multi-Geo tenant, your tenant may be provisioned in one country, but user data for SharePoint, OneDrive, and Exchange can be stored in other countries. For example, you may have 5,000 employees in Europe and 8,000 employees in North America. All the users are working within the same tenant, but data for the 5,000 employees are stored in Europe while data for the 8,000 employees is stored in North America. This allows for seamless collaboration across your organization while still meeting data residency requirements.
 
-The Microsoft 365 administrator needs to enable Multi-Geo, and then SharePoint admins manage the Multi-Geo feature in the SharePoint admin center.
+A global administrator needs to enable Multi-Geo, and then SharePoint admins manage the Multi-Geo feature in the SharePoint admin center.
 
 ![SharePoint Multi-Geo Admin Center](media\sharepoint-multi-geo-admin-center.png)
 
