@@ -15,6 +15,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid: MET150
 description: "In this article, you'll learn about planning and deploying a secure and productive file collaboration environment in SharePoint with Microsoft 365."
 ---
@@ -111,7 +112,7 @@ The two main decisions to consider for using OneDrive in collaboration scenarios
 
   - Do you want to restrict file sync in any way – such as only to managed devices?
 
-These settings are available in the [SharePoint admin center](https://admin.microsoft.com/sharepoint).
+These settings are available in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>.
 
 OneDrive is an important part of the Microsoft 365 collaboration story. For information about how to deploy OneDrive in your organization, see [OneDrive guide for enterprises](/OneDrive/plan-onedrive-enterprise).
 

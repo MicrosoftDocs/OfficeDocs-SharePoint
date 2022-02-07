@@ -16,6 +16,7 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - SPO_Content
 ms.localizationpriority: medium
+ms.custom: admindeeplinkSPO
 ms.assetid: d7173fc7-65cd-4201-8095-7ad805f50c95
 description: "Learn how to manually extract a Business Data Connectivity model, import the model into SharePoint in Microsoft 365, and manually create an external list to surface the on-premises data."
 ---
@@ -34,11 +35,11 @@ You'll need the .bcdm file for the next procedure.
   
 ## Import the BDCM file into the SharePoint in Microsoft 365 BDC Metadata Store
 
-When you import the BDC Model file into SharePoint in Microsoft 365, you must be signed in to the SharePoint admin center with a federated account (an account imported to Microsoft 365 from on-premises using Directory Sync). This federated account should also be given global admin rights in Microsoft 365. When importing the BDC Model to configure Hybrid BCS, certain calls are made to SharePoint Server that will require you use a federated user account. Be aware the account must also have a populated user profile in SharePoint Server.
+When you import the BDC Model file into SharePoint in Microsoft 365, you must be signed in to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> with a federated account (an account imported to Microsoft 365 from on-premises using Directory Sync). This federated account should also be given global admin rights in Microsoft 365. When importing the BDC Model to configure Hybrid BCS, certain calls are made to SharePoint Server that will require you use a federated user account. Be aware the account must also have a populated user profile in SharePoint Server.
   
  **To import a BDCM file into the SharePoint in Microsoft 365 BDC Metadata Store**
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
 
 2. Under **BCS**, select **Open**.
     
