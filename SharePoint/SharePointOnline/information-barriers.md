@@ -12,6 +12,7 @@ f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
+ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
 - BSA160
@@ -154,7 +155,7 @@ SharePoint or Global Administrators can view and manage segments on a SharePoint
 
 ### 1. Use the SharePoint admin center to view and manage information segments
 
-To view, edit, or remove information segments for a site, use the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true).  
+To view, edit, or remove information segments for a site, use <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>.  
 
 The Segments column lists the first segment associated with the site and shows whether the site has other segments associated. [Learn how to show or move this column](customize-admin-center-site-list.md#customize-columns)
 
@@ -278,7 +279,7 @@ In addition, the site owners have the capability to add more segments to a Share
 
 When a non-segmented user creates a SharePoint site, the site is not associated with any segment and site's information barriers mode is automatically set to *Open*.
 
-When an SPO admin creates a SharePoint site from SharePoint Admin Center, the site is not associated with any segment and site's IB mode is set to *Open*.
+When a SharePoint admin creates a SharePoint site from the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, the site isn't associated with any segment and the site's IB mode is set to *Open*.
 
 To help site owners add a segment to a site, share the [Associate information segments with SharePoint sites](https://support.microsoft.com/office/associate-information-segments-with-sharepoint-sites-2b03db07-6d3f-4297-a388-b943317a26a7) article with your SharePoint site owners.
 
