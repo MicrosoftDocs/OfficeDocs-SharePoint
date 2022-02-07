@@ -14,6 +14,7 @@ ms.collection:
 - M365-collaboration
 search.appverid:
 ms.assetid: 
+ms.custom: admindeeplinkSPO
 description: "In this article, you'll learn how to all only users in specified security groups to access OneDrive."
 ---
 
@@ -41,7 +42,7 @@ To enable this feature, you need a subscription to one of the following plans:
 
 To enable this feature:
 
-1. Go to the [Access control page of the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">Access control in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 2. Select **Limit OneDrive access**.
 
