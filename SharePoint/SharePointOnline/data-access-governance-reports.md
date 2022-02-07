@@ -25,7 +25,7 @@ description: "In this article, you'll learn about reports that can help you gove
 As security and compliance requirements increase across industries and the amount of business data grows exponentially, organizations need tools to help govern their data. Data access governance reports provide info that helps you govern access to SharePoint data. The reports help you discover sites that contain potentially overshared or sensitive content. You can use these reports to assess and apply appropriate security and compliance policies.
 
 > [!NOTE]
-> This feature is in preview for organizations that have Microsoft 365 E5. We will begin rolling out in mid-November and be complete by mid-December.
+> This feature is in preview for organizations that have Microsoft 365 E5. We will begin rolling out in mid-February (previously mid-January) and be complete by mid-March (previously mid-February).
 
 ## Access the reports in the SharePoint admin center
 
