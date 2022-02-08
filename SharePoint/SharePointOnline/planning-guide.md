@@ -15,6 +15,7 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
 - BSA160
@@ -64,7 +65,7 @@ When you think about how to structure and govern your sites, consider the answer
 ### Delete and restore sites
 <a name="metadata"> </a>
 
-As a SharePoint admin, you can delete and restore sites by using the SharePoint admin center. For info, see [Delete a site](delete-site-collection.md) and [Restore a deleted site](restore-deleted-site-collection.md).
+As a SharePoint admin, you can delete and restore sites by using the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. For info, see [Delete a site](delete-site-collection.md) and [Restore a deleted site](restore-deleted-site-collection.md).
   
 ## Manage permissions and help secure content
 <a name="__toc349560423"> </a>
@@ -87,7 +88,7 @@ SharePoint IRM uses Microsoft Azure Active Directory Rights Management Services 
   
 When IRM has been enabled for a list or library, files are encrypted so that only authorized people can view them or take specific actions on them. Each rights-managed file also contains an issuance license that imposes restrictions on the people who view the file. Typical restrictions include making a file read-only, disabling the copying of text, preventing people from saving a local copy, and preventing people from printing the file. Client programs that can read IRM-supported file types use the issuance license within the rights-managed file to enforce these restrictions. This is how a rights-managed file retains its protection even after it is downloaded.
   
-By default, IRM is disabled when you sign up with Microsoft 365. Before you turn on the IRM service using the SharePoint admin center, the Microsoft 365 global admin needs to first install the Microsoft PowerShell module for Rights Management and then connect to the Rights Management service. For more info, see [Set up Information Rights Management (IRM) in SharePoint admin center](/office365/securitycompliance/set-up-irm-in-sp-admin-center) and [Apply Information Rights Management (IRM) to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1).
+By default, IRM is disabled when you sign up with Microsoft 365. Before you turn on the IRM service using the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>, the Microsoft 365 global admin needs to first install the Microsoft PowerShell module for Rights Management and then connect to the Rights Management service. For more info, see [Set up Information Rights Management (IRM) in SharePoint admin center](/office365/securitycompliance/set-up-irm-in-sp-admin-center) and [Apply Information Rights Management (IRM) to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1).
   
 ## Manage user profiles
 <a name="__plan_for_personal"> </a>
@@ -99,7 +100,7 @@ If you want to help owners of classic sites target content to specific groups of
 ## Evaluate business needs to help plan feature configuration
 <a name="__toc349560425"> </a>
 
-There are some features that can be configured or managed globally from the SharePoint admin center. To help you plan time and resources, it is useful to evaluate whether your organization has a business need for specific features. 
+There are some features that can be configured or managed globally from the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. To help you plan time and resources, it is useful to evaluate whether your organization has a business need for specific features. 
   
 ### Determine subject matter experts and partners
 

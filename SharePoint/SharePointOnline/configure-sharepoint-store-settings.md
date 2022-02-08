@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.custom: admindeeplinkSPO
 ms.localizationpriority: medium
 search.appverid:
 - SPO160
@@ -23,7 +24,6 @@ description: "Learn how to allow or prevent users from getting apps from the Sha
 The [SharePoint Store](https://appsource.microsoft.com/marketplace/apps?product=sharepoint) is a public marketplace that offers apps for Microsoft 365, as well as Dynamics 365 and Power Platform. Site users can access the SharePoint Store directly from a SharePoint site to browse for and add third-party apps. If a SharePoint environment has been configured to prevent users from getting apps from the SharePoint Store, users can still browse for and request apps. These requests are added to the App Requests list in the SharePoint admin center.
 
 ## Specify whether users can get apps from the SharePoint Store
-<a name="__top"> </a>
 
 By default, SharePoint is configured to allow users to get or request apps from the SharePoint Store. The option to change this setting will not be enabled if you have not yet created an Apps site. For information about how to create an Apps site, see [Use the Apps site to make custom business apps available for your SharePoint environment](use-app-catalog.md).
   
@@ -32,8 +32,6 @@ Even if you choose not to allow users to add apps from the SharePoint Store, the
 1. Go to the [More features page of the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
    > [!NOTE]
-   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page.
-   > 
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
 
 1. Under **Apps**, select **Open**, and then select **More features**.
@@ -54,8 +52,6 @@ Documents stored on sites may contain apps for Office from several sources. You 
 1. Go to the [More features page of the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
    > [!NOTE]
-   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page.
-   > 
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
 
 1. Under **Apps**, select **Open**, and then select **More features**.
