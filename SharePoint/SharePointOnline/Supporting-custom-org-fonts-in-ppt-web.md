@@ -19,11 +19,10 @@ description: "Learn how to add organization fonts to the SharePoint as Organizat
 ---
 
 # Support for Organization Fonts in PowerPoint for web 
-Organization fonts allow customers to create a brand for their organizations and encourage consistency in documents and presentations. Earlier, organization users could only see and use organization fonts when they were installed locally on their desktops. Now, customers with E3 or E5 license can take advantage of **Organization Font Support** in PowerPoint for the web to edit and display their fonts. When you upload your font as a SharePoint Organization Asset Library (OAL), you'll see that your **Organization** font now renders properly on PowerPoint for the web. Seamless support for the desktop experiences is coming soon.
+Organization fonts allow customers to create a brand for their organizations and encourage consistency in documents and presentations. Earlier, organization users could only see and use organization fonts when they were installed locally on their desktops. Now, customers with E3 or E5 license can take advantage of Organization Font Support in PowerPoint for the web to edit and display their fonts. When you upload your font as a SharePoint Organization Asset Library (OAL), you'll see that your Organization font now renders properly on PowerPoint for the web. Seamless support for the desktop experiences is coming soon.
 
 > [!NOTE]
 >- Organization font support on PowerPoint for the web is not available for Office 365 Germany, Office 365 operated by 21Vianet (China), or Microsoft 365 US Government plans.
->- If your organization has licensed fonts from a font vendor with broad rights, be sure to check with your font vendor to make sure your license allows for fonts to be posted on a publicly accessible internet location and for content to be edited using the fonts.
 
 
 ## How does this work? 
@@ -31,7 +30,7 @@ The following diagram outlines the key steps in making our solution work:
 
    :::image type="content" source="media/Company-admin.png" alt-text="Manage User Properties link under Admin user profiles.":::
 
-1. Company administrator uploads their fonts to their company’s SharePoint site using the **SharePoint Online Management Shell.**
+1. Organization administrator uploads their fonts to their organization's SharePoint site using the **SharePoint Online Management Shell.**
 2. SharePoint stores the assets in a [public Office 365 Content Delivery Network.](/microsoft-365/enterprise/use-microsoft-365-cdn-with-spo?view=o365-worldwide&preserve-view=true) 
 3. When a user opens a PowerPoint file on the web platform, PowerPoint for the web will access the Content Delivery Network (CDN) and fetch appropriate fonts.
 
