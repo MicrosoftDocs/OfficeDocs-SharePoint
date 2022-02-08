@@ -29,7 +29,7 @@ The most visible difference is that the Microsoft Search box is placed at the to
 
 Search admin can customize the *classic* search experience, but not the Microsoft Search experience. As a search admin you can *tailor* Microsoft Search to your organization so it's easy for your users to find often needed content in your organization.
 
-For Example if your organization have Microsoft Search full deployed , Custom Result sources at site collection or tenant level won't affect the search result instead search admin can use Microsoft Search Verticarls [Learn about Manage search verticals](https://docs.microsoft.com/en-us/microsoftsearch/manage-verticals)
+For example, if your organization has Microsoft Search full deployed, custom result sources at site collection or tenant level won't affect the search result. The search admin can use Microsoft search verticals instead. To learn more, see [Manage search verticals](/microsoftsearch/manage-verticals).
 
 You use the SharePoint admin center to manage classic search and the Microsoft 365 admin center to manage Microsoft Search. Certain aspects of the classic search settings also impact the modern search experience:
 
