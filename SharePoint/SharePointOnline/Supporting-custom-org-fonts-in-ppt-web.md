@@ -19,7 +19,7 @@ description: "Learn how to add organization fonts to the SharePoint as Organizat
 ---
 
 # Support for Organization Fonts in PowerPoint for web 
-Organization fonts allow customers to create a brand for their organizations and encourage consistency in documents and presentations. Earlier, organization users could only see and use organization fonts when they were installed locally on their desktops. Now, customers with E3 or E5 license can take advantage of Organization Font Support in PowerPoint for the web to edit and display their fonts. When you upload your font as a SharePoint Organization Asset Library (OAL), you'll see that your organization font now renders properly on PowerPoint for the web. Seamless support for the desktop experiences is coming soon.
+Organization fonts allow customers to create a brand for their organizations and encourage consistency in documents and presentations. Earlier, organization users could only see and use organization fonts when they were installed locally on their desktops. Now, customers with E3 or E5 licenses can take advantage of Organization Font Support in PowerPoint for the web to edit and display their fonts. When you upload your font as a SharePoint Organization Asset Library (OAL), you'll see that your organization font now renders properly on PowerPoint for the web. Seamless support for the desktop experiences is coming soon.
 
 > [!NOTE]
 >- Organization font support on PowerPoint for the web is not available for Office 365 Germany, Office 365 operated by 21Vianet (China), or Microsoft 365 US Government plans.
@@ -53,14 +53,14 @@ The following diagram outlines the key steps in making our solution work:
 
       For example:
      
-     `Add-SPOOrgAssetsLibary` -LibraryUrl [https://constosofonts.sharepoint.com/FontLibrary](https://constosofonts.sharepoint.com/FontLibrary) `-OrgAssetType OfficeFontLibary -CdnType Public`.
+     `Add-SPOOrgAssetsLibary -LibraryUrl [https://constosofonts.sharepoint.com/FontLibrary](https://constosofonts.sharepoint.com/FontLibrary) -OrgAssetType OfficeFontLibary -CdnType Public`.
 5. Using the **SharePoint Online Management Shell**, run the following command to upload your custom font(s) to the document library location.
 
     `Set-SPOCustomFontCatalog -FontFolder <Local Font Folder Location> -LibraryUrl <Document Library SharePoint URL>`
 
       For example:
 
-    `Set-SPOCustomFontCatalog -FontFolder “C:\ProgramData\Fonts”` -LibraryUrl [https://contosofonts.sharepoint.com/FontLibrary](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcontosofonts.sharepoint.com%2FFontLibrary&data=04%7C01%7Cv-shesna%40microsoft.com%7C9cf273bbf9c14d337ec208d9df961a78%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637786658092612309%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=UzJzwT4sV12x4FRsC%2FpaJ6cEuuIS0kUluDXCHR4GN9A%3D&reserved=0)
+    `Set-SPOCustomFontCatalog -FontFolder “C:\ProgramData\Fonts" -LibraryUrl https://contosofonts.sharepoint.com/FontLibrary`
 
      Allow 24 hours for Sharepoint servers to update and for users in your organization to see their organization fonts when using the **Font** dropdown menu in PowerPoint for the web.
 
