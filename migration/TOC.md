@@ -51,7 +51,9 @@
 #### [Step 2: Migrate workflows](spmt-workflow-step2.md)
 #### [Step 3: Activate workflows](spmt-workflow-step3.md)
 ## Migration Manager Reference
-### [Error codes](mm-error-codes.md)
+### Troubleshooting and errors codes
+#### [Troubleshooting and errors](mm-troubleshoot.md)
+#### [Transaction Error codes](mm-error-codes.md)
 ### File share Reference
 #### [Prerequisites and endpoints](mm-prerequisites.md)
 #### [Settings](mm-settings.md)
@@ -64,7 +66,6 @@
 #### [Reports](mm-reports.md)
 #### [FAQs](mm-faqs.md)
 #### [How to reinstall a Migration agent](mm-reinstall-agent.md)
-#### [Troubleshooting](mm-troubleshoot.md)
 ### Box Reference
 #### [FAQs](mm-faqs-box.md)
 #### [Format a CSV file for bulk upload](mm-box-bulk-upload-source-paths-csv.md)
