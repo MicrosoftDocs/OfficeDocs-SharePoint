@@ -9,6 +9,7 @@ audience: Admin
 f1.keywords: NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.custom: admindeeplinkSPO
 ms.localizationpriority: medium
 search.appverid:
 - SPO160
@@ -24,7 +25,7 @@ To add a term set, you must be a contributor, group manager or a term store admi
 
 To set up a new term set
   
-1. In the SharePoint admin center, under **Content services**, click **Term store**.
+1. In the SharePoint admin center, under **Content services**, select <a href="https://go.microsoft.com/fwlink/?linkid=2185073" target="_blank">**Term store**</a>.
     
 2. In the tree-view navigation pane, expand the groups to select the group to which you want to add a term set.
     

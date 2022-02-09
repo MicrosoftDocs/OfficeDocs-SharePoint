@@ -65,15 +65,15 @@ You create and maintain the thesaurus file in a file external to SharePoint Serv
     
 3. At the Windows PowerShell command prompt, type the following command:
     
-  ```
-  $searchApp = Get-SPEnterpriseSearchServiceApplication 
-  Import-SPEnterpriseSearchThesaurus -SearchApplication $searchApp -Filename <Path>
+    ```
+    $searchApp = Get-SPEnterpriseSearchServiceApplication 
+    Import-SPEnterpriseSearchThesaurus -SearchApplication $searchApp -Filename <Path>
   
-  ```
+    ```
 
-    Where:
+   Where:
     
-  -  _\<Path\>_ specifies the full UNC path of the .csv file (the thesaurus) to be imported. 
+   -  _\<Path\>_ specifies the full UNC path of the .csv file (the thesaurus) to be imported. 
     
 ## See also
 <a name="proc2"> </a>
