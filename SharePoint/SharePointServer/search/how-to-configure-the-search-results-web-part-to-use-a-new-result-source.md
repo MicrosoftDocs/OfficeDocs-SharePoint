@@ -88,9 +88,9 @@ To save space, we'll only show you how to create a result source as a Site colle
     
     Remember, in our scenario we only wanted search results to come from a particular site within the farm. Therefore, in the **Query text** field we added the following: 
     
-  ```
-  {searchTerms?} (contentclass:sts_listitem) path:http://<path>
-  ```
+    ```
+    {searchTerms?} (contentclass:sts_listitem) path:http://<path>
+    ```
 
      ![Search Results From a Particular Site](../media/OTCSP_QueryTextResultSource.png)
   
