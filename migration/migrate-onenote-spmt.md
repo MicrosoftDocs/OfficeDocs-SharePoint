@@ -42,4 +42,4 @@ Folders are migrated to SharePoint as **OneNote Notebook** content rather than a
 
 ![OneNote migration setting6](media/onenote-file-5.png)
 
-For this **OneNote Notebook** to appear in your Notebooks list in OneNote, you can click the **Show Actions** ellipses, next to the notebook name in the Document library, then select **Open > Open in app**, remember first, to close in the OneNote application the already migrated notebooks.
+For this **OneNote Notebook** to appear in your Notebooks list in OneNote, select the **Show Actions** ellipses next to the notebook name in the Document library, then select **Open > Open in app**. Remember to first close the OneNote application for the already migrated notebooks.
