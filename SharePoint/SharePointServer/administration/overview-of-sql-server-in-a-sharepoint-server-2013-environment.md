@@ -58,7 +58,7 @@ SQL Server 2008 R2 introduced Power Pivot for SharePoint and Power Pivot for Exc
 ### SQL Server Reporting Services in SharePoint Integrated Mode
 <a name="RSint"> </a>
 
-SQL Server 2008 R2 Reporting Services supports two types of SharePoint integration. Full integration relies on the SharePoint integrated mode. Partial integration relies on two Web Parts, Report Explorer and Report Viewer, which you must install on a SharePoint site and point to a remote report server instance. For more information, see [Overview of Reporting Services and SharePoint Technology Integration](/previous-versions/sql/sql-server-2008-r2/bb326358(v=sql.105)) and [Planning for SharePoint Integration](/previous-versions/sql/sql-server-2008-r2/bb326405(v=sql.105)).
+SQL Server 2008 R2 Reporting Services supports two types of SharePoint integration. Full integration relies on the SharePoint integrated mode. Partial integration relies on two Web Parts, Report Explorer and Report Viewer, which you must install on a SharePoint site and point to a remote report server instance. For more information, see [Overview of Reporting Services and SharePoint Technology Integration](/previous-versions/sql/sql-server-2008-r2/bb326358(v=sql.105)&preserve-view=true) and [Planning for SharePoint Integration](/previous-versions/sql/sql-server-2008-r2/bb326405(v=sql.105)&preserve-view=true).
   
 > [!NOTE]
 > Reporting Services supports SharePoint integrated mode using SharePoint Server 2013 only. 
