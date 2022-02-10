@@ -21,7 +21,7 @@ description: "Learn about the SharePoint Server relationship with SQL Server and
 
 # Overview of SQL Server in SharePoint Server 2016 and 2019 environments
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
   
 The minimum requirements for a database server in SharePoint Servers 2016 and 2019 are as follows:
 
