@@ -1,7 +1,7 @@
 ﻿
 # [SharePoint](introduction.md)
 ## [Get started]()
-### [Overview](guide-to-sharepoint-modern-experience.md)
+### [Intro to sites](guide-to-sharepoint-modern-experience.md)
 ### [Intro to file collaboration](intro-to-file-collaboration.md)
 ### [Plan secure file collaboration](deploy-file-collaboration.md)
 ### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
