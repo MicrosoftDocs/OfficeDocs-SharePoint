@@ -53,7 +53,7 @@ The following diagram outlines the key steps in making our solution work:
 
       For example:
      
-     `Add-SPOOrgAssetsLibary -LibraryUrl [https://constosofonts.sharepoint.com/FontLibrary](https://constosofonts.sharepoint.com/FontLibrary) -OrgAssetType OfficeFontLibary -CdnType Public`.
+     `Add-SPOOrgAssetsLibary -LibraryUrl https://constosofonts.sharepoint.com/FontLibrary -OrgAssetType OfficeFontLibary -CdnType Public`.
 5. Using the **SharePoint Online Management Shell**, run the following command to upload your custom font(s) to the document library location.
 
     `Set-SPOCustomFontCatalog -FontFolder <Local Font Folder Location> -LibraryUrl <Document Library SharePoint URL>`
