@@ -330,8 +330,9 @@ We recommend that for SharePoint Server Subscription Edition, 2019, or 2016 you 
 
 - SQL Server 2014 with Service Pack 1 (SP1) (SharePoint Server 2016 only)
  
-For more information about the benefits of these versions, see [Features Supported by the Editions of SQL Server 2014](https://go.microsoft.com/fwlink/?LinkID=808793&amp;clcid=0x409), [Editions and supported features of SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016), [Editions and supported features of SQL Server 2017](/sql/sql-server/editions-and-components-of-sql-server-2017), and [https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-version-15?view=sql-server-ver15](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-version-15?view=sql-server-ver15).
-  
+For more information about the benefits of these versions, see [Features Supported by the Editions of SQL Server 2014](https://go.microsoft.com/fwlink/?LinkID=808793&amp;clcid=0x409), [Editions and supported features of SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016), [Editions and supported features of SQL Server 2017](/sql/sql-server/editions-and-components-of-sql-server-2017), and [https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-version-15?view=sql-server-ver15](/sql/sql-server/editions-and-components-of-sql-server-version-15?view=sql-server-ver15&preserve-view=true)).
+
+
 We recommend that for SharePoint Server 2013 you consider running your environment on the Enterprise Edition of SQL Server 2008 R2 with Service Pack 1 (SP1), SQL Server 2012, or SQL Server 2014 to take advantage of the other performance, availability, security, and management capabilities that these versions provide. For more information about the benefits of SQL Server 2008 R2 with SP1, SQL Server 2012, and SQL Server 2014 Enterprise Edition, see [Features Supported by the Editions of SQL Server 2014](https://go.microsoft.com/fwlink/?LinkID=808793&amp;clcid=0x409), [Features Supported by the Editions of SQL Server 2012](/previous-versions/sql/sql-server-2012/cc645993(v=sql.110)), and [Features Supported by the Editions of SQL Server 2008 R2](/previous-versions/sql/sql-server-2008-r2/cc645993(v=sql.105)).
   
 In particular, you should consider your need for the following features: 
@@ -353,35 +354,35 @@ In particular, you should consider your need for the following features:
 
  **SharePoint Server Subscription Edition**
 
-    - SQL Server 2019
+  - SQL Server 2019
 
-    - SQL Server 2017 RTM
+  - SQL Server 2017 RTM
     
-    - SQL Server 2016
+  - SQL Server 2016
   
   **SharePoint Server 2019**
 
-    - SQL Server 2019
+  - SQL Server 2019
   
-    - SQL Server 2016
+  - SQL Server 2016
 
-    - SQL Server 2017 RTM    
+  - SQL Server 2017 RTM    
  
   **SharePoint Server 2016**
     
-    -SQL Server 2019
+  - SQL Server 2019
 
-    -SQL Server 2014 (SP1) 
+  - SQL Server 2014 (SP1) 
 
-    - SQL Server 2016 
+  - SQL Server 2016 
  
-    - SQL Server 2017 RTM
+  - SQL Server 2017 RTM
      
   **SharePoint 2013**
 
-    - SQL Server 2008 R2 with SP1
+ - SQL Server 2008 R2 with SP1
 
-    - SQL Server 2012 Enterprise Edition
+ - SQL Server 2012 Enterprise Edition
     
 - **Resource governor** Resource Governor is a technology introduced in SQL Server 2008 to enable you to manage SQL Server workloads and resources by specifying limits on resource consumption by incoming requests. Resource Governor enables you to differentiate workloads and allocate CPU and memory as they are requested, based on the limits that you specify. For more information about how to use Resource Governor, see [Resource Governor](/sql/relational-databases/resource-governor/resource-governor).
     
