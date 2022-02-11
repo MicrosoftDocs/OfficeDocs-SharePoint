@@ -267,7 +267,7 @@ You can restore farm-wide access to a service application by adding the local fa
     
 ### To restore local farm-wide access to a service application by using Microsoft PowerShell
 
-1. This procedure starts after step 2 of the procedure [To retrieve the local farm ID by using Windows Powershell ](#ProcWPSGetFID).
+1. This procedure starts after step 2 of the procedure [To retrieve the local farm ID by using Windows PowerShell](#ProcWPSGetFID).
     
 2. To restore the retrieved local farm ID to the service application security object $security, type the following commands:
     
@@ -340,8 +340,6 @@ Set-SPServiceApplicationSecurity $spguid -ObjectSecurity $security
 [Get-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/get-spserviceapplicationsecurity?view=sharepoint-ps&preserve-view=true)
   
 [Grant-SPObjectSecurity](/powershell/module/sharepoint-server/Grant-SPObjectSecurity?view=sharepoint-ps&preserve-view=true)
-  
-[Revoke-SPObjectSecurity](/powershell/module/sharepoint-online/revoke-spobjectsecurity)
   
 [Set-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Set-SPServiceApplicationSecurity?view=sharepoint-ps&preserve-view=true)
   
