@@ -354,29 +354,29 @@ In particular, you should consider your need for the following features:
 
  **SharePoint Server Subscription Edition**
 
-  - SQL Server 2019
+  - SQL Server 2016
 
   - SQL Server 2017 RTM
-    
-  - SQL Server 2016
+
+  - SQL Server 2019
   
   **SharePoint Server 2019**
 
-  - SQL Server 2019
-  
   - SQL Server 2016
 
-  - SQL Server 2017 RTM    
+  - SQL Server 2017 RTM
+
+  - SQL Server 2019  
  
   **SharePoint Server 2016**
-    
-  - SQL Server 2019
 
   - SQL Server 2014 (SP1) 
 
   - SQL Server 2016 
  
   - SQL Server 2017 RTM
+
+  - SQL Server 2019
      
   **SharePoint 2013**
 
