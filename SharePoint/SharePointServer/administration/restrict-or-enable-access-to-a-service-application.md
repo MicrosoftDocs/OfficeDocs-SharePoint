@@ -267,7 +267,7 @@ You can restore farm-wide access to a service application by adding the local fa
     
 ### To restore local farm-wide access to a service application by using Microsoft PowerShell
 
-1. This procedure starts after step 2 of the procedure [To retrieve the local farm ID by using Windows PowerShell ](#ProcWPSGetFID).
+1. This procedure starts after step 2 of the procedure [To retrieve the local farm ID by using Windows PowerShell](#ProcWPSGetFID).
     
 2. To restore the retrieved local farm ID to the service application security object $security, type the following commands:
     
