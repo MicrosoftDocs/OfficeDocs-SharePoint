@@ -15,6 +15,7 @@ search.appverid:
 - MET150
 ms.collection:  
 - M365-collaboration
+ms.custom: admindeeplinkSPO
 description: "Learn how to add columns to a content type in the SharePoint admin center."
 ---
 
@@ -30,7 +31,7 @@ You can customize content types by adding columns of the types you need. You can
 
 To add a column to a content type, follow these steps:
 
-1. Go to the [Content type gallery page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=contentTypes&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185074" target="_blank">Content type gallery in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
 
 2. Under the **Site content type** column, select the name of the site content type to which you want to add a column.
 
@@ -48,7 +49,7 @@ To change column order for a content type, follow these steps.
 
 **To change column order on a content type**
 
-1. Go to the [Content type gallery page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=contentTypes&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185074" target="_blank">Content type gallery in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
 
 2. Under the **Site content type** column, select the name of the site content type to which you want to change a column's order. That site content type page appears.
 
@@ -70,7 +71,7 @@ To make a column required, optional, or hidden, follow these steps.
 
 **To make a column required, optional, or hidden**
 
-1. Go to the [Content type gallery page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=contentTypes&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185074" target="_blank">Content type gallery in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
 
 2. Under the **Site content type** column, select the name of the site content type that you want to change a site content type by adding a column. That site content type page appears.
 
