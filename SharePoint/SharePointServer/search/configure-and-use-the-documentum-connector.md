@@ -60,7 +60,7 @@ Before you begin this operation, review the following system prerequisites and r
     
 - DFS Productivity Layer 6.7 SP2 is installed and you have access to the .NET assemblies that are included in the DFS Productivity Layer 6.7 SP2. The Indexing Connector for Documentum uses DFS as the connectivity API to access Documentum repositories. 
     
-- Documentum Content Server is installed. The supported versions of Documentum Content Server are determined by DFS 6.7 SP2. You can find a detailed list in the DFS Productivity Layer 6.7 SP2 release notes. You can download the release notes from the EMC customer support site [https://powerlink.emc.com](https://powerlink.emc.com).
+- Documentum Content Server is installed. The supported versions of Documentum Content Server are determined by DFS 6.7 SP2. You can find a detailed list in the DFS Productivity Layer 6.7 SP2 release notes.
     
 - Configure the Indexing Connector for Documentum with  *-ACLTranslation "Claims"*  if you have to crawl Documentum repositories that have Documentum Trusted Content Services (TCS) enabled. You can also use this connector configuration to enable automatic mapping between Windows Active Directory users and Documentum users, regardless of whether the repository has TCS enabled. 
     
