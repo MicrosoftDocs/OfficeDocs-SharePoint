@@ -114,7 +114,7 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 
 - (EnableODIgnoreListFromGPO) [Exclude specific kinds of files from being uploaded](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded)
 
-- (EnableSyncAdminReports) [Allow tenant health reporting from OneDrive](use-group-policy.md#allow-tenant-health-reporting-from-OneDrive)
+- (EnableSyncAdminReports) [Allow tenant health reporting from OneDrive](use-group-policy.md#allow-tenant-health-reporting-from-onedrive)
 
 - (FilesOnDemandEnabled) [Use OneDrive Files On-Demand](use-group-policy.md#use-onedrive-files-on-demand)
 
