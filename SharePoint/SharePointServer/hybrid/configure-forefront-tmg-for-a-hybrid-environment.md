@@ -24,9 +24,6 @@ description: "Learn how to configure Forefront TMG 2010 as a reverse proxy devic
 [!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 This article tells you how to set up Forefront Threat Management Gateway (TMG) 2010 for use as a reverse proxy for a hybrid SharePoint Server environment.
-  
-For complete information about Forefront Threat Management Gateway (TMG) 2010, see [Forefront Threat Management Gateway (TMG) 2010](/previous-versions/tn-archive/ff355324(v=technet.10)).
-  
     
 ## Before you begin
 <a name="byb"> </a>
@@ -47,8 +44,6 @@ Before you begin, there are a few things you need to know:
 - TMG 2010 includes both diagnostic logging and a real-time logging interface. Logging plays an important role in troubleshooting issues with connectivity and authentication between SharePoint Server and SharePoint in Microsoft 365. Identifying the component that is causing a connection failure can be challenging, and TMG logs are the first place you should look for clues. Troubleshooting can involve comparing log events from TMG logs, SharePoint Server ULS logs, Windows Server event logs, and Internet Information Services (IIS) logs on multiple servers.
     
 For more information on how to configure and use logging in TMG 2010, see [Using diagnostic logging](/previous-versions/tn-archive/dd897109(v=technet.10)).
-  
-For more information on general TMG 2010 troubleshooting, see [Forefront TMG Troubleshooting](/previous-versions/tn-archive/dd897100(v=technet.10)).
   
 For more information on troubleshooting techniques and tools for SharePoint Server hybrid environments, see [Troubleshooting hybrid environments](./hybrid.md).
   
@@ -209,5 +204,3 @@ There are several settings that you must now verify or change in the publishing 
 #### Other Resources
 
 [Configuring Web publishing](/previous-versions//cc441546(v=technet.10))
-  
-[Forefront Threat Management Gateway (TMG) 2010](/previous-versions/tn-archive/ff355324(v=technet.10))
