@@ -16,6 +16,7 @@ ms.collection:
 - m365initiative-spsitemanagement
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
@@ -25,7 +26,7 @@ description: "In this article, you'll learn about how to customize views on the 
 
 # Customize the SharePoint admin center site list
 
-The [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) of the SharePoint admin center lets you view the SharePoint sites in your organization. You sort and filter sites, search for sites, and customize the columns and views.
+The <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page in the SharePoint admin center</a> lets you view the SharePoint sites in your organization. You sort and filter sites, search for sites, and customize the columns and views.
 
 ## Sort and filter the site list
 <a name="sortfilter"> </a>
@@ -52,7 +53,7 @@ Sorting and filtering the site list is just like sorting and filtering other lis
     ![The Customize columns panel](media/customize-columns.png)
     
     > [!NOTE]
-    > Data in the following columns is not available for Office 365 Germany customers and US Government GCC High and DoD customers:
+    > Data in the following columns is not available for US Government GCC High and DoD customers:
     > - Last activity
     > - File views or edited
     > - Page views
@@ -63,7 +64,7 @@ Sorting and filtering the site list is just like sorting and filtering other lis
 ## Switch views and create custom views
 <a name="views"> </a>
 
-The SharePoint admin center comes with a few built-in views: **All sites**, **Sites connected to Teams**, **Microsoft 365 Group sites**, **Sites without a group**, **Classic sites**, **Largest sites**, **Least active sites**, and **Most popular shared sites**.
+The <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> comes with a few built-in views: **All sites**, **Sites connected to Teams**, **Microsoft 365 Group sites**, **Sites without a group**, **Classic sites**, **Largest sites**, **Least active sites**, and **Most popular shared sites**.
 
 To select a different view:
 

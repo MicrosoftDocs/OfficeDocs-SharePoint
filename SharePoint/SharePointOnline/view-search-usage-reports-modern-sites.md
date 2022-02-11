@@ -17,7 +17,9 @@ search.appverid:
 - MET150
 ms.assetid: 479cfd6b-900b-46aa-b497-c13787771d3f
 description: Learn how you can use search reports in the SharePoint admin center.  
-ms.custom: seo-marvel-apr2020
+ms.custom: 
+- seo-marvel-apr2020
+- admindeeplinkSPO
 ---
 
 # View search usage reports in modern sites
@@ -29,7 +31,7 @@ If you're a SharePoint admin in your organization, you're probably asked questio
 - Which queries are getting low clicks as they're not showing up in any results?
 - How often are query rules firing and how often are people clicking promoted results?
 
-This article describes how you can use search reports in the SharePoint admin center to find answers to these questions.
+This article describes how you can use search reports in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> to find answers to these questions.
 
 ## To view a report
 
