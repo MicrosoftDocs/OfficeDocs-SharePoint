@@ -35,10 +35,11 @@ Just like other Microsoft 365 experiences, Loop also leverages core services acr
 You'll need the latest version of SharePoint PowerShell module to enable or disable all Fluid Experiences across your Microsoft 365 organization. Microsoft Fluid Framework defaults to ON for all targeted release organizations. Because Loop components are designed for collaboration, the components are always shared as editable by others, even if your organization is set to default to view-only for other file types. See the Learn more link next to the setting for more details.
 
 |Experience|SharePoint organization properties|Notes|
-|:---------|:---------------------------------|:------|
-|Loop Components in Teams and all Microsoft 365 Loop experiences|IsFluidEnabled (boolean)|This core property controls all other experiences powered by Fluid Framework. Setting it to False will effectively disable all experiences in the organization powered by Fluid Framework.|
-|Microsoft Whiteboard on OneDrive|IsWBFluidEnabled (boolean) ||
-|Microsoft OneNote collaborative Meeting notes|IsCollabMeetingNotesEnabled (boolean)||
+|:---------|:---------------------------------|:----|
+|**All Microsoft 365 experiences** powered by Fluid Framework|`IsFluidEnabled` (boolean)|This core property controls all other experiences powered by Fluid Framework. Setting it to `False` will effectively disable all experiences (everything in this table) in the organization powered by Fluid Framework.|
+|Loop components in Teams|n/a|there is no setting for disabling only Loop components in Teams at this time, you must use the core property above.|
+|Microsoft Whiteboard on OneDrive|`IsWBFluidEnabled` (boolean) |only applies when `IsFluidEnabled` is `True`|
+|Microsoft OneNote collaborative Meeting notes|`IsCollabMeetingNotesEnabled` (boolean)|only applies when `IsFluidEnabled` is `True`|
 
 To check your tenant's default file permissions
 1.	Go to the [Microsoft 365 admin center](https://admin.microsoft.com).
