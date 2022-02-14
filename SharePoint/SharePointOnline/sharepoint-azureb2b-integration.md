@@ -56,7 +56,7 @@ This integration requires that your organization also enable [Azure AD email one
 > When the integration isn't enabled, people outside the organization will continue to use their existing accounts created when previously invited to the tenant. Any sharing to new people outside the organizaton may result in either Azure AD-backed accounts or SharePoint-only email auth guests that use a SharePoint One Time Passcode experience to sign in.
 
  >[!NOTE]
- > Review any custom domain sharing restrictions in [SharePoint and OneDrive](https://docs.microsoft.com/en-us/sharepoint/restricted-domains-sharing) and decide if it should be moved into the [Azure AD B2B Allow/Deny list](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/allow-deny-list). This Azure AD B2b Allow/Deny list would also impact other services like Teams and M365 Groups.
+ > Review any custom [domain sharing restrictions in SharePoint and OneDrive](/sharepoint/restricted-domains-sharing) and decide if they should be moved to the [Azure AD B2B Allow/Deny list](/azure/active-directory/external-identities/allow-deny-list). The Azure AD Allow/Deny list also affects other Microsoft 365 services like Teams and Microsoft 365 Groups.
 
 To enable Azure AD passcode authentication
 1. Sign in to the [Azure portal](https://portal.azure.com) as an Azure AD global admin.
