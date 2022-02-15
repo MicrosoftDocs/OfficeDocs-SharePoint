@@ -99,7 +99,7 @@ There will not be a new SharePoint Designer client shipped with this release. Mi
 
 ### Site Mailbox
 
-As we announced in the SharePoint Community Blog, site mailboxes are being [deprecated](https://techcommunity.microsoft.com/t5/SharePoint-Blog/Deprecation-of-Site-Mailboxes/ba-p/93028) in SharePoint. Site mailboxes will remain supported, but deprecated, in the SharePoint Server 2019 release. Customers are recommend to explore shared mailboxes as an alternative to site mailboxes.
+As we announced in the SharePoint Community Blog, site mailboxes are being [deprecated](https://techcommunity.microsoft.com/t5/SharePoint-Blog/Deprecation-of-Site-Mailboxes/ba-p/93028) in SharePoint. Site mailboxes will remain supported, but deprecated, in the SharePoint Server 2019 release. Customers are recommended to explore shared mailboxes as an alternative to site mailboxes.
 
 ### Site Manager
 
