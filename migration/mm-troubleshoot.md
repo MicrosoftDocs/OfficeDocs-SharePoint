@@ -32,7 +32,7 @@ This article describes how to resolve issues and errors you may experience when 
 - [Agent disconnected](#agent-disconnected)
 - [Task stuck in "Queued" state](#task-stuck-in-queued-status)
 - [Task report cannot be downloaded](#task-report-cannot-be-downloaded)
-- [Migration errors](#migration-error)
+- [Migration errors in task reports](#migration-errors-in-task-reports)
 - [Google migration error reports contain HTML](#google-error-report-shows-html-code-in-report)
 - [Error codes](#error-codes)
 - [Geo admins can't access full functionality of Migration Manager](#geo-admins-not-supported)
@@ -198,7 +198,7 @@ Or
 - If the task has failed, navigate to the folder **%AppData%\Microsoft\SPMigration\Logs**, then sort the subfolders by their modified time. Find the subfolder whose modified time is the closest to the task's start time. The error report will be in this subfolder.
 
 
-## Migration error
+## Migration errors in task reports
 
 **Issue**
 Migration tasks fail due to various reasons and are detailed in the task reports.
