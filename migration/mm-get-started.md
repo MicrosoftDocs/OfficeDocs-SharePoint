@@ -19,6 +19,7 @@ ms.collection:
 - m365solution-scenario
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid: MET150
 description: "Learn about how the Migration Manager tool in the modern SharePoint Admin Center works and how to get started with it."
 ---
@@ -42,7 +43,7 @@ With the ability to set up multiple computers as "agents", Migration Manager let
 
 ## Get started
 
-Go to the [Migration Manager page of the new SharePoint admin center](https://aka.ms/ODSP-MM-FS), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 Make sure that you have:
 
