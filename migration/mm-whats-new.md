@@ -29,8 +29,10 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## Coming soon
 
-- **Egnyte migrations**.  Migrate your Egnyte content to Microsoft 365.
 - **Tag support for File share migrations**.  The tags feature is coming soon for File Share migrations to allow you to sort, organize, and navigate through a large quantity of sources and users.
+
+## February
+- **Egnyte migrations**.  Migrate your Egnyte content to Microsoft 365.
 
 ## January
 

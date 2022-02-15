@@ -40,6 +40,10 @@ Moving to Microsoft 365? Let us help you migrate your content easily and securel
 >[Note]
 >Mover will be deprecated in Summer 2022. Use Migration Manager for your cloud migrations.
 
+## We're listening!
+
+Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page and filter on "Migration".  
+
 ##  Where are you migrating from?
 
 |Migrate from|Description|

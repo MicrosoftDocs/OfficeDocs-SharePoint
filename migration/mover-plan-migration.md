@@ -19,6 +19,9 @@ description: "Overview and planning to the Mover Migration tools"
 
 # Mover Cloud Migration 
 
+>[Note]
+>Mover will be deprecated in Summer 2022. Use Migration Manager for your cloud migrations.
+
 ## Introduction
 
 Our purpose is to act as an intermediary between various web technologies that don't play nice together. We take your files from one place and copy them to another. No downloads and nothing to watch over—our web-hosted app does all the work!
