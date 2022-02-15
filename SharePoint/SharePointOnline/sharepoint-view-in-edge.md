@@ -94,7 +94,7 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
         > [!NOTE]
         > Ensure the management shell version is 16.0.21610.12000 or higher or the ViewInFileExplorerEnabled option will not be available.
 
-7. **(Required)** "View in File Explorer" requires persisted cookies to operate correctly, user need to select "Yes" when prompted for "Stay signed in?" at the time of sign-in.
+7. **(Required)** _View in File Explorer_ requires persistent cookies to operate correctly; when you sign in, select **Yes** when the **Stay signed in?** prompt appears.
 
     You can locate the View in Explorer button by navigating to the **Library** >  Select the **Library View Menu** on the right-hand side > Select **View In File Explorer**.
 
