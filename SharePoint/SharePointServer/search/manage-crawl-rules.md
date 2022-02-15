@@ -24,13 +24,13 @@ You can add a crawl rule to include or exclude specific paths when you crawl con
   
 Use crawl rules to do the following:
   
-- **Prevent content on a site from being crawled.** For example, if you created a content source to crawl **http://www.contoso.com**, but you do not want the search system to crawl content from the subdirectory **http://www.contoso.com/downloads**, create a crawl rule to exclude content from that subdirectory.
+- **Prevent content on a site from being crawled.** For example, if you created a content source to crawl **'http://www.contoso.com'**, but you do not want the search system to crawl content from the subdirectory **'http://www.contoso.com/downloads'**, create a crawl rule to exclude content from that subdirectory.
     
-- **Crawl content on a site that would be excluded otherwise.** For example, if you excluded content from **http://www.contoso.com/downloads** from being crawled, but you want content in the subdirectory **http://www.contoso.com/downloads/content** to be crawled, create a crawl rule to include content from that subdirectory. 
+- **Crawl content on a site that would be excluded otherwise.** For example, if you excluded content from **'http://www.contoso.com/downloads'** from being crawled, but you want content in the subdirectory **'http://www.contoso.com/downloads/content'** to be crawled, create a crawl rule to include content from that subdirectory. 
     
 - **Specify authentication credentials.** If a site to be crawled requires different credentials than those of the default content access account, create a crawl rule to specify the authentication credentials. 
     
-You can use the asterisk (*) as a wildcard character in crawl rules. For example, to exclude JPEG files from crawls on **http://www.contoso.com**, create a crawl rule to exclude **http://www.contoso.com/\*.jpg**.
+You can use the asterisk (*) as a wildcard character in crawl rules. For example, to exclude JPEG files from crawls on **'http://www.contoso.com'**, create a crawl rule to exclude **'http://www.contoso.com/\*.jpg'**.
   
 The order of crawl rules is important, because the first rule that matches a particular set of content is the one that is applied. 
   
