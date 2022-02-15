@@ -289,8 +289,6 @@ Admins
 
 - [Directory synchronization roadmap](/azure/active-directory/hybrid/whatis-hybrid-identity)
 
-- [Manage your Microsoft 365 Video portal](https://support.office.com/article/c059465b-eba9-44e1-b8c7-8ff7793ff5da)
-
 - [Yammer - Admin Help](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
 
 - [Plan Options](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)
