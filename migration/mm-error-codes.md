@@ -19,7 +19,7 @@ search.appverid: MET150
 description: Migration Manager error codes
 ---
 
-# Migration Manager error codes
+# Migration Manager transaction error codes
 
 </br></br>
 
