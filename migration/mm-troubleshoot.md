@@ -36,7 +36,7 @@ This article describes how to resolve issues and errors you may experience when 
 - [Google migration error reports contain HTML](#google-error-report-shows-html-code-in-report)
 - [Error codes](#error-codes)
 - [Geo admins can't access full functionality of Migration Manager](#geo-admins-not-supported)
-- [Group-inherited SharePoint admins can't access full functionality of Migration Manager](#group-inherited-SharePoint-admins-can't-access-full-functionality-of-migration-manager)
+- [Group-inherited SharePoint admins can't access full functionality of Migration Manager](#group-inherited-SharePoint-admins-can't-access-scans-and-migration-tabs)
 
 
 ## Check prerequisites and settings
@@ -244,7 +244,7 @@ This is a known issue. ETA not set.
 
 ## Geo admins not supported
 
-Migration Manager currently doesn't support the Geo admin role. When signed in with the Geo admin role, you have limited access to Migration Manager key features. For file share migrations, you can't access the scans tab. For cloud migrations, neither the scan nor migration tab is accessible.  
+Migration Manager currently doesn't support the Geo admin role. For file share migrations, you can't access the scans tab. For cloud migrations, you can't access either the scans nor migrations tab.
 
 **Workaround**. Assign the Geo user either a SharePoint admin or Global admin role.
 1. In the admin center, go to the **Users** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.
@@ -252,9 +252,9 @@ Migration Manager currently doesn't support the Geo admin role. When signed in w
 3. Select the admin role that you want to assign to the user. If you don't see the role you're looking for, select **Show all** at the bottom of the list.
 
 
-## Group inherited SharePoint admins can't access full functionality of Migration Manager
+## Group inherited SharePoint admins can't access scans and migrations tab
 
-SharePoint admin roles that were created as a result of joining an Azure group are not fully supported by Migration Manager. For file share migrations, you can't access the scans tab. For cloud migrations, neither the scan nor migration tab is accessible.  
+SharePoint admin roles that were created as a result of joining an Azure group are not fully supported by Migration Manager. For file share migrations, you can't access the scans tab. For cloud migrations, you can't access either the scans nor migrations tab.  
 
 **Workaround**. Until this is resolved, assigned the user either a SharePoint admin or Global admin role.
 
