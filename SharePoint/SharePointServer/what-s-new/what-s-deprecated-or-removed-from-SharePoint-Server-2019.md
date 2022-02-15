@@ -78,9 +78,12 @@ The following SOAP endpoints in the Lists web service depend on the Microsoft Sy
 
 - [Lists.UpdateListItemsWithKnowledge](/previous-versions/office/sharepoint-server/ee545693(v=office.15))
  
-### Machine Translations
+### Machine Translations 
 
-The Machine Translation Service will remain supported but deprecated for the SharePoint Server 2019 release.
+The Machine Translation Services and APIs will no longer be supported and *will not* display multilingual functionality in your Microsoft 365 environment for SharePoint Server 2019 (or SharePoint for M365) by the end of July 2022. 
+
+If you're using modern communication sites, we recommend that you use the [modern multilingual sites and pages feature](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c).
+
 
 ### Variations
 
