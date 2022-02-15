@@ -60,7 +60,6 @@ The following table shows the minimum PU requirements for hybrid features in Sha
 |[Hybrid self-service site creation](./hybrid-self-service-site-creation.md) <br/> |November 2017  <br/> |
 |[Cloud hybrid search](./learn-about-cloud-hybrid-search-for-sharepoint.md) <br/> |RTM  <br/> |
 |[Extensible hybrid app launcher](the-extensible-hybrid-app-launcher.md) <br/> |RTM  <br/> |
-|[Hybrid auditing](/article/sharepoint-hybrid-auditing-in-preview-3a379540-f72b-406f-866a-d6121715ec8c?ui=en-US&rs=en-US&ad=US) <br/> |November 2016  <br/> |
 |[Hybrid federated search](./learn-about-hybrid-federated-search-for-sharepoint.md) <br/> |RTM  <br/> |
 |[Hybrid OneDrive](plan-hybrid-onedrive-for-business.md) <br/> |RTM  <br/> |
 |[Hybrid profiles](plan-hybrid-profiles.md) <br/> |RTM  <br/> |
