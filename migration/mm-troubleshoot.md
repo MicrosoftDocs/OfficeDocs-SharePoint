@@ -246,8 +246,14 @@ This is a known issue. ETA not set.
  ## Error codes 
 |**Error Code**|**Recommended action**|
 |:-----|:-----|
+|0x00000000|Unexpected error.|
+|0x01110001|Unknown reason.|
+|0x0111000B|Path is too long.|
 |0x0111000F|The parent folder was not migrated.  Check the failure report to determine the file and then try again.|
+|0x01110003|Cannot access source folder.|
+|0x01110009|Cound not retrieve the file metadata.|
 |0x01110010|Invalid characters in the file name. Check report for files names with <>:"?*/\,|
+|0x01110011|The item "created time" or "modified time" is not supported.|
 |0x0201000D|Check if the list exists or if you can access it in the source site and target site.|
 |0x02050008|Unable to access your local storage.  Restart your migration.|
 |0x02010023|Your source list template is not supported.  Try another.|
