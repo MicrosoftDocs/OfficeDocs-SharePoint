@@ -37,8 +37,6 @@ Moving to Microsoft 365? Let us help you migrate your content easily and securel
 
 - Check out what's new and coming soon to [SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 
->[Note]
->Mover will be deprecated in Summer 2022. Use Migration Manager for your cloud migrations.
 
 ##  Where are you migrating from?
 
