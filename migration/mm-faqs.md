@@ -91,4 +91,6 @@ Based on our current data, the average speed of migration scales linearly to the
 **Question:**  How do I set the time zone for Migration Manager? 
 Answer:  Migration Manager uses the setting in the SharePoint Admin center to convert to your time zone.  In the SharePoint Admin center choose https://go.microsoft.com/fwlink/?linkid=2185072	<a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings**</a> > Site creation. A side panel displays where you can select the time zone.
 
+**Question:**  What does **% complete** mean?
+Answer:  The % complete indicates the progress of the overall task migration, including the number of files migrated and the preparation work required for the remaining files to be migrated. *Note:* The **%** is not linearly proportional to the number of files remaining to be migrated.
 
