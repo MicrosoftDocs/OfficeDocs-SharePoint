@@ -53,7 +53,7 @@ Microsoft Teams provides a hub for collaboration by bringing together various se
 
 For scenarios where a SharePoint site is used with Teams, we recommend doing all permission management through Teams. As with Microsoft 365 groups, team owners become site owners and team members become site members.
 
-For details about how SharePoint and Teams interact, see [How SharePoint and OneDrive interact with Microsoft Teams](/microsoftteams/sharepoint-onedrive-interact).
+For details about how SharePoint and Teams interact, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites) and [Manage settings and permissions when SharePoint and Teams are integrated](/sharepoint/manage-teams-sharepoint-experiences).
 
 ## Communication site permissions
 
