@@ -15,6 +15,7 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - SPO_Content
+ms.custom: admindeeplinkSPO
 ms.assetid: 91274b73-f7be-4066-a4ab-ec30af30016e
 description: "Learn how to configure inbound connectivity for SharePoint hybrid."
 ---
@@ -468,7 +469,7 @@ When you configure SharePoint hybrid solutions in Phase 4: Configure a hybrid so
   
  **To create a target application to store the Secure Channel SSL certificate**
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
 
 2. Under **Secure store**, select **Open**.
     

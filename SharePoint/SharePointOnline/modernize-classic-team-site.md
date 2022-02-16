@@ -12,6 +12,7 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ms.custom: admindeeplinkSPO
 ROBOTS: NOINDEX
 search.appverid:
 - SPO160
@@ -88,7 +89,7 @@ For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sha
 
 **Will this cmdlet change the site template?**
 
-- No. The cmdlet enables communication site features, but the site still has the STS#0 site template. The site will continue to appear as "Team site (classic experience)" in the SharePoint admin center.
+- No. The cmdlet enables communication site features, but the site still has the STS#0 site template. The site will continue to appear as "Team site (classic experience)" in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>.
 
 **Why can't I use this cmdlet on publishing sites?**
 

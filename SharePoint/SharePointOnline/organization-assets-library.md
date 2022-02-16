@@ -23,7 +23,7 @@ description: "Specify a library as a location for assets that are centrally stor
 # Create an organization assets library
 
 > [!NOTE]
-> This feature is not available for Office 365 Germany, Office 365 operated by 21Vianet (China), or Microsoft 365 US Government plans. <br>You can specify up to 30 organization asset libraries for a single organization. All of these libraries (regardless of type) must be on the same site. Only libraries (not folders) can be set as organization asset libraries.
+> This feature is not available for Office 365 operated by 21Vianet (China) or Microsoft 365 US Government plans. <br>You can specify up to 30 organization asset libraries for a single organization. All of these libraries (regardless of type) must be on the same site. Only libraries (not folders) can be set as organization asset libraries.
 
 If your organization needs to store and manage files for all your users to use, you can specify one or more document libraries on a SharePoint site as an "organization assets library." You can create two types of organization assets:
 
@@ -39,6 +39,7 @@ If your organization needs to store and manage files for all your users to use, 
     > - For the organization assets library to appear to a user in PowerPoint on the web, the user must be assigned a license to Office 365 E3 or E5. Users who use the Word, Excel, or PowerPoint desktop app also need Microsoft 365 Apps Version 2002 or later. 
     > - Allow up to 24 hours for the organization assets library to appear to a user in the desktop apps.
     > - The files uploaded to the library must be in the template format .xltx. ([learn how to save an Excel workbook as a template](https://support.microsoft.com/office/save-a-workbook-as-a-template-58c6625a-2c0b-4446-9689-ad8baec39e1e)), .dotx. ([learn how to save a Word document in this format](https://support.microsoft.com/topic/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb)), or .potx. ([learn how to save a PowerPoint file in this format](https://support.microsoft.com/office/ee4429ad-2a74-4100-82f7-50f8169c8aca)).
+    > - Users need at least read permissions on the root site for your organization for the organization assets library to appear in the desktop apps.
 
 
 ## Use Microsoft PowerShell to specify a library as an organization assets library

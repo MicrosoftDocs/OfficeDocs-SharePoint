@@ -14,7 +14,6 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
-ms.custom:
 search.appverid:
 - SPO160
 - MET150
