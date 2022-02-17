@@ -32,7 +32,6 @@ Associate a [SharePoint hub](https://support.microsoft.com/office/what-is-a-shar
 
 
 >[!NOTE]
->- This update will roll out to Targeted Release customers at the end of September 2021 and to all customers by the end of October 2021.
 >- You must have administrator editing privileges to associate hubs to each other in the SharePoint admin center.
 >- Hub level associations do not change site permissions.
 
@@ -67,7 +66,7 @@ The following diagram illustrates how hub sites can be associated to other hubs 
 4.	To confirm which hubs have already been associated with your hub site, select **View child hubs associated to this hub**.
 5.	Select **Save**.
 
-## Add links to hub associations to hub site navigation
+## Add links to hub associations to the hub site navigation
 Hub site owners can quickly add links to the associated parent hub or child hubs when editing site navigation. Adding links to associated hubs is *optional* but makes it even easier for users to discover more relevant content across hubs.
 
 ![Image of the navigation section on a SharePoint site in edit mode](media/hub-nav-links.png)
@@ -97,8 +96,6 @@ To view the parent hub association, select **Settings** and then **Hub site sett
 >Changes to hub associations must be made in the SharePoint admin center and require administrative privileges.
 
 ![Image of the hub site settings panel highlighting the Parent hub association](media/hub-setting-panel-2.png)
-
-
 
 
 ### Resources
