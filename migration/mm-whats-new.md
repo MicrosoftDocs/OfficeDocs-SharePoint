@@ -33,8 +33,8 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## February 2022
 - **Egnyte migrations**.  Migrate your Egnyte content to Microsoft 365.
-- **Workaround for Geo admins**. Migration currently doesn't fully support the Geo admin role. See [Workaround for Geo admins using Migration Manager](mm-troubleshooting.md)
-- **Workaround for Azured-acquired SharePoint admins**. SharePoint admins created via groups can't access Migration Manager scan and migration tabs.  See [Workaround for Group-inherited SharePoint Admins using Migration Manager](mm-troubleshooting.md)
+- **Workaround for Geo admins**. Migration currently doesn't fully support the Geo admin role. See [Workaround for Geo admins using Migration Manager](mm-troubleshoot.md)
+- **Workaround for Azured-acquired SharePoint admins**. SharePoint admins created via groups can't access Migration Manager scan and migration tabs.  See [Workaround for Group-inherited SharePoint Admins using Migration Manager](mm-troubleshoot.md)
 
 ## January 2022
 
