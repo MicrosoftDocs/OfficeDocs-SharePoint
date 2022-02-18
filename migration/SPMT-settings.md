@@ -63,7 +63,7 @@ The following table details the settings available in SPMT.  Advanced settings s
 |Replace invalid filename characters|If set to **On**, any invalid character found in a filename will be replaced with the single valid character you have provided in the box. Invalid characters include *"<>:/\'. For a complete list, see: [Invalid file names and file types in OneDrive and SharePoint](https://support.microsoft.com/en-us/office/invalid-file-names-and-file-types-in-onedrive-and-sharepoint-64883a5d-228e-48f5-b3d2-eb39e07630fa). </br></br>If set to **Off**, the tool will skip files whose name includes invalid characters. While having this set to off can improve performance when the source potentially contains a high number of files containing invalid characters, it also has drawbacks. To prevent malicious activities, source packages that generate more than 100 errors to the destination server will be blocked. As a result, all valid files in that package would also be blocked.  <br/> |
 |Filter subsites|Enter any subsite names you want to exclude from migration.|
 |Filter lists and libraries|Enter the names of the lists and libraries you want to exclude from migration.|
-|Filter content type|Enter the content types you want to exclude from migration.|
+|Filter content type|Enter the content types you want to exclude from migration, separated by a semicolon (;), for example, Document;My Document.|
 
 
 ## SharePoint

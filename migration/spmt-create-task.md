@@ -30,7 +30,7 @@ When creating a migration task, you can choose to migrate your sites, just your 
 
 |How|Description|
 |:-----|:-----|
-|[Site migration](#site-migration)|Migrate a single site or include all your subsites. Optionally you can choose to modernize your site structure during migration.  **Note**. This site structure feature is currently feature is in public preview.)|
+|[Site migration](#site-migration)|Migrate a single site or include all your subsites. Optionally you can choose to modernize your site structure during migration.  **Note**. This site structure feature is currently in public preview.)|
 |[List and document library migration](#list-and-document-library-migration)|Enter the site and select the document library where your files are located.|
 |[Workflow migration](#workflow-migration)|Migrate SharePoint Server workflows to Power Automate.|
 |[Bulk migration using a CSV or JSON file](#bulk-migration)|If you have a large number of sources you can enter them into a CSV or JSON file, and upload the file into SPMT.|
@@ -93,6 +93,7 @@ When creating a migration task, you can choose to migrate your sites, just your 
 >For a complete overview and solution on migrating SharePoint Server workflows, see: 
 >- [**Migrating SharePoint Workflows with SPMT**](/sharepointmigration/spmt-workflow-overview)
 
+Steps:
 
 1. Start SPMT, and then enter your Microsoft 365 username and password.    
 2. Select **Start your first migration**.

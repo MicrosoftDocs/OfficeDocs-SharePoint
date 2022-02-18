@@ -12,6 +12,7 @@ f1.keywords:
 ms.topic: overview
 ms.service: sharepoint-online
 ms.localizationpriority: medium
+ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
@@ -25,7 +26,7 @@ See if the crawler has added content to the search index, and if your users are 
   
 ## View search usage reports
   
-This article describes how you can use search reports in the SharePoint admin center to find answers to questions about how search is being used in your organization. You can for example see the number of queries and the top queries. [Learn more](view-search-usage-reports-modern-sites.md).
+This article describes how you can use search reports in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> to find answers to questions about how search is being used in your organization. You can for example see the number of queries and the top queries. [Learn more](view-search-usage-reports-modern-sites.md).
   
 ## Query throttling
   

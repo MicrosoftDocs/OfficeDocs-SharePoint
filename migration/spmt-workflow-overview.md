@@ -1,5 +1,5 @@
 ---
-title: "Migrate SharePoint workflows with the SharePoint Migration Tool (SPMT)"
+title: "Migrate SharePoint workflows with the SharePoint Migration Tool (SPMT) to POwer Automate"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -15,24 +15,29 @@ ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
-ms.custom: 
+ms.custom: admindeeplinkSPO
 ms.assetid: 
-description: "Overview of how to migrate your SharePoint Server workflows to Microsoft 365 using the SharePoint Migration Tool (SPMT)."
+description: "Overview of how to migrate your SharePoint Server workflows to Power Automate using the SharePoint Migration Tool (SPMT)."
 ---
-# Overview: Migrate SharePoint Server workflows to Microsoft 365
+# Overview: Migrate SharePoint Server 2010 workflows to Power Automate
 
 >[!Note]
 >This feature is currently in public preview, and subject to change.
 
-Microsoft removed SharePoint Server 2010 workflow services from existing tenants on November 1, 2020. We recommend that you move your classic SharePoint Server workflows to Power Automate flows. 
+Microsoft removed **SharePoint Server 2010** workflow services from existing tenants on November 1, 2020. We recommend that you move your classic SharePoint Server workflows to Power Automate flows. 
 
-Using the SharePoint Migration Tool (SPMT), you can now migrate your SharePoint Server flows to Microsoft 365.
-Workflow migration is limited to:
+Using the SharePoint Migration Tool (SPMT), you can now migrate:
 
+- **SharePoint Server 2010** out of the box (OOTB) approval and collect feedback workflows to PowerAutomate.
 - List and library "out-of-box" (OOTB) approval workflows
 - Workflow definitions and associations
 
+>[!Note]
+> Workflows created with SharePoint Designer or SharePoint Server 2013 are currently not supported.
+
+
 ## How does it work?
+
 |Step|What happens|
 |:-----|:-----|
 |[Step 1: Configure endpoints and Power Automate](spmt-workflow-step1.md)|Configure required endpoints.  If your tenant has never used Power Automate, configure it before you begin migration.|
@@ -44,7 +49,7 @@ Workflow migration is limited to:
 
 To get started:
 
-Go to the [Migration Manager page of the new SharePoint admin center](https://aka.ms/ODSP-MM-BOX), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 Make sure that you have:
 

@@ -11,9 +11,8 @@ ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-  - m365solution-overview
   - m365solution-corpcomms
-ROBOTS: NOINDEX, NOFOLLOW
+  - m365solution-scenario
 description: "Use Microsoft 365 to connect leaders and teams"
 ---
 
@@ -81,12 +80,12 @@ SharePoint communication sites are a great tool to create a landing place to sha
 
 **Share recording from leadership events:**
 
-![Image of the leadership connection site template.](media/lc-event-recording.png)
+![Image of a page that displays recordings from previous meetings.](media/lc-event-recording.png)
 
 
 **Showcase leadership profiles:**
 
-![Image of the leadership connection site template.](media/lc-profiles.png)
+![Image of a page that displays leadership profiles.](media/lc-profiles.png)
 
 #### Get started creating your SharePoint leadership site
 There are several resources that can help you quickly create a leadership site:

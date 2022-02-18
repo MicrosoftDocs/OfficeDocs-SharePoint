@@ -30,7 +30,7 @@ When you upgrade from SharePoint Server 2016 to SharePoint Server 2019, you must
 
 ![Phase 2 of the upgrade process: Copy databases to the new farm](../media/CopyDatabaseToNewFarm_2019.png)
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the second phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019. The process includes the following phases that must be completed in order:  <br/><br/> Create the SharePoint Server 2019 farm for a database attach upgrade <br/>Copy databases to the new farm for upgrade to SharePoint Server 2019  (this phase) <br/>Upgrade service applications to SharePoint Server 2019 <br/>Upgrade content databases to SharePoint Server 2019.<br/> <br/>For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process-2019.md).  <br/> |
    
@@ -180,7 +180,7 @@ You cannot upgrade a database that is set to read-only. You must set the databas
     
 4. In the details pane, under **Other options**, in the **State** section, next to **Database Read-Only**, click the arrow, and then select **False**.
     
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the second phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019.  <br/>  Next phase: [Upgrade service applications to SharePoint Server 2016](upgrade-service-applications-to-sharepoint-server-2019.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process-2019.md).  <br/> |
    

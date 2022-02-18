@@ -67,15 +67,15 @@ You can set incremental crawl times on the  _Search_Service_Application_Name_: A
     
 6. Create a content source of the type **SharePoint Sites**.
     
-  - In the **Name** section, type a name in the **Name** field. 
+   - In the **Name** section, type a name in the **Name** field. 
     
-  - In the **Content Source Type** section, select **SharePoint Sites**. 
+   - In the **Content Source Type** section, select **SharePoint Sites**. 
     
-  - In the **Start Addresses** section, type the start address or addresses. 
+   - In the **Start Addresses** section, type the start address or addresses. 
     
-  - In the **Crawl Settings** section, select the crawling behavior for all start addresses. 
+   - In the **Crawl Settings** section, select the crawling behavior for all start addresses. 
     
-  - In the **Crawl Schedules** section, select **Enable Continuous Crawls**.
+   - In the **Crawl Schedules** section, select **Enable Continuous Crawls**.
     
 7. Click **OK**. 
     
@@ -113,15 +113,15 @@ You can set incremental crawl times on the  _Search_Service_Application_Name_: A
     
 3. At the Microsoft PowerShell command prompt, type the following commands:
     
-  ```
-  $SSA =  Get-SPEnterpriseSearchServiceApplication
-  $SPContentSources = $SSA | Get-SPEnterpriseSearchCrawlContentSource | WHERE {$_.Type -eq "SharePoint"} 
-  foreach ($cs in $SPContentSources) 
-  { 
-    $cs.EnableContinuousCrawls = $false 
-    $cs.Update() 
-  }
-  ```
+    ```
+    $SSA =  Get-SPEnterpriseSearchServiceApplication
+    $SPContentSources = $SSA | Get-SPEnterpriseSearchCrawlContentSource | WHERE {$_.Type -eq "SharePoint"} 
+    foreach ($cs in $SPContentSources) 
+    { 
+      $cs.EnableContinuousCrawls = $false 
+      $cs.Update() 
+    }
+    ```
 
 4. **Verification:** On the  _Search_Service_Application_Name_: Manage Content Sources page, verify that the **Status** column has changed to **Idle** for all content sources. This might take some time, because all URLs that remain in the crawl queue are still crawled after you disable continuous crawls. 
     
@@ -134,14 +134,14 @@ You can set incremental crawl times on the  _Search_Service_Application_Name_: A
     
 3. At the Microsoft PowerShell command prompt, type the following commands:
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication
-  $ssa.SetProperty("ContinuousCrawlInterval",n)
-  ```
+    ```
+    $ssa = Get-SPEnterpriseSearchServiceApplication
+    $ssa.SetProperty("ContinuousCrawlInterval",n)
+    ```
 
     Where:
     
-  -  _n_ is the regular interval in minutes at which you want to continuous crawls to start. The default interval is every 15 minutes. The shortest interval that you can set is 1 minute. 
+   -  _n_ is the regular interval in minutes at which you want to continuous crawls to start. The default interval is every 15 minutes. The shortest interval that you can set is 1 minute. 
     
     > [!NOTE]
     > If you reduce the interval, you increase the load on SharePoint Server and the crawler. Make sure that you plan and scale out for this increased consumption of resources accordingly. 
