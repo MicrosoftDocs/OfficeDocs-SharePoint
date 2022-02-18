@@ -19,8 +19,8 @@ description: "Overview and planning to the Mover Migration tools"
 
 # Mover Cloud Migration 
 
->[Note]
->Mover will be deprecated in Summer 2022. Use Migration Manager for your cloud migrations.
+>[!Important]
+>**Google connectors**. The legacy Mover.io tool doesn't support new Google connectors. Please use Migration Manager for migrating from Google WS.
 
 ## Introduction
 
