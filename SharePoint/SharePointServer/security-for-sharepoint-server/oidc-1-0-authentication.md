@@ -451,7 +451,7 @@ To enable the People Picker control to work with groups, the following steps nee
     1. For AD Import synchronization, SID will be synchronized automatically without additional setup from the source identity provider to the SharePoint User Profile Application service.
     2. For MIM synchronization, the property mapping needs to be taken from the identity provider to MIM and then from MIM to the SharePoint User Profile Application service so that MIM can synchronize the group “SID” from the identity provider to the SharePoint User Profile Application service. This is similar to how we do user profile synchronization for the `SPS-ClaimID` property for user profiles.
 
-3. For MIM synchronization, “sAMAccountName” should also be mapped to “accountName” from MIM to the SharePoint User Profile Application service.
+3. For MIM synchronization, “sAMAccountName” should also be mapped to “accountName” from MIM to the SharePoint User Profile Application service. If it doesn’t exist, admin should create mapping pair from “sAMAccountName” to “accountName” in MIM manually.
 
 #### 5. Enable fields being searchable in UPSA
 
