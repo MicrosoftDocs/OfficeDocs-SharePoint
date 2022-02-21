@@ -1,5 +1,5 @@
 ---
-title: "Supporting Custom Organization Fonts in the PowerPoint for web"
+title: "Supporting organization fonts in PPT for the web"
 ms.reviewer: 
 ms.author: v-shesna
 author: sheshachary
@@ -34,8 +34,8 @@ The following diagram outlines the key steps in making our solution work:
 2. SharePoint stores the assets in a [public Office 365 Content Delivery Network.](/microsoft-365/enterprise/use-microsoft-365-cdn-with-spo?view=o365-worldwide&preserve-view=true) 
 3. When a user opens a PowerPoint file on the web platform, PowerPoint for the web will access the Content Delivery Network (CDN) and fetch appropriate fonts.
 
-## Adding organization fonts to SharePoint as organization asset library 
-1. [Create a new site](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.microsoft.com%2Foffice%2Fcreate-a-site-in-sharepoint-4d1e11bf-8ddc-499d-b889-2b48d10b1ce8&data=04%7C01%7Cv-shesna%40microsoft.com%7C469dfcba67174de505e308d9e01e0779%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637787241955790760%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=IIR6K8%2F9ZBRVrOD%2B2ZuYwMdBybeufNE3sI22zSCfCJE%3D&reserved=0) or use your existing site for Organization Asset Libraries.
+## Adding organization fonts to SharePoint as an organization asset library 
+1. [Create a new SharePoint site](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.microsoft.com%2Foffice%2Fcreate-a-site-in-sharepoint-4d1e11bf-8ddc-499d-b889-2b48d10b1ce8&data=04%7C01%7Cv-shesna%40microsoft.com%7C469dfcba67174de505e308d9e01e0779%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637787241955790760%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=IIR6K8%2F9ZBRVrOD%2B2ZuYwMdBybeufNE3sI22zSCfCJE%3D&reserved=0) or use your existing site for Organization Asset Libraries.
 
      > [!NOTE]
      > You cannot customize the permissions of font organization asset libraries as the fonts are hosted in a public CDN. When uploaded, font asset libraries are available across your entire tenant. Currently, sub-group permissioning of font asset libraries are not supported.
