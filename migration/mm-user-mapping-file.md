@@ -18,6 +18,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - SPMigration
+ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: "Create a user-mapping file for data content migration when using Migration Manager"
 ---
@@ -56,7 +57,7 @@ The following example uses Excel to create the CSV file.
   
 After you create your own user-mapping file, upload it to Migration Manager in the SharePoint Admin Center.
   
-1. Go to the [Migration Manager page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 2. Select **Global settings**.
 
