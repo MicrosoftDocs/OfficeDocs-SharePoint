@@ -21,7 +21,7 @@ description: "Learn how to migrate SharePoint workflows to Power Automate using 
 ---
 
 
-## Migrate workflow to Power Automate using PowerShell
+# Migrate SharePoint Server workflows to Power Automate using PowerShell
 
 Microsoft removed **SharePoint Server 2010** workflow services from existing tenants on November 1, 2020. We recommend that you move your classic SharePoint Server workflows to Power Automate flows. 
 
@@ -47,7 +47,7 @@ Before you begin your workflow migration, you must first:
 For the detailed steps see:
 - [**Step 1 - Configure endpoints and Power Automate**](spmt-workflow-step1.md).
 
-### Scan workflows
+## Scan workflows
 
 This command scans workflows of a given site or list and generates a scan report. 
 
@@ -59,7 +59,7 @@ Start-SPMTMigration
 
 ```
 
-### Migrate workflows
+## Migrate workflows
 
 This command does the following:
 
@@ -70,11 +70,11 @@ This command does the following:
 
 **MigrationType**
 
-When MigrationType is WORKFLOW, if the structure has not been migrated yet, the command does migrate site or list structure (not content), then migrate its workflows.
+When MigrationType is WORKFLOW, if the structure hasn't been migrated yet, the command does migrate site or list structure (not content), then migrate its workflows.
 
 **DefaultFlowOwnerEmail**
 
-Default flow owner is required for OOTB Approval workflow because there isn’t an owner in workflow definition. After migration, only flow owner and Power Automate admin can access the migrated flows. If the given owner email is not a valid user at destination, migration will fail. The flow owner also needs to have permission to access the destination SPO list.
+Default flow owner is required for OOTB Approval workflow because there isn’t an owner in workflow definition. After migration, only flow owner and Power Automate admin can access the migrated flows. If the given owner email isn't a valid user at destination, migration will fail. The flow owner also needs to have permission to access the destination SPO list.
 
 ```powershell
 
