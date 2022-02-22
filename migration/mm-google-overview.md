@@ -16,6 +16,7 @@ ms.collection:
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Overview of how to migrate from Google Workspace to Microsoft 365 with Migration Manager.
 ---
@@ -24,6 +25,9 @@ description: Overview of how to migrate from Google Workspace to Microsoft 365 w
 
 >[!Note]
 >This release currently supports the migration of up to approximately 10,000 Google Workspace accounts in a single migration. For larger migrations, we recommend you connect with [FastTrack](https://www.microsoft.com/fasttrack).
+
+>[!Important]
+>**Google**: The legacy Mover.io tool doesn't support new Google connectors. Use **Migration Manager** for migrating from Google Workspace.
 
 Collaborate all in one place by migrating your Google documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
@@ -43,7 +47,7 @@ Collaborate all in one place by migrating your Google documents, data, and users
 
 To get started:
 
-Go to the [Migration Manager page of the new SharePoint admin center](https://aka.ms/ODSP-MM-FS), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 Make sure that you have:
 
@@ -55,9 +59,15 @@ Make sure that you have:
 
 ## Google Shared Drives
 
-We are not able to read or write permissions to Google Shared Drives - therefore, we cannot migrate permissions or membership of Google Shared Drives. 
+>[!Important]
+>We are not able to read or write permissions to Google Shared Drives, therefore we cannot migrate permissions or membership of Google Shared Drives. 
+>
+>Google Shared Drives do not allow explicit folder-level permissions. Instead, Shared Drive permissions are based on the Shared Drive members.
+>
+>If you are migrating Google Shared Drives, follow the steps below.
 
-**If you are migrating Google Shared Drives:**
+
+**To migrate Google Shared Drives:**
 
 1. Manually gather the membership list of the Google Shared Drive during your migration planning.
 2. Create the destination document library in the appropriate team site of your SharePoint tenant. At this time, we recommend that you re-establish the membership list of the Google Shared Drive on the destination document library in your SharePoint tenant
@@ -66,7 +76,7 @@ We are not able to read or write permissions to Google Shared Drives - therefore
 
 
 >[!NOTE]
->Migration Manager Google Workspace isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Google Workspace isn't available for users of Office 365 operated by 21Vianet in China.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
 

@@ -60,7 +60,7 @@ Before you begin this operation, review the following system prerequisites and r
     
 - DFS Productivity Layer 6.7 SP2 is installed and you have access to the .NET assemblies that are included in the DFS Productivity Layer 6.7 SP2. The Indexing Connector for Documentum uses DFS as the connectivity API to access Documentum repositories. 
     
-- Documentum Content Server is installed. The supported versions of Documentum Content Server are determined by DFS 6.7 SP2. You can find a detailed list in the DFS Productivity Layer 6.7 SP2 release notes. You can download the release notes from the EMC customer support site [https://powerlink.emc.com](https://powerlink.emc.com).
+- Documentum Content Server is installed. The supported versions of Documentum Content Server are determined by DFS 6.7 SP2. You can find a detailed list in the DFS Productivity Layer 6.7 SP2 release notes.
     
 - Configure the Indexing Connector for Documentum with  *-ACLTranslation "Claims"*  if you have to crawl Documentum repositories that have Documentum Trusted Content Services (TCS) enabled. You can also use this connector configuration to enable automatic mapping between Windows Active Directory users and Documentum users, regardless of whether the repository has TCS enabled. 
     
@@ -280,7 +280,7 @@ The Security Trimmer Sync Service maps Documentum users to AD users by looking a
     
   - In the **Data Source: Documentum Settings** section, in the **Repositories** element, do the following: 
     
-    - In the **repository id** attribute, type the Documentum repository id. 
+    - In the **repository id** attribute, type the Documentum repository ID. 
     
     - In the **name** attribute, type the name of the Documentum repository. 
     
@@ -595,7 +595,7 @@ The format to refer to a Documentum object that you use for the path (when you s
 | Repository               | dctm://\<clientapphostname\>/\<repository name\>                                                                                                                                     |
 | Cabinet                  | dctm://\<clientapphostname\>/\<repository name\>/\<cabinet name\>                                                                                                                    |
 | Folder                   | dctm://\<clientapphostname\>/\<repository name\>/\<cabinet name\>/\<folder name\>                                                                                                    |
-| Document                 | dctm://\<clientapphostname\>/\<repository name\>/\<cabinet name\>/\<folder name\>/…/\<folder name\>?DocSysID=\<r_object_id\> (where r_object_id is the object id of that document)  |
+| Document                 | dctm://\<clientapphostname\>/\<repository name\>/\<cabinet name\>/\<folder name\>/…/\<folder name\>?DocSysID=\<r_object_id\> (where r_object_id is the object ID of that document)  |
    
  *\<clientapphostname\>*  is the host name of your Documentum client application such as Webtop or DA. The  *\<clientapphostname\>*  configured here must be the same as the one that is used in the content source.  *\<repository name\>*  ,  *\<cabinet name\>*  , and  *\<folder name\>*  are case-sensitive. 
   

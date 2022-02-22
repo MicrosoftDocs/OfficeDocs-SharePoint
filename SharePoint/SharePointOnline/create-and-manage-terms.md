@@ -12,6 +12,7 @@ ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:  
 - M365-collaboration
+ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
@@ -28,7 +29,7 @@ To create and manage terms, you must be a contributor, a group manager, or a ter
 
 To create a term in a term set
   
-1. In the SharePoint admin center, under **Content services**, click **Term store**.
+1. In the SharePoint admin center, under **Content services**, select <a href="https://go.microsoft.com/fwlink/?linkid=2185073" target="_blank">**Term store**</a>.
     
 2. In the tree-view pane, select the term set to which you want to add a term.
 
