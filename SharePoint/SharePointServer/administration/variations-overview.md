@@ -25,7 +25,11 @@ The variations feature in SharePoint Server and SharePoint in Microsoft 365 make
 This article contains an overview of the variations feature. It describes the elements of the variations feature; provides an overview of site, list, and page creation for variation sites; lists some limitations of variations; and describes scenarios for using variations in SharePoint Server. This article does not describe the tasks that are involved in planning a solution that uses variations. For info about how to plan to use variations in your solution, see [Plan for variations in SharePoint Server](plan-for-variations.md). This article also does not describe how to create variation labels and hierarchies. For info about how to create a variation site, see [Create a multi-language website](https://go.microsoft.com/fwlink/p/?LinkId=279696).
 
    > [!IMPORTANT]
-   > The variations will remain supported but deprecated for the SharePoint Server 2019 release. For more info, see [What's deprecated or removed from SharePoint Server 2019](../what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2019.md#variations).
+   > - The variations will remain supported but deprecated for the SharePoint Server 2019 release. For more info, see [What's deprecated or removed from SharePoint Server 2019](../what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2019.md#variations).
+   > - The Machine Translation Services for the variations feature will no longer be supported as of the end of July 2022. All existing instances of variations using the Machine Translation Server APIs will no longer display multilingual functionality in your Microsoft 365 environment. 
+   > - If you're using modern communication sites in SharePoint, we recommend that you use the [modern multilingual sites and pages feature](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c) instead of the variations feature.
+  
+
     
 
 ## Use and benefits of variations
