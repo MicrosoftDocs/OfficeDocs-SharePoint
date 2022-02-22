@@ -34,12 +34,22 @@ Migration Manager lets you bulk upload your Google drives using a comma-separate
 
 ## Formatting your CSV file
 
-![Format for bulk uploading google drives into Migration Manager](media/mm-google-csv-format.png)
+The formatting for personal drives and shared drives is slightly different.  
 
 1. Start Excel. 
 2. Enter one source per row.  The column heading is optional. Enter your source in one of the following ways: 
 
- - [username]@[domainname]/[folder name]  **or** [username]@[domainname]
+**For personal drives:**
+
+*[username]@[domainname]/[folder name]*  **or** *[username]@[domainname]*
+
+![Format for bulk uploading google drives into Migration Manager](media/mm-google-csv-format.png)
+
+**For Shared drives:**
+
+- */[shared drive name]*
+
+![Format to use for shared drive for bulk upload](media/mm-google-csv-example.png)
 
 3. Close and save as a comma delimited (*.csv) file. The encoding of the CSV file must be UTF-8.
 
