@@ -49,6 +49,8 @@ If your organization needs to store and manage files for all your users to use, 
     >   - **PowerPoint**: .potx. [Learn how to save a PowerPoint file in this format](https://support.microsoft.com/office/ee4429ad-2a74-4100-82f7-50f8169c8aca).
     > - Users need at least read permissions on the root site for your organization for the organization assets library to appear in the desktop apps.
 
+   Organization fonts are supported on PowerPoint for the web. [Learn more about support for your organization fonts here](/SharePoint/supporting-custom-org-fonts-in-ppt-web?branch=pr-en-us-4285).
+
 ## Use Microsoft PowerShell to specify a library as an organization assets library
 
 1. Select an existing site or create a new site for the organization assets. This can be any type of site, such as a communication site, a team site that's connected to a Microsoft 365 Group, or a modern team site that isn't connected to a Microsoft 365 Group.
