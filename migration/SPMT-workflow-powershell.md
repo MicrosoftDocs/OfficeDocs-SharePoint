@@ -23,7 +23,29 @@ description: "Learn how to migrate SharePoint workflows to Power Automate using 
 
 ## Migrate workflow to Power Automate using PowerShell
 
-PowerShell is available to help users migrate workflows to PA flows. 
+Microsoft removed **SharePoint Server 2010** workflow services from existing tenants on November 1, 2020. We recommend that you move your classic SharePoint Server workflows to Power Automate flows. 
+
+You can now migrate:
+
+- **SharePoint Server 2010** out of the box (OOTB) approval and collect feedback workflows to PowerAutomate.
+- List and library "out-of-box" (OOTB) approval workflows
+- Workflow definitions and associations
+
+>[!Note]
+> Workflows created with SharePoint Designer or SharePoint Server 2013 are currently not supported.
+
+>[!Note]
+>To migrate workflows using SPMT, see [Migrate SharePoint Server 2010 workflows to Power Automate using SPMT](spmt-workflow-overview.md)
+
+## Before you begin
+
+Before you begin your workflow migration, you must first:
+
+- Configure the required endpoints. 
+- Configure Power Automate. If you have never used Power Automate with this tenant before, you must configure it before you begin migration. We recommend using Edge or Internet Explorer.
+
+For the detailed steps see:
+- [**Step 1 - Configure endpoints and Power Automate**](spmt-workflow-step1.md).
 
 ### Scan workflows
 
