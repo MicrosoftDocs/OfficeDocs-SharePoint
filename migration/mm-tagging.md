@@ -14,6 +14,7 @@ ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
+ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: "Importing tags with Migration Manager"
 ---
@@ -49,7 +50,7 @@ As you plan your overall migration project, plan your tag strategy to align with
 
 ## Import and update tags
 
-1. In the SharePoint admin center, select [Migration Manager](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern). 
+1. In the SharePoint admin center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">**Migration center**</a>. 
 2. Select and connect to your migration source. Your sources are automatically scanned.
 3. Highlight one or more tasks, and then select **Import tags** from the menu bar.
 

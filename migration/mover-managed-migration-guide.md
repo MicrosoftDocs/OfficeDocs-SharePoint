@@ -34,6 +34,9 @@ Most migrations fall into incremental phases. Proven success factors for migrati
 - Onboarding your users
 
 
+>[!Important]
+>**Google connectors**. The legacy Mover.io tool doesn't support new Google connectors. Please use Migration Manager for migrating from Google WS.
+ 
 > [!NOTE]
 > The Mover Migration tool is a Microsoft owned migration tool available at no cost to subscribers of Microsoft 365 with qualifying licences.
 
