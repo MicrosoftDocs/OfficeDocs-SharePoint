@@ -116,7 +116,7 @@ We divided the performance test cycles into three workload categories. The prima
   
 **Initial Data Set**
 
-|**Entity**|**% of users with this feature**|**Small (10K users)**|**Medium (100K users)**|**Large (500K users)**|
+| Entity | % of users with this feature | Small (10K users) | Medium (100K users) | Large (500K users) |
 |:-----|:-----|:-----|:-----|:-----|
 |Number of user profiles for users  <br/> |100%  <br/> |10K  <br/> |100K  <br/> |500K  <br/> |
 |Number of provisioned My Sites  <br/> |100%  <br/> |10K  <br/> |100K  <br/> |500K  <br/> |
@@ -144,7 +144,7 @@ To simulate a realistic deployment scenario, all tests were run on a database th
   
 **Data model for initial database**
 
-|**Data entity description**|**Number**|
+| Data entity description | Number |
 |:-----|:-----|
 |Average number of users in on team  <br/> |5  <br/> |
 |Average number of levels per organization  <br/> |4  <br/> |
@@ -156,7 +156,7 @@ The following table describes the set of parameters in terms of actions that wou
   
 **Usage characteristics**
 
-|**Parameter**|**Number or percentage**|
+| Parameter | Number or percentage |
 |:-----|:-----|
 |Percentage of users with 1-3 posts  <br/> |10%  <br/> |
 |Average number of posts per user  <br/> |2  <br/> |
@@ -171,7 +171,7 @@ To create each of our scale tests, we applied the following action mix to the pr
   
 **User READ Actions**
 
-|**User action**|**% of user taking this action**|**Scenario**|**Feature or URL**|
+| User action | % of user taking this action | Scenario | Feature or URL|
 |:-----|:-----|:-----|:-----|
 |Navigate to My Site home page  <br/> |12%  <br/> |Newsfeed  <br/> |Newsfeed page (http://my/default.aspx)  <br/> |
 |Navigate to the user's public profile page  <br/> |8%  <br/> |Profile  <br/> |Profile page (http://my/person.aspx?accountname=\<alias\>)  <br/> |
@@ -191,7 +191,7 @@ To create each of our scale tests, we applied the following action mix to the pr
    
 **User WRITE Actions**
 
-|**User action**|**Percentage**|**Scenario**|**Feature or URL**|
+| User action | Percentage | Scenario |Feature or URL |
 |:-----|:-----|:-----|:-----|
 |Create root post in the feed  <br/> |0.5%  <br/> |Newsfeed  <br/> |Newsfeed page (http://my/default.aspx)  <br/> |
 |Like a post in the feed  <br/> |0.3%  <br/> |Newsfeed  <br/> |Newsfeed page (http://my/default.aspx)  <br/> |
@@ -204,7 +204,7 @@ To create each of our scale tests, we applied the following action mix to the pr
    
 **OneDrive client actions**
 
-|**User action**|**Percentage**|**Scenario**|**Feature or URL**|
+| User action**| Percentage | Scenario | Feature or URL |
 |:-----|:-----|:-----|:-----|
 |OneDrive initial sync  <br/> |0.2%  <br/> |OneDrive  <br/> |Initial Sync  <br/> |
 |OneDrive incremental sync - download a file  <br/> |0.88%  <br/> |OneDrive  <br/> |Incremental Sync  <br/> |
@@ -231,7 +231,7 @@ The following table lists hardware specifications for the computers that were us
 
 The farm includes a total of three identically configured Hyper-V hosts, and each host runs one to four virtual machines.
   
-|****Host hardware****|**Value**|
+| Host hardware | Value |
 |:-----|:-----|
 |**Processor(s)** <br/> |2 Quad-core 2.27 GHz processors  <br/> |
 |**RAM** <br/> |64 GB  <br/> |
@@ -246,7 +246,7 @@ The farm has from one to eight virtual web servers. An additional dedicated virt
 > [!NOTE]
 > In a production environment, dedicated servers that run the Distributed Cache Service are typically deployed in a highly available configuration. For test purposes, we used a single dedicated server for Distributed Cache because high availability was not a critical factor. 
   
-|**VM hardware**|**Web servers**|
+| VM hardware | Web servers |
 |:-----|:-----|
 |**Processors** <br/> |4 virtual processors  <br/> |
 |**RAM** <br/> |12 GB  <br/> |
@@ -258,7 +258,7 @@ The farm has from one to eight virtual web servers. An additional dedicated virt
 |**Load balancer type** <br/> |F5 Big IP  <br/> |
 |**Services running locally** <br/> |Microsoft SharePoint Foundation Web Application, Microsoft SharePoint Foundation Incoming E-Mail, Microsoft SharePoint Foundation Workflow Timer Service, Managed Metadata Web Service, User Profile Service  <br/> |
    
-|**VM hardware**|**Cache**|
+| VM hardware | Cache |
 |:-----|:-----|
 |**Processors** <br/> |4 virtual processors  <br/> |
 |**RAM** <br/> |12 GB  <br/> |
@@ -269,7 +269,7 @@ The farm has from one to eight virtual web servers. An additional dedicated virt
 |**Authentication** <br/> |Windows NTLM  <br/> |
 |**Services running locally** <br/> |Distributed Cache, Microsoft SharePoint Foundation Workflow Timer Service  <br/> |
    
-|**VM hardware**|**Search query component**|
+| VM hardware | Search query component |
 |:-----|:-----|
 |**Processors** <br/> |4 virtual processors  <br/> |
 |**RAM** <br/> |12 GB  <br/> |
@@ -279,7 +279,7 @@ The farm has from one to eight virtual web servers. An additional dedicated virt
 |**Authentication** <br/> |Windows NTLM  <br/> |
 |**Services running locally** <br/> |Microsoft SharePoint Foundation Web Application, Microsoft SharePoint Foundation Incoming E-Mail, Microsoft SharePoint Foundation Workflow Timer Service, Search Query and Site Settings Service, SharePoint Server Search  <br/> |
    
-|**VM Hardware**|**Search index component**|
+| VM Hardware | Search index component |
 |:-----|:-----|
 |**Processors** <br/> |4 virtual processors  <br/> |
 |**RAM** <br/> |12 GB  <br/> |
@@ -298,7 +298,7 @@ One physical database server runs the default SQL Server instance that has the S
   
 **Database Server - Default Instance**
 
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Processors** <br/> |2 Quad-core 3.3 GHz processors  <br/> |
 |**RAM** <br/> |32 GB  <br/> |
@@ -315,7 +315,7 @@ The following table shows the topology for this lab environment:
   
 **Lab environment topology**
 
-|**Role**|**Small deployment (10k users)**|**Medium deployment (100K users)**|**Large deployment (500K users)**|
+| Role | Small deployment (10k users) | Medium deployment (100K users) | Large deployment (500K users) |
 |:-----|:-----|:-----|:-----|
 |Web server  <br/> |2-4  <br/> |4-8  <br/> |8  <br/> |
 |Cache  <br/> |1  <br/> |1-2  <br/> |3  <br/> |
