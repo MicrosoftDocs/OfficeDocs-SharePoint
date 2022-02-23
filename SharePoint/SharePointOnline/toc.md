@@ -118,7 +118,7 @@
 ### [OneDrive policies](/onedrive/use-group-policy?toc=/SharePoint/toc.json&bc=/SharePoint/breadcrumb/toc.json)
 
 
-## [Sharing, security, and compliance]()
+## [Sharing]()
 
 ### [External sharing overview](external-sharing-overview.md)
 ### [Manage sharing settings](turn-external-sharing-on-or-off.md)
