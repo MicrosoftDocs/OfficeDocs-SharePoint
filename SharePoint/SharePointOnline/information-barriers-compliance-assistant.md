@@ -37,12 +37,12 @@ These steps create a new application in your organization's enterprise applicati
 1. Run the following PowerShell cmdlets.
 
     ```PowerShell
-    1. Connect-AzureAD
-    2. Connect-AzAccount
-    3. $appId="f46c682f-628c-48e6-b963-03309e34639e"
-    4. $sp=Get-AzADServicePrincipal -ServicePrincipalName$appId
-    5. if ($sp -eq $null) {New-AzADServicePrincipal -ApplicationId$appId}
-    6. StartProcess"https://login.microsoftonline.com/common/adminconsent?client\_id=$appId"
+    Connect-AzureAD
+    Connect-AzAccount
+    $appId="f46c682f-628c-48e6-b963-03309e34639e"
+    $sp=Get-AzADServicePrincipal -ServicePrincipalName $appId
+    if ($sp -eq $null) {New-AzADServicePrincipal -ApplicationId $appId}
+    Start-Process "https://login.microsoftonline.com/common/adminconsent?client_id=$appId"
     ```
 
 2. When prompted, sign in using your Office 365 work or school account.
