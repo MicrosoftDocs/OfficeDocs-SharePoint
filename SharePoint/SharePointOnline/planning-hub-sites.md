@@ -198,7 +198,7 @@ If you have only one hub, you'll miss the ability to easily surface related info
 
 - **Finding hubs if you have more than one**. Hubs are an important building block for your intranet. Here are some ways you can make your hub sites discoverable: 
     
-  - **Add hubs to global navigation**. Add your hubs to the global navigation for your tenant in the [SharePoint app bar](https://docs.microsoft.com/en-us/viva/connections/sharepoint-app-bar). 
+  - **Add hubs to global navigation**. Add your hubs to the global navigation for your tenant in the [SharePoint app bar](/viva/connections/sharepoint-app-bar). 
 
   - **Add key hubs to the SharePoint start page**. Pin your hub sites to the Featured links area of the SharePoint start page. Encourage all users to "follow" hub sites. 
     
