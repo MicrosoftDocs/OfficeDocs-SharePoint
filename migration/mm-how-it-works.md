@@ -1,5 +1,5 @@
 ---
-title: How does Migration Manager work
+title: How does Migration Manager work for file share migrations
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
@@ -9,15 +9,17 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
 - M365-collaboration
 - m365initiative-migratetom365
+ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: "Learn how File share migration works when using Migration Manager in Microsoft 365 SharePoint admin center."
 ---
-# How does Migration Manager work for file share migrations?
+# How does Migration Manager work for file share migrations
 
 The Migration Manager centralizes the management of large file share migrations by configuring one or more computers or virtual machines (VMs) as migration "agents".  Each computer or VM can be running migration tasks simultaneously. 
 
@@ -25,13 +27,13 @@ The Migration Manager centralizes the management of large file share migrations 
 
 **Agent setup**
 
-From the SharePoint admin center, select Migration and then File Shares. Download the agent setup file and install it on each Windows computer or virtual machine you want to use as a migration agent. The agent setup file prompts for two sets of credentials; the SharePoint Admin credentials to access your destination and the Windows credentials that have read access to any of the network file shares you plan to migrate. 
+From the SharePoint admin center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">**Migration center**</a> and then File Shares. Download the agent setup file and install it on each Windows computer or virtual machine you want to use as a migration agent. The agent setup file prompts for two sets of credentials; the SharePoint Admin credentials to access your destination and the Windows credentials that have read access to any of the network file shares you plan to migrate. 
 
 This pair of credentials creates a trust with Migration Manager. Migration Manager now sees it as an available agent to which it can automatically distribute migrations tasks. 
 
 **Task creation**
 
-After you configure the agent, anyone with the permission to go into the SharePoint Admin center can create tasks. 
+After you configure the agent, anyone with the permission to go into the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> can create tasks. 
 
 When adding a task, Migration Manager authenticates to the destination tenant and then prompts for the source file location and destination location. Selecting **Migrate** submits the task. The scanning, packaging, uploading, and importing steps are then performed in parallel across all the files chosen for migration.
 
@@ -39,7 +41,7 @@ When adding a task, Migration Manager authenticates to the destination tenant an
 
 **Authentication**
 
-Sign in to your SharePoint admin center as a either a Global administrator or SharePoint admin user in the destination where you want to migrate content. The tenant associates the migration jobs you submit to this account.
+Sign in to your <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> as a either a Global administrator or SharePoint admin user in the destination where you want to migrate content. The tenant associates the migration jobs you submit to this account.
 
 **Scan**
 

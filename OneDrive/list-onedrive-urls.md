@@ -1,8 +1,8 @@
 ---
 title: "View the list of OneDrive URLs for users in your organization"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 ms.collection: M365-collaboration
 ms.custom:
--  seo-marvel-apr2020
+- seo-marvel-apr2020
 ms.assetid: 8e200cb2-c768-49cb-88ec-53493e8ad80a
 description: "In this article, you'll learn how to view the OneDrive URLs for users in your organization."
 ---
@@ -41,15 +41,14 @@ Numbers or GUIDs might be appended to the URL if a conflict is detected, so it's
 
 > [!NOTE]
 > Unless OneDrive accounts are [pre-provisioned](pre-provision-accounts.md), the URL isn't created until a user accesses their OneDrive for the first time.
-Also, the OneDrive URL will automatically change if the user's [UPN changes](upn-changes.md). For example, if the user changes their name or the domain name changes for a rebranding or business restructuring. 
+> 
+> Also, the OneDrive URL will automatically change if the user's [UPN changes](upn-changes.md). For example, if the user changes their name or the domain name changes for a rebranding or business restructuring. 
   
 ## Use the OneDrive usage report to view the list of OneDrive users and URLs
 
 1. Go to the [OneDrive usage report in the Microsoft 365 admin center](https://admin.microsoft.com/#/reportsUsage/OneDriveSiteUsage) and sign in as a SharePoint admin, global admin, global reader, or reports reader. (If you see a message that you don't have permission to access the page, you don't have one of these roles in your organization.)
     
    > [!NOTE]
-   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), browse to **Reports** \> **Usage**. Under **OneDrive files**, select **View more**. 
-   > 
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), browse to **Reports** \> **Usage**. Under  **OneDrive files**, select **View more**.
 
 2. Scroll to the table below the charts. 
@@ -74,13 +73,13 @@ The list you create in these steps will be saved to a text file.
 
 2. Save the following text to a PowerShell file. For example, you could save it to a file named OneDriveSites.ps1.
     
-     ```PowerShell
+    ```PowerShell
     $TenantUrl = Read-Host "Enter the SharePoint admin center URL"
     $LogFile = [Environment]::GetFolderPath("Desktop") + "\OneDriveSites.log"
     Connect-SPOService -Url $TenantUrl
     Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like '-my.sharepoint.com/personal/'" | Select -ExpandProperty Url | Out-File $LogFile -Force
     Write-Host "Done! File saved as $($LogFile)."
-     ```
+    ```
 
 3. Open the SharePoint Online Management Shell. Navigate to the directory where the script has been saved and run:
 
@@ -95,11 +94,13 @@ The list you create in these steps will be saved to a text file.
 
 5. You will then be prompted to sign in. Use a SharePoint admin or global admin account.
 
-After the script successfully completes, a text file is created in the location specified by the **$LogFile** variable in the script. This file contains a list of all OneDrive Urls in your organization. The following text provides an example of how the list of Urls in this file should be formatted.
+After the script successfully completes, a text file is created in the location specified by the **$LogFile** variable in the script. This file contains a list of all OneDrive URLs in your organization. The following text provides an example of how the list of URLs in this file should be formatted.
   
-`https://contoso-my.sharepoint.com/personal/annb_contoso_onmicrosoft_com/
+```https
+https://contoso-my.sharepoint.com/personal/annb_contoso_onmicrosoft_com/
 https://contoso-my.sharepoint.com/personal/carolt_contoso_onmicrosoft_com/
 https://contoso-my.sharepoint.com/personal/esterv_contoso_onmicrosoft_com/  
-https://contoso-my.sharepoint.com/personal/hollyh_contoso_onmicrosoft_com/`
+https://contoso-my.sharepoint.com/personal/hollyh_contoso_onmicrosoft_com/
+```
 
 Once you have the URL for a user's OneDrive, you can get more info about it by using the [Get-SPOSite](/powershell/module/sharepoint-online/get-sposite) cmdlet, and change settings by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) cmdlet.

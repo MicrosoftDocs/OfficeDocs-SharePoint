@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -41,9 +42,6 @@ You can view a user's transfer logs by doing one of the following:
 >[!Note]
 >The zipped file provides logs in both CSV and HTML formats for only the most recent transfer of each user.
 
-View an example CSV log or in your browser here:
-
-[Example_user_log.html](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/live/migration/downloads/example_user_log.html)
 
 ## Interpreting a log file
 

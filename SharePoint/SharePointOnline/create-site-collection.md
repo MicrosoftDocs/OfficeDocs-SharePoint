@@ -1,8 +1,8 @@
 ---
 title: "Create a site"
 ms.reviewer: metorres
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -16,11 +16,13 @@ ms.custom:
 - 'O365E_SitesMgmtModern'
 - 'How To'
 - 'seo-marvel-apr2020'
+- admindeeplinkSPO
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- m365initiative-spsitemanagement
 search.appverid:
 - SPO160
 - MOE150
@@ -33,29 +35,27 @@ description: "This article describes how global and SharePoint admins can create
 
 # Create a site
 
-This article describes how global admins and SharePoint admins in Microsoft 365 can create sites (previously called "site collections") in the SharePoint admin center. For info about creating sites and adding users and groups to them by using Microsoft PowerShell, see [Create SharePoint sites and add users with PowerShell](/microsoft-365/enterprise/create-sharepoint-sites-and-add-users-with-powershell).
+This article describes how global admins and SharePoint admins in Microsoft 365 can create sites (previously called "site collections") in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. For info about creating sites and adding users and groups to them by using Microsoft PowerShell, see [Create SharePoint sites and add users with PowerShell](/microsoft-365/enterprise/create-sharepoint-sites-and-add-users-with-powershell).
   
 For info about creating site collections in SharePoint Server, see [Create a site collection in SharePoint Server](../SharePointServer/sites/create-a-site-collection.md).
 
 ## Create a team site or communication site
   
-1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
     > [!NOTE]
-    > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page.
-    > 
     > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
 2. Select **Create**.
 
-    ![The Create button on the Active sites page](media/create-site-button.png)
+    ![The Create button on the Active sites page.](media/create-site-button.png)
 
     > [!TIP]
-    > If you go to **Resources** > **Sites** in the Microsoft 365 admin center and select **Add a site**, it opens the Active sites page of the SharePoint admin center in a new tab, and opens the Create a site panel.  
+    > If you go to **Resources** > **Sites** in the Microsoft 365 admin center and select **Add a site**, it opens <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a> in a new tab, and opens the Create a site panel.  
 
-3. Select **Team site** (to create a Microsoft 365 group-connected team site), **Communication site**, or **Other options** to create a new team site without a Microsoft 365 group.
+3. Select **Team site** (to create a Microsoft 365 group-connected team site), **Communication site**, or **Other options** to create a new team site without a Microsoft 365 Group.
 
-    ![The Create a site panel](media/c4c5173f-ca83-426f-a940-cb2869a3a64b.png)
+    ![The Create a site panel.](media/new-site-creation-admin.png)
 
 4. Follow the steps to specify a site name, owner, language, and other settings. When you're done, select **Finish**.
  
@@ -68,23 +68,22 @@ For info about creating site collections in SharePoint Server, see [Create a sit
 
 We recommend using the new site templates for all your new sites. However, if you need to create a site that uses a classic template, you can do so using the following steps:  
   
-1. On the [Active sites page of the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select **Create**.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and select **Create**.
     
-    ![The Create button on the Active sites page](media/create-site-button.png)
+    ![The Create button on the Active sites page.](media/create-site-button.png)
   
 2. At the bottom of the panel, select **Other options**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Other options in the Create a site panel](https://user-images.githubusercontent.com/7239963/112038959-d6da3500-8b19-11eb-8315-7f780ac46649.png)
+    ![Image of the site creation panel with admin controls highlighted.](media/new-site-admin-bottom.png)
 
 3. Under **Choose a template**, select **More templates**. 
 
     > [!div class="mx-imgBorder"]
-    > ![More templates in the Choose a template list](https://user-images.githubusercontent.com/7239963/112038982-dfcb0680-8b19-11eb-9b78-d6bd375b86fa.png)
+    > ![More templates in the Choose a template list.](https://user-images.githubusercontent.com/7239963/112038982-dfcb0680-8b19-11eb-9b78-d6bd375b86fa.png)
 
     - In the **Title** box, enter a name for the site. 
     
-    - In the **Web Site Address** drop-down lists, select a domain name and a URL path — either **/sites/** or **/teams/** — and then type a URL name for the site. 
+    - In the **Web Site Address** drop-down lists, select a domain name and a URL path—either **/sites/** or **/teams/—and then type a URL name for the site. 
     
     - In the **Template Selection** section, in the **Select a language** drop-down list, select a language for the site. You can enable the SharePoint multiple language interface on your sites, but the primary language for the site will remain the one you select here. 
     

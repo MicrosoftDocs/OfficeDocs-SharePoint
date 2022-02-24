@@ -7,7 +7,7 @@ ms.date: 6/24/2019
 ms.audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -18,7 +18,7 @@ description: "Learn how Request Manager in SharePoint Server can route and throt
 ---
 
 # Configure Request Manager in SharePoint Server
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]  
 
 
 ## Overview ##
@@ -36,7 +36,7 @@ Information that administrators or an automated process provide to Request Manag
 The following table describes possible scenarios and resolutions that Request Manager can address.
 
 |**Area**|**Scenario**|**Resolution**|
-|:-----|:-----|:-----|:-----|:-----|
+|:-----|:-----|:-----|
 |**Reliability and performance** <br/> |Routing new requests to web front end with low performance can increase latency and cause timeouts.  <br/> |Request Manager can route to front-end web servers that have better performance, keeping low performance front-end web servers available.  <br/> |
 |Requests from users and bots have equal priority.<br/> |Prioritize requests by throttling requests from bots to instead serve requests from end-users).<br/> | 
 |**Manageability, accountability, and capacity planning** <br/> |SharePoint Server fails or generally responds slowly, but it’s difficult to identify the cause of a failure or slowdown.  <br/> |Request Manager can send all requests of a specific type, for example, Search, User Profiles, or Office Online, to specific computers. When a computer is failing or slow, Request Manager can locate the problem. <br/> |
@@ -47,7 +47,7 @@ The following table describes possible scenarios and resolutions that Request Ma
 
 Request Manager's task is to decide two things: a SharePoint farm will accept a request, and if the answer is "yes", to which front-end web server SharePoint Server will send it. The three major functional components of Request Manager are Request Routing, Request Throttling and Prioritizing, and Request Load Balancing. These components determine how to handle requests. Request Manager manages all requests on a per-web-application basis. Because Request Manager is part of the SharePoint Server  Internet Information Services (IIS) module, it only affects requests that IIS hosts.
 
-When a new request is received, Request Manager is the first code that runs in a SharePoint farm. Although Request Manager is installed during setup of SharePoint Server on a front-end web server, the Request Management service is not enabled. You can use the [Start-SPServiceInstance](/powershell/module/sharepoint-server/start-spserviceinstance?view=sharepoint-ps) and [Stop-SPServiceInstance](/powershell/module/sharepoint-server/stop-spserviceinstance?view=sharepoint-ps) cmdlets to start and stop the Request Management service instance respectively or the Manage services on server page on the the SharePoint Central Administration website. You can use the **RoutingEnabled** or **ThrottlingEnabled** parameters of the [Set-SPRequestManagementSettings](/powershell/module/sharepoint-server/set-sprequestmanagementsettings?view=sharepoint-ps) Microsoft PowerShell cmdlet to change properties of Request Manager.
+When a new request is received, Request Manager is the first code that runs in a SharePoint farm. Although Request Manager is installed during setup of SharePoint Server on a front-end web server, the Request Management service is not enabled. You can use the [Start-SPServiceInstance](/powershell/module/sharepoint-server/start-spserviceinstance?view=sharepoint-ps&preserve-view=true) and [Stop-SPServiceInstance](/powershell/module/sharepoint-server/stop-spserviceinstance?view=sharepoint-ps&preserve-view=true) cmdlets to start and stop the Request Management service instance respectively or the Manage services on server page on the the SharePoint Central Administration website. You can use the **RoutingEnabled** or **ThrottlingEnabled** parameters of the [Set-SPRequestManagementSettings](/powershell/module/sharepoint-server/set-sprequestmanagementsettings?view=sharepoint-ps&preserve-view=true) Microsoft PowerShell cmdlet to change properties of Request Manager.
 
 **NOTE**: There is no user interface to configure properties of Request Manager. The Windows PowerShell cmdlet is the only way to perform this task.
 
@@ -75,17 +75,17 @@ Integrated mode is good for small-scale deployments when many physical computers
 
 Request Manager has two configurable parts: **General settings** and **Decision information**. General settings are parameters that make Request Manager ready to use, such as enabling or disabling Request Routing and Request Throttling and Prioritizing. Decision information is all of the information that is used during the routing and throttling processes, such as routing and throttling rules.
 
-**NOTE**: You configure Request Manager on a farm and functionality occurs at a web application level in SharePoint Server 2013 and the web application role in SharePoint Servers 2016 and 2019.
+**Note**: You configure Request Manager on a farm and functionality occurs at a web application level in SharePoint Server 2013 and the web application role in SharePoint Servers 2016 and 2019.
 
 ### General settings ##
 
-By default, request routing and request throttling and prioritizing are enabled. You use the [Set-SPRequestManagementSettings](/powershell/module/sharepoint-server/set-sprequestmanagementsettings?view=sharepoint-ps) cmdlet to change the properties of request routing, request throttling and prioritizing, and select a routing weight scheme.
+By default, request routing and request throttling and prioritizing are enabled. You use the [Set-SPRequestManagementSettings](/powershell/module/sharepoint-server/set-sprequestmanagementsettings?view=sharepoint-ps&preserve-view=true) cmdlet to change the properties of request routing, request throttling and prioritizing, and select a routing weight scheme.
 
 The table describes the configuration situation and Windows PowerShell syntax to use.
 
-|**Situation**|**Microsoft PowerShell example**||
-|:-----|:-----|:-----|:-----|:-----|
-|Enable routing and throttling for all web applications <br/>| ```|Get-SPWebApplication | Set-SPRequestManagementSettings –RoutingEnabled $true –ThrottlingEnabled $true ```<br/> ||
+|**Situation**|**Microsoft PowerShell example**|&nbsp;|
+|:-----|:-----|:-----|
+|Enable routing and throttling for all web applications <br/>| ```Get-SPWebApplication | Set-SPRequestManagementSettings –RoutingEnabled $true –ThrottlingEnabled $true ```<br/> ||
 |Enable routing with static weighting for all web applications <br/>| ```Get-SPWebApplication | Get-SPRequestManagementSettings | Set-SPRequestManagementSettings –RoutingEnabled $true –ThrottlingEnabled $false –RoutingWeightScheme Static```<br/> ||
 
 In some situations, multiple front-end web servers will be suitable destinations for a particular request. In this case, by default, SharePoint Server selects one server randomly and uniformly. 
@@ -101,8 +101,8 @@ Request routing determines the routing targets that are available when a routing
 
 The following table describes the various routing target tasks and the associated Windows PowerShell syntax to use.
 
-|**Task**|**Microsoft PowerShell example**||
-|:-----|:-----|:-----|:-----|:-----|
+|**Task**|**Microsoft PowerShell example**|&nbsp; |
+|:-----|:-----|:-----|
 |Return a list of routing targets for all available web applications <br/>| ```Get-SPWebApplication | Get-SPRequestManagementSettings | Get-SPRoutingMachineInfo –Availability Available ```<br/> ||
 |Add a new routing target for a specified web application. <br/>| ```$web=Get-SPWebApplication -Identity <URL of web application> ``` <br/> ||
 | <br/>| ```$rm=Get-SPRequestManagementSettings -Identity $web ``` <br/> ||
@@ -116,7 +116,7 @@ The following table describes the various routing target tasks and the associate
 | <br/>| ```$m=Get-SPRoutingMachineInfo -RequestManagementSettings $rm -Name <MachineName> ``` <br/> ||
 | <br/>| ```Remove-SPRoutingMachineInfo -Identity $M ``` <br/> ||
 
-**NOTE**: You cannot remove front-end web servers that are in the farm. Instead, you can use the **Availability** parameter of the **Set-SPRoutingMachineInfo** cmdlet to make them unavailable.
+**Note**: You cannot remove front-end web servers that are in the farm. Instead, you can use the **Availability** parameter of the **Set-SPRoutingMachineInfo** cmdlet to make them unavailable.
 
 ### Routing and throttling rules ##
 Request routing and request throttling and prioritizing are decision algorithms that use rules to prescribe many actions. The rules determine how Request Manager handles requests.
@@ -154,8 +154,8 @@ Every rule has one or more match criteria, which consist of three things: match 
 
 The following table describes the different types of match properties and match types:
 
-|**Match property**|**Match type**||
-|:-----|:-----|:-----|:-----|:-----|
+| Match property | Match type | &nbsp; |
+|:-----|:-----|:-----|
 |Hostname <br/>| ReqEx| <br/> ||
 |URL <br/>| Equals<br/> ||
 |Port number <br/>| Starts with<br/> ||
@@ -205,8 +205,8 @@ Decisions might include useful information such as the following.
 
 An administrator can use this information to adjust the routing and throttling rule sets to optimize the system and correct problems. To help you monitor and evaluate your farm's performance, you can create a performance monitor log file and add the following SharePoint Foundation Request Manager Performance counters:
 
-|**Counter name**|**Description**||
-|:-----|:-----|:-----|:-----|:-----|
+| Counter name | Description | &nbsp; |
+|:-----|:-----|:-----|
 |Connections Current <br/>| The total number of connections that are currently open by Request Manager.| <br/> ||
 |Connections Reused / Sec <br/>| The number of connections per second that are reused when the same client connection makes another request without closing the connection.<br/> ||
 |Routed Requests / Sec <br/>| The number of routed requests per second.  The instance determines the application pool and server for which this counter tracks.<br/> ||

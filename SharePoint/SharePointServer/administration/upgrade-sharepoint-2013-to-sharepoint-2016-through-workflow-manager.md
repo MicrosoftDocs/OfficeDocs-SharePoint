@@ -16,7 +16,7 @@ description: "Learn how to upgrade SharePoint 2013 to SharePoint Server 2016 usi
 
 # Upgrade SharePoint 2013 to SharePoint 2016 through Workflow Manager
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-xxx-md.md)]
 
 ## Summary
 
@@ -137,6 +137,6 @@ To get the SPAuthenticationRealm value of ApplicationID that's stored in the sco
 
 Alternatively, you can find the SPAuthenticationRealm value in ULS log, such as in the following example log entry:
 
-11/03/2017 12:13:16.72                 w3wp.exe (SPWFE01:0x51FC)    0x1298  SharePoint Foundation  Authentication Authorization    an3eg    Medium               Cannot get app principal permission information. AppId=i:0i.t|ms.sp.ext|<SPWeb object ID>@<SPAuthenticationRealm>
+11/03/2017 12:13:16.72                 w3wp.exe (SPWFE01:0x51FC)    0x1298  SharePoint Foundation  Authentication Authorization    an3eg    Medium               Cannot get app principal permission information. AppId=i:0i.t|ms.sp.ext|\<SPWeb object ID\>@\<SPAuthenticationRealm\>
 
 11/03/2017 12:13:16.72                 w3wp.exe (SPWFE01:0x51FC)    0x1298  SharePoint Foundation  General 8nca                Medium               Application error when access /site/teamsite/teamweb/_vti_bin/client.svc, Error=Object reference not set to an instance of an object.   at Microsoft.SharePoint.SPAppRequestContext.EnsureTenantPermissions(SPServiceContext serviceContext, Boolean throwIfAppNotExits, Boolean allowFullReset)     at Microsoft.SharePoint.SPAppRequestContext.InitCurrent(HttpContext context)     at Microsoft.SharePoint.ApplicationRuntime.SPRequestModule.InitCurrentAppPrincipalToken(HttpContext context)     at Microsoft.SharePoint.ApplicationRuntime.SPRequestModule.PostAuthenticateRequestHandler(Object oSender, EventArgs ea)     at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()     at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

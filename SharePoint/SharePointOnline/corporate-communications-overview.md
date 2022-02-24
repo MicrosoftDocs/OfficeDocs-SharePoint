@@ -1,5 +1,5 @@
 ---
-title: "Corporate communications overview"
+title: "Organizational communications overview"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -13,13 +13,12 @@ search.appverid: MET150
 ms.collection: 
   - m365solution-overview
   - m365solution-corpcomms
-ROBOTS: NOINDEX, NOFOLLOW
-description: "Learn about planning and managing corporate communications for your organization"
+description: "Learn about planning and managing Organizational communications for your organization"
 ---
 
-# Corporate communications: Guidance, methods, and products
+# Organizational communications: Guidance, methods, and products
 
-Employee engagement is a significant contributor to workplace satisfaction, loyalty, and productivity at any organization. Across Microsoft 365, there are multiple ways to communicate. Knowing which method or combinations of methods to use and when depends on your audience and the communication culture of your organization.
+Employee engagement is a significant contributor to workplace satisfaction, loyalty, and productivity at any organization. Across Microsoft 365, there are multiple ways to communicate. Knowing which method (or combinations of methods) to use and when to use them depends on your audience and the communication culture of your organization.
 
 Learn how to keep everyone informed and engaged using SharePoint, Microsoft Teams, Yammer, Stream, and Viva Connections. Learn more about the powerful strategies and communication tools available to you that help drive engagement in your organization.
 
@@ -27,7 +26,7 @@ Learn how to keep everyone informed and engaged using SharePoint, Microsoft Team
 
 - Discover applications best suited for your communication goals and audience
 - Get started planning for specific scenarios like Viva Connections, holding a town hall, or distributing organizational news
-- Understand access, technical, and license requirements before getting started
+- Understand technical and license requirements before getting started
 - Learn how to launch, manage, and maintain corporate communications over time
 
 >[!NOTE]
@@ -35,12 +34,12 @@ Learn how to keep everyone informed and engaged using SharePoint, Microsoft Team
 
 
 
-## Overview of set-up
-Start by learning what Microsoft 365 tools can help for your specific scenario and how to scope your audience. Then get started planning by learning how to create, launch, measure, and maintain a one-time communication or communications over time.
+## Overview of setup
+Start by learning about Microsoft 365 tools that are designed for your specific scenario. Then, learn how to scope your audience. Finally, get started planning by learning how to create, launch, measure, and maintain a one-time communication or communications over time.
 <br>
 <br>
 
-| Step 1: Learn more about tools and define your audience profile    | Step 2: Identify the scenario(s) to meet your communication goal |Step 3: Plan, create, and launch your communication strategy   |Step 4: Manage and maintain communication and content over time   |
+| Step 1: Learn about tools and define your audience profile    | Step 2: Identify the scenario(s) to meet your communication goal |Step 3: Plan, build, and launch your communication strategy   |Step 4: Manage and maintain communication and content over time   |
 | :------------------: | :------------------: |:---------------:|:---------------:|
 | ![Image of a wayfinding sign icon.](media/icon-plan-organize.png)  |   ![Image of a thumb tack icon.](media/pin-blue.png) |   ![Image of a checklist icon.](media/numbered-blue.png) | ![Image of a calendar icon.](media/icon-calendar.png) |
 | Review common scenarios & outcomes|Select a scenario(s)   | Gather requirements and content  |Update permissions and settings as needed   |
@@ -48,7 +47,7 @@ Start by learning what Microsoft 365 tools can help for your specific scenario a
 | Scope your audience                   | Review considerations based on audience preferences        | Prepare and test environment             | Maintain performant sites, pages, and lists         |
 |Check technical and license requirements          | Learn how to use and integrate M365 apps    | Determine success metrics & plan the launch  |Retire content when it’s no longer needed          |
 
-#### Step 1: Learn more about tools and define your audience profile
+#### Step 1: Learn more about communication tools and define your audience profile
 Start by getting familiar with [common corporate communications scenarios](plan-communication-strategy.md). Next, [review Microsoft 365 communication apps](review-communication-apps.md) to make sure you understand engagement opportunities and analytics options. Then, learn how to [define and scope your audience](audience-profile.md). After following these basic steps, you will be ready to select the right communication solution that fits your organization's needs.
 
 
@@ -56,7 +55,7 @@ Start by getting familiar with [common corporate communications scenarios](plan-
 Once you have defined your audience profile and scoped the size of your audience,you can [choose a corporate communication solution](choose-communication-method.md) or combination of solutions. Each communication solution covers step-by-step guidance and includes best practices to ensure your success.
 
 
-#### Step 3: Plan, create, and launch your communication strategy
+#### Step 3: Plan, build, and launch your communication strategy
 Once you've selected a solution or combination of solutions, you'll learn how to plan, build, and launch. Each communication solution can be customized and integrated with other communication solutions depending on your goals. Understanding your audience's needs and how they currently use M365 apps will heavily influence how you make decisions.   
 
 
@@ -67,18 +66,27 @@ Some communication solutions are a one-time event while others may have several 
 
 ## Overview of corporate communication solutions:
 Learn how to plan your communication strategy by reviewing common communication scenarios, solutions, and outcomes. Next, review how Microsoft 365 tools and apps can engage and inform the audiences you want to reach. Then determine which communication scenario meets your communication goals and get started planning, launching, and maintaining your communication solution. 
+
+This poster illustrates how Contoso keeps employees informed and engaged across popular communication scenarios. Contoso uses a variety of M365 apps, including a new offering, Viva Connections.
+
+![Image of the corporate communication planning poster.](media/corp-comm-poster.png)
+
+[Download the PDF version of this poster](https://download.microsoft.com/download/0/3/4/034fbee5-ecf4-4559-86d3-815e898f21ea/contoso-corporate-communication-poster.pdf) or [download this poster as a Visio file](https://download.microsoft.com/download/0/3/4/034fbee5-ecf4-4559-86d3-815e898f21ea/contoso-corporate-communication-poster.vsdx) to make custom edits for your organization.
+<br>
 <br>
 
 
 | Icon                 | Scenario             | Solution details|
 | :------------------: | :------------------- |:----------------|
-|![Image of a check list icon.](media/task-check.png) | **Plan your strategy** | Review common communication scenarios <br> Learn about tools and solutions <br> Scope your audience and determine your specific scenario <br> [Get started planning your strategy](plan-communication-strategy.md) |
-|![Image of two people talking icon.](media/chat-room.png)  | **Use Viva Connections**   | Create employee experiences that connect your organization <br> Provide an easy way to catch up on news <br> Create a branded company app within Microsoft Teams <br> [Set up Viva Connections](guide-to-setting-up-viva-connections.md) |
-|![Image of a house icon.](media/icon-build-home.png)  | **Get a home site for your intranet**    |Take the first step in getting ready for Viva Connections <br> Schedule and launch a healthy portal <br> Set up global navigation in the SharePoint app bar <br> [Get a SharePoint home site](home-site-plan.md) |
-|![Image of a mega phone icon.](media/icon-launch-engage.png) | **Plan and produce a town hall**  |Bring your organization together for a live or prerecorded event <br> Record, share, and keep the conversation going <br> Measure engagement and expand reach using news <br> [Plan a town hall](hold-town-hall-using-yammer.md) |
-|![Image of a newspaper icon.](media/icon-news.png) | **Distribute organizational news**  | Share organization news and announcements across your company  <br> Create news site, news posts, and use the News web part <br> Measure engagement and expand reach using Viva Connections <br> [Distribute organizational news](distribute-corporate-news-to-your-organization.md) |
-|![Image of a networking icon.](media/icon-launch-add.png)|  **Leadership connection**   | Create communication channels and networking opportunities <br> Create engaging experiences in Yammer and live events <br> Expand reach using Viva Connections <br> [Connect your organization with leaders](leadership-connection.md)|
-|![Image of a location symbol icon.](media/icon-build-global.png) | **New employee onboarding** |Create an end-to-end experience to onboard new employees <br> Create a home base to welcome new employees and share resources <br>  Expand reach using Viva Connections <br> [Onboard new employees](onboard-employees.md)|
+|![Image of a check list icon.](media/task-check.png) | **Plan your strategy** | Review common communication scenarios <br> Learn about tools and solutions <br> Scope your audience and determine your specific scenario <br><br> [Get started planning your strategy](plan-communication-strategy.md) |
+|![Image of two people talking icon.](media/chat-room.png)  | **Use Viva Connections**   | Create employee experiences that connect your organization <br> Provide an easy way to catch up on news <br> Create a branded company app within Microsoft Teams <br><br> [Set up Viva Connections](guide-to-setting-up-viva-connections.md) |
+|![Image of a house icon.](media/icon-build-home.png)  | **Get a home site for your intranet**    |Take the first step in getting ready for Viva Connections <br> Schedule and launch a healthy portal <br> Set up global navigation in the SharePoint app bar <br><br> [Get a SharePoint home site](home-site-plan.md) |
+|![Image of a mega phone icon.](media/icon-launch-engage.png) | **Plan and produce a town hall**  |Bring your organization together for a live or prerecorded event <br> Record, share, and keep the conversation going <br> Measure engagement and expand reach using news <br><br> [Plan a town hall](hold-town-hall-using-yammer.md) |
+|![Image of a newspaper icon.](media/icon-news.png) | **Distribute organizational news**  | Share organization news and announcements across your company  <br> Create news site, news posts, and use the News web part <br> Measure engagement and expand reach using Viva Connections <br><br> [Distribute organizational news](distribute-corporate-news-to-your-organization.md) |
+|![Image of a networking icon.](media/icon-launch-add.png)|  **Leadership connection**   | Create communication channels and networking opportunities <br> Create engaging experiences in Yammer and live events <br> Expand reach using Viva Connections <br><br> [Connect your organization with leaders](leadership-connection.md)|
+|![Image of a location symbol icon.](media/icon-build-global.png) | **New employee onboarding** |Create an end-to-end experience to onboard new employees <br> Create a home base to welcome new employees and share resources <br>  Expand reach using Viva Connections <br><br> [Onboard new employees](onboard-employees.md)| 
+|![Image of a checked lightbulb symbol icon.](media/lb-1.png) | **Build a learning and training experience** |Build a scalable learning and training experience <br> Surface training opportunities to specific audiences <br>  Use tools like Viva Learning to deploy learning experience <br><br> [Build a learning and training experience](build-learning-and-training-experiences-for-employees.md)|
+
 
 
 ### End-user guidance and support
@@ -108,11 +116,6 @@ Give end users a head start by helping them use and engage using popular M365 co
 | Live events in Yammer                |Product and host a live event for people inside your organization. Keep the conversation going with live and moderated Q&A.               | M365 E5 <br> M365 E3         |
 | Live events in Microsoft Teams             | Host and record public or private live events. Decide how you want event attendees to participate.       | M365 E5 <br> M365 E3         |
 | Viva Connections          | Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed.        | M365 E5 <br> M365 E3     |
-
-<br>
-
->[!NOTE]
-> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](viva-connections-overview.md) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.  
 
 <br>
 

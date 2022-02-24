@@ -19,14 +19,15 @@ ms.collection:
 - Strat_SP_gtc
 - M365-collaboration
 - SPO_Content
-ms.custom: seo-marvel-apr2020
+ms.custom: 
+- seo-marvel-apr2020
 ms.assetid: 4ab7d5bc-abd7-40df-a3db-4306044af01f
 description: "Overview and introductory articles on SharePoint Server hybrid to help you decide which hybrid solution you should use for your business."
 ---
 
 # Explore SharePoint Server hybrid
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 Discover how a SharePoint hybrid environment using SharePoint Server and SharePoint in Microsoft 365 can integrate functionality and access between the services and features of both environments.
   

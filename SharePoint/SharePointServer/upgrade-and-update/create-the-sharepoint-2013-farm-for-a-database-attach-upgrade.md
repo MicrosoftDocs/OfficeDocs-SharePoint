@@ -8,7 +8,7 @@ ms.date: 2/20/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -21,7 +21,7 @@ description: "Create and configure a SharePoint 2013 farm so that you can upgrad
 
 # Create the SharePoint 2013 farm for a database attach upgrade
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
 When you upgrade from SharePoint 2010 Products to SharePoint 2013, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. Before you can upgrade the content, you must configure a new server or server farm by using SharePoint 2013. This article lists the items that you have to configure when you create that new environment.
   
@@ -29,7 +29,7 @@ When you upgrade from SharePoint 2010 Products to SharePoint 2013, you must use 
 
 ![Stages in upgrade process for SharePoint 2013](../media/77510e88-3b41-4f68-ab89-53e11566efeb.png)
   
-|||
+| &nbsp; |&nbsp; |
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the first phase in the process to upgrade SharePoint 2010 Products data and sites to SharePoint 2013. The process includes the following phases that must be completed in order:  <br/> Create the SharePoint 2013 farm for a database attach upgrade  (this phase) Copy databases to the new farm for upgrade to SharePoint 2013Upgrade service applications to SharePoint 2013Upgrade content databases from SharePoint 2010 to SharePoint 2013Upgrade a site collection to SharePoint 2013For an overview of the whole process, see [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013.md) and the Upgrade Process model [Download the upgrade process model](https://go.microsoft.com/fwlink/p/?LinkId=255047)| .  <br/> |
    
@@ -44,7 +44,7 @@ When you upgrade from SharePoint 2010 Products to SharePoint 2013, you must use 
 
 Before you create the SharePoint 2013 farm, review the following information and take any recommended actions.
   
-- Make sure that the hardware and software that you are using meets the requirements in [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md).
+- Make sure that the hardware and software that you are using meets the requirements in [Hardware and software requirements for SharePoint 2013](../install/hardware-software-requirements-2013.md).
     
 - Make sure that you have appropriately planned your logical and physical architecture to support the features and functionality that you want in the SharePoint 2013 farm. 
     
@@ -212,7 +212,7 @@ And you must configure all new farm-level settings that you want to use, such as
   
 In a standard installation, the next step would be to create web applications. However, for upgrade, you create web applications later in the process, after you upgrade the service application databases. For more information, see [Create web applications](upgrade-content-databases.md#CreateWebApps).
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the first phase in the process to upgrade SharePoint 2010 Products data and sites to SharePoint 2013.  <br/>  Next phase: [Copy databases to the new farm for upgrade to SharePoint 2013](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-2013.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013.md).  <br/> |
    
@@ -225,4 +225,4 @@ In a standard installation, the next step would be to create web applications. H
   
 [Upgrade farms that share services (parent and child farms) to SharePoint 2013](upgrade-farms-that-share-services-parent-and-child-farmsto-sharepoint-2013.md)
   
-[Test and troubleshoot an upgrade to SharePoint 2013](test-and-troubleshoot-an-upgrade-0.md)
+[Test and troubleshoot an upgrade to SharePoint 2013](test-troubleshoot-upgrade-2013.md)

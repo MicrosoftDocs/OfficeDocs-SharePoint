@@ -1,8 +1,8 @@
 ---
 title: "Control access to features in the OneDrive and SharePoint mobile apps"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -26,7 +26,7 @@ description: "Learn how to create a mobile application management policy for the
 
 If your organization has **Microsoft Intune** or **Enterprise Mobility + Security**, you might have created a [global policy](/mem/intune/apps/app-protection-policy#app-protection-global-policy) in the OneDrive admin center to control your organization's data in the OneDrive and SharePoint mobile apps. 
   
-The policy settings in the OneDrive admin center are no longer being updated. Instead of setting up this policy, we recommend using the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431) to create and assign app protection policies. [Learn how](/mem/intune/apps/app-protection-policies)
+The policy settings in the OneDrive admin center are no longer being updated. We recommend using the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431) to create and assign app protection policies. [Learn how](/mem/intune/apps/app-protection-policies)
   
 For the full list of the policy settings for iOS/iPadOS and Android, see:
 

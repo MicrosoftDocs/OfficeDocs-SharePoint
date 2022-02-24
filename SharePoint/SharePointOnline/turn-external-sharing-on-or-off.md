@@ -14,7 +14,8 @@ ms.collection:
 - Strat_OD_share
 - M365-collaboration
 ms.custom:
--  seo-marvel-apr2020
+- seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
@@ -36,7 +37,7 @@ To change the sharing settings for a site after you've set the organization-leve
 
 ## Video demonstration
 
-This video shows how the settings on the Sharing page in the SharePoint admin center affect the sharing options available to users.
+This video shows how the settings on the <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">**Sharing** page in the SharePoint admin center</a> affect the sharing options available to users.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yw9m?autoplay=false]
 
@@ -44,11 +45,9 @@ This video shows how the settings on the Sharing page in the SharePoint admin ce
 <a name="__turn_external_sharing"> </a>
   
 
-1. Go to the [Sharing page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">**Sharing** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
  
    > [!NOTE]
-   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. 
-   > 
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
 
 2. Under **External sharing**, specify your sharing level for SharePoint and OneDrive. The default level for both is "Anyone."
@@ -58,7 +57,7 @@ This video shows how the settings on the Sharing page in the SharePoint admin ce
     > 
     > The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive.
     > 
-    > The SharePoint external sharing setting on this page is the same as the one in the Microsoft 365 admin center, under **Settings** \> **Services & add-ins** \> **Sites**. These settings are also the same as those in the OneDrive admin center. 
+    > The SharePoint external sharing setting on this page is the same as the one in the Microsoft 365 admin center, on the Org settings page \> SharePoint. 
 
     ![External sharing settings](media/externalsharing.png)
 

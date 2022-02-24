@@ -10,10 +10,12 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
+ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Migration Manager FAQs
 ---
@@ -77,10 +79,18 @@ Answer:  In general, site performance should not be impacted by running a migrat
 **Question:** How do I remove the Migration Manager agent from a computer? </br>
 Answer: Re-run the Migration Manager agent installer and click the **Uninstall** button.
 
+**Question:** How do I update the Migration Manager agent? </br>
+Answer: The agent is set to automatically update to the latest version by default.
+
 **Question:** Does Migration Manager do incremental migrations? </br>
 Answer:  Yes.  The jobs created in Migration Manager do perform incremental migrations when run subsequently. 
 
 **Question:**  Does adding more agents linearly increase the throughput? Is there a cap on the max number of agents?</br>
 Based on our current data, the average speed of migration scales linearly to the number of agents, unless the overall throughput hits the upper limit of your network bandwidth. If multiple agents read from the same source file share path, that can also impact throughput. There’s no limit on how many agents you can install. We have many customers who perform migrations using 20+ agents.  **Note:** A single agent can process up to 10 tasks at a given time.
 
+**Question:**  How do I set the time zone for Migration Manager? 
+Answer:  Migration Manager uses the setting in the SharePoint Admin center to convert to your time zone.  In the SharePoint Admin center choose https://go.microsoft.com/fwlink/?linkid=2185072	<a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings**</a> > Site creation. A side panel displays where you can select the time zone.
+
+**Question:**  What does **% complete** mean?
+Answer:  The % complete indicates the progress of the overall task migration, including the number of files migrated and the preparation work required for the remaining files to be migrated. *Note:* The **%** is not linearly proportional to the number of files remaining to be migrated.
 

@@ -1,8 +1,8 @@
 ---
 title: "Manage site redirects"
 ms.reviewer: adwood
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -46,6 +46,9 @@ In some cases, you might want to free up the old URL to use it for a new site. T
     ```PowerShell
     Remove-SPOSite -Identity https://contoso.sharepoint.com/sites/OldSiteName
     ```
+
+    > [!NOTE]
+    > If you get an error message "The operation is not supported for the site," make sure a retention policy isn't applied to the old or new URL for the site. You might need to remove the retention policy to delete the redirect.
 
 4. When prompted, confirm that you want to delete the redirect. 
 

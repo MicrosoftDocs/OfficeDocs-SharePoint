@@ -19,7 +19,7 @@ description: "Learn how to resolve alerts about the search index, content proces
 
 # Search in SharePoint Server knowledge articles
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-xxx-md.md)]
 
 Learn how to resolve alerts about the search index, content processing, query processing, and other search issues in the SharePoint Servers 2019, 2016, and 2013 management pack for Systems Center Operations Manager (SCOM).
   
@@ -1241,7 +1241,7 @@ Check the following areas:
     
   - Networking is ok on host.
     
-## Usage table exceeded max bytes limit
+## Usage table exceeded max bytes limit - #1
 <a name="Usagetable"> </a>
 
  **Alert Name:** Usage table exceeded max bytes limit 
@@ -1260,7 +1260,7 @@ There are two ways to resolve this issue:
     
 2. Disable the usage provider to stop generating data.
     
-## Usage table exceeded max bytes limit
+## Usage table exceeded max bytes limit - #2
 <a name="UsageTable2"> </a>
 
  **Alert Name:** Usage table exceeded max bytes limit 

@@ -17,7 +17,7 @@ description: "Excel Services is a business intelligence tool in SharePoint Serve
 
 # Overview of Excel Services in SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
 Excel Services is a shared service that you can use to publish Excel workbooks on SharePoint Server 2013. The published workbooks can be managed and secured according to your organizational needs and shared among SharePoint Server 2013 users, who can render the workbooks in a browser. Excel Services is available only in the Enterprise edition of SharePoint Server 2013.
   
@@ -61,7 +61,7 @@ The following table lists the business intelligence features available in Excel 
   
 **BI features in Excel Services, by mode**
 
-||**SharePoint Server only**|**SharePoint Server with Excel Web App (SharePoint view mode)**|**SharePoint Server with Excel Web App (Office Web Apps Server view mode)**|
+|&nbsp;|**SharePoint Server only**|**SharePoint Server with Excel Web App (SharePoint view mode)**|**SharePoint Server with Excel Web App (Office Web Apps Server view mode)**|
 |:-----|:-----|:-----|:-----|
 |Excel Web Access Web Part  <br/> |×  <br/> |×  <br/> ||
 |Refresh OData connections  <br/> |×  <br/> |×  <br/> ||
