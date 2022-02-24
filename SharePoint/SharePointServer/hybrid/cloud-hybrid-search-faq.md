@@ -316,7 +316,7 @@ For disaster recovery, a second Cloud hybrid search service application can be b
 
 ***Can users query for items secured with SAML claims if crawled by a Cloud search service application?***
 
-Items secured with SAML claims when crawled using Cloud Search Service application will not show up in search results. This does not work as those identities cannot be interpreted during the ACL mapping process in the Cloud search service application. As of today, we do not have a way to map an on-premises SAML identity to a Microsoft 365 user, which is a core requirement for ACL mapping to work. This is by design. For such supportability questions, a request can be submitted at [SharePoint UserVoice](https://sharepoint.uservoice.com/) for evaluation.
+Items secured with SAML claims when crawled using Cloud Search Service application will not show up in search results. This does not work as those identities cannot be interpreted during the ACL mapping process in the Cloud search service application. As of today, we do not have a way to map an on-premises SAML identity to a Microsoft 365 user, which is a core requirement for ACL mapping to work. This is by design. For such supportability questions, a request can be submitted at [SharePoint Feedback portal](https://feedbackportal.microsoft.com/feedback/forum/06735c62-321c-ec11-b6e7-0022481f8472) for evaluation.
 
 ***On-premises environment Cloud search service application crawls site collection secured with NT Authority\\Authenticated users. How does this translate to ACL mapping in SharePoint in Microsoft 365?***
 
