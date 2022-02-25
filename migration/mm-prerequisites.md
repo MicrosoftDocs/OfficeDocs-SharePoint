@@ -18,12 +18,13 @@ ms.collection:
 - m365initiative-migratetom365
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid: MET150
 description: "Learn about the prerequisites and endpoints required when using Migration Manager in the modern SharePoint Admin Center."
 ---
 # Prerequisites & Endpoints for Migration Manager
 
-This article is a resource where you can find prerequisites and endpoint information when using Migration Manager in the modern SharePoint Admin Center.
+This article is a resource where you can find prerequisites and endpoint information when using the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the modern SharePoint admin center.
 
 
 ## Prerequisites
@@ -57,6 +58,7 @@ This article is a resource where you can find prerequisites and endpoint informa
 |`https://*.blob.core.usgovcloudapi.net`|Migration API Azure Government requirement|
 |`https://*.queue.core.usgovcloudapi.net`|Migration API Azure Government requirement|
 |`https://*.login.microsoftonline.com`|Sign into the MMA agent for SPO access|
+|`https://*.login.windows.net`|Sign into the MMA agent for SPO access|
 |`https://*.msauth.net`|Sign into the MMA agent for SPO access|
 |`https://spmt.sharepointonline.com`|SPMT Installation link.
 |`https://api.mover.io`|Scan feature for Migration Manager requirement.|

@@ -1,7 +1,7 @@
 ﻿
 # [SharePoint](introduction.md)
 ## [Get started]()
-### [Overview](guide-to-sharepoint-modern-experience.md)
+### [Intro to sites](guide-to-sharepoint-modern-experience.md)
 ### [Intro to file collaboration](intro-to-file-collaboration.md)
 ### [Plan secure file collaboration](deploy-file-collaboration.md)
 ### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
@@ -104,7 +104,6 @@
 ### [Plan, build, and launch a home site](home-site-plan.md)
 ### [Set up a home site](home-site.md)
 ### [Change your domain name](change-your-sharepoint-domain-name.md)
-
 ### [Enable and set up global navigation](sharepoint-app-bar.md)
 ### [Create an organization assets library](organization-assets-library.md)
 ### [Create an organization news site](organization-news-site.md)
@@ -221,6 +220,7 @@
 #### [Change version and upgrade settings](change-version-and-upgrade-settings.md)
 #### [Allow users to create modern pages](let-users-create-modern-site-pages.md)
 #### [Let users connect classic sites to groups](let-users-connect-classic-sites-to-groups.md)
+#### [Manage loop components](manage-loop-components.md)
 ### [Hybrid](../SharePointServer/hybrid/hybrid.md)
 ### [Migration](/sharepointmigration/migrate-to-sharepoint-online)
 ### [Multi-Geo](/Office365/Enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365)

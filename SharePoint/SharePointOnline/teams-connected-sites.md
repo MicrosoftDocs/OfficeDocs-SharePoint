@@ -14,7 +14,6 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
-ms.custom:
 search.appverid:
 - SPO160
 - MET150
@@ -43,7 +42,7 @@ These are the basic parts of Teams and SharePoint and how they relate to each ot
 
 - **Parent site** - The SharePoint site that is created when you create the team. This site is used for file storage for all standard channels. All team owners and members have access to this site.
 
-- **[Microsoft 365 group](/microsoft-365/solutions/collaboration-governance-overview#why-microsoft-365-groups-are-important-in-collaboration-governance)** - A Microsoft 365 group is a membership group that gives people access to multiple Microsoft 365 services at the same time. The membership for each team is stored in a Microsoft 365 group and that group also gives those people access to the teams's parent SharePoint site.
+- **[Microsoft 365 group](/microsoft-365/solutions/collaboration-governance-overview#why-microsoft-365-groups-are-important-in-collaboration-governance)** - A Microsoft 365 group is a membership group that gives people access to multiple Microsoft 365 services at the same time. The membership for each team is stored in a Microsoft 365 group and that group also gives those people access to the team's parent SharePoint site.
 
 - **[Private channel](/MicrosoftTeams/private-channels)** – A private channel is a channel that only some of the team's members have access to. It is used for private conversations and collaboration. Each private channel has its own SharePoint site for file storage. Only members of the private channel can access this site.
 
@@ -53,8 +52,11 @@ These are the basic parts of Teams and SharePoint and how they relate to each ot
 
 - **Private team** - A private team is a team that a person can only join when invited by a team owner. Both public teams and private teams offer the same channel types - standard, private, and shared.
 
-- **Azure AD** - Azure AD is the directory service where Microsoft 365 user accounts are stored. (You can manage these accounts from Microsoft 365 as well.) Microsoft 365 groups are also stored in Azure AD. Azure AD allows administrators to manage users and groups and to apply business rules to user accounts, such as requiring multifactor authentication.
+- **Azure AD** - Azure AD is the directory service where Microsoft 365 user accounts are stored. (You can manage these accounts from Microsoft 365 as well.) Microsoft 365 groups are also stored in Azure AD. Azure AD allows administrators to manage users and groups and to apply business rules to user accounts, such as requiring multi-factor authentication.
 
+![Image of how Azure AD, Teams, and SharePoint relate.](media/teams-sharepoint-interactions.png)
+
+Each team is connected to a Microsoft 365 group in Azure AD where the team membership is stored. The files you see on the **Files** tab in a team are stored in a SharePoint site. All standard channels in a team share the same SharePoint site, but each private channel has its own site.
 
 ## When do Teams and SharePoint get connected?
 
