@@ -35,7 +35,7 @@ Once have reviewed the accounts, confirmed the destinations, correctly mapped id
 3.  A confirmation step displays.  Click **Migrate**.  
 
 >[!Note]
-> Starting your migration only copies content from your Google account to the location you have specified in Microsoft 365.  Make sure the destinations are correct, as once the migration starts, they cannot be modified.
+> Starting your migration **does not remove or delete anything from Google Workspace**. Content from your Google account is copied to your specified location in Microsoft 365. Make sure the destinations are correct, as once the migration starts, they cannot be modified.
 
 4.  Once the migration begins, monitor the migration status, and the table summary at the top.  Depending on how large your migration, this step may take hours or days.
 
