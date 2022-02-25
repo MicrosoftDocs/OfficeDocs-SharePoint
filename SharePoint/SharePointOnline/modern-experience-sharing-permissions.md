@@ -107,6 +107,8 @@ Whichever option you choose at the organization or site level, the more restrict
   
 External sharing is turned on by default for your organization. Default settings for individual sites vary depending on the type of site. See [Site level settings](/microsoft-365/solutions/microsoft-365-guest-settings) for more information.
 
+Guest sharing for private and shared channel sites can only be changed by using PowerShell.
+
 To set up guest sharing for a site, see [Collaborate with guests in a site](/microsoft-365/solutions/collaborate-in-site).
   
 ### Security and privacy
@@ -134,3 +136,5 @@ With Azure B2B integration, all guests are added to the directory and can be man
 [Limit sharing in Microsoft 365](/microsoft-365/solutions/microsoft-365-limit-sharing)
 
 [Shared channels in Microsoft Teams](/MicrosoftTeams/shared-channels)
+
+[Microsoft 365 guest sharing settings reference](/microsoft-365/solutions/microsoft-365-guest-settings)
