@@ -1,8 +1,8 @@
 ---
 title: Guided walkthrough - Create a communication site
 ms.reviewer: hokavian
-ms.author: matteva
-author: MattEEvans
+ms.author: evanatkin
+author: AtkinE
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -45,7 +45,7 @@ To make a site like the one shown here, you'll create a [Communication site](htt
 
 Next, choose **Communication site**, and then the **Topic** layout. Fill out your site name, description, and other information, and click **Finish**.
 
-![Image of the Communication site panel](media/cs-3.jpg)
+![Image of the Communication site panel](media/cs-3_1.jpg)
 
 For more details, see [Create a communication site in SharePoint Online](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
 
