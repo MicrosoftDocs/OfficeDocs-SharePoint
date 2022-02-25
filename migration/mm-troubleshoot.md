@@ -32,9 +32,11 @@ This article describes how to resolve issues and errors you may experience when 
 - [Agent disconnected](#agent-disconnected)
 - [Task stuck in "Queued" state](#task-stuck-in-queued-status)
 - [Task report cannot be downloaded](#task-report-cannot-be-downloaded)
-- [Migration errors](#migration-error)
+- [Migration errors in task reports](#migration-errors-in-task-reports)
 - [Google migration error reports contain HTML](#google-error-report-shows-html-code-in-report)
 - [Error codes](#error-codes)
+- [Geo admins can't access full functionality of Migration Manager](#geo-admins-not-supported)
+- [Group-inherited SharePoint admins can't access full functionality of Migration Manager](#group-inherited-sharepoint-admins-unable-to-access-scans-and-migrations-tabs))
 
 
 ## Check prerequisites and settings
@@ -196,7 +198,7 @@ Or
 - If the task has failed, navigate to the folder **%AppData%\Microsoft\SPMigration\Logs**, then sort the subfolders by their modified time. Find the subfolder whose modified time is the closest to the task's start time. The error report will be in this subfolder.
 
 
-## Migration error
+## Migration errors in task reports
 
 **Issue**
 Migration tasks fail due to various reasons and are detailed in the task reports.
@@ -240,8 +242,25 @@ Run less concurrent transations.
 **Status**
 This is a known issue. ETA not set.
 
+## Geo admins not supported
+
+Migration Manager currently doesn't support the Geo admin role for specific scenarios. For file share migrations, these users can't access the scans tab. For cloud migrations, these users can't access neither the scans nor the migrations tab.
+
+**Workaround**. Assign the Geo user either a SharePoint admin or Global admin role.
+1. In the admin center, go to the **Users** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.
+2. On the **Active users** page, select the user whose admin role you want to change. In the flyout pane, under **Roles**, select **Manage roles**.
+3. Select the admin role that you want to assign to the user. If you don't see the role you're looking for, select **Show all** at the bottom of the list.
 
 
+## Group inherited SharePoint admins unable to access scans and migrations tabs
+
+SharePoint admin roles that were created as a result of joining an Azure group are not fully supported by Migration Manager. For file share migrations, these users can't access the scans tab. For cloud migrations, these users can't access neither the scans nor the migrations tab.  
+
+**Workaround**. Until this is resolved, assigned the user either a SharePoint admin or Global admin role.
+
+1. In the admin center, go to the **Users** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.
+2. On the **Active users** page, select the user whose admin role you want to change. In the flyout pane, under **Roles**, select **Manage roles**.
+3. Select the admin role that you want to assign to the user. If you don't see the role you're looking for, select **Show all** at the bottom of the list.
 
  ## Error codes 
 |**Error Code**|**Recommended action**|

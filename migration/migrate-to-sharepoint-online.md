@@ -38,6 +38,10 @@ Moving to Microsoft 365? Let us help you migrate your content easily and securel
 - Check out what's new and coming soon to [SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 
 
+## We're listening!
+
+Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page and filter on "Migration".  
+
 ##  Where are you migrating from?
 
 |Migrate from|Description|
