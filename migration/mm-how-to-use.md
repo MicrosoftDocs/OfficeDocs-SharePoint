@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid: MET150
 description: How to use Migration Manager in the SharePoint admin center to move your content to Microsoft 365.
 ---
 # Step 2: Create a migration task with Migration Manager
 
-Migration Manager is located in the modern SharePoint admin center. You will be guided through agent setup and creating your file share migration tasks.    
+The <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> is located in the modern SharePoint admin center. You will be guided through agent setup and creating your file share migration tasks.    
 
 ## Before you begin
 
@@ -47,7 +48,7 @@ For every migration task you create, you'll be prompted for a **source** and a *
 
 ## Create a migration task
   
-1. Go to the [Migration page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.   
+1. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.   
 2. Select **Add task**.   
 3. Under Method, select either **Single source and destination** or **Bulk migration**. If you have only a few file shares to migrate, select the single source and destination method. If you are migrating content from a large number of file shares, select bulk migration.
 4.Under **Source**, enter the path to the file share that contains the content you want to migrate.  Use the format \\contoso\fileshare. Select **Next**.
