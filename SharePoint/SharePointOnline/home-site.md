@@ -1,5 +1,5 @@
 ---
-title: "Set a site as your home site using PowerShell"
+title: "Set a site as your home site"
 ms.reviewer: dipadur
 ms.author: mikeplum
 author: MikePlumleyMSFT
