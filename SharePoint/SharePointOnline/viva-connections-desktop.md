@@ -61,6 +61,7 @@ Microsoft [Viva Connections desktop](https://techcommunity.microsoft.com/t5/micr
 > - Viva Connections desktop was originally announced as the [Home site app](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/the-home-site-app-for-microsoft-teams/ba-p/1714255).
 > - Viva Connections will become generally available in fall 2021 and will include enhancements to the overall configuration and deployment experience.
 > - The [Viva Connections desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) is available now in the [Microsoft download center](https://www.microsoft.com/download/default.aspx).
+> - Viva Connections is not supported on the Linux operating system.
 
 
 ## Watch how to create the app package and then upload it to Teams

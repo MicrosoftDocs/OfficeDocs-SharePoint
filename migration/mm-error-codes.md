@@ -19,7 +19,7 @@ search.appverid: MET150
 description: Migration Manager error codes
 ---
 
-# Migration Manager error codes
+# Migration Manager transaction error codes
 
 </br></br>
 
@@ -72,6 +72,7 @@ description: Migration Manager error codes
 |MNOTFOUND|Item not found.|Check file and try again.|
 |MNOTIMPLEMENTED|Method not implemented for connector. |Try again.|
 |MNOTPERMITTED|Cannot traverse to the folder level; cannot perform actions outside a users folder.|Check permissions and try again.|
+|MNOTUSERORTEAMDRIVE|Confirm that the name of the item in the source service matches what you have in the task's source path. Note: Google Suite allows invisible characters to be added to item names. We advise that your rename the item in the source service to ensure there's no invisible characters and then use that same name in the task source path.|
 |MOWNERNOTFOUND|The original owner was removed or its information was not found.|Reassign ownership of the file.|
 |MPATHMALFORMED|Invalid path format. | Check your source and try again.|
 |MSERVICENOTAVAILABLE|Service unavailable.|Try again.|
