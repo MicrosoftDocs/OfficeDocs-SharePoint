@@ -107,7 +107,7 @@ If you revert back to **Allow Full Access**, it could take up to 24 hours for th
 3. Run the following command:
 
     ```PowerShell
-    Set-SPOTenant -ConditionalAccessPolicy AllowLimitedAccess`
+    Set-SPOTenant -ConditionalAccessPolicy AllowLimitedAccess
     ```
     
 > [!NOTE]
