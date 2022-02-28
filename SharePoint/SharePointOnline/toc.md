@@ -128,7 +128,6 @@
 ### [Integration with Azure AD B2B](sharepoint-azureb2b-integration.md)
 ### [Restricted domains sharing](restricted-domains-sharing.md)
 ### [Report on sharing](sharing-reports.md)
-### [Control notifications](notifications.md)
 ### [Create a B2B extranet](create-b2b-extranet.md)
 
 ### [Advanced permissions customization]()
@@ -140,7 +139,7 @@
 #### [Default SharePoint groups](default-sharepoint-groups.md)
 #### [SharePoint and OneDrive error messages](sharepoint-onedrive-error-message.md)
 
-## [Security]()
+## [Security and access control]()
 ### [Authentication](authentication.md)
 ### [Safeguarding your data](safeguarding-your-data.md)
 ### [Control access from unmanaged devices](control-access-from-unmanaged-devices.md)
@@ -154,6 +153,7 @@
 ### [Use information barriers](information-barriers.md)
 ### [Configure information barriers compliance assistant](information-barriers-compliance-assistant.md)
 ### [Create an information barriers policy report](info-barriers-report.md)
+### [Control notifications](notifications.md)
 
 ## [Content services]()
 ### [Term store]()
