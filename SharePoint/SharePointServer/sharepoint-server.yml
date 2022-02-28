@@ -33,7 +33,7 @@ landingContent:
           - text: Community
             url: https://techcommunity.microsoft.com/t5/SharePoint/ct-p/SharePoint
           - text: Product feedback
-            url: https://sharepoint.uservoice.com/
+            url: https://feedbackportal.microsoft.com/feedback/forum/06735c62-321c-ec11-b6e7-0022481f8472
           - text: End user content
             url: https://support.office.com/sharepoint
 
