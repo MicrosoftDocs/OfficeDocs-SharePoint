@@ -221,9 +221,7 @@ Because OneDrive provides access to files on many kinds of devices, it restricts
 
 ## Feature releases and requests
 
-If you want to see the functionality currently under development for OneDrive and Microsoft 365, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) or the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/onedrive). Lastly, if you want to request new functionality or vote on great community ideas for OneDrive, visit [OneDrive UserVoice](https://onedrive.uservoice.com).
-
-[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
+If you want to see the functionality currently under development for OneDrive and Microsoft 365, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) or the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/onedrive). 
 
 ## Keys to successful user adoption
 
