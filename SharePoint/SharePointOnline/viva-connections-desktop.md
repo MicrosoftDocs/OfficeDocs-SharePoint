@@ -52,7 +52,7 @@ Microsoft [Viva Connections desktop](https://techcommunity.microsoft.com/t5/micr
 > [!IMPORTANT]
 > - You need SharePoint admin permissions (or higher) to create the Viva Connections desktop app in PowerShell, and you need Teams admin permissions (or higher) to apply the app in the Teams Admin Center.
 > - Viva Connections desktop is not supported in the Teams mobile app. 
-> - Only [modern SharePoint sites and pages] (/sharepoint/dev/transform/modernize-classic-sites) can be viewed in Teams and all other content will open in a browser.
+> - Only [modern SharePoint sites and pages](/sharepoint/dev/transform/modernize-classic-sites) can be viewed in Teams and all other content will open in a browser.
 > - Some functionality will not be available for SharePoint pages viewed in Microsoft Teams such as social gestures like the ability to like, or comment on a page as well as the ability to add an event automatically to an Outlook calendar.
 > - [Global navigation in the SharePoint app bar](sharepoint-app-bar.md) can be enabled to display global SharePoint resources in the Microsoft Teams app bar for Viva Connections desktop.
 > - Global navigation menu links can be [audience targeted](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) so that specific content is surfaced to certain groups of people. Audience targeting settings in the SharePoint global navigation menu will carry over to global navigation in Teams.
