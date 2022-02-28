@@ -116,10 +116,7 @@
 ### [Per-machine installation](/onedrive/per-machine-installation?toc=/SharePoint/toc.json&bc=/SharePoint/breadcrumb/toc.json)
 ### [Use silent account configuration](/onedrive/use-silent-account-configuration?toc=/SharePoint/toc.json&bc=/SharePoint/breadcrumb/toc.json)
 ### [OneDrive policies](/onedrive/use-group-policy?toc=/SharePoint/toc.json&bc=/SharePoint/breadcrumb/toc.json)
-
-
 ## [Sharing]()
-
 ### [External sharing overview](external-sharing-overview.md)
 ### [Manage sharing settings](turn-external-sharing-on-or-off.md)
 ### [Change external sharing for a site](change-external-sharing-site.md)
@@ -129,7 +126,6 @@
 ### [Restricted domains sharing](restricted-domains-sharing.md)
 ### [Report on sharing](sharing-reports.md)
 ### [Create a B2B extranet](create-b2b-extranet.md)
-
 ### [Advanced permissions customization]()
 #### [Customize site permissions](customize-sharepoint-site-permissions.md)
 #### [What is permissions inheritance?](what-is-permissions-inheritance.md)
@@ -138,14 +134,12 @@
 ### [Reference]()
 #### [Default SharePoint groups](default-sharepoint-groups.md)
 #### [SharePoint and OneDrive error messages](sharepoint-onedrive-error-message.md)
-
 ## [Security and access control]()
 ### [Authentication](authentication.md)
 ### [Safeguarding your data](safeguarding-your-data.md)
 ### [Control access from unmanaged devices](control-access-from-unmanaged-devices.md)
 ### [Control access based on network location](control-access-based-on-network-location.md)
 ### [Sign out inactive users](sign-out-inactive-users.md)
-
 ## [Compliance]()
 ### [Block guest access to newly added files](sensitive-by-default.md)
 ### [Manage site access based on sensitivity label](authentication-context-example.md)
@@ -154,7 +148,6 @@
 ### [Configure information barriers compliance assistant](information-barriers-compliance-assistant.md)
 ### [Create an information barriers policy report](info-barriers-report.md)
 ### [Control notifications](notifications.md)
-
 ## [Content services]()
 ### [Term store]()
 #### [Introduction](managed-metadata.md)
