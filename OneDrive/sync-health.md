@@ -106,21 +106,20 @@ This tab provides the steps you need to take to enable sync reports on Windows d
 
     - Run Command Prompt as an administrator, and then run the following command:
 
-        `reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports /t REG_SZ /d **<your Tenant Association Key>** /f`
+    `reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports /t REG_SZ /d **<your Tenant Association Key>** /f`
 
     - Use [Group Policy](use-group-policy.md#manage-onedrive-using-group-policy) or [administrative templates in Intune](configure-sync-intune.md). 
 
     To apply the setting on a single PC, follow these steps:
-        a. Open Group Policy Editor (gpedit.exe)
 
-        b. Go to Computer Configuration\Administrative Templates\OneDrive.
+    - Open Group Policy Editor (gpedit.exe)
 
-        c. Choose **Enable sync health reporting for OneDrive**.
+    - Go to Computer Configuration\Administrative Templates\OneDrive.
 
-        d. Select **Enabled** and then press **OK**.
+    - Choose **Enable sync health reporting for OneDrive**.
 
-    > [!IMPORTANT]
-    > After you enable the EnableSyncAdminReports on devices, it takes up to three days for reports to be available.
+    - Select **Enabled** and then press **OK**.
+
 
 # [macOS](#tab/macos)
 
@@ -142,7 +141,7 @@ This tab provides the steps you need to take to enable sync reports on macOS dev
 
 5. Quit the OneDrive app.
 
-6. Create a .plist file with the key EnableSyncAdminReports. You can also use a script to set the key. The key is the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the setting, ensure that you target the appropriate domain depending on the edition of the sync app.
+6. Create a .plist file with the key **EnableSyncAdminReports**. You can also use a script to set the key. The key is the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the setting, ensure that you target the appropriate domain depending on the edition of the sync app.
 
 7. Deploy the EnableSyncAdminReports setting onto your local computer.
 
