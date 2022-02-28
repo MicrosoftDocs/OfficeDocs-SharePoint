@@ -36,7 +36,7 @@ These are the basic parts of Teams and SharePoint and how they relate to each ot
 
 - **Team** – A team is a place in Teams where you can invite others to collaborate. Each team is connected to one or more SharePoint sites. These sites are where the team's files are stored.
 
-- **Channel** – A channel is a location in a team where you can collaborate with others on a specific thing. A team can have multiple channels for different purposes. For example, you might have a team for marketing with different channels for different products or events. There are three types of channels in Teams: *standard*, *private*, and *shared*.
+- **Channel** – A channel is a location in a team where you can collaborate with others on a specific thing. A team can have multiple channels for different purposes. For example, you might have a team for marketing with different channels for different products or events. There are three types of channels in Teams: *standard* and *private*.
 
 - **Standard channel** – A standard channel is a channel that all members of a team have access to. Each team comes with a standard channel called "General." Team owners and members can add additional standard channels.
 
@@ -46,11 +46,11 @@ These are the basic parts of Teams and SharePoint and how they relate to each ot
 
 - **[Private channel](/MicrosoftTeams/private-channels)** – A private channel is a channel that only some of the team's members have access to. It is used for private conversations and collaboration. Each private channel has its own SharePoint site for file storage. Only members of the private channel can access this site.
 
-- **Channel site** - The SharePoint site that is created when you create a private or shared channel in a team. Only owners and members of the private or shared channel have access to this site.
+- **Channel site** - The SharePoint site that is created when you create a private channel in a team. Only owners and members of the private channel have access to this site.
 
 - **Public team** - A public team is a team that anyone in the organization can join. Public teams do not require a team owner to invite someone to the team.
 
-- **Private team** - A private team is a team that a person can only join when invited by a team owner. Both public teams and private teams offer the same channel types - standard, private, and shared.
+- **Private team** - A private team is a team that a person can only join when invited by a team owner. Both public teams and private teams offer the same channel types - standard and private.
 
 - **Azure AD** - Azure AD is the directory service where Microsoft 365 user accounts are stored. (You can manage these accounts from Microsoft 365 as well.) Microsoft 365 groups are also stored in Azure AD. Azure AD allows administrators to manage users and groups and to apply business rules to user accounts, such as requiring multi-factor authentication.
 
@@ -65,9 +65,9 @@ Teams and SharePoint are connected in the following scenarios:
 - When you create a new team from scratch, a new SharePoint site is created and connected to the team.
 - When you create a new team from an existing Microsoft 365 group, the team is connected to the SharePoint site associated with the group.
 - When you add Teams to an existing SharePoint site, that site is connected to the new team.
-- When you create a new private or shared channel, a new SharePoint site is created and connected to that channel.
+- When you create a new private channel, a new SharePoint site is created and connected to that channel.
 
-In Teams, the Files tab on each standard channel is connected to a folder in the parent site’s default document library. The Files tab on each private and shared channel is connected to the default document library in the corresponding channel site. Whenever you add or update a file on the Files tab, you are accessing the SharePoint site.
+In Teams, the Files tab on each standard channel is connected to a folder in the parent site’s default document library. The Files tab on each private channel is connected to the default document library in the corresponding channel site. Whenever you add or update a file on the Files tab, you are accessing the SharePoint site.
  
 ## Example of a team with multiple channel types
 
@@ -81,7 +81,7 @@ The standard channels display as folders in the parent site. The private channel
 
 ## Teams-connected sites and channel types
 
-Teams-connected sites are a specialized type of SharePoint site that have been optimized for a Teams connection. These include the parent site that is created when you create the team, and any channel sites that are created when you create a private or shared channel.
+Teams-connected sites are a specialized type of SharePoint site that have been optimized for a Teams connection. These include the parent site that is created when you create the team, and any channel sites that are created when you create a private channel.
 
 This table describes how site, file, and folder sharing work for each type of channel in Teams.
 
