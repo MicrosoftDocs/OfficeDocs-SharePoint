@@ -43,7 +43,7 @@ Users assigned the SharePoint admin role have access to the <a href="https://go.
 
 > [!IMPORTANT]
 > - SharePoint admins can now manage Microsoft 365 groups, including creating, deleting, and restoring groups, and changing group owners.
-> - If a user’s role is changed so their access to the SharePoint admin center is removed, it takes about an hour for the change to take effect.
+> - If a user’s role is changed so they gain or lose access to the SharePoint admin center, it takes about an hour for the change to take effect.
 
 Global admins and SharePoint admins don't have automatic access to all sites and each user's OneDrive, but they can give themselves access to any site or OneDrive. They can also use Microsoft PowerShell to manage SharePoint and OneDrive. See more about this role's [Key tasks of the SharePoint admin](sharepoint-admin-role.md#BK_KeyTasks) below. 
   
