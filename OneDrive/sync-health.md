@@ -74,7 +74,7 @@ This tab provides the steps you need to take to enable sync reports on Windows d
 
 5. In the left navigation menu, select **Settings**
 
-6. Verify that a **Tenant Association Key** has been generated.  If the key field is empty, select **Generate new key**.
+6. Verify that a **Tenant Association Key** is present in the text field. If the field is empty, select **Generate new key**.
 
    :::image type="content" source="media/tenant-key-image.png" alt-text="Screenshot of Tenant Association Key under Preview setup.":::
 
@@ -141,7 +141,7 @@ This tab provides the steps you need to take to enable sync reports on macOS dev
 
 5. In the left navigation menu, select **Settings**
 
-6. Confirm that a **Tenant Association Key** has been generated in the key field.
+6. Confirm that a **Tenant Association Key** has been generated in the text field.
 
 7. Before proceeding, ensure that the OneDrive application has been quit.
 
