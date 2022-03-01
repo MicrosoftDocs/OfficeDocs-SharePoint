@@ -21,7 +21,7 @@ description: "Use the Mover migration service to set up your Egnyte source conne
 
 
 >[!Important]
-> The legacy Mover.io tool does not support new Engyte connectors. Use [Migration Manager](mm-egnyte-overview.md) for migratng from Egnyte.
+> The legacy Mover.io tool no longer supports new Egnyte connectors. Use [Migration Manager](mm-egnyte-overview.md) for migrating from Egnyte.
 
 
 
