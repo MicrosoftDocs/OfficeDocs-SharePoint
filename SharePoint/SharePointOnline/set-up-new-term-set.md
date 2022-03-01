@@ -9,6 +9,7 @@ audience: Admin
 f1.keywords: NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.custom: admindeeplinkSPO
 ms.localizationpriority: medium
 search.appverid:
 - SPO160
@@ -24,7 +25,7 @@ To add a term set, you must be a contributor, group manager or a term store admi
 
 To set up a new term set
   
-1. In the SharePoint admin center, under **Content services**, click **Term store**.
+1. In the SharePoint admin center, under **Content services**, select <a href="https://go.microsoft.com/fwlink/?linkid=2185073" target="_blank">**Term store**</a>.
     
 2. In the tree-view navigation pane, expand the groups to select the group to which you want to add a term set.
     
@@ -64,11 +65,11 @@ To configure the tagging policy
 
 3. Select **Save**.
 
-**Usage navigation tab**
+**Navigation tab**
 
 Enabling site navigation means you can use the terms in this term set for site navigation links with friendly URLs and dynamic content. Enabling faceted navigation means users can use refiners based on managed metadata from the search index to quickly browse to specific content
 
-1. Under the **Usage Navigation** tab, for **Use term set for site navigation**, select **Edit**. The **Edit Properties** panel appears.
+1. Under the **Navigation** tab, for **Use term set for site navigation**, select **Edit**. The **Edit Properties** panel appears.
 
 2. Click the **Enable** check boxes to use this term set for site or faceted navigation.
 

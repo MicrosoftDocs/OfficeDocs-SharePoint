@@ -24,9 +24,6 @@ description: "Learn how to configure Forefront TMG 2010 as a reverse proxy devic
 [!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
   
 This article tells you how to set up Forefront Threat Management Gateway (TMG) 2010 for use as a reverse proxy for a hybrid SharePoint Server environment.
-  
-For complete information about Forefront Threat Management Gateway (TMG) 2010, see [Forefront Threat Management Gateway (TMG) 2010](/previous-versions/tn-archive/ff355324(v=technet.10)).
-  
     
 ## Before you begin
 <a name="byb"> </a>
@@ -48,8 +45,6 @@ Before you begin, there are a few things you need to know:
     
 For more information on how to configure and use logging in TMG 2010, see [Using diagnostic logging](/previous-versions/tn-archive/dd897109(v=technet.10)).
   
-For more information on general TMG 2010 troubleshooting, see [Forefront TMG Troubleshooting](/previous-versions/tn-archive/dd897100(v=technet.10)).
-  
 For more information on troubleshooting techniques and tools for SharePoint Server hybrid environments, see [Troubleshooting hybrid environments](./hybrid.md).
   
 ## Install TMG 2010
@@ -59,7 +54,7 @@ If you have not already installed TMG 2010 and configured it for your network, u
   
  **Install TMG 2010**
   
-1. Install Forefront TMG 2010 if it is not already installed. For more information on installing TMG 2010, see [Forefront TMG Deployment](https://go.microsoft.com/fwlink/p/?LinkId=403873).
+1. Install Forefront TMG 2010 if it is not already installed. For more information on installing TMG 2010, see [Forefront TMG Deployment](/previous-versions/tn-archive/cc441585(v=technet.10)).
     
 2. Install all the available service packs and updates for TMG 2010. For more information, see [Installing Forefront TMG Service Packs](/previous-versions/tn-archive/ff717843(v=technet.10)).
     
@@ -209,5 +204,3 @@ There are several settings that you must now verify or change in the publishing 
 #### Other Resources
 
 [Configuring Web publishing](/previous-versions//cc441546(v=technet.10))
-  
-[Forefront Threat Management Gateway (TMG) 2010](/previous-versions/tn-archive/ff355324(v=technet.10))
