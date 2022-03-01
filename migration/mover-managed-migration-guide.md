@@ -23,7 +23,12 @@ description: A guide to managing a migration project with the Mover migration to
 ---
 # Managed migration guide using Mover
 
-This guide was created to share the process and best practices of managing a cloud-to-cloud migration project using the Mover migration tool. 
+>[!Important]
+>**Google**: The legacy Mover.io tool doesn't support new Google connectors. Use [**Migration Manager**](mm-google-overview.md) for migrating from Google Workspace.
+
+
+
+The Mover Migration tool is a Microsoft owned migration tool available at no cost to subscribers of Microsoft 365 with qualifying licenses. This guide was created to share the process and best practices of managing a cloud-to-cloud migration project using the Mover migration tool. 
 
 Most migrations fall into incremental phases. Proven success factors for migration include the following stages:
 
@@ -34,9 +39,7 @@ Most migrations fall into incremental phases. Proven success factors for migrati
 - Onboarding your users
 
 
-> [!NOTE]
-> The Mover Migration tool is a Microsoft owned migration tool available at no cost to subscribers of Microsoft 365 with qualifying licences.
-
+ 
 
 >[!Tip]
 >We highly recommend reading and reviewing the current Mover documentation. This content provides valuable knowledge on how to understand the Mover tool for running migrations from various cloud storage platforms.

@@ -42,7 +42,8 @@ For info about adding or removing a site admin (previously called "site collecti
 Users assigned the SharePoint admin role have access to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> and can create and manage sites (previously called "site collections"), designate site admins, manage sharing settings, and more. 
 
 > [!IMPORTANT]
-> SharePoint admins can now manage Microsoft 365 groups, including creating, deleting, and restoring groups, and changing group owners.
+> - SharePoint admins can now manage Microsoft 365 groups, including creating, deleting, and restoring groups, and changing group owners.
+> - If a user’s role is changed so they gain or lose access to the SharePoint admin center, it takes about an hour for the change to take effect.
 
 Global admins and SharePoint admins don't have automatic access to all sites and each user's OneDrive, but they can give themselves access to any site or OneDrive. They can also use Microsoft PowerShell to manage SharePoint and OneDrive. See more about this role's [Key tasks of the SharePoint admin](sharepoint-admin-role.md#BK_KeyTasks) below. 
   

@@ -23,7 +23,7 @@ description: "Learn about the tested performance and capacity limits of SharePoi
 
 # Software boundaries and limits for SharePoint Servers 2016 and 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
 
   
 This article describes software boundaries and limits of SharePoint Servers 2016 and 2019 which include:

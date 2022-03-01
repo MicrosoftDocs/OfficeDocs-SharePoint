@@ -212,8 +212,6 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
 - To keep on top of the latest SharePoint features rolling out, refer to the [Message Center](/office365/admin/manage/message-center?view=o365-worldwide&preserve-view=true).
 
-- To vote on feature requests or submit your own idea, visit the [SharePoint UserVoice](https://sharepoint.uservoice.com/).
-
 ## Plan user adoption
 
 User adoption is important to the overall success of any rollout. To maximize your investment, you need to maximize your user engagement. To do that, start by focusing on three critical success factors:
