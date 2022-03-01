@@ -41,7 +41,7 @@ Having more visibility into what’s happening with sync can help you proactivel
 
 - OneDrive sync apps on the Insiders or Production ring. Devices on the Deferred ring aren't eligible for the preview. [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
 
-- OneDrive Sync app version 21.078 or later for Windows. Support for Mac isn't available yet.
+- OneDrive Sync app version 21.078 or later for Windows.
 
 - [Global Administrator role](/microsoft-365/admin/add-users/about-admin-roles) or [Office apps admin role](/microsoft-365/admin/add-users/about-admin-roles) to set up the dashboard. After setup, only [Global reader role](/microsoft-365/admin/add-users/about-admin-roles) is required to view the dashboard.
 
@@ -143,7 +143,15 @@ This tab provides the steps you need to take to enable sync reports on macOS dev
 
 6. Create a .plist file with the key **EnableSyncAdminReports**. You can also use a script to set the key. The key is the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the setting, ensure that you target the appropriate domain depending on the edition of the sync app.
 
-7. Deploy the EnableSyncAdminReports setting onto your local computer.
+|| Standalone | Mac App Store |
+|:-----|:-----|:-----|
+|**.plist location  <br/>**|~/Library/Managed Preferences/com.microsoft.OneDrive.plist  <br/> |~/Library/Managed Preferences/com.microsoft.OneDrive-mac.plist  <br/> |
+|**Domain <br/>**|com.microsoft.OneDrive  <br/> |com.microsoft.OneDrive-mac  <br/> |
+
+7. Use the Terminal app to deploy the EnableSyncAdminReports setting onto your local computer.
+
+    The example for this setting in the .plist file is:
+<br/>\<key\>EnableSyncAdminReports\</key\><br/>\<(Bool)/\>
 
 8. Refresh the preferences cache.
 
