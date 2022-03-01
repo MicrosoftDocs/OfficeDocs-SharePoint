@@ -16,6 +16,11 @@ ms.collection:
 search.appverid: MET150
 description: "Use the Mover migration service to set up your Egnyte source connector."
 ---
+
+>[!Important]
+> The legacy Mover.io tool does not support new Engyte connectors. Use [Migration Manager](mm-egynte-overview.md) for migratng from Egnyte.
+
+
 # Setting up the Egnyte source connector
 
 ## Egnyte FAQ
