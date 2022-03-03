@@ -15,7 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 4cf30b48-f908-4774-920c-d2f2916f2c1b
-description: "Learn how use the FILESTREAM provider to enable Remote BLOB Storage (RBS) in a SharePoint Server farm."
+description: "Learn how to use the FILESTREAM provider to enable Remote BLOB Storage (RBS) in a SharePoint Server farm."
 ---
 
 # Install and configure RBS with FILESTREAM in a SharePoint Server farm
@@ -78,28 +78,28 @@ After you have enabled and configured FILESTREAM, provision a BLOB store on the 
     > [!TIP]
     > For best performance, simplified troubleshooting, and as a general best practice, we recommend that you create the BLOB store on a volume that does not contain the operating system, paging files, database data, log files, or the tempdb file. 
   
-  ```sql
-  use [WSS_Content]
-  if not exists 
-  (select * from sys.symmetric_keys 
-  where name = N'##MS_DatabaseMasterKey##')
-  create master key encryption by password = N'Admin Key Password !2#4'
-  ```
+    ```sql
+    use [WSS_Content]
+    if not exists 
+    (select * from sys.symmetric_keys 
+    where name = N'##MS_DatabaseMasterKey##')
+    create master key encryption by password = N'Admin Key Password !2#4'
+    ```
 
-  ```sql
-  use [WSS_Content]
-  if not exists 
-  (select groupname from sysfilegroups 
-  where groupname=N'RBSFilestreamProvider')
-  alter database [WSS_Content]
-  add filegroup RBSFilestreamProvider contains filestream
-  ```
+    ```sql
+    use [WSS_Content]
+    if not exists 
+    (select groupname from sysfilegroups 
+    where groupname=N'RBSFilestreamProvider')
+    alter database [WSS_Content]
+    add filegroup RBSFilestreamProvider contains filestream
+    ```
 
-  ```sql
-  use [WSS_Content] 
-  alter database [WSS_Content]
-  add file (name = RBSFilestreamFile, filename = 'c:\Blobstore') to filegroup RBSFilestreamProvider
-  ```
+    ```sql
+    use [WSS_Content] 
+    alter database [WSS_Content]
+    add file (name = RBSFilestreamFile, filename = 'c:\Blobstore') to filegroup RBSFilestreamProvider
+    ```
 
 ## Install the RBS client library on SQL Server and each Front-end or Application server
 <a name="library"> </a>
@@ -156,10 +156,10 @@ You must install RBS client library on the SQL Server node and all Front-end or 
      - [Microsoft SQL Server 2014 SP2 Feature Pack](https://www.microsoft.com/download/details.aspx?id=53164)
     
 3. Copy and paste the following command into the Command Prompt window. Replace  _WSS_Content_ with the database name, and replace  _DBInstanceName_ with the SQL Server instance name. You should run this command by using the specific database name and SQL Server instance name only one time. The action should finish within approximately one minute. 
-    
-  ```
-  msiexec /qn /lvx* rbs_install_log.txt /i RBS_amd64.msi TRUSTSERVERCERTIFICATE=true FILEGROUP=PRIMARY DBNAME="WSS_Content" DBINSTANCE="DBInstanceName" FILESTREAMFILEGROUP=RBSFilestreamProvider FILESTREAMSTORENAME=FilestreamProvider_1
-  ```
+
+    ```sql
+    msiexec /qn /lvx* rbs_install_log.txt /i RBS_amd64.msi TRUSTSERVERCERTIFICATE=true FILEGROUP=PRIMARY DBNAME="WSS_Content" DBINSTANCE="DBInstanceName" FILESTREAMFILEGROUP=RBSFilestreamProvider FILESTREAMSTORENAME=FilestreamProvider_1
+    ```
 
 ### To install the RBS client library on all SharePoint Front-end and Application servers
 
@@ -208,19 +208,19 @@ You must install RBS client library on the SQL Server node and all Front-end or 
      - [Microsoft SQL Server 2014 SP2 Feature Pack](https://www.microsoft.com/download/details.aspx?id=53164)
     
 3. Copy and paste the following command into the Command Prompt window. Replace  _WSS_Content_ with the database name, and replace  _DBInstanceName_ with the name of the SQL Server instance. The action should finish within approximately one minute. 
-    
-  ```
-  msiexec /qn /lvx* rbs_install_log.txt /i RBS_amd64.msi DBNAME="WSS_Content" DBINSTANCE="DBInstanceName" ADDLOCAL=Client,Docs,Maintainer,ServerScript,FilestreamClient,FilestreamServer
-  ```
 
-  > [!NOTE]
-  > If you attempt to install SQL Server 2012 Remote Blob Store for an additional database on the same instance of SQL Server, you will receive an error. For more information, see [KB2767183](https://support.microsoft.com/kb/2767183). 
+    ```sql
+    msiexec /qn /lvx* rbs_install_log.txt /i RBS_amd64.msi DBNAME="WSS_Content" DBINSTANCE="DBInstanceName" ADDLOCAL=Client,Docs,Maintainer,ServerScript,FilestreamClient,FilestreamServer
+    ```
+
+    > [!NOTE]
+    > If you attempt to install SQL Server 2012 Remote Blob Store for an additional database on the same instance of SQL Server, you will receive an error. For more information, see [KB2767183](https://support.microsoft.com/kb/2767183). 
   
-For subsequent content databases for which you want to enable RBS, change the `msiexec` command similar to below.
-    
-```
-msiexec /qn /lvx* rbs_install_log_ContentDbName.txt /i RBS_amd64.msi REMOTEBLOBENABLE=1 FILESTREAMPROVIDERENABLE=1 DBNAME="WSS_Content_2" ADDLOCAL="EnableRBS,FilestreamRunScript" DBINSTANCE="DBInstanceName"
-```
+    For subsequent content databases for which you want to enable RBS, change the `msiexec` command similar to below.
+
+    ```sql
+    msiexec /qn /lvx* rbs_install_log_ContentDbName.txt /i RBS_amd64.msi REMOTEBLOBENABLE=1 FILESTREAMPROVIDERENABLE=1 DBNAME="WSS_Content_2" ADDLOCAL="EnableRBS,FilestreamRunScript" DBINSTANCE="DBInstanceName"
+    ```
 
 4. Repeat this procedure for all Front-end servers and Application servers in the SharePoint farm.
     
@@ -244,25 +244,25 @@ You must enable RBS on one web server in the SharePoint farm. It is not importan
  **To enable RBS by using Microsoft PowerShell**
   
 1. Verify that you have the following memberships:
-    
-  - **securityadmin** fixed server role on the SQL Server instance. 
-    
-  - **db_owner** fixed database role on all databases that are to be updated. 
-    
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
-    
+
+    - **securityadmin** fixed server role on the SQL Server instance. 
+
+    - **db_owner** fixed database role on all databases that are to be updated. 
+
+    - Administrators group on the server on which you are running the PowerShell cmdlets.
+
 2. Start the SharePoint Management Shell.
     
 3. At the Microsoft PowerShell command prompt, type the following command:
-    
-  ```
-  $cdb = Get-SPContentDatabase <ContentDatabaseName>
-  $rbss = $cdb.RemoteBlobStorageSettings
-  $rbss.Installed()
-  $rbss.Enable()
-  $rbss.SetActiveProviderName($rbss.GetProviderNames()[0])
-  $rbss
-  ```
+
+    ```powershell
+    $cdb = Get-SPContentDatabase <ContentDatabaseName>
+    $rbss = $cdb.RemoteBlobStorageSettings
+    $rbss.Installed()
+    $rbss.Enable()
+    $rbss.SetActiveProviderName($rbss.GetProviderNames()[0])
+    $rbss
+    ```
 
    Where  _\<ContentDatabaseName\>_ is the name of the content database. 
     
