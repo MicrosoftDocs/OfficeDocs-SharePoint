@@ -11,6 +11,7 @@ f1.keywords:
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
+ms.custom: admindeeplinkSPO
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
@@ -104,7 +105,7 @@ The Business Data Connectivity service (BDC) Metadata Store holds external conte
   
 **To set permissions on the BDC Metadata Store in SharePoint in Microsoft 365**
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
 
 2. Under **BCS**, select **Open**.
     
@@ -154,7 +155,7 @@ Before you begin this procedure, make sure you have the following:
     
 **To configure the connection settings object for the BCS hybrid scenario**
   
-1. go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
 
 2. Under **BCS**, select **Open**.
     

@@ -32,6 +32,14 @@
 #### [Step 4: Review destination paths](mm-Dropbox-step4-review-destinations.md)
 #### [Step 5: Map identities](mm-Dropbox-step5-map-identities.md)
 #### [Step 6: Migrate and Monitor](mm-Dropbox-step6-migrate-monitor.md)
+### Migrate from Egnyte
+#### [Overview](mm-egnyte-overview.md)
+#### [Step 1: Connect to Egnyte](mm-egnyte-step1-connect.md)
+#### [Step 2: Scan and assess](mm-egnyte-step2-scan-assess.md)
+#### [Step 3: Copy to Migrations list](mm-egnyte-step3-copy-to-migrations.md)
+#### [Step 4: Review destination paths](mm-egnyte-step4-review-destinations.md)
+#### [Step 5: Map identities](mm-egnyte-step5-map-identities.md)
+#### [Step 6: Migrate and Monitor](mm-egnyte-step6-migrate-monitor.md)
 ### Migrate SharePoint Server sites and content with SPMT
 #### [Overview](introducing-the-sharepoint-migration-tool.md)
 #### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
@@ -42,8 +50,11 @@
 #### [Step 1: Configure endpoints and Power Automate](spmt-workflow-step1.md)
 #### [Step 2: Migrate workflows](spmt-workflow-step2.md)
 #### [Step 3: Activate workflows](spmt-workflow-step3.md)
+### [Migrate SharePoint Server workflows using PowerShell](spmt-workflow-powershell.md)
 ## Migration Manager Reference
-### [Error codes](mm-error-codes.md)
+### Troubleshooting and errors codes
+#### [Troubleshooting and errors](mm-troubleshoot.md)
+#### [Transaction Error codes](mm-error-codes.md)
 ### File share Reference
 #### [Prerequisites and endpoints](mm-prerequisites.md)
 #### [Settings](mm-settings.md)
@@ -56,7 +67,6 @@
 #### [Reports](mm-reports.md)
 #### [FAQs](mm-faqs.md)
 #### [How to reinstall a Migration agent](mm-reinstall-agent.md)
-#### [Troubleshooting](mm-troubleshoot.md)
 ### Box Reference
 #### [FAQs](mm-faqs-box.md)
 #### [Format a CSV file for bulk upload](mm-box-bulk-upload-source-paths-csv.md)
