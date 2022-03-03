@@ -20,14 +20,14 @@ description: "Learn how use the FILESTREAM provider to enable Remote BLOB Storag
 
 # Install and configure RBS with FILESTREAM in a SharePoint Server farm
 
-[!INCLUDE[appliesto-2013-2016-2019-SUB-SQL-2017-2019-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-SQL-2017-2019-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 SharePoint Server uses the RBS feature to store binary large objects (BLOBs) outside the content database. For more information about RBS, see [Overview of RBS in SharePoint Server](rbs-overview.md).
   
 Unless otherwise specified, the information in this article is specific to RBS using the FILESTREAM provider. For guidance specific to another provider, contact the provider manufacturer.
   
 > [!TIP]
-> This solution uses the FILESTREAM RBS provider that is included with SQL Server 2014, Service Pack 1 SP1, SP2, SQL Server 2016, SQL Server 2016 SP1, and SQL Server 2008. If you want to install and configure RBS using a different provider, use the procedure in [Install and configure RBS with a 3rd party provider for SharePoint Server](install-and-configure-rbs-with-a-3rd-party-provider.md). 
+> This solution uses the FILESTREAM RBS provider that is included with SQL Server 2019, SQL Server 2017, SQL Server 2016, SQL Server 2016 SP1, SQL Server 2014, Service Pack 1 SP1, SP2, and SQL Server 2008. If you want to install and configure RBS using a different provider, use the procedure in [Install and configure RBS with a 3rd party provider for SharePoint Server](install-and-configure-rbs-with-a-3rd-party-provider.md). 
   
     
 ## Before you begin
@@ -115,12 +115,30 @@ You must install RBS client library on the SQL Server node and all Front-end or 
     
 2. On SQL Server node, download the correct RBS client based on the SQL Server version and SharePoint level that you use.
     
-    SharePoint Server 2016 supports the FILESTREAM provider that is included in the SQL Server 2014 and SQL Server 2016.
+    SharePoint Server Subscription Edition supports the FILESTREAM provider that is included in SQL Server 2019 and later versions of SQL Server.
+
+    SharePoint Server 2019 supports the FILESTREAM provider that is included in SQL Server 2016 and SQL Server 2017.
+
+    SharePoint Server 2016 supports the FILESTREAM provider that is included in SQL Server 2014 and SQL Server 2016.
     
     SharePoint 2013 supports the FILESTREAM providers that are included in all versions of SQL Server 2008 R2, SQL Server 2012, and SQL Server 2014.
     
     You only need to download the RSB.msi file from the Feature Pack but make sure you download the correct processor type for your server, either x86 or x64.
     
+    For SharePoint Server Subscription Edition, choose the correct install from the following list:
+    
+     - [Microsoft SQL Server 2019 Integration Services Feature Pack](https://www.microsoft.com/download/details.aspx?id=100303)
+    
+    For SharePoint Server 2019, choose the correct install from the following list:
+    
+     - [Microsoft SQL Server 2016 SP1 Feature Pack](https://www.microsoft.com/download/details.aspx?id=54279)
+    
+     - [Microsoft SQL Server 2016 SP2 Feature Pack](https://www.microsoft.com/download/details.aspx?id=56833)
+    
+     - [Microsoft SQL Server 2016 SP3 Feature Pack](https://www.microsoft.com/download/details.aspx?id=103444)
+
+     - [Microsoft SQL Server 2017 Feature Pack](https://www.microsoft.com/download/details.aspx?id=55992)
+
     For SharePoint Server 2016, choose the correct install from the following list:
     
      - [Microsoft SQL Server 2014 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=733635)
@@ -149,12 +167,30 @@ You must install RBS client library on the SQL Server node and all Front-end or 
     
 2. On any web server, download the correct RBS client based on the SQL Server version and SharePoint level that you use. Use one of the following lists to choose the correct install.
     
-    SharePoint Server 2016 supports the FILESTREAM provider that is included in the SQL Server 2014 and SQL Server 2016.
+    SharePoint Server Subscription Edition supports the FILESTREAM provider that is included in SQL Server 2019 and later versions of SQL Server.
+
+    SharePoint Server 2019 supports the FILESTREAM provider that is included in SQL Server 2016 and SQL Server 2017.
+
+    SharePoint Server 2016 supports the FILESTREAM provider that is included in SQL Server 2014 and SQL Server 2016.
     
     SharePoint 2013 supports the FILESTREAM providers that are included in all versions of SQL Server 2008 R2, SQL Server 2012, and SQL Server 2014.
     
     You only need to download the RSB.msi file from the Feature Pack but make sure you download the x64 version.
     
+    For SharePoint Server Subscription Edition, choose the correct install from the following list:
+    
+     - [Microsoft SQL Server 2019 Integration Services Feature Pack](https://www.microsoft.com/download/details.aspx?id=100303)
+    
+    For SharePoint Server 2019, choose the correct install from the following list:
+    
+     - [Microsoft SQL Server 2016 SP1 Feature Pack](https://www.microsoft.com/download/details.aspx?id=54279)
+    
+     - [Microsoft SQL Server 2016 SP2 Feature Pack](https://www.microsoft.com/download/details.aspx?id=56833)
+    
+     - [Microsoft SQL Server 2016 SP3 Feature Pack](https://www.microsoft.com/download/details.aspx?id=103444)
+
+     - [Microsoft SQL Server 2017 Feature Pack](https://www.microsoft.com/download/details.aspx?id=55992)
+
     For SharePoint Server 2016, choose the correct install from the following list:
     
      - [Microsoft SQL Server 2014 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=733635)
