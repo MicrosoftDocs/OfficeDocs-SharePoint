@@ -545,7 +545,7 @@ If you choose to use AD FS as identity provider, perform the following steps to 
 
         :::image type="content" source="../media/add-transform-claim-rule.png" alt-text="Add Transform Claim Rule":::
 
-    3. Give your Claim rule a name of **AD** and select **Active Directory** from the Attribute store drop down menu. Create two mappings using the drop-down boxes as shown:
+    3. Give your Claim rule a name of **AD** and select **Active Directory** from the Attribute store dropdown menu. Create two mappings using the drop-down boxes as shown:
 
         | Attribute | Value |
         |---------|---------|
