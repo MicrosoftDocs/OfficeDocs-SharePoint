@@ -54,7 +54,7 @@ If you have not already installed TMG 2010 and configured it for your network, u
   
  **Install TMG 2010**
   
-1. Install Forefront TMG 2010 if it is not already installed. For more information on installing TMG 2010, see [Forefront TMG Deployment](https://go.microsoft.com/fwlink/p/?LinkId=403873).
+1. Install Forefront TMG 2010 if it is not already installed. For more information on installing TMG 2010, see [Forefront TMG Deployment](/previous-versions/tn-archive/cc441585(v=technet.10)).
     
 2. Install all the available service packs and updates for TMG 2010. For more information, see [Installing Forefront TMG Service Packs](/previous-versions/tn-archive/ff717843(v=technet.10)).
     
