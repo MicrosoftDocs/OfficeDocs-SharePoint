@@ -349,7 +349,7 @@ To do this, perform the following steps:
 In the [previous step](#step-3-configure-sharepoint-to-trust-the-identity-provider) you have already created an OIDC `SPTrustedIdentityTokenIssuer` by using `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet. In this step, you will create a claim provider which uses the User Profile Application service to search and resolve users and groups in the People Picker and specifies to use the OIDC `SPTrustedIdentityTokenIssuer`:
 
   ```powershell
-  $claimprovider = New-SPClaimProvider -AssemblyName "Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c" -DisplayName 'OIDC Claim Provider' -Type "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider" -TrustedTokenIssuer $tokenissuer
+  $claimprovider = New-SPClaimProvider -AssemblyName "Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c" -DisplayName 'OIDC Claim Provider' -Type "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider" -TrustedTokenIssuer $tokenissuer -Description “OIDC Claim Provider” -Default:$false
   ```
 
 There are three parameters that need to be specified here:
@@ -359,6 +359,7 @@ There are three parameters that need to be specified here:
 | AssemblyName | To be specified as "Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c". |
 | Type | To be specified as "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider" so that this command creates a claim provider which uses UPA as the claim source. |
 | TrustedTokenIssuer | To be specified as the OIDC `SPTrustedIdentityTokenIssuer` created in the [previous step](#step-3-configure-sharepoint-to-trust-the-identity-provider) which will use this claim provider. This is a new parameter the user needs to provide when the type of the claim provider is "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider". |
+| Default | As we have created a claim provider by using this cmdlet, this cmdlet can only work with SPTrustedIdentityTokenIssuer and “Default” parameter must be set to false so that it won’t be used by any other authentication method assigned to the web application by default. |
 
 #### 2. Connect `SPTrustedIdentityTokenIssuer` with `SPClaimProvider`
 
@@ -450,7 +451,7 @@ To enable the People Picker control to work with groups, the following steps nee
     1. For AD Import synchronization, SID will be synchronized automatically without additional setup from the source identity provider to the SharePoint User Profile Application service.
     2. For MIM synchronization, the property mapping needs to be taken from the identity provider to MIM and then from MIM to the SharePoint User Profile Application service so that MIM can synchronize the group “SID” from the identity provider to the SharePoint User Profile Application service. This is similar to how we do user profile synchronization for the `SPS-ClaimID` property for user profiles.
 
-3. For MIM synchronization, “sAMAccountName” should also be mapped to “accountName” from MIM to the SharePoint User Profile Application service.
+3. For MIM synchronization, “sAMAccountName” should also be mapped to “accountName” from MIM to the SharePoint User Profile Application service. If it doesn’t exist, admin should create mapping pair from “sAMAccountName” to “accountName” in MIM manually.
 
 #### 5. Enable fields being searchable in UPSA
 
@@ -544,7 +545,7 @@ If you choose to use AD FS as identity provider, perform the following steps to 
 
         :::image type="content" source="../media/add-transform-claim-rule.png" alt-text="Add Transform Claim Rule":::
 
-    3. Give your Claim rule a name of **AD** and select **Active Directory** from the Attribute store drop down menu. Create two mappings using the drop-down boxes as shown:
+    3. Give your Claim rule a name of **AD** and select **Active Directory** from the Attribute store dropdown menu. Create two mappings using the drop-down boxes as shown:
 
         | Attribute | Value |
         |---------|---------|
