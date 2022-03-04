@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -27,9 +28,15 @@ Dropbox supports a selective sync function that can cause problems when trying t
 
 For easy access, our app displays Team Folders in the root of your connector (among the users).
 
-If you're editing the source or destination paths in our app, select the back button to find the root listing of users and team drives; then select the source or destination that you want.
+The way Dropbox structures the source Team Folders is reflected in the auto-discover feature as:
+*/Your team's shared workspace*.
 
-If you're creating a user mapping via CSV, map your Accounting Team Folder as `/Accounting` which is different than your Accounting user `/accounting@company`.com.
+To set a source path as a Dropbox Team folder, you need to use a .csv file and direct it to a specific team folder within this shared workspace root directory.
+
+The formatting for a Dropbox Team Folder source path should be something similar to this:
+
+- */Your team’s shared workspace/TeamFolder Name*
+
 
 ### How does Dropbox manage sharing and permissions?
 
@@ -52,7 +59,7 @@ Authorizing **Dropbox Business** as an administrator is straightforward. To auth
 
 ![authorize source connector](media/mover-auth-source-connector.png)</br>
 
-4. A new window (tab) opens. Name your Connector <optional>.</br>
+4. A new window (tab) opens. Name your Connector \<optional\>.</br>
 
 ![Name new dropbox connector](media/name-new-dropbox-connector.png)</br>
 

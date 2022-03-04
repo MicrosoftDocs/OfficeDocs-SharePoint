@@ -1,8 +1,8 @@
 ---
 title: Provision the SharePoint Success Site 
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -14,6 +14,7 @@ ms.localizationpriority: high
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
@@ -81,7 +82,7 @@ Ready to get started provisioning? Review the [provisioning instructions](#provi
 - **No** - Next, [enable the App Catalog](https://www.bing.com/videos/search?q=where+to+find+the+app+catogue+in+sharepoint&docid=608008189208497248&mid=99CF7FB554B328AC189899CF7FB554B328AC1898&view=detail&FORM=VIRE) (this will take about 30 minutes).
 
 
-If you are unsure, navigate to the SharePoint admin center, then select **Sites > Active sites**. The **App Catalog** will appear in the list of sites.
+If you are unsure, navigate to the SharePoint admin center, then select **Sites** > <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites**</a>. The **App Catalog** will appear in the list of sites.
 
   ![Active sites in the SharePoint admin center](media/sss-active-sites.png)
 
@@ -94,7 +95,7 @@ If you are unsure, navigate to the SharePoint admin center, then select **Sites 
 - **No** - [Provision Microsoft 365 learning pathways](/office365/customlearning/) for the first time.
 
 
-If you are unsure, navigate to the SharePoint admin center, then select **Sites > Active sites**. **Microsoft 365 learning pathways** will appear in the list of sites.
+If you are unsure, navigate to the SharePoint admin center, then select **Sites** > <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites**</a>. **Microsoft 365 learning pathways** will appear in the list of sites.
  
 **Is your tenant's version of learning pathways version 4.0 or higher?**
 - **Yes** - You are ready to [provision the SharePoint Success Site](#provision-the-sharepoint-success-site-1).

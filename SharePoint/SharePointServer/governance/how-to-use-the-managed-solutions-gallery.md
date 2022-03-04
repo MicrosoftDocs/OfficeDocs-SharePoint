@@ -78,7 +78,7 @@ Before you can use the Managed Solutions Gallery, you must create a site collect
   Enable-SPUserSolutionAllowList
   ```
 
-    If you want to disable the functionality of the Managed Solutions Gallery, you can run the **Disable-SPUserSolutionAllowList** cmdlet. 
+  If you want to disable the functionality of the Managed Solutions Gallery, you can run the **Disable-SPUserSolutionAllowList** cmdlet. 
     
 ## Transform your sandbox solutions to the SharePoint add-in model
 

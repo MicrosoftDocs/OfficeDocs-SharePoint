@@ -9,6 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection:
 - m365solution-migratefileshares
@@ -17,9 +18,10 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150to the migration list in Migration Manager."
+description: "Learn how to copy to migrations for file share migration."
 ---
 
-# Step 3: Copy to migrations
+# Step 3: Copy to migrations for file share migration
 
 After a file share has been scanned and determined ready, add it to your migration list.  
 
@@ -66,8 +68,6 @@ An incremental check of your SharePoint destination environment is performed. Fi
 
 
 >[!NOTE]
->Migration Manager for file shares isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. 
->
->It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager for file shares isn't available for users of Office 365 operated by 21Vianet in China. 
 >
 > This feature is not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

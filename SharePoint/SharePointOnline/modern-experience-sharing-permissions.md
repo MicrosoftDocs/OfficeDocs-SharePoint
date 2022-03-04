@@ -15,6 +15,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
@@ -43,7 +44,7 @@ It's possible to manage SharePoint site permissions separately from the Microsof
 > [!NOTE]
 > When you create a new team or private channel in Microsoft Teams, a team site in SharePoint gets automatically created. To edit the site description or classification for this team site, go to the corresponding channel’s [settings in Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d).
 >
-> Learn more about managing [Microsoft Teams connected teams sites](https://docs.microsoft.com/SharePoint/teams-connected-sites).
+> Learn more about managing [Microsoft Teams connected teams sites](/SharePoint/teams-connected-sites).
 
 ### Using team sites with Teams
 
@@ -51,7 +52,7 @@ Microsoft Teams provides a hub for collaboration by bringing together various se
 
 For scenarios where a SharePoint site is used with Teams, we recommend doing all permission management through Teams. As with Microsoft 365 groups, team owners become site owners and team members become site members. View-only permissions are managed through the site.
 
-For details about how SharePoint and Teams interact, see [How SharePoint and OneDrive interact with Microsoft Teams](/microsoftteams/sharepoint-onedrive-interact).
+For details about how SharePoint and Teams interact, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites) and [Manage settings and permissions when SharePoint and Teams are integrated](/sharepoint/manage-teams-sharepoint-experiences).
 
 ## Communication site permissions
 
@@ -77,7 +78,7 @@ Managing the permissions of a hub site is dependent on the underlying type of si
 
 Hub site owners define the shared experiences for hub navigation and theme. Hub site members create content on the hub as with any other SharePoint site. Owners and members of the sites associated with the hub create content on their individual sites.
 
-The SharePoint admin must specify which users can connect other sites to the hub. This is done in the SharePoint admin center and cannot be changed by site owners.
+The SharePoint admin must specify which users can connect other sites to the hub. This is done in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> and cannot be changed by site owners.
 
 ![Screenshot of hub site registration dialog in the SharePoint admin center](media/permissions-register-hub-site.png)
 

@@ -1,8 +1,8 @@
 ---
 title: "Get started planning and implementing SharePoint navigation design"
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin

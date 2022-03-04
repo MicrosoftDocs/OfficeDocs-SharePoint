@@ -1,8 +1,8 @@
 ---
 title: "Guided walkthrough: Creating a training site for your organization"
 ms.reviewer: 
-ms.author: dowallace
-author: dowallace
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -14,7 +14,8 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
-ms.custom: seo-marvel-apr2020
+ms.custom: 
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150

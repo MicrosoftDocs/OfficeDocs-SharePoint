@@ -67,15 +67,15 @@ For an overview of managed properties that are enabled as refiners by default, s
     
 6. To specify an alias of the refinable managed property to use when you configure refiners for faceted navigation, on the **Edit Managed Property** page, type a user-friendly name in the **Alias** box. 
     
-    > [!IMPORTANT]
-    > For properties that use the data type Managed Metadata, the alias must consist of the type code,  *owstaxId*  , followed by the property name. For example, for a property named  *Color*  that uses the Managed Metadata data type, the alias for the refinable managed property must be  *owstaxIdColor*  . 
+> [!IMPORTANT]
+> For properties that use the data type Managed Metadata, the alias must consist of the type code,  *owstaxId*  , followed by the property name. For example, for a property named  *Color*  that uses the Managed Metadata data type, the alias for the refinable managed property must be  *owstaxIdColor*  . 
   
 7. In the **Mappings to crawled properties** section, click **Add a Mapping**.
     
 8. In the **Crawled property selection** dialog, find the crawled property that you want to map to the refinable managed property in the list, or search for it by typing the name of the crawled property in the box, and then clicking **Find**.
     
-    > [!IMPORTANT]
-    > When you search for a crawled property, you may find two crawled properties that represent the same content. For example, a site column of type Text named  *Color*  will during crawl discover two crawled properties:  *ows_Color*  and  *ows_q_TEXT_Color*  . Crawled properties that begin with either  *ows_r\<four letter code\>*  ,  *ows_q\<four letter code\>*  , or  *ows_taxId*  are automatically created crawled properties. When you select a crawled property to map to a refinable managed property, make sure that you don't map the automatically created crawled property. Instead, always map the crawled property that begins with  *ows_*  . > For more information about automatically created crawled properties, see [Automatically created managed properties in SharePoint Server](../technical-reference/automatically-created-managed-properties-in-sharepoint.md). 
+> [!IMPORTANT]
+> When you search for a crawled property, you may find two crawled properties that represent the same content. For example, a site column of type Text named  *Color*  will during crawl discover two crawled properties:  *ows_Color*  and  *ows_q_TEXT_Color*  . Crawled properties that begin with either  *ows_r\<four letter code\>*  ,  *ows_q\<four letter code\>*  , or  *ows_taxId*  are automatically created crawled properties. When you select a crawled property to map to a refinable managed property, make sure that you don't map the automatically created crawled property. Instead, always map the crawled property that begins with  *ows_*  . > For more information about automatically created crawled properties, see [Automatically created managed properties in SharePoint Server](../technical-reference/automatically-created-managed-properties-in-sharepoint.md). 
   
 9. Click **OK**.
     
@@ -140,8 +140,8 @@ For more information about automatically created managed properties, see [Automa
     
 10. In the **Crawled property selection** dialog, find the crawled property that you want to map to the managed property in the list, or search for it by typing the name of the crawled property in the box, and then clicking **Find**.
     
-    > [!IMPORTANT]
-    > When you search for a crawled property, you may find two crawled properties that represent the same content. For example, a site column of type Date and Time named  *Created*  will during crawl discover two crawled properties:  *ows_Created*  and  *ows_q_DATE_Created*  . Crawled properties that begin with either  *ows_r\<four letter code\>,*  *ows_q\<four letter code\>*  or  *ows_taxId*  are automatically created crawled properties. When you select a crawled property to map to a managed property, make sure that you don't map the automatically created crawled property. Instead, always map the crawled property that begins with  *ows_.* 
+> [!IMPORTANT]
+> When you search for a crawled property, you may find two crawled properties that represent the same content. For example, a site column of type Date and Time named  *Created*  will during crawl discover two crawled properties:  *ows_Created*  and  *ows_q_DATE_Created*  . Crawled properties that begin with either  *ows_r\<four letter code\>,*  *ows_q\<four letter code\>*  or  *ows_taxId*  are automatically created crawled properties. When you select a crawled property to map to a managed property, make sure that you don't map the automatically created crawled property. Instead, always map the crawled property that begins with  *ows_.* 
   
 11. Click **OK**.
     
@@ -263,17 +263,17 @@ Note that there are two methods depending on whether you are using the default d
 6. In the **Parts** list, click **Content Editor**, and then click **Add**.
     
 7. In the Web Part, click **Click here to add new content**, and type one of the following two code strings:
-    
-  ```
+            
+  ```powershell
   # To ensure correct refiner formatting by using type code:
   Srch.ValueInfo.overrideRenderingForProperty( "<ManagedPropertyName>", "Property<TypeCode>" );
   # To ensure correct refiner formatting by using a managed properties that is enabled as a refiner by default:
   Srch.ValueInfo.overrideRenderingForProperty("<ManagedPropertyName>", "<DefaultRefinableManagedProperty>");
   ```
 
-    Where:
+  Where:
     
-  -  *\<ManagedPropertyName\>*  is the name of the managed property that is enabled as a refiner, for example  *CreatedOWSDATE*  . 
+  -  *\<ManagedPropertyName\>*  is the name of the managed property that is enabled as a refiner, for example  *CreatedOWSDATE*. 
     
   - \<TypeCode\> is a seven letter code indicating the data type, for example  *OWSDATE*  . For an overview of type codes, see [Type codes](configure-refiners-and-faceted-navigation.md#BKMK_TypeCodes).
     
@@ -301,7 +301,7 @@ Note that there are two methods depending on whether you are using the default d
     
 7. In the Web Part, click **Click here to add new content**, and then type the following code strings:
     
-  ```
+  ```powershell
   # To ensure correct refiner formatting by using type code:
   Srch.ValueInfo.overrideRefinementTemplateForProperty("<ManagedPropertyName>", "Property<TypeCode>", "~sitecollection/<PathToDisplayTemplate>" );
   # To ensure correct refiner formatting by using a managed properties that is enabled as a refiner by default:

@@ -99,11 +99,11 @@ Before you set content databases to read-only, you may need to determine the con
   Get-SPContentDatabase -Site <Site URL>
   ```
 
-    Where:
+  Where:
     
   -  _\<Site URL\>_ is the site collection URL for which you want to know the associated content database. 
     
-    The command returns the content database that is associated with the site.
+  The command returns the content database that is associated with the site.
     
 For more information, see [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps&preserve-view=true).
   

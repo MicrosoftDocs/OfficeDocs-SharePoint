@@ -14,7 +14,6 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Strat_SP_server
-ms.custom: 
 description: "Learn about the new features and updates to existing features in SharePoint Server 2019."
 ---
 
@@ -214,7 +213,7 @@ This file path length limit increase makes it easier to sync deeply nested conte
 
 - A SharePoint hybrid status bar was added to the top of Central Administration. The hybrid status bar will appear once the SharePoint Server 2019 farm meets the minimum system requirements needed to enable hybrid, and will give you direct access to launch the SharePoint Hybrid Configuration Wizard.
 
-- We've added and updated hybrid links throughout Central Administration to launch the SharePoint Hybrid Configuration Wizard. This lets you skip clicking through multiple pages in the SharePoint Admin Center just to get to the SharePoint Hybrid Configuration Wizard.
+- We've added and updated hybrid links throughout Central Administration to launch the SharePoint Hybrid Configuration Wizard. This lets you skip clicking through multiple pages in the SharePoint admin center just to get to the SharePoint Hybrid Configuration Wizard.
 
 ### Recycle Bin restore improvements
 

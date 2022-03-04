@@ -1,7 +1,7 @@
 ---
 title: "Enhanced People Picker for modern authentication"
 ms.reviewer: 
-ms.author: v-benzyd
+ms.author: serdars
 author: benzicald
 manager: serdars
 ms.date: 7/2/2021
