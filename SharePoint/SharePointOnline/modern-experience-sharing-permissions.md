@@ -87,9 +87,9 @@ The SharePoint admin must specify which users can connect other sites to the hub
 
 Giving people permissions to a site, group, or team gives them access to all site content. If you want to share an individual file or folder, you can do so with shareable links. There are three primary link types:
 
-  - *Anyone* links give access to the item to anyone who has the link, including people outside your organization. People using an *Anyone* link don't have to authenticate, and their access can't be audited.
-  - *People in your organization* links work for only people inside your Microsoft 365 organization. (They don't work for guests in the directory, only members).  
-  - *Specific people* links only work for the people that users specify when they share the item.  
+  - *Anyone* links give access to the item to anyone who has the link, including people outside your organization. People using an *Anyone* link don't have to authenticate, and their access can't be audited. *Anyone* links can't be used with files in a Teams shared channel site.
+  - *People in your organization* links work for only people inside your Microsoft 365 organization. (They don't work for guests or external participants in Teams shared channels).
+  - *Specific people* links only work for the people that users specify when they share the item. For files in a Teams shared channel site, *specific people* links can only be sent to others in the channel.
 
 You can [change the type of link that is presented to users by default](./change-default-sharing-link.md) for each site.
 
@@ -107,6 +107,8 @@ Whichever option you choose at the organization or site level, the more restrict
   
 External sharing is turned on by default for your organization. Default settings for individual sites vary depending on the type of site. See [Site level settings](/microsoft-365/solutions/microsoft-365-guest-settings) for more information.
 
+[Shared channels in teams](/MicrosoftTeams/shared-channels) do not use guest accounts for sharing with people outside the organization. However, external sharing must be enabled for people outside the organization to be invited to shared channels.
+
 Guest sharing for private and shared channel sites can only be changed by using PowerShell.
 
 To set up guest sharing for a site, see [Collaborate with guests in a site](/microsoft-365/solutions/collaborate-in-site).
@@ -117,11 +119,11 @@ If you have confidential information that should never be shared externally, we 
 
 ## SharePoint and OneDrive integration with Azure AD B2B 
 
-Azure AD B2B provides authentication and management of guests. Authentication happens via one-time passcode when they don't already have a work or school account or a Microsoft account (MSA).
+Azure AD B2B collaboration provides authentication and management of guests. Authentication happens via one-time passcode when they don't already have a work or school account or a Microsoft account (MSA).
 
-With SharePoint and OneDrive integration, the Azure B2B one-time passcode feature is used for external sharing of files, folders, list items, document libraries and sites.
+With SharePoint and OneDrive integration, the Azure B2B collaboration one-time passcode feature is used for external sharing of files, folders, list items, document libraries and sites. (Shared channels in Teams don't use Azure B2B collaboration, but rather [Azure B2B direct connect](/azure/active-directory/external-identities/b2b-direct-connect-overview).)
 
-With Azure B2B integration, all guests are added to the directory and can be managed using Microsoft 365 security and compliance tools. We encourage you to try the [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md).
+With Azure B2B collaboration integration, all guests are added to the directory and can be managed using Microsoft 365 security and compliance tools. We encourage you to try the [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration.md).
 
 ## See also
 
