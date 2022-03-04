@@ -92,7 +92,7 @@ From an elevated Command Prompt, run the following to create and install the cer
 certreq -new request.inf
 certutil -store My "sts.contoso.com"
 ````
-copy the SerialNumber output from the second command and use it in the following command. Replace <SerialNumber> with the actual value.
+copy the SerialNumber output from the second command and use it in the following command. Replace \<SerialNumber\> with the actual value.
   
 ```
 certutil -exportPFX -p "P@ssw0rd1!" CA <SerialNumber> C:\sts.pfx
@@ -143,10 +143,6 @@ Complete the previous steps on all SharePoint server in the farm. This completes
 ## See Also
 
 [Hybrid for SharePoint Server](../hybrid/hybrid.md)
-
-[Export-PfxCertificate](/powershell/module/pkiclient/export-pfxcertificate?view=win10-ps)
-
-[Export-Certificate](/powershell/module/pkiclient/export-certificate?view=win10-ps)
 
 [Certreq](/windows-server/administration/windows-commands/certreq_1)
 

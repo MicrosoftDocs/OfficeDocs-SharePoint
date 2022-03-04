@@ -21,7 +21,7 @@ description: "Learn about the SharePoint Server relationship with SQL Server and
 
 # Overview of SQL Server in SharePoint Server 2016 and 2019 environments
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)] 
   
 The minimum requirements for a database server in SharePoint Servers 2016 and 2019 are as follows:
 
@@ -57,9 +57,9 @@ SharePoint Server 2019 supports the following:
 - SQL Server 2016 Analysis Services (SSAS)
 
 > [!NOTE]
-> SQL Server Reporting Services integration with SharePoint Server 2019 is no longer supported. For more information, see [Reporting Services Report Server (SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016&viewFallbackFrom=sql-server-2017) and [Supported combinations of SharePoint and Reporting Services server](/sql/reporting-services/install-windows/supported-combinations-of-sharepoint-and-reporting-services-server?view=sql-server-2016).
+> SQL Server Reporting Services integration with SharePoint Server 2019 is no longer supported. For more information, see [Reporting Services Report Server (SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016&viewFallbackFrom=sql-server-2017&preserve-view=true) and [Supported combinations of SharePoint and Reporting Services server](/sql/reporting-services/install-windows/supported-combinations-of-sharepoint-and-reporting-services-server?view=sql-server-2016&preserve-view=true).
 
-You can use the Report Viewer web part that has much of the same functionality as integrated mode. for more information, see [Add the Report Viewer web part to a web page](/sql/reporting-services/report-server-sharepoint/add-the-report-viewer-web-part-to-a-web-page?view=sql-server-2017) and [Report Viewer web part on a SharePoint site - Reporting Services](/sql/reporting-services/report-server-sharepoint/report-viewer-web-part-sharepoint-site?view=sql-server-2017)
+You can use the Report Viewer web part that has much of the same functionality as integrated mode. for more information, see [Add the Report Viewer web part to a web page](/sql/reporting-services/report-server-sharepoint/add-the-report-viewer-web-part-to-a-web-page?view=sql-server-2017&preserve-view=true) and [Report Viewer web part on a SharePoint site - Reporting Services](/sql/reporting-services/report-server-sharepoint/report-viewer-web-part-sharepoint-site?view=sql-server-2017&preserve-view=true)
     
 > [!NOTE]
 > If you want to use Microsoft SQL Server Power Pivot for SharePoint or Microsoft Power View for SharePoint for BI solutions you must install the Power Pivot or Power View add-ins for SQL Server 2016 RTM. The SQL Server 2014 (SP1) Power Pivot for SharePoint and Power View for SharePoint BI solutions do not work with SharePoint Server 2016. 

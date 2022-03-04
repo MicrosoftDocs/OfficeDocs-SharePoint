@@ -96,8 +96,8 @@ After you install the prerequisites, follow these steps to install SharePoint Se
     
 5. Accept the default file location where SharePoint Server will be installed or change the installation path in order to suit your requirements.
     
-> [!TIP]
-> As a best practice, we recommend that you install SharePoint Server on a drive that does not contain the operating system. 
+   > [!TIP]
+   > As a best practice, we recommend that you install SharePoint Server on a drive that does not contain the operating system. 
   
 6. Click **Install Now**.
     
@@ -135,15 +135,15 @@ Verify that the user account that is performing this procedure is the Setup user
     
 8. On the **Specify Server Role** page, choose the appropriate role, and then click **Next**.
     
-> [!NOTE]
-> The concept of server roles has changed staring with SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server.md). 
+    > [!NOTE]
+    > The concept of server roles has changed staring with SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server.md). 
   
 9. On the **Completing the SharePoint Products Configuration Wizard** page, click **Next**.
     
 10. On the server that hosts Central Administration, click **Manage servers in this farm** to verify that the new server is part of the farm. 
     
-> [!NOTE]
-> You can also verify a successful server addition or troubleshoot a failed addition by examining the log files. These files are located on the drive on which SharePoint Server is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS folder. 
+    > [!NOTE]
+    > You can also verify a successful server addition or troubleshoot a failed addition by examining the log files. These files are located on the drive on which SharePoint Server is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS folder. 
   
 11. On the **Servers in Farm** page, click the name of the new server. Use the list of available services on the **Services on Server** page to start the services that you want to run on the new server. 
     
@@ -154,9 +154,9 @@ Verify that the user account that is performing this procedure is the Setup user
 
 1. To create a farm by using the PSConfig.exe command-line tool, use the following syntax:
     
-  ```
-  psconfig.exe -cmd configdb -connect -server <SqlServerName> -database <ConfigDbName> -user <DOMAIN\FarmServiceAccount> -password <FarmServiceAccountPassword> -passphrase <FarmPassphrase> -admincontentdatabase <AdminContentDbName> -localserverrole <ServerRole> -cmd helpcollections -installall -cmd secureresources -cmd services -install -cmd installfeatures -cmd adminvs -provision -port <PortNumber> -windowsauthprovider onlyusentlm -cmd applicationcontent -install
-  ```
+    ```
+    psconfig.exe -cmd configdb -connect -server <SqlServerName> -database <ConfigDbName> -user <DOMAIN\FarmServiceAccount> -password <FarmServiceAccountPassword> -passphrase <FarmPassphrase> -admincontentdatabase <AdminContentDbName> -localserverrole <ServerRole> -cmd helpcollections -installall -cmd secureresources -cmd services -install -cmd installfeatures -cmd adminvs -provision -port <PortNumber> -windowsauthprovider onlyusentlm -cmd applicationcontent -install
+    ```
 
 Where \<ServerRole\> can be any of the following values: WebFrontEnd, Application, DistributedCache, Search, or Custom.
     
@@ -188,78 +188,79 @@ Verify that you have the following memberships:
     
 2. At the PowerShell command prompt, type the following command to connect the server to a configuration database: 
     
-  ```
-  Connect-SPConfigurationDatabase -DatabaseServer <SqlServerName> -DatabaseName <ConfigDbName> -Passphrase <FarmPassphrase>  -LocalServerRole <ServerRole>
-  ```
+    ```
+    Connect-SPConfigurationDatabase -DatabaseServer <SqlServerName> -DatabaseName <ConfigDbName> -Passphrase <FarmPassphrase>  -LocalServerRole <ServerRole>
+    ```
 
-  Where:
+    Where:
     
-  -  _\<$DatabaseServer\>_ is the name of the server that hosts the configuration database 
+    -  _\<$DatabaseServer\>_ is the name of the server that hosts the configuration database 
     
-  -  _\<DatabaseName\>_ is the name of the configuration database 
+    -  _\<DatabaseName\>_ is the name of the configuration database 
     
-  -  _\<$Passphrase\>_ is the passphrase for the farm 
+    -  _\<$Passphrase\>_ is the passphrase for the farm 
     
-  -  _\<ServerRole\>_ is the server role type 
+    -  _\<ServerRole\>_ is the server role type 
     
     Where \<ServerRole\> can be any of the following values: WebFrontEnd, Application, DistributedCache, Search, or Custom. 
     
-> [!NOTE]
-> If SharePoint Server 2016 Feature Pack 2 has been applied, additional \<ServerRole> options are available: ApplicationWithSearch, WebFrontEndWithDistributedCache. These options are also available in SharePoint Server 2019.
+   > [!NOTE]
+   > If SharePoint Server 2016 Feature Pack 2 has been applied, additional \<ServerRole> options are available: ApplicationWithSearch, WebFrontEndWithDistributedCache. These options are also available in SharePoint Server 2019.
     
-> [!NOTE]
-> The concept of server roles has changed starting with SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server.md). 
+   > [!NOTE]
+   > The concept of server roles has changed starting with SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server.md). 
   
 3. At the PowerShell command prompt, type the following command to install the Help File Collections:
     
-  ```
-  Install-SPHelpCollection -All
-  ```
+    ```
+    Install-SPHelpCollection -All
+    ```
 
 4. At the PowerShell command prompt, type the following command to install the Security Resource for SharePoint Server:
     
-  ```
-  Initialize-SPResourceSecurity
-  ```
+    ```
+    Initialize-SPResourceSecurity
+    ```
 
 5. At the PowerShell command prompt, type the following command to install the basic services: 
     
-  ```
-  Install-SPService
-  ```
+    ```
+    Install-SPService
+    ```
 
 6. At the PowerShell command prompt, type the following command to install all the features:
     
-  ```
-  Install-SPFeature -AllExistingFeatures
-  ```
+    ```
+    Install-SPFeature -AllExistingFeatures
+    ```
 
 7. At the PowerShell command prompt, type the following command to set the port number of the SharePoint Central Administration website:
     
-  ```
-  New-SPCentralAdministration -Port <PortNumber> -WindowsAuthProvider NTLM
-  ```
+    ```
+    New-SPCentralAdministration -Port <PortNumber> -WindowsAuthProvider NTLM
+    ```
 
-> [!NOTE]
-> If the SharePoint Central Administration website is already provisioned on an existing server in the farm, you can skip this step. 
+   > [!NOTE]
+   > If the SharePoint Central Administration website is already provisioned on an existing server in the farm, you can skip this step. 
   
 8. At the PowerShell command prompt, type the following command to install application content:
-    
+      
   ```
-  Install-SPApplicationContent
+      Install-SPApplicationContent
   ```
 
 9. At the PowerShell command prompt, type the following command to start the Timer service:
     
-  ```
-  Start-Service SPTimerV4
-  ```
+    ```
+    Start-Service SPTimerV4
+    ```
 
 10. At the PowerShell command prompt, type the following command to get a list of servers in the farm. 
     
-  ```
-  Get-SPServer
-  ```
+    ```
+    Get-SPServer
+  
+    ```
 
 > [!NOTE]
 > You can also verify a successful server addition or troubleshoot a failed addition by examining the log files. These files are located on the drive on which SharePoint Servers 2016 or 2019 is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS folder.  

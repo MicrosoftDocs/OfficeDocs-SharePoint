@@ -1,8 +1,8 @@
 ---
 title: "Introduction to SharePoint"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- intro-overview
 ms.assetid: d5089cdf-3fd2-4230-acbd-20ecda2f9bb8
 description: "Learn about SharePoint in Microsoft 365, which is a cloud-based service that helps organizations share and manage content, and collaborate with others."
 ---
@@ -32,7 +33,7 @@ The resources on this page are designed to get you started. Depending on the nee
 
 If you're just starting out with SharePoint, learn about the [FastTrack onboarding and adoption services](https://fasttrack.microsoft.com/office), [find a SharePoint certified partner](https://products.office.com/sharepoint/sharepoint-partners-sharepoint-support), or [visit the SharePoint community](https://techcommunity.microsoft.com/t5/SharePoint/ct-p/SharePoint).
 
-Once you're using SharePoint, get the [OneDrive sync app](https://onedrive.live.com/about/download) and the [mobile app](https://products.office.com/sharepoint/mobile-app). You can also [suggest a feature](https://sharepoint.uservoice.com).
+Once you're using SharePoint, get the [OneDrive sync app](https://onedrive.live.com/about/download) and the [mobile app](https://products.office.com/sharepoint/mobile-app).
 
 ## Migration
 

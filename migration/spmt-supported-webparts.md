@@ -10,11 +10,12 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
-ms.custom: 
+ms.custom: admindeeplinkSPO
 ms.assetid: 
 description: "SharePoint Migration Tool table of supported SharePoint web parts for migration."
 ---
@@ -28,7 +29,7 @@ description: "SharePoint Migration Tool table of supported SharePoint web parts 
 >During migration, some web parts require this setting set to **allow**. Otherwise, the web part will not be migrated.
 >
 >At least 24 hours before you start migration, do the following:
->1. From the SharePoint Admin Center, select Settings.
+>1. From the SharePoint Admin Center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings**</a>.
 >2. Scroll down to "Custom Script".
 >3. If using the modern experience, click on Go to the classic settings page
 >4. Select both of the following:</br>

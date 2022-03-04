@@ -1,8 +1,8 @@
 ---
 title: "Request app installation permissions"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 ms.date: 5/22/2018
@@ -64,9 +64,9 @@ The app catalog is where you store and manage all apps for the organization. The
   
  **View all requests**
   
-1. Browse to your app catalog. (In the SharePoint admin center, select **apps** in the left pane and then click the **App Catalog** link.) 
+1. Browse to your app catalog. (Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>. Under **Apps**, select **Open**, and then select **App Catalog**.) 
     
-2. Click **Settings** ![Settings icon](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png)\> **Site settings** \> **Site Collection Administration** \> **Manage App Requests**.
+2. Select **Settings** ![Settings icon](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png)\> **Site settings** \> **Site Collection Administration** \> **Manage App Requests**.
     
 3. In the left nav, select **App Requests**.
     
@@ -89,7 +89,7 @@ As a global admin or SharePoint admin in your organization, you can delegate app
   
  **Add site collection admins to the app catalog**
   
-1. Browse to your app catalog. (In the SharePoint admin center, select **apps** in the left pane and then click the **App Catalog** link.) 
+1. Browse to your app catalog. (Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>. Under **Apps**, select **Open**, and then select **App Catalog**.) 
     
 2. Select **Settings** ![Settings icon](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png) \> **Site settings** \> **Users and Permissions** \> **Site collection administrators**.
     

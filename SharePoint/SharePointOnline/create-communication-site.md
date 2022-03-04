@@ -1,8 +1,8 @@
 ---
 title: Guided walkthrough - Create a communication site
 ms.reviewer: hokavian
-ms.author: dowallace
-author: dowallace
+ms.author: evanatkin
+author: AtkinE
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -39,13 +39,13 @@ Once you have your created your site and know how to edit pages, you can use the
  
 
 ## Create your site
-To make a site like the one shown here, you'll create a [Communication site](https://support.microsoft.com/office/use-the-sharepoint-topic-showcase-and-blank-communication-site-templates-94a33429-e580-45c3-a090-5512a8070732). To do this, click **Create site** from the SharePoint start page (or, if you're going to associate this site with a Hub site, navigate to the hub site and click **Create site** there so that the communication site is automatically be associated with that hub site).
+To make a site like the one shown here, you'll create a [Communication site](https://support.microsoft.com/office/use-the-sharepoint-topic-showcase-and-blank-communication-site-templates-94a33429-e580-45c3-a090-5512a8070732). To do this, click **Create site** from the SharePoint start page (or, if you're going to associate this site with a Hub site, navigate to the hub site and click **Create site** there so that the communication site is automatically associated with that hub site).
 
 ![Image of the create site tool icon](media/cs-2.png)
 
 Next, choose **Communication site**, and then the **Topic** layout. Fill out your site name, description, and other information, and click **Finish**.
 
-![Image of the Communication site panel](media/cs-3.jpg)
+![Image of the Communication site panel](media/cs-3_1.jpg)
 
 For more details, see [Create a communication site in SharePoint Online](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
 
@@ -147,7 +147,7 @@ In this example, the Hero web part uses one layer and is in a full-width section
 
 ### Customize each layer
 
-Options for adding a heading and a linked call to action allow each layer to be a the starting point for a deeper message.
+Options for adding a heading and a linked call to action allow each layer to be a starting point for a deeper message.
 
 It is possible to create an entire visual homepage with just the Hero web part using **Layers**.
 

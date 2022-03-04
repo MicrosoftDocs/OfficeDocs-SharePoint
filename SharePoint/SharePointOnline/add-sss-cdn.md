@@ -1,8 +1,7 @@
 ---
 title: Add SharePoint Success Site content to your M365 Learning Pathways solution
-ms.reviewer: holland-odsp
-ms.author: hokavian
-author: pamgreen-msft
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
