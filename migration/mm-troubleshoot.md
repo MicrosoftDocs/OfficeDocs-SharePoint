@@ -37,6 +37,7 @@ This article describes how to resolve issues and errors you may experience when 
 - [Error codes](#error-codes)
 - [Geo admins can't access full functionality of Migration Manager](#geo-admins-not-supported)
 - [Group-inherited SharePoint admins can't access full functionality of Migration Manager](#group-inherited-sharepoint-admins-unable-to-access-scans-and-migrations-tabs))
+- [The site collection "XXXX" cannot be created or updated] (#The-site-collection-"XXXX"-Cannot-be-created-or-updated)
 
 
 ## Check prerequisites and settings
@@ -261,6 +262,10 @@ SharePoint admin roles that were created as a result of joining an Azure group a
 1. In the admin center, go to the **Users** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.
 2. On the **Active users** page, select the user whose admin role you want to change. In the flyout pane, under **Roles**, select **Manage roles**.
 3. Select the admin role that you want to assign to the user. If you don't see the role you're looking for, select **Show all** at the bottom of the list.
+
+## The site collection "XXXX" cannot be created or updated
+
+The UPN referenced is invalid.  In order to create or update a OneDrive site collection, the referenced User Principal Name must be found in Azure Active Directory.  Please check your destination URL and validate the user exists in AAD.
 
  ## Error codes 
 |**Error Code**|**Recommended action**|
