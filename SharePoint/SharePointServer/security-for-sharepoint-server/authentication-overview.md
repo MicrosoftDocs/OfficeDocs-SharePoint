@@ -33,6 +33,9 @@ SharePoint Server requires authentication for the following types of interaction
 - On-premises servers that access on-premises SharePoint resources, or vice versa
 
 Learn about [SharePoint authentication in Microsoft 365](../../SharePointOnline/authentication.md).
+
+> [!NOTE]
+> In SharePoint Server Subscription Edition, we now support OIDC 1.0 authentication. For more information on how to work with this new authentication type, see [OpenID Connect 1.0 authentication](/sharepoint/security-for-sharepoint-server/oidc-1-0-authentication).
     
 ## User authentication in SharePoint Server
 <a name="userauth"> </a>
