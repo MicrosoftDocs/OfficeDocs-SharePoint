@@ -26,7 +26,9 @@ Learn the user authentication types and methods that are supported by SharePoint
 
 Learn about [SharePoint authentication in Microsoft 365](../../SharePointOnline/authentication.md).
   
-    
+> [!NOTE]
+> In SharePoint Server Subscription Edition, we now support OIDC 1.0 authentication. For more information on how to work with this new authentication type, see [OpenID Connect 1.0 authentication](/sharepoint/security-for-sharepoint-server/oidc-1-0-authentication).
+
 ## Introduction
 <a name="intro"> </a>
 
