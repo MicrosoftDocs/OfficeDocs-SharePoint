@@ -42,6 +42,8 @@ For information about how to enable TLS support, see:
 - [Enable TLS and SSL support in SharePoint 2013](enable-tls-and-ssl-support-in-sharepoint-2013.md)
     
 - [Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2016](enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016.md)
+
+- [Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2019](enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2019.md)
     
 ## SSL and TLS Protocols that can be disabled
 
@@ -58,4 +60,7 @@ SharePoint Server supports disabling the following versions of the SSL/TLS proto
 > [!NOTE]
 > At least one of the following TLS protocols must remain enabled: TLS 1.0, TLS 1.1, or TLS 1.2. 
   
+## See also
+#### Other Resources
 
+[Strong Transport Layer Security (TLS) Encryption](strong-tls-encryption.md)
