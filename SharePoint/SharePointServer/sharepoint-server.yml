@@ -51,7 +51,7 @@ landingContent:
       - linkListType: whats-new
         links:
           - text: What's new in SharePoint Server
-            url: what-s-new.md
+            url: what-s-new/what-s-new.md
 
   # Card
   - title: Before you start
