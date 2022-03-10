@@ -48,6 +48,10 @@ landingContent:
             url: https://www.youtube.com/watch?v=igkJVtG6eus
           - text: SharePoint blog
             url: https://techcommunity.microsoft.com/t5/SharePoint-Blog/bg-p/SPBlog
+      - linkListType: whats-new
+        links:
+          - text: What's new in SharePoint Server
+            url: what-s-new.md
 
   # Card
   - title: Before you start
