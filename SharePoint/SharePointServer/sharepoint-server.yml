@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 
-title: SharePoint Server # < 60 chars
+title: Learn about SharePoint Server # < 60 chars
 summary: This guide helps IT Pros plan, deploy, and manage SharePoint Server Subscription Edition, 2019, 2016, and 2013. # < 160 chars
 
 metadata:
@@ -43,7 +43,7 @@ landingContent:
       - linkListType: overview
         links:
           - text: What is SharePoint?
-            url: https://products.office.com/sharepoint/collaboration        
+            url: https://products.office.com/sharepoint/collaboration       
           - text: SharePoint Server 2019 overview
             url: https://www.youtube.com/watch?v=igkJVtG6eus
           - text: SharePoint blog
