@@ -1,8 +1,8 @@
 ---
 title: "Sync"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: adjoseph
+author: adeejoseph
 manager: serdars
 recommendations: true
 audience: Admin
