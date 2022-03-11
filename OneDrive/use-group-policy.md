@@ -184,12 +184,15 @@ This setting takes priority over [Block syncing OneDrive accounts for specific o
 ### Allow tenant health reporting from OneDrive
 <a name="EnableSyncAdminReports"> </a>
 
-TThis setting lets the OneDrive sync app report sync device and health data included in administrative sync reports.
+This setting lets the OneDrive sync app report sync device and health data included in administrative sync reports.
 
 If you enable this setting, the OneDrive sync app will report device and health data to include in sync admin reports. You must enable this setting on the devices you want to get reports from.
- 
+
 If you disable or do not configure this setting, OneDrive sync app device and health data will not appear in the admin reports.
 
+Enabling this policy sets the following registry key value to 1:
+
+`[HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports] /t REG_DWORD /d 1`
 
 ### Block file downloads when users are low on disk space
 <a name="MinDiskSpaceLimitInMB"> </a>
