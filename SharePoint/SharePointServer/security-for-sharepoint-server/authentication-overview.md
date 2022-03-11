@@ -46,10 +46,10 @@ SharePoint Server supports claims-based authentication.
   
 The result of a claims-based authentication is a claims-based security token, which the SharePoint Security Token Service (STS) generates. 
   
-SharePoint Server supports Windows, forms-based, and Security Assertion Markup Language (SAML)-based claims authentication. For information about how these three authentication methods work, see the following videos.
+SharePoint Server supports Windows, forms-based, Security Assertion Markup Language(SAML) and Open ID Connect (OIDC)-based claims authentication. For information about how Windows, forms-based and SAML based authentication methods work, see the following videos. For information about how OIDC authentication works, check OIDC setup guide.  
   
 > [!NOTE]
-> The information in the videos applies to SharePoint Server 2013 and SharePoint Server 2016. 
+> This information in the videos applies to SharePoint Server 2013, SharePoint Server 2016, SharePoint Server 2019 and SharePoint Server Subscription Edition. 
   
 **Windows claims authentication in SharePoint Server 2013 and 2016 video**
 
@@ -127,7 +127,7 @@ For SharePoint App Catalog apps, an example of the authentication process is as 
 > [!NOTE]
 > App Catalog apps can use either ACS or a self-signed certificate for their access tokens. 
   
-For more information, see [Plan for app authentication in SharePoint 2013 Preview](./plan-for-app-authentication-in-sharepoint-server.md).
+For more information, see [Plan for app authentication in SharePoint Server](./plan-for-app-authentication-in-sharepoint-server.md).
   
 ## Server-to-server authentication in SharePoint Server
 <a name="s2sauth"> </a>
