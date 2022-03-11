@@ -21,7 +21,10 @@ description: "Plan how to use various user authentication methods to create a se
 # Plan for user authentication methods in SharePoint Server
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]  
-  
+
+> [!NOTE]
+> The user authentication methods mentioned here applies to SharePoint Server 2013, SharePoint Server 2016, SharePoint Server 2019, and SharePoint Server Subscription Edition.
+
 Learn the user authentication types and methods that are supported by SharePoint Server and how to determine which ones to use for web applications and zones.
 
 Learn about [SharePoint authentication in Microsoft 365](../../SharePointOnline/authentication.md).
@@ -47,8 +50,7 @@ Your planning for user authentication types and methods should determine:
 - The authentication infrastructure needed to support the determined authentication types and methods
     
     > [!NOTE]
-    > Windows classic mode authentication is no longer supported in SharePoint Server 2016. 
-  
+    > Windows classic mode authentication is no longer supported in SharePoint Server 2016, SharePoint Server 2019, and SharePoint Server Subscription Edition.
 ## Claims-based authentication
 <a name="cba"> </a>
 
