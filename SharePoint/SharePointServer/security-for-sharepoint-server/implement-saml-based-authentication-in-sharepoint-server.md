@@ -232,11 +232,11 @@ In this step, you create a team site collection with two administrators: One as 
 
 1. Type a **Title**, **Url**, and select the template **Team Site**.
 
-1. In the **Primary Site Collection Administrator** section, click on the book icon to open the people picker dialog.
+1. In the **Primary Site Collection Administrator** section, click the book icon to open the people picker dialog.
 
 1. In the people picker dialog, type the Windows administrator account, for example `yvand`.
 
-1. On the left, filter the list by clicking on **Organizations**. You should see an output like this:
+1. On the left, filter the list by clicking **Organizations**. You should see an output like this:
 
     
     :::image type="content" source="../media/SharePointTrustedAuthN_ppicker_winadmin.png" alt-text="People picker Windows administrator" lightbox="../media/SharePointTrustedAuthN_ppicker_winadmin.png":::
@@ -244,14 +244,14 @@ In this step, you create a team site collection with two administrators: One as 
 
 1. Select the account and click **OK**.
 
-1. In the **Secondary Site Collection Administrator** section, click on the book icon to open the people picker dialog.
+1. In the **Secondary Site Collection Administrator** section, click the book icon to open the people picker dialog.
 
 1. In the people picker dialog, type the _exact_ email value of the AD FS administrator account, for example `yvand@contoso.local`.
 
-1. On the left, filter the list by clicking on **Contoso.local**. You should see an output like this:
+1. On the left, filter the list by clicking **Contoso.local**. You should see an output like this:
 
     
-    :::image type="content" source="../media/SharePointTrustedAuthN_ppicker_trustedadmin.png" alt-text="People picker Windows administrator" lightbox="../media/SharePointTrustedAuthN_ppicker_trustedadmin.png":::
+    :::image type="content" source="../media/SharePointTrustedAuthN_ppicker_trustedadmin.png" alt-text="People picker AD FS administrator" lightbox="../media/SharePointTrustedAuthN_ppicker_trustedadmin.png":::
 
 
 1. Select the account and click **OK**.
