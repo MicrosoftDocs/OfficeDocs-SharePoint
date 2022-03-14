@@ -1,5 +1,5 @@
 ---
-title: "Migration Manager Scan preview"
+title: "Migration Manager Scan"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -15,15 +15,15 @@ ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
-search.appverid: MET150
-description: Migration Manager Scan preview
+search.appverid: 
+description: Migration Manager Scan
 ---
 
-# Migration Manager scan (preview)
+# Migration Manager scan
 
 Once you add a source location, every file in the root path is scanned automatically. As your scan progresses, you can view the number and size of files, folders, and source paths. Migration readiness "warnings" gives you insight into any issues and how to remediate them. 
 
-![Scan dashboard preview](media/mm-scan-dashboard.png)
+![Scan dashboard](media/mm-scan-dashboard.png)
 
 ## Using the scan
 
