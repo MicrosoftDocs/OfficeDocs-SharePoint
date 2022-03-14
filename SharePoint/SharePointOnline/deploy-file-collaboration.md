@@ -270,7 +270,7 @@ Examples include:
 
   - Block guests from signing in from risky locations
 
-  - Require multifactor authentication for mobile devices
+  - Require multi-factor authentication for mobile devices
 
 You can create access policies that are specifically for guests, allowing risk mitigation for people who most likely have unmanaged devices.
 
