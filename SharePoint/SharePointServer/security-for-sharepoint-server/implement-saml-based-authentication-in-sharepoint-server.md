@@ -251,7 +251,7 @@ In this step, you create a team site collection with two administrators: One as 
 1. On the left, filter the list by clicking **Contoso.local**. You should see an output like this:
 
     
-    :::image type="content" source="../media/SharePointTrustedAuthN_ppicker_trustedadmin.png" alt-text="People picker FS administrator" lightbox="../media/SharePointTrustedAuthN_ppicker_trustedadmin.png":::
+    :::image type="content" source="../media/SharePointTrustedAuthN_ppicker_trustedadmin.png" alt-text="People picker email of FS administrator" lightbox="../media/SharePointTrustedAuthN_ppicker_trustedadmin.png":::
 
 
 1. Select the account and click **OK**.
