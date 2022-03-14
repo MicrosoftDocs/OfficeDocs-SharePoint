@@ -15,12 +15,12 @@ search.appverid:
 - ODC160
 - MET150
 ms.assetid: ce15d2cc-52ef-42cd-b738-d9c6f9b03f3a
-description: "Learn the FQDNs and ports to include in your allow lists to let users use the consumer version of OneDrive."
+description: "Learn the FQDNs and ports to include in your allowlists to let users use the consumer version of OneDrive."
 ---
 
 # Required URLs and ports for OneDrive
 
- This reference article lists every endpoints used by the consumer version of Microsoft OneDrive. If your organization restricts computers on your network from connecting to the Internet, this article lists the Fully Qualified Domain Names (FQDNs) and ports that you should include in your outbound allow lists to ensure your computers can successfully use the consumer version of OneDrive.
+ This reference article lists all endpoints used by the consumer version of Microsoft OneDrive. If your organization restricts computers on your network from connecting to the Internet, this article lists the Fully Qualified Domain Names (FQDNs) and ports that you should include in your outbound allowlists to ensure your computers can successfully use the consumer version of OneDrive.
   
 > [!IMPORTANT]
 > Filtering internet traffic requires advanced networking knowledge and isn't suitable for all customers.
