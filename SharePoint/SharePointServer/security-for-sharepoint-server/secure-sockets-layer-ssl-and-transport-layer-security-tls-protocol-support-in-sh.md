@@ -63,3 +63,6 @@ SharePoint Server supports disabling the following versions of the SSL/TLS proto
 > [!NOTE]
 > At least one of the following TLS protocols must remain enabled: TLS 1.0, TLS 1.1, or TLS 1.2. 
   
+## See also
+
+[Transport Layer Security (TLS) in SharePoint Server Subscription Edition](strong-tls-encryption.md)
