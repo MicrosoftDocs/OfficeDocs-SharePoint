@@ -14,7 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: ff6c5b8c-59bd-4079-8f0b-de4f8b4e0a86
-description: "Learn about how SharePoint Server supports Internet Explorer, Google Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge."
+description: "Learn about how SharePoint Server Subscription Edition supports Internet Explorer, Google Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge."
 ---
 
 # Plan browser support in SharePoint Server Subscription Edition
