@@ -37,7 +37,7 @@ Depending on your collaboration needs, you can include Microsoft 365 groups or M
 
 ## Why use Microsoft 365 for a B2B extranet?
 
- **Time-to-value and Cost savings:** a Microsoft 365 B2B extranet eliminates the need for creating a costly on-premises extranet sites. No additional hardware is required and using Microsoft 365 greatly reduces the resource and labor costs. Your IT department can focus on more important tasks than creating and maintaining extranet infrastructure. 
+ **Time-to-value and Cost savings:** a Microsoft 365 B2B extranet eliminates the need for creating a costly on-premises extranet site. No additional hardware is required and using Microsoft 365 greatly reduces the resource and labor costs. Your IT department can focus on more important tasks than creating and maintaining extranet infrastructure. 
   
  **Secure sharing:** Microsoft 365 B2B extranet provides a highly secure sharing experience with the IT governance and policies that you require, including: 
   
