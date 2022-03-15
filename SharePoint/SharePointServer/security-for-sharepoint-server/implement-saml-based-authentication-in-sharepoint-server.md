@@ -263,5 +263,8 @@ Once the site collection is created, you should be able to sign in to it using e
 ## Next Steps
 
 In federated authentication, the people picker doesn't validate the input, which can lead to misspellings or users accidentally choosing the wrong claim type. This can be addressed using a custom claims provider; for example, [LDAPCP](https://ldapcp.com/).
+
 > [!IMPORTANT]
 > LDAPCP isn't a Microsoft product and isn't supported by Microsoft Support. To download, install, and configure LDAPCP on the on-premises SharePoint farm, see the LDAPCP website.
+
+In SharePoint Server Subscription Edition, native people picker can search and resolve people by using user profile service application for federated authentication. [Learn how to configure people picker to work with federated authentication](../administration/enhanced-people-picker-for-trusted-authentication-method.md). 
