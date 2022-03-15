@@ -110,7 +110,6 @@
 ### [Retirement of site mailboxes](deprecation-of-site-mailboxes.md)
 ## [Sync]()
 ### [File sync overview](sharepoint-sync.md)
-### [OneDrive guide for enterprises](/onedrive/plan-onedrive-enterprise?toc=/SharePoint/toc.json&bc=/SharePoint/breadcrumb/toc.json)
 ### [Recommended sync app configuration](/onedrive/ideal-state-configuration?toc=/SharePoint/toc.json&bc=/SharePoint/breadcrumb/toc.json)
 ### [Transition from previous sync app](/onedrive/transition-from-previous-sync-client?toc=/SharePoint/toc.json&bc=/SharePoint/breadcrumb/toc.json)
 ### [Per-machine installation](/onedrive/per-machine-installation?toc=/SharePoint/toc.json&bc=/SharePoint/breadcrumb/toc.json)
