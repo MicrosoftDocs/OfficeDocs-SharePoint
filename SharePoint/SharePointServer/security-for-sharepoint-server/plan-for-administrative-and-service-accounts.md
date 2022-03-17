@@ -64,7 +64,7 @@ For more information about service application endpoints, see [Using Service End
   
 > [!NOTE]
 > Excel Services and User Profile Synchronization Service only apply to SharePoint 2013.<p>
-> Access Service and PerformancePoint Service do not apply to Subscription Edition.
+> Access Services and PerformancePoint Service do not apply to Subscription Edition.
  
   
 |**Account**|**Service**|**Purpose**|**Requirements**|
