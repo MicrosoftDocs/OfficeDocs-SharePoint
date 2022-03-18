@@ -32,7 +32,7 @@ Just like other Microsoft 365 experiences, Loop also leverages core services acr
 
 ## Settings management
 
-You'll need the latest version of SharePoint PowerShell module to enable or disable all Fluid Experiences across your Microsoft 365 organization. Microsoft Fluid Framework defaults to ON for all targeted release organizations. Because Loop components are designed for collaboration, the components are always shared as editable by others, even if your organization is set to default to view-only for other file types. See the Learn more link next to the setting for more details.
+You'll need the latest version of SharePoint PowerShell module to enable or disable all Fluid Experiences across your Microsoft 365 organization. Microsoft Fluid Framework defaults to ON for all organizations. Because Loop components are designed for collaboration, the components are always shared as editable by others, even if your organization is set to default to view-only for other file types. See the Learn more link next to the setting for more details.
 
 |Experience|SharePoint organization properties|Notes|
 |:---------|:---------------------------------|:----|
