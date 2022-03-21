@@ -70,6 +70,14 @@ If you are using [sensitivity labels](/microsoft-365/compliance/sensitivity-labe
 
 For more information about this scenario, see [Use sensitivity labels to configure the default sharing link type for sites and documents in SharePoint and OneDrive](/microsoft-365/compliance/sensitivity-labels-default-sharing-link).
 
+### Configuring the default link type for Teams-associated SharePoint sites
+
+You cannot use the SharePoint admin center to set the default link type for a SharePoint site that corresponds to a (private) Teams channel. However, you can still use the [SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) to configure the site's default link type:
+
+```PS1
+Set-SPOSite -identity $your_sharepoint_site -DefaultLinkToExistingAccess $true
+```
+
 ## Related topics
 
 [Turn external sharing on or off for a site](change-external-sharing-site.md)
