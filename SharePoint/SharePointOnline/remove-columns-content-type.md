@@ -15,6 +15,7 @@ search.appverid:
 - MET150
 ms.collection:  
 - M365-collaboration
+ms.custom: admindeeplinkSPO
 description: "Learn how to remove columns from a content type in the SharePoint admin center."
 ---
 
@@ -24,7 +25,7 @@ Columns can be added and removed from content types as necessary. To remove a co
 
 **To remove a column from a content type**
 
-1. Go to the [Content type gallery page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=contentTypes&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
+1. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185074" target="_blank">**Content type gallery** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
 
 2. Under the **Site content type** column, select the name of the site content type to which you want to remove a column.
 

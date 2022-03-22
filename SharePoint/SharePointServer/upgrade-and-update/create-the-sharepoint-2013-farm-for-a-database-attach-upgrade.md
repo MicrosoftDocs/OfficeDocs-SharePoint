@@ -29,7 +29,7 @@ When you upgrade from SharePoint 2010 Products to SharePoint 2013, you must use 
 
 ![Stages in upgrade process for SharePoint 2013](../media/77510e88-3b41-4f68-ab89-53e11566efeb.png)
   
-|||
+| &nbsp; |&nbsp; |
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the first phase in the process to upgrade SharePoint 2010 Products data and sites to SharePoint 2013. The process includes the following phases that must be completed in order:  <br/> Create the SharePoint 2013 farm for a database attach upgrade  (this phase) Copy databases to the new farm for upgrade to SharePoint 2013Upgrade service applications to SharePoint 2013Upgrade content databases from SharePoint 2010 to SharePoint 2013Upgrade a site collection to SharePoint 2013For an overview of the whole process, see [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013.md) and the Upgrade Process model [Download the upgrade process model](https://go.microsoft.com/fwlink/p/?LinkId=255047)| .  <br/> |
    
@@ -212,7 +212,7 @@ And you must configure all new farm-level settings that you want to use, such as
   
 In a standard installation, the next step would be to create web applications. However, for upgrade, you create web applications later in the process, after you upgrade the service application databases. For more information, see [Create web applications](upgrade-content-databases.md#CreateWebApps).
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the first phase in the process to upgrade SharePoint 2010 Products data and sites to SharePoint 2013.  <br/>  Next phase: [Copy databases to the new farm for upgrade to SharePoint 2013](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-2013.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013.md).  <br/> |
    
