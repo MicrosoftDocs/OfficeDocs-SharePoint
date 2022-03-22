@@ -43,7 +43,9 @@ landingContent:
       - linkListType: overview
         links:
           - text: What is SharePoint?
-            url: https://products.office.com/sharepoint/collaboration       
+            url: https://products.office.com/sharepoint/collaboration 
+          - text: SharePoint Server Subscription Edition
+            url: upgrade-and-update/upgrade-to-sharepoint-server-subscription-edition.md      
           - text: SharePoint Server 2019 overview
             url: https://www.youtube.com/watch?v=igkJVtG6eus
           - text: SharePoint blog
