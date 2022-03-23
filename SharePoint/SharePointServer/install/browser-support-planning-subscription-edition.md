@@ -61,7 +61,7 @@ The following table summarizes the support levels of typically used web browsers
 
 Review the details of the web browser that you have or plan to use in your organization to make sure that the web browser works with SharePoint Server Subscription Edition, and according to your business needs.
   
-Since Internet Explorer 11 is no longer supported in normal SharePoint Sites, these ActiveX controls related functionality can be regarded as deprecated. These functionalities still exist in SharePoint Server Subscription Edition but we recommend not to use them.
+Since Internet Explorer 11 is no longer supported in normal SharePoint sites, these ActiveX controls related functionality can be regarded as deprecated. These functionalities still exist in SharePoint Server Subscription Edition but we recommend not to use them.
 
  **Internet Explorer and older functionality**
   
