@@ -22,7 +22,7 @@ description: "Access and learn about the W3C Web Content Accessibility Guideline
   
 SharePoint Server supports the accessibility features of common browsers that help IT Pros administer deployments and access sites. For more information about supported features, see [Web Content Accessibility Guidelines 2.0](https://www.w3.org/TR/WCAG20/).
   
-Administrators and other users who have administrative responsibilities typically use the SharePoint Central Administration website and the SharePoint 2016 Management Shell to manage deployments. The mouse and keyboard are typical devices that administrators use to interact with Central Administration.
+Administrators and other users who have administrative responsibilities typically use the SharePoint Central Administration website and the SharePoint Management Shell to manage deployments. The mouse and keyboard are typical devices that administrators use to interact with Central Administration.
   
 Because SharePoint Server runs as web sites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see [Plan browser support in SharePoint Server 2016 and 2019](install/browser-support-planning-2016-2019.md) and [Plan browser support in SharePoint Server Subscription Edition](install/browser-support-planning-subscription-edition.md).
   
