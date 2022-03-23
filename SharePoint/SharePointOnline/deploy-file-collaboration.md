@@ -206,7 +206,7 @@ By classifying your information and creating governance rules around them, you c
 
 With data loss prevention policies in place, you can be relatively liberal with your sharing settings for a given site and rely on data loss prevention to enforce your governance requirements. This provides a friendlier user experience and avoids unnecessary restrictions that users might try to work around.
 
-For detailed information about data loss prevention, see [Overview of data loss prevention](/office365/securitycompliance/data-loss-prevention-policies).
+For detailed information about data loss prevention, see [Learn about data loss prevention](/microsoft-365/compliance/dlp-learn-about-dlp).
 
 **Sensitivity labels**
 
