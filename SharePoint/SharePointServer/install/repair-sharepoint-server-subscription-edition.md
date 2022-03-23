@@ -8,7 +8,7 @@ ms.date: 6/24/2021
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: hub-page
+ms.topic: landing-page
 ms.prod: sharepoint-server-itpro
 localization_priority: Critical
 ms.collection:
