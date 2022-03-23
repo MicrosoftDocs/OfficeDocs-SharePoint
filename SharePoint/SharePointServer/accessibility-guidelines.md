@@ -34,7 +34,7 @@ The following SharePoint Server 2016, SharePoint Server 2019, and SharePoint Ser
   
 ## Accessibility features in SharePoint Server
 
-Many of the accessibility features in SharePoint in Microsoft 365 also apply to SharePoint 2013, SharePoint Server 2016, SharePoint Server 2019, and SharePoint Server Subscription Edition. For more information about these accessibility features, see the following topics:
+Many of the accessibility features in SharePoint in Microsoft 365 also apply to SharePoint 2013, SharePoint Server 2016, SharePoint Server 2019, and SharePoint Server Subscription Edition. For more information about these accessibility features, see the following articles:
   
 - [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)
     

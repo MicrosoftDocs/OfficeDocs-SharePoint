@@ -96,7 +96,7 @@ The Lists web service APIs for Groove sync app have been removed and are no long
 
 ### PerformancePoint Services
 
-PerformancePoint Services had a significant dependency on Microsoft Silverlight, which is a technology that is no longer be supported as of October 12, 2021. PerformancePoint Services has been removed from SharePoint Server Subscription Edition. We recommend exploring Microsoft [Power BI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services as we are making many new business intelligence investments in Power BI.
+PerformancePoint Services had a significant dependency on Microsoft Silverlight, which is a technology that is no longer be supported as of October 12, 2021. PerformancePoint Services has been removed from SharePoint Server Subscription Edition. We recommend exploring Microsoft [Power BI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services as we're making many new business intelligence investments in Power BI.
 
 ### Stsadm.exe command-line tool 
 
