@@ -152,6 +152,9 @@ SharePoint Administrators or Global Administrators can enable information barrie
     ```PowerShell
     Set-SPOTenant -InformationBarriersSuspension $false 
     ```
+    
+    >[!NOTE]
+    >If you have Microsoft 365 Multi-Geo, you must run this command for each of your geo-locations.
 
 4. After you've enabled information barriers for SharePoint and OneDrive in your organization, wait for approximately 1 hour for the changes to take effect.
 
@@ -161,38 +164,8 @@ SharePoint Administrators or Global Administrators can enable information barrie
 To enable Microsoft 365 group-membership based access and sharing control for all Implicit mode Teams-connected sites in your tenant, run the following command:
 
 ```powershell
-Set-SPOTenant - IBImplicitGroupBased $true
+Set-SPOTenant -IBImplicitGroupBased $true
 ```
-
->[!NOTE]
->If you have Microsoft 365 Multi-Geo, you must run this command for each of your geo-locations.
-
-If you installed a previous version of the SharePoint Online Management Shell, complete the following steps:
-
-1. Go to **Add or remove programs** and uninstall *SharePoint Online Management Shell*.
-2. Navigate to the Microsoft Download Center for the [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251)), select your language, and then select **Download**.
-3. You may be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version of Windows. If you don't know which version you're running on your computer, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system).
-4. After the download is complete, run the installer file and follow the configuration steps in the setup wizard.
-5. Connect to SharePoint Online as a global admin or [SharePoint admin](sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
-6. To enable information barriers in SharePoint and OneDrive, run the following command:
-
-    ```PowerShell
-    Set-SPOTenant -InformationBarriersSuspension $false 
-    ```
-
-7. After you've configured information barriers in SharePoint and OneDrive in your organization, wait for approximately 1 hour for the changes to take effect.
-
->[!NOTE]
->If you have enabled information barriers for SharePoint in your organization before  March 15, 2022, the default access and sharing control for Implicit mode for Microsoft Teams-connected sites are based on the segments associated with the site.
-
-To enable Microsoft 365 group-membership based access and sharing control for all Implicit mode sites in your organization, run the following command:
-
-```powershell
-Set-SPOTenant - IBImplicitGroupBased $true
-```
-
->[!NOTE]
->If you have Microsoft 365 Multi-Geo, you must run this command for each of your geo-locations.
 
 ## View and manage segments as an administrator
 
