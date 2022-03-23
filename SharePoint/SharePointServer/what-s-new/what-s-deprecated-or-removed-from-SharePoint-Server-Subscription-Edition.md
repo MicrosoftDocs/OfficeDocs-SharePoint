@@ -41,6 +41,8 @@ Different customers may have different interpretations of terms such as "depreca
 ## Deprecated features
 
  - SharePoint 2010 workflows 
+ 
+ - Internet Explorer 11
 
 ## Removed features
 
@@ -67,6 +69,10 @@ The following features and functionality have been deprecated or removed in Shar
 ### SharePoint 2010 workflows
 
 SharePoint 2010 workflows are deprecated but will remain supported for the SharePoint Server Subscription Edition release until July 14, 2026. After that date, SharePoint 2010 workflows will no longer be supported. Microsoft recommends exploring [SharePoint 2013 workflows](/sharepoint/dev/general-development/creating-a-workflow-by-using-sharepoint-designer-and-the-sharepoint-wo#:~:text=%20Creating%20a%20workflow%20by%20using%20SharePoint%20Designer,for%20many...%204%20See%20also.%20%20More%20) or [Power Automate](https://flow.microsoft.com/) as potential alternatives to SharePoint 2010 workflows.
+
+### Internet Explorer 11
+
+Internet Explorer 11 is only supported in Central Administration site but deprecated in other SharePoint sites. We recommend exploring the Microsoft Edge as the replacement for the Internet Explorer 11.
 
 ### Access Services 2010
 
