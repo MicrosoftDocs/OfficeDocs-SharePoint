@@ -70,7 +70,7 @@ To verify that a new application was properly created in your organization's ent
 
 8. In this example, the **M365-Group-Compliance-Assistant** is authorized to add/remove non-compliant information barrier users from your Microsoft 365 groups.
 
-You can use the [Microsoft 365 compliance center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) to search, review, and track audit log events for the M365-Group-Compliance-Assistant application. The audit activities associated with the compliance assistant are:
+You can use the [Microsoft Purview portal](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) to search, review, and track audit log events for the M365-Group-Compliance-Assistant application. The audit activities associated with the compliance assistant are:
 
 - **IB assistant removed group member**: The IB non-compliant group member was removed from the group by the compliance assistant.
 - **IB assistant removed group owner**: The IB non-compliant owner was removed from the group by the compliance assistant.
