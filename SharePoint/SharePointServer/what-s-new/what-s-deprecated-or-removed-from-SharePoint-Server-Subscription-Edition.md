@@ -72,7 +72,7 @@ SharePoint 2010 workflows are deprecated but will remain supported for the Share
 
 ### Internet Explorer 11
 
-Internet Explorer 11 is only supported in Central Administration site but deprecated in other SharePoint sites. We recommend exploring the Microsoft Edge as the replacement for the Internet Explorer 11.
+Internet Explorer 11 is only supported in the SharePoint Central Administration site. Internet Explorer 11 is not supported in Team sites, OneDrive personal sites, or any other types of SharePoint content sites. Microsoft recommends exploring Microsoft Edge as the replacement for Internet Explorer 11.
 
 ### Access Services 2010
 
