@@ -95,8 +95,6 @@ SharePoint Server Subscription Edition supports the following versions:
 - Internet Explorer and Microsoft Edge on Windows Phone 8.1 or later.
     
 - Latest version of Microsoft Edge or Chrome on Android 4.4 or later.
-    
-- Latest versions of Safari and Chrome on iOS 8 or later.
 
 - Microsoft Edge, Chrome or Safari on iOS10 or later
 
