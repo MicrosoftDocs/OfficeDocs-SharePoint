@@ -70,7 +70,7 @@ Review the details of the web browser that you have or plan to use in your organ
 #### Using ActiveX controls in SharePoint Server
 <a name="activex"> </a>
 
-Some functionalities in SharePoint Server requires ActiveX controls. This produces limitations on browsers that don't support ActiveX. Currently only 32-bit versions of Internet Explorer support this functionality. Since Internet Explorer 11 is not supported in all types of SharePoint sites except Central Administration site, all supported browsers (including Microsoft Edge) have the following limitations.
+Some functionalities in SharePoint Server require ActiveX controls. This produces limitations on browsers that don't support ActiveX. Currently only 32-bit versions of Internet Explorer support this functionality. Since Internet Explorer 11 isn't supported in all types of SharePoint sites except Central Administration site, all supported browsers (including Microsoft Edge) have the following limitations.
   
 |Plugin name |DLL file name |What it does | &nbsp; |Known limitations |
 |:-----|:-----|:-----|:-----|:-----|
