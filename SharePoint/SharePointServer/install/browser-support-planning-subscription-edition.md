@@ -24,7 +24,7 @@ description: "Learn about how SharePoint Server Subscription Edition supports In
 SharePoint Server Subscription Edition supports several commonly used web browsers, such as ![Microsoft Edge icon](../media/microsoft-edge-icon.png) Microsoft Edge, ![Google Chrome browser logo](../media/chrome-small.jpg) Google Chrome, ![Mozilla Firefox browser logo](../media/firefox_small.png) Mozilla Firefox, ![Apple Safari browser logo](../media/safari-small.png) Apple Safari, and ![Internet Explorer browser logo](../media/internetexplorersmall.png) Internet Explorer. However, certain web browsers can cause SharePoint Server Subscription Edition functionality to be downgraded, limited, or available only through alternative steps. 
 
 > [!NOTE]
-> Internet Explorer 11 is only supported in Central Administration site but not in other SharePoint sites. We recommend exploring the Microsoft Edge as the replacement for the Internet Explorer 11.
+> Internet Explorer 11 is only supported in the SharePoint Central Administration site. Internet Explorer 11 is not supported in Team sites, OneDrive personal sites, or any other types of SharePoint content sites. Microsoft recommends exploring Microsoft Edge as the replacement for Internet Explorer 11.
 
 As you plan your deployment of SharePoint Server Subscription Edition, we recommend that you review the browsers used in your organization to guarantee optimal performance with SharePoint Server Subscription Edition.
     
@@ -45,7 +45,7 @@ The following table summarizes the support levels of typically used web browsers
 |**Browser**|**Supported**|**Not supported**|
 |:-----|:-----|:-----|
 |Microsoft Edge (Chromium) <br/> |X  <br/> ||
-|Microsoft Edge (EdgeHTML - Legacy) <br/> |X  <br/> ||
+|Microsoft Edge (EdgeHTML - Legacy) <br/> ||X  <br/>|
 |Internet Explorer 11  <br/> |X  <br/> ||
 |Internet Explorer 10  <br/> ||X  <br/> |
 |Internet Explorer 9  <br/> ||X  <br/> |
@@ -60,21 +60,17 @@ The following table summarizes the support levels of typically used web browsers
 <a name="browserdetail"> </a>
 
 Review the details of the web browser that you have or plan to use in your organization to make sure that the web browser works with SharePoint Server Subscription Edition, and according to your business needs.
-  
-Since Internet Explorer 11 is no longer supported in normal SharePoint sites, these ActiveX controls related functionality can be regarded as deprecated. These functionalities still exist in SharePoint Server Subscription Edition but we recommend not to use them.
 
  **Internet Explorer and older functionality**
   
 > [!NOTE]
-> Some older SharePoint functionality that relies on NPAPI or ActiveX will not work on browsers other than Internet Explorer. You can work around each of these issues by using Internet Explorer to perform these tasks. 
+> Some older SharePoint functionalities that rely on NPAPI or ActiveX will not work on browsers other than Internet Explorer. Since Internet Explorer 11 is no longer supported in all types of SharePoint Sites except Central Administration site, these old functionalities are deprecated as well. Although these functionalities still exist in SharePoint Server Subscription Edition, we recommend not to rely on them anymore.
   
    
 #### Using ActiveX controls in SharePoint Server
 <a name="activex"> </a>
 
-Some functionality in SharePoint Server requires ActiveX controls. This produces limitations on browsers that don't support ActiveX. Currently only 32-bit versions of Internet Explorer support this functionality. In SharePoint Server Subscription Edition, all other supported browsers, including Microsoft Edge and the Immersive mode of Internet Explorer 10 have the following limitations. 
-
-For SharePoint Server Subscription Edition, browsers other than Internet Explorer 11 have the following limitations.
+Some functionalities in SharePoint Server requires ActiveX controls. This produces limitations on browsers that don't support ActiveX. Currently only 32-bit versions of Internet Explorer support this functionality. Since Internet Explorer 11 is not supported in all types of SharePoint sites except Central Administration site, all supported browsers (including Microsoft Edge) have the following limitations.
   
 |Plugin name |DLL file name |What it does | &nbsp; |Known limitations |
 |:-----|:-----|:-----|:-----|:-----|
@@ -98,10 +94,11 @@ SharePoint Server Subscription Edition supports the following versions:
   
 - Internet Explorer and Microsoft Edge on Windows Phone 8.1 or later.
     
-- Latest version of Chrome on Android 4.4 or later.
+- Latest version of Microsoft Edge or Chrome on Android 4.4 or later.
     
 - Latest versions of Safari and Chrome on iOS 8 or later.
 
-- Chrome or Safari on iOS10 or later
+- Microsoft Edge, Chrome or Safari on iOS10 or later
+
     
 
