@@ -19,25 +19,8 @@ metadata:
 landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
-  # Card (optional)
-  - title: References
-    linkLists:
-      - linkListType: reference
-        links:
-          - text: Get started
-            url: getting-started.md
-          - text: Migration
-            url: /sharepointmigration/migrate-to-sharepoint-online
-          - text: Hybrid
-            url: ./hybrid/hybrid.md
-          - text: Community
-            url: https://techcommunity.microsoft.com/t5/SharePoint/ct-p/SharePoint
-          - text: Product feedback
-            url: https://feedbackportal.microsoft.com/feedback/forum/06735c62-321c-ec11-b6e7-0022481f8472
-          - text: End user content
-            url: https://support.office.com/sharepoint
 
-  # Card
+# Card
   - title: Learn about SharePoint
     linkLists:
       - linkListType: overview
@@ -55,7 +38,7 @@ landingContent:
           - text: What's new in SharePoint Server
             url: what-s-new/what-s-new.md
 
-  # Card
+# Card
   - title: Before you start
     linkLists:
       - linkListType: get-started
@@ -69,21 +52,7 @@ landingContent:
           - text: Security
             url: security-for-sharepoint-server/security-for-sharepoint-server.md
 
-    # Card
-  - title: Manage your environment
-    linkLists:
-      - linkListType: learn
-        links:
-          - text: Sites Administration
-            url: sites/sites.md
-          - text: Server Management
-            url: administration/server-management.md
-          - text: Backup and recovery
-            url: administration/backup-and-recovery-overview.md
-          - text: Monitor your environment
-            url: administration/monitoring-overview.md
-
-  # Card
+# Card
   - title: Install
     linkLists:
       - linkListType: deploy
@@ -99,7 +68,7 @@ landingContent:
           - text: SharePoint Server 2013 small scale farms
             url: install/single-server-with-sql-server.md
 
-  # Card
+# Card
   - title: Upgrade and update
     linkLists:
       - linkListType: deploy
@@ -115,9 +84,41 @@ landingContent:
           - text: Upgrade to SharePoint 2013
             url: upgrade-and-update/upgrade-from-sharepoint-2010-to-sharepoint-2013.md
           - text: Apply updates to SharePoint 2013
-            url: upgrade-and-update/deploy-software-updates-for-sharepoint-2013.md
+            url: upgrade-and-update/deploy-software-updates-for-sharepoint-2013.md            
 
-  # Card
+# Card
+  - title: Manage your environment
+    linkLists:
+      - linkListType: learn
+        links:
+          - text: Sites Administration
+            url: sites/sites.md
+          - text: Server Management
+            url: administration/server-management.md
+          - text: Backup and recovery
+            url: administration/backup-and-recovery-overview.md
+          - text: Monitor your environment
+            url: administration/monitoring-overview.md
+  
+# Card (optional)
+  - title: References
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Get started
+            url: getting-started.md
+          - text: Migration
+            url: /sharepointmigration/migrate-to-sharepoint-online
+          - text: Hybrid
+            url: ./hybrid/hybrid.md
+          - text: Community
+            url: https://techcommunity.microsoft.com/t5/SharePoint/ct-p/SharePoint
+          - text: Product feedback
+            url: https://feedbackportal.microsoft.com/feedback/forum/06735c62-321c-ec11-b6e7-0022481f8472
+          - text: End user content
+            url: https://support.office.com/sharepoint
+
+# Card
   - title: Legacy content
     linkLists:
       - linkListType: reference
