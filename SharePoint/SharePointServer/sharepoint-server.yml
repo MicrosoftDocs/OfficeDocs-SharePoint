@@ -69,6 +69,20 @@ landingContent:
             url: install/single-server-with-sql-server.md
 
 # Card
+  - title: Manage your environment
+    linkLists:
+      - linkListType: learn
+        links:
+          - text: Sites Administration
+            url: sites/sites.md
+          - text: Server Management
+            url: administration/server-management.md
+          - text: Backup and recovery
+            url: administration/backup-and-recovery-overview.md
+          - text: Monitor your environment
+            url: administration/monitoring-overview.md
+
+# Card
   - title: Upgrade and update
     linkLists:
       - linkListType: deploy
@@ -86,19 +100,7 @@ landingContent:
           - text: Apply updates to SharePoint 2013
             url: upgrade-and-update/deploy-software-updates-for-sharepoint-2013.md            
 
-# Card
-  - title: Manage your environment
-    linkLists:
-      - linkListType: learn
-        links:
-          - text: Sites Administration
-            url: sites/sites.md
-          - text: Server Management
-            url: administration/server-management.md
-          - text: Backup and recovery
-            url: administration/backup-and-recovery-overview.md
-          - text: Monitor your environment
-            url: administration/monitoring-overview.md
+
   
 # Card (optional)
   - title: References
