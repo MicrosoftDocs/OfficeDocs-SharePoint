@@ -22,7 +22,7 @@ ROBOTS: NOINDEX
 description: "How to correctly generate the UserGroup.xml in the submitted migration package." 
 ---
 
-# Guidelines for user identifier in UserGroup.XML
+# Guidelines for entering user identifiers in UserGroup.XML
 
 When generating the UserGroup.XML in the submitted Migration API package, the user identifier requires:
 
