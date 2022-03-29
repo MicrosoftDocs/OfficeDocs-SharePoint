@@ -24,9 +24,9 @@ description: "How to correctly generate the UserGroup.xml in the submitted migra
 
 # Guidelines for user identifier in UserGroup.XML
 
-When generating the UserGroup.XML in the submitted package, the user identifier requires:
+When generating the UserGroup.XML in the submitted Migration API package, the user identifier requires:
 
-- A maximum of one identifier per user in a single package.
+- A person can be identified only once in a single package
 - The 'login' attribute of the user identifier requires a UPN. **Do not** enter a non-UPN email address.
  
  
@@ -40,11 +40,10 @@ When generating the UserGroup.XML in the submitted package, the user identifier 
 
 The following shows the correct and incorrect ways of entering the user identifier in UserGroup.XML: 
 
-In this case, our user has the following identifiers:
+In these examples, the user has the following identifiers:
 
 - **UPN**: robert@contoso.com
 - **Email**: robert.downey@contoso.com. 
-
 
 
 
