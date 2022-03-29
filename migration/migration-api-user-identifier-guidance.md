@@ -36,7 +36,7 @@ When generating the UserGroup.XML in the submitted package, the user identifier 
 >While using a non-UPN email won't result in a failed job, it may bring unexpected results in SharePoint Online.
 
  
-#### Examples
+### Examples
 
 The following shows the correct and incorrect ways of entering the user identifier in UserGroup.XML: 
 
