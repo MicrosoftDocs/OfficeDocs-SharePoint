@@ -52,22 +52,28 @@ In this case, our user has the following identifiers:
 
 In this example, the user is entered only once, using a UPN email address.
 
+```xml
 <User Id="1" Login="i:0#.f|membership|robert@contoso.com" …/>
 
-
+```
  
 #### **Incorrect**
 
 **Example 1:** This example uses a non-UPN email address and incorrectly includes more than identifier for a single user.
 
+```xml
 
 <User Id="1" Login="i:0#.f|membership|robert@contoso.com" …/>
 <User Id="2" Login="i:0#.f|membership|robert.downey@contoso.com" …/>
 
+```
+
  
 **Example 2:** This example incorrectly uses a non-UPN email address.
 
+```xml
+
 <User Id="2" Login="i:0#.f|membership|robert.downey@contoso.com" …/>
 
-
+```
 
