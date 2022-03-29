@@ -29,6 +29,11 @@ When generating the UserGroup.XML in the submitted package, the user identifier 
 - A maximum of one identifier per user in a single package.
 - The 'login' attribute of the user identifier requires a UPN. **Do not** enter a non-UPN email address.
  
+ 
+>[!Important]
+> As of March 2, 2022, the Migration API now validates and enforces a maximum of one identifier per user in a single package. 
+>
+>While using a non-UPN email won't result in a failed job, it may bring unexpected results in SharePoint Online.
 
  
 #### Examples
@@ -42,28 +47,24 @@ In this case, our user has the following:
 
 
 
-**Correct**
+
+#### **Correct**
 
 <User Id="1" Login="i:0#.f|membership|robert@contoso.com" …/>
 
  
-**Incorrect**
+#### **Incorrect**
 
-Example 1: This example does not follow either guidelines.
+**Example 1:** This example uses a non-UPN email address and incorrectly includes more than identifier for a single user.
 
 
 <User Id="1" Login="i:0#.f|membership|robert@contoso.com" …/>
 <User Id="2" Login="i:0#.f|membership|robert.downey@contoso.com" …/>
 
  
-Example 2: This example incorrectly uses a non-UPN email address.
+**Example 2:** This example incorrectly uses a non-UPN email address.
 
 <User Id="2" Login="i:0#.f|membership|robert.downey@contoso.com" …/>
 
- 
->[!Important]
-> As of March 2, 2022, the Migration API will validate and enforce a maximum of one identifier per user in a single package. 
->
->The 'login' attribute of the user identifier requires a UPN.  While using a non-UPN email won't result in a failed job, it may bring unexpected results in SharePoint Online.
 
 
