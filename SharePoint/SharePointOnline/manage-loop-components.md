@@ -52,7 +52,7 @@ To enable the Fluid Framework, run `Set-SPOTenant -IsFluidEnabled $true`. The ch
 
 The feature will be available on Teams Windows Desktop, Mac, iOS, Android. When enabled, users will see a new option for inserting Loop components in the message compose experience for these clients.
 
-To disable Fluid Framework, run `Set-SPOTenant` cmdlet `Set-SPOTenant -IsFluidEnabled $false`. The change will take a short time to apply across your organization. 
+To disable Fluid Framework, run `Set-SPOTenant -IsFluidEnabled $false`. The change will take a short time to apply across your organization. 
 
 ## Related topics
 
