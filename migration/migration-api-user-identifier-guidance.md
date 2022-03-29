@@ -38,9 +38,9 @@ When generating the UserGroup.XML in the submitted Migration API package, the us
  
 ### Examples
 
-The following shows the correct and incorrect ways of entering the user identifier in UserGroup.XML: 
+The following examples show the correct and incorrect ways of entering the user identifier in UserGroup.XML.
 
-In these examples, the user has the following identifiers:
+In this case, the user has the following identifiers:
 
 - **UPN**: robert@contoso.com
 - **Email**: robert.downey@contoso.com. 
