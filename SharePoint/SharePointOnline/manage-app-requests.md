@@ -42,7 +42,7 @@ To approve an app
     
 1. Select **Approve and add this app**.
 
-1. If the app allows allows you to automatically add it to all sites, choose if you want to add it to all sites.
+1. If the app allows you to automatically add it to all sites, choose if you want to add it to all sites.
 
 1. Confirm the data access required by the app by selecting **Confirm**.
 
