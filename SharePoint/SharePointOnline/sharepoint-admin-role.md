@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.custom: 
 - Adm_O365
 - seo-marvel-apr2020
+- admindeeplinkSPO
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
@@ -38,14 +39,15 @@ For info about adding or removing a site admin (previously called "site collecti
 
 ![Manage admin roles in the Microsoft 365 admin center](media/sharepoint-admin-role.png)
   
-Users assigned the SharePoint admin role have access to the SharePoint admin center and can create and manage sites (previously called "site collections"), designate site admins, manage sharing settings, and more. 
+Users assigned the SharePoint admin role have access to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> and can create and manage sites (previously called "site collections"), designate site admins, manage sharing settings, and more. 
 
 > [!IMPORTANT]
-> SharePoint admins can now manage Microsoft 365 groups, including creating, deleting, and restoring groups, and changing group owners.
+> - SharePoint admins can now manage Microsoft 365 groups, including creating, deleting, and restoring groups, and changing group owners.
+> - If a user’s role is changed so they gain or lose access to the SharePoint admin center, it takes about an hour for the change to take effect.
 
 Global admins and SharePoint admins don't have automatic access to all sites and each user's OneDrive, but they can give themselves access to any site or OneDrive. They can also use Microsoft PowerShell to manage SharePoint and OneDrive. See more about this role's [Key tasks of the SharePoint admin](sharepoint-admin-role.md#BK_KeyTasks) below. 
   
-Site admins are users that have permission to manage sites, including any subsites. They don't need to have an admin role in Microsoft 365, and aren't given access to the SharePoint admin center. 
+Site admins are users that have permission to manage sites, including any subsites. They don't need to have an admin role in Microsoft 365, and aren't given access to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. 
   
 > [!NOTE]
 > Global admins, SharePoint admins, and site admins all need to be assigned a SharePoint license. If you have a standalone OneDrive for Business plan, admins can access the SharePoint admin center without a SharePoint license.

@@ -17,6 +17,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 description: "This article is a quickstart guide on how to get started with and set up OneDrive for small businesses."
 ---
 
@@ -42,7 +43,7 @@ When you've completed these tasks, you're ready to plan for, deploy, and configu
 
 2.  **Install and configure.** Sync apps are available for the Windows and macOS operating systems that provide a seamless experience for users interacting with their files. Most small businesses start by installing the sync app on their users' devices, and then consider the OneDrive mobile apps later. In fact, you may already have the OneDrive client on your devices. Devices running the Windows 10 operating system and devices running Windows or macOS with Microsoft Office 2016 or later will have the OneDrive sync app already. For information about how to install and configure the OneDrive sync app and mobile apps, see the section [Install and configure OneDrive](#install-and-set-up-onedrive-apps).
 
-3.  **Manage OneDrive.** For many small businesses, managing OneDrive is optional. You could simply install and configure OneDrive and leave it at that. If you want to use advanced features of OneDrive or add device sharing or access restrictions, however, you can easily manage those and other settings in the SharePoint admin center. For more information about managing OneDrive, see the section [Manage OneDrive](#manage-onedrive).
+3.  **Manage OneDrive.** For many small businesses, managing OneDrive is optional. You could simply install and configure OneDrive and leave it at that. If you want to use advanced features of OneDrive or add device sharing or access restrictions, however, you can easily manage those and other settings in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. For more information about managing OneDrive, see the section [Manage OneDrive](#manage-onedrive).
 
 ## Key OneDrive features for small businesses
 
@@ -135,19 +136,19 @@ To learn how to perform tasks in OneDrive on an Android device, see [Use OneDriv
 
 Many small businesses use OneDrive without changing any of the options. To change these settings, use the SharePoint admin center.
 
-- **Sharing.** Go to the [Sharing page](https://admin.microsoft.com/sharepoint?page=sharing&modern=true) to set sharing settings at the organization level. To learn more, see [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off).
+- **Sharing.** Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">Sharing</a> to set sharing settings at the organization level. To learn more, see [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off).
 
-- **Sync.** Go to the [Settings page](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and select  **Sync**. You can require that synced computers be joined to your domain or block uploads based on file type.
+- **Sync.** Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings</a> and select  **Sync**. You can require that synced computers be joined to your domain or block uploads based on file type.
 
-- **Storage limit.** Go to the [Settings page](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and select **Storage limit**. Set the default storage space for all new and existing users who are licensed for a qualifying plan and for whom you haven't set specific storage limits. 
+- **Storage limit.** Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings</a> and select **Storage limit**. Set the default storage space for all new and existing users who are licensed for a qualifying plan and for whom you haven't set specific storage limits. 
 
-- **Retention.** Go to the [Settings page](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and select **Retention**. Configure how long to keep data for users whose accounts have been deleted (the default is 30 days).
+- **Retention.** Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings</a> and select **Retention**. Configure how long to keep data for users whose accounts have been deleted (the default is 30 days).
 
-- **Access control.** Go to the [Access control page](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true) to control access from unmanaged devices or based on network location.
+- **Access control.** Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">Access control</a> to control access from unmanaged devices or based on network location.
 
 - **Compliance.** [View the compliance and risk management solutions available in Microsoft 365](https://compliance.microsoft.com/solutioncatalog)
 
-- **Notifications.** Go to the [Settings page](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and select **Notifications**. For information about this setting, see [Control notifications](turn-on-external-sharing-notifications.md).
+- **Notifications.** Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings</a> and select **Notifications**. For information about this setting, see [Control notifications](turn-on-external-sharing-notifications.md).
 
 ## Get help with OneDrive
 
@@ -159,6 +160,3 @@ If you need help with OneDrive, you have many ways to find solutions to common i
 
 -   **Microsoft Support.** If you need help from Microsoft to troubleshoot an issue or configure or deploy OneDrive, see [Contact Microsoft](https://support.microsoft.com/gp/contactus81?Audience=Commercial).
 
--   **OneDrive UserVoice.** You can review and submit feature requests and provide feature feedback at [OneDrive UserVoice](https://onedrive.uservoice.com/).
-
-[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]

@@ -19,12 +19,13 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: 0b6ab336-8b83-423f-a06b-bcc52861cba0
+ms.custom: admindeeplinkSPO
 description: "Learn how to manage permission requests to Azure AD-secured APIs from SharePoint Framework components and scripts."
 ---
 
 # Manage access to Azure AD-secured APIs
 
-When developers build SharePoint Framework solutions, they might need to connect to an API that's secured through Azure Active Directory (Azure AD). Developers can specify which Azure AD applications and permissions their solution requires, and an administrator can manage the permission request from the [API access page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=webApiPermissionManagement&modern=true).
+When developers build SharePoint Framework solutions, they might need to connect to an API that's secured through Azure Active Directory (Azure AD). Developers can specify which Azure AD applications and permissions their solution requires, and an administrator can manage the permission request from <a href="https://go.microsoft.com/fwlink/?linkid=2185223" target="_blank">**API access** in the SharePoint admin center</a>.
 
 [Learn more about building SharePoint Framework solutions that connect to Azure-AD secured APIs](/sharepoint/dev/spfx/use-aadhttpclient#manage-permission-requests).
 
@@ -52,7 +53,7 @@ The API access page shows pending and approved requests. It also shows which req
 1. Select the request, and select **Reject**.
 2. Select **Reject** again to confirm.
 
-Rejecting access doesn't remove the app from the App Catalog. If the app is used on any sites, it might not work as expected. After you reject the request, it's removed from the page and the developer will need to issue a new request with the same resource and scope.
+Rejecting access doesn't remove the app from the Apps site. If the app is used on any sites, it might not work as expected. After you reject the request, it's removed from the page and the developer will need to issue a new request with the same resource and scope.
 
 ## Remove access to a previously approved request
 
