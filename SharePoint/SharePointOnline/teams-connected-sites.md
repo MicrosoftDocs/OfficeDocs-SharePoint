@@ -60,6 +60,10 @@ These are the basic parts of Teams and SharePoint and how they relate to each ot
 
 Each team is connected to a Microsoft 365 group in Azure AD where the team membership is stored. The files you see on the **Files** tab in a team are stored in a SharePoint site. All standard channels in a team share the same SharePoint site, but each private channel has its own site.
 
+<br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Txae?autoplay=false]
+
 ## When do Teams and SharePoint get connected?
 
 Teams and SharePoint are connected in the following scenarios:
