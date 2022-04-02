@@ -51,7 +51,7 @@ When SharePoint sites and Teams are integrated, certain setting and classificati
 ## Channel site home page layout
 For private and shared channel sites, you will find a unique home page layout that is designed to encourage and guide usage of typical SharePoint tasks. You'll find easy access to the [News web part](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165), [Documents web part](https://support.microsoft.com/office/use-the-document-library-web-part-a9dfecc3-2050-4528-9f00-2c5afc5731b0), and links to documentation for creating lists, automating tasks, and changing the look of your site.  
 
-![Image of the channel site home page layout](media/channel-site-layout.png)
+![Image of the channel site home page layout](media/channel-site-layout.jpg)
 
 ## Channel sites and hub associations
 Just like typical SharePoint sites, [channel sites](teams-connected-sites.md) can be associated to a [SharePoint hub sites](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f) from the parent team site. Upon associating the parent team to the hub, all channel sites (private and shared) will also be associated to the hub. 
@@ -61,7 +61,7 @@ When channel sites gets associated to a hub, the hub navigation gets inherited a
 > [!NOTE]
 > Channel sites will not display hub site association in the Site information panel. These settings are managed from the parent team site. 
 
-![Image of the channel site information settings panel](media/channel-site-hub.png)
+![Image of the channel site information settings panel](media/channel-site-hub.jpg)
 
 ## How to maximize the benefits of SharePoint and Teams integration
 - **Upload and share files in Teams** - Share a file in a team or channel and the file will become accessible to everyone in the team. The file will also automatically sync to the corresponding SharePoint site document library. Learn more about [file sharing in Teams](https://support.microsoft.com/office/share-files-in-teams-0c4d34ee-5dd8-46d5-ab35-0d227b5e6eb5) and [how to coauthor content with your team](https://support.microsoft.com/office/document-collaboration-and-co-authoring-ee1509b4-1f6e-401e-b04a-782d26f564a4).
