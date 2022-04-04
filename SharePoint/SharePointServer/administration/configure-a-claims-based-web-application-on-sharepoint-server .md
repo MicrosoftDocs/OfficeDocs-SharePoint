@@ -22,7 +22,7 @@ description: "Learn how to create a Microsoft Business Connectivity Services ser
   
 You can configure Server Name Indication (SNI) by the "Use Server Name Indication" setting on the **Create New Web Application** and **Extend Web Application** pages in SharePoint Central Administration.
 
-Server Name Indication allows multiple IIS web sites with unique host headers and unique server certificates to share the same SSL port. The server examines the server name specified by the client during the SSL handshake to determine, which server certificate should be used to complete the connection. Your IIS web site must have a host header and must use SSL to use Server Name Indication. If Server Name Indication isn't used, all IIS web sites sharing the same SSL port must share the same server certificate.
+Server Name Indication allows multiple Internet Information Server (IIS) websites with unique host headers and unique server certificates to share the same SSL port. The server examines the server name specified by the client during the SSL handshake to determine, which server certificate should be used to complete the connection. Your IIS web site must have a host header and must use SSL to use Server Name Indication. If Server Name Indication isn't used, all IIS websites sharing the same SSL port must share the same server certificate.
   
 Following are the list of commands that are also used to configure Server Name Indication:
 - `psconfig.exe -adminvs -port <port number> -hostheader <host header> -ssl -usesni`
