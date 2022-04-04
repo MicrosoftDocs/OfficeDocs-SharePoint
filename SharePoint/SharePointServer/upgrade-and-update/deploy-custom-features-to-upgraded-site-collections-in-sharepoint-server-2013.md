@@ -49,7 +49,7 @@ For the purposes of this article, you should be familiar with the following Micr
 | *[Remove-SPSolution](/powershell/module/sharepoint-server/Remove-SPSolution?view=sharepoint-ps&preserve-view=true)*  <br/> |Removes a deployed solution.  <br/> | `Remove-SPSolution -Identity contoso_solution.wsp` <br/> |
    
 > [!NOTE]
-> For more information about how to use PowerShell and the minimum permissions required to run a PowerShell for SharePoint cmdlet, see [Use Windows Powershell to administer SharePoint 2013](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true). 
+> For more information about how to use PowerShell and the minimum permissions required to run a PowerShell for SharePoint cmdlet, see [Use Windows PowerShell to administer SharePoint 2013](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true). 
   
 ### Overview of deploying a solution package
 <a name="Add-OverviewofDeploy"> </a>
@@ -73,7 +73,7 @@ To deploy a solution package to a SharePoint 2013 farm, you need to:
 > [!NOTE]
 > For more information about how to deploy a solution package to a SharePoint 2013 farm, see [Install and manage solutions for SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc263205(v=office.14)). 
   
-The **Install-SPSolution** PowerShell cmdlet also includes a compatibility-level parameter to deploy the solution package to locations in the root folder that are designated for either SharePoint 2010 mode or SharePoint 2013 mode site collections. These are the "14" and "15" root folders ( hives), and when you deploy the solution, files such as features, layout files, images, and control templates are added here.
+The **Install-SPSolution** PowerShell cmdlet also includes a compatibility-level parameter to deploy the solution package to locations in the root folder that are designated for either SharePoint 2010 mode or SharePoint 2013 mode site collections. These are the "14" and "15" root folders (hives), and when you deploy the solution, files such as features, layout files, images, and control templates are added here.
   
 **Figure: SharePoint 2010 and 2013 Root folders**
 
