@@ -1,5 +1,5 @@
 ---
-title: "Configure a claims-based web application in SharePoint Server"
+title: "Server Name Indication improvement for web application"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
@@ -16,9 +16,9 @@ ms.assetid: 41ec2552-43cd-471a-ba22-1962297758c0
 description: "Learn how to create a Microsoft Business Connectivity Services service application in SharePoint Server."
 ---
 
-# Configure a claims-based web application in SharePoint Server
+# Server Name Indication improvement for web application
 
-[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
   
 You can configure Server Name Indication (SNI) by the "Use Server Name Indication" setting on the **Create New Web Application** and **Extend Web Application** pages in SharePoint Central Administration.
 

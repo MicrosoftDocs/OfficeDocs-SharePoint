@@ -718,7 +718,6 @@
 ###### [Maintain profile synchronization](../administration/maintain-profile-synchronization.md)
 #### [Create an audience for SharePoint Server](../administration/create-an-audience-for-sharepoint-server.md)
 ### [Create a web application in SharePoint Server](../administration/create-a-web-application.md)
-#### [Configure a claims-based web application in SharePoint Server](../administration/configure-a-claims-based-web-application-on-sharepoint-server%20.md)
 #### [Configure basic authentication for a claims-based web application in SharePoint Server](../administration/configure-basic-authentication-for-a-claims-based-web-application.md)
 #### [Configure digest authentication for a claims-based web application in SharePoint Server](../administration/configure-digest-authentication-for-a-claims-based-web-application.md)
 #### [Edit general settings on a web application in SharePoint Server](../administration/edit-general-settings-on-a-web-application.md)
