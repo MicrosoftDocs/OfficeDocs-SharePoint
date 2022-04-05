@@ -304,7 +304,7 @@ Owner Moderated IB mode can't be set on a site with segments. Remove the segment
 
 ## Auditing
 
-Audit events are available in the Microsoft Purview portal to help you monitor information barrier activities. Audit events are logged for the following activities:
+Audit events are available in the Microsoft Purview compliance portal to help you monitor information barrier activities. Audit events are logged for the following activities:
 
 - Enabled information barriers for SharePoint and OneDrive
 - Applied segment to site
