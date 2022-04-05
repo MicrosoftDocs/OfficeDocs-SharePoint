@@ -231,7 +231,7 @@ User adoption is important to the overall success of any new application. Ideall
 
 - **Scenarios.** When planning to implement OneDrive and Microsoft 365, identify and define your business scenarios and how those scenarios align with the benefits of implementing OneDrive and Microsoft 365. Work with your key stakeholders to identify the goals of the business scenarios, and then match those goals against usage scenarios. For example, a business goal may be to maximize user productivity; a key usage scenario enabling that goal would be using OneDrive to access files from mobile devices, PCs, and Macs. For help with this process, see the [Productivity Library](https://support.office.com/article/d8ab82a5-5f02-4439-816b-4a5d35133e48).
 
-- **Awareness and training.** Creating awareness through awareness campaigns such as announcements, launch events, newsletters, town hall meetings, contests, and giveaways is a critical path to maximizing adoption. In addition, providing users with knowledge through classroom-style sessions and self-help guides helps them feel empowered to use OneDrive and Office 365. For more info about user communication and training on Office 365, see the [Plan your Office 365 Launch: Communication and Training Guide](https://aka.ms/commandtraining).
+- **Awareness and training.** Creating awareness through awareness campaigns such as announcements, launch events, newsletters, town hall meetings, contests, and giveaways is a critical path to maximizing adoption. In addition, providing users with knowledge through classroom-style sessions and self-help guides helps them feel empowered to use OneDrive and Office 365.
 
 Many resources are available from Microsoft to help you drive user adoption within your environment. For more info about a recommended Microsoft 365 user adoption strategy, see the [Microsoft 365 End User Adoption Guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Microsoft%20365%20User%20Adoption%20Guide.pdf). For more info about driving user engagement, see [Success Factors for Office 365 End User Engagement](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Resources/Office365_AdoptionBrochure_v2.0_Screen.pdf). You can also contribute to or comment on adoption-related ideas in the [Driving Adoption Tech Community](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption).
 
@@ -299,7 +299,7 @@ If you've decided to use Windows Information Protection with OneDrive, see the f
 
 - [Create a Windows Information Protection (WIP) policy using Microsoft Intune](/windows/security/information-protection/windows-information-protection/overview-create-wip-policy/)
 
-- [Create a Windows Information Protection (WIP) policy using Configuration Manager](/windows/security/information-protection/windows-information-protection/overview-create-wip-policy-sccm/)
+- [Create a Windows Information Protection (WIP) policy using Configuration Manager](/windows/security/information-protection/windows-information-protection/overview-create-wip-policy-configmgr)
 
 
 ### Azure Information Protection

@@ -586,6 +586,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "SharePoint/SharePointOnline/monitor-apps.md",
+      "redirect_url": "/sharepoint/use-app-catalog",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "SharePoint/SharePointOnline/add-viva-connections-app,md",
       "redirect_url": "/viva/connections/add-viva-connections-app,md",
       "redirect_document_id": false

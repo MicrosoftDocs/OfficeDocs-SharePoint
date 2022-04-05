@@ -46,6 +46,8 @@ These are the basic parts of Teams and SharePoint and how they relate to each ot
 
 - **[Private channel](/MicrosoftTeams/private-channels)** – A private channel is a channel that only some of the team's members have access to. It is used for private conversations and collaboration. Each private channel has its own SharePoint site for file storage. Only members of the private channel can access this site.
 
+- **[Shared channels](/MicrosoftTeams/shared-channels)** – A shared channel is a channel that you can add anyone to, even if they’re not a member of the team. It is used for broader collaboration with people outside the team. Each shared channel has its own SharePoint site for file storage. Only members of the shared channel can access this site.
+
 - **Channel site** - The SharePoint site that is created when you create a private channel in a team. Only owners and members of the private channel have access to this site.
 
 - **Public team** - A public team is a team that anyone in the organization can join. Public teams do not require a team owner to invite someone to the team.
@@ -57,6 +59,10 @@ These are the basic parts of Teams and SharePoint and how they relate to each ot
 ![Image of how Azure AD, Teams, and SharePoint relate.](media/teams-sharepoint-interactions.png)
 
 Each team is connected to a Microsoft 365 group in Azure AD where the team membership is stored. The files you see on the **Files** tab in a team are stored in a SharePoint site. All standard channels in a team share the same SharePoint site, but each private channel has its own site.
+
+<br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Txae?autoplay=false]
 
 ## When do Teams and SharePoint get connected?
 
@@ -81,7 +87,7 @@ The standard channels display as folders in the parent site. The private channel
 
 ## Teams-connected sites and channel types
 
-Teams-connected sites are a specialized type of SharePoint site that have been optimized for a Teams connection. These include the parent site that is created when you create the team, and any channel sites that are created when you create a private channel.
+Teams-connected sites are a specialized type of SharePoint site that's been optimized for a Teams connection. These include the parent site that is created when you create the team, and any channel sites that are created when you create a private channel.
 
 This table describes how site, file, and folder sharing work for each type of channel in Teams.
 
@@ -89,6 +95,7 @@ This table describes how site, file, and folder sharing work for each type of ch
 |:-----------|:--------------|:-----------|:----------------------|
 |Standard|One SharePoint site is shared by all standard channels. There is a separate folder for each channel.|Team owners and members are automatically included in the site owners and members permission groups. Sharing the site separately is possible but managing access through Teams is recommended for easiest user management and the best user experience.|Files and folders can be shared with anyone in the organization by using sharable links. If guest sharing is enabled, *Anyone* and *Specific people* links can be used to share with people outside the organization.|
 |Private|Each private channel has its own SharePoint site.|Team owners and members are automatically included in the site owners and members permission groups. The site can't be shared separately.|Files and folders can be shared with anyone in the organization by using sharable links. If guest sharing is enabled, *Anyone* and *Specific people* links can be used to share with people outside the organization.|
+|Shared|Each shared channel has its own SharePoint site.|Team owners and members are automatically included in the site owners and members group. The site can’t be shared separately.|Files and folders can be shared with anyone in the organization and external participants in the channel by using sharable links. Sharing with people outside the organization who are not channel members is not supported.|
 
 
 ## Where to manage Teams and SharePoint settings
