@@ -52,11 +52,7 @@ Having more visibility into what’s happening with sync can help you proactivel
 
 ## Set up the OneDrive sync health dashboard
 
-This section guides you through the steps you need to take to enable sync reports on Windows and macOS devices.
-
-# [Windows](#tab/windows)
-
-This tab provides the steps you need to take to enable sync reports on Windows devices.
+This section guides you through the steps you need to take to enable sync reports on Windows devices.
 
 1. Ensure you have the required role and app versions listed in the [previous section](#requirements).
 
@@ -110,49 +106,6 @@ This tab provides the steps you need to take to enable sync reports on Windows d
 
     - Select **Enabled** and then press **OK**.
 
-
-# [macOS](#tab/macos)
-
-This tab provides the steps you need to take to enable sync reports on macOS devices.
-
-1. Ensure you have the required role and app versions listed in the [previous section](#requirements).
-
-2. Go to the [Microsoft 365 Apps admin center](https://config.office.com) and sign in as a global admin or Office apps admin.
-
-3. From the left navigation menu, select **Health** > **OneDrive Sync**
-
-4. Select **Enable preview features** to accept the license terms.
-
-    :::image type="content" source="media/enable-preview.png" alt-text="Screenshot of enable preview features button.":::
-
-    The OneDrive sync health dashboard appears.
-
-   :::image type="content" source="media/sync-home.png" alt-text="Screenshot of OneDrive sync health dashboard.":::
-
-5. In the left navigation menu, select **Settings**
-
-6. Confirm that a **Tenant Association Key** has been generated in the text field.
-
-7. Before proceeding, ensure that the OneDrive application has been quit.
-
-8. Create a .plist file with the key **EnableSyncAdminReports**. You can also use a script to set the key. The key is the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the setting, ensure that you target the appropriate domain depending on the edition of the sync app.
-
-|| Standalone | Mac App Store |
-|:-----|:-----|:-----|
-|**.plist location  <br/>**|~/Library/Managed Preferences/com.microsoft.OneDrive.plist  <br/> |~/Library/Managed Preferences/com.microsoft.OneDrive-mac.plist  <br/> |
-|**Domain <br/>**|com.microsoft.OneDrive  <br/> |com.microsoft.OneDrive-mac  <br/> |
-
-9. Use the Terminal app to deploy the EnableSyncAdminReports setting onto your local computer.
-
-    The example for this setting in the .plist file is:
-<br/>\<key\>EnableSyncAdminReports\</key\><br/>\<(Bool)/\>
-
-10. Refresh the preferences cache.
-
-11. On the next start of OneDrive, the new setting will be picked up.
-
----
-
 ## OneDrive Sync health dashboard
 
 > [!NOTE]
@@ -183,13 +136,6 @@ The tab reports on the following diagnostic data:
 The sync reports use the required service data and diagnostic data that your OneDrive sync apps send to Microsoft. You are in control of which data and which devices send this data. Use the EnableSyncAdminReports setting to control which devices send data.
 
 Diagnostic data is always under your control. To learn more about diagnostic data and the controls available to you, see [Overview of privacy controls for Microsoft 365 Apps](/deployoffice/privacy/overview-privacy-controls). To learn more about required service data, see [Required diagnostic data for Office](/deployoffice/privacy/required-diagnostic-data).
-
-## Known limitations and considerations
-
-This section describes known limitations and considerations in sync reporting.
-
-**Sync App Version**
-For devices using the Mac App Store edition of the sync app, the version installed on each device is displayed in the **Details** tab. However, the dashboard does not currently track whether or not this is the latest version of the sync app available in the Mac App Store. If any devices use this edition, they will be excluded from the **Sync app version** section of the **Overview** tab and the number of excluded devices is displayed. This is the expected result.
 
 ## Troubleshooting
 
