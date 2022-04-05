@@ -265,7 +265,7 @@ SharePoint admin roles that were created as a result of joining an Azure group a
 
 ## The site collection "XXXX" cannot be created or updated
 
-The UPN referenced is invalid.  In order to create or update a OneDrive site collection, the referenced User Principal Name must be found in Azure Active Directory.  Please check your destination URL and validate the user exists in AAD.
+The User Principal Name (UPN) referenced is invalid. In order to create or update a OneDrive site collection, Azure Active Directory must contain the referenced UPN. Check your destination URL and validate that the user exists in Azure AD.
 
  ## Error codes 
 |**Error Code**|**Recommended action**|
