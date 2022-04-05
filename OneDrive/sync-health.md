@@ -41,11 +41,11 @@ Having more visibility into what’s happening with sync can help you proactivel
 
 - OneDrive sync apps on the Insiders or Production ring. Devices on the Deferred ring aren't eligible for the preview. [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
 
-- OneDrive Sync app version 21.078 or later for Windows and macOS.
+- OneDrive Sync app version 21.078 or later for Windows.
 
 - [Global Administrator role](/microsoft-365/admin/add-users/about-admin-roles) or [Office apps admin role](/microsoft-365/admin/add-users/about-admin-roles) to set up the dashboard. After setup, only [Global reader role](/microsoft-365/admin/add-users/about-admin-roles) is required to view the dashboard.
 
-- Devices can reach the endpoint [https://config.office.com](https://config.office.com).
+- Devices in your organization should allow connections to `https://clients.config.office.net`
 
 >[!NOTE]
 > This feature isn’t available to customers who have the following plans: Office 365 operated by 21Vianet, Office 365 GCC, or Office 365 GCC High and DoD.
@@ -53,6 +53,9 @@ Having more visibility into what’s happening with sync can help you proactivel
 ## Set up the OneDrive sync health dashboard
 
 This section guides you through the steps you need to take to enable sync reports on Windows devices.
+
+>[!NOTE]
+> The previous Group Policy HKLM\SOFTWARE\Policies\Microsoft\OneDrive\SyncAdminReports is still supported and will continue to be supported for 60 days after General Availability is announced. We recommend that admins deploy the GPO now, to ensure a smooth transition at that time.
 
 1. Ensure you have the required role and app versions listed in the [previous section](#requirements).
 
@@ -168,9 +171,9 @@ If you encounter a problem with viewing the report dashboard, first verify that 
 
 If problems persist after troubleshooting, [open a support ticket with Microsoft](/microsoft-365/admin/contact-support-for-business-products). Make sure that the device isn't powered off during this period so that the sync app can still run and send a health report.
 
-For quick investigations, be sure to have the date and time when the SyncAdminReports setting was enabled and either the user’s email or the OneDriveDeviceId available in your issue report.
+For quick investigations, be sure to have the date and time when the SyncAdminReports setting was enabled and either the user’s email or the OneDrive device id available in your issue report.
 
-To get the OneDrive Device ID, select the OneDrive sync app in the notification area > **Help & Settings** > **Settings** > **About**.
+To get the OneDrive device id, select the OneDrive sync app in the notification area > **Help & Settings** > **Settings** > **About**.
 
 ## Send feedback
 
