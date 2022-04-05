@@ -1,6 +1,6 @@
 ---
 title: "OneDrive sync reports in the Apps Admin Center"
-ms.reviewer: cheyang
+ms.reviewer: dmalayeri
 ms.author: adjoseph
 author: adeejoseph
 manager: serdars
@@ -23,7 +23,7 @@ search.appverid:
 - GOB160
 - MET150
 ms.assetid: e1b3963c-7c6c-4694-9f2f-fb8005d9ef12
-description: Learn how to use the OneDrive sync health dashboard to proactively monitor OneDrive health, devices, and usage across an organization.
+description: Learn how to proactively monitor OneDrive health, devices, and usage across an organization using the OneDrive sync reports.
 ---
 
 # OneDrive sync reports in the Apps Admin Center
@@ -72,20 +72,10 @@ This tab provides the steps you need to take to enable sync reports on Windows d
 
    :::image type="content" source="media/sync-home.png" alt-text="Screenshot of OneDrive sync health dashboard.":::
 
-5. In the left navigation menu, select **Settings**
-
-6. Verify that a **Tenant Association Key** is present in the text field. If the field is empty, select **Generate new key**.
-
-   :::image type="content" source="media/tenant-key-image.png" alt-text="Screenshot of Tenant Association Key under Preview setup.":::
-
-    > [!NOTE]
-    > When you generate a new key for the first time, it can take up to 30 seconds for it to appear.
-
-7. Enable the OneDrive EnableSyncAdminReports Group Policy Object (GPO) using the Tenant Association Key.
+5. Enable the OneDrive EnableSyncAdminReports Group Policy Object (GPO).
 
     > [!IMPORTANT]
-    > - You must enable this setting on the devices from which you want to get reports. The setting has no impact on users.
-    > - When a new Tenant Association Key is generated, update the registry setting as well.
+    > - You must enable this setting on the devices from which you want to get reports. This setting has no impact on users.
     > - We recommend a gradual rollout starting with a few test devices per day, then up to 100 devices per day, then gradually up to 10,000 devices per day until you finish.
 
     You can enable this setting in multiple ways:
@@ -94,19 +84,19 @@ This tab provides the steps you need to take to enable sync reports on Windows d
 
         a. Go to HKLM\SOFTWARE\Policies\Microsoft\OneDrive
 
-        b. Right-click > **New** > **String Value**.
+        b. Right-click > **New** > **DWORD (32-bit) Value**
 
         c. Name: EnableSyncAdminReports
 
-        d. Type: REG_SZ
+        d. Type: REG_DWORD
 
-        e. Data: Paste your Tenant Association Key.
+        e. Data: 1
 
-        :::image type="content" source="media/registry-editor.png" alt-text="Screenshot of Creating a new key in Registry Editor.":::
+        :::image type="content" source="media/createregkey.png" alt-text="Screenshot image depicting the creation of a new key in the Registry Editor":::
 
     - Run Command Prompt as an administrator, and then run the following command:
 
-    `reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports /t REG_SZ /d **<your Tenant Association Key>** /f`
+    `reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports /t REG_DWORD /d 1`
 
     - Use [Group Policy](use-group-policy.md#manage-onedrive-using-group-policy) or [administrative templates in Intune](configure-sync-intune.md). 
 
@@ -201,7 +191,6 @@ This section describes known limitations and considerations in sync reporting.
 **Sync App Version**
 For devices using the Mac App Store edition of the sync app, the version installed on each device is displayed in the **Details** tab. However, the dashboard does not currently track whether or not this is the latest version of the sync app available in the Mac App Store. If any devices use this edition, they will be excluded from the **Sync app version** section of the **Overview** tab and the number of excluded devices is displayed. This is the expected result.
 
-
 ## Troubleshooting
 
 Use this section to troubleshoot if the OneDrive sync reports don't appear after three days.
@@ -217,11 +206,11 @@ Use this section to troubleshoot if the OneDrive sync reports don't appear after
 
 2. Confirm that the SyncAdminReports setting is applied to the device. Run Command Prompt as an administrator, and then run the following command:
 
-    `reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v SyncAdminReports`
+    `reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports`
 
     The output should look like this:
 
-    :::image type="content" source="media/command-prompt.png" alt-text="Screenshot of Command prompt output.":::
+    :::image type="content" source="media/syncregkeyquery.png" alt-text="Screenshot of expected command prompt output":::
 
     If the EnableSyncAdminReports setting was not applied, go back and follow the steps under [Set up the OneDrive sync health dashboard](#set-up-the-onedrive-sync-health-dashboard).
 
