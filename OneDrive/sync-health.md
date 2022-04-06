@@ -107,7 +107,7 @@ This section guides you through the steps you need to take to enable sync report
 
     - Choose **Enable sync health reporting for OneDrive**.
 
-    > [!NOTE]
+    > [!IMPORTANT]
     > After you enable the EnableSyncAdminReports setting on devices, it takes up to three days for reports to be available.
 
     - Select **Enabled** and then press **OK**.
