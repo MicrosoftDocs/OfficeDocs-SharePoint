@@ -164,7 +164,7 @@ Use this section to troubleshoot if the OneDrive sync reports don't appear after
 
     :::image type="content" source="media/syncregkeyquery.png" alt-text="Screenshot of expected command prompt output":::
 
-    If the EnableSyncAdminReports setting was not applied, go back and follow the steps under [Set up the OneDrive sync health dashboard](#set-up-the-onedrive-sync-health-dashboard).
+    If the EnableSyncAdminReports setting wasn't applied, go back and follow the steps under [Set up the OneDrive sync health dashboard](#set-up-the-onedrive-sync-health-dashboard).
 
 If the device is on the Insiders or Production ring and the setting was applied correctly, wait for 36 hours with the device turned on and signed in to OneDrive. If the device still doesn't appear on the dashboard, open a support ticket with Microsoft. For more information, see the next section, [Report a problem](#report-a-problem).
 
@@ -174,9 +174,9 @@ If you encounter a problem with viewing the report dashboard, first verify that 
 
 If problems persist after troubleshooting, [open a support ticket with Microsoft](/microsoft-365/admin/contact-support-for-business-products). Make sure that the device isn't powered off during this period so that the sync app can still run and send a health report.
 
-For quick investigations, be sure to have the date and time when the SyncAdminReports setting was enabled and either the user’s email or the OneDrive device id available in your issue report.
+For quick investigations, be sure to have the date and time when the SyncAdminReports setting was enabled and either the user’s email or the OneDrive device ID available in your issue report.
 
-To get the OneDrive device id, select the OneDrive sync app in the notification area > **Help & Settings** > **Settings** > **About**.
+To get the OneDrive device ID, select the OneDrive sync app in the notification area > **Help & Settings** > **Settings** > **About**.
 
 ## Send feedback
 
