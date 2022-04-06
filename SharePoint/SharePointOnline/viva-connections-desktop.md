@@ -116,7 +116,7 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 
 **When you create a new package in PowerShell, you will be required to complete the following fields:**
     
- - **URL of your SharePoint modern communcations site:** Provide the URL starting with "https://". This site will become the default landing experience for Viva Connections Desktop.
+ - **URL of your SharePoint modern communications site:** Provide the URL starting with "https://". This site will become the default landing experience for Viva Connections Desktop.
 
     - Provide the following details when requested:
     
