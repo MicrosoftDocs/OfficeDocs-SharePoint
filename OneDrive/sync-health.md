@@ -45,7 +45,7 @@ Having more visibility into what’s happening with sync can help you proactivel
 
 - [Global Administrator role](/microsoft-365/admin/add-users/about-admin-roles) or [Office apps admin role](/microsoft-365/admin/add-users/about-admin-roles) to set up the dashboard. After setup, only [Global reader role](/microsoft-365/admin/add-users/about-admin-roles) is required to view the dashboard.
 
-- Devices in your organization should allow connections to `https://clients.config.office.net`
+- Devices in your organization should allow connections to `https://clients.config.office.net`.
 
 >[!NOTE]
 > This feature isn’t available to customers who have the following plans: Office 365 operated by 21Vianet, Office 365 GCC, or Office 365 GCC High and DoD.
@@ -95,7 +95,7 @@ This section guides you through the steps you need to take to enable sync report
 
     - Run Command Prompt as an administrator, and then run the following command:
 
-    `reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports /t REG_DWORD /d 1`
+       `reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports /t REG_DWORD /d 1`
 
     - Use [Group Policy](use-group-policy.md#manage-onedrive-using-group-policy) or [administrative templates in Intune](configure-sync-intune.md). 
 
