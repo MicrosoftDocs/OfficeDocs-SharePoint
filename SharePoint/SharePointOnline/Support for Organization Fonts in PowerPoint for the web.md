@@ -1,5 +1,5 @@
 ---
-title: "Supporting organization fonts in PPT for the web"
+title: "Support for organization fonts in PPT for the web"
 ms.reviewer: 
 ms.author: v-shesna
 author: sheshachary
@@ -18,7 +18,7 @@ search.appverid:
 description: "Learn how to add organization fonts to the SharePoint as Organization Asset Libraries."
 ---
 
-# Support for Organization Fonts in PowerPoint for web 
+# Support for Organization Fonts in PowerPoint for the web 
 Organization fonts allow customers to create a brand for their organizations and encourage consistency in documents and presentations. Earlier, organization users could only see and use organization fonts when they were installed locally on their desktops. Now, customers with E3 or E5 licenses can take advantage of Organization Font Support in PowerPoint for the web to edit and display their fonts. When you upload your font as a SharePoint Organization Asset Library (OAL), you'll see that your organization font now renders properly on PowerPoint for the web. Seamless support for the desktop experiences is coming soon.
 
 > [!NOTE]
@@ -40,21 +40,31 @@ The following diagram outlines the key steps in making our solution work:
      > [!NOTE]
      > You cannot customize the permissions of font organization asset libraries as the fonts are hosted in a public CDN. When uploaded, font asset libraries are available across your entire tenant. Currently, sub-group permissioning of font asset libraries are not supported.
 
-2. Navigate to your site’s home page. From the **New** dropdown menu, select **Create a Document Library** and name your new font library.
+2. Ensure the site permissions for **Everyone except external user** is set to **Read** or **Edit.** 
+    
+    <sitepermissions.jpg> <userpermissions.jpg>
+ 
+3. Navigate to your site’s home page. From the **New** dropdown menu, select **Create a Document Library** and name your new font library.
 
    :::image type="content" source="media/new-drop-down.png" alt-text="New drop-down option":::
 
    :::image type="content" source="media/create-document-library.png" alt-text="Create and name your font library":::
 
-3. [Download the latest version of the SharePoint Online Management Shell.](https://go.microsoft.com/fwlink/p/?LinkId=255251)
-4. Using the **SharePoint Online Management Shell**, run the following command to designate the library as custom fonts asset library.
+4. [Download the latest version of the SharePoint Online Management Shell.](https://go.microsoft.com/fwlink/p/?LinkId=255251)
+5. [Connect your SharePoint Management Shell with your administrator username and password.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
+6. Using the **SharePoint Online Management Shell**, run the following command to designate the library as custom fonts asset library.
 
       `Add-SPOOrgAssetsLibrary -LibraryUrl <New Document Library SharePoint URL> -OrgAssetType OfficeFontLibary -CdnType Public`
 
       For example:
      
      `Add-SPOOrgAssetsLibary -LibraryUrl https://constosofonts.sharepoint.com/FontLibrary -OrgAssetType OfficeFontLibary -CdnType Public`.
-5. Using the **SharePoint Online Management Shell**, run the following command to upload your custom font(s) to the document library location.
+
+    > [!NOTE]
+    > - Only include the direct path of your font library. The trailing `/AllItems.aspx` should not be included in your Library URL.
+    > - Font asset libraries must be designated with `–CdnType Public`.
+
+7. Using the **SharePoint Online Management Shell**, run the following command to upload your custom font(s) to the document library location.
 
     `Set-SPOCustomFontCatalog -FontFolder <Local Font Folder Location> -LibraryUrl <Document Library SharePoint URL>`
 
@@ -62,13 +72,16 @@ The following diagram outlines the key steps in making our solution work:
 
     `Set-SPOCustomFontCatalog -FontFolder “C:\ProgramData\Fonts" -LibraryUrl https://contosofonts.sharepoint.com/FontLibrary`
 
-     Allow 24 hours for Sharepoint servers to update and for users in your organization to see their organization fonts when using the **Font** dropdown menu in PowerPoint for the web.
+   > [!NOTE]
+   > Your font folder should be the directory holding all your font files and should not include any non-font files.
+
+    Allow 24 hours for Sharepoint servers to update and for users in your organization to see their organization fonts when using the **Font** dropdown menu in PowerPoint for the web.
 
 ## Important notes on features and its release
 
 ### Feature notes
 - Updates to organization font asset libraries can take up to 24 hours to propagate and become broadly available.
-- You should only use the SharePoint Online Management Shell commands to make changes. Any changes made to the Document Library on the SharePoint web platform won't reflect in your font libraries.
+- You should only use SharePoint Online Management Shell commands to make changes to your fonts. Changes made to the Document Library on the SharePoint web platform may affect font availability and feature functionality.
 - The uploaded organization fonts will only be usable and viewable within your organization. To share them externally, you need to [embed fonts into your PowerPoint presentations.](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Foffice%2Fembed-fonts-in-documents-or-presentations-cb3982aa-ea76-4323-b008-86670f222dbc&data=04%7C01%7Cv-shesna%40microsoft.com%7C9cf273bbf9c14d337ec208d9df961a78%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637786658092612309%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=idoG67fR3e7njA8RslxUn71i7Yfqq4q%2F7eH%2FJzScVdk%3D&reserved=0)
 - This feature is only available on PowerPoint for the web. Support for Windows, Mac, and Mobile are coming soon. In the meantime, continue to [download and install custom fonts to use with Office.](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Fdownload-and-install-custom-fonts-to-use-with-office-0ee09e74-edc1-480c-81c2-5cf9537c70ce&data=04%7C01%7Cv-shesna%40microsoft.com%7C9cf273bbf9c14d337ec208d9df961a78%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637786658092612309%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=EvcPAJtCguowz%2Ff7MF29rXEdN8MWMYwrD1c%2BQIcR3lM%3D&reserved=0)
 
