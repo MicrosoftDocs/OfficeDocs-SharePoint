@@ -45,7 +45,7 @@ To create a term in a term set
 
     - On the **Usage settings** tab, to make the term available to the users and content editors of sites consuming this term set, select **Edit**. The **Available for tagging** panel appears. By default, the term is enabled for tagging. To disable, select the **Enable** checkbox. Select **Save**.
 
-    - On the **Advanced** tab, to use shared or local custom properties to store additional data about a term sets, select **Edit**. The **Edit shared custom properties** panel appears. Add property names and values. Select **Save**. 
+    - On the **Advanced** tab, to use shared or local custom properties to store additional data about term sets, select **Edit**. The **Edit shared custom properties** panel appears. Add property names and values. Select **Save**. 
 
   
 ## Take another action with terms
