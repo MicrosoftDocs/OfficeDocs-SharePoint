@@ -64,7 +64,7 @@ To take any of the following actions, first select the term that you want to upd
 ### Copy term
 <a name="__copy_the_term"> </a>
 
-- Select **Copy term**. This action shows the name of the new term as **Copy of \<original term name\>**. No child terms for the source term are copied. 
+- Select **Copy term**. This action shows the name of the new term as **\<original term name\> - Copy**. No child terms for the source term are copied. 
     
 ### Move term
 <a name="__move_a_term"> </a>
