@@ -1,5 +1,5 @@
 ---
-title: "Support for organization fonts in PPT for the web"
+title: "Support for organization fonts in PowerPoint for the web"
 ms.reviewer: 
 ms.author: v-shesna
 author: sheshachary
@@ -18,7 +18,7 @@ search.appverid:
 description: "Learn how to add organization fonts to the SharePoint as Organization Asset Libraries."
 ---
 
-# Support for Organization Fonts in PowerPoint for the web 
+# Support for organization fonts in PowerPoint for the web 
 Organization fonts allow customers to create a brand for their organizations and encourage consistency in documents and presentations. Earlier, organization users could only see and use organization fonts when they were installed locally on their desktops. Now, customers with E3 or E5 licenses can take advantage of Organization Font Support in PowerPoint for the web to edit and display their fonts. When you upload your font as a SharePoint Organization Asset Library (OAL), you'll see that your organization font now renders properly on PowerPoint for the web. Seamless support for the desktop experiences is coming soon.
 
 > [!NOTE]
