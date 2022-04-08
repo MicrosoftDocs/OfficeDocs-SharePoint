@@ -13,7 +13,7 @@ ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 19d553a7-7001-4b07-a03d-616b865b05ae
-description: "Learn which file name extensions SharePoint Server and SharePoint in Microsoft 365 crawls by default and which file types it parses by default."
+description: "Learn which file name extensions SharePoint Server and SharePoint in Microsoft 365 crawl by default and which file types it parses by default."
 ---
 
 # Default crawled file name extensions and parsed file types in SharePoint Server and SharePoint in Microsoft 365
