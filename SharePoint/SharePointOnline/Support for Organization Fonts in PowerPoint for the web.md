@@ -42,7 +42,6 @@ The following diagram outlines the key steps in making our solution work:
 
 2. Ensure the site permissions for **Everyone except external user** is set to **Read** or **Edit.** 
     
-   
     :::image type="content" source="media/sitepermissions.png" alt-text="image of sitepermissions":::
     :::image type="content" source="media/userpermissions.png" alt-text="image of userpermissions":::
  
