@@ -2,6 +2,18 @@
 
 
 
+## Week of April 04, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/4/2022 | [Manage settings and permissions when SharePoint and Teams are integrated](/SharePoint/manage-teams-sharepoint-experiences) | modified |
+| 4/4/2022 | [Create guidelines for site usage](/SharePoint/sites-usage-guidelines) | modified |
+| 4/4/2022 | [Deploy custom features to upgraded site collections in SharePoint Server 2013](/SharePoint/upgrade-and-update/deploy-custom-features-to-upgraded-site-collections-in-sharepoint-server-2013) | modified |
+| 4/6/2022 | [Add Viva Connections desktop to Microsoft Teams (Desktop only)](/SharePoint/viva-connections-desktop) | modified |
+| 4/7/2022 | [Create and manage terms in a term set](/SharePoint/create-and-manage-terms) | modified |
+
+
 ## Week of March 21, 2022
 
 
