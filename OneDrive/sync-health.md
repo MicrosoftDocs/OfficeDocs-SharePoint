@@ -24,17 +24,20 @@ search.appverid:
 - MET150
 ms.assetid: e1b3963c-7c6c-4694-9f2f-fb8005d9ef12
 description: Learn how to proactively monitor OneDrive health, devices, and usage across an organization using the OneDrive sync reports.
+#Customer intent: As an IT administrator, I want to proactively monitor sync health in OneDrive, so that I can mitigate user error while increasing sync consumption across the organization. .
 ---
 
 # OneDrive sync reports in the Apps Admin Center
 
-The OneDrive sync health dashboard in the Microsoft 365 [Apps Admin Center](https://config.office.com/) tracks the sync health of your devices with reports containing actionable insights on everything happening with OneDrive sync across your organization. Track relevant health issues and advisories, check the sync status and app version of individual devices, and monitor Known Folder Move roll out by using these sync reports to resolve issues quickly so that you can focus on other strategic tasks.
+Use the OneDrive sync health dashboard in the Microsoft 365 [Apps Admin Center](https://config.office.com/) to get an executive summary of everything happening with OneDrive so that you can resolve common issues quickly and focus on other strategic tasks as an administrator.
 
- Proactively keeping OneDrive healthy helps ensure that your organization's information is protected. In this article, you'll learn how to set up and navigate the sync health dashboard so that you can better manage your OneDrive users, resolve common errors, and increase OneDrive adoption.
+The dashboard provides you with sync health reports for tracking relevant health issues and advisories, checking the sync status and app version of individual devices, and monitoring Known Folder Move roll out.
+
+Proactively keeping OneDrive healthy helps ensure that your organization's information is protected. In this article, you'll learn how to set up and navigate the sync health dashboard to better manage your OneDrive users and increase OneDrive adoption.
 
 ## Requirements  
 
-Before getting started, be sure that you're familiar with the requirements needed to access the dashboard: 
+Before getting started, be sure that you're familiar with the requirements needed to access the dashboard:
 
 - OneDrive sync apps on the Insiders or Production ring. Devices on the Deferred ring aren't eligible for the preview. [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
 
@@ -74,9 +77,7 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 
 5. Enable the OneDrive EnableSyncAdminReports Group Policy Object (GPO).
 
-    > [!IMPORTANT]
-    > - You must enable this setting on the devices from which you want to get reports. This setting has no impact on users.
-    > - We recommend a gradual rollout starting with a few test devices per day, then up to 100 devices per day, then gradually up to 10,000 devices per day until you finish.
+    **You must enable this setting on the devices from which you want to get reports.** This setting has does not affect  users. We recommend a gradual rollout starting with a few test devices per day, then up to 100 devices per day, then gradually up to 10,000 devices per day until you finish.
 
     You can enable this setting in multiple ways:
 
@@ -137,7 +138,7 @@ This tab provides how-to steps for enabling sync reports on macOS devices.
 
 7. Before proceeding, ensure that the OneDrive application has been quit.
 
-8. Create a .plist file with the key **EnableSyncAdminReports**. You can also use a script to set the key. The key is the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the setting, ensure that you target the appropriate domain depending on the edition of the sync app.
+8. Create a.plist file with the key **EnableSyncAdminReports**. You can also use a script to set the key. The key is the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the setting, ensure that you target the appropriate domain depending on the edition of the sync app.
 
 || Standalone | Mac App Store |
 |:-----|:-----|:-----|
@@ -165,21 +166,20 @@ Jump to:
 - [Details](#details)
 - [Issues](#issues)
 
-
 > [!NOTE]
 > After you set up the dashboard as described in the previous section, the Global Reader admin role is sufficient to access and view reports.
 
 ### Overview
 
-The **Overview** tab (the default view) shows a summary of devices that have at least one sync issue, a percentage of the devices in your organization using [Known folder move](redirect-known-folders.md), and the amount of devices running on the current version of OneDrive.
+The **Overview** tab (the default view) shows a summary of devices that have at least one sync issue, a percentage of the devices in your organization using [Known folder move](redirect-known-folders.md), and the number of devices running on the current version of OneDrive.
 
 :::image type="content" source="media/sync-dashboard.png" alt-text="Screenshot of Overview tab of OneDrive sync health dashboard.":::
 
 | Card name         | Description                                                                                               |
 |----------------|-----------------------------------------------------------------------------------------------------------|
-|Sync errors | *Shows how many devices have sync errors or not.* <br> <br> Sorting through errors can help you proactively reach out to educate people while resolving common issues and improving user experience. Users may not report OneDrive issues to you immediately. This could lead to unwanted problems while they're working on important tasks. With the **Sync errors** card, you won't have to wait to be notified by users to take action. |
-| Known folders          | *Shows a snapshot of the amount of known folders currently in use.* <br><br> **Known Folder Move (KFM)** allows people to keep their Desktop, Documents, and Pictures folders protected by syncing them to the cloud with OneDrive. If you’re rolling out KFM for your organization, the **Known folders** card is a great way for you to monitor progress.                                   |
-| Sync app version         | *Shows the amount of devices running on the current version of OneDrive.* <br><br>  Running the current version of OneDrive helps users stay up to date with all the latest and greatest fixes and features from Microsoft. Hover over the **Sync app version** card for a filtered view of operating systems on the current version. Note: Mac App store devices are excluded from this section and will appear in the count as "devices excluded".                                                                                  |
+|Sync errors | *Shows how many devices have sync errors or not.* <br> <br> Sorting through errors can help you proactively reach out to educate people while resolving common issues and improving user experience. Users may not report OneDrive issues to you immediately. Unreported issues could lead to unwanted problems while they're working on important tasks. With the **Sync errors** card, you won't have to wait to be notified by users to take action. |
+| Known folders          | *Shows a snapshot of the number of known folders currently in use.* <br><br> **Known Folder Move (KFM)** allows people to keep their Desktop, Documents, and Pictures folders protected by syncing them to the cloud with OneDrive. If you’re rolling out KFM for your organization, the **Known folders** card is a great way for you to monitor progress.                                   |
+| Sync app version         | *Shows the number of devices running on the current version of OneDrive.* <br><br>  Running the current version of OneDrive helps users stay up to date with all the latest and greatest fixes and features from Microsoft. Hover over the **Sync app version** card for a filtered view of operating systems on the current version. Note: Mac App store devices are excluded from this section and will appear in the count as "devices excluded".                                                                                  |
 ||
 
 ### Details
@@ -203,13 +203,13 @@ This table provides a summary of the information found in each column of the **D
 | Last status reported timestamp (UTC)        |  The last time that the sync app reported health data to the dashboard  |
 ||
 
-Customize your view of which devices show up on the dashboard by using the filter option in the command bar. Standard filters include "all devices" where you can see every device and "devices with errors" where you will only see devices with errors. 
+Customize your view of which devices show up on the dashboard by using the filter option in the command bar. Standard filters include "all devices" where you can see every device and "devices with errors" where you'll only see devices with errors. 
 
 You can easily create a custom filter with your own conditions. From the command bar, select **Filter** > **New filter** to open the **Custom filter** panel. Name your filter and select your desired conditions. If you'd like to filter by app version, be sure that you enter the complete version number including periods. Afterwards, select **Create** to use your new filter.
 
 :::image type="content" source="media/custom-filter-pane.png" alt-text="Image depicting custom filter pane in dashboard":::
 
-When someone in your organization reports a problem syncing files to OneDrive, you can investigate quickly without having to ask for additional details of the error message via Microsoft Teams chat or Outlook email. Select a user to see more information on their device and sync status. This detailed view lets you see a user's essential OneDrive information including any errors they might be experiencing.
+When someone in your organization reports a problem with syncing files to OneDrive, you can investigate quickly without having to ask for extra details of the error message via Microsoft Teams chat or Outlook email. Select a user to see more information on their device and sync status. This detailed view lets you see a user's essential OneDrive information including any errors they might be experiencing.
 
 :::image type="content" source="media/detail-panel-dashboard.png" alt-text="Image depicting Details panel with individual OneDrive user and device information":::
 
@@ -235,13 +235,9 @@ To learn more about the controls available to you, see [Overview of privacy cont
 
 This section describes known limitations and considerations in sync reporting.
 
-**Known folders**
+**Known folders:** Devices enabled for Known Folder Move (KFM) will report as a device with 0-3 known folders. If a device isn't enabled for KFM, it will report as a device that is **Not applicable** in the **Known Folders** section of the **Overview** tab. In the **Details** tab, a hyphen ("-") will appear in the cell value of the **Known folders** table for devices that aren't applicable devices. This behavior is expected.
 
-Devices enabled for Known Folder Move (KFM) will report as a device with 0-3 known folders. If a device is not enabled for KFM, it will report as a device that is **Not applicable** in the **Known Folders** section of the **Overview** tab. In the **Details** tab, a hyphen ("-") will appear in the cell value of the **Known folders** table for devices that are not applicable devices. This behavior is expected.
-
-**Sync app version**
-
-For devices using the Mac App Store edition of the sync app, the version installed on each device is displayed in the **Details** tab. However, the dashboard does not currently track whether or not this is the latest version of the sync app available in the Mac App Store. If any devices use this edition, they will be excluded from the **Sync app version** section of the **Overview** tab and the number of excluded devices is displayed. This is the expected result.
+**Sync app version:** For devices using the Mac App Store edition of the sync app, the version installed on each device is displayed in the **Details** tab. However, the dashboard doesn't currently track whether or not this is the latest version of the sync app available in the Mac App Store. If any devices use this edition, they'll be excluded from the **Sync app version** section of the **Overview** tab and the number of excluded devices is displayed. This is the expected result.
 
 ## Troubleshooting
 
