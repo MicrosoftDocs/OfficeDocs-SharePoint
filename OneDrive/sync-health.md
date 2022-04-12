@@ -28,20 +28,20 @@ description: Learn how to proactively monitor OneDrive health, devices, and usag
 
 # OneDrive sync reports in the Apps Admin Center
 
-The OneDrive sync health dashboard in the Microsoft 365 [Apps Admin Center](https://config.office.com/) tracks the health of your sync app devices to provide you with actionable reporting insights on OneDrive usage across your organization. Using sync reports, you can proactively track relevant health errors and advisories, check the sync status and app version of individual devices, and monitor Known Folder Move roll out.
+The OneDrive sync health dashboard in the Microsoft 365 [Apps Admin Center](https://config.office.com/) tracks the sync health of your devices to provide you with actionable reporting insights on everything happening with OneDrive sync across your organization.
 
->[!IMPORTANT]
-> This feature is in preview and isn't available to everyone. Review the requirements to determine eligibility.
+The dashboard's health insights range from a high-level executive summary to a comprehensive view of sync status per device. These insights let you see who's running OneDrive and what’s happening with sync, allowing you to proactively reach out to educate people to resolve common issues while improving user experience and increasing OneDrive adoption.
 
-The health insights range from a high-level executive summary to a comprehensive view of sync status per device, allowing you to quickly identify and resolve common issues while improving user experience.  
+Proactively track relevant health issues and advisories, check the sync status and app version of individual devices, and monitor Known Folder Move roll out by using sync reports to resolve issues quickly so that you can focus on other strategic tasks.
 
-Having more visibility into what’s happening with sync can help you proactively educate users while increasing OneDrive adoption.
+This article covers how to set up and successfully navigate the OneDrive sync health dashboard.
+
 
 ## Requirements  
 
 - OneDrive sync apps on the Insiders or Production ring. Devices on the Deferred ring aren't eligible for the preview. [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
 
-- OneDrive Sync app version 21.078 or later for Windows.
+- OneDrive Sync app version 22.060 or later for Windows and macOS.
 
 - [Global Administrator role](/microsoft-365/admin/add-users/about-admin-roles) or [Office apps admin role](/microsoft-365/admin/add-users/about-admin-roles) to set up the dashboard. After setup, only [Global reader role](/microsoft-365/admin/add-users/about-admin-roles) is required to view the dashboard.
 
@@ -52,7 +52,11 @@ Having more visibility into what’s happening with sync can help you proactivel
 
 ## Set up the OneDrive sync health dashboard
 
-This section guides you through the steps you need to take to enable sync reports on Windows devices.
+In this section, you'll learn how to set up sync reports on Windows and macOS devices.
+
+# [Windows](#tab/windows)
+
+This tab provides how-to steps for enabling sync reports on Windows devices.
 
 >[!NOTE]
 > The previous Group Policy HKLM\SOFTWARE\Policies\Microsoft\OneDrive\SyncAdminReports is still supported and will continue to be supported for 60 days after General Availability is announced. We recommend that admins deploy the GPO now, to ensure a smooth transition at that time.
@@ -112,36 +116,110 @@ This section guides you through the steps you need to take to enable sync report
 
     - Select **Enabled** and then press **OK**.
 
-## OneDrive Sync health dashboard
+# [macOS](#tab/macos)
+
+This tab provides how-to steps for enabling sync reports on macOS devices.
+
+1. Ensure you have the required role and app versions listed in the [previous section](#requirements).
+
+2. Go to the [Microsoft 365 Apps admin center](https://config.office.com) and sign in as a global admin or Office apps admin.
+
+3. From the left navigation menu, select **Health** > **OneDrive Sync**
+
+4. Select **Enable preview features** to accept the license terms.
+
+    :::image type="content" source="media/enable-preview.png" alt-text="Screenshot of enable preview features button.":::
+
+    The OneDrive sync health dashboard appears.
+
+   :::image type="content" source="media/sync-home.png" alt-text="Screenshot of OneDrive sync health dashboard.":::
+
+5. In the left navigation menu, select **Settings**.
+
+6. Confirm that a **Tenant Association Key** has been generated in the text field.
+
+7. Before proceeding, ensure that the OneDrive application has been quit.
+
+8. Create a .plist file with the key **EnableSyncAdminReports**. You can also use a script to set the key. The key is the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the setting, ensure that you target the appropriate domain depending on the edition of the sync app.
+
+|| Standalone | Mac App Store |
+|:-----|:-----|:-----|
+|**.plist location  <br/>**|~/Library/Managed Preferences/com.microsoft.OneDrive.plist  <br/> |~/Library/Managed Preferences/com.microsoft.OneDrive-mac.plist  <br/> |
+|**Domain <br/>**|com.microsoft.OneDrive  <br/> |com.microsoft.OneDrive-mac  <br/> |
+
+9. Use the Terminal app to deploy the EnableSyncAdminReports setting onto your local computer.
+
+    The example for this setting in the .plist file is:
+<br/>\<key\>EnableSyncAdminReports\</key\><br/>\<(Bool)/\>
+
+10. Refresh the preferences cache.
+
+11. On the next start of OneDrive, the new setting will be picked up.
+
+---
+
+## Navigate the OneDrive Sync health dashboard
+
+In this section, you'l learn how to successfully navigate the OneDrive Sync health dashboard. Learn about the reporting insights available to you and how they can help you proactively manage OneDrive for your organization.  
 
 > [!NOTE]
 > After you set up the dashboard as described in the previous section, the Global Reader admin role is sufficient to access and view reports.
 
-The **Overview** tab provides aggregated insights on devices that have sync errors, [Known Folder Move](redirect-known-folders.md) rollout status, and adoption of sync app versions and update ring.
+### Overview
+
+The **Overview** tab (the default view) shows a summary of devices that have at least one sync issue, a percentage of the devices in your organization using [Known folder move](redirect-known-folders.md), and the amount of devices running on the current version of OneDrive.
 
 :::image type="content" source="media/sync-dashboard.png" alt-text="Screenshot of Overview tab of OneDrive sync health dashboard.":::
 
-The **Details** tab provides detailed info for each user and device to help you understand and troubleshoot sync errors.
+| Card name         | Description                                                                                               |
+|----------------|-----------------------------------------------------------------------------------------------------------|
+|**Sync errors** | **Shows how many devices have sync errors or not.** <br> <br> Sorting through errors can help you proactively reach out to educate people while resolving common issues and improving user experience. Users may not report OneDrive issues to you immediately. This could lead to unwanted problems while they're working on important tasks. With the **Sync errors** card, you won't have to wait to be notified by users to take action. |
+| **Known folders**          | **Shows a snapshot of the amount of known folders currently in use.** <br><br> **Known Folder Move (KFM)** allows people to keep their Desktop, Documents, and Pictures folders protected by syncing them to the cloud with OneDrive. If you’re rolling out KFM for your organization, the **Known folders** card is a great way for you to monitor progress.                                   |
+| **Sync app version**         | **Shows the amount of devices running on the current version of OneDrive.** <br><br>  Running the current version of OneDrive helps users stay up to date with all the latest and greatest fixes and features from Microsoft. Hover over the **Sync app version** card for a filtered view of operating systems on the current version.                                                                                  |
+||
+
+### Details 
+
+The **Details** tab shows all users, their current health state, their known folders currently moved in OneDrive, their current app version and operating system version, a timestamp of the last time the app was fully up to date, and a timestamp of the last time the sync app reported health data to the dashboard. An icon and status in the **Errors** column indicate the state of each device.
 
 :::image type="content" source="media/sync-health-ui.png" alt-text="Screenshot of OneDrive sync health details tab.":::
 
-The tab reports on the following diagnostic data:
+This table provides a summary of the information found in each column of the **Details** tab:
 
-- User: The name of the user
-- User email: The email address of the user
-- Computer name: The name of the device
-- Errors: Details including the counts, and error messages users are seeing
-- Known folders: Details including enabled status for each folder (Desktop, Documents, Pictures)
-- OneDrive app version: The currently installed OneDrive sync app version
-- Operating system version: The current version of the OS running on the device
-- Last synced timestamp (UTC): The last time sync app was fully up to date with the cloud
-- Last status reported timestamp (UTC): The last time the sync app reported its diagnostic data to the dashboard
+| Column name       | Description                                                                                               |
+|----------------|-----------------------------------------------------------------------------------------------------------|
+|**User** | The name of the user |
+| **User email**          | The user's email address                                   |
+| **Computer name**         | The device name |
+| **Errors**         | The health status of a device   |
+| **Known folders**         | The name of folders moved to OneDrive  |
+| **OneDrive app version**         | The current version of OneDrive running on the device |
+| **Operating system version**         | The current version of the OS running on the device  |
+| **Last synced timestamp (UTC)**         | The last time that the sync app was fully up to date with the cloud  |
+| **Last status reported timestamp (UTC)**         |  The last time that the sync app reported health data to the dashboard  |
+||
+
+When someone in your organization reports a problem syncing files to OneDrive, you can investigate quickly without having to ask for additional details of the error message via Microsoft Teams chat or Outlook email. Select a user to see more information on their individual device's sync status. This detailed view allows you to better understand and troubleshoot any sync errors that the user is experiencing.
+
+
 
 ### Data for the OneDrive sync health dashboard
 
-The sync reports use the required service data and diagnostic data that your OneDrive sync apps send to Microsoft. You are in control of which data and which devices send this data. Use the EnableSyncAdminReports setting to control which devices send data.
+The sync reports use health data that your OneDrive sync apps send to Microsoft. You have choices when it comes to the technology you use and the data you share. Use the EnableSyncAdminReports setting to manage which devices send data.
 
-Diagnostic data is always under your control. To learn more about diagnostic data and the controls available to you, see [Overview of privacy controls for Microsoft 365 Apps](/deployoffice/privacy/overview-privacy-controls). To learn more about required service data, see [Required diagnostic data for Office](/deployoffice/privacy/required-diagnostic-data).
+To learn more about the controls available to you, see [Overview of privacy controls for Microsoft 365 Apps](/deployoffice/privacy/overview-privacy-controls). To learn more about required service data, see [Required service data for Office](/deployoffice/privacy/required-diagnostic-data).
+
+## Known limitations and considerations
+
+This section describes known limitations and considerations in sync reporting.
+
+**Known folders**
+
+Devices enabled for Known Folder Move (KFM) will report as a device with 0-3 known folders. If a device is not enabled for KFM, it will report as a device that is **Not applicable** in the **Known Folders** section of the **Overview** tab. In the **Details** tab, a hyphen ("-") will appear in the cell value of the **Known folders** table for devices that are not applicable devices. This behavior is expected.
+
+**Sync app version**
+
+For devices using the Mac App Store edition of the sync app, the version installed on each device is displayed in the **Details** tab. However, the dashboard does not currently track whether or not this is the latest version of the sync app available in the Mac App Store. If any devices use this edition, they will be excluded from the **Sync app version** section of the **Overview** tab and the number of excluded devices is displayed. This is the expected result.
 
 ## Troubleshooting
 
