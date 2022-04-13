@@ -192,7 +192,7 @@ If you disable or do not configure this setting, OneDrive sync app device and he
 
 Enabling this policy sets the following registry key value to 1:
 
-`[HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports] /t REG_DWORD /d 1`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"EnableSyncAdminReports"="dword:00000001"`
 
 ### Block file downloads when users are low on disk space
 <a name="MinDiskSpaceLimitInMB"> </a>
