@@ -34,7 +34,7 @@ Learn how to keep everyone informed and engaged using SharePoint, Microsoft Team
 
 
 
-## Overview of set-up
+## Overview of setup
 Start by learning about Microsoft 365 tools that are designed for your specific scenario. Then, learn how to scope your audience. Finally, get started planning by learning how to create, launch, measure, and maintain a one-time communication or communications over time.
 <br>
 <br>

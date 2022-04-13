@@ -65,11 +65,11 @@ To configure the tagging policy
 
 3. Select **Save**.
 
-**Usage navigation tab**
+**Navigation tab**
 
 Enabling site navigation means you can use the terms in this term set for site navigation links with friendly URLs and dynamic content. Enabling faceted navigation means users can use refiners based on managed metadata from the search index to quickly browse to specific content
 
-1. Under the **Usage Navigation** tab, for **Use term set for site navigation**, select **Edit**. The **Edit Properties** panel appears.
+1. Under the **Navigation** tab, for **Use term set for site navigation**, select **Edit**. The **Edit Properties** panel appears.
 
 2. Click the **Enable** check boxes to use this term set for site or faceted navigation.
 

@@ -64,11 +64,14 @@ For info about the changing this setting at the organization level, see [File an
 
 5. Choose the default sharing link setting that you want to use for this site, and then select **Save**.
 
+> [!Note]
+> To change the default link type for a Teams private or shared channel site, you must use the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet.
+
 ### Use a sensitivity label to configure the default sharing link settings
 
-If you are using [sensitivity labels](/microsoft-365/compliance/sensitivity-labels) to classify and protect your SharePoint sites, you can also configure the default sharing link type and sharing link permissions for a site by using a sensitivity label.
+If you are using [sensitivity labels](/microsoft-365/compliance/sensitivity-labels) to classify and protect your SharePoint sites, you can also configure the default sharing link type and sharing link permissions for a site and also individual documents by using a sensitivity label.
 
-For more information about this scenario, see [Use sensitivity labels to protect content in SharePoint and Microsoft Teams sites, and Microsoft 365 groups](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites). For instructions how to configure the default sharing link settings, see the section [Configure settings for the default sharing link for a site by using PowerShell advanced settings](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#configure-settings-for-the-default-sharing-link-for-a-site-by-using-powershell-advanced-settings).
+For more information about this scenario, see [Use sensitivity labels to configure the default sharing link type for sites and documents in SharePoint and OneDrive](/microsoft-365/compliance/sensitivity-labels-default-sharing-link).
 
 ## Related topics
 

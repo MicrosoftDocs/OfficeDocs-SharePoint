@@ -16,6 +16,7 @@ ms.collection:
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Overview of migration from Dropbox to Microsoft 365 using Migration Manager.
 ---
@@ -43,7 +44,7 @@ Collaborate all in one place by migrating your Dropbox documents, data, and user
 
 To get started:
 
-Go to the [Migration Manager page of the new SharePoint admin center](https://aka.ms/ODSP-MM-FS), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 Make sure that you have:
 

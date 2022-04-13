@@ -1,5 +1,5 @@
 ---
-title: "Control access from unmanaged devices"
+title: "Control unmanaged device access to SharePoint and OneDrive"
 ms.reviewer: samust
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -24,7 +24,7 @@ ms.custom:
 - admindeeplinkSPO
 ---
 
-# Control access from unmanaged devices
+# Control unmanaged device access to SharePoint and OneDrive
 
 As a SharePoint or global admin in Microsoft 365, you can block or limit access to SharePoint and OneDrive content from unmanaged devices (those not [hybrid AD joined](/azure/active-directory/devices/overview#hybrid-azure-ad-joined-devices) or compliant in Intune). You can block or limit access for:
   
@@ -107,7 +107,7 @@ If you revert back to **Allow Full Access**, it could take up to 24 hours for th
 3. Run the following command:
 
     ```PowerShell
-    Set-SPOTenant -ConditionalAccessPolicy AllowLimitedAccess`
+    Set-SPOTenant -ConditionalAccessPolicy AllowLimitedAccess
     ```
     
 > [!NOTE]

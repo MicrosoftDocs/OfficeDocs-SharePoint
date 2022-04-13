@@ -40,12 +40,13 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOnwY]
 
 >[!IMPORTANT]
-> This feature is in public preview and currently available to organizations that have no more than 1000 total SharePoint sites and OneDrive accounts combined. If you get error 773 "Not Implemented" when you try to start a domain rename, the feature isn't enabled yet for your organization because we're still rolling it out. Try again later.
+> This feature is in public preview and currently available to organizations that have no more than 5000 total SharePoint sites and OneDrive accounts combined. If you get error 773 "Not Implemented" when you try to start a domain rename, the feature isn't enabled yet for your organization because we're still rolling it out. Try again later.
 
 > [!NOTE]
 > - This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses.
 > - For info about changing a site address, for example, from `https://contoso.sharepoint.com/sites/sample1` to  `https://contoso.sharepoint.com/sites/sample2`, see [Change a site address](change-site-address.md). 
 > - This feature isn't available for organizations that have set up multi-geo. 
+> - This feature is not available for Microsoft 365 Government GCC High and DoD customers.
 > - When you rename your SharePoint domain, we create a redirect at the previous address.
 > - You can only rename your SharePoint domain once every six months.
 > - Changing your SharePoint domain name back to the original name after you rename it isn't supported. For example, if you change your SharePoint domain from `contoso.sharepoint.com` to `fabrikam.sharepoint.com`, changing it back to `contoso.sharepoint.com` isn't supported.

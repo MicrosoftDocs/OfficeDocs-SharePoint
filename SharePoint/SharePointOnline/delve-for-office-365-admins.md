@@ -261,7 +261,7 @@ Any document that a user can view or edit in Microsoft 365, can also appear in D
 
 Changing the Delve setting in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> will enable or disable the full Delve experience for all users in the tenant. If Delve is enabled, users in your organization will have Delve in the app launcher and they can use all the functionality in Delve. Selecting a person in Delve will open that person's page. The person page contains user profile information such as contact information and org chart details, and also documents relating to the person. 
 
-If you choose to disable Delve for your organization, Delve will be removed from the app launcher for all users. When users visit a person's page, for example by clicking on a person in OneDrive, that person's page will contain only user profile information. No documents will be shown. Users can still search for other people, but not for documents or boards.
+If you choose to disable Delve for your organization, Delve will be removed from the app launcher for all users. When users visit a person's page, for example by clicking on a person in OneDrive, that person's page will contain only user profile information. No documents will be shown. Users can still search for other people, but not for documents or boards. If the Delve setting is disabled, users will not see the frequent sites and suggested sites in the SharePoint start page.
 
 > [!NOTE]
 > Disabling Delve does no longer disable *Microsoft Graph* or insights services generated on top of it. This level of control is now available from the item insights privacy settings. For more info about the item insights settings, see [Customizing item insights privacy in Microsoft Graph](/graph/insights-customize-item-insights-privacy). For more info about Microsoft Graph, see [Overview of Microsoft Graph](/graph/overview).
@@ -288,8 +288,6 @@ Admins
 - [User Account Management](/office365/servicedescriptions/office-365-platform-service-description/user-account-management)
 
 - [Directory synchronization roadmap](/azure/active-directory/hybrid/whatis-hybrid-identity)
-
-- [Manage your Microsoft 365 Video portal](https://support.office.com/article/c059465b-eba9-44e1-b8c7-8ff7793ff5da)
 
 - [Yammer - Admin Help](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
 

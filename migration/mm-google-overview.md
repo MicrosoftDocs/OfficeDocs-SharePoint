@@ -16,6 +16,7 @@ ms.collection:
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Overview of how to migrate from Google Workspace to Microsoft 365 with Migration Manager.
 ---
@@ -24,6 +25,9 @@ description: Overview of how to migrate from Google Workspace to Microsoft 365 w
 
 >[!Note]
 >This release currently supports the migration of up to approximately 10,000 Google Workspace accounts in a single migration. For larger migrations, we recommend you connect with [FastTrack](https://www.microsoft.com/fasttrack).
+
+>[!Important]
+>**Google**: The legacy Mover.io tool doesn't support new Google connectors. Use **Migration Manager** for migrating from Google Workspace.
 
 Collaborate all in one place by migrating your Google documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
@@ -43,7 +47,7 @@ Collaborate all in one place by migrating your Google documents, data, and users
 
 To get started:
 
-Go to the [Migration Manager page of the new SharePoint admin center](https://aka.ms/ODSP-MM-FS), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 Make sure that you have:
 
