@@ -330,25 +330,51 @@ To help site owners add a segment to a site, share the [Associate information se
 
 ## Microsoft Teams sites
 
-When a team is created in Microsoft Teams, a SharePoint site is automatically created for the team's files. Within 24 hours, the segments associated with the team's members are automatically associated with the site and site's information barriers mode is automatically set as *Implicit*. SharePoint admins can't change the segments associated with a site when the site is connected to a team and mode as *Implicit*. For more information, see [Learn more about information barriers in Teams](/microsoftteams/information-barriers-in-teams).
+When a team is created in Microsoft Teams, a SharePoint site is automatically created for the team's files. To protect the Microsoft Team sites with information barriers control, you can enable information barriers in SharePoint for your tenant.
 
-Teams-connected sites with the information barrier mode as Implicit have site access based on Microsoft 365 group membership.
+Within 24 hours, the site's information barriers mode is automatically set as *Implicit* and segments associated with the team's members are associated with the site.
 
-For example, users have access to the Teams-connected site if they're members of the Microsoft 365 group connected to the site. The Microsoft 365 group connected to the Team is IB compliant.
+Microsoft Teams sites with the information barrier mode as *Implicit* have site access and sharing based on Microsoft 365 group membership.
 
-If you have enabled information barriers for SharePoint in your organization  before March 15, 2022, the Teams-connected site's access and sharing is based on the segments of the site. For example:
+For example, users have access to the Microsoft Teams site if they're members of the Microsoft 365 group connected to the site. The Microsoft 365 group connected to the Team is IB compliant.
+
+>[!NOTE]
+>If you have enabled information barriers for SharePoint in your organization before March 15, 2022, the Teams-connected site's access and sharing is based on the segments of the site. For example:
 
 - The site and its content can be shared with user whose segment matches that of the site.
 - The site and its content can be accessed by a user if they have same segment as that of the site and have site access permissions.
 
-To enable Microsoft 365 group membership-based access and sharing control for all Implicit mode sites in your organization, run the following command as a SharePoint Administrator:
+To enable Microsoft 365 group membership-based access and sharing control for all *Implicit* mode sites in your organization, run the following command as a SharePoint Administrator:
 
 ```powershell
-Set-SPOTenant - IBImplicitGroupBased $true
+Set-SPOTenant -IBImplicitGroupBased $true
 ```
 
->[!NOTE]
->When you create a new team or private channel in Microsoft Teams, a team site in SharePoint is automatically created. To edit the site description or classification for this team site, go to the channel settings in Microsoft Teams..
+## Private channel and information barriers (preview)
+
+When SharePoint Information barriers are enabled in your organization, any new private channel site automatically inherits its parent Microsoft Team's IB mode within 24 hours. The mode for a private channel is assigned as follows:
+
+| **Parent Team's IB mode** | **Private channel site's IB mode** |
+|:--------------------------|:-----------------------------------|
+| Open | Open |
+| Implicit or Owner Moderated | Implicit |
+
+Private channel site access and sharing is governed by its IB mode:
+
+- Private channel site with *Open* information barriers mode
+    - Access is allowed to anyone who has site access permissions
+    - Sharing links are allowed per the site's existing sharing policy
+    - People picker allows discoverability of user per the sharer's IB policy
+
+- Private channel site with *Implicit* information barriers mode
+    - Access is allowed to user who is currently a member of the private channel
+    - Sharing is allowed using **People with existing access link**
+
+Private channel sites already configured in your organization will have their information barriers mode set as *Open*. To configure existing private channel sites to *Implicit* mode, run the following cmdlet in SharePoint Powershell module:
+
+```powershell
+Set-Sposite -Identity <site URL> -InformationBarriersMode Implicit
+```
 
 Learn more about managing [Microsoft Teams connected teams sites](/SharePoint/teams-connected-sites).
 

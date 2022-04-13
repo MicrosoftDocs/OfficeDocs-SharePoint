@@ -60,6 +60,10 @@ These are the basic parts of Teams and SharePoint and how they relate to each ot
 
 Each team is connected to a Microsoft 365 group in Azure AD where the team membership is stored. The files you see on the **Files** tab in a team are stored in a SharePoint site. All standard channels in a team share the same SharePoint site, but each private channel has its own site.
 
+<br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Txae?autoplay=false]
+
 ## When do Teams and SharePoint get connected?
 
 Teams and SharePoint are connected in the following scenarios:
@@ -83,7 +87,7 @@ The standard channels display as folders in the parent site. The private channel
 
 ## Teams-connected sites and channel types
 
-Teams-connected sites are a specialized type of SharePoint site that have been optimized for a Teams connection. These include the parent site that is created when you create the team, and any channel sites that are created when you create a private channel.
+Teams-connected sites are a specialized type of SharePoint site that's been optimized for a Teams connection. These include the parent site that is created when you create the team, and any channel sites that are created when you create a private channel.
 
 This table describes how site, file, and folder sharing work for each type of channel in Teams.
 
