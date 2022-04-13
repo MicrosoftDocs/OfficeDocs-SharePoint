@@ -31,9 +31,11 @@ description: Learn how to proactively monitor OneDrive health, devices, and usag
 
 Use the OneDrive sync health dashboard in the Microsoft 365 [Apps Admin Center](https://config.office.com/) to get an executive summary of everything happening with OneDrive so that you can resolve common issues quickly and focus on other strategic tasks as an administrator.
 
-The dashboard provides you with sync health reports for tracking relevant health issues and advisories, checking the sync status and app version of individual devices, and monitoring Known Folder Move roll out.
+:::image type="content" source="media/sync-dashboard.png" alt-text="Image of the overview page of the sync reports dashboard":::
 
-Proactively keeping OneDrive healthy helps ensure that your organization's information is protected. In this article, you'll learn how to set up and navigate the sync health dashboard to better manage your OneDrive users and increase OneDrive adoption.
+Proactively keeping OneDrive healthy helps ensure that your organization's information is protected.The dashboard provides you with sync health reports for tracking relevant health issues and advisories, checking the sync status and app version of individual devices, and monitoring Known Folder Move roll out.
+
+In this article, you'll learn how to set up and navigate the sync health dashboard to better manage your OneDrive users and increase OneDrive adoption.
 
 ## Requirements  
 
