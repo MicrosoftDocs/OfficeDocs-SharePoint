@@ -73,13 +73,10 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 
     :::image type="content" source="media/enable-preview.png" alt-text="Screenshot of enable preview features button.":::
 
-    The OneDrive sync health dashboard appears.
-
-   :::image type="content" source="media/sync-home.png" alt-text="Screenshot of OneDrive sync health dashboard.":::
-
 5. Enable the OneDrive EnableSyncAdminReports Group Policy Object (GPO).
 
-    **You must enable this setting on the devices from which you want to get reports.** This setting has does not affect  users. We recommend a gradual rollout starting with a few test devices per day, then up to 100 devices per day, then gradually up to 10,000 devices per day until you finish.
+    > [!IMPORTANT]
+    > **You must enable this setting on the devices from which you want to get reports.** This setting has does not affect  users. We recommend a gradual rollout starting with a few test devices per day, then up to 100 devices per day, then gradually up to 10,000 devices per day until you finish.
 
     You can enable this setting in multiple ways:
 
@@ -111,10 +108,10 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 
     - Choose **Enable sync health reporting for OneDrive**.
 
-       > [!IMPORTANT]
-       > After you enable the EnableSyncAdminReports setting on devices, it takes up to three days for reports to be available.
-
     - Select **Enabled** and then press **OK**.
+
+> [!IMPORTANT]
+> After you enable the EnableSyncAdminReports setting on devices, it takes up to three days for reports to be available.
 
 # [macOS](#tab/macos)
 
@@ -129,10 +126,6 @@ This tab provides how-to steps for enabling sync reports on macOS devices.
 4. Select **Enable preview features** to accept the license terms.
 
     :::image type="content" source="media/enable-preview.png" alt-text="Screenshot of enable preview features button.":::
-
-    The OneDrive sync health dashboard appears.
-
-   :::image type="content" source="media/sync-home.png" alt-text="Screenshot of OneDrive sync health dashboard.":::
 
 5. In the left navigation menu, select **Settings**.
 
@@ -155,6 +148,9 @@ This tab provides how-to steps for enabling sync reports on macOS devices.
 10. Refresh the preferences cache.
 
 11. On the next start of OneDrive, the new setting will be picked up.
+
+> [!IMPORTANT]
+> After you enable the EnableSyncAdminReports setting on devices, it takes up to three days for reports to be available.
 
 ---
 
@@ -207,9 +203,9 @@ This table provides a summary of the information found in each column of the **D
 
 Customize your view of which devices show up on the dashboard by using the filter option in the command bar. Standard filters include "all devices" where you can see every device and "devices with errors" where you'll only see devices with errors. 
 
-You can easily create a custom filter with your own conditions. From the command bar, select **Filter** > **New filter** to open the **Custom filter** panel. Name your filter and select your desired conditions. If you'd like to filter by app version, be sure that you enter the complete version number including periods. Afterwards, select **Create** to use your new filter.
+You can easily create a custom filter with your own conditions. From the command bar, select **Filter** > **New filter** to open the **Custom filter** panel. Name your filter and select your desired conditions. If you'd like to filter by app version, be sure that you enter the complete sync app version number including periods. Afterwards, select **Create** to use your new filter.
 
-:::image type="content" source="media/custom-filter-pane.png" alt-text="Image depicting custom filter pane in dashboard":::
+[![Screenshot of the custom filter panel.](media/custom-filter-inline.png) ](media/custom-filter-pane.png#lightbox)
 
 When someone in your organization reports a problem with syncing files to OneDrive, you can investigate quickly without having to ask for extra details of the error message via Microsoft Teams chat or Outlook email. Select a user to see more information on their device and sync status. This detailed view lets you see a user's essential OneDrive information including any errors they might be experiencing.
 
