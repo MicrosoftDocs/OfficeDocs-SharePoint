@@ -36,7 +36,7 @@ These are the basic parts of Teams and SharePoint and how they relate to each ot
 
 - **Team** – A team is a place in Teams where you can invite others to collaborate. Each team is connected to one or more SharePoint sites. These sites are where the team's files are stored.
 
-- **Channel** – A channel is a location in a team where you can collaborate with others on a specific thing. A team can have multiple channels for different purposes. For example, you might have a team for marketing with different channels for different products or events. There are three types of channels in Teams: *standard* and *private*.
+- **Channel** – A channel is a location in a team where you can collaborate with others on a specific thing. A team can have multiple channels for different purposes. For example, you might have a team for marketing with different channels for different products or events. There are two types of channels in Teams: *standard* and *private*.
 
 - **Standard channel** – A standard channel is a channel that all members of a team have access to. Each team comes with a standard channel called "General." Team owners and members can add additional standard channels.
 
