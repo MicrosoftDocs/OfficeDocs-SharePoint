@@ -27,7 +27,7 @@ description: "Learn about the OneDrive sync app support for desktop virtualizati
 For all [supported operating systems](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e), the OneDrive sync app supports:
 
 - Virtual desktops that persist between sessions. 
-- Non-persistent virtual desktops that use [Windows Virtual Desktop](https://azure.microsoft.com/services/virtual-desktop/).
+- Non-persistent virtual desktops that use [Azure Virtual Desktop](/azure/virtual-desktop).
 - Non-persistent virtual desktops that have [FSLogix Apps](/fslogix/configure-profile-container-tutorial) or [FSLogix Office Container](/fslogix/configure-office-container-tutorial), and a Microsoft 365 subscription for all of the following operating systems:
   - Windows 10, 32 or 64-bit (supports VHDX files) 
   - Windows 7, 32 or 64-bit (supports VHD files) 
@@ -35,11 +35,11 @@ For all [supported operating systems](https://support.office.com/article/cc0cb2b
   - Windows Server 2016 (supports VHDX)
   - Windows Server 2012 R2 (supports VHDX)
   - Windows Server 2008 R2 (supports VHD)
-
- Using the OneDrive sync app with non-persistent environments requires that you [install the sync app per machine](./per-machine-installation.md).
  
 > [!NOTE]
-> The minimum supported versions are: OneDrive 19.174.0902.0013 and FSLogix Apps [2.9.7486.53382](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C5aJ).
+> The minimum supported versions are: OneDrive 19.174.0902.0013 and FSLogix Apps [2.9.7653.47581](/fslogix/whats-new).
+>
+> Using the OneDrive sync app with non-persistent environments requires that you [install the sync app per machine](./per-machine-installation.md).
 >
 > For Windows Server, the [SMB network file sharing protocol](/windows-server/storage/file-server/file-server-smb-overview) is also required.
 >
