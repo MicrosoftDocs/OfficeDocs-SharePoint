@@ -64,6 +64,4 @@ See also: [Enable content on a site to be searchable](make-site-content-searchab
 1. On the Settings page, under **General Settings**, choose **Advanced settings**.
     
 2. Scroll down to **Reindex Document Library** or **Reindex List**, and click the button. The content will be re-indexed during the next scheduled crawl.
-    
-## See also
-[Get-PnPSearchCrawlLog](/powershell/module/sharepoint-pnp/get-pnpsearchcrawllog)
+  
