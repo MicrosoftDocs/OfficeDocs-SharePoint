@@ -1,5 +1,5 @@
 ---
-title: "Control notifications"
+title: "Control notifications in the SharePoint mobile app"
 ms.reviewer: shahna
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -24,7 +24,7 @@ search.appverid:
 description: "Allow users to receive notifications about SharePoint site activity."
 ---
 
-# Control notifications
+# Control notifications in the SharePoint mobile app
 
 By default, SharePoint mobile app users can receive notifications about site activity. The service sends these notifications through the Firebase Cloud Messaging service for Android or the Apple Push Notification service for iOS. As a global or SharePoint admin in Microsoft 365, you can turn off these notifications for all users for compliance purposes. If you allow these notifications, users can select to turn them off.
 
