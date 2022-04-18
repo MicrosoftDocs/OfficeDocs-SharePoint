@@ -28,17 +28,16 @@ Migration Manager lets you bulk upload your Stream source paths using a comma-se
 - The number of sources listed in a single file must be less than 10,000.
 - Up to 50 scans are done simultaneously on the uploaded values.
 - The file contains a single column, and the column heading is optional.
-- Source paths can be entered either as [username]@[domainname]/[folder name]  or as [username]@[domainname].
 
-## Creating your CSV file
 
-### Adding source paths
+## Formatting your CSV file
 
-Enter your source paths using the following format:
+1. Start Excel. 
+2. Enter one source per row. The column heading is optional. Enter your source paths using the following format (without any space):
 
-- **Source path container**:  [container id]|[Container type] (without any space) 
+- [Container ID]|[Container type]
 
-- **Container type**: Use one of the following ‘User’, ‘M365Group’, ‘CompanywideChannel’, ‘StreamOnlyGroup’ 
+For container type, use ‘User’, ‘M365Group’, ‘CompanywideChannel’, or ‘StreamOnlyGroup’. 
 
 >[!Tip]
 >To discover your Container ID: Go to Stream classic and copy the unique identifier that appears after the word */group/* or */channel/*
@@ -48,13 +47,6 @@ Enter your source paths using the following format:
 >[!Note]
 >User containers currently can't be discovered via the *Add source* feature. 
 
-
-### Formatting your CSV file
-
-1. Start Excel. 
-2. Enter one source per row.  The column heading is optional. Enter your source as shown above:
-
-*[container id]|[Container type]* (without any space) 
 
 3. Close and save as a comma delimited (*.csv) file. The encoding of the CSV file must be UTF-8.
 
