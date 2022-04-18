@@ -33,22 +33,22 @@ You control your data. When you put your data in SharePoint and OneDrive for Mic
  
 Microsoft engineers administer SharePoint and OneDrive using a PowerShell console that requires two-factor authentication. We perform day-to-day tasks by running workflows so we can rapidly respond to new situations. Check-ins to the service require code review and management approval.
   
-No engineer has standing access to the service. When engineers need access, they must request it. Eligibility is checked, and if engineer access is approved, it's only for a limited time. In rare cases where Microsoft engineers need access to content (for example, if you submit a support ticket because a user can't access an important file that we believe is damaged), the engineers must check in a specific workflow that requires business justification and manager approval. An audit event is generated that you can view in the Microsoft 365 admin center. You can also turn on a feature called Customer Lockbox, so you need to approve the request. The engineer gets access only to the file in question. To learn how to turn on or off Customer Lockbox and approve and deny requests, see [Microsoft 365 Customer Lockbox Requests](/office365/admin/manage/customer-lockbox-requests).
+No engineer has standing access to the service. When engineers need access, they must request it. Eligibility is checked, and if engineer access is approved, it's only for a limited time. In rare cases where Microsoft engineers need access to content (for example, if you submit a support ticket because a user can't access an important file that we believe is damaged), the engineers must check in a specific workflow that requires business justification and manager approval. An audit event is generated that you can view in the Microsoft 365 admin center. You can also turn on a feature called Customer Lockbox, so you need to approve the request. The engineer gets access only to the file in question. To learn how to turn on or off Customer Lockbox and approve and deny requests, see [Microsoft Purview Customer Lockbox Requests](/office365/admin/manage/customer-lockbox-requests).
   
 ## How you can safeguard your data
- 
+
 One of the most important things you can do to safeguard your data is to require two-factor authentication for your identities in Microsoft 365. This prevents credentials from being used without a second factor and mitigates the impact of compromised passwords. The second factor can be made through a phone call, text message, or app. When you roll out two-factor authentication, start with your global admins, and then other admins and site collection admins. For info about how to do this, see [Set up multi-factor authentication for Microsoft 365 users](/office365/admin/security-and-compliance/set-up-multi-factor-authentication).
   
 Other things we recommend to increase security: 
   
 - Use Azure Active Directory device-based conditional access to block or limit access on unmanaged devices like airport or hotel kiosks. See [Control access from unmanaged devices](control-access-from-unmanaged-devices.md).
-    
+
 - Create policies to sign users out of Microsoft 365 web sessions after a period of inactivity. For information, see [Sign out inactive users](sign-out-inactive-users.md).
-    
+
 - Evaluate the need for IP-based sessions. These simulate the access model of an on-premises deployment. Read more at [Control access based on network location or app](/onedrive/control-access-based-on-network-location-or-app).
-    
+
 - Empower workers to share broadly but safely. You can require sign-in or use links that expire or grant limited privileges. See [Manage external sharing for your SharePoint environment](external-sharing-overview.md).
-    
+
 - Prevent accidental exposure of sensitive content. Create DLP policies to identify documents and prevent them from being shared. See [Overview of data loss prevention policies](/office365/securitycompliance/data-loss-prevention-policies).
     
 ## Protected in transit and at rest
