@@ -32,6 +32,7 @@ Migration Manager lets you bulk upload your Stream source paths using a comma-se
 
 ## Create your CSV file
 
+
 1. Start Excel. 
 2. Enter one source per row. The column heading is optional. Enter your source paths using the following format (without any space):
 
