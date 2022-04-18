@@ -58,7 +58,7 @@ To disable Fluid Framework, run `Set-SPOTenant -IsFluidEnabled $false`. The chan
 
 Loop components, Whiteboard on OneDrive, and OneNote collaborative Meeting Notes are discoverable but have limited eDiscovery workflow support. Currently, these files are stored in the creator’s OneDrive for Business and are available for search and collection in both core and advanced eDiscovery. However, they do not render in preview and the export format for review is not consumable by existing tools. To view the exported content, upload them to any OneDrive for Business.
 
-Microsoft is working on an offline consumable export format. In the meantime, if this workaround for review flows is not sufficient for your organization’s needs, you can temporarily disable these experiences as outlined in the [Settings Management](https://docs.microsoft.com/en-us/sharepoint/manage-loop-components#settings-management) section. 
+Microsoft is working on an offline consumable export format. In the meantime, if this workaround for review flows is not sufficient for your organization’s needs, you can temporarily disable these experiences as outlined in the [Settings management](settings-management.md) section. 
 
 ## Related topics
 
