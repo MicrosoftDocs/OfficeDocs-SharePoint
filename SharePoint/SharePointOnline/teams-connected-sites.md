@@ -52,9 +52,9 @@ These are the basic parts of Teams and SharePoint and how they relate to each ot
 
 - **Private team** - A private team is a team that a person can only join when invited by a team owner. Both public teams and private teams offer the same channel types - standard, private, and shared.
 
-- **Azure AD** - Azure AD is the directory service where Microsoft 365 user accounts are stored. (You can manage these accounts from Microsoft 365 as well.) Microsoft 365 groups are also stored in Azure AD. Azure AD allows administrators to manage users and groups and to apply business rules to user accounts, such as requiring multi-factor authentication.
-
 - **[Microsoft 365 group](/microsoft-365/solutions/collaboration-governance-overview#why-microsoft-365-groups-are-important-in-collaboration-governance)** - A Microsoft 365 group is a membership group that gives people access to multiple Microsoft 365 services at the same time. The membership for each team is stored in a Microsoft 365 group and that group also gives those people access to the team's parent SharePoint site.
+
+- **Azure AD** - Azure AD is the directory service where Microsoft 365 user accounts are stored. (You can manage these accounts from Microsoft 365 as well.) Microsoft 365 groups are also stored in Azure AD. Azure AD allows administrators to manage users and groups and to apply business rules to user accounts, such as requiring multi-factor authentication.
 
 ![Image of how Azure AD, Teams, and SharePoint relate.](media/teams-sharepoint-interactions.png)
 
