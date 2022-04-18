@@ -10,6 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 mscollection: 
 - SPMigration
 - M365-collaboration
@@ -28,16 +29,25 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## Coming soon
 
+- **Tag support for File share migrations**.  The tags feature is coming soon for File Share migrations to allow you to sort, organize, and navigate through a large quantity of sources and users.
+
+## February 2022
 - **Egnyte migrations**.  Migrate your Egnyte content to Microsoft 365.
-- **Tag support**.  A new tags feature is coming soon to allow you to sort, organize, and navigate through a large quantity of sources and users to find what you need. 
+- **Workaround for Geo admins**. Migration currently doesn't fully support the Geo admin role. See [Workaround for Geo admins using Migration Manager](mm-troubleshoot.md)
+- **Workaround for Azured-acquired SharePoint admins**. SharePoint admins created via groups can't access Migration Manager scan and migration tabs.  See [Workaround for Group-inherited SharePoint Admins using Migration Manager](mm-troubleshoot.md)
+
+## January 2022
+
+- **Add source path fix**. Previously, when doing a file share migration, the "Add source Path" button wasn't active on the Scan page, even if the agent was installed and connected. Fixed.
+- **Tag support - cloud migrations**.  A new tags feature to let you to sort, organize, and navigate through a large quantity of sources and users. Available for cloud migrations only.
 
 
-## November
+## November 2021
 
 - **Bulk upload Google drives.**  You can now bulk upload your Google drives using a comma-separated (CSV) file. 
 - **Report creation failure fixed.** Mover API failed to create reports on scans and migrations involving more than 40,000 records. This has been fixed. 
 
-## September
+## September 2021
 
 
 - **Support for files up to 100 GB.** File share migration now supports migrating individual files of up to 100 GB.

@@ -2,37 +2,19 @@
 
 
 
-## Week of December 13, 2021
+## Week of April 04, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 12/15/2021 | [Redirect and move Windows known folders to OneDrive](/OneDrive/redirect-known-folders) | modified |
-| 12/16/2021 | [OneDrive sync reports in the Apps Admin Center](/OneDrive/sync-health) | modified |
+| 4/6/2022 | [OneDrive sync reports in the Apps Admin Center](/OneDrive/sync-health) | modified |
+| 4/7/2022 | About Discover view | removed |
 
 
-## Week of December 06, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/6/2021 | [Change a specific user's OneDrive storage space](/OneDrive/change-user-storage) | modified |
-| 12/9/2021 | [Limit access](/OneDrive/limit-access) | added |
-
-
-## Week of November 29, 2021
+## Week of March 07, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 11/30/2021 | [Change a specific user's OneDrive storage space](/OneDrive/change-user-storage) | modified |
-| 12/1/2021 | [OneDrive sync reports in the Apps Admin Center](/OneDrive/sync-health) | modified |
-
-
-## Week of November 22, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 11/24/2021 | [Use information barriers with OneDrive](/OneDrive/information-barriers) | modified |
-| 11/24/2021 | [OneDrive sync reports in the Apps Admin Center](/OneDrive/sync-health) | modified |
+| 3/7/2022 | [OneDrive guide for enterprises](/OneDrive/plan-onedrive-enterprise) | modified |
+| 3/11/2022 | [Required URLs and ports for OneDrive consumer](/OneDrive/required-urls-and-ports) | modified |

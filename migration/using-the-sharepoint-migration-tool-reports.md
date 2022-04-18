@@ -9,6 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: medium
 mscollection:
 - SPMigration
@@ -250,7 +251,7 @@ Structure report at the task level.
 |HubSiteUrl|URL of the hubsite. This column is empty if the site is not hubsite|
 |Result|Registered/Associated/Failed|
 |Error|	Error type. Blank if no error occurred.|
-|Message|Error message||
+|Message|Error message|
    
 
 ### Performance report

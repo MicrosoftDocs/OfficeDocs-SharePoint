@@ -1,8 +1,8 @@
 ---
 title: "Control access based on network location or app"
 ms.reviewer: samust
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -14,7 +14,8 @@ ms.collection:
 - Strat_OD_admin
 - M365-collaboration
 ms.custom:
--  seo-marvel-apr2020
+- seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid:
 - ODB160
 - ODB150
@@ -25,7 +26,4 @@ description: "In this article, you'll learn how to apply conditional access sett
 
 # Control access based on network location or app
 
-To prevent users and guests from accessing OneDrive and SharePoint content on devices outside of specific domains, go to the [Access control page in the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true) and select **Network location**. For more info, see [Control access to SharePoint and OneDrive data based on network location](/sharepoint/control-access-based-on-network-location). You can also use the Access control page to control access from unmanaged devices. 
-  
-
-
+To prevent users and guests from accessing OneDrive and SharePoint content on devices outside of specific domains, go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">Access control page in the SharePoint admin center</a> and select **Network location**. For more info, see [Control access to SharePoint and OneDrive data based on network location](/sharepoint/control-access-based-on-network-location). You can also use the Access control page to control access from unmanaged devices.

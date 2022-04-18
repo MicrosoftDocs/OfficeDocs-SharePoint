@@ -2,142 +2,95 @@
 
 
 
-## Week of December 20, 2021
+## Week of April 04, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 12/20/2021 | [Manage settings and permissions when SharePoint and Teams are integrated](/SharePoint/manage-teams-sharepoint-experiences) | added |
-| 12/21/2021 | [Teams and SharePoint integration](/SharePoint/teams-connected-sites) | modified |
-| 12/22/2021 | [Add SharePoint Success Site content to your M365 Learning Pathways solution](/SharePoint/add-sss-cdn) | modified |
-| 12/22/2021 | [Branding your SharePoint site](/SharePoint/branding-sharepoint-online-sites-modern-experience) | modified |
-| 12/22/2021 | [Build Learning and Training Experiences for Employees](/SharePoint/build-learning-and-training-experiences-for-employees) | modified |
-| 12/22/2021 | [Add the Workplace transformation site](/SharePoint/change-management-template) | modified |
-| 12/22/2021 | [Guided walkthrough- Create a Giving site for your organization](/SharePoint/create-a-giving-site-for-your-organization) | modified |
-| 12/22/2021 | [Guided walkthrough - Create a communication site](/SharePoint/create-communication-site) | modified |
-| 12/22/2021 | [Guided walkthrough- Creating a Hub site for your organization](/SharePoint/create-hub-site-for-your-organization) | modified |
-| 12/22/2021 | [Guided walkthrough: Creating a training site for your organization](/SharePoint/create-training-site) | modified |
-| 12/22/2021 | [Customize the SharePoint Success Site](/SharePoint/customize-sss) | modified |
-| 12/22/2021 | [Automatic modernization of classic home pages](/SharePoint/disable-auto-modernization-classic-home-pages) | modified |
-| 12/22/2021 | [Distribute corporate news to your organization](/SharePoint/distribute-corporate-news-to-your-organization) | modified |
-| 12/22/2021 | [Guided walkthrough - Creating a leadership site for your organization](/SharePoint/guided-walkthrough-creating-leadership-site) | modified |
-| 12/22/2021 | [Guided walkthrough - Creating an organization site](/SharePoint/guided-walkthrough-creating-organization-site) | modified |
-| 12/22/2021 | [Guided walkthrough - Creating a Team site](/SharePoint/guided-walkthrough-creating-team-site) | modified |
-| 12/22/2021 | [Guided walkthrough - Setting up news for your organization using a hub site](/SharePoint/guided-walkthrough-set-up-news-with-hub-site) | modified |
-| 12/22/2021 | [Hold a town hall in Yammer and keep the conversation going](/SharePoint/hold-town-hall-using-yammer) | modified |
-| 12/22/2021 | [Associate a hub site to another hub site in the SharePoint admin center](/SharePoint/hub-to-hub-association) | modified |
-| 12/22/2021 | [Information architecture models and examples](/SharePoint/information-architecture-models-examples) | modified |
-| 12/22/2021 | [Introduction to SharePoint information architecture](/SharePoint/information-architecture-modern-experience) | modified |
-| 12/22/2021 | [Information architecture principles in SharePoint](/SharePoint/information-architecture-principles) | modified |
-| 12/22/2021 | [Intelligent intranet overview](/SharePoint/intelligent-internet-overview) | modified |
-| 12/22/2021 | [Get started planning your intranet](/SharePoint/intranet-get-started) | modified |
-| 12/22/2021 | [Planning intranet governance](/SharePoint/intranet-governance) | modified |
-| 12/22/2021 | [Intelligent intranet roles and tasks](/SharePoint/intranet-roles-tasks) | modified |
-| 12/22/2021 | [Intelligent intranet introduction](/SharePoint/intranet-team-overview) | modified |
-| 12/22/2021 | [Onboard new employees into your organization](/SharePoint/onboard-employees) | modified |
-| 12/22/2021 | [Introduction to the SharePoint Success Site](/SharePoint/overview-sss) | modified |
-| 12/22/2021 | [Get started planning and implementing SharePoint navigation design](/SharePoint/plan-implement-navigation-design) | modified |
-| 12/22/2021 | [Plan an intelligent SharePoint intranet](/SharePoint/plan-intranet) | modified |
-| 12/22/2021 | [Plan and implement SharePoint site navigation](/SharePoint/plan-navigation-modern-experience) | modified |
-| 12/22/2021 | [Overview of the Microsoft New Employee Onboarding sites](/SharePoint/provision-neo-hub) | modified |
-| 12/22/2021 | [Provision the SharePoint Success Site from the look book](/SharePoint/provision-sss-lookbook) | modified |
-| 12/22/2021 | [Provision the SharePoint Success Site](/SharePoint/provision-sss) | modified |
-| 12/22/2021 | [How to think about your intelligent intranet](/SharePoint/trad-vs-modern-intranet) | modified |
+| 4/4/2022 | [Manage settings and permissions when SharePoint and Teams are integrated](/SharePoint/manage-teams-sharepoint-experiences) | modified |
+| 4/4/2022 | [Create guidelines for site usage](/SharePoint/sites-usage-guidelines) | modified |
+| 4/4/2022 | [Deploy custom features to upgraded site collections in SharePoint Server 2013](/SharePoint/upgrade-and-update/deploy-custom-features-to-upgraded-site-collections-in-sharepoint-server-2013) | modified |
+| 4/6/2022 | [Add Viva Connections desktop to Microsoft Teams (Desktop only)](/SharePoint/viva-connections-desktop) | modified |
+| 4/7/2022 | [Create and manage terms in a term set](/SharePoint/create-and-manage-terms) | modified |
 
 
-## Week of December 13, 2021
+## Week of March 21, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 12/14/2021 | [Branding your SharePoint site](/SharePoint/branding-sharepoint-online-sites-modern-experience) | modified |
-| 12/14/2021 | [View SharePoint files with File Explorer in Microsoft Edge](/SharePoint/sharepoint-view-in-edge) | modified |
-| 12/14/2021 | [Custom Tiles in SharePoint Servers 2016, 2019, and Subscription Edition](/SharePoint/administration/custom-tiles-in-sharepoint-server-2016) | modified |
-| 12/14/2021 | [Description of MinRole and associated services in SharePoint Servers 2016, 2019, and Subscription Edition](/SharePoint/administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016) | modified |
-| 12/14/2021 | [Managing a MinRole Server Farm in SharePoint Servers 2016, 2019, and Subscription Edition](/SharePoint/administration/managing-a-minrole-server-farm-in-sharepoint-server-2016) | modified |
-| 12/14/2021 | [Remove a server from a farm in SharePoint Servers 2016, 2019, and Subscription Edition](/SharePoint/administration/remove-a-server-from-a-farm-in-sharepoint-server-2016) | modified |
-| 12/14/2021 | [Role conversion using MinRole in SharePoint Servers 2016, 2019, and Subscription Edition](/SharePoint/administration/role-conversion-using-minrole-in-sharepoint-server-2016) | modified |
-| 12/14/2021 | [Uninstall SharePoint Server 2016, 2019, or Subscription Edition](/SharePoint/administration/uninstall-sharepoint-server-2016) | modified |
-| 12/14/2021 | [Overview of MinRole Server Roles in SharePoint Servers 2016, 2019, and Subscription Edition](/SharePoint/install/overview-of-minrole-server-roles-in-sharepoint-server) | modified |
-| 12/14/2021 | [Planning for a MinRole server deployment in SharePoint Servers 2016, 2019, and Subscription Edition](/SharePoint/install/planning-for-a-minrole-server-deployment-in-sharepoint-server) | modified |
-| 12/17/2021 | [Mark new files as sensitive by default](/SharePoint/sensitive-by-default) | modified |
+| 3/21/2022 | [Change the sharing settings for a site](/SharePoint/change-external-sharing-site) | modified |
+| 3/21/2022 | [Use SharePoint as a business-to-business (B2B) extranet solution](/SharePoint/create-b2b-extranet) | modified |
+| 3/21/2022 | [Plan & deploy a file collaboration environment - SharePoint](/SharePoint/deploy-file-collaboration) | modified |
+| 3/21/2022 | [File collaboration in Microsoft 365 - SharePoint](/SharePoint/intro-to-file-collaboration) | modified |
+| 3/21/2022 | [Sharing & permissions in the SharePoint modern experience](/SharePoint/modern-experience-sharing-permissions) | modified |
+| 3/21/2022 | [Teams and SharePoint integration](/SharePoint/teams-connected-sites) | modified |
+| 3/23/2022 | [Change the default sharing link for a site](/SharePoint/change-default-sharing-link) | modified |
+| 3/23/2022 | [Change your SharePoint domain name](/SharePoint/change-your-sharepoint-domain-name) | modified |
+| 3/23/2022 | [Manage Loop components in SharePoint](/SharePoint/manage-loop-components) | modified |
 
 
-## Week of December 06, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/6/2021 | [Manage Teams connected sites](/SharePoint/teams-connected-sites) | modified |
-| 12/7/2021 | [Guided walkthrough - Creating a leadership site for your organization](/SharePoint/guided-walkthrough-creating-leadership-site) | modified |
-| 12/7/2021 | [Guided walkthrough - Creating an organization site](/SharePoint/guided-walkthrough-creating-organization-site) | modified |
-| 12/7/2021 | [Guided walkthrough - Creating a Team site](/SharePoint/guided-walkthrough-creating-team-site) | modified |
-| 12/7/2021 | [Guided walkthrough - Setting up news for your organization using a hub site](/SharePoint/guided-walkthrough-set-up-news-with-hub-site) | modified |
-| 12/7/2021 | [Domain restrictions when sharing SharePoint & OneDrive content](/SharePoint/restricted-domains-sharing) | modified |
-| 12/9/2021 | [Check logs, limits and reports](/SharePoint/check-logs-limits-and-reports) | modified |
-| 12/9/2021 | [SharePoint classic search administration overview](/SharePoint/manage-search-the-admin-center) | modified |
-| 12/9/2021 | [View Popularity Trends and Most Popular Items](/SharePoint/view-popularity-trends-and-most-popular-items) | modified |
-| 12/9/2021 | View search usage reports | removed |
-
-
-## Week of November 29, 2021
+## Week of March 14, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 11/29/2021 | [Manage site storage limits](/SharePoint/manage-site-collection-storage-limits) | modified |
-| 11/29/2021 | [View search usage reports in modern sites](/SharePoint/view-search-usage-reports-modern-sites) | modified |
-| 11/30/2021 | [Change a site address](/SharePoint/change-site-address) | modified |
-| 11/30/2021 | [External sharing overview](/SharePoint/external-sharing-overview) | modified |
-| 11/30/2021 | [Manage query rules](/SharePoint/manage-query-rules) | modified |
-| 11/30/2021 | [Create an organization news site](/SharePoint/organization-news-site) | modified |
-| 11/30/2021 | Add the Viva Connections app in the Teams admin center | removed |
-| 11/30/2021 | Create the Viva Connections Dashboard | removed |
-| 11/30/2021 | Guide to setting up Viva Connections | removed |
-| 11/30/2021 | Plan, build, and launch a home site for your organization | removed |
-| 11/30/2021 | Set up global navigation in the SharePoint app bar | removed |
-| 11/30/2021 | Overview: Viva Connections | removed |
-| 12/1/2021 | [Create guidelines for site usage](/SharePoint/sites-usage-guidelines) | modified |
-| 12/1/2021 | [Create an organization news site](/SharePoint/organization-news-site) | modified |
-| 12/3/2021 | [Manage search dictionaries](/SharePoint/manage-search-dictionaries) | modified |
-| 12/3/2021 | [Configure server-to-server authentication from SharePoint Server to SharePoint in Microsoft 365](/SharePoint/hybrid/configure-server-to-server-authentication) | modified |
+| 3/14/2022 | [Use SharePoint as a business-to-business (B2B) extranet solution](/SharePoint/create-b2b-extranet) | modified |
+| 3/14/2022 | [Use information barriers with SharePoint](/SharePoint/information-barriers) | modified |
+| 3/14/2022 | [Set up a site template for your hub site](/SharePoint/set-up-site-design-hub-site) | modified |
+| 3/14/2022 | [Azure AD B2B integration for SharePoint & OneDrive](/SharePoint/sharepoint-azureb2b-integration) | modified |
+| 3/14/2022 | [Control unmanaged device access to SharePoint and OneDrive](/SharePoint/control-access-from-unmanaged-devices) | modified |
+| 3/17/2022 | [Overview of the Microsoft New Employee Onboarding sites](/SharePoint/provision-neo-hub) | modified |
+| 3/17/2022 | [Administration of SharePoint Server](/SharePoint/administration/administration) | modified |
+| 3/17/2022 | [Backup solutions in SharePoint Server](/SharePoint/administration/backup) | modified |
+| 3/17/2022 | [Manage databases in SharePoint Server](/SharePoint/administration/database-management) | modified |
+| 3/17/2022 | [Manage RBS in SharePoint Server](/SharePoint/administration/manage-rbs) | modified |
+| 3/17/2022 | [Restore solutions in SharePoint Server](/SharePoint/administration/restore) | modified |
+| 3/17/2022 | [Server Management](/SharePoint/administration/server-management) | modified |
+| 3/17/2022 | [Manage service applications in SharePoint Server](/SharePoint/administration/service-application-management) | modified |
+| 3/17/2022 | [SharePoint 2013 dev/test environments in Azure](/SharePoint/administration/sharepoint-2013-dev-test-environments-in-azure) | modified |
+| 3/17/2022 | [SharePoint Server hybrid configuration roadmaps](/SharePoint/hybrid/configuration-roadmaps) | modified |
+| 3/17/2022 | [Configure a hybrid solution for SharePoint Server](/SharePoint/hybrid/configure-a-hybrid-solution) | modified |
+| 3/17/2022 | [Configure the hybrid infrastructure](/SharePoint/hybrid/configure-the-hybrid-infrastructure) | modified |
+| 3/17/2022 | [Hybrid for SharePoint Server](/SharePoint/hybrid/hybrid) | modified |
+| 3/17/2022 | [Install and configure SharePoint Server hybrid](/SharePoint/hybrid/install-and-configure-sharepoint-server-hybrid) | modified |
+| 3/17/2022 | [Plan SharePoint Server hybrid](/SharePoint/hybrid/plan-sharepoint-server-hybrid) | modified |
+| 3/17/2022 | [Configure SharePoint Server](/SharePoint/install/configure) | modified |
+| 3/17/2022 | [Install SharePoint Server 2016](/SharePoint/install/install-for-sharepoint-server-2016) | modified |
+| 3/17/2022 | [Install SharePoint Server 2019](/SharePoint/install/install-for-sharepoint-server-2019) | modified |
+| 3/17/2022 | [Installation overview for SharePoint Server Subscription Edition](/SharePoint/install/install-overview-spserver-se) | modified |
+| 3/17/2022 | [Install SharePoint Server](/SharePoint/install/install) | modified |
+| 3/17/2022 | [Prerequisites for SharePoint Servers 2016 and 2019](/SharePoint/install/prerequisites-2019) | modified |
+| 3/17/2022 | [Repair SharePoint Server Subscription Edition](/SharePoint/install/repair-sharepoint-server-subscription-edition) | modified |
+| 3/17/2022 | [Uninstall SharePoint Server Subscription Edition](/SharePoint/install/uninstall-for-sharepoint-server-subscription-edition) | modified |
+| 3/17/2022 | [Search](/SharePoint/search/search) | modified |
+| 3/17/2022 | [Security for SharePoint Server](/SharePoint/security-for-sharepoint-server/security-for-sharepoint-server) | modified |
+| 3/17/2022 | [Sites](/SharePoint/sites/sites) | modified |
+| 3/17/2022 | [SharePoint Health Analyzer rules reference for SharePoint Server 2016](/SharePoint/technical-reference/sharepoint-health-analyzer-rules-reference) | modified |
+| 3/17/2022 | [System Center Operations Manager knowledge articles for SharePoint Server](/SharePoint/technical-reference/system-center-operations-manager-knowledge-articles) | modified |
+| 3/17/2022 | [Technical reference for SharePoint Server](/SharePoint/technical-reference/technical-reference) | modified |
+| 3/17/2022 | [Deploy software updates for SharePoint Server 2016 and 2019](/SharePoint/upgrade-and-update/deploy-updates-for-sharepoint-server-2016) | modified |
+| 3/17/2022 | [Get started with upgrades to SharePoint Server 2019](/SharePoint/upgrade-and-update/get-started-with-upgrade-2019) | modified |
+| 3/17/2022 | [Get started with upgrades to SharePoint Server Subscription Edition](/SharePoint/upgrade-and-update/get-started-with-upgrade-subscription-edition) | modified |
+| 3/17/2022 | [Get started with upgrades to SharePoint Server 2016](/SharePoint/upgrade-and-update/get-started-with-upgrade) | modified |
+| 3/17/2022 | [Test and troubleshoot an upgrade to SharePoint Server 2016](/SharePoint/upgrade-and-update/test-and-troubleshoot-an-upgrade) | modified |
+| 3/17/2022 | [Upgrade and Update](/SharePoint/upgrade-and-update/upgrade-and-update) | modified |
+| 3/17/2022 | [Upgrade content databases to SharePoint Server Subscription Edition](/SharePoint/upgrade-and-update/upgrade-content-databases-subscription-edition) | modified |
+| 3/17/2022 | [Upgrade databases from SharePoint 2016 to SharePoint Server 2019](/SharePoint/upgrade-and-update/upgrade-databases-2019) | modified |
+| 3/17/2022 | [Upgrade databases from SharePoint Server 2019 and SharePoint Server 2016 to SharePoint Server Subscription Edition](/SharePoint/upgrade-and-update/upgrade-databases-subscription-edition) | modified |
+| 3/17/2022 | [Upgrade databases from SharePoint 2013 to SharePoint Server 2016](/SharePoint/upgrade-and-update/upgrade-databases) | modified |
+| 3/17/2022 | [Upgrade service applications to SharePoint Server Subscription Edition](/SharePoint/upgrade-and-update/upgrade-service-applications-to-sharepoint-server-subscription-edition) | modified |
+| 3/17/2022 | [Upgrade site collections to SharePoint Server 2016](/SharePoint/upgrade-and-update/upgrade-site-collections) | modified |
+| 3/17/2022 | [Upgrade to SharePoint Server 2016](/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-2016) | modified |
+| 3/17/2022 | [Upgrade to SharePoint Server 2019](/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-2019) | modified |
+| 3/17/2022 | [Upgrade to SharePoint Server Subscription Edition](/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-subscription-edition) | modified |
+| 3/17/2022 | [What's new](/SharePoint/what-s-new/what-s-new) | modified |
 
 
-## Week of November 22, 2021
+## Week of March 07, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 11/22/2021 | [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](/SharePoint/upgrade-and-update/overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013) | modified |
-| 11/22/2021 | [Plan for site collection upgrades in SharePoint 2013](/SharePoint/upgrade-and-update/plan-for-site-collection-upgrades-in-sharepoint-2013) | modified |
-| 11/22/2021 | [Plan for upgrade to SharePoint 2013](/SharePoint/upgrade-and-update/plan-for-upgrade) | modified |
-| 11/22/2021 | [Prepare to deploy software updates for SharePoint 2013](/SharePoint/upgrade-and-update/prepare-to-deploy-software-updates) | modified |
-| 11/22/2021 | [Review site collections upgraded to SharePoint 2013](/SharePoint/upgrade-and-update/review-site-collections-upgraded-to-sharepoint-2013) | modified |
-| 11/22/2021 | [Services upgrade overview from SharePoint 2010 to SharePoint Server 2013](/SharePoint/upgrade-and-update/services-upgrade-overview-from-sharepoint-2010-to-sharepoint-server-2013) | modified |
-| 11/22/2021 | [SharePoint Server 2016 zero downtime patching steps](/SharePoint/upgrade-and-update/sharepoint-server-2016-zero-downtime-patching-steps) | modified |
-| 11/22/2021 | [Software updates overview for SharePoint Server 2013](/SharePoint/upgrade-and-update/software-updates-overview-for-sharepoint-server-2013) | modified |
-| 11/22/2021 | [Software updates overview for SharePoint Server 2016 and 2019](/SharePoint/upgrade-and-update/software-updates-overview) | modified |
-| 11/22/2021 | [Troubleshoot site collection upgrade issues in SharePoint Server 2019](/SharePoint/upgrade-and-update/troubleshoot-site-collection-upgrade-issues-2019) | modified |
-| 11/22/2021 | [Troubleshoot site collection upgrade issues in SharePoint 2013](/SharePoint/upgrade-and-update/troubleshoot-site-collection-upgrade-issues-in-sharepoint-2013) | modified |
-| 11/22/2021 | [Troubleshoot site collection upgrade issues in SharePoint Server Subscription Edition](/SharePoint/upgrade-and-update/troubleshoot-site-collection-upgrade-issues-subscription-edition) | modified |
-| 11/22/2021 | [Troubleshoot site collection upgrade issues in SharePoint Server 2016](/SharePoint/upgrade-and-update/troubleshoot-site-collection-upgrade-issues) | modified |
-| 11/22/2021 | [Upgrade content databases to SharePoint Server 2019](/SharePoint/upgrade-and-update/upgrade-content-databases-2019) | modified |
-| 11/22/2021 | [Upgrade content databases from SharePoint 2010 to SharePoint 2013](/SharePoint/upgrade-and-update/upgrade-content-databases-from-sharepoint-2010-to-sharepoint-2013) | modified |
-| 11/22/2021 | [Upgrade content databases to SharePoint Server 2016](/SharePoint/upgrade-and-update/upgrade-content-databases) | modified |
-| 11/22/2021 | [Upgrade databases from SharePoint 2010 to SharePoint 2013](/SharePoint/upgrade-and-update/upgrade-databases-2013) | modified |
-| 11/22/2021 | [Upgrade My Sites to SharePoint Server 2019](/SharePoint/upgrade-and-update/upgrade-my-sites-2019) | modified |
-| 11/22/2021 | [Upgrade service applications to SharePoint 2013](/SharePoint/upgrade-and-update/upgrade-service-applications-to-sharepoint-2013) | modified |
-| 11/22/2021 | [Upgrade service applications to SharePoint Server 2016](/SharePoint/upgrade-and-update/upgrade-service-applications-to-sharepoint-server-2016) | modified |
-| 11/22/2021 | [Upgrade to SharePoint Server 2016](/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-2016) | modified |
-| 11/22/2021 | [Upgrade to SharePoint Server 2019](/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-2019) | modified |
-| 11/22/2021 | [Upgrade to SharePoint Server Subscription Edition](/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-subscription-edition) | modified |
-| 11/22/2021 | [Verify database upgrades in SharePoint Server Subscription Edition](/SharePoint/upgrade-and-update/verify-upgrade-for-databases-subscription-edition) | modified |
-| 11/22/2021 | [Verify database upgrades in SharePoint Server 2016](/SharePoint/upgrade-and-update/verify-upgrade-for-databases) | modified |
-| 11/22/2021 | [Verify database upgrades in SharePoint 2013](/SharePoint/upgrade-and-update/verify-upgrade) | modified |
-| 11/22/2021 | [New and improved features in SharePoint Server 2016](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016) | modified |
-| 11/23/2021 | [Overview: Viva Connections](/SharePoint/viva-connections-overview) | modified |
-| 11/24/2021 | [Planning your SharePoint hub sites](/SharePoint/planning-hub-sites) | modified |
-| 11/24/2021 | [Search limits for SharePoint](/SharePoint/search-limits) | modified |
-| 11/24/2021 | [Azure AD B2B integration for SharePoint & OneDrive](/SharePoint/sharepoint-azureb2b-integration) | modified |
-| 11/24/2021 | [Software requirements for SharePoint Servers for SharePoint Server Subscription Edition](/SharePoint/install/software-requirements-for-sharepoint-servers-for-sharepoint-server-subscription-edition) | modified |
-| 11/24/2021 | [Create claims-based web applications in SharePoint Server](/SharePoint/security-for-sharepoint-server/create-claims-based-web-applications) | modified |
+| 3/11/2022 | [Remove a hub site](/SharePoint/remove-hub-site) | modified |
+| 3/11/2022 | [Sync](/SharePoint/sharepoint-sync) | modified |

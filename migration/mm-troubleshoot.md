@@ -10,13 +10,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-ms.custom: 
+ms.custom: admindeeplinkSPO
 description: "Troubleshoot common errors in Migration Manager."
 ---
 # Troubleshoot Migration Manager issues and errors
@@ -31,9 +32,11 @@ This article describes how to resolve issues and errors you may experience when 
 - [Agent disconnected](#agent-disconnected)
 - [Task stuck in "Queued" state](#task-stuck-in-queued-status)
 - [Task report cannot be downloaded](#task-report-cannot-be-downloaded)
-- [Migration errors](#migration-error)
+- [Migration errors in task reports](#migration-errors-in-task-reports)
 - [Google migration error reports contain HTML](#google-error-report-shows-html-code-in-report)
 - [Error codes](#error-codes)
+- [Geo admins can't access full functionality of Migration Manager](#geo-admins-not-supported)
+- [Group-inherited SharePoint admins can't access full functionality of Migration Manager](#group-inherited-sharepoint-admins-unable-to-access-scans-and-migrations-tabs))
 
 
 ## Check prerequisites and settings
@@ -92,7 +95,7 @@ The problem could be caused by an outdated *clientsetup.exe* file.
 
 **Mitigation**
 
-1. Go to the [Migration Manager page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 2. Select **Download agent setup file**.
 3. Run the *clientsetup.exe* file on the computer or VM where you want to install the agent. Follow the instructions to complete the agent installation.
 
@@ -195,7 +198,7 @@ Or
 - If the task has failed, navigate to the folder **%AppData%\Microsoft\SPMigration\Logs**, then sort the subfolders by their modified time. Find the subfolder whose modified time is the closest to the task's start time. The error report will be in this subfolder.
 
 
-## Migration error
+## Migration errors in task reports
 
 **Issue**
 Migration tasks fail due to various reasons and are detailed in the task reports.
@@ -239,14 +242,37 @@ Run less concurrent transations.
 **Status**
 This is a known issue. ETA not set.
 
+## Geo admins not supported
+
+Migration Manager currently doesn't support the Geo admin role for specific scenarios. For file share migrations, these users can't access the scans tab. For cloud migrations, these users can't access neither the scans nor the migrations tab.
+
+**Workaround**. Assign the Geo user either a SharePoint admin or Global admin role.
+1. In the admin center, go to the **Users** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.
+2. On the **Active users** page, select the user whose admin role you want to change. In the flyout pane, under **Roles**, select **Manage roles**.
+3. Select the admin role that you want to assign to the user. If you don't see the role you're looking for, select **Show all** at the bottom of the list.
 
 
+## Group inherited SharePoint admins unable to access scans and migrations tabs
+
+SharePoint admin roles that were created as a result of joining an Azure group are not fully supported by Migration Manager. For file share migrations, these users can't access the scans tab. For cloud migrations, these users can't access neither the scans nor the migrations tab.  
+
+**Workaround**. Until this is resolved, assigned the user either a SharePoint admin or Global admin role.
+
+1. In the admin center, go to the **Users** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.
+2. On the **Active users** page, select the user whose admin role you want to change. In the flyout pane, under **Roles**, select **Manage roles**.
+3. Select the admin role that you want to assign to the user. If you don't see the role you're looking for, select **Show all** at the bottom of the list.
 
  ## Error codes 
 |**Error Code**|**Recommended action**|
 |:-----|:-----|
+|0x00000000|Unexpected error.|
+|0x01110001|Unknown reason.|
+|0x0111000B|Path is too long.|
 |0x0111000F|The parent folder was not migrated.  Check the failure report to determine the file and then try again.|
+|0x01110003|Cannot access source folder.|
+|0x01110009|Cound not retrieve the file metadata.|
 |0x01110010|Invalid characters in the file name. Check report for files names with <>:"?*/\,|
+|0x01110011|The item "created time" or "modified time" is not supported.|
 |0x0201000D|Check if the list exists or if you can access it in the source site and target site.|
 |0x02050008|Unable to access your local storage.  Restart your migration.|
 |0x02010023|Your source list template is not supported.  Try another.|

@@ -1,8 +1,8 @@
 ---
 title: OneDrive guide for enterprises
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -17,6 +17,7 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-overview
 - intro-get-started
+- admindeeplinkSPO
 ms.localizationpriority: high
 search.appverid:
 - MET150
@@ -179,7 +180,7 @@ You can deploy and manage OneDrive in many ways, but certain options make more s
 |Medium-sized business|Scripted installation or Microsoft Intune mobile device management (MDM)|Office 365 with MDM, SharePoint admin center, PowerShell, Intune mobile application management (MAM) or MDM|
 |Enterprise|Microsoft Endpoint Configuration Manager with Intune or Windows Autopilot|Microsoft Endpoint Configuration Manger, Group Policy, PowerShell, and so on. |
 
-Depending on where your organization fits in this table and the technologies available to you, you can choose which portion of this guide to use. For example, if you run a small business, you may want to keep your OneDrive deployment simple by installing the sync app manually on your employees' computers and using the SharePoint admin center to manage a few settings for your users. Alternatively, if you're running an enterprise, you may choose to deploy and manage OneDrive by using advanced tools like Microsoft Endpoint Configuration Manager and Group Policy, and you could use the sections that correspond to those tools, instead. To accommodate various situations, the deployment and management portions of this guide are in a modular format so that you can consume the document in the way that best aligns with your deployment needs and capabilities. This format also provides visibility into alternate technologies to improve your current processes.
+Depending on where your organization fits in this table and the technologies available to you, you can choose which portion of this guide to use. For example, if you run a small business, you may want to keep your OneDrive deployment simple by installing the sync app manually on your employees' computers and using the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> to manage a few settings for your users. Alternatively, if you're running an enterprise, you may choose to deploy and manage OneDrive by using advanced tools like Microsoft Endpoint Configuration Manager and Group Policy, and you could use the sections that correspond to those tools, instead. To accommodate various situations, the deployment and management portions of this guide are in a modular format so that you can consume the document in the way that best aligns with your deployment needs and capabilities. This format also provides visibility into alternate technologies to improve your current processes.
 
 ## Prerequisites
 
@@ -220,9 +221,7 @@ Because OneDrive provides access to files on many kinds of devices, it restricts
 
 ## Feature releases and requests
 
-If you want to see the functionality currently under development for OneDrive and Microsoft 365, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) or the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/onedrive). Lastly, if you want to request new functionality or vote on great community ideas for OneDrive, visit [OneDrive UserVoice](https://onedrive.uservoice.com).
-
-[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
+If you want to see the functionality currently under development for OneDrive and Microsoft 365, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) or the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/onedrive). 
 
 ## Keys to successful user adoption
 
@@ -232,7 +231,7 @@ User adoption is important to the overall success of any new application. Ideall
 
 - **Scenarios.** When planning to implement OneDrive and Microsoft 365, identify and define your business scenarios and how those scenarios align with the benefits of implementing OneDrive and Microsoft 365. Work with your key stakeholders to identify the goals of the business scenarios, and then match those goals against usage scenarios. For example, a business goal may be to maximize user productivity; a key usage scenario enabling that goal would be using OneDrive to access files from mobile devices, PCs, and Macs. For help with this process, see the [Productivity Library](https://support.office.com/article/d8ab82a5-5f02-4439-816b-4a5d35133e48).
 
-- **Awareness and training.** Creating awareness through awareness campaigns such as announcements, launch events, newsletters, town hall meetings, contests, and giveaways is a critical path to maximizing adoption. In addition, providing users with knowledge through classroom-style sessions and self-help guides helps them feel empowered to use OneDrive and Office 365. For more info about user communication and training on Office 365, see the [Plan your Office 365 Launch: Communication and Training Guide](https://aka.ms/commandtraining).
+- **Awareness and training.** Creating awareness through awareness campaigns such as announcements, launch events, newsletters, town hall meetings, contests, and giveaways is a critical path to maximizing adoption. In addition, providing users with knowledge through classroom-style sessions and self-help guides helps them feel empowered to use OneDrive and Office 365.
 
 Many resources are available from Microsoft to help you drive user adoption within your environment. For more info about a recommended Microsoft 365 user adoption strategy, see the [Microsoft 365 End User Adoption Guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Microsoft%20365%20User%20Adoption%20Guide.pdf). For more info about driving user engagement, see [Success Factors for Office 365 End User Engagement](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Resources/Office365_AdoptionBrochure_v2.0_Screen.pdf). You can also contribute to or comment on adoption-related ideas in the [Driving Adoption Tech Community](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption).
 
@@ -300,7 +299,7 @@ If you've decided to use Windows Information Protection with OneDrive, see the f
 
 - [Create a Windows Information Protection (WIP) policy using Microsoft Intune](/windows/security/information-protection/windows-information-protection/overview-create-wip-policy/)
 
-- [Create a Windows Information Protection (WIP) policy using Configuration Manager](/windows/security/information-protection/windows-information-protection/overview-create-wip-policy-sccm/)
+- [Create a Windows Information Protection (WIP) policy using Configuration Manager](/windows/security/information-protection/windows-information-protection/overview-create-wip-policy-configmgr)
 
 
 ### Azure Information Protection
@@ -514,21 +513,19 @@ The tools and technologies you use to manage OneDrive are based on the individua
 
 ## Manage OneDrive by using the new SharePoint admin center
 
-The [new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true) enables you to manage OneDrive settings and device access from one central location. Some settings in the SharePoint admin center you'll use regardless of any other technologies you use to manage OneDrive (for example, to configure storage space settings). Others may overlap management apps in use (for example, the MDM section). Most organizations will use the SharePoint admin center for some of their settings, but only those organizations without an MDM application would likely use the device access functionality in the SharePoint admin center.
+The <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> enables you to manage OneDrive settings and device access from one central location. Some settings in the SharePoint admin center you'll use regardless of any other technologies you use to manage OneDrive (for example, to configure storage space settings). Others may overlap management apps in use (for example, the MDM section). Most organizations will use the SharePoint admin center for some of their settings, but only those organizations without an MDM application would likely use the device access functionality in the SharePoint admin center.
 
-Settings in the SharePoint admin center to manage OneDrive are grouped into six categories:
+- **Sharing** - Use the <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">Sharing page in the SharePoint admin center</a> to configure your sharing options based on the decisions you made earlier in this guide. To learn more, see [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off).
 
-- **Sharing** - Use the [Sharing page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true), to configure your sharing options based on the decisions you made earlier in this guide. To learn more, see [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off).
+- **Sync** - On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings page in the SharePoint admin center</a>, select **Sync** to configure sync restrictions based on file types, require that synced devices be domain joined, or restrict synchronization from computers running macOS. Depending on your device management tool, the PC device restrictions in this section may overlap other management settings.
 
-- **Sync** - On the **Settings** - **OneDrive - Sync** page, you can configure sync restrictions based on file types, require that synced devices be domain joined, or restrict synchronization from computers running macOS. Depending on your device management tool, the PC device restrictions in this section may overlap other management settings.
+- **Storage limit** - On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings page in the SharePoint admin center</a>, select **Storage limit** to specify the default OneDrive storage limit for users in your organization. This organization-wide configuration setting is applicable to all organizations, regardless of the device management tool they use.
 
-- **Storage limit** - On the **Settings** - **Storage limit** page, you specify the default OneDrive storage limit for users in your organization. This organization-wide configuration setting is applicable to all organizations, regardless of the device management tool they use.
+-  **Retention** - On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings page in the SharePoint admin center</a>, select **Retention** to configure data retention settings for users whose accounts have been deleted (the maximum value is 10 years). This organization-wide configuration setting is applicable to all organizations, regardless of the device management tool they use. Use this page to configure the data retention value based on the decisions you made in Part 2, [Plan for OneDrive for enterprises](plan-onedrive-enterprise.md).
 
--  **Retention** - On the **Settings** - **Retention** page, you can configure data retention settings for users whose accounts have been deleted (the maximum value is 10 years). This organization-wide configuration setting is applicable to all organizations, regardless of the device management tool they use. Use this page to configure the data retention value based on the decisions you made in Part 2, [Plan for OneDrive for enterprises](plan-onedrive-enterprise.md).
+- **Notifications** - On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings page in the SharePoint admin center</a>, select **Notifications** to define if OneDrive users should receive notifications about file activity. For info about enabling these options, see [Turn on external sharing notifications for OneDrive](turn-on-external-sharing-notifications.md).
 
-- **Notifications** - On the **Settings** - **Notifications** page, you define if OneDrive users should receive notifications about file activity. For info about enabling these options, see [Turn on external sharing notifications for OneDrive](turn-on-external-sharing-notifications.md).
-
-- **Device Access** - Use the [Access control page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true).
+- **Device Access** - Use the <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">Access control page in the SharePoint admin center</a>.
 
 ## Manage OneDrive by using the Microsoft 365 compliance center
 

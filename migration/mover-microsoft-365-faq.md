@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -21,8 +22,6 @@ description: "Frequently asked questions when using Microsoft Mover to migrate t
 Mover only migrates data from: 
 
 - An individual's **online drive storage**, such as OneDrive, MyDrive, etc.
-or
-- Data located in a **shared drive**, including Dropbox Team's Folder, SharePoint Document Library, Google Shared Drive, etc.
 
 Mover **does not** migrate e-mails, mailboxes, contacts, calendars, site layouts/collections/pages/lists, etc.
 

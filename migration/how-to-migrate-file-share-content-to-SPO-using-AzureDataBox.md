@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 search.appverid: MET150
 ms.collection: 
 - IT_Sharepoint_Server_Top

@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -15,7 +16,14 @@ ms.collection:
 search.appverid: MET150
 description: "Use the Mover migration service to set up your Egnyte source connector."
 ---
+
 # Setting up the Egnyte source connector
+
+
+>[!Important]
+> The legacy Mover.io tool no longer supports Egnyte connectors. Use [Migration Manager](mm-egnyte-overview.md) for migrating from Egnyte.
+
+
 
 ## Egnyte FAQ
 

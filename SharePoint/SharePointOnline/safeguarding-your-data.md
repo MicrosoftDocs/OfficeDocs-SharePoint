@@ -3,8 +3,8 @@ title: "Cloud data security measures in SharePoint & OneDrive"
 ms.reviewer: mswann
 manager: serdars
 recommendations: true
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.date: 5/25/2018
 audience: Admin
 f1.keywords:
@@ -110,7 +110,7 @@ To monitor and observe activity in your Microsoft 365 subscription:
     
 ## Audited and compliant
  
-Regulatory compliance is fundamental to Microsoft 365. We make sure the service complies with regulatory and compliance standards. We also help you meet your audit and compliance obligations. The [Service Trust Portal](https://servicetrust.microsoft.com) is a one-stop-shop for compliance and trust information for Microsoft enterprise services. The portal contains reports, whitepapers, vulnerability assessments, and compliance guides. The portal also includes the Compliance Manager, which evaluates the configuration of your subscription against a set of compliance criteria. For more info about the Service Trust Portal, see [Get started with the Microsoft Service Trust Portal](/office365/securitycompliance/get-started-with-service-trust-portal).
+Regulatory compliance is fundamental to Microsoft 365. We make sure the service complies with regulatory and compliance standards. We also help you meet your audit and compliance obligations. The [Service Trust Portal](https://servicetrust.microsoft.com) is a one-stop-shop for compliance and trust information for Microsoft enterprise services. The portal contains reports, whitepapers, vulnerability assessments, and compliance guides. For more info about the Service Trust Portal, see [Get started with the Microsoft Service Trust Portal](/office365/securitycompliance/get-started-with-service-trust-portal).
   
 To meet your regulatory requirements: 
   

@@ -70,7 +70,7 @@ In this section, you record information about URLs and host names in your enviro
     > [!IMPORTANT]
     > If you configure internal URLs to access a web application during the deployment process, make sure that you also create A records for those URLs in the intranet DNS forward lookup zone, and record them on the worksheet. 
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)| Record the following information in Table 3 of the SharePoint Hybrid worksheet:  <br/>  The domain name of the public-facing corporate DNS domain in the **Public Internet Domain name** row.  <br/>  The URL of the public-facing endpoint of the reverse proxy device in the **External URL** row.  <br/>  The IP address of the external endpoint of the reverse proxy device in the **IP Address of the external endpoint** row.  <br/> |
   
@@ -167,7 +167,7 @@ Site collections used for hybrid functionality must meet all these requirements,
 > [!NOTE]
 > Remember that the **External URL** is the URL of the Internet-facing endpoint of the reverse proxy device. 
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|Record your site collection strategy choice on the worksheet in the **Site collection strategy** row of Table 2. |
    
@@ -178,7 +178,7 @@ You can either use an existing web application or create one to use as the prima
   
 If you prefer to manage the web application used for hybrid functionality independently or if your existing web application does not meet the requirements that are listed in the [Choose a site collection strategy](plan-connectivity-from-office-365-to-sharepoint-server.md#scstrategy) section, you should create a new web application. 
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|Record your decision in the **New or existing web application** row of Table 2. |
    
@@ -187,7 +187,7 @@ If you prefer to manage the web application used for hybrid functionality indepe
 
 If you decide to use an existing web application as the primary web application, gather the URL of the primary web application and the URL of the top level site collection and list it on the worksheet.
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)| Record the following information on the worksheet:  <br/>  Depending on your site collection strategy, record the URL of the primary web application in the **Primary web application URL** row of Table 5a, 5b, or 5c.  <br/>  If you are using an existing host-named site collection, record the URL of the top-level site collection in the **Host-named site collection URL** row in Table 5a.  <br/> |
   

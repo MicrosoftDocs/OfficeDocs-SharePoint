@@ -12,6 +12,7 @@ localization_priority: Normal
 search.appverid:
 ms.collection:  
   - m365solution-corpcomms
+  - m365solution-scenario
 description: "Learn how to distribute news within your organization."
 
 ---

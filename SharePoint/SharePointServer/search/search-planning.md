@@ -28,7 +28,7 @@ The following articles provide information about the planning you need to do to 
 
 The following articles about planning search in SharePoint Server are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
-||**Content**|**Description**|
+| &nbsp; | Content | Description |
 |:-----|:-----|:-----|
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Overview of search architecture in SharePoint Server](search-architecture-overview.md) <br/> |Learn about the different search components and databases and their role within the search topology.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Plan enterprise search architecture in SharePoint Server 2016](plan-enterprise-search-architecture.md) <br/> |Learn how to plan a small, medium or large enterprise search architecture.  <br/> |
