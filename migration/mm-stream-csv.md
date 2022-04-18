@@ -32,7 +32,7 @@ Migration Manager lets you bulk upload your Stream source paths using a comma-se
 
 ## Creating your CSV file
 
-###Adding source paths
+### Adding source paths
 
 Enter your source paths using the following format:
 
@@ -41,7 +41,7 @@ Enter your source paths using the following format:
 - **Container type**: Use one of the following ‘User’, ‘M365Group’, ‘CompanywideChannel’, ‘StreamOnlyGroup’ 
 
 >[!Tip]
->Discover your Container ID: Go to Stream classic and copy the unique identifier that appears after the word */group/* or */channel/*
+>To discover your Container ID: Go to Stream classic and copy the unique identifier that appears after the word */group/* or */channel/*
 >
 >![finding your container id](media/mm-stream-container-id.png)
  
