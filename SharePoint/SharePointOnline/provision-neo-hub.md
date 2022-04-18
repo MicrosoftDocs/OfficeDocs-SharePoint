@@ -387,13 +387,13 @@ NEO sites should present the most up-to-date content your organization has to of
 
 **Question**: Where can I share feedback for ideas on how to improve the SharePoint site experience? 
 
-**Answer**: Post your ideas and comments about SharePoint sites in the [Site and Collaboration User Voice Forum](https://sharepoint.uservoice.com/forums/329214-sites-and-collaboration)
+**Answer**: Post your ideas and comments about SharePoint sites in the Site and Collaboration User Voice Forum
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
 **Question**: Where can I ask questions or report an issue with the SharePoint provisioning service? 
 
-**Answer**: Post your questions and comments about the provisioning of the NEO sites to the SharePoint [provisioning service forum](https://sharepoint.uservoice.com/forums/329214-sites-and-collaboration?category_id=144408).
+**Answer**: Post your questions and comments about the provisioning of the NEO sites to the SharePoint provisioning service forum.
 
 **Sources**:
 
