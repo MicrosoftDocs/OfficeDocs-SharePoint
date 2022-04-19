@@ -51,6 +51,7 @@
 #### [Step 2: Migrate workflows](spmt-workflow-step2.md)
 #### [Step 3: Activate workflows](spmt-workflow-step3.md)
 ### [Migrate SharePoint Server workflows using PowerShell](spmt-workflow-powershell.md)
+## [Bulk upload Stream souce paths into Migration Manager](mm-stream-csv.md)
 ## Migration Manager Reference
 ### Troubleshooting and errors codes
 #### [Troubleshooting and errors](mm-troubleshoot.md)

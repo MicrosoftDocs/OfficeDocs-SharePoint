@@ -51,6 +51,8 @@ For container type, use ‘User’, ‘M365Group’, ‘CompanywideChannel’, o
 
 3. Close and save as a comma delimited (*.csv) file. The encoding of the CSV file must be UTF-8.
 
+![How to enter your stream source in the csv file](media/mm-stream-format-csv.png)
+
 
 ## Uploading your file
 
