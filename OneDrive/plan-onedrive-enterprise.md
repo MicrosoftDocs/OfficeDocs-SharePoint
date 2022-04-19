@@ -527,9 +527,9 @@ The <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">Sh
 
 - **Device Access** - Use the <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">Access control page in the SharePoint admin center</a>.
 
-## Manage OneDrive by using the Microsoft 365 compliance center
+## Manage OneDrive by using the Microsoft Purview compliance portal
 
-The [Microsoft 365 compliance center](https://compliance.microsoft.com/) provides a centralized location to auditing, DLP, retention, eDiscovery, and alerting capabilities within Microsoft 365 that are applicable to OneDrive. You can create DLP policies from templates that protect certain types of data, such as Social Security numbers, banking information, and other financial and medical content. Some capabilities won't be available if you're using Intune (for example, device management). For a walkthrough of how to create DLP policies and apply them to OneDrive, see [Create a DLP policy from a template](/office365/securitycompliance/create-a-dlp-policy-from-a-template/).
+The [Microsoft Purview compliance portal](https://compliance.microsoft.com/) provides a centralized location to auditing, DLP, retention, eDiscovery, and alerting capabilities within Microsoft 365 that are applicable to OneDrive. You can create DLP policies from templates that protect certain types of data, such as Social Security numbers, banking information, and other financial and medical content. Some capabilities won't be available if you're using Intune (for example, device management). For a walkthrough of how to create DLP policies and apply them to OneDrive, see [Create a DLP policy from a template](/office365/securitycompliance/create-a-dlp-policy-from-a-template/).
 
 
 ## Manage OneDrive settings by using Intune
