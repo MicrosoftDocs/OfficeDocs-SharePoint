@@ -110,7 +110,7 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 
 - (EnableODIgnoreListFromGPO) [Exclude specific kinds of files from being uploaded](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded)
 
-- (EnableSyncAdminReports) [Allow tenant health reporting from OneDrive](use-group-policy.md#allow-tenant-health-reporting-from-onedrive)
+- (EnableSyncAdminReports) [Enable sync health reporting for OneDrive](use-group-policy.md#enable-sync-health-reporting-for-onedrive)
 
 - (FilesOnDemandEnabled) [Use OneDrive Files On-Demand](use-group-policy.md#use-onedrive-files-on-demand)
 
@@ -181,19 +181,6 @@ where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md
   
 This setting takes priority over [Block syncing OneDrive accounts for specific organizations](use-group-policy.md#block-syncing-onedrive-accounts-for-specific-organizations). Do not enable both settings at the same time.
 
-### Allow tenant health reporting from OneDrive
-<a name="EnableSyncAdminReports"> </a>
-
-This setting lets the OneDrive sync app report sync device and health data included in administrative sync reports.
-
-If you enable this setting, the OneDrive sync app will report device and health data to include in sync admin reports. You must enable this setting on the devices you want to get reports from.
-
-If you disable or do not configure this setting, OneDrive sync app device and health data will not appear in the admin reports.
-
-Enabling this policy sets the following registry key value to 1:
-
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"EnableSyncAdminReports"="dword:00000001"`
-
 ### Block file downloads when users are low on disk space
 <a name="MinDiskSpaceLimitInMB"> </a>
 
@@ -252,6 +239,19 @@ If you disable or do not configure this setting, users can choose to limit the u
 Enabling this policy sets the following registry key value to 1:
 
 `[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\OneDrive]"EnableAutomaticUploadBandwidthManagement"="dword:00000001"`
+
+### Enable sync health reporting for OneDrive
+<a name="EnableSyncAdminReports"> </a>
+
+This setting lets the OneDrive sync app report sync device and health data included in administrative sync reports.
+
+If you enable this setting, the OneDrive sync app will report device and health data to include in sync admin reports. You must enable this setting on the devices you want to get reports from.
+
+If you disable or do not configure this setting, OneDrive sync app device and health data will not appear in the admin reports.
+
+Enabling this policy sets the following registry key value to 1:
+
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"EnableSyncAdminReports"="dword:00000001"`
 
 ### Exclude specific kinds of files from being uploaded
 
