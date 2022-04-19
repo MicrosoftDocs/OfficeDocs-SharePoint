@@ -51,8 +51,6 @@
 #### [Step 2: Migrate workflows](spmt-workflow-step2.md)
 #### [Step 3: Activate workflows](spmt-workflow-step3.md)
 ### [Migrate SharePoint Server workflows using PowerShell](spmt-workflow-powershell.md)
-## Migrate Stream videos
-### [Bulk upload Stream souce paths into Migration Manager](mm-stream-csv.md)
 ## Migration Manager Reference
 ### Troubleshooting and errors codes
 #### [Troubleshooting and errors](mm-troubleshoot.md)
@@ -79,6 +77,8 @@
 ### Dropbox  Reference
 #### [FAQs](mm-faqs-dropbox.md)
 #### [Bulk upload Dropbox accounts using a CSV file](mm-dropbox-bulk-upload-source-paths-csv.md)
+### Stream Reference
+#### [Bulk upload Stream souce paths into Migration Manager](mm-stream-csv.md)
 ## SPMT Reference
 ### [Prerequisites and endpoints](spmt-prerequisites.md)
 ### [Supported features](what-is-supported-spmt.md)
