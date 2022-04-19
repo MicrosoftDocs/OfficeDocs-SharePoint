@@ -36,10 +36,10 @@ You'll need the latest version of SharePoint PowerShell module to enable or disa
 
 |Experience|SharePoint organization properties|Notes|
 |:---------|:---------------------------------|:----|
-|**All Microsoft 365 experiences** powered by Fluid Framework|`IsFluidEnabled` (boolean)|This core property controls all other experiences powered by Fluid Framework. Setting it to `False` will effectively disable all experiences (everything in this table) in the organization powered by Fluid Framework.|
-|Loop components in Teams|n/a|There is no setting for disabling only Loop components in Teams at this time, you must use the core property above.|
-|Microsoft Whiteboard on OneDrive|`IsWBFluidEnabled` (boolean) |Only applies when `IsFluidEnabled` is `True`|
-|Microsoft OneNote collaborative Meeting notes|`IsCollabMeetingNotesEnabled` (boolean)|Only applies when `IsFluidEnabled` is `True`|
+|Loop components in Teams and Outlook|`IsLoopEnabled` (boolean)<br/>**coming May 2022**|This property controls Loop experiences across the Microsoft 365 experience. Only applies when `IsFluidEnabled` is `True`|
+|Microsoft Whiteboard on OneDrive|`IsWBFluidEnabled` (boolean) |This property controls Microsoft Whiteboard on OneDrive. Only applies when `IsFluidEnabled` is `True`|
+|Microsoft OneNote collaborative Meeting notes|`IsCollabMeetingNotesEnabled` (boolean)|This property controls Microsoft OneNote collaborative Meeting notes. Only applies when `IsFluidEnabled` is `True`|
+|**All Microsoft 365 experiences** powered by Fluid Framework.|`IsFluidEnabled` (boolean)|This core property controls all other experiences powered by Fluid Framework. Setting it to `False` will effectively disable all experiences (everything in this table) in the organization powered by Fluid Framework. Do not use after May - this setting will be deprecated later this year.
 
 To check your tenant's default file permissions
 1.	Go to the [Microsoft 365 admin center](https://admin.microsoft.com).
