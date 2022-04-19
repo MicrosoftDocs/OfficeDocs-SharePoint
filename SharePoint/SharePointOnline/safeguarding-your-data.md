@@ -48,8 +48,8 @@ Other things we recommend to increase security:
 - Evaluate the need for IP-based sessions. These simulate the access model of an on-premises deployment. Read more at [Control access based on network location or app](/onedrive/control-access-based-on-network-location-or-app).
 
 - Empower workers to share broadly but safely. You can require sign-in or use links that expire or grant limited privileges. See [Manage external sharing for your SharePoint environment](external-sharing-overview.md).
-
-- Prevent accidental exposure of sensitive content. Create DLP policies to identify documents and prevent them from being shared. See [Overview of data loss prevention policies](/office365/securitycompliance/data-loss-prevention-policies).
+    
+- Prevent accidental exposure of sensitive content. Create DLP policies to identify documents and prevent them from being shared. See [Learn about data loss prevention](/microsoft-365/compliance/dlp-learn-about-dlp).
     
 ## Protected in transit and at rest
  
