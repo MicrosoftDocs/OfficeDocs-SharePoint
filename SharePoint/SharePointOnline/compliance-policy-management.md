@@ -93,7 +93,7 @@ The following table describes the eDiscovery tools to search for, preserve, revi
 |:------|:------------|:----------------------------|
 |[Content search](/microsoft-365/compliance/content-search)| Best used as a search tool to discover content in internal investigations and for responding to security incidents.|[Search for content using the Content search tool](/microsoft-365/compliance/search-for-content) |
 |[eDiscovery (Standard)](/microsoft-365/compliance/get-started-core-ediscovery)|Lets you create eDiscovery cases and assign eDiscovery managers to specific cases. eDiscovery (Standard) also lets you associate searches and exports with a case and lets you preserve content that's relevant to the case.| [Create an eDiscovery hold](/microsoft-365/compliance/create-ediscovery-holds)<br /><br /> [Search for content in an case](/microsoft-365/compliance/search-for-content-in-core-ediscovery)<br /><br />[Export content from a case](/microsoft-365/compliance/export-content-in-core-ediscovery)|
-|[eDiscovery (Permium)](/microsoft-365/compliance/overview-ediscovery-20)| Provides an end-to-end workflow to identify, preserve, collect, review, analyze, and export content that's responsive to your organization's internal and external investigations.  |[Set up eDiscovery (Permium)](/microsoft-365/compliance/get-started-with-advanced-ediscovery) |
+|[eDiscovery (Premium)](/microsoft-365/compliance/overview-ediscovery-20)| Provides an end-to-end workflow to identify, preserve, collect, review, analyze, and export content that's responsive to your organization's internal and external investigations.  |[Set up eDiscovery (Premium)](/microsoft-365/compliance/get-started-with-advanced-ediscovery) |
 
 ## Auditing
 
