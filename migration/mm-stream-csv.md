@@ -63,6 +63,9 @@ For container type, use ‘User’, ‘M365Group’, ‘CompanywideChannel’, o
 
 
 3. Select **Upload a CSV file**.  Browse to your file and then select **Add**.
+
+![Upload Stream source paths](media/mm-stream-csv-upload.png)
+
 4. View your added files in the **Scans** tab. Continue to the next step, "Add to Migrations".
 
 
