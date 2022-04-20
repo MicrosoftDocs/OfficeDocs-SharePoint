@@ -26,7 +26,7 @@ This step-by-step guide explains how to configure federated authentication in Sh
 
 ## Overview of federated authentication
 
-In federated authentication, SharePoint processes SAML tokens issued by a trusted, external Security Token Service (STS). A user who attempts to log on is redirected to that STS, which authenticates the user and generates a SAML token upon successful authentication. Then SharePoint processes this token, and uses it to create its own and authorize the user to access the site.
+In federated authentication, SharePoint processes SAML tokens issued by a trusted, external Security Token Service (STS). A user who attempts to sign in is redirected to that STS, which authenticates the user and generates a SAML token upon successful authentication. Then SharePoint processes this token, and uses it to create its own and authorize the user to access the site.
 
 ## Prerequisites
 
@@ -82,8 +82,7 @@ Set-ADFSRelyingPartyTrust -TargetName $name -IssuanceTransformRules $claimsRule
 
 When the script completes, the relying party in AD FS should look like this:
 
-> [!div class="mx-imgBorder"]
-> ![ADFS Relying Party](../media/SharePointTrustedAuthN_ADFSRelyingParty.png)
+:::image type="content" source="../media/SharePointTrustedAuthN_ADFSRelyingParty.png" alt-text="ADFS Relying Party" lightbox="../media/SharePointTrustedAuthN_ADFSRelyingParty.png":::
 
 ## Configure SharePoint to trust AD FS
 
@@ -136,9 +135,9 @@ In this step you configure a web application in SharePoint to be federated with 
 
 There are some important rules to respect:
 - The default zone of the SharePoint web application must have Windows authentication enabled. This is required for the Search crawler.
-- SharePoint URL that will use AD FS federation must be be configured with HTTPS.
+- SharePoint URL that will use AD FS federation must be configured with HTTPS.
 
-There are 2 possible configurations:
+There are two possible configurations:
 - If you create a new web application and use both Windows and AD FS authentication in the Default zone:
 
     1. Start the **SharePoint Management Shell** and run the following script:
@@ -162,8 +161,9 @@ There are 2 possible configurations:
     
     1. Filter the display with the new web application and confirm that you see something like this:
 
-       > [!div class="mx-imgBorder"]
-       > ![Alternate Access Mappings of web application](../media/SharePointTrustedAuthN_AAM1ZoneWebapp.png)
+      
+       :::image type="content" source="../media/SharePointTrustedAuthN_AAM1ZoneWebapp.png" alt-text="Alternate Access Mappings of web application" lightbox="../media/SharePointTrustedAuthN_AAM1ZoneWebapp.png":::
+
 
 - If you extend an existing web application to set AD FS authentication on a new zone:
 
@@ -188,10 +188,11 @@ There are 2 possible configurations:
     
     1. Filter the display with the web application that was extended and confirm that you see something like this:
 
-        > [!div class="mx-imgBorder"]
-        > ![Alternate Access Mappings of extended application](../media/SharePointTrustedAuthN_AAMExtendedWebapp.png)
+       
+        :::image type="content" source="../media/SharePointTrustedAuthN_AAMExtendedWebapp.png" alt-text="Alternate Access Mappings of extended application" lightbox="../media/SharePointTrustedAuthN_AAMExtendedWebapp.png":::
 
-## Make sure that an HTTPS certificate is set in IIS
+
+## Set an HTTPS certificate in IIS
 
 Because SharePoint URL uses HTTPS protocol (`https://spsites.contoso.local/`), a certificate must be set on the corresponding Internet Information Services (IIS) site.
 
@@ -231,34 +232,39 @@ In this step, you create a team site collection with two administrators: One as 
 
 1. Type a **Title**, **Url**, and select the template **Team Site**.
 
-1. In the **Primary Site Collection Administrator** section, click on the book icon to open the people picker dialog.
+1. In the **Primary Site Collection Administrator** section, click the book icon to open the people picker dialog.
 
 1. In the people picker dialog, type the Windows administrator account, for example `yvand`.
 
-1. On the left, filter the list by clicking on **Organizations**. You should see an output like this:
+1. On the left, filter the list by clicking **Organizations**. You should see an output like this:
 
-    > [!div class="mx-imgBorder"]
-    > ![People picker Windows administrator](../media/SharePointTrustedAuthN_ppicker_winadmin.png)
+    
+    :::image type="content" source="../media/SharePointTrustedAuthN_ppicker_winadmin.png" alt-text="People picker Windows administrator" lightbox="../media/SharePointTrustedAuthN_ppicker_winadmin.png":::
+
 
 1. Select the account and click **OK**.
 
-1. In the **Secondary Site Collection Administrator** section, click on the book icon to open the people picker dialog.
+1. In the **Secondary Site Collection Administrator** section, click the book icon to open the people picker dialog.
 
 1. In the people picker dialog, type the _exact_ email value of the AD FS administrator account, for example `yvand@contoso.local`.
 
-1. On the left, filter the list by clicking on **Contoso.local**. You should see an output like this:
+1. On the left, filter the list by clicking **Contoso.local**. You should see an output like this:
 
-    > [!div class="mx-imgBorder"]
-    > ![People picker Windows administrator](../media/SharePointTrustedAuthN_ppicker_trustedadmin.png)
+    
+    :::image type="content" source="../media/SharePointTrustedAuthN_ppicker_trustedadmin.png" alt-text="People picker FS administrator email" lightbox="../media/SharePointTrustedAuthN_ppicker_trustedadmin.png":::
+
 
 1. Select the account and click **OK**.
 
 1. Click Ok to create the site collection.
 
-Once the site collection is created, you should be able to sign-in to it using either the Windows or the federated site collection administrator account.
+Once the site collection is created, you should be able to sign in to it using either the Windows or the federated site collection administrator account.
 
 ## Next Steps
 
-In federated authentication, the people picker does not validate the input, which can lead to misspellings or users accidentally choosing the wrong claim type. This can be addressed using a custom claims provider; for example, [LDAPCP](https://ldapcp.com/).
+In federated authentication, the people picker doesn't validate the input, which can lead to misspellings or users accidentally choosing the wrong claim type. This can be addressed using a custom claims provider; for example, [LDAPCP](https://ldapcp.com/).
+
 > [!IMPORTANT]
 > LDAPCP isn't a Microsoft product and isn't supported by Microsoft Support. To download, install, and configure LDAPCP on the on-premises SharePoint farm, see the LDAPCP website.
+
+In SharePoint Server Subscription Edition, native people picker can search and resolve people by using user profile service application for federated authentication. [Learn how to configure people picker to work with federated authentication](../administration/enhanced-people-picker-for-trusted-authentication-method.md). 
