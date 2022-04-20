@@ -41,7 +41,7 @@ Use the procedure described in this section to create a new claims-based SharePo
     
    - To create a web application, you must be a member of the Farm Administrators SharePoint group.
     
-2. Start SharePoint Central Administration.2.
+2. Start SharePoint Central Administration.
     
 3. On the Central Administration Home page, click **Application Management**.
     
