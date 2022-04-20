@@ -85,7 +85,7 @@ The following table describes the lifecycle management capabilities to manage hi
 
 ## eDiscovery
 
-Electronic discovery, or eDiscovery, is the process of identifying and delivering electronic information that can be used in internal and external investigations, and as evidence in legal cases. You can use eDiscovery tools in Microsoft 365 to search for content in SharePoint and OneDrive (as well as other Microsoft 365 services such as Exchange Online and Microsoft Teams). For more information, see [eDiscovery solutions in Microsoft 365](/microsoft-365/compliance/ediscovery).
+Electronic discovery, or eDiscovery, is the process of identifying and delivering electronic information that can be used in internal and external investigations, and as evidence in legal cases. You can use eDiscovery tools in Microsoft Purview to search for content in SharePoint and OneDrive (as well as other Microsoft 365 services such as Exchange Online and Microsoft Teams). For more information, see [eDiscovery solutions in Microsoft Purview](/microsoft-365/compliance/ediscovery).
 
 The following table describes the eDiscovery tools to search for, preserve, review, and export content stored in SharePoint.
 
@@ -97,11 +97,11 @@ The following table describes the eDiscovery tools to search for, preserve, revi
 
 ## Auditing
 
-Microsoft 365 auditing solutions provide an integrated solution to help organizations effectively respond to security events, forensic investigations, internal investigations, and compliance obligations. Hundreds of user and admin operations performed in SharePoint and OneDrive (as well as thousands of operations for other Microsoft 365 services) are captured, recorded, and retained in your organization's unified audit log. Audit records for these events are searchable by IT admins, compliance, and legal investigators in your organization. This capability provides visibility into SharePoint activities performed across your Microsoft 365 organization. For more information, see [Auditing solutions in Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview).
+Microsoft 365 auditing solutions provide an integrated solution to help organizations effectively respond to security events, forensic investigations, internal investigations, and compliance obligations. Hundreds of user and admin operations performed in SharePoint and OneDrive (as well as thousands of operations for other Microsoft 365 services) are captured, recorded, and retained in your organization's unified audit log. Audit records for these events are searchable by IT admins, compliance, and legal investigators in your organization. This capability provides visibility into SharePoint activities performed across your Microsoft 365 organization. For more information, see [Auditing solutions in Microsoft Purview](/microsoft-365/compliance/auditing-solutions-overview).
 
-The following table describes auditing capabilities in Microsoft 365.
+The following table describes auditing capabilities in Microsoft Purview.
 
 |Capability|What problems does it solve?|Get started|
 |:------|:------------|:----------------------------|
 |[Audit (Standard)](/microsoft-365/compliance/set-up-basic-audit)|Provides the ability to log and search for audited activities in SharePoint and OneDrive.|[Search the audit log](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)<br /><br /> [Audited activities](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#audited-activities) <br /><br /> [Use sharing auditing in the audit log](/microsoft-365/compliance/use-sharing-auditing)|
-|[Audit (Advanced)](/microsoft-365/compliance/advanced-audit)|Builds on the capabilities of Audit (Standard) by providing audit log retention policies, longer retention of audit records, and high-value crucial events, such as when a person searches for items in SharePoint. |[Set up Audit (Advanced)](/microsoft-365/compliance/set-up-advanced-audit)|
+|[Audit (Premium)](/microsoft-365/compliance/advanced-audit)|Builds on the capabilities of Audit (Standard) by providing audit log retention policies, longer retention of audit records, and high-value crucial events, such as when a person searches for items in SharePoint. |[Set up Audit (Premium)](/microsoft-365/compliance/set-up-advanced-audit)|
