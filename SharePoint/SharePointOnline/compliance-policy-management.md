@@ -14,7 +14,7 @@ search.appverid:
 - MOE150
 - MET150
 recommendations: false
-description: "Implement Microsoft compliance capabilities to protect, govern, and search frMicrosoft information governance, information protection, eDiscovery, and auditing capabilities to govern your data for compliance or regulatory requirements."
+description: "Learn about information governance, information protection, eDiscovery, and auditing capabilities in SharePoint in Microsoft 365."
 ---
 
 # Learn about compliance for SharePoint
@@ -65,7 +65,7 @@ The following table describes data loss prevention capabilities that help you pr
 |Capability|What problems does it solve?|Get started|
 |:------|:------------|:---------------------|
 |[Data loss prevention](/microsoft-365/compliance/dlp-learn-about-dlp)| Helps prevent unintentional sharing of sensitive items. | [Get started with the default DLP policy](/microsoft-365/compliance/get-started-with-the-default-dlp-policy)|
-|[Microsoft 365 data loss prevention on-premises scanner (preview)](/microsoft-365/compliance/dlp-on-premises-scanner-learn)|Extends DLP monitoring of file activities and protective actions for those files to on-premises file shares and SharePoint folders and document libraries.|[Get started with Microsoft 365 data loss prevention on-premises scanner (preview)](/microsoft-365/compliance/dlp-on-premises-scanner-get-started)|
+|[Microsoft 365 data loss prevention on-premises scanner](/microsoft-365/compliance/dlp-on-premises-scanner-learn)|Extends DLP monitoring of file activities and protective actions for those files to on-premises file shares and SharePoint folders and document libraries.|[Get started with Microsoft 365 data loss prevention on-premises scanner (preview)](/microsoft-365/compliance/dlp-on-premises-scanner-get-started)|
 
 ## Information governance
 
@@ -85,7 +85,7 @@ The following table describes the lifecycle management capabilities to manage hi
 
 ## eDiscovery
 
-Electronic discovery, or eDiscovery, is the process of identifying and delivering electronic information that can be used in internal and external investigations, and as evidence in legal cases. You can use eDiscovery tools in Microsoft 365 to search for content in SharePoint Online and OneDrive for Business (as well as other Microsoft 365 services such as Exchange Online and Microsoft Teams). For more information, see [eDiscovery solutions in Microsoft 365](/microsoft-365/compliance/ediscovery).
+Electronic discovery, or eDiscovery, is the process of identifying and delivering electronic information that can be used in internal and external investigations, and as evidence in legal cases. You can use eDiscovery tools in Microsoft 365 to search for content in SharePoint and OneDrive (as well as other Microsoft 365 services such as Exchange Online and Microsoft Teams). For more information, see [eDiscovery solutions in Microsoft 365](/microsoft-365/compliance/ediscovery).
 
 The following table describes the eDiscovery tools to search for, preserve, review, and export content stored in SharePoint.
 
@@ -97,11 +97,11 @@ The following table describes the eDiscovery tools to search for, preserve, revi
 
 ## Auditing
 
-Microsoft 365 auditing solutions provide an integrated solution to help organizations effectively respond to security events, forensic investigations, internal investigations, and compliance obligations. Hundreds of user and admin operations performed in SharePoint and OneDrive for Business (as well as thousands of operations for other Microsoft 365 services) are captured, recorded, and retained in your organization's unified audit log. Audit records for these events are searchable by IT admins, compliance, and legal investigators in your organization. This capability provides visibility into SharePoint activities performed across your Microsoft 365 organization. For more information, see [Auditing solutions in Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview).
+Microsoft 365 auditing solutions provide an integrated solution to help organizations effectively respond to security events, forensic investigations, internal investigations, and compliance obligations. Hundreds of user and admin operations performed in SharePoint and OneDrive (as well as thousands of operations for other Microsoft 365 services) are captured, recorded, and retained in your organization's unified audit log. Audit records for these events are searchable by IT admins, compliance, and legal investigators in your organization. This capability provides visibility into SharePoint activities performed across your Microsoft 365 organization. For more information, see [Auditing solutions in Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview).
 
 The following table describes auditing capabilities in Microsoft 365.
 
 |Capability|What problems does it solve?|Get started|
 |:------|:------------|:----------------------------|
-|[Basic Audit](/microsoft-365/compliance/set-up-basic-audit)|Provides the ability to log and search for audited activities in SharePoint and OneDrive for Business.|[Search the audit log](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)<br /><br /> [Audited activities](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#audited-activities) <br /><br /> [Use sharing auditing in the audit log](/microsoft-365/compliance/use-sharing-auditing)|
+|[Basic Audit](/microsoft-365/compliance/set-up-basic-audit)|Provides the ability to log and search for audited activities in SharePoint and OneDrive.|[Search the audit log](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)<br /><br /> [Audited activities](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#audited-activities) <br /><br /> [Use sharing auditing in the audit log](/microsoft-365/compliance/use-sharing-auditing)|
 |[Advanced Audit](/microsoft-365/compliance/advanced-audit)|Builds on the capabilities of Basic Audit by providing audit log retention policies, longer retention of audit records, and high-value crucial events, such as when a person searches for items in SharePoint. |[Set up Advanced Audit](/microsoft-365/compliance/set-up-advanced-audit)|
