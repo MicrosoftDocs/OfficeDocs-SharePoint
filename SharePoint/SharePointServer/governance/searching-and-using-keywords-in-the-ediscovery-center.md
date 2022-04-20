@@ -27,7 +27,7 @@ Keywords help you narrow down the specific content that you produce through expo
   
 Your organization may create an eDiscovery case if it receives a request for potential evidence to support litigation, an audit, or an investigation.
 
-Learn about [Core eDiscovery for SharePoint in Microsoft 365](/microsoft-365/compliance/get-started-core-ediscovery).
+Learn about [eDiscovery (Standard) for SharePoint](/microsoft-365/compliance/get-started-core-ediscovery).
   
 ## Filters and Queries
 <a name="__top"> </a>
