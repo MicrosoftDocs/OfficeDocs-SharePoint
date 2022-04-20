@@ -2,6 +2,34 @@
 
 
 
+## Week of April 04, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/4/2022 | [Manage settings and permissions when SharePoint and Teams are integrated](/SharePoint/manage-teams-sharepoint-experiences) | modified |
+| 4/4/2022 | [Create guidelines for site usage](/SharePoint/sites-usage-guidelines) | modified |
+| 4/4/2022 | [Deploy custom features to upgraded site collections in SharePoint Server 2013](/SharePoint/upgrade-and-update/deploy-custom-features-to-upgraded-site-collections-in-sharepoint-server-2013) | modified |
+| 4/6/2022 | [Add Viva Connections desktop to Microsoft Teams (Desktop only)](/SharePoint/viva-connections-desktop) | modified |
+| 4/7/2022 | [Create and manage terms in a term set](/SharePoint/create-and-manage-terms) | modified |
+
+
+## Week of March 21, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 3/21/2022 | [Change the sharing settings for a site](/SharePoint/change-external-sharing-site) | modified |
+| 3/21/2022 | [Use SharePoint as a business-to-business (B2B) extranet solution](/SharePoint/create-b2b-extranet) | modified |
+| 3/21/2022 | [Plan & deploy a file collaboration environment - SharePoint](/SharePoint/deploy-file-collaboration) | modified |
+| 3/21/2022 | [File collaboration in Microsoft 365 - SharePoint](/SharePoint/intro-to-file-collaboration) | modified |
+| 3/21/2022 | [Sharing & permissions in the SharePoint modern experience](/SharePoint/modern-experience-sharing-permissions) | modified |
+| 3/21/2022 | [Teams and SharePoint integration](/SharePoint/teams-connected-sites) | modified |
+| 3/23/2022 | [Change the default sharing link for a site](/SharePoint/change-default-sharing-link) | modified |
+| 3/23/2022 | [Change your SharePoint domain name](/SharePoint/change-your-sharepoint-domain-name) | modified |
+| 3/23/2022 | [Manage Loop components in SharePoint](/SharePoint/manage-loop-components) | modified |
+
+
 ## Week of March 14, 2022
 
 

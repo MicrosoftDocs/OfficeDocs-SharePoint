@@ -61,6 +61,7 @@ Microsoft [Viva Connections desktop](https://techcommunity.microsoft.com/t5/micr
 > - Viva Connections desktop was originally announced as the [Home site app](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/the-home-site-app-for-microsoft-teams/ba-p/1714255).
 > - Viva Connections will become generally available in fall 2021 and will include enhancements to the overall configuration and deployment experience.
 > - The [Viva Connections desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) is available now in the [Microsoft download center](https://www.microsoft.com/download/default.aspx).
+> - The vanity domain is only supported if the home site has the same domain as the [root site](modern-root-site.md).
 > - Viva Connections is not supported on the Linux operating system.
 
 
@@ -115,7 +116,7 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 
 **When you create a new package in PowerShell, you will be required to complete the following fields:**
     
- - **URL of your SharePoint modern communcations site:** Provide the URL starting with "https://". This site will become the default landing experience for Viva Connections Desktop.
+ - **URL of your SharePoint modern communications site:** Provide the URL starting with "https://". This site will become the default landing experience for Viva Connections Desktop.
 
     - Provide the following details when requested:
     
