@@ -63,7 +63,7 @@ This video shows how the settings on the <a href="https://go.microsoft.com/fwlin
 
     This setting is for your organization overall. Each site has its own sharing setting that you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
   
-### Which option to select...
+### Which option to select
 
 | Select this option: | If you want to: |
 |:-----|:-----|
