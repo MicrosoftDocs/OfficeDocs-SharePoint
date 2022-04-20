@@ -132,7 +132,7 @@ Choose the option you want to show by default when a user gets a link.
 
 ![Settings in the new SharePoint admin center](media/advanced-settings-anyone-links.png)
 
-**Link expiration** - You can require all "Anyone" links to expire, and specify the maximum number of days allowed
+**Link expiration** - You can require all "Anyone" links to expire, and specify the maximum number of days allowed. If you change the expiration time, existing links will keep their current expiration time if the new setting is longer, or be updated to the new setting if the new setting is shorter.
 
 **Link permissions** - You can restrict "Anyone" links so that they can only provide view permission for files or folders.
 
