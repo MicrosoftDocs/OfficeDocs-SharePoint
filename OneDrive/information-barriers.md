@@ -22,7 +22,7 @@ search.appverid:
 
 # Use information barriers with OneDrive
 
-[Information barriers](/microsoft-365/compliance/information-barriers) are policies in Microsoft 365 that a compliance admin can configure to prevent users from communicating and collaborating with each other. This solution is useful if, for example, one division is handling information that shouldn't be shared with specific other divisions, or a division needs to be prevented, or isolated, from collaborating with all users outside of the division. Information barriers are often used in highly regulated industries and those organizations with compliance requirements, such as finance, legal, and government.
+[Microsoft Purview Information Barriers](/microsoft-365/compliance/information-barriers) are policies in Microsoft 365 that a compliance admin can configure to prevent users from communicating and collaborating with each other. This solution is useful if, for example, one division is handling information that shouldn't be shared with specific other divisions, or a division needs to be prevented, or isolated, from collaborating with all users outside of the division. Information barriers are often used in highly regulated industries and those organizations with compliance requirements, such as finance, legal, and government.
 
 For OneDrive, information barriers can determine and prevent the following kinds of unauthorized collaborations:
 
@@ -283,7 +283,7 @@ If a policy changes after files are shared, the sharing links will work only if 
 
 ## Auditing
 
-Audit events are available in the Microsoft 365 Compliance center to help you monitor information barrier activities. Audit events are logged for the following activities:
+Audit events are available in the Microsoft Purview compliance portal to help you monitor information barrier activities. Audit events are logged for the following activities:
 
 - Enabled information barriers for SharePoint and OneDrive
 - Applied segment to site
