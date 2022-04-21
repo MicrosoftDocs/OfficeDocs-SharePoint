@@ -20,4 +20,3 @@ description: Learn about Migration Manager transaction logs.
 ---
 # Migration Manager transaction logs
 
-
