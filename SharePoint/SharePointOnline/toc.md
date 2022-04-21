@@ -135,7 +135,6 @@
 ### [Control access based on network location](control-access-based-on-network-location.md)
 ### [Sign out inactive users](sign-out-inactive-users.md)
 ## [Compliance]()
-### [Compliance overview](compliance-policy-management.md)
 ### [Block guest access to newly added files](sensitive-by-default.md)
 ### [Manage site access based on sensitivity label](authentication-context-example.md)
 ### [Data access governance reports](data-access-governance-reports.md) 
