@@ -65,7 +65,7 @@ For more information, see [Permissions and sharing](./modern-experience-sharing-
 
 2. In the Microsoft Purview compliance portal Home page, navigate to **Show all** > **eDiscovery** > **Core**.
 
-   The **Core eDiscovery** page is displayed.
+   The **eDiscovery (Standard)** page is displayed.
 
 3. Click **Create a case**.
 
