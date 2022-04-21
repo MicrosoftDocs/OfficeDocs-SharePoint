@@ -19,3 +19,7 @@ search.appverid:
 description: Learn about Migration Manager transaction logs.
 ---
 # Migration Manager transaction logs
+
+|column|description|
+|:-----|:-----|
+|Transaction ID|blah blah blah|
