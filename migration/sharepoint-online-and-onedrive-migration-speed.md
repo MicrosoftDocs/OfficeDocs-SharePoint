@@ -170,7 +170,7 @@ Answer: If you are experiencing a high volume of HTTP 503 responses blocking you
 
 Follow these steps:
 
-1. As an administrator, select the following link, which will populate a help query in the admin center: [SharePoint Migration Throttle with 503](https://aka.ms/503MigrationThrottle)
+1. As an administrator, select the following link, which will populate a help query in the admin center: [SharePoint Migration Throttle with 503](https://aka.ms/503MigrationThrottle).
 
 2. At the bottom of the pane, select **Contact Support**, and then select **New Service Request**. 
 
