@@ -20,7 +20,7 @@ description: "Overview and planning to the Mover Migration tools"
 # Mover Cloud Migration 
 
 >[!Note]
->Attention Mover users:  We will soon be retiring the legacy [Mover](https://app.mover.io) tool's ability to migrate from Google Drive, Dropbox, Box, and Egnyte. 
+>Attention Mover users:  We will soon be retiring the legacy [Mover](https://app.mover.io) tool's ability to migrate from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm=egnyte-overview.md). 
 >
 >Please use [Migration Manager](https://aka.ms/ODSP-MM) going forward.
 
