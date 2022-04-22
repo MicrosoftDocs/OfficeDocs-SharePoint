@@ -30,6 +30,9 @@ description: "This article helps you understand, which tool to use when migratin
 Moving to Microsoft 365? Let us help you migrate your content easily and securely.
 
 
+>[!Note]
+>Attention Mover users:  We will soon be retiring the legacy Mover tool's ability to migrate from Google Drive, Dropbox, Box, and Egnyte. Please use Migration Manager going forward.
+
 
 ## What's new
 

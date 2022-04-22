@@ -23,6 +23,11 @@ description: A guide to managing a migration project with the Mover migration to
 ---
 # Managed migration guide using Mover
 
+
+>[!Note]
+>Attention Mover users:  We will soon be retiring the legacy Mover tool's ability to migrate from Google Drive, Dropbox, Box, and Egnyte. Please use Migration Manager going forward.
+
+
 >[!Important]
 >**Google**: The legacy Mover.io tool doesn't support new Google connectors. Use [**Migration Manager**](mm-google-overview.md) for migrating from Google Workspace.
 
