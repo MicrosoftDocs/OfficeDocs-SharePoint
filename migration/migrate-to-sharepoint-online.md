@@ -30,6 +30,11 @@ description: "This article helps you understand, which tool to use when migratin
 Moving to Microsoft 365? Let us help you migrate your content easily and securely.
 
 
+>[!Note]
+>Attention Mover users:  We will soon be retiring the legacy [Mover](https://app.mover.io) tool's ability to migrate from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm-egnyte-overview.md). 
+>
+>Please use [Migration Manager](https://aka.ms/ODSP-MM) going forward.
+
 
 ## What's new
 
