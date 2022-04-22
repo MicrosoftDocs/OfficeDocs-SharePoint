@@ -25,7 +25,9 @@ description: A guide to managing a migration project with the Mover migration to
 
 
 >[!Note]
->Attention Mover users:  We will soon be retiring the legacy Mover tool's ability to migrate from Google Drive, Dropbox, Box, and Egnyte. Please use Migration Manager going forward.
+>Attention Mover users:  We will soon be retiring the legacy [Mover](https://app.mover.io) tool's ability to migrate from Google Drive, Dropbox, Box, and Egnyte. 
+>
+>Please use [Migration Manager](https://aka.ms/ODSP-MM) going forward.
 
 
 >[!Important]
