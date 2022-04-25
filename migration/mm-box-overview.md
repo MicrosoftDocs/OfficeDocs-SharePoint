@@ -25,7 +25,7 @@ description: Overview of migration from Box to Microsoft 365 using Migration Man
 
 
 >[!Note]
->This release currently supports the migration of up to approximately 10,000 Box accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
+>This release currently supports the migration of up to approximately 10,000 Box accounts in a single migration. For larger migrations, we recommend you connect with [FastTrack](https://www.microsoft.com/fasttrack).
 
 
 Collaborate all in one place by migrating your Box documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
