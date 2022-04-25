@@ -29,10 +29,6 @@ Answer.  At this time Migration Manager is the tool to use to for migrating Goog
 Answer.  No, currently this Migration Manager Google is not available for any of the Government clouds.
 </br>
 
-**Question:** **Are there are any caveats to this release?**</br>
-Answer.  This release only supports small to medium Google accounts.  Continue to use https://Mover.io for large accounts.
-</br>
-
 **Question:**   **What gets transferred?**</br>
 Answer: Only owned folders and the root files for each user are copied. If a user is not the owner of data they can access, we do not copy it. Content may be automatically re-shared after it is migrated so that each user has access to their content exactly as before.
 </br>

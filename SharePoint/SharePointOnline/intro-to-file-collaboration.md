@@ -58,7 +58,7 @@ When users keep files on their local device or on a network share, they're out o
 
 Files stored in SharePoint-powered storage locations in Microsoft 365 are [encrypted in transit and in rest](/microsoft-365/compliance/data-encryption-in-odb-and-spo). (You can [encrypt files by using your own key](/microsoft-365/compliance/controlling-your-data-using-customer-key) if you want.) Files are also [scanned for viruses](/office365/securitycompliance/virus-detection-in-spo). As an admin, you can use tools in Microsoft 365 to further secure and monitor files in the Microsoft cloud:
 
-- **Data loss prevention policies**. Warn or prevent users from sharing files that have specific labels outside the organization. [See Overview of data loss prevention](/office365/securitycompliance/data-loss-prevention-policies)
+- **Microsoft Purview Data loss prevention policies**. Warn or prevent users from sharing files that have specific labels outside the organization. [See Learn about data loss prevention](/microsoft-365/compliance/dlp-learn-about-dlp)
 
 - **Retention labels**. Classify files to be retained, permanently deleted, or marked as a record. [See Overview of retention labels](/office365/securitycompliance/labels)
 
@@ -110,6 +110,8 @@ Most of the file collaboration features in Microsoft 365 are available to you re
 
 - Integration with Microsoft Office
 
+- Private and shared channels in Teams
+
 - Auditing and reporting
 
 - Hybrid
@@ -151,6 +153,10 @@ In the Office apps, users can easily [open files saved in the Microsoft cloud](h
 
 ![A contact mentioned in a comment](media/sp-collabguide10.png)
 
+### Private and shared channels in Teams
+
+Teams has workspaces for chat and file collaboration called channels. While standard channels include everyone in the team, [private channels](/microsoftTeams/private-channels) allow you to collaborate with a subset of team members and [shared channels](/microsoftteams/shared-channels) allow you to collaborate with people outside the team. All channel types allow you to collaborate with people outside your organization. Each private and shared channels has its own SharePoint site for file storage and collaboration.
+
 ### Migration tools
 
 You can choose one or more of the following options, depending on the number and location of files that you want to migrate.
@@ -186,7 +192,7 @@ Microsoft Search helps users find files within modern SharePoint sites and from 
 
 As a global or SharePoint admin for your organization, you have a couple of options for managing SharePoint sites and settings:
 
-- **New SharePoint admin center**. In the new SharePoint admin center, you can create and delete sites, manage site settings, and manage organization-level settings for SharePoint and OneDrive. The <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a> of the SharePoint admin center lets you view the SharePoint sites in your organization, including communication sites and sites that belong to Microsoft 365 Groups. It also lets you sort and filter sites, search for a site, and create new sites. [Get started with the new SharePoint admin center](./get-started-new-admin-center.md).
+- **SharePoint admin center**. In the SharePoint admin center, you can create and delete sites, manage site settings, and manage organization-level settings for SharePoint and OneDrive. The <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a> of the SharePoint admin center lets you view the SharePoint sites in your organization, including communication sites, Teams private and shared channel sites, and sites that belong to Microsoft 365 Groups. It also lets you sort and filter sites, search for a site, and create new sites. [Get started with the SharePoint admin center](./get-started-new-admin-center.md).
 
     ![The Active Sites page in the SharePoint admin center](media/active-sites-page.png)
 
@@ -194,7 +200,7 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
 ## Prerequisites
 
-**Purchase and assign licenses**. SharePoint comes with Microsoft 365 plans and Office 365 plans. It also comes as a standalone plan. For more info about the features available in each plan, see the [SharePoint service description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description). Some security features, such as Azure Information Protection, require an E3 or E5 plan. Cloud App Security, Advanced Threat Protection, Customer Lockbox, Customer Key, Advanced eDiscovery. For info, [see Office 365 platform service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description).
+**Purchase and assign licenses**. SharePoint comes with Microsoft 365 plans and Office 365 plans. It also comes as a standalone plan. For more info about the features available in each plan, see the [SharePoint service description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description). Some security features, such as Azure Information Protection, require an E3 or E5 plan. Cloud App Security, Advanced Threat Protection, Customer Lockbox, Customer Key, eDiscovery (Premium). For info, [see Office 365 platform service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description).
 
 **Assign the SharePoint admin role**. Users assigned this role will have access to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> and can change organization-level SharePoint and OneDrive settings, create and delete sites, and change site owners and other site settings. [Learn more about the SharePoint admin role](./sharepoint-admin-role.md).
 
@@ -211,8 +217,6 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 - To learn about features coming soon, see the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
 
 - To keep on top of the latest SharePoint features rolling out, refer to the [Message Center](/office365/admin/manage/message-center?view=o365-worldwide&preserve-view=true).
-
-- To vote on feature requests or submit your own idea, visit the [SharePoint UserVoice](https://sharepoint.uservoice.com/).
 
 ## Plan user adoption
 
@@ -234,11 +238,13 @@ To prepare for file collaboration in Microsoft 365, configure the following sett
 
 When a Microsoft 365 group is created from anywhere within Microsoft 365, a SharePoint site is automatically created. You can let all users create groups, only some users, or you can block group creation and manage it centrally in your IT department. For info, see [Manage who can create Office groups](/office365/admin/create-groups/manage-creation-of-groups). You can also use a naming policy for groups and set an expiration period so that groups that are no longer being used will be deleted. For more info, see [Plan for governance in Microsoft 365 Groups](/office365/admin/create-groups/plan-for-groups-governance?view=o365-worldwide&preserve-view=true). If you allow users to create groups, you can also allow them to create team sites from the SharePoint start page and from OneDrive and manage default site settings. For info, see [Manage site creation](manage-site-creation.md).
 
-![Site creation settings in the new SharePoint admin center](media/site-creation.png)
+![Site creation settings in the SharePoint admin center](media/site-creation.png)
 
 ### Sharing
 
 To set up external sharing in your organization, you need to make sure that settings across multiple admin centers are set the way you want. Sharing with people outside your organization is enabled by default in SharePoint, OneDrive, and Teams. [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team). Set the external sharing level and the default sharing link type.
+
+Sharing with people outside your organization in shared channels in Teams requires additional configuration. See [Collaborate with external participants in a channel](/microsoft-365/solutions/collaborate-teams-direct-connect) for information.
 
 ![External sharing permission levels for SharePoint and OneDrive](media/sp-collabguide15.png)
 

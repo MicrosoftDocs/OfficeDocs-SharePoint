@@ -50,7 +50,7 @@ SharePoint Migration Tool (SPMT) supports migration of the following locations a
 |Taxonomy migration|By default, managed metadata migration is turned off, and taxonomy is updated in incremental rounds.||
 
 > [!Note]
-> Do you have a suggestion or feature request to improve the SPMT? Share it with us at [User Voice](https://sharepoint.uservoice.com/forums/282887-sharepoint-hybrid-or-migration-to-office365).
+> Do you have a suggestion or feature request to improve the SPMT? Share it with us at [Migration Feedback](https://feedbackportal.microsoft.com/feedback/forum/06735c62-321c-ec11-b6e7-0022481f8472).
 
 > [!Note]
 > For a detailed list of features available in each release of SPMT, please read [Release Notes: SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md).
