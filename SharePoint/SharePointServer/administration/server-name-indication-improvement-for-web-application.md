@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: v-nsatapathy
 author: nimishasatapathy
 manager: serdars
-ms.date: 3/22/2022
+ms.date: 4/25/2022
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -13,7 +13,7 @@ ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 41ec2552-43cd-471a-ba22-1962297758c0
-description: "Learn how to create a Microsoft Business Connectivity Services service application in SharePoint Server."
+description: "Learn how to configure Server Name Indication (SNI) in SharePoint Central Administration."
 ---
 
 # Server Name Indication improvement for web application
