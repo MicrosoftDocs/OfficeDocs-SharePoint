@@ -745,6 +745,7 @@
 #### [SharePoint 2013 dev/test environments in Azure](../administration/sharepoint-2013-dev-test-environments-in-azure.md)
 #### [SharePoint Server 2016 in Microsoft Azure](../administration/sharepoint-server-2016-in-microsoft-azure.md)
 ##### [SharePoint Server 2016 dev/test environment in Azure](../administration/sharepoint-server-2016-dev-test-environment-in-azure.md)
+##### [Introducing SSL Certificate Management Operations](../administration/introducing-ssl-certificate-management.md)
 ##### [Intranet SharePoint Server 2016 in Azure dev/test environment](../administration/intranet-sharepoint-server-2016-in-azure-dev-test-environment.md)
 ##### [Designing a SharePoint Server 2016 farm in Azure](../administration/designing-a-sharepoint-server-2016-farm-in-azure.md)
 ##### [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](../administration/deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md)
