@@ -45,11 +45,11 @@ We're continuously adding new features to the new <a href="https://go.microsoft.
 
 ## November 2021
 
-- **Channel sites** On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, you can [view and manage sites for private channels](manage-sites-in-new-admin-center.md).
+- **Channel sites**. On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, you can [view and manage sites for private channels](manage-sites-in-new-admin-center.md).
 
 ## September 2021
 
-- **Home site**.. On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** page</a>), you can [set a site as your home site](home-site.md).
+- **Home site**. On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** page</a>), you can [set a site as your home site](home-site.md).
 
 ## June 2021
 
