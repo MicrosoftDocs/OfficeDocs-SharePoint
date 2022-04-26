@@ -37,11 +37,11 @@ We're continuously adding new features to the new <a href="https://go.microsoft.
 
 ## April 2022
 
-- **New Apps site**. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features**</a> page and select **Open** under **Apps**. The new Apps experience helps you manage custom and SharePoint Store apps, including apps that can be used across SharePoint, Microsoft Teams, and Viva Connections. To learn more, see [Manage apps using the Apps site](use-app-catalog.md).
+- **New Apps site**. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** page</a> and select **Open** under **Apps**. The new Apps experience helps you manage custom and SharePoint Store apps, including apps that can be used across SharePoint, Microsoft Teams, and Viva Connections. To learn more, see [Manage apps using the Apps site](use-app-catalog.md).
 
 ## December 2021
 
-- **Limit OneDrive access**. If you have a subscription to a qualifying plan, you can go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">**Access control** page and [limit access to OneDrive by security group](/onedrive/limit-access). 
+- **Limit OneDrive access**. If you have a subscription to a qualifying plan, you can go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">**Access control** page</a> and [limit access to OneDrive by security group](/onedrive/limit-access). 
 
 ## November 2021
 
