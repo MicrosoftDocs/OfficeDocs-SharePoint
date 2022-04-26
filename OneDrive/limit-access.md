@@ -24,7 +24,7 @@ Use this setting if you want to allow only users in specified security groups to
 
 ## Requirements
 
-To access and use this feature, you organization must have one of the following subscriptions: 
+To access and use this feature, your organization must have one of the following subscriptions: 
 
 - Office 365 E5/A5 
 - Microsoft 365 E5/A5 
