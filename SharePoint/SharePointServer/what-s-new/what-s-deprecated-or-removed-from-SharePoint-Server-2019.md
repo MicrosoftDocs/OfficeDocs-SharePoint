@@ -68,7 +68,7 @@ The previous OneDrive sync app will remain supported, but deprecated, for the Sh
 
 As we announced in the Microsoft 365 blog, InfoPath Services is a deprecated feature and customers are advised to explore alternatives for this feature. InfoPath Services will remain supported, but deprecated, for the SharePoint Server 2019 release.
 
-There will not be a new InfoPath client shipped with this release. Microsoft will ensure that the InfoPath 2013 client will work with SharePoint Server 2019 for the remainder of the client support lifecycle (2026). InfoPath 2013 client will not be supported beyond that timeframe.
+There will not be a new InfoPath client shipped with this release. Microsoft will ensure that the InfoPath 2013 client will work with SharePoint Server 2019 for the remainder of the [client support lifecycle](/lifecycle/products/infopath-2013) (2026). InfoPath 2013 clients will not be supported beyond that timeframe.
 
 ### Lists Web Service
 
