@@ -31,6 +31,10 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 - **Tag support for File share migrations**.  The tags feature is coming soon for File Share migrations to allow you to sort, organize, and navigate through a large quantity of sources and users.
 
+## April 2022
+
+- Capacity increase:  Increase to 50,000 tasks per tenant
+
 ## March 2022
 - **Egnyte migrations**.  Migrate your Egnyte content to Microsoft 365.
 
