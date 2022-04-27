@@ -33,7 +33,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 ## April 2022
 
-- Capacity increase:  Increase to 50,000 tasks per tenant
+- **Task increase**.  We now support up to 50,000 tasks per tenant.
 
 ## March 2022
 - **Egnyte migrations**.  Migrate your Egnyte content to Microsoft 365.
