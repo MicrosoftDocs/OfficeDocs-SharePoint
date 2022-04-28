@@ -23,6 +23,13 @@ description: A guide to managing a migration project with the Mover migration to
 ---
 # Managed migration guide using Mover
 
+
+>[!Note]
+>Attention Mover users:  We will soon be retiring the legacy [Mover](https://app.mover.io) tool's ability to migrate from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm-egnyte-overview.md). 
+>
+>Please use [Migration Manager](https://aka.ms/ODSP-MM) going forward.
+
+
 >[!Important]
 >**Google**: The legacy Mover.io tool doesn't support new Google connectors. Use [**Migration Manager**](mm-google-overview.md) for migrating from Google Workspace.
 
