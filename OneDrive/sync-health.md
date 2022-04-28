@@ -39,9 +39,9 @@ Having more visibility into what’s happening with sync can help you proactivel
 
 ## Requirements  
 
-- OneDrive sync apps on the Insiders or Production ring. Devices on the Deferred ring aren't eligible for the preview. [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
+- OneDrive sync apps on the Insiders or Production ring. Devices on the Deferred ring aren't eligible for the preview. [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring)
 
-- OneDrive Sync app version 21.078 or later for Windows.
+- OneDrive Sync app version 22.060 or later for Windows.
 
 - [Global Administrator role](/microsoft-365/admin/add-users/about-admin-roles) or [Office apps admin role](/microsoft-365/admin/add-users/about-admin-roles) to set up the dashboard. After setup, only [Global reader role](/microsoft-365/admin/add-users/about-admin-roles) is required to view the dashboard.
 
@@ -97,7 +97,7 @@ This section guides you through the steps you need to take to enable sync report
 
        `reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports /t REG_DWORD /d 1`
 
-    - Use [Group Policy](use-group-policy.md#manage-onedrive-using-group-policy) or [administrative templates in Intune](configure-sync-intune.md). 
+    - Use [Group Policy](use-group-policy.md#manage-onedrive-using-group-policy)
 
     To apply the setting on a single PC, follow these steps:
 

@@ -1,8 +1,8 @@
 ---
 title: "Plan and manage cases in the eDiscovery Center"
 ms.reviewer: 
-ms.author: MARKJJO
-author: MARKJJO
+ms.author: v-tophillips
+author: v-tophillips
 manager: serdars
 audience: ITPro
 f1.keywords:

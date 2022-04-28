@@ -24,19 +24,11 @@ Use this setting if you want to allow only users in specified security groups to
 
 ## Requirements
 
-To enable this feature, you need a subscription to one of the following plans:
+To access and use this feature, your organization must have one of the following subscriptions: 
 
-- Office 365 E5
-
-- Office 365 A5
-
-- Microsoft 365 E5
-
-- Microsoft 365 E5 Compliance
-
-- Microsoft 365 E5 Information Protection and Governance
-
-- Microsoft 365 A5
+- Office 365 E5/A5 
+- Microsoft 365 E5/A5 
+- Microsoft 365 E5 Compliance/A5 Compliance 
 
 ## Enablement
 

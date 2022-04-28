@@ -63,7 +63,9 @@ The following table describes the accounts that are used to set up and configure
 For more information about service application endpoints, see [Using Service Endpoints](/previous-versions/office/developer/sharepoint-2010/ee535060(v=office.14)).
   
 > [!NOTE]
-> Excel Services and User Profile Synchronization Service only apply to SharePoint 2013. 
+> Excel Services and User Profile Synchronization Service only apply to SharePoint 2013.<p>
+> Access Services and PerformancePoint Service do not apply to Subscription Edition.
+ 
   
 |**Account**|**Service**|**Purpose**|**Requirements**|
 |:-----|:-----|:-----|:-----|
