@@ -28,7 +28,7 @@ Organization fonts allow customers to create a brand for their organizations and
 ## How does this work? 
 The following diagram outlines the key steps in making our solution work: 
 
-   :::image type="content" source="media/Company-admin.png" alt-text="Manage User Properties link under Admin user profiles.":::
+   :::image type="content" source="media/company-admin.png" alt-text="Manage User Properties link under Admin user profiles.":::
 
 1. Organization administrator uploads their fonts to their organization's SharePoint site using the **SharePoint Online Management Shell.**
 2. SharePoint stores the assets in a [public Office 365 Content Delivery Network.](/microsoft-365/enterprise/use-microsoft-365-cdn-with-spo?view=o365-worldwide&preserve-view=true) 
