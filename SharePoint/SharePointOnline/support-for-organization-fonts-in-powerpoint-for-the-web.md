@@ -35,21 +35,23 @@ The following diagram outlines the key steps in making our solution work:
 3. When a user opens a PowerPoint file on the web platform, PowerPoint for the web will access the Content Delivery Network (CDN) and fetch appropriate fonts.
 
 ## Adding organization fonts to SharePoint as an organization asset library 
-1. [Create a new SharePoint site](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.microsoft.com%2Foffice%2Fcreate-a-site-in-sharepoint-4d1e11bf-8ddc-499d-b889-2b48d10b1ce8&data=04%7C01%7Cv-shesna%40microsoft.com%7C469dfcba67174de505e308d9e01e0779%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637787241955790760%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=IIR6K8%2F9ZBRVrOD%2B2ZuYwMdBybeufNE3sI22zSCfCJE%3D&reserved=0) or use your existing site for Organization Asset Libraries.
+
+1. [Create a new SharePoint site](https://support.microsoft.com/office/create-a-site-in-sharepoint-4d1e11bf-8ddc-499d-b889-2b48d10b1ce8) or use your existing site for Organization Asset Libraries.
 
      > [!NOTE]
      > You cannot customize the permissions of font organization asset libraries as the fonts are hosted in a public CDN. When uploaded, font asset libraries are available across your entire tenant. Currently, sub-group permissioning of font asset libraries are not supported.
 
 2. Ensure the site permissions for **Everyone except external user** is set to **Read** or **Edit.** 
     
-    :::image type="content" source="media/sitepermissions.png" alt-text="image of sitepermissions":::
+    :::image type="content" source="media/sitepermissions.png" alt-text="image of sitepermissions" lightbox="media/sitepermissions.png":::
+
     :::image type="content" source="media/userpermissions.png" alt-text="image of userpermissions":::
  
 3. Navigate to your site’s home page. From the **New** dropdown menu, select **Create a Document Library** and name your new font library.
 
-   :::image type="content" source="media/new-drop-down.png" alt-text="New drop-down option":::
+   :::image type="content" source="media/new-dropdown.png" alt-text="New drop-down option":::
 
-   :::image type="content" source="media/create-document-library.png" alt-text="Create and name your font library":::
+   :::image type="content" source="media/create-document-library.png" alt-text="Create and name your font library" lightbox="media/create-document-library.png":::
 
 4. [Download the latest version of the SharePoint Online Management Shell.](https://go.microsoft.com/fwlink/p/?LinkId=255251)
 5. [Connect your SharePoint Management Shell with your administrator username and password.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
@@ -81,10 +83,11 @@ The following diagram outlines the key steps in making our solution work:
 ## Important notes on features and its release
 
 ### Feature notes
+
 - Updates to organization font asset libraries can take up to 24 hours to propagate and become broadly available.
 - If you need to change your font asset library, you will need to [remove the font asset library](/powershell/module/sharepoint-online/remove-spoorgassetslibrary) using the ```Remove-SPOOrgOrgAssetsLibrary``` command. Repeat the process above to upload your updates in the font files. Changes made to the Document Library on the SharePoint web platform may affect font availability and feature functionality.
-- The uploaded organization fonts will only be usable and viewable within your organization. To share them externally, you need to [embed fonts into your PowerPoint presentations.](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Foffice%2Fembed-fonts-in-documents-or-presentations-cb3982aa-ea76-4323-b008-86670f222dbc&data=04%7C01%7Cv-shesna%40microsoft.com%7C9cf273bbf9c14d337ec208d9df961a78%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637786658092612309%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=idoG67fR3e7njA8RslxUn71i7Yfqq4q%2F7eH%2FJzScVdk%3D&reserved=0)
-- This feature is only available on PowerPoint for the web. Support for Windows, Mac, and Mobile are coming soon. In the meantime, continue to [download and install custom fonts to use with Office.](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Fdownload-and-install-custom-fonts-to-use-with-office-0ee09e74-edc1-480c-81c2-5cf9537c70ce&data=04%7C01%7Cv-shesna%40microsoft.com%7C9cf273bbf9c14d337ec208d9df961a78%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637786658092612309%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=EvcPAJtCguowz%2Ff7MF29rXEdN8MWMYwrD1c%2BQIcR3lM%3D&reserved=0)
+- The uploaded organization fonts will only be usable and viewable within your organization. To share them externally, you need to [embed fonts into your PowerPoint presentations.](https://support.microsoft.com/office/benefits-of-embedding-custom-fonts-cb3982aa-ea76-4323-b008-86670f222dbc)
+- This feature is only available on PowerPoint for the web. Support for Windows, Mac, and Mobile are coming soon. In the meantime, continue to [download and install custom fonts to use with Office.](https://support.microsoft.com/topic/download-and-install-custom-fonts-to-use-with-office-0ee09e74-edc1-480c-81c2-5cf9537c70ce)
 
 ### Licensing considerations 
 
