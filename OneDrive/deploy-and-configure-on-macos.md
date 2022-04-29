@@ -74,6 +74,10 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [FilesOnDemandEnabled](deploy-and-configure-on-macos.md#filesondemandenabled)
 - [HideDockIcon](deploy-and-configure-on-macos.md#hidedockicon)
 - [HydrationDisallowedApps](deploy-and-configure-on-macos.md#hydrationdisallowedapps)
+- [KFMBlockOptIn (Preview)](deploy-and-configure-on-macos.md#kfmblockoptin)
+- [KFMBlockOptOut (Preview)](deploy-and-configure-on-macos.md#kfmblockoptout)
+- [KFMOptInWithWizard (Preview)](deploy-and-configure-on-macos.md#kfmoptinwithwizard)
+- [KFMSilentOptIn (Preview)](deploy-and-configure-on-macos.md#kfmsilentoptin)
 - [OpenAtLogin](deploy-and-configure-on-macos.md#openatlogin)
 - [SharePointOnPremFrontDoorUrl](deploy-and-configure-on-macos.md#sharepointonpremfrontdoorurl)
 - [SharePointOnPremPrioritizationPolicy](deploy-and-configure-on-macos.md#sharepointonpremprioritizationpolicy)
@@ -265,6 +269,59 @@ To enable this setting, you must define a string in JSON format as described bel
 
 The example for this setting in the .plist file is:
 <br/> \<key\>HydrationDisallowedApps </key\><br/> <string\> `[{"ApplicationId":"appId","MaxBundleVersion":"1.1","MaxBuildVersion":"1.0"}, {"ApplicationId":"appId2","MaxBundleVersion":"3.2","MaxBuildVersion":"2.0"}]`</string\><br/><(Bool)/\> <br/>
+
+
+### KFMBlockOptIn (Preview)
+<a name="KFMBlockOptIn"> </a>
+
+This setting prevents users from moving their Documents and Desktop folders to any OneDrive account.
+  
+If you enable this setting, users aren't prompted with a window to protect their important folders, and the *Manage backup* command is disabled. If the user has already moved their known folders, the files in those folders will remain in OneDrive. To redirect the known folders back to the user's device, please select "No." This setting does not take effect if you've enabled "KFMOptInWithWizard" or "KFMSilentOptIn."
+
+If you set this setting's value to 1, it will prevent KFM.  It you set it to 2, it will redirect previously KFM’d folders back to the user’s device in addition to preventing KFM. 
+
+The example for this setting in the .plist file is:
+<br/> \<key\>KFMBlockOptIn</key\><br/> \<integer\>(1 or 2)</integer\> <br/> 
+
+
+### KFMBlockOptOut (Preview)
+<a name="KFMBlockOptOut"> </a>
+
+This setting forces users to keep their Documents and Desktop folders directed to OneDrive.
+
+If you enable this setting, the **Stop protecting** button in the **Set up protection of important folders** window is disabled, and users receive an error if they try to stop syncing a known folder.
+  
+The example for this setting in the .plist file is:
+<br/> \<key\>KFMBlockOptOut</key\><br/> \<(Bool)/\>  <br/>
+
+
+### KFMOptInWithWizard (Preview)
+<a name="KFMOptInWithWizard"> </a>
+
+This setting shows the following window that prompts users to move their Documents and Desktop folders to OneDrive.
+
+If you enable this setting and provide your tenant ID, users who are syncing their OneDrive see the KFM wizard window when they're signed in. If they close the window, a reminder notification appears in the Activity Center until they move all their known folders. If a user has already redirected their known folders to a different OneDrive account, they are prompted to direct the folders to the account for your organization (leaving existing files behind).
+  
+The example for this setting in the .plist file is:
+<br/> \<key\>KFMOptInWithWizard</key\><br/>\<string\>(TenantID)\</string\><br/>
+
+
+### KFMSilentOptIn (Preview)
+<a name="KFMSilentOptIn"> </a>
+
+Use this setting to redirect and move your users' Documents and/or Desktop folders to OneDrive without any user interaction. 
+  
+You can move all folders at once or select the folders you want to move.  After a folder is moved, this settings will not affect that folder again. 
+
+The example for this setting in the .plist file is:
+<br/> \<key\>KFMSilentOptIn</key\><br/>\<string\>(TenantID)\</string\><br/>
+
+If you enable this setting and provide your tenant ID, you can choose whether to display a notification to users after their folders have been redirected:
+<br/> \<key\>KFMSilentOptInWithNotification</key\><br/> \<(Bool)/\>  <br/>
+
+If you don't set any of the following settings then the default setting will move all the folders (Desktop and Documents) into OneDrive.  If you want to specify which folder(s) to move then you can set any combination of the following settings:
+<br/> \<key\>KFMSilentOptInDesktop</key\><br/> \<(Bool)/\> 
+<br/> \<key\>KFMSilentOptInDocuments</key\><br/> \<(Bool)/\>  <br/>
 
 
 ### OpenAtLogin
