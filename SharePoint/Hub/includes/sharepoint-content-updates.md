@@ -10,6 +10,9 @@
 | 4/25/2022 | [Server Name Indication improvement for web application](/SharePoint/administration/server-name-indication-improvement-for-web-application) | added |
 | 4/26/2022 | [What's new in the SharePoint admin center](/SharePoint/what-s-new-in-admin-center) | modified |
 | 4/28/2022 | [Information barriers compliance assistant (preview)](/SharePoint/information-barriers-compliance-assistant) | modified |
+| 4/25/2022 | [Server Name Indication improvement for web application](/SharePoint/administration/server-name-indication-improvement-for-web-application) | added |
+| 4/26/2022 | [What's new in the SharePoint admin center](/SharePoint/what-s-new-in-admin-center) | modified |
+| 4/28/2022 | [Information barriers compliance assistant (preview)](/SharePoint/information-barriers-compliance-assistant) | modified |
 
 
 ## Week of April 18, 2022
