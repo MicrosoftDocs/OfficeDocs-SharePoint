@@ -8,6 +8,7 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 4/27/2022 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
+| 4/27/2022 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
 
 
 ## Week of April 18, 2022
