@@ -38,6 +38,11 @@ There are two primary advantages of moving or redirecting Windows known folders 
 
 For these reasons, we recommend moving or redirecting known folders to OneDrive if you're an enterprise or large organization. [See all our recommendations for configuring the sync app](ideal-state-configuration.md). Small or medium businesses may also find this useful, but keep in mind you'll need some experience configuring policies. For info about the end-user experience, see [Protect your files by saving them to OneDrive](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057). 
 
+> [!NOTE]
+  > Before enabling KFM, validate you do not have any existing 'Windows Known Folder' GPO's configurationed for Documents, Pictures, or Desktop folders.
+  > KFM will not deploy correctly if Documents, Pictures, or Desktop folders are pointing to their non-default location. 
+  > Also, Documents, Pictures, or Desktop folders must have their 'Location' setting to 'Unconfigured'.
+
 ## Prepare to move known folders on existing devices
 
 We recommend that you upgrade to the latest available build before you deploy to decrease deployment issues. Known Folder Move doesn't work for users syncing OneDrive files in SharePoint Server. 
