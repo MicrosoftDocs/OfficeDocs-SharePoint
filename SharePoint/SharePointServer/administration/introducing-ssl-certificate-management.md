@@ -106,7 +106,7 @@ To assign a certificate to a web application when creating that web application 
 
 ## Replacing a certificate assignment
 
-SharePoint supports replacing all usage of an existing certificate within SharePoint with a different certificate, for example, if an existing certificate is approaching its expiration and you've imported a new certificate. To replace, use the `Switch-SPCertificate` cmdlet to replace the assignments of the existing certificate with the new certificate. All usage of the existing certificate within SharePoint will then be replaced with the new certificate.
+SharePoint supports replacing all usage of an existing certificate within SharePoint with a different certificate, for example, if an existing certificate is approaching its expiration and you can replace this existing certificate with a new certificate. To replace, use the `Switch-SPCertificate` cmdlet to replace the assignments of the existing certificate with the new certificate. All usage of the existing certificate within SharePoint will then be replaced with the new certificate.
 
 The cmdlet parameters are:
 
