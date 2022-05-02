@@ -496,23 +496,23 @@ Enabling this policy sets the following registry keys:
   
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptIn"="1111-2222-3333-4444"`
   
-where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md).
+where "1111-2222-3333-4444" is a String value representing the [tenant ID](find-your-office-365-tenant-id.md).
   
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInWithNotification"`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInWithNotification"="dword:00000001"`
   
 Setting this value to 1 shows a notification after successful redirection.
 
 If you don't set any of the following policies then the default policy will move all the folders (Desktop, Documents and Pictures) into OneDrive.  If you want to specify which folder(s) to move then you can set any combination of the following policies:
 
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInDesktop"`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInDesktop"="dword:00000001"`
   
 Setting this value to 1 will move the Desktop folder.
 
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInDocuments"`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInDocuments"="dword:00000001"`
   
 Setting this value to 1 will move the Documents folder.
 
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInPictures"`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInPictures"="dword:00000001"`
   
 Setting this value to 1 will move the Pictures folder.
 
