@@ -487,12 +487,6 @@ From there, Intune can deploy apps such as OneDrive to the device automatically.
 
 For an overview of Windows Autopilot, see [Overview of Windows Autopilot](/windows/deployment/windows-autopilot/windows-10-autopilot/).
 
-## Deploy OneDrive by using Intune
-
-To deploy the mobile apps to Android or iOS, or the sync app to Windows 10, follow the steps in [Deploy OneDrive apps by using Intune](deploy-intune.md), or take a look at the following video.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSk]
-
 ## Deploy OneDrive using Microsoft Endpoint Configuration Manager
 
 To deploy the OneDrive sync app to Windows using Microsoft Endpoint Configuration Manager, see [Deploy OneDrive apps by using Microsoft Endpoint Configuration Manager](deploy-on-windows.md).
