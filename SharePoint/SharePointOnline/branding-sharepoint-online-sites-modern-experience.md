@@ -1,8 +1,8 @@
 ---
 title: Branding your SharePoint site
 ms.reviewer: cathed
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -39,11 +39,11 @@ In the classic SharePoint experience, there is a set of default themes that can 
 
 ## Modern site branding
 
-SharePoint includes an updated set of default site themes that are responsive and look great on any device. With site themes, you can customize your site's logo and colors to match your brand. Site designs provide specific layouts and other functionality for your site. Additional branding can be achieved using custom themes or site designs without worrying about something breaking when SharePoint is updated. [Custom themes](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview) let you create additional color schemes beyond the defaults. [Custom site designs](/sharepoint/dev/declarative-customization/site-design-overview) let you control the site theme and other customizations like the site navigation, default applications, and other settings. Custom themes or designs can be applied to a new site when it's created or applied to an existing site or group of sites.
+SharePoint includes an updated set of default site themes that are responsive and look great on any device. With site themes, you can customize your site's logo and colors to match your brand. Site templates provide specific layouts and other functionality for your site. Additional branding can be achieved using custom themes or site templates without worrying about something breaking when SharePoint is updated. [Custom themes](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview) let you create additional color schemes beyond the defaults. [Custom site templates](/sharepoint/dev/declarative-customization/site-design-overview) let you control the site theme and other customizations like the site navigation, default applications, and other settings. Custom themes or site templates can be applied to a new site when it's created or applied to an existing site or group of sites.
 
 ### Branding hub sites
 
-When you brand a [SharePoint hub site](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f), you can set it so the site branding is applied to any sites that [associate with it](https://support.office.com/article/ae0009fd-af04-4d3d-917d-88edb43efc05). This includes any site theme or site design used by the hub site. This allows you to apply common navigation and branding across a set of sites and use accent colors to emphasize elements that need to stand out.
+When you brand a [SharePoint hub site](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f), you can set it so the site branding is applied to any sites that [associate with it](https://support.office.com/article/ae0009fd-af04-4d3d-917d-88edb43efc05). This includes any site theme or site template used by the hub site. This allows you to apply common navigation and branding across a set of sites and use accent colors to emphasize elements that need to stand out.
 
 > [!NOTE]
 > Custom themes and logos in SharePoint *will not* automatically apply to group-connected team sites that are associated to a hub that has a custom theme applied. For group-connected team sites, you need to manually apply the custom theme or logo.
@@ -55,7 +55,7 @@ Below is a summary of the differences between branding a site in the classic exp
 | Classic experience | Modern experience |
 |:-----|:-----|
 |Unresponsive, OOB themes that you can customize|Responsive themes that look great on any device and can be customized to match your brand|
-|Use custom master pages and CSS that are ignored in the modern experience|Use the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) to add header and footer, customize theme colors, etc.|
+|Use custom master pages and CSS that are ignored in the modern experience|Use the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) to add headers and footers. Site templates and tenant settings offer some custom options|
 
 ## Before you begin
 

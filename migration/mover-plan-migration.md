@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -17,6 +18,14 @@ description: "Overview and planning to the Mover Migration tools"
 ---
 
 # Mover Cloud Migration 
+
+>[!Note]
+>Attention Mover users:  We will soon be retiring the legacy [Mover](https://app.mover.io) tool's ability to migrate from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm-egnyte-overview.md). 
+>
+>Please use [Migration Manager](https://aka.ms/ODSP-MM) going forward.
+
+>[!Important]
+>**Google connectors**. The legacy Mover.io tool doesn't support new Google connectors. Please use Migration Manager for migrating from Google WS.
 
 ## Introduction
 
@@ -38,11 +47,11 @@ A migration is a significant undertaking for any organization. Trying to grasp t
 
 Before, during, and after a migration, it is critical to communicate clearly and effectively with your user base. We provide timely support and communication materials to your transition team to help you communicate these changes with each stakeholder.
 
-**Management** — Management needs succinct info about the how’s and why’s of the migration, such as costs, benefits, and expectations. You must paint a clear picture about what a successful migration should look like. Granular info is important when running a department.
+**Management**. Management needs succinct info about the how’s and why’s of the migration, such as costs, benefits, and expectations. You must paint a clear picture about what a successful migration should look like. Granular info is important when running a department.
 
 For example, the Sales Manager needs to know how operations will be affected, such as *Can employees still work over the weekend, if needed?*
 
-**Users** — These are your bread-and-butter employees. They need to know when changes are taking place and who to go to with questions or issues.
+**Users**. Users are your bread-and-butter employees. They need to know when changes are taking place and who to go to with questions or issues.
 
 Key questions to address:
 
@@ -51,17 +60,17 @@ Key questions to address:
 - What are the benefits?
 - How disruptive is this change going to be?
 
-**Third parties** — If people outside your organization have access to collaborate on documents, this could potentially be interrupted and require resharing of data. We describe best practices for this event in our guide.
+**Third parties**. If people outside your organization have access to collaborate on documents, this could potentially be interrupted and require resharing of data. We describe best practices for this event in our guide.
 
-**IT Helpdesk/Support staff** — If your organization is large enough to have specific support staff for other employees, they must understand each step of the migration.
+**IT Helpdesk/Support staff**. If your organization is large enough to have specific support staff for other employees, they must understand each step of the migration.
 
 ## Planning
 
-Planning is the most difficult part of a migration. It is also one of the most critical phases to get correct. To have a smooth and stress-free migration, you must gather relevant organizational info, determine project timelines, and mitigate any surprises that may appear.
+Planning is the most difficult part of a migration. It's also one of the most critical phases to get correct. To have a smooth and stress-free migration, you must gather relevant organizational info, determine project timelines, and mitigate any surprises that may appear.
 
 ### Gathering info
 
-Before migration, it is important to gather all the info you need to run the migration smoothly. Make sure you have confirmed the info from the following checklist.
+Before migration, it's important to gather all the info you need to run the migration smoothly. Make sure you've confirmed the info from the following checklist.
 
 **Migration info checklist**
 
@@ -77,7 +86,7 @@ Before migration, it is important to gather all the info you need to run the mig
 
 ### Scanning
 
-To help with your planning, we offer a scanning feature. Our scan identifies how many users own data and how much there is to move.
+To help with your planning, we offer a scanning feature. Our scan identifies how many users own data and how much there's to move.
 
 This scan is effectively a simulated dry-run migration, with no set destination, which helps to identify any problematic files/folders before you begin migrating data.
 
@@ -113,11 +122,11 @@ For example:
 
 - If one user owns 10 TB of data, we recommend dividing that between 10 users so that each one owns 1 TB.
 
-If data cannot be broken up, this should not hinder other users from migrating. As a general rule, users with a lot of data require a lot of time to migrate.
+If data cannot be broken up, this shouldn't hinder other users from migrating. As a general rule, users with a large amount of data require a lot of time to migrate.
 
 ### Amount of data to move
 
-Knowing the total volume of data you are moving helps to create a more realistic timeline for your migration.
+Knowing the total volume of data you're moving helps to create a more realistic timeline for your migration.
 
 ### Your migration team
 
@@ -135,7 +144,7 @@ We typically see corporate transfers take a minimum of 30 days to plan and execu
 
 ### Evaluate your user base
 
-It is critical that you plan which users are migrating and when. Ask yourself questions like these:
+It's critical that you plan which users are migrating and when. Ask yourself questions like these:
 
 - *Is the entire organization migrating, or just a few users?*
 - *Is everyone migrating at once, or are you splitting them into batches like department, office, or region? If so, why?*
@@ -154,21 +163,21 @@ When migrating from Office 365 to Office 365, you need to ensure all your users 
 We're the fastest way to migrate your data, but the speed of your migration may still be affected by bottlenecks. Speed bottlenecks include, but aren't limited to, the following:
 
 - Number of files and folders being moved
-  - This is objectively the biggest speed limit on the Internet, as it determines the total number of operations required. Most providers rate limit their ingress to one file per second per user. This isn't universally true, but it's a baseline conservative metric you can use when estimating.
+  - This is objectively the biggest speed limit on the Internet, as it determines the total number of operations required. Most providers rate limits their ingress to one file per second per user. This isn't universally true, but it's a baseline conservative metric you can use when estimating.
   - Our observable average across our customers is a 2.4 MB average file size.
-  - Knowing file size is necessary to estimate transfer speed. If you are not able to determine exact numbers, most services can provide reports that illustrate individual or average file size.
+  - Knowing file size is necessary to estimate transfer speed. If you aren't able to determine exact numbers, most services can provide reports that illustrate individual or average file size.
 - Total amount of data being moved.
-  - Total data can affect speed, but it is ultimately overshadowed by the number of files.
+  - Total data can affect speed, but it's ultimately overshadowed by the number of files.
 - Server connections with the source or destination **Connector**.
 - Complexity of permissions or sharing schemes, if applicable.
 
-What may be surprising is how large of an impact factors other than the size of the data you are moving can have.
+What may be surprising is how large of an impact that factors other than the size of the data you're moving can have.
 
-For example, it is common for there to be half a second of overhead per file being moved. If you are moving 200,000 files, this would be 200,000 seconds or more than two days' worth of overhead alone!
+For example, it's common for there to be half a second of overhead per file being moved. If you're moving 200,000 files, this would be 100,000 seconds or more than a day's worth of overhead alone!
 
-Suffice to say, we cannot give you exact estimates on time because there are too many factors at play at any given point. By the time you have read this section, we could have easily copied several files totaling many GB, or a few hundred files equaling a small amount of data.
+Suffice to say, we can’t give you exact estimates on time because there are too many factors at play at any given point. By the time you have read this section, we could have easily copied several files totaling many GB, or a few hundred files equaling a small amount of data.
 
-We are available to have a conversation with you about estimates.
+We're available to have a conversation with you about estimates.
 
 ### Notify stakeholders about the migration
 
@@ -182,12 +191,12 @@ Keep in mind that while cloud storage is sometimes just a container for files, p
 
 **Message**: A few months ago, management decided we will leaving Office 365 and transition to a new Office 365 domain. In the new Office 365, all employees will have access to cloud storage and its included apps.
 
-We will manage the migration to ensure all of our data gets transferred securely and efficiently. If you have any questions or concerns about the process, let me know.
+We'll manage the migration to ensure all of our data gets transferred securely and efficiently. If you have any questions or concerns about the process, let me know.
 </br>
 
 **Subject**: ATTENTION: Important Info Regarding Cloud Data Migration
 
-**Message**: As you know from prior emails, we are moving from Office 365 to a new Office 365 domain as our cloud storage provider.
+**Message**: As you know from prior emails, we're moving from Office 365 to a new Office 365 domain as our cloud storage provider.
 
 To assist in this migration, we ask all employees to finish working and upload any last changes to files in the source Office 365 by 17:00 PT on Friday, April 7, 2020. Changes to files or data in the source Office 365 after this time will not be moved.
 

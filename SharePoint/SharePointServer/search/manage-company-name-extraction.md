@@ -18,7 +18,7 @@ description: "Learn how to include company names to be extracted from content fo
 
 # Manage company name extraction in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The search system can extract company names from content. The following conditions must be met before company names can be extracted: 
   

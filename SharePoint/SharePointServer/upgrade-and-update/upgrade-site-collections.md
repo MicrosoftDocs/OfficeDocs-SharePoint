@@ -8,7 +8,7 @@ ms.date: 9/17/2016
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: hub-page
+ms.topic: landing-page
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -21,8 +21,8 @@ description: "Learn how to upgrade a site collection to SharePoint Server 2016, 
 
 # Upgrade site collections to SharePoint Server 2016
 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
 
-  
 ## Articles about how to upgrade site collections
 
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|**Description**|

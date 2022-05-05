@@ -21,7 +21,7 @@ localization_priority: None
 
 Using the steps below as a template, create your own custom guidance for SharePoint site owners on how sites are set up and managed in your organization. Each section provides guidance about what to include, sample text to help you get started, and links to resources to learn more about each area.
 
-[Download the PDF](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/live/SharePoint/SharePointOnline/spodownloads/Sites-Usage-Guidelines-template.pdf)
+[Download the PDF](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/public/SharePoint/SharePointOnline/spodownloads/Sites-Usage-Guidelines-template.pdf)
 
 
 ## ![Introduction - map](media/map.png "A map") Introduction
@@ -118,7 +118,7 @@ Using the steps below as a template, create your own custom guidance for SharePo
 - Provide detailed information on site access. What are your processes and policies for managing site access? What level of control do your site owners have? If you manage access on behalf of your site owners, let them know that you will be reviewing site permissions regularly to keep them in line with your organization's policies. Explain how you will communicate changes to permissions to them.
 
 **Resources:** </br>
-- [Secure SharePoint Sites and Files](/office365/securitycompliance/secure-sharepoint-online-sites-and-files)
+- [Secure SharePoint Sites and Files](/microsoft-365/security/office-365-security/sharepoint-file-access-policies)
 
 **Sample text:** </br>
 *Plan to review your site's permissions on a regular basis and set the level of access appropriately.*

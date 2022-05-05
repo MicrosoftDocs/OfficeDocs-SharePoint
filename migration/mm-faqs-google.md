@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
@@ -26,10 +27,6 @@ Answer.  At this time Migration Manager is the tool to use to for migrating Goog
 
 **Question:**  **Is this available for GCC, GCCHigh, DoD tenants?**</br>
 Answer.  No, currently this Migration Manager Google is not available for any of the Government clouds.
-</br>
-
-**Question:** **Are there are any caveats to this release?**</br>
-Answer.  This release only supports small to medium Google accounts.  Continue to use https://Mover.io for large accounts.
 </br>
 
 **Question:**   **What gets transferred?**</br>

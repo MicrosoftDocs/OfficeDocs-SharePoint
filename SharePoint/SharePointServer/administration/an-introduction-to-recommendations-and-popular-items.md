@@ -18,7 +18,7 @@ description: "Get an introduction to recommendations and popular items features 
 
 # An introduction to recommendations and popular items in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 In SharePoint Server, recommendations and popular items can be displayed because a feature known as  *Usage analytics*  tracks and analyzes how visitors interact with your website. You can use the results that Usage analytics produces to add content to your website, for example "People who viewed this item also viewed" or "Popular items in this category." 
   
@@ -54,14 +54,14 @@ To view the usage event definitions, do the following:
   
 1. On the server where SharePoint Server is installed, open the **SharePoint 2016 Management Shell**. 
     
-     ![SharePoint 2013 Management Shell](../media/OTCSP_Shell.png)
+   ![SharePoint 2013 Management Shell](../media/OTCSP_Shell.png)
   
 2. At the Microsoft PowerShell command prompt, type the following commands:
     
-  ```
-  $ssp = Get-SPEnterpriseSearchServiceApplicationProxy
-  $ssp.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
-  ```
+    ```powershell
+    $ssp = Get-SPEnterpriseSearchServiceApplicationProxy
+    $ssp.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
+    ```
 
   The default usage event definitions are displayed. Some of the usage event settings will be explained later in this series. For now, just notice that each event has an **EventTypeId** and an **EventName**. 
     

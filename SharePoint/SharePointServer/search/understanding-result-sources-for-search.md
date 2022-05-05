@@ -18,7 +18,7 @@ description: "Use a result source in SharePoint Server to specify a provider to 
 
 # Understanding result sources for search in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 This article provides a brief overview of result sources in SharePoint Server. 
 

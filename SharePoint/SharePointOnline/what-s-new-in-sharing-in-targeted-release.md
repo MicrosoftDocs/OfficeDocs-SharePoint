@@ -32,7 +32,7 @@ Guest accounts are used for sharing sites, and you can always add guests to your
   
 The following table shows the differences between sharing with people who have guest accounts and with ad hoc external recipients.
   
-||**Guest account**|**Ad hoc external recipient**|
+|&nbsp;|Guest account|Ad hoc external recipient|
 |:-----|:-----|:-----|
 |Can access shared files and folders  <br/> |Yes  <br/> |Yes  <br/> |
 |Verify access by…  <br/> |Signing in to Microsoft 365  <br/> |Entering a time-sensitive and single-use code sent to the email address that the file or folder was share with  <br/> |

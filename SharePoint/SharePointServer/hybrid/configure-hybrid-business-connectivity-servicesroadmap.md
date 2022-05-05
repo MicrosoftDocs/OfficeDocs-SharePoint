@@ -24,7 +24,7 @@ description: "Learn how to configure hybrid Business Connectivity Services betwe
 
 # Configure hybrid Business Connectivity Services - roadmap
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
   
 This article provides the roadmap for configuring hybrid Microsoft Business Connectivity Services between SharePoint in Microsoft 365 for enterprises and SharePoint Server.
   

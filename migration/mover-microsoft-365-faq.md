@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -21,8 +22,6 @@ description: "Frequently asked questions when using Microsoft Mover to migrate t
 Mover only migrates data from: 
 
 - An individual's **online drive storage**, such as OneDrive, MyDrive, etc.
-or
-- Data located in a **shared drive**, including Dropbox Team's Folder, SharePoint Document Library, Google Shared Drive, etc.
 
 Mover **does not** migrate e-mails, mailboxes, contacts, calendars, site layouts/collections/pages/lists, etc.
 
@@ -179,6 +178,13 @@ Permissions are handled in different ways depending on the source/destination co
  
 ## How many user Transfer Rows can I run at once?
  
-- Only twelve user Transfer Rows that can run concurrently.
-- If you select more than twelve rows and start migrating, only twelve rows chosen at random will run while the rest will be in the "Queued Transfer Rows".
-- As a transfer row completes, another from the queue will start migrating automatically.
+**Scanning** 
+- For Scanning purposes, the default is 12 user Transfer Rows can be scanned concurrently. 
+- If you select more than 12 rows and start Scanning, only 12 rows chosen at random will Scan while the rest will be in the "Queued Transfer Rows". 
+
+**Migrating** 
+  
+- For Migrating purposes, the default is 50 user Transfer Rows can be migrating concurrently. 
+- If you select more than 50 rows and start Scanning, only 50 rows chosen at random will start Migrating content, while the rest will be in the "Queued Transfer Rows". 
+
+As a transfer row completes, another from the queue will start migrating automatically.  While 50 concurrent user transfer rows is the maximum allowed, if a migration experiences any slowdowns or back-off requests, it may drop lower than this number to keep the migration stable.

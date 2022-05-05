@@ -18,7 +18,7 @@ description: "Learn how to upload and apply a new master page to a publishing si
 
 # Stage 6: Upload and apply a new master page to a publishing site in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 > [!NOTE]
 > Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
@@ -162,7 +162,7 @@ To change the file properties:
   
 On the **Master Page Gallery** page, we can see that an associated ASP.NET master page is created. 
     
-     ![MPG Associated Created](../media/OTCSP_MPGAssociatedCreated.png)
+![MPG Associated Created](../media/OTCSP_MPGAssociatedCreated.png)
   
 We are now ready to apply our new master page.
     
@@ -179,7 +179,7 @@ To apply a new master page:
   
 By selecting the **Audio** page, we verify that our new master page is now being used. 
     
-     ![New Master Page Applied](../media/OTCSP_NewMasterPageApplied.png)
+![New Master Page Applied](../media/OTCSP_NewMasterPageApplied.png)
   
 The next step is to start to work on the page layouts.
   

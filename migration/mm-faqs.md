@@ -10,10 +10,12 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
+ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Migration Manager FAQs
 ---
@@ -86,7 +88,9 @@ Answer:  Yes.  The jobs created in Migration Manager do perform incremental migr
 **Question:**  Does adding more agents linearly increase the throughput? Is there a cap on the max number of agents?</br>
 Based on our current data, the average speed of migration scales linearly to the number of agents, unless the overall throughput hits the upper limit of your network bandwidth. If multiple agents read from the same source file share path, that can also impact throughput. There’s no limit on how many agents you can install. We have many customers who perform migrations using 20+ agents.  **Note:** A single agent can process up to 10 tasks at a given time.
 
-**Question:**  How do I set the time zone for Migration Manager? 
-Answer:  Migration Manager uses the setting in the SharePoint Admin center to convert to your time zone.  In the SharePoint Admin center choose Settings > Site creation. A side panel displays where you can select the time zone.
+**Question:**  The date and time in Migration Manager isn't my local time. How can I change the setting to my local time zone? 
+Answer:  Migration Manager uses the time zone setting in the SharePoint Admin center to convert to your time zone. To update the timezone of the SharePoint Admin Center, browse to `https://<your host url>-admin.sharepoint.com/_layouts/15/regionalsetng.aspx` to change the setting.
 
+**Question:**  What does **% complete** mean?
+Answer:  The % complete indicates the progress of the overall task migration, including the number of files migrated and the preparation work required for the remaining files to be migrated. *Note:* The **%** is not linearly proportional to the number of files remaining to be migrated.
 

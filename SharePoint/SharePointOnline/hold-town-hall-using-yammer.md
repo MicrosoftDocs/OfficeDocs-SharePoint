@@ -1,8 +1,8 @@
 ---
 title: Hold a town hall in Yammer and keep the conversation going
 ms.reviewer: 
-ms.author: dowallace
-author: dowallace
+ms.author: hokavian
+author: Holland-ODSP
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -15,6 +15,7 @@ ms.collection:
 - Strat_SP_modern
 - M365-collaboration
 - m365solution-corpcomms
+- m365solution-scenario
 search.appverid:
 - SPO160
 - MET150
@@ -207,7 +208,7 @@ Learn more about [using Q&A in a Yammer community](https://support.microsoft.com
 
 Members of your organization can watch the recording of the event stream after the event. Communities created in Yammer during the event can continue the conversation and watch the recording of the town hall on the Yammer platform. Moderators can also provide automatic recaps for those who may have missed the town hall.
 
-Make your town hall and post-event engagement scalable by sharing your town hall recording across multiple platforms. Add it to your SharePoint site using the [Yammer web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) or the [News feed web part](/yammer/integrate-yammer-with-other-apps/yammer-and-newsfeed), add it to your news feed in Viva Connections (link), or share it to a team channel in [Teams](/microsoftteams/best-practices-large-groups).
+Make your town hall and post-event engagement scalable by sharing your town hall recording across multiple platforms. Add it to your SharePoint site using the [Yammer web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) or the [News feed web part](/yammer/integrate-yammer-with-other-apps/yammer-and-newsfeed), add it to your news feed in [Viva Connections](/viva/connections/viva-connections-overview), or share it to a team channel in [Teams](/microsoftteams/best-practices-large-groups).
 
 
 [Stream](/stream/portal-get-started) (on SharePoint) provides [Multi-Geo support](/microsoft-365/enterprise/administering-a-multi-geo-environment?view=o365-worldwide) for video storage and advanced sharing options. Increase your event recording’s discoverability and shareability by adding it to your organization’s Stream portal.

@@ -18,7 +18,7 @@ description: "Learn how to create and deploy a thesaurus to expand queries with 
 
 # Create and deploy a thesaurus in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 Use a thesaurus file to specify synonyms for a single word or multiple words that occur in queries in the classic search experience. The query is expanded based on the entries in the thesaurus. You create and maintain the thesaurus file in a system external to SharePoint Server before you import it into SharePoint Server to make the synonyms available to the search system.
   
@@ -65,19 +65,19 @@ You create and maintain the thesaurus file in a file external to SharePoint Serv
     
 3. At the Windows PowerShell command prompt, type the following command:
     
-  ```
-  $searchApp = Get-SPEnterpriseSearchServiceApplication 
-  Import-SPEnterpriseSearchThesaurus -SearchApplication $searchApp -Filename <Path>
+    ```
+    $searchApp = Get-SPEnterpriseSearchServiceApplication 
+    Import-SPEnterpriseSearchThesaurus -SearchApplication $searchApp -Filename <Path>
   
-  ```
+    ```
 
-    Where:
+   Where:
     
-  -  _\<Path\>_ specifies the full UNC path of the .csv file (the thesaurus) to be imported. 
+   -  _\<Path\>_ specifies the full UNC path of the .csv file (the thesaurus) to be imported. 
     
 ## See also
 <a name="proc2"> </a>
 
 [Linguistic search features in SharePoint Server](../technical-reference/linguistic-search-features.md)
 
-[Import-SPEnterpriseSearchThesaurus](/powershell/module/sharepoint-server/Import-SPEnterpriseSearchThesaurus?view=sharepoint-ps)
+[Import-SPEnterpriseSearchThesaurus](/powershell/module/sharepoint-server/Import-SPEnterpriseSearchThesaurus?view=sharepoint-ps&preserve-view=true)

@@ -8,7 +8,7 @@ ms.date: 6/22/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: hub-page
+ms.topic: landing-page
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -23,7 +23,7 @@ description: "Configure a SharePoint hybrid solution between SharePoint Server a
 
 # Configure a hybrid solution for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
   
 ![Configure a SharePoint hybrid solution](../media/ConfigureHybridSolution.jpg)
   

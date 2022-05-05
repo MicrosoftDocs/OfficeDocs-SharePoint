@@ -61,30 +61,38 @@ Follow these steps for each language that you want to support. If you decide to 
 > By default, the Microsoft PowerShell Help files are installed in English (en-us). To view these files in the same language as the operating system, install the language pack for the same language in which the operating system was installed. 
   
   
-## Installing language packs on the SharePoint servers
+## Installing language packs on the SharePoint Servers
 <a name="section4"> </a>
 
 Language packs are available as individual downloads (one download for each supported language). If you have a server farm environment and you are installing language packs to support multiple languages, you must install the language packs on each SharePoint server.
+
+When you install language packs, the language-specific site templates are installed in the `%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\TEMPLATE\ _LanguageID_` directory,
+where,
+`_LanguageID_` is the Language ID number for the language that you are installing. 
+
+For example, the United States English language pack installs to the `%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\TEMPLATE\1033` directory. After you install a language pack, site owners and site collection administrators can create sites and site collections based on the language-specific site templates by specifying a language when they are creating a new SharePoint site or site collection.
   
 > [!IMPORTANT]
 > The language pack is installed in its native language. The procedure that follows is for the English language pack. 
   
- **To install a language pack**
+ ### Install a language pack on Windows Server with Desktop Experience
   
  Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-1. Mount the **ISO disc images** to download disc images for the language pack installers.
+1. Mount the **ISO disc image** as a drive on your computer by double-clicking on it, or by specifying it as a virtual drive in your virtual machine manager.
 
-2.  Run the setup.exe (`setup.exe`) on your servers.
+2. Navigate to the mounted drive and run (`setup.exe`) to launch the language pack setup program.
     
-3. On the **Read the Microsoft Software License Terms** page, review the terms, select the **I accept the terms of this agreement** check box, and then click **Continue**.   
+3. On the **Read the Microsoft Software License Terms** page, review the terms, select the **I accept the terms of this agreement** check box, and then click **Continue**.
+   
 4. The Setup wizard runs and installs the language pack.
+   
+5. Run the SharePoint Products Configuration Wizard by using the default settings. 
     
-5. Rerun the SharePoint Products Configuration Wizard by using the default settings. If you do not run the SharePoint Products Configuration Wizard after you install a language pack, the language pack will not be installed correctly.
-    
-    The SharePoint Products Configuration Wizard runs in the language of the base installation of SharePoint Server, not in the language of the language pack that you just installed.
-    
- **To rerun the SharePoint Products Configuration Wizard**
+    > [!NOTE]
+    > If you do not run the SharePoint Products Configuration Wizard after you install a language pack, the language pack will not be installed correctly.
+       
+### Run the SharePoint Products Configuration Wizard
   
 Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
@@ -102,14 +110,62 @@ Verify that the user account that is performing this procedure is the Setup user
     
 7. On the **Configuration Successful** page, click **Finish**.
     
-8. After you install a new language pack and rerun the **SharePoint Products Configuration Wizard**, you must deactivate and then reactivate any language-specific features before you use the new language pack.
-    
-When you install language packs, the language-specific site templates are installed in the `%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\TEMPLATE\ _LanguageID_` directory,
-where,
-`_LanguageID_` is the Language ID number for the language that you are installing. 
+8. After you install a new language pack and run the **SharePoint Products Configuration Wizard**, you must deactivate and then reactivate any language-specific features before you use the new language pack.
 
-For example, the United States English language pack installs to the `%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\TEMPLATE\1033` directory. After you install a language pack, site owners and site collection administrators can create sites and site collections based on the language-specific site templates by specifying a language when they are creating a new SharePoint site or site collection. 
-  
+### Install a language pack on Windows Server Core
+
+Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
+
+1. Mount the ISO disc image as a drive on your computer by using the [Mount-DiskImage](/powershell/module/storage/mount-diskimage?view=windowsserver2019-ps) cmdlet, or by specifying it as a virtual drive in your virtual machine manager.
+
+2. Run Language Pack for SharePoint and Project Server Subscription Edition Setup (`setup.exe`) on your computer in command line mode. This is done by adding the following command line parameters when launching (`setup.exe`):
+
+    - `/config <config file>` (Where `<config file>` is the path to the **\Files\SetupSilent\config.xml** file on your mounted drive).
+
+    - `/IAcceptTheLicenseTerms` (This parameter signifies that you have read, understand, and agree to the license terms of language pack for SharePoint and Project Server Subscription edition).
+
+3. Once language pack for SharePoint and Project Server Server Subscription Edition setup has completed, reboot your computer.
+
+4. Run **Install-SPHelpCollection -All**.
+ 
+5. Run **Initialize-SPResourceSecurity**.
+ 
+6. Run **Install-SPService**.
+ 
+7. Run **Install-SPFeature -AllExistingFeatures**.
+ 
+8. Run **Install-SPApplicationContent**.
+
+
+### Uninstall a language pack on Windows Server with Desktop Experience
+
+1. From the **Start** menu, click **Control Panel**.
+
+2. Click **Uninstall** a program.
+ 
+3. In the list of currently installed programs, select **Language Pack for SharePoint and Project Server Subscription Edition - Language** and then click **Uninstall**.
+ 
+4. Click **Yes** to confirm that you want to remove the program.
+ 
+5. Click **OK** in the dialog-box alerting you that this might result in partial loss of functionality for sites that depends on this language pack.
+ 
+6. After the language pack has been successfully uninstalled, click **Close**. 
+
+
+### Uninstall a language pack on Windows Server Core
+
+1. Run SharePoint setup (`setup.exe`) from your `%CommonProgramFiles%\Microsoft Shared\SERVER16\Server Setup Controller` directory with the following parameters:
+
+    - `/config <config file>` (Where `<config file>` is the path to your `config.xml` file).
+
+    - `/uninstall OSMUI.<language tag>` (This parameter signifies the language pack to uninstall).
+    
+    For example, the following PowerShell command is used to uninstall Japanese language pack:
+
+    ```powershell
+    $env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\setup.exe" /config "$env:CommonProgramFiles\Microsoft Shared\SERVER16\Server Setup Controller\config.xml" /uninstall OSMUI.JA-JP   
+    ```
+
 ## List of Languages
 
 Each folder name has a language tag appended to it, in the form ll-cc. That tag identifies the language and culture. For example, U.S. English language folders are identified by the folder name extension en-us. 
@@ -118,55 +174,56 @@ Folders for the language-specific components are identified by the language tag 
 
 SharePoint Servers Subscription Edition, 2019, and 2016 support the following languages:
 
+
 |Language|Language tag|LCID|
 |:-----|:-----|:-----|
-Arabic <br/>|ar-sa  <br/> | 1025 <br/>
-Azerbaijani <br/> |az-latn-az  <br/> |1068 <br/>
-Basque <br/> |eu-es  <br/> |1069 <br/>||
-Bosnian (Latin) <br/> |bs-latn-ba  <br/> |5146 <br/>
-Bulgarian <br/> |bg-bg  <br/> |1026 <br/>||
-Catalan <br/> |ca-es <br/> |1027 <br/>||
-Chinese (Simplified) <br/> |zh-cn  <br/> |2052 <br/>
-Chinese (Traditional) <br/> |zh-tw  <br/> |1028 <br/>||
-Croatian <br/> |hr-hr  <br/> |1050 <br/>||
-Czech <br/> |cs-cz  <br/> |1029 <br/>||
-Danish <br/> |da-dk  <br/> |1030 <br/>||
-Dutch <br/> |nl-nl  <br/> |1043 <br/>||
-English <br/> |en-us  <br/> |1033 <br/>||
-Estonian <br/> |et-ee  <br/> |1061 <br/>||
-Finnish <br/> |fi-fi  <br/> |1035 <br/>||
-French <br/> |fr-fr  <br/> |1036 <br/>
-Galician <br/> |gl-es  <br/> |1110 <br/>||
-German <br/> |de-de  <br/> |1031 <br/>||
-Greek <br/> |el-el  <br/> |1032 <br/>||
-Hebrew <br/> |he-il  <br/> |1037 <br/>||
-Hindi <br/> |hi-in  <br/> |1081 <br/>||
-Hungarian <br/> |hu-hu  <br/> |1038<br/>||
-Indonesian <br/> |id-id  <br/> |1057 <br/>||
-Irish <br/> |ga-ie  <br/> |2108 <br/>||
-Italian <br/> |it-it  <br/> |1040 <br/>||
-Japanese <br/> |ja-jp  <br/> |1041 <br/>||
-Kazakh <br/> |kk-kz  <br/> |1087 <br/>||
-Korean <br/> |ko-kr  <br/> |1042 <br/>||
-Latvian <br/> |lv-lv  <br/> |1062 <br/>
-Lithuanian <br/> |lt-lt  <br/> |1063 <br/>||
-Macedonian (FYROM) <br/> |mk-mk  <br/> |1071 <br/>||
-Malay (Malaysia) <br/> |ms-my  <br/> |1086 <br/>||
-Norwegian (Bokmål) <br/> |nb-no  <br/> |1044 <br/>||
-Polish <br/> |pl-pl  <br/> |1045 <br/>
-Portuguese (Brazil) <br/> |pt-br  <br/> |1046 <br/>||
-Portuguese (Portugal) <br/> |pt-pt  <br/> |2070<br/>||
-Romanian <br/> |ro-ro  <br/> |1048 <br/>||
-Russian <br/> |ru-ru  <br/> |1049 <br/>||
-Serbian (Cyrillic) <br/> |sr-cyrl-rs  <br/> |10266 <br/>||
-Serbian (Latin) <br/> |sr-latn-rs  <br/> |9242 <br/>||
-Slovak <br/> |sk-sk  <br/> |1051 <br/>||
-Slovenian <br/> |sl-si  <br/> |1060 <br/>||
-Spanish <br/> |es-es  <br/> |3082 <br/>||
-Swedish <br/> |sv-se  <br/> |1053 <br/>||
-Thai <br/> |th-th  <br/> |1054 <br/>||
-Turkish <br/> |tr-tr  <br/> |1055 <br/>||
-Ukrainian <br/> |uk-ua <br/> |1058<br/>||
-Vietnamese <br/> |vi-vn  <br/> |1066 <br/>||
-Welsh <br/> |cy-gb  <br/> |1106 <br/>||
+|Arabic <br/>|ar-sa  <br/> | 1025 <br/>|
+|Azerbaijani <br/> |az-latn-az  <br/> |1068 <br/>|
+|Basque <br/> |eu-es  <br/> |1069 <br/>|
+|Bosnian (Latin) <br/> |bs-latn-ba  <br/> |5146 <br/>|
+|Bulgarian <br/> |bg-bg  <br/> |1026 <br/>|
+|Catalan <br/> |ca-es <br/> |1027 <br/>|
+|Chinese (Simplified) <br/> |zh-cn  <br/> |2052 <br/>|
+|Chinese (Traditional) <br/> |zh-tw  <br/> |1028 <br/>|
+|Croatian <br/> |hr-hr  <br/> |1050 <br/>|
+|Czech <br/> |cs-cz  <br/> |1029 <br/>|
+|Danish <br/> |da-dk  <br/> |1030 <br/>|
+|Dutch <br/> |nl-nl  <br/> |1043 <br/>|
+|English <br/> |en-us  <br/> |1033 <br/>|
+|Estonian <br/> |et-ee  <br/> |1061 <br/>|
+|Finnish <br/> |fi-fi  <br/> |1035 <br/>|
+|French <br/> |fr-fr  <br/> |1036 <br/>|
+|Galician <br/> |gl-es  <br/> |1110 <br/>|
+|German <br/> |de-de  <br/> |1031 <br/>|
+|Greek <br/> |el-el  <br/> |1032 <br/>|
+|Hebrew <br/> |he-il  <br/> |1037 <br/>|
+|Hindi <br/> |hi-in  <br/> |1081 <br/>|
+|Hungarian <br/> |hu-hu  <br/> |1038<br/>|
+|Indonesian <br/> |id-id  <br/> |1057 <br/>|
+|Irish <br/> |ga-ie  <br/> |2108 <br/>|
+|Italian <br/> |it-it  <br/> |1040 <br/>|
+|Japanese <br/> |ja-jp  <br/> |1041 <br/>|
+|Kazakh <br/> |kk-kz  <br/> |1087 <br/>|
+|Korean <br/> |ko-kr  <br/> |1042 <br/>|
+|Latvian <br/> |lv-lv  <br/> |1062 <br/>|
+|Lithuanian <br/> |lt-lt  <br/> |1063 <br/>|
+|Macedonian (FYROM) <br/> |mk-mk  <br/> |1071 <br/>|
+|Malay (Malaysia) <br/> |ms-my  <br/> |1086 <br/>|
+|Norwegian (Bokmål) <br/> |nb-no  <br/> |1044 <br/>|
+|Polish <br/> |pl-pl  <br/> |1045 <br/>|
+|Portuguese (Brazil) <br/> |pt-br  <br/> |1046 <br/>|
+|Portuguese (Portugal) <br/> |pt-pt  <br/> |2070<br/>|
+|Romanian <br/> |ro-ro  <br/> |1048 <br/>|
+|Russian <br/> |ru-ru  <br/> |1049 <br/>|
+|Serbian (Cyrillic) <br/> |sr-cyrl-rs  <br/> |10266 <br/>|
+|Serbian (Latin) <br/> |sr-latn-rs  <br/> |9242 <br/>|
+|Slovak <br/> |sk-sk  <br/> |1051 <br/>|
+|Slovenian <br/> |sl-si  <br/> |1060 <br/>|
+|Spanish <br/> |es-es  <br/> |3082 <br/>|
+|Swedish <br/> |sv-se  <br/> |1053 <br/>|
+|Thai <br/> |th-th  <br/> |1054 <br/>|
+|Turkish <br/> |tr-tr  <br/> |1055 <br/>|
+|Ukrainian <br/> |uk-ua <br/> |1058<br/>|
+|Vietnamese <br/> |vi-vn  <br/> |1066 <br/>|
+|Welsh <br/> |cy-gb  <br/> |1106 <br/>|
 

@@ -18,7 +18,7 @@ description: "Learn how to view the Popularity Trends report and the Most Popula
 
 # View usage reports in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 The Analytics Processing Component generates two reports that are based on usage event types:
   

@@ -1,7 +1,7 @@
 ---
 title: "Distribute corporate news to your organization"
-ms.author: loreenl
-author: loreenl
+ms.author: hokavian
+author: Holland-ODSP
 manager: pamgr
 recommendations: true
 audience: Admin
@@ -12,6 +12,7 @@ localization_priority: Normal
 search.appverid:
 ms.collection:  
   - m365solution-corpcomms
+  - m365solution-scenario
 description: "Learn how to distribute news within your organization."
 
 ---
@@ -126,7 +127,7 @@ To learn about email notification settings, see [SharePoint email notifications]
 
 When you use Viva Connections for Teams Desktop, your home site in Teams displays news just like it does when viewed in SharePoint. Coming in fall 2021, you'll be able to use the Viva Connections Feed web part in a Viva Connections Dashboard which will show news post within the feed. The Feed web part can be added to any SharePoint page.
 
-To learn about adding Viva Connections for Teams desktop, see [Add Viva Connections for Microsoft Teams desktop](viva-connections.md).
+To learn about adding Viva Connections, see [Add Viva Connections for Microsoft Teams desktop](viva-connections-overview.md).
 
 ## Display news in the Viva Connections Teams mobile app
 

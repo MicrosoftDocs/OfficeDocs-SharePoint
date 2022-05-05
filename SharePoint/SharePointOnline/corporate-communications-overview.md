@@ -34,7 +34,7 @@ Learn how to keep everyone informed and engaged using SharePoint, Microsoft Team
 
 
 
-## Overview of set-up
+## Overview of setup
 Start by learning about Microsoft 365 tools that are designed for your specific scenario. Then, learn how to scope your audience. Finally, get started planning by learning how to create, launch, measure, and maintain a one-time communication or communications over time.
 <br>
 <br>
@@ -66,6 +66,13 @@ Some communication solutions are a one-time event while others may have several 
 
 ## Overview of corporate communication solutions:
 Learn how to plan your communication strategy by reviewing common communication scenarios, solutions, and outcomes. Next, review how Microsoft 365 tools and apps can engage and inform the audiences you want to reach. Then determine which communication scenario meets your communication goals and get started planning, launching, and maintaining your communication solution. 
+
+This poster illustrates how Contoso keeps employees informed and engaged across popular communication scenarios. Contoso uses a variety of M365 apps, including a new offering, Viva Connections.
+
+![Image of the corporate communication planning poster.](media/corp-comm-poster.png)
+
+[Download the PDF version of this poster](https://download.microsoft.com/download/0/3/4/034fbee5-ecf4-4559-86d3-815e898f21ea/contoso-corporate-communication-poster.pdf) or [download this poster as a Visio file](https://download.microsoft.com/download/0/3/4/034fbee5-ecf4-4559-86d3-815e898f21ea/contoso-corporate-communication-poster.vsdx) to make custom edits for your organization.
+<br>
 <br>
 
 
@@ -77,7 +84,9 @@ Learn how to plan your communication strategy by reviewing common communication 
 |![Image of a mega phone icon.](media/icon-launch-engage.png) | **Plan and produce a town hall**  |Bring your organization together for a live or prerecorded event <br> Record, share, and keep the conversation going <br> Measure engagement and expand reach using news <br><br> [Plan a town hall](hold-town-hall-using-yammer.md) |
 |![Image of a newspaper icon.](media/icon-news.png) | **Distribute organizational news**  | Share organization news and announcements across your company  <br> Create news site, news posts, and use the News web part <br> Measure engagement and expand reach using Viva Connections <br><br> [Distribute organizational news](distribute-corporate-news-to-your-organization.md) |
 |![Image of a networking icon.](media/icon-launch-add.png)|  **Leadership connection**   | Create communication channels and networking opportunities <br> Create engaging experiences in Yammer and live events <br> Expand reach using Viva Connections <br><br> [Connect your organization with leaders](leadership-connection.md)|
-|![Image of a location symbol icon.](media/icon-build-global.png) | **New employee onboarding** |Create an end-to-end experience to onboard new employees <br> Create a home base to welcome new employees and share resources <br>  Expand reach using Viva Connections <br><br> [Onboard new employees](onboard-employees.md)|
+|![Image of a location symbol icon.](media/icon-build-global.png) | **New employee onboarding** |Create an end-to-end experience to onboard new employees <br> Create a home base to welcome new employees and share resources <br>  Expand reach using Viva Connections <br><br> [Onboard new employees](onboard-employees.md)| 
+|![Image of a checked lightbulb symbol icon.](media/lb-1.png) | **Build a learning and training experience** |Build a scalable learning and training experience <br> Surface training opportunities to specific audiences <br>  Use tools like Viva Learning to deploy learning experience <br><br> [Build a learning and training experience](build-learning-and-training-experiences-for-employees.md)|
+
 
 
 ### End-user guidance and support
@@ -107,11 +116,6 @@ Give end users a head start by helping them use and engage using popular M365 co
 | Live events in Yammer                |Product and host a live event for people inside your organization. Keep the conversation going with live and moderated Q&A.               | M365 E5 <br> M365 E3         |
 | Live events in Microsoft Teams             | Host and record public or private live events. Decide how you want event attendees to participate.       | M365 E5 <br> M365 E3         |
 | Viva Connections          | Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed.        | M365 E5 <br> M365 E3     |
-
-<br>
-
->[!NOTE]
-> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](viva-connections-overview.md) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.  
 
 <br>
 

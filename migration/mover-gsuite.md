@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -158,7 +159,7 @@ To authorize or add a **G Suite Drive** account as a **Connector**, follow these
 
 9. In the **Connector** list, find **G Suite (Administrator)**.
 10. Select **Authorize**.
-11. A new window (tab) opens. Name your Connector <optional>.
+11. A new window (tab) opens. Name your Connector \<optional\>.
 
     ![name connector gdrive](media/name-connector-google-drive.png)
 

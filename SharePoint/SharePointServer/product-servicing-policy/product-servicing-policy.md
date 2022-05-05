@@ -17,7 +17,7 @@ description: "These articles explain the updated product servicing policies of S
 
 # Product Servicing Policy
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
 During mainstream support, Microsoft releases new Public Update (PU) builds for SharePoint Server and SharePoint Foundation each month that contain the latest functionality, performance, and stability improvements for the product.
   

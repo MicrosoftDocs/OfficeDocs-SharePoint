@@ -1,8 +1,7 @@
 ---
 title: Intelligent intranet overview
-ms.reviewer: holland-odsp
-ms.author: hokavian
-author: pamgreen-msft
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -33,7 +32,7 @@ Keep employees informed and engaged by providing a shared place to securely view
 ![Intelligent intranet overview](media/intelligent_intranet_overview1.png)
  
 ### Build an intelligent intranet
-Learn how to move through the [process of creating an intranet](https://resources.techcommunity.microsoft.com/intelligent-intranet/align/) for your organization. Get familiar with [common intranet planning and creation roles](./intranet-roles-tasks.md), design stages, and the [intranet lifecycle](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-SharePoint/live/SharePoint/SharePointOnline/spodownloads/Intranet%20lifecycle.pdf). Learn how to align goals into priority scenarios that you can [get started implementing](https://resources.techcommunity.microsoft.com/intelligent-intranet/implement/) quickly. Then, learn how to [engage with viewers](https://resources.techcommunity.microsoft.com/intelligent-intranet/engage/) and maintain your intranet over time as the organization changes and scales. 
+Learn how to move through the [process of creating an intranet](https://resources.techcommunity.microsoft.com/intelligent-intranet/align/) for your organization. Get familiar with [common intranet planning and creation roles](./intranet-roles-tasks.md), design stages, and the [intranet lifecycle](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/public/SharePoint/SharePointOnline/spodownloads/Intranet%20lifecycle.pdf). Learn how to align goals into priority scenarios that you can [get started implementing](https://resources.techcommunity.microsoft.com/intelligent-intranet/implement/) quickly. Then, learn how to [engage with viewers](https://resources.techcommunity.microsoft.com/intelligent-intranet/engage/) and maintain your intranet over time as the organization changes and scales. 
 
 ### Help your organization engage and inform
 
@@ -43,7 +42,7 @@ Integrate [Yammer](https://support.microsoft.com/office/what-is-yammer-47526868-
 
 ### Enhance collaboration and sharing
 
-Create and increase opportunities to collaborate across your organization. Use [Microsoft Lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f) and [document libraries](https://support.microsoft.com/office/introduction-to-libraries-7d4221d9-8fb9-40d5-8441-2374c84b5e26) to securely store and dynamically display content that can be accessed on any device. Then, users can view, share, and [co-author content](https://support.microsoft.com/office/document-collaboration-and-co-authoring-ee1509b4-1f6e-401e-b04a-782d26f564a4) in real time.
+Create and increase opportunities to collaborate across your organization. Use [Microsoft Lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f) and [document libraries](https://support.microsoft.com/office/introduction-to-libraries-7d4221d9-8fb9-40d5-8441-2374c84b5e26) to securely store and dynamically display content that can be accessed on any device. Then, users can view, share, and [coauthor content](https://support.microsoft.com/office/document-collaboration-and-co-authoring-ee1509b4-1f6e-401e-b04a-782d26f564a4) in real time.
 
 Use [SharePoint team sites](https://support.microsoft.com/office/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e) to create secure collaboration spaces for teams to share content, get updates, and news. Consider [adding Microsoft Teams](https://support.microsoft.com/office/create-a-microsoft-team-from-sharepoint-545973b6-c38f-426a-b2b6-16405a561628) to your team site to add real-time chat and virtual meetings.
 
@@ -77,11 +76,11 @@ Learn more about [how to think about your intelligent intranet](./trad-vs-modern
 - Establish a [governance plan](./intranet-governance.md)
 - Plan [intranet hubs](./planning-hub-sites.md) and [branding](./branding-sharepoint-online-sites-modern-experience.md)
 
-Get familiar with the [intranet lifecycle](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-SharePoint/live/SharePoint/SharePointOnline/spodownloads/Intranet%20lifecycle.pdf) and basic SharePoint intranet and [site building blocks](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-SharePoint/live/SharePoint/SharePointOnline/spodownloads/Building%20blocks%20-%20sites%20and%20pages.pdf).
+Get familiar with the [intranet lifecycle](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/public/SharePoint/SharePointOnline/spodownloads/Intranet%20lifecycle.pdf) and basic SharePoint intranet and [site building blocks](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/public/SharePoint/SharePointOnline/spodownloads/Building%20blocks%20-%20sites%20and%20pages.pdf).
 
 ### 3 - Implement plans and start building
 
-Start building [the home site](./home-site.md), [hubs](./planning-hub-sites.md), [sites](https://support.microsoft.com/office/plan-your-sharepoint-communication-site-35d9adfe-d5cc-462f-a63a-bae7f2529182), and pages that will make up the framework of your intranet.  Consider using information barriers to ensure [confidential content](./information-barriers.md) is seen by the right users or use [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) to target specific content to certain groups of users. 
+Start building [the home site](./home-site.md), [hubs](./planning-hub-sites.md), [sites](https://support.microsoft.com/office/plan-your-sharepoint-communication-site-35d9adfe-d5cc-462f-a63a-bae7f2529182), and pages that will make up the framework of your intranet.  Consider using Microsoft Purview Information Barriers to ensure [confidential content](./information-barriers.md) is seen by the right users or use [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) to target specific content to certain groups of users. 
 
 - Get feedback from stakeholders and users along the way
 - Test site architecture with real users
@@ -111,10 +110,10 @@ Learn more about forming a site owner or [intranet champions community](https://
 
 |**Capability or feature**|**Description**|**Licensing**|
 |:-----|:-----|:-----|
-|Office apps|Office client apps – Word, Excel, PowerPoint, OneNote, Publisher, and Access on up to 5 PC/Macs, tablets, or mobile devices per person.|M365 E5<br> M365 E3|
-|Social and intranet|Use SharePoint and Yammer to connect and engage across your organization with an intelligent, mobile intranet and enterprise social networking.|M365 E5<br> M365 E3|
-|Files and content|OneDrive helps you work on a file and save it directly to OneDrive or SharePoint and changes are updated across synced devices. Stream lets you easily create engaging video content. Access and sync files on PC or Mac and mobile devices. Share files with external contacts by providing access or guest links.|M365 E5<br> M365 E3|
-|Work management|Efficiently manage work across individuals, teams, and organizations. Create and automate business processes.|M365 E5<br> M365 E3|
+|Office apps|Office client apps – Word, Excel, PowerPoint, OneNote, Publisher, and Access on up to 5 PC/Macs, tablets, or mobile devices per person.|Microsoft 365 E5<br> Microsoft 365 E3|
+|Social and intranet|Use SharePoint and Yammer to connect and engage across your organization with an intelligent, mobile intranet and enterprise social networking.|Microsoft 365 E5<br> Microsoft 365 E3|
+|Files and content|OneDrive helps you work on a file and save it directly to OneDrive or SharePoint and changes are updated across synced devices. Stream lets you easily create engaging video content. Access and sync files on PC or Mac and mobile devices. Share files with external contacts by providing access or guest links.|Microsoft 365 E5<br> Microsoft 365 E3|
+|Work management|Efficiently manage work across individuals, teams, and organizations. Create and automate business processes.|Microsoft 365 E5<br> Microsoft 365 E3|
 
 #### Learn more about Microsoft licensing
 

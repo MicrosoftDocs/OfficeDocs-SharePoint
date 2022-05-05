@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: hub-page
+ms.topic: landing-page
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -19,7 +19,7 @@ description: "Navigate to SharePoint Server articles about resolving alerts from
 
 # System Center Operations Manager knowledge articles for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Navigate to SharePoint Server 2019. 2016, and 2013 articles about resolving alerts from the Systems Center Operations Manager (SCOM) management pack.
   

@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
@@ -19,7 +19,7 @@ description: "Learn the best practices for SharePoint Server installation and ho
 
 # Best practices for installation for SharePoint Servers 2016 and 2019
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)] 
 
 ## Introduction
 
@@ -47,7 +47,7 @@ If you have a reliance on any of the following, plan what you intend to replace 
 Use supported service applications and consider phasing out the use of these deprecated service applications. For any of the SharePoint BI tools, you can use PowerBI as a replacement:
 
 
-|**Deprecated feature or service**
+|Deprecated feature or service|
 |:-----|
 |Access Services and Access Services 2010 |
 |Document Conversions services|
@@ -57,7 +57,7 @@ Use supported service applications and consider phasing out the use of these dep
 |PowerPoint Conversion Service |
 |Visio Graphics Service  |
 |Word Automation Services  |
-|InfoPath | |
+|InfoPath |
 |Workflow Manager |
 
 ## Customizations

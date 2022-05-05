@@ -1,8 +1,8 @@
 ---
 title: "Add content to a case and place sources on hold in the eDiscovery Center"
 ms.reviewer: 
-ms.author: MARKJJO
-author: MARKJJO
+ms.author: v-tophillips
+author: v-tophillips
 manager: serdars
 ms.date: 
 audience: ITPro
@@ -18,7 +18,7 @@ description: "Content that is part of an eDiscovery case - such as potential evi
 
 # Add content to a case and place sources on hold in the eDiscovery Center
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
 Content that is part of an eDiscovery case - such as potential evidence for litigation, audits and investigations -can be managed in an eDiscovery Set. Each case can have multiple eDiscovery Sets. You can also filter the source content you include, such as by author or sender, by a date range, or by search keywords. 
   

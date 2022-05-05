@@ -12,6 +12,7 @@ ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:  
 - M365-collaboration
+ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
@@ -28,7 +29,7 @@ To create and manage terms, you must be a contributor, a group manager, or a ter
 
 To create a term in a term set
   
-1. In the SharePoint admin center, under **Content services**, click **Term store**.
+1. In the SharePoint admin center, under **Content services**, select <a href="https://go.microsoft.com/fwlink/?linkid=2185073" target="_blank">**Term store**</a>.
     
 2. In the tree-view pane, select the term set to which you want to add a term.
 
@@ -44,7 +45,7 @@ To create a term in a term set
 
     - On the **Usage settings** tab, to make the term available to the users and content editors of sites consuming this term set, select **Edit**. The **Available for tagging** panel appears. By default, the term is enabled for tagging. To disable, select the **Enable** checkbox. Select **Save**.
 
-    - On the **Advanced** tab, to use shared or local custom properties to store additional data about a term sets, select **Edit**. The **Edit shared custom properties** panel appears. Add property names and values. Select **Save**. 
+    - On the **Advanced** tab, to use shared or local custom properties to store additional data about term sets, select **Edit**. The **Edit shared custom properties** panel appears. Add property names and values. Select **Save**. 
 
   
 ## Take another action with terms
@@ -63,7 +64,7 @@ To take any of the following actions, first select the term that you want to upd
 ### Copy term
 <a name="__copy_the_term"> </a>
 
-- Select **Copy term**. This action shows the name of the new term as **Copy of \<original term name\>**. No child terms for the source term are copied. 
+- Select **Copy term**. This action shows the name of the new term as **\<original term name\> - Copy**. No child terms for the source term are copied. 
     
 ### Move term
 <a name="__move_a_term"> </a>
