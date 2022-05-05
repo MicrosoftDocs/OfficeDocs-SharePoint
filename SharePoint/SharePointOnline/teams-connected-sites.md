@@ -40,19 +40,19 @@ These are the basic parts of Teams and SharePoint and how they relate to each ot
 
 - **Standard channel** – A standard channel is a channel that all members of a team have access to. Each team comes with a standard channel called "General." Team owners and members can add additional standard channels.
 
-- **Parent site** - The SharePoint site that is created when you create the team. This site is used for file storage for all standard channels. All team owners and members have access to this site.
-
-- **[Microsoft 365 group](/microsoft-365/solutions/collaboration-governance-overview#why-microsoft-365-groups-are-important-in-collaboration-governance)** - A Microsoft 365 group is a membership group that gives people access to multiple Microsoft 365 services at the same time. The membership for each team is stored in a Microsoft 365 group and that group also gives those people access to the team's parent SharePoint site.
-
 - **[Private channel](/MicrosoftTeams/private-channels)** – A private channel is a channel that only some of the team's members have access to. It is used for private conversations and collaboration. Each private channel has its own SharePoint site for file storage. Only members of the private channel can access this site.
 
 - **[Shared channels](/MicrosoftTeams/shared-channels)** – A shared channel is a channel that you can add anyone to, even if they’re not a member of the team. It is used for broader collaboration with people outside the team. Each shared channel has its own SharePoint site for file storage. Only members of the shared channel can access this site.
+
+- **Parent site** - The SharePoint site that is created when you create the team. This site is used for file storage for all standard channels. All team owners and members have access to this site.
 
 - **Channel site** - The SharePoint site that is created when you create a private or shared channel in a team. Only owners and members of the private or shared channel have access to this site.
 
 - **Public team** - A public team is a team that anyone in the organization can join. Public teams do not require a team owner to invite someone to the team.
 
 - **Private team** - A private team is a team that a person can only join when invited by a team owner. Both public teams and private teams offer the same channel types - standard, private, and shared.
+
+- **[Microsoft 365 group](/microsoft-365/solutions/collaboration-governance-overview#why-microsoft-365-groups-are-important-in-collaboration-governance)** - A Microsoft 365 group is a membership group that gives people access to multiple Microsoft 365 services at the same time. The membership for each team is stored in a Microsoft 365 group and that group also gives those people access to the team's parent SharePoint site.
 
 - **Azure AD** - Azure AD is the directory service where Microsoft 365 user accounts are stored. (You can manage these accounts from Microsoft 365 as well.) Microsoft 365 groups are also stored in Azure AD. Azure AD allows administrators to manage users and groups and to apply business rules to user accounts, such as requiring multi-factor authentication.
 
