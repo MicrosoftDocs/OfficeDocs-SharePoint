@@ -163,7 +163,7 @@ The following parameters can be used with  `-ConditionalAccessPolicy AllowLimite
   
  `-AllowEditing $false` Prevents users from editing Office files in the browser. 
  
- `-ReadOnlyForUnmanagedDevices $false` Makes the entire site read-only for impacted users. 
+ `-ReadOnlyForUnmanagedDevices $true` Makes the entire site read-only for impacted users. 
   
  `-LimitedAccessFileType OfficeOnlineFilesOnly` Allows users to preview only Office files in the browser. This option increases security but may be a barrier to user productivity. 
   
