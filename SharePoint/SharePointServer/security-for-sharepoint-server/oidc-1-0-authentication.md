@@ -361,7 +361,7 @@ Following parameters need to be specified here:
 
 #### 2. Connect `SPTrustedIdentityTokenIssuer` with `SPClaimProvider`
 
-In this step, the OIDC `SPTrustedIdentityTokenIssuer` uses the claim provider created in [step 1](#1-create-new-claim-provider) for searching and resolving users and groups:
+In this step, the OIDC `SPTrustedIdentityTokenIssuer` uses the claim provider created in [step 1](#1-create-a-new-claim-provider) for searching and resolving users and groups:
 
   ```powershell
   Set-SPTrustedIdentityTokenIssuer <token issuer name> -ClaimProvider <claim provider object> -IsOpenIDConnect
@@ -420,13 +420,13 @@ During the synchronization, the following three properties need to be provided t
 
         For AD Import synchronization, these properties can be modified in **User Profile Service Application > Configure Synchronization Connections > Create New Connection** when you create a new AD Import synchronization connection.
 
-        - `SPS-ClaimProviderID` should be set to the provider name created in [step 1](#1-create-new-claim-provider) by the `New-SPClaimProvider` cmdlet.
+        - `SPS-ClaimProviderID` should be set to the provider name created in [step 1](#1-create-a-new-claim-provider) by the `New-SPClaimProvider` cmdlet.
         - `SPS-ClaimProviderType` should be set to `SPTrustedBackedByUPAClaimProvider`.
 
         For MIM synchronization, these properties can be set in the **Configure Attribute Flow** for the MIM database to SharePoint UPSA agent:
 
         - `SPS-ClaimProviderType` should be set to **Trusted** as Constant type.
-        - `SPS-ClaimProviderID` should be set to the provider name created in [step 1](#1-create-new-claim-provider) by the `New-SPClaimProvider` cmdlet.
+        - `SPS-ClaimProviderID` should be set to the provider name created in [step 1](#1-create-a-new-claim-provider) by the `New-SPClaimProvider` cmdlet.
 
         :::image type="content" source="../media/configure-attribute-flow-2.png" alt-text="Configure Attribute Flow":::
 
