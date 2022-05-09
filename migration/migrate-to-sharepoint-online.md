@@ -22,16 +22,19 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-overview
 - intro-get-started
-description: "This article helps you understand, which tool to use when migrating content to SharePoint and OneDrive in Microsoft 365."
+description: "This article helps you understand which tool to use when migrating content to SharePoint and OneDrive in Microsoft 365."
 ---
 
 # Migrate your content to Microsoft 365
 
 Moving to Microsoft 365? Let us help you migrate your content easily and securely.
 
+## Mover retirement
 
 >[!Important]
->**Attention businesses or those with EDU plans**: We will soon be retiring the legacy [Mover](https://app.mover.io) tool's ability to migrate from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm-egnyte-overview.md). Individuals or students may continue to use the tool.
+>**Attention businesses or those with EDU plans**: We will soon be retiring the legacy [Mover](https://app.mover.io) tool's ability to migrate from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm-egnyte-overview.md). If you are currently in the midst of a Mover migration project, you will not be affected. Only new connectors will not be supported.
+>
+>Individuals or students may continue to use the tool.
 >
 >Please use [Migration Manager](https://aka.ms/ODSP-MM) going forward.
 
