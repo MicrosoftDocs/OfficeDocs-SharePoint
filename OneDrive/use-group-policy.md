@@ -82,6 +82,8 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 
 - (DehydrateSyncedTeamSites) [Convert synced team site files to online-only files](use-group-policy.md#convert-synced-team-site-files-to-online-only-files)
 
+- (DisableAutoConfig) [Prevent authentication from automatically happening](use-group-policy.md#prevent-authentication-from-automatically-happening)
+
 - (DisableCustomRoot) [Prevent users from changing the location of their OneDrive folder](use-group-policy.md#prevent-users-from-changing-the-location-of-their-onedrive-folder)
 
 - (DisableFirstDeleteDialog) [Hide the "Deleted files are removed everywhere" reminder](use-group-policy.md#hide-the-deleted-files-are-removed-everywhere-reminder)
@@ -318,6 +320,19 @@ If you disable or do not configure this setting, users can choose to limit the u
 > [!IMPORTANT]
 > If you enable or disable this setting, and then change it back to Not Configured, the last configuration remains in effect. We recommend enabling this setting instead of "Limit the sync app upload speed to a fixed rate" to limit the upload rate. You should not enable both settings at the same time.
  
+### Prevent authentication from automatically happening
+<a name="DisableAutoConfig"> </a>
+
+This setting determines whether or not the Sync client can automatically sign in.
+
+If you enable this setting, it prevents Sync from automatically signing with an existing AAD credential that is made available to Microsoft applications.
+
+If you disable or do not configure this setting, Sync will automatically sign in.
+  
+Enabling this policy sets the following registry key value to 1:
+  
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"DisableAutoConfig"="dword:00000001"`
+
 ### Prevent the sync app from generating network traffic until users sign in
 <a name="PreventNetworkTrafficPreUserSignIn"> </a>
 
@@ -496,23 +511,23 @@ Enabling this policy sets the following registry keys:
   
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptIn"="1111-2222-3333-4444"`
   
-where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md).
+where "1111-2222-3333-4444" is a String value representing the [tenant ID](find-your-office-365-tenant-id.md).
   
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInWithNotification"`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInWithNotification"="dword:00000001"`
   
 Setting this value to 1 shows a notification after successful redirection.
 
 If you don't set any of the following policies then the default policy will move all the folders (Desktop, Documents and Pictures) into OneDrive.  If you want to specify which folder(s) to move then you can set any combination of the following policies:
 
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInDesktop"`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInDesktop"="dword:00000001"`
   
 Setting this value to 1 will move the Desktop folder.
 
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInDocuments"`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInDocuments"="dword:00000001"`
   
 Setting this value to 1 will move the Documents folder.
 
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInPictures"`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInPictures"="dword:00000001"`
   
 Setting this value to 1 will move the Pictures folder.
 
