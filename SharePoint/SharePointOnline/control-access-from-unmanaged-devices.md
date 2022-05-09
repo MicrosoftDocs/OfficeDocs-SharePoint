@@ -162,6 +162,8 @@ To block or limit access to specific sites, follow these steps. If you have conf
 The following parameters can be used with  `-ConditionalAccessPolicy AllowLimitedAccess` for both the organization-wide setting and the site-level setting: 
   
  `-AllowEditing $false` Prevents users from editing Office files in the browser. 
+ 
+ `-ReadOnlyForUnmanagedDevices $true` Makes the entire site read-only for impacted users. 
   
  `-LimitedAccessFileType OfficeOnlineFilesOnly` Allows users to preview only Office files in the browser. This option increases security but may be a barrier to user productivity. 
   
