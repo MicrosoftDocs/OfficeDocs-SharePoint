@@ -41,7 +41,7 @@ The following diagram outlines the key steps in making our solution work:
      > [!NOTE]
      > You cannot customize the permissions of font organization asset libraries as the fonts are hosted in a public CDN. When uploaded, font asset libraries are available across your entire tenant. Currently, sub-group permissioning of font asset libraries are not supported.
 
-2. Ensure the site permissions for **Everyone except external user** is set to **Read** or **Edit.** 
+2. Ensure the site permissions for **Everyone except external user** are set to **Read** or **Edit.** 
     
     :::image type="content" source="media/sitepermissions.png" alt-text="image of sitepermissions" lightbox="media/sitepermissions.png":::
 

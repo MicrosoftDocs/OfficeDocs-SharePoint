@@ -31,7 +31,7 @@ If your organization needs to store and manage files for all your users to use, 
 
 - **Images such as photos and logos**: When a user adds a web part to any modern page in SharePoint and that web part opens the file picker, the user can select "Your organization" in the left pane to browse the libraries you've specified.
 
-   :::image type="content" source="media/image-library.png" alt-text="Selecting an image to add to a Sharepoint page" lightbox="media/image-library.png":::
+    :::image type="content" source="media/image-library.png" alt-text="image of SharePoint page" lightbox="media/sitepermissions.png":::
 
 - **Office templates**: When a user creates a new Office document, they can select the tab for your organization to see the available templates. The following Office apps are supported:
   - Word, Excel, or PowerPoint desktop apps. Microsoft 365 Apps Version 2002 or later is also required.
@@ -49,7 +49,7 @@ If your organization needs to store and manage files for all your users to use, 
     >   - **PowerPoint**: .potx. [Learn how to save a PowerPoint file in this format](https://support.microsoft.com/office/ee4429ad-2a74-4100-82f7-50f8169c8aca).
     > - Users need at least read permissions on the root site for your organization for the organization assets library to appear in the desktop apps.
 
-   Organization fonts are supported on PowerPoint for the web. [Learn more about support for your organization fonts here](support-for-organization-fonts-in-powerpoint-for-the-web.md)
+   Organization fonts are supported on PowerPoint for the web. [Learn more about support for your organization fonts here.](support-for-organization-fonts-in-PowerPoint-for-the-web.md)
 
 ## Use Microsoft PowerShell to specify a library as an organization assets library
 
