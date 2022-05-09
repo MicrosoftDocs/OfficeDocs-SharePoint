@@ -147,6 +147,4 @@ If you no longer want a specific app to be available for users to add, you can r
 
 [Configure settings for the SharePoint Store](configure-sharepoint-store-settings.md)
   
-[Monitor apps for your SharePoint environment](monitor-apps.md)
-  
 [Add an app to a site](https://support.office.com/article/ef9c0dbd-7fe1-4715-a1b0-fe3bc81317cb)
