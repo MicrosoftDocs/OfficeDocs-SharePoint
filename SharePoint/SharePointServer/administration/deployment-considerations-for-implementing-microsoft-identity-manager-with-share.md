@@ -1,5 +1,5 @@
 ---
-title: "Deployment considerations for implementing Microsoft Identity Manager with SharePoint Servers 2016 and 2019"
+title: "Deployment considerations for implementing Microsoft Identity Manager with SharePoint Servers"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -17,9 +17,9 @@ ms.assetid: 5020140d-24c4-4817-8bb4-05e1c225d1f2
 description: "Learn about deployment considerations of a Microsoft Identity Manager (MIM) deployment in a SharePoint Server farm."
 ---
 
-# Deployment considerations for implementing Microsoft Identity Manager with SharePoint Servers 2016 and 2019
+# Deployment considerations for implementing Microsoft Identity Manager with SharePoint Servers
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
  
 To increase your chances of a successful MIM deployment in SharePoint Server, follow these recommendations:
   
@@ -77,7 +77,7 @@ Use the deletion threshold setting to limit the number of accidental deletions t
   
 ## Use Search Connector Space to examine objects
 
-With Search Connector Space, you can search for objects in the connector space for a management agent. You can locate objects by name or error status, or by the state of the object (that is, whether it is connected, disconnected, or waiting to be imported or exported). 
+With Search Connector Space, you can search for objects in the connector space for a management agent. You can locate objects by name or error status, or by the state of the object (that is, whether it is connected, disconnected, or waiting to be imported or exported).
   
 ## Use Preview to test synchronizations and troubleshoot errors
 
@@ -92,7 +92,7 @@ Objects that fail to join are not reevaluated by the Delta Import and Delta Sync
 Operations records a history of every management agent run. Each management agent run history is saved in the SQL Server database, and can cause the database to grow over time, affecting performance. The run history can be saved using Operations. For additional information on how to use Operations, see [Using Operations](/previous-versions/mim/jj590289(v=ws.10)).
   
 > [!NOTE]
-> Deleting very large numbers of runs at once make take considerable time. it is recommended that you delete no more than 100 runs at a time. 
+> Deleting very large numbers of runs at once make take considerable time. It is recommended that you delete no more than 100 runs at a time.
   
 ## Use multiple partitions in a management agent to control synchronization of single object types
 
@@ -130,10 +130,10 @@ If you plan to use the MIM Synchronization service, do not select it. Instead se
   
 ## Do not switch between synchronization types
 
-If you switch from one synchronization type to another by using the **Configure Synchronization Settings** in the the SharePoint Central Administration website, you will experience issues with no objects being returned when an import on the SharePoint Connector instance is started, and no results in the ULS logs. 
+If you switch from one synchronization type to another by using the **Configure Synchronization Settings** in the SharePoint Central Administration website, you will experience issues with no objects being returned when an import on the SharePoint Connector instance is started, and no results in the ULS logs. 
   
 To recover from switching of types, in the **Recovery Steps** section, see [SharePoint 2016 : Issues due to Switching Between Synchronization Types in UPA AD Import / External Identity Manager (MIM)](/archive/blogs/spses/sharepoint-2016-issues-due-to-switching-between-synchronization-types-in-upa-ad-import-external-identity-manager-mim)
-  
+
 ## Picture export From SharePoint to Active Directory
 
 Microsoft Identity Manager supports exporting user profile pictures from SharePoint to Active Directory.
@@ -144,7 +144,7 @@ There is no Business Connectivity Services integration to support profile proper
   
 ## User Profile properties
 
-New user profile properties can be created in SharePoint Server 2016, however the mappings are not created in SharePoint, but within MIM.
+New user profile properties can be created in SharePoint Servers; however, the mappings are not created in SharePoint, but within MIM.
   
 ## NetBios name
 
@@ -158,4 +158,4 @@ As synchronization will often include personally identifiable information, it is
 
 #### Other Resources
 
-[Overview of Microsoft Identity Manager Synchronization Service in SharePoint Server 2016](overview-of-microsoft-identity-manager-synchronization-service-in-sharepoint-ser.md)
+[Overview of Microsoft Identity Manager Synchronization Service in SharePoint Servers](overview-of-microsoft-identity-manager-synchronization-service-in-sharepoint-ser.md#overview-of-microsoft-identity-manager-synchronization-service-in-sharepoint-servers)
