@@ -36,7 +36,7 @@ If your organization needs to store and manage files for all your users to use, 
 - **Office templates**: When a user creates a new Office document, they can select the tab for your organization to see the available templates. The following Office apps are supported:
   - Word, Excel, or PowerPoint desktop apps. Microsoft 365 Apps Version 2002 or later is also required.
 
-    :::image type="content" source="media/officetemplatelibrary.png" alt-text="image of template" lightbox="media/officetemplatelibrary.png":::
+    :::image type="content" source="media/trail.png" alt-text="image of template" lightbox="media/trail.png":::
 
   - PowerPoint on the web. Templates aren't available from the **New** menu. Instead, users need to go to the PowerPoint start page and select **Office Template Library**. For the organization assets library to appear to a user in PowerPoint on the web, the user must be assigned a license to Office 365 E3 or E5.
 
