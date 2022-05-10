@@ -27,7 +27,7 @@ To increase your chances of a successful MIM deployment in SharePoint Server, fo
 
 Plan, plan, and then plan some more. This step can't be overstated enough. Most failed synchronization can be attributed to a lack of planning.
   
-Proper setup of the MIM Synchronization Service in your test lab and careful planning of your migration from test lab to production is essential to minimizing deployment problems. It is recommended that you use a small test environment, in order to not waste time processing thousands of objects when you test new rules.
+Proper setup of the MIM Synchronization Service in your test lab and careful planning of your migration from test lab to production is essential to minimizing deployment problems. It's recommended that you use a small test environment, to avoid processing thousands of objects when you test new rules.
   
 ## Back up your initial test environment
 
@@ -35,18 +35,18 @@ After the MIM is installed and your management agents are created, back up the M
   
 ## Test your back up and restore procedures for MIM
 
-Regular backup procedures are essential for protecting your data from accidental loss. It is also strongly recommended that you test your backup and restore procedures before an emergency occurs. To back up and restore MIM, use the backup tools provided with Windows Server 2012 R2 operating system and SQL Server 2014.
+Regular backup procedures are essential for protecting your data from accidental loss. It's also recommended that you test your backup and restore procedures before an emergency occurs. To back up and restore MIM, use the backup tools provided with Windows Server 2012 R2 operating system and SQL Server 2014.
   
 ## Install MIM Synchronization Service and SQL Server in the same domain
 
-During MIM Synchronization Setup, the remote database access depends on the access rights of the current logon account that you are using to run Setup. Ensure that the server running Windows Server 2012 R2 operating system that hosts MIM and the server that hosts SQL Server are in the same domain and that the account that you are using to run Setup has access rights to the server that hosts SQL Server.
+During MIM Synchronization Setup, the remote database access depends on the access rights of the current logon account that you're using to run Setup. Ensure that the server running Windows Server 2012 R2 operating system that hosts MIM and the server that hosts SQL Server are in the same domain and that the account that you're using to run Setup has access rights to the server that hosts SQL Server.
   
 ## Set access rights if SQL Server is installed on a remote server
 
 If you install SQL Server on a remote computer, that is, on a different computer than the one running MIM, be sure that the policy for the SQL Server service account allows users access to that computer from the network. If access is not allowed, MIM setup will fail.
   
 > [!IMPORTANT]
-> If you install SQL Server on a remote computer and allow network access to the remote computer, you will receive a security warning from MIM setup. For this scenario, the warning can be ignored. 
+> If you install SQL Server on a remote computer and allow network access to the remote computer, you'll receive a security warning from MIM setup. For this scenario, the warning can be ignored. 
   
 ## Specify the TCP/IP port for a remote server running SQL Server
 
@@ -69,7 +69,7 @@ Use the state of an object to determine the next step in synchronizing the objec
   
 ## Disable provisioning when you migrate connected data sources to the metaverse for the first time
 
-When you deploy MIM for the first time, it is recommended that you migrate and join all connected data sources before you enable provisioning. After you have verified that everything has been successfully migrated and joined, you can enable provisioning and run a Full Synchronization of the management agents to apply the provisioning rules to all connected objects. For additional information on how to configure provisioning rules, see [Provisioning Rules](/previous-versions/mim/jj590298(v=ws.10))
+When you deploy MIM for the first time, it's recommended that you migrate and join all connected data sources before you enable provisioning. After you've verified that everything has been successfully migrated and joined, you can enable provisioning and run a Full Synchronization of the management agents to apply the provisioning rules to all connected objects. For additional information on how to configure provisioning rules, see [Provisioning Rules](/previous-versions/mim/jj590298(v=ws.10))
   
 ## Set a deletion threshold in your run profile steps to limit the number of accidental deletions
 
@@ -77,7 +77,7 @@ Use the deletion threshold setting to limit the number of accidental deletions t
   
 ## Use Search Connector Space to examine objects
 
-With Search Connector Space, you can search for objects in the connector space for a management agent. You can locate objects by name or error status, or by the state of the object (that is, whether it is connected, disconnected, or waiting to be imported or exported).
+With Search Connector Space, you can search for objects in the connector space for a management agent. You can locate objects by name or error status, or by the state of the object (that is, whether it's connected, disconnected, or waiting to be imported or exported).
   
 ## Use Preview to test synchronizations and troubleshoot errors
 
@@ -92,19 +92,19 @@ Objects that fail to join are not reevaluated by the Delta Import and Delta Sync
 Operations records a history of every management agent run. Each management agent run history is saved in the SQL Server database, and can cause the database to grow over time, affecting performance. The run history can be saved using Operations. For additional information on how to use Operations, see [Using Operations](/previous-versions/mim/jj590289(v=ws.10)).
   
 > [!NOTE]
-> Deleting very large numbers of runs at once make take considerable time. It is recommended that you delete no more than 100 runs at a time.
+> Deleting very large numbers of runs at once make take considerable time. It's recommended that you delete no more than 100 runs at a time.
   
 ## Use multiple partitions in a management agent to control synchronization of single object types
 
-To control synchronization of single object types in a file-based management agent, create a partition for each object type. For example, to synchronize the object types **mailbox** and **group**, create two partitions in the management agent, and assign **mailbox** to one partition and **group** to the other. Then, create a management agent run profile for each partition. With this configuration, you have one management agent with the flexibility to synchronize one or both of the selected object types. For additional information on how to use partitions, see [The Metaverse and the Connector Space](/previous-versions/mim/jj590171(v=ws.10))
+To control synchronization of single object types in a file-based management agent, create a partition for each object type. For example, to synchronize the object types **mailbox** and **group**, create two partitions in the management agent, and assign **mailbox** to one partition and **group** to the other. Then, create a management agent run profile for each partition. With this configuration, you've one management agent with the flexibility to synchronize one or both of the selected object types. For additional information on how to use partitions, see [The Metaverse and the Connector Space](/previous-versions/mim/jj590171(v=ws.10))
   
 ## Capacity Planning
 
 There are a number of variables that can affect the overall capacity and performance of MIM deployment.
   
-Performance can be negatively impacted if all the databases in the system are created with a smaller size and set to auto-grow especially by small increments. A minimum of 16 GB of RAM for the SQL Servers is required but you will benefit from more memory. You should have at least 16 CPU cores on the SQL servers but additional cores will help overall performance.
+Performance can be negatively impacted if all the databases in the system are created with a smaller size and set to auto-grow especially by small increments. A minimum of 16 GB of RAM for the SQL Servers is required but you'll benefit from more memory. You should have at least 16 CPU cores on the SQL servers but additional cores will help overall performance.
   
-Finally, it is recommended not to run MIM and SharePoint databases together on the same server.
+Finally, it's recommended not to run MIM and SharePoint databases together on the same server.
   
 ## High Availability
 
@@ -130,7 +130,7 @@ If you plan to use the MIM Synchronization service, do not select it. Instead se
   
 ## Do not switch between synchronization types
 
-If you switch from one synchronization type to another by using the **Configure Synchronization Settings** in the SharePoint Central Administration website, you will experience issues with no objects being returned when an import on the SharePoint Connector instance is started, and no results in the ULS logs. 
+If you switch from one synchronization type to another by using the **Configure Synchronization Settings** in the SharePoint Central Administration website, you'll experience issues with no objects being returned when an import on the SharePoint Connector instance is started, and no results in the ULS logs. 
   
 To recover from switching of types, in the **Recovery Steps** section, see [SharePoint 2016 : Issues due to Switching Between Synchronization Types in UPA AD Import / External Identity Manager (MIM)](/archive/blogs/spses/sharepoint-2016-issues-due-to-switching-between-synchronization-types-in-upa-ad-import-external-identity-manager-mim)
 
@@ -152,7 +152,7 @@ If the External Identity Manager is selected, you should enable the **NetBIOSDom
   
 ## Perform synchronization operations over a secure channel
 
-As synchronization will often include personally identifiable information, it is strongly recommended that sync runs are performed over a secure channel such as HTTPS or LDAPS.
+As synchronization will often include personally identifiable information, it's recommended that sync runs are performed over a secure channel such as HTTPS or LDAPS.
   
 ## See also
 
