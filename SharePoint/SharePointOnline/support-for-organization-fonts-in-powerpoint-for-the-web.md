@@ -49,7 +49,7 @@ The following diagram outlines the key steps in making our solution work:
  
 3. Navigate to your site’s home page. From the **New** dropdown menu, select **Create a Document Library** and name your new font library.
 
-   :::image type="content" source="media/new-dropdown.png" alt-text="New drop-down option":::
+   :::image type="content" source="media/new-dropdown.png" alt-text="New drop-down option" lightbox="media/new-dropdown.png":::
 
    :::image type="content" source="media/create-document-library.png" alt-text="Create and name your font library" lightbox="media/create-document-library.png":::
 
