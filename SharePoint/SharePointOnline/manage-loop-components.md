@@ -36,10 +36,10 @@ You'll need the latest version of SharePoint PowerShell module to enable or disa
 
 |Experience|SharePoint organization properties|Notes|
 |:---------|:---------------------------------|:----|
-|Loop components in Teams and Outlook|`IsLoopEnabled` (boolean)<br/>**coming May 2022**|This property controls Loop experiences across the Microsoft 365 experience. Only applies when `IsFluidEnabled` is `True`|
-|Microsoft Whiteboard on OneDrive|`IsWBFluidEnabled` (boolean) |This property controls Microsoft Whiteboard on OneDrive. Only applies when `IsFluidEnabled` is `True`|
-|Microsoft OneNote collaborative Meeting notes|`IsCollabMeetingNotesFluidEnabled` (boolean)|This property controls Microsoft OneNote collaborative Meeting notes. Only applies when `IsFluidEnabled` is `True`|
-|**All Microsoft 365 experiences** powered by Fluid Framework.|`IsFluidEnabled` (boolean)|This core property controls all other experiences powered by Fluid Framework. Setting it to `False` will effectively disable all experiences (everything in this table) in the organization powered by Fluid Framework. Do not use after May - this setting will be deprecated later this year.
+|Loop components in Teams and Outlook|`IsLoopEnabled` (boolean)<br/>**coming May 2022**|This property controls Loop experiences across the Microsoft 365 experience.|
+|Microsoft Whiteboard on OneDrive|`IsWBFluidEnabled` (boolean) |This property controls Microsoft Whiteboard on OneDrive.|
+|Microsoft OneNote collaborative Meeting notes|`IsCollabMeetingNotesFluidEnabled` (boolean)|This property controls Microsoft OneNote collaborative Meeting notes.|
+|**All Microsoft 365 experiences** powered by Fluid Framework.|`IsFluidEnabled` (boolean)|This core property controls all other experiences powered by Fluid Framework. Setting it to `False` will effectively disable all experiences (everything in this table) in the organization powered by Fluid Framework. **Do not use after May - this setting will be deprecated later this year.**
 
 To check your tenant's default file permissions
 1.	Go to the [Microsoft 365 admin center](https://admin.microsoft.com).
