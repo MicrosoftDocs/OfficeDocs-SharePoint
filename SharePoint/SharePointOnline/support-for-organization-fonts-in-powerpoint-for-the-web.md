@@ -51,7 +51,7 @@ The following diagram outlines the key steps in making our solution work:
 
    :::image type="content" source="media/new-dropdown.png" alt-text="New drop-down option" lightbox="media/new-dropdown.png":::
 
-   :::image type="content" source="media/create-documentlibrary.png" alt-text="Create and name your font library" lightbox="media/create-documentlibrary.png":::
+   :::image type="content" source="media/createdocumentlibrary.png" alt-text="Create and name your font library" lightbox="media/createdocumentlibrary.png":::
 
 4. [Download the latest version of the SharePoint Online Management Shell.](https://go.microsoft.com/fwlink/p/?LinkId=255251)
 5. [Connect your SharePoint Management Shell with your administrator username and password.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
