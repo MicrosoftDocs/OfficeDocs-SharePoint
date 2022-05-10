@@ -74,10 +74,3 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 >[!Note]
 >When you migrate your content to Microsoft 365, you are copying the files.  Your source files are not deleted.
-
-**Mover acquisition**
-
->[!Note]
-> Microsoft has acquired **Mover**, a leading provider of cloud file migration, including admin-led and self-service offerings. As customer demand to move content to the cloud continues to grow, Mover will help make it easier than ever for customers to migrate files to Microsoft 365.
-
->Learn more:  [Microsoft acquires Mover to simplify and speed file migration to Microsoft 365](https://blogs.microsoft.com/blog/2019/10/21/microsoft-acquires-mover-to-simplify-and-speed-file-migration-to-microsoft-365/)
