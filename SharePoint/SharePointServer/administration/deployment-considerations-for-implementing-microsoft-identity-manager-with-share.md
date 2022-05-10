@@ -27,7 +27,7 @@ To increase your chances of a successful MIM deployment in SharePoint Server, fo
 
 Plan, plan, and then plan some more. This step can't be overstated enough. Most failed synchronization can be attributed to a lack of planning.
   
-Proper setup of the MIM Synchronization Service in your test lab and careful planning of your migration from test lab to production is essential to minimizing deployment problems. It's recommended that you use a small test environment, to avoid processing thousands of objects when you test new rules.
+Proper setup of the MIM Synchronization Service in your test lab and careful planning of your migration from test lab to production is essential to minimizing deployment problems. It's recommended you use a small test environment, to avoid processing thousands of objects when you test new rules.
   
 ## Back up your initial test environment
 
@@ -54,11 +54,11 @@ If the SQL Server instance that you specify during MIM Setup is on a remote comp
   
 ## Use Export Management Agent to backup management agents whenever you change management agent rules
 
-After you use Export Management Agent, you can then use the **Import Management Agent** command to import a specific version of the individual management agent. You can also export and import management agents by using the **Export Server Configuration** and **Import Server Configuration** commands, but doing so imports all management agents in addition to the metaverse schema. For additional information on how to configure and import, see [Configuring Management Agents](/previous-versions/mim/jj590191(v=ws.10)) and [Importing and Exporting a Server Configuration](/previous-versions/mim/jj590279(v=ws.10))
+After you use Export Management Agent, you can then use the **Import Management Agent** command to import a specific version of the individual management agent. You can also export and import management agents by using the **Export Server Configuration** and **Import Server Configuration** commands, but doing so imports all management agents in addition to the metaverse schema. For more information on how to configure and import, see [Configuring Management Agents](/previous-versions/mim/jj590191(v=ws.10)) and [Importing and Exporting a Server Configuration](/previous-versions/mim/jj590279(v=ws.10))
   
 ## Populate the displayName attribute in the metaverse to make search results easier to identify
 
-When listing objects by using Metaverse Search, MIM returns results identified by the **displayName** attribute. If the **displayName** attribute is not populated, the search results are identified by the globally unique identifier (GUID). For additional information on how to use metaverse search, see [Using Metaverse Search](/previous-versions/mim/jj572785(v=ws.10))
+When listing objects by using Metaverse Search, MIM returns results identified by the **displayName** attribute. If the **displayName** attribute is not populated, the search results are identified by the globally unique identifier (GUID). For more information on how to use metaverse search, see [Using Metaverse Search](/previous-versions/mim/jj572785(v=ws.10))
   
 ## Design your flow rules to act upon the state of an object
 
@@ -69,11 +69,11 @@ Use the state of an object to determine the next step in synchronizing the objec
   
 ## Disable provisioning when you migrate connected data sources to the metaverse for the first time
 
-When you deploy MIM for the first time, it's recommended that you migrate and join all connected data sources before you enable provisioning. After you've verified that everything has been successfully migrated and joined, you can enable provisioning and run a Full Synchronization of the management agents to apply the provisioning rules to all connected objects. For additional information on how to configure provisioning rules, see [Provisioning Rules](/previous-versions/mim/jj590298(v=ws.10))
+When you deploy MIM for the first time, it's recommended you migrate and join all connected data sources before you enable provisioning. After you've verified that everything has been successfully migrated and joined, you can enable provisioning and run a Full Synchronization of the management agents to apply the provisioning rules to all connected objects. For more information on how to configure provisioning rules, see [Provisioning Rules](/previous-versions/mim/jj590298(v=ws.10))
   
 ## Set a deletion threshold in your run profile steps to limit the number of accidental deletions
 
-Use the deletion threshold setting to limit the number of accidental deletions that can occur during import or export. The deletion threshold will stop the management agent, or prevent it from starting, when the threshold limit is reached. For additional information, see [Configuring Management Agents](/previous-versions/mim/jj590191(v=ws.10)).
+Use the deletion threshold setting to limit the number of accidental deletions that can occur during import or export. The deletion threshold will stop the management agent, or prevent it from starting, when the threshold limit is reached. For more information, see [Configuring Management Agents](/previous-versions/mim/jj590191(v=ws.10)).
   
 ## Use Search Connector Space to examine objects
 
@@ -85,24 +85,24 @@ With Preview, you can run test synchronizations and view the results without com
   
 ## Schedule a recurring run profile using the Delta Synchronization step to process disconnectors automatically
 
-Objects that fail to join are not reevaluated by the Delta Import and Delta Synchronization run profile step and might remain as disconnectors. Running a Delta Synchronization step on a regular basis will reevaluates and processes these disconnectors. For additional information on how to run profile steps, see [Configuring Management Agents](/previous-versions/mim/jj590191(v=ws.10)).
+Objects that fail to join are not reevaluated by the Delta Import and Delta Synchronization run profile step and might remain as disconnectors. Running a Delta Synchronization step on a regular basis will reevaluates and processes these disconnectors. For more information on how to run profile steps, see [Configuring Management Agents](/previous-versions/mim/jj590191(v=ws.10)).
   
 ## Save and clear the management agent run history in Operations regularly
 
-Operations records a history of every management agent run. Each management agent run history is saved in the SQL Server database, and can cause the database to grow over time, affecting performance. The run history can be saved using Operations. For additional information on how to use Operations, see [Using Operations](/previous-versions/mim/jj590289(v=ws.10)).
+Operations records a history of every management agent run. Each management agent run history is saved in the SQL Server database, and can cause the database to grow over time, affecting performance. The run history can be saved using Operations. For more information on how to use Operations, see [Using Operations](/previous-versions/mim/jj590289(v=ws.10)).
   
 > [!NOTE]
-> Deleting very large numbers of runs at once make take considerable time. It's recommended that you delete no more than 100 runs at a time.
+> Deleting very large numbers of runs at once make take considerable time. It's recommended you delete no more than 100 runs at a time.
   
 ## Use multiple partitions in a management agent to control synchronization of single object types
 
-To control synchronization of single object types in a file-based management agent, create a partition for each object type. For example, to synchronize the object types **mailbox** and **group**, create two partitions in the management agent, and assign **mailbox** to one partition and **group** to the other. Then, create a management agent run profile for each partition. With this configuration, you've one management agent with the flexibility to synchronize one or both of the selected object types. For additional information on how to use partitions, see [The Metaverse and the Connector Space](/previous-versions/mim/jj590171(v=ws.10))
+To control synchronization of single object types in a file-based management agent, create a partition for each object type. For example, to synchronize the object types **mailbox** and **group**, create two partitions in the management agent, and assign **mailbox** to one partition and **group** to the other. Then, create a management agent run profile for each partition. With this configuration, you've one management agent with the flexibility to synchronize one or both of the selected object types. For more information on how to use partitions, see [The Metaverse and the Connector Space](/previous-versions/mim/jj590171(v=ws.10))
   
 ## Capacity Planning
 
 There are a number of variables that can affect the overall capacity and performance of MIM deployment.
   
-Performance can be negatively impacted if all the databases in the system are created with a smaller size and set to auto-grow especially by small increments. A minimum of 16 GB of RAM for the SQL Servers is required but you'll benefit from more memory. You should have at least 16 CPU cores on the SQL servers but additional cores will help overall performance.
+Performance can be negatively impacted if all the databases in the system are created with a smaller size and set to auto-grow especially by small increments. A minimum of 16 GB of RAM for the SQL Servers is required but you'll benefit from more memory. You should have at least 16 CPU cores on the SQL servers but more cores will help overall performance.
   
 Finally, it's recommended not to run MIM and SharePoint databases together on the same server.
   
@@ -152,7 +152,7 @@ If the External Identity Manager is selected, you should enable the **NetBIOSDom
   
 ## Perform synchronization operations over a secure channel
 
-As synchronization will often include personally identifiable information, it's recommended that sync runs are performed over a secure channel such as HTTPS or LDAPS.
+As synchronization will often include personally identifiable information, it's recommended the sync runs are performed over a secure channel such as HTTPS or LDAPS.
   
 ## See also
 
