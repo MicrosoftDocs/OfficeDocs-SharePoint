@@ -31,12 +31,12 @@ If your organization needs to store and manage files for all your users to use, 
 
 - **Images such as photos and logos**: When a user adds a web part to any modern page in SharePoint and that web part opens the file picker, the user can select "Your organization" in the left pane to browse the libraries you've specified.
 
-   :::image type="content" source="media/sitepermissions.png" alt-text="image of SharePoint page" lightbox="media/sitepermissions.png":::
+   :::image type="content" source="media/image-library.png" alt-text="image of SharePoint page" lightbox="media/image-library.png":::
 
 - **Office templates**: When a user creates a new Office document, they can select the tab for your organization to see the available templates. The following Office apps are supported:
   - Word, Excel, or PowerPoint desktop apps. Microsoft 365 Apps Version 2002 or later is also required.
 
-    :::image type="content" source="media/office-template-library.png" alt-text="image of template" lightbox="media/sitepermissions.png":::
+    :::image type="content" source="media/office-template-library.png" alt-text="image of template" lightbox="media/office-template-library.png":::
 
   - PowerPoint on the web. Templates aren't available from the **New** menu. Instead, users need to go to the PowerPoint start page and select **Office Template Library**. For the organization assets library to appear to a user in PowerPoint on the web, the user must be assigned a license to Office 365 E3 or E5.
 
