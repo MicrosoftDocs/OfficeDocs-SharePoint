@@ -24,9 +24,6 @@ description: "Overview of how to migrate your Egnyte content using Migration Man
 ---
 # Overview: Migrate Egnyte using Migration Manager
 
->[!Note]
->This release currently supports the migration of up to approximately 10,000 Egnyte accounts in a single migration. For larger migrations, we recommend you connect with [FastTrack](https://www.microsoft.com/fasttrack).
-
 Collaborate all in one place by migrating your Egnyte documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
 ![Migration Manager main landing page](media/mm-egnyte-landing.png)
