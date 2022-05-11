@@ -158,4 +158,4 @@ As synchronization will often include personally identifiable information, it's 
 
 #### Other Resources
 
-[Overview of Microsoft Identity Manager Synchronization Service in SharePoint Servers](overview-of-microsoft-identity-manager-synchronization-service-in-sharepoint-ser.md#overview-of-microsoft-identity-manager-synchronization-service-in-sharepoint-servers)
+[Overview of Microsoft Identity Manager Synchronization Service in SharePoint Server](overview-of-microsoft-identity-manager-synchronization-service-in-sharepoint-ser.md#overview-of-microsoft-identity-manager-synchronization-service-in-sharepoint-server)
