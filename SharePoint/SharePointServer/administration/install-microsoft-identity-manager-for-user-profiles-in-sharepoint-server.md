@@ -1,5 +1,5 @@
 ---
-title: "Install Microsoft Identity Manager for User Profiles in SharePoint Servers"
+title: "Install Microsoft Identity Manager for User Profiles in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -17,7 +17,7 @@ ms.assetid: 84972766-6527-4791-ae68-02d3a50b67f0
 description: "Learn about Microsoft Identity Manager (MIM) and how it's used for importing user profile information in SharePoint Server."
 ---
 
-# Install Microsoft Identity Manager for User Profiles in SharePoint Servers
+# Install Microsoft Identity Manager for User Profiles in SharePoint Server
 
 [!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
   

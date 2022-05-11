@@ -1,5 +1,5 @@
 ---
-title: "Use a sample MIM solution in SharePoint Servers"
+title: "Use a sample MIM solution in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -18,7 +18,7 @@ ms.assetid: b4c2dace-97fc-43c7-8991-44279a4fe05d
 description: "How to configure SharePoint Server profile synchronization with Microsoft Identity Manager (MIM)."
 ---
 
-# Use a sample MIM solution in SharePoint Servers
+# Use a sample MIM solution in SharePoint Server
 
 [!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
   

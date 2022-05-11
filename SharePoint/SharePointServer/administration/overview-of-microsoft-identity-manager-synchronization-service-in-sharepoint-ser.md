@@ -1,5 +1,5 @@
 ---
-title: "Overview of Microsoft Identity Manager Synchronization Service in SharePoint Servers"
+title: "Overview of Microsoft Identity Manager Synchronization Service in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -18,7 +18,7 @@ ms.assetid: dee7c975-5738-494f-bf70-31b0e0bc8206
 description: "Learn about the MIM Synchronization service that is used in a SharePoint Server farm."
 ---
 
-# Overview of Microsoft Identity Manager Synchronization Service in SharePoint Servers
+# Overview of Microsoft Identity Manager Synchronization Service in SharePoint Server
 
 [!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)] 
   

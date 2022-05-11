@@ -1,5 +1,5 @@
 ---
-title: "Deployment considerations for implementing Microsoft Identity Manager with SharePoint Servers"
+title: "Deployment considerations for implementing Microsoft Identity Manager with SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -17,7 +17,7 @@ ms.assetid: 5020140d-24c4-4817-8bb4-05e1c225d1f2
 description: "Learn about deployment considerations of a Microsoft Identity Manager (MIM) deployment in a SharePoint Server farm."
 ---
 
-# Deployment considerations for implementing Microsoft Identity Manager with SharePoint Servers
+# Deployment considerations for implementing Microsoft Identity Manager with SharePoint Server
 
 [!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
  

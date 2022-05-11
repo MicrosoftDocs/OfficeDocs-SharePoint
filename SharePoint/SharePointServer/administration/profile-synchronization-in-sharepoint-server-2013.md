@@ -65,9 +65,9 @@ If you need capabilities that go beyond what SharePoint Active Directory Import 
   
 To learn how to configure MIM for use with SharePoint Server 2016, see the following resources:
   
-- [Install Microsoft Identity Manager for User Profiles in SharePoint Server 2016](install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server-2016.md)
+- [Install Microsoft Identity Manager for User Profiles in SharePoint Server](install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server.md)
     
-- [Use a sample MIM solution in SharePoint Server 2016](use-a-sample-mim-solution-in-sharepoint-server-2016.md)
+- [Use a sample MIM solution in SharePoint Server](use-a-sample-mim-solution-in-sharepoint-server.md)
     
 ### Hybrid profiles
 <a name="MIM"> </a>
