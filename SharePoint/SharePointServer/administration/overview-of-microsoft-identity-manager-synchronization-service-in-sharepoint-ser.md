@@ -79,11 +79,11 @@ The data is synchronized between Active Directory and the metaverse by using the
 ## How do I use these concepts?
 <a name="BKMK_WhatIsMIM1"> </a>
 
-Now that you have a basic understanding of the general terms of an identity manager and how the MIM Synchronization Service works in SharePoint Server, the next thing you probably want to know is how to install a working MIM solution in SharePoint Server. [Installing Microsoft Identity Manager (MIM)](install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server.md#installing-microsoft-identity-manager-mim) describes how to install MIM, and [Use a sample MIM solution in SharePoint Servers](use-a-sample-mim-solution-in-sharepoint-server.md#use-a-sample-mim-solution-in-sharepoint-servers) shows how to use a sample MIM solution.
+Now that you have a basic understanding of the general terms of an identity manager and how the MIM Synchronization Service works in SharePoint Server, the next thing you probably want to know is how to install a working MIM solution in SharePoint Server. [Installing Microsoft Identity Manager (MIM)](install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server.md#installing-microsoft-identity-manager-mim) describes how to install MIM, and [Use a sample MIM solution in SharePoint Servers](use-a-sample-mim-solution-in-sharepoint-server.md#use-a-sample-mim-solution-in-sharepoint-server) shows how to use a sample MIM solution.
   
 ## See also
 <a name="BKMK_WhatIsMIM1"> </a>
 
 #### Other Resources
 
-[Deployment considerations for implementing Microsoft Identity Manager with SharePoint Servers](deployment-considerations-for-implementing-microsoft-identity-manager-with-share.md#deployment-considerations-for-implementing-microsoft-identity-manager-with-sharepoint-servers)
+[Deployment considerations for implementing Microsoft Identity Manager with SharePoint Server](deployment-considerations-for-implementing-microsoft-identity-manager-with-share.md#deployment-considerations-for-implementing-microsoft-identity-manager-with-sharepoint-server)
