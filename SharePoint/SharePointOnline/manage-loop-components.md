@@ -46,13 +46,13 @@ To check your tenant's default file permissions
 2.	Under Admin centers, select **SharePoint**.
 3.	Select **Policies** > **Sharing**, and under **File and folder links**, view your organization's default file permissions.
 
-To check if the Fluid Framework is enabled, run `Get-SPOTenant` without any arguments. Verify the value of IsFluidEnabled is true.
+To check if Loop components are enabled, run `Get-SPOTenant` without any arguments. Verify the value of IsLoopEnabled is true.
 
-To enable the Fluid Framework, run `Set-SPOTenant -IsFluidEnabled $true`. The change will take a short time to apply across your organization. 
+To enable Loop components, run `Set-SPOTenant -IsLoopEnabled $true`. The change will take a short time to apply across your organization. 
 
 The feature will be available on Teams Windows Desktop, Mac, iOS, Android, and web. When enabled, users will see a new option for inserting Loop components in the message compose experience for these clients.
 
-To disable Fluid Framework, run `Set-SPOTenant -IsFluidEnabled $false`. The change will take a short time to apply across your organization. 
+To disable Loop components, run `Set-SPOTenant -IsLoopEnabled $false`. The change will take a short time to apply across your organization. 
 
 ## eDiscovery
 
