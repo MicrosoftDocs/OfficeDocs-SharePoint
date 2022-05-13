@@ -196,7 +196,7 @@ New-ADUser -SamAccountName sp_farm_db -AccountPassword (read-host "Set user pass
 
 You will be prompted to supply the password for the sp_farm_db account. Record the password in a secure location.
   
-Next, to create the SharePoint Server 2016 virtual machine with Azure PowerShell, supply the values of the variables. Then, run the resulting block at the Azure PowerShell prompt on your local computer:
+Next, to create the SharePoint Server virtual machine with Azure PowerShell, supply the values of the variables. Then, run the resulting block at the Azure PowerShell prompt on your local computer:
   
 ```
 # Set up key variables
@@ -316,12 +316,12 @@ Your emulated intranet SharePoint Server farm running in Azure is now ready for 
   
 ## Next steps
 
-When you are ready to design a production SharePoint Server farm in Azure, see [Designing a SharePoint Server farm in Azure](designing-a-sharepoint-server-2016-farm-in-azure.md).
+When you are ready to design a production SharePoint Server farm in Azure, see [Designing a SharePoint Server farm in Azure](designing-a-sharepoint-server-farm-in-azure.md).
   
 When you are ready to deploy a production-ready, high availability SharePoint Server farm in Azure, see [Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md).
   
 ## See also
 
-- [SharePoint Server dev/test environment in Azure](sharepoint-server-2016-dev-test-environment-in-azure.md)
-- [SharePoint Server in Microsoft Azure](sharepoint-server-2016-in-microsoft-azure.md)
-- [Designing a SharePoint Server farm in Azure](designing-a-sharepoint-server-2016-farm-in-azure.md)
+- [SharePoint Server dev/test environment in Azure](sharepoint-server-dev-test-environment-in-azure.md)
+- [SharePoint Server in Microsoft Azure](sharepoint-server-in-microsoft-azure.md)
+- [Designing a SharePoint Server farm in Azure](designing-a-sharepoint-server-farm-in-azure.md)
