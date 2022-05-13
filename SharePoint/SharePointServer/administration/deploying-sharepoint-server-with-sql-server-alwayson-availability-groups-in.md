@@ -1,5 +1,5 @@
 ---
-title: "Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure"
+title: "Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure"
 ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
@@ -22,11 +22,11 @@ ms.assetid: af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2
 description: "Get an overview of deploying SharePoint Server in Microsoft Azure with links to each phase of the deployment."
 ---
 
-# Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure
+# Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
   
-Step through the deployment an intranet-only, high availability SharePoint Server 2016 farm in Azure with these virtual machines:
+Step through the deployment an intranet-only, high availability SharePoint Server farm in Azure with these virtual machines:
   
 - Two SharePoint front end and distributed cache servers
     
@@ -38,9 +38,9 @@ Step through the deployment an intranet-only, high availability SharePoint Serve
     
 Here is the configuration, with placeholder names for each server.
   
-**An intranet-only, high availability SharePoint Server 2016 farm in Azure**
+**An intranet-only, high availability SharePoint Server farm in Azure**
 
-![Phase 4 of the SharePoint Server 2016 highly-available farm in Azure with SharePoint servers](../media/8f421518-773f-4b4d-8084-005d8a50c38e.png)
+![Phase 4 of the SharePoint Server highly-available farm in Azure with SharePoint servers](../media/8f421518-773f-4b4d-8084-005d8a50c38e.png)
   
 Two virtual machines for each role ensure high availability. All of the virtual machines are in a single cross-premises Azure virtual network. Each group of virtual machines for a specific role is in its own subnet and availability set.
   
@@ -80,7 +80,7 @@ To compute the estimated costs for this configuration, see the [Azure pricing ca
   
 ## Phases of deployment
 
-You deploy this SharePoint Server 2016 farm with the following phases:
+You deploy this SharePoint Server farm with the following phases:
   
 - [SharePoint Intranet Farm in Azure Phase 1: Configure Azure](./sharepoint-intranet-farm-in-azure-phase-1-configure-azure.md)
     
@@ -91,7 +91,7 @@ You deploy this SharePoint Server 2016 farm with the following phases:
     Create and configure replica Windows Server Active Directory (AD) domain controllers
     
     > [!NOTE]
-    > SharePoint Server 2016 also supports the use of [Azure Active Directory (AD) Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview) as a substitute for virtual machines running as domain replicas. However, at this time, this deployment guide only describes the use of virtual machine-based replica domain controllers. 
+    > SharePoint Server also supports the use of [Azure Active Directory (AD) Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview) as a substitute for virtual machines running as domain replicas. However, at this time, this deployment guide only describes the use of virtual machine-based replica domain controllers. 
   
 - [SharePoint Intranet Farm in Azure Phase 3: Configure SQL Server Infrastructure](./sharepoint-intranet-farm-in-azure-phase-3-configure-sql-server-infrastructure.md)
     
@@ -105,13 +105,13 @@ You deploy this SharePoint Server 2016 farm with the following phases:
     
     Prepare databases and create a SQL Server AlwaysOn availability group.
     
-This configuration is a prescriptive, phase-by-phase guide for a predefined architecture to create a highly available intranet SharePoint Server 2016 farm in Azure infrastructure services. Keep the following in mind:
+This configuration is a prescriptive, phase-by-phase guide for a predefined architecture to create a highly available intranet SharePoint Server farm in Azure infrastructure services. Keep the following in mind:
   
 - If you are an experienced SharePoint implementer, feel free to adapt the instructions in phases 3 through 5 and build the farm that best suits your needs. 
     
 - If you already have an existing Azure hybrid cloud deployment, feel free to adapt or skip the instructions in phases 1 and 2 and host the new SharePoint farm on the appropriate set of subnets. 
     
-To build a dev/test environment or a proof-of-concept of this configuration, see [Intranet SharePoint Server 2016 in Azure dev/test environment](intranet-sharepoint-server-2016-in-azure-dev-test-environment.md).
+To build a dev/test environment or a proof-of-concept of this configuration, see [Intranet SharePoint Server in Azure dev/test environment](intranet-sharepoint-server-in-azure-dev-test-environment.md).
   
 ## Next step
 
@@ -124,6 +124,6 @@ Start the configuration with [SharePoint Intranet Farm in Azure Phase 1: Configu
 [Install SharePoint Server](../install/install.md)
 #### Other Resources
 
-[SharePoint Server 2016 in Microsoft Azure](sharepoint-server-2016-in-microsoft-azure.md)
+[SharePoint Server in Microsoft Azure](sharepoint-server-in-microsoft-azure.md)
   
-[Designing a SharePoint Server 2016 farm in Azure](designing-a-sharepoint-server-2016-farm-in-azure.md)
+[Designing a SharePoint Server farm in Azure](designing-a-sharepoint-server-farm-in-azure.md)

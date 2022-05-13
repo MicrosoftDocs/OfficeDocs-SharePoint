@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Server 2016 dev/test environment in Azure"
+title: "SharePoint Server dev/test environment in Azure"
 ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
@@ -21,15 +21,15 @@ ms.assetid: 056e74ea-9428-45f8-abed-1040d8e413dd
 description: "Create a single-server SharePoint 2016 dev/test farm in Microsoft Azure infrastructure services."
 ---
 
-# SharePoint Server 2016 dev/test environment in Azure
+# SharePoint Server dev/test environment in Azure
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)] 
   
-This article steps you through the creation of a SharePoint Server 2016 dev/test farm hosted in Azure. Here is the resulting configuration.
+This article steps you through the creation of a SharePoint Server dev/test farm hosted in Azure. Here is the resulting configuration.
   
-![The completed SharePoint 2016 dev/test farm in Azure infrastructure services](../media/42778e43-80a3-4600-81de-ef1aaecd698f.png)
+![The completed SharePoint dev/test farm in Azure infrastructure services](../media/42778e43-80a3-4600-81de-ef1aaecd698f.png)
   
-This configuration consists of a single-server SharePoint Server 2016 farm in a subnet of an Azure virtual network, which provides a basis and common starting point from which you can demonstrate SharePoint Server 2016 and develop and test SharePoint applications.
+This configuration consists of a single-server SharePoint Server farm in a subnet of an Azure virtual network, which provides a basis and common starting point from which you can demonstrate SharePoint Server 2016 and develop and test SharePoint applications.
   
 There are three major phases to setting up this dev/test environment:
   
@@ -186,7 +186,7 @@ Record the password for the sp_farm_db account in a secure location.
   
 Here is the result of Phase 1.
   
-![Phase 1 of the SharePoint 2016 dev/test farm in Azure infrastructure services](../media/56245462-4b0c-4237-9cca-b4b1040ce95d.png)
+![Phase 1 of the SharePoint dev/test farm in Azure infrastructure services](../media/56245462-4b0c-4237-9cca-b4b1040ce95d.png)
   
 ## Phase 2: Add and configure a SQL Server 2014 virtual machine
 
@@ -291,13 +291,13 @@ Sign out as the local administrator.
   
 Here is the result of Phase 2.
   
-![Phase 2 of the SharePoint 2016 dev/test farm in Azure infrastructure services](../media/9f977bf7-b310-42de-aa8a-4b0dd954b8eb.png)
+![Phase 2 of the SharePoint dev/test farm in Azure infrastructure services](../media/9f977bf7-b310-42de-aa8a-4b0dd954b8eb.png)
   
-## Phase 3: Add and configure a SharePoint Server 2016 virtual machine
+## Phase 3: Add and configure a SharePoint Server virtual machine
 
-In this phase, you create a SharePoint Server 2016 virtual machine in your virtual network, make it a member of the Windows Server AD domain, and then create a new SharePoint farm.
+In this phase, you create a SharePoint Server virtual machine in your virtual network, make it a member of the Windows Server AD domain, and then create a new SharePoint farm.
   
-To create the SharePoint Server 2016 virtual machine with Azure PowerShell, supply the values of the variables. For the **$dnsName** value, you must determine a globally unique name. Then, run the resulting block at your local Azure PowerShell prompt. 
+To create the SharePoint Server virtual machine with Azure PowerShell, supply the values of the variables. For the **$dnsName** value, you must determine a globally unique name. Then, run the resulting block at your local Azure PowerShell prompt. 
   
 ```
 # Set up key variables
@@ -328,9 +328,9 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
 > [!NOTE]
-> This Azure PowerShell command block creates an Azure availability set for the spVM virtual machine. This is done in case you want to add more SharePoint Server 2016 virtual machines to this basic configuration. 
+> This Azure PowerShell command block creates an Azure availability set for the spVM virtual machine. This is done in case you want to add more SharePoint Server virtual machines to this basic configuration. 
   
-### Configure the SharePoint Server 2016 virtual machine
+### Configure the SharePoint Server virtual machine
 
 Connect to the SharePoint virtual machine (spVM) using the credentials of the local administrator account.
   
@@ -421,21 +421,21 @@ Next, you configure an alternate access mapping so that Internet users can acces
     
 Here is the result of Phase 3.
   
-![The completed SharePoint 2016 dev/test farm in Azure infrastructure services](../media/42778e43-80a3-4600-81de-ef1aaecd698f.png)
+![The completed SharePoint dev/test farm in Azure infrastructure services](../media/42778e43-80a3-4600-81de-ef1aaecd698f.png)
   
 From a browser on your local computer, access **http://**\<DNS name of the spVM virtual machine>. When prompted from credentials, use the CORP\\<ADMIN_NAME> account name and password. You should see the default Contoso team site.
   
 ## Next steps
 
-When you are ready to design a production SharePoint Server 2016 farm in Azure, see [Designing a SharePoint Server 2016 farm in Azure](designing-a-sharepoint-server-2016-farm-in-azure.md).
+When you are ready to design a production SharePoint Server farm in Azure, see [Designing a SharePoint Server farm in Azure](designing-a-sharepoint-server-farm-in-azure.md).
   
-When you are ready to deploy a production-ready, high availability SharePoint Server 2016 farm in Azure, see [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md).
+When you are ready to deploy a production-ready, high availability SharePoint Server 2016 farm in Azure, see [Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md).
 
 To start developing Low or High Trust Addins, you must first configure an App Domain. See [Configure an environment for apps for SharePoint Server](configure-an-environment-for-apps-for-sharepoint.md).
   
 ## Stop and start the virtual machines in the farm
 
-Azure virtual machines incur an ongoing cost when they are running. To help minimize the cost of your SharePoint Server 2016 dev/test environment, use these commands to stop the virtual machines:
+Azure virtual machines incur an ongoing cost when they are running. To help minimize the cost of your SharePoint Server dev/test environment, use these commands to stop the virtual machines:
   
 ```
 $rgName="<your resource group name>"
@@ -462,8 +462,8 @@ Start-AzVM -Name spVM -ResourceGroupName $rgName
 [Install SharePoint Server](../install/install.md)
 #### Other Resources
 
-[Designing a SharePoint Server 2016 farm in Azure](designing-a-sharepoint-server-2016-farm-in-azure.md)
+[Designing a SharePoint Server farm in Azure](designing-a-sharepoint-server-farm-in-azure.md)
   
-[Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md)
+[Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md)
 
 [Cloud adoption Test Lab Guides (TLGs)](/office365/enterprise/cloud-adoption-test-lab-guides-tlgs) 
