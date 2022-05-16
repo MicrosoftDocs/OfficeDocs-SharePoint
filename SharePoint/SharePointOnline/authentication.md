@@ -1,7 +1,7 @@
 ---
 title: "SharePoint authentication"
 ms.reviewer: 
-ms.author: kelleyvice
+ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 recommendations: true
