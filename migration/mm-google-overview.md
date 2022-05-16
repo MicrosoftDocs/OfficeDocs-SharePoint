@@ -23,11 +23,6 @@ description: Overview of how to migrate from Google Workspace to Microsoft 365 w
 
 # Migrate Google Workspace to Microsoft 365 with Migration Manager
 
->[!Note]
->This release currently supports the migration of up to approximately 10,000 Google Workspace accounts in a single migration. For larger migrations, we recommend you connect with [FastTrack](https://www.microsoft.com/fasttrack).
-
->[!Important]
->**Google**: The legacy Mover.io tool doesn't support new Google connectors. Use **Migration Manager** for migrating from Google Workspace.
 
 Collaborate all in one place by migrating your Google documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
