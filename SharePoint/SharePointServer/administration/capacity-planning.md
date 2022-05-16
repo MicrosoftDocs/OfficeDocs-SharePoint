@@ -45,26 +45,26 @@ This section can help you understand some specific metrics and parameters you sh
 
 Workload describes the demand that the system will need to sustain, the user base and usage characteristics. The following table provides some key metrics that are helpful in determining your workload. You can use this table to record these metrics as you collect them.
   
-|**Workload Characteristics**|**Value**|
+|Workload Characteristics|Value|
 |:-----|:-----|
-|Average daily RPS  <br/> |-|
-|Average RPS at peak time  <br/> |-|
-|Total number of unique users per day  <br/> |-|
-|Average daily concurrent users  <br/> |-|
-|Peak concurrent users at peak time  <br/> |-|
-|Total number of requests per day  <br/> |-|
-|Expected workload distribution  <br/> |No. of Requests per day  <br/> |%  <br/> |
-|Web Browser - Search Crawl  <br/> |-|
-|Web Browser - General Collaboration Interaction  <br/> |-|
-|Web Browser - Social Interaction  <br/> |-|
-|Web Browser - General Interaction  <br/> |-|
-|Web Browser - Office Web Apps  <br/> |-|
-|Office Clients  <br/> |-|
-|OneNote Client  <br/> |-|
-|SharePoint Workspace  <br/> |-|
-|Outlook RSS Sync  <br/> |-|
-|Outlook Social Connector  <br/> |-|
-|Other interactions(Custom Applications/Web services)  <br/> |-|
+|Average daily RPS |-|
+|Average RPS at peak time |-|
+|Total number of unique users per day |-|
+|Average daily concurrent users |-|
+|Peak concurrent users at peak time |-|
+|Total number of requests per day |-|
+|Expected workload distribution |No. of Requests per day |% |
+|Web Browser - Search Crawl |-|
+|Web Browser - General Collaboration Interaction |-|
+|Web Browser - Social Interaction |-|
+|Web Browser - General Interaction |-|
+|Web Browser - Office Web Apps |-|
+|Office Clients |-|
+|OneNote Client |-|
+|SharePoint Workspace |-|
+|Outlook RSS Sync |-|
+|Outlook Social Connector |-|
+|Other interactions(Custom Applications/Web services) |-|
    
 - **Concurrent users** - It is most common to measure the concurrency of operations executed on the server farm as the number of distinct users generating requests in a given time frame. The key metrics are the daily average and the concurrent users at peak load. 
     
