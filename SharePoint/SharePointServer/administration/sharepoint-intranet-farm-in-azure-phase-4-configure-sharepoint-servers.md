@@ -1,7 +1,7 @@
 ---
 title: "SharePoint Intranet Farm in Azure Phase 4 Configure SharePoint servers"
 ms.reviewer: 
-ms.author: kelley.vice
+ms.author: kelleyvice
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/06/2018

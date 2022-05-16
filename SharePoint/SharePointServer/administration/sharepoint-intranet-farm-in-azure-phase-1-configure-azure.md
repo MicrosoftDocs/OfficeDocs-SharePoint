@@ -1,7 +1,7 @@
 ---
 title: "SharePoint Intranet Farm in Azure Phase 1 Configure Azure"
 ms.reviewer: 
-ms.author: kelley.vice
+ms.author: kelleyvice
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 03/15/2019
