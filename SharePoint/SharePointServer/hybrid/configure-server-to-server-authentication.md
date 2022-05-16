@@ -238,7 +238,7 @@ New-MsolServicePrincipalCredential -AppPrincipalId $spoappid -Type asymmetric -U
 #### Step 3: Add an SPN for your public domain name to Azure Active Directory
 <a name="step5"> </a>
 
-In this step, you add a service principal name (SPN) to your Azure Active Directory tenant. The SPN is comprised of the SharePoint in Microsoft 365 principal object and your company's public DNS namespace.
+In this step, you add a service principal name (SPN) to your Azure Active Directory tenant. The SharePoint in Microsoft 365 principal object and your company's public DNS namespace form the SPN. 
   
 Just like SPNs function in Active Directory, creating this SPN registers an object in Azure Active Directory that is used to support mutual authentication between SharePoint Server and SharePoint in Microsoft 365. The basic syntax for the SPN is:
   
