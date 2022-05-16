@@ -1,7 +1,7 @@
 ---
 title: "SharePoint Intranet Farm in Azure Phase 2 Configure domain controllers"
 ms.reviewer: 
-ms.author: josephd
+ms.author: kelley.vice
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/06/2018
