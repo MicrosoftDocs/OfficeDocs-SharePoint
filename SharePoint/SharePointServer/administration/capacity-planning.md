@@ -20,24 +20,24 @@ description: "Learn how to plan and manage capacity and performance for SharePoi
 
 [!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
-This article describes how to plan the capacity of a SharePoint Server 2013 farm. When you have a good appreciation and understanding of capacity planning and management, you can apply your knowledge to system sizing. Sizing is the term used to describe the selection and configuration of appropriate data architecture, logical and physical topology, and hardware for a solution platform. There is a range of capacity management and usage considerations that affect how you should determine the most appropriate hardware and configuration options.
+This article describes how to plan the capacity of a SharePoint Server 2013 farm. When you have a good appreciation and understanding of capacity planning and management, you can apply your knowledge to system sizing. Sizing is the term used to describe the selection and configuration of appropriate data architecture, logical and physical topology, and hardware for a solution platform. There's a range of capacity management and usage considerations that affect how you should determine the most appropriate hardware and configuration options.
   
 Before you read this article, you should read [Capacity management and sizing overview for SharePoint Server 2013](/previous-versions/office/ff758647(v=office.15)).
   
 > [!IMPORTANT]
 > Some information and values in this article are based on test results and other information related to SharePoint 2010 Products and may not represent the final values for SharePoint Server 2013. 
   
-In this article, we describe the steps you should take to undertake effective capacity management for your environment. Each step requires certain information for successful execution, and has a set of deliverables that you will use in the subsequent step. For each step, these requirements and deliverables are outlined in tables.
+In this article, we describe the steps you should take to undertake effective capacity management for your environment. Each step requires certain information for successful execution, and has a set of deliverables that you'll use in the subsequent step. For each step, these requirements and deliverables are outlined in tables.
   
     
 ## Step 1: Model
 <a name="step1"> </a>
 
-Modeling your SharePoint Server 2013-based environment begins with analyzing your existing solutions and estimating the expected demand and targets for the deployment you are planning to set up. You start by gathering information about your user base, data requirements, latency and throughput targets, and document the SharePoint Server 2013 features you want to deploy. Use this section to understand what data you should collect, how to collect it, and how it can be used in subsequent steps. 
+Modeling your SharePoint Server 2013-based environment begins with analyzing your existing solutions and estimating the expected demand and targets for the deployment you're planning to set up. You start by gathering information about your user base, data requirements, latency and throughput targets, and document the SharePoint Server 2013 features you want to deploy. Use this section to understand what data you should collect, how to collect it, and how it can be used in subsequent steps. 
   
 ### Understand your expected workload and dataset
 
-Proper sizing of a SharePoint Server 2013 implementation requires that you study and understand the demand characteristics that your solution is expected to handle. Understanding the demand requires that you will be able to describe both the workload characteristics such as number of users and the most frequently used operations, and dataset characteristics such as content size and content distribution.
+Proper sizing of a SharePoint Server 2013 implementation requires that you study and understand the demand characteristics that your solution is expected to handle. Understanding the demand requires that you'll be able to describe both the workload characteristics such as number of users and the most frequently used operations, and dataset characteristics such as content size and content distribution.
   
 This section can help you understand some specific metrics and parameters you should collect and mechanisms by which they can be collected. 
   
@@ -79,7 +79,7 @@ Workload describes the demand that the system will need to sustain, the user bas
   
 - **Workload Distribution** - Understanding the distribution of the requests based on the client's applications that are interacting with the farm can help predict the expected trend and load changes after migrating to SharePoint Server 2013. As users transition to more recent client versions such as Office 2013, and start using the new capabilities new load patterns, RPS, and total requests are expected to grow. For each client, we can describe the number of distinct users using it in a time frame of a day, and the number of total requests that the client or feature generates on the server. 
     
-    For example, the chart below shows a snapshot of a live internal Microsoft environment serving a typical social solution. In this example, you can see that most of the load is generated by the search crawler and typical end-user web browsing. You can also observe that there is significant load introduced by the Outlook Social Connector feature (6.2 percent of the requests).
+    For example, the chart below shows a snapshot of a live internal Microsoft environment serving a typical social solution. In this example, you can see that most of the load is generated by the search crawler and typical end-user web browsing. You can also observe that there's significant load introduced by the Outlook Social Connector feature (6.2 percent of the requests).
     
      ![Typical daily load distribution of requests](../media/Capacity-typicaldailyloaddistributionofrequests-users.gif)
   
@@ -97,9 +97,9 @@ To estimate your expected workload, collect the following information:
     
 - Identify system operations such as Search incremental crawls, daily backups, profile sync timer jobs, web analytics processing, logging timer jobs and others.
     
-- Estimate the total number of users per day that are expected to utilize each capability, derive the estimated concurrent users and high-level Requests per second, there are some assumptions you will be making such as present concurrency and the factor of RPS per concurrent users that is different across capabilities, you should use the workload table earlier in this section for your estimates. It is important to focus on peak hours, rather than average throughput. Planning for peak activity, you are able to proper size your SharePoint Server 2013-based solution.
+- Estimate the total number of users per day that are expected to utilize each capability, derive the estimated concurrent users and high-level Requests per second, there are some assumptions you'll be making such as present concurrency and the factor of RPS per concurrent users that is different across capabilities, you should use the workload table earlier in this section for your estimates. It is important to focus on peak hours, rather than average throughput. Planning for peak activity, you're able to proper size your SharePoint Server 2013-based solution.
     
-If you have an existing Office SharePoint Server 2007 solution, you can mine the IIS log files or look to other Web monitoring tools you have to better understand some of the expected behaviors from the existing solution or see the instructions in the section below for more details. If you are not migrating from an existing solution, you should fill out the table using rough estimates. In later steps, you will need to validate your assumptions and tune the system.
+If you have an existing Office SharePoint Server 2007 solution, you can mine the IIS log files or look to other Web monitoring tools you have to better understand some of the expected behaviors from the existing solution or see the instructions in the section below for more details. If you're not migrating from an existing solution, you should fill out the table using rough estimates. In later steps, you'll need to validate your assumptions and tune the system.
   
 #### Analyzing your SharePoint Server 2013 IIS Logs
 
@@ -125,11 +125,11 @@ Dataset describes the volume of content stored in the system and how it can be d
 |Largest site size  <br/> ||
 |Number of user profiles  <br/> ||
    
-- **Content size** - Understanding the size of the content that you expect to store in the SharePoint Server 2013 system is important for planning and architecting the system storage, and also for properly sizing the Search solution that will crawl and index this content. The content size is described in total disk space. If you are migrating content from an existing deployment, you might find it simple to identify the total size that you will move; while planning you should leave room for growth over time based on the predicted trend.
+- **Content size** - Understanding the size of the content that you expect to store in the SharePoint Server 2013 system is important for planning and architecting the system storage, and also for properly sizing the Search solution that will crawl and index this content. The content size is described in total disk space. If you're migrating content from an existing deployment, you might find it simple to identify the total size that you'll move; while planning you should leave room for growth over time based on the predicted trend.
 
-- Total number of documents - Other than the data corpus size, it is important to track the overall number of items. The system reacts differently if 100 GB of data is composed of 50 files of 2 GB each versus 100,000 files of 1 KB each. In large deployments, the less stress there is on a single item, document, or area of documents, the better performance will be. Widely distributed content like multiple smaller files across many sites and site collection is easier to serve then a single large document library with large files.
+- Total number of documents - Other than the data corpus size, it is important to track the overall number of items. The system reacts differently if 100 GB of data is composed of 50 files of 2 GB each versus 100,000 files of 1 KB each. In large deployments, the less stress there's on a single item, document, or area of documents, the better performance will be. Widely distributed content like multiple smaller files across many sites and site collection is easier to serve then a single large document library with large files.
 
-- **Maximum site collection size** - It is important to identify what is the biggest unit of content that you will store in SharePoint Server 2013; usually it is an organizational need that prevents you from splitting that unit of content. Average size of all site collections and the estimated total number of site collections are additional indicators that will help you identify your preferred data architecture.
+- **Maximum site collection size** - It is important to identify what is the biggest unit of content that you'll store in SharePoint Server 2013; usually it is an organizational need that prevents you from splitting that unit of content. Average size of all site collections and the estimated total number of site collections are additional indicators that will help you identify your preferred data architecture.
 
 - **Service applications data characteristics** - In addition to analyzing the storage needs for the content store, you should analyze and estimate the sizes of other SharePoint Server 2013 stores, including:
 
@@ -155,20 +155,20 @@ The indicators used to describe the performance and reliability of the farm can 
     
 - **Server responsiveness** - The time it takes the farm to serve requests is a good indicator to track the health of the farm. This indicator is named server side latency, and it is common to use the average or median (the 50th percentile) latency of the daily requests being served. The targets are commonly described in sub seconds or seconds. If your organization has a target to serve pages from SharePoint Server 2013 in less than two seconds, then the server side goal needs to be sub seconds to leave time for the page to reach the client over the network and time to render in the browser. Also in general longer server response times are an indication of an unhealthy farm, as this usually as an impact on throughput and rarely can RPS keep up if you spend more than a second on the server on most requests
     
-- **Server spikiness** - Another good server side latency indicator worth tracking is the behavior of the slowest 5% of all requests. Slower requests are usually the requests that hit the system when it is under higher load or even more commonly, requests that are impacted by less frequent activity that occur while users interact with the system; a healthy system is one that has the slowest requests under control as well. The target here is similar to Server Responsiveness, but to achieve sub-second response on server spikiness, you will need to build the system with numerous spare resources to handle the spikes in load.
+- **Server spikiness** - Another good server side latency indicator worth tracking is the behavior of the slowest 5% of all requests. Slower requests are usually the requests that hit the system when it is under higher load or even more commonly, requests that are impacted by less frequent activity that occur while users interact with the system; a healthy system is one that has the slowest requests under control as well. The target here is similar to Server Responsiveness, but to achieve sub-second response on server spikiness, you'll need to build the system with numerous spare resources to handle the spikes in load.
     
 - **System resource utilization** - Other common indicators used to track the health of the system are a collection of system counters that indicate the health of each server in the farm topology. The most frequently used indicators to track are % CPU utilization and Available Memory; however, there are several more counters that can help identify a non-healthy system; more details can be found in [Step 5: Monitor and Maintain](capacity-planning.md#step5).
     
 ## Step 2: Design
 <a name="step2"> </a>
 
-Now that you have finished collecting some facts or estimates on the solution you need to deliver, you are ready to start the next step of designing a proposed architecture that you predict will be able to sustain the expected demand.
+Now that you have finished collecting some facts or estimates on the solution you need to deliver, you're ready to start the next step of designing a proposed architecture that you predict will be able to sustain the expected demand.
   
 By the end of this step you should have a design for your physical topology and a layout for your logical topology, so you should be able to go ahead with any necessary purchase orders.
   
 The hardware specifications and the number of machines you layout are tightly related, to handle a specific load there are several solutions you can choose to deploy. It is common to either use a small set of strong machines (scale up) or a larger set of smaller machines (scale out); each solution has its advantages and disadvantages when it comes to capacity, redundancy, power, cost, space, and other considerations. 
   
-We recommend that you begin this step by determining your architecture and topology. Define how you plan to layout the different farms and the different services in each farm, and then pick the hardware specifications for each of the individual servers in your design. You can also execute this process by identifying the hardware specifications you are expected to deploy (many organizations are constrained to a certain company standard) and then define your architecture and topology.
+We recommend that you begin this step by determining your architecture and topology. Define how you plan to layout the different farms and the different services in each farm, and then pick the hardware specifications for each of the individual servers in your design. You can also execute this process by identifying the hardware specifications you're expected to deploy (many organizations are constrained to a certain company standard) and then define your architecture and topology.
   
 Use the following table to record your design parameters. The data included is sample data, and don't use to size your farm. It is intended to demonstrate how to use this table for your own data.
   
@@ -195,7 +195,7 @@ Start by reviewing the different reference architectures and figure out your far
 
 Capacity management guidance for SharePoint Server 2013 includes many technical case studies of existing production environments that present a detailed description of existing SharePoint Server 2013-based production environments. Technical case studies specific to SharePoint Server 2013 will be published as they become available; the existing SharePoint Server 2010 case studies can serve as a reference on how to design a SharePoint Server 2013-based environment for specific purposes.
   
-You can use these case studies as a reference while designing the architecture of your SharePoint Server 2013 solutions especially if you find the description of these deployment specific key differentiators similar to the demands and targets of the solution you are architecting.
+You can use these case studies as a reference while designing the architecture of your SharePoint Server 2013 solutions especially if you find the description of these deployment specific key differentiators similar to the demands and targets of the solution you're architecting.
   
 These documents describe the following information for each documented case study:
   
@@ -243,7 +243,7 @@ The memory requirements of database servers are tightly dependent on the databas
   
 #### Choosing Networks
 
-In addition to the benefit offered to users, if clients have fast data access through the network, a distributed farm must have fast access for inter-server communication. This is especially true when you distribute services across multiple servers or federate some services to other farms. There is significant traffic in a farm across the web server tier, the application server tier, and the database server tier, and network can easily become a bottleneck under certain conditions like dealing with large files or high loads.
+In addition to the benefit offered to users, if clients have fast data access through the network, a distributed farm must have fast access for inter-server communication. This is especially true when you distribute services across multiple servers or federate some services to other farms. There's significant traffic in a farm across the web server tier, the application server tier, and the database server tier, and network can easily become a bottleneck under certain conditions like dealing with large files or high loads.
   
 Web servers and application servers should be configured to use at least two network interface cards (NICs): one NIC to handle end-user traffic and the other to handle the inter-server communication. Network latency between servers can have a significant effect on performance. Therefore, it is important to maintain less than 1 millisecond of network latency between the web server and the SQL Server-based computers hosting the content databases. The SQL Server-based computers that host each service application database should be as close as possible to the consuming application server also. The network between farm servers should have at least 1 Gbps of bandwidth. 
   
@@ -258,7 +258,7 @@ The web and application servers have storage requirements also. In most producti
 ## Step 3: Pilot, Test, and Optimize
 <a name="step3"> </a>
 
-The testing and optimization stage is an important component of effective capacity management. You should test new architectures before you deploy them to production and you should conduct acceptance testing together with following monitoring best practices in order to ensure the architectures you design achieve the performance and capacity targets. This allows you to identify and optimize potential bottlenecks before they affect users in a live deployment. If you are upgrading from an Office SharePoint Server 2007 environment and plan to make architectural changes, or are estimating user load of the new SharePoint Server 2013 features, then testing important to make sure that your new SharePoint Server 2013-based environment will meet performance and capacity targets.
+The testing and optimization stage is an important component of effective capacity management. You should test new architectures before you deploy them to production and you should conduct acceptance testing together with following monitoring best practices in order to ensure the architectures you design achieve the performance and capacity targets. This allows you to identify and optimize potential bottlenecks before they affect users in a live deployment. If you're upgrading from an Office SharePoint Server 2007 environment and plan to make architectural changes, or are estimating user load of the new SharePoint Server 2013 features, then testing important to make sure that your new SharePoint Server 2013-based environment will meet performance and capacity targets.
   
 Once you have tested your environment, you can analyze the test results to determine what changes must be made in order to achieve the performance and capacity targets you established in [Step 1: Model](capacity-planning.md#step1).
   
