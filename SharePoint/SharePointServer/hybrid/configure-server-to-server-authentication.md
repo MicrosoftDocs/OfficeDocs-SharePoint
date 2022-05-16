@@ -364,7 +364,7 @@ To validate the **New-SPAzureAccessControlServiceApplicationProxy** command:
 #### Step 7: Update Hybrid federated search
 <a name="step9"> </a>
 
-Starting October 2021, an extra step is required to adjust an existing SharePoint Hybrid configuration to work with and authenticate using the new Microsoft 365 search engine. For more information about this change, see [Message Center post 270671](https://admin.microsoft.com/#/MessageCenter/:/messages/MC270671).
+Starting October 2021, an extra step is required to adjust an existing SharePoint Hybrid configuration to work with and authenticate using the new Microsoft 365 search engine.
 
 The script must be run on a server where SharePoint On-Premises is installed (2013, 2016, or 2019). The script will attempt to install the required module dependencies (MSOnline, AzureAD) on the server where it is run.
 
