@@ -238,7 +238,7 @@ New-MsolServicePrincipalCredential -AppPrincipalId $spoappid -Type asymmetric -U
 #### Step 3: Add an SPN for your public domain name to Azure Active Directory
 <a name="step5"> </a>
 
-In this step, you add a service principal name (SPN) to your Azure Active Directory tenant. The SPN is comprised of the SharePoint in Microsoft 365 principal object and your company's public DNS namespace.
+In this step, you add a service principal name (SPN) to your Azure Active Directory tenant. The SharePoint in Microsoft 365 principal object and your company's public DNS namespace form the SPN. 
   
 Just like SPNs function in Active Directory, creating this SPN registers an object in Azure Active Directory that is used to support mutual authentication between SharePoint Server and SharePoint in Microsoft 365. The basic syntax for the SPN is:
   
@@ -364,7 +364,7 @@ To validate the **New-SPAzureAccessControlServiceApplicationProxy** command:
 #### Step 7: Update Hybrid federated search
 <a name="step9"> </a>
 
-Starting October 2021, an extra step is required to adjust an existing SharePoint Hybrid configuration to work with and authenticate using the new Microsoft 365 search engine. For more information about this change, see [Message Center post 270671](https://admin.microsoft.com/#/MessageCenter/:/messages/MC270671).
+Starting October 2021, an extra step is required to adjust an existing SharePoint Hybrid configuration to work with and authenticate using the new Microsoft 365 search engine.
 
 The script must be run on a server where SharePoint On-Premises is installed (2013, 2016, or 2019). The script will attempt to install the required module dependencies (MSOnline, AzureAD) on the server where it is run.
 
@@ -382,7 +382,7 @@ The script must be run on a server where SharePoint On-Premises is installed (20
     Get-Help .\Update-FederatedHybridSearchForM365.ps1
     ```
 
-3. When prompted, login using Microsoft 365 Global Administrator account.
+3. When prompted, log in using Microsoft 365 Global Administrator account.
 
 4. Wait for script execution to complete; in case there are any issues, contact Microsoft Support.
 
