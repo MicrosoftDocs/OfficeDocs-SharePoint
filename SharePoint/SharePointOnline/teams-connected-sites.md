@@ -40,11 +40,11 @@ These are the basic parts of Teams and SharePoint and how they relate to each ot
 
 - **Standard channel** – A standard channel is a channel that all members of a team have access to. Each team comes with a standard channel called "General." Team owners and members can add additional standard channels.
 
-- **Parent site** - The SharePoint site that is created when you create the team. This site is used for file storage for all standard channels. All team owners and members have access to this site.
-
-- **[Microsoft 365 group](/microsoft-365/solutions/collaboration-governance-overview#why-microsoft-365-groups-are-important-in-collaboration-governance)** - A Microsoft 365 group is a membership group that gives people access to multiple Microsoft 365 services at the same time. The membership for each team is stored in a Microsoft 365 group and that group also gives those people access to the team's parent SharePoint site.
-
 - **[Private channel](/MicrosoftTeams/private-channels)** – A private channel is a channel that only some of the team's members have access to. It is used for private conversations and collaboration. Each private channel has its own SharePoint site for file storage. Only members of the private channel can access this site.
+
+- **[Shared channels](/MicrosoftTeams/shared-channels)** – A shared channel is a channel that you can add anyone to, even if they’re not a member of the team. It is used for broader collaboration with people outside the team. Each shared channel has its own SharePoint site for file storage. Only members of the shared channel can access this site.
+
+- **Parent site** - The SharePoint site that is created when you create the team. This site is used for file storage for all standard channels. All team owners and members have access to this site.
 
 - **Channel site** - The SharePoint site that is created when you create a standard (other than General), private or shared channel in a team. Only owners and members of the private or shared channel have access to this site.
 
@@ -52,11 +52,17 @@ These are the basic parts of Teams and SharePoint and how they relate to each ot
 
 - **Private team** - A private team is a team that a person can only join when invited by a team owner. Both public teams and private teams offer the same channel types - standard, private, and shared.
 
+- **[Microsoft 365 group](/microsoft-365/solutions/collaboration-governance-overview#why-microsoft-365-groups-are-important-in-collaboration-governance)** - A Microsoft 365 group is a membership group that gives people access to multiple Microsoft 365 services at the same time. The membership for each team is stored in a Microsoft 365 group and that group also gives those people access to the team's parent SharePoint site.
+
 - **Azure AD** - Azure AD is the directory service where Microsoft 365 user accounts are stored. (You can manage these accounts from Microsoft 365 as well.) Microsoft 365 groups are also stored in Azure AD. Azure AD allows administrators to manage users and groups and to apply business rules to user accounts, such as requiring multi-factor authentication.
 
 ![Image of how Azure AD, Teams, and SharePoint relate.](media/teams-sharepoint-interactions.png)
 
 Each team is connected to a Microsoft 365 group in Azure AD where the team membership is stored. The files you see on the **Files** tab in a team are stored in a SharePoint site. All standard channels in a team share the same SharePoint site, but each private channel has its own site.
+
+<br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Txae?autoplay=false]
 
 ## When do Teams and SharePoint get connected?
 
@@ -81,14 +87,15 @@ The standard channels display as folders in the parent site. The private channel
 
 ## Teams-connected sites and channel types
 
-Teams-connected sites are a specialized type of SharePoint site that have been optimized for a Teams connection. These include the parent site that is created when you create the team, and any channel sites that are created when you create a private or shared channel.
+Teams-connected sites are a specialized type of SharePoint site that's been optimized for a Teams connection. These include the parent site that is created when you create the team, and any channel sites that are created when you create a private or shared channel.
 
 This table describes how site, file, and folder sharing work for each type of channel in Teams.
 
 |Channel type|SharePoint site|Site sharing|File and folder sharing|
 |:-----------|:--------------|:-----------|:----------------------|
 |Standard|One SharePoint site is shared by all standard channels. There is a separate folder for each channel.|Team owners and members are automatically included in the site owners and members permission groups. Sharing the site separately is possible but managing access through Teams is recommended for easiest user management and the best user experience.|Files and folders can be shared with anyone in the organization by using sharable links. If guest sharing is enabled, *Anyone* and *Specific people* links can be used to share with people outside the organization.|
-|Private|Each private channel has its own SharePoint site.|Team owners and members are automatically included in the site owners and members permission groups. The site can't be shared separately.|Files and folders can be shared with anyone in the organization by using sharable links. If guest sharing is enabled, *Anyone* and *Specific people* links can be used to share with people outside the organization.|
+|Private|Each private channel has its own SharePoint site.|Channel owners and members are automatically included in the site owners and members permission groups. The site can't be shared separately.|Files and folders can be shared with anyone in the organization by using sharable links. If guest sharing is enabled, *Anyone* and *Specific people* links can be used to share with people outside the organization.|
+|Shared|Each shared channel has its own SharePoint site.|Team owners and members are automatically included in the site owners and members group. The site can’t be shared separately.|Files and folders can be shared with anyone in the organization and external participants in the channel by using sharable links. Sharing with people outside the organization who are not channel members is not supported.|
 
 
 ## Where to manage Teams and SharePoint settings

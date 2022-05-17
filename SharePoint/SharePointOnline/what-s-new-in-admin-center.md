@@ -1,6 +1,6 @@
 ---
 title: "What's new in the SharePoint admin center"
-ms.reviewer: trgreen
+ms.reviewer: daminasy
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -35,17 +35,21 @@ We're continuously adding new features to the new <a href="https://go.microsoft.
 > [!IMPORTANT]
 > Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting November 30, 2020). [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed. 
 
+## April 2022
+
+- **New Apps site**. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** page</a> and select **Open** under **Apps**. The new Apps experience helps you manage custom and SharePoint Store apps, including apps that can be used across SharePoint, Microsoft Teams, and Viva Connections. To learn more, see [Manage apps using the Apps site](use-app-catalog.md).
+
 ## December 2021
 
-On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** page</a>), you can [limit access to OneDrive by security group](/onedrive/limit-access). 
+- **Limit OneDrive access**. If you have a subscription to a qualifying plan, you can go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">**Access control** page</a> and [limit access to OneDrive by security group](/onedrive/limit-access). 
 
 ## November 2021
 
-On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, you can [view and manage sites for private channels](manage-sites-in-new-admin-center.md).
+- **Channel sites**. On the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>, you can [view and manage sites for private channels](manage-sites-in-new-admin-center.md).
 
 ## September 2021
 
-On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** page</a>), you can [set a site as your home site](home-site.md).
+- **Home site**. On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** page</a>), you can [set a site as your home site](home-site.md).
 
 ## June 2021
 
