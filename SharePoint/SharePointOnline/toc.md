@@ -7,35 +7,49 @@
 ### [Branding](branding-sharepoint-online-sites-modern-experience.md)
 ### [Governance overview](governance-overview.md)
 ### [Overview of Teams and SharePoint integration](teams-connected-sites.md)
+### [SharePoint for collab vs intranet]()
+
 
 ## [Get started]()
 
-### [Planning]
-### [Planning hub sites](planning-hub-sites.md)
+### [Planning]()
 
+#### [Business requirements]()
 
+#### [Infrastructure]()
+
+#### [Sites]
+##### [Planning hub sites](planning-hub-sites.md)
+
+#### [Migration]
+
+#### [Change management]()
 
 ### [Create a compliant OneDrive and SharePoint environment]()
 #### [Plan secure file collaboration](deploy-file-collaboration.md)
+#### [Permissions and sharing](modern-experience-sharing-permissions.md)
 
 ### [Choose collaboration options]()
 ### [Roll out OneDrive and SharePoint]()
 #### [Training and change management]()
+
+#### [Create sites using guided walkthroughs]()
+##### [Create a SharePoint communication site](create-communication-site.md)
+##### [Create a SharePoint team site](guided-walkthrough-creating-team-site.md)
+##### [Create a fundraising site SharePoint ](create-a-giving-site-for-your-organization.md)
+##### [Create a leadership site SharePoint ](guided-walkthrough-creating-leadership-site.md)
+##### [Create a training site SharePoint](create-training-site.md)
+##### [Create a landing site SharePoint ](guided-walkthrough-creating-organization-site.md)
+##### [Create a SharePoint hub site](create-hub-site-for-your-organization.md)
+##### [Distribute news using a hub site](guided-walkthrough-set-up-news-with-hub-site.md)
+#### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
+
+
 #### [Migration]()
 #### [Pilot program]()
 
-### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
-### [Permissions and sharing](modern-experience-sharing-permissions.md)
 
-### [Create sites using guided walkthroughs]()
-#### [Create a SharePoint communication site](create-communication-site.md)
-#### [Create a SharePoint team site](guided-walkthrough-creating-team-site.md)
-#### [Create a fundraising site SharePoint ](create-a-giving-site-for-your-organization.md)
-#### [Create a leadership site SharePoint ](guided-walkthrough-creating-leadership-site.md)
-#### [Create a training site SharePoint](create-training-site.md)
-#### [Create a landing site SharePoint ](guided-walkthrough-creating-organization-site.md)
-#### [Create a SharePoint hub site](create-hub-site-for-your-organization.md)
-#### [Distribute news using a hub site](guided-walkthrough-set-up-news-with-hub-site.md)
+
 
 ## [Classic to modern]()
 ### [Publishing](publishing-sites-classic-to-modern-experience.md)
