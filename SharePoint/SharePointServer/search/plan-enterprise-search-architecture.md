@@ -339,17 +339,16 @@ The disk controller and the spindles of the disk strongly influence these result
   
 If you test on empty disks, you'll get elevated results because the test file will be in the most optimal tracks across all spindles (short stroking). This can increase performance by up to two or three times. You'll get unrealistically high results if you test a hard disk that optimizes away accesses on uninitialized storage space, or storage containing all zeros, for example dynamic VHD/VHDX files. In this case, use a very large test file that contains real data, rather than generating a synthetic test file using DiskSpd commands.
   
-| &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-| :------------------------------------------------------------------------------------------------------------ | :----- | :----- | :----- | :----- | :--- |
-| Disk layout                                                                                                   | Test 1 | Test 2 | Test 3 | Test 4 |      |
-| Recommended minimum IOPS during ordinary operations                                                           | 300    | 100    | 200    | 200    |      |
-| 4x 1 TB 7200 RPM NLSAS in RAID5 on Dell H710 RAID controller (64kB stripe size, 64kB block size)              | 1181   | 206    | 284    | 296    |      |
-| 8x 1TB 7200 RPM NLSAS in RAID5 on Dell H710 RAID controller (64kB stripe size, 64kB block size)               | 2082   | 337    | 610    | 645    |      |
-| 16x 1TB 7200 RPM NLSAS in RAID5 on Dell H710 RAID controller (64kB stripe size, 64kB block size)              | 3763   | 595    | 1173   | 1181   |      |
-| 16x 1TB 7200 RPM NLSAS in RAID50 (2x8) on Dell H710 RAID controller (64kB stripe size, 64kB block size)       | 3613   | 545    | 1139   | 1164   |      |
-| 16x 1TB 7200 RPM NLSAS in RAID10 on Dell H710 RAID controller (256kB stripe size, 64kB block size)            | 4030   | 1146   | 970    | 775    |      |
-| 4x SmartStorage Optimus 800GB SSDs in RAID5 on Dell H710 RAID controller (64kB stripe size, 64kB block size)  | 32385  | 3781   | 1714   | 1319   |      |
-| 4x SmartStorage Optimus 800GB SSDs in RAID0 on Dell H710 RAID controller (256kB stripe size, 64kB block size) | 31747  | 7149   | 1643   | 1798   |      ||
+|Disk layout | Test 1 | Test 2 | Test 3 | Test 4 |
+|---- |---- |---- |---- |----|
+| Recommended minimum IOPS during ordinary operations | 300    | 100    | 200    | 200    |
+| 4x 1 TB 7200 RPM NLSAS in RAID5 on Dell H710 RAID controller (64kB stripe size, 64kB block size) | 1181   | 206    | 284    | 296    |
+| 8x 1TB 7200 RPM NLSAS in RAID5 on Dell H710 RAID controller (64kB stripe size, 64kB block size)| 2082   | 337    | 610    | 645    |
+| 16x 1TB 7200 RPM NLSAS in RAID5 on Dell H710 RAID controller (64kB stripe size, 64kB block size) | 3763   | 595    | 1173   | 1181   |
+| 16x 1TB 7200 RPM NLSAS in RAID50 (2x8) on Dell H710 RAID controller (64kB stripe size, 64kB block size)       | 3613   | 545    | 1139   | 1164   |
+| 16x 1TB 7200 RPM NLSAS in RAID10 on Dell H710 RAID controller (256kB stripe size, 64kB block size)            | 4030   | 1146   | 970    | 775    |
+| 4x SmartStorage Optimus 800GB SSDs in RAID5 on Dell H710 RAID controller (64kB stripe size, 64kB block size)  | 32385  | 3781   | 1714   | 1319   |
+| 4x SmartStorage Optimus 800GB SSDs in RAID0 on Dell H710 RAID controller (256kB stripe size, 64kB block size) | 31747  | 7149   | 1643   | 1798   |
    
 ### Test the search performance
 <a name="BKMK_TestSearchPerf"> </a>
