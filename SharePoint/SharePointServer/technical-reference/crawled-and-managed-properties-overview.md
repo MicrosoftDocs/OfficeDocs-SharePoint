@@ -607,7 +607,8 @@ The following table lists the default managed properties and their attributes. F
 
 <a name="mp2016"></a>
 
-|**Property name** |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |
+
+|*Property name** |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |AADObjectID   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:AboutMe, ows_Notes   ||
 |AnalyticsPath |Text   |No   |Yes  |No |Yes  |No  |No  |People:msOnline-ObjectId||
@@ -665,7 +666,7 @@ The following table lists the default managed properties and their attributes. F
 |XLDataConnCountRngID|Integer|No|Yes|No|Yes|Yes|Yes|XLDataConnCountRngID||
 |XLFormulaCount|Decimal|No|No|No|Yes|No|No|XLFormulaCount||
 |XLFormulaCountRngID|Integer|No|Yes|No|Yes|Yes|Yes|XLFormulaCountRngID||
-|XLLinkedWkbkCount|Decimal|No|No|No|Yes|No|No|XLLinkedWkbkCount||
+|XLLinkedWkbkCoun]t|Decimal|No|No|No|Yes|No|No|XLLinkedWkbkCount||
 |XLLinkedWkbkCountRngID|Integer|No|Yes|No|Yes|Yes|Yes|XLLinkedWkbkCountRngID||
 |XLLinkedWorkbooksText|Text|Yes|Yes|No|Yes|No|No|XLLinkedWorkbooksText||
 |XLUniqueFormulaSetCount|Integer|No|No|No|Yes|No|No|XLUniqueFormulaSetCount||
