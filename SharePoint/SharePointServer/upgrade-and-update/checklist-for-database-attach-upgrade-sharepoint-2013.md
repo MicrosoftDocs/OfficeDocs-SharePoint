@@ -51,7 +51,7 @@ Follow these steps in order while you upgrade the content and service applicatio
   
 **Prepare the new environment**
 
-| Step | Notes |
+|Item| Step | Notes |
 |:-----|:-----|
 |[ ]  <br/> |**Install and configure SharePoint 2013 and any language packs** <br/> Install the prerequisite software, and then install and configure SharePoint 2013.  <br/> |Complete these steps on each server in your farm.  <br/> This step might take one hour or more, depending on the number of servers are in your environment.  <br/> |
 |[ ]  <br/> |**Configure service applications** <br/>  Enable and configure the services that you need in your new environment.  <br/>  Do not configure the following service applications - you will configure them while you upgrade their databases later in the process:  <br/>  Business Data Connectivity service  <br/>  Managed Metadata service  <br/>  PerformancePoint services  <br/>  Search  <br/>  Secure Store service  <br/>  User Profile service  <br/> |Complete this step one time for the whole environment.  <br/> |
@@ -64,7 +64,7 @@ Detailed steps for this phase: [Create the SharePoint 2013 farm for a database a
   
 **Back up and restore databases**
 
-| Step | Notes |
+| Item| Step | Notes |
 |:-----|:-----|
 |[ ]  <br/> |**Record the passphrase for the Secure Store service application** <br/> The Secure Store service application uses a passphrase to encrypt information. You must record this passphrase so that you can use it in the new environment.  <br/> |Complete this step one time for each Secure Store service application in the environment.  <br/> |
 |[ ]  <br/> |**Set the previous version databases to be read-only** <br/> If you want your original environment to remain available to users in a read-only state, set the databases to read-only before you back them up.  <br/> |Complete this step for each content database in your environment.  <br/> Depending on your organization, you might need a database administrator to complete this step.  <br/> |
@@ -77,7 +77,7 @@ Detailed steps for this phase: [Copy databases to the new farm for upgrade to Sh
   
 **Upgrade service application databases**
 
-| Step | Notes |
+| Item| Step | Notes |
 |:-----|:-----|
 |[ ]  <br/> |**Start the service application instances** <br/>  Start the following service instances from Central Administration:  <br/>  Business Data Connectivity service  <br/>  Managed Metadata service  <br/>  PerformancePoint services  <br/>  Secure Store service  <br/>  User Profile service  <br/>  Start the instance of the Search service application by using PowerShell.  <br/> |Complete this step one time for the whole environment.  <br/> |
 |[ ]  <br/> |**Upgrade the Secure Store service application** <br/> Use PowerShell to create the new service application and upgrade the database, create a proxy and add it to the default proxy group, and then restore the passphrase from the previous environment.  <br/> |Complete this step one time for each Secure Store service application in the previous environment.  <br/> |
@@ -92,7 +92,7 @@ Detailed steps for this phase: [Upgrade service applications to SharePoint 2013]
   
 **Create web applications**
 
-| Step | Notes |
+|Item| Step | Notes |
 |:-----|:-----|
 |[ ]  <br/> |**Create and configure web applications** <br/> Create a web application for each web application that existed in the old environment.  If the desire is to use Windows Claims Authentication, create the new Web Applications in Windows Claims mode instead of Classic mode.<br/> |Complete this step one time for the whole environment.  <br/> |
 |[ ]  <br/> |**Reapply server-side customizations** <br/> Manually transfer all server-side customizations to your new farm. Refer to the inventory that you created in the upgrade worksheet to make sure that you install all components that your sites depend on to work correctly. When you install solutions, make sure that you add it to the appropriate path (/14 or /15). If you want a solution to be available to both paths, install it two times, and the second time use the **CompatibilityLevel** parameter when you install it, and it will be installed to the /15 path.  <br/> |Make sure that you reapply customizations to all web servers in the farm.  <br/> |
@@ -102,7 +102,7 @@ Detailed steps for this phase: [Upgrade content databases from SharePoint 2010 t
   
 **Attach and upgrade content databases**
 
-| Step | Notes |
+|Item| Step | Notes |
 |:-----|:-----|
 |[ ]  <br/> |**Attach a content database to a web application** <br/> Attach the content database that contains the root site collection first. For My Sites, attach the content database that contains the My Site host before attaching databases that contain the My Sites.  <br/> You must perform this action from the command line. Use the **Mount-SPContentDatabase** Microsoft PowerShell cmdlet.  <br/> |Complete this step for one content database in your environment.  <br/> This step might take several minutes or several hours, depending on your dataset and hardware on the web servers, database servers, and storage subsystem.  <br/> |
 |[ ]  <br/> |**Verify upgrade for the first database** <br/> Verify that upgrade succeeded for the first database, and review the site to see whether there are any issues.  <br/> Detailed steps: [Verify database upgrades in SharePoint 2013](verify-upgrade.md).  <br/> |Complete this step for the content database that you just attached.  <br/> |
@@ -119,7 +119,7 @@ Follow these steps in order after you perform a database-attach upgrade.
   
 **Post upgrade steps for database attach upgrade**
 
-| Step | Notes |
+|Item| Step | Notes |
 |:-----|:-----|
 |[ ]  <br/> |**Verify that site collections are working as expecting in 2010 mode** <br/> Review the site collections and make sure that they work in 2010 mode before you begin to upgrade any site collections. You can use a similar review list as the one provided for upgraded sites in [Review site collections upgraded to SharePoint 2013](review-site-collections-upgraded-to-sharepoint-2013.md) <br/> > [!NOTE]> If the SharePoint 2013 Web Application was created in Windows Claims mode, complete the next step prior to testing site collections.           |Complete this step one time for your whole environment.  <br/> |
 |[ ]  <br/> |**Migrate user accounts to claims authentication, if it is necessary** <br/> By default, new web applications in SharePoint 2013 use claims authentication. If you were using classic authentication in the previous environment, you must migrate the users to claims authentication. For more information, see [Migrate from classic-mode to claims-based authentication in SharePoint 2013](migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013.md).  <br/> |Complete this step one time for every web application that has changed authentication methods.<br/> |

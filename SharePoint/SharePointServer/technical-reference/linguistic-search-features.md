@@ -35,10 +35,9 @@ The following table shows the languages that SharePoint Server by default suppor
 - Stemming for Norwegian Nynorsk is done with the Norwegian Bokmål stemmer.
     
 - Reductive stemming is used for some languages, and can't be disabled. These languages are Arabic, Estonian, Finnish, Hebrew, Hungarian, Korean, Latvian, Lithuanian, Slovak, and Turkish.
-    
-||||||||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+
 |**Language** |**Code**|**Document language detection** |**Word breaking**  |**Stemming**  |**Spelling variants**  |**Spelling correction, static**  |**Spelling correction, dynamic**  |**Decompounding**  |**Fuzzy name matching**  |**Company name extraction**  |
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Afrikaans  <br/> |af  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Not applicable  <br/> |No  <br/> |No  <br/> |
 |Albanian  <br/> |sq  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Not applicable  <br/> |No  <br/> |No  <br/> |
 |Arabic  <br/> |ar  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Not applicable  <br/> |No  <br/> |Yes  <br/> |

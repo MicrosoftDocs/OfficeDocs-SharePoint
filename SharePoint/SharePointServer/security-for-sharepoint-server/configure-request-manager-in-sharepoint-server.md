@@ -156,7 +156,7 @@ The following table describes the different types of match properties and match 
 
 | Match property | Match type | &nbsp; |
 |:-----|:-----|:-----|
-|Hostname <br/>| ReqEx| <br/> ||
+|Hostname <br/>| ReqEx <br/> ||
 |URL <br/>| Equals<br/> ||
 |Port number <br/>| Starts with<br/> ||
 |MIME type <br/>| Ends with<br/> ||
@@ -207,7 +207,7 @@ An administrator can use this information to adjust the routing and throttling r
 
 | Counter name | Description | &nbsp; |
 |:-----|:-----|:-----|
-|Connections Current <br/>| The total number of connections that are currently open by Request Manager.| <br/> ||
+|Connections Current <br/>| The total number of connections that are currently open by Request Manager. <br/> ||
 |Connections Reused / Sec <br/>| The number of connections per second that are reused when the same client connection makes another request without closing the connection.<br/> ||
 |Routed Requests / Sec <br/>| The number of routed requests per second.  The instance determines the application pool and server for which this counter tracks.<br/> ||
 |Throttled Requests / Sec <br/>| The number of throttled requests per second.<br/> ||
