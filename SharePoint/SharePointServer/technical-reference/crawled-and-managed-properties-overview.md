@@ -607,8 +607,7 @@ The following table lists the default managed properties and their attributes. F
 
 <a name="mp2016"></a>
 
-
-|*Property name** |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |
+|**Property name** |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |AADObjectID   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:AboutMe, ows_Notes   ||
 |AnalyticsPath |Text   |No   |Yes  |No |Yes  |No  |No  |People:msOnline-ObjectId||
