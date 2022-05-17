@@ -38,7 +38,7 @@ Follow these steps in order before you start an upgrade to SharePoint 2013:
   
 **Pre-upgrade steps**
 
-| Step | Notes |
+|Item| Step | Notes |
 |:-----|:-----|
 |[ ]  <br/> |**Create an inventory of server-side customizations in the environment** <br/> Create an inventory of the server-side customizations in your environment (solutions, features, Web Parts, event handlers, master pages, page layouts, CSS files, and so on). Record all customizations needed for your environment in the upgrade worksheet.  <br/> Detailed steps: [Identify and install customizations](use-a-trial-upgrade-to-sharepoint-2013-to-find-potential-issues.md#Customizations) in the "Use a trial upgrade to find potential issues" article.  <br/> |Complete this step for the whole environment. Check each web server to make sure that you don't miss any customizations. Keep the inventory up to date as you prepare for the upgrade.  <br/> |
 |[ ]  <br/> |**Clean up your environment** <br/> Before you begin to upgrade, make sure that your environment is functioning in a healthy state and that you clean up any content that you do not have to upgrade. Clean up any orphaned sites or data, address any large lists and large ACLs, remove extraneous document versions, and remove any unused templates, features and Web Parts.  <br/> Detailed steps: [Clean up an environment before an upgrade to SharePoint 2013](clean-up-an-environment-before-an-upgrade-to-sharepoint-2013.md).  <br/> |Complete this step one time for the whole environment.  <br/> This process might take days or weeks to finish.  <br/> |
