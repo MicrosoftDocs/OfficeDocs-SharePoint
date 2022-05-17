@@ -13,14 +13,14 @@ ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 88317397-e0cb-47c7-9093-7872bc685213
-description: "Learn how  Secure Sockets Layer (SSL) certificate management is the process of monitoring and managing the life cycles from acquisition and deployment to tracking renewal, usage, and expiration of all SSL certificates deployed within a network."
+description: "Learn how you can use Secure Sockets Layer (SSL) certificate management to monitor and manage the lifecycle of SSL certificates in your SharePoint farm."
 ---
 
 # Introducing SSL Certificate Management Operations
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
   
-Secure Sockets Layer (SSL) certificate management is the process of monitoring and managing the life cycles from acquisition and deployment to tracking renewal, usage, and expiration of all SSL certificates deployed within a SharePoint farm.
+The Secure Sockets Layer (SSL) certificate management feature allows you to monitor and manage the lifecycle of SSL certificates in your SharePoint farm, from acquisition and deployment to usage, expiration, and renewal..
 
 This article focuses on the following SSL certificate management operations.
   
@@ -38,7 +38,7 @@ The cmdlet parameters are:
 
 |Parameter|Description|
 |--- |--- |
-|FriendlyName| The friendly name for the certificate. This name can be used to help you remember the purpose of this certificate. The friendly name will only be visible to administrators, not to end users.|
+|FriendlyName| The friendly name for the certificate. This name can be used to help you remember the purpose of this certificate. The friendly name will only be visible to SharePoint farm administrators, not to end users.|
 |CommonName | The primary DNS domain name or IP address that this certificate will be assigned to. Fully Qualified Domain Names (FQDNs) are recommended.|
 |AlternativeNames | Additional DNS domain names or IP addresses that this certificate will be assigned to. Fully Qualified Domain Names (FQDNs) are recommended.|
 |OrganizationalUnit | The name of your department within your organization or company. If this parameter isn't specified, the default organizational unit of the farm will be used.|
@@ -47,8 +47,9 @@ The cmdlet parameters are:
 |State | The name of the state or province where your organization is legally located. Don't abbreviate the name. If this parameter isn't specified, the default state of the farm will be used.|
 |Country | The two letter country code where your organization is legally located. This must be an ISO 3166-1 alpha-2 country code. If this parameter isn't specified, the default country of the farm will be used.|
 |Exportable| Specifies whether the private key of the certificate may be exported. If this parameter isn't specified, the private key of certificate deployed to the Windows Certificate Store on each server in the SharePoint farm won't be exportable, and SharePoint won't allow you to export the private key from within the SharePoint administration interface.|
-|KeySize | Specifies the size of your public and private RSA keys in bits. Larger key sizes provide more cryptographic strength than smaller key sizes, but they're also more computationally expensive and take more time to complete the SSL/TLS connection.<p> Select `2048` if you're unsure, which key size to use. Key sizes larger than `4096` aren't recommended.|
-|HashAlgorithm|Specifies the hash algorithm of your certificate signature, which your certificate authority will use to verify that your certificate request hasn't been tampered with.|
+|KeySize | Specifies to use the RSA key algorithm for your certificate, and the size of your public and private RSA keys in bits. Larger key sizes provide more cryptographic strength than smaller key sizes, but they're also more computationally expensive and take more time to complete the SSL / TLS connection. Select `2048` if you're unsure which key size to use. Key sizes larger than `4096` are not recommended. If neither this parameter nor the `EllipticCurve` parameter is specified, the default key algorithm and key size / elliptic curve of the farm will be used.|
+|EllipticCurve|Specifies to use the elliptic curve cryptography key algorithm for your certificate, and the elliptic curve of your public and private ECC keys. Larger elliptic curves provide more cryptographic strength than smaller elliptic curves, but they're also more computationally expensive and take more time to complete the SSL / TLS connection. Select `nistP256` if you're unsure which elliptic curve to use. Elliptic curves larger than `nistP384` are not recommended. If neither this parameter nor the `KeySize` parameter is specified, the default key algorithm and key size / elliptic curve of the farm will be used.|
+|HashAlgorithm|Specifies the hash algorithm of your certificate signature, which your certificate authority will use to verify that your certificate request hasn't been tampered with. Larger hash algorithms provide more cryptographic strength than smaller hash algorithms, but they're also more computationally expensive. Select `SHA256` if you're unsure, which hash algorithm to use. Hash algorithms larger than `SHA384` are not recommended. If this parameter isn't specified, the default hash algorithm of the farm will be used.|
 |Path|Specifies the path to the certificate signing request file that will be generated.|
 |Force| Specifies to overwrite a file if it already exists at the specified path.|
 |AssignmentCollection| Manages objects for the purpose of proper disposal. Use of objects, such as SPWeb or SPSite, can use large amounts of memory and use of these objects in Windows PowerShell scripts requires proper memory management. Using the `SPAssignment` object, you can assign objects to a variable and dispose of the objects after they are needed to free up memory. When SPWeb, SPSite, or `SPSiteAdministration` objects are used, the objects are automatically disposed of if an assignment collection or the Global parameter is not used.|
@@ -72,6 +73,8 @@ Certificates are automatically deployed to the Windows certificate store on each
 
 Use the [Import-SPCertificate](/powershell/module/sharepoint-server/import-spcertificate) PowerShell cmdlet to import certificates from certificate files.
 
+`Import-SPCertificate [-Path] <String> [-Password <SecureString>] [-Store {EndEntity | Intermediate | Pending | Root}] [-Exportable] [-Replace] [-AssignmentCollection <SPAssignmentCollection>] [-WhatIf] [-Confirm] [<CommonParameters>]`
+
 The cmdlet parameters are:
 
 |Parameter|Description|
@@ -85,12 +88,13 @@ The cmdlet parameters are:
 Example cmdlet syntax:
 
 ```powershell
-$password = ConvertTo-SecureString -AsPlainText -Force Import-SPCertificate -Path "\\server\fileshare\certificates.pfx" -Password $password -Exportable
+$password = ConvertTo-SecureString -AsPlainText -Force 
+Import-SPCertificate -Path "\\server\fileshare\certificates.pfx" -Password $password -Exportable
 ```
 
 ## Assigning certificates to web applications
 
-SharePoint supports assigning SharePoint-managed certificates, which are imported by using [Import-SPCertificate](/powershell/module/sharepoint-server/import-spcertificate) PowerShell cmdlet to web applications with an SSL binding. The certificate must be in SharePoint's End Entity certificate store and the certificate's private key must also be imported. You can assign a certificate when the web application is first created or after it's created.
+SharePoint supports assigning SharePoint-managed certificates, which are imported by using the [Import-SPCertificate](/powershell/module/sharepoint-server/import-spcertificate) PowerShell cmdlet to web applications with an SSL binding. The certificate must be in SharePoint's End Entity certificate store and the certificate's private key must also be imported. You can assign a certificate when the web application is first created or after it's created.
 
 A `-Certificate <SPServerCertificatePipeBind>` parameter has been added to the following cmdlets and commands:
 
@@ -111,7 +115,7 @@ To assign a certificate to a web application when creating that web application 
 
 ## Replacing a certificate assignment
 
-SharePoint supports replacing all usage of an existing certificate within SharePoint with a different certificate, for example, if an existing certificate is approaching its expiration and you can replace this existing certificate with a new certificate. To replace, use the [Switch-SPCertificate](/powershell/module/sharepoint-server/switch-spcertificate) Powershell cmdlet to replace the assignments of the existing certificate with the new certificate. All usage of the existing certificate within SharePoint will then be replaced with the new certificate.
+SharePoint supports replacing all usage of an existing certificate within SharePoint with a different certificate, For example, if an existing certificate is approaching its expiration and you can replace this existing certificate with a new certificate. To replace, use the [Switch-SPCertificate](/powershell/module/sharepoint-server/switch-spcertificate) Powershell cmdlet to replace the assignments of the existing certificate with the new certificate. All usage of the existing certificate within SharePoint will then be replaced with the new certificate.
 
 The cmdlet parameters are:
 
@@ -336,8 +340,8 @@ The cmdlet parameters are:
 |EllipticCurve (nistP256 / nistP384 / nistP521)| Specifies the elliptic curve of your public and private ECC keys. Larger elliptic curves provide more cryptographic strength than smaller elliptic curves, but they're also more computationally expensive and take more time to complete the SSL/TLS connection.<p> Select `nistP256` if you're unsure, which elliptic curve to use. Elliptic curves larger than `nistP384`aren't recommended.|
 |HashAlgorithm (SHA256 / SHA384 / SHA512)| Specifies the hash algorithm of your certificate signature, which your certificate authority will use to verify that your certificate request hasn't been tampered with. Larger hash algorithms provide more cryptographic strength than smaller hash algorithms, but they're also more computationally expensive. Select `SHA256`if you're unsure, which hash algorithm to use. Hash algorithms larger than `SHA384` aren't recommended.|
 |CertificateExpirationAttentionThreshold | Specify the number of days before a certificate expires to trigger a certificate expiration notification. This is a reminder of upcoming certificate expirations that can be handled with normal priority. A certificate will only trigger a notification when it's assigned to SharePoint objects.|
-|CertificateExpirationWarningThreshold | Specify the number of days before a certificate expires to trigger a certificate expiration warning. This is a warning of imminent certificate expirations that should be handled with high priority. A certificate will only trigger a warning when it's assigned to SharePoint objects.|
-|CertificateExpirationErrorThreshold | Specify the number of days after a certificate expired to trigger a certificate expiration alert. This is an alert about certificates that have already expired and should be handled with critical priority. A certificate will only trigger an alert when it's assigned to SharePoint objects.|
+|CertificateExpirationWarningThreshold | Specifies the number of days before a certificate expires to trigger a certificate expiration warning. This is a warning of imminent certificate expirations that should be handled with high priority. A certificate will only trigger a warning when it is assigned to SharePoint objects. This warning is disabled when set to 0.|
+|CertificateExpirationErrorThreshold | Specifies the number of days after a certificate expired to trigger a certificate expiration alert. This is an alert about certificates that have already expired and should be handled with critical priority. A certificate will only trigger an alert when it is assigned to SharePoint objects. This alert is disabled when set to 0.|
 
 ## Certificates administrative action logging
 
@@ -371,7 +375,7 @@ The **View certificate files** page lists the Certificate Signing Request files 
 
 SharePoint has implemented the following four new health analyzer rules for SSL certificates:
 
-1. Certificate notification contacts hasn't been configured health rule that provides notification through Central Administration when certificates are in use and no certificate notification contacts have been configured. This health rule will run weekly. Certificate notification contacts receive emails about SSL certificate expirations and can be configured by customers through the Configure certificate management settings page.
-2. Upcoming SSL certificate expirations health rule that provides advanced notification through both Central Administration and email of upcoming certificate expirations. This health rule will run weekly to notify certification notification contacts about certificates that are in use and will expire within the next 15 - 60 days. These thresholds are configurable by customers through the Configure certificate management settings page.
-3. SSL certificates are about to expire health rule that provides advanced notification through both Central Administration and email when certificates are about to expire. This health rule will run daily to notify certificate notification contacts about certificates that are in use and will expire within the next 15 days. This threshold is configurable by customers through the Configure certificate management settings page.
-4. SSL certificates have expired health rule that provides notification through both Central Administration and email when certificates have expired. This health rule will run daily to notify certificate notification contacts about certificates that are in use and have expired within the past 15 days. This threshold is configurable by customers through the Configure certificate management settings page.
+1. **Certificate notification contacts hasn't been configured** health rule that provides notification through Central Administration when certificates are in use and no certificate notification contacts have been configured. This health rule will run weekly. Certificate notification contacts receive emails about SSL certificate expirations and can be configured by customers through the Configure certificate management settings page.
+2. **Upcoming SSL certificate expirations** health rule that provides advanced notification through both Central Administration and email of upcoming certificate expirations. This health rule will run weekly to notify certification notification contacts about certificates that are in use and will expire within the next 15 - 60 days. These thresholds are configurable by customers through the Configure certificate management settings page.
+3. **SSL certificates are about to expire** health rule that provides advanced notification through both Central Administration and email when certificates are about to expire. This health rule will run daily to notify certificate notification contacts about certificates that are in use and will expire within the next 15 days. This threshold is configurable by customers through the Configure certificate management settings page.
+4. **SSL certificates have expired** health rule that provides notification through both Central Administration and email when certificates have expired. This health rule will run daily to notify certificate notification contacts about certificates that are in use and have expired within the past 15 days. This threshold is configurable by customers through the Configure certificate management settings page.
