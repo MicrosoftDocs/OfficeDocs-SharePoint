@@ -1,12 +1,32 @@
 ﻿
 # [SharePoint](introduction.md)
-## [Get started]()
-### [Intro to sites](guide-to-sharepoint-modern-experience.md)
+## [Introduction]()
 ### [Intro to file collaboration](intro-to-file-collaboration.md)
-### [Plan secure file collaboration](deploy-file-collaboration.md)
-### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
+### [Intro to OneDrive]()
+### [Intro to sites](guide-to-sharepoint-modern-experience.md)
 ### [Branding](branding-sharepoint-online-sites-modern-experience.md)
+### [Governance overview](governance-overview.md)
+### [Overview of Teams and SharePoint integration](teams-connected-sites.md)
+
+## [Get started]()
+
+### [Planning]
+### [Planning hub sites](planning-hub-sites.md)
+
+
+
+### [Create a compliant OneDrive and SharePoint environment]()
+#### [Plan secure file collaboration](deploy-file-collaboration.md)
+
+### [Choose collaboration options]()
+### [Roll out OneDrive and SharePoint]()
+#### [Training and change management]()
+#### [Migration]()
+#### [Pilot program]()
+
+### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
 ### [Permissions and sharing](modern-experience-sharing-permissions.md)
+
 ### [Create sites using guided walkthroughs]()
 #### [Create a SharePoint communication site](create-communication-site.md)
 #### [Create a SharePoint team site](guided-walkthrough-creating-team-site.md)
@@ -16,6 +36,7 @@
 #### [Create a landing site SharePoint ](guided-walkthrough-creating-organization-site.md)
 #### [Create a SharePoint hub site](create-hub-site-for-your-organization.md)
 #### [Distribute news using a hub site](guided-walkthrough-set-up-news-with-hub-site.md)
+
 ## [Classic to modern]()
 ### [Publishing](publishing-sites-classic-to-modern-experience.md)
 ### [Customization options](extend-and-develop.md)
@@ -56,7 +77,7 @@
 ### [Hold a town hall using Yammer](hold-town-hall-using-yammer.md)
 ### [Build learning and training experiences](build-learning-and-training-experiences-for-employees.md)
 ## [Governance]()
-### [Governance overview](governance-overview.md)
+
 ### [Create guidelines for site usage ](sites-usage-guidelines.md)
 ## [Navigation]()
 ### [Introduction](information-architecture-modern-experience.md)
@@ -65,7 +86,7 @@
 ### [Plan navigation design](plan-implement-navigation-design.md)
 ### [Implement site navigation](plan-navigation-modern-experience.md)
 ## [Hubs]()
-### [Planning](planning-hub-sites.md)
+
 ### [Create a hub site](create-hub-site.md)
 ### [Remove hub site](remove-hub-site.md)
 ### [Set up site design](set-up-site-design-hub-site.md)
@@ -84,7 +105,7 @@
 ## [Publishing]()
 ### [How page recommendations work](sharepoint_page-recommendations.md)
 ## [SharePoint and Teams integration]()
-### [Overview of integration](teams-connected-sites.md)
+
 ### [Manage collaboration experiences](manage-teams-sharepoint-experiences.md)
 ## [Site administration]()
 ### [Create sites](create-site-collection.md)
