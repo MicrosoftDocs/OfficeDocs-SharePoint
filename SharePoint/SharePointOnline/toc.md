@@ -18,10 +18,10 @@
 
 #### [Infrastructure]()
 
-#### [Sites]
+#### [Sites]()
 ##### [Planning hub sites](planning-hub-sites.md)
 
-#### [Migration]
+#### [Migration]()
 
 #### [Change management]()
 
