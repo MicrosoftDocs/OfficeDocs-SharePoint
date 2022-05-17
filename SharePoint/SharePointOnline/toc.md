@@ -102,6 +102,7 @@
 ### [Change your domain name](change-your-sharepoint-domain-name.md)
 ### [Enable and set up global navigation](sharepoint-app-bar.md)
 ### [Create an organization assets library](organization-assets-library.md)
+#### [Support for organization fonts in PowerPoint for the web](support-for-organization-fonts-in-PowerPoint-for-the-web.md)
 ### [Create an organization news site](organization-news-site.md)
 ## [Sync]()
 ### [File sync overview](sharepoint-sync.md)
