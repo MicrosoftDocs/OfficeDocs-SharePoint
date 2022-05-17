@@ -28,11 +28,15 @@ Organization fonts allow customers to create a brand for their organizations and
 ## How does this work? 
 The following diagram outlines the key steps in making our solution work: 
 
-:::image type="content" source="media/companyadmin.png" alt-text="image of Admin user profiles":::
+   :::image type="content" source="media/companyadmin.png" alt-text="image of Admin user profiles":::
 
 1. Organization administrator uploads their fonts to their organization's SharePoint site using the **SharePoint Online Management Shell.**
-2. SharePoint stores the assets in a [public Office 365 Content Delivery Network.](/microsoft-365/enterprise/use-microsoft-365-cdn-with-spo?view=o365-worldwide&preserve-view=true) 
-3. When a user opens a PowerPoint file on the web platform, PowerPoint for the web will access the Content Delivery Network (CDN) and fetch appropriate fonts.
+2. Ensure that your administrator account has **Full control** permissions to the SharePoint site you are using for your Organization Asset Libraries.
+
+   :::image type="content" source="media/full-control.png" alt-text="Full Control image":::
+
+3. SharePoint stores the assets in a [public Office 365 Content Delivery Network.](/microsoft-365/enterprise/use-microsoft-365-cdn-with-spo?view=o365-worldwide&preserve-view=true) 
+4. When a user opens a PowerPoint file on the web platform, PowerPoint for the web will access the Content Delivery Network (CDN) and fetch appropriate fonts.
 
 ## Adding organization fonts to SharePoint as an organization asset library 
 
@@ -76,7 +80,8 @@ The following diagram outlines the key steps in making our solution work:
     `Set-SPOCustomFontCatalog -FontFolder “C:\ProgramData\Fonts" -LibraryUrl https://contosofonts.sharepoint.com/FontLibrary`
 
    > [!NOTE]
-   > Your font folder should be the directory holding all your font files and should not include any non-font files.
+   > - Your font folder should be the directory holding all your font files and should not include any non-font files.
+   > - You may be re-prompted to enter your credentials at this step.
 
     Allow 24-hours for the Sharepoint servers to update and for the users in your organization to see their organization fonts when using the **Font** dropdown menu in PowerPoint for the web.
 
