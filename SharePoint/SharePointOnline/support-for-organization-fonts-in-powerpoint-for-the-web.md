@@ -43,13 +43,13 @@ The following diagram outlines the key steps in making our solution work:
 
 2. Ensure that your administrator account has **Full control** permissions to the SharePoint site you are using for your Organization Asset Libraries.
 
-   :::image type="content" source="media/full-control.png" alt-text="Full Control image":::
+   :::image type="content" source="media/fullcontrol.png" alt-text="Full Control image":::
 
 3. Ensure the site permissions for **Everyone except external user** are set to **Read** or **Edit.** 
     
     :::image type="content" source="media/sitepermissions.png" alt-text="image of sitepermissions" lightbox="media/sitepermissions.png":::
 
-    :::image type="content" source="media/userpermissions.png" alt-text="image of userpermissions":::
+    :::image type="content" source="media/userpermission.png" alt-text="image of userpermissions":::
  
 4. Navigate to your site’s home page. From the **New** dropdown menu, select **Create a Document Library** and name your new font library.
 
