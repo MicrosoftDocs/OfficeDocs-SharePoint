@@ -621,11 +621,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "SharePoint/SharePointOnline/planning-guide.md",
-      "redirect_url": "/sharepoint/introduction",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "SharePoint/SharePointOnline/let-users-sync-irm-protected-files.md",
       "redirect_url": "/sharepoint/sharepoint-sync",
       "redirect_document_id": false
@@ -633,6 +628,11 @@
     {
       "source_path": "SharePoint/SharePointOnline/let-users-connect-classic-sites-to-groups.md",
       "redirect_url": "/sharepoint/modern-experience-sharing-permissions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/change-version-and-upgrade-settings.md",
+      "redirect_url": "/sharepoint/introduction",
       "redirect_document_id": false
     },
     {
