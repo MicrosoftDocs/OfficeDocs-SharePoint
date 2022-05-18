@@ -217,7 +217,6 @@
 #### [Hide app tiles on app launcher](hide-app-tiles-on-app-launcher.md)
 #### [Change version and upgrade settings](change-version-and-upgrade-settings.md)
 #### [Allow users to create modern pages](let-users-create-modern-site-pages.md)
-#### [Let users connect classic sites to groups](let-users-connect-classic-sites-to-groups.md)
 #### [Manage loop components](manage-loop-components.md)
 ### [Hybrid](../SharePointServer/hybrid/hybrid.md)
 ### [Migration](/sharepointmigration/migrate-to-sharepoint-online)
