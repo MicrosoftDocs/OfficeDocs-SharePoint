@@ -43,10 +43,10 @@ Create an Egnyte Connect API application. Creating an application will generate 
 |Field|Suggested entry|
 |:-----|:----|
 |Name of your application |My migration app|
-|Type|Internal application |
+|Type|Publicly Available Application|
 |Current user base|New app|
-|Platform |Web App|
-|Egnyte domain that you will use for testing | Enter your organizations Egnyte domain|
+|Platform |Needn't select any option|
+|Egnyte domain that you will use for testing | Leave this field empty|
 
 
 Under **Select which Web APIs you will use**, select:

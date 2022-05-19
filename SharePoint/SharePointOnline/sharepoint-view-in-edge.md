@@ -94,13 +94,7 @@ Follow the steps below to use View in File Explorer in Microsoft Edge:
         > [!NOTE]
         > Ensure the management shell version is 16.0.21610.12000 or higher or the ViewInFileExplorerEnabled option will not be available.
 
-7. **(Required)** Next, as a tenant administrator, update your SharePoint Online tenant configuration via SharePoint Online Management Shell to allow persisted cookies for View with Explorer.
-
-1. Run the following cmdlet to enable persistent cookies.
-
-    ```PowerShell
-    Set-SPOTenant -UsePersistentCookiesForExplorerView $true
-    ```
+7. **(Required)** _View in File Explorer_ requires persistent cookies to operate correctly; when you sign in, select **Yes** when the **Stay signed in?** prompt appears.
 
     You can locate the View in Explorer button by navigating to the **Library** >  Select the **Library View Menu** on the right-hand side > Select **View In File Explorer**.
 

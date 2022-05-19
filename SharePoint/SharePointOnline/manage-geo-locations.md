@@ -20,7 +20,7 @@ ms.custom:
 search.appverid:
 - SPO160
 - MET150
-ms.assetid: 
+ROBOTS: NOINDEX
 description: "In this article, you'll learn where to find geo location features in the new SharePoint admin center."
 ---
 

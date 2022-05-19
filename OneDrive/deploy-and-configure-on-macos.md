@@ -65,6 +65,7 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [BlockExternalSync](deploy-and-configure-on-macos.md#blockexternalsync)
 - [BlockTenantList](deploy-and-configure-on-macos.md#blocktenantlist)
 - [DefaultFolderLocation](deploy-and-configure-on-macos.md#defaultfolderlocation)
+- [DisableAutoConfig](deploy-and-configure-on-macos.md#disableautoconfig)
 - [DisableHydrationToast](deploy-and-configure-on-macos.md#disablehydrationtoast)
 - [DisablePersonalSync](deploy-and-configure-on-macos.md#disablepersonalsync)
 - [DisableTutorial](deploy-and-configure-on-macos.md#disabletutorial)
@@ -142,6 +143,17 @@ The following are the conditions governing the default folder location:
 
 The example for this setting in the .plist file is:
 <br/> \<key\>DefaultFolder</key\><br/>\<dict><br/>\<key\>Path</key\><br/>\<string>(DefaultFolderPath)\</string><br/>\<key\>TenantId</key\><br/>\<string>(TenantID)\</string><br/>\</dict>
+
+
+### DisableAutoConfig
+<a name="DisableAutoConfig"> </a>
+
+This setting determines whether or not the Sync client can automatically sign in.
+
+If you set this setting's value to 1, prevents Sync from automatically signing with an existing AAD credential that is made available to Microsoft applications
+
+The example for this setting in the .plist file is:
+<br/> \<key\>DisableAutoConfig</key\> <br/> \<integer\>1</integer\> <br/>
 
 
 ### DisableHydrationToast

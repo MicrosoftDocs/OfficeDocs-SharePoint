@@ -1,5 +1,5 @@
 ---
-title: "Control access from unmanaged devices"
+title: "SharePoint and OneDrive unmanaged device access controls for administrators"
 ms.reviewer: samust
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -18,13 +18,13 @@ search.appverid:
 - MET150
 - BSA160
 ms.assetid: 5ae550c4-bd20-4257-847b-5c20fb053622
-description: Learn how to block or limit access to SharePoint and OneDrive content on devices that aren't compliant or joined to a domain.
+description: Learn how administrators can block or limit access to SharePoint and OneDrive content on devices that aren't compliant or joined to a domain.
 ms.custom: 
 - seo-marvel-apr2020
 - admindeeplinkSPO
 ---
 
-# Control access from unmanaged devices
+# SharePoint and OneDrive unmanaged device access controls for administrators
 
 As a SharePoint or global admin in Microsoft 365, you can block or limit access to SharePoint and OneDrive content from unmanaged devices (those not [hybrid AD joined](/azure/active-directory/devices/overview#hybrid-azure-ad-joined-devices) or compliant in Intune). You can block or limit access for:
   
@@ -162,6 +162,8 @@ To block or limit access to specific sites, follow these steps. If you have conf
 The following parameters can be used with  `-ConditionalAccessPolicy AllowLimitedAccess` for both the organization-wide setting and the site-level setting: 
   
  `-AllowEditing $false` Prevents users from editing Office files in the browser. 
+ 
+ `-ReadOnlyForUnmanagedDevices $true` Makes the entire site read-only for impacted users. 
   
  `-LimitedAccessFileType OfficeOnlineFilesOnly` Allows users to preview only Office files in the browser. This option increases security but may be a barrier to user productivity. 
   

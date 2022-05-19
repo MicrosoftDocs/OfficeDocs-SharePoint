@@ -20,7 +20,7 @@ ms.custom:
 search.appverid:
 - SPO160
 - MET150
-ms.assetid: 
+ROBOTS: NOINDEX
 description: "In this article, you'll learn about finding site collection features in the new SharePoint admin center."
 ---
 
