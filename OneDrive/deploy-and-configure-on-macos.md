@@ -101,7 +101,7 @@ This setting enables the sync app to automatically set the amount of bandwidth t
 To enable this setting, you must define a number between 1 and 99 that determines the percentage of bandwidth the sync app can use out of the total available bandwidth.
 
 The example for this setting in the .plist file is:
-<br/> \<key\>AutomaticUploadBandwidthPercentage\</key\>  <br/> \<int\>(Bandwidth)\</int\>  <br/> 
+<br/> \<key\>AutomaticUploadBandwidthPercentage\</key\>  <br/> \<integer\>(Bandwidth)\</integer\>  <br/> 
 
 
 ### BlockExternalSync
@@ -197,7 +197,7 @@ This setting sets the maximum download throughput rate in kilobytes (KB)/sec for
 Set this setting's value to an integer between 50 KB/sec and the maximum rate is 100,000 KB/sec that determines the download throughput in KB/sec that the sync app can use.
 
 The example for this setting in the .plist file is:
-<br/> \<key\>DownloadBandwidthLimited\</key\>  <br/> \<int\>(Download Throughput Rate in KB/sec)\</int\>  <br/>
+<br/> \<key\>DownloadBandwidthLimited\</key\>  <br/> \<integer\>(Download Throughput Rate in KB/sec)\</integer\>  <br/>
 
 
 ### EnableAllOcsiClients
@@ -229,9 +229,9 @@ Set this setting's value to an integer between 50 KB/sec and the maximum rate of
 The example for this setting in the .plist file is:
 <br/>
 \<key\>EnableODIgnore\</key\><br/> 
-\<dict\><br/>
-\<string\>*.PST\</string\><br/>
-\</dict\><br/>
+\<array\><br/>
+\<string\>(Keyword such as *.PST)\</string\><br/>
+\</array\><br/>
 
 
 ### FilesOnDemandEnabled
@@ -311,7 +311,7 @@ This setting determines whether or not the client should set up sync for SharePo
 If you set this setting's value to **1**, it is an indication that OneDrive should set up SharePoint Server on-premises first, followed by SharePoint in Microsoft 365.
 
 The example for this setting in the .plist file is:
-<br/> \<key\>SharePointOnPremPrioritizationPolicy</key\> <br/> \<int\>(0 or 1)</int\> <br/>
+<br/> \<key\>SharePointOnPremPrioritizationPolicy</key\> <br/> \<integer\>(0 or 1)</integer\> <br/>
 
 
 ### SharePointOnPremTenantName
