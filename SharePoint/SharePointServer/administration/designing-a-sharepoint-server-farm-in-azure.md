@@ -2,7 +2,7 @@
 title: "Designing a SharePoint Server farm in Azure"
 ms.reviewer: 
 ms.author: josephd
-author: JoeDavies-MSFT
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 10/19/2017
 audience: ITPro

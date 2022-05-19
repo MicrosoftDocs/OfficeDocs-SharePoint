@@ -2,7 +2,7 @@
 title: "Intranet SharePoint Server in Azure dev/test environment"
 ms.reviewer: 
 ms.author: josephd
-author: JoeDavies-MSFT
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 03/15/2019
 audience: ITPro

@@ -2,7 +2,7 @@
 title: "SharePoint Intranet Farm in Azure Phase 5 Create the availability group and add the SharePoint databases"
 ms.reviewer: 
 ms.author: josephd
-author: JoeDavies-MSFT
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 04/06/2018
 audience: ITPro
