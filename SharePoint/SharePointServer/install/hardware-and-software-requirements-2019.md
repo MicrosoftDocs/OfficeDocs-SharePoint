@@ -208,16 +208,6 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Language Packs for SharePoint Server 2019](https://go.microsoft.com/fwlink/?LinkId=2006096)
     
-- [Windows Server 2016](https://www.microsoft.com/evalcenter/evaluate-windows-server-2016)
-    
-- [Windows Server 2019](https://www.microsoft.com/evalcenter/evaluate-windows-server-2019)
-
-- [Windows Server 2022](https://www.microsoft.com/evalcenter/evaluate-windows-server-2022)
-    
-- [Microsoft SQL Server 2016](https://www.microsoft.com/evalcenter/evaluate-sql-server-2016) 
-
-- [Microsoft SQL Server 2017 RTM](https://www.microsoft.com/evalcenter/evaluate-sql-server-2017-rtm)
-    
 - [Microsoft .NET Framework version 4.7.2](https://www.microsoft.com/net/download/dotnet-framework-runtime)
 
 - [Microsoft WCF Data Services 5.6](https://go.microsoft.com/fwlink/p/?LinkId=320724)
