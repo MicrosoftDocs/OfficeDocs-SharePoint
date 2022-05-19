@@ -288,7 +288,7 @@ The example for this setting in the .plist file is:
 
 This setting prevents users from moving their Documents and Desktop folders to any OneDrive account.
   
-If you enable this setting, users aren't prompted with a window to protect their important folders, and the *Manage backup* command is disabled. If the user has already moved their known folders, the files in those folders will remain in OneDrive. To redirect the known folders back to the user's device, please select "No." This setting does not take effect if you've enabled "KFMOptInWithWizard" or "KFMSilentOptIn."
+If you enable this setting, users aren't prompted with a window to protect their important folders, and the *Manage backup* command is disabled. If the user has already moved their known folders, the files in those folders will remain in OneDrive. To redirect the known folders back to the user's device, select "No." This setting does not take effect if you've enabled "KFMOptInWithWizard" or "KFMSilentOptIn."
 
 If you set this setting's value to 1, it will prevent KFM.  It you set it to 2, it will redirect previously KFM’d folders back to the user’s device in addition to preventing KFM. 
 
@@ -310,7 +310,7 @@ The example for this setting in the .plist file is:
 ### KFMOptInWithWizard (Preview)
 <a name="KFMOptInWithWizard"> </a>
 
-This setting shows the following window that prompts users to move their Documents and Desktop folders to OneDrive.
+This setting displays a wizard that prompts users to move their Documents and Desktop folders to OneDrive.
 
 If you enable this setting and provide your tenant ID, users who are syncing their OneDrive see the KFM wizard window when they're signed in. If they close the window, a reminder notification appears in the Activity Center until they move all their known folders. If a user has already redirected their known folders to a different OneDrive account, they are prompted to direct the folders to the account for your organization (leaving existing files behind).
   
@@ -321,9 +321,9 @@ The example for this setting in the .plist file is:
 ### KFMSilentOptIn (Preview)
 <a name="KFMSilentOptIn"> </a>
 
-Use this setting to redirect and move your users' Documents and/or Desktop folders to OneDrive without any user interaction. 
+Use this setting to redirect and move your users' Documents and/or Desktop folders to OneDrive without any user interaction.
   
-You can move all folders at once or select the folders you want to move.  After a folder is moved, this settings will not affect that folder again. 
+You can move all folders at once or select the folders you want to move.  After a folder is moved, this settings won't affect that folder again.
 
 The example for this setting in the .plist file is:
 <br/> \<key\>KFMSilentOptIn</key\><br/>\<string\>(TenantID)\</string\><br/>
@@ -335,6 +335,9 @@ If you don't set any of the following settings then the default setting will mov
 <br/> \<key\>KFMSilentOptInDesktop</key\><br/> \<(Bool)/\> 
 <br/> \<key\>KFMSilentOptInDocuments</key\><br/> \<(Bool)/\>  <br/>
 
+
+> [!NOTE]
+> Known Folder Move in macOS is currently in Private Preview. The policies above may not be available to everyone.
 
 ### OpenAtLogin
 <a name="OpenAtLogin"> </a>
