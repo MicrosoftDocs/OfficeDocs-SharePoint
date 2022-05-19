@@ -87,6 +87,7 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [UploadBandwidthLimited](deploy-and-configure-on-macos.md#uploadbandwidthlimited)
 
 ### AllowTenantList
+
 <a name="AllowTenantList"> </a>
 
 This setting prevents the users from uploading files to other organizations by specifying a list of allowed tenant IDs. If you enable this setting, the user gets an error if they attempt to add an account from an organization that isn't in the allowed tenants list. If the user has already added the account, the files stop syncing. This setting takes priority over **Block syncing OneDrive accounts for specific organizations** setting. Do **NOT** enable both settings at the same time.
@@ -98,6 +99,7 @@ The example for this setting in the .plist file is:
 
   
 ### AutomaticUploadBandwidthPercentage
+
 <a name="AutomaticUploadBandwidthPercentage"> </a>
 
 This setting enables the sync app to automatically set the amount of bandwidth that can be used for uploading files, based on available bandwidth.
@@ -109,6 +111,7 @@ The example for this setting in the .plist file is:
 
 
 ### BlockExternalSync
+
 <a name="BlockExternalSync"> </a>
 
 This setting prevents the sync app from syncing libraries and folders shared from other organizations.
@@ -120,6 +123,7 @@ The example for this setting in the .plist file is:
 
 
 ### BlockTenantList
+
 <a name="BlockTenantList"> </a>
 This setting prevents the users from uploading files to organizations that are included in the **blocked tenant IDs** list.
 
@@ -134,6 +138,7 @@ The example for this setting in the .plist file is:
 <br/>\<key\>BlockTenantList</key\><br/>\<dict><br/>\<key\>TenantId1</key\><br/>\<true/\><br/>\<key\>TenantId2</key\><br/>\<true/\><br/>\</dict>
 
 ### DefaultFolderLocation
+
 <a name="DefaultFolderLocation"> </a>
 This setting specifies the default location of the OneDrive folder for each organization.
 
@@ -150,6 +155,7 @@ The example for this setting in the .plist file is:
 
 
 ### DisableAutoConfig
+
 <a name="DisableAutoConfig"> </a>
 
 This setting determines whether or not the Sync client can automatically sign in.
@@ -161,6 +167,7 @@ The example for this setting in the .plist file is:
 
 
 ### DisableHydrationToast
+
 <a name="DisableHydrationToast"> </a>
 
 This setting prevents toasts from appearing when applications cause file contents to be downloaded.
@@ -172,6 +179,7 @@ The example for this setting in the .plist file is:
 
 
 ### DisablePersonalSync
+
 <a name="DisablePersonalSync"> </a>
 
 This setting blocks user from signing in and syncing files in personal OneDrive accounts. If this setting has been configured after a user has set up sync with a personal account, the user gets signed out.
@@ -183,6 +191,7 @@ The example for this setting in the .plist file is:
 
 
 ### DisableTutorial
+
 <a name="DisableTutorial"> </a>
 
 This setting prevents the tutorial from being shown to the users after they set up OneDrive.
@@ -194,6 +203,7 @@ The example for this setting in the .plist file is:
 
 
 ### DownloadBandwidthLimited
+
 <a name="DownloadBandwidthLimited"> </a>
 
 This setting sets the maximum download throughput rate in kilobytes (KB)/sec for computers running the OneDrive sync app.
@@ -205,6 +215,7 @@ The example for this setting in the .plist file is:
 
 
 ### EnableAllOcsiClients
+
 <a name="EnableAllOcsiClients"> </a>
 
 This setting lets multiple users use the Microsoft 365 Apps for enterprise, Office 2019, or Office 2016 desktop apps to simultaneously edit an Office file stored in OneDrive. It also lets users share files from the Office desktop apps.
@@ -221,6 +232,7 @@ The example for this setting in the .plist file is:
 
 
 ### EnableODIgnore
+
 <a name="EnableODIgnore"> </a>
 
 This setting lets you enter keywords to prevent the OneDrive sync app from uploading certain files to OneDrive or SharePoint. You can enter complete names, such as "setup.exe" or use the asterisk (*) as a wildcard character to represent a series of characters, such as *.pst. Keywords aren't case-sensitive.
@@ -239,6 +251,7 @@ The example for this setting in the .plist file is:
 
 
 ### FilesOnDemandEnabled
+
 <a name="FilesOnDemandEnabled"> </a>
 
 This setting specifies whether Files On-Demand is enabled. 
@@ -260,6 +273,7 @@ The example for this setting in the .plist file is:
 
 
 ### HideDockIcon
+
 <a name="HideDockIcon"> </a>
 
 This setting specifies whether a dock icon for OneDrive is shown.
@@ -271,6 +285,7 @@ The example for this setting in the .plist file is:
 
 
 ### HydrationDisallowedApps
+
 <a name="HydrationDisallowedApps"> </a>
 
 This setting prevents apps from automatically downloading online-only files. You can use this setting to lock down apps that don't work correctly with your deployment of Files On-Demand.
@@ -284,7 +299,11 @@ The example for this setting in the .plist file is:
 
 
 ### KFMBlockOptIn (Preview)
+
 <a name="KFMBlockOptIn"> </a>
+
+> [!NOTE]
+> Known Folder Move in macOS is currently in Private Preview. The following policies may not be available to everyone.
 
 This setting prevents users from moving their Documents and Desktop folders to any OneDrive account.
   
@@ -297,6 +316,7 @@ The example for this setting in the .plist file is:
 
 
 ### KFMBlockOptOut (Preview)
+
 <a name="KFMBlockOptOut"> </a>
 
 This setting forces users to keep their Documents and Desktop folders directed to OneDrive.
@@ -308,6 +328,7 @@ The example for this setting in the .plist file is:
 
 
 ### KFMOptInWithWizard (Preview)
+
 <a name="KFMOptInWithWizard"> </a>
 
 This setting displays a wizard that prompts users to move their Documents and Desktop folders to OneDrive.
@@ -319,6 +340,7 @@ The example for this setting in the .plist file is:
 
 
 ### KFMSilentOptIn (Preview)
+
 <a name="KFMSilentOptIn"> </a>
 
 Use this setting to redirect and move your users' Documents and/or Desktop folders to OneDrive without any user interaction.
@@ -336,10 +358,8 @@ If you don't set any of the following settings then the default setting will mov
 <br/> \<key\>KFMSilentOptInDocuments</key\><br/> \<(Bool)/\>  <br/>
 
 
-> [!NOTE]
-> Known Folder Move in macOS is currently in Private Preview. The policies above may not be available to everyone.
-
 ### OpenAtLogin
+
 <a name="OpenAtLogin"> </a>
 
 This setting specifies whether OneDrive starts automatically when the user logs in.
@@ -351,9 +371,10 @@ The example for this setting in the .plist file is:
 
 
 ### SharePointOnPremFrontDoorUrl
+
 <a name="SharePointOnPremFrontDoorUrl"> </a>
 
-This setting specifies the SharePoint Server 2019 on-premises URL that the OneDrive sync app must try to authenticate and sync against. 
+This setting specifies the SharePoint Server 2019 on-premises URL that the OneDrive sync app must try to authenticate and sync against.
 
 To enable this setting, you must define a string containing the URL of the on-premises SharePoint Server.
 
@@ -364,6 +385,7 @@ The example for this setting in the .plist file is:
 
 
 ### SharePointOnPremPrioritizationPolicy
+
 <a name="SharePointOnPremPrioritizationPolicy"> </a>
 
 This setting determines whether or not the client should set up sync for SharePoint Server or SharePoint in Microsoft 365 first during the first-run scenario when the email is the same for both SharePoint Server on-premises and SharePoint in Microsoft 365 in a hybrid scenario.
@@ -375,6 +397,7 @@ The example for this setting in the .plist file is:
 
 
 ### SharePointOnPremTenantName
+
 <a name="SharePointOnPremTenantName"> </a>
 
 This setting enables you to specify the name of the folder created for syncing the SharePoint Server 2019 files specified in the Front Door URL.
@@ -393,6 +416,7 @@ The example for this setting in the .plist file is:
 
 
 ### Tier
+
 <a name="Tier"> </a>
 
 This setting lets you specify the ring for users in your organization. The OneDrive sync app updates to the public through three rings; first to Insiders, then to Production, and finally to Deferred.  When you enable this setting and select a ring, users aren't able to change it.  
@@ -417,6 +441,7 @@ The example for this setting in the .plist file is:
 
 
 ### UploadBandwidthLimited
+
 <a name="UploadBandwidthLimited"> </a>
 
 This setting defines the maximum upload throughput rate in KB/sec for computers running the OneDrive sync app.
