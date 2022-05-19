@@ -85,6 +85,8 @@ The following diagram outlines the key steps in making our solution work:
 
     Allow 24-hours for the Sharepoint servers to update and for the users in your organization to see their organization fonts when using the **Font** dropdown menu in PowerPoint for the web.
 
+    :::image type="content" source="media/font_dropdown.png" alt-text="t":::
+
 ## Important notes on features and its release
 
 ### Feature notes
