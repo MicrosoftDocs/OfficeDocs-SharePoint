@@ -22,7 +22,7 @@ As Migration Manager is now at full parity with our legacy Mover.io migration to
 
 |Date|What|
 |:-----|:-----|
-|July 1, 2022|You will no longer be able to create a Mover admin connectors to Box or Google.|
+|July 1, 2022|You will no longer be able to create Mover admin connectors to Box or Google.|
 |July 1, 2022|End of dev support for Tenant to Tenant (T2T) migrations.|
 |September 1, 2022|End of dev support for cloud admin led migrations. **Note:** Fast Track led migrations are not impacted.|
 |Fall 2022|End of support for Blob storage and Amazon S3. |
