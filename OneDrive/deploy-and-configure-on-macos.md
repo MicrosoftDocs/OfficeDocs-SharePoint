@@ -225,7 +225,7 @@ This setting lets multiple users use the Microsoft 365 Apps for enterprise, Offi
 
 If you set this setting to **True** or don't set this setting, the **Office** tab appears in OneDrive sync preferences, and **Use Office applications to sync Office files that I open** is selected, by default.
 
-If you set this setting to **False**, the **Office** tab is hidden in the sync app, and co-authoring and in-app sharing for Office files are disabled. The **User can choose how to handle Office files in conflict** setting acts as disabled, and when file conflicts occur, both copies of the file are kept. For more information about the settings in the sync app, see [Use Office applications to sync Office files that I open](https://support.office.com/article/8a409b0c-ebe1-4bfa-a08e-998389a9d823).
+If you set this setting to **False**, the **Office** tab is hidden in the sync app, and coauthoring and in-app sharing for Office files are disabled. The **User can choose how to handle Office files in conflict** setting acts as disabled, and when file conflicts occur, both copies of the file are kept. For more information about the settings in the sync app, see [Use Office applications to sync Office files that I open](https://support.office.com/article/8a409b0c-ebe1-4bfa-a08e-998389a9d823).
 
 The example for this setting in the .plist file is:
 <br/>\<key\>EnableAllOcsiClients\</key\><br/>\<(Bool)/\>
@@ -307,9 +307,9 @@ The example for this setting in the .plist file is:
 
 This setting prevents users from moving their Documents and Desktop folders to any OneDrive account.
   
-If you enable this setting, users aren't prompted with a window to protect their important folders, and the *Manage backup* command is disabled. If the user has already moved their known folders, the files in those folders will remain in OneDrive. To redirect the known folders back to the user's device, select "No." This setting does not take effect if you've enabled "KFMOptInWithWizard" or "KFMSilentOptIn."
+If you enable this setting, users aren't prompted with a window to protect their important folders, and the *Manage backup* command is disabled. If the user has already moved their known folders, the files in those folders will remain in OneDrive. To redirect the known folders back to the user's device, select "No." This setting doesn't take effect if you've enabled "KFMOptInWithWizard" or "KFMSilentOptIn".
 
-If you set this setting's value to 1, it will prevent KFM.  It you set it to 2, it will redirect previously KFM’d folders back to the user’s device in addition to preventing KFM. 
+If you set this setting's value to 1, it will prevent Known Folder Move.  It you set the value to 2, it will redirect any  folders previously used for Known Folder Move back to the user’s device and stop the setting from running further.
 
 The example for this setting in the .plist file is:
 <br/> \<key\>KFMBlockOptIn</key\><br/> \<integer\>(1 or 2)</integer\> <br/> 
@@ -333,7 +333,7 @@ The example for this setting in the .plist file is:
 
 This setting displays a wizard that prompts users to move their Documents and Desktop folders to OneDrive.
 
-If you enable this setting and provide your tenant ID, users who are syncing their OneDrive see the KFM wizard window when they're signed in. If they close the window, a reminder notification appears in the Activity Center until they move all their known folders. If a user has already redirected their known folders to a different OneDrive account, they are prompted to direct the folders to the account for your organization (leaving existing files behind).
+If you enable this setting and provide your tenant ID, users who are syncing their OneDrive will see the Known Folder Move wizard window when they're signed in. If they close the window, a reminder notification appears in the Activity Center until they move all their known folders. If a user has already redirected their known folders to a different OneDrive account, they will be prompted to direct their folders to the account for your organization (leaving existing files behind).
   
 The example for this setting in the .plist file is:
 <br/> \<key\>KFMOptInWithWizard</key\><br/>\<string\>(TenantID)\</string\><br/>
@@ -353,7 +353,8 @@ The example for this setting in the .plist file is:
 If you enable this setting and provide your tenant ID, you can choose whether to display a notification to users after their folders have been redirected:
 <br/> \<key\>KFMSilentOptInWithNotification</key\><br/> \<(Bool)/\>  <br/>
 
-If you don't set any of the following settings then the default setting will move all the folders (Desktop and Documents) into OneDrive.  If you want to specify which folder(s) to move then you can set any combination of the following settings:
+If you don't set any of the following settings, then the default setting will move all the folders (Desktop and Documents) into OneDrive.  If you want to specify which folder(s) to move, you should set any combination of the following settings:
+
 <br/> \<key\>KFMSilentOptInDesktop</key\><br/> \<(Bool)/\> 
 <br/> \<key\>KFMSilentOptInDocuments</key\><br/> \<(Bool)/\>  <br/>
 
