@@ -233,6 +233,8 @@ To learn more about the controls available to you, see [Overview of privacy cont
 
 This section describes known limitations and considerations in sync reporting.
 
+By default, device records are kept in inventory for 30 days, after which they expire from the report.
+
 **Known folders:** Devices enabled for Known Folder Move (KFM) will report as a device with 0-3 known folders. If a device isn't enabled for KFM, it will report as a device that is **Not applicable** in the **Known Folders** section of the **Overview** tab. In the **Details** tab, a hyphen ("-") will appear in the cell value of the **Known folders** table for devices that aren't applicable devices. This behavior is expected.
 
 **Sync app version:** For devices using the Mac App Store edition of the sync app, the version installed on each device is displayed in the **Details** tab. However, the dashboard doesn't currently track whether or not this is the latest version of the sync app available in the Mac App Store. If any devices use this edition, they'll be excluded from the **Sync app version** section of the **Overview** tab and the number of excluded devices is displayed. This is the expected result.
