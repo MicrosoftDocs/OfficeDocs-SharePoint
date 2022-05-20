@@ -29,7 +29,7 @@ Mover's cloud migration scenarios have been fully made available in Migration Ma
 |Date|What|
 |:-----|:-----|
 |July 1, 2022|You'll no longer be able to create Mover connectors to Box admin or Dropbox admin. Google Drive admin and Egnyte admin connectors were disabled earlier this year.|
-|Fall 2022|Azure Blob Storage and Amazon S3 connectors will be disabled. 
+|Fall 2022|Azure Blob Storage and Amazon S3 connectors will be disabled.| 
 |TBA|Migrations between two Microsoft tenants will be no longer supported.|
 |TBA|Individual and end-user migrations will no longer be supported.|
 
