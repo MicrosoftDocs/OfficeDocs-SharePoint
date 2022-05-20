@@ -1,7 +1,7 @@
 ---
 title: "SharePoint Server dev/test environment in Azure"
 ms.reviewer: 
-ms.author: josephd
+ms.author: kvice
 author: kelleyvice-msft
 manager: serdars
 ms.date: 03/15/2019
