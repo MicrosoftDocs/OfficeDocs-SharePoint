@@ -19,21 +19,22 @@ description: "Mover retirement timeline"
 
 >[!Important]
 >**Attention businesses or those with EDU plans**: We will soon be retiring the legacy [Mover](https://app.mover.io) tool's ability to migrate from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm-egnyte-overview.md). Please use [Migration Manager](https://aka.ms/ODSP-MM) going forward.
+>If you are currently in the middle of a Mover migration, you may continue using Mover until you finish your migration. However, you will not be able to create new connectors.  Fast Track led migrations are not impacted at this time.
+>
+>>[**Individuals or students**: You may continue to use Mover, learn how!](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
+>
+
 
 Mover's cloud migration scenarios have been fully made available in Migration MAnager and we have set the timeline to retire Mover. Unifying the migration experience within Migration Manager simplifies the tool decision for you and allows us to focus our development and support resources to help you meet your migration goals.
 
 
 |Date|What|
 |:-----|:-----|
-|July 1, 2022|You will no longer be able to create Mover admin connectors to Box or Dropbox. Google and Egnyte connectors were disabled earlier this year.|
-|TBA|Migrations between two Microsoft tenants.|
-|TBA|Individual and end-user migrations.|
+|July 1, 2022|You will no longer be able to create Mover connectors to Box admin or Dropbox admin . Google Drive admin and Egnyte admin connectors were disabled earlier this year.|
+|Fall 2022|Azure Blob Storage and Amazon S3 connectors will be disabled. 
+|TBA|Migrations between two Microsoft tenants will be discontinued.|
+|TBA|Individual and end-user migrations will be discontinued.|
 
-
->[!Important]
->If you are currently in the middle of a Mover migration, you may continue using Mover until you finish your migration. However, you will not be able to create new connectors.
->
->Fast Track led migrations are currently impacted at this time.
 
 
 
