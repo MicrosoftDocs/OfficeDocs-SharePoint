@@ -98,7 +98,7 @@ You may choose to supplement or refine these links for your team sites, but you 
 
 ### Navigation menus in SharePoint
 
-There are two types of navigation menu styles for SharePoint sites - cascading and mega menu. Team sites and communication sites support both mega menus and cascading menus. Hubs, whether they are team sites or communication sites, add an additional mega menu to the site. Mega menus are not available in on premises sites. Learn about [how to customize the navigation on your SharePoint site](https://support.office.com/article/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca).
+There are two types of navigation menu styles for SharePoint sites - cascading and mega menu. Team sites and communication sites support both mega menus and cascading menus. Hubs, whether they are team sites or communication sites, add an additional mega menu to the site. Mega menus are not available in on-premises sites. Learn about [how to customize the navigation on your SharePoint site](https://support.office.com/article/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca).
 
 **Cascading menu**
 
