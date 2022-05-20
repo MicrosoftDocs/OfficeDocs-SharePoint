@@ -345,7 +345,7 @@ The example for this setting in the .plist file is:
 
 Use this setting to redirect and move your users' Documents and/or Desktop folders to OneDrive without any user interaction.
   
-You can move all folders at once or select the folders you want to move.  After a folder is moved, this settings won't affect that folder again.
+You can move all folders at once or select the folders you want to move.  After a folder is moved, this setting won't affect that folder again.
 
 The example for this setting in the .plist file is:
 <br/> \<key\>KFMSilentOptIn</key\><br/>\<string\>(TenantID)\</string\><br/>
