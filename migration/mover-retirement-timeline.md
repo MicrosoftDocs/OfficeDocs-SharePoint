@@ -1,5 +1,5 @@
 ---
-title: Mover retirement timelines
+title: Mover retirement timeline
 author: JoanneHendrickson
 ms.author: jhendr
 manager: serdars
