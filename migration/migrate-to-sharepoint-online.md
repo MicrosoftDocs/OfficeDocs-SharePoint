@@ -38,7 +38,7 @@ Moving to Microsoft 365? Let us help you migrate your content easily and securel
 >
 >[**Individuals or students**: You may continue to use Mover, learn how!](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
 >
->[**Learn more about the Mover.io retirement**](/sharepointmigration/mover-retirement-timeline.md)
+>[**Learn more about the Mover.io retirement**](mover-retirement-timeline.md)
 
 
 
