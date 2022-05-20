@@ -31,7 +31,9 @@ Mover's cloud migration scenarios have been fully made available in Migration MA
 
 
 >[!Important]
->If you are currently in the midddle of a Mover migration, you may continue using Mover until you finish your migration. However, you will not be able to create new connectors.
+>If you are currently in the middle of a Mover migration, you may continue using Mover until you finish your migration. However, you will not be able to create new connectors.
+>
+>Fast Track led migrations are currently impacted at this time.
 
 
 
