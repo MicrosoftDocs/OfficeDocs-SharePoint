@@ -37,31 +37,26 @@ Mover's cloud migration scenarios are fully available in Migration Manager and h
 
 ## FAQs
 
-**Question:**  Why are retiring Mover.io?
-**Answer:** Mover's cloud migration functionality is now fully integrated into Migration Manager, Microsoft'ts recommended tool for file migrations. This simplifies the experience for you and helps us support you more effectively.
+**Question:**  Why are retiring Mover.io?</br>
+**Answer:**    Mover's cloud migration functionality is now fully integrated into Migration Manager, Microsoft'ts recommended tool for file migrations. This simplifies the experience for you and helps us support you more effectively.
+
+**Question:** Why are we starting the retirement now?</br>
+**Answer:**   Until now, we have been integrating the Mover’s cloud migration functionality into Migration Manager. Migration Manager now offers the full functionality of Mover along with an improved experience within the Microsoft admin center. 
 
 
-**Question:** Why are we starting the retirement now?
-**Answer:**  Until now, we have been integrating the Mover’s cloud migration functionality into Migration Manager. Migration Manager now offers the full functionality of Mover along with an improved experience within the Microsoft admin center. 
+**Question:**  Will my current Mover migrations stop working?</br>
+**Answer:**    No. Microsoft is retiring the ability to create **new** connectors. Existing migrations will continue to operate on Mover. However, we recommend transitioning your migrations to Migration Manager at your earliest convenience to ensure to get the latest migration tooling. 
 
+**Question:**  I'm migrating using Mover. If my existing connector gets disconnected, can I still reauthorize it to continue?</br>
+**Answer:**    Yes. You can reauthorize an existing connector assuming the existing connector was operational before the retirement. 
 
-**Question:**  Will my current Mover migrations stop working?
-**Answer:**  No. Microsoft is retiring the ability to create **new** connectors. Existing migrations will continue to operate on Mover. However, we recommend transitioning your migrations to Migration Manager at your earliest convenience to ensure to get the latest migration tooling. 
+**Question:**  Do I still reach out to Mover if my migrations start having issues? </br>
+**Answer:**    Follow the existing support process to report issues, and Microsoft will do its best to resolve them. Microsoft won't accept requests for new features in Mover.
 
-**Question:**  I'm migrating using Mover. If my existing connector gets disconnected, can I still reauthorize it to continue?
-**Answer:** Yes. You can reauthorize an existing connector assuming the existing connector was operational before the retirement. 
-
-
-**Question:**  Do I still reach out to Mover if my migrations start having issues? 
-**Answer:** Follow the existing support process to report issues, and Microsoft will do its best to resolve them. Microsoft won't accept requests for new features in Mover.
-
-**Question:**  Will individual or consumer migrations continue to work on Mover?
+**Question:** Will individual or consumer migrations continue to work on Mover?</br>
 **Answer:**   We'll continue to support individual, consumer, or student migrations from Mover for some time. Refer to this page for additional information on these migration scenarios. 
 
-
-
-
-**Question:** Does this mean that Migration Manager won't support individual migrations/normal transfers?
+**Question:** Does this mean that Migration Manager won't support individual migrations/normal transfers?</br>
 **Answer:**   Migration Manager is designed for organizational migrations and not for individual migrations. 
 
 
