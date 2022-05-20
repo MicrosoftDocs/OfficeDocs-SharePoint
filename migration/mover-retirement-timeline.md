@@ -17,18 +17,19 @@ description: "Mover retirement timeline"
 ---
 # Mover Migration retirement timeline
 
-As Migration Manager is now at full parity with our legacy Mover.io migration tool, we have set the timeline to retire Mover. Unifying the migration experience within Migration Manager simplifies the tool decision for you and allows us to focus our development and support resources to help you meet your migration goals.
+>[!Important]
+>**Attention businesses or those with EDU plans**: We will soon be retiring the legacy [Mover](https://app.mover.io) tool's ability to migrate from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm-egnyte-overview.md). Please use [Migration Manager](https://aka.ms/ODSP-MM) going forward.
+
+Mover's cloud migration scenarios have been fully made available in Migration MAnager and we have set the timeline to retire Mover. Unifying the migration experience within Migration Manager simplifies the tool decision for you and allows us to focus our development and support resources to help you meet your migration goals.
 
 
 |Date|What|
 |:-----|:-----|
+|Now||
 |July 1, 2022|You will no longer be able to create Mover admin connectors to Box or Google.|
-|July 1, 2022|End of dev support for Tenant to Tenant (T2T) migrations.|
-|September 1, 2022|End of dev support for cloud admin led migrations. **Note:** Fast Track led migrations are not impacted.|
-|Fall 2022|End of support for Blob storage and Amazon S3. |
-|Fall 2022|Tenant to Tenant connectors for t2t migrations m365 admin connectors|
-|December 1, 2022|End of dev support for all Fast Track cloud admin migrations.|
-|Early 2023|Individual and end-user migrations will no longer be supported.|
+|TBA||
+|TBA|
+
 
 >[!Important]
 >If you are currently in the midddle of a Mover migration, you may continue using Mover until you finish your migration. However, you will not be able to create new connectors.
