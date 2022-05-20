@@ -37,7 +37,7 @@ Mover's cloud migration scenarios are fully available in Migration Manager and h
 
 ## FAQs
 
-**Question:**  Why are retiring Mover.io?</br>
+**Question:**  Why are we retiring Mover.io?</br>
 **Answer:**    Mover's cloud migration functionality is now fully integrated into Migration Manager, Microsoft'ts recommended tool for file migrations. This simplifies the experience for you and helps us support you more effectively.
 
 **Question:** Why are we starting the retirement now?</br>
