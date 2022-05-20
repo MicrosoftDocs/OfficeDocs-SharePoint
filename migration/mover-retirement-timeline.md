@@ -25,10 +25,9 @@ Mover's cloud migration scenarios have been fully made available in Migration MA
 
 |Date|What|
 |:-----|:-----|
-|Now||
-|July 1, 2022|You will no longer be able to create Mover admin connectors to Box or Google.|
-|TBA||
-|TBA|
+|July 1, 2022|You will no longer be able to create Mover admin connectors to Box or Dropbox. Google and Egnyte connectors were disabled earlier this year.|
+|TBA|Migrations between two Microsoft tenants.|
+|TBA|Individual and end-user migrations.|
 
 
 >[!Important]
