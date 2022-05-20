@@ -24,16 +24,14 @@ description: "Mover retirement timeline"
 >>[**Individuals or students**: You may continue to use Mover, learn how!](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
 >
 
-
-Mover's cloud migration scenarios have been fully made available in Migration MAnager and we have set the timeline to retire Mover. Unifying the migration experience within Migration Manager simplifies the tool decision for you and allows us to focus our development and support resources to help you meet your migration goals.
-
+Mover's cloud migration scenarios have been fully made available in Migration Manager and we have set the timeline to retire Mover. Unifying the migration experience within Migration Manager simplifies the tool decision for you and allows us to focus our development and support resources to help you meet your migration goals.
 
 |Date|What|
 |:-----|:-----|
-|July 1, 2022|You will no longer be able to create Mover connectors to Box admin or Dropbox admin . Google Drive admin and Egnyte admin connectors were disabled earlier this year.|
+|July 1, 2022|You'll no longer be able to create Mover connectors to Box admin or Dropbox admin. Google Drive admin and Egnyte admin connectors were disabled earlier this year.|
 |Fall 2022|Azure Blob Storage and Amazon S3 connectors will be disabled. 
-|TBA|Migrations between two Microsoft tenants will be discontinued.|
-|TBA|Individual and end-user migrations will be discontinued.|
+|TBA|Migrations between two Microsoft tenants will be no longer supported.|
+|TBA|Individual and end-user migrations will no longer be supported.|
 
 
 
