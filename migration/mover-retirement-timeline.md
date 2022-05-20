@@ -56,10 +56,5 @@ Mover's cloud migration scenarios are fully available in Migration Manager and h
 **Question:** Will individual or consumer migrations continue to work on Mover?</br>
 **Answer:**   We'll continue to support individual, consumer, or student migrations from Mover for some time. Refer back to this page for updates on these migration scenarios. 
 
-**Question:** Does this mean that Migration Manager won't support individual migrations/normal transfers?</br>
-**Answer:**   Migration Manager is designed for organizational migrations and not for individual migrations. 
-
-
-
 
 
