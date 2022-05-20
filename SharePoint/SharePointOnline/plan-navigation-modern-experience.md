@@ -49,7 +49,7 @@ This planning guide primarily addresses *site* navigation: the top (team and com
 
 ![Team site navigation example:](media/team-site-nav-example.png)
 
-**Hub navigation (Top Site)**
+**Hub navigation (top site)**
 
 ![Hub navigation example:](media/hub-nav-example.png)
 
