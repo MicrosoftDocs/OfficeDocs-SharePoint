@@ -1,5 +1,5 @@
 ---
-title: "Plan for SQL Server Always On and Microsoft Azure for SharePoint Server Disaster Recovery"
+title: Plan for SQL Server Always On and Microsoft Azure for SharePoint Server Disaster Recovery
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -17,7 +17,7 @@ ms.collection:
 - Strat_SP_server
 ms.custom:
 ms.assetid: be987a18-9a54-4925-8d78-e0798f4d2901
-description: "Use SQL Server 2014 and SQL Server Always On Availability Groups and Microsoft Azure to create a hybrid disaster-recovery environment for your on-premises SharePoint Server farm. This article describes how to design and implement this solution."
+description: Use SQL Server 2014 and SQL Server Always On Availability Groups and Microsoft Azure to create a hybrid disaster-recovery environment for your on-premises SharePoint Server farm. This article describes how to design and implement this solution.
 ---
 
 # Plan for SQL Server Always On and Microsoft Azure for SharePoint Server Disaster Recovery
@@ -643,7 +643,7 @@ As a final note, you have to review and validate your plan for falling back to t
   
 |**Item**|**Notes**|
 |:-----|:-----|
-|Azure subscriptions and storage accounts  <br/> |At a minimum, you will need one subscription to create the Azure recovery farm. After you have a subscription, you can create up to 100 uniquely named storage accounts. As in the case of other Azure services, there are standard and premium storage accounts. For more information, see [Introduction to Microsoft Azure Storage](https://go.microsoft.com/fwlink/?LinkID=626892&amp;clcid=0x409).  <br/> |
+|Azure subscriptions and storage accounts  <br/> |At a minimum, you will need one subscription to create the Azure recovery farm. After you have a subscription, you can create up to 100 uniquely named storage accounts. As in the case of other Azure services, there are standard and premium storage accounts. For more information, see [Introduction to Microsoft Azure Storage](/azure/storage/common/storage-introduction).  <br/> |
 |Cloud services  <br/> |When you create the server for the VPN gateway, a cloud service gets created for the virtual machine. At this point, you have to determine how many cloud services you want to have for the recovery farm. You obviously don't want a cloud service for every server in the farm; but should you use one or several? There are good arguments for both options. By grouping virtual machines into separate cloud services, you can work with several servers as a single unit. In our test farm, we used four cloud services. The first was for the VPN gateway and then one for each of the following tiers: front end web servers, application servers, and the database servers. For more information, see [Should I Choose Cloud Services?](/azure/cloud-services/cloud-services-choose-me).  <br/> |
 |Networking  <br/> |Virtual networks are important in this disaster recovery scenario. For more information, see [Virtual Network documentation](/en-gb/azure/virtual-network/).  <br/> |
 |PowerShell  <br/> |PowerShell Azure cmdlets can help you automate tasks in your virtual environment. For more information, see [Windows Azure PowerShell Cmdlets (v2.2.2)](https://azure.microsoft.com/blog/windows-azure-powershell-cmdlets-v2-2-2/).  <br/> |

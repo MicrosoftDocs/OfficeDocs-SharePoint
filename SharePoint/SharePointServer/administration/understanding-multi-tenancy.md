@@ -1,5 +1,5 @@
 ---
-title: "Understanding multi-tenancy in SharePoint Server 2013"
+title: Understanding multi-tenancy in SharePoint Server 2013
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -16,7 +16,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 3f03113d-627a-4cd2-adbd-2945bdee9a4b
 
-description: "Learn about the multi-tenancy feature and the underlying components and services related to multi-tenancy in SharePoint Server."
+description: Learn about the multi-tenancy feature and the underlying components and services related to multi-tenancy in SharePoint Server.
 ---
 
 # Understanding multi-tenancy in SharePoint Server 2013
@@ -50,7 +50,7 @@ A SharePoint 2013 web application is composed of an Internet Information Service
   
 #### Host-named site collection
 
-Host-named site collections enable you to assign a unique DNS name to site collections. For example, you can address them as http://TeamA.contoso.com and http://TeamB.fabrikam.com. This lets you deploy many sites that use unique DNS names in the same web application. It also enables service providers to scale an environment to many customers. If you do not use host-named site collections, the SharePoint web application will contain many path-based site collections that share the same host name (DNS name). For example, Team A would have a site collection at http://contoso.com/sites/teamA and Team B would have a site collection at http://fabrikam.com/sites/teamB.
+Host-named site collections enable you to assign a unique DNS name to site collections. For example, you can address them as `http://TeamA.contoso.com` and `http://TeamB.fabrikam.com`. This lets you deploy many sites that use unique DNS names in the same web application. It also enables service providers to scale an environment to many customers. If you do not use host-named site collections, the SharePoint web application will contain many path-based site collections that share the same host name (DNS name). For example, Team A would have a site collection at http://contoso.com/sites/teamA and Team B would have a site collection at http://fabrikam.com/sites/teamB.
   
 Host Named Site Collections are fundamentally the only way to scale for multi-tenancy environments, and provide ultimate flexibility with respect to the URL namespace used. If using path-based sites with multi-tenancy the software boundary for managed paths will be reached extremely quickly.
   

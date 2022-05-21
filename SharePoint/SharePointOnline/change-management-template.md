@@ -17,7 +17,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Provision and customize the Workplace transformation site"
+description: Provision and customize the Workplace transformation site
 ---
 
 # Overview of the Workplace transformation site 
@@ -206,7 +206,7 @@ Learn how to customize web parts and content that will appear on certain pages o
 
    ![Image of the button web part on the Community page](media/hybrid-news-templates.png)
 
-Edit the [Button web part](https://support.microsoft.com/office/use-the-button-web-part-d2e37c48-11e8-45b9-8d9e-abdaa97c2a7a#:~:text=%20Add%20the%20Button%20web%20part%20%201,pane%20on%20the%20right,%20enter%20your...%20More) on bottom of the **Community** page to give users an opportunity to engage and acknowledge others. Connect the Button web part to a [Microsoft Form](https://support.microsoft.com/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d.) where users can submit nominations. Then, use the pre-populated news post templates in **Settings > Site contents** to publish news. 
+Edit the [Button web part](https://support.microsoft.com/office/use-the-button-web-part-d2e37c48-11e8-45b9-8d9e-abdaa97c2a7a#:~:text=%20Add%20the%20Button%20web%20part%20%201,pane%20on%20the%20right,%20enter%20your...%20More) on bottom of the **Community** page to give users an opportunity to engage and acknowledge others. Connect the Button web part to a [Microsoft Form](https://support.microsoft.com/en-us/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d) where users can submit nominations. Then, use the pre-populated news post templates in **Settings > Site contents** to publish news. 
 <br>
 
 #### Edit the change management checklist

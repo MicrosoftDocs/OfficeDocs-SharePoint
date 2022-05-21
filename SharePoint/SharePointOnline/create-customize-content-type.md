@@ -1,5 +1,5 @@
 ---
-title: "Create or customize a content type"
+title: Create or customize a content type
 ms.reviewer: anfra
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -16,7 +16,7 @@ search.appverid:
 ms.collection:  
 - M365-collaboration
 ms.custom: admindeeplinkSPO
-description: "Learn how to create or customize a content type in the SharePoint admin center."
+description: Learn how to create or customize a content type in the SharePoint admin center.
 ---
 
 # Create or customize a content type

@@ -19,7 +19,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn about the automatic modernization of classic home pages, and how to disable this if you want."
+description: Learn about the automatic modernization of classic home pages, and how to disable this if you want.
 
 ---
 # Classic home page modernization
@@ -84,7 +84,7 @@ When users first experience the change, they’ll see a walkthrough that highlig
 
 ![Classic-to-modern upgrade experience](media/classictomodernnewGIF.gif)
 
-For more training, download the [classic to modern walkthrough](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/live/SharePoint/SharePointOnline/media/modernize-classic-home-page-walkthrough.pdf).
+For more training, download the `[classic to modern walkthrough]`.
 
 
 ## How to prevent specific sites from being updated 
