@@ -222,7 +222,7 @@ SharePoint Server Search Crawler:Azure Plugin ayg2m High AzureServiceProxy::Subm
 
 If Cloud search service application is hosted in a SharePoint Server 2013 environment, the uls tag tracking the error would be `amnz2` and `amoeu`.
 
-You need to request an increase in the available quota to fix the issue. To increase the maximum items that can be indexed beyond 20 million, you need to contact Microsoft Support via the [Microsoft 365 admin center](/office365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide).
+You need to request an increase in the available quota to fix the issue. To increase the maximum items that can be indexed beyond 20 million, you need to contact Microsoft Support via the [Microsoft 365 admin center](/office365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide&preserve-view=true).
 
 ***My Microsoft 365 organization is configured for hybrid. Can I query for only on-premises items that have been crawled using Cloud hybrid search service application?***
 
