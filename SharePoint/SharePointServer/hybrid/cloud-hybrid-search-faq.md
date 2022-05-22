@@ -1,5 +1,5 @@
 ---
-title: "Cloud hybrid search service (Cloud SSA) FAQ"
+title: Cloud hybrid search service (Cloud SSA) FAQ
 ms.reviewer: mbiswas
 ms.author: serdars
 author: SerdarSoysal
@@ -12,7 +12,7 @@ ms.prod: sharepoint-server-itpro
 ms.collection: SPO_Content
 ms.localizationpriority: medium
 ms.custom: admindeeplinkSPO
-description: "Cloud hybrid search service (Cloud SSA) FAQ"
+description: Cloud hybrid search service (Cloud SSA) FAQ
 ---
 
 # Cloud hybrid search service (Cloud SSA) FAQ
@@ -364,7 +364,7 @@ Cloud search service application always communicates with endpoints using port 4
 
 3. <https://login.windows.net/common/oauth2/authorize>
 
-4. <https://sts.windows.net/*>
+4. `https://sts.windows.net/*`
 
 5. [https://login.microsoftonline.com](https://login.microsoftonline.com/)
 

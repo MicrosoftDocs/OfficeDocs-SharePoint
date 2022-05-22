@@ -1,5 +1,5 @@
 ---
-title: "Application management and governance in SharePoint"
+title: Application management and governance in SharePoint
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -17,7 +17,7 @@ ms.collection:
 - Strat_SP_gtc
 ms.custom: 
 ms.assetid: f8efdfaf-8ef6-445c-9fb9-8845667e478b
-description: "Learn how to govern applications for SharePoint by creating a customization policy and understanding the app model, branding, and life-cycle management."
+description: Learn how to govern applications for SharePoint by creating a customization policy and understanding the app model, branding, and life-cycle management.
 ---
 
 # Application management and governance in SharePoint
@@ -57,7 +57,7 @@ Determine the types of customizations you want to allow and how to manage them. 
     
 - **Specific policies regarding each potential type of customization** What types of customizations do you allow? 
     
-    For more information about kinds of customizations and their potential risks, see the Customizations table later in this article. For more information about processes for managing customizations, see the white paper [SharePoint Products and Technologies customization policy](https://go.microsoft.com/fwlink/p/?linkid=92311). Most of this content still applies to SharePoint Server 2016.
+    For more information about kinds of customizations and their potential risks, see the Customizations table later in this article. For more information about processes for managing customizations, see the white paper `SharePoint Products and Technologies customization policy`. Most of this content still applies to SharePoint Server 2016.
     
 - **Policies around using the App Catalog and SharePoint Store** Which apps for SharePoint do you want to make available to your organization? Can users purchase apps directly? See [Solutions or apps for SharePoint?](application-management-and-governance-in-sharepoint.md#SolutionsApps) later in this article for more information. 
     

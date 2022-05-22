@@ -18,7 +18,7 @@ description: "Learn about deleting OneDrive experience settings."
 
 The recommended way to delete all Microsoft OneDrive experience settings and information is to remove the user's OneDrive site, after reassigning any retained files to other users.
 
-An admin can delete these lists by using [PowerShell Script](/powershell/module/microsoft.powershell.core/about/about_scripts?view=powershell-7.2) and [SharePoint Client-Side Object Model (CSOM)](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) commands. All of the needed CSOM assemblies are included in the SharePointPnPPowerShellOnline Microsoft PowerShell module.
+An admin can delete these lists by using [PowerShell Script](/powershell/module/microsoft.powershell.core/about/about_scripts?view=powershell-7.2&preserve-view=true) and [SharePoint Client-Side Object Model (CSOM)](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) commands. All of the needed CSOM assemblies are included in the SharePointPnPPowerShellOnline Microsoft PowerShell module.
 
 You can adapt the script included in this article to meet the your needs. For example, you can extract the information for user1@contoso.com as follows:
 
