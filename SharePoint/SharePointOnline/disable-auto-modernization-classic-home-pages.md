@@ -84,7 +84,7 @@ When users first experience the change, they’ll see a walkthrough that highlig
 
 ![Classic-to-modern upgrade experience](media/classictomodernnewGIF.gif)
 
-For more training, download the `[classic to modern walkthrough]`.
+For more training, download the [classic to modern walkthrough](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint-pr/raw/main/SharePoint/SharePointOnline/media/modernize-classic-home-page-walkthrough.pdf).
 
 
 ## How to prevent specific sites from being updated 
