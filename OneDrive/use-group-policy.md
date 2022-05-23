@@ -323,6 +323,9 @@ If you disable or do not configure this setting, users can choose to limit the u
 ### Prevent authentication from automatically happening
 <a name="DisableAutoConfig"> </a>
 
+> [!NOTE]
+> This setting is not currently present in the OneDrive administrative template files (ADMX/ADML) however it can be set using the registry.
+
 This setting determines whether or not the Sync client can automatically sign in.
 
 If you enable this setting, it prevents Sync from automatically signing with an existing AAD credential that is made available to Microsoft applications.
