@@ -1,7 +1,7 @@
 ---
 title: "Limit access"
-ms.author: v-bshilpa
-author: Benny-54
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
