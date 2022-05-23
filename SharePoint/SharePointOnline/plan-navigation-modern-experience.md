@@ -27,7 +27,7 @@ description: "Use the guidance in this document to help you create the right nav
 
 # Plan and implement SharePoint site navigation
 
-The fundamental principles and practices for site and page navigation apply to classic and modern SharePoint architectures. However, your options for implementing navigation differs based on the framework for your sites and intranet. For example, the default navigation experiences available in classic SharePoint site hierarchies - sites with subsites - are not available in the modern experience. 
+The fundamental principles and practices for site and page navigation apply to classic and modern SharePoint architectures. However, your options for implementing navigation differ based on the framework for your sites and intranet. For example, the default navigation experiences available in classic SharePoint site hierarchies - sites with subsites - are not available in the modern experience. 
 
 Instead, [hubs](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f) provide a great way to achieve the cross-site navigation features previously available in managed navigation and site hierarchies in classic SharePoint. No matter which framework you are using, you can use the guidance in this document to help you create the right navigation for your organization.
 
@@ -39,17 +39,17 @@ Instead, [hubs](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3
 
 ## SharePoint site navigation
 
-This planning guide primarily addresses *site* navigation: the top (communication site and hubs) and left (team site) navigation experiences.
+This planning guide primarily addresses *site* navigation: the top (team and communication sites and hubs) and left (team sites only) navigation experiences.
 
-**Communication site navigation**
+**Top site navigation**
 
 ![Communication site navigation example:](media/comm-site-nav-example.png)
 
-**Team site navigation**
+**Left site navigation**
 
 ![Team site navigation example:](media/team-site-nav-example.png)
 
-**Hub navigation**
+**Hub navigation (top site)**
 
 ![Hub navigation example:](media/hub-nav-example.png)
 
@@ -98,7 +98,7 @@ You may choose to supplement or refine these links for your team sites, but you 
 
 ### Navigation menus in SharePoint
 
-There are two types of navigation menu styles for SharePoint sites - cascading and mega menu. Team sites only support the cascading menu style but communication sites support both mega menus and cascading menus. Hubs, whether they are team sites or communication sites, add an additional mega menu to the site. Mega menus are not available in on premises sites. Learn about [how to customize the navigation on your SharePoint site](https://support.office.com/article/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca).
+There are two types of navigation menu styles for SharePoint sites - cascading and mega menu. Team sites and communication sites support both mega menus and cascading menus. Hubs, whether they are team sites or communication sites, add an additional mega menu to the site. Mega menus are not available in on-premises sites. Learn about [how to customize the navigation on your SharePoint site](https://support.office.com/article/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca).
 
 **Cascading menu**
 
@@ -122,7 +122,7 @@ There are two types navigation experiences – targeted and not targeted. With t
 
 All types of menu links support some decoration with emojis. Emojis can be used at the beginning or end of a link label to add some visual interest to your links. 
 
-Choose an emoji that relates to the label topic. You can search for emojis at [emojipedia.org](https://emojipedia.org/), or use the Windows key plus a period (.). Copy the emoji and add it to the label when you are editing your navigation.
+Choose an emoji that relates to the label topic. You can search for emojis at [emojipedia.org](https://emojipedia.org/), or use the Windows key + period (.). Copy the emoji and add it to the label when you are editing your navigation.
 
 
 ### Link to pages, not individual documents

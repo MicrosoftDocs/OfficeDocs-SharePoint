@@ -34,10 +34,11 @@ Moving to Microsoft 365? Let us help you migrate your content easily and securel
 >[!Important]
 >**Attention businesses or those with EDU plans**: We will soon be retiring the legacy [Mover](https://app.mover.io) tool's ability to migrate from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm-egnyte-overview.md). Please use [Migration Manager](https://aka.ms/ODSP-MM) going forward.
 >
->If you are currently in the midst of a Mover migration project, you will not be affected. Only new connectors will not be supported. 
+>If you are currently in the middle of a Mover migration project, you will not be affected. Only new connectors will not be supported. 
 >
 >[**Individuals or students**: You may continue to use Mover, learn how!](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
 >
+>[**Learn more about the Mover.io retirement**](mover-retirement-timeline.md)
 
 
 
