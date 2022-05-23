@@ -30,7 +30,7 @@ If you want to govern the activation of code-based sandbox solutions, you can ut
 After an administrator uploads a solution to the Managed Solutions Gallery, site collection administrators can add and activate the solution using existing processes. Code-based sandbox solutions that are not in the Managed Solutions Gallery can't be activated by site collection administrators within the web application.
   
 > [!IMPORTANT]
-> When an InfoPath form that contains custom code is published in a web application with a Managed Solutions Gallery, the form no longer renders in a browser. It also creates a category of sandbox solution that cannot be approved using the Managed Solutions Gallery, so publishing fails and the form can no longer be rendered by InfoPath Forms Services. For additional information, see `InfoPath Forms Containing Code Fail to Activate when using the Managed Solutions Gallery`.
+> When an InfoPath form that contains custom code is published in a web application with a Managed Solutions Gallery, the form no longer renders in a browser. It also creates a category of sandbox solution that cannot be approved using the Managed Solutions Gallery, so publishing fails and the form can no longer be rendered by InfoPath Forms Services.
   
 ## Overview
 
