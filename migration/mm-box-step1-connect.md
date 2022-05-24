@@ -35,9 +35,11 @@ Sign in to your Box account and add the Microsoft 365 migration app to your Box 
 5. Select **Grant Access to Box**. You are returned to the SharePoint Admin center. Select **Next**.
 6. Select **Go to custom apps**. Sign in to the Box admin console.
 7. Return to SharePoint, select **Copy the client ID**.
-![mm-box-authorize-m365-app.png](media/mm-box-authorize-m365-app.png)
-1. In the Box admin Custom apps, select **+** to authorize. Paste in the client ID.
-2.  You're now connected to Box. Select **Finish** to close the window.
+
+![Authorize the Microsoft 365 migration app in Box](media/mm-box-authorize-m365-app.png)
+
+8. In the Box admin Custom apps, select **+** to authorize. Paste in the client ID.
+9.  You're now connected to Box. Select **Finish** to close the window.
 
 >[!Important]
 >For security reasons, you have 10 minutes to complete the steps to connect to Box. After 10 minutes of inactivity, the session will expire.
