@@ -1,5 +1,5 @@
 ---
-title: "Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search"
+title: Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -21,7 +21,7 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: 1a11cbf3-ab19-4aa0-ae9c-8e4b793154a2
-description: "Learn how to show results from the Microsoft 365 search index when searching from SharePoint Server sites with cloud hybrid search."
+description: Learn how to show results from the Microsoft 365 search index when searching from SharePoint Server sites with cloud hybrid search.
 ---
 
 # Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search
@@ -69,7 +69,7 @@ Follow these steps:
     
 3. In the **Protocol** section, select **Remote SharePoint**. 
     
-4. In the **Remote Service URL** section, enter the address of the root site collection in SharePoint in Microsoft 365 that you want to get search results from, such as https://adventure-works.sharepoint.com. 
+4. In the **Remote Service URL** section, enter the address of the root site collection in SharePoint in Microsoft 365 that you want to get search results from, such as `https://adventure-works.sharepoint.com`. 
     
 5. In the **Type** section, select **SharePoint Search Results**. 
     

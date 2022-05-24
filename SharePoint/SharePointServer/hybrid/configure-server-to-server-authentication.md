@@ -1,5 +1,5 @@
 ---
-title: "Configure server-to-server authentication from SharePoint Server to SharePoint in Microsoft 365"
+title: Configure server-to-server authentication from SharePoint Server to SharePoint in Microsoft 365
 ms.reviewer: neilh
 ms.author: serdars
 author: SerdarSoysal
@@ -20,7 +20,7 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: 9cd888dc-9104-422e-8d8a-d795f0b1c0d0
-description: "Learn how to build a server-to server trust between SharePoint Server and SharePoint in Microsoft 365."
+description: Learn how to build a server-to server trust between SharePoint Server and SharePoint in Microsoft 365.
 ---
 
 # Configure server-to-server authentication from SharePoint Server to SharePoint in Microsoft 365
@@ -188,7 +188,7 @@ This section describes the variables you will set in the procedure that follows.
 | Variable | Comments |
 |:-----|:-----|
 |$spcn  |The root domain name of your public domain. This value should not be in the form of a URL; it should be the **domain name only**, with **no protocol**.  <br/> An example is adventureworks.com.  |
-|$spsite  |The internal URL of your on-premises primary web application, such as **http://sharepoint** or **https://sharepoint.adventureworks.com**. This value is a full URL using the proper protocol (either **http:** // or **https://** ).  <br/> This is the internal URL of the web application that you are using for hybrid functionality.  <br/> An example is http://sharepoint or https://sharepoint.adventureworks.com.  |
+|$spsite  |The internal URL of your on-premises primary web application, such as **http://sharepoint** or **`https://sharepoint.adventureworks.com`**. This value is a full URL using the proper protocol (either **http:** // or **https://** ).  <br/> This is the internal URL of the web application that you are using for hybrid functionality.  <br/> An example is http://sharepoint or `https://sharepoint.adventureworks.com`.  |
 |$site  |The object of your on-premises primary web application. The command that populates this variable gets the object of the site you specified in the **$spsite** variable.  <br/> This variable is automatically populated.  |
 |$spoappid  |The SharePoint in Microsoft 365 application principal ID is always 00000003-0000-0ff1-ce00-000000000000. This generic value identifies SharePoint in Microsoft 365 objects in a Microsoft 365 organization.  |
 |$spocontextID  |The context ID (ObjectID) of your SharePoint in Microsoft 365 tenant. This value is a unique GUID that identifies your SharePoint in Microsoft 365 tenant.  <br/> This value is automatically detected when you run the command to set the variable.  |
