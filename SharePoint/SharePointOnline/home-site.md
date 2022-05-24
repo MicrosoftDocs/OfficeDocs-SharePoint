@@ -36,7 +36,7 @@ Before you begin, make sure you've reviewed how to [plan, build, and launch a ho
 > You can set only one site in your organization as a home site. The site can be registered as a hub site, but can't be associated with a hub. The first time you set up a home site, it might take up to several minutes for the changes to take effect. If you run the command again to switch your home site to a different site, it might take up to 2 hours.
 
 > [!IMPORTANT]
-> If the site you want to be your home site isn't currently your root site and you want it to be, first [replace your root site with the site](modern-root-site.md), and then make the site your home site. 
+> If you want your home site to also be the root site, or top-level site of your intranet, first [replace your root site with the site](modern-root-site.md), and then set up the home site. If you set up a home site first, and then replace it with your root site, you may lose home site settings and need to reapply them.  
 
 ## Use the SharePoint admin center
 
