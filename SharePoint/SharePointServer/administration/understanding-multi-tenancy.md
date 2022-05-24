@@ -58,7 +58,7 @@ For additional information about how to plan for host-named site collections for
   
 #### Service groups (proxy groups)
 
-A  *service group*  , also known as  *proxy group*  , is a group of service applications that are selected for use by a web application. 
+A  *service group*, also known as  *proxy group*, is a group of service applications that are selected for use by a web application. 
   
 By default, all service applications are included in the default group unless another group is specified at the time that the service application is created. You can add and remove service applications from the default group at any time. When you create a web application, you can select the default group, or you can create a custom group of services. You create a custom group of services by selecting only the service applications that you want the web application to use.
   
