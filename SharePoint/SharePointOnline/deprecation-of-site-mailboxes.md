@@ -1,7 +1,7 @@
 ---
 title: "deprecation of site mailboxes"
-ms.author: v-bshilpa
-author: Benny
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
