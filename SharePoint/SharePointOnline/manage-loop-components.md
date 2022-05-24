@@ -36,27 +36,27 @@ You'll need the latest version of SharePoint PowerShell module to enable or disa
 
 |Experience|SharePoint organization properties|Notes|
 |:---------|:---------------------------------|:----|
-|Loop components in Teams and Outlook|`IsLoopEnabled` (boolean)<br/>**coming May 2022**|This property controls Loop experiences across the Microsoft 365 experience. Only applies when `IsFluidEnabled` is `True`|
-|Microsoft Whiteboard on OneDrive|`IsWBFluidEnabled` (boolean) |This property controls Microsoft Whiteboard on OneDrive. Only applies when `IsFluidEnabled` is `True`|
-|Microsoft OneNote collaborative Meeting notes|`IsCollabMeetingNotesEnabled` (boolean)|This property controls Microsoft OneNote collaborative Meeting notes. Only applies when `IsFluidEnabled` is `True`|
-|**All Microsoft 365 experiences** powered by Fluid Framework.|`IsFluidEnabled` (boolean)|This core property controls all other experiences powered by Fluid Framework. Setting it to `False` will effectively disable all experiences (everything in this table) in the organization powered by Fluid Framework. Do not use after May - this setting will be deprecated later this year.
+|Loop components in Teams and Outlook|`IsLoopEnabled` (boolean) |This property controls Loop experiences across the Microsoft 365 experience.|
+|Microsoft Whiteboard on OneDrive|`IsWBFluidEnabled` (boolean) |This property controls Microsoft Whiteboard on OneDrive.|
+|Microsoft OneNote collaborative Meeting notes|`IsCollabMeetingNotesFluidEnabled` (boolean)|This property controls Microsoft OneNote collaborative Meeting notes.|
+|**All Microsoft 365 experiences** powered by Fluid Framework.|`IsFluidEnabled` (boolean)|This core property controls all other experiences powered by Fluid Framework. Setting it to `False` will effectively disable all experiences (everything in this table) in the organization powered by Fluid Framework. **Do not use after May - this setting will be deprecated later this year.**
 
 To check your tenant's default file permissions
 1.	Go to the [Microsoft 365 admin center](https://admin.microsoft.com).
 2.	Under Admin centers, select **SharePoint**.
 3.	Select **Policies** > **Sharing**, and under **File and folder links**, view your organization's default file permissions.
 
-To check if the Fluid Framework is enabled, run `Get-SPOTenant` without any arguments. Verify the value of IsFluidEnabled is true.
+To check if Loop components are enabled, run `Get-SPOTenant` without any arguments. Verify the value of IsLoopEnabled is true.
 
-To enable the Fluid Framework, run `Set-SPOTenant -IsFluidEnabled $true`. The change will take a short time to apply across your organization. 
+To enable Loop components, run `Set-SPOTenant -IsLoopEnabled $true`. The change will take a short time to apply across your organization. 
 
 The feature will be available on Teams Windows Desktop, Mac, iOS, Android, and web. When enabled, users will see a new option for inserting Loop components in the message compose experience for these clients.
 
-To disable Fluid Framework, run `Set-SPOTenant -IsFluidEnabled $false`. The change will take a short time to apply across your organization. 
+To disable Loop components, run `Set-SPOTenant -IsLoopEnabled $false`. The change will take a short time to apply across your organization. 
 
 ## eDiscovery
 
-Loop components, Whiteboard on OneDrive, and OneNote collaborative Meeting Notes are discoverable but have limited eDiscovery workflow support. Currently, these files are stored in the creator’s OneDrive for Business and are available for search and collection in both core and advanced eDiscovery. However, they do not render in preview and the export format for review is not consumable by existing tools. To view the exported content, upload them to any OneDrive for Business.
+Loop components, Whiteboard on OneDrive, and OneNote collaborative Meeting Notes are discoverable but have limited eDiscovery workflow support. Currently, these files are stored in the creator’s OneDrive for Business and are available for search and collection in both eDiscovery (Standard) and eDiscovery (Premium). However, they do not render in preview and the export format for review is not consumable by existing tools. To view the exported content, upload them to any OneDrive for Business.
 
 Microsoft is working on an offline consumable export format. In the meantime, if this workaround for review flows is not sufficient for your organization’s needs, you can temporarily disable these experiences as outlined in the [Settings management](#settings-management) section.
 

@@ -2,20 +2,19 @@
 
 
 
-## Week of March 21, 2022
+## Week of May 16, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 3/23/2022 | [Prerequisites and Endpoints for SharePoint Migration Tool](/SharepointMigration/spmt-prerequisites) | modified |
-| 3/23/2022 | [Step 1: Connect to Egnyte](/SharepointMigration/mm-egnyte-step1-connect) | modified |
-| 3/23/2022 | [Migration Manager Google FAQs](/SharepointMigration/mm-faqs-google) | modified |
+| 5/19/2022 | [Mover retirement timelines](/SharepointMigration/mover-retirement-timeline) | added |
+| 5/20/2022 | [Mover retirement timeline](/SharepointMigration/mover-retirement-timeline) | modified |
 
 
-## Week of March 07, 2022
+## Week of April 25, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 3/7/2022 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
-| 3/8/2022 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
+| 4/27/2022 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
+| 4/27/2022 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
