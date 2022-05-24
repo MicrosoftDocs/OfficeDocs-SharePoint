@@ -1,5 +1,5 @@
 ---
-title: "Install SharePoint 2013 across multiple servers for a three-tier farm"
+title: Install SharePoint 2013 across multiple servers for a three-tier farm
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -15,7 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 0dc9f7d6-0e82-4748-a951-3ced3f167803
-description: "Learn how to install SharePoint to create a server farm that includes web servers, an application server, and a database server."
+description: Learn how to install SharePoint to create a server farm that includes web servers, an application server, and a database server.
 ---
 
 # Install SharePoint 2013 across multiple servers for a three-tier farm
@@ -132,9 +132,9 @@ Use the following procedure to install prerequisites on each server in the farm.
     
   - [KB 2708075](https://go.microsoft.com/fwlink/p/?LinkID=254222)
     
-  - [KB 2759112](https://go.microsoft.com/fwlink/p/?LinkId=267536)
+  - `[KB 2759112]`
     
-  - [KB 2765317](https://go.microsoft.com/fwlink/p/?LinkID=268725)
+  - `[KB 2765317]`
     
 ## Install SharePoint 2013 on the farm servers
 <a name="InstallSP"> </a>

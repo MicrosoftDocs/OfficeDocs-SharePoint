@@ -1,5 +1,5 @@
 ---
-title: "Hardware and software requirements for SharePoint Server 2016"
+title: Hardware and software requirements for SharePoint Server 2016
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -17,7 +17,7 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 4d88c402-24f2-449b-86a6-6e7afcfec0cd
-description: "Find out the minimum hardware and software requirements you need to install and run SharePoint Server 2016."
+description: Find out the minimum hardware and software requirements you need to install and run SharePoint Server 2016.
 ---
 
 # Hardware and software requirements for SharePoint Server 2016
@@ -197,7 +197,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Windows Server 2016](https://go.microsoft.com/fwlink/?linkid=830779)
     
-- [Office 365 Enterprise](https://go.microsoft.com/fwlink/p/?LinkId=258856)
+- [Office 365 Enterprise](https://www.microsoft.com/en-us/microsoft-365/enterprise/compare-office-365-plans)
     
 - [Microsoft SQL Server 2014 Service Pack 1 (SP1)](https://go.microsoft.com/fwlink/p/?LinkId=618406)
     
@@ -223,7 +223,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Microsoft Silverlight 3](https://go.microsoft.com/fwlink/p/?LinkId=166506)
     
-- [Exchange Web Services Managed API, version 1.2](https://go.microsoft.com/fwlink/p/?linkid=238668)
+- [Exchange Web Services Managed API, version 1.2](https://www.nuget.org/packages/Microsoft.Exchange.WebServices/1.2.0)
     
 - [Microsoft Identity Extensions](https://go.microsoft.com/fwlink/?LinkId=252368)
     
