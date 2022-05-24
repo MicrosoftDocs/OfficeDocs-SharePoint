@@ -133,7 +133,7 @@ Follow these steps:
 
 2. At the bottom of the pane, select **Contact Support**, and then select **New Service Request**. 
 
-3. Under **Description**, enter "SharePoint Migration over 100TB". 
+3. Leave **Description** blank. 
 
 4. Fill out the remaining info, and select **Contact me**.
 
@@ -168,29 +168,15 @@ Answer:  Here are some quick self-help checks to consider:</br>
 **Question: My migration is blocked with consistent high volume of Http 503 errors ("Server Too Busy") ?**</br>
 Answer: If you are experiencing a high volume of HTTP 503 responses blocking your migration **during evening and weekend hours**, follow the steps below to create a support ticket.
 
-1. Navigate to https://admin.microsoft.com
+Follow these steps:
 
-2. Ensure you're using the new admin center preview.
+1. As an administrator, select the following link, which will populate a help query in the admin center: [SharePoint Migration Throttle with 503](https://aka.ms/503MigrationThrottle).
 
-    >[!Note]
-    >If you are using the old M365 admin center you can skip step 8 as the "Description" field will not exist.
+2. At the bottom of the pane, select **Contact Support**, and then select **New Service Request**. 
 
-3. To activate the **Need Help?** pane on the right-hand side of your screen: On the left nav pane, select **Support**, and then select **New Service Request**. 
+3. Leave **Description** blank. 
 
-     ![New service request](media/new-service-request.png)
-
-4. In the **Briefly describe your issue** area, enter "SharePoint Migration Throttling with 503".
-
-    > [!div class="mx-imgBorder"]
-    > ![screen displays need help](media/need-help.png)
-
-5. Select **Contact Support**.
-
-6. Under **Description**, enter "SharePoint Migration Throttling with 503". 
-
-7. Fill out the remaining info, and select **Contact me**.
-
-8. After the ticket has been created, ensure you provide the support agent with the following information:
+4. After the ticket has been created, ensure you provide the support agent with the following information:
     - How much is left of your migration (x TB?). 
     - Migration start and end date.
     - Describe where you're migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc. 
