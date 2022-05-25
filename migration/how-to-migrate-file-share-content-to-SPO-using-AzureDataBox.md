@@ -133,9 +133,10 @@ After you receive confirmation from the Azure data team that your data copy has 
 
 5. Select **File share**. Enter the path to your Azure file share where your data is located.
 
-6. Follow the remaining prompts as normal, including your target location. For more info, see [How to use the SharePoint Migration Tool](./how-to-use-the-sharepoint-migration-tool.md). 
+6. Follow the remaining prompts as normal, including your target location. For more info, see [How to use the SharePoint Migration Tool](./how-to-use-the-sharepoint-migration-tool.md.
 
+:::image type="content" source="media/spmt-opening-screen.png" alt-text="SPMT launch screen":::
 
 > [!IMPORTANT]
 > - The speed at which data is ingested into SharePoint is impacted by several factors, regardless if you have your data already in Azure. Understanding these factors will help you plan and maximize the efficiency of your migration.  For more info, see  [SharePoint and OneDrive Migration Speed](./sharepoint-online-and-onedrive-migration-speed.md).
-> - File metadata and NTFS permissions can be preserved when the data is uploaded to Azure Files. In Windows, metadata is transferred automatically when you use a tool such as robocopy. In Linux, after you copy the files, you need to use a different tool to copy the metadata to your Data Box. For more information, see [Preserving file ACLs, attributes, and timestamps with Azure Data Box](/azure/databox/data-box-file-acls-preservation).
+> - File metadata and NTFS permissions can be preserved when the data is uploaded to Azure Files. To learn more, see [Preserving file ACLs, attributes, and timestamps with Azure Data Box](/azure/databox/data-box-file-acls-preservation).
