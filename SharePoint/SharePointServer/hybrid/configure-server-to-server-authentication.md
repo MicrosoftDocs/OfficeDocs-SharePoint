@@ -388,7 +388,28 @@ The script must be run on a server where SharePoint On-Premises is installed (20
 
 5. After script execution, users will not see any changes when this change is implemented.
 
+#### Step 8 (Only required for Sharepoint On-Premises 2013): Give New App Principal QueryAsUserIgnoreAppPrincipal permission
+<a name="step10"> </a>
 
+In the On-Premises 2013 version a hidden constraint is added to the query by default when any application other than Sharepoint queries a search site. When this hidden constraint is added, the Reverse Proxy returns the documents indexed in the Reverse Proxy site itself and not the internal On-Premise search site as expected. To avoid this, you need to give the App Principal created in the previous step the **QueryAsUserIgnoreAppPrincipal** permission, by executing the following steps in your Sharepoint On-Premises 2013 admin site:
+
+1. Go to <CentralAdminURL>/_layouts/appinv.aspx and Search for **c3959f3a-5ad4-4d2b-b1f0-bc70f9a5d0a1**, where you should find **Greenland Federated Search Bot Skill**.
+
+2. If there are items in the App Domain field, leave them be, and it is empty, use localhost.
+  
+3. In the Redirect URL, use https://localhost.
+  
+4. In the Permission Request XML field paste the following XML excerpt:
+  
+  ```xml
+<AppPermissionRequests>
+<AppPermissionRequest Scope="http://sharepoint/search" Right="QueryAsUserIgnoreAppPrincipal" />
+</AppPermissionRequests>
+  ```
+5. The configuration page should look as in the screenshot below, after clicking on Create you should be ready.
+
+![Give QueryAsUserIgnoreAppPrincipal permission to app](../media/QueryAsUserIgnoreAppPrincipal.png)
+  
 ## Validation and next steps
 <a name="next"> </a>
 
