@@ -129,13 +129,14 @@ After you receive confirmation from the Azure data team that your data copy has 
 
 3. [Download the SharePoint Migration Tool](https://spmt.sharepointonline.com/install/default.htm), and install it on your Azure VM. 
 
-4. Start SPMT.  Select **Sign in**, and enter your Microsoft 365 username and password.<br><br>![SharePoint Migration Tool](media/spmt-intro.png).
+4. Start SPMT.  Select **Sign in**, and enter your Microsoft 365 username and password.
+
+:::image type="content" source="media/spmt-opening-screen.png" alt-text="Spmt launch page":::
 
 5. Select **File share**. Enter the path to your Azure file share where your data is located.
 
 6. Follow the remaining prompts as normal, including your target location. For more info, see [How to use the SharePoint Migration Tool](./how-to-use-the-sharepoint-migration-tool.md.
 
-:::image type="content" source="media/spmt-opening-screen.png" alt-text="SPMT first screen":::
 
 > [!IMPORTANT]
 > - The speed at which data is ingested into SharePoint is impacted by several factors, regardless if you have your data already in Azure. Understanding these factors will help you plan and maximize the efficiency of your migration.  For more info, see  [SharePoint and OneDrive Migration Speed](./sharepoint-online-and-onedrive-migration-speed.md).
