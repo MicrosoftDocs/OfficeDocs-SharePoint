@@ -1,1 +1,25 @@
+---
+title: "Migration Manager task archive"
+ms.reviewer: 
+ms.author: jhendr
+author: JoanneHendrickson
+manager: serdars
+recommendations: true
+audience: ITPro
+f1.keywords:
+- NOCSH
+ms.topic: article
+ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
+ms.localizationpriority: high
+ms.collection: 
+- M365-collaboration
+- SPMigration
+ms.custom: admindeeplinkSPO
+search.appverid: MET150
+description: Archiving tasks in Migration Manager
+---
 
+# Archive tasks in Migration Manager 
+
+The archive task feature will soon be retired in Migration. We recommend that you review your tasks, or these archived tasks will be deleted. Apply filters and review archived tasks.
