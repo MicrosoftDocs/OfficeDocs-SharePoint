@@ -135,7 +135,7 @@ After you receive confirmation from the Azure data team that your data copy has 
 
 6. Follow the remaining prompts as normal, including your target location. For more info, see [How to use the SharePoint Migration Tool](./how-to-use-the-sharepoint-migration-tool.md.
 
-:::image type="content" source="media/spmt-opening-screen.png" alt-text="SPMT launch screen":::
+:::image type="content" source="media/spmt-opening-screen.png" alt-text="SPMT first screen":::
 
 > [!IMPORTANT]
 > - The speed at which data is ingested into SharePoint is impacted by several factors, regardless if you have your data already in Azure. Understanding these factors will help you plan and maximize the efficiency of your migration.  For more info, see  [SharePoint and OneDrive Migration Speed](./sharepoint-online-and-onedrive-migration-speed.md).
