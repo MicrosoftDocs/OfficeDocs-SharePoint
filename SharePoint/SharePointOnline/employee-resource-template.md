@@ -24,7 +24,9 @@ description: "Provision and customize the LGBTQI+ Employee resource group site t
 
    ![Image of the LGBTQ+ employee resource group landing page](media/erg-template-site.png)
 
-Use the LGBTQ+ Employee Resource Group site template to quickly create a communication site from the [SharePoint look book](https://lookbook.microsoft.com/) to uplift employee resource groups, support the career growth of people in your organization, and to help advance equality and allyship for all. This template features content focused on a LGBTQ+ employee resource group but can be adapted to fit a variety of other employee groups at your organization.  
+Use the LGBTQ+ Employee Resource Group site template to quickly create a communication site from the [SharePoint look book](https://lookbook.microsoft.com/) to uplift employee resource groups, support the career growth of people in your organization, and to help advance equality and allyship for all. 
+
+This template features content focused on a LGBTQ+ employee resource group but can be adapted to fit a variety of other employee groups at your organization.  
 
 **The LGBTQ+ Employee Resource Group site features:** 
 
@@ -72,7 +74,7 @@ As the site collection admin, you may not be the person customizing the site, so
 
 After the site has been provisioned and site owners have been added, it's time to customize the site to make it your own. Customize the site’s look, navigation, and content like news posts and events. 
 
-#### Start by signing into Microsoft 365 and navigating to the site’s URL: 
+#### Start by signing into Microsoft 365 and navigating to the site: 
 
 1. Open your web browser and navigate to [office.com](https://www.office.com/) or your organization’s sign-in location. 
 2. Sign in with your username and password. 
@@ -81,7 +83,7 @@ After the site has been provisioned and site owners have been added, it's time t
 
 #### Next, explore pre-populated content: 
 
-   ![Image of the page template with a theme that matches the site.](media/erg-template-page.png)
+   ![Image of the page template with a theme that matches the site.](media/erg-template-page-2.png)
 
 - **Home page –** The landing page features a unique theme, colorful images, and more inspirational content that is relevant and engaging. Content here is inspired by a LGBTQ+ employee resource group but can be adapted to other types of groups. Customize the Text, News, Events, and Quick Links web parts to make this site your own. 
 - **Page template –** A page template with a unique theme can be found in the site’s contents to help create news posts and pages for the site more quickly.  
