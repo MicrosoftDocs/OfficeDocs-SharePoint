@@ -20,7 +20,7 @@ description: "Learn how you can use Secure Sockets Layer (SSL) certificate manag
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
   
-The Secure Sockets Layer (SSL) certificate management feature allows you to monitor and manage the lifecycle of SSL certificates in your SharePoint farm, from acquisition and deployment to usage, expiration, and renewal..
+The Secure Sockets Layer (SSL) certificate management feature allows you to monitor and manage the lifecycle of SSL certificates in your SharePoint farm, from acquisition and deployment to usage, expiration, and renewal.    
 
 This article focuses on the following SSL certificate management operations.
   
@@ -75,7 +75,10 @@ Certificates are automatically deployed to the Windows certificate store on each
 
 Use the [Import-SPCertificate](/powershell/module/sharepoint-server/import-spcertificate) PowerShell cmdlet to import certificates from certificate files.
 
-`Import-SPCertificate [-Path] <String> [-Password <SecureString>] [-Store {EndEntity | Intermediate | Pending | Root}] [-Exportable] [-Replace] [-AssignmentCollection <SPAssignmentCollection>] [-WhatIf] [-Confirm] [<CommonParameters>]`
+
+```powershell
+Import-SPCertificate [-Path] <String> [-Password <SecureString>] [-Store {EndEntity | Intermediate | Pending | Root}] [-Exportable] [-Replace] [-AssignmentCollection <SPAssignmentCollection>] [-WhatIf] [-Confirm] [<CommonParameters>]
+```
 
 The cmdlet parameters are:
 
@@ -96,16 +99,16 @@ Import-SPCertificate -Path "\\server\fileshare\certificates.pfx" -Password $pass
 
 ## Assigning certificates to web applications
 
-SharePoint supports assigning SharePoint-managed certificates, which are imported by using the [Import-SPCertificate](/powershell/module/sharepoint-server/import-spcertificate) PowerShell cmdlet and, to web applications with an SSL binding. The certificate must be in SharePoint's End Entity certificate store and the certificate's private key must also be imported. You can assign a certificate when the web application is first created or after it's created.
+SharePoint supports assigning SharePoint-managed certificates, which are imported by using the [Import-SPCertificate](/powershell/module/sharepoint-server/import-spcertificate) PowerShell cmdlet, to web applications with an SSL binding. The certificate must be in SharePoint's End Entity certificate store and the certificate's private key must also be imported. You can assign a certificate when the web application is first created or after it's created.
 
 A `-Certificate <SPServerCertificatePipeBind>` parameter has been added to the following cmdlets and commands:
 
-- `New-SPWebApplication`
-- `New-SPWebApplicationExtension`
-- `Set-SPWebApplication`
-- `New-SPCentralAdministration`
-- `Set-SPCentralAdministration`
-- `PSConfig.exe -cmd adminvs`
+- [New-SPWebApplication](/powershell/module/sharepoint-server/new-spwebapplication)
+- [New-SPWebApplicationExtension](/powershell/module/sharepoint-server/new-spwebapplicationextension)
+- [Set-SPWebApplication](/powershell/module/sharepoint-server/set-spwebapplication)
+- [New-SPCentralAdministration](/powershell/module/sharepoint-server/new-spcentraladministration)
+- [Set-SPCentralAdministration](/powershell/module/sharepoint-server/set-spcentraladministration)
+- [PSConfig.exe -cmd adminvs](/previous-versions/office/sharepoint-server-2010/cc263093(v=office.14))
 
 The `SPServerCertificatePipeBind` accepts the following values:
 
@@ -118,7 +121,7 @@ To assign a certificate to a web application when creating that web application 
 
 ## Replacing a certificate assignment
 
-SharePoint supports replacing all usage of an existing certificate within SharePoint with a different certificate, For example, if an existing certificate is approaching its expiration and you can replace this existing certificate with a new certificate. Use the [Switch-SPCertificate](/powershell/module/sharepoint-server/switch-spcertificate) Powershell cmdlet to replace the assignments of the existing certificate with the new certificate. All usage of the existing certificate within SharePoint will then be replaced with the new certificate.
+SharePoint supports replacing all usage of an existing certificate within SharePoint with a different certificate. For example, if an existing certificate is approaching its expiration and you can replace this existing certificate with a new certificate. Use the [Switch-SPCertificate](/powershell/module/sharepoint-server/switch-spcertificate) Powershell cmdlet to replace the assignments of the existing certificate with the new certificate. All usage of the existing certificate within SharePoint will then be replaced with the new certificate.
 
 For example:
 
@@ -220,7 +223,7 @@ The cmdlet parameters are:
 |--- |--- |
 |Identity| The certificate to export.|
 |Password| The password to use to protect the exported PFX file. This parameter is only compatible with PFX files.|
-|EncryptionType (AES256 / TripleDes)| Specifies the encryption algorithm to use to protect the exported PFX file. <p>`AES256` specifies that AES-256 encryption with SHA256 hashing will be used. TripleDes specifies that `3DES` encryption with SHA1 hashing will be used. `AES-256` encryption is stronger than `3DES` encryption, but is only supported with PFX files on Windows Server 2019 and newer operating systems. <p>Use `3DES` encryption if the PFX file needs to be compatible with older operating systems. If this parameter isn't specified, `AES-256`encryption is used by default. This parameter is only compatible with PFX files.|
+|EncryptionType (AES256 / TripleDes)| Specifies the encryption algorithm to use to protect the exported PFX file. <p> `AES256` specifies that AES-256 encryption with SHA256 hashing will be used. TripleDes specifies that `3DES` encryption with SHA1 hashing will be used. `AES-256` encryption is stronger than `3DES` encryption, but is only supported with PFX files on Windows Server 2019 and newer operating systems. <p>Use `3DES` encryption if the PFX file needs to be compatible with older operating systems. If this parameter isn't specified, `AES-256` encryption is used by default. This parameter is only compatible with PFX files.|
 |Type (Cert / Pkcs7)| Specifies the type of file to generate. `Cert` will generate a CER file containing a single DER-encoded certificate. `Pkcs7` will generate a P7B (PKCS #7) file containing one or more certificates. This parameter is only compatible with CER and P7B files.|
 |IncludeAllCertificatesInCertificationPath| Specifies whether to export additional certificates that are part of the certificate chain of the specified certificate. This will only add parent certificates of the specified certificate, not child certificates issued by the specified certificate. This parameter is only compatible with PFX and P7B files.|
 |NoExtendedProperties| Specifies whether extended properties of the certificate should not be exported, such as the friendly name of the certificate. This parameter is only compatible with PFX files.|
@@ -278,7 +281,7 @@ The cmdlet parameters are:
 |Exportable| Specifies whether the private key of the certificate may be exported. If this parameter is not specified, the private key of certificate deployed to the Windows Certificate Store on each server in the SharePoint farm won't be exportable, and SharePoint won't allow you to export the private key from within the SharePoint administration interface.|
 |KeySize| Specifies to use the RSA key algorithm for your certificate, and the size of your public and private RSA keys in bits. Larger key sizes provide more cryptographic strength than smaller key sizes, but they're also more computationally expensive and take more time to complete the SSL/TLS connection. Select `2048` if you're unsure which key size to use. Key sizes larger than `4096` are not recommended. If neither this parameter nor the EllipticCurve parameter is specified, the key algorithm and key size / elliptic curve of the certificate to be renewed will be used. If a key algorithm and key size / elliptic curve can't be found in the certificate to be renewed, the default key algorithm and key size / elliptic curve of the farm will be used.|
 |EllipticCurve| Specifies to use the elliptic curve cryptography key algorithm for your certificate, and the elliptic curve of your public and private ECC keys. Larger elliptic curves provide more cryptographic strength than smaller elliptic curves, but they're also more computationally expensive and take more time to complete the SSL/TLS connection. Select `nistP256` if you're unsure which elliptic curve to use. Elliptic curves larger than `nistP384` are not recommended. If neither this parameter nor the KeySize parameter is specified, the key algorithm and key size / elliptic curve of the certificate to be renewed will be used. If a key algorithm and key size / elliptic curve can't be found in the certificate to be renewed, the default key algorithm and key size / elliptic curve of the farm will be used.|
-|HashAlgorithm| Specifies the hash algorithm of your certificate signature, which your certificate authority will use to verify that your certificate request hasn't been tampered with. Larger hash algorithms provide more cryptographic strength than smaller hash algorithms, but they're also more computationally expensive. Select SHA256 if you're unsure which hash algorithm to use. Hash algorithms larger than SHA384 are not recommended. If this parameter is not specified, the hash algorithm of the certificate to be renewed will be used. If a supported hash algorithm can't be found in the certificate to be renewed, the default hash algorithm of the farm will be used.|
+|HashAlgorithm| Specifies the hash algorithm of your certificate signature, which your certificate authority will use to verify that your certificate request hasn't been tampered with. Larger hash algorithms provide more cryptographic strength than smaller hash algorithms, but they're also more computationally expensive. Select `SHA256` if you're unsure which hash algorithm to use. Hash algorithms larger than `SHA384` are not recommended. If this parameter is not specified, the hash algorithm of the certificate to be renewed will be used. If a supported hash algorithm can't be found in the certificate to be renewed, the default hash algorithm of the farm will be used.|
 
 The following is the example of cmdlet syntax:
 
@@ -342,7 +345,7 @@ SharePoint supports farm-wide default settings for certificate management. These
 Use the [Set-SPCertificateSettings](/powershell/module/sharepoint-server/set-spcertificatesettings) PowerShell cmdlet to set the certificate management default settings.
 
 ```powershell
-Set-SPCertificateSettings [-OrganizationalUnit <String>] [-Organization <String>] [-Locality <string>] [-State <String>] [-Country <String>] [-KeyAlgorithm {ECC | RSA}] [-KeySize {0 | 2048 | 4096 | 8192 | 16384}] [-EllipticCurve {Default | nistP256 | nistP384 | nistP521}] [-HashAlgorithm {Default | SHA256 | SHA384 | SHA512}] [-RsaSignaturePadding {Default | Pkcs1 | Pss}] [-CertificateExpirationAttentionThreshold <Int32>] [-CertificateExpirationWarningThreshold <Int32>] [-CertificateExpirationErrorThreshold <Int32>] [<CommonParameters>]]
+Set-SPCertificateSettings [-OrganizationalUnit <String>] [-Organization <String>] [-Locality <String>] [-State <String>] [-Country <String>] [-KeyAlgorithm {ECC | RSA}] [-KeySize {0 | 2048 | 4096 | 8192 | 16384}] [-EllipticCurve {Default | nistP256 | nistP384 | nistP521}] [-HashAlgorithm {Default | SHA256 | SHA384 | SHA512}] [-RsaSignaturePadding {Default | Pkcs1 | Pss}] [-CertificateExpirationAttentionThreshold <Int32>] [-CertificateExpirationWarningThreshold <Int32>] [-CertificateExpirationErrorThreshold <Int32>] [<CommonParameters>]]
 ```
 
 The cmdlet parameters are:
@@ -355,11 +358,11 @@ The cmdlet parameters are:
 |State | The name of the state or province where your organization is legally located. Don't abbreviate the name.|
 |Country | The two letter country code where your organization is legally located. This must be an ISO 3166-1 alpha-2 country code.|
 |KeyAlgorithm (ECC / RSA)| Specifies the key algorithm for your certificate. This choice will be used for both the public key and the private key of your certificate. <p>`RSA` is the most common and widely supported key algorithm for certificates. Select the RSA algorithm if you're unsure which type of key your certificate authority supports. `ECC` uses elliptic curve cryptography based on ECDSA keys with NIST P-256, P-384, or P-521 curves. <p>SSL/TLS connections are faster to complete with `ECC` certificates than `RSA` certificates at the equivalent security strength. Verify that your certificate authority supports `ECC` certificates before selecting it.|
-|KeySize (2048 / 4096 / 8192 / 16384)| Specifies the size of your public and private RSA keys in bits. Larger key sizes provide more cryptographic strength than smaller key sizes, but they're also more computationally expensive and take more time to complete the SSL/TLS connection. <p>Select `2048` if you're unsure which key size to use. Key sizes larger than `4096` aren't recommended.|
-|EllipticCurve (nistP256 / nistP384 / nistP521)| Specifies the elliptic curve of your public and private ECC keys. Larger elliptic curves provide more cryptographic strength than smaller elliptic curves, but they're also more computationally expensive and take more time to complete the SSL/TLS connection.<p> Select `nistP256` if you're unsure which elliptic curve to use. Elliptic curves larger than `nistP384` aren't recommended.|
+|KeySize (0 / 2048 / 4096 / 8192 / 16384)| Specifies the size of your public and private RSA keys in bits. Larger key sizes provide more cryptographic strength than smaller key sizes, but they're also more computationally expensive and take more time to complete the SSL/TLS connection. <p>Select `2048` if you're unsure which key size to use. Key sizes larger than `4096` aren't recommended.|
+|EllipticCurve (Default / nistP256 / nistP384 / nistP521)| Specifies the elliptic curve of your public and private ECC keys. Larger elliptic curves provide more cryptographic strength than smaller elliptic curves, but they're also more computationally expensive and take more time to complete the SSL/TLS connection.<p> Select `nistP256` if you're unsure which elliptic curve to use. Elliptic curves larger than `nistP384` aren't recommended.|
 |HashAlgorithm (Default / SHA256 / SHA384 / SHA512)| Specifies the hash algorithm of your certificate signature, which your certificate authority will use to verify that your certificate request hasn't been tampered with. Larger hash algorithms provide more cryptographic strength than smaller hash algorithms, but they're also more computationally expensive. Select `SHA256` if you're unsure which hash algorithm to use. Hash algorithms larger than `SHA384` aren't recommended.|
 |RsaSignaturePadding | Specifies the RSA signature padding mode for creating and renewing certificates with RSA keys. `Pkcs1` represents the RSASSA-PKCS1-v1_5 padding mode. `Pss` represents the RSASSA-PSS padding mode. The default RSA signature padding mode is `Pkcs1`.|
-|CertificateExpirationAttentionThreshold | Specify the number of days before a certificate expires to trigger a certificate expiration notification. This is a reminder of upcoming certificate expirations that can be handled with normal priority. A certificate will only trigger a notification when it's assigned to SharePoint objects.|
+|CertificateExpirationAttentionThreshold | Specify the number of days before a certificate expires to trigger a certificate expiration notification. This is a reminder of upcoming certificate expirations that can be handled with normal priority. A certificate will only trigger a notification when it's assigned to SharePoint objects. This alert is disabled when set to 0.|
 |CertificateExpirationWarningThreshold | Specifies the number of days before a certificate expires to trigger a certificate expiration warning. This is a warning of imminent certificate expirations that should be handled with high priority. A certificate will only trigger a warning when it is assigned to SharePoint objects. This warning is disabled when set to 0.|
 |CertificateExpirationErrorThreshold | Specifies the number of days after a certificate expired to trigger a certificate expiration alert. This is an alert about certificates that have already expired and should be handled with critical priority. A certificate will only trigger an alert when it is assigned to SharePoint objects. This alert is disabled when set to 0.|
 
@@ -395,7 +398,7 @@ The **View certificate files** page lists the Certificate Signing Request files 
 
 SharePoint has implemented the following four new health analyzer rules for SSL certificates:
 
-1. **Certificate notification contacts hasn't been configured** health rule that provides notification through Central Administration when certificates are in use and no certificate notification contacts have been configured. This health rule will run weekly. Certificate notification contacts receive emails about SSL certificate expirations and can be configured by customers through the Configure certificate management settings page.
+1. **Certificate notification contacts haven't been configured** health rule that provides notification through Central Administration when certificates are in use and no certificate notification contacts have been configured. This health rule will run weekly. Certificate notification contacts receive emails about SSL certificate expirations and can be configured by customers through the Configure certificate management settings page.
 2. **Upcoming SSL certificate expirations** health rule that provides advanced notification through both Central Administration and email of upcoming certificate expirations. This health rule will run weekly to notify certification notification contacts about certificates that are in use and will expire within the next 15 - 60 days. These thresholds are configurable by customers through the Configure certificate management settings page.
 3. **SSL certificates are about to expire** health rule that provides advanced notification through both Central Administration and email when certificates are about to expire. This health rule will run daily to notify certificate notification contacts about certificates that are in use and will expire within the next 15 days. This threshold is configurable by customers through the Configure certificate management settings page.
 4. **SSL certificates have expired** health rule that provides notification through both Central Administration and email when certificates have expired. This health rule will run daily to notify certificate notification contacts about certificates that are in use and have expired within the past 15 days. This threshold is configurable by customers through the Configure certificate management settings page.
