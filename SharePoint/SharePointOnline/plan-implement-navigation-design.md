@@ -55,8 +55,8 @@ Use this information, and your knowledge of your users, to organize groups of re
 
 Information architecture includes five primary elements:
 
-- **Portal navigational structure** – How you structure your sites so that users can find content including the [home site](./home-site.md) of your intranet.
-- **Hub structure and organization** – How you [group together similar topics, tasks, and content](.planning-hub-sites.md).
+- **Portal navigational structure** – How you structure your sites so that users can find content including the [home site](/home-site) of your intranet.
+- **Hub structure and organization** – How you [group together similar topics, tasks, and content](/planning-hub-sites).
 - **Site and page architecture** – How content is organized on each site and page so that users can further navigate or consume content effectively.
 - **Metadata architecture** – How to structure and label your individual content items for browsing and searching as well as compliance and retention.
 - **Search experiences** – How your users “consume” information architecture in addition to browsing.
