@@ -123,7 +123,7 @@ The following tables detail the authentication types supported for browsers, One
 |**Forms-Based Authentication (FBA)** <br/> |FBA  <br/> |Active Directory, LDAP, SQL  <br/> |On-premises, extranet  <br/> |MSOFBA  <br/> |Yes  <br/> |Yes  <br/> |
 |FBA  <br/> |OrgID  <br/> |SharePoint, hybrid-based scenarios  <br/> |MSOFBA  <br/> |Yes  <br/> |Yes  <br/> ||
 |FBA  <br/> |OrgID  <br/> |SharePoint, hybrid-based scenarios  <br/> |Active Authentication(IDCRL)  <br/> |No  <br/> |Yes  <br/> ||
-|**SAML (token-based)** <br/> |SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |On-premises, SharePoint, hybrid -based scenarios  <br/> |MSOFBA  <br/> |Yes  <br/> |Yes  <br/> |
+|**SAML (token-based)** <br/> |SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |On-premises, SharePoint, hybrid-based scenarios  <br/> |MSOFBA  <br/> |Yes  <br/> |Yes  <br/> |
 |SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |On-premises, SharePoint in Microsoft 365, hybrid-based scenarios  <br/> |Active Authentication(IDCRL)  <br/> |No  <br/> |Yes  <br/> | |
    
 > [!NOTE]
