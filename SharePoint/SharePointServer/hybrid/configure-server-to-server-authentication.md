@@ -391,7 +391,7 @@ The script must be run on a server where SharePoint On-Premises is installed (20
 #### Step 8 (Only required for Sharepoint On-Premises 2013): Give New App Principal QueryAsUserIgnoreAppPrincipal permission
 <a name="step10"> </a>
 
-In the On-Premises 2013 version by default a hidden constraint is added to the query, and Reverse Proxy returns the documents indexed in the Reverse Proxy site itself and not the internal On-Premise search site as expected. To avoid this, you need to execute the following steps in your Sharepoint On-Premises 2013 admin site:
+The on-premises version of Sharepoint 2013 needs a hidden constraint in every federated query. The reverse proxy returns the documents indexed in the reverse proxy site itself, not the internal on-premise search site as expected. To avoid this, you need to execute the following steps in your Sharepoint on-premises 2013 admin site:
 
 1. Go to <CentralAdminURL>/_layouts/appinv.aspx and Search for **c3959f3a-5ad4-4d2b-b1f0-bc70f9a5d0a1**, where you should find **Greenland Federated Search Bot Skill**.
 
