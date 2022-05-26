@@ -37,7 +37,7 @@ This template features content focused on a LGBTQ+ employee resource group but c
 - **Mobile ready:** The LGBTQ+ Employee Resource Group site can be easily accessed [on a mobile device when you get the SharePoint mobile app](https://www.microsoft.com/microsoft-365/sharepoint/mobile-app?wt.mc_id=AID686708_QSG_228389&ocid=AID686708_QSG_228389&rtc=1). 
 
 
-## How to get the Contoso Pride site: 
+## How to get the LGBTQ+ Employee Resource Group site: 
 
 | **Step 1: Provision** | **Step 2: Customize** | **Step 3: Share** | 
 | :------------------: | :------------------: |:---------------:| 
@@ -95,9 +95,9 @@ After the site has been provisioned and site owners have been added, it's time t
 
 1. **Add your organization’s logo and review more site design details:** Edit the look of your SharePoint sites to align with your organization's brand. Customize the site display name, logo, header layout, navigation style, and more in the [Change the look panel](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b).
 
-2. **Customize the site’s navigation:** Edit site navigation to include links to other relevant resources. [Learn how to edit site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca). Start by selecting Edit next to the navigation panel to start editing labels and links.  
+2. **Customize the site’s navigation:** Edit site navigation to include links to other relevant resources. [Learn how to edit site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca). Start by selecting **Edit** next to the navigation panel to start editing labels and links.  
 
-3. **Edit web part content:** Select Edit in the right-hand corner to begin customizing web parts and content. Select the Edit (pencil icon) next to each web part to customize the layout and to edit content. 
+3. **Edit web part content:** Select **Edit** in the right-hand corner to begin customizing web parts and content. Select the **Edit** (pencil icon) next to each web part to customize the layout and to edit content. 
 
    ![Image of the news web part with prepopulated content focused on LGBTQ+ topics.](media/erg-template-news.png)
 
