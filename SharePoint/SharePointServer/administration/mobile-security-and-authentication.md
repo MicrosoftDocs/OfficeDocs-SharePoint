@@ -141,6 +141,7 @@ The following table details the authentication types supported for the SharePoin
 **Table: Mobile authentication support matrix for the SharePoint Newsfeed App**\
 
 |**Authentication Type** <br/> |**Authentication Protocol** <br/> |**ID Provider** <br/> |**SharePoint deployment** <br/> |**Handled through:** <br/> |**Windows Phone 7.5 Apps** <br/> |**Windows Phone 8 Apps** <br/> |**Windows 8 Apps** <br/> |**iOS 6.x or later versions Apps** <br/> |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |**Windows Authentication** <br/> |NTLM  <br/> |Active Directory  <br/> |On-premises  <br/> |NTLM  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |
 |Basic Authentication  <br/> |Active Directory  <br/> |On-premises, extranet  <br/> |Basic Authentication  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes (https)  <br/> ||
 |**Forms-Based Authentication (FBA)** <br/> |FBA  <br/> |Active Directory, LDAP, SQL  <br/> |On-premises, extranet  <br/> |MSOFBA  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |
