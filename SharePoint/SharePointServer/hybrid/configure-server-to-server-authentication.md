@@ -406,7 +406,7 @@ The on-premises version of Sharepoint 2013 needs a hidden constraint in every fe
 <AppPermissionRequest Scope="http://sharepoint/search" Right="QueryAsUserIgnoreAppPrincipal" />
 </AppPermissionRequests>
   ```
-5. The configuration page should look as in the screenshot below, finally, click on Create.
+5. The configuration page should appear similar to the following screenshot. Finally, select **Create**.
 
 ![Give QueryAsUserIgnoreAppPrincipal permission to app](../media/QueryAsUserIgnoreAppPrincipal.png)
   
