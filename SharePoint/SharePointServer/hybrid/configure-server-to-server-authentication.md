@@ -399,7 +399,7 @@ The on-premises version of Sharepoint 2013 needs a hidden constraint in every fe
   
 3. In the Redirect URL, use https://localhost.
   
-4. In the Permission Request XML field paste the following XML excerpt:
+4. In the Permission Request XML field, paste the following XML excerpt:
   
   ```xml
 <AppPermissionRequests>
