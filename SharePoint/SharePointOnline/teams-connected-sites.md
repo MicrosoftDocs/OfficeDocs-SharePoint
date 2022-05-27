@@ -104,7 +104,7 @@ Teams-connected sites are managed differently than the typical SharePoint site. 
 
 |Setting|Parent site|Channel site|
 |:------|:----------|:-----------|
-|Site permissions|Team permissions are synced with the site. Team and site owners can add additional people directly to the site. (Managing all permissions through Teams is recommended.)|Channel site permissions are inherited from the channel itself. Site permissions can’t be managed in SharePoint.|
+|Site permissions|Team permissions are synced with the site. Team and site owners can add additional people directly to the site. (Managing all permissions through Teams is recommended.)|Channel site permissions are inherited from the channel itself. Site permissions can’t be managed in SharePoint, but will display permissions in read-only mode.|
 |Site sharing settings|Team and site owners can set the sharing settings for files, folders, and the site. This is a SharePoint-specific setting.||
 |Guest access expiration|Guest access expiration can be set in the SharePoint admin center.||
 |Sensitivity|Sensitivity labels can be applied either to the team or the parent site. The same label is used for both and a change made in either location is reflected in the other.|Sensitivity of channel sites is inherited from the parent site.|
