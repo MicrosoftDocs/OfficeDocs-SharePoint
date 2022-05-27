@@ -324,7 +324,7 @@ If you disable or do not configure this setting, users can choose to limit the u
 <a name="DisableAutoConfig"> </a>
 
 > [!NOTE]
-> This setting is not currently present in the OneDrive administrative template files (ADMX/ADML) however it can be set using the registry.
+> This setting is not currently present in the OneDrive administrative template files (ADMX/ADML). However, it can be set using the registry.
 
 This setting determines whether or not the Sync client can automatically sign in.
 
