@@ -98,7 +98,7 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 
        `reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports /t REG_DWORD /d 1`
 
-    - Use [Group Policy](use-group-policy.md#manage-onedrive-using-group-policy) or [administrative templates in Intune](configure-sync-intune.md). 
+    - Use [Group Policy](use-group-policy.md#manage-onedrive-using-group-policy)
 
     To apply the setting on a single PC, follow these steps:
 

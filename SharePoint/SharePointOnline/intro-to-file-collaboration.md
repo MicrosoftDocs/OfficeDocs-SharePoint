@@ -1,5 +1,5 @@
 ---
-title: "File collaboration in Microsoft 365 - SharePoint"
+title: File collaboration in Microsoft 365 - SharePoint
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -22,7 +22,7 @@ search.appverid:
 - BSA160
 - GSP150
 - MET150
-description: "Learn about file collaboration in Microsoft 365, powered by SharePoint."
+description: Learn about file collaboration in Microsoft 365, powered by SharePoint.
 ---
 
 # Intro to file collaboration in Microsoft 365, powered by SharePoint
@@ -58,7 +58,7 @@ When users keep files on their local device or on a network share, they're out o
 
 Files stored in SharePoint-powered storage locations in Microsoft 365 are [encrypted in transit and in rest](/microsoft-365/compliance/data-encryption-in-odb-and-spo). (You can [encrypt files by using your own key](/microsoft-365/compliance/controlling-your-data-using-customer-key) if you want.) Files are also [scanned for viruses](/office365/securitycompliance/virus-detection-in-spo). As an admin, you can use tools in Microsoft 365 to further secure and monitor files in the Microsoft cloud:
 
-- **Data loss prevention policies**. Warn or prevent users from sharing files that have specific labels outside the organization. [See Overview of data loss prevention](/office365/securitycompliance/data-loss-prevention-policies)
+- **Microsoft Purview Data loss prevention policies**. Warn or prevent users from sharing files that have specific labels outside the organization. [See Learn about data loss prevention](/microsoft-365/compliance/dlp-learn-about-dlp)
 
 - **Retention labels**. Classify files to be retained, permanently deleted, or marked as a record. [See Overview of retention labels](/office365/securitycompliance/labels)
 
@@ -200,7 +200,7 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
 ## Prerequisites
 
-**Purchase and assign licenses**. SharePoint comes with Microsoft 365 plans and Office 365 plans. It also comes as a standalone plan. For more info about the features available in each plan, see the [SharePoint service description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description). Some security features, such as Azure Information Protection, require an E3 or E5 plan. Cloud App Security, Advanced Threat Protection, Customer Lockbox, Customer Key, Advanced eDiscovery. For info, [see Office 365 platform service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description).
+**Purchase and assign licenses**. SharePoint comes with Microsoft 365 plans and Office 365 plans. It also comes as a standalone plan. For more info about the features available in each plan, see the [SharePoint service description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description). Some security features, such as Azure Information Protection, require an E3 or E5 plan. Cloud App Security, Advanced Threat Protection, Customer Lockbox, Customer Key, eDiscovery (Premium). For info, [see Office 365 platform service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description).
 
 **Assign the SharePoint admin role**. Users assigned this role will have access to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> and can change organization-level SharePoint and OneDrive settings, create and delete sites, and change site owners and other site settings. [Learn more about the SharePoint admin role](./sharepoint-admin-role.md).
 
@@ -228,7 +228,7 @@ User adoption is important to the overall success of any rollout. To maximize yo
 
 - **Awareness and training.** Creating awareness through awareness campaigns such as announcements, launch events, newsletters, town hall meetings, contests, and giveaways is a critical path to maximizing adoption. In addition, providing users with knowledge through classroom-style sessions and self-help guides helps them feel empowered to use OneDrive and Office 365. For more information about user communication and training on Office 365, see the [Plan your Office 365 Launch: Communication and Training Guide](https://aka.ms/commandtraining).
 
-Many resources are available from Microsoft to help you drive user adoption within your environment. For more information about a recommended Microsoft 365 user adoption strategy, see the [Microsoft 365 End User Adoption Guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Microsoft%20365%20User%20Adoption%20Guide.pdf). For more information about driving user engagement, see [Success Factors for Office 365 End User Engagement](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Resources/Office365_AdoptionBrochure_v2.0_Screen.pdf). You can also contribute to or comment on adoption-related ideas in the [Driving Adoption Tech Community](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption).
+Many resources are available from Microsoft to help you drive user adoption within your environment. For more information about a recommended Microsoft 365 user adoption strategy, see the [Microsoft 365 End User Adoption Guide](https://adoption.microsoft.com/files/assets/M365AdoptionGuide.pdf). You can also contribute to or comment on adoption-related ideas in the [Driving Adoption Tech Community](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption).
 
 ## Configure settings
 

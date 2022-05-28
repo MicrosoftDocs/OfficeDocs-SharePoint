@@ -2,19 +2,32 @@
 
 
 
-## Week of April 04, 2022
+## Week of May 16, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 4/6/2022 | [OneDrive sync reports in the Apps Admin Center](/OneDrive/sync-health) | modified |
-| 4/7/2022 | About Discover view | removed |
+| 5/19/2022 | Control access based on network location or app | removed |
+| 5/19/2022 | Control access to features in the OneDrive and SharePoint mobile apps | removed |
+| 5/19/2022 | [Deploy and configure the new OneDrive sync app for Mac](/OneDrive/deploy-and-configure-on-macos) | modified |
+| 5/19/2022 | Manage sharing in OneDrive | removed |
+| 5/20/2022 | [Deploy and configure the new OneDrive sync app for Mac](/OneDrive/deploy-and-configure-on-macos) | modified |
 
 
-## Week of March 07, 2022
+## Week of May 02, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 3/7/2022 | [OneDrive guide for enterprises](/OneDrive/plan-onedrive-enterprise) | modified |
-| 3/11/2022 | [Required URLs and ports for OneDrive consumer](/OneDrive/required-urls-and-ports) | modified |
+| 5/2/2022 | [Use OneDrive policies to control sync settings](/OneDrive/use-group-policy) | modified |
+| 5/5/2022 | [Deploy and configure the new OneDrive sync app for Mac](/OneDrive/deploy-and-configure-on-macos) | modified |
+| 5/5/2022 | [Use OneDrive policies to control sync settings](/OneDrive/use-group-policy) | modified |
+
+
+## Week of April 25, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/27/2022 | [Limit access](/OneDrive/limit-access) | modified |
+| 4/27/2022 | [Limit access](/OneDrive/limit-access) | modified |
