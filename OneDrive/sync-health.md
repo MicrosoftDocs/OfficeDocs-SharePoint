@@ -33,7 +33,7 @@ Use the OneDrive sync health dashboard in the Microsoft 365 [Apps Admin Center](
 
 :::image type="content" source="media/sync-dashboard.png" alt-text="Image of the overview page of the sync reports dashboard":::
 
-Proactively keeping OneDrive healthy helps ensure that your organization's information is protected.The dashboard provides you with sync health reports for tracking relevant health issues and advisories, checking the sync status and app version of individual devices, and monitoring Known Folder Move roll out.
+Proactively keeping OneDrive healthy helps ensure that your organization's information is protected. The dashboard provides you with sync health reports for tracking relevant health issues and advisories, checking the sync status and app version of individual devices, and monitoring Known Folder Move roll out.
 
 In this article, you'll learn how to set up and navigate the sync health dashboard to better manage your OneDrive users and increase OneDrive adoption.
 
@@ -176,7 +176,7 @@ The **Overview** tab (the default view) shows a summary of devices that have at 
 | Card name         | Description                                                                                               |
 |----------------|-----------------------------------------------------------------------------------------------------------|
 |Sync errors | *Shows how many devices have sync errors or not.* <br> <br> Sorting through errors can help you proactively reach out to educate people while resolving common issues and improving user experience. Users may not report OneDrive issues to you immediately. Unreported issues could lead to unwanted problems while they're working on important tasks. With the **Sync errors** card, you won't have to wait to be notified by users to take action. |
-| Known folders          | *Shows a snapshot of the number of known folders currently in use.* <br><br> **Known Folder Move (KFM)** allows people to keep their Desktop, Documents, and Pictures folders protected by syncing them to the cloud with OneDrive. If you’re rolling out KFM for your organization, the **Known folders** card is a great way for you to monitor progress.                                   |
+| Known folders          | *Shows a snapshot of the number of known folders currently in use.* <br><br> **Known Folder Move** allows people to keep their Desktop, Documents, and Pictures folders protected by syncing them to the cloud with OneDrive. If you’re rolling out Known Folder Move for your organization, the **Known folders** card is a great way for you to monitor progress.                                   |
 | Sync app version         | *Shows the number of devices running on the current version of OneDrive.* <br><br>  Running the current version of OneDrive helps users stay up to date with all the latest and greatest fixes and features from Microsoft. Hover over the **Sync app version** card for a filtered view of operating systems on the current version. Note: Mac App store devices are excluded from this section and will appear in the count as "devices excluded".                                                                                  |
 ||
 
@@ -201,7 +201,7 @@ This table provides a summary of the information found in each column of the **D
 | Last status reported timestamp (UTC)        |  The last time that the sync app reported health data to the dashboard  |
 ||
 
-Customize your view of which devices show up on the dashboard by using the filter option in the command bar. Standard filters include "all devices" where you can see every device and "devices with errors" where you'll only see devices with errors. 
+Customize your view of which devices show up on the dashboard by using the filter option in the command bar. Standard filters include "all devices" where you can see every device and "devices with errors" where you'll only see devices with errors.
 
 You can easily create a custom filter with your own conditions. From the command bar, select **Filter** > **New filter** to open the **Custom filter** panel. Name your filter and select your desired conditions. If you'd like to filter by app version, be sure that you enter the complete sync app version number including periods. Afterwards, select **Create** to use your new filter.
 
@@ -235,9 +235,9 @@ This section describes known limitations and considerations in sync reporting.
 
 By default, device records are kept in inventory for 30 days, after which they expire from the report.
 
-**Known folders:** Devices enabled for Known Folder Move (KFM) will report as a device with 0-3 known folders. If a device isn't enabled for KFM, it will report as a device that is **Not applicable** in the **Known Folders** section of the **Overview** tab. In the **Details** tab, a hyphen ("-") will appear in the cell value of the **Known folders** table for devices that aren't applicable devices. This behavior is expected.
+**Known folders:** Devices enabled for Known Folder Move will report as a device with 0-3 known folders. If a device isn't enabled for Known Folder Move, it will report as a device that is **Not applicable** in the **Known Folders** section of the **Overview** tab. In the **Details** tab, a hyphen ("-") will appear in the cell value of the **Known folders** table for devices that aren't applicable devices. This behavior is expected.
 
-**Sync app version:** For devices using the Mac App Store edition of the sync app, the version installed on each device is displayed in the **Details** tab. However, the dashboard doesn't currently track whether or not this is the latest version of the sync app available in the Mac App Store. If any devices use this edition, they'll be excluded from the **Sync app version** section of the **Overview** tab and the number of excluded devices is displayed. This is the expected result.
+**Sync app version:** For devices using the Mac App Store edition of the sync app, the version installed on each device is displayed in the **Details** tab. However, the dashboard doesn't currently track whether or not the edition is the latest version of the sync app available in the Mac App Store. If any devices use this edition, they'll be excluded from the **Sync app version** section of the **Overview** tab and the number of excluded devices is displayed. This is the expected result.
 
 ## Troubleshooting
 
