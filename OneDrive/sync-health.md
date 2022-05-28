@@ -43,7 +43,7 @@ Before getting started, be sure that you're familiar with the requirements neede
 
 - OneDrive sync apps on the Insiders or Production ring. Devices on the Deferred ring aren't eligible for the preview. [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
 
-- OneDrive Sync app version 22.060 or later for Windows and macOS.
+- OneDrive sync app version 22.060 or later for Windows and macOS.
 
 - [Global Administrator role](/microsoft-365/admin/add-users/about-admin-roles) or [Office apps admin role](/microsoft-365/admin/add-users/about-admin-roles) to set up the dashboard. After setup, only [Global reader role](/microsoft-365/admin/add-users/about-admin-roles) is required to view the dashboard.
 
@@ -276,6 +276,6 @@ To get the OneDrive device ID, select the OneDrive sync app in the notification 
 
 ## Send feedback
 
-To make a feature suggestion, use the Feedback button in the top, right corner of the dashboard page.
+We value your feedback. To submit feature suggestions and report issues, you can use the Feedback button in the top-right corner of the dashboard page.
 
 :::image type="content" source="media/sync-feedback.png" alt-text="Screenshot of Feedback form.":::
