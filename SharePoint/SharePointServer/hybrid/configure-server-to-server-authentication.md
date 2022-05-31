@@ -388,7 +388,28 @@ The script must be run on a server where SharePoint On-Premises is installed (20
 
 5. After script execution, users will not see any changes when this change is implemented.
 
+#### Step 8 (Only required for SharePoint Server 2013): Give New App Principal QueryAsUserIgnoreAppPrincipal permission
+<a name="step10"> </a>
 
+SharePoint Server 2013 needs a hidden constraint in every federated query. The reverse proxy returns the documents indexed in the reverse proxy site itself, not the internal on-premise search site as expected. To avoid this, you need to execute the following steps in your SharePoint Server 2013 admin site:
+
+1. Go to <CentralAdminURL>/_layouts/appinv.aspx and Search for **c3959f3a-5ad4-4d2b-b1f0-bc70f9a5d0a1**, where you should find **Greenland Federated Search Bot Skill**.
+
+2. If there are items in the App Domain field, leave them be, and if it is empty, use localhost.
+  
+3. In the Redirect URL, use https://localhost.
+  
+4. In the Permission Request XML field, paste the following XML excerpt:
+  
+  ```xml
+<AppPermissionRequests>
+<AppPermissionRequest Scope="http://sharepoint/search" Right="QueryAsUserIgnoreAppPrincipal" />
+</AppPermissionRequests>
+  ```
+5. The configuration page should appear similar to the following screenshot. Finally, select **Create**.
+
+![Give QueryAsUserIgnoreAppPrincipal permission to app](../media/QueryAsUserIgnoreAppPrincipal.png)
+  
 ## Validation and next steps
 <a name="next"> </a>
 

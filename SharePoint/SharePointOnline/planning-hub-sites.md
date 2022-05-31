@@ -175,6 +175,9 @@ Associating with the hub does not automatically add the site to the hub navigati
 ### Navigation
 
 The hub site owner determines which sites are reflected in the shared navigation and can also include links to other resources. This navigation appears at the top, below the suite bar. Most of the time, you will want to add associated sites to your hub navigation. That's one of the benefits of the experiences that you can enable with a hub. Your hub navigation can have up to three levels, which lets you organize your hub family in a way that helps users discover and find relevant content.
+
+> [!NOTE]
+> The default navigation menu style for team sites hub navigation will be cascading. 
   
 However, you may not want to add every associated site to your navigation and you may want to consider adding sites that aren't associated to the navigation. Consider the following as you plan your hub navigation.
   
