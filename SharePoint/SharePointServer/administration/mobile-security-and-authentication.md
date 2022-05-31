@@ -90,7 +90,7 @@ The following tables detail the authentication types supported for browsers, One
   
 **Table: Mobile authentication support for SharePoint browsers**
 
-| SharePoint Infrastructure | ||| Mobile Devices|||||
+| SharePoint Infrastructure |- |-|-| Mobile Devices|-|-|-|-|
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |**Authentication Type** <br/> |**Authentication Protocol** <br/> |**ID Provider** <br/> |**SharePoint deployment** <br/> |**Windows Phone 7.5 (Internet Explorer Mobile)** <br/> |**Windows Phone 8 (Internet Explorer Mobile)** <br/> |**Windows 8 (Internet Explorer)** <br/> |**iOS 5.x or later versions (Safari Browser)** <br/> |**Android 4.x or later versions (Android Browser** )  <br/> |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|
