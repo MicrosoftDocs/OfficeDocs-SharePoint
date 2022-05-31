@@ -388,7 +388,7 @@ The script must be run on a server where SharePoint On-Premises is installed (20
 
 5. After script execution, users will not see any changes when this change is implemented.
 
-#### Step 8 (Only required for Sharepoint On-Premises 2013): Give New App Principal QueryAsUserIgnoreAppPrincipal permission
+#### Step 8 (Only required for SharePoint 2013 on-premises): Give New App Principal QueryAsUserIgnoreAppPrincipal permission
 <a name="step10"> </a>
 
 The on-premises version of SharePoint 2013 needs a hidden constraint in every federated query. The reverse proxy returns the documents indexed in the reverse proxy site itself, not the internal on-premise search site as expected. To avoid this, you need to execute the following steps in your SharePoint 2013 on-premises admin site:
