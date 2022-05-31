@@ -90,7 +90,7 @@ The following tables detail the authentication types supported for browsers, One
   
 **Table: Mobile authentication support for SharePoint browsers**
 
-|**Authentication Type** <br/> |**Authentication Protocol** <br/> |**ID Provider** <br/> |**SharePoint deployment** <br/> |**Windows Phone 7.5 (Internet Explorer Mobile)** <br/> |**Windows Phone 8 (Internet Explorer Mobile)** <br/> |**Windows 8 (Internet Explorer)** <br/> |**iOS 5.x or later versions (Safari Browser)** <br/> |**Android 4.x or later versions (Android Browser** )  <br/> |
+|**Authentication type** <br/> |**Authentication protocol** <br/> |**ID provider** <br/> |**SharePoint deployment** <br/> |**Windows Phone 7.5 (Internet Explorer Mobile)** <br/> |**Windows Phone 8 (Internet Explorer Mobile)** <br/> |**Windows 8 (Internet Explorer)** <br/> |**iOS 5.x or later versions (Safari Browser)** <br/> |**Android 4.x or later versions (Android Browser** )  <br/> |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |**Windows Authentication** <br/> |NTLM  <br/> |Active Directory  <br/> |On-premises  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Basic Authentication  <br/> | HTTPS <br/> |Active Directory  <br/> |On-premises, extranet  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> | Yes|
@@ -116,7 +116,7 @@ The following tables detail the authentication types supported for browsers, One
   
 **Table: Mobile authentication support matrix for Office Hub**
 
-|**Authentication Type** <br/> |**Authentication Protocol** <br/> |**ID Provider** <br/> |**SharePoint deployment** <br/> |**Handled through:** <br/> |**Windows Phone 7.5 (Internet Explorer Mobile)** <br/> |**Windows Phone 8 (Internet Explorer Mobile)** <br/> |
+|**Authentication type** <br/> |**Authentication protocol** <br/> |**ID provider** <br/> |**SharePoint deployment** <br/> |**Handled through:** <br/> |**Windows Phone 7.5 (Internet Explorer Mobile)** <br/> |**Windows Phone 8 (Internet Explorer Mobile)** <br/> |
 |-----|-----|-----|-----|-----|-----|-----|
 |**Windows Authentication** <br/> |NTLM  <br/> |Active Directory  <br/> |On-premises  <br/> |NTLM  <br/> |Yes  <br/> |Yes  <br/> |
 |Basic Authentication  <br/> | - <br/> |Active Directory  <br/> |On-premises, extranet  <br/> |Basic Authentication  <br/> |HTTPS  <br/> | Yes|
@@ -140,7 +140,7 @@ The following table details the authentication types supported for the SharePoin
   
 **Table: Mobile authentication support matrix for the SharePoint Newsfeed App**\
 
-|**Authentication Type** <br/> |**Authentication Protocol** <br/> |**ID Provider** <br/> |**SharePoint deployment** <br/> |**Handled through:** <br/> |**Windows Phone 7.5 Apps** <br/> |**Windows Phone 8 Apps** <br/> |**Windows 8 Apps** <br/> |**iOS 6.x or later versions Apps** <br/> |
+|**Authentication type** <br/> |**Authentication protocol** <br/> |**ID provider** <br/> |**SharePoint deployment** <br/> |**Handled through:** <br/> |**Windows Phone 7.5 Apps** <br/> |**Windows Phone 8 Apps** <br/> |**Windows 8 Apps** <br/> |**iOS 6.x or later versions Apps** <br/> |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |**Windows Authentication** <br/> |NTLM  <br/> |Active Directory  <br/> |On-premises  <br/> |NTLM  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |
 |Basic Authentication  <br/> |HTTPS   <br/> |Active Directory  <br/> |On-premises, extranet  <br/> |Basic Authentication  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes (https)|
