@@ -200,13 +200,13 @@ Creating a *People in your organization* link does not cause the file or folder 
 
 ### Classify and protect information
 
-Data loss prevention in Microsoft 365 provides a way to classify your teams, groups, sites, and documents, and to create a series of conditions, actions, and exceptions to govern how they're used and shared.
+Microsoft Purview data loss prevention provides a way to classify your teams, groups, sites, and documents, and to create a series of conditions, actions, and exceptions to govern how they're used and shared.
 
 By classifying your information and creating governance rules around them, you can create a collaboration environment where users can easily work with each other without accidentally or intentionally sharing sensitive information inappropriately.
 
 With data loss prevention policies in place, you can be relatively liberal with your sharing settings for a given site and rely on data loss prevention to enforce your governance requirements. This provides a friendlier user experience and avoids unnecessary restrictions that users might try to work around.
 
-For detailed information about data loss prevention, see [Overview of data loss prevention](/office365/securitycompliance/data-loss-prevention-policies).
+For detailed information about data loss prevention, see [Learn about data loss prevention](/microsoft-365/compliance/dlp-learn-about-dlp).
 
 **Sensitivity labels**
 

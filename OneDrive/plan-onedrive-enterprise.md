@@ -145,11 +145,11 @@ Each file chunk is then randomly distributed among Microsoft Azure Storage conta
 
 ### Customer-controlled encryption keys
 
-By using a Microsoft 365 feature called *service encryption with Customer Key,* you can upload your own encryption keys to Azure Key Vault for use encrypting your data at rest in Azure data centers. Even though this encryption is done natively through BitLocker, customers can require the use of their own key to meet their security compliance requirements. Should users lose their key, they can retrieve a deleted key from the Recycle Bin for up to 90 days (based on your configuration). Before you can use this feature, however, you must create an Azure subscription and complete a few prerequisite steps. For detailed info about service encryption with Customer Key, and how to configure it in your environment, see [Controlling your data in Microsoft 365 using Customer Key](/office365/securitycompliance/controlling-your-data-using-customer-key/).
+By using *service encryption with Microsoft Purview Customer Key,* you can upload your own encryption keys to Azure Key Vault for use encrypting your data at rest in Azure data centers. Even though this encryption is done natively through BitLocker, customers can require the use of their own key to meet their security compliance requirements. Should users lose their key, they can retrieve a deleted key from the Recycle Bin for up to 90 days (based on your configuration). Before you can use this feature, however, you must create an Azure subscription and complete a few prerequisite steps. For detailed info about service encryption with Customer Key, and how to configure it in your environment, see [Controlling your data in Microsoft 365 using Customer Key](/office365/securitycompliance/controlling-your-data-using-customer-key/).
 
 ### Customer Lockbox
 
-If a Microsoft support engineer needs to access your data to resolve an issue, that engineer is required to obtain approval from a Microsoft manager first. The Customer Lockbox feature adds a requirement to that process: you must approve or reject that access before the support engineer can access your data. With Customer Lockbox, you can also set boundaries on how long the engineer can access your data, and all activity during that time is logged for auditing purposes. For more info about how to configure and use the Customer Lockbox feature, see [Customer Lockbox in Office 365](/office365/admin/manage/customer-lockbox-requests).
+If a Microsoft support engineer needs to access your data to resolve an issue, that engineer is required to obtain approval from a Microsoft manager first. The Customer Lockbox feature adds a requirement to that process: you must approve or reject that access before the support engineer can access your data. With Customer Lockbox, you can also set boundaries on how long the engineer can access your data, and all activity during that time is logged for auditing purposes. For more info about how to configure and use the Customer Lockbox feature, see [Microsoft Purview Customer Lockbox](/office365/admin/manage/customer-lockbox-requests).
 
 ### Microsoft Trust Center
 
@@ -487,12 +487,6 @@ From there, Intune can deploy apps such as OneDrive to the device automatically.
 
 For an overview of Windows Autopilot, see [Overview of Windows Autopilot](/windows/deployment/windows-autopilot/windows-10-autopilot/).
 
-## Deploy OneDrive by using Intune
-
-To deploy the mobile apps to Android or iOS, or the sync app to Windows 10, follow the steps in [Deploy OneDrive apps by using Intune](deploy-intune.md), or take a look at the following video.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSk]
-
 ## Deploy OneDrive using Microsoft Endpoint Configuration Manager
 
 To deploy the OneDrive sync app to Windows using Microsoft Endpoint Configuration Manager, see [Deploy OneDrive apps by using Microsoft Endpoint Configuration Manager](deploy-on-windows.md).
@@ -527,9 +521,9 @@ The <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">Sh
 
 - **Device Access** - Use the <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">Access control page in the SharePoint admin center</a>.
 
-## Manage OneDrive by using the Microsoft 365 compliance center
+## Manage OneDrive by using the Microsoft Purview compliance portal
 
-The [Microsoft 365 compliance center](https://compliance.microsoft.com/) provides a centralized location to auditing, DLP, retention, eDiscovery, and alerting capabilities within Microsoft 365 that are applicable to OneDrive. You can create DLP policies from templates that protect certain types of data, such as Social Security numbers, banking information, and other financial and medical content. Some capabilities won't be available if you're using Intune (for example, device management). For a walkthrough of how to create DLP policies and apply them to OneDrive, see [Create a DLP policy from a template](/office365/securitycompliance/create-a-dlp-policy-from-a-template/).
+The [Microsoft Purview compliance portal](https://compliance.microsoft.com/) provides a centralized location to auditing, DLP, retention, eDiscovery, and alerting capabilities within Microsoft 365 that are applicable to OneDrive. You can create DLP policies from templates that protect certain types of data, such as Social Security numbers, banking information, and other financial and medical content. Some capabilities won't be available if you're using Intune (for example, device management). For a walkthrough of how to create DLP policies and apply them to OneDrive, see [Create a DLP policy from a template](/office365/securitycompliance/create-a-dlp-policy-from-a-template/).
 
 
 ## Manage OneDrive settings by using Intune
