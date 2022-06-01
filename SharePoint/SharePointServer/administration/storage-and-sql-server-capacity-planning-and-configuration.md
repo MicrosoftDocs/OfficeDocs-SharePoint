@@ -1,5 +1,5 @@
 ---
-title: "Storage and SQL Server capacity planning and configuration (SharePoint Server)"
+title: Storage and SQL Server capacity planning and configuration (SharePoint Server)
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: a96075c6-d315-40a8-a739-49b91c61978f
-description: "Learn how to plan and configure the storage and database tier for SQL Server in SharePoint Server."
+description: Learn how to plan and configure the storage and database tier for SQL Server in SharePoint Server.
 ---
 
 # Storage and SQL Server capacity planning and configuration (SharePoint Server)
@@ -330,10 +330,10 @@ We recommend that for SharePoint Server Subscription Edition, 2019, or 2016 you 
 
 - SQL Server 2014 with Service Pack 1 (SP1) (SharePoint Server 2016 only)
  
-For more information about the benefits of these versions, see [Features Supported by the Editions of SQL Server 2014](https://go.microsoft.com/fwlink/?LinkID=808793&amp;clcid=0x409), [Editions and supported features of SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016), [Editions and supported features of SQL Server 2017](/sql/sql-server/editions-and-components-of-sql-server-2017), and [https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-version-15?view=sql-server-ver15](/sql/sql-server/editions-and-components-of-sql-server-version-15?view=sql-server-ver15&preserve-view=true)).
+For more information about the benefits of these versions, see [Features Supported by the Editions of SQL Server 2014](/sql/sql-server/sql-server-2014-release-notes?view=sql-server-2016&preserve-view=true), [Editions and supported features of SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016), [Editions and supported features of SQL Server 2017](/sql/sql-server/editions-and-components-of-sql-server-2017), and [https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-version-15?view=sql-server-ver15](/sql/sql-server/editions-and-components-of-sql-server-version-15?view=sql-server-ver15&preserve-view=true)).
 
 
-We recommend that for SharePoint Server 2013 you consider running your environment on the Enterprise Edition of SQL Server 2008 R2 with Service Pack 1 (SP1), SQL Server 2012, or SQL Server 2014 to take advantage of the other performance, availability, security, and management capabilities that these versions provide. For more information about the benefits of SQL Server 2008 R2 with SP1, SQL Server 2012, and SQL Server 2014 Enterprise Edition, see [Features Supported by the Editions of SQL Server 2014](https://go.microsoft.com/fwlink/?LinkID=808793&amp;clcid=0x409), [Features Supported by the Editions of SQL Server 2012](/previous-versions/sql/sql-server-2012/cc645993(v=sql.110)), and [Features Supported by the Editions of SQL Server 2008 R2](/previous-versions/sql/sql-server-2008-r2/cc645993(v=sql.105)).
+We recommend that for SharePoint Server 2013 you consider running your environment on the Enterprise Edition of SQL Server 2008 R2 with Service Pack 1 (SP1), SQL Server 2012, or SQL Server 2014 to take advantage of the other performance, availability, security, and management capabilities that these versions provide. For more information about the benefits of SQL Server 2008 R2 with SP1, SQL Server 2012, and SQL Server 2014 Enterprise Edition, see [Features Supported by the Editions of SQL Server 2014](/sql/sql-server/sql-server-2014-release-notes?view=sql-server-2016&preserve-view=true), [Features Supported by the Editions of SQL Server 2012](/previous-versions/sql/sql-server-2012/cc645993(v=sql.110)), and [Features Supported by the Editions of SQL Server 2008 R2](/previous-versions/sql/sql-server-2008-r2/cc645993(v=sql.105)).
   
 In particular, you should consider your need for the following features: 
   
