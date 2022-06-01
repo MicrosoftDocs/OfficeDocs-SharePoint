@@ -71,7 +71,7 @@ In the following screenshot, notice that the structure in the **Product Hierarch
     
 ![Contoso Product Hierarchy](../media/OTCSP_ContosoProductHierarchy.PNG)
   
-The terms from the **Product Hierarchy** term set will also be used to create a friendly URL for our category pages on the publishing site (the Contoso website). For example, the URL to the page displaying camcorders is  *`http://www.contoso/cameras/camcorders`*  , and the URL to the page displaying camera accessories is  *`http://www.contoso/cameras/camera-accessories`*  . 
+The terms from the **Product Hierarchy** term set will also be used to create a friendly URL for our category pages on the publishing site (the Contoso website). For example, the URL to the page displaying camcorders is  *`http://www.contoso/cameras/camcorders`*, and the URL to the page displaying camera accessories is  *`http://www.contoso/cameras/camera-accessories`*.
     
 ![Contoso Friendly URL](../media/OTCSP_ContosoFriendlyURL.PNG)
   
