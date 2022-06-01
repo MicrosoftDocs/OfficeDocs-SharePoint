@@ -28,7 +28,7 @@ Organization fonts allow customers to create a brand for their organizations and
 ## How does this work? 
 The following diagram outlines the key steps in making our solution work: 
 
-:::image type="content" source="media/companyadmin.png" alt-text="image of Admin user profiles":::
+   :::image type="content" source="media/companyadmin.png" alt-text="image of Admin user profiles":::
 
 1. Organization administrator uploads their fonts to their organization's SharePoint site using the **SharePoint Online Management Shell.**
 2. SharePoint stores the assets in a [public Office 365 Content Delivery Network.](/microsoft-365/enterprise/use-microsoft-365-cdn-with-spo?view=o365-worldwide&preserve-view=true) 
@@ -41,21 +41,25 @@ The following diagram outlines the key steps in making our solution work:
      > [!NOTE]
      > You cannot customize the permissions of font organization asset libraries as the fonts are hosted in a public CDN. When uploaded, font asset libraries are available across your entire tenant. Currently, sub-group permissioning of font asset libraries are not supported.
 
-2. Ensure the site permissions for **Everyone except external user** are set to **Read** or **Edit.** 
+2. Ensure that your administrator account has **Full control** permissions to the SharePoint site you are using for your Organization Asset Libraries.
+
+   :::image type="content" source="media/fullcontrol.png" alt-text="Full Control image":::
+
+3. Ensure the site permissions for **Everyone except external user** are set to **Read** or **Edit.** 
     
     :::image type="content" source="media/sitepermissions.png" alt-text="image of sitepermissions" lightbox="media/sitepermissions.png":::
 
-    :::image type="content" source="media/userpermissions.png" alt-text="image of userpermissions":::
+    :::image type="content" source="media/userpermission.png" alt-text="image of userpermissions":::
  
-3. Navigate to your site’s home page. From the **New** dropdown menu, select **Create a Document Library** and name your new font library.
+4. Navigate to your site’s home page. From the **New** dropdown menu, select **Create a Document Library** and name your new font library.
 
    :::image type="content" source="media/new-dropdown.png" alt-text="New drop-down option" lightbox="media/new-dropdown.png":::
 
    :::image type="content" source="media/createdocumentlibrary.png" alt-text="Create and name your font library" lightbox="media/createdocumentlibrary.png":::
 
-4. [Download the latest version of the SharePoint Online Management Shell.](https://go.microsoft.com/fwlink/p/?LinkId=255251)
-5. [Connect your SharePoint Management Shell with your administrator username and password.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
-6. Using the **SharePoint Online Management Shell**, run the following command to designate the library as custom fonts asset library.
+5. [Download the latest version of the SharePoint Online Management Shell.](https://go.microsoft.com/fwlink/p/?LinkId=255251)
+6. [Connect your SharePoint Management Shell with your administrator username and password.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
+7. Using the **SharePoint Online Management Shell**, run the following command to designate the library as custom fonts asset library.
 
       `Add-SPOOrgAssetsLibrary -LibraryUrl <New Document Library SharePoint URL> -OrgAssetType OfficeFontLibrary -CdnType Public`
 
@@ -67,7 +71,7 @@ The following diagram outlines the key steps in making our solution work:
     > - Only include the direct path of your font library. The trailing `/AllItems.aspx` should not be included in your Library URL.
     > - Font asset libraries must be designated with `–CdnType Public`.
 
-7. Using the **SharePoint Online Management Shell**, run the following command to upload your custom font(s) to the document library location.
+8. Using the **SharePoint Online Management Shell**, run the following command to upload your custom font(s) to the document library location.
 
     `Set-SPOCustomFontCatalog -FontFolder <Local Font Folder Location> -LibraryUrl <Document Library SharePoint URL>`
 
@@ -76,9 +80,12 @@ The following diagram outlines the key steps in making our solution work:
     `Set-SPOCustomFontCatalog -FontFolder “C:\ProgramData\Fonts" -LibraryUrl https://contosofonts.sharepoint.com/FontLibrary`
 
    > [!NOTE]
-   > Your font folder should be the directory holding all your font files and should not include any non-font files.
+   > - Your font folder should be the directory holding all your font files and should not include any non-font files.
+   > - You may be re-prompted to enter your credentials at this step.
 
     Allow 24-hours for the Sharepoint servers to update and for the users in your organization to see their organization fonts when using the **Font** dropdown menu in PowerPoint for the web.
+
+    :::image type="content" source="media/font_dropdown.png" alt-text="t":::
 
 ## Important notes on features and its release
 
