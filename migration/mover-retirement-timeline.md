@@ -50,9 +50,6 @@ Mover's cloud migration scenarios are fully available in Migration Manager and h
 **Question:**  I'm migrating using Mover. If my existing connector gets disconnected, can I still reauthorize it to continue?</br>
 **Answer:**    Yes. You can reauthorize an existing connector assuming the existing connector was operational before the retirement. 
 
-**Question:**  Do I still reach out to Mover if my migrations start having issues? </br>
-**Answer:**    Follow the existing support process to report issues, and Microsoft will do its best to resolve them. Microsoft won't accept requests for new features in Mover.  [Open a support request](https://support.serviceshub.microsoft.com/supportforbusiness/onboarding?origin=/supportforbusiness/create)
-
 **Question:** Will individual or consumer migrations continue to work on Mover?</br>
 **Answer:**   We'll continue to support individual, consumer, or student migrations from Mover for some time. Refer back to this page for updates on these migration scenarios. 
 
