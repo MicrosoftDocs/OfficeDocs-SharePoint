@@ -605,8 +605,6 @@ The following table lists the default managed properties and their attributes. F
 
 ### Managed Properties Added in SharePoint Server 2016
 
-<a name="mp2016"></a>
-
 |**Property name** |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |AADObjectID   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:AboutMe, ows_Notes   ||
