@@ -292,7 +292,7 @@ Modify the **azuredeploy.parameters.json** file as needed for your high-availabi
     
 - The Windows Server AD domain name (domainName).
     
-For the virtual machine sizes, you must specify a size in the [DS or GS series of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sizes/).
+For the virtual machine sizes, you must specify a size in the [DS or GS series of virtual machines](/azure/cloud-services/cloud-services-sizes-specs).
   
 > [!NOTE]
 > Although you can specify the passwords for the various accounts in the azuredeploy. parameters.json file, this is not recommended for security reasons because the passwords are recorded in a text file that anyone with access to the file can easily see. 
