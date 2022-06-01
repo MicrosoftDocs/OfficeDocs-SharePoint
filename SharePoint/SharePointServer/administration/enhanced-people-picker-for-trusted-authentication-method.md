@@ -93,7 +93,7 @@ Following are the two ways to synchronize user profiles into the SharePoint User
 
     ![Add new synchronization connection.](../media/add-new-sync-connection.png)
 
-- Use Microsoft Identity Manager (MIM). To use MIM, see [Microsoft Identity Manager in SharePoint Servers 2016 and 2019](/sharepoint/administration/microsoft-identity-manager-in-sharepoint-server-2016).
+- Use Microsoft Identity Manager (MIM). To use MIM, see [Microsoft Identity Manager in SharePoint Servers](microsoft-identity-manager-in-sharepoint-server.md#microsoft-identity-manager-in-sharepoint-server).
     - There should be two agents inside the MIM synchronization Manager UX after MIM is set up. One agent is used to import user profiles from the source IDP to the MIM database. And another agent is used to export user profiles from the MIM database to the SharePoint User Profile service application.
 
 During the synchronization, provide the following properties to the User Profile service application:
