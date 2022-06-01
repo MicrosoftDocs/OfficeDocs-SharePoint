@@ -1,5 +1,5 @@
 ---
-title: "Configure cloud hybrid search - roadmap"
+title: Configure cloud hybrid search - roadmap
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -21,7 +21,7 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: 0bba350d-ec33-43db-a873-930559c78dee
-description: "Learn how to configure cloud hybrid search for SharePoint Server by setting up a cloud Search service application in your SharePoint Server environment and connecting it to your search index in Office 365."
+description: Learn how to configure cloud hybrid search for SharePoint Server by setting up a cloud Search service application in your SharePoint Server environment and connecting it to your search index in Office 365.
 ---
 
 # Configure cloud hybrid search - roadmap
@@ -321,7 +321,7 @@ You might find this guidance useful:
     
 After setting up and validating the planned search experiences, you might want to clear your search index in Office 365 for metadata from the on-premises content you've used during this work. This works differently from what you might be familiar with from SharePoint Server.
   
-In the SharePoint Central Administration website you can use the option "Index reset" for an SSA to remove all content from the search index. This option does not work for cloud hybrid search because there is no direct communication between the cloud SSA in SharePoint Server and the search index in Office 365. If you only want to remove some on-premises metadata, remove that on-premises content source, or create a crawl rule that doesn't crawl the URL of a file. If you need to remove all metadata from on-premises content from the search index in Office 365, open a ticket with [Microsoft Support](https://support.microsoft.com/assistedsupportproducts).
+In the SharePoint Central Administration website you can use the option "Index reset" for an SSA to remove all content from the search index. This option does not work for cloud hybrid search because there is no direct communication between the cloud SSA in SharePoint Server and the search index in Office 365. If you only want to remove some on-premises metadata, remove that on-premises content source, or create a crawl rule that doesn't crawl the URL of a file. If you need to remove all metadata from on-premises content from the search index in Office 365, open a ticket with [Microsoft Support](https://support.microsoft.com/).
 
 ## Proxy Considerations
 <a name="BKMK_SearchProxy"> </a>
