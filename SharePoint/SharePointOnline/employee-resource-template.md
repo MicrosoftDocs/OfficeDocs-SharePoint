@@ -26,7 +26,7 @@ description: "Provision and customize the LGBTQ+ Employee resource group site te
 
 Use the LGBTQ+ Employee Resource Group site template to quickly create a communication site from the [SharePoint look book](https://lookbook.microsoft.com/) to uplift employee resource groups, support the career growth of people in your organization, and to help advance equality and allyship for all. 
 
-This template features content focused on a LGBTQ+ employee resource group but can be adapted to fit a variety of other employee groups at your organization.  
+This template features content focused on an LGBTQ+ employee resource group but can be adapted to fit a variety of other employee groups at your organization.  
 
 **The LGBTQ+ Employee Resource Group site features:** 
 
