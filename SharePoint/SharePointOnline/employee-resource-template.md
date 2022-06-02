@@ -46,7 +46,7 @@ This template features content focused on a LGBTQ+ employee resource group but c
 
 ## Step 1: Provision the site  
 
-1. Go to the <LGBTQ+ Employee Resource Group template page> 
+1. Go to the LGBTQ+ Employee Resource Group template page. 
 2. Select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your site collection admin credentials. 
 3. From the permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept.** 
 
