@@ -30,19 +30,19 @@ These are the basic parts of Teams and SharePoint and how they relate to each ot
 
 - **Teams** - Teams is a collaboration tool where you can chat with other people about a particular subject or task. Each team is connected to other tools that you can use to collaborate with others.
 
-- **SharePoint** – SharePoint is a tool for creating web sites, publishing content, and storing files.
+- **SharePoint** - SharePoint is a tool for creating web sites, publishing content, and storing files.
 
-- **SharePoint site** – A SharePoint site is a web site in SharePoint where you can create web pages and store and collaborate on files. SharePoint sites can be used independently and are also used by Teams for file storage (these are called *Teams-connected sites*). A Teams-connected site is created automatically whenever you create a team.
+- **SharePoint site** - A SharePoint site is a web site in SharePoint where you can create web pages and store and collaborate on files. SharePoint sites can be used independently and are also used by Teams for file storage (these are called *Teams-connected sites*). A Teams-connected site is created automatically whenever you create a team.
 
-- **Team** – A team is a place in Teams where you can invite others to collaborate. Each team is connected to one or more SharePoint sites. These sites are where the team's files are stored.
+- **Team** - A team is a place in Teams where you can invite others to collaborate. Each team is connected to one or more SharePoint sites. These sites are where the team's files are stored.
 
-- **Channel** – A channel is a location in a team where you can collaborate with others on a specific thing. A team can have multiple channels for different purposes. For example, you might have a team for marketing with different channels for different products or events. There are three types of channels in Teams: *standard*, *private*, and *shared*.
+- **Channel** - A channel is a location in a team where you can collaborate with others on a specific thing. A team can have multiple channels for different purposes. For example, you might have a team for marketing with different channels for different products or events. There are three types of channels in Teams: *standard*, *private*, and *shared*.
 
-- **Standard channel** – A standard channel is a channel that all members of a team have access to. Each team comes with a standard channel called "General." Team owners and members can add additional standard channels.
+- **Standard channel** - A standard channel is a channel that all members of a team have access to. Each team comes with a standard channel called "General." Team owners and members can add additional standard channels.
 
-- **[Private channel](/MicrosoftTeams/private-channels)** – A private channel is a channel that only some of the team's members have access to. It is used for private conversations and collaboration. Each private channel has its own SharePoint site for file storage. Only members of the private channel can access this site.
+- **[Private channel](/MicrosoftTeams/private-channels)** - A private channel is a channel that only some of the team's members have access to. It is used for private conversations and collaboration. Each private channel has its own SharePoint site for file storage. Only members of the private channel can access this site.
 
-- **[Shared channels](/MicrosoftTeams/shared-channels)** – A shared channel is a channel that you can add anyone to, even if they’re not a member of the team. It is used for broader collaboration with people outside the team. Each shared channel has its own SharePoint site for file storage. Only members of the shared channel can access this site.
+- **[Shared channels](/MicrosoftTeams/shared-channels)** - A shared channel is a channel that you can add anyone to, even if they’re not a member of the team. It is used for broader collaboration with people outside the team. Each shared channel has its own SharePoint site for file storage. Only members of the shared channel can access this site.
 
 - **Parent site** - The SharePoint site that is created when you create the team. This site is used for file storage for all standard channels. All team owners and members have access to this site.
 
@@ -104,7 +104,7 @@ Teams-connected sites are managed differently than the typical SharePoint site. 
 
 |Setting|Parent site|Channel site|
 |:------|:----------|:-----------|
-|Site permissions|Team permissions are synced with the site. Team and site owners can add additional people directly to the site. (Managing all permissions through Teams is recommended.)|Channel site permissions are inherited from the channel itself. Site permissions can’t be managed in SharePoint.|
+|Site permissions|Team permissions are synced with the site. Team and site owners can add additional people directly to the site. (Managing all permissions through Teams is recommended.)|Channel site permissions are inherited from the channel itself. Site permissions can’t be managed in SharePoint, but will display permissions in read-only mode.|
 |Site sharing settings|Team and site owners can set the sharing settings for files, folders, and the site. This is a SharePoint-specific setting.||
 |Guest access expiration|Guest access expiration can be set in the SharePoint admin center.||
 |Sensitivity|Sensitivity labels can be applied either to the team or the parent site. The same label is used for both and a change made in either location is reflected in the other.|Sensitivity of channel sites is inherited from the parent site.|
