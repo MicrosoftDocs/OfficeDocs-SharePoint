@@ -1,5 +1,5 @@
 ---
-title: "Install SharePoint 2013 on a single server with SQL Server"
+title: Install SharePoint 2013 on a single server with SQL Server
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -15,7 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 6eae891d-5546-4945-aa2e-9dfcc9d0cc8d
-description: "Learn how to install SharePoint on a single server with SQL Server."
+description: Learn how to install SharePoint on a single server with SQL Server.
 ---
 
 # Install SharePoint 2013 on a single server with SQL Server
@@ -97,9 +97,9 @@ Because the prerequisite installer downloads components from the Microsoft Downl
     
   - [KB 2708075](https://go.microsoft.com/fwlink/p/?LinkID=254222)
     
-  - [KB 2759112](https://go.microsoft.com/fwlink/p/?LinkId=267536)
+  - `[KB 2759112]`
     
-  - [KB 2765317](https://go.microsoft.com/fwlink/p/?LinkID=268725)
+  - `[KB 2765317]`
     
 ### Run Setup
 

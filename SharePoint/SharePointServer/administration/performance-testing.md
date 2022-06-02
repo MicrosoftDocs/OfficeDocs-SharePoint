@@ -1,5 +1,5 @@
 ---
-title: "Performance testing for SharePoint Server 2013"
+title: Performance testing for SharePoint Server 2013
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -13,7 +13,7 @@ ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: fe3d1a2a-6147-4d10-8d88-cba86ee2f436
-description: "Learn about how to plan and execute performance testing of a SharePoint Server 2013 environment."
+description: Learn about how to plan and execute performance testing of a SharePoint Server 2013 environment.
 ---
 
 # Performance testing for SharePoint Server 2013
