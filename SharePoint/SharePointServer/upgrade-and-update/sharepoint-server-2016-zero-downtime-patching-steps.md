@@ -20,7 +20,7 @@ description: "Zero downtime patching (ZDP) is available in SharePoint Server 201
 
 # SharePoint Server zero downtime patching steps
 
-[!INCLUDE[applies to-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)] 
+[!INCLUDE[applies to-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)] 
 
 Zero downtime patching (ZDP) is available in SharePoint Server 2016, SharePoint Server 2019, and SharePoint Server Subscription Edition. Let users keep working on, saving, and searching documents as you patch your SharePoint Server farm.
 
