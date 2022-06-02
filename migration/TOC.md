@@ -148,7 +148,6 @@
 ###  Set up your source
 #### [Box](mover-box.md)
 #### [Dropbox](mover-dropbox.md)
-#### [Egnyte](mover-egnyte.md)
 #### [G Suite Drive](mover-gsuite.md)
 #### [Office 365](mover-o365.md)
 #### [Amazon S3](mover-amazons3.md)
