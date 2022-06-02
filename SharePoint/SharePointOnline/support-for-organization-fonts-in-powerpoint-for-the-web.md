@@ -65,7 +65,7 @@ The following diagram outlines the key steps in making our solution work:
 
       For example:
      
-     `Add-SPOOrgAssetsLibary -LibraryUrl https://constosofonts.sharepoint.com/FontLibrary -OrgAssetType OfficeFontLibrary -CdnType Public`
+     `Add-SPOOrgAssetsLibrary -LibraryUrl https://constosofonts.sharepoint.com/FontLibrary -OrgAssetType OfficeFontLibrary -CdnType Public`
 
     > [!NOTE]
     > - Only include the direct path of your font library. The trailing `/AllItems.aspx` should not be included in your Library URL.
