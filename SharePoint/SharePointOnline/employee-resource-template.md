@@ -17,7 +17,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Provision and customize the LGBTQI+ Employee resource group site template"
+description: "Provision and customize the LGBTQ+ Employee resource group site template"
 ---
 
 # Overview of the LGBTQ+ Employee Resource Group site template
@@ -41,7 +41,7 @@ This template features content focused on a LGBTQ+ employee resource group but c
 
 | **Step 1: Provision** | **Step 2: Customize** | **Step 3: Share** | 
 | :------------------: | :------------------: |:---------------:| 
-| [Provision the site from the SharePoint lookbook](/sharepoint/add-sample-site) | Follow guidance here to customize the site | Share the site with the rest of your organization | 
+| [Provision the site from the SharePoint look book](/sharepoint/add-sample-site) | Follow guidance here to customize the site | Share the site with the rest of your organization | 
 
 
 ## Step 1: Provision the site  
