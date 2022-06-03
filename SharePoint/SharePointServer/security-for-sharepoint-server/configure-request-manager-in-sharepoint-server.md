@@ -38,9 +38,9 @@ The following table describes possible scenarios and resolutions that Request Ma
 |Area|Scenario|Resolution|
 |---|---|---|
 |**Reliability and performance**|Routing new requests to web front end with low performance can increase latency and cause timeouts.|Request Manager can route to front-end web servers that have better performance, keeping low performance front-end web servers available.|
-|Requests from users and bots have equal priority.|Prioritize requests by throttling requests from bots to instead serve requests from end-users).|
+||Requests from users and bots have equal priority.|Prioritize requests by throttling requests from bots to instead serve requests from end-users).|
 |**Manageability, accountability, and capacity planning**|SharePoint Server fails or generally responds slowly, but it's difficult to identify the cause of a failure or slowdown.|Request Manager can send all requests of a specific type, for example, Search, User Profiles, or Office Online, to specific computers. When a computer is failing or slow, Request Manager can locate the problem.|
-|All front-end web servers must be able to handle the requests because they could be sent to any front-end web server.|Request Manager can send multiple or single requests to front-end web servers that are designated to handle them.|
+||All front-end web servers must be able to handle the requests because they could be sent to any front-end web server.|Request Manager can send multiple or single requests to front-end web servers that are designated to handle them.|
 |**Scaling limits**|Hardware scaling limited by load balancer|Request Manager can perform application routing and scale out as needed so that a load balancer can quickly balance loads at the network level.|
 
 ## Setup and Deployment
@@ -49,7 +49,8 @@ Request Manager's task is to decide two things: a SharePoint farm will accept a 
 
 When a new request is received, Request Manager is the first code that runs in a SharePoint farm. Although Request Manager is installed during setup of SharePoint Server on a front-end web server, the Request Management service is not enabled. You can use the [Start-SPServiceInstance](/powershell/module/sharepoint-server/start-spserviceinstance?view=sharepoint-ps&preserve-view=true) and [Stop-SPServiceInstance](/powershell/module/sharepoint-server/stop-spserviceinstance?view=sharepoint-ps&preserve-view=true) cmdlets to start and stop the Request Management service instance respectively or the Manage services on server page on the the SharePoint Central Administration website. You can use the **RoutingEnabled** or **ThrottlingEnabled** parameters of the [Set-SPRequestManagementSettings](/powershell/module/sharepoint-server/set-sprequestmanagementsettings?view=sharepoint-ps&preserve-view=true) Microsoft PowerShell cmdlet to change properties of Request Manager.
 
-**NOTE**: There is no user interface to configure properties of Request Manager. The Windows PowerShell cmdlet is the only way to perform this task.
+> [!NOTE]
+> There is no user interface to configure properties of Request Manager. The Windows PowerShell cmdlet is the only way to perform this task.
 
 Request Manager has two supported deployment modes: Dedicated and Integrated.
 
@@ -86,10 +87,10 @@ By default, request routing and request throttling and prioritizing are enabled.
 
 The table describes the configuration situation and Windows PowerShell syntax to use.
 
-|Situation|Microsoft PowerShell example|&nbsp;|
-|---|---|---|
-|Enable routing and throttling for all web applications|`Get-SPWebApplication | Set-SPRequestManagementSettings -RoutingEnabled $true -ThrottlingEnabled $true`||
-|Enable routing with static weighting for all web applications|`Get-SPWebApplication|Get-SPRequestManagementSettings|Set-SPRequestManagementSettings -RoutingEnabled $true -ThrottlingEnabled $false -RoutingWeightScheme Static`||
+|Situation|Microsoft PowerShell example|
+|---|---|
+|Enable routing and throttling for all web applications|`Get-SPWebApplication | Set-SPRequestManagementSettings -RoutingEnabled $true -ThrottlingEnabled $true`|
+|Enable routing with static weighting for all web applications|`Get-SPWebApplication | Get-SPRequestManagementSettings | Set-SPRequestManagementSettings -RoutingEnabled $true -ThrottlingEnabled $false -RoutingWeightScheme Static`|
 
 In some situations, multiple front-end web servers will be suitable destinations for a particular request. In this case, by default, SharePoint Server selects one server randomly and uniformly.
 One routing weight scheme is static-weighted routing. In this scheme, static weights are associated with front-end web servers so that Request Manager always favors a higher static weight during the selection process. This scheme is useful to give added weight to more powerful front-end web servers and produce less strain on less powerful ones. Each front-end web server will have a static weight associated with it. The values of the weights are any integer value, where 1 is the default. A value less than 1 represents lower weight, and greater than 1 represents higher weight.
@@ -106,22 +107,15 @@ Request routing determines the routing targets that are available when a routing
 
 The following table describes the various routing target tasks and the associated Windows PowerShell syntax to use.
 
-|Task|Microsoft PowerShell example|&nbsp;|
-|---|---|---|
-|Return a list of routing targets for all available web applications|`Get-SPWebApplication | Get-SPRequestManagementSettings|Get-SPRoutingMachineInfo -Availability Available`||
-|Add a new routing target for a specified web application.|`$web=Get-SPWebApplication -Identity <URL of web application>`||
-||`$rm=Get-SPRequestManagementSettings -Identity $web`||
-||`Add-SPRoutingMachineInfo -RequestManagementSettings $rm -Name <MachineName> -Availability Available`||
-|Edit an existing routing target's availability and static weight for a specified web application.|`$web=Get-SPWebApplication -Identity <URL of web application>`||
-||`$rm=Get-SPRequestManagementSettings -Identity $web`||
-||`$m=Get-SPRoutingMachineInfo -RequestManagementSettings $rm -Name <MachineName>`||
-||`Set-SPRoutingMachineInfo -Identity $m -Availability Unavailable`||
-|Remove a routing target from a specified web application.|`$web=Get-SPWebApplication -Identity <URL of web application>`||
-||`$rm=Get-SPRequestManagementSettings -Identity $web`||
-||`$m=Get-SPRoutingMachineInfo -RequestManagementSettings $rm -Name <MachineName>`||
-||`Remove-SPRoutingMachineInfo -Identity $M`||
+|Task|Microsoft PowerShell example|
+|---|---|
+|Return a list of routing targets for all available web applications|`Get-SPWebApplication | Get-SPRequestManagementSettings | Get-SPRoutingMachineInfo -Availability Available`|
+|Add a new routing target for a specified web application.|`$web=Get-SPWebApplication -Identity <URL of web application>` <p> `$rm=Get-SPRequestManagementSettings -Identity $web` <p> `Add-SPRoutingMachineInfo -RequestManagementSettings $rm -Name <MachineName> -Availability Available`|
+|Edit an existing routing target's availability and static weight for a specified web application.|`$web=Get-SPWebApplication -Identity <URL of web application>` <p> `$rm=Get-SPRequestManagementSettings -Identity $web` <p> `$m=Get-SPRoutingMachineInfo -RequestManagementSettings $rm -Name <MachineName>` <p> `Set-SPRoutingMachineInfo -Identity $m -Availability Unavailable`|
+|Remove a routing target from a specified web application.|`$web=Get-SPWebApplication -Identity <URL of web application>` <p> `$rm=Get-SPRequestManagementSettings -Identity $web` <p> `$m=Get-SPRoutingMachineInfo -RequestManagementSettings $rm -Name <MachineName>` <p> `Remove-SPRoutingMachineInfo -Identity $M`|
 
-**Note**: You cannot remove front-end web servers that are in the farm. Instead, you can use the **Availability** parameter of the **Set-SPRoutingMachineInfo** cmdlet to make them unavailable.
+> [!NOTE]
+> You cannot remove front-end web servers that are in the farm. Instead, you can use the **Availability** parameter of the **Set-SPRoutingMachineInfo** cmdlet to make them unavailable.
 
 ### Routing and throttling rules
 
@@ -130,7 +124,6 @@ Request routing and request throttling and prioritizing are decision algorithms 
 Rules are separated into two categories, routing rules and throttling rules, which are used in request routing and request throttling and prioritizing, respectively. Routing rules match criteria and route to a machine pool. Throttling rules match criteria and throttle based on known health score of a computer.
 
 ## Request Routing
-
 
 Request processing is all operations that occur sequentially from the time that Request Manager receives a new request to the time that Request Manager sends a response to the client.
 
@@ -166,14 +159,14 @@ Every rule has one or more match criteria, which consist of three things: match 
 
 The following table describes the different types of match properties and match types:
 
-|Match property|Match type|&nbsp;|
-|---|---|---|
-|Hostname|ReqEx|||
-|URL|Equals||
-|Port number|Starts with||
-|MIME type|Ends with||
+|Match property|Match type|
+|---|---|
+|Hostname|ReqEx|
+|URL|Equals|
+|Port number|Starts with|
+|MIME type|Ends with|
 
-For example, an administrator would use the following match criteria to match http://contoso requests: Match Property=URL; Match value= http://contoso; Match type=RegEx.
+For example, an administrator would use the following match criteria to match `http://contoso` requests: Match Property=URL; Match value= `http://contoso`; Match type=RegEx.
 
 ### Front-end web server selection
 
@@ -218,19 +211,19 @@ Decisions might include useful information such as the following.
 
 An administrator can use this information to adjust the routing and throttling rule sets to optimize the system and correct problems. To help you monitor and evaluate your farm's performance, you can create a performance monitor log file and add the following SharePoint Foundation Request Manager Performance counters:
 
-|Counter name|Description|&nbsp;|
-|---|---|---|
-|Connections Current|The total number of connections that are currently open by Request Manager.|||
-|Connections Reused / Sec|The number of connections per second that are reused when the same client connection makes another request without closing the connection.||
-|Routed Requests / Sec|The number of routed requests per second.  The instance determines the application pool and server for which this counter tracks.||
-|Throttled Requests / Sec|The number of throttled requests per second.||
-Failed Requests / Sec|Ends with||
-|MIME type|The number of failed requests per second.||
-|Average Processing Time|Ends with||
-|MIME type|The time to process the request that is, the time to evaluate all the rules and determine a routing target.||
-|Last Ping Latency|The last ping latency (that is, Request Manager's PING feature) and the instance determine which application pool and machine target.||
-|Connection Endpoints Current|The total number of endpoints that are connected for all active connections.||
-|Routed Requests Current|The number of unfinished routed requests. The instance determines which application pool and machine target.||
+|Counter name|Description|
+|---|---|
+|Connections Current|The total number of connections that are currently open by Request Manager.|
+|Connections Reused / Sec|The number of connections per second that are reused when the same client connection makes another request without closing the connection.|
+|Routed Requests / Sec|The number of routed requests per second. The instance determines the application pool and server for which this counter tracks.|
+|Throttled Requests / Sec|The number of throttled requests per second.|
+Failed Requests / Sec|Ends with|
+|MIME type|The number of failed requests per second.|
+|Average Processing Time|Ends with|
+|MIME type|The time to process the request that is, the time to evaluate all the rules and determine a routing target.|
+|Last Ping Latency|The last ping latency (that is, Request Manager's PING feature) and the instance determine which application pool and machine target.|
+|Connection Endpoints Current|The total number of endpoints that are connected for all active connections.|
+|Routed Requests Current|The number of unfinished routed requests. The instance determines which application pool and machine target.|
 
 Along with creating a performance monitor log file, the verbose logging level can be enabled by using the following Microsoft PowerShell syntax:
 
