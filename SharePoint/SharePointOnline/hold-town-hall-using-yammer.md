@@ -182,7 +182,7 @@ Members of your organization can watch the recording of the event stream after t
 
 Make your town hall and post-event engagement scalable by sharing your town hall recording across multiple platforms. Add it to your SharePoint site using the [Yammer web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) or the [News feed web part](/yammer/integrate-yammer-with-other-apps/yammer-and-newsfeed), add it to your news feed in [Viva Connections](/viva/connections/viva-connections-overview), or share it to a team channel in [Teams](/microsoftteams/best-practices-large-groups).
 
-[Stream](/stream/portal-get-started) (on SharePoint) provides [Multi-Geo support](/microsoft-365/enterprise/administering-a-multi-geo-environment?view=o365-worldwide) for video storage and advanced sharing options. Increase your event recording's discoverability and shareability by adding it to your organization's Stream portal.
+[Stream](/stream/portal-get-started) (on SharePoint) provides [Multi-Geo support](/microsoft-365/enterprise/administering-a-multi-geo-environment) for video storage and advanced sharing options. Increase your event recording's discoverability and shareability by adding it to your organization's Stream portal.
 
 Access additional video analytics including views over time and viewer engagement by saving your town hall recording to Stream.
 
@@ -208,4 +208,4 @@ Learn more about [viewing community insights in Yammer](https://support.microsof
 
 [Use PowerShell to set up live events and policies](/microsoftteams/teams-live-events/set-teams-live-events-policies-using-powershell).
 
-[Produce and organize a live event in Yammer](https://support.microsoft.com/office/organize-a-live-event-in-new-yammer-7338782a-4f0b-4fd0-a6c3-33625906ead1). 
+[Produce and organize a live event in Yammer](https://support.microsoft.com/office/organize-a-live-event-in-new-yammer-7338782a-4f0b-4fd0-a6c3-33625906ead1).
