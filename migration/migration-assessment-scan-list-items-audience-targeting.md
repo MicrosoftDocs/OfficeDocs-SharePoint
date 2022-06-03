@@ -20,7 +20,7 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 ms.custom:
-
+description: "Learn about list and list item audience data that won't migrate."
 ---
 
 # Migration Assessment Scan: List Items with Audience Targeting

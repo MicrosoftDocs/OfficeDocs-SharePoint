@@ -20,7 +20,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 ms.assetid: 479f89dc-f6ba-4252-a72e-5cf1d02946ac
-
+description: "Learn about issues migrating workflows that are in progress."
 ---
 
 # Migration Assessment Scan: Workflow Running Solutions 2010

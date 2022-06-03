@@ -19,7 +19,7 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 ms.custom:
-
+description: "Learn about migration issues with Site Notebook."
 ---
 
 # Migration Assessment Scan: Site Notebook

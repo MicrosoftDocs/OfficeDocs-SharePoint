@@ -21,7 +21,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 ms.assetid: cb46c965-ad8b-4276-9f2c-5d684eb0f62a
-
+description: "Learn what to do about full trust solutions."
 ---
 
 # Migration assessment scan: Full trust component results

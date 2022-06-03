@@ -38,10 +38,14 @@ In the parent team site, the **Go to channel** link will be available in the com
 
 ![Image of the link to the SharePoint site from Teams settings](media/Teams-open-in-sp-2.png)
 
-Additionally, from teams and channels in Microsoft Teams, you can select the ellipsis (…) at the top-right of the channel and then **Open in SharePoint** to navigate to the Teams connected team site or channel site in SharePoint.
+Additionally, from teams and channels in Microsoft Teams, you can select the ellipsis (...) at the top-right of the channel and then **Open in SharePoint** to navigate to the Teams connected team site or channel site in SharePoint.
 
 ## Manage settings and permissions
+<<<<<<< Updated upstream
 When SharePoint sites and Teams are integrated, certain setting and classifications need to be managed in the [settings in Microsoft Teams](https://support.microsoft.com/office/manage-team-settings-and-permissions-in-teams-ce053b04-1b8e-4796-baa8-90dc427b3acc). You’ll notice that after navigating to **Settings** in your SharePoint site, certain options are not editable, like **Permissions**. Learn more about [viewing and managing settings in Microsoft Teams](https://support.microsoft.com/office/manage-team-settings-and-permissions-in-teams-ce053b04-1b8e-4796-baa8-90dc427b3acc).
+=======
+When SharePoint sites and Teams are integrated, certain setting and classifications need to be managed in the [settings in Microsoft Teams](https://support.microsoft.com/office/manage-team-settings-and-permissions-in-teams-ce053b04-1b8e-4796-baa8-90dc427b3acc). You'll notice that when you navigate to **Settings** in SharePoint site, certain options are not editable, like **Permissions**. Learn more about [viewing and managing settings in Microsoft Teams](https://support.microsoft.com/office/manage-team-settings-and-permissions-in-teams-ce053b04-1b8e-4796-baa8-90dc427b3acc).
+>>>>>>> Stashed changes
 <br>
 
 | Settings managed in SharePoint | Settings managed in Teams  |
