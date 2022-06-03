@@ -1,7 +1,7 @@
 ---
 title: "deprecation of site mailboxes"
-ms.author: v-bshilpa
-author: Benny
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -57,15 +57,15 @@ Get-SiteMailbox -BypassOwnerCheck -ResultSize unlimited | ft Name, Owners
 
 ## Export site mailboxes through PST (Manually)
 
-You must have [Microsoft 365 admin permissions](/microsoft-365/admin/add-users/assign-admin-roles) to access the [Microsoft 365 compliance center](/microsoft-365/compliance/microsoft-365-compliance-center). 
+You must have [Microsoft 365 admin permissions](/microsoft-365/admin/add-users/assign-admin-roles) to access the [Microsoft Purview compliance portal](/microsoft-365/compliance/microsoft-365-compliance-center). 
 
 For more information, see [Permissions and sharing](./modern-experience-sharing-permissions.md).
 
 1. Go to [https://compliance.microsoft.com/](https://compliance.microsoft.com/) and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
-2. In the Microsoft 365 compliance center Home page, navigate to **Show all** > **eDiscovery** > **Core**.
+2. In the Microsoft Purview compliance portal Home page, navigate to **Show all** > **eDiscovery** > **Core**.
 
-   The **Core eDiscovery** page is displayed.
+   The **eDiscovery (Standard)** page is displayed.
 
 3. Click **Create a case**.
 

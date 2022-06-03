@@ -62,7 +62,8 @@ The following Azure AD user attributes are synced to the UPA.
 |Manager |Manager |User Manager for organization hierarchy |Yes |
 
 > [!NOTE]
-> To update additional or custom properties, see [Bulk update custom user profile properties](/sharepoint/dev/solution-guidance/bulk-user-profile-update-api-for-sharepoint-online).
+> To update additional or custom properties, see [Bulk update custom user profile properties](/sharepoint/dev/solution-guidance/bulk-user-profile-update-api-for-sharepoint-online). 
+> Some property names could differ between Azure AD Graph and Microsoft Graph, see [Property differences between Azure AD Graph and Microsoft Graph](/graph/migrate-azure-ad-graph-property-differences). 
 
 ## Frequently asked questions (FAQs)
 

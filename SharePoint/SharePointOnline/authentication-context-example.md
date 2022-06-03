@@ -107,7 +107,7 @@ To create a conditional access policy
 Next, update a sensitivity label (or create a new one) to use the authentication context.
 
 To update a sensitivity label
-1. In the [Microsoft 365 compliance center](https://compliance.microsoft.com/informationprotection), on the **Information protection** tab, click the label that you want to update and then click **Edit label**.
+1. In the [Microsoft Purview compliance portal](https://compliance.microsoft.com/informationprotection), on the **Information protection** tab, click the label that you want to update and then click **Edit label**.
 
 2. Click **Next** until you are on the **Define protection settings for groups and sites** page.
 

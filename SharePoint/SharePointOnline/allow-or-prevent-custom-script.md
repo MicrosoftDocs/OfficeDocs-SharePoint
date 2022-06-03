@@ -1,5 +1,5 @@
 ---
-title: "Allow or prevent custom script"
+title: Allow or prevent custom script
 ms.reviewer: lucaband
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -27,7 +27,7 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: 1f2c515f-5d7e-448a-9fd7-835da935584f
-description: "Learn how global and SharePoint admins can change the custom script setting for SharePoint sites in the organization."
+description: Learn how global and SharePoint admins can change the custom script setting for SharePoint sites in the organization.
 ---
 
 # Allow or prevent custom script
@@ -88,7 +88,7 @@ To allow custom script on a particular site (previously called "site collection"
     ```PowerShell
     Set-SPOSite <SiteURL> -DenyAddAndCustomizePages 0
     ```
-    or by means of the PnP.PowerShell cmdlet [Set-PnPSite](/powershell/module/sharepoint-pnp/set-pnpsite)
+    or by means of the PnP.PowerShell cmdlet [Set-PnPSite](https://pnp.github.io/powershell/cmdlets/Set-PnPSite.html)
     
     ```PowerShell
     Set-PnPSite <SiteURL> -NoScriptSite $false

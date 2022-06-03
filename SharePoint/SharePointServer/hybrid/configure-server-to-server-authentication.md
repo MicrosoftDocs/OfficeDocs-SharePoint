@@ -1,5 +1,5 @@
 ---
-title: "Configure server-to-server authentication from SharePoint Server to SharePoint in Microsoft 365"
+title: Configure server-to-server authentication from SharePoint Server to SharePoint in Microsoft 365
 ms.reviewer: neilh
 ms.author: serdars
 author: SerdarSoysal
@@ -20,7 +20,7 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: 9cd888dc-9104-422e-8d8a-d795f0b1c0d0
-description: "Learn how to build a server-to server trust between SharePoint Server and SharePoint in Microsoft 365."
+description: Learn how to build a server-to server trust between SharePoint Server and SharePoint in Microsoft 365.
 ---
 
 # Configure server-to-server authentication from SharePoint Server to SharePoint in Microsoft 365
@@ -188,7 +188,7 @@ This section describes the variables you will set in the procedure that follows.
 | Variable | Comments |
 |:-----|:-----|
 |$spcn  |The root domain name of your public domain. This value should not be in the form of a URL; it should be the **domain name only**, with **no protocol**.  <br/> An example is adventureworks.com.  |
-|$spsite  |The internal URL of your on-premises primary web application, such as **http://sharepoint** or **https://sharepoint.adventureworks.com**. This value is a full URL using the proper protocol (either **http:** // or **https://** ).  <br/> This is the internal URL of the web application that you are using for hybrid functionality.  <br/> An example is http://sharepoint or https://sharepoint.adventureworks.com.  |
+|$spsite  |The internal URL of your on-premises primary web application, such as **http://sharepoint** or **`https://sharepoint.adventureworks.com`**. This value is a full URL using the proper protocol (either **http:** // or **https://** ).  <br/> This is the internal URL of the web application that you are using for hybrid functionality.  <br/> An example is http://sharepoint or `https://sharepoint.adventureworks.com`.  |
 |$site  |The object of your on-premises primary web application. The command that populates this variable gets the object of the site you specified in the **$spsite** variable.  <br/> This variable is automatically populated.  |
 |$spoappid  |The SharePoint in Microsoft 365 application principal ID is always 00000003-0000-0ff1-ce00-000000000000. This generic value identifies SharePoint in Microsoft 365 objects in a Microsoft 365 organization.  |
 |$spocontextID  |The context ID (ObjectID) of your SharePoint in Microsoft 365 tenant. This value is a unique GUID that identifies your SharePoint in Microsoft 365 tenant.  <br/> This value is automatically detected when you run the command to set the variable.  |
@@ -238,7 +238,7 @@ New-MsolServicePrincipalCredential -AppPrincipalId $spoappid -Type asymmetric -U
 #### Step 3: Add an SPN for your public domain name to Azure Active Directory
 <a name="step5"> </a>
 
-In this step, you add a service principal name (SPN) to your Azure Active Directory tenant. The SPN is comprised of the SharePoint in Microsoft 365 principal object and your company's public DNS namespace.
+In this step, you add a service principal name (SPN) to your Azure Active Directory tenant. The SharePoint in Microsoft 365 principal object and your company's public DNS namespace form the SPN. 
   
 Just like SPNs function in Active Directory, creating this SPN registers an object in Azure Active Directory that is used to support mutual authentication between SharePoint Server and SharePoint in Microsoft 365. The basic syntax for the SPN is:
   
@@ -364,7 +364,7 @@ To validate the **New-SPAzureAccessControlServiceApplicationProxy** command:
 #### Step 7: Update Hybrid federated search
 <a name="step9"> </a>
 
-Starting October 2021, an extra step is required to adjust an existing SharePoint Hybrid configuration to work with and authenticate using the new Microsoft 365 search engine. For more information about this change, see [Message Center post 270671](https://admin.microsoft.com/#/MessageCenter/:/messages/MC270671).
+Starting October 2021, an extra step is required to adjust an existing SharePoint Hybrid configuration to work with and authenticate using the new Microsoft 365 search engine.
 
 The script must be run on a server where SharePoint On-Premises is installed (2013, 2016, or 2019). The script will attempt to install the required module dependencies (MSOnline, AzureAD) on the server where it is run.
 
@@ -382,13 +382,34 @@ The script must be run on a server where SharePoint On-Premises is installed (20
     Get-Help .\Update-FederatedHybridSearchForM365.ps1
     ```
 
-3. When prompted, login using Microsoft 365 Global Administrator account.
+3. When prompted, log in using Microsoft 365 Global Administrator account.
 
 4. Wait for script execution to complete; in case there are any issues, contact Microsoft Support.
 
 5. After script execution, users will not see any changes when this change is implemented.
 
+#### Step 8 (Only required for SharePoint Server 2013): Give New App Principal QueryAsUserIgnoreAppPrincipal permission
+<a name="step10"> </a>
 
+SharePoint Server 2013 needs a hidden constraint in every federated query. The reverse proxy returns the documents indexed in the reverse proxy site itself, not the internal on-premise search site as expected. To avoid this, you need to execute the following steps in your SharePoint Server 2013 admin site:
+
+1. Go to <CentralAdminURL>/_layouts/appinv.aspx and Search for **c3959f3a-5ad4-4d2b-b1f0-bc70f9a5d0a1**, where you should find **Greenland Federated Search Bot Skill**.
+
+2. If there are items in the App Domain field, leave them be, and if it is empty, use localhost.
+  
+3. In the Redirect URL, use https://localhost.
+  
+4. In the Permission Request XML field, paste the following XML excerpt:
+  
+  ```xml
+<AppPermissionRequests>
+<AppPermissionRequest Scope="http://sharepoint/search" Right="QueryAsUserIgnoreAppPrincipal" />
+</AppPermissionRequests>
+  ```
+5. The configuration page should appear similar to the following screenshot. Finally, select **Create**.
+
+![Give QueryAsUserIgnoreAppPrincipal permission to app](../media/QueryAsUserIgnoreAppPrincipal.png)
+  
 ## Validation and next steps
 <a name="next"> </a>
 

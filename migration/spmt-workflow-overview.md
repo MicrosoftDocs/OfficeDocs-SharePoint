@@ -1,5 +1,5 @@
 ---
-title: "Migrate SharePoint workflows with the SharePoint Migration Tool (SPMT) to POwer Automate"
+title: "Migrate SharePoint workflows with the SharePoint Migration Tool (SPMT) to Power Automate"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
