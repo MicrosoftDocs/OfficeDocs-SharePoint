@@ -43,7 +43,7 @@ It's important to remember that the goal of ZDP is uptime for your users, so, in
   
 ## The ZDP Process
 
-This example uses ZDP against a SharePoint Server farm set up using MinRole. The example environment looks like this:
+This example uses ZDP against a SharePoint Server farm setup using MinRole. The example environment looks like this:
   
 ![The environment for this article has 8 servers: 4 required server roles in column 1 (SPWeb01, SPApp01, SPDch01, SPSrch01) and 4 redundant server roles in column 2 (SPWeb02, SPApp02, SPDch02, SPSrch02).](../media/2f849a6d-7481-42c2-bc47-9634dbbd4723.png)
   
