@@ -41,25 +41,28 @@ In the parent team site, the **Go to channel** link will be available in the com
 Additionally, from teams and channels in Microsoft Teams, you can select the ellipsis (…) at the top-right of the channel and then **Open in SharePoint** to navigate to the Teams connected team site or channel site in SharePoint.
 
 ## Manage settings and permissions
-When SharePoint sites and Teams are integrated, certain setting and classifications need to be managed in the [settings in Microsoft Teams](https://support.microsoft.com/office/manage-team-settings-and-permissions-in-teams-ce053b04-1b8e-4796-baa8-90dc427b3acc). You’ll notice that when you navigate to **Settings** in SharePoint site, certain options are not editable, like **Permissions**. Learn more about [viewing and managing settings in Microsoft Teams](https://support.microsoft.com/office/manage-team-settings-and-permissions-in-teams-ce053b04-1b8e-4796-baa8-90dc427b3acc).
+When SharePoint sites and Teams are integrated, certain setting and classifications need to be managed in the [settings in Microsoft Teams](https://support.microsoft.com/office/manage-team-settings-and-permissions-in-teams-ce053b04-1b8e-4796-baa8-90dc427b3acc). You’ll notice that after navigating to **Settings** in your SharePoint site, certain options are not editable, like **Permissions**. Learn more about [viewing and managing settings in Microsoft Teams](https://support.microsoft.com/office/manage-team-settings-and-permissions-in-teams-ce053b04-1b8e-4796-baa8-90dc427b3acc).
 <br>
 
 | Settings managed in SharePoint | Settings managed in Teams  |
 | :------------------- | :------------------- |
 | - Site name <br> - Site description <br> - Hub association | - Site permissions <br> - Sensitivity classification <br> - Private channel membership| 
 
+> [!NOTE]
+> Channel sites display site permissions in the SharePoint site permissions panel in read-only mode. Site owners can access and update site sharing or guest expiration options in the panel, but they need to go to Microsoft Teams to manage site permissions.
+
 ## Channel site home page layout
-For private and shared channel sites, you will find a unique home page layout that is designed to encourage and guide usage of typical SharePoint tasks. You'll find easy access to the [News web part](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165), [Documents web part](https://support.microsoft.com/office/use-the-document-library-web-part-a9dfecc3-2050-4528-9f00-2c5afc5731b0), and links to documentation for creating lists, automating tasks, and changing the look of your site.  
+For private and shared channel sites, you'll find a unique home page layout that is designed to encourage and guide usage of typical SharePoint tasks. You'll find easy access to the [News web part](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165), [Documents web part](https://support.microsoft.com/office/use-the-document-library-web-part-a9dfecc3-2050-4528-9f00-2c5afc5731b0), and links to documentation for creating lists, automating tasks, and changing the look of your site.  
 
 ![Image of the channel site home page layout](media/channel-site-layout.jpg)
 
 ## Channel sites and hub associations
-Just like typical SharePoint sites, [channel sites](teams-connected-sites.md) can be associated to a [SharePoint hub sites](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f) from the parent team site. Upon associating the parent team to the hub, all channel sites (private and shared) will also be associated to the hub. 
+Just like typical SharePoint sites, [channel sites](teams-connected-sites.md) can be associated to a [SharePoint hub sites](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f) from the parent team site. Upon associating the parent team to the hub, all channel sites (private and shared) are also associated to the hub. 
 
-When channel sites gets associated to a hub, the hub navigation gets inherited across the parent team and channel sites. The entire Team (parent team and channels) are treated as one entity.
+When channel sites get associated with a hub, the hub navigation gets inherited across the parent team and channel sites. The entire team (parent team and channels) is treated as one entity.
 
 > [!NOTE]
-> Channel sites will not display hub site association in the Site information panel. These settings are managed from the parent team site. 
+> Hub site association doesn't appear in the Site information panel for channel sites. Hub site associations are managed from the parent team site.
 
 ![Image of the channel site information settings panel](media/channel-site-hub.jpg)
 
