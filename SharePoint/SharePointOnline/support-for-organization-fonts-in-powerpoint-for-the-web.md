@@ -65,7 +65,7 @@ The following diagram outlines the key steps in making our solution work:
 
       For example:
      
-     `Add-SPOOrgAssetsLibary -LibraryUrl https://constosofonts.sharepoint.com/FontLibrary -OrgAssetType OfficeFontLibrary -CdnType Public`
+     `Add-SPOOrgAssetsLibrary -LibraryUrl https://constosofonts.sharepoint.com/FontLibrary -OrgAssetType OfficeFontLibrary -CdnType Public`
 
     > [!NOTE]
     > - Only include the direct path of your font library. The trailing `/AllItems.aspx` should not be included in your Library URL.
@@ -83,7 +83,7 @@ The following diagram outlines the key steps in making our solution work:
    > - Your font folder should be the directory holding all your font files and should not include any non-font files.
    > - You may be re-prompted to enter your credentials at this step.
 
-    Allow 24-hours for the Sharepoint servers to update and for the users in your organization to see their organization fonts when using the **Font** dropdown menu in PowerPoint for the web.
+    Allow 24-hours for the SharePoint servers to update and for the users in your organization to see their organization fonts when using the **Font** dropdown menu in PowerPoint for the web.
 
     :::image type="content" source="media/font_dropdown.png" alt-text="t":::
 
