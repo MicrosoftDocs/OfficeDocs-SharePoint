@@ -1,6 +1,6 @@
 ---
 title: OneDrive QuickStart guide for small businesses
-ms.reviewer: 
+ms.reviewer:
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -12,7 +12,7 @@ ms.service: one-drive
 ms.localizationpriority: medium
 search.appverid:
 - MET150
-ms.collection: 
+ms.collection:
 - Strat_OD_admin
 - M365-collaboration
 ms.custom:
@@ -31,23 +31,23 @@ OneDrive is effective in even the largest enterprises, but it still has a small,
 
 To get started with OneDrive, follow these steps:
 
-1.  **Review basic OneDrive information.** Start by reviewing the introductory OneDrive information available at the [OneDrive help center](https://support.office.com/onedrive). You'll get answers to many of your questions, including the OneDrive experience and how it works.
+1. **Review basic OneDrive information.** Start by reviewing the introductory OneDrive information available at the [OneDrive help center](https://support.office.com/onedrive). You'll get answers to many of your questions, including the OneDrive experience and how it works.
 
-2.  **Set up a Microsoft Office 365 subscription.** You must set up a subscription to use OneDrive, but you aren't required to purchase all the applications in the Microsoft 365 suite. To get started, follow the steps in [Set up Microsoft 365 Apps for business](/office365/admin/setup/setup).
+2. **Set up a Microsoft Office 365 subscription.** You must set up a subscription to use OneDrive, but you aren't required to purchase all the applications in the Microsoft 365 suite. To get started, follow the steps in [Set up Microsoft 365 Apps for business](/office365/admin/setup/setup).
 
-3.  **Add OneDrive licenses.** Review your plan options in [Compare OneDrive plans](https://products.office.com/onedrive-for-business/compare-onedrive-for-business-plans), and then add the licenses you need.
+3. **Add OneDrive licenses.** Review your plan options in [Compare OneDrive plans](https://products.office.com/onedrive-for-business/compare-onedrive-for-business-plans), and then add the licenses you need.
 
 When you've completed these tasks, you're ready to plan for, deploy, and configure the OneDrive sync app and applications. To do that, complete these three simple steps:
 
-1.  **Plan for adoption.** For small businesses, planning for user adoption can be as simple as individually showing your users how to use OneDrive. Often, small business customers don't consider this step for new applications, and that can negatively affect the application's success. The section [Adopt OneDrive](#adopt-onedrive) provides helpful resources for OneDrive adoption.
+1. **Plan for adoption.** For small businesses, planning for user adoption can be as simple as individually showing your users how to use OneDrive. Often, small business customers don't consider this step for new applications, and that can negatively affect the application's success. The section [Adopt OneDrive](#adopt-onedrive) provides helpful resources for OneDrive adoption.
 
-2.  **Install and configure.** Sync apps are available for the Windows and macOS operating systems that provide a seamless experience for users interacting with their files. Most small businesses start by installing the sync app on their users' devices, and then consider the OneDrive mobile apps later. In fact, you may already have the OneDrive client on your devices. Devices running the Windows 10 operating system and devices running Windows or macOS with Microsoft Office 2016 or later will have the OneDrive sync app already. For information about how to install and configure the OneDrive sync app and mobile apps, see the section [Install and configure OneDrive](#install-and-set-up-onedrive-apps).
+2. **Install and configure.** Sync apps are available for the Windows and macOS operating systems that provide a seamless experience for users interacting with their files. Most small businesses start by installing the sync app on their users' devices, and then consider the OneDrive mobile apps later. In fact, you may already have the OneDrive client on your devices. Devices running the Windows 10 operating system and devices running Windows or macOS with Microsoft Office 2016 or later will have the OneDrive sync app already. For information about how to install and configure the OneDrive sync app and mobile apps, see the section [Install and configure OneDrive](#install-and-set-up-onedrive-apps).
 
-3.  **Manage OneDrive.** For many small businesses, managing OneDrive is optional. You could simply install and configure OneDrive and leave it at that. If you want to use advanced features of OneDrive or add device sharing or access restrictions, however, you can easily manage those and other settings in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. For more information about managing OneDrive, see the section [Manage OneDrive](#manage-onedrive).
+3. **Manage OneDrive.** For many small businesses, managing OneDrive is optional. You could simply install and configure OneDrive and leave it at that. If you want to use advanced features of OneDrive or add device sharing or access restrictions, however, you can easily manage those and other settings in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. For more information about managing OneDrive, see the section [Manage OneDrive](#manage-onedrive).
 
 ## Key OneDrive features for small businesses
 
-Unlike most other cloud storage providers, OneDrive not only provides robust features to small businesses out of the box, but it also makes most of its advanced features available to them. This gives small businesses the flexibility to use advanced features based on the needs of their organization. 
+Unlike most other cloud storage providers, OneDrive not only provides robust features to small businesses out of the box, but it also makes most of its advanced features available to them. This gives small businesses the flexibility to use advanced features based on the needs of their organization.
 
 The features listed in this section address common customer concerns or specific compliance requirements, or provide unique functionality available only in OneDrive. For a full list of features available across OneDrive plans, see [Microsoft OneDrive](https://onedrive.live.com/about).
 
@@ -72,11 +72,11 @@ OneDrive integrates with Microsoft Outlook to enable easy sharing of OneDrive fi
 
 ![Screenshot of Outlook with a modern attachment and the right-click menu showing permissions options](media/What-is-OneDrive-Small-Business_image3.png)
 
-To reduce the potential for confusion when users choose to add a copy versus a link to attached OneDrive files, you can set the default behavior of the Outlook client, as demonstrated in [How to control default attachment state when you attach a cloud file in Outlook 2016](https://support.microsoft.com/help/4011261/how-to-set-attachment-preference-for-attaching-a-cloud-file-in-outlook).
+To reduce the potential for confusion when users choose to add a copy versus a link to attached OneDrive files, you can set the default behavior of the Outlook client, as demonstrated in [How to control default attachment state when you attach a cloud file in Outlook 2016](https://support.microsoft.com/help/4011261/how-to-set-attachment-preference-for-attaching-a-cloud-file-in-outlook).
 
 ### Files Restore
 
-The OneDrive Files Restore feature lets users restore files to any point over the past 30 days. To select the desired recovery time, OneDrive presents you with a histogram that shows file activity so that you can determine which recovered time meets your needs. From there, simply select the file history entry to which you want to restore, and all changes after that point will be rolled back.
+The OneDrive Files Restore feature lets users restore files to any point over the past 30 days. To select the desired recovery time, OneDrive presents you with a histogram that shows file activity so that you can determine which recovered time meets your needs. From there, simply select the file history entry to which you want to restore, and all changes after that point will be rolled back.
 
 ![Screenshot of the Restore my OneDrive page in Microsoft 365](media/What-is-OneDrive-Small-Business_image4.png)
 
@@ -84,7 +84,7 @@ In addition, because the histogram shows individual activity on a file, you can 
 
 ### Recycle bin
 
-OneDrive has a recycle bin similar to the one available on the Windows desktop. Deleted files are moved to the recycle bin and kept for a designated time before being permanently deleted. For work or school accounts, deleted files are purged after 93 days unless configured otherwise. For a demonstration of how the recycle bin works, see [Restore deleted files or folders in OneDrive](https://support.office.com/article/949ada80-0026-4db3-a953-c99083e6a84f).
+OneDrive has a recycle bin similar to the one available on the Windows desktop. Deleted files are moved to the recycle bin and kept for a designated time before being permanently deleted. For work or school accounts, deleted files are purged after 93 days unless configured otherwise. For a demonstration of how the recycle bin works, see [Restore deleted files or folders in OneDrive](https://support.office.com/article/949ada80-0026-4db3-a953-c99083e6a84f).
 
 ### Known Folder Move
 
@@ -92,12 +92,11 @@ Known Folder Move enables users to select Windows known folders, such as their d
 
 ## Adopt OneDrive
 
-User adoption is important to the overall success of any new application. Ideally, to feel that you have maximized your investment in Office 365 and OneDrive, you need to maximize user engagement with them. For small businesses, driving user adoption can be as simple as introducing users to OneDrive when you're installing it or showing them any of the videos available at the [Office 365 Training Center](https://support.office.com/office-training-center).
+User adoption is important to the overall success of any new application. Ideally, to feel that you have maximized your investment in Office 365 and OneDrive, you need to maximize user engagement with them. For small businesses, driving user adoption can be as simple as introducing users to OneDrive when you're installing it or showing them any of the videos available at the [Office 365 Training Center](https://support.office.com/office-training-center).
 
 Personally showing your users how to save and share documents in OneDrive tends to be the most effective option for driving adoption, given that you'll likely be performing manual installations. The primary value proposition for small businesses is file availability and redundancy. A document saved on local storage can be lost with a device; a document saved to OneDrive cannot. Simply having this discussion with your users beforehand, coupled with demonstrating the application's ease of use, can drive positive outcomes for this effort.
 
-For information about a more formal Microsoft 365 user adoption strategy, see the [Microsoft 365 End User Adoption Guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Microsoft%20365%20User%20Adoption%20Guide.pdf). For more information about driving user engagement through a similar, more formal process, see [Success Factors for Office 365 End User Engagement](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Resources/Office365_AdoptionBrochure_v2.0_Screen.pdf). You can also contribute to or comment on adoption-related ideas in the [Driving Adoption Tech Community](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption).
-
+For information about a more formal Microsoft 365 user adoption strategy, see the [Microsoft 365 End User Adoption Guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Microsoft%20365%20User%20Adoption%20Guide.pdf). For more information about driving user engagement through a similar, more formal process, see [Success Factors for Office 365 End User Engagement](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Resources/Office365_AdoptionBrochure_v2.0_Screen.pdf). You can also contribute to or comment on adoption-related ideas in the [Driving Adoption Tech Community](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption).
 
 ## Install and set up OneDrive apps
 
@@ -111,26 +110,26 @@ Most small businesses start by installing the OneDrive sync app on users' Window
 
 ### Install and configure the sync app on a Windows device
 
-If your Windows device has either Office 2016 or Windows 10, it already has the OneDrive sync app.
+If your Windows device has either Office 2016 or Windows 10, it already has the OneDrive sync app.
 
-For devices running older versions of Windows or on which Office 2016 is not installed, you can download the OneDrive sync app for Windows from [https://onedrive.live.com/about/download](https://onedrive.live.com/about/download/).
+For devices running older versions of Windows or on which Office 2016 is not installed, you can download the OneDrive sync app for Windows from [https://onedrive.live.com/about/download](https://onedrive.live.com/about/download/).
 
 > [!NOTE]
 > If the device has an older version of the sync app, you'll be asked to uninstall it when you install the new one.
 
-Configuring OneDrive for Windows is simple, but if you want to see a demonstration, see [Sync files with the OneDrive sync app in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49) 
+Configuring OneDrive for Windows is simple, but if you want to see a demonstration, see [Sync files with the OneDrive sync app in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49)
 
 ### Install and configure OneDrive on a macOS device
 
-To install the OneDrive sync app on a computer running macOS, just follow the steps in [Sync files with the OneDrive sync app on macOS](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f). The setup experience is similar to that for Windows. For more information about OneDrive on macOS, see [OneDrive for Mac – FAQ](https://support.office.com/article/3fc4062c-8051-4392-bff1-551e32840cd0). 
+To install the OneDrive sync app on a computer running macOS, just follow the steps in [Sync files with the OneDrive sync app on macOS](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f). The setup experience is similar to that for Windows. For more information about OneDrive on macOS, see [OneDrive for Mac – FAQ](https://support.office.com/article/3fc4062c-8051-4392-bff1-551e32840cd0).
 
 ## Install and configure OneDrive on a mobile device
 
 Installing the OneDrive app on a mobile device is simple: download the app from the app store on any Android, iOS, or Windows mobile device. If you want to simplify the manual installation process even further, go to [https://onedrive.live.com/about/download](https://onedrive.live.com/about/download/) and enter the mobile phone number of the device on which you want to install OneDrive. Microsoft will send a text message to the mobile device with a link to the app in the device's app store. Once installed, start the configuration process by opening the app and responding to the prompts.
 
-To learn how to perform tasks in OneDrive on an iOS device, see [Use OneDrive on iOS](https://support.office.com/article/08d5c5b2-ccc6-40eb-a244-fe3597a3c247). 
+To learn how to perform tasks in OneDrive on an iOS device, see [Use OneDrive on iOS](https://support.office.com/article/08d5c5b2-ccc6-40eb-a244-fe3597a3c247).
 
-To learn how to perform tasks in OneDrive on an Android device, see [Use OneDrive on Android](https://support.office.com/article/eee1d31c-792d-41d4-8132-f9621b39eb36). 
+To learn how to perform tasks in OneDrive on an Android device, see [Use OneDrive on Android](https://support.office.com/article/eee1d31c-792d-41d4-8132-f9621b39eb36).
 
 ## Manage OneDrive
 
@@ -140,7 +139,7 @@ Many small businesses use OneDrive without changing any of the options. To chang
 
 - **Sync.** Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings</a> and select  **Sync**. You can require that synced computers be joined to your domain or block uploads based on file type.
 
-- **Storage limit.** Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings</a> and select **Storage limit**. Set the default storage space for all new and existing users who are licensed for a qualifying plan and for whom you haven't set specific storage limits. 
+- **Storage limit.** Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings</a> and select **Storage limit**. Set the default storage space for all new and existing users who are licensed for a qualifying plan and for whom you haven't set specific storage limits.
 
 - **Retention.** Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings</a> and select **Retention**. Configure how long to keep data for users whose accounts have been deleted (the default is 30 days).
 
@@ -154,9 +153,8 @@ Many small businesses use OneDrive without changing any of the options. To chang
 
 If you need help with OneDrive, you have many ways to find solutions to common issues or request help:
 
--   **Tech community.** Find helpful information from other customers in the community by reviewing the discussions in the [OneDrive Tech Community](https://techcommunity.microsoft.com/t5/OneDrive-for-Business/ct-p/OneDriveforBusiness) and the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/t5/OneDrive-Blog/bg-p/OneDriveBlog).
+- **Tech community.** Find helpful information from other customers in the community by reviewing the discussions in the [OneDrive Tech Community](https://techcommunity.microsoft.com/t5/OneDrive-for-Business/ct-p/OneDriveforBusiness) and the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/t5/OneDrive-Blog/bg-p/OneDriveBlog).
 
--   **Support documentation.** For a list of recent issues in OneDrive and how to resolve or work around them, see [Fixes or workarounds for recent issues in OneDrive](https://support.office.com/article/36110213-f3f6-490d-8cb7-3833539def0b). For getting started info, see [Get started with OneDrive](https://support.office.com/article/c7f31921-e2e5-4b00-959a-cc9ad6297de7), [Employee file storage (video training)](https://support.office.com/article/12dbe3e4-dbef-48f8-a90e-87f1bc607073) and [Why use OneDrive to store your docs](https://support.office.com/article/e55c4fa8-1e03-4d75-956b-924620bdfa2d).
+- **Support documentation.** For a list of recent issues in OneDrive and how to resolve or work around them, see [Fixes or workarounds for recent issues in OneDrive](https://support.office.com/article/36110213-f3f6-490d-8cb7-3833539def0b). For getting started info, see [Get started with OneDrive](https://support.office.com/article/c7f31921-e2e5-4b00-959a-cc9ad6297de7), [Employee file storage (video training)](https://support.office.com/article/12dbe3e4-dbef-48f8-a90e-87f1bc607073) and [Why use OneDrive to store your docs](https://support.office.com/article/e55c4fa8-1e03-4d75-956b-924620bdfa2d).
 
--   **Microsoft Support.** If you need help from Microsoft to troubleshoot an issue or configure or deploy OneDrive, see [Contact Microsoft](https://support.microsoft.com/gp/contactus81?Audience=Commercial).
-
+- **Microsoft Support.** If you need help from Microsoft to troubleshoot an issue or configure or deploy OneDrive, see [Contact Microsoft](https://support.microsoft.com/gp/contactus81?Audience=Commercial).
