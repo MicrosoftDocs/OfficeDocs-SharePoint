@@ -1,8 +1,8 @@
 ---
 title: Teams and SharePoint integration
 ms.reviewer: 
-ms.author: evanatkin
-author: AtkinE
+ms.author: hokavian
+author: Holland-ODSP
 manager: pamgreen
 recommendations: true
 audience: Admin
