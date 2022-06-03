@@ -45,8 +45,8 @@ The following table lists a selection of Exchange ActiveSync features and polici
 **Table: Exchange ActiveSync policies for mobile devices**
 
 |Exchange ActiveSync policy |Description |
-|:-----|:-----|
-|Remote wipe (this is a feature and not an Exchange ActiveSync policy)|If a mobile phone is lost, stolen, or otherwise compromised, you can issue a remote wipe command from the Exchange computer or from any web browser by using Outlook Web App. This command restores the device to factory defaults.  <br/> > [!IMPORTANT]> After a remote device wipe has occurred, data recovery is very difficult. However, no data removal process leaves a device as free from residual data as when it is new. Recovery of data from a device may still be possible using sophisticated tools.           |
+|---|---|
+|Remote wipe (this is a feature and not an Exchange ActiveSync policy)|If a mobile phone is lost, stolen, or otherwise compromised, you can issue a remote wipe command from the Exchange computer or from any web browser by using Outlook Web App. This command restores the device to factory defaults. <p> **Important**: After a remote device wipe has occurred, data recovery is very difficult. However, no data removal process leaves a device as free from residual data as when it is new. Recovery of data from a device may still be possible using sophisticated tools.           |
 |Enforce password on device (DevicePasswordEnabled)|This setting enables the mobile phone password.|
 |Minimum password length (MinDevicePasswordLength)|This option specifies the length of the password for the mobile phone. The default length is 4 characters, but as many as 18 can be included.|
 |Require alphanumeric password (AlphanumericDevicePasswordRequired)|This setting requires that a password contains numeric and non-numeric characters.|
@@ -89,8 +89,9 @@ The following tables detail the authentication types supported for browsers, One
 
 **Table: Mobile authentication support for SharePoint browsers**
 
-|Authentication Type|Authentication Protocol|ID Provider|SharePoint deployment|Windows Phone 7.5 (Internet Explorer Mobile)|Windows Phone 8 (Internet Explorer Mobile)|Windows 8 (Internet Explorer)|iOS 5.x or later versions (Safari Browser)|Android 4.x or later versions (Android Browser**)|
-|---|---|---|---|---|---|---|---|---|
+|SharePoint Infrastructure|Mobile Devices|
+|---|---|
+|**Authentication Type**|**Authentication Protocol**|**ID Provider**|**SharePoint deployment**|**Windows Phone 7.5 (Internet Explorer Mobile)**|**Windows Phone 8 (Internet Explorer Mobile)**|**Windows 8 (Internet Explorer)**|**iOS 5.x or later versions (Safari Browser)**|**Android 4.x or later versions (Android Browser)**|
 |**Windows Authentication**|NTLM|Active Directory|On-premises|Yes|Yes|Yes|Yes|Yes|
 |**Basic Authentication**||Active Directory|On-premises, extranet|Yes|Yes|Yes|Yes|Yes|
 |**Forms-Based Authentication (FBA)**|FBA|Active Directory, LDAP, SQL|On-premises, extranet|Yes|Yes|Yes|Yes|Yes|
@@ -115,8 +116,9 @@ The following tables detail the authentication types supported for browsers, One
 
 **Table: Mobile authentication support matrix for Office Hub**
 
-|Authentication Type|Authentication Protocol|ID Provider|SharePoint deployment|Handled through:|Windows Phone 7.5 (Internet Explorer Mobile)|Windows Phone 8 (Internet Explorer Mobile)|
-|---|---|---|---|---|---|---|
+|SharePoint Infrastructure|Client side|Mobile devices|
+|---|---|---|
+|**Authentication Type**|**Authentication Protocol**|**ID Provider**|**SharePoint deployment**|**Handled through:**|**Windows Phone 7.5 (Internet Explorer Mobile)**|**Windows Phone 8 (Internet Explorer Mobile)**|
 |**Windows Authentication**|NTLM|Active Directory|On-premises|NTLM|Yes|Yes|
 |**Basic Authentication**||Active Directory|On-premises, extranet|Basic Authentication|No|Yes (https)|
 |**Forms-Based Authentication (FBA)**|FBA|Active Directory, LDAP, SQL|On-premises, extranet|MSOFBA|Yes|Yes|
@@ -137,14 +139,16 @@ The following table details the authentication types supported for the SharePoin
 
 **Table: Mobile authentication support matrix for the SharePoint Newsfeed App**
 
-|Authentication Type|Authentication Protocol|ID Provider|SharePoint deployment|Handled through:|Windows Phone 7.5 Apps|Windows Phone 8 Apps|Windows 8 Apps|iOS 6.x or later versions Apps|
+|SharePoint Infrastructure|Client side|Mobile devices|
+|---|---|---|
+|**Authentication Type**|**Authentication Protocol**|**ID Provider**|**SharePoint deployment**|**Handled through:**|**Windows Phone 7.5 Apps**|**Windows Phone 8 Apps**|**Windows 8 Apps**|**iOS 6.x or later versions Apps**|
 |**Windows Authentication**|NTLM|Active Directory|On-premises|NTLM|No|No|Yes|Yes|
 |**Basic Authentication**||Active Directory|On-premises, extranet|Basic Authentication|Yes|Yes|No|Yes (https)|
 |**Forms-Based Authentication (FBA)**|FBA|Active Directory, LDAP, SQL|On-premises, extranet|MSOFBA|Yes|Yes|No|Yes|
-|FBA|OrgID|SharePoint, hybrid-based scenarios|MSOFBA|Yes|Yes|No|Yes|
-|FBA|OrgID|SharePoint, hybrid-based scenarios|Active Authentication(IDCRL)|No|No|Yes|Yes|
+||FBA|OrgID|SharePoint, hybrid-based scenarios|MSOFBA|Yes|Yes|No|Yes|
+||FBA|OrgID|SharePoint, hybrid-based scenarios|Active Authentication(IDCRL)|No|No|Yes|Yes|
 |**SAML (token-based)**|SAML|WS-Federation 1.1 compatible Identity Provider|On-premises, SharePoint in Microsoft 365, hybrid-based scenarios|MSOFBA|Yes|Yes|No|Yes|
-|SAML|WS-Federation 1.1 compatible Identity Provider|On-premises, SharePoint in Microsoft 365, hybrid -based scenarios|Active Authentication(IDCRL)|No|No|Yes|Yes|
+||SAML|WS-Federation 1.1 compatible Identity Provider|On-premises, SharePoint in Microsoft 365, hybrid -based scenarios|Active Authentication(IDCRL)|No|No|Yes|Yes|
 
 > [!IMPORTANT]
 > For federated scenarios in SharePoint in Microsoft 365, only Active Directory Federation Services (ADFS) 2.0 is supported. During the setup process it is necessary to support a passive federation authentication URI of:  *"urn:oasis:names:tc:SAML:2.0:ac:classes:Password"*  .
