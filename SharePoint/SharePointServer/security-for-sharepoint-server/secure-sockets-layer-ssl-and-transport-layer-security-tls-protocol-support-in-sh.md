@@ -39,7 +39,7 @@ SharePoint Server supports the following versions of the TLS protocol:
   
 For information about how to enable TLS support, see:
 
-- [Strong Transport Layer Security (TLS) Encryption in Sharepoint Server Subscription Edition](strong-tls-encryption.md)
+- [Strong Transport Layer Security (TLS) Encryption in SharePoint Server Subscription Edition](strong-tls-encryption.md)
 
 - [Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2019](enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2019.md)
 
