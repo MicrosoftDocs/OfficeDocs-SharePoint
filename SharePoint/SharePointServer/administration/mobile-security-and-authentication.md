@@ -89,8 +89,8 @@ The following tables detail the authentication types supported for browsers, One
 
 **Table: Mobile authentication support for SharePoint browsers**
 
-|SharePoint Infrastructure|Mobile Devices|
-|---|---|
+|SharePoint Infrastructure|Mobile Devices|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
+|---|---|---|---|---|---|---|---|---|
 |**Authentication Type**|**Authentication Protocol**|**ID Provider**|**SharePoint deployment**|**Windows Phone 7.5 (Internet Explorer Mobile)**|**Windows Phone 8 (Internet Explorer Mobile)**|**Windows 8 (Internet Explorer)**|**iOS 5.x or later versions (Safari Browser)**|**Android 4.x or later versions (Android Browser)**|
 |**Windows Authentication**|NTLM|Active Directory|On-premises|Yes|Yes|Yes|Yes|Yes|
 |**Basic Authentication**||Active Directory|On-premises, extranet|Yes|Yes|Yes|Yes|Yes|
@@ -116,8 +116,8 @@ The following tables detail the authentication types supported for browsers, One
 
 **Table: Mobile authentication support matrix for Office Hub**
 
-|SharePoint Infrastructure|Client side|Mobile devices|
-|---|---|---|
+|SharePoint Infrastructure|Client side|Mobile devices|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
+|---|---|---|---|---|---|---|
 |**Authentication Type**|**Authentication Protocol**|**ID Provider**|**SharePoint deployment**|**Handled through:**|**Windows Phone 7.5 (Internet Explorer Mobile)**|**Windows Phone 8 (Internet Explorer Mobile)**|
 |**Windows Authentication**|NTLM|Active Directory|On-premises|NTLM|Yes|Yes|
 |**Basic Authentication**||Active Directory|On-premises, extranet|Basic Authentication|No|Yes (https)|
@@ -139,8 +139,8 @@ The following table details the authentication types supported for the SharePoin
 
 **Table: Mobile authentication support matrix for the SharePoint Newsfeed App**
 
-|SharePoint Infrastructure|Client side|Mobile devices|
-|---|---|---|
+|SharePoint Infrastructure|Client side|Mobile devices|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
+|---|---|---|---|---|---|---|---|---|
 |**Authentication Type**|**Authentication Protocol**|**ID Provider**|**SharePoint deployment**|**Handled through:**|**Windows Phone 7.5 Apps**|**Windows Phone 8 Apps**|**Windows 8 Apps**|**iOS 6.x or later versions Apps**|
 |**Windows Authentication**|NTLM|Active Directory|On-premises|NTLM|No|No|Yes|Yes|
 |**Basic Authentication**||Active Directory|On-premises, extranet|Basic Authentication|Yes|Yes|No|Yes (https)|
