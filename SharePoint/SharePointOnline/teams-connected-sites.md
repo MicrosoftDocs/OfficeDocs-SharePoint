@@ -42,7 +42,7 @@ These are the basic parts of Teams and SharePoint and how they relate to each ot
 
 - **[Private channel](/MicrosoftTeams/private-channels)** - A private channel is a channel that only some of the team's members have access to. It is used for private conversations and collaboration. Each private channel has its own SharePoint site for file storage. Only members of the private channel can access this site.
 
-- **[Shared channels](/MicrosoftTeams/shared-channels)** - A shared channel is a channel that you can add anyone to, even if they’re not a member of the team. It is used for broader collaboration with people outside the team. Each shared channel has its own SharePoint site for file storage. Only members of the shared channel can access this site.
+- **[Shared channels](/MicrosoftTeams/shared-channels)** - A shared channel is a channel that you can add anyone to, even if they're not a member of the team. It is used for broader collaboration with people outside the team. Each shared channel has its own SharePoint site for file storage. Only members of the shared channel can access this site.
 
 - **Parent site** - The SharePoint site that is created when you create the team. This site is used for file storage for all standard channels. All team owners and members have access to this site.
 
@@ -73,8 +73,8 @@ Teams and SharePoint are connected in the following scenarios:
 - When you add Teams to an existing SharePoint site, that site is connected to the new team.
 - When you create a new private or shared channel, a new SharePoint site is created and connected to that channel.
 
-In Teams, the Files tab on each standard channel is connected to a folder in the parent site’s default document library. The Files tab on each private and shared channel is connected to the default document library in the corresponding channel site. Whenever you add or update a file on the Files tab, you are accessing the SharePoint site.
- 
+In Teams, the Files tab on each standard channel is connected to a folder in the parent site's default document library. The Files tab on each private and shared channel is connected to the default document library in the corresponding channel site. Whenever you add or update a file on the Files tab, you are accessing the SharePoint site.
+
 ## Example of a team with multiple channel types
 
 Contoso had a team called Mark 8 Project Team. This team has several standard channels, and one private channel called Compete Analysis.
@@ -95,8 +95,7 @@ This table describes how site, file, and folder sharing work for each type of ch
 |:-----------|:--------------|:-----------|:----------------------|
 |Standard|One SharePoint site is shared by all standard channels. There is a separate folder for each channel.|Team owners and members are automatically included in the site owners and members permission groups. Sharing the site separately is possible but managing access through Teams is recommended for easiest user management and the best user experience.|Files and folders can be shared with anyone in the organization by using sharable links. If guest sharing is enabled, *Anyone* and *Specific people* links can be used to share with people outside the organization.|
 |Private|Each private channel has its own SharePoint site.|Channel owners and members are automatically included in the site owners and members permission groups. The site can't be shared separately.|Files and folders can be shared with anyone in the organization by using sharable links. If guest sharing is enabled, *Anyone* and *Specific people* links can be used to share with people outside the organization.|
-|Shared|Each shared channel has its own SharePoint site.|Team owners and members are automatically included in the site owners and members group. The site can’t be shared separately.|Files and folders can be shared with anyone in the organization and external participants in the channel by using sharable links. Sharing with people outside the organization who are not channel members is not supported.|
-
+|Shared|Each shared channel has its own SharePoint site.|Team owners and members are automatically included in the site owners and members group. The site can't be shared separately.|Files and folders can be shared with anyone in the organization and external participants in the channel by using sharable links. Sharing with people outside the organization who are not channel members is not supported.|
 
 ## Where to manage Teams and SharePoint settings
 
@@ -104,9 +103,9 @@ Teams-connected sites are managed differently than the typical SharePoint site. 
 
 |Setting|Parent site|Channel site|
 |:------|:----------|:-----------|
-|Site permissions|Team permissions are synced with the site. Team and site owners can add additional people directly to the site. (Managing all permissions through Teams is recommended.)|Channel site permissions are inherited from the channel itself. Site members and owners will be able to display site permissions in read-only mode.|
-|Site sharing settings|Team and site owners can set the sharing settings for files, folders, and the site. This is a SharePoint-specific setting.| Only site owners will be able to set the sharing settings for files and folders.|
-|Guest access expiration|Guest access expiration can be set in the SharePoint admin center.|Site owners can manage guest access expiration from the channel itself.|
+|Site permissions|Team permissions are synced with the site. Team and site owners can add additional people directly to the site. (Managing all permissions through Teams is recommended.)|Channel site permissions are inherited from the channel itself. Site permissions can't be managed in SharePoint, but will display permissions in read-only mode.|
+|Site sharing settings|Team and site owners can set the sharing settings for files, folders, and the site. This is a SharePoint-specific setting.||
+|Guest access expiration|Guest access expiration can be set in the SharePoint admin center.||
 |Sensitivity|Sensitivity labels can be applied either to the team or the parent site. The same label is used for both and a change made in either location is reflected in the other.|Sensitivity of channel sites is inherited from the parent site.|
 |Site quota|The site quota can be set in the SharePoint admin center.|The site quota can be set in the SharePoint admin center.|
 |Default sharing link type|The default sharing link type can be set in the SharePoint admin center.|The default sharing link type can be set in the SharePoint admin center.|
@@ -122,5 +121,3 @@ Teams-connected sites are managed differently than the typical SharePoint site. 
 [Manage teams policies in Teams](/MicrosoftTeams/teams-policies)
 
 [Manage team settings and permissions in Teams](https://support.microsoft.com/office/ce053b04-1b8e-4796-baa8-90dc427b3acc)
-
-

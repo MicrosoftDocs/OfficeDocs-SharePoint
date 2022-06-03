@@ -40,7 +40,7 @@ A heading for the source and destination, followed by the paths, and optional ta
 Sample CSV file format:
 
 |Source Path|Destination Path|Tags|
-|:-----	|:-----	|:-----	|
+|:-----|:-----|:-----|
 |user01@domain<span><span>.com|user_01@domain.<span><span>com|
 |Team Folder|user_02@domain.<span><span>com|
 |Shared Drive|user_03@domain.<span><span>com|
