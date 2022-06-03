@@ -32,7 +32,6 @@ Migration Manager lets you bulk upload your Stream source paths using a comma-se
 
 ## Create your CSV file
 
-
 1. Start Excel. 
 2. Enter one source per row. The column heading is optional. Enter your source paths using the following format (without any space):
 
@@ -43,16 +42,11 @@ For container type, use ‘User’, ‘M365Group’, ‘CompanywideChannel’, o
 >[!Tip]
 >To discover your Container ID: Go to Stream classic and copy the unique identifier that appears after the word */group/* or */channel/*
 >
->![finding your container id](media/mm-stream-container-id.png)
- 
->[!Note]
->User containers currently can't be discovered via the *Add source* feature. 
-
+>:::image type="content" source="media/mm-stream-container-id.png" alt-text="container id":::
 
 3. Close and save as a comma delimited (*.csv) file. The encoding of the CSV file must be UTF-8.
 
-![How to enter your stream source in the csv file](media/mm-stream-format-csv.png)
-
+:::image type="content" source="media/mm-stream-format-csv.png" alt-text="stream format":::
 
 ## Uploading your file
 
@@ -61,14 +55,8 @@ For container type, use ‘User’, ‘M365Group’, ‘CompanywideChannel’, o
 
   ![Add new source to upload bulk file](media/mm-upload-cloud-csv.png)
 
-
 3. Select **Upload a CSV file**.  Browse to your file and then select **Add**.
 
-![Upload Stream source paths](media/mm-stream-upload-csv.png)
+:::image type="content" source="media/mm-stream-upload-csv.png" alt-text="stream upload":::
 
 4. View your added files in the **Scans** tab. Continue to the next step, "Add to Migrations".
-
-
- 
-
-    
