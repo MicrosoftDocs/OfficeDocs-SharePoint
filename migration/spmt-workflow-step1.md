@@ -1,5 +1,5 @@
 ---
-title: "Step 1: Configure endpoints and Power Automate for Sharepoint workflow migration"
+title: "Step 1: Configure endpoints and Power Automate for SharePoint workflow migration"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
