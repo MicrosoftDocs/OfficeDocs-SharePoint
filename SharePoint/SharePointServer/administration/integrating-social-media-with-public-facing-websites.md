@@ -56,11 +56,11 @@ Open Graph information is published using HTML meta tags. Those tags must be loc
   
 ```
 <head>
-…
+...
 <!--MS:<asp:ContentPlaceHolder
 id="OpenGraphPlaceHolder" runat="server">-->
 <!--ME:</asp:ContentPlaceHolder>-->
-…
+...
 </head>
 ```
 
@@ -72,7 +72,7 @@ By using Search Engine Optimization capabilities of SharePoint Server 2016 we ca
   
 ```
 <head>
-…
+...
 <!--SPM:<%@Register Tagprefix="Contoso"
 Namespace="Contoso.SharePoint.Seo.Controls"
 Assembly="Contoso.SharePoint.Seo, Version=1.0.0.0, Culture=neutral,
@@ -105,7 +105,7 @@ content="$Url$"/></ContentTemplate>
 <!--MS:<asp:ContentPlaceHolder
 id="OpenGraphPlaceHolder" runat="server">-->
 <!--ME:</asp:ContentPlaceHolder>-->
-…
+...
 </head>
 
 ```

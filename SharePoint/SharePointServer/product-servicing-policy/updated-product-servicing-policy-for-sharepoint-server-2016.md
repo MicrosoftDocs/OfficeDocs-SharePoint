@@ -43,26 +43,26 @@ The product servicing policy timeline for SharePoint Server 2016 is described in
 
  **Question:** Why is Microsoft doing this? 
   
- **Answer:** Previously, servicing for SharePoint was tied to specific types of releases - the initial RTM release and service packs. However, Microsoft has no plans to release new service packs for SharePoint and will instead only update ﻿SharePoint by way of monthly Public Updates. This new servicing policy ensures that customers are running a build that contains fixes for the most common issues that customers have been reporting to us, even if there are no additional service packs released. 
+ **Answer:** Previously, servicing for SharePoint was tied to specific types of releases - the initial RTM release and service packs. However, Microsoft has no plans to release new service packs for SharePoint and will instead only update SharePoint by way of monthly Public Updates. This new servicing policy ensures that customers are running a build that contains fixes for the most common issues that customers have been reporting to us, even if there are no additional service packs released. 
   
  **Question:** Will Microsoft release service packs for SharePoint Server 2016? 
   
- **﻿Answer:** No, Microsoft has no plans to release service packs for SharePoint Server 2016. ﻿Functionality, performance, and stability improvements for SharePoint Server 2016 will be delivered by way of our monthly Public Updates. 
+ **Answer:** No, Microsoft has no plans to release service packs for SharePoint Server 2016. Functionality, performance, and stability improvements for SharePoint Server 2016 will be delivered by way of our monthly Public Updates. 
   
- **﻿Question:** Where can I find the Public Updates for SharePoint Server 2016? 
+ **Question:** Where can I find the Public Updates for SharePoint Server 2016? 
   
- **﻿Answer:** The current list of Public Updates for SharePoint Server 2016 can be found in our [SharePoint Updates](/officeupdates/sharepoint-updates) article. 
+ **Answer:** The current list of Public Updates for SharePoint Server 2016 can be found in our [SharePoint Updates](/officeupdates/sharepoint-updates) article. 
   
- **﻿Question:** Do the monthly Public Updates contain all of the fixes included in the previous Public Updates? 
+ **Question:** Do the monthly Public Updates contain all of the fixes included in the previous Public Updates? 
   
- **﻿Answer:** Yes, the monthly Public Updates are cumulative. ﻿Each Public Update contains all of the fixes provided in the previous Public Updates. 
+ **Answer:** Yes, the monthly Public Updates are cumulative. Each Public Update contains all of the fixes provided in the previous Public Updates. 
   
  **Question:** Do I need to install an earlier Public Update before I can install the latest Public Update? 
   
- **﻿Answer:** No, you don't need to install an earlier Public Update before you install the latest Public Update. You can install any Public Update directly on an RTM installation. 
+ **Answer:** No, you don't need to install an earlier Public Update before you install the latest Public Update. You can install any Public Update directly on an RTM installation. 
   
  **Question:** Should I install the monthly Public Updates for SharePoint Server 2016 immediately or should I install them only if they contain a fix for a specific issue I'm having? 
   
- **﻿Answer:** Microsoft recommends that all customers install Public Updates for SharePoint Server 2016 as soon as they become available. Microsoft performs rigorous validation of each Public Update, both internally and with a select set of partners and customers before it is released to ensure it has the highest quality. 
+ **Answer:** Microsoft recommends that all customers install Public Updates for SharePoint Server 2016 as soon as they become available. Microsoft performs rigorous validation of each Public Update, both internally and with a select set of partners and customers before it is released to ensure it has the highest quality. 
   
 

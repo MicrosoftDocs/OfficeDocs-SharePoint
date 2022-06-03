@@ -36,7 +36,7 @@ To run the identity migration, follow these steps:
 
 To migrate a web application to include all the content databases by using Windows PowerShell.
 
-1.	Check that you have the following memberships:
+1. Check that you have the following memberships:
 
 - The securityadmin fixed server role on the SQL Server instance.
 - The db_owner fixed database role on all databases that are to be updated.
@@ -47,7 +47,7 @@ An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to
 
 **NOTE**:   If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about Windows PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps&preserve-view=true).
 
-2.	To migrate a web application to include all content databases, type the following at the Windows PowerShell command prompt.
+2. To migrate a web application to include all content databases, type the following at the Windows PowerShell command prompt.
 
 ```powershell
 $skipFile = "FileName.csv"
@@ -58,7 +58,7 @@ Convert-SPWebApplication -Identity $wa -From CLAIMS-WINDOWS -To CLAIMS-TRUSTED-D
 
 To migrate specific web applications and content databases by using Windows PowerShell.
 
-1.	Check that you have the following memberships:
+1. Check that you have the following memberships:
 - The securityadmin fixed server role on the SQL Server instance.
 - The db_owner fixed database role on all databases that are to be updated.
 - The Administrators group on the server on which you are running Windows PowerShell cmdlets.
@@ -69,7 +69,7 @@ An administrator can use the Add-SPShellAdmin cmdlet to grant permissions to use
 **NOTE**:   If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about Windows PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps&preserve-view=true).
 
  
-2.	To migrate specific web applications and content databases, type the following at the Windows PowerShell command prompt.
+2. To migrate specific web applications and content databases, type the following at the Windows PowerShell command prompt.
 
 ```powershell
 $skipFile = "FileName.csv"

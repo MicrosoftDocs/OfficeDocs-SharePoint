@@ -112,7 +112,7 @@ To save space, we'll only show you how to create a result source as a Site colle
     
      ![Enter Query](../media/OTCSP_TestQuery.png)
   
-    Notice that 52 results were returned. (I will tell you why this is kind of cool in the next section…).
+    Notice that 52 results were returned. (I will tell you why this is kind of cool in the next section...).
     
 7. Click **OK** to close the dialog, and then **Save**. 
     

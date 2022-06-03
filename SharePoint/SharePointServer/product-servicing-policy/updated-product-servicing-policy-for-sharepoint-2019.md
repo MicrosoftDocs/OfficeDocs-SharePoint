@@ -42,28 +42,28 @@ The product servicing policy timeline for SharePoint Server 2019 is described in
 
  ***Question:** Why is Microsoft doing this? 
   
- **Answer:** Previously, servicing for SharePoint was tied to specific types of releases - the initial RTM release and service packs. However, Microsoft has no plans to release new service packs for SharePoint and will instead only update ﻿SharePoint by way of monthly Public Updates. This new servicing policy ensures that customers are running a build that contains fixes for the most common issues that customers have been reporting to us, even if there are no additional service packs released. 
+ **Answer:** Previously, servicing for SharePoint was tied to specific types of releases - the initial RTM release and service packs. However, Microsoft has no plans to release new service packs for SharePoint and will instead only update SharePoint by way of monthly Public Updates. This new servicing policy ensures that customers are running a build that contains fixes for the most common issues that customers have been reporting to us, even if there are no additional service packs released. 
   
  **Question:** Will Microsoft release service packs for SharePoint Server 2019? 
   
- **Answer:** No, Microsoft has no plans to release service packs for SharePoint Server 2019. ﻿Functionality, performance, and stability improvements for SharePoint Server 2019 will be delivered by way of our monthly Public Updates. 
+ **Answer:** No, Microsoft has no plans to release service packs for SharePoint Server 2019. Functionality, performance, and stability improvements for SharePoint Server 2019 will be delivered by way of our monthly Public Updates. 
   
- **﻿Question:** Where can I find the Public Updates for SharePoint Server 2019? 
+ **Question:** Where can I find the Public Updates for SharePoint Server 2019? 
   
- **﻿Answer:** The current list of Public Updates for SharePoint Server 2019 can be found in our [SharePoint Updates](/officeupdates/sharepoint-updates) article. 
+ **Answer:** The current list of Public Updates for SharePoint Server 2019 can be found in our [SharePoint Updates](/officeupdates/sharepoint-updates) article. 
   
- **﻿Question:** Do the monthly Public Updates contain all of the fixes included in the previous Public Updates? 
+ **Question:** Do the monthly Public Updates contain all of the fixes included in the previous Public Updates? 
   
- **﻿Answer:** Yes, the monthly Public Updates are cumulative. ﻿Each Public Update contains all of the fixes provided in the previous Public Updates. 
+ **Answer:** Yes, the monthly Public Updates are cumulative. Each Public Update contains all of the fixes provided in the previous Public Updates. 
   
  **Question:** Do I need to install an earlier Public Update before I can install the latest Public Update? 
   
- **﻿Answer:** No, you don't need to install an earlier Public Update before you install the latest Public Update. You can install any Public Update directly on an RTM installation, or on top of any previous Public Update. 
+ **Answer:** No, you don't need to install an earlier Public Update before you install the latest Public Update. You can install any Public Update directly on an RTM installation, or on top of any previous Public Update. 
   
  **Question:** Should I install the monthly Public Updates for SharePoint Server 2019 immediately or should I install them only if they contain a fix for a specific issue I'm having? 
   
- **﻿Answer:** Microsoft recommends that all customers install Public Updates for SharePoint Server 2019 as soon as they become available. Microsoft performs rigorous validation of each Public Update, both internally and with a select set of partners and customers before it is released to ensure it has the highest quality. 
+ **Answer:** Microsoft recommends that all customers install Public Updates for SharePoint Server 2019 as soon as they become available. Microsoft performs rigorous validation of each Public Update, both internally and with a select set of partners and customers before it is released to ensure it has the highest quality. 
 
 **Question:** Why is the product lifecycle for SharePoint Server 2019 shorter than 10 years?
 
-**﻿Answer:** As previously announced in KB article [4086137](https://support.microsoft.com/help/4086137/office-2019-on-premises-release-details-february-1-2018), the Microsoft Office 2019 family of products will provide 5 years of mainstream support, followed by 2 years of extended support.  This will allow Microsoft to better support our customers as we rapidly innovate these products and cloud services. SharePoint Server 2016 was released later than the other products in the Microsoft Office 2016 family and therefore has a later extended support end date.  To ensure that SharePoint Server 2019 doesn't end support earlier than previous versions of SharePoint Server, SharePoint Server 2019 will align its extended support end date with the SharePoint Server 2016 extended support end date.
+**Answer:** As previously announced in KB article [4086137](https://support.microsoft.com/help/4086137/office-2019-on-premises-release-details-february-1-2018), the Microsoft Office 2019 family of products will provide 5 years of mainstream support, followed by 2 years of extended support.  This will allow Microsoft to better support our customers as we rapidly innovate these products and cloud services. SharePoint Server 2016 was released later than the other products in the Microsoft Office 2016 family and therefore has a later extended support end date.  To ensure that SharePoint Server 2019 doesn't end support earlier than previous versions of SharePoint Server, SharePoint Server 2019 will align its extended support end date with the SharePoint Server 2016 extended support end date.
