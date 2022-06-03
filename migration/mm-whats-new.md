@@ -31,6 +31,13 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 - **Tag support for File share migrations**.  The tags feature is coming soon for File Share migrations to allow you to sort, organize, and navigate through a large quantity of sources and users.
 
+## May 2022
+- **Issue: Box connection**. A recent change from Box makes the Microsoft 365 Migration app  a server auth app that subsequently fails to authorize the users account and connect.  Fix pending.
+
+## April 2022
+
+- **Task increase**.  We now support up to 50,000 tasks per tenant.
+
 ## March 2022
 - **Egnyte migrations**.  Migrate your Egnyte content to Microsoft 365.
 

@@ -140,6 +140,7 @@
 #### [SharePoint Migration Identity Mapping: Active Directory Identity Scan](sharepoint-migration-identity-mapping-active-directory-identity-scan.md)
 #### [SharePoint Migration Identity Mapping Tool: Azure Active Directory Identity Scan](sharepoint-migration-identity-mapping-tool-azure-active-directory-identity-scan.md)
 ## Other migrations (Legacy Mover tool)
+### [Mover.io retirement timeline](mover-retirement-timeline.md)
 ### [Mover managed migration guide](mover-managed-migration-guide.md)
 ###  Overview
 #### [Plan your migration](mover-plan-migration.md)
@@ -149,7 +150,6 @@
 ###  Set up your source
 #### [Box](mover-box.md)
 #### [Dropbox](mover-dropbox.md)
-#### [Egnyte](mover-egnyte.md)
 #### [G Suite Drive](mover-gsuite.md)
 #### [Office 365](mover-o365.md)
 #### [Amazon S3](mover-amazons3.md)

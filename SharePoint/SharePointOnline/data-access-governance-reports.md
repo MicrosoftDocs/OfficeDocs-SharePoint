@@ -1,9 +1,9 @@
 ---
 title: "Data access governance reports"
 ms.reviewer: karthig
-ms.author: v-smandalika
-author: v-smandalika
-manager: dansimp
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: serdars
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH

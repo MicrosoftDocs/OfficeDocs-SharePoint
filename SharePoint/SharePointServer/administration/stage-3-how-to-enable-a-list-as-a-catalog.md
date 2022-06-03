@@ -1,5 +1,5 @@
 ---
-title: "Stage 3 How to enable a list as a catalog in SharePoint Server"
+title: Stage 3 How to enable a list as a catalog in SharePoint Server
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -13,7 +13,7 @@ ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 9a7d541e-8db7-48b3-8c5a-6173f7358763
-description: "Learn how to enable a list as a catalog in SharePoint Server 2016."
+description: Learn how to enable a list as a catalog in SharePoint Server 2016.
 ---
 
 # Stage 3: How to enable a list as a catalog in SharePoint Server
@@ -71,7 +71,7 @@ In the following screenshot, notice that the structure in the **Product Hierarch
     
 ![Contoso Product Hierarchy](../media/OTCSP_ContosoProductHierarchy.PNG)
   
-The terms from the **Product Hierarchy** term set will also be used to create a friendly URL for our category pages on the publishing site (the Contoso website). For example, the URL to the page displaying camcorders is  *http://www.contoso/cameras/camcorders*  , and the URL to the page displaying camera accessories is  *http://www.contoso/cameras/camera-accessories*  . 
+The terms from the **Product Hierarchy** term set will also be used to create a friendly URL for our category pages on the publishing site (the Contoso website). For example, the URL to the page displaying camcorders is  *`http://www.contoso/cameras/camcorders`*, and the URL to the page displaying camera accessories is  *`http://www.contoso/cameras/camera-accessories`*.
     
 ![Contoso Friendly URL](../media/OTCSP_ContosoFriendlyURL.PNG)
   

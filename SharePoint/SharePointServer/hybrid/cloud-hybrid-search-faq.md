@@ -1,5 +1,5 @@
 ---
-title: "Cloud hybrid search service (Cloud SSA) FAQ"
+title: Cloud hybrid search service (Cloud SSA) FAQ
 ms.reviewer: mbiswas
 ms.author: serdars
 author: SerdarSoysal
@@ -12,7 +12,7 @@ ms.prod: sharepoint-server-itpro
 ms.collection: SPO_Content
 ms.localizationpriority: medium
 ms.custom: admindeeplinkSPO
-description: "Cloud hybrid search service (Cloud SSA) FAQ"
+description: Cloud hybrid search service (Cloud SSA) FAQ
 ---
 
 # Cloud hybrid search service (Cloud SSA) FAQ
@@ -222,7 +222,7 @@ SharePoint Server Search Crawler:Azure Plugin ayg2m High AzureServiceProxy::Subm
 
 If Cloud search service application is hosted in a SharePoint Server 2013 environment, the uls tag tracking the error would be `amnz2` and `amoeu`.
 
-You need to request an increase in the available quota to fix the issue. To increase the maximum items that can be indexed beyond 20 million, you need to contact Microsoft Support via the [Microsoft 365 admin center](/office365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide).
+You need to request an increase in the available quota to fix the issue. To increase the maximum items that can be indexed beyond 20 million, you need to contact Microsoft Support via the [Microsoft 365 admin center](/office365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide&preserve-view=true).
 
 ***My Microsoft 365 organization is configured for hybrid. Can I query for only on-premises items that have been crawled using Cloud hybrid search service application?***
 
@@ -364,7 +364,7 @@ Cloud search service application always communicates with endpoints using port 4
 
 3. <https://login.windows.net/common/oauth2/authorize>
 
-4. <https://sts.windows.net/*>
+4. `https://sts.windows.net/*`
 
 5. [https://login.microsoftonline.com](https://login.microsoftonline.com/)
 
