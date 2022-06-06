@@ -23,7 +23,7 @@ search.appverid:
 - MET150
 description: In this article, you'll learn how to redirect users' Desktop and Documents folders to OneDrive on macOS.
 ---
-# Redirect and move known folders to OneDrive
+# Redirect and move macOS known folders to OneDrive
 
 This article is for IT admins managing the OneDrive sync app for macOS.
   
