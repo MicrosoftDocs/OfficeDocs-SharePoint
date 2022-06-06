@@ -28,10 +28,10 @@ Typically portals have relatively few people who create and author the site and 
 
 SharePoint Online has several types of sites and page types. **For portals, we highly recommend using a communication site with a site page for the home page**, the default configuration when you create a communication site. Site pages allow you to use out-of-the-box web parts, custom web parts, and extensions. 
 
-To learn more, see [Create communication sites in SharePoint](/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb). 
+To learn more, see [Create communication sites in SharePoint](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb). 
 
 >[!Important]
->**Modern Team sites** are designed for use on collaboration sites, like projects / interest groups / focus areas or when you would like to collaborate with other team members. To learn more, see [Create team sites in SharePoint](/office/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).
+>**Modern Team sites** are designed for use on collaboration sites, like projects / interest groups / focus areas or when you would like to collaborate with other team members. To learn more, see [Create team sites in SharePoint](https://support.microsoft.com/office/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).
 >
 >The **App page type** was designed to be used for specific business applications within SharePoint Online. It was not designed to be used as a SharePoint Team site or a SharePoint Portal. To learn more, see [Creating application pages in SharePoint](/visualstudio/sharepoint/creating-application-pages-for-sharepoint).
 

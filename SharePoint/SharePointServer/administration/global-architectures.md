@@ -131,7 +131,7 @@ You can share some service applications across farms. Most of these can be share
   
 **Cross-farm services support for WAN environments**
 
-|**Service application**|**Supported over WAN connections?**|**Notes**|
+| Service application | Supported over WAN connections? | Notes |
 |:-----|:-----|:-----|
 |Search  <br/> |Yes  <br/> |Content can be crawled over WAN connections. Or, you can configure search to retrieve results from remote result sources (indexes at remote farms).  <br/> |
 |Managed Metadata  <br/> |Yes  <br/> |User entry fields that the Managed Metadata service application provides might not be available if a WAN connection is not online (such as an intermittent satellite link).  <br/> |
@@ -172,7 +172,7 @@ The following table summarizes the differences between crawling over the WAN and
   
 **Options for including global content in search results**
 
-||**Crawl over the WAN**|**Configure a result source for remote farms**|
+|&nbsp;| Crawl over the WAN | Configure a result source for remote farms |
 |:-----|:-----|:-----|
 |Description  <br/> |Content at regional sites is crawled from the central site over the WAN.  <br/> |Search is configured to return results from one or more remote farms (result source), in addition to the local farm.  <br/> In this scenario, remote farms are crawled locally. You configure search at the central farm to include results from the remote indexes.  <br/> You can also configure the remote farms to include results from the central farm and other regional farms. This allows users to search from the local farm.  <br/> |
 |User experience  <br/> |Users are presented with a single list of results.  <br/> |Results are presented in in a single list. However, the results are grouped in blocks by result source. You can configure the number of results within each group.  <br/> |

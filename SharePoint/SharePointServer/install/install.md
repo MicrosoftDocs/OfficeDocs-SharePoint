@@ -1,5 +1,5 @@
 ---
-title: "Install SharePoint Server"
+title: Install SharePoint Server
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -8,14 +8,14 @@ ms.date: 8/24/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: hub-page
+ms.topic: landing-page
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 8a911115-de8a-4cf3-9701-f5ba78fa8bfc
-description: "Deployment articles help you install and configure SharePoint Server and upgrade from earlier versions."
+description: Deployment articles help you install and configure SharePoint Server and upgrade from earlier versions.
 ---
 
 # Install SharePoint Server
@@ -81,5 +81,5 @@ The following articles include information about how to prepare for installation
 
 [What is SharePoint](https://support.office.com/article/97b915e6-651b-43b2-827d-fb25777f446f)
   
-[About SharePoint](https://dev.office.com/sharepoint)
+[About SharePoint](https://support.microsoft.com/en-us/office/what-is-sharepoint-97b915e6-651b-43b2-827d-fb25777f446f)
 

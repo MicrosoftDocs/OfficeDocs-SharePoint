@@ -14,7 +14,8 @@ ms.collection:
 - Strat_OD_share
 - M365-collaboration
 ms.custom:
--  seo-marvel-apr2020
+- seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
@@ -36,7 +37,7 @@ To change the sharing settings for a site after you've set the organization-leve
 
 ## Video demonstration
 
-This video shows how the settings on the Sharing page in the SharePoint admin center affect the sharing options available to users.
+This video shows how the settings on the <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">**Sharing** page in the SharePoint admin center</a> affect the sharing options available to users.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yw9m?autoplay=false]
 
@@ -44,11 +45,9 @@ This video shows how the settings on the Sharing page in the SharePoint admin ce
 <a name="__turn_external_sharing"> </a>
   
 
-1. Go to the [Sharing page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">**Sharing** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
  
    > [!NOTE]
-   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. 
-   > 
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
 
 2. Under **External sharing**, specify your sharing level for SharePoint and OneDrive. The default level for both is "Anyone."
@@ -64,7 +63,7 @@ This video shows how the settings on the Sharing page in the SharePoint admin ce
 
     This setting is for your organization overall. Each site has its own sharing setting that you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
   
-### Which option to select...
+### Which option to select
 
 | Select this option: | If you want to: |
 |:-----|:-----|
@@ -133,7 +132,7 @@ Choose the option you want to show by default when a user gets a link.
 
 ![Settings in the new SharePoint admin center](media/advanced-settings-anyone-links.png)
 
-**Link expiration** - You can require all "Anyone" links to expire, and specify the maximum number of days allowed
+**Link expiration** - You can require all "Anyone" links to expire, and specify the maximum number of days allowed. If you change the expiration time, existing links will keep their current expiration time if the new setting is longer, or be updated to the new setting if the new setting is shorter.
 
 **Link permissions** - You can restrict "Anyone" links so that they can only provide view permission for files or folders.
 

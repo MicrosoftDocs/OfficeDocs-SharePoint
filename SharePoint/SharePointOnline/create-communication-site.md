@@ -1,8 +1,8 @@
 ---
 title: Guided walkthrough - Create a communication site
 ms.reviewer: hokavian
-ms.author: matteva
-author: MattEEvans
+ms.author: evanatkin
+author: AtkinE
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -11,7 +11,7 @@ f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: high
-ms.collection:  
+ms.collection:
 - Strat_SP_modern
 - M365-collaboration
 search.appverid:
@@ -24,28 +24,25 @@ description: "Learn how to create a SharePoint communication site for your organ
 
 In this article, we show you elements of a communication site to inspire you and help you learn how to create similar sites for your own organization. In this example, the site is optimized to communicate your strategy and guide employees in how to express your brand in their work.
 
-First, if you haven't already created a Communication site, check out the [Create your site](#create-your-site) section in this article. 
+First, if you haven't already created a Communication site, check out the [Create your site](#create-your-site) section in this article.
 
 Once you have your created your site and know how to edit pages, you can use the steps below to add the elements shown.
-<br>
-<br>
 
 ## Example communication site
 
-|  Image of the homepage               |  Customization instructions                |
-| :------------------- | :------------------- |
-| ![Image of the Communication site landing page](media/cs-1.png)  | **1. Make discovery of content easy** Quickly guide visitors with navigation. [*Learn how*](#create-a-clear-and-useful-navigation) <br> <br>**2. Set the mission** A text web part highlights the mission. [*Learn how*](#add-formatted-text-with-the-text-web-part)<br> <br>**3. Feature content** Emphasize ideas with the Hero web part. [*Learn how*](#focus-on-priorities-with-the-hero-web-part)<br> <br>**4. Display topical news** Show the latest news. [*Learn how*](#add-important-news-with-the-news-web-part)<br> <br>**5. Offer important links** Show related resources with Quick links. [*Learn how*](#use-color-and-icons-with-the-quick-links-web-part)<br> <br>**6. Call-to-action** Combine web parts to increase impact.  [*Learn how*](#create-call-to-action-elements)|
-
- 
+|Image of the homepage|Customization instructions|
+|---|---|
+|![Image of the Communication site landing page](media/cs-1.png)|**1. Make discovery of content easy** Quickly guide visitors with navigation. [*Learn how*](#create-a-clear-and-useful-navigation) <p> **2. Set the mission** A text web part highlights the mission. [*Learn how*](#add-formatted-text-with-the-text-web-part) <p> **3. Feature content** Emphasize ideas with the Hero web part. [*Learn how*](#focus-on-priorities-with-the-hero-web-part) <p> **4. Display topical news** Show the latest news. [*Learn how*](#add-important-news-with-the-news-web-part) <p> **5. Offer important links** Show related resources with Quick links. [*Learn how*](#use-color-and-icons-with-the-quick-links-web-part) <p> **6. Call-to-action** Combine web parts to increase impact. [*Learn how*](#create-call-to-action-elements)|
 
 ## Create your site
-To make a site like the one shown here, you'll create a [Communication site](https://support.microsoft.com/office/use-the-sharepoint-topic-showcase-and-blank-communication-site-templates-94a33429-e580-45c3-a090-5512a8070732). To do this, click **Create site** from the SharePoint start page (or, if you're going to associate this site with a Hub site, navigate to the hub site and click **Create site** there so that the communication site is automatically be associated with that hub site).
+
+To make a site like the one shown here, you'll create a [Communication site](https://support.microsoft.com/office/use-the-sharepoint-topic-showcase-and-blank-communication-site-templates-94a33429-e580-45c3-a090-5512a8070732). To do this, click **Create site** from the SharePoint start page (or, if you're going to associate this site with a Hub site, navigate to the hub site and click **Create site** there so that the communication site is automatically associated with that hub site).
 
 ![Image of the create site tool icon](media/cs-2.png)
 
 Next, choose **Communication site**, and then the **Topic** layout. Fill out your site name, description, and other information, and click **Finish**.
 
-![Image of the Communication site panel](media/cs-3.jpg)
+![Image of the Communication site panel](media/cs-3_1.jpg)
 
 For more details, see [Create a communication site in SharePoint Online](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
 
@@ -65,13 +62,13 @@ Click **Edit** to the right of the top menu, hover over the location in the menu
 
 ### Mega menu
 
-When a communication site is associated with a [hub site](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f#bkmk_associatingsitestoahub), site owners can quickly and easily customize the organization and navigation of a  SharePoint site. Learn what you need to know about mega menus in [Create a mega menu in hub sites](https://support.microsoft.com/office/create-a-mega-menu-on-communication-sites-and-hub-sites-d6768545-2391-4c66-9a8c-a85eb76b4cf5).
+When a communication site is associated with a [hub site](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f#bkmk_associatingsitestoahub), site owners can quickly and easily customize the organization and navigation of a SharePoint site. Learn what you need to know about mega menus in [Create a mega menu in hub sites](https://support.microsoft.com/office/create-a-mega-menu-on-communication-sites-and-hub-sites-d6768545-2391-4c66-9a8c-a85eb76b4cf5).
 
 ![Image of the Mega menu](media/cs-6.png)
 
 Clicking **Edit** on the top menu opens a three-level outline list on the left. The example site uses only two of three possible levels on its mega menu: the main menu and a sub menu.
 
-- Click the **…** control on the right of the item name to set the item's link and outline level.
+- Click the **...** control on the right of the item name to set the item's link and outline level.
 
 [Back to top](#example-communication-site)
 
@@ -113,6 +110,7 @@ For more details on using pages, see [Create and use modern pages on a SharePoin
 [Back to top](#example-communication-site)
 
 ## Add formatted text with the Text web part
+
 For more details on using the Text web part, see [Add text and tables to your page with the Text web part](https://support.microsoft.com/office/add-text-and-tables-to-your-page-with-the-text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801).
 
 ### Enhance the message
@@ -125,7 +123,7 @@ The first section of the page uses the section layout tools with a Text web part
 
 ### Refined typography
 
-The Text web part builds on style of the built-in site template. The Text web part is using the **Normal** text style. Clicking the **…** control at the right end of the formatting toolbar offers additional options to the right of the web part.
+The Text web part builds on style of the built-in site template. The Text web part is using the **Normal** text style. Clicking the **...** control at the right end of the formatting toolbar offers additional options to the right of the web part.
 
 In this example, the web part is in a two-column section.
 ![Image of the a two column section](media/cs-14.png)
@@ -134,8 +132,7 @@ In this example, the web part is in a two-column section.
 
 ## Focus on priorities with the Hero web part
 
-Let your team know what’s most important with high-impact hero images, company branding, and important news. The initial impact of the site home page is created by large and eye-catching images of the Hero web part. The page uses the Hero web part in its **Layers** option.
- 
+Let your team know what's most important with high-impact hero images, company branding, and important news. The initial impact of the site home page is created by large and eye-catching images of the Hero web part. The page uses the Hero web part in its **Layers** option.
 
 ### Hero layout
 
@@ -147,7 +144,7 @@ In this example, the Hero web part uses one layer and is in a full-width section
 
 ### Customize each layer
 
-Options for adding a heading and a linked call to action allow each layer to be a the starting point for a deeper message.
+Options for adding a heading and a linked call to action allow each layer to be a starting point for a deeper message.
 
 It is possible to create an entire visual homepage with just the Hero web part using **Layers**.
 
@@ -196,5 +193,5 @@ In the example shown below, the web parts are in the second column of a three-co
 [Back to top](#example-communication-site)
 
 ### Want more?
-Get inspired with more examples in the [SharePoint Look Book](https://sharepointlookbook.azurewebsites.net/)
 
+Get inspired with more examples in the [SharePoint Look Book](https://sharepointlookbook.azurewebsites.net/)

@@ -66,10 +66,10 @@ If the import fails, remove the condition that caused the failure and reimport t
 ## Export customized search configuration settings from a tenant
 <a name="__toc351540659"> </a>
 
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select Open.
     
@@ -98,10 +98,10 @@ If the import fails, remove the condition that caused the failure and reimport t
 ## Import customized search configuration settings to a tenant
 <a name="__toc351540662"> </a>
 
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
    
@@ -196,8 +196,16 @@ If managed properties or aliases contain any of the listed characters, the impor
 ## Known issue
 <a name="__toc351540666"> </a>
 
-When you import search configuration files into the tenant admin search settings page, you might encounter an issue that the **Search Config List** could not display properly and you might receive a "File not found" error.
+ **Unable to load Search Configuration List**
+
+When you import search configuration files into the tenant admin search settings page, you might encounter an issue that the **Search Configuration List** could not display properly and you might receive a "File not found" error.
 
 This issue only blocks the UI from displaying the list of search configuration files you imported and would not break the **Import** functionality. Your search configuration will be imported properly.
 
 Since you are unable to check the status of the search configuration file you imported from the UI, you could choose an alternative way to access the list, like [SharePoint CSOM API](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) or [SharePoint Online REST API](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-rest-endpoints).
+
+ **Unable to import stale search configuration XML file**
+
+If the search configuration file was exported a long time ago, the import might fail.
+
+If the exported search configuration file is stale, you should export a new search configuration first and then use it to import the list of search configuration files.

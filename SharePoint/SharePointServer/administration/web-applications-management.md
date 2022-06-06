@@ -22,7 +22,7 @@ description: "Learn how to manage web applications in a SharePoint Server farm."
   
 The following articles describe how to create and manage web applications in a SharePoint Server farm. These articles are written for farm administrators who will operate SharePoint Server. The articles also describe how to manage permissions and permission policies for a web application.
   
-||**Content**|**Description**|
+|&nbsp;| Content | Description |
 |:-----|:-----|:-----|
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Manage permissions for a web application in SharePoint Server](manage-permissions-for-a-web-application.md) <br/> |Learn how to manage permissions for web applications in SharePoint Server.  <br/> |
 ||[Manage permission policies for a web application in SharePoint Server](manage-permission-policies-for-a-web-application.md) <br/> |Learn how policies provide a centralized way to configure and manage a set of permissions that applies to only a subset of users or groups in a web application.  <br/> |
