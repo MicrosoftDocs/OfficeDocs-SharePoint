@@ -32,19 +32,19 @@ The Workplace transformation site template is designed help people in your organ
 
 **The Workplace transformation site template helps organizations:**
 
-- Inspire employees on the new possibilities’ your change management project offers
+- Inspire employees on the new possibilities' your change management project offers
 - Provide employees with the information, resources, and support they will need to successfully adopt new ways of working
 - Ready employees for a successful transition to new processes, tools, and expectations
 
 
 ### The Workplace transformation site features:
 
--	A landing place for people in your organization to get more information, news, and support
--	Specialized support channels for many audiences like managers, teams, and champions 
--	Pre-populated content and web parts that can be customized to fit the needs of your organization and specific change management projects
--	Opportunity to use the Microsoft 365 Learning pathways solution to display Microsoft-curated and maintained training playlists
--	Integration with Microsoft 365 lists that let you customize and manage the change management journey 
--	Examples of micro-learning content that can be adapted to your change project
+- A landing place for people in your organization to get more information, news, and support
+- Specialized support channels for many audiences like managers, teams, and champions 
+- Pre-populated content and web parts that can be customized to fit the needs of your organization and specific change management projects
+- Opportunity to use the Microsoft 365 Learning pathways solution to display Microsoft-curated and maintained training playlists
+- Integration with Microsoft 365 lists that let you customize and manage the change management journey 
+- Examples of micro-learning content that can be adapted to your change project
 
  
 
@@ -74,7 +74,7 @@ The Workplace transformation site can be used to drive any topic or scope of org
 **2. Learn –** Build training content right into the site itself by using [Microsoft 365 Learning pathways](/office365/customlearning/).
 <br>
 
-**3. Practice and exploration –** Use your organization’s [champion community](https://view.officeapps.live.com/op/view.aspx?src=https://fto365dev.blob.core.windows.net:443/media/Default/DocResources/Adoption/Build_Champions_Program_Guide.pptx) in leading hand-on events and demonstrations in addition to 1:1 help.
+**3. Practice and exploration –** Use your organization's [champion community](https://view.officeapps.live.com/op/view.aspx?src=https://fto365dev.blob.core.windows.net:443/media/Default/DocResources/Adoption/Build_Champions_Program_Guide.pptx) in leading hand-on events and demonstrations in addition to 1:1 help.
 <br>
 
 **4. Use and consult –** Use [Microsoft Lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US) to help your organization manage tasks and knowledge checks associated with training and change management objectives.
@@ -135,13 +135,13 @@ Learn more about [how to provision the Microsoft 365 learning pathways solution 
 ## Step 1: Provision the Workplace transformation site template
 
 > [!NOTE]
-> -	Tenant administrators’ credentials (or higher) are required to provision a template from the look book
-> -	The workplace transformation site will take about 15 minutes to provision 
+> - Tenant administrators' credentials (or higher) are required to provision a template from the look book
+> - The workplace transformation site will take about 15 minutes to provision 
 
 
-1.	Start by navigating to the [SharePoint look book](https://lookbook.microsoft.com/) and selecting the workplace transformation site template. Select **Add to your tenant**.
-2.	Then, select a site name, URL, and email address where an email confirmation will be sent when the site is successfully created.
-3.	Select **Provision**, and in less than 15 minutes you will receive an email confirmation with a link to your new site.
+1. Start by navigating to the [SharePoint look book](https://lookbook.microsoft.com/) and selecting the workplace transformation site template. Select **Add to your tenant**.
+2. Then, select a site name, URL, and email address where an email confirmation will be sent when the site is successfully created.
+3. Select **Provision**, and in less than 15 minutes you will receive an email confirmation with a link to your new site.
 <br> 
 Learn more about [provisioning site templates from the look book](./add-sample-site.md). 
 
@@ -151,16 +151,16 @@ Once the site has been provisioned and you are ready to customize. If other peop
 
 
 ## Step 2: Customize the Workplace transformation site
-Customize the workplace transformation site to fit the needs of your organization’s change management project. Customize the theme, logo, navigation, web parts, and pre-populated content.
+Customize the workplace transformation site to fit the needs of your organization's change management project. Customize the theme, logo, navigation, web parts, and pre-populated content.
 
 > [!NOTE]
 > You need site member (or higher) permissions to the Workplace transformation site template in order to make customizations. 
 
 ### Sign in 
 
-1.	Open your web browser and navigate to [office.com](https://www.office.com/) or your organization’s sign in location.
-2.	**Sign in** with your username and password.
-3.	Navigate to the location of the site using the URL supplied by your tenant admin, or select SharePoint from the Microsoft 365 home page, and then select the **Workplace transformation site**.
+1. Open your web browser and navigate to [office.com](https://www.office.com/) or your organization's sign in location.
+2. **Sign in** with your username and password.
+3. Navigate to the location of the site using the URL supplied by your tenant admin, or select SharePoint from the Microsoft 365 home page, and then select the **Workplace transformation site**.
 
 ### Review pre-populated content
 The workplace transformation site is full of pre-populated content, web parts, news templates, and a Microsoft list. Carefully review and customize pre-populated content before sharing broadly with end users. 
@@ -214,9 +214,9 @@ The Workplace transformation site contains a [Microsoft List](https://support.mi
 
    ![Image of the hybrid workplace checklist](media/hybrid-list.png)
 
-1.	Start by navigating to **Setting > Site contents**, and then select **Hybrid workplace checklist**.
-2.	Then you can edit list items, [change columns and labels](https://support.microsoft.com/office/create-a-column-in-a-list-or-library-2b0361ae-1bd3-41a3-8329-269e5f81cfa2), the theme and more. Or, you can [create a new list based on an existing Excel spreadsheet](https://support.microsoft.com/office/create-a-list-based-on-a-spreadsheet-380cfeb5-6e14-438e-988a-c2b9bea574fa) or [use a list template](https://support.microsoft.com/office/create-a-list-from-a-template-70b008a2-7a3d-4223-83d8-345e0313974d).
-3.	Finally, [edit the view of your list](https://support.microsoft.com/office/edit-a-view-of-a-list-15916903-e79a-423f-b4e2-02d37e1ff372) to make sure users see the most important information in the [List web part](https://support.microsoft.com/office/use-the-list-web-part-ef0a1b80-f8b3-443d-b04a-1e76c70b5537) on the **Get started page**. 
+1. Start by navigating to **Setting > Site contents**, and then select **Hybrid workplace checklist**.
+2. Then you can edit list items, [change columns and labels](https://support.microsoft.com/office/create-a-column-in-a-list-or-library-2b0361ae-1bd3-41a3-8329-269e5f81cfa2), the theme and more. Or, you can [create a new list based on an existing Excel spreadsheet](https://support.microsoft.com/office/create-a-list-based-on-a-spreadsheet-380cfeb5-6e14-438e-988a-c2b9bea574fa) or [use a list template](https://support.microsoft.com/office/create-a-list-from-a-template-70b008a2-7a3d-4223-83d8-345e0313974d).
+3. Finally, [edit the view of your list](https://support.microsoft.com/office/edit-a-view-of-a-list-15916903-e79a-423f-b4e2-02d37e1ff372) to make sure users see the most important information in the [List web part](https://support.microsoft.com/office/use-the-list-web-part-ef0a1b80-f8b3-443d-b04a-1e76c70b5537) on the **Get started page**. 
 
 [Learn more about M365 lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US).
 
@@ -240,8 +240,8 @@ Site navigation is important because it helps users immediately understand what 
 
 Once the site has been customized and republished, it is ready to share with end users.
 
-1.	Select **Share site** from the right-hand corner.
-2.	In the **Share site** pane, enter the names of people or groups to add them to the site, or enter "Everyone except external users" to share the site with everyone in your organization.
-3.	Change the permission level (Read, Edit, or Full control) as needed.
-4.	Enter an optional message to send to the person or clear the **Send email box** if you don't want to send an email.
-5.	Select **Share**.
+1. Select **Share site** from the right-hand corner.
+2. In the **Share site** pane, enter the names of people or groups to add them to the site, or enter "Everyone except external users" to share the site with everyone in your organization.
+3. Change the permission level (Read, Edit, or Full control) as needed.
+4. Enter an optional message to send to the person or clear the **Send email box** if you don't want to send an email.
+5. Select **Share**.

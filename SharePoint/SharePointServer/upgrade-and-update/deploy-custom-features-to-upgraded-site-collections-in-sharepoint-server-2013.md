@@ -141,14 +141,14 @@ The steps for this scenario include the following:
     
 1. Deploy the solution package for SharePoint 2010 compatibility. You can do this by using the **Install-SPSolution** PowerShell cmdlet. Make sure to set the **-CompatibilityLevel** parameter to **14**. For example:
     
-     `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14 -GAC …`
+     `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14 -GAC ...`
     
 2. Deploy the solution package for SharePoint 2013 compatibility. You can do this by using the **Install-SPSolution** PowerShell cmdlet. Make sure to set the **-CompatibilityLevel** parameter to **15**. For example:
     
-     `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 15 -GAC …`
+     `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 15 -GAC ...`
     
 > [!NOTE]
-> The **-CompatibilityLevel** parameter in **Install-SPSolution** Windows PowerShell cmdlet also allows you the option to install a solution package to both the 14 and 15 root directories at the same time. You can do this by using the values of "14,15" or "All". For example: >  `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14, 15 -GAC …`> For more information about the **CompatibilityLevel** parameter in the **Install-SPSolution** Windows PowerShell cmdlet, see  *[Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps&preserve-view=true)*  . 
+> The **-CompatibilityLevel** parameter in **Install-SPSolution** Windows PowerShell cmdlet also allows you the option to install a solution package to both the 14 and 15 root directories at the same time. You can do this by using the values of "14,15" or "All". For example: >  `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14, 15 -GAC ...`> For more information about the **CompatibilityLevel** parameter in the **Install-SPSolution** Windows PowerShell cmdlet, see  *[Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps&preserve-view=true)*  . 
   
 ![Legacy custom feature works in both modes](../media/FMScen1.jpg)
   
@@ -186,14 +186,14 @@ The steps for this scenario include the following:
     
 1. Deploy the solution package for SharePoint 2010 compatibility. You can do this by using the **Install-SPSolution** PowerShell cmdlet. Make sure to set the **-CompatibilityLevel** parameter to **14**. For example:
     
-     `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14 -GAC …`
+     `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14 -GAC ...`
     
 2. Install the solution package for SharePoint 2013 compatibility. You can do this by using the **Install-SPSolution** PowerShell cmdlet. Make sure to set the **-CompatibilityLevel** parameter to **15**. For example:
     
-     `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 15 -GAC …`
+     `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 15 -GAC ...`
     
 > [!NOTE]
-> The **CompatibilityLevel** parameter in **Install-SPSolution** Microsoft PowerShell cmdlet also allows you the option to install a solution package to both the 14 and 15 root directories at the same time. You can do this by using the values of "14,15" or "All". For example: >  `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14, 15 -GAC …`> For more information about the **-CompatibilityLevel** parameter in the **Install-SPSolution** Microsoft PowerShell cmdlet, see  *[Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps&preserve-view=true)*  . 
+> The **CompatibilityLevel** parameter in **Install-SPSolution** Microsoft PowerShell cmdlet also allows you the option to install a solution package to both the 14 and 15 root directories at the same time. You can do this by using the values of "14,15" or "All". For example: >  `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14, 15 -GAC ...`> For more information about the **-CompatibilityLevel** parameter in the **Install-SPSolution** Microsoft PowerShell cmdlet, see  *[Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps&preserve-view=true)*  . 
   
 ![Legacy custom feature needs conditional logic](../media/FMScen2.jpg)
   
@@ -236,11 +236,11 @@ The steps for this scenario include the following:
     
 4. Deploy the solution package for SharePoint 2010 compatibility. You can do this through the **Install-SPSolution** PowerShell cmdlet. Make sure to set the **-CompatibilityLevel** parameter to **14**. For example:
     
-     `Install-SPSolution -Identity POC14.wsp -CompatibilityLevel 14 -GAC …`
+     `Install-SPSolution -Identity POC14.wsp -CompatibilityLevel 14 -GAC ...`
     
 5. Install the solution package for SharePoint 2013 compatibility. You can also do this through the **Install-SPSolution** PowerShell cmdlet. Make sure to set the **-CompatibilityLevel** parameter to **15**. For example:
     
-     `Install-SPSolution -Identity POC15.wsp -CompatibilityLevel 15 -GAC …`
+     `Install-SPSolution -Identity POC15.wsp -CompatibilityLevel 15 -GAC ...`
     
 ![Feature masking to deploy custom feature](../media/FMScen3.jpg)
   

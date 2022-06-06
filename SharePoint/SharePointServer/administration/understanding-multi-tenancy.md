@@ -926,7 +926,7 @@ The creation of the User Profile Service by using PowerShell as required when pr
   
 Two scripts are required, the first script creates the UPA and the second script calls the first script.
   
-The following Microsoft PowerShell script shows how to create the User Profile Service application in Partition Mode and add it to a custom Service Proxy group…
+The following Microsoft PowerShell script shows how to create the User Profile Service application in Partition Mode and add it to a custom Service Proxy group...
   
 > [!NOTE]
 > This script should **NOT** be run directly otherwise it will be impossible to start the User Profile Synchronization service instance. This script should be saved locally and its location noted. 

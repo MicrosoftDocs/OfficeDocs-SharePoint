@@ -32,7 +32,7 @@ The Hybrid picker automates certain configuration steps to configure hybrid betw
 
 ***I plan to configure Cloud hybrid search with high availability (HA) topologies. Is there a script available to configure the same?***
 
-If you plan to configure Cloud hybrid search with HA topologies in SharePoint Server, you can configure it with Hybrid picker. Hybrid picker has automated certain configuration steps needed to connect your on-premises SharePoint Server environment with SharePoint in Microsoft 365 for Cloud hybrid search. [Learn more](./configure-cloud-hybrid-searchroadmap.md).
+If you plan to configure Cloud hybrid search with HA topologies in SharePoint Server, you can configure it with Hybrid picker. Hybrid picker has automated certain configuration steps needed to connect your on-premises SharePoint Server environment with SharePoint in Microsoft 365 for Cloud hybrid search. [Learn more](./configure-cloud-hybrid-searchroadmap.md).
 
 ***What is hybrid federated search and how is it different from Cloud hybrid search?***
 
@@ -70,7 +70,7 @@ In hybrid federated search, the reverse proxy must be able to:
 
 [Configure a reverse proxy device for SharePoint Server hybrid](./configure-a-reverse-proxy-device-for-sharepoint-server-hybrid.md) article outlines the tested reverse proxy solutions.
 
-***When should I deploy Cloud hybrid search or hybrid federated search?  Are there any recommendations ?***
+***When should I deploy Cloud hybrid search or hybrid federated search? Are there any recommendations ?***
 
 The recommendation is to choose Cloud hybrid search for the following benefits.
 
@@ -316,7 +316,7 @@ For disaster recovery, a second Cloud hybrid search service application can be b
 
 ***Can users query for items secured with SAML claims if crawled by a Cloud search service application?***
 
-Items secured with SAML claims when crawled using Cloud Search Service application will not show up in search results. This does not work as those identities cannot be interpreted during the ACL mapping process in the Cloud search service application. As of today, we do not have a way to map an on-premises SAML identity to a Microsoft 365 user, which is a core requirement for ACL mapping to work. This is by design. For such supportability questions, a request can be submitted at [SharePoint Feedback portal](https://feedbackportal.microsoft.com/feedback/forum/06735c62-321c-ec11-b6e7-0022481f8472) for evaluation.
+Items secured with SAML claims when crawled using Cloud Search Service application will not show up in search results. This does not work as those identities cannot be interpreted during the ACL mapping process in the Cloud search service application. As of today, we do not have a way to map an on-premises SAML identity to a Microsoft 365 user, which is a core requirement for ACL mapping to work. This is by design. For such supportability questions, a request can be submitted at [SharePoint Feedback portal](https://feedbackportal.microsoft.com/feedback/forum/06735c62-321c-ec11-b6e7-0022481f8472) for evaluation.
 
 ***On-premises environment Cloud search service application crawls site collection secured with NT Authority\\Authenticated users. How does this translate to ACL mapping in SharePoint in Microsoft 365?***
 
@@ -332,7 +332,7 @@ Popularity trends works based out of analytics. Usage Analytics reporting isn't 
 
 ***Cloud hybrid search service application is crawling a SharePoint farm that has http:// prefix in the default zone, extranet zone is https://. Query from SharePoint in Microsoft 365 ends up showing http in the search result is this expected behavior?***
 
-Yes, this is expected. Users will see http:// prefix in the search results. As my friend Brian explains it very nicely [here](/archive/blogs/sharepoint_strategery/beware-crawling-the-non-default-zone-for-a-sharepoint-2013-web-application), SharePoint Server URL-related managed properties including Path, ParentURL and SPSiteUrl all store values relative to the URL that was crawled. The crawler simply passes what it can gather to the Search Content Services in the cloud. SharePoint in Microsoft 365 search has no knowledge of the Alternate Access Mappings on your on-premises farm and so is unable to correctly set the mappings you would expect to see. Thus, it's recommended to crawl the Default zone for a SharePoint Server Web Application.
+Yes, this is expected. Users will see http:// prefix in the search results. As my friend Brian explains it very nicely [here](/archive/blogs/sharepoint_strategery/beware-crawling-the-non-default-zone-for-a-sharepoint-2013-web-application), SharePoint Server URL-related managed properties including Path, ParentURL and SPSiteUrl all store values relative to the URL that was crawled. The crawler simply passes what it can gather to the Search Content Services in the cloud. SharePoint in Microsoft 365 search has no knowledge of the Alternate Access Mappings on your on-premises farm and so is unable to correctly set the mappings you would expect to see. Thus, it's recommended to crawl the Default zone for a SharePoint Server Web Application.
 
 ***Cloud search service application is crawling my on-premises content. Can I remove on-premises items from SharePoint in Microsoft 365?***
 
