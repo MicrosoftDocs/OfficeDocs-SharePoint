@@ -1,5 +1,5 @@
 ---
-title: "Create or customize a content type"
+title: Create or customize a content type
 ms.reviewer: anfra
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -15,7 +15,8 @@ search.appverid:
 - MET150
 ms.collection:  
 - M365-collaboration
-description: "Learn how to create or customize a content type in the SharePoint admin center."
+ms.custom: admindeeplinkSPO
+description: Learn how to create or customize a content type in the SharePoint admin center.
 ---
 
 # Create or customize a content type
@@ -34,7 +35,7 @@ To create a content type, follow these steps:
 
 **To create a content type**
 
-1. Go to the [Content type gallery page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=contentTypes&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
+1. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185074" target="_blank">**Content type gallery** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
 
 2. Select **Create content type**. The **Create content type** panel appears.
 
@@ -42,13 +43,13 @@ To create a content type, follow these steps:
 
     ![Create content type](media/create-content-type.png)
 
-4. In the **Parent content type** section, from the **Category** and **Content type** dropdowns, select the content type that you want to base this content type on.
+4. In the **Category** section, you are provided two choices:
 
-5. In the **Category** section, you are provided two choices:
-
-    - To put the new content type in an existing category, select **Use an existing category**, and from the **Category** dropdown, select a category.
+    - To put the new content type in an existing category, select **Use an existing category**, and from the **Name** dropdown, select a category.
     
     - To put the content in a new category, select **Create a new category**, and in the **Category name** box, provide a name. 
+
+5. In the **Parent content type** section, from the **Parent category** and **Content type** dropdowns, select the content type that you want to base this content type on.
 
 6. Select **Create**.
 
@@ -56,7 +57,7 @@ The new content type appears in the **Content type gallery**.
 
 ## To change the name of a content type
 
-1. Go to the [Content type gallery page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=contentTypes&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
+1. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185074" target="_blank">**Content type gallery** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
 
 2. Under the **Site content type** column, select the name of the site content type that you want to change.
 
@@ -76,7 +77,7 @@ You can make it even easier for users by adding the Timesheet content type to a 
 
 **To associate a template with a content type**
 
-1. Go to the [Content type gallery page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=contentTypes&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
+1. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185074" target="_blank">**Content type gallery** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
 
 2. Under the **Site content type** column, select the name of the  document-based content type that you want to change by associating a Word, Excel, or PowerPoint template.
 

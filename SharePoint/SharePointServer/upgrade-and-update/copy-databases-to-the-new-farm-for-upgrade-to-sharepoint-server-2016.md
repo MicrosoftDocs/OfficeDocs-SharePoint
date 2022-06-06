@@ -28,8 +28,8 @@ When you upgrade from SharePoint Server 2013 to SharePoint Server 2016, you must
 
 ![Phase 2 of the upgrade process: Copy databases to the new farm](../media/SP15Upgrade_UpgradePhase2.png)
   
-|||
-|:-----|:-----|
+| &nbsp; | &nbsp; |
+|-----|-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the second phase in the process to upgrade SharePoint Server 2013 data and sites to SharePoint Server 2016. The process includes the following phases that must be completed in order:  <br/> Create the SharePoint Server 2016 farm for a database attach upgrade.  Copy databases to the new farm for upgrade to SharePoint Server 2016  (this phase) Upgrade service applications to SharePoint Server 2016.  Upgrade content databases to SharePoint Server 2016.  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2016](overview-of-the-upgrade-process.md).  <br/> |
    
 ## Before you begin
@@ -179,7 +179,7 @@ You cannot upgrade a database that is set to read-only. You must set the databas
     
 4. In the details pane, under **Other options**, in the **State** section, next to **Database Read-Only**, click the arrow, and then select **False**.
     
-|||
+| &nbsp; | &nbsp; |
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the second phase in the process to upgrade SharePoint Server 2013 data and sites to SharePoint Server 2016.  <br/>  Next phase: [Upgrade service applications to SharePoint Server 2016](upgrade-service-applications-to-sharepoint-server-2016.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2016](overview-of-the-upgrade-process.md).  <br/> |
    

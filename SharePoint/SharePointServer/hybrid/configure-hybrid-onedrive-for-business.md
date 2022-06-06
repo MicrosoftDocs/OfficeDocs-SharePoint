@@ -68,7 +68,7 @@ To configure hybrid OneDrive, you must be both a SharePoint Server farm administ
   
  **To configure hybrid OneDrive**
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) for your organization.
 
 2. Under **Hybrid picker**, select **Open**.
     

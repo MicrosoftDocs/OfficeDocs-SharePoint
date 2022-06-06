@@ -1,5 +1,5 @@
 ---
-title: "Set a site as your home site using PowerShell"
+title: "Set a site as your home site"
 ms.reviewer: dipadur
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -18,6 +18,7 @@ ms.collection:
 - m365solution-spintranet
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
@@ -27,7 +28,7 @@ description: "Learn how to set a communication site as the home site for your or
 
 # Set a site as your home site
   
-A home site is a SharePoint [communication site](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) that you create and set as the main landing site for your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. You can set the home site in the SharePoint admin center or by using PowerShell.
+A home site is a SharePoint [communication site](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) that you create and set as the main landing site for your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. It also allows your users to search for content (such as sites, news, and files) across your organization. You can set the home site in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> or by using PowerShell.
 
 Before you begin, make sure you've reviewed how to [plan, build, and launch a home site](./home-site-plan.md). 
 
@@ -35,17 +36,16 @@ Before you begin, make sure you've reviewed how to [plan, build, and launch a ho
 > You can set only one site in your organization as a home site. The site can be registered as a hub site, but can't be associated with a hub. The first time you set up a home site, it might take up to several minutes for the changes to take effect. If you run the command again to switch your home site to a different site, it might take up to 2 hours.
 
 > [!IMPORTANT]
-> If the site you want to be your home site isn't currently your root site and you want it to be, first [replace your root site with the site](modern-root-site.md), and then make the site your home site. 
+> If you want your home site to also be the root site, or top-level site of your intranet, first [replace your root site with the site](modern-root-site.md), and then set up the home site. If you set up a home site first, and then replace it with your root site, you may lose home site settings and need to reapply them.  
 
 ## Use the SharePoint admin center
 
 After you create and customize the communication site that you want to use as your home site, follow these steps to set it as your home site. 
 
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
    >[!NOTE]
-   > - If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. 
-   > - If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
     
 2. Select **Home site**.
 
@@ -88,7 +88,7 @@ If you remove a site as your home site:
 
 To remove the site as your home site: 
 
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true)
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the SharePoint admin center</a>.
 2. select **Home site**.
 3. Next to your current home site, select **Remove as home site**.
 4. Select **Save**.

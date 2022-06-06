@@ -1,5 +1,5 @@
 ---
-title: "Migrate SharePoint workflows with the SharePoint Migration Tool (SPMT) to POwer Automate"
+title: "Migrate SharePoint workflows with the SharePoint Migration Tool (SPMT) to Power Automate"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -15,7 +15,7 @@ ms.localizationpriority: high
 ms.collection:
 - SPMigration
 - M365-collaboration
-ms.custom: 
+ms.custom: admindeeplinkSPO
 ms.assetid: 
 description: "Overview of how to migrate your SharePoint Server workflows to Power Automate using the SharePoint Migration Tool (SPMT)."
 ---
@@ -49,7 +49,7 @@ Using the SharePoint Migration Tool (SPMT), you can now migrate:
 
 To get started:
 
-Go to the [Migration Manager page of the new SharePoint admin center](https://aka.ms/ODSP-MM-BOX), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 Make sure that you have:
 

@@ -30,7 +30,32 @@ Download and install SPMT using one of the links listed below.
 
 | Release |**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.5.123.1](https://aka.ms/spmt-beta-page)|[3.4.122.4](https://aka.ms/spmt-ga-page)|[3.4.121.7](https://aka.ms/spmt-ga-page)|[3.4.121.7](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.5.123.4](https://aka.ms/spmt-beta-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|[3.4.122.4](https://aka.ms/spmt-ga-page)|
+
+
+
+## SPMT 3.5.123.4
+
+**New features**
+
+|Feature|Description|
+|:-----|:-----|
+|Workflow migration|The migration of SharePoint Server 2010 out-of-the-box (OOTB) workflows and approval and collect feedback workflows to Power Automate is now supported. You can also select the Power Automate destination environment in the migration task creation flow.|
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+## SPMT 3.5.123.3
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
 
 
 ## SPMT 3.5.123.0
@@ -39,7 +64,7 @@ Download and install SPMT using one of the links listed below.
 
 |Feature|Description|
 |:-----|:-----|
-|Migtate SharePoint Server 2010 OOTB Workflows to Power Automate|This feature allows users to migrate SharePoint Server 2010 list out-of-the-box (OOTB) workflows, including approval and collect feedback, to Power Automate. Workflows created with SharePoint Designer or SharePoint Server 2013 currently not supported.|
+|Migrate SharePoint Server 2010 OOTB Workflows to Power Automate|This feature allows users to migrate SharePoint Server 2010 list out-of-the-box (OOTB) workflows, including approval and collect feedback, to Power Automate. Workflows created with SharePoint Designer or SharePoint Server 2013 currently not supported.|
 |Upgrade user authentication with MSAL|SPMT user authentication library has been upgraded from ADAL to MSAL. Users will continue using their Microsoft credentials to sign in SPMT.|
 
 **Improvements**
@@ -89,7 +114,7 @@ Download and install SPMT using one of the links listed below.
 
 |Feature|Description|
 |:-----|:-----|
-|File size|File size up to 250GB is now supported.|
+|File size|File size up to 250 GB is now supported.|
 
 **Improvements**
 
@@ -132,8 +157,8 @@ Download and install SPMT using one of the links listed below.
 
 |Feature|Description|
 |:-----|:-----|
-|Support migration of files with size up to 100GB|We now support the migration of individual files up to 100GB, which is file size limit for SharePoint online.|
-|Display time elapsed and time remaining for each migration|On the migration progress page, the *time elapsed* and  *time remaining* values are displayed for each migration task. *Time remaining* is estimated based on the migration history and displays when there is enough historical data available to run the estimation. The *time remaining" value adjusts according to the history data. After the migration completes, a performance recommendation based on the analysis of the data displays below the top progress bar. </br>Learn more:  [How to improve migration performance](./spmt-performance-guidance.md) |
+|Support migration of files with size up to 100 GB|We now support the migration of individual files up to 100 GB, which is file size limit for SharePoint online.|
+|Display time elapsed and time remaining for each migration|On the migration progress page, the *time elapsed* and  *time remaining* values are displayed for each migration task. *Time remaining* is estimated based on the migration history and displays when there's enough historical data available to run the estimation. The *time remaining" value adjusts according to the history data. After the migration completes, a performance recommendation based on the analysis of the data displays below the top progress bar. </br>Learn more:  [How to improve migration performance](./spmt-performance-guidance.md) |
 
 **Improvements**
 
@@ -378,7 +403,7 @@ The following features were added in this release:
 
 |**Issue**|**Fix**|
 |:----|:-----|
-|Group mapping|SPMT now migrates default SharePoint groups. Note: You cannot map to other groups.|
+|Group mapping|SPMT now migrates default SharePoint groups. Note: You can’t map to other groups.|
 
 
 
@@ -414,7 +439,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 |:-----|:-----|
 |User feedback|Users can now provide feedback directly from the tool.|
 |Site creation for file shares|Site structure creation is now supported for file share migration.|
-|Records management|Support for SharePoint Server migration of Record libraries with limitations. Library record declaration settings are supported for SharePoint Server 2013 and 2016 only. Files declared as records can be migrated directly. Site collection record declarations settings are not supported for SharePoint Online group sites and communication sites.|
+|Records management|Support for SharePoint Server migration of Record libraries with limitations. Library record declaration settings are supported for SharePoint Server 2013 and 2016 only. Files declared as records can be migrated directly. Site collection record declarations settings aren't supported for SharePoint Online group sites and communication sites.|
 |Enable publishing|Users can now choose to skip enabling publishing feature on SharePoint communication site| 
 |Setting|New setting allows you to not migrate the site and list general settings in a single list migration.| 
 |Setting|New SharePoint setting, "Migrate site settings". Choose if you want to migrate site logo, title, description and other general settings). Default value is on. If it's turned off, the setting will be skipped when migrating to existing destination site in site migration.| 
@@ -442,7 +467,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 |:-----|:-----|
 |Document set support|SPMT will attempt to enable the document set feature on site.  If enabling fails, the items in the document set will be skipped, and all the files under the documents will be skipped.|
 |Document Template|You can define a document template and choose to have it applied when adding new files.  SPMT now supports customized document templates.|
-|Web part templates|If your web part document template is not available in SPO, SPMT can migrate the template from your source environment.
+|Web part templates|If your web part document template isn't available in SPO, SPMT can migrate the template from your source environment.
 
 
 **Improvements**
@@ -491,7 +516,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 
 |**Feature**|**Description**|
 |:-----|:-----|
-|Site migration|SharePoint sites that are "out of the box" - sites that do not use any coding or 3rd party tools - can now be migrated. SPMT now preserves site audits. |
+|Site migration|SharePoint sites that are "out of the box" - sites that do not use any coding or third party tools - can now be migrated. SPMT now preserves site audits. |
 |Navigation|Migration of navigation and icons is now supported.|
 |Site descriptions|Site description can now be migrated.|
 |SharePoint web parts|SPMT now supports the migration of SharePoint web parts. See the full list of SPMT supported web parts: [SPMT Supported SharePoint Web parts](spmt-supported-webparts.md).|
@@ -617,11 +642,11 @@ The following features were added to the SharePoint Migration Tool, Version 1.1.
 |:-----|:-----|
 |Allow migration of 0 bytes files  <br/> |Files will be migrated even if they are of zero bytes.  <br/> |
 |Computer names column  <br/> |A column containing the name of the computers running the migration job has been added to the report.  <br/> |
-|Support of incremental check on target environment  <br/> |In SharePoint, an incremental check of the target environment will be performed. If the modified time of the source file is earlier than the modified time of the target file, the file will not be migrated.  <br/> |
+|Support of incremental check on target environment  <br/> |In SharePoint, an incremental check of the target environment will be performed. If the modified time of the source file is earlier than the modified time of the target file, the file won't be migrated.  <br/> |
    
 **Improvements**
 
-In addition to a number of minor fixes, here are the primary improvements made in this release:
+In addition to several minor fixes, here are the primary improvements made in this release:
   
 |**Issue**|**Fix**|
 |:-----|:-----|

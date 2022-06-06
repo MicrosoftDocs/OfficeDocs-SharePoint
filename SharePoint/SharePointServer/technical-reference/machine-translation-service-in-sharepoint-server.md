@@ -39,9 +39,9 @@ Use the following to resolve alerts about the Machine Translation service:
   
 - [Machine Translation Service: Queue database not accessible ](#QueueDB)
     
-- [Machine Translation Service: Machine translation failure ](#TransFail)
+- [Machine Translation Service: Machine translation failure - #1 ](#TransFail)
     
-- [Machine Translation Service: Machine translation failure](#TransFail2)
+- [Machine Translation Service: Machine translation failure - #2](#TransFail2)
     
 - [Machine Translation Service not accessible ](#TransServ)
     
@@ -96,7 +96,7 @@ Resolution 2: Verify the SQL Server network connection:
     
 5. Log on to the server and troubleshoot the issue.
     
-## Machine Translation Service: Machine translation failure
+## Machine Translation Service: Machine translation failure - #1
 <a name="TransFail"> </a>
 
  **Alert Name:**Machine Translation Service: Machine translation failure
@@ -147,7 +147,7 @@ Validate the MachineTranslationAddress, MachineTranslationClientId, and MachineT
     
 4. Correct any values based on validation. If a value cannot be validated, use the default value.
     
-## Machine Translation Service: Machine translation failure
+## Machine Translation Service: Machine translation failure - #2
 <a name="TransFail2"> </a>
 
  **Alert Name:**Machine Translation Service: Machine translation failure

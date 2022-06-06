@@ -1,8 +1,8 @@
 ---
 title: "Sync"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: adjoseph
+author: adeejoseph
 manager: serdars
 recommendations: true
 audience: Admin
@@ -26,7 +26,7 @@ When users add, change, and delete files and folders on the site, the files and 
 
 To upload files to the team site, users can simply copy or move them to the site in File Explorer or Finder. They can also use File Explorer or Finder to easily organize the document library by creating new folders, and moving and renaming files and folders. All these changes sync automatically.
 
-Windows 10 devices come with the OneDrive sync app installed. Office 2016 and later installations also have the sync app installed.
+Windows 10 devices come with the OneDrive sync app installed. Office 2016 and later installations also have the sync app installed.
 
 [Read the release notes and install the latest fully released versions](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0)
 
