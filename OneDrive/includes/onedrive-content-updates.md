@@ -2,6 +2,22 @@
 
 
 
+## Week of May 30, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/1/2022 | [OneDrive sync reports in the Apps Admin Center](/OneDrive/sync-health) | modified |
+| 6/3/2022 | [OneDrive QuickStart guide for small businesses](/OneDrive/one-drive-quickstart-small-business) | modified |
+| 6/3/2022 | [B2B Sync](/OneDrive/b2b-sync) | modified |
+| 6/3/2022 | [Install the sync app per machine](/OneDrive/per-machine-installation) | modified |
+| 6/3/2022 | [OneDrive guide for enterprises](/OneDrive/plan-onedrive-enterprise) | modified |
+| 6/3/2022 | [Redirect and move Windows known folders to OneDrive](/OneDrive/redirect-known-folders) | modified |
+| 6/3/2022 | [Transition from the previous OneDrive for Business sync app](/OneDrive/transition-from-previous-sync-client) | modified |
+| 6/3/2022 | [Use OneDrive policies to control sync settings](/OneDrive/use-group-policy) | modified |
+| 6/3/2022 | [Silently configure user accounts](/OneDrive/use-silent-account-configuration) | modified |
+
+
 ## Week of May 16, 2022
 
 
@@ -22,12 +38,3 @@
 | 5/2/2022 | [Use OneDrive policies to control sync settings](/OneDrive/use-group-policy) | modified |
 | 5/5/2022 | [Deploy and configure the new OneDrive sync app for Mac](/OneDrive/deploy-and-configure-on-macos) | modified |
 | 5/5/2022 | [Use OneDrive policies to control sync settings](/OneDrive/use-group-policy) | modified |
-
-
-## Week of April 25, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/27/2022 | [Limit access](/OneDrive/limit-access) | modified |
-| 4/27/2022 | [Limit access](/OneDrive/limit-access) | modified |

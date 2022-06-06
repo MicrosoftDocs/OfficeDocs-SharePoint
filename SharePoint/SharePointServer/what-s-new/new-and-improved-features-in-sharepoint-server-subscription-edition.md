@@ -59,7 +59,7 @@ To set up OIDC authentication in SharePoint Server, see [OpenID Connect 1.0 auth
 <a name="people"> </a>
 ### Enhanced People Picker for modern authentication
 
-When modern authentication (a trusted identity provider) such as SAML 1.1 or OIDC 1.0 is used, the People Picker control can’t search, resolve, and validate users and groups without writing a custom claim provider through C#.
+When modern authentication (a trusted identity provider) such as SAML 1.1 or OIDC 1.0 is used, the People Picker control can't search, resolve, and validate users and groups without writing a custom claim provider through C#.
 
 In SharePoint Server Subscription Edition, the People Picker has been enhanced to allow resolving users and groups based on their profiles in the User Profile Application (UPA). UPA must be configured to synchronize users and groups from the trusted identity provider membership store. This allows the People Picker to only resolve valid users and groups without requiring a custom claims provider.
 
@@ -87,13 +87,13 @@ Windows Server 2022 includes multiple new features and improvements in security,
   
   - **Networking**
   
-    Performance improvements in both TCP and UDP networking maximize bandwidth, minimize packet loss, and reduce CPU load. In addition, SMB compression allows files to be compressed as they’re transferred over the network for faster file transfers.
+    Performance improvements in both TCP and UDP networking maximize bandwidth, minimize packet loss, and reduce CPU load. In addition, SMB compression allows files to be compressed as they're transferred over the network for faster file transfers.
   
   - **Virtualization**
   
     Performance improvements in the Hyper-V virtual switch reduces the CPU load of virtual machine network communication. Nested virtualization support has also been added for AMD processors.
 
-For more information about Windows Server 2022, see [What’s new in Windows Server 2022](/windows-server/windows-server-2022/get-started/whats-new).
+For more information about Windows Server 2022, see [What's new in Windows Server 2022](/windows-server/windows-server-2022/get-started/whats-new).
 
 SharePoint Server Subscription Edition supports additional security features when deployed with Windows Server 2022 such as support for TLS 1.3 and strong TLS encryption by default. 
 
@@ -294,7 +294,7 @@ The following SharePoint cmdlets have been added to help manage Distributed Cach
 
 The `Stop-SPDistributedCacheServiceInstance` cmdlet is improved to better support graceful shutdowns. You can specify the `-Graceful` switch parameter with the cmdlet to ensure that the cached data in a Distributed Cache service instance is transferred to another Distributed Cache service instance before the first service instance shuts down. 
 
-You can specify the time limit for a graceful shutdown data transfer to complete via the `-Timeout` parameter.  If the `-Timeout` parameter isn't specified, the default is 900 seconds (5 minutes). You can also specify the `-Force` switch parameter to force a Distributed Cache service instance to shut down, even if it isn’t able to complete a graceful shutdown before it times out.
+You can specify the time limit for a graceful shutdown data transfer to complete via the `-Timeout` parameter.  If the `-Timeout` parameter isn't specified, the default is 900 seconds (5 minutes). You can also specify the `-Force` switch parameter to force a Distributed Cache service instance to shut down, even if it isn't able to complete a graceful shutdown before it times out.
 
 <a name="spweb"> </a>
 ### New-SPWebApplication PowerShell cmdlet
@@ -475,13 +475,13 @@ SharePoint Server Subscription Edition now supports downloading multiple files a
 
 The following limitations apply to  the bulk download feature:
 
- 1.	Each single file can't exceed 10 GB.
+ 1. Each single file can't exceed 10 GB.
  
- 2.	Total size of all the selected files can't exceed 20 GB.
+ 2. Total size of all the selected files can't exceed 20 GB.
  
- 3.	Maximum level of folders is limited to 100 levels.
+ 3. Maximum level of folders is limited to 100 levels.
  
- 4.	No more than 10,000 files can be downloaded at once.
+ 4. No more than 10,000 files can be downloaded at once.
   
 For more information about this feature, see [Download files and folders from OneDrive or SharePoint](https://support.microsoft.com/office/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05).
 
