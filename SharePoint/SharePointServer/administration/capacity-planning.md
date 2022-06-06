@@ -47,7 +47,6 @@ This section can help you understand some specific metrics and parameters you sh
 Workload describes the demand that the system will need to sustain, the user base and usage characteristics. The following table provides some key metrics that are helpful in determining your workload. You can use this table to record these metrics as you collect them.
 
 |Workload Characteristics|Value|
-
 |:-----|:-----|
 |Average daily RPS  <br/> ||
 |Average RPS at peak time  <br/> ||
