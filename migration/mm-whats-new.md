@@ -30,6 +30,9 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 ## Coming soon
 
 - **Tag support for File share migrations**.  The tags feature is coming soon for File Share migrations to allow you to sort, organize, and navigate through a large quantity of sources and users.
+- 
+## June 2022
+- **Fix: Google proprietary file formats failed to migrate**. Some Google files (mainly  Google slides) failed to migrate showing the error code, "MFILESIZEINCORRECT". This has been fixed. Rerun any failed tasks to migrate these files.
 
 ## May 2022
 - **Issue: Box connection**. A recent change from Box makes the Microsoft 365 Migration app  a server auth app that subsequently fails to authorize the users account and connect.  Fix pending.
