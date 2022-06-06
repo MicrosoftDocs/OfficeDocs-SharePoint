@@ -44,7 +44,7 @@ We recommend that you upgrade to the latest available build before you deploy to
   
 ## About the Known Folder Move policies
 
-You can set OneDrive settings using software distribution tools such as [Microsoft Intune](https://docs.microsoft.com/en-us/mem/intune/apps/apps-add-office365-macOS) as well as [Jamf Pro](https://www.jamf.com/products/jamf-pro/), [Munki](https://www.munki.org/), [AutoPkg](https://github.com/autopkg/autopkg), [Apple Remote Desktop](https://support.apple.com/guide/remote-desktop/welcome/mac), and [AppleScript](). You can also configure keys in a .plist file. For a full reference of available preferences and their settings, see [Use OneDrive policies to control sync settings](use-group-policy.md).  
+You can set OneDrive settings using software distribution tools such as [Microsoft Intune](/mem/intune/apps/apps-add-office365-macOS) as well as [Jamf Pro](https://www.jamf.com/products/jamf-pro/), [Munki](https://www.munki.org/), [AutoPkg](https://github.com/autopkg/autopkg), [Apple Remote Desktop](https://support.apple.com/guide/remote-desktop/welcome/mac), and [AppleScript](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html). You can also configure keys in a .plist file. For a full reference of available preferences and their settings, see [Use OneDrive policies to control sync settings](use-group-policy.md).  
 
 The following settings control the Known Folder Move feature:
   
