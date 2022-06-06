@@ -77,6 +77,8 @@
 ### Dropbox  Reference
 #### [FAQs](mm-faqs-dropbox.md)
 #### [Bulk upload Dropbox accounts using a CSV file](mm-dropbox-bulk-upload-source-paths-csv.md)
+### Stream Reference
+#### [Bulk upload Stream souce paths into Migration Manager](mm-stream-csv.md)
 ## SPMT Reference
 ### [Prerequisites and endpoints](spmt-prerequisites.md)
 ### [Supported features](what-is-supported-spmt.md)
