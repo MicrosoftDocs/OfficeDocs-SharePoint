@@ -1,7 +1,7 @@
 ---
 title: "deprecation of site mailboxes"
-ms.author: v-bshilpa
-author: Benny
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -182,7 +182,7 @@ For more information, see [Permissions and sharing](./modern-experience-sharing-
 
 4. Enter the admin username and password when prompted.
 
-5. You can review the list of site mailboxes by opening ‘SiteMailboxesList.csv’ file on a working directory, when it prompts you to review the file.
+5. You can review the list of site mailboxes by opening 'SiteMailboxesList.csv' file on a working directory, when it prompts you to review the file.
 
 6. Remove any site mailbox(es) from the list which you would not like to backup.
 
@@ -232,12 +232,12 @@ You can hide the site mailbox by removing it from the SharePoint site but it wil
 
 2. Click **Settings** > **Site contents**.
 
-3. Under **Lists, Libraries, and other APPs**, point to **Site Mailbox**, and then click **…** for more information.
+3. Under **Lists, Libraries, and other APPs**, point to **Site Mailbox**, and then click **...** for more information.
 
 4. Click **Remove** and then click **OK** to remove the site mailbox app.
 
    >[!NOTE]
-   > If you remove a mailbox from a site, it won’t be displayed on the site, but it will still be visible in Outlook (if you’re using Exchange).
+   > If you remove a mailbox from a site, it won't be displayed on the site, but it will still be visible in Outlook (if you're using Exchange).
 
 #### What else do I need to know?
 There are a couple of things worth noting about removing a site mailbox:
@@ -249,16 +249,16 @@ There are a couple of things worth noting about removing a site mailbox:
 
 If the SharePoint site is deleted, Exchange is notified to also delete the site mailbox.
 
-1.	Navigate to the SharePoint site you want to delete.
+1. Navigate to the SharePoint site you want to delete.
 
-2.	Select **Settings** at the top of the site and then click **Site information**.
+2. Select **Settings** at the top of the site and then click **Site information**.
 
     >[!NOTE]
     > If you do not see **Site information** in the **Settings** panel, work with your SharePoint administrator to get access.
 
-3.	At the bottom of the **Site Information** panel, select **Delete site**.
+3. At the bottom of the **Site Information** panel, select **Delete site**.
 
-4.	Check the confirmation box, and then click **Delete**.
+4. Check the confirmation box, and then click **Delete**.
 
 **Option 3**: Delete the site mailbox manually.
 
