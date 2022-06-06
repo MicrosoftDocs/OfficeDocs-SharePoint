@@ -87,7 +87,7 @@ To enable SharePoint and OneDrive integration with Azure AD B2B
 You can disable the integration by running '[Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant?view=sharepoint-ps) -EnableAzureADB2BIntegration $false'. 
 
 >[!Important]
->Once disabled, users who were shared to while the integration was enabled will always be an AAD Guest User for future shares. To convert a user from an AAD Guest User back to a SharePoint OTP user, you will need to [delete the guest](https://docs.microsoft.com/sharepoint/remove-users#delete-a-guest-from-the-microsoft-365-admin-center) in AAD and remove all SPUser objects in your organization that reference that guest user.  
+>Once disabled, users who were shared to while the integration was enabled will always be an AAD Guest User for future shares. To convert a user from an AAD Guest User back to a SharePoint OTP user, you will need to [delete the guest](/sharepoint/remove-users#delete-a-guest-from-the-microsoft-365-admin-center) in AAD and remove all SPUser objects in your organization that reference that guest user.  
 >
 
 ## See also
