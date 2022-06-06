@@ -86,4 +86,4 @@ The following settings control the Known Folder Move feature:
     
     Use this setting to force users from moving their Desktop and Documents folders to any OneDrive account.
 
-For info about using the OneDrive sync settings, see [Deploy and configure the OneDrive sync app for Mac](deploy-and-configure-on-macos.md).
+For info about using the OneDrive sync settings, see [Deploy and configure the OneDrive sync app for macOS](deploy-and-configure-on-macos.md).
