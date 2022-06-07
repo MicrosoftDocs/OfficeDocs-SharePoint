@@ -76,6 +76,7 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 5. In the left navigation menu, select **Settings**
 
 6. Verify that a **Tenant Association Key** is present in the text field. If the field is empty, select **Generate new key**.
+
    :::image type="content" source="media/tenant-key-image.png" alt-text="Screenshot of Tenant Association Key under Preview setup.":::
     > [!NOTE]
     > When you generate a new key for the first time, it can take up to 30 seconds for it to appear.
