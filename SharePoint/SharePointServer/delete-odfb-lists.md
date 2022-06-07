@@ -1,6 +1,6 @@
 ---
 title: "Deleting OneDrive experience settings"
-ms.reviewer: 
+ms.reviewer:
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: o365-solutions
-ms.custom: 
+ms.custom:
 ms.localizationpriority: medium
 description: "Learn about deleting OneDrive experience settings."
 ---
@@ -22,7 +22,7 @@ An admin can delete these lists by using [PowerShell Script](/powershell/module/
 
 You can adapt the script included in this article to meet the your needs. For example, you can extract the information for user1@contoso.com as follows:
 
-1.	Assign yourself permissions to the user's OneDrive account. This can be done in the Microsoft 365 admin center as described here.
+1. Assign yourself permissions to the user's OneDrive account. This can be done in the Microsoft 365 admin center as described here.
 
 2.  Install the required Microsoft PowerShell modules:
 
@@ -30,16 +30,16 @@ You can adapt the script included in this article to meet the your needs. For ex
 
     `Install-Module CredentialManager`
 
-3.	Run the DeleteODBLists PowerShell script below (or a customized version of the script); for example:
+3. Run the DeleteODBLists PowerShell script below (or a customized version of the script); for example:
 
     `$ODBSite = "https://contoso-my.sharepoint.com/personal/user1_contoso_com"`
 
     `DeleteODBLists -siteUrl $ODBSite`
 
-The script will permanently delete the hidden lists containing these settings. 
-  
+The script will permanently delete the hidden lists containing these settings.
+
 > [!IMPORTANT]
-> Do not run this script on OneDrive accounts for active users that are still in the organization. 
+> Do not run this script on OneDrive accounts for active users that are still in the organization.
 
 ## DeleteODBLists script
 Copy the contents below and paste them into a text file. Save the file as DeleteODBLists.ps1.
@@ -98,7 +98,7 @@ try{
     $ctx.executeQuery()
 }
 catch{
-	write-host "$($_.Exception.Message)" -foregroundcolor red
+    write-host "$($_.Exception.Message)" -foregroundcolor red
 }
 
 
@@ -112,7 +112,7 @@ foreach($list in $lists)
     $listTitle = [string]$list.Title
     $listRoot = $list.RootFolder.Name
     $listTemplateId = $list.TemplateFeatureId
-    
+
     Write-host ("Processing List: " + $list.Title + " with " + $list.ItemCount + " items").ToUpper() -ForegroundColor Yellow
     Write-host (">> List Root Folder: " + $listRoot) -ForegroundColor Yellow
 
@@ -167,7 +167,7 @@ foreach($list in $lists)
 }
 
 #Retrieve web features
-$webFeatures = $ctx.Web.Features 
+$webFeatures = $ctx.Web.Features
 $ctx.Load($webFeatures)
 $ctx.ExecuteQuery()
 
@@ -183,12 +183,12 @@ function deleteList
     $ctx.executeQuery()
 
     #Set the list to allow deletion
-	$list = $lists.GetByTitle($listTitle)
+    $list = $lists.GetByTitle($listTitle)
     $list.AllowDeletion = $true
     $list.Update()
     $ctx.executeQuery()
-    
-    #Delete the list    
+
+    #Delete the list
     $list.DeleteObject()
     $ctx.executeQuery()
 }

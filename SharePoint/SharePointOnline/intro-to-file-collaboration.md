@@ -129,7 +129,7 @@ In the past, users would have to frequently switch between tools to collaborate.
 
 ### Access to all files in OneDrive
 
-When your users use OneDrive, they can access their SharePoint or Microsoft Teams files [on the web](https://support.office.com/article/9275de7b-0b0b-40ee-8fa2-b17d1b0727d0#web_app) or [in the mobile app](https://support.office.com/article/9275de7b-0b0b-40ee-8fa2-b17d1b0727d0#mobile_app) without leaving OneDrive. [Learn more](https://support.office.com/article/9275de7b-0b0b-40ee-8fa2-b17d1b0727d0) 
+When your users use OneDrive, they can access their SharePoint or Microsoft Teams files [on the web](https://support.office.com/article/9275de7b-0b0b-40ee-8fa2-b17d1b0727d0#web_app) or [in the mobile app](https://support.office.com/article/9275de7b-0b0b-40ee-8fa2-b17d1b0727d0#mobile_app) without leaving OneDrive. [Learn more](https://support.office.com/article/9275de7b-0b0b-40ee-8fa2-b17d1b0727d0) 
 
 Because individual libraries in OneDrive are powered by SharePoint, users can easily move files between locations. For example, if a user drafts a file in their individual library in OneDrive, and later wants a team to own the file, the user can simply move the file to the team's library.
 
@@ -163,12 +163,12 @@ You can choose one or more of the following options, depending on the number and
 
 - **Migration Manager**. Copy file shares or content from other cloud providers to Microsoft 365. [Learn more about migrating content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online).
 
-- **SharePoint Migration Tool**. To migrate SharePoint Server sites and content, you can use the SharePoint Migration Tool. For info, see [Overview of the SharePoint Migration Tool](/sharepointmigration/introducing-the-sharepoint-migration-tool).
+- **SharePoint Migration Tool**. To migrate SharePoint Server sites and content, you can use the SharePoint Migration Tool. For info, see [Overview of the SharePoint Migration Tool](/sharepointmigration/introducing-the-sharepoint-migration-tool).
 
 - **Known Folder Move**. If your users save most of their files to their Desktop, Documents, and Pictures folders, you can seamlessly move them to OneDrive using [Known Folder Move](/onedrive/redirect-known-folders) so users can continue working in the locations they're used to.  
     ![Enabling protection on a user's Desktop, Pictures, and Documents folder in OneDrive](media/sp-collabguide11.png)
 
-- **FastTrack migration benefit**.  FastTrack provides you with a set of best practices, tools, resources, and experts. Guidance includes migrating content from file shares, Box, or Google Drive source environments, and introducing capabilities at the pace that works for you. The FastTrack data migration benefit will also perform specific data migration activities on your behalf if you have 500 or more licenses. See more details in the [FastTrack Center Benefit Overview](/fasttrack/data-migration/). To get started, go to [FastTrack.Microsoft.Com](https://www.microsoft.com/fasttrack/), review resources, and submit a request for assistance.
+- **FastTrack migration benefit**.  FastTrack provides you with a set of best practices, tools, resources, and experts. Guidance includes migrating content from file shares, Box, or Google Drive source environments, and introducing capabilities at the pace that works for you. The FastTrack data migration benefit will also perform specific data migration activities on your behalf if you have 500 or more licenses. See more details in the [FastTrack Center Benefit Overview](/fasttrack/data-migration/). To get started, go to [FastTrack.Microsoft.Com](https://www.microsoft.com/fasttrack/), review resources, and submit a request for assistance.
 
 ### Hybrid
 
@@ -182,7 +182,7 @@ In the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank"
 
 ### Multi-geo
 
-If you're a multinational organization with data residency requirements, you can use Multi-Geo in Microsoft 365 to specify where files are stored. For info, see [Multi-Geo Capabilities in OneDrive and SharePoint in Microsoft 365](/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
+If you're a multinational organization with data residency requirements, you can use Multi-Geo in Microsoft 365 to specify where files are stored. For info, see [Multi-Geo Capabilities in OneDrive and SharePoint in Microsoft 365](/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
 
 ### Unified search
 
@@ -192,7 +192,7 @@ Microsoft Search helps users find files within modern SharePoint sites and from 
 
 As a global or SharePoint admin for your organization, you have a couple of options for managing SharePoint sites and settings:
 
-- **SharePoint admin center**. In the SharePoint admin center, you can create and delete sites, manage site settings, and manage organization-level settings for SharePoint and OneDrive. The <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a> of the SharePoint admin center lets you view the SharePoint sites in your organization, including communication sites, Teams private and shared channel sites, and sites that belong to Microsoft 365 Groups. It also lets you sort and filter sites, search for a site, and create new sites. [Get started with the SharePoint admin center](./get-started-new-admin-center.md).
+- **SharePoint admin center**. In the SharePoint admin center, you can create and delete sites, manage site settings, and manage organization-level settings for SharePoint and OneDrive. The <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a> of the SharePoint admin center lets you view the SharePoint sites in your organization, including communication sites, Teams private and shared channel sites, and sites that belong to Microsoft 365 Groups. It also lets you sort and filter sites, search for a site, and create new sites. [Get started with the SharePoint admin center](./get-started-new-admin-center.md).
 
     ![The Active Sites page in the SharePoint admin center](media/active-sites-page.png)
 
@@ -214,7 +214,7 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
 ## Manage feature changes
 
-- To learn about features coming soon, see the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
+- To learn about features coming soon, see the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
 
 - To keep on top of the latest SharePoint features rolling out, refer to the [Message Center](/office365/admin/manage/message-center?view=o365-worldwide&preserve-view=true).
 
@@ -222,13 +222,13 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
 User adoption is important to the overall success of any rollout. To maximize your investment, you need to maximize your user engagement. To do that, start by focusing on three critical success factors:
 
-- **Stakeholders.** Securing the participation and buy-in of key people within your organization is critical to successful user adoption. This support can come from business-focused leaders, IT leadership, or anyone else who has a vested interest in seeing Microsoft 365 file collaboration succeed in your organization. It's important to have both executive or business leader support and product champions to help carry the knowledge to their peers. Whether you're formally delegating the product champion role or allowing it to grow organically, champions are mission critical to user adoption. Studies have shown that people prefer to learn from a coworker than from an IT employee. For more information about how to identify key stakeholders, see the [Identify key stakeholders guide](https://aka.ms/execsponsor). For more information about building a sustainable champion community, see [Build a champion program](https://aka.ms/office365champions).
+- **Stakeholders.** Securing the participation and buy-in of key people within your organization is critical to successful user adoption. This support can come from business-focused leaders, IT leadership, or anyone else who has a vested interest in seeing Microsoft 365 file collaboration succeed in your organization. It's important to have both executive or business leader support and product champions to help carry the knowledge to their peers. Whether you're formally delegating the product champion role or allowing it to grow organically, champions are mission critical to user adoption. Studies have shown that people prefer to learn from a coworker than from an IT employee. For more information about how to identify key stakeholders, see the [Identify key stakeholders guide](https://aka.ms/execsponsor). For more information about building a sustainable champion community, see [Build a champion program](https://aka.ms/office365champions).
 
-- **Scenarios.** Identify and define your business scenarios and how those scenarios align with the benefits of file collaboration in Microsoft 365. Work with your key stakeholders to identify the goals of the business scenarios, and then match those goals against usage scenarios. For example, a business goal may be to maximize user productivity; a key usage scenario enabling that goal would be using OneDrive to access files from mobile devices, PCs, and Macs. For help with this process, see the [Office 365 Productivity Library](https://support.office.com/article/d8ab82a5-5f02-4439-816b-4a5d35133e48).
+- **Scenarios.** Identify and define your business scenarios and how those scenarios align with the benefits of file collaboration in Microsoft 365. Work with your key stakeholders to identify the goals of the business scenarios, and then match those goals against usage scenarios. For example, a business goal may be to maximize user productivity; a key usage scenario enabling that goal would be using OneDrive to access files from mobile devices, PCs, and Macs. For help with this process, see the [Office 365 Productivity Library](https://support.office.com/article/d8ab82a5-5f02-4439-816b-4a5d35133e48).
 
-- **Awareness and training.** Creating awareness through awareness campaigns such as announcements, launch events, newsletters, town hall meetings, contests, and giveaways is a critical path to maximizing adoption. In addition, providing users with knowledge through classroom-style sessions and self-help guides helps them feel empowered to use OneDrive and Office 365. For more information about user communication and training on Office 365, see the [Plan your Office 365 Launch: Communication and Training Guide](https://aka.ms/commandtraining).
+- **Awareness and training.** Creating awareness through awareness campaigns such as announcements, launch events, newsletters, town hall meetings, contests, and giveaways is a critical path to maximizing adoption. In addition, providing users with knowledge through classroom-style sessions and self-help guides helps them feel empowered to use OneDrive and Office 365. For more information about user communication and training on Office 365, see the [Plan your Office 365 Launch: Communication and Training Guide](https://aka.ms/commandtraining).
 
-Many resources are available from Microsoft to help you drive user adoption within your environment. For more information about a recommended Microsoft 365 user adoption strategy, see the [Microsoft 365 End User Adoption Guide](https://adoption.microsoft.com/files/assets/M365AdoptionGuide.pdf). You can also contribute to or comment on adoption-related ideas in the [Driving Adoption Tech Community](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption).
+Many resources are available from Microsoft to help you drive user adoption within your environment. For more information about a recommended Microsoft 365 user adoption strategy, see the [Microsoft 365 End User Adoption Guide](https://adoption.microsoft.com/files/assets/M365AdoptionGuide.pdf). You can also contribute to or comment on adoption-related ideas in the [Driving Adoption Tech Community](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption).
 
 ## Configure settings
 

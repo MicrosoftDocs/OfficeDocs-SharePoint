@@ -158,7 +158,7 @@ We begin by creating the ProductSales report.
     
     The **Select field** dialog appears. 
     
-2. To open the **Sort (Category)** dialog, select **More Sort Options…**. 
+2. To open the **Sort (Category)** dialog, select **More Sort Options...**. 
     
 3. In the **Sort options** section, select the **Descending (Z to A) by** option, and then use the list to select **Sales Amount**.
     
@@ -383,7 +383,7 @@ The workbook we created uses an external data connection that we want to keep ac
     
 2. Select **Properties**. 
     
-3. In the **Connection Properties** dialog, on the **Definition** tab, next to **Excel Services**, select **Authentication Settings…**. 
+3. In the **Connection Properties** dialog, on the **Definition** tab, next to **Excel Services**, select **Authentication Settings...**. 
     
 4. In the **Excel Services Authentication Settings** dialog, take one of the following steps: 
     

@@ -101,7 +101,7 @@ Keep the Remote Desktop session to the first SQL Server virtual machine open.
     
 4. In the left pane, right-click **Databases**, and then click **Restore Database**.
     
-5. In the **Source** section, select **Device**, and then click the ellipsis ( **…**) button.
+5. In the **Source** section, select **Device**, and then click the ellipsis ( **...**) button.
     
 6. In **Select backup devices**, click **Add**.
     
