@@ -9,13 +9,14 @@ ms.topic: article
 ms.service: sharepoint-online
 ms.subservice: sharepoint-migration
 ms.localizationpriority: high
-ms.collection: 
+ms.collection:
 - SPMigration
 - M365-collaboration
 - m365initiative-migratetom365
 search.appverid: MET150
 description: " Authorizing the Office 365 Connector"
 ---
+
 # Authorizing the Office 365 Connector
 
 ## Office 365 FAQ
@@ -38,8 +39,8 @@ Total path length for folder and filename combinations can have up to 400 charac
 
 The original timestamps from Office 365 are preserved when migrating to Office 365.
 
->[!Note]
->Timestamps are only applied to files/data transferred, and not folders. Folders and folder structure are created in the destination during migration, and reflect the date of the migration.
+> [!NOTE]
+> Timestamps are only applied to files/data transferred, and not folders. Folders and folder structure are created in the destination during migration, and reflect the date of the migration.
 
 ### Is file authorship preserved?
 
@@ -61,8 +62,8 @@ To prevent users from being spammed, the Mover app silences notifications during
 
 Data shared to an Office 365 Group does not appear in the **Shared with me** section. Microsoft also does not notify users that they are now a member of an Office 365 Group.
 
->[!Note]
->This is a limitation of Office 365 Groups and cannot be changed on our end. The user must navigate to the appropriate group within either their Outlook Desktop Client, or by logging into their preferred email through **outlook.office.com**.
+> [!NOTE]
+> This is a limitation of Office 365 Groups and cannot be changed on our end. The user must navigate to the appropriate group within either their Outlook Desktop Client, or by logging into their preferred email through **outlook.office.com**.
 
 After the user has logged in:
 
@@ -83,8 +84,6 @@ During the migration setup (described later in this guide), you can edit the pat
 **Site Contents** takes you to document libraries (for example, the **Documents** section), whereas **Subsites** takes you to the **Subsites** of that site collection. Navigating **Subsites** takes you through the same dichotomy.
 
 Most cloud storage providers, G Suite Drive for example, start the listing with a user such as `/user@example.com/Marketing Folder`. SharePoint Online does not do this, so you would be looking at a path such as `/Marketing/Site Contents/Documents`.
-
-
 
 ### How does library permissions inheritance affect migration?
 
@@ -110,7 +109,6 @@ For more info about SharePoint Online permissions inheritance, see **here**.
 
 No, Mover does not migrate SPO Groups permissions. Mover only migrates Microsoft 365 users and groups permissions.
 
-
 ### Does Mover support Microsoft Teams?
 
 Microsoft Teams appears and operates the same as a SharePoint Online site.
@@ -125,10 +123,10 @@ Some list view options may prevent search list views with more than 5,000 items 
 
 ## Authorize Office 365
 
->[!Warning]
->To fully authorize the **Office 365 Connector**, a global admin is required to grant permissions to the Office 365 Mover app within the Azure portal.
+> [!WARNING]
+> To fully authorize the **Office 365 Connector**, a global admin is required to grant permissions to the Office 365 Mover app within the Azure portal.
 >
->The global admin must grant these permissions *after* the **Office 365 Connector** is authorized within the main Mover app.
+> The global admin must grant these permissions *after* the **Office 365 Connector** is authorized within the main Mover app.
 
 The following instructions show you how to complete the authorization steps in the right order.
 
@@ -136,8 +134,8 @@ Some steps in the authorization process can be completed by a global or SharePoi
 
 1. **Global or SharePoint admin**: Log into the main Mover app via **app.mover.io**. In the **Transfer Wizard**, select **Authorize New Connector**.
 
-    >[!Note]
-    >Whether the **Office 365 Connector** is your source or destination connector (or both), you'll need to go through this authorization process.
+    > [!NOTE]
+    > Whether the **Office 365 Connector** is your source or destination connector (or both), you'll need to go through this authorization process.
 
     ![Authorize new connector](media/05-authorize-new-connector.png)
 
@@ -151,24 +149,24 @@ Some steps in the authorization process can be completed by a global or SharePoi
 
 4. **Global or SharePoint admin**: Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges and continue to authorize the connector.
 
-    >[!Warning]
-    >If you are a **global admin**, a slightly different login screen appears.  
+    > [!WARNING]
+    > If you are a **global admin**, a slightly different login screen appears.
     >
-    >If you select *Consent on behalf of your organization* during the authentication flow, you will grant admin access to your entire organization. DO NOT do this. 
+    > If you select *Consent on behalf of your organization* during the authentication flow, you will grant admin access to your entire organization. DO NOT do this.
 
     ![global admin o365](media/permissions-o365-global-admin.png)</br>
 
-To tighten your security beyond administrators, turn on "User assignment required" from the "Office 365 Mover" app settings in your Azure portal. You will need to specifically assign your migrator users who may use the app.
+   To tighten your security beyond administrators, turn on "User assignment required" from the "Office 365 Mover" app settings in your Azure portal. You will need to specifically assign your migrator users who may use the app.
 
-![user assignment required](media/mover-user-assignment-setting.png)
+   ![user assignment required](media/mover-user-assignment-setting.png)
 
 5. **Global or SharePoint admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error appears, like the following. This means it is now time for a global admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
 
-If you're a **SharePoint admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your global admin to **https://aka.ms/office365moverauth**.
+   If you're a **SharePoint admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your global admin to **https://aka.ms/office365moverauth**.
 
-If you're a **global admin**: Continue with Steps 6–9 to authorize the connector when you receive the message: *"Could not retrieve user count: A Global admin needs to authorize the Office 365 Mover application in the Azure tenant…"* 
+   If you're a **global admin**: Continue with Steps 6–9 to authorize the connector when you receive the message: *"Could not retrieve user count: A Global admin needs to authorize the Office 365 Mover application in the Azure tenant..."*
 
-   ![Authorize error image](media/authorize-error.png) 
+   ![Authorize error image](media/authorize-error.png)
 
 6. **Global admin**: Log in to the Azure Portal via **https://aka.ms/office365moverauth**. A list of **Enterprise applications** appears.
 
@@ -187,4 +185,4 @@ If you're a **global admin**: Continue with Steps 6–9 to authorize the connect
 
 If you are not already connected after you have authorized your source, select **Office 365**, and load the connector. An icon appears, and shows you how many users you are migrating.
 
-![execution select source](media/execution-select-office-365-source.png)	![execution select source](media/execution-select-office-365-source.png)
+![execution select source](media/execution-select-office-365-source.png) ![execution select source](media/execution-select-office-365-source.png)
