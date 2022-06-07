@@ -73,7 +73,15 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 
     :::image type="content" source="media/enable-preview.png" alt-text="Screenshot of enable preview features button.":::
 
-5. Enable the OneDrive EnableSyncAdminReports Group Policy Object (GPO).
+5. In the left navigation menu, select **Settings**
+
+6. Verify that a **Tenant Association Key** is present in the text field. If the field is empty, select **Generate new key**.
+
+   :::image type="content" source="media/tenant-key-image.png" alt-text="Screenshot of Tenant Association Key under Preview setup.":::
+    > [!NOTE]
+    > When you generate a new key for the first time, it can take up to 30 seconds for it to appear.
+
+7. Enable the OneDrive EnableSyncAdminReports Group Policy Object (GPO).
 
     > [!IMPORTANT]
     > **You must enable this setting on the devices from which you want to get reports.** This setting has does not affect  users. We recommend a gradual rollout starting with a few test devices per day, then up to 100 devices per day, then gradually up to 10,000 devices per day until you finish.
