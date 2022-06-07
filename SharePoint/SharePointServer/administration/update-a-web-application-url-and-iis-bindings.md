@@ -1,5 +1,5 @@
 ---
-title: "Update a web application URL and IIS bindings for SharePoint Server"
+title: Update a web application URL and IIS bindings for SharePoint Server
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -15,7 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 41d83364-afc7-4b3c-81f2-faef0f140f89
-description: "Learn how to update a web application and IIS bindings for SharePoint Server."
+description: Learn how to update a web application and IIS bindings for SharePoint Server.
 ---
 
 # Update a web application URL and IIS bindings for SharePoint Server

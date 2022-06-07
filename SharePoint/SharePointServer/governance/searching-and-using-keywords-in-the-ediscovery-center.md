@@ -1,8 +1,8 @@
 ---
 title: "Searching and using keywords in the eDiscovery Center"
 ms.reviewer: 
-ms.author: MARKJJO
-author: MARKJJO
+ms.author: v-tophillips
+author: v-tophillips
 manager: serdars
 ms.date: 2/12/2018
 audience: ITPro
