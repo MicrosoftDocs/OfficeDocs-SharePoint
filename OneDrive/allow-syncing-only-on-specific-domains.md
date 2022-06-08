@@ -18,7 +18,9 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: a3b03efd-ccd0-4d3c-b9ae-7f8f3f9485bc
-ms.custom: admindeeplinkSPO
+ms.custom:
+- admindeeplinkSPO
+- onedrive-toc
 description: "Learn how to restrict syncing to only devices on the domains you specify."
 ---
 

@@ -20,6 +20,7 @@ search.appverid:
 ms.collection: M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- onedrive-toc
 ms.assetid: 8e200cb2-c768-49cb-88ec-53493e8ad80a
 description: "In this article, you'll learn how to view the OneDrive URLs for users in your organization."
 ---
