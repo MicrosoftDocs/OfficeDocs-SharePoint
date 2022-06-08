@@ -10,11 +10,12 @@ f1.keywords:
 ms.topic: article
 ms.service: one-drive
 ms.localizationpriority: medium
-ms.custom: admindeeplinkSPO
+ms.custom:
+- admindeeplinkSPO
+- onedrive-toc
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
-ms.custom: onedrive-toc
 search.appverid:
 - ODB160
 - MOE150

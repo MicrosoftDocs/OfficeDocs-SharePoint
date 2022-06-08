@@ -12,13 +12,13 @@ ms.service: one-drive
 ms.localizationpriority: medium
 ms.custom: 
 - Adm_O365
+- onedrive-toc
 search.appverid:
 - MET150
 - BCS160
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
-ms.custom: onedrive-toc
 ms.assetid: 6891b561-a52d-4ade-9f39-b492285e2c9b
 description: "Learn how to find the Microsoft 365 tenant ID."
 ---
