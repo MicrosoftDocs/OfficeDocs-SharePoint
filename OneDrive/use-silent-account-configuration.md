@@ -18,7 +18,9 @@ search.appverid:
 - ODB160
 - MET150
 ms.assetid: 64aa1f56-d7f6-4500-a408-1fde8fe6db36
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- onedrive-toc
 description: "Learn how IT admins can enable silent account configuration when deploying the OneDrive sync app in an enterprise."
 ---
 

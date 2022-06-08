@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 search.appverid:
 - ODC160
 - MET150
+ms.custom: onedrive-toc
 ms.assetid: ce15d2cc-52ef-42cd-b738-d9c6f9b03f3a
 description: "Learn the FQDNs and ports to include in your allowlists to let users use the consumer version of OneDrive."
 ---

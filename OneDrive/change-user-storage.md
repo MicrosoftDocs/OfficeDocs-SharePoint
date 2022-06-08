@@ -19,6 +19,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- onedrive-toc
 ms.assetid: 7448173d-a38c-48cf-acbb-09ac1b6237d4
 description: In this article, you'll learn how to change a user's OneDrive storage space.
 ---

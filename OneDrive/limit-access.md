@@ -14,7 +14,9 @@ ms.collection:
 - M365-collaboration
 search.appverid:
 ms.assetid: 
-ms.custom: admindeeplinkSPO
+ms.custom:
+- admindeeplinkSPO
+- onedrive-toc
 description: "In this article, you'll learn how to all only users in specified security groups to access OneDrive."
 ---
 

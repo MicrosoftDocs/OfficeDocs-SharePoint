@@ -13,7 +13,9 @@ ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
-ms.custom: admindeeplinkSPO
+ms.custom:
+- admindeeplinkSPO
+- onedrive-toc
 search.appverid:
 - ODB160
 - MET150
