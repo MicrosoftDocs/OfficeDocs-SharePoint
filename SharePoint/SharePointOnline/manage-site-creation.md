@@ -78,6 +78,9 @@ Admins in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="
 3. Select **OK** when you are done.
 
 > [!NOTE]
+>  Creation of subsite on OneDrive is not supported, you will see an error “New subsites are not available in this site. Create a new site instead”.
+
+> [!NOTE]
 > Currently, the following site templates are considered "modern".
 > 
 > - GROUP#0
