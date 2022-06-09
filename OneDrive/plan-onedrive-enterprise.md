@@ -18,6 +18,7 @@ ms.custom:
 - intro-overview
 - intro-get-started
 - admindeeplinkSPO
+- onedrive-toc
 ms.localizationpriority: high
 search.appverid:
 - MET150

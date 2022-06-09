@@ -14,6 +14,7 @@ ms.collection:
 - Strat_OD_admin
 - M365-collaboration
 - m365initiative-healthyonedrive
+- onedrive-toc
 search.appverid:
 - ODB160
 - ODB150

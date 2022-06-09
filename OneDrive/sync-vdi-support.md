@@ -12,6 +12,7 @@ ms.service: one-drive
 ms.localizationpriority: medium
 ms.custom: 
 - Adm_O365
+- onedrive-toc
 search.appverid:
 - MET150
 - BCS160
