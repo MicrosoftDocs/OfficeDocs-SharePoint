@@ -19,6 +19,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- onedrive-toc
 ms.assetid: 028d73d7-4b86-4ee0-8fb7-9a209434b04e
 description: "In this article, you'll learn how to enable conditional access in the new OneDrive sync app."
 ---
@@ -56,7 +57,7 @@ The following are known issues with this release:
     
 - In some cases, the user may be prompted for credentials twice. We are working on a fix for this issue.
     
-- Certain ADFS configurations may require additional setup to work with this release. Please run the following command on your ADFS server to ensure FormsAuthentication is added to the list of PrimaryIntranetAuthenticationProvider:
+- Certain AD FS configurations may require additional setup to work with this release. Please run the following command on your AD FS server to ensure FormsAuthentication is added to the list of PrimaryIntranetAuthenticationProvider:
     
      `Set-AdfsGlobalAuthenticationPolicy -PrimaryIntranetAuthenticationProvider @('WindowsAuthentication', 'FormsAuthentication')`
     

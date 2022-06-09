@@ -11,6 +11,7 @@ f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
+ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
@@ -35,7 +36,7 @@ For the classic search experience, you can create your own result sources, or us
 
 1. Go to the **Manage Result Sources** page for the tenant, for a site collection, or a site: 
 
-   - For a tenant, in the new SharePoint admin center, select **More features**. Under **Search**, select **Open**, and then on the search administration page, select **Manage Result Sources**.
+   - For a tenant, in the new SharePoint admin center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features**</a>. Under **Search**, select **Open**, and then on the search administration page, select **Manage Result Sources**.
 
    - For a site collection, in your site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Site Collection Administration**, select **Search Result Sources**.
     
@@ -106,7 +107,7 @@ The default result source is **Local SharePoint Results**, but you can choose to
   
 1. Go to the **Manage Result Sources** page for the tenant, for a site collection, or a site: 
 
-    - For a **tenant**, in the new SharePoint admin center, select **More features**. Under **Search**, select **Open**, and then on the search administration page, select **Manage Result Sources**.
+    - For a **tenant**, in the new SharePoint admin center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features**</a>. Under **Search**, select **Open**, and then on the search administration page, select **Manage Result Sources**.
     
      - For a site collection, in your site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Site Collection Administration**, select **Search Result Sources**.
     
@@ -122,7 +123,7 @@ A result source might be no longer needed. The following procedure provides the 
   
 1. Go to the **Manage Result Sources** page for the tenant, for a site collection, or a site: 
 
-    - For a **tenant**, in the new SharePoint admin center, select **More features**. Under **Search**, select **Open**, and then on the search administration page, select **Manage Result Sources**.
+    - For a **tenant**, in the new SharePoint admin center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features**</a>. Under **Search**, select **Open**, and then on the search administration page, select **Manage Result Sources**.
     
      - For a site collection, in your site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Site Collection Administration**, select **Search Result Sources**.
     

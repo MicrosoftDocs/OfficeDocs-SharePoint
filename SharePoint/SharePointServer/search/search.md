@@ -8,7 +8,7 @@ ms.date: 3/12/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: hub-page
+ms.topic: landing-page
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: f39ef086-a317-44ba-b6db-3ee2f460c9fb

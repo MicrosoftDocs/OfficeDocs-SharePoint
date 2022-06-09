@@ -122,7 +122,7 @@ For creating an automatically **managed property** name, the following conventio
     
 If you want more information, there is an overview table with examples for all site column types in [Automatically created managed properties in SharePoint Server](../technical-reference/automatically-created-managed-properties-in-sharepoint.md).
   
-That might not have been as straightforward as our simple example, and there is one exception to the rule…
+That might not have been as straightforward as our simple example, and there is one exception to the rule...
   
 ### Naming convention for the default site columns in the Products list
 <a name="BKMK_NamingConventionfortheDefaultSiteColumnsintheProductsList"> </a>

@@ -251,7 +251,7 @@ Structure report at the task level.
 |HubSiteUrl|URL of the hubsite. This column is empty if the site is not hubsite|
 |Result|Registered/Associated/Failed|
 |Error|	Error type. Blank if no error occurred.|
-|Message|Error message||
+|Message|Error message|
    
 
 ### Performance report

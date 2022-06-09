@@ -52,8 +52,7 @@ Planning is the key to successful data migration. The *SharePoint Migration Asse
 To download the tool, go to [SharePoint Migration Assessment Tool (SMAT)](https://www.microsoft.com/download/details.aspx?id=53598&amp;751be11f-ede8-5a0c-058c-2ee190a24fa6=True)
   
 >[!NOTE]
->The *SharePoint Migration Tool* isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
-
+>The *SharePoint Migration Tool* isn't available for users of Office 365 operated by 21Vianet in China.
 
 ## Get started
 
