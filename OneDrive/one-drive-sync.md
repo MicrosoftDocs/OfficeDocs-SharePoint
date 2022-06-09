@@ -14,6 +14,7 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
+- onedrive-toc
 description: "This article contains resources to learn more about the OneDrive sync app. The app comes preinstalled with Windows 10 devices, and it's included with Office 2016 and later."
 ---
 

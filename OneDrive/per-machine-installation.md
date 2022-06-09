@@ -13,6 +13,7 @@ ms.localizationpriority: medium
 ms.custom:
 - Adm_O365
 - seo-marvel-apr2020
+- onedrive-toc
 search.appverid:
 - MET150
 - BCS160
