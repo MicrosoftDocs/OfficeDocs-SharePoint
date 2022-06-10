@@ -21,21 +21,19 @@ description: Migration Manager Box FAQs
 
 # Frequently Asked Questions: Migration Manager Box
 
-**Question:**   **Can I still use Mover to migrate my Box accounts?**</br>
-Answer.  Yes, you can continue to use Mover.  Find the tool at https://mover.io
+**Question:**   **What gets transferred?**</br>
+Answer: Only owned folders and the root files for each user are copied. If a user is not the owner of data they can access, we do not copy it. Content may be automatically re-shared after it is migrated so that each user has access to their content exactly as before.
 </br>
+
+**Question:**  What happens to Box Notes?
+Answer:  Your Box Notes will be automatically converted to Microsoft Word document.
 
 **Question:**  **Is this available for GCC, GCCHigh, DoD tenants?**</br>
 Answer.  Currently Migration Manager Box is not available for any of the Government clouds.
 </br>
 
-**Question:** **Are there are any caveats to this release?**</br>
-Answer.  This release only supports small to medium Box accounts.  Continue to use https://Mover.io for large accounts.
-</br>
 
-**Question:**   **What gets transferred?**</br>
-Answer: Only owned folders and the root files for each user are copied. If a user is not the owner of data they can access, we do not copy it. Content may be automatically re-shared after it is migrated so that each user has access to their content exactly as before.
-</br>
+
 
 **Question:**   **Does Migration Manager Box sync files?**</br>
 Answer: There is a source-to-destination delta; when you run a transfer, we compare the destination directory to the source, and only transfer new or modified files over. We call this our incremental feature. We compare the timestamps of the files in both the source and destination and transfer the newest versions only. The incremental feature is always on.  Here are a few examples of how we deal with changes to files and folders.
