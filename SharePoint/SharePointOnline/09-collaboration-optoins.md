@@ -17,3 +17,8 @@ description:
 ---
 
 # 
+
+o	Self-service site creation?
+o	Sharing settings
+o	Default sharing link
+o	Sync policies

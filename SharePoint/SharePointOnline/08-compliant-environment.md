@@ -17,3 +17,9 @@ description:
 ---
 
 # 
+
+o	Do you have data residency requirements?
+o	Do you have info barriers requirements?
+o	Retention
+o	Labels, SITs, and DLP
+o	Sync policies

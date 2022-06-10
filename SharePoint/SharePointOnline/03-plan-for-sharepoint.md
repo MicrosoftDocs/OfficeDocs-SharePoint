@@ -17,3 +17,11 @@ description:
 ---
 
 # 
+
+	business requirements gathering
+	Should ODSP admins specialize or work from a queue?
+	Customization / templates
+	FastTrack
+
+	Site lifecycle
+	Hubs and architecture
