@@ -11,7 +11,7 @@ ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:  
-ms.custom:
+ms.custom: intro-get-started
 search.appverid: MET150
 description: 
 ---
@@ -19,7 +19,7 @@ description:
 # 
 
 	business requirements gathering
-	Should ODSP admins specialize or work from a queue?
+	Should ODSP admins specialize or work from a queue? How many and how organized?
 	Customization / templates
 	FastTrack
 
