@@ -58,7 +58,7 @@ For new machines, Folder Backup can be configured from the start, so all new fil
 
 The following settings control the Folder Backup feature:
   
-- [Prompt users to move Desktop and Documents folders to OneDrive](deploy-and-configure-on-macos.md#kfmoptinwithwizard-preview)
+- [Prompt users to move Desktop and Documents folders to OneDrive](deploy-and-configure-on-macos.md#kfmoptinwithwizard)
 
     Use this setting to give the users a call to action to move their Desktop and Documents macOS folders.
 
@@ -69,7 +69,7 @@ The following settings control the Folder Backup feature:
     > [!IMPORTANT]
     > We recommend deploying the prompt policy for existing devices only, and limiting the deployment to 5,000 devices a day and not exceeding 20,000 devices a week.
   
-- [Silently move macOS Desktop and Documents folders to OneDrive](deploy-and-configure-on-macos.md#kfmsilentoptin-preview)
+- [Silently move macOS Desktop and Documents folders to OneDrive](deploy-and-configure-on-macos.md#kfmsilentoptin)
     
     Use this setting to redirect and move folders to OneDrive without any user interaction. Move all the folders or select the desired individual folders. By default, the Desktop and Documents folders will be moved. After a folder is moved, the policy won't affect the folder again, even if the selection for the folder changes.
 
@@ -86,13 +86,13 @@ The following settings control the Folder Backup feature:
     For info about these errors, see [Fix problems with folder protection](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057#BKMK_FixProblems).
 
     > [!IMPORTANT]
-    > We recommend deploying the silent policy for existing devices and new devices while limiting the deployment of existing devices to 1,000 devices a day and not exceeding 4,000 devices a week. We also recommend using this setting together with [KFMOptInWithWizard](deploy-and-configure-on-macos.md#kfmoptinwithwizard-preview). If moving the Desktop and Documents folders silently does not succeed, users will be prompted to correct the error and continue.
+    > We recommend deploying the silent policy for existing devices and new devices while limiting the deployment of existing devices to 1,000 devices a day and not exceeding 4,000 devices a week. We also recommend using this setting together with [KFMOptInWithWizard](deploy-and-configure-on-macos.md#kfmoptinwithwizard). If moving the Desktop and Documents folders silently does not succeed, users will be prompted to correct the error and continue.
    
-- [Prevent users from redirecting their macOS Desktop and Documents folders to their Mac](deploy-and-configure-on-macos.md#kfmblockoptout-preview)
+- [Prevent users from redirecting their macOS Desktop and Documents folders to their Mac](deploy-and-configure-on-macos.md#kfmblockoptout)
 
     Use this setting to force users to keep their Desktop and Documents folders directed to OneDrive.
   
-- [Prevent users from moving their macOS Desktop and Documents folders to OneDrive](deploy-and-configure-on-macos.md#kfmblockoptin-preview)
+- [Prevent users from moving their macOS Desktop and Documents folders to OneDrive](deploy-and-configure-on-macos.md#kfmblockoptin)
     
     Use this setting to force users from moving their Desktop and Documents folders to any OneDrive account.
 
