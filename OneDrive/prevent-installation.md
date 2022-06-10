@@ -11,7 +11,9 @@ f1.keywords:
 ms.topic: article
 ms.service: one-drive
 ms.localizationpriority: medium
-ms.custom: admindeeplinkSPO
+ms.custom:
+- admindeeplinkSPO
+- onedrive-toc
 search.appverid:
 - ODB160
 - ODB150
