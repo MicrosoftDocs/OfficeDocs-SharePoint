@@ -25,9 +25,9 @@ description: "Step 2: Scan and assess Dropbox folders using Migration Manager."
 
 After you connect to Dropbox, add the source paths to scan and assess your Dropbox folders. 
 
-1. Select **Add source paths** and choose a method; to auto-discover users in Box, target a single source path, or bulk upload the source paths using a CSV file.
+1. Select **Add source paths** and choose a method; to find new in Dropbox, target a single source path, or bulk upload the source paths using a CSV file.
 
-![add source paths manually in Box](media/mm-dropbox-add-source-auto-scan.png)
+![add source paths manually in Dropbox](media/mm-dropbox-add-source-auto-scan.png)
 
 2. After adding the source, highlight any or all of the accounts and then select **Scan**, unless you have selected to automatically scan content.
 
