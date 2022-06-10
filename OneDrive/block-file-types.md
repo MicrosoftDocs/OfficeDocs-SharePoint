@@ -16,6 +16,7 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
+- onedrive-toc
 search.appverid:
 - ODB160
 - ODB150

@@ -16,6 +16,7 @@ ms.collection:
 - m365initiative-healthyonedrive
 ms.custom:
 - seo-marvel-apr2020
+- onedrive-toc
 search.appverid:
 - ODB160
 - MOE150

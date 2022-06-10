@@ -15,6 +15,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- onedrive-toc
 search.appverid:
 - MET150
 - ODB160
