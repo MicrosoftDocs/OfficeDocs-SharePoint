@@ -108,8 +108,15 @@ This setting enables the sync app to automatically set the amount of bandwidth t
 To enable this setting, you must define a number between 1 and 99 that determines the percentage of bandwidth the sync app can use out of the total available bandwidth.
 
 The example for this setting in the .plist file is:
-<br/> \<key\>AutomaticUploadBandwidthPercentage\</key\>  <br/> \<integer\>(Bandwidth)\</integer\>  <br/> 
-
+```xml
+<key>AllowTenantList</key>
+<dict>
+<key>TenantId1</key>
+<true/>
+<key>TenantId2</key>
+<true/>
+</dict>
+```
 
 ### BlockExternalSync
 
