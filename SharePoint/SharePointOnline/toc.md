@@ -2,36 +2,37 @@
 # [SharePoint](introduction.md)
 ## [Introduction]()
 ### [Intro to file collaboration](intro-to-file-collaboration.md)
-### [Intro to OneDrive]()
+### [Intro to OneDrive](01-my-files-overview.md)
 ### [Intro to sites](guide-to-sharepoint-modern-experience.md)
 ### [Branding](branding-sharepoint-online-sites-modern-experience.md)
 ### [Governance overview](governance-overview.md)
 ### [Overview of Teams and SharePoint integration](teams-connected-sites.md)
-### [SharePoint for collab vs intranet]()
 
+### [SharePoint for collab vs intranet](02-collaboration-intranet.md)
 
 ## [Get started]()
 
-### [Planning]()
+### [Planning](03-plan-for-sharepoint.md)
 
-#### [Business requirements]()
+#### [Business requirements](04-business-requirements.md)
 
-#### [Infrastructure]()
+#### [Infrastructure](05-infrastructure.md)
 
 #### [Sites]()
 ##### [Planning hub sites](planning-hub-sites.md)
 
-#### [Migration]()
+#### [Migration](06-plan-migration.md)
 
-#### [Change management]()
+#### [Change management](07-change-management.md)
 
-### [Create a compliant OneDrive and SharePoint environment]()
+### [Create a compliant OneDrive and SharePoint environment](08-compliant-environment.md)
+
 #### [Plan secure file collaboration](deploy-file-collaboration.md)
 #### [Permissions and sharing](modern-experience-sharing-permissions.md)
 
-### [Choose collaboration options]()
-### [Roll out OneDrive and SharePoint]()
-#### [Training and change management]()
+### [Choose collaboration options](09-collaboration-optoins.md)
+### [Roll out OneDrive and SharePoint](10-roll-out-sharepoint.md)
+#### [Training and change management](11-training.md)
 
 #### [Create sites using guided walkthroughs]()
 ##### [Create a SharePoint communication site](create-communication-site.md)
@@ -45,8 +46,8 @@
 #### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
 
 
-#### [Migration]()
-#### [Pilot program]()
+#### [Migration](13-rollout-migration.md)
+#### [Pilot program](12-pilot-program.md)
 
 
 
