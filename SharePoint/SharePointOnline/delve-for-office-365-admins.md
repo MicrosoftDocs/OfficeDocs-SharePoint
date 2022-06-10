@@ -49,7 +49,7 @@ You control access to Delve from the <a href="https://go.microsoft.com/fwlink/?l
 
 For more info on item insights privacy settings, see [Customizing item insights privacy in Microsoft Graph (preview)](/graph/insights-customize-item-insights-privacy).
 
-For more info on disabling Delve, see [What is the effect of enabling or disabling Delve](/sharepoint/delve-for-office-365-admins#BKMK_EffectOfficegraphOnOff).
+For more info on disabling Delve, see [What is the effect of enabling or disabling Delve](/sharepoint/delve-for-office-365-admins#BKMK_EffectOfficegraphOnOff).
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
@@ -264,7 +264,7 @@ Changing the Delve setting in the <a href="https://go.microsoft.com/fwlink/?link
 If you choose to disable Delve for your organization, Delve will be removed from the app launcher for all users. When users visit a person's page, for example by clicking on a person in OneDrive, that person's page will contain only user profile information. No documents will be shown. Users can still search for other people, but not for documents or boards. If the Delve setting is disabled, users will not see the frequent sites and suggested sites in the SharePoint start page.
 
 > [!NOTE]
-> Disabling Delve does no longer disable *Microsoft Graph* or insights services generated on top of it. This level of control is now available from the item insights privacy settings. For more info about the item insights settings, see [Customizing item insights privacy in Microsoft Graph](/graph/insights-customize-item-insights-privacy). For more info about Microsoft Graph, see [Overview of Microsoft Graph](/graph/overview).
+> Disabling Delve does no longer disable *Microsoft Graph* or insights services generated on top of it. This level of control is now available from the item insights privacy settings. For more info about the item insights settings, see [Customizing item insights privacy in Microsoft Graph](/graph/insights-customize-item-insights-privacy). For more info about Microsoft Graph, see [Overview of Microsoft Graph](/graph/overview).
 
 ## Additional resources
 <a name="BKMK_DelveAdditionalResources"> </a>

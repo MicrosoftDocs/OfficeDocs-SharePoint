@@ -1,7 +1,7 @@
 ---
 title: "Limit access"
-ms.author: v-bshilpa
-author: Benny-54
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -14,7 +14,9 @@ ms.collection:
 - M365-collaboration
 search.appverid:
 ms.assetid: 
-ms.custom: admindeeplinkSPO
+ms.custom:
+- admindeeplinkSPO
+- onedrive-toc
 description: "In this article, you'll learn how to all only users in specified security groups to access OneDrive."
 ---
 
