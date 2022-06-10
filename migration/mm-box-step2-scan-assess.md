@@ -23,28 +23,30 @@ description: "Step 2:  Scan and assess Box users using Migration Manager."
 
 # Step 2: Scan and assess Box users
 
-After you connect, Box users are automatically scanned. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
+After you connect, add the source paths to scan and assess your Box user accounts.
 
-A table summary appears at the top to give you an at-a-glance overview of your users. The summary includes content size, migration readiness, and any issues that need attention.
-
-   ![Summary of scanned Box users](media/mm-box-scan-assess-summary.png)
-
-1. Review the scanned users. Search for specific text, or select a filter to review the list more easily.
-2. Select **Add source path** to manually search for more users, and then select how to do it.
+1. Select **Add source paths** and choose a method; to auto-discover users in Box, target a single source path, or bulk upload the source paths using a CSV file.
 
 ![add source paths manually in Box](media/mm-add-source-path.png)
 
 ![add source path selections](media/mm-add-source-path-choices-box.png)
 
+2. After adding the source, highlight any or all of the accounts and then select **Scan**. 
+3. Once scan is complete, a table summary displays to give you an at-a-glance overview of your users. The summary includes content size, migration readiness, and any issues that need attention. 
+4. Review the scanned users. Search for specific text, or select a filter to review the list more easily.
+
+   ![Summary of scanned Box users](media/mm-box-scan-assess-summary.png)
+
+
 ## Download reports
 
-Summary and detailed scan reports are available to troubleshoot any issues.
+Summary and detailed scan reports are available to troubleshoot any issues. Download the generated reports and logs to investigate any possible issues that might block your migration.
 
-1. Once the scan is complete, select **Download reports** from the menu bar for summary reports.
+1. Once the scan is complete, select **Download reports** from the menu bar for *summary* reports.
 
    ![add source paths manually in Box](media/mm-add-source-path.png)
 
-2. Highlight a selected Box user, and select **Download scan log**  to download a detailed scan report of that user account. </br>
+2. Highlight a selected Box user, and select **Download scan log**  to download a *detailed* scan report of that user account. </br>
 
 ## Managing users who own large amounts of data
 
