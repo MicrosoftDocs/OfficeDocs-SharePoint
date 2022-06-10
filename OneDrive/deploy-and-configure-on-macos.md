@@ -76,10 +76,10 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [FilesOnDemandEnabled](deploy-and-configure-on-macos.md#filesondemandenabled)
 - [HideDockIcon](deploy-and-configure-on-macos.md#hidedockicon)
 - [HydrationDisallowedApps](deploy-and-configure-on-macos.md#hydrationdisallowedapps)
-- [KFMBlockOptIn (Preview)](deploy-and-configure-on-macos.md#kfmblockoptin-preview)
-- [KFMBlockOptOut (Preview)](deploy-and-configure-on-macos.md#kfmblockoptout-preview)
-- [KFMOptInWithWizard (Preview)](deploy-and-configure-on-macos.md#kfmoptinwithwizard-preview)
-- [KFMSilentOptIn (Preview)](deploy-and-configure-on-macos.md#kfmsilentoptin-preview)
+- [KFMBlockOptIn](deploy-and-configure-on-macos.md#kfmblockoptin)
+- [KFMBlockOptOut](deploy-and-configure-on-macos.md#kfmblockoptout)
+- [KFMOptInWithWizard](deploy-and-configure-on-macos.md#kfmoptinwithwizard)
+- [KFMSilentOptIn](deploy-and-configure-on-macos.md#kfmsilentoptin)
 - [OpenAtLogin](deploy-and-configure-on-macos.md#openatlogin)
 - [SharePointOnPremFrontDoorUrl](deploy-and-configure-on-macos.md#sharepointonpremfrontdoorurl)
 - [SharePointOnPremPrioritizationPolicy](deploy-and-configure-on-macos.md#sharepointonpremprioritizationpolicy)
@@ -299,12 +299,9 @@ The example for this setting in the .plist file is:
 <br/> \<key\>HydrationDisallowedApps </key\><br/> <string\> `[{"ApplicationId":"appId","MaxBundleVersion":"1.1","MaxBuildVersion":"1.0"}, {"ApplicationId":"appId2","MaxBundleVersion":"3.2","MaxBuildVersion":"2.0"}]`</string\><br/><(Bool)/\> <br/>
 
 
-### KFMBlockOptIn (Preview)
+### KFMBlockOptIn
 
 <a name="KFMBlockOptIn"> </a>
-
-> [!NOTE]
-> Known Folder Move in macOS is currently in Private Preview. The following policies may not be available to everyone.
 
 This setting prevents users from moving their Documents and Desktop folders to any OneDrive account.
   
@@ -316,7 +313,7 @@ The example for this setting in the .plist file is:
 <br/> \<key\>KFMBlockOptIn</key\><br/> \<integer\>(1 or 2)</integer\> <br/> 
 
 
-### KFMBlockOptOut (Preview)
+### KFMBlockOptOut
 
 <a name="KFMBlockOptOut"> </a>
 
@@ -328,7 +325,7 @@ The example for this setting in the .plist file is:
 <br/> \<key\>KFMBlockOptOut</key\><br/> \<(Bool)/\>  <br/>
 
 
-### KFMOptInWithWizard (Preview)
+### KFMOptInWithWizard
 
 <a name="KFMOptInWithWizard"> </a>
 
@@ -340,7 +337,7 @@ The example for this setting in the .plist file is:
 <br/> \<key\>KFMOptInWithWizard</key\><br/>\<string\>(TenantID)\</string\><br/>
 
 
-### KFMSilentOptIn (Preview)
+### KFMSilentOptIn
 
 <a name="KFMSilentOptIn"> </a>
 
