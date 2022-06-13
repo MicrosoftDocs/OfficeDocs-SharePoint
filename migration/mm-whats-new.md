@@ -34,7 +34,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 - **Tag support for File share migrations**.  The tags feature File Share migrations lets you sort, organize, and navigate through a large quantity of sources and users.
 
 ## May 2022
-- **Issue: Box connection**. A recent change from Box makes the Microsoft 365 Migration app  a server auth app that later fails to authorize the user's account and connect.  Fix pending.
+- **Fixed: Box connection**. A recent change from Box makes the Microsoft 365 Migration app  a server auth app that later fails to authorize the user's account and connect. This has been fixed.
 
 ## April 2022
 
