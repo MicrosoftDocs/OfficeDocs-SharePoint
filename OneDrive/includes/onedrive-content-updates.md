@@ -2,6 +2,14 @@
 
 
 
+## Week of June 06, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/10/2022 | [Set the default storage space for OneDrive users](/OneDrive/set-default-storage-space) | modified |
+
+
 ## Week of May 30, 2022
 
 
@@ -28,13 +36,3 @@
 | 5/19/2022 | [Deploy and configure the new OneDrive sync app for Mac](/OneDrive/deploy-and-configure-on-macos) | modified |
 | 5/19/2022 | Manage sharing in OneDrive | removed |
 | 5/20/2022 | [Deploy and configure the new OneDrive sync app for Mac](/OneDrive/deploy-and-configure-on-macos) | modified |
-
-
-## Week of May 02, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/2/2022 | [Use OneDrive policies to control sync settings](/OneDrive/use-group-policy) | modified |
-| 5/5/2022 | [Deploy and configure the new OneDrive sync app for Mac](/OneDrive/deploy-and-configure-on-macos) | modified |
-| 5/5/2022 | [Use OneDrive policies to control sync settings](/OneDrive/use-group-policy) | modified |

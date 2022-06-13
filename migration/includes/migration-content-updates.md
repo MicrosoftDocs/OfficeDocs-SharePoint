@@ -2,6 +2,21 @@
 
 
 
+## Week of June 06, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/7/2022 | [Archive Migration Manager tasks](/SharepointMigration/mm-task-archive) | added |
+| 6/7/2022 | [Migration Manager task limits](/SharepointMigration/mm-tasklimits) | added |
+| 6/7/2022 | [Migration Manager transaction logs](/SharepointMigration/mm-transaction-logs) | added |
+| 6/10/2022 | [Migration Manager Box FAQs](/SharepointMigration/mm-faqs-box) | modified |
+| 6/10/2022 | [Step 2: Scan and assess Box accounts using Migration Manager](/SharepointMigration/mm-box-step2-scan-assess) | modified |
+| 6/10/2022 | [Step 2: Scan and assess Dropbox folders using Migration Manager](/SharepointMigration/mm-dropbox-step2-scan-assess) | modified |
+| 6/10/2022 | [Step 2: Scan and assess Egnyte folders using Migration Manager](/SharepointMigration/mm-egnyte-step2-scan-assess) | modified |
+| 6/10/2022 | [Step 2: Scan and assess Google accounts using Migration Manager](/SharepointMigration/mm-google-step2-scan-assess) | modified |
+
+
 ## Week of May 30, 2022
 
 
