@@ -145,7 +145,7 @@ You can also import data directly from Active Directory Domain Services (AD DS).
   
 [Administer the User Profile service in SharePoint Server](user-profile-service-administration.md)
   
-[Overview of Business Connectivity Services in SharePoint Server](business-connectivity-services-overview.md) ﻿ 
+[Overview of Business Connectivity Services in SharePoint Server](business-connectivity-services-overview.md)  
   
 [Configure a managed domain to support profile synchronization for SharePoint Server](/azure/active-directory-domain-services/active-directory-ds-enable-sharepoint-profile-sync)
   

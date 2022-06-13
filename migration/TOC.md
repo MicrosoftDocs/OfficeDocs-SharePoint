@@ -77,6 +77,8 @@
 ### Dropbox  Reference
 #### [FAQs](mm-faqs-dropbox.md)
 #### [Bulk upload Dropbox accounts using a CSV file](mm-dropbox-bulk-upload-source-paths-csv.md)
+### Stream Reference
+#### [Bulk upload Stream souce paths into Migration Manager](mm-stream-csv.md)
 ## SPMT Reference
 ### [Prerequisites and endpoints](spmt-prerequisites.md)
 ### [Supported features](what-is-supported-spmt.md)
@@ -148,7 +150,6 @@
 ###  Set up your source
 #### [Box](mover-box.md)
 #### [Dropbox](mover-dropbox.md)
-#### [Egnyte](mover-egnyte.md)
 #### [G Suite Drive](mover-gsuite.md)
 #### [Office 365](mover-o365.md)
 #### [Amazon S3](mover-amazons3.md)

@@ -76,6 +76,7 @@
 ## [Sample sites]()
 ### [Add a sample site to your tenant](add-sample-site.md)
 ### [Add New Employee Onboarding sites](provision-neo-hub.md)
+### [Add the Employee Resource site](employee-resource-template.md)
 ### [Add the SharePoint success site]()
 #### [Overview](overview-sss.md)
 #### [Provision](provision-sss.md)

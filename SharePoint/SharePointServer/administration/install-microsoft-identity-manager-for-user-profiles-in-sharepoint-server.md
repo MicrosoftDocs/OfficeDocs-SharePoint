@@ -1,5 +1,5 @@
 ---
-title: "Install Microsoft Identity Manager for User Profiles in SharePoint Servers 2016 and 2019"
+title: "Install Microsoft Identity Manager for User Profiles in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -17,29 +17,29 @@ ms.assetid: 84972766-6527-4791-ae68-02d3a50b67f0
 description: "Learn about Microsoft Identity Manager (MIM) and how it's used for importing user profile information in SharePoint Server."
 ---
 
-# Install Microsoft Identity Manager for User Profiles in SharePoint Servers 2016 and 2019
+# Install Microsoft Identity Manager for User Profiles in SharePoint Server
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
   
  **Contents**
   
-- [What is Microsoft Identity Manager?](install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server-2016.md#BKMK_WhatIsMIM1)
+- [What is Microsoft Identity Manager?](#what-is-microsoft-identity-manager)
     
-- [Choosing MIM for use with SharePoint Server 2016](install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server-2016.md#BKMK_ChooseMIM)
+- [Choosing MIM for use with SharePoint Server](#choosing-mim-for-use-with-sharepoint-server)
     
-- [Installing Microsoft Identity Manager (MIM)](install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server-2016.md#BKMK_InstallMIM)
+- [Installing Microsoft Identity Manager (MIM)](#installing-microsoft-identity-manager-mim)
     
-- [MIM configuration scenarios with SharePoint Server 2016](install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server-2016.md#BKMK_ConfigScene)
+- [MIM configuration scenarios with SharePoint Server](#mim-configuration-scenarios-with-sharepoint-server)
     
 > [!IMPORTANT]
-> The solutions files referenced in this article are available for download [here](https://github.com/OfficeDev/PnP-Tools/tree/master/Solutions/UserProfile.MIMSync). You will need a GitHub account for access. See the section 'Download the solutions files that you need' for more details. > Microsoft Identity Manager 2016 is available for download from the [Microsoft Volume Licensing Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx). (Log in and search on the product name.) > On your MIM server, be sure to install [KB3092179](https://support.microsoft.com/kb/3092179).
+> The solutions files referenced in this article are available for download [here](https://github.com/OfficeDev/PnP-Tools/tree/master/Solutions/UserProfile.MIMSync). You will need a GitHub account for access. For more information, see the section 'Download the solutions files that you need'. > Microsoft Identity Manager 2016 is available for download from the [Microsoft Volume Licensing Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx). (Log in and search on the product name.) > On your MIM server, be sure to install [KB3092179](https://support.microsoft.com/kb/3092179).
   
 ## What is Microsoft Identity Manager?
 <a name="BKMK_WhatIsMIM1"> </a>
 
-Previous versions of SharePoint Server had a built-in copy of ForeFront Identity Manager (FIM) that ran inside SharePoint Server. That version of FIM powered the User Profile Synchronization for products like SharePoint Server 2010 and SharePoint Server 2013. But in SharePoint Server 2016, FIM has been removed in favor of Microsoft Identity Manager, which is the successor to the FIM technology. MIM is a separate server technology (not built-in to SharePoint Server). That means, if you have MIM running in your company, more than one SharePoint Server 2016 farm can rely upon it.
+Previous versions of SharePoint Server had a built-in copy of ForeFront Identity Manager (FIM) that ran inside SharePoint Server. That version of FIM powered the User Profile Synchronization for products like SharePoint Server 2010 and SharePoint Server 2013. But from SharePoint Server 2016, FIM has been removed in favor of Microsoft Identity Manager, which is the successor to the FIM technology. MIM is a separate server technology (not built-in to SharePoint Server). That means, if you have MIM running in your company, more than one SharePoint Server farm can rely upon it.
   
-It's also important to note, here, that Active Directory Import (sometimes called Active Directory Direct Import) is also included with SharePoint Server 2016, and is a User Profile Synchronization alternative that will not need a separate server installation. This means that SharePoint Server 2016 offers two options for User Profile Sync.
+It's also important to note, here, that Active Directory Import (sometimes called Active Directory Direct Import) is also included with SharePoint Server, and is a User Profile Synchronization alternative that will not need a separate server installation. This means that SharePoint Server offers two options for User Profile Sync.
   
 Which option is right for you?
   
@@ -57,7 +57,7 @@ Which option is right for you?
 
 If you choose MIM, there are some **prerequisites** of which you should be aware. You will need:
   
-1. For SharePoint Server 2016, a Windows Server 2012 R2 computer or virtual machine for the installation of MIM components. For SharePoint Server 2019, a Windows Server 2016 computer is required.
+1. For SharePoint Server 2016, a Windows Server 2012 R2 computer or virtual machine for the installation of MIM components. For SharePoint Server 2019, a Windows Server 2016 computer is required. For SharePoint Server Subscription Edition, a Windows Server 2019 computer is required.
     
 2. SQL Server 2008 or above, to be installed either on the same machine as the MIM components, or remotely.
     
@@ -132,4 +132,4 @@ The Synchronization Service Manager will open on your MIM server. At this point 
 
 For configuration steps, please see:
   
-- [Use a sample MIM solution in SharePoint Server](use-a-sample-mim-solution-in-sharepoint-server-2016.md)
+- [Use a sample MIM solution in SharePoint Server](use-a-sample-mim-solution-in-sharepoint-server.md)
