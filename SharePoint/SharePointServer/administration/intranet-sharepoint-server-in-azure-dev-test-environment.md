@@ -1,8 +1,8 @@
 ---
-title: "Intranet SharePoint Server 2016 in Azure dev/test environment"
+title: "Intranet SharePoint Server in Azure dev/test environment"
 ms.reviewer: 
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 03/15/2019
 audience: ITPro
@@ -22,15 +22,15 @@ ms.assetid: 7fda5f6e-ffbc-40af-9e5d-62f055a9c9b0
 description: "Create an intranet SharePoint Server farm running in Microsoft Azure as a dev/test environment."
 ---
 
-# Intranet SharePoint Server 2016 in Azure dev/test environment
+# Intranet SharePoint Server in Azure dev/test environment
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
   
 This topic steps you through creating a simulated intranet SharePoint farm hosted in Azure. Here is the resulting configuration:
   
-**Figure 1: The SharePoint Server 2016 intranet in Azure dev/test environment**
+**Figure 1: The SharePoint Server intranet in Azure dev/test environment**
 
-![The SharePoint Server 2016 intranet farm dev/test environment](../media/7e82e324-3166-483b-acf7-d0c72ecbd5eb.png)
+![The SharePoint Server intranet farm dev/test environment](../media/7e82e324-3166-483b-acf7-d0c72ecbd5eb.png)
   
 This configuration consists of:
   
@@ -65,7 +65,7 @@ Use the instructions in [Simulated cross-premises virtual network in Azure](/off
   
 **Figure 2: The simulated cross-premises environment**
 
-![Phase 1 of the SharePoint Server 2016 intranet farm dev/test environment with the simulated cross-premises network](../media/3ed0aaf6-e81e-4686-b9b1-6de4c5f50623.png)
+![Phase 1 of the SharePoint Server intranet farm dev/test environment with the simulated cross-premises network](../media/3ed0aaf6-e81e-4686-b9b1-6de4c5f50623.png)
   
 Figure 2 shows the CorpNet and XPrem VNets with a DC2 virtual machine in the XPrem VNet.
   
@@ -186,7 +186,7 @@ Figure 3 shows the CorpNet and XPrem VNets with the additional SQL1 virtual mach
   
 ## Phase 3: Configure the SharePoint server (SP1)
 
-In this phase, you create a SharePoint Server 2016 virtual machine in your virtual network, make it a member of the Windows Server AD domain, and then create a new single-server SharePoint farm.
+In this phase, you create a SharePoint Server virtual machine in your virtual network, make it a member of the Windows Server AD domain, and then create a new single-server SharePoint farm.
   
 First, you must create a new Windows Server AD account for the SharePoint farm. From the [Azure portal](https://portal.azure.com) on your local computer, connect to DC2. Then, run the following command from an administrator-level Windows PowerShell command prompt on DC2: 
   
@@ -196,7 +196,7 @@ New-ADUser -SamAccountName sp_farm_db -AccountPassword (read-host "Set user pass
 
 You will be prompted to supply the password for the sp_farm_db account. Record the password in a secure location.
   
-Next, to create the SharePoint Server 2016 virtual machine with Azure PowerShell, supply the values of the variables. Then, run the resulting block at the Azure PowerShell prompt on your local computer:
+Next, to create the SharePoint Server virtual machine with Azure PowerShell, supply the values of the variables. Then, run the resulting block at the Azure PowerShell prompt on your local computer:
   
 ```
 # Set up key variables
@@ -237,7 +237,7 @@ Record the name and password of the local administrator account in a secure loca
 > [!NOTE]
 > This Azure PowerShell command block creates an Azure availability set for the SP1 virtual machine. This is done in case you want to add more SharePoint Server 2016 virtual machines to this basic configuration. 
   
-### Configure the SharePoint Server 2016 virtual machine
+### Configure the SharePoint Server virtual machine
 
 From the [Azure portal](https://portal.azure.com) on your local computer, connect to the SharePoint virtual machine (SP1) using the credentials of its local administrator account. 
   
@@ -308,20 +308,20 @@ Here is the result of Phase 3:
   
 **Figure 4: The addition of SP1**
 
-![The SharePoint Server 2016 intranet farm dev/test environment](../media/7e82e324-3166-483b-acf7-d0c72ecbd5eb.png)
+![The SharePoint Server intranet farm dev/test environment](../media/7e82e324-3166-483b-acf7-d0c72ecbd5eb.png)
   
 Figure 4 shows the CorpNet and XPrem VNets with the SP1 and SQL1 virtual machines in the XPrem VNet.
   
-Your emulated intranet SharePoint Server 2016 farm running in Azure is now ready for testing.
+Your emulated intranet SharePoint Server farm running in Azure is now ready for testing.
   
 ## Next steps
 
-When you are ready to design a production SharePoint Server 2016 farm in Azure, see [Designing a SharePoint Server 2016 farm in Azure](designing-a-sharepoint-server-2016-farm-in-azure.md).
+When you are ready to design a production SharePoint Server farm in Azure, see [Designing a SharePoint Server farm in Azure](designing-a-sharepoint-server-farm-in-azure.md).
   
-When you are ready to deploy a production-ready, high availability SharePoint Server 2016 farm in Azure, see [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md).
+When you are ready to deploy a production-ready, high availability SharePoint Server farm in Azure, see [Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md).
   
 ## See also
 
-- [SharePoint Server 2016 dev/test environment in Azure](sharepoint-server-2016-dev-test-environment-in-azure.md)
-- [SharePoint Server 2016 in Microsoft Azure](sharepoint-server-2016-in-microsoft-azure.md)
-- [Designing a SharePoint Server 2016 farm in Azure](designing-a-sharepoint-server-2016-farm-in-azure.md)
+- [SharePoint Server dev/test environment in Azure](sharepoint-server-dev-test-environment-in-azure.md)
+- [SharePoint Server in Microsoft Azure](sharepoint-server-in-microsoft-azure.md)
+- [Designing a SharePoint Server farm in Azure](designing-a-sharepoint-server-farm-in-azure.md)

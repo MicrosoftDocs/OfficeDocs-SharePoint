@@ -27,16 +27,18 @@ We're continuously adding new features to Migration Manager and fixing issues we
 
 Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page.  
 
-## Coming soon
 
-- **Tag support for File share migrations**.  The tags feature is coming soon for File Share migrations to allow you to sort, organize, and navigate through a large quantity of sources and users.
+
+## June 2022
+- **Fix: Google proprietary file formats failed to migrate**. Some Google files (mainly  Google slides) failed to migrate showing the error code, "MFILESIZEINCORRECT". This has been fixed. Rerun any failed tasks to migrate these files.
+- **Tag support for File share migrations**.  The tags feature File Share migrations lets you sort, organize, and navigate through a large quantity of sources and users.
 
 ## May 2022
-- **Issue: Box connection**. A recent change from Box makes the Microsoft 365 Migration app  a server auth app that subsequently fails to authorize the users account and connect.  Fix pending.
+- **Fixed: Box connection**. A recent change from Box makes the Microsoft 365 Migration app  a server auth app that later fails to authorize the user's account and connect. This has been fixed.
 
 ## April 2022
 
-- **Task increase**.  We now support up to 50,000 tasks per tenant.
+- **Task increase**.  We now support up to 50,000 tasks per tenant for cloud migrations (GoogleDrive, Box, Dropbox and Egnyte). File share migrations already support 50,000 tasks.
 
 ## March 2022
 - **Egnyte migrations**.  Migrate your Egnyte content to Microsoft 365.
@@ -49,7 +51,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 ## January 2022
 
 - **Add source path fix**. Previously, when doing a file share migration, the "Add source Path" button wasn't active on the Scan page, even if the agent was installed and connected. Fixed.
-- **Tag support - cloud migrations**.  A new tags feature to let you to sort, organize, and navigate through a large quantity of sources and users. Available for cloud migrations only.
+- **Tag support - cloud migrations**.  A new tag feature lets you to sort, organize, and navigate through a large quantity of sources and users. Available for cloud migrations only.
 
 
 ## November 2021
@@ -63,7 +65,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 - **Support for files up to 100 GB.** File share migration now supports migrating individual files of up to 100 GB.
 - **Improved agent installation messages.**  The error messages during agent installation have been improved.
 - **Reinstall recommended message.** A "Reinstall recommended" message displays detailed information as to why it is needed. 
-- **Cross-geo site fix.**  If the destination cross-geo site did not exist, the migration would fail. This has been fixed.
+- **Cross-geo site fix.**  If the destination cross-geo site didn't exist, the migration would fail. This has been fixed.
 - **Agent service and Agent app on same computer upgrader issue fix.**  When the agent app and agent service were both installed on the same computer, the upgrader would always start the agent app after the agent service was updated. Fixed.
 - **Agent service and Agent app on same computer file share fix.** When the agent service and the agent app were installed on the same computer, file share migration tasks would fail. Fixed.
 - **Selected task reports deprecated.** Several task reports have been deprecated, including the *performance recommendation.csv* report, as they contained inaccurate or unnecessary information. Users should use the customer-facing dashboard in Migration Manager for performance analysis and improvement recommendations.

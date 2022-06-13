@@ -141,7 +141,7 @@ Let's go back to our "result type" search and take a closer look at the first se
   
 As was previously explained in the "About the ManagedPropertyMapping element" section of this topic, the **ManagedPropertyMapping** element in the item display template contains the managed properties that can be used to display search results. Based on this, you can understand why "About configuring **result types** " is displayed. It is because "About configuring result types" is the value of  *Title*  in the list item, and  *Title*  is one of the managed properties found in the ManagedPropertyMapping element in the display template. The words "result type" are displayed in bold (hit highlighted) because  *Title*  is one of the hit highlighted listed in the Search Results Web Part. 
   
-But why is "CSH_Configure_ **result_types…** "displayed in the search results? In the list item we can see that this is the value for Project/File Name, but the managed property for that site column is not included in the **ManagedPropertyMapping** element in display template. Neither is it listed as one of the hit highlighted properties in the Search Results Web Part. So why is this value displayed? 
+But why is "CSH_Configure_ **result_types...** "displayed in the search results? In the list item we can see that this is the value for Project/File Name, but the managed property for that site column is not included in the **ManagedPropertyMapping** element in display template. Neither is it listed as one of the hit highlighted properties in the Search Results Web Part. So why is this value displayed? 
   
 ### About the "magical summary" property
 

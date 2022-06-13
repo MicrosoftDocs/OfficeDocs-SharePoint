@@ -128,7 +128,7 @@ The following table presents resources that are available to help information ar
   
 **Information architecture resources**
 
-|**To plan …**|**See …**|
+|**To plan ...**|**See ...**|
 |:-----|:-----|
 |The structure of sites and subsites  <br/> |[Plan sites and site collections in SharePoint Server](../sites/plan-sites-and-site-collections.md) <br/> |
 |Document libraries  <br/> |[Plan document libraries in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262215(v=office.14)) <br/> |
