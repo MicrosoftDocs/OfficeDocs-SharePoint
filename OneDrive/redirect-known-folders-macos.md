@@ -38,12 +38,10 @@ For these reasons, we recommend moving or redirecting Desktop and Documents fold
 
 > [!NOTE]
 > OneDrive sync for macOS will now run natively on Apple silicon. This means that OneDrive will take full advantage of the performance improvements of Apple silicon. This support is generally available starting with build 22.022. Users will be automatically updated over the next few releases.
->
-> If you are running the Standalone app and would like to install the Apple silicon version sooner, you can download the latest build from the [OneDrive relase notes for Mac](https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac).
 
 ## Prepare to move Desktop and Documents folders on existing devices
 
-The [standalone OneDrive sync app](https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac) (not from the Mac App Store) is required for folder backup. This app requires Full Disk Access, which can be granted and deployed by IT admins. 
+The [standalone OneDrive sync app](https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac) (not from the Mac App Store) is required for Folder Backup. This app requires Full Disk Access, which can be granted and deployed by IT admins. 
 
 We recommend that you upgrade to the latest available build before you deploy to decrease deployment issues.
 
@@ -64,17 +62,16 @@ The following settings control the Folder Backup feature:
 
     If users dismiss the prompt, a reminder notification will appear in the activity center until they move all available folders.
 
-    If a user has already redirected their known folders to a different OneDrive account, they'll be prompted to direct the folders to the account for your organization (leaving existing files behind).
+    If a user has already redirected their Desktop and Documents folders to a different OneDrive account, they'll be prompted to direct the folders to the account for your organization (leaving existing files behind).
     
     > [!IMPORTANT]
-    > We recommend deploying the prompt policy for existing devices only, and limiting the deployment to 5,000 devices a day and not exceeding 20,000 devices a week.
+    > We recommend deploying the prompt policy for existing devices only, and limiting the deployment to 5,000 devices a day and not exceeding 20,000 devices a week between macOS and Windows.
   
 - [Silently move macOS Desktop and Documents folders to OneDrive](deploy-and-configure-on-macos.md#kfmsilentoptin)
     
     Use this setting to redirect and move folders to OneDrive without any user interaction. Move all the folders or select the desired individual folders. By default, the Desktop and Documents folders will be moved. After a folder is moved, the policy won't affect the folder again, even if the selection for the folder changes.
 
-    > [!NOTE]
-    > You can choose to display a notification to users after their folders have been redirected.
+    You can choose to display a notification to users after their folders have been redirected.
 
     Various errors can prevent this setting from taking effect, such as:
 
