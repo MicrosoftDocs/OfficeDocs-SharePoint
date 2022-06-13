@@ -2,6 +2,61 @@
 
 
 
+## Week of June 06, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/6/2022 | [Backup and restore best practices in SharePoint Server](/SharePoint/administration/best-practices-for-backup-and-restore) | modified |
+| 6/6/2022 | [Best practices for SQL Server in a SharePoint Server farm](/SharePoint/administration/best-practices-for-sql-server-in-a-sharepoint-server-farm) | modified |
+| 6/6/2022 | [Configure Search Web Parts in SharePoint Server](/SharePoint/administration/configure-search-web-parts) | modified |
+| 6/6/2022 | [Enhanced People Picker for modern authentication](/SharePoint/administration/enhanced-people-picker-for-trusted-authentication-method) | modified |
+| 6/6/2022 | [Overview of Excel Services in SharePoint Server 2013](/SharePoint/administration/excel-services-overview) | modified |
+| 6/6/2022 | [Hide SharePoint Server social features](/SharePoint/administration/hide-sharepoint-server-social-features) | modified |
+| 6/6/2022 | [Integrating social media with public-facing websites in SharePoint](/SharePoint/administration/integrating-social-media-with-public-facing-websites) | modified |
+| 6/6/2022 | [Mobile security and authentication in SharePoint 2013](/SharePoint/administration/mobile-security-and-authentication) | modified |
+| 6/6/2022 | [Plan for monitoring in SharePoint Server](/SharePoint/administration/monitoring-planning) | modified |
+| 6/6/2022 | [Move content databases in SharePoint Server](/SharePoint/administration/move-content-databases) | modified |
+| 6/6/2022 | [Move or rename service application databases in SharePoint Server](/SharePoint/administration/move-or-rename-service-application-databases) | modified |
+| 6/6/2022 | [Plan outgoing email for a SharePoint Server farm](/SharePoint/administration/outgoing-email-planning) | modified |
+| 6/6/2022 | [Plan a Business Connectivity Services solution in SharePoint Server](/SharePoint/administration/plan-a-business-connectivity-services-solution) | modified |
+| 6/6/2022 | [Introduction of a new RBS provider **Remote Share Provider**.](/SharePoint/administration/remote-share-provider) | modified |
+| 6/6/2022 | [Overview of Business Connectivity Services security tasks in SharePoint Server](/SharePoint/administration/security-tasks-overview) | modified |
+| 6/6/2022 | [Storage and SQL Server capacity planning and configuration (SharePoint Server)](/SharePoint/administration/storage-and-sql-server-capacity-planning-and-configuration) | modified |
+| 6/6/2022 | [Estimate capacity and performance for Web Content Management (SharePoint Server 2013)](/SharePoint/administration/web-content-management-capacity-and-performance) | modified |
+| 6/6/2022 | [Deleting OneDrive experience settings](/SharePoint/delete-odfb-lists) | modified |
+| 6/6/2022 | [Export OneDrive experience settings](/SharePoint/export-odfb-lists) | modified |
+| 6/6/2022 | [Configure server-to-server authentication from SharePoint Server to SharePoint in Microsoft 365](/SharePoint/hybrid/configure-server-to-server-authentication) | modified |
+| 6/6/2022 | [Best Practices for SharePoint Server Installation](/SharePoint/install/bestpractices-for-sharepointserver-installation) | modified |
+| 6/6/2022 | [Hardware and software requirements for SharePoint Server 2016](/SharePoint/install/hardware-and-software-requirements) | modified |
+| 6/6/2022 | [Hardware and topology requirements for SharePoint Server Subscription Edition](/SharePoint/install/hardware-and-topology-requirements-for-sharepoint-server-subscription-editon) | modified |
+| 6/6/2022 | [Install or uninstall language packs for SharePoint Servers Subscription Edition](/SharePoint/install/install-or-uninstall-language-packs-subscription) | modified |
+| 6/6/2022 | [Install or uninstall language packs for SharePoint Servers 2016 and 2019](/SharePoint/install/install-uninstall-language-packs-2019) | modified |
+| 6/6/2022 | [Planning for a MinRole server deployment in SharePoint Servers 2016, 2019, and Subscription Edition](/SharePoint/install/planning-for-a-minrole-server-deployment-in-sharepoint-server) | modified |
+| 6/6/2022 | [Updated Product Servicing Policy for SharePoint 2019](/SharePoint/product-servicing-policy/updated-product-servicing-policy-for-sharepoint-2019) | modified |
+| 6/6/2022 | [Updated Product Servicing Policy for SharePoint Server 2016](/SharePoint/product-servicing-policy/updated-product-servicing-policy-for-sharepoint-server-2016) | modified |
+| 6/6/2022 | [Configure and use the Documentum connector in SharePoint Server](/SharePoint/search/configure-and-use-the-documentum-connector) | modified |
+| 6/6/2022 | [Create and deploy a thesaurus in SharePoint Server](/SharePoint/search/create-and-deploy-a-thesaurus) | modified |
+| 6/6/2022 | [Plan crawling and federation in SharePoint Server](/SharePoint/search/plan-crawling-and-federation) | modified |
+| 6/6/2022 | [Plan enterprise search architecture in SharePoint Server](/SharePoint/search/plan-enterprise-search-architecture) | modified |
+| 6/6/2022 | [Overview of the search schema in SharePoint Server](/SharePoint/search/search-schema-overview) | modified |
+| 6/6/2022 | [Configure Request Manager in SharePoint Server](/SharePoint/security-for-sharepoint-server/configure-request-manager-in-sharepoint-server) | modified |
+| 6/6/2022 | [Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2016](/SharePoint/security-for-sharepoint-server/enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016) | modified |
+| 6/6/2022 | [Enable TLS and SSL support in SharePoint 2013](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013) | modified |
+| 6/6/2022 | [Overview of sites and site collections in SharePoint Server](/SharePoint/sites/sites-and-site-collections-overview) | modified |
+| 6/6/2022 | [Automatically created managed properties in SharePoint Server](/SharePoint/technical-reference/automatically-created-managed-properties-in-sharepoint) | modified |
+| 6/6/2022 | [Overview of crawled and managed properties in SharePoint Server](/SharePoint/technical-reference/crawled-and-managed-properties-overview) | modified |
+| 6/6/2022 | [Linguistic search features in SharePoint Server](/SharePoint/technical-reference/linguistic-search-features) | modified |
+| 6/6/2022 | [High level overview to upgrade from SharePoint 2013 to SharePoint Server 2019](/SharePoint/upgrade-and-update/upgrade-from-sharepoint2013-to-sharepointserver-2019) | modified |
+| 6/6/2022 | [Checklist for database-attach upgrade (SharePoint 2013)](/SharePoint/upgrade-and-update/checklist-for-database-attach-upgrade-sharepoint-2013) | modified |
+| 6/6/2022 | [Copy databases to the new farm for upgrade to SharePoint 2013](/SharePoint/upgrade-and-update/copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-2013) | modified |
+| 6/6/2022 | [Create the SharePoint 2013 farm for a database attach upgrade](/SharePoint/upgrade-and-update/create-the-sharepoint-2013-farm-for-a-database-attach-upgrade) | modified |
+| 6/6/2022 | [Create the SharePoint Server 2019 farm for a database attach upgrade](/SharePoint/upgrade-and-update/create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade) | modified |
+| 6/6/2022 | [Deploy custom features to upgraded site collections in SharePoint Server 2013](/SharePoint/upgrade-and-update/deploy-custom-features-to-upgraded-site-collections-in-sharepoint-server-2013) | modified |
+| 6/6/2022 | [Install a software update for SharePoint Server](/SharePoint/upgrade-and-update/install-a-software-update) | modified |
+| 6/6/2022 | [New and improved features in SharePoint Server Subscription Edition](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition) | modified |
+
+
 ## Week of May 30, 2022
 
 
