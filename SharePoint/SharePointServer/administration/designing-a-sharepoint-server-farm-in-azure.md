@@ -1,8 +1,8 @@
 ---
-title: "Designing a SharePoint Server 2016 farm in Azure"
+title: "Designing a SharePoint Server farm in Azure"
 ms.reviewer: 
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 10/19/2017
 audience: ITPro
@@ -20,15 +20,15 @@ ms.assetid: f27522ca-6f78-4b97-b169-77066e965727
 description: "Step through a process to design Microsoft Azure infrastructure services to host SharePoint Server farms."
 ---
 
-# Designing a SharePoint Server 2016 farm in Azure
+# Designing a SharePoint Server farm in Azure
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)] 
  
-This article provides an overview of the support for SharePoint Server 2016 farms in Azure infrastructure services and a step-by-step process and recommendations and best practices for designing the Azure environment, including network, storage, and compute resources.
+This article provides an overview of the support for SharePoint Server farms in Azure infrastructure services and a step-by-step process and recommendations and best practices for designing the Azure environment, including network, storage, and compute resources.
   
-## SharePoint Server 2016 farms in Azure infrastructure services
+## SharePoint Server farms in Azure infrastructure services
 
-Running SharePoint Server 2016 farms in any Infrastructure as a Service (IaaS) environment can take advantage of the following:
+Running SharePoint Server farms in any Infrastructure as a Service (IaaS) environment can take advantage of the following:
   
 - Capacity on demand and the ability to scale virtual machines up (elasticity)
     
@@ -48,9 +48,9 @@ Here are the scenarios in which SharePoint farms should be run from an IaaS envi
     
 - Production farm
     
-### Supportability of SharePoint Server 2016 in Azure
+### Supportability of SharePoint Server in Azure
 
-Microsoft supports the following SharePoint Server 2016 deployment scenarios on Azure IaaS virtual machines (VMs):
+Microsoft supports the following SharePoint Server deployment scenarios on Azure IaaS virtual machines (VMs):
   
 - Non-production farms, such as those used for dev/test environments or for proof-of-concept
     
@@ -62,7 +62,7 @@ Production farms running SharePoint 2013 are also supported. SharePoint 2010 is 
   
 As with other Microsoft workloads, licensing is handled with Licensing Mobility through Software Assurance. For more information, see [Licensing Microsoft server products for use in virtual environments](https://download.microsoft.com/download/3/d/4/3d42bdc2-6725-4b29-b75a-a5b04179958b/microsoftservervirtualization_licensemobility_vlbrief.pdf).
   
-## The design process for SharePoint Server 2016 farms in Azure
+## The design process for SharePoint Server farms in Azure
 
 The Azure infrastructure services environment is different than on-premises data centers and requires additional planning. The following design process steps you through determining the following elements of Azure infrastructure:
   
@@ -78,9 +78,9 @@ The Azure infrastructure services environment is different than on-premises data
     
 6. Virtual machines
     
-Each step includes best practices and recommendations specific to the requirements of SharePoint Server 2016 farms.
+Each step includes best practices and recommendations specific to the requirements of SharePoint Server farms.
   
-At the end of the design process, you will have determined the set of components in Azure infrastructure services that is ready for your SharePoint Server 2016 farm. 
+At the end of the design process, you will have determined the set of components in Azure infrastructure services that is ready for your SharePoint Server farm. 
   
 > [!TIP]
 > This process is based on [Design Azure infrastructure services to host a multi-tier LOB application](/archive/blogs/solutions_advisory_board/design-azure-infrastructure-services-to-host-a-multi-tier-lob-application). 
@@ -89,7 +89,7 @@ At the end of the design process, you will have determined the set of components
 
 Resource groups are containers for multiple Azure elements that can be managed together. For example, you can create access control lists that allow only specific user accounts to modify the set of elements in a resource group.
   
-You can place all of the resources for your SharePoint Server 2016 farm in the same resource group, but this is highly discouraged for production deployments. Instead, the recommendation is to use different resource groups for:
+You can place all of the resources for your SharePoint Server farm in the same resource group, but this is highly discouraged for production deployments. Instead, the recommendation is to use different resource groups for:
   
 - Infrastructure and networking components
     
@@ -97,7 +97,7 @@ You can place all of the resources for your SharePoint Server 2016 farm in the s
     
 - The separate roles of the SharePoint farm
     
-    For example, use separate resource groups for the front-end, search, application, distributed cache, data, and combined roles of a typical SharePoint Server 2016 farm. In each separate resource group, place the availability sets, network interfaces, and virtual machines of that role.
+    For example, use separate resource groups for the front-end, search, application, distributed cache, data, and combined roles of a typical SharePoint Server farm. In each separate resource group, place the availability sets, network interfaces, and virtual machines of that role.
     
 For your resource groups, fill in the following table before creating them, using as many rows as needed.
   
@@ -110,7 +110,7 @@ For your resource groups, fill in the following table before creating them, usin
 
 Connectivity includes:
   
-- Access to the servers running in your SharePoint Server 2016 farm, both for administration and for the resources of the farm, from your intranet and the Internet.
+- Access to the servers running in your SharePoint Server farm, both for administration and for the resources of the farm, from your intranet and the Internet.
     
 - Access for the servers of the farm to each other, to the intranet, and to the Internet.
     
@@ -156,7 +156,7 @@ Just like the subnets in your datacenter, subnets of an Azure VNet are logical d
   
 - VM-hosting (required)
     
-    Hosts the VMs of an IT workload. An example is all of the servers running the distributed cache service of a SharePoint Server 2016 farm.
+    Hosts the VMs of an IT workload. An example is all of the servers running the distributed cache service of a SharePoint Server farm.
     
 - Gateway
     
@@ -192,9 +192,9 @@ For the subnets of your VNet, fill in the following table before creating them, 
 
 All VMs in an Azure VNet by default are assigned a set of DNS servers to perform name registration and resolution. You can override this by assigning DNS servers to individual VM network interfaces.
   
-For a SharePoint Server 2016 farm in Azure that uses [Azure Active Directory (AD) Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview), assign the IP addresses of the service as the DNS servers.
+For a SharePoint Server farm in Azure that uses [Azure Active Directory (AD) Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview), assign the IP addresses of the service as the DNS servers.
   
-For a SharePoint Server 2016 farm in Azure that contains a set of Windows Server AD domain controllers that are also acting as DNS servers, assign the IP addresses of the domain controllers as the DNS servers. For a cross-premises VNet, you need two sets of DNS servers:
+For a SharePoint Server farm in Azure that contains a set of Windows Server AD domain controllers that are also acting as DNS servers, assign the IP addresses of the domain controllers as the DNS servers. For a cross-premises VNet, you need two sets of DNS servers:
   
 - A set of DNS servers on your on-premises network that your domain controller VMs use when they join the domain and are promoted to domain controllers.
     
@@ -238,7 +238,7 @@ For the Azure load balancers, fill in the following table before creating them, 
 
 You can assign static IP addresses to VM network interfaces from the available subnet address space. If you are using an internal Azure load balancer to distribute traffic among the servers of a common role, assign the load balancer a static IP address from the subnet containing the members of the load balanced set.
   
-For a SharePoint Server 2016 farm in Azure, Microsoft recommends that you assign a static IP address for each server running SQL Server or SharePoint Server 2016.
+For a SharePoint Server farm in Azure, Microsoft recommends that you assign a static IP address for each server running SQL Server or SharePoint Server.
   
 For static IP addresses, fill in the following table, using as many rows as needed.
   
@@ -273,11 +273,11 @@ Azure assigns public IP addresses at the time they are requested for the VM or l
 
 Storage resources for VMs in Azure, which include the disks that each VM uses, are [managed disks](https://azure.microsoft.com/services/managed-disks/).
   
-Azure supports [standard and premium types of storage](/azure/storage/common/storage-introduction). To be in a supported configuration, you must use premium storage for the servers running SharePoint Server 2016 that host the search role. Microsoft recommends that you use premium storage for all VMs running SQL Server or SharePoint Server 2016. Other VMs in the farm, such as domain controllers and the VMs on the management subnet, can use standard storage.
+Azure supports [standard and premium types of storage](/azure/storage/common/storage-introduction). To be in a supported configuration, you must use premium storage for the servers running SharePoint Server that host the search role. Microsoft recommends that you use premium storage for all VMs running SQL Server or SharePoint Servers. Other VMs in the farm, such as domain controllers and the VMs on the management subnet, can use standard storage.
   
 ### Step 4: Identity
 
-SharePoint Server 2016 requires Windows Server AD domain membership. Therefore, a SharePoint Server 2016 farm in Azure must have access to an Windows Server AD domain either with VMs acting as domain controllers or with [Azure Active Directory (AD) Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview).
+SharePoint Server requires Windows Server AD domain membership. Therefore, a SharePoint Server farm in Azure must have access to an Windows Server AD domain either with VMs acting as domain controllers or with [Azure Active Directory (AD) Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview).
   
 When using VMs acting as domain controllers:
   
@@ -327,7 +327,7 @@ Here are the minimum recommended VM sizes:
     
 Addresses for network interfaces:
   
-- Use static private IP addresses for all interfaces of VMs that are domain controllers or running SharePoint Server 2016 or SQL Server.
+- Use static private IP addresses for all interfaces of VMs that are domain controllers or running SharePoint Server or SQL Server.
     
 - Use a public IP address only for the jumpbox VM.
     
@@ -365,9 +365,9 @@ For the VMs, fill in the following table before creating them, using as many row
    
 ## Next steps
 
-If you are ready to create a proof-of-concept or dev/test configuration of an intranet SharePoint Server 2016 farm in Azure, see [Intranet SharePoint Server 2016 in Azure dev/test environment](intranet-sharepoint-server-2016-in-azure-dev-test-environment.md).
+If you are ready to create a proof-of-concept or dev/test configuration of an intranet SharePoint Server farm in Azure, see [Intranet SharePoint Server in Azure dev/test environment](intranet-sharepoint-server-in-azure-dev-test-environment.md).
   
-If you are ready to deploy a production-ready, high availability SharePoint Server 2016 farm in Azure, see [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md).
+If you are ready to deploy a production-ready, high availability SharePoint Server farm in Azure, see [Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md).
   
 ## See also
 
@@ -378,4 +378,4 @@ If you are ready to deploy a production-ready, high availability SharePoint Serv
 [Install SharePoint Server](../install/install.md)
 #### Other Resources
 
-[SharePoint Server 2016 in Microsoft Azure](sharepoint-server-2016-in-microsoft-azure.md)
+[SharePoint Server in Microsoft Azure](sharepoint-server-in-microsoft-azure.md)

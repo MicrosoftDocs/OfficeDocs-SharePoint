@@ -35,6 +35,8 @@ To manage app requests
 
 1. Expand **App Requests**, and then select **Pending**.
 
+   ![Screenshot of the left navigation showing the Pending page selected.](media/apps-pending-app-requests.png)
+
 To approve an app    
 1. In the **App Requests** list, select a request.
     
@@ -45,6 +47,8 @@ To approve an app
 1. If the app allows you to automatically add it to all sites, choose if you want to add it to all sites.
 
 1. Confirm the data access required by the app by selecting **Confirm**.
+
+   ![Screenshot of the Confirm data access dialog box.](media/app-confirm-data-access.png)
 
 1. If the app requires additional permissions, go to the API access page to approve those permissions.
 

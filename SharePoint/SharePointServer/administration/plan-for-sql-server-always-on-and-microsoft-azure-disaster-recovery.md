@@ -656,7 +656,7 @@ As a final note, you have to review and validate your plan for falling back to t
 
 #### Other Resources
 
-[SharePoint Server 2016 in Microsoft Azure](sharepoint-server-2016-in-microsoft-azure.md)
+[SharePoint Server in Microsoft Azure](sharepoint-server-in-microsoft-azure.md)
 
 [What workloads can you protect with Azure Site Recovery?](/azure/site-recovery/site-recovery-workload)
 
