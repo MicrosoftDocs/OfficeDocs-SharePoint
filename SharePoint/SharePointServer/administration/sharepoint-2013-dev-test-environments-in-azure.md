@@ -408,7 +408,7 @@ From the Central Administration SharePoint site, you can configure My sites, Sha
 ## Create a SharePoint 2016 dev/test farm
 <a name="powershell"> </a>
 
-See the instructions in [SharePoint Server 2016 dev/test environment in Azure](./sharepoint-server-2016-dev-test-environment-in-azure.md) to create the following single-server, SharePoint 2016 dev/test farm:. 
+See the instructions in [SharePoint Server dev/test environment in Azure](./sharepoint-server-dev-test-environment-in-azure.md) to create the following single-server, SharePoint dev/test farm:. 
   
 ![The single-server SharePoint 2016 farm in Azure.](../media/8cf51483-ecef-4ba4-a9fc-952716ff8132.png)
   
@@ -416,4 +416,4 @@ See the instructions in [SharePoint Server 2016 dev/test environment in Azure](.
 
 [Technical diagrams for SharePoint Server](../technical-reference/technical-diagrams.md)
 
-[SharePoint Server 2016 dev/test environment in Azure](./sharepoint-server-2016-dev-test-environment-in-azure.md)
+[SharePoint Server dev/test environment in Azure](./sharepoint-server-dev-test-environment-in-azure.md)
