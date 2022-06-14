@@ -18,70 +18,71 @@ description: "Learn how to plan and manage capacity and performance for SharePoi
 
 # Capacity planning for SharePoint Server 2013
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
-
-This article describes how to plan the capacity of a SharePoint Server 2013 farm. When you have a good appreciation and understanding of capacity planning and management, you can apply your knowledge to system sizing. Sizing is the term used to describe the selection and configuration of appropriate data architecture, logical and physical topology, and hardware for a solution platform. There is a range of capacity management and usage considerations that affect how you should determine the most appropriate hardware and configuration options.
-
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
+  
+This article describes how to plan the capacity of a SharePoint Server 2013 farm. When you have a good appreciation and understanding of capacity planning and management, you can apply your knowledge to system sizing. Sizing is the term used to describe the selection and configuration of appropriate data architecture, logical and physical topology, and hardware for a solution platform. There's a range of capacity management and usage considerations that affect how you should determine the most appropriate hardware and configuration options.
+  
 Before you read this article, you should read [Capacity management and sizing overview for SharePoint Server 2013](/previous-versions/office/ff758647(v=office.15)).
 
 > [!IMPORTANT]
-> Some information and values in this article are based on test results and other information related to SharePoint 2010 Products and may not represent the final values for SharePoint Server 2013.
 
-In this article, we describe the steps you should take to undertake effective capacity management for your environment. Each step requires certain information for successful execution, and has a set of deliverables that you will use in the subsequent step. For each step, these requirements and deliverables are outlined in tables.
-
+> Some information and values in this article are based on test results and other information related to SharePoint 2010 Products and may not represent the final values for SharePoint Server 2013. 
+  
+In this article, we describe the steps you should take to undertake effective capacity management for your environment. Each step requires certain information for successful execution, and has a set of deliverables that you'll use in the subsequent step. For each step, these requirements and deliverables are outlined in tables.
+  
+    
 ## Step 1: Model
 <a name="step1"> </a>
 
-Modeling your SharePoint Server 2013-based environment begins with analyzing your existing solutions and estimating the expected demand and targets for the deployment you're planning to set up. You start by gathering information about your user base, data requirements, latency and throughput targets, and document the SharePoint Server 2013 features you want to deploy. Use this section to understand what data you should collect, how to collect it, and how it can be used in subsequent steps.
-
+Modeling your SharePoint Server 2013-based environment begins with analyzing your existing solutions and estimating the expected demand and targets for the deployment you're planning to set up. You start by gathering information about your user base, data requirements, latency and throughput targets, and document the SharePoint Server 2013 features you want to deploy. Use this section to understand what data you should collect, how to collect it, and how it can be used in subsequent steps. 
+  
 ### Understand your expected workload and dataset
 
-Proper sizing of a SharePoint Server 2013 implementation requires that you study and understand the demand characteristics that your solution is expected to handle. To understand the demand, you need to describe the following elements:
-
-- **Workload characteristics**: For example, the number of users and the most frequently used operations
-- **Dataset characteristics**: For example, the content size and content distribution.
-
-This section can help you understand some specific metrics and parameters you should collect and mechanisms by which they can be collected.
-
+Proper sizing of a SharePoint Server 2013 implementation requires that you study and understand the demand characteristics that your solution is expected to handle. Understanding the demand requires that you'll be able to describe both the workload characteristics such as number of users and the most frequently used operations, and dataset characteristics such as content size and content distribution.
+  
+This section can help you understand some specific metrics and parameters you should collect and mechanisms by which they can be collected. 
+  
 #### Workload
 
 Workload describes the demand that the system will need to sustain, the user base and usage characteristics. The following table provides some key metrics that are helpful in determining your workload. You can use this table to record these metrics as you collect them.
 
 |Workload Characteristics|Value|
-|---|---|
-|Average daily RPS||
-|Average RPS at peak time||
-|Total number of unique users per day||
-|Average daily concurrent users||
-|Peak concurrent users at peak time||
-|Total number of requests per day||
-|Expected workload distribution|No. of Requests per day %|
-|Web Browser - Search Crawl||
-|Web Browser - General Collaboration Interaction||
-|Web Browser - Social Interaction||
-|Web Browser - General Interaction||
-|Web Browser - Office Web Apps||
-|Office Clients||
-|OneNote Client||
-|SharePoint Workspace||
-|Outlook RSS Sync||
-|Outlook Social Connector||
-|Other interactions(Custom Applications/Web services)||
-
-- **Concurrent users** - It's most common to measure the concurrency of operations executed on the server farm as the number of distinct users generating requests in a given time frame. The key metrics are the daily average and the concurrent users at peak load.
-
-- **Requests per second (RPS)** - RPS is a commonly used indicator used to describe the demand on the server farm expressed in the number of requests processed by the farm per second, but with no differentiation between the type or size of requests. Every organization's user base generates system load at a rate that's dependent on the organization's unique usage characteristics. For more information, see [Glossary](/previous-versions/office/sharepoint-server-2010/ff758647(v=office.14)#glossary).
-
-- **Total daily requests** - Total daily requests is a good indicator of the overall load the system will need to handle. It's most common to measure all requests except authentication handshake requests (HTTP status 401) over a 24-hour period.
-
-- **Total daily users** - Total users is another key indicator of the overall load the system will need to handle. This measurement's the actual number of unique users in a 24-hour period, not the total number of employees in the organization.
-
+|:-----|:-----|
+|Average daily RPS  <br/> ||
+|Average RPS at peak time  <br/> ||
+|Total number of unique users per day  <br/> ||
+|Average daily concurrent users  <br/> ||
+|Peak concurrent users at peak time  <br/> ||
+|Total number of requests per day  <br/> ||
+|Expected workload distribution  <br/> ||
+|No. of Requests per day  <br/>||
+|Web Browser - Search Crawl  <br/> ||
+|Web Browser - General Collaboration Interaction  <br/> ||
+|Web Browser - Social Interaction  <br/> ||
+|Web Browser - General Interaction  <br/> ||
+|Web Browser - Office Web Apps  <br/> ||
+|Office Clients  <br/> ||
+|OneNote Client  <br/> ||
+|SharePoint Workspace  <br/> ||
+|Outlook RSS Sync  <br/> ||
+|Outlook Social Connector  <br/> ||
+|Other interactions(Custom Applications/Web services)  <br/> ||
+   
+- **Concurrent users** - It is most common to measure the concurrency of operations executed on the server farm as the number of distinct users generating requests in a given time frame. The key metrics are the daily average and the concurrent users at peak load. 
+    
+- **Requests per second (RPS)** - RPS is a commonly used indicator used to describe the demand on the server farm expressed in the number of requests processed by the farm per second, but with no differentiation between the type or size of requests. Every organization's user base generates system load at a rate that is dependent on the organization's unique usage characteristics. For more information, see [Glossary](/previous-versions/office/sharepoint-server-2010/ff758647(v=office.14)#glossary). 
+    
+- **Total daily requests** - Total daily requests is a good indicator of the overall load the system will need to handle. It is most common to measure all requests except authentication handshake requests (HTTP status 401) over a 24-hour period. 
+    
+- **Total daily users** - Total users is another key indicator of the overall load the system will need to handle. This measurement is the actual number of unique users in a 24-hour period, not the total number of employees in the organization. 
+    
     > [!NOTE]
-    > The number of total daily users can indicate the growth potential of the load on the farm. For example, if the number of potential users is 100k employees, 15k daily users indicates that the load may significantly grow over time as user adoption increases.
-
-- **Workload Distribution** - Understanding the distribution of the requests based on the client's applications that are interacting with the farm can help predict the expected trend and load changes after migrating to SharePoint Server 2013. As users transition to more recent client versions such as Office 2013, and start using the new capabilities new load patterns, RPS, and total requests are expected to grow. For each client, we can describe the number of distinct users using it in a time frame of a day, and the number of total requests that the client or feature generates on the server.
-
-    For example, the chart below shows a snapshot of a live internal Microsoft environment serving a typical social solution. In this example, you can see that most of the load is generated by the search crawler and typical end-user web browsing. You can also observe that there is significant load introduced by the Outlook Social Connector feature (6.2 percent of the requests).
+    > The number of total daily users can indicate the growth potential of the load on the farm. For example, if the number of potential users is 100k employees, 15k daily users indicates that the load may significantly grow over time as user adoption increases. 
+  
+- **Workload Distribution** - Understanding the distribution of the requests based on the client's applications that are interacting with the farm can help predict the expected trend and load changes after migrating to SharePoint Server 2013. As users transition to more recent client versions such as Office 2013, and start using the new capabilities new load patterns, RPS, and total requests are expected to grow. For each client, we can describe the number of distinct users using it in a time frame of a day, and the number of total requests that the client or feature generates on the server. 
+    
+    For example, the chart below shows a snapshot of a live internal Microsoft environment serving a typical social solution. In this example, you can see that most of the load is generated by the search crawler and typical end-user web browsing. You can also observe that there's significant load introduced by the Outlook Social Connector feature (6.2 percent of the requests).
+   
 
      ![Typical daily load distribution of requests](../media/Capacity-typicaldailyloaddistributionofrequests-users.gif)
 
@@ -111,8 +112,7 @@ To estimate your expected workload, collect the following information:
   For more information, see [Services and features](/previous-versions/office/sharepoint-server-2010/ff758647(v=office.14)#services-and-features). Focus on the identifying the interactions that may be unique to your deployment. Recognize the expected impact of such loads. For example, significant use of InfoPath Forms, Excel Service Calculations, and similar dedicated solutions.
 
 - Identify system operations such as Search incremental crawls, daily backups, profile sync timer jobs, web analytics processing, logging timer jobs and others.
-
-- Estimate the following itmes:
+- Estimate the following items:
   - The total number of users per day that are expected to utilize each capability.
   - Derive the estimated concurrent users and high-level Requests per second.
 
