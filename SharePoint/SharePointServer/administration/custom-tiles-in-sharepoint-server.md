@@ -1,5 +1,5 @@
 ---
-title: "Custom Tiles in SharePoint Servers 2016, 2019, and Subscription Edition"
+title: "Custom Tiles in SharePoint Server"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -18,7 +18,7 @@ ms.assetid: 8e7535ee-8a38-4878-aaf3-78b669f4aca8
 description: "This article describes Custom Tiles, which is one of the new features in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1)."
 ---
 
-# Custom Tiles in SharePoint Servers 2016, 2019, and Subscription Edition
+# Custom Tiles in SharePoint Server
 
 [!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)] 
   
@@ -58,7 +58,7 @@ The custom tile feature is not enabled by default. To enable the feature, do the
    ```
 
    > [!NOTE]
-   > If the feature is not available, then ensure your SharePoint farm is patched with at least Feature Pack 1 contained in all cumulative updates of SharePoint 2016 of November 2016 and later. To validate this, you can run the following PowerShell command. Your SharePoint build version should be at 16.0.4456.1004 or later.
+   > If the feature is not available, then ensure your SharePoint farm is patched with at least Feature Pack 1 contained in all cumulative updates of SharePoint Server of November 2016 and later. To validate this, you can run the following PowerShell command. Your SharePoint build version should be at 16.0.4456.1004 or later.
   
    ```powershell
    (Get-SPFarm).BuildVersion
