@@ -18,7 +18,7 @@ description: "Mover retirement timeline"
 # Mover.io retirement timeline
 
 >[!Important]
->**Attention businesses or those with EDU plans**: We will soon be retiring the legacy [Mover](https://app.mover.io) tool's ability to migrate from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm-egnyte-overview.md). Please use [Migration Manager](https://aka.ms/ODSP-MM) going forward.
+>**Attention businesses or those with EDU plans**: We will soon be retiring the legacy [Mover](https://app.mover.io) tool's ability to migrate from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm-egnyte-overview.md). Please use [Migration Manager](https://aka.ms/ODSP-MM), located in the SharePoint admin center, going forward.
 >
 >If you are currently in the middle of a Mover migration, you may continue using Mover until you finish your migration. However, you will not be able to create new connectors.  FastTrack led migrations are not impacted at this time.
 >
