@@ -45,7 +45,9 @@ The [standalone OneDrive sync app](https://support.microsoft.com/en-us/office/on
 
 We recommend that you upgrade to the latest available build before you deploy.
 
-For information on issues that can prevent folders from being moved, see [Fix problems with folder protection](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057#BKMK_FixProblems).
+<!---
+For information on issues that can prevent folders from being moved, see [Fix problems with folder protection](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057#BKMK_FixProblems). 
+--->
 
 > [!IMPORTANT]
 > If your organization is large and your users have a lot of files in their Desktop and Documents folders, make sure you roll out the configuration slowly to minimize the network impact of uploading files. For users who have a lot of files in their folders, consider using the setting [AutomaticUploadBandwidthPercentage](deploy-and-configure-on-macos.md#automaticuploadbandwidthpercentage) temporarily to minimize the network impact and then disable the setting once uploads are complete.
