@@ -96,8 +96,15 @@ This setting prevents the users from uploading files to other organizations by s
 The parameter for the **AllowTenantList** key is **TenantID** and its value is a string, which determines the tenants for whom the **Allow Tenant** setting is applicable. For the setting to be complete, this parameter also requires a boolean value to be set to it. If the boolean value is set to **True**, the tenant is allowed to sync.
 
 The example for this setting in the .plist file is:
-<br/>\<key\>AllowTenantList</key\><br/>\<dict><br/>\<key\>TenantId1</key\><br/>\<true/\><br/>\<key\>TenantId2</key\><br/>\<true/\><br/>\</dict>
-
+```xml
+<key>AllowTenantList</key>
+<dict>
+<key>TenantId1</key>
+<true/>
+<key>TenantId2</key>
+<true/>
+</dict>
+```
   
 ### AutomaticUploadBandwidthPercentage
 
@@ -127,8 +134,10 @@ This setting prevents the sync app from syncing libraries and folders shared fro
 Set the setting's value to **True**, to prevent the users from syncing OneDrive, SharePoint libraries, and folders with organizations other than the user's own organization. Set the value to **False** or don't enable the setting to allow the OneDrive, and SharePoint files to be synced with other organizations also.
 
 The example for this setting in the .plist file is:
-<br/>\<key\>BlockExternalSync\</key\><br/>\<(Bool)/\>
-
+```xml
+<key>BlockExternalSync</key>
+<(Bool)/>
+```
 
 ### BlockTenantList
 
@@ -143,7 +152,15 @@ Enable this setting by defining IDs for the **TenantID** parameter, which determ
 > In the list, inclusion of the tenant ID alone doesn't suffice. It's mandatory to set the boolean value to **True**  for the ID of each tenant who is to be blocked. 
 
 The example for this setting in the .plist file is:
-<br/>\<key\>BlockTenantList</key\><br/>\<dict><br/>\<key\>TenantId1</key\><br/>\<true/\><br/>\<key\>TenantId2</key\><br/>\<true/\><br/>\</dict>
+```xml
+<key>BlockTenantList</key>
+<dict>
+<key>TenantId1</key>
+<true/>
+<key>TenantId2</key>
+<true/>
+</dict>
+```
 
 ### DefaultFolderLocation
 
@@ -159,8 +176,15 @@ The following are the conditions governing the default folder location:
 -**Standalone**: The path will be created (if it doesn't already exist) after the user sets up the sync app. Only with the Standalone sync app you can prevent users from changing the location. 
 
 The example for this setting in the .plist file is:
-<br/> \<key\>DefaultFolder</key\><br/>\<dict><br/>\<key\>Path</key\><br/>\<string>(DefaultFolderPath)\</string><br/>\<key\>TenantId</key\><br/>\<string>(TenantID)\</string><br/>\</dict>
-
+```xml
+<key>DefaultFolder</key>
+<dict>
+<key>Path</key>
+<string>(DefaultFolderPath)</string>
+<key>TenantId</key>
+<string>(TenantID)</string>
+</dict>
+```
 
 ### DisableAutoConfig
 
@@ -171,8 +195,10 @@ This setting determines whether or not the Sync client can automatically sign in
 If you set this setting's value to 1, prevents Sync from automatically signing with an existing AAD credential that is made available to Microsoft applications
 
 The example for this setting in the .plist file is:
-<br/> \<key\>DisableAutoConfig</key\> <br/> \<integer\>1</integer\> <br/>
-
+```xml
+<key>DisableAutoConfig</key>
+<integer>1</integer>
+```
 
 ### DisableHydrationToast
 
@@ -183,8 +209,10 @@ This setting prevents toasts from appearing when applications cause file content
 If you set the setting's value to **True**, toasts do not appear when applications trigger the download of file contents.
 
 The example for this setting in the .plist file is:
-<br/> \<key\>DisableHydrationToast</key\><br/><(Bool)/\> <br/>
-
+```xml
+<key>DisableHydrationToast</key>
+<(Bool)/>
+```
 
 ### DisablePersonalSync
 
@@ -195,8 +223,10 @@ This setting blocks user from signing in and syncing files in personal OneDrive 
 If you set the setting's value to **True**, the users are prevented from adding or syncing personal accounts.
 
 The example for this setting in the .plist file is:
-<br/> \<key\>DisablePersonalSync\</key\>  <br/> \<(Bool)/\>  <br/>
-
+```xml
+<key>DisablePersonalSync</key>
+<(Bool)/>
+```
 
 ### DisableTutorial
 
@@ -207,7 +237,10 @@ This setting prevents the tutorial from being shown to the users after they set 
 If you set this setting's value to **True**, the tutorial is blocked from being shown to the users after they set up the OneDrive.
 
 The example for this setting in the .plist file is:
-<br/>\<key\>DisableTutorial\</key\><br/>\<(Bool)/\>
+```xml
+<key>DisableTutorial</key>
+<(Bool)/>
+```
 
 
 ### DownloadBandwidthLimited
@@ -219,8 +252,10 @@ This setting sets the maximum download throughput rate in kilobytes (KB)/sec for
 Set this setting's value to an integer between 50 KB/sec and the maximum rate is 100,000 KB/sec that determines the download throughput in KB/sec that the sync app can use.
 
 The example for this setting in the .plist file is:
-<br/> \<key\>DownloadBandwidthLimited\</key\>  <br/> \<integer\>(Download Throughput Rate in KB/sec)\</integer\>  <br/>
-
+```xml
+<key>DownloadBandwidthLimited</key>
+<integer>(Download Throughput Rate in KB/sec)</integer>
+```
 
 ### EnableAllOcsiClients
 
@@ -236,8 +271,10 @@ If you set this setting to **True** or don't set this setting, the **Office** ta
 If you set this setting to **False**, the **Office** tab is hidden in the sync app, and coauthoring and in-app sharing for Office files are disabled. The **User can choose how to handle Office files in conflict** setting acts as disabled, and when file conflicts occur, both copies of the file are kept. For more information about the settings in the sync app, see [Use Office applications to sync Office files that I open](https://support.office.com/article/8a409b0c-ebe1-4bfa-a08e-998389a9d823).
 
 The example for this setting in the .plist file is:
-<br/>\<key\>EnableAllOcsiClients\</key\><br/>\<(Bool)/\>
-
+```xml
+<key>EnableAllOcsiClients</key>
+<(Bool)/>
+```
 
 ### EnableODIgnore
 
@@ -251,11 +288,12 @@ Users will also see a message in the OneDrive activity center that explains why 
 Set this setting's value to an integer between 50 KB/sec and the maximum rate of 100,000 KB/sec that determines the download throughput in KB/sec that the sync app can use.
 
 The example for this setting in the .plist file is:
-<br/>
-\<key\>EnableODIgnore\</key\><br/> 
-\<array\><br/>
-\<string\>(Keyword such as *.PST)\</string\><br/>
-\</array\><br/>
+```xml
+<key>EnableODIgnore</key>
+<array>
+<string>(Keyword such as *.PST)</string>
+</array>
+```
 
 
 ### FilesOnDemandEnabled
@@ -277,7 +315,10 @@ If you set this setting to **True**, **FilesOnDemand** is enabled and the users 
 If you set this setting to **False**, **FilesOnDemand** is disabled and the users won't be able to turn it on.
 
 The example for this setting in the .plist file is:
-<br/> \<key\>FilesOnDemandEnabled</key\>  <br/> <(Bool)/\> <br/>
+```xml
+<key>FilesOnDemandEnabled</key>
+<(Bool)/>
+```
 
 
 ### HideDockIcon
@@ -289,7 +330,10 @@ This setting specifies whether a dock icon for OneDrive is shown.
 If you set this setting's value to **True**, the OneDrive dock icon is hidden even if the app is running.
 
 The example for this setting in the .plist file is:
-<br/> \<key\>HideDockIcon\</key\>  <br/> \<(Bool)/\>  <br/>
+```xml
+<key>HideDockIcon</key>
+<(Bool)/>
+```
 
 
 ### HydrationDisallowedApps
@@ -303,7 +347,11 @@ To enable this setting, you must define a string in JSON format as described bel
 "appID" can be either the BSD process name or the bundle display name. "MaxBuildVersion" denotes the maximum build version of the app that will be blocked. "MaxBundleVersion" denotes the maximum bundle version of the app that will be blocked.
 
 The example for this setting in the .plist file is:
-<br/> \<key\>HydrationDisallowedApps </key\><br/> <string\> `[{"ApplicationId":"appId","MaxBundleVersion":"1.1","MaxBuildVersion":"1.0"}, {"ApplicationId":"appId2","MaxBundleVersion":"3.2","MaxBuildVersion":"2.0"}]`</string\><br/><(Bool)/\> <br/>
+```xml
+<key>HydrationDisallowedApps </key>
+<string> [{"ApplicationId":"appId","MaxBundleVersion":"1.1","MaxBuildVersion":"1.0"}, {"ApplicationId":"appId2","MaxBundleVersion":"3.2","MaxBuildVersion":"2.0"}]</string>
+<(Bool)/>
+```
 
 
 ### KFMBlockOptIn
@@ -317,8 +365,10 @@ If you enable this setting, users aren't prompted with a window to protect their
 If you set this setting's value to 1, it will prevent Known Folder Move.  It you set the value to 2, it will redirect any  folders previously used for Known Folder Move back to the user’s device and stop the setting from running further.
 
 The example for this setting in the .plist file is:
-<br/> \<key\>KFMBlockOptIn</key\><br/> \<integer\>(1 or 2)</integer\> <br/> 
-
+```xml
+<key>KFMBlockOptIn</key>
+<integer>(1 or 2)</integer>
+```
 
 ### KFMBlockOptOut
 
@@ -329,8 +379,10 @@ This setting forces users to keep their Documents and Desktop folders directed t
 If you enable this setting, the **Stop protecting** button in the **Set up protection of important folders** window is disabled, and users receive an error if they try to stop syncing a known folder.
   
 The example for this setting in the .plist file is:
-<br/> \<key\>KFMBlockOptOut</key\><br/> \<(Bool)/\>  <br/>
-
+```xml
+<key>KFMBlockOptOut</key>
+<(Bool)/>
+```
 
 ### KFMOptInWithWizard
 
@@ -341,8 +393,10 @@ This setting displays a wizard that prompts users to move their Documents and De
 If you enable this setting and provide your tenant ID, users who are syncing their OneDrive will see the Known Folder Move wizard window when they're signed in. If they close the window, a reminder notification appears in the Activity Center until they move all their known folders. If a user has already redirected their known folders to a different OneDrive account, they will be prompted to direct their folders to the account for your organization (leaving existing files behind).
   
 The example for this setting in the .plist file is:
-<br/> \<key\>KFMOptInWithWizard</key\><br/>\<string\>(TenantID)\</string\><br/>
-
+```xml
+<key>KFMOptInWithWizard</key>
+<string>(TenantID)</string>
+```
 
 ### KFMSilentOptIn
 
@@ -353,16 +407,24 @@ Use this setting to redirect and move your users' Documents and/or Desktop folde
 You can move all folders at once or select the folders you want to move.  After a folder is moved, this setting won't affect that folder again.
 
 The example for this setting in the .plist file is:
-<br/> \<key\>KFMSilentOptIn</key\><br/>\<string\>(TenantID)\</string\><br/>
+```xml
+<key>KFMSilentOptIn</key>
+<string>(TenantID)</string>
+```
 
 If you enable this setting and provide your tenant ID, you can choose whether to display a notification to users after their folders have been redirected:
-<br/> \<key\>KFMSilentOptInWithNotification</key\><br/> \<(Bool)/\>  <br/>
+```xml
+<key>KFMSilentOptInWithNotification</key>
+<(Bool)/>
+```
 
 If you don't set any of the following settings, then the default setting will move all the folders (Desktop and Documents) into OneDrive.  If you want to specify which folder(s) to move, you should set any combination of the following settings:
-
-<br/> \<key\>KFMSilentOptInDesktop</key\><br/> \<(Bool)/\> 
-<br/> \<key\>KFMSilentOptInDocuments</key\><br/> \<(Bool)/\>  <br/>
-
+```xml
+<key>KFMSilentOptInDesktop</key>
+<(Bool)/>
+<key>KFMSilentOptInDocuments</key>
+<(Bool)/>
+```
 
 ### OpenAtLogin
 
@@ -373,8 +435,10 @@ This setting specifies whether OneDrive starts automatically when the user logs 
 If you set this setting's value to **True**, OneDrive starts automatically when the user logs in on Mac.
 
 The example for this setting in the .plist file is:
-<br/> \<key\>OpenAtLogin\</key\>  <br/> \<(Bool)/\>  <br/>
-
+```xml
+<key>OpenAtLogin</key>
+<(Bool)/>
+```
 
 ### SharePointOnPremFrontDoorUrl
 
@@ -385,7 +449,10 @@ This setting specifies the SharePoint Server 2019 on-premises URL that the OneDr
 To enable this setting, you must define a string containing the URL of the on-premises SharePoint Server.
 
 The example for this setting in the .plist file is:
-<br/> \<key\>SharePointOnPremFrontDoorUrl</key\> <br/>\<string\>`https://Contoso.SharePoint.com\`</string\> <br/>
+```xml
+<key>SharePointOnPremFrontDoorUrl</key>
+<string>https://Contoso.SharePoint.com\</string>
+```
 
 [More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/new-onedrive-sync-client)
 
@@ -399,8 +466,10 @@ This setting determines whether or not the client should set up sync for SharePo
 If you set this setting's value to **1**, it is an indication that OneDrive should set up SharePoint Server on-premises first, followed by SharePoint in Microsoft 365.
 
 The example for this setting in the .plist file is:
-<br/> \<key\>SharePointOnPremPrioritizationPolicy</key\> <br/> \<integer\>(0 or 1)</integer\> <br/>
-
+```xml
+<key>SharePointOnPremPrioritizationPolicy</key>
+<integer>(0 or 1)</integer>
+```
 
 ### SharePointOnPremTenantName
 
@@ -416,7 +485,10 @@ If you do not specify any TenantName, the folder will use the first segment of t
 <br/> OneDrive – Contoso <br/> Contoso
 
 The example for this setting in the .plist file is:
-<br/> \<key\>SharePointOnPremTenantName</key\> <br/> \<string\>Contoso</string\> <br/>
+```xml
+<key>SharePointOnPremTenantName</key>
+<string>Contoso</string>
+```
 
 [More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/new-onedrive-sync-client)
 
@@ -443,8 +515,10 @@ For more information on the builds currently available in each ring, see the [On
 | ~/Library/Preferences/com.microsoft.OneDriveUpdater.plist <br/> |com.microsoft.OneDriveUpdater  <br/> |
 
 The example for this setting in the .plist file is:
-<br/> \<key\>Tier\</key\>  <br/> \<string\>(UpdateRing)\</string\>  <br/> 
-
+```xml
+<key>Tier</key>
+<string>(UpdateRing)</string>
+```
 
 ### UploadBandwidthLimited
 
@@ -455,4 +529,7 @@ This setting defines the maximum upload throughput rate in KB/sec for computers 
 To enable this setting, set a value between 50 and 100,000 that is the upload throughput rate the sync app can use.
 
 The example for this setting in the .plist file is:
-<br/> \<key\>UploadBandwidthLimited\</key\>  <br/> \<integer\>(Upload Throughput Rate in KB/sec)\</integer\>  <br/>
+```xml
+<key>UploadBandwidthLimited</key>
+<integer>(Upload Throughput Rate in KB/sec)</integer>
+```
