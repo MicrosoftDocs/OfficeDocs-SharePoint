@@ -89,7 +89,7 @@ When mapping please ensure that each Service Account has its own unique matching
 
 Asterisk (\*) = optional folder
 
-**NEXT:** [**Step 3: Copy to migrations**](mm-dropbox-step3-copy-to-migrations.md)
+## [**Step 3: Copy to migrations**](mm-dropbox-step3-copy-to-migrations.md)
 
 > [!NOTE]
 > Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China.
