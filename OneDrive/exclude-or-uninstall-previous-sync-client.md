@@ -1,8 +1,8 @@
 ---
 title: "Control Groove.exe installation when deploying Office using Click-to-Run"
 ms.reviewer: 
-ms.author: adjoseph
-author: adeejoseph
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: Admin
 f1.keywords:

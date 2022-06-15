@@ -1,8 +1,8 @@
 ---
 title: "Recommended sync app configuration"
 ms.reviewer: gacarini
-ms.author: adjoseph
-author: adeejoseph
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: ITPro
 f1.keywords:
