@@ -1,6 +1,6 @@
 ---
 title: "Guided walkthrough: Creating a training site for your organization"
-ms.reviewer: 
+ms.reviewer:
 ms.author: matteva
 author: MattEEvans
 manager: pamgreen
@@ -11,10 +11,11 @@ f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
-ms.collection:  
+ms.collection:
 - Strat_SP_admin
 - M365-collaboration
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
@@ -26,21 +27,21 @@ description: "In this article, you'll learn how to convert a site into a hub sit
 
 In this article, we show you elements of an example Training site to inspire you, and help you learn how to create similar sites for your own organization. This example site provides info about a specific event and guides the user toward learning and registration. It relies on visual impact to engage and motivate the visitor.
 
-First, if you haven't already created a Communication site, check out the [Create your site](#create-your-site) section in this article.  If you need to learn how to edit and publish the page on your site, check out the section [Edit, work with sections and web parts, and publish](#manage-sections-and-web-parts) in this article.
+First, if you haven't already created a Communication site, check out the [Create your site](#create-your-site) section in this article. If you need to learn how to edit and publish the page on your site, check out the section [Edit, work with sections and web parts, and publish](#manage-sections-and-web-parts) in this article.
 
 Once you have your created your site and know how to edit pages, you can use the guidance below to add the elements shown.
-  
+
 ## Example Training site
 
-|  Image of the homepage               |  Customization instructions                |
-| :------------------- | :------------------- |
-|    ![Image of the Training site landing page](media/ts-1.png)  | **1. Logo and site classification** Customize your logo and classify your site. [*Learn how*](#logo-and-site-classification) <br> <br>**2. Create impact** Use the hero web part to visually communicate your value. [*Learn how*](#create-impact-with-the-hero-web-part)<br> <br>**3. Guide users to key action** Lead visitors to register or discover more. [*Learn how*](#guide-users-to-key-actions-with-quick-links)<br> <br>**4. Describe the event** Use text to describe the "what" and "why" of the event. [*Learn how*](#describe-the-event-with-the-text-web-part)<br> <br>**5. Use images with links** Increase visibility and link to detailed agenda pages. [*Learn how*](#use-images-with-links)<br> <br>**6. Highlight detailed information** Images can define areas of important information.  [*Learn how*](#use-images-with-links)<br> <br>**7. Show event dates** Provide an event calendar so users can plan their schedules.  [*Learn how*](#show-event-dates)<br> <br>**8. Add a map** Use a map to help users get to where they need to be.  [*Learn how*](#add-maps-with-the-bing-maps-web-part)<br> <br>**9. Provide on-page registration** Add a form for easy registration.  [*Learn how*](#add-forms-for-registration)|
+|Image of the homepage|Customization instructions|
+|---|---|
+|![Image of the Training site landing page](media/ts-1.png)|**1. Logo and site classification** Customize your logo and classify your site. [*Learn how*](#logo-and-site-classification) <p> **2. Create impact** Use the hero web part to visually communicate your value. [*Learn how*](#create-impact-with-the-hero-web-part) <p> **3. Guide users to key action** Lead visitors to register or discover more. [*Learn how*](#guide-users-to-key-actions-with-quick-links) <p> **4. Describe the event** Use text to describe the "what" and "why" of the event. [*Learn how*](#describe-the-event-with-the-text-web-part) <p> **5. Use images with links** Increase visibility and link to detailed agenda pages. [*Learn how*](#use-images-with-links) <p> **6. Highlight detailed information** Images can define areas of important information. [*Learn how*](#use-images-with-links) <p> **7. Show event dates** Provide an event calendar so users can plan their schedules. [*Learn how*](#show-event-dates) <p> **8. Add a map** Use a map to help users get to where they need to be. [*Learn how*](#add-maps-with-the-bing-maps-web-part) <p> **9. Provide on-page registration** Add a form for easy registration. [*Learn how*](#add-forms-for-registration)|
 
 ## Create your site
 
-To make a site like the one shown here, you'll create a [Communication site](https://support.microsoft.com/office/use-the-sharepoint-topic-showcase-and-blank-communication-site-templates-94a33429-e580-45c3-a090-5512a8070732). To do this, select **Create site** from the SharePoint start page (or, if you're going to associate this site with a Hub site, navigate to the hub site and select **Create site** there so that the communication site is automatically associated with that hub site). 
+To make a site like the one shown here, you'll create a [Communication site](https://support.microsoft.com/office/use-the-sharepoint-topic-showcase-and-blank-communication-site-templates-94a33429-e580-45c3-a090-5512a8070732). To do this, select **Create site** from the SharePoint start page (or, if you're going to associate this site with a Hub site, navigate to the hub site and select **Create site** there so that the communication site is automatically associated with that hub site).
 
-![Image of the Create site option](media/ts-2.png) 
+![Image of the Create site option](media/ts-2.png)
 
 Next, choose **Communication site**, and then the **Topic** layout. Fill out your site name, description, and other information, and select **Finish**. Then you'll get a template with the same type of layout as the example in this article.
 
@@ -101,11 +102,11 @@ For more details on using pages, see [Create and use modern pages on a SharePoin
 
 Let your visitors know the focus of your Workshop with the Hero web part. The layout used in this example is **Two tiles**.
 
-**Hero layout: Tiles or Layers**
+**Hero layout: Tiles or Layers**:
 
 Editing the web part presents layout options. The **Tiles** option presents layouts for between one and five tiles. The **Layers** option sets each image as a layer with the image next to the title. Up to five layers are possible allowing one web part to create an entire page.
 
-**Each tile can be edited**
+**Each tile can be edited**:
 
 Use the **Move item** control on the left to rearrange the tiles within the Hero web part. Controls on the right allow you to **Edit details** adjusting the text and image used, **Set focal point** for the hover animation, plus **Zoom in** and **Zoom out** of the image.
 
@@ -133,7 +134,7 @@ For more details on using the Events web part, see [Use the Events web part](htt
 
 The leadership drop quote and the Monthly Q&A descriptions use the Text web part. This web part allows basic text formatting for creating fixed sections of formatted text.
 
-When editing text, this web part will offer basic formatting tools to set styles and add enhancements like **bold** and *italics*. Clicking the … control at the right end of the formatting toolbar offers additional options to the right of the web part.
+When editing text, this web part will offer basic formatting tools to set styles and add enhancements like **bold** and *italics*. Clicking the ... control at the right end of the formatting toolbar offers additional options to the right of the web part.
 
 In this Workshop site example shown above, the web part is in a one-column section.
 
@@ -177,7 +178,7 @@ For more details on using the Bing Maps web part, see [Use the Bing Maps web par
 
 ## Add forms for registration
 
-If you created a form for registration using [Microsoft Forms](https://support.microsoft.com/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d), you can place that form directly on the page with the Microsoft Forms web part. It's an easy way for attendees to fill out their information, and an easy way for you to collect it. 
+If you created a form for registration using [Microsoft Forms](https://support.microsoft.com/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d), you can place that form directly on the page with the Microsoft Forms web part. It's an easy way for attendees to fill out their information, and an easy way for you to collect it.
 
 ![Image of the Microsoft forms web part](media/ts-17.png)
 

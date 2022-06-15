@@ -9,6 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: one-drive
+ms.custom: onedrive-toc
 ms.localizationpriority: medium
 description: "This article describes how global and SharePoint admins in Microsoft 365 can disable the 'Contact support' and 'Send feedback' features in the OneDrive sync app."
 ---
@@ -24,9 +25,7 @@ The OneDrive sync app (OneDrive.exe) allows users to contact Microsoft directly 
 
 As a global or SharePoint admin in Microsoft 365, you might want to disable these support features to prevent people in your organization from contacting Microsoft directly.
 
-If you disable these features, users can still select Get help to view help articles, but the Contact support link will no longer appear. The Send feedback command will be replaced with a Feedback command that opens the [OneDrive UserVoice page](https://onedrive.uservoice.com/) in a web browser so users can view and provide feature suggestions.
-
-[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
+If you disable these features, users can still select Get help to view help articles, but the Contact support link will no longer appear.
 
 The following screenshots show the changes after you disable the support features.
 

@@ -22,7 +22,7 @@ description: "Learn about the Federal Information Processing Standard (FIPS) wit
   
 SharePoint Server uses several Windows encryption algorithms for computing hash values that do not comply with Federal Information Processing Standard (FIPS) 140-2,  *Security Requirements for Cryptographic Modules*  . These algorithms are not used for security purposes; they are used for internal processing. For example, SharePoint Server uses MD5 to create hash values that are used as unique identifiers. 
   
-## 
+ 
 <a name="intro"> </a>
 
 Because SharePoint Server uses these algorithms, it does not support the Windows security policy setting that requires FIPS compliant algorithms for encryption and hashing. This Windows security policy is managed through the **FIPSAlgorithmPolicy** registry key in Windows, which is described in the "Configure FIPS policy for a mixed environment" section of the following topic: 

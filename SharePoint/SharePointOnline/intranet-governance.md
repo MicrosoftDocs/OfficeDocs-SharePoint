@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 - m365solution-spintranet
 - m365solution-scenario
+ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
@@ -111,7 +112,7 @@ A key intranet governance decision involves determining who can create a new int
 
 #### Implement a site request process for intranet sites
 
-You can easily [hide the option to create a new site](./manage-site-creation.md) in the SharePoint admin center. If you do so, you will want to create a process for users to request a new intranet site. Having a request process makes it easy to review and track site requests and ensures that your environment remains “tidy,” but if your review and approval process takes too long, it could be frustrating for your users. Your provisioning process can leverage a site design to ensure consistency or you can manually create sites to follow your design patterns. A key part of your provisioning process will be to ensure that new site owners have the appropriate guidance and training that they need to be successful when you fulfill their site requests.
+You can easily [hide the option to create a new site](./manage-site-creation.md) in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. If you do so, you will want to create a process for users to request a new intranet site. Having a request process makes it easy to review and track site requests and ensures that your environment remains “tidy,” but if your review and approval process takes too long, it could be frustrating for your users. Your provisioning process can leverage a site design to ensure consistency or you can manually create sites to follow your design patterns. A key part of your provisioning process will be to ensure that new site owners have the appropriate guidance and training that they need to be successful when you fulfill their site requests.
 
 #### Allow self-service site creation
 

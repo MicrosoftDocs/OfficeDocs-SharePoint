@@ -586,9 +586,85 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "SharePoint/SharePointOnline/monitor-apps.md",
+      "redirect_url": "/sharepoint/use-app-catalog",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "SharePoint/SharePointOnline/add-viva-connections-app,md",
       "redirect_url": "/viva/connections/add-viva-connections-app,md",
       "redirect_document_id": false
-    }
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/viva-connections-language.md",
+      "redirect_url": "/viva/connections/viva-connections-language",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/use-dashboard-web-part-on-home-site.md",
+      "redirect_url": "/viva/connections/use-dashboard-web-part-on-home-site",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/video-news-links.md",
+      "redirect_url": "/viva/connections/video-news-links",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/help-users-use-discover-view.md",
+      "redirect_url": "/sharepoint/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/planning-guide.md",
+      "redirect_url": "/sharepoint/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/let-users-sync-irm-protected-files.md",
+      "redirect_url": "/sharepoint/sharepoint-sync",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/let-users-connect-classic-sites-to-groups.md",
+      "redirect_url": "/sharepoint/modern-experience-sharing-permissions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/change-version-and-upgrade-settings.md",
+      "redirect_url": "/sharepoint/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/changes-to-company-name-extraction-in-sharepoint-online.md",
+      "redirect_url": "/sharepoint/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/manage-sharing.md",
+      "redirect_url": "/sharepoint/external-sharing-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/control-access-based-on-network-location-or-app.md",
+      "redirect_url": "/sharepoint/control-access-based-on-network-location",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/control-access-to-mobile-app-features.md",
+      "redirect_url": "/mem/intune/apps/app-protection-policy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/faqs-viva-connections-feed.md",
+      "redirect_url": "/viva/connections/faqs-viva-connections-feed",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "sharepoint/sharepointserver/administration/microsoft-identity-manager-in-sharepoint-server-2016.md",
+      "redirect_url": "/sharepoint/administration/microsoft-identity-manager-in-sharepoint-server",
+      "redirect_document_id": true
+    } 
+
   ]
 }

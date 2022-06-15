@@ -10,9 +10,12 @@ f1.keywords:
 ms.topic: article
 ms.service: one-drive
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Strat_OD_admin
 - M365-collaboration
+ms.custom:
+- admindeeplinkSPO
+- onedrive-toc
 search.appverid:
 - ODB160
 - ODB150
@@ -22,7 +25,7 @@ description: "Learn how the OneDrive sync app allows users to sync folders share
 
 # B2B Sync
 
-The OneDrive sync app now lets users sync libraries or folders in Microsoft SharePoint or Microsoft OneDrive that have been shared from other organizations. This scenario is often referred to as Business-to-Business (B2B) Collaboration. We're calling this new feature in the OneDrive sync app "B2B Sync". 
+The OneDrive sync app now lets users sync libraries or folders in Microsoft SharePoint or Microsoft OneDrive that have been shared from other organizations. This scenario is often referred to as Business-to-Business (B2B) Collaboration. We're calling this new feature in the OneDrive sync app "B2B Sync".
 
 Azure Active Directory (AAD) guest accounts play a key role in making B2B Collaboration possible. A guest account at one organization links to a member account at another organization. Once created, a guest account allows Microsoft 365 services like OneDrive and SharePoint to grant a guest permission to sites and folders the same way a member within the organization is granted permission. Since the accounts at two organizations are linked, the user only needs to remember the username and password for the account at their organization. As a result, a single sign-in to their account enables access to content from their own organization and from any other organizations that have created guest accounts for them.
 
@@ -43,7 +46,7 @@ This article gives an overview of the B2B Sync experience and describes these re
 
 ## Known issues with this release
 
-- On the Mac, Files On-Demand thumbnails will not display from external organization's sites. Thumbnails will display correctly for files from the user's own organization. 
+- On the Mac, Files On-Demand thumbnails will not display from external organization's sites. Thumbnails will display correctly for files from the user's own organization.
 - On the Mac, if the guest account was created with a different email address format than the form they are using with the sync app, the external site's content cannot be synced. For example, first.last@fabrikam.com vs alias@fabrikam.com.
 - On the Mac, the external content may be placed on the local computer in the user's own organization's folder instead of one with the external organization's name.
 - Multifactor authentication from an external organization is not yet supported. Only guest accounts that don't require MFA will sync.
@@ -69,8 +72,8 @@ Here's an example of what happens after someone at "Contoso" shares a site or fo
 5. If this is the first time the guest has used the sync app with their Fabrikam account, they'll need to sign in. The email address will be automatically set to the Fabrikam account used in the previous steps. The guest needs to select "Sign in."
 
 6. The guest might be able to sign in to the sync app without entering their Fabrikam password if they're signed in to Windows with the same account. Otherwise they'll need to enter their password.
- 
-7. The guest will confirm where they want to sync the shared item on their computer. 
+
+7. The guest will confirm where they want to sync the shared item on their computer.
 
     > [!NOTE]
     > The content is placed in a folder whose name includes the name of the organization ("SharePoint - Contoso" in this example). If the user is syncing SharePoint content from Fabrikam as well, they'll also have a "SharePoint - Fabrikam" folder.
@@ -86,7 +89,7 @@ In order for users at your organization to be able to share with their partners 
 You can change your organization-level sharing settings in two different places (both control the same thing):
 
 - On the Sharing page in the new SharePoint admin center. For more info, see [Change the organization-level external sharing setting](/sharepoint/turn-external-sharing-on-or-off#change-the-organization-level-external-sharing-setting)
-- In the Microsoft 365 admin center, on the Org settings page > SharePoint. 
+- In the Microsoft 365 admin center, on the Org settings page > SharePoint.
 
 > [!IMPORTANT]
 > If you allow Anyone links (sometimes referred to as "anonymous access" or "shareable"), these links do not create guest accounts and therefore the external share recipient will not be able to leverage B2B Sync when receiving that link type.
@@ -98,7 +101,7 @@ For more info, see [External sharing overview](/sharepoint/external-sharing-over
 When you allow users to share content from your organization externally, you can use several features in Microsoft 365 to manage who has access to the content. Admins and site owners can review permissions and audit access to sites. For info, see [Searching for site content shared with people outside your organization](/microsoft-365/compliance/keyword-queries-and-search-conditions#searching-for-site-content-shared-with-external-users) and [Turn on external sharing notifications](turn-on-external-sharing-notifications.md). You can enable external sharing with only specific internet domains, or you can block specific domains. For info, see [Restricted domains sharing](/sharepoint/restricted-domains-sharing). You can also allow only members of specific security groups to share externally. For info, see [Turn external sharing on or off](/sharepoint/turn-external-sharing-on-or-off).
 
 We recommend creating separate sites (site collections, not subsites) for each unit of work that you want to share externally. This way, you can clearly annotate the sites to indicate that people outside the organization have access, and avoid unintentional disclosure of information. For individual users sharing content from their OneDrive, we recommend creating separate folders for different projects or collaboration groups.
-  
+
 You can remove a guest's permission to a site or folder, or you can delete the guest account to remove their permission from all of your organization's content.
 
 > [!IMPORTANT]
@@ -108,15 +111,14 @@ You can remove a guest's permission to a site or folder, or you can delete the g
 
 To view or change the sharing setting for any site, use the new SharePoint admin center.
 
-1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">Active sites in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
     >[!Note]
-    >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
+    >If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
 2. Customize the view as necessary to see the External sharing column.
 
 3. If you need to, [change the external sharing setting for a site](/sharepoint/manage-sites-in-new-admin-center#change-the-external-sharing-setting-for-a-site).
-
 
 ## Methods of sharing
 
@@ -150,41 +152,39 @@ As users are added to the Azure AD Group, they should receive an email welcoming
 
 ![Accepting a sharing invitation](media/accept-invitation-message.png)
 
-
 ```PowerShell
-
 # first line of InviteGuests.ps1 PowerShell script
 # requires latest AzureADPreview
 # Get-Module -ListAvailable AzureAD*
 # Uninstall-Module AzureAD
 # Uninstall-Module AzureADPreview
 # Install-Module AzureADPreview
- 
- 
+
+
 # customizable properties for this script
- 
+
 $csvDir = ''
 $csvInput = $csvDir + 'BulkInvite.csv'
 $csvOutput = $csvDir + 'BulkInviteResults.csv'
- 
+
 $domain = 'YourTenantOrganization.onmicrosoft.com'
 $admin = "admin@$domain"
 $redirectUrl = 'https://YourTenantOrganization.sharepoint.com/sites/SiteName/'
 $groupName = 'SiteName'
- 
- 
+
+
 # CSV file expected format (with the header row):
 # Name,Email
 # Jane Doe,jane@contoso.com
- 
+
 $csv = import-csv $csvInput
- 
+
 # will prompt for credentials for the tenantorganization admin account
 # (who has permissions to send invites and add to groups)
 Connect-AzureAD -TenantDomain $domain -AccountId $admin
- 
+
 $group = (Get-AzureADGroup -SearchString $groupName)
- 
+
 foreach ($row in $csv)
 {
     Try
@@ -197,20 +197,20 @@ foreach ($row in $csv)
         else
         {
             echo ("name='$($row.Name)' email='$($row.Email)'")
- 
+
             $inv = (New-AzureADMSInvitation -InvitedUserEmailAddress $row.Email -InvitedUserDisplayName $row.Name `
                         -InviteRedirectUrl $redirectUrl -SendInvitationMessage $false)
- 
+
             $out = $row
             $out|Add-Member -MemberType ScriptProperty -force -name 'time' -Value {$(Get-Date -Format u)}
             $out|Add-Member -MemberType ScriptProperty -force -name 'status' -Value {$inv.Status}
             $out|Add-Member -MemberType ScriptProperty -force -name 'userId' -Value {$inv.InvitedUser.Id}
             $out|Add-Member -MemberType ScriptProperty -force -name 'redeemUrl' -Value {$inv.inviteRedeemUrl}
             $out|Add-Member -MemberType ScriptProperty -force -name 'inviteId' -Value {$inv.Id}
- 
+
             # this will send a welcome to the group email
             Add-AzureADGroupMember -ObjectId $group.ObjectId -RefObjectId $inv.InvitedUser.Id
- 
+
             $out|Add-Member -MemberType ScriptProperty -force -name 'error' -Value {'success'}
         }
     }
@@ -224,24 +224,25 @@ foreach ($row in $csv)
         $out | export-csv -Path $csvOutput -Append
     }
 }
- 
+
 # for more information please see
 # https://docs.microsoft.com/azure/active-directory/b2b/b2b-tutorial-bulk-invite
 # end of InviteGuests.ps1 powershell script
-``` 
+```
 
 For more info, see:
+
 - [Redemption experience](/azure/active-directory/b2b/redemption-experience)
 - [Add user without invite](/azure/active-directory/b2b/add-user-without-invite)
 
 ## When a guest loses access to shared content
- 
+
 If a person's guest account is deleted or their permission to shared content is removed, the sync app will display an error.
- 
+
 - A notification will appear indicating that the library can't be synced.
 
     ![We can't sync your document library notification](media/cant-sync-notification.png)
-    
+
 - The OneDrive icon in the notification area will show an error.
 
     ![OneDrive sync error icon](media/onedrive-error-icon.png)

@@ -21,7 +21,7 @@ description: "Find the set of overview and planning topics for user profiles and
   
 The following articles cover user profiles and identities in SharePoint Server .
   
-||**Content**|**Description**|
+|&nbsp;| Content | Description |
 |:-----|:-----|:-----|
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Overview of profile synchronization in SharePoint Server 2013](overview-of-profile-synchronization-in-sharepoint-server-2013.md) <br/> |Learn about profile synchronization in SharePoint Server 2013.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Overview of profile synchronization in SharePoint Server 2016](profile-synchronization-in-sharepoint-server-2013.md) <br/> |Learn about profile synchronization in SharePoint Server 2016.  <br/> |

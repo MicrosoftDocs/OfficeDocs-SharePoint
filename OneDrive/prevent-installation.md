@@ -11,6 +11,9 @@ f1.keywords:
 ms.topic: article
 ms.service: one-drive
 ms.localizationpriority: medium
+ms.custom:
+- admindeeplinkSPO
+- onedrive-toc
 search.appverid:
 - ODB160
 - ODB150
@@ -25,11 +28,9 @@ The Sync button helps users install and set up the new OneDrive sync app. If you
   
  **To prevent users from downloading the OneDrive sync app**
   
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings in the new SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
  
    > [!NOTE]
-   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. 
-   > 
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
 
 2. Select **Sync**.

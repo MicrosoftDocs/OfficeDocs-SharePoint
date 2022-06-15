@@ -19,6 +19,7 @@ mscollection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
+ms.custom: admindeeplinkSPO
 description: "Steps to connect to Google when using Migration Manager in the SharePoint Admin center."
 ---
 
@@ -26,7 +27,7 @@ description: "Steps to connect to Google when using Migration Manager in the Sha
 
 Sign in to your Google account and add the Microsoft 365 migration app to your Google account custom apps. 
 
-1. In the new SharePoint admin center, select [Migration Manager](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern). 
+1. In the new SharePoint admin center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">**Migration center**</a>. 
 2. Under **Google Workspace**, select **Get started**.
 3. Select **Connect to Google Workspace**. 
 4. On the *Install the migration app* page, select **Install and authorize** if you haven't already installed the Microsoft 365 migration app in the Google Workspace Marketplace. 
@@ -56,6 +57,6 @@ Sign in to your Google account and add the Microsoft 365 migration app to your G
 
 
 >[!NOTE]
->Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

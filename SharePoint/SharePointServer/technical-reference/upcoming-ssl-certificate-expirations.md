@@ -1,8 +1,8 @@
 ---
 title: "Upcoming SSL certificate expirations"
 ms.reviewer: 
-ms.author: v-bshilpa
-author: Benny-54
+ms.author: serdars
+author: serdars
 manager: serdars
 audience: ITPro
 f1.keywords:
