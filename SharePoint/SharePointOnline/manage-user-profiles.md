@@ -1,8 +1,8 @@
 ---
 title: "Manage user profiles in the SharePoint admin center"
 ms.reviewer: waynewin
-ms.author: serdars
-author: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin

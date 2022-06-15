@@ -1,8 +1,8 @@
 ---
 title: "Deploy and configure the new OneDrive sync app for Mac"
 ms.reviewer: 
-ms.author: adjoseph
-author: adeejoseph
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: Admin
 f1.keywords:
