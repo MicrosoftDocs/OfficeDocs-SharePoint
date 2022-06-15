@@ -1,8 +1,8 @@
 ---
 title: "Install the sync app per machine"
 ms.reviewer: gacarini
-ms.author: adjoseph
-author: adeejoseph
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: Admin
 f1.keywords:

@@ -65,6 +65,8 @@ An incremental check of your SharePoint destination environment is performed. Fi
 |Time stamp on files or object in the source location is newer in the source. |The newer files are migrated.  |
 |Source is a file share.  |Validation for migration will be based on the file/folder path.  |
 |Source is an on-premises SharePoint Server/  |Validation for migration will be based on list item GUID. Use the folder path as a fallback.  |
+|An already migrated file is renamed or path is changed but still in the same document library|Incremental migration will use the corresponding source file and overwrite the file.|
+|Migrated file is changed in the destination location, but file name remains the same|Incremental migration will not overwrite the changed file.|
 
 
 >[!NOTE]
