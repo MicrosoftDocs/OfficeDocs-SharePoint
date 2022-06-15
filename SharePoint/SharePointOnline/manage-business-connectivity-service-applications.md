@@ -1,8 +1,8 @@
 ---
 title: Manage Business Connectivity Service Applications
 ms.reviewer: abloesch
-ms.author: serdars
-author: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
