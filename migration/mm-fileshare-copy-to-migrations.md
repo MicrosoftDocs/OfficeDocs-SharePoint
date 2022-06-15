@@ -68,6 +68,9 @@ An incremental check of your SharePoint destination environment is performed. Fi
 |An already migrated file is renamed or path is changed but still in the same document library|Incremental migration will use the corresponding source file and overwrite the file.|
 |Migrated file is changed in the destination location, but file name remains the same|Incremental migration will not overwrite the changed file.|
 
+>[!Important]
+>We strongly recommend that you do not rename or move migrated files before the final migration has been completed.  Doing so will result in files being overwritten.
+
 
 >[!NOTE]
 >Migration Manager for file shares isn't available for users of Office 365 operated by 21Vianet in China. 

@@ -78,7 +78,7 @@ Upload your own users and groups mappings using the M
 3. Migrate the Google Shared Drive. If you didn't do it in step 2, re-establish the membership list of the Google Shared Drive in the destination document library in your SharePoint tenant.
 
 
-[**Step 6: Migrate and monitor**](mm-Google-step6-migrate-monitor.md)
+## [**Step 6: Migrate and monitor**](mm-Google-step6-migrate-monitor.md)
 
 
 >[!NOTE]
