@@ -45,7 +45,7 @@ After a Box user has been scanned and determined ready, add them to your migrati
 
 
 
-[**Step 4: Review destinations**](mm-box-step4-review-destinations.md)
+## [**Step 4: Review destinations**](mm-box-step4-review-destinations.md)
 
 
 >[!NOTE]
