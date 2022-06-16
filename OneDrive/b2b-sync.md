@@ -1,8 +1,8 @@
 ---
 title: "B2B Sync"
 ms.reviewer: cagreen
-ms.author: adjoseph
-author: adeejoseph
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: Admin
 f1.keywords:

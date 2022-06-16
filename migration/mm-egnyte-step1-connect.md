@@ -92,7 +92,7 @@ Your new Egnyte application lets you connect to your Egnyte account.  However, i
    **Text:**     I would like the user rate limits increased for my application [*enter application name*] to [*x calls*] per second and [*y calls*] per day.
 
 
-
+## [**Step 2: Scan and assess**](mm-egnyte-step2-scan-assess.md)
 
 
 

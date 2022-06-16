@@ -1,5 +1,5 @@
 ---
-title: "Step 2: Scan and assess Dropbox accounts using Migration Manager"
+title: "Step 2: Scan and assess Dropbox folders using Migration Manager"
 ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
@@ -18,27 +18,34 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-description: "Step 2:  Scan and assess Dropbox users using Migration Manager."
+description: "Step 2: Scan and assess Dropbox folders using Migration Manager."
 ---
 
-# Step 2: Scan and assess Dropbox
+# Step 2: Scan and assess Dropbox folders
 
-After you connect to Dropbox, the accounts are displayed automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
+After you connect to Dropbox, add the source paths to scan and assess your Dropbox folders. 
 
-A table summary appears at the top to give you an at-a-glance overview of your users and content size.
+1. Select **Add source paths** and choose a method; to find new in Dropbox, target a single source path, or bulk upload the source paths using a CSV file.
 
-![table summary of scanned sources](media/mm-dropbox-scan-summary.png)
+![add source paths manually in Dropbox](media/mm-dropbox-add-source-auto-scan.png)
 
-1. Select **Scan**. Review the scanned root folders. Search for specific text, or select a filter to review the list more easily.
-2. To include other sources, select **Add source path**. Choose to look for new sources, enter a specific source, or bulk upload many sources via a CSV file.
+2. After adding the source, highlight any or all of the accounts and then select **Scan**, unless you have selected to automatically scan content.
+
+>[!Important]
+> The total number cannot exceed 50,000 tasks.
+
+3. Once scan is complete, a table summary displays to give you an at-a-glance overview of your users. The summary includes content size, migration readiness, and any issues that need attention. 
+4. Review the scanned users. Search for specific text, or select a filter to review the list more easily.
+
+   ![Summary of scanned dropbox folders](media/mm-dropbox-scan-summary.png)
+
 
 ![download summary reports for dropbox](media/mm-dropbox-summary-report-menu.png)
 
-![Add Dropbox source paths](media/mm-dropbox-add-source-path.png)
 
 ## Download reports
 
-Summary and detailed scan reports are available to troubleshoot any issues.
+Summary and detailed scan reports are available to assist you in troubleshooting. Download the generated reports and logs to investigate any possible issues that might block your migration.
 
 1. Once the scan is complete, select **Download summary report**.
 
@@ -82,7 +89,7 @@ When mapping please ensure that each Service Account has its own unique matching
 
 Asterisk (\*) = optional folder
 
-**NEXT:** [**Step 3: Copy to migrations**](mm-dropbox-step3-copy-to-migrations.md)
+## [**Step 3: Copy to migrations**](mm-dropbox-step3-copy-to-migrations.md)
 
 > [!NOTE]
 > Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China.
