@@ -72,7 +72,6 @@
       "breadcrumb_path": "/sharepoint/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
       "uhfHeaderId": "MSDocsHeader-M365-IT",
-      "recommendations": true,
       "contributors_to_exclude": [
         "dstrome",
         "daswifty",
