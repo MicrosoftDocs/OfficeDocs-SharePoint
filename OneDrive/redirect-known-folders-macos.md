@@ -66,7 +66,7 @@ The following settings control the Folder Backup feature:
 
     If users dismiss the prompt, a reminder notification will appear in the activity center until they move all available folders.
 
-    If a user has already redirected their Desktop and Documents folders to a OneDrive in a different organization, they'll be prompted to direct the folders to your organization's OneDrive. This action will leave files in the user's former OneDrive account. These users will not see any files from their previous organization in the Desktop and Documents folders associated with your organization's OneDrive.
+    If a user's Desktop and Documents folders are currently redirected to OneDrive in a different organization, redirecting to your organization's OneDrive will create new Desktop and Documents folders and the user will see an empty desktop. The user will have to manually migrate files from the other organization's OneDrive to OneDrive in your organization. We recommend that you disable the redirect to the other organization before redirecting to your organization if possible.
 
     > [!IMPORTANT]
     > We recommend deploying the prompt policy for existing devices only, and limiting the deployment to 5,000 devices a day and not exceeding 20,000 devices a week between macOS and Windows.

@@ -41,7 +41,7 @@ For these reasons, we recommend moving or redirecting known folders to OneDrive 
 
 ## Prepare to move known folders on existing devices
 
-We recommend that you upgrade to the latest available build before you deploy to decrease deployment issues. Known Folder Move doesn't work for users syncing OneDrive files in SharePoint Server.
+We recommend that you upgrade to the latest available build before you deploy. Known Folder Move doesn't work for users syncing OneDrive files in SharePoint Server.
 
 To check eligibility on existing devices, data volume, and item counts as you decide on a rollout plan, and to later monitor progress of the rollout, use the Known Folder Move PowerShell script.
 
@@ -66,7 +66,7 @@ The following policies control the Known Folder Move feature:
 
     ![Screenshot of the notification that reminds users to protect their important folders](media/protect-important-folders-notification.png)
 
-    If a user has already redirected their known folders to a different OneDrive account, they'll be prompted to direct the folders to the account for your organization (leaving existing files behind).
+    If a user's Desktop and Documents folders are currently redirected to OneDrive in a different organization, redirecting to your organization's OneDrive will create new Desktop and Documents folders and the user will see an empty desktop. The user will have to manually migrate files from the other organization's OneDrive to OneDrive in your organization. We recommend that you disable the redirect to the other organization before redirecting to your organization if possible.
 
     > [!IMPORTANT]
     > We recommend deploying the prompt policy for existing devices only, and limiting the deployment to 5,000 devices a day and not exceeding 20,000 devices a week between macOS and Windows.
