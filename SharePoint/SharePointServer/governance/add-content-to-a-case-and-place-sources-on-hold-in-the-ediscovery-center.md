@@ -1,8 +1,8 @@
 ---
 title: "Add content to a case and place sources on hold in the eDiscovery Center"
 ms.reviewer: 
-ms.author: MARKJJO
-author: MARKJJO
+ms.author: v-tophillips
+author: v-tophillips
 manager: serdars
 ms.date: 
 audience: ITPro
@@ -116,7 +116,7 @@ This procedure creates an eDiscovery Set and adds content sources to it. To also
     
 2. Click to the left of the eDiscovery Set to select it, so that a check mark appears besides its name.
     
-3. Click the three dots **…** to display the **Open Menu**.
+3. Click the three dots **...** to display the **Open Menu**.
     
 4. Click **Delete Item**.
     

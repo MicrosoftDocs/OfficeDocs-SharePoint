@@ -30,7 +30,23 @@ Download and install SPMT using one of the links listed below.
 
 | Release |**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.5.123.3](https://aka.ms/spmt-beta-page)|[3.4.122.4](https://aka.ms/spmt-ga-page)|[3.4.121.7](https://aka.ms/spmt-ga-page)|[3.4.122.4](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.5.123.4](https://aka.ms/spmt-beta-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|[3.4.122.4](https://aka.ms/spmt-ga-page)|
+
+
+
+## SPMT 3.5.123.4
+
+**New features**
+
+|Feature|Description|
+|:-----|:-----|
+|Workflow migration|The migration of SharePoint Server 2010 out-of-the-box (OOTB) workflows and approval and collect feedback workflows to Power Automate is now supported. You can also select the Power Automate destination environment in the migration task creation flow.|
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
 
 
 ## SPMT 3.5.123.3

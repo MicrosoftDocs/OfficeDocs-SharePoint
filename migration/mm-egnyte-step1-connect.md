@@ -43,10 +43,10 @@ Create an Egnyte Connect API application. Creating an application will generate 
 |Field|Suggested entry|
 |:-----|:----|
 |Name of your application |My migration app|
-|Type|Internal application |
+|Type|Publicly Available Application|
 |Current user base|New app|
-|Platform |Web App|
-|Egnyte domain that you will use for testing | Enter your organizations Egnyte domain|
+|Platform |Needn't select any option|
+|Egnyte domain that you will use for testing | Leave this field empty|
 
 
 Under **Select which Web APIs you will use**, select:
@@ -92,7 +92,7 @@ Your new Egnyte application lets you connect to your Egnyte account.  However, i
    **Text:**     I would like the user rate limits increased for my application [*enter application name*] to [*x calls*] per second and [*y calls*] per day.
 
 
-
+## [**Step 2: Scan and assess**](mm-egnyte-step2-scan-assess.md)
 
 
 

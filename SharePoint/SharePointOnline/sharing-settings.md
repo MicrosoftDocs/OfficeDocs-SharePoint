@@ -20,7 +20,7 @@ ms.custom:
 search.appverid:
 - SPO160
 - MET150
-ms.assetid: 
+ROBOTS: NOINDEX
 description: "In this article, you'll learn where to find sharing settings in the new SharePoint admin center."
 ---
 

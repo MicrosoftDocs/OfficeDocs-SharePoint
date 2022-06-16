@@ -1,8 +1,8 @@
 ---
 title: "Control Groove.exe installation when deploying Office using Click-to-Run"
 ms.reviewer: 
-ms.author: adjoseph
-author: adeejoseph
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -18,6 +18,7 @@ search.appverid:
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom: onedrive-toc
 ms.assetid: 3eff17b9-c709-462f-946c-17719af68aca
 description: "Learn how the previous OneDrive for Business sync app (Groove.exe) is excluded or uninstalled with Office Click-to-Run installations."
 ---

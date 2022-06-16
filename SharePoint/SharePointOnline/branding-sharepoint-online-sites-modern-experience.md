@@ -55,7 +55,7 @@ Below is a summary of the differences between branding a site in the classic exp
 | Classic experience | Modern experience |
 |:-----|:-----|
 |Unresponsive, OOB themes that you can customize|Responsive themes that look great on any device and can be customized to match your brand|
-|Use custom master pages and CSS that are ignored in the modern experience|Use the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) to add header and footer, customize theme colors, etc.|
+|Use custom master pages and CSS that are ignored in the modern experience|Use the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) to add headers and footers. Site templates and tenant settings offer some custom options|
 
 ## Before you begin
 

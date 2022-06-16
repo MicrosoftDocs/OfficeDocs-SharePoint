@@ -1,5 +1,5 @@
 ---
-title: "Configure connectivity from Microsoft 365 to SharePoint Server"
+title: Configure connectivity from Microsoft 365 to SharePoint Server
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -17,7 +17,7 @@ ms.collection:
 - SPO_Content
 ms.custom: admindeeplinkSPO
 ms.assetid: 91274b73-f7be-4066-a4ab-ec30af30016e
-description: "Learn how to configure inbound connectivity for SharePoint hybrid."
+description: Learn how to configure inbound connectivity for SharePoint hybrid.
 ---
 
 # Configure connectivity from Microsoft 365 to SharePoint Server
@@ -221,7 +221,7 @@ New-SPSite 'https://spexternal.adventureworks.com' -HostHeaderWebApplication 'ht
 
 Where:
   
-- https://spexternal.adventureworks.com is the URL of the host-named site collection. This URL must be identical to the External URL. 
+- `https://spexternal.adventureworks.com` is the URL of the host-named site collection. This URL must be identical to the External URL. 
     
 - https://sharepoint is the web application that the site collection is created in. 
     

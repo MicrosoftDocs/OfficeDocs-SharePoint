@@ -23,6 +23,6 @@ There are several options for creating test environments for SharePoint Server.
   
  **Hyper-V** - Use Windows Server Hyper-V to build a test environment for SharePoint Server 2013. Learn about the SharePoint deployment process and how to configure solutions for user authentication, sites, eDiscovery, and high availability. See [Test lab guides for SharePoint Server 2013](test-lab-guides.md) for details. 
   
- **Microsoft Azure** - Use Microsoft Azure infrastructure services to create test environments for SharePoint Server 2013 and SharePoint Server 2016. Take advantage of Azure Resource Manager templates for SharePoint and create an environment that you can scale up or down as needed. See [SharePoint 2013 dev/test environments in Azure](sharepoint-2013-dev-test-environments-in-azure.md) and [SharePoint Server 2016 in Microsoft Azure](sharepoint-server-2016-in-microsoft-azure.md) for details. 
+ **Microsoft Azure** - Use Microsoft Azure infrastructure services to create test environments for SharePoint Server 2013 and SharePoint Server 2016. Take advantage of Azure Resource Manager templates for SharePoint and create an environment that you can scale up or down as needed. See [SharePoint 2013 dev/test environments in Azure](sharepoint-2013-dev-test-environments-in-azure.md) and [SharePoint Server in Microsoft Azure](sharepoint-server-in-microsoft-azure.md) for details. 
   
 

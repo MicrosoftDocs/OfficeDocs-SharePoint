@@ -22,7 +22,7 @@ description: "In SharePoint Server Subscription Edition, People Picker is enhanc
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-When modern authentication (a trusted identity provider) such as SAML 1.1 or OIDC 1.0 is used, the People Picker control can’t search, resolve, and validate users and groups without writing a custom claim provider through C#.
+When modern authentication (a trusted identity provider) such as SAML 1.1 or OIDC 1.0 is used, the People Picker control can't search, resolve, and validate users and groups without writing a custom claim provider through C#.
 
 In SharePoint Server Subscription Edition, the People Picker has been enhanced to allow resolving users and groups based on their profiles in the User Profile Application (UPA). UPA must be configured to synchronize users and groups from the trusted identity provider membership store. This allows the People Picker to only resolve valid users and groups without requiring a custom claims provider.
 
@@ -75,7 +75,7 @@ The `IdentifierClaim` parameter specifies which claim type from the trusted STS 
 - **UseUPABackedClaimProvider** <br/>
 This switch parameter enables the People Picker to search and select users and groups from the User Profile Application service. And it creates a `SPClaimProvider`, which has the same name as `SPTrustedIdentityTokenIssuer`.
     > [!NOTE]
-    > This parameter can’t be used to create an OIDC SPTrustedTokenIssuer.
+    > This parameter can't be used to create an OIDC SPTrustedTokenIssuer.
 
 ### Example
 
@@ -94,7 +94,7 @@ Following are the two ways to synchronize user profiles into the SharePoint User
     ![Add new synchronization connection.](../media/add-new-sync-connection.png)
 
 - Use Microsoft Identity Manager (MIM). To use MIM, see [Microsoft Identity Manager in SharePoint Servers 2016 and 2019](/sharepoint/administration/microsoft-identity-manager-in-sharepoint-server-2016).
-    - There should be two agents inside the MIM synchronization Manager UX after MIM is set up. One agent is used to import user profiles from the source IDP to the MIM database. And another agent is used to export user profiles from the MIM database to the SharePoint User Profile service application.
+- There should be two agents inside the MIM synchronization Manager UX after MIM is set up. One agent is used to import user profiles from the source IDP to the MIM database. And another agent is used to export user profiles from the MIM database to the SharePoint User Profile service application.
 
 During the synchronization, provide the following properties to the User Profile service application:
 
@@ -105,7 +105,7 @@ During the synchronization, provide the following properties to the User Profile
 
 For AD Import synchronization, the **Central Administration -> Application Management -> Manage service applications -> User Profile Service Application -> Manage User Properties** UX will allow administrators to edit the **SPS-ClaimID** to indicate which property in the source identity provider should be synchronized to **SPS-ClaimID**. For example, if the **SPS-ClaimID** is email, set **Claim User Identifier** as **Email** in this UX.
 
-> [!Note]
+> [!NOTE]
 > The display name of **SPS-ClaimID** is **Claim User Identifier** in the UX and administrator can customize the display names.
 
 ![Claim User Identifier.](../media/claim-user-identifier.png)
@@ -142,7 +142,7 @@ To enable the People Picker control to work with groups, run the following steps
 
     ```powershell
     $sidClaimMap = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.microsoft.com/ws/2008/06/identity/claims/groupsid" -IncomingClaimTypeDisplayName "SID" -SameAsIncoming
-    $tokenissuer = New-SPTrustedIdentityTokenIssuer -ClaimsMappings $sidClaimMap, $emailClaimMap …
+    $tokenissuer = New-SPTrustedIdentityTokenIssuer -ClaimsMappings $sidClaimMap, $emailClaimMap ...
     ```
 
     This sample cmdlets creates a `claimmap` object of type `groupsid` and indicates that it works with the **SID** property of the group. Then it creates a new identity issuer, which can understand this mapping.
@@ -150,7 +150,7 @@ To enable the People Picker control to work with groups, run the following steps
 2. Synchronize **SID** property of groups from the identity provider to the **SID** property in User Profile service application.
 
     - For AD Import synchronization, SID will synchronize automatically from the source identity provider to the SharePoint User Profile service application.
-    - For MIM synchronization, take the property mapping from the identity provider to MIM and then from MIM to the SharePoint User Profile service application so that MIM can synchronize the group **SID** from the identity provider to the SharePoint User Profile service application. It’s like how we do user profile synchronization for the **SPS-ClaimID** property for user profiles.
+    - For MIM synchronization, take the property mapping from the identity provider to MIM and then from MIM to the SharePoint User Profile service application so that MIM can synchronize the group **SID** from the identity provider to the SharePoint User Profile service application. It's like how we do user profile synchronization for the **SPS-ClaimID** property for user profiles.
 
         > [!Note]
         > For MIM synchronization, map **sAMAccountName** to **accountName** from MIM to the SharePoint User Profile service application.

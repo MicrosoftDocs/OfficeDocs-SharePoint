@@ -248,7 +248,7 @@ Stemming means that nouns and adjectives in a query are expanded to different po
     
 2. On the search results page, click the **Settings** menu, and then click **Edit page**.
     
-3. In the Search Results Web Part, click the **Search Results Web Part Menu** arrow, click **Export…**, and then save the Web Part to your computer.
+3. In the Search Results Web Part, click the **Search Results Web Part Menu** arrow, click **Export...**, and then save the Web Part to your computer.
     
 4. Open the Web Part in a text editor — for example, Notepad.
     

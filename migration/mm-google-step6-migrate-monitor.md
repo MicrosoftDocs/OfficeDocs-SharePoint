@@ -24,6 +24,10 @@ description: "Step 6: Migrate and monitor Google migration"
 
 Once have reviewed the accounts, confirmed the destinations, correctly mapped identities, you are ready to migrate.
 
+>[!Important]
+>We strongly recommend that you do not rename or move migrated files before the final migration has been completed.  Doing so will result in files being overwritten.
+
+
 1. Select the accounts to migrate.
 
 ![Select accounts to migrate](media/mm-box-select-to-migrate.png)

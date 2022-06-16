@@ -52,7 +52,7 @@ This integration isn't supported in the following Microsoft 365 services:
 This integration requires that your organization also enable [Azure AD email one-time passcode authentication](/azure/active-directory/b2b/one-time-passcode).
 
  > [!NOTE]
- > When the integration is enabled, people outside the organization will be invited via the Azure B2B platform when sharing from SharePoint. If the Azure B2B One Time Passcode option is enabled, recipients that don't have password-backed accounts will get a sign-in experience through Azure AD that uses One Time Passcodes. Otherwise, they will authenticate via their own Azure AD account or via an MSA account.
+ > When the integration is enabled, people outside the organization will be invited via the Azure B2B platform when sharing from SharePoint. When the Azure B2B One Time Passcode option is enabled, recipients that don't have password-backed accounts will get a sign-in experience through Azure AD that uses One Time Passcodes. Otherwise, they will authenticate via their own Azure AD account or via an MSA account.
 > When the integration isn't enabled, people outside the organization will continue to use their existing accounts created when previously invited to the tenant. Any sharing to new people outside the organizaton may result in either Azure AD-backed accounts or SharePoint-only email auth guests that use a SharePoint One Time Passcode experience to sign in.
 
  >[!NOTE]
@@ -84,8 +84,11 @@ To enable SharePoint and OneDrive integration with Azure AD B2B
 
 ## Disabling the integration
 
-You can disable the integration by running `Set-SPOTenant -EnableAzureADB2BIntegration $false`.
-Content that was shared externally while the integration was enabled will need to be shared again with those people.
+You can disable the integration by running '[Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant?view=sharepoint-ps) -EnableAzureADB2BIntegration $false'. 
+
+>[!Important]
+>Once disabled, users who were shared to while the integration was enabled will always be an AAD Guest User for future shares. To convert a user from an AAD Guest User back to a SharePoint OTP user, you will need to [delete the guest](/sharepoint/remove-users#delete-a-guest-from-the-microsoft-365-admin-center) in AAD and remove all SPUser objects in your organization that reference that guest user.  
+>
 
 ## See also
 
