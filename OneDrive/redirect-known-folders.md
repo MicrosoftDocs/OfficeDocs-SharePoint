@@ -45,6 +45,8 @@ We recommend that you upgrade to the latest available build before you deploy to
 
 To check eligibility on existing devices, data volume, and item counts as you decide on a rollout plan, and to later monitor progress of the rollout, use the Known Folder Move PowerShell script.
 
+For information on issues that can prevent folders from being moved, see [Fix problems with folder protection](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057#BKMK_FixProblems).
+
 > [!IMPORTANT]
 > If your organization is large and your users have a lot of files in their known folders, make sure you roll out the configuration slowly to minimize the network impact of uploading files. For users who have a lot of files in their known folders, consider using the policy [Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput) temporarily to minimize the network impact and then disable the policy once uploads are complete.
 
@@ -73,29 +75,21 @@ The following policies control the Known Folder Move feature:
 
   Use this setting to redirect and move known folders to OneDrive without any user interaction. Move all the folders or select the desired individual folders. After a folder is moved, the policy won't affect the folder again, even if the selection for the folder changes.
 
-  > [!NOTE]
-  > You can choose to display a notification to users after their folders have been redirected.
-
-  Various errors can prevent this setting from taking effect, such as:
-
-  - A file exceeds the maximum path length
-  - The known folders aren't in the default locations
-  - Folder protection is unavailable
-  - Known folders are prohibited from being redirected
-
-  For info about these errors, see [Fix problems with folder protection](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057#BKMK_FixProblems).
+  You can choose to display a notification to users after their folders have been redirected.
 
   > [!IMPORTANT]
-  > We recommend deploying the silent policy for existing devices and new devices while limiting the deployment of existing devices to 1,000 devices a day and not exceeding 4,000 devices a week. We also recommend using this setting together with "Prompt users to move Windows known folders to OneDrive." If moving the known folders silently does not succeed, users will be prompted to correct the error and continue.
+  > We recommend deploying the silent policy for existing devices and new devices while limiting the deployment of existing devices to 1,000 devices a day and not exceeding 4,000 devices a week between macOS and Windows. We also recommend using this setting together with "Prompt users to move Windows known folders to OneDrive." If moving the known folders silently does not succeed, users will be prompted to correct the error and continue.
 
 - [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#prevent-users-from-redirecting-their-windows-known-folders-to-their-pc)
 
-    Use this setting to force users to keep their known folders directed to OneDrive.
+    Use this setting to require users to keep their known folders directed to OneDrive.
 
     > [!NOTE]
     > Users can direct their known folders by opening OneDrive sync app settings, clicking the **Backup** tab, and then clicking **Manage backup**.
 
 - [Prevent users from moving their Windows known folders to OneDrive](use-group-policy.md#prevent-users-from-moving-their-windows-known-folders-to-onedrive)
+
+    Use this setting to prevent users from moving their known folders to any OneDrive account.
 
 For info about using the OneDrive policies, see [Use Group Policy to control OneDrive sync app settings](use-group-policy.md).
 

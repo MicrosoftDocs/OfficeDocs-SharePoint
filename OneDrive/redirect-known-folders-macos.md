@@ -66,7 +66,7 @@ The following settings control the Folder Backup feature:
 
     If users dismiss the prompt, a reminder notification will appear in the activity center until they move all available folders.
 
-    If a user has already redirected their Desktop and Documents folders to a different OneDrive account, they'll be prompted to direct the folders to the account for your organization (leaving existing files behind).
+    If a user has already redirected their Desktop and Documents folders to a OneDrive in a different organization, they'll be prompted to direct the folders to your organization's OneDrive. This action will leave files in the user's former OneDrive account. These users will not see any files from their previous organization in the Desktop and Documents folders associated with your organization's OneDrive.
 
     > [!IMPORTANT]
     > We recommend deploying the prompt policy for existing devices only, and limiting the deployment to 5,000 devices a day and not exceeding 20,000 devices a week between macOS and Windows.
@@ -89,5 +89,8 @@ The following settings control the Folder Backup feature:
 - [Prevent users from moving their macOS Desktop and Documents folders to OneDrive](deploy-and-configure-on-macos.md#kfmblockoptin)
 
     Use this setting to prevent users from moving their Desktop and Documents folders to any OneDrive account.
+
+> [!NOTE]
+> Users can direct their important folders by opening OneDrive sync app preferences, clicking the **Backup tab**, and then clicking **Manage Backup**.
 
 For info about using the OneDrive sync settings, see [Deploy and configure the OneDrive sync app for macOS](deploy-and-configure-on-macos.md).

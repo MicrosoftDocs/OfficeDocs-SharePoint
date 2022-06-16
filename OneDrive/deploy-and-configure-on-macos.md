@@ -451,7 +451,7 @@ To enable this setting, you must define a string containing the URL of the on-pr
 The example for this setting in the .plist file is:
 ```xml
 <key>SharePointOnPremFrontDoorUrl</key>
-<string>https://Contoso.SharePoint.com\</string>
+<string>https://Contoso.SharePoint.com</string>
 ```
 
 [More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/new-onedrive-sync-client)
@@ -482,7 +482,8 @@ If this setting is enabled, you can specify a TenantName that is the name the fo
 
 If you do not specify any TenantName, the folder will use the first segment of the FrontDoorURL as its name. For example, https<span>://</span>Contoso.SharePoint.com will use Contoso as the Tenant Name in the following convention:
 
-<br/> OneDrive – Contoso <br/> Contoso
+    OneDrive – Contoso
+    Contoso
 
 The example for this setting in the .plist file is:
 ```xml
@@ -491,7 +492,6 @@ The example for this setting in the .plist file is:
 ```
 
 [More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/new-onedrive-sync-client)
-
 
 ### Tier
 
@@ -510,9 +510,9 @@ This setting lets you specify the ring for users in your organization. The OneDr
 
 For more information on the builds currently available in each ring, see the [OneDrive release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?). For more information about the update rings and how the sync app checks for updates, see the [OneDrive sync app update process](sync-client-update-process.md).
 
-|.plist Location  <br/> |Domain  <br/> |
+|.plist Location |Domain |
 |:-----|:-----|
-| ~/Library/Preferences/com.microsoft.OneDriveUpdater.plist <br/> |com.microsoft.OneDriveUpdater  <br/> |
+| ~/Library/Preferences/com.microsoft.OneDriveUpdater.plist |com.microsoft.OneDriveUpdater |
 
 The example for this setting in the .plist file is:
 ```xml
