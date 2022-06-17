@@ -52,6 +52,9 @@ Site members have edit permissions to the SharePoint site and can add and remove
 
 Site visitors have view-only permissions to the SharePoint site. This permission level is only used by SharePoint and is not related to permissions in an associated Microsoft 365 group or team.
 
+> [!NOTE]
+> For information on how to manage Site owners, Site  members and Site visitors permission groups, see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md) and [SharePoint site permissions](customize-sharepoint-site-permissions.md).
+
 ## Additional permissions
 
 There are additional [permission levels](understanding-permission-levels.md) in SharePoint beyond those shown on this panel. Users may have access to the site or its contents through those roles. Users may also have access to files or folders in the site through sharing links.
