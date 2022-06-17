@@ -26,6 +26,19 @@ o	Sync policies
 
 [Microsoft Purview compliance documentation](/microsoft-365/compliance)
 
+Learn
+
+[Implement compliance in Microsoft 365](/learn/paths/implement-data-governance-microsoft-365-intelligence/)
+
+[Manage compliance in Microsoft 365](/learn/paths/manage-compliance-microsoft-365/)
+
+[Manage information protection and governance](/learn/paths/m365-compliance-information/)
+
+[Explore data governance and compliance in Microsoft 365](/paths/introduction-to-data-governance-microsoft-365/)
+
+[Manage data governance in Microsoft 365](/learn/paths/manage-data-governance-microsoft-365/)
+
+
 ## Data residency
 
 [Microsoft 365 Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo)
