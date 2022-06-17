@@ -1,8 +1,8 @@
 ---
 title: "Transition from the previous OneDrive for Business sync app"
-ms.reviewer: 
-ms.author: adjoseph
-author: adeejoseph
+ms.reviewer:
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -10,11 +10,12 @@ f1.keywords:
 ms.topic: article
 ms.service: one-drive
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Strat_OD_admin
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- onedrive-toc
 search.appverid:
 - ODB160
 - ODB150
@@ -31,30 +32,28 @@ description: "Learn how to upgrade users from the previous OneDrive for Business
 > Support for the previous OneDrive for Business sync app (Groove.exe) ended on January 11, 2021. As of February 1, 2021, users can no longer sync OneDrive or SharePoint files in Microsoft 365 by using Groove.exe. Groove.exe will continue to work only for files in SharePoint Server.
 
 This article is for global and SharePoint admins who want to transition their users off of the previous OneDrive for Business sync app (Groove.exe) so that they sync with only the new OneDrive sync app (OneDrive.exe).
-  
+
 If you're not an IT admin, to learn how to begin syncing files using the new OneDrive sync app, see [Sync files with the new OneDrive sync app in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49).
-  
+
 > [!NOTE]
 > If your organization never used the previous OneDrive for Business sync app, or had fewer than 250 licensed Office 365 users in June 2016, your users are already using the new OneDrive sync app to sync files in OneDrive and SharePoint.
-  
-  
-## Syncing files with OneDrive sync app to OneDrive sync app 
+
+## Syncing files with OneDrive sync app to OneDrive sync app
 
 When users who are syncing files with the previous OneDrive for Business sync app (Groove.exe) sign in to the new OneDrive sync app (OneDrive.exe), the following things happen:
-  
+
 - If the new OneDrive sync app can take over syncing a library, the previous sync app stops syncing it and the new OneDrive sync app takes over syncing it without re-downloading the content. If the new OneDrive sync app can't sync the library, the previous sync app continues to sync it. If a library requires checkout or has required columns or metadata, it will be synced read-only.
-    
+
 - The previous sync app stops running and removes itself from automatic startup, unless it's still syncing libraries that the new OneDrive sync app can't sync.
-    
+
 When SharePoint libraries begin syncing with the new OneDrive sync app, the folder hierarchy that appears in File Explorer may be simplified.
 
-  
 ## Limits
 
 The following library types are not yet supported by the new OneDrive sync app, and will not transition from the previous sync app:
-  
+
 - On-premises locations in SharePoint Server 2016 or earlier. [Learn about using the OneDrive sync app with SharePoint Server 2019](/SharePoint/install/new-onedrive-sync-client)
-    
+
 - SharePoint libraries that people from other organizations shared that your users are syncing with the previous sync app.
 
 For more info about sync restrictions and limitations, see [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)
@@ -93,23 +92,23 @@ To transition users off of the previous sync app, first make sure users have:
    > ```console
    > Setup.exe /modify ProPlus /config RemoveSharepointDesigner.xml
    > ```
-   > For more info, see [Setup command-line options for Office 2010](/previous-versions/office/office-2010/cc178956(v=office.14)) and [Config.xml file in Office 2010](/previous-versions/office/office-2010/cc179195(v=office.14)). 
- 
+   >
+   > For more info, see [Setup command-line options for Office 2010](/previous-versions/office/office-2010/cc178956(v=office.14)) and [Config.xml file in Office 2010](/previous-versions/office/office-2010/cc179195(v=office.14)).
+
 - The latest [Rights Management Service (RMS) client](https://aka.ms/odirm) if you want users to be able to sync IRM-protected SharePoint document libraries and OneDrive locations.
-  
+
 ## Configure takeover
 
-When the required software is installed on your users' computers, you can configure automatic takeover of syncing silently ([review the prerequisites and steps](use-silent-account-configuration.md)), and then [use this policy](use-group-policy.md#silently-sign-in-users-to-the-onedrive-sync-app-with-their-windows-credentials).  
-  
-After you install and configure OneDrive.exe, Groove.exe should no longer be able to sync. If the takeover did not succeed, or your users are stuck in a hybrid state (some content syncing with OneDrive.exe and some with Groove.exe), try running: `%localappdata%\Microsoft\OneDrive\OneDrive.exe /takeover`.  
-  
-> [!TIP] 
+When the required software is installed on your users' computers, you can configure automatic takeover of syncing silently ([review the prerequisites and steps](use-silent-account-configuration.md)), and then [use this policy](use-group-policy.md#silently-sign-in-users-to-the-onedrive-sync-app-with-their-windows-credentials).
+
+After you install and configure OneDrive.exe, Groove.exe should no longer be able to sync. If the takeover did not succeed, or your users are stuck in a hybrid state (some content syncing with OneDrive.exe and some with Groove.exe), try running: `%localappdata%\Microsoft\OneDrive\OneDrive.exe /takeover`.
+
+> [!TIP]
 > Make sure to run the command in a user context, rather than as admin, or the error "OneDrive.exe cannot be run with Admin privileges" appears. <br>To affect all users on the computer, configure the command to run on every user account so it will run for any user who signs in.
 
 If the takeover did not succeed, the previous OneDrive for Business sync app (Groove.exe) may be an older version that can't successfully transition to the new client. To patch the previous sync app, update groove-x in [Office 2016](/officeupdates/msp-files-office-2016) or [Office 2013](/officeupdates/msp-files-office-2013), and then try again.
 
-
-## See also  
+## See also
 
 To help your users get started with the OneDrive sync app, you can refer them to the following articles:
 

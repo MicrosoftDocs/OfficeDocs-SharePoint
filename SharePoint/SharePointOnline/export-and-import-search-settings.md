@@ -196,8 +196,16 @@ If managed properties or aliases contain any of the listed characters, the impor
 ## Known issue
 <a name="__toc351540666"> </a>
 
-When you import search configuration files into the tenant admin search settings page, you might encounter an issue that the **Search Config List** could not display properly and you might receive a "File not found" error.
+ **Unable to load Search Configuration List**
+
+When you import search configuration files into the tenant admin search settings page, you might encounter an issue that the **Search Configuration List** could not display properly and you might receive a "File not found" error.
 
 This issue only blocks the UI from displaying the list of search configuration files you imported and would not break the **Import** functionality. Your search configuration will be imported properly.
 
 Since you are unable to check the status of the search configuration file you imported from the UI, you could choose an alternative way to access the list, like [SharePoint CSOM API](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) or [SharePoint Online REST API](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-rest-endpoints).
+
+ **Unable to import stale search configuration XML file**
+
+If the search configuration file was exported a long time ago, the import might fail.
+
+If the exported search configuration file is stale, you should export a new search configuration first and then use it to import the list of search configuration files.

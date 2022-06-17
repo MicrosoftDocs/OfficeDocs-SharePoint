@@ -49,7 +49,7 @@ For the purposes of this article, you should be familiar with the following Micr
 | *[Remove-SPSolution](/powershell/module/sharepoint-server/Remove-SPSolution?view=sharepoint-ps&preserve-view=true)*  <br/> |Removes a deployed solution.  <br/> | `Remove-SPSolution -Identity contoso_solution.wsp` <br/> |
    
 > [!NOTE]
-> For more information about how to use PowerShell and the minimum permissions required to run a PowerShell for SharePoint cmdlet, see [Use Windows Powershell to administer SharePoint 2013](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true). 
+> For more information about how to use PowerShell and the minimum permissions required to run a PowerShell for SharePoint cmdlet, see [Use Windows PowerShell to administer SharePoint 2013](/powershell/module/sharepoint-server/?view=sharepoint-ps&preserve-view=true). 
   
 ### Overview of deploying a solution package
 <a name="Add-OverviewofDeploy"> </a>
@@ -73,7 +73,7 @@ To deploy a solution package to a SharePoint 2013 farm, you need to:
 > [!NOTE]
 > For more information about how to deploy a solution package to a SharePoint 2013 farm, see [Install and manage solutions for SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc263205(v=office.14)). 
   
-The **Install-SPSolution** PowerShell cmdlet also includes a compatibility-level parameter to deploy the solution package to locations in the root folder that are designated for either SharePoint 2010 mode or SharePoint 2013 mode site collections. These are the "14" and "15" root folders ( hives), and when you deploy the solution, files such as features, layout files, images, and control templates are added here.
+The **Install-SPSolution** PowerShell cmdlet also includes a compatibility-level parameter to deploy the solution package to locations in the root folder that are designated for either SharePoint 2010 mode or SharePoint 2013 mode site collections. These are the "14" and "15" root folders (hives), and when you deploy the solution, files such as features, layout files, images, and control templates are added here.
   
 **Figure: SharePoint 2010 and 2013 Root folders**
 
@@ -141,14 +141,14 @@ The steps for this scenario include the following:
     
 1. Deploy the solution package for SharePoint 2010 compatibility. You can do this by using the **Install-SPSolution** PowerShell cmdlet. Make sure to set the **-CompatibilityLevel** parameter to **14**. For example:
     
-     `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14 -GAC …`
+     `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14 -GAC ...`
     
 2. Deploy the solution package for SharePoint 2013 compatibility. You can do this by using the **Install-SPSolution** PowerShell cmdlet. Make sure to set the **-CompatibilityLevel** parameter to **15**. For example:
     
-     `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 15 -GAC …`
+     `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 15 -GAC ...`
     
 > [!NOTE]
-> The **-CompatibilityLevel** parameter in **Install-SPSolution** Windows PowerShell cmdlet also allows you the option to install a solution package to both the 14 and 15 root directories at the same time. You can do this by using the values of "14,15" or "All". For example: >  `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14, 15 -GAC …`> For more information about the **CompatibilityLevel** parameter in the **Install-SPSolution** Windows PowerShell cmdlet, see  *[Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps&preserve-view=true)*  . 
+> The **-CompatibilityLevel** parameter in **Install-SPSolution** Windows PowerShell cmdlet also allows you the option to install a solution package to both the 14 and 15 root directories at the same time. You can do this by using the values of "14,15" or "All". For example: >  `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14, 15 -GAC ...`> For more information about the **CompatibilityLevel** parameter in the **Install-SPSolution** Windows PowerShell cmdlet, see  *[Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps&preserve-view=true)*  . 
   
 ![Legacy custom feature works in both modes](../media/FMScen1.jpg)
   
@@ -186,14 +186,14 @@ The steps for this scenario include the following:
     
 1. Deploy the solution package for SharePoint 2010 compatibility. You can do this by using the **Install-SPSolution** PowerShell cmdlet. Make sure to set the **-CompatibilityLevel** parameter to **14**. For example:
     
-     `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14 -GAC …`
+     `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14 -GAC ...`
     
 2. Install the solution package for SharePoint 2013 compatibility. You can do this by using the **Install-SPSolution** PowerShell cmdlet. Make sure to set the **-CompatibilityLevel** parameter to **15**. For example:
     
-     `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 15 -GAC …`
+     `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 15 -GAC ...`
     
 > [!NOTE]
-> The **CompatibilityLevel** parameter in **Install-SPSolution** Microsoft PowerShell cmdlet also allows you the option to install a solution package to both the 14 and 15 root directories at the same time. You can do this by using the values of "14,15" or "All". For example: >  `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14, 15 -GAC …`> For more information about the **-CompatibilityLevel** parameter in the **Install-SPSolution** Microsoft PowerShell cmdlet, see  *[Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps&preserve-view=true)*  . 
+> The **CompatibilityLevel** parameter in **Install-SPSolution** Microsoft PowerShell cmdlet also allows you the option to install a solution package to both the 14 and 15 root directories at the same time. You can do this by using the values of "14,15" or "All". For example: >  `Install-SPSolution -Identity Solution.wsp -CompatibilityLevel 14, 15 -GAC ...`> For more information about the **-CompatibilityLevel** parameter in the **Install-SPSolution** Microsoft PowerShell cmdlet, see  *[Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps&preserve-view=true)*  . 
   
 ![Legacy custom feature needs conditional logic](../media/FMScen2.jpg)
   
@@ -236,11 +236,11 @@ The steps for this scenario include the following:
     
 4. Deploy the solution package for SharePoint 2010 compatibility. You can do this through the **Install-SPSolution** PowerShell cmdlet. Make sure to set the **-CompatibilityLevel** parameter to **14**. For example:
     
-     `Install-SPSolution -Identity POC14.wsp -CompatibilityLevel 14 -GAC …`
+     `Install-SPSolution -Identity POC14.wsp -CompatibilityLevel 14 -GAC ...`
     
 5. Install the solution package for SharePoint 2013 compatibility. You can also do this through the **Install-SPSolution** PowerShell cmdlet. Make sure to set the **-CompatibilityLevel** parameter to **15**. For example:
     
-     `Install-SPSolution -Identity POC15.wsp -CompatibilityLevel 15 -GAC …`
+     `Install-SPSolution -Identity POC15.wsp -CompatibilityLevel 15 -GAC ...`
     
 ![Feature masking to deploy custom feature](../media/FMScen3.jpg)
   
@@ -289,7 +289,7 @@ For web application scoped features, if the root site collection has not been up
 Regarding branding customizations, custom master pages are reset by default to seattle.master after a site collection upgrade in SharePoint 2013. If you are using the feature masking scenario, you need to reset any custom master pages that you have created for SharePoint 2013 site collections. For details about how to do this, see the MSDN article [Use Feature upgrade to apply new SharePoint Server 2013 master pages when upgrading from SharePoint 2010](/sharepoint/dev/general-development/use-feature-upgrade-to-apply-new-sharepoint-master-pages-when-upgrading-fro).
   
 > [!NOTE]
-> For more information about the branding considerations you need to make when you upgrade site collections in SharePoint 2013, see [Branding issues that may occur when upgrading to SharePoint 2013](/upgrade-and-update/upgrade-and-update/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013.md).
+> For more information about the branding considerations you need to make when you upgrade site collections in SharePoint 2013, see [Branding issues that may occur when upgrading to SharePoint 2013](/SharePoint/upgrade-and-update/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013).
   
 ## See also
 <a name="Add-OtherConsider"> </a>
@@ -300,4 +300,4 @@ Regarding branding customizations, custom master pages are reset by default to s
   
 [SharePoint 2013 and SharePoint in Microsoft 365 solution pack for branding and site provisioning](https://www.microsoft.com/download/details.aspx?id=42030)
   
-[Branding issues that may occur when upgrading to SharePoint 2013](/upgrade-and-update/upgrade-and-update/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013.md)
+[Branding issues that may occur when upgrading to SharePoint 2013](/SharePoint/upgrade-and-update/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013)
