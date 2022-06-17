@@ -12,7 +12,7 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5cdce2aa-fa6e-4888-a34f-de61713f5096
-description: "Learn how to set up OIDC authentication in SharePoint Server."
+description: "Learn how to set up OIDC authentication in SharePoint Server with Active Directory Federation Services (AD FS)."
 ---
 
 # Set up OIDC authentication in SharePoint Server with Active Directory Federation Services (AD FS)
@@ -113,7 +113,7 @@ If you're setting OIDC with SharePoint Server, nbf claim must be configured in A
 
 4. Select **Finish**.
 
-### Step 2: Change SharePoint Farm properties
+### Step 2: Change SharePoint farm properties
 
 In this step, you'll need to modify the SharePoint farm properties. Start the SharePoint Management Shell and run the following script:
 
@@ -145,7 +145,7 @@ $f.Farm.Properties['SP-NonceCookieHMACSecretKey']='seed'
 $f.Farm.Update()
 ```
 
-### Step 3: Configure SharePoint to identity providers
+### Step 3: Configure SharePoint to trust the identity providers
 
 In this step, you'll create a `SPTrustedTokenIssuer` that will store the configuration that SharePoint needs to trust AD FS as OIDC provider. Start the SharePoint Management Shell and run the following script to create it:
 
@@ -215,9 +215,9 @@ In this step, you'll configure a web application in SharePoint to be federated w
 > - The default zone of the SharePoint web application must have Windows authentication enabled. This is required for the search crawler.
 > - SharePoint URL that will use AD FS OIDC federation must be configured with HTTPS.
 
-There are two possible configurations to do this:
+You can do this configuration either by:
 
-- Create a new web application and use both Windows and AD FS OIDC authentication in the Default zone:
+- Creating a new web application and using both Windows and AD FS OIDC authentication in the Default zone. To create a new web application, do the following:
   1. Start the SharePoint Management Shell and run the following script to create a new `SPAuthenticationProvider`:
 
         ```powershell
@@ -238,7 +238,7 @@ There are two possible configurations to do this:
 
       :::image type="content" source="../media/alternate-access-mapping-collection.png" alt-text="Alternate Access Mapping Collection-1":::
 
-- Extend an existing web application to set AD FS OIDC authentication on a new zone:
+- Extending an existing web application to set AD FS OIDC authentication on a new zone. To extend an existing web application, do the following:
     1. Start the SharePoint Management Shell and run the following script:
 
         ```powershell
@@ -319,7 +319,7 @@ Perform the following steps to help People Picker validate the input using the n
 
 #### 1. Create a new claim provider
 
-In the [previous step](#step-3-configure-sharepoint-to-trust-the-identity-provider), you've already created an OIDC `SPTrustedIdentityTokenIssuer` by using `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet. In this step, you'll use the following PowerShell cmdlet to create a claim provider, which uses the User Profile Application service to search and resolve users and groups in the People Picker and specifies to use the OIDC `SPTrustedIdentityTokenIssuer`:
+In the [previous step](#step-3-configure-sharepoint-to-trust-the-identity-providers), you've already created an OIDC `SPTrustedIdentityTokenIssuer` by using `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet. In this step, you'll use the following PowerShell cmdlet to create a claim provider, which uses the User Profile Application service to search and resolve users and groups in the People Picker and specifies to use the OIDC `SPTrustedIdentityTokenIssuer`:
 
   ```powershell
   $claimprovider = New-SPClaimProvider -AssemblyName "Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c" -DisplayName 'OIDC Claim Provider' -Type "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider" -TrustedTokenIssuer $tokenissuer -Description “OIDC Claim Provider” -Default:$false
@@ -331,7 +331,7 @@ Following parameters need to be specified here:
 |------------|-------------|
 | AssemblyName | To be specified as `Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c`. |
 | Type | To be specified as `Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider` so that this command creates a claim provider, which uses UPA as the claim source. |
-| TrustedTokenIssuer | To be specified as the OIDC `SPTrustedIdentityTokenIssuer` created in the [previous step](#step-3-configure-sharepoint-to-trust-the-identity-provider), which will use this claim provider. This is a new parameter the user needs to provide when the type of the claim provider is `Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider`. |
+| TrustedTokenIssuer | To be specified as the OIDC `SPTrustedIdentityTokenIssuer` created in the [previous step](#step-3-configure-sharepoint-to-trust-the-identity-providers), which will use this claim provider. This is a new parameter the user needs to provide when the type of the claim provider is `Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider`. |
 | Default | As we've created a claim provider by using this cmdlet, this cmdlet can only work with `SPTrustedIdentityTokenIssuer` and `Default` parameter must be set to false so that it won’t be used by any other authentication method assigned to the web application by default. |
 
 #### 2. Connect `SPTrustedIdentityTokenIssuer` with `SPClaimProvider`

@@ -12,7 +12,7 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5cdce2aa-fa6e-4888-a34f-de61713f5096
-description: "Learn how to set up OIDC authentication in SharePoint Server."
+description: "Learn how to set up OIDC authentication in SharePoint Server with Microsoft Azure Active Directory (Azure AD)."
 ---
 
 # Set up OIDC authentication in SharePoint Server with Microsoft Azure Active Directory (Azure AD)
@@ -26,7 +26,7 @@ When you configure OIDC with Azure AD, you need the following resources:
 1. A SharePoint Server Subscription Edition farm
 2. Azure AD Global Administrator role of the M365 tenant
 
-This article uses the following values for Azure AD OIDC setup:
+This article uses the following example values for Azure AD OIDC setup:
 
 | Value | Link |
 |---------|---------|
@@ -126,7 +126,7 @@ $f.Farm.Update()
 
 ### Step 3: Configure SharePoint to trust the identity provider
 
-You can configure SharePoint to trust the identity provider in one of the following ways:
+You can configure SharePoint to trust the identity provider in either of the following ways:
 
 - Configure SharePoint to trust Azure AD as the OIDC provider manually.
 - Configure SharePoint to trust Azure AD as the OIDC provider by using metadata endpoint.
@@ -282,7 +282,7 @@ To extend an existing web application, do the following:
 
 Since OIDC 1.0 authentication can only work with HTTPS protocol, a certificate must be set on the corresponding web application. Perform the following steps to set the certificate:
 
-- Generate the site certificate:
+1. Generate the site certificate:
 
     > [!NOTE]
     > You may skip this step if you have already generated the certificate.
@@ -298,7 +298,7 @@ Since OIDC 1.0 authentication can only work with HTTPS protocol, a certificate m
         > [!IMPORTANT]
         > Self-signed certificates are suitable only for test purposes. In production environments, we strongly recommend that you use certificates issued by a certificate authority instead.
 
-- Set the certificate:
+2. Set the certificate:
 
     You can use the following PowerShell cmdlet to assign the certificate to the web application:
 
@@ -329,11 +329,11 @@ In this step, you'll create a team site collection with two administrators: One 
 11. Go to the account and select **OK** to close the People Picker dialog.
 12. Select **OK** again to create the site collection.
 
-Once the site collection is created, you should be able to sign-in using either the Windows or the federated site collection administrator account.
+Once the site collection is created, you will be able to sign-in using either the Windows or the federated site collection administrator account.
 
 ### Step 7: Set up People Picker
 
-In OIDC authentication the People Picker doesn't validate the input, which can lead to misspellings or users accidentally selecting the wrong claim type. This can be addressed using the new UPA-backed claim provider in SharePoint Server.
+In OIDC authentication, the People Picker doesn't validate the input, which can lead to misspellings or users accidentally selecting the wrong claim type. This can be addressed using the new UPA-backed claim provider in SharePoint Server.
 
 To do this, perform the following steps:
 
@@ -345,7 +345,7 @@ In the [previous step](#step-3-configure-sharepoint-to-trust-the-identity-provid
   $claimprovider = New-SPClaimProvider -AssemblyName "Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c" -DisplayName 'OIDC Claim Provider' -Type "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider" -TrustedTokenIssuer $tokenissuer -Description “OIDC Claim Provider” -Default:$false
   ```
 
-Following parameters need to be specified here:
+Specify the following parameters:
 
 | Parameter | Description |
 |------------|-------------|
@@ -362,7 +362,7 @@ In this step, the OIDC `SPTrustedIdentityTokenIssuer` uses the claim provider cr
   Set-SPTrustedIdentityTokenIssuer <token issuer name> -ClaimProvider <claim provider object> -IsOpenIDConnect
   ```
 
-Following parameters need to be specified here:
+Specify the following parameters:
 
 | Parameter | Description |
 |------------|-------------|
@@ -377,9 +377,9 @@ An example of this command is:
   Set-SPTrustedIdentityTokenIssuer "ADFS Provider" -ClaimProvider $claimprovider -IsOpenIDConnect
   ```
 
-#### 3. Synchronize profiles to user profile service application (UPSA)
+#### 3. Synchronize profiles to user profile service application
 
-Now, customers can start to synchronize profiles into the SharePoint UPSA from the identity provider used in the organization so that the newly created claim provider can work on the correct data set.
+Now, customers can start to synchronize profiles into the SharePoint user profile service application (UPSA) from the identity provider used in the organization so that the newly created claim provider can work on the correct data set.
 
 There are two ways to synchronize user profiles into the SharePoint UPSA:
 
@@ -390,7 +390,7 @@ There are two ways to synchronize user profiles into the SharePoint UPSA:
 - Use Microsoft Identity Manager (MIM). To utilize MIM, see [Microsoft Identity Manager in SharePoint Servers 2016 and 2019](/sharepoint/administration/microsoft-identity-manager-in-sharepoint-server-2016).
   - There should be two agents inside the MIM Synchronization Service Manager UX after MIM is set up. One agent is used to import user profiles from the source IDP to the MIM database. The other agent is used to export user profiles from the MIM database to the SharePoint UPSA.
 
-During the synchronization, the following three properties need to be provided to the UPSA:
+During the synchronization, the following three properties must be provided to the UPSA:
 
 - `SPS-ClaimID`
 - `SPS-ClaimProviderID`
