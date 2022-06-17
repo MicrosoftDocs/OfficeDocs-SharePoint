@@ -23,13 +23,17 @@
 
 #### [Migration](06-plan-migration.md)
 
-### [Create a compliant OneDrive and SharePoint environment](08-compliant-environment.md)
+### [Compliance]()
+
+#### [Create a compliant environment](08-compliant-environment.md)
 
 #### [Plan secure file collaboration](deploy-file-collaboration.md)
 #### [Permissions and sharing](modern-experience-sharing-permissions.md)
 
 ### [Choose collaboration options](09-collaboration-options.md)
-### [Roll out OneDrive and SharePoint](10-roll-out-sharepoint.md)
+
+### [Rollout]()
+#### [Roll out OneDrive and SharePoint](10-roll-out-sharepoint.md)
 #### [Training and change management](11-training-change-management.md)
 
 #### [Create sites using guided walkthroughs]()
@@ -44,7 +48,7 @@
 #### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
 
 
-#### [Migration](13-rollout-migration.md)
+#### [Migrate content](13-rollout-migration.md)
 #### [Pilot program](12-pilot-program.md)
 
 
