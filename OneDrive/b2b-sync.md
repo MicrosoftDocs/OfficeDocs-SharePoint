@@ -1,8 +1,8 @@
 ---
 title: "B2B Sync"
 ms.reviewer: cagreen
-ms.author: adjoseph
-author: adeejoseph
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -13,7 +13,9 @@ ms.localizationpriority: medium
 ms.collection:
 - Strat_OD_admin
 - M365-collaboration
-ms.custom: admindeeplinkSPO
+ms.custom:
+- admindeeplinkSPO
+- onedrive-toc
 search.appverid:
 - ODB160
 - ODB150

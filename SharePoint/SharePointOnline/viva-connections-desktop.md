@@ -113,6 +113,9 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 > [!IMPORTANT]
 > Updates to the required fields (mentioned below) in the manifest file are the only supported changes. Any other updates will not be supported. To take advantage of a mobile experience for Viva Connections, follow the guidance to [provision Viva Connections for desktop and mobile](/viva/connections/guide-to-setting-up-viva-connections).
 
+> [!IMPORTANT]
+> Changes to the package file that are not listed as required fields below are **not** supported.
+
 
 **When you create a new package in PowerShell, you will be required to complete the following fields:**
     
