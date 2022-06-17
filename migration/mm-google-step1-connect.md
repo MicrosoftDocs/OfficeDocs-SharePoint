@@ -53,7 +53,7 @@ Sign in to your Google account and add the Microsoft 365 migration app to your G
 >[!Important]
 >For security reasons, you have 10 minutes to complete the steps to connect to Google. After 10 minutes of inactivity, the session will expire.
 
-[**Step 2: Scan and assess**](mm-Google-step2-scan-assess.md)
+## [**Step 2: Scan and assess**](mm-Google-step2-scan-assess.md)
 
 
 >[!NOTE]
