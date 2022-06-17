@@ -12,7 +12,7 @@
 
 ## [Get started]()
 
-### [Planning](03-plan-for-sharepoint.md)
+### [Plan for SharePoint](03-plan-for-sharepoint.md)
 
 #### [Business requirements](04-business-requirements.md)
 
@@ -23,8 +23,6 @@
 
 #### [Migration](06-plan-migration.md)
 
-#### [Change management](07-change-management.md)
-
 ### [Create a compliant OneDrive and SharePoint environment](08-compliant-environment.md)
 
 #### [Plan secure file collaboration](deploy-file-collaboration.md)
@@ -32,7 +30,7 @@
 
 ### [Choose collaboration options](09-collaboration-options.md)
 ### [Roll out OneDrive and SharePoint](10-roll-out-sharepoint.md)
-#### [Training and change management](11-training.md)
+#### [Training and change management](11-training-change-management.md)
 
 #### [Create sites using guided walkthroughs]()
 ##### [Create a SharePoint communication site](create-communication-site.md)

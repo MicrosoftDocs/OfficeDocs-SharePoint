@@ -50,6 +50,9 @@ Cutover from old system to new system
 ## Hubs and architecture
 
 
+## Change management
+
+
 ## Support
 
 User training important - how to use the service in a compliant manner and avoid security issues.

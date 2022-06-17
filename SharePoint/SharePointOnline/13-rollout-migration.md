@@ -25,3 +25,8 @@ description:
 	Content migration
 	Taxonomy
 	Paper
+
+[Redirect and move Windows known folders to OneDrive](/onedrive/redirect-known-folders)
+
+[Redirect and move macOS Desktop and Documents folders to OneDrive](/onedrive/redirect-known-folders-macos)
+
