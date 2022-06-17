@@ -1,8 +1,8 @@
 ---
 title: "The OneDrive sync app update process"
 ms.reviewer: 
-ms.author: adjoseph
-author: adeejoseph
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -13,6 +13,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom: onedrive-toc
 search.appverid:
 - ODB160
 - MET150
