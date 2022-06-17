@@ -22,3 +22,13 @@ description:
 	Hybrid
 	Performance / network
 	systems requirements
+
+[Hybrid for SharePoint Server](/sharepoint/hybrid/hybrid)
+
+[SharePoint hybrid sites and search](/sharepoint/hybrid/sharepoint-hybrid-sites-and-search)
+
+[Networking roadmap for Microsoft 365](/microsoft-365/enterprise/networking-roadmap-microsoft-365)
+
+[Office 365 URLs and IP address ranges](/enterprise/urls-and-ip-address-ranges)
+
+[Use the Office 365 Content Delivery Network (CDN) with SharePoint Online](/microsoft-365/enterprise/use-microsoft-365-cdn-with-spo)
