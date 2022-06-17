@@ -32,8 +32,7 @@
 
 ### [Choose collaboration options](09-collaboration-options.md)
 
-### [Rollout]()
-#### [Roll out OneDrive and SharePoint](10-roll-out-sharepoint.md)
+### [Roll out OneDrive and SharePoint]()
 #### [Training and change management](11-training-change-management.md)
 
 #### [Create sites using guided walkthroughs]()
