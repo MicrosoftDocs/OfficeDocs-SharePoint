@@ -30,7 +30,7 @@
 #### [Plan secure file collaboration](deploy-file-collaboration.md)
 #### [Permissions and sharing](modern-experience-sharing-permissions.md)
 
-### [Choose collaboration options](09-collaboration-optoins.md)
+### [Choose collaboration options](09-collaboration-options.md)
 ### [Roll out OneDrive and SharePoint](10-roll-out-sharepoint.md)
 #### [Training and change management](11-training.md)
 

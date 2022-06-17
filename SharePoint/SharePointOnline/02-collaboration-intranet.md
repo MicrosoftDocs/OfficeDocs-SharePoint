@@ -17,3 +17,13 @@ description:
 ---
 
 # 
+
+
+[Intelligent intranet overview](/sharepoint/intelligent-internet-overview)
+
+[Intelligent intranet introduction and roadmap](/sharepoint/intranet-team-overview)
+
+
+[Guided walkthrough: Creating a Team site](/sharepoint/guided-walkthrough-creating-team-site)
+
+[Guided Walkthrough - Create a communication site for your organization](/sharepoint/create-communication-site)

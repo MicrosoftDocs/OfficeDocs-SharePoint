@@ -1,5 +1,5 @@
 ---
-title: 
+title: Plan for SharePoint in Microsoft 365
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -16,12 +16,42 @@ search.appverid: MET150
 description: 
 ---
 
-# 
+# Plan for SharePoint in Microsoft 365
 
-	business requirements gathering
+Content storage and collaboration needs
+
+
+What's the desired outcome of rolling out ODSP?
+
+
+[Microsoft Teams deployment overview](/microsoftteams/deploy-overview)
+
+Cutover from old system to new system
+
+
+	• Should migration throughput be the rollout driver?
+
+
 	Should ODSP admins specialize or work from a queue? How many and how organized?
-	Customization / templates
+• What are the customization requirements?
+## Customization / templates
+
+[Customizing SharePoint](/sharepoint/extend-and-develop)
+
+
 	FastTrack
 
-	Site lifecycle
-	Hubs and architecture
+## Site lifecycle
+
+[Microsoft 365 group expiration policy](/microsoft-365/solutions/microsoft-365-groups-expiration-policy)
+
+
+
+## Hubs and architecture
+
+
+## Support
+
+User training important - how to use the service in a compliant manner and avoid security issues.
+
+Provide training for users and support, cheat sheets, office hours.

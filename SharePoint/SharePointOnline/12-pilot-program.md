@@ -28,3 +28,10 @@ Create a group of knowledgeable stakeholders across departments and disciplines 
 
 collect reports from pilot users - have a process for this
 
+	• Rollouts include a pilot in a non-business-critical area, maybe with tech-savvy users.
+	• Rollouts often regional or department-based.
+Rollouts start small and then increase in speed and scope and learnings processed.
+
+Use pilot program to shake out bugs and ramp up support.
+
+Pilot group should not be client-facing

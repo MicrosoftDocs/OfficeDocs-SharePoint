@@ -21,9 +21,21 @@ description:
 	Current state of business and mapping to new service
 	User journey / core use cases (test cases for pilot rollout)
 
-Content storage and collaboration needs
-
 What additional capabilities are you trying to enable beyond what you've been using?
 
-What's the desired outcome of rolling out ODSP?
+
+## Business requirements gathering
+
+
+Involve legal and compliance from the beginning to map out the user journey.
+
+Drive agreement across stakeholders. Market the services internally.
+
+Evaluate customization needs and consider resources needed and maintenance overhead.
+
+		• What compliance features should be in place at rollout?
+	
+	• Do you have paper records to import?
+Do you have client data to store that has compliance or perms requirements?
+
 

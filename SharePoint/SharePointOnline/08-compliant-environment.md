@@ -23,3 +23,5 @@ o	Do you have info barriers requirements?
 o	Retention
 o	Labels, SITs, and DLP
 o	Sync policies
+
+[Microsoft Purview compliance documentation](/microsoft-365/compliance)
