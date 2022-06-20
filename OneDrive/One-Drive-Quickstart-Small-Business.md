@@ -18,6 +18,7 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
+- onedrive-toc
 description: "This article is a quickstart guide on how to get started with and set up OneDrive for small businesses."
 ---
 

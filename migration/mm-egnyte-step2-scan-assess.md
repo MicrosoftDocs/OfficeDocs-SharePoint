@@ -1,5 +1,5 @@
 ---
-title: "Step 2: Scan and assess Egnyte accounts using Migration Manager"
+title: "Step 2: Scan and assess Egnyte folders using Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -19,22 +19,32 @@ ms.collection:
 - SPMigration
 search.appverid: MET150
 ROBOTS: NOINDEX
-description: "Step 2:  Scan and assess Egnyte users using Migration Manager."
+description: "Step 2:  Scan and assess Egnyte folders using Migration Manager."
 ---
 
-# Step 2: Scan and assess Egnyte
+# Step 2: Scan and assess Egnyte folders
 
-After you have connected to Egnyte, accounts are scanned automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
+After you connect to Egnyte, add the source paths to scan and assess your folders. 
 
-A table summary appears at the top to give you an at-a-glance overview of your users and content size.
+1. Select **Add source paths** and choose a method; find new root folders, target a single source path, or bulk upload the source paths using a CSV file.
+
+2. After adding the source, highlight any or all of the accounts and then select **Scan**, unless you've selected to automatically scan content.
+
+>[!Important]
+> The total number cannot exceed 50,000 tasks.
+
+3. Once scan is complete, a table summary displays to give you an at-a-glance overview of your users. The summary includes content size, migration readiness, and any issues that need attention. 
+4. Review the scanned users. Search for specific text, or select a filter to review the list more easily.
 
 
+## Download reports
 
-1.  Review the scanned accounts. Select **Look for new accounts** if you want to do a manually search.
-2. Search for specific text, or select a filter to review the list more easily.
-3. Once the scan is complete, select **Download reports** from the menu bar, to troubleshoot any issues. The file will be available from your task bar or downloads folder: **Scan task report.csv**
+Summary and detailed scan reports are available to assist you in troubleshooting. Download the generated reports and logs to investigate any possible issues that might block your migration.
 
-**NEXT:**  [ **Step 3: Copy to migrations**](mm-egnyte-step3-copy-to-migrations.md)
+1. Once the scan is complete, select **Download summary report**.
+2. To download a detailed scan report for an individual folder, select a single row, then select **Download scan log**.   </br>
+
+## [**Step 3: Copy to migrations**](mm-egnyte-step3-copy-to-migrations.md)
 
 
 >[!NOTE]

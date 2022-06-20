@@ -1,8 +1,8 @@
 ---
 title: "Install the sync app per machine"
 ms.reviewer: gacarini
-ms.author: adjoseph
-author: adeejoseph
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -13,6 +13,7 @@ ms.localizationpriority: medium
 ms.custom:
 - Adm_O365
 - seo-marvel-apr2020
+- onedrive-toc
 search.appverid:
 - MET150
 - BCS160

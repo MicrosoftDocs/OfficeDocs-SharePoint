@@ -1,8 +1,8 @@
 ---
 title: "About user profile synchronization"
 ms.reviewer: amysim
-ms.author: serdars
-author: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 ms.date: 5/21/2020
