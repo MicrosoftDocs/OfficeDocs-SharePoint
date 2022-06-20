@@ -34,7 +34,7 @@ There are two primary advantages of moving or redirecting macOS Desktop and Docu
 
 - Saving files to OneDrive backs up your users' data in the cloud and gives them access to their files from any device.
 
-For these reasons, we recommend moving or redirecting Desktop and Documents folders to OneDrive if you're an enterprise or large organization. [See all our recommendations for configuring the sync app](ideal-state-configuration.md). Small or medium businesses may also find this useful, but keep in mind you'll need some experience configuring policies. For info about the end-user experience, see [Protect your files by saving them to OneDrive](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057).
+For these reasons, we recommend moving or redirecting Desktop and Documents folders to OneDrive with Folder Backup if you're an enterprise or large organization. [See all our recommendations for configuring the sync app](ideal-state-configuration.md). Small or medium businesses may also find this useful, but keep in mind you'll need some experience configuring policies. For info about the end-user experience, see [Protect your files by saving them to OneDrive](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057).
 
 > [!NOTE]
 > OneDrive sync for macOS runs natively on Apple silicon. This support is generally available starting with build 22.022. Users will be automatically updated over the next few releases.
@@ -51,27 +51,29 @@ For information on issues that can prevent folders from being moved, see [Fix pr
 
 > [!IMPORTANT]
 > If your organization is large and your users have a lot of files in their Desktop and Documents folders, make sure you roll out the configuration slowly to minimize the network impact of uploading files. For users who have a lot of files in their folders, consider using the setting [AutomaticUploadBandwidthPercentage](deploy-and-configure-on-macos.md#automaticuploadbandwidthpercentage) temporarily to minimize the network impact and then disable the setting once uploads are complete.
+
+### Folders redirected to other organizations
+
+If a user’s Desktop and Documents folders are currently redirected to OneDrive in a different organization, redirecting to your organization’s OneDrive will create new Desktop and Documents folders and the user will see an empty desktop. The user will have to manually migrate files from the other organization’s OneDrive to OneDrive in your organization. We recommend that you disable the redirect to the other organization before redirecting to your organization if possible.
   
 ## About the Folder Backup settings
 
-You can set OneDrive settings using software distribution tools such as [Microsoft Intune](/mem/intune/apps/apps-add-office365-macOS) as well as [Jamf Pro](https://www.jamf.com/products/jamf-pro/), [Munki](https://www.munki.org/), [AutoPkg](https://github.com/autopkg/autopkg), [Apple Remote Desktop](https://support.apple.com/guide/remote-desktop/welcome/mac), and [AppleScript](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html). You can also configure keys in a .plist file. For a full reference of available preferences and their settings, see [Deploy and configure the OneDrive sync app for macOS](deploy-and-configure-on-macos.md).  
+You can set OneDrive settings using software distribution tools such as [Microsoft Intune](/mem/intune/apps/apps-add-office365-macOS) as well as [Jamf Pro](https://www.jamf.com/products/jamf-pro/), [Munki](https://www.munki.org/), [AutoPkg](https://github.com/autopkg/autopkg), [Apple Remote Desktop](https://support.apple.com/guide/remote-desktop/welcome/mac), and [AppleScript](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html). You can also configure settings in a .plist file. For a full reference of available preferences and their settings, see [Deploy and configure the OneDrive sync app for macOS](deploy-and-configure-on-macos.md).  
 
 For new machines, Folder Backup can be configured from the start, so all new files are uploaded to the cloud. This is great for organizations as it increases user engagement with OneDrive, and admins can easily protect files with enterprise-level security and compliance that comes built in.
 
 The following settings control the Folder Backup feature:
   
-- [Prompt users to move Desktop and Documents folders to OneDrive](deploy-and-configure-on-macos.md#kfmoptinwithwizard)
+- [Prompt users to move Desktop and Documents folders to OneDrive (KFMOptInWithWizard)](deploy-and-configure-on-macos.md#kfmoptinwithwizard)
 
     Use this setting to give the users a call to action to move their Desktop and Documents macOS folders.
 
     If users dismiss the prompt, a reminder notification will appear in the activity center until they move all available folders.
 
-    If a user's Desktop and Documents folders are currently redirected to OneDrive in a different organization, redirecting to your organization's OneDrive will create new Desktop and Documents folders and the user will see an empty desktop. The user will have to manually migrate files from the other organization's OneDrive to OneDrive in your organization. We recommend that you disable the redirect to the other organization before redirecting to your organization if possible.
-
     > [!IMPORTANT]
     > We recommend deploying the prompt policy for existing devices only, and limiting the deployment to 5,000 devices a day and not exceeding 20,000 devices a week between macOS and Windows.
   
-- [Silently move macOS Desktop and Documents folders to OneDrive](deploy-and-configure-on-macos.md#kfmsilentoptin)
+- [Silently move macOS Desktop and Documents folders to OneDrive (KFMSilentOptIn)](deploy-and-configure-on-macos.md#kfmsilentoptin)
 
     Use this setting to redirect and move folders to OneDrive without any user interaction. Move all the folders or select the desired individual folders. By default, the Desktop and Documents folders will be moved. After a folder is moved, the policy won't affect the folder again, even if the selection for the folder changes.
 
@@ -82,15 +84,15 @@ The following settings control the Folder Backup feature:
     > [!IMPORTANT]
     > We recommend deploying the silent policy for existing devices and new devices while limiting the deployment of existing devices to 1,000 devices a day and not exceeding 4,000 devices a week between macOS and Windows.
 
-- [Prevent users from redirecting their macOS Desktop and Documents folders to their Mac](deploy-and-configure-on-macos.md#kfmblockoptout)
+- [Prevent users from redirecting their macOS Desktop and Documents folders to their Mac (KFMBlockOptOut)](deploy-and-configure-on-macos.md#kfmblockoptout)
 
     Use this setting to force users to keep their Desktop and Documents folders directed to OneDrive.
   
-- [Prevent users from moving their macOS Desktop and Documents folders to OneDrive](deploy-and-configure-on-macos.md#kfmblockoptin)
+- [Prevent users from moving their macOS Desktop and Documents folders to OneDrive (KFMBlockOptIn)](deploy-and-configure-on-macos.md#kfmblockoptin)
 
     Use this setting to prevent users from moving their Desktop and Documents folders to any OneDrive account.
 
 > [!NOTE]
-> Users can direct their important folders by opening OneDrive sync app preferences, clicking the **Backup tab**, and then clicking **Manage Backup**.
+> Users can direct their Desktop and Documents folders by opening OneDrive sync app preferences, clicking the **Backup tab**, and then clicking **Manage Backup**.
 
 For info about using the OneDrive sync settings, see [Deploy and configure the OneDrive sync app for macOS](deploy-and-configure-on-macos.md).
