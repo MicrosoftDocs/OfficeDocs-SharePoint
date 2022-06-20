@@ -1,5 +1,5 @@
 ---
-title: "Configure a reverse proxy device for SharePoint Server hybrid"
+title: Configure a reverse proxy device for SharePoint Server hybrid
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -16,8 +16,7 @@ ms.collection:
 - SPO_Content
 ms.localizationpriority: medium
 ms.assetid: 1780ec27-19f8-4d77-b787-8abc23921258
-
-description: "Learn about supported reverse proxy devices for SharePoint Server hybrid deployments."
+description: Learn about supported reverse proxy devices for SharePoint Server hybrid deployments.
 ---
 
 # Configure a reverse proxy device for SharePoint Server hybrid
@@ -95,7 +94,7 @@ The table below lists the currently supported reverse proxy devices for SharePoi
 |Azure Application Proxy|[Enable remote access to SharePoint in Microsoft 365 with Azure AD Application Proxy](/azure/active-directory/manage-apps/application-proxy-integrate-with-sharepoint-server)|Azure Application Proxy is an Azure service that allows remote access to services within your network without opening firewall ports from the Internet to your service.|
 |Windows Server 2012 R2 with Web Application Proxy (WA-P)  <br/> |[Configure Web Application Proxy for a hybrid environment](configure-web-application-proxy-for-a-hybrid-environment.md) <br/> |Web Application Proxy (WA-P) is a Remote Access service in Windows Server 2012 R2 that publishes web applications that users can interact with from many devices.  <br/> > [!IMPORTANT]> To use Web Application Proxy as a reverse proxy device in a hybrid SharePoint Server environment, you must also deploy AD FS in Windows Server 2012 R2.           |
 |Forefront Threat Management Gateway (TMG) 2010  <br/> |[Configure Forefront TMG for a hybrid environment](configure-forefront-tmg-for-a-hybrid-environment.md) <br/> |Forefront TMG 2010 is a comprehensive, secure, web gateway solution that provides secure reverse proxy functionality.  <br/> > [!NOTE]> Forefront TMG 2010 is no longer sold by Microsoft but will be supported through 4/14/2020. For more information, see [Microsoft Support Lifecycle information for TMG 2010](https://support.microsoft.com/lifecycle/default.aspx?LN=en-us&amp;p1=14873&amp;x=13&amp;y=9).           |
-|F5 BIG-IP  <br/> |[Enabling SharePoint 2013 Hybrid Search with the BIG-IP](https://devcentral.f5.com/articles/enabling-sharepoint-2013-hybrid-search-with-the-big-ip) <br/> |External content managed by F5 Networks.  <br/> |
+|F5 BIG-IP  <br/> |[Enabling SharePoint 2013 Hybrid Search with the BIG-IP](https://community.f5.com/t5/technical-articles/enabling-sharepoint-2013-hybrid-search-with-the-big-ip/ta-p/282467) <br/> |External content managed by F5 Networks.  <br/> |
 |Citrix NetScaler  <br/> |[Citrix NetScaler and Microsoft SharePoint 2013 Hybrid Deployment Guide](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/deployment-guide-netscaler-office-365-en.pdf) <br/> |External content managed by Citrix.  <br/> |
    
 ## See also

@@ -77,7 +77,7 @@ Use the following procedures to create OLE DB or ODBC data connections
     
 4. In the **Search Keywords** box, enter some words or phrases that will help users find the data connection when it is published to SharePoint Server 2013. 
     
-5. Next to **Excel Services**, select **Authentication Settings…**.
+5. Next to **Excel Services**, select **Authentication Settings...**.
     
 6. Select **None**, and then select **OK**.
     

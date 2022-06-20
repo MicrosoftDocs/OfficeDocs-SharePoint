@@ -50,6 +50,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 > - When you rename your SharePoint domain, we create a redirect at the previous address.
 > - You can only rename your SharePoint domain once every six months.
 > - Changing your SharePoint domain name back to the original name after you rename it isn't supported. For example, if you change your SharePoint domain from `contoso.sharepoint.com` to `fabrikam.sharepoint.com`, changing it back to `contoso.sharepoint.com` isn't supported.
+>  - Redirects from the previous name are permanent and do not expire.
 
 ## Limitations
 
@@ -200,6 +201,9 @@ To cancel a rename that has not started, you can run `Stop-SPOTenantRename`. [Mo
 2. Review organization browser settings to make sure  the new domain is a trusted location. This includes reviewing any Group Policy settings that might control browser settings.
 
 3. Review any third-party apps, custom apps, and scripts that access SharePoint. They might need to be modified to use the new domain.
+
+> [!IMPORTANT]
+> If you have custom SharePoint Framework solutions that require access to an API, check the API access page in the SharePoint admin center to ensure that the new domain name can be used by SharePoint Framework components.
 
 ## Troubleshooting
 

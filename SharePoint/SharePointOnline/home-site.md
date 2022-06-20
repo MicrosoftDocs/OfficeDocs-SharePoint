@@ -28,7 +28,7 @@ description: "Learn how to set a communication site as the home site for your or
 
 # Set a site as your home site
   
-A home site is a SharePoint [communication site](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) that you create and set as the main landing site for your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. You can set the home site in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> or by using PowerShell.
+A home site is a SharePoint [communication site](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) that you create and set as the main landing site for your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. It also allows your users to search for content (such as sites, news, and files) across your organization. You can set the home site in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> or by using PowerShell.
 
 Before you begin, make sure you've reviewed how to [plan, build, and launch a home site](./home-site-plan.md). 
 
@@ -36,7 +36,7 @@ Before you begin, make sure you've reviewed how to [plan, build, and launch a ho
 > You can set only one site in your organization as a home site. The site can be registered as a hub site, but can't be associated with a hub. The first time you set up a home site, it might take up to several minutes for the changes to take effect. If you run the command again to switch your home site to a different site, it might take up to 2 hours.
 
 > [!IMPORTANT]
-> If the site you want to be your home site isn't currently your root site and you want it to be, first [replace your root site with the site](modern-root-site.md), and then make the site your home site. 
+> If you want your home site to also be the root site, or top-level site of your intranet, first [replace your root site with the site](modern-root-site.md), and then set up the home site. If you set up a home site first, and then replace it with your root site, you may lose home site settings and need to reapply them.  
 
 ## Use the SharePoint admin center
 
