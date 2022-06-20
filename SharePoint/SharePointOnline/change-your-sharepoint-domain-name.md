@@ -202,6 +202,9 @@ To cancel a rename that has not started, you can run `Stop-SPOTenantRename`. [Mo
 
 3. Review any third-party apps, custom apps, and scripts that access SharePoint. They might need to be modified to use the new domain.
 
+> [!IMPORTANT]
+> If you have custom SharePoint Framework solutions that require access to an API, check the API access page in the SharePoint admin center to ensure that the new domain name can be used by SharePoint Framework components.
+
 ## Troubleshooting
 
 - [Frequently asked questions](/sharepoint/troubleshoot/administration/domain-rename-faq)
