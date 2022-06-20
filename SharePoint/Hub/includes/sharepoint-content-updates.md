@@ -2,6 +2,31 @@
 
 
 
+## Week of June 13, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/13/2022 | [Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](/SharePoint/administration/deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in) | renamed |
+| 6/13/2022 | [Designing a SharePoint Server farm in Azure](/SharePoint/administration/designing-a-sharepoint-server-farm-in-azure) | renamed |
+| 6/13/2022 | [Install Microsoft Identity Manager for User Profiles in SharePoint Server](/SharePoint/administration/install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server) | renamed |
+| 6/13/2022 | [Intranet SharePoint Server in Azure dev/test environment](/SharePoint/administration/intranet-sharepoint-server-in-azure-dev-test-environment) | renamed |
+| 6/13/2022 | [Microsoft Identity Manager in SharePoint Server](/SharePoint/administration/microsoft-identity-manager-in-sharepoint-server) | added |
+| 6/13/2022 | [SharePoint Server dev/test environment in Azure](/SharePoint/administration/sharepoint-server-dev-test-environment-in-azure) | renamed |
+| 6/13/2022 | [SharePoint Server in Microsoft Azure](/SharePoint/administration/sharepoint-server-in-microsoft-azure) | renamed |
+| 6/13/2022 | [Use a sample MIM solution in SharePoint Server](/SharePoint/administration/use-a-sample-mim-solution-in-sharepoint-server) | renamed |
+| 6/13/2022 | [Capacity planning for SharePoint Server 2013](/SharePoint/administration/capacity-planning) | modified |
+| 6/13/2022 | [Deployment considerations for implementing Microsoft Identity Manager with SharePoint Server](/SharePoint/administration/deployment-considerations-for-implementing-microsoft-identity-manager-with-share) | modified |
+| 6/13/2022 | Microsoft Identity Manager in SharePoint Servers 2016 and 2019 | removed |
+| 6/13/2022 | [Mobile security and authentication in SharePoint 2013](/SharePoint/administration/mobile-security-and-authentication) | modified |
+| 6/13/2022 | [Overview of Microsoft Identity Manager Synchronization Service in SharePoint Server](/SharePoint/administration/overview-of-microsoft-identity-manager-synchronization-service-in-sharepoint-ser) | modified |
+| 6/13/2022 | [SharePoint Intranet Farm in Azure Phase 1 Configure Azure](/SharePoint/administration/sharepoint-intranet-farm-in-azure-phase-1-configure-azure) | modified |
+| 6/13/2022 | [SharePoint Intranet Farm in Azure Phase 2 Configure domain controllers](/SharePoint/administration/sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers) | modified |
+| 6/13/2022 | [SharePoint Intranet Farm in Azure Phase 3 Configure SQL Server Infrastructure](/SharePoint/administration/sharepoint-intranet-farm-in-azure-phase-3-configure-sql-server-infrastructure) | modified |
+| 6/13/2022 | [SharePoint Intranet Farm in Azure Phase 4 Configure SharePoint servers](/SharePoint/administration/sharepoint-intranet-farm-in-azure-phase-4-configure-sharepoint-servers) | modified |
+| 6/13/2022 | [SharePoint Intranet Farm in Azure Phase 5 Create the availability group and add the SharePoint databases](/SharePoint/administration/sharepoint-intranet-farm-in-azure-phase-5-create-the-availability-group-and-add) | modified |
+
+
 ## Week of June 06, 2022
 
 
