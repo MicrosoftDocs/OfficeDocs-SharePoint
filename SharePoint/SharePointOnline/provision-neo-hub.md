@@ -95,7 +95,7 @@ To successfully provision the NEO sites via the SharePoint look book, the person
 
 ![Image of the NEO sites solution in the lookbook](media/neo-look-book.png)
 
-1. Go to the [NEO sites solution page](https://provisioning.sharepointpnp.com/details/3df8bd55-b872-4c9d-88e3-6b2f05344239).
+1. Go to the [NEO sites solution page](https://lookbook.microsoft.com/details/8fefcc9a-7ca4-457f-bd10-acee3ae63b63).
 
     - Provision the New employee pre-onboarding site
     - Provision the New employee corporate onboarding site
