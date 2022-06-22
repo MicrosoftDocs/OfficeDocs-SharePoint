@@ -39,7 +39,14 @@ Cutover from old system to new system
 [Customizing SharePoint](/sharepoint/extend-and-develop)
 
 
-	FastTrack
+
+
+### Migrating with FastTrack
+
+FastTrack is a Microsoft benefit that is included in your subscription. FastTrack provides you with a set of best practices, tools, resources, and experts committed to helping you deploy Microsoft 365. Guidance around SharePoint and OneDrive onboarding, migration, and adoption are included in the benefit offering. This guidance includes: help to discover what's possible, creating a plan for success, and onboarding new users, providing guidance on migrating content from file share, Box, or Google Drive source environments, and introducing capabilities at a flexible pace. 
+
+FastTrack guidance provides enablement of both SharePoint and OneDrive as well as getting the source environment ready for your transition. For more details, see [FastTrack Center Benefit Overview](/fasttrack/data-migration/). Interested in getting started? Visit the [FastTrack web site](https://www.microsoft.com/fasttrack/), review resources, and submit a Request for Assistance.
+
 
 ## Site lifecycle
 
@@ -49,11 +56,71 @@ Cutover from old system to new system
 
 ## Hubs and architecture
 
+## Pre-provision accounts
+
 ## Sync
 
-Even though you can upload, download, and interact with your OneDrive files from a web browser, the ideal OneDrive experience comes from the Windows and Mac sync apps and the iOS and Android mobile apps. OneDrive is available for most operating systems and browsers and requires minimal hardware. For a full list of app requirements for using OneDrive, see [OneDrive system requirements](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e).
 
-If you already have the OneDrive sync app installed on Windows devices, start by determining the version or versions of OneDrive in your environment. Depending on your findings, you may need to change your deployment process to accommodate the current version (for example, run takeover commands in PowerShell to ensure that data sync responsibilities transition to the new sync app). To determine which version of OneDrive you're using, see [Which version of OneDrive am I using?](https://support.office.com/article/19246eae-8a51-490a-8d97-a645c151f2ba)
+[Recommended sync app configuration](/onedrive/ideal-state-configuration)
+
+Even though users can upload, download, and interact with SharePoint and OneDrive files from a web browser, the ideal OneDrive experience comes with the OneDrive sync app for Windows and Mac, and the iOS and Android mobile apps. 
+
+For a full list of OneDrive sync app requirements, see [OneDrive sync app system requirements](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e).
+
+
+- To manage the sync app deployment centrally, prevent users from installing the sync app when they go to their OneDrive in a web browser: [Prevent installation](prevent-installation.md)
+
+- To make sure that users sync OneDrive files only on managed computers, configure OneDrive to sync only on PCs that are joined to specific domains: [Allow syncing only on specific domains](allow-syncing-only-on-specific-domains.md)
+
+- To prevent users from uploading specific file types, such as exe or mp3 files: [Block file types](block-file-types.md)
+
+
+Sync decisions:
+
+update ring
+deployment options
+kfm
+GPO vs. Intune
+Specific policies
+
+
+
+
+
+- (AllowTenantList) [Allow syncing OneDrive accounts for only specific organizations](use-group-policy.md#allow-syncing-onedrive-accounts-for-only-specific-organizations)
+
+- (AutomaticUploadBandwidthPercentage) [Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput)
+
+- (BlockExternalListSync) This setting controls Lists sync and is listed here for convenience. For more info, see [Prevent users from syncing lists shared from other organizations](/sharepoint/lists-sync-policies#prevent-users-from-syncing-lists-shared-from-other-organizations).
+
+- (BlockExternalSync) [Prevent users from syncing libraries and folders shared from other organizations](use-group-policy.md#prevent-users-from-syncing-libraries-and-folders-shared-from-other-organizations)
+
+- (BlockTenantList) [Block syncing OneDrive accounts for specific organizations](use-group-policy.md#block-syncing-onedrive-accounts-for-specific-organizations)
+
+- (DisablePersonalSync) [Prevent users from syncing personal OneDrive accounts](use-group-policy.md#prevent-users-from-syncing-personal-onedrive-accounts)
+
+
+- (EnableAutomaticUploadBandwidthManagement) [Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#enable-automatic-upload-bandwidth-management-for-onedrive)
+
+- (EnableODIgnoreListFromGPO) [Exclude specific kinds of files from being uploaded](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded)
+
+- (GPOSetUpdateRing) [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring)
+
+
+- (SharePointOnPremFrontDoorUrl) Specify SharePoint Server URL and organization name. This setting is for customers who have SharePoint Server 2019. For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
+
+- (SharePointOnPremPrioritization) Specify the OneDrive location in a hybrid environment. This setting is for customers who have SharePoint Server 2019. For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
+
+
+
+- (KFMBlockOptIn) [Prevent users from moving their Windows known folders to OneDrive](use-group-policy.md#prevent-users-from-moving-their-windows-known-folders-to-onedrive)
+
+- (KFMBlockOptOut) [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#prevent-users-from-redirecting-their-windows-known-folders-to-their-pc)
+
+- (KFMOptInWithWizard) [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive)
+
+- (KFMSilentOptIn) [Silently move Windows known folders to OneDrive](use-group-policy.md#silently-move-windows-known-folders-to-onedrive)
+
 
 ### Sync app update process
 
@@ -69,32 +136,20 @@ You configure this setting using the OneDrive policy [Set the sync app update ri
 
 For details about the update process for the OneDrive sync app, see [The OneDrive sync app update process](sync-client-update-process.md).
 
-To find out about new features available in current OneDrive updates as well as the current and historical version numbers, see [New OneDrive sync app release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
-
 Key decision:
 
 - Which ring do you want to use for updates to the OneDrive sync app?
 
-
-- To manage the sync app deployment centrally, prevent users from installing the sync app when they go to their OneDrive in a web browser: [Prevent installation](prevent-installation.md)
-
-- To make sure that users sync OneDrive files only on managed computers, configure OneDrive to sync only on PCs that are joined to specific domains: [Allow syncing only on specific domains](allow-syncing-only-on-specific-domains.md)
-
-- To prevent users from uploading specific file types, such as exe or mp3 files: [Block file types](block-file-types.md)
-
 ## Deployment options
 
-You have several different options for deploying OneDrive: manually, using scripting, using Windows Autopilot (for the sync app on Windows), using an MDM such as Intune, or using Microsoft Endpoint Configuration Manager.
+You have several different options for deploying the OneDrive sync app: manually, using scripting, using Windows Autopilot (for the sync app on Windows), using an MDM such as Intune, or using Microsoft Endpoint Configuration Manager.
 
-The OneDrive sync app is included as part of Windows 10 and Office 2016. You do not need to deploy the sync app to devices running these, though you may need to update the sync app to the latest version.
+The OneDrive sync app is included as part of Windows 10, Windows 11, and Office 2016 or higher. You do not need to deploy the sync app to devices running these, though you may need to update the sync app to the latest version.
 
-## Deploy OneDrive using Microsoft Endpoint Configuration Manager
+### Deploy OneDrive using Microsoft Endpoint Configuration Manager
 
 To deploy the OneDrive sync app to Windows using Microsoft Endpoint Configuration Manager, see [Deploy OneDrive apps by using Microsoft Endpoint Configuration Manager](deploy-on-windows.md).
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSr]
-
-Before you can deploy applications to computers running macOS, you need to complete some prerequisite tasks on the Microsoft Endpoint Configuration Manager site. For detailed info about these prerequisites and how to prepare a Configuration Manager environment for Mac management, see [Prepare to deploy client software to Macs](/configmgr/core/clients/deploy/prepare-to-deploy-mac-clients/). When you've completed the prerequisites, you can deploy applications to Macs by completing the steps described in [Create Mac computer applications with Configuration Manager](/configmgr/apps/get-started/creating-mac-computer-applications). For info about configuring the OneDrive sync app for macOS, see [Deploy and configure the new OneDrive sync app for Mac](deploy-and-configure-on-macos.md).
 
 - **Sync** - On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings page in the SharePoint admin center</a>, select **Sync** to configure sync restrictions based on file types, require that synced devices be domain joined, or restrict synchronization from computers running macOS. Depending on your device management tool, the PC device restrictions in this section may overlap other management settings.
 
