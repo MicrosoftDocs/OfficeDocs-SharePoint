@@ -75,10 +75,38 @@ For a full list of OneDrive sync app requirements, see [OneDrive sync app system
 - To prevent users from uploading specific file types, such as exe or mp3 files: [Block file types](block-file-types.md)
 
 
+**Key decisions for sync:**
+
+- [Do you want to allow users to sync files?](#Do-you-want-to-allow-users-to-sync-files)
+- [How do you want to manage sync on Windows computers?](#How-do-you-want-to-manage-sync-on-Windows-computers)
+- [Which update ring do you want to use?](#Which-update-ring-do-you-want-to-use)
+- [Do you want to limit network utilization for sync?](#Do-you-want-to-limit-network-utilization-for-sync)
+- [Do you want to sync common folders with OneDrive?](#Do-you-want-to-sync-common-folders-with-OneDrive)
+
+
+
+### Do you want to allow users to sync files?
+x
+### How do you want to manage sync on Windows computers?
+x
+### Which update ring do you want to use?
+x
+### Do you want to limit network utilization for sync?
+x
+### Do you want to sync common folders with OneDrive?
+x
+
+
+
+
+
 Sync decisions:
 
+allow sync at all?
 update ring
 deployment options
+throttle sync during migration
+
 kfm
 GPO vs. Intune
 Specific policies
