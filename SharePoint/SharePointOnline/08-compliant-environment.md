@@ -24,6 +24,60 @@ o	Retention
 o	Labels, SITs, and DLP
 o	Sync policies
 
+- Specify how long you want to retain a user's OneDrive files when the user is deleted: [Set OneDrive retention for deleted users](set-retention.md)
+
+- To prevent users from accessing OneDrive and SharePoint content on devices outside of specific domains, or from apps that don't use modern authentication: [Control access based on network authentication or app](control-access-based-on-network-location-or-app.md)
+
+
+## Manage OneDrive by using the Microsoft Purview compliance portal
+
+The [Microsoft Purview compliance portal](https://compliance.microsoft.com/) provides a centralized location to auditing, DLP, retention, eDiscovery, and alerting capabilities within Microsoft 365 that are applicable to OneDrive. You can create DLP policies from templates that protect certain types of data, such as Social Security numbers, banking information, and other financial and medical content. Some capabilities won't be available if you're using Intune (for example, device management). For a walkthrough of how to create DLP policies and apply them to OneDrive, see [Create a DLP policy from a template](/office365/securitycompliance/create-a-dlp-policy-from-a-template/).
+
+## Data retention
+
+When a user leaves your organization and you've deleted that user's account, what happens to the user's data? When considering data retention compliance, determine what needs to happen with the deleted user's data. For some organizations, retaining deleted user data could be important continuity and preventing critical data loss. The default retention policy for deleted OneDrive users is 30 days. You can configure the setting to a range between 0 days and 3,650 days (ten years).
+
+For more info about OneDrive retention, see [OneDrive retention and deletion](retention-and-deletion.md) and [Learn about retention policies](/microsoft-365/compliance/retention-policies?view=o365-worldwide&preserve-view=true).
+
+Key decision:
+
+- What data retention time do you need for your organization?
+
+-  **Retention** - On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings page in the SharePoint admin center</a>, select **Retention** to configure data retention settings for users whose accounts have been deleted (the maximum value is 10 years). This organization-wide configuration setting is applicable to all organizations, regardless of the device management tool they use. Use this page to configure the data retention value based on the decisions you made in Part 2, [Plan for OneDrive for enterprises](plan-onedrive-enterprise.md).
+
+### Multi-Geo data residency
+
+Multi-Geo is Microsoft 365 feature that allows organizations to span their storage over multiple geo locations and specify where to store users' data. For multinational customers with data residency requirements, you can use this feature to ensure that each user's data is stored in the geo location necessary for compliance. For more info about this feature, see [Multi-Geo Capabilities in OneDrive and SharePoint](/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
+
+If you have data residency requirements, consider OneDrive Multi-Geo. With OneDrive Multi-Geo, you can specify a preferred data location (PDL), from available locations around the world, for each user's OneDrive. For detailed info about OneDrive Multi-Geo, see [Multi-Geo Capabilities in OneDrive and SharePoint in Microsoft 365](/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
+
+If you plan to deploy OneDrive Multi-Geo, there are two user scenarios:
+
+- Users who start using OneDrive before you configure OneDrive Multi-Geo – their OneDrive will be located in the central location once you configure OneDrive Multi-Geo. If you need to move a user's OneDrive to a different geo location, follow the steps in [Move a OneDrive site to a different geo-location](/office365/enterprise/move-onedrive-between-geo-locations/).
+
+- Users who start using OneDrive after you configure OneDrive Multi-Geo – you can configure their preferred data location as part of your general user onboarding process and their OneDrive will be created in the appropriate geo location.
+
+Features such as file sync and mobile device management work normally in a multi-geo environment. There's no special configuration or management needed. The multi-geo experience for your users has minimal difference from a single-geo configuration. For details, see [User experience in a multi-geo environment](/office365/enterprise/multi-geo-user-experience/).
+
+If you plan to configure OneDrive Multi-Geo prior to deploying OneDrive for your users, see [Plan for OneDrive Multi-Geo](/office365/enterprise/plan-for-multi-geo/), and follow the steps in [OneDrive Multi-Geo tenant configuration](/office365/enterprise/multi-geo-tenant-configuration/).
+
+Key decisions:
+
+- Do you plan to use OneDrive Multi-Geo?
+
+- Will you have OneDrive Multi-Geo fully configured before your users start using OneDrive?
+
+### Windows Information Protection
+
+You can use Windows Information Protection (WIP) to help prevent data leakage by deploying application or device policies that restrict how your employees can store, access, and use your organization's data. For example, you can restrict users to synchronizing files that contain company data only to OneDrive and not to personal cloud storage providers like Dropbox. For info about how to use WIP, see [Protect your enterprise data using Windows Information Protection (WIP)](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).
+
+If you've decided to use Windows Information Protection with OneDrive, see the following resources to set up your Windows Information Protection policies:
+
+- [Create a Windows Information Protection (WIP) policy using Microsoft Intune](/windows/security/information-protection/windows-information-protection/overview-create-wip-policy/)
+
+- [Create a Windows Information Protection (WIP) policy using Configuration Manager](/windows/security/information-protection/windows-information-protection/overview-create-wip-policy-configmgr)
+
+
 [Microsoft Purview compliance documentation](/microsoft-365/compliance)
 
 Learn
