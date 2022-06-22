@@ -92,38 +92,46 @@ Specific policies
 
 **Key decisions for sync:**
 
-- [Do you want to allow users to sync files?](#Do-you-want-to-allow-users-to-sync-files?)
-- [How do you want to manage sync on Windows computers?](#How-do-you-want-to-manage-sync-on-Windows-computers?)
-- [Which update ring do you want to use?](#Which-update-ring-do-you-want-to-use?)
-- [Do you want to limit network utilization for sync?](#Do-you-want-to-limit-network-utilization-for-sync?)
-- [Do you want to sync common folders with OneDrive?](#Do-you-want-to-sync-common-folders-with-OneDrive?)
+- [Do you want to allow users to sync files?](#do-you-want-to-allow-users-to-sync-files)
+- [How do you want to manage sync on Windows computers?](#how-do-you-want-to-manage-sync-on-windows-computers)
+- [Which update ring do you want to use?](#which-update-ring-do-you-want-to-use)
+- [Do you want to limit network utilization for sync?](#do-you-want-to-limit-network-utilization-for-sync)
+- [Do you want to sync common folders with OneDrive?](#do-you-want-to-sync-common-folders-with-onedrive)
+
+Do you want to limit which domains users can sync with?
 
 
 
 ### Do you want to allow users to sync files?
 
+
 ### How do you want to manage sync on Windows computers?
+
 
 ### Which update ring do you want to use?
 
+
 ### Do you want to limit network utilization for sync?
+
+- (AutomaticUploadBandwidthPercentage) [Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput)
 
 ### Do you want to sync common folders with OneDrive?
 
 
-
-
+### Do you want to limit which domains users can sync with?
 
 
 - (AllowTenantList) [Allow syncing OneDrive accounts for only specific organizations](use-group-policy.md#allow-syncing-onedrive-accounts-for-only-specific-organizations)
 
-- (AutomaticUploadBandwidthPercentage) [Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput)
-
-- (BlockExternalListSync) This setting controls Lists sync and is listed here for convenience. For more info, see [Prevent users from syncing lists shared from other organizations](/sharepoint/lists-sync-policies#prevent-users-from-syncing-lists-shared-from-other-organizations).
-
 - (BlockExternalSync) [Prevent users from syncing libraries and folders shared from other organizations](use-group-policy.md#prevent-users-from-syncing-libraries-and-folders-shared-from-other-organizations)
 
 - (BlockTenantList) [Block syncing OneDrive accounts for specific organizations](use-group-policy.md#block-syncing-onedrive-accounts-for-specific-organizations)
+
+
+
+
+
+
 
 - (DisablePersonalSync) [Prevent users from syncing personal OneDrive accounts](use-group-policy.md#prevent-users-from-syncing-personal-onedrive-accounts)
 
