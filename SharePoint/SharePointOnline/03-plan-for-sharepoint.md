@@ -97,8 +97,10 @@ Specific policies
 - [Which update ring do you want to use?](#which-update-ring-do-you-want-to-use)
 - [Do you want to limit network utilization for sync?](#do-you-want-to-limit-network-utilization-for-sync)
 - [Do you want to sync common folders with OneDrive?](#do-you-want-to-sync-common-folders-with-onedrive)
-
-Do you want to limit which domains users can sync with?
+- [Do you want to limit which domains users can sync with?](do-you-want-to-limit-which-domains-users-can-sync-with)
+- [Do you want to allow users to sync their personal OneDrive?](do-you-want-to-allow-users-to-sync-their-personal-onedrive)
+- [Do you want to block certain file types from being synced?](do-you-want-to-block-certain-file-types-from-being-synced)
+- [Does you need to sync files in a hybrid environment with SharePoint Server?](does-you-need-to-sync-files-in-a-hybrid-environment-with-sharepoint-server)
 
 
 
@@ -111,11 +113,28 @@ Do you want to limit which domains users can sync with?
 ### Which update ring do you want to use?
 
 
+- (GPOSetUpdateRing) [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring)
+
+
 ### Do you want to limit network utilization for sync?
 
 - (AutomaticUploadBandwidthPercentage) [Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput)
 
+
+- (EnableAutomaticUploadBandwidthManagement) [Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#enable-automatic-upload-bandwidth-management-for-onedrive)
+
+
 ### Do you want to sync common folders with OneDrive?
+
+
+- (KFMBlockOptIn) [Prevent users from moving their Windows known folders to OneDrive](use-group-policy.md#prevent-users-from-moving-their-windows-known-folders-to-onedrive)
+
+- (KFMBlockOptOut) [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#prevent-users-from-redirecting-their-windows-known-folders-to-their-pc)
+
+- (KFMOptInWithWizard) [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive)
+
+- (KFMSilentOptIn) [Silently move Windows known folders to OneDrive](use-group-policy.md#silently-move-windows-known-folders-to-onedrive)
+
 
 
 ### Do you want to limit which domains users can sync with?
@@ -128,34 +147,22 @@ Do you want to limit which domains users can sync with?
 - (BlockTenantList) [Block syncing OneDrive accounts for specific organizations](use-group-policy.md#block-syncing-onedrive-accounts-for-specific-organizations)
 
 
-
-
-
+### Do you want to allow users to sync their personal OneDrive?
 
 
 - (DisablePersonalSync) [Prevent users from syncing personal OneDrive accounts](use-group-policy.md#prevent-users-from-syncing-personal-onedrive-accounts)
 
 
-- (EnableAutomaticUploadBandwidthManagement) [Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#enable-automatic-upload-bandwidth-management-for-onedrive)
+### Do you want to block certain file types from being synced?
 
 - (EnableODIgnoreListFromGPO) [Exclude specific kinds of files from being uploaded](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded)
 
-- (GPOSetUpdateRing) [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring)
-
+### Does you need to sync files in a hybrid environment with SharePoint Server?
 
 - (SharePointOnPremFrontDoorUrl) Specify SharePoint Server URL and organization name. This setting is for customers who have SharePoint Server 2019. For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
 
 - (SharePointOnPremPrioritization) Specify the OneDrive location in a hybrid environment. This setting is for customers who have SharePoint Server 2019. For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
 
-
-
-- (KFMBlockOptIn) [Prevent users from moving their Windows known folders to OneDrive](use-group-policy.md#prevent-users-from-moving-their-windows-known-folders-to-onedrive)
-
-- (KFMBlockOptOut) [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#prevent-users-from-redirecting-their-windows-known-folders-to-their-pc)
-
-- (KFMOptInWithWizard) [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive)
-
-- (KFMSilentOptIn) [Silently move Windows known folders to OneDrive](use-group-policy.md#silently-move-windows-known-folders-to-onedrive)
 
 
 ### Sync app update process
