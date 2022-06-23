@@ -46,6 +46,7 @@ The per-machine sync app supports syncing OneDrive and SharePoint files in Micro
 
 1. Download OneDriveSetup.exe.
 2. Run "OneDriveSetup.exe /allusers" from a command prompt window (will result in a UAC prompt) or by using Microsoft Endpoint Configuration Manager. This will install the sync app under the "Program Files (x86)\Microsoft OneDrive" directory or "Program Files\Microsoft OneDrive" directory (depending on the OS architecture).
+
 When setup completes, OneDrive will start. If accounts were added on the computer, they'll be migrated automatically.
 
 ## FAQ
