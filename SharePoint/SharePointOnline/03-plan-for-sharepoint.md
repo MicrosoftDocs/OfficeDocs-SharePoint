@@ -120,8 +120,12 @@ Specific policies
 
 - (AutomaticUploadBandwidthPercentage) [Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput)
 
+[AutomaticUploadBandwidthPercentage](deploy-and-configure-on-macos.md#automaticuploadbandwidthpercentage)
+
 
 - (EnableAutomaticUploadBandwidthManagement) [Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#enable-automatic-upload-bandwidth-management-for-onedrive)
+
+
 
 
 ### Do you want to sync common folders with OneDrive?
@@ -129,12 +133,23 @@ Specific policies
 
 - (KFMBlockOptIn) [Prevent users from moving their Windows known folders to OneDrive](use-group-policy.md#prevent-users-from-moving-their-windows-known-folders-to-onedrive)
 
+[KFMBlockOptIn](deploy-and-configure-on-macos.md#kfmblockoptin-preview)
+
+
 - (KFMBlockOptOut) [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#prevent-users-from-redirecting-their-windows-known-folders-to-their-pc)
+
+[KFMBlockOptOut](deploy-and-configure-on-macos.md#kfmblockoptout-preview)
+
 
 - (KFMOptInWithWizard) [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive)
 
+[KFMOptInWithWizard](deploy-and-configure-on-macos.md#kfmoptinwithwizard-preview)
+
+
 - (KFMSilentOptIn) [Silently move Windows known folders to OneDrive](use-group-policy.md#silently-move-windows-known-folders-to-onedrive)
 
+
+[KFMSilentOptIn](deploy-and-configure-on-macos.md#kfmsilentoptin-preview)
 
 
 ### Do you want to limit which domains users can sync with?
@@ -142,28 +157,40 @@ Specific policies
 
 - (AllowTenantList) [Allow syncing OneDrive accounts for only specific organizations](use-group-policy.md#allow-syncing-onedrive-accounts-for-only-specific-organizations)
 
-- (BlockExternalSync) [Prevent users from syncing libraries and folders shared from other organizations](use-group-policy.md#prevent-users-from-syncing-libraries-and-folders-shared-from-other-organizations)
+[AllowTenantList](deploy-and-configure-on-macos.md#allowtenantlist)
+
 
 - (BlockTenantList) [Block syncing OneDrive accounts for specific organizations](use-group-policy.md#block-syncing-onedrive-accounts-for-specific-organizations)
 
+[BlockTenantList](deploy-and-configure-on-macos.md#blocktenantlist)
+
+
+- (BlockExternalSync) [Prevent users from syncing libraries and folders shared from other organizations](use-group-policy.md#prevent-users-from-syncing-libraries-and-folders-shared-from-other-organizations)
+
+[BlockExternalSync](deploy-and-configure-on-macos.md#blockexternalsync)
 
 ### Do you want to allow users to sync their personal OneDrive?
 
 
 - (DisablePersonalSync) [Prevent users from syncing personal OneDrive accounts](use-group-policy.md#prevent-users-from-syncing-personal-onedrive-accounts)
 
+[DisablePersonalSync](deploy-and-configure-on-macos.md#disablepersonalsync)
 
 ### Do you want to block certain file types from being synced?
 
 - (EnableODIgnoreListFromGPO) [Exclude specific kinds of files from being uploaded](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded)
 
+[EnableODIgnore](deploy-and-configure-on-macos.md#enableodignore)
+
 ### Does you need to sync files in a hybrid environment with SharePoint Server?
 
 - (SharePointOnPremFrontDoorUrl) Specify SharePoint Server URL and organization name. This setting is for customers who have SharePoint Server 2019. For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
 
+[SharePointOnPremFrontDoorUrl](onedrive/deploy-and-configure-on-macos.md#sharepointonpremfrontdoorurl)
+
 - (SharePointOnPremPrioritization) Specify the OneDrive location in a hybrid environment. This setting is for customers who have SharePoint Server 2019. For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
 
-
+[SharePointOnPremPrioritizationPolicy](onedrive/deploy-and-configure-on-macos.md#sharepointonpremprioritizationpolicy)
 
 ### Sync app update process
 
@@ -176,6 +203,8 @@ You can select how soon your users receive updates we release for the sync app.
 - **Deferred ring** – In this ring, you have more control over the deployment of updates, but users have to wait longer to receive fixes and new features.
 
 You configure this setting using the OneDrive policy [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
+
+[Tier](deploy-and-configure-on-macos.md#tier)
 
 For details about the update process for the OneDrive sync app, see [The OneDrive sync app update process](sync-client-update-process.md).
 
