@@ -1,8 +1,8 @@
 ---
 title: "SharePoint Intranet Farm in Azure Phase 5 Create the availability group and add the SharePoint databases"
 ms.reviewer: 
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 04/06/2018
 audience: ITPro
@@ -25,7 +25,7 @@ description: "Configure the SQL Server availability group for your high-availabi
   
 In this final phase of deploying an intranet-only SharePoint Server 2016 farm in Azure infrastructure services, you create a new SQL Server AlwaysOn Availability Group with the databases of the SharePoint farm, create the availability group listener, and then complete the SharePoint farm configuration.
   
-See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](./deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md) for all of the phases. 
+See [Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](./deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md) for all of the phases. 
   
 ## Configure the availability group
 
@@ -101,7 +101,7 @@ Keep the Remote Desktop session to the first SQL Server virtual machine open.
     
 4. In the left pane, right-click **Databases**, and then click **Restore Database**.
     
-5. In the **Source** section, select **Device**, and then click the ellipsis ( **…**) button.
+5. In the **Source** section, select **Device**, and then click the ellipsis ( **...**) button.
     
 6. In **Select backup devices**, click **Add**.
     
@@ -317,10 +317,10 @@ Your high availability SharePoint Server 2016 farm in Azure is complete.
 
 #### Other Resources
 
-[Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](./deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md)
+[Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](./deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md)
   
-[SharePoint Server 2016 in Microsoft Azure](./sharepoint-server-2016-in-microsoft-azure.md)
+[SharePoint Server in Microsoft Azure](./sharepoint-server-in-microsoft-azure.md)
   
-[Designing a SharePoint Server 2016 farm in Azure](./designing-a-sharepoint-server-2016-farm-in-azure.md)
+[Designing a SharePoint Server farm in Azure](./designing-a-sharepoint-server-farm-in-azure.md)
   
 [Install SharePoint Server](../install/install.md)

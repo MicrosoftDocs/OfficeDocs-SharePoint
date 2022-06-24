@@ -170,11 +170,14 @@ After a SharePoint admin gives a site owner permission to associate their sites 
 Associating with the hub does not automatically add the site to the hub navigation. Hub site owners determine which sites are included in the navigation. They can also configure the News, Sites, Events, and Highlighted content to roll up activity from all associated sites or only selected sites.
   
 > [!NOTE]
-> Association with a hub does not change the permissions on a site. If you associate a site that has restricted access with a hub, only users who have access to the restricted site will see content rolled up on the hub. Information surfaced on the hub site is security trimmed: if you don't have access to the content, you won't see it. Something you may want to consider is adjusting permissions on the associated sites after you have assembled your hub family or [adding a hub "read" permission gorup to the hub](https://support.microsoft.com/office/set-up-your-sharepoint-hub-site-e2daed64-658c-4462-aeaf-7d1a92eba098#bkmk_managesiteassociationapprovals) and adding that permission group to associated sites. 
+> Association with a hub does not change the permissions on a site. If you associate a site that has restricted access with a hub, only users who have access to the restricted site will see content rolled up on the hub. Information surfaced on the hub site is security trimmed: if you don't have access to the content, you won't see it. Something you may want to consider is adjusting permissions on the associated sites after you have assembled your hub family or [adding a hub "read" permission group to the hub](https://support.microsoft.com/office/set-up-your-sharepoint-hub-site-e2daed64-658c-4462-aeaf-7d1a92eba098#bkmk_managesiteassociationapprovals) and adding that permission group to associated sites. 
   
 ### Navigation
 
 The hub site owner determines which sites are reflected in the shared navigation and can also include links to other resources. This navigation appears at the top, below the suite bar. Most of the time, you will want to add associated sites to your hub navigation. That's one of the benefits of the experiences that you can enable with a hub. Your hub navigation can have up to three levels, which lets you organize your hub family in a way that helps users discover and find relevant content.
+
+> [!NOTE]
+> The default navigation menu style for team sites hub navigation will be cascading. 
   
 However, you may not want to add every associated site to your navigation and you may want to consider adding sites that aren't associated to the navigation. Consider the following as you plan your hub navigation.
   
@@ -210,7 +213,7 @@ If you have only one hub, you'll miss the ability to easily surface related info
     
 - **Subsites**. Hub sites solve many or most of the use cases for which you previously used subsites. We recommend using hub sites going forward to organize the sites in your intranet. However, subsites will continue to be supported as a classic feature, and we'll add the new team site template as a subsite option.
 
-- **Should your home site be a hub?** It depends. Consider making your home site a hub if you have a unique set of sites that represent your "official" intranet where you want a distinct brand and search scope that you want to distinguish from other sites in the tenant. Consider leaving your home site as a "regular" site if you plan to have multiple hubs and you want your users to leverage the SharePoint app bar for global navigation. Every site in the internet does not have to be connected to a hub if your home site is not a hub. Some sites may be part of a hub and have both local and hub navigation but other sites may only have local navigation. In this scenario, your intranet global navigation is provided by the app bar, not a hub.
+- **Should your home site be a hub?** It depends. Consider making your home site a hub if you have a unique set of sites that represent your "official" intranet where you want a distinct brand and search scope that you want to distinguish from other sites in the tenant. Consider leaving your home site as a "regular" site if you plan to have multiple hubs and you want your users to leverage the SharePoint app bar for global navigation. Every site in the intranet does not have to be connected to a hub if your home site is not a hub. Some sites may be part of a hub and have both local and hub navigation but other sites may only have local navigation. In this scenario, your intranet global navigation is provided by the app bar, not a hub.
     
 Use hub sites when they align with your business outcomes and solve a need for your users.
 
