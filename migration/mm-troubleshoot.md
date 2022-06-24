@@ -37,7 +37,7 @@ This article describes how to resolve issues and errors you may experience when 
 - [Error codes](#error-codes)
 - [Geo admins can't access full functionality of Migration Manager](#geo-admins-not-supported)
 - [Group-inherited SharePoint admins can't access full functionality of Migration Manager](#group-inherited-sharepoint-admins-unable-to-access-scans-and-migrations-tabs)
-- [The site collection "XXXX" cannot be created or updated](#The-site-collection-"XXXX"-Cannot-be-created-or-updated)
+- [The site collection "XXXX" cannot be created or updated](#the-site-collection-xxxx-cannot-be-created-or-updated)
 
 
 ## Check prerequisites and settings
