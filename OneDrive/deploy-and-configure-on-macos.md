@@ -1,5 +1,5 @@
 ---
-title: "Deploy and configure the new OneDrive sync app for Mac"
+title: "Deploy and configure the OneDrive sync app for Mac"
 ms.reviewer: 
 ms.author: mabond
 author: mkbond007
@@ -24,22 +24,22 @@ ms.assetid: eadddc4e-edc0-4982-9f50-2aef5038c307
 description: "Learn how to change settings when deploying or managing the OneDrive sync app on macOS."
 ---
 
-# Deploy and configure the new OneDrive sync app for Mac
+# Deploy and configure the OneDrive sync app for Mac
 
 There are two basic ways that you, as an administrator, can deploy the OneDrive sync app to Mac users in your organization:
   
-- Install and set up the OneDrive sync app by following the instructions in [Sync files with OneDrive on macOS](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f). To install the OneDrive sync app for Mac, a user has to be an administrator on the Mac or know an administrator account name and password. 
-    
+- Install and set up the OneDrive sync app by following the instructions in [Sync files with OneDrive on macOS](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f). To install the OneDrive sync app for Mac, a user has to be an administrator on the Mac.
+
 - Download the installer package file to your local network, and then use your software distribution tools to deploy the app to your users. By using a software distribution tool, you have more control over the deployment, including which users get the sync app and when. The OneDrive sync app for Mac uses the Apple Installer technology for installation allowing you to use the software distribution tools that you normally use to deploy software to Mac users. You can use [Microsoft Intune](/mem/intune/apps/apps-add-office365-macOS). Other common tools are [Jamf Pro](https://www.jamf.com/products/jamf-pro/), [Munki](https://www.munki.org/), and [AutoPkg](https://github.com/autopkg/autopkg). You can also use [Apple Remote Desktop](https://www.apple.com/remotedesktop/) and [AppleScript](https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html).
   
 ## Manage OneDrive settings on macOS using property list (.plist) files
 
-After the OneDrive sync app for Mac is installed, users can configure settings for the app. These settings are called preferences. As an administrator, you might want to provide users in your organization with a standard set of preferences. Preferences for the OneDrive sync app for Mac are stored in property list (.plist) files. 
+After the OneDrive sync app for Mac is installed, users can configure settings for the app. These settings are called preferences. As an administrator, you might want to provide users in your organization with a standard set of preferences. Preferences for the OneDrive sync app for Mac are stored in property list (.plist) files.
   
 || Standalone | Mac App Store |
 |:-----|:-----|:-----|
-|**.plist location  <br/>**|~/Library/Preferences/com.microsoft.OneDrive.plist  <br/> |~/Library/Containers/com.microsoft.OneDrive-mac/Data/Library/Preferences/com.microsoft.OneDrive-mac.plist  <br/> |
-|**Domain <br/>**|com.microsoft.OneDrive  <br/> |com.microsoft.OneDrive-mac  <br/> | 
+|**.plist location**  |~/Library/Preferences/com.microsoft.OneDrive.plist  |~/Library/Containers/com.microsoft.OneDrive-mac/Data/Library/Preferences/com.microsoft.OneDrive-mac.plist  |
+|**Domain**  |com.microsoft.OneDrive  |com.microsoft.OneDrive-mac  |
   
 ## Configure sync app settings
 
@@ -57,7 +57,7 @@ Configure the settings on macOS as follows:
 
 ## Overview of settings
 
-Use the following keys to preconfigure or change settings for your users. The keys are the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the settings, ensure that you target the appropriate domain depending on the edition of the sync app.
+Use the following keys to pre-configure or change settings for your users. The keys are the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the settings, ensure that you target the appropriate domain depending on the edition of the sync app.
 
 ## List of settings
 
@@ -118,9 +118,9 @@ The example for this setting in the .plist file is:
 ```xml
 <key>AllowTenantList</key>
 <dict>
-<key>TenantId1</key>
+<string>TenantId1</string>
 <true/>
-<key>TenantId2</key>
+<string>TenantId2</string>
 <true/>
 </dict>
 ```
@@ -155,9 +155,9 @@ The example for this setting in the .plist file is:
 ```xml
 <key>BlockTenantList</key>
 <dict>
-<key>TenantId1</key>
+<string>TenantId1</string>
 <true/>
-<key>TenantId2</key>
+<string>TenantId2</string>
 <true/>
 </dict>
 ```
@@ -249,7 +249,7 @@ The example for this setting in the .plist file is:
 
 This setting sets the maximum download throughput rate in kilobytes (KB)/sec for computers running the OneDrive sync app.
 
-Set this setting's value to an integer between 50 KB/sec and the maximum rate is 100,000 KB/sec that determines the download throughput in KB/sec that the sync app can use.
+Set this setting's value to an integer between 50 KB/sec and the maximum rate is 100000 KB/sec that determines the download throughput in KB/sec that the sync app can use.
 
 The example for this setting in the .plist file is:
 ```xml
@@ -285,7 +285,6 @@ This setting lets you enter keywords to prevent the OneDrive sync app from uploa
 If you enable this setting, the sync app doesn't upload new files that match the keywords you specified. No errors appear for the skipped files, and the files remain in the local OneDrive folder. In Finder, the files appear with an "Excluded from sync" icon. 
 
 Users will also see a message in the OneDrive activity center that explains why the files aren't syncing.
-Set this setting's value to an integer between 50 KB/sec and the maximum rate of 100,000 KB/sec that determines the download throughput in KB/sec that the sync app can use.
 
 The example for this setting in the .plist file is:
 ```xml
@@ -300,7 +299,7 @@ The example for this setting in the .plist file is:
 
 <a name="FilesOnDemandEnabled"> </a>
 
-This setting specifies whether Files On-Demand is enabled. 
+This setting specifies whether Files On-Demand is enabled.
 
 > [!IMPORTANT]
 > We recommend keeping Files On-Demand enabled. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)
@@ -310,7 +309,7 @@ If you don't set this setting, Files On-Demand will be enabled automatically as 
 > [!NOTE]
 > Beginning in macOS Monterey 12.1, Files On-Demand will be the default and there will not be a setting for users to turn it off.
 
-If you set this setting to **True**, **FilesOnDemand** is enabled and the users who set up the sync app can view the online-only files, by default. 
+If you set this setting to **True**, **FilesOnDemand** is enabled and the users who set up the sync app can view the online-only files, by default.
 
 If you set this setting to **False**, **FilesOnDemand** is disabled and the users won't be able to turn it on.
 
@@ -348,8 +347,8 @@ To enable this setting, you must define a string in JSON format as described bel
 
 The example for this setting in the .plist file is:
 ```xml
-<key>HydrationDisallowedApps </key>
-<string> [{"ApplicationId":"appId","MaxBundleVersion":"1.1","MaxBuildVersion":"1.0"}, {"ApplicationId":"appId2","MaxBundleVersion":"3.2","MaxBuildVersion":"2.0"}]</string>
+<key>HydrationDisallowedApps</key>
+<string>[{"ApplicationId":"appId","MaxBundleVersion":"1.1","MaxBuildVersion":"1.0"}, {"ApplicationId":"appId2","MaxBundleVersion":"3.2","MaxBuildVersion":"2.0"}]</string>
 <(Bool)/>
 ```
 
@@ -360,9 +359,9 @@ The example for this setting in the .plist file is:
 
 This setting prevents users from moving their Documents and Desktop folders to any OneDrive account.
   
-If you enable this setting, users aren't prompted with a window to protect their important folders, and the *Manage backup* command is disabled. If the user has already moved their known folders, the files in those folders will remain in OneDrive. To redirect the known folders back to the user's device, select "No." This setting doesn't take effect if you've enabled "KFMOptInWithWizard" or "KFMSilentOptIn".
+If you enable this setting, users aren't prompted with a window to protect their Desktop and Documents folders, and the *Manage backup* command is disabled. If the user has already moved their Desktop and Documents folders, the files in those folders will remain in OneDrive. To redirect the Desktop and Documents folders back to the user's device, select "No." This setting doesn't take effect if you've enabled "KFMOptInWithWizard" or "KFMSilentOptIn".
 
-If you set this setting's value to 1, it will prevent Known Folder Move.  It you set the value to 2, it will redirect any  folders previously used for Known Folder Move back to the user’s device and stop the setting from running further.
+If you set this setting's value to 1, it will prevent Folder Backup.  It you set the value to 2, it will redirect any  folders previously used for Folder Backup back to the user’s device and stop the setting from running further.
 
 The example for this setting in the .plist file is:
 ```xml
@@ -376,7 +375,7 @@ The example for this setting in the .plist file is:
 
 This setting forces users to keep their Documents and Desktop folders directed to OneDrive.
 
-If you enable this setting, the **Stop protecting** button in the **Set up protection of important folders** window is disabled, and users receive an error if they try to stop syncing a known folder.
+If you enable this setting, the **Stop protecting** button in the **Set up protection of important folders** window is disabled, and users receive an error if they try to stop syncing their Desktop or Documents folder.
   
 The example for this setting in the .plist file is:
 ```xml
@@ -390,7 +389,7 @@ The example for this setting in the .plist file is:
 
 This setting displays a wizard that prompts users to move their Documents and Desktop folders to OneDrive.
 
-If you enable this setting and provide your tenant ID, users who are syncing their OneDrive will see the Known Folder Move wizard window when they're signed in. If they close the window, a reminder notification appears in the Activity Center until they move all their known folders. If a user has already redirected their known folders to a different OneDrive account, they will be prompted to direct their folders to the account for your organization (leaving existing files behind).
+If you enable this setting and provide your tenant ID, users who are syncing their OneDrive will see the Folder Backup wizard window when they're signed in. If they close the window, a reminder notification appears in the Activity Center until they move their Desktop and Documents folders.
   
 The example for this setting in the .plist file is:
 ```xml
@@ -461,7 +460,7 @@ The example for this setting in the .plist file is:
 
 <a name="SharePointOnPremPrioritizationPolicy"> </a>
 
-This setting determines whether or not the client should set up sync for SharePoint Server or SharePoint in Microsoft 365 first during the first-run scenario when the email is the same for both SharePoint Server on-premises and SharePoint in Microsoft 365 in a hybrid scenario.
+This setting determines whether or not the client should set up sync for SharePoint Server or SharePoint in Microsoft 365 first during the first-run scenario when the account is the same for both SharePoint Server on-premises and SharePoint in Microsoft 365 in a hybrid scenario.
 
 If you set this setting's value to **1**, it is an indication that OneDrive should set up SharePoint Server on-premises first, followed by SharePoint in Microsoft 365.
 
@@ -497,16 +496,15 @@ The example for this setting in the .plist file is:
 
 <a name="Tier"> </a>
 
-This setting lets you specify the ring for users in your organization. The OneDrive sync app updates to the public through three rings; first to Insiders, then to Production, and finally to Deferred.  When you enable this setting and select a ring, users aren't able to change it.  
+This setting lets you specify the ring for users in your organization. The OneDrive sync app updates to the public through three rings; first to Insiders, then to Production, and finally to Deferred.  When you enable this setting and select a ring, users aren't able to change it.
+
+We recommend selecting several people in your IT department as early adopters to join the Insiders ring and receive features early. We also recommend leaving everyone else in the organization in the default Production ring to ensure they receive bug fixes and new features in a timely fashion. [See all our recommendations for configuring the sync app](ideal-state-configuration.md).
 
 **Insiders**: The Insiders ring users receive builds that let them preview new features coming to OneDrive.
 
 **Production**: The Production ring users get the latest features as they become available. This ring is the default.
 
-**Enterprise** (now called "Deferred"): The Deferred ring users get new features, bug fixes, and performance improvements last. This ring lets you deploy updates from an internal network location, and control the timing of the deployment (within a 60-day window).
-
-> [!IMPORTANT]
-> We recommend selecting several people in your IT department as early adopters to join the Insiders ring and receive features early. We also recommend leaving everyone else in the organization in the default Production ring to ensure they receive bug fixes and new features in a timely fashion. [See all our recommendations for configuring the sync app](ideal-state-configuration.md).
+**Deferred** (formerly called "Enterprise"): The Deferred ring users get new features, bug fixes, and performance improvements last. This ring lets you deploy updates from an internal network location, and control the timing of the deployment (within a 60-day window).
 
 For more information on the builds currently available in each ring, see the [OneDrive release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?). For more information about the update rings and how the sync app checks for updates, see the [OneDrive sync app update process](sync-client-update-process.md).
 
@@ -526,10 +524,14 @@ The example for this setting in the .plist file is:
 
 This setting defines the maximum upload throughput rate in KB/sec for computers running the OneDrive sync app.
 
-To enable this setting, set a value between 50 and 100,000 that is the upload throughput rate the sync app can use.
+To enable this setting, set a value between 50 and 100000 that is the upload throughput rate the sync app can use.
 
 The example for this setting in the .plist file is:
 ```xml
 <key>UploadBandwidthLimited</key>
 <integer>(Upload Throughput Rate in KB/sec)</integer>
 ```
+
+## Related articles
+
+[Find your Microsoft 365 tenant ID](find-your-office-365-tenant-id.md)

@@ -37,7 +37,7 @@ There are two primary advantages of moving or redirecting macOS Desktop and Docu
 For these reasons, we recommend moving or redirecting Desktop and Documents folders to OneDrive with Folder Backup if you're an enterprise or large organization. [See all our recommendations for configuring the sync app](ideal-state-configuration.md). Small or medium businesses may also find this useful, but keep in mind you'll need some experience configuring policies. For info about the end-user experience, see [Protect your files by saving them to OneDrive](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057).
 
 > [!NOTE]
-> OneDrive sync for macOS runs natively on Apple silicon. This support is generally available starting with build 22.022. Users will be automatically updated over the next few releases.
+> OneDrive sync for macOS runs natively on Apple silicon. This support is generally available starting with build 22.022.
 
 ## Prepare to move Desktop and Documents folders on existing devices
 
@@ -66,7 +66,7 @@ The following settings control the Folder Backup feature:
   
 - [Prompt users to move Desktop and Documents folders to OneDrive (KFMOptInWithWizard)](deploy-and-configure-on-macos.md#kfmoptinwithwizard)
 
-    Use this setting to give the users a call to action to move their Desktop and Documents macOS folders.
+    Use KFMOptInWithWizard to give the users a call to action to move their Desktop and Documents macOS folders.
 
     If users dismiss the prompt, a reminder notification will appear in the activity center until they move all available folders.
 
