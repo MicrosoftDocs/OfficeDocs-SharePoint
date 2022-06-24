@@ -33,23 +33,23 @@ You control your data. When you put your data in SharePoint and OneDrive for Mic
  
 Microsoft engineers administer SharePoint and OneDrive using a PowerShell console that requires two-factor authentication. We perform day-to-day tasks by running workflows so we can rapidly respond to new situations. Check-ins to the service require code review and management approval.
   
-No engineer has standing access to the service. When engineers need access, they must request it. Eligibility is checked, and if engineer access is approved, it's only for a limited time. In rare cases where Microsoft engineers need access to content (for example, if you submit a support ticket because a user can't access an important file that we believe is damaged), the engineers must check in a specific workflow that requires business justification and manager approval. An audit event is generated that you can view in the Microsoft 365 admin center. You can also turn on a feature called Customer Lockbox, so you need to approve the request. The engineer gets access only to the file in question. To learn how to turn on or off Customer Lockbox and approve and deny requests, see [Microsoft 365 Customer Lockbox Requests](/office365/admin/manage/customer-lockbox-requests).
+No engineer has standing access to the service. When engineers need access, they must request it. Eligibility is checked, and if engineer access is approved, it's only for a limited time. In rare cases where Microsoft engineers need access to content (for example, if you submit a support ticket because a user can't access an important file that we believe is damaged), the engineers must check in a specific workflow that requires business justification and manager approval. An audit event is generated that you can view in the Microsoft 365 admin center. You can also turn on a feature called Customer Lockbox, so you need to approve the request. The engineer gets access only to the file in question. To learn how to turn on or off Customer Lockbox and approve and deny requests, see [Microsoft Purview Customer Lockbox Requests](/office365/admin/manage/customer-lockbox-requests).
   
 ## How you can safeguard your data
- 
+
 One of the most important things you can do to safeguard your data is to require two-factor authentication for your identities in Microsoft 365. This prevents credentials from being used without a second factor and mitigates the impact of compromised passwords. The second factor can be made through a phone call, text message, or app. When you roll out two-factor authentication, start with your global admins, and then other admins and site collection admins. For info about how to do this, see [Set up multi-factor authentication for Microsoft 365 users](/office365/admin/security-and-compliance/set-up-multi-factor-authentication).
   
 Other things we recommend to increase security: 
   
 - Use Azure Active Directory device-based conditional access to block or limit access on unmanaged devices like airport or hotel kiosks. See [Control access from unmanaged devices](control-access-from-unmanaged-devices.md).
-    
+
 - Create policies to sign users out of Microsoft 365 web sessions after a period of inactivity. For information, see [Sign out inactive users](sign-out-inactive-users.md).
-    
+
 - Evaluate the need for IP-based sessions. These simulate the access model of an on-premises deployment. Read more at [Control access based on network location or app](/onedrive/control-access-based-on-network-location-or-app).
-    
+
 - Empower workers to share broadly but safely. You can require sign-in or use links that expire or grant limited privileges. See [Manage external sharing for your SharePoint environment](external-sharing-overview.md).
     
-- Prevent accidental exposure of sensitive content. Create DLP policies to identify documents and prevent them from being shared. See [Overview of data loss prevention policies](/office365/securitycompliance/data-loss-prevention-policies).
+- Prevent accidental exposure of sensitive content. Create DLP policies to identify documents and prevent them from being shared. See [Learn about data loss prevention](/microsoft-365/compliance/dlp-learn-about-dlp).
     
 ## Protected in transit and at rest
  
@@ -66,7 +66,7 @@ When data transits into the service from clients, and between datacenters, it's 
  **Application security**: Engineers who build features follow the security development lifecycle. Automated and manual analyses help identify possible vulnerabilities. The Microsoft security response center ([Microsoft Security Response Center](https://www.microsoft.com/msrc?rtc=1)) helps triage incoming vulnerability reports and evaluate mitigations. Through the Microsoft Cloud Bug Bounty, people across the world can earn money by reporting vulnerabilities. Read more about this at [Microsoft Cloud Bug Bounty Terms](https://www.microsoft.com/msrc/bounty-microsoft-cloud?rtc=1
 ).
   
- **Content protection**: Your data is encrypted at the disk level using BitLocker encryption and at the file level using keys. For info, see [Data Encryption in OneDrive and SharePoint](/office365/securitycompliance/data-encryption-in-odb-and-spo). For information about using Customer Key to provide and control the keys that are used to encrypt your data at rest in Microsoft 365, see [Service encryption with Customer Key for Microsoft 365 FAQ](/office365/securitycompliance/service-encryption-with-customer-key-faq).
+ **Content protection**: Your data is encrypted at the disk level using BitLocker encryption and at the file level using keys. For info, see [Data Encryption in OneDrive and SharePoint](/office365/securitycompliance/data-encryption-in-odb-and-spo). For information about using Customer Key to provide and control the keys that are used to encrypt your data at rest in Microsoft 365, see [Service encryption with Microsoft Purview Customer Key FAQ](/office365/securitycompliance/service-encryption-with-customer-key-faq).
   
 The Microsoft 365 anti-malware engine scans documents at upload time for content matching an AV signature (updated hourly). For info, see [Virus detection in SharePoint](/office365/securitycompliance/virus-detection-in-spo). For more advanced protection, use Microsoft 365 Advanced Threat Protection (ATP). ATP analyzes content that's shared and applies threat intelligence and analysis to identify sophisticated threats. For info, see [Microsoft 365 Advanced Threat Protection](/office365/securitycompliance/office-365-atp).
   
@@ -84,7 +84,7 @@ To manage content at rest:
     
 ## Highly available, always recoverable
  
-Our datacenters are geo-distributed within the region and fault tolerant. Data is mirrored in at least two datacenters to mitigate the impact of a natural disaster or service-impacting outage. For more information, see [Where's my data?](https://o365datacentermap.azurewebsites.net/).
+Our datacenters are geo-distributed within the region and fault tolerant. Data is mirrored in at least two datacenters to mitigate the impact of a natural disaster or service-impacting outage. For more information, see [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations).
   
 Metadata backups are kept for 14 days and can be restored to any point in time within a five-minute window. 
   

@@ -71,6 +71,8 @@ When you upload a custom app to the Apps site, it's available for users to insta
 
 1. Review the info in the **Enable app** panel. Depending on the functionality that the app provides, the developer can set a flag that allows you to add the app to all sites in the organization. To do this, select **Enable this app and add it to all sites**. 
 
+    ![Screenshot of the Enable app confirmation dialog box.](media/apps-enable-app.png)
+
     > [!NOTE]
     > We recommend testing solutions before deploying them broadly. 
 
@@ -79,7 +81,9 @@ When you upload a custom app to the Apps site, it's available for users to insta
 1. Select **Close**.
 
 1. To help site owners identify and use the app, select the app, and then select **Properties**.
-    
+
+    ![Screenshot of the menu dropdown with Properties option.](media/apps-select-properties.png)
+
 1. Review and edit the **Name** for the app and enter optional information like a description, images, category, publisher, and support URL. Follow the instructions on the screen for details like image size.
     
 1. Make sure the **Enabled** checkbox is selected so that users are able to add this app to sites.
@@ -146,7 +150,5 @@ If you no longer want a specific app to be available for users to add, you can r
 <a name="__toc347303053"> </a>
 
 [Configure settings for the SharePoint Store](configure-sharepoint-store-settings.md)
-  
-[Monitor apps for your SharePoint environment](monitor-apps.md)
   
 [Add an app to a site](https://support.office.com/article/ef9c0dbd-7fe1-4715-a1b0-fe3bc81317cb)

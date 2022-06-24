@@ -21,6 +21,7 @@ description: Learn what happens to a user's OneDrive when the user's Office 365 
 ms.custom: 
 - seo-marvel-apr2020
 - admindeeplinkSPO
+- onedrive-toc
 ---
 
 # OneDrive retention and deletion

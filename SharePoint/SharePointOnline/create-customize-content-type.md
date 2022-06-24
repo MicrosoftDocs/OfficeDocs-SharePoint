@@ -1,5 +1,5 @@
 ---
-title: "Create or customize a content type"
+title: Create or customize a content type
 ms.reviewer: anfra
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -16,7 +16,7 @@ search.appverid:
 ms.collection:  
 - M365-collaboration
 ms.custom: admindeeplinkSPO
-description: "Learn how to create or customize a content type in the SharePoint admin center."
+description: Learn how to create or customize a content type in the SharePoint admin center.
 ---
 
 # Create or customize a content type
@@ -29,7 +29,7 @@ Content types created in SharePoint admin center are saved to the SharePoint con
 
 To learn more about content types, see [Introduction to content types and content type publishing](https://support.microsoft.com/office/e1277a2e-a1e8-4473-9126-91a0647766e5).
 
-To understand how the built-in content types relate to each other, see [SharePoint in Microsoft 365 default content type hierarchy](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/live/SharePoint/SharePointOnline/spodownloads/sharepoint-default-content-types-hierarchy.pdf).
+To understand how the built-in content types relate to each other, see [SharePoint in Microsoft 365 default content type hierarchy](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/public/SharePoint/SharePointOnline/spodownloads/sharepoint-default-content-types-hierarchy.pdf).
 
 To create a content type, follow these steps:
 
@@ -43,13 +43,13 @@ To create a content type, follow these steps:
 
     ![Create content type](media/create-content-type.png)
 
-4. In the **Parent content type** section, from the **Category** and **Content type** dropdowns, select the content type that you want to base this content type on.
+4. In the **Category** section, you are provided two choices:
 
-5. In the **Category** section, you are provided two choices:
-
-    - To put the new content type in an existing category, select **Use an existing category**, and from the **Category** dropdown, select a category.
+    - To put the new content type in an existing category, select **Use an existing category**, and from the **Name** dropdown, select a category.
     
     - To put the content in a new category, select **Create a new category**, and in the **Category name** box, provide a name. 
+
+5. In the **Parent content type** section, from the **Parent category** and **Content type** dropdowns, select the content type that you want to base this content type on.
 
 6. Select **Create**.
 

@@ -53,7 +53,7 @@ For additional information about SQL Server server-level roles, see [Server Leve
   
 If you remove one or more of these SQL Server roles, you might receive "Unexpected" error messages in the Central Administration web site. In addition, you may receive the following message in the Unified Logging Service (ULS) log file:
   
- **System.Data.SqlClient.SqlException… \<operation type\> permission denied in database \<database\>. Table \<table\>**
+ **System.Data.SqlClient.SqlException... \<operation type\> permission denied in database \<database\>. Table \<table\>**
   
 Along with an error message that may be displayed, you may be unable to perform any of the following tasks:
   

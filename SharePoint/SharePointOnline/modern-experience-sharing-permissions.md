@@ -51,7 +51,7 @@ Microsoft Teams provides a hub for collaboration by bringing together various se
 
 For scenarios where a SharePoint site is used with Teams, we recommend doing all permission management through Teams. As with Microsoft 365 groups, team owners become site owners and team members become site members.
 
-For private or shared channel sites, permission management must be done in Teams. Channel owners become sites owners in SharePoint and channel members become site members. Permissions in SharePoint can't be managed separately.
+For private or shared channel sites, permission management must be done in Teams. Channel owners become sites owners in SharePoint and channel members become site members. Permissions in SharePoint can't be managed separately and will display in read-only mode.
 
 For details about how SharePoint and Teams interact, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites) and [Manage settings and permissions when SharePoint and Teams are integrated](/sharepoint/manage-teams-sharepoint-experiences).
 
