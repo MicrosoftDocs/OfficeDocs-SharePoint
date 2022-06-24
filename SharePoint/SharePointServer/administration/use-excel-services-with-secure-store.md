@@ -34,8 +34,8 @@ Excel Services can be used with Secure Store in three primary scenarios:
     
 > **External Data Connections**: You can specify a Secure Store target application in an Office Data Connection (ODC) file and then connect to that ODC file in Excel. When you publish the workbook to a SharePoint document library, it maintains its connection to the ODC file. The connection information in the ODC file is used when Excel Services refreshes the data in the workbook. Using an ODC file has the following advantages:
     
-    - A single ODC file can be referenced by multiple workbooks. If the data source connection parameters change (for example, if you want to use a different Secure Store target application than the one originally specified) you need only update the ODC file and not the workbooks themselves.
+- A single ODC file can be referenced by multiple workbooks. If the data source connection parameters change (for example, if you want to use a different Secure Store target application than the one originally specified) you need only update the ODC file and not the workbooks themselves.
     
-    - Using ODC files allows administrators to create and maintain the data connections that are used by the organization. You can create data connections appropriate for users, place them in a trusted data connection library, and then notify the users of which ODC files to use for their queries.
+- Using ODC files allows administrators to create and maintain the data connections that are used by the organization. You can create data connections appropriate for users, place them in a trusted data connection library, and then notify the users of which ODC files to use for their queries.
     
-    For information about how to configure this scenario, see [Configure Excel Services data refresh by using external data connections](./excel-services-overview.md).
+For information about how to configure this scenario, see [Configure Excel Services data refresh by using external data connections](./excel-services-overview.md).

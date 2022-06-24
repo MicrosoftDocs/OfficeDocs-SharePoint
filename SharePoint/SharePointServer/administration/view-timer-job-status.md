@@ -72,17 +72,17 @@ You can view timer job status by using PowerShell.
   Get-SPTimerJob -Identity <SPTimerJobPipeBind> | Format-Table DisplayName,Id,LastRunTime,Status
   ```
 
-    Where  _\<SPTimerJobPipeBind\>_ can be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of a timer job (for example, TimerJob1); or an instance of a valid SPTimerJob object. 
+  Where  _\<SPTimerJobPipeBind\>_ can be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of a timer job (for example, TimerJob1); or an instance of a valid SPTimerJob object. 
     
-    You can use the value of the **Identity** parameter to specify a timer job. If you do not use the **Identity** parameter, all timer jobs are returned. 
+  You can use the value of the **Identity** parameter to specify a timer job. If you do not use the **Identity** parameter, all timer jobs are returned. 
     
-    To view the history of a specific timer job, type the following command:
+  To view the history of a specific timer job, type the following command:
     
   ```
   (Get-SPTimerJob -Identity <SPTimerJobPipeBind>).HistoryEntries | Format-Table -Property Status,StartTime,EndTime,ErrorMessage
   ```
 
-    Where  _\<SPTimerJobPipeBind\>_ can be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of a timer job (for example, TimerJob1); or an instance of a valid SPTimerJob object. 
+  Where  _\<SPTimerJobPipeBind\>_ can be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of a timer job (for example, TimerJob1); or an instance of a valid SPTimerJob object. 
     
 For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/Get-SPTimerJob). 
   

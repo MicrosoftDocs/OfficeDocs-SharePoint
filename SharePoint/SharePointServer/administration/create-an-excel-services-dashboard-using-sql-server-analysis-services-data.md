@@ -158,7 +158,7 @@ We begin by creating the ProductSales report.
     
     The **Select field** dialog appears. 
     
-2. To open the **Sort (Category)** dialog, select **More Sort Options…**. 
+2. To open the **Sort (Category)** dialog, select **More Sort Options...**. 
     
 3. In the **Sort options** section, select the **Descending (Z to A) by** option, and then use the list to select **Sales Amount**.
     
@@ -166,7 +166,7 @@ We begin by creating the ProductSales report.
     
 7. To ensure that there is room for more reports, we'll move the PivotChart report closer to the upper-left corner of the worksheet. To do this, drag the report so that the upper-left corner aligns with the upper-left corner of cell B10 in the worksheet.
     
-8. To avoid confusion about report names later, we'll specify a new name for the report. On the **Analyze** tab, in the **PivotChart** group, in the **Chart Name** box, delete the text that says Chart1, type ProductSales, and on your keyboard, press **<Enter>**. 
+8. To avoid confusion about report names later, we'll specify a new name for the report. On the **Analyze** tab, in the **PivotChart** group, in the **Chart Name** box, delete the text that says Chart1, type ProductSales, and on your keyboard, press **\<Enter\>**. 
     
     > [!TIP]
     > Ensure that the name that you specify contains only alphanumeric characters (no spaces). 
@@ -235,7 +235,7 @@ At this point, we have created a PivotChart report. The next step is to create a
     
 6. Close the **Format Chart Area** list. 
     
-9. Specify a new name for the report. On the **Analyze** tab, in the **PivotChart** group, in the **Chart Name** box, delete the text for Chart2, type GeoSales, and on your keyboard, and on your keyboard, press **<Enter>**. 
+9. Specify a new name for the report. On the **Analyze** tab, in the **PivotChart** group, in the **Chart Name** box, delete the text for Chart2, type GeoSales, and on your keyboard, and on your keyboard, press **\<Enter\>**. 
     
 10. On the **File** tab, select **Save**. 
     
@@ -269,9 +269,9 @@ At this point, we have created two reports. The next step is to create the Chann
     
     The report updates to display a table showing order counts and sales amounts for the Internet and Reseller channels. 
     
-7. Select cell B26, and then, in the **Formula** bar, delete the text for Row Labels, and enter 'Channel Sales.' Then, on your keyboard, press **<Enter>**.
+7. Select cell B26, and then, in the **Formula** bar, delete the text for Row Labels, and enter 'Channel Sales.' Then, on your keyboard, press **\<Enter\>**.
     
-8. Specify a new name for the report. On the **Analyze** tab, in the **PivotTable** group, in the **PivotTable Name** box, delete the text for PivotTable3, type ChannelSales, and on your keyboard, press **<Enter>**. 
+8. Specify a new name for the report. On the **Analyze** tab, in the **PivotTable** group, in the **PivotTable Name** box, delete the text for PivotTable3, type ChannelSales, and on your keyboard, press **\<Enter\>**. 
     
 9. On the **File** tab, select **Save**. 
     
@@ -305,9 +305,9 @@ At this point, we have created three reports using the same data source. The nex
     
     The report updates to display a table showing order counts and sales amounts for different product categories. 
     
-7. Select cell H26, and then, in the **Formula** bar, delete the default text for **Row Labels**, and then type Products. Then, on your keyboard, press **<Enter>**.
+7. Select cell H26, and then, in the **Formula** bar, delete the default text for **Row Labels**, and then type Products. Then, on your keyboard, press **\<Enter\>**.
     
-8. Specify a new name for the report. On the **Analyze** tab, in the **PivotTable** group, in the **PivotTable Name** box, delete the text for PivotTable4, type OrderSales, and on your keyboard, press **<Enter>**. 
+8. Specify a new name for the report. On the **Analyze** tab, in the **PivotTable** group, in the **PivotTable Name** box, delete the text for PivotTable4, type OrderSales, and on your keyboard, press **\<Enter\>**. 
     
 9. On the **File** tab, select **Save**. 
     
@@ -367,7 +367,7 @@ We begin by making adjustments to the workbook. By default, our example dashboar
     
 3. To remove row and column headings, on the **View** tab, in the **Show** group, clear the **Headings** check box. 
     
-4. To rename the worksheet, right-click its tab for **Sheet1**, and then select **Rename**. Enter a new name for the worksheet, such as SalesDashboard, and on your keyboard, press **<Enter>**.
+4. To rename the worksheet, right-click its tab for **Sheet1**, and then select **Rename**. Enter a new name for the worksheet, such as SalesDashboard, and on your keyboard, press **\<Enter\>**.
     
 5. On the **File** tab, select **Save**.
     
@@ -383,7 +383,7 @@ The workbook we created uses an external data connection that we want to keep ac
     
 2. Select **Properties**. 
     
-3. In the **Connection Properties** dialog, on the **Definition** tab, next to **Excel Services**, select **Authentication Settings…**. 
+3. In the **Connection Properties** dialog, on the **Definition** tab, next to **Excel Services**, select **Authentication Settings...**. 
     
 4. In the **Excel Services Authentication Settings** dialog, take one of the following steps: 
     

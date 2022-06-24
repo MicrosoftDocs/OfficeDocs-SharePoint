@@ -31,7 +31,7 @@ TLS protocol version 1.1 and 1.2 support is not enabled by default in SharePoint
 3. Client computers used to access your SharePoint sites
     
 > [!IMPORTANT]
-> If you do not update each of these locations, you run the risk of systems failing to ﻿connect to each other using TLS 1.1 or TLS 1.2. The systems will instead fall back to an older security protocol; and if the older security protocols are disabled, ﻿the systems may fail to connect entirely. > **Example:** SharePoint servers may fail to connect to ﻿SQL Server databases, or client computers may fail to connect to your SharePoint sites.
+> If you do not update each of these locations, you run the risk of systems failing to connect to each other using TLS 1.1 or TLS 1.2. The systems will instead fall back to an older security protocol; and if the older security protocols are disabled, the systems may fail to connect entirely. > **Example:** SharePoint servers may fail to connect to SQL Server databases, or client computers may fail to connect to your SharePoint sites.
 
 Learn about [data encryption in OneDrive and SharePoint in Microsoft 365](/microsoft-365/compliance/data-encryption-in-odb-and-spo).
   
@@ -53,10 +53,10 @@ Follow these steps to update your SharePoint server.
 |[1.4 - Install SQL Server 2008 R2 Native Client update for TLS 1.2 support](https://www.microsoft.com/download/details.aspx?id=57606#InstallSQL) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
 |[1.5 - Install .NET Framework 4.6 or higher](#InstallNET46) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
 |[1.6 - Enable strong cryptography in .NET Framework 4.6 or higher](#CryptoNet45) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
-|The following ﻿steps are **recommended**. Although not directly required by SharePoint Server 2013, they may be necessary for other software ﻿that integrates with SharePoint Server 2013.  <br/> |
+|The following steps are **recommended**. Although not directly required by SharePoint Server 2013, they may be necessary for other software that integrates with SharePoint Server 2013.  <br/> |
 |[1.7 - Install .NET Framework 3.5 update for TLS 1.1 and TLS 1.2 support](#InstallFrame46) <br/> |Recommended  <br/> |Recommended  <br/> |Recommended  <br/> |
 |[1.8 - Enable strong cryptography in .NET Framework 3.5](#EnableCryptoFrame35) <br/> |Recommended  <br/> |Recommended  <br/> |Recommended  <br/> |
-|The following ﻿step is **optional**. You may choose to run this step based on your organization's security and compliance requirements.  <br/> |
+|The following step is **optional**. You may choose to run this step based on your organization's security and compliance requirements.  <br/> |
 |[1.9 - Disable earlier versions of SSL and TLS in Windows Schannel](#DisableTLSSchannel) <br/> |Optional  <br/> |Optional  <br/> |Optional  <br/> |
    
 ## 1.1 - Enable TLS 1.1 and TLS 1.2 in Windows Schannel
@@ -618,9 +618,9 @@ Follow these steps to update your client computers that access your SharePoint s
 |[3.3 - Enable TLS 1.1 and TLS 1.2 support in Internet Explorer](#enableIE2013) <br/> |Required  <br/> |N/A  <br/> |N/A  <br/> |
 |[3.4 - Enable strong cryptography in .NET Framework 4.5 or higher](#enablestrongcrypto4.5) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
 |[3.5 - Install .NET Framework 3.5 update for TLS 1.1 and TLS 1.2 support](#NETFramework3.5x) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
-|The following ﻿step is **recommended**. Although not directly required by SharePoint Server 2013, they provide better security by restricting the use of weak encryption algorithms.  <br/> |
+|The following step is **recommended**. Although not directly required by SharePoint Server 2013, they provide better security by restricting the use of weak encryption algorithms.  <br/> |
 |[3.6 - Enable strong cryptography in .NET Framework 3.5](#Enablecrypto3.5x) <br/> |Recommended  <br/> |Recommended  <br/> |Recommended  <br/> |
-|The following ﻿step is **optional**. You may choose to run this step based on your organization's security and compliance requirements.  <br/> |
+|The following step is **optional**. You may choose to run this step based on your organization's security and compliance requirements.  <br/> |
 |[3.7 - Disable earlier versions of SSL and TLS in Windows Schannel](#DisableSSL_TLS) <br/> |Optional  <br/> |Optional  <br/> |Optional  <br/> |
    
 ## 3.1 - Enable TLS 1.1 and TLS 1.2 in Windows Schannel

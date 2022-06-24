@@ -84,7 +84,7 @@ You must also grant access to the SharePoint content database for this account. 
     
 2. At the Microsoft PowerShell Command Prompt, type the following syntax (press ENTER after each line):
     
-  ```
+  ```powershell
   $w = Get-SPWebApplication -identity http://<WebApplication>
   $w.GrantAccessToProcessIdentity("<Domain>\<PowerPivotApplicationPoolAccount>")
   ```

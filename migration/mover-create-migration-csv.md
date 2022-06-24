@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - SPMigration
@@ -39,7 +40,7 @@ A heading for the source and destination, followed by the paths, and optional ta
 Sample CSV file format:
 
 |Source Path|Destination Path|Tags|
-|:-----	|:-----	|:-----	|
+|:-----|:-----|:-----|
 |user01@domain<span><span>.com|user_01@domain.<span><span>com|
 |Team Folder|user_02@domain.<span><span>com|
 |Shared Drive|user_03@domain.<span><span>com|

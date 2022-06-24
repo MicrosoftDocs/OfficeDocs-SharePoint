@@ -1,5 +1,5 @@
 ---
-title: "Managing a MinRole Server Farm in SharePoint Servers 2016 and 2019"
+title: "Managing a MinRole Server Farm in SharePoint Servers 2016, 2019, and Subscription Edition"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -16,13 +16,13 @@ ms.assetid: 883fac19-3048-4ef0-b473-10b3b05493b6
 description: "Learn how to manage your MinRole farm deployment in SharePoint Server."
 ---
 
-# Managing a MinRole Server Farm in SharePoint Servers 2016 and 2019
+# Managing a MinRole Server Farm in SharePoint Servers 2016, 2019, and Subscription Edition
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
 
-Learn how to manage your MinRole farm deployment in SharePoint Servers 2016 and 2019.
+Learn how to manage your MinRole farm deployment in SharePoint Servers 2016, 2019, and Subscription Edition.
   
- **MinRole** is a new farm topology based on a set of predefined server roles introduced in SharePoint Server 2016. When configuring your SharePoint farm, you now select the role of a server when you create a new farm or join a server to an existing farm. SharePoint will automatically configure the services on each server based on the server's role. SharePoint Servers 2016 and 2019 has been optimized for the MinRole farm topology. 
+**MinRole** is a new farm topology based on a set of predefined server roles introduced in SharePoint Server 2016. When configuring your SharePoint farm, you now select the role of a server when you create a new farm or join a server to an existing farm. SharePoint will automatically configure the services on each server based on the server's role. SharePoint Servers 2016, 2019, and Subscription Edition is optimized for the MinRole farm topology. 
   
 ## MinRole administration
 
@@ -33,24 +33,24 @@ With the addition of the MinRole feature, there are several changes to the Centr
 #### Manage servers in this farm
 
 This page shows the servers that are joined to the farm. Two columns have been added to this page: **Role** and **Compliant**. 
-  
-![Displays Servers In Farm for the November PU 2016 in SharePoint Server 2016 (Feature Pack 1)](../media/44119bfc-88ed-47c6-a5cb-0408b03f06eb.png)
+
+::image type="content" alt-text="Displays Servers In Farm for the November PU 2016 in SharePoint Server 2016 (Feature Pack 1)" source="../media/44119bfc-88ed-47c6-a5cb-0408b03f06eb.png" lightbox="../media/44119bfc-88ed-47c6-a5cb-0408b03f06eb.png":::
   
 The **Role** column displays the role that is assigned to the server in the farm. 
   
 > [!NOTE]
 > In the "Servers in Farm" page, the SQL server and SMTP server will be listed as belonging to the "External" role, while in Microsoft PowerShell, their server roles are displayed as "Invalid". These two role names are equivalent. 
   
-The **Compliant** column displays whether the server configuration is in compliance with its server role. If the server is not in compliance, a **Fix** link will be provided to automatically reconfigure the server to match the expected configuration of its server role. 
+The **Compliant** column displays whether the server configuration is in compliance with its server role. If the server isn't in compliance, a **Fix** link will be provided to automatically reconfigure the server to match the expected configuration of its server role. 
   
 > [!NOTE]
 > Only members of the local Administrators group on the server that hosts Central Administration have access to the **Fix** link. 
   
 #### Manage services in this farm
 
-This is a new page in the System Settings category of Central Administration. It displays the state of each service in the farm. This page has three column of interest: **Auto Provision**, **Action**, and **Compliant**. 
+This is a new page in the System Settings category of Central Administration. It displays the state of each service in the farm. This page has three columns of interest: **Auto Provision**, **Action**, and **Compliant**. 
   
-![Displays services in a SharePoint Servers 2016 and 2019 farm](../media/90e10233-ba14-4bc4-8213-b8866a7ae2b1.PNG)
+:::image type="content" alt-text="Displays services in a SharePoint Servers 2016 and 2019 farm." source="../media/90e10233-ba14-4bc4-8213-b8866a7ae2b1.PNG" lightbox="../media/90e10233-ba14-4bc4-8213-b8866a7ae2b1.PNG":::
   
 The **Auto Provision** column displays whether the service is enabled in the farm. If the value **Yes** is displayed, service instances for this service will be started on the appropriate MinRole-managed servers in the farm. If the value **No** is displayed, service instances for this service will be stopped on the appropriate MinRole-managed servers in the farm. 
   
@@ -74,9 +74,9 @@ The **Compliant** column displays whether the service is in compliance on every 
 
 This page displays all of the service instances on a server. Some things have changed as highlighted in red in the following diagram.
   
-![Displays services on servers in SharePoint Servers 2016 and 2019](../media/65dd3268-93e8-47ea-9486-7c500b8af90c.PNG)
+:::image type="content" alt-text="Displays services on servers in SharePoint Servers 2016 and 2019." source="../media/65dd3268-93e8-47ea-9486-7c500b8af90c.PNG" lightbox="../media/65dd3268-93e8-47ea-9486-7c500b8af90c.PNG":::
   
-In previous releases of SharePoint, this page was accessible only to members of the local Administrators group on the Central Administration server. In SharePoint Server 2016, all members of the SharePoint Farm Administrators group have access to this page.
+In previous releases of SharePoint, this page was accessible only to members of the local Administrators group on the Central Administration server. From SharePoint Server 2016, all members of the SharePoint Farm Administrators group have access to this page.
   
 The role of the server is now displayed next to the name of the server.
   
@@ -97,21 +97,20 @@ The **Action** column has changed. The link to start or stop a service has been 
 
 New PowerShell cmdlets have been introduced to manage the services in the farm.
   
-||||
+| Cmdlet name | Description | Syntax example |
 |:-----|:-----|:-----|
-|**Cmdlet name** <br/> |**Description** <br/> |**Syntax example** <br/> |
-|Get-SPService  <br/> |The [Get-SPService](/powershell/module/sharepoint-server/Get-SPService?view=sharepoint-ps&preserve-view=true) cmdlet gets a service in the farm.  <br/> | *Get-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |
-|Start-SPService  <br/> |The [Start-SPService](/powershell/module/sharepoint-server/Start-SPService?view=sharepoint-ps&preserve-view=true) cmdlet enables a service in the farm. Service instances for this service will be started on the appropriate MinRole-managed servers in the farm.  <br/> | *Start-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |
-|Stop-SPService  <br/> |The [Stop-SPService](/powershell/module/sharepoint-server/Stop-SPService?view=sharepoint-ps&preserve-view=true) cmdlet disables a service in the farm. Service instances for this service will be stopped on the appropriate MinRole-managed servers in the farm.  <br/> | *Stop-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |
-   
+|Get-SPService  |The [Get-SPService](/powershell/module/sharepoint-server/Get-SPService?view=sharepoint-ps&preserve-view=true) cmdlet gets a service in the farm.  | *Get-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  |
+|Start-SPService  |The [Start-SPService](/powershell/module/sharepoint-server/Start-SPService?view=sharepoint-ps&preserve-view=true) cmdlet enables a service in the farm. Service instances for this service will be started on the appropriate MinRole-managed servers in the farm.  | *Start-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  |
+|Stop-SPService  |The [Stop-SPService](/powershell/module/sharepoint-server/Stop-SPService?view=sharepoint-ps&preserve-view=true) cmdlet disables a service in the farm. Service instances for this service will be stopped on the appropriate MinRole-managed servers in the farm.  | *Stop-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  |   
+
 > [!NOTE]
 > An optional **IncludeCustomServerRole** parameter has been added to the **Start-SPService** and **Stop-SPService** Windows PowerShell cmdlets in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1). If specified, it will also create a timer job that starts or stops service instances on servers that are assigned to the Custom server role. This is a one-time timer job. MinRole will make no further attempts to manage the service instances on servers assigned to the Custom server role. > Services that have associated service applications cannot be started or stopped by using the [Start-SPService](/powershell/module/sharepoint-server/Stop-SPService?view=sharepoint-ps&preserve-view=true) and [Stop-SPService](/powershell/module/sharepoint-server/Stop-SPService?view=sharepoint-ps&preserve-view=true) cmdlets. These services can be started or stopped by creating or deleting their associated service applications. If you use the [Start-SPService](/powershell/module/sharepoint-server/Start-SPService?view=sharepoint-ps&preserve-view=true) or [Stop-SPService](/powershell/module/sharepoint-server/Stop-SPService?view=sharepoint-ps&preserve-view=true) cmdlets with services that have associated service applications, an error message will be shown indicating that the associated service applications should be created or deleted instead. 
   
 ### Health monitoring
 
 A new health analyzer rule has been created to ensure that your servers are operating in their optimal MinRole configuration. The **Server role configuration isn't correct** rule runs every night at midnight on each server in your farm. It scans all service instances on the server to detect if any are not in compliance. If any service instance is not in compliance, the health rule will automatically reconfigure it to match the expected configuration. No manual intervention by the SharePoint farm administrator is required. 
-  
-![Displays health rules for MinRole topology in SharePoint Servers 2016 and 2019](../media/df3dd75f-d64f-4a1f-8d5c-57daecc9cb38.PNG)
+
+:::image type="content" alt-text="Displays health rules for MinRole topology in SharePoint Servers 2016 and 2019." source="../media/df3dd75f-d64f-4a1f-8d5c-57daecc9cb38.PNG" lightbox="../media/df3dd75f-d64f-4a1f-8d5c-57daecc9cb38.PNG":::
   
 The automatic repair functionality of the health rule can be disabled by the SharePoint farm administrator while still allowing the health rule to run. If the health rule detects that a server is not in compliance and the automatic repair functionality is disabled, it will generate a health report in Central Administration. The health report will identify which servers are not in compliance, offer the ability to automatically repair the servers, and provide instructions on how to manually repair the servers.
   
@@ -138,6 +137,6 @@ For more information about how to subscribe a service to a specific role, see [S
   
  **Integrate with role conversion pre-validation**
   
-1. ﻿Implement the service instance class of the service by inheriting from the **SPServiceInstance** class. 
+1. Implement the service instance class of the service by inheriting from the **SPServiceInstance** class. 
     
-2. ﻿Override the **IsReadyForRoleConversion(SPServerRole newRole, out IEnumerable\<string\> errorMessages)** method to detect if your service instance is ready for role conversion to the server role specified by the newRole parameter. Return **true** if it's ready or **false** if it isn't ready. If you return **false**, provide a list of messages to explain why ﻿the service instance isn't ready for role conversion and instructions for resolving the issue ﻿via the errorMessages parameter.
+2. Override the **IsReadyForRoleConversion(SPServerRole newRole, out IEnumerable\<string\> errorMessages)** method to detect if your service instance is ready for role conversion to the server role specified by the newRole parameter. Return **true** if it's ready or **false** if it isn't ready. If you return **false**, provide a list of messages to explain why the service instance isn't ready for role conversion and instructions for resolving the issue via the errorMessages parameter.

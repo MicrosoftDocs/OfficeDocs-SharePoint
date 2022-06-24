@@ -65,7 +65,7 @@ You can use PowerShell to view and filter log events. You cannot view or filter 
   Get-SPLogEvent | Where-Object {$_.Area -eq <Area>}
   ```
 
-    Where  _\<Area\>_ is the value of the **Area** property. 
+ Where  _\<Area\>_ is the value of the **Area** property. 
     
   - **By category**: 
     
@@ -73,7 +73,7 @@ You can use PowerShell to view and filter log events. You cannot view or filter 
   Get-SPLogEvent | Where-Object {$_.Category -eq <Category>
   ```
 
-    Where  _\<Category\>_ is the value of the **Category** property. 
+  Where  _\<Category\>_ is the value of the **Category** property. 
     
   - **By event ID**: 
     
@@ -81,7 +81,7 @@ You can use PowerShell to view and filter log events. You cannot view or filter 
   Get-SPLogEvent | Where-Object {$_.EventID -eq <EventID>}
   ```
 
-    Where  _\<EventID\>_ is the value of the **EventID** property. 
+  Where  _\<EventID\>_ is the value of the **EventID** property. 
     
   - **By message text**: 
     
@@ -89,7 +89,7 @@ You can use PowerShell to view and filter log events. You cannot view or filter 
   Get-SPLogEvent | Where-Object {$_.Message -like "<string>"}
   ```
 
-    Where  _\<string\>_ is the string found in the event message. 
+  Where  _\<string\>_ is the string found in the event message. 
     
   - **By process**: 
     
@@ -97,11 +97,11 @@ You can use PowerShell to view and filter log events. You cannot view or filter 
   Get-SPLogEvent | Where-Object {$_.Process -like "<Process>"}
   ```
 
-    Where  _\<Process\>_ is the value of the **Process** property. 
+  Where  _\<Process\>_ is the value of the **Process** property. 
     
-    By default, the command retrieves data from the default ULS log folder. To view and filter trace events that are on shared folder on a network, use the **Directory** parameter of the **Get-SPLogEvent** cmdlet. 
+  By default, the command retrieves data from the default ULS log folder. To view and filter trace events that are on shared folder on a network, use the **Directory** parameter of the **Get-SPLogEvent** cmdlet. 
     
-    To view more details about each trace event, use the **Format-List** cmdlet at the end of the command. For example, 
+  To view more details about each trace event, use the **Format-List** cmdlet at the end of the command. For example, 
     
   ```
   Get-SPLogEvent | Where-Object {$_.Area -eq "SharePoint Foundation"} | Format-List

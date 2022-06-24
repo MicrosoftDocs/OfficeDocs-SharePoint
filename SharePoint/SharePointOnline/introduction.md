@@ -1,8 +1,8 @@
 ---
 title: "Introduction to SharePoint"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- intro-overview
 ms.assetid: d5089cdf-3fd2-4230-acbd-20ecda2f9bb8
 description: "Learn about SharePoint in Microsoft 365, which is a cloud-based service that helps organizations share and manage content, and collaborate with others."
 ---
@@ -32,7 +33,7 @@ The resources on this page are designed to get you started. Depending on the nee
 
 If you're just starting out with SharePoint, learn about the [FastTrack onboarding and adoption services](https://fasttrack.microsoft.com/office), [find a SharePoint certified partner](https://products.office.com/sharepoint/sharepoint-partners-sharepoint-support), or [visit the SharePoint community](https://techcommunity.microsoft.com/t5/SharePoint/ct-p/SharePoint).
 
-Once you're using SharePoint, get the [OneDrive sync app](https://onedrive.live.com/about/download) and the [mobile app](https://products.office.com/sharepoint/mobile-app). You can also [suggest a feature](https://sharepoint.uservoice.com).
+Once you're using SharePoint, get the [OneDrive sync app](https://onedrive.live.com/about/download) and the [mobile app](https://products.office.com/sharepoint/mobile-app).
 
 ## Migration
 
@@ -51,7 +52,7 @@ If your organization has legal or other requirements that govern the handling of
 |:-----|:-----|
 |How to ensure that you retain files for a specified period of time, or delete them on a specified schedule|[Overview of retention policies](/microsoft-365/compliance/retention-policies)<br><br>[OneDrive retention and deletion](/onedrive/retention-and-deletion)|
 |How to classify documents based on the sensitivity of the information|[Overview of sensitivity labels](/microsoft-365/compliance/sensitivity-labels)<br><br>[Enable sensitivity labels for Office files in SharePoint and OneDrive](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files)|
-|How to prevent the loss or exfiltration of important data in documents emails|[Overview of data loss prevention](/microsoft-365/compliance/data-loss-prevention-policies)|
+|How to prevent the loss or exfiltration of important data in documents emails|[Learn data loss prevention](/microsoft-365/compliance/dlp-learn-about-dlp)|
 |Search for in-place items such as email, documents, and instant messaging conversations|[Content Search in Microsoft 365](/microsoft-365/compliance/content-search)|
 
 If you use OneDrive in your organization and you want to protect important files by saving them to the cloud, govern how much storage space users get, or govern how users sync file, these references will help you configure your policies.

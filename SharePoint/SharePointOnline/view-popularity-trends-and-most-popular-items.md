@@ -52,7 +52,7 @@ You can also view the [most popular items](view-popularity-trends-and-most-popul
     
 4. Click Open to open the report in Excel.
     
-You can also view other reports for the site collection, see [View usage and search reports](view-search-usage-reports.md).
+You can also view other reports for the site collection, see [View usage and search reports](view-search-usage-reports-modern-sites.md).
   
 ## View Popularity Trends for a page or item in a library
 <a name="__view_popularity_trends"> </a>
@@ -91,6 +91,6 @@ To see more details for each item, click the **Popularity Trends** link under ea
 ## View Usage and Search reports for all sites
 <a name="__view_the_most"> </a>
 
-If you're a global or SharePoint admin in Microsoft 365, you can view search usage reports for the whole organization. See [View usage and search reports](view-search-usage-reports.md).
+If you're a global or SharePoint admin in Microsoft 365, you can view search usage reports for the whole organization. See [View usage and search reports](view-search-usage-reports-modern-sites.md).
   
 

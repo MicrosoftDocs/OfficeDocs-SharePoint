@@ -1,8 +1,8 @@
 ---
 title: "Find OneDrive admin settings"
 ms.reviewer: david.minasyan
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -13,6 +13,9 @@ ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom:
+- admindeeplinkSPO
+- onedrive-toc
 search.appverid:
 - ODB160
 - ODB150
@@ -26,7 +29,7 @@ This article covers all the features in the OneDrive admin center and where you 
 
 ## Sharing page
 
-Go to the [Sharing page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true)
+Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">Sharing page in the new SharePoint admin center</a>.
 
 | OneDrive admin center | SharePoint admin center |
 |:-----|:-----|
@@ -34,7 +37,7 @@ Go to the [Sharing page in the new SharePoint admin center](https://admin.micros
 
 ## Sync page
 
-Go to the [Settings page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and select **Sync**.
+Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings page in the new SharePoint admin center</a>, and select **Sync**.
 
 | OneDrive admin center | SharePoint admin center |
 |:-----|:-----|
@@ -48,7 +51,7 @@ Set-SPOTenantSyncClientRestriction -BlockMacSync:$true
 
 ## Storage page
 
-Go to the [Settings page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true). To change the default storage setting, select **Storage limit**. To change the retention setting for deleted users, select **Retention**. 
+Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings page in the new SharePoint admin center</a>. To change the default storage setting, select **Storage limit**. To change the retention setting for deleted users, select **Retention**. 
 
 | OneDrive admin center | SharePoint admin center |
 |:-----|:-----|
@@ -56,7 +59,7 @@ Go to the [Settings page in the new SharePoint admin center](https://admin.micro
 
 ## Device access page
 
-Go to the [Access control page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true). To control access based on network location, select **Network location**. To control access from apps that can't enforce device-based restrictions, select **Apps that don't use modern authentication**.
+Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">Access control page in the new SharePoint admin center</a>. To control access based on network location, select **Network location**. To control access from apps that can't enforce device-based restrictions, select **Apps that don't use modern authentication**.
 
 | OneDrive admin center | SharePoint admin center |
 |:-----|:-----|
@@ -91,7 +94,7 @@ This page contains links to Office 365 Security & Compliance. [View the complian
 
 ## Notifications
 
-For the "Display device notifications to users when OneDrive files are shared with them" setting, Go to the [Settings page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and select the OneDrive **Notifications** setting.
+For the "Display device notifications to users when OneDrive files are shared with them" setting, Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings page in the new SharePoint admin center</a>, and select the OneDrive **Notifications** setting.
 
 | Classic | New |
 |:-----|:-----|
@@ -107,13 +110,12 @@ For info about the "E-mail OneDrive owners when" settings, refer to the followin
 
 ## Data migration
 
-This page redirects to the [Migration page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migration&modern=true). [Learn about migrating content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online).
+This page redirects to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration page in the new SharePoint admin center</a>. [Learn about migrating content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online).
 
 ## Geo locations
 
-Go to the [Geo locations page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=geoLocationsg&modern=true).
+Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2077149" target="_blank">Geo locations page in the new SharePoint admin center</a>.
 
 | OneDrive admin center | SharePoint admin center |
 |:-----|:-----|
 |![Geo locations page in the OneDrive admin center](media/geo-locations.png)|![New geo locations](media/new-geo-locations.png)|
-

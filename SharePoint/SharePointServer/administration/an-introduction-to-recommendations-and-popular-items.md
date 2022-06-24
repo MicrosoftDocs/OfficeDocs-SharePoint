@@ -54,14 +54,14 @@ To view the usage event definitions, do the following:
   
 1. On the server where SharePoint Server is installed, open the **SharePoint 2016 Management Shell**. 
     
-     ![SharePoint 2013 Management Shell](../media/OTCSP_Shell.png)
+   ![SharePoint 2013 Management Shell](../media/OTCSP_Shell.png)
   
 2. At the Microsoft PowerShell command prompt, type the following commands:
     
-  ```
-  $ssp = Get-SPEnterpriseSearchServiceApplicationProxy
-  $ssp.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
-  ```
+    ```powershell
+    $ssp = Get-SPEnterpriseSearchServiceApplicationProxy
+    $ssp.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
+    ```
 
   The default usage event definitions are displayed. Some of the usage event settings will be explained later in this series. For now, just notice that each event has an **EventTypeId** and an **EventName**. 
     

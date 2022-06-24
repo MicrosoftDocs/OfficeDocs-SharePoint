@@ -18,7 +18,7 @@ ms.collection:
 - Strat_SP_gtc
 - M365-collaboration
 - SPO_Content
-ms.custom: 
+ms.custom: admindeeplinkSPO
 ms.assetid: 27d3e6b8-7922-4015-a5fd-8c240eaa6357
 description: "Hybrid self-service site creation redirects the default self-service site creation page in SharePoint Server to the SharePoint in Microsoft 365 Group Creation page. By configuring this feature, you can help your users to create their sites in SharePoint in Microsoft 365 instead of SharePoint Server."
 ---
@@ -48,7 +48,7 @@ Configuring hybrid self-service site creation is done by using the hybrid picker
     
 2. From your SharePoint Server computer, open a web browser.
     
-3. go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
+3. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
 
 4. Under **Hybrid picker**, select **Open**.
     

@@ -111,25 +111,25 @@ The steps to add a database and to attach a database are very similar. For more 
     
     **To attach an existing content database:**
     
-  ```
-  Mount-SPContentDatabase "<ContentDb>" -DatabaseServer "<DbServer>" -WebApplication http://SiteName
-  ```
+    ```powershell
+    Mount-SPContentDatabase "<ContentDb>" -DatabaseServer "<DbServer>" -WebApplication http://SiteName
+    ```
 
-  Where:
+    Where:
     
-  -  _\<ContentDb\>_ is the content database to be attached. 
+    -  _\<ContentDb\>_ is the content database to be attached. 
     
-  -  _\<DbServer\>_ is the name of the database server. 
+    -  _\<DbServer\>_ is the name of the database server. 
     
-  -  _http://SiteName_ is the name of the web application to which the content database is being attached. 
+    -  _http://SiteName_ is the name of the web application to which the content database is being attached. 
     
-  **To detach a content database:**
+    **To detach a content database:**
     
-  ```
-  Dismount-SPContentDatabase "<ContentdBName>"
-  ```
+    ```powershell
+    Dismount-SPContentDatabase "<ContentdBName>"
+    ```
 
-  Where  _\<ContentdBName\>_ is the name of the content database. 
+    Where  _\<ContentdBName\>_ is the name of the content database. 
     
 > [!IMPORTANT]
 > If you have multiple content databases that have the same name, you must use the content database GUID in this command instead of using the content database name. To retrieve the GUID of the content database, run the **Get-SPContentDatabase** cmdlet with no arguments.

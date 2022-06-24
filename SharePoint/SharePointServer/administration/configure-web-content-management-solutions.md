@@ -20,10 +20,10 @@ description: "Learn how to install and configure SharePoint Server web content m
 # Configure web content management solutions in SharePoint Server
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
-  
+
 The articles that are listed in the following table describe how to set up cross-site publishing features in a SharePoint Server environment. 
   
-|**        ![Building blocks](../media/mod_icon_buildingblock_M.png)                 **|**Content**|**Description**|
+|        ![Building blocks](../media/mod_icon_buildingblock_M.png)                |**Content**|**Description**|
 |:-----|:-----|:-----|
 ||[Configure cross-site publishing in SharePoint Server](configure-cross-site-publishing.md) <br/> |Learn how to create site collections for cross-site publishing, activate the Cross-Site Collection Publishing feature, create and manage term sets for tagging content on authoring sites, create catalog content by using SharePoint lists, share a library or list as a catalog, and configure search settings for cross-site publishing.  <br/> |
 ||[Connect a publishing site to a catalog in SharePoint Server](connect-a-publishing-site-to-a-catalog.md) <br/> |Learn how to connect a publishing site to a library or list that is shared as a catalog.  <br/> |

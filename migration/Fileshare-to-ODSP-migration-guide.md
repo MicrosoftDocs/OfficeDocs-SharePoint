@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
@@ -24,14 +25,17 @@ ms.assetid:
 description: "Learn how to evaluate the environment, prepare, and migrate content from file shares to OneDrive and SharePoint in Microsoft 365."
 ---
 
-# File share to OneDrive and SharePoint migration guide
+# Guide to migrating file shares to OneDrive, Teams, and SharePoint
 
-This guide helps you prepare to migrate from file shares to OneDrive and SharePoint in Microsoft 365.
+This guide helps you prepare to migrate from file shares to OneDrive, Teams, and SharePoint in Microsoft 365.
 
 Most migrations fall into regular phases as follows. Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating, and onboarding your users.
 
 > [!NOTE]
-> The SharePoint Migration Tool is a Microsoft-developed migration tool available at no cost. To download: [SharePoint Migration Tool ](https://aka.ms/spmt-ga-page).
+> Migrating your file shares with Migration Manager lets you have a centralized way of connecting servers, creating tasks, and automatically load balancing your migration tasks. You are guided through the steps of migrating your file shares, from the setup of agents, the creation of tasks, and the migration to Microsoft 365. 
+>
+> **Get started:**  [Migrate file shares to Microsoft 365 with Migration Manager](/sharepointmigration/mm-get-started)
+
 
    ![Migration process](media/migrationprocess-fileshare.png)
 
@@ -132,19 +136,15 @@ The following is a typical migration process that follows Microsoft's best pract
 
 Currently, there are a variety of migration offerings available to you. Which one is right for you?
 
-|Customer Self service|FastTrack driven|Partner driven|
-|:-----|:-----|:-----|
-|No cost for Microsoft provided tool</br>[SharePoint Migration Tool ](https://aka.ms/spmt-ga-page)|No cost; included in your [Microsoft 365 subscription](/fasttrack/o365-data-migration)|Price dependent on complexity|
-|Process flexible, you set the pace|Highly structured process and schedule|Customized to your need|
-|No need to configure complex infrastructure|Must set up infrastructure including external access rights, VPNs, test environment, admin environment, establish framework of contacts|Customized to your need|
-|Less time required involved in scheduling process and restrictions|Scheduling templates and questionnaires provided as part of the organization process|Customized to your need|
-|Customer controls the pace based on their needs|Schedule is driven in partnership with the FastTrack team|Customized to your need|
-|Might have to hire in expertise if you don't have it in place already|Expertise provided by FastTrack|Expertise provided|
-|Customer controls the schedule flexibility; off hours and blackout hours are defined by them|Must hold to a set schedule|Customized to your need|
+| Offering | Pricing | Process | Infrastructure | Scheduling | Pace | Expertise | Schedule flexibility |
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+| Customer Self service | [Migration Manager](/sharepointmigration/mm-get-started) | Flexible, you set the pace | No need to configure complex infrastructure | Less time required involved in scheduling process and restrictions | Customer controls the pace based on their needs | Might have to hire in expertise if you don't have it in place already | Customer controls the schedule flexibility; off hours and blackout hours are defined by them |
+| FastTrack driven | Included in your [Microsoft 365 subscription](/fasttrack/o365-data-migration) | Highly structured process and schedule | 	Must set up infrastructure including external access rights, VPNs, test environment, admin environment, establish framework of contacts | Scheduling templates and questionnaires provided as part of the organization process | Schedule is driven in partnership with the FastTrack team | Expertise provided by FastTrack | Must hold to a set schedule |
+| Partner driven | Price dependent on complexity | 	Customized to your need | Customized to your need | Customized to your need | Customized to your need | Expertise provided | Customized to your need |
 
 **Self service**
 
-The benefit for self-service migration is that you have full control over your process and timing, and you determine the pace of migration. We provide the [SharePoint Migration Tool](https://aka.ms/spmt-ga-page) free of charge, and you will be able to leverage your own IT resources rather than having to invest in outside expertise.
+The benefit for self-service migration is that you have full control over your process and timing, and you determine the pace of migration. Using [Migration Manager](/sharepointmigration/mm-get-started), you will be able to leverage your own IT resources rather than having to invest in outside expertise.
 
 **Microsoft FastTrack**
 
@@ -176,7 +176,7 @@ Develop a plan for sending communications to your user base, providing clear sta
 ### Onboarding related resources
 
 - [Microsoft 365 end user adoption guide](/office365/customlearning/champ_o365guide): Outlining methodology and resources for implementing proven adoption success factors
-- [Posters, email templates](https://support.microsoft.com/office/create-and-use-site-templates-in-sharepoint-server-versions-60371b0f-00e0-4c49-a844-34759ebdd989): Customizable templates to generate internal awareness and excitement.
+- [Posters, email templates](https://www.microsoft.com/fasttrack/resources): Customizable templates to generate internal awareness and excitement
 - [OneDrive](https://support.office.com/article/1f608184-b7e6-43ca-8753-2ff679203132) and [team library](https://support.office.com/article/551e190a-8fbe-47ae-a88a-798b443c46b1): Video training
 - [OneDrive](https://support.office.com/article/a1397e56-61ec-4ed2-9dac-727bf8ac3357) and [team library](https://support.office.com/article/324a89ec-e77b-4475-b64a-13a0c14c45ec): Quick start training guides; get up and running quickly with the basic info you need to be productive right away
 - [SharePoint video training](https://support.office.com/article/cb8ef501-84db-4427-ac77-ec2009fb8e23)

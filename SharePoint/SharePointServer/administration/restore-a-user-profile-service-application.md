@@ -137,7 +137,7 @@ You cannot restore the complete service application or service application proxy
   miiskmu.exe /i exported.key {<GUID>}
   ```
 
-    Where  _\<GIUD\>_ is the identifier of the key. 
+Where  _\<GIUD\>_ is the identifier of the key. 
     
 6. Open SQL Server Management Studio and connect to the database server.
     

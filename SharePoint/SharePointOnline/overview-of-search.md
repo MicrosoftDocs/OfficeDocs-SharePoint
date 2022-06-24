@@ -17,7 +17,9 @@ search.appverid:
 - MET150
 ms.assetid: 479cfd6b-900b-46aa-b497-c13787771d3f
 description: Learn how you can customize the search experience in Microsoft SharePoint to help users find the information they're looking for.
-ms.custom: seo-marvel-apr2020
+ms.custom: 
+- seo-marvel-apr2020
+- admindeeplinkSPO
 ---
 
 # Overview of search in SharePoint
@@ -31,7 +33,7 @@ Both search experiences use the same search index to find search results. You ca
 
 See the following main areas where you can customize and impact the search experience and make sure that search is performing the way you want. The high-level overview of [How search works](overview-of-search.md#howsearchworks) can also help you understand where and how you can impact the search experience in SharePoint.
 
-Many of the classic search features are available on the [search administration page](manage-search-the-admin-center.md) in the SharePoint admin center.
+Many of the classic search features are available on the [search administration page](manage-search-the-admin-center.md) in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>.
 
 ## 1. Make sure the content can be found
   

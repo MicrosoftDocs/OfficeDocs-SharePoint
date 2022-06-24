@@ -116,17 +116,17 @@ If we break this down, we get the following:
   
 7. We want to show only one item per product group. Therefore, we select  *ProductCatalogGroupNumberOWSTEXT*  (the managed property of  *Group Number*  ). We only want to display one item per group. So we leave the value in **Show there results** as **1**. 
     
-     ![Group by Group Number](../media/OTCSP_GroupByGroupNumber.png)
+    ![Group by Group Number](../media/OTCSP_GroupByGroupNumber.png)
   
    In the **SEARCH RESULT PREVIEW**, we can now see that only one item per product group is shown. 
     
-     ![One Item Per Groeu](../media/OTCSP_OneItemPerGroeu.png)
+    ![One Item Per Groeu](../media/OTCSP_OneItemPerGroeu.png)
   
 8. Select **OK** to save the changes. 
     
 9. In the Web Part tool pane, in the **Number of items** to show field, enter how many items that you want to display in the Web Part. 
     
-     ![Number of Items to Show](../media/OTCSP_NumberOfItemsToShow.png)
+    ![Number of Items to Show](../media/OTCSP_NumberOfItemsToShow.png)
   
 10. Select **OK**, and save the page. 
     

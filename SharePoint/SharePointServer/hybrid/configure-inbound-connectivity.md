@@ -1,5 +1,5 @@
 ---
-title: "Configure connectivity from Microsoft 365 to SharePoint Server"
+title: Configure connectivity from Microsoft 365 to SharePoint Server
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -15,8 +15,9 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - SPO_Content
+ms.custom: admindeeplinkSPO
 ms.assetid: 91274b73-f7be-4066-a4ab-ec30af30016e
-description: "Learn how to configure inbound connectivity for SharePoint hybrid."
+description: Learn how to configure inbound connectivity for SharePoint hybrid.
 ---
 
 # Configure connectivity from Microsoft 365 to SharePoint Server
@@ -40,7 +41,7 @@ If you've read the planning article, you should have already done the following:
     
 - Decided whether to use an existing web application or create one for hybrid.
     
-|||
+|Icon|Description|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|These decisions are recorded in Table 2 of the worksheet. If not, go back and read [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md) and make these decisions before you go any further.  <br/> |
    
@@ -148,7 +149,7 @@ The host-named site collection that you'll create a bit later has to be created 
     
 You also need a path-based site collection to use as the root site collection in this web application.
   
-|||
+|Icon|Description|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|If you identified a web application that you want to use during planning, it should be listed in the **Primary web application URL** row of Table 5a of the worksheet. |
    
@@ -166,7 +167,7 @@ Where:
     
 - The port number of the web application is 443.
     
-|||
+|Icon|Description|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|Record the port number that you chose in the **Port number of the web application** row of Table 5a of the worksheet. |
    
@@ -220,7 +221,7 @@ New-SPSite 'https://spexternal.adventureworks.com' -HostHeaderWebApplication 'ht
 
 Where:
   
-- https://spexternal.adventureworks.com is the URL of the host-named site collection. This URL must be identical to the External URL. 
+- `https://spexternal.adventureworks.com` is the URL of the host-named site collection. This URL must be identical to the External URL. 
     
 - https://sharepoint is the web application that the site collection is created in. 
     
@@ -240,7 +241,7 @@ The reverse proxy device must be able to resolve the internal URL of the host-na
   
 ![This figure illustrates an example of an A Record](../media/ARecord_DNS.jpg)
   
-|||
+|Icon|Description|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|The External URL is recorded in the **External URL** row of Table 3 of the worksheet. |
    
@@ -285,7 +286,7 @@ In general, you should use the default settings. However, the following configur
    
 To make things easier for yourself in later procedures, we recommend that you do the following.
   
-|||
+|Icon|Description|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|Get the URL from the **Public URL** section of the **Create New Web Application** page in Central Administration, and record it in the **Primary web application URL** row of Table 5b of the worksheet. |
    
@@ -313,7 +314,7 @@ The reverse proxy device must be able to resolve the internal URL of the host-na
   
 ![This figure illustrates an example of an A Record](../media/ARecord_DNS.jpg)
   
-|||
+|Icon|Description|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|The External URL is recorded in the **External URL** row of Table 3 of the worksheet. |
    
@@ -347,7 +348,7 @@ You can use an existing web application as the primary web application, or you c
   
 If during planning, you decided which existing web application to use as the primary web application, its URL should be recorded in the **Primary web application URL** row of Table 5c of the worksheet. If so, skip ahead to [Extend the primary web application](configure-inbound-connectivity.md#waam_extendwebapp). Otherwise, to create a web application to use as the primary web application, use the procedures in [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)). The SharePoint hybrid configuration is not affected by the initial configuration of this web application when you configure this site collection strategy. This is because you'll apply the settings that you need for hybrid when you extend the web application a bit later. So you can use any settings that you want when you create a web application.
   
-|||
+|Icon|Description|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|To make things easier for yourself in later procedures, we recommend that you record this information when you create the web application:  <br/> Get the URL from the **Public URL** section of the **Create New Web Application** page in Central Administration, and record it in the **Primary web application URL** row of Table 5c of the worksheet.  <br/> |
    
@@ -404,20 +405,20 @@ To enable SharePoint Server to dynamically translate links in requests by using 
     
 4. In the **Alternate Access Mapping Collection** section, select the down arrow, and then select **Change Alternate Access Mapping Collection**. In the dialog box that appears, select the primary web application that you're configuring for hybrid.
     
-|||
+|Icon|Description|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|The URL of this web application is recorded in the **Primary web application URL** row of Table 5c of the worksheet. |
    
 5. In the **Add Internal URL** section, in the **URL protocol, host and port** box, enter the URL you want to use as the bridging URL. This URL must have the same protocol as the extended web application, either **http** or **https**. For example, if you configured the extended web application by using **https**, the URL will resemble **https://bridge**. 
     
-|||
+|Icon|Description|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|
 The protocol that you used is recorded in the Protocol of the extended web application  row of Table 5c of the worksheet. Record this URL in the Bridging URL  row of Table 5c of the worksheet. |
    
 6. In the **Zone** dropdown, select the same zone that you used when you extended the web application. 
     
-|||
+|Icon|Description|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|This zone is recorded in the **Zone of the extended web application** row of Table 5c of the worksheet |
    
@@ -440,24 +441,24 @@ To verify that the alias name you chose for your CNAME record is resolving to th
   
 1. Log on to the reverse proxy device as an admin, and open a Windows command prompt.
     
-2. Ping the alias name in the CNAME record. For example, if the alias name is Bridge, then enter the following, and press <Enter>.
+2. Ping the alias name in the CNAME record. For example, if the alias name is Bridge, then enter the following, and press \<Enter\>.
     
   ```
   ping bridge
   
   ```
 
-    The command prompt should return the IP address of the SharePoint farm that's specified in the CNAME record. If not, verify that the fully qualified domain name of the SharePoint farm is correctly specified in the CNAME record and then repeat these verification steps.
+The command prompt should return the IP address of the SharePoint farm that's specified in the CNAME record. If not, verify that the fully qualified domain name of the SharePoint farm is correctly specified in the CNAME record and then repeat these verification steps.
     
-    > [!NOTE]
-    > If the  `ping` command is blocked on the network, try using either the  `tracert -4` or the  `pathping -4` command instead. 
+> [!NOTE]
+> If the  `ping` command is blocked on the network, try using either the  `tracert -4` or the  `pathping -4` command instead. 
   
 ## Create and configure a target application for the SSL certificate in SharePoint in Microsoft 365
 <a name="configurespo"> </a>
 
 In this section, you create and configure a Secure Store target application in SharePoint in Microsoft 365. This target application is used to store the Secure Channel SSL certificate and enable it so that it can be used by SharePoint in Microsoft 365 services when users request data from the on-premises SharePoint farm. We refer to this target application as the Secure Channel Target Application.
   
-|||
+|Icon|Description|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|To follow these steps, you need the information recorded in Table 4a of the worksheet. |
    
@@ -468,7 +469,7 @@ When you configure SharePoint hybrid solutions in Phase 4: Configure a hybrid so
   
  **To create a target application to store the Secure Channel SSL certificate**
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
 
 2. Under **Secure store**, select **Open**.
     
@@ -481,13 +482,13 @@ When you configure SharePoint hybrid solutions in Phase 4: Configure a hybrid so
     > [!NOTE]
     > You create the ID in this step—you do not receive the ID from elsewhere. This ID is a unique target application name that cannot be changed. 
   
-|||
+|Icon|Description|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|Record this name in the **Target Application ID** row of Table 6 of the worksheet. |
    
 6. In the **Display Name** box, enter the name that you want to use as the display name for the new target application. For example, **Secure Channel Target App**. 
     
-|||
+|Icon|Description|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|Record this name in the **Target Application Display Name** row of Table 6 of the worksheet. |
    
@@ -516,7 +517,7 @@ When you configure SharePoint hybrid solutions in Phase 4: Configure a hybrid so
     
     The Microsoft 365 global admin can create Azure AD groups. These are domain groups, not SharePoint in Microsoft 365 groups.
     
-|||
+|Icon|Description|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|A list of these users, or the group they were added to, is listed in the **Federated Users** row of Table 1 of the worksheet. |
    
@@ -524,7 +525,7 @@ When you configure SharePoint hybrid solutions in Phase 4: Configure a hybrid so
     
 16. Select the check box next to the ID of the target application that you created (for example, **SecureChannelTargetApp**). 
     
-|||
+|Icon|Description|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|This name is listed in the **Target Application Display Name** row of Table 6 of the worksheet. |
    
@@ -536,13 +537,13 @@ When you configure SharePoint hybrid solutions in Phase 4: Configure a hybrid so
     
 20. Browse to the location of the Secure Channel SSL certificate, select the certificate, and then select **Open**.
     
-|||
+|Icon|Description|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|The name and location of this certificate is recorded in the **Secure Channel SSL Certificate location and filename** row of Table 4b of the worksheet. |
    
 21. If the certificate you're using contains a private key, such as a Private Information Exchange (.pfx) file, in the **Certificate Password** field, enter the password of the certificate. Otherwise, go to step 12. 
     
-|||
+|Icon|Description|
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|The password is recorded in the **Secure Channel SSL Certificate password** row of Table 4b of the worksheet. |
    

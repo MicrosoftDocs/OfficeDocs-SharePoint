@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 search.appverid: MET150
 ms.collection: 
 - IT_Sharepoint_Server_Top
@@ -29,20 +30,20 @@ This article specifically talks about how to use the Azure Data Box to migrate y
 
 ## Is Azure Data Box right for my migration?
 
-Most of our large enterprise customers do not use Azure Data Box to migrate to OneDrive and SharePoint. Those enterprise customers with more than 500 TB of data have achieved the desired throughput by effectively using multiple computers and using tools such as [Migration Manager](mm-get-started.md).
+Most of our large enterprise customers don't use Azure Data Box to migrate to OneDrive and SharePoint. Those enterprise customers with more than 500 TB of data have achieved the desired throughput by effectively using multiple computers and using tools such as [Migration Manager](mm-get-started.md).
 
 The most important thing to understand when deciding if you should use Azure Data Box is your migration's current bottleneck. We recommend running a performance test using multiple computers. Use a test size that will push your migration boundaries so that you can adequately evaluate your bottleneck. Unfortunately, customers often attempt a test pilot that is too small and fail to see accurate results.
 
-Another factor to consider is the added complexity involved in using the Azure Data Box. After loading the data onto the Data Box, you have to allow for the delay caused by shipment time before the data can be copied into an Azure file share. Then you still need to perform the same migration steps as you would if you hadn't used it.
+Another factor to consider is the added complexity involved in using the Azure Data Box. After loading the data onto the Data Box, you have to allow for the delay caused by shipment time before the data can be copied into an Azure file share. Then you still need to perform the same migration steps as if you hadn't used it.
 
 **Wrong reasons for using Data Box:**
 
 - I have a large amount of data
-- I ran a test with one computer, and it was not fast enough
+- I ran a test with one computer, and it wasn't fast enough
 
 **Correct Reasons for using Data box**
 
-- My data is in a remote location with very poor connectivity to Microsoft 365
+- My data is in a remote location with poor connectivity to Microsoft 365
 - My source is very low on resources, and I can scale up my migration by using the Azure Data Box
 
 To learn more about our migration performance, see [General migration performance guidance.](./sharepoint-online-and-onedrive-migration-speed.md)
@@ -63,8 +64,8 @@ Depending on the size of data you intend to transfer, you can choose from:
 
 #### For Data Box
 
-- Data Box is only available for Enterprise Agreement (EA), Cloud solution provider (CSP), or Pay-as-you-go subscription offers. If your subscription does not fall in any of the above types, contact Microsoft Support to upgrade your subscription, or see [Azure subscription pricing](https://azure.microsoft.com/pricing/).
-- There is a fee to use Data Box. Make sure to review the [Data Box pricing](https://azure.microsoft.com/pricing/details/databox/).
+- Data Box is only available for Enterprise Agreement (EA), Cloud solution provider (CSP), or Pay-as-you-go subscription offers. If your subscription doesn't fall in any of the above types, contact Microsoft Support to upgrade your subscription, or see [Azure subscription pricing](https://azure.microsoft.com/pricing/).
+- There's a fee to use Data Box. Make sure to review the [Data Box pricing](https://azure.microsoft.com/pricing/details/databox/).
 
 #### For SharePoint
 
@@ -73,7 +74,7 @@ Depending on the size of data you intend to transfer, you can choose from:
 
 ## Workflow overview
 
-This workflow requires you to perform steps on Data Box as well as on SharePoint.
+This workflow requires you to perform steps on Data Box and on SharePoint.
 
 1. Order Data Box.
 
@@ -109,7 +110,7 @@ Take the following steps to copy data to your Data Box.
 3. [Copy data to Data Box](/azure/databox/data-box-deploy-copy-data). While copying, make sure to:
 
     - Use only the *StorageAccountName_AzFile* folder in the Data Box to copy the data. This is because you want the data to end up in an Azure file share, not in block blobs or page blobs.
-    - Copy files to a folder within *StorageAccountName_AzFile* folder. A subfolder within *StorageAccountName_AzFile* folder creates a file share. Files copied directly to *StorageAccountName_AzFile* folder fail, and are uploaded as block blobs. This is the file share that you will mount on your VM in the next step.
+    - Copy files to a folder within *StorageAccountName_AzFile* folder. A subfolder within *StorageAccountName_AzFile* folder creates a file share. Files copied directly to *StorageAccountName_AzFile* folder fail, and are uploaded as block blobs. This is the file share that you'll mount on your VM in the next step.
 
 4. Run [Prepare to ship](/azure/databox/data-box-deploy-picked-up#prepare-to-ship) on your device. A successful 'prepare to ship' ensures a successful upload of files to Azure.
 
@@ -128,13 +129,15 @@ After you receive confirmation from the Azure data team that your data copy has 
 
 3. [Download the SharePoint Migration Tool](https://spmt.sharepointonline.com/install/default.htm), and install it on your Azure VM. 
 
-4. Start SPMT.  Select **Sign in**, and enter your Microsoft 365 username and password.<br><br>![SharePoint Migration Tool](media/spmt-intro.png).
+4. Start SPMT.  Select **Sign in**, and enter your Microsoft 365 username and password.
+
+:::image type="content" source="media/spmt-opening-screen.png" alt-text="Spmt launch page":::
 
 5. Select **File share**. Enter the path to your Azure file share where your data is located.
 
-6. Follow the remaining prompts as normal, including your target location. For more info, see [How to use the SharePoint Migration Tool](./how-to-use-the-sharepoint-migration-tool.md). 
+6. Follow the remaining prompts as normal, including your target location. For more info, see [How to use the SharePoint Migration Tool](./how-to-use-the-sharepoint-migration-tool.md.
 
 
 > [!IMPORTANT]
 > - The speed at which data is ingested into SharePoint is impacted by several factors, regardless if you have your data already in Azure. Understanding these factors will help you plan and maximize the efficiency of your migration.  For more info, see  [SharePoint and OneDrive Migration Speed](./sharepoint-online-and-onedrive-migration-speed.md).
-> - File metadata and NTFS permissions can be preserved when the data is uploaded to Azure Files. In Windows, metadata is transferred automatically when you use a tool such as robocopy. In Linux, after you copy the files, you need to use a different tool to copy the metadata to your Data Box. For more information, see [Preserving file ACLs, attributes, and timestamps with Azure Data Box](/azure/databox/data-box-file-acls-preservation).
+> - File metadata and NTFS permissions can be preserved when the data is uploaded to Azure Files. To learn more, see [Preserving file ACLs, attributes, and timestamps with Azure Data Box](/azure/databox/data-box-file-acls-preservation).

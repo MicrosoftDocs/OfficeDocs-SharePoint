@@ -1,8 +1,8 @@
 ---
 title: "Security considerations of allowing custom script"
 ms.reviewer: lucaband
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 ms.date: 6/15/2017
@@ -74,4 +74,4 @@ The [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) i
     
 - Solutions can be deployed in web parts and pages that use the classic experience or the new experience.
     
-- Only global admins, SharePoint admins, and people who have been given permission to manage the App Catalog can add solutions. For info about giving users permission to manage the app catalog, see [Request app installation permissions](request-app-installation-permissions.md).
+- Only global admins, SharePoint admins, and people who have been given permission to manage the Apps site can add solutions. For info about giving users permission to manage the Apps site, see [Request app installation permissions](request-app-installation-permissions.md).
