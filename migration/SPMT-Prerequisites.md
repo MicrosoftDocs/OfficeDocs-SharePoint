@@ -61,6 +61,7 @@ The following table lists the required endpoints for using the SharePoint Migrat
 |https://<span><span>login.microsoftonline.<span><span>com|Authentication|
 |https://<span><span>login.windows.<span><span>net|Authentication|
 |https://<span><span>aadcdn.msftauth.<span><span>net|Authentication|
+|https://<span><span>aadcdn.msauth.<span><span>net|Authentication|
 |https://<span><span>api.office.<span><span>com|Microsoft 365 APIs for content move and validation|
 |https://<span><span>graph.windows.<span><span>net|Microsoft 365 APIs for content move and validation|
 |https://<span><span>spmtreleasescus.blob.core.windows.<span><span>net|Installation|
