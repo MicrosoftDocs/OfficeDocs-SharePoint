@@ -52,14 +52,15 @@ After an agent is configured, anyone with the permission to go into the <a href=
 
 ## Set up an agent
 
-1. From the new SharePoint admin center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">**Migration center**</a>.You need to sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
-2. Under "For file shares", select **Get started**.
-3. Select the **Agents** tab, and then select **Add**.
-4. Select **Download agent setup file**.
-5. Open the setup file. On the Welcome page, select **Next**.
-6. Enter the SharePoint admin username and password of the environment where you will be migrating your content. Select **Next**.
-7. Enter your Windows credentials that will provide access to **all** the file shares that contain the content you want to migrate. Select **Install**.
-8. Test agent access (optional) or select **Close**.  After the setup is completed, the new agent will be added to the available agents that can be assigned tasks.
+1. Log into the computer or VM you choose to set up an agent with Windows credentials that have read access to all file shares you plan to migrate.
+2. From the new SharePoint admin center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">**Migration center**</a>.You need to sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+3. Under "For file shares", select **Get started**.
+4. Select the **Agents** tab, and then select **Add**.
+5. Select **Download agent setup file**.
+6. Open the setup file. On the Welcome page, select **Next**.
+7. Enter the SharePoint admin username and password of the environment where you will be migrating your content. Select **Next**.
+8. Enter the password of the Windows account that will provide access to **all** the file shares that contain the content you want to migrate. Select **Install**.
+9. Test agent access (optional) or select **Close**.  After the setup is completed, the new agent will be added to the available agents that can be assigned tasks.
 
 >[!Note]
 >**Multiple agents**.  If you have a large migration project and to set up multiple agents, we recommend that you download the agent setup file to a shared location. That way you can easily download the setup file on each computer or VM.  
