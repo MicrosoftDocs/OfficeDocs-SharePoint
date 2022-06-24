@@ -36,7 +36,7 @@ This article describes how to resolve issues and errors you may experience when 
 - [Google migration error reports contain HTML](#google-error-report-shows-html-code-in-report)
 - [Error codes](#error-codes)
 - [Geo admins can't access full functionality of Migration Manager](#geo-admins-not-supported)
-- [Group-inherited SharePoint admins can't access full functionality of Migration Manager](#group-inherited-sharepoint-admins-unable-to-access-scans-and-migrations-tabs))
+- [Group-inherited SharePoint admins can't access full functionality of Migration Manager](#group-inherited-sharepoint-admins-unable-to-access-scans-and-migrations-tabs)
 - [The site collection "XXXX" cannot be created or updated](#The-site-collection-"XXXX"-Cannot-be-created-or-updated)
 
 
