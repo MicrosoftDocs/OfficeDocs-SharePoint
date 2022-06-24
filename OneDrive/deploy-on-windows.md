@@ -1,8 +1,8 @@
 ---
 title: "Deploy OneDrive apps using Microsoft Endpoint Configuration Manager"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: Admin
 f1.keywords:
