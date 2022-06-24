@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection:
 - SPMigration
@@ -21,25 +22,28 @@ This article discusses cumulative features and enhancements in the Mover migrati
 ## Frontend v1.19.12 (September 29, 2021)
 
 - Accessibility fix: An update has been made to the dropdown component. The narrator now announces the connector and first item.
-- Accessibility Fix: The name property of 'Create folder' has been fixed to match its visible label. Previously it was defined as 'Create folder plus' on the TW page with narrator announcing it as "Create Folder plus, group". 
+- Accessibility Fix: The name property of 'Create folder' has been fixed to match its visible label. Previously it was defined as 'Create folder plus' on the TW page with narrator announcing it as "Create Folder plus, group".
 
 ## Frontend (legacy app) V1.19.10 (June 30, 2021)
+
 - Accessibilities fix.  Low vision users would face difficulty differentiating between normal text and disabled text when navigating through the User Actions Button DropDown Menu items on the Migration Manager page. This has been fixed.
 - Accessibilities fix. Screen reader users now have the tooltip contents announced to them when hovering on the information icons.  Previously when the Transfer wizard, Migration manager, or Account manager links were activated, the narrator would announce information about the respective page opened. However, screen readers were not properly announcing information icons with tooltips. One example of this was the Scheduling Info icon in the scheduling side panel. This has been fixed.
 
 ## Backend v1.20.8 May 17, 2021
-- New. Promote the new Migration Manager experience for Google Workspace migrations into Microsoft 365 when authorizing a new G Suite connector.  
+
+- New. Promote the new Migration Manager experience for Google Workspace migrations into Microsoft 365 when authorizing a new G Suite connector.
 
 ## Frontend v1.19.8 (April 27, 2021
-- Accessibility. We have removed the option to close a "successful notification" message. It will now auto close in 5 seconds. 
+
+- Accessibility. We have removed the option to close a "successful notification" message. It will now auto close in 5 seconds.
 
 ## Backend - v1.20.7 (April 27, 2021)
+
 - New. Six new columns have been added to the Migration Report. See the documentation at: /microsoft.com/sharepointmigration/mover-reports#migration-report. These new columns start with the following prefixes:
   - *Completed Successfully* will get the statistics for the last metrics completed transfer (green, status code 1xx). Three available statistics: Files, Bytes, MB.
   - *Completed* will get the statistics for the last completed transfer, either successfully or with some errors (green OR yellow, status code 1xx OR 2xx). Three available metrics: Files, Bytes, MB.
 Reduces resolution times for customers who need to ensure their transactions (scans or transfers) are run in a specific region due to compliance requirements.
 - New. GoogleWorkspace connector has been enabled in SharePoint Migration Manager.
-
 
 ## Backend v1.20.3 (March 11, 2021)
 
@@ -49,27 +53,29 @@ This release contains jolt command updates along with features and fixes for cus
 - Feature. File permissions option is turned on by default if the source connector is a Microsoft connector.
 
 ## Frontend v1.19.6 (March 11, 2021)
+
 This release contains accessibility fixes.
+
 - Accessibility: In the Migration Manager table, an aria label is added to the Info button so the information is rendered correctly.
 - Accessibility: Remove the role "menu" in the Migration Manager page because there are no children.
 
+## Backend v1.20.1 (February 24, 2021)
 
-## Backend v1.20.1 (February 24, 2021) 
 - Fix.  Customers were still able to delete a connector. The stop gap was only added to the UX. Measures have been added to check if a connector is associated to a migration. If it is, the connector cannot be deleted.
 
+## Backend v1.20.0 (February 16, 2021)
 
-## Backend v1.20.0 (February 16, 2021) 
 - Fix.  Users that only signed in using their Microsoft account were unable to delete their account because the form would prompt them for their password. Users are now able to delete their accounts safely.
 - Feature. Account managers are able to delete managed users' accounts without being prompted for a password.
 - Improvement. Customers running migrations from Egnyte would sometimes get "Could not get folder ACLs" error messages in their user logs. This is not descriptive. Messaging has been improved to show the cause of the problem (usually, exceeding API quotas in Egnyte).
 
-## Backend v1.19.25 (February 9, 2021) 
+## Backend v1.19.25 (February 9, 2021)
+
 - Fix.  Users encountered an issue transferring folders with special characters (such as #) that are still valid in SharePoint Online. This has now been fixed and the system ensures that all special characters that are valid in SharePoint Online are handled properly.
 
-## Backend v1.19.24 (February 8, 2021) 
+## Backend v1.19.24 (February 8, 2021)
+
 - Fix. Broken Agent transfers for destinations that are not Office 365 has now been fixed.
-
-
 
 ## Backend v1.19.22 (December 16, 2020)
 
@@ -78,19 +84,20 @@ This release contains accessibility fixes.
 - Fix.  Transfers from or into OneDrive Consumer that were throttled had issues when retrying the affected operations. An authorization related error message would appear on the User Log for these transfers. Retries now have proper authorization in place. This issue is fixed.
 
 ## Backend v1.19.21.5 (December 10, 2020)
+
 This release fixes an issue with Egnyte Connector retrieving groups.
 
 - Fix. While trying to retrieve groups for Egnyte, migration would fail as it created an infinite loop. Retrieval of groups is now successful.
 
 ## Backend v1.19.21.1 (December 4, 2020)
+
 This release fixes an issue with Box connector authorization.
 
 - Fix.  Some users reported issues authorizing new Box connectors or reauthorizing existing Box connectors. This is due to Box blocking our authorization attempts for our current Box client. New Box clients have been created to bypass this issue and authorization of Box connectors should be working again.
 
-## Backend v1.19.20 (December 1, 2020)
+## Backend v1.19.20 (December 1, 2020)
 
-- Accessibility: The User Log view now uses a different ID for all elements in the page.
-
+- Accessibility: The User Log view now uses a different ID for all elements in the page.
 
 ## Frontend v1.19.2 (December 1, 2020)
 
@@ -100,22 +107,19 @@ This release fixes an issue with Box connector authorization.
 - Accessibility: The Migration Manager "Active filters" auto-suggestions are now accessible with the keyboard by pressing the down and up arrow keys from the filter search box.
 - Accessibility: In the Migration Manager, Active Filters section, the info button had a tooltip with filtering instructions. However, the narrator would not read the content, even if the tooltip was in focus. To make the content accessible, the tooltip was eliminated and, instead, a proper link to the documentation page was added: https://aka.ms/MoverMigrationManagerFilters.
 
-
-
 ## Backend v1.19.19 (November 26, 2020)
-- During a transfer, there might be a failure that is unrecoverable. It means the transfer completely failed and any rerun would not fix it, such as, Storage Quota Exceeded.
-However, when this happens during our 302 processing, the status of this processing takes precedence. 
-Unfortunately, this means that the original unrecoverable state is now lost. This has been fixed. 
-If the transfer failed and it is an unrecoverable state, this state will now be preserved and displayed appropriately to the user.
 
+- During a transfer, there might be a failure that is unrecoverable. It means the transfer completely failed and any rerun would not fix it, such as, Storage Quota Exceeded.
+However, when this happens during our 302 processing, the status of this processing takes precedence.
+Unfortunately, this means that the original unrecoverable state is now lost. This has been fixed.
+If the transfer failed and it is an unrecoverable state, this state will now be preserved and displayed appropriately to the user.
 
 ## Backend v1.19.18 (November 10, 2020)
 
-- Fix. Images included in Box notes are now correctly transferred and rendered in Microsoft Word.  
+- Fix. Images included in Box notes are now correctly transferred and rendered in Microsoft Word.
 - Fix. The metadata "Created time" is now correctly getting migrated when running a transfer from Google to Office 365.
 - Retrieval attempts of SharePoint Online sites for an Office 365 connector have been enhanced and expanded.
 - Migration job limits have been adjusted, resulting in improved reliability for transfers going into Office 365.
-
 
 ## Backend v1.19.17 (November 3, 2020)
 
@@ -131,27 +135,23 @@ This release fixes these customer issues:
 
 - Fix.  When a customer entered a certain format for an email account as an admin, the email validation could fail even with a valid email addresses. This has been fixed.
 
-
 ## Backend v1.19.10 (October 15, 2020)
 
 - When authorizing an Office 365 connector, the links on the authorization page will now point to the new Mover docs at microsoft.com/SharepointMigration/mover-plan-migration
 
-## Frontend v1.19.0 (October 15, 2020) 
+## Frontend v1.19.0 (October 15, 2020)
 
 - All links to Mover documentation will now point to the Microsoft documentation site: microsoft.com/SharepointMigration/mover-plan-migration
-
 
 ## Backend v1.19.15 (October 14, 2020)
 
 - Improvement to ratelimit provider. In general, large migrations should now move faster.
 - Email auth removed. This is no longer supported.
 
-
 ## Backend v1.19.14 (October 8, 2020)
 
 - Fix.  Fixed sign up emails to not request a "reply" action since Mover emails are now being sent from a "no-reply" address. Users are now being directed to the public documentation.
 - Fix.  Decreased and in some cases eliminated "failed to load migration" job errors.
-
 
 ## Backend v1.19.13 (October 1, 2020)
 
@@ -160,66 +160,60 @@ This release fixes these customer issues:
 
 ## Backend v1.19.11 (September 24, 2020)
 
-- Fix.  Some customers were having issues autodiscovering tasks in newly created migrations into Office 365. Customers should now be able to autodiscover tasks. 
-
+- Fix.  Some customers were having issues autodiscovering tasks in newly created migrations into Office 365. Customers should now be able to autodiscover tasks.
 
 ## Agent v1.3.5 (September 22, 2020)
 
 - A new Agent has been released for all install types. Version 1.3.5 is a required update for all customers. This release updates the pinned certificates used for connecting to Bifrost. As of September 26, 2020, any older Agents will not connect to Bifrost and not be able to transfer files.
 
-
 ## Backend v1.19.9 (September 15,2020)
 
 - Fix.  Previously, authorship information such as "Modified By" was not sent to the destination. Metadata from Google sources is now included in the transfer and displayed at the Office 365 destination.
 
-
 - Fix. During transfers, items skipped as failures (unsupported items for export in the source or import in the destination) were showing as failures only in the user logs but not in reports, such as the Migration Error Report. These failures also now appear in the reports.
 
-  
-- Fix. When a user cancels a job, the job goes through a process to be canceled. Previously, if the job finished before the cancel process completed, the rerun transfer was automatically initiated. This has been fixed. An automatic rerun transfer is not triggered if a job is in the process of being canceled. 
+- Fix. When a user cancels a job, the job goes through a process to be canceled. Previously, if the job finished before the cancel process completed, the rerun transfer was automatically initiated. This has been fixed. An automatic rerun transfer is not triggered if a job is in the process of being canceled.
 
 - Improvement has been made in the overall system's stability through enhancements to the reliability of our caching systems.
 
 - Fix. During a G Suite transfer from a shared drive some users received a "File is restricted" error. This has been fixed by allowing the transfer to move those files over to the destination.
 
-
 ## Backend v1.19.8 (September 9, 2020)
--	Enforce that authorizing user is Office365 Global Admin or SharePoint Admin when authorizing a connector
+
+- Enforce that authorizing user is Office365 Global Admin or SharePoint Admin when authorizing a connector
 
 ## Backend v1.19.7 (September 1, 2020)
--	Improved data transfer speeds from the Agent connector (file shares) into an Office 365 connector. Customers will need to update the Agent to version v1.3.4.0.
--	Transfers going into some Office 365 sites may fail to move certain folders if the sites have the SharePoint Online option `ThicketSupportDisabled` set to `false`. To correct this issue, customers can set `ThicketSupportDisabled` to `true` in the SharePoint Online sites experiencing the issues. Alternatively, they can contact Mover support to apply a workaround to their transfers. The workaround consists in automatically appending an underscore (_) to the folder names. The folders that may fail due to this SharePoint Online option have names ending in:
 
-    - .files
-    - _files
-     - -Dateien
-    - _fichiers
-    - _bestanden
-    - _file
-    - _archivos
-    - -filer
-    - _tiedostot
-    - _pliki
-    - _soubory
-    - _elemei
-    - _ficheiros
-    - _arquivos
-    - _dosyalar
-    - _datoteke
-    - _fitxers
-    - _failid
-    - _fails
-    - _bylos
-    - _fajlovi
-    - _fitxategiak
+- Improved data transfer speeds from the Agent connector (file shares) into an Office 365 connector. Customers will need to update the Agent to version v1.3.4.0.
+- Transfers going into some Office 365 sites may fail to move certain folders if the sites have the SharePoint Online option `ThicketSupportDisabled` set to `false`. To correct this issue, customers can set `ThicketSupportDisabled` to `true` in the SharePoint Online sites experiencing the issues. Alternatively, they can contact Mover support to apply a workaround to their transfers. The workaround consists in automatically appending an underscore (_) to the folder names. The folders that may fail due to this SharePoint Online option have names ending in:
 
+  - .files
+  - _files
+  - -Dateien
+  - _fichiers
+  - _bestanden
+  - _file
+  - _archivos
+  - -filer
+  - _tiedostot
+  - _pliki
+  - _soubory
+  - _elemei
+  - _ficheiros
+  - _arquivos
+  - _dosyalar
+  - _datoteke
+  - _fitxers
+  - _failid
+  - _fails
+  - _bylos
+  - _fajlovi
+  - _fitxategiak
 
-
->[!Note]
->The workaround should NOT be requested if the SPO option `ThicketSupportDisabled` has been set to `true` as this may cause data duplication.
+> [!NOTE]
+> The workaround should NOT be requested if the SPO option `ThicketSupportDisabled` has been set to `true` as this may cause data duplication.
 
 - When a transfer into Office 365 fails on items due to path length limitations, the items would show up yellow in the user logs and as errors in the migration error report. However, the messages related to these failed entries were blank. This has been fixed by ensuring that a proper error message has been added to these failures.
-
 
 ## Backend v1.19.6 (August 31, 2020)
 
@@ -278,8 +272,8 @@ Migration Report improvements and bug fixes.
 
 Exciting new features for migrations out of G Suite and Box.
 
-- For migrations out of G Suite, requesting a "Google Pre-scan" was required before running the regular scans or transfers in order to prevent data duplication. The Google Pre-scan process has now been integrated into our regular migration scan and transfer processes, eliminating the need to request a Google Pre-scan from our support team. For more information, please refer to: https://aka.ms/MoverGSuite
-- For migrations out of Box, all Box Notes will now be automatically converted to Microsoft Word documents in the destination. For more information, please refer to: https://aka.ms/MoverBox
+- For migrations out of G Suite, requesting a "Google Pre-scan" was required before running the regular scans or transfers in order to prevent data duplication. The Google Pre-scan process has now been integrated into our regular migration scan and transfer processes, eliminating the need to request a Google Pre-scan from our support team. For more information, please refer to: <https://aka.ms/MoverGSuite>.
+- For migrations out of Box, all Box Notes will now be automatically converted to Microsoft Word documents in the destination. For more information, please refer to: <https://aka.ms/MoverBox>.
 
 ## Backend v1.18.1 (July 8, 2020)
 

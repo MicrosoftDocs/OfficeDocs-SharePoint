@@ -1,5 +1,5 @@
 ---
-title: "Prepare your environment for the Business Connectivity Services hybrid scenario"
+title: Prepare your environment for the Business Connectivity Services hybrid scenario
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -11,6 +11,7 @@ f1.keywords:
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
+ms.custom: admindeeplinkSPO
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
@@ -18,7 +19,7 @@ ms.collection:
 - M365-collaboration
 - SPO_Content
 ms.assetid: 3b4c9519-b68c-4247-8b58-674537f0c5fe
-description: "Learn how to prepare the on-premises account and security group to control access to an OData endpoint for the Business Connectivity Services (BCS) hybrid scenario."
+description: Learn how to prepare the on-premises account and security group to control access to an OData endpoint for the Business Connectivity Services (BCS) hybrid scenario.
 ---
 
 # Prepare your environment for the Business Connectivity Services hybrid scenario
@@ -81,7 +82,7 @@ Next, we need to add the credentials that we'll be using.
     
 ## Create and configure the OData service endpoint
 
-The BCS hybrid scenario supports connecting only to an OData source. If your external data already has an OData service endpoint, then you can skip the creating an OData service endpoint portions of this procedure. You will still need to configure permissions on the service endpoint for the **ODataAccount**. For the purposes of these procedures, we use the SQL Server[Adventureworks sample database](https://go.microsoft.com/fwlink/?LinkId=290978) and the [AdventureWorks 2012 LT sample data](https://go.microsoft.com/fwlink/?LinkId=290980) as the data source and create an OData service endpoint to make the data available to the BCS hybrid solution. You use Visual Studio 2012 to create and configure the OData service. 
+The BCS hybrid scenario supports connecting only to an OData source. If your external data already has an OData service endpoint, then you can skip the creating an OData service endpoint portions of this procedure. You will still need to configure permissions on the service endpoint for the **ODataAccount**. For the purposes of these procedures, we use the SQL Server [Adventureworks sample database](/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms&preserve-view=true) and the [AdventureWorks 2012 LT sample data](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksLT2012.bak) as the data source and create an OData service endpoint to make the data available to the BCS hybrid solution. You use Visual Studio 2012 to create and configure the OData service. 
   
 To create and configure the OData service endpoint, perform the procedures in [How to: Create an OData data service that sends notifications to BCS in SharePoint 2013](/sharepoint/dev/general-development/how-to-create-an-odata-data-service-for-use-as-a-bcs-external-system) in the MSDN Library. You will need the **ODataAccount** account to secure the service endpoint in Internet Information Services (IIS) 7.0. 
   
@@ -104,7 +105,7 @@ The Business Data Connectivity service (BDC) Metadata Store holds external conte
   
 **To set permissions on the BDC Metadata Store in SharePoint in Microsoft 365**
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
 
 2. Under **BCS**, select **Open**.
     
@@ -154,7 +155,7 @@ Before you begin this procedure, make sure you have the following:
     
 **To configure the connection settings object for the BCS hybrid scenario**
   
-1. go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
 
 2. Under **BCS**, select **Open**.
     
@@ -173,7 +174,7 @@ Before you begin this procedure, make sure you have the following:
     
 8. In the **Authentication Mode** dropdown, select **Impersonate Window's Identity**.
     
-9. In the **Internet-facing URL** box, enter the external URL with the /_vti_bin/client.svc extension. For example, https://hybridexternal.sharepoint.com/_vti_bin/client.svc.
+9. In the **Internet-facing URL** box, enter the external URL with the /_vti_bin/client.svc extension. For example, `https://hybridexternal.sharepoint.com/_vti_bin/client.svc`.
     
 10. In the **Secure Store Target Application ID** box, enter the ID of the target application that holds the Secure Channel certificate. For example, **SecureChannelTargetApp**.
     

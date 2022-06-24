@@ -101,7 +101,7 @@ In this procedure, you create a SQL Server login and then assign that login to a
   
 1. Start SQL Server Management Studio.
     
-2. In the **Object Explorer**, expand the <database server name>, expand **Security**, and then expand **Logins**.
+2. In the **Object Explorer**, expand the \<database server name\>, expand **Security**, and then expand **Logins**.
     
 3. Right-click **Logins**, and then click **New Login**
     
@@ -231,7 +231,7 @@ These procedures walk you through building an external content type for Business
   
 1. Add a connection using SQL Server as the External Data Source Type.
     
-2. In the Set the Database Server box, enter <The name of the database server> and in the **Set the Database Name** box, enter AdventureWorks2008R2. Optionally, in the **Name** box, enter AdventureWorks Sample Database.
+2. In the Set the Database Server box, enter \<The name of the database server\> and in the **Set the Database Name** box, enter AdventureWorks2008R2. Optionally, in the **Name** box, enter AdventureWorks Sample Database.
     
 3. Select **Connect with Impersonated Custom Identity**.
     

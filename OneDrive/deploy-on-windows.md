@@ -1,8 +1,8 @@
 ---
 title: "Deploy OneDrive apps using Microsoft Endpoint Configuration Manager"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -15,6 +15,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- onedrive-toc
 search.appverid:
 - MET150
 - ODB160
@@ -157,7 +158,7 @@ where:
 - **\<webUrl\>** is the SharePoint site URL. You can get this URL visiting https://\<TenantName\>.sharepoint.com/sites/\<SiteName\>/_api/web/url.
 - **\<listId\>** is the SharePoint site documents library GUID, enclosed in curly brackets. You can get this GUID visiting the document library in the browser, click in the gear icon and choosing "Library Settings". The URL will show the listId GUID at the end of URL, i.e. https://\<tenant\>.sharepoint.com/sites/\<SiteName\>/_layouts/15/listedit.aspx?List=%7B**xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx**%7D (a GUID with escaped curly brackets).
 - **\<userEmail\>** is the OneDrive's user email address used to sign in into OneDrive.
-- **\<webTitle\>** and **\<listTitle\>** are used to compose the name of the local folder where the OneDrive content is synchronized. By default, when you use the "Sync" button when in the browser to synchronize a document library, OneDrive uses the  SharePoint site name and the document library name to compose the local folder name, in the form of %userprofile%\\<TenantName\>\\<SiteName\> - \<DocumentLibraryName\>. You could use any other values if you prefer to. If you do not use these parameters, the local folder will be named "<TenantName> - Documents", despite of site and library names.
+- **\<webTitle\>** and **\<listTitle\>** are used to compose the name of the local folder where the OneDrive content is synchronized. By default, when you use the "Sync" button when in the browser to synchronize a document library, OneDrive uses the  SharePoint site name and the document library name to compose the local folder name, in the form of %userprofile%\\<TenantName\>\\<SiteName\> - \<DocumentLibraryName\>. You could use any other values if you prefer to. If you do not use these parameters, the local folder will be named "\<TenantName\> - Documents", despite of site and library names.
 
 For example, if you want to synchronize `https://contoso.sharepoint.com/sites/SalesTeam-01/ProjectX`, where "ProjectX" is the documents library to synchronize, to "%userprofile%\Contoso\Sales - Unicorn" folder, you will need the following parameters to compose the odopen:// URL:
 - siteId: {ssssssss-ssss-ssss-ssss-ssssssssssss}

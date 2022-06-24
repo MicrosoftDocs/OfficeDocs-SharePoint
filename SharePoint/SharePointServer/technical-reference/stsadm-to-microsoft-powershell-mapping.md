@@ -25,8 +25,8 @@ description: "Lists Stsadm operations and their equivalent PowerShell cmdlets."
   
  Where there is no one-to-one mapping between the operations and cmdlets, the table lists the specific PowerShell parameters you must use to get the same functionality. 
   
-## 
-|||
+
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Stsadm operation**  |**Windows PowerShell cmdlet**  |
 |**Activatefeature**  |[Enable-SPFeature](/powershell/module/sharepoint-server/Enable-SPFeature?view=sharepoint-ps&preserve-view=true)  |

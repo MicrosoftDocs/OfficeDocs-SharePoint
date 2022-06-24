@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection: 
 - IT_Sharepoint_Server_Top
@@ -27,7 +28,7 @@ description: "A complete listing of the SharePoint Migration basic and advanced 
 The following table details the settings available in SPMT.  Advanced settings should only be changed or managed by your IT professional. 
 
 
-**General**
+## General
  
 |**Setting**|**Description**|
 |:-----|:-----|
@@ -38,7 +39,7 @@ The following table details the settings available in SPMT.  Advanced settings s
 |Preserve file share permissions.|Preserve permissions on the files migrated.|
 
 
-**Users**
+## Users
 
 |**Setting**|**Description**|
 |:-----|:-----|
@@ -47,7 +48,7 @@ The following table details the settings available in SPMT.  Advanced settings s
 |User mapping file|By default,  *Azure AD lookup*  is used to map users when submitting migration jobs. If you want to use your own mapping file, select the file to be used by selecting **Choose file**. If you choose to use a custom user mapping file and want to preserve user permissions, turn off  *Azure Active Directory lookup*. By doing so, if a user isn't found in the mapping file, the tool won't look it up in Azure AD.|
 
 
-**Filters**
+## Filters
 
 |**Setting**|**Description**|
 |:-----|:-----|
@@ -62,10 +63,10 @@ The following table details the settings available in SPMT.  Advanced settings s
 |Replace invalid filename characters|If set to **On**, any invalid character found in a filename will be replaced with the single valid character you have provided in the box. Invalid characters include *"<>:/\'. For a complete list, see: [Invalid file names and file types in OneDrive and SharePoint](https://support.microsoft.com/en-us/office/invalid-file-names-and-file-types-in-onedrive-and-sharepoint-64883a5d-228e-48f5-b3d2-eb39e07630fa). </br></br>If set to **Off**, the tool will skip files whose name includes invalid characters. While having this set to off can improve performance when the source potentially contains a high number of files containing invalid characters, it also has drawbacks. To prevent malicious activities, source packages that generate more than 100 errors to the destination server will be blocked. As a result, all valid files in that package would also be blocked.  <br/> |
 |Filter subsites|Enter any subsite names you want to exclude from migration.|
 |Filter lists and libraries|Enter the names of the lists and libraries you want to exclude from migration.|
-|Filter content type|Enter the content types you want to exclude from migration.|
+|Filter content type|Enter the content types you want to exclude from migration, separated by a semicolon (;), for example, Document;My Document.|
 
 
-**SharePoint**
+## SharePoint
 
 |**Setting**|**Description**|
 |:-----|:-----|
@@ -79,15 +80,22 @@ The following table details the settings available in SPMT.  Advanced settings s
 |Migrate lists with lookup columns|This setting controls the behavior of migrating all lists referenced in lookup columns.  Options include:  *Migrate all lists referenced in lookup columns*, *Ignore lookup columns in migrated lists*, and *Only report error for any list with a lookup column. Do not migrate.*   This setting is only available if the source selected in a task is a list.  If you are doing a site migration, SPMT will automatically migrate all referred lists, so this setting will not appear to the user.
 
 
+## Workflow migration
 
-**Advanced**
+
+|**Setting**|**Description**|
+|:-----|:-----|
+|Power Automate flow owner|The user name who will be the default owner of the Power Automate flow.|
+
+
+## Advanced
 
 |**Setting**|**Description**|
 |:-----|:-----|
 |Migration auto rerun|Choose if you want to automatically rerun a migration task to look for changes or additions. Select either *Run once*, or *Run up to 5 successive times*.|
 |SharePoint Migration Tool working folder  <br/> |Choose if you want to create your own working folder.  By default, a temp folder will be created. <br/> **Note:** By default, the working folder is `%appdata%\Microsoft\MigrationTool`. Make sure that your working folder has a minimum of 150 GB of free space. It may need more depending on the size of the data you plan to migrate.|
 
-**Custom Azure Storage**
+## Custom Azure Storage
 
 >[!Important]
 >**Cost:**</br>

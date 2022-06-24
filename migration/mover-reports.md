@@ -7,6 +7,7 @@ recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection:
 - SPMigration
@@ -14,6 +15,7 @@ ms.collection:
 search.appverid: MET150
 description: "Mover reports"
 ---
+
 # Reports
 
 ## Dashboard overview
@@ -32,8 +34,8 @@ The **Transfers** section of the **Migration Manager** dashboard provides a brie
 - **Issues**: Number of users that encountered errors during a scan or a transfer.
 - **Failures**: Number of users that failed to scan or transfer.
 
->[!Note]
->The total **Transfers** tally is from all users regardless of status.
+> [!NOTE]
+> The total **Transfers** tally is from all users regardless of status.
 
 ![migration manager transfers](media/migration-manager-transfers.png)
 
@@ -44,8 +46,8 @@ The **Files** section of the **Migration Manager** dashboard provides a total of
 - **Complete**: Number of files that have successfully scanned or transferred.
 - **Issues**: Number of files that have encountered issues and failed to scan or transfer.
 
->[!Note]
->The total number of **Files** is from both scanned and transferred users. Be aware that scanned files are marked as *Skipped* as they have yet to be transferred.
+> [!NOTE]
+> The total number of **Files** is from both scanned and transferred users. Be aware that scanned files are marked as *Skipped* as they have yet to be transferred.
 
 ![migration manager files](media/migration-manager-files.png)
 
@@ -56,8 +58,8 @@ The **Data** section of the **Migration Manager** dashboard shows the total of a
 - **Complete**: Amount of data that has been successfully scanned and transferred.
 - **Issues**: Amount of data that encountered issues and has failed to scan or transfer.
 
->[!Note]
->The total amount of **Data** is from both scanned and transferred users. Be aware that scanned data is marked as *Skipped* as it has yet to be transferred.
+> [!NOTE]
+> The total amount of **Data** is from both scanned and transferred users. Be aware that scanned data is marked as *Skipped* as it has yet to be transferred.
 
 ![migration manager data](media/migration-manager-data.png)
 
@@ -65,28 +67,28 @@ The **Data** section of the **Migration Manager** dashboard shows the total of a
 
 This provides the list of all current **Filters** that you can apply to the **Active Filter** search bar.
 
->[!Note]
->Applying the filters changes the statistic shown in the **Migration Manager** dashboard.
+> [!NOTE]
+> Applying the filters changes the statistic shown in the **Migration Manager** dashboard.
 
-|**Filter label**|**Label effect**|
-|:-----|:-----|
-|Status|	Filters by status [for example, Failed, Success, User Does Not Exist, and so on.]|
-|Files|	Filters based on files transferred, failed, and skipped.|
-|Data	|Filters based on data that has transferred, failed, or skipped.|
-|Success|	Displays all successful Data and Files transferred.|
-|Failed	|Displays all Data and Files that have failed to transfer.|
-|Skipped	|Displays all data and files that were skipped.|
-|Schedule	|Displays all users with scheduled transfers [for example, Hourly, Daily, Weekly, Monthly].|
-|Path	|Filters for specific source or destination path [for example, path:username].|
-|Destination|	Filters for specific destination path [for example, path:@domain<spam><spam>.com].|
-|Source|	Filters for specific source path [for example, path:foldername].|
-|Destination path	|Functions the same as **Destination**.|
-|Source path	|Functions the same as **Source**.|
-|Tags	 |Lists transfers with previously implemented custom tags.|
-|Notes	|Filters by keywords in previously implemented custom notes.|
-|Code|	Filters for specific status codes.|
-|Destination name|	Displays transfers with a specific destination name.|
-|Source name|	Displays transfers with a specific source name.|
+|Filter label|Label effect|
+|---|---|
+|Status|Filters by status [for example, Failed, Success, User Does Not Exist, and so on.]|
+|Files|Filters based on files transferred, failed, and skipped.|
+|Data|Filters based on data that has transferred, failed, or skipped.|
+|Success|Displays all successful Data and Files transferred.|
+|Failed|Displays all Data and Files that have failed to transfer.|
+|Skipped|Displays all data and files that were skipped.|
+|Schedule|Displays all users with scheduled transfers [for example, Hourly, Daily, Weekly, Monthly].|
+|Path|Filters for specific source or destination path [for example, path:username].|
+|Destination|Filters for specific destination path [for example, path:@domain\<spam\>\<spam\>.com].|
+|Source|Filters for specific source path [for example, path:foldername].|
+|Destination path|Functions the same as **Destination**.|
+|Source path|Functions the same as **Source**.|
+|Tags|Lists transfers with previously implemented custom tags.|
+|Notes|Filters by keywords in previously implemented custom notes.|
+|Code|Filters for specific status codes.|
+|Destination name|Displays transfers with a specific destination name.|
+|Source name|Displays transfers with a specific source name.|
 
 ## Scan report
 
@@ -109,7 +111,7 @@ To download this as a CSV, at the top right of the **Migration Manager**, select
 The CSV report provides the following information for each user pairing:
 
 |Statistic|Definition|
-|:-----|:-----|
+|---|---|
 |Schedule ID|Our internal reference unique to the user pairing created.|
 |Source|Source directory path.|
 |Destination|Destination directory path.|
@@ -177,12 +179,11 @@ To download this as a CSV, at the top right of the **Migration Manager**, select
 
 Download an example CSV:
 
-
 [example_migration_error_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_error_report.csv)
 
 ## Skipped files and folders
 
-When files and folders are “skipped,” Mover has deliberately skipped that item during the transfer. Typically, items are skipped because:
+When files and folders are "skipped," Mover has deliberately skipped that item during the transfer. Typically, items are skipped because:
 
 - That item with the same name and timestamp already exists in the destination.
 - They are set to be copied by a different user (to prevent data duplication).

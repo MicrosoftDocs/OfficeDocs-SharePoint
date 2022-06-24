@@ -1,8 +1,8 @@
 ---
 title: Guided walkthrough - Setting up news for your organization using a hub site
 ms.reviewer: 
-ms.author: daisyfeller
-author: daisyfell
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin

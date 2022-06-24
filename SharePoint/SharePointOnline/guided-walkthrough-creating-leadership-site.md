@@ -1,8 +1,8 @@
 ---
 title: Guided walkthrough - Creating a leadership site for your organization
 ms.reviewer: 
-ms.author: daisyfeller
-author: daisyfell
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -140,7 +140,7 @@ Web parts may be edited, moved, or deleted within sections. The **Edit web part*
 
 ## Focus on priorities with the Hero web part
 
-Let your team know what’s most important with high-impact hero images, company branding, and important news. The initial impact of the Leadership site home page is created by large and eye-catching images of the Hero web part. The layout used in this example is **Three tiles**.
+Let your team know what's most important with high-impact hero images, company branding, and important news. The initial impact of the Leadership site home page is created by large and eye-catching images of the Hero web part. The layout used in this example is **Three tiles**.
 
 ### Hero layout
 
@@ -246,7 +246,7 @@ For more details on how to use this web part, see [Use the Call to action web pa
 
 ### Enhance the message
 
-The leadership quote uses the Text web part. This web part allows basic text formatting, including styles and tables, for creating fixed sections of formatted text. In this example, the Text web part is using the **Pull quote** style. Clicking the **…** control at the right end of the formatting toolbar offers more options to the right of the web part.
+The leadership quote uses the Text web part. This web part allows basic text formatting, including styles and tables, for creating fixed sections of formatted text. In this example, the Text web part is using the **Pull quote** style. Clicking the **...** control at the right end of the formatting toolbar offers more options to the right of the web part.
 
 In this Leadership site example shown above, the web part is in a one-column section.
 

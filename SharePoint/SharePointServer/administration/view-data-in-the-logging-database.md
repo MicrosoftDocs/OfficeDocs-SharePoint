@@ -141,7 +141,7 @@ To access the pre-defined views, you must access the SharePoint Server 2016 logg
         FROM [SharePoint_Logging].[dbo].[RequestUsage]
       ```
 
-      The top 1000 rows of the table category **Request Usage** appear in the result window. 
+    The top 1000 rows of the table category **Request Usage** appear in the result window. 
     
 4. You can modify the T-SQL query in the SQL editor window. For example, if there are more than 1000 rows in the tables, you might want to view the top 5000 rows. To do that, change the script by replacing "SELECT TOP 1000" with "SELECT TOP 5000", and then click **Execute**.
 
@@ -155,7 +155,7 @@ If you want to view logs by using tools other than Management Studio, you can ex
     
 3. Expand the **Views** node, right-click the view from which you want to extract data, and then click **Select Top 1000 Rows**.
     
-4. In the result window, right-click, and then click **Select All**. Then right-click and then click **Save Results As…**.
+4. In the result window, right-click, and then click **Select All**. Then right-click and then click **Save Results As...**.
     
 5. In the **Save Grid Results** window, specify the folder in which you want to save the file, specify the **Save as type** as CSV(Comma delimited), and then specify an appropriate file name. 
     

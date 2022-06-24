@@ -55,7 +55,7 @@ There are three default usage event types in SharePoint Server. You can create u
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To get a site at the root site collection level:
   $Site = Get-SPSite "http://localhost"
   # To get a site below the root site collection level:
@@ -112,7 +112,7 @@ If you are using cross-site publishing, where you show catalog content on a publ
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To view GUIDs for all usage event types:
   $SSP = Get-SPEnterpriseSearchServiceApplicationProxy
   $SSP.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
@@ -121,7 +121,7 @@ If you are using cross-site publishing, where you show catalog content on a publ
 
 4. In an HTML editor, open the file where the custom usage event should be logged — for example, a display template for a Content Search Web Part, and add the following code:
     
-  ```
+  ```powershell
   window.Log<CustomUsageEventType>ToEventStore = function(url)
   {
       ExecuteOrDelayUntilScriptLoaded(function()
@@ -140,7 +140,7 @@ If you are using cross-site publishing, where you show catalog content on a publ
     
 5. In an HTML editor, open the file that refers to the custom usage event, and add the following code:
     
-  ```
+  ```powershell
   # The example below shows how a custom usage event type is referred to when a button is clicked: 
   <button onclick="Log<CustomUsageEventType>ToEventStore('<URL>')"></button>
   
@@ -173,7 +173,7 @@ If you are using cross-site publishing, where you show catalog content on a publ
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To view GUIDs for all usage event types:
   $SSP = Get-SPEnterpriseSearchServiceApplicationProxy
   $SSP.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
@@ -182,7 +182,7 @@ If you are using cross-site publishing, where you show catalog content on a publ
 
 4. In an HTML editor, open the file where the custom usage event should be logged — for example, a display template for a Content Search Web Part. The following example shows how to override the current SiteId, WebId and UserId.
     
-  ```
+  ```powershell
   window.Log<CustomUsageEventType>ToEventStore = function(url, siteIdGuid, webIdGuid, spUser)
   {
       ExecuteOrDelayUntilScriptLoaded(function()
@@ -204,7 +204,7 @@ If you are using cross-site publishing, where you show catalog content on a publ
     
 5. In an HTML editor, open the file that refers to the custom usage event type, and add the following code:
     
-  ```
+  ```powershell
   # The example below shows how a custom usage event type is referred to when the "Buy!" button is clicked:
   <button onclick="Log<CustomUsageEventType>ToEventStore('<URL>', new SP.Guid('{<SiteId GUID>}'), new SP.Guid('{<WebId GUID>}'), '<UserName>')">Buy!</button>
   
@@ -250,7 +250,7 @@ If you are using cross-site publishing, which shows catalog content on a publish
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To view EventTypeId for all usage event types:
   $SSP = Get-SPEnterpriseSearchServiceApplicationProxy
   $SSP.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
@@ -259,7 +259,7 @@ If you are using cross-site publishing, which shows catalog content on a publish
 
 4. In an HTML editor, open the file where the custom usage event should be logged — for example, a display template for a Content Search Web Part, and add the following code:
     
-  ```
+  ```powershell
   window.Log<DefaultUsageEventType>ToEventStore = function(url)
   {
       ExecuteOrDelayUntilScriptLoaded(function()
@@ -280,7 +280,7 @@ If you are using cross-site publishing, which shows catalog content on a publish
     
 5. In an HTML editor, open the file that refers to the default usage event, and add the following code:
     
-  ```
+  ```powershell
   # The example below shows how a default usage event type is referred to on a page load:
   <body onload="Log<DefaultUsageEventType>ToEventStore('<URL>')"> 
   ```
@@ -314,7 +314,7 @@ If you are using cross-site publishing, which shows catalog content on a publish
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To view EventTypeId for all usage event types:
   $SSP = Get-SPEnterpriseSearchServiceApplicationProxy
   $SSP.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
@@ -323,7 +323,7 @@ If you are using cross-site publishing, which shows catalog content on a publish
 
 4. In an HTML editor, open the file where the custom usage event should be logged — for example, a display template for a Content Search Web Part. The example below shows how to override the current SiteId, the WebId and the UserId.
     
-  ```
+  ```powershell
   window.Log<DefaultUsageEventType>ToEventStore = function(url, siteIdGuid, webIdGuid, spUser)
   {
       ExecuteOrDelayUntilScriptLoaded(function()
@@ -344,7 +344,7 @@ If you are using cross-site publishing, which shows catalog content on a publish
     
 5. In an HTML editor, open the file that refers to the default usage event type, and add the following code:
     
-  ```
+  ```powershell
   # The example below shows how a default usage event type is referred to on a page load:
   <body onload="Log<DefaultUsageEventType>ToEventStore('<URL>', new SP.Guid('{<SiteId GUID>}'), new SP.Guid('{<WebId GUID>}'), '<UserName>')">
   
@@ -391,7 +391,7 @@ The usage event type property, **RecommendationWeight**, is a numeric value that
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To view EventTypeId for all usage event types:
   $SSP = Get-SPEnterpriseSearchServiceApplicationProxy
   $SSP.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
@@ -443,7 +443,7 @@ The usage event type property **RecentPopularityTimeframe** is a numeric value t
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To view EventTypeId for all usage event types:
   $SSP = Get-SPEnterpriseSearchServiceApplicationProxy
   $SSP.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
@@ -498,7 +498,7 @@ Users that are browsing the contents of a site without being connected to an acc
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To view EventTypeId for all usage event types:
   $SSP = Get-SPEnterpriseSearchServiceApplicationProxy
   $SSP.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
@@ -540,7 +540,7 @@ Users that are browsing the contents of a site without being connected to an acc
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To view EventTypeId for all usage event types:
   $SSP = Get-SPEnterpriseSearchServiceApplicationProxy
   $SSP.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
@@ -591,7 +591,7 @@ You can use the following PowerShell commands to get the SiteId GUID and the Web
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
+  ```powershell
   # To get the SiteId GUID and the WebId GUID for a root site collection:
   $site = Get-SPSite "<RootSiteURL>"
   $web = $site.RootWeb

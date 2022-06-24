@@ -82,8 +82,7 @@ Before you remove a database server from a farm, make sure that you have moved a
    > [!NOTE]
    > This cmdlet only removes the **local SharePoint server** from the SharePoint farm. It can't remove remote SharePoint servers or database servers from the SharePoint farm. 
 
-  
-#### Remove a server from a SharePoint farm by using the PSConfig.exe command-line tool
+  #### Remove a server from a SharePoint farm by using the PSConfig.exe command-line tool
 <a name="RemovePSConfig"> </a>
 
 You can remove a server from the SharePoint farm by using the PSConfig.exe tool, which is an alternative interface to perform several operations that control how SharePoint Server 2016, 2019, and Subscription Edition is configured. You must be a member of the Administrators group on the local computer to perform these operations. 

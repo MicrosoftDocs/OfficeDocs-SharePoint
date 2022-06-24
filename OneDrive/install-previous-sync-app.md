@@ -1,14 +1,15 @@
 ---
 title: "Install the previous OneDrive sync app"
 ms.reviewer: garezni
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: one-drive
+ms.custom: onedrive-toc
 ms.localizationpriority: high
 description: "In this article, you'll learn how to install the previous OneDrive sync app (Groove.exe) for use with SharePoint Server."
 ---

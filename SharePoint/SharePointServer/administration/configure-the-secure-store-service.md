@@ -184,7 +184,7 @@ Target applications are configured on the Secure Store Service Application page 
     
 7. When you create a target application of type Individual (see below), you can implement a custom Web page that lets users add individual credentials for the destination data source. This requires custom code to pass the credentials to the target application. If you did this, type the full URL of this page in the **Target Application Page URL** field. There are three options: 
     
-  - **Use default page**: Any websites that use the target application to access external data will have an individual sign-up page that was added automatically. The URL of this page will be http:/<samplesite>/_layouts/SecureStoreSetCredentials.aspx?TargetAppId=<TargetApplicationID>, where <TargetApplicationID> is the string typed in the **Target Application ID** box. By publicizing the location of this page, you can enable users to add their credentials for the external data source. 
+  - **Use default page**: Any websites that use the target application to access external data will have an individual sign-up page that was added automatically. The URL of this page will be http:/\<samplesite>/_layouts/SecureStoreSetCredentials.aspx?TargetAppId=\<TargetApplicationID>, where \<TargetApplicationID> is the string typed in the **Target Application ID** box. By publicizing the location of this page, you can enable users to add their credentials for the external data source. 
     
   - **Use custom page**: You provide a custom Web page that lets users provide individual credentials. Type the URL of the custom page in this field.
     

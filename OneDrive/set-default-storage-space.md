@@ -1,8 +1,8 @@
 ---
 title: "Set the default storage space for OneDrive users"
 ms.reviewer: waynewin
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -19,32 +19,30 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
+- onedrive-toc
 ms.assetid: cec51d07-d7e0-42a3-b794-9c00ad0f0083
 description: "In this article, you'll learn how to change the default storage space for OneDrive users."
 ---
 
 # Set the default storage space for OneDrive users
 
-For most subscription plans, the default storage space for each user's OneDrive is 1 TB. Depending on your plan and the number of licensed users, you can increase this storage up to 5 TB. For info, see the [OneDrive service description](/office365/servicedescriptions/onedrive-for-business-service-description).
+For most subscription plans, the default storage space for each user's OneDrive is 1 TB. Depending on your plan and the number of licensed users, you can increase this storage up to 5 TB. For info, see the [OneDrive service description](/office365/servicedescriptions/onedrive-for-business-service-description). If you change a user's license, the available storage space is updated automatically within 24 hours after they access OneDrive.
+  
+If your organization has a qualifying Microsoft 365 subscription and five (5) or more users, you can change the storage space to more than 5 TB. To discuss your needs, contact Microsoft support. You must assign at least one license to a user before you can increase the default OneDrive storage space. The new storage limit is applied the next time a user accesses OneDrive.
   
 > [!NOTE]
 > For help finding out which subscription you have, see [What Microsoft 365 Apps for business subscription do I have?](/office365/admin/admin-overview/what-subscription-do-i-have)
-> 
-> If your organization has a qualifying Microsoft 365 subscription and five (5) or more users, you can change the storage space to more than 5 TB. To discuss your needs, contact Microsoft support. You must assign at least one license to a user before you can increase the default OneDrive storage space.
->
-> The new storage limit is applied the next time a user accesses their OneDrive.
-  
+
 ## Set the default OneDrive storage space in the SharePoint admin center
 This storage space setting applies to all new and existing users who are licensed for a qualifying plan and for whom you haven't set specific storage limits. (To check if a user has a specific storage limit, see the next section.) To change the storage space for specific users, see [Change a specific user's OneDrive storage space](change-user-storage.md).
 
 > [!WARNING]
 > If you decrease the storage limit and a user is over the new limit, their OneDrive will become read-only.
 
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the new SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
  
    > [!NOTE]
-   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. 
-   > 
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
 
 2. Select the OneDrive **Storage limit** setting.
@@ -62,7 +60,7 @@ This storage space setting applies to all new and existing users who are license
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
     
     > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.
+    > If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.
     
 2. In the left pane, select **Users** \> **Active users**.
 

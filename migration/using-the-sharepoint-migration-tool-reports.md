@@ -9,6 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: medium
 mscollection:
 - SPMigration
@@ -197,7 +198,7 @@ The **ItemReport.csv** is a detailed report that provides data on each file with
 |Content type |The file type. |
 |Status |Status indicating at what stage the file is. |
 |Result category |General code associated with the item to indicate what happened with that item. |
-|Message |More detailed error or informational message generated. |```
+|Message |More detailed error or informational message generated. |
 |Source item ID |ID of the item at the source. |
 |Destination item ID |ID of the item at the destination. |
 |Package number |ID generated for the package number during the transition. |
@@ -250,7 +251,7 @@ Structure report at the task level.
 |HubSiteUrl|URL of the hubsite. This column is empty if the site is not hubsite|
 |Result|Registered/Associated/Failed|
 |Error|	Error type. Blank if no error occurred.|
-|Message|Error message||
+|Message|Error message|
    
 
 ### Performance report

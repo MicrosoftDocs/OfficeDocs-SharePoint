@@ -1,8 +1,8 @@
 ---
 title: Provision the SharePoint Success Site from the look book
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -43,32 +43,32 @@ If you aren't sure what version of Microsoft 365 learning pathways is installed 
 
    ![Image of the SharePoint Success Site look book page details.](media/sss-lookbook-details.png)
 
-3.	Select **Confirm**. When provisioning is complete, you see the following message:
+3. Select **Confirm**. When provisioning is complete, you see the following message:
 
     ![Image of the provisioning confirmation message.](media/sss-sss-complete.png)
 
-5.	Go to your tenant's learning pathways site.
+5. Go to your tenant's learning pathways site.
 
-6.	Select **Home** > **Learning pathways administration**.
+6. Select **Home** > **Learning pathways administration**.
 
     ![Image of the Microsoft 365 learning pathways admin page. The "Learning pathways administration" menu item is highlighted.](media/sss-sss-admin.png)
 
-7.	Select the **More actions** (…) button, and then select **Add to Content Pack**.
+7. Select the **More actions** (...) button, and then select **Add to Content Pack**.
 
-8.	Select **SharePoint Success Site**.
+8. Select **SharePoint Success Site**.
 
     ![Image of the content pack in the Microsoft 365 learning pathways admin page. The "SharePoint Success Site" selection is highlighted.](media/sss-content-pack.png)
 
-9.	Go back to the Microsoft 365 learning pathways administration page.
+9. Go back to the Microsoft 365 learning pathways administration page.
 
-10.	Select **Complete**, as the following image shows:
+10. Select **Complete**, as the following image shows:
 
     ![Image of the Microsoft 365 learning pathways solution Complete button.](media/sss-m365lp-confirm2.png)
 
     > [!IMPORTANT]
     > Make sure to select **Complete** to finish the provisioning process.
 
-11.	To confirm that the SharePoint Success Site is successfully provisioned, go to the site, and then select **Get Started** > **Plan your site**. You should see the web part on the page, as the following image shows:
+11. To confirm that the SharePoint Success Site is successfully provisioned, go to the site, and then select **Get Started** > **Plan your site**. You should see the web part on the page, as the following image shows:
 
 
     ![Image of the SharePoint Success Site landing page, named Plan your site.](media/sss-content-landing.png)
@@ -103,21 +103,21 @@ To add owners or members to both sites:
 
 Answer: Yes. Follow the guidance in [Provision the SharePoint Success Site to your tenant from the learning pathways administrative page](./provision-sss.md#provision-the-sharepoint-success-site-1).
 
-**Who has permission to provision the SharePoint Success Site?**
+**Who has permission to provision the SharePoint Success Site?**
 
-Answer: The global admin (formerly called the tenant admin).
+Answer: The global admin (formerly called the tenant admin).
 
-**Who has permission to customize the site template?**
+**Who has permission to customize the site template?**
 
-Answer: The global admin (formerly called the tenant admin) or a user who has site-owner permissions.
+Answer: The global admin (formerly called the tenant admin) or a user who has site-owner permissions.
 
-**Who can create custom playlists and hide or show content in Microsoft 365 learning pathways?**
+**Who can create custom playlists and hide or show content in Microsoft 365 learning pathways?**
 
-Answer: The site-collection administrator and users who have site-owner permissions for Microsoft 365 learning pathways.
+Answer: The site-collection administrator and users who have site-owner permissions for Microsoft 365 learning pathways.
 
-**Who has permissions to use the SharePoint Success Site as a user?**
+**Who has permissions to use the SharePoint Success Site as a user?**
 
-Answer: Users who have Microsoft 365 user permissions, SharePoint Site visitor permissions, or higher permissions.
+Answer: Users who have Microsoft 365 user permissions, SharePoint Site visitor permissions, or higher permissions.
 
 ## Next steps
 

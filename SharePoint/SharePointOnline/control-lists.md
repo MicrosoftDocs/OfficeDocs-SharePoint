@@ -1,8 +1,8 @@
 ---
 title: "Control Microsoft Lists"
 ms.reviewer: hasaladi
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 search.appverid:
 - SPO160
 - MET150
-ms.collection:  
+ms.collection:
 - M365-collaboration
 description: "Control settings in the Lists app."
 ---
@@ -30,23 +30,23 @@ You control both of these settings by using Microsoft PowerShell.
 
 ## Disable creation of personal lists
 
-If you change this setting, when users create a list, they must select a SharePoint site for saving the list. The "Save to" setting doesn't include the "My lists" option. 
+If you change this setting, when users create a list, they must select a SharePoint site for saving the list. The "Save to" setting doesn't include the "My lists" option.
 
-| Default | Personal list creation disabled |
-|:-----|:-----|
+|Default|Personal list creation disabled|
+|---|---|
 |![The Save to setting includes the My lists option](media/save-my-lists.png) |![The Save to setting requires users to select a site](media/save-list-site.png)|
-  
+
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
 2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following command:
-  
+
     ```PowerShell
-    Set-SPOTenant -DisablePersonalListCreation $true
+    Set-SPOTenant -DisablePersonalListCreation $true
     ```
 
 To re-enable the creation of personal lists, set the parameter to `$false`.
@@ -55,21 +55,21 @@ To re-enable the creation of personal lists, set the parameter to `$false`.
 
 Disabling these templates removes them from all places users create lists (the Lists app, Microsoft Teams, and SharePoint sites).
 
-| Default | Built-in list templates disabled |
-|:-----|:-----|
-|![All built-in templates are available to users](media/list-templates-all.png) |Some templates disabled![Some templates are still available to users](media/list-templates-some.png)<br/>All templates disabled![Users see a message that templates have been turned off by the admin](media/list-templates-none.png)|
-  
+|Default|Built-in list templates disabled|
+|---|---|
+|![All built-in templates are available to users](media/list-templates-all.png) |Some templates disabled![Some templates are still available to users](media/list-templates-some.png) <br/> All templates disabled![Users see a message that templates have been turned off by the admin](media/list-templates-none.png)|
+
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
 2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following command:
-  
+
     ```PowerShell
-    Set-SPOTenant -DisableModernListTemplateIds '<template ID>'
+    Set-SPOTenant -DisableModernListTemplateIds '<template ID>'
     ```
 
 Where the template ID is:

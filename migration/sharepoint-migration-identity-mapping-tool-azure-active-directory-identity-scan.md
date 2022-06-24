@@ -9,7 +9,9 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
+description: Learn about SharePoint Migration Identity Mapping Tool for Azure AD Identity Scan.
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: medium
 ms.collection:
 - SPmigration
@@ -24,13 +26,13 @@ The Azure Active Directory scan will look up identities that were found in the s
   
 When performing look-ups, this is the pattern used for matching:
   
-| Users ||
+| Users |&nbsp;  |
 |:-----|:-----|
 |ExactMatch  <br/> |Source Identity is a Windows user with a Security Identifier [SID]. The target is the OnPremisesSecurityIdentifier in Azure Active Directory.  <br/> Non-Windows accounts will never be able to have an ExactMatch.  <br/> |
 |PartialMatch  <br/> |Source identity claim value equals the UserPrincipalName or Mail value in Azure Active Directory.  <br/> or  <br/> Source Identity Display Name equals the Display Name in Azure Active Directory.  <br/> |
 |NoMatch  <br/> |Unable to perform neither ExactMatch or PartialMatch.  <br/> |
    
-| Groups ||
+| Groups |&nbsp;  |
 |:-----|:-----|
 |ExactMatch  <br/> |Source Identity is a Windows group with a Security Identifier [SID]. The target is the OnPremisesSecurityIdentifier in Azure Active Directory.  <br/> Non-Windows accounts will never be able to have an ExactMatch.  <br/> |
 |PartialMatch  <br/> |Source Identity Display Name equals the Display Name in Azure Active Directory.  <br/> |

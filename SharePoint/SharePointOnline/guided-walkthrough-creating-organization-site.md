@@ -1,8 +1,8 @@
 ---
 title: Guided walkthrough - Creating an organization site
 ms.reviewer: 
-ms.author: daisyfeller
-author: daisyfell
+ms.author: matteva
+author: MattEEvans
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -32,7 +32,7 @@ Once you have your created your site and know how to edit pages, you can use the
 
 |Web part|Description|
 |----------|------------|
-|![Image of an example enterprise landing site](media/gw-org/gw-org-long.png)|**1 Navigation** <br> Quickly guide visitors to the information they're looking for with site navigation. <br> [Learn how](#navigation) <br> <br> <br> **2 News and events** <br> Keep everyone up to date on the latest happenings. <br> [Learn how](#keep-everyone-up-to-date) <br> <br> <br> **3 Quick links** <br> Format the Quick links web part with icons, images, and descriptions. <br> [Learn how](#quick-links) <br> <br> <br> **4 Important information** <br> Display  important documents and files. <br> [Learn how](#documents-and-files) <br> <br> <br> **5 Personalization** <br> Use web parts designed to dynamically provide personalized information for the user. <br> [Learn how](#personalized-web-parts)|
+|![Image of an example enterprise landing site](media/gw-org/gw-org-long.png)|**1 Navigation** <br> Quickly guide visitors to the information they're looking for with site navigation. <br> [Learn how](#navigation) <br> <br> <br> **2 News and events** <br> Keep everyone up to date on the latest happenings. <br> [Learn how](#keep-everyone-up-to-date) <br> <br> <br> **3 Quick links** <br> Format the Quick links web part with icons, images, and descriptions. <br> [Learn how](#quick-links) <br> <br> <br> **4 Important information** <br> Display important documents and files. <br> [Learn how](#documents-and-files) <br> <br> <br> **5 Personalization** <br> Use web parts designed to dynamically provide personalized information for the user. <br> [Learn how](#personalized-web-parts)|
 
 ## Create your site
 

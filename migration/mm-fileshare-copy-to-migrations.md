@@ -9,6 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: sharepoint-migration
 ms.localizationpriority: high
 ms.collection:
 - m365solution-migratefileshares
@@ -17,9 +18,10 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150to the migration list in Migration Manager."
+description: "Learn how to copy to migrations for file share migration."
 ---
 
-# Step 3: Copy to migrations
+# Step 3: Copy to migrations for file share migration
 
 After a file share has been scanned and determined ready, add it to your migration list.  
 
@@ -63,11 +65,14 @@ An incremental check of your SharePoint destination environment is performed. Fi
 |Time stamp on files or object in the source location is newer in the source. |The newer files are migrated.  |
 |Source is a file share.  |Validation for migration will be based on the file/folder path.  |
 |Source is an on-premises SharePoint Server/  |Validation for migration will be based on list item GUID. Use the folder path as a fallback.  |
+|An already migrated file is renamed or path is changed but still in the same document library|Incremental migration will use the corresponding source file and overwrite the file.|
+|Migrated file is changed in the destination location, but file name remains the same|Incremental migration will not overwrite the changed file.|
+
+>[!Important]
+>We strongly recommend that you do not rename or move migrated files before the final migration has been completed.  Doing so will result in files being overwritten.
 
 
 >[!NOTE]
->Migration Manager for file shares isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. 
->
->It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager for file shares isn't available for users of Office 365 operated by 21Vianet in China. 
 >
 > This feature is not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

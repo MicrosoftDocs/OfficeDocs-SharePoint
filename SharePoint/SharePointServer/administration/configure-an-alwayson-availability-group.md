@@ -197,7 +197,7 @@ Use the following procedure to install SQL Server 2014 (SP1).
     
 2. Install SQL Server on each cluster node.
     
-    For more information, see [Quick-Start Installation of SQL Server 2014](/sql/getting-started/quick-start-installation-of-sql-server-2014) and [Installing SQL Server 2014 Step by Step Tutorial](https://go.microsoft.com/fwlink/?LinkID=724036).
+    For more information, see [Installing SQL Server 2014 Step by Step Tutorial](https://go.microsoft.com/fwlink/?LinkID=724036).
     
 ### Install SQL Server 2016 or SQL Server 2017
 
@@ -518,4 +518,4 @@ You can also use Transact-SQL to monitor availability groups by using the set of
 [Install SharePoint Server](../install/install.md)
 #### Other Resources
 
-[Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md)
+[Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md)

@@ -208,7 +208,7 @@ For more information, see Set-SPAppSiteSubscriptionName and Set-SPAppDomain.
 
 The SharePoint Store contains apps for SharePoint intended for use with sites that require Internet-facing endpoints. By default, these apps are not available (greyed out and cannot be purchased) because they are incompatible with most sites. However, if your farm is configured to allow internet-facing end points, you can turn on the Internet-facing endpoints feature to show these apps in the SharePoint Store. You turn on this feature in Central Administration.
   
- **To configure Internet-facing endpoints for apps**
+**To configure Internet-facing endpoints for apps**
   
 1. In Central Administration, click **Application Management**.
     

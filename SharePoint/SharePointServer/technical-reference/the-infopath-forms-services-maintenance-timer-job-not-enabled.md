@@ -68,13 +68,13 @@ The InfoPath Forms Services Maintenance timer job is used by InfoPath Forms Serv
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Enable-SPTimerJob "<FormsMaintenanceJobDefinition>"
-  ```
+   ```
+   Enable-SPTimerJob "<FormsMaintenanceJobDefinition>"
+   ```
 
-    Where:
+     Where:
     
-  -  _\<FormsMaintenanceJobDefintion\>_ is the actual name of the timer job to enable. 
+   -  _\<FormsMaintenanceJobDefintion\>_ is the actual name of the timer job to enable. 
     
 For more information, see [Enable-SPTimerJob](/powershell/module/sharepoint-server/Enable-SPTimerJob?view=sharepoint-ps&preserve-view=true).
   
