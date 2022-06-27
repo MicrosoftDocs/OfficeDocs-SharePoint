@@ -26,7 +26,7 @@ When you configure with AD FS OIDC, you need the following resources to perform 
 1. A SharePoint Server farm.
 2. AD FS in Windows Server 2016 or later, already created, with the public key of the AD FS signing certificate exported in a `.cer` file.
 
-This article uses the following values for AD FS OIDC setup:
+This article uses the following example values for AD FS OIDC setup:
 
 | Value | Link |
 |---------|---------|
@@ -41,7 +41,7 @@ This article uses the following values for AD FS OIDC setup:
 
 ### Step 1: Setup identity provider
 
-If you choose to use AD FS as identity provider, perform the following steps to set up OIDC with AD FS:
+Perform the following steps to set up OIDC with AD FS:
 
 1. In AD FS Management, right-click on **Application Groups** and select **Add Application Group**.
 2. Go to the **Welcome** page, enter **ADFSSSO** in the **Name** field and under **Client-Server applications**, select the **Web browser accessing a web application** template. Then, select **Next**.
@@ -309,11 +309,11 @@ In this step, you create a team site collection with two administrators: One as 
 11. Go to the account and select **OK**.
 12. Select **OK** to create the site collection.
 
-Once the site collection is created, you should be able to sign-in using either the Windows or the federated site collection administrator account.
+Once the site collection is created, you will be able to sign-in using either the Windows or the federated site collection administrator account.
 
 ### Step 7: Set up People Picker
 
-In OIDC authentication the People Picker doesn't validate the input, which can lead to misspellings or users accidentally selecting the wrong claim type. This can be addressed using the new UPA-backed claim provider in SharePoint Server.
+In OIDC authentication, the People Picker doesn't validate the input, which can lead to misspellings or users accidentally selecting the wrong claim type. This can be addressed using the new UPA-backed claim provider in SharePoint Server.
 
 Perform the following steps to help People Picker validate the input using the new UPA-backed claim provider:
 
@@ -325,7 +325,7 @@ In the [previous step](#step-3-configure-sharepoint-to-trust-the-identity-provid
   $claimprovider = New-SPClaimProvider -AssemblyName "Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, publicKeyToken=71e9bce111e9429c" -DisplayName 'OIDC Claim Provider' -Type "Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider" -TrustedTokenIssuer $tokenissuer -Description “OIDC Claim Provider” -Default:$false
   ```
 
-Following parameters need to be specified here:
+Specify the following parameters:
 
 | Parameter | Description |
 |------------|-------------|
@@ -342,7 +342,7 @@ In this step, the OIDC `SPTrustedIdentityTokenIssuer` uses the claim provider cr
   Set-SPTrustedIdentityTokenIssuer <token issuer name> -ClaimProvider <claim provider object> -IsOpenIDConnect
   ```
 
-Following parameters need to be specified here:
+Specify the following parameters:
 
 | Parameter | Description |
 |------------|-------------|
@@ -370,7 +370,7 @@ There are two ways to synchronize user profiles into the SharePoint UPSA:
 - Use Microsoft Identity Manager (MIM). To utilize MIM, see [Microsoft Identity Manager in SharePoint Servers 2016 and 2019](/sharepoint/administration/microsoft-identity-manager-in-sharepoint-server-2016).
   - There should be two agents inside the MIM Synchronization Service Manager UX after MIM is set up. One agent is used to import user profiles from the source IDP to the MIM database. The other agent is used to export user profiles from the MIM database to the SharePoint UPSA.
 
-During the synchronization, the following three properties need to be provided to the UPSA:
+During the synchronization, the following three properties must be provided to the UPSA:
 
 - `SPS-ClaimID`
 - `SPS-ClaimProviderID`

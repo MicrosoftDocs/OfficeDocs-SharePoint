@@ -41,7 +41,7 @@ This article uses the following example values for Azure AD OIDC setup:
 
 ### Step 1: Setup identity provider
 
-If you choose to use Azure AD as federated identity provider, perform the following steps to set up Azure AD OIDC:
+Perform the following steps to set up OIDC with Azure AD:
 
 1. Select **New Registration**.
 2. Go to the **Register an application** page `https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps`.
