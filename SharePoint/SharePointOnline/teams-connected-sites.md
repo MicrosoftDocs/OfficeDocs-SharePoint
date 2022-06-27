@@ -1,8 +1,8 @@
 ---
 title: Teams and SharePoint integration
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: evanatkin
+author: AtkinE
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -77,7 +77,7 @@ In Teams, the Files tab on each standard channel is connected to a folder in the
 
 ## Example of a team with multiple channel types
 
-Contoso had a team called Mark 8 Project Team. This team has several standard channels, and one private channel called Compete Analysis.
+Contoso has a team called Mark 8 Project Team. This team has several standard channels, and one private channel called Compete Analysis.
 
 ![Image of Microsoft Teams structure.](media/teams-structure.png)
 
