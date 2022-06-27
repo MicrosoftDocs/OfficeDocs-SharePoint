@@ -39,7 +39,7 @@ This article uses the following example values for AD FS OIDC setup:
 | Windows site collection administrator | contoso\yvand |
 | Email value of the federated (AD FS) site collection administrator | yvand@contoso.local |
 
-### Step 1: Setup identity provider
+## Step 1: Setup identity provider
 
 Perform the following steps to set up OIDC with AD FS:
 
@@ -113,7 +113,7 @@ If you're setting OIDC with SharePoint Server, nbf claim must be configured in A
 
 4. Select **Finish**.
 
-### Step 2: Change SharePoint farm properties
+## Step 2: Change SharePoint farm properties
 
 In this step, you'll need to modify the SharePoint farm properties. Start the SharePoint Management Shell and run the following script:
 
@@ -145,7 +145,7 @@ $f.Farm.Properties['SP-NonceCookieHMACSecretKey']='seed'
 $f.Farm.Update()
 ```
 
-### Step 3: Configure SharePoint to trust the identity providers
+## Step 3: Configure SharePoint to trust the identity providers
 
 In this step, you'll create a `SPTrustedTokenIssuer` that will store the configuration that SharePoint needs to trust AD FS as OIDC provider. Start the SharePoint Management Shell and run the following script to create it:
 
@@ -206,7 +206,7 @@ Here, `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet is extended to suppor
 >     New-SPTrustedRootAuthority -Name "adfs.contoso.local signing certificate" -Certificate $rootCert
 >     ```
 
-### Step 4: Configure a SharePoint web application
+## Step 4: Configure a SharePoint web application
 
 In this step, you'll configure a web application in SharePoint to be federated with the AD FS OIDC, using the `SPTrustedIdentityTokenIssuer` that was created in the previous step.
 
@@ -258,7 +258,7 @@ You can do this configuration either by:
 
         :::image type="content" source="../media/alternate-access-mapping-collection-2.png" alt-text="Alternate Access Mapping Collection":::
 
-### Step 5: Ensure the web application is configured with SSL certificate
+## Step 5: Ensure the web application is configured with SSL certificate
 
 Since OpenID Connect 1.0 authentication can only work with HTTPS protocol, a certificate must be set on the corresponding web application. Perform the following steps to set a certificate:
 
@@ -286,7 +286,7 @@ Since OpenID Connect 1.0 authentication can only work with HTTPS protocol, a cer
     Set-SPWebApplication -Identity https://spsites.contoso.local -Zone Default -SecureSocketsLayer -Certificate "Contoso SharePoint (2021)"
     ```
 
-### Step 6: Create the site collection
+## Step 6: Create the site collection
 
 In this step, you create a team site collection with two administrators: One as a Windows administrator and one as a federated (AD FS) administrator.
 
@@ -311,13 +311,13 @@ In this step, you create a team site collection with two administrators: One as 
 
 Once the site collection is created, you will be able to sign-in using either the Windows or the federated site collection administrator account.
 
-### Step 7: Set up People Picker
+## Step 7: Set up People Picker
 
 In OIDC authentication, the People Picker doesn't validate the input, which can lead to misspellings or users accidentally selecting the wrong claim type. This can be addressed using the new UPA-backed claim provider in SharePoint Server.
 
 Perform the following steps to help People Picker validate the input using the new UPA-backed claim provider:
 
-#### 1. Create a new claim provider
+### 1. Create a new claim provider
 
 In the [previous step](#step-3-configure-sharepoint-to-trust-the-identity-providers), you've already created an OIDC `SPTrustedIdentityTokenIssuer` by using `New-SPTrustedIdentityTokenIssuer` PowerShell cmdlet. In this step, you'll use the following PowerShell cmdlet to create a claim provider, which uses the User Profile Application service to search and resolve users and groups in the People Picker and specifies to use the OIDC `SPTrustedIdentityTokenIssuer`:
 
@@ -334,7 +334,7 @@ Specify the following parameters:
 | TrustedTokenIssuer | To be specified as the OIDC `SPTrustedIdentityTokenIssuer` created in the [previous step](#step-3-configure-sharepoint-to-trust-the-identity-providers), which will use this claim provider. This is a new parameter the user needs to provide when the type of the claim provider is `Microsoft.SharePoint.Administration.Claims.SPTrustedBackedByUPAClaimProvider`. |
 | Default | As we've created a claim provider by using this cmdlet, this cmdlet can only work with `SPTrustedIdentityTokenIssuer` and `Default` parameter must be set to false so that it won’t be used by any other authentication method assigned to the web application by default. |
 
-#### 2. Connect `SPTrustedIdentityTokenIssuer` with `SPClaimProvider`
+### 2. Connect `SPTrustedIdentityTokenIssuer` with `SPClaimProvider`
 
 In this step, the OIDC `SPTrustedIdentityTokenIssuer` uses the claim provider created in [step 1](#1-create-a-new-claim-provider) for searching and resolving users and groups:
 
@@ -357,7 +357,7 @@ An example of this command is:
   Set-SPTrustedIdentityTokenIssuer "ADFS Provider" -ClaimProvider $claimprovider -IsOpenIDConnect
   ```
 
-#### 3. Synchronize profiles to user profile service application (UPSA)
+### 3. Synchronize profiles to user profile service application (UPSA)
 
 Now, customers can start to synchronize profiles into the SharePoint UPSA from the identity provider used in the organization so that the newly created claim provider can work on the correct data set.
 
@@ -405,7 +405,7 @@ During the synchronization, the following three properties must be provided to t
 
         :::image type="content" source="../media/configure-attribute-flow-2.png" alt-text="Configure Attribute Flow":::
 
-#### 4. Make groups searchable
+### 4. Make groups searchable
 
 Perform the following steps to enable the People Picker control to work with groups:
 
@@ -426,7 +426,7 @@ Perform the following steps to enable the People Picker control to work with gro
 
 3. For MIM synchronization, `sAMAccountName` should also be mapped to `accountName` from MIM to the SharePoint UPSA. If it doesn’t exist, admin should create mapping pair from `sAMAccountName` to `accountName` in MIM manually.
 
-#### 5. Enable fields being searchable in UPSA
+### 5. Enable fields being searchable in UPSA
 
 To make People Picker work, the final step is to enable fields to be searchable in UPSA.
 
