@@ -184,7 +184,7 @@ For more information, see [Permissions and sharing](./modern-experience-sharing-
 
 5. You can review the list of site mailboxes by opening 'SiteMailboxesList.csv' file on a working directory, when it prompts you to review the file.
 
-6. Remove any site mailbox(es) from the list which you would not like to backup.
+6. Remove any site mailbox(es) from the list which you would not like to back up.
 
 7. Save 'SiteMailboxesList.csv', after reviewing it.
 
