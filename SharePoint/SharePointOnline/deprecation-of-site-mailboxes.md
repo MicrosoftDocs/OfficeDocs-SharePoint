@@ -190,7 +190,7 @@ For more information, see [Permissions and sharing](./modern-experience-sharing-
 
 8. Press 'y' when prompted "Do you like to proceed further? (Y/N)" to continue.
 
-9. Once you get "Mailboxes content search are complete" message on your screen, access the export results created for each mailbox by going to the compliance center in Microsoft 365 Administrator dashboard.
+9. Once you get "Mailboxes content search are complete" message on your screen, access the export results created for each mailbox by going to the Microsoft Purview compliance portal.
 
    >[!NOTE]
    > Use Compliance center dashboard to download PST messages on your screen.
