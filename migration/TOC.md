@@ -80,7 +80,7 @@
 ### Stream Reference
 #### [Bulk upload Stream souce paths into Migration Manager](mm-stream-csv.md)
 ## SPMT Reference
-###  
+###  Settings and prerequisites
 #### [Settings](spmt-settings.md)
 #### [Prerequisites and endpoints](spmt-prerequisites.md)
 ### [File and folder permissions](understanding-permissions-when-migrating.md)
