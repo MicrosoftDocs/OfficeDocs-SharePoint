@@ -21,7 +21,7 @@ description: "Navigate to SharePoint Server articles about resolving alerts from
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 
-Navigate to SharePoint Server 2019, 2016, and 2013 articles for information about resolving alerts from the Systems Center Operations Manager (SCOM) management pack.
+Navigate to SharePoint Server 2019, 2016, 2013, and Subscription Edition articles for information about resolving alerts from the Systems Center Operations Manager (SCOM) management pack.
   
 The articles in this section are knowledge articles for the SharePoint Server 2016 Monitoring Pack for System Center Operations Manager 2016. These articles are also knowledge articles for the SharePoint Server 2013 and SharePoint Foundation 2013 Monitoring Pack for System Center Operations Manager 2012.
   
