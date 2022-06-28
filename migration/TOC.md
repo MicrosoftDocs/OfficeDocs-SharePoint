@@ -99,9 +99,9 @@
 ### SPMT Migration Scenario Guides
 #### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)
 #### [SharePoint Server team sites Migration Guide](sp-teams-sites-migration-guide.md)
-## SharePoint Server Migration Assessment Tool
-### [Overview of the SharePoint Migration Assessment Tool (SMAT)](overview-of-the-sharepoint-migration-assessment-tool.md)
-### [Scan Reports roadmap](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
+## SharePoint Server Migration Assessment Tool (SMAT)
+### [Overview](overview-of-the-sharepoint-migration-assessment-tool.md)
+### [Reports roadmap](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
 ###  Scan reports
 #### [SMAT scan: Apps](migration-assessment-scan-apps.md)
 #### [Alerts](migration-assessment-scan-alerts.md)
@@ -136,7 +136,7 @@
 #### [Site Template Language](migration-assessment-scan-site-template-language.md)
 #### [Custom Permission Level](migration-assessment-scan-custom-permission-level.md)
 #### [External List](migration-assessment-scan-external-list.md)
-### [SharePoint Migration Identity Mapping Tool](sharepoint-migration-identity-mapping-tool.md)
+###  [SharePoint Migration Identity Mapping Tool](sharepoint-migration-identity-mapping-tool.md)
 #### [SharePoint Identity Scan](sharepoint-migration-identity-mapping-tool-sharepoint-identity-scan.md)
 #### [Active Directory Identity Scan](sharepoint-migration-identity-mapping-active-directory-identity-scan.md)
 #### [Azure Active Directory Identity Scan](sharepoint-migration-identity-mapping-tool-azure-active-directory-identity-scan.md)
