@@ -79,6 +79,9 @@
 #### [Bulk upload Dropbox accounts using a CSV file](mm-dropbox-bulk-upload-source-paths-csv.md)
 ### Stream Reference
 #### [Bulk upload Stream souce paths into Migration Manager](mm-stream-csv.md)
+## SharePoint Server Migration Assessment Tool (SMAT)
+### [Overview](overview-of-the-sharepoint-migration-assessment-tool.md)
+### [Detailed reports](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
 ## SPMT Reference
 ###  Settings and prerequisites
 #### [Settings](spmt-settings.md)
@@ -101,9 +104,6 @@
 ### SPMT Migration Scenario Guides
 #### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)
 #### [SharePoint Server team sites Migration Guide](sp-teams-sites-migration-guide.md)
-## SharePoint Server Migration Assessment Tool (SMAT)
-### [Overview](overview-of-the-sharepoint-migration-assessment-tool.md)
-### [Detailed reports](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
 ## Other migrations (Legacy Mover tool)
 ### [Mover.io retirement timeline](mover-retirement-timeline.md)
 ### [Mover managed migration guide](mover-managed-migration-guide.md)
