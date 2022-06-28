@@ -101,7 +101,7 @@
 #### [SharePoint Server team sites Migration Guide](sp-teams-sites-migration-guide.md)
 ## SharePoint Server Migration Assessment Tool (SMAT)
 ### [Overview](overview-of-the-sharepoint-migration-assessment-tool.md)
-### [Scan results by area](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
+### [Detailed reports](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
 ## Other migrations (Legacy Mover tool)
 ### [Mover.io retirement timeline](mover-retirement-timeline.md)
 ### [Mover managed migration guide](mover-managed-migration-guide.md)
