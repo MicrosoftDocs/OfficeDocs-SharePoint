@@ -102,7 +102,7 @@
 ## SharePoint Server Migration Assessment Tool
 ### [Overview of the SharePoint Migration Assessment Tool (SMAT)](overview-of-the-sharepoint-migration-assessment-tool.md)
 ### [Scan Reports roadmap](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
-###  [Scan reports]
+###  Scan reports
 #### [SMAT scan: Apps](migration-assessment-scan-apps.md)
 #### [Alerts](migration-assessment-scan-alerts.md)
 #### [BCS](migration-assessment-scan-bcs.md)
