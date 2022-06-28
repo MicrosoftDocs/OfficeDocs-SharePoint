@@ -83,18 +83,18 @@
 ###  Settings and prerequisites
 #### [Settings](spmt-settings.md)
 #### [Prerequisites and endpoints](spmt-prerequisites.md)
-### [File and folder permissions](understanding-permissions-when-migrating.md)
+#### [File and folder permissions](understanding-permissions-when-migrating.md)
 ### Supported features
 #### [General features](what-is-supported-spmt.md)
 #### [List templates](sharepoint-migration-supported-list-templates.md) 
 #### [Site features](spmt-supported-site-features.md)
 #### [SharePoint web parts](spmt-supported-webparts.md)
-### [Reports](using-the-sharepoint-migration-tool-reports.md)
 ### How to
 #### [Migrate OneNote notebooks](migrate-onenote-spmt.md)
 #### [Bulk upload migration tasks with CSV or JSON file](how-to-format-your-csv-file-for-data-content-migration.md)
 #### [Create user mapping files](create-a-user-mapping-file-for-data-content-migration.md)
-### [How the SharePoint Migration Tool works](how-the-sharepoint-migration-tool-works.md)
+#### [How the SharePoint Migration Tool works](how-the-sharepoint-migration-tool-works.md)
+### [Reports](using-the-sharepoint-migration-tool-reports.md)
 ###  Troubleshooting
 #### [Troubleshooting installation issues](spmt-install-issues.md)
 #### [Troubleshooting common issues and errors](troubleshooting-common-spmt-issues.md)
