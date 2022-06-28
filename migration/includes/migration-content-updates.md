@@ -2,6 +2,16 @@
 
 
 
+## Week of June 20, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/24/2022 | [Setup Migration Manager agents](/SharepointMigration/mm-setup-clients) | modified |
+| 6/24/2022 | [Format your JSON or CSV file for data content migration - SharePoint](/SharepointMigration/how-to-format-your-csv-file-for-data-content-migration) | modified |
+| 6/24/2022 | [Troubleshooting Migration Manager](/SharepointMigration/mm-troubleshoot) | modified |
+
+
 ## Week of June 06, 2022
 
 
@@ -74,12 +84,3 @@
 | 5/24/2022 | [Migration performance guide for SharePoint & OneDrive](/SharepointMigration/sharepoint-online-and-onedrive-migration-speed) | modified |
 | 5/24/2022 | [Connect to Box with Migration Manager](/SharepointMigration/mm-box-step1-connect) | modified |
 | 5/25/2022 | [Migrate your file share content to SharePoint using the Azure Data Box](/SharepointMigration/how-to-migrate-file-share-content-to-spo-using-azuredatabox) | modified |
-
-
-## Week of May 16, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/19/2022 | [Mover retirement timelines](/SharepointMigration/mover-retirement-timeline) | added |
-| 5/20/2022 | [Mover retirement timeline](/SharepointMigration/mover-retirement-timeline) | modified |
