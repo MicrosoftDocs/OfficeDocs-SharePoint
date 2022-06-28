@@ -85,7 +85,7 @@
 #### [Prerequisites and endpoints](spmt-prerequisites.md)
 ### [File and folder permissions](understanding-permissions-when-migrating.md)
 ### Supported features
-#### [Supported features](what-is-supported-spmt.md)
+#### [General features](what-is-supported-spmt.md)
 #### [List templates](sharepoint-migration-supported-list-templates.md) 
 #### [Site features](spmt-supported-site-features.md)
 #### [SharePoint web parts](spmt-supported-webparts.md)
