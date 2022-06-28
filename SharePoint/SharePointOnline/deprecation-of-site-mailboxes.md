@@ -166,7 +166,7 @@ For more information, see [Permissions and sharing](./modern-experience-sharing-
   
 ## Export site mailboxes to PST (using script)
 
-1. Copy [process-site-mailboxes.ps1](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/live/SharePoint/SharePointOnline/spodownloads/process-site-mailboxes.ps1) to a working directory.
+1. Copy [process-site-mailboxes.ps1](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/public/SharePoint/SharePointOnline/spodownloads/process-site-mailboxes.ps1) to a working directory.
 
 2. Start Windows PowerShell in administrator mode.
 
@@ -184,13 +184,13 @@ For more information, see [Permissions and sharing](./modern-experience-sharing-
 
 5. You can review the list of site mailboxes by opening 'SiteMailboxesList.csv' file on a working directory, when it prompts you to review the file.
 
-6. Remove any site mailbox(es) from the list which you would not like to backup.
+6. Remove any site mailbox(es) from the list which you would not like to back up.
 
 7. Save 'SiteMailboxesList.csv', after reviewing it.
 
 8. Press 'y' when prompted "Do you like to proceed further? (Y/N)" to continue.
 
-9. Once you get "Mailboxes content search are complete" message on your screen, access the export results created for each mailbox by going to the compliance center in Microsoft 365 Administrator dashboard.
+9. Once you get "Mailboxes content search are complete" message on your screen, access the export results created for each mailbox by going to the Microsoft Purview compliance portal.
 
    >[!NOTE]
    > Use Compliance center dashboard to download PST messages on your screen.
