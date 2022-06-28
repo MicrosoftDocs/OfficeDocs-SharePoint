@@ -165,7 +165,7 @@ Each server farm in the design sample is composed of six servers with the follow
     
 - Two application servers
     
-- Two database servers with SQL Server installed and configured to support SQL Server clustering, mirroring, or AlwaysOn. AlwaysOn requires SQL Server 2012.
+- Two database servers with SQL Server installed and configured to support SQL Server clustering, mirroring, or Always On. Always On requires SQL Server 2012.
     
 The concept of front-end and application server is different in SharePoint Server 2016, see [Overview of MinRole Server Roles in SharePoint Server](../install/overview-of-minrole-server-roles-in-sharepoint-server.md)
   

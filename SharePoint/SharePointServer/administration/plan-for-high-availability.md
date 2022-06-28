@@ -118,22 +118,22 @@ Fault tolerance is readily available for almost every hardware component in the 
 
 Because the SharePoint platform and its application workloads depend on the availability and reliability of all the SharePoint databases, highly available databases are an extremely important aspect of your high availability strategy. You can use the following features as fault-tolerant solutions for SharePoint database servers and databases:
   
-- SQL Server failover clustering (AlwaysOn Failover Cluster Instances (FCI) in SQL Server 2014 with Service Pack 1 (SP1)) and SQL Server 2012
+- SQL Server failover clustering (Always On Failover Cluster Instances (FCI) in SQL Server 2014 with Service Pack 1 (SP1)) and SQL Server 2012
     
-- AlwaysOn Availability Groups
+- Always On Availability Groups
     
 - SQL Server high-availability database mirroring
     
-**About AlwaysOn Failover Cluster Instances and AlwaysOn Availability Groups**
+**About Always On Failover Cluster Instances and Always On Availability Groups**
   
-A failover cluster requires shared disk storage between two computers. In a two node configuration, the computers are configured as active/passive which provides a fully redundant instance of the primary node. The passive node is only brought online when the primary node fails. The shared disk is only presented to one computer at a time. This configuration typically requires the most additional hardware. In SQL Server 2014 (SP1) and SQL Server 2012, this type of cluster configuration is an AlwaysOn Failover Cluster Instance, and it is a specific way to install SQL Server. Because of the configuration requirements, you cannot take a standard SQL Server installation and easily change it to a Failover Cluster Instance.
+A failover cluster requires shared disk storage between two computers. In a two node configuration, the computers are configured as active/passive which provides a fully redundant instance of the primary node. The passive node is only brought online when the primary node fails. The shared disk is only presented to one computer at a time. This configuration typically requires the most additional hardware. In SQL Server 2014 (SP1) and SQL Server 2012, this type of cluster configuration is an Always On Failover Cluster Instance, and it is a specific way to install SQL Server. Because of the configuration requirements, you cannot take a standard SQL Server installation and easily change it to a Failover Cluster Instance.
   
-An AlwaysOn Availability Group is a different technology in SQL Server 2014 (SP1) and SQL Server 2012 (think of it as a descendant of Database Mirroring) that uses some features exposed by Windows Clustering. However, it does not require shared disk storage, and the computers in an availability group do not have to have a specialized configuration of SQL Server installed on them. After a database server is added to a Windows Cluster, it is fairly easy to enable AlwaysOn Availability Groups and then configure the availability group that you want.
+An Always On Availability Group is a different technology in SQL Server 2014 (SP1) and SQL Server 2012 (think of it as a descendant of Database Mirroring) that uses some features exposed by Windows Clustering. However, it does not require shared disk storage, and the computers in an availability group do not have to have a specialized configuration of SQL Server installed on them. After a database server is added to a Windows Cluster, it is fairly easy to enable Always On Availability Groups and then configure the availability group that you want.
   
-In summary, any server that runs SQL Server 2014 (SP1) and SQL Server 2012 Enterprise Edition can use AlwaysOn Availability Groups by joining a cluster and configuring the availability group. AlwaysOn failover clusters require special hardware and configuration steps to set up Failover Cluster Instances. Each of these technologies has its use for specific environments, and both are complementary competitors. For more information about these features, see [High Availability Solutions (SQL Server)](/sql/sql-server/failover-clusters/high-availability-solutions-sql-server). For help deciding which SQL Server availability technology to use, see [Business continuity and database recovery - SQL Server](/sql/database-engine/sql-server-business-continuity-dr?view=sql-server-ver15).
+In summary, any server that runs SQL Server 2014 (SP1) and SQL Server 2012 Enterprise Edition can use Always On Availability Groups by joining a cluster and configuring the availability group. Always On failover clusters require special hardware and configuration steps to set up Failover Cluster Instances. Each of these technologies has its use for specific environments, and both are complementary competitors. For more information about these features, see [High Availability Solutions (SQL Server)](/sql/sql-server/failover-clusters/high-availability-solutions-sql-server). For help deciding which SQL Server availability technology to use, see [Business continuity and database recovery - SQL Server](/sql/database-engine/sql-server-business-continuity-dr?view=sql-server-ver15).
   
 > [!IMPORTANT]
-> Because each SQL Server high availability option has its own features, strengths, and weaknesses, one option is not necessarily better than another. For example, in a given scenario that uses AlwaysOn Availability Groups, minimizing data lose might be better than any performance gain that AlwaysOn Failover Cluster Instances achieves. You must choose a high-availability solution that is based on your business requirements and IT infrastructure requirements. 
+> Because each SQL Server high availability option has its own features, strengths, and weaknesses, one option is not necessarily better than another. For example, in a given scenario that uses Always On Availability Groups, minimizing data lose might be better than any performance gain that Always On Failover Cluster Instances achieves. You must choose a high-availability solution that is based on your business requirements and IT infrastructure requirements. 
   
 A determining factor in selecting a SQL Server option to use is the SharePoint databases. You must understand the characteristics of the SharePoint Server databases. Each database may have specific requirements or constraints that will determine the SQL Server fault-tolerant solution that is appropriate and fully supported in your production environment. We recommend that you review the following articles:
   
@@ -152,35 +152,35 @@ SharePoint Server references the cluster as a whole. Therefore, failover is auto
 > [!NOTE]
 > When either a planned or unplanned failover happens, connections are dropped and must be established again when transitioning from one cluster node to another cluster node. 
   
-For detailed information about SQL Server failover clustering, see [AlwaysOn Failover Cluster Instances (SQL Server)](/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server?viewFallbackFrom=sql-server-2014).
+For detailed information about SQL Server failover clustering, see [Always On Failover Cluster Instances (SQL Server)](/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server?viewFallbackFrom=sql-server-2014).
   
-#### SQL Server AlwaysOn Availability Groups and SQL Server Database Mirroring
+#### SQL Server Always On Availability Groups and SQL Server Database Mirroring
 
-The key benefit of SQL Server AlwaysOn Availability Groups and SQL Server Database Mirroring is that both provide complete or almost complete data redundancy depending on how you configure them for transaction processing. In addition to minimizing data loss, automatic failover minimizes downtime for production databases.
+The key benefit of SQL Server Always On Availability Groups and SQL Server Database Mirroring is that both provide complete or almost complete data redundancy depending on how you configure them for transaction processing. In addition to minimizing data loss, automatic failover minimizes downtime for production databases.
   
 > [!IMPORTANT]
-> Although SQL Server 2016, SQL Server 2014 (SP1), and SQL Server 2012 support database mirroring, this feature is planned to be deprecated. We recommend that you avoid using this feature in new development work. Plan to change applications that currently use this feature. Use AlwaysOn Availability Groups instead. 
+> Although SQL Server 2016, SQL Server 2014 (SP1), and SQL Server 2012 support database mirroring, this feature is planned to be deprecated. We recommend that you avoid using this feature in new development work. Plan to change applications that currently use this feature. Use Always On Availability Groups instead. 
   
- **AlwaysOn Availability Groups**
+ **Always On Availability Groups**
   
-The SQL Server AlwaysOn Availability Groups feature is both a high-availability and disaster-recovery solution that provides an enterprise-level alternative to database mirroring. AlwaysOn Availability Groups supports a failover environment for one or more user databases contained in a user-defined collection. This collection, an availability group, consists of the following components:
+The SQL Server Always On Availability Groups feature is both a high-availability and disaster-recovery solution that provides an enterprise-level alternative to database mirroring. Always On Availability Groups supports a failover environment for one or more user databases contained in a user-defined collection. This collection, an availability group, consists of the following components:
   
 - Replicas, which are a discrete set of user databases called availability databases that are handled as a single unit. An availability group supports one primary replica and up to four secondary replicas.
     
 - A specific instance of SQL Server to host each replica and to maintain a local copy of each database that belongs to the availability group.
     
-When an availability group fails over to a target instance or target server, all databases in the group also fail over. Because SQL Server 2014 (SP1) and SQL Server 2012 can host multiple availability groups on a single server, you can configure AlwaysOn to fail over to SQL Server instances on different servers. This reduces the need for idle, high-performance standby servers to handle the full load of the primary server, which is one of the many benefits of availability groups.
+When an availability group fails over to a target instance or target server, all databases in the group also fail over. Because SQL Server 2014 (SP1) and SQL Server 2012 can host multiple availability groups on a single server, you can configure Always On to fail over to SQL Server instances on different servers. This reduces the need for idle, high-performance standby servers to handle the full load of the primary server, which is one of the many benefits of availability groups.
   
 > [!NOTE]
 > Database issues, such as a database becoming suspect due to a loss of a data file, deletion of a database, or corruption of a transaction log do not cause a failover. 
   
-For more information about the benefits of AlwaysOn Availability Groups and an overview of AlwaysOn Availability Groups terminology, see [AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server?viewFallbackFrom=sql-server-2014
+For more information about the benefits of Always On Availability Groups and an overview of Always On Availability Groups terminology, see [Always On Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server?viewFallbackFrom=sql-server-2014
 ).
   
  **Database mirroring**
   
 > [!NOTE]
-> Although SQL Server 2016, SQL Server 2014 (SP1), and SQL Server 2012 support database mirroring, this feature is planned to be deprecated. We recommend that you avoid using this feature in new development work. Plan to change applications that currently use this feature. Use AlwaysOn Availability Groups instead. 
+> Although SQL Server 2016, SQL Server 2014 (SP1), and SQL Server 2012 support database mirroring, this feature is planned to be deprecated. We recommend that you avoid using this feature in new development work. Plan to change applications that currently use this feature. Use Always On Availability Groups instead. 
   
 Database mirroring provides database redundancy by keeping a mirrored copy of databases on the primary database server. Mirroring is implemented on a per-database basis and only works with databases that use the full recovery model.
   
@@ -210,16 +210,16 @@ The following table provides a general comparison of the RPO and RTO results tha
 
 |**SQL Server solution**|**Potential data loss (RPO)**|**Potential recovery time (RTO)**|**Automatic failover**|**Readable secondaries  <br/> **Note:** SharePoint Server supports readable secondary replicas for runtime usage. For more information, see [Office 2013 cumulative update for April 2014](https://support.microsoft.com/kb/2953733) and [Run a farm that uses read-only databases in SharePoint Server](run-a-farm-that-uses-read-only-databases.md).**|
 |:-----|:-----|:-----|:-----|:-----|
-|AlwaysOn Availability Group (synchronous-commit)  <br/> |Zero  <br/> |Seconds  <br/> |Yes  <br/> |0 - 2  <br/> |
-|AlwaysOn Availability Group (asynchronous-commit)  <br/> |Seconds  <br/> |Minutes  <br/> |No  <br/> |0 - 4  <br/> |
-|AlwaysOn Failover Cluster Instance  <br/> |Does not apply  <br/> An FCI itself does not provide data protection. The amount of data loss depends on the storage system implementation.  <br/> |Seconds to minutes  <br/> |Yes  <br/> |Does not apply  <br/> |
+|Always On Availability Group (synchronous-commit)  <br/> |Zero  <br/> |Seconds  <br/> |Yes  <br/> |0 - 2  <br/> |
+|Always On Availability Group (asynchronous-commit)  <br/> |Seconds  <br/> |Minutes  <br/> |No  <br/> |0 - 4  <br/> |
+|Always On Failover Cluster Instance  <br/> |Does not apply  <br/> An FCI itself does not provide data protection. The amount of data loss depends on the storage system implementation.  <br/> |Seconds to minutes  <br/> |Yes  <br/> |Does not apply  <br/> |
 |Database mirroring - High-safety (synchronous mode + witness server)  <br/> |Zero  <br/> |Seconds  <br/> |Yes  <br/> |Does not apply  <br/> |
 |Database mirroring - High-performance (asynchronous mode)  <br/> |Seconds  <br/> |Minutes  <br/> |No  <br/> |Does not apply  <br/> |
 |Backup, copy, restore  <br/> |Hours or zero if the tail of the log can be accessed after the failure.  <br/> |Hours to days  <br/> |No  <br/> |Not during a restore  <br/> |
    
-**Comparison of SQL Server Cluster, AlwaysOn Availability Group and Database mirror**
+**Comparison of SQL Server Cluster, Always On Availability Group and Database mirror**
 
-|**Process**|**SQL Server failover cluster**|**SQL Server 2014 (SP1) and SQL Server 2012 AlwaysOn Availability Group**|**SQL Server high-availability mirror**|
+|**Process**|**SQL Server failover cluster**|**SQL Server 2014 (SP1) and SQL Server 2012 Always On Availability Group**|**SQL Server high-availability mirror**|
 |:-----|:-----|:-----|:-----|
 |Time to fail over  <br/> |Cluster member takes over almost immediately after failure. A lag occurs while the cluster node spins up.  <br/> |Replica takes over almost immediately after failure. A lag occurs while the secondary replica spins up.  <br/> |Mirror takes over as soon as the redo queue is processed.  <br/> |
 |Transactional consistency  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
@@ -230,8 +230,8 @@ The following table provides a general comparison of the RPO and RTO results tha
 |Storage types supported  <br/> |Requires shared storage which is more expensive than dedicated storage.  <br/> |Can use less expensive directly attached storage solutions.  <br/> |Can use less expensive directly attached storage.  <br/> |
 |Location requirements  <br/> |Members of the cluster must be on the same subnet.  <br/> **Note:** This is not the case with SQL Server 2014 (SP1) and SQL Server 2012.  <br/> |Replicas can be on different subnets as long as latency does not cause performance issues.  <br/> |Principal, mirror, and witness servers must be on the same LAN (up to 1 millisecond latency round-trip).  <br/> |
 |Recovery model  <br/> |SQL Server full recovery model recommended. You can use the SQL Server simple recovery model. However, the only available recovery point if the cluster is lost will be the last full backup.  <br/> |Requires SQL Server 2014 (SP1) and SQL Server 2012 full recovery model.  <br/> |Requires SQL Server full recovery model.  <br/> |
-|Performance overhead  <br/> |Some decrease in performance may occur while a failover is occurring. The server will be unavailable during failover and connections are dropped and then established again on the new active node.  <br/> |AlwaysOn Availability Groups introduce transactional latency because of synchronous commit on the secondary replicas. The amount of latency depends on the number of secondary replicas that have to be synchronized.  <br/> Memory and processor overhead is greater than clustering, but less than mirroring.  <br/> |High-availability mirroring introduces transactional latency because it is synchronous. It also requires additional memory and processor overhead.  <br/> |
-|Operations overhead  <br/> |Set up and maintained at the server level.  <br/> |The operational overhead is greater than clustering and mirroring. AlwaysOn requires overhead at the level of the SQL Server database server in addition to the Windows Server level.  <br/> **Note:** Server-level objects such as logons and agent jobs must be maintained manually.  <br/> If you add content databases, you have to add them to an availability group and then synchronize the primary replica to the secondary replicas.  <br/> A SharePoint farm environment requires multiple configuration steps to make sure that the SharePoint Server connection string is correctly associated with the availability group listener name.  <br/> | The operations overhead is more than clustering. Must be set up and maintained for all databases. Reconfiguring after failover is manual.  <br/> **Note:** Server-level objects such as logons and agent jobs must be maintained manually.  <br/> If you add content databases, you have to add them to the principal and then synchronize the principal to the mirror.  <br/> |
+|Performance overhead  <br/> |Some decrease in performance may occur while a failover is occurring. The server will be unavailable during failover and connections are dropped and then established again on the new active node.  <br/> |Always On Availability Groups introduce transactional latency because of synchronous commit on the secondary replicas. The amount of latency depends on the number of secondary replicas that have to be synchronized.  <br/> Memory and processor overhead is greater than clustering, but less than mirroring.  <br/> |High-availability mirroring introduces transactional latency because it is synchronous. It also requires additional memory and processor overhead.  <br/> |
+|Operations overhead  <br/> |Set up and maintained at the server level.  <br/> |The operational overhead is greater than clustering and mirroring. Always On requires overhead at the level of the SQL Server database server in addition to the Windows Server level.  <br/> **Note:** Server-level objects such as logons and agent jobs must be maintained manually.  <br/> If you add content databases, you have to add them to an availability group and then synchronize the primary replica to the secondary replicas.  <br/> A SharePoint farm environment requires multiple configuration steps to make sure that the SharePoint Server connection string is correctly associated with the availability group listener name.  <br/> | The operations overhead is more than clustering. Must be set up and maintained for all databases. Reconfiguring after failover is manual.  <br/> **Note:** Server-level objects such as logons and agent jobs must be maintained manually.  <br/> If you add content databases, you have to add them to the principal and then synchronize the principal to the mirror.  <br/> |
    
 ## Configure two data centers as a single farm ("stretched" farm) to provide high availability
 <a name="CfgStretchedFarm"> </a>
