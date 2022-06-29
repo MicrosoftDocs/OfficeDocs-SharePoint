@@ -100,7 +100,7 @@
 #### [Troubleshooting common issues and errors](troubleshooting-common-spmt-issues.md)
 ## SharePoint Server Migration Assessment Tool (SMAT)
 ### [Overview](overview-of-the-sharepoint-migration-assessment-tool.md)
-### [Detailed reports ](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
+### [Scan reports](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
 #### [Alerts](migration-assessment-scan-alerts.md)
 #### [Apps](migration-assessment-scan-apps.md)
 #### [BCS](migration-assessment-scan-bcs.md)
