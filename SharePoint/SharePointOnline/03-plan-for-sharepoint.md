@@ -61,7 +61,7 @@ FastTrack guidance provides enablement of both SharePoint and OneDrive as well a
 ## Sync
 
 
-[Recommended sync app configuration](/onedrive/ideal-state-configuration)
+[Recommended sync app configuration](ideal-state-configuration.md)
 
 Even though users can upload, download, and interact with SharePoint and OneDrive files from a web browser, the ideal OneDrive experience comes with the OneDrive sync app for Windows and Mac, and the iOS and Android mobile apps. 
 
@@ -109,67 +109,11 @@ Specific policies
 
 ### How do you want to manage sync on Windows computers?
 
+You can manage OneDrive sync app settings on Windows computers using Windows Group Policy or by using administrative templates in Intune.
+
+
 
 ### Which update ring do you want to use?
-
-
-- (GPOSetUpdateRing) [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring)
-
-
-### Do you want to limit network utilization for sync?
-
-- (AutomaticUploadBandwidthPercentage) [Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput)
-
-[AutomaticUploadBandwidthPercentage](deploy-and-configure-on-macos.md#automaticuploadbandwidthpercentage)
-
-
-- (EnableAutomaticUploadBandwidthManagement) [Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#enable-automatic-upload-bandwidth-management-for-onedrive)
-
-
-
-
-### Do you want to sync common folders with OneDrive?
-
-|Policy|Windows GPO|Mac|
-|:-----|:----------|:--|
-|Prevent users from moving their Windows known folders to OneDrive|[KFMBlockOptIn](use-group-policy.md#prevent-users-from-moving-their-windows-known-folders-to-onedrive)|[KFMBlockOptIn](deploy-and-configure-on-macos.md#kfmblockoptin)|
-|Prevent users from redirecting their Windows known folders to their PC|[KFMBlockOptOut](use-group-policy.md#prevent-users-from-redirecting-their-windows-known-folders-to-their-pc)|[KFMBlockOptOut](deploy-and-configure-on-macos.md#kfmblockoptout)|
-|Prompt users to move Windows known folders to OneDrive|[KFMOptInWithWizard](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive)|[KFMOptInWithWizard](deploy-and-configure-on-macos.md#kfmoptinwithwizard)|
-|Silently move Windows known folders to OneDrive|[KFMSilentOptIn](use-group-policy.md#silently-move-windows-known-folders-to-onedrive)|[KFMSilentOptIn](deploy-and-configure-on-macos.md#kfmsilentoptin)|
-
-
-### Do you want to limit which domains users can sync with?
-
-|Policy|Windows GPO|Mac|
-|:-----|:----------|:--|
-|Allow syncing OneDrive accounts for only specific organizations|[AllowTenantList](use-group-policy.md#allow-syncing-onedrive-accounts-for-only-specific-organizations)|[AllowTenantList](deploy-and-configure-on-macos.md#allowtenantlist)|
-|Block syncing OneDrive accounts for specific organizations|[BlockTenantList](use-group-policy.md#block-syncing-onedrive-accounts-for-specific-organizations)|[BlockTenantList](deploy-and-configure-on-macos.md#blocktenantlist)|
-|Prevent users from syncing libraries and folders shared from other organizations|[BlockExternalSync](use-group-policy.md#prevent-users-from-syncing-libraries-and-folders-shared-from-other-organizations)|[BlockExternalSync](deploy-and-configure-on-macos.md#blockexternalsync)|
-
-### Do you want to allow users to sync their personal OneDrive?
-
-|Policy|Windows GPO|Mac|
-|:-----|:----------|:--|
-|Prevent users from syncing personal OneDrive accounts|[DisablePersonalSync](use-group-policy.md#prevent-users-from-syncing-personal-onedrive-accounts)|[DisablePersonalSync](deploy-and-configure-on-macos.md#disablepersonalsync)|
-
-### Do you want to block certain file types from being synced?
-
-|Policy|Windows GPO|Mac|
-|:-----|:----------|:--|
-|Exclude specific kinds of files from being uploaded|[EnableODIgnoreListFromGPO](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded)|[EnableODIgnore](deploy-and-configure-on-macos.md#enableodignore)|
-
-### Does you need to sync files in a hybrid environment with SharePoint Server?
-
-This setting is for customers who have SharePoint Server 2019.
-
-For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
-
-[SharePointOnPremFrontDoorUrl](/onedrive/deploy-and-configure-on-macos.md#sharepointonpremfrontdoorurl)
-
-
-[SharePointOnPremPrioritizationPolicy](/onedrive/deploy-and-configure-on-macos.md#sharepointonpremprioritizationpolicy)
-
-### Sync app update process
 
 You can select how soon your users receive updates we release for the sync app.
 
@@ -179,15 +123,78 @@ You can select how soon your users receive updates we release for the sync app.
 
 - **Deferred ring** – In this ring, you have more control over the deployment of updates, but users have to wait longer to receive fixes and new features.
 
-You configure this setting using the OneDrive policy [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
+Configure the following policy to set the sync app update ring.
 
-[Tier](deploy-and-configure-on-macos.md#tier)
+|Policy|Windows GPO|Mac|
+|:-----|:----------|:--|
+|Set the sync app update ring|[GPOSetUpdateRing](use-group-policy.md#set-the-sync-app-update-ring)|[Tier](deploy-and-configure-on-macos.md#tier)|
 
 For details about the update process for the OneDrive sync app, see [The OneDrive sync app update process](sync-client-update-process.md).
 
-Key decision:
+### Do you want to limit network utilization for sync?
 
-- Which ring do you want to use for updates to the OneDrive sync app?
+Depending on your network capacity, you may want to consider limiting how much network bandwidth the sync app can use. This can be useful during a migration phase when large amounts of content are being synced.
+
+Use the following policies to limit the network bandwidth used by the sync app.
+
+|Policy|Windows GPO|Mac|
+|:-----|:----------|:--|
+|Limit the sync app upload rate to a percentage of throughput|[AutomaticUploadBandwidthPercentage](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput)|[AutomaticUploadBandwidthPercentage](deploy-and-configure-on-macos.md#automaticuploadbandwidthpercentage)|
+|Enable automatic upload bandwidth management for OneDrive|[EnableAutomaticUploadBandwidthManagement](use-group-policy.md#enable-automatic-upload-bandwidth-management-for-onedrive)|N/A|
+
+
+### Do you want to sync commonly used folders with OneDrive?
+
+Users often save files to their documents folder or desktop. They may not realize that they should save these files in OneDrive. You can automatically sync these commonly used folders to OneDrive, prompt users to do so, or prevent them from doing so.
+
+Use the following policies to configure how users commonly used folders are synced with OneDrive.
+
+|Policy|Windows GPO|Mac|
+|:-----|:----------|:--|
+|Silently move commonly used folders to OneDrive|[KFMSilentOptIn](use-group-policy.md#silently-move-windows-known-folders-to-onedrive)|[KFMSilentOptIn](deploy-and-configure-on-macos.md#kfmsilentoptin)|
+|Prompt users to move their commonly used folders to OneDrive|[KFMOptInWithWizard](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive)|[KFMOptInWithWizard](deploy-and-configure-on-macos.md#kfmoptinwithwizard)|
+|Prevent users from stopping sync of their commonly used folders to OneDrive|[KFMBlockOptOut](use-group-policy.md#prevent-users-from-redirecting-their-windows-known-folders-to-their-pc)|[KFMBlockOptOut](deploy-and-configure-on-macos.md#kfmblockoptout)|
+|Prevent users from moving their commonly used folders to OneDrive|[KFMBlockOptIn](use-group-policy.md#prevent-users-from-moving-their-windows-known-folders-to-onedrive)|[KFMBlockOptIn](deploy-and-configure-on-macos.md#kfmblockoptin)|
+
+For more information about syncing commonly used folder with OneDrive, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md) and [Redirect and move macOS Desktop and Documents folders to OneDrive](redirect-known-folders-macos.md).
+
+### Do you want to limit which organizations users can sync with?
+
+By default, users can sync shared libraries from other organizations. You can limit this to specific organizations or disable it all together.
+
+Use the following policies to configure which organizations users can sync with.
+
+|Policy|Windows GPO|Mac|
+|:-----|:----------|:--|
+|Allow syncing OneDrive accounts for only specific organizations|[AllowTenantList](use-group-policy.md#allow-syncing-onedrive-accounts-for-only-specific-organizations)|[AllowTenantList](deploy-and-configure-on-macos.md#allowtenantlist)|
+|Block syncing OneDrive accounts for specific organizations|[BlockTenantList](use-group-policy.md#block-syncing-onedrive-accounts-for-specific-organizations)|[BlockTenantList](deploy-and-configure-on-macos.md#blocktenantlist)|
+|Prevent users from syncing libraries and folders shared from other organizations|[BlockExternalSync](use-group-policy.md#prevent-users-from-syncing-libraries-and-folders-shared-from-other-organizations)|[BlockExternalSync](deploy-and-configure-on-macos.md#blockexternalsync)|
+
+For more information about syncing with other organizations, see [B2B Sync](b2b-sync.md).
+
+### Do you want to allow users to sync their personal OneDrive?
+
+Depending on your governance practices, you can prevent users from syncing their personal OneDrive accounts to devices managed by your organization.
+
+Use the following policies to specify if users can sync personal OneDrive accounts.
+
+|Policy|Windows GPO|Mac|
+|:-----|:----------|:--|
+|Prevent users from syncing personal OneDrive accounts|[DisablePersonalSync](use-group-policy.md#prevent-users-from-syncing-personal-onedrive-accounts)|[DisablePersonalSync](deploy-and-configure-on-macos.md#disablepersonalsync)|
+
+### Do you want to block certain file types from being uploaded?
+
+You can specify if you don't want users to be able to upload certain types of files using the sync app. Use the following policy to configure this.
+
+|Policy|Windows GPO|Mac|
+|:-----|:----------|:--|
+|Exclude specific kinds of files from being uploaded|[EnableODIgnoreListFromGPO](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded)|[EnableODIgnore](deploy-and-configure-on-macos.md#enableodignore)|
+
+For more information about preventing syncing of certain file types, see [Block syncing of specific file types](block-file-types.md).
+
+### Does you need to sync files in a hybrid environment with SharePoint Server?
+
+If your organization uses SharePoint Server 2019 or SharePoint Server Subscription Edition, you can sync files using the OneDrive sync app. For information, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
 
 ## Deployment options
 
@@ -200,15 +207,7 @@ The OneDrive sync app is included as part of Windows 10, Windows 11, and Office 
 To deploy the OneDrive sync app to Windows using Microsoft Endpoint Configuration Manager, see [Deploy OneDrive apps by using Microsoft Endpoint Configuration Manager](deploy-on-windows.md).
 
 
-- **Sync** - On the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings page in the SharePoint admin center</a>, select **Sync** to configure sync restrictions based on file types, require that synced devices be domain joined, or restrict synchronization from computers running macOS. Depending on your device management tool, the PC device restrictions in this section may overlap other management settings.
 
-## Manage OneDrive by using Group Policy
-
-You can use Group Policy to manage OneDrive settings for domain-joined computers in your environment. For info, see [Use OneDrive policies to control OneDrive sync app settings](use-group-policy.md). Using Group Policy, you can [redirect and move Windows known folders to OneDrive](redirect-known-folders.md), and [enable silent account configuration](use-silent-account-configuration.md).
-
-## Known Folder Move
-
-Known Folder Move makes it easier to move files in your users' Desktop, Documents, and Pictures folders to OneDrive. This lets users continue working in the folders they're familiar with and access their files from any device. It also helps you make sure your users' files are backed up in the cloud if anything happens to their device. For more info, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md).
 
 ## Change management
 
