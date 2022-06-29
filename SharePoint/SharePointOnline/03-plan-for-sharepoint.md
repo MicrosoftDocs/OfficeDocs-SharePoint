@@ -60,26 +60,13 @@ FastTrack guidance provides enablement of both SharePoint and OneDrive as well a
 
 ## Sync
 
-Even though users can upload, download, and interact with SharePoint and OneDrive files from a web browser, the ideal OneDrive experience comes with the OneDrive sync app for Windows and Mac, and the iOS and Android mobile apps. 
+Even though users can upload, download, and interact with SharePoint and OneDrive files from a web browser, the ideal experience comes with the OneDrive sync app for Windows and Mac, and the iOS and Android mobile apps.
 
-
-[Recommended sync app configuration](ideal-state-configuration.md)
-
-
-For a full list of OneDrive sync app requirements, see [OneDrive sync app system requirements](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e).
-
-
-- To manage the sync app deployment centrally, prevent users from installing the sync app when they go to their OneDrive in a web browser: [Prevent installation](prevent-installation.md)
-
-
-deployment options
-
-
-
-
+The OneDrive sync app has a variety of configuration options for compliance, performance, user experience, and disk space management. While these can be configured at any time, it's important to consider some of them as part of your rollout plan.
 
 **Key decisions for sync:**
 
+- [How do you want to deploy the sync app?](how-do-you-want-to-deploy-the-sync-app)
 - [Do you want to allow users to sync files?](#do-you-want-to-allow-users-to-sync-files)
 - [How do you want to manage sync on Windows computers?](#how-do-you-want-to-manage-sync-on-windows-computers)
 - [Which update ring do you want to use?](#which-update-ring-do-you-want-to-use)
@@ -89,6 +76,20 @@ deployment options
 - [Do you want to allow users to sync their personal OneDrive?](do-you-want-to-allow-users-to-sync-their-personal-onedrive)
 - [Do you want to block certain file types from being synced?](do-you-want-to-block-certain-file-types-from-being-synced)
 - [Does you need to sync files in a hybrid environment with SharePoint Server?](does-you-need-to-sync-files-in-a-hybrid-environment-with-sharepoint-server)
+
+For information about the recommended configuration options for the sync app, see [Recommended sync app configuration](ideal-state-configuration.md).
+
+### How do you want to deploy the sync app?
+
+You have several different options for deploying the OneDrive sync app: manually, using scripting, using Windows Autopilot (for the sync app on Windows), using an MDM such as Intune, or using Microsoft Endpoint Configuration Manager.
+
+The OneDrive sync app is included as part of Windows 10, Windows 11, and Office 2016 or higher. You do not need to deploy the sync app to devices running these, though you may need to update the sync app to the latest version.
+
+To deploy the OneDrive sync app to Windows using Microsoft Endpoint Configuration Manager, see [Deploy OneDrive apps by using Microsoft Endpoint Configuration Manager](deploy-on-windows.md).
+
+If you need to install the sync app on a single computer, see [Install the sync app per machine](per-machine-installation.md).
+
+For a full list of OneDrive sync app requirements, see [OneDrive sync app system requirements](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e).
 
 ### How do you want to manage sync on Windows computers?
 
@@ -185,18 +186,7 @@ For more information about preventing syncing of certain file types, see [Block 
 
 If your organization uses SharePoint Server 2019 or SharePoint Server Subscription Edition, you can sync files using the OneDrive sync app. For information, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
 
-## Deployment options
-
-You have several different options for deploying the OneDrive sync app: manually, using scripting, using Windows Autopilot (for the sync app on Windows), using an MDM such as Intune, or using Microsoft Endpoint Configuration Manager.
-
-The OneDrive sync app is included as part of Windows 10, Windows 11, and Office 2016 or higher. You do not need to deploy the sync app to devices running these, though you may need to update the sync app to the latest version.
-
-### Deploy OneDrive using Microsoft Endpoint Configuration Manager
-
-To deploy the OneDrive sync app to Windows using Microsoft Endpoint Configuration Manager, see [Deploy OneDrive apps by using Microsoft Endpoint Configuration Manager](deploy-on-windows.md).
-
-
-
+If you are using the previous OneDrive sync app (Groove.exe), see [Transition from the previous OneDrive for Business sync app](transition-from-previous-sync-client.md) for information on how to move to the new OneDrive sync app.
 
 ## Change management
 
