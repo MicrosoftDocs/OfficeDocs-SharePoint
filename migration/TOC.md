@@ -79,13 +79,6 @@
 #### [Bulk upload Dropbox accounts using a CSV file](mm-dropbox-bulk-upload-source-paths-csv.md)
 ### Stream Reference
 #### [Bulk upload Stream souce paths into Migration Manager](mm-stream-csv.md)
-## SharePoint Server Migration Assessment Tool (SMAT)
-### [Overview](overview-of-the-sharepoint-migration-assessment-tool.md)
-### [Detailed reports](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
-### [SharePoint Migration Identity Mapping Tool](sharepoint-migration-identity-mapping-tool.md)
-#### [Active Directory Identity Scan](sharepoint-migration-identity-mapping-active-directory-identity-scan.md)
-#### [Azure Active Directory Identity Scan](sharepoint-migration-identity-mapping-tool-azure-active-directory-identity-scan.md)
-#### [SharePoint Identity Scan](sharepoint-migration-identity-mapping-tool-sharepoint-identity-scan.md)
 ## SPMT Reference
 ###  Settings and prerequisites
 #### [Settings](spmt-settings.md)
@@ -105,6 +98,13 @@
 ###  Troubleshooting
 #### [Troubleshooting installation issues](spmt-install-issues.md)
 #### [Troubleshooting common issues and errors](troubleshooting-common-spmt-issues.md)
+## SharePoint Server Migration Assessment Tool (SMAT)
+### [Overview](overview-of-the-sharepoint-migration-assessment-tool.md)
+### [Detailed reports](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
+### [SharePoint Migration Identity Mapping Tool](sharepoint-migration-identity-mapping-tool.md)
+#### [Active Directory Identity Scan](sharepoint-migration-identity-mapping-active-directory-identity-scan.md)
+#### [Azure Active Directory Identity Scan](sharepoint-migration-identity-mapping-tool-azure-active-directory-identity-scan.md)
+#### [SharePoint Identity Scan](sharepoint-migration-identity-mapping-tool-sharepoint-identity-scan.md)
 ### SPMT Migration Scenario Guides
 #### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)
 #### [SharePoint Server team sites Migration Guide](sp-teams-sites-migration-guide.md)
