@@ -60,33 +60,21 @@ FastTrack guidance provides enablement of both SharePoint and OneDrive as well a
 
 ## Sync
 
+Even though users can upload, download, and interact with SharePoint and OneDrive files from a web browser, the ideal OneDrive experience comes with the OneDrive sync app for Windows and Mac, and the iOS and Android mobile apps. 
+
 
 [Recommended sync app configuration](ideal-state-configuration.md)
 
-Even though users can upload, download, and interact with SharePoint and OneDrive files from a web browser, the ideal OneDrive experience comes with the OneDrive sync app for Windows and Mac, and the iOS and Android mobile apps. 
 
 For a full list of OneDrive sync app requirements, see [OneDrive sync app system requirements](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e).
 
 
 - To manage the sync app deployment centrally, prevent users from installing the sync app when they go to their OneDrive in a web browser: [Prevent installation](prevent-installation.md)
 
-- To make sure that users sync OneDrive files only on managed computers, configure OneDrive to sync only on PCs that are joined to specific domains: [Allow syncing only on specific domains](allow-syncing-only-on-specific-domains.md)
 
-- To prevent users from uploading specific file types, such as exe or mp3 files: [Block file types](block-file-types.md)
-
-
-
-
-Sync decisions:
-
-allow sync at all?
-update ring
 deployment options
-throttle sync during migration
 
-kfm
-GPO vs. Intune
-Specific policies
+
 
 
 
@@ -102,16 +90,17 @@ Specific policies
 - [Do you want to block certain file types from being synced?](do-you-want-to-block-certain-file-types-from-being-synced)
 - [Does you need to sync files in a hybrid environment with SharePoint Server?](does-you-need-to-sync-files-in-a-hybrid-environment-with-sharepoint-server)
 
-
-
-### Do you want to allow users to sync files?
-
-
 ### How do you want to manage sync on Windows computers?
 
-You can manage OneDrive sync app settings on Windows computers using Windows Group Policy or by using administrative templates in Intune.
+You can manage OneDrive sync app settings on Windows computers using Windows Group Policy or by using administrative templates in Intune. Using group policy requires that Windows computers be joined to an Active Directory domain. Using Intune requires that the device be managed by Microsoft Endpoint Manager.
 
+For information, see:
 
+- [Use OneDrive policies to control sync settings](use-group-policy.md)
+
+- [Use administrative templates in Intune](configure-sync-intune.md)
+
+Mac settings are configured using .plist files. For information, see [Deploy and configure the OneDrive sync app for Mac](deploy-and-configure-on-macos.md).
 
 ### Which update ring do you want to use?
 
