@@ -41,7 +41,7 @@ Cutover from old system to new system
 
 
 
-### Migrating with FastTrack
+## Migrating with FastTrack
 
 FastTrack is a Microsoft benefit that is included in your subscription. FastTrack provides you with a set of best practices, tools, resources, and experts committed to helping you deploy Microsoft 365. Guidance around SharePoint and OneDrive onboarding, migration, and adoption are included in the benefit offering. This guidance includes: help to discover what's possible, creating a plan for success, and onboarding new users, providing guidance on migrating content from file share, Box, or Google Drive source environments, and introducing capabilities at a flexible pace. 
 
@@ -50,13 +50,40 @@ FastTrack guidance provides enablement of both SharePoint and OneDrive as well a
 
 ## Site lifecycle
 
+[Manage site creation in SharePoint](manage-site-creation.md)
+
+As a global or SharePoint admin in Microsoft 365, you can let your users create and administer their own SharePoint sites, determine what kind of sites they can create, and specify the location of the sites. By default, users can create communication sites and Microsoft 365 group-connected team sites.
+
+ Note
+
+Disabling site creation for users does not remove their ability to create Microsoft 365 groups or resources, such as Microsoft Teams, which rely on a group. When a Microsoft 365 group is created, a SharePoint site is also created. To restrict creation of Microsoft 365 groups and the resources that rely on groups see Manage who can create Microsoft 365 Groups.
+
 [Microsoft 365 group expiration policy](/microsoft-365/solutions/microsoft-365-groups-expiration-policy)
 
+A Microsoft 365 groups expiration policy can help remove inactive groups from the system and make things cleaner.
 
+When a group expires, all of its associated services (the mailbox, Planner, SharePoint site, team, etc.) are also deleted.
+
+[Create guidelines for site usage](sites-usage-guidelines.md)
+
+Provide general policy statements that you want your users to follow. These may include key business uses you have defined for sites, internal communication policies, or security and privacy guidelines.
 
 ## Hubs and architecture
 
+[Planning your SharePoint hub sites](planning-hub-sites.md)
+
+
 ## Pre-provision accounts
+
+[Pre-provision OneDrive for users in your organization](pre-provision-accounts)
+
+By default, the first time that a user browses to their OneDrive it's automatically created (provisioned) for them. In some cases, such as the following, you might want your users' OneDrive locations to be ready beforehand, or pre-provisioned:
+
+Your organization has a custom process for adding new employees, and you want to create a OneDrive when you add a new employee.
+
+Your organization plans to migrate from SharePoint Server on-premises to Microsoft 365.
+
+Your organization plans to migrate from another online storage service.
 
 ## Sync
 
@@ -194,5 +221,9 @@ If you are using the previous OneDrive sync app (Groove.exe), see [Transition fr
 ## Support
 
 User training important - how to use the service in a compliant manner and avoid security issues.
+
+[OneDrive help & learning](https://support.microsoft.com/onedrive)
+
+[SharePoint help & learning](https://support.microsoft.com/sharepoint)
 
 Provide training for users and support, cheat sheets, office hours.
