@@ -24,7 +24,9 @@ description: "Learn about how SharePoint Server Subscription Edition supports In
 SharePoint Server Subscription Edition supports several commonly used web browsers, such as ![Microsoft Edge icon](../media/microsoft-edge-icon.png) Microsoft Edge, ![Google Chrome browser logo](../media/chrome-small.jpg) Google Chrome, ![Mozilla Firefox browser logo](../media/firefox_small.png) Mozilla Firefox, ![Apple Safari browser logo](../media/safari-small.png) Apple Safari, and ![Internet Explorer browser logo](../media/internetexplorersmall.png) Internet Explorer. However, certain web browsers can cause SharePoint Server Subscription Edition functionality to be downgraded, limited, or available only through alternative steps. 
 
 > [!NOTE]
-> Internet Explorer 11 is supported only in the SharePoint Central Administration site. Internet Explorer 11 is not supported in Team sites, OneDrive personal sites, or any other types of SharePoint content sites. Microsoft recommends exploring Microsoft Edge as the replacement for Internet Explorer 11.
+> Internet Explorer 11 and Edge IE compatibility mode are supported only in the SharePoint Central Administration site. 
+> 
+> Internet Explorer 11 and Edge IE compatibility mode are not supported in Team sites, OneDrive personal sites, or any other types of SharePoint content sites. Microsoft recommends exploring Microsoft Edge as the replacement for Internet Explorer 11.
 
 As you plan your deployment of SharePoint Server Subscription Edition, we recommend that you review the browsers used in your organization to guarantee optimal performance with SharePoint Server Subscription Edition.
     

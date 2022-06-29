@@ -1,8 +1,8 @@
 ---
 title: "Use the sync app on virtual desktops"
 ms.reviewer: sraja
-ms.author: adjoseph
-author: adeejoseph
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -12,6 +12,7 @@ ms.service: one-drive
 ms.localizationpriority: medium
 ms.custom: 
 - Adm_O365
+- onedrive-toc
 search.appverid:
 - MET150
 - BCS160
