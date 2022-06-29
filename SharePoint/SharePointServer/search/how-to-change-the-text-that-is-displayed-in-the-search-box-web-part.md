@@ -23,7 +23,7 @@ This article will be short and sweet, so let's get right to it.
   
 ## How to change the text that is displayed in the Search Box Web Part
 
-The following screen shot shows the default text that is displayed in the Search Box Web Part.
+The following screenshot shows the default text that is displayed in the Search Box Web Part.
   
 ![Default Text in Search Box](../media/OTCSP_DefaultText.png)
   
@@ -33,7 +33,7 @@ Here are the steps to change this text:
     
 2. Replace the value for the  *prompt* variable with the text you want to display. Enclose the text in quotation marks. 
     
-    The following screen shot shows how we changed this in our Search Center scenario.
+    The following screenshot shows how we changed this in our Search Center scenario.
     
      ![Replace the Prompt Text](../media/OTCSP_NewText.png)
   
