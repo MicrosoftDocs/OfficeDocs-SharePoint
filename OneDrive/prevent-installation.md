@@ -1,8 +1,8 @@
 ---
 title: "Prevent users from installing the OneDrive sync app"
-ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.reviewer: cagreen
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.date: 06/21/2018
 audience: Admin
