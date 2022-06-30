@@ -98,6 +98,7 @@ Give end users a head start by helping them use and engage using popular M365 co
 |  | **Yammer live events**                 | [Attend a live event in Yammer](https://support.microsoft.com/office/attend-a-live-event-in-new-yammer-41f1afe3-2a8e-4998-a25b-843d96791b10)                 | 
 |![Image of the Outlook logo.](media/logo-outlook.png) | **Outlook**                 | [Set up email on a mobile device](https://support.microsoft.com/office/set-up-office-apps-and-email-on-a-mobile-device-7dabb6cb-0046-40b6-81fe-767e0b1f014f) <br> [Use @mention's to get someone's attention](https://support.microsoft.com/office/use-mentions-to-get-someone-s-attention-90701709-5dc1-41c7-aa48-b01d4a46e8c7)                  | 
 |![Image of the Microsoft Stream logo.](media/logo-stream.png)    |**Stream**              |  [Introduction to Microsoft Stream](https://support.microsoft.com/office/what-is-microsoft-stream-025ee4bc-e519-45ca-a157-05bc5bad616c) <br> [Follow channels in Stream](https://support.microsoft.com/office/follow-channels-efe86a71-dbbe-47c9-8517-56470eabd5c5)         | 
+|![Image of the Microsoft Viva logo.](media/logo-viva.png)    |**Viva**              |  [Introduction to Microsoft Viva](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0) <br> [Get started with Viva Connections](https://support.microsoft.com/office/viva-connections-on-your-desktop-3da30f39-684a-4bde-bb81-2e1407d59b52)         | 
 
 
 
