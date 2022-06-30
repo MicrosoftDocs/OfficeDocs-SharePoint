@@ -33,7 +33,7 @@
 #### [OpenID Connect 1.0 authentication](../security-for-sharepoint-server/oidc-1-0-authentication.md)
 #### [Migration of Windows claims authentication to SAML based claims authentication in SharePoint Server](../security-for-sharepoint-server/migration-of-windows-claims-authentication-to-saml-based-claims-authentication-in-sharepoint-server.md)
 ### [Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol support in SharePoint Server](../security-for-sharepoint-server/secure-sockets-layer-ssl-and-transport-layer-security-tls-protocol-support-in-sh.md)
-#### [Introducing SSL Certificate Management Operations](../administration/introducing-ssl-certificate-management.md)
+#### [SSL Certificate Management Operations](../administration/ssl-certificate-management.md)
 #### [Enable TLS and SSL support in SharePoint 2013](../security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013.md)
 #### [Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2016](../security-for-sharepoint-server/enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016.md)
 #### [Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2019](../security-for-sharepoint-server/enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2019.md)
