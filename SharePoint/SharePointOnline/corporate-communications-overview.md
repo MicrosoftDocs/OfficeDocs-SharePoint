@@ -112,7 +112,7 @@ Give end users a head start by helping them use and engage using popular M365 co
 | Files and content management in OneDrive     | Access files from any device, at any time. Engage with intelligent video and create visually striking content in minutes.                | M365 E5 <br> M365 E3     |
 | Live events in Yammer                |Product and host a live event for people inside your organization. Keep the conversation going with live and moderated Q&A.               | M365 E5 <br> M365 E3         |
 | Live events in Microsoft Teams             | Host and record public or private live events. Decide how you want event attendees to participate.       | M365 E5 <br> M365 E3         |
-| Viva Connections          | Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed.        | M365 E5 <br> M365 E3     |
+| Microsoft Viva        | Bring together organizational news, tools, knowledge, learning, and insights with a full employee experience suite.   | [Learn more](https://www.microsoft.com/microsoft-viva/pricing)     |
 
 <br>
 
