@@ -20,13 +20,14 @@ description: "Learn more about popular Microsoft 365 communication tools"
 Learn more about how Microsoft 365 tools and applications can help you create the right communication channels for the right audiences. Review communication tools and learn more about engagement options, maintenance requirements, analytics, and other details to help you decide which tool is best for your scenario and desired outcome. 
 <br>
 
-| Teams            | SharePoint    | Yammer       |Outlook        |Stream         |
-| :---------------: | :---------------: |:---------------:|:---------------:|:---------------:|
-| ![Image of the Microsoft Teams logo](media/logo-teams.png)  | ![Image of the SharePoint logo](media/logo-sharepoint.png)  | ![Image of the Yammer logo](media/logo-yammer.png)   |![Image of the Outlook logo](media/logo-outlook.png)  |![Image of the Microsoft Stream logo](media/logo-stream.png)  |
-| Channels, teams, and live events | Intelligent intranet and knowledge management | Social networking and live events |Mail, calendar, tasks, and contacts |Intelligent video services  |
-| Communicate and collaborate across the organizations in teams and channels | Create durable content on sites and pages targeted to specific audiences | Use Yammer communities to create a dialogue with certain groups  |Send mail and newsletters to specific audiences  |Create groups and channels to target content to specific audiences   |
-| Add intranet resources, pages, and lists as tabs in teams channels  | Use news posts to distribute news across Microsoft 365 apps |Post messages, interact, and search for conversations and key words |Get reply receipts and usage analytics to track correspondence  |Use video to create engaging communication experiences  |
-| Review usage and engagement analytics to measure reach| Integrate web parts like Stream and Yammer to create a cohesive experience  | Collect feedback and answer questions during live events |Access engagement analytics to learn about user behavior  |Integrate video into SharePoint using the Stream web part|
+| Logo                  | App name           | Description          |
+| :------------------: | :------------------: |:----------------|
+| ![Image of the Microsoft Teams logo](media/logo-teams.png)  | Teams | Channels, teams, and live events <br> Communicate and collaborate across the organizations in teams and channels <br> Add intranet resources, pages, and lists as tabs in teams channels <br> Review usage and engagement analytics to measure reach |
+| ![Image of the SharePoint logo](media/logo-sharepoint.png)  | SharePoint                 | Intelligent intranet and knowledge management  <br> Create durable content on sites and pages targeted to specific audiences <br>  Use news posts to distribute news across Microsoft 365 apps  <br>  Integrate web parts like Stream and Yammer to create a cohesive experience  |
+| ![Image of the Yammer logo](media/logo-yammer.png) | Yammer                  | Social networking and live events  <br> Use Yammer communities to create a dialogue with certain groups <br> Post messages, interact, and search for conversations and key words   <br> Collect feedback and answer questions during live events     |
+|![Image of the Outlook logo](media/logo-outlook.png) | Outlook             | Mail, calendar, tasks, and contacts  <br> Send mail and newsletters to specific audiences  <br> Get reply receipts and usage analytics to track correspondence  <br> Access engagement analytics to learn about user behavior |
+|![Image of the Microsoft Viva logo](media/logo-stream.png) | Stream         | Intelligent video services  <br> Create groups and channels to target content to specific audiences  <br> Use video to create engaging communication experiences  <br> Integrate video into SharePoint using the Stream web part  |
+|![Image of the Microsoft Viva logo](media/logo-viva.png) | Viva         | Suite of apps that focus on employee experiences <br> Apps display in Teams and integrate across M365 apps <br> Experiences can be combines and targeted towards distinct roles and regions  |
 
 <br>
 
