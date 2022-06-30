@@ -25,7 +25,9 @@ The following articles provide detailed information about issues that arose duri
 
 > [!NOTE]
 > Detailed reports can be found in the "ScannerReports" subfolder in the output root folder. 
+## Detailed reports
 
+Select any of the reports below to learn how to interpret your scan results, how to prepare for migration, and tasks to take post-migration.
 
 |**Detailed reports**||
 |:-----|:-----|

@@ -637,8 +637,8 @@ This setting lets you specify SharePoint team site libraries to sync automatical
 This feature is not enabled for on-premises SharePoint sites.
 
 > [!IMPORTANT]
-> Do not enable this setting for libraries with more than 5,000 files or folders.
-> Do not enable this setting for the same library to more than 1,000 devices.
+> For performance reasons, we recommend not enabling this setting to libraries with more than 5,000 files or folders.
+> Do not enable this setting to the same library with more than 1,000 devices.
 
 If you enable this setting, the OneDrive sync app automatically syncs the contents of the libraries you specified as online-only files the next time the user signs in. The user isn't able to stop syncing the libraries.  
 
