@@ -94,7 +94,6 @@ The OneDrive sync app has a variety of configuration options for compliance, per
 **Key decisions for sync:**
 
 - [How do you want to deploy the sync app?](how-do-you-want-to-deploy-the-sync-app)
-- [Do you want to allow users to sync files?](#do-you-want-to-allow-users-to-sync-files)
 - [How do you want to manage sync on Windows computers?](#how-do-you-want-to-manage-sync-on-windows-computers)
 - [Which update ring do you want to use?](#which-update-ring-do-you-want-to-use)
 - [Do you want to limit network utilization for sync?](#do-you-want-to-limit-network-utilization-for-sync)
