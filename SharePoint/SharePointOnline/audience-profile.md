@@ -73,7 +73,7 @@ Understanding the size of your audience will help you narrow down what Microsoft
 | :------------------- | :-------------------  |:------------------- | :------------------- |
 | Specific teams, roles, regions, departments, and projects  | 300 to 20,000  | Send an email <br> Publish SharePoint news <br> Post in a Teams channel <br> Schedule a Teams meeting <br> Post in a Yammer community <br> Host a Teams live event <br> Host a Yammer live event| 
 | Entire departments or regions    |5,000 to 20,000              | *All of the above, in addition to:* <br><br> Stream channel or live event in Stream |
-| **All employees**            | Up to 25,000                  | *All of the above*  |
+| **All employees**            | Up to 25,000                  | *All of the above, in addition to:* <br><br> Use Viva Connections to bring news, events, and tools into one place |
 |   | 25,000 to 100,000  | Microsoft 365 live events* <br> Publish SharePoint news <br> Send an email <br> *Live events with up to 100,000 attendees can be planned through the [Microsoft 365 live events assistance program](https://resources.techcommunity.microsoft.com/live-events/assistance/) |
 
 
