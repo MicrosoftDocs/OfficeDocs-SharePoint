@@ -160,3 +160,15 @@ Use Microsoft Information Governance capabilities in Microsoft 365 to govern you
 
 The OneDrive sync app has policies that you can use to help you maintain a compliant environment. Consider configuring these policies before you roll out SharePoint and OneDrive.
 
+|Policy|Windows GPO|Mac|
+|:-----|:----------|:--|
+|Allow syncing OneDrive accounts for only specific organizations|[AllowTenantList](use-group-policy.md#allow-syncing-onedrive-accounts-for-only-specific-organizations)|[AllowTenantList](deploy-and-configure-on-macos.md#allowtenantlist)|
+|Block syncing OneDrive accounts for specific organizations|[BlockTenantList](use-group-policy.md#block-syncing-onedrive-accounts-for-specific-organizations)|[BlockTenantList](deploy-and-configure-on-macos.md#blocktenantlist)|
+|Prevent users from syncing libraries and folders shared from other organizations|[BlockExternalSync](use-group-policy.md#prevent-users-from-syncing-libraries-and-folders-shared-from-other-organizations)|[BlockExternalSync](deploy-and-configure-on-macos.md#blockexternalsync)|
+|Prevent users from syncing personal OneDrive accounts|[DisablePersonalSync](use-group-policy.md#prevent-users-from-syncing-personal-onedrive-accounts)|[DisablePersonalSync](deploy-and-configure-on-macos.md#disablepersonalsync)|
+|Exclude specific kinds of files from being uploaded|[EnableODIgnoreListFromGPO](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded)|[EnableODIgnore](deploy-and-configure-on-macos.md#enableodignore)|
+
+## Related topics
+
+[B2B Sync](b2b-sync.md)
+
