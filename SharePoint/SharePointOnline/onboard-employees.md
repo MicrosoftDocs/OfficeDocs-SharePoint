@@ -33,9 +33,9 @@ When entering a new organization, knowing where resources are located, who to go
 
 - Planning and implementing an end-to-end experience based on your organization’s tools, resources, and initiatives 
 - Hosting a virtual welcome event to share resources and introduce onboarding buddies 
-- Using a pre-populated SharePoint site template to provide a home base for new team members 
+- Using a SharePoint site template to provide a home base for new team members 
 - Creating a personalized onboarding checklist using the Onboarding checklist list template 
-- Curating a training experience for new team members using Viva Learning and LinkedIn Learning
+- Curating a training experience for new team members using Viva Learning 
 <br>
 
 ## Overview of how to create an onboarding experience
@@ -66,7 +66,7 @@ When entering a new organization, knowing where resources are located, who to go
 ### Step 1: Start by determining your audience profile and size 
 New employees will have diverse backgrounds, roles, and career experience. Some new employees will be able to attend an event in person while other can only attend remotely. Some tools and resources will need to be accessible from a mobile device. The same resources will need to be available regardless of the new employee orientation method. 
 
-The size of your onboarding group will determine the platforms and resources you use. Learn more about defining your audience profile and scoping audience size. 
+The size of your onboarding group will determine the platforms and resources you use. [Learn more about defining your audience profile and scoping audience size](audience-profile.md). 
 <br>
 <br>
 
@@ -77,7 +77,7 @@ The size of your onboarding group will determine the platforms and resources you
 
 #### Define the desired outcome and priority content
 
-When each employee completes onboarding, what would the indication of completion be? In many organizations, onboarding happens for more than one part of the business, consider offering an onboarding structure that allows the new employee to become familiar with the organization and the team they will be working with. Consider setting up modules that guide employees through onboarding and lets them know about their progress.  
+Spend time defining what success looks like when orientation is complete. In many organizations, onboarding happens for more than one part of the business, consider offering an onboarding structure that allows the new employee to become familiar with the organization and the team they will be working with. Consider setting up modules that guide employees through onboarding and lets them know about their progress.  
 
 #### Consider the tone and messaging for your onboarding process
 
@@ -165,7 +165,6 @@ Learn more about [Teams live events](/microsoftteams/teams-live-events/what-are-
 
 ![SharePoint Spaces screenshot](media/oe-spaces.png) 
 <br>
-<br>
 
 SharePoint Spaces is a tool that provides immersive online experiences using 2D and 3D web parts. Guide new employees through a virtual 360-degree tour of the campus. Incorporate helpful links and web parts that provide important information and helps the employee complete onboarding tasks.  
 
@@ -174,7 +173,6 @@ SharePoint Spaces is a tool that provides immersive online experiences using 2D 
 Learn more about [SharePoint Spaces](https://support.microsoft.com/office/sharepoint-spaces-7b65edfb-7cc9-42e3-af37-178d79364a5e).  
 
 ### Help the new employee prioritize deliverables with Microsoft Lists
-<br>
 
 ![Microsoft lists screenshot](media/oe-4.png)
 <br>
