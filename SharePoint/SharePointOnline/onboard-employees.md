@@ -40,10 +40,13 @@ When entering a new organization, knowing where resources are located, who to go
 
 ## Overview of how to create an onboarding experience
 
-| Plan                 | Build              | Launch        |
-| :--------------: | :---------------: |:-------------:|
-| ![Planning icon](media/th-lb2.png)  | ![Building icon](media/oe-10.png) | ![Launching icon](media/oe-11.png)|
-|- Scope your audience <br>  - Map out the employee onboarding experience <br>  - Review Microsoft 365 onboarding tools <br> - Consider creating a new employee support community in Yammer | - Consider using a live event to welcome and orient new team members <br> -  Include partners like hiring managers, business owners, and human resources in the planning process <br> - Have a plan to maintain NEO content over time <br> - Create an onboarding site using the New employee onboarding template  <br> - Customize an Onboarding checklist template in Microsoft 365 Lists <br> - Prepare a survey to ask for feedback at the end of onboarding   | - Send out invites, instructions, and resources using Outlook Mail and Calender.  <br> - Gather insights from each platform used to measure overall performance of the employee onboarding process  <br> - Use feedback to inform the next onboarding session. |
+|Icon                  | Phase                | Tasks          |
+| :-------------------: | :-------------------: |:----------------|
+| ![Planning icon](media/th-lb2.png)  | **Plan** | - Scope your audience <br>  - Map out the employee onboarding experience <br>  - Review Microsoft 365 onboarding tools <br> - Consider creating a new employee support community in Yammer |
+| ![Building icon](media/oe-10.png)  | **Build**  | - Consider using a live event to welcome and orient new team members <br> -  Include partners like hiring managers, business owners, and human resources in the planning process <br> - Have a plan to maintain NEO content over time <br> - Create an onboarding site using the New employee onboarding template  <br> - Customize an Onboarding checklist template in Microsoft 365 Lists <br> - Prepare a survey to ask for feedback at the end of onboarding |
+| ![Launching icon](media/oe-11.png)| **Launch**  | - Send out invites, instructions, and resources using Outlook Mail and Calender.  <br> - Gather insights from each platform used to measure overall performance of the employee onboarding process  <br> - Use feedback to inform the next onboarding session. |
+
+
 
 
 ## Plan the onboarding experience
