@@ -25,13 +25,9 @@ description: "Learn how to onboard new employees into your organization using Mi
 # Onboard new employees into your organization
 <br>
 
-Make new employee onboarding (NEO) a great experience by fostering an all-in-one hybrid work environment where new employees can find important resources, meet people in their organization, and prepare to be successful in their new role.  
+Make new employee onboarding (sometimes referred to as NEO) a great experience by fostering an all-in-one hybrid work environment where new employees can find important resources, meet people in their organization, and prepare to be successful in their new role.  
 
 When entering a new organization, knowing where resources are located, who to go to for help, and how to find training materials in an organized and personalized environment will help new employees navigate your organization efficiently. This article will guide you on how to create a welcoming onboarding environment for new employees using Microsoft’s modern work tools.  
-
-<br>
-<br>
-
 
 **Create a virtual onboarding experience by:** 
 
@@ -42,28 +38,19 @@ When entering a new organization, knowing where resources are located, who to go
 - Curating a training experience for new team members using Viva Learning and LinkedIn Learning
 <br>
 
-
-<br>
-<br>
-
 ## Overview of how to create an onboarding experience
-<br>
-<br>
-
 
 | Plan                 | Build              | Launch        |
-| :-------------- | :--------------- |:-------------|
+| :--------------: | :---------------: |:-------------:|
 | ![Planning icon](media/th-lb2.png)  | ![Building icon](media/oe-10.png) | ![Launching icon](media/oe-11.png)|
 |- Scope your audience <br>  - Map out the employee onboarding experience <br>  - Review Microsoft 365 onboarding tools <br> - Consider creating a new employee support community in Yammer | - Consider using a live event to welcome and orient new team members <br> -  Include partners like hiring managers, business owners, and human resources in the planning process <br> - Have a plan to maintain NEO content over time <br> - Create an onboarding site using the New employee onboarding template  <br> - Customize an Onboarding checklist template in Microsoft 365 Lists <br> - Prepare a survey to ask for feedback at the end of onboarding   | - Send out invites, instructions, and resources using Outlook Mail and Calender.  <br> - Gather insights from each platform used to measure overall performance of the employee onboarding process  <br> - Use feedback to inform the next onboarding session. |
 
 
 ## Plan the onboarding experience
-<br>
-<br>
 
-| Step 1: Scope your audience and goals                 |Step 2: Map the onboarding experience               | Step 3: Review Microsoft 365 tools         |
+| ![Scope your audience icon](media/oe-12.png) | ![Map your onboarding experience icon](media/oe-13.png)  | ![Review M365 tools icon](media/oe-14.png) |
 | :-------------: | :--------------: |:------------:|
-| ![Scope your audience icon](media/oe-12.png)  | ![Map your onboarding experience icon](media/oe-13.png) | ![Review M365 tools icon](media/oe-14.png)|
+| **Step 1: Scope your audience and goals** |**Step 2: Map the onboarding experience**| **Step 3: Review Microsoft 365 tools**|
 |-Determine the needs and the size of your audience.  <br>  -Define deliverables and desired outcomes of the onboarding experience  <br>  -Establish tone and messaging  | -Establish and onboarding timeline  <br> -Define which onboarding tasks need to be completed <br> - Prioritize onboarding tasks  <br> -Curate learning materials   <br> -Ask for feedback frequently    | - choose onboarding tools that will best suit your needs.   |
 
 **Planning considerations:** 
