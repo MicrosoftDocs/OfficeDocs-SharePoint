@@ -30,8 +30,6 @@ Microsoft 365 can help your organization's leadership teams connect with employe
 - Using analytics to gain insights on engagement and understand the impact of activities
 - Bringing elements of the experience together using Viva Connections
 
-> [!NOTE]
-> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](viva-connections-overview.md) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.
 
 |Stage|Tasks|
 |---|---|
