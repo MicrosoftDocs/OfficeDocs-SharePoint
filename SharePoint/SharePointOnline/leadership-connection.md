@@ -134,7 +134,7 @@ Before the event starts, you will have access to a dashboard that will help you 
 
 ## Step 4: Expand your reach and engagement using Viva Connections
 
-After you have set up your leadership site and Yammer community, Viva Connections will make it easier for your organization to access conversations and news in the Microsoft Teams desktop and mobile apps.
+Bring the SharePoint leadership site, news, and conversations from the Yammer community into one central place in Microsoft Teams using [Viva Connections](/viva/connections/viva-connections-overview). Viva Connections creates an opportunity to push specific content and display popular resources by combining the power of your SharePoint intranet with Microsoft Teams and other Microsoft 365 apps like Yammer and Stream. Viva Connections offers added functionality through three primary components - the Dashboard, the Feed, and Resources. 
 
 ![Image of the Viva Connections Dashboard.](media/viva-leader-mobile-2.png)
 
