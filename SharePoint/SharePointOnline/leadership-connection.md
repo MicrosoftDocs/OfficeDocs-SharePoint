@@ -33,9 +33,9 @@ Microsoft 365 can help your organization's leadership teams connect with employe
 
 |Stage|Tasks|
 |---|---|
-|**Plan**|- Define audience profile and scope audience size <br> - Align with stakeholders <br> - Develop a support team that will make sure content is relevant, plan future events, and publish news <br> - Consider multi-geo and multi-lingual options <br> - Find corporate sponsorship and champions <br> - Determine success metrics|
+|**Plan**|- Define audience profile and scope audience size <br> - Align with stakeholders <br> - Develop a support team that ensures content is relevant, plan future events, and publish news <br> - Consider multi-geo and multi-lingual options <br> - Find corporate sponsorship and champions <br> - Determine success metrics|
 |**Build**|- Create a SharePoint leadership site <br> - Start a new community in Yammer <br> - Set up news that can be shared in SharePoint, Teams, and Outlook <br> - Use M365 groups to provide access to large audiences <br> - Use audience targeting to make sure your audience can find the right content <br> - Get user feedback before launching your communications <br> - Plan a kickoff event and identify promotional channels|
-|**Launch**|- Make sure the leadership SharePoint site, Yammer community, and event invites have been shared with the right audiences <br> - Send email invites to the kickoff event <br> - Use Microsoft Teams and Yammer to post messages about the kickoff event <br> - Equip champions and corporate sponsors with promotional materials <br> - Produce and host a live event with Q&A <br> - Create feedback channels <br> - Post the event recording on the leadership connection site|
+|**Launch**|- Share the leadership SharePoint site, Yammer community, and event invites with their intended audiences <br> - Send email invites to the kickoff event <br> - Use Microsoft Teams and Yammer to post messages about the kickoff event <br> - Equip champions and corporate sponsors with promotional materials <br> - Produce and host a live event with Q&A <br> - Create feedback channels <br> - Post the event recording on the leadership connection site|
 |**Maintain**|- Ensure content stays relevant <br> - Audit M365 group membership, access, and settings periodically <br> - Develop a news publishing cycle <br> - Schedule regular events and share them in advance|
 
 ## Plan your leadership connection strategy
@@ -135,6 +135,10 @@ Before the event starts, you will have access to a dashboard that will help you 
 ## Step 4: Expand your reach and engagement using Viva Connections
 
 Bring the SharePoint leadership site, news, and conversations from the Yammer community into one central place in Microsoft Teams using [Viva Connections](/viva/connections/viva-connections-overview). Viva Connections creates an opportunity to push specific content and display popular resources by combining the power of your SharePoint intranet with Microsoft Teams and other Microsoft 365 apps like Yammer and Stream. Viva Connections offers added functionality through three primary components - the Dashboard, the Feed, and Resources. 
+
+- **Dashboard:** [The Viva Connections Dashboard](/viva/connections/viva-connections-overview#viva-connections-dashboard) is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field.
+- **Feed:** [The Feed](/viva/connections/viva-connections-overview#viva-connections-feed) delivers updates to the right people at the right time and is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to.
+- **Resources:** [The Resources](/viva/connections/viva-connections-overview#viva-connections-resources) experience enables way finding across platforms. It uses navigation elements from the SharePoint app bar, which can be [audience targeted](/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293).
 
 ![Image of the Viva Connections Dashboard.](media/viva-leader-mobile-2.png)
 
