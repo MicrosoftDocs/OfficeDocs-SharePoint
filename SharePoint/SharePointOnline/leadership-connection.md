@@ -140,8 +140,6 @@ After you have set up your leadership site and Yammer community, Viva Connection
 
 ![Image of the Viva Connections Dashboard.](media/viva-leader-mobile.png)
 
-> [!NOTE]
-> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](viva-connections-overview.md) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.
 
 **Use Viva Connections to:**
 
