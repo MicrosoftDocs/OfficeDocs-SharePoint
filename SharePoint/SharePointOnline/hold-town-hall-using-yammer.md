@@ -105,7 +105,7 @@ Yammer enables people to connect with each other across an entire organization. 
 
 Promote the town hall before the event date where your target audience usually gets announcements and updates. Then [manage engagement during the during the town hall](#host-a-town-hall-in-yammer) and [after the town hall.](#post-event-engagement)
 
-**Promote in Yammer**
+#### Promote in Yammer
 
 ![Image of the Yammer homepage for a community](media/th4.png)
 
@@ -113,13 +113,13 @@ Drive pre-event awareness in Yammer. When holding a town hall in Yammer, audienc
 
 In the Yammer Home Feed, attendees can set up notifications that let them know when the event is live. An Event banner appears when the event is live, allowing them to attend the town hall immediately from anywhere.
 
-**Promote in SharePoint**
+#### Promote in SharePoint
 
 ![Image of event planning page in SharePoint](media/th13.png)
 
 Inform and prepare your audience for your event by creating a [SharePoint communications site](https://support.microsoft.com/office/plan-your-sharepoint-communication-site-35d9adfe-d5cc-462f-a63a-bae7f2529182)  using the [Events template](https://support.microsoft.com/office/use-the-sharepoint-event-planning-site-template-9464fe53-c85c-4e3b-94d9-0e70a45b08c6). Include instructions for attending and any other necessary top-of-mind items.
 
-**Promote in Outlook**
+#### Promote in Outlook
 
 Invite all attendees to the event with a calendar invite via email in Outlook. Provide detailed information such as a link to the SharePoint event site, the Yammer meeting link, and the Yammer event page.
 
@@ -127,13 +127,13 @@ Include objectives or talking points in the invite as well. This will help atten
 
 Yammer live events are also integrated with Outlook so that event organizers can add other event stakeholders.
 
-**Promote in Viva Connections**
+#### Promote in Viva Connections
 
-![Image of the Viva Connections homepage](media/th7.png)![Image of the Yammer homepage](media/th14.png)
+![Image of the Viva Connections homepage](media/viva-townhall-desktop.png)
 
 Viva Connections is a digital platform built on the existing capabilities of Microsoft 365. It allows organizations to customize employee experiences and gain access to the most important information, tools, and resources on both desktop and mobile devices.
 
-The Viva Connections home page features a feed and dashboard you can use to promote your event. Learn more about [Viva Connections](https://www.microsoft.com/microsoft-viva/connections).  By publishing news posts in SharePoint to promote your event, users will learn about it wherever the Viva Connections Feed is available in your organization.
+The Viva Connections home page features a feed and dashboard you can use to promote your event. Learn more about [Viva Connections](/microsoft-viva/connections).  By publishing news posts in SharePoint to promote your event, users will learn about it wherever the Viva Connections Feed is available in your organization.
 
 ## Produce and host a town hall
 
@@ -195,12 +195,12 @@ View insights to see how many people attended, average watch time, and more. Rec
 
 Yammer's insights that allow creators of town halls to identify trends such as conversations, questions, top contributors, topics, hashtags, location, and department.
 
-These insights provide information that allows you to measure community growth by tracking member creation, active members, member location, department and more. You can also see how community members engage by seeing how many comments, reactions, questions, answers, live events and more.
-
-Learn more about [viewing community insights in Yammer](https://support.microsoft.com/office/view-community-insights-in-yammer-48bc648e-b567-49d7-b2b5-5fea23777c46#:~:text=How%20to%20see%20community%20insights%20in%20Yammer.%20In,highlights%20two%20metrics%3A%20Active%20People%20and%20Posted%20Messages.).
+These insights provide information that allows you to measure community growth by tracking member creation, active members, member location, department and more. You can also see how community members engage by seeing how many comments, reactions, questions, answers, live events and more. Learn more about [viewing community insights in Yammer](https://support.microsoft.com/office/view-community-insights-in-yammer-48bc648e-b567-49d7-b2b5-5fea23777c46#:~:text=How%20to%20see%20community%20insights%20in%20Yammer.%20In,highlights%20two%20metrics%3A%20Active%20People%20and%20Posted%20Messages.).
 
 ## More Resources
 
 [Use PowerShell to set up live events and policies](/microsoftteams/teams-live-events/set-teams-live-events-policies-using-powershell).
 
 [Produce and organize a live event in Yammer](https://support.microsoft.com/office/organize-a-live-event-in-new-yammer-7338782a-4f0b-4fd0-a6c3-33625906ead1).
+
+[Corporate communications overview](corporate-communications-overview.md)
