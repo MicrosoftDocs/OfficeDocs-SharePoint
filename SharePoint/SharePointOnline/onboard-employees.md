@@ -191,7 +191,7 @@ Help orient new employees by providing them with the most important company info
  | Target specific training for new employees. | New team members can learn about popular terms, acronyms, projects, and more. | Help new team members spend time productively. | Provide easy access to benefits, training materials, and resources. |
 
 
-#### Help employees learn the job with Viva Learning
+#### Created a personalized training experience using with Viva Learning
 
 ![Viva Learning home page screenshot that displays different training courses.](media/viva-learning-neo.png)
 <br>
