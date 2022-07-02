@@ -40,7 +40,7 @@ Get started preparing and implementing a town hall that is on demand, secure, ac
 - Using live event analytics to understand event reach and engagement
 - Connecting employees and teams through hybrid work
 
-![Infographic of the town hall production and engagement cycle](media/th1.png)
+![Infographic of the town hall production and engagement cycle](media/plan-town-hall-step.png)
 
 |Phase                  | Icon                 | Tasks          |
 | :-------------------: | :-------------------: |:----------------|
