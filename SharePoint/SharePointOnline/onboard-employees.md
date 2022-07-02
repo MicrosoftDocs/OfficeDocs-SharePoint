@@ -88,7 +88,7 @@ Make new employees feel welcome and excited to be joining your organization. Use
 ### Step 2: Map the ideal employee onboarding experience 
 From inception to orientation to day one on the job, the new employee journey has a huge impact on the success of that employee. Ensure the new employee is provided the best tools to start out with by mapping out the new employee onboarding experience.
 
-![Map the employee onboarding experience step diagram.](media/plan-neo-experience.png)   
+![Map the employee onboarding experience step diagram.](media/plan-neo-experience-2.png)   
 
 #### Define which onboarding tasks need to be completed 
 
