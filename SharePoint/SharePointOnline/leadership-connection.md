@@ -20,7 +20,7 @@ description: "Use Microsoft 365 to connect leaders and teams"
 
 Microsoft 365 can help your organization's leadership teams connect with employees to build community around a common purpose and goal. Learn how to create a culture and internal place to help engage and connect leadership teams with the rest of your organization.
 
-![Image of the leadership connection solution.](media/leadership-step-3.png)
+
 
 **Help unite your organization by:**
 
@@ -42,10 +42,12 @@ Microsoft 365 can help your organization's leadership teams connect with employe
 
 Start by making sure you understand your audience's needs and preferences. Review [how to profile and scope your audience](audience-profile.md). This scenario will have the most successful outcome when multiple communication methods are combined. Start with a SharePoint communication site and a Yammer channel that connects the organization with leadership. Then, plan and host a live event that is recorded and shared with others. Finally, bring all these communication elements together into an engaging mobile experience using Viva Connections.
 
-- **SharePoint communication site** - Create a SharePoint communication site that houses all things leadership – everything from news and announcements to events, people profiles and networking opportunities. [Use the Leadership connection site template.](https://support.microsoft.com/office/use-the-sharepoint-leadership-connection-site-template-a2996d9f-c08e-4de6-8696-a7de323c8add)
-- **Yammer community** - [Use Yammer](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) to instantly connect, ask questions, and share ideas with the leadership team. Then, [use the Yammer web part](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) to embed the conversation on the leadership connection SharePoint site.
-- **Yammer live events** - Use the [Yammer community for live events](/stream/live-event-m365#live-events-and-microsoft-365) and questions and answers.
-- **Viva Connections** - Bring the SharePoint site and Yammer conversation into one place where users can catch up and connect with leaders in the Microsoft Teams mobile app. [Learn more about Viva Connections](guide-to-setting-up-viva-connections.md).
+![Image of the leadership connection solution.](media/leadership-step-3.png)
+
+- **1. SharePoint communication site** - Create a SharePoint communication site that houses all things leadership – everything from news and announcements to events, people profiles and networking opportunities. [Use the Leadership connection site template.](https://support.microsoft.com/office/use-the-sharepoint-leadership-connection-site-template-a2996d9f-c08e-4de6-8696-a7de323c8add)
+- **2. Yammer community** - [Use Yammer](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) to instantly connect, ask questions, and share ideas with the leadership team. Then, [use the Yammer web part](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) to embed the conversation on the leadership connection SharePoint site.
+- **3. Yammer live events** - Use the [Yammer community for live events](/stream/live-event-m365#live-events-and-microsoft-365) and questions and answers.
+- **4. Viva Connections** - Bring the SharePoint site and Yammer conversation into one place where users can catch up and connect with leaders in the Microsoft Teams mobile app. [Learn more about Viva Connections](guide-to-setting-up-viva-connections.md).
 
 ### Planning considerations
 
