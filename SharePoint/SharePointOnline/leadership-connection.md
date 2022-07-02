@@ -20,7 +20,7 @@ description: "Use Microsoft 365 to connect leaders and teams"
 
 Microsoft 365 can help your organization's leadership teams connect with employees to build community around a common purpose and goal. Learn how to create a culture and internal place to help engage and connect leadership teams with the rest of your organization.
 
-![Image of the leadership connection solution.](media/lc-concept-2.png)
+![Image of the leadership connection solution.](media/leadership-connection-step.png)
 
 **Help unite your organization by:**
 
@@ -137,6 +137,8 @@ Before the event starts, you will have access to a dashboard that will help you 
 ## Step 4: Expand your reach and engagement using Viva Connections
 
 After you have set up your leadership site and Yammer community, Viva Connections will make it easier for your organization to access conversations and news in the Microsoft Teams desktop and mobile apps.
+
+![Image of the Viva Connections Dashboard.](media/viva-leader-mobile.png)
 
 > [!NOTE]
 > Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](viva-connections-overview.md) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.
