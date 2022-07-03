@@ -57,13 +57,13 @@ News is distributed across SharePoint, Microsoft Teams, and [Viva Connections](/
 1. [Use Viva Connections to spread news in Teams](#use-viva-connections-for-teams-desktop-to-display-news-in-teams): If you’re using Viva Connections for Teams Desktop, news that you add to your home site will be available in Teams.
 1. [Spread news on the Viva Connections mobile app](#display-news-in-the-viva-connections-teams-mobile-app): Add one or more cards to your dashboard that opens a news story. Additionally, if you have the Feed enabled for your app, news will automatically display there, based on relevance to each user.
 
-## Decide your audience
+## Step 1: Decide your audience
 
 You may have different audiences for different messages. Understanding your audience helps you determine where and how you want messages to be shown. For example, you can use news web parts on specific sites, and [target your news](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165#bkmk_audiencetarget) to full-time employees or employees of specific groups.
 
 [Learn more about determining your audience.](audience-profile.md)
 
-## Create an organization news site
+## Step 2: Create an organization news site
 
 SharePoint administrators can specify any number of organization news sites. For multi-geo tenants, organization news sites would have to be set up for each geo location. Each geo location could use the same central organization news site, and/or have its own unique site that shows organization news specific to that region.
 
@@ -76,7 +76,7 @@ For more information see [Create an organization news site](/sharepoint/organiza
 
 
 
-## Create news posts on sites
+## Step 3: Create news posts on sites
 
 ![Image showing a news post.](media/news-post.png)
 
@@ -88,7 +88,7 @@ To learn how to turn a page into a news post, see [Change a SharePoint modern pa
 
 
 
-## Use the news web part to distribute news on the sites you want
+## Step 4: Use the news web part to distribute news on the sites you want
 
 ![Image showing news web part.](media/news-web-part.png)
 
@@ -100,7 +100,7 @@ To learn how to use the news web part on a SharePoint page, see [Use the News we
 
 
 
-## Boost news for greater discoverability
+## Step 5: Boost news for greater discoverability
 
 ![Image showing news boost pane.](media/boost-property-pane.png)
 
@@ -115,7 +115,7 @@ To learn more boosting news, see [Boost news from organization news sites](https
 
 
 
-## Send news in email
+## Step 6: Send news in email
 
 ![Image showing an email digest.](media/news-digest.png)
 
@@ -125,7 +125,7 @@ Many organizations send "newsletters" in email. With auto-news digest, emails ar
 - You can also manually curate a news digest and send it when you want. To learn how, see [Create and send a news digest](https://support.microsoft.com/en-us/office/create-and-send-a-news-digest-42efc3c6-605f-4a9a-85d5-1f9ff46019bf?ui=en-US&rs=en-US&ad=US).
 - To learn about email notification settings, see [SharePoint email notifications](https://support.microsoft.com/office/sharepoint-email-notifications-5bd63d8a-d43e-48cc-82b3-03a7687d5dc4).
 
-## Display SharePoint news in Teams using Viva Connections
+## Step 7: Display SharePoint news in Teams using Viva Connections
 
 [Viva Connections](/viva/connections/viva-connections-overview) is an employee experience app in Microsoft Teams. Use Viva Connections to engage and empower frontline workers and information workers across your organization. Viva Connections integrates Microsoft 365 apps and tools to create experiences that meet users where they are, keeps them updated on news and announcements, and provides access to resources from a desktop or mobile device.
 
@@ -133,7 +133,7 @@ Many organizations send "newsletters" in email. With auto-news digest, emails ar
 
 When you use Viva Connections for Teams Desktop, your home site in Teams displays news just like it does when viewed in SharePoint. To learn about adding Viva Connections, see [Add Viva Connections for Microsoft Teams desktop](viva-connections-overview.md).
 
-## Create a personalized news stream on Viva Connections mobile 
+## Step 8: Create a personalized news stream on in the Teams mobile app 
 
 [Viva Connections](/viva/connections/viva-connections-overview) is a customizable app in Microsoft Teams that gives everyone a personalized destination to discover relevant news, conversations, and the tools they need to succeed. In the Viva Connections app, users will see a [personalized Feed](/viva/connections/faqs-viva-connections-feed) with relevant information from across their organization. 
 
