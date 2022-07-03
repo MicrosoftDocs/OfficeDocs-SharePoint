@@ -125,20 +125,23 @@ Learn more about [how to organize the live event in Yammer](https://support.micr
 Before the event starts, you will have access to a dashboard that will help you understand event reach, engagement during the event, top conversations, and more. Insights are only available to event organizers and producers. Learn more about [how to view live event data](https://support.microsoft.com/office/get-insights-about-live-events-in-yammer-2ce5e236-8b72-4715-88ea-a8e15d9488ba) and use insights to host powerful live events.
 
 ## Step 4: Expand your reach and engagement using Viva Connections
-Bring the SharePoint leadership site, news, and conversations from the Yammer community into one central place in Microsoft Teams using [Viva Connections](/viva/connections/viva-connections-overview). Viva Connections creates an opportunity to push specific content and display popular resources by combining the power of your SharePoint intranet with Microsoft Teams and other Microsoft 365 apps like Yammer and Stream. Viva Connections offers added functionality through three primary components - the Dashboard, the Feed, and Resources. 
-
-- **Dashboard:** [The Viva Connections Dashboard](/viva/connections/viva-connections-overview#viva-connections-dashboard) is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field.
-- **Feed:** [The Feed](/viva/connections/viva-connections-overview#viva-connections-feed) delivers updates to the right people at the right time and is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to.
-- **Resources:** [The Resources](/viva/connections/viva-connections-overview#viva-connections-resources) experience enables way finding across platforms. It uses navigation elements from the SharePoint app bar, which can be [audience targeted](/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293).
-
-![Image of the Viva Connections Dashboard.](media/viva-leader-mobile-2.png)
-
+Bring the SharePoint leadership site, news, and conversations from the Yammer community into one central place in Microsoft Teams using [Viva Connections](/viva/connections/viva-connections-overview). Viva Connections creates an opportunity to push specific content and display popular resources by combining the power of your SharePoint intranet with Microsoft Teams and other Microsoft 365 apps like Yammer and Stream. 
 
 **Use Viva Connections to:**
 
 - Meet your employees in the apps and devices they know and love with a personalized view of news, conversations, and communities
 - Promote events, news, and conversations in Viva Connections dashboard to specific audiences using audience targeting
 - Boost important news and announcements to the top of employees' news feeds
+
+![Image of the Viva Connections Dashboard.](media/viva-leader-mobile-2.png)
+
+
+Viva Connections offers added functionality through three primary components - the Dashboard, the Feed, and Resources. 
+
+- **Dashboard:** [The Viva Connections Dashboard](/viva/connections/viva-connections-overview#viva-connections-dashboard) is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field.
+- **Feed:** [The Feed](/viva/connections/viva-connections-overview#viva-connections-feed) delivers updates to the right people at the right time and is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to.
+- **Resources:** [The Resources](/viva/connections/viva-connections-overview#viva-connections-resources) experience enables way finding across platforms. It uses navigation elements from the SharePoint app bar, which can be [audience targeted](/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293).
+
 
 ## Launch and manage your communication strategy
 Help others in your organization discover the leadership connection resource. Consider [hosting a kickoff event in Yammer](https://support.microsoft.com/office/organize-a-live-event-in-new-yammer-7338782a-4f0b-4fd0-a6c3-33625906ead1) to announce the new SharePoint site and Yammer community. Set the tone for what to expect in terms of ongoing engagement, mentorship and networking opportunities, event, and news publishing schedules.
