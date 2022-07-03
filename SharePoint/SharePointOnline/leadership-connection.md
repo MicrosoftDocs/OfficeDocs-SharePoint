@@ -39,7 +39,6 @@ Microsoft 365 can help your organization's leadership teams connect with employe
 |**Maintain**|- Ensure content stays relevant <br> - Audit M365 group membership, access, and settings periodically <br> - Develop a news publishing cycle <br> - Schedule regular events and share them in advance|
 
 ## Plan your leadership connection strategy
-
 Start by making sure you understand your audience's needs and preferences. Review [how to profile and scope your audience](audience-profile.md). This scenario will have the most successful outcome when multiple communication methods are combined. Start with a SharePoint communication site and a Yammer channel that connects the organization with leadership. Then, plan and host a live event that is recorded and shared with others. Finally, bring all these communication elements together into an engaging mobile experience using Viva Connections.
 
 ![Image of the leadership connection solution.](media/leadership-step-3.png)
@@ -59,11 +58,9 @@ Start by making sure you understand your audience's needs and preferences. Revie
 - Identify other opportunities across the organization to spread awareness about the leadership connection initiative such as new. employee orientation, regular communications to networking groups, and promotion in employee resource groups.
 
 ## Build your communication strategy
-
 Start by creating or using an existing SharePoint communication site. Then connect a new or existing Yammer community to the SharePoint site using the Yammer conversations web part. Then, plan and host live events, share the recordings on the leadership site, and keep the conversation going in Yammer channels.
 
 ## Step 1: Create a SharePoint leadership site
-
 SharePoint communication sites are a great tool to create a landing place to share leadership news, initiatives, and opportunities to network and connect. This is an ideal opportunity to use the [Yammer web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) on the home page to connect to an existing Yammer community that connects leadership team members with the rest of the organization. Use the [Events web part](https://support.microsoft.com/\office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909) to post and [target leadership events to specific audiences](https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293).
 
 **Image of the Leadership connection site template:**
@@ -79,7 +76,6 @@ SharePoint communication sites are a great tool to create a landing place to sha
 ![Image of a page that displays leadership profiles.](media/lc-profiles.png)
 
 #### Get started creating your SharePoint leadership site
-
 There are several resources that can help you quickly create a leadership site:
 
 - Use a SharePoint site template provided by Microsoft. [Apply the Leadership connection template](https://support.microsoft.com/office/use-the-sharepoint-leadership-connection-site-template-a2996d9f-c08e-4de6-8696-a7de323c8add), then customize the site to for the needs of your organization.
@@ -87,15 +83,12 @@ There are several resources that can help you quickly create a leadership site:
 - Use the Leadership connection template in the SharePoint look book. The [SharePoint look book Leadership connection template](https://lookbook.microsoft.com/details/c19f437b-35ca-42f2-b27a-1caa49ad8bde) requires the use of [SharePoint PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps&preserve-view=true) and administrative credentials.
 
 #### Publish news from the leadership site
-
 Once your leadership site has been created and shared with the right audiences, you can [publish news from this site](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7). Then, use the [News web part](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165) on the home page to display leadership news and [target leadership news to specific audiences](https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293). Other sites across your organization can customize the settings in the News web part to pull news from an organizational news site. Consider cross promoting leadership news on the home site, on a new employee onboarding site, and where other leadership-oriented news can be found.
 
 #### Monitor usage analytics for your SharePoint site
-
 As a SharePoint site owner, you can view information about how users interact with your site. For example, you can view the number of people who have visited the site, how many times people have visited the site, and a list of files that have received the most views. Learn more about how to [access usage data for your leadership site](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e).
 
 ## Step 2: Create a leadership community in Yammer
-
 Communities in Yammer help employees share knowledge, engage with others in the employee experience, and provide a social platform for company-wide communications. It can also be used to drive leadership engagement by providing a central place for your conversations, documents, events, and updates. Yammer can help you host a live event with [moderated Q&A](https://support.microsoft.com/office/drive-engagement-in-a-classic-yammer-live-event-c0244ad8-6dcb-419c-add9-2e4a00543412) for up to 10,000 attendees.
 
 ![Image of the leadership connection Yammer community.](media/lc-yammer-community.png)
@@ -111,11 +104,9 @@ If your organization doesn't already have a Yammer community that includes membe
 New to Yammer? Learn more about [managing a community in Yammer](https://support.microsoft.com/office/manage-a-community-in-yammer-4f590d87-16ff-4035-9124-d7add883df67) and [administrative tips and tricks](https://onedrive.live.com/?authkey=%21AJbveZ0P7DPno9c&cid=8D13E85F1CF91770&id=8D13E85F1CF91770%21187&parId=root&o=OneUp). Help [onboard your organization to Yammer](https://onedrive.live.com/view.aspx?resid=8D13E85F1CF91770!237&ithint=file%2cdocx&authkey=!AMh1sXi46TE875I) and help others understand [how to use Yammer](https://onedrive.live.com/view.aspx?resid=8D13E85F1CF91770!254&ithint=file%2cpptx&authkey=!ACrN15bnGCy_ZTs).
 
 #### Monitor conversations and engagement insights
-
 [Yammer community insights](https://support.microsoft.com/office/view-community-insights-in-yammer-48bc648e-b567-49d7-b2b5-5fea23777c46) help you measure your community's reach and engagement. You can find out more about the people, conversations, and questions and answers that make up your community. [Learn more about managing communities in Yammer](https://support.microsoft.com/office/manage-a-group-in-yammer-6e05c6d6-5548-4c88-89cd-e6757a514ef2).
 
 ## Step 3: Host a live leadership event in Yammer with Q&A
-
 Create and produce live events for people in the leadership Yammer network, with built-in discussions for use before, during, and after the event. Up to 10,000 people can attend at once from anywhere on their device or computer (higher limits for event attendees are temporarily available through the [Microsoft 365 Live Events Assistance program](/stream/live-events-assistance). Make the video available after the event on the leadership site, so that people who can't make it at the scheduled time can still participate.
 
 **Image of live questions and answers during an event**
@@ -131,11 +122,9 @@ Once you've determined the right method for your live event, get started organiz
 Learn more about [how to organize the live event in Yammer](https://support.microsoft.com/office/organize-a-live-event-in-new-yammer-7338782a-4f0b-4fd0-a6c3-33625906ead1). Review the [Yammer live event playbook](https://support.office.com/article/organize-a-live-event-in-yammer-105dd7af-9caf-4a5e-8a44-56d203e96551) and [Yammer live event FAQs](https://support.microsoft.com/office/new-yammer-live-event-faq-ec9deff2-3181-4300-a204-c809729e4dff) to understand all the different roles and responsibilities, how to ensure the event goes smoothly, and how to drive engagement. Consider using guidance from how to host a town hall for your organization to plan your live event.
 
 ### Insights and engagement metrics for live events
-
 Before the event starts, you will have access to a dashboard that will help you understand event reach, engagement during the event, top conversations, and more. Insights are only available to event organizers and producers. Learn more about [how to view live event data](https://support.microsoft.com/office/get-insights-about-live-events-in-yammer-2ce5e236-8b72-4715-88ea-a8e15d9488ba) and use insights to host powerful live events.
 
 ## Step 4: Expand your reach and engagement using Viva Connections
-
 Bring the SharePoint leadership site, news, and conversations from the Yammer community into one central place in Microsoft Teams using [Viva Connections](/viva/connections/viva-connections-overview). Viva Connections creates an opportunity to push specific content and display popular resources by combining the power of your SharePoint intranet with Microsoft Teams and other Microsoft 365 apps like Yammer and Stream. Viva Connections offers added functionality through three primary components - the Dashboard, the Feed, and Resources. 
 
 - **Dashboard:** [The Viva Connections Dashboard](/viva/connections/viva-connections-overview#viva-connections-dashboard) is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field.
@@ -152,7 +141,6 @@ Bring the SharePoint leadership site, news, and conversations from the Yammer co
 - Boost important news and announcements to the top of employees' news feeds
 
 ## Launch and manage your communication strategy
-
 Help others in your organization discover the leadership connection resource. Consider [hosting a kickoff event in Yammer](https://support.microsoft.com/office/organize-a-live-event-in-new-yammer-7338782a-4f0b-4fd0-a6c3-33625906ead1) to announce the new SharePoint site and Yammer community. Set the tone for what to expect in terms of ongoing engagement, mentorship and networking opportunities, event, and news publishing schedules.
 
 **Launch checklist:**
