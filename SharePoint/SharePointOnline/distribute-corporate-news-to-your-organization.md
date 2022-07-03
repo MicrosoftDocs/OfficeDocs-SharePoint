@@ -23,13 +23,13 @@ When you have organization-level announcements, CEO messages, philanthropic high
 
 News can be distributed on the SharePoint start page, on your home site, or on any page of a site where you want the news to be displayed. It’s also tightly integrated into Viva Connections for Teams Desktop and in the Viva Connections Feed where people can engage with corporate news wherever they are. 
 
-When news is distributed from an organization news site, it gets special visual treatment (see the **"NEWS @ CONTOSO"** color block below).
-
 ![Image of example organization news posts.](media/org-news-example.png)
+
+When news is distributed from an organization news site, it gets special visual treatment (see the **"NEWS @ CONTOSO"** color block below).
 
 ## Places news is distributed
 
-News is distributed across SharePoint, Teams, and through Viva Connections.
+News is distributed across SharePoint, Microsoft Teams, and [Viva Connections](/viva/connections/viva-connections-overview).
 
 ![image showing where news is distributed.](media/news-locations.png)
 
