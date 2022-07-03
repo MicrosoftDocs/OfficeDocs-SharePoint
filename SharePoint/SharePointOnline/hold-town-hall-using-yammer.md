@@ -49,7 +49,7 @@ Get started preparing and implementing a town hall that is on demand, secure, ac
 | **Host**  | - Host the live event and manage engagement in the Yammer feed <br> - Make the recording sharable for employees |
 | **Share**  | - Share the recording to communication channels (Yammer, Outlook, Teams, and SharePoint news) <br> - View Attendee insights to measure engagement   |
 
-## Plan a town hall
+## Plan the town hall message and content
 
 Since town halls reach broad and diverse audiences, you'll want to consider the needs and preferences of your audience and make sure content can be accessed before, during, and after the event.
 
@@ -64,11 +64,11 @@ Since town halls reach broad and diverse audiences, you'll want to consider the 
 - Event Q&A can take place in a Yammer community, so people who couldn't attend can still benefit from the information shared.
 - Promoting the town hall event will be most successful by diversifying the different channels that are currently being used by your audience.
 
-### 1. Learn about your audience
+### A. Learn about your audience
 
 Invest in learning what's most important to your audience. Knowing your audience will help you determine how to effectively deliver your message, what speakers will resonate with your audience, how to moderate the town hall, and how to  structure the town hall. [Learn more about how to scope and define your audience.](audience-profile.md)
 
-### 2. Ensure content is accessible to everyone
+### B. Ensure content is accessible to everyone
 
 Town halls are designed to reach the entire organization or large groups within it. Make sure the event's target audience has access to the tools they need to consume the content.
 
@@ -77,7 +77,7 @@ Town halls are designed to reach the entire organization or large groups within 
 - Yammer supports live events and town halls in many languages across multiple platforms.
 - Consider posting the event recording as a [Video news link in SharePoint](/viva/connections/video-news-links) so it automatically displays in the [Viva Connections Feed](/viva/connections/viva-connections-overview#viva-connections-feed) in Microsoft Teams. 
 
-### 3. Define the town hall message
+### C. Define the town hall message
 
 Craft a message that's well organized, detailed, and to the point. To engage your audience and make sure the messages in the town hall are understood by everyone:
 
@@ -85,7 +85,7 @@ Craft a message that's well organized, detailed, and to the point. To engage you
 - Provide town hall objectives to attendees beforehand. Share these objectives via email or the event SharePoint site.
 - Only share the most relevant information. Ensure the most important information is highlighted to reserve time and to keep your audience engaged.
 
-### 4. Decide the live event speakers and structure
+### D. Decide the live event speakers and structure
 
 Invite speakers who align with the message of the town hall. If the intent of your event is to report on  quarterly earnings,  recruit people from the finance department who can speak to insights and answer questions.
 
@@ -94,7 +94,7 @@ Invite speakers who align with the message of the town hall. If the intent of yo
 - Test equipment beforehand. Make sure each speaker and moderator knows how to use the tools used to conduct the town hall. This can range from how to share their screen, [managing live questions and answers](https://support.microsoft.com/office/new-yammer-live-event-faq-ec9deff2-3181-4300-a204-c809729e4dff),and [more engagement opportunities](https://support.microsoft.com/office/drive-engagement-in-a-classic-yammer-live-event-c0244ad8-6dcb-419c-add9-2e4a00543412?ui=en-us&rs=en-us&ad=us).
 
 
-### 5. Use Yammer to host your town hall event
+### E. Use Yammer to host your town hall event
 
 Yammer enables people to connect with each other across an entire organization. It helps unite people who don't often interact and gives them the ability to discover content and meet and engage with organization leaders. Get started with [organizing live events in Yammer](https://teamworktools.azurewebsites.net/yammer/How%20to%20host%20a%20live%20event%20in%20Yammer%20Playbook.pdf)
 
