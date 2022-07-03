@@ -65,11 +65,9 @@ Since town halls reach broad and diverse audiences, you'll want to consider the 
 - Promoting the town hall event will be most successful by diversifying the different channels that are currently being used by your audience.
 
 ### A. Learn about your audience
-
 Invest in learning what's most important to your audience. Knowing your audience will help you determine how to effectively deliver your message, what speakers will resonate with your audience, how to moderate the town hall, and how to  structure the town hall. [Learn more about how to scope and define your audience.](audience-profile.md)
 
 ### B. Ensure content is accessible to everyone
-
 Town halls are designed to reach the entire organization or large groups within it. Make sure the event's target audience has access to the tools they need to consume the content.
 
 - Plan to record town hall events. When a live event is recorded, it will automatically be added to Microsoft Stream. Learn how to enable [autogenerate captions](/stream/portal-autogenerate-captions). The live event can also be saved to the Yammer home page.
@@ -78,7 +76,6 @@ Town halls are designed to reach the entire organization or large groups within 
 - Consider posting the event recording as a [Video news link in SharePoint](/viva/connections/video-news-links) so it automatically displays in the [Viva Connections Feed](/viva/connections/viva-connections-overview#viva-connections-feed) in Microsoft Teams. 
 
 ### C. Define the town hall message
-
 Craft a message that's well organized, detailed, and to the point. To engage your audience and make sure the messages in the town hall are understood by everyone:
 
 - Make the presentation visual to create the most engagement. Use PowerPoint to create a visual display of your message to keep your audience connected. Organizations have the option of [broadcasting a live event in Yammer using Teams](https://support.microsoft.com/office/broadcast-a-live-event-in-classic-yammer-using-teams-333a5ea6-c73e-4717-8c53-7ea8f8de2724). Learn to [configure desktop sharing in Microsoft Teams](/microsoftteams/configure-desktop-sharing) to display your PowerPoint deck during your town hall. 
@@ -86,7 +83,6 @@ Craft a message that's well organized, detailed, and to the point. To engage you
 - Only share the most relevant information. Ensure the most important information is highlighted to reserve time and to keep your audience engaged.
 
 ### D. Decide the live event speakers and structure
-
 Invite speakers who align with the message of the town hall. If the intent of your event is to report on  quarterly earnings,  recruit people from the finance department who can speak to insights and answer questions.
 
 - Develop the schedule and time limits for the town hall.
@@ -95,7 +91,6 @@ Invite speakers who align with the message of the town hall. If the intent of yo
 
 
 ### E. Use Yammer to host your town hall event
-
 Yammer enables people to connect with each other across an entire organization. It helps unite people who don't often interact and gives them the ability to discover content and meet and engage with organization leaders. Get started with [organizing live events in Yammer](https://teamworktools.azurewebsites.net/yammer/How%20to%20host%20a%20live%20event%20in%20Yammer%20Playbook.pdf)
 
 > [!NOTE]
@@ -152,11 +147,11 @@ ensure smooth transitions. A run through with the latest content, notes or demo 
 Creating and producing live events in Yammer requires Microsoft Stream and/ or Teams licenses and specific permissions. Yammer administrators can schedule live meetings in Yammer.
 For events using an external app or device, you will need to have your Microsoft Stream license enabled. Learn more about [Permissions for scheduling, creating, and producing live events in Yammer](/yammer/manage-yammer-groups/yammer-live-events).
 
-#### Step 2: Test Equipment
+#### Step 2: Test equipment
 
 Determine whether your speakers will be broadcasting from a web cam or a studio-produced broadcast.  Make sure all equipment needed to connect video and audio is secured and in place. Learn more about [producing a live event in Yammer using an external device](https://support.microsoft.com/office/schedule-and-produce-a-live-event-in-new-yammer-using-an-external-app-or-device-975f596a-8fc5-4400-8bf5-7ec77ec18415).
 
-#### Step 3: Manage Engagement
+#### Step 3: Manage engagement
 
 Audience members and moderators can engage during the event using the conversation bar. Be sure to record the event so people who weren't able to attend live can watch later.
 
@@ -182,7 +177,7 @@ Make your town hall and post-event engagement scalable by sharing your town hall
 
 [Yammer event reports](https://support.microsoft.com/office/get-insights-about-live-events-in-yammer-2ce5e236-8b72-4715-88ea-a8e15d9488ba) features insights that show attendee location, department insights, sentiment analysis, and API sensibility. View insights to see how many people attended, average watch time, and more. Recognize trends by seeing how many conversations, comments, questions, answers, and reactions were generated through the event. Use this information to amplify the content people engaged with  most and to plan for your next town hall.
 
-### Measure Community Engagement
+### Measure community engagement
 
 ![Image of the Yammer community engagement dashboard.](media/th12.png)
 
@@ -190,7 +185,7 @@ Yammer's insights that allow creators of town halls to identify trends such as c
 
 These insights provide information that allows you to measure community growth by tracking member creation, active members, member location, department and more. You can also see how community members engage by seeing how many comments, reactions, questions, answers, live events and more. Learn more about [viewing community insights in Yammer](https://support.microsoft.com/office/view-community-insights-in-yammer-48bc648e-b567-49d7-b2b5-5fea23777c46#:~:text=How%20to%20see%20community%20insights%20in%20Yammer.%20In,highlights%20two%20metrics%3A%20Active%20People%20and%20Posted%20Messages.).
 
-## More Resources
+## More resources
 
 [Use PowerShell to set up live events and policies](/microsoftteams/teams-live-events/set-teams-live-events-policies-using-powershell).
 
