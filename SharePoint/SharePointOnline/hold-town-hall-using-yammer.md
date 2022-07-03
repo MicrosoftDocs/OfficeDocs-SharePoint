@@ -150,15 +150,11 @@ ensure smooth transitions. A run through with the latest content, notes or demo 
 #### Step 1: Get set up in Yammer
 
 Creating and producing live events in Yammer requires Microsoft Stream and/ or Teams licenses and specific permissions. Yammer administrators can schedule live meetings in Yammer.
-For events using an external app or device, you will need to have your Microsoft Stream license enabled.
-
-Learn more about [Permissions for scheduling, creating, and producing live events in Yammer](/yammer/manage-yammer-groups/yammer-live-events).
+For events using an external app or device, you will need to have your Microsoft Stream license enabled. Learn more about [Permissions for scheduling, creating, and producing live events in Yammer](/yammer/manage-yammer-groups/yammer-live-events).
 
 #### Step 2: Test Equipment
 
-Determine whether your speakers will be broadcasting from a web cam or a studio-produced broadcast.  Make sure all equipment needed to connect video and audio is secured and in place.
-
-Learn more about [producing a live event in Yammer using an external device](https://support.microsoft.com/office/schedule-and-produce-a-live-event-in-new-yammer-using-an-external-app-or-device-975f596a-8fc5-4400-8bf5-7ec77ec18415).
+Determine whether your speakers will be broadcasting from a web cam or a studio-produced broadcast.  Make sure all equipment needed to connect video and audio is secured and in place. Learn more about [producing a live event in Yammer using an external device](https://support.microsoft.com/office/schedule-and-produce-a-live-event-in-new-yammer-using-an-external-app-or-device-975f596a-8fc5-4400-8bf5-7ec77ec18415).
 
 #### Step 3: Manage Engagement
 
