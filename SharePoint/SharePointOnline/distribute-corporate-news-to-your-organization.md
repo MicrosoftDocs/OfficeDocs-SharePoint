@@ -144,9 +144,9 @@ The Feed automatically balances fresh and engaging content with corporate commun
 **Ways to influence the order of content in the Feed:**
 
 1. **Promote important and ‘official’ communications** - [Use News boost](https://support.microsoft.com/office/boost-sharepoint-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to raise the visibility of crucial news posts.
-2. **Highlight community discussions** - Feature posts in public [Yammer communities](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) that you’d like seen by the entire organization.
+2. **Highlight Yammer community discussions** - Feature posts in public [Yammer communities](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) that you’d like seen by the entire organization.
 3. **Publish from official news sources** - Official news sources are news posts published from SharePoint sites that are [official news sites](https://docs.microsoft.com/sharepoint/organization-news-site). News from these types of sites will be prioritized in the Feed. 
-4. **Use Video news links** - Videos are an engaging way to reach users in your organization. Official organizational news sites have the option to post a [Video news post](/viva/connections/video-news-links) that will take priority over other content in the Feed.
+4. **Use Video news links in SharePoint** - Videos are an engaging way to reach users in your organization. Official organizational news sites have the option to post a [Video news post](/viva/connections/video-news-links) that will take priority over other content in the Feed.
 
 
 
