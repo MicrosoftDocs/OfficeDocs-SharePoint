@@ -53,7 +53,7 @@ Get started preparing and implementing a town hall that is on demand, secure, ac
 
 Since town halls reach broad and diverse audiences, you'll want to consider the needs and preferences of your audience and make sure content can be accessed before, during, and after the event.
 
-![Infographic of how to plan town hall content.](media/town-hall-plan.png)
+![Infographic of how to plan town hall content.](media/step-town-hall-content.png)
 
 **Planning considerations:**
 
