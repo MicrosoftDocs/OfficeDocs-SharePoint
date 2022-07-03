@@ -184,7 +184,7 @@ Make your town hall and post-event engagement scalable by sharing your town hall
 
 ![Image of the Yammer attendee insights dashboard.](media/th11.png)
 
-Yammer features insights that show attendee location, department insights, sentiment analysis, and API sensibility. View insights to see how many people attended, average watch time, and more. Recognize trends by seeing how many conversations, comments, questions, answers, and reactions were generated through the event. Use this information to amplify the content people engaged with  most and to plan for your next town hall.
+[Yammer event reports](https://support.microsoft.com/office/get-insights-about-live-events-in-yammer-2ce5e236-8b72-4715-88ea-a8e15d9488ba) features insights that show attendee location, department insights, sentiment analysis, and API sensibility. View insights to see how many people attended, average watch time, and more. Recognize trends by seeing how many conversations, comments, questions, answers, and reactions were generated through the event. Use this information to amplify the content people engaged with  most and to plan for your next town hall.
 
 ### Measure Community Engagement
 
