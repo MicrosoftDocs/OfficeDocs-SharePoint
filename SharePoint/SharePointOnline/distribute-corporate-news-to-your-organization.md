@@ -139,12 +139,12 @@ When you use Viva Connections for Teams Desktop, your home site in Teams display
 
 ![Image showing news in mobile app.](media/vc-mobile-feed.png)
 
-In the Viva Connections app, users will see a personalized Feed with relevant information from across their organization. The Feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. The Feed can also be incorporated into the home site to create a desktop view by using the [Feed web part](https://docs.microsoft.com/viva/connections/use-feed-web-part-for-viva-connections). 
+In the Viva Connections app, users will see a [personalized Feed](/viva/connections/faqs-viva-connections-feed) with relevant information from across their organization. The Feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. The Feed can also be incorporated into the home site to create a desktop view by using the [Feed web part](https://docs.microsoft.com/viva/connections/use-feed-web-part-for-viva-connections). 
 
 **There are ways to influence the order of content in the Feed:**
 
 1. **Promote important and ‘official’ communications** - [Use News boost](https://support.microsoft.com/office/boost-sharepoint-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to raise the visibility of crucial news posts.
-2. **Highlight community discussions** - Feature posts in public Yammer communities that you’d like seen by the entire organization.
+2. **Highlight community discussions** - Feature posts in public [Yammer communities](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) that you’d like seen by the entire organization.
 3. **Publish from official news sources** - Official news sources are news posts published from SharePoint sites that are [official news sites](https://docs.microsoft.com/sharepoint/organization-news-site). News from these types of sites will be prioritized in the Feed. 
 4. **Use Video news links** - Videos are an engaging way to reach users in your organization. Official organizational news sites have the option to post a [Video news post](/viva/connections/video-news-links) that will take priority over other content in the Feed.
 
