@@ -179,10 +179,24 @@ When entering a new environment, understanding the order in which deliverables s
 
 ### Use Viva Connections and integrate with other Microsoft Viva experiences
 
+Help orient new employees by providing them with the most important company information, resources, and updates regularly. Viva Connections is a digital platform built on the existing capabilities of Microsoft 365 that allows organizations to customize employee experiences and gain access to the most important information the most used tools and resources on both desktop and mobile devices. [Learn more about creating onboarding experiences using Microsoft Viva](/viva/solutions/viva-onboard-change-roles).
+
 ![Viva Connections homepage screenshot.](media/viva-all-mod-mobile-neo.png)
 <br>
 
-Help orient new employees by providing them with the most important company information, resources, and updates regularly. Viva Connections is a digital platform built on the existing capabilities of Microsoft 365 that allows organizations to customize employee experiences and gain access to the most important information the most used tools and resources on both desktop and mobile devices. [Learn more about creating onboarding experiences using Microsoft Viva](/viva/solutions/viva-onboard-change-roles).
+#### Integrate multiple Viva modules to create a rich onboarding experience 
+
+In the image above, Viva Connections is being used to display cards that integrate with other Viva experiences. Create a card that links to Viva Insights to help new team members understand how to spend time productively and help managers provide better guidance on time management. [Learn more about Viva Insights and how it helps protect and organize work/life balance](Viva/solutions/viva-work-life-balance).
+
+A separate card integrates with Viva Topics, which helps to address a key business issue in many companies — providing the information to users when they need it. For example, new employees need to learn a lot of new information quickly, and encounter terms they know nothing about when reading through company information. [Learn more about how Viva Topics can help with knowledge management](/viva/topics/topic-experiences-overview).
+
+Viva Learning is an application for Microsoft Teams that allows users to discover, recommend, and access learning modules from different platforms to help users gain knowledge in any specific focus area. Viva Learning pulls content from LinkedIn Learning, Microsoft Learn, Microsoft 365 Training, and other partners. Use Viva Learning to curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily.
+
+![Viva Learning home page screenshot that displays different training courses.](media/viva-learning-neo.png)
+<br>
+
+In Viva Learning, managers of an organization or team can assign learning and track the learning progress of each module. The Viva Learning home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. [Learn more about Viva Learning](/microsoft-365/learning/?view=o365-worldwide).
+
 
 **Learn more about Viva modules:**
 
@@ -191,24 +205,11 @@ Help orient new employees by providing them with the most important company info
  | Target specific training for new employees. | New team members can learn about popular terms, acronyms, projects, and more. | Help new team members spend time productively. | Provide easy access to benefits, training materials, and resources. |
 
 
-#### Created a personalized training experience using with Viva Learning
-
-![Viva Learning home page screenshot that displays different training courses.](media/viva-learning-neo.png)
-<br>
-<br>
-
-Viva Learning (Preview) is an application for Microsoft Teams that allows users to discover, recommend, and access learning modules from different platforms to help users gain knowledge in any specific focus area. Viva Learning (Preview) pulls content from LinkedIn Learning, Microsoft Learn, Microsoft 365 Training, and other partners. Use Viva Learning to curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily.  
-
-In Viva Learning (Preview), managers of an organization or team can assign learning and track the learning progress of each module. The Viva Learning (Preview) home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. 
-
-Learn more about [Viva Learning (Preview)](/microsoft-365/learning/?view=o365-worldwide).  
-
-
 ### Create Virtual Communities for new employees in Yammer
 
 ![Yammer homepage screenshot.](media/th4.png)
 <br>
-<br>
+
 Give new employees the opportunity to connect with each other and build a supportive virtual community in Yammer. Yammer is a platform that connects leaders, communicators, and employees to build communities, share knowledge, and engage across the organization. Yammer allows you to set up a community specifically for new employees within the organizational platform.
 
 Naturally, employees come across information at different times in their onboarding process. Creating a space where new employees can build a community for themselves gives them the opportunity to share information as they come across it. In this virtual space, new employees can share resources, share ideas, and get to know each other. It also helps them build internal bonds that can last over the course of their career.
@@ -220,7 +221,7 @@ Learn more about building communities in [Yammer](/yammer/get-started-with-yamme
 
 ![Microsoft Forms screenshot](media/oe-forms.png)
 <br>
-<br>
+
 The best way to improve the new employee onboarding experience is by asking for feedback. Understand what worked best and what could use improvement by asking for feedback after all deliverables have been completed by new employees. 
 
 Use Microsoft forms to build short surveys that answer the questions that could inform the onboarding experience moving forward. 
