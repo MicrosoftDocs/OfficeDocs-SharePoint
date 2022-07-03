@@ -91,15 +91,17 @@ Build out the learning and training experience one platform at a time. The tools
 
 ### Use Viva Learning to curate learning experiences
 
-![Viva Learning homepage screenshot](media/oe-5.png)
+![Viva Learning homepage screenshot](media/viva-learning-example.png)
 
-[Viva Learning is an application for Microsoft Teams](/viva/learning/overview-viva-learning) that allows users to discover, recommend, and access learning modules from different platforms to help users gain knowledge in any specific focus area. Viva Learning pulls content from LinkedIn Learning, Microsoft Learn, Microsoft 365 Training, and other partners. Use Viva Learning to curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily.
+[Viva Learning is an application for Microsoft Teams.](/viva/learning/overview-viva-learning) that allows users to discover, recommend, and access learning modules from different platforms to help users gain knowledge in any specific focus area. Viva Learning pulls content from LinkedIn Learning, Microsoft Learn, Microsoft 365 Training, and other partners. Use Viva Learning to curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily.
+
+![Iamge of a manager assigning a training in Viva Learning](media/viva-learning-assignment.png)
 
 In Viva Learning, managers of an organization or team can assign learning and track the learning progress of each module. The Viva Learning home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. Learn more about [Viva Learning](https://www.microsoft.com/en-us/microsoft-viva/learning/?ef_id=21e9ec552f93177bad868d00eec92fd8:G:s&OCID=AID2200888_SEM_21e9ec552f93177bad868d00eec92fd8:G:s&msclkid=21e9ec552f93177bad868d00eec92fd8)
 
 ### Create a learning and development landing page using SharePoint
 
-![Learning Central SharePoint communication homepage screenshot](media/lt-5.png)
+![Learning Central SharePoint communication homepage screenshot.](media/lt-5.png)
 
 Create an internal communication site that acts as a home for the learning and training experience. This site should lay out resources, deliverables, and learning objectives in and organized way. This site should also contain the most up-to-date information to ensure the employee has everything needed to be successful. Try organizing action items on this site in a way that signals priority. List the things that need to be finished first at the top. This will help employees organize their learning and training to the best of their ability.
 
@@ -109,7 +111,7 @@ Get started with [SharePoint site templates](https://support.microsoft.com/offic
 
 ### Use Teams to hold live learning events
 
-![Teams live meeting screenshot](media/oe-3.png)
+![Teams live meeting screenshot.](media/oe-3.png)
 
 Many learning experiences require hands-on training. Some experiences are better held in live environments where employees can ask questions and get guidance in real time. With the emergence of virtual work, having face time with other people in the organization is still important in making sure employees can communicate with learning instructors and other peers and ask top-of-mind questions. Use Microsoft Teams to administer live learning and training experiences.
 
@@ -117,11 +119,11 @@ Make this live event fun and engaging by giving employees an opportunity to comm
 
 Record each session so employees can review the learning material later, or so future employees can experience the session as well. Make this recording available through the SharePoint Learning and Training site or through the Viva Learning platform.
 
-Learn more about [Teams live events](/microsoftteams/teams-live-events/what-are-teams-live-events).
+Learn more about [Teams live events.](/microsoftteams/teams-live-events/what-are-teams-live-events).
 
 ### Provide an opportunity for employees to learn from each other in communities on Yammer
 
-![Yammer homepage screenshot](media/th4.png)
+![Yammer homepage screenshot.](media/th4.png)
 
 Give employees that have similar learning objectives the opportunity to connect with each other and build a supportive virtual community in Yammer. Yammer is a platform that connects leaders, communicators, and employees to build communities, share knowledge, and engage across the organization. Yammer allows you to set up a community specifically for employees within the same or similar disciplines.
 
@@ -151,6 +153,15 @@ Build awareness of upcoming training by sending an email in Outlook or by adding
 
 Gather insights from each platform along the way. Use these insights to inform managers, team leads, and other stakeholders. Look for insights such as live event attendance, audience reach, site traffic, module completion, and more.
 
-Maintain your experience by updating things frequently, providing the most up-to-date and relevant information across all platforms. Learn more about [maintaining your SharePoint communication sites](https://support.microsoft.com/office/manage-your-sharepoint-communication-site-21761aac-f7f7-4499-b0ca-cf283477c32f) and keeping [news posts updated](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7).
+Maintain your experience by updating things frequently, providing the most up-to-date and relevant information across all platforms. Learn more about [maintaining your SharePoint communication sites](https://support.microsoft.com/office/manage-your-sharepoint-communication-site-21761aac-f7f7-4499-b0ca-cf283477c32f) and keeping [SharePoint news posts updated](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7).
 
 Ask for feedback on the learning and training experience often using [Microsoft Forms](https://support.microsoft.com/forms). Use this feedback to determine what needs to be improved or altered for the next learning and training experience.
+
+
+## More Resources
+
+[Corporate communications overview](corporate-communications-overview.md)
+
+[Overview of Viva Learning](/viva/learning/overview-viva-learning)
+
+[Use the SharePoint Learning central site template](https://support.microsoft.com/office/use-the-sharepoint-learning-central-site-template-8a38c30a-746c-4081-8781-3679d6a3c0f6)
