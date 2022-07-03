@@ -101,7 +101,7 @@ Yammer enables people to connect with each other across an entire organization. 
 > [!NOTE]
 > To host a live event in Yammer, your organization must have **Enforce Office 365 identity** selected, and you must be using Microsoft 365 connected Yammer groups. For more information, see [Enforce Office 365 identity for Yammer users](/yammer/configure-your-yammer-network/enforce-office-365-identity) and [Yammer and Microsoft 365 groups](/yammer/manage-yammer-groups/yammer-and-office-365-groups).
 
-## Promote the town hall and manage engagement
+## Promote the town hall 
 
 Promote the town hall before the event date where your target audience usually gets announcements and updates. Then [manage engagement during the during the town hall](#host-a-town-hall-in-yammer) and [after the town hall.](#post-event-engagement)
 
@@ -138,8 +138,8 @@ The Viva Connections home page features the Feed and Dashboard web parts that ca
 Depending on the kind of event, live events can be run by one person, or as a team. Some of these roles may be played by the same person. A practice run with everyone for the live event will help make everyone feel confident and prepared during the event. Testing equipment, screensharing, and practicing the flow of multiple presenters or hand-offs is important to walk through prior to the event to 
 ensure smooth transitions. A run through with the latest content, notes or demo environments is key to make sure everyone is on the same page.
 
-|Role|Description|Role details
-|---|---|---|---|
+|Role|Description|Role details |
+|:---:|:---|:---|
 |**Producer**|To run a town hall successfully, you will need one or more producers. A producer can schedule, organize, and manipulate the screen while in the live event. This person is responsible for choosing the speakers and granting all attendees the proper permissions and licenses. In many cases, the producer is also a presenter or speaker.|- Schedule, Edit, or Cancel the event <br> -Organize the event <br> -Send out invitations to attendees <br> -Prepare Moderators and Speakers <br> -Grant all attendees the proper permissions and licenses <br> -Manipulate the screen while in the live event|
 |**Moderator**|The producer will also need to include one or more moderators who are responsible for driving engagement in the Yammer event by  keeping track of questions and comments from audience members and by offering technical support when needed.|- Keep track of questions and comments from Audience members <br> -Offer Technical Support to Audience members in need <br> -Ensure all attendees are following rules of Conduct <br> -Add comments, questions, polls <br> -Respond to Posts as needed <br> - Organize Posts <br> -Highlight the best answers to questions in the chat <br> -Help speakers manage time|
 |**Speaker**|Consider each speaker the main attraction. This is the person delivering the message. Your town hall can feature more than one speaker. This can include the leader of an organization, a department, or even a subject matter expert. Your town hall can have more than one speaker.|- Prepare presentations <br> - Prepare by testing audio and video quality before the presentation <br> - Configure the event streaming as needed <br> - Keep track of time|

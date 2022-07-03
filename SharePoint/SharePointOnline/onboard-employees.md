@@ -194,9 +194,7 @@ In Viva Learning, managers of an organization or team can assign learning and tr
 
 Give new employees the opportunity to connect with each other and build a supportive virtual community in Yammer. Yammer is a platform that connects leaders, communicators, and employees to build communities, share knowledge, and engage across the organization. Yammer allows you to set up a community specifically for new employees within the organizational platform.
 
-Naturally, employees come across information at different times in their onboarding process. Creating a space where new employees can build a community for themselves gives them the opportunity to share information as they come across it. In this virtual space, new employees can share resources, share ideas, and get to know each other. It also helps them build internal bonds that can last over the course of their career.
-
-Learn more about building communities in [Yammer](/yammer/get-started-with-yammer/newyammer-faq). 
+Naturally, employees come across information at different times in their onboarding process. Creating a space where new employees can build a community for themselves gives them the opportunity to share information as they come across it. In this virtual space, new employees can share resources, share ideas, and get to know each other. It also helps them build internal bonds that can last over the course of their career. Learn more about building communities in [Yammer](/yammer/get-started-with-yammer/newyammer-faq). 
 
 
 ### Ask for feedback using Microsoft Forms
