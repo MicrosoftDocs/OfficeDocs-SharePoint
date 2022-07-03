@@ -42,12 +42,12 @@ This article will  show you how to create a training solution that includes a du
 
 |Plan|Build|Launch|
 |:---:|:---:|:---:|
-|![Planning icon](media/th-lb2.png)|![Building icon](media/oe-10.png)|![Launching icon](media/oe-11.png)|
+|![Planning icon.](media/th-lb2.png)|![Building icon.](media/oe-10.png)|![Launching icon.](media/oe-11.png)|
 |- Understand your organizational needs  <br>  - List all learning objectives <br>  - Categorize by department, areas of expertise, and skill levels <br> - Identify timelines <br> - Define goals and outcomes|- Choose the best tools for your training and learning experience <br> -  Make sure all tools and experiences are accessible by all employees  <br> - Create a place where employees with similar learning objectives can connect|- Set realistic timelines and dates for completion   <br> - Notify employees of upcoming training and learning opportunities and initiatives  <br> - Gather insights from each platform used to measure overall effectiveness of training and learning experience|
 
 ## Plan a training and learning experience
 
-![VImage of a SharePoint site that focuses on training.](media/training-site-example.png)
+![Image of a SharePoint site that focuses on training.](media/training-site-example.png)
 
 **Planning considerations:**
 
@@ -57,9 +57,10 @@ This article will  show you how to create a training solution that includes a du
 
 - Depending on the organization, employees may be working across multiple regions and time zones. For live learning events, choose times that accommodate most employees.
 
-|Step 1: Understand your organizational needs|Step 2: List and categorize all learning objectives|Step 3: Define goals and outcomes|Step 4: Review Microsoft 365 Learning and Training tools|
+
+|![Understand your organizational needs icon.](media/lt-1.png)|![List learning objectives icon.](media/lt-3.png)|![Define goals and outcomes icon.](media/lt-2.png)|![Review M365 tools icon.](media/lt-4.png)
 |:---:|:---:|:---:|:---:|
-|![Understand your organizational needs icon](media/lt-1.png)|![List learning objectives icon](media/lt-3.png)|![Define goals and outcomes icon](media/lt-2.png)|![Review M365 tools icon](media/lt-4.png)
+|Step 1: Understand your organizational needs|Step 2: List and categorize all learning objectives|Step 3: Define goals and outcomes|Step 4: Review Microsoft 365 Learning and Training tools|
 
 ### Step 1: Understand your organizational needs
 
@@ -91,11 +92,11 @@ Build out the learning and training experience one platform at a time. The tools
 
 ### Use Viva Learning to curate learning experiences
 
-![Viva Learning homepage screenshot](media/viva-learning-example.png)
+![Viva Learning homepage screenshot.](media/viva-learning-example.png)
 
 [Viva Learning is an application for Microsoft Teams.](/viva/learning/overview-viva-learning) that allows users to discover, recommend, and access learning modules from different platforms to help users gain knowledge in any specific focus area. Viva Learning pulls content from LinkedIn Learning, Microsoft Learn, Microsoft 365 Training, and other partners. Use Viva Learning to curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily.
 
-![Iamge of a manager assigning a training in Viva Learning](media/viva-learning-assignment.png)
+![Iamge of a manager assigning a training in Viva Learning.](media/viva-learning-assignment.png)
 
 In Viva Learning, managers of an organization or team can assign learning and track the learning progress of each module. The Viva Learning home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. Learn more about [Viva Learning](https://www.microsoft.com/en-us/microsoft-viva/learning/?ef_id=21e9ec552f93177bad868d00eec92fd8:G:s&OCID=AID2200888_SEM_21e9ec552f93177bad868d00eec92fd8:G:s&msclkid=21e9ec552f93177bad868d00eec92fd8)
 
@@ -117,9 +118,7 @@ Many learning experiences require hands-on training. Some experiences are better
 
 Make this live event fun and engaging by giving employees an opportunity to communicate with each other in the Teams chat box or allow employees to ask questions on camera or through the moderated Q&A in Teams live events.
 
-Record each session so employees can review the learning material later, or so future employees can experience the session as well. Make this recording available through the SharePoint Learning and Training site or through the Viva Learning platform.
-
-Learn more about [Teams live events.](/microsoftteams/teams-live-events/what-are-teams-live-events).
+Record each session so employees can review the learning material later, or so future employees can experience the session as well. Make this recording available through the SharePoint Learning and Training site or through the Viva Learning platform. Learn more about [Teams live events.](/microsoftteams/teams-live-events/what-are-teams-live-events).
 
 ### Provide an opportunity for employees to learn from each other in communities on Yammer
 
