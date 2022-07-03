@@ -24,7 +24,7 @@ Review popular communication scenarios to get familiar with the different types 
 
 | Review scenarios and solutions    | Learn about methods |Scope audience   |Get started planning   |
 | :------------------: | :------------------: |:---------------:|:---------------:|
-| ![Image of a check list icon](media/task-check.png)  |   ![Image of a light bulb icon](media/bulb-blue.png) |   ![Image of a user in focus icon](media/icon-plan-personalize.png) | ![Image of a clipboard icon](media/icon-plan-plan.png) |
+| ![Image of a check list icon.](media/task-check.png)  |   ![Image of a light bulb icon.](media/bulb-blue.png) |   ![Image of a user in focus icon.](media/icon-plan-personalize.png) | ![Image of a clipboard icon.](media/icon-plan-plan.png) |
 | Learn about common communication scenarios|Review Microsoft 365 communication applications   | Identify audience, preferences, and size  |Get started planning for your specific scenario   |
 
 
