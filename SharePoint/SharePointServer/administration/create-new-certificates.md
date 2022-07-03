@@ -13,11 +13,11 @@ ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 88317397-e0cb-47c7-9093-7872bc685213
-description: "Learn how you can use Secure Sockets Layer (SSL) certificate management to monitor and manage the lifecycle of SSL certificates in your SharePoint farm."
+description: "Learn how you to create new SSL certificate."
 ---
 
  
-## Create new certificates
+# Create new certificates
 
 SharePoint Subscription Edition supports creating SSL certificate requests via the [New-SPCertificate](/powershell/module/sharepoint-server/new-spcertificate) PowerShell cmdlet. This is the first step in a three-step process to install a new SSL certificate.
 

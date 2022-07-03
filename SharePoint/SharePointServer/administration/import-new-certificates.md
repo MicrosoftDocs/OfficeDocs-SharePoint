@@ -13,11 +13,11 @@ ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 88317397-e0cb-47c7-9093-7872bc685213
-description: "Learn how you can use Secure Sockets Layer (SSL) certificate management to monitor and manage the lifecycle of SSL certificates in your SharePoint farm."
+description: "Learn how to import certificates."
 ---
 
  
-## Import certificates
+# Import certificates
 
 SharePoint supports both Rivest, Shamir, Adleman (RSA) and Elliptic Curve Cryptography (ECC) certificates. You can import certificates from Personal Exchange Format (PFX) (PKCS #12) files, P7B (PKCS #7) files, and CER files. Only PFX files will contain private keys for certificates, which are necessary for a server certificate to be assigned to an Internet Information Services (IIS) website. However, the entire certificate chain, from the end entity (leaf) certificate to the root certificate must be imported to SharePoint for SSL connections to be successful.
 

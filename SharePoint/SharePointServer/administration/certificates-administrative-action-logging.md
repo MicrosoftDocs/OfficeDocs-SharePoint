@@ -13,10 +13,10 @@ ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 88317397-e0cb-47c7-9093-7872bc685213
-description: "Learn how you can use Secure Sockets Layer (SSL) certificate management to monitor and manage the lifecycle of SSL certificates in your SharePoint farm."
+description: "Learn how the major certificate actions are logged in the SharePoint."
 ---
  
-## Certificates administrative action logging
+# Certificates administrative action logging
 
 Major certificate management actions are now logged in the SharePoint Administrative Actions log. The logging actions include:
 
