@@ -14,7 +14,7 @@ localization_priority: Priority
 ms.collection:
 - Strat_SP_modern
 - M365-collaboration
-- m365solution-spcomms
+- m365solution-corpcomms
 - m365solution-scenario
 search.appverid:
 - SPO160
