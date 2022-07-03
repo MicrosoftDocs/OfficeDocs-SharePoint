@@ -43,7 +43,7 @@ This article will  show you how to create a training solution that includes a du
 |Plan|Build|Launch|
 |:---:|:---:|:---:|
 |![Planning icon.](media/th-lb2.png)|![Building icon.](media/oe-10.png)|![Launching icon.](media/oe-11.png)|
-|- Understand your organizational needs  <br>  - List all learning objectives <br>  - Personalize the experience based on role and career stage <br> - Identify timelines <br> - Define goals and outcomes|- Choose the best tools for your training and learning experience <br> -  Make sure all tools and experiences are accessible by all employees  <br> - Create a place where employees with similar learning objectives can connect|- Set realistic timelines and dates for completion   <br> - Notify employees of upcoming training and learning opportunities and initiatives  <br> - Gather insights from each platform used to measure overall effectiveness of training and learning experience|
+|- Understand your organizational needs  <br>  - List all learning objectives <br>  - Personalize the experience based on role and career stage <br> - Identify timelines <br> - Define goals and outcomes|- Choose the best tools for your training and learning experience <br> -  Ensure tools and resources can be accessed by everyone  <br> - Create a place where employees with similar learning objectives can connect|- Set realistic dealines   <br> - Notify employees of upcoming training and learning opportunities and initiatives  <br> - Gather insights from each platform used to measure overall effectiveness of training and learning experience|
 
 ## Plan a training and learning experience
 
@@ -106,9 +106,7 @@ In Viva Learning, managers of an organization or team can assign learning and tr
 
 Create an internal communication site that acts as a home for the learning and training experience. This site should lay out resources, deliverables, and learning objectives in and organized way. This site should also contain the most up-to-date information to ensure the employee has everything needed to be successful. Try organizing action items on this site in a way that signals priority. List the things that need to be finished first at the top. This will help employees organize their learning and training to the best of their ability.
 
-Microsoft offers a new customizable [Learning Central SharePoint communication site template](https://support.microsoft.com/office/use-the-sharepoint-learning-central-site-template-8a38c30a-746c-4081-8781-3679d6a3c0f6) that can help get you started.
-
-Get started with [SharePoint site templates](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBH=Communication_site_templates).
+Microsoft offers a new customizable [Learning Central SharePoint communication site template](https://support.microsoft.com/office/use-the-sharepoint-learning-central-site-template-8a38c30a-746c-4081-8781-3679d6a3c0f6) that can help get you started. Get started with [SharePoint site templates](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBH=Communication_site_templates).
 
 ### Use Teams to hold live learning events
 
@@ -126,19 +124,17 @@ Record each session so employees can review the learning material later, or so f
 
 Give employees that have similar learning objectives the opportunity to connect with each other and build a supportive virtual community in Yammer. Yammer is a platform that connects leaders, communicators, and employees to build communities, share knowledge, and engage across the organization. Yammer allows you to set up a community specifically for employees within the same or similar disciplines.
 
-Naturally, employees come across information at different times in their learning and training process. Creating a space where new employees can build a community for themselves gives them the opportunity to share information as they come across it. In this virtual space, new employees can share resources, share ideas, and get to know each other. It also helps them build internal bonds that can last over the course of their career.
-
-Learn more about building communities in [Yammer](/yammer/get-started-with-yammer/newyammer-faq).
+Naturally, employees come across information at different times in their learning and training process. Creating a space where new employees can build a community for themselves gives them the opportunity to share information as they come across it. In this virtual space, new employees can share resources, share ideas, and get to know each other. It also helps them build internal bonds that can last over the course of their career. Learn more about building communities in [Yammer](/yammer/get-started-with-yammer/newyammer-faq).
 
 ### Make sure all tools and experiences are accessible
 
-Ensure each learning and training experience is accessible by [incorporating best practices across all selected Microsoft 365 tools](https://www.microsoft.com/microsoft-365/business/accessibility-tools). Make sure everything in your learning and training experience is visible and labeled properly. Make proper use of alternative text for images and graphics. Incorporate [transcripts](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b) in videos and training material.
+Ensure each learning and training experience is accessible by [incorporating accessibility best practices across all relevant Microsoft 365 tools](https://www.microsoft.com/microsoft-365/business/accessibility-tools). Make sure everything in your learning and training experience is visible and labeled properly. Use alternative text for images and graphics. Incorporate [transcripts](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b) in videos and training material.
 
 Share this experience with the right people. Make sure employees know how to access all the tools needed in the learning experience. Use all sharing options including email, Teams messages, Yammer posts, SharePoint web parts, Viva Learning, and [Viva Connections](/sharepoint/viva-connections-overview) to build awareness and increase accessibility.
 
 Ensure every employee and instructor has access to all tools and resources. Consider the unique needs of everyone involved in making sure the learning and training experience is successful. Stay informed about the specific time zones of every stakeholder to make sure all timelines and deliverables are feasible for everyone involved.
 
-Lastly, make the starting point and finish line clear. Review your experience to ensure employees know exactly where to start and when the experience has been completed successfully. This can be done within the experience, or by planning to generate an email through [Outlook](https://support.microsoft.com/outlook) that lets them know when they have finished each learning objective and if anything else is required of them.
+Lastly, make the starting point and ending point for each training opportunity. Review your experience to ensure employees know exactly where to start and when the experience has been completed successfully. This can be done within the experience, or by planning to generate an email through [Outlook](https://support.microsoft.com/outlook) that lets them know when they have finished each learning objective and if anything else is required of them.
 
 ## Launch a training and learning experience
 
