@@ -43,7 +43,7 @@ This article will  show you how to create a training solution that includes a du
 |Plan|Build|Launch|
 |:---:|:---:|:---:|
 |![Planning icon.](media/th-lb2.png)|![Building icon.](media/oe-10.png)|![Launching icon.](media/oe-11.png)|
-|- Understand your organizational needs  <br>  - List all learning objectives <br>  - Categorize by department, areas of expertise, and skill levels <br> - Identify timelines <br> - Define goals and outcomes|- Choose the best tools for your training and learning experience <br> -  Make sure all tools and experiences are accessible by all employees  <br> - Create a place where employees with similar learning objectives can connect|- Set realistic timelines and dates for completion   <br> - Notify employees of upcoming training and learning opportunities and initiatives  <br> - Gather insights from each platform used to measure overall effectiveness of training and learning experience|
+|- Understand your organizational needs  <br>  - List all learning objectives <br>  - Personalize the experience based on role and career stage <br> - Identify timelines <br> - Define goals and outcomes|- Choose the best tools for your training and learning experience <br> -  Make sure all tools and experiences are accessible by all employees  <br> - Create a place where employees with similar learning objectives can connect|- Set realistic timelines and dates for completion   <br> - Notify employees of upcoming training and learning opportunities and initiatives  <br> - Gather insights from each platform used to measure overall effectiveness of training and learning experience|
 
 ## Plan a training and learning experience
 
