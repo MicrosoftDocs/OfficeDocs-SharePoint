@@ -1,5 +1,5 @@
 ---
-title: "SSL certificate management operations"
+title: "View certificate default settings"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
@@ -15,10 +15,9 @@ ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 88317397-e0cb-47c7-9093-7872bc685213
 description: "Learn how you can use Secure Sockets Layer (SSL) certificate management to monitor and manage the lifecycle of SSL certificates in your SharePoint farm."
 ---
+ 
+## View certificate default settings
 
-# SSL certificate management operations
+SharePoint supports farm-wide default settings for certificate management. These include default properties for creating and renewing certificates and certificate health rule thresholds.
 
-The Secure Sockets Layer (SSL) certificate management feature allows you to monitor and manage the lifecycle of SSL certificates in your SharePoint farm, from acquisition and deployment to usage, expiration, and renewal.
-
-
-
+Use the [Get-SPCertificateSettings](/powershell/module/sharepoint-server/get-spcertificatesettings) PowerShell cmdlet to view the certificate management default settings.
