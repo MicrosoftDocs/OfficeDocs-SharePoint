@@ -27,30 +27,27 @@ description: "Learn how to build a learning and training experience for employee
 
 Learn how to build a training and learning experience that will keep employees and team members up to date with important skills and proficiencies required for professional success.
 
-Organizations can provide an end-to-end training and learning experience that provides the tools needed to ensure all employees have access to developmental material needed for the highest level of proficiency in any field.
-
-This article will  show you how to create a training solution, starting with planning your experience, building your experience, then launching an end-to-solution that includes a durable training site, online learning, virtual training events, promotion, and tracking insights and feedback to improve your experience overtime.
+This article will  show you how to create a training solution that includes a durable training site, online learning, virtual training events, promotion, and tracking insights and feedback to improve your experience overtime.
 
 **Create a learning and training experience by:**
 
 - Taking inventory of all organizational needs, learning objectives and goals, and identifying important timelines
-
 - Choosing the best tools that fit your organization's learning and training goals and objectives
-
 - Keeping employees up to date about important learning and training due dates and opportunities
-
 - Launching an accessible and scalable experience by ensuring employees know how to access modules, courses, and resources and asking for feedback to make improvements along the way
 
-Get started planning, building, and launching a training and learning experience with Microsoft 365 tools.
+
 
 ## Overview of creating a training and learning experience for employees
 
 |Plan|Build|Launch|
-|---|---|---|
+|:---:|:---:|:---:|
 |![Planning icon](media/th-lb2.png)|![Building icon](media/oe-10.png)|![Launching icon](media/oe-11.png)|
 |- Understand your organizational needs  <br>  - List all learning objectives <br>  - Categorize by department, areas of expertise, and skill levels <br> - Identify timelines <br> - Define goals and outcomes|- Choose the best tools for your training and learning experience <br> -  Make sure all tools and experiences are accessible by all employees  <br> - Create a place where employees with similar learning objectives can connect|- Set realistic timelines and dates for completion   <br> - Notify employees of upcoming training and learning opportunities and initiatives  <br> - Gather insights from each platform used to measure overall effectiveness of training and learning experience|
 
 ## Plan a training and learning experience
+
+![VImage of a SharePoint site that focuses on training.](media/training-site-example.png)
 
 **Planning considerations:**
 
@@ -61,7 +58,7 @@ Get started planning, building, and launching a training and learning experience
 - Depending on the organization, employees may be working across multiple regions and time zones. For live learning events, choose times that accommodate most employees.
 
 |Step 1: Understand your organizational needs|Step 2: List and categorize all learning objectives|Step 3: Define goals and outcomes|Step 4: Review Microsoft 365 Learning and Training tools|
-|---:|---:|---:|---:|
+|:---:|:---:|:---:|:---:|
 |![Understand your organizational needs icon](media/lt-1.png)|![List learning objectives icon](media/lt-3.png)|![Define goals and outcomes icon](media/lt-2.png)|![Review M365 tools icon](media/lt-4.png)
 
 ### Step 1: Understand your organizational needs
@@ -78,7 +75,7 @@ Every organization has its own variation of technical and soft skills that need 
 
 ### Step 4: Review Microsoft 365 Learning and Training tools
 
-- **Use Viva Learning to curate learning experiences.** Use Viva Learning to curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily.
+- **Use Viva Learning to curate learning experiences.** Use [Viva Learning to curate learning modules](/viva/learning/) for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily.
 
 - **Create a learning and development landing page using SharePoint.** Create a SharePoint communication site using the [Learning Central SharePoint Communication site template](https://support.microsoft.com/office/use-the-sharepoint-learning-central-site-template-8a38c30a-746c-4081-8781-3679d6a3c0f6). Use the site to direct employees to events, news, and information about required learning and extra-curricular resources.
 
@@ -92,15 +89,13 @@ Build out the learning and training experience one platform at a time. The tools
 
 ## Review learning and training tools
 
-### Use Viva Learning (Preview) to curate learning experiences
+### Use Viva Learning to curate learning experiences
 
 ![Viva Learning homepage screenshot](media/oe-5.png)
 
-Viva Learning (Preview) is an application for Microsoft Teams that allows users to discover, recommend, and access learning modules from different platforms to help users gain knowledge in any specific focus area. Viva Learning (Preview) pulls content from LinkedIn Learning, Microsoft Learn, Microsoft 365 Training, and other partners. Use Viva Learning to curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily.
+[Viva Learning is an application for Microsoft Teams](/viva/learning/overview-viva-learning) that allows users to discover, recommend, and access learning modules from different platforms to help users gain knowledge in any specific focus area. Viva Learning pulls content from LinkedIn Learning, Microsoft Learn, Microsoft 365 Training, and other partners. Use Viva Learning to curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily.
 
-In Viva Learning (Preview), managers of an organization or team can assign learning and track the learning progress of each module. The Viva Learning (Preview) home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries.
-
-Learn more about [Viva Learning (Preview)](https://www.microsoft.com/en-us/microsoft-viva/learning/?ef_id=21e9ec552f93177bad868d00eec92fd8:G:s&OCID=AID2200888_SEM_21e9ec552f93177bad868d00eec92fd8:G:s&msclkid=21e9ec552f93177bad868d00eec92fd8)
+In Viva Learning, managers of an organization or team can assign learning and track the learning progress of each module. The Viva Learning home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. Learn more about [Viva Learning](https://www.microsoft.com/en-us/microsoft-viva/learning/?ef_id=21e9ec552f93177bad868d00eec92fd8:G:s&OCID=AID2200888_SEM_21e9ec552f93177bad868d00eec92fd8:G:s&msclkid=21e9ec552f93177bad868d00eec92fd8)
 
 ### Create a learning and development landing page using SharePoint
 
