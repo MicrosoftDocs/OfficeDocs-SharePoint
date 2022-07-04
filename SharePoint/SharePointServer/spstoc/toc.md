@@ -40,6 +40,7 @@
 ##### [Replace a certificate assignment](../administration/replace-a-certificate-assignment.md)
 ##### [Remove certificates](../administration/remove-certificates.md)
 ##### [View certificates](../administration/view-certificates.md)
+##### [Export certificates](../administration/export-certificate.md)
 ##### [Outgoing SMTP support for client certificate authentication](../administration/outgoing-smtp-support-for-client-certificate-authentication.md)
 ##### [Renew certificates](../administration/renew-certificates.md)
 ##### [Rename certificate friendly names](../administration/rename-certificate-friendly-names.md)
