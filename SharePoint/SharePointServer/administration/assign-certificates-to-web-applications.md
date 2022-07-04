@@ -37,4 +37,6 @@ The `SPServerCertificatePipeBind` accepts the following values:
 - **String:** Serial number of the certificate.
 - **GUID:** ID property of the SPServerCertificate object.
 
-To assign a certificate to a web application when creating that web application or extending a web application to an additional zone through Central Administration, set "Use Server Sockets Layer (SSL)" to Yes, and then select the server certificate from the Server Certificate drop-down list.
+To assign a certificate to a web application, while creating that web application or extending a web application to another zone through Central Administration, then set "Use Server Sockets Layer (SSL)" to **Yes**.
+
+Select the **server certificate** from the **Server Certificate** drop-down list.
