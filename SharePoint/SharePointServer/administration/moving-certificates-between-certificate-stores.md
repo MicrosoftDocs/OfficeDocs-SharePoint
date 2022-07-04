@@ -13,10 +13,10 @@ ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 88317397-e0cb-47c7-9093-7872bc685213
-description: "Learn how you can use Secure Sockets Layer (SSL) certificate management to monitor and manage the lifecycle of SSL certificates in your SharePoint farm."
+description: "Learn how SharePoint supports moving certificates."
 ---
  
-## Moving certificates between certificate stores
+# Moving certificates between certificate stores
 
 SharePoint supports moving certificates between certificate stores using the [Move-SPCertificate](/powershell/module/sharepoint-server/move-spcertificate) PowerShell cmdlet.
 

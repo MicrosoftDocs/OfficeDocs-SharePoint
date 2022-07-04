@@ -13,10 +13,10 @@ ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 88317397-e0cb-47c7-9093-7872bc685213
-description: "Learn how you can use Secure Sockets Layer (SSL) certificate management to monitor and manage the lifecycle of SSL certificates in your SharePoint farm."
+description: "Learn how SSL certificate implements health analyzer."
 ---
 
-## New health analyzer rules for SSL certificates
+# New health analyzer rules for SSL certificates
 
 SharePoint has implemented the following four new health analyzer rules for SSL certificates:
 
