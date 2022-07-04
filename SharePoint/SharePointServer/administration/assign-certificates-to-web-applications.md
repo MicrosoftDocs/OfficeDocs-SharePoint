@@ -19,6 +19,8 @@ description: "Learn how to assign SharePoint-managed certificates.."
  
 # Assign certificates to web applications
 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
+
 SharePoint supports assigning SharePoint-managed certificates, which are imported by using the [Import-SPCertificate](/powershell/module/sharepoint-server/import-spcertificate) PowerShell cmdlet, to web applications with an SSL binding. The certificate must be in SharePoint's End Entity certificate store and the certificate's private key must also be imported. You can assign a certificate when the web application is first created or after it's created.
 
 A `-Certificate <SPServerCertificatePipeBind>` parameter has been added to the following cmdlets and commands:

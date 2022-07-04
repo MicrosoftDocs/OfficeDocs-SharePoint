@@ -18,6 +18,8 @@ description: "Learn how SSL certificate implements health analyzer."
 
 # New health analyzer rules for SSL certificates
 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
+
 SharePoint has implemented the following four new health analyzer rules for SSL certificates:
 
 1. **Certificate notification contacts haven't been configured** health rule that provides notification through Central Administration when certificates are in use and no certificate notification contacts have been configured. This health rule will run weekly. Certificate notification contacts receive emails about SSL certificate expirations and can be configured by customers through the Configure certificate management settings page.

@@ -18,6 +18,8 @@ description: "Learn how SharePoint supports finding the certificates."
  
 # View certificates
 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
+
 SharePoint supports finding certificates via the [Get-SPCertificate](/powershell/module/sharepoint-server/get-spcertificate) PowerShell cmdlet. Optional parameters are available to filter the results returned by this cmdlet.
 
 ```powershell

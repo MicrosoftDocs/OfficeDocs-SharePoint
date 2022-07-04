@@ -18,6 +18,8 @@ description: "Learn how SharePoint supports farm-wide default settings for certi
  
 # View certificate default settings
 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
+
 SharePoint supports farm-wide default settings for certificate management. These include default properties for creating and renewing certificates and certificate health rule thresholds.
 
 Use the [Get-SPCertificateSettings](/powershell/module/sharepoint-server/get-spcertificatesettings) PowerShell cmdlet to view the certificate management default settings.

@@ -18,6 +18,8 @@ description: "Learn how you can use Secure Sockets Layer (SSL) certificate manag
 
 # SSL certificate management in central administration
 
+[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
+
 Besides managing SSL certificates through PowerShell cmdlets, SharePoint also supports managing your SSL certificates in Central Administration. You'll see a new Certificates section in the Security landing page of Central Administration. Within this section you'll find links to **Manage certificates, Configure certificate management settings, and View certificate files**.
 
 The **Manage certificates** page is the main page for managing the certificates in your SharePoint farm. From here you'll have full access to all of the certificate management functionality including creating new certificates, renewing existing certificates, viewing certificates, importing and exporting certificates, and so on. You'll be able to filter and sort the list of certificates based on various criteria such as certificate store and expiration date.
