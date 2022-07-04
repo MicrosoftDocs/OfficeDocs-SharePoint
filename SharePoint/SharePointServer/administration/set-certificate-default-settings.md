@@ -13,7 +13,7 @@ ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 88317397-e0cb-47c7-9093-7872bc685213
-description: "Learn how SharePoint supports farm-wide default settings for certificate management."
+description: "Learn how SharePoint supports farm-wide default settings for certificate management by creating, renewing certificates, and certificate health rule thresholds."
 ---
  
 # Set certificate default settings
