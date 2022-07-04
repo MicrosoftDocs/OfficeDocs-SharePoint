@@ -1,5 +1,5 @@
 ---
-title: "Moving certificates between certificate stores"
+title: "Move certificates between certificate stores"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
@@ -16,7 +16,7 @@ ms.assetid: 88317397-e0cb-47c7-9093-7872bc685213
 description: "Learn how SharePoint supports moving certificates."
 ---
  
-# Moving certificates between certificate stores
+# Move certificates between certificate stores
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
 

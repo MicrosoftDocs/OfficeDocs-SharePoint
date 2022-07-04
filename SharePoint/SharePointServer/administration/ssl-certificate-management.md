@@ -35,7 +35,7 @@ This article focuses on the following SSL certificate management operations:
 - [Outgoing SMTP support for client certificate authentication](outgoing-smtp-support-for-client-certificate-authentication.md)
 - [Renew certificates](renew-certificates.md)
 - [Rename certificate friendly names](rename-certificate-friendly-names.md)
-- [Moving certificates between certificate stores](moving-certificates-between-certificate-stores.md)
+- [Move certificates between certificate stores](move-certificates-between-certificate-stores.md)
 - [View certificate default settings](view-certificate-default-settings.md)
 - [Set certificate default settings](set-certificate-default-settings.md)
 - [Certificates administration action logging](certificates-administrative-action-logging.md)

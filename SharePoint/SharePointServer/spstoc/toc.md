@@ -44,7 +44,7 @@
 ##### [Outgoing SMTP support for client certificate authentication](../administration/outgoing-smtp-support-for-client-certificate-authentication.md)
 ##### [Renew certificates](../administration/renew-certificates.md)
 ##### [Rename certificate friendly names](../administration/rename-certificate-friendly-names.md)
-##### [Moving certificates between certificate stores](../administration/moving-certificates-between-certificate-stores.md)
+##### [Move certificates between certificate stores](../administration/move-certificates-between-certificate-stores.md)
 ##### [View certificate default settings](../administration/view-certificate-default-settings.md)
 ##### [Set certificate default settings](../administration/set-certificate-default-settings.md)
 ##### [Certificates administrative action logging](../administration/certificates-administrative-action-logging.md)
