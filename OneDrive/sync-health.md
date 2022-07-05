@@ -45,7 +45,7 @@ Before getting started, be sure that you're familiar with the requirements neede
 
 - OneDrive sync app version 22.087 or later for Windows and macOS.
 
-- [Global Administrator](/microsoft-365/admin/add-users/about-admin-roles), Office Apps Administrator or Microsoft 365 Administrator role access is required to enable and set up the dashboard for your organization. After the feature is enabled by one of these roles, one can view the dashboard using [Global reader](/microsoft-365/admin/add-users/about-admin-roles) or Reports reader access. To learn more about administrator roles and permissions in Microsoft 365, visit [About Admin Roles](/microsoft-365/admin/add-users/about-admin-roles).
+- [Global Administrator](/microsoft-365/admin/add-users/about-admin-roles), Office Apps Administrator or Microsoft 365 Administrator role access is required to enable and set up the dashboard for your organization. After the feature is enabled by one of these roles, one can also view the dashboard using [Global reader](/microsoft-365/admin/add-users/about-admin-roles) or Reports reader access. To learn more about administrator roles and permissions in Microsoft 365, visit [About Admin Roles](/microsoft-365/admin/add-users/about-admin-roles).
 
 - Devices in your organization should allow connections to `https://clients.config.office.net`.
 
