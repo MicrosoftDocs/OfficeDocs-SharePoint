@@ -1,8 +1,8 @@
 ---
 title: "Enable conditional access support in the OneDrive sync app"
 ms.reviewer: 
-ms.author: adjoseph
-author: adeejoseph
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -19,6 +19,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- onedrive-toc
 ms.assetid: 028d73d7-4b86-4ee0-8fb7-9a209434b04e
 description: "In this article, you'll learn how to enable conditional access in the new OneDrive sync app."
 ---

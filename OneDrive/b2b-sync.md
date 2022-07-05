@@ -1,8 +1,8 @@
 ---
 title: "B2B Sync"
 ms.reviewer: cagreen
-ms.author: adjoseph
-author: adeejoseph
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -13,7 +13,9 @@ ms.localizationpriority: medium
 ms.collection:
 - Strat_OD_admin
 - M365-collaboration
-ms.custom: admindeeplinkSPO
+ms.custom:
+- admindeeplinkSPO
+- onedrive-toc
 search.appverid:
 - ODB160
 - ODB150
@@ -28,7 +30,7 @@ The OneDrive sync app now lets users sync libraries or folders in Microsoft Shar
 Azure Active Directory (AAD) guest accounts play a key role in making B2B Collaboration possible. A guest account at one organization links to a member account at another organization. Once created, a guest account allows Microsoft 365 services like OneDrive and SharePoint to grant a guest permission to sites and folders the same way a member within the organization is granted permission. Since the accounts at two organizations are linked, the user only needs to remember the username and password for the account at their organization. As a result, a single sign-in to their account enables access to content from their own organization and from any other organizations that have created guest accounts for them.
 
 > [!IMPORTANT]
-> We recommend that you sign up for the [SharePoint and OneDrive integration with Azure AD B2B](/sharepoint/sharepoint-azureb2b-integration) to help ensure that the required Azure AD guest account for the share recipient is created in your organization's directory.
+> We recommend that you enable [SharePoint and OneDrive integration with Azure AD B2B](/sharepoint/sharepoint-azureb2b-integration) to help ensure that the required Azure AD guest account for the share recipient is created in your organization's directory.
 
 ## B2B Sync requirements
 
@@ -90,7 +92,7 @@ You can change your organization-level sharing settings in two different places 
 - In the Microsoft 365 admin center, on the Org settings page > SharePoint.
 
 > [!IMPORTANT]
-> If you allow Anyone links (sometimes referred to as "anonymous access" or "shareable"), these links do not create guest accounts and therefore the external share recipient will not be able to leverage B2B Sync when receiving that link type.
+> If you allow Anyone links (sometimes referred to as "anonymous access" links), these links do not create guest accounts and therefore the external share recipient will not be able to leverage B2B Sync when receiving that link type.
 
 For more info, see [External sharing overview](/sharepoint/external-sharing-overview).
 
@@ -133,7 +135,7 @@ Sites and folders can be shared in different ways in SharePoint and OneDrive:
 B2B Sync works with all these methods of sharing. It has only the following requirements:
 
 - For guests to sync shared content, the content must be shared at the site or folder level. Guests can't sync files that are shared individually (for example, from the Office apps).
-- B2B sync works only when guest accounts are created in the organization, and when the recipient has an Azure AD account. It doesn't work when users share by creating an Anyone link (also known as "anonymous access" link or "shareable" link), or when they share with people who have a Microsoft account or other personal account.
+- B2B sync works only when guest accounts are created in the organization, and when the recipient has an Azure AD account. It doesn't work when users share by creating an Anyone link (also known as "anonymous access" link), or when they share with people who have a Microsoft account or other personal account.
 
 ### Add guests to SharePoint sites
 

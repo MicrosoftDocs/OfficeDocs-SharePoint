@@ -1,8 +1,8 @@
 ---
 title: "OneDrive sync reports in the Apps Admin Center"
 ms.reviewer: dmalayeri
-ms.author: adjoseph
-author: adeejoseph
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -16,6 +16,7 @@ ms.collection:
 - m365initiative-healthyonedrive
 ms.custom:
 - seo-marvel-apr2020
+- onedrive-toc
 search.appverid:
 - ODB160
 - ODB150

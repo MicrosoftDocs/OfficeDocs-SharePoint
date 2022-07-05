@@ -151,6 +151,9 @@ When this setting is on, an incremental check of the SharePoint target environme
 |Source is a file share.|Validation for migration will be based on the file/folder path.|
 |Source is an on-premises SharePoint Server.|Validation for migration will be based on list item GUID. Use the folder path as a fallback.|
 
-## Next step
 
-[**Step 3: Monitor and reporting status of migrations tasks**](using-the-sharepoint-migration-tool-reports.md)
+>[!Important]
+>We strongly recommend that you do not rename or move migrated files before the final migration has been completed.  Doing so will result in files being overwritten.
+
+
+## [**Step 3: Monitor and reporting status of migrations tasks**](using-the-sharepoint-migration-tool-reports.md)
