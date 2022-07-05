@@ -45,7 +45,7 @@ Before getting started, be sure that you're familiar with the requirements neede
 
 - OneDrive sync app version 22.087 or later for Windows and macOS.
 
-- [Global Administrator role](/microsoft-365/admin/add-users/about-admin-roles) or [Office apps admin role](/microsoft-365/admin/add-users/about-admin-roles) to set up the dashboard. After setup, only [Global reader role](/microsoft-365/admin/add-users/about-admin-roles) is required to view the dashboard.
+- [Global Administrator](/microsoft-365/admin/add-users/about-admin-roles), Office Apps Administrator or Microsoft 365 Administrator role access is required to enable and set up the dashboard for your organization. After the feature is enabled by one of these roles, one can view the dashboard using [Global reader](/microsoft-365/admin/add-users/about-admin-roles) or Reports reader access. To learn more about administrator roles and permissions in Microsoft 365, visit [About Admin Roles](/microsoft-365/admin/add-users/about-admin-roles).
 
 - Devices in your organization should allow connections to `https://clients.config.office.net`.
 
@@ -77,7 +77,7 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 
 6. Verify that a **Tenant Association Key** is present in the text field. If the field is empty, select **Generate new key**.
    :::image type="content" source="media/tenant-key-image.png" alt-text="Screenshot of Tenant Association Key under Preview setup.":::
-   
+
     > [!NOTE]
     > When you generate a new key for the first time, it can take up to 30 seconds for it to appear.
 
@@ -150,8 +150,8 @@ This tab provides how-to steps for enabling sync reports on macOS devices.
 
 9. Use the Terminal app to deploy the EnableSyncAdminReports setting onto your local computer.
 
-    The example for this setting in the .plist file is:
-<br/>\<key\>EnableSyncAdminReports\</key\><br/>\<(Bool)/\>
+    Enter the following preference key to enable the setting:
+<br/>\<key\>EnableSyncAdminReports\</key\><br/>\<true/\>
 
 10. Refresh the preferences cache.
 
@@ -254,13 +254,17 @@ Use this section to troubleshoot if the OneDrive sync reports don't appear after
 > [!IMPORTANT]
 > If you enable the EnableSyncAdminReports setting on devices that don't meet the [requirements](#requirements), it will have no effect. The app won't send reports.
 
-1. Confirm that the sync app is on the Insiders or Production ring. Run Command Prompt as an administrator, and then run the following command:  
+1. Confirm that the sync app is on the Insiders or Production ring.
+
+Confirm with Command Prompt:
+
+Windows users should open Command Prompt as an administrator, then run the following command:  
 
     `reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v GPOSetUpdateRing`
 
     If the output from the script is **not** `dword:00000000`, your device is on the Insiders or Production ring.
 
-2. Confirm that the SyncAdminReports setting is applied to the device. Run Command Prompt as an administrator, and then run the following command:
+2. Confirm that the EnableSyncAdminReports setting is applied to the device. Run Command Prompt as an administrator, and then run the following command:
 
     `reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports`
 
@@ -278,7 +282,7 @@ If you encounter a problem with viewing the report dashboard, first verify that 
 
 If problems persist after troubleshooting, [open a support ticket with Microsoft](/microsoft-365/admin/contact-support-for-business-products). Make sure that the device isn't powered off during this period so that the sync app can still run and send a health report.
 
-For quick investigations, be sure to have the date and time when the SyncAdminReports setting was enabled and either the user’s email or the OneDrive device ID available in your issue report.
+For quick investigations, be sure to have the date and time when the EnableSyncAdminReports setting was enabled and either the user’s email or the OneDrive device ID available in your issue report.
 
 To get the OneDrive device ID, select the OneDrive sync app in the notification area > **Help & Settings** > **Settings** > **About**.
 
