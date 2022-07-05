@@ -12,6 +12,7 @@ ms.custom:
 - 'O365E_ODACStorage'
 - 'seo-marvel-apr2020'
 - admindeeplinkSPO
+- onedrive-toc
 ms.service: one-drive
 ms.localizationpriority: medium
 ms.collection: 

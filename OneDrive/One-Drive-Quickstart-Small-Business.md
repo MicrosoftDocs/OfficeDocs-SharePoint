@@ -18,6 +18,7 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
+- onedrive-toc
 description: "This article is a quickstart guide on how to get started with and set up OneDrive for small businesses."
 ---
 
@@ -96,7 +97,7 @@ User adoption is important to the overall success of any new application. Ideall
 
 Personally showing your users how to save and share documents in OneDrive tends to be the most effective option for driving adoption, given that you'll likely be performing manual installations. The primary value proposition for small businesses is file availability and redundancy. A document saved on local storage can be lost with a device; a document saved to OneDrive cannot. Simply having this discussion with your users beforehand, coupled with demonstrating the application's ease of use, can drive positive outcomes for this effort.
 
-For information about a more formal Microsoft 365 user adoption strategy, see the [Microsoft 365 End User Adoption Guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Microsoft%20365%20User%20Adoption%20Guide.pdf). For more information about driving user engagement through a similar, more formal process, see [Success Factors for Office 365 End User Engagement](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Resources/Office365_AdoptionBrochure_v2.0_Screen.pdf). You can also contribute to or comment on adoption-related ideas in the [Driving Adoption Tech Community](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption).
+For information about a more formal Microsoft 365 user adoption strategy, see the [Microsoft 365 End User Adoption Guide](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3cNVB). For more information about driving user engagement through a similar, more formal process, see [Success Factors for Office 365 End User Engagement](https://techcommunity.microsoft.com/t5/driving-adoption/success-factors-for-office-365-end-user-adoption-whitepaper/m-p/38350). You can also contribute to or comment on adoption-related ideas in the [Driving Adoption Tech Community](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption).
 
 ## Install and set up OneDrive apps
 

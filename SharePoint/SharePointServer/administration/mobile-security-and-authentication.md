@@ -136,20 +136,19 @@ The following tables detail the authentication types supported for browsers, One
 This section provides authentication guidance and considerations for the SharePoint Newsfeed app. This includes information for on-premises based deployments, and using SharePoint in Microsoft 365.
 
 The following table details the authentication types supported for the SharePoint Newsfeed App in SharePoint Server 2013. For the following, OrgID refers to Microsoft Online Services ID, the identity provider for Microsoft 365. Also, MSOFBA refers to Microsoft Office Forms Based Authentication.
+  
+**Table: Mobile authentication support matrix for the SharePoint Newsfeed App**\
 
-**Table: Mobile authentication support matrix for the SharePoint Newsfeed App**
-
-|SharePoint Infrastructure|Client side|Mobile devices|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
-|---|---|---|---|---|---|---|---|---|
-|**Authentication Type**|**Authentication Protocol**|**ID Provider**|**SharePoint deployment**|**Handled through:**|**Windows Phone 7.5 Apps**|**Windows Phone 8 Apps**|**Windows 8 Apps**|**iOS 6.x or later versions Apps**|
-|**Windows Authentication**|NTLM|Active Directory|On-premises|NTLM|No|No|Yes|Yes|
-|**Basic Authentication**||Active Directory|On-premises, extranet|Basic Authentication|Yes|Yes|No|Yes (https)|
-|**Forms-Based Authentication (FBA)**|FBA|Active Directory, LDAP, SQL|On-premises, extranet|MSOFBA|Yes|Yes|No|Yes|
-||FBA|OrgID|SharePoint, hybrid-based scenarios|MSOFBA|Yes|Yes|No|Yes|
-||FBA|OrgID|SharePoint, hybrid-based scenarios|Active Authentication(IDCRL)|No|No|Yes|Yes|
-|**SAML (token-based)**|SAML|WS-Federation 1.1 compatible Identity Provider|On-premises, SharePoint in Microsoft 365, hybrid-based scenarios|MSOFBA|Yes|Yes|No|Yes|
-||SAML|WS-Federation 1.1 compatible Identity Provider|On-premises, SharePoint in Microsoft 365, hybrid -based scenarios|Active Authentication(IDCRL)|No|No|Yes|Yes|
-
+|**Authentication type** <br/> |**Authentication protocol** <br/> |**ID provider** <br/> |**SharePoint deployment** <br/> |**Handled through:** <br/> |**Windows Phone 7.5 Apps** <br/> |**Windows Phone 8 Apps** <br/> |**Windows 8 Apps** <br/> |**iOS 6.x or later versions Apps** <br/> |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|**Windows Authentication** <br/> |NTLM  <br/> |Active Directory  <br/> |On-premises  <br/> |NTLM  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |
+|Basic Authentication  <br/> |HTTPS   <br/> |Active Directory  <br/> |On-premises, extranet  <br/> |Basic Authentication  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes (https)|
+|**Forms-Based Authentication (FBA)** <br/> |FBA  <br/> |Active Directory, LDAP, SQL  <br/> |On-premises, extranet  <br/> |MSOFBA  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |
+|FBA  <br/> |FBA  <br/> |OrgID  <br/> |SharePoint, hybrid-based scenarios  <br/> |MSOFBA  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes|
+|FBA  <br/> |FBA  <br/> |OrgID  <br/> |SharePoint, hybrid-based scenarios  <br/> |Active Authentication(IDCRL)  <br/> |No  <br/> |No  <br/> |Yes  <br/> | Yes|
+|**SAML (token-based)** <br/> |SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |On-premises, SharePoint in Microsoft 365, hybrid-based scenarios  <br/> |MSOFBA  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |
+|SAML  <br/> |SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |On-premises, SharePoint in Microsoft 365, hybrid -based scenarios  <br/> |Active Authentication(IDCRL)  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Yes|
+   
 > [!IMPORTANT]
 > For federated scenarios in SharePoint in Microsoft 365, only Active Directory Federation Services (ADFS) 2.0 is supported. During the setup process it is necessary to support a passive federation authentication URI of:  *"urn:oasis:names:tc:SAML:2.0:ac:classes:Password"*  .
 

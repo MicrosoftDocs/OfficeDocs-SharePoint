@@ -40,7 +40,7 @@ Sign in to your Dropbox for Business administrator account to connect to your Mi
 
 </br></br>
 
-[**Step 2: Scan and assess**](mm-Dropbox-step2-scan-assess.md)
+## [**Step 2: Scan and assess**](mm-Dropbox-step2-scan-assess.md)
 
 </br></br>
 
