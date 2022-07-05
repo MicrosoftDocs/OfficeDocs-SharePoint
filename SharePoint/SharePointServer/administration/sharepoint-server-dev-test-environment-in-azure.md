@@ -429,7 +429,7 @@ From a browser on your local computer, access **http://**\<DNS name of the spVM 
 
 When you are ready to design a production SharePoint Server farm in Azure, see [Designing a SharePoint Server farm in Azure](designing-a-sharepoint-server-farm-in-azure.md).
   
-When you are ready to deploy a production-ready, high availability SharePoint Server 2016 farm in Azure, see [Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md).
+When you are ready to deploy a production-ready, high availability SharePoint Server 2016 farm in Azure, see [Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure](deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md).
 
 To start developing Low or High Trust Addins, you must first configure an App Domain. See [Configure an environment for apps for SharePoint Server](configure-an-environment-for-apps-for-sharepoint.md).
   
@@ -464,6 +464,6 @@ Start-AzVM -Name spVM -ResourceGroupName $rgName
 
 [Designing a SharePoint Server farm in Azure](designing-a-sharepoint-server-farm-in-azure.md)
   
-[Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md)
+[Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure](deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md)
 
 [Cloud adoption Test Lab Guides (TLGs)](/office365/enterprise/cloud-adoption-test-lab-guides-tlgs) 

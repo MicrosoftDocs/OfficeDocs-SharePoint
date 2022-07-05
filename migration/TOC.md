@@ -141,9 +141,9 @@
 #### [Active Directory Identity Scan](sharepoint-migration-identity-mapping-active-directory-identity-scan.md)
 #### [Azure Active Directory Identity Scan](sharepoint-migration-identity-mapping-tool-azure-active-directory-identity-scan.md)
 #### [SharePoint Identity Scan](sharepoint-migration-identity-mapping-tool-sharepoint-identity-scan.md)
-### SPMT Migration Scenario Guides
-#### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)
-#### [SharePoint Server team sites Migration Guide](sp-teams-sites-migration-guide.md)
+## SPMT Migration Scenario Guides
+### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)
+### [SharePoint Server team sites Migration Guide](sp-teams-sites-migration-guide.md)
 ## Other migrations (Legacy Mover tool)
 ### [Mover.io retirement timeline](mover-retirement-timeline.md)
 ### [Mover managed migration guide](mover-managed-migration-guide.md)

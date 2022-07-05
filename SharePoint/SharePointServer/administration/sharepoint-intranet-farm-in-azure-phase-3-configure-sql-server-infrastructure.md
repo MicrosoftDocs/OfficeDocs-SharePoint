@@ -25,7 +25,7 @@ description: "Configure the SQL Server infrastructure to host a high-availabilit
   
 In this phase of deploying an intranet-only SharePoint Server 2016 farm in Azure infrastructure services, you create and configure the two SQL Server virtual machines and the cluster majority node, and then combine them into a Windows Server cluster.
   
-You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 4: Configure SharePoint servers](sharepoint-intranet-farm-in-azure-phase-4-configure-sharepoint-servers.md). See [Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](./deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md) for all of the phases. 
+You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 4: Configure SharePoint servers](sharepoint-intranet-farm-in-azure-phase-4-configure-sharepoint-servers.md). See [Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure](./deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md) for all of the phases. 
   
 > [!NOTE]
 > These instructions use a SQL Server image in the Azure image gallery and you are charged ongoing costs for the use of the SQL Server license. It is also possible to create virtual machines in Azure and install your own SQL Server licenses, but you must have Software Assurance and License Mobility to use your SQL Server license on a virtual machine, including an Azure virtual machine. 
@@ -276,7 +276,7 @@ Note that you must supply domain account credentials after running the **Add-Com
   
 ## Create the Windows server cluster
 
-SQL Server AlwaysOn Availability Groups rely on the Windows Server Failover Clustering (WSFC) feature of Windows Server. The feature allows several machines to participate as a group in a cluster. When one machine fails, a second machine is ready to take its place. Therefore the first task is to enable the Failover Clustering feature on all of the participating machines, which include:
+SQL Server Always On Availability Groups rely on the Windows Server Failover Clustering (WSFC) feature of Windows Server. The feature allows several machines to participate as a group in a cluster. When one machine fails, a second machine is ready to take its place. Therefore the first task is to enable the Failover Clustering feature on all of the participating machines, which include:
   
 - The primary SQL server
     
@@ -344,11 +344,11 @@ Due to current non-RFC-compliant behavior by DHCP in Azure, creation of a WSFC c
     
 If you are using a cloud witness, see [Deploy a Cloud Witness for a Failover Cluster](/windows-server/failover-clustering/deploy-cloud-witness).
   
-## Enable AlwaysOn Availability Groups
+## Enable Always On Availability Groups
 
-The next step is to enable AlwaysOn Availability Groups using the SQL Server Configuration Manager. Note that an availability group in SQL Server differs from an Azure availability set. An availability group contains databases that are highly-available and recoverable. An Azure availability set allocates virtual machines to different fault domains. For more information about fault domains, see [Manage the Availability of Virtual Machines](/azure/virtual-machines/windows/manage-availability).
+The next step is to enable Always On Availability Groups using the SQL Server Configuration Manager. Note that an availability group in SQL Server differs from an Azure availability set. An availability group contains databases that are highly-available and recoverable. An Azure availability set allocates virtual machines to different fault domains. For more information about fault domains, see [Manage the Availability of Virtual Machines](/azure/virtual-machines/windows/manage-availability).
   
-Use these steps to enable AlwaysOn Availability Groups on SQL Server:
+Use these steps to enable Always On Availability Groups on SQL Server:
   
 1. Connect to the primary SQL server using the sp_install account, or some other account that has sysadmin server role on the SQL server.
     
@@ -358,7 +358,7 @@ Use these steps to enable AlwaysOn Availability Groups on SQL Server:
     
 4. In the contents pane, double-click **SQL Server (MSSQLSERVER)**.
     
-5. In **SQL Server (MSSQLSERVER) Properties**, click the **AlwaysOn High Availability** tab, select **Enable AlwaysOn Availability Groups**, click **Apply**, and then click **OK** when prompted. Do not close the properties window yet. 
+5. In **SQL Server (MSSQLSERVER) Properties**, click the **Always On High Availability** tab, select **Enable Always On Availability Groups**, click **Apply**, and then click **OK** when prompted. Do not close the properties window yet. 
     
 6. Click **Log On** tab, ensure the **This Account** radio button is selected, then type \<your domain>**\sqlservice** in **Account Name**. Type the sqlservice account password in **Password** and **Confirm password**, and then click **OK**.
     
@@ -380,7 +380,7 @@ Use [SharePoint Intranet Farm in Azure Phase 4: Configure SharePoint servers](sh
 
 #### Other Resources
 
-[Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](./deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md)
+[Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure](./deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md)
   
 [SharePoint Server in Microsoft Azure](./sharepoint-server-in-microsoft-azure.md)
   

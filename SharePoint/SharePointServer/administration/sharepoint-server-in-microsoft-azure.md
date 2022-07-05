@@ -68,7 +68,7 @@ To get your hands on SharePoint Server farm in Azure infrastructure services, se
   
 ## Deployment
 
-See [Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md) for step-by-step instructions on how to build out this high-availability intranet production farm in Azure. 
+See [Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure](deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md) for step-by-step instructions on how to build out this high-availability intranet production farm in Azure. 
   
 ![Phase 4 of the SharePoint Server highly-available farm in Azure with SharePoint servers](../media/8f421518-773f-4b4d-8084-005d8a50c38e.png)
   

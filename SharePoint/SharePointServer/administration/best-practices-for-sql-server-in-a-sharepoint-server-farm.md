@@ -88,20 +88,20 @@ For guidance about highly available databases that use mirroring, see [Database 
 
 ### SQL Server Failover Clustering and Always On Availability Groups
 
-SQL Server 2012 introduced the AlwaysOn Availability Groups feature. This feature is a high availability and disaster recovery solution that's an alternative to database mirroring and log shipping solutions. AlwaysOn Availability Groups now support up to nine availability replicas.
+SQL Server 2012 introduced the Always On Availability Groups feature. This feature is a high availability and disaster recovery solution that's an alternative to database mirroring and log shipping solutions. Always On Availability Groups now support up to nine availability replicas.
 
 > [!NOTE]
 > Database mirroring will be deprecated in future versions of SQL Server. We recommend using Always On Availability Groups.
 
-AlwaysOn Availability Groups require a Windows Server Failover Clustering (WSFC) cluster. A WSFC resource group is created for every availability group that is created. For more information, see the following resources:
+Always On Availability Groups require a Windows Server Failover Clustering (WSFC) cluster. A WSFC resource group is created for every availability group that is created. For more information, see the following resources:
 
-- [AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server?viewFallbackFrom=sql-server-2014)
+- [Always On Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server?viewFallbackFrom=sql-server-2014)
 
-- [Overview of AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/overview-of-always-on-availability-groups-sql-server)
+- [Overview of Always On Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/overview-of-always-on-availability-groups-sql-server)
 
 - [Failover Clustering and Always On Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/failover-clustering-and-always-on-availability-groups-sql-server)
 
-- [Configure SQL Server AlwaysOn Availability Groups for SharePoint Server](configure-an-alwayson-availability-group.md)
+- [Configure SQL Server Always On Availability Groups for SharePoint Server](configure-an-alwayson-availability-group.md)
 
 ## Design storage for optimal throughput and manageability
 

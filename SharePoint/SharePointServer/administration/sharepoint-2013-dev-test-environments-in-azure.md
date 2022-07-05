@@ -34,7 +34,7 @@ The high-availability SharePoint farm consists of nine virtual machines hosted i
   
 ![The nine servers of the SharePoint 2013 High-Availability Farm in Azure.](../media/5299635d-cf07-44f4-97a6-cb97a0137a2f.png)
   
-You can use the high-availability farm configuration to test higher client loads, high availability of the external SharePoint site, and SQL Server AlwaysOn Availability Groups for a SharePoint farm. You can also use this configuration for SharePoint app development in a high-availability environment.
+You can use the high-availability farm configuration to test higher client loads, high availability of the external SharePoint site, and SQL Server Always On Availability Groups for a SharePoint farm. You can also use this configuration for SharePoint app development in a high-availability environment.
   
 > [!NOTE]
 > You cannot create the SharePoint 2013 non-HA Farm or SharePoint 2013 HA Farm with an Azure Free Trial. 
