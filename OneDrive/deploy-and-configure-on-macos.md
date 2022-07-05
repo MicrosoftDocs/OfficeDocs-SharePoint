@@ -144,7 +144,7 @@ The example for this setting in the .plist file is:
 <a name="BlockTenantList"> </a>
 This setting prevents the users from uploading files to organizations that are included in the **blocked tenant IDs** list.
 
-If you enable this setting, the users get an error if they attempt to add an account from an organization that is blocked. If a user has already added an account for a blocked organization, the files stop syncing. This setting does NOT work if you have **Allow syncing OneDrive accounts for only specific organizations** setting enabled. Do **NOT** enable both settings at the same time.
+If you enable this setting, the users get an error if they attempt to add an account from an organization that is blocked. If a user has already added an account for a blocked organization, the files stop syncing. This setting does NOT work if you've **Allow syncing OneDrive accounts for only specific organizations** setting enabled. Do **NOT** enable both settings at the same time.
 
 Enable this setting by defining IDs for the **TenantID** parameter, which determines the tenants to whom the **block tenant** setting is applicable. Also set the boolean value to **True** for the ID of every tenant you want to prevent from syncing with the OneDrive and SharePoint files and folders.
 
@@ -192,7 +192,7 @@ The example for this setting in the .plist file is:
 
 This setting determines whether or not the Sync client can automatically sign in.
 
-If you set this setting's value to 1, prevents Sync from automatically signing with an existing AAD credential that is made available to Microsoft applications
+If you set this setting's value to 1, prevents Sync from automatically signing with an existing Microsoft Azure Active Directory (Azure AD) credential that is made available to Microsoft applications.
 
 The example for this setting in the .plist file is:
 ```xml
@@ -206,7 +206,7 @@ The example for this setting in the .plist file is:
 
 This setting prevents toasts from appearing when applications cause file contents to be downloaded.
 
-If you set the setting's value to **True**, toasts do not appear when applications trigger the download of file contents.
+If you set the setting's value to **True**, toasts don't appear when applications trigger the download of file contents.
 
 The example for this setting in the .plist file is:
 ```xml
@@ -361,7 +361,7 @@ This setting prevents users from moving their Documents and Desktop folders to a
   
 If you enable this setting, users aren't prompted with a window to protect their Desktop and Documents folders, and the *Manage backup* command is disabled. If the user has already moved their Desktop and Documents folders, the files in those folders will remain in OneDrive. To redirect the Desktop and Documents folders back to the user's device, select "No." This setting doesn't take effect if you've enabled "KFMOptInWithWizard" or "KFMSilentOptIn".
 
-If you set this setting's value to 1, it will prevent Folder Backup.  It you set the value to 2, it will redirect any  folders previously used for Folder Backup back to the user’s device and stop the setting from running further.
+If you set this setting's value to 1, it will prevent Folder Backup.  If you set the value to 2, it will redirect any  folders previously used for Folder Backup back to the user’s device and stop the setting from running further.
 
 The example for this setting in the .plist file is:
 ```xml
@@ -462,7 +462,7 @@ The example for this setting in the .plist file is:
 
 This setting determines whether or not the client should set up sync for SharePoint Server or SharePoint in Microsoft 365 first during the first-run scenario when the account is the same for both SharePoint Server on-premises and SharePoint in Microsoft 365 in a hybrid scenario.
 
-If you set this setting's value to **1**, it is an indication that OneDrive should set up SharePoint Server on-premises first, followed by SharePoint in Microsoft 365.
+If you set this setting's value to **1**, it's an indication that OneDrive should set up SharePoint Server on-premises first, followed by SharePoint in Microsoft 365.
 
 The example for this setting in the .plist file is:
 ```xml
@@ -480,7 +480,7 @@ If this setting is enabled, you can specify a TenantName that is the name the fo
    OneDrive – TenantName (specified by you)
    TenantName (specified by you)
 
-If you do not specify any TenantName, the folder will use the first segment of the FrontDoorURL as its name. For example, https<span>://</span>Contoso.SharePoint.com will use Contoso as the Tenant Name in the following convention:
+If you don't specify any TenantName, the folder will use the first segment of the FrontDoorURL as its name. For example, https<span>://</span>Contoso.SharePoint.com will use Contoso as the Tenant Name in the following convention:
    OneDrive – Contoso
    Contoso
 
