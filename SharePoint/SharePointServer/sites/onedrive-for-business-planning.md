@@ -20,15 +20,15 @@ ms.assetid: c033a091-2c08-4d20-8d3f-783317d718fa
 description: "Learn about things you need to consider when planning to set up Microsoft OneDrive in a SharePoint Server on-premises environment."
 ---
 
-# Plan for Microsoft OneDrive in SharePoint Server
+# Plan for Microsoft OneDrive in SharePoint Server Subscription Edition
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
     
-## OneDrive - Microsoft 365 or SharePoint Server
+## OneDrive - Microsoft 365 or SharePoint Server Subscription Edition
 <a name="section1"> </a>
 
-One of the first planning considerations you should make is if you truly want to use Microsoft OneDrive in SharePoint Server, or if you would be better suited to use Microsoft OneDrive. Many companies select to use Microsoft OneDrive in an on-premises environment due to industry restrictions (for example, finance or government), or business rules that prohibit transmitting their data over the internet. If your company isn't restricted by either, you should also explore the possibility of using Microsoft OneDrive. The key benefits in using Microsoft OneDrive is that you only need an internet connection to use it, versus being connected to your network, and that user storage is provided by your Microsoft 365 service.
+One of the first planning considerations you should make is if you truly want to use Microsoft OneDrive in SharePoint Server Subscription Edition, or if you would be better suited to use Microsoft OneDrive. Many companies select to use Microsoft OneDrive in an on-premises environment due to industry restrictions (for example, finance or government), or business rules that prohibit transmitting their data over the internet. If your company isn't restricted by either, you should also explore the possibility of using Microsoft OneDrive. The key benefits in using Microsoft OneDrive is that you only need an internet connection to use it, versus being connected to your network, and that user storage is provided by your Microsoft 365 service.
   
 > [!NOTE]
 > For more info about OneDrive, see [What is OneDrive?](https://support.office.com/article/187f90af-056f-47c0-9656-cc0ddca7fdc2)
@@ -80,9 +80,9 @@ Be mindful of the potential impact of these changes on your network.
 ## Data security
 <a name="section4"> </a>
 
-Sync apps use the http:// or https:// protocol of the site that they're synchronizing with to transfer data. If the Microsoft OneDrive site uses a Secure Socket Layer (SSL) connection (https://), then the data being transferred by the sync app is encrypted; otherwise, it's not.
+Sync apps use the http:// or https:// protocol of the site that they're synchronizing with to transfer data. If the Microsoft OneDrive site uses a Transport Layer Security  (TLS) connection (https://), then the data being transferred by the sync app is encrypted; otherwise, it's not.
   
-Microsoft 365 uses SSL for Microsoft OneDrive connections by default. If you're using SharePoint Server, we recommend configuring your My Site host to use SSL for any connections that will occur outside your corporate domain. If you're using Active Directory directory services, you can configure the Group Policy setting **Sync Only On Domain Network**. The setting requires an SSL connection for Microsoft OneDrive clients that connect to SharePoint Server from outside the organization's intranet.
+Microsoft 365 uses TLS for Microsoft OneDrive connections by default. If you're using SharePoint Server, we recommend configuring your My Site host to use TLS for any connections that will occur outside your corporate domain. If you're using Active Directory directory services, you can configure the Group Policy setting **Sync Only On Domain Network**. The setting requires an TLS connection for Microsoft OneDrive clients that connect to SharePoint Server from outside the organization's intranet.
   
 Data on local disks on both server and Windows client computers can be encrypted by using [Windows BitLocker Drive Encryption](https://go.microsoft.com/fwlink/p/?LinkId=163122).
   
