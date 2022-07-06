@@ -51,14 +51,6 @@ The per-machine sync app supports syncing OneDrive and SharePoint files in Micro
 
 When setup completes, OneDrive will start. If accounts were added on the computer, they'll be migrated automatically.
 
-## FAQ
-
-<!-- Does this belong in the Updates and rings article?
-**Will the same update rings apply to per-machine?**
-If you selected the Insiders ring (via the [Windows Insider program](https://insider.windows.com/) or [Office Insider](https://products.office.com/office-insider) programs) or are in the default Production ring, you are in the same ring as before.
-
-In the past, you may have used a user policy (under HKCU) to select the Deferred ring ([Receive OneDrive sync app updates on the Deferred ring](./use-group-policy.md#EnableEnterpriseUpdate)). This  policy won't work with the per-machine install. To select the ring, use the computer policy (under HKLM) instead ([Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring)).-->
-
 ## Update process
 
 The per-machine sync app will auto-update on the same cadence as the per-user sync app and the same rings are supported. The [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) are the same. [More info about the sync app update process](sync-client-update-process.md)
@@ -70,6 +62,11 @@ If your organization requires you to deploy updates manually through Configurati
 ### User intervention
 
 User intervention is not required for the per-machine sync app to update itself. Elevation is required when you first set it up. During setup, we install a scheduled task and a Windows service, which are used to perform the updates silently without user intervention since they run in elevated mode.
+
+### Rings
+If you selected the Insiders ring (via the [Windows Insider program](https://insider.windows.com/) or [Office Insider](https://products.office.com/office-insider) programs) or are in the default Production ring, you are in the same ring as before.
+
+In the past, you may have used a user policy (under HKCU) to select the Deferred ring ([Receive OneDrive sync app updates on the Deferred ring](./use-group-policy.md#EnableEnterpriseUpdate)). This  policy won't work with the per-machine install. To select the ring, use the computer policy (under HKLM) instead ([Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring)).
 
 ## Revert back to the per-user sync app
 
