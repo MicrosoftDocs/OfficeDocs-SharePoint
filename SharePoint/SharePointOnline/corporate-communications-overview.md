@@ -86,7 +86,7 @@ This poster illustrates how Contoso keeps employees informed and engaged across 
 
 
 ### End-user guidance and support
-Give end users a head start by helping them use and engage using popular M365 communication apps that may be a part of your solution. Consider using existing training playlists in [Microsoft 365 Learning Pathways](/office365/customlearning/) to help end users learn more about M365 apps like Teams and SharePoint. Or, help train people at your organization who will be managing corporate communications using [Microsoft Learn training modules](/learn/).
+Give end users a head start by helping them use and engage using popular M365 communication apps that may be a part of your solution. Consider using existing training playlists in [Microsoft 365 Learning Pathways](/office365/customlearning) to help end users learn more about M365 apps like Teams and SharePoint. Or, help train people at your organization who will be managing corporate communications using [Microsoft Learn training modules](/learn).
 
 
 | Logo                 | Communication app     | Guidance              | 
