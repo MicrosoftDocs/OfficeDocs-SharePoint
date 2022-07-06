@@ -1,5 +1,5 @@
 ---
-title: "Configure syncing with the new OneDrive sync app for SharePoint Server Subscription Editior or 2019"
+title: Configure syncing with the new OneDrive sync app"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal

@@ -25,7 +25,7 @@ description: "Learn about things you need to consider when planning to set up Mi
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
   
     
-## OneDrive - Microsoft 365 or SharePoint Server Subscription Edition
+## OneDrive - Microsoft 365 or SharePoint Server
 <a name="section1"> </a>
 
 One of the first planning considerations you should make is if you truly want to use Microsoft OneDrive in SharePoint Server Subscription Edition, or if you would be better suited to use Microsoft OneDrive. Many companies select to use Microsoft OneDrive in an on-premises environment due to industry restrictions (for example, finance or government), or business rules that prohibit transmitting their data over the Internet. If your company isn't restricted by either, you should also explore the possibility of using Microsoft OneDrive. The key benefits in using Microsoft OneDrive is that you only need an internet connection to use it, versus being connected to your network, and that user storage is provided by your Microsoft 365 service.
