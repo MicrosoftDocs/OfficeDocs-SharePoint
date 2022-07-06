@@ -76,7 +76,7 @@ Every organization has its own variation of technical and soft skills that need 
 
 ### Step 4: Review Microsoft 365 Learning and Training tools
 
-- **Use Viva Learning to curate learning experiences.** Use [Viva Learning to curate learning modules](/viva/learning/) for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily.
+- **Use Viva Learning to curate learning experiences.** Use [Viva Learning to curate learning modules](/viva/learning) for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily.
 
 - **Create a learning and development landing page using SharePoint.** Create a SharePoint communication site using the [Learning Central SharePoint Communication site template](https://support.microsoft.com/office/use-the-sharepoint-learning-central-site-template-8a38c30a-746c-4081-8781-3679d6a3c0f6). Use the site to direct employees to events, news, and information about required learning and extra-curricular resources.
 
