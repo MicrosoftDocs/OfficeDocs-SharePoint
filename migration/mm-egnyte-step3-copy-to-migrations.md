@@ -46,7 +46,7 @@ After a Egnyte account has been scanned and determined ready, add it to your mig
 ![Migrations tab](media/mm-box-migration-tab.png)
 
 
-[**Step 4: Review destinations**](mm-egnyte-step4-review-destinations.md)
+## [**Step 4: Review destinations**](mm-egnyte-step4-review-destinations.md)
 
 
 >[!NOTE]

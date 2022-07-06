@@ -113,6 +113,10 @@ Alternatively, you can also directly configure the following underlying registry
 |HKLM:\\Software\Policies\Microsoft\OneDrive\SharePointOnPremPrioritization|DWORD (32-bit)|1|optional|
 |HKLM:\\Software\Policies\Microsoft\OneDrive\SharePointOnPremTenantName|String|Contoso|optional|
  
+### Mac configuration
+
+To configure sync with SharePoint Server in a Mac environment, you can use the SharePointOnPremFrontDoorUrl, SharePointOnPremPrioritizationPolicy, and SharePointOnPremTenantName settings. For more information, see [Deploy and configure the new OneDrive sync app for Mac](/onedrive/deploy-and-configure-on-macos).
+
 ## Differences between syncing files in SharePoint Server and SharePoint in Microsoft 365
 
 If your organization also uses the OneDrive sync app to sync files in Microsoft 365, here's what will be different for users who sync on-premises files.

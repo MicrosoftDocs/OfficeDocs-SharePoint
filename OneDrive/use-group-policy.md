@@ -1,8 +1,8 @@
 ---
 title: "Use OneDrive policies to control sync settings"
 ms.reviewer: gacarini
-ms.author: adjoseph
-author: adeejoseph
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -44,7 +44,7 @@ This article describes the OneDrive Group Policy objects (GPOs) that admins can 
 
 1. Install the OneDrive sync app for Windows. (To see which builds are releasing and download builds, go to the [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?).) Installing the sync app downloads the .adml and .admx files.
 
-2. Browse to %localappdata%\Microsoft\OneDrive\\*BuildNumber*\adm\ (for [per-machine sync app](per-machine-installation.md) browse to C:\Program Files (x86)\Microsoft OneDrive\BuildNumber\adm\), to the subfolder for your language, as necessary (where *BuildNumber* is the number displayed in sync app settings on the **About** tab).
+2. Browse to %localappdata%\Microsoft\OneDrive\\*BuildNumber*\adm\ (for [per-machine sync app](per-machine-installation.md) browse to C:\Program Files (x86)\Microsoft OneDrive\BuildNumber\adm\ or Program Files\Microsoft OneDrive\BuildNumber\adm\ (depending on the OS architecture)), to the subfolder for your language, as necessary (where *BuildNumber* is the number displayed in sync app settings on the **About** tab).
 
     ![The ADM folder in the OneDrive installation directory](media/85e0fe3f-84eb-4a29-877f-c706dda4d075.png)
   
@@ -637,8 +637,8 @@ This setting lets you specify SharePoint team site libraries to sync automatical
 This feature is not enabled for on-premises SharePoint sites.
 
 > [!IMPORTANT]
-> Do not enable this setting for libraries with more than 5,000 files or folders.
-> Do not enable this setting for the same library to more than 1,000 devices.
+> For performance reasons, we recommend not enabling this setting to libraries with more than 5,000 files or folders.
+> Do not enable this setting to the same library with more than 1,000 devices.
 
 If you enable this setting, the OneDrive sync app automatically syncs the contents of the libraries you specified as online-only files the next time the user signs in. The user isn't able to stop syncing the libraries.  
 

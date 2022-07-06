@@ -1,8 +1,8 @@
 ---
 title: "Create or edit a Secure Store Target Application"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin

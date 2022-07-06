@@ -1,8 +1,8 @@
 ---
 title: "How sync works"
 ms.reviewer: 
-ms.author: adjoseph
-author: adeejoseph
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: Admin
 f1.keywords:

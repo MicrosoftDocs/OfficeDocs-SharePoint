@@ -54,7 +54,7 @@ Microsoft supports the following SharePoint Server deployment scenarios on Azure
   
 - Non-production farms, such as those used for dev/test environments or for proof-of-concept
     
-- As a disaster recovery target using log shipping, SQL Server AlwaysOn Availability Groups, or Azure Site Recovery
+- As a disaster recovery target using log shipping, SQL Server Always On Availability Groups, or Azure Site Recovery
     
 - Production farms, using Azure premium storage for servers running the search role
     
@@ -311,7 +311,7 @@ For the virtual machines of the SharePoint farm, do the following:
     
 - Use a minimum of two VMs for each server role.
     
-- If you are using SQL Server AlwaysOn Availability Groups and plan to use only two SQL servers, you must also use minority node server for the cluster.
+- If you are using SQL Server Always On Availability Groups and plan to use only two SQL servers, you must also use minority node server for the cluster.
     
 - Place the network interfaces and the VMs in the resource group for the server role.
     
@@ -367,7 +367,7 @@ For the VMs, fill in the following table before creating them, using as many row
 
 If you are ready to create a proof-of-concept or dev/test configuration of an intranet SharePoint Server farm in Azure, see [Intranet SharePoint Server in Azure dev/test environment](intranet-sharepoint-server-in-azure-dev-test-environment.md).
   
-If you are ready to deploy a production-ready, high availability SharePoint Server farm in Azure, see [Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md).
+If you are ready to deploy a production-ready, high availability SharePoint Server farm in Azure, see [Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure](deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md).
   
 ## See also
 
