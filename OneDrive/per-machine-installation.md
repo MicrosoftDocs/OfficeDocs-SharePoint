@@ -26,13 +26,15 @@ description: "In this article, you'll learn how to install the OneDrive sync app
 
 # Install the sync app per machine
 
-By default, the OneDrive sync app installs per user, meaning OneDrive.exe needs to be installed for each user account on the PC under the %localappdata% folder. With the new per-machine installation option, you can install OneDrive under the "Program Files (x86)"  or "Program Files" directory (depending on the OS architecture), meaning all profiles on the computer will use the same OneDrive.exe binary. Other than where the sync app is installed, the behavior is the same.
+By default, the OneDrive sync app installs per user, meaning OneDrive.exe needs to be installed for each user account on the PC under the %localappdata% folder. With the new per-machine installation option, you can install OneDrive under the "Program Files (x86)"  or "Program Files" directory (depending on the OS architecture), meaning all profiles on the computer will use the same OneDrive.exe binary. Although a single version of OneDrive.exe is installed, a new process is created for every OneDrive account syncing on the computer. Other than where the sync app is installed, the behavior is the same.
 
 The new per-machine sync app provides:
 
 - Automatic transitioning from the previous OneDrive for Business sync app (Groove.exe)
 - Automatic conversion from per-user to per-machine
 - Automatic updates when a new version is available
+
+The per-machine sync app is helpful especially for multi-user computers and when you don't want exe files running from the user profile. Gradually, it is recommended that more and more customers switch to per-machine installation.
 
 The per-machine sync app supports syncing OneDrive and SharePoint files in Microsoft 365 and in SharePoint Server 2019.
 
@@ -51,31 +53,29 @@ When setup completes, OneDrive will start. If accounts were added on the compute
 
 ## FAQ
 
-**Do I need to move to the per-machine sync app?**
-The per-machine sync app is helpful especially for multi-user computers and when you don't want exe files running from the user profile. Gradually, it is recommended that more and more customers switch to per-machine installation.
-
-**With per-machine installation, will a single OneDrive.exe process be shared by all users on the computer?**
-No, although a single version of OneDrive.exe is installed, a new process is created for every OneDrive account syncing on the computer.
-
+<!-- Does this belong in the Updates and rings article?
 **Will the same update rings apply to per-machine?**
 If you selected the Insiders ring (via the [Windows Insider program](https://insider.windows.com/) or [Office Insider](https://products.office.com/office-insider) programs) or are in the default Production ring, you are in the same ring as before.
 
-In the past, you may have used a user policy (under HKCU) to select the Deferred ring ([Receive OneDrive sync app updates on the Deferred ring](./use-group-policy.md#EnableEnterpriseUpdate)). This  policy won't work with the per-machine install. To select the ring, use the computer policy (under HKLM) instead ([Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring)).
+In the past, you may have used a user policy (under HKCU) to select the Deferred ring ([Receive OneDrive sync app updates on the Deferred ring](./use-group-policy.md#EnableEnterpriseUpdate)). This  policy won't work with the per-machine install. To select the ring, use the computer policy (under HKLM) instead ([Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring)).-->
 
-**Does the per-machine sync app follow the same update process/cadence as the per-user sync app?**
-Yes, the per-machine sync app will auto-update on the same cadence as the per-user sync app and the same rings are supported (see question above). The [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) are the same. [More info about the sync app update process](sync-client-update-process.md)
+## Update process
+
+The per-machine sync app will auto-update on the same cadence as the per-user sync app and the same rings are supported. The [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) are the same. [More info about the sync app update process](sync-client-update-process.md)
 
 The sync app is an extension of the service and a thin client. So auto-updating to the latest version is critical to maintaining a high-quality sync experience. As a result, we recommend that you keep your users in the default Production ring and rely on auto-update to take care of updating to the latest version.
 
 If your organization requires you to deploy updates manually through Configuration Manager, we recommend that you select the Deferred ring, and deploy the upcoming builds before auto-update takes effect as described here.
 
-**Do automatic updates of the per-machine sync app require user intervention?**
+### User intervention
+
 User intervention is not required for the per-machine sync app to update itself. Elevation is required when you first set it up. During setup, we install a scheduled task and a Windows service, which are used to perform the updates silently without user intervention since they run in elevated mode.
 
-**How do I revert back to the per-user sync app if necessary?**
+## Revert back to the per-user sync app
+
 We don't support automated migration from per-machine to per-user. To revert back after installing per-machine, uninstall the sync app and [install the latest released version](https://go.microsoft.com/fwlink/?linkid=844652) without the "/allusers" parameter.
 
-**How can I detect if I have a per-machine installation through Configuration Manager?**
+## Verify per-machine installation through Configuration Manager
 
 You can use the following registry detection rule:
 
