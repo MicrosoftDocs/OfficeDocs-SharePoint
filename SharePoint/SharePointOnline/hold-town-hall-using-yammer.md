@@ -87,7 +87,7 @@ Invite speakers who align with the message of the town hall. If the intent of yo
 
 - Develop the schedule and time limits for the town hall.
 - Assign roles to moderators and brief them on key tasks. If you plan to use live Q&A during the event, prepare speakers with a list of known concerns or questions.
-- Test equipment beforehand. Make sure each speaker and moderator knows how to use the tools used to conduct the town hall. This can range from how to share their screen, [managing live questions and answers](https://support.microsoft.com/office/new-yammer-live-event-faq-ec9deff2-3181-4300-a204-c809729e4dff),and [more engagement opportunities](https://support.microsoft.com/office/drive-engagement-in-a-classic-yammer-live-event-c0244ad8-6dcb-419c-add9-2e4a00543412?ui=en-us&rs=en-us&ad=us).
+- Test equipment beforehand. Make sure each speaker and moderator knows how to use the tools used to conduct the town hall. This can range from how to share their screen, [managing live questions and answers](https://support.microsoft.com/office/new-yammer-live-event-faq-ec9deff2-3181-4300-a204-c809729e4dff),and [more engagement opportunities](https://support.microsoft.com/office/drive-engagement-in-a-classic-yammer-live-event-c0244ad8-6dcb-419c-add9-2e4a00543412).
 
 
 ### E. Use Yammer to host your town hall event
