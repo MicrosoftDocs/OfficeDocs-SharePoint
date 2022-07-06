@@ -54,7 +54,7 @@ News is distributed across SharePoint, Microsoft Teams, and [Viva Connections](/
 1. [Add the news web part on your home site or other sites where you want your news to appear](#use-the-news-web-part-to-distribute-news-on-the-sites-you-want), and set options for your news posts, like ordering, audience targeting, and more.
 1. [Boost news for greater discoverability](#boost-news-for-greater-discoverability).
 1. [Send news in email](#send-news-in-email).
-1. [Display SharePoint news in Teams using Viva Connections](#display-sharePoint-news-in-teams-using-viva-connections): If you’re using Viva Connections for Teams Desktop, news that you add to your home site will be available in Teams.
+1. [Display SharePoint news in Teams using Viva Connections](#display-sharepoint-news-in-teams-using-viva-connections): If you’re using Viva Connections for Teams Desktop, news that you add to your home site will be available in Teams.
 1. [Create a personalized news stream on in the Teams mobile app](#create-a-personalized-news-stream-on-in-the-teams-mobile-app): Add one or more cards to your dashboard that opens a news story. Additionally, if you have the Feed enabled for your app, news will automatically display there, based on relevance to each user.
 
 ## Decide your audience
