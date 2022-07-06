@@ -63,7 +63,7 @@ If your organization requires you to deploy updates manually through Configurati
 
 User intervention is not required for the per-machine sync app to update itself. Elevation is required when you first set it up. During setup, we install a scheduled task and a Windows service, which are used to perform the updates silently without user intervention since they run in elevated mode.
 
-### Rings
+## Ring selection
 
 If you selected the Insiders ring (via the [Windows Insider program](https://insider.windows.com/) or [Office Insider](https://products.office.com/office-insider) programs) or are in the default Production ring, you are in the same ring as before.
 
