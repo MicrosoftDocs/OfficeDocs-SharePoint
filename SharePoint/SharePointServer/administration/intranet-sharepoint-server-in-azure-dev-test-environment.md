@@ -318,7 +318,7 @@ Your emulated intranet SharePoint Server farm running in Azure is now ready for 
 
 When you are ready to design a production SharePoint Server farm in Azure, see [Designing a SharePoint Server farm in Azure](designing-a-sharepoint-server-farm-in-azure.md).
   
-When you are ready to deploy a production-ready, high availability SharePoint Server farm in Azure, see [Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md).
+When you are ready to deploy a production-ready, high availability SharePoint Server farm in Azure, see [Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure](deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md).
   
 ## See also
 

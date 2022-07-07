@@ -1,8 +1,8 @@
 ---
-title: "Sync"
+title: Sync in SharePoint and OneDrive
 ms.reviewer: 
-ms.author: adjoseph
-author: adeejoseph
+ms.author: mabond
+author: mkbond007
 manager: serdars
 recommendations: true
 audience: Admin
@@ -15,10 +15,10 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid:
 - MET150
-description: "In this article, you'll learn about syncing SharePoint files using the OneDrive sync app for Windows and Mac."
+description: "In this article, you'll learn about syncing SharePoint and OneDrive files using the OneDrive sync app for Windows and Mac."
 ---
 
-# SharePoint file sync
+# Sync in SharePoint and OneDrive
 
 When users install the OneDrive sync app for Windows or Mac, and sync the files on a team site, they can work with the files in File Explorer or Finder. They can also easily save files to the team site from the programs they use.
 
