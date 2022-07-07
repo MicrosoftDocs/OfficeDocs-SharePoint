@@ -2,6 +2,29 @@
 
 
 
+## Week of June 27, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/1/2022 | [Best practices for SQL Server in a SharePoint Server farm](/SharePoint/administration/best-practices-for-sql-server-in-a-sharepoint-server-farm) | modified |
+| 7/1/2022 | [Configure SQL Server Always On Availability Groups for SharePoint Server](/SharePoint/administration/configure-an-alwayson-availability-group) | modified |
+| 7/1/2022 | [Create a high availability architecture and strategy for SharePoint Server](/SharePoint/administration/plan-for-high-availability) | modified |
+| 7/1/2022 | [Plan for SQL Server Always On and Microsoft Azure for SharePoint Server Disaster Recovery](/SharePoint/administration/plan-for-sql-server-always-on-and-microsoft-azure-disaster-recovery) | modified |
+| 7/1/2022 | [SharePoint Intranet Farm in Azure Phase 3 Configure SQL Server Infrastructure](/SharePoint/administration/sharepoint-intranet-farm-in-azure-phase-3-configure-sql-server-infrastructure) | modified |
+| 7/1/2022 | [SharePoint Intranet Farm in Azure Phase 5 Create the availability group and add the SharePoint databases](/SharePoint/administration/sharepoint-intranet-farm-in-azure-phase-5-create-the-availability-group-and-add) | modified |
+| 7/1/2022 | [Supported high availability and disaster recovery options for SharePoint databases](/SharePoint/administration/supported-high-availability-and-disaster-recovery-options-for-sharepoint-databas) | modified |
+
+
+## Week of June 20, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/20/2022 | [Admin center site permissions reference](/SharePoint/site-permissions) | modified |
+| 6/22/2022 | [Sync in SharePoint and OneDrive](/SharePoint/sharepoint-sync) | modified |
+
+
 ## Week of June 13, 2022
 
 
@@ -133,27 +156,3 @@
 | 6/3/2022 | [Engage audiences with workplace communication](/SharePoint/workplace-communications) | modified |
 | 6/3/2022 | [Capacity planning for SharePoint Server 2013](/SharePoint/administration/capacity-planning) | modified |
 | 6/3/2022 | [Host-named site collection architecture and deployment in SharePoint Server](/SharePoint/administration/host-named-site-collection-architecture-and-deployment) | modified |
-
-
-## Week of May 23, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/24/2022 | [Hardware and software requirements for SharePoint 2013](/SharePoint/install/hardware-software-requirements-2013) | modified |
-| 5/27/2022 | [Teams and SharePoint integration](/SharePoint/teams-connected-sites) | modified |
-
-
-## Week of May 16, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/16/2022 | [Support for organization fonts in PowerPoint for the web](/SharePoint/support-for-organization-fonts-in-powerpoint-for-the-web) | added |
-| 5/18/2022 | Change site collection version and upgrade settings | removed |
-| 5/18/2022 | Changes to company name extraction in SharePoint | removed |
-| 5/18/2022 | Let users connect classic team sites to new Microsoft 365 groups | removed |
-| 5/18/2022 | Let users sync IRM-protected files with the OneDrive sync app | removed |
-| 5/18/2022 | SharePoint planning guide | removed |
-| 5/19/2022 | [Hardware and software requirements for SharePoint Server 2019](/SharePoint/install/hardware-and-software-requirements-2019) | modified |
-| 5/20/2022 | [Plan and implement SharePoint site navigation](/SharePoint/plan-navigation-modern-experience) | modified |
