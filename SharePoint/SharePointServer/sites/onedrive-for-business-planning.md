@@ -82,20 +82,20 @@ Be mindful of the potential impact of these changes on your network.
 
 Sync apps use the `http://` or `https://` protocol of the site that they're synchronizing with to transfer data. If the Microsoft OneDrive site uses a Transport Layer Security  (TLS) connection `https://`, then the data being transferred by the sync app is encrypted; otherwise, it's not.
   
-Microsoft 365 uses TLS for Microsoft OneDrive connections by default. If you're using SharePoint Server, we recommend configuring your My Site host to use TLS for any connections that will occur outside your corporate domain. If you're using Active Directory directory services, you can configure the Group Policy setting **Sync Only On Domain Network**. The setting requires an TLS connection for Microsoft OneDrive clients that connect to SharePoint Server from outside the organization's intranet.
+Microsoft 365 uses TLS for Microsoft OneDrive connections by default. If you're using SharePoint Server, it's recommended to configure your My Site host to use TLS for any connections that will occur outside your corporate domain. If you're using Active Directory directory services, you can configure the Group Policy setting **Sync Only On Domain Network**. The setting requires an TLS connection for Microsoft OneDrive clients that connect to SharePoint Server from outside the organization's Intranet.
   
 Data on local disks on both server and Windows client computers can be encrypted by using [Windows BitLocker Drive Encryption](https://go.microsoft.com/fwlink/p/?LinkId=163122).
   
  **Data on local devices**
   
-Once a document library is synchronized with a computer or mobile device, the files continue to exist there. Files remain on the computer or device even if the user's My Site and their user account are deleted. In this situation, although the files remain on the computer or device, the user can't synchronize the files with SharePoint Server again.
+Once a document library is synchronized with a computer or mobile device, the files continue to exist there. The files remain on the computer or device even if the user's My Site and their user account are deleted. In this situation, although the files remain on the computer or device, the user can't synchronize the files with SharePoint Server again.
   
 If storing files on a client workstation is against your corporate policy, you can [remove synchronization functionality from document libraries](../sharepoint-server.yml) in SharePoint Server. 
   
 ## Move to a hybrid environment
 <a name="section5"> </a>
 
-At a later time, you might explore the possibility of using Microsoft OneDrive for various reasons, such as keeping your on-premises sites and customizations in their current state, but offloading the personal storage aspect of it to the cloud. This would also provide your users access to their business files while not connected to the corporate network.
+At a later time, you might be using Microsoft OneDrive for various reasons, such as keeping your on-premises sites and customizations in their current state, but offloading the personal storage aspect of it to the cloud. This can also provide your users access to their business files while they're not connected to the corporate network.
   
 > [!NOTE]
 > For more info about configuring a hybrid environment for OneDrive in SharePoint Server, see [Configure hybrid OneDrive - roadmap](../hybrid/configure-hybrid-onedrive-for-businessroadmap.md). 
