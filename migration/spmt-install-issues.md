@@ -52,9 +52,10 @@ If you are on a government cloud, you must first take these steps:
 1. Open %localappdata%\Apps\SharePointMigrationTool\SPMT\microsoft.sharepoint.migration.common.dll.config.
 2. Change the value of **SPOEnvironmentType** to:
 
+    - **4** if you are GCC
     - **3** if you are DoD
     - **2** if you are GCC high
-    - **0** if you use the Worldwide consumer cloud or GCC 
+    - **0** if you use the Worldwide consumer cloud
 
 
 3.  Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
