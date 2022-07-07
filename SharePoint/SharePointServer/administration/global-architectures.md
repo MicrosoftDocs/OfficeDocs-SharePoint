@@ -29,13 +29,13 @@ SharePoint Server is optimized to perform well over wide-area network (WAN) conn
 
 This article uses the following terms:
   
-- Central site—The location that hosts most of the company data and employee computers. A centralized SharePoint Server environment can consist of a single farm or multiple farms located in the same datacenter.
+- **Central site**—The location that hosts most of the company data and employee computers. A centralized SharePoint Server environment can consist of a single farm or multiple farms located in the same datacenter.
     
-- Regional site—A location that hosts a subset of corporate data and employee computers that are connected by using a combination of local-area network (LAN) and WAN links.
+- **Regional site**—A location that hosts a subset of corporate data and employee computers that are connected by using a combination of local-area network (LAN) and WAN links.
     
-- Distributed environment—An environment in which employees and company data are dispersed across the globe.
+- **Distributed environment**—An environment in which employees and company data are dispersed across the globe.
     
-- In-country farm — A farm that is deployed inside a political boundary to satisfy government regulations.
+- **In-country farm** — A farm that is deployed inside a political boundary to satisfy government regulations.
     
 ## Evaluate your WAN connections
 <a name="section2"> </a>
@@ -63,9 +63,9 @@ The default pages in SharePoint Server are optimized for performance. If you cus
 
 Several features in Windows Server can improve performance for users who connect to a central environment through a regional site or branch office.
   
-- BranchCache-- BranchCache, a feature of the Windows 7, Windows Server 2008 R2, and Windows Server 2012 operating systems, caches content from file and web servers on a WAN on computers at a local branch office. In a geographically distributed SharePoint Server environment, BranchCache can optimize WAN performance by caching large files that users download from SharePoint Server. 
+- **BranchCache**-BranchCache, a feature of the Windows 7, Windows Server 2008 R2, and Windows Server 2012 operating systems, caches content from file and web servers on a WAN on computers at a local branch office. In a geographically distributed SharePoint Server environment, BranchCache can optimize WAN performance by caching large files that users download from SharePoint Server. 
     
-- Quality of Service (QoS)— Windows 2000 introduced QoS features that Windows Server 2012 has enhanced. QoS enables you to meet the service requirements of a workload or an application by measuring network bandwidth, detecting changing network conditions (such as congestion or availability of bandwidth), and prioritizing - or throttling - network traffic. For example, you can use QoS to prioritize traffic for latency-sensitive applications and to control the effect of latency-insensitive traffic (such as bulk data transfers). You can use QoS to prioritize requests for applications that are critical for users. In addition, you can deprioritize applications or processes that adversely affect performance, such as backup processes or large downloads. For more information about QoS features in Windows Server 2012, see [Quality of Service (QoS) Overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831679(v=ws.11)).
+- **Quality of Service (QoS)**—Windows 2000 introduced QoS features that Windows Server 2012 has enhanced. QoS enables you to meet the service requirements of a workload or an application by measuring network bandwidth, detecting changing network conditions (such as congestion or availability of bandwidth), and prioritizing - or throttling - network traffic. For example, you can use QoS to prioritize traffic for latency-sensitive applications and to control the effect of latency-insensitive traffic (such as bulk data transfers). You can use QoS to prioritize requests for applications that are critical for users. In addition, you can deprioritize applications or processes that adversely affect performance, such as backup processes or large downloads. For more information about QoS features in Windows Server 2012, see [Quality of Service (QoS) Overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831679(v=ws.11)).
     
 ### WAN accelerators
 
