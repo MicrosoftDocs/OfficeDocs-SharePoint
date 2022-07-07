@@ -100,7 +100,7 @@ At a later time, you might be using Microsoft OneDrive for various reasons, such
 > [!NOTE]
 > For more info about configuring a hybrid environment for OneDrive in SharePoint Server, see [Configure hybrid OneDrive - roadmap](../hybrid/configure-hybrid-onedrive-for-businessroadmap.md). 
   
-## Upgrade from older to newer verion of Microsoft OneDrive in SharePoint Server
+## Upgrade from older to newer version of Microsoft OneDrive in SharePoint Server
 <a name="section6"> </a>
 
 If you are using the older version of Microsoft OneDrive in SharePoint Server, then you can upgrade to the newer version of Microsoft OneDrive in SharePoint Server as part of the upgrade process. You can do this as part of the process to upgrade your My Sites Host site collection, which allows you with an option to upgrade the My Sites personal site collections, which are used to store your Microsoft OneDrive user files.
