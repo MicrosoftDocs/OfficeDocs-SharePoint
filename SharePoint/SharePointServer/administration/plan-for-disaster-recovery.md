@@ -96,7 +96,7 @@ In a warm standby disaster recovery scenario, you create a warm standby environm
   
  **Virtual warm standby environments**
   
-Virtualization provides a workable and cost effective option for a warm standby recovery solution. You can use Hyper-V as an in-house solution or Azure as a hosted solution to provide necessary infrastructure for recovery. For more information, see [Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md)
+Virtualization provides a workable and cost effective option for a warm standby recovery solution. You can use Hyper-V as an in-house solution or Azure as a hosted solution to provide necessary infrastructure for recovery. For more information, see [Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure](deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md)
   
 ### Hot standby recovery
 
@@ -116,7 +116,7 @@ In a hot standby disaster recovery scenario, you set up a failover farm in the s
     > [!NOTE]
     > SQL Server mirroring can only be used to copy databases to a single mirror server, but you can log-ship to multiple secondary servers. 
   
-    The SQL Server database mirroring feature will be removed in future versions. We recommend that you avoid using this feature in new deployments. Plan to change applications that currently use this feature. Use AlwaysOn Availability Groups instead.
+    The SQL Server database mirroring feature will be removed in future versions. We recommend that you avoid using this feature in new deployments. Plan to change applications that currently use this feature. Use Always On Availability Groups instead.
     
 - Service applications vary in whether they can be log-shipped to a farm. For more information, see [Service application redundancy](#ServiceAppRedundancy) later in this article. 
     

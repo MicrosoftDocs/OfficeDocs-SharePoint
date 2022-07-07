@@ -28,7 +28,7 @@ In this phase of deploying an intranet-only SharePoint Server 2016 farm in Azure
 > [!NOTE]
 > SharePoint Server 2016 also supports the use of [Azure Active Directory (AD) Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview) as a substitute for virtual machines running as domain replicas. However, at this time, this deployment guide only describes the use of virtual machine-based replica domain controllers. 
   
-You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 3: Configure SQL Server Infrastructure](sharepoint-intranet-farm-in-azure-phase-3-configure-sql-server-infrastructure.md). See [Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](./deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md) for all of the phases. 
+You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 3: Configure SQL Server Infrastructure](sharepoint-intranet-farm-in-azure-phase-3-configure-sql-server-infrastructure.md). See [Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure](./deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md) for all of the phases. 
   
 ## Create the domain controller virtual machines in Azure
 
@@ -273,7 +273,7 @@ Use [SharePoint Intranet Farm in Azure Phase 3: Configure SQL Server Infrastruct
 
 #### Other Resources
 
-[Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](./deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md)
+[Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure](./deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md)
   
 [SharePoint Server in Microsoft Azure](./sharepoint-server-in-microsoft-azure.md)
   
