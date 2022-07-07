@@ -39,7 +39,7 @@ When you deploy SharePoint Server Subscription Edition or 2019 in your organizat
     - [Deploy OneDrive apps by using Intune](/onedrive/deploy-intune)
     - [Deploy and configure the new OneDrive sync app for Mac](/onedrive/deploy-and-configure-on-macos)
     
-3. [Configure OneDrive for SharePoint Server 2019](new-onedrive-sync-client.md#configure-onedrive-for-sharepoint-server-2019).
+3. [Configure OneDrive for SharePoint Server 2019](new-onedrive-sync-client.md#configure-syncing-with-the-onedrive-sync-app).
   
 ## Recommendations
 
