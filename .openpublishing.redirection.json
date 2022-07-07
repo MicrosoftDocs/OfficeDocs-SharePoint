@@ -664,6 +664,11 @@
       "source_path": "sharepoint/sharepointserver/administration/microsoft-identity-manager-in-sharepoint-server-2016.md",
       "redirect_url": "/sharepoint/administration/microsoft-identity-manager-in-sharepoint-server",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "sharepoint/SharePointOnline/workplace-communications.md",
+      "redirect_url": "/sharepoint/corporate-communications-overview",
+      "redirect_document_id": true
     } 
 
   ]
