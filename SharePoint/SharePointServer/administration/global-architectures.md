@@ -103,7 +103,7 @@ A Office Online Server farm is typically located in the same datacenter as the S
 The OneDrive sync app lets users sync their My Site library and other SharePoint libraries on team sites to their computers. They can then work with files in these libraries directly in File Explorer. Users can access these files even when they are offline. File changes sync automatically when a user is back online.
   
 > [!NOTE]
-> The new OneDrive sync app (OneDrive.exe) is supported on SharePoint Server 2019. [More info](../install-configure-syncing-with-the-onedrive-sync-app.md) 
+> The new OneDrive sync app (_OneDrive.exe_) is supported on SharePoint Server 2019. For more information, see [Configure the OneDrive sync app for SharePoint Server 2019](../install/configure-syncing-with-the-onedrive-sync-app.md).
   
 ## Design a central site with multiple farms
 <a name="section5"> </a>
