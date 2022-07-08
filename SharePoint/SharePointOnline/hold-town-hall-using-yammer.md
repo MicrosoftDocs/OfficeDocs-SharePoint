@@ -122,8 +122,6 @@ Include objectives or talking points in the invite. This will help attendees pre
 
 #### Promote in Viva Connections
 
-![Screenshot of the Viva Connections home page.](media/viva-townhall-desktop.png)
-
 Viva Connections is an app in Microsoft Teams and is built on the existing capabilities of Microsoft 365. It allows organizations to customize employee experiences that centralize important information, tools, and resources on both desktop and mobile devices.
 
 The Viva Connections home page features the Feed and Dashboard web parts that can be used to promote your event. Learn more about [Viva Connections](/microsoft-viva/connections). Use SharePoint news posts and [video news links](/viva/connections/video-news-links) to promote the event and to share the event recording after the event. Then, event content will display prominently in the [Viva Connections Feed](/viva/connections/viva-connections-overview#viva-connections-feed).
