@@ -178,7 +178,7 @@ Viva Learning is an application for Microsoft Teams that allows users to discove
 ![Viva Learning home page screenshot that displays different training courses.](media/viva-learning-neo.png)
 <br>
 
-In Viva Learning, managers of an organization or team can assign learning and track the learning progress of each module. The Viva Learning home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. [Learn more about Viva Learning](/microsoft-365/learning/?view=o365-worldwide).
+In Viva Learning, managers of an organization or team can assign learning and track the learning progress of each module. The Viva Learning home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. [Learn more about Viva Learning](/microsoft-365/learning).
 
 
 **Learn more about Viva modules:**
