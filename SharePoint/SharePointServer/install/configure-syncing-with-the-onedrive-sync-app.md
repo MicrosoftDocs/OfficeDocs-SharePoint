@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-description: "Learn how to configure the new OneDrive sync app (OneDrive.exe) for SharePoint Server Subscription Editior or 2019."
+description: "Learn how to configure the new OneDrive sync app (OneDrive.exe) for SharePoint Server Subscription Edition or 2019."
 ---
 
 # Configure syncing with the new OneDrive sync app

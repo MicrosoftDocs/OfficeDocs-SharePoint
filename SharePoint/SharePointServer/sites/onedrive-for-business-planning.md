@@ -28,7 +28,7 @@ description: "Learn about things you need to consider when planning to set up Mi
 ## OneDrive - Microsoft 365 or SharePoint Server
 <a name="section1"> </a>
 
-One of the first planning considerations you should make is if you truly want to use Microsoft OneDrive in SharePoint Server, or if you would be better suited to use Microsoft OneDrive. Many companies select to use Microsoft OneDrive in an on-premises environment due to industry restrictions (for example, finance or government), or business rules that prohibit transmitting their data over the Internet. If your company isn't restricted by either, you should also explore the possibility of using Microsoft OneDrive. The key benefits in using Microsoft OneDrive is that you only need an internet connection to use it, versus being connected to your network, and that user storage is provided by your Microsoft 365 service.
+One of the first planning considerations you should make is if you truly want to use Microsoft OneDrive in SharePoint Server, or if you would be better suited to use Microsoft OneDrive. Many companies select to use Microsoft OneDrive in an on-premises environment due to industry restrictions (for example, finance or government), or business rules that prohibit transmitting their data over the Internet. If your company isn't restricted by either, you should also explore the possibility of using Microsoft OneDrive. The key benefits in using Microsoft OneDrive are that you only need an internet connection to use it, versus being connected to your network, and that user storage is provided by your Microsoft 365 service.
   
 > [!NOTE]
 > For more info about OneDrive, see [What is OneDrive?](https://support.office.com/article/187f90af-056f-47c0-9656-cc0ddca7fdc2)
@@ -52,7 +52,7 @@ To make Microsoft OneDrive in SharePoint Server available to your users, you nee
 
 The Microsoft OneDrive [sync apps](https://go.microsoft.com/fwlink/?LinkId=522308) give users the convenience of local storage of their files. Sync apps also enable users to take documents offline. Users then can use those documents when they're disconnected from SharePoint Server. Later, when the client computer or device reconnects to SharePoint Server, the files are synchronized.
   
-In a SharePoint Server on-premises environment, you may have the option to save directly to your document library (for example, from Office 2016), which is where files are synchronized from your Microsoft OneDrive local folder anyway. When the Microsoft OneDrive sync app is used in an on-premises environment, it's primary benefit is for synchronizing files on laptops that are used while disconnected from your corporate network at times, such as when traveling.
+In a SharePoint Server on-premises environment, you may have the option to save directly to your document library (for example, from Office 2016), which is where files are synchronized from your Microsoft OneDrive local folder anyway. When the Microsoft OneDrive sync app is used in an on-premises environment, its primary benefit is for synchronizing files on laptops that are used while disconnected from your corporate network at times, such as when traveling.
   
 The sync app also provides your users the added convenience of working with files directly from the local Microsoft OneDrive sync folder. Work with and saving your files directly in the folder is more convenient than opening your My Sites document library.
   
@@ -82,7 +82,7 @@ Be mindful of the potential impact of these changes on your network.
 
 Sync apps use the `http://` or `https://` protocol of the site that they're synchronizing with to transfer data. If the Microsoft OneDrive site uses a Transport Layer Security  (TLS) connection `https://`, then the data being transferred by the sync app is encrypted; otherwise, it's not.
   
-Microsoft 365 uses TLS for Microsoft OneDrive connections by default. If you're using SharePoint Server, it's recommended to configure your My Site host to use TLS for any connections that will occur outside your corporate domain. If you're using Active Directory directory services, you can configure the Group Policy setting **Sync Only On Domain Network**. The setting requires an TLS connection for Microsoft OneDrive clients that connect to SharePoint Server from outside the organization's Intranet.
+Microsoft 365 uses TLS for Microsoft OneDrive connections by default. If you're using SharePoint Server, it's recommended to configure your My Site host to use TLS for any connections that will occur outside your corporate domain. If you're using Active Directory directory services, you can configure the Group Policy setting **Sync Only On Domain Network**. The setting requires a TLS connection for Microsoft OneDrive clients that connect to SharePoint Server from outside the organization's Intranet.
   
 Data on local disks on both server and Windows client computers can be encrypted by using [Windows BitLocker Drive Encryption](https://go.microsoft.com/fwlink/p/?LinkId=163122).
   
