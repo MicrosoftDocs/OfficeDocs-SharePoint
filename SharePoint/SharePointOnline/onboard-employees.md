@@ -86,7 +86,7 @@ Make new employees feel welcome and excited to be joining your organization. Use
 ### Step 2: Map the ideal employee onboarding experience 
 From inception to orientation to day one on the job, the new employee journey has a huge impact on the success of that employee. Ensure the new employee is provided the best tools to start out with by mapping out the new employee onboarding experience. 
 
-![Map the employee onboarding experience step diagram.](media/step-neo-map.png) 
+![Diagram of how to map the employee onboarding experience.](media/step-neo-map.png) 
 
 #### A. Establish an onboarding timeline 
 Determine how long the onboarding process should take based on the role and level of career experience. Think about how often new team members should be taking training courses and attending events that connect them with leadership and the rest of the organization.  
@@ -129,7 +129,7 @@ A great option is to use Teams live meetings, live events, and chat functionalit
 Build out the employee onboarding experience one platform at a time. The tools listed here can be connected to each other providing a thorough and connected onboarding journey for the new employee.  
 
 ### Create an onboarding site using SharePoint
-![New employee onboarding template screenshot.](media/oe-2.png)
+![Screenshot of the New employee onboarding site template in SharePoint.](media/oe-2.png)
 <br> 
 
 Create an internal communication site that acts as a home for new employees. This site should lay out resources, deliverables, and company information in and organized way. This site should also contain the most up-to-date information to ensure the new employee has everything needed to be successful. Try organizing action items on this site in a way that signals priority. List the things that need to be finished first at the top. This will help employees organize their work in onboarding to the best of their ability and gives each new employee the same starting point. 
@@ -139,7 +139,7 @@ Microsoft offers a new customizable employee onboarding SharePoint communication
  
 
 ### Use live meetings to administer a virtual employee orientation
-![Teams live meeting screenshot.](media/oe-3.png)
+![Screenshot of a Teams live meeting.](media/oe-3.png)
 <br> 
 
 With the emergence of virtual work, having face time with other people in the organization is still important in making sure employees can communicate with leaders, peers, and ask top-of-mind questions. Use Microsoft Teams to administer virtual employee orientation.  
@@ -149,13 +149,13 @@ Make this live event fun and engaging by giving employees an opportunity to comm
  
 
 ### Give employees a tour of the campus using SharePoint Spaces
-![SharePoint Spaces screenshot.](media/oe-spaces.png) 
+![Screenshot of a site that uses SharePoint Spaces.](media/oe-spaces.png) 
 <br>
 
 SharePoint Spaces is a tool that provides immersive online experiences using 2D and 3D web parts. Guide new employees through a virtual 360-degree tour of the campus. Incorporate helpful links and web parts that provide important information and helps the employee complete onboarding tasks.Learn more about [SharePoint Spaces](https://support.microsoft.com/office/sharepoint-spaces-7b65edfb-7cc9-42e3-af37-178d79364a5e).  
 
 ### Help the new employee prioritize deliverables with Microsoft Lists
-![Microsoft lists screenshot.](media/neo-list-example.png)
+![Screenshot of the Employee Onboarding lists template.](media/neo-list-example.png)
 <br>
 
 When entering a new environment, understanding the order in which onboarding tasks should be completed is important. Help them prioritize onboarding deliverables by laying them out in a way that signals priority. Consider using [Microsoft Lists](https://support.microsoft.com/microsoft-lists) and [List templates](https://support.microsoft.com/office/list-templates-in-microsoft-365-62f0e4cf-d55d-4f89-906f-4a34e036ded1) and [add them as tabs in the New employee Teams channel](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b#:~:text=1%20Add%20a%20SharePoint%20page%2C%20list%2C%20or%20document,the%20channel%20about%20this%20tab%20checkbox%20to%20) for easy access. You can also integrate List into the new employee onboarding SharePoint site using the [List web part](https://support.microsoft.com/office/use-the-list-web-part-ef0a1b80-f8b3-443d-b04a-1e76c70b5537). 
@@ -165,7 +165,7 @@ When entering a new environment, understanding the order in which onboarding tas
 ### Use Viva Connections and integrate with other Microsoft Viva experiences
 Help orient new employees by providing them with the most important company information, resources, and updates regularly. Viva Connections is a digital platform built on the existing capabilities of Microsoft 365 that allows organizations to customize employee experiences and gain access to the most important information the most used tools and resources on both desktop and mobile devices. [Learn more about creating onboarding experiences using Microsoft Viva](/viva/solutions/viva-onboard-change-roles).
 
-![Viva Connections homepage screenshot.](media/viva-all-mod-mobile-neo.png)
+![Screenshot of the Viva Connections landing page.](media/viva-all-mod-mobile-neo.png)
 <br>
 
 #### Integrate multiple Viva modules to create a rich onboarding experience 
@@ -175,7 +175,7 @@ A separate card integrates with Viva Topics, which helps to address a key busine
 
 Viva Learning is an application for Microsoft Teams that allows users to discover, recommend, and access learning modules from different platforms to help users gain knowledge in any specific focus area. Viva Learning pulls content from LinkedIn Learning, Microsoft Learn, Microsoft 365 Training, and other partners. Use Viva Learning to curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily.
 
-![Viva Learning home page screenshot that displays different training courses.](media/viva-learning-neo.png)
+![Screenshot of the Viva Learning home page that displays different training courses.](media/viva-learning-neo.png)
 <br>
 
 In Viva Learning, managers of an organization or team can assign learning and track the learning progress of each module. The Viva Learning home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. [Learn more about Viva Learning](/microsoft-365/learning).
@@ -198,13 +198,12 @@ Naturally, employees come across information at different times in their onboard
 
 
 ### Ask for feedback using Microsoft Forms
-![Microsoft Forms screenshot.](media/oe-forms.png)
+![Screenshot of a Microsoft Form.](media/oe-forms.png)
 <br>
 
 The best way to improve the new employee onboarding experience is by asking for feedback. Understand what worked best and what could use improvement by asking for feedback after all deliverables have been completed by new employees. 
 
-Use Microsoft forms to build short surveys that answer the questions that could inform the onboarding experience moving forward. 
-Learn more about [Microsoft forms](https://support.microsoft.com/forms). 
+Use Microsoft forms to build short surveys that answer the questions that could inform the onboarding experience moving forward. Learn more about [Microsoft forms](https://support.microsoft.com/forms). 
 
 ## Launch the new employee onboarding experience 
 Use [Outlook](https://outlook.office.com/owa/) to invite all new employees to orientation. In this email, lay out all the resources starting with the Viva Connections homepage that contains links to the New Employee SharePoint site, the New Employee orientation live meeting event post, learning objectives and more. Be sure to include any necessary information and important direct contact. 

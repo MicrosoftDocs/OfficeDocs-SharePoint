@@ -41,7 +41,7 @@ Microsoft 365 can help your organization's leadership teams connect with employe
 ## Plan your leadership connection strategy
 Start by making sure you understand your audience's needs and preferences. Review [how to profile and scope your audience](audience-profile.md). This scenario will have the most successful outcome when multiple communication methods are combined. Start with a SharePoint communication site and a Yammer channel that connects the organization with leadership. Then, plan and host a live event that is recorded and shared with others. Finally, bring all these communication elements together into an engaging mobile experience using Viva Connections.
 
-![Image of the leadership connection solution.](media/step-leadership-1.png)
+![Diagram of the components that make up the leadership connection solution.](media/step-leadership-1.png)
 
 - **1. SharePoint communication site** - Create a SharePoint communication site that houses all things leadership – everything from news and announcements to events, people profiles and networking opportunities. [Use the Leadership connection site template.](https://support.microsoft.com/office/use-the-sharepoint-leadership-connection-site-template-a2996d9f-c08e-4de6-8696-a7de323c8add)
 - **2. Yammer community** - [Use Yammer](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) to instantly connect, ask questions, and share ideas with the leadership team. Then, [use the Yammer web part](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) to embed the conversation on the leadership connection SharePoint site.
@@ -65,15 +65,15 @@ SharePoint communication sites are a great tool to create a landing place to sha
 
 **Image of the Leadership connection site template:**
 
-![Image of the leadership connection site template.](media/lc-site-template.png)
+![Screenshot of the leadership connection site template.](media/lc-site-template.png)
 
 **Share recording from leadership events:**
 
-![Image of a page that displays recordings from previous meetings.](media/lc-event-recording.png)
+![Screenshot of a SharePoint page that displays recordings from previous meetings.](media/lc-event-recording.png)
 
 **Showcase leadership profiles:**
 
-![Image of a page that displays leadership profiles.](media/lc-profiles.png)
+![Screenshot of a SharePoint page that displays leadership profiles.](media/lc-profiles.png)
 
 #### Get started creating your SharePoint leadership site
 There are several resources that can help you quickly create a leadership site:
@@ -91,7 +91,7 @@ As a SharePoint site owner, you can view information about how users interact wi
 ## Step 2: Create a leadership community in Yammer
 Communities in Yammer help employees share knowledge, engage with others in the employee experience, and provide a social platform for company-wide communications. It can also be used to drive leadership engagement by providing a central place for your conversations, documents, events, and updates. Yammer can help you host a live event with [moderated Q&A](https://support.microsoft.com/office/drive-engagement-in-a-classic-yammer-live-event-c0244ad8-6dcb-419c-add9-2e4a00543412) for up to 10,000 attendees.
 
-![Image of the leadership connection Yammer community.](media/lc-yammer-community.png)
+![Screenshot of the leadership connection Yammer community.](media/lc-yammer-community.png)
 
 **Use Yammer to help engage your organization by:**
 
@@ -111,13 +111,13 @@ Create and produce live events for people in the leadership Yammer network, with
 
 **Image of live questions and answers during an event**
 
-![Image of how to plan a live event qith questions and answers.](media/lc-event-questions.png)
+![Screenshot of a woman presenting in a live event in Teams.](media/lc-event-questions.png)
 
 There are two ways [live events in Yammer can be produced](/yammer/manage-yammer-groups/yammer-live-events#types-of-live-events). The requirements depend on which video production methods you intend to use in your organization. Learn more about which method of live event you should use. For live events that only require visual and audio support, consider [hosting a live event using Yammer in Teams](https://support.microsoft.com/office/schedule-and-produce-a-live-event-in-new-yammer-using-teams-d891bff6-eda2-493f-8b0d-d87932e7937d).
 
 Once you've determined the right method for your live event, get started organizing and scheduling the event.
 
-![Image of how to plan a live event.](media/lc-event-plan-2.png)
+![Diagram of how to plan a live event with questions and answers.](media/lc-event-plan-2.png)
 
 Learn more about [how to organize the live event in Yammer](https://support.microsoft.com/office/organize-a-live-event-in-new-yammer-7338782a-4f0b-4fd0-a6c3-33625906ead1). Review the [Yammer live event playbook](https://support.office.com/article/organize-a-live-event-in-yammer-105dd7af-9caf-4a5e-8a44-56d203e96551) and [Yammer live event FAQs](https://support.microsoft.com/office/new-yammer-live-event-faq-ec9deff2-3181-4300-a204-c809729e4dff) to understand all the different roles and responsibilities, how to ensure the event goes smoothly, and how to drive engagement. Consider using guidance from [How to host a town hall for your organization](hold-town-hall-using-yammer.md) to plan your live event.
 
@@ -133,7 +133,7 @@ Bring the SharePoint leadership site, news, and conversations from the Yammer co
 - Promote events, news, and conversations in Viva Connections dashboard to specific audiences using audience targeting
 - Boost important news and announcements to the top of employees' news feeds
 
-![Image of the Viva Connections Dashboard.](media/viva-leader-mobile-2.png)
+![Screenshot of the Viva Connections Dashboard with a leadership event highlighted.](media/viva-leader-mobile-2.png)
 
 
 Viva Connections offers added functionality through three primary components - the Dashboard, the Feed, and Resources. 
