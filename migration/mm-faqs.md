@@ -94,3 +94,5 @@ Answer:  Migration Manager uses the time zone setting in the SharePoint Admin ce
 **Question:**  What does **% complete** mean?
 Answer:  The % complete indicates the progress of the overall task migration, including the number of files migrated and the preparation work required for the remaining files to be migrated. *Note:* The **%** is not linearly proportional to the number of files remaining to be migrated.
 
+**Question:**  Can Migration Manager convert GSuite products to O365 products?
+Answer:  Yes.  When Migration Manager migrates the data from Google Workspace, the documents are converted to O365 format.
