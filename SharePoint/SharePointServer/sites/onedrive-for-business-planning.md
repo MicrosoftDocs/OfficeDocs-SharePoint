@@ -57,7 +57,7 @@ In a SharePoint Server on-premises environment, you may have the option to save 
 The sync app also provides your users the added convenience of working with files directly from the local Microsoft OneDrive sync folder. Work with and saving your files directly in the folder is more convenient than opening your My Sites document library.
   
 > [!IMPORTANT]
-> Use the [previous OneDrive for Business sync app _Groove.exe_](/onedrive/install-previous-sync-app.md) to sync files in SharePoint Server 2016 or earlier. The new OneDrive sync app _OneDrive.exe_ is supported in SharePoint Server 2019 and SharePoint Server Subscription Edition. [Configure the OneDrive sync app for SharePoint Server 2019](../install/configure-syncing-with-the-onedrive-sync-app.md)
+> Use the [previous OneDrive for Business sync app _Groove.exe_](/onedrive/install-previous-sync-app.md) to sync files in SharePoint Server 2016 or earlier. The new OneDrive sync app _OneDrive.exe_ is supported in SharePoint Server 2019 and SharePoint Server Subscription Edition. [configure-syncing-with-the-onedrive-sync-app](../install/configure-syncing-with-the-onedrive-sync-app.md).
   
  **Changes in file location**
   
