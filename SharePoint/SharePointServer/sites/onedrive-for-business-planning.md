@@ -33,7 +33,7 @@ One of the first planning considerations you should make is if you truly want to
 > [!NOTE]
 > For more info about OneDrive, see [What is OneDrive?](https://support.office.com/article/187f90af-056f-47c0-9656-cc0ddca7fdc2)
   
-## Setup OneDrive
+## Set up OneDrive
 <a name="section2"> </a>
 
 To make Microsoft OneDrive in SharePoint Server available to your users, you need to configure the following services in SharePoint Server Central Administration:
