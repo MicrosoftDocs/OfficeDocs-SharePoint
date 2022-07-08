@@ -13,6 +13,7 @@ search.appverid: MET150
 description: "Get started planning, building, and launching your intranet"
 ms.collection: 
   - m365solution-spintranet
+  - m365solution-scenario
 ---
 
 # Get started creating your intelligent intranet
@@ -84,7 +85,7 @@ Now that you are familiar with the key success factors, phases, roles, and tasks
 
 ## Up next
 
-[Get started planning](plan-intranet.md) your intranet around initiatives that solve specific problems, can be implemented quickly, and will yeild a high return on investment. 
+[Get started planning](plan-intranet.md) your intranet around initiatives that solve specific problems, can be implemented quickly, and will yield a high return on investment. 
 
 
 ### Related topics
