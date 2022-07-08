@@ -30,10 +30,8 @@ In SharePoint 2019 and prior versions, SharePoint Server supported three types o
 
 SharePoint Server Subscription Edition now supports OIDC 1.0 authentication protocol. With this new capability, you can now set up an OIDC-enabled `SPTrustedIdentityTokenIssuer` that works with a remote identity provider to enable OIDC authentication.
 
-You can set up OIDC authentication in SharePoint Server with either:
+You can set up OIDC authentication in SharePoint Server with either of these options:
 
 - Microsoft Azure Active Directory (Azure AD). For more information, see [Set up OIDC authentication in SharePoint Server with Microsoft Azure Active Directory (Azure AD)](set-up-oidc-auth-in-sharepoint-server-with-msaad.md).
-
-or,
 
 - Active Directory Federation Services (AD FS). For more information, see [Set up OIDC authentication in SharePoint Server with Active Directory Federation Services (AD FS)](set-up-oidc-auth-in-sharepoint-server-with-adfs.md).
