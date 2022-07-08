@@ -47,7 +47,6 @@ This article will  show you how to create a training solution that includes a du
 
 ## Plan a training and learning experience
 
-![Screenshot of a SharePoint site that focuses on training.](media/training-site-example.png)
 
 **Planning considerations:**
 
@@ -92,11 +91,9 @@ Build out the learning and training experience one platform at a time. The tools
 
 ### Use Viva Learning to curate learning experiences
 
-![Screenshot of a Viva Learning home page.](media/viva-learning-example.png)
+![Screenshot of a Viva Learning home page.](media/viva-learning-home-page.png)
 
 [Viva Learning is an application for Microsoft Teams.](/viva/learning/overview-viva-learning) that allows users to discover, recommend, and access learning modules from different platforms to help users gain knowledge in any specific focus area. Viva Learning pulls content from LinkedIn Learning, Microsoft Learn, Microsoft 365 Training, and other partners. Use Viva Learning to curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily.
-
-![Screenshot of a manager assigning a training in Viva Learning.](media/viva-learning-assignment.png)
 
 In Viva Learning, managers of an organization or team can assign learning and track the learning progress of each module. The Viva Learning home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. Learn more about [Viva Learning](https://www.microsoft.com/en-us/microsoft-viva/learning/?ef_id=21e9ec552f93177bad868d00eec92fd8:G:s&OCID=AID2200888_SEM_21e9ec552f93177bad868d00eec92fd8:G:s&msclkid=21e9ec552f93177bad868d00eec92fd8)
 
