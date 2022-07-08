@@ -31,7 +31,7 @@ When you deploy SharePoint Server Subscription Edition or 2019 in your organizat
     
 ## Requirements
 
-1. Install SharePoint Server Subscription Editior or 2019.
+1. Install SharePoint Server Subscription Edition or 2019.
 
 2. Install the OneDrive sync app ([download](https://go.microsoft.com/fwlink/p/?LinkId=248256)). For deployment info, see:
 
