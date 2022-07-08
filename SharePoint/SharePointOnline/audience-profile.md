@@ -125,7 +125,7 @@ Learn more about how to [manage Microsoft 365 Groups](/admin/create-groups/offic
 For communication that takes place in SharePoint, you’ll have access to a feature called [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81). Audience targeting helps the most relevant content get to the right audiences. By enabling audience targeting, specific content will be prioritized to specific audiences using Microsoft 365 Groups through SharePoint web parts, page libraries, and navigational links.
 <br>
 
- ![Image of audience targeting in SharePoint navigation](media/audience-targeting-links2.png)
+ ![Screenshot of the audience targeting feature in SharePoint site navigation.](media/audience-targeting-links2.png)
 
 [Audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) can be applied to many components in SharePoint and can be especially helpful:
 <br>
