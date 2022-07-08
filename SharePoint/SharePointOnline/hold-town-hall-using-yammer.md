@@ -102,7 +102,7 @@ Promote the town hall before the event date where your target audience usually g
 
 #### Promote in Yammer
 
-![Image of the Yammer homepage for a community.](media/th4.png)
+![Screenshot of the Yammer homepage for a community.](media/th4.png)
 
 Drive pre-event awareness in Yammer. When holding a town hall in Yammer, audience engagement begins as soon as the event has been created. Attendees can promote and discover the upcoming event through the event banner (when in the live feed), event notifications, and by accessing the Event tab on mobile.
 
@@ -110,7 +110,7 @@ In the Yammer Home Feed, attendees can set up notifications that let them know w
 
 #### Promote in SharePoint
 
-![Image of event planning page in SharePoint.](media/th13.png)
+![Screenshot of an event planning site in SharePoint.](media/th13.png)
 
 Inform and prepare your audience for your event by creating a [SharePoint communications site](https://support.microsoft.com/office/plan-your-sharepoint-communication-site-35d9adfe-d5cc-462f-a63a-bae7f2529182)  using the [Events template](https://support.microsoft.com/office/use-the-sharepoint-event-planning-site-template-9464fe53-c85c-4e3b-94d9-0e70a45b08c6). Include instructions for attending and any other resources like pre-reads or news links.
 
@@ -122,7 +122,7 @@ Include objectives or talking points in the invite. This will help attendees pre
 
 #### Promote in Viva Connections
 
-![Image of the Viva Connections homepage.](media/viva-townhall-desktop.png)
+![Screenshot of the Viva Connections home page.](media/viva-townhall-desktop.png)
 
 Viva Connections is an app in Microsoft Teams and is built on the existing capabilities of Microsoft 365. It allows organizations to customize employee experiences that centralize important information, tools, and resources on both desktop and mobile devices.
 
@@ -155,7 +155,7 @@ Determine whether your speakers will be broadcasting from a web cam or a studio-
 
 Audience members and moderators can engage during the event using the conversation bar. Be sure to record the event so people who weren't able to attend live can watch later.
 
-![Image of the mobile Yammer homepage.](media/th9.png)   ![Image of the desktop Yammer homepage.](media/th10.png)
+![Screenshot of the mobile Yammer home page.](media/th9.png)   ![Screenshot of the desktop Yammer home page.](media/th10.png)
 
 Yammer allows for a live Q&A during the event, as well as freeform conversation that promotes candid, organization-wide conversation. Learn more about [using Q&A in a Yammer community](https://support.microsoft.com/office/use-questions-and-answers-in-a-yammer-community-a4f1b722-d1bf-42be-a592-7288c7c0b895).
 
@@ -173,13 +173,13 @@ Make your town hall and post-event engagement scalable by sharing your town hall
 
 ### Measure attendee insights
 
-![Image of the Yammer attendee insights dashboard.](media/th11.png)
+![Screenshot of the Yammer attendee insights dashboard.](media/th11.png)
 
 [Yammer event reports](https://support.microsoft.com/office/get-insights-about-live-events-in-yammer-2ce5e236-8b72-4715-88ea-a8e15d9488ba) features insights that show attendee location, department insights, sentiment analysis, and API sensibility. View insights to see how many people attended, average watch time, and more. Recognize trends by seeing how many conversations, comments, questions, answers, and reactions were generated through the event. Use this information to amplify the content people engaged with  most and to plan for your next town hall.
 
 ### Measure community engagement
 
-![Image of the Yammer community engagement dashboard.](media/th12.png)
+![Screenshot of the Yammer community engagement dashboard.](media/th12.png)
 
 Yammer's insights that allow creators of town halls to identify trends such as conversations, questions, top contributors, topics, hashtags, location, and department.
 

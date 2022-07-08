@@ -47,7 +47,7 @@ This article will  show you how to create a training solution that includes a du
 
 ## Plan a training and learning experience
 
-![Image of a SharePoint site that focuses on training.](media/training-site-example.png)
+![Screenshot of a SharePoint site that focuses on training.](media/training-site-example.png)
 
 **Planning considerations:**
 
@@ -92,17 +92,17 @@ Build out the learning and training experience one platform at a time. The tools
 
 ### Use Viva Learning to curate learning experiences
 
-![Viva Learning homepage screenshot.](media/viva-learning-example.png)
+![Screenshot of a Viva Learning home page.](media/viva-learning-example.png)
 
 [Viva Learning is an application for Microsoft Teams.](/viva/learning/overview-viva-learning) that allows users to discover, recommend, and access learning modules from different platforms to help users gain knowledge in any specific focus area. Viva Learning pulls content from LinkedIn Learning, Microsoft Learn, Microsoft 365 Training, and other partners. Use Viva Learning to curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily.
 
-![Iamge of a manager assigning a training in Viva Learning.](media/viva-learning-assignment.png)
+![Screenshot of a manager assigning a training in Viva Learning.](media/viva-learning-assignment.png)
 
 In Viva Learning, managers of an organization or team can assign learning and track the learning progress of each module. The Viva Learning home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. Learn more about [Viva Learning](https://www.microsoft.com/en-us/microsoft-viva/learning/?ef_id=21e9ec552f93177bad868d00eec92fd8:G:s&OCID=AID2200888_SEM_21e9ec552f93177bad868d00eec92fd8:G:s&msclkid=21e9ec552f93177bad868d00eec92fd8)
 
 ### Create a learning and development landing page using SharePoint
 
-![Learning Central SharePoint communication homepage screenshot.](media/lt-5.png)
+![Screenshot of the Learning Central SharePoint communication template.](media/lt-5.png)
 
 Create an internal communication site that acts as a home for the learning and training experience. This site should lay out resources, deliverables, and learning objectives in and organized way. This site should also contain the most up-to-date information to ensure the employee has everything needed to be successful. Try organizing action items on this site in a way that signals priority. List the things that need to be finished first at the top. This will help employees organize their learning and training to the best of their ability.
 
@@ -110,7 +110,7 @@ Microsoft offers a new customizable [Learning Central SharePoint communication s
 
 ### Use Teams to hold live learning events
 
-![Teams live meeting screenshot.](media/oe-3.png)
+![Screenshot of a Teams live meeting.](media/oe-3.png)
 
 Many learning experiences require hands-on training. Some experiences are better held in live environments where employees can ask questions and get guidance in real time. With the emergence of virtual work, having face time with other people in the organization is still important in making sure employees can communicate with learning instructors and other peers and ask top-of-mind questions. Use Microsoft Teams to administer live learning and training experiences.
 
@@ -120,7 +120,7 @@ Record each session so employees can review the learning material later, or so f
 
 ### Provide an opportunity for employees to learn from each other in communities on Yammer
 
-![Yammer homepage screenshot.](media/th4.png)
+![Screenshot of Yammer home page.](media/th4.png)
 
 Give employees that have similar learning objectives the opportunity to connect with each other and build a supportive virtual community in Yammer. Yammer is a platform that connects leaders, communicators, and employees to build communities, share knowledge, and engage across the organization. Yammer allows you to set up a community specifically for employees within the same or similar disciplines.
 
