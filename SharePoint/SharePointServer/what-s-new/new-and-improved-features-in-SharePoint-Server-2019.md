@@ -46,7 +46,7 @@ Communication sites are a place to share news, showcase a story, or broadcast a 
 
 ### Create fast sites
 
-Fast site creation in SharePoint Server 2019 allows users create new sites in a few seconds. Fast site creation is only supported with the following site templates:
+Fast site creation in SharePoint Server 2019 allows users to create new sites in a few seconds. Fast site creation is only supported with the following site templates:
 
 - OneDrive personal site \[SPSPERS#10\]
 
@@ -93,7 +93,7 @@ Modern team sites bring a fresh and responsive user experience to team collabora
 SharePoint Server 2019 will continue to support creating classic team sites.
 
 ### Integration with Power Apps, Power BI and Power Automate
-SharePoint Server 2019 brings cloud closer to the Customers and Customers closer to the cloud. The cloud features Power Apps, Power BI, and Power Automate are now available. SharePoint Server 2019 includes process automation and forms technologies like Power Apps and Power Automate to connect with your on-premises data. These features needs to be configured via gateway.
+SharePoint Server 2019 brings cloud closer to the Customers and Customers closer to the cloud. The cloud features Power Apps, Power BI, and Power Automate are now available. SharePoint Server 2019 includes process automation and forms technologies like Power Apps and Power Automate to connect with your on-premises data. These features need to be configured via gateway.
 
 ### SharePoint using modern Internet Information Services (IIS) APIs
 
