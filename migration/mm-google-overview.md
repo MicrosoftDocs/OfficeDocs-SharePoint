@@ -68,23 +68,27 @@ Make sure that you have:
 2. Create the destination document library in the appropriate team site of your SharePoint tenant. At this time, we recommend that you re-establish the membership list of the Google Shared Drive on the destination document library in your SharePoint tenant
 3. Migrate the Google Shared Drive. If you didn't do it in step 2, re-establish the membership list of the Google Shared Drive in the destination document library in your SharePoint tenant.
 
-## What isn't transferred
+## What isn't migrated
 
-### What happens to Google Drawings, Forms, Sites, and Maps?
+### Google Drawings, Forms, Sites, and Maps
 
 Google does not allow us to export Drawings, Forms, Sites, and Maps from Drive. These are not migrated.
 
-### What about Docs, Slides, and Sheets?
+### Docs, Slides, and Sheets
 
 Google's proprietary formats are not compatible with anything other than G Suite Drive. When migrating from G Suite, Migration Manager converts to the Microsoft Office format from Google's format.
 
+
+|Google format|Office format|
 |:-----|:-----|
+|.gsheet|.xlsx|
+|.gdoc|.docx|
+|.gslide|.pptx|
 
 
 >[!Note]
 >The only way to migrate/download a Google format file is to request that they [Google] convert it. Microsoft does not control the conversion process, and the forced limitations are strictly on Google's end.
 
-![google format vs office format](media/google-format-versus-office-format.png)
 
 ### Files marked as restricted
 
