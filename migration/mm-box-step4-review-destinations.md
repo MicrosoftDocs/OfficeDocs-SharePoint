@@ -27,8 +27,6 @@ In this step, review the destination paths of the accounts you have moved to the
 ## Single destination edit
 If a destination is missing, highlight the row. A panel will appear to the right. Under **Destination**, select **Edit**.  
 
-
-
 1. Highlight the row. Under **Destination**, select **Edit.**
 2. You have the choice of selecting a OneDrive, SharePoint, or Teams path as a destination.  Depending your selection:
 
