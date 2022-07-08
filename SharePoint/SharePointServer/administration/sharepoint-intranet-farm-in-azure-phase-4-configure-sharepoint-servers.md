@@ -25,7 +25,7 @@ description: "Configure the SharePoint servers to host a high-availability Share
   
 In this phase of deploying an intranet-only SharePoint Server 2016 farm in Azure infrastructure services, you create the SharePoint Server 2016 servers and configure their roles with the SharePoint Configuration Wizard.
   
-You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 5: Create the availability group and add the SharePoint databases](sharepoint-intranet-farm-in-azure-phase-5-create-the-availability-group-and-add.md). See [Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](./deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md) for all of the phases. 
+You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 5: Create the availability group and add the SharePoint databases](sharepoint-intranet-farm-in-azure-phase-5-create-the-availability-group-and-add.md). See [Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure](./deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md) for all of the phases. 
   
 ## Create the SharePoint server virtual machines in Azure
 
@@ -383,7 +383,7 @@ Use [SharePoint Intranet Farm in Azure Phase 5: Create the availability group an
 
 #### Other Resources
 
-[Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure](./deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md)
+[Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure](./deploying-sharepoint-server-with-sql-server-alwayson-availability-groups-in.md)
   
 [SharePoint Server in Microsoft Azure](./sharepoint-server-in-microsoft-azure.md)
   
