@@ -68,6 +68,42 @@ Make sure that you have:
 2. Create the destination document library in the appropriate team site of your SharePoint tenant. At this time, we recommend that you re-establish the membership list of the Google Shared Drive on the destination document library in your SharePoint tenant
 3. Migrate the Google Shared Drive. If you didn't do it in step 2, re-establish the membership list of the Google Shared Drive in the destination document library in your SharePoint tenant.
 
+## What isn't migrated
+
+### Google Drawings, Forms, Sites, and Maps
+
+Google doesn't allow us to export Drawings, Forms, Sites, and Maps from Drive. These aren't migrated.
+
+### Docs, Slides, and Sheets
+
+Google's proprietary formats aren't compatible with anything other than a Google Workspace Drive. When migrating from Google Workspace, Migration Manager converts to the Microsoft Office format from Google's format.
+
+
+|Google format|Office format|
+|:-----|:-----|
+|.gsheet|.xlsx|
+|.gdoc|.docx|
+|.gslide|.pptx|
+
+
+>[!Note]
+>The only way to migrate/download a Google format file is to request that they [Google] convert it. Microsoft does not control the conversion process, and the forced limitations are strictly on Google's end.
+
+
+### Files marked as restricted
+
+Google WorkspaceDrive lets owners disable the ability for users to copy, download, or print a file on a per-file basis. To work properly, this feature must be disabled on each file for which it has been enabled. It not enabled, you'll receive an error stating:
+
+`Permissions issue: File marked as restricted or not copyable`
+
+To disable this feature:
+
+1. See the **Sharing** settings for a file, and select **Advanced**. 
+2. Select the checkbox for the owner of the file to **Disable options to download, print, and copy for commenters and viewers.**
+    
+### What happens to Google Drive shortcuts?
+
+Shortcut files aren't supported for migration and therefore not migrated.
 
 
 >[!NOTE]
