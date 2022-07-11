@@ -72,11 +72,11 @@ Make sure that you have:
 
 ### Google Drawings, Forms, Sites, and Maps
 
-Google does not allow us to export Drawings, Forms, Sites, and Maps from Drive. These are not migrated.
+Google doesn't allow us to export Drawings, Forms, Sites, and Maps from Drive. These aren't migrated.
 
 ### Docs, Slides, and Sheets
 
-Google's proprietary formats are not compatible with anything other than G Suite Drive. When migrating from G Suite, Migration Manager converts to the Microsoft Office format from Google's format.
+Google's proprietary formats aren't compatible with anything other than a Google Workspace Drive. When migrating from Google Workspace, Migration Manager converts to the Microsoft Office format from Google's format.
 
 
 |Google format|Office format|
@@ -92,18 +92,18 @@ Google's proprietary formats are not compatible with anything other than G Suite
 
 ### Files marked as restricted
 
-G Suite Drive enables owners to disable the ability for users to copy, download, or print a file on a per-file basis. This feature must be disabled on each file for which it has been enabled, in order for a migration to function properly, or you receive an error stating:
+Google WorkspaceDrive lets owners disable the ability for users to copy, download, or print a file on a per-file basis. To work properly, this feature must be disabled on each file for which it has been enabled. It not enabled, you'll receive an error stating:
 
 `Permissions issue: File marked as restricted or not copyable`
 
-To disable this feature, see the **Sharing** settings for a file, and select **Advanced**. Check the checkbox for the owner of the file to **Disable options to download, print, and copy for commenters and viewers.**
+To disable this feature:
 
-![restricted file](media/restricted-file.png)
-
+1. See the **Sharing** settings for a file, and select **Advanced**. 
+2. Select the checkbox for the owner of the file to **Disable options to download, print, and copy for commenters and viewers.**
     
 ### What happens to Google Drive shortcuts?
 
-Shortcut files are not supported for migration. These shortcut files will not be transferred.
+Shortcut files aren't supported for migration and therefore not migrated.
 
 
 >[!NOTE]
