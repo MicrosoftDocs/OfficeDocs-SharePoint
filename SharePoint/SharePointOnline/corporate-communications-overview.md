@@ -65,7 +65,7 @@ Learn how to plan your communication strategy by reviewing common communication 
 
 This poster illustrates how Contoso keeps employees informed and engaged across popular communication scenarios. Contoso uses a variety of M365 apps, including a new offering, Viva Connections.
 
-[ ![Image of the corporate communication planning poster.](media/corp-comm-poster-2.png)](media/relecloud-poster.png#lightbox)
+[ ![Image of the corporate communication planning poster.](media/corporate-communication-relecloud.png)](media/corporate-communication-relecloud#lightbox)
 
 
 [Download the PDF version of this poster](https://download.microsoft.com/download/0/3/4/034fbee5-ecf4-4559-86d3-815e898f21ea/contoso-corporate-communication-poster.pdf) or [download this poster as a Visio file](https://download.microsoft.com/download/0/3/4/034fbee5-ecf4-4559-86d3-815e898f21ea/contoso-corporate-communication-poster.vsdx) to make custom edits for your organization.
