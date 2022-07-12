@@ -308,7 +308,7 @@ To estimate the storage requirements for the service applications in the system,
 
 Availability is how much a SharePoint Server environment is perceived by users to be available. An available system is a system that is resilient — that is, incidents that affect service occur infrequently, and timely and effective action is taken when they do occur.
 
-Availability requirements can significantly increase your storage needs. For detailed information, see [Create a high availability architecture and strategy for SharePoint Server](plan-for-high-availability.md). Also, see the SQL Server 2012 white paper [AlwaysOn Architecture Guide: Building a High Availability and Disaster Recovery Solutions by Using AlwaysOn Availability Groups](/previous-versions/sql/sql-server-2012/jj191711(v=msdn.10)).
+Availability requirements can significantly increase your storage needs. For detailed information, see [Create a high availability architecture and strategy for SharePoint Server](plan-for-high-availability.md). Also, see the SQL Server 2012 white paper [Always On Architecture Guide: Building a High Availability and Disaster Recovery Solutions by Using Always On Availability Groups](/previous-versions/sql/sql-server-2012/jj191711(v=msdn.10)).
 
 <a name="Section2"> </a>
 ## Choose SQL Server version and edition
@@ -507,7 +507,7 @@ The following list provides some best practices and recommendations:
 
 - We do not recommend a wide area network (WAN) topology in which a server that is running SQL Server is deployed remotely from other components of the farm over a network that has latency greater than 1 ms., because this topology has not been tested.
 
-- Plan for an adequate WAN network if you plan to use SQL Server the AlwaysOn implementation suite, mirroring, log shipping, or Failover Clustering to keep a remote site up to date.
+- Plan for an adequate WAN network if you plan to use SQL Server the Always On implementation suite, mirroring, log shipping, or Failover Clustering to keep a remote site up to date.
 
 - We recommend that web servers and application servers have two network adapters: one network adapter to handle user traffic and the other to handle communication with the servers that are running SQL Server.
 

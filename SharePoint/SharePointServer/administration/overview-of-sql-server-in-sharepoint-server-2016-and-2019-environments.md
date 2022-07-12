@@ -99,12 +99,12 @@ For more information, see [Features Supported by the Editions of SQL Server 2014
 ### High Availability Solutions
 <a name="HA"> </a>
 
-We recommend AlwaysOn Availability Groups and AlwaysOn Failover Cluster Instances for high availability in SQL Server 2014 Reporting Services (SP1). Other high availability solutions are database mirroring, and log shipping. Both AlwaysOn Availability Groups and Failover Cluster Instances solutions require and use Windows Server Failover Clustering (WSFC).
+We recommend Always On Availability Groups and Always On Failover Cluster Instances for high availability in SQL Server 2014 Reporting Services (SP1). Other high availability solutions are database mirroring, and log shipping. Both Always On Availability Groups and Failover Cluster Instances solutions require and use Windows Server Failover Clustering (WSFC).
   
 > [!NOTE]
-> We recommend that you use AlwaysOn Availability Groups instead of database mirroring for your high availability solution with SQL Server 2014 (SP1), SQL Server 2016, and SQL Server 2017 RTM for SharePoint Servers 2016 and 2019. For more information, see [Overview of SQL Server High-Availability Solutions](/sql/database-engine/sql-server-business-continuity-dr?viewFallbackFrom=sql-server-2014). 
+> We recommend that you use Always On Availability Groups instead of database mirroring for your high availability solution with SQL Server 2014 (SP1), SQL Server 2016, and SQL Server 2017 RTM for SharePoint Servers 2016 and 2019. For more information, see [Overview of SQL Server High-Availability Solutions](/sql/database-engine/sql-server-business-continuity-dr?viewFallbackFrom=sql-server-2014). 
   
-For more information, see [AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server?viewFallbackFrom=sql-server-2014), and [Prerequisites, Restrictions, and Recommendations for AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability).For information about high availability for SQL Server Reporting Services, see [High Availability (Reporting Services)](https://go.microsoft.com/fwlink/?LinkID=808640&amp;clcid=0x409). 
+For more information, see [Always On Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server?viewFallbackFrom=sql-server-2014), and [Prerequisites, Restrictions, and Recommendations for Always On Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability).For information about high availability for SQL Server Reporting Services, see [High Availability (Reporting Services)](https://go.microsoft.com/fwlink/?LinkID=808640&amp;clcid=0x409). 
   
 #### Log Shipping
 

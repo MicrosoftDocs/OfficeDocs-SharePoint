@@ -1,5 +1,5 @@
 ---
-title: "Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure"
+title: "Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure"
 ms.reviewer: 
 ms.author: kvice
 author: kelleyvice-msft
@@ -22,7 +22,7 @@ ms.assetid: af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2
 description: "Get an overview of deploying SharePoint Server in Microsoft Azure with links to each phase of the deployment."
 ---
 
-# Deploying SharePoint Server with SQL Server AlwaysOn Availability Groups in Azure
+# Deploying SharePoint Server with SQL Server Always On Availability Groups in Azure
 
 [!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
   
@@ -103,7 +103,7 @@ You deploy this SharePoint Server farm with the following phases:
     
 - [SharePoint Intranet Farm in Azure Phase 5: Create the availability group and add the SharePoint databases](./sharepoint-intranet-farm-in-azure-phase-5-create-the-availability-group-and-add.md)
     
-    Prepare databases and create a SQL Server AlwaysOn availability group.
+    Prepare databases and create a SQL Server Always On availability group.
     
 This configuration is a prescriptive, phase-by-phase guide for a predefined architecture to create a highly available intranet SharePoint Server farm in Azure infrastructure services. Keep the following in mind:
   
