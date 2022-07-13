@@ -34,6 +34,7 @@ Authentication contexts are used with sensitivity labels to connect [Azure AD co
 Some apps do not currently work with authentication contexts. If you have Office apps or third party apps, we recommend testing them on a site with authentication context enabled before broadly deploying this feature. Currently, the following apps and scenarios do *not* work with authentication contexts:
 
 - Older version of Office apps (see the [list of supported versions](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#more-information-about-the-dependencies-for-the-authentication-context-option))
+- Yammer
 - Teams web app
 - OneNote app can't be added to channel if the associated SharePoint site has an authentication context
 - Teams private channel won't provision a SharePoint if the main team site has an authentication context
