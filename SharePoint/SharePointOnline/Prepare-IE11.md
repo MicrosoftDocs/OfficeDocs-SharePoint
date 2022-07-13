@@ -23,10 +23,12 @@ description: "Prepare your SharePoint and OneDrive environment for when Microsof
 As Microsoft 365 evolves, we continually evaluate our apps and services to make sure that we deliver the most value to customers. Last August, we
 [announced that in one year we would say farewell to Internet Explorer 11](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666).
 
-Although support for Internet Explorer 11 continues, we’ve shifted web browser development resources to the
-[Microsoft Edge browser](https://www.microsoft.com/edge/business). Focusing on Microsoft Edge helps us accelerate innovation in Microsoft 365 experiences from the browser and in modern apps, such as Microsoft Teams, OneDrive, SharePoint, Lists, and more.
+Focusing on [Microsoft Edge browser](https://www.microsoft.com/edge/business) helps us accelerate innovation in Microsoft 365 experiences from the browser and in modern apps, such as Microsoft Teams, OneDrive, SharePoint, Lists, and more.
 
 Beginning on August 17, 2021, [Microsoft 365 apps and services will no longer support Internet Explorer 11](/lifecycle/announcements/internet-explorer-11-support-end-dates). While we know this change will be difficult for some customers, we believe that you'll get the most out of Microsoft 365 when using Microsoft Edge. To avoid disruptions, we’ve identified considerations and practices for admins as you transition off SharePoint features that rely on Internet Explorer 11.
+
+> [!NOTE]
+> Internet Explorer 11 and Edge IE compatibility mode are not supported in Team sites, OneDrive personal sites, or any other types of SharePoint content sites. Microsoft recommends exploring Microsoft Edge as the replacement for Internet Explorer 11.
 
 ## Deploy a modern browser such as Microsoft Edge
 
