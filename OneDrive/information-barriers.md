@@ -41,7 +41,7 @@ When using information barriers with OneDrive, the following IB modes are suppor
 | **Open** | When a non-segmented user provisions their OneDrive, the site's IB mode is set as Open, by default. There are no segments associated with the site. |
 | **Owner Moderated** | When a OneDrive is used for collaboration with incompatible users in the presence of the site owner/moderator, the OneDrive's IB mode can be set as Owner Moderated. See [this section](#manage-the-ib-mode-of-a-users-onedrive-preview) for details on Owner Moderated site. |
 | **Explicit** | When a segmented user provisions their OneDrive within 24 hours of enablement, the site's IB mode is set as *Explicit* by default. The user's segment and other segments that are compatible with the user's segment and with each other get associated with the user's OneDrive. |
-| **Mixed (preview)** | When a segmented user's OneDrive is allowed to be shared with unsegmented users, the site's IB mode can be set as *Mixed*. This is an opt-in mode which the SharePoint admin can set on OneDrive of a segmented user. |
+| **Mixed (preview)** | When a segmented user's OneDrive is allowed to be shared with unsegmented users, the site's IB mode can be set as *Mixed*. This is an opt-in mode that the SharePoint admin can set on OneDrive of a segmented user. |
 
 >[!NOTE]
 >Starting July 12, 2022, *Inferred* mode has changed to *Mixed* mode. The functionality for the mode remains the same.
