@@ -1,5 +1,5 @@
 ---
-title: "Prepare your SharePoint environment for the retirement of Internet Explorer 11 for Microsoft 365 apps and services"
+title: "Prepare your SharePoint environment for the retirement of Internet Explorer 11"
 ms.reviewer: aharmetz
 ms.author: matteva
 author: MattEEvans
