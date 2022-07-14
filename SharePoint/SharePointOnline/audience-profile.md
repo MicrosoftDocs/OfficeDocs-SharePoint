@@ -73,7 +73,7 @@ Understanding the size of your audience will help you narrow down what Microsoft
 | :------------------- | :-------------------  |:------------------- | :------------------- |
 | Specific teams, roles, regions, departments, and projects  | 300 to 20,000  | Send an email <br> Publish SharePoint news <br> Post in a Teams channel <br> Schedule a Teams meeting <br> Post in a Yammer community <br> Host a Teams live event <br> Host a Yammer live event| 
 | Entire departments or regions    |5,000 to 20,000              | *All of the above, in addition to:* <br><br> Stream channel or live event in Stream |
-| **All employees**            | Up to 25,000                  | *All of the above*  |
+| **All employees**            | Up to 25,000                  | *All of the above, in addition to:* <br><br> Use Viva Connections to bring news, events, and tools into one place |
 |   | 25,000 to 100,000  | Microsoft 365 live events* <br> Publish SharePoint news <br> Send an email <br> *Live events with up to 100,000 attendees can be planned through the [Microsoft 365 live events assistance program](https://resources.techcommunity.microsoft.com/live-events/assistance/) |
 
 
@@ -125,7 +125,7 @@ Learn more about how to [manage Microsoft 365 Groups](/admin/create-groups/offic
 For communication that takes place in SharePoint, you’ll have access to a feature called [audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81). Audience targeting helps the most relevant content get to the right audiences. By enabling audience targeting, specific content will be prioritized to specific audiences using Microsoft 365 Groups through SharePoint web parts, page libraries, and navigational links.
 <br>
 
- ![Image of audience targeting in SharePoint navigation](media/audience-targeting-links2.png)
+ ![Screenshot of the audience targeting feature in SharePoint site navigation.](media/audience-targeting-links2.png)
 
 [Audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) can be applied to many components in SharePoint and can be especially helpful:
 <br>
