@@ -79,12 +79,10 @@ The migration task generates a workflow migration report titled *WorkflowMigrati
 |Error code||
 
 
-
-
-## Migrate SharePoint Server workflows to Power Automate using PowerShell
+## Migrate workflows using PowerShell
 
 Alternatively, you can migrate your workflows to Power Automate using PowerShell.  
-Before you proceed, make sure you have completed the steps in this article: [Step 1 - Configure endpoints and Power Automate](spmt-workflow-step1.md)
+Before you proceed, make sure you have completed the steps in this article: [Step 1 - Configure endpoints and Power Automate](spmt-workflow-step1.md).
 
 ### Scan workflows
 
@@ -102,10 +100,10 @@ Start-SPMTMigration
 
 This command does the following:
 
--  Migrates workflow of a site or list
--  Generates a migration package
--  Imports the package to Power Automate and 
--  Generates a migration report. 
+- Migrates workflow of a site or list
+- Generates a migration package
+- Imports the package to Power Automate and 
+- Generates a migration report. 
 
 **MigrationType**
 
