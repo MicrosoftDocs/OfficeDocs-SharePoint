@@ -39,7 +39,10 @@ After configuring the required endpoints and configuring Power Automate, you are
 
    ![spmt workflow source](media/spmt-workflow-select-source.png)
 
-8. Enter your destination; the SharePoint site and list where you want to migrate your workflow.  If the site or the list doesn't currently exist, they will be created for you. Select **Next**.
+8. Enter your destination; the SharePoint site and list where you want to migrate your workflow.  Select the workflow environment. If the site or the list doesn't currently exist, they will be created for you. Select **Next**.
+
+:::image type="content" source="media/spmt-workflow-select-environment.png" alt-text="Select your destination and environment":::
+
 9. This task is added to the list of migration tasks.  If you want to select another set of data files to migrate, select **Add a source**.  Otherwise, select **Next** to go to the next step.
 10. On the settings page, turn on **Only perform scanning** to run workflow scanning.
 11. In the **Power Automate flow owner** box, enter the email address of the new flow owner.
