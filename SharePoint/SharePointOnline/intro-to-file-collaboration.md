@@ -120,7 +120,7 @@ Most of the file collaboration features in Microsoft 365 are available to you re
 
 ### A hub for teamwork: Microsoft Teams
 
-In the past, users would have to frequently switch between tools to collaborate. For example, users would write a document in Word. Then they would switch to Outlook to share the document as an attachment. Or they would open a browser to upload the document to a SharePoint site. In Microsoft 365, users can use Teams to chat, make calls, and have online meetings. They don't have to leave Teams to view and even edit the files they share. [Learn more](https://support.office.com/article/9b200289-dbac-4823-85bd-628a5c7bb0ae).
+In the past, users would have to frequently switch between tools to collaborate. For example, users would write a document in Word. Then they would switch to Outlook to share the document as an attachment. Or they would open a browser to upload the document to a SharePoint site. In Microsoft 365, users can use Teams to chat, make calls, and have online meetings. They don't have to leave Teams to view or even edit the files they share. [Learn more](https://support.office.com/article/9b200289-dbac-4823-85bd-628a5c7bb0ae).
 
 ![The files library lets you collaborate on files with your team](media/sp-collabguide06.png)
 
@@ -155,7 +155,7 @@ In the Office apps, users can easily [open files saved in the Microsoft cloud](h
 
 ### Private and shared channels in Teams
 
-Teams has workspaces for chat and file collaboration called channels. While standard channels include everyone in the team, [private channels](/microsoftTeams/private-channels) allow you to collaborate with a subset of team members and [shared channels](/microsoftteams/shared-channels) allow you to collaborate with people outside the team. All channel types allow you to collaborate with people outside your organization. Each private and shared channels has its own SharePoint site for file storage and collaboration.
+Teams has workspaces for chat and file collaboration called channels. While standard channels include everyone in the team, [private channels](/microsoftTeams/private-channels) allow you to collaborate with a subset of team members and [shared channels](/microsoftteams/shared-channels) allow you to collaborate with people outside the team. All channel types allow you to collaborate with people outside your organization. Each private and shared channel has its own SharePoint site for file storage and collaboration.
 
 ### Migration tools
 
@@ -222,7 +222,7 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
 User adoption is important to the overall success of any rollout. To maximize your investment, you need to maximize your user engagement. To do that, start by focusing on three critical success factors:
 
-- **Stakeholders.** Securing the participation and buy-in of key people within your organization is critical to successful user adoption. This support can come from business-focused leaders, IT leadership, or anyone else who has a vested interest in seeing Microsoft 365 file collaboration succeed in your organization. It's important to have both executive or business leader support and product champions to help carry the knowledge to their peers. Whether you're formally delegating the product champion role or allowing it to grow organically, champions are mission critical to user adoption.
+- **Stakeholders.** Securing the participation and buy-in of key people within your organization is critical to successful user adoption. This support can come from business-focused leaders, IT leadership, or anyone else who has a vested interest in seeing Microsoft 365 file collaboration succeed in your organization. It's important to have both executive or business leader support and product champions to help carry the knowledge to their peers. Whether you're formally delegating the product champion role or allowing it to grow organically, champions are mission-critical to user adoption.
 
 - **Scenarios.** Identify and define your business scenarios and how those scenarios align with the benefits of file collaboration in Microsoft 365. Work with your key stakeholders to identify the goals of the business scenarios, and then match those goals against usage scenarios. For example, a business goal may be to maximize user productivity; a key usage scenario enabling that goal would be using OneDrive to access files from mobile devices, PCs, and Macs. For help with this process, see the [Office 365 Productivity Library](https://support.office.com/article/d8ab82a5-5f02-4439-816b-4a5d35133e48).
 
