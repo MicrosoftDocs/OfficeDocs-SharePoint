@@ -234,8 +234,6 @@ User adoption is important to the overall success of any new application. Ideall
 
 - **Awareness and training.** Creating awareness through awareness campaigns such as announcements, launch events, newsletters, town hall meetings, contests, and giveaways is a critical path to maximizing adoption. In addition, providing users with knowledge through classroom-style sessions and self-help guides helps them feel empowered to use OneDrive and Office 365.
 
-Many resources are available from Microsoft to help you drive user adoption within your environment. For more info about a recommended Microsoft 365 user adoption strategy, see the [Microsoft 365 End User Adoption Guide](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3cNVB). For more info about driving user engagement, see [Success Factors for Office 365 End User Engagement](https://techcommunity.microsoft.com/t5/driving-adoption/success-factors-for-office-365-end-user-adoption-whitepaper/m-p/38350). You can also contribute to or comment on adoption-related ideas in the [Driving Adoption Tech Community](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption).
-
 ## Preparing your environment
 
 Before you deploy OneDrive, prepare your environment.
