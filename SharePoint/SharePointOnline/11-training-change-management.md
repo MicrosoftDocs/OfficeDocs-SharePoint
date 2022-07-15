@@ -1,5 +1,5 @@
 ---
-title: 
+title: Training and change management for rolling out SharePoint and OneDrive
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -13,10 +13,10 @@ ms.localizationpriority: medium
 ms.collection:  
 ms.custom: intro-get-started
 search.appverid: MET150
-description: 
+description: Learn about how to help your users adopt and use SharePoint and OneDrive
 ---
 
-# 
+# Training and change management for rolling out SharePoint and OneDrive
 
 
 

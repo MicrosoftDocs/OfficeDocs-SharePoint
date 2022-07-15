@@ -18,61 +18,93 @@ description: Identify your business requirements for OneDrive and SharePoint as 
 
 # Identify business requirements for OneDrive and SharePoint
 
+
+
+**Map out user journeys and core use cases.**
+test cases for pilot rollout)
+What additional capabilities are you trying to enable beyond what you've been using?
+Do you have client data to store that has compliance or perms requirements?
+
+**Document the current state of business.**
+ and mapping to new service
+
+**Evaluate your migration needs.**
+Do you have paper records to import?
+[Introduction to Microsoft SharePoint Syntex](/microsoft-365/contentunderstanding/)
+
+**Evaluate your customization needs.**
+and consider resources needed and maintenance overhead.
+
+**Involve legal and compliance early.**
+
+**Drive agreement across stakeholders.**
+
+**Market the services internally.**
+
+
+
+
+- **Stakeholders.** Securing the participation and buy-in of key people within your organization is critical to successful user adoption. This support can come from business-focused leaders, IT leadership, or anyone else who has a vested interest in seeing Microsoft 365 succeed in the organization. It is important to have both executive or business leader support and product champions to help carry the knowledge to their peers. Whether you're formally delegating the product champion role or allowing it to grow organically, champions are mission critical to user adoption.
+
+- **Scenarios.** When planning to implement OneDrive and SharePoint, identify and define your business scenarios and how those scenarios align with the benefits of implementing OneDrive and SharePoint. Work with your key stakeholders to identify the goals of the business scenarios, and then match those goals against usage scenarios. For example, a business goal may be to maximize user productivity; a key usage scenario enabling that goal would be using OneDrive to access files from mobile devices, PCs, and Macs. For help with this process, see the [Productivity Library](https://support.office.com/article/d8ab82a5-5f02-4439-816b-4a5d35133e48).
+
+
+
+
 do you use SharePoint Server on-premises
 
-## File storage
+## Core SharePoint and OneDrive use cases
 
-how do you store files
-where do users keep personal work files
+Core use cases for SharePoint and OneDrive include:
+- File storage
+- File collaboration
+- Sites for team collaboration
+- Sites for news and intranet
 
+If you're currently using other software or services to enable these use cases in your organization, we recommend mapping each of your current use cases with the capabilities of SharePoint and OneDrive. This will help ensure a smooth transition as you roll SharePoint and OneDrive out and provide you with a list of process changes to communicate with your users. ([Training and change management for rolling out SharePoint and OneDrive](training-change-management.md) provides a list of resources that you can share with your users to help them get started with SharePoint and OneDrive.)
 
+The sections below provide an overview of these use cases with links to more in-depth information.
 
-## File collaboration
+### File storage
 
-how do your users collaborate with each other
-how do you share files
+The file storage options in Microsoft 365 are SharePoint and OneDrive.
 
+**Personal work files are stored in OneDrive.** With OneDrive, each user has a location where they can store their personal work files. These files are not shared with anyone by default, but can be easily shared with others for collaboration.
 
+**Shared files are stored in SharePoint.** SharePoint sites can be used to store files that will be accessed by multiple people. People who have access to the site have access to the files.
 
+Microsoft Teams uses SharePoint sites to store files. When you upload a file to the Teams **Files** tab, it's stored in a SharePoint site. (For more information about how Teams and SharePoint interact, see [Overview of Teams and SharePoint integration](teams-connected-sites.md))
 
-## Intranet
+### File collaboration
 
-what do you currently use for an intranet
+In SharePoint and OneDrive, user can use [Microsoft 365 Apps](/deployoffice/about-microsoft-365-apps) (a version of Office that's available through many Microsoft 365 plans) to create and edit documents. Other applications can be used to create and edit other file types. These files can easily be shared with others - including people outside your organization (if you allow it).
 
+**Share OneDrive files using sharable links.** In OneDrive, a user's files are private by default. Users can share OneDrive files with others by using *sharable links* which give others access to the file. Links can be created that grant access to particular people or to anyone in your organization. Access can be removed by editing or deleting the link.
+
+**Collaborate in a site or team.** In a SharePoint site or a Microsoft Teams team, all the members of the site or team have access to - and can easily collaborate on - the files stored there.
+
+**Share SharePoint files using sharable links.** If a user needs to share a SharePoint file with someone outside the site or team, they can use sharable links in the same way that the do in OneDrive.
+
+**Sync files for offline access.** With the OneDrive sync app, users can sync files between their computer and the Microsoft 365 cloud. When users add, change, or delete a file or folder locally, the file or folder is added, changed, or deleted in the cloud and vice versa. Users can work with synced files directly in File Explorer and the apps they use. Whenever the user is online, any changes that they or other users make will sync automatically. 
+
+For more details on file collaboration in SharePoint and OneDrive, see [Intro to file collaboration in Microsoft 365, powered by SharePoint](intro-to-file-collaboration.md) and [File collaboration in SharePoint with Microsoft 365](deploy-file-collaboration.md).
+
+### Intranet
+
+One of the core capabilities of SharePoint is a wide variety of options and tools to create intranet sites for your organization. Your intranet might include your organization's main landing page, portals for corporate communications, and individual sites for departments or divisions (like IT or HR).
+
+Moving your intranet to SharePoint in Microsoft 365 might take a while, particularly if you already have extensive intranet content. We recommend undertaking this task after you've completed your rollout of SharePoint and OneDrive.
+
+For details about how to create an intranet using SharePoint, see [Intelligent intranet introduction and roadmap](intranet-team-overview.md) and [Plan an intelligent SharePoint intranet](plan-intranet.md).
 
 ## Governance and compliance
 
-
-
-	Current state of business and mapping to new service
-	User journey / core use cases (test cases for pilot rollout)
-
-What additional capabilities are you trying to enable beyond what you've been using?
-
-
-## Business requirements gathering
-
-
-Involve legal and compliance from the beginning to map out the user journey.
-
-Drive agreement across stakeholders. Market the services internally.
-
-Evaluate customization needs and consider resources needed and maintenance overhead.
-
-		• What compliance features should be in place at rollout?
-	
-	• Do you have paper records to import?
-Do you have client data to store that has compliance or perms requirements?
-
+Governance and compliance are key for many organizations. As part of planning for SharePoint and OneDrive, consider which compliance features you want to roll out ahead of time. By having compliance features in place ahead of time, you can reduce the risk of compliance incidents. See [Create a compliant SharePoint and OneDrive environment](compliant-environment.md) for details on which compliance features to consider as part of your SharePoint and OneDrive rollout.
 
 ## Keys to successful user adoption
 
-User adoption is important to the overall success of any new application. Ideally, to feel that you have maximized your investment in Microsoft 365 and OneDrive, you need to maximize user engagement with them. To do that, start by focusing on three critical success factors:
+User adoption is important to the overall success of any new application. Ideally, to feel that you have maximized your investment in SharePoint and OneDrive, you need to maximize user engagement with them. To do that, start by focusing on three critical success factors:
 
-- **Stakeholders.** Securing the participation and buy-in of key people within your organization is critical to successful user adoption. This support can come from business-focused leaders, IT leadership, or anyone else who has a vested interest in seeing OneDrive and Microsoft 365 succeed in the organization. It is important to have both executive or business leader support and product champions to help carry the knowledge to their peers. Whether you're formally delegating the product champion role or allowing it to grow organically, champions are mission critical to user adoption. In fact, a SharePoint user study in 2013 showed that people prefer to learn from a coworker than from an IT employee. For more info about how to identify key stakeholders for your OneDrive and Microsoft 365 implementation, see the [Identify key stakeholders guide](https://aka.ms/execsponsor). For more info about building a sustainable champion community, see [Build a champion program](https://aka.ms/office365champions).
+Creating awareness through awareness campaigns such as announcements, launch events, newsletters, town hall meetings, contests, and giveaways is a critical path to maximizing adoption. In addition, providing users with knowledge through classroom-style sessions and self-help guides helps them feel empowered to use OneDrive and SharePoint.
 
-- **Scenarios.** When planning to implement OneDrive and Microsoft 365, identify and define your business scenarios and how those scenarios align with the benefits of implementing OneDrive and Microsoft 365. Work with your key stakeholders to identify the goals of the business scenarios, and then match those goals against usage scenarios. For example, a business goal may be to maximize user productivity; a key usage scenario enabling that goal would be using OneDrive to access files from mobile devices, PCs, and Macs. For help with this process, see the [Productivity Library](https://support.office.com/article/d8ab82a5-5f02-4439-816b-4a5d35133e48).
-
-- **Awareness and training.** Creating awareness through awareness campaigns such as announcements, launch events, newsletters, town hall meetings, contests, and giveaways is a critical path to maximizing adoption. In addition, providing users with knowledge through classroom-style sessions and self-help guides helps them feel empowered to use OneDrive and Office 365.
-
-Many resources are available from Microsoft to help you drive user adoption within your environment. For more info about a recommended Microsoft 365 user adoption strategy, see the [Microsoft 365 End User Adoption Guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Microsoft%20365%20User%20Adoption%20Guide.pdf). For more info about driving user engagement, see [Success Factors for Office 365 End User Engagement](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Resources/Office365_AdoptionBrochure_v2.0_Screen.pdf). You can also contribute to or comment on adoption-related ideas in the [Driving Adoption Tech Community](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption).
+For more information about user adoption and change management when rolling out SharePoint and OneDrive, see [Training and change management for rolling out SharePoint and OneDrive](training-change-management.md)
