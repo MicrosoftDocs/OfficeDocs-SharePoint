@@ -24,7 +24,9 @@ description: Overview Migrate your SharePoint Server workflows to Microsoft 365 
 > [!NOTE]
 > This feature is currently in public preview, and subject to change.
 
-After configuring the required endpoints and configuring Power Automate, you are ready to start migrating your SharePoint Server workflows.
+After configuring the required endpoints and configuring Power Automate, you are ready to start migrating your SharePoint Server workflows. You choose to either use SPMT or PowerShell.
+
+## Migrate workflows using SPMT
 
 1. Start SPMT, and then enter your Microsoft 365 username and password.
 2. Select **Start your first migration**.
