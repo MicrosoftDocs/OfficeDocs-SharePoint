@@ -121,7 +121,7 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
     - Select **Enabled** and then press **OK**.
 
 > [!IMPORTANT]
-> After you enable the EnableSyncAdminReports setting on devices, it takes up to three days for reports to be available.
+> When you enable the EnableSyncAdminReports setting on devices, it can take up to three days for reports to be available. Devices will appear in the report after this time. Forcing a specific device to report data is unsupported.
 
 # [macOS](#tab/macos)
 
