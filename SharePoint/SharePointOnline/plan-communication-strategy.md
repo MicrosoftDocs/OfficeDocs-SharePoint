@@ -24,14 +24,14 @@ Review popular communication scenarios to get familiar with the different types 
 
 | Review scenarios and solutions    | Learn about methods |Scope audience   |Get started planning   |
 | :------------------: | :------------------: |:---------------:|:---------------:|
-| ![Image of a check list icon](media/task-check.png)  |   ![Image of a light bulb icon](media/bulb-blue.png) |   ![Image of a user in focus icon](media/icon-plan-personalize.png) | ![Image of a clipboard icon](media/icon-plan-plan.png) |
+| ![Icon of a check list.](media/task-check.png)  |   ![Icon of a light bulb.](media/bulb-blue.png) |   ![Icon of a user in focus.](media/icon-plan-personalize.png) | ![Icon of a clipboard.](media/icon-plan-plan.png) |
 | Learn about common communication scenarios|Review Microsoft 365 communication applications   | Identify audience, preferences, and size  |Get started planning for your specific scenario   |
 
 
 ### Scenario A: Use Viva Connections as a gateway to employee experiences
 
 
-![Conceptual image of Viva Connections.](media/cc-viva-connections.png)
+![Illustration of a mobile device connecting with people around the world.](media/cc-viva-connections.png)
 
 **Goals:** You need to engage, inform, and connect thousands of frontline and hybrid workers while in the field on a mobile device or at their desk. You want to streamline and target content from across SharePoint, Microsoft Teams, Yammer, and Stream into one curated and branded employee experience. 
 <br>
@@ -46,7 +46,7 @@ Review popular communication scenarios to get familiar with the different types 
 
 ### Scenario B: Plan, build, and launch a home site in SharePoint
 
-![Conceptual image of how to launch a SharePoint home site.](media/cc-home-site.png)
+![Illustration of a peice of paper, a pencile, and a ruler.](media/cc-home-site.png)
 
 **Goals:** You need to create a landing place in your organization’s internal networking of sites – also called an intranet. You want to create a gateway to the intranet to help everyone at your organization get easily orientated to the tools, resources, and news available to them. 
 <br>
@@ -61,7 +61,7 @@ Review popular communication scenarios to get familiar with the different types 
 
 ### Scenario C: Plan and produce a town hall for your organization
 
-![Conceptual image of producing a town hall.](media/cc-town-hall.png)
+![Illustration of a microphone with chat bubbles.](media/cc-town-hall.png)
 
 **Goals:** You want to host a live or pre-recorded event in the form of a town hall event for a large sales and support department of more than 1,000 people. The goal of the town hall is to update everyone on the state of the business and announce new products. 
 <br>
@@ -77,7 +77,7 @@ Review popular communication scenarios to get familiar with the different types 
 
 ### Scenario D: Distribute organizational news for your organization
 
-![Conceptual image of how to distribute organizational news.](media/cc-news.png)
+![Illustration of a bell rining and a piece of paper with writing posted to a wall.](media/cc-news.png)
 
 **Goals:** You need to share news that engage and inform all employees in your organization using more than one distribution method. The goal is to keep everyone at the organization up to date on initiatives, programs, events, and training opportunities. 
 <br>
@@ -93,7 +93,7 @@ Review popular communication scenarios to get familiar with the different types 
 
 ### Scenario E: Connect leadership and teams across the organization
 
-![Conceptual image of how to connect leadership with the organization.](media/cc-leadership-connection.png)
+![Illustration of people connecting.](media/cc-leadership-connection.png)
 
 **Goals:** You need to find a way to connect leadership teams with the rest of the organization. The goal is to provide consistent and ongoing communication and connection from your top leadership representatives. 
 <br>
@@ -109,7 +109,7 @@ Review popular communication scenarios to get familiar with the different types 
 
 ### Scenario F: Plan, build, and maintain a new employee onboarding program
 
-![Conceptual image of how to launch an employee onboarding program.](media/cc-neo.png)
+![Illustration of a notebook and checklist with a blue check mark.](media/cc-neo.png)
 
 **Goals:** You need to develop a scalable method of welcoming and orienting new employees. The goal is to help new employees get set up with onboarding paperwork, acquiring work devices, tools, and help understanding company policies and benefits. 
 <br>
@@ -124,7 +124,7 @@ Review popular communication scenarios to get familiar with the different types 
 
 ### Scenario G: Build a learning and training experience for employees
 
-![Conceptual image of how to launch an employee onboarding program.](media/cc-neo.png)
+![Illustration of a book and online training course.](media/cc-neo.png)
 
 **Goals:** YoYour organization is full of different types of disciplines. In order to make sure every employee is equipped with the most up-to-date industry or job-related knowledge and proficiencies, you’d like to build an experience that allows your organization to administer learning modules and experiences and track the progress and performance of each employee.
 <br>
