@@ -52,7 +52,7 @@ After configuring the required endpoints and configuring Power Automate, you are
 
     ![Set your workflow settings](media/spmt-workflow-settings.png)
 
-12. Review your migrations.  Select **Add another task** to select another set of files to migrate, or Next to submit migration.
+12. Review your migrations.  Select **Add another task** to select another set of files to migrate, or **Next** to submit migration.
 
 
 ## Migrations report
