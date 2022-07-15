@@ -32,6 +32,7 @@ After configuring the required endpoints and configuring Power Automate, you are
 2. Select **Start your first migration**.
 3. Select **SharePoint Server**.
 4. Select the **Workflow migration** type.
+</br>
 
    ![Select workflow migration](media/spmt-workflow-select.png)
 
