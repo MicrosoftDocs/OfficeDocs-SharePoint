@@ -41,7 +41,10 @@ When using information barriers with OneDrive, the following IB modes are suppor
 | **Open** | When a non-segmented user provisions their OneDrive, the site's IB mode is set as Open, by default. There are no segments associated with the site. |
 | **Owner Moderated** | When a OneDrive is used for collaboration with incompatible users in the presence of the site owner/moderator, the OneDrive's IB mode can be set as Owner Moderated. See [this section](#manage-the-ib-mode-of-a-users-onedrive-preview) for details on Owner Moderated site. |
 | **Explicit** | When a segmented user provisions their OneDrive within 24 hours of enablement, the site's IB mode is set as *Explicit* by default. The user's segment and other segments that are compatible with the user's segment and with each other get associated with the user's OneDrive. |
-| **Inferred (preview)** | When a segmented user's OneDrive is allowed to be shared with unsegmented users, the site's IB mode can be set as Inferred. This is an opt-in mode which the SharePoint admin can set on OneDrive of a segmented user. |
+| **Mixed (preview)** | When a segmented user's OneDrive is allowed to be shared with unsegmented users, the site's IB mode can be set as *Mixed*. This is an opt-in mode that the SharePoint admin can set on OneDrive of a segmented user. |
+
+>[!NOTE]
+>Starting July 12, 2022, *Inferred* mode has changed to *Mixed* mode. The functionality for the mode remains the same.
 
 ## Sharing files from OneDrive
 
@@ -68,9 +71,9 @@ When a OneDrive has information barriers segments and the mode is set to *Explic
 - The option to share with *Company-wide link* is disabled.
 - Files and folders can be shared only with users whose segment matches that of the OneDrive.
 
-### Inferred (preview)
+### Mixed (preview)
 
-When a OneDrive has information barriers segments and the mode is set to *Inferred*:
+When a OneDrive has information barriers segments and the mode is set to *Mixed*:
 
 - The option to share with Anyone with the link is disabled.
 - The option to share with Company-wide link is disabled.
@@ -103,9 +106,9 @@ For a user to access content in a OneDrive that has segments and the IB mode set
 >[!NOTE]
 >By default, non-segment users can access shared OneDrive files only from other non-segment users with IB modes as *Open*. They can't access shared files from OneDrive that have segment(s) applied and the IB mode is *Explicit*.
 
-### Inferred mode (preview)
+### Mixed mode (preview)
 
-For a segmented user to access content in a OneDrive that has segments and the IB mode set as *Inferred*:
+For a segmented user to access content in a OneDrive that has segments and the IB mode set as *Mixed*:
 
 1. The user's segment must match a segment that is associated with the OneDrive.
 
@@ -113,7 +116,7 @@ For a segmented user to access content in a OneDrive that has segments and the I
 
 2. The files must be shared with the user.
 
-For an unsegmented user to access content in a OneDrive that has segments and the IB mode set as *Inferred*:
+For an unsegmented user to access content in a OneDrive that has segments and the IB mode set as *Mixed*:
 
 - The user must have site access permissions.
 
@@ -248,17 +251,17 @@ Set-SPOSite -Identity <siteurl> InformationBarriersMode OwnerModerated
 
 Owner Moderated IB mode can’t be set on a site with segments. Remove the segments before setting the IB mode as Owner Moderated. Access to an Owner Moderated site is allowed for users who have site access permissions. Sharing of an Owner Moderated OneDrive and its contents is only allowed by the site owner per their IB policy.
 
-### Inferred mode example
+### Mixed mode example
 
-Allow unsegmented users to access OneDrive associated with segments. For example, you want to allow HR user's OneDrive to be accessed by HR segment and unsegmented users in your tenant. Inferred mode applicable to OneDrive site that allows segmented and unsegmented users access to OneDrive.
+Allow unsegmented users to access OneDrive associated with segments. For example, you want to allow HR user's OneDrive to be accessed by HR segment and unsegmented users in your tenant. Mixed mode applicable to OneDrive site that allows segmented and unsegmented users access to OneDrive.
 
-To update a OneDrive site IB Mode to Inferred, run the following PowerShell command:
+To update a OneDrive site IB Mode to Mixed, run the following PowerShell command:
 
 ```powershell
-Set-SPOSite -Identity <siteurl> InformationBarriersMode Inferred
+Set-SPOSite -Identity <siteurl> InformationBarriersMode Mixed
 ```
 
-Inferred IB mode can’t be set on a site without segments. Add segments before setting the IB mode as Inferred.
+Mixed IB mode can't be set on a site without segments. Add segments before setting the IB mode as Mixed.
 
 ## Effects of changes to user segments
 
