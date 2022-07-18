@@ -26,6 +26,9 @@ description: "Learn how to change settings when deploying or managing the OneDri
 
 # Deploy and configure the OneDrive sync app for Mac
 
+> [!IMPORTANT]
+> The standalone OneDrive sync app is necessary for deploying and configuring Folder Backup settings. The Mac App Store OneDrive sync app is not currently supported with regards to Folder Backup.
+
 There are two basic ways that you, as an administrator, can deploy the OneDrive sync app to Mac users in your organization:
   
 - Install and set up the OneDrive sync app by following the instructions in [Sync files with OneDrive on macOS](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f). To install the OneDrive sync app for Mac, a user has to be an administrator on the Mac.
@@ -116,13 +119,8 @@ To enable this setting, you must define a number between 1 and 99 that determine
 
 The example for this setting in the .plist file is:
 ```xml
-<key>AllowTenantList</key>
-<dict>
-<string>TenantId1</string>
-<true/>
-<string>TenantId2</string>
-<true/>
-</dict>
+<key>AutomaticUploadBandwidthPercentage</key>
+<integer>(Bandwidth)</integer>
 ```
 
 ### BlockExternalSync
@@ -155,9 +153,9 @@ The example for this setting in the .plist file is:
 ```xml
 <key>BlockTenantList</key>
 <dict>
-<string>TenantId1</string>
+<key>TenantId1</key>
 <true/>
-<string>TenantId2</string>
+<key>TenantId2</key>
 <true/>
 </dict>
 ```
@@ -301,13 +299,13 @@ The example for this setting in the .plist file is:
 
 This setting specifies whether Files On-Demand is enabled.
 
+> [!NOTE]
+> Beginning in macOS Monterey 12.1, Files On-Demand will be enabled automatically and there will not be a setting for admins or users to turn it off.
+
+#### Earlier macOS versions
+
 > [!IMPORTANT]
 > We recommend keeping Files On-Demand enabled. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)
-
-If you don't set this setting, Files On-Demand will be enabled automatically as we roll out the feature, and users can turn the setting on or off.  
-
-> [!NOTE]
-> Beginning in macOS Monterey 12.1, Files On-Demand will be the default and there will not be a setting for users to turn it off.
 
 If you set this setting to **True**, **FilesOnDemand** is enabled and the users who set up the sync app can view the online-only files, by default.
 
@@ -359,7 +357,7 @@ The example for this setting in the .plist file is:
 
 This setting prevents users from moving their Documents and Desktop folders to any OneDrive account.
   
-If you enable this setting, users aren't prompted with a window to protect their Desktop and Documents folders, and the *Manage backup* command is disabled. If the user has already moved their Desktop and Documents folders, the files in those folders will remain in OneDrive. To redirect the Desktop and Documents folders back to the user's device, select "No." This setting doesn't take effect if you've enabled "KFMOptInWithWizard" or "KFMSilentOptIn".
+If you enable KFMBlockOptIn, users aren't prompted with a window to protect their Desktop and Documents folders, and the *Manage backup* command is disabled. If the user has already moved their Desktop and Documents folders, the files in those folders will remain in OneDrive. This setting doesn't take effect if you've enabled **KFMOptInWithWizard**" or **KFMSilentOptIn**.
 
 If you set this setting's value to 1, it will prevent Folder Backup.  If you set the value to 2, it will redirect any  folders previously used for Folder Backup back to the user’s device and stop the setting from running further.
 
@@ -375,7 +373,7 @@ The example for this setting in the .plist file is:
 
 This setting forces users to keep their Documents and Desktop folders directed to OneDrive.
 
-If you enable this setting, the **Stop protecting** button in the **Set up protection of important folders** window is disabled, and users receive an error if they try to stop syncing their Desktop or Documents folder.
+If you enable this setting, the **Stop Backup** button in the **Manage Folder Backup** window is disabled, and users receive an error if they try to stop syncing their Desktop or Documents folder.
   
 The example for this setting in the .plist file is:
 ```xml
@@ -389,7 +387,7 @@ The example for this setting in the .plist file is:
 
 This setting displays a wizard that prompts users to move their Documents and Desktop folders to OneDrive.
 
-If you enable this setting and provide your tenant ID, users who are syncing their OneDrive will see the Folder Backup wizard window when they're signed in. If they close the window, a reminder notification appears in the Activity Center until they move their Desktop and Documents folders.
+If you enable this setting and provide your tenant ID, users who are syncing their OneDrive will see the Folder Backup wizard window when they're signed in. If they close the window, a reminder notification appears in the Sync Activity Center until they move their Desktop and Documents folders.
   
 The example for this setting in the .plist file is:
 ```xml

@@ -68,7 +68,11 @@ The following settings control the Folder Backup feature:
 
     Use KFMOptInWithWizard to give the users a call to action to move their Desktop and Documents macOS folders.
 
+    :::image type="content" source="media/redirect-macos-manage-folder-backup.png" alt-text="Screenshot of the dialog that prompts users to backup their important folders.":::
+
     If users dismiss the prompt, a reminder notification will appear in the activity center until they move all available folders.
+
+    :::image type="content" source="media/redirect-macos-folder-backup.png" alt-text="Screenshot of the notification that reminds users to protect their important folders.":::
 
     > [!IMPORTANT]
     > We recommend deploying the prompt policy for existing devices only, and limiting the deployment to 5,000 devices a day and not exceeding 20,000 devices a week between macOS and Windows.

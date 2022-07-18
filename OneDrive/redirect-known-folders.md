@@ -64,11 +64,11 @@ The following policies control the Known Folder Move feature:
 
     Use this setting to give the users a call to action to move their Windows known folders.
 
-    ![Screenshot of the dialog that prompts users to backup their important folders](media/kfm-wizard.png)
+    :::image type="content" source="media/kfm-wizard.png" alt-text="Screenshot of the dialog that prompts users to backup their important folders.":::
 
     If users dismiss the prompt, a reminder notification will appear in the activity center until they move all known folders or an error occurs with the move, in which case the reminder notification will be dismissed.
 
-    ![Screenshot of the notification that reminds users to protect their important folders](media/protect-important-folders-notification.png)
+    :::image type="content" source="media/redirect-windows-kfm.png" alt-text="Screenshot of the notification that reminds users to protect their important folders.":::
 
     > [!IMPORTANT]
     > We recommend deploying the prompt policy for existing devices only, and limiting the deployment to 5,000 devices a day and not exceeding 20,000 devices a week between macOS and Windows.
