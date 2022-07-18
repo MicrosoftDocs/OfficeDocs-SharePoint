@@ -66,35 +66,35 @@ The following settings control the Folder Backup feature:
   
 - [Prompt users to move Desktop and Documents folders to OneDrive (KFMOptInWithWizard)](deploy-and-configure-on-macos.md#kfmoptinwithwizard)
 
-    Use KFMOptInWithWizard to give the users a call to action to move their Desktop and Documents macOS folders.
+    Use **KFMOptInWithWizard** to give the users a call to action to move their Desktop and Documents macOS folders.
 
     :::image type="content" source="media/redirect-macos-manage-folder-backup.png" alt-text="Screenshot of the dialog that prompts users to backup their important folders.":::
 
     If users dismiss the prompt, a reminder notification will appear in the activity center until they move all available folders.
 
-    :::image type="content" source="media/redirect-macos-folder-backup.png" alt-text="Screenshot of the notification that reminds users to protect their important folders.":::
+    :::image type="content" source="media/redirect-macos-folder-backup.png" alt-text="Screenshot of the notification that reminds users to protect their important folders." lightbox="media/redirect-macos-folder-backup-expanded.png":::
 
     > [!IMPORTANT]
     > We recommend deploying the prompt policy for existing devices only, and limiting the deployment to 5,000 devices a day and not exceeding 20,000 devices a week between macOS and Windows.
   
 - [Silently move macOS Desktop and Documents folders to OneDrive (KFMSilentOptIn)](deploy-and-configure-on-macos.md#kfmsilentoptin)
 
-    Use this setting to redirect and move folders to OneDrive without any user interaction. Move all the folders or select the desired individual folders. By default, the Desktop and Documents folders will be moved. After a folder is moved, the policy won't affect the folder again, even if the selection for the folder changes.
+    Use **KFMSilentOptIn** to redirect and move folders to OneDrive without any user interaction. Move all the folders or select the desired individual folders. By default, the Desktop and Documents folders will be moved. After a folder is moved, the policy won't affect the folder again, even if the selection for the folder changes.
 
     You can choose to display a notification to users after their folders have been redirected.
 
-    We also recommend using this setting together with [KFMOptInWithWizard](deploy-and-configure-on-macos.md#kfmoptinwithwizard). If moving the Desktop and Documents folders silently does not succeed, users will be prompted to correct the error and continue.
+    We also recommend using this setting together with **[KFMOptInWithWizard](deploy-and-configure-on-macos.md#kfmoptinwithwizard)**. If moving the Desktop and Documents folders silently does not succeed, users will be prompted to correct the error and continue.
 
     > [!IMPORTANT]
     > We recommend deploying the silent policy for existing devices and new devices while limiting the deployment of existing devices to 1,000 devices a day and not exceeding 4,000 devices a week between macOS and Windows.
 
 - [Prevent users from redirecting their macOS Desktop and Documents folders to their Mac (KFMBlockOptOut)](deploy-and-configure-on-macos.md#kfmblockoptout)
 
-    Use this setting to force users to keep their Desktop and Documents folders directed to OneDrive.
+    Use **KFMBlockOptOut** to force users to keep their Desktop and Documents folders directed to OneDrive.
   
 - [Prevent users from moving their macOS Desktop and Documents folders to OneDrive (KFMBlockOptIn)](deploy-and-configure-on-macos.md#kfmblockoptin)
 
-    Use this setting to prevent users from moving their Desktop and Documents folders to any OneDrive account.
+    Use **KFMBlockOptIn** to prevent users from moving their Desktop and Documents folders to any OneDrive account.
 
 > [!NOTE]
 > Users can direct their Desktop and Documents folders by opening OneDrive sync app preferences, clicking the **Backup tab**, and then clicking **Manage Backup**.
