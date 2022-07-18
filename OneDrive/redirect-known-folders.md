@@ -68,7 +68,7 @@ The following policies control the Known Folder Move feature:
 
     If users dismiss the prompt, a reminder notification will appear in the activity center until they move all known folders or an error occurs with the move, in which case the reminder notification will be dismissed.
 
-    :::image type="content" source="media/redirect-windows-kfm.png" alt-text="Screenshot of the notification that reminds users to protect their important folders.":::
+    :::image type="content" source="media/redirect-windows-kfm.png" alt-text="Screenshot of the notification that reminds users to protect their important folders." lightbox="media/redirect-windows-kfm-expanded.png":::
 
     > [!IMPORTANT]
     > We recommend deploying the prompt policy for existing devices only, and limiting the deployment to 5,000 devices a day and not exceeding 20,000 devices a week between macOS and Windows.
