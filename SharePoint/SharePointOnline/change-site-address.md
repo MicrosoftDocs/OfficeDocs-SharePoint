@@ -40,7 +40,8 @@ As a global or SharePoint admin in your organization, you can change the URL for
 - Classic team sites
 
 > [!NOTE]
-> If the Publishing feature is currently activated or was previously activated for the site, then changing the site address is unsupported.
+> - If the Publishing feature is currently activated or was previously activated for the site, then changing the site address is unsupported.
+> - If the site has more than 15 million documents within it, then changing the site address is unsupported.
 
 You can change only the address of the site within the URL, for example:
 
