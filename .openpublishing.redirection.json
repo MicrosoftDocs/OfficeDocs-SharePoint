@@ -666,6 +666,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "OneDrive/one-drive-sync.md",
+      "redirect_url": "https://support.microsoft.com/office/615391c4-2bd3-4aae-a42a-858262e42a49",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "SharePoint/SharePointOnline/workplace-communications.md",
       "redirect_url": "/sharepoint/corporate-communications-overview",
       "redirect_document_id": true
