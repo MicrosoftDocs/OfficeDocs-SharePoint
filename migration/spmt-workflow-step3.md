@@ -70,7 +70,7 @@ The chart below shows the first action in a flow migrated from an out-of-the-box
 |Type|Options|
 |:-----|:-----|
 |Manually triggered collect feedback| Before starting a workflow, three user inputs are supported in the migrated flow. They are:</br>- Signer order maps to Signer type. Options: First to respond, Wait until all approve</br>-Signers maps to Signers. Emails</br>-Request maps to Message. Text</br>- CC maps to CC. Emails|
-|Auto triggered collect feedback|Signer order maps to Signer type. “Everyone must approve” is used in migrated flow.</br>Signers maps to Signers. Emails</br>Request maps to Message. Text</br>CC maps to CC. Emails|
+|Auto triggered collect feedback|Signer order maps to Signer type. “Everyone must approve” is used in migrated flow.</br>- Signers maps to Signers. Emails</br>- Request maps to Message. Text</br>- CC maps to CC. Emails|
 |
 
 ## Migrated three-state workflow
