@@ -37,22 +37,22 @@ There are two primary advantages of moving or redirecting Windows known folders 
 
 - Saving files to OneDrive backs up your users' data in the cloud and gives them access to their files from any device.
 
-For these reasons, we recommend moving or redirecting known folders to OneDrive if you're an enterprise or large organization. [See all our recommendations for configuring the sync app](ideal-state-configuration.md). Small or medium businesses may also find this useful, but keep in mind you'll need some experience configuring policies. For info about the end-user experience, see [Protect your files by saving them to OneDrive](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057).
+For these reasons, we recommend moving (redirecting) known folders to OneDrive if you're an enterprise or large organization. [See all our recommendations for configuring the sync app](ideal-state-configuration.md). Small or medium businesses may also find this useful, but keep in mind you'll need some experience configuring policies. For info about the end-user experience, see [Protect your files by saving them to OneDrive](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057).
 
 ## Prepare to move known folders on existing devices
 
-We recommend that you upgrade to the latest available build before you deploy. Known Folder Move doesn't work for users syncing OneDrive files in SharePoint Server.
+We recommend that you upgrade to the latest available build before you deploy.
 
 To check eligibility on existing devices, data volume, and item counts as you decide on a rollout plan, and to later monitor progress of the rollout, use the Known Folder Move PowerShell script.
 
-For information on issues that can prevent folders from being moved, see [Fix problems with folder protection](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057#BKMK_FixProblems).
+For information on issues that can prevent folders from being moved, see [Fix problems with folder protection](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057#BKMK_FixProblems). Note that Known Folder Move doesn't work for users syncing OneDrive files in SharePoint Server.
 
 > [!IMPORTANT]
 > If your organization is large and your users have a lot of files in their known folders, make sure you roll out the configuration slowly to minimize the network impact of uploading files. For users who have a lot of files in their known folders, consider using the policy [Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput) temporarily to minimize the network impact and then disable the policy once uploads are complete.
 
 ### Folders redirected to other organizations
 
-If a user’s Desktop and Documents folders are currently redirected to OneDrive in a different organization, redirecting to your organization’s OneDrive will create new Desktop and Documents folders and the user will see an empty desktop. The user will have to manually migrate files from the other organization’s OneDrive to OneDrive in your organization. We recommend that you disable the redirect to the other organization before redirecting to your organization if possible.
+If a user's Desktop and Documents folders are currently redirected to OneDrive in a different organization, redirecting to your organization’s OneDrive will create new Desktop and Documents folders and the user will see an empty desktop. The user will have to manually migrate files from the other organization’s OneDrive to OneDrive in your organization. We recommend that you disable the redirect to the other organization before redirecting to your organization if possible.
 
 ## About the Known Folder Move policies
 
@@ -82,7 +82,7 @@ The following policies control the Known Folder Move feature:
   > [!IMPORTANT]
   > We recommend deploying the silent policy for existing devices and new devices while limiting the deployment of existing devices to 1,000 devices a day and not exceeding 4,000 devices a week between macOS and Windows. We also recommend using this setting together with "Prompt users to move Windows known folders to OneDrive." If moving the known folders silently does not succeed, users will be prompted to correct the error and continue.
 
-- [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#prevent-users-from-redirecting-their-windows-known-folders-to-their-pc)
+- [Prevent users from turning off Known Folder Move](use-group-policy.md#prevent-users-from-redirecting-their-windows-known-folders-to-their-pc)
 
     Use this setting to require users to keep their known folders directed to OneDrive.
 
@@ -110,10 +110,7 @@ The OneDrive Known Folder Move Group Policy objects won't work if you previously
   2. Enable KFM Group Policy. Known folders move to OneDrive.
 
 - If folders have been redirected to a network file share:
-
-  > [!NOTE]
-  > We recommend using Windows 10 Fall Creators Update (version 1709 or later) or Windows Server 2019 and the current version of OneDrive to get the benefits from Files On-Demand.
-
+  
   1. [Use Migration Manager](/sharepointmigration/mm-get-started) to copy contents in the network file share location to a user's OneDrive, making sure that all contents go into the existing Documents, Pictures, or Desktop folders.
 
      > [!NOTE]
