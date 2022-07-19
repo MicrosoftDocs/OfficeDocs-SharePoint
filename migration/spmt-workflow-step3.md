@@ -74,9 +74,7 @@ The chart below shows the first action in a flow migrated from an out-of-the-box
 |
 
 ## Migrated three-state workflow
-For auto or manual triggered three state Power Automate flow, the following configurations in workflow are migrated to destination flow. 
-
-### Workflow states
+For auto or manual triggered three state Power Automate flow, the following configurations in workflow are migrated to destination flow.  The workflow states are:
 
 - StatusField (Status field name)
 - InitialState (Initial state value)
