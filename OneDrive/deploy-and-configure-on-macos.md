@@ -502,7 +502,7 @@ We recommend selecting several people in your IT department as early adopters to
 
 **Production**: The Production ring users get the latest features as they become available. This ring is the default.
 
-**Deferred** (formerly called "Enterprise"): The Deferred ring users get new features, bug fixes, and performance improvements last. This ring lets you deploy updates from an internal network location, and control the timing of the deployment (within a 60-day window).
+**Enterprise** (also known as "Deferred"): The Enterprise ring users get new features, bug fixes, and performance improvements last. This ring lets you deploy updates from an internal network location, and control the timing of the deployment (within a 60-day window).
 
 For more information on the builds currently available in each ring, see the [OneDrive release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?). For more information about the update rings and how the sync app checks for updates, see the [OneDrive sync app update process](sync-client-update-process.md).
 
