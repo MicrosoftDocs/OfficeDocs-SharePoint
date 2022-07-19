@@ -46,15 +46,13 @@ After the OneDrive sync app for Mac is installed, users can configure settings f
   
 ## Configure sync app settings
 
-Configure the settings on macOS as follows:
+Define the settings you want to change by creating a .plist file with the values. You can also use a script to set the default values. Then configure the settings on macOS as follows:
   
 1. Quit the OneDrive app.
 
-2. Define the settings you want to change by creating a .plist file with the values. You can also use a script to set the default values.
+1. Deploy the settings onto the local computer.
 
-3. Deploy the settings onto the local computer.
-
-4. Refresh the preferences cache.
+1. Refresh the preferences cache.
 
     On the next start of OneDrive, the new settings will be picked up.
 
@@ -188,9 +186,9 @@ The example for this setting in the .plist file is:
 
 <a name="DisableAutoConfig"> </a>
 
-This setting determines whether or not the Sync client can automatically sign in.
+This setting determines whether or not the sync app can automatically sign in.
 
-If you set this setting's value to 1, prevents Sync from automatically signing with an existing Microsoft Azure Active Directory (Azure AD) credential that is made available to Microsoft applications.
+If you set this setting's value to 1, the sync app is prevented from automatically signing with an existing Microsoft Azure Active Directory (Azure AD) credential that is made available to Microsoft applications.
 
 The example for this setting in the .plist file is:
 ```xml
@@ -216,9 +214,9 @@ The example for this setting in the .plist file is:
 
 <a name="DisablePersonalSync"> </a>
 
-This setting blocks user from signing in and syncing files in personal OneDrive accounts. If this setting has been configured after a user has set up sync with a personal account, the user gets signed out.
+This setting blocks users from signing in and syncing files in personal OneDrive accounts. If this setting has been configured after a user has set up sync with a personal account, the user gets signed out.
 
-If you set the setting's value to **True**, the users are prevented from adding or syncing personal accounts.
+If you set the setting's value to **True**, users are prevented from adding or syncing personal accounts.
 
 The example for this setting in the .plist file is:
 ```xml
@@ -232,7 +230,7 @@ The example for this setting in the .plist file is:
 
 This setting prevents the tutorial from being shown to the users after they set up OneDrive.
 
-If you set this setting's value to **True**, the tutorial is blocked from being shown to the users after they set up the OneDrive.
+If you set this setting's value to **True**, the tutorial is blocked from being shown to the users after they set up the OneDrive sync app.
 
 The example for this setting in the .plist file is:
 ```xml
@@ -247,7 +245,7 @@ The example for this setting in the .plist file is:
 
 This setting sets the maximum download throughput rate in kilobytes (KB)/sec for computers running the OneDrive sync app.
 
-Set this setting's value to an integer between 50 KB/sec and the maximum rate is 100000 KB/sec that determines the download throughput in KB/sec that the sync app can use.
+Set this setting's value to an integer between 50 and 100000 to specify the download throughput in KB/sec that the sync app can use.
 
 The example for this setting in the .plist file is:
 ```xml
@@ -262,11 +260,11 @@ The example for this setting in the .plist file is:
 This setting lets multiple users use the Microsoft 365 Apps for enterprise, Office 2019, or Office 2016 desktop apps to simultaneously edit an Office file stored in OneDrive. It also lets users share files from the Office desktop apps.
 
 > [!IMPORTANT]
-> We recommend keeping this setting enabled to make syncing faster and reduce network bandwidth. [See all our recommendations for configuring the sync app](ideal-state-configuration.md).
+> We recommend keeping this setting enabled to make syncing faster and reduce network bandwidth usage. [See all our recommendations for configuring the sync app](ideal-state-configuration.md).
 
 If you set this setting to **True** or don't set this setting, the **Office** tab appears in OneDrive sync preferences, and **Use Office applications to sync Office files that I open** is selected, by default.
 
-If you set this setting to **False**, the **Office** tab is hidden in the sync app, and coauthoring and in-app sharing for Office files are disabled. The **User can choose how to handle Office files in conflict** setting acts as disabled, and when file conflicts occur, both copies of the file are kept. For more information about the settings in the sync app, see [Use Office applications to sync Office files that I open](https://support.office.com/article/8a409b0c-ebe1-4bfa-a08e-998389a9d823).
+If you set this setting to **False**, the **Office** tab is hidden in the sync app, and coauthoring and in-app sharing for Office files are disabled. The **User can choose how to handle Office files in conflict** setting is disabled, and when file conflicts occur, both copies of the file are kept. For more information about the settings in the sync app, see [Use Office applications to sync Office files that I open](https://support.office.com/article/8a409b0c-ebe1-4bfa-a08e-998389a9d823).
 
 The example for this setting in the .plist file is:
 ```xml
@@ -300,12 +298,9 @@ The example for this setting in the .plist file is:
 This setting specifies whether Files On-Demand is enabled.
 
 > [!NOTE]
-> Beginning in macOS Monterey 12.1, Files On-Demand will be enabled automatically and there will not be a setting for admins or users to turn it off.
+> Beginning in macOS Monterey 12.1, Files On-Demand will be permanently enabled and this setting will no longer have any effect.
 
-#### Earlier macOS versions
-
-> [!IMPORTANT]
-> We recommend keeping Files On-Demand enabled. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)
+#### macOS versions prior to Monterey 12.1
 
 If you set this setting to **True**, **FilesOnDemand** is enabled and the users who set up the sync app can view the online-only files, by default.
 
@@ -317,6 +312,8 @@ The example for this setting in the .plist file is:
 <(Bool)/>
 ```
 
+> [!NOTE]
+> We recommend keeping Files On-Demand enabled. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)
 
 ### HideDockIcon
 
@@ -331,7 +328,6 @@ The example for this setting in the .plist file is:
 <key>HideDockIcon</key>
 <(Bool)/>
 ```
-
 
 ### HydrationDisallowedApps
 
@@ -350,14 +346,13 @@ The example for this setting in the .plist file is:
 <(Bool)/>
 ```
 
-
 ### KFMBlockOptIn
 
 <a name="KFMBlockOptIn"> </a>
 
 This setting prevents users from moving their Documents and Desktop folders to any OneDrive account.
   
-If you enable KFMBlockOptIn, users aren't prompted with a window to protect their Desktop and Documents folders, and the *Manage backup* command is disabled. If the user has already moved their Desktop and Documents folders, the files in those folders will remain in OneDrive. This setting doesn't take effect if you've enabled **KFMOptInWithWizard**" or **KFMSilentOptIn**.
+If you enable KFMBlockOptIn, users aren't prompted to protect their Desktop and Documents folders, and the *Manage backup* command is disabled. If the user has already moved their Desktop and Documents folders, the files in those folders will remain in OneDrive. This setting doesn't take effect if you've enabled **KFMOptInWithWizard**" or **KFMSilentOptIn**.
 
 If you set this setting's value to 1, it will prevent Folder Backup.  If you set the value to 2, it will redirect any  folders previously used for Folder Backup back to the user’s device and stop the setting from running further.
 
@@ -401,7 +396,7 @@ The example for this setting in the .plist file is:
 
 Use this setting to redirect and move your users' Documents and/or Desktop folders to OneDrive without any user interaction.
   
-You can move all folders at once or select the folders you want to move.  After a folder is moved, this setting won't affect that folder again.
+You can move both folders at once or select which folder you want to move.  After a folder is moved, this setting won't affect that folder again.
 
 The example for this setting in the .plist file is:
 ```xml
@@ -415,7 +410,7 @@ If you enable this setting and provide your tenant ID, you can choose whether to
 <(Bool)/>
 ```
 
-If you don't set any of the following settings, then the default setting will move all the folders (Desktop and Documents) into OneDrive.  If you want to specify which folder(s) to move, you should set any combination of the following settings:
+If you don't set any of the following settings, then the default setting will move all the folders (Desktop and Documents) into OneDrive.  If you want to specify which folder to move, you should set any combination of the following settings:
 ```xml
 <key>KFMSilentOptInDesktop</key>
 <(Bool)/>
@@ -429,7 +424,7 @@ If you don't set any of the following settings, then the default setting will mo
 
 This setting specifies whether OneDrive starts automatically when the user logs in.
 
-If you set this setting's value to **True**, OneDrive starts automatically when the user logs in on Mac.
+If you set this setting's value to **True**, OneDrive starts automatically when the user logs in to their Mac.
 
 The example for this setting in the .plist file is:
 ```xml
@@ -453,14 +448,13 @@ The example for this setting in the .plist file is:
 
 [More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/new-onedrive-sync-client)
 
-
 ### SharePointOnPremPrioritizationPolicy
 
 <a name="SharePointOnPremPrioritizationPolicy"> </a>
 
-This setting determines whether or not the client should set up sync for SharePoint Server or SharePoint in Microsoft 365 first during the first-run scenario when the account is the same for both SharePoint Server on-premises and SharePoint in Microsoft 365 in a hybrid scenario.
+This setting determines whether or not the sync app should set up sync for SharePoint Server on-premises or SharePoint in Microsoft 365 first during the first-run scenario when the account is the same for both SharePoint Server and SharePoint in Microsoft 365 in a hybrid scenario.
 
-If you set this setting's value to **1**, it's an indication that OneDrive should set up SharePoint Server on-premises first, followed by SharePoint in Microsoft 365.
+If you set this setting's value to **1**, the OneDrive sync app will set up SharePoint Server first, followed by SharePoint in Microsoft 365.
 
 The example for this setting in the .plist file is:
 ```xml
@@ -494,7 +488,7 @@ The example for this setting in the .plist file is:
 
 <a name="Tier"> </a>
 
-This setting lets you specify the ring for users in your organization. The OneDrive sync app updates to the public through three rings; first to Insiders, then to Production, and finally to Deferred.  When you enable this setting and select a ring, users aren't able to change it.
+This setting lets you specify the sync app update ring for users in your organization. The OneDrive sync app updates to the public through three rings; first to Insiders, then to Production, and finally to Deferred.  When you enable this setting and select a ring, users aren't able to change it.
 
 We recommend selecting several people in your IT department as early adopters to join the Insiders ring and receive features early. We also recommend leaving everyone else in the organization in the default Production ring to ensure they receive bug fixes and new features in a timely fashion. [See all our recommendations for configuring the sync app](ideal-state-configuration.md).
 
@@ -520,9 +514,9 @@ The example for this setting in the .plist file is:
 
 <a name="UploadBandwidthLimited"> </a>
 
-This setting defines the maximum upload throughput rate in KB/sec for computers running the OneDrive sync app.
+This setting defines the maximum upload throughput rate for computers running the OneDrive sync app.
 
-To enable this setting, set a value between 50 and 100000 that is the upload throughput rate the sync app can use.
+To enable this setting, set a value between 50 and 100000 that is the upload throughput rate in KB/sec the sync app can use.
 
 The example for this setting in the .plist file is:
 ```xml
