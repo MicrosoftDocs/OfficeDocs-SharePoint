@@ -49,6 +49,10 @@ The chart below shows the first action in a flow migrated from an out-of-the-box
 
 ### Migrated approval workflow
 
+The approval workflow is migrated is migrated with this structure:
+
+:::image type="content" source="media/spmt-approval-workflow-steps.png" alt-text="Approval workflow migrated structure":::
+
 |Type|Options|
 |---|---|
 |List workflow|Manual start on selected item will have a new list flow with manual trigger, also known as *LIST_MANUAL_APPROVAL*.</br>Trigger by new item and update item will have a new list flow with auto trigger, also known as *LIST_AUTO_APPROVAL*.|
@@ -57,6 +61,10 @@ The chart below shows the first action in a flow migrated from an out-of-the-box
 | Auto triggered PA flow|The following configurations in workflow are migrated to destination flow. </br>- The approval type, **Everyone must approve** is used in the destination flow.</br>- Approvers. Emails</br>- Request. Text</br>- CC. Emails</br>- Enable Content Approval. On/Off|
 
 ### Migrated collect feedback workflow
+
+The collect feedback workflow is migrated with this structure:
+
+:::image type="content" source="media/spmt-collect-signature-workflow-steps.png" alt-text="Collect feedback workflow migrated structure":::
 
 |Type|Options|
 |---|---|
@@ -67,6 +75,10 @@ The chart below shows the first action in a flow migrated from an out-of-the-box
 
 ## Migrated collect signature workflow
 
+The collect signature workflow is migrated with this structure:
+
+:::image type="content" source="media/spmt-collect-signature-workflow-steps.png" alt-text="Collect signature migrated structure":::
+
 |Type|Options|
 |:-----|:-----|
 |Manually triggered collect feedback| Before starting a workflow, three user inputs are supported in the migrated flow. They are:</br>- Signer order maps to Signer type. Options: First to respond, Wait until all approve</br>-Signers maps to Signers. Emails</br>-Request maps to Message. Text</br>- CC maps to CC. Emails|
@@ -74,6 +86,11 @@ The chart below shows the first action in a flow migrated from an out-of-the-box
 |
 
 ## Migrated three-state workflow
+
+The three state workflow is migrated with this structure:
+
+:::image type="content" source="media/spmt-three-state-workflow-steps.png" alt-text="Three state workflow structure":::
+
 For auto or manual triggered three state Power Automate flow, the following configurations in workflow are migrated to destination flow.  The workflow states are:
 
 - StatusField (Status field name)

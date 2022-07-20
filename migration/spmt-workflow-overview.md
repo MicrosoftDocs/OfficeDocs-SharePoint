@@ -28,11 +28,11 @@ Microsoft removed **SharePoint Server 2010** workflow services from existing ten
 
 Using the SharePoint Migration Tool (SPMT), you can now migrate these workflows to Power Automate
 
-- SharePoint Server 2010 out of the box (OOTB) workflows:
-  -  Approval workflow
-  -  Collect feedback workflow
-  -  Collect signature workflow
-  -  Three-state workflows
+**SharePoint Server 2010 out of the box (OOTB) workflows:**
+- Approval workflow
+- Collect feedback workflow
+- Collect signature workflow
+- Three-state workflow
 - List library workflows and content-type workflows (not site workflows)
 - Workflow definitions and associations (not workflow history data)
 
