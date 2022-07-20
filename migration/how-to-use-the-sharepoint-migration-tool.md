@@ -134,4 +134,4 @@ If you wish to leverage your system proxy settings, use one of these methods:
   
 [SharePoint and OneDrive migration speed](sharepoint-online-and-onedrive-migration-speed.md)
   
-[SharePoint Migration Tool Feedback and Support Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=SharePointMigrationTool)
+[Microsoft 365 community support](/answers/products/m365)
