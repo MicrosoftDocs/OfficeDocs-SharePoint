@@ -46,15 +46,15 @@ After the OneDrive sync app for Mac is installed, users can configure settings f
   
 ## Configure sync app settings
 
-Define the settings you want to change by creating a .plist file with the values. You can also use a script to set the default values. Then configure the settings on macOS as follows:
+You can use a script to set the default values. Then configure the settings on macOS as follows:
   
-1. Quit the OneDrive app.
+1. Define the settings you want to change by creating a .plist file with the values needed on the local computer.
 
-1. Deploy the settings onto the local computer.
+1. Quit the OneDrive app.
 
 1. Refresh the preferences cache.
 
-    On the next start of OneDrive, the new settings will be picked up.
+On the next start of OneDrive, the new settings will be picked up.
 
 ## Overview of settings
 
@@ -92,7 +92,7 @@ Use the following keys to pre-configure or change settings for your users. The k
 
 <a name="AllowTenantList"> </a>
 
-This setting prevents the users from uploading files to other organizations by specifying a list of allowed tenant IDs. If you enable this setting, the user gets an error if they attempt to add an account from an organization that isn't in the allowed tenants list. If the user has already added the account, the files stop syncing. This setting takes priority over **Block syncing OneDrive accounts for specific organizations** setting. Do **NOT** enable both settings at the same time.
+This setting prevents the users from uploading files to other organizations by specifying a list of allowed tenant IDs. If you enable this setting, the user gets an error if they attempt to add an account from an organization that isn't in the allowed tenants list. If the user has already added the account, the files stop syncing. This setting takes priority over the **BlockTenantList** setting. Do **NOT** enable both settings at the same time.
 
 The parameter for the **AllowTenantList** key is **TenantID** and its value is a string, which determines the tenants for whom the **Allow Tenant** setting is applicable. For the setting to be complete, this parameter also requires a boolean value to be set to it. If the boolean value is set to **True**, the tenant is allowed to sync.
 
@@ -140,7 +140,7 @@ The example for this setting in the .plist file is:
 <a name="BlockTenantList"> </a>
 This setting prevents the users from uploading files to organizations that are included in the **blocked tenant IDs** list.
 
-If you enable this setting, the users get an error if they attempt to add an account from an organization that is blocked. If a user has already added an account for a blocked organization, the files stop syncing. This setting does NOT work if you've **Allow syncing OneDrive accounts for only specific organizations** setting enabled. Do **NOT** enable both settings at the same time.
+If you enable this setting, the users get an error if they attempt to add an account from an organization that is blocked. If a user has already added an account for a blocked organization, the files stop syncing. This setting does **NOT** work if you've the **AllowTenantList** setting enabled. Do **NOT** enable both settings at the same time.
 
 Enable this setting by defining IDs for the **TenantID** parameter, which determines the tenants to whom the **block tenant** setting is applicable. Also set the boolean value to **True** for the ID of every tenant you want to prevent from syncing with the OneDrive and SharePoint files and folders.
 
@@ -168,8 +168,8 @@ The **TenantID** value is a string that determines the tenants to whom the **def
 The **DefaultFolderPath** value is a string that specifies the default location of the folder.
 
 The following are the conditions governing the default folder location:
--**Mac app store**: The path must already exist when the user is setting up the sync app.
--**Standalone**: The path will be created (if it doesn't already exist) after the user sets up the sync app. Only with the Standalone sync app you can prevent users from changing the location. 
+-**Mac App Store**: The path must already exist when the user is setting up the sync app.
+-**Standalone**: The path will be created (if it doesn't already exist) after the user sets up the sync app. Only with the Standalone sync app you can prevent users from changing the location.
 
 The example for this setting in the .plist file is:
 ```xml
@@ -278,7 +278,7 @@ The example for this setting in the .plist file is:
 
 This setting lets you enter keywords to prevent the OneDrive sync app from uploading certain files to OneDrive or SharePoint. You can enter complete names, such as "setup.exe" or use the asterisk (*) as a wildcard character to represent a series of characters, such as *.pst. Keywords aren't case-sensitive.
 
-If you enable this setting, the sync app doesn't upload new files that match the keywords you specified. No errors appear for the skipped files, and the files remain in the local OneDrive folder. In Finder, the files appear with an "Excluded from sync" icon. 
+If you enable this setting, the sync app doesn't upload new files that match the keywords you specified. No errors appear for the skipped files, and the files remain in the local OneDrive folder. In Finder, the files appear with an "Excluded from sync" icon.
 
 Users will also see a message in the OneDrive activity center that explains why the files aren't syncing.
 
@@ -289,7 +289,6 @@ The example for this setting in the .plist file is:
 <string>(Keyword such as *.PST)</string>
 </array>
 ```
-
 
 ### FilesOnDemandEnabled
 
@@ -410,7 +409,7 @@ If you enable this setting and provide your tenant ID, you can choose whether to
 <(Bool)/>
 ```
 
-If you don't set any of the following settings, then the default setting will move all the folders (Desktop and Documents) into OneDrive.  If you want to specify which folder to move, you should set any combination of the following settings:
+If you don't set any of the following settings, then the default setting will move both folders into OneDrive.  If you want to specify which folder to move, you should set any combination of the following settings:
 ```xml
 <key>KFMSilentOptInDesktop</key>
 <(Bool)/>

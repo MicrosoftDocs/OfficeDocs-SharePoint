@@ -52,7 +52,7 @@ For information on issues that can prevent folders from being moved, see [Fix pr
 
 ### Folders redirected to other organizations
 
-If a user's Desktop and Documents folders are currently redirected to OneDrive in a different organization, redirecting to your organization’s OneDrive will create new Desktop and Documents folders and the user will see an empty desktop. The user will have to manually migrate files from the other organization’s OneDrive to OneDrive in your organization. We recommend that you disable the redirect to the other organization before redirecting to your organization if possible.
+If a user's Documents, Pictures, or Desktop folders are currently redirected to OneDrive in a different organization, redirecting to your organization’s OneDrive will create new Documents, Pictures, or Desktop folders and the user will see an empty desktop. The user will have to manually migrate files from the other organization’s OneDrive to OneDrive in your organization. We recommend that you disable the redirect to the other organization before redirecting to your organization if possible.
 
 ## About the Known Folder Move policies
 
@@ -68,7 +68,7 @@ The following policies control the Known Folder Move feature:
 
     If users dismiss the prompt, a reminder notification will appear in the activity center until they move all known folders or an error occurs with the move, in which case the reminder notification will be dismissed.
 
-    :::image type="content" source="media/redirect-windows-kfm.png" alt-text="Screenshot of the notification that reminds users to protect their important folders." lightbox="media/redirect-windows-kfm-expanded.png":::
+    :::image type="content" source="media/redirect-windows-kfm.png" alt-text="Screenshot of the notification that reminds users to protect their important folders.":::
 
     > [!IMPORTANT]
     > We recommend deploying the prompt policy for existing devices only, and limiting the deployment to 5,000 devices a day and not exceeding 20,000 devices a week between macOS and Windows.
@@ -79,8 +79,10 @@ The following policies control the Known Folder Move feature:
 
   You can choose to display a notification to users after their folders have been redirected.
 
+  We also recommend using this setting together with [Prompt users to move Windows known folders to OneDrive.](use-group-policy#prompt-users-to-move-windows-known-folders-to-onedrive). If moving the known folders silently does not succeed, users will be prompted to correct the error and continue.
+
   > [!IMPORTANT]
-  > We recommend deploying the silent policy for existing devices and new devices while limiting the deployment of existing devices to 1,000 devices a day and not exceeding 4,000 devices a week between macOS and Windows. We also recommend using this setting together with "Prompt users to move Windows known folders to OneDrive." If moving the known folders silently does not succeed, users will be prompted to correct the error and continue.
+  > We recommend deploying the silent policy for existing devices and new devices while limiting the deployment of existing devices to 1,000 devices a day and not exceeding 4,000 devices a week between macOS and Windows.
 
 - [Prevent users from turning off Known Folder Move](use-group-policy.md#prevent-users-from-redirecting-their-windows-known-folders-to-their-pc)
 

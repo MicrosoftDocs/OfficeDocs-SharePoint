@@ -70,9 +70,9 @@ The following settings control the Folder Backup feature:
 
     :::image type="content" source="media/redirect-macos-manage-folder-backup.png" alt-text="Screenshot of the dialog that prompts users to backup their important folders.":::
 
-    If users dismiss the prompt, a reminder notification will appear in the activity center until they move all available folders.
+    If users dismiss the prompt, a reminder notification will appear in the Sync Activity Center until they move all available folders.
 
-    :::image type="content" source="media/redirect-macos-folder-backup.png" alt-text="Screenshot of the notification that reminds users to protect their important folders." lightbox="media/redirect-macos-folder-backup-expanded.png":::
+    :::image type="content" source="media/redirect-macos-folder-backup.png" alt-text="Screenshot of the notification that reminds users to protect their important folders.":::
 
     > [!IMPORTANT]
     > We recommend deploying the prompt setting for existing devices only, and limiting the deployment to 5,000 devices a day and not exceeding 20,000 devices a week between macOS and Windows.
@@ -91,12 +91,12 @@ The following settings control the Folder Backup feature:
 - [Prevent users from turning off Folder Backup (KFMBlockOptOut)](deploy-and-configure-on-macos.md#kfmblockoptout)
 
     Use **KFMBlockOptOut** to force users to keep their Desktop and Documents folders directed to OneDrive.
+
+    > [!NOTE]
+    > Users can direct their Desktop and Documents folders by opening OneDrive sync app preferences, clicking the **Backup tab**, and then clicking **Manage Backup**.
   
 - [Prevent users from moving their macOS Desktop and Documents folders to OneDrive (KFMBlockOptIn)](deploy-and-configure-on-macos.md#kfmblockoptin)
 
     Use **KFMBlockOptIn** to prevent users from moving their Desktop and Documents folders to any OneDrive account.
-
-> [!NOTE]
-> Users can direct their Desktop and Documents folders by opening OneDrive sync app preferences, clicking the **Backup tab**, and then clicking **Manage Backup**.
 
 For info about using the OneDrive sync settings, see [Deploy and configure the OneDrive sync app for macOS](deploy-and-configure-on-macos.md).
