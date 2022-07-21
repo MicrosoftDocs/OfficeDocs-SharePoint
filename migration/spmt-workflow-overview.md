@@ -26,14 +26,18 @@ description: "Overview of how to migrate your SharePoint Server workflows to Pow
 
 Microsoft removed **SharePoint Server 2010** workflow services from existing tenants on November 1, 2020. We recommend that you move your classic SharePoint Server workflows to Power Automate flows. 
 
-Using the SharePoint Migration Tool (SPMT), you can now migrate:
+Using the SharePoint Migration Tool (SPMT), you can now migrate these workflows to Power Automate
 
-- **SharePoint Server 2010** out of the box (OOTB) approval and collect feedback workflows to PowerAutomate.
-- List and library "out-of-box" (OOTB) approval workflows
-- Workflow definitions and associations
+**SharePoint Server 2010 out of the box (OOTB) workflows:**
+- Approval workflow
+- Collect feedback workflow
+- Collect signature workflow
+- Three-state workflow
+- List library workflows and content-type workflows (not site workflows)
+- Workflow definitions and associations (not workflow history data)
 
 >[!Note]
-> Workflows created with SharePoint Designer or SharePoint Server 2013 are currently not supported.
+> Workflows created with  SharePoint Server Designer 2013 or SharePoint Server 2013 are currently not supported.
 
 
 ## How does it work?
@@ -54,7 +58,9 @@ Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_bla
 Make sure that you have:
 
 - **Access to the destination**: You must either be a global admin or OneDrive/SharePoint admin to the Microsoft 365 tenant where you want to migrate your content. 
-
 - **Access to the source**: Have SharePoint Server account credentials that have read access to any workflow you plan to migrate.
-
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
+
+## Re-run migration 
+
+SPMT will skip a workflow if it has already been successfully migrated. If you want to run a new migration to override the migrated flow, delete it from the destination before starting the migration.
