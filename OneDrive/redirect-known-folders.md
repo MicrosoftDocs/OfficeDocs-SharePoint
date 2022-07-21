@@ -64,7 +64,7 @@ The following policies control the Known Folder Move feature:
 
     Use this setting to give the users a call to action to move their Windows known folders.
 
-    :::image type="content" source="media/kfm-wizard-windows.png" alt-text="Screenshot of the dialog that prompts users to backup their important folders.":::
+    :::image type="content" source="media/kfm-prompt-windows.png" alt-text="Screenshot of the dialog that prompts users to backup their important folders.":::
 
     If users dismiss the prompt, a reminder notification will appear in the activity center until they move all known folders or an error occurs with the move, in which case the reminder notification will be dismissed.
 
@@ -79,7 +79,7 @@ The following policies control the Known Folder Move feature:
 
   You can choose to display a notification to users after their folders have been redirected.
 
-  We also recommend using this setting together with [Prompt users to move Windows known folders to OneDrive.](use-group-policy#prompt-users-to-move-windows-known-folders-to-onedrive). If moving the known folders silently does not succeed, users will be prompted to correct the error and continue.
+  We also recommend using this setting together with [Prompt users to move Windows known folders to OneDrive.](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive). If moving the known folders silently does not succeed, users will be prompted to correct the error and continue.
 
   > [!IMPORTANT]
   > We recommend deploying the silent policy for existing devices and new devices while limiting the deployment of existing devices to 1,000 devices a day and not exceeding 4,000 devices a week between macOS and Windows.
