@@ -30,9 +30,21 @@ Download and install SPMT using one of the links listed below.
 
 | Release |**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.5.123.4](https://aka.ms/spmt-beta-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|[3.4.122.4](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.5.123.5](https://aka.ms/spmt-beta-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|[3.4.122.4](https://aka.ms/spmt-ga-page)|
 
+## SPMT 3.5.123.5
 
+**New features**
+
+|Feature|Description|
+|:-----|:-----|
+|Worflows|Three-state and Collect signatures out-of-the-box (OOTB) workflows are now supported.
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
 
 ## SPMT 3.5.123.4
 
