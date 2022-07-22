@@ -42,6 +42,10 @@ External sharing in SharePoint and OneDrive uses [Azure Active Directory B2B col
 
 External sharing is enabled by default in Microsoft 365, including SharePoint and OneDrive. We recommend leaving external sharing enabled. Microsoft 365 external sharing options can provide a more secure and governable sharing environment than sending attachments though email or using consumer sharing services.
 
+Use the <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">Sharing page in the SharePoint admin center</a> to configure your sharing options. For details, see [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off).
+
+For details about how to configure guest collaboration in SharePoint sites, see [Collaborate with guests in a site](/microsoft-365/solutions/collaborate-in-site).
+
 ### Organization level sharing settings
 
 The organization level sharing settings for SharePoint and OneDrive provide a default setting for sites and OneDrive libraries. Individual sites can be locked down further, but cannot be made more permissive than the organizational settings.
@@ -55,57 +59,46 @@ A key decision for your SharePoint and OneDrive rollout is who content can be sh
 
 These settings can be set separately for SharePoint and OneDrive, though the OneDrive setting cannot be more permissive than the SharePoint setting.
 
+Important decisions:
+- Do you want to allow external sharing? If not, choose the **Only people in your organization** option.
+- Do you want to allow users to create sharing links that allow unauthenticated (anonymous) people to access files or folders? If so, choose **Anyone**.
 
+### External sharing restrictions
 
-OneDrive vs. SharePoint settings
+You can restrict external sharing with these options:
 
-Note that the OneDrive sharing settings are a subset of the SharePoint sharing settings. If you want to allow external sharing in OneDrive, it must be enabled for SharePoint. For more info, see [File collaboration in SharePoint with Microsoft 365](/sharepoint/deploy-file-collaboration).
+- Restrict which domains can be shared with.
+- Limit external sharing by security group.
+- Expire guest access after a specified period.
+- Require reauthentication for users using a verification code.
 
+If you want to restrict which domains users can share with, you can choose the **Limit external sharing by domain** setting. For details, see [Restrict sharing of SharePoint and OneDrive content by domain](/sharepoint/restricted-domains-sharing). Note that this setting only affects SharePoint and OneDrive. If you want to set this for all the services in Microsoft 365, you can configure the restriction in Azure AD. See [Allow or block invitations to B2B users from specific organizations](/azure/active-directory/external-identities/allow-deny-list) for details.
 
-- Specify settings for sharing links and control external sharing: [Manage sharing](manage-sharing.md)
+If you don't want all of your users to be able to share externally, you can restrict external sharing to specific security groups. Choose the **Allow only users in specific security groups to share externally** option and choose the groups you want to allow.
 
-- **Sharing** - Use the <a href="https://go.microsoft.com/fwlink/?linkid=2185222" target="_blank">Sharing page in the SharePoint admin center</a> to configure your sharing options based on the decisions you made earlier in this guide. To learn more, see [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off).
+If you want guest access to expire after a given period, use the **Guest access to a site or OneDrive will expire automatically after this many days** setting. The users who shared the content will have the option to extend the expiration by the period you specify before guests lose access. For more information see, [Manage guest expiration for a site](https://support.microsoft.com/office/25bee24f-42ad-4ee8-8402-4186eed74dea).
 
-
-- **Do you want to allow external sharing?** If you enable external sharing for OneDrive, your users will be able to share files and folders with people outside your organization.
-
-- **If you allow external sharing, do you want to allow unauthenticated users?** If you enable sharing with **Anyone**, users can create sharable links that don't require sign-in.
-
-- **Do you want to restrict external sharing by domain?** You can restrict external sharing to specific domains or prevent sharing with specific domains.
-limit sharing by domain
-[Restrict sharing of SharePoint and OneDrive content by domain](/sharepoint/restricted-domains-sharing)
-
-Limit external sharing by security group
-
-[Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off)
-
-Guest access to a site or OneDrive will expire automatically after this many days
-
-If your administrator has set an expiration time for guest access, each guest that you invite to the site or with whom you share individual files and folders will be given access for a certain number of days. For more information visit, Manage guest expiration for a site
-
-People who use a verification code must reauthenticate after this many days
-
-If people who use a verification code have selected to "stay signed in" in the browser, they must prove they can still access the account they used to redeem the sharing invitation.
-
-Anyone link expiration
-
-[Collaborate with guests in a site](/microsoft-365/solutions/collaborate-in-site)
-
-[Create a more secure guest sharing environment](/microsoft-365/solutions/create-secure-guest-sharing-environment)
+Guests with non-Microsoft email addresses, such as Gmail, are sent a verification code when they attempt to access shared content. You can require that these guests reauthenticate after a specified period. Use the **People who use a verification code must reauthenticate after this many days** setting to configure this.
 
 ## File and folder sharing
 
+To create an easy sharing experience for your users while reducing the risk of oversharing, you can choose from these options for file and folder sharing links:
 
-- **What do you want the default sharing link to be?** Users can choose which type of link to send (Anyone, People in your organization, or Specific people), but you can choose the default option that is presented to users.
+- Choose the default link type that users see when they share a file or folder.
+- Choose if the default sharing link allows recipients to edit the files.
+- Choose if Anyone links expire after a given period.
+- Choose if Anyone links allow recipients to edit the files.
 
-Default sharing link permissions
+When users share a file or folder, they can choose from several types of sharing links that offer different levels of permissions. You can choose which link type is shown by default:
+- *Specific people* links require the user to specify a list of people who will have access to the file or folder.
+- *Only people in your organization* links provide access to the file or folder to anyone in your organization who has the link.
+- *Anyone* links (if you've enabled them in your organization level sharing settings) provide anonymous access to anyone who has the link, including people outside your organization.
 
+You can also choose the default permission level - view or edit - for sharing links.
 
+These options can also be configured for individual sites. See [Change the sharing settings for a site](/sharepoint/change-external-sharing-site) for details.
 
-
-
-
-
+If you've enabled *Anyone* links you can choose if these links should expire after a given period and if they should allow edit access or just view access.
 
 ## Related topics
 
@@ -118,3 +111,5 @@ Default sharing link permissions
 [File collaboration in SharePoint with Microsoft 365](/sharepoint/deploy-file-collaboration)
 
 [SharePoint and OneDrive file sync](/sharepoint/sharepoint-sync)
+
+[Create a more secure guest sharing environment](/microsoft-365/solutions/create-secure-guest-sharing-environment)
