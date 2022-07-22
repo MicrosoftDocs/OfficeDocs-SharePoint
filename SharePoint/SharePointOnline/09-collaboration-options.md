@@ -28,6 +28,8 @@ As you plan your SharePoint and OneDrive rollout, these are the primary decision
 
 For more details around collaboration governance in Microsoft 365, see [What is collaboration governance?](/microsoft-365/solutions/collaboration-governance-overview).
 
+For an in-depth look at file collaboration in SharePoint, see [Intro to file collaboration in Microsoft 365, powered by SharePoint](/sharepoint/intro-to-file-collaboration) and [File collaboration in SharePoint with Microsoft 365](/sharepoint/deploy-file-collaboration).
+
 ## Site creation
 
 By default, users can create new team sites and communication sites and shared libraries in OneDrive. We recommend keeping this setting and using [expiration policies](/microsoft-365/solutions/microsoft-365-groups-expiration-policy) to manage the number of unused sites.
@@ -105,10 +107,6 @@ If you've enabled *Anyone* links you can choose if these links should expire aft
 [Set up secure file sharing and collaboration with Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 
 [Overview of external collaboration options in Microsoft 365](/microsoft-365/enterprise/external-guest-access)
-
-[Intro to file collaboration in Microsoft 365, powered by SharePoint](/sharepoint/intro-to-file-collaboration)
-
-[File collaboration in SharePoint with Microsoft 365](/sharepoint/deploy-file-collaboration)
 
 [SharePoint and OneDrive file sync](/sharepoint/sharepoint-sync)
 
