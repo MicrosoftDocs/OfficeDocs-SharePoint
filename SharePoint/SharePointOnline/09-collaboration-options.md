@@ -1,6 +1,6 @@
 ---
 title: Sharing and collaboration options in SharePoint and OneDrive
-ms.reviewer: 
+ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
