@@ -21,6 +21,9 @@ description:
 	migration requirements gathering
 	Systems integration that needs to be migrated
 
+- Do your users have OneDrive on-premises data that needs to be migrated to OneDrive in Microsoft 365?
+
+
 ## Migrating data
 
 A key task in deploying OneDrive for your organization is a plan to migrate your users existing files to OneDrive. Depending on where these files are kept, there are several options, discussed below. You can choose one or more of these options depending on the number and location of files that you need to migrate.

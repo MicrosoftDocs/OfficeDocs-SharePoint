@@ -14,7 +14,7 @@
 
 #### [Business requirements](04-business-requirements.md)
 
-#### [Infrastructure](05-infrastructure.md)
+#### [Hybrid](05-hybrid.md)
 
 #### [Sites]()
 ##### [Planning hub sites](planning-hub-sites.md)

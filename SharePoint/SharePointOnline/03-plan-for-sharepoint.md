@@ -219,6 +219,16 @@ If you are using the previous OneDrive sync app (Groove.exe), see [Transition fr
 
 To make sure that users sync OneDrive files only on managed computers, you can configure OneDrive to sync only on PCs that are joined to specific domains. for more information, see [Allow syncing only on computers joined to specific domains](allow-syncing-only-on-specific-domains.md).
 
+## Network utilization
+
+Various factors can impact the amount of network bandwidth used by OneDrive. For the best experience, we recommend that you assess this impact before doing a full OneDrive deployment across your organization. The article [Network utilization planning for the OneDrive sync app](network-utilization-planning.md) includes the recommended process for determining your network bandwidth needs for OneDrive. Be sure to include this as part of your deployment plan
+
+[Networking roadmap for Microsoft 365](/microsoft-365/enterprise/networking-roadmap-microsoft-365)
+
+[Office 365 URLs and IP address ranges](/enterprise/urls-and-ip-address-ranges)
+
+[Use the Office 365 Content Delivery Network (CDN) with SharePoint Online](/microsoft-365/enterprise/use-microsoft-365-cdn-with-spo)
+
 ## Change management
 
 
