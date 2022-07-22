@@ -18,27 +18,27 @@ description: Learn about setting up hybrid OneDrive and SharePoint in Microsoft 
 
 # Hybrid OneDrive and SharePoint in Microsoft 365
 
-If you use SharePoint Server on-premises, there are several options for integrating that environment with SharePoint in Microsoft 365 to provide your users a more seamless environment when navigating back and forth between the two. You can configure these options to improve your users' experience during a migration from on-premises to the cloud, or you can use them in the long term if you plan to continue using SharePoint Server.
+If you use SharePoint Server on-premises, there are several options for integrating that environment with SharePoint in Microsoft 365 to provide your users with a more seamless environment when navigating back and forth between the two. You can configure these options to improve your users' experience during a migration from on-premises to the cloud, or you can use them in the long term if you plan to continue using SharePoint Server.
 
-For complete details on setting up SharePoint and OneDrive hybrid, see [Hybrid for SharePoint Server](/sharepoint/hybrid/hybrid) and [Explore SharePoint Server hybrid](/sharepoint/hybrid/explore-sharepoint-server-hybrid/).
+If you have a SharePoint Server environment, we recommend setting up SharePoint Server hybrid as part of your SharePoint and OneDrive in Microsoft 365 rollout. For complete details on setting up SharePoint and OneDrive hybrid, see [Hybrid for SharePoint Server](/sharepoint/hybrid/hybrid) and [Explore SharePoint Server hybrid](/sharepoint/hybrid/explore-sharepoint-server-hybrid/).
 
 ### Hybrid features
 
-The following hybrid features are available for integrating SharePoint Server with SharePoint in Microsoft 365:
+The following hybrid features are available for integrating SharePoint Server with Microsoft 365:
 
 - **OneDrive** - OneDrive links are provided in SharePoint Server which direct users to OneDrive in Microsoft 365.
 
 - **Site following** - Followed sites from both locations are consolidated in the SharePoint in Microsoft 365 followed sites list. 
 
-- **Profiles** - Profiles exist in both locations, but SharePoint Server links to users' profiles redirect profiles in Microsoft 365.
+- **Profiles** - Profiles exist in both locations, but SharePoint Server links to users' profiles redirect to profiles in Microsoft 365.
 
-- **Extensible app launcher** - The SharePoint Server app launcher includes several tiles from Microsoft 365.
+- **Extensible app launcher** - The SharePoint Server app launcher includes several tiles that link to Microsoft 365.
 
 - **Hybrid self-service site creation** - Users going to the default SharePoint Server site creation page are redirected to the SharePoint in Microsoft 365 Group Creation page, allowing them to create sites in SharePoint in Microsoft 365.
 
 - **Search** - Cloud hybrid search crawls on-premises content and indexes it in the search index in Office 365. Users can search the Microsoft 365 index from either location.
 
-- **Taxonomy and content types** - SharePoint hybrid taxonomy and content types enables you to have a single taxonomy and content types list that spans SharePoint Server and SharePoint in Microsoft 365. See [Plan hybrid SharePoint in Microsoft 365 taxonomy and hybrid content types](/sharepoint/hybrid/plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types) for more information.
+- **Taxonomy and content types** - Enables you to have a single taxonomy and content types list that spans SharePoint Server and SharePoint in Microsoft 365. See [Plan hybrid SharePoint in Microsoft 365 taxonomy and hybrid content types](/sharepoint/hybrid/plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types) for more information.
 
 See [SharePoint hybrid sites and search](/sharepoint/hybrid/sharepoint-hybrid-sites-and-search) for more details on these options.
 
