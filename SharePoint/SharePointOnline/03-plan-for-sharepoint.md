@@ -93,15 +93,16 @@ The OneDrive sync app has a variety of configuration options for compliance, per
 
 **Key decisions for sync:**
 
-- [How do you want to deploy the sync app?](how-do-you-want-to-deploy-the-sync-app)
+- [How do you want to deploy the sync app?](#how-do-you-want-to-deploy-the-sync-app)
 - [How do you want to manage sync on Windows computers?](#how-do-you-want-to-manage-sync-on-windows-computers)
 - [Which update ring do you want to use?](#which-update-ring-do-you-want-to-use)
 - [Do you want to limit network utilization for sync?](#do-you-want-to-limit-network-utilization-for-sync)
 - [Do you want to sync common folders with OneDrive?](#do-you-want-to-sync-common-folders-with-onedrive)
-- [Do you want to limit which domains users can sync with?](do-you-want-to-limit-which-domains-users-can-sync-with)
-- [Do you want to allow users to sync their personal OneDrive?](do-you-want-to-allow-users-to-sync-their-personal-onedrive)
-- [Do you want to block certain file types from being synced?](do-you-want-to-block-certain-file-types-from-being-synced)
-- [Does you need to sync files in a hybrid environment with SharePoint Server?](does-you-need-to-sync-files-in-a-hybrid-environment-with-sharepoint-server)
+- [Do you want to limit which domains users can sync with?](#do-you-want-to-limit-which-domains-users-can-sync-with)
+- [Do you want to allow users to sync their personal OneDrive?](#do-you-want-to-allow-users-to-sync-their-personal-onedrive)
+- [Do you want to block certain file types from being synced?](#do-you-want-to-block-certain-file-types-from-being-synced)
+- [Does you need to sync files in a hybrid environment with SharePoint Server?](#does-you-need-to-sync-files-in-a-hybrid-environment-with-sharepoint-server)
+- [Do you want to limit sync to computers joined to a specific domain?](#do-you-want-to-limit-sync-to-computers-joined-to-a-specific-domain)
 
 For information about the recommended configuration options for the sync app, see [Recommended sync app configuration](ideal-state-configuration.md).
 
@@ -137,7 +138,7 @@ You can select how soon your users receive updates we release for the sync app.
 
 - **Production ring** – In this ring, users get fixes and new features in a timely fashion. We recommend leaving everyone else in the organization in this ring.
 
-- **Deferred ring** – In this ring, you have more control over the deployment of updates, but users have to wait longer to receive fixes and new features.
+- **Enterprise ring** – In this ring, you have more control over the deployment of updates, but users have to wait longer to receive fixes and new features.
 
 Configure the following policy to set the sync app update ring.
 
@@ -206,7 +207,7 @@ You can specify if you don't want users to be able to upload certain types of fi
 |:-----|:----------|:--|
 |Exclude specific kinds of files from being uploaded|[EnableODIgnoreListFromGPO](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded)|[EnableODIgnore](deploy-and-configure-on-macos.md#enableodignore)|
 
-For more information about preventing syncing of certain file types, see [Block syncing of specific file types](block-file-types.md).
+This can also be configured in the SharePoint admin center. For more information, see [Block syncing of specific file types](block-file-types.md).
 
 ### Does you need to sync files in a hybrid environment with SharePoint Server?
 
@@ -214,7 +215,15 @@ If your organization uses SharePoint Server 2019 or SharePoint Server Subscripti
 
 If you are using the previous OneDrive sync app (Groove.exe), see [Transition from the previous OneDrive for Business sync app](transition-from-previous-sync-client.md) for information on how to move to the new OneDrive sync app.
 
+### Do you want to limit sync to computers joined to a specific domain?
+
+To make sure that users sync OneDrive files only on managed computers, you can configure OneDrive to sync only on PCs that are joined to specific domains. for more information, see [Allow syncing only on computers joined to specific domains](allow-syncing-only-on-specific-domains.md).
+
 ## Change management
+
+
+
+
 
 
 ## Support
