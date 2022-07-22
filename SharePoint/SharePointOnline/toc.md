@@ -8,8 +8,6 @@
 ### [Governance overview](governance-overview.md)
 ### [Overview of Teams and SharePoint integration](teams-connected-sites.md)
 
-### [SharePoint for collab vs intranet](02-collaboration-intranet.md)
-
 ## [Get started]()
 
 ### [Plan for SharePoint](03-plan-for-sharepoint.md)
