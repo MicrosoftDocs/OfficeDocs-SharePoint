@@ -18,25 +18,44 @@ description: Plan the sharing and collaboration options that you want to impleme
 
 # Sharing and collaboration options in SharePoint and OneDrive
 
+SharePoint and OneDrive provide a platform for collaboration through file and folder sharing.
 
+As you plan your SharePoint and OneDrive rollout, these are the primary decision areas around collaboration:
 
-- Site creation
-- File and folder sharing
-- External sharing
+- **Site creation** - do you want to allow your users to create SharePoint sites or do you want to manage this through IT or a business process?
+- **External sharing** - do you want to allow users to share files, folders, or sites with people outside your organization?
+- **File and folder sharing defaults** - what sharing defaults do you want to use to make sharing easy but protect sensitive information?
 
-
-
+For more details around collaboration governance in Microsoft 365, see [What is collaboration governance?](/microsoft-365/solutions/collaboration-governance-overview).
 
 ## Site creation
 
+By default, users can create new team sites and communication sites and shared libraries in OneDrive. We recommend keeping this setting and using [expiration policies](/microsoft-365/solutions/microsoft-365-groups-expiration-policy) to manage the number of unused sites.
 
+If you don't want to allow users to create sites directly, you can disable user site creation. For details, see [Manage site creation in SharePoint](/sharepoint/manage-site-creation).
 
-[Manage who can create Microsoft 365 Groups](/microsoft-365/solutions/manage-creation-of-groups)
-
-[Manage site creation in SharePoint](/sharepoint/manage-site-creation)
-
+Even if you turn off sites creation for users in SharePoint, they can still create Microsoft 365 group-connected team sites by creating a Microsoft 365 group or any of its related services, such as a team in Microsoft teams. If you don't want to allow users to create Microsoft 365 Groups or related services, including group-connected team sites, see [Manage who can create Microsoft 365 Groups](/microsoft-365/solutions/manage-creation-of-groups).
 
 ## External sharing
+
+External sharing in SharePoint and OneDrive uses [Azure Active Directory B2B collaboration](/azure/active-directory/external-identities/what-is-b2b) to create guest accounts for people outside the organization. Guests can be given access to SharePoint sites or to individual files and folders in SharePoint and OneDrive.
+
+External sharing is enabled by default in Microsoft 365, including SharePoint and OneDrive. We recommend leaving external sharing enabled. Microsoft 365 external sharing options can provide a more secure and governable sharing environment than sending attachments though email or using consumer sharing services.
+
+### Organization level sharing settings
+
+The organization level sharing settings for SharePoint and OneDrive provide a default setting for sites and OneDrive libraries. Individual sites can be locked down further, but cannot be made more permissive than the organizational settings.
+
+A key decision for your SharePoint and OneDrive rollout is who content can be shared with:
+
+- **Anyone** - Users can share files and folders using links that don't require sign-in.
+- **New and existing guests** - Guests are added to the directory when an item is shared and must sign in or provide a verification code to access the content.
+- **Existing guests** - Only guests already in your organization's directory. (This setting is not recommended because guests can be added to the directory in various ways outside of SharePoint and OneDrive.)
+- **Only people in your organization** - No external sharing is allowed.
+
+These settings can be set separately for SharePoint and OneDrive, though the OneDrive setting cannot be more permissive than the SharePoint setting.
+
+
 
 OneDrive vs. SharePoint settings
 
@@ -72,6 +91,7 @@ Anyone link expiration
 
 [Collaborate with guests in a site](/microsoft-365/solutions/collaborate-in-site)
 
+[Create a more secure guest sharing environment](/microsoft-365/solutions/create-secure-guest-sharing-environment)
 
 ## File and folder sharing
 
