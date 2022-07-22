@@ -18,21 +18,23 @@ description: Plan the sharing and collaboration options that you want to impleme
 
 # Sharing and collaboration options in SharePoint and OneDrive
 
-SharePoint and OneDrive provide a platform for collaboration through file and folder sharing.
+SharePoint and OneDrive provide a platform for collaboration through file and folder storage and sharing.
 
 As you plan your SharePoint and OneDrive rollout, these are the primary decision areas around collaboration:
 
 - **Site creation** - do you want to allow your users to create SharePoint sites or do you want to manage this through IT or a business process?
 - **External sharing** - do you want to allow users to share files, folders, or sites with people outside your organization?
-- **File and folder sharing defaults** - what sharing defaults do you want to use to make sharing easy but protect sensitive information?
+- **File and folder sharing defaults** - what sharing defaults do you want to use to make sharing easy while you help protect sensitive information?
 
 For more details around collaboration governance in Microsoft 365, see [What is collaboration governance?](/microsoft-365/solutions/collaboration-governance-overview).
 
 For an in-depth look at file collaboration in SharePoint, see [Intro to file collaboration in Microsoft 365, powered by SharePoint](/sharepoint/intro-to-file-collaboration) and [File collaboration in SharePoint with Microsoft 365](/sharepoint/deploy-file-collaboration).
 
+Keep in mind that the settings you choose for collaboration in SharePoint can also affect Teams. For more information, see [Overview of Teams and SharePoint integration](teams-connected-sites.md).
+
 ## Site creation
 
-By default, users can create new team sites and communication sites and shared libraries in OneDrive. We recommend keeping this setting and using [expiration policies](/microsoft-365/solutions/microsoft-365-groups-expiration-policy) to manage the number of unused sites.
+By default, users can create new team sites and communication sites in SharePoint and shared libraries in OneDrive. We recommend keeping this setting and using [expiration policies](/microsoft-365/solutions/microsoft-365-groups-expiration-policy) to manage the number of unused sites.
 
 If you don't want to allow users to create sites directly, you can disable user site creation. For details, see [Manage site creation in SharePoint](/sharepoint/manage-site-creation).
 
@@ -56,7 +58,7 @@ A key decision for your SharePoint and OneDrive rollout is who content can be sh
 
 - **Anyone** - Users can share files and folders using links that don't require sign-in.
 - **New and existing guests** - Guests are added to the directory when an item is shared and must sign in or provide a verification code to access the content.
-- **Existing guests** - Only guests already in your organization's directory. (This setting is not recommended because guests can be added to the directory in various ways outside of SharePoint and OneDrive.)
+- **Existing guests** - Users can only share with guests already in your organization's directory. (This setting is not recommended because guests can be added to the directory in various ways outside of SharePoint and OneDrive.)
 - **Only people in your organization** - No external sharing is allowed.
 
 These settings can be set separately for SharePoint and OneDrive, though the OneDrive setting cannot be more permissive than the SharePoint setting.
@@ -69,10 +71,10 @@ Important decisions:
 
 You can restrict external sharing with these options:
 
-- Restrict which domains can be shared with.
+- Restrict which domains users can share with.
 - Limit external sharing by security group.
 - Expire guest access after a specified period.
-- Require reauthentication for users using a verification code.
+- Require reauthentication after a specified period for users using a verification code.
 
 If you want to restrict which domains users can share with, you can choose the **Limit external sharing by domain** setting. For details, see [Restrict sharing of SharePoint and OneDrive content by domain](/sharepoint/restricted-domains-sharing). Note that this setting only affects SharePoint and OneDrive. If you want to set this for all the services in Microsoft 365, you can configure the restriction in Azure AD. See [Allow or block invitations to B2B users from specific organizations](/azure/active-directory/external-identities/allow-deny-list) for details.
 
@@ -100,7 +102,7 @@ You can also choose the default permission level - view or edit - for sharing li
 
 These options can also be configured for individual sites. See [Change the sharing settings for a site](/sharepoint/change-external-sharing-site) for details.
 
-If you've enabled *Anyone* links you can choose if these links should expire after a given period and if they should allow edit access or just view access.
+If you've enabled *Anyone* links, you can choose if these links should expire after a given period and if they should allow edit access or just view access.
 
 ## Related topics
 
