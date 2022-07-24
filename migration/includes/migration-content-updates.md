@@ -2,6 +2,17 @@
 
 
 
+## Week of July 18, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/20/2022 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
+| 7/20/2022 | [Migrate SharePoint workflows with the SharePoint Migration Tool (SPMT) to Power Automate](/SharepointMigration/spmt-workflow-overview) | modified |
+| 7/20/2022 | [Step 2: Migrate SharePoint Server workflows with SPMT](/SharepointMigration/spmt-workflow-step2) | modified |
+| 7/20/2022 | [Step 3: Activate workflows after migration](/SharepointMigration/spmt-workflow-step3) | modified |
+
+
 ## Week of July 11, 2022
 
 
