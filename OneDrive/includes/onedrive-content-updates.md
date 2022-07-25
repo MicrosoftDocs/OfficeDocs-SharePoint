@@ -2,6 +2,14 @@
 
 
 
+## Week of July 18, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/18/2022 | Sync | removed |
+
+
 ## Week of July 11, 2022
 
 
