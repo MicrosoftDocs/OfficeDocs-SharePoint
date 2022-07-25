@@ -17,6 +17,15 @@ description: "Mover Migration Connectors"
 ---
 # Connectors
 
+>[!Important]
+>We have retired the legacy [Mover](https://app.mover.io) tool's ability for admin-led migrations from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm-egnyte-overview.md). Please use [Migration Manager](https://aka.ms/ODSP-MM), located in the SharePoint admin center.
+>
+>*Ongoing migrations are not impacted by this change. However, you cannot create new connectors.* If you are currently in the middle of a Mover migration, you may continue using Mover until you finish your migration using your existing connectors. FastTrack led migrations are not impacted at this time.
+>
+>[**Individuals or students**: You may continue to use Mover, learn how!](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
+>
+>[Learn more about the Mover.io retirement](mover-retirement-timeline.md)
+
 ### What is a connector?
 
 A **Connector** is what we call our link to your cloud storage accounts.
