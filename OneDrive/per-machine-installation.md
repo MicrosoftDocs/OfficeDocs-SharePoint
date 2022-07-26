@@ -34,7 +34,7 @@ The new per-machine sync app provides:
 - Automatic conversion from per-user to per-machine
 - Automatic updates when a new version is available
 
-The per-machine sync app is helpful especially for multi-user computers and when you don't want .exe files running from the user profile. Gradually, it is recommended that more and more customers switch to per-machine installation.
+The per-machine sync app is helpful especially for multi-user computers and when you don't want .exe files running from the user profile. Gradually, we recommended more customers switch to per-machine installation.
 
 The per-machine sync app supports syncing OneDrive and SharePoint files in Microsoft 365 and in SharePoint Server 2019.
 
@@ -42,7 +42,7 @@ The per-machine sync app supports syncing OneDrive and SharePoint files in Micro
 
 - All Windows versions supported by the sync app. [Learn more](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e).
 - Sync app builds 19.174.0902.0013 or later. For info about which sync app build is available in each ring, see [OneDrive sync app release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
-- To apply sync app updates, computers in your organization must allow the following URLs: "oneclient.sfx.ms" and "g.live.com". Make sure you don't block these URLs. They are also used to enable and disable features and apply bug fixes. [More info about the URLs and IP address ranges used in Microsoft 365](/office365/enterprise/urls-and-ip-address-ranges).
+- To apply sync app updates, computers in your organization must allow the following URLs: "oneclient.sfx.ms" and "g.live.com". Make sure you don't block these URLs, as they're also used to enable and disable features and apply bug fixes. [More info about the URLs and IP address ranges used in Microsoft 365](/office365/enterprise/urls-and-ip-address-ranges).
 
 ## Deployment instructions
 
@@ -66,17 +66,17 @@ To verify that you have the per-machine installation, you can use the following 
 
 ## Updates
 
-We recommend that you keep your users in the default Production ring and rely on auto-update to keep them on the latest version in order to maintain a high-quality sync experience.
+We recommend that you keep your users in the default Production ring and rely on automatic updates to keep them on the latest version in order to maintain a high-quality sync experience.
 
-The per-machine sync app will auto-update on the same cadence as the per-user sync app and the same rings are supported. The [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) are also the same. [More info about the sync app update process](sync-client-update-process.md)
+The per-machine sync app will automatically update on the same cadence as the per-user sync app and the same rings are supported. The [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) are also the same. [More info about the sync app update process](sync-client-update-process.md)
 
-If your organization requires you to deploy updates manually through Configuration Manager, we recommend that you select the Deferred (also known as "Enterprise") ring, and deploy the upcoming builds *before* auto-update takes effect as described here.
+If your organization requires you to deploy updates manually through Configuration Manager, we recommend that you select the Deferred (also known as "Enterprise") ring, and deploy the upcoming builds *before* automatic updates takes effect as described here.
 
 ### User intervention
 
 Elevation is required when you first set up the OneDrive sync app. During setup, we install a scheduled task and a Windows service, which are used to perform the updates silently without user intervention since they run in elevated mode.
 
-User intervention is not required for the per-machine sync app to update itself.
+User intervention isn't required for the per-machine sync app automatic updates.
 
 ## Ring selection
 
