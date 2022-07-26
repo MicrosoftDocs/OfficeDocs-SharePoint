@@ -37,6 +37,7 @@ description: Migration Manager error codes
 |MAUTHNOTENANT|Connector authorization failed; no tenant/enterprise ID found. Tenant = Enterprise. Tenant is the term in MS/Azure and Enterprise is used by Box and others.|Try again.|
 |MAUTHREFRESHTOKEN|Connector authorization failure. Failed to get refresh token.|Try again.|
 |MAUTHUSERNOTADMIN|Connector authorization failed; user does not have admin role.|Check permissions and try again.|
+|MAZUREUPLOAD|Failed to submit the migration job to Migration API after the files were uploaded to the Azure blob.| Try again.|
 |MBADREQUEST|Bad request when operating on source or destination item.|Unexpected error.  Try again.|
 |MCONNECTORNOTFOUND|Connector not found in database.|Check connector settings.  Try again.|
 |MCORRELATE|Collection correlates missing source listing.|Confirm source location, try again.|
