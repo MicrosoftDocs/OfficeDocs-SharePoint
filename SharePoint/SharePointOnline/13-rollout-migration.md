@@ -19,11 +19,17 @@ description:
 # 
 
 	Have users to housecleaning
+
 	KFM
+
 	Classic to modern
+
 	Workflows
+
 	Content migration
+
 	Taxonomy
+
 	Paper
 
 [Redirect and move Windows known folders to OneDrive](/onedrive/redirect-known-folders)
