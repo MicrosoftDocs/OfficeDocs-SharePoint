@@ -26,7 +26,7 @@ description: In this article, you'll learn how to install the OneDrive sync app 
 
 # Install the sync app per-machine
 
-By default, the OneDrive sync app installs per-user, meaning that you will need to install the app for each user on a machine. With the per-machine installation option, you will only need to install the app once on a PC. This option is especially useful for computers with multiple users, as well as for when you don't want executable files running from a user profile.
+By default, the OneDrive sync app installs per-user, meaning that you'll need to install the app for each user on a machine. With the per-machine installation option, you'll only need to install the app once on a PC. This option is especially useful for computers with multiple users and for when you don't want executable files running from a user profile.
 
 Other than where the sync app is installed, the behavior is the same.
 
@@ -34,11 +34,11 @@ Other than where the sync app is installed, the behavior is the same.
 
 The OneDrive sync app with the installation option of either per-machine or per-user both use the [same release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0), support the same update rings, and update in the same time-frame. [More info about the sync app update process](sync-client-update-process.md).
 
-If you are moving from per-user to per-machine, update settings aren't affected.
+If you're moving from per-user to per-machine, update settings aren't affected.
 
 ## Requirements
 
-The per-machine installation system requirements will be the same as the per-user installation.
+The per-machine installation's system requirements will be the same as the per-user installation.
 
 The per-machine installation option supports syncing OneDrive and SharePoint files in Microsoft 365 and in SharePoint Server 2019.
 
