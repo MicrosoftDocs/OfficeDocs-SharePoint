@@ -73,6 +73,7 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [DownloadBandwidthLimited](deploy-and-configure-on-macos.md#downloadbandwidthlimited)
 - [EnableAllOcsiClients](deploy-and-configure-on-macos.md#enableallocsiclients)
 - [EnableODIgnore](deploy-and-configure-on-macos.md#enableodignore)
+- [EnableSyncAdminReports](deploy-and-configure-on-macos.md#enablesyncadminreports)
 - [FilesOnDemandEnabled](deploy-and-configure-on-macos.md#filesondemandenabled)
 - [HideDockIcon](deploy-and-configure-on-macos.md#hidedockicon)
 - [HydrationDisallowedApps](deploy-and-configure-on-macos.md#hydrationdisallowedapps)
