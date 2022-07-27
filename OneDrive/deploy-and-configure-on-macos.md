@@ -250,6 +250,16 @@ The example for this setting in the .plist file is:
 \<string\>(Keyword such as *.PST)\</string\><br/>
 \</array\><br/>
 
+### EnableSyncAdminReports (Preview)
+
+<a name="EnableSyncAdminReports"> </a>
+
+This setting specifies whether Sync Admin Reports is enabled.
+
+If you enable this setting, OneDrive sync health reports will be sent to OneDrive sync health dashboard in the Microsoft 365 Apps Admin Center.
+
+The example for this setting in the .plist file is:
+<br/> \<key\>EnableSyncAdminReports</key\>  <br/> <(Bool)/\> <br/>
 
 ### FilesOnDemandEnabled
 
