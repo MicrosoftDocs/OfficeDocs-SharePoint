@@ -1,5 +1,5 @@
 ---
-title: "Install the sync app per machine"
+title: Install the sync app per-machine (Windows)
 ms.reviewer: gacarini
 ms.author: mabond
 author: mkbond007
@@ -21,16 +21,14 @@ ms.collection:
 - Strat_OD_admin
 - M365-collaboration
 ms.assetid: 6891b561-a52d-4ade-9f39-b492285e2c9b
-description: "In this article, you'll learn how to install the OneDrive sync app for every user account on a Windows PC."
+description: In this article, you'll learn how to install the OneDrive sync app once for a Windows PC with multiple users.
 ---
 
-# Install the sync app per machine
+# Install the sync app per-machine
 
-By default, the OneDrive sync app installs per user, meaning OneDrive.exe needs to be installed for each user account on the PC under the %localappdata% folder. With the per-machine installation option, you can install OneDrive under the "Program Files (x86)"  or "Program Files" directory (depending on the OS architecture).
+By default, the OneDrive sync app installs per-user, meaning that you will need to install the app for each user on a machine. With the per-machine installation option, you will only need to install the app once on a PC. This option is especially useful for computers with multiple users, as well as for when you don't want executable files running from a user profile.
 
-The per-machine sync app is helpful especially for multi-user computers and when you don't want .exe files running from the user profile. Although a single version of OneDrive.exe is installed, a new process is created for every OneDrive account syncing on the computer. Other than where the sync app is installed, the behavior is the same.
-
-The per-machine sync app supports syncing OneDrive and SharePoint files in Microsoft 365 and in SharePoint Server 2019.
+Other than where the sync app is installed, the behavior is the same.
 
 **Updates**
 
@@ -40,15 +38,18 @@ If you are moving from per-user to per-machine, update settings aren't affected.
 
 ## Requirements
 
-- All Windows versions supported by the sync app. [Learn more](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e).
-- Sync app builds 19.174.0902.0013 or later. For info about which sync app build is available in each ring, see [OneDrive sync app release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
-- To apply sync app updates, computers in your organization must allow the following URLs: "oneclient.sfx.ms" and "g.live.com". Make sure you don't block these URLs, as they're also used to enable and disable features and apply bug fixes. [More info about the URLs and IP address ranges used in Microsoft 365](/office365/enterprise/urls-and-ip-address-ranges).
-- The  per-machine sync app provides automatic transitioning from the [previous OneDrive for Business sync app (Groove.exe)](transition-from-previous-sync-client.md).
+The per-machine installation system requirements will be the same as the per-user installation.
+
+The per-machine installation option supports syncing OneDrive and SharePoint files in Microsoft 365 and in SharePoint Server 2019.
+
+The  per-machine installation option provides automatic transitioning from the [previous OneDrive for Business sync app (Groove.exe)](transition-from-previous-sync-client.md).
 
 ## Deployment instructions
 
 1. Download OneDriveSetup.exe.
-2. Run "OneDriveSetup.exe /allusers" from a command prompt window (this will result in a User Account Control prompt) or by using Microsoft Endpoint Configuration Manager. Depending on the OS architecture, the sync app will be installed under the "Program Files (x86)\Microsoft OneDrive" directory or "Program Files\Microsoft OneDrive" directory.
+2. Run "OneDriveSetup.exe /allusers" from a command prompt window (this will result in a User Account Control prompt) or by using Microsoft Endpoint Configuration Manager.
+
+While the per-user option installs OneDrive for each user account on a PC under the %localappdata% folder, the per-machine option will install OneDrive under the "Program Files (x86)" or "Program Files" directory (depending on the OS architecture).
 
 When setup completes, OneDrive will start. If accounts were added on the computer, they'll be migrated automatically.
 
@@ -60,7 +61,7 @@ To verify that you have the per-machine installation, you can use the following 
 |---|---|
 |Hive|HKEY_LOCAL_MACHINE|
 |Key|SOFTWARE\Microsoft\OneDrive|
-|Value|Version|
+|Name|Version|
 |32bit on 64bit| TRUE|
 |Type|REG_SZ|
 |Value|19.043.0304.0007|
