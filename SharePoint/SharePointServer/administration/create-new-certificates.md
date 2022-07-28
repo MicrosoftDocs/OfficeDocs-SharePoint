@@ -19,7 +19,7 @@ description: "Learn how you to create new SSL certificate."
  
 # Create new certificates
 
-[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
 SharePoint Subscription Edition supports creating SSL certificate requests via the [New-SPCertificate](/powershell/module/sharepoint-server/new-spcertificate) PowerShell cmdlet. This is the first step in a three-step process to install a new SSL certificate.
 

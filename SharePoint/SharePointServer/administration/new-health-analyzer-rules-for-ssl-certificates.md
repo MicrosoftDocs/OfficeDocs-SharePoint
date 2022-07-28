@@ -18,7 +18,7 @@ description: "Learn how SSL certificate implements health analyzer."
 
 # New health analyzer rules for SSL certificates
 
-[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
 SharePoint has implemented the following four new health analyzer rules for SSL certificates:
 

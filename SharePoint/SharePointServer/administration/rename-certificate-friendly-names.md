@@ -18,7 +18,7 @@ description: "Learn how SharePoint supports changing the friendly name of certif
  
 # Rename certificate friendly names
 
-[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
 SharePoint supports changing the friendly name of certificates using the [Rename-SPCertificate](/powershell/module/sharepoint-server/rename-spcertificate) PowerShell cmdlet.
 

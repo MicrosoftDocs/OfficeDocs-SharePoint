@@ -18,7 +18,7 @@ description: "Learn how SharePoint supports renewing SSL certificates."
  
 # Renew certificates
 
-[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
 SharePoint supports renewing SSL certificates via the [Renew-SPCertificate](/powershell/module/sharepoint-server/renew-spcertificate) PowerShell cmdlet. This creates a new certificate signing request based on the properties of an existing certificate and is the first step in a three-step process to renew an SSL certificate.
 
