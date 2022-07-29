@@ -129,7 +129,7 @@ reg delete HKCU\Software\Microsoft\OneDrive /v SilentBusinessConfigCompleted /f
 
 ### Instructions for SharePoint Server 2019
 
-1. Ensure you can manually get the OneDrive sync app to sync content with your on-premises SharePoint Server 2019 before proceeding. See [Configure sync app for syncing with SharePoint Server](/sharepoint/install/new-onedrive-sync-client) for details.
+1. Ensure you can manually get the OneDrive sync app to sync content with your on-premises SharePoint Server 2019 before proceeding. See [Configure sync app for syncing with SharePoint Server](/sharepoint/install/configure-syncing-with-the-onedrive-sync-app) for details.
 
 2. Set the SharePointOnPremPrioritization reg key value to 1 (this ensures that SharePoint Server takes precedence over SharePoint in Microsoft 365, deleting the registry key to revert to SharePoint in Microsoft 365):
 

@@ -446,7 +446,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "SharePoint/SharePointOnline/let-users-use-new-onedrive-sync-client.md",
+      "source_path": "SharePoint/SharePointOnline/let-users-use-configure-syncing-with-the-onedrive-sync-app.md",
       "redirect_url": "sharepoint-sync",
       "redirect_document_id": true
     },
