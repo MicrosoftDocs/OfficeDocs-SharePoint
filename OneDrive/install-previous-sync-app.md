@@ -153,7 +153,7 @@ To install the previous OneDrive for Business sync app with Office 2013, follow 
 
 4. Follow the instructions to complete the installation.
 
-5. If you are asked to provide a license key, enter **3V9N8-W93CC-FQPB8-Y9WVF-TVGJ3**.
+5. If you're asked to provide a license key, enter **3V9N8-W93CC-FQPB8-Y9WVF-TVGJ3**.
 
     > [!NOTE]
     > The OneDrive sync app ships together with two components that are not selected for installation by default. We recommend that you do not change these default settings.

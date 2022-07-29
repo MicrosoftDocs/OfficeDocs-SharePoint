@@ -326,7 +326,7 @@ If you disable or do not configure this setting, users can choose to limit the u
 
 This setting determines whether or not the Sync client can automatically sign in.
 
-If you enable this setting, it prevents Sync from automatically signing with an existing AAD credential that is made available to Microsoft applications.
+If you enable this setting, it prevents Sync from automatically signing with an existing Microsoft Azure Active Directory (Azure AD) credential that is made available to Microsoft applications.
 
 If you disable or do not configure this setting, Sync will automatically sign in.
   
