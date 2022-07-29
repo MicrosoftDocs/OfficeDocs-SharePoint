@@ -18,7 +18,7 @@ description: "Learn how the major certificate actions are logged in the SharePoi
  
 # Certificates administrative action logging
 
-[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
 Major certificate management actions are now logged in the SharePoint Administrative Actions log. The logging actions include:
 
