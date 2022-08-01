@@ -22,9 +22,10 @@ description: "Learn how to prepare for, download, install, and configure softwar
 
 [!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
 
-Microsoft is changing how software updates for SharePoint Server Subscription Edition are packaged starting with the September 2022 public update, which introduces SharePoint Server Subscription Edition Version 22H2. Starting with this software update, Microsoft will no longer release separate core and language pack software updates each month. Instead, Microsoft will release a single software update each month that will contain all of the changes that previously would have been included in those two separate updates. Going forward, customers will only need to install this single software update each month to be fully up to date with the latest security fixes, bug fixes, and new feature experiences.
+Microsoft is changing how software updates for SharePoint Server Subscription Edition are packaged beginning with the September 2022 public update, which introduces SharePoint Server Subscription Edition Version 22H2. In this software update, Microsoft will no longer release separate core and language pack software updates each month. Instead, Microsoft will release a single software update each month that will contain all of the changes that previously would have been included in those two separate updates. Going forward, customers will only need to install this single software update each month to be fully up to date with the latest security fixes, bug fixes, and new feature experiences.
 
-Note: This change doesn't affect how software updates for SharePoint Server 2016 or SharePoint Server 2019 are packaged. Microsoft will continue to release separate core and language pack software updates for SharePoint Server 2016 and SharePoint Server 2019. Customers will need to continue installing the latest version of the core and language pack software updates each month to ensure they’re fully up to date with the latest security fixes, bug fixes, and new feature experiences.
+> [!NOTE]
+> This change doesn't affect how software updates for SharePoint Server 2016 or SharePoint Server 2019 are packaged. Microsoft will continue to release separate core and language pack software updates for SharePoint Server 2016 and SharePoint Server 2019. Customers will need to continue installing the latest version of the core and language pack software updates each month to ensure they’re fully up to date with the latest security fixes, bug fixes, and new feature experiences.
 
 Microsoft periodically releases software updates for SharePoint Server 2016 and 2019. The following articles provide information about the software update process for SharePoint Server 2016 and 2019.
   
@@ -36,7 +37,7 @@ Microsoft periodically releases software updates for SharePoint Server 2016 and 
 |[Install a software update for SharePoint Server 2016](install-a-software-update.md) <br/> |Learn how to install a software update on servers in a SharePoint farm.  <br/> |
 |[Video demo of Zero Downtime Patching in SharePoint Server 2016](video-demo-of-zero-downtime-patching-in-sharepoint-server-2016.md) <br/> |Learn how to patch a software update on servers in a SharePoint farm.  <br/> |   
 |[SharePoint Server 2016 zero downtime patching steps](sharepoint-server-2016-zero-downtime-patching-steps.md) <br/> |Learn the steps to patch a software update on servers in a SharePoint farm.  <br/> |
-|[Video: How to enable Remote Windows PowerShell to use with SharePoint Server](video-how-to-enable-remote-windows-powershell-to-use-with-sharepoint-server.md) <br/> |Learn how to enable remote Powershell to use with servers in a SharePoint farm.  <br/> |
+|[Video: How to enable Remote Windows PowerShell to use with SharePoint Server](video-how-to-enable-remote-windows-powershell-to-use-with-sharepoint-server.md) <br/> |Learn how to enable remote PowerShell to use with servers in a SharePoint farm.  <br/> |
 
 >[!NOTE]
 > The articles above reference SharePoint Server 2016 but the same process is applicable to SharePoint Server 2019.
