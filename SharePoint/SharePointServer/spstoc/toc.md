@@ -164,7 +164,7 @@
 ##### [Upgrade a site collection](../upgrade-and-update/upgrade-a-site-collection.md)
 ##### [Upgrade My Sites](../upgrade-and-update/upgrade-my-sites.md)
 #### [Video: Cleanup of databases after upgrade procedure](../upgrade-and-update/video-cleanup-of-databases-after-upgrade-procedure.md)
-### [Deploy updates for SharePoint Server 2016](../upgrade-and-update/deploy-updates-for-sharepoint-server-2016.md)
+### [Deploy updates for SharePoint Server 2016, 2019, and Subscription Edition](../upgrade-and-update/deploy-updates-for-sharepoint-server-2016.md)
 #### [Software updates overview](../upgrade-and-update/software-updates-overview.md)
 #### [Install a software update](../upgrade-and-update/install-a-software-update.md)
 #### [Video demo of Zero Downtime Patching in SharePoint Server 2016](../upgrade-and-update/video-demo-of-zero-downtime-patching-in-sharepoint-server-2016.md)
