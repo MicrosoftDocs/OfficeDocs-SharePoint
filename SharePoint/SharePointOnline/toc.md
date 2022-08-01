@@ -10,7 +10,7 @@
 
 ## [Get started]()
 
-### [Plan for SharePoint](03-plan-for-sharepoint.md)
+### [Plan for SharePoint and OneDrive](03-plan-for-sharepoint-onedrive.md)
 
 #### [Business requirements](04-business-requirements.md)
 

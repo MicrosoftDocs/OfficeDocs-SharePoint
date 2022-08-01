@@ -1,5 +1,5 @@
 ---
-title: Plan for SharePoint in Microsoft 365
+title: Plan for SharePoint and OneDrive in Microsoft 365
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -16,7 +16,7 @@ search.appverid: MET150
 description: 
 ---
 
-# Plan for SharePoint in Microsoft 365
+# Plan for SharePoint and OneDrive in Microsoft 365
 
 Content storage and collaboration needs
 
