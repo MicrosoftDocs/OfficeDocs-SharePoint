@@ -46,7 +46,7 @@
 
 
 #### [Migrate content](13-rollout-migration.md)
-#### [Pilot program](12-pilot-program.md)
+#### [Pilot program](12-roll-out-sharepoint-onedrive.md)
 
 
 
