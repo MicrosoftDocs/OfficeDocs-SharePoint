@@ -1,5 +1,5 @@
 ---
-title: Identify business requirements for OneDrive and SharePoint
+title: Identify business requirements for SharePoint and OneDrive
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -13,10 +13,10 @@ ms.localizationpriority: medium
 ms.collection:  
 ms.custom: intro-get-started
 search.appverid: MET150
-description: Identify your business requirements for OneDrive and SharePoint as you plan your rollout.
+description: Identify your business requirements for SharePoint and OneDrive as you plan your rollout.
 ---
 
-# Identify business requirements for OneDrive and SharePoint
+# Identify business requirements for SharePoint and OneDrive
 
 
 

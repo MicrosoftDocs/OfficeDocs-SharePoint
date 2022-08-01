@@ -19,6 +19,15 @@ description:
 # 
 
 
+- [Plan for SharePoint and OneDrive in Microsoft 365](plan-for-sharepoint-onedrive.md)
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+
+
 ## Pilot rollout of SharePoint and OneDrive
 
 Rollouts often regional or department-based.
@@ -33,7 +42,7 @@ Rollouts include a pilot in a non-business-critical area, maybe with tech-savvy 
 
 Pilot group should not be client-facing
 
-### Who to includ in the pilot
+### Who to include in the pilot
 
 
 Do you want
