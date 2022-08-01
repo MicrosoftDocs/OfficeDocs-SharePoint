@@ -22,6 +22,9 @@ description: Migration Manager FAQs
 
 # Frequently Asked Questions: Migration Manager
 
+**Question:** Are Tenant to Tenant (T2T) migrations supported in Migration Manager?
+Answer:  No. Microsoft will be offering a solution that will be available sometime in 2023. This will be a premium feature distinct from legacy Mover. In the interim, we recommend using a third-party solution for your M365-to-M365 migration needs.
+
 **Question:** Can I migrate content from SharePoint Server? </br>
 Answer:   At this time, Migration Manager supports the migration of file shares and cloud sources including Google, Dropbox, and Box  It does not support the migration of content from SharePoint Server.  See SPMT (SharePoint Migration Tool) for SharePoint Server migration.
 
