@@ -39,9 +39,9 @@ After configuring the required endpoints and configuring Power Automate, you are
 
    ![Select workflow migration](media/spmt-workflow-select.png)
 
-5. Enter the URL of the SharePoint Server workflow you want to migrate.
+5. Enter the SharePoint Server site URL where your content is located. 
 6. Enter your username and password to the SharePoint Server site; it can be UserID or user email. Select **Sign in**.
-7. Select which workflows to include in the migration. If you select the option for a specific list, you will be prompted for the list name.  Select **Next**.
+7. Select which workflows to include in the migration. If you select the option for a specific list, you will be prompted for the list name.
 
    ![spmt workflow source](media/spmt-workflow-select-source.png)
 
@@ -55,9 +55,8 @@ After configuring the required endpoints and configuring Power Automate, you are
 
     ![Set your workflow settings](media/spmt-workflow-settings.png)
 
-12. Review your migrations.  Select **Add another task** to select another set of files to migrate, or **Next** to submit migration.
-
-
+12. Select **View all settings**, and choose your option under **Handle Unsupported Action**. If you select **Stop workflow migration and report error**, SPMT will report an error on a workflow if it contains unsupported actions. If you do not select this, the unsupported actions are converted to Compose actions during migration. 
+13. Click **Scan** to start scanning if “Only perform scanning” is selected; or click **Migrate** to start migration. 
 
 
 ## Migrate workflows using PowerShell
