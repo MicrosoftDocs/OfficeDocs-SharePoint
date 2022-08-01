@@ -20,7 +20,7 @@ description: "Learn how to prepare for, download, install, and configure softwar
 
 # Deploy software updates for SharePoint Server 2016, 2019, and Subscription Edition
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
 
 Microsoft is changing how software updates for SharePoint Server Subscription Edition are packaged starting with the September 2022 public update, which introduces SharePoint Server Subscription Edition Version 22H2. Starting with this software update, Microsoft will no longer release separate core and language pack software updates each month. Instead, Microsoft will release a single software update each month that will contain all of the changes that previously would have been included in those two separate updates. Going forward, customers will only need to install this single software update each month to be fully up to date with the latest security fixes, bug fixes, and new feature experiences.
 
