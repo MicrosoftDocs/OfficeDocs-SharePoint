@@ -1,5 +1,5 @@
 ---
-title: "Deploy software updates for SharePoint Server 2016 and 2019"
+title: "Deploy software updates for SharePoint Server 2016, 2019, and Subscription Edition"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -18,9 +18,13 @@ ms.assetid: f484f5f2-35bb-4d70-bf56-dd1c4c287c72
 description: "Learn how to prepare for, download, install, and configure software updates and patches for SharePoint Server 2016."
 ---
 
-# Deploy software updates for SharePoint Server 2016 and 2019
+# Deploy software updates for SharePoint Server 2016, 2019, and Subscription Edition
 
 [!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
+
+Microsoft is changing how software updates for SharePoint Server Subscription Edition are packaged starting with the September 2022 public update, which introduces SharePoint Server Subscription Edition Version 22H2. Starting with this software update, Microsoft will no longer release separate core and language pack software updates each month. Instead, Microsoft will release a single software update each month that will contain all of the changes that previously would have been included in those two separate updates. Going forward, customers will only need to install this single software update each month to be fully up to date with the latest security fixes, bug fixes, and new feature experiences.
+
+Note: This change doesn't affect how software updates for SharePoint Server 2016 or SharePoint Server 2019 are packaged. Microsoft will continue to release separate core and language pack software updates for SharePoint Server 2016 and SharePoint Server 2019. Customers will need to continue installing the latest version of the core and language pack software updates each month to ensure they’re fully up to date with the latest security fixes, bug fixes, and new feature experiences.
 
 Microsoft periodically releases software updates for SharePoint Server 2016 and 2019. The following articles provide information about the software update process for SharePoint Server 2016 and 2019.
   
