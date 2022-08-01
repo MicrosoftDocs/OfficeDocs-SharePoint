@@ -1,5 +1,5 @@
 ---
-title: 
+title: Migration planning for SharePoint and OneDrive rollout
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -16,7 +16,7 @@ search.appverid: MET150
 description: 
 ---
 
-# 
+# Migration planning for SharePoint and OneDrive rollout
 
 	migration requirements gathering
 

@@ -19,7 +19,7 @@
 #### [Sites]()
 ##### [Planning hub sites](planning-hub-sites.md)
 
-#### [Migration](06-plan-migration.md)
+#### [Migration](06-plan-rollout-migration.md)
 
 ### [Compliance]()
 
