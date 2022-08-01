@@ -1,5 +1,5 @@
 ---
-title: 
+title: Roll out SharePoint and OneDrive
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -13,18 +13,19 @@ ms.localizationpriority: medium
 ms.collection:  
 ms.custom: intro-get-started
 search.appverid: MET150
-description: 
+description: Learn how to roll out SharePoint and OneDrive in your organization, including how to set up a pilot program.
 ---
 
-# 
+# Roll out SharePoint and OneDrive
 
+Be sure you've reviewed these SharePoint and OneDrive deployment resources before you start your rollout.
 
 - [Plan for SharePoint and OneDrive in Microsoft 365](plan-for-sharepoint-onedrive.md)
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Identify business requirements for SharePoint and OneDrive](business-requirements.md)
+- [Create a compliant SharePoint and OneDrive environment](compliant-environment.md)
+- [Plan sharing and collaboration options in SharePoint and OneDrive](collaboration-options.md)
+- [Migration planning for SharePoint and OneDrive rollout](plan-rollout-migration.md)
+- [Training and change management for rolling out SharePoint and OneDrive](training-change-management.md)
 - []()
 
 

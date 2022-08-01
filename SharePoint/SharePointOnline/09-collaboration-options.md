@@ -1,5 +1,5 @@
 ---
-title: Sharing and collaboration options in SharePoint and OneDrive
+title: Plan sharing and collaboration options in SharePoint and OneDrive
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -16,7 +16,7 @@ search.appverid: MET150
 description: Plan the sharing and collaboration options that you want to implement as part of rolling out SharePoint and OneDrive.
 ---
 
-# Sharing and collaboration options in SharePoint and OneDrive
+# Plan sharing and collaboration options in SharePoint and OneDrive
 
 SharePoint and OneDrive provide a platform for collaboration through file and folder storage and sharing.
 
