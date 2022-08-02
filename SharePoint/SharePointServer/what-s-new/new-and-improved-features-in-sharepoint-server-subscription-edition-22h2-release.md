@@ -59,6 +59,7 @@ Rather than just copying or moving the file, the metadata of the file will be pr
 <a name="server"> </a>
 ### Column formatting enhancement
 
+SharePoint Server Subscription Edition 22H2 enhances the column formatting capabilities of the modern UX by adding suppport for excel-style expressions and also supports Abstract Syntax Tree (AST) expressions.
 
 <a name="core"> </a>
 ### Button webpart
