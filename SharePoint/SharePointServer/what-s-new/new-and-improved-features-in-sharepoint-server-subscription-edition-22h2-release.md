@@ -30,8 +30,8 @@ The following table provides the list of new features and updates to existing fe
 
 |**Feature Group**|**Features**|**More info**|
 |:-----|:-----|:-----|
-|Modern List <br/> | <ul><li>Single uber patch</li><li>Customizable modern suite navigation bar color</li><li>Copy and move improvement in modern document library</li></ul><ul><li>Column formatting enhancement</li></ul><ul><li>Button webpart</li></ul><ul><li>Bulk editing in modern list</li></ul><ul><li>New language picker in modern self-site creation pane</li></ul><ul><li>Early release or standard release|
- 
+|Modern List <br/> | <ul><li>Single uber patch</li><li>Customizable modern suite navigation bar color</li><li>Copy and move improvement in modern document library</li></ul><ul><li>Column formatting enhancement</li></ul><ul><li>Button webpart</li></ul><ul><li>Bulk editing in modern list</li></ul><ul><li>New language picker in modern self-site creation pane</li></ul><ul><li>Early release or standard release|| <ul><li>For more information, see Single uber patch.</li><li>For more information, see Customized modern suits navigation bar color.</li><li>For more information, see Copy and move improvement in modern document library.</li></ul> | 
+
 
 ## Detailed description of features
 
@@ -42,6 +42,7 @@ This section provides detailed descriptions of the new and updated features in S
 <a name="OIDCa"> </a>
 ### Single uber patch
 
+SharePoint Server Subscription Edition 22H2 integrated the STS patch and WSS patch into one uber patch. Customer only needs to utilise the single integrated patch file for upgrading rather than downloading and installing two separate patch files.
 
 <a name="people"> </a>
 ### Customizable modern suite navigation bar color
@@ -53,13 +54,12 @@ This section provides detailed descriptions of the new and updated features in S
 The modern document library supports copying and moving files across document libraries. Previously, the **copy** and **move** operations were only scoped within same document library in the modern document library UX. In the new experience, when a user picks a file or multiple files and triggers a **copy** or **move** operation, the user will have the option to pick a destination outside the current document library. 
 - **Copy** will allow users to pick a destination location in different subsites, in different site collections, and in different web applications. 
 - **Move** will allow users to pick a destination location in different document libraries in the same site.
-Rather than just copying or moving the file, the metadata of the file will be preserved as long as the same term store is used in both the source and destination locations.
-
+If the same term store is used in both the source and destination locations, the metadata of the file will be maintained rather than being copied or moved.
 
 <a name="server"> </a>
 ### Column formatting enhancement
 
-SharePoint Server Subscription Edition 22H2 enhances the column formatting capabilities of the modern UX by adding suppport for excel-style expressions and also supports Abstract Syntax Tree (AST) expressions.
+SharePoint Server Subscription Edition 22H2 enhances the column formatting capabilities of the modern UX by adding suppport for excel-style expressions and also supports Abstract Syntax Tree (AST) expressions.    
 
 <a name="core"> </a>
 ### Button webpart
