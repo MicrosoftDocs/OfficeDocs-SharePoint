@@ -353,7 +353,7 @@ To validate your configuration for displaying search results from OneDrive, you 
     
     Make sure that it's a query that should yield some search results from OneDrive.
     
-2. Press <Enter>, or select the search icon, and then wait for initial search results to appear.
+2. Press \<Enter>, or select the search icon, and then wait for initial search results to appear.
     
 3. After the initial search results appear, select the link for the search vertical for OneDrive that you created earlier in this article.
     

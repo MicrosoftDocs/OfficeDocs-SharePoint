@@ -1,8 +1,8 @@
 ---
-title: "Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store"
+title: Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -11,11 +11,12 @@ f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
+ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
 ms.assetid: 466f3809-fde7-41f2-87f7-77d9fdadfc95
-description: "Learn how to use SharePoint technologies to access data from a SQL Azure database without having to write code."
+description: Learn how to use SharePoint technologies to access data from a SQL Azure database without having to write code.
 ---
 
 # Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store
@@ -93,10 +94,10 @@ Typically, when you create a credentials mapping in Secure Store, you map multip
 
 To create a Secure Store Target Application, follow these steps.
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Secure store**, select **Open**.
     
@@ -129,10 +130,10 @@ To create a Secure Store Target Application, follow these steps.
 
 After you create the Target Application, you are ready to enter the credentials that Secure Store uses to access the external data. To set the credentials, follow these steps
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Secure store**, select **Open**.
   
@@ -156,7 +157,7 @@ To create an ECT, follow these steps.
   
 1. Start Microsoft SharePoint Designer.
     
-2. To open the SharePoint team site at the root collection, select **Open Site**. The URL for the root collection will resemble this example URL: https://tailspintoys.sharepoint.com. SharePoint might display a prompt for valid credentials. 
+2. To open the SharePoint team site at the root collection, select **Open Site**. The URL for the root collection will resemble this example URL: `https://tailspintoys.sharepoint.com`. SharePoint might display a prompt for valid credentials. 
     
     > [!NOTE]
     >  If SharePoint displays a prompt for you to add a new user, ensure the user account you use has sufficient permissions. The user account must be able to make and test BCS changes to the SharePoint site. Typically, a SharePoint or global admin performs these steps. <br> If you want to change to a different user, select **Add a new user**, select **Personal** or **Organization**, sign in to the site as the SharePoint or global admin, and select **Sign In**. 
@@ -189,7 +190,7 @@ To create an ECT, follow these steps.
     - **Name**
     
     > [!IMPORTANT]
-    >  The URL you use to access the database contains the Fully Qualified Server Name. For example, if you access the database via https://aaapbj1mtc.database.windows.net your Fully Qualified Server Name is **aaapbj1mtc.database.windows.net**. > If you log on at a higher level, such as the Management Portal for Microsoft Azure, you can discover the Fully Qualified Server Name. On the portal page, under **Subscriptions**, select the name of your subscription. Then, under **Fully Qualified Server Name**, expand your subscription and the server name. Names of databases appear under each server name. 
+    >  The URL you use to access the database contains the Fully Qualified Server Name. For example, if you access the database via `https://aaapbj1mtc.database.windows.net` your Fully Qualified Server Name is **aaapbj1mtc.database.windows.net**. > If you log on at a higher level, such as the Management Portal for Microsoft Azure, you can discover the Fully Qualified Server Name. On the portal page, under **Subscriptions**, select the name of your subscription. Then, under **Fully Qualified Server Name**, expand your subscription and the server name. Names of databases appear under each server name. 
   
     ![Screenshot of the SQL Server Connection dialog where you can fill in the name of your SQL Azure database server and use Connect with Impersonated Custom ID to enter your Secure Store Application ID.](media/b99c06d1-046e-43c4-984f-c120d746e30a.png)
   
@@ -264,10 +265,10 @@ You can create an External List by using SharePoint Designer, or by adding an Ex
 <a name="__toc350352774"> </a>
 To finish setting up the External List, you have to grant permissions to the people who will use the list. To grant permissions, follow these steps.
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **BCS**, select **Open**.
     

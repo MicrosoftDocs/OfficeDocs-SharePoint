@@ -1,8 +1,8 @@
 ---
 title: "Deploy OneDrive apps using Microsoft Endpoint Configuration Manager"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -15,6 +15,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- onedrive-toc
 search.appverid:
 - MET150
 - ODB160

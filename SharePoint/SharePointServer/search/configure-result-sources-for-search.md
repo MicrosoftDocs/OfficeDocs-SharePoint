@@ -106,27 +106,28 @@ Next:
     
 **On the BASICS tab**
 
-|                     |                                                                                                                                                                                                                                                                                                                                                            |
-| :------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|&nbsp;|&nbsp;|
+|:---|:---|
 | **Keyword filter**  | You can use keyword filters to add pre-defined query variables to the query transform. You can select pre-defined query variables from the drop-down list, and then add them to the query by clicking **Add keyword filter**.  <br/><br/> For an overview of query variables, see [Query variables in SharePoint Server](../technical-reference/query-variables.md). |
-| **Property filter** | You can use property filters to query the content of managed properties that are set to  *queryable*  in the search schema.   <br/><br/> You can select managed properties from the **Property filter** drop-down list. Click **Add property filter** to add the filter to the query.                                                                                 |
+| **Property filter** | You can use property filters to query the content of managed properties that are set to  *queryable*  in the search schema.   <br/><br/> You can select managed properties from the **Property filter** drop-down list. Click **Add property filter** to add the filter to the query.|
    
 **On the SORTING tab**
 
-|                      |                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| :------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|&nbsp;|&nbsp;|
+|:---|:---|
 | **Sort results**     | In the **Sort by** menu, you can select a managed property from the list of managed properties that are set as sortable in the search schema, and then select **Descending** or **Ascending**. To sort by relevance, that is, to use a ranking model, select **Rank**. You can click **Add sort level** to specify a property for a secondary level of sorting for search results. Note that sorting of search results is case-sensitive. |
-| **Ranking Model**    | If you selected  *Rank*  from the **Sort by** list, you can select the ranking model to use for sorting.                                                                                                                                                                                                                                                                                                                                    |
-| **Dynamic ordering** | You can click **Add dynamic ordering rule** to specify additional ranking by adding rules that change the order of results within the result block when certain conditions are satisfied.                                                                                                                                                                                                                                                   |
+| **Ranking Model**    | If you selected  *Rank*  from the **Sort by** list, you can select the ranking model to use for sorting.|
+| **Dynamic ordering** | You can click **Add dynamic ordering rule** to specify additional ranking by adding rules that change the order of results within the result block when certain conditions are satisfied.|
    
+
 **On the TEST tab**
 
-|                                                                                 |                                                                                                                                                    |
-| :------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Query text**                                                                  | You can view the final query text, which is based on the original query template, the applicable query rules, and the variable values.             |
-| Click **Show more** to display the options in the following rows of this table. |                                                                                                                                                    |
-| **Query template**                                                              | You can view the query as it is defined in the **BASICS** tab or in the text box in the **Query transform** section on the Add Result Source page. |
-| **Query template variables**                                                    | You can test the query template by specifying values for the query variables.                                                                      |
+|&nbsp;|&nbsp;|
+|:---|:---|
+| **Query text**| You can view the final query text, which is based on the original query template, the applicable query rules, and the variable values.|
+| Click **Show more** to display the options in the following rows of this table.||
+| **Query template** | You can view the query as it is defined in the **BASICS** tab or in the text box in the **Query transform** section on the Add Result Source page. |
+| **Query template variables** | You can test the query template by specifying values for the query variables.|
    
 Finally, on the **Add Result Source** page, in the **Credentials Information** section, select the authentication type that you want for users to connect to the result source. 
   

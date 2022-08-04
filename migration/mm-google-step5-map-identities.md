@@ -62,11 +62,26 @@ Upload your own users and groups mappings using the M
 >[!Important]
 >Make sure to verify your mappings before uploading the file.  The file will not be validated, and once migration cannot be changed.
 
+### Migrating Google Shared Drives
 
-[**Step 6: Migrate and monitor**](mm-Google-step6-migrate-monitor.md)
+>[!Important]
+>We are not able to read or write permissions to Google Shared Drives, therefore we cannot migrate permissions or membership of Google Shared Drives. 
+>
+>Google Shared Drives do not allow explicit folder-level permissions. Instead, Shared Drive permissions are based on the Shared Drive members.
+>
+>If you are migrating Google Shared Drives, follow the steps below.
+
+**To migrate Google Shared Drives:**
+
+1. Manually gather the membership list of the Google Shared Drive during your migration planning.
+2. Create the destination document library in the appropriate team site of your SharePoint tenant. At this time, we recommend that you re-establish the membership list of the Google Shared Drive on the destination document library in your SharePoint tenant.
+3. Migrate the Google Shared Drive. If you didn't do it in step 2, re-establish the membership list of the Google Shared Drive in the destination document library in your SharePoint tenant.
+
+
+## [**Step 6: Migrate and monitor**](mm-Google-step6-migrate-monitor.md)
 
 
 >[!NOTE]
->Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

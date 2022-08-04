@@ -17,6 +17,7 @@ ms.collection:
 - m365initiative-spsitemanagement
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid:
 - SPO160
 - BSA160
@@ -35,11 +36,10 @@ As a global or SharePoint admin in Microsoft 365, you can let your users create 
   
 ## Manage site creation in the new SharePoint admin center
 
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
    >[!NOTE]
-   > - If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. 
-   > - If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
     
 2. Select **Site creation**.
 
@@ -57,13 +57,14 @@ As a global or SharePoint admin in Microsoft 365, you can let your users create 
 
 
 ## Manage detailed site and subsite creation settings in the classic SharePoint admin center
-Admins in the SharePoint admin center can choose to either enable or disable subsite creation across sites or enable for classic sites only. When disabling subsite creation, not only will the subsite option be hidden from the command bar including classic but also users will not be able to create new subsites directly through a URL or API.  
+
+Admins in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> can choose to either enable or disable subsite creation across sites or enable for classic sites only. When disabling subsite creation, not only will the subsite option be hidden from the command bar including classic but also users will not be able to create new subsites directly through a URL or API.  
 
 > [!NOTE]
 > For info about classifying Microsoft 365 groups, see [Manage Microsoft 365 Groups with PowerShell](/office365/enterprise/manage-office-365-groups-with-powershell).
 
 
-1.  In the left pane of the new SharePoint admin center, select **Settings**. At the bottom of the page, select **classic settings page**. 
+1.  In the left pane of the new SharePoint admin center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings**</a>. At the bottom of the page, select **classic settings page**. 
     
 2. Under **Site Creation**, select to show or hide the **Create site** command.
 

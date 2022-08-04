@@ -25,6 +25,10 @@ description: "Step 6: Migrate and monitor Box migration"
 
 Once have reviewed the accounts, confirmed the destinations, correctly mapped identities, you are ready to migrate.
 
+>[!Important]
+>We strongly recommend that you do not rename or move migrated files before the final migration has been completed.  Doing so will result in files being overwritten.
+
+
 1. Select the accounts to migrate.
 
 ![Select accounts to migrate](media/mm-box-select-to-migrate.png)
@@ -42,6 +46,6 @@ Once have reviewed the accounts, confirmed the destinations, correctly mapped id
 
 
 >[!NOTE]
->Migration Manager Box isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Box isn't available for users of Office 365 operated by 21Vianet in China.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

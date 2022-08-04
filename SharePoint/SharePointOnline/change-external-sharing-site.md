@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
@@ -27,16 +28,16 @@ description: "Learn how global and SharePoint admins can change site-level shari
 
 You must be a global or SharePoint admin in Microsoft 365 to change the sharing settings for a site (previously called a "site collection"). Site owners aren't allowed to change these settings.
   
-The steps in this article apply to team sites, communication sites, and classic sites. To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings). For info about changing your organization-level settings, see [Manage sharing settings](turn-external-sharing-on-or-off.md). To change the settings for Teams private channel sites, you must use [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite).
+The steps in this article apply to team sites, communication sites, and classic sites. To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings). For info about changing your organization-level settings, see [Manage sharing settings](turn-external-sharing-on-or-off.md). To change the settings for Teams private or shared channel sites, you must use [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite).
 
 For detailed information about how to set up guest access for a site, see [Collaborate with guests in a site](/Office365/Enterprise/collaborate-in-a-site).
 
 To change the external sharing setting:
   
-1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the new SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
     > [!NOTE]
-    > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
+    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
     
 2. In the left column, select a site.
 

@@ -11,6 +11,7 @@ f1.keywords:
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
+ms.custom: admindeeplinkSPO
 ms.assetid: 59be233e-be37-4639-b7b4-9059f5bb59ba
 description: "Learn how to import query suggestions in SharePoint Server."
 ---
@@ -43,7 +44,7 @@ Now that you have a query suggestions file, the next task is to import it to Sha
 ## How to import a query suggestions file to SharePoint
 <a name="BKMK_HowToImportQuerySuggestionsFileToSharepointOnline"> </a>
 
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
 
 2. Under **Search**, select **Open**.
   

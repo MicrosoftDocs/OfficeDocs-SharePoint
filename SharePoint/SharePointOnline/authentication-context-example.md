@@ -31,13 +31,20 @@ Authentication contexts are used with sensitivity labels to connect [Azure AD co
 
 ## Requirements
 
-Some apps do not currently work with authentication contexts. If you have Office apps or third party apps, we recommend testing them on a site with authentication context enabled before broadly deploying this feature. Currently, the following apps do *not* work with authentication contexts:
+Some apps do not currently work with authentication contexts. If you have Office apps or third party apps, we recommend testing them on a site with authentication context enabled before broadly deploying this feature. Currently, the following apps and scenarios do *not* work with authentication contexts:
 
 - Older version of Office apps (see the [list of supported versions](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#more-information-about-the-dependencies-for-the-authentication-context-option))
+- Yammer
 - Teams web app
-- Workflows that use Power Apps or Power Automate
+- OneNote app can't be added to channel if the associated SharePoint site has an authentication context
+- Teams private channel won't provision a SharePoint if the main team site has an authentication context
+- Teams channel meeting recording upload fails on sites with an authentication context
+- SharePoint folder renaming in Teams fails if the site has an authentication context
+- Teams webinar scheduling fails if OneDrive has an authentication context
+- Workflows that use Power Apps or Power Automate fails to work for sites with an authentication context
 - Third-party apps
-- The OneDrive sync app won't sync sites with an authentication context.
+- The OneDrive sync app won't sync sites with an authentication context
+- Copy or Move files from Site-A(no policy) to Site-B(with policy) fails
 
 Using authentication context with SharePoint sites requires at least one of the below licenses:
 - Office 365 E5
@@ -101,7 +108,7 @@ To create a conditional access policy
 Next, update a sensitivity label (or create a new one) to use the authentication context.
 
 To update a sensitivity label
-1. In the [Microsoft 365 compliance center](https://compliance.microsoft.com/informationprotection), on the **Information protection** tab, click the label that you want to update and then click **Edit label**.
+1. In the [Microsoft Purview compliance portal](https://compliance.microsoft.com/informationprotection), on the **Information protection** tab, click the label that you want to update and then click **Edit label**.
 
 2. Click **Next** until you are on the **Define protection settings for groups and sites** page.
 

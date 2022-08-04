@@ -53,10 +53,10 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
 >Review your destination CSV file before you upload it to make sure you have entered the values in correctly.  The destination file is not validated, and once you have migrated to these destinations it cannot be undone.
 
 
-[**Step 5: Map identities**](mm-google-step5-map-identities.md)
+## [**Step 5: Map identities**](mm-google-step5-map-identities.md)
 
 
 >[!NOTE]
->Migration Manager Google Workspace isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Google Workspace isn't available for users of Office 365 operated by 21Vianet in China.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

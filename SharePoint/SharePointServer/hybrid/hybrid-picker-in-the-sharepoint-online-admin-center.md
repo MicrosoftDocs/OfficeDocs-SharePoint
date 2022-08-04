@@ -1,5 +1,5 @@
 ---
-title: "Hybrid picker in the SharePoint admin center"
+title: Hybrid picker in the SharePoint admin center
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal

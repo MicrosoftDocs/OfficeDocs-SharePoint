@@ -28,9 +28,9 @@ A user's Microsoft OneDrive experience stores information to help the user find 
 
 An admin can export these lists by using [PnP PowerShell](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets) and [SharePoint Client-Side Object Model (CSOM)](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) commands in this article. All of the needed CSOM assemblies are included in the SharePointPnPPowerShellOnline Microsoft PowerShell module.
 
-This is a sample script and can be adapted to meet your organization’s needs. For example, an admin can extract the information for user1@contoso.com by using the following procedure.
+This is a sample script and can be adapted to meet your organization's needs. For example, an admin can extract the information for user1@contoso.com by using the following procedure.
 
-1.	Assign yourself admin permissions to the user's OneDrive account. This can be done [in the Microsoft 365 admin center](/office365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data).
+1. Assign yourself admin permissions to the user's OneDrive account. This can be done [in the Microsoft 365 admin center](/office365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data).
 
 2.  Install the required Microsoft PowerShell modules:
 
@@ -38,7 +38,7 @@ This is a sample script and can be adapted to meet your organization’s needs. 
 
     `Install-Module CredentialManager`
 
-3.	Run the ExportODBLists PowerShell script below (or a customize version of the script):
+3. Run the ExportODBLists PowerShell script below (or a customize version of the script):
 
     `$ODBSite = "https://contoso-my.sharepoint.com/personal/user1_contoso_com"`
 
@@ -138,7 +138,7 @@ try{
     $ctx.executeQuery()
 }
 catch{
-	write-host "$($_.Exception.Message)" -foregroundcolor red
+    write-host "$($_.Exception.Message)" -foregroundcolor red
 }
 
 
@@ -151,7 +151,7 @@ foreach($list in $lists)
     $ctx.executeQuery()
     $listTitle = [string]$list.Title
     $listRoot = $list.RootFolder.Name
-    
+
     Write-host ("Processing List: " + $list.Title + " with " + $list.ItemCount + " items").ToUpper() -ForegroundColor Yellow
     Write-host (">> List Root Folder: " + $listRoot) -ForegroundColor Yellow
 
@@ -215,21 +215,21 @@ function exportList
     Write-Host (">> File location: $exportFile") -ForegroundColor Green
 
     #Get the list items
-	$list = $lists.GetByTitle($listTitle)
-	$listItems = $list.GetItems([Microsoft.SharePoint.Client.CamlQuery]::CreateAllItemsQuery())
+    $list = $lists.GetByTitle($listTitle)
+    $listItems = $list.GetItems([Microsoft.SharePoint.Client.CamlQuery]::CreateAllItemsQuery())
     $fieldColl = $list.Fields
-	$ctx.load($listItems)
+    $ctx.load($listItems)
     $ctx.load($fieldColl)
-	$ctx.executeQuery()
-    
+    $ctx.executeQuery()
+
     if ($listFields) #if you're passing a specific set of fields, in a specific order, process those
     {
-         #Array to Hold List Items 
-         $listItemCollection = @() 
+         #Array to Hold List Items
+         $listItemCollection = @()
          #Fetch each list item value to export to excel
          foreach($item in $listItems)
          {
-            $exportItem = New-Object PSObject 
+            $exportItem = New-Object PSObject
 
             Foreach ($field in $listFields)
             {
@@ -247,7 +247,7 @@ function exportList
                         }
                         else
                         {
-                            $fieldValue = $item[$field]   
+                            $fieldValue = $item[$field]
                         }
                     }
                     $exportItem | Add-Member -MemberType NoteProperty -name $field -value $fieldValue
@@ -260,12 +260,12 @@ function exportList
     }
     else #export all fields for the list
     {
-         #Array to Hold List Items 
-         $listItemCollection = @() 
+         #Array to Hold List Items
+         $listItemCollection = @()
          #Fetch each list item value to export to excel
          foreach($item in $listItems)
          {
-            $exportItem = New-Object PSObject 
+            $exportItem = New-Object PSObject
             Foreach($field in $fieldColl)
             {
                     if($NULL -ne $item[$field.InternalName])
@@ -282,7 +282,7 @@ function exportList
                         }
                         else
                         {
-                            $fieldValue = $item[$field.InternalName]   
+                            $fieldValue = $item[$field.InternalName]
                         }
                     }
                     $exportItem | Add-Member -MemberType NoteProperty -name $field.InternalName -value $fieldValue
@@ -293,7 +293,7 @@ function exportList
         #Export the result Array to CSV file
         $listItemCollection | Export-CSV $exportFile -NoTypeInformation
     }
-    
+
 }
 
 #export the lists
@@ -318,5 +318,5 @@ foreach ($list in $listsToExport)
      {
          exportList -listTitle $list["listTitle"] -listFields $list["listFields"] -exportFile $filepath
      }
-} 
+}
 ```

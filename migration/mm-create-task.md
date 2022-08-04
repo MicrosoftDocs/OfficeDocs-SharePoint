@@ -15,19 +15,20 @@ ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - SPMigration
+ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Create a task in Migration Manager
 ---
 
 # Create a task in Migration Manager
 
-After an agent is configured, anyone with the permission to go into the SharePoint Admin center can create tasks. The tasks will be automatically distributed to one of the configured agents.
+After an agent is configured, anyone with the permission to go into the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> can create tasks. The tasks will be automatically distributed to one of the configured agents.
 
 
 
 ## Create a new task
 
-1. Go to the [Migration Manager page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 2. Enter the username and password that has access to all content of the file shares you will be migration.
 3. Select Add Task.
 4. Add a source.

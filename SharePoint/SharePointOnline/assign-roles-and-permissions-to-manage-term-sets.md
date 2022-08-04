@@ -12,6 +12,7 @@ ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:  
 - M365-collaboration
+ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
 - OSU150
@@ -40,14 +41,13 @@ When you set up a term set, you can designate a group or a person as an Owner, C
 
 ## Add term store admins
   
-1. In the SharePoint admin center, under **Content services**, click **Term store**.
+1. In the SharePoint admin center, under **Content services**, select <a href="https://go.microsoft.com/fwlink/?linkid=2185073" target="_blank">**Term store**</a>.
     
 2. In the tree view pane on the left, select the taxonomy.
     
 3. In the **Term store** page, for **Admins**, select **Edit**. The **Edit term store admin** panel appears. Enter the names or email addresses of the people who you want to add as term store admins. Select **Save**.
     
 ## Add group managers
-<a name="__toc332890716"> </a>
 
 A group manager can do these tasks:
   
@@ -60,7 +60,7 @@ A group manager can do these tasks:
   
 To add a group manager:
   
-1. In the SharePoint admin center, under **Content services**, click **Term store**.
+1. In the SharePoint admin center, under **Content services**, select <a href="https://go.microsoft.com/fwlink/?linkid=2185073" target="_blank">**Term store**</a>.
 
 2. In the tree view pane on the left, select the Group for which you want to add a Group Manager. 
     
@@ -70,20 +70,18 @@ To add a group manager:
     
     
 ## Add contributors
-<a name="__toc332890717"> </a>
 
 A contributor can create or change a term set.
   
 You must be either a term store admin or a group manager of a specific group to add contributors to that group.
   
-1. In the SharePoint admin center, under **Content services**, click **Term store**.
+1. In the SharePoint admin center, under **Content services**, select <a href="https://go.microsoft.com/fwlink/?linkid=2185073" target="_blank">**Term store**</a>.
 
 2. In the tree view pane on the left, select the Group to which you want to add a Contributor. 
     
 3. For **Contributors**, set and assign users to the group manager and contributor role, select **Edit**. The **Edit contributors** panel appears. Enter the names or email addresses of the people who you want to add as Contributors. Select **Save**. 
 
 ## Metadata tasks that site users can perform
-<a name="__toc332890714"> </a>
 
 Site users who do not have an assigned role in the term store can use terms and terms sets in other ways. 
   
