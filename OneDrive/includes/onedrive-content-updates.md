@@ -2,6 +2,14 @@
 
 
 
+## Week of July 25, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/29/2022 | [Use OneDrive policies to control sync settings](/OneDrive/use-group-policy) | modified |
+
+
 ## Week of July 18, 2022
 
 

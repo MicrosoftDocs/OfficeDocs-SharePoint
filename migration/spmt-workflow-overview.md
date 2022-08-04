@@ -40,7 +40,7 @@ Using the SharePoint Migration Tool (SPMT), you can now migrate these workflows 
 > Workflows created with  SharePoint Server Designer 2013 or SharePoint Server 2013 are currently not supported.
 
 
-## How does it work?
+## Steps
 
 |Step|What happens|
 |:-----|:-----|
@@ -51,8 +51,6 @@ Using the SharePoint Migration Tool (SPMT), you can now migrate these workflows 
 
 ## Get started
 
-To get started:
-
 Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 Make sure that you have:
@@ -61,6 +59,15 @@ Make sure that you have:
 - **Access to the source**: Have SharePoint Server account credentials that have read access to any workflow you plan to migrate.
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
 
-## Re-run migration 
+## General process
 
+- **Scan workflow**
+Workflow scans generate a report that lets you review your workflow inventory and plan the migration. Select “Only perform scanning” on the Choose your settings page to start a scan.
+</br>
+
+- **Migrate workflow**
+Review your scan and determining you are ready to migrate your SharePoint Server workflows. Choose to either use SPMT to step you through the process or use the PowerShell method.
+</br>
+
+- **Re-run migration** 
 SPMT will skip a workflow if it has already been successfully migrated. If you want to run a new migration to override the migrated flow, delete it from the destination before starting the migration.
