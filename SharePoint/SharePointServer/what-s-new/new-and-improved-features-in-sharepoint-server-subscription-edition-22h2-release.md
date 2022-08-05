@@ -28,9 +28,9 @@ Learn about the new features and updates to existing features in SharePoint Serv
 
 The following table provides the list of new features and updates to existing features in SharePoint Server Subscription Edition 22H2.
 
-|**Feature Group**|**Features**|**More info**|
+|**Feature Group**| **Features** | **More info** |
 |:-----|:-----|:-----|
-|Modern List <br/> | <ul><li>Single uber patch</li><li>Customizable modern suite navigation bar color</li><li>Copy and move improvement in modern document library</li></ul><ul><li>Column formatting enhancement</li></ul><ul><li>Button webpart</li></ul><ul><li>Bulk editing in modern list</li></ul><ul><li>New language picker in modern self-site creation pane</li></ul><ul><li>Early release or standard release|| <ul><li>For more information, see Single uber patch.</li><li>For more information, see Customized modern suits navigation bar color.</li><li>For more information, see Copy and move improvement in modern document library.</li></ul> | 
+|Modern List <br/> | <ul><li>Single uber patch</li><li>Customizable modern suite navigation bar color</li><li>Copy and move improvement in modern document library</li></ul><ul><li>Column formatting enhancement</li></ul><ul><li>Button webpart</li></ul><ul><li>Bulk editing in modern list</li></ul><ul><li>New language picker in modern self-site creation pane</li></ul><ul><li>Early release or standard release| <ul><li>For more information, see Single uber patch.</li><li>For more information, see Customized modern suits navigation bar color.</li><li>For more information, see Copy and move improvement in modern document library.</li></ul> | 
 
 
 ## Detailed description of features
@@ -42,7 +42,7 @@ This section provides detailed descriptions of the new and updated features in S
 <a name="OIDCa"> </a>
 ### Single uber patch
 
-SharePoint Server Subscription Edition 22H2 integrated the STS patch and WSS patch into one uber patch. Customer only needs to utilise the single integrated patch file for upgrading rather than downloading and installing two separate patch files.
+SharePoint Server Subscription Edition 22H2 integrates the STS patch and WSS patch into one uber patch. Customer only needs to utilise the single integrated patch file for upgrading rather than downloading and installing two separate patch files.
 
 <a name="people"> </a>
 ### Customizable modern suite navigation bar color
