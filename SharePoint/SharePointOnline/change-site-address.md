@@ -17,6 +17,7 @@ ms.collection:
 - m365initiative-spsitemanagement
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid:
 - SPO160
 - MOE150
@@ -38,8 +39,10 @@ As a global or SharePoint admin in your organization, you can change the URL for
 - Communication sites
 - Classic team sites
 
-> [!NOTE]
-> If the Publishing feature is currently activated or was previously activated for the site, then changing the site address is unsupported.
+Changing the site address is not supported in the following situations:
+
+- The Publishing feature is currently activated or was previously activated for the site.
+- The site contains more than 15 million documents.
 
 You can change only the address of the site within the URL, for example:
 
@@ -65,11 +68,9 @@ Before you change the address of a site, it's important to communicate the chang
 
 ## Change a site address in the new SharePoint admin center
 
-1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the new SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
    > [!NOTE]
-   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page.
-   > 
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
 2. To open the details pane, select the site name.

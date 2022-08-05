@@ -1,8 +1,8 @@
 ---
-title: "Manage Business Connectivity Service Applications"
+title: Manage Business Connectivity Service Applications
 ms.reviewer: abloesch
-ms.author: serdars
-author: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -13,16 +13,17 @@ ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:  
 - M365-collaboration
+ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
 ms.assetid: 2ced10aa-db9a-4828-a7a5-e47a57c3a823
-description: "Learn how to create BCS connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site"
+description: Learn how to create BCS connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site.
 ---
 
 # Manage Business Connectivity Service Applications
 
-In SharePoint in Microsoft 365, you can create Business Connectivity Services (BCS) connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site. Once you've created these connections, you can manage or edit BCS information in the SharePoint admin center. Microsoft SharePoint uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. See also [Deploy a Business Connectivity Services hybrid solution in SharePoint](../SharePointServer/hybrid/deploy-a-business-connectivity-services-hybrid-solution.md).
+In SharePoint in Microsoft 365, you can create Business Connectivity Services (BCS) connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site. Once you've created these connections, you can manage or edit BCS information in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. Microsoft SharePoint uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. See also [Deploy a Business Connectivity Services hybrid solution in SharePoint](../SharePointServer/hybrid/deploy-a-business-connectivity-services-hybrid-solution.md).
   
 ## Manage BCS permissions
 <a name="__toc338059706"> </a>
@@ -42,10 +43,10 @@ Object permissions apply only to a specific External System, BDC Model, or Exter
   
 To set object permissions for an object, follow these steps.
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **BCS**, select **Open**.
   
@@ -81,7 +82,7 @@ Metadata Store permissions apply to many objects, such as BDC Models, ECTs, and 
   
 To set Metadata Store permissions, follow these steps.
 
-1. In the left pane of the new SharePoint admin center, select **More features**.
+1. In the left pane of the new SharePoint admin center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features**</a>.
  
 2. Under **BCS**, select **Open**.
 
@@ -125,7 +126,7 @@ Imported permissions for a BDC Model are added to the store of existing permissi
   
 To import a BDC Model, follow these steps:
   
-1. In the left pane of the new SharePoint admin center, select **More features**.
+1. In the left pane of the new SharePoint admin center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features**</a>.
  
 2. Under **BCS**, select **Open**.
     
@@ -158,7 +159,7 @@ You can export a BDC Model and then read its contents to determine differences b
   
 To export a BDC Model or Resource file, follow these steps:
    
-1. In the left pane of the new SharePoint admin center, select **More features**.
+1. In the left pane of the new SharePoint admin center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features**</a>.
  
 2. Under **BCS**, select **Open**.
     
@@ -211,7 +212,7 @@ To add an action to an ECT, follow these steps.
 6. In the URL field, for the action you want to open, enter the URL.
     
     > [!NOTE]
-    >  Under the control, you can find an example URL. The example shows how to add one (or more) parameter place-holders such as {0}, or {1} (http://www.adventure-works.com/sample.aspx?p0={0}&amp;p1={1} ). 
+    >  Under the control, you can find an example URL. The example shows how to add one (or more) parameter place-holders such as {0}, or {1} (`http://www.adventure-works.com/sample.aspx?p0={0}&amp;p1={1}` ). 
   
 7. If you want web parts on the site to be able to use this new action, select one of the following options:
     

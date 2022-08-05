@@ -64,7 +64,7 @@ The following table summarizes the support levels of typically used web browsers
 |Microsoft Edge (Chromium) <br/> |X  <br/> ||
 |Microsoft Edge (EdgeHTML - Legacy) <br/> |X  <br/> ||
 |Internet Explorer 11  <br/> |X  <br/> ||
-|Internet Explorer 10  <br/> ||X  <br/> ||
+|Internet Explorer 10  <br/> ||X  <br/> |
 |Internet Explorer 9  <br/> ||X  <br/> |
 |Internet Explorer 8  <br/> ||X  <br/> |
 |Internet Explorer 7  <br/> ||X  <br/> |
@@ -92,9 +92,8 @@ Some functionality in SharePoint Server requires ActiveX controls. This produces
 
 For SharePoint Server 2016 and 2019, browsers other than Internet Explorer 11 have the following limitations.
   
-||||||
+|Plugin name |DLL file name |What it does | &nbsp; |Known limitations |
 |:-----|:-----|:-----|:-----|:-----|
-|**Plugin name** <br/> |**DLL file name** <br/> |**What it does** <br/> | |**Known limitations** <br/> |
 |Digital Signature  <br/> |Dsigctrl.dll, dsigres.dll  <br/> | Digital signing takes place in both the InfoPath client and on the InfoPath Forms Services server. Make sure that the following conditions exist:  <br/>  Forms that are signed on the client can be verified on the server.  <br/>  Forms that are signed on the server can be verified on the client.  <br/> | <br/> |An inability to verify a form produces an error that states that the form cannot be signed.  <br/> |
 |NameCtrl  <br/> |Name.dll  <br/> |Enables a webpage to display a contact card and presence status for people. Integrates through client-side APIs with Office client and Skype for Business client.  <br/> | ||
 |TaskLauncher  <br/> |Nameext.dll  <br/> |Used to export items in a task list to Project Server if Project client is installed on the client computer.  <br/> | |If software requirements are not met, an error message states that you need to install Project client.  <br/> |

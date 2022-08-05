@@ -31,11 +31,11 @@ A third option, if you're using Microsoft 365, is to use [hybrid profiles](../hy
   
 Which option is right for you?
   
-|||||
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|
 ||**Microsoft Identity Manager 2016** <br/> |**Active Directory Import** <br/> |**Hybrid profiles** <br/> |
-|Pros  <br/> | Supports customized import.  <br/>  Supports bidirectional flow.  <br/>  Imports user profile photos automatically.  <br/>  Supports non-Active Directory LDAP sources.  <br/>  Supports multi-forest scenarios.  <br/> | Very fast, high performance.  <br/>  Configurable inside of Central Administration. (Less complex.)  <br/> | Single profile for users who use both SharePoint Server and SharePoint in Microsoft 365.  <br/>  Can include Delve, depending on your Office 365 configuration.  <br/> |
-|Cons  <br/> | A separate MIM server is recommended for use with your SharePoint Server farm.  <br/>  Customization can lead to more complex architecture, deployment, and management.  <br/> | Import is unidirectional (changes go from AD DS to SharePoint Server).  <br/>  Import from a single Active Directory forest only.  <br/>  Does not import user photos automatically.  <br/>  Supports Active Directory LDAP only.  <br/>  Multi-forest scenarios are not supported.  <br/> | Can require a custom solution to move on-premises properties to Microsoft 365.  <br/> |
+|**Pros**  <br/> | Supports customized import.  <br/>  Supports bidirectional flow.  <br/>  Imports user profile photos automatically.  <br/>  Supports non-Active Directory LDAP sources.  <br/>  Supports multi-forest scenarios.  <br/> | Very fast, high performance.  <br/>  Configurable inside of Central Administration. (Less complex.)  <br/> | Single profile for users who use both SharePoint Server and SharePoint in Microsoft 365.  <br/>  Can include Delve, depending on your Office 365 configuration.  <br/> |
+|**Cons**  <br/> | A separate MIM server is recommended for use with your SharePoint Server farm.  <br/>  Customization can lead to more complex architecture, deployment, and management.  <br/> | Import is unidirectional (changes go from AD DS to SharePoint Server).  <br/>  Import from a single Active Directory forest only.  <br/>  Does not import user photos automatically.  <br/>  Supports Active Directory LDAP only.  <br/>  Multi-forest scenarios are not supported.  <br/> | Can require a custom solution to move on-premises properties to Microsoft 365.  <br/> |
    
 These three options are mutually exclusive. Each is further described in the following sections.
   
@@ -65,9 +65,9 @@ If you need capabilities that go beyond what SharePoint Active Directory Import 
   
 To learn how to configure MIM for use with SharePoint Server 2016, see the following resources:
   
-- [Install Microsoft Identity Manager for User Profiles in SharePoint Server 2016](install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server-2016.md)
+- [Install Microsoft Identity Manager for User Profiles in SharePoint Server](install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server.md)
     
-- [Use a sample MIM solution in SharePoint Server 2016](use-a-sample-mim-solution-in-sharepoint-server-2016.md)
+- [Use a sample MIM solution in SharePoint Server](use-a-sample-mim-solution-in-sharepoint-server.md)
     
 ### Hybrid profiles
 <a name="MIM"> </a>

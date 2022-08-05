@@ -1,5 +1,5 @@
 ---
-title: "Configure cloud hybrid search - roadmap"
+title: Configure cloud hybrid search - roadmap
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -21,7 +21,7 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: 0bba350d-ec33-43db-a873-930559c78dee
-description: "Learn how to configure cloud hybrid search for SharePoint Server by setting up a cloud Search service application in your SharePoint Server environment and connecting it to your search index in Office 365."
+description: Learn how to configure cloud hybrid search for SharePoint Server by setting up a cloud Search service application in your SharePoint Server environment and connecting it to your search index in Office 365.
 ---
 
 # Configure cloud hybrid search - roadmap
@@ -118,7 +118,7 @@ To create a cloud SSA by running the **CreateCloudSSA.ps1** PowerShell script, f
 > [!NOTE]
 > When you installed SharePoint Server, the user account from which you ran the installation was granted the appropriate permissions to run Windows PowerShell cmdlets. 
   
-On the application server that hosts the SharePoint ServerCentral Administration website , follow these steps:
+On the application server that hosts the SharePoint ServerCentral Administration website, follow these steps:
   
 1. Make sure you're using the same user account as when you installed SharePoint Server. This account is granted the appropriate permissions to run Window Powershell cmdlets.
     
@@ -170,13 +170,13 @@ On the application server that hosts the SharePoint ServerCentral Administration
     
 4. Download the [OnBoard-CloudHybridSearch.ps1](https://go.microsoft.com/fwlink/?LinkId=717902) PowerShell script from the Microsoft Download Center.
     
-5. If your environment is Microsoft 365 Apps for business, Office 365 Enterprise, Office 365 Education, Office 365 operated by 21Vianet, Office 365 Germany, or Office 365 US Government Defense, open an elevated PowerShell prompt, and run the **OnBoard-CloudHybridSearch.ps1** PowerShell script as follows: 
+5. If your environment is Microsoft 365 Apps for business, Office 365 Enterprise, Office 365 Education, Office 365 operated by 21Vianet, or Office 365 US Government Defense, open an elevated PowerShell prompt, and run the **OnBoard-CloudHybridSearch.ps1** PowerShell script as follows: 
     
-   ```
+   ```powershell
    Import-Module MSOnline
    ```
 
-   ```
+   ```powershell
    .\OnBoard-CloudHybridSearch.ps1 -PortalUrl <SPOTenantPortalUrl> -CloudSsaId <CloudSSANameCreatd>
    ```
 
@@ -184,11 +184,11 @@ On the application server that hosts the SharePoint ServerCentral Administration
     
 6. If your environment is Office 365 US Government Communication, open an elevated PowerShell prompt, and run the **OnBoard-CloudHybridSearch.ps1** PowerShell script as follows: 
      
-   ```
+   ```powershell
    Import-Module MSOnline
    ```
 
-   ```
+   ```powershell
    .\OnBoard-CloudHybridSearch.ps1 -PortalUrl <SPOTenantPortalUrl> -CloudSsaId <CloudSSANameCreatd> -IsPortalForUSGovernment $true
    ```
 
@@ -321,7 +321,7 @@ You might find this guidance useful:
     
 After setting up and validating the planned search experiences, you might want to clear your search index in Office 365 for metadata from the on-premises content you've used during this work. This works differently from what you might be familiar with from SharePoint Server.
   
-In the SharePoint Central Administration website you can use the option "Index reset" for an SSA to remove all content from the search index. This option does not work for cloud hybrid search because there is no direct communication between the cloud SSA in SharePoint Server and the search index in Office 365. If you only want to remove some on-premises metadata, remove that on-premises content source, or create a crawl rule that doesn't crawl the URL of a file. If you need to remove all metadata from on-premises content from the search index in Office 365, open a ticket with [Microsoft Support](https://support.microsoft.com/assistedsupportproducts).
+In the SharePoint Central Administration website you can use the option "Index reset" for an SSA to remove all content from the search index. This option does not work for cloud hybrid search because there is no direct communication between the cloud SSA in SharePoint Server and the search index in Office 365. If you only want to remove some on-premises metadata, remove that on-premises content source, or create a crawl rule that doesn't crawl the URL of a file. If you need to remove all metadata from on-premises content from the search index in Office 365, open a ticket with [Microsoft Support](https://support.microsoft.com/).
 
 ## Proxy Considerations
 <a name="BKMK_SearchProxy"> </a>

@@ -11,6 +11,7 @@ f1.keywords:
 ms.topic: overview
 ms.service: sharepoint-online
 ms.localizationpriority: medium
+ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
 - MOE150
@@ -44,21 +45,20 @@ The Delve app is also enabled for modern authentication. For more info, see [How
 ## Control access to Delve
 <a name="BKMK_DelveOnOff"> </a>
 
-You control access to Delve from the SharePoint admin center. By default, users in your organization have access to Delve. Users can limit their Delve experience to only show profile information by turning off **Show documents in Delve** under **Settings** > **Feature settings** in Delve. As an admin, you can also remove documents from Delve through the item insights privacy settings.
+You control access to Delve from the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. By default, users in your organization have access to Delve. Users can limit their Delve experience to only show profile information by turning off **Show documents in Delve** under **Settings** > **Feature settings** in Delve. As an admin, you can also remove documents from Delve through the item insights privacy settings.
 
 For more info on item insights privacy settings, see [Customizing item insights privacy in Microsoft Graph (preview)](/graph/insights-customize-item-insights-privacy).
 
-For more info on disabling Delve, see [What is the effect of enabling or disabling Delve](/sharepoint/delve-for-office-365-admins#BKMK_EffectOfficegraphOnOff).
+For more info on disabling Delve, see [What is the effect of enabling or disabling Delve](/sharepoint/delve-for-office-365-admins#BKMK_EffectOfficegraphOnOff).
   
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
     > [!NOTE]
-    > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the **Settings** page. <br>
     > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **Settings** page.
  
 2. At the bottom of the page, select **classic settings page**.
     
-3.  Under **Delve**, select one of the following:
+3. Under **Delve**, select one of the following:
     
     - **Enable Delve**
     
@@ -118,10 +118,10 @@ There are a few things you should check if one or more users in your organizatio
  **Check that you allow your organization to access Delve**
 <a name="BKMK_OfficeGraphAccess"></a>
   
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
     > [!NOTE]
-    > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
+    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
  
 2. At the bottom of the page, select **classic settings page**.
 
@@ -136,7 +136,7 @@ There are a few things you should check if one or more users in your organizatio
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
     
     > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.
+    > If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.
     
 2. In the left pane, select **Billing** \> **Products &amp; services**.
     
@@ -158,7 +158,7 @@ There are a few things you should check if one or more users in your organizatio
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
     
     > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.
+    > If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.
     
 2. Select **Users** \> **Active users**.
     
@@ -259,12 +259,12 @@ Any document that a user can view or edit in Microsoft 365, can also appear in D
 ### What is the effect of enabling or disabling Delve?
 <a name="BKMK_EffectOfficegraphOnOff"> </a>
 
-Changing the Delve setting in the SharePoint admin center will enable or disable the full Delve experience for all users in the tenant. If Delve is enabled, users in your organization will have Delve in the app launcher and they can use all the functionality in Delve. Selecting a person in Delve will open that person's page. The person page contains user profile information such as contact information and org chart details, and also documents relating to the person. 
+Changing the Delve setting in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> will enable or disable the full Delve experience for all users in the tenant. If Delve is enabled, users in your organization will have Delve in the app launcher and they can use all the functionality in Delve. Selecting a person in Delve will open that person's page. The person page contains user profile information such as contact information and org chart details, and also documents relating to the person. 
 
-If you choose to disable Delve for your organization, Delve will be removed from the app launcher for all users. When users visit a person's page, for example by clicking on a person in OneDrive, that person's page will contain only user profile information. No documents will be shown. Users can still search for other people, but not for documents or boards.
+If you choose to disable Delve for your organization, Delve will be removed from the app launcher for all users. When users visit a person's page, for example by clicking on a person in OneDrive, that person's page will contain only user profile information. No documents will be shown. Users can still search for other people, but not for documents or boards. If the Delve setting is disabled, users will not see the frequent sites and suggested sites in the SharePoint start page.
 
 > [!NOTE]
-> Disabling Delve does no longer disable *Microsoft Graph* or insights services generated on top of it. This level of control is now available from the item insights privacy settings. For more info about the item insights settings, see [Customizing item insights privacy in Microsoft Graph](/graph/insights-customize-item-insights-privacy). For more info about Microsoft Graph, see [Overview of Microsoft Graph](/graph/overview).
+> Disabling Delve does no longer disable *Microsoft Graph* or insights services generated on top of it. This level of control is now available from the item insights privacy settings. For more info about the item insights settings, see [Customizing item insights privacy in Microsoft Graph](/graph/insights-customize-item-insights-privacy). For more info about Microsoft Graph, see [Overview of Microsoft Graph](/graph/overview).
 
 ## Additional resources
 <a name="BKMK_DelveAdditionalResources"> </a>
@@ -288,8 +288,6 @@ Admins
 - [User Account Management](/office365/servicedescriptions/office-365-platform-service-description/user-account-management)
 
 - [Directory synchronization roadmap](/azure/active-directory/hybrid/whatis-hybrid-identity)
-
-- [Manage your Microsoft 365 Video portal](https://support.office.com/article/c059465b-eba9-44e1-b8c7-8ff7793ff5da)
 
 - [Yammer - Admin Help](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
 

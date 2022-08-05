@@ -9,9 +9,10 @@ audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
-ms.collection:  
+ms.collection:
 - Strat_SP_admin
 - M365-collaboration
+ms.custom: admindeeplinkSPO
 ROBOTS: NOINDEX
 search.appverid:
 - SPO160
@@ -22,7 +23,7 @@ description: "Learn how to modernize classic team sites by enabling the communic
 ---
 
 # Enable the communication site experience on classic team sites
-A SharePoint [communication site](https://support.office.com/en-us/article/94a33429-e580-45c3-a090-5512a8070732) is a great tool for sharing information with others in your organization. Your users can share news, reports, statuses, and other information in a visually compelling format. Now, any classic team site can have this capability too. By running a PowerShell cmdlet, you can bring modern communication site features to your classic team sites. 
+A SharePoint [communication site](https://support.office.com/en-us/article/94a33429-e580-45c3-a090-5512a8070732) is a great tool for sharing information with others in your organization. Your users can share news, reports, statuses, and other information in a visually compelling format. Now, any classic team site can have this capability too. By running a PowerShell cmdlet, you can bring modern communication site features to your classic team sites.
 
 ## Requirements
 
@@ -33,7 +34,7 @@ A SharePoint [communication site](https://support.office.com/en-us/article/94a33
 
 ## Effects of this change
 
-- A new modern page is created in the site and set as the home page. Open the site in a new tab to see the changes. 
+- A new modern page is created in the site and set as the home page. Open the site in a new tab to see the changes.
 - Any user that has access to the site will see the new home page with the default web parts and content immediately. Until you're ready to launch the new communication site experience, you can change the home page back to the former page.
 - Full width pages with horizontal navigation are available. (The top navigation from classic view is hidden, but can be seen on classic pages like the site settings page.) You can now [customize the navigation](https://support.office.com/article/Customize-the-navigation-on-your-SharePoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) on this site.
 - [Custom script](allow-or-prevent-custom-script.md) isn't allowed on the site.
@@ -42,7 +43,7 @@ A SharePoint [communication site](https://support.office.com/en-us/article/94a33
 - No site permissions are changed.
 - The SharePoint lists and libraries experience isn't changed.
 - Any content types enabled in the site aren't changed.
-- If the classic site collection had subsites, they aren't changed. 
+- If the classic site collection had subsites, they aren't changed.
 - If you intend to launch this site as a high traffic portal experience or share the site with a large number of users, make sure to follow the [portal launch guidelines](portal-health.md).
 
 ## Run the PowerShell cmdlet
@@ -57,7 +58,7 @@ You can use either the SharePoint Online Management Shell **OR** SharePoint PnP 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251). Version 20122.1200 or later is required.
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
 2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
@@ -67,7 +68,7 @@ You can use either the SharePoint Online Management Shell **OR** SharePoint PnP 
     Enable-SPOCommSite -SiteUrl <URL of target site>
     ```
 
-For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sharepoint-online/Enable-SPOCommSite). 
+For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sharepoint-online/Enable-SPOCommSite).
 
 ### Site admin instructions
 
@@ -88,7 +89,7 @@ For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sha
 
 **Will this cmdlet change the site template?**
 
-- No. The cmdlet enables communication site features, but the site still has the STS#0 site template. The site will continue to appear as "Team site (classic experience)" in the SharePoint admin center.
+- No. The cmdlet enables communication site features, but the site still has the STS#0 site template. The site will continue to appear as "Team site (classic experience)" in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>.
 
 **Why can't I use this cmdlet on publishing sites?**
 
@@ -102,58 +103,58 @@ For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sha
 
 ```PowerShell
 function Get-CommsiteEnabledSites{
- 
-    $adminUrl = Read-Host "Enter the Admin URL of O365 (eg. https://<Tenant Name>-admin.sharepoint.com)" 
-    $userName = Read-Host "Enter the username of O365 (eg. admin@<tenantName>.onmicrosoft.com)" 
-    $password = Read-Host "Please enter the password for $($userName)" -AsSecureString
- 
-    # set credentials 
-    $credentials = New-Object -TypeName System.Management.Automation.PSCredential -argumentlist $userName, $password 
-    $SPOCredentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($userName, $password)
- 
-    #connect to to Office 365
- 
-    try{
- 
-        Connect-SPOService -Url $adminUrl -Credential $credentials 
-        write-host "Info: Connected succesfully to Office 365" -foregroundcolor green
- 
-    }
- 
-    catch{
- 
-        write-host "Error: Could not connect to Office 365" -foregroundcolor red         
-        Break connectToO365
- 
-    }
-    get-siteCollections  
-}
- 
 
- 
+    $adminUrl = Read-Host "Enter the Admin URL of O365 (eg. https://<Tenant Name>-admin.sharepoint.com)"
+    $userName = Read-Host "Enter the username of O365 (eg. admin@<tenantName>.onmicrosoft.com)"
+    $password = Read-Host "Please enter the password for $($userName)" -AsSecureString
+
+    # set credentials
+    $credentials = New-Object -TypeName System.Management.Automation.PSCredential -argumentlist $userName, $password
+    $SPOCredentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($userName, $password)
+
+    #connect to to Office 365
+
+    try{
+
+        Connect-SPOService -Url $adminUrl -Credential $credentials
+        write-host "Info: Connected succesfully to Office 365" -foregroundcolor green
+
+    }
+
+    catch{
+
+        write-host "Error: Could not connect to Office 365" -foregroundcolor red
+        Break connectToO365
+
+    }
+    get-siteCollections
+}
+
+
+
 function get-siteCollections{
- 
+
     write-host "----- List of classic sites with comm site feature enabled  -------" -foregroundcolor green
 
 #Get all site collections
-	$siteCollections = Get-SPOSite
-	 
-	#loop through all site collections
-	foreach ($siteCollection in $siteCollections){
-	 
-		#set variable for a tab in the table
-		$pixelsweb = 0
-		$pixelslist = 0
-		$enabledCommSite = Get-SPOIsCommSiteEnabled($siteCollection.url)
-		$background = "white"
-		if($enabledCommSite -ne ""){
-			$background = "cyan"
-		}		
-	}
+    $siteCollections = Get-SPOSite
+
+    #loop through all site collections
+    foreach ($siteCollection in $siteCollections){
+
+        #set variable for a tab in the table
+        $pixelsweb = 0
+        $pixelslist = 0
+        $enabledCommSite = Get-SPOIsCommSiteEnabled($siteCollection.url)
+        $background = "white"
+        if($enabledCommSite -ne ""){
+            $background = "cyan"
+        }
+    }
 }
 
 function Get-SPOIsCommSiteEnabled($url){
- 
+
     #fill metadata information to the client context variable
     $featureID = "f39dad74-ea79-46ef-9ef7-fe2370754f6f"
     $context = New-Object Microsoft.SharePoint.Client.ClientContext($url)
@@ -163,24 +164,24 @@ function Get-SPOIsCommSiteEnabled($url){
     $context.load($web.Features)
 
     try{
- 
+
         $context.ExecuteQuery()
         $isCommSiteEnabled = $web.Features | Where {$_.DefinitionID -eq $featureID}
-		$webTemplate = $web.WebTemplate
+        $webTemplate = $web.WebTemplate
 
-		if($webTemplate -ne "SITEPAGEPUBLISHING" -AND $isCommSiteEnabled){
-		    write-host "Found $($web.url)" -foregroundcolor green
-			return "Enabled"
-			
-		}
-    } 
+        if($webTemplate -ne "SITEPAGEPUBLISHING" -AND $isCommSiteEnabled){
+            write-host "Found $($web.url)" -foregroundcolor green
+            return "Enabled"
+
+        }
+    }
     catch{
- 
+
         write-host "Could not find web" -foregroundcolor red
- 
+
     }
 
-    return "" 
+    return ""
 }
 
 Get-CommsiteEnabledSites

@@ -18,7 +18,7 @@ ms.collection:
 - Strat_SP_gtc
 - M365-collaboration
 - SPO_Content
-ms.custom: 
+ms.custom: admindeeplinkSPO
 ms.assetid: 0809325c-9b99-46bf-b98d-6d2f5e3d2a4b
 description: "In this article, we look at how to configure hybrid SharePoint taxonomy and hybrid content types."
 ---
@@ -144,7 +144,7 @@ The next step is to configure hybrid SharePoint taxonomy by running the Hybrid P
     
 2. From your SharePoint Server computer, open a web browser.
     
-3. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
+3. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
 
 4. Under **Hybrid picker**, select **Open**.
     

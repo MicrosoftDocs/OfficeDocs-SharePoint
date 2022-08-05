@@ -72,7 +72,6 @@
       "breadcrumb_path": "/sharepoint/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
       "uhfHeaderId": "MSDocsHeader-M365-IT",
-      "recommendations": true,
       "contributors_to_exclude": [
         "dstrome",
         "daswifty",
@@ -84,7 +83,9 @@
         "claydetels19", 
         "jborsecnik",
         "tiburd",
-        "garycentric"
+        "garycentric",
+        "v-dihans",
+        "AngelaMotherofDragons"
       ],
       "searchScope": ["SharePoint in Microsoft 365", "SharePoint Server"],
       "feedback_system": "GitHub",
@@ -93,8 +94,6 @@
       "recommendations": true
     },
     "fileMetadata": {
-        "feedback_product_url": { 
-            "SharePointServer/search/*.md": "https://sharepoint.uservoice.com/forums/330321-sharepoint-search" },
         "searchScope": { 
             "SharePointOnline/**/*.md": ["SharePoint in Microsoft 365"],
             "SharePointServer/**/*.md": ["SharePoint Server"],

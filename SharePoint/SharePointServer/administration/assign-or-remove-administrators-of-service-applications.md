@@ -164,8 +164,6 @@ For more information, see the following Microsoft PowerShell articles:
     
 - [Grant-SPObjectSecurity](/powershell/module/sharepoint-server/Grant-SPObjectSecurity?view=sharepoint-ps&preserve-view=true)
     
-- [Revoke-SPObjectSecurity](/powershell/module/sharepoint-online/revoke-spobjectsecurity)
-    
 - [Set-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Set-SPServiceApplicationSecurity?view=sharepoint-ps&preserve-view=true)
     
 > [!NOTE]

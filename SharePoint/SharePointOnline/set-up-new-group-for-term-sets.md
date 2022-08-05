@@ -9,6 +9,7 @@ audience: End User
 f1.keywords: NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.custom: admindeeplinkSPO
 ms.localizationpriority: medium
 search.appverid:
 - SPO160
@@ -27,7 +28,7 @@ A term group is a set of term sets that all share common security requirements. 
   
 To set up a new group for term sets, follow these steps.
    
-1. In the SharePoint admin center, under **Content services**, click **Term store**.
+1. In the SharePoint admin center, under **Content services**, select <a href="https://go.microsoft.com/fwlink/?linkid=2185073" target="_blank">**Term store**</a>.
     
 2. In the right pane, click **Add term group**.
 

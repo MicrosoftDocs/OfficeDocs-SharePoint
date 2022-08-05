@@ -61,6 +61,7 @@ The following table lists the required endpoints for using the SharePoint Migrat
 |https://<span><span>login.microsoftonline.<span><span>com|Authentication|
 |https://<span><span>login.windows.<span><span>net|Authentication|
 |https://<span><span>aadcdn.msftauth.<span><span>net|Authentication|
+|https://<span><span>aadcdn.msauth.<span><span>net|Authentication|
 |https://<span><span>api.office.<span><span>com|Microsoft 365 APIs for content move and validation|
 |https://<span><span>graph.windows.<span><span>net|Microsoft 365 APIs for content move and validation|
 |https://<span><span>spmtreleasescus.blob.core.windows.<span><span>net|Installation|
@@ -75,7 +76,7 @@ The following table lists the required endpoints for using the SharePoint Migrat
 |https:<span><span>//graph.<span><span>microsoft.<span><span>com| Access Microsoft Graph API to get tenant information and site information for public cloud and GCC|
 |https:<span><span>//graph.<span><span>microsoft.<span><span>us |Access Microsoft Graph API to get tenant information and site information for GCC high|
 |https:<span><span>//dod-graph.<span><span>microsoft.<span><span>us |Access Microsoft Graph API to get tenant information and site information for DoD|
-|https://\<spam\>\<spam\>spmt.\<spam\>\<spam\>sharepointonline.\<spam\>\<spam\>com|SPMT Installation link.
+|https:<span><span>//spmt.sharepointonline.<span><span>com|SPMT Installation link.
 
 
 
@@ -84,6 +85,6 @@ The following table lists the required endpoints for using the SharePoint Migrat
 
 | Optional Endpoint | Why |
 |:-----|:-----|
-|https://\<span\>\<span\>*.table.core.windows.net|Required only if you choose to use your Azure Storage account.  See **Use custom Azure storage** in Settings.|
+|https:<span><span>//*.table.core.windows.net|Required only if you choose to use your Azure Storage account.  See **Use custom Azure storage** in Settings.|
 
 

@@ -1241,7 +1241,7 @@ Check the following areas:
     
   - Networking is ok on host.
     
-## Usage table exceeded max bytes limit
+## Usage table exceeded max bytes limit - #1
 <a name="Usagetable"> </a>
 
  **Alert Name:** Usage table exceeded max bytes limit 
@@ -1260,7 +1260,7 @@ There are two ways to resolve this issue:
     
 2. Disable the usage provider to stop generating data.
     
-## Usage table exceeded max bytes limit
+## Usage table exceeded max bytes limit - #2
 <a name="UsageTable2"> </a>
 
  **Alert Name:** Usage table exceeded max bytes limit 

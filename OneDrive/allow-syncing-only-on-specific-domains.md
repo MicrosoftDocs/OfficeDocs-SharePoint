@@ -18,6 +18,9 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: a3b03efd-ccd0-4d3c-b9ae-7f8f3f9485bc
+ms.custom:
+- admindeeplinkSPO
+- onedrive-toc
 description: "Learn how to restrict syncing to only devices on the domains you specify."
 ---
 
@@ -31,11 +34,9 @@ To make sure that users sync OneDrive files only on managed computers, you can c
 > These settings apply to SharePoint sites as well as OneDrive.
 > In a multi-geo environment, this setting can be configured separately for each geo location to apply to users with that preferred data location.
 
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
  
    > [!NOTE]
-   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. 
-   > 
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
 
 2. Select **Sync**.

@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom: onedrive-toc
 search.appverid:
 - ODB160
 - ODB150
@@ -22,7 +23,7 @@ search.appverid:
 
 # Use information barriers with OneDrive
 
-[Information barriers](/microsoft-365/compliance/information-barriers) are policies in Microsoft 365 that a compliance admin can configure to prevent users from communicating and collaborating with each other. This solution is useful if, for example, one division is handling information that shouldn't be shared with specific other divisions, or a division needs to be prevented, or isolated, from collaborating with all users outside of the division. Information barriers are often used in highly regulated industries and those organizations with compliance requirements, such as finance, legal, and government.
+[Microsoft Purview Information Barriers](/microsoft-365/compliance/information-barriers) are policies in Microsoft 365 that a compliance admin can configure to prevent users from communicating and collaborating with each other. This solution is useful if, for example, one division is handling information that shouldn't be shared with specific other divisions, or a division needs to be prevented, or isolated, from collaborating with all users outside of the division. Information barriers are often used in highly regulated industries and those organizations with compliance requirements, such as finance, legal, and government.
 
 For OneDrive, information barriers can determine and prevent the following kinds of unauthorized collaborations:
 
@@ -40,6 +41,10 @@ When using information barriers with OneDrive, the following IB modes are suppor
 | **Open** | When a non-segmented user provisions their OneDrive, the site's IB mode is set as Open, by default. There are no segments associated with the site. |
 | **Owner Moderated** | When a OneDrive is used for collaboration with incompatible users in the presence of the site owner/moderator, the OneDrive's IB mode can be set as Owner Moderated. See [this section](#manage-the-ib-mode-of-a-users-onedrive-preview) for details on Owner Moderated site. |
 | **Explicit** | When a segmented user provisions their OneDrive within 24 hours of enablement, the site's IB mode is set as *Explicit* by default. The user's segment and other segments that are compatible with the user's segment and with each other get associated with the user's OneDrive. |
+| **Mixed (preview)** | When a segmented user's OneDrive is allowed to be shared with unsegmented users, the site's IB mode can be set as *Mixed*. This is an opt-in mode that the SharePoint admin can set on OneDrive of a segmented user. |
+
+>[!NOTE]
+>Starting July 12, 2022, *Inferred* mode has changed to *Mixed* mode. The functionality for the mode remains the same.
 
 ## Sharing files from OneDrive
 
@@ -60,11 +65,19 @@ When a site has information barriers mode is set to *Owner Moderated*:
 
 ### Explicit
 
-When a OneDrive has segments with IB mode as *Explicit*:
+When a OneDrive has information barriers segments and the mode is set to *Explicit*:
 
 - The option to share with *Anyone with the link* is disabled.
 - The option to share with *Company-wide link* is disabled.
 - Files and folders can be shared only with users whose segment matches that of the OneDrive.
+
+### Mixed (preview)
+
+When a OneDrive has information barriers segments and the mode is set to *Mixed*:
+
+- The option to share with Anyone with the link is disabled.
+- The option to share with Company-wide link is disabled.
+- Files and folders can be shared with users whose segment matches that of the OneDrive and unsegmented users in the tenant.
 
 ## Accessing shared files from OneDrive
 
@@ -82,7 +95,7 @@ For a user to access a SharePoint site with site's information barriers mode is 
 
 ### Explicit mode
 
-For a user to access content in a OneDrive that has segments and IB mode as *Explicit*:
+For a user to access content in a OneDrive that has segments and the IB mode set to *Explicit*:
 
 1. The user's segment must match a segment that is associated with the OneDrive.
 
@@ -92,6 +105,20 @@ For a user to access content in a OneDrive that has segments and IB mode as *Exp
 
 >[!NOTE]
 >By default, non-segment users can access shared OneDrive files only from other non-segment users with IB modes as *Open*. They can't access shared files from OneDrive that have segment(s) applied and the IB mode is *Explicit*.
+
+### Mixed mode (preview)
+
+For a segmented user to access content in a OneDrive that has segments and the IB mode set as *Mixed*:
+
+1. The user's segment must match a segment that is associated with the OneDrive.
+
+    AND
+
+2. The files must be shared with the user.
+
+For an unsegmented user to access content in a OneDrive that has segments and the IB mode set as *Mixed*:
+
+- The user must have site access permissions.
 
 ## Example scenario
 
@@ -112,14 +139,14 @@ The following table shoes the effects of this example configuration:
 
 ## Enable SharePoint and OneDrive information barriers in your organization
 
-Enabling information barriers for SharePoint and OneDrive are configured in a single action. Information barriers for the services cannot be enabled separately. To enable information barriers for OneDrive, see [Enable SharePoint and OneDrive information barriers in your organization](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization). After you've enabled information barriers for SharePoint and OneDrive, continue with the OneDrive guidance in this article.  
+Enabling information barriers for SharePoint and OneDrive are configured in a single action. Information barriers for the services can’t be enabled separately. To enable information barriers for OneDrive, see [Enable SharePoint and OneDrive information barriers in your organization](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization). After you've enabled information barriers for SharePoint and OneDrive, continue with the OneDrive guidance in this article.  
 
 ## Prerequisites
 
 1. Make sure you meet the [licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
 2. [Create information barrier policies](/office365/securitycompliance/information-barriers-policies) that allow or block communication between the segments and activate the policies. Create segments and define the users in each.
 3. After you've configured and activated your information barrier policies, wait 24 hours for the changes to propagate through your organization.
-4. Enable information barriers for OneDrive. Enabling information barriers for SharePoint and OneDrive are configured in a single action and these services cannot be enabled separately. To enable information barriers for OneDrive, see the guidance and steps in the [Use information barriers with SharePoint](/sharepoint/information-barriers) article.
+4. Enable information barriers for OneDrive. Enabling information barriers for SharePoint and OneDrive are configured in a single action and these services can’t be enabled separately. To enable information barriers for OneDrive, see the guidance and steps in the [Use information barriers with SharePoint](/sharepoint/information-barriers) article.
 5. Complete the steps in the following sections to customize and manage information barriers for OneDrive in your organization.
 
 ## Use PowerShell to view the segments associated with a OneDrive
@@ -196,7 +223,7 @@ If all the segments of a OneDrive site are removed, the IB mode of the OneDrive 
 
 ## Manage the IB mode of a user's OneDrive (preview)
 
-A SharePoint admin or global administrator can manage the IB mode of a OneDrive with the following PowerShell command:
+To view the IB mode of a OneDrive site, run the following command in the SharePoint Online Management Shell as a SharePoint admin or global administrator:
 
 ```powershell
 Get-SPOSite -Identity <site URL> | Select InformationBarriersMode
@@ -208,17 +235,33 @@ For example:
 Get-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_onmicrosoft_com | Select InformationBarriersMode
 ```
 
-Owner Moderated mode scenario: Allow an incompatible segment user access to a OneDrive. For example, you want to allow HR user's OneDrive that is accessed by both Sales and Research segment users.
+A SharePoint admin or global administrator also has the ability to manage the IB mode of a OneDrive site to meet the needs of your organization with new IB modes:
 
-*Owner Moderated* is a new mode applicable to OneDrive site that allows incompatible segment users access to OneDrive in the presence of a moderator/owner. Only the site owner has the capability to invite incompatible segment users on the same site.
+### Owner Moderated mode example
 
-To update a OneDrive to Owner Moderated, run the following PowerShell command:
+Allow an incompatible segment user access to a OneDrive. For example, you want to allow HR user's OneDrive to be accessed by both Sales and Research segment users in your tenant.
+
+*Owner Moderated* is a mode applicable to OneDrive site that allows incompatible segment users access to OneDrive in the presence of a moderator/owner. Only the site owner has the capability to invite incompatible segment users on the same site.
+
+To update a OneDrive site IB mode to *Owner Moderated*, run the following PowerShell command:
 
 ```powershell
 Set-SPOSite -Identity <siteurl> InformationBarriersMode OwnerModerated
 ```
 
-Owner Moderated IB mode cannot be set on a site with segments. Remove the segments first before setting IB mode as Owner Moderated. Access to an Owner Moderated site is allowed to users who have site access permissions. Sharing of an Owner Moderated OneDrive and its contents is only allowed by the site owner per their IB policy.
+Owner Moderated IB mode can’t be set on a site with segments. Remove the segments before setting the IB mode as Owner Moderated. Access to an Owner Moderated site is allowed for users who have site access permissions. Sharing of an Owner Moderated OneDrive and its contents is only allowed by the site owner per their IB policy.
+
+### Mixed mode example
+
+Allow unsegmented users to access OneDrive associated with segments. For example, you want to allow HR user's OneDrive to be accessed by HR segment and unsegmented users in your tenant. Mixed mode applicable to OneDrive site that allows segmented and unsegmented users access to OneDrive.
+
+To update a OneDrive site IB Mode to Mixed, run the following PowerShell command:
+
+```powershell
+Set-SPOSite -Identity <siteurl> InformationBarriersMode Mixed
+```
+
+Mixed IB mode can't be set on a site without segments. Add segments before setting the IB mode as Mixed.
 
 ## Effects of changes to user segments
 
@@ -244,7 +287,7 @@ If a policy changes after files are shared, the sharing links will work only if 
 
 ## Auditing
 
-Audit events are available in the Microsoft 365 Compliance center to help you monitor information barrier activities. Audit events are logged for the following activities:
+Audit events are available in the Microsoft Purview compliance portal to help you monitor information barrier activities. Audit events are logged for the following activities:
 
 - Enabled information barriers for SharePoint and OneDrive
 - Applied segment to site
