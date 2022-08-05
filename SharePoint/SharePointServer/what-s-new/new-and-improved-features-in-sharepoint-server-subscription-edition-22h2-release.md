@@ -49,7 +49,7 @@ SharePoint Server Subscription Edition 22H2 integrates the STS patch and WSS pat
 
 
 <a name="IIW"> </a>
-### Copy and Move improvement in modern document library
+### Copy and move improvement in modern document library
 
 The modern document library supports copying and moving files across document libraries. Previously, the **copy** and **move** operations were only scoped within same document library in the modern document library UX. In the new experience, when a user picks a file or multiple files and triggers a **copy** or **move** operation, the user will have the option to pick a destination outside the current document library. 
 - **Copy** will allow users to pick a destination location in different subsites, in different site collections, and in different web applications. 
