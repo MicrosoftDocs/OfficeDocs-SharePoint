@@ -90,6 +90,7 @@ When mapping please ensure that each Service Account has its own unique matching
 Asterisk (\*) = optional folder
 
 ## [**Step 3: Copy to migrations**](mm-dropbox-step3-copy-to-migrations.md)
+You can find Some Described Views On Cleaning Your [Dropbox Logs](https://www.towardsiot.com/5-ways-to-clear-dropbox-logs) 
 
 > [!NOTE]
 > Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China.
