@@ -23,6 +23,8 @@ How to use both platforms during the migration
 How users can migrate files
 Are you enabling completely new tasks?
 
+Provide training for users and support, cheat sheets, office hours.
+
 [Transfer files to your personal OneDrive with the Mover Transfer Wizard](https://support.microsoft.com/office/7dbda93c-71e6-483f-8914-ad445554cd31)
 
 As part of your change management plan, review how your users do core tasks such as:
