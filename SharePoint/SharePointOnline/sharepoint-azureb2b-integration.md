@@ -59,7 +59,7 @@ This integration requires that your organization also enable [Azure AD email one
  > Review any custom [domain sharing restrictions in SharePoint and OneDrive](/sharepoint/restricted-domains-sharing) and decide if they should be moved to the [Azure AD B2B Allow/Deny list](/azure/active-directory/external-identities/allow-deny-list). The Azure AD Allow/Deny list also affects other Microsoft 365 services like Teams and Microsoft 365 Groups.
 
 To enable Azure AD passcode authentication
-1. Sign in to the [Azure portal](https://portal.azure.com) as an Azure AD global admin.
+1. Sign in to the [Azure portal](https://portal.azure.com) as an Azure AD Global Administrator.
 2. In the nav pane, select **Azure Active Directory**.
 3. Under **Manage**, click **External identities**.
 4. Click **All identity providers**.
@@ -73,7 +73,7 @@ To enable SharePoint and OneDrive integration with Azure AD B2B
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following cmdlets:
 
