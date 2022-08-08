@@ -39,8 +39,6 @@ You can consider using the [Microsoft 365 Learning Pathways](/office365/customle
 
 Having an effective governance plan in place enables the decision-making process for the intranet. By reviewing and revising the governance plan regularly, you can help ensure that your intranet remains a critical asset for your organization.
 
-
-
 ## Governance Team
 As a key business asset, intranet governance needs to reflect the goals of business stakeholders and the legal and regulatory environment for your organization – not just the expectations of your IT department. Create a governance team that includes core members from key business stakeholder groups in your organization in addition to IT. 
 
@@ -69,15 +67,12 @@ At a minimum, consider each of these elements as part of your intranet governanc
 - Training and support
 - Measurement
 
-
 ### Vision
 The vision statement describes, at a high level, what you want to want to achieve with your intranet - essentially how the solution delivers value to the organization and to each individual employee. Use the intranet vision statement to guide your governance plan. Be sure that the vision is clear because the degree of formality and the depth to which you need to document the governance plan should align with the outcomes you want to achieve. 
 
 A clear vision statement provides critical guidance to the inevitable decision tradeoffs you will need to make for your governance plan. For example, you probably do not want a completely uncontrolled environment with unstructured and “unfindable” content if your intranet vision is to provide a key source of organizational knowledge and information. In this case, the unstructured environment with no controls is unpredictable and will likely misalign with desired business outcomes. In a different scenario, some users may have a goal to create an experimental place where new site owners can create “practice” sites to try out new skills or test alternative approaches to solve specific business problems. For this use case, an overly restrictive governance plan may not make a lot of sense. You may determine that you don’t want to support an unlimited number of “practice” sites, so you may want a governance policy that says that all “test” sites are deleted after a specific period of time. But, for these practice or test sites, the unstructured environment is fine. You can only know what is level of governance is ideal because you have a clear vision. The vision provides a framework for both the context and your investment in governance. Once you are clear about your intranet vision, your governance team can use that vision to guide the governance decisions.
 
 Your intranet vision includes defining ownership. There is no right answer about which organizational entity should “own” the intranet – and often, intranet ownership is shared by more than one organizational unit. However, most intranet professionals agree that there is one organization that should not be the exclusive intranet owner – IT. IT cannot build an intranet for the business. IT can only build an intranet with the business and with a commitment from the business. Successful intranets have a champion and owner from the business, ideally at an executive level. 
-
-
 
 ### Policies and guidelines
 Policies define the rules and guidelines for your intranet. From a governance perspective, policies are usually driven by statutory, regulatory, or organizational requirements. Users are expected to meet policies without deviation. If your organization is subject to regulatory oversight, be sure you can enforce your policies as a failure to do so may target your organization as being “non-compliant.” Guidelines are usually established to encourage consistent practices. In many cases, guidelines are more recommendations, but policies are requirements.
@@ -104,11 +99,9 @@ Each organization will have its own set of policies and guidelines. General topi
 - Organizational policies and guidelines for intranet site names, file names, [Microsoft 365 Group names](/microsoft-365/admin/create-groups/groups-naming-policy), etc.
 - Learn more about [Microsoft 365 intranet governance decisions](https://view.officeapps.live.com/op/view.aspx?src=https://storage.snappages.site/op8ir2nu2f/assets/files/Governance_Policy_and_Guideline_Question-76.pptx).
 
-
 ### Site provisioning and decommissioning
 
 A key intranet governance decision involves determining who can create a new intranet site. Your modern [intranet architecture will be “flat”](./information-architecture-modern-experience.md#guiding-principle-the-world-is-flat) which means that your intranet will contain many sites. Do you want to provide a self-service model for new intranet sites or do you want to manage site creation through a form submission and workflow? There is no right answer to this question – but no matter which approach you choose, you need to think about governance. There are two popular solutions to governing new site creation:
-
 
 #### Implement a site request process for intranet sites
 
@@ -118,7 +111,7 @@ You can easily [hide the option to create a new site](./manage-site-creation.md)
 
 If you enable self-service site provisioning, you will want to consider providing site designs that embed your best practices so that new site owners start with a “template” that aligns to your governance guidelines. You will also want to track new sites in the Admin Center so that you can follow up with new site owners to provide the information that they need to be successful after the site has been created.
 
-In addition to providing a process to provision new sites, you will also want to think about a process to provision new [hubs](./planning-hub-sites.md) and associated hubs. Hubs must be provisioned by the Global or SharePoint Admin so you will need to think about how you will plan and govern the creation of new hubs.
+In addition to providing a process to provision new sites, you will also want to think about a process to provision new [hubs](./planning-hub-sites.md) and associated hubs. Hubs must be provisioned by the Global Administrator or SharePoint Administrator so you will need to think about how you will plan and govern the creation of new hubs.
 
 When an intranet site is no longer needed, there may be cases where your records management process prohibits deletion of the site and/or content. Another key governance decision is planning how you will delete or decommission intranet sites in the context of both legal holds and records management requirements. Learn more about [Microsoft 365 compliance](/microsoft-365/compliance), including [records management](/microsoft-365/compliance/records-management) and advanced [eDiscovery](/microsoft-365/compliance/overview-ediscovery-20).
 
