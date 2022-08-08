@@ -49,7 +49,7 @@ What are the customization requirements?
 
 [Training and change management for rolling out SharePoint and OneDrive](training-change-management.md)
 
-[](rollout-migration.md)
+[Migrate content as part of your SharePoint and OneDrive rollout](rollout-migration.md)
 
 [Roll out SharePoint and OneDrive](roll-out-sharepoint-onedrive.md)
 
