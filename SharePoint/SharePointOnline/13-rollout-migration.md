@@ -1,5 +1,5 @@
 ---
-title: 
+title: Migrate content as part of your SharePoint and OneDrive rollout
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -16,7 +16,7 @@ search.appverid: MET150
 description: 
 ---
 
-# 
+# Migrate content as part of your SharePoint and OneDrive rollout
 
 	Have users to housecleaning
 
@@ -31,6 +31,10 @@ description:
 	Taxonomy
 
 	Paper
+
+where is your content now?
+
+
 
 [Redirect and move Windows known folders to OneDrive](/onedrive/redirect-known-folders)
 
