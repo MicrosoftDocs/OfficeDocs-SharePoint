@@ -24,7 +24,7 @@ description: "Provision the SharePoint Success Site from the look book."
 
 You can provision the SharePoint Success Site after you confirm that you *and* your tenant meet the following [prerequisites](./provision-sss.md#meet-the-requirements):
 
-- You're using global admin credentials.
+- You're using Global Administrator credentials.
 - Your tenant has the App Catalog installed.
 - You're an administrator of the App Catalog.
 - Your tenant is provisioned with Microsoft 365 learning pathways version 4.0 or later.
@@ -105,11 +105,11 @@ Answer: Yes. Follow the guidance in [Provision the SharePoint Success Site to yo
 
 **Who has permission to provision the SharePoint Success Site?**
 
-Answer: The global admin (formerly called the tenant admin).
+Answer: The Global Administrator (formerly called the tenant admin).
 
 **Who has permission to customize the site template?**
 
-Answer: The global admin (formerly called the tenant admin) or a user who has site-owner permissions.
+Answer: The Global Administrator (formerly called the tenant admin) or a user who has site-owner permissions.
 
 **Who can create custom playlists and hide or show content in Microsoft 365 learning pathways?**
 
