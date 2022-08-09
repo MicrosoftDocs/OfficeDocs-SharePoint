@@ -58,7 +58,7 @@ Once the initial pilot users are successfully using SharePoint and OneDrive, ext
 
 Monitor the pilot as it proceeds. When the people involved are able to easily accomplish the expected tasks, consider rolling the pilot out to a larger group.
 
-Once the people in your pilot are able to validate the expected use cases and the number of issues reported is low, consider scheduling the remaining rollout for the rest of the organization.
+Once the people in your pilot group are able to validate the expected use cases and the number of issues reported is low, consider scheduling the remaining rollout for the rest of the organization.
 
 ### Rolling out SharePoint and OneDrive broadly
 
