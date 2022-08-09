@@ -157,8 +157,8 @@ This update scenario uses two phases to install the update on farm servers. Thes
 For more information, see the following:
 - [Software updates overview for SharePoint Server 2016, 2019, and Subscription Edition](./software-updates-overview.md)
 - [Overview of the upgrade process from SharePoint 2013 to SharePoint Server 2016](./verify-upgrade-for-databases.md)
-- [Verify database upgrades in SharePoint Server 2019](SharePoint/SharePointServer/upgrade-and-update/verify-upgrade-for-databases-2019.md)
-- [Verify database upgrades in SharePoint Server Subscription Edition](SharePoint/SharePointServer/upgrade-and-update/verify-upgrade-for-databases-subscription-edition.md)
+- [Verify database upgrades in SharePoint Server 2019](./verify-upgrade-for-databases-2019.md)
+- [Verify database upgrades in SharePoint Server Subscription Edition](./verify-upgrade-for-databases-subscription-edition.md)
 
 ### Update phase
 
