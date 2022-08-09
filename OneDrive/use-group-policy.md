@@ -83,7 +83,7 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 
 - (DehydrateSyncedTeamSites) [Convert synced team site files to online-only files](use-group-policy.md#convert-synced-team-site-files-to-online-only-files)
 
-- (DisableAutoConfig) [Prevent authentication from automatically happening](use-group-policy.md#prevent-authentication-from-automatically-happening)
+- (DisableAutoConfig) [Disable silently sign in users to the OneDrive sync app with an existing credential that is made available to Microsoft applications](use-group-policy.md#disable-silently-sign-in-users-to-the-onedrive-sync-app-with-an-existing-credential-that-is-made-available-to-microsoft-applications)
 
 - (DisableCustomRoot) [Prevent users from changing the location of their OneDrive folder](use-group-policy.md#prevent-users-from-changing-the-location-of-their-onedrive-folder)
 
@@ -226,7 +226,22 @@ Enabling this policy sets the following registry key value to 1:
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"DehydrateSyncedTeamSites"="dword:00000001"`
 
 For info about querying and setting file and folder states, see [Query and set Files On-Demand states](files-on-demand-mac.md).
+ 
+### Disable silently sign in users to the OneDrive sync app with an existing credential that is made available to Microsoft applications
+<a name="DisableAutoConfig"> </a>
+
+This setting determines whether or not the Sync client can automatically sign in.
+
+If you enable this setting and enter a value of 1 in the **Disabled Account Types** box, it prevents Sync from automatically signing with an existing Microsoft Azure Active Directory (Azure AD) credential that is made available to Microsoft applications.
+
+If you enable this setting and enter a value of 0 in the **Disabled Account Types** box, Sync will automatically sign in.
+
+If you disable or do not configure this setting, Sync will automatically sign in.
   
+Enabling this policy sets the following registry key value to 1:
+  
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"DisableAutoConfig"="dword:00000001"`
+
 ### Enable automatic upload bandwidth management for OneDrive
 <a name="EnableAutomaticUploadBandwidthManagement"> </a>
 
@@ -320,19 +335,6 @@ If you disable or do not configure this setting, users can choose to limit the u
 
 > [!IMPORTANT]
 > If you enable or disable this setting, and then change it back to Not Configured, the last configuration remains in effect. We recommend enabling this setting instead of "Limit the sync app upload speed to a fixed rate" to limit the upload rate. You should not enable both settings at the same time.
- 
-### Prevent authentication from automatically happening
-<a name="DisableAutoConfig"> </a>
-
-This setting determines whether or not the Sync client can automatically sign in.
-
-If you enable this setting, it prevents Sync from automatically signing with an existing Microsoft Azure Active Directory (Azure AD) credential that is made available to Microsoft applications.
-
-If you disable or do not configure this setting, Sync will automatically sign in.
-  
-Enabling this policy sets the following registry key value to 1:
-  
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"DisableAutoConfig"="dword:00000001"`
 
 ### Prevent the sync app from generating network traffic until users sign in
 <a name="PreventNetworkTrafficPreUserSignIn"> </a>
