@@ -30,6 +30,9 @@ Well-planned and executed information architecture is a prerequisite for an inte
 
 Information architecture also helps improve user adoption, satisfaction, and productivity while reducing IT costs, information overload, and minimize compliance and security risks. 
 
+> [!NOTE]
+> All navigation types (site, hub, global, and footer) are limited to 500 child links at each level. Additional nodes added after the limit has been reached will receive an error.
+
 **In this article:**
 
 - [Learn the main elements of information architecture](#information-architecture-elements-in-sharepoint)

@@ -161,7 +161,7 @@ The example for this setting in the .plist file is:
 
 This setting determines whether or not the Sync client can automatically sign in.
 
-If you set this setting's value to 1, prevents Sync from automatically signing with an existing AAD credential that is made available to Microsoft applications
+If you set this setting's value to 1, prevents Sync from automatically signing with an existing Microsoft Azure Active Directory (Azure AD) credential that is made available to Microsoft applications.
 
 The example for this setting in the .plist file is:
 <br/> \<key\>DisableAutoConfig</key\> <br/> \<integer\>1</integer\> <br/>
@@ -310,7 +310,7 @@ This setting prevents users from moving their Documents and Desktop folders to a
   
 If you enable this setting, users aren't prompted with a window to protect their important folders, and the *Manage backup* command is disabled. If the user has already moved their known folders, the files in those folders will remain in OneDrive. To redirect the known folders back to the user's device, select "No." This setting doesn't take effect if you've enabled "KFMOptInWithWizard" or "KFMSilentOptIn".
 
-If you set this setting's value to 1, it will prevent Known Folder Move.  It you set the value to 2, it will redirect any  folders previously used for Known Folder Move back to the user’s device and stop the setting from running further.
+If you set this setting's value to 1, it will prevent Known Folder Move.  If you set the value to 2, it will redirect any  folders previously used for Known Folder Move back to the user’s device and stop the setting from running further.
 
 The example for this setting in the .plist file is:
 <br/> \<key\>KFMBlockOptIn</key\><br/> \<integer\>(1 or 2)</integer\> <br/> 
@@ -383,7 +383,7 @@ To enable this setting, you must define a string containing the URL of the on-pr
 The example for this setting in the .plist file is:
 <br/> \<key\>SharePointOnPremFrontDoorUrl</key\> <br/>\<string\>`https://Contoso.SharePoint.com\`</string\> <br/>
 
-[More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/new-onedrive-sync-client)
+[More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/configure-syncing-with-the-onedrive-sync-app)
 
 
 ### SharePointOnPremPrioritizationPolicy
@@ -414,7 +414,7 @@ If you do not specify any TenantName, the folder will use the first segment of t
 The example for this setting in the .plist file is:
 <br/> \<key\>SharePointOnPremTenantName</key\> <br/> \<string\>Contoso</string\> <br/>
 
-[More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/new-onedrive-sync-client)
+[More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/configure-syncing-with-the-onedrive-sync-app)
 
 
 ### Tier

@@ -18,7 +18,7 @@ description: "Learn how SharePoint supports replacing all usage of an existing c
 
 # Replace a certificate assignment
 
-[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
 SharePoint supports replacing all usage of an existing certificate within SharePoint with a different certificate. For example, if an existing certificate is approaching its expiration and you can replace this existing certificate with a new certificate. Use the [Switch-SPCertificate](/powershell/module/sharepoint-server/switch-spcertificate) Powershell cmdlet to replace the assignments of the existing certificate with the new certificate. All usage of the existing certificate within SharePoint will then be replaced with the new certificate.
 
