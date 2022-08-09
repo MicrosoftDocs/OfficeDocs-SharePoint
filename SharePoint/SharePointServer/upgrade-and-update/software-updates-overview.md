@@ -1,5 +1,5 @@
 ---
-title: "Software updates overview for SharePoint Server 2016 and 2019"
+title: "Software updates overview for SharePoint Server 2016, 2019, and Subscription Edition"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -18,25 +18,25 @@ ms.assetid: 4cbe141a-095f-4c09-82f4-dec8af16c590
 description: "Learn how to deploy a software update to a SharePoint Server 2016 or 2019 farm."
 ---
 
-# Software updates overview for SharePoint Server 2016 and 2019
+# Software updates overview for SharePoint Server 2016, 2019, and Subscription Edition
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-SUB-xxx-md](../includes/appliesto-xxx-2016-2019-SUB-xxx-md.md)]
 
-Administrators update SharePoint Server 2016 or SharePoint Server 2019 to deploy or update assemblies that provide functionality and to upgrade databases. A successful update follows a methodical approach that minimizes interruptions in service. Review information in this article to learn about the process before you begin the update process.
+Administrators update SharePoint Server 2016, 2019, or Subscription Edition to deploy or update assemblies that provide functionality and to upgrade databases. A successful update follows a methodical approach that minimizes interruptions in service. Review information in this article to learn about the process before you begin the update process.
 
 > [!NOTE]
-> This article applies to both SharePoint Server 2016 and SharePoint Server 2019.
+> This article applies to SharePoint Server 2016, 2019, and Subscription Edition.
   
 ## Before you begin software updates
 <a name="begin"> </a>
 
 Before you begin the software update process, review the following information about permissions, hardware requirements, and software requirements.
   
-- [Account permissions and security settings in SharePoint Server 2016](../install/account-permissions-and-security-settings-in-sharepoint-server-2016.md)
+- [Account permissions and security settings in SharePoint Server 2016, 2019, and Subscription Edition](../install/account-permissions-and-security-settings-in-sharepoint-server-2016.md)
     
 - [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md)
     
-Information in this article is for all IT professionals who maintain SharePoint Server 2016. However, specific instructions to install a software update are intended for IT professionals who have to deploy software updates on a farm of servers that host SharePoint Server 2016.
+Information in this article is for all IT professionals who maintain SharePoint Server 2016, 2019, or Subscription Edition. However, specific instructions to install a software update are intended for IT professionals who have to deploy software updates on a farm of servers that host SharePoint Server 2016, 2019, or Subscription Edition.
   
 Information in this article applies to the following products:
   
@@ -47,9 +47,13 @@ Information in this article applies to the following products:
 - SharePoint Server 2019
 
 - SharePoint Server 2019 Language Packs
+
+- SharePoint Server Subscription Edition
+
+- SharePoint Server Subscription Edition Language Packs
     
 > [!NOTE]
-> The process that installs software updates in stand-alone environments of SharePoint Server 2016 or 2019 is a simpler process than the process that installs software updates in a server farm and does not require all the steps that are required for a server farm.
+> The process that installs software updates in stand-alone environments of SharePoint Server 2016, 2019, or Subscription Edition is a simpler process than the process that installs software updates in a server farm and does not require all the steps that are required for a server farm.
 
 Micrososft releases Public Updates each month. The first update is known as the language independent update. This update will often include both feature and security fixes. It is also known as the 'sts-x-none' patch.
 
@@ -61,21 +65,21 @@ The second type of patch is the language dependent patch. This patch covers all 
 ## Software update terminology
 <a name="terms"> </a>
 
-To understand how to implement software updates in SharePoint Server 2016, it is important to understand the terminology for the core components.
+To understand how to implement software updates in SharePoint Server 2016, 2019, and Subscription Edition, it is important to understand the terminology for the core components.
   
 |**Term** <br/> |**Definition** <br/> |**Comment** <br/> |
 |:-----|:-----|:-----|
 |**Public Update (PU)** <br/> |A PU is a rollup update that contains all previous critical on-demand hotfixes to date. Additionally, a PU contains fixes for issues that meet the hotfix acceptance criteria. These criteria may include the availability of a workaround, the effect on the customer, the reproducibility of the problem, the complexity of the code that must be changed, or other reasons.  <br/> ||
 |**patch** <br/> |A compiled, executable installer file that contains updates to one or more products. Examples of packages are the executable (.exe) files that you download to install a service pack, public update (PU), or hotfix. Packages are also known as MSI files.  <br/> ||
 |**software update** <br/> |A software update is any update, update rollup, service pack, feature pack, critical update, security update, or hotfix that is used to improve or to fix a software product that is released by Microsoft Corporation.  <br/> ||
-|**upgrade** <br/> |Process by which you change an environment to use a newer version of software. You can upgrade to a minor release, such as an update or patch, or to a major release. An upgrade to a minor release is called a build-to-build upgrade. An upgrade to a major release is called a version-to-version upgrade.  <br/> |In SharePoint Server 2016, for build-to-build upgrades, you can use either in-place or database-attach methods. For version-to-version upgrade, only database-attach is supported. For more information about version-to-version upgrade, see [Overview of the upgrade process to SharePoint Server 2016](overview-of-the-upgrade-process.md). For an overview of the steps for in-place and database-attach upgrade for build-to-build upgrades, see [Install a software update for SharePoint Server 2016](install-a-software-update.md) <br/> |
+|**upgrade** <br/> |Process by which you change an environment to use a newer version of software. You can upgrade to a minor release, such as an update or patch, or to a major release. An upgrade to a minor release is called a build-to-build upgrade. An upgrade to a major release is called a version-to-version upgrade.  <br/> |In SharePoint Server 2016, for build-to-build upgrades, you can use either in-place or database-attach methods. For version-to-version upgrade, only database-attach is supported. For more information about version-to-version upgrade, see [Overview of the upgrade process to SharePoint Server 2016](overview-of-the-upgrade-process.md), [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process-2019.md) and [Overview of the upgrade process to SharePoint Server Subscription Edition](overview-of-the-upgrade-process-subscription-edition.md). For an overview of the steps for in-place and database-attach upgrade for build-to-build upgrades, see [Install a software update for SharePoint Server 2016, 2019, and Subscription Edition](install-a-software-update.md) <br/> |
    
 For a complete list of terminology about software updates, see [Description of the standard terminology that is used to describe Microsoft software updates](/troubleshoot/windows-client/deployment/standard-terminology-software-updates).
   
 ## Software update features
 <a name="Improvements"> </a>
 
-SharePoint Server 2016 has features that facilitate the end-to-end software update experience. Some of these features are as follows:
+SharePoint Server 2016, 2019, and Subscription Edition has features that facilitate the end-to-end software update experience. Some of these features are as follows:
   
 - Backward compatibility between an updated services farm and non-updated content farm.
     
@@ -89,7 +93,7 @@ SharePoint Server 2016 has features that facilitate the end-to-end software upda
 ## Software update process
 <a name="updateprocess"> </a>
 
-The process that deploys updates in a SharePoint Server 2016 environment is a two-phase process: patching and build-to-build upgrade.
+The process that deploys updates in a SharePoint Server 2016, 2019, and Subscription Edition environment is a two-phase process: patching and build-to-build upgrade.
   
 Each phase has specific steps and results. It is possible to postpone the build-to-build upgrade phase.
   
@@ -105,7 +109,7 @@ The patch phase involves running the update on each SharePoint Server in the far
 
 The patch phase has two steps, the patch deployment step and the binaries deployment step. During the patch deployment step, new binary files are copied to the server running SharePoint Server 2016. Services that use files that the patch has to replace are temporarily stopped. Stopping services reduces the requirement to restart the server to replace files that are being used. However, in some instances you have to restart the server.
   
-The second step in the patch phase is the binaries deployment step. In this step, the installer copies support dynamic link library (.dll) files to the appropriate directories on the server that is running SharePoint Server 2016. This step ensures that all the web applications are running the correct version of the binary files and will function correctly after the update is installed. The update phase is complete after the binaries deployment step.
+The second step in the patch phase is the binaries deployment step. In this step, the installer copies support dynamic link library (.dll) files to the appropriate directories on the server that is running SharePoint Server 2016, 2019, or Subscription Edition. This step ensures that all the web applications are running the correct version of the binary files and will function correctly after the update is installed. The update phase is complete after the binaries deployment step.
   
 The next and final phase to deploy software updates is the build-to-build upgrade phase. This phase modifies database schemas, updates objects in the farm, and updates site collections.
   
@@ -122,7 +126,7 @@ After you finish the patch phase, you must complete the update installation by s
 <a name="updatestrategy"> </a>
 
 > [!NOTE]
-> The information in this section is valid if you farm is not in a high availability (HA) environment. If you have an HA environment, follow the instructions at [SharePoint Server 2016 zero downtime patching steps](./sharepoint-server-2016-zero-downtime-patching-steps.md).
+> The information in this section is valid if you farm is not in a high availability (HA) environment. If you have an HA environment, follow the instructions at [SharePoint Server zero downtime patching steps](./sharepoint-server-2016-zero-downtime-patching-steps.md).
   
 The update strategy that you select is based primarily on one of the following factors:
   
@@ -141,7 +145,7 @@ In terms of downtime reduction, the following options, ordered from most to leas
 ## Software update deployment cycle
 <a name="updatecycle"> </a>
 
-The cycle that is used for upgrading SharePoint Server 2016 farms and servers also applies to deploying software updates, which are a subset of an upgrade phase. We recommend that you use the update cycle in the following illustration as a guide to deploy software updates.
+The cycle that is used for upgrading SharePoint Server 2016, 2019, or Subscription Edition farms and servers also applies to deploying software updates, which are a subset of an upgrade phase. We recommend that you use the update cycle in the following illustration as a guide to deploy software updates.
   
 ![The software update deployment cycle](../media/SPS_farm_patch_cycle.gif)
   
@@ -161,7 +165,7 @@ Determine the strategy that you want to use to update the farm. Depending on you
     
 - Database-attach
     
-For more information about the update strategy to use, see [Install a software update for SharePoint Server 2016](install-a-software-update.md)
+For more information about the update strategy to use, see [Install a software update for SharePoint Server 2016, 2019, and Subscription Edition](install-a-software-update.md)
   
 #### Downtime reduction
 
