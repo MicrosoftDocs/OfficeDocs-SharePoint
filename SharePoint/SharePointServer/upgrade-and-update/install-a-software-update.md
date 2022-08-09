@@ -27,16 +27,16 @@ description: "Install a software update to perform a build-to-build upgrade on s
 
 Before you begin the software update process, review the following information about permissions, hardware requirements, software requirements, and update processes.
 
-- [Account permissions and security settings in SharePoint 2016](../install/account-permissions-and-security-settings-in-sharepoint-server-2016.md)
+- [Account permissions and security settings in SharePoint Servers](../install/account-permissions-and-security-settings-in-sharepoint-server-2016.md)
 
 - [Hardware and software requirements for SharePoint 2016](../install/hardware-and-software-requirements.md)
 
-- [Software updates overview for SharePoint 2016](./software-updates-overview.md)
+- [Software updates overview for SharePoint Server 2016, 2019, and Subscription Edition](./software-updates-overview.md)
 
-- [Prepare to deploy software updates for SharePoint 2016](./deploy-updates-for-sharepoint-server-2016.md)
+- [Prepare to deploy software updates for SharePoint Server 2016, 2019, and Subscription Edition](./deploy-updates-for-sharepoint-server-2016.md)
 
 >[!NOTE]
->While the steps in this article refer to SharePoint Server 2016, they are applicable to SharePoint Foundation 2013, SharePoint Server 2013, and SharePoint Server 2019 unless otherwise noted.
+>While the steps in this article refer to SharePoint Server 2016, they are applicable to SharePoint Foundation 2013, SharePoint Server 2013, SharePoint Server 2019, and SharePoint Server Subscription Edition unless otherwise noted.
 
 To perform the procedures in this article, you must have the following memberships and roles:
 
@@ -56,14 +56,14 @@ Before you install an update, verify that the following conditions are satisfied
 
 Do not start the update if any of the preceding conditions are not satisfied. Resolve all issues before you continue.
 
-SharePoint Server 2016 can handle certain upgrade failures after the patching phase finishes. However, if the build-to-build upgrade fails, you might have to restore from a backup. Therefore, make sure that you perform a full backup before you start the update process. After the restore is complete, you can resume the update. Completed tasks do not run again. For more information, see the following resources:
+SharePoint Server 2016, 2019, and Subscription Edition can handle certain upgrade failures after the patching phase finishes. However, if the build-to-build upgrade fails, you might have to restore from a backup. Therefore, make sure that you perform a full backup before you start the update process. After the restore is complete, you can resume the update. Completed tasks do not run again. For more information, see the following resources:
 
 - [Test and troubleshoot an upgrade to SharePoint 2016](./test-and-troubleshoot-an-upgrade.md)
 
 ## Determine the update strategy
 <a name="verifystrategy"> </a>
 
-Before you start to deploy a software update, verify that the update strategy that you plan to use is optimal for your SharePoint Server 2016 environment. There are several factors, such as downtime reduction, cost, and complexity that determine the strategy to use to deploy a software update. For more information about how the database-attach process works, see the diagrams in [Overview of the upgrade process from SharePoint 2013 to SharePoint Server 2016](./overview-of-the-upgrade-process.md).
+Before you start to deploy a software update, verify that the update strategy that you plan to use is optimal for your SharePoint Server 2016, 2019, or Subscription Edition environment. There are several factors, such as downtime reduction, cost, and complexity that determine the strategy to use to deploy a software update. For more information about how the database-attach process works, see the diagrams in [Overview of the upgrade process from SharePoint 2013 to SharePoint Server 2016](./overview-of-the-upgrade-process.md), [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process-2019.md), and [Overview of the upgrade process to SharePoint Server Subscription Edition](overview-of-the-upgrade-process-subscription-edition.md)..
 
 > [!NOTE]
 > Certain links in this article go to content that is about version-to-version upgrade rather than build-to-build upgrade. However, the general process is similar for the two types of upgrade. For example, the database upgrade phase is essentially the same for build-to-build upgrade and version-to-version upgrade.
@@ -129,8 +129,8 @@ The following illustration shows the steps that are required to install the upda
 
 12. Run the SharePoint Products Configuration Wizard on the first web server (WEB-1).
 
-    >[!NOTE]
-    >Run the configuration wizard to ensure that if an update fails for a specific server, the error is not propagated to the other web servers. For example, a failed update for one server could make the update fail for one or more site collections.
+    > [!NOTE]
+    > Run the configuration wizard to ensure that if an update fails for a specific server, the error is not propagated to the other web servers. For example, a failed update for one server could make the update fail for one or more site collections.
 
 13. Repeat the preceding step for each remaining web server.
 
@@ -154,7 +154,11 @@ This update scenario uses two phases to install the update on farm servers. Thes
 >[!IMPORTANT]
 >During the update phase, the farm can continue to be in production with minimal downtime. However, during the build-to-build upgrade phase, the farm will be unavailable. If users attempt to access content while the farm is upgrading, the result could be failed upgrades or excessive slowdowns in the upgrade process because of resource contention and locking. Such an attempt is unsupported and untested.
 
-For more information, see the [Software updates overview for SharePoint Server 2016](./software-updates-overview.md) section in [Overview of the upgrade process from SharePoint 2013 to SharePoint Server 2016](./verify-upgrade-for-databases.md).
+For more information, see the following:
+- [Software updates overview for SharePoint Server 2016, 2019, and Subscription Edition](./software-updates-overview.md)
+- [Overview of the upgrade process from SharePoint 2013 to SharePoint Server 2016](./verify-upgrade-for-databases.md)
+- [Verify database upgrades in SharePoint Server 2019](SharePoint/SharePointServer/upgrade-and-update/verify-upgrade-for-databases-2019.md)
+- [Verify database upgrades in SharePoint Server Subscription Edition](SharePoint/SharePointServer/upgrade-and-update/verify-upgrade-for-databases-subscription-edition.md)
 
 ### Update phase
 
