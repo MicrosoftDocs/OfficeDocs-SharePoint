@@ -18,40 +18,17 @@ description: Identify your business requirements for SharePoint and OneDrive as 
 
 # Identify business requirements for SharePoint and OneDrive
 
+This article provides an overview of SharePoint and OneDrive capabilities that can help you determine how to best take advantage of these services you your organization. Use this information to help you plan your rollout and also to find new capabilities that your current solutions might not offer.
 
+## Best practices for requirements gathering
 
-**Map out user journeys and core use cases.**
-test cases for pilot rollout)
-What additional capabilities are you trying to enable beyond what you've been using?
-Do you have client data to store that has compliance or perms requirements?
+**Define user journeys and core use cases.** How do people in your organization collaborate now? Where do they store files? How do they share news and other information? An important part of planning for SharePoint and OneDrive is documenting how your organization does collaboration tasks today. You can then map those tasks to new processes using SharePoint and OneDrive. These tasks can then become test cases for your initial pilot rollout.  For information about how Microsoft 365 improves productivity for different industries, see the [Productivity Library](https://support.office.com/article/d8ab82a5-5f02-4439-816b-4a5d35133e48).
 
-**Document the current state of business.**
- and mapping to new service
+**Evaluate your migration needs.** Most organizations have files and other content that they want to move to Microsoft 365. Some of this content may be in use every day by the people in your organization. Moving it all can take time. As you plan your rollout, plan for how you can migrate content while keeping the people in your organization productive. See [Migration planning for SharePoint and OneDrive rollout](plan-rollout-migration.md) for more information. If you use SharePoint Server on-premises, see [Hybrid OneDrive and SharePoint in Microsoft 365](hybrid.md). If you have paper records to import, see [Introduction to Microsoft SharePoint Syntex](/microsoft-365/contentunderstanding/).
 
-**Evaluate your migration needs.**
-Do you have paper records to import?
-[Introduction to Microsoft SharePoint Syntex](/microsoft-365/contentunderstanding/)
+**Involve legal and compliance teams early.** Most organizations have legal or compliance requirements around how they handle various kinds of data. Microsoft 365 offers many options to help you maintain compliance in your organization. As you plan your rollout, involve your legal or compliance team early in the process to help maintain your compliance requirements as you transition to SharePoint and OneDrive. See [Create a compliant SharePoint and OneDrive environment](compliant-environment.md) for more information.
 
-**Evaluate your customization needs.**
-and consider resources needed and maintenance overhead.
-
-**Involve legal and compliance early.**
-
-**Drive agreement across stakeholders.**
-
-**Market the services internally.**
-
-
-
-
-- **Stakeholders.** Securing the participation and buy-in of key people within your organization is critical to successful user adoption. This support can come from business-focused leaders, IT leadership, or anyone else who has a vested interest in seeing Microsoft 365 succeed in the organization. It is important to have both executive or business leader support and product champions to help carry the knowledge to their peers. Whether you're formally delegating the product champion role or allowing it to grow organically, champions are mission critical to user adoption.
-
-- **Scenarios.** When planning to implement OneDrive and SharePoint, identify and define your business scenarios and how those scenarios align with the benefits of implementing OneDrive and SharePoint. Work with your key stakeholders to identify the goals of the business scenarios, and then match those goals against usage scenarios. For example, a business goal may be to maximize user productivity; a key usage scenario enabling that goal would be using OneDrive to access files from mobile devices, PCs, and Macs. For help with this process, see the [Productivity Library](https://support.office.com/article/d8ab82a5-5f02-4439-816b-4a5d35133e48).
-
-
-
-
-do you use SharePoint Server on-premises
+**Drive agreement across stakeholders.** Securing the participation and buy-in of key people within your organization is critical to successful user adoption. This support can come from business-focused leaders, IT leadership, or anyone else who has a vested interest in seeing Microsoft 365 succeed in the organization. It is important to have both executive or business leader support and product champions to help carry the knowledge to their peers. Whether you're formally delegating the product champion role or allowing it to grow organically, champions are mission critical to user adoption.
 
 ## Core SharePoint and OneDrive use cases
 
@@ -83,7 +60,7 @@ In SharePoint and OneDrive, user can use [Microsoft 365 Apps](/deployoffice/abou
 
 **Collaborate in a site or team.** In a SharePoint site or a Microsoft Teams team, all the members of the site or team have access to - and can easily collaborate on - the files stored there.
 
-**Share SharePoint files using sharable links.** If a user needs to share a SharePoint file with someone outside the site or team, they can use sharable links in the same way that the do in OneDrive.
+**Share SharePoint files using sharable links.** If a user needs to share a SharePoint file with someone outside the site or team, they can use sharable links in the same way that they do in OneDrive.
 
 **Sync files for offline access.** With the OneDrive sync app, users can sync files between their computer and the Microsoft 365 cloud. When users add, change, or delete a file or folder locally, the file or folder is added, changed, or deleted in the cloud and vice versa. Users can work with synced files directly in File Explorer and the apps they use. Whenever the user is online, any changes that they or other users make will sync automatically. 
 
