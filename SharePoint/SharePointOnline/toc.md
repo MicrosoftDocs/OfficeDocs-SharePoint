@@ -19,6 +19,8 @@
 #### [Sites]()
 ##### [Planning hub sites](planning-hub-sites.md)
 
+#### [Sync](02-plan-file-sync.md)
+
 #### [Migration](06-plan-rollout-migration.md)
 
 ### [Compliance]()
