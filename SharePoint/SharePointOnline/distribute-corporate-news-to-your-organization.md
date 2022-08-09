@@ -65,9 +65,9 @@ You may have different audiences for different messages. Understanding your audi
 
 ## Create an organization news site
 
-SharePoint administrators can specify any number of organization news sites. For multi-geo tenants, organization news sites would have to be set up for each geo location. Each geo location could use the same central organization news site, and/or have its own unique site that shows organization news specific to that region.
+SharePoint Administrators can specify any number of organization news sites. For multi-geo tenants, organization news sites would have to be set up for each geo location. Each geo location could use the same central organization news site, and/or have its own unique site that shows organization news specific to that region.
 
-To enable and specify the site for organization news, a SharePoint administrator must use the latest [SharePoint Online PowerShell commands](/powershell/module/sharepoint-online):
+To enable and specify the site for organization news, a SharePoint Administrator must use the latest [SharePoint Online PowerShell commands](/powershell/module/sharepoint-online):
 
 - [Get-SPOOrgNewsSite](/powershell/module/sharepoint-online/get-spoorgnewssite)
 - [Set-SPOOrgNewsSite](/powershell/module/sharepoint-online/set-spoorgnewssite)
