@@ -18,44 +18,44 @@ description:
 
 # Plan for SharePoint and OneDrive in Microsoft 365
 
-Content storage and collaboration needs
 
 
-What's the desired outcome of rolling out ODSP?
+SharePoint is deeply integrated with Microsoft Teams. As part of your SharePoint and OneDrive rollout, we recommend that you review [Microsoft Teams deployment overview](/microsoftteams/deploy-overview).
 
 
-[Microsoft Teams deployment overview](/microsoftteams/deploy-overview)
+As you plan your rollout, in addition to the technical planning considerations provided here, consider theses questions:
 
-Cutover from old system to new system
+- What are your high-level goals for rolling out OneDrive and SharePoint?
+- What are the file storage and collaboration needs of your organization?
+- How do you want to transition from your current tools to OneDrive and SharePoint?
+- How important is migration of content as part of your rollout?
+- Should your administrators specialize in a particular area of OneDrive or SharePoint or should they work from a shared queue of tasks?
 
+This article and the other articles in this section include the core planning considerations for rolling out OneDrive and SharePoint in a medium to large organization.
 
-Should migration throughput be the rollout driver?
+This article includes planning information on:
+- Site planning
+- File sync
+- Network utilization
+- Change management
 
+After you review this article, see these article for additional planning information:
 
-Should ODSP admins specialize or work from a queue? How many and how organized?
+- [Identify business requirements for SharePoint and OneDrive](business-requirements.md)
 
-What are the customization requirements?
+- [Hybrid OneDrive and SharePoint in Microsoft 365](hybrid.md)
 
+- [Migration planning for SharePoint and OneDrive rollout](plan-rollout-migration.md)
 
-[Identify business requirements for SharePoint and OneDrive](business-requirements.md)
+- [Create a compliant SharePoint and OneDrive environment](compliant-environment.md)
 
-[Hybrid OneDrive and SharePoint in Microsoft 365](hybrid.md)
+- [Plan sharing and collaboration options in SharePoint and OneDrive](collaboration-options.md)
 
-[Migration planning for SharePoint and OneDrive rollout](plan-rollout-migration.md)
+- [Training and change management for rolling out SharePoint and OneDrive](training-change-management.md)
 
-[Create a compliant SharePoint and OneDrive environment](compliant-environment.md)
+- [Migrate content as part of your SharePoint and OneDrive rollout](rollout-migration.md)
 
-[Plan sharing and collaboration options in SharePoint and OneDrive](collaboration-options.md)
-
-[Training and change management for rolling out SharePoint and OneDrive](training-change-management.md)
-
-[Migrate content as part of your SharePoint and OneDrive rollout](rollout-migration.md)
-
-[Roll out SharePoint and OneDrive](roll-out-sharepoint-onedrive.md)
-
-
-
-
+- [Roll out SharePoint and OneDrive](roll-out-sharepoint-onedrive.md)
 
 ## Migrating with FastTrack
 
