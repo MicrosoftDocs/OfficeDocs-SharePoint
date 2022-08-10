@@ -45,7 +45,7 @@ As a global or SharePoint admin in Microsoft 365, you can let your users create 
 
     ![Site creation settings in the new SharePoint admin center](media/site-creation.png)
 
-3. If you want users to be able to create sites from these services, select **Let users create sites from the SharePoint start page and OneDrive**.
+3. If you want users to be able to create sites from these services, select **Show the options to create a site in SharePoint and create a shared library from OneDrive**.
 
     > [!NOTE]
     > Even if you clear this check box, users may be able to create Microsoft 365 groups from other places in Microsoft 365. Each group always comes with a team site. [Learn how to manage who can create Microsoft 365 groups](/office365/admin/create-groups/manage-creation-of-groups)
