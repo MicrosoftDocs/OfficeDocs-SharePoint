@@ -24,7 +24,6 @@ description: Migration Manager Google FAQs
 **Question:**   **Are there any other tools available to migrate my Google accounts?**</br>
 Answer.  At this time Migration Manager is the tool to use to for migrating Google content.
 
-
 **Question:**  **Is this available for GCC, GCCHigh, DoD tenants?**</br>
 Answer.  No, currently this Migration Manager Google is not available for any of the Government clouds.
 </br>
@@ -63,3 +62,6 @@ Answer:  No. During a migration, only the most recent version of a file is trans
 
 **Question:**   **Does Migration Manager automatically notify users?**</br>
 Answer:  No.  We automatically suppress all emails to users so they are not bombarded with excessive notifications about the data they now have access to.</br>
+
+**Question:** Does Migration Manager transfer permissions for shared drives? 
+Answer: No. During a migration, we only transfer permissions for user drives. Permissions for shared drives are not migrated. [Learn how to migrate Google Shared Drives](/sharepointmigration/mm-google-overview#google-shared-drives)
