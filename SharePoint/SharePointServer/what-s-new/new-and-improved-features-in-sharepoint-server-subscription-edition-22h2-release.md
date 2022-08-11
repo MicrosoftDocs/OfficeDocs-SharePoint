@@ -30,7 +30,8 @@ This section provides detailed descriptions of the new and updated features in S
 
 ### Feature release rings
 
-As Microsoft delivers on its promise of an evergreen experience for SharePoint Server Subscription Edition, we recognize how important it is that customers have control over how new feature experiences and capabilities become available in their environments. To support this, we're introducing feature release rings in SharePoint Server Subscription Edition Version 22H2. There will be two rings in this version: 
+As Microsoft delivers on its promise of an evergreen experience for SharePoint Server Subscription Edition, we recognize how important it is that customers have control over how new feature experiences and capabilities become available in their environments. To support this, we're introducing feature release rings in SharePoint Server Subscription Edition Version 22H2. 
+The two rings in this version are as follows: 
 
 - Early release
 
