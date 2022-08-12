@@ -85,3 +85,12 @@ User adoption is important to the overall success of any new application. Ideall
 Creating awareness through awareness campaigns such as announcements, launch events, newsletters, town hall meetings, contests, and giveaways is a critical path to maximizing adoption. In addition, providing users with knowledge through classroom-style sessions and self-help guides helps them feel empowered to use OneDrive and SharePoint.
 
 For more information about user adoption and change management when rolling out SharePoint and OneDrive, see [Training and change management for rolling out SharePoint and OneDrive](training-change-management.md)
+
+## Next steps
+
+> [!div class="nextstepaction"]
+> [Hybrid OneDrive and SharePoint](hybrid.md)
+
+## Related topics
+
+[Plan for SharePoint and OneDrive in Microsoft 365](plan-for-sharepoint-onedrive.md)

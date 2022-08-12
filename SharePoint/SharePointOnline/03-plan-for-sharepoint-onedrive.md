@@ -111,5 +111,5 @@ We recommend that you review [Customizing SharePoint](/sharepoint/extend-and-dev
 
 ## Next steps
 
-   > [!div class="nextstepaction"]
-   > [Identify business requirements](04-business-requirements.md)
+> [!div class="nextstepaction"]
+> [Identify business requirements](business-requirements.md)
