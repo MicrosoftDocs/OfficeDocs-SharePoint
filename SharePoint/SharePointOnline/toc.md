@@ -46,8 +46,6 @@
 ##### [Distribute news using a hub site](guided-walkthrough-set-up-news-with-hub-site.md)
 #### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
 
-
-#### [Migrate content](13-rollout-migration.md)
 #### [Roll out SharePoint and OneDrive](12-roll-out-sharepoint-onedrive.md)
 
 
