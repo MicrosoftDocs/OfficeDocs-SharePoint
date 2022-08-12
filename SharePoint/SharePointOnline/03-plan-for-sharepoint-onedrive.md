@@ -109,3 +109,7 @@ SharePoint offers many customization options, including:
 
 We recommend that you review [Customizing SharePoint](/sharepoint/extend-and-develop) to determine if you want to include any of these customizations as part of your SharePoint rollout.
 
+## Next steps
+
+   > [!div class="nextstepaction"]
+   > [Identify business requirements](04-business-requirements.md)
