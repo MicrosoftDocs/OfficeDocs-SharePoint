@@ -72,7 +72,7 @@ Every organization has its own variation of technical and soft skills that need 
 
 - **Use Viva Learning to surface all your learning content in one place.** Bring learning content from Microsoft, your organization's SharePoint, and the learning management systems your organization already uses into [Viva Learning](/viva/learning) so your employees can easily access the learning and training content they need without leaving Microsoft Teams.
 
-- **
+- **Curate custom training playlists on SharePoint with Learning Pathways.** Bring custom content and Microsoft training content together to create learning and training playlists. Use [Learning Pathways](/office365/customlearning/) web parts with audience targeting to make sure that your employees see the content that's most relevant to them.
 
 - **Create a learning and development landing page using SharePoint.** Create a SharePoint communication site using the [Learning Central SharePoint Communication site template](https://support.microsoft.com/office/use-the-sharepoint-learning-central-site-template-8a38c30a-746c-4081-8781-3679d6a3c0f6). Use the site to direct employees to events, news, and information about required learning and extra-curricular resources.
 
@@ -86,13 +86,17 @@ Build out the learning and training experience one platform at a time. The tools
 
 ## Review learning and training tools
 
-### Use Viva Learning to curate learning experiences
+### Use Viva Learning to make learning content easily accessible from within Teams
 
 ![Screenshot of a Viva Learning home page.](media/viva-learning-home-page.png)
 
 [Viva Learning is an application for Microsoft Teams](/viva/learning/overview-viva-learning) that allows users to discover, recommend, and access learning modules from different platforms to help users gain knowledge in any specific focus area. Viva Learning pulls content from LinkedIn Learning, Microsoft Learn, and Microsoft 365 Training. You can also add your organization's own custom content from SharePoint, and integrate Viva Learning with learning management systems and third-party content providers that you already use. Use Viva Learning to make sure each of your employees has the knowledge they need for organizational needs, team needs, and the tools that they will be working with daily.
 
-In Viva Learning, managers of an organization or team can assign learning and track the learning progress of each module. The Viva Learning home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. Learn more about [Viva Learning](https://www.microsoft.com/microsoft-viva/learning/?ef_id=21e9ec552f93177bad868d00eec92fd8:G:s&OCID=AID2200888_SEM_21e9ec552f93177bad868d00eec92fd8:G:s&msclkid=21e9ec552f93177bad868d00eec92fd8)
+In Viva Learning, managers of an organization or team can recommend learning and track the learning progress of each module. The Viva Learning home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. Learn more about [Viva Learning](https://www.microsoft.com/microsoft-viva/learning/?ef_id=21e9ec552f93177bad868d00eec92fd8:G:s&OCID=AID2200888_SEM_21e9ec552f93177bad868d00eec92fd8:G:s&msclkid=21e9ec552f93177bad868d00eec92fd8)
+
+### Curate and target custom training playlists with Learning Pathways
+
+<!--daisy you stopped here-->
 
 ### Create a learning and development landing page using SharePoint
 
