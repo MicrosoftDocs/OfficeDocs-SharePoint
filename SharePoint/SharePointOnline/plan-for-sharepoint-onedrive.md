@@ -111,3 +111,9 @@ We recommend that you review [Customizing SharePoint](/sharepoint/extend-and-dev
 
 > [!div class="nextstepaction"]
 > [Identify business requirements](business-requirements.md)
+
+## Related topics
+
+[OneDrive Adoption](https://adoption.microsoft.com/onedrive/)
+
+[SharePoint Adoption](https://adoption.microsoft.com/sharepoint/)
