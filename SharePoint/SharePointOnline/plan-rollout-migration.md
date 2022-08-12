@@ -44,9 +44,9 @@ for more information.
 
 ## Migrating users' personal work files to OneDrive
 
-As part of your OneDrive rollout, 
+As part of your rollout, you may be migrating your users' personal work files to OneDrive. As part of this process, you may need to pre-provision users' OneDrive libraries.
 
-Normally, a user's OneDrive is created the first time they access OneDrive. If you will be migrating your users' files on their behalf before they begin using OneDrive, you may need to pre-provision OneDrive for each of them. See [Pre-provision OneDrive for users in your organization](pre-provision-accounts.md) for details.
+Normally, a user's OneDrive is created the first time they access OneDrive. If you will be migrating your users' files on their behalf before they begin using OneDrive, you'll need to pre-provision OneDrive for each of them. See [Pre-provision OneDrive for users in your organization](pre-provision-accounts.md) for details.
 
 ### Files in on-premises OneDrive or MySites libraries
 
