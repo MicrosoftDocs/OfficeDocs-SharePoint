@@ -13,55 +13,61 @@ ms.localizationpriority: medium
 ms.collection:  
 ms.custom: intro-get-started
 search.appverid: MET150
-description: 
+description: Plan your migration of sites and files as part of your OneDrive and SharePoint rollout.
 ---
 
 # Migration planning for SharePoint and OneDrive rollout
 
-	migration requirements gathering
+A key task in deploying SharePoint and OneDrive for your organization is a plan to migrate your users' existing files. Depending on where these files are kept, there are several options, discussed below. You can choose one or more of these options depending on the number and location of files that you need to migrate.
 
-	Systems integration that needs to be migrated
+The following types of data can be migrated with Microsoft tools:
+- Files and folders (from on-premises or other cloud providers)
+- SharePoint Server sites
+- SharePoint Server 2010 workflows
 
-- Do your users have OneDrive on-premises data that needs to be migrated to OneDrive in Microsoft 365?
+Keep in mind that migrating content may result in a surge of network activity as large amounts of data is moved to SharePoint and OneDrive.
 
+For complete information on migrating content to SharePoint and OneDrive, see [Migrate your content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online).
 
-## Migrating data
+#### Automation and workflows
 
-A key task in deploying OneDrive for your organization is a plan to migrate your users existing files to OneDrive. Depending on where these files are kept, there are several options, discussed below. You can choose one or more of these options depending on the number and location of files that you need to migrate.
+If you have automated processes or workflows around files or other content, you may need to consider how to integrate those processes with Microsoft 365 or migrate them as well. Consider using [SharePoint Framework solutions](/sharepoint/dev/) or [Microsoft Power Platform](/power-platform).
 
-Another planning consideration is who will be migrating the data. Normally, a user's OneDrive is created the first time they access OneDrive. If you will be migrating your users' files on their behalf before they begin using OneDrive, you may need to pre-provision OneDrive for each of them. (This can be done with a PowerShell script.)
+If you have SharePoint Server 2010 workflows, you can migrate them to Power Automate by using the SharePoint Migration Tool. See [Overview: Migrate SharePoint Server 2010 workflows to Power Automate](/sharepointmigration/spmt-workflow-overview) for more information.
 
-Keep in mind that any of the migration options listed below may result in a surge of network activity as large numbers of files are migrated to OneDrive.
+#### Hybrid
 
-Key decisions:
+If you use SharePoint Server on-premises, you may want to set up a hybrid environment with SharePoint in Microsoft 365 while you migrate or as a long term solution. See [Hybrid OneDrive and SharePoint in Microsoft 365](hybrid.md)
+for more information.
 
-- Which of the following migration methods do you want to use?
+## Migrating users' personal work files to OneDrive
 
-- Are you configuring hybrid OneDrive? (See the hybrid section of this article for the considerations around this option.)
+As part of your OneDrive rollout, 
 
-- Do you need to pre-provision OneDrive for your users? (Are you migrating files before users have started using OneDrive?)
+Normally, a user's OneDrive is created the first time they access OneDrive. If you will be migrating your users' files on their behalf before they begin using OneDrive, you may need to pre-provision OneDrive for each of them. See [Pre-provision OneDrive for users in your organization](pre-provision-accounts.md) for details.
 
 ### Files in on-premises OneDrive or MySites libraries
 
-If users' existing files are in on-premises SharePoint, OneDrive, or MySites, you can use the SharePoint Migration Tool to migrate the files to Microsoft 365. For info, see [Overview of the SharePoint Migration Tool (SPMT)](/sharepointmigration/introducing-the-sharepoint-migration-tool).
-
-The SharePoint Migration Tool can be used by your IT department to migrate files for users. This is the recommended method of migration for files in an on-premises SharePoint farm.
+If users' existing files are in on-premises SharePoint Server, OneDrive, or MySites, you can use the SharePoint Migration Tool to migrate the files to Microsoft 365. For info, see [Overview of the SharePoint Migration Tool (SPMT)](/sharepointmigration/introducing-the-sharepoint-migration-tool).
 
 ### Files on users' local known folders
 
-If user files are located in Windows known folders such as their Desktop, Documents, or Pictures folders, you can use Known Folder Move to move and redirect these locations. You can enable this feature during the initial rollout of OneDrive or sometime later. For more info, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md).
+If user files are located in their Windows or Mac  Desktop or Documents folders, you can use Known Folder Move to move and redirect these locations to OneDrive. You can enable this feature during the initial rollout of OneDrive or sometime later. For more info, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md) and [Redirect and move macOS Desktop and Documents folders to OneDrive](redirect-known-folders-macos).
 
 ### Files in other local disk folders
 
-If users have other work files in various locations on their computers, it's often easiest for them to manually move the files to OneDrive. After you deploy the OneDrive sync app to your users' computers, you can instruct them to move their work files to the OneDrive folder on their computer.
+If users have other work files in various locations on their computers, it's often easiest for them to manually move the files to OneDrive. After you deploy the OneDrive sync app to your users' computers, you can instruct them to move their work files to the OneDrive folder on their computer. For more information, see [Move files from OneDrive to OneDrive for work or school](https://support.microsoft.com/office/7fb28cad-7e25-451f-8b4b-2d1a71e5c0e9).
 
-### Files in file shares or other cloud providers
+## Migrating sites from SharePoint Server to SharePoint in Microsoft 365
 
-You can use Migration Manager to migrate these files to OneDrive. [Migrate files shares to Microsoft 365 with Migration Manager](/sharepointmigration/mm-get-started)
+If you have sites in SharePoint Server, you can migrate them to SharePoint in Microsoft 365 by using the SharePoint Migration Tool. You can do this as part of your SharePoint and OneDrive rollout, or you can do it later. For details, see [Overview of the SharePoint Migration Tool (SPMT)](/sharepointmigration/introducing-the-sharepoint-migration-tool).
 
-[Migrate your content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online)
+## Migrating files in file shares or hosted on other cloud providers
 
-You can:
+For files located in file shares or other cloud providers, you can use Migration Manager to migrate them to SharePoint and OneDrive. For details, see [Migrate files shares to Microsoft 365 with Migration Manager](/sharepointmigration/mm-get-started).
+
+See these references for specific instructions on how to migrate from different locations:
+
 - [Migrate from file shares](/sharepointmigration/mm-get-started)
 - [Migrate from Box](/sharepointmigration/mm-box-overview)
 - [Migrate from Google Workspace](/sharepointmigration/mm-google-overview)
