@@ -89,7 +89,7 @@ For more information about user adoption and change management when rolling out 
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Hybrid OneDrive and SharePoint](hybrid.md)
+> [Plan for hybrid OneDrive and SharePoint](hybrid.md)
 
 ## Related topics
 
