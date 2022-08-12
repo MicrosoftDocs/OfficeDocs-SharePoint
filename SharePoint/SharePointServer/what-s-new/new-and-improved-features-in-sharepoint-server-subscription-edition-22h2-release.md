@@ -55,7 +55,12 @@ ListData.svc has been rebuilt so that it no longer depends on dated WCF Data Ser
 
 ### Customizable modern suite navigation bar color
 
-SharePoint Server Subscription Edition Version 22H2 provides options to apply themes to the SharePoint Suite Navigation bar (SuiteNav).The Suite Navigation background will no longer automatically use custom theme colours; instead, it will remain black as before. To apply the custom theme color to the Suite Navigation background, select the theme in the **Change the look** pane, click **Customize**, and then check the **Apply the main color to the Suite Navigation** checkbox.
+SharePoint Server Subscription Edition Version 22H2 provides options to apply themes to the SharePoint Suite Navigation bar (SuiteNav).The Suite Navigation background will no longer automatically use custom theme colours; instead, it will remain black as before. 
+
+To apply the custom theme color to the Suite Navigation background, do the following: 
+
+1. Select the theme in the **Change the look** pane, click **Customize**.
+2. Check **Apply the main color to the Suite Navigation** checkbox.
 
 
 ### Copy and move improvement in modern document library
