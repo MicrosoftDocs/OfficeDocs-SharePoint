@@ -62,6 +62,7 @@ To apply the custom theme color to the Suite Navigation background, do the follo
 1. Select the theme in the **Change the look** pane, click **Customize**.
 2. Check **Apply the main color to the Suite Navigation** checkbox.
 
+    :::image type="content" source="../media/change_the_look.png" alt-text="Screenshot of navigation bar.":::
 
 ### Copy and move improvement in modern document library
 
@@ -76,8 +77,9 @@ If the same term store is used in both the source and destination locations, the
 ### Column formatting enhancement
 
 SharePoint Server Subscription Edition Version 22H2 enhances the column formatting capabilities of the modern UX by adding suppport for Excel-style expressions and also supports Abstract Syntax Tree (AST) expressions. Column formatting allows you to customize how fields in SharePoint lists and libraries are displayed to the users. This feature gives you the capability to visualize data in a variety of different ways to meet your needs, from applying color and other formatting to quickly understand the data at a glance, to powerful custom actions based on the state of the data. With a rich and flexible set of potential customizations, column formatting makes working with SharePoint lists and libraries much more engaging. To know more about the feature see, 
-- [Use column formatting to customize SharePoint](https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting).
-- [Formatting syntax reference](https://docs.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference): "Expressions can be written using Excel-style expressions in SharePoint Online, or by using Abstract Syntax Tree expressions in SharePoint Online and SharePoint 2019." and "All Excel-style expressions begin with an equal (=) sign. This style of expression is only available in SharePoint Online (not SharePoint 2019)."  
+
+- [Use column formatting to customize SharePoint](/sharepoint/dev/declarative-customization/column-formatting).
+- [Formatting syntax reference](/sharepoint/dev/declarative-customization/formatting-syntax-reference): "Expressions can be written using Excel-style expressions in SharePoint Online, or by using Abstract Syntax Tree expressions in SharePoint Online and SharePoint 2019." and "All Excel-style expressions begin with an equal (=) sign. This style of expression is only available in SharePoint Online (not SharePoint 2019)."  
 
 ### Button web part
 
