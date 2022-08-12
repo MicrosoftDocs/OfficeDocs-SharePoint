@@ -94,4 +94,12 @@ Viva Learning is a centralized learning hub in Microsoft Teams where your team c
 
 For more information about Viva Learning, see [Overview of Microsoft Viva Learning](/viva/learning/overview-viva-learning) and [Viva Learning Overview](https://support.microsoft.com/office/01bfed12-c327-41e0-a68f-7fa527dcc98a).
 
+## Next steps
+
+> [!div class="nextstepaction"]
+> [Migrate content as part of your rollout](rollout-migration.md)
+
+## Related topics
+
+[Plan for SharePoint and OneDrive in Microsoft 365](plan-for-sharepoint-onedrive.md)
 

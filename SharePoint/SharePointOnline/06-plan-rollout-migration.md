@@ -76,3 +76,11 @@ See these references for specific instructions on how to migrate from different 
 - [Migrate SharePoint Server sites and content](/sharepointmigration/introducing-the-sharepoint-migration-tool)
 - [Migrate SharePoint Server workflows](/sharepointmigration/spmt-workflow-overview)
 
+## Next steps
+
+> [!div class="nextstepaction"]
+> [Create a compliant SharePoint and OneDrive environment](compliant-environment.md)
+
+## Related topics
+
+[Plan for SharePoint and OneDrive in Microsoft 365](plan-for-sharepoint-onedrive.md)

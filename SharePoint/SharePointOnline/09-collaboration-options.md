@@ -104,7 +104,14 @@ These options can also be configured for individual sites. See [Change the shari
 
 If you've enabled *Anyone* links, you can choose if these links should expire after a given period and if they should allow edit access or just view access.
 
+## Next steps
+
+> [!div class="nextstepaction"]
+> [Plan file sync](plan-file-sync.md)
+
 ## Related topics
+
+[Plan for SharePoint and OneDrive in Microsoft 365](plan-for-sharepoint-onedrive.md)
 
 [Set up secure file sharing and collaboration with Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 

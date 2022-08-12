@@ -78,7 +78,14 @@ When IB policies are in place, users who shouldn't communicate or share files wi
 
 If your business requires information barriers, see [Learn about information barriers](/microsoft-365/compliance/information-barriers) and [Use information barriers with SharePoint](/sharepoint/information-barriers) to get started.
 
+## Next steps
+
+> [!div class="nextstepaction"]
+> [Plan sharing and collaboration options](collaboration-options.md)
+
 ## Related topics
+
+[Plan for SharePoint and OneDrive in Microsoft 365](plan-for-sharepoint-onedrive.md)
 
 [B2B Sync](b2b-sync.md)
 

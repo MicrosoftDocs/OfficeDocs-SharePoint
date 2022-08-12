@@ -55,10 +55,11 @@ If you don't use OneDrive in SharePoint Server, but you do have an on-premises S
 
 For more info about how to configure OneDrive in a hybrid scenario and how it works, see [Plan hybrid OneDrive](/sharepoint/hybrid/plan-hybrid-onedrive-for-business/).
 
+## Next steps
 
+> [!div class="nextstepaction"]
+> [Plan for content migration](plan-rollout-migration.md)
 
+## Related topics
 
-
-
-
-
+[Plan for SharePoint and OneDrive in Microsoft 365](plan-for-sharepoint-onedrive.md)

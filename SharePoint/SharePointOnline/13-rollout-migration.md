@@ -40,3 +40,11 @@ where is your content now?
 
 [Redirect and move macOS Desktop and Documents folders to OneDrive](/onedrive/redirect-known-folders-macos)
 
+## Next steps
+
+> [!div class="nextstepaction"]
+> [Roll out SharePoint and OneDrive](roll-out-sharepoint-onedrive.md)
+
+## Related topics
+
+[Plan for SharePoint and OneDrive in Microsoft 365](plan-for-sharepoint-onedrive.md)
