@@ -23,7 +23,6 @@ description: "Learn how to build a learning and training experience for employee
 ---
 
 # Build learning and training experiences for employees
-<br>
 
 Learn how to build a training and learning experience that will keep employees and team members up to date with important skills and proficiencies required for professional success.
 
@@ -36,8 +35,6 @@ This article will  show you how to create a training solution that includes a du
 - Keeping employees up to date about important learning and training due dates and opportunities
 - Launching an accessible and scalable experience by ensuring employees know how to access modules, courses, and resources and asking for feedback to make improvements along the way
 
-
-
 ## Overview of creating a training and learning experience for employees
 
 |Plan|Build|Launch|
@@ -47,7 +44,6 @@ This article will  show you how to create a training solution that includes a du
 
 ## Plan a training and learning experience
 
-
 **Planning considerations:**
 
 - For some professions and disciplines, federal or state mandates may be in place requiring specific learning and training. Be sure to keep up with these dates to inform your organization's practice.
@@ -55,7 +51,6 @@ This article will  show you how to create a training solution that includes a du
 - Employees have varying and busy schedules. Be sure to notify employees more than one time about upcoming required learning before the due date to make sure it's top of mind.
 
 - Depending on the organization, employees may be working across multiple regions and time zones. For live learning events, choose times that accommodate most employees.
-
 
 |![Understand your organizational needs icon.](media/lt-1.png)|![List learning objectives icon.](media/lt-3.png)|![Define goals and outcomes icon.](media/lt-2.png)|![Review M365 tools icon.](media/lt-4.png)
 |:---:|:---:|:---:|:---:|
@@ -93,9 +88,9 @@ Build out the learning and training experience one platform at a time. The tools
 
 ![Screenshot of a Viva Learning home page.](media/viva-learning-home-page.png)
 
-[Viva Learning is an application for Microsoft Teams.](/viva/learning/overview-viva-learning) that allows users to discover, recommend, and access learning modules from different platforms to help users gain knowledge in any specific focus area. Viva Learning pulls content from LinkedIn Learning, Microsoft Learn, Microsoft 365 Training, and other partners. Use Viva Learning to curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they will be working with daily.
+[Viva Learning is an application for Microsoft Teams](/viva/learning/overview-viva-learning) that allows users to discover, recommend, and access learning modules from different platforms to help users gain knowledge in any specific focus area. Viva Learning pulls content from LinkedIn Learning, Microsoft Learn, and Microsoft 365 Training. You can also add your organization's own custom content from SharePoint, and integrate Viva Learning with learning management systems and third-party content providers that you already use. Use Viva Learning to make sure each of your employees has the knowledge they need for organizational needs, team needs, and the tools that they will be working with daily.
 
-In Viva Learning, managers of an organization or team can assign learning and track the learning progress of each module. The Viva Learning home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. Learn more about [Viva Learning](https://www.microsoft.com/en-us/microsoft-viva/learning/?ef_id=21e9ec552f93177bad868d00eec92fd8:G:s&OCID=AID2200888_SEM_21e9ec552f93177bad868d00eec92fd8:G:s&msclkid=21e9ec552f93177bad868d00eec92fd8)
+In Viva Learning, managers of an organization or team can assign learning and track the learning progress of each module. The Viva Learning home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. Learn more about [Viva Learning](https://www.microsoft.com/microsoft-viva/learning/?ef_id=21e9ec552f93177bad868d00eec92fd8:G:s&OCID=AID2200888_SEM_21e9ec552f93177bad868d00eec92fd8:G:s&msclkid=21e9ec552f93177bad868d00eec92fd8)
 
 ### Create a learning and development landing page using SharePoint
 
