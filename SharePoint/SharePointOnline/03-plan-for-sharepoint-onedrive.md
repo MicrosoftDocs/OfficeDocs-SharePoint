@@ -46,8 +46,6 @@ After you review this article, see these article for additional planning informa
 
 - [Training and change management for rolling out SharePoint and OneDrive](training-change-management.md)
 
-- [Migrate content as part of your SharePoint and OneDrive rollout](rollout-migration.md)
-
 - [Roll out SharePoint and OneDrive](roll-out-sharepoint-onedrive.md)
 
 ## Migrating with FastTrack

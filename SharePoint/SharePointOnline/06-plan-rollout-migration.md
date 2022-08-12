@@ -22,8 +22,10 @@ A key task in deploying SharePoint and OneDrive for your organization is a plan 
 
 The following types of data can be migrated with Microsoft tools:
 - Files and folders (from on-premises or other cloud providers)
-- SharePoint Server sites
+- SharePoint Server sites and content
 - SharePoint Server 2010 workflows
+
+We recommend that you have the people in your organization review the content that they're planing to migrate to SharePoint and OneDrive. There may be old content that isn't needed anymore and can be deleted or archived. This can help you save migration time and storage space in Microsoft 365.
 
 Keep in mind that migrating content may result in a surge of network activity as large amounts of data is moved to SharePoint and OneDrive.
 

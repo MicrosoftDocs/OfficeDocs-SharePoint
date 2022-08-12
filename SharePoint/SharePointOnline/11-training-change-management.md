@@ -97,7 +97,7 @@ For more information about Viva Learning, see [Overview of Microsoft Viva Learni
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Migrate content as part of your rollout](rollout-migration.md)
+> [Roll out SharePoint and OneDrive](roll-out-sharepoint-onedrive.md)
 
 ## Related topics
 
