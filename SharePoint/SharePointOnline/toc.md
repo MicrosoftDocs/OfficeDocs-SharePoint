@@ -2,7 +2,7 @@
 # [SharePoint](introduction.md)
 ## [Introduction]()
 ### [Intro to file collaboration](intro-to-file-collaboration.md)
-### [Intro to OneDrive](01-my-files-overview.md)
+### [Intro to OneDrive](onedrive-overview.md)
 ### [Intro to sites](guide-to-sharepoint-modern-experience.md)
 ### [Branding](branding-sharepoint-online-sites-modern-experience.md)
 ### [Governance overview](governance-overview.md)
@@ -10,30 +10,30 @@
 
 ## [Get started]()
 
-### [Plan for SharePoint and OneDrive](03-plan-for-sharepoint-onedrive.md)
+### [Plan for SharePoint and OneDrive](plan-for-sharepoint-onedrive.md)
 
-#### [Business requirements](04-business-requirements.md)
+#### [Business requirements](business-requirements.md)
 
-#### [Hybrid](05-hybrid.md)
+#### [Hybrid](hybrid.md)
 
 #### [Sites]()
 ##### [Planning hub sites](planning-hub-sites.md)
 
-#### [Sync](02-plan-file-sync.md)
+#### [Sync](plan-file-sync.md)
 
-#### [Migration](06-plan-rollout-migration.md)
+#### [Migration](plan-rollout-migration.md)
 
 ### [Compliance]()
 
-#### [Create a compliant environment](08-compliant-environment.md)
+#### [Create a compliant environment](compliant-environment.md)
 
 #### [Plan secure file collaboration](deploy-file-collaboration.md)
 #### [Permissions and sharing](modern-experience-sharing-permissions.md)
 
-### [Choose collaboration options](09-collaboration-options.md)
+### [Choose collaboration options](collaboration-options.md)
 
 ### [Roll out OneDrive and SharePoint]()
-#### [Training and change management](11-training-change-management.md)
+#### [Training and change management](training-change-management.md)
 
 #### [Create sites using guided walkthroughs]()
 ##### [Create a SharePoint communication site](create-communication-site.md)
@@ -46,7 +46,7 @@
 ##### [Distribute news using a hub site](guided-walkthrough-set-up-news-with-hub-site.md)
 #### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
 
-#### [Roll out SharePoint and OneDrive](12-roll-out-sharepoint-onedrive.md)
+#### [Roll out SharePoint and OneDrive](roll-out-sharepoint-onedrive.md)
 
 
 
