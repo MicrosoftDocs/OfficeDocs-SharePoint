@@ -153,7 +153,7 @@ To make sure that users sync OneDrive files only on managed computers, you can c
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Training and change management](training-change-management.md)
+> [Plan for content migration](plan-rollout-migration.md)
 
 ## Related topics
 

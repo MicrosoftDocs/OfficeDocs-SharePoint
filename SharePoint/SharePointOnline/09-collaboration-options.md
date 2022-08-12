@@ -107,7 +107,7 @@ If you've enabled *Anyone* links, you can choose if these links should expire af
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Plan file sync](plan-file-sync.md)
+> [Training and change management](training-change-management.md)
 
 ## Related topics
 

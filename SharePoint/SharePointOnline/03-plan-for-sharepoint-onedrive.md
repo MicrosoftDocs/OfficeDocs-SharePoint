@@ -36,13 +36,13 @@ After you review this article, see these article for additional planning informa
 
 - [Hybrid OneDrive and SharePoint in Microsoft 365](hybrid.md)
 
+- [Plan file sync for SharePoint and OneDrive in Microsoft 365](plan-file-sync.md)
+
 - [Migration planning for SharePoint and OneDrive rollout](plan-rollout-migration.md)
 
 - [Create a compliant SharePoint and OneDrive environment](compliant-environment.md)
 
 - [Plan sharing and collaboration options in SharePoint and OneDrive](collaboration-options.md)
-
-- [Plan file sync for SharePoint and OneDrive in Microsoft 365](plan-file-sync.md)
 
 - [Training and change management for rolling out SharePoint and OneDrive](training-change-management.md)
 

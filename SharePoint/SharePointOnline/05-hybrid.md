@@ -58,7 +58,7 @@ For more info about how to configure OneDrive in a hybrid scenario and how it wo
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Plan for content migration](plan-rollout-migration.md)
+> [Plan file sync](plan-file-sync.md)
 
 ## Related topics
 
