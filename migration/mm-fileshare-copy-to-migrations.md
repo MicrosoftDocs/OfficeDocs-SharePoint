@@ -51,6 +51,7 @@ After a file share has been scanned and determined ready, add it to your migrati
    :::image type="content" alt-text="Configure settings for your file share migration." source="media/mm-fileshare-copy-migrations-configure-settings-page.png":::
 
 
+
 ## Incremental migration
 
 After a migration task has completed, you can rerun it at a later date, allowing you to copy only those new or updated files in the source location. 
