@@ -63,5 +63,5 @@ Answer:  No. During a migration, only the most recent version of a file is trans
 **Question:**   **Does Migration Manager automatically notify users?**</br>
 Answer:  No.  We automatically suppress all emails to users so they aren't bombarded with excessive notifications about the data they now have access to.</br>
 
-**Question:** Does Migration Manager transfer permissions for shared drives? 
+**Question:** Does Migration Manager transfer permissions for shared drives? </br>
 Answer: No. During a migration, we only transfer permissions for user drives. Permissions for shared drives aren't migrated. [Learn how to migrate Google Shared Drives](/sharepointmigration/mm-google-overview#google-shared-drives)
