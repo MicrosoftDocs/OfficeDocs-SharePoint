@@ -261,7 +261,7 @@ The User Principal Name (UPN) referenced is invalid. In order to create or updat
 
 **Diagnosis / Investigation**  
 
-- Check the Agent group column, currently for scan tasks. Only agents with **Default** agent group can be scheduled.
+- Check the Agent group column for scan tasks. Only agents in the **Default** agent group can be scheduled.
 
 :::image type="content" source="media/mm-scan-task-isssue-2.png" alt-text="Scan task issue troubleshooting":::
 
