@@ -90,14 +90,17 @@ Build out the learning and training experience one platform at a time. The tools
 
 ![Screenshot of a Viva Learning home page.](media/viva-learning-home-page.png)
 
-[Viva Learning is an application for Microsoft Teams](/viva/learning/overview-viva-learning) that allows users to discover, recommend, and access learning modules from different platforms to help users gain knowledge in any specific focus area. Viva Learning pulls content from LinkedIn Learning, Microsoft Learn, and Microsoft 365 Training. You can also add your organization's own custom content from SharePoint, and integrate Viva Learning with learning management systems and third-party content providers that you already use. Use Viva Learning to make sure each of your employees has the knowledge they need for organizational needs, team needs, and the tools that they will be working with daily.
+[Viva Learning in Microsoft Teams](/viva/learning/overview-viva-learning) allows users to discover, recommend, and access learning modules from different platforms to help users gain knowledge in any specific focus area. Viva Learning pulls content from LinkedIn Learning, Microsoft Learn, and Microsoft 365 Training. You can also add your organization's own custom content from SharePoint, and integrate Viva Learning with learning management systems and third-party content providers that you already use. Use Viva Learning to make sure each of your employees has the knowledge they need for organizational needs, team needs, and the tools that they will be working with daily.
 
 In Viva Learning, managers of an organization or team can recommend learning and track the learning progress of each module. The Viva Learning home view aggregates a variety of information, including assigned content from learning management systems, recommended learnings, trending content, and learning provider content libraries. Learn more about [Viva Learning](https://www.microsoft.com/microsoft-viva/learning/?ef_id=21e9ec552f93177bad868d00eec92fd8:G:s&OCID=AID2200888_SEM_21e9ec552f93177bad868d00eec92fd8:G:s&msclkid=21e9ec552f93177bad868d00eec92fd8)
 
 ### Curate and target custom training playlists with Learning Pathways
 
-![Screenshot of](media/learning-pathways-home.png)
+![Screenshot of the learning pathways site.](media/learning-pathways-home.png)
 
+Learning pathways is a customizable, on-demand learning solution in SharePoint that brings together out-of-the-box Microsoft 365 training playlists and custom playlists created by your organization. Surface your learning pathways playlists on any site in your organization using the [Microsoft 365 learning pathways web part](/office365/customlearning/custom_addwebpart), and use audience targeting to make sure your playlists are seen by everyone who needs them.
+
+[Get started with learning pathways](/office365/customlearning/) and [easily provision learning pathways](/office365/customlearning/custom_provision) to begin using your customizable learning pathways portal.
 
 ### Create a learning and development landing page using SharePoint
 
@@ -150,7 +153,6 @@ Gather insights from each platform along the way. Use these insights to inform m
 Maintain your experience by updating things frequently, providing the most up-to-date and relevant information across all platforms. Learn more about [maintaining your SharePoint communication sites](https://support.microsoft.com/office/manage-your-sharepoint-communication-site-21761aac-f7f7-4499-b0ca-cf283477c32f) and keeping [SharePoint news posts updated](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7).
 
 Ask for feedback on the learning and training experience often using [Microsoft Forms](https://support.microsoft.com/forms). Use this feedback to determine what needs to be improved or altered for the next learning and training experience.
-
 
 ## More Resources
 
