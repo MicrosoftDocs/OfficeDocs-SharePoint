@@ -96,7 +96,8 @@ In Viva Learning, managers of an organization or team can recommend learning and
 
 ### Curate and target custom training playlists with Learning Pathways
 
-<!--daisy you stopped here-->
+![Screenshot of](media/learning-pathways-home.png)
+
 
 ### Create a learning and development landing page using SharePoint
 
