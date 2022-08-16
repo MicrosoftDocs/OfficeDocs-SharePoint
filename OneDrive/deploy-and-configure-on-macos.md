@@ -447,7 +447,7 @@ The example for this setting in the .plist file is:
 <string>https://Contoso.SharePoint.com</string>
 ```
 
-[More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/new-onedrive-sync-client)
+[More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/configure-syncing-with-the-onedrive-sync-app)
 
 ### SharePointOnPremPrioritizationPolicy
 
@@ -483,7 +483,7 @@ The example for this setting in the .plist file is:
 <string>Contoso</string>
 ```
 
-[More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/new-onedrive-sync-client)
+[More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/configure-syncing-with-the-onedrive-sync-app)
 
 ### Tier
 

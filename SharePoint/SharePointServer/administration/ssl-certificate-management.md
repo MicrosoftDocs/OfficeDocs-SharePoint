@@ -19,7 +19,7 @@ description: "Learn how you can use Secure Sockets Layer (SSL) certificate manag
 
 # SSL certificate management operations
 
-[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
 The Secure Sockets Layer (SSL) certificate management feature allows you to monitor and manage the lifecycle of SSL certificates in your SharePoint farm, from acquisition and deployment to usage, expiration, and renewal.
 

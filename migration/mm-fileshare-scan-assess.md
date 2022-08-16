@@ -45,6 +45,10 @@ A table summary appears at the top to give you an at-a-glance overview of your u
 
     :::image type="content" alt-text="Fileshare scan list." source="media/mm-fileshare-scan-list.png":::
 
+>[!Important]
+> Only agents in the **Default** agent group can be scheduled. If you have a file share scan that is stuck with the status of "Queued", and it never is scheduled to an agent, follow the steps here: [Scan task stuck in "queued" status](/sharepointmigration/mm-troubleshoot#scan-task-stuck-in-queued-status)
+
+
 ## Download summary report and scan log
 
 1. From the menu bar, select **Download summary report** to have a local copy of the summary view.
