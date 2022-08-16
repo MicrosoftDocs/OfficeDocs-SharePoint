@@ -97,3 +97,16 @@ Answer:  Migration Manager uses the time zone setting in the SharePoint Admin ce
 **Question:**  What does **% complete** mean?
 Answer:  The % complete indicates the progress of the overall task migration, including the number of files migrated and the preparation work required for the remaining files to be migrated. *Note:* The **%** is not linearly proportional to the number of files remaining to be migrated.
 
+**Question:**  What is the maximum file size that can be migrated?
+Answer: In cloud scenarios, the limit is 15GB. For file share migrations, a file size of 250 GB is supported. See below.
+
+|Scenario|Maximum file size migrated|
+|:-----|:-----|
+|Google to M365 using MM|15GB|
+|Dropbox to M365 using MM|15GB|
+|Egnyte to M365 using MM|15GB|
+|Box to M365 using MM|15GB|
+|File share to M365 using MM|250GB|
+|File migration to M365 using API |250GB|
+|SharePoint Server to M365 using SPMT|250GB|
+|File share to M365 using SPMT |250GB|
