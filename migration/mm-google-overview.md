@@ -105,6 +105,10 @@ To disable this feature:
 
 Shortcut files aren't supported for migration and therefore not migrated.
 
+## File size migration limit
+
+We support files up to 15 GB in size.
+
 
 >[!NOTE]
 >Migration Manager Google Workspace isn't available for users of Office 365 operated by 21Vianet in China.
