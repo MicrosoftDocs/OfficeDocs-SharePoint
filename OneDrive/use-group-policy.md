@@ -137,9 +137,9 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 
 - (PreventNetworkTrafficPreUserSignIn) [Prevent the sync app from generating network traffic until users sign in](use-group-policy.md#prevent-the-sync-app-from-generating-network-traffic-until-users-sign-in)
 
-- (SharePointOnPremFrontDoorUrl) Specify SharePoint Server URL and organization name. This setting is for customers who have SharePoint Server 2019. For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
+- (SharePointOnPremFrontDoorUrl) Specify SharePoint Server URL and organization name. This setting is for customers who have SharePoint Server 2019. For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/configure-syncing-with-the-onedrive-sync-app/).
 
-- (SharePointOnPremPrioritization) Specify the OneDrive location in a hybrid environment. This setting is for customers who have SharePoint Server 2019. For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
+- (SharePointOnPremPrioritization) Specify the OneDrive location in a hybrid environment. This setting is for customers who have SharePoint Server 2019. For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/configure-syncing-with-the-onedrive-sync-app/).
 
 - (SilentAccountConfig) [Silently sign in users to the OneDrive sync app with their Windows credentials](use-group-policy.md#silently-sign-in-users-to-the-onedrive-sync-app-with-their-windows-credentials)
 
@@ -326,7 +326,7 @@ If you disable or do not configure this setting, users can choose to limit the u
 
 This setting determines whether or not the Sync client can automatically sign in.
 
-If you enable this setting, it prevents Sync from automatically signing with an existing AAD credential that is made available to Microsoft applications.
+If you enable this setting, it prevents Sync from automatically signing with an existing Microsoft Azure Active Directory (Azure AD) credential that is made available to Microsoft applications.
 
 If you disable or do not configure this setting, Sync will automatically sign in.
   
@@ -554,11 +554,11 @@ Let us know if you have feedback on this feature or encounter any issues. Right-
 
 ### Specify SharePoint Server URL and organization name
 
-This setting is for customers who have SharePoint Server 2019. For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
+This setting is for customers who have SharePoint Server 2019. For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/configure-syncing-with-the-onedrive-sync-app/).
 
 ### Specify the OneDrive location in a hybrid environment
 
-This setting is for customers who have SharePoint Server 2019. For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
+This setting is for customers who have SharePoint Server 2019. For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/configure-syncing-with-the-onedrive-sync-app/).
 
 ### Use OneDrive Files On-Demand
 <a name="FilesOnDemandEnabled"> </a>

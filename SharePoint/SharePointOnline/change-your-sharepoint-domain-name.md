@@ -115,6 +115,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 | Multi-Geo configurations | Your SharePoint domain name can't be changed if your organization is currently set up for Microsoft 365 Multi-Geo or was previously set up for it.  | No action available. |
 | Point-in-time restoration | Restoring a site to a previous time before the domain name change isn't possible. | No action available.|
 | Root site replacement | Your [root site](modern-root-site.md) can't be replaced (using either the SharePoint admin center or the PowerShell cmdlet Invoke-SPOSiteSwap) between the time you schedule your domain name change and when it completes. | Replace your root site before you schedule the domain name change or after it completes. |
+| SharePoint public sites | If your tenant contains old SharePoint public sites, your SharePoint domain name change will not be allowed.| SharePoint public sites are not supported anymore. Delete the public sites and try again. See [SharePoint Online Public Websites to be discontinued](/sharepoint/troubleshoot/sites/public-websites-be-discontinued)|
 | Special and government clouds | If your organization uses special clouds or government clouds (GCC, GCC High, DoD, etc.), your domain name can't be changed. | No action available. |
 | Vanity domain configurations | If your SharePoint domain is, for example, teams.contoso.com (versus contoso.sharepoint.com), your domain name can't be changed. | No action available. |
 
@@ -195,6 +196,10 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 You can get the status of the rename by running `Get-SPOTenantRenameStatus`. Make sure you open a new PowerShell window to sign in again. The date and time shown with this command is in UTC format. [More info about Get-SPOTenantRenameStatus](/powershell/module/sharepoint-online/get-spotenantrenamestatus)
 
 During and after the rename, you can get the state of a site by running `Get-SPOSiteRenameState`. For more info about this cmdlet, see [Get-SPOSiteRenameState](/powershell/module/sharepoint-online/get-spositerenamestate). 
+
+To verify success of the rename operation, please ensure that you review the status of the rename operation, as well as the count of renamed sites in comparison to total sites. The count of sites that cannot be renamed to the new domain will be shown in the **Attention Required** field. To get more information on these sites, run `Get-SPOSiteRenameState` and pass the RenameJobID listed in the tenant rename status as the ParentOperationID, and the desired status (Success/Failed/Suspended). If you want to export these results to a CSV file, you can use the `Export-Csv` cmdlet.
+
+    `Get-SPOSiteRenameState -ParentOperationID <RenameJobID> -State Failed | Export-Csv -Path <Path>`
 
 To cancel a rename that has not started, you can run `Stop-SPOTenantRename`. [More info about this cmdlet](/powershell/module/sharepoint-online/start-spotenantrename)
 

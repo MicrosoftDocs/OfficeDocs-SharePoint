@@ -18,7 +18,7 @@ description: "Learn how SharePoint supports moving certificates."
  
 # Move certificates between certificate stores
 
-[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
 SharePoint supports moving certificates between certificate stores using the [Move-SPCertificate](/powershell/module/sharepoint-server/move-spcertificate) PowerShell cmdlet.
 

@@ -52,7 +52,7 @@ When SharePoint libraries begin syncing with the new OneDrive sync app, the fold
 
 The following library types are not yet supported by the new OneDrive sync app, and will not transition from the previous sync app:
 
-- On-premises locations in SharePoint Server 2016 or earlier. [Learn about using the OneDrive sync app with SharePoint Server 2019](/SharePoint/install/new-onedrive-sync-client)
+- On-premises locations in SharePoint Server 2016 or earlier. [Learn about using the OneDrive sync app with SharePoint Server 2019](/SharePoint/install/configure-syncing-with-the-onedrive-sync-app)
 
 - SharePoint libraries that people from other organizations shared that your users are syncing with the previous sync app.
 

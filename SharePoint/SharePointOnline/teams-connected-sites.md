@@ -46,7 +46,7 @@ These are the basic parts of Teams and SharePoint and how they relate to each ot
 
 - **Parent site** - The SharePoint site that is created when you create the team. This site is used for file storage for all standard channels. All team owners and members have access to this site.
 
-- **Channel site** - The SharePoint site that is created when you create a standard (other than General), private or shared channel in a team. Only owners and members of the private or shared channel have access to this site.
+- **Channel site** - The SharePoint site that is created when you create a private or shared channel in a team. Only owners and members of the private or shared channel have access to this site.
 
 - **Public team** - A public team is a team that anyone in the organization can join. Public teams do not require a team owner to invite someone to the team.
 

@@ -671,6 +671,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "sharepoint/sharepointserver/install/new-onedrive-sync-client.md",
+      "redirect_url": "/sharepoint/install/configure-syncing-with-the-onedrive-sync-app",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "SharePoint/SharePointOnline/workplace-communications.md",
       "redirect_url": "/sharepoint/corporate-communications-overview",
       "redirect_document_id": true
