@@ -20,12 +20,13 @@ search.appverid: MET150
 description: File size limitations when migrating files with Migration Manager and SharePoint Migration Tool (SPMT).
 ---
 
-# File size limitations for migration 
+# File size limitations for migration to Microsoft 365
 
-Depending on the location of your source content, the supported file size limits vary.  Cloud scenarios have a file size limit of 15 GB, while file share migrations support files up to 250 GB in size.
+Whether you're using Migration Manager or the SharePoint Migration Tool (SPMT) for your migration project, the maximum file size allowed depends on the location of your source content. Cloud scenarios have a file size limit of 15 GB, while file share migrations support files up to 250 GB in size.
 
-## File size limits when using Migration Manager 
-|Scenario|Maximum file size migrated|
+## Migration Manager
+
+|Scenario|Maximum file size supported|
 |:-----|:-----|
 |File share to Microsoft 365|250 GB|
 |Google to Microsoft 365 |15 GB|
@@ -34,15 +35,15 @@ Depending on the location of your source content, the supported file size limits
 |Box to Microsoft 365|15 GB|
 
 
-## File size limits when uisng SharePoint Migration tool
+## SharePoint Migration Tool (SPMT)
 
-|Scenario|Maximum file size migrated|
+|Scenario|Maximum file size supported|
 |:-----|:-----|
 |SharePoint Server to Microsoft 365|250 GB|
 |File share to Microsoft 365 |250 GB|
 
-## File size limits using Migration API
+## Migration API
 
-|Scenario|Maximum file size migrated|
+|Scenario|Maximum file size supported|
 |:-----|:-----|
 |File migration to Microsoft 365|250 GB|
