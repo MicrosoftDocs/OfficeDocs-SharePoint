@@ -46,8 +46,7 @@ In the **Early release** ring, new feature experiences will be enabled in your S
 
 In the **Standard release** ring, new feature experiences are enabled in your SharePoint farm once they're ready for all customers to use by default. These feature experiences are supported for production use and have received additional validation during Early release. Enable standard release if you prioritize minimal disruption to your SharePoint experience and you're willing to wait longer for new feature experiences. Standard release is the default feature release ring.
 
-Customers can switch between these feature release rings at any time. However, you must run the SharePoint Products Configuration Wizard on every server in your SharePoint farm after changing this setting. The Wizard will perform a repair operation to ensure all features recognize the new setting.
-
+Customers can switch between these two feature release rings at any time. However, you must run the SharePoint Products Configuration Wizard on every server in your SharePoint farm after changing this setting. The Wizard will perform a repair operation to ensure all features recognize the new setting.
 
 ### New SharePoint RESTful ListData.svc implementation
 
@@ -69,6 +68,9 @@ To apply the custom theme color to the Suite Navigation background, do the follo
 SharePoint Server Subscription Edition Version 22H2 enhances the modern document library experience by supporting copying and moving files across document libraries. In the new experience, when a user picks a file or multiple files and triggers a **copy** or **move** operation, the user will have the option to pick a destination outside the current document library. 
 - **Copy** will allow users to pick a destination location in different subsites, in different site collections, and in different web applications. 
 - **Move** will allow users to pick a destination location in different document libraries in the same site.
+
+For more information on the copy and move enhancement, see [Move or copy files in SharePoint.](https://support.microsoft.com/en-us/office/move-or-copy-files-in-sharepoint-00e2f483-4df3-46be-a861-1f5f0c1a87bc). 
+
 If the same term store is used in both the source and destination locations, the metadata of the file will be maintained rather than being copied or moved.
 
 > [!NOTE]
@@ -76,7 +78,7 @@ If the same term store is used in both the source and destination locations, the
 
 ### Column formatting enhancement
 
-SharePoint Server Subscription Edition Version 22H2 enhances the column formatting capabilities of the modern UX by adding suppport for Excel-style expressions and also supports Abstract Syntax Tree (AST) expressions. Column formatting allows you to customize how fields in SharePoint lists and libraries are displayed to the users. This feature gives you the capability to visualize data in a variety of different ways to meet your needs, from applying color and other formatting to quickly understand the data at a glance, to powerful custom actions based on the state of the data. With a rich and flexible set of potential customizations, column formatting makes working with SharePoint lists and libraries much more engaging. To know more about the feature see, 
+SharePoint Server Subscription Edition Version 22H2 allows you to customize how fields in SharePoint lists and libraries are displayed to the users. This enhances the column formatting capabilities of the modern UX by adding suppport for Excel-style expressions and also supports Abstract Syntax Tree (AST) expressions. Column formatting. This feature gives you the capability to visualize data in a variety of different ways to meet your needs, from applying color and other formatting to quickly understand the data at a glance, to powerful custom actions based on the state of the data. With a rich and flexible set of potential customizations, column formatting makes working with SharePoint lists and libraries much more engaging. To know more about the feature see, 
 
 - [Use column formatting to customize SharePoint](/sharepoint/dev/declarative-customization/column-formatting).
 - [Formatting syntax reference](/sharepoint/dev/declarative-customization/formatting-syntax-reference): "Expressions can be written using Excel-style expressions in SharePoint Online, or by using Abstract Syntax Tree expressions in SharePoint Online and SharePoint 2019." and "All Excel-style expressions begin with an equal (=) sign. This style of expression is only available in SharePoint Online (not SharePoint 2019)."  
