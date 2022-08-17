@@ -59,6 +59,9 @@ Make sure that you have:
    **Subject:**  Egnyte connection</br>
    **Text:**     I would like the user rate limits increased for my application [*enter application name*] to [*x calls*] per second and [*y calls*] per day.
 
+## File size migration limit
+
+We support files up to 15 GB in size for Egnyte to Microsoft 365 migrations.
 
 >[!NOTE]
 >Migration Manager Egnyte isn't available for users of Office 365 operated by 21Vianet in China.
