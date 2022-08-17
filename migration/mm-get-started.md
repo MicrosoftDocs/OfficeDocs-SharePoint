@@ -41,6 +41,11 @@ With the ability to set up multiple computers as "agents", Migration Manager let
 
 - **Monitor and report.** Monitor progress across all agents and access reports from one central location. 
 
+## File size migration limit
+
+We support files up to 250 GB in size for file share to Microsoft 365 migrations.
+
+
 ## Get started
 
 Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.

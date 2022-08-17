@@ -107,7 +107,7 @@ Shortcut files aren't supported for migration and therefore not migrated.
 
 ## File size migration limit
 
-We support files up to 15 GB in size.
+We support files up to 15 GB in size for Google to Microsoft 365 migrations.
 
 
 >[!NOTE]
