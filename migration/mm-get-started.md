@@ -59,7 +59,7 @@ Make sure that you have:
 - **SMB 2.0**:  The server hosting the data (your source) must support SMB 2.0 or higher 
 
 - **Prerequisites and endpoints:** Make sure your computer or VM has the necessary prerequisites installed and have the required endpoints open:  See here for the [List of prerequisites and required endpoints](mm-prerequisites.md).
-- **File size**:  File share migration supports migrating individual files of up to 100 GB.
+- **File size**:  File share migration supports migrating individual files of up to 250 GB.
 
 >[!Note]
 >When using Migration Manager to migrate content to non-English SharePoint sites, make sure the site title does not include non-English characters.
