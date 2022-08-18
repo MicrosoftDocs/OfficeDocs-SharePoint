@@ -13,32 +13,39 @@ ms.localizationpriority: medium
 ms.collection:  
 ms.custom: intro-get-started
 search.appverid: MET150
-description: Learn about how to help your users adopt and use SharePoint and OneDrive
+description: Learn about how to help your users adopt and use SharePoint and OneDrive.
 ---
 
 # Training and change management for rolling out SharePoint and OneDrive
 
-User journeys
-How to use both platforms during the migration
-How users can migrate files
-Are you enabling completely new tasks?
-
-Provide training for users and support, cheat sheets, office hours.
+Using SharePoint and OneDrive can be a big change for your users, depending on what your current systems are. Spend time understanding your user journeys - those sequences of tasks that users regularly follow in the course of their work. Determine how using SharePoint and OneDrive fit into these journeys and use that information to create a transition plan and resources to help your users.
 
 As part of your change management plan, review how your users do core tasks such as:
+
 - Where to save personal work files
 - Where to save shared files
 - How to share files with others in the organization
 - How to share files with people outside the organization
 - How to create a site or other location for collaboration with others
 
-Your users will need to learn how to do these tasks in SharePoint and OneDrive. The resources below can help users learn how to do these and other tasks. If you have specific business processes around these tasks, you may need to create separate documentation for your users to incorporate that.
+Your users will need to learn how to do these tasks in SharePoint and OneDrive. The resources in this article can help users learn how to do these and other tasks. If you have specific business processes around these tasks, you may need to create separate documentation for your users to incorporate that.
+
+If you'll be using both your existing solution and Microsoft 365 during your rollout, consider how users will navigate back and forth and include that in the guidance you give your users.
+
+Consider these options for helping your users navigate the transition to SharePoint and OneDrive:
+
+- Office hours where users can attend or call in to ask questions.
+- Special support channels for users in the process of migrating to SharePoint and OneDrive.
+- Single-page or very brief printouts or electronic documents that give steps to core tasks.
+- Before and after guidance that shows the old and new way of doing tasks.
 
 ## Resources for your users
 
 The training resources in this section can help your users learn the everyday tasks they'll need to know to be successful with SharePoint and OneDrive.
 
 ### Getting started
+
+These resources can help your users learn the basics of SharePoint and OneDrive.
 
 [SharePoint help & learning](https://support.microsoft.com/sharepoint)
 
@@ -78,7 +85,11 @@ If you choose to allow your users to create SharePoint sites and other related c
 
 ### Sharing
 
+These references can help your users learn how to use the sharing and collaboration options in SharePoint and OneDrive.
+
 [Share SharePoint files or folders](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)
+
+[Share OneDrive files and folders](https://support.microsoft.com/office/9fcc2f7d-de0c-4cec-93b0-a82024800c07)
 
 [SharePoint sharing and permissions](https://support.microsoft.com/office/ac85fbf1-2431-49bf-8690-f1a2b98af65f)
 
@@ -86,7 +97,7 @@ If you choose to allow your users to create SharePoint sites and other related c
 
 ## Viva Learning
 
-Viva Learning is a centralized learning hub in Microsoft Teams where your team can discover, share, recommend, and learn from content libraries provided by both your organization and partners. Viva Learning makes it easy to create learning resources for your users about how to use OneDrive and SharePoint in your organization.
+Viva Learning is a centralized learning hub in Microsoft Teams where your users can discover, share, recommend, and learn from content libraries provided by both your organization and others. Viva Learning makes it easy to create learning resources for your users about how to use OneDrive and SharePoint in your organization.
 
 For more information about Viva Learning, see [Overview of Microsoft Viva Learning](/viva/learning/overview-viva-learning) and [Viva Learning Overview](https://support.microsoft.com/office/01bfed12-c327-41e0-a68f-7fa527dcc98a).
 

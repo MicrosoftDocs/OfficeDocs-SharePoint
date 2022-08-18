@@ -33,7 +33,7 @@ For complete information on migrating content to SharePoint and OneDrive, see [M
 
 #### Automation and workflows
 
-If you have automated processes or workflows around files or other content, you may need to consider how to integrate those processes with Microsoft 365 or migrate them as well. Consider using [SharePoint Framework solutions](/sharepoint/dev/) or [Microsoft Power Platform](/power-platform).
+If you have automated processes or workflows around files or other content, you may need to consider how to integrate those processes with Microsoft 365 or migrate them there entirely. Consider using [SharePoint Framework solutions](/sharepoint/dev/) or [Microsoft Power Platform](/power-platform).
 
 If you have SharePoint Server 2010 workflows, you can migrate them to Power Automate by using the SharePoint Migration Tool. See [Overview: Migrate SharePoint Server 2010 workflows to Power Automate](/sharepointmigration/spmt-workflow-overview) for more information.
 
@@ -52,9 +52,9 @@ Normally, a user's OneDrive is created the first time they access OneDrive. If y
 
 If users' existing files are in on-premises SharePoint Server, OneDrive, or MySites, you can use the SharePoint Migration Tool to migrate the files to Microsoft 365. For info, see [Overview of the SharePoint Migration Tool (SPMT)](/sharepointmigration/introducing-the-sharepoint-migration-tool).
 
-### Files on users' local known folders
+### Files in users' commonly used folders
 
-If user files are located in their Windows or Mac  Desktop or Documents folders, you can use Known Folder Move to move and redirect these locations to OneDrive. You can enable this feature during the initial rollout of OneDrive or sometime later. For more info, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md) and [Redirect and move macOS Desktop and Documents folders to OneDrive](redirect-known-folders-macos).
+If user files are located in their Windows or Mac Desktop or Documents folders, you can move and redirect these locations to OneDrive. You can enable this feature during the initial rollout of OneDrive or sometime later. For more info, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md) and [Redirect and move macOS Desktop and Documents folders to OneDrive](redirect-known-folders-macos).
 
 ### Files in other local disk folders
 

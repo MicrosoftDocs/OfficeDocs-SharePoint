@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ms.collection:  
 ms.custom: intro-get-started
 search.appverid: MET150
-description: 
+description: Learn what features are available in Microsoft 365 to help you create a compliant SharePoint and OneDrive environment.
 ---
 
 # Create a compliant SharePoint and OneDrive environment
@@ -28,7 +28,7 @@ Use Microsoft Information Governance capabilities in Microsoft 365 to govern you
 
 |Capability|What problems does it solve?|Get started|
 |:------|:------------|:----------------------------|
-|[Retention policies and retention labels](/microsoft-365/compliance/retention)<br /><br />[Learn about retention for SharePoint and OneDrive](/microsoft-365/compliance/retention-policies-sharepoint) | Retain or delete content with policy management for SharePoint documents | [Create and configure retention policies](/microsoft-365/compliance/create-retention-policies) <br /><br /> [Create retention labels for exceptions to your retention policies](/microsoft-365/compliance/create-retention-labels-information-governance)|
+|[Retention policies and retention labels](/microsoft-365/compliance/retention)<br /><br />[Learn about retention for SharePoint and OneDrive](/microsoft-365/compliance/retention-policies-sharepoint) | Retain or delete content with policy management for SharePoint and OneDrive documents | [Create and configure retention policies](/microsoft-365/compliance/create-retention-policies) <br /><br /> [Create retention labels for exceptions to your retention policies](/microsoft-365/compliance/create-retention-labels-information-governance)|
 
 ### Deleted users' data
 
@@ -72,9 +72,9 @@ For more information about Microsoft 365 Multi-Geo, see [Microsoft 365 Multi-Geo
 
 ## Information barriers
 
-Microsoft Purview Information Barriers (IB) is a compliance solution that allows you to restrict two-way communication and collaboration between groups and users in Microsoft Teams, SharePoint, and OneDrive. Often used in highly regulated industries, IB can help to avoid conflicts of interest and safeguard internal information between users and organizational areas.
+Microsoft Purview Information Barriers is a compliance solution that allows you to restrict two-way communication and collaboration between groups and users in Microsoft Teams, SharePoint, and OneDrive. Often used in highly regulated industries, information barriers can help to avoid conflicts of interest and safeguard internal information between users and organizational areas.
 
-When IB policies are in place, users who shouldn't communicate or share files with other specific users won't be able to find, select, chat, or call those users. IB policies automatically put checks in place to detect and prevent unauthorized communication and collaboration among defined groups and users.
+When information barrier policies are in place, users who shouldn't communicate or share files with other specific users won't be able to find, select, chat, or call those users. Information barrier policies automatically put checks in place to detect and prevent unauthorized communication and collaboration among defined groups and users.
 
 If your business requires information barriers, see [Learn about information barriers](/microsoft-365/compliance/information-barriers) and [Use information barriers with SharePoint](/sharepoint/information-barriers) to get started.
 

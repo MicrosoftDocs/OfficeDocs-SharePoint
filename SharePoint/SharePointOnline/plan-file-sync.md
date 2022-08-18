@@ -39,7 +39,7 @@ For information about the recommended configuration options for the sync app, se
 
 ## How do you want to deploy the sync app?
 
-You have several different options for deploying the OneDrive sync app: manually, using scripting, using Windows Autopilot (for the sync app on Windows), using an MDM such as Intune, or using Microsoft Endpoint Configuration Manager.
+You have several different options for deploying the OneDrive sync app: manually, using scripting, using Windows Autopilot (for the sync app on Windows), using a mobile device management solution such as Intune, or using Microsoft Endpoint Configuration Manager.
 
 The OneDrive sync app is included as part of Windows 10, Windows 11, and Office 2016 or higher. You do not need to deploy the sync app to devices running these, though you may need to update the sync app to the latest version.
 

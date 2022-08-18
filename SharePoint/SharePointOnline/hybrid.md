@@ -34,9 +34,9 @@ The following hybrid features are available for integrating SharePoint Server wi
 
 - **Extensible app launcher** - The SharePoint Server app launcher includes several tiles that link to Microsoft 365.
 
-- **Hybrid self-service site creation** - Users going to the default SharePoint Server site creation page are redirected to the SharePoint in Microsoft 365 Group Creation page, allowing them to create sites in SharePoint in Microsoft 365.
+- **Hybrid self-service site creation** - Users going to the default SharePoint Server site creation page are redirected to the Microsoft 365 Groups creation page, allowing them to create sites in SharePoint in Microsoft 365.
 
-- **Search** - Cloud hybrid search crawls on-premises content and indexes it in the search index in Office 365. Users can search the Microsoft 365 index from either location.
+- **Search** - Cloud hybrid search crawls on-premises content and indexes it in the search index in Microsoft 365. Users can search the Microsoft 365 index from either location.
 
 - **Taxonomy and content types** - Enables you to have a single taxonomy and content types list that spans SharePoint Server and SharePoint in Microsoft 365. See [Plan hybrid SharePoint in Microsoft 365 taxonomy and hybrid content types](/sharepoint/hybrid/plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types) for more information.
 
@@ -44,7 +44,7 @@ See [SharePoint hybrid sites and search](/sharepoint/hybrid/sharepoint-hybrid-si
 
 ### Hybrid OneDrive
 
-If you currently use OneDrive or MySites in SharePoint Server on-premises, we highly recommend deploying hybrid OneDrive. With hybrid OneDrive, users are redirected from their on-premises OneDrive to OneDrive in Microsoft 365. Hybrid OneDrive allows for seamless navigation to OneDrive in the cloud from both SharePoint on-premises and Microsoft 365.
+If you currently use OneDrive or MySites in SharePoint Server, we highly recommend deploying hybrid OneDrive. With hybrid OneDrive, users are redirected from their on-premises OneDrive to OneDrive in Microsoft 365. Hybrid OneDrive allows for seamless navigation to OneDrive in the cloud from both SharePoint Server and Microsoft 365.
 
 When you deploy hybrid OneDrive, the OneDrive links in the SharePoint Server ribbon and app launcher will point to OneDrive in Microsoft 365.
 

@@ -56,13 +56,13 @@ Microsoft Teams uses SharePoint sites to store files. When you upload a file to 
 
 In SharePoint and OneDrive, user can use [Microsoft 365 Apps](/deployoffice/about-microsoft-365-apps) (a version of Office that's available through many Microsoft 365 plans) to create and edit documents. Other applications can be used to create and edit other file types. These files can easily be shared with others - including people outside your organization (if you allow it).
 
-**Share OneDrive files using sharable links.** In OneDrive, a user's files are private by default. Users can share OneDrive files with others by using *sharable links* which give others access to the file. Links can be created that grant access to particular people or to anyone in your organization. Access can be removed by editing or deleting the link.
+**Share OneDrive files using sharable links.** In OneDrive, a user's files are private by default. Users can share OneDrive files with others by using *sharable links* which give others access to the file. Links can be created that grant access to particular people or to anyone in your organization. The person who shared the file can remove others' access by editing or deleting the link.
 
 **Collaborate in a site or team.** In a SharePoint site or a Microsoft Teams team, all the members of the site or team have access to - and can easily collaborate on - the files stored there.
 
 **Share SharePoint files using sharable links.** If a user needs to share a SharePoint file with someone outside the site or team, they can use sharable links in the same way that they do in OneDrive.
 
-**Sync files for offline access.** With the OneDrive sync app, users can sync files between their computer and the Microsoft 365 cloud. When users add, change, or delete a file or folder locally, the file or folder is added, changed, or deleted in the cloud and vice versa. Users can work with synced files directly in File Explorer and the apps they use. Whenever the user is online, any changes that they or other users make will sync automatically. 
+**Sync files for offline access.** With the OneDrive sync app, users can sync files between their computer and the Microsoft 365 cloud. When users add, change, or delete a file or folder locally, the file or folder is added, changed, or deleted in the cloud and vice versa. Users can work with synced files directly in File Explorer or Finder and the apps they use. Whenever the user is online, any changes that they or other users make will sync automatically. 
 
 For more details on file collaboration in SharePoint and OneDrive, see [Intro to file collaboration in Microsoft 365, powered by SharePoint](intro-to-file-collaboration.md) and [File collaboration in SharePoint with Microsoft 365](deploy-file-collaboration.md).
 
@@ -80,7 +80,7 @@ Governance and compliance are key for many organizations. As part of planning fo
 
 ## Keys to successful user adoption
 
-User adoption is important to the overall success of any new application. Ideally, to feel that you have maximized your investment in SharePoint and OneDrive, you need to maximize user engagement with them. To do that, start by focusing on three critical success factors:
+User adoption is important to the overall success of any new application or service. Ideally, to feel that you have maximized your investment in SharePoint and OneDrive, you need to maximize user engagement with them.
 
 Creating awareness through awareness campaigns such as announcements, launch events, newsletters, town hall meetings, contests, and giveaways is a critical path to maximizing adoption. In addition, providing users with knowledge through classroom-style sessions and self-help guides helps them feel empowered to use OneDrive and SharePoint.
 

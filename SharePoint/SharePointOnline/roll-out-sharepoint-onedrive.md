@@ -27,13 +27,13 @@ Be sure you've reviewed these SharePoint and OneDrive deployment resources befor
 - [Plan file sync for SharePoint and OneDrive in Microsoft 365](plan-file-sync.md)
 - [Training and change management for rolling out SharePoint and OneDrive](training-change-management.md)
 
-Also, make sure your [migration plans](rollout-migration.md) plans are in place as you roll out.
+Also, make sure your [migration plans](rollout-migration.md) are in place as you roll out.
 
 We highly recommend rolling SharePoint and OneDrive out to a pilot group before rolling them out to your entire organization. A pilot program can help you test your business processes and determine if there's further change management or training needed to help your users succeed with SharePoint and OneDrive.
 
 ## Pilot rollout of SharePoint and OneDrive
 
-We recommend that you start with a small pilot and then increase in scope and speed of rollout as you process the learnings from each phase.
+We recommend that you start with a small pilot and then increase in scope and speed of rollout as you review feedback from the pilot group and make changes where needed.
 
 For each phase of the pilot, you'll need to [train the users](training-change-management.md) in your pilot group, and then give them access to SharePoint and OneDrive. This may include migrating content for them (or allowing them to do so themselves) or setting up [SharePoint Server hybrid](hybrid.md).
 
@@ -49,7 +49,7 @@ For the initial pilot phase, consider the following:
 
 - Exclude users who need to interact with your customers regularly. Pilot users will be using new processes for the first time. To give your customers the best service, you may want to leave customer-facing people out of the initial pilot. 
 
-Use this initial pilot phase to validate your business processes and workflows and to train your support or help desk personnel.
+Use this initial pilot phase to validate some core business processes and workflows and to train your support or help desk personnel.
 
 ### Expand the pilot
 

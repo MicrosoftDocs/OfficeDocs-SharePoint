@@ -26,19 +26,21 @@ As you plan your SharePoint and OneDrive rollout, these are the primary decision
 - **External sharing** - do you want to allow users to share files, folders, or sites with people outside your organization?
 - **File and folder sharing defaults** - what sharing defaults do you want to use to make sharing easy while you help protect sensitive information?
 
-For more details around collaboration governance in Microsoft 365, see [What is collaboration governance?](/microsoft-365/solutions/collaboration-governance-overview).
+For details about collaboration governance in Microsoft 365, see [What is collaboration governance?](/microsoft-365/solutions/collaboration-governance-overview).
 
 For an in-depth look at file collaboration in SharePoint, see [Intro to file collaboration in Microsoft 365, powered by SharePoint](/sharepoint/intro-to-file-collaboration) and [File collaboration in SharePoint with Microsoft 365](/sharepoint/deploy-file-collaboration).
 
 Keep in mind that the settings you choose for collaboration in SharePoint can also affect Teams. For more information, see [Overview of Teams and SharePoint integration](teams-connected-sites.md).
 
-## Site creation
+## Site creation and lifecycle
 
 By default, users can create new team sites and communication sites in SharePoint and shared libraries in OneDrive. We recommend keeping this setting and using [expiration policies](/microsoft-365/solutions/microsoft-365-groups-expiration-policy) to manage the number of unused sites.
 
 If you don't want to allow users to create sites directly, you can disable user site creation. For details, see [Manage site creation in SharePoint](/sharepoint/manage-site-creation).
 
 Even if you turn off sites creation for users in SharePoint, they can still create Microsoft 365 group-connected team sites by creating a Microsoft 365 group or any of its related services, such as a team in Microsoft teams. If you don't want to allow users to create Microsoft 365 Groups or related services, including group-connected team sites, see [Manage who can create Microsoft 365 Groups](/microsoft-365/solutions/manage-creation-of-groups).
+
+As part of your SharePoint rollout, we recommend that you create your own custom guidance for SharePoint site owners on how sites are set up and managed in your organization. See [Create guidelines for site usage](sites-usage-guidelines.md) for more information.
 
 ## External sharing
 
@@ -52,7 +54,7 @@ For details about how to configure guest collaboration in SharePoint sites, see 
 
 ### Organization level sharing settings
 
-The organization level sharing settings for SharePoint and OneDrive provide a default setting for sites and OneDrive libraries. Individual sites can be locked down further, but cannot be made more permissive than the organizational settings.
+The organization level sharing settings for SharePoint and OneDrive provide a default setting for sites and OneDrive libraries. Individual sites can be locked down further, but cannot be made more permissive than, the organizational settings.
 
 A key decision for your SharePoint and OneDrive rollout is who content can be shared with:
 
@@ -72,7 +74,7 @@ Important decisions:
 You can restrict external sharing with these options:
 
 - Restrict which domains users can share with.
-- Limit external sharing by security group.
+- Limit external sharing to people in a specific security group.
 - Expire guest access after a specified period.
 - Require reauthentication after a specified period for users using a verification code.
 
@@ -90,8 +92,8 @@ To create an easy sharing experience for your users while reducing the risk of o
 
 - Choose the default link type that users see when they share a file or folder.
 - Choose if the default sharing link allows recipients to edit the files.
-- Choose if Anyone links expire after a given period.
-- Choose if Anyone links allow recipients to edit the files.
+- Choose if *Anyone* links expire after a given period.
+- Choose if *Anyone* links allow recipients to edit the files.
 
 When users share a file or folder, they can choose from several types of sharing links that offer different levels of permissions. You can choose which link type is shown by default:
 - *Specific people* links require the user to specify a list of people who will have access to the file or folder.

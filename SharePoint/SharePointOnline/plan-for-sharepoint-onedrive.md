@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ms.collection:  
 ms.custom: intro-get-started
 search.appverid: MET150
-description: 
+description: Start here if you're planning to roll out SharePoint and OneDrive in a medium to large organization.
 ---
 
 # Plan for SharePoint and OneDrive in Microsoft 365
@@ -48,29 +48,19 @@ After you review this article, see these article for additional planning informa
 
 - [Roll out SharePoint and OneDrive](roll-out-sharepoint-onedrive.md)
 
-## Migrating content
+## Migrate content
 
 An important part of rolling out SharePoint and OneDrive is migrating content from your existing storage locations. This may include gradual migration of content over time as you roll SharePoint and OneDrive out to different groups in you organization. You can find complete information about migration at [Migrate your content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online).
 
-### Migrating with FastTrack
+### Migrate with FastTrack
 
-FastTrack is a Microsoft benefit that is included in your subscription. FastTrack provides you with a set of best practices, tools, resources, and experts committed to helping you deploy Microsoft 365. Guidance around SharePoint and OneDrive onboarding, migration, and adoption are included in the benefit offering. This guidance includes: help to discover what's possible, creating a plan for success, and onboarding new users, providing guidance on migrating content from file share, Box, or Google Drive source environments, and introducing capabilities at a flexible pace. 
+FastTrack is a Microsoft benefit that is included in your subscription. FastTrack provides you with a set of best practices, tools, resources, and experts committed to helping you deploy Microsoft 365. Guidance around SharePoint and OneDrive onboarding, migration, and adoption are included in the benefit offering. This guidance includes: help to discover what's possible, creating a plan for success, and onboarding new users, providing guidance on migrating content, and introducing capabilities at a flexible pace. 
 
 FastTrack guidance provides enablement of both SharePoint and OneDrive as well as getting the source environment ready for your transition. For more details, see [FastTrack Center Benefit Overview](/fasttrack/data-migration/). Interested in getting started? Visit the [FastTrack web site](https://www.microsoft.com/fasttrack/), review resources, and submit a Request for Assistance.
 
-## Site lifecycle
+## Sites, hubs and architecture
 
-You can let your users create and administer their own SharePoint sites, determine what kind of sites they can create, and specify the location of the sites. By default, users can create communication sites and Microsoft 365 group-connected team sites.
-
-You can prevent your users from creating their own sites if you want to manage this process through IT. See [Manage site creation in SharePoint](manage-site-creation.md) for more information.
-
-Disabling site creation for users does not remove their ability to create Microsoft 365 groups or resources, such as Microsoft Teams, which rely on a group. When a Microsoft 365 group is created, a SharePoint site is also created. To restrict creation of Microsoft 365 groups and the resources that rely on groups see [Manage who can create Microsoft 365 Groups](/microsoft-365/solutions/manage-creation-of-groups).
-
-We recommend that you allow users to create their own groups and sites and use [Microsoft 365 group expiration policies](/microsoft-365/solutions/microsoft-365-groups-expiration-policy) to help manage the deletion of sites and groups that aren't in use.
-
-As part of your SharePoint rollout, we recommend that you create your own custom guidance for SharePoint site owners on how sites are set up and managed in your organization. See [Create guidelines for site usage](sites-usage-guidelines.md) for more information.
-
-## Hubs and architecture
+You can let your users create and administer their own SharePoint sites, choose what kind of sites they can create, and specify the location of the sites. By default, users can create communication sites and Microsoft 365 group-connected team sites. You can restrict this if you want to manage this through IT or a business process. [Plan sharing and collaboration options in SharePoint and OneDrive](collaboration-options.md) for more information.
 
 SharePoint uses hub sites to help you organize sites in a hierarchy that matches your organization or business processes. While it's not critical to plan your hub site layout as part of your SharePoint rollout, we recommend reviewing [Planning your SharePoint hub sites](planning-hub-sites.md) to understand how hub sites work.
 
@@ -78,13 +68,15 @@ We recommend including planning for hub sites as part of your process for rollin
 
 ## Network utilization
 
-Various factors can impact the amount of network bandwidth used by OneDrive. For the best experience, we recommend that you assess this impact before doing a full OneDrive deployment across your organization. The article [Network utilization planning for the OneDrive sync app](network-utilization-planning.md) includes the recommended process for determining your network bandwidth needs for OneDrive. Be sure to include this as part of your deployment plan
+Various factors can impact the amount of network bandwidth used by SharePoint and OneDrive. For the best experience, we recommend that you assess this impact before you start your rollout. The article [Network utilization planning for the OneDrive sync app](network-utilization-planning.md) includes the recommended process for determining your network bandwidth needs for OneDrive. Be sure to include this as part of your deployment plan.
 
-[Networking roadmap for Microsoft 365](/microsoft-365/enterprise/networking-roadmap-microsoft-365)
+These references can also help with planning your rollout:
 
-[Office 365 URLs and IP address ranges](/enterprise/urls-and-ip-address-ranges)
+- [Networking roadmap for Microsoft 365](/microsoft-365/enterprise/networking-roadmap-microsoft-365)
 
-[Use the Office 365 Content Delivery Network (CDN) with SharePoint Online](/microsoft-365/enterprise/use-microsoft-365-cdn-with-spo)
+- [Office 365 URLs and IP address ranges](/enterprise/urls-and-ip-address-ranges)
+
+- [Use the Office 365 Content Delivery Network (CDN) with SharePoint Online](/microsoft-365/enterprise/use-microsoft-365-cdn-with-spo)
 
 ## Change management
 
