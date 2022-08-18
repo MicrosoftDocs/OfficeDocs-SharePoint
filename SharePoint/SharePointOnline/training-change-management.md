@@ -25,8 +25,6 @@ Are you enabling completely new tasks?
 
 Provide training for users and support, cheat sheets, office hours.
 
-[Transfer files to your personal OneDrive with the Mover Transfer Wizard](https://support.microsoft.com/office/7dbda93c-71e6-483f-8914-ad445554cd31)
-
 As part of your change management plan, review how your users do core tasks such as:
 - Where to save personal work files
 - Where to save shared files
@@ -48,10 +46,11 @@ The training resources in this section can help your users learn the everyday ta
 
 [Get started with OneDrive](https://support.microsoft.com/office/c7f31921-e2e5-4b00-959a-cc9ad6297de7)
 
-
 [Should I save files to OneDrive or SharePoint?](https://support.microsoft.com/office/d18d21a0-1f9f-4f6c-ac45-d52afa0a4a2e)
 
 [Save a file to a SharePoint library](https://support.microsoft.com/topic/32204d9f-55ea-4232-a32b-aa7e046afcdd)
+
+[Transfer files to your personal OneDrive with the Mover Transfer Wizard](https://support.microsoft.com/office/7dbda93c-71e6-483f-8914-ad445554cd31)
 
 #### Training
 
@@ -77,7 +76,6 @@ If you choose to allow your users to create SharePoint sites and other related c
 
 [Collaborate with SharePoint in Microsoft 365](/learn/paths/m365-teams-sharepoint/)
 
-
 ### Sharing
 
 [Share SharePoint files or folders](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)
@@ -85,8 +83,6 @@ If you choose to allow your users to create SharePoint sites and other related c
 [SharePoint sharing and permissions](https://support.microsoft.com/office/ac85fbf1-2431-49bf-8690-f1a2b98af65f)
 
 [Share and collaborate with OneDrive](https://support.microsoft.com/office/51e669f6-4602-4492-8648-13ffa09ff24f)
-
-
 
 ## Viva Learning
 

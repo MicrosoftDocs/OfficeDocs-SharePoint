@@ -32,7 +32,7 @@ The OneDrive sync app has a variety of configuration options for compliance, per
 - [Do you want to limit which domains users can sync with?](#do-you-want-to-limit-which-domains-users-can-sync-with)
 - [Do you want to allow users to sync their personal OneDrive?](#do-you-want-to-allow-users-to-sync-their-personal-onedrive)
 - [Do you want to block certain file types from being synced?](#do-you-want-to-block-certain-file-types-from-being-synced)
-- [Does you need to sync files in a hybrid environment with SharePoint Server?](#does-you-need-to-sync-files-in-a-hybrid-environment-with-sharepoint-server)
+- [Do you need to sync files in a hybrid environment with SharePoint Server?](#do-you-need-to-sync-files-in-a-hybrid-environment-with-sharepoint-server)
 - [Do you want to limit sync to computers joined to a specific domain?](#do-you-want-to-limit-sync-to-computers-joined-to-a-specific-domain)
 
 For information about the recommended configuration options for the sync app, see [Recommended sync app configuration](ideal-state-configuration.md).
@@ -140,7 +140,7 @@ You can specify if you don't want users to be able to upload certain types of fi
 
 This can also be configured in the SharePoint admin center. For more information, see [Block syncing of specific file types](block-file-types.md).
 
-## Does you need to sync files in a hybrid environment with SharePoint Server?
+## Do you need to sync files in a hybrid environment with SharePoint Server?
 
 If your organization uses SharePoint Server 2019 or SharePoint Server Subscription Edition, you can sync files using the OneDrive sync app. For information, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
 

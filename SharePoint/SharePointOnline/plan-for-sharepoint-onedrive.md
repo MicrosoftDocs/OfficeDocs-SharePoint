@@ -48,7 +48,11 @@ After you review this article, see these article for additional planning informa
 
 - [Roll out SharePoint and OneDrive](roll-out-sharepoint-onedrive.md)
 
-## Migrating with FastTrack
+## Migrating content
+
+An important part of rolling out SharePoint and OneDrive is migrating content from your existing storage locations. This may include gradual migration of content over time as you roll SharePoint and OneDrive out to different groups in you organization. You can find complete information about migration at [Migrate your content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online).
+
+### Migrating with FastTrack
 
 FastTrack is a Microsoft benefit that is included in your subscription. FastTrack provides you with a set of best practices, tools, resources, and experts committed to helping you deploy Microsoft 365. Guidance around SharePoint and OneDrive onboarding, migration, and adoption are included in the benefit offering. This guidance includes: help to discover what's possible, creating a plan for success, and onboarding new users, providing guidance on migrating content from file share, Box, or Google Drive source environments, and introducing capabilities at a flexible pace. 
 
@@ -71,16 +75,6 @@ As part of your SharePoint rollout, we recommend that you create your own custom
 SharePoint uses hub sites to help you organize sites in a hierarchy that matches your organization or business processes. While it's not critical to plan your hub site layout as part of your SharePoint rollout, we recommend reviewing [Planning your SharePoint hub sites](planning-hub-sites.md) to understand how hub sites work.
 
 We recommend including planning for hub sites as part of your process for rolling out an [intelligent intranet](/sharepoint/intelligent-internet-overview).
-
-## Pre-provision OneDrive libraries
-
-By default, the first time that a user browses to their OneDrive it's automatically created (provisioned) for them. In some cases, such as the following, you might want your users' OneDrive locations to be ready beforehand, or pre-provisioned:
-
-- Your organization has a custom process for adding new employees, and you want to create a OneDrive when you add a new employee.
-- Your organization plans to migrate from SharePoint Server on-premises to Microsoft 365.
-- Your organization plans to migrate from another online storage service.
-
-If you're planning to migrate content to OneDrive as part of your SharePoint and OneDrive rollout, you may need to pre-provision OneDrive for the users in your pilot or rollout program. See [Pre-provision OneDrive for users in your organization](pre-provision-accounts.md) for more information.
 
 ## Network utilization
 
