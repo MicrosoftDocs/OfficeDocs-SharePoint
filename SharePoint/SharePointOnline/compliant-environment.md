@@ -1,5 +1,5 @@
 ---
-title: Create a compliant SharePoint and OneDrive environment
+title: Plan compliance requirements for SharePoint and OneDrive
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -13,10 +13,10 @@ ms.localizationpriority: medium
 ms.collection:  
 ms.custom: intro-get-started
 search.appverid: MET150
-description: Learn what features are available in Microsoft 365 to help you create a compliant SharePoint and OneDrive environment.
+description: Learn what features are available in Microsoft 365 to help you plan your compliance requirements for SharePoint and OneDrive.
 ---
 
-# Create a compliant SharePoint and OneDrive environment
+# Plan compliance requirements for SharePoint and OneDrive
 
 Most organizations have business or legal requirements that govern how data is used, shared, and retained. Some organizations also have data residency requirements or regulatory requirements that restrict communication between certain users and groups.
 
