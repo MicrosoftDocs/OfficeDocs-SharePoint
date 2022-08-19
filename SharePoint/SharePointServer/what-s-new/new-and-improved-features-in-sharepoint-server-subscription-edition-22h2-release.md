@@ -22,11 +22,11 @@ description: "Learn about the new features and updates to existing features in S
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 
-Learn about the new features and updates to existing features in SharePoint Server Subscription Edition 22H2.
+Learn about the new features and updates to existing features in SharePoint Server Subscription Edition Version 22H2.
 
 ## Detailed description of features
 
-This section provides detailed descriptions of the new and updated features in SharePoint Server Subscription Edition 22H2.
+This section provides detailed descriptions of the new and updated features in SharePoint Server Subscription Edition Verision 22H2.
 
 ### Feature release rings
 
@@ -54,7 +54,7 @@ SharePoint Server Subscription Edition Version 22H2 enhances the modern document
 - **Copy** will allow users to pick a destination location in different subsites, in different site collections, and in different web applications. 
 - **Move** will allow users to pick a destination location in different document libraries in the same site.
 
-For more information on the copy and move enhancement, see [Move or copy files in SharePoint.](https://support.microsoft.com/en-us/office/move-or-copy-files-in-sharepoint-00e2f483-4df3-46be-a861-1f5f0c1a87bc). 
+To learn more about this feature, see [Move or copy files in SharePoint.](https://support.microsoft.com/en-us/office/move-or-copy-files-in-sharepoint-00e2f483-4df3-46be-a861-1f5f0c1a87bc). 
 
 If the same term store is used in both the source and destination locations, the metadata of the file will be maintained rather than being copied or moved.
 
@@ -65,24 +65,26 @@ If the same term store is used in both the source and destination locations, the
 
 SharePoint Server Subscription Edition Version 22H2 improves the bulk editing experience for list items in the modern lists. The users can now select multiple list items in a modern list and then click the new **Edit** button in the list toolbar. This will open an expanded editing pane where the user can update fields for all the selected list items at once.
 
+To learn more about this feature, see [Bulk edit list item properties (microsoft.com)](https://support.microsoft.com/en-us/office/bulk-edit-list-item-properties-1521a373-b011-4a26-8fc9-016b491ee932).
+
 ### Column formatting enhancement
 
-SharePoint Server Subscription Edition Version 22H2 allows you to customize how fields in SharePoint lists and libraries are displayed to the users. This enhances the column formatting capabilities of the modern UX by adding suppport for Excel-style expressions and also supports Abstract Syntax Tree (AST) expressions. Column formatting. This feature gives you the capability to visualize data in a variety of different ways to meet your needs, from applying color and other formatting to quickly understand the data at a glance, to powerful custom actions based on the state of the data. With a rich and flexible set of potential customizations, column formatting makes working with SharePoint lists and libraries much more engaging. 
+SharePoint Server Subscription Edition Version 22H2 allows you to customize how fields in SharePoint lists and libraries are displayed to the users. This feature gives you the capability to visualize data in a variety of different ways to meet your needs, from applying color and other formatting to quickly understand the data at a glance, to powerful custom actions based on the state of the data. With a rich and flexible set of potential customizations, column formatting makes working with SharePoint lists and libraries much more engaging. This feature enhances the column formatting capabilities of the modern UX by adding suppport for Excel-style expressions and also supports Abstract Syntax Tree (AST) expressions. Column formatting.
 
 To learn more about this feature see, [Use column formatting to customize SharePoint](/sharepoint/dev/declarative-customization/column-formatting).
 
 ### Button web part
 
-When you add a modern page to a site, you add and customize web parts, which are the building blocks of your page. The Button web part lets you easily add a button to your page with your own label and link.You can create an actionable button inside modern pages by adding it through the toolbox. 
+When you add a modern page to a site, you add and customize web parts, which are the building blocks of your page. The Button web part lets you easily add a button to your page with your own label and link. You can create an actionable button inside modern pages by adding it through the toolbox. 
 
-To learn more about this feature, see 
+To learn more about this feature, see [Use the Button web part (microsoft.com)](https://support.microsoft.com/en-us/office/use-the-button-web-part-d2e37c48-11e8-45b9-8d9e-abdaa97c2a7a).
 
 
 ### New language picker in modern self-site creation pane
 
-SharePoint Server Subscription Edition Version 22H2 allows to choose the default site language in the modern self-service site creation pane.
+Choose the default site language in the modern self-service site creation pane.
 
-Before, the users couldn't choose the site's default language when creating a new site through the SharePoint start page. The web application's default language would be used on the newly formed website. Starting in SharePoint Server Subscription Edition Version 22H2, a language selection control has been added to the modern site creation pane. The users can now create new sites with a specific language by selecting the desired language with that control.
+Previously, when creating a new site via the SharePoint start page, users couldn't select the default language of the site. The newly created site would use the default language of the web application. Starting in SharePoint Server Subscription Edition Version 22H2, a language selection control has been added to the modern site creation pane. Users can now create new sites with a specific language by selecting the desired language with that control.
 
 ### New SharePoint RESTful ListData.svc implementation
 
