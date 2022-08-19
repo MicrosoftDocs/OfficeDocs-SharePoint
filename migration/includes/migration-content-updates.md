@@ -2,6 +2,14 @@
 
 
 
+## Week of August 08, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/11/2022 | [Migration Manager Google FAQs](/SharepointMigration/mm-faqs-google) | modified |
+
+
 ## Week of August 01, 2022
 
 
@@ -31,12 +39,3 @@
 | 7/11/2022 | [Overview: Migrate Google Workspace to Microsoft 365 with Migration Manager](/SharepointMigration/mm-google-overview) | modified |
 | 7/12/2022 | [Managed migration guide for use with Mover](/SharepointMigration/mover-managed-migration-guide) | modified |
 | 7/12/2022 | [Mover Migration Tools overview and planning](/SharepointMigration/mover-plan-migration) | modified |
-
-
-## Week of July 04, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/7/2022 | [Troubleshooting SPMT installation issues](/SharepointMigration/spmt-install-issues) | modified |
-| 7/8/2022 | [Overview: Migrate Google Workspace to Microsoft 365 with Migration Manager](/SharepointMigration/mm-google-overview) | modified |
