@@ -51,6 +51,11 @@ Make sure that you have:
 
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
 
+## File size migration limit
+
+We support files up to 15 GB in size for Box to Microsoft 365 migrations.
+
+
 >[!NOTE]
 >Migration Manager Box isn't available for users of Office 365 operated by 21Vianet in China.
 >
