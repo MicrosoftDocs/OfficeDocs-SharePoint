@@ -48,7 +48,7 @@ After the OneDrive sync app for Mac is installed, users can configure settings f
 
 Configure the settings on macOS as follows:
   
-1. Define the settings you want to change by creating a .plist file with the values needed You can use a script to set the values.
+1. Define the settings you want to change by creating a .plist file with the values needed. You can use a script to set the values.
 
 1. Quit the OneDrive app.
 

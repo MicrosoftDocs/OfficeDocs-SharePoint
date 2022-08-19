@@ -64,7 +64,7 @@ The following policies control the Known Folder Move feature:
 
     Use this setting to give the users a call to action to move their Windows known folders.
 
-    :::image type="content" source="media/kfm-prompt-windows.png" alt-text="Screenshot of the dialog that prompts users to backup their important folders.":::
+    :::image type="content" source="media/kfm-prompt-windows.png" alt-text="Screenshot of the dialog that prompts users to back up their important folders.":::
 
     If users dismiss the prompt, a reminder notification will appear in the activity center until they move all known folders or an error occurs with the move, in which case the reminder notification will be dismissed.
 
