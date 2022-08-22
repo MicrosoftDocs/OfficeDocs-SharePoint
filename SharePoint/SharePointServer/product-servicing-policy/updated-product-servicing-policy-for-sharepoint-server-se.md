@@ -14,7 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - SP2019
-description: "This article explains the updated product servicing policy of SharePoint Server 2019."
+description: "This article explains the updated product servicing policy of SharePoint Server Subscription Edition."
 ---
 
 # Updated Product Servicing Policy for SharePoint Server Subscription Edition
