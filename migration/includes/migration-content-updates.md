@@ -2,6 +2,16 @@
 
 
 
+## Week of August 15, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/15/2022 | [Troubleshooting Migration Manager](/SharepointMigration/mm-troubleshoot) | modified |
+| 8/16/2022 | [Migration Manager FAQs](/SharepointMigration/mm-faqs) | modified |
+| 8/17/2022 | [File size limitations when migrating files to Microsoft 365](/SharepointMigration/mm-file-size-limitations) | added |
+
+
 ## Week of August 08, 2022
 
 
@@ -29,13 +39,3 @@
 | 7/20/2022 | [Migrate SharePoint workflows with the SharePoint Migration Tool (SPMT) to Power Automate](/SharepointMigration/spmt-workflow-overview) | modified |
 | 7/20/2022 | [Step 2: Migrate SharePoint Server workflows with SPMT](/SharepointMigration/spmt-workflow-step2) | modified |
 | 7/20/2022 | [Step 3: Activate workflows after migration](/SharepointMigration/spmt-workflow-step3) | modified |
-
-
-## Week of July 11, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/11/2022 | [Overview: Migrate Google Workspace to Microsoft 365 with Migration Manager](/SharepointMigration/mm-google-overview) | modified |
-| 7/12/2022 | [Managed migration guide for use with Mover](/SharepointMigration/mover-managed-migration-guide) | modified |
-| 7/12/2022 | [Mover Migration Tools overview and planning](/SharepointMigration/mover-plan-migration) | modified |

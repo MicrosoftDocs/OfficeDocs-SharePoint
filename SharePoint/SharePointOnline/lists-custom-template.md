@@ -21,7 +21,7 @@ description: "Add and remove custom templates and change who has permission to a
 
 # Creating custom list templates  
 
-As a global or SharePoint admin in Microsoft 365, you can provide custom list templates for users in your organization. When users create new lists, they can select from these templates alongside the built-in templates from Microsoft. This enables your organization to create repeatable list solutions (in SharePoint, Teams, and within the Lists app itself). 
+As a Global Administrator or SharePoint Administrator in Microsoft 365, you can provide custom list templates for users in your organization. When users create new lists, they can select from these templates alongside the built-in templates from Microsoft. This enables your organization to create repeatable list solutions (in SharePoint, Teams, and within the Lists app itself). 
 
 You can create and manage custom list templates using Microsoft PowerShell:
 
@@ -30,12 +30,11 @@ You can create and manage custom list templates using Microsoft PowerShell:
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 ## Add a custom template 
 
 Follow these steps to create a custom list template.
-
 
 1. Run the following command to extract the site script output from an existing list and write it to a variable:
   
