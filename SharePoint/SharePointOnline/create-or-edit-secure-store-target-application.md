@@ -26,7 +26,7 @@ When you want to use external data (such as data from your other business applic
 BCS makes it possible for you to set up a connection to the Target Application, and the Secure Store enables you to manage the credentials that are required by the external data source. 
 
 >[!NOTE]
->To access the Secure Store, you must have the SharePoint Admin role or Global Admin role.
+> To access the Secure Store, you must have the SharePoint Administrator role or Global Administrator role.
   
 ## How the Secure Store Service Works
 <a name="__toc346879710"> </a>
@@ -47,7 +47,7 @@ Another benefit of the Secure Store Service is that it eliminates authentication
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+> If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
     
 2. Under **Secure store**, select **Open**.
     
@@ -67,7 +67,7 @@ Another benefit of the Secure Store Service is that it eliminates authentication
     
 9. In the **Credential Fields** section, for the credentials that are required to access data in the Target Application, enter the **Field Names** and **Field Types**. These fields determine how you will map identity in the Secure Store Service. By default, the Credential Fields list the Windows User Name and Windows Password with matching Field Types (User Name and Password), and specifies that the password is masked. 
     
-10. In the **Target Application Administrators** section, enter a list of users, or to search for the name of a group, select **Browse**. This section usually contains the account of the SharePoint admin, or a global admin. 
+10. In the **Target Application Administrators** section, enter a list of users, or to search for the name of a group, select **Browse**. This section usually contains the account of the SharePoint Administrator, or a Global Administrator. 
     
 11. In the **Members** section, enter a list of users or SharePoint groups of users who need to access the target app. Or, to search for the name of a group that you want to map to the Target Application, select **Browse**. 
     
@@ -79,7 +79,7 @@ Another benefit of the Secure Store Service is that it eliminates authentication
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+> If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
     
 2. Under **Secure store**, select **Open**.
 
@@ -88,7 +88,7 @@ Another benefit of the Secure Store Service is that it eliminates authentication
 4. On the ribbon, select **Edit**.
     
     > [!NOTE]
-    >  Some fields on the Edit page are not available. These elements cannot be edited. After you create a Target Application, you can't change the **Target Application ID**, **Target Application Type**, or **Credentials Fields**. 
+    > Some fields on the Edit page are not available. These elements cannot be edited. After you create a Target Application, you can't change the **Target Application ID**, **Target Application Type**, or **Credentials Fields**. 
   
 5. Select any of the following to edit the contents:
     
@@ -108,7 +108,7 @@ Another benefit of the Secure Store Service is that it eliminates authentication
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+> If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
     
 2. Under **Secure store**, select **Open**.
   
@@ -124,6 +124,6 @@ Another benefit of the Secure Store Service is that it eliminates authentication
     >  The following fields cannot be edited. These fields specify the Secure Store mapping for the Target Application: **Target Application Name**, **Target Application ID**, and **Credential Owners**. 
   
     > [!IMPORTANT]
-    >  Be careful when you enter the password. If you enter a password that is incorrect, you won't see a message about the error. Instead, you'll be able to continue with configuration. However, errors can occur later, when you attempt to access data through BCS. Also, if the password for the external data source is updated, you have to return to this page to manually update the password credentials. 
+    > Be careful when you enter the password. If you enter a password that is incorrect, you won't see a message about the error. Instead, you'll be able to continue with configuration. However, errors can occur later, when you attempt to access data through BCS. Also, if the password for the external data source is updated, you have to return to this page to manually update the password credentials. 
   
 6. When you finish entering values for credential fields, select **OK**.
