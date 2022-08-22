@@ -37,14 +37,14 @@ The two rings in this version are as follows:
 
 - Standard release
 
-In the **Early release** ring, new feature experiences will be enabled in your SharePoint farm as soon as they're ready. These feature experiences are supported for production use, but may continue to evolve based on customer feedback and validation before they reach Standard release. Enable early release to:
+In the **Early release** ring, new feature experiences will be enabled in your SharePoint farm as soon as they're ready. These feature experiences are supported for production use, but may continue to evolve based on customer feedback and validation before they reach Standard release. Enable **Early release** to:
 
 - Use new feature experiences in a production environment as soon as they're available.
 - Explore new feature experiences in a test environment and provide feedback to Microsoft before they reach Standard release.
 - Perform compatibility testing in a test environment before they reach Standard release.
-- Prepare your internal help desk and user documentation for the new feature experiences before they reach Standard release.
+- Prepare your internal helpdesk and user documentation for the new feature experiences before they reach Standard release.
 
-In the **Standard release** ring, new feature experiences are enabled in your SharePoint farm once they're ready for all customers to use by default. These feature experiences are supported for production use and have received additional validation during Early release. Enable standard release if you prioritize minimal disruption to your SharePoint experience and you're willing to wait longer for new feature experiences. Standard release is the default feature release ring.
+In the **Standard release** ring, new feature experiences are enabled in your SharePoint farm once they're ready for all customers to use by default. These feature experiences are supported for production use and have received additional validation during Early release. Enable Standard release if you prioritize minimal disruption to your SharePoint experience and you're willing to wait longer for new feature experiences. Standard release is the default feature release ring.
 
 Customers can switch between these two feature release rings at any time. However, you must run the SharePoint Products Configuration Wizard on every server in your SharePoint farm after changing this setting. The Wizard will perform a repair operation to ensure all features recognize the new setting.
 
@@ -86,6 +86,6 @@ Choose the default site language in the modern self-service site creation pane.
 
 Previously, when creating a new site via the SharePoint start page, users couldn't select the default language of the site. The newly created site would use the default language of the web application. Starting in SharePoint Server Subscription Edition Version 22H2, a language selection control has been added to the modern site creation pane. Users can now create new sites with a specific language by selecting the desired language with that control.
 
-### New SharePoint RESTful ListData.svc implementation
+### New SharePoint RESTful *ListData.svc* implementation
 
-ListData.svc has been rebuilt so that it no longer depends on the listed WCF Data Services components while maintaining compatibility with the functionality of the prior design. When your farm is in the Early release ring, the new design is activated. You can go back to the original architecture if the ListData.svc web service exhibits unexpected behaviour by switching the farm back to the Standard release ring.
+*ListData.svc* has been rebuilt so that it no longer depends on the listed WCF Data Services components while maintaining compatibility with the functionality of the prior design. When your farm is in the Early release ring, the new design is activated. You can go back to the original architecture if the ListData.svc web service exhibits unexpected behaviour by switching the farm back to the Standard release ring.
