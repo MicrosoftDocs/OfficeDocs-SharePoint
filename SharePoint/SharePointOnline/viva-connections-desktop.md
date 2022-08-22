@@ -63,6 +63,7 @@ Microsoft [Viva Connections desktop](https://techcommunity.microsoft.com/t5/micr
 > - The [Viva Connections desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) is available now in the [Microsoft download center](https://www.microsoft.com/download/default.aspx).
 > - The vanity domain is only supported if the home site has the same domain as the [root site](modern-root-site.md).
 > - Viva Connections is not supported on the Linux operating system.
+> - The [Viva Connections dashboard web part](https://docs.microsoft.com/viva/connections/use-dashboard-web-part-on-home-site) is not supported with the Viva Connections desktop (Only) app. 
 
 
 ## Watch how to create the app package and then upload it to Teams
