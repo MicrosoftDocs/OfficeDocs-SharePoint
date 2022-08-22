@@ -2,6 +2,19 @@
 
 
 
+## Week of August 15, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/16/2022 | [OneDrive sync reports in the Apps Admin Center](/OneDrive/sync-health) | modified |
+| 8/19/2022 | [Redirect and move macOS known folders to OneDrive](/OneDrive/redirect-known-folders-macos) | added |
+| 8/19/2022 | [Install the sync app per-machine (Windows)](/OneDrive/per-machine-installation) | modified |
+| 8/19/2022 | [Redirect and move Windows known folders to OneDrive](/OneDrive/redirect-known-folders) | modified |
+| 8/20/2022 | [Overview of OneDrive Sync admin reports in the Microsoft 365 Apps admin center](/OneDrive/sync-health) | modified |
+| 8/20/2022 | [OneDrive sync reports in the Apps Admin Center](/OneDrive/sync-health) | modified |
+
+
 ## Week of July 25, 2022
 
 
@@ -16,19 +29,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 7/18/2022 | Sync | removed |
-
-
-## Week of July 11, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/13/2022 | [Use information barriers with OneDrive](/OneDrive/information-barriers) | modified |
-
-
-## Week of July 04, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/5/2022 | [OneDrive sync reports in the Apps Admin Center](/OneDrive/sync-health) | modified |
