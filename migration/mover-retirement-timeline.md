@@ -20,11 +20,17 @@ description: "Mover retirement timeline"
 >[!Important]
 >Attention businesses or those with EDU plans: We have retired the legacy [Mover](https://app.mover.io) tool's ability for admin-led migrations from [Google Drive](mm-google-overview.md), [Dropbox](mm-dropbox-overview.md), [Box](mm-box-overview.md), and [Egnyte](mm-egnyte-overview.md). Please use [Migration Manager](https://aka.ms/ODSP-MM), located in the SharePoint admin center.
 >
->*Ongoing migrations are not impacted by this change. However, you cannot create new connectors.* If you are currently in the middle of a Mover migration, you may continue using Mover until you finish your migration using your existing connectors. FastTrack led migrations are not impacted at this time.
+>*Ongoing migrations are not impacted by this change. However, you cannot create new connectors.* If you are currently in the middle of a Mover migration, you may continue using Mover until you finish your migration using your existing connectors.
 >
 >[**Individuals or students**: You may continue to use Mover, learn how!](https://support.microsoft.com/en-us/office/move-your-school-files-when-you-graduate-7dbda93c-71e6-483f-8914-ad445554cd31)
 >
 >[Learn more about the Mover.io retirement timeline](mover-retirement-timeline.md)
+
+
+>[!Important]
+>**Attention FastTrack led customers:**  FastTrack completed their analysis of those customers who will remain on Mover due to a technical limitation of how multiparent folders (a now deprecated Google feature) work.
+>
+> **Any FastTrack-led customer with multiparent folders who has reached velocity migrations will NOT transition to Migration Manager.** All other inflight content migration FastTrack-led customers will transition to Migration Manager.
 
 
 Mover's cloud migration scenarios are fully available in Migration Manager and have set the timeline to retire Mover. Unifying the migration experience within Migration Manager simplifies the tool decision for you and allows us to focus our development and support resources to help you meet your migration goals.
