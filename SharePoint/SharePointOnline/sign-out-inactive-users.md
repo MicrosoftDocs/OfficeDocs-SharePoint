@@ -25,10 +25,10 @@ description: "Learn how to set an idle session sign-out policy for SharePoint an
 
 # Sign out inactive users
 
-This article is for global and SharePoint admins in Microsoft 365 who want to control user access to SharePoint and OneDrive data on unmanaged devices. Idle session sign-out lets you specify a time at which users are warned and are later signed out of Microsoft 365 after a period of browser inactivity in SharePoint and OneDrive.
+This article is for Global Administrators and SharePoint Administrators in Microsoft 365 who want to control user access to SharePoint and OneDrive data on unmanaged devices. Idle session sign-out lets you specify a time at which users are warned and are later signed out of Microsoft 365 after a period of browser inactivity in SharePoint and OneDrive.
 
 > [!NOTE]
-> Idle session sign-out applies to the entire organization and can't be set for specific sites or users.  To target different settings for different users, use Azure AD Conditional Access policies instead (and see the next important note about the Azure AD Premium requirement).
+> Idle session sign-out applies to the entire organization and can't be set for specific sites or users. To target different settings for different users, use Azure AD Conditional Access policies instead (and see the next important note about the Azure AD Premium requirement).
 
 > [!IMPORTANT]
 > This feature relies on Azure AD Conditional Access policies being available. You will need an Azure AD Premium P1 or P2 subscription for this to work. For more info about this, refer to the [announcement in the Azure Active Directory Identity Blog](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/conditional-access-8220-limited-access-8221-policies-for/ba-p/245228).
@@ -76,7 +76,7 @@ If users don't select **Continue**, they're automatically signed out, and the fo
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system) After the file downloads, run it and follow the steps in the Setup Wizard.
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following command:
 
