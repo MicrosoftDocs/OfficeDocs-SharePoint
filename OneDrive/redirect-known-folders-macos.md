@@ -27,7 +27,7 @@ description: In this article, you'll learn how to redirect users' Desktop and Do
 # Redirect and move macOS Desktop and Documents folders to OneDrive
 
 > [!NOTE]
-> Folder Backup is available in the Insiders ring. Find out how to [set the update ring for the OneDrive sync app](use-group-policy#set-the-sync-app-update-ring) and [how we release updates through multiple rings](use-group-policy#set-the-sync-app-update-ring).
+> Folder Backup is available in the Insiders ring. Find out how to [set the update ring for the OneDrive sync app, and how we release updates through multiple rings](use-group-policy.md#set-the-sync-app-update-ring).
 
 This article is for IT admins managing the OneDrive sync app for macOS.
   
