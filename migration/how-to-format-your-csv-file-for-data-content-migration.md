@@ -82,7 +82,7 @@ https://sharepoint2013.com/sites/contosoteamsite/,DocumentLibraryName,DocLibrary
 
 The following example shows the JSON file format that you can use to migrate your data.
 
-As with a CSV file, the minimum required values are *Source*, *Source DocLib*, *Target Web*, and *Target DocLib*.  
+As with a CSV file, the minimum required values are *Source*, *Target Web*, and *Target DocLib*.  
 
 ```json
 {
