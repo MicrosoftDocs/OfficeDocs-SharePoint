@@ -65,7 +65,7 @@ Using a policy that affects all Microsoft 365 services can lead to better securi
 3. Select **Block access**, and then select **Save**. (Selecting this option disables any previous conditional access policies you created from this page, and creates a new conditional access policy that applies to all users. Any customizations you made to previous policies will not be carried over.)
 
     > [!NOTE]
-    > It can take 5-10 minutes for the policy to take effect. It won't take effect for users who are already signed in from unmanaged devices.
+    > It can take up to 24 hours for the policy to take effect. It won't take effect for users who are already signed in from unmanaged devices.
 
 > [!IMPORTANT]
 > If you block or limit access from unmanaged devices, we recommend also blocking access from apps that don't use modern authentication. Some third-party apps and versions of Office prior to Office 2013 don't use modern authentication and can't enforce device-based restrictions. This means they allow users to bypass conditional access policies that you configure in Azure. In <a href="https://go.microsoft.com/fwlink/?linkid=2185071" target="_blank">**Access control** in the new SharePoint admin center</a>, select **Apps that don't use modern authentication**, select **Block access**, and then select **Save**.
