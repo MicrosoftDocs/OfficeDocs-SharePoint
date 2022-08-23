@@ -44,7 +44,10 @@ Answer:   No. Migration Manager does it for you by automatically distributing ta
 Answer: The logs are stored here:  `C:\Users\<Username>\AppData\Roaming\Microsoft\SPMigration`.
 
 **Question:** Can I rename my temporary working folder?</br>
-Answer: Yes. By default the name of the folder is `%appdata%\Microsoft\SPMigration`.  However through the Migration Manager UI, you can configure the physical location of the folder where logs and reports are stored on the agent's machine. You can also see the available disc space so you can choose a drive that has enough storage before starting your migration.
+Answer: Yes. By default the name of the folder is `%appdata%\Microsoft\SPMigration`. Through the Migration Manager UI, you can configure the physical location of the folder where logs and reports are stored on the agent's machine including renaming your working folder. 
+
+**Question:**  What should I do if I don't have enough storage space?
+Answer: When you are in Manager Manager, you can see the available disc space. Choose a drive that has enough storage before starting your migration.
 
 **Question:** When using the Migration Manager tool, is there a limit to the number of path characters you can enter?</br>
 *Answer: Yes. When entering the **source path** into the text box, you're allowed a maximum of 255 characters.  However, during migration the **file path** can be up to 32,767 characters in length.  After it's migrated into SPO, the path is limited to 400 characters.
