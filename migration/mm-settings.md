@@ -57,4 +57,4 @@ The following table details the settings available in the Migration Manager. Onl
 |**Setting**|**Description**|
 |:-----|:-----|
 |Migration auto rerun|Upon failure, retry task up to four times.|
-|Migration Manager work folder|A temporary working folder is created named `%appdata%\Microsoft\SPMigration`. </br></br> Make sure that your working folder has a minimum of 150 GB of free space. It may need more depending on the size of the data you plan to migrate.|
+|Migration Manager working folder|A temporary working folder is created named `%appdata%\Microsoft\SPMigration`. </br></br> Make sure that your working folder has a minimum of 150 GB of free space. It may need more depending on the size of the data you plan to migrate.|

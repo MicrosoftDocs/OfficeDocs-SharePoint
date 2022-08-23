@@ -21,7 +21,7 @@ description: "Control settings in the Lists app."
 
 # Control settings for Microsoft Lists
 
-As a global or SharePoint admin in Microsoft 365, you can control settings for Microsoft Lists. You can:
+As a Global Administrator or SharePoint Administrator in Microsoft 365, you can control settings for Microsoft Lists. You can:
 
 - Disable the creation of personal lists (prevent users from saving new lists to "My lists").
 - Disable built-in list templates that aren't relevant for your organization.
@@ -41,7 +41,7 @@ If you change this setting, when users create a list, they must select a SharePo
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following command:
 
@@ -64,7 +64,7 @@ Disabling these templates removes them from all places users create lists (the L
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following command:
 
