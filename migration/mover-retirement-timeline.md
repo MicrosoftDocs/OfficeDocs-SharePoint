@@ -26,11 +26,10 @@ description: "Mover retirement timeline"
 >
 >[Learn more about the Mover.io retirement timeline](mover-retirement-timeline.md)
 
-
 >[!Important]
->**Attention FastTrack led customers:**  FastTrack completed their analysis of those customers who will remain on Mover due to a technical limitation of how multiparent folders (a now deprecated Google feature) work.
+>**Attention FastTrack led customers:** Any FastTrack-led customer with multi-parent folders who has reached velocity migrations will NOT transition to Migration Manager.
 >
-> **Any FastTrack-led customer with multiparent folders who has reached velocity migrations will NOT transition to Migration Manager.** All other inflight content migration FastTrack-led customers will transition to Migration Manager.
+>All other inflight content migration FastTrack-led customers will transition to Migration Manager. FastTrack completed their analysis of those customers who will remain on Mover due to a technical limitation of how multi-parent folders (a now deprecated Google feature) work.
 
 
 Mover's cloud migration scenarios are fully available in Migration Manager and have set the timeline to retire Mover. Unifying the migration experience within Migration Manager simplifies the tool decision for you and allows us to focus our development and support resources to help you meet your migration goals.
