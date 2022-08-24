@@ -6,35 +6,24 @@
 ### [Intro to sites](guide-to-sharepoint-modern-experience.md)
 ### [Branding](branding-sharepoint-online-sites-modern-experience.md)
 ### [Governance overview](governance-overview.md)
-### [Overview of Teams and SharePoint integration](teams-connected-sites.md)
-
+### [SharePoint and Teams integration]()
+#### [Overview of Teams and SharePoint integration](teams-connected-sites.md)
+#### [Manage collaboration experiences](manage-teams-sharepoint-experiences.md)
 ## [Get started]()
-
 ### [Plan for SharePoint and OneDrive](plan-for-sharepoint-onedrive.md)
-
 #### [Business requirements](business-requirements.md)
-
 #### [Hybrid](hybrid.md)
-
 #### [Sites]()
 ##### [Planning hub sites](planning-hub-sites.md)
-
 #### [Sync](plan-file-sync.md)
-
 #### [Migration](plan-rollout-migration.md)
-
 ### [Compliance]()
-
 #### [Create a compliant environment](compliant-environment.md)
-
 #### [Plan secure file collaboration](deploy-file-collaboration.md)
 #### [Permissions and sharing](modern-experience-sharing-permissions.md)
-
 ### [Choose collaboration options](collaboration-options.md)
-
 ### [Roll out OneDrive and SharePoint]()
 #### [Training and change management](training-change-management.md)
-
 #### [Create sites using guided walkthroughs]()
 ##### [Create a SharePoint communication site](create-communication-site.md)
 ##### [Create a SharePoint team site](guided-walkthrough-creating-team-site.md)
@@ -45,12 +34,7 @@
 ##### [Create a SharePoint hub site](create-hub-site-for-your-organization.md)
 ##### [Distribute news using a hub site](guided-walkthrough-set-up-news-with-hub-site.md)
 #### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
-
 #### [Roll out SharePoint and OneDrive](roll-out-sharepoint-onedrive.md)
-
-
-
-
 ## [Classic to modern]()
 ### [Publishing](publishing-sites-classic-to-modern-experience.md)
 ### [Customization options](extend-and-develop.md)
@@ -90,9 +74,6 @@
 ### [Onboard new employees](onboard-employees.md)
 ### [Hold a town hall using Yammer](hold-town-hall-using-yammer.md)
 ### [Build learning and training experiences](build-learning-and-training-experiences-for-employees.md)
-## [Governance]()
-
-### [Create guidelines for site usage ](sites-usage-guidelines.md)
 ## [Navigation]()
 ### [Introduction](information-architecture-modern-experience.md)
 ### [Principles](information-architecture-principles.md)
@@ -100,7 +81,6 @@
 ### [Plan navigation design](plan-implement-navigation-design.md)
 ### [Implement site navigation](plan-navigation-modern-experience.md)
 ## [Hubs]()
-
 ### [Create a hub site](create-hub-site.md)
 ### [Remove hub site](remove-hub-site.md)
 ### [Set up site design](set-up-site-design-hub-site.md)
@@ -119,9 +99,6 @@
 ### [Add the Workplace transformation site](change-management-template.md)
 ## [Publishing]()
 ### [How page recommendations work](sharepoint_page-recommendations.md)
-## [SharePoint and Teams integration]()
-
-### [Manage collaboration experiences](manage-teams-sharepoint-experiences.md)
 ## [Site administration]()
 ### [Create sites](create-site-collection.md)
 ### [Delete sites](delete-site-collection.md)
@@ -137,6 +114,7 @@
 ### [Set up a home site](home-site.md)
 ### [Change your domain name](change-your-sharepoint-domain-name.md)
 ### [Enable and set up global navigation](sharepoint-app-bar.md)
+### [Create guidelines for site usage ](sites-usage-guidelines.md)
 ### [Create an organization assets library](organization-assets-library.md)
 #### [Support for organization fonts in PowerPoint for the web](support-for-organization-fonts-in-PowerPoint-for-the-web.md)
 ### [Create an organization news site](organization-news-site.md)
