@@ -40,7 +40,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOnwY]
 
 >[!IMPORTANT]
-> This feature is in public preview and currently available to organizations that have no more than 5000 total SharePoint sites and OneDrive accounts combined. If you get error 773 "Not Implemented" when you try to start a domain rename, the feature isn't enabled yet for your organization because we're still rolling it out. Try again later.
+> This feature is in public preview and currently available to organizations that have no more than 10,000 total SharePoint sites and OneDrive accounts combined, which was increased from the earlier limit of 5,000 total sites on August 23rd, 2022. If you get error 773 "Not Implemented" when you try to start a domain rename, the feature isn't enabled yet for your organization because we're still rolling it out. Try again later.
 
 > [!NOTE]
 > - This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses.
@@ -83,7 +83,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 | InfoPath forms | Forms that use a SharePoint connection as a data source won't work. | Reconnect these forms to SharePoint. |
 | Microsoft Forms | Forms that have the option to upload attachments in responses won't work. | Remove the upload button and add it again in the form. |
 | Office apps | While the domain name is being changed, users might experience an error when saving Word, Excel, and PowerPoint documents that are located in a site or OneDrive. | Attempt to save the document again and if necessary change the URL of the save location. |
-| OneDrive | The Quick access links in a OneDrive won't work. | None  |
+| OneDrive | The Quick access links in OneDrive and SharePoint won't work. | None  |
 | Power Automate | Request sign-off flows that use SharePoint as a connection won’t work. | Remove and re-create the Request sign-off flow. |
 | Power Automate | Any flows deployed as solutions with managed layers that use SharePoint as a connection won’t work. | Remove and re-create the flows. |
 | Power BI | Power BI reports using SharePoint connections as a data source won't work. |	Before changing your domain name, download the Power BI reports that are using SharePoint connections as a data source as a .pbix file. After you change the domain name, edit the connections in the Power BI Desktop app and republish the report. <br> Power BI reports that are not created or maintained in the Power BI Desktop app will need to be recreated. |
