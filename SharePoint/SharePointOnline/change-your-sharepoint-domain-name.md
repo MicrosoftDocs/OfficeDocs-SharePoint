@@ -40,7 +40,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOnwY]
 
 >[!IMPORTANT]
-> This feature is in public preview and currently available to organizations that have no more than 5000 total SharePoint sites and OneDrive accounts combined. If you get error 773 "Not Implemented" when you try to start a domain rename, the feature isn't enabled yet for your organization because we're still rolling it out. Try again later.
+> This feature is in public preview and currently available to organizations that have no more than 10,000 total SharePoint sites and OneDrive accounts combined, which was increased from the earlier limit of 5,000 total sites on August 23rd, 2022. If you get error 773 "Not Implemented" when you try to start a domain rename, the feature isn't enabled yet for your organization because we're still rolling it out. Try again later.
 
 > [!NOTE]
 > - This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses.
