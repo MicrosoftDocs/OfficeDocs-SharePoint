@@ -547,7 +547,7 @@
     },
     {
       "source_path": "SharePoint/SharePointOnline/intranet-overview.md",
-      "redirect_url": "SharePoint/SharePointOnline/intranet-team-overview.md",
+      "redirect_url": "/SharePoint/intranet-team-overview",
       "redirect_document_id": false
     },
     {
