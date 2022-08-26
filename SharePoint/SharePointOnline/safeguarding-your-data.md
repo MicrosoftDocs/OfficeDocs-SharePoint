@@ -37,7 +37,7 @@ No engineer has standing access to the service. When engineers need access, they
   
 ## How you can safeguard your data
 
-One of the most important things you can do to safeguard your data is to require two-factor authentication for your identities in Microsoft 365. This prevents credentials from being used without a second factor and mitigates the impact of compromised passwords. The second factor can be made through a phone call, text message, or app. When you roll out two-factor authentication, start with your global admins, and then other admins and site collection admins. For info about how to do this, see [Set up multi-factor authentication for Microsoft 365 users](/office365/admin/security-and-compliance/set-up-multi-factor-authentication).
+One of the most important things you can do to safeguard your data is to require two-factor authentication for your identities in Microsoft 365. This prevents credentials from being used without a second factor and mitigates the impact of compromised passwords. The second factor can be made through a phone call, text message, or app. When you roll out two-factor authentication, start with your Global Administrators, and then other admins and site collection admins. For info about how to do this, see [Set up multi-factor authentication for Microsoft 365 users](/office365/admin/security-and-compliance/set-up-multi-factor-authentication).
   
 Other things we recommend to increase security: 
   
