@@ -23,7 +23,7 @@ description: "Learn how to customize the Search Box Web Part."
 
 The Search Box Web Part shows a text box where users can enter words or phrases to search for information. By default, the Search Box Web Part is used on the home page for the Search Center (default.aspx), and all default search results pages (**Everything**, **People**, **Conversations**, and **Videos**).
   
-As a global or SharePoint admin in Microsoft 365, you can change settings in the Search Box Web Part. You can:
+As a Global Administrator or SharePoint Administrator in Microsoft 365, you can change settings in the Search Box Web Part. You can:
   
 - Change where the search results should be displayed — for example, show results in a custom Search Results Web Part or a custom search results page.
     
@@ -62,7 +62,7 @@ As a global or SharePoint admin in Microsoft 365, you can change settings in the
 ## Change settings for query suggestions
 <a name="__toc349558306"> </a>
 
-As a global or SharePoint admin in Microsoft 365, you can turn off or on query suggestions or edit the different settings for query suggestions. Query suggestions are turned on by default.
+As a Global Administrator or SharePoint Administrator in Microsoft 365, you can turn off or on query suggestions or edit the different settings for query suggestions. Query suggestions are turned on by default.
   
 1. On the Search Center site home page, click the **Settings** menu, and then click **Edit Page**.
     
