@@ -61,6 +61,6 @@ Mover's cloud migration scenarios are fully available in Migration Manager and h
 **Question:** Will individual or consumer migrations continue to work on Mover?</br>
 **Answer:**   We'll continue to support individual, consumer, or student migrations from Mover for some time. Refer back to this page for updates on these migration scenarios. 
 
-**Question:** Is Tenant to Tenant (T2T) migration supported in Migration Manager?</br>
+**Question:** Is tenant-to-tenant migration supported in Migration Manager?</br>
 **Answer:**  No. Microsoft will be offering a solution that will be available sometime in 2023. This will be a premium feature distinct from legacy Mover. In the interim, we recommend using a third-party solution for your M365-to-M365 migration needs.
 
