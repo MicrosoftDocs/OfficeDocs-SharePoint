@@ -44,7 +44,7 @@ For these reasons, we recommend moving (redirecting) Desktop and Documents folde
 
 ## Prepare to move Desktop and Documents folders on existing devices
 
-The [standalone OneDrive sync app](https://support.microsoft.com/office/845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac) (not from the Mac App Store) is required for Folder Backup. This app requires Full Disk Access, which can be granted and deployed by IT admins.
+The [standalone OneDrive sync app](https://support.microsoft.com/office/845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac) (not from the Mac App Store) is required for Folder Backup. This app requires Full Disk Access, which can be granted and deployed by IT admins, for more information, see [Configure device restriction settings in Microsoft Intune](/mem/intune/configuration/device-restrictions-configure).
 
 We recommend that you upgrade to the latest available build before you deploy.
 
