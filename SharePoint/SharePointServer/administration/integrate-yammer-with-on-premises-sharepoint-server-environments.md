@@ -72,4 +72,4 @@ For more information, see [Social scenarios with Yammer and SharePoint Server](s
 
 [Yammer - Admin Help](/yammer/)
 
-[Yammer Customer Success Center](https://go.microsoft.com/fwlink/p/?LinkID=331300)
+[Yammer Customer Success Center](https://resources.techcommunity.microsoft.com/wp-content/uploads/2019/01/Yammer-Success-Guide-_-Resource-Center.pdf)

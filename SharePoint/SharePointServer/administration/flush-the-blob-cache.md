@@ -82,5 +82,5 @@ When you flush the BLOB cache, you clear the contents of the BLOB cache for a we
 
 #### Other Resources
 
-[Scripting with Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=193051)
+[Scripting with Windows PowerShell](/powershell/scripting/windows-powershell/ise/how-to-write-and-run-scripts-in-the-windows-powershell-ise)
 
