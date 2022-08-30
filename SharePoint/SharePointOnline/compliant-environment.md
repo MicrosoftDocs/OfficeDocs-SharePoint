@@ -55,11 +55,11 @@ The OneDrive sync app has policies that you can use to help you maintain a compl
 
 |Policy|Windows GPO|Mac|
 |:-----|:----------|:--|
-|Allow syncing OneDrive accounts for only specific organizations|[AllowTenantList](use-group-policy.md#allow-syncing-onedrive-accounts-for-only-specific-organizations)|[AllowTenantList](deploy-and-configure-on-macos.md#allowtenantlist)|
-|Block syncing OneDrive accounts for specific organizations|[BlockTenantList](use-group-policy.md#block-syncing-onedrive-accounts-for-specific-organizations)|[BlockTenantList](deploy-and-configure-on-macos.md#blocktenantlist)|
-|Prevent users from syncing libraries and folders shared from other organizations|[BlockExternalSync](use-group-policy.md#prevent-users-from-syncing-libraries-and-folders-shared-from-other-organizations)|[BlockExternalSync](deploy-and-configure-on-macos.md#blockexternalsync)|
-|Prevent users from syncing personal OneDrive accounts|[DisablePersonalSync](use-group-policy.md#prevent-users-from-syncing-personal-onedrive-accounts)|[DisablePersonalSync](deploy-and-configure-on-macos.md#disablepersonalsync)|
-|Exclude specific kinds of files from being uploaded|[EnableODIgnoreListFromGPO](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded)|[EnableODIgnore](deploy-and-configure-on-macos.md#enableodignore)|
+|Allow syncing OneDrive accounts for only specific organizations|[AllowTenantList](/onedrive/use-group-policy#allow-syncing-onedrive-accounts-for-only-specific-organizations)|[AllowTenantList](/onedrive/deploy-and-configure-on-macos#allowtenantlist)|
+|Block syncing OneDrive accounts for specific organizations|[BlockTenantList](/onedrive/use-group-policy#block-syncing-onedrive-accounts-for-specific-organizations)|[BlockTenantList](/onedrive/deploy-and-configure-on-macos#blocktenantlist)|
+|Prevent users from syncing libraries and folders shared from other organizations|[BlockExternalSync](/onedrive/use-group-policy#prevent-users-from-syncing-libraries-and-folders-shared-from-other-organizations)|[BlockExternalSync](/onedrive/deploy-and-configure-on-macos#blockexternalsync)|
+|Prevent users from syncing personal OneDrive accounts|[DisablePersonalSync](/onedrive/use-group-policy#prevent-users-from-syncing-personal-onedrive-accounts)|[DisablePersonalSync](/onedrive/deploy-and-configure-on-macos#disablepersonalsync)|
+|Exclude specific kinds of files from being uploaded|[EnableODIgnoreListFromGPO](/onedrive/use-group-policy#exclude-specific-kinds-of-files-from-being-uploaded)|[EnableODIgnore](/onedrive/deploy-and-configure-on-macos#enableodignore)|
 
 ## Data residency
 

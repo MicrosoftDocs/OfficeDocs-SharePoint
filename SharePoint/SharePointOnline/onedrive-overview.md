@@ -87,7 +87,7 @@ Many organizations use OneDrive without changing any of the options. To change t
 
 - **Compliance.** [View the compliance and risk management solutions available in Microsoft 365](https://compliance.microsoft.com/solutioncatalog)
 
-- **Notifications.** Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings</a> and select **Notifications**. For information about this setting, see [Control notifications](turn-on-external-sharing-notifications.md).
+- **Notifications.** Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings</a> and select **Notifications**. For information about this setting, see [Control notifications](/onedrive/turn-on-external-sharing-notifications).
 
 ## Get help with OneDrive
 
