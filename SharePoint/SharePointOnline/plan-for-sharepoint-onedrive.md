@@ -30,7 +30,7 @@ As you plan your rollout, in addition to the technical planning considerations p
 - How important is migration of content as part of your rollout?
 - Should your administrators specialize in a particular area of OneDrive or SharePoint or should they work from a shared queue of tasks?
 
-After you review this article, see these article for additional planning information:
+After you review this article, see these articles for additional planning information:
 
 - [Identify business requirements for SharePoint and OneDrive](business-requirements.md)
 
@@ -50,7 +50,7 @@ After you review this article, see these article for additional planning informa
 
 ## Migrate content
 
-An important part of rolling out SharePoint and OneDrive is migrating content from your existing storage locations. This may include gradual migration of content over time as you roll SharePoint and OneDrive out to different groups in you organization. You can find complete information about migration at [Migrate your content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online).
+An important part of rolling out SharePoint and OneDrive is migrating content from your existing storage locations. This may include gradual migration of content over time as you roll SharePoint and OneDrive out to different groups in your organization. You can find complete information about migration at [Migrate your content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online).
 
 ### Migrate with FastTrack
 
