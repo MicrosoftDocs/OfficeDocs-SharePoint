@@ -33,11 +33,11 @@ The features listed in this section address common customer concerns or specific
 
 OneDrive Files On-Demand enables users to view, search for, and interact with files stored in OneDrive from within File Explorer, without downloading all the files to their device. The feature provides a seamless look and feel for both OneDrive and local files without taking up space on the local hard drive. As shown in the following screenshot, files that have not been downloaded have a cloud icon for their status. For those files that have been downloaded, the status shows a green checkmark.
 
-![Screenshot of Windows Explorer with some OneDrive files that have been downloaded and others that are only in the cloud](media/What-is-OneDrive-Small-Business_image1.png)
+![Screenshot of Windows Explorer with some OneDrive files that have been downloaded and others that are only in the cloud.](media/What-is-OneDrive-Small-Business_image1.png)
 
 By default, files are downloaded only when you need to access them. However, if you plan to access a file while disconnected from the internet, simply make the file available offline by right-clicking it, and then selecting **Always keep on this device**. Alternatively, if you want to free space on your device and remove the downloaded copy of a file, right-click the file, and then select **Free up space**. The following screenshot shows the right-click menu for OneDrive files on a device running Windows.
 
-![Screenshot of the OneDrive right-click menu, with options for "Always keep on this device" and "Free up space"](media/What-is-OneDrive-Small-Business_image2.png)
+![Screenshot of the OneDrive right-click menu, with options for "Always keep on this device" and "Free up space."](media/What-is-OneDrive-Small-Business_image2.png)
 
 For more information about OneDrive Files On-Demand, see [Learn about OneDrive Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e).
 
@@ -45,7 +45,7 @@ For more information about OneDrive Files On-Demand, see [Learn about OneDrive F
 
 OneDrive integrates with Microsoft Outlook to enable easy sharing of OneDrive files that appear just like email attachments. This feature provides a familiar sharing experience but centralizes storage of attachments in OneDrive. This allows your users to all collaborate on the same file instead of sending different versions back and forth in email. In addition, you can configure sharing permissions on the files directly from within Outlook.
 
-![Screenshot of Outlook with a modern attachment and the right-click menu showing permissions options](media/What-is-OneDrive-Small-Business_image3.png)
+![Screenshot of Outlook with a modern attachment and the right-click menu showing permissions options.](media/What-is-OneDrive-Small-Business_image3.png)
 
 To reduce the potential for confusion when users choose to add a copy versus a link to attached OneDrive files, you can set the default behavior of Outlook, as demonstrated in [How to control default attachment state when you attach a cloud file in Outlook 2016](https://support.microsoft.com/help/4011261/how-to-set-attachment-preference-for-attaching-a-cloud-file-in-outlook).
 
@@ -53,7 +53,7 @@ To reduce the potential for confusion when users choose to add a copy versus a l
 
 The OneDrive Files Restore feature lets users restore files to any point over the past 30 days. To select the desired recovery time, OneDrive presents you with a histogram that shows file activity so that you can determine which recovered time meets your needs. From there, simply select the file history entry to which you want to restore, and all changes after that point will be rolled back.
 
-![Screenshot of the Restore my OneDrive page in Microsoft 365](media/What-is-OneDrive-Small-Business_image4.png)
+![Screenshot of the Restore my OneDrive page in Microsoft 365.](media/What-is-OneDrive-Small-Business_image4.png)
 
 In addition, because the histogram shows individual activity on a file, users can use this feature to quickly view their files' modification history. For more information about this feature, see [Restore your OneDrive](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15).
 
