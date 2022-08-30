@@ -195,7 +195,7 @@ SharePoint Server 2016 data is stored in SQL Server tables. Each column type has
 |Single line of text  <br/> |255  <br/> |Threshold  <br/> |30 bytes  <br/> ||
 |Multiple Lines of Text  <br/> |350  <br/> |Threshold  <br/> |22 bytes  <br/> ||
 |Choice  <br/> |255  <br/> |Threshold  <br/> |30 bytes  <br/> ||
-|Choice (multiple selection)  <br/> |350  <br/> |Threshold  <br/> |22 bytes  <br/> ||
+|Choice (multiple selections)  <br/> |350  <br/> |Threshold  <br/> |22 bytes  <br/> ||
 |Number  <br/> |550  <br/> |Threshold  <br/> |14 bytes  <br/> ||
 |Currency  <br/> |550  <br/> |Threshold  <br/> |14 bytes  <br/> ||
 |Date and Time  <br/> |550  <br/> |Threshold  <br/> |14 bytes  <br/> ||
@@ -213,7 +213,7 @@ External Data columns have the concept of a primary column and secondary columns
   
 - Primary column: A text field.
     
-- Hidden Id column: A multi-line text field.
+- Hidden ID column: A multi-line text field.
     
 - Secondary columns: Each secondary column is a text/number/Boolean/multi-line text that is based on the data type of the secondary column as defined in the Business Data Catalog model. For example, ID might be mapped to a  *Number*  column; Name might be mapped to a  *Single line of text column*; Description might be mapped to a *Multiple lines of text*  column. 
     
