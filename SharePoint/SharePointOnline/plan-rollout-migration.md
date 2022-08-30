@@ -46,7 +46,7 @@ for more information.
 
 As part of your rollout, you may be migrating your users' personal work files to OneDrive. As part of this process, you may need to pre-provision users' OneDrive libraries.
 
-Normally, a user's OneDrive is created the first time they access OneDrive. If you will be migrating your users' files on their behalf before they begin using OneDrive, you'll need to pre-provision OneDrive for each of them. See [Pre-provision OneDrive for users in your organization](pre-provision-accounts.md) for details.
+Normally, a user's OneDrive is created the first time they access OneDrive. If you will be migrating your users' files on their behalf before they begin using OneDrive, you'll need to pre-provision OneDrive for each of them. See [Pre-provision OneDrive for users in your organization](/onedrive/pre-provision-accounts) for details.
 
 ### Files in on-premises OneDrive or MySites libraries
 
@@ -54,7 +54,7 @@ If users' existing files are in on-premises SharePoint Server, OneDrive, or MySi
 
 ### Files in users' commonly used folders
 
-If user files are located in their Windows or Mac Desktop or Documents folders, you can move and redirect these locations to OneDrive. You can enable this feature during the initial rollout of OneDrive or sometime later. For more info, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md) and [Redirect and move macOS Desktop and Documents folders to OneDrive](redirect-known-folders-macos).
+If user files are located in their Windows or Mac Desktop or Documents folders, you can move and redirect these locations to OneDrive. You can enable this feature during the initial rollout of OneDrive or sometime later. For more info, see [Redirect and move Windows known folders to OneDrive](/onedrive/redirect-known-folders) and [Redirect and move macOS Desktop and Documents folders to OneDrive](/onedrive/redirect-known-folders-macos).
 
 ### Files in other local disk folders
 

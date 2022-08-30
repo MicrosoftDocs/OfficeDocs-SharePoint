@@ -27,7 +27,7 @@ Be sure you've reviewed these SharePoint and OneDrive deployment resources befor
 - [Plan file sync for SharePoint and OneDrive in Microsoft 365](plan-file-sync.md)
 - [Training and change management for rolling out SharePoint and OneDrive](training-change-management.md)
 
-Also, make sure your [migration plans](rollout-migration.md) are in place as you roll out.
+Also, make sure your [migration plans](plan-rollout-migration.md) are in place as you roll out.
 
 We highly recommend rolling SharePoint and OneDrive out to a pilot group before rolling them out to your entire organization. A pilot program can help you test your business processes and determine if there's further change management or training needed to help your users succeed with SharePoint and OneDrive.
 

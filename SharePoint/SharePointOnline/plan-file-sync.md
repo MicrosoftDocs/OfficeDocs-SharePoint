@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ms.collection:  
 ms.custom: intro-get-started
 search.appverid: MET150
-description: 
+description: Learn how to plan file sync for SharePoint and OneDrive in your organization
 ---
 
 # Plan file sync for SharePoint and OneDrive in Microsoft 365
@@ -28,14 +28,14 @@ The OneDrive sync app has a variety of configuration options for compliance, per
 - [How do you want to manage sync on Windows computers?](#how-do-you-want-to-manage-sync-on-windows-computers)
 - [Which update ring do you want to use?](#which-update-ring-do-you-want-to-use)
 - [Do you want to limit network utilization for sync?](#do-you-want-to-limit-network-utilization-for-sync)
-- [Do you want to sync common folders with OneDrive?](#do-you-want-to-sync-common-folders-with-onedrive)
-- [Do you want to limit which domains users can sync with?](#do-you-want-to-limit-which-domains-users-can-sync-with)
+- [Do you want to sync commonly used folders with OneDrive](#do-you-want-to-sync-commonly-used-folders-with-onedrive)
+- [Do you want to limit which organizations users can sync with?](#do-you-want-to-limit-which-organizations-users-can-sync-with)
 - [Do you want to allow users to sync their personal OneDrive?](#do-you-want-to-allow-users-to-sync-their-personal-onedrive)
-- [Do you want to block certain file types from being synced?](#do-you-want-to-block-certain-file-types-from-being-synced)
+- [Do you want to block certain file types from being uploaded?](#do-you-want-to-block-certain-file-types-from-being-uploaded)
 - [Do you need to sync files in a hybrid environment with SharePoint Server?](#do-you-need-to-sync-files-in-a-hybrid-environment-with-sharepoint-server)
 - [Do you want to limit sync to computers joined to a specific domain?](#do-you-want-to-limit-sync-to-computers-joined-to-a-specific-domain)
 
-For information about the recommended configuration options for the sync app, see [Recommended sync app configuration](ideal-state-configuration.md).
+For information about the recommended configuration options for the sync app, see [Recommended sync app configuration](/onedrive/ideal-state-configuration).
 
 ## How do you want to deploy the sync app?
 
@@ -148,7 +148,7 @@ If you are using the previous OneDrive sync app (Groove.exe), see [Transition fr
 
 ## Do you want to limit sync to computers joined to a specific domain?
 
-To make sure that users sync OneDrive files only on managed computers, you can configure OneDrive to sync only on PCs that are joined to specific domains. for more information, see [Allow syncing only on computers joined to specific domains](allow-syncing-only-on-specific-domains.md).
+To make sure that users sync OneDrive files only on managed computers, you can configure OneDrive to sync only on PCs that are joined to specific domains. for more information, see [Allow syncing only on computers joined to specific domains](/onedrive/allow-syncing-only-on-specific-domains).
 
 ## Next steps
 

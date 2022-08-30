@@ -34,9 +34,9 @@ Use data lifecycle management capabilities in Microsoft Purview to govern your O
 
 When a user leaves your organization and you've deleted that user's account, what happens to the user's data? When considering data retention compliance, determine what needs to happen with the deleted user's data. For some organizations, retaining deleted user data could be important continuity and preventing critical data loss. 
 
-If a user's Microsoft 365 account is deleted, their OneDrive files are preserved for 30 days. To change this setting, [Set the OneDrive retention for deleted users](set-retention.md).
+If a user's Microsoft 365 account is deleted, their OneDrive files are preserved for 30 days. To change this setting, [Set the OneDrive retention for deleted users](/onedrive/set-retention).
 
-By default, when a user is deleted, the user's manager is automatically given access to the user's OneDrive. To change this, see [OneDrive retention and deletion](retention-and-deletion.md).
+By default, when a user is deleted, the user's manager is automatically given access to the user's OneDrive. To change this, see [OneDrive retention and deletion](/onedrive/retention-and-deletion).
 
 ## Information protection
 
@@ -86,10 +86,10 @@ If your business requires information barriers, see [Learn about information bar
 
 [Plan for SharePoint and OneDrive in Microsoft 365](plan-for-sharepoint-onedrive.md)
 
-[B2B Sync](b2b-sync.md)
+[B2B Sync](/onedrive/b2b-sync)
 
 [Implement compliance in Microsoft 365](/learn/paths/implement-data-governance-microsoft-365-intelligence/)
 
 [Protect your enterprise data using Windows Information Protection (WIP)](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)
 
-[Control OneDrive and SharePoint access based on network authentication or app](control-access-based-on-network-location-or-app.md)
+[Control OneDrive and SharePoint access based on network authentication or app](/onedrive/control-access-based-on-network-location-or-app)

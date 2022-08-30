@@ -68,7 +68,7 @@ We recommend including planning for hub sites as part of your process for rollin
 
 ## Network utilization
 
-Various factors can impact the amount of network bandwidth used by SharePoint and OneDrive. For the best experience, we recommend that you assess this impact before you start your rollout. The article [Network utilization planning for the OneDrive sync app](network-utilization-planning.md) includes the recommended process for determining your network bandwidth needs for OneDrive. Be sure to include this as part of your deployment plan.
+Various factors can impact the amount of network bandwidth used by SharePoint and OneDrive. For the best experience, we recommend that you assess this impact before you start your rollout. The article [Network utilization planning for the OneDrive sync app](/onedrive/network-utilization-planning) includes the recommended process for determining your network bandwidth needs for OneDrive. Be sure to include this as part of your deployment plan.
 
 These references can also help with planning your rollout:
 
