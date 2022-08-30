@@ -18,7 +18,7 @@
 #### [Sync](plan-file-sync.md)
 #### [Migration](plan-rollout-migration.md)
 ### [Compliance]()
-#### [Create a compliant environment](compliant-environment.md)
+#### [Plan compliance requirements](compliant-environment.md)
 #### [Plan secure file collaboration](deploy-file-collaboration.md)
 #### [Permissions and sharing](modern-experience-sharing-permissions.md)
 ### [Choose collaboration options](collaboration-options.md)

@@ -57,6 +57,8 @@ These resources can help your users learn the basics of SharePoint and OneDrive.
 
 [Save a file to a SharePoint library](https://support.microsoft.com/topic/32204d9f-55ea-4232-a32b-aa7e046afcdd)
 
+[Protect your files by saving them to OneDrive](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057)
+
 [Transfer files to your personal OneDrive with the Mover Transfer Wizard](https://support.microsoft.com/office/7dbda93c-71e6-483f-8914-ad445554cd31)
 
 #### Training

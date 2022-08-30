@@ -676,6 +676,16 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "OneDrive/One-Drive-Quickstart-Small-Business.md",
+      "redirect_url": "/sharepoint/onedrive-overview",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "OneDrive/plan-onedrive-enterprise.md",
+      "redirect_url": "/sharepoint/plan-for-sharepoint-onedrive",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "SharePoint/SharePointOnline/workplace-communications.md",
       "redirect_url": "/sharepoint/corporate-communications-overview",
       "redirect_document_id": true
