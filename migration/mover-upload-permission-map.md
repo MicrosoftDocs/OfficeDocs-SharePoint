@@ -40,7 +40,7 @@ Permission maps should have two specific entries:
 
 Download an example CSV:
 
-[example_permission_map_box.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_permission_map_box.csv)
+[example_permission_map_box.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/public/migration/downloads/example_permission_map_box.csv)
 
 ### Creating your CSV in Excel
 

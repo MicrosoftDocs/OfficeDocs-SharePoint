@@ -147,7 +147,7 @@ Get-AzureVM -ServiceName $svc -Name $vmname | Add-AzureEndpoint -Name $epname -L
 
 ```
 
-For additional information about the Microsoft PowerShell for Azure cmdlets, see [Get-AzureVM](/previous-versions/azure/mt126007(v=azure.100)) and [Add-AzureEndpoint](https://msdn.microsoft.com/library/mt589127.aspx)
+For additional information about the Microsoft PowerShell for Azure cmdlets, see [Get-AzureVM](/previous-versions/azure/mt126007(v=azure.100)) and [Add-AzureEndpoint](/powershell/module/servicemanagement/azure.service/add-azureendpoint)
   
 ## Related Topics
 

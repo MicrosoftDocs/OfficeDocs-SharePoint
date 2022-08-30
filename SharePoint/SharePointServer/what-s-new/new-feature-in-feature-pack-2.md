@@ -45,4 +45,4 @@ SharePoint Server 2016 Feature Pack 2 contains SharePoint Framework client-side 
 
 #### Other Resources
 
-[Deploy SharePoint Framework web parts to SharePoint Server 2016 with Feature Pack 2](https://dev.office.com/blogs/now-available-deploy-sharepoint-framework-web-parts-to-sharepoint-server-2016-with-feature-pack-2)
+[Deploy SharePoint Framework web parts to SharePoint Server 2016 with Feature Pack 2](https://devblogs.microsoft.com/microsoft365dev/now-available-deploy-sharepoint-framework-web-parts-to-sharepoint-server-2016-with-feature-pack-2)
