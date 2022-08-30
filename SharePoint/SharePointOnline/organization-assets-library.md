@@ -41,7 +41,7 @@ If your organization needs to store and manage files for all your users to use, 
   - PowerPoint on the web. Templates aren't available from the **New** menu. Instead, users need to go to the PowerPoint start page and select **Office Template Library**. For the organization assets library to appear to a user in PowerPoint on the web, the user must be assigned a license to Office 365 E3 or E5.
 
     > [!NOTE]
-    > - For the organization assets library to appear to a user in PowerPoint on the web, the user must be assigned a license to Office 365 E3 or E5. Users who use the Word, Excel, or PowerPoint desktop app also need Microsoft 365 Apps Version 2002 or later.
+    > - For the organization assets library to appear to a user in PowerPoint on the web, the user must be assigned a license to Office 365 E3 or E5. Users who use the Word, Excel, or PowerPoint desktop app also need Microsoft 365 Apps Version 2002 or later. (Organization assets library will not be available in Word on the web or Excel on the web versions).
     > - Allow up to 24 hours for the organization assets library to appear to a user in the desktop apps.
     > - Uploaded template files must be in the following formats:
     >   - **Excel**: .xltx. [Learn how to save an Excel workbook as a template](https://support.microsoft.com/office/save-a-workbook-as-a-template-58c6625a-2c0b-4446-9689-ad8baec39e1e).
