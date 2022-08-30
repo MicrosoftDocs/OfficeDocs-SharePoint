@@ -111,7 +111,7 @@ The next and final phase to deploy software updates is the build-to-build upgrad
   
 ### Build-to-build upgrade phase
 
-The build-to-build upgrade phase requires the administrator to run the Configuration Wizard or `psconfig` from the SharePoint Managmeent Shell.
+The build-to-build upgrade phase requires the administrator to run the Configuration Wizard or `psconfig` from the SharePoint Management Shell.
 
 > [!NOTE]
 > No specific order of execution of the Configuration Wizard in a farm is required.
