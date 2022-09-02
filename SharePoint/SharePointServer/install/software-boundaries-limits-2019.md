@@ -195,7 +195,7 @@ SharePoint Server 2016 data is stored in SQL Server tables. Each column type has
 |Single line of text  <br/> |255  <br/> |Threshold  <br/> |30 bytes  <br/> ||
 |Multiple Lines of Text  <br/> |350  <br/> |Threshold  <br/> |22 bytes  <br/> ||
 |Choice  <br/> |255  <br/> |Threshold  <br/> |30 bytes  <br/> ||
-|Choice (multiple selection)  <br/> |350  <br/> |Threshold  <br/> |22 bytes  <br/> ||
+|Choice (multiple selections)  <br/> |350  <br/> |Threshold  <br/> |22 bytes  <br/> ||
 |Number  <br/> |550  <br/> |Threshold  <br/> |14 bytes  <br/> ||
 |Currency  <br/> |550  <br/> |Threshold  <br/> |14 bytes  <br/> ||
 |Date and Time  <br/> |550  <br/> |Threshold  <br/> |14 bytes  <br/> ||
@@ -213,7 +213,7 @@ External Data columns have the concept of a primary column and secondary columns
   
 - Primary column: A text field.
     
-- Hidden Id column: A multi-line text field.
+- Hidden ID column: A multi-line text field.
     
 - Secondary columns: Each secondary column is a text/number/Boolean/multi-line text that is based on the data type of the secondary column as defined in the Business Data Catalog model. For example, ID might be mapped to a  *Number*  column; Name might be mapped to a  *Single line of text column*; Description might be mapped to a *Multiple lines of text*  column. 
     
@@ -278,7 +278,7 @@ If you tune item size limits, we recommend that you work with them in the order 
   
 |Limit|Maximum value|Limit type|Notes|
 |-----|-----|-----|-----|
-|Document size crawl component can download  <br/> |64 MB (3 MB for Excel documents)  <br/> |Threshold  <br/> |Search downloads meta data and content from a document until it reaches the maximum document size. The rest of the content is not downloaded. Search always downloads a document's meta data.  <br/> You can change the default limit for the maximum document size. Do this by using Microsoft PowerShell cmdlets to change the Search service application property **MaxDownLoadSize** or **MaxDownloadSizeExcel**. **MaxDownLoadSize** doesn't impact the maximum size for Excel documents. Enter the value in megabytes. The maximum value for the maximum document size is 1024 MB, also for Excel documents.  <br/> If you increase the limit for the maximum document size, search indexes more content and needs more disk space.  <br/> |
+|Document size crawl component can download  <br/> |64 MB (4 MB for Excel documents)  <br/> |Threshold  <br/> |Search downloads meta data and content from a document until it reaches the maximum document size. The rest of the content is not downloaded. Search always downloads a document's meta data.  <br/> You can change the default limit for the maximum document size. Do this by using Microsoft PowerShell cmdlets to change the Search service application property **MaxDownLoadSize** or **MaxDownloadSizeExcel**. **MaxDownLoadSize** doesn't impact the maximum size for Excel documents. Enter the value in megabytes. The maximum value for the maximum document size is 1024 MB, also for Excel documents.  <br/> If you increase the limit for the maximum document size, search indexes more content and needs more disk space.  <br/> |
 |Parsed content size  <br/> |2 million characters  <br/> |Boundary  <br/> |Search stops parsing an item after it has parsed up to 2 million characters of content from it, including the item's attachments. The actual number of parsed characters can be lower than this limit because search uses maximum 30 seconds on parsing a single item and its attachments. When search stops parsing an item, the item is marked as partially processed. Any unparsed content isn't processed and therefore isn't indexed.  <br/> |
 |Characters produced by the word breaker  <br/> |1,000,000  <br/> |Boundary  <br/> |Search breaks content into individual words (tokens). The word breaker produces tokens from the first 1,000,000 characters of a single item, including the item's attachments. The actual number of processed items can be lower than this limit because search uses maximum 30 seconds on word breaking. Any remaining content isn't processed and therefore isn't indexed.  <br/> |
 |Indexed managed property size  <br/> |512 KB per searchable/queryable managed property  <br/> |Threshold  <br/> |This limit type is the default value for the maximum size of a managed property that is set to either "searchable" or "queryable". You can configure this limit by using PowerShell cmdlets and the schema object model to set the **MP.MaxCharactersInPropertyStoreIndex** attribute. Enter the value in bytes. The maximum value for this maximum size is 2097152 bytes.  <br/> If you increase this limit, you enable indexing of more data per managed property. Indexing more data per managed property uses more disk space and increases the overall load on the search system.  <br/> |
