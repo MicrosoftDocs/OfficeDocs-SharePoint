@@ -25,7 +25,7 @@ description: "Learn about security hardening for SharePoint Server and database 
    
 ## Introduction
 
-The cybersecurity landscape has fundamentally changed, as evidenced by large-scale, complex attacks, and signals that [human-operated ransomware](https://docs.microsoft.com/security/compass/human-operated-ransomware) are on the rise. More than ever, it is critical to keep your on-premises infrastructure secure and up to date, including SharePoint Servers. 
+The cybersecurity landscape has fundamentally changed, as evidenced by large-scale, complex attacks, and signals that [human-operated ransomware](https://docs.microsoft.com/security/compass/human-operated-ransomware) are on the rise. More than ever, it's critical to keep your on-premises infrastructure secure and up to date, including SharePoint Servers. 
 
 To help customers secure their environments and respond to associated threats from the attacks, we're introducing integration between SharePoint Server and the Windows [Antimalware Scan Interface](https://docs.microsoft.com/windows/win32/amsi/antimalware-scan-interface-portal) (AMSI). AMSI is a versatile standard that allows applications and services to integrate with any antimalware product present on a machine. 
 
@@ -35,7 +35,7 @@ When an AMSI-capable antivirus or antimalware solution is integrated with ShareP
 
 ## Prerequisites
 
-Before turning on/off AMSI check the following prerequisites on each SharePoint Server:
+Check the following prerequisites on each SharePoint Server before turning on/off AMSI:
 
 - Windows Server 2016, or higher
 - SharePoint Server Subscription Edition
