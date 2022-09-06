@@ -60,7 +60,7 @@
 ##### [Strong Transport Layer Security (TLS) Encryption](../security-for-sharepoint-server/strong-tls-encryption.md)
 ##### [Transport Layer Security (TLS) 1.3 Support](../security-for-sharepoint-server/tls-support-1.3.md)
 ### [Security hardening](../security-for-sharepoint-server/security-hardening.md)
-### [Configure AMSI integration with SharePoint Server](../security-for-sharepoint-server/configure-amsi-integration.md)
+#### [Configure AMSI integration with SharePoint Server](../security-for-sharepoint-server/configure-amsi-integration.md)
 #### [Plan for least-privileged administration](../security-for-sharepoint-server/plan-for-least-privileged-administration.md)
 #### [Configure SQL Server security for SharePoint environments](../security-for-sharepoint-server/configure-sql-server-security-for-sharepoint-environments.md)
 ### [Federal Information Processing Standard security standards](../security-for-sharepoint-server/federal-information-processing-standard-security-standards.md)
