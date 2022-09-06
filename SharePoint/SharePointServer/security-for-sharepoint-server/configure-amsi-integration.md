@@ -15,7 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 763613ac-83f4-424e-99d0-32efd0667bd9
-description: "Learn about security hardening for SharePoint Server and database server roles, including specific hardening requirements for ports, protocols, and services."
+description: "Learn to secure environments and respond to associated threats from the attacks through AMSI."
 ---
 
 # Configure AMSI integration with SharePoint Server
