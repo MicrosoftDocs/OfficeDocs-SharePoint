@@ -25,7 +25,7 @@ description: "Learn to secure environments and respond to associated threats fro
    
 ## Introduction
 
-The cybersecurity landscape has fundamentally changed, as evidenced by large-scale, complex attacks, and signals that [human-operated ransomware](https://docs.microsoft.com/security/compass/human-operated-ransomware) are on the rise. More than ever, it's critical to keep your on-premises infrastructure secure and up to date, including SharePoint Servers. 
+The cybersecurity landscape has fundamentally changed, as evidenced by large-scale, complex attacks, and signals that  [human-operated ransomware](https://docs.microsoft.com/security/compass/human-operated-ransomware) are on the rise. More than ever, it's critical to keep your on-premises infrastructure secure and up to date, including SharePoint Servers. 
 
 To help customers secure their environments and respond to associated threats from the attacks, we're introducing integration between SharePoint Server and the Windows [Antimalware Scan Interface](https://docs.microsoft.com/windows/win32/amsi/antimalware-scan-interface-portal) (AMSI). AMSI is a versatile standard that allows applications and services to integrate with any antimalware product present on a machine. 
 
@@ -52,7 +52,7 @@ Following are the steps to turn on/off the AMSI integration per web application:
 3. The **Manage Features** toolbar will open after you click to select the web application for which you want to enable the AMSI integration.
 4. On the **SharePoint Server Antimalware Scanning** screen, click **Activate** to turn on AMSI intergration, or click **Deactivate** to turn off AMSI integration.
 
-Alternatively, you can turn on AMSI integration for a web application by running this `PowerShell` command:
+Alternatively, you can turn on AMSI integration for a web application by running the following `PowerShell` commands:
 
 ```powershell
 Enable-SPFeature -Identity 4cf046f3-38c7-495f-a7da-a1292d32e8e9 -Url <web application URL> 
