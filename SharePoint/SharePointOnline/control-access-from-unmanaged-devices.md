@@ -62,7 +62,10 @@ Using a policy that affects all Microsoft 365 services can lead to better securi
 
     ![The Unmanaged devices pane in the SharePoint admin center](media/unmanaged-devices-block-access.png)
 
-3. Select **Block access**, and then select **Save**. (Selecting this option disables any previous conditional access policies you created from this page, and creates a new conditional access policy that applies to all users. Any customizations you made to previous policies will not be carried over.)
+3. Select **Block access**, and then select **Save**.
+
+    > [!IMPORTANT]
+    > Selecting this option disables any previous conditional access policies you created from this page, and creates a new conditional access policy that applies to all users. Any customizations you made to previous policies will not be carried over.
 
     > [!NOTE]
     > It can take up to 24 hours for the policy to take effect. It won't take effect for users who are already signed in from unmanaged devices.
