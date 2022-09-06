@@ -26,11 +26,11 @@ Learn about the new features and updates to existing features in SharePoint Serv
 
 ## Detailed description of features
 
-This section provides detailed descriptions of the new and updated features in SharePoint Server Subscription Edition Verision 22H2.
+This section provides detailed descriptions of the new and updated features in SharePoint Server Subscription Edition Version 22H2.
 
 ### Feature release rings
 
-As Microsoft delivers on its promise of an evergreen experience for SharePoint Server Subscription Edition, we recognize how important it is that customers have control over how new feature experiences and capabilities become available in their environments. To support this, we're introducing feature release rings in SharePoint Server Subscription Edition Version 22H2. 
+As Microsoft delivers on its promise of an evergreen experience for SharePoint Server Subscription Edition, we recognize how important it's that customers have control over how new feature experiences and capabilities become available in their environments. To support this, we're introducing feature release rings in SharePoint Server Subscription Edition Version 22H2. 
 The two rings in this version are as follows: 
 
 - Early release
@@ -48,6 +48,12 @@ In the **Standard release** ring, new feature experiences are enabled in your Sh
 
 Customers can switch between these two feature release rings at any time. However, you must run the SharePoint Products Configuration Wizard on every server in your SharePoint farm after changing this setting. The Wizard will perform a repair operation to ensure all features recognize the new setting.
 
+### AMSI integration
+
+To help customers secure their environments and respond to associated threats from the attacks, we're introducing integration between SharePoint Server and the Windows [Antimalware Scan Interface](https://docs.microsoft.com/windows/win32/amsi/antimalware-scan-interface-portal) (AMSI). AMSI is a versatile standard that allows applications and services to integrate with any anti-malware product present on a machine.  
+
+When an AMSI-capable antivirus or anti-malware solution is integrated with SharePoint Server, it can check the content of, `HTTP` and `HTTPS` requests made to the server and prevent dangerous requests from being processed by the SharePoint Server. Any AMSI-capable antivirus or anti-malware program that is installed on the SharePoint Server scans the system as soon as the server starts to process the request. The purpose of AMSI isn't to replace current server-level antivirus/anti-malware defenses; it solely scans the `HTTP` and `HTTPS` protocols.
+
 ### Copy and move improvement in modern document library
 
 SharePoint Server Subscription Edition Version 22H2 enhances the modern document library experience by supporting copying and moving files across document libraries. In the new experience, when a user picks a file or multiple files and triggers a **copy** or **move** operation, the user will have the option to pick a destination outside the current document library. 
@@ -63,13 +69,13 @@ If the same term store is used in both the source and destination locations, the
 
 ### Bulk editing in modern lists
 
-SharePoint Server Subscription Edition Version 22H2 improves the bulk editing experience for list items in the modern lists. The users can now select multiple list items in a modern list and then click the new **Edit** button in the list toolbar. This will open an expanded editing pane where the user can update fields for all the selected list items at once.
+SharePoint Server Subscription Edition Version 22H2 improves the bulk editing experience for list items in the modern lists. The users can now select multiple list items in a modern list and then click new **Edit** in the list toolbar. This will open an expanded editing pane where the user can update fields for all the selected list items at once.
 
 To learn more about this feature, see [Bulk edit list item properties (microsoft.com)](https://support.microsoft.com/en-us/office/bulk-edit-list-item-properties-1521a373-b011-4a26-8fc9-016b491ee932).
 
 ### Column formatting enhancement
 
-SharePoint Server Subscription Edition Version 22H2 allows you to customize how fields in SharePoint lists and libraries are displayed to the users. This feature gives you the capability to visualize data in a variety of different ways to meet your needs, from applying color and other formatting to quickly understand the data at a glance, to powerful custom actions based on the state of the data. With a rich and flexible set of potential customizations, column formatting makes working with SharePoint lists and libraries much more engaging. This feature enhances the column formatting capabilities of the modern UX by adding suppport for Excel-style expressions and also supports Abstract Syntax Tree (AST) expressions. Column formatting.
+SharePoint Server Subscription Edition Version 22H2 allows you to customize how fields in SharePoint lists and libraries are displayed to the users. This feature gives you the capability to visualize data in various different ways to meet your needs, from applying color and other formatting to quickly understand the data at a glance, to powerful custom actions based on the state of the data. With a rich and flexible set of potential customizations, column formatting makes working with SharePoint lists and libraries much more engaging. This feature enhances the column formatting capabilities of the modern UX by adding support for Excel-style expressions and also supports Abstract Syntax Tree (AST) expressions. Column formatting.
 
 To learn more about this feature see, [Use column formatting to customize SharePoint](/sharepoint/dev/declarative-customization/column-formatting).
 
@@ -88,4 +94,4 @@ Previously, when creating a new site via the SharePoint start page, users couldn
 
 ### New SharePoint RESTful *ListData.svc* implementation
 
-*ListData.svc* has been rebuilt so that it no longer depends on the listed WCF Data Services components while maintaining compatibility with the functionality of the prior design. When your farm is in the Early release ring, the new design is activated. You can go back to the original architecture if the ListData.svc web service exhibits unexpected behaviour by switching the farm back to the Standard release ring.
+*ListData.svc* has been rebuilt so that it no longer depends on the listed WCF Data Services components while maintaining compatibility with the functionality of the prior design. When your farm is in the Early release ring, the new design is activated. You can go back to the original architecture if the ListData.svc web service exhibits unexpected behavior by switching the farm back to the Standard release ring.
