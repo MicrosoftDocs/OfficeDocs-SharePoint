@@ -27,11 +27,11 @@ description: "Learn about security hardening for SharePoint Server and database 
 
 The cybersecurity landscape has fundamentally changed, as evidenced by large-scale, complex attacks, and signals that [human-operated ransomware](https://docs.microsoft.com/security/compass/human-operated-ransomware) are on the rise. More than ever, it is critical to keep your on-premises infrastructure secure and up to date, including SharePoint Servers. 
 
-To help customers secure their environments and respond to associated threats from the attacks, we are introducing integration between SharePoint Server and the Windows [Antimalware Scan Interface](https://docs.microsoft.com/windows/win32/amsi/antimalware-scan-interface-portal) (AMSI). AMSI is a versatile standard that allows applications and services to integrate with any antimalware product present on a machine. 
+To help customers secure their environments and respond to associated threats from the attacks, we're introducing integration between SharePoint Server and the Windows [Antimalware Scan Interface](https://docs.microsoft.com/windows/win32/amsi/antimalware-scan-interface-portal) (AMSI). AMSI is a versatile standard that allows applications and services to integrate with any antimalware product present on a machine. 
 
 ## SharePoint Server AMSI integration
 
-When an AMSI-capable antivirus or antimalware solution is integrated with SharePoint Server, it can check the content of `HTTP` and `HTTPS` requests made to the server and prevent dangerous requests from being processed by the SharePoint Server. Any AMSI-capable antivirus or antimalware programme that is installed on the SharePoint Server scans the system as soon as the server starts to process the request. The purpose of AMSI is not to replace current server-level antivirus/antimalware defences; it solely scans the `HTTP` and `HTTPS` protocols.
+When an AMSI-capable antivirus or antimalware solution is integrated with SharePoint Server, it can check the content of, `HTTP` and `HTTPS` requests made to the server and prevent dangerous requests from being processed by the SharePoint Server. Any AMSI-capable antivirus or antimalware program that is installed on the SharePoint Server scans the system as soon as the server starts to process the request. The purpose of AMSI isn't to replace current server-level antivirus/antimalware defenses; it solely scans the `HTTP` and `HTTPS` protocols.
 
 ## Prerequisites
 
@@ -48,7 +48,7 @@ The AMSI integration with SharePoint Server is turned off by default.
 Following are the steps to turn on/off the AMSI integration per web application:
 
 1. Open **SharePoint Central Administration**.
-2. Under **Web Applications**, click **Manage web applications**.
+2. Under **Web Applications**, select **Manage web applications**.
 3. The **Manage Features** toolbar will open after you click to select the web application for which you want to enable the AMSI integration.
 4. On the **SharePoint Server Antimalware Scanning** screen, click **Activate** to turn on AMSI intergration, or click **Deactivate** to turn off AMSI integration.
 
