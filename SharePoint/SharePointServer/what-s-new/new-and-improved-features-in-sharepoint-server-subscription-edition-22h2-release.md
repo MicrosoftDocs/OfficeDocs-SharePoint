@@ -30,12 +30,12 @@ The following table provides a summary of the new features that you can try out 
 
 |**Feature**|**Description**|**More info**|
 |:-----|:-----|:-----|
-|**Feature release rings** <br/> |Standard release <br/> |To learn more about this feature, see [Introducing feature updates](../administration/introducing-feature-updates.md)  <br/> |
-|**AMSI integration** <br/> |Standard release <br/> |To learn more about this feature, see [Configure AMSI integration with SharePoint Server](../security-for-sharepoint-server/configure-amsi-integration.md)  <br/> |
-|**Copy and move improvement in modern document library** <br/> |Early release  <br/> |To learn more about this feature, see [Move or copy files in SharePoint.](https://support.microsoft.com/en-us/office/move-or-copy-files-in-sharepoint-00e2f483-4df3-46be-a861-1f5f0c1a87bc)  <br/> |
-|**Bulk editing in modern lists** <br/> |Early release <br/> |To learn more about this feature, see [Bulk edit list item properties (microsoft.com)](https://support.microsoft.com/en-us/office/bulk-edit-list-item-properties-1521a373-b011-4a26-8fc9-016b491ee932)  <br/> |
-|**Column formatting enhancement** <br/> |Early release  <br/> |To learn more about this feature see, [Use column formatting to customize SharePoint](/sharepoint/dev/declarative-customization/column-formatting)  <br/> |
-|**Button web part** <br/> |Early release  <br/> |To learn more about this feature, see [Use the Button web part (microsoft.com)](https://support.microsoft.com/en-us/office/use-the-button-web-part-d2e37c48-11e8-45b9-8d9e-abdaa97c2a7a) <br/> |
+|**Feature release rings** <br/> |Standard release <br/> |For more info, see [Introducing feature updates](../administration/introducing-feature-updates.md)  <br/> |
+|**AMSI integration** <br/> |Standard release <br/> |For more info, see [Configure AMSI integration with SharePoint Server](../security-for-sharepoint-server/configure-amsi-integration.md)  <br/> |
+|**Copy and move improvement in modern document library** <br/> |Early release  <br/> |For more info, see [Move or copy files in SharePoint.](https://support.microsoft.com/en-us/office/move-or-copy-files-in-sharepoint-00e2f483-4df3-46be-a861-1f5f0c1a87bc)  <br/> |
+|**Bulk editing in modern lists** <br/> |Early release <br/> |For more info, see [Bulk edit list item properties (microsoft.com)](https://support.microsoft.com/en-us/office/bulk-edit-list-item-properties-1521a373-b011-4a26-8fc9-016b491ee932)  <br/> |
+|**Column formatting enhancement** <br/> |Early release  <br/> |For more info, [Use column formatting to customize SharePoint](/sharepoint/dev/declarative-customization/column-formatting)  <br/> |
+|**Button web part** <br/> |Early release  <br/> |For more info, see [Use the Button web part (microsoft.com)](https://support.microsoft.com/en-us/office/use-the-button-web-part-d2e37c48-11e8-45b9-8d9e-abdaa97c2a7a) <br/> |
 |**Choose the default site language in the modern self-service site creation pane** <br/> |Early release  <br/> |NA  <br/> |
 |**New SharePoint RESTful ListData.svc implementation** <br/> |Early release  <br/> |NA  <br/> |
 
@@ -112,4 +112,4 @@ Previously, when creating a new site via the SharePoint start page, users couldn
 
 ### New SharePoint RESTful *ListData.svc* implementation
 
-*ListData.svc* has been rebuilt so that it no longer depends on the listed WCF Data Services components while maintaining compatibility with the functionality of the prior design. When your farm is in the Early release ring, the new design is activated. You can go back to the original architecture if the ListData.svc web service exhibits unexpected behavior by switching the farm back to the Standard release ring.
+*ListData.svc* has been rebuilt so that it no longer depends on the listed WCF Data Services components while maintaining compatibility with the functionality of the prior design. When your farm is in the Early release ring, the new design is activated. You can go back to the original architecture if the *ListData.svc* web service exhibits unexpected behavior by switching the farm back to the Standard release ring.
