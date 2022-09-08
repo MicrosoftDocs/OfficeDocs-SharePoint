@@ -38,7 +38,7 @@ When an AMSI-capable antivirus or anti-malware solution is integrated with Share
 Before enabling AMSI integration, check the following prerequisites on each SharePoint Server:
 
 - Windows Server 2016 or higher
-- SharePoint Server Subscription Edition
+- SharePoint Server Subscription Edition Version 22H2 or higher
 - Microsoft Defender with AV engine version at 1.1.18300.4 or higher (alternatively, a compatible AMSI capable third-party AV provider)
 
 ## Activate/Deactivate AMSI for SharePoint Server
