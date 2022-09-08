@@ -35,7 +35,7 @@ When an AMSI-capable antivirus or anti-malware solution is integrated with Share
 
 ## Prerequisites
 
-Check the following prerequisites on each SharePoint Server, before enabling AMSI integration:
+Before enabling AMSI integration, check the following prerequisites on each SharePoint Server:
 
 - Windows Server 2016 or higher
 - SharePoint Server Subscription Edition
