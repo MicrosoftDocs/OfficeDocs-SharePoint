@@ -97,7 +97,7 @@ To learn more about this feature, see [Bulk edit list item properties (microsoft
 
 SharePoint Server Subscription Edition Version 22H2 allows you to customize how fields in SharePoint lists and libraries are displayed to the users. This feature gives you the capability to visualize data in various different ways to meet your needs, from applying color and other formatting to quickly understand the data at a glance, to powerful custom actions based on the state of the data. With a rich and flexible set of potential customizations, column formatting makes working with SharePoint lists and libraries much more engaging. This feature enhances the column formatting capabilities of the modern UX by adding support for Excel-style expressions and also supports Abstract Syntax Tree (AST) expressions. 
 
-To learn more about this feature see, [Use column formatting to customize SharePoint](/sharepoint/dev/declarative-customization/column-formatting).
+To learn more about this feature see, [Use column formatting to customize SharePoint](https://support.microsoft.com/en-us/office/column-formatting-1f927342-2bed-4745-b727-ff8b7ff96b22).
 
 ### Button web part
 
