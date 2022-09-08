@@ -58,7 +58,7 @@ Alternatively, you can activate AMSI integration for a web application by runn
 Enable-SPFeature -Identity 4cf046f3-38c7-495f-a7da-a1292d32e8e9 -Url <web application URL> 
 ```
 
-Or turn off AMSI integration for a web application via this `PowerShell` command:
+Or deactivate AMSI integration for a web application via this `PowerShell` command:
 
 ```powershell
 Disable-SPFeature -Identity 4cf046f3-38c7-495f-a7da-a1292d32e8e9 -Url <web application URL>  
