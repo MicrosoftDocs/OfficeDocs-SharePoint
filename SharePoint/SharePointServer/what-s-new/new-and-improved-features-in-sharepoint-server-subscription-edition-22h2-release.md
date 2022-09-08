@@ -26,16 +26,16 @@ Learn about the new features and updates to existing features in SharePoint Serv
 
 ## Summary of the features
 
-||**Feature**|**Description**|**More info**|
+|**Feature**|**Description**|**More info**|
 |:-----|:-----|:-----|
-|**Feature release rings** <br/> |Standard release <br/> |For more info, see Feature release rings.  <br/> |
-|**AMSI integration** <br/> |Standard release <br/> |For more info, see AMSI integration.  <br/> |
-|**Copy and move improvement in modern document library** <br/> |Early release <br/> |NA  <br/> |
-|**Bulk editing in modern lists** <br/> |Early release <br/> |For more info, see [Document Library accessibility](#doclib).  <br/> |
-|**Column formatting enhancement** <br/> |Early release <br/> |NA  <br/> |
-|**Button web part** <br/> |Early release <br/> |NA  <br/> |
-|**Choose the default site language in the modern self-service site creation pane** <br/> |Early release <br/> |NA  <br/> |
-|**New SharePoint RESTful ListData.svc implementation** <br/> |Early release <br/> |NA  <br/> |
+|**Feature release rings** <br/> |Standard release <br/> |To learn more about this feature, see [Introducing feature updates](../administration/introducing-feature-updates.md)  <br/> |
+|**AMSI integration** <br/> |Standard release <br/> |To learn more about this feature, see [Configure AMSI integration with SharePoint Server](../security-for-sharepoint-server/configure-amsi-integration.md)  <br/> |
+|**Copy and move improvement in modern document library** <br/> |Early release  <br/> |To learn more about this feature, see [Move or copy files in SharePoint.](https://support.microsoft.com/en-us/office/move-or-copy-files-in-sharepoint-00e2f483-4df3-46be-a861-1f5f0c1a87bc)  <br/> |
+|**Bulk editing in modern lists** <br/> |Early release <br/> |To learn more about this feature, see [Bulk edit list item properties (microsoft.com)](https://support.microsoft.com/en-us/office/bulk-edit-list-item-properties-1521a373-b011-4a26-8fc9-016b491ee932)  <br/> |
+|**Column formatting enhancement** <br/> |Early release  <br/> |To learn more about this feature see, [Use column formatting to customize SharePoint](/sharepoint/dev/declarative-customization/column-formatting)  <br/> |
+|**Button web part** <br/> |Early release  <br/> |To learn more about this feature, see [Use the Button web part (microsoft.com)](https://support.microsoft.com/en-us/office/use-the-button-web-part-d2e37c48-11e8-45b9-8d9e-abdaa97c2a7a) <br/> |
+|**Choose the default site language in the modern self-service site creation pane** <br/> |Early release  <br/> |NA  <br/> |
+|**New SharePoint RESTful ListData.svc implementation** <br/> |Early release  <br/> |NA  <br/> |
 
 
 ## Detailed description of features
@@ -58,9 +58,11 @@ In the **Early release** ring, new feature experiences will be enabled in your S
 - Perform compatibility testing and explore new feature experiences in a test environment and provide feedback to Microsoft.
 - Prepare your internal help desk and user documentation for new feature experiences.
 
-In the Standard release ring, new feature experiences are enabled in your SharePoint farm once they're ready for all customers to use by default. These feature experiences are supported for production use and have received additional validation during Early release. Enable Standard release if you prefer to minimize changes to your SharePoint experience and are willing to wait longer for new feature experiences. Standard release is the default feature release ring.
+In the **Standard release** ring, new feature experiences are enabled in your SharePoint farm once they're ready for all customers to use by default. These feature experiences are supported for production use and have received additional validation during **Early release**. Enable Standard release if you prefer to minimize changes to your SharePoint experience and are willing to wait longer for new feature experiences. **Standard release** is the default feature release ring.
 
 Customers can switch between these two feature release rings at any time. However, you must run the SharePoint Products Configuration Wizard on every server in your SharePoint farm after changing this setting. The Wizard will perform a repair operation to ensure all features recognize the new setting.
+
+To learn more about this feature, see [Introducing feature updates](../administration/introducing-feature-updates.md).
 
 ### AMSI integration
 

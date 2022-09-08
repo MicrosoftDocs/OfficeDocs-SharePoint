@@ -17,7 +17,7 @@
 #### [New features in Feature Pack 1](../what-s-new/new-features-november-2016.md)
 #### [New feature in Feature Pack 2](../what-s-new/new-feature-in-feature-pack-2.md)
 #### [What's deprecated or removed from SharePoint Server 2016](../what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2016.md)
-## [Getting started](../getting-started.md)
+## [Getting started](../getting-started.md)]
 ## [Security for SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md)
 ### [Improved ASP.NET view state security and key management](../security-for-sharepoint-server/improved-asp-net-view-state-security-key-management.md)
 ### [Plan for administrative and service accounts](../security-for-sharepoint-server/plan-for-administrative-and-service-accounts.md)
@@ -51,6 +51,7 @@
 ##### [View certificate default settings](../administration/view-certificate-default-settings.md)
 ##### [Set certificate default settings](../administration/set-certificate-default-settings.md)
 ##### [Certificates administrative action logging](../administration/certificates-administrative-action-logging.md)
+### [Introducing feature updates](../administration/introducing-feature-updates.md)
 ##### [SSL certificate management in central administration](../administration/ssl-certificate-management-in-central-administration.md)
 ##### [New health analyzer rules for SSL certificates](../administration/new-health-analyzer-rules-for-ssl-certificates.md)
 #### [Enable TLS and SSL support in SharePoint 2013](../security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013.md)
