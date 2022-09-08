@@ -26,6 +26,8 @@ Learn about the new features and updates to existing features in SharePoint Serv
 
 ## Summary of the features
 
+The following table provides a summary of the new features that you can try out in this SharePoint Server Subscription Edition Version 22H2 release.
+
 |**Feature**|**Description**|**More info**|
 |:-----|:-----|:-----|
 |**Feature release rings** <br/> |Standard release <br/> |To learn more about this feature, see [Introducing feature updates](../administration/introducing-feature-updates.md)  <br/> |
