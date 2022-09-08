@@ -23,7 +23,7 @@ description: "Learn to secure environments and respond to associated threats fro
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
   
   
-## Overview
+## Introduction
 
 The cybersecurity landscape has fundamentally changed, as evidenced by large-scale, complex attacks, and signals that  [human-operated ransomware](/security/compass/human-operated-ransomware) are on the rise. More than ever, it's critical to keep your on-premises infrastructure secure and up to date, including SharePoint Servers. 
 
@@ -72,9 +72,9 @@ By default, [Microsoft Defender Antivirus](/stay-protected-with-windows-securi
 
 The benefits of using MDAV on SharePoint Server include:
 - MDAV fetches signatures that match malicious content. If Microsoft learns about an exploit that can be blocked, a new MDAV signature can be deployed to block the exploit from affecting SharePoint.
-- Using existing technology to add signatures for the malicious content
-- Using the expertise of Microsoft's malware research team for adding signatures
-- Using best practices that MDAV already applies for adding other signatures
+- Using existing technology to add signatures for the malicious content.
+- Using the expertise of Microsoft's malware research team for adding signatures.
+- Using best practices that MDAV already applies for adding other signatures.
 
 
 There may be a performance impact on the web application because AMSI scanning uses CPU resources. There's no distinct performance impact observed from AMSI scanning when tested with MDAV and no changes to be made to the existing documented SharePoint Server antivirus exclusions. Each antivirus provider develops their own definitions that utilize AMSI technology. Therefore, your level of protection remains dependent on how quickly your specific solution can be updated to detect the latest threats.
