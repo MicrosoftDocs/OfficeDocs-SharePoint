@@ -37,7 +37,7 @@ Feature Updates will be named based on the calendar year and which half of the y
 
 In addition to the desire for predictability of new feature releases, organizations desire the ability to manage the introduction of those new features into their environments. This gives organizations time to train their users and support staff on any new functionality, perform compatibility testing of those new feature experiences with existing customer scenarios, and develop new business processes to take full advantage of the new feature experiences. 
 
-To meet this need, new feature experiences introduced in feature Updates will be grouped into feature release rings:  
+To meet this need, new feature experiences introduced in Feature Updates will be grouped into the following feature release rings:  
 
 - Early release
 - Standard release

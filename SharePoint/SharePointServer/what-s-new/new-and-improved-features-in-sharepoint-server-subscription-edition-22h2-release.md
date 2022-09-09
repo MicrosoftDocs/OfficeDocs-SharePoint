@@ -105,7 +105,6 @@ When you add a modern page to a site, you add and customize web parts, which are
 
 To learn more about this feature, see [Use the Button web part](https://support.microsoft.com/office/use-the-button-web-part-d2e37c48-11e8-45b9-8d9e-abdaa97c2a7a)
 
-
 ### Choose the default site language in the modern self-service site creation pane
 
 Previously, when creating a new site via the SharePoint start page, users couldn't select the default language of the site. The newly created site would use the default language of the web application. Starting in SharePoint Server Subscription Edition Version 22H2, a language selection control has been added to the modern site creation pane. Users can now create new sites with a specific language by selecting the desired language with that control.
