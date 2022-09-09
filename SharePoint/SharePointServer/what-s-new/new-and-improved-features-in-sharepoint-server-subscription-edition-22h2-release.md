@@ -86,7 +86,7 @@ If the same term store is used in both the source and destination locations, the
 > [!NOTE]
 > A document's version history will be preserved during move operations, but it won't be preserved during copy operations for the new copy of the document. 
 
-To learn more about this feature, see [Move or copy files in SharePoint.](/office/move-or-copy-files-in-sharepoint-00e2f483-4df3-46be-a861-1f5f0c1a87bc)
+To learn more about this feature, see [Move or copy files in SharePoint](/office/move-or-copy-files-in-sharepoint-00e2f483-4df3-46be-a861-1f5f0c1a87bc)
 
 ### Bulk editing in modern lists
 
@@ -104,7 +104,7 @@ To learn more about this feature see, [Use column formatting to customize ShareP
 
 When you add a modern page to a site, you add and customize web parts, which are the building blocks of your page. The Button web part lets you easily add a button to your page with your own label and link. You can create an actionable button inside modern pages by adding it through the toolbox. 
 
-To learn more about this feature, see [Use the Button web part (microsoft.com)](/office/use-the-button-web-part-d2e37c48-11e8-45b9-8d9e-abdaa97c2a7a)
+To learn more about this feature, see [Use the Button web part](/office/use-the-button-web-part-d2e37c48-11e8-45b9-8d9e-abdaa97c2a7a)
 
 
 ### Choose the default site language in the modern self-service site creation pane
