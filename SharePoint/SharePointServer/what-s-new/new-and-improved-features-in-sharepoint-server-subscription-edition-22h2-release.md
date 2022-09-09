@@ -32,13 +32,12 @@ The following table provides a summary of the new features introduced in the Sha
 |:-----|:-----|:-----|
 |**Feature release rings** <br/> |Standard release <br/> |For more information, see [Feature updates and feature releases](../administration/feature-updates-and-feature-releases.md)  <br/> |
 |**AMSI integration** <br/> |Standard release <br/> |For more information, see [Configure AMSI integration with SharePoint Server](../security-for-sharepoint-server/configure-amsi-integration.md)  <br/> |
-|**Copy and move improvement in modern document library** <br/> |Early release  <br/> |NA <br/> |
-|**Bulk editing in modern lists** <br/> |Early release <br/> |NA <br/> |
-|**Column formatting enhancement** <br/> |Early release  <br/> |NA  <br/> |
-|**Button web part** <br/> |Early release  <br/> |NA <br/> |
-|**Choose the default site language in the modern self-service site creation pane** <br/> |Early release  <br/> |NA  <br/> |
-|**New SharePoint RESTful ListData.svc implementation** <br/> |Early release  <br/> |NA  <br/> |
-
+|**Copy and move improvement in modern document library** <br/> |Early release  <br/> |For more information, see [Copy and move improvement in modern document library](#copy-and-move-improvement-in-modern-document-library)<br/> |
+|**Bulk editing in modern lists** <br/> |Early release <br/> |For more information, see [Bulk editing in modern lists](#bulk-editing-in-modern-lists)<br/> |
+|**Column formatting enhancement** <br/> |Early release  <br/> |For more information, see [Column formatting enhancement](#column-formatting-enhancement) <br/> |
+|**Button web part** <br/> |Early release  <br/> |For more information, see [Button web part](#button-web-part) <br/> |
+|**Choose the default site language in the modern self-service site creation pane** <br/> |Early release  <br/> |For more information, see [Choose the default site language in the modern self-service site creation pane](#choose-the-default-site-language-in-the-modern-self-service-site-creation-pane) <br/> |
+|**New SharePoint RESTful ListData.svc implementation** <br/> |Early release  <br/> |For more information, see [New SharePoint RESTful ListData.svc implementation](#new-sharepoint-restful-listdata-svc-implementation) <br/> |
 
 ## Detailed description of features
 
@@ -111,6 +110,6 @@ To learn more about this feature, see [Use the Button web part](/office/use-the-
 
 Previously, when creating a new site via the SharePoint start page, users couldn't select the default language of the site. The newly created site would use the default language of the web application. Starting in SharePoint Server Subscription Edition Version 22H2, a language selection control has been added to the modern site creation pane. Users can now create new sites with a specific language by selecting the desired language with that control.
 
-### New SharePoint RESTful *ListData.svc* implementation
+### New SharePoint RESTful ListData.svc implementation
 
 *ListData.svc* has been rebuilt so that it no longer depends on the listed WCF Data Services components while maintaining compatibility with the functionality of the prior design. When your farm is in the Early release ring, the new design is activated. You can go back to the original architecture if the *ListData.svc* web service exhibits unexpected behavior by switching the farm back to the Standard release ring.
