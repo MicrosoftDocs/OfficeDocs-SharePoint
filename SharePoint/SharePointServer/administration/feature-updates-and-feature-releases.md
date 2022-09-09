@@ -65,7 +65,7 @@ Following are the steps to select a feature release preference for your SharePoi
 1. Browse to **SharePoint Central Administration**.
 2. Click **System Settings**.
 3. Click **Feature release preference**, select either **Early release** or **Standard release (Default)**, and then click **OK**.
-4. On each server in your SharePoint farm, run the **SharePoint Products Configuration Wizard** to ensure all features recognize the new feature release preference.
+4. Run **SharePoint Products Configuration Wizard** on each server in your SharePoint farm to ensure all features recognize the new feature release preference.
 
 > [!NOTE]
 > There is no `PowerShell cmdlet` to configure the feature release preference at this time.
