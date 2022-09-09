@@ -31,7 +31,7 @@ SharePoint Server Subscription Edition brings a more agile approach to how new f
 
 ## Introducing feature updates
 
-To ensure we're meeting those needs, Microsoft will bundle new feature experiences for SharePoint Server Subscription Edition together in **Feature Updates**, so that they can be introduced on a predictable schedule. **Feature Updates** will be introduced twice a year, once in the spring and once in the autumn. Feature updates will be incorporated into the monthly **Public Updates**, alongside the typical security and quality updates that customers are used to. Once a new **Feature Update** is released, it will be included in all **Public Updates** going forward. 
+To ensure we're meeting those needs, Microsoft will bundle new feature experiences for SharePoint Server Subscription Edition together in **Feature Updates** so that they can be introduced on a predictable schedule. **Feature Updates** will be introduced twice a year, once in the spring and once in the autumn. Feature updates will be incorporated into the monthly **Public Updates**, alongside the typical security and quality updates that customers are used to. Once a new **Feature Update** is released, it will be included in all **Public Updates** going forward. 
 
 Feature Updates will be named based on the calendar year and which half of the year they were released. For example, the feature update released in the autumn of calendar year 2022 is called **SharePoint Server Subscription Edition Version 22H2**. A feature update released in the spring of calendar year 2023 is called **SharePoint Server Subscription Edition Version 23H1**. 
 
@@ -44,7 +44,9 @@ To meet this need, new feature experiences introduced in Feature Updates will be
 
 ## Early release
 
-In the **Early release** ring, new feature experiences will be enabled in your SharePoint farm as soon as they're ready. These experiences are supported for production use but may change before they're included in the Standard release ring. Enable **Early release** to:
+In the **Early release** ring, new feature experiences will be enabled in your SharePoint farm as soon as they're ready. These experiences are supported for production use but may change before they're included in the Standard release ring. 
+
+Enable **Early release** to:
 
 - Use new feature experiences in a production environment as soon as possible.
 - Perform compatibility testing and explore new feature experiences in a test environment and provide feedback to Microsoft.
@@ -63,7 +65,8 @@ Following are the steps to select a feature release preference for your SharePoi
 1. Browse to **SharePoint Central Administration**.
 2. Click **System Settings**.
 3. Click **Feature release preference**, select either **Early release** or **Standard release (Default)**, and then click **OK**.
+4. On each server in your SharePoint farm, run the **SharePoint Products Configuration Wizard** to ensure all features recognize the new feature release preference.
 
 > [!NOTE]
-> On each server in your SharePoint farm, run the **SharePoint Products Configuration Wizard** to ensure all features recognize the new feature release preference.
+> There is no `PowerShell cmdlet` to configure the feature release preference at this time.
  
