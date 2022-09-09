@@ -30,8 +30,8 @@ The following table provides a summary of the new features introduced in the Sha
 
 |**Feature**|**Description**|**More info**|
 |:-----|:-----|:-----|
-|**Feature release rings** <br/> |Standard release <br/> |For more info, see [Introducing feature updates](../administration/introducing-feature-updates.md)  <br/> |
-|**AMSI integration** <br/> |Standard release <br/> |For more info, see [Configure AMSI integration with SharePoint Server](../security-for-sharepoint-server/configure-amsi-integration.md)  <br/> |
+|**Feature release rings** <br/> |Standard release <br/> |For more information, see [Feature updates and feature releases](../administration/feature-updates-and-feature-releases.md)  <br/> |
+|**AMSI integration** <br/> |Standard release <br/> |For more information, see [Configure AMSI integration with SharePoint Server](../security-for-sharepoint-server/configure-amsi-integration.md)  <br/> |
 |**Copy and move improvement in modern document library** <br/> |Early release  <br/> |NA <br/> |
 |**Bulk editing in modern lists** <br/> |Early release <br/> |NA <br/> |
 |**Column formatting enhancement** <br/> |Early release  <br/> |NA  <br/> |
