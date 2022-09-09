@@ -58,9 +58,9 @@ In the **Standard release** ring, new feature experiences are enabled in your Sh
 
 ## Selecting feature release preference
 
-Customers can switch between these two feature release rings at any time. However, you must run the SharePoint Products Configuration Wizard on every server in your SharePoint farm after changing this setting. The Wizard will perform a repair operation to ensure all features recognize the new setting.
+SharePoint Server Subscription Edition farms are part of the Standard release ring by default. At any time, customers can choose to move from the Standard release ring to the Early release ring, or from the Early release ring to the Standard release ring. New feature experiences will be enabled or disabled based on the feature release selected for the SharePoint farm.
 
-Following are the steps to select a feature release preference for your SharePoint farm: 
+Follow theese steps to select a feature release preference for your SharePoint farm: 
 
 1. Browse to **SharePoint Central Administration**.
 2. Click **System Settings**.
