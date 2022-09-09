@@ -37,7 +37,7 @@ The following table provides a summary of the new features introduced in the Sha
 |**Column formatting enhancement** <br/> |Early release  <br/> |For more information, see [Column formatting enhancement](#column-formatting-enhancement) <br/> |
 |**Button web part** <br/> |Early release  <br/> |For more information, see [Button web part](#button-web-part) <br/> |
 |**Choose the default site language in the modern self-service site creation pane** <br/> |Early release  <br/> |For more information, see [Choose the default site language in the modern self-service site creation pane](#choose-the-default-site-language-in-the-modern-self-service-site-creation-pane) <br/> |
-|**New SharePoint RESTful ListData.svc implementation** <br/> |Early release  <br/> |For more information, see [New SharePoint RESTful ListData.svc implementation](#new-sharepoint-restful-listdata-svc-implementation) <br/> |
+|**New SharePoint RESTful ListData.svc implementation** <br/> |Early release  <br/> |For more information, see [New SharePoint RESTful ListData.svc implementation](#new-sharepoint-restful-listdatasvc-implementation) <br/> |
 
 ## Detailed description of features
 
