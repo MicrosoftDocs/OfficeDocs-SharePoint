@@ -51,7 +51,7 @@
 ##### [View certificate default settings](../administration/view-certificate-default-settings.md)
 ##### [Set certificate default settings](../administration/set-certificate-default-settings.md)
 ##### [Certificates administrative action logging](../administration/certificates-administrative-action-logging.md)
-#### [Introducing feature updates](../administration/introducing-feature-updates.md)
+#### [Feature updates and feature releases](../administration/feature-updates-and-feature-releases.md)
 ##### [SSL certificate management in central administration](../administration/ssl-certificate-management-in-central-administration.md)
 ##### [New health analyzer rules for SSL certificates](../administration/new-health-analyzer-rules-for-ssl-certificates.md)
 #### [Enable TLS and SSL support in SharePoint 2013](../security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013.md)

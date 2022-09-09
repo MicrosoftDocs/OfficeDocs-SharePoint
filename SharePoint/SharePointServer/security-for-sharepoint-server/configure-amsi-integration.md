@@ -21,8 +21,7 @@ description: "Learn to secure environments and respond to associated threats fro
 # Configure AMSI integration with SharePoint Server
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
-  
-  
+
 ## Introduction
 
 The cybersecurity landscape has fundamentally changed, as evidenced by large-scale, complex attacks, and signals that  [human-operated ransomware](/security/compass/human-operated-ransomware) are on the rise. More than ever, it's critical to keep your on-premises infrastructure secure and up to date, including SharePoint Servers. 
@@ -31,7 +30,7 @@ To help customers secure their environments and respond to associated threats fr
 
 ## AMSI integration with SharePoint Server
 
-When an AMSI-capable antivirus or anti-malware solution is integrated with SharePoint Server, it can check the content of `HTTP` and `HTTPS` requests made to the server and prevent dangerous requests from being processed by SharePoint Server. Any AMSI-capable antivirus or anti-malware program that is installed on the server performs the scan as soon as the server starts to process the request. The purpose of AMSI isn't to replace current server-level antivirus/anti-malware defenses; it solely scans the `HTTP` and `HTTPS` protocols.
+When an AMSI-capable antivirus or anti-malware solution is integrated with SharePoint Server, it can examine the content of `HTTP` and `HTTPS` requests made to the server and prevent dangerous requests from being processed by SharePoint Server. Any AMSI-capable antivirus or anti-malware program that is installed on the server performs the scan as soon as the server starts to process the request. The purpose of AMSI isn't to replace current server-level antivirus/anti-malware defenses; it solely scans the `HTTP` and `HTTPS` protocols.
 
 ## Prerequisites
 
@@ -39,15 +38,15 @@ Before enabling AMSI integration, check the following prerequisites on each Shar
 
 - Windows Server 2016 or higher
 - SharePoint Server Subscription Edition Version 22H2 or higher
-- Microsoft Defender with AV engine version at 1.1.18300.4 or higher (alternatively, a compatible AMSI capable third-party AV provider)
+- Microsoft Defender with AV engine version at 1.1.18300.4 or higher (alternatively, a compatible AMSI-capable third-party antivirus/antimalware provider)
 
 ## Activate/Deactivate AMSI for SharePoint Server
 
 The AMSI integration with SharePoint Server is deactivated by default. 
 
-Following are the steps to activate/deactivate the AMSI integration per web application:
+Follow these steps to activate/deactivate the AMSI integration per web application:
 
-1. Open **SharePoint Central Administration**.
+1. Open **SharePoint Central Administration**, click **Application Management**.
 2. Under **Web Applications**, select **Manage web applications**.
 3. Click the web application for which you want to enable the AMSI integration, and select **Manage Features** in the toolbar.
 4. On the **SharePoint Server Antimalware Scanning** screen, click **Activate** to turn on AMSI intergration, or click **Deactivate** to turn off AMSI integration.
@@ -66,7 +65,7 @@ Disable-SPFeature -Identity 4cf046f3-38c7-495f-a7da-a1292d32e8e9 -Url <web appli
 
 ## Other references
 
-**Performance effects of using Microsoft Windows Defender as the primary AMSI solution**
+**Performance effects of using Microsoft Defender as the primary AMSI solution**
 
 By default, [Microsoft Defender Antivirus](/stay-protected-with-windows-security-2ae0363d-0ada-c064-8b56-6a39afb6a963) (MDAV), an AMSI-capable solution, is automatically enabled and installed on endpoints and devices that are running Windows 10, Windows Server 2016, and later. If you haven’t installed an antivirus/anti-malware application, SharePoint Server AMSI integration will work with MDAV. If you install and enable another antivirus/anti-malware application, MDAV will automatically turn off. If you uninstall the other app, MDAV will automatically turn back on, and the SharePoint Server integration will work with MDAV. 
 
@@ -76,16 +75,15 @@ The benefits of using MDAV on SharePoint Server include:
 - Using the expertise of Microsoft's malware research team for adding signatures.
 - Using best practices that MDAV already applies for adding other signatures.
 
-
 There may be a performance impact on the web application because AMSI scanning uses CPU resources. There's no distinct performance impact observed from AMSI scanning when tested with MDAV and no changes to be made to the existing documented SharePoint Server antivirus exclusions. Each antivirus provider develops their own definitions that utilize AMSI technology. Therefore, your level of protection remains dependent on how quickly your specific solution can be updated to detect the latest threats.
 
-**Microsoft Windows Defender version via the command line**
+**Microsoft Defender version via the command line**
 
 > [!NOTE]
-> If you are using Microsoft Windows Defender, you can use the command line and ensure to update the signatures with the latest version.
+> If you are using Microsoft Defender, you can use the command line and ensure to update the signatures with the latest version.
 
-1. Launch `Command Prompt` as an Administration.
-2. Navigate to `C:\ProgramData\Microsoft\Windows Defender\Platform\<antimalware platform version>`.
+1. Launch `Command Prompt` as an Administrator.
+2. Navigate to `%ProgramData%\Microsoft\Windows Defender\Platform\<antimalware platform version>`.
 3. Run `mpcmdrun.exe -SignatureUpdate`.
 
 This will determine your current engine version, check for updated definitions, and report.  
