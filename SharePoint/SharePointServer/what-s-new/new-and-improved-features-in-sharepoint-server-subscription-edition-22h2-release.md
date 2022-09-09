@@ -66,9 +66,9 @@ To learn more about this feature, see [Feature updates and feature releases](../
 
 ### AMSI integration
 
-The cybersecurity landscape has fundamentally changed, as evidenced by large-scale, complex attacks, and signals that  [human-operated ransomware](/security/compass/human-operated-ransomware) are on the rise. More than ever, it's critical to keep your on-premises infrastructure secure and up to date, including SharePoint Servers. 
+The cybersecurity landscape has fundamentally changed, as evidenced by large-scale, complex attacks, and signals that  [human-operated ransomware](https://docs.microsoft.com/security/compass/human-operated-ransomware) are on the rise. More than ever, it's critical to keep your on-premises infrastructure secure and up to date, including SharePoint Servers. 
 
-To help customers secure their environments and respond to associated threats from the attacks, we're introducing integration between SharePoint Server and the Windows [Antimalware Scan Interface](/windows/win32/amsi/antimalware-scan-interface-portal)  (AMSI). AMSI is a versatile standard that allows applications and services to integrate with any AMSI-capable anti-malware product present on a computer.  
+To help customers secure their environments and respond to associated threats from the attacks, we're introducing integration between SharePoint Server and the Windows [Antimalware Scan Interface](https://docs.microsoft.com/windows/win32/amsi/antimalware-scan-interface-portal) (AMSI). AMSI is a versatile standard that allows applications and services to integrate with any AMSI-capable anti-malware product present on a computer.  
 
 When an AMSI-capable antivirus or anti-malware solution is integrated with SharePoint Server, it can examine the content of `HTTP` and `HTTPS` requests made to the server and prevent dangerous requests from being processed by SharePoint Server. Any AMSI-capable antivirus or anti-malware program that is installed on the server performs the scan as soon as the server starts to process the request. The purpose of AMSI isn't to replace current server-level antivirus/anti-malware defenses; it solely scans the `HTTP` and `HTTPS` protocols.
 
@@ -85,25 +85,25 @@ If the same term store is used in both the source and destination locations, the
 > [!NOTE]
 > A document's version history will be preserved during move operations, but it won't be preserved during copy operations for the new copy of the document. 
 
-To learn more about this feature, see [Move or copy files in SharePoint](/office/move-or-copy-files-in-sharepoint-00e2f483-4df3-46be-a861-1f5f0c1a87bc)
+To learn more about this feature, see [Move or copy files in SharePoint](https://support.microsoft.com/office/move-or-copy-files-in-sharepoint-00e2f483-4df3-46be-a861-1f5f0c1a87bc).
 
 ### Bulk editing in modern lists
 
 SharePoint Server Subscription Edition Version 22H2 improves the bulk editing experience for list items in the modern lists. The users can now select multiple list items in a modern list and then click the new **Edit** button in the list toolbar. This will open an expanded editing pane where the user can update fields for all the selected list items at once.
 
-To learn more about this feature, see [Bulk edit list item properties](/office/bulk-edit-list-item-properties-1521a373-b011-4a26-8fc9-016b491ee932)
+To learn more about this feature, see [Bulk edit list item properties](https://support.microsoft.com/office/bulk-edit-list-item-properties-1521a373-b011-4a26-8fc9-016b491ee932)
 
 ### Column formatting enhancement
 
 SharePoint Server Subscription Edition Version 22H2 allows you to customize how fields in SharePoint lists and libraries are displayed to the users. This feature gives you the capability to visualize data in various different ways to meet your needs, from applying color and other formatting to quickly understand the data at a glance, to powerful custom actions based on the state of the data. With a rich and flexible set of potential customizations, column formatting makes working with SharePoint lists and libraries much more engaging. This feature enhances the column formatting capabilities of the modern UX by adding support for Excel-style expressions and also supports Abstract Syntax Tree (AST) expressions. 
 
-To learn more about this feature see, [Use column formatting to customize SharePoint](/office/column-formatting-1f927342-2bed-4745-b727-ff8b7ff96b22)
+To learn more about this feature see, [Use column formatting to customize SharePoint](https://support.microsoft.com/office/column-formatting-1f927342-2bed-4745-b727-ff8b7ff96b22)
 
 ### Button web part
 
 When you add a modern page to a site, you add and customize web parts, which are the building blocks of your page. The Button web part lets you easily add a button to your page with your own label and link. You can create an actionable button inside modern pages by adding it through the toolbox. 
 
-To learn more about this feature, see [Use the Button web part](/office/use-the-button-web-part-d2e37c48-11e8-45b9-8d9e-abdaa97c2a7a)
+To learn more about this feature, see [Use the Button web part](https://support.microsoft.com/office/use-the-button-web-part-d2e37c48-11e8-45b9-8d9e-abdaa97c2a7a)
 
 
 ### Choose the default site language in the modern self-service site creation pane
