@@ -42,7 +42,7 @@ To meet this need, new feature experiences introduced in Feature Updates will be
 - Early release
 - Standard release
 
-## Early release
+### Early release
 
 In the **Early release** ring, new feature experiences will be enabled in your SharePoint farm as soon as they're ready. These experiences are supported for production use but may change before they're included in the Standard release ring. 
 
@@ -52,7 +52,7 @@ Enable **Early release** to:
 - Perform compatibility testing and explore new feature experiences in a test environment and provide feedback to Microsoft.
 - Prepare your internal help desk and user documentation for new feature experiences.
 
-## Standard release
+### Standard release
 
 In the **Standard release** ring, new feature experiences are enabled in your SharePoint farm once they're ready for all customers to use by default. These feature experiences are supported for production use and have received additional validation during **Early release**. Enable **Standard release** if you prefer to minimize changes to your SharePoint experience and are willing to wait longer for new feature experiences. **Standard release** is the default feature release ring.
 
