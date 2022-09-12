@@ -169,7 +169,7 @@ Help orient new employees by providing them with the most important company info
 <br>
 
 #### Integrate multiple Viva modules to create a rich onboarding experience 
-In the image above, Viva Connections is being used to display cards that integrate with other Viva experiences. Create a card that links to Viva Insights to help new team members understand how to spend time productively and help managers provide better guidance on time management. [Learn more about Viva Insights and how it helps protect and organize work/life balance](/viva/solutions/viva-work-life-balance.md).
+In the image above, Viva Connections is being used to display cards that integrate with other Viva experiences. Create a card that links to Viva Insights to help new team members understand how to spend time productively and help managers provide better guidance on time management. [Learn more about Viva Insights and how it helps protect and organize work/life balance](/viva/solutions/viva-work-life-balance).
 
 A separate card integrates with Viva Topics, which helps to address a key business issue in many companies — providing the information to users when they need it. For example, new employees need to learn a lot of new information quickly, and encounter terms they know nothing about when reading through company information. [Learn more about how Viva Topics can help with knowledge management](/viva/topics/topic-experiences-overview).
 
