@@ -52,7 +52,9 @@ The two rings in this version are as follows:
 - Early release
 - Standard release
 
-In the **Early release** ring, new feature experiences will be enabled in your SharePoint farm as soon as they're ready. These experiences are supported for production use but may change before they're included in the Standard release ring. Enable **Early release** to:
+In the **Early release** ring, new feature experiences will be enabled in your SharePoint farm as soon as they're ready. These experiences are supported for production use but may change before they're included in the Standard release ring. 
+
+Enable **Early release** to:
 
 - Use new feature experiences in a production environment as soon as possible.
 - Perform compatibility testing and explore new feature experiences in a test environment and provide feedback to Microsoft.
