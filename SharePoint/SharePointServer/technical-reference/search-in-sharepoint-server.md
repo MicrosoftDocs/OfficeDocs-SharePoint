@@ -33,7 +33,7 @@ Download and install:
 
 - [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568)
 
-- [System Center Monitoring Pack for SharePoint Foundation 2013](https://www.microsoft.com/de-de/download/details.aspx?id=35591)
+- [System Center Monitoring Pack for SharePoint Foundation 2013](https://www.microsoft.com/download/details.aspx?id=35590)
 
 Use the following to resolve alerts about the search issues:
   
@@ -1303,7 +1303,7 @@ If persistent or recurring, check the host controller and restart if it is neces
   
 #### Other Resources
 
-[System Center Monitoring Pack for SharePoint Foundation](https://www.microsoft.com/de-de/download/details.aspx?id=35591)
+[System Center Monitoring Pack for SharePoint Foundation](https://www.microsoft.com/download/details.aspx?id=35590)
   
 [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568)
   
