@@ -28,7 +28,7 @@ Learn about the new features and updates introduced in the SharePoint Server Sub
 
 The following table provides a summary of the new features introduced in the SharePoint Server Subscription Edition Version 22H2 feature update.
 
-|**Feature**|**Description**|**More info**|
+|**Feature**|**Feature release rings**|**More info**|
 |:-----|:-----|:-----|
 |**Feature release rings** <br/> |Standard release <br/> |For more information, see [Feature release rings](#feature-release-rings). <br/> |
 |**AMSI integration** <br/> |Standard release <br/> |For more information, see [AMSI integration](#amsi-integration).  <br/> |
@@ -112,4 +112,4 @@ Previously, when creating a new site via the SharePoint start page, users couldn
 
 ### New SharePoint RESTful ListData.svc implementation
 
-*ListData.svc* has been rebuilt so that it no longer depends on the WCF Data Services components while maintaining compatibility with the functionality of the prior design. When your farm is in the Early release ring, the new design is activated. You can go back to the original architecture if the *ListData.svc* web service exhibits unexpected behavior by switching the farm back to the Standard release ring.
+*ListData.svc* has been rebuilt so that it no longer depends on the WCF Data Services components while maintaining compatibility with the functionality of the prior design. When your farm is in the **Early release** ring, the new design is activated. You can go back to the original architecture if the *ListData.svc* web service exhibits unexpected behavior by switching the farm back to the **Standard release** ring.
