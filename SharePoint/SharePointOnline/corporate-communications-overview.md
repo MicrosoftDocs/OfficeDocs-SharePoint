@@ -63,7 +63,7 @@ Some communication solutions are a one-time event while others may have several 
 ## Overview of corporate communication solutions:
 Learn how to plan your communication strategy by reviewing common communication scenarios, solutions, and outcomes. Next, review how Microsoft 365 tools and apps can engage and inform the audiences you want to reach. Then determine which communication scenario meets your communication goals and get started planning, launching, and maintaining your communication solution. 
 
-This poster illustrates how Contoso keeps employees informed and engaged across popular communication scenarios. Contoso uses a variety of M365 apps, including a new offering, Viva Connections.
+This poster illustrates how Relecloud keeps employees informed and engaged across popular communication scenarios. Relecloud uses a variety of M365 apps, including a new offering, Viva Connections.
 
 [ ![Image of the corporate communication planning poster.](media/corporate-communication-relecloud.png)](media/corporate-communication-relecloud.png#lightbox)
 
