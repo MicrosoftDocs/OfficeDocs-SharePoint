@@ -50,8 +50,8 @@ This template features content focused on a Hispanic and Latinx employee resourc
 2. Select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your site collection admin credentials. 
 3. From the permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept.** 
 
-> [!NOTE] 
-> The provisioning service requires these permissions to provision the site template. There is no overall impact on your tenant, and these permissions are used for the solution installation. You must accept these permissions to proceed with the installation. 
+>>[!NOTE] 
+>> The provisioning service requires these permissions to provision the site template. There is no overall impact on your tenant, and these permissions are used for the solution installation. You must accept these permissions to proceed with the installation. 
 
 4. Complete the fields on the provisioning information page as appropriate for your installation. At a minimum, enter the email address where you wish to get notifications about the provisioning process and the URL prefix for your site to be provisioned to. 
 5. Select **Provision** when ready to install the site into your tenant environment.  
