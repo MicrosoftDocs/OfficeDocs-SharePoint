@@ -200,7 +200,7 @@ Creating a *People in your organization* link does not cause the file or folder 
 
 ### Classify and protect information
 
-Microsoft Purview data loss prevention provides a way to classify your teams, groups, sites, and documents, and to create a series of conditions, actions, and exceptions to govern how they're used and shared.
+Microsoft Purview Data Loss Prevention provides a way to classify your teams, groups, sites, and documents, and to create a series of conditions, actions, and exceptions to govern how they're used and shared.
 
 By classifying your information and creating governance rules around them, you can create a collaboration environment where users can easily work with each other without accidentally or intentionally sharing sensitive information inappropriately.
 
