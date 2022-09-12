@@ -42,7 +42,7 @@ additionalContent:
         # Card
         - title: Developers
           summary: Guidance for developing solutions for Microsoft OneDrive.
-          url: https://docs.microsoft.com/onedrive/developer/?view=odsp-graph-online
+          url: /onedrive/developer/?view=odsp-graph-online
         # Card
         - title: End users
           summary: Find help, training, and technical support for your OneDrive users.
