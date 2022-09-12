@@ -20,15 +20,15 @@ description: "Learn how to control Lists sync by using Group Policy objects (GPO
 ---
 # Use Group Policy to control Lists sync settings
 
-This article describes the Group Policy objects (GPOs) for Microsoft Lists (and SharePoint lists) that admins can configure by using Group Policy. Use the registry key info to confirm that a setting is enabled. Lists sync policies are listed under OneDrive because Lists sync gets packaged, installed, and updated through the OneDrive sync app’s existing update mechanism. For info about controlling OneDrive sync settings by Group Policy, see [OneDrive policies](/onedrive/use-group-policy).
+This article describes the Group Policy objects (GPOs) for Microsoft Lists (and SharePoint lists) that admins can configure by using Group Policy. Use the registry key info to confirm that a setting is enabled. Lists sync policies are listed under OneDrive because Lists sync gets packaged, installed, and updated through the OneDrive sync app's existing update mechanism. For info about controlling OneDrive sync settings by Group Policy, see [OneDrive policies](/onedrive/use-group-policy).
 
 ## List of policies by string ID
 
 - (DisableNucleusSync) [Prevent Lists sync from running on the device](lists-sync-policies.md#prevent-lists-sync-from-running-on-the-device)
 
-- (BlockExternalListSync) [Prevent users from syncing lists shared from other organizations](lists-sync-policies.md#prevent-users-from-syncing-lists-shared-from-other-organizations)
+- (BlockExternalListSync) [Prevent users from syncing lists shared from other organizations](lists-sync-policies.md#prevent-users-from-syncing-lists-shared-from-other-organizations)
 
-- (DisableNucleusSilentConfig) [Prevent users from getting silently signed in to Lists sync with their Windows credentials](lists-sync-policies.md#prevent-users-from-getting-silently-signed-in-to-lists-sync-with-their-windows-credentials)
+- (DisableNucleusSilentConfig) [Prevent users from getting silently signed in to Lists sync with their Windows credentials](lists-sync-policies.md#prevent-users-from-getting-silently-signed-in-to-lists-sync-with-their-windows-credentials)
 
 ### Prevent Lists sync from running on the device
 
@@ -59,13 +59,13 @@ Restore external List sync with:
 Lists sync is set up to automatically sign users in with their Windows account credentials. If you enable this setting, people who used Microsoft Lists previously and who are signed in on an Azure AD-joined PC will no longer be able to set up Lists sync without entering their account credentials.  
 
 > [!IMPORTANT]
-> If the [Office browser extension](https://microsoftedge.microsoft.com/addons/detail/office/gggmmkjegpiggikcnhidnjjhmicpibll?source=sfw) isn't installed on users’ Chromium-based browsers (Microsoft Edge, Chrome, etc.), we strongly recommend leaving silent account configuration enabled to ensure the seamless operation of List sync via Microsoft.SharePoint.exe.  
+> If the [Office browser extension](https://microsoftedge.microsoft.com/addons/detail/office/gggmmkjegpiggikcnhidnjjhmicpibll?source=sfw) isn't installed on users' Chromium-based browsers (Microsoft Edge, Chrome, etc.), we strongly recommend leaving silent account configuration enabled to ensure the seamless operation of List sync via Microsoft.SharePoint.exe.  
 
 Enabling this policy sets the following registry key value to 1:
 
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "DisableNucleusSilentConfig" = "dword:00000001"`
 
-For more info about this feature, including troubleshooting steps, see [Silently configure user accounts](/onedrive/use-silent-account-configuration).
+For more info about this feature, including troubleshooting steps, see [Silently configure user accounts](/onedrive/use-silent-account-configuration).
 
 ## Control Lists sync on unmanaged devices and based on location  
 

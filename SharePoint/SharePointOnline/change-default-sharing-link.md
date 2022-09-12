@@ -12,6 +12,7 @@ ms.custom:
 - 'WSSCentralAdmin_SharingLinkTypeLearnMore'
 - 'SharingLinkTypeLearnMore'
 - 'seo-marvel-apr2020'
+- admindeeplinkSPO
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection:  
@@ -37,7 +38,7 @@ Users can share files and folders in Microsoft SharePoint by sending a link. The
 
 ![Screenshot of Link settings.](media/link-settings.png)
 
-As a global or SharePoint admin, you may want to enable users to send "Anyone" links, but you may not want this to the be the default type of link when users select to share files and folders. You can set the default type of link to something more restrictive, while still allowing users to select other types of links as needed. You can change this setting at the organization level and at the site (previously called "site collection") level. 
+As a Global Administrator or SharePoint Administrator, you may want to enable users to send "Anyone" links, but you may not want this to be the default type of link when users select to share files and folders. You can set the default type of link to something more restrictive, while still allowing users to select other types of links as needed. You can change this setting at the organization level and at the site (previously called "site collection") level. 
   
 > [!NOTE]
 > The default sharing link setting applies only to libraries that use the new experience.<br>This setting does not affect Outlook Web App, Outlook 2016, or Office clients prior to Office 2016. 
@@ -48,10 +49,10 @@ For info about the changing this setting at the organization level, see [File an
   
 ## Change the default link type for a site
 
-1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
     > [!NOTE]
-    > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
+    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
     
 2. In the left column, click to select a site.
 
@@ -63,11 +64,14 @@ For info about the changing this setting at the organization level, see [File an
 
 5. Choose the default sharing link setting that you want to use for this site, and then select **Save**.
 
+> [!Note]
+> To change the default link type for a Teams private or shared channel site, you must use the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet.
+
 ### Use a sensitivity label to configure the default sharing link settings
 
-If you are using [sensitivity labels](/microsoft-365/compliance/sensitivity-labels) to classify and protect your SharePoint sites, you can also configure the default sharing link type and sharing link permissions for a site by using a sensitivity label.
+If you are using [sensitivity labels](/microsoft-365/compliance/sensitivity-labels) to classify and protect your SharePoint sites, you can also configure the default sharing link type and sharing link permissions for a site and also individual documents by using a sensitivity label.
 
-For more information about this scenario, see [Use sensitivity labels to protect content in SharePoint and Microsoft Teams sites, and Microsoft 365 groups](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites). For instructions how to configure the default sharing link settings, see the section [Configure settings for the default sharing link for a site by using PowerShell advanced settings](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#configure-settings-for-the-default-sharing-link-for-a-site-by-using-powershell-advanced-settings).
+For more information about this scenario, see [Use sensitivity labels to configure the default sharing link type for sites and documents in SharePoint and OneDrive](/microsoft-365/compliance/sensitivity-labels-default-sharing-link).
 
 ## Related topics
 

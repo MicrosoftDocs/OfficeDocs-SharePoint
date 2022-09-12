@@ -19,6 +19,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid: MET150
 description: The SharePoint Migration Tool copies your files from SharePoint on-premises document libraries or regular file shares to SharePoint in Microsoft 365.
 ---
@@ -56,10 +57,10 @@ During migration, some web parts require this setting set to **allow**.  Otherwi
 
 At least 24 hours before you start migration, do the following:
 
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
    > [!NOTE]
-   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **Settings** page.
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **Settings** page.
 
 2. At the bottom of the page, select **classic settings page**.
 
@@ -88,7 +89,7 @@ If you wish to leverage your system proxy settings, use one of these methods:
 1. Download the latest version of SPMT. Start SPMT.
 2. If SPMT doesn't connect to Microsoft 365, go to  **%localappdata%\Apps\SharePointMigrationTool\SPMT**.
 3. Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
-4. Comment out the default proxy setting shown here:
+4. Uncomment the default proxy setting shown here:
     ![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)
 
 5. Restart SPMT.
@@ -107,18 +108,17 @@ If you wish to leverage your system proxy settings, use one of these methods:
 4. Launch installclient.exe and SPMT should auto-upgrade to latest SPMT release.
 5. Open the **microsoft.sharepoint.migrationtool.advancedapp.exe.config** file.
 6. Comment out the default proxy setting:
-7. 
+
     ![Edit the config file to comment out the proxy setting](media/spmt-proxy-edits.png)
 
-5. Restart SPMT.
-6. 
-7. ## Next step
+7. Restart SPMT.
+</br></br>
 
-[**Step 2: Create a migration task**](spmt-create-task.md) 
-    
+## [**Step 2: Create a migration task**](spmt-create-task.md) 
+</br></br>    
 
 > [!NOTE]
-> Currently, the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. <br/><br/> It is also not available for users of Microsoft 365 with the German cloud with the data trustee, *German Telekom*. However, we do support it for users in Germany whose data location is not in the German datacenter.
+> Currently, the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China.
 
    
 ## Related Topics
@@ -134,4 +134,4 @@ If you wish to leverage your system proxy settings, use one of these methods:
   
 [SharePoint and OneDrive migration speed](sharepoint-online-and-onedrive-migration-speed.md)
   
-[SharePoint Migration Tool Feedback and Support Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=SharePointMigrationTool)
+[Microsoft 365 community support](/answers/products/m365)

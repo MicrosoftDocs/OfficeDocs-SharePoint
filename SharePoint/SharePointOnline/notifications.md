@@ -1,5 +1,5 @@
 ---
-title: "Control notifications"
+title: "Control notifications in the SharePoint mobile app"
 ms.reviewer: shahna
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -13,6 +13,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom: admindeeplinkSPO
 search.appverid:
 - ODB160
 - MOE150
@@ -23,9 +24,9 @@ search.appverid:
 description: "Allow users to receive notifications about SharePoint site activity."
 ---
 
-# Control notifications
+# Control notifications in the SharePoint mobile app
 
-By default, SharePoint mobile app users can receive notifications about site activity. The service sends these notifications through the Firebase Cloud Messaging service for Android or the Apple Push Notification service for iOS. As a global or SharePoint admin in Microsoft 365, you can turn off these notifications for all users for compliance purposes. If you allow these notifications, users can select to turn them off.
+By default, SharePoint mobile app users can receive notifications about site activity. The service sends these notifications through the Firebase Cloud Messaging service for Android or the Apple Push Notification service for iOS. As a Global Administrator or SharePoint Administrator in Microsoft 365, you can turn off these notifications for all users for compliance purposes. If you allow these notifications, users can select to turn them off.
 
 Currently, notifications are sent for the following activities:
 
@@ -37,12 +38,12 @@ Currently, notifications are sent for the following activities:
 
 Other notifications might be added in the future.
 
->[!NOTE]
->Notifications aren't available for the US government environments, Office 365 Germany, or Office 365 operated by 21Vianet (China).
+> [!NOTE]
+> Notifications aren't available for the US government environments or Office 365 operated by 21Vianet (China).
 
 ## Allow or block notifications
 
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
     
 2. Select the **Notifications** setting for SharePoint.
   

@@ -96,9 +96,9 @@ You can add users to a group at any time.
 ### Grant site access to a group
 <a name="__toc340230105"> </a>
 
-1. On your website or team site, click **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and click **Site settings**. If you don't see **Site settings**, click **Site information**, and then click **View all site settings**. On some pages, you may need to click **Site contents**, then click **Site settings**.
+1. On your website or team site, click **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and click **Site permissions**.
     
-2. On the **Site Settings** page, under **Users and Permissions**, click **Site Permissions**.
+2. On the **Permissions** page, click **Advanced Permissions Settings**.
     
 3. On the **Permissions** tab, click **Grant Permissions**.
     
@@ -164,6 +164,6 @@ If you have customized a permission level or created a new permission level, you
 4. Click **OK**.
     
     > [!NOTE]
-    >  To see the Site Collection Administrators link, you must be a site collection administrator, or a global or SharePoint admin in your organization. This link is not displayed to site owners. 
+    >  To see the Site Collection Administrators link, you must be a site collection administrator, or a Global Administrator or SharePoint Administrator in your organization. This link is not displayed to site owners. 
   
 

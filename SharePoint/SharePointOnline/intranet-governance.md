@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 - m365solution-spintranet
 - m365solution-scenario
+ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
 - MET150
@@ -43,7 +44,7 @@ Having an effective governance plan in place enables the decision-making process
 ## Governance Team
 As a key business asset, intranet governance needs to reflect the goals of business stakeholders and the legal and regulatory environment for your organization – not just the expectations of your IT department. Create a governance team that includes core members from key business stakeholder groups in your organization in addition to IT. 
 
-There is no magic size for the governance team, but it should be small enough to make it easy to make decisions and representative enough to incorporate the “voice of the business” and IT. When you have specific topics to review that extend beyond the expertise of the team, you can bring in outside members (such as Legal or Records Management) to ensure that your decisions are aligned with organizational constraints.
+There is no magic size for the governance team, but it should be small enough to make it easy to make decisions and representative enough to incorporate the “voice of the business” and IT. When you have specific topics to review that extend beyond the expertise of the team, you can bring in outside members (such as legal or records management) to ensure that your decisions are aligned with organizational constraints.
 
 Your governance team may meet on a frequent basis during intranet planning and then less frequently over time. The goal is to establish a rhythm that works for your intranet and team members. Since governance has an ongoing role for your intranet success, the governance team should not be disbanded when you launch.
 
@@ -70,7 +71,7 @@ At a minimum, consider each of these elements as part of your intranet governanc
 
 
 ### Vision
-The vision statement describes, at a high level, what you want to want to achieve with your intranet - essentially how the solution delivers value to the organization and to each individual employee. Use the intranet vision statement to guide your governance plan. Be sure that the vision is clear because the degree of formality and the depth to which you need to document the governance plan should align with the outcomes you want to achieve. 
+The vision statement describes, at a high level, what you want to achieve with your intranet - essentially how the solution delivers value to the organization and to each individual employee. Use the intranet vision statement to guide your governance plan. Be sure that the vision is clear because the degree of formality and the depth to which you need to document the governance plan should align with the outcomes you want to achieve. 
 
 A clear vision statement provides critical guidance to the inevitable decision tradeoffs you will need to make for your governance plan. For example, you probably do not want a completely uncontrolled environment with unstructured and “unfindable” content if your intranet vision is to provide a key source of organizational knowledge and information. In this case, the unstructured environment with no controls is unpredictable and will likely misalign with desired business outcomes. In a different scenario, some users may have a goal to create an experimental place where new site owners can create “practice” sites to try out new skills or test alternative approaches to solve specific business problems. For this use case, an overly restrictive governance plan may not make a lot of sense. You may determine that you don’t want to support an unlimited number of “practice” sites, so you may want a governance policy that says that all “test” sites are deleted after a specific period of time. But, for these practice or test sites, the unstructured environment is fine. You can only know what is level of governance is ideal because you have a clear vision. The vision provides a framework for both the context and your investment in governance. Once you are clear about your intranet vision, your governance team can use that vision to guide the governance decisions.
 
@@ -81,7 +82,7 @@ Your intranet vision includes defining ownership. There is no right answer about
 ### Policies and guidelines
 Policies define the rules and guidelines for your intranet. From a governance perspective, policies are usually driven by statutory, regulatory, or organizational requirements. Users are expected to meet policies without deviation. If your organization is subject to regulatory oversight, be sure you can enforce your policies as a failure to do so may target your organization as being “non-compliant.” Guidelines are usually established to encourage consistent practices. In many cases, guidelines are more recommendations, but policies are requirements.
 
-For example, consider the topic of site ownership. A policy might state, “All SharePoint sites will have a primary and secondary contact responsible for the site and its content.” A related guideline might state, “The site contact is listed in a web part in the lower left-hand corner of the site home page.” The guideline might become a policy for major functional sites but remain a guideline or recommendation for topic-specific microsites. Another example of a policy is whether external users can have access to the intranet as a whole or only to individual sites. The policy might have a default value of no external access but there could be a process that allows for exceptions to allow specific partner users to have access to some intranet sites.
+For example, consider the topic of site ownership. A policy might state, “All SharePoint sites will have a primary and secondary contact responsible for the site and its content.” A related guideline might state, “The site contact is listed in a web part in the lower left-hand corner of the site home page.” The guideline might become a policy for major functional sites but remain a guideline or recommendation for topic-specific microsites. Another example of a policy is whether people outside the organization can have access to the intranet as a whole or only to individual sites. The policy might have a default value of no external access but there could be a process that allows for exceptions to allow specific partner users to have access to some intranet sites.
 
 Each organization will have its own set of policies and guidelines. General topics should include content oversight, site design, branding and user experience, site management, and security. 
 
@@ -93,14 +94,14 @@ Each organization will have its own set of policies and guidelines. General topi
 - Regularly review and revise policies and guidelines to keep them aligned to organizational needs.
 
 #### Consider these topics for your intranet policies and guidelines:
-- [External sharing](./external-sharing-overview.md) – can external users access intranet sites?
+- [External sharing](./external-sharing-overview.md) – can people outside the organization access intranet sites?
 - [Default sharing links for intranet documents](./change-default-sharing-link.md) - consider setting the default for all intranet sites to be “People with existing access” to ensure that site owners don’t accidentally create links that allow visitors to edit key intranet documents.
 - [Site navigation](./plan-navigation-modern-experience.md) – for individual sites and the intranet as a whole.
 - [Site designs](/sharepoint/dev/declarative-customization/site-design-overview) - including guidance for items like the positions of key web parts on departmental home pages. Do you want all sites to follow a similar pattern so that users can easily find key content as they move from site to site? If so, then you may want to apply site designs to ensure that it is easy for site owners to follow your design patterns.
 - [Metadata architecture and content types](./managed-metadata.md) - for example, policies for enterprise content types and organization-wide metadata).
 - Guidelines for Teams chat and Yammer conversations - including more than just [messaging policies](/microsoftteams/messaging-policies-in-teams) for Teams and [how to participate in a Yammer conversation](https://support.microsoft.com/office/join-the-conversation-in-yammer-873100a0-0fac-4f93-88f7-1a0945ec93ed), but also conversation guidelines (such as using @mentions sparingly and organization-specific “do’s and don’ts”).
 - [User profiles](https://support.microsoft.com/office/update-your-profile-0ddb9ebf-2850-4533-b07f-cba2c90acbc1) – including expectations for the About me statement and expectations for skills and expertise (for example, how well do you have to know a topic to list it in the skills and expertise area of your profile?).
-- Organizational policies and guidelines for intranet site names, file names, [Microsoft 365 Group names](/microsoft-365/admin/create-groups/groups-naming-policy), etc.
+- Organizational policies and guidelines for intranet site names, file names, [Microsoft 365 group names](/microsoft-365/admin/create-groups/groups-naming-policy), etc.
 - Learn more about [Microsoft 365 intranet governance decisions](https://view.officeapps.live.com/op/view.aspx?src=https://storage.snappages.site/op8ir2nu2f/assets/files/Governance_Policy_and_Guideline_Question-76.pptx).
 
 
@@ -111,15 +112,15 @@ A key intranet governance decision involves determining who can create a new int
 
 #### Implement a site request process for intranet sites
 
-You can easily [hide the option to create a new site](./manage-site-creation.md) in the SharePoint admin center. If you do so, you will want to create a process for users to request a new intranet site. Having a request process makes it easy to review and track site requests and ensures that your environment remains “tidy,” but if your review and approval process takes too long, it could be frustrating for your users. Your provisioning process can leverage a site design to ensure consistency or you can manually create sites to follow your design patterns. A key part of your provisioning process will be to ensure that new site owners have the appropriate guidance and training that they need to be successful when you fulfill their site requests.
+You can easily [hide the option to create a new site](./manage-site-creation.md) in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. If you do so, you will want to create a process for users to request a new intranet site. Having a request process makes it easy to review and track site requests and ensures that your environment remains “tidy,” but if your review and approval process takes too long, it could be frustrating for your users. Your provisioning process can leverage a site design to ensure consistency or you can manually create sites to follow your design patterns. A key part of your provisioning process will be to ensure that new site owners have the appropriate guidance and training that they need to be successful when you fulfill their site requests.
 
 #### Allow self-service site creation
 
 If you enable self-service site provisioning, you will want to consider providing site designs that embed your best practices so that new site owners start with a “template” that aligns to your governance guidelines. You will also want to track new sites in the Admin Center so that you can follow up with new site owners to provide the information that they need to be successful after the site has been created.
 
-In addition to providing a process to provision new sites, you will also want to think about a process to provision new [hubs](./planning-hub-sites.md) and associated hubs. Hubs must be provisioned by the Global or SharePoint Admin so you will need to think about how you will plan and govern the creation of new hubs.
+In addition to providing a process to provision new sites, you will also want to think about a process to provision new [hubs](./planning-hub-sites.md) and associated hubs. Hubs must be provisioned by the Global Administrator or SharePoint Administrator so you will need to think about how you will plan and govern the creation of new hubs.
 
-When an intranet site is no longer needed, there may be cases where your records management process prohibits deletion of the site and/or content. Another key governance decision is planning how you will delete or decommission intranet sites in the context of both legal holds and records management requirements. Learn more about [Microsoft 365 compliance](/microsoft-365/compliance), including [records management](/microsoft-365/compliance/records-management) and advanced [eDiscovery](/microsoft-365/compliance/overview-ediscovery-20).
+When an intranet site is no longer needed, there may be cases where your records management process prohibits deletion of the site and/or content. Another key governance decision is planning how you will delete or decommission intranet sites in the context of both legal holds and records management requirements. Learn more about [Microsoft Purview compliance documentation](/microsoft-365/compliance), including [records management](/microsoft-365/compliance/records-management) and [eDiscovery (Premium)](/microsoft-365/compliance/overview-ediscovery-20).
 
 
 ### Information architecture and search
@@ -196,7 +197,7 @@ Your intranet governance plan should incorporate a mechanism to collect feedback
 ### Training and support
 Your intranet will not be successful if you don’t incorporate a way to provide training and support for all users, but most especially, Site Owners. The best way to reinforce your governance policies and guidelines is to build them in to your training. In other words, don’t provide training that only shows “how to” – make sure that your training also includes your policies and guidelines – the “how should” aspect of your governance plan.
 
-It is helpful to provide a dedicated site where Site Owners and other intranet users can find training and governance information. You can create your own “user resource center” as described earlier or leverage a third-party or Microsoft-provided training environment. To ensure that your training content is always current, you can link to content in Microsoft’s training platforms such as support.office.com and docs.microsoft.com. You can also embed the support.office.com training into your own environment by deploying [Microsoft 365 Learning Pathways](/office365/customlearning/) in your tenant and adapting the content to include your governance policies and guidelines.
+It is helpful to provide a dedicated site where Site Owners and other intranet users can find training and governance information. You can create your own “user resource center” as described earlier or leverage a third-party or Microsoft-provided training environment. To ensure that your training content is always current, you can link to content at Microsoft’s training platforms such as support.office.com and docs.microsoft.com. You can also embed the support.office.com training into your own environment by deploying [Microsoft 365 Learning Pathways](/office365/customlearning/) in your tenant and adapting the content to include your governance policies and guidelines.
 
 You can help your intranet users find your training content by [adding a custom tile](/microsoft-365/admin/manage/customize-the-app-launcher) to your Organization Profile or adding a [custom help link](/microsoft-365/admin/misc/customize-help-desk) directly in Microsoft 365. 
 

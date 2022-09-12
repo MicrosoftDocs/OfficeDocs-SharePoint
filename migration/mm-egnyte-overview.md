@@ -17,6 +17,7 @@ ms.collection:
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+ms.custom: admindeeplinkSPO
 search.appverid: MET150
 ROBOTS: NOINDEX
 description: "Overview of how to migrate your Egnyte content using Migration Manager"
@@ -41,7 +42,7 @@ Collaborate all in one place by migrating your Egnyte documents, data, and users
 
 To get started:
 
-Go to the [Migration Manager page of the new SharePoint admin center](https://aka.ms/ODSP-MM-FS), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 Make sure that you have:
 
@@ -58,9 +59,12 @@ Make sure that you have:
    **Subject:**  Egnyte connection</br>
    **Text:**     I would like the user rate limits increased for my application [*enter application name*] to [*x calls*] per second and [*y calls*] per day.
 
+## File size migration limit
+
+We support files up to 15 GB in size for Egnyte to Microsoft 365 migrations.
 
 >[!NOTE]
->Migration Manager Egnyte isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Egnyte isn't available for users of Office 365 operated by 21Vianet in China.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
 

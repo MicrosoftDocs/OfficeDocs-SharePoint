@@ -45,12 +45,16 @@ A table summary appears at the top to give you an at-a-glance overview of your u
 
     :::image type="content" alt-text="Fileshare scan list." source="media/mm-fileshare-scan-list.png":::
 
+>[!Important]
+> Only agents in the **Default** agent group can be scheduled. If you have a file share scan that is stuck with the status of "Queued", and it never is scheduled to an agent, follow the steps here: [Scan task stuck in "queued" status](/sharepointmigration/mm-troubleshoot#scan-task-stuck-in-queued-status)
+
+
 ## Download summary report and scan log
 
 1. From the menu bar, select **Download summary report** to have a local copy of the summary view.
 2. Highlight a single row and select  **Download scan log** from the menu bar, to troubleshoot the details of individual files. 
 
 >[!NOTE]
->Migration Manager Box isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Box isn't available for users of Office 365 operated by 21Vianet in China.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

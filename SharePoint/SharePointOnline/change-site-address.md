@@ -17,6 +17,7 @@ ms.collection:
 - m365initiative-spsitemanagement
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid:
 - SPO160
 - MOE150
@@ -29,17 +30,19 @@ description: "In this article, you'll learn how global and SharePoint admins can
 # Change a site address
 
 > [!NOTE]
->  This feature is not available for Microsoft 365 Government GCC High customers.
+> This feature is not available for Microsoft 365 Government GCC High customers.
 
-As a global or SharePoint admin in your organization, you can change the URL for the following types of SharePoint sites (previously called "site collections"):
+As a Global Administrator or SharePoint Administrator in your organization, you can change the URL for the following types of SharePoint sites (previously called "site collections"):
 
 - Microsoft 365 group-connected team sites
 - Modern team sites that don't belong to a Microsoft 365 group
 - Communication sites
 - Classic team sites
 
-> [!NOTE]
-> If the Publishing feature is currently activated or was previously activated for the site, then changing the site address is unsupported.
+Changing the site address is not supported in the following situations:
+
+- The Publishing feature is currently activated or was previously activated for the site.
+- The site contains more than 15 million documents.
 
 You can change only the address of the site within the URL, for example:
 
@@ -65,11 +68,9 @@ Before you change the address of a site, it's important to communicate the chang
 
 ## Change a site address in the new SharePoint admin center
 
-1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
+1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the new SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
    > [!NOTE]
-   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page.
-   > 
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
 2. To open the details pane, select the site name.
@@ -92,7 +93,7 @@ Before you change the address of a site, it's important to communicate the chang
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following command to verify that the site address can be changed:
 

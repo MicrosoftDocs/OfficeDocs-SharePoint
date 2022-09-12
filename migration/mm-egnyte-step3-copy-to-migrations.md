@@ -46,10 +46,10 @@ After a Egnyte account has been scanned and determined ready, add it to your mig
 ![Migrations tab](media/mm-box-migration-tab.png)
 
 
-[**Step 4: Review destinations**](mm-egnyte-step4-review-destinations.md)
+## [**Step 4: Review destinations**](mm-egnyte-step4-review-destinations.md)
 
 
 >[!NOTE]
->Migration Manager Egnyte isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Egnyte isn't available for users of Office 365 operated by 21Vianet in China.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

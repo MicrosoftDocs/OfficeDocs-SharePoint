@@ -19,11 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom:
 - seo-marvel-apr2020
+- admindeeplinkSPO
 search.appverid: MET150
 description: "Learn about how the Migration Manager tool in the modern SharePoint Admin Center works and how to get started with it."
 ---
 
-# Overview:  Migrate your file shares to Microsoft 365 with Migration Manager
+# Overview: Migrate your file shares to Microsoft 365
 
 Migrating your on-premises file share content to Microsoft 365 lets you collaborate with innovative Office apps, intelligent cloud services, and world-class security.  Migration Manager helps you get there.
 
@@ -40,9 +41,14 @@ With the ability to set up multiple computers as "agents", Migration Manager let
 
 - **Monitor and report.** Monitor progress across all agents and access reports from one central location. 
 
+## File size migration limit
+
+We support files up to 250 GB in size for file share to Microsoft 365 migrations.
+
+
 ## Get started
 
-Go to the [Migration Manager page of the new SharePoint admin center](https://aka.ms/ODSP-MM-FS), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 Make sure that you have:
 
@@ -53,7 +59,7 @@ Make sure that you have:
 - **SMB 2.0**:  The server hosting the data (your source) must support SMB 2.0 or higher 
 
 - **Prerequisites and endpoints:** Make sure your computer or VM has the necessary prerequisites installed and have the required endpoints open:  See here for the [List of prerequisites and required endpoints](mm-prerequisites.md).
-- **File size**:  File share migration supports migrating individual files of up to 100 GB.
+- **File size**:  File share migration supports migrating individual files of up to 250 GB.
 
 >[!Note]
 >When using Migration Manager to migrate content to non-English SharePoint sites, make sure the site title does not include non-English characters.
