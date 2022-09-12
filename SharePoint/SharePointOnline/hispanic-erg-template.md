@@ -50,8 +50,8 @@ This template features content focused on a Hispanic and Latinx employee resourc
 2. Select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your site collection admin credentials. 
 3. From the permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept.** 
 
->>[!NOTE] 
->> The provisioning service requires these permissions to provision the site template. There is no overall impact on your tenant, and these permissions are used for the solution installation. You must accept these permissions to proceed with the installation. 
+   >[!NOTE] 
+   > The provisioning service requires these permissions to provision the site template. There is no overall impact on your tenant, and these permissions are used for the solution installation. You must accept these permissions to proceed with the installation. 
 
 4. Complete the fields on the provisioning information page as appropriate for your installation. At a minimum, enter the email address where you wish to get notifications about the provisioning process and the URL prefix for your site to be provisioned to. 
 5. Select **Provision** when ready to install the site into your tenant environment.  
@@ -67,12 +67,11 @@ As the site collection admin, you may not be the person customizing the site, so
 3. Assign users as a Site owner to allow permission to customize the site. 
 4. Include the site URL in the Share message, and then select **Share.** 
 
-
 ## Step 2: Customize the site 
 
 After the site has been provisioned and site owners have been added, it's time to customize the site to make it your own. Customize the site’s look, navigation, and content like news posts and events. 
 
-#### Start by signing into Microsoft 365 and navigating to the site: 
+#### Start by signing into Microsoft 365 and navigating to the site
 
 1. Open your web browser and navigate to [office.com](https://www.office.com/) or your organization’s sign-in location. 
 2. Sign in with your username and password. 
@@ -88,7 +87,7 @@ After the site has been provisioned and site owners have been added, it's time t
 - **News web part –** Pre-populated news posts were created using the page template. 
 - **Events web part –** Pre-populated events from different employee resource groups highlight more opportunities to learn and practice allyship. 
 
-#### Then, customize the site: 
+#### Then, customize the site
 
 1. **Add your organization’s logo and review more site design details:** Edit the look of your SharePoint sites to align with your organization's brand. Customize the site display name, logo, header layout, navigation style, and more in the [Change the look panel](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b).
 
