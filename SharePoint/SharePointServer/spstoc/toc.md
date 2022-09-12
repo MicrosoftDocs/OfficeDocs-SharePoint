@@ -437,7 +437,7 @@
 #### [Update Workflow in SharePoint Server](../governance/update-workflow-in-sharepoint-server.md)
 ## [Administration](../administration/administration.md)
 ### [Server Management](../administration/server-management.md)
-### [Feature updates and feature releases](../administration/feature-updates-and-feature-releases.md)
+### [Feature release rings](../administration/feature-release-rings.md)
 #### [Configure Request Manager in SharePoint Server](../security-for-sharepoint-server/configure-request-manager-in-sharepoint-server.md)
 #### [Global deployment of multiple farms](../administration/global-deployment-of-multiple-farms.md)
 ##### [Global architectures for SharePoint Server](../administration/global-architectures.md)

@@ -1,5 +1,5 @@
 ---
-title: "Feature updates and feature releases"
+title: "Feature release rings"
 ms.reviewer: 
 ms.author: v-nsatapathy
 author: nimishasatapathy
@@ -19,7 +19,7 @@ description: "Learn about the feature release rings."
 ---
 
 
-# Feature updates and feature releases
+# Feature release rings
 
 [!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
 

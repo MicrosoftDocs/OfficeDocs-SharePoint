@@ -62,7 +62,7 @@ In the **Standard release** ring, new feature experiences are enabled in your Sh
 
 Customers can switch between these two feature release rings at any time. However, you must run the SharePoint Products Configuration Wizard on every server in your SharePoint farm after changing this setting. The Wizard will perform a repair operation to ensure all features recognize the new setting.
 
-To learn more about this feature, see [Feature updates and feature releases](../administration/feature-updates-and-feature-releases.md)
+To learn more about this feature, see [Feature release rings](../administration/feature-release-rings.md)
 
 ### AMSI integration
 
