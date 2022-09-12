@@ -57,7 +57,6 @@ Alternatively, you can activate AMSI integration for a web application by runn
 ```powershell
 Enable-SPFeature -Identity 4cf046f3-38c7-495f-a7da-a1292d32e8e9 -Url <web application URL> 
 ```
-
 Or deactivate AMSI integration for a web application via this `PowerShell` command:
 
 ```powershell
@@ -79,7 +78,6 @@ The benefits of using MDAV on SharePoint Server include:
 There may be a performance impact on the web application because AMSI scanning uses CPU resources. There's no distinct performance impact observed from AMSI scanning when tested with MDAV and no changes to be made to the existing documented SharePoint Server antivirus exclusions. Each antivirus provider develops their own definitions that utilize AMSI technology. Therefore, your level of protection remains dependent on how quickly your specific solution can be updated to detect the latest threats.
 
 **Microsoft Defender version via the command line**
-
 > [!NOTE]
 > If you are using Microsoft Defender, you can use the command line and ensure to update the signatures with the latest version.
 
@@ -90,7 +88,6 @@ There may be a performance impact on the web application because AMSI scanning u
 This will determine your current engine version, check for updated definitions, and report.  
 
 ```powershell
-
 Copyright (C) Microsoft Corporation. All rights reserved.
 C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2105.5-0>MpCmdRun.exe -SignatureUpdate
 Signature update started . . .
@@ -100,6 +97,5 @@ AntiSpyware Signature Version: 1.343.1364.0
 AntiVirus Signature Version: 1.343.1364.0
 Signature update finished. No updates needed
 C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2105.5-0>
-
 ```
 
