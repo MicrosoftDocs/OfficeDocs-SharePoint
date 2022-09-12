@@ -36,7 +36,7 @@ Download and install:
 
 - [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568) 
 
-- [System Center Monitoring Pack for SharePoint Foundation 2013](https://www.microsoft.com/de-de/download/details.aspx?id=35591)
+- [System Center Monitoring Pack for SharePoint Foundation 2013](https://www.microsoft.com/download/details.aspx?id=35590)
 
 Use the following information to resolve the Access Services error messages:
   
@@ -382,7 +382,7 @@ One or more of the following might be the cause:
   
 #### Other Resources
 
-[System Center Monitoring Pack for SharePoint Foundation](https://www.microsoft.com/de-de/download/details.aspx?id=35591)
+[System Center Monitoring Pack for SharePoint Foundation](https://www.microsoft.com/download/details.aspx?id=35590)
   
 [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568)
   
