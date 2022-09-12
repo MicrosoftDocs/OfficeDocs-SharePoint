@@ -88,7 +88,7 @@ Each organization will have its own set of policies and guidelines. General topi
 
 #### Steps to ensure success:
 
-- Verify that your intranet policies and guidelines do not conflict with broader organizational polices and your overall governance decisions for Microsoft 365.
+- Verify that your intranet policies and guidelines do not conflict with broader organizational policies and your overall governance decisions for Microsoft 365.
 - Publish policies and guidelines where users can easily find and follow them. Some policies may need to be published for “all users,” while others may need to be secured to protect the integrity of the application. Consider creating a governance site rather than a document to facilitate publishing and “consuming” governance policies and guidelines.
 - Leverage capabilities to automatically apply policies and guidelines wherever you can. For example, you can enforce content management and retention policies with [information protection capabilities](/microsoft-365/compliance/protect-information) in Microsoft 365. You can encourage following design guidelines by using [site designs](/sharepoint/dev/declarative-customization/site-design-overview) to embed best practices in sites as they are created. The best way to ensure that your policies are followed is to ensure that site owners and authors don’t have to think about them. Try to automate as much as you can and where you can’t automate, plan to provide training to ensure that site owners and content authors clearly understand governance expectations.
 - Regularly review and revise policies and guidelines to keep them aligned to organizational needs.
