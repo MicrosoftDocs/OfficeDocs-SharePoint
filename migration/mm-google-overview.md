@@ -16,14 +16,13 @@ ms.collection:
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+ms.custom: admindeeplinkSPO
 search.appverid: MET150
 description: Overview of how to migrate from Google Workspace to Microsoft 365 with Migration Manager.
 ---
 
 # Migrate Google Workspace to Microsoft 365 with Migration Manager
 
->[!Note]
->This release currently supports the migration of up to approximately 10,000 Google Workspace accounts in a single migration. For larger migrations, we recommend you connect with [FastTrack](https://www.microsoft.com/fasttrack).
 
 Collaborate all in one place by migrating your Google documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
@@ -43,7 +42,7 @@ Collaborate all in one place by migrating your Google documents, data, and users
 
 To get started:
 
-Go to the [Migration Manager page of the new SharePoint admin center](https://aka.ms/ODSP-MM-FS), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">Migration center</a> in the SharePoint admin center, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 Make sure that you have:
 
@@ -55,18 +54,64 @@ Make sure that you have:
 
 ## Google Shared Drives
 
-We are not able to read or write permissions to Google Shared Drives - therefore, we cannot migrate permissions or membership of Google Shared Drives. 
+>[!Important]
+>We are not able to read or write permissions to Google Shared Drives, therefore we cannot migrate permissions or membership of Google Shared Drives. 
+>
+>Google Shared Drives do not allow explicit folder-level permissions. Instead, Shared Drive permissions are based on the Shared Drive members.
+>
+>If you are migrating Google Shared Drives, follow the steps below.
 
-**If you are migrating Google Shared Drives:**
+
+**To migrate Google Shared Drives:**
 
 1. Manually gather the membership list of the Google Shared Drive during your migration planning.
 2. Create the destination document library in the appropriate team site of your SharePoint tenant. At this time, we recommend that you re-establish the membership list of the Google Shared Drive on the destination document library in your SharePoint tenant
 3. Migrate the Google Shared Drive. If you didn't do it in step 2, re-establish the membership list of the Google Shared Drive in the destination document library in your SharePoint tenant.
 
+## What isn't migrated
+
+### Google Drawings, Forms, Sites, and Maps
+
+Google doesn't allow us to export Drawings, Forms, Sites, and Maps from Drive. These aren't migrated.
+
+### Docs, Slides, and Sheets
+
+Google's proprietary formats aren't compatible with anything other than a Google Workspace Drive. When migrating from Google Workspace, Migration Manager converts to the Microsoft Office format from Google's format.
+
+
+|Google format|Office format|
+|:-----|:-----|
+|.gsheet|.xlsx|
+|.gdoc|.docx|
+|.gslide|.pptx|
+
+
+>[!Note]
+>The only way to migrate/download a Google format file is to request that they [Google] convert it. Microsoft does not control the conversion process, and the forced limitations are strictly on Google's end.
+
+
+### Files marked as restricted
+
+Google WorkspaceDrive lets owners disable the ability for users to copy, download, or print a file on a per-file basis. To work properly, this feature must be disabled on each file for which it has been enabled. It not enabled, you'll receive an error stating:
+
+`Permissions issue: File marked as restricted or not copyable`
+
+To disable this feature:
+
+1. See the **Sharing** settings for a file, and select **Advanced**. 
+2. Select the checkbox for the owner of the file to **Disable options to download, print, and copy for commenters and viewers.**
+    
+### What happens to Google Drive shortcuts?
+
+Shortcut files aren't supported for migration and therefore not migrated.
+
+## File size migration limit
+
+We support files up to 15 GB in size for Google to Microsoft 365 migrations.
 
 
 >[!NOTE]
->Migration Manager Google Workspace isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>Migration Manager Google Workspace isn't available for users of Office 365 operated by 21Vianet in China.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
 

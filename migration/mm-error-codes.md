@@ -19,7 +19,7 @@ search.appverid: MET150
 description: Migration Manager error codes
 ---
 
-# Migration Manager error codes
+# Migration Manager transaction error codes
 
 </br></br>
 
@@ -37,6 +37,7 @@ description: Migration Manager error codes
 |MAUTHNOTENANT|Connector authorization failed; no tenant/enterprise ID found. Tenant = Enterprise. Tenant is the term in MS/Azure and Enterprise is used by Box and others.|Try again.|
 |MAUTHREFRESHTOKEN|Connector authorization failure. Failed to get refresh token.|Try again.|
 |MAUTHUSERNOTADMIN|Connector authorization failed; user does not have admin role.|Check permissions and try again.|
+|MAZUREUPLOAD|Failed to submit the migration job to Migration API after the files were uploaded to the Azure blob.| Try again.|
 |MBADREQUEST|Bad request when operating on source or destination item.|Unexpected error.  Try again.|
 |MCONNECTORNOTFOUND|Connector not found in database.|Check connector settings.  Try again.|
 |MCORRELATE|Collection correlates missing source listing.|Confirm source location, try again.|
@@ -72,6 +73,7 @@ description: Migration Manager error codes
 |MNOTFOUND|Item not found.|Check file and try again.|
 |MNOTIMPLEMENTED|Method not implemented for connector. |Try again.|
 |MNOTPERMITTED|Cannot traverse to the folder level; cannot perform actions outside a users folder.|Check permissions and try again.|
+|MNOTUSERORTEAMDRIVE|Confirm that the name of the item in the source service matches what you have in the task's source path. Note: Google Suite allows invisible characters to be added to item names. We advise that your rename the item in the source service to ensure there's no invisible characters and then use that same name in the task source path.|
 |MOWNERNOTFOUND|The original owner was removed or its information was not found.|Reassign ownership of the file.|
 |MPATHMALFORMED|Invalid path format. | Check your source and try again.|
 |MSERVICENOTAVAILABLE|Service unavailable.|Try again.|

@@ -1,8 +1,8 @@
 ---
 title: "Silently configure user accounts"
 ms.reviewer: wsproule
-ms.author: adjoseph
-author: adeejoseph
+ms.author: mabond
+author: mkbond007
 manager: serdars
 audience: ITPro
 f1.keywords:
@@ -18,7 +18,9 @@ search.appverid:
 - ODB160
 - MET150
 ms.assetid: 64aa1f56-d7f6-4500-a408-1fde8fe6db36
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- onedrive-toc
 description: "Learn how IT admins can enable silent account configuration when deploying the OneDrive sync app in an enterprise."
 ---
 
@@ -26,9 +28,9 @@ description: "Learn how IT admins can enable silent account configuration when d
 
 This article is for IT admins who would like to silently configure user accounts when deploying the new OneDrive sync app (OneDrive.exe) to managed Windows computers in their enterprise. This feature works for computers that are joined to Azure Active Directory (Azure AD).
   
-If you enable this feature, OneDrive.exe will attempt to silently (without user interaction) sign-in to the work or school user account that was used to sign into Windows (known as the Windows Primary Account). That Windows account must be an Azure Active Directory (AAD) account or be linked to an AAD account through a hybrid authentication configuration (see Prerequisites below). 
+If you enable this feature, OneDrive.exe will attempt to silently (without user interaction) sign-in to the work or school user account that was used to sign into Windows (known as the Windows Primary Account). That Windows account must be a Microsoft Azure Active Directory (Azure AD) account or be linked to an Azure AD account through a hybrid authentication configuration (see Prerequisites below).
 
-Before OneDrive.exe begins syncing, it will check the available disk space. If syncing the user's entire OneDrive would cause the available space to drop below 1 GB or if the size exceeds the threshold you set (on devices that don't have Files On-Demand enabled), OneDrive will prompt the user to choose folders to sync. For info about setting this threshold using Group Policy, see [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#set-the-maximum-size-of-a-users-onedrive-that-can-download-automatically). 
+Before OneDrive.exe begins syncing, it will check the available disk space. If syncing the user's entire OneDrive would cause the available space to drop below 1 GB or if the size exceeds the threshold you set (on devices that don't have Files On-Demand enabled), OneDrive will prompt the user to choose folders to sync. For info about setting this threshold using Group Policy, see [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#set-the-maximum-size-of-a-users-onedrive-that-can-download-automatically).
   
 When the user is configured in the sync app, if the same user account is syncing files with the previous OneDrive for Business sync app (Groove.exe), the new sync app (OneDrive.exe) will attempt to take over syncing those files.
 
@@ -41,13 +43,13 @@ Before you can enable silent account configuration, you need to join your device
   
 If you have an on-premises environment that uses Active Directory, you can enable [hybrid Azure AD joined devices](/azure/active-directory/devices/hybrid-azuread-join-plan) to join devices on your domain to Azure AD. Devices must be running one of the following operating systems:
   
-- Windows 10 
-- Windows 8.1 
-- Windows 7 
+- Windows 10
+- Windows 8.1
+- Windows 7
 - Windows Server 2019
-- Windows Server 2016 
-- Windows Server 2012 R2 
-- Windows Server 2012 
+- Windows Server 2016
+- Windows Server 2012 R2
+- Windows Server 2012
 - Windows Server 2008 R2
  
 If you federate your on-premises Active Directory with Azure AD, you must use AD FS to enable this feature. For info about using Azure AD Connect, see [Getting started with Azure AD Connect using express settings](/azure/active-directory/hybrid/how-to-connect-install-custom).
@@ -93,7 +95,7 @@ New-ItemProperty -Path $DiskSizeregistryPath -Name $TenantGUID -Value '102400' -
 
 SilentAccountConfig creates a SilentBusinessConfigCompleted registry entry once SilentAccountConfig has successfully provisioned the user in OneDrive.exe. This prevents SilentAccountConfig from reprovisioning the user in OneDrive.exe if the user manually stops syncing.
 
-If SilentAccountConfig has successfully completed on a computer you're going to use as your master for building a Windows deployment image (for example, SysPrep), you need to ensure this registry key is removed before you prepare your image. You can do so by running the following command:
+If SilentAccountConfig has successfully completed on a computer you're going to use to build a Windows deployment image (for example, SysPrep), you need to ensure this registry key is removed before you prepare your image. You can do so by running the following command:
 
 ```console
 reg delete HKCU\Software\Microsoft\OneDrive /v SilentBusinessConfigCompleted /f
@@ -123,11 +125,11 @@ reg delete HKCU\Software\Microsoft\OneDrive /v SilentBusinessConfigCompleted /f
 
 6. Shortly you should see a blue cloud icon in the notification area of the taskbar. Selecting the icon should show the activity center pop-up showing ongoing/recent activity from the first sync. If so, SilentAccountConfig has worked correctly.
 
-7. If instead you see the "Set up OneDrive" screen, SilentAccountConfig couldn't silently sign in or failed for another reason. Verify you completed these steps correctly by repeating them again. Follow the [Verify Single Sign On (SSO)](use-silent-account-configuration.md#VerifySSO) steps later in this article to confirm that SSO is not a problem. Gather sync app logs to send to the engineering team for further help.
- 
+7. If instead you see the "Set up OneDrive" screen, SilentAccountConfig couldn't silently sign in or failed for another reason. Verify you completed these steps correctly by repeating them again. Follow the [Verify Single Sign On (SSO)](use-silent-account-configuration.md#VerifySSO) steps later in this article to confirm that SSO isn't a problem. Gather sync app logs to send to the engineering team for further help.
+
 ### Instructions for SharePoint Server 2019
 
-1. Ensure you can manually get the OneDrive sync app to sync content with your on-premises SharePoint Server 2019 before proceeding. See [Configure sync app for syncing with SharePoint Server](/sharepoint/install/new-onedrive-sync-client) for details.
+1. Ensure you can manually get the OneDrive sync app to sync content with your on-premises SharePoint Server 2019 before proceeding. See [Configure sync app for syncing with SharePoint Server](/sharepoint/install/configure-syncing-with-the-onedrive-sync-app) for details.
 
 2. Set the SharePointOnPremPrioritization reg key value to 1 (this ensures that SharePoint Server takes precedence over SharePoint in Microsoft 365, deleting the registry key to revert to SharePoint in Microsoft 365):
 
@@ -166,11 +168,11 @@ If you have a computer, you think should work with SilentAccountConfig, you can 
 
 5. Select the **Sign in** button.
 
-6. The dialog should switch to a "signing in" page with a spinning icon for a few seconds. It should then continue to the next part of the wizard without asking for a password.
+6. The dialog should switch to a "signing in" page with a spinning icon for a few seconds. It should then continue to the next part of the wizard without asking for a password.
 
 7. If a password prompt doesn't appear, your auth environment is properly configured and SilentAccountConfig should work for your users.
 
-8. If you do see a password prompt, the environment isn't configured properly for silent sign-on. This could be due to a problem with how the computer is domain joined (for example, a trust relationship problem), a problem with ADFS configuration, an Azure AD conditional access policy requiring user interaction, you didn't provide the same user email address as the one used to sign into Windows, or some other reason. You will need to resolve whatever is blocking silent sign-on before SilentAccountConfig will work for you.
+8. If you do see a password prompt, the environment isn't configured properly for silent sign-on. This could be due to a problem with how the computer is domain joined (for example, a trust relationship problem), a problem with ADFS configuration, an Azure AD conditional access policy requiring user interaction, you didn't provide the same user email address as the one used to sign into Windows, or some other reason. You'll need to resolve whatever is blocking silent sign-on before SilentAccountConfig will work for you.
 
 9. Remove the EnableADAL key you added in step 1:
 

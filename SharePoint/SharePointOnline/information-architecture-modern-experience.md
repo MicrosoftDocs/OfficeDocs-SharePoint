@@ -30,6 +30,9 @@ Well-planned and executed information architecture is a prerequisite for an inte
 
 Information architecture also helps improve user adoption, satisfaction, and productivity while reducing IT costs, information overload, and minimize compliance and security risks. 
 
+> [!NOTE]
+> All navigation types (site, hub, global, and footer) are limited to 500 child links at each level. Additional nodes added after the limit has been reached will receive an error.
+
 **In this article:**
 
 - [Learn the main elements of information architecture](#information-architecture-elements-in-sharepoint)
@@ -62,8 +65,9 @@ Information architecture for your organization will be the most effective by col
 
 **Departmental business owners** – Departmental business owners represent large areas of the organization, like human resources, marketing, and engineering. Departmental business owners work with organizational intranet owners to ensure their area of the business is well-represented in global and hub navigation. Organizational intranet owners should be included early in the planning stage to ensure business and user needs are met. 
 
-**IT Admins** – IT admins partner with organizational intranet owners and departmental business owners to implement high level navigational structure like implementing the [start page](https://support.microsoft.com/office/discover-content-with-the-sharepoint-start-page-6b85097a-87e0-4611-a29a-dfd49b1a1220) and [hubs](./create-hub-site.md). IT admins also help implement certain governance policies around [site creation and usage](./sites-usage-guidelines.md). IT admins are involved in planning, implementing, and maintaining information architecture as the business changes and scales. 
-Hub owners – Hub owners manage hub-level content, branding, permissions, and navigational elements for hub in your organization’s intranet. Hub owners partner with departmental business owners and IT admins to [plan](./planning-hub-sites.md), create, and manage hubs throughout the lifecycle of your organization’s intranet architecture. 
+**IT Admins** – IT admins partner with organizational intranet owners and departmental business owners to implement high level navigational structure like implementing the [start page](https://support.microsoft.com/office/discover-content-with-the-sharepoint-start-page-6b85097a-87e0-4611-a29a-dfd49b1a1220) and [hubs](./create-hub-site.md). IT admins also help implement certain governance policies around [site creation and usage](./sites-usage-guidelines.md). IT admins are involved in planning, implementing, and maintaining information architecture as the business changes and scales.
+
+**Hub owners** – Hub owners manage hub-level content, branding, permissions, and navigational elements for hubs in your organization’s intranet. Hub owners partner with departmental business owners and IT admins to [plan](./planning-hub-sites.md), create, and manage hubs throughout the lifecycle of your organization’s intranet architecture. 
 
 **Site owners** – Site owners manage site-level content, branding, permissions, and navigation. Depending on the needs of the business and users, site owners can [associate their sites to hubs](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05) if the hub owner allows. 
 

@@ -50,7 +50,6 @@ try {
     
     #https://docs.microsoft.com/en-us/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps
     #For Office 365 operated by 21Vianet, use the ConnectionUri value: https://partner.outlook.cn/PowerShell
-    #For Office 365 Germany, use the ConnectionUri value: https://outlook.office.de/powershell-liveid/
     #For Microsoft 365 GCC High, use the ConnectionUri value: https://outlook.office365.us/powershell-liveid/
     #For Microsoft 365 DoD, use the ConnectionUri value: https://webmail.apps.mil/powershell-liveid
     #If you're behind a proxy server, run this command first: $ProxyOptions = New-PSSessionOption -ProxyAccessType <Value>, where <Value> is IEConfig, WinHttpConfig, or AutoDetect.

@@ -27,7 +27,7 @@ description: "Learn how admins can change the Featured links list on the SharePo
 
 # Add featured links to the SharePoint start page
 
- As a global or SharePoint admin in Microsoft 365, you can feature the sites and content you want on the SharePoint start page by changing the **Featured links** list in the left pane. To add links to a SharePoint Server page, see [Video: Add a link to a page](https://support.office.com/article/F9B329F9-67BB-4258-A686-9CD98415E7CA).
+As a Global Administrator or SharePoint Administrator in Microsoft 365, you can feature the sites and content you want on the SharePoint start page by changing the **Featured links** list in the left pane. To add links to a SharePoint Server page, see [Video: Add a link to a page](https://support.office.com/article/F9B329F9-67BB-4258-A686-9CD98415E7CA).
   
 > [!NOTE]
 > To learn more about the SharePoint start page, see [Find news, sites, and portals in Microsoft 365](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220). 

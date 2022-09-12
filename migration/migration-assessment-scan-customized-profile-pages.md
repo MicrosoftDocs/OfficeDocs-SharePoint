@@ -46,13 +46,11 @@ Validate the profile experience on the new platform.
   
 ## Scan Result Reports
 
- **CustomizedProfilePages_\<Date\>_\<Time\>.csv** This scan report shows whether the Person.aspx profile page has been modified in SharePoint Designer, or if any of the web parts have been added, deleted, or moved on the page. 
+ **CustomizedProfilePages_\<Date\>_\<Time\>.csv** This scan report shows whether the Person.aspx profile page has been modified in SharePoint Designer, or if any of the web parts have been added, deleted, or moved on the page.
   
-|**Column**|**Description**|
+|Column|Description|
 |:-----|:-----|
-|DisplayTitle  <br/> |Display title of the web part. If the page was modified, there will be a row with DisplayTitle of "Profile Page".  <br/> |
-|WebPart  <br/> |Type of web part.  <br/> |
-|Scope  <br/> |One of the following: • Page - The page was modified in SharePoint Designer • SharedWebPart - A Shared Web Part was added, deleted, or moved • UserWebPart - A User Web Part was added, deleted, or moved  <br/> |
-|Difference  <br/> | The piece of information that was flagged as a change. This could be a combination of the following:  <br/>  Added Web Part  <br/>  Web Part Zone  <br/>  Web Part Order  <br/>  Web Part Missing  <br/>  Page modified in SharePoint Designer  <br/> |
-   
-
+|DisplayTitle|Display title of the web part. If the page was modified, there will be a row with DisplayTitle of "Profile Page".|
+|WebPart|Type of web part.|
+|Scope|One of the following: • Page - The page was modified in SharePoint Designer • SharedWebPart - A Shared Web Part was added, deleted, or moved • UserWebPart - A User Web Part was added, deleted, or moved|
+|Difference|The piece of information that was flagged as a change. This could be a combination of the following:  <br/>  Added Web Part  <br/>  Web Part Zone  <br/>  Web Part Order  <br/>  Web Part Missing  <br/>  Page modified in SharePoint Designer|

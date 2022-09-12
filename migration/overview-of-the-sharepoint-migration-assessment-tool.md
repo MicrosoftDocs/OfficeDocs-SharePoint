@@ -51,7 +51,7 @@ For more info about Identity Mapping, see [SharePoint Migration Identity Mapping
   
 ## Prerequisites
 
-The tool is built to be run from within a SharePoint 2010 or 2013 farm and has these prerequisites:
+The tool is built to be run from within a SharePoint 2010, 2013, or 2016 farm and has these prerequisites:
   
 - To run the tool, all files must be extracted from any compressed package before execution.
     

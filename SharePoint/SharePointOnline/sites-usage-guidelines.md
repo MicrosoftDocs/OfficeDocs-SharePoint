@@ -118,7 +118,7 @@ Using the steps below as a template, create your own custom guidance for SharePo
 - Provide detailed information on site access. What are your processes and policies for managing site access? What level of control do your site owners have? If you manage access on behalf of your site owners, let them know that you will be reviewing site permissions regularly to keep them in line with your organization's policies. Explain how you will communicate changes to permissions to them.
 
 **Resources:** </br>
-- [Secure SharePoint Sites and Files](/office365/securitycompliance/secure-sharepoint-online-sites-and-files)
+- [Secure SharePoint Sites and Files](/microsoft-365/security/office-365-security/sharepoint-file-access-policies)
 
 **Sample text:** </br>
 *Plan to review your site's permissions on a regular basis and set the level of access appropriately.*
@@ -128,7 +128,7 @@ Using the steps below as a template, create your own custom guidance for SharePo
 
 **Guidance:**</br>
 - Provide your organization's lifecycle policy for sites. Does your organization set site expirations automatically or with a managed process? Do you set Microsoft 365 Group expiration policies that impact SharePoint team sites? Let your site owners know when their site will expire, how they will be notified, what will happen and what they need to do to extend their site.
-- Setting this policy requires Microsoft 365 global admin permissions.
+- Setting this policy requires Microsoft 365 Global Administrator permissions.
 - Does your organization take extra measures related to site backup and restore? Let your site owners know how long the backup is available and if needed, how to get a site restored.
 
 
