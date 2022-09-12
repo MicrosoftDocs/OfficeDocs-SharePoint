@@ -39,7 +39,7 @@ This template features content focused on a Hispanic and Latinx employee resourc
 
 ## How to get the Hispanic Heritage Employee Resource Group site: 
 
-| **Step 1: Provision** | **Step 2: Customize** | **Step 3: Share** | 
+| Step 1: Provision | Step 2: Customize | Step 3: Share | 
 | :------------------: | :------------------: |:---------------:| 
 | [Provision the site from the SharePoint look book](/sharepoint/add-sample-site) | Follow guidance on this page to customize the site | Share the site with the rest of your organization | 
 
@@ -58,7 +58,6 @@ This template features content focused on a Hispanic and Latinx employee resourc
    - The provisioning process will take up to 20 minutes. 
    - You will be notified via email (to the notification email address you entered on the Provisioning page) when the site is ready for access. 
 
-
 ### Next, add owners to the site 
 
 As the site collection admin, you may not be the person customizing the site, so you'll need to assign a few site owners. Owners have administrative privileges on the site so they can modify site pages, content, and branding. 
@@ -68,7 +67,6 @@ As the site collection admin, you may not be the person customizing the site, so
 3. Assign users as a Site owner to allow permission to customize the site. 
 4. Include the site URL in the Share message, and then select **Share.** 
 
- 
 
 ## Step 2: Customize the site 
 
@@ -90,7 +88,6 @@ After the site has been provisioned and site owners have been added, it's time t
 - **News web part –** Pre-populated news posts were created using the page template. 
 - **Events web part –** Pre-populated events from different employee resource groups highlight more opportunities to learn and practice allyship. 
 
-
 #### Then, customize the site: 
 
 1. **Add your organization’s logo and review more site design details:** Edit the look of your SharePoint sites to align with your organization's brand. Customize the site display name, logo, header layout, navigation style, and more in the [Change the look panel](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b).
@@ -109,7 +106,6 @@ After the site has been provisioned and site owners have been added, it's time t
 
    - [Quick Links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82) – Edit links to connect to more resources and employee resource groups sites. 
 
-
 ## Step 3: Share the site 
 
 Once you are done customizing and proof-reading the site you are ready to share it with others. [Run a health check](https://support.microsoft.com/office/use-the-sharepoint-site-performance-page-38a1f782-2e73-4ec8-b55e-827611bc3632) before sharing and consider using the [Portal launch scheduler tool](/microsoft-365/enterprise/portallaunchscheduler) if you expect a high amount of site traffic (10k individual visits per day or higher) to ensure a high-quality viewing experience.  
@@ -118,8 +114,6 @@ Once you are done customizing and proof-reading the site you are ready to share 
 2. In the Share site pane, enter the names of people to add to the site. The permission level will be read only. 
 3. Enter an optional message to send to the person or clear the Send email box if you don't want to send an email. 
 4. Select **Share.**
-
-
 
 ### More resources 
 
