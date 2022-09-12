@@ -1,7 +1,7 @@
 ---
 title: Add the Hispanic Heritage Employee Resource Group site template
 ms.reviewer: 
-ms.author: evan.atkin
+ms.author: evanatkin
 author: AtkinE
 manager: pamgreen
 recommendations: true
