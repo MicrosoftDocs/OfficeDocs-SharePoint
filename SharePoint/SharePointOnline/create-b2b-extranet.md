@@ -47,9 +47,9 @@ Depending on your collaboration needs, you can include Microsoft 365 groups or M
     
  **Seamless collaboration:** Collaborate with your partner users as if they are part of your organization, including allowing them chat and conferencing through Teams. 
   
- **Auditing and reporting**. Microsoft 365 B2B extranet offers visibility into the access of your content by external partner users. One of the key IT benefits is to be able to audit usage, including being able to see who is inviting whom and when a guest logs in to access the content. See [Search the audit log in the Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) for more information.
+ **Auditing and reporting**. Microsoft 365 B2B extranet offers visibility into the access of your content by external partner users. One of the key IT benefits is to be able to audit usage, including being able to see who is inviting whom and when a guest logs in to access the content. See [Search the audit log in the Microsoft Purview compliance portal](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) for more information.
 
- **Security and governance**. Microsoft 365 features such as [Microsoft Purview data loss prevention](/microsoft-365/compliance/dlp-learn-about-dlp) and [Microsoft Defender for Cloud Apps](/cloud-app-security/what-is-cloud-app-security) provide a robust feature set to help you create a secure guest sharing environment.
+ **Security and governance**. Microsoft 365 features such as [Microsoft Purview Data Loss Prevention](/microsoft-365/compliance/dlp-learn-about-dlp) and [Microsoft Defender for Cloud Apps](/cloud-app-security/what-is-cloud-app-security) provide a robust feature set to help you create a secure guest sharing environment.
   
 ## Compare Microsoft 365 extranet with a traditional SharePoint on-premises extranet
 
