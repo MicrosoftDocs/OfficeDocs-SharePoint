@@ -52,7 +52,7 @@ Follow these steps to activate/deactivate the AMSI integration per web applicati
 3. Click the web application for which you want to enable the AMSI integration, and select **Manage Features** in the toolbar.
 4. On the **SharePoint Server Antimalware Scanning** screen, click **Activate** to turn on AMSI intergration, or click **Deactivate** to turn off AMSI integration.
 
-Alternatively, you can activate AMSI integration for a web application by running the following `PowerShell` commands:
+Alternatively, you can activate AMSI integration for a web application by running the following PowerShell commands:
 
 ```powershell
 Enable-SPFeature -Identity 4cf046f3-38c7-495f-a7da-a1292d32e8e9 -Url <web application URL> 
