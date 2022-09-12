@@ -91,7 +91,7 @@ To allow custom script on a particular site (previously called "site collection"
     or by means of the PnP.PowerShell cmdlet [Set-PnPSite](https://pnp.github.io/powershell/cmdlets/Set-PnPSite.html)
     
     ```PowerShell
-    Set-PnPSite <SiteURL> -NoScriptSite $false
+    Set-PnPSite -Identity <SiteURL> -NoScriptSite $false
     ``` 
 
 If you change this setting for a classic team site, it will be overridden by the Custom Script setting in the admin center within 24 hours.
