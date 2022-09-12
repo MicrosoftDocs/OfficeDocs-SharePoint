@@ -28,7 +28,7 @@ Learn about the new features and updates introduced in the SharePoint Server Sub
 
 The following table provides a summary of the new features introduced in the SharePoint Server Subscription Edition Version 22H2 feature update.
 
-|**Feature**|**Feature release rings**|**More info**|
+|**Feature**|**Release rings**|**More info**|
 |:-----|:-----|:-----|
 |**Feature release rings** <br/> |Standard release <br/> |For more information, see [Feature release rings](#feature-release-rings). <br/> |
 |**AMSI integration** <br/> |Standard release <br/> |For more information, see [AMSI integration](#amsi-integration).  <br/> |
