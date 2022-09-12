@@ -69,7 +69,7 @@ To learn more about this feature, see [Feature release rings](../administration/
 The cybersecurity landscape has fundamentally changed, as evidenced by large-scale, complex attacks, and signals that [human-operated ransomware](/security/compass/human-operated-ransomware) are on the rise. More than ever, it's critical to keep your on-premises infrastructure secure and up to date, including SharePoint Servers. 
 
 To help customers secure their environments and respond to associated threats from the attacks, we're introducing integration between SharePoint Server and the Windows
-[Antimalware Scan Interface](/windows/win32/amsi/antimalware-scan-interface-portal)(AMSI). AMSI is a versatile standard that allows applications and services to integrate with any AMSI-capable anti-malware product present on a computer.  
+[Antimalware Scan Interface](/windows/win32/amsi/antimalware-scan-interface-portal) (AMSI). AMSI is a versatile standard that allows applications and services to integrate with any AMSI-capable anti-malware product present on a computer.  
 
 When an AMSI-capable antivirus or anti-malware solution is integrated with SharePoint Server, it can examine the content of `HTTP` and `HTTPS` requests made to the server and prevent dangerous requests from being processed by SharePoint Server. Any AMSI-capable antivirus or anti-malware program that is installed on the server performs the scan as soon as the server starts to process the request. The purpose of AMSI isn't to replace current server-level antivirus/anti-malware defenses; it solely scans the `HTTP` and `HTTPS` protocols.
 
