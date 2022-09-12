@@ -22,7 +22,7 @@ description: "Provision and customize the Hispanic Heritage Employee resource gr
 
 # Overview of the Hispanic Heritage Employee Resource Group site template
 
-   ![Image of the LGBTQ+ employee resource group landing page](media/erg-template-site.png)
+   ![Image of the Hispanic Heritage employee resource group landing page](media/HispanicERGSiteTemplate_overview.png)
 
 Use the Hispanic Heritage Employee Resource Group site template to quickly create a communication site from the [SharePoint look book](https://lookbook.microsoft.com/) to uplift employee resource groups, support the career growth of people in your organization, and to help advance equality and allyship for all. 
 
@@ -83,7 +83,7 @@ After the site has been provisioned and site owners have been added, it's time t
 
 #### Next, explore pre-populated content: 
 
-   ![Image of the page template with a theme that matches the site.](media/erg-template-page-2.png)
+   ![Image of the page template with a theme that matches the site.](media/HispanicERGSiteTemplate_news_overview.png)
 
 - **Home page –** The landing page features a unique theme, colorful images, and more inspirational content that is relevant and engaging. Content here is inspired by Hispanic and Latinx employee resource groups but can be adapted to other types of groups. Customize the Text, News, Events, and Quick Links web parts to make this site your own. 
 - **Page template –** A page template with a unique theme can be found in the site’s contents to help create news posts and pages for the site more quickly.  
@@ -99,7 +99,7 @@ After the site has been provisioned and site owners have been added, it's time t
 
 3. **Edit web part content:** Select **Edit** in the right-hand corner to begin customizing web parts and content. Select the **Edit** (pencil icon) next to each web part to customize the layout and to edit content. 
 
-   ![Image of the news web part with prepopulated content focused on LGBTQ+ topics.](media/erg-template-news.png)
+   ![Image of the news web part with prepopulated content focused on Hispanic Heritage topics.](media/HispanicERGSiteTemplate_news.png)
 
    - [Text web part](https://support.microsoft.com/office/add-text-tables-and-images-to-your-page-with-the-text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801) – Replace pre-populated content with your own. 
 
