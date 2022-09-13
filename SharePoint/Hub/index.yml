@@ -27,7 +27,7 @@ additionalContent:
         # Card
         - title: SharePoint in Microsoft 365
           summary: Find resources for managing SharePoint in your Microsoft 365 environment.
-          url: /sharepoint/sharepoint-online
+          url: /sharepoint/introduction
         # Card
         - title: Migrate to Microsoft 365
           summary: Migrate your content to Microsoft 365. Migrate from file shares, SharePoint Server, Box, or many of the cloud storage providers.
@@ -55,9 +55,13 @@ additionalContent:
           summary: Guidance for developing solutions for SharePoint.
           url: /sharepoint/dev
         # Card
-        - title: End users
+        - title: SharePoint users
           summary: Find help, training, and technical support for your SharePoint users.
           url: https://support.office.com/sharepoint
+        # Card
+        - title: OneDrive users
+          summary: Find help, training, and technical support for your OneDrive users.
+          url: https://support.office.com/onedrive
         # Card
         - title: Microsoft 365 Community Content
           summary: Find solutions and scenario guidance for Microsoft 365 users as contributed by the IT Professional and Admin community.

@@ -1,5 +1,5 @@
 ---
-title: "Introduction to SharePoint"
+title: "Introduction to SharePoint and OneDrive"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -21,7 +21,7 @@ ms.assetid: d5089cdf-3fd2-4230-acbd-20ecda2f9bb8
 description: "Learn about SharePoint in Microsoft 365, which is a cloud-based service that helps organizations share and manage content, and collaborate with others."
 ---
 
-# Introduction to SharePoint in Microsoft 365
+# Introduction to SharePoint and OneDrive in Microsoft 365
 
 Microsoft SharePoint is a cloud-based service that helps organizations share and manage content, knowledge, and applications to: 
 
