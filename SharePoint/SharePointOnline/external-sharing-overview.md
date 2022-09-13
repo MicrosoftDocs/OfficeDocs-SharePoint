@@ -80,8 +80,6 @@ When you or your users create Microsoft 365 groups (for example in Outlook, or b
 ## What happens when users share
 
 When users share with people outside the organization, an invitation is sent to the person in email, which contains a link to the shared item.
-
-![A sharing invitation in email](media/sharing-invitation.png)
   
  **Recipients who sign in**
   
