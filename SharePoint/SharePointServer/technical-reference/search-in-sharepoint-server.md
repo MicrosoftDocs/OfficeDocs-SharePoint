@@ -916,7 +916,7 @@ Ensure that the following components are up and running:
 
  **Alert Name:** Search Analytics: Timer job cannot resolve Link database 
   
- **Summary:** The timer job will check that all Link database partitions are available before it tries to start the search analytics analysis. Symptoms:If the Link database partitions are unavailable when it is time to start a new analysis run, the start try will be aborted. New Link database checks followed by a new start try will be performed in the next timer job polls (every 10 minutes). 
+ **Summary:** The timer job will check that all Link database partitions are available before it tries to start the search analytics analysis. Symptoms: If the Link database partitions are unavailable when it is time to start a new analysis run, the start try will be aborted. New Link database checks followed by a new start try will be performed in the next timer job polls (every 10 minutes). 
   
 ### Cause
 
