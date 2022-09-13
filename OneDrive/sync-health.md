@@ -25,7 +25,6 @@ search.appverid:
 - MET150
 ms.assetid: e1b3963c-7c6c-4694-9f2f-fb8005d9ef12
 description: Learn how to proactively monitor OneDrive health, devices, and usage across an organization using the OneDrive sync reports.
-#Customer intent: As an IT administrator, I want to proactively monitor sync health in OneDrive, so that I can mitigate user error while increasing sync consumption across the organization. .
 ---
 
 # OneDrive sync reports in the Apps Admin Center
