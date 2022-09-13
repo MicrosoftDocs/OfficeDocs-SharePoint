@@ -50,7 +50,7 @@ Microsoft [Viva Connections desktop](https://techcommunity.microsoft.com/t5/micr
 
 
 > [!IMPORTANT]
-> - You need SharePoint admin permissions (or higher) to create the Viva Connections desktop app in PowerShell, and you need Teams admin permissions (or higher) to apply the app in the Teams Admin Center.
+> - You need SharePoint Administrator permissions (or higher) to create the Viva Connections desktop app in PowerShell, and you need Teams admin permissions (or higher) to apply the app in the Teams Admin Center.
 > - Viva Connections desktop is not supported in the Teams mobile app. 
 > - Only [modern SharePoint sites and pages](/sharepoint/dev/transform/modernize-classic-sites) can be viewed in Teams and all other content will open in a browser.
 > - Some functionality will not be available for SharePoint pages viewed in Microsoft Teams such as social gestures like the ability to like, or comment on a page as well as the ability to add an event automatically to an Outlook calendar.
@@ -63,13 +63,12 @@ Microsoft [Viva Connections desktop](https://techcommunity.microsoft.com/t5/micr
 > - The [Viva Connections desktop PowerShell script](https://www.microsoft.com/download/confirmation.aspx?id=102888) is available now in the [Microsoft download center](https://www.microsoft.com/download/default.aspx).
 > - The vanity domain is only supported if the home site has the same domain as the [root site](modern-root-site.md).
 > - Viva Connections is not supported on the Linux operating system.
+> - The [Viva Connections dashboard web part](/viva/connections/use-dashboard-web-part-on-home-site) is not supported with the Viva Connections (desktop only) app. 
 
 
 ## Watch how to create the app package and then upload it to Teams
 
  > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAVk1]  
-
-
 
 
 ## Prepare for Viva Connections desktop and Viva Connections
@@ -99,12 +98,12 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 
 2. **Enable global navigation and customize navigational links:** We recommend you [set up and customize global navigation in the SharePoint app bar](sharepoint-app-bar.md). Learn about the different ways you can [set up the home site navigation and global navigation](./sharepoint-app-bar.md#see-all-the-different-ways-you-can-set-up-global-navigation) to surface the right content at the right time.
 
-3. **Create a Viva Connections app package in PowerShell:** The SharePoint admin needs to download and run PowerShell script from the Microsoft download center to create the Viva Connections desktop package. Ensure that you are using the [latest version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000) of the [SharePoint Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell) tool before running the script. 
+3. **Create a Viva Connections app package in PowerShell:** The SharePoint Administrator needs to download and run PowerShell script from the Microsoft download center to create the Viva Connections desktop package. Ensure that you are using the [latest version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000) of the [SharePoint Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell) tool before running the script. 
 
     > [!IMPORTANT]
     > - Updates to the required fields (mentioned below) in the manifest file are the only supported changes. Any other updates will not be supported. 
-    > - SharePoint admin credentials are required to use SharePoint PowerShell.
-    > - The SharePoint admin who creates the Viva Connections desktop package needs site owner permissions (or higher) to the home site in SharePoint.
+    > - SharePoint Administrator credentials are required to use SharePoint PowerShell.
+    > - The SharePoint Administrator who creates the Viva Connections desktop package needs site owner permissions (or higher) to the home site in SharePoint.
     > - If your tenant is using an older version of PowerShell, uninstall the older version and replace it with the most [up to date version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000).
     > - Icons need to be PNG files.
 

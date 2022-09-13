@@ -190,7 +190,7 @@ Microsoft Search helps users find files within modern SharePoint sites and from 
 
 ## Management options
 
-As a global or SharePoint admin for your organization, you have a couple of options for managing SharePoint sites and settings:
+As a Global Administrator or SharePoint Administrator for your organization, you have a couple of options for managing SharePoint sites and settings:
 
 - **SharePoint admin center**. In the SharePoint admin center, you can create and delete sites, manage site settings, and manage organization-level settings for SharePoint and OneDrive. The <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a> of the SharePoint admin center lets you view the SharePoint sites in your organization, including communication sites, Teams private and shared channel sites, and sites that belong to Microsoft 365 Groups. It also lets you sort and filter sites, search for a site, and create new sites. [Get started with the SharePoint admin center](./get-started-new-admin-center.md).
 
@@ -202,7 +202,7 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
 **Purchase and assign licenses**. SharePoint comes with Microsoft 365 plans and Office 365 plans. It also comes as a standalone plan. For more info about the features available in each plan, see the [SharePoint service description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description). Some security features, such as Azure Information Protection, require an E3 or E5 plan. Cloud App Security, Advanced Threat Protection, Customer Lockbox, Customer Key, eDiscovery (Premium). For info, [see Office 365 platform service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description).
 
-**Assign the SharePoint admin role**. Users assigned this role will have access to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> and can change organization-level SharePoint and OneDrive settings, create and delete sites, and change site owners and other site settings. [Learn more about the SharePoint admin role](./sharepoint-admin-role.md).
+**Assign the SharePoint Administrator role**. Users assigned this role will have access to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> and can change organization-level SharePoint and OneDrive settings, create and delete sites, and change site owners and other site settings. [Learn more about the SharePoint Administrator role](./sharepoint-admin-role.md).
 
 **Estimate and test your network bandwidth**. Before you roll out Microsoft 365 in your organization, make sure that your network is set up for optimum performance. [Network planning and performance tuning](/office365/enterprise/network-planning-and-performance). Before you deploy the sync app, make sure you also [estimate the bandwidth users will need for syncing](/onedrive/network-utilization-planning).
 

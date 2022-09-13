@@ -35,7 +35,7 @@ description: "This article describes how global and SharePoint admins can create
 
 # Create a site
 
-This article describes how global admins and SharePoint admins in Microsoft 365 can create sites (previously called "site collections") in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. For info about creating sites and adding users and groups to them by using Microsoft PowerShell, see [Create SharePoint sites and add users with PowerShell](/microsoft-365/enterprise/create-sharepoint-sites-and-add-users-with-powershell).
+This article describes how Global Administrators and SharePoint Administrators in Microsoft 365 can create sites (previously called "site collections") in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a>. For info about creating sites and adding users and groups to them by using Microsoft PowerShell, see [Create SharePoint sites and add users with PowerShell](/microsoft-365/enterprise/create-sharepoint-sites-and-add-users-with-powershell).
   
 For info about creating site collections in SharePoint Server, see [Create a site collection in SharePoint Server](../SharePointServer/sites/create-a-site-collection.md).
 
@@ -60,8 +60,7 @@ For info about creating site collections in SharePoint Server, see [Create a sit
 4. Follow the steps to specify a site name, owner, language, and other settings. When you're done, select **Finish**.
  
     > [!NOTE]
-    > If you enter a site name and another site already exists at the default address for that name, the site address will automatically be changed to an available address. For example, if you enter "Marketing" as the site name, and you already have a site at /sites/marketing, you will receive a warning ***This site address is available with modification*** and will be offered a new URL automatically at /sites/marketing2. If you want to re-use the URL "marketing" for the new site, you need to [permanently delete the existing site](delete-site-collection.md#permanently-delete-a-site) or [delete the redirect at that address](manage-site-redirects.md). 
-    
+    > If you enter a site name and another site already exists at the default address for that name, the site address will automatically be changed to an available address. For example, if you enter "Marketing" as the site name, and you already have a site at /sites/marketing, you will receive a warning ***This site address is available with modification*** and will be offered a new URL automatically at /sites/marketing2. If you want to re-use the URL "marketing" for the new site, you need to [permanently delete the existing site](delete-site-collection.md#permanently-delete-a-site) or [delete the redirect at that address](manage-site-redirects.md).   
  
 ## Create a classic site
 <a name="__toc323551189_1"> </a>
