@@ -266,9 +266,9 @@ Use this section to troubleshoot if the OneDrive sync reports don't appear after
 
 1. Confirm that the sync app is on the Insiders or Production ring.
 
-Confirm with Command Prompt:
+    Confirm with Command Prompt:
 
-Windows users should open Command Prompt as an administrator, then run the following command:  
+    Windows users should open Command Prompt as an administrator, then run the following command:  
 
     `reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v GPOSetUpdateRing`
 
