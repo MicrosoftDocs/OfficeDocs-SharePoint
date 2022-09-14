@@ -25,7 +25,6 @@ search.appverid:
 - MET150
 ms.assetid: e1b3963c-7c6c-4694-9f2f-fb8005d9ef12
 description: Learn how to proactively monitor OneDrive health, devices, and usage across an organization using the OneDrive sync reports.
-#Customer intent: As an IT administrator, I want to proactively monitor sync health in OneDrive, so that I can mitigate user error while increasing sync consumption across the organization. .
 ---
 
 # OneDrive sync reports in the Apps Admin Center
@@ -121,7 +120,7 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
     - Select **Enabled** and then press **OK**.
 
 > [!IMPORTANT]
-> After you enable the EnableSyncAdminReports setting on devices, it takes up to three days for reports to be available.
+> When you enable the EnableSyncAdminReports setting on devices, it can take up to three days for reports to be available. Devices will appear in the report after this time. Forcing a specific device to report data is unsupported.
 
 # [macOS](#tab/macos)
 
@@ -243,11 +242,19 @@ To learn more about the controls available to you, see [Overview of privacy cont
 
 This section describes known limitations and considerations in sync reporting.
 
-By default, device records are kept in inventory for 30 days, after which they expire from the report.
+**Limitations**
 
-**Known folders:** Devices enabled for Known Folder Move will report as a device with 0-3 known folders. If a device isn't enabled for Known Folder Move, it will report as a device that is **Not applicable** in the **Known Folders** section of the **Overview** tab. In the **Details** tab, a hyphen ("-") will appear in the cell value of the **Known folders** table for devices that aren't applicable devices. This behavior is expected.
+**Device Records:** By default, device records are kept in inventory for 30 days, after which they expire from the report.
 
-**Sync app version:** For devices using the Mac App Store edition of the sync app, the version installed on each device is displayed in the **Details** tab. However, the dashboard doesn't currently track whether or not the edition is the latest version of the sync app available in the Mac App Store. If any devices use this edition, they'll be excluded from the **Sync app version** section of the **Overview** tab and the number of excluded devices is displayed. This is the expected result.
+**Folders in OneDrive:** Devices with folders in OneDrive will appear in reports as a device with 0-3 known folders. If a device has not enabled folders in OneDrive, it will appear in reports as a device that is **Not eligible** in the **Known Folders** section of the **Overview** tab. In the **Details** tab, a hyphen ("-") will appear in the cell value of the **Known folders** table for devices that aren't applicable devices. This behavior is expected.
+
+**Sync app version: Mac App Store edition** For devices using the Mac App Store edition of the sync app, the version installed on each device is displayed in the **Details** tab. The dashboard doesn't currently track whether or not the Mac App Store edition is the latest version of the sync app available in the Mac App Store. If any devices use this edition, they'll be excluded from the **Sync app version** section of the **Overview** tab and the number of excluded devices is displayed. This is the expected result.
+
+**Considerations:**
+
+**Network Impact** *How is my network impacted when my organization enables Sync Reports?*
+
+There is negligible impact to a network after enabling the sync reports setting on devices.
 
 ## Troubleshooting
 

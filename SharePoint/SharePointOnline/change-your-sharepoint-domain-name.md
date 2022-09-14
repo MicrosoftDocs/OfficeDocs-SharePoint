@@ -40,7 +40,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOnwY]
 
 >[!IMPORTANT]
-> This feature is in public preview and currently available to organizations that have no more than 5000 total SharePoint sites and OneDrive accounts combined. If you get error 773 "Not Implemented" when you try to start a domain rename, the feature isn't enabled yet for your organization because we're still rolling it out. Try again later.
+> This feature is in public preview and currently available to organizations that have no more than 10,000 total SharePoint sites and OneDrive accounts combined, which was increased from the earlier limit of 5,000 total sites on August 23rd, 2022. If you get error 773 "Not Implemented" when you try to start a domain rename, the feature isn't enabled yet for your organization because we're still rolling it out. Try again later.
 
 > [!NOTE]
 > - This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses.
@@ -83,7 +83,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 | InfoPath forms | Forms that use a SharePoint connection as a data source won't work. | Reconnect these forms to SharePoint. |
 | Microsoft Forms | Forms that have the option to upload attachments in responses won't work. | Remove the upload button and add it again in the form. |
 | Office apps | While the domain name is being changed, users might experience an error when saving Word, Excel, and PowerPoint documents that are located in a site or OneDrive. | Attempt to save the document again and if necessary change the URL of the save location. |
-| OneDrive | The Quick access links in a OneDrive won't work. | None  |
+| OneDrive | The Quick access links in OneDrive and SharePoint won't work. | None  |
 | Power Automate | Request sign-off flows that use SharePoint as a connection won’t work. | Remove and re-create the Request sign-off flow. |
 | Power Automate | Any flows deployed as solutions with managed layers that use SharePoint as a connection won’t work. | Remove and re-create the flows. |
 | Power BI | Power BI reports using SharePoint connections as a data source won't work. |	Before changing your domain name, download the Power BI reports that are using SharePoint connections as a data source as a .pbix file. After you change the domain name, edit the connections in the Power BI Desktop app and republish the report. <br> Power BI reports that are not created or maintained in the Power BI Desktop app will need to be recreated. |
@@ -109,12 +109,14 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 
 |App/feature  |Limitation  |Action required  |
 |---------|---------|---------|
+| Business Productivity Online Suite (BPOS) sites | If your tenant still has Microsoft Business Productivity Online Suite (BPOS) sites remaining in it, your domain name can't be changed. | No action available. |
 | Deleted sites | Any sites that have been deleted can't be restored after the change. | Before changing your domain name, review the Deleted sites page in the SharePoint admin center and restore any sites that you might want to keep. |
 | Locked sites and OneDrive accounts | Any site or OneDrive that has been locked (the LockState is NoAccess) can't be renamed. | Before changing your domain name, review any sites and OneDrive accounts that have been locked to determine if the lock should be removed. [Lock and unlock sites](manage-lock-status.md)|
 | Multi-Geo configurations | Your SharePoint domain name can't be changed if your organization is currently set up for Microsoft 365 Multi-Geo or was previously set up for it.  | No action available. |
 | Point-in-time restoration | Restoring a site to a previous time before the domain name change isn't possible. | No action available.|
 | Root site replacement | Your [root site](modern-root-site.md) can't be replaced (using either the SharePoint admin center or the PowerShell cmdlet Invoke-SPOSiteSwap) between the time you schedule your domain name change and when it completes. | Replace your root site before you schedule the domain name change or after it completes. |
-| Special and government clouds | If your organization uses pecial clouds or government clouds (GCC, GCC High, DoD, etc.), your domain name can't be changed. | No action available. |
+| SharePoint public sites | If your tenant contains old SharePoint public sites, your SharePoint domain name change will not be allowed.| SharePoint public sites are not supported anymore. Delete the public sites and try again. See [SharePoint Online Public Websites to be discontinued](/sharepoint/troubleshoot/sites/public-websites-be-discontinued)|
+| Special and government clouds | If your organization uses special clouds or government clouds (GCC, GCC High, DoD, etc.), your domain name can't be changed. | No action available. |
 | Vanity domain configurations | If your SharePoint domain is, for example, teams.contoso.com (versus contoso.sharepoint.com), your domain name can't be changed. | No action available. |
 
 ## Step 1: Add the new domain name
@@ -170,7 +172,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
     > 
     > Make sure you review the System Requirements and Install Instructions. The app isn't supported on Mac.
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
    Example: 
 
@@ -194,6 +196,10 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 You can get the status of the rename by running `Get-SPOTenantRenameStatus`. Make sure you open a new PowerShell window to sign in again. The date and time shown with this command is in UTC format. [More info about Get-SPOTenantRenameStatus](/powershell/module/sharepoint-online/get-spotenantrenamestatus)
 
 During and after the rename, you can get the state of a site by running `Get-SPOSiteRenameState`. For more info about this cmdlet, see [Get-SPOSiteRenameState](/powershell/module/sharepoint-online/get-spositerenamestate). 
+
+To verify success of the rename operation, please ensure that you review the status of the rename operation, as well as the count of renamed sites in comparison to total sites. The count of sites that cannot be renamed to the new domain will be shown in the **Attention Required** field. To get more information on these sites, run `Get-SPOSiteRenameState` and pass the RenameJobID listed in the tenant rename status as the ParentOperationID, and the desired status (Success/Failed/Suspended). If you want to export these results to a CSV file, you can use the `Export-Csv` cmdlet.
+
+ `Get-SPOSiteRenameState -ParentOperationID <RenameJobID> -State Failed | Export-Csv -Path <Path>`
 
 To cancel a rename that has not started, you can run `Stop-SPOTenantRename`. [More info about this cmdlet](/powershell/module/sharepoint-online/start-spotenantrename)
 

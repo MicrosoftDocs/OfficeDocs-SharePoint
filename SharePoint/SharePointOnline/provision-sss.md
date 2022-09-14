@@ -23,7 +23,7 @@ description: "Provision the SharePoint Success Site"
 
 # Provision the SharePoint Success Site
 
-Start the SharePoint Success Site provisioning process by understanding the prerequisites. We recommend provisioning the SharePoint Success Site from the Microsoft 365 learning pathways administration page by following the instructions in this article. Global administrator (sometimes called tenant administrator) credentials are required to start the provisioning process for the SharePoint Success Site.
+Start the SharePoint Success Site provisioning process by understanding the prerequisites. We recommend provisioning the SharePoint Success Site from the Microsoft 365 learning pathways administration page by following the instructions in this article. Global Administrator (sometimes called tenant administrator) credentials are required to start the provisioning process for the SharePoint Success Site.
 
 Before getting started, [watch the provisioning instructional video](https://www.youtube.com/watch?v=HZjxBAKVnJs&feature=youtu.be), follow all steps in the process, and make sure you've met the requirements for provisioning.
 
@@ -36,22 +36,22 @@ Before provisioning the SharePoint Success Site, meet the requirements for both 
 
 ### Admin requirements
 
-The **person** doing the provisioning must be a global admin (sometimes called a tenant admin) where the SharePoint Success Site will be provisioned *and must also be* a site admin for the App Catalog.
+The **person** doing the provisioning must be a Global Administrator (sometimes called a tenant admin) where the SharePoint Success Site will be provisioned *and must also be* a site admin for the App Catalog.
 
-|Global admin role|+|Admin of the App Catalog|=|Admin role requirements met|
+|Global Administrator role|+|Admin of the App Catalog|=|Admin role requirements met|
 |:---:|:---:|:---:|:---:|:---:|
 
-**Are you a global administrator?**
+**Are you a Global Administrator?**
 
 - **Yes** -  Next, confirm your tenant has already enabled the App Catalog.
 - **No** -  Partner with your global admin to get the site provisioned. [Learn more about admin roles](/microsoft-365/admin/add-users/about-admin-roles).
 
-If you aren't sure, you can confirm your role by signing in to office.com. If you're a global admin, you'll see an Admin center app icon in the app launcher next to your Microsoft 365 apps.
+If you aren't sure, you can confirm your role by signing in to office.com. If you're a Global Administrator, you'll see an Admin center app icon in the app launcher next to your Microsoft 365 apps.
 
 **Are you a site administrator for the App Catalog?**
 
 - **Yes** - Next, confirm your tenant has Microsoft 365 learning pathways provisioned.
-- **No** - Next, ask your global admin to add you as an [App Catalog administrator](/office365/customlearning/addappadmin).
+- **No** - Next, ask your Global Administrator to add you as an [App Catalog administrator](/office365/customlearning/addappadmin).
 
 #### Tenant requirements
 
@@ -111,7 +111,7 @@ In this step, you upload the Microsoft 365 learning pathways 4.0 web part to the
 **Upload the web part package:**
 
 1. Go to the [GitHub custom learning repository](https://github.com/pnp/custom-learning-office-365/blob/main/installation/customlearning.sppkg), and then download customlearning.sppkg to a local drive on your PC.
-2. If you're not already signed in, sign into your tenant with a Global admin credentials.
+2. If you're not already signed in, sign into your tenant with a Global Administrator credentials.
 3. Select **Admin > Show All > SharePoint > More Features**.
 4. Under **Apps**, select **Open**.
 5. Select **App Catalog > Distribute Apps for SharePoint**.
@@ -125,7 +125,7 @@ In this step, you upload the Microsoft 365 learning pathways 4.0 web part to the
 
 Once you've confirmed the following, you are ready to provision:
 
-- You are signed in as a global admin.
+- You are signed in as a Global Administrator.
 - Your tenant has the App Catalog enabled.
 - You are a site administrator for the App Catalog.
 - Your tenant has version 4.0 or higher of Microsoft 365 learning pathways provisioned.
@@ -136,7 +136,7 @@ We recommend that you install the SharePoint Success Site by using the following
 
 1. Navigate to [office.com](https://www.office.com/) or your organization's sign-in location.
 2. Sign in with your username and password.
-3. Navigate to the location of the site using the URL supplied by your SharePoint administrator or select SharePoint from the Microsoft 365 home page, and then select the **Microsoft 365 learning pathways** site.
+3. Navigate to the location of the site using the URL supplied by your SharePoint Administrator or select SharePoint from the Microsoft 365 home page, and then select the **Microsoft 365 learning pathways** site.
 4. From the learning pathways Home menu, select **Learning Pathways Administration**.
 
     ![Image of the Microsoft 365 learning pathways admin page](media/sss-sss-admin.png)
@@ -197,7 +197,7 @@ Share the URLs for the Microsoft 365 learning pathways administration site and t
 Answer:
 
 - Ensure SharePoint Online is enabled in your environment.
-- The individual that will provision the SharePoint Success Site must be the global admin of the target tenant for install.
+- The individual that will provision the SharePoint Success Site must be the Global Administrator of the target tenant for install.
 - The tenant where the site will be provisioned must have:
   - The App Catalog installed
   - Version 4.0 or higher of [Microsoft 365 learning pathways](/office365/customlearning/#:%7E:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization.) installed
@@ -208,7 +208,7 @@ Answer: Yes, follow the guidance on how to provision from the [look book](./prov
 
 **Question: Who has permission to provision the SharePoint Success Site?**
 
-Answer: A global admin
+Answer: A Global Administrator.
 
 **Question: I have installed the SharePoint Success Site successfully, but I'm not able to get the Success Site content from the Microsoft 365 learning pathways web part loaded on my site. What should I do?**
 
@@ -218,7 +218,7 @@ It is likely that the content pack has not been fully installed. You must return
 
 **Question: Who has permission to customize the site template?**
 
-Answer: The Global admin or a site owner.
+Answer: The Global Administrator or a site owner.
 
 **Question: Who can create custom playlists and hide or show content in Microsoft 365 learning pathways?**
 

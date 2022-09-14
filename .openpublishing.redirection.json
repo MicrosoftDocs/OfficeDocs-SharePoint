@@ -547,7 +547,7 @@
     },
     {
       "source_path": "SharePoint/SharePointOnline/intranet-overview.md",
-      "redirect_url": "SharePoint/SharePointOnline/intranet-team-overview.md",
+      "redirect_url": "/SharePoint/intranet-team-overview",
       "redirect_document_id": false
     },
     {
@@ -664,6 +664,26 @@
       "source_path": "sharepoint/sharepointserver/administration/microsoft-identity-manager-in-sharepoint-server-2016.md",
       "redirect_url": "/sharepoint/administration/microsoft-identity-manager-in-sharepoint-server",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "OneDrive/one-drive-sync.md",
+      "redirect_url": "https://support.microsoft.com/office/615391c4-2bd3-4aae-a42a-858262e42a49",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "sharepoint/sharepointserver/install/new-onedrive-sync-client.md",
+      "redirect_url": "/sharepoint/install/configure-syncing-with-the-onedrive-sync-app",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "OneDrive/One-Drive-Quickstart-Small-Business.md",
+      "redirect_url": "/sharepoint/onedrive-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/plan-onedrive-enterprise.md",
+      "redirect_url": "/sharepoint/plan-for-sharepoint-onedrive",
+      "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointOnline/workplace-communications.md",

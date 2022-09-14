@@ -19,17 +19,19 @@ description: "Learn how to distribute news within your organization."
 
 # Distribute corporate news to your organization
 
-When you have organization-level announcements, CEO messages, philanthropic highlights, quarterly growth reports, or any other important stories that you want to share with your entire organization, you can create an organization news site where “official” or authoritative news can be posted and then distributed to your organization. News can be distributed on the SharePoint start page, on your home site, or on any page of a site where you want the news to be displayed. It’s also tightly integrated into Viva Connections for Teams Desktop and in the Viva Connections Feed where people can engage with corporate news wherever they are. 
+When you have organization-level announcements, CEO messages, philanthropic highlights, quarterly growth reports, or any other important stories that you want to share with your entire organization, you can create an organization news site where “official” or authoritative news can be posted and then distributed to your organization. 
+
+News can be distributed on the SharePoint start page, on your home site, or on any page of a site where you want the news to be displayed. It’s also tightly integrated into Viva Connections for Teams Desktop and in the Viva Connections Feed where people can engage with corporate news wherever they are. 
+
+![Screenshot of an example organizational news posts in SharePoint.](media/org-news-example.png)
 
 When news is distributed from an organization news site, it gets special visual treatment (see the **"NEWS @ CONTOSO"** color block below).
 
-![Image of example organization news posts](media/org-news-example.png)
-
 ## Places news is distributed
 
-News is distributed across SharePoint, Teams, and through Viva Connections.
+News is distributed across SharePoint, Microsoft Teams, and [Viva Connections](/viva/connections/viva-connections-overview).
 
-![image showing where news is distributed](media/news-locations.png)
+![Diagram explaining where SharePoint news is distributed.](media/news-locations.png)
 
 | Location  |Details  |
 |---------|---------|
@@ -40,13 +42,9 @@ News is distributed across SharePoint, Teams, and through Viva Connections.
 |**Viva Connections Dashboard**   |  Add one or more cards that highlight news from the organization or different departments. Decide your audiences and where and when you want to share the news.
 |**Email in Outlook**     |    News digest automatically sent with your branding.   |    
 
->[!NOTE]
-> Viva Connections is in Public preview and will become more widely available to customers this Fall. [Viva Connections](viva-connections-overview.md) is one of four [Microsoft Viva](https://www.microsoft.com/microsoft-viva) modules.  
-
-
 ## Steps to distribute organization news
 
-![image showing steps to distribute organization news](media/org-news-steps.png)
+![Diagram displaying steps to distribute organizational news.](media/org-news-steps.png)
 
 **To distribute news across your organization, follow these steps:**
 
@@ -56,8 +54,8 @@ News is distributed across SharePoint, Teams, and through Viva Connections.
 1. [Add the news web part on your home site or other sites where you want your news to appear](#use-the-news-web-part-to-distribute-news-on-the-sites-you-want), and set options for your news posts, like ordering, audience targeting, and more.
 1. [Boost news for greater discoverability](#boost-news-for-greater-discoverability).
 1. [Send news in email](#send-news-in-email).
-1. [Use Viva Connections to spread news in Teams](#use-viva-connections-for-teams-desktop-to-display-news-in-teams): If you’re using Viva Connections for Teams Desktop, news that you add to your home site will be available in Teams.
-1. [Spread news on the Viva Connections mobile app](#display-news-in-the-viva-connections-teams-mobile-app): Add one or more cards to your dashboard that opens a news story. Additionally, if you have the Feed enabled for your app, news will automatically display there, based on relevance to each user.
+1. [Display SharePoint news in Teams using Viva Connections](#display-sharepoint-news-in-teams-using-viva-connections): If you’re using Viva Connections for Teams Desktop, news that you add to your home site will be available in Teams.
+1. [Create a personalized news stream on in the Teams mobile app](#create-a-personalized-news-stream-on-in-the-teams-mobile-app): Add one or more cards to your dashboard that opens a news story. Additionally, if you have the Feed enabled for your app, news will automatically display there, based on relevance to each user.
 
 ## Decide your audience
 
@@ -67,18 +65,20 @@ You may have different audiences for different messages. Understanding your audi
 
 ## Create an organization news site
 
-SharePoint administrators can specify any number of organization news sites. For multi-geo tenants, organization news sites would have to be set up for each geo location. Each geo location could use the same central organization news site, and/or have its own unique site that shows organization news specific to that region.
+SharePoint Administrators can specify any number of organization news sites. For multi-geo tenants, organization news sites would have to be set up for each geo location. Each geo location could use the same central organization news site, and/or have its own unique site that shows organization news specific to that region.
 
-To enable and specify the site for organization news, a SharePoint administrator must use the latest [SharePoint Online PowerShell commands](/powershell/module/sharepoint-online):
+To enable and specify the site for organization news, a SharePoint Administrator must use the latest [SharePoint Online PowerShell commands](/powershell/module/sharepoint-online):
 
 - [Get-SPOOrgNewsSite](/powershell/module/sharepoint-online/get-spoorgnewssite)
 - [Set-SPOOrgNewsSite](/powershell/module/sharepoint-online/set-spoorgnewssite)
 
 For more information see [Create an organization news site](/sharepoint/organization-news-site).
 
+
+
 ## Create news posts on sites
 
-![image showing a news post](media/news-post.png)
+![Screenshot of a SharePoint news post.](media/news-post.png)
 
 Create news posts on your organization news site. Anyone with permission to create pages on the site can author news posts. A news post is actually a SharePoint modern page with special properties that allow the post to be distributed as news.
 
@@ -86,9 +86,11 @@ To learn how to create a news post, see [Create and share news on your SharePoin
 
 To learn how to turn a page into a news post, see [Change a SharePoint modern page into a news post or create a modern page from a news post](https://support.microsoft.com/office/change-a-sharepoint-modern-page-into-a-news-post-or-create-a-modern-page-from-a-news-post-746884bc-33b4-4132-a3c1-9bf67af6eb7e).
 
+
+
 ## Use the news web part to distribute news on the sites you want
 
-![image showing news web part](media/news-web-part.png)
+![Screenshot of the news web part.](media/news-web-part.png)
 
 SharePoint news will automatically show on SharePoint Start page, and in the Viva Connections feed. If you want news to show on the page of a specific site (like on a home site), add the news web part to that page.
 
@@ -96,9 +98,11 @@ With the news web part, you choose your organization site as the source of your 
 
 To learn how to use the news web part on a SharePoint page, see [Use the News web part on a SharePoint page](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165).
 
+
+
 ## Boost news for greater discoverability
 
-![image showing news boost pane](media/boost-property-pane.png)
+![Screenshot of the news boost tool settings.](media/boost-property-pane.png)
 
 Boost important news and announcements from your organization to prioritize their visibility and to increase readership. Boosted news posts display with a lightning bolt icon. You can order your boosted news to determine which shows first, and you can set an expiration date for the boosting of individual posts.
 
@@ -109,35 +113,50 @@ Boost important news and announcements from your organization to prioritize thei
 
 To learn more boosting news, see [Boost news from organization news sites](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
 
+
+
 ## Send news in email
 
-![image showing an email digest](media/news-digest.png)
+![Screenshot of an email digest in Outlook.](media/news-digest.png)
 
 Many organizations send "newsletters" in email. With auto-news digest, emails are sent automatically to users with stories that are relevant to them that they may not have viewed yet. You can customize these emails with your own branding.
 
-To learn more about the automatic news digest feature, see [Automatically sending news post digests with branding](https://support.microsoft.com/office/automatically-sending-news-post-digests-with-branding-b930b579-0de5-4c67-86f0-de64b87c45e3).
+- To learn more about the automatic news digest feature, see [Automatically sending news post digests with branding](https://support.microsoft.com/office/automatically-sending-news-post-digests-with-branding-b930b579-0de5-4c67-86f0-de64b87c45e3).
+- You can also manually curate a news digest and send it when you want. To learn how, see [Create and send a news digest](https://support.microsoft.com/en-us/office/create-and-send-a-news-digest-42efc3c6-605f-4a9a-85d5-1f9ff46019bf?ui=en-US&rs=en-US&ad=US).
+- To learn about email notification settings, see [SharePoint email notifications](https://support.microsoft.com/office/sharepoint-email-notifications-5bd63d8a-d43e-48cc-82b3-03a7687d5dc4).
 
-You can also manually curate a news digest and send it when you want. To learn how, see [Create and send a news digest](https://support.microsoft.com/en-us/office/create-and-send-a-news-digest-42efc3c6-605f-4a9a-85d5-1f9ff46019bf?ui=en-US&rs=en-US&ad=US).
+## Display SharePoint news in Teams using Viva Connections
 
-To learn about email notification settings, see [SharePoint email notifications](https://support.microsoft.com/office/sharepoint-email-notifications-5bd63d8a-d43e-48cc-82b3-03a7687d5dc4).
+[Viva Connections](/viva/connections/viva-connections-overview) is an employee experience app in Microsoft Teams. Use Viva Connections to engage and empower frontline workers and information workers across your organization. Viva Connections integrates Microsoft 365 apps and tools to create experiences that meet users where they are, keeps them updated on news and announcements, and provides access to resources from a desktop or mobile device.
 
-## Use Viva Connections for Teams Desktop to display news in Teams
+![Screenshot of a news post in Viva Connections on a desktop device.](media/news-in-teams.png)
 
-![image showing news on Viva Connections for Teams Desktop](media/news-in-teams.png)
+When you use Viva Connections for Teams Desktop, your home site in Teams displays news just like it does when viewed in SharePoint. To learn about adding Viva Connections, see [Add Viva Connections for Microsoft Teams desktop](viva-connections-overview.md).
 
-When you use Viva Connections for Teams Desktop, your home site in Teams displays news just like it does when viewed in SharePoint. Coming in fall 2021, you'll be able to use the Viva Connections Feed web part in a Viva Connections Dashboard which will show news post within the feed. The Feed web part can be added to any SharePoint page.
+## Create a personalized news stream on in the Teams mobile app 
 
-To learn about adding Viva Connections, see [Add Viva Connections for Microsoft Teams desktop](viva-connections-overview.md).
+[Viva Connections](/viva/connections/viva-connections-overview) is a customizable app in Microsoft Teams that gives everyone a personalized destination to discover relevant news, conversations, and the tools they need to succeed. In the Viva Connections app, users will see a [personalized Feed](/viva/connections/faqs-viva-connections-feed) with relevant information from across their organization. 
 
-## Display news in the Viva Connections Teams mobile app
+![Screenshot of news posts in the SharePoint Teams app.](media/vc-mobile-feed.png)
 
-![image showing news in mobile app](media/news-in-viva.png)
+The Feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. The Feed can also be incorporated into the home site to create a desktop view by using the [Feed web part](/viva/connections/use-feed-web-part-for-viva-connections). 
 
-Arriving in fall 2021 is the Viva Connections mobile app. In this app, users will see a Feed that is personalized with relevant content for them, including news. The Feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. The Feed requires usage of modern SharePoint, and either SharePoint news or a Yammer community or, for the best experience, both.
+**Ways to influence the order of content in the Feed:**
 
-You can also add one or more cards to your dashboard that opens a news story. 
+1. **Promote important and ‘official’ communications** - [Use News boost](https://support.microsoft.com/office/boost-sharepoint-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to raise the visibility of crucial news posts.
+2. **Highlight Yammer community discussions** - Feature posts in public [Yammer communities](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6) that you’d like seen by the entire organization.
+3. **Publish from official news sources** - Official news sources are news posts published from SharePoint sites that are [official news sites]/sharepoint/organization-news-site). News from these types of sites will be prioritized in the Feed. 
+4. **Use Video news links in SharePoint** - Videos are an engaging way to reach users in your organization. Official organizational news sites have the option to post a [Video news post](/viva/connections/video-news-links) that will take priority over other content in the Feed.
+
+
+
+
 
 
 ### More Resources
 
 [Learn how to plan for your communication scenario](plan-communication-strategy.md)
+
+[Create an official organizational news site in SharePoint](/sharepoint/organization-news-site)
+
+[Overview of Viva Connections](/viva/connections/viva-connections-overview)

@@ -16,7 +16,7 @@ description: "In this article, you'll learn how to install the previous OneDrive
 
 # Install the previous OneDrive sync app
 
-If your organization still uses SharePoint Server 2016 or earlier, users can't use the new OneDrive sync app (OneDrive.exe) to sync files. They need to use the previous OneDrive for Business sync app (Groove.exe). This article helps you install Groove.exe. If your organization uses SharePoint Server 2019, users should use the new OneDrive sync app (OneDrive.exe). [Learn more](/sharepoint/install/new-onedrive-sync-client)
+If your organization still uses SharePoint Server 2016 or earlier, users can't use the new OneDrive sync app (OneDrive.exe) to sync files. They need to use the previous OneDrive for Business sync app (Groove.exe). This article helps you install Groove.exe. If your organization uses SharePoint Server 2019, users should use the new OneDrive sync app (OneDrive.exe). [Learn more](/sharepoint/install/configure-syncing-with-the-onedrive-sync-app)
 
 > [!IMPORTANT]
 > Support for the previous OneDrive for Business sync app (Groove.exe) with Microsoft 365 ended on January 11, 2021. Groove.exe will continue to work for files in SharePoint Server. [Learn how to transition to the new sync app](transition-from-previous-sync-client.md)
@@ -153,7 +153,7 @@ To install the previous OneDrive for Business sync app with Office 2013, follow 
 
 4. Follow the instructions to complete the installation.
 
-5. If you are asked to provide a license key, enter **3V9N8-W93CC-FQPB8-Y9WVF-TVGJ3**.
+5. If you're asked to provide a license key, enter **3V9N8-W93CC-FQPB8-Y9WVF-TVGJ3**.
 
     > [!NOTE]
     > The OneDrive sync app ships together with two components that are not selected for installation by default. We recommend that you do not change these default settings.

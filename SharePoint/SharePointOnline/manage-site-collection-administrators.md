@@ -29,10 +29,10 @@ description: "Learn how global and SharePoint admins can add and remove site adm
 
 # Manage site admins
 
-This article describes how global admins and SharePoint admins in Microsoft 365 can add and remove site admins (previously called "site collection admins"). If you're an owner of a communication site, or a site that belongs to a Microsoft 365 group, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#__BKMKMngSitePermissions) for info about giving people access to your site. If you're an admin for a classic site, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#id0eaabaaa=server). 
+This article describes how Global Administrators and SharePoint Administrators in Microsoft 365 can add and remove site admins (previously called "site collection admins"). If you're an owner of a communication site, or a site that belongs to a Microsoft 365 group, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#__BKMKMngSitePermissions) for info about giving people access to your site. If you're an admin for a classic site, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#id0eaabaaa=server). 
   
 > [!NOTE]
-> If you're a global admin and want info about assigning other users the SharePoint admin role in Microsoft 365, see [Assigning admin permissions](/office365/admin/add-users/assign-admin-roles). 
+> If you're a Global Administrator and want info about assigning other users the SharePoint Administrator role in Microsoft 365, see [Assigning admin permissions](/office365/admin/add-users/assign-admin-roles). 
   
 ## Add or remove site admins in the new SharePoint admin center
 
@@ -41,7 +41,7 @@ By using the new<a href="https://go.microsoft.com/fwlink/?linkid=2185219" target
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
->If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
+> If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
 2. In the left column, select a site.
   
