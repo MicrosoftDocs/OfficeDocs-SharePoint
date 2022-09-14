@@ -63,7 +63,7 @@ This template features content focused on a Hispanic and Latinx employee resourc
 As the site collection admin, you may not be the person customizing the site, so you'll need to assign a few site owners. Owners have administrative privileges on the site so they can modify site pages, content, and branding. 
 
 1. Select **Share** in the right-hand corner of the site. 
-2. Add users, Office 365 Groups, or security groups to give them access to the site. 
+2. Add users, Microsoft 365 Groups, or security groups to give them access to the site. 
 3. Assign users as a Site owner to allow permission to customize the site. 
 4. Include the site URL in the Share message, and then select **Share.** 
 
