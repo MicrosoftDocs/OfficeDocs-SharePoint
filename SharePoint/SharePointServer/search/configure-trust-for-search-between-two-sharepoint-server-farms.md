@@ -59,7 +59,7 @@ In order for SendingFarm to be able to get search results from the search index 
 >-  [Plan browser support](../install/browser-support-planning.md)
 >-  [Accessibility for SharePoint 2013](../accessibility-guidelines.md)
 >-  [Accessibility features in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=246501)
->-  [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
+>-  [Keyboard shortcuts](https://support.microsoft.com/office/keyboard-shortcuts-in-sharepoint-online-466e33ee-613b-4f47-96bb-1c20f20b1015)
 >-  [Touch](/windows/win32/wintouch/windows-touch-gestures-overview)
 
 **To configure ReceivingFarm to trust SendingFarm**

@@ -34,7 +34,7 @@ If you're having issues loading the SharePoint Migration tool, here are a few it
 |:-----|:-----|
 |System architecture| Must be x64|
 |.NET version |Must be 4.6.2 or higher. See [How to determine which versions are installed](/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed)|
-|Microsoft Visual C++ 2015 Redistributable for X64.|SPMT is trying to add all the redistributions in packages, but missing some system dlls. Trying to install the package might help to resolve all the dependencies. Download: [Microsoft Visual C++ 2015 Redistributable Update 3 RC](https://www.microsoft.com/download/details.aspx?id=52685).|
+|Microsoft Visual C++ 2015 Redistributable for X64.|SPMT is trying to add all the redistributions in packages, but missing some system dlls. Trying to install the package might help to resolve all the dependencies. Download: [Microsoft Visual C++ Redistributable latest supported downloads](/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022).|
 |Anti-virus| Stop third party anti-virus software on your computer prior to installation.
 
 

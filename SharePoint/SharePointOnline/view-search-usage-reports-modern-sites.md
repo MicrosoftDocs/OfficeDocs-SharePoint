@@ -24,7 +24,7 @@ ms.custom:
 
 # View search usage reports in modern sites
 
-If you're a SharePoint admin in your organization, you're probably asked questions about search usage, such as:
+If you're a SharePoint Administrator in your organization, you're probably asked questions about search usage, such as:
 
 - What are the top queries on my site per day or per month?
 - How many search queries are users performing on average?

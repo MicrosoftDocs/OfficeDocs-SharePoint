@@ -50,8 +50,9 @@
 #### [Step 1: Configure endpoints and Power Automate](spmt-workflow-step1.md)
 #### [Step 2: Migrate workflows](spmt-workflow-step2.md)
 #### [Step 3: Activate workflows](spmt-workflow-step3.md)
-### [Migrate SharePoint Server workflows using PowerShell](spmt-workflow-powershell.md)
+#### [Migrated workflows](spmt-workflow-migrated-flows.md)
 ## Migration Manager Reference
+### [File size limitations](mm-file-size-limitations.md)
 ### Troubleshooting and errors codes
 #### [Troubleshooting and errors](mm-troubleshoot.md)
 #### [Transaction Error codes](mm-error-codes.md)
@@ -80,6 +81,7 @@
 ### Stream Reference
 #### [Bulk upload Stream souce paths into Migration Manager](mm-stream-csv.md)
 ## SPMT Reference
+### [File size limitations](mm-file-size-limitations.md)
 ###  Settings and prerequisites
 #### [Settings](spmt-settings.md)
 #### [Prerequisites and endpoints](spmt-prerequisites.md)

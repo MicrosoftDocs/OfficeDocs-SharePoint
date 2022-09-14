@@ -25,7 +25,7 @@ description: "Step 2:  Scan and assess Google users using Migration Manager."
 
 After you have connected to Google, add the source paths to scan and assess your Google Drives.
 
-1. Select **Add source paths** and choose a method; to look for new users Google Drives , target a single source path, or bulk upload the source paths using a CSV file.
+1. Select **Add source paths** and choose a method: to look for new users in Google Drives, target a single source path, or bulk upload the source paths using a CSV file.
 
 ![add source paths manually in Google](media/mm-google-add-source-paths.png)
 
@@ -85,7 +85,7 @@ When mapping please ensure that each Service Account has its own unique matching
 
 Asterisk (*) = optional folder
 
-## [**Step 3: Copy to migrations**](mm-Google-step3-copy-to-migrations.md)
+## Go to [**Step 3: Copy to migrations**](mm-Google-step3-copy-to-migrations.md)
 
 > [!NOTE]
 > Migration Manager Google isn't available for users of Office 365 operated by 21Vianet in China.

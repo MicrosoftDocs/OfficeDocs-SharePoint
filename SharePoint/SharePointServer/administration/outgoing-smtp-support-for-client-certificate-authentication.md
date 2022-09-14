@@ -18,7 +18,8 @@ description: "Learn how some SMTP servers may require the use of client certific
  
 # Outgoing SMTP support for client certificate authentication
 
-[!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-xxx-SUB-xxx-md](../includes/appliesto-xxx-xxx-xxx-SUB-xxx-md.md)]
+
 
 Some SMTP servers may require the use of client certificates for authentication before accepting email messages. SharePoint now supports client certificate authentication when sending emails to an SMTP server. The outbound SMTP settings in SharePoint must be configured to use TLS connection encryption and a certificate must be assigned to use this capability. The certificate must be in SharePoint's End Entity certificate store, the certificate's private key must be imported, and the certificate's enhanced key usage extension must specify the certificate is valid for client authentication if that extension is present.
 
