@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 mscollection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 - seo-marvel-mar2020
 search.appverid: MET150
