@@ -398,7 +398,7 @@ Additional variants of RefinableString also exist for specific use cases.
 | 10 | - | Y | - | Y | Y | Y | RefinableStringSingleInternal00 to RefinableStringSingleInternal09 | Not Multi |
 | 30 | - | Y | - | - | Y | Y | RefinableStringSingleInternal10 to RefinableStringSingleInternal39 |  Not Multi, not Retrieve - Note this is the 10-39 range |
 | 50 | - | Y | - | Y | Y | Y | RefinableStringWbOff00 to RefinableStringWbOff49 | Not Multi |
-| 50 | Y | Y | - | Y | Y | Y | RefinableStringWbOffFirst00 to RefinableStringWbOffFirst49 | Mappings to crawled properties - Include content from the first crawled property that is not empty, based on the specified order |
+| 50 | Y | Y | - | Y | Y | Y | RefinableStringWbOffFirst00 to RefinableStringWbOffFirst49 | Mappings to crawled properties - include content from the first crawled property that is not empty, based on the specified order. |
  
 ## Hide documents from Delve
 <a name="BKMK_HideFromDelveSteps"> </a>
