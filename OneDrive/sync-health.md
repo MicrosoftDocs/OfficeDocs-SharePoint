@@ -268,7 +268,9 @@ Confirm with Command Prompt:
 
 Windows users should open Command Prompt as an administrator, then run the following command:  
 
-    `reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v GPOSetUpdateRing`
+    ```
+    reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v GPOSetUpdateRing
+    ```
 
     If the output from the script is **not** `dword:00000000`, your device is on the Insiders or Production ring.
 
