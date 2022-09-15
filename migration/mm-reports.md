@@ -15,6 +15,7 @@ ms.localizationpriority: medium
 mscollection:
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Learn about the reports available when using Migration Manager in Microsoft 365."
 ---
