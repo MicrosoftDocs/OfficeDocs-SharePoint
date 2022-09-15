@@ -104,9 +104,7 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 
     - Run Command Prompt as an administrator, and then run the following command:
 
-       ```
-       reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports /t REG_DWORD /d 1
-       ```
+       `reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports /t REG_DWORD /d 1`
 
     - Use [Group Policy](use-group-policy.md#manage-onedrive-using-group-policy)
 
@@ -270,17 +268,13 @@ Confirm with Command Prompt:
 
 Windows users should open Command Prompt as an administrator, then run the following command:  
 
-    ```
-    reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v GPOSetUpdateRing
-    ```
+    `reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v GPOSetUpdateRing`
 
     If the output from the script is **not** `dword:00000000`, your device is on the Insiders or Production ring.
 
 2. Confirm that the EnableSyncAdminReports setting is applied to the device. Run Command Prompt as an administrator, and then run the following command:
 
-    ```
-    reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports
-    ```
+    `reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports`
 
     The output should look like this:
 
@@ -305,3 +299,4 @@ To get the OneDrive device ID, select the OneDrive sync app in the notification 
 We value your feedback. To submit feature suggestions and report issues, you can use the Feedback button in the top-right corner of the dashboard page.
 
 :::image type="content" source="media/sync-feedback.png" alt-text="Screenshot of Feedback form.":::
+
