@@ -396,7 +396,7 @@ Additional variants of RefinableString also exist for specific use cases.
 | 30 | Y | Y | - | - | Y | Y | RefinableStringInternal00 to RefinableStringInternal29 | Not Retrieve |
 | 10 | Y | Y | - | Y | Y | Y | RefinableStringLn00 to RefinableStringLn09 | TBD |
 | 10 | - | Y | - | Y | Y | Y | RefinableStringSingleInternal00 to RefinableStringSingleInternal09 | Not Multi |
-| 30 | - | Y | - | - | Y | Y | RefinableStringSingleInternal10 to RefinableStringSingleInternal39 |  Not Multi, not Retrieve - Note this is the 10-39 range |
+| 30 | - | Y | - | - | Y | Y | RefinableStringSingleInternal10 to RefinableStringSingleInternal39 |  Not Multi, not Retrieve - note that this is the 10-39 range. |
 | 50 | - | Y | - | Y | Y | Y | RefinableStringWbOff00 to RefinableStringWbOff49 | Not Multi |
 | 50 | Y | Y | - | Y | Y | Y | RefinableStringWbOffFirst00 to RefinableStringWbOffFirst49 | Mappings to crawled properties - include content from the first crawled property that is not empty, based on the specified order. |
  
