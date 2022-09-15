@@ -392,7 +392,7 @@ Additional variants of RefinableString also exist for specific use cases.
 
 | **Count** | **Multi** | **Query** | **Search** | **Retrieve** | **Refine** | **Sort** | **Managed property name range** | **Difference from RefinableStringXX** |
 | :-------- | :- | :- | :- | :- | :- | :- |:------------------------------------------------------- | :--------------------------------------- |
-| 40 | Y | Y | - | Y | Y | Y | RefinableStringFirst00 to RefinableStringFirst39  | Mappings to crawled properties - Include content from the first crawled property that is not empty, based on the specified order |
+| 40 | Y | Y | - | Y | Y | Y | RefinableStringFirst00 to RefinableStringFirst39  | Mappings to crawled properties - include content from the first crawled property that is not empty, based on the specified order. |
 | 30 | Y | Y | - | - | Y | Y | RefinableStringInternal00 to RefinableStringInternal29 | Not Retrieve |
 | 10 | Y | Y | - | Y | Y | Y | RefinableStringLn00 to RefinableStringLn09 | TBD |
 | 10 | - | Y | - | Y | Y | Y | RefinableStringSingleInternal00 to RefinableStringSingleInternal09 | Not Multi |
