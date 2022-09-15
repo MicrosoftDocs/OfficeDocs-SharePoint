@@ -99,8 +99,8 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 | Site customizations and embedded code | Absolute URLs embedded in SharePoint customizations aren't updated. | Edit customizations that contain absolute URLs and if necessary, change the URLs to the new domain name. |
 | Teams on the web and Teams desktop app | The first time someone tries to access the Files tab for a team or private channel, they'll receive an error. The tab will work for all users after that. | None |
 | Teams on the web and Teams desktop app | It can take 72 hours for meeting notes to work (for both current and previous meetings). | None |
-| Teams on the web and Teams desktop app | On the Files tab, any folders added with the "Add cloud storage" (which point to another SharePoint site) won't work.| Remove and readd the folders. |
-| Teams on the web and Teams desktop app | Document libraries added as a tab won't work. | Remove and readd the tab. |
+| Teams on the web and Teams desktop app | On the Files tab, any folders added with the "Add cloud storage" (which point to another SharePoint site) won't work.| Remove and re-add the folders. |
+| Teams on the web and Teams desktop app | Document libraries added as a tab won't work. | Remove and re-add the tab. |
 | Teams on the web and Teams desktop app | Embedded images in Wikis won't be displayed. | Edit the Wiki .mht file located in the SharePoint Site Teams Wiki Data library and if necessary, change the URLs of the embedded images to the new domain name. |
 | Teams on the web and Teams desktop app | Personal Wikis won’t work. | In a one-on-one or group chat, attach and send a file to the chat. |
 | Third-party apps including backup solutions | Absolute URLs embedded in these third-party apps (including backup solutions) aren't changed. | Confirm with third-party app publishers (including backup solutions) that they support tenant renames. |
