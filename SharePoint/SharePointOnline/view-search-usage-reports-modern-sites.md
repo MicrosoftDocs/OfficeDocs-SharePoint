@@ -11,6 +11,7 @@ f1.keywords:
 - CSH
 ms.topic: overview
 ms.service: sharepoint-online
+ms.collection: M365-collaboration
 localization_priority: Normal
 search.appverid:
 - SPO160
