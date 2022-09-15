@@ -97,6 +97,9 @@ Based on our current data, the average speed of migration scales linearly to the
 **Question:**  The date and time in Migration Manager isn't my local time. How can I change the setting to my local time zone? 
 Answer:  Migration Manager uses the time zone setting in the SharePoint Admin center to convert to your time zone. To update the timezone of the SharePoint Admin Center, browse to `https://<your host url>-admin.sharepoint.com/_layouts/15/regionalsetng.aspx` to change the setting.
 
+**Question:**  Can Migration Manager convert GSuite products to Office 365 products?
+Answer:  Yes.  When Migration Manager migrates the data from Google Workspace, the documents are converted to Office 365 format.
+
 **Question:**  What does **% complete** mean?
 Answer:  The % complete indicates the progress of the overall task migration, including the number of files migrated and the preparation work required for the remaining files to be migrated. *Note:* The **%** isn't linearly proportional to the number of files remaining to be migrated.
 
