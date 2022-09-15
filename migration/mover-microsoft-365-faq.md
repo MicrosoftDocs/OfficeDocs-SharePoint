@@ -171,7 +171,7 @@ Permissions are handled in different ways depending on the source/destination co
 
 ## How many user Transfer Rows can I run at once?
 
-At a maximum, only 50 user Transfer Rows can run concurrently. This total includes both scanning and migrating.
+At a maximum, only 50 user Transfer Rows can run simultaneously. This total includes both scanning and migrating.
 
 If you select more than that total combined number and start scanning or migrating, only 50 randomly chosen rows will run. The rest will be in the "Queued Transfer Rows."
 
