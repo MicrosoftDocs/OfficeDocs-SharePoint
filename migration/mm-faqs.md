@@ -117,5 +117,5 @@ Answer: In cloud scenarios, the limit is 15 GB. For file share migrations, a fil
 |SharePoint Server to Microsoft 365 using SPMT|250 GB|
 |File share to Microsoft 365 using SPMT |250 GB|
 
-**Question**:  How many user transfer rows can I run at once?
-Answer:  At a maximum, only 50 user transfer rows can run simultaneously. This total includes both scanning and migrating.
+**Question**:  How many task rows can I run at once when migrating content from a cloud provider?
+Answer:  At a maximum, only 50 task rows can run simultaneously. This total includes both scanning and migrating. This limit does not apply to file share migration.
