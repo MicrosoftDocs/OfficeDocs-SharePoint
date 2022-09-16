@@ -36,12 +36,22 @@ Once have reviewed the accounts, confirmed the destinations, correctly mapped id
 
 ![Select migrate button](media/mm-box-migrate-button.png) 
 
-3.  A confirmation step displays.  Click **Migrate**.  
+3. A confirmation step displays.  Click **Migrate**.  
 
 >[!Note]
 > Starting your migration **does not remove or delete anything from Google Workspace**. Content from your Google account is copied to your specified location in Microsoft 365. Make sure the destinations are correct, as once the migration starts, they cannot be modified.
 
-4.  Once the migration begins, monitor the migration status, and the table summary at the top.  Depending on how large your migration, this step may take hours or days.
+4. Once the migration begins, monitor the migration status, and the table summary at the top.  Depending on how large your migration, this step may take hours or days.
+
+
+## How many user transfer rows can I run at once?
+
+At a maximum, only 50 user transfer rows can run simultaneously. This total includes both scanning and migrating.
+
+If you select more than that total combined number and start scanning or migrating, only 50 randomly chosen rows will run. The rest will be in the "Queued Transfer Rows."
+
+As a transfer row completes, another from the queue will start migrating or scanning automatically.  While 50 concurrent user transfer rows is the maximum allowed, if a migration experiences any slowdowns or back-off requests, it may drop lower than this number to keep the migration stable.
+
 
 
 >[!NOTE]
