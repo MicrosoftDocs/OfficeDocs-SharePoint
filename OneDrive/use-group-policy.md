@@ -240,7 +240,7 @@ If you disable or do not configure this setting, users can choose to limit the u
 
 Enabling this policy sets the following registry key value to 1:
 
-`[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\OneDrive]"EnableAutomaticUploadBandwidthManagement"="dword:00000001"`
+`[HKLM\Software\Policies\Microsoft\OneDrive]"EnableAutomaticUploadBandwidthManagement"="dword:00000001"`
 
 ### Enable sync health reporting for OneDrive
 <a name="EnableSyncAdminReports"> </a>

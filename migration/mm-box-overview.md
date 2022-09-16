@@ -56,6 +56,8 @@ Make sure that you have:
 We support files up to 15 GB in size for Box to Microsoft 365 migrations.
 
 
+
+
 >[!NOTE]
 >Migration Manager Box isn't available for users of Office 365 operated by 21Vianet in China.
 >
