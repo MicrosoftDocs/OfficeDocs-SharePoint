@@ -104,7 +104,9 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 
     - Run Command Prompt as an administrator, and then run the following command:
 
-       `reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports /t REG_DWORD /d 1`
+       ```PowerShell
+        reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports /t REG_DWORD /d 1
+       ```
 
     - Use [Group Policy](use-group-policy.md#manage-onedrive-using-group-policy)
 
@@ -268,7 +270,7 @@ Confirm with Command Prompt:
 
 Windows users should open Command Prompt as an administrator, then run the following command:  
 
-    ```
+    ```PowerShell
     reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v GPOSetUpdateRing
     ```
 
@@ -276,7 +278,9 @@ Windows users should open Command Prompt as an administrator, then run the follo
 
 2. Confirm that the EnableSyncAdminReports setting is applied to the device. Run Command Prompt as an administrator, and then run the following command:
 
-    `reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports`
+    ```PowerShell
+    reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports
+    ```
 
     The output should look like this:
 
