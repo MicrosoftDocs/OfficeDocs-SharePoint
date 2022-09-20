@@ -69,7 +69,7 @@ These resources can help your users learn the basics of SharePoint and OneDrive.
 
 [SharePoint video training](https://support.microsoft.com/office/cb8ef501-84db-4427-ac77-ec2009fb8e23)
 
-[Use OneDrive in Microsoft 365](/learn/paths/m365-onedrive-collaboration/)
+[Use OneDrive in Microsoft 365](/training/paths/m365-onedrive-collaboration/)
 
 ### Collaboration spaces
 
@@ -83,7 +83,7 @@ If you choose to allow your users to create SharePoint sites and other related c
 
 #### Training
 
-[Collaborate with SharePoint in Microsoft 365](/learn/paths/m365-teams-sharepoint/)
+[Collaborate with SharePoint in Microsoft 365](/training/paths/m365-teams-sharepoint/)
 
 ### Sharing
 
@@ -111,4 +111,3 @@ For more information about Viva Learning, see [Overview of Microsoft Viva Learni
 ## Related topics
 
 [Plan for SharePoint and OneDrive in Microsoft 365](plan-for-sharepoint-onedrive.md)
-
