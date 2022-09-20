@@ -49,7 +49,7 @@ The chart below shows the first action in a flow migrated from an out-of-the-box
 
 ### Migrated approval workflow
 
-The approval workflow is migrated is migrated with this structure:
+The approval workflow is migrated with this structure:
 
 :::image type="content" source="media/spmt-approval-workflow-steps.png" alt-text="Approval workflow migrated structure":::
 
