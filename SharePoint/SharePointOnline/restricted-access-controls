@@ -1,0 +1,42 @@
+---
+title: "Restricted Access Control"
+ms.reviewer: 
+manager: serdars
+recommendations: 
+ms.author: mactra
+author: its-mactra
+ms.date: 09/30/2022
+audience: Admin
+f1.keywords:
+- NOCSH 
+ms.topic: conceptual
+ms.service: sharepoint-online
+ms.localizationpriority: 
+ms.collection:  
+search.appverid:
+ms.assetid: TBD
+description: "Enable restricted access control for SharePoint sites through Microsoft 365 Group Membership"
+---
+# Safeguard access to SharePoint sites based on Microsoft 365 Group Membership
+
+Protect SharePoint site content with Restricted Access Control (RAC).
+
+This new SharePoint Advanced Management (SAM) feature enables a label policy that restricts user access to SharePoint sites based on Microsoft 365 group membership.
+
+Modifying user permissions from a Microsoft 365 group perspective reduces the risk of oversharing and safeguards sites containing sensitive information.
+
+The Restricted Access Control policy can be enabled on a tenant level or a site level depending on your needs.
+
+## How to get it
+
+Need to find out how users can get this premium feature. Need to ask about SAM license check.
+
+### How to enable policy on tenant
+
+### How to enable policy on site
+
+## More info/resources
+
+## Pain points
+
+Admins stretched thin having to frequently supervise SharePoint sites, site owners not understanding how group membership works and deleting the owner groups that remove the group's access to the site.  (WHY) --> out of ignorance - need to better inform users of the new Microsoft 365 Groups structure.
