@@ -29,16 +29,10 @@ The Restricted Access Control policy can be enabled on a tenant level or a site 
 
 How to get RAC and SAM: Need to find out how users can get this premium feature. Need to ask about SAM license check.
 
-## How to enable policy on the tenant
+## How to enable policy on the tenant using PowerShell
 
 Policy enablement on tenant: Set-SPOTenant –EnableRestrictedAccessControl $true
 
-## How to enable policy at the site level
+## How to enable policy at the site level PowerShell
 
 Set-SPOSite -Identity <> -RestrictedAccessControl $true
-
-## More info/resources
-
-## Pain points
-
-Admins stretched thin having to frequently supervise SharePoint sites, site owners not understanding how group membership works and deleting the owner groups that remove the group's access to the site.  (WHY) --> out of ignorance - need to better inform users of the new Microsoft 365 Groups structure.
