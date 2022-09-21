@@ -17,6 +17,10 @@ search.appverid:
 - BSA160
 - GSP150
 - MET150
+ms.collection: 
+- tier2
+- m365-security-compliance
+- M365-collaboration
 ---
 
 # Information barriers compliance assistant (preview)
