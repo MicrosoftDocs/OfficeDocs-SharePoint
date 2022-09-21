@@ -27,13 +27,15 @@ Modifying user permissions from a Microsoft 365 group perspective reduces the ri
 
 The Restricted Access Control policy can be enabled on a tenant level or a site level depending on your needs.
 
-## How to get it
+How to get RAC and SAM: Need to find out how users can get this premium feature. Need to ask about SAM license check.
 
-Need to find out how users can get this premium feature. Need to ask about SAM license check.
+## How to enable policy on the tenant
 
-### How to enable policy on tenant
+Policy enablement on tenant: Set-SPOTenant –EnableRestrictedAccessControl $true
 
-### How to enable policy on site
+## How to enable policy at the site level
+
+Set-SPOSite -Identity <> -RestrictedAccessControl $true
 
 ## More info/resources
 
