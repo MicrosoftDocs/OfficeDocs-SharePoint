@@ -25,14 +25,20 @@ This new SharePoint Advanced Management (SAM) feature enables a label policy tha
 
 Modifying user permissions from a Microsoft 365 group perspective reduces the risk of oversharing and safeguards sites containing sensitive information.
 
-The Restricted Access Control policy can be enabled on a tenant level or a site level depending on your needs.
+The Restricted Access Control policy is enabled on a tenant level or a site level depending on your needs. 
 
 How to get RAC and SAM: Need to find out how users can get this premium feature. Need to ask about SAM license check.
 
 ## How to enable policy on the tenant using PowerShell
 
-Policy enablement on tenant: Set-SPOTenant –EnableRestrictedAccessControl $true
+ ```PowerShell
+   Set-SPOTenant –EnableRestrictedAccessControl $true
+    ```
+```
 
 ## How to enable policy at the site level PowerShell
 
-Set-SPOSite -Identity <> -RestrictedAccessControl $true
+ ```PowerShell
+   Set-SPOSite Identity <> -RestrictedAccessControl $true
+    ```
+```
