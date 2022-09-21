@@ -373,49 +373,30 @@ If you need a property of a different type, or one that has different characteri
 <a name="DefaultUnusedMPs"> </a>
 
 The following table provides an overview of the default unused managed properties that you can reuse and rename using an Alias.
-  
-| **Managed property type** | **Count** |           **Managed property characteristics**           |     **Managed property name range**      |
-| :------------------------ | :-------- | :------------------------------------------------------- | :--------------------------------------- |
-| Date                      | 10        | Queryable                                                | Date00 to Date09                         |
-| Date                      | 20        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableDate00 to RefinableDate19       |
-| Date                      |  2        | Queryable, Refinable, Sortable, Retrievable              | RefinableDateInvariant00 to RefinableDateInvariant01 |
-| Date                      |  5        | Queryable, Refinable, Sortable, Retrievable              | RefinableDateSingle00 to RefinableDateSingle04 |
-| Decimal                   | 10        | Queryable                                                | Decimal00 to Decimal09                   |
-| Decimal                   | 10        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableDecimal00 to RefinableDecimal09 |
-| Double                    | 10        | Queryable                                                | Double00 to Double09                     |
-| Double                    | 10        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableDouble00 to RefinableDouble09   |
-| Integer                   | 50        | Queryable                                                | Int00 to Int49                           |
-| Integer                   | 50        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableInt00 to RefinableInt49         |
-| String                    | 200 | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableString00 to RefinableString199  |
-
 
 | **Managed property type** | **Count** | **Multi** | **Query** | **Search** | **Retrieve** | **Refine** | **Sort** | **Managed property name range** | **Notes** |
 | :------------------------ | :-------- | :-------- | :-------- | :--------- | :----------- | :--------- | :------- |:------------------------------------------------------- | :--------------------------------------- |
-| Date                      | 10        |   -   | Query | - |     -    |    -   |   -  | Date00 to Date09                                           | [^3] [^4] |
+| Date                      | 10        |   -   | Query | - |     -    |    -   |   -  | Date00 to Date09                                           | |
 | Date                      | 20        | Multi | Query | - | Retrieve | Refine | Sort | RefinableDate00 to RefinableDate19                         | |
-| Date                      |  2        |   -   | Query | - | Retrieve | Refine | Sort | RefinableDateInvariant00 to RefinableDateInvariant01       | [^1] [^3] [^4] |
-| Date                      |  5        |   -   | Query | - | Retrieve | Refine | Sort | RefinableDateSingle00 to RefinableDateSingle04             | [^3] [^4] |
-| Decimal                   | 10        |   -   | Query | - |     -    |    -   |   -  | Decimal00 to Decimal09                                     | [^3] [^4] |
+| Date                      |  2        |   -   | Query | - | Retrieve | Refine | Sort | RefinableDateInvariant00 to RefinableDateInvariant01       | \* |
+| Date                      |  5        |   -   | Query | - | Retrieve | Refine | Sort | RefinableDateSingle00 to RefinableDateSingle04             | |
+| Decimal                   | 10        |   -   | Query | - |     -    |    -   |   -  | Decimal00 to Decimal09                                     | |
 | Decimal                   | 10        | Multi | Query | - | Retrieve | Refine | Sort | RefinableDecimal00 to RefinableDecimal09                   | |
-| Double                    | 10        |   -   | Query | - |     -    |    -   |   -  | Double00 to Double09                                       | [^3] [^4] |
+| Double                    | 10        |   -   | Query | - |     -    |    -   |   -  | Double00 to Double09                                       | |
 | Double                    | 10        | Multi | Query | - | Retrieve | Refine | Sort | RefinableDouble00 to RefinableDouble09                     | |
-| Integer                   | 50        |   -   | Query | - |     -    |    -   |   -  | Int00 to Int49                                             | [^3] [^4] |
+| Integer                   | 50        |   -   | Query | - |     -    |    -   |   -  | Int00 to Int49                                             | |
 | Integer                   | 50        | Multi | Query | - | Retrieve | Refine | Sort | RefinableInt00 to RefinableInt49                           | |
 | String                    | 200       | Multi | Query | - | Retrieve | Refine | Sort | RefinableString00 to RefinableString199                    | |
-| String                    | 40        | Multi | Query | - | Retrieve | Refine | Sort | RefinableStringFirst00 to RefinableStringFirst39           | [^1] |
-| String                    | 10        | Multi | Query | - | Retrieve | Refine | Sort | RefinableStringLn00 to RefinableStringLn09                 | [^2] |
-| String                    | 50        |   -   | Query | - | Retrieve | Refine | Sort | RefinableStringWbOff00 to RefinableStringWbOff49           | [^3] [^5] |
-| String                    | 50        | Multi | Query | - | Retrieve | Refine | Sort | RefinableStringWbOffFirst00 to RefinableStringWbOffFirst49 | [^1] [^5] |
+| String                    | 40        | Multi | Query | - | Retrieve | Refine | Sort | RefinableStringFirst00 to RefinableStringFirst39           | \* |
+| String                    | 10        | Multi | Query | - | Retrieve | Refine | Sort | RefinableStringLn00 to RefinableStringLn09                 | \*\* |
+| String                    | 50        |   -   | Query | - | Retrieve | Refine | Sort | RefinableStringWbOff00 to RefinableStringWbOff49           | \*\*\* |
+| String                    | 50        | Multi | Query | - | Retrieve | Refine | Sort | RefinableStringWbOffFirst00 to RefinableStringWbOffFirst49 | \*, \*\*\* |
 
-[^1] Mappings to crawled properties - Include content from the first crawled property that is not empty, based on the specified order.
+\* Mappings to crawled properties - Include content from the first crawled property that is not empty, based on the specified order.
 
-[^2] Language neutral word breaker
+\*\* Language neutral word breaker
 
-[^3] No multi-values
-
-[^4] Query only
-
-[^5] Complete Matching
+\*\*\* Complete Matching
 
 ## Hide documents from Delve
 
