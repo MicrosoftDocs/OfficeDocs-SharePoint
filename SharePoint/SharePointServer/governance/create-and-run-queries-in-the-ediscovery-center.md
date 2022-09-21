@@ -1,9 +1,10 @@
 ---
 title: "Create and run queries in the eDiscovery Center"
+description: "Once you have defined your sources, and placed them on hold if necessary, you can run queries to narrow down and extract exactly the content you need for a particular case."
 ms.reviewer: 
 ms.author: robmazz
 author: robmazz
-manager: serdars
+manager: laurawi
 ms.date: 2/12/2018
 audience: ITPro
 f1.keywords:
@@ -11,9 +12,11 @@ f1.keywords:
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
-ms.collection: IT_Sharepoint_Server
-ms.assetid: 77fdaae5-ded4-45c2-98ef-52c88cceead8
-description: "Once you have defined your sources, and placed them on hold if necessary, you can run queries to narrow down and extract exactly the content you need for a particular case."
+ms.collection:
+- tier1
+- M365-security-compliance
+- M365-collaboration
+- ediscovery
 ---
 
 # Create and run queries in the eDiscovery Center
