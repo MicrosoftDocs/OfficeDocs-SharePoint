@@ -23,18 +23,18 @@ Protect SharePoint site content with Restricted Access Control (RAC).
 
 Restricted Access Control is a new feature from the SharePoint Advanced Management (SAM) add-on that provides premium features to assist IT administrators in overseeing site management policies, data access governance, and collaboration insights.
 
-Modifying user permissions from a group perspective reduces the risk of oversharing and safeguards sites containing sensitive information.
+Changing user permissions from a group perspective reduces the risk of oversharing and safeguards sites containing sensitive information.
 
 The Restricted Access Control policy can be enabled on a tenant level or a site level depending on your needs using PowerShell.
 
-Enabling the Restricted Access Control feature enforces a label policy and provides newly-added flags to allow users access to only SharePoint sites based on Microsoft 365 group membership.
+Enabling the Restricted Access Control feature enforces a label policy and provides newly-added flags to let users access to only SharePoint sites based on Microsoft 365 group membership.
 
 ## How to enable policy on the tenant using PowerShell
 
 Run the following command:
 
 ```PowerShell
-    Set-SPOTenant –EnableRestrictedAccessControl $true
+    Set-SPOTenant -EnableRestrictedAccessControl $true
 ```
 
 ## How to enable policy at the site level PowerShell
@@ -42,5 +42,5 @@ Run the following command:
 Run the following command:
 
 ```PowerShell
-    Set-SPOSite Identity <> -RestrictedAccessControl $true
+    Set-SPOSite -Identity <> -RestrictedAccessControl $true
 ```
