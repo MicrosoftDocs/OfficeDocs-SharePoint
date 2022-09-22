@@ -17,17 +17,18 @@ search.appverid:
 ms.assetid: TBD
 description: "Enable restricted access control for SharePoint sites through Microsoft 365 Group Membership"
 ---
-# Safeguard access to SharePoint sites based on Microsoft 365 Group Membership
+# Restrict access to SharePoint sites based on Microsoft 365 Group Membership
 
 Protect SharePoint site content with Restricted Access Control (RAC).
 
-Restricted Access Control is a new feature from the SharePoint Advanced Management (SAM) add-on that provides premium features to assist IT administrators in overseeing site management policies, data access governance, and collaboration insights.
+Restricted Access Control is a new feature from the SharePoint Advanced Management (SAM) add-on that provides premium features to assist IT administrator
+ with overseeing site management policies, data access governance, and collaboration insights.
 
-Changing user permissions from a group perspective reduces the risk of oversharing and safeguards sites containing sensitive information.
+Changing user permissions from a group perspective reduces the risk of oversharing and protects sites containing sensitive information.
 
-The Restricted Access Control policy can be enabled on a tenant level or a site level depending on your needs using PowerShell.
+Enabling the Restricted Access Control feature enforces a label policy and provides newly-added flags, and grants access to members of the Microsoft 365 group associated with the site.
 
-Enabling the Restricted Access Control feature enforces a label policy and provides newly-added flags to let users access to only SharePoint sites based on Microsoft 365 group membership.
+The Restricted Access Control policy can be enabled at the tenant-level or a site-level with PowerShell depending on your needs.
 
 ## How to enable policy on the tenant using PowerShell
 
@@ -37,7 +38,7 @@ Run the following command:
     Set-SPOTenant -EnableRestrictedAccessControl $true
 ```
 
-## How to enable policy at the site level PowerShell
+## How to enable policy at the site level using PowerShell
 
 Run the following command:
 
