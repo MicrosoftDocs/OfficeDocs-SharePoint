@@ -45,14 +45,26 @@ As a Global Administrator or SharePoint Administrator in Microsoft 365, you can 
 
     ![Site creation settings in the new SharePoint admin center](media/site-creation.png)
 
-3. If you want users to be able to create sites from these services, select **Show the options to create a site in SharePoint and create a shared library from OneDrive**.
+3. If you want users to be able to create sites from these services using the UX, perform the following subtasks: 
+    1. Ensure that the **Users can create SharePoint sites** checkbox is checked (This option enables you create sites programmatically. For more information on this option, see the next step).
+    
+       > [!NOTE]
+       > The **Users can create SharePoint sites** checkbox is checked by default.
+       > 
+       > Even to create sites using UX, you must ensure that the **Users can create SharePoint sites** checkbox is checked because unless this checkbox is checked,  the **Show the options to create a site in SharePoint and create a shared library from OneDrive** checkbox won't be enabled for you to check, to create sites using SharePoint and OneDrive.
 
-    > [!NOTE]
-    > Even if you clear this check box, users may be able to create Microsoft 365 groups from other places in Microsoft 365. Each group always comes with a team site. [Learn how to manage who can create Microsoft 365 groups](/office365/admin/create-groups/manage-creation-of-groups)
+    1. Check the **Show the options to create a site in SharePoint and create a shared library from OneDrive** checkbox. This option enables you create sites using the UX.
+    
+       > [!NOTE]
+       > Even if you clear this check box, users may be able to create Microsoft 365 groups from other places in Microsoft 365. Each group always comes with a team site. [Learn how to manage who can create Microsoft 365 groups](/office365/admin/create-groups/manage-creation-of-groups)
 
-4. Under /sites or /teams, select to create Microsoft 365 group-connected team sites, and then select the default time zone and storage limit for new sites.
+       :::image type="content" source="media/site-creation-page.png" alt-text="The screenshot that shows the Site creation page.":::
+    
+4. If you want to only create the sites programmatically, ensure that only the **Users can create SharePoint sites** checkbox is checked.
+ 
+5. Under /sites or /teams, select to create Microsoft 365 group-connected team sites, and then select the default time zone and storage limit for new sites.
 
-5. Select **Save**.
+6. Select **Save**.
 
 ## Manage detailed site and subsite creation settings in the classic SharePoint admin center
 
