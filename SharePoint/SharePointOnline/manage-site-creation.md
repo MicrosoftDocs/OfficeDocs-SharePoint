@@ -46,14 +46,14 @@ As a Global Administrator or SharePoint Administrator in Microsoft 365, you can 
     ![Site creation settings in the new SharePoint admin center](media/site-creation.png)
 
 3. If you want users to be able to create sites from these services using the UX, perform the following subtasks: 
-    1. Ensure that the **Users can create SharePoint sites** checkbox is checked (This option enables you create sites programmatically. For more information on this option, see the next step).
+    1. Ensure that the **Users can create SharePoint sites** checkbox is checked (This option enables you to create sites programmatically. For more information on this option, see the next step).
     
        > [!NOTE]
        > The **Users can create SharePoint sites** checkbox is checked by default.
        > 
        > Even to create sites using UX, you must ensure that the **Users can create SharePoint sites** checkbox is checked because unless this checkbox is checked,  the **Show the options to create a site in SharePoint and create a shared library from OneDrive** checkbox won't be enabled for you to check, to create sites using SharePoint and OneDrive.
 
-    1. Check the **Show the options to create a site in SharePoint and create a shared library from OneDrive** checkbox. This option enables you create sites using the UX.
+    1. Check the **Show the options to create a site in SharePoint and create a shared library from OneDrive** checkbox. This option enables you to create sites using the UX.
     
        > [!NOTE]
        > Even if you clear this check box, users may be able to create Microsoft 365 groups from other places in Microsoft 365. Each group always comes with a team site. [Learn how to manage who can create Microsoft 365 groups](/office365/admin/create-groups/manage-creation-of-groups)
@@ -68,7 +68,7 @@ As a Global Administrator or SharePoint Administrator in Microsoft 365, you can 
 
 ## Manage detailed site and subsite creation settings in the classic SharePoint admin center
 
-Admins in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> can choose to either enable or disable subsite creation across sites or enable for classic sites only. When disabling subsite creation, not only will the subsite option be hidden from the command bar including classic but also users will not be able to create new subsites directly through a URL or API.  
+Admins in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> can choose to either enable or disable subsite creation across sites or enable for classic sites only. When subsite creation is being disabled, not only will the subsite option be hidden from the command bar including classic, but also the users won't be able to create new subsites directly through a URL or API.  
 
 > [!NOTE]
 > For info about classifying Microsoft 365 groups, see [Manage Microsoft 365 Groups with PowerShell](/office365/enterprise/manage-office-365-groups-with-powershell).
@@ -79,11 +79,11 @@ Admins in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="
 
     ![Site creation settings in the classic SharePoint admin center](media/admin-site-creation.png)
 
-   - If you choose **Disable subsite creation for all sites** it will also hide the subsite creation command (including classic) and disable users from being able to create new subsites through a URL or API. 
-   - If you choose **Enable subsite creation for classic sites only** users will be able to create new subsites for classic sites. 
-   - If you choose **Enable subsite creation for all sites** users will be able to create new subsites from any SharePoint site. 
+   - If you choose **Disable subsite creation for all sites**, it will also hide the subsite creation command (including classic) and disable users from being able to create new subsites through a URL or API. 
+   - If you choose **Enable subsite creation for classic sites only**, users will be able to create new subsites for classic sites. 
+   - If you choose **Enable subsite creation for all sites**, users will be able to create new subsites from any SharePoint site. 
 
-3. Select **OK** when you are done.
+3. Select **OK** when you're done.
 
 > [!NOTE]
 > Currently, the following site templates are considered "modern".
