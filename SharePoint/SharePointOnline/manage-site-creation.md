@@ -46,14 +46,14 @@ As a Global Administrator or SharePoint Administrator in Microsoft 365, you can 
    :::image type="content" source="media/site-creation-page.png" alt-text="The screenshot that shows the Site creation page.":::
 
 3. Create sites from these services using the UX by performing the following subtasks: 
-    1. Ensure that the **Users can create SharePoint sites** checkbox is checked (This option enables you to create sites programmatically.).
+    1. Ensure that the **Users can create SharePoint sites** checkbox is checked (You must use this option if you want to create sites programmatically. However, even to create sites using the UX, this option being enabled is a prerequisite.).
     
        > [!NOTE]
        > The **Users can create SharePoint sites** checkbox is checked by default.
        > 
-       > Even to create sites using UX, you must ensure that the **Users can create SharePoint sites** checkbox is checked because unless this checkbox is checked,  the **Show the options to create a site in SharePoint and create a shared library from OneDrive** checkbox won't be enabled for you to check, to create sites using SharePoint and OneDrive.
+       > Only if this checkbox is checked,  the **Show the options to create a site in SharePoint and create a shared library from OneDrive**  option will be enabled for you to check its checkbox.
 
-    1. Check the **Show the options to create a site in SharePoint and create a shared library from OneDrive** checkbox. This option enables you to create sites using the UX.
+    1. Check the **Show the options to create a site in SharePoint and create a shared library from OneDrive** checkbox.
     
        > [!NOTE]
        > Even if you clear this check box, users may be able to create Microsoft 365 groups from other places in Microsoft 365. Each group always comes with a team site. [Learn how to manage who can create Microsoft 365 groups](/office365/admin/create-groups/manage-creation-of-groups)
