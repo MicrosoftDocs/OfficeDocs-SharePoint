@@ -45,7 +45,7 @@ As a Global Administrator or SharePoint Administrator in Microsoft 365, you can 
     
    :::image type="content" source="media/site-creation-page.png" alt-text="The screenshot that shows the Site creation page.":::
 
-3. If you want users to be able to create sites from these services using the UX, perform the following subtasks: 
+3. Create sites from these services using the UX by performing the following subtasks: 
     1. Ensure that the **Users can create SharePoint sites** checkbox is checked (This option enables you to create sites programmatically.).
     
        > [!NOTE]
@@ -59,7 +59,7 @@ As a Global Administrator or SharePoint Administrator in Microsoft 365, you can 
        > Even if you clear this check box, users may be able to create Microsoft 365 groups from other places in Microsoft 365. Each group always comes with a team site. [Learn how to manage who can create Microsoft 365 groups](/office365/admin/create-groups/manage-creation-of-groups)
     
 4. If you want to only create the sites programmatically, ensure that only the **Users can create SharePoint sites** checkbox is checked.
- 
+
 5. Under /sites or /teams, select to create Microsoft 365 group-connected team sites, and then select the default time zone and storage limit for new sites.
 
 6. Select **Save**.
