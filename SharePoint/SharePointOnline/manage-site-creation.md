@@ -46,7 +46,7 @@ As a Global Administrator or SharePoint Administrator in Microsoft 365, you can 
     ![Site creation settings in the new SharePoint admin center](media/site-creation.png)
 
 3. If you want users to be able to create sites from these services using the UX, perform the following subtasks: 
-    1. Ensure that the **Users can create SharePoint sites** checkbox is checked (This option enables you to create sites programmatically. For more information on this option, see the next step).
+    1. Ensure that the **Users can create SharePoint sites** checkbox is checked (This option enables you to create sites programmatically.).
     
        > [!NOTE]
        > The **Users can create SharePoint sites** checkbox is checked by default.
