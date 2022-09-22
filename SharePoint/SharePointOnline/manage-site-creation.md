@@ -41,9 +41,9 @@ As a Global Administrator or SharePoint Administrator in Microsoft 365, you can 
    > [!NOTE]
    > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
     
-2. Select **Site creation**.
-
-    ![Site creation settings in the new SharePoint admin center](media/site-creation.png)
+2. Select **Site creation**. The **Site creation** page appears.
+    
+   :::image type="content" source="media/site-creation-page.png" alt-text="The screenshot that shows the Site creation page.":::
 
 3. If you want users to be able to create sites from these services using the UX, perform the following subtasks: 
     1. Ensure that the **Users can create SharePoint sites** checkbox is checked (This option enables you to create sites programmatically.).
@@ -57,8 +57,6 @@ As a Global Administrator or SharePoint Administrator in Microsoft 365, you can 
     
        > [!NOTE]
        > Even if you clear this check box, users may be able to create Microsoft 365 groups from other places in Microsoft 365. Each group always comes with a team site. [Learn how to manage who can create Microsoft 365 groups](/office365/admin/create-groups/manage-creation-of-groups)
-
-       :::image type="content" source="media/site-creation-page.png" alt-text="The screenshot that shows the Site creation page.":::
     
 4. If you want to only create the sites programmatically, ensure that only the **Users can create SharePoint sites** checkbox is checked.
  
