@@ -17,6 +17,7 @@ ms.collection:
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+- highpri
 search.appverid: MET150
 description: Review your destination paths for your Google migration while using Migration Manager.
 ---
