@@ -19,11 +19,15 @@ description: "Enable restricted access control for SharePoint sites through Micr
 ---
 # Restricted Site Access for SharePoint sites
 
-Restricted Site Access lets you allow only users in specified Microsoft 365 group to access a SharePoint site. Even if other users outside of the Microsoft 365 group have received sharing links for the site or its content, they won’t have access to the content unless they are members of the Microsoft 365 group connected to the site
+Use Restricted Site Access to let only users in a specified Microsoft 365 group to access a SharePoint site. This setting enforces a label policy and provides newly-added flags to reduce the risk of oversharing sites throughout your organization. Even if other users outside of the Microsoft 365 group have received sharing links for the site or its content, they won’t have access to the content unless they are members of the Microsoft 365 group connected to the site.
 
-Changing user permissions from a group perspective reduces the risk of oversharing and protects sites containing sensitive information.
+Two important things to keep in mind are:
 
-Enabling the Restricted Access Control feature enforces a label policy and provides newly-added flags, and grants access to members of the Microsoft 365 group associated with the site.
+1. To use this feature, your organization must first have the following subscription:
+
+- SharePoint Advanced Management
+
+2. Restricted Site Access can only be applied to SharePoint sites connected to Microsoft 365 groups.
 
 The Restricted Access Control policy can be enabled at the tenant-level or a site-level with PowerShell depending on your needs.
 
