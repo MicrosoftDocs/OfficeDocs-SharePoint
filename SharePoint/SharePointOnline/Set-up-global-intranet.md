@@ -15,6 +15,7 @@ ms.collection:
 - Strat_SP_admin
 - m365solution-spintranet
 - m365solution-scenario
+- highpri
 ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
