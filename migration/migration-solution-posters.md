@@ -16,6 +16,7 @@ ms.collection:
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+- highpri
 search.appverid: MET150
 description: Series of illustrations and posters showing the Content Migration solutions into Microsoft 365.
 ---

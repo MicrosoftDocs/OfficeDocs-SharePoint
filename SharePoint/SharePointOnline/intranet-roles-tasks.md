@@ -14,6 +14,7 @@ description: "Introduction to roles, tasks, and timelines when deploying a Share
 ms.collection:
   - m365solution-spintranet
   - m365solution-scenario
+  - highpri
 ---
 
 # Introduction to roles, tasks, and timelines
