@@ -49,4 +49,5 @@ SharePoint Administrators or Global Administrators can enable restricted access 
 
 4. After you've enabled restricted access control for SharePoint in your organization, wait for approximately 1 hour before managing restricted access control for a specific Microsoft 365 group connected site.
 
- Note: If you have Microsoft 365 Multi-Geo, you must run this command for each of your geo-locations.
+> [!NOTE]
+> If you have Microsoft 365 Multi-Geo, you must run this command for each of your geo-locations.
