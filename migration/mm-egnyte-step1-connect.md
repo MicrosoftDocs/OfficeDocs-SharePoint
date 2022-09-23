@@ -17,6 +17,7 @@ ms.collection:
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+- highpri
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
 ROBOTS: NOINDEX
