@@ -17,12 +17,9 @@ search.appverid:
 ms.assetid: TBD
 description: "Enable restricted access control for SharePoint sites through Microsoft 365 Group Membership"
 ---
-# Restrict access to SharePoint sites based on Microsoft 365 Group Membership
+# Restricted Site Access for SharePoint sites
 
-Protect SharePoint site content with Restricted Access Control (RAC).
-
-Restricted Access Control is a new feature from the SharePoint Advanced Management (SAM) add-on that provides premium features to assist IT administrator
- with overseeing site management policies, data access governance, and collaboration insights.
+Restricted Site Access lets you allow only users in specified Microsoft 365 group to access a SharePoint site. Even if other users outside of the Microsoft 365 group have received sharing links for the site or its content, they won’t have access to the content unless they are members of the Microsoft 365 group connected to the site
 
 Changing user permissions from a group perspective reduces the risk of oversharing and protects sites containing sensitive information.
 
