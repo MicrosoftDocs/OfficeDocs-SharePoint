@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection: 
   - m365solution-overview
   - m365solution-corpcomms
+  - highpri
 description: "Learn about planning and managing Organizational communications for your organization"
 ---
 
