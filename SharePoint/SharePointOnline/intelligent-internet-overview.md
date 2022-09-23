@@ -15,6 +15,7 @@ ms.collection:
 - m365solution-spintranet
 - Strat_SP_modern
 - M365-collaboration
+- highpri
 ms.custom:
 - seo-marvel-may2020
 search.appverid:

@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection:
   - m365solution-corpcomms
   - m365solution-scenario
+  - highpri
 description: "Use Microsoft 365 to connect leaders and teams"
 ---
 
