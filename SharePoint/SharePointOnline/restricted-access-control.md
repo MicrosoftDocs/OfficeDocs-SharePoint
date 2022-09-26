@@ -37,9 +37,9 @@ The Restricted Access Control policy can be enabled at the tenant-level or a sit
 
 SharePoint Administrators or Global Administrators can enable restricted access control feature in your organization by following these steps:
 
-1. Download and install the latest version of SharePoint Online Management Shell.
+1. [Download](https://go.microsoft.com/fwlink/p/?LinkId=255251) and install the latest version of SharePoint Online Management Shell.
 
-2. Connect to SharePoint Online as a Global Administrator or SharePoint Administrator in Microsoft 365. To learn how, see Getting started with SharePoint Online Management Shell.
+2. Connect to SharePoint Online as a Global Administrator or [SharePoint Administrator](sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](https://learn.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. To enable restricted access control in SharePoint, run the following command:
 
@@ -51,3 +51,42 @@ SharePoint Administrators or Global Administrators can enable restricted access 
 
 > [!NOTE]
 > If you have Microsoft 365 Multi-Geo, you must run this command for each of your geo-locations.
+
+## View and manage restricted access for site
+
+SharePoint Administrators or Global Administrators can view and manage restricted access control on a Microsoft 365 group connected site as follows:
+
+1. Connect to SharePoint Online as a Global Administrator or [SharePoint Administrator](sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](https://learn.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+
+2. To apply restricted access control on a Microsoft 365 group connected site, run the following command:
+
+    ```PowerShell
+    Set-SPOSite -siteurl<> -RestrictedAccessControl $true
+    ```
+
+    **For example:**
+
+    ```powershell
+    Set-SPOSite -Identity https://contoso.sharepoint.com/sites/ResearchTeamSite -RestrictedAccessControl $true
+    ```
+
+> [!NOTE]
+> Users who aren't members of the Microsoft 365 group connected to the site will see an error message. Users who previously had access to site or its content but currently are not members of the Microsoft 365 group, will lose access to the site and see an error message.
+
+3. To view restricted access control   for a site, run the following command:
+
+    ```Powershell
+    Get-SPOSite –Identity <siteurl> |   Select RestrictedAccessControl
+    ```
+
+4. To remove restricted access from a Microsoft 365 group connected site, run the following command:
+
+    ```Powershell
+    Set-SPOSite –Identify <siteurl>  -RestrictedAccessControl $false
+    ```
+
+    **For example:**
+
+    ```Powershell
+    Set-SPOSite -Identity https://contoso.sharepoint.com/sites/ResearchTeamSite-RestrictedAccessControl $false
+    ```
