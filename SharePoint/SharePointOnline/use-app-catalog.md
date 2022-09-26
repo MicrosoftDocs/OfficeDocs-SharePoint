@@ -37,23 +37,25 @@ For information about your options for developing custom apps for SharePoint, se
 
 When you add an app from the SharePoint Store to the Apps site, you make it available for site owners to add from the My apps page. 
 
-1. On the Manage apps page, select **SharePoint Store** in the left pane.
+1. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** page</a> in the SharePoint admin center and select **Open** under **Apps**.
 
-2. Search for an app or select a category on the left to scroll through available apps.
+2. On the Manage apps page, select **SharePoint Store** in the left pane.
 
-3. Select an app you want to add. In some cases, adding the app might be supported in the SharePoint Store classic experience only.
+3. Search for an app or select a category on the left to scroll through available apps.
 
-4. Select **Add**.
+4. Select an app you want to add. In some cases, adding the app might be supported in the SharePoint Store classic experience only.
+
+5. Select **Add**.
 
     :::image type="content" alt-text="Deploy a SharePoint Framework app from the store." source="media/deployspfxappfromstore.gif" lightbox="media/deployspfxappfromstore.gif":::
 
-5. Review app permissions and data access.
+6. Review app permissions and data access.
 
-6. Some apps have the option to be added to all sites in the organization so that site owners don't have to. If you want to do this, select **Add this app to all sites**. 
+7. Some apps have the option to be added to all sites in the organization so that site owners don't have to. If you want to do this, select **Add this app to all sites**. 
 
-7. Select **Add**.
+8. Select **Add**.
 
-8. If the app requires additional permissions, a message will appear. Select **Go to API access page** to approve the permission request.
+9. If the app requires additional permissions, a message will appear. Select **Go to API access page** to approve the permission request.
 
 ## Add custom apps
 <a name="__add_custom_apps"> </a>
