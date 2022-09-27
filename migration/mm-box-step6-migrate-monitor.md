@@ -17,6 +17,7 @@ ms.collection:
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+- highpri
 search.appverid: MET150
 description: "Step 6: Migrate and monitor Box migration"
 ---

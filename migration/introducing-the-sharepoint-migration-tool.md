@@ -18,6 +18,7 @@ ms.collection:
 - M365-collaboration
 - m365initiative-migratetom365
 - m365solution-scenario
+- highpri
 ms.custom:
 - seo-marvel-apr2020
 description: "Overview of the SharePoint Migration Tool and resources for download and support."
