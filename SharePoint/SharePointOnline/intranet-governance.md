@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 - m365solution-spintranet
 - m365solution-scenario
+- highpri
 ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
