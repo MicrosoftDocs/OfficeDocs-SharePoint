@@ -52,7 +52,7 @@ SharePoint Administrators or Global Administrators can enable restricted access 
     > [!NOTE]
     > If you have Microsoft 365 Multi-Geo, you must run this command for each of your geo-locations.
 
-## View and manage restricted access for site
+## View and manage restricted access control for site
 
 SharePoint Administrators or Global Administrators can view and manage restricted access control on a Microsoft 365 group connected site as follows:
 
@@ -79,7 +79,7 @@ SharePoint Administrators or Global Administrators can view and manage restricte
     Get-SPOSite –Identity <siteurl> | Select RestrictedAccessControl
     ```
 
-4. To remove restricted access from a Microsoft 365 group connected site, run the following command:
+4. To remove restricted access control from a Microsoft 365 group connected site, run the following command:
 
     ```Powershell
     Set-SPOSite –Identify <siteurl> -RestrictedAccessControl $false
