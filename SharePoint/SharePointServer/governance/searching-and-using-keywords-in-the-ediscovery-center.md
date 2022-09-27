@@ -17,7 +17,7 @@ ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.collection:
 - tier1
-- M365-security-compliance
+- purview-compliance
 - M365-collaboration
 - ediscovery
 ---
