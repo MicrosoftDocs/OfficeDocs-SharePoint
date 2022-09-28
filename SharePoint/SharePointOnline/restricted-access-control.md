@@ -35,7 +35,7 @@ You can enable Restricted Access Control feature in your organization at the org
 
 To enable Restricted Access Control in SharePoint, run the following command:
 
-```PowerShell
+```Powershell
 Set-SPOTenant -EnableRestrictedAccessControl $true
 ```
 
