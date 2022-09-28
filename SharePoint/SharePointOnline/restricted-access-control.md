@@ -60,7 +60,7 @@ Enable Restricted Access Control on a Microsoft 365 group connected site by runn
 
 ## View Restricted Access Control for site
 
-To view restricted access control configuration for a site, run the following command:
+To view Restricted Access Control configuration for a site, run the following command:
 
 ```Powershell
     Get-SPOSite –Identity <siteurl> | Select RestrictedAccessControl
@@ -68,7 +68,7 @@ To view restricted access control configuration for a site, run the following co
 
 ## Remove Restricted Access Control for site
 
-To remove restricted access control from a Microsoft 365 group connected site, run the following command:
+To remove Restricted Access Control from a Microsoft 365 group connected site, run the following command:
 
 ```Powershell
     Set-SPOSite –Identify <siteurl> -RestrictedAccessControl $false
