@@ -55,7 +55,7 @@ For all site types except channel sites, you can add or remove site admins and c
 
 4. Click **Manage** for the permissions that you want to update.
 
-5. Add or remove people or change their role, and then click **Save**.
+5. Add or remove people or change their role, and then select **Save**.
     
 ## Change a site's hub association
 <a name="hubsite"> </a>
