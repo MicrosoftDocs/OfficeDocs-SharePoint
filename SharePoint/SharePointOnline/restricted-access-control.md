@@ -48,14 +48,24 @@ After you've enabled Restricted Access Control for SharePoint in your organizati
 
 Enable Restricted Access Control on a Microsoft 365 group connected site by running the following command:
 
+<<<<<<< Updated upstream
 ```PowerShell
     Set-SPOSite -siteurl<> -RestrictedAccessControl $true
+=======
+```Powershell
+Set-SPOSite -siteurl<> -RestrictedAccessControl $true
+>>>>>>> Stashed changes
 ```
 
 **For example:**
 
+<<<<<<< Updated upstream
 ```powershell
     Set-SPOSite -Identity https://contoso.sharepoint.com/sites/ResearchTeamSite -RestrictedAccessControl $true
+=======
+```Powershell
+Set-SPOSite -Identity https://contoso.sharepoint.com/sites/ResearchTeamSite -RestrictedAccessControl $true
+>>>>>>> Stashed changes
 ```
 
 ## View Restricted Access Control for site
@@ -63,7 +73,11 @@ Enable Restricted Access Control on a Microsoft 365 group connected site by runn
 To view Restricted Access Control configuration for a site, run the following command:
 
 ```Powershell
+<<<<<<< Updated upstream
     Get-SPOSite –Identity <siteurl> | Select RestrictedAccessControl
+=======
+Get-SPOSite –Identity <siteurl> | Select RestrictedAccessControl
+>>>>>>> Stashed changes
 ```
 
 ## Remove Restricted Access Control for site
@@ -71,11 +85,19 @@ To view Restricted Access Control configuration for a site, run the following co
 To remove Restricted Access Control from a Microsoft 365 group connected site, run the following command:
 
 ```Powershell
+<<<<<<< Updated upstream
     Set-SPOSite –Identify <siteurl> -RestrictedAccessControl $false
+=======
+Set-SPOSite –Identify <siteurl> -RestrictedAccessControl $false
+>>>>>>> Stashed changes
 ```
 
 **For example:**
 
 ```Powershell
+<<<<<<< Updated upstream
     Set-SPOSite -Identity https://contoso.sharepoint.com/sites/ResearchTeamSite-RestrictedAccessControl $false
+=======
+Set-SPOSite -Identity https://contoso.sharepoint.com/sites/ResearchTeamSite-RestrictedAccessControl $false
+>>>>>>> Stashed changes
 ```
