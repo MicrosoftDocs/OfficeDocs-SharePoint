@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 ms.collection: 
 - tier2
-- m365-security-compliance
+- purview-compliance
 - M365-collaboration
 ---
 

@@ -13,7 +13,7 @@ ms.service: one-drive
 ms.localizationpriority: medium
 ms.collection: 
 - tier2
-- m365-security-compliance
+- purview-compliance
 - M365-collaboration
 ms.custom: onedrive-toc
 search.appverid:
