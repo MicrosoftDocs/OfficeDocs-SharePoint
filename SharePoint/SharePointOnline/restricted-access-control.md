@@ -36,7 +36,7 @@ You can enable Restricted Access Control feature in your organization at the org
 To enable Restricted Access Control in SharePoint, run the following command:
 
 ```PowerShell
-    Set-SPOTenant -EnableRestrictedAccessControl $true
+Set-SPOTenant -EnableRestrictedAccessControl $true
 ```
 
 After you've enabled Restricted Access Control for SharePoint in your organization, wait for approximately 1 hour before managing restricted site access for a specific Microsoft 365 group connected site.
@@ -48,24 +48,14 @@ After you've enabled Restricted Access Control for SharePoint in your organizati
 
 Enable Restricted Access Control on a Microsoft 365 group connected site by running the following command:
 
-<<<<<<< Updated upstream
-```PowerShell
-    Set-SPOSite -siteurl<> -RestrictedAccessControl $true
-=======
 ```Powershell
 Set-SPOSite -siteurl<> -RestrictedAccessControl $true
->>>>>>> Stashed changes
 ```
 
 **For example:**
 
-<<<<<<< Updated upstream
-```powershell
-    Set-SPOSite -Identity https://contoso.sharepoint.com/sites/ResearchTeamSite -RestrictedAccessControl $true
-=======
 ```Powershell
 Set-SPOSite -Identity https://contoso.sharepoint.com/sites/ResearchTeamSite -RestrictedAccessControl $true
->>>>>>> Stashed changes
 ```
 
 ## View Restricted Access Control for site
@@ -73,11 +63,7 @@ Set-SPOSite -Identity https://contoso.sharepoint.com/sites/ResearchTeamSite -Res
 To view Restricted Access Control configuration for a site, run the following command:
 
 ```Powershell
-<<<<<<< Updated upstream
-    Get-SPOSite –Identity <siteurl> | Select RestrictedAccessControl
-=======
 Get-SPOSite –Identity <siteurl> | Select RestrictedAccessControl
->>>>>>> Stashed changes
 ```
 
 ## Remove Restricted Access Control for site
@@ -85,19 +71,11 @@ Get-SPOSite –Identity <siteurl> | Select RestrictedAccessControl
 To remove Restricted Access Control from a Microsoft 365 group connected site, run the following command:
 
 ```Powershell
-<<<<<<< Updated upstream
-    Set-SPOSite –Identify <siteurl> -RestrictedAccessControl $false
-=======
 Set-SPOSite –Identify <siteurl> -RestrictedAccessControl $false
->>>>>>> Stashed changes
 ```
 
 **For example:**
 
 ```Powershell
-<<<<<<< Updated upstream
-    Set-SPOSite -Identity https://contoso.sharepoint.com/sites/ResearchTeamSite-RestrictedAccessControl $false
-=======
 Set-SPOSite -Identity https://contoso.sharepoint.com/sites/ResearchTeamSite-RestrictedAccessControl $false
->>>>>>> Stashed changes
 ```
