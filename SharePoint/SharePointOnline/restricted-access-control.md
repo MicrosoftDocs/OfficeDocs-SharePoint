@@ -44,9 +44,7 @@ After you've enabled Restricted Access Control for SharePoint in your organizati
 > [!NOTE]
 > If you have Microsoft 365 Multi-Geo, you must run this command for each of your geo-locations.
 
-## Enable Restricted Access Control for SharePoint site 
-
-## View and manage restricted access control for site
+## Enable Restricted Access Control for SharePoint site
 
 Enable Restricted Access Control on a Microsoft 365 group connected site by running the following command:
 
