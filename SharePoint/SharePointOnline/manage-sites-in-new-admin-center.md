@@ -53,7 +53,7 @@ For all site types except channel sites, you can add or remove site admins and c
     
 3. Select **Permissions**. 
 
-4. Click **Manage** for the permissions that you want to update.
+4. Select **Manage** for the permissions that you want to update.
 
 5. Add or remove people or change their role, and then select **Save**.
     
