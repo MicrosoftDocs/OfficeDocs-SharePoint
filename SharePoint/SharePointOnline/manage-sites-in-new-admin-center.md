@@ -60,7 +60,7 @@ For all site types except channel sites, you can add or remove site admins and c
 ## Change a site's hub association
 <a name="hubsite"> </a>
   
-1. In the SharePoint admin center, select Sites > Active sites or browse to <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>.
+1. In the SharePoint admin center, select **Sites** > **Active sites** or browse to the <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a>.
 
 2. In the left column, select a site. 
     
