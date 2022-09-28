@@ -37,7 +37,7 @@ For information about your options for developing custom apps for SharePoint, se
 
 When you add an app from the SharePoint Store to the Apps site, you make it available for site owners to add from the My apps page. 
 
-1. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185077" target="_blank">**More features** page</a> in the SharePoint admin center and select **Open** under **Apps**.
+1. Go to the [More features](https://go.microsoft.com/fwlink/?linkid=2185077) page in the SharePoint admin center and select **Open** under **Apps**.
 
 2. On the Manage apps page, select **SharePoint Store** in the left pane.
 
