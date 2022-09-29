@@ -52,9 +52,7 @@ Set-SPOSite -Identity,> -RestrictedAccessControl $true
 
 **For example:**
 
-```Powershell
-Set-SPOSite -Identity https://contoso.sharepoint.com/sites/ResearchTeamSite -RestrictedAccessControl $true
-```
+Set-SPOSite -Identity <https://contoso.sharepoint.com/sites/ResearchTeamSite> -RestrictedAccessControl $true
 
 ## View Restricted Access Control for site
 
@@ -74,6 +72,4 @@ Set-SPOSite –Identify <siteurl> -RestrictedAccessControl $false
 
 **For example:**
 
-```Powershell
-Set-SPOSite -Identity https://contoso.sharepoint.com/sites/ResearchTeamSite-RestrictedAccessControl $false
-```
+Set-SPOSite -Identity <https://contoso.sharepoint.com/sites/ResearchTeamSite-RestrictedAccessControl> $false
