@@ -19,7 +19,7 @@ description: "Enable Restricted Access Control for SharePoint sites through Micr
 ---
 # Restricted Access Control for SharePoint sites
 
-![](/media/yes.png) **Uses SharePoint Advanced Management**
+![](media/yes.png) **Uses SharePoint Advanced Management**
 
 With the Restricted Access Control policy, you can restrict the access of a SharePoint site and its content only to the members of Microsoft 365 group connected to the site. Users who are not added in the Microsoft 365 group, even if they previously had site access permissions will lose access.
 
