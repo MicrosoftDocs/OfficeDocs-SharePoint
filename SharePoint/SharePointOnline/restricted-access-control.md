@@ -25,13 +25,11 @@ With the Restricted Access Control policy, you can restrict the access of a Shar
 
 As a [SharePoint Administrator](sharepoint-admin-role.md), Restricted Access Control allows you to reduce the oversharing of SharePoint site content within your organization.
 
-For example, a SharePoint site for the Research team has content which should only be accessed by the Research group users. No user outside of the research group should be able to access any content on this site. Even if users outside of the Microsoft 365 group received sharing links for the site or its content, they won’t have access to the content unless they are members of the Microsoft 365 group connected to the site.
+For example, your research department decides content from a SharePoint site should only be accessed by users within the research Microsoft 365 group. They also want to prevent users outside of the Microsoft 365 group from receiving links for the site or its content. By enabling Restricted Access Control to connect a SharePoint site to a Microsoft 365 group, users who are not in the research Microsoft 365 group won’t have access to the content. 
 
-By enabling Restricted Access Control in [PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=255251), site access is guaranteed only to the members of the Microsoft 365 group members of the SharePoint site.
+[PowerShell](https://learn.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) is required to enable Restricted Access Control. 
 
 ## Enable Restricted Access Control for your organization
-
-You can enable Restricted Access Control feature in your organization at the organization-level and site-level by following these steps:
 
 To enable Restricted Access Control in SharePoint, run the following command:
 
@@ -46,10 +44,10 @@ After you've enabled Restricted Access Control for SharePoint in your organizati
 
 ## Enable Restricted Access Control for SharePoint site
 
-Enable Restricted Access Control on a Microsoft 365 group connected site by running the following command:
+Enable Restricted Access Control on a Microsoft 365 group connected site or team-site by running the following command:
 
 ```Powershell
-Set-SPOSite -siteurl<> -RestrictedAccessControl $true
+Set-SPOSite -Identity,> -RestrictedAccessControl $true
 ```
 
 **For example:**
