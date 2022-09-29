@@ -12,6 +12,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - m365solution-corpcomms
+  - highpri
 description: "Learn how to determine your audience profile"
 ---
 

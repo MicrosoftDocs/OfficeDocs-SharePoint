@@ -16,6 +16,7 @@ ms.collection:
 - m365solution-spintranet
 - m365solution-scenario
 - M365-collaboration
+- highpri
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
