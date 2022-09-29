@@ -27,7 +27,7 @@ As a [SharePoint Administrator](sharepoint-admin-role.md), Restricted Access Con
 
 For example, your research department decides content from a SharePoint site should only be accessed by users within the research Microsoft 365 group. They also want to prevent users outside of the Microsoft 365 group from receiving links for the site or its content. By enabling Restricted Access Control to connect a SharePoint site to a Microsoft 365 group, users who are not in the research Microsoft 365 group won’t have access to the content. 
 
-[PowerShell](https://learn.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) is required to enable Restricted Access Control. 
+[PowerShell](https://learn.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) is required to enable Restricted Access Control. 
 
 ## Enable Restricted Access Control for your organization
 
