@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 - m365solution-scenario
 - m365solution-spintranet
+- highpri
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO

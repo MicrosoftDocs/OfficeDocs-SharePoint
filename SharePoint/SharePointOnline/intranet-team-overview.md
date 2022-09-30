@@ -14,6 +14,7 @@ description: "Learn about planning and deploying a SharePoint intranet."
 ms.collection: 
   - m365solution-spintranet
   - m365solution-scenario
+  - highpri
 ---
 
 # Intelligent intranet introduction and roadmap

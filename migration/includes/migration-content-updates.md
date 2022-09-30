@@ -2,6 +2,18 @@
 
 
 
+## Week of September 12, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/13/2022 | [Mover Microsoft 365 Migration FAQ](/SharepointMigration/mover-microsoft-365-faq) | modified |
+| 9/15/2022 | [Step 6: Migrate and monitor Box migration](/SharepointMigration/mm-box-step6-migrate-monitor) | modified |
+| 9/15/2022 | [Step 6: Migrate and monitor Dropbox migration](/SharepointMigration/mm-dropbox-step6-migrate-monitor) | modified |
+| 9/15/2022 | [Step 6: Migrate and monitor Egnyte migration](/SharepointMigration/mm-egnyte-step6-migrate-monitor) | modified |
+| 9/15/2022 | [Step 6: Migrate and monitor Google migration](/SharepointMigration/mm-google-step6-migrate-monitor) | modified |
+
+
 ## Week of August 22, 2022
 
 
@@ -21,21 +33,3 @@
 | 8/15/2022 | [Troubleshooting Migration Manager](/SharepointMigration/mm-troubleshoot) | modified |
 | 8/16/2022 | [Migration Manager FAQs](/SharepointMigration/mm-faqs) | modified |
 | 8/17/2022 | [File size limitations when migrating files to Microsoft 365](/SharepointMigration/mm-file-size-limitations) | added |
-
-
-## Week of August 08, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 8/11/2022 | [Migration Manager Google FAQs](/SharepointMigration/mm-faqs-google) | modified |
-
-
-## Week of August 01, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 8/1/2022 | [Migrated Flow structure when using SPMT](/SharepointMigration/spmt-worfklow-migrated-flows) | added |
-| 8/1/2022 | [Migrate SharePoint workflows with the SharePoint Migration Tool (SPMT) to Power Automate](/SharepointMigration/spmt-workflow-overview) | modified |
-| 8/1/2022 | [Step 2: Migrate SharePoint Server workflows with SPMT](/SharepointMigration/spmt-workflow-step2) | modified |
