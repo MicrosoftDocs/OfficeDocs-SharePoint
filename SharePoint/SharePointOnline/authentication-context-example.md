@@ -21,6 +21,8 @@ description: "Learn about how to use Azure Active Directory conditional access a
 
 # Manage site access based on sensitivity label
 
+[!INCLUDE[Advanced Management](includes/advanced-management.md)]
+
 With [Azure Active Directory authentication context (preview)](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#configure-authentication-contexts), you can enforce more stringent access conditions when users access SharePoint sites that have a sensitivity label applied. 
 
 Authentication contexts are used with sensitivity labels to connect [Azure AD conditional access policies](/azure/active-directory/conditional-access/overview) to labeled sites.
