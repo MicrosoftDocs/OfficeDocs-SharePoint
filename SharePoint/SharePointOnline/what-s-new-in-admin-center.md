@@ -9,6 +9,7 @@ audience: Admin
 f1.keywords:
 - CSH
 ms.topic: reference
+ROBOTS: NOINDEX
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection: Strat_SP_admin

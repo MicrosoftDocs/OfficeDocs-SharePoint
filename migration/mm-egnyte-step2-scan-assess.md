@@ -17,6 +17,7 @@ ms.collection:
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+- highpri
 search.appverid: MET150
 ROBOTS: NOINDEX
 description: "Step 2:  Scan and assess Egnyte folders using Migration Manager."

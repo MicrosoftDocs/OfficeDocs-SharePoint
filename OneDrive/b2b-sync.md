@@ -226,7 +226,7 @@ foreach ($row in $csv)
 }
 
 # for more information please see
-# https://docs.microsoft.com/azure/active-directory/b2b/b2b-tutorial-bulk-invite
+# https://learn.microsoft.com/azure/active-directory/b2b/b2b-tutorial-bulk-invite
 # end of InviteGuests.ps1 powershell script
 ```
 

@@ -17,6 +17,7 @@ ms.collection:
 - M365-collaboration
 - enabler-strategic
 - m365initiative-spsites
+- highpri
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
