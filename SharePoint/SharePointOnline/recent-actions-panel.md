@@ -19,8 +19,15 @@ description: "Monitor your changes in Recent Actions Panel in SharePoint Admin C
 ---
 # Recent Actions Panel in SharePoint Admin Center
 
-![](media/yes.png) **Requires SharePoint Advanced Management**
+![green check mark](media/yes.png) **Requires SharePoint Advanced Management**
 
-Keep track of changes you make to your organization’s SharePoint sites with Recent Actions Panel. You can find the Recent Actions Panel in SharePoint Admin Center (link) which shows the last 30 actions made by you within 30 days.
+Keep track of changes you make to SharePoint sites with the Recent Actions Panel from the [SharePoint Admin Center](https://review.learn.microsoft.com/sharepoint/get-started-new-admin-center).
 
-Recent Actions Panel highlights changes made to site properties like site name, site URL, storage quota, and site sharing settings. However, changes to tenant-level settings are not shown in Recent Actions Panel.
+Recent Actions Panel monitors changes made to site properties like site name, site URL, storage quota, site deletions, and site sharing settings. However, changes to tenant-level settings are not shown in Recent Actions Panel.
+
+To access the panel, select a Sharepoint site in Active Sites, and then select Recent Actions. The panel will then display the last 30 actions made by you within 30 days which can then be exported as a .csv. 
+
+> [!NOTE]
+> Bulk site changes will show as 1 change in the Recent Actions Panel. The exported .csv file will separate the bulk changes into line items.
+
+Use the Searching and getting back to a SharePoint site you're working on is much easier with
