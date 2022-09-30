@@ -28,6 +28,6 @@ Recent Actions Panel monitors changes made to site properties like site name, si
 To access the panel, select a Sharepoint site in Active Sites, and then select Recent Actions. The panel will then display the last 30 actions made by you within 30 days which can then be exported as a .csv. 
 
 > [!NOTE]
-> Bulk site changes will show as 1 change in the Recent Actions Panel. The exported .csv file will separate the bulk changes into line items.
+> Bulk site changes will show as 1 change in the Recent Actions Panel. The exported .csv file will separate the bulk changes into line items. For example, if you delete 4 sites at the same time, it will show as one item on the Recent Actions Panel.
 
 Use the Searching and getting back to a SharePoint site you're working on is much easier with
