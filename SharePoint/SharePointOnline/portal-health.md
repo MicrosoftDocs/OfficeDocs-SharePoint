@@ -28,7 +28,7 @@ Typically portals have relatively few people who create and author the site and 
 > Are you wanting to host a live event or town hall?  Here are the options we recommend:
 > - [Learn about Microsoft Teams live events](/microsoftteams/teams-live-events/what-are-teams-live-events)
 > - [Learn about hosting events with Yammer](/yammer/manage-yammer-groups/yammer-live-events)
- 
+> - Link directly to the live event you are streaming (**not** through your portal)
 
 ## What type of site should I use as my portal?
 
