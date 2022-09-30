@@ -22,7 +22,13 @@ description: "Create and launch a healthy SharePoint portal to ensure a performa
 
 A **portal** is a Microsoft SharePoint site on your intranet with many site viewers who consume the content. In large organizations, you could have several, such as a company portal and an HR portal. 
 
-Typically portals have relatively few people who create and author the site and its content. Most visitors to the portal only read and consume the content.
+Typically portals have relatively few people who create and author the site and its content. Most visitors to the portal only read and consume the content. We don't recommend using SharePoint portals to host a town hall or live event.
+
+>[!Tip]
+> Are you wanting to host a live event or town hall?  Here are the options we recommend:
+> - [Learn about Microsoft Teams live events](/microsoftteams/teams-live-events/what-are-teams-live-events)
+> - [Learn about hosting events with Yammer](/yammer/manage-yammer-groups/yammer-live-events)
+ 
 
 ## What type of site should I use as my portal?
 
