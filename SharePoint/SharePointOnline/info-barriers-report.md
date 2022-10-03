@@ -17,6 +17,10 @@ search.appverid:
 - BSA160
 - GSP150
 - MET150
+ms.collection: 
+- tier2
+- purview-compliance
+- M365-collaboration
 ---
 
 # Create an information barriers policy compliance report

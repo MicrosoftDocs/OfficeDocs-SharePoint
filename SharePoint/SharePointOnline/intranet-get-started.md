@@ -14,6 +14,7 @@ description: "Get started planning, building, and launching your intranet"
 ms.collection: 
   - m365solution-spintranet
   - m365solution-scenario
+  - highpri
 ---
 
 # Get started creating your intelligent intranet

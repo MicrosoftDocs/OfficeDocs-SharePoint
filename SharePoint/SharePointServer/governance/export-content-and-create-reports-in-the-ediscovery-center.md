@@ -1,9 +1,10 @@
 ---
 title: "Export content and create reports in the eDiscovery Center"
+description: "You export content from a case when you are ready to deliver it to an authority or want to work on it with another legal program. You can also create reports to identify the contents of and any search indexing issues with the export. The export includes a load file based on the Electronic Discovery Reference Model standard."
 ms.reviewer: 
-ms.author: v-tophillips
-author: v-tophillips
-manager: serdars
+ms.author: robmazz
+author: robmazz
+manager: laurawi
 ms.date: 2/12/2018
 audience: ITPro
 f1.keywords:
@@ -11,9 +12,11 @@ f1.keywords:
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.localizationpriority: medium
-ms.collection: IT_Sharepoint_Server
-ms.assetid: 7b2ea190-5f9b-4876-86e5-4440354c381a
-description: "You export content from a case when you are ready to deliver it to an authority or want to work on it with another legal program. You can also create reports to identify the contents of and any search indexing issues with the export. The export includes a load file based on the Electronic Discovery Reference Model standard."
+ms.collection:
+- tier1
+- purview-compliance
+- M365-collaboration
+- ediscovery
 ---
 
 # Export content and create reports in the eDiscovery Center
