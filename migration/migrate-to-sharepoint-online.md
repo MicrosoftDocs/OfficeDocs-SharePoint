@@ -18,6 +18,7 @@ msCollection:
 - M365-collaboration
 - m365solution-migratetom365
 - m365solution-overview
+- m365initiative-migratetom365
 ms.custom:
 - seo-marvel-apr2020
 - intro-overview
