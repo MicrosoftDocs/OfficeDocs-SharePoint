@@ -52,7 +52,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 ## January 2022
 
 - **Add source path fix**. Previously, when doing a file share migration, the "Add source Path" button wasn't active on the Scan page, even if the agent was installed and connected. Fixed.
-- **Tag support - cloud migrations**.  A new tag feature lets you to sort, organize, and navigate through a large quantity of sources and users. Available for cloud migrations only.
+- **Tag support - cloud migrations**.  A new tag feature lets you sort, organize, and navigate through a large quantity of sources and users. Available for cloud migrations only.
 
 
 ## November 2021
