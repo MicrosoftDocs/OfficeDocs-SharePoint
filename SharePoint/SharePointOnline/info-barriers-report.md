@@ -11,7 +11,6 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-ms.collection: M365-collaboration
 ms.localizationpriority: medium
 search.appverid:
 - SPO160
