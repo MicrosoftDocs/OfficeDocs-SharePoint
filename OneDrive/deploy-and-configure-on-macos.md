@@ -510,6 +510,10 @@ The example for this setting in the .plist file is:
 <string>(UpdateRing)</string>
 ```
 
+> [!NOTE]
+> If you want to hide the option "Get pre-release Microsoft internal updates to display", you will need to opt into the Deferred update ring.
+> For example, `default write com.microsoft.OneDrive Tier -string "Deferred"`.                                                                      
+
 ### UploadBandwidthLimited
 
 <a name="UploadBandwidthLimited"> </a>
