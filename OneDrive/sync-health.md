@@ -48,7 +48,7 @@ Before getting started, be sure that you're familiar with the requirements neede
 
 - Devices in your organization should allow connections to `https://clients.config.office.net`.
 
->[!NOTE]
+> [!NOTE]
 > This feature isn’t available to customers who have the following plans: Office 365 operated by 21Vianet, Office 365 GCC, or Office 365 GCC High and DoD.
 
 ## Set up the OneDrive sync health dashboard
@@ -59,20 +59,20 @@ In this section, you'll learn how to set up sync reports on Windows and macOS de
 
 This tab provides how-to steps for enabling sync reports on Windows devices.
 
->[!NOTE]
+> [!NOTE]
 > The previous Group Policy HKLM\SOFTWARE\Policies\Microsoft\OneDrive\SyncAdminReports is still supported and will continue to be supported for 60 days after General Availability is announced. We recommend that admins deploy the GPO now, to ensure a smooth transition at that time.
 
 1. Ensure you have the required role and app versions listed in the [previous section](#requirements).
 
 2. Go to [Microsoft 365 Apps admin center](https://config.office.com) and sign in as a global admin or Office apps admin.
 
-3. From the left navigation menu, select **Health** > **OneDrive Sync**
+3. From the left navigation menu, select **Health** > **OneDrive Sync**.
 
 4. Select **Enable preview features** to accept the license terms.
 
     :::image type="content" source="media/enable-preview.png" alt-text="Screenshot of enable preview features button.":::
 
-5. In the left navigation menu, select **Settings**
+5. In the left navigation menu, select **Settings**.
 
 6. Verify that a **Tenant Association Key** is present in the text field. If the field is empty, select **Generate new key**.
 
@@ -108,11 +108,11 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
         reg.exe add HKLM\Software\Policies\Microsoft\OneDrive /v EnableSyncAdminReports /t REG_DWORD /d 1
        ```
 
-    - Use [Group Policy](use-group-policy.md#manage-onedrive-using-group-policy)
+    - Use [Group Policy](use-group-policy.md#manage-onedrive-using-group-policy).
 
     To apply the setting on a single PC, follow these steps:
 
-    - Open Group Policy Editor (gpedit.exe)
+    - Open Group Policy Editor (gpedit.exe).
 
     - Go to Computer Configuration\Administrative Templates\OneDrive.
 
@@ -131,7 +131,7 @@ This tab provides how-to steps for enabling sync reports on macOS devices.
 
 2. Go to the [Microsoft 365 Apps admin center](https://config.office.com) and sign in as a global admin or Office apps admin.
 
-3. From the left navigation menu, select **Health** > **OneDrive Sync**
+3. From the left navigation menu, select **Health** > **OneDrive Sync**.
 
 4. Select **Enable preview features** to accept the license terms.
 
