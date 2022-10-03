@@ -274,7 +274,7 @@ Windows users should open Command Prompt as an administrator, then run the follo
     reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v GPOSetUpdateRing
     ```
 
-    If the output from the script is **not** `dword:00000000`, your device is on the Insiders or Production ring.
+If the output from the script is **not** `dword:00000000`, your device is on the Insiders or Production ring.
 
 2. Confirm that the EnableSyncAdminReports setting is applied to the device. Run Command Prompt as an administrator, and then run the following command:
 
