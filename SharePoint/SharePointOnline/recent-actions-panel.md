@@ -21,11 +21,11 @@ description: "Monitor your changes in Recent Actions panel in SharePoint admin c
 
 ![green check mark](media/yes.png) **Requires SharePoint Advanced Management**
 
-Track changes and make quick edits to your SharePoint site property settings with Recent Actions Panel in [SharePoint admin center](https://review.learn.microsoft.com/sharepoint/get-started-new-admin-center). 
+Track changes and make quick edits to your SharePoint site property settings with Recent Actions Panel in [SharePoint admin center](https://review.learn.microsoft.com/sharepoint/get-started-new-admin-center).
 
 Recent Actions Panel lets you review the top 30 actions you made in SharePoint admin center in the last 30 days. Site property changes like site name, site creation and deletion, site URL, sharing settings, and storage quota are listed as actions in the panel. Note that changes made to tenant-level settings, and changes made by other admins are not shown in your Recent Actions Panel.
 
-You can use Recent Actions Panel to conduct audits since it provides you with a list of actions made by yourself as a SharePoint admin. It also acts as the first step for investigations and resolving SharePoint site helpdesk tickets. 
+You can use Recent Actions Panel to conduct audits since it provides you with a list of actions made by yourself as a SharePoint admin. It also acts as the first step for investigations and resolving SharePoint site helpdesk tickets.
 
 ## View recent actions of a site
 
