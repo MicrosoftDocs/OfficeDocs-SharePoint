@@ -2,6 +2,19 @@
 
 
 
+## Week of September 12, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/12/2022 | [Video demo of Zero Downtime Patching in SharePoint Server 2016](/SharePoint/upgrade-and-update/video-demo-of-zero-downtime-patching-in-sharepoint-server-2016) | modified |
+| 9/12/2022 | [Add the Hispanic Heritage Employee Resource Group site template](/SharePoint/hispanic-erg-template) | added |
+| 9/13/2022 | [Feature release rings](/SharePoint/administration/feature-release-rings) | added |
+| 9/13/2022 | [Configure AMSI integration with SharePoint Server](/SharePoint/security-for-sharepoint-server/configure-amsi-integration) | added |
+| 9/13/2022 | [New and improved features in SharePoint Server Subscription Edition Version 22H2](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-subscription-edition-22h2-release) | added |
+| 9/13/2022 | [Search in SharePoint Server knowledge articles](/SharePoint/technical-reference/search-in-sharepoint-server) | modified |
+
+
 ## Week of August 29, 2022
 
 

@@ -1,18 +1,21 @@
 ---
 title: "Plan and manage cases in the eDiscovery Center"
+description: "Electronic Discovery, or eDiscovery, is the discovery of content in electronic format for litigation or investigation. This typically requires identifying content spread across laptops, email servers, file servers, and many other sources."
 ms.reviewer: 
-ms.author: v-tophillips
-author: v-tophillips
-manager: serdars
+ms.author: robmazz
+author: robmazz
+manager: laurawi
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: conceptual
 ms.prod: office-online-server
 ms.localizationpriority: medium
-ms.collection: IT_Sharepoint_Server
-ms.assetid: d955aeb8-0d48-4291-a8e2-f3b84f17943f
-description: "Electronic Discovery, or eDiscovery, is the discovery of content in electronic format for litigation or investigation. This typically requires identifying content spread across laptops, email servers, file servers, and many other sources."
+ms.collection:
+- tier1
+- purview-compliance
+- M365-collaboration
+- ediscovery
 ---
 
 # Plan and manage cases in the eDiscovery Center

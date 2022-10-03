@@ -17,6 +17,7 @@ ms.collection:
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+- highpri
 search.appverid: MET150
 description: Overview of migration from Box to Microsoft 365 using Migration Manager.
 ---
