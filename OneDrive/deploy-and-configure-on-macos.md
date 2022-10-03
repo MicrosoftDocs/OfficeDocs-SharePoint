@@ -511,8 +511,8 @@ The example for this setting in the .plist file is:
 ```
 
 > [!NOTE]
-> If you want to hide the option, "Get pre-release Microsoft internal updates to display", you will need to opt into the Deferred update ring.
-> For example, `default write com.microsoft.OneDrive Tier -string "Deferred"`.                                                                      
+> If you want to hide the option "Get pre-release Microsoft internal updates to display", you will need to opt into the Enterprise update ring.
+> For example, `default write com.microsoft.OneDrive Tier -string "Enterprise"`.                                                                      
 
 ### UploadBandwidthLimited
 
