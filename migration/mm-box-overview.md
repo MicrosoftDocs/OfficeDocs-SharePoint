@@ -17,6 +17,7 @@ ms.collection:
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+- highpri
 search.appverid: MET150
 description: Overview of migration from Box to Microsoft 365 using Migration Manager.
 ---
@@ -54,6 +55,8 @@ Make sure that you have:
 ## File size migration limit
 
 We support files up to 15 GB in size for Box to Microsoft 365 migrations.
+
+
 
 
 >[!NOTE]

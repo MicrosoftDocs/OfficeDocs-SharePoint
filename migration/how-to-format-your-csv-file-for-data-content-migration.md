@@ -26,7 +26,7 @@ description: "How to format a JSON or CSV file for data content migration by usi
 
 # Bulk upload SPMT migration tasks using JSON or CSV files
 
-The SharePoint Migration tool (SPMT) lets you to bulk upload your migration task information by using either a JSON or CSV file. This method helps if you're creating a large number of tasks.
+The SharePoint Migration tool (SPMT) lets you bulk upload your migration task information by using either a JSON or CSV file. This method helps if you're creating a large number of tasks.
 
 Learn how to:
 
@@ -82,7 +82,7 @@ https://sharepoint2013.com/sites/contosoteamsite/,DocumentLibraryName,DocLibrary
 
 The following example shows the JSON file format that you can use to migrate your data.
 
-As with a CSV file, the minimum required values are *Source*, *Source DocLib*, *Target Web*, and *Target DocLib*.  
+As with a CSV file, the minimum required values are *Source*, *Target Web*, and *Target DocLib*.  
 
 ```json
 {
@@ -183,7 +183,7 @@ If you wish to leverage your system proxy settings, use one of these methods:
 
 |Error|Description|
 |:-----|:-----|
-|**Destination site cannot associate to an invalid hub site**|This error occurs if the destination site is already registered as a hub site.  SPMT will not change the hub egistration of a destination site.|
-|**Desination site cannot associate to an invalid hub site**|This happens if you are attempting to associate with an invalid hub site. Check the URL and try again.|
+|**Destination site cannot associate to an invalid hub site**|This error occurs if the destination site is already registered as a hub site.  SPMT will not change the hub registration of a destination site.|
+|**Destination site cannot associate to an invalid hub site**|This happens if you are attempting to associate with an invalid hub site. Check the URL and try again.|
 |**Destination site associates with an existing hub, it cannot be changed during migration**| This error occurs if the destination site is already associated with a different hub.  SPMT will not change the association a destination site.|
 
