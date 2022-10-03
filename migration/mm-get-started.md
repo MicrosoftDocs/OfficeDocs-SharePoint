@@ -17,6 +17,7 @@ ms.collection:
 - SPMigration
 - m365solution-migratetom365
 - m365solution-scenario
+- highpri
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
