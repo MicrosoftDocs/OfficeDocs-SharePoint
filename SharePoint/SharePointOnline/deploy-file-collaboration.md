@@ -200,7 +200,7 @@ Creating a *People in your organization* link does not cause the file or folder 
 
 ### Classify and protect information
 
-Microsoft Purview data loss prevention provides a way to classify your teams, groups, sites, and documents, and to create a series of conditions, actions, and exceptions to govern how they're used and shared.
+Microsoft Purview Data Loss Prevention provides a way to classify your teams, groups, sites, and documents, and to create a series of conditions, actions, and exceptions to govern how they're used and shared.
 
 By classifying your information and creating governance rules around them, you can create a collaboration environment where users can easily work with each other without accidentally or intentionally sharing sensitive information inappropriately.
 
@@ -226,7 +226,7 @@ Examples include:
 
   - If a document contains the name of a confidential project, then guests cannot open the document even if it has been shared with them.
 
-Microsoft Cloud App Security offers additional granular conditions, actions, and alerts to help you secure your content. These include the ability to remove a user's permissions or quarantine the user when the specified condition is met.
+Microsoft Defender for Cloud Apps offers additional granular conditions, actions, and alerts to help you secure your content. These include the ability to remove a user's permissions or quarantine the user when the specified condition is met.
 
 **User notifications**
 
@@ -304,7 +304,7 @@ For info about how to view reports on SharePoint site usage, see [Microsoft 365 
 
 For info about how to view data loss prevention reports, see [View the reports for data loss prevention](/microsoft-365/compliance/view-the-dlp-reports).
 
-For info about how to view Cloud App Security reports, see [Generate data management reports](/cloud-app-security/built-in-reports).
+For info about how to view Defender for Cloud Apps reports, see [Generate data management reports](/cloud-app-security/built-in-reports).
 
 ### Manage threats
 
