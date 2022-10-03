@@ -13,7 +13,6 @@ ms.localizationpriority: high
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
-- m365initiative-healthyonedrive
 ms.custom:
 - seo-marvel-apr2020
 - onedrive-toc

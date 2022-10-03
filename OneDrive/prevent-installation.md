@@ -11,6 +11,7 @@ f1.keywords:
 ms.topic: article
 ms.service: one-drive
 ms.localizationpriority: medium
+ms.collection: M365-collaboration
 ms.custom:
 - admindeeplinkSPO
 - onedrive-toc

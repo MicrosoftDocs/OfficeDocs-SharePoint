@@ -13,7 +13,6 @@ ms.localizationpriority: medium
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
-- m365initiative-healthyonedrive
 search.appverid:
 - ODB160
 - MET150
