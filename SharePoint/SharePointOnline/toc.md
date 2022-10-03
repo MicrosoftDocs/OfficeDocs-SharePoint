@@ -45,7 +45,6 @@
 ## [The admin center]()
 ### [SharePoint admin role](sharepoint-admin-role.md)
 ### [Overview](get-started-new-admin-center.md)
-### [What's new in admin center](what-s-new-in-admin-center.md)
 ### [Manage sites in new admin center](manage-sites-in-new-admin-center.md)
 ### [Customize the site list](customize-admin-center-site-list.md)
 ## [Performance]()

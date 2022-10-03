@@ -10,6 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.service: one-drive
 ms.custom: onedrive-toc
+ms.collection: M365-collaboration
 ms.localizationpriority: medium
 description: "This article describes how global and SharePoint admins in Microsoft 365 can disable the 'Contact support' and 'Send feedback' features in the OneDrive sync app."
 ---

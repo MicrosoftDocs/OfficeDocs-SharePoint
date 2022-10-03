@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 - m365solution-corpcomms
 - m365solution-scenario
+- highpri
 search.appverid:
 - SPO160
 - MET150

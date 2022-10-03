@@ -19,7 +19,8 @@ ms.custom:
 ms.service: sharepoint-online
 ms.localizationpriority: Priority
 ms.collection:  
-- m365initiative-spsitemanagement
+- Strat_OD_admin
+- M365-collaboration
 search.appverid:
 - SPO160
 - MOE150

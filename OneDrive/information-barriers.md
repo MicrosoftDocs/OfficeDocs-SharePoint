@@ -12,7 +12,8 @@ ms.topic: article
 ms.service: one-drive
 ms.localizationpriority: medium
 ms.collection: 
-- Strat_OD_admin
+- tier2
+- purview-compliance
 - M365-collaboration
 ms.custom: onedrive-toc
 search.appverid:
