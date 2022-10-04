@@ -27,7 +27,7 @@ Microsoft Syntex Advanced Management is a Microsoft 365 add-on that provides a s
 
 Articles that cover features that use Syntex Advanced Management are designated with  [!INCLUDE[Advanced Management](includes/advanced-management.md)] at the top.
 
-## Governance
+## Management
 
 Data access governance reports help you discover sites that contain potentially overshared or sensitive content. You can use these reports to assess and apply appropriate security and compliance policies. For details, see [Data access governance reports](/sharepoint/data-access-governance-reports).
 
