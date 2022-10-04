@@ -20,12 +20,10 @@ description: "Learn about Microsoft Syntex Advanced Management and how you can u
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-Microsoft Syntex Advanced Management provides a suite of features that can help you:
+Microsoft Syntex Advanced Management is a Microsoft 365 add-on that provides a suite of features that can help you:
 
 - Govern SharePoint and OneDrive
 - Enhance Microsoft 365 secure collaboration capabilities
-
-Syntex Advanced Management is a Microsoft 365 add-on for organizations that use E3 or E5 licenses.
 
 Articles that cover features that use Syntex Advanced Management are designated with  [!INCLUDE[Advanced Management](includes/advanced-management.md)] at the top.
 
