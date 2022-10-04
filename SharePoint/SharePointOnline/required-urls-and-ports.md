@@ -11,6 +11,7 @@ f1.keywords:
 ms.topic: reference
 ms.service: one-drive
 ms.localizationpriority: medium
+ms.collection: M365-collaboration
 search.appverid:
 - ODC160
 - MET150
