@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Syntex Advanced Management overview"
+title: "Microsoft Syntex Advanced Management (Preview) overview"
 ms.reviewer: daminasy
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -16,7 +16,7 @@ search.appverid:
 description: "Learn about Microsoft Syntex Advanced Management and how you can use it in your organization."
 ---
 
-# Microsoft Syntex Advanced Management overview
+# Microsoft Syntex Advanced Management (Preview) overview
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
