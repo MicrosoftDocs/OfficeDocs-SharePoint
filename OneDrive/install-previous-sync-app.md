@@ -10,6 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.service: one-drive
 ms.custom: onedrive-toc
+ms.collection: M365-collaboration
 ms.localizationpriority: high
 description: "In this article, you'll learn how to install the previous OneDrive sync app (Groove.exe) for use with SharePoint Server."
 ---

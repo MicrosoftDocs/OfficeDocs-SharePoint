@@ -14,6 +14,7 @@ ms.subservice: sharepoint-migration
 mscollection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.localizationpriority: medium
 search.appverid: MET150
 description: "Learn how to schedule tasks in Migration Manager."
