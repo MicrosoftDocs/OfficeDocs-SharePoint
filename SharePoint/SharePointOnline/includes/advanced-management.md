@@ -1,1 +1,1 @@
-![Green checkmark icon](../media/yes.png) **Uses Microsoft Syntex Advanced Management**
+![Information icon](../media/info.png) **Uses Microsoft Syntex Advanced Management**
