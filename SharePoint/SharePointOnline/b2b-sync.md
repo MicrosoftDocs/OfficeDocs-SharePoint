@@ -123,15 +123,15 @@ To view or change the sharing setting for any site, use the new SharePoint admin
 
 ## Ensure any Azure AD Conditional Access (CA) policies are compatible with external access
 
-The tenant admin can enable several kinds of conditional access policies at their tenant. When an guest is going to access a tenant's content, those policies may need to be adjusted for the guests so they can gain access.
+The tenant admin can enable several kinds of conditional access policies at their tenant. When a guest is going to access a tenant's content, those policies may need to be adjusted for the guests so they can gain access.
 
-- Currently the sync client does not support interactive authentication UI when syncing external content. Any policy that would require a sign-in UI such as MFA (multi-factor authentication) or TOU (terms of use) prompt, will prevent the syncing of the external content from that tenant. If a tenant admin deploys such a policy before an guest starts syncing from that tenant, the user will be unable to establish the sync relationship. If the policy is deployed after an guest is syncing content from the tenant, that guest will receive an error and be unable to continue to sync from the tenant.
+- Currently the sync client does not support interactive authentication UI when syncing external content. Any policy that would require a sign-in UI such as MFA (multi-factor authentication) or TOU (terms of use) prompt, will prevent the syncing of the external content from that tenant. If a tenant admin deploys such a policy before a guest starts syncing from that tenant, the user will be unable to establish the sync relationship. If the policy is deployed after a guest is syncing content from the tenant, that guest will receive an error and be unable to continue to sync from the tenant.
 
 - Tenants may update their Terms of Use (TOU) from time to time. A policy can trigger the user to view and accept the updated TOU via an interactive authentication prompt. Since sync doesn't support external tenant sign-in UI, sync will indicate it is unable to sync the external site's content.
 
 - Device Compliance requires user machines to be managed by the tenant and then to be up to date with requirements. For guests, their machines are likely to be managed by their own organization and thus are incompatible with requiring their machines to be managed by the content sharing tenant.
 
-- Location-based conditional access policies are typically used to enforce additional requirements like MFA when the user is not connecting from a trusted location (such as the tenant's office network). Typically in an guest scenario the client machine won't be located at the trusted locations, and since sync doesn't support MFA, you likely do not want this policy to apply to your guests.
+- Location-based conditional access policies are typically used to enforce additional requirements like MFA when the user is not connecting from a trusted location (such as the tenant's office network). Typically in a guest scenario the client machine won't be located at the trusted locations, and since sync doesn't support MFA, you likely do not want this policy to apply to your guests.
 
 For more information see [Authentication and Conditional Access for External Identities](/azure/active-directory/external-identities/authentication-conditional-access).
 
