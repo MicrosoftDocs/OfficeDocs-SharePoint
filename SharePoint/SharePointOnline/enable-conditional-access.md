@@ -1,8 +1,8 @@
 ---
 title: "Enable conditional access support in the OneDrive sync app"
 ms.reviewer: 
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:

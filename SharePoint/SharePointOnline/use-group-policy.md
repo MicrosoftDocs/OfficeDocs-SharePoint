@@ -1,8 +1,8 @@
 ---
 title: "Use OneDrive policies to control sync settings"
 ms.reviewer: gacarini
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
