@@ -27,7 +27,7 @@ description: "Learn how the OneDrive sync app allows users to sync folders share
 
 The OneDrive sync app now lets users sync libraries or folders in Microsoft SharePoint or Microsoft OneDrive that have been shared from other organizations. This scenario is often referred to as Business-to-Business (B2B) Collaboration. We're calling this new feature in the OneDrive sync app "B2B Sync".
 
-Azure Active Directory (AAD) guest accounts play a key role in making B2B Collaboration possible. A guest account at one organization links to a member account at another organization. Once created, a guest account allows Microsoft 365 services like OneDrive and SharePoint to grant a guest permission to sites and folders the same way a member within the organization is granted permission. Since the accounts at two organizations are linked, the user only needs to remember the username and password for the account at their organization. As a result, a single sign-in to their account enables access to content from their own organization and from any other organizations that have created guest accounts for them.
+Azure Active Directory (Azure AD) guest accounts play a key role in making B2B Collaboration possible. A guest account at one organization links to a member account at another organization. Once created, a guest account allows Microsoft 365 services like OneDrive and SharePoint to grant a guest permission to sites and folders the same way a member within the organization is granted permission. Since the accounts at two organizations are linked, the user only needs to remember the username and password for the account at their organization. As a result, a single sign-in to their account enables access to content from their own organization and from any other organizations that have created guest accounts for them.
 
 > [!IMPORTANT]
 > We recommend that you enable [SharePoint and OneDrive integration with Azure AD B2B](/sharepoint/sharepoint-azureb2b-integration) to help ensure that the required Azure AD guest account for the share recipient is created in your organization's directory.
@@ -40,6 +40,7 @@ For people outside your organization to sync shared libraries and folders:
 - External sharing must be enabled for the site or OneDrive.
 - The content must be shared with people outside the organization at the site or folder level. If a folder is shared, it must be through a link that requires sign-in.
 - Sharing recipients must have a Microsoft 365 work or school account (in Azure AD).
+- Any Azure AD conditional access policies must be compatible with guests ([more below](#ensure-any-azure-ad-conditional-access-ca-policies-are-compatible-with-external-access)).
 - ADAL must not be enabled if using builds before 19.086.*.
 
 This article gives an overview of the B2B Sync experience and describes these requirements in more detail.
@@ -49,7 +50,7 @@ This article gives an overview of the B2B Sync experience and describes these re
 - On the Mac, Files On-Demand thumbnails will not display from external organization's sites. Thumbnails will display correctly for files from the user's own organization.
 - On the Mac, if the guest account was created with a different email address format than the form they are using with the sync app, the external site's content cannot be synced. For example, first.last@fabrikam.com vs alias@fabrikam.com.
 - On the Mac, the external content may be placed on the local computer in the user's own organization's folder instead of one with the external organization's name.
-- Multifactor authentication from an external organization is not yet supported. Only guest accounts that don't require MFA will sync.
+- Interactive authentication UI for guest accounts from an external organization is not supported by the sync client.
 
 ## Overview of the B2B Sync experience
 
@@ -119,6 +120,20 @@ To view or change the sharing setting for any site, use the new SharePoint admin
 2. Customize the view as necessary to see the External sharing column.
 
 3. If you need to, [change the external sharing setting for a site](/sharepoint/manage-sites-in-new-admin-center#change-the-external-sharing-setting-for-a-site).
+
+## Ensure any Azure AD Conditional Access (CA) policies are compatible with external access
+
+The tenant admin can enable several kinds of conditional access policies at their tenant. When a guest is going to access a tenant's content, those policies may need to be adjusted for the guests so they can gain access.
+
+- Currently the sync client does not support interactive authentication UI when syncing external content. Any policy that would require a sign-in UI such as MFA (multi-factor authentication) or TOU (terms of use) prompt, will prevent the syncing of the external content from that tenant. If a tenant admin deploys such a policy before a guest starts syncing from that tenant, the user will be unable to establish the sync relationship. If the policy is deployed after a guest is syncing content from the tenant, that guest will receive an error and be unable to continue to sync from the tenant.
+
+- Tenants may update their Terms of Use (TOU) from time to time. A policy can trigger the user to view and accept the updated TOU via an interactive authentication prompt. Since sync doesn't support external tenant sign-in UI, sync will indicate it is unable to sync the external site's content.
+
+- Device Compliance requires user machines to be managed by the tenant and then to be up to date with requirements. For guests, their machines are likely to be managed by their own organization and thus are incompatible with requiring their machines to be managed by the content sharing tenant.
+
+- Location-based conditional access policies are typically used to enforce additional requirements like MFA when the user is not connecting from a trusted location (such as the tenant's office network). Typically in a guest scenario the client machine won't be located at the trusted locations, and since sync doesn't support MFA, you likely do not want this policy to apply to your guests.
+
+For more information see [Authentication and Conditional Access for External Identities](/azure/active-directory/external-identities/authentication-conditional-access).
 
 ## Methods of sharing
 
