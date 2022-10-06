@@ -1,8 +1,8 @@
 ---
 title: "OneDrive sync reports in the Apps Admin Center"
 ms.reviewer: dmalayeri
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
