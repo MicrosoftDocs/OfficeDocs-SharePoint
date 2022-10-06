@@ -1,8 +1,8 @@
 ---
 title: "Use the sync app on virtual desktops"
 ms.reviewer: sraja
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
