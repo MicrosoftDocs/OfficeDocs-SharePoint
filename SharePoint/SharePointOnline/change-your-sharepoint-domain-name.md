@@ -175,7 +175,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
   
   > [!NOTE]
     > Make sure version is 16.0.22810.12000 or lower. You might receive error Microsoft.SharePoint.Client.ResourceNotFoundException for higher versions (This is temporary note). 
-    > You can install specific version using Windows PowerShell using command Install-Module. Example: Install-Module -Name Microsoft.Online.SharePoint.PowerShell -RequiredVersion 16.0.22810.12000 
+    > You can install specific version from Windows PowerShell using command Install-Module. Example: Install-Module -Name Microsoft.Online.SharePoint.PowerShell -RequiredVersion 16.0.22810.12000 
 
 2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
