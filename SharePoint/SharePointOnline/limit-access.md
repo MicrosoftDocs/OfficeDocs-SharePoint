@@ -30,7 +30,6 @@ To access and use this feature, your organization must have one of the following
 
 - Office 365 E5/A5 
 - Microsoft 365 E5/A5 
-- Microsoft 365 E5 Compliance/A5 Compliance 
 
 ## Enablement
 
