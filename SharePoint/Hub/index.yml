@@ -1,13 +1,13 @@
 ### YamlMime:Hub
 
-title: SharePoint documentation # < 60 chars
+title: SharePoint and OneDrive documentation # < 60 chars
 summary: SharePoint documentation for IT professionals and admins # < 160 chars
 # brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-platform | project | sharepoint | sql | sql-server | teams | vs | visual-studio | windows | xamarin
 brand: sharepoint
 
 metadata:
-  title: SharePoint documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: SharePoint documentation for IT professionals and admins # Required; article description that is displayed in search results. < 160 chars.
+  title: SharePoint and OneDrive documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: SharePoint and OneDrive documentation for IT professionals and admins # Required; article description that is displayed in search results. < 160 chars.
   ms.service: sharepoint-online #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page # Required
   audience: ITPro
@@ -25,16 +25,16 @@ additionalContent:
     - title: For IT Professionals # < 60 chars (optional)
       items:
         # Card
-        - title: SharePoint in Microsoft 365
-          summary: Find resources for managing SharePoint in your Microsoft 365 environment.
+        - title: SharePoint and OneDrive in Microsoft 365
+          summary: Find resources for managing SharePoint and OneDrive in your Microsoft 365 environment.
           url: /sharepoint/introduction
         # Card
         - title: Migrate to Microsoft 365
           summary: Migrate your content to Microsoft 365. Migrate from file shares, SharePoint Server, Box, or many of the cloud storage providers.
           url: /sharepointmigration/migrate-to-sharepoint-online
         # Card
-        - title: SharePoint Hybrid
-          summary: Learn about solutions for the SharePoint hybrid environment, and how to connect SharePoint Server and Microsoft 365.
+        - title: SharePoint and OneDrive Hybrid
+          summary: Learn about solutions for the SharePoint and OneDrive hybrid environment, and how to connect SharePoint Server and Microsoft 365.
           url: ../SharePointServer/hybrid/hybrid.md
         # Card
         - title: PowerShell Reference for SharePoint
