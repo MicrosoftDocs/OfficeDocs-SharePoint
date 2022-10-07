@@ -1,4 +1,4 @@
-# [SharePoint](introduction.md)
+# [SharePoint and OneDrive](introduction.md)
 ## [Introduction]()
 ### [Intro to file collaboration](intro-to-file-collaboration.md)
 ### [Intro to OneDrive](onedrive-overview.md)
