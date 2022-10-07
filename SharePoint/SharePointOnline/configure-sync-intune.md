@@ -1,8 +1,8 @@
 ---
 title: "Use administrative templates in Intune"
 ms.reviewer: kafeaver
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
