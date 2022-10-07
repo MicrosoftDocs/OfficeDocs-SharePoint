@@ -149,6 +149,7 @@
 #### [Set Files On-Demand states](files-on-demand-windows.md)
 ### [Configure sync on Mac]()
 #### [Deploy and configure on macOS](deploy-and-configure-on-macos.md)
+#### [Known Folder Move](redirect-known-folders-macos.md)
 #### [Set Files On-Demand states](files-on-demand-mac.md)
 ### [Allow syncing only on specific domains](allow-syncing-only-on-specific-domains.md)
 ### [Advanced sync settings]()
