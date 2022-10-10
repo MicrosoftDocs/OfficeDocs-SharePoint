@@ -1,8 +1,8 @@
 ---
 title: "Silently configure user accounts"
 ms.reviewer: wsproule
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: ITPro
 f1.keywords:

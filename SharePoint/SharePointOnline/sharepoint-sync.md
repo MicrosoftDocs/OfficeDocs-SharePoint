@@ -1,8 +1,8 @@
 ---
 title: Sync in SharePoint and OneDrive
 ms.reviewer: 
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin

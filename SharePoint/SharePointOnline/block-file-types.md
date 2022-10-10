@@ -29,10 +29,11 @@ description: "In this article, you'll learn how to prevent users from uploading 
 
 You can prevent users from uploading specific file types when they sync their OneDrive files.
 
-> [!NOTE]
-> This setting prevents file types from being uploaded but not downloaded. If users already have blocked file types in their OneDrive, the files will sync to their computer, but any changes they make on their computer won't be uploaded.
+This setting prevents file types from being uploaded but not downloaded. If users already have blocked file types in their OneDrive, the files will sync to their computer, but any changes they make on their computer won't be uploaded.
 
-  
+> [!NOTE]
+> The OneDrive sync app doesn't sync .tmp, .ini, and .lnk files.
+
  **To block uploading of specific file types**
   
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">Settings in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
