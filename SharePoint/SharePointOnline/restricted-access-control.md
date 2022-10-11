@@ -1,5 +1,5 @@
 ---
-title: "Restricted access control"
+title: "Manage restricted access control for SharePoint site"
 ms.reviewer: 
 manager: serdars
 recommendations: true 
