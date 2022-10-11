@@ -2,7 +2,7 @@
 title: "Review your recent actions in SharePoint admin center"
 ms.reviewer: 
 manager: serdars
-recommendations: 
+recommendations: true
 ms.author: mactra
 author: its-mactra
 ms.date: 10/12/2022
