@@ -23,11 +23,11 @@ description: "Learn about how to use Azure Active Directory conditional access a
 
 With [Azure Active Directory authentication context](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#configure-authentication-contexts), you can enforce more stringent access conditions when users access SharePoint sites. You can directly apply an authentication context to a SharePoint site by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet.
 
+In the following example, an authentication context called MFA is attached to the site.
+
 ```powershell
 Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -ConditionalAccessPolicy AuthenticationContext -AuthenticationContextName "MFA"
 ```
-In this example, an authentication context called MFA is attached to the site.
-
 Additionally, authentication contexts are used with sensitivity labels to connect [Azure AD conditional access policies](/azure/active-directory/conditional-access/overview) to labeled sites.
 
 Note that this capability can't be applied to the root site in SharePoint (for example, https://contoso.sharepoint.com).
