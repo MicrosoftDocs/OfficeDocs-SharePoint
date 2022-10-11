@@ -1,5 +1,5 @@
 ---
-title: "Manage site access based on sensitivity label"
+title: "Conditional access policies for SharePoint sites"
 ms.reviewer: samust
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -19,7 +19,7 @@ search.appverid:
 description: "Learn about how to use Azure Active Directory conditional access and authentication context with SharePoint sites and sensitivity labels."
 ---
 
-# Conditional access policy for SharePoint sites
+# Conditional access policies for SharePoint sites
 
 With [Azure Active Directory authentication context](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#configure-authentication-contexts), you can enforce more stringent access conditions when users access SharePoint sites. You can directly apply an authentication context to a SharePoint site by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet.
 
