@@ -23,14 +23,13 @@ description: "Enable restricted access control for SharePoint sites through Micr
 
 ![green check mark](media/yes.png) **Requires Syntex Advanced Management**
 
-With restricted access control (preview), you can manage the access of a SharePoint site and its content. As a [SharePoint administrator](sharepoint-admin-role.md), you can grant access to users of the Microsoft 365 Group associated with a SharePoint site. Users who are not added to the group membership won’t have access even if they previously had site access permissions to a file. Restricted access control policy also applies to Microsoft 365 group memberships associated with Microsoft Teams. 
+With restricted access control (preview), you can manage the access of a SharePoint site and its content. As a [SharePoint administrator](sharepoint-admin-role.md), you can grant access to users of the Microsoft 365 Group associated with a SharePoint site. Users who are not added to the group membership won’t have access even if they previously had site access permissions to a file. Restricted access control policy also applies to Microsoft 365 group memberships associated with Microsoft Teams.
 
 Restricting access to sites based on group membership lets you reduce the risk of oversharing within your organization and provides an additional layer of security to safeguard site content. By enabling restricted site access, you apply a policy that retroactively addresses the concern of overshared site content. Use and consult [data access governance reports](data-access-governance-reports.md) to learn how to govern access to SharePoint data.
 
 For example, the research department has a Microsoft 365 group that contains all of their department members. They don’t want anyone outside of the department to have access to the research department site or its contents. As their SharePoint admin, you can restrict site access to only members of the Microsoft 365 group by enabling restricted access control in PowerShell.
 
 [PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) is required to enable restricted access control.
-
 
 ## Enable restricted access control for your organization
 
