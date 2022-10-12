@@ -17,7 +17,7 @@ ms.collection:
 - Strat_SP_admin
 search.appverid:
 ms.assetid: TBD
-description: "Enable restricted access control for SharePoint sites through Microsoft 365 Group Membership"
+description: "Enable restricted site access for SharePoint sites through Microsoft 365 Group Membership"
 ---
 # Restrict site access to members of Microsoft 365 group
 
