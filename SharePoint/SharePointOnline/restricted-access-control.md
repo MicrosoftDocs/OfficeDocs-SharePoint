@@ -19,7 +19,7 @@ search.appverid:
 ms.assetid: TBD
 description: "Enable restricted access control for SharePoint sites through Microsoft 365 Group Membership"
 ---
-# Manage restricted access control for SharePoint sites
+# Restrict site access to members of Microsoft 365 group
 
 With restricted access control (preview), you can manage the access of a SharePoint site and its content. As a [SharePoint administrator](sharepoint-admin-role.md), you can grant access to users of the Microsoft 365 Group associated with a SharePoint site. Users who are not added to the group membership won’t have access even if they previously had site access permissions to a file. Restricted access control policy also applies to Microsoft 365 group memberships associated with Microsoft Teams.
 
