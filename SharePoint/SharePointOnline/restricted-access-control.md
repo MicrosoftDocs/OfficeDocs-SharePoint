@@ -1,5 +1,5 @@
 ---
-title: "Manage restricted access control for SharePoint site"
+title: "Restrict site access to members of Microsoft 365 group"
 ms.reviewer: 
 manager: serdars
 recommendations: true 
