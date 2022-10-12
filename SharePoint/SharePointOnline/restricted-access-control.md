@@ -1,29 +1,25 @@
 ---
-title: "Restrict site access to members of Microsoft 365 group"
-ms.reviewer: 
+title: "Restrict site access to members of a Microsoft 365 group"
+ms.reviewer: nibandyo
 manager: serdars
 recommendations: true 
 ms.author: mactra
 author: its-mactra
-ms.date: 10/12/2022
 audience: Admin
 f1.keywords: 
 - NOCSH 
 ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
-ms.collection:
-- M365-collaboration
-- Strat_SP_admin
+ms.collection: M365-collaboration
 search.appverid:
-ms.assetid: TBD
-description: "Enable restricted site access for SharePoint sites through Microsoft 365 Group Membership"
+description: "Learn how to restrict site access to members of Microsoft 365 group."
 ---
-# Restrict site access to members of Microsoft 365 group
+# Restrict site access to members of a Microsoft 365 group
 
 With restricted access control (preview), you can manage the access of a SharePoint site and its content. As a [SharePoint administrator](sharepoint-admin-role.md), you can grant access to users of the Microsoft 365 Group associated with a SharePoint site. Users who are not added to the group membership won’t have access even if they previously had site access permissions to a file. Restricted access control policy also applies to Microsoft 365 group memberships associated with Microsoft Teams.
 
-Restricting access to sites based on group membership lets you reduce the risk of oversharing within your organization and provides an additional layer of security to safeguard site content. By enabling restricted site access, you apply a policy that retroactively addresses the concern of overshared site content. Use and consult [data access governance reports](data-access-governance-reports.md) to learn how to govern access to SharePoint data.
+Restricting access to sites based on group membership lets you reduce the risk of oversharing within your organization and provides an additional layer of security to safeguard site content. By enabling restricted site access, you apply a policy that stops sharing content with people who aren't a member of the Microsoft 365 group. Use and consult [data access governance reports](data-access-governance-reports.md) to to see how data is currently being shared.
 
 For example, the research department has a Microsoft 365 group that contains all of their department members. They don’t want anyone outside of the department to have access to the research department site or its contents. As their SharePoint admin, you can restrict site access to only members of the Microsoft 365 group by enabling restricted access control in PowerShell.
 
