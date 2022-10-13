@@ -24,7 +24,7 @@ ms.custom:
 - admindeeplinkSPO
 ---
 
-# Block download of files from a SharePoint site and OneDrive
+# Block download of files from a SharePoint site and OneDrive (in preview)
 
 As a SharePoint Administrator or Global Administrator in Microsoft 365, you can block download of files from a SharePoint sites and OneDrive. This feature do not need  Azure active directory conditional access policy. This feature can be set for individual sites and cannot be set at tenant level. [If you want to prevent download of SharePoint content from unmanaged devices then check this feature](https://learn.microsoft.com/en-us/sharepoint/control-access-from-unmanaged-devices).
 
