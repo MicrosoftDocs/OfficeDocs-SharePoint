@@ -18,6 +18,7 @@ mscollection:
 - m365solution-scenario
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 ms.custom: admindeeplinkSPO
 description: "Steps to connect to Google when using Migration Manager in the SharePoint Admin center."
