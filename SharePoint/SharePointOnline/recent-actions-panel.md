@@ -33,7 +33,7 @@ You can also download a .csv file of all your changes made in the last 30 days. 
 3. You can select **Export** to download the list as a .csv file.
 4. Select **View site details** to open the site info panel. From here, you can make changes to site properties like site name, site address, hub association, and aliases.
 
-### Bulk site edits
+## Bulk site edits
 
 Bulk edits such as deleting multiple sites are listed as one action item in the recent actions panel. Select a bulk action item to see a list of sites affected by a bulk edit.
 
