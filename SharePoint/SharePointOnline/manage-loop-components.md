@@ -62,7 +62,7 @@ Microsoft is migrating to Cloud Policy as the mechanism to control Loop experien
 * Create and view Loop files in Microsoft apps that support Loop
 * Create and view Loop files in Outlook
 
-Check the [Cloud Policy](/deployoffice/admincenter/overview-cloud-policy) setting templates for the settings above for more information.
+See the [Cloud Policy](/deployoffice/admincenter/overview-cloud-policy) setting templates for the settings above for more information.
 
 ## eDiscovery
 
