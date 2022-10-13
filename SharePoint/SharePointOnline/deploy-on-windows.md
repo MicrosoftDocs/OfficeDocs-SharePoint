@@ -1,8 +1,8 @@
 ---
 title: "Deploy OneDrive apps using Microsoft Endpoint Configuration Manager"
 ms.reviewer: 
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -29,7 +29,7 @@ description: "In this article, you'll learn how to deploy OneDrive apps using Mi
 
 # Deploy OneDrive apps using Microsoft Endpoint Configuration Manager
 
-You can use Microsoft Endpoint Configuration Manager to deploy the new OneDrive sync app (OneDrive.exe), as well as the mobile apps for iOS and Android. Before you begin deploying, make sure you have reviewed the planning information and deployment options in the [OneDrive guide for enterprises](plan-onedrive-enterprise.md).<br/><br/>
+You can use Microsoft Endpoint Configuration Manager to deploy the new OneDrive sync app (OneDrive.exe), as well as the mobile apps for iOS and Android. Before you begin deploying, make sure you have reviewed the planning information and deployment options in the [Plan file sync for SharePoint and OneDrive in Microsoft 365](plan-file-sync.md).<br/><br/>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSr]
   

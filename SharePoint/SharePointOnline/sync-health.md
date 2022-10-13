@@ -1,8 +1,8 @@
 ---
 title: "OneDrive sync reports in the Apps Admin Center"
 ms.reviewer: dmalayeri
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -257,6 +257,14 @@ This section describes known limitations and considerations in sync reporting.
 
 There is negligible impact to a network after enabling the sync reports setting on devices.
 
+**Storage in the EU** *How is data stored in the EU geo?* 
+
+Microsoft continues its commitment to meet and exceed the requirements of EU data protection laws. All data storage is EU Data Boundary compliant. 
+
+**Microsoft Power BI** *Are there Power BI templates available?*
+
+There are no Power BI templates available for sync reports.
+
 ## Troubleshooting
 
 Use this section to troubleshoot if the OneDrive sync reports don't appear after three days.
@@ -266,9 +274,9 @@ Use this section to troubleshoot if the OneDrive sync reports don't appear after
 
 1. Confirm that the sync app is on the Insiders or Production ring.
 
-Confirm with Command Prompt:
+    Confirm with Command Prompt:
 
-Windows users should open Command Prompt as an administrator, then run the following command:  
+    Windows users should open Command Prompt as an administrator, then run the following command:  
 
     ```PowerShell
     reg.exe query HKLM\Software\Policies\Microsoft\OneDrive /v GPOSetUpdateRing
