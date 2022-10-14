@@ -186,6 +186,7 @@
 ### [Control access based on network location](control-access-based-on-network-location.md)
 ### [Limit OneDrive access by security group](limit-access.md)
 ### [Enable conditional access (OneDrive)](enable-conditional-access.md)
+### [Block download from sites and OneDrive](block-download-from-sites.md)
 
 ### [Sign out inactive users](sign-out-inactive-users.md)
 ## [Compliance]()
