@@ -57,8 +57,10 @@ To disable Loop components, run `Set-SPOTenant -IsLoopEnabled $false`. The chang
 
 ## Settings management for Outlook
 
-Microsoft is migrating to Cloud Policy as the mechanism to control Loop experiences. This will be phased over time, so both the above SharePoint setting and these Cloud Policy settings should be used to control existing and new integrations. Outlook integration will begin checking only these Cloud Policy settings in late 2022:
+Microsoft is migrating to Cloud Policy as the mechanism to control Loop experiences. This will be phased over time, so set both the above SharePoint setting `IsLoopEnabled` and the Cloud Policy settings in this section to control all Loop integrations.
 
+Outlook integration will stop checking the `IsLoopEnabled` setting in late 2022.<br/>
+Outlook integration will begin checking only these Cloud Policy settings in late 2022:
 * Create and view Loop files in Microsoft apps that support Loop
 * Create and view Loop files in Outlook
 
