@@ -187,7 +187,7 @@
 ### [Limit OneDrive access by security group](limit-access.md)
 ### [Enable conditional access (OneDrive)](enable-conditional-access.md)
 ### [Block download from sites and OneDrive](block-download-from-sites.md)
-
+### [Restrict site access to group members](restricted-access-control.md)
 ### [Sign out inactive users](sign-out-inactive-users.md)
 ## [Compliance]()
 ### [Block guest access to newly added files](sensitive-by-default.md)
