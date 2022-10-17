@@ -531,3 +531,4 @@ The example for this setting in the .plist file is:
 ## Related articles
 
 [Find your Microsoft 365 tenant ID](find-your-office-365-tenant-id.md)
+[Set up the OneDrive sync health dashboard on macOS (EnableSyncAdminReports)](sync-health.md)
