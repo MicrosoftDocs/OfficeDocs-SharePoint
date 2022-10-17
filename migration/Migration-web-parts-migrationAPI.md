@@ -16,6 +16,7 @@ search.appverid: MET150
 msCollection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 description: "SharePoint web part support in the Migration API"
 ---
 # Migrate web parts by using the Migration API
