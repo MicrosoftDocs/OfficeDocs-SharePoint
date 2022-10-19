@@ -19,7 +19,7 @@ description: "Learn how to review recent actions in SharePoint admin center."
 
 With recent actions panel, you can make changes to SharePoint site properties and review your most recent 30 actions in [SharePoint admin center](/sharepoint/get-started-new-admin-center).
 
-Changes to site properties like site name, site deletion and storage quota, show as recent actions. The panel shows the previous and current value of site properties, which is useful when tracking changes.
+Changes to site properties like site name, site deletion and storage quota, show as recent actions. The panel shows the previous and current values of site properties, which is useful when tracking changes.
 
 The recent actions panel only shows changes you made in the last 30 days. Changes made by other admins and organization-level changes won't show in the panel.
 
@@ -34,9 +34,7 @@ You can also download a .csv file of all your changes made in the last 30 days.
 
 ## Bulk site edits
 
-Bulk edits are listed as one action item in the recent actions panel. Select a bulk action item to see a list of sites affected by a bulk edit.
-
-Bulks edits are listed as separate items in the .csv file. The bulk edit column of the report lets you quickly filter which changes were part of a bulk edit.
+Bulk edits are listed as one action item in the recent actions panel. Select a bulk action item to see a list of sites affected by a bulk edit. Bulks edits are listed as separate items in the .csv file. The bulk edit column of the report lets you quickly filter which changes were part of a bulk edit.
 
 Here’s an example of how bulk edits are grouped as one action in the recent actions panel:
 
