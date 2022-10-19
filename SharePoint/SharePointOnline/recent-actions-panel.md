@@ -23,7 +23,7 @@ Changes to site properties like site name, site deletion and storage quota, show
 
 The recent actions panel only shows changes you made in the last 30 days. Changes made by other admins and organization-level changes will not show in the panel.
 
-You can also download a .csv file of all your changes made in the last 30 days. The exported data from the .csv file is especially useful when you need to perform a deeper analysis.
+You can also download a .csv file of all your changes made in the last 30 days.
 
 ## View recent actions of a site
 
