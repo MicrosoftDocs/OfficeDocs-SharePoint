@@ -26,7 +26,7 @@ Answer: Only owned folders and the root files for each user are copied. If a use
 </br>
 
 **Question:**  What happens to Box Notes?
-Answer:  Your Box Notes will be automatically converted to Microsoft Word document.
+Answer: Box Notes will not be converted during migration to a .docx format.
 
 **Question:**  **Is this available for GCC, GCCHigh, DoD tenants?**</br>
 Answer.  Currently Migration Manager Box isn't available for any of the Government clouds.
