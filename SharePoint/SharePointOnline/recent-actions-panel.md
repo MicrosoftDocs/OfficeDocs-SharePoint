@@ -1,5 +1,5 @@
 ---
-title: "Review recent actions of a SharePoint site in SharePoint admin center"
+title: "Review recent Sharepoint site actions in SharePoint admin center"
 ms.reviewer: rammenon
 manager: serdars
 recommendations: true
@@ -13,10 +13,9 @@ ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: medium
 ms.collection: M365-collaboration
-search.appverid:
 description: "Learn how to review recent actions in SharePoint admin center."
 ---
-# Review recent actions of a SharePoint site in SharePoint admin center
+# Review recent Sharepoint site actions in SharePoint admin center
 
 With recent actions panel, you can make changes to SharePoint site properties and review your most recent 30 actions in [SharePoint admin center](/sharepoint/get-started-new-admin-center).
 
