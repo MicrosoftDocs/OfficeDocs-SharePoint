@@ -1,5 +1,5 @@
 ---
-title: "View history of a SharePoint site in SharePoint admin center"
+title: "View SharePoint site history in SharePoint admin center"
 ms.reviewer: rammenon
 manager: serdars
 recommendations: true
@@ -15,7 +15,7 @@ ms.collection: M365-collaboration
 description: "Learn how to create and view SharePoint site history reports."
 ---
 
-# View history of a SharePoint site in SharePoint admin center
+# View SharePoint site history in SharePoint admin center
 
 Site history report lets you view SharePoint site actions made in the last 30 days. Create up to five reports that filter by dates, names, sites, actions, and users. Once the site history report is generated, you can download the report as a .csv file. The duplicate button allows you to create more reports with similar parameters.
 
