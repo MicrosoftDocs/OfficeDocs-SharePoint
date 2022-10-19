@@ -1,8 +1,8 @@
 ---
 title: "View SharePoint files with File Explorer in Microsoft Edge"
 ms.reviewer:
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin

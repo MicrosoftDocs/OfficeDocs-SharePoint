@@ -14,6 +14,7 @@ ms.subservice: sharepoint-migration
 mscollection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.localizationpriority: medium
 search.appverid: MET150
 description: "Learn about the new features and updates to existing features in Migration Manager."
@@ -27,7 +28,8 @@ We're continuously adding new features to Migration Manager and fixing issues we
 
 Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page.  
 
-
+## October 2022-
+- **Change**.  We are no longer able to convert Box notes to a .docx file during migration.
 
 ## June 2022
 - **Fix: Google proprietary file formats failed to migrate**. Some Google files (mainly  Google slides) failed to migrate showing the error code, "MFILESIZEINCORRECT". This has been fixed. Rerun any failed tasks to migrate these files.
@@ -51,7 +53,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 ## January 2022
 
 - **Add source path fix**. Previously, when doing a file share migration, the "Add source Path" button wasn't active on the Scan page, even if the agent was installed and connected. Fixed.
-- **Tag support - cloud migrations**.  A new tag feature lets you to sort, organize, and navigate through a large quantity of sources and users. Available for cloud migrations only.
+- **Tag support - cloud migrations**.  A new tag feature lets you sort, organize, and navigate through a large quantity of sources and users. Available for cloud migrations only.
 
 
 ## November 2021
