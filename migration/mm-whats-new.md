@@ -28,7 +28,8 @@ We're continuously adding new features to Migration Manager and fixing issues we
 
 Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page.  
 
-
+## October 2022-
+- **Change**.  We are no longer able to convert Box notes to a .docx file during migration.
 
 ## June 2022
 - **Fix: Google proprietary file formats failed to migrate**. Some Google files (mainly  Google slides) failed to migrate showing the error code, "MFILESIZEINCORRECT". This has been fixed. Rerun any failed tasks to migrate these files.
