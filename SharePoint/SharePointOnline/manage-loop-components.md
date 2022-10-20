@@ -53,7 +53,7 @@ To enable Loop components, run `Set-SPOTenant -IsLoopEnabled $true`. The change 
 
 The feature will be available on Teams Windows Desktop, Mac, iOS, Android, and web. When enabled, users will see a new option for inserting Loop components in the message compose experience for these clients.
 
-To disable Loop components, run `Set-SPOTenant -IsLoopEnabled $false`. The change will take a short time to apply across your organization. If your organization has multiple regions (i.e. organization URLs), you need to disable Loop components for all the regions to have consistent results across the organization.
+To disable Loop components, run `Set-SPOTenant -IsLoopEnabled $false`. The change will take a short time to apply across your organization. If your organization has multiple regions (that is, organization URLs), you need to disable loop components for all the regions to have consistent results across the organization.
 
 ## Settings management for Outlook
 
