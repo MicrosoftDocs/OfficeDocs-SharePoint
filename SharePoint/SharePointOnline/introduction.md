@@ -106,7 +106,7 @@ Administrators are often called upon to teach others in the organization how to 
 |Get a list of training resources for your users|[Training and change management for rolling out SharePoint and OneDrive](training-change-management.md)|
 |Set up a customizable training portal with Microsoft training content for your organization|[Microsoft 365 learning pathways](/office365/customlearning/)|
 |Show your users the basics of SharePoint|[SharePoint help & learning](https://support.office.com/sharepoint)|
-|Show your users the basics of OneDrive|[OneDrove help & learning](https://support.office.com/onedrive)|
+|Show your users the basics of OneDrive|[OneDrive help & learning](https://support.office.com/onedrive)|
 
 ## Customization
 
