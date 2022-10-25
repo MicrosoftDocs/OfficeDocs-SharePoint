@@ -77,7 +77,7 @@ Before you start your installation of the on-premises Microsoft Business Connect
     
 - You have an account that has permissions to administer the Secure Store Service service application
     
-- Download the [AdventureWorks sample database](https://go.microsoft.com/fwlink/?LinkId=260952) from Codeplex downloads for SQL Server. This database must be installed and functioning on your SQL Server 
+- Download the [AdventureWorks sample database](/sql/samples/adventureworks-install-configure) from Codeplex downloads for SQL Server. This database must be installed and functioning on your SQL Server 
     
 - Create an Active Directory directory Service (AD DS) security group and add the users who will be using this BCS solution, for example create a group that is named AdventureWorksBCSUsers
     
@@ -87,7 +87,7 @@ The AdventureWorks sample database is developed and published by Microsoft. The 
   
  **How to download and install the AdventureWorks sample database**
   
-1. From a browser, go to [AdventureWorks sample database](https://go.microsoft.com/fwlink/?LinkId=260952) and download the AdventureWorks2008R2_Data.mdf file. 
+1. From a browser, go to [AdventureWorks sample database](/sql/samples/adventureworks-install-configure) and download the AdventureWorks2008R2_Data.mdf file. 
     
 2. Install the Adventure Works2008R2 sample database by following the procedures in the "Readme for AdventureWorks 2008 R2 Sample Database" section of the [SQL Server Samples Readme (en-US)](https://go.microsoft.com/fwlink/?LinkId=260956) page. 
     
