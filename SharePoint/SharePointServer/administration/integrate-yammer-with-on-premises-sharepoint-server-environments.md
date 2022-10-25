@@ -70,6 +70,6 @@ For more information, see [Social scenarios with Yammer and SharePoint Server](s
 
 #### Other Resources
 
-[Yammer - Admin Help](/yammer/)
-
-[Yammer Customer Success Center](https://go.microsoft.com/fwlink/p/?LinkID=331300)
+[Yammer Adoption](https://adoption.microsoft.com/yammer/)
+[Yammer Admin Guide](https://aka.ms/TheYammerAdminGuide)
+[Yammer Help Center](https://support.microsoft.com/office/yammer-help-center-8663922d-8f76-47c2-827a-ee86e8cac00f)
