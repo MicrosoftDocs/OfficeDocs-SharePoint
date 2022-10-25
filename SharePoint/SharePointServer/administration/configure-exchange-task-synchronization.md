@@ -20,7 +20,7 @@ description: "Configuring Exchange Server 2016 and SharePoint Server for task sy
 
 [!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)]
   
-Configuring task Synchronization can be relatively complex. By following the guidance below, you should be able to quickly configure task synchronization between your Exchange Server 2016, SharePoint Server 2013 and Project Server 2013 environments. This is great functionality for any business, because you are able to integrate tasks from different applications into one application, like Outlook 2016 or SharePoint MySites.
+Configuring task Synchronization can be relatively complex. By following the guidance below, you should be able to quickly configure task synchronization between your Exchange Server 2016, SharePoint Server 2013 and Project Server 2013 environments. This is great functionality for any business, because you're able to integrate tasks from different applications into one application, like Outlook 2016 or SharePoint MySites.
   
 > [!NOTE]
 > It's possible you came here looking for the OOF Integration between Project Server and Exchange topic. If that's the case, see [Exchange Server calendar OOF integration with Project Server 2013](/project/exchange-server-calendar-oof-integration-with-project-server-2013). 
@@ -33,7 +33,7 @@ Configuring task Synchronization can be relatively complex. By following the gui
 
 What you need to know before you begin:
   
-- For SharePoint, **User profile synchronization** needs to be up and running, this typically means having a **User Profile service application** working in Central Administration, with the **synchronization service** running as well. There's further reading on this at the following links: [User profiles and identities](user-profiles-and-identities.md), and [Manage user profile synchronization in SharePoint Server](manage-profile-synchronization.md).
+- For SharePoint, **User profile synchronization** needs to be up and running, which typically means having a **User Profile service application** working in Central Administration, with the **synchronization service** running as well. There's further reading on this topic at the following links: [User profiles and identities](user-profiles-and-identities.md), and [Manage user profile synchronization in SharePoint Server](manage-profile-synchronization.md).
     
 - You'll also need to have the **Work Management service application** running for your SharePoint farm. 
     
@@ -50,19 +50,19 @@ What you need to know before you begin:
 ## Downloading and Installing Exchange Server Web Services API on SharePoint Server
 <a name="begin"> </a>
 
-We'll start by getting a copy of the [**EWSManagedAPI.msi** via nuget](https://github.com/OfficeDev/ews-managed-api/blob/master/README.md). Download this to each application server (App server) in your SharePoint environment. These are the servers which users browse to when going to your SharePoint site. This component is needed for SharePoint and Exchange to be able to have this cross-product functionality. You need to install the EWSManagedAPI.msi file via a command-line window. Open that window as an administrator, then make sure you change directories as needed to get to the location of the downloaded file. You'll need to run this one line of script once you're there, exactly as you see it below:
+We'll start by getting a copy of the [**EWSManagedAPI.msi** via nuget](https://github.com/OfficeDev/ews-managed-api/blob/master/README.md). Download this file to each application server (App server) in your SharePoint environment. These are the servers which users browse to when going to your SharePoint site. This component is needed for SharePoint and Exchange to be able to have this cross-product functionality. You need to install the EWSManagedAPI.msi file via a command-line window. Open that window as an administrator, then make sure you change directories as needed to get to the location of the downloaded file. You'll need to run this one line of script once you're there, exactly as you see it below:
   
 ```
 msiexec /i EwsManagedApi.msi addlocal="ExchangeWebServicesApi_Feature,ExchangeWebServicesApi_Gac"
 ```
 
-This will start the EWS API 2.2. wizard, where you'll be able to accept the license agreement terms and then get to the following screen.
+This command will start the EWS API 2.2. wizard, where you'll be able to accept the license agreement terms and then get to the following screen.
   
-![This is a screenshot of the MS Exchange Managed API install window.](../media/EWS_ManagedAPI_Install1.png)
+![Screenshot of the MS Exchange Managed API install window.](../media/EWS_ManagedAPI_Install1.png)
   
 Leave the install folder at the default, unless you need to put it somewhere else (like a different drive). You can choose the Everyone radio button for install. And that's it! Go ahead and choose Next to have the install proceed.
   
-![This is a screenshot of the MS Exchange Managed API install bar.](../media/EWS_ManagedAPI_Install2.png)
+![Screenshot of the MS Exchange Managed API install bar.](../media/EWS_ManagedAPI_Install2.png)
   
 You get to look at this while the install happens. Once the install completes, you close out of the wizard.
   
@@ -72,8 +72,8 @@ Now that the wizard's completed successfully, you'll need to run an IISReset on 
 <a name="begin"> </a>
 
 What we need to do now is to establish an OAuth trust on the Exchange Server. This is a one-way trust that lets Exchange know the SharePoint environment is safe to partner with in this way.
-  
-Run this script (It's installed with Exchange, so it's already there) from the Exchange Management Shell on all Exchange Mailbox servers in your organization from this location, "C:\Program Files\Microsoft\Exchange Server\V15\Scripts.":
+
+Run this script (it's installed with Exchange, so it's already there) from the Exchange Management Shell on all Exchange Mailbox servers in your organization from this location, "C:\Program Files\Microsoft\Exchange Server\V15\Scripts.":
   
 ```
 .\Configure-EnterprisePartnerApplication.ps1 -ApplicationType Sharepoint -AuthMetadataUrl https://<SP_FQDN>/_layouts/15/metadata/json/1
@@ -95,7 +95,7 @@ I mentioned up above that you might need to manually trust a certificate if you'
     
 - Browse to your SharePoint site that's running with a self-SSL certificate (it will start with https).
     
-- When you are prompted that the site's unsafe, choose **Continue to website**. 
+- When you're prompted that the site's unsafe, choose **Continue to website**. 
     
 - When you get to the site, there should be a **Certificate Error** item by the address bar in IE, select that. 
     
