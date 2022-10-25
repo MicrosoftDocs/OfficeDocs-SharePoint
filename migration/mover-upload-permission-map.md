@@ -56,7 +56,7 @@ For example:
 `joshua@example.com, jbadach@example.com`</br>
 `Sales Team,Global Sales Team`
 
-![Excel overview](media/excel-overview.png)
+![Screenshot that shows the Excel overview.](media/excel-overview.png)
 
 ### Exporting a permission map
 
