@@ -358,7 +358,7 @@ Microsoft has released an optional security update for .NET Framework 4.5, 4.5.1
   
  **For Windows 7 and Windows Server 2008 R2**
   
-- To enable strong cryptography in .NET Framework 4.5 and 4.5.1 on Windows 7 and Windows Server 2008 R2, see the KB article `Description of the security update for the .NET Framework 4.5 and the .NET Framework 4.5.1 on Windows 7 Service Pack 1 and Windows Server 2008 R2 Service Pack 1: May 13, 2014`.
+- To enable strong cryptography in .NET Framework 4.5 and 4.5.1 on Windows 7 and Windows Server 2008 R2, see [MS14-026: Vulnerability in the .NET Framework could allow elevation of privilege: May 13, 2014](https://support.microsoft.com/topic/ms14-026-vulnerability-in-the-net-framework-could-allow-elevation-of-privilege-may-13-2014-0c1c8c0b-f2cc-6367-e54d-98f827259eab) (formerly published as KB article 2938782, "Description of the security update for the .NET Framework 4.5 and the .NET Framework 4.5.1 on Windows 7 Service Pack 1 and Windows Server 2008 R2 Service Pack 1: May 13, 2014").
     
 - To enable strong cryptography in .NET Framework 4.5.2 on Windows 7 and Windows Server 2008 R2, see the KB article [Description of the security update for the .NET Framework 4.5.2 on Windows 7 Service Pack 1 and Windows Server 2008 R2 Service Pack 1: May 13, 2014](https://support.microsoft.com/kb/2954853).
     
