@@ -49,7 +49,7 @@ https://<i></i>contoso.sharepoint.<i></i>com/sites/*projectx*
 to
 https://<i></i>contoso.sharepoint.<i></i>com/sites/*projecty* 
 
-You can't move the site from "/sites" to "/teams." For info about changing your SharePoint domain name, see [Change your SharePoint domain name (preview)](change-your-sharepoint-domain-name.md).
+You can't move the site from "/sites" to "/teams." For info about changing your SharePoint domain name, see [Change your SharePoint domain name](change-your-sharepoint-domain-name.md).
 
 It can take about 10 minutes to change the site address (depending on the size of the site), and the site will be read-only during this time. We recommend changing addresses during times when site usage is low. 
 
