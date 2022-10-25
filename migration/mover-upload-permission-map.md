@@ -66,4 +66,4 @@ You can export a permission map in CSV format.
 2. Select **Save As**.
 3. From the **File Format** options, select **CSV**.
 
-![Excel save as csv](media/excel-save-as-csv.png)
+![Screenshot that shows the Excel save as csv feature.](media/excel-save-as-csv.png)
