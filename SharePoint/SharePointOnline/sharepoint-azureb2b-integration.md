@@ -50,7 +50,7 @@ This integration isn't supported in the following Microsoft 365 services:
 ## Enabling the integration
 
  > [!NOTE]
- > When the integration is enabled, people outside the organization will be invited via the Azure B2B platform when sharing from SharePoint. They will sign in based on the [Azure AD B2B redemption policy](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/redemption-experience#invitation-redemption-flow).
+ > When the integration is enabled, people outside the organization will be invited via the Azure B2B platform when sharing from SharePoint. They will sign in based on the [Azure AD B2B redemption policy](/azure/active-directory/external-identities/redemption-experience#invitation-redemption-flow).
 > When the integration isn't enabled, people outside the organization will continue to use their existing accounts created when previously invited to the tenant. Any sharing to new people outside the organizaton may result in either Azure AD-backed accounts or SharePoint-only email auth guests that use a SharePoint One Time Passcode experience to sign in.
 
  >[!NOTE]
