@@ -54,5 +54,5 @@ Download the [System Center Management Pack](https://go.microsoft.com/fwlink/?Li
 [System Center Operations Manager knowledge articles for SharePoint Server](../technical-reference/system-center-operations-manager-knowledge-articles.md)
 #### Other Resources
 
-[About SharePoint](https://dev.office.com/sharepoint)
+[About SharePoint](https://support.microsoft.com/office/what-is-sharepoint-97b915e6-651b-43b2-827d-fb25777f446f)
 
