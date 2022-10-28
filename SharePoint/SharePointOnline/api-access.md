@@ -49,7 +49,6 @@ The API access page shows pending and approved requests. It also shows which req
     > Permissions of type delegated are added to the _SharePoint Online Client Extensibility Web Application Principal_ in Azure AD.
     > If you try to approve a permission request for a resource that already has some permissions granted (for example, granting additional permissions to the Microsoft Graph), the requested scopes are added to the previously granted permissions.
 
-
 ## Reject a pending request
 
 1. Select the request, and select **Reject**.
