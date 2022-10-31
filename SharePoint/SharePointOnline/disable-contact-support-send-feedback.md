@@ -18,13 +18,12 @@ description: "This article describes how global and SharePoint admins in Microso
 # Prevent users from contacting Microsoft directly
 
 > [!NOTE]
-> The ability of OneDrive for business end users contacting Microsoft directly in the form of support tickets will be disabled before end of calendar year 2022. </br>
-End users can still Send Feedback as usual, for any issues that need deeper troubleshooting Administrator of the Organization need to be contacted first.</br>
-This applies to OneDrive app on Windows, Mac, iOS, and Android devices. </br>
-
->For Windows and Mac: ‘Contact support’ will be disabled in future updates and for existing or old versions it will not work as expected. </br>
->For Android: ‘Report a Problem’ will create a feedback item instead of a support ticket.</br>
->For iOS: ‘Ask for help’ will be disabled in future updates and for existing or old versions it will not work as expected. ‘Report a Problem’ will create a feedback item instead of a support ticket. 
+> The ability of OneDrive users to contact Microsoft directly in the form of support tickets will be disabled before end of calendar year 2022. </br>
+Users can still send feedback as usual, but will need to contact an administrator for any issues that need deeper troubleshooting.</br>
+This applies to the OneDrive app on Windows, Mac, iOS, and Android devices. </br>
+> For Windows and Mac: ‘Contact support’ will be disabled in future updates and for existing or old versions it will not work as expected. </br>
+> For Android: ‘Report a Problem’ will create a feedback item instead of a support ticket.</br>
+> For iOS: ‘Ask for help’ will be disabled in future updates and for existing or old versions it will not work as expected. ‘Report a Problem’ will create a feedback item instead of a support ticket. 
 
 The OneDrive sync app (OneDrive.exe) allows users to contact Microsoft directly from within the app. Users can:
 
