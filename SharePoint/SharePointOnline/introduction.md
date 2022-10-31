@@ -23,7 +23,7 @@ description: "Learn about SharePoint and OneDrive in Microsoft 365, which are cl
 
 # Introduction to SharePoint and OneDrive in Microsoft 365
 
-SharePoint and OneDrive in Microsoft 365 are cloud-based services that helps organizations share and manage content, knowledge, and applications to: 
+SharePoint and OneDrive in Microsoft 365 are cloud-based services that help organizations share and manage content, knowledge, and applications to: 
 
 - Empower teamwork
 - Quickly find information
