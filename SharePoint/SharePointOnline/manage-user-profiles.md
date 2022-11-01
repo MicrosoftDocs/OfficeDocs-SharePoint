@@ -76,7 +76,7 @@ Follow these steps to transfer ownership of a OneDrive to a different user, or g
 
 For info about automatically transferring ownership of OneDrive to a user's manager when the user account is marked for deletion, see [Set up access delegation](/onedrive/retention-and-deletion).
   
-## Manage audiences (Classic experience)
+## Manage audiences (classic experience)
 <a name="manageaudiences"> </a>
 
 Audiences let you customize content on pages so that it appears only to particular people based on their:
