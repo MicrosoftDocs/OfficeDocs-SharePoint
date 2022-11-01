@@ -32,7 +32,6 @@ If you're a SharePoint Administrator in your organization, you're probably asked
 - Which queries are getting low clicks as they're not showing up in any results?
 - How often are query rules firing and how often are people clicking promoted results?
 
-
 ## To view a report
 
 To view search usage reports in modern sites, navigate to **Site settings** > **Site collection administration** > **Microsoft Search** > **Configure search settings** > **Insights**.
