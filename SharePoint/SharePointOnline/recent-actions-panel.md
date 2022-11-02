@@ -17,7 +17,7 @@ description: "Learn how to review recent actions in SharePoint admin center."
 ---
 # Review recent Sharepoint site actions in SharePoint admin center
 
-With recent actions panel, you can make changes to SharePoint site properties and review your most recent 30 actions in [SharePoint admin center](/sharepoint/get-started-new-admin-center).
+With the recent actions panel, you can make changes to SharePoint site properties and review your most recent 30 actions in the [SharePoint admin center](/sharepoint/get-started-new-admin-center).
 
 Changes to site properties like site name, site deletion and storage quota, show as recent actions. The panel shows the previous and current values of site properties, which can be useful when tracking changes.
 
@@ -27,7 +27,7 @@ You can also download a .csv file of all your changes made in the last 30 days.
 
 ## View recent actions of a site
 
-1. In  the SharePoint admin center, expand **Sites** and select **Active sites**.
+1. In the SharePoint admin center, expand **Sites** and select **Active sites**.
 2. Select **Your recent actions**. The recent actions panel appears on the right and lists your most recent 30 actions made within the last 30 days.
 3. You can select **Export** to download the list as a .csv file.
 4. Select **View site details** to open the site info panel. From here, you can make changes to site properties like site name, site address, hub association, and aliases.
