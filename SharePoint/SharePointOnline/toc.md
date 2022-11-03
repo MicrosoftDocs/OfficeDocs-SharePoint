@@ -102,6 +102,7 @@
 ### [Delete sites](delete-site-collection.md)
 ### [Restore deleted sites](restore-deleted-site-collection.md)
 ### [Manage site admins](manage-site-collection-administrators.md)
+### [Review recent site actions](recent-actions-panel.md)
 ### [Manage site creation](manage-site-creation.md)
 ### [Manage site storage limits](manage-site-collection-storage-limits.md)
 ### [Change site addresses](change-site-address.md)
