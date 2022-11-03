@@ -609,15 +609,15 @@ In the design samples, the published intranet site collection incorporates expli
   
 The use of explicit inclusions results in the URLs:
   
-- https://intranet.fabrikam.com
+- `https://intranet.fabrikam.com`
     
-- https://intranet.fabrikam.com/hr
+- `https://intranet.fabrikam.com/hr`
     
-- https://intranet.fabrikam.com/facilities
+- `https://intranet.fabrikam.com/facilities`
     
-- https://intranet.fabrikam.com/purchasing
+- `https://intranet.fabrikam.com/purchasing`
     
-In this example, the root site collection, http://intranet.fabrikam.com, represents the default home page for the intranet. This site is intended to host content for users.
+In this example, the root site collection, `http://intranet.fabrikam.com`, represents the default home page for the intranet. This site is intended to host content for users.
   
 ### Wildcard inclusions: Team Sites, My Sites, and Partner Web
 
@@ -629,13 +629,13 @@ Within the Team Sites application, wildcard inclusion is used for each team site
   
 The use of wildcard inclusions results in the URLs: 
   
-- https://teams.fabrikam.com/sites/Team1
+- `https://teams.fabrikam.com/sites/Team1`
     
-- https://teams.fabrikam.com/sites/Team2
+- `https://teams.fabrikam.com/sites/Team2`
     
-- https://teams.fabrikam.com/sites/Team3
+- `https://teams.fabrikam.com/sites/Team3`
     
-In this example, the root site collection, https://teams.fabrikam.com, does not necessarily host content for users.
+In this example, the root site collection, `https://teams.fabrikam.com`, does not necessarily host content for users.
   
 ### My Sites
 
@@ -643,11 +643,11 @@ My Sites offer self-service site creation. When a user who browses the intranet 
   
 This results in URLs of the format:
   
-- https://my.fabrikam.com/personal/User1
+- `https://my.fabrikam.com/personal/User1`
     
-- https://my.fabrikam.com/personal/User2
+- `https://my.fabrikam.com/personal/User2`
     
-- https://my.fabrikam.com/personal/User3
+- `https://my.fabrikam.com/personal/User3`
     
 ### Partner web
 
@@ -655,21 +655,21 @@ If path-based site collections are used, you can implement the self-service site
   
 In Corporate Portal design samples, the partner web application includes a wildcard inclusion named /sites (http://partnerweb/sites). This results in URLs of the following format:
   
-- https://partnerweb.fabrikam.com/sites/Project1
+- `https://partnerweb.fabrikam.com/sites/Project1`
     
-- https://partnerweb.fabrikam.com/sites/Project2
+- `https://partnerweb.fabrikam.com/sites/Project2`
     
-- https://partnerweb.fabrikam.com/sites/Project3
+- `https://partnerweb.fabrikam.com/sites/Project3`
     
 ### Coordinating URLs with AAM and DNS
 
 If path-based site collections are implemented, configure alternate access mappings (AAM) for each site URL in the farm. This makes sure that web requests are mapped to the correct site, especially in environments that use load balancing or reverse proxy technologies.
   
-Single-name URLs, such as http://teams, can be configured for intranet access. A client computer resolves these URLs by appending the DNS suffix of the client computer, such as fabrikam.com, and then issuing a DNS lookup for the name with the suffix. For example, when a client computer in the fabrikam.com domain requests http://teams, the computer sends a request to DNS for http://teams.fabrikam.com.
+Single-name URLs, such as http://teams, can be configured for intranet access. A client computer resolves these URLs by appending the DNS suffix of the client computer, such as fabrikam.com, and then issuing a DNS lookup for the name with the suffix. For example, when a client computer in the fabrikam.com domain requests http://teams, the computer sends a request to DNS for `http://teams.fabrikam.com`.
   
 DNS must be configured to use an A record, or AAAA for IPv6, for each fully qualified domain name (FQDN). The record points to the load-balanced IP address for the web servers that host a site. In a typical production deployment, servers are configured to use statically assigned IP addresses, in addition to statically assigned A or AAAA records in DNS.
   
-After a client browser receives the load-balanced IP address, the client browser connects to a front-end web server in the farm, and then sends an HTTP request that has the original single-name URL, http://teams. IIS and SharePoint Server recognize this as a request for the Intranet zone, based on the settings that are configured in alternate access mappings. If a user instead requests https://teams.fabrikam.com, the process is similar, but IIS and SharePoint Server receive this FQDN instead, and therefore recognize this request for the Default zone.
+After a client browser receives the load-balanced IP address, the client browser connects to a front-end web server in the farm, and then sends an HTTP request that has the original single-name URL, http://teams. IIS and SharePoint Server recognize this as a request for the Intranet zone, based on the settings that are configured in alternate access mappings. If a user instead requests `https://teams.fabrikam.com`, the process is similar, but IIS and SharePoint Server receive this FQDN instead, and therefore recognize this request for the Default zone.
   
 In environments that have multiple domains, enter CNAME records for DNS in the domains that the sites do not reside in. For example, if the Fabrikam network environment includes a second domain named europe.fabrikam.com, CNAME records are entered for these sites in the Europe domain. For the Team Sites intranet site (http://teams), a CNAME record named teams is added to the europe.fabrikam.com domain that points to teams.fabrikam.com. Then, when a client computer's DNS suffix is appended to DNS lookup requests, a request for http://teams from the Europe domain will issue a DNS lookup of teams.europe.fabrikam.com, and will be directed by the CNAME record to teams.fabrikam.com.
   
