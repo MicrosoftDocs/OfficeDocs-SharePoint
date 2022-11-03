@@ -1,5 +1,5 @@
 ---
-title: "Review recent SharePoint site actions in SharePoint admin center"
+title: "Review recent SharePoint site actions"
 ms.reviewer: rammenon
 manager: serdars
 recommendations: true
@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 description: "Learn how to review recent actions in SharePoint admin center."
 ---
-# Review recent SharePoint site actions in SharePoint admin center
+# Review recent SharePoint site actions
 
 With the recent actions panel, you can make changes to SharePoint site properties and review your most recent 30 actions in the [SharePoint admin center](/sharepoint/get-started-new-admin-center).
 
@@ -34,7 +34,7 @@ You can also download a .csv file of all your changes made in the last 30 days.
 
 ## Bulk site edits
 
-Bulk edits are listed as one action item in the recent actions panel. Select a bulk action item to see a list of sites affected by a bulk edit. Bulks edits are listed as separate items in the .csv file. The bulk edit column of the report lets you quickly filter which changes were part of a bulk edit.
+Bulk edits are listed as one action item in the recent actions panel. Select a bulk action item to see a list of sites affected by a bulk edit. Bulk edits show as separate items in the .csv file. The bulk edit column lets you quickly filter which changes were part of a bulk edit.
 
 Here’s an example of how bulk edits are grouped as one action in the recent actions panel:
 
