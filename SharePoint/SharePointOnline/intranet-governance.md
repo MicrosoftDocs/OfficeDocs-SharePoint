@@ -103,7 +103,6 @@ Each organization will have its own set of policies and guidelines. General topi
 - Guidelines for Teams chat and Yammer conversations - including more than just [messaging policies](/microsoftteams/messaging-policies-in-teams) for Teams and [how to participate in a Yammer conversation](https://support.microsoft.com/office/join-the-conversation-in-yammer-873100a0-0fac-4f93-88f7-1a0945ec93ed), but also conversation guidelines (such as using @mentions sparingly and organization-specific “do’s and don’ts”).
 - [User profiles](https://support.microsoft.com/office/update-your-profile-0ddb9ebf-2850-4533-b07f-cba2c90acbc1) – including expectations for the About me statement and expectations for skills and expertise (for example, how well do you have to know a topic to list it in the skills and expertise area of your profile?).
 - Organizational policies and guidelines for intranet site names, file names, [Microsoft 365 group names](/microsoft-365/admin/create-groups/groups-naming-policy), etc.
-- Learn more about [Microsoft 365 intranet governance decisions](https://view.officeapps.live.com/op/view.aspx?src=https://storage.snappages.site/op8ir2nu2f/assets/files/Governance_Policy_and_Guideline_Question-76.pptx).
 
 
 ### Site provisioning and decommissioning
