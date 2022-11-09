@@ -1,5 +1,5 @@
 ---
-title: "Manage automated form processing"
+title: "Manage automated document processing"
 ms.reviewer: ssquires
 ms.author: toresing
 author: tomresing
@@ -16,11 +16,11 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 0d84b4ce-a1d4-4e58-9ff0-eda67f96d332
-description: "Admins control the visibility of form processing in SharePoint document libraries through the admin center."
+description: "Admins control the visibility of document processing in SharePoint document libraries through the admin center."
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Manage automated form processing
+# Manage automated document processing
 
 Admins can show or hide [automated document processing options in SharePoint document libraries](https://support.office.com/article/form-processing-in-sharepoint-cecf236f-224d-4630-9082-b5c79e0cd59a) through the admin center. 
 
