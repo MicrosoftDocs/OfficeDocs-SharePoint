@@ -24,7 +24,8 @@ description: "Learn how to block external sharing of newly added SharePoint and 
 
 When new files are added to SharePoint or OneDrive in Microsoft 365, it takes a while for [Microsoft Purview Data Loss Prevention (DLP) policy](/microsoft-365/compliance/dlp-learn-about-dlp) to scan the content and apply rules to help protect sensitive content. If external sharing is turned on, sensitive content could be shared and accessed by guests before the DLP rule finishes processing.
 
-Instead of turning off external sharing entirely, you can mark the files in your organization as sensitive by default. This blocks guest access to new content until it has been scanned for sensitive content and DLP policies that include content-based conditions are applied. Guests are notified that the file is being scanned if they attempt to access it during this time.
+![BlockExternalAccess-TeamsView](https://user-images.githubusercontent.com/117855391/200910696-f050d580-92b4-45e2-805c-3c9ec58a94c7.png)![BlockExternalAccess-WebView](https://user-images.githubusercontent.com/117855391/200910708-937a2e0a-6b41-469e-b955-7e4cdb0f227d.png)
+
 
 Once a file has been crawled and no content that would block sharing per DLP rules has been detected, guests can access the file. If the policy identifies sensitive content in the document that matches DLP rules, the normal behavior defined by those DLP rules will be applied. 
 
