@@ -39,3 +39,6 @@ Same as the migration experience, you can add a new scan by following the wizard
 
 :::image type="content" source="media/spmt-4-scan-select-method.png" alt-text="select a scan method - single or bulk":::
 
+3. Enter the URL locatin of the site you want to scan:
+
+:::image type="content" source="media/spmt-scan-single-site-url.png" alt-text="enter the url location of the site you want to scan":::
