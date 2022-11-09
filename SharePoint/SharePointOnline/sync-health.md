@@ -257,6 +257,14 @@ This section describes known limitations and considerations in sync reporting.
 
 There is negligible impact to a network after enabling the sync reports setting on devices.
 
+**Storage in the EU** *How is data stored in the EU geo?* 
+
+Microsoft continues its commitment to meet and exceed the requirements of EU data protection laws. All data storage is EU Data Boundary compliant. 
+
+**Microsoft Power BI** *Are there Power BI templates available?*
+
+There are no Power BI templates available for sync reports.
+
 ## Troubleshooting
 
 Use this section to troubleshoot if the OneDrive sync reports don't appear after three days.
