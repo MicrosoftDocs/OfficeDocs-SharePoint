@@ -33,6 +33,56 @@ Download and install SPMT using one of the links listed below.
 |:-----|:-----|:-----|:-----|:-----|
 |Last released build|[3.5.123.6](https://aka.ms/spmt-beta-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|
 
+## SPMT 4.0
+
+SPMT 4.0 is a major new release, incorporating new designs and an integrated SharePoint Server assessment feature, giving users a more streamlined and scenario driven experience.
+
+### What’s new in this release
+
+
+- The user interface has been improved to guide users get their migration job done by scenarios.
+- A new page navigation design makes it easier for users to manage migration tasks.
+- Integrated SharePoint server assessment experience streamlines SharePoint server migration experience.
+- 
+Start your migration by scenarios
+The new SPMT landing page presents you with straightforward entry points to three main migration scenarios: 
+SharePoint scan
+SharePoint migration
+File share migration
+The number of currently running tasks for each scenario can give you a quick glance at the migration status.
+
+The “add new migration” flow guides you to enter different sub-migration scenarios with clear context and user interactions. This lets you focus on one scenario to get the configuration done faster.
+
+
+### Better manage your migration tasks 
+SPMT 4.0 comes with a new page navigation design that makes it easier for you to manage migration tasks.
+You can manage all migrations or scans on its own list page. 
+You can utilize search and filters to locate the specific tasks. 
+You can view the migration progress by clicking on the name link.
+You can use the buttons on the toolbar to start, stop, delete, and edit a migration.
+
+When you start a migration from either add new migration wizard or migration list page, SPMT launches a migration progress page where you can watch the status changes. Unlike the previous release, in SPMT 4.0, you don’t have to wait for the migration to be completed. You can just dismiss the page by clicking “Back to list” and work on other tasks in the app. 
+
+Once the migration is completed or failed, you will receive a toast message showing the status. The “See details” link brings you back to the progress page where includes details of the migration.
+ 
+ 
+
+Streamline your SharePoint server migration with assessment
+SPMT4.0 integrates SharePoint server assessment in the tool. You can assess SharePoint Server content before migration and execute migration jobs within SPMT.
+As with the migration experience, you can add a new scan by following the wizard and managing all your scan tasks on the scan list page.
+
+
+Selecting the source URL link on the scan list page will prompt you to the scan result dashboard. The dashboard presents the overview information of site inventory and potential migration risks.
+
+Scroll down below inventory numbers, you can see breakdown by content types and risk types.  
+
+
+An excel report can be downloaded for you to do deeper analysis.
+
+
+
+
+
 ## SPMT 3.5.123.6
 
 **Improvements**
