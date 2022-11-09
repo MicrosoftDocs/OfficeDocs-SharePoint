@@ -23,7 +23,7 @@ ms.custom:
 description: "Learn about the risk assessment errors in the SharePoint Migration Tool (SPMT)."
 --- 
 
-# SharePoint Migration Tool Risk Scan error codes
+# SharePoint Migration Tool (SPMT) scan assessment error codes
 
 |Error Code	|Description|User Action / Explanation|
 |:-----	|:-----	|:-----	|:-----|
