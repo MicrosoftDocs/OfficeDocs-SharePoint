@@ -66,5 +66,5 @@ Answer:  No.  We automatically suppress all emails to users so they aren't bomba
 **Question:** Does Migration Manager transfer permissions for shared drives? </br>
 Answer: No. During a migration, we only transfer permissions for user drives. Permissions for shared drives aren't migrated. [Learn how to migrate Google Shared Drives](/sharepointmigration/mm-google-overview#google-shared-drives)
 
-**Question:**  What can't Migration Manager migrate from Google?
+**Question:**  What can't Migration Manager migrate from Google?</br>
 Answer: Google does not allow us to export drawings, forms, sites, and maps from Google Drive. [Learn more about what isn't migrated](/sharepointmigration/mm-google-overview#what-isnt-migrated)
