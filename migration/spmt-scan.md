@@ -24,7 +24,7 @@ description: "Learn how to scan and review a SharePoint Server site using the Sh
 --- 
 # Scan and assess a SharePoint Server site with SPMT
 
->[Note:]
+>[!Note:]
 >This feature is currently in public preview and subject to change without notice. Normal service level agreements do not apply.
 
 
