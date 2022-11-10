@@ -35,9 +35,6 @@ As security and compliance requirements increase across industries and the amoun
    - Sensitivity labels applied to files
      :::image type="content" source="media/data-access-governance-screen.png" alt-text="Data access governance page":::
      
-> [!NOTE]
-> This feature is available for E5 or A5 subscription plans only.
-
 ## Sharing links reports
 
 The Sharing links reports help you identify potential oversharing by seeing the sites where users created the most new sharing links. A report is available for the following links:
