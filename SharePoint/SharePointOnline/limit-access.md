@@ -22,6 +22,8 @@ description: "In this article, you'll learn how to all only users in specified s
 
 # Limit OneDrive access by security group
 
+[!INCLUDE[Advanced Management](includes/advanced-management.md)]
+
 Use this setting if you want to allow only users in specified security groups to access OneDrive. Even if other users outside of these security groups are licensed for OneDrive, they won’t have access to their own OneDrive or any shared OneDrive content.
 
 ## Requirements

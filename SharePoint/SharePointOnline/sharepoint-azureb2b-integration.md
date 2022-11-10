@@ -69,7 +69,6 @@ To enable SharePoint and OneDrive integration with Azure AD B2B
 
    ```PowerShell
    Set-SPOTenant -EnableAzureADB2BIntegration $true
-   Set-SPOTenant -SyncAadB2BManagementPolicy $true
    ```
 
 ## Disabling the integration
