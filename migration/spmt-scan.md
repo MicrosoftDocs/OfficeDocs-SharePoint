@@ -31,8 +31,7 @@ description: "Learn how to scan and review a SharePoint Server site using the Sh
 SPMT 4.0 integrates SharePoint Server assessment directly in the tool. You can now scan your source sites before migration, review the assessment results, and make any changes before you start your migration.
 
 Same as the migration experience, you can add a new scan by following the prompts and manage all your scan tasks in the scan list page.
-
-   :::image type="content" source="media/spmt-4-home.png" alt-text="new landing page for spmt 4":::
+    :::image type="content" source="media/spmt-4-home.png" alt-text="new landing page for spmt 4":::
 
 ## Scan and assess
 
