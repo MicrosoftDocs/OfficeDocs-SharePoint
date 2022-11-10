@@ -39,6 +39,12 @@ Same as the migration experience, you can add a new scan by following the wizard
 
 :::image type="content" source="media/spmt-4-scan-select-method.png" alt-text="select a scan method - single or bulk":::
 
-3. Enter the URL locatin of the site you want to scan:
+3. Enter the URL location of the site you want to scan and then select **Start**.  Alternatively, you can choose to save this scan and run it at a later time.
 
 :::image type="content" source="media/spmt-scan-single-site-url.png" alt-text="enter the url location of the site you want to scan":::
+
+4. All you scans are listed for you to review.  Select the source URL link to launch the scan dashboard.
+
+:::image type="content" source="media/spmt-4-scans-list.png" alt-text="view the list of scans":::
+
+5. The dashboard screen gives you a summary of the site content inventory and potential migration risks.  Review the inventory and risk breakdown by sc rolling down to the bottom of the dashboard.
