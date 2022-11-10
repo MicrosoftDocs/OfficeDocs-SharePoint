@@ -30,4 +30,4 @@ Admins can show or hide [automated document processing options in SharePoint doc
  
   * You no longer need to configure the flows to process existing files.
   * The information will be available in the values of the columns in the library. 
-* The [default environment for the Power Platform](/power-platform/admin/environments-overview#the-default-environment) will be used for all form processing models built through these options.
+* The [default environment for the Power Platform](/power-platform/admin/environments-overview#the-default-environment) will be used for all document processing models built through these options.
