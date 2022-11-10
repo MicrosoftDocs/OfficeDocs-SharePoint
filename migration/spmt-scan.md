@@ -49,7 +49,7 @@ Same as the migration experience, you can add a new scan by following the prompt
 
     :::image type="content" source="media/spmt-4-scans-list.png" alt-text="view the list of scans":::
 
-5. The dashboard screen gives you a summary of the site content inventory and potential migration risks. Review the inventory and risk breakdown by scrolling down to the bottom of the dashboard.
+5. The dashboard screen gives you a summary of the site content inventory and potential migration risks. Review the inventory and risk breakdown by scrolling down to the bottom of the dashboard.  Select **Download report** to view the full details.
 
     :::image type="content" source="media/spmt-4-scan-dashboard-results.png" alt-text="review the scan results on the dashboard":::
 
