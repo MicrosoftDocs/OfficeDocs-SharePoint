@@ -24,7 +24,6 @@ description: "Learn about the new features and updates to existing features in S
 
 Learn about the new features and updates to existing features in SharePoint Migration Tool.
   
-
 ## Current and pre-release versions
 
 Download and install SPMT using one of the links listed below.  
@@ -39,48 +38,42 @@ SPMT 4.0 is a major new release, incorporating new designs and an integrated Sha
 
 ### What’s new in this release
 
-
 - The user interface has been improved to guide users get their migration job done by scenarios.
 - A new page navigation design makes it easier for users to manage migration tasks.
 - Integrated SharePoint server assessment experience streamlines SharePoint server migration experience.
-- 
-Start your migration by scenarios
+
+#### Scenario driven 
+
 The new SPMT landing page presents you with straightforward entry points to three main migration scenarios: 
-SharePoint scan
-SharePoint migration
-File share migration
+- SharePoint scan
+- SharePoint migration
+- File share migration
+
 The number of currently running tasks for each scenario can give you a quick glance at the migration status.
 
 The “add new migration” flow guides you to enter different sub-migration scenarios with clear context and user interactions. This lets you focus on one scenario to get the configuration done faster.
 
+#### Easier to manage your migration tasks
 
-### Better manage your migration tasks 
 SPMT 4.0 comes with a new page navigation design that makes it easier for you to manage migration tasks.
-You can manage all migrations or scans on its own list page. 
-You can utilize search and filters to locate the specific tasks. 
-You can view the migration progress by clicking on the name link.
-You can use the buttons on the toolbar to start, stop, delete, and edit a migration.
 
-When you start a migration from either add new migration wizard or migration list page, SPMT launches a migration progress page where you can watch the status changes. Unlike the previous release, in SPMT 4.0, you don’t have to wait for the migration to be completed. You can just dismiss the page by clicking “Back to list” and work on other tasks in the app. 
+- Manage all migrations or scans on its own list page. 
+- Utilize search and filters to locate the specific tasks. 
+- View the migration progress by clicking on the name link.
+- Use the buttons on the toolbar to start, stop, delete, and edit a migration.
 
-Once the migration is completed or failed, you will receive a toast message showing the status. The “See details” link brings you back to the progress page where includes details of the migration.
+When you start a migration by either selecting the add new migration button or from the migration list page, SPMT launches a migration progress page where you can watch the status changes. Unlike previous releases, you don’t have to wait for the migration to be completed. You can just dismiss the page by clicking “Back to list” and work on other tasks in the tool.
+
+Once the migration is completed or failed, you'll receive a toast message showing the status. The “See details” link brings you back to the progress page where includes details of the migration.
  
- 
+#### Assess your SharePoint Server sites directly in SPMT
 
-Streamline your SharePoint server migration with assessment
-SPMT4.0 integrates SharePoint server assessment in the tool. You can assess SharePoint Server content before migration and execute migration jobs within SPMT.
+SPMT 4.0 integrates SharePoint server assessment in the tool. You can assess SharePoint Server content before migration and execute migration jobs within SPMT.
 As with the migration experience, you can add a new scan by following the wizard and managing all your scan tasks on the scan list page.
-
 
 Selecting the source URL link on the scan list page will prompt you to the scan result dashboard. The dashboard presents the overview information of site inventory and potential migration risks.
 
-Scroll down below inventory numbers, you can see breakdown by content types and risk types.  
-
-
-An excel report can be downloaded for you to do deeper analysis.
-
-
-
+Scroll down below inventory numbers, you can see breakdown by content types and risk types.  An excel report can be downloaded for you to do deeper analysis.
 
 
 ## SPMT 3.5.123.6
@@ -98,7 +91,7 @@ An excel report can be downloaded for you to do deeper analysis.
 
 |Feature|Description|
 |:-----|:-----|
-|Worflows|Three-state and Collect signatures out-of-the-box (OOTB) workflows are now supported.
+|Workflows|Three-state and Collect signatures out-of-the-box (OOTB) workflows are now supported.
 
 **Improvements**
 
@@ -567,7 +560,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 |Subfolder section|Support for SharePoint Server subfolder selection|
 |SharePoint 2010 sites|Support for SharePoint Server 2010 site migration|
 |Government cloud|Support for Government cloud (U.S.)|
-|List templates|Support for the following list templates have been added:</br></br>- Promoted Link list (ListTemplateType. Value = 170)</br>- Categories List (ListTemplateType. Value = 500)</br>- Asset Library (ListTemplateType. Value = 851)</br></br>For a complete list of supported list templates see:   [SharePoint list templates supported by SPMT](sharepoint-migration-supported-list-templates.md)|
+|List templates|Support for the following list templates have been added:</br></br>- Promoted Link list (ListTemplateType. Value = 170)</br>- Categories List (ListTemplateType. Value = 500)</br>- Asset Library (ListTemplateType. Value = 851)</br></br> For a complete list of supported list templates see:  [SharePoint list templates supported by SPMT](sharepoint-migration-supported-list-templates.md)|
 
 **Improvements**
 
@@ -588,7 +581,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 
 |**Feature**|**Description**|
 |:-----|:-----|
-|Site migration|SharePoint sites that are "out of the box" - sites that do not use any coding or third party tools - can now be migrated. SPMT now preserves site audits. |
+|Site migration|SharePoint sites that are "out of the box" - sites that don't use any coding or third party tools - can now be migrated. SPMT now preserves site audits. |
 |Navigation|Migration of navigation and icons is now supported.|
 |Site descriptions|Site description can now be migrated.|
 |SharePoint web parts|SPMT now supports the migration of SharePoint web parts. See the full list of SPMT supported web parts: [SPMT Supported SharePoint Web parts](spmt-supported-webparts.md).|
@@ -662,7 +655,7 @@ The following features were added to the SharePoint Migration Tool, Version 2.1.
    
 **Improvements**
 
-In addition to a number of minor fixes, here are the primary improvements made in this release:
+In addition to many minor fixes, here are the primary improvements made in this release:
   
 |**Issue**|**Fix**|
 |:-----|:-----|
@@ -679,13 +672,13 @@ The following features were added to the SharePoint Migration Tool, Version 2.1.
 
 |**Feature**|**Description**|
 |:-----|:-----|
-|Powershell migration solution* <br/> |All features of the SharePoint Migration Tool (SPMT) can now be done by using PowerShell cmdlets.<br>
+|PowerShell migration solution* <br/> |All features of the SharePoint Migration Tool (SPMT) can now be done by using PowerShell cmdlets.<br>
 |Settings<br/> |Improved labels and text descriptions for settings.  <br/> |
 
 **Note:**<br>
-To use the SPMT 2.1 PowerShell feature (currently in open beta): <br>  
+To use the SPMT 2.1 PowerShell feature (currently in open preview): <br>  
 1. Open SPMT v2.1. The PowerShell .dll's will be copied to      *%userprofile%\Documents\WindowsPowerShell\Modules*<br>
-2. Run the following:<br>
+2. Run:<br>
     ```powershell
     Import-Module Microsoft.SharePoint.MigrationTool.PowerShell
     ```
@@ -696,13 +689,13 @@ To use the SPMT 2.1 PowerShell feature (currently in open beta): <br>
    
 **Improvements**
 
-In addition to a number of minor fixes, here are the primary improvements made in this release:
+In addition to many minor fixes, here are the primary improvements made in this release:
   
 |**Issue**|**Fix**|
 |:-----|:-----|
 |Stability  <br/> |General improvements have been made to remove some errors in tool.  <br/> |
 |Permissions settings<br/> |Separate settings are now available to set file share permissions and the SharePoint on-premises permissions. <br/> |
-|Changes to migrating multiple versions <br/> |Checked-in version(s) of a file will migrate but any the checked-out version will not. <br/> |
+|Changes to migrating multiple versions <br/> |Checked-in version(s) of a file will migrate but the checked-out version won't. <br/> |
 
 ## SPMT V1.1.90.1
 
@@ -712,7 +705,7 @@ The following features were added to the SharePoint Migration Tool, Version 1.1.
   
 |**Feature**|**Description**|
 |:-----|:-----|
-|Allow migration of 0 bytes files  <br/> |Files will be migrated even if they are of zero bytes.  <br/> |
+|Allow migration of 0-bytes files  <br/> |Files will be migrated even if they are of zero bytes.  <br/> |
 |Computer names column  <br/> |A column containing the name of the computers running the migration job has been added to the report.  <br/> |
 |Support of incremental check on target environment  <br/> |In SharePoint, an incremental check of the target environment will be performed. If the modified time of the source file is earlier than the modified time of the target file, the file won't be migrated.  <br/> |
    
