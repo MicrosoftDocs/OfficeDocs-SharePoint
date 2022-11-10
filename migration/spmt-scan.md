@@ -32,7 +32,7 @@ SPMT 4.0 integrates SharePoint Server assessment directly in the tool. You can n
 
 Same as the migration experience, you can add a new scan by following the prompts and manage all your scan tasks in the scan list page.
 
-    :::image type="content" source="media/spmt-4-home.png" alt-text="new landing page for spmt 4":::
+ :::image type="content" source="media/spmt-4-home.png" alt-text="new landing page for spmt 4":::
 
 ## Scan and assess
 
