@@ -137,7 +137,7 @@ This tab provides how-to steps for enabling sync reports on macOS devices.
 
     :::image type="content" source="media/enable-preview.png" alt-text="Screenshot of enable preview features button.":::
 
-5. In the left navigation menu, select **Settings**.
+5. In the left navigation menu, select **Setup**.
 
 6. Confirm that a **Tenant Association Key** has been generated in the text field.
 
