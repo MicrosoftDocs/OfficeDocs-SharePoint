@@ -72,7 +72,7 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 
     :::image type="content" source="media/enable-preview.png" alt-text="Screenshot of enable preview features button.":::
 
-5. In the left navigation menu, select **Settings**.
+5. In the left navigation menu, select **Setup**.
 
 6. Verify that a **Tenant Association Key** is present in the text field. If the field is empty, select **Generate new key**.
 
