@@ -39,8 +39,7 @@ You can use Microsoft Endpoint Configuration Manager to deploy the new OneDrive 
     
 The new OneDrive sync app can be used with SharePoint Server 2019, but not earlier versions of SharePoint Server. For more information about the restrictions and limitations of the OneDrive sync app, see [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa).
 
-> [!NOTE]
-> Office is installed per machine, whereas OneDrive is installed per user by default. [Learn about installing OneDrive per machine](per-machine-installation.md).
+OneDrive is installed per user by default. You can also install it per machine. For more information, see [Learn about installing OneDrive per machine](per-machine-installation.md).
 
 ### Make sure that WNS is set up correctly
 
