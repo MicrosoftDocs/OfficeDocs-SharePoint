@@ -39,6 +39,9 @@ You can use Microsoft Endpoint Configuration Manager to deploy the new OneDrive 
     
 The new OneDrive sync app can be used with SharePoint Server 2019, but not earlier versions of SharePoint Server. For more information about the restrictions and limitations of the OneDrive sync app, see [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa).
 
+> [!NOTE]
+> Office is installed per machine, whereas OneDrive is installed per user by default. [Learn about installing OneDrive per machine](per-machine-installation.md).
+
 ### Make sure that WNS is set up correctly
 
 The OneDrive sync app uses Windows Push Notification Services (WNS) for optimum performance and battery life. Make sure you allow access from your network to the [endpoints that OneDrive uses](/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business). To see all our recommendations for configuring the sync app, see [Recommended sync app configuration](ideal-state-configuration.md).
@@ -47,9 +50,6 @@ The OneDrive sync app uses Windows Push Notification Services (WNS) for optimum 
 
 If the computers in your organization are running Windows 10, they already have the new sync app installed. If the computers have Office 2016 or Office 2013 (Home &amp; Student, Home &amp; Business, Professional, Personal, Home, or University) installed, they might also have the new sync app. 
 
-> [!NOTE]
-> Office is installed per machine, whereas OneDrive is installed per user by default. [Learn about installing OneDrive per machine](per-machine-installation.md).
-  
 ### Deploy any administrative settings
 
 To set registry keys on computers in your domain, install OneDrive and copy the OneDrive.admx and OneDrive.adml files from %localappdata%\Microsoft\OneDrive\BuildNumber\adm\ to your Group Policy central store. For more info, see [Use OneDrive policies to control OneDrive sync app settings](use-group-policy.md).
