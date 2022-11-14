@@ -42,7 +42,7 @@ Before getting started, be sure that you're familiar with the requirements neede
 
 - OneDrive sync apps on the Insiders or Production ring. Devices on the Deferred ring aren't eligible for the preview. [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
 
-- OneDrive sync app version 22.087 or later for Windows and macOS.
+- OneDrive sync app version 22.230 or later for Windows and macOS.
 
 - [Global Administrator](/microsoft-365/admin/add-users/about-admin-roles), Office Apps Administrator or Microsoft 365 Administrator role access is required to enable and set up the dashboard for your organization. After the feature is enabled by one of these roles, one can also view the dashboard using [Global reader](/microsoft-365/admin/add-users/about-admin-roles) or Reports reader access. To learn more about administrator roles and permissions in Microsoft 365, visit [About Admin Roles](/microsoft-365/admin/add-users/about-admin-roles).
 
@@ -171,7 +171,7 @@ In this section, you'l learn how to successfully navigate the OneDrive Sync heal
 Jump to:
 
 - [Overview](#overview)
-- [Details](#details)
+- [Devices](#devices)
 - [Issues](#issues)
 
 > [!NOTE]
@@ -181,8 +181,6 @@ Jump to:
 
 The **Overview** tab (the default view) shows a summary of devices that have at least one sync issue, a percentage of the devices in your organization using [Known folder move](redirect-known-folders.md), and the number of devices running on the current version of OneDrive.
 
-:::image type="content" source="media/sync-dashboard.png" alt-text="Screenshot of Overview tab of OneDrive sync health dashboard.":::
-
 | Card name         | Description                                                                                               |
 |----------------|-----------------------------------------------------------------------------------------------------------|
 |Sync errors | *Shows how many devices have sync errors or not.* <br> <br> Sorting through errors can help you proactively reach out to educate people while resolving common issues and improving user experience. Users may not report OneDrive issues to you immediately. Unreported issues could lead to unwanted problems while they're working on important tasks. With the **Sync errors** card, you won't have to wait to be notified by users to take action. |
@@ -190,13 +188,11 @@ The **Overview** tab (the default view) shows a summary of devices that have at 
 | Sync app version         | *Shows the number of devices running on the current version of OneDrive.* <br><br>  Running the current version of OneDrive helps users stay up to date with all the latest and greatest fixes and features from Microsoft. Hover over the **Sync app version** card for a filtered view of operating systems on the current version. Note: Mac App store devices are excluded from this section and will appear in the count as "devices excluded".                                                                                  |
 ||
 
-### Details
+### Devices
 
-The **Details** tab shows all users, their current health state, their known folders currently moved in OneDrive, their current app version and operating system version, a timestamp of the last time the app was fully up to date, and a timestamp of the last time the sync app reported health data to the dashboard. An icon and status in the **Errors** column indicate the state of each device.
+The **Devices** tab shows all users, their current health state, their known folders currently moved in OneDrive, their current app version and operating system version, a timestamp of the last time the app was fully up to date, and a timestamp of the last time the sync app reported health data to the dashboard. An icon and status in the **Errors** column indicate the state of each device.
 
-:::image type="content" source="media/sync-health-ui.png" alt-text="Screenshot of OneDrive sync health details tab.":::
-
-This table provides a summary of the information found in each column of the **Details** tab:
+This table provides a summary of the information found in each column of the **Devices** tab:
 
 | Column name       | Description                                                                                               |
 |----------------|-----------------------------------------------------------------------------------------------------------|
@@ -219,13 +215,11 @@ You can easily create a custom filter with your own conditions. From the command
 
 When someone in your organization reports a problem with syncing files to OneDrive, you can investigate quickly without having to ask for extra details of the error message via Microsoft Teams chat or Outlook email. Select a user to see more information on their device and sync status. This detailed view lets you see a user's essential OneDrive information including any errors they might be experiencing.
 
-:::image type="content" source="media/detail-panel-dashboard.png" alt-text="Image depicting Details panel with individual OneDrive user and device information":::
+:::image type="content" source="media/detail-panel-dashboard.png" alt-text="Screenshot depicting Devices panel with individual OneDrive user and device information.":::
 
 ### Issues
 
 The **Issues** tab shows you a list of OneDrive error messages found in the health report and the number of devices affected by them in your organization. Use this view to see if there are any common patterns between users and the errors present across your organization.
-
-:::image type="content" source="media/issues-dashboard.png" alt-text="The Issues tab showing a list of errors present in devices.":::
 
 You can learn more about the error and devices affected by selecting an error message from the list. The **Issues** panel will appear with a summary of the devices affected, along with a list of users and their current app version and operating system. Partner with your users to fix common OneDrive sync issues.
 
@@ -247,9 +241,9 @@ This section describes known limitations and considerations in sync reporting.
 
 **Device Records:** By default, device records are kept in inventory for 30 days, after which they expire from the report.
 
-**Folders in OneDrive:** Devices with folders in OneDrive will appear in reports as a device with 0-3 known folders. If a device has not enabled folders in OneDrive, it will appear in reports as a device that is **Not eligible** in the **Known Folders** section of the **Overview** tab. In the **Details** tab, a hyphen ("-") will appear in the cell value of the **Known folders** table for devices that aren't applicable devices. This behavior is expected.
+**Folders in OneDrive:** Devices with folders in OneDrive will appear in reports as a device with 0-3 known folders. If a device has not enabled folders in OneDrive, it will appear in reports as a device that is **Not eligible** in the **Known Folders** section of the **Overview** tab. In the **Devices** tab, a hyphen ("-") will appear in the cell value of the **Known folders** table for devices that aren't applicable devices. This behavior is expected.
 
-**Sync app version: Mac App Store edition** For devices using the Mac App Store edition of the sync app, the version installed on each device is displayed in the **Details** tab. The dashboard doesn't currently track whether or not the Mac App Store edition is the latest version of the sync app available in the Mac App Store. If any devices use this edition, they'll be excluded from the **Sync app version** section of the **Overview** tab and the number of excluded devices is displayed. This is the expected result.
+**Sync app version: Mac App Store edition** For devices using the Mac App Store edition of the sync app, the version installed on each device is displayed in the **Devices** tab. The dashboard doesn't currently track whether or not the Mac App Store edition is the latest version of the sync app available in the Mac App Store. If any devices use this edition, they'll be excluded from the **Sync app version** section of the **Overview** tab and the number of excluded devices is displayed. This is the expected result.
 
 **Considerations:**
 
