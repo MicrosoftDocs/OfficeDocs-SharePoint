@@ -215,7 +215,7 @@ You can easily create a custom filter with your own conditions. From the command
 
 When someone in your organization reports a problem with syncing files to OneDrive, you can investigate quickly without having to ask for extra details of the error message via Microsoft Teams chat or Outlook email. Select a user to see more information on their device and sync status. This detailed view lets you see a user's essential OneDrive information including any errors they might be experiencing.
 
-:::image type="content" source="media/detail-panel-dashboard.png" alt-text="Image depicting Devices panel with individual OneDrive user and device information":::
+:::image type="content" source="media/detail-panel-dashboard.png" alt-text="Screenshot depicting Devices panel with individual OneDrive user and device information.":::
 
 ### Issues
 
