@@ -112,7 +112,7 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 
     To apply the setting on a single PC, follow these steps:
 
-    - Open Group Policy Editor (gpedit.exe).
+    - Open Group Policy Editor (gpedit.msc).
 
     - Go to Computer Configuration\Administrative Templates\OneDrive.
 
