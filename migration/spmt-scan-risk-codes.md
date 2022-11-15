@@ -29,7 +29,7 @@ description: "Learn about the risk assessment errors in the SharePoint Migration
 |:-----	|:-----	|:-----	|:-----|
 |FEATURE_UNSUPPORTED|Feature {0} is not supported|SPMT does not support custom features. Example, uploading a solution to SharePoint is a custom feature.|
 |UNKNOWN_CONTENT_TYPE||SPMT does not support custom content types. |
-|WORKFLOW_UNSUPPORTED|Content type {0} in {1} is not supported|	SPMT supports only selected out of the box (OOTB) features and no custom workflows.| 
+|WORKFLOW_UNSUPPORTED|Content type {0} in {1} is not supported|SPMT does not support custom workflows, and only some out of the box (OOTB) workflows.  Once SharePoint Designer workflow migration is enabled, only a few OOTB are not supported.| 
 |LIST_TEMPLATE_UNSUPPORTED|List template is not supported|SPMT does not support hidden taxonomy lists and style libraries. However, this limitation doesn’t impact term store or site migration.|
 |THICKET_FOLDER_UNSUPPORTED	|Thicket folder {0} is not supported	|Folders that end with **_file** or **_files** are treated as a thicket folder, which can't be created in SharePoint Online. Rename the folder to ***Files**. SharePoint creates a hidden linked folder (thicket) to store the additional content, which cannot exist in the HTM file when you save a file as an HTM that contains content such as graphics. To avoid the confusion of mixing the thicket folder with the user-created folders, SharePoint doesn't allow these folders to be created.|
 |PAGE_UNSUPPORTED|	Web part {0} is not supported|SPMT doesn’t support custom pages.  The exceptions are wiki and web part pages.|
