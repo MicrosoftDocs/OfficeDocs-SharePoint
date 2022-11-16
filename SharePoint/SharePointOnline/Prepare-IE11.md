@@ -28,7 +28,8 @@ Focusing on [Microsoft Edge browser](https://www.microsoft.com/edge/business) he
 Beginning on August 17, 2021, [Microsoft 365 apps and services will no longer support Internet Explorer 11](/lifecycle/announcements/internet-explorer-11-support-end-dates). While we know this change will be difficult for some customers, we believe that you'll get the most out of Microsoft 365 when using Microsoft Edge. To avoid disruptions, we’ve identified considerations and practices for admins as you transition off SharePoint features that rely on Internet Explorer 11.
 
 > [!NOTE]
-> Internet Explorer 11 and Edge IE compatibility mode are not supported in Team sites, OneDrive personal sites, or any other types of SharePoint content sites. Microsoft recommends exploring Microsoft Edge as the replacement for Internet Explorer 11.
+> - Internet Explorer 11 and Edge IE compatibility mode are not supported in Team sites, OneDrive personal sites, or any other types of SharePoint content sites. Microsoft recommends exploring Microsoft Edge as the replacement for Internet Explorer 11.
+> - Beginning mid-January, 2023, access to SharePoint Online and OneDrive from Internet Explorer 11 will be hard blocked for all users.
 
 ## Deploy a modern browser such as Microsoft Edge
 
@@ -55,8 +56,6 @@ To get started deploying and configuring OneDrive in your environment and migrat
 - Non-persistent virtual desktop environments in which the sync client isn’t installed on each computer. For more information, read [use the sync app on virtual desktops](/onedrive/sync-vdi-support).
 - Versions of Windows that don't support [Files On-Demand](https://support.microsoft.com/office/0e6860d3-d9f3-4971-b321-7092438fb38e). Files On-Demand requires Windows 10 Fall Creators Update (version 1709 or later) or Windows Server 2019. However, selective sync can be used as a workaround.
 
-> [!NOTE]
-> We understand that some customers may continue to use Open with Explorer and View in File Explorer to access document libraries. To avoid disruption, these customers will be able to use these features when they go to a document library in Internet Explorer 11. These features remain in maintenance mode and aren't receiving further development. We encourage all customers to move to OneDrive sync for a better user experience and easier access to files.
 
 ## Use Power Apps to automate business processes
   
