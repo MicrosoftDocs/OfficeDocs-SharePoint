@@ -472,9 +472,7 @@ If this setting is enabled, you can specify a TenantName that is the name the fo
    OneDrive – TenantName (specified by you)
    TenantName (specified by you)
 
-If you don't specify any TenantName, the folder will use the first segment of the FrontDoorURL as its name. For example, https<span>://</span>Contoso.SharePoint.com will use Contoso as the Tenant Name in the following convention:
-   OneDrive – Contoso
-   Contoso
+If you don't specify any TenantName, the folder will use the first segment of the FrontDoorURL as its name. For example, https<span>://</span>Contoso.SharePoint.com will use Contoso as the Tenant Name in the following convention: OneDrive – Contoso
 
 The example for this setting in the .plist file is:
 ```xml
