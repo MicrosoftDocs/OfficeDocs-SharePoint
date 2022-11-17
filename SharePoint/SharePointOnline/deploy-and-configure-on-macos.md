@@ -472,9 +472,7 @@ If this setting is enabled, you can specify a TenantName that is the name the fo
    OneDrive – TenantName (specified by you)
    TenantName (specified by you)
 
-If you don't specify any TenantName, the folder will use the first segment of the FrontDoorURL as its name. For example, https<span>://</span>Contoso.SharePoint.com will use Contoso as the Tenant Name in the following convention:
-   OneDrive – Contoso
-   Contoso
+If you don't specify any TenantName, the folder will use the first segment of the FrontDoorURL as its name. For example, https<span>://</span>Contoso.SharePoint.com will use Contoso as the Tenant Name in the following convention: OneDrive – Contoso
 
 The example for this setting in the .plist file is:
 ```xml
@@ -531,4 +529,5 @@ The example for this setting in the .plist file is:
 ## Related articles
 
 [Find your Microsoft 365 tenant ID](find-your-office-365-tenant-id.md)
-[Set up the OneDrive sync health dashboard on macOS (EnableSyncAdminReports)](sync-health.md)
+
+[OneDrive sync reports in the Apps Admin Center (EnableSyncAdminReports)](sync-health.md)
