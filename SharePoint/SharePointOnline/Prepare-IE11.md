@@ -29,7 +29,7 @@ Beginning on August 17, 2021, [Microsoft 365 apps and services will no longer su
 
 > [!NOTE]
 > - Internet Explorer 11 and Edge IE compatibility mode are not supported in Team sites, OneDrive personal sites, or any other types of SharePoint content sites. Microsoft recommends exploring Microsoft Edge as the replacement for Internet Explorer 11.
-> - Beginning mid-January, 2023, access to SharePoint Online and OneDrive from Internet Explorer 11 will be hard blocked for all users.
+> - Beginning mid-January, 2023, access to SharePoint Online and OneDrive from Internet Explorer 11 and Edge IE compatibility mode will be hard blocked for all users.
 
 ## Deploy a modern browser such as Microsoft Edge
 
