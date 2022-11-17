@@ -1,5 +1,5 @@
 ---
-title: "Manage site access based on sensitivity label"
+title: "Conditional access policies for SharePoint sites"
 ms.reviewer: samust
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -19,15 +19,20 @@ search.appverid:
 description: "Learn about how to use Azure Active Directory conditional access and authentication context with SharePoint sites and sensitivity labels."
 ---
 
-# Manage site access based on sensitivity label
+# Conditional access policies for SharePoint sites
 
-With [Azure Active Directory authentication context (preview)](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#configure-authentication-contexts), you can enforce more stringent access conditions when users access SharePoint sites that have a sensitivity label applied. 
+[!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-Authentication contexts are used with sensitivity labels to connect [Azure AD conditional access policies](/azure/active-directory/conditional-access/overview) to labeled sites.
+With [Azure Active Directory authentication context](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#configure-authentication-contexts), you can enforce more stringent access conditions when users access SharePoint sites. You can directly apply an authentication context to a SharePoint site by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet.
 
-> [!NOTE]
-> If you don't use sensitivity labels with SharePoint sites, you can directly apply an authentication context to a SharePoint site by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet.
-> This capability can't be applied to the root site in SharePoint (for example, https://contoso.sharepoint.com).
+In the following example, an authentication context called MFA is attached to the site.
+
+```powershell
+Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -ConditionalAccessPolicy AuthenticationContext -AuthenticationContextName "MFA"
+```
+Additionally, authentication contexts are used with sensitivity labels to connect [Azure AD conditional access policies](/azure/active-directory/conditional-access/overview) to labeled sites.
+
+Note that this capability can't be applied to the root site in SharePoint (for example, https://contoso.sharepoint.com).
 
 ## Requirements
 
@@ -47,15 +52,10 @@ Some apps do not currently work with authentication contexts. If you have Office
 - Copy or Move files from Site-A(no policy) to Site-B(with policy) fails
 
 Using authentication context with SharePoint sites requires at least one of the below licenses:
-- Office 365 E5
-- Office 365 A5 for faculty
-- Office 365 A5 for students
 - Microsoft 365 E5
 - Microsoft 365 E5 Compliance
 - Microsoft 365 E5 Information Protection and Governance
-- Microsoft 365 Security And Compliance For FLW
-- Microsoft 365 A5 for faculty
-- Microsoft 365 A5 for students
+
 
 ## Setting up an authentication context
 

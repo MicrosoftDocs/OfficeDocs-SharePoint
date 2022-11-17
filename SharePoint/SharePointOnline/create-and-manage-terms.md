@@ -65,6 +65,11 @@ To take any of the following actions, first select the term that you want to upd
 <a name="__copy_the_term"> </a>
 
 - Select **Copy term**. This action shows the name of the new term as **\<original term name\> - Copy**. No child terms for the source term are copied. 
+
+### Copy term with children
+<a name="__Copy_term_with_children"> </a>
+
+Select **Copy term with children**. This action is only available on terms having at least one child term. This action shows the name of the new term as **\<original term name\> - Copy**. Children terms of the source term are also copied. Names of children terms are preserved as they are in the source term. 
     
 ### Move term
 <a name="__move_a_term"> </a>
