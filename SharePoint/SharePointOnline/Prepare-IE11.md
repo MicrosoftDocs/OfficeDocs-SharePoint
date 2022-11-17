@@ -56,7 +56,6 @@ To get started deploying and configuring OneDrive in your environment and migrat
 - Non-persistent virtual desktop environments in which the sync client isn’t installed on each computer. For more information, read [use the sync app on virtual desktops](/onedrive/sync-vdi-support).
 - Versions of Windows that don't support [Files On-Demand](https://support.microsoft.com/office/0e6860d3-d9f3-4971-b321-7092438fb38e). Files On-Demand requires Windows 10 Fall Creators Update (version 1709 or later) or Windows Server 2019. However, selective sync can be used as a workaround.
 
-
 ## Use Power Apps to automate business processes
   
 To automate your business processes, we recommend that you create new custom forms solutions in Power Apps and [transform your InfoPath forms to Power Apps](/powerapps/maker/canvas-apps/transform-infopath). Power Apps allows you to build and deploy business solutions without writing code. Learn how to [Administer Power Platform](/power-platform/admin/admin-documentation).
