@@ -120,7 +120,7 @@ The Microsoft SharePoint Products Preparation Tool can assist you in the install
 > SQL Server 2014 requires the May 2014 Cumulative Update to be installed. To install the May 2014 Cumulative Update see [Updates to SharePoint 2013](/officeupdates/). 
   
 > [!NOTE]
-> At this time, SQL Server 2016 RTM is not supported. 
+> SQL Server 2016 or any newer version of SQL Server are not supported for SharePoint Server 2013. 
   
 ### Minimum software requirements
 
