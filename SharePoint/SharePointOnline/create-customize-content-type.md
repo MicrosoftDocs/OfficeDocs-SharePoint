@@ -31,9 +31,7 @@ To learn more about content types, see [Introduction to content types and conten
 
 To understand how the built-in content types relate to each other, see [SharePoint in Microsoft 365 default content type hierarchy](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/public/SharePoint/SharePointOnline/spodownloads/sharepoint-default-content-types-hierarchy.pdf).
 
-To create a content type, follow these steps:
-
-**To create a content type**
+## Create a content type
 
 1. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185074" target="_blank">**Content type gallery** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
 
@@ -55,7 +53,7 @@ To create a content type, follow these steps:
 
 The new content type appears in the **Content type gallery**.
 
-## To change the name of a content type
+## Change the name of a content type
 
 1. Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185074" target="_blank">**Content type gallery** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization. The Content type gallery page isn't available if you have the global reader role. 
 
