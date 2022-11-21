@@ -76,7 +76,7 @@ Follow these steps to transfer ownership of a OneDrive to a different user, or g
 
 For info about automatically transferring ownership of OneDrive to a user's manager when the user account is marked for deletion, see [Set up access delegation](/onedrive/retention-and-deletion).
   
-## Manage audiences
+## Manage audiences (classic experience)
 <a name="manageaudiences"> </a>
 
 Audiences let you customize content on pages so that it appears only to particular people based on their:
@@ -85,7 +85,7 @@ Audiences let you customize content on pages so that it appears only to particul
     
 - Location in the reporting structure or public info in the user profile
     
-For example, you can display a navigational link to only people in a particular geographic location. For info about using audiences, see [Target content to specific audiences](https://support.office.com/article/33d84cb6-14ed-4e53-a426-74c38ea32293).
+For example, you can display a navigational link to only people in a particular geographic location. For info about using audiences and information about using audience targeting in the modern experience, see [Target content to specific audiences](https://support.office.com/article/33d84cb6-14ed-4e53-a426-74c38ea32293).
 
 > [!NOTE]
 > Only sites that use classic templates can be customized based on audience. <br>Audiences are not a security feature. They help you deliver relevant content to specific groups of people, but don't prevent content from being available to anyone with the appropriate permissions.
