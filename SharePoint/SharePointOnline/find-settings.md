@@ -43,6 +43,12 @@ Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_bla
 |:-----|:-----|
 |![Sync page in the OneDrive admin center](media/sync-page.png)|![Sync settings in the SharePoint admin center](media/sp-sync-settings.png) |
 
+To remove the "Sync" button for all document libraries in your tenant, you can use the following Powershell command. Existing synced content will remain functional, and users can still sync content via their OneDrive using the Add shortcut command.
+
+```PowerShell
+Set-SPOTenant -HideSyncButtonOnTeamSite $true
+```
+
 To change the setting "Block sync on Mac OS," you can use the following PowerShell command. [Learn more about this command](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
 
 ```PowerShell
