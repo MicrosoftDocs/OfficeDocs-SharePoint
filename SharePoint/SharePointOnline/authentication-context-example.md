@@ -95,7 +95,7 @@ To create a conditional access policy
 
 4. On the **Cloud apps or actions** tab, under **Select what this policy applies to**, choose **Authentication context**, and select the check box for the authentication context that you created.
 
-    ![Screenshot of authentication context options in cloud apps or actions settings for a conditional access policy](media/aad-authentication-context-ca-policy-apps.png)
+    ![Screenshot of authentication context options in cloud apps or actions settings for a conditional access policy.](media/aad-authentication-context-ca-policy-apps.png)
 
 5. On the **Grant** tab, select the check box for the terms of use that you want to use, and then click **Select**.
 
