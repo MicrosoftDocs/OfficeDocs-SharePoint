@@ -311,23 +311,24 @@ The **ExportSettings.XML** file is expected to be at the root of the Azure Blob 
 
 The main requirement is that the ExportSettings `SiteUrl` value must be populated with a URL consistent with the source URL used for the rest of the import package. In the case of file shares as a source, the URL would be pre-specified to be the source URL in the rest of the package, whereas a package generated through an export operation at a source site would be its original source site collection URL.
 
+#### SourceType required
 Beginning January 1, 2023, the SourceType field will be mandatory when calling the Migration API. Starting October 1st, 2022, a warning message will be sent if the field is missing.
 
 Accepted SourceType values:
 
-AmazonS3
-AzureStorage
-Box
-Dropbox
-Egnyte
-FileShare
-GoogleCloudStorage
-GoogleDrive
-MicrosoftStream
-OneDrive
-SharePointOnline
-SharePointOnPremServer
-Other
+- AmazonS3
+- AzureStorage
+- Box
+- Dropbox
+- Egnyte
+- FileShare
+- GoogleCloudStorage
+- GoogleDrive
+- MicrosoftStream
+- OneDrive
+- SharePointOnline
+- SharePointOnPremServer
+- Other
 
 When declaring to **Other**, include *DetailedSource* to provide us the detailed information. 
 
