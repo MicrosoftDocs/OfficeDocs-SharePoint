@@ -178,28 +178,20 @@ Follow these steps:
 Answer: In SharePoint 2010, OneNote notebooks with attachments greater than 100 KB are put into a folder with a special content type that the SharePoint Migration Tool can't read.
 As a workaround, you can migrate your SharePoint 2010 data to SharePoint 2016, then use the SharePoint Migration Tool to migrate the data from SharePoint 2016 to SharePoint Online.
 
-### How to open a Microsoft support ticket
+### How to open a Microsoft support ticket for other Migration issues
 
 If you want to file a Microsoft support ticket, follow these steps and include the following information for any migration reason:
 
-1. Navigate to <https://admin.microsoft.com>
 
-2. Ensure you're using the new admin center preview.
+1. As an administrator, select the following link, which will populate a help query in the admin center: [SharePoint Migration Issue](https://admin.microsoft.com/AdminPortal/?searchSolutions=SharePoint%20Migration%20Issue)
 
-3. On the left nav pane, select **Support**, and then select **New Service Request**. This activates the **Need Help?** pane on the right-hand side of your screen.
+2. At the bottom of the pane, select **Contact Support**, and then select **New Service Request**.
 
-4. In the **Briefly describe your issue** area, enter "SharePoint Migration issue.
+3. Leave **Description** blank.
 
-5. Select **Contact Support**.
+4. Fill out the remaining info, and select **Contact me**.
 
-6. Under **Description**, enter a brief description of your migration issue.
-
-7. Fill out the remaining info, and select **Contact me**.
-
-    > [!NOTE]
-    > If you are using the old Microsoft 365 admin center you can skip step 8 as the "Description" field will not exist.
-
-8. After the ticket has been created, make sure to include the following information:
+5. After the ticket has been created, make sure to include the following information:
 
     - Your organization URL.
     - How much is left of your migration (x TB?).
