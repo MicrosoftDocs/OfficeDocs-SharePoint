@@ -254,7 +254,7 @@ If the SharePoint site is deleted, Exchange is notified to also delete the site 
 2. Select **Settings** at the top of the site and then click **Site information**.
 
     >[!NOTE]
-    > If you do not see **Site information** in the **Settings** panel, work with your SharePoint administrator to get access.
+    > If you do not see **Site information** in the **Settings** panel, work with your SharePoint Administrator to get access.
 
 3. At the bottom of the **Site Information** panel, select **Delete site**.
 

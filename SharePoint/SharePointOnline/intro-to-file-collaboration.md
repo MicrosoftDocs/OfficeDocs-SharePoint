@@ -120,7 +120,7 @@ Most of the file collaboration features in Microsoft 365 are available to you re
 
 ### A hub for teamwork: Microsoft Teams
 
-In the past, users would have to frequently switch between tools to collaborate. For example, users would write a document in Word. Then they would switch to Outlook to share the document as an attachment. Or they would open a browser to upload the document to a SharePoint site. In Microsoft 365, users can use Teams to chat, make calls, and have online meetings. They don't have to leave Teams to view and even edit the files they share. [Learn more](https://support.office.com/article/9b200289-dbac-4823-85bd-628a5c7bb0ae).
+In the past, users would have to frequently switch between tools to collaborate. For example, users would write a document in Word. Then they would switch to Outlook to share the document as an attachment. Or they would open a browser to upload the document to a SharePoint site. In Microsoft 365, users can use Teams to chat, make calls, and have online meetings. They don't have to leave Teams to view or even edit the files they share. [Learn more](https://support.office.com/article/9b200289-dbac-4823-85bd-628a5c7bb0ae).
 
 ![The files library lets you collaborate on files with your team](media/sp-collabguide06.png)
 
@@ -155,7 +155,7 @@ In the Office apps, users can easily [open files saved in the Microsoft cloud](h
 
 ### Private and shared channels in Teams
 
-Teams has workspaces for chat and file collaboration called channels. While standard channels include everyone in the team, [private channels](/microsoftTeams/private-channels) allow you to collaborate with a subset of team members and [shared channels](/microsoftteams/shared-channels) allow you to collaborate with people outside the team. All channel types allow you to collaborate with people outside your organization. Each private and shared channels has its own SharePoint site for file storage and collaboration.
+Teams has workspaces for chat and file collaboration called channels. While standard channels include everyone in the team, [private channels](/microsoftTeams/private-channels) allow you to collaborate with a subset of team members and [shared channels](/microsoftteams/shared-channels) allow you to collaborate with people outside the team. All channel types allow you to collaborate with people outside your organization. Each private and shared channel has its own SharePoint site for file storage and collaboration.
 
 ### Migration tools
 
@@ -190,7 +190,7 @@ Microsoft Search helps users find files within modern SharePoint sites and from 
 
 ## Management options
 
-As a global or SharePoint admin for your organization, you have a couple of options for managing SharePoint sites and settings:
+As a Global Administrator or SharePoint Administrator for your organization, you have a couple of options for managing SharePoint sites and settings:
 
 - **SharePoint admin center**. In the SharePoint admin center, you can create and delete sites, manage site settings, and manage organization-level settings for SharePoint and OneDrive. The <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites** page</a> of the SharePoint admin center lets you view the SharePoint sites in your organization, including communication sites, Teams private and shared channel sites, and sites that belong to Microsoft 365 Groups. It also lets you sort and filter sites, search for a site, and create new sites. [Get started with the SharePoint admin center](./get-started-new-admin-center.md).
 
@@ -202,7 +202,7 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
 **Purchase and assign licenses**. SharePoint comes with Microsoft 365 plans and Office 365 plans. It also comes as a standalone plan. For more info about the features available in each plan, see the [SharePoint service description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description). Some security features, such as Azure Information Protection, require an E3 or E5 plan. Cloud App Security, Advanced Threat Protection, Customer Lockbox, Customer Key, eDiscovery (Premium). For info, [see Office 365 platform service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description).
 
-**Assign the SharePoint admin role**. Users assigned this role will have access to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> and can change organization-level SharePoint and OneDrive settings, create and delete sites, and change site owners and other site settings. [Learn more about the SharePoint admin role](./sharepoint-admin-role.md).
+**Assign the SharePoint Administrator role**. Users assigned this role will have access to the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> and can change organization-level SharePoint and OneDrive settings, create and delete sites, and change site owners and other site settings. [Learn more about the SharePoint Administrator role](./sharepoint-admin-role.md).
 
 **Estimate and test your network bandwidth**. Before you roll out Microsoft 365 in your organization, make sure that your network is set up for optimum performance. [Network planning and performance tuning](/office365/enterprise/network-planning-and-performance). Before you deploy the sync app, make sure you also [estimate the bandwidth users will need for syncing](/onedrive/network-utilization-planning).
 
@@ -222,7 +222,7 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
 User adoption is important to the overall success of any rollout. To maximize your investment, you need to maximize your user engagement. To do that, start by focusing on three critical success factors:
 
-- **Stakeholders.** Securing the participation and buy-in of key people within your organization is critical to successful user adoption. This support can come from business-focused leaders, IT leadership, or anyone else who has a vested interest in seeing Microsoft 365 file collaboration succeed in your organization. It's important to have both executive or business leader support and product champions to help carry the knowledge to their peers. Whether you're formally delegating the product champion role or allowing it to grow organically, champions are mission critical to user adoption. Studies have shown that people prefer to learn from a coworker than from an IT employee. For more information about how to identify key stakeholders, see the [Identify key stakeholders guide](https://aka.ms/execsponsor). For more information about building a sustainable champion community, see [Build a champion program](https://aka.ms/office365champions).
+- **Stakeholders.** Securing the participation and buy-in of key people within your organization is critical to successful user adoption. This support can come from business-focused leaders, IT leadership, or anyone else who has a vested interest in seeing Microsoft 365 file collaboration succeed in your organization. It's important to have both executive or business leader support and product champions to help carry the knowledge to their peers. Whether you're formally delegating the product champion role or allowing it to grow organically, champions are mission-critical to user adoption.
 
 - **Scenarios.** Identify and define your business scenarios and how those scenarios align with the benefits of file collaboration in Microsoft 365. Work with your key stakeholders to identify the goals of the business scenarios, and then match those goals against usage scenarios. For example, a business goal may be to maximize user productivity; a key usage scenario enabling that goal would be using OneDrive to access files from mobile devices, PCs, and Macs. For help with this process, see the [Office 365 Productivity Library](https://support.office.com/article/d8ab82a5-5f02-4439-816b-4a5d35133e48).
 

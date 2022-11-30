@@ -37,6 +37,7 @@ description: Migration Manager error codes
 |MAUTHNOTENANT|Connector authorization failed; no tenant/enterprise ID found. Tenant = Enterprise. Tenant is the term in MS/Azure and Enterprise is used by Box and others.|Try again.|
 |MAUTHREFRESHTOKEN|Connector authorization failure. Failed to get refresh token.|Try again.|
 |MAUTHUSERNOTADMIN|Connector authorization failed; user does not have admin role.|Check permissions and try again.|
+|MAZUREUPLOAD|Failed to submit the migration job to Migration API after the files were uploaded to the Azure blob.| Try again.|
 |MBADREQUEST|Bad request when operating on source or destination item.|Unexpected error.  Try again.|
 |MCONNECTORNOTFOUND|Connector not found in database.|Check connector settings.  Try again.|
 |MCORRELATE|Collection correlates missing source listing.|Confirm source location, try again.|
@@ -86,7 +87,7 @@ description: Migration Manager error codes
 |MUSERFORBIDDEN|The current user does not have permission to access the file or folder.|Check permissions and try again.|
 |MUSERINFONOTFOUND|User account info not found.|Check user info and try again.|
 |MUSERNOTFOUND|User is not found; either it is disabled or deleted.|Check user and correct as necessary. Try again.|
-|MUSERQUOTAREACHED|User quota limit reached.|Learn more: [Microsoft Graph error resonses and resource types](/graph/error) |
+|MUSERQUOTAREACHED|User quota limit reached.|Learn more: [Microsoft Graph error responses and resource types](/graph/errors) |
 |MZEROBYTEFILESIZEIMPORT|You cannot import a 0 byte file to a connector.|Check file and try again.|
 |PFAIL|Failed to set permission|Check permissions and try again.|
 |PFAILUNSUP|Unsupported file permissions not set.|Check permissions and try again.|

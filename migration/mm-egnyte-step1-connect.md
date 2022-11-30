@@ -17,6 +17,7 @@ ms.collection:
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+- highpri
 ms.custom: admindeeplinkSPO
 search.appverid: MET150
 ROBOTS: NOINDEX
@@ -46,7 +47,7 @@ Create an Egnyte Connect API application. Creating an application will generate 
 |Type|Publicly Available Application|
 |Current user base|New app|
 |Platform |Needn't select any option|
-|Egnyte domain that you will use for testing | Leave this field empty|
+|Egnyte domain that you will use for testing | Enter your Egnyte domain|
 
 
 Under **Select which Web APIs you will use**, select:

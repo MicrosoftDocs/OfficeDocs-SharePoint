@@ -14,6 +14,7 @@ description: "Learn about planning and deploying a SharePoint intranet."
 ms.collection: 
   - m365solution-spintranet
   - m365solution-scenario
+  - highpri
 ---
 
 # Intelligent intranet introduction and roadmap
@@ -31,7 +32,7 @@ Whether you're the organization intranet owners, an IT Professional or administr
 ## Who should use this roadmap?
 
 - **Organization intranet owners** — This is the person managing the overall direction and coordination of your organization's intranet.
-- **IT pros and admins**—One or more IT and SharePoint administrators who will be responsible for managing the backend configuration and implementation for your organization's intranet.
+- **IT pros and admins**—One or more IT and SharePoint Administrators who will be responsible for managing the backend configuration and implementation for your organization's intranet.
 - **Business owners and site owners**—The various stakeholders who will be responsible for creating and maintaining portions of the intranet.
 - **Content authors** — The people creating and managing content on sites and pages.
 

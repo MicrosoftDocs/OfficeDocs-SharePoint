@@ -49,22 +49,12 @@ This integration isn't supported in the following Microsoft 365 services:
 
 ## Enabling the integration
 
-This integration requires that your organization also enable [Azure AD email one-time passcode authentication](/azure/active-directory/b2b/one-time-passcode).
-
  > [!NOTE]
- > When the integration is enabled, people outside the organization will be invited via the Azure B2B platform when sharing from SharePoint. When the Azure B2B One Time Passcode option is enabled, recipients that don't have password-backed accounts will get a sign-in experience through Azure AD that uses One Time Passcodes. Otherwise, they will authenticate via their own Azure AD account or via an MSA account.
+ > When the integration is enabled, people outside the organization will be invited via the Azure B2B platform when sharing from SharePoint. They will sign in based on the [Azure AD B2B redemption policy](/azure/active-directory/external-identities/redemption-experience#invitation-redemption-flow).
 > When the integration isn't enabled, people outside the organization will continue to use their existing accounts created when previously invited to the tenant. Any sharing to new people outside the organizaton may result in either Azure AD-backed accounts or SharePoint-only email auth guests that use a SharePoint One Time Passcode experience to sign in.
 
  >[!NOTE]
  > Review any custom [domain sharing restrictions in SharePoint and OneDrive](/sharepoint/restricted-domains-sharing) and decide if they should be moved to the [Azure AD B2B Allow/Deny list](/azure/active-directory/external-identities/allow-deny-list). The Azure AD Allow/Deny list also affects other Microsoft 365 services like Teams and Microsoft 365 Groups.
-
-To enable Azure AD passcode authentication
-1. Sign in to the [Azure portal](https://portal.azure.com) as an Azure AD global admin.
-2. In the nav pane, select **Azure Active Directory**.
-3. Under **Manage**, click **External identities**.
-4. Click **All identity providers**.
-5. Under **Configured identity providers**, select **Email one-time passcode** and choose **Enable email one-time passcode for guests effective now**.
-6. Select **Save**.
 
 To enable SharePoint and OneDrive integration with Azure AD B2B
 
@@ -73,22 +63,20 @@ To enable SharePoint and OneDrive integration with Azure AD B2B
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following cmdlets:
 
    ```PowerShell
    Set-SPOTenant -EnableAzureADB2BIntegration $true
-   Set-SPOTenant -SyncAadB2BManagementPolicy $true
    ```
 
 ## Disabling the integration
 
-You can disable the integration by running '[Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant?view=sharepoint-ps) -EnableAzureADB2BIntegration $false'. 
+You can disable the integration by running '[Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant) -EnableAzureADB2BIntegration $false'. 
 
->[!Important]
->Once disabled, users who were shared to while the integration was enabled will always be an AAD Guest User for future shares. To convert a user from an AAD Guest User back to a SharePoint OTP user, you will need to [delete the guest](/sharepoint/remove-users#delete-a-guest-from-the-microsoft-365-admin-center) in AAD and remove all SPUser objects in your organization that reference that guest user.  
->
+> [!Important]
+> Once disabled, users who were shared to while the integration was enabled will always be an AAD Guest User for future shares. To convert a user from an AAD Guest User back to a SharePoint OTP user, you will need to [delete the guest](/sharepoint/remove-users#delete-a-guest-from-the-microsoft-365-admin-center) in AAD and remove all SPUser objects in your organization that reference that guest user.  
 
 ## See also
 

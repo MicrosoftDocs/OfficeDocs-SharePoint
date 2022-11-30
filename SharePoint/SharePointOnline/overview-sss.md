@@ -106,11 +106,11 @@ Review and implement SharePoint Success Site [provisioning requirements and inst
 
 **Question: Who has permission to provision the SharePoint Success Site?**
 
-Answer: The Global admin (formerly called the Tenant admin) are required.
+Answer: The Global Administrator (formerly called the Tenant admin) are required.
 
 **Question: Who has permission to customize the site template?**
 
-Answer: The Global admin (formerly called the Tenant admin) or Site owner permissions.
+Answer: The Global Administrator (formerly called the Tenant admin) or Site owner permissions.
 
 **Question: Who can create custom playlists and hide or show content in M365 learning pathways?**
 

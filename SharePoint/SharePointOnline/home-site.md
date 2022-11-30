@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 - m365solution-scenario
 - m365solution-spintranet
+- highpri
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
@@ -69,7 +70,7 @@ Follow these steps if you want to use PowerShell to set your home site. To run t
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run `Set-SPOHomeSite -HomeSiteUrl <siteUrl>`.
 
