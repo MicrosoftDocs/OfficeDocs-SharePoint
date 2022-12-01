@@ -178,7 +178,7 @@ Follow these steps:
 Answer: In SharePoint 2010, OneNote notebooks with attachments greater than 100 KB are put into a folder with a special content type that the SharePoint Migration Tool can't read.
 As a workaround, you can migrate your SharePoint 2010 data to SharePoint 2016, then use the SharePoint Migration Tool to migrate the data from SharePoint 2016 to SharePoint Online.
 
-### How to open a Microsoft support ticket for other Migration issues
+### How to open a Microsoft support ticket for other migration issues
 
 If you want to file a Microsoft support ticket, follow these steps and include the following information for any migration reason:
 
