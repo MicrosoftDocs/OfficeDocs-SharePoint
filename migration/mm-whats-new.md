@@ -28,6 +28,11 @@ We're continuously adding new features to Migration Manager and fixing issues we
 
 Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page.  
 
+## December 2022
+- 
+
+
+
 ## October 2022
 - **Change - Box Notes**. We are no longer able to convert Box notes to a .docx file during migration.
 
