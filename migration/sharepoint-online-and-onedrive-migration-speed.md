@@ -183,7 +183,7 @@ As a workaround, you can migrate your SharePoint 2010 data to SharePoint 2016, t
 If you want to file a Microsoft support ticket, follow these steps and include the following information for any migration reason:
 
 
-1. As an administrator, select the following link, which will populate a help query in the admin center: [SharePoint Migration Issue](https://admin.microsoft.com/AdminPortal/?searchSolutions=SharePoint%20Migration%20Issue)
+1. As an administrator, select the [SharePoint Migration Issue](https://admin.microsoft.com/AdminPortal/?searchSolutions=SharePoint%20Migration%20Issue) link, which will populate a help query in the admin center. 
 
 2. At the bottom of the pane, select **Contact Support**, and then select **New Service Request**.
 
