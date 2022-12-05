@@ -29,8 +29,8 @@ We're continuously adding new features to Migration Manager and fixing issues we
 Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page.  
 
 ## December 2022
-- 
-
+- **Fixed: Upload failures logs**. Items that failed in SPO upload process were not listed in the migration log, and was inconsistent with the final migration result. This has been fixed. 
+- **Report fields refined**. The fields of downloaded reports have been improved for clarity and readability.
 
 
 ## October 2022
