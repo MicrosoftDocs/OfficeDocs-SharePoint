@@ -18,7 +18,7 @@ mscollection:
 search.appverid: MET150
 description: "Learn about reports for cloud to cloud migration using Migration Manager in Microsoft 365."
 ---
-Migration Manager:  Cloud migration reports 
+# Migration Manager:  Cloud migration reports 
 
 Migration Manager generates a series of scan log and reports for cloud migration scenarios: 
 
