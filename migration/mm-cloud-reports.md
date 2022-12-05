@@ -20,7 +20,15 @@ description: "Learn about reports for cloud to cloud migration using Migration M
 ---
 # Migration Manager:  Cloud migration reports 
 
-Migration Manager generates a series of scan log and reports for cloud migration scenarios: 
+Migration Manager generates a series of scan log and reports for cloud migration scenarios.
+
+## How to download 
+
+**Scan log:** Select a scan task (each row in the Scans UI table represents a scan task) in the Scans UI, click “Download scan log” in the action bar. 
+
+**Scan reports:** Click “Download reports” in the action bar directly in the Scans UI. Don't select any individual scan task. Scan reports are overall reports for all scan tasks. 
+
+## Scan reports
 
 **Scan log**
 
@@ -33,15 +41,6 @@ Migration Manager generates a series of scan log and reports for cloud migration
 - LongPaths.csv 
 - ScanErrors.csv 
 - ScanSummary.csv 
-
-
-## How to download 
-
-**Scan log:** Select a scan task (each row in the Scans UI table represents a scan task) in the Scans UI, click “Download scan log” in the action bar. 
-
-**Scan reports:** Click “Download reports” in the action bar directly in the Scans UI. Don't select any individual scan task. Scan reports are overall reports for all scan tasks. 
-
-## Scan reports
 
 ### ScanLog.csv 
 
