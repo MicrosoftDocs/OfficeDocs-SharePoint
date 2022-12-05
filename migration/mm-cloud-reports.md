@@ -24,9 +24,9 @@ Migration Manager generates a series of scan log and reports for cloud migration
 
 ## How to download 
 
-**Scan log:** Select a scan task (each row in the Scans UI table represents a scan task) in the Scans UI, click “Download scan log” in the action bar. 
+**Scan log:** Select a scan task (each row in the Scans UI table represents a scan task) in the Scans UI, select “Download scan log” in the action bar. 
 
-**Scan reports:** Click “Download reports” in the action bar directly in the Scans UI. Don't select any individual scan task. Scan reports are overall reports for all scan tasks. 
+**Scan reports:** Select “Download reports” in the action bar directly in the Scans UI. Don't select any individual scan task. Scan reports are overall reports for all scan tasks. 
 
 ## Scan reports
 
@@ -44,7 +44,7 @@ Migration Manager generates a series of scan log and reports for cloud migration
 
 ### ScanLog.csv 
 
-ScanLog.csv contains the final scan status of all items of the task selected. Each row in the csv file represents an item of the selected task. 
+ScanLog.csv contains the final scan status of all items of the task selected. Each row in the .csv file represents an item of the selected task. 
 
 |Column|Description|
 |:-----|:-----|
@@ -82,7 +82,7 @@ FileExtensions.csv provides the statistics of extension types existing in each t
 |Name|Display name of the selected task in the source. |
 |SourcePath|Source path of the selected task. |
 |FullPath|	Full path of the item in the source. |
-|SourceExtension|Extension type exist in the task. |
+|SourceExtension|Extension type exists in the task. |
 |TotalSize|Total data size of the extension type in the task. |
 
 ### LargeFileSizes.csv
@@ -165,9 +165,9 @@ Migration reports
 
 **How to download** 
 
-**Migration log:** Click on a migration task (each row in the Migrations UI table represents a migration task) in the Migrations UI, click “View logs” in the side page popped up to view the log online, you can also click “Download CSV” in the subsequent page to download the MigrationLog.csv. 
+**Migration log:** Select on a migration task (each row in the Migrations UI table represents a migration task) in the Migrations UI, select “View logs” in the side page popped up to view the log online, you can also select “Download CSV” in the subsequent page to download the MigrationLog.csv. 
 
-**Migration reports:** Click “Download reports” in the action bar directly in the Migrations UI. Please do NOT select any migration task, as migration reports are overall reports of all migration tasks. 
+**Migration reports:** Select “Download reports” in the action bar directly in the Migrations UI. Do NOT select any migration task, as migration reports are overall reports of all migration tasks. 
 
 
 
@@ -255,34 +255,34 @@ Failure codes demonstrate item level errors during both the scan and migration p
 |MACCESSTOKENNULL|Failed to execute request as connector authorization failed.|Unexpected error. Try again.|
 |MAUTHACCESSTOKEN|Connector authorization failure. Failed to get access token.|Unexpected error. Try again.|
 |MAUTHACCESSTOKENINVALID|Connector authorization failure. The API request failed because the access token is invalid or expired.|Retry.|
-|MAUTHCALLERNOTAUTHENTICATED|Connector authorization failed. The service is not allowing to connect as it does not recognize the caller.|Try again.|
+|MAUTHCALLERNOTAUTHENTICATED|Connector authorization failed. The service isn't allowing to connect as it doesn't recognize the caller.|Try again.|
 |MAUTHMOVERAPP|Mover Application in Users Admin Account/tenant needs to be authorized.|To authorize this connector, you need to grant permissions to the Mover application. Try again.|
-|MAUTHNOCODE|Connector authorization failed as auth code is not provided.|Try again.|
+|MAUTHNOCODE|Connector authorization failed as auth code isn't provided.|Try again.|
 |MAUTHNOEMAIL|Connector authorization failure. Failed to get email from claim.|Unexpected error. Try again.|
 |MAUTHNOIDTOKEN|Connector authorization failure. Failed to get ID token from access token.|Unexpected error. Try again.|
 |MAUTHNOTENANT|Connector authorization failed; no tenant/enterprise ID found. Tenant = Enterprise. Tenant is the term in MS/Azure and Enterprise is used by Box and others.|Try again.|
 |MAUTHREFRESHTOKEN|Connector authorization failure. Failed to get refresh token.|Try again.|
-|MAUTHUSERNOTADMIN|Connector authorization failed; user does not have admin role.|Check permissions and try again.|
+|MAUTHUSERNOTADMIN|Connector authorization failed; user doesn't have admin role.|Check permissions and try again.|
 |MAZUREUPLOAD|Failed to submit the migration job to Migration API after the files were uploaded to the Azure blob.| Try again.|
 |MBADREQUEST|Bad request when operating on source or destination item.|Unexpected error.  Try again.|
 |MCONNECTORNOTFOUND|Connector not found in database.|Check connector settings.  Try again.|
 |MCORRELATE|Collection correlates missing source listing.|Confirm source location, try again.|
-|MDESTINATIONNOTWRITABLE|You do not have write access to the destination. |Check permissions and try again.|
+|MDESTINATIONNOTWRITABLE|You don't have write access to the destination. |Check permissions and try again.|
 |MDUPLICATE|Duplicate. This file already exists in your destination location.|Confirm file is in destination already.|
 |MEMPTYMETADATA|Unable to find metadata. |Try again.|
 |MEXPORTFILERESTRICTED|This file is restricted, and can’t be migrated from the source.|Check to see if this file has legal restrictions such as copyright claims.|
-|MEXPORTFILEUNSUPPORTED|Unsupported file type. |You cannot migrate this file from the source.|
-|MEXPORTFILEUNSUPPORTEDMIMETYPE|Unsupported file type.|You cannot migrate this file from the source. Check file at source.|
+|MEXPORTFILEUNSUPPORTED|Unsupported file type. |You can't migrate this file from the source.|
+|MEXPORTFILEUNSUPPORTEDMIMETYPE|Unsupported file type.|You can't migrate this file from the source. Check file at source.|
 |MFAILEDGETROOTITEM|Failed to get root folder listing. This is set in both Google and Office365 connector|Try again.|
-|MFILEIMPORT|This file type is not supported in the destination location. |Check source file.|
-|MFILELOCKED|"File is locked, and cannot download or get metadata. |Unlock file.  Try again.|
+|MFILEIMPORT|This file type isn't supported in the destination location. |Check source file.|
+|MFILELOCKED|"File is locked, and can't download or get metadata. |Unlock file.  Try again.|
 |MFILENAMELENGTH|Filename exceeds maximum allowable length. |Rename file and try again.|
 |MFILESIZEINCORRECT|Downloaded file is smaller than expected.|Check file for size and compare.  Try again.|
 |MGETFOLDERACLS|Failure to get shared folder membership. |Check folder permissions and try again.|
 |MHTTPCONNECTION|Connection failure.|Check your network and try again.|
 |MINVALIDEMAIL|Invalid user email; unable to find user with that email. |Check user name and try again.|
 |MINVALIDPAGESIZE|The page size for connector pagination must be greater than zero.|Try again.
-|MINVALIDPARENTID|Item has no parent ID. Id-based connectors require the item to have a parent id.|Check file and try again.|
+|MINVALIDPARENTID|Item has no parent ID. Id-based connectors require the item to have a parent ID.|Check file and try again.|
 |MINVALIDPATH|Path is invalid.|Check path and try again.|
 |MINVALIDRESPONSE|Invalid response from API call. |Try again.|
 |MITEMPATHLENGTH|Item path exceeds length restrictions.|Check file path for length and try again.|
@@ -293,33 +293,33 @@ Failure codes demonstrate item level errors during both the scan and migration p
 |MLISTUSER|Failure to get user listing. This may be caused by an invalid requestor throttling. | Try again. |
 |MLOCKACQ|Failed to acquire lock within timeout period and obtain new access token.|Try again.|
 |MNONDESTRUCTIVEOPTIONENABLED| Unable to delete file or folder.|Try again.|
-|MNOPARENT|Item does not have a parent item.|Check file and try again.|
+|MNOPARENT|Item doesn't have a parent item.|Check file and try again.|
 |MNOTAFILE|The path refers to something that isn't a file.|Check the path and correct as necessary. Try again.|
 |MNOTAFOLDER|The path refers to something that isn't a folder.|Check the path and correct as necessary.  Try again.|
 |MNOTFOUND|Item not found.|Check file and try again.|
 |MNOTIMPLEMENTED|Method not implemented for connector. |Try again.|
-|MNOTPERMITTED|Cannot traverse to the folder level; cannot perform actions outside a users folder.|Check permissions and try again.|
+|MNOTPERMITTED|Can't traverse to the folder level; can't perform actions outside a users folder.|Check permissions and try again.|
 |MNOTUSERORTEAMDRIVE|Confirm that the name of the item in the source service matches what you have in the task's source path. Note: Google Suite allows invisible characters to be added to item names. We advise that your rename the item in the source service to ensure there's no invisible characters and then use that same name in the task source path.|
-|MOWNERNOTFOUND|The original owner was removed or its information was not found.|Reassign ownership of the file.|
+|MOWNERNOTFOUND|The original owner was removed or its information wasn't found.|Reassign ownership of the file.|
 |MPATHMALFORMED|Invalid path format. | Check your source and try again.|
 |MSERVICENOTAVAILABLE|Service unavailable.|Try again.|
 |MSETITEMPERMISSION|Failed to set permission. Failure may be caused by throttling.|Try again.|
 |MSOURCENOTREADABLE|Unable to read the source directory. |Confirm source location. Try again.|
 |MSTORAGEQUOTAREACHED|Storage quota exceeded for connector.|Increase storage limit and try again.|
 |MTHROTTLE|API requests made by connector are getting throttled.|Try again.|
-|MUNVERIFIEDPARENT|Item does not have a verified parent item. |Check file and try again.|
+|MUNVERIFIEDPARENT|Item doesn't have a verified parent item. |Check file and try again.|
 |MUPDATEITEMPERMISSION|Failed to remove permissions. |Try again.|
 |MUSERCOUNT|Unexpected failure to get user count. |Try again.|
-|MUSERFORBIDDEN|The current user does not have permission to access the file or folder.|Check permissions and try again.|
+|MUSERFORBIDDEN|The current user doesn't have permission to access the file or folder.|Check permissions and try again.|
 |MUSERINFONOTFOUND|User account info not found.|Check user info and try again.|
-|MUSERNOTFOUND|User is not found; either it is disabled or deleted.|Check user and correct as necessary. Try again.|
+|MUSERNOTFOUND|User isn't found; either it's disabled or deleted.|Check user and correct as necessary. Try again.|
 |MUSERQUOTAREACHED|User quota limit reached.|Learn more: [Microsoft Graph error responses and resource types](/graph/errors) |
-|MZEROBYTEFILESIZEIMPORT|You cannot import a 0 byte file to a connector.|Check file and try again.|
+|MZEROBYTEFILESIZEIMPORT|You can't import a 0-byte file to a connector.|Check file and try again.|
 |PFAIL|Failed to set permission|Check permissions and try again.|
 |PFAILUNSUP|Unsupported file permissions not set.|Check permissions and try again.|
 |PSUCCESS|Set permission successfully|
 |PUNSUP|Unable to set permissions.|Check permission settings and try again.|
-|MJOBNOTCOMPLETED |Migration job (upload package) is not submitted or has not finished uploading yet. |Try again.| 
+|MJOBNOTCOMPLETED |Migration job (upload package) isn't submitted or hasn't finished uploading yet. |Try again.| 
 |MJOBERROR |Item level failure when processing the migration job (upload package). |Check file name and content. Try again.| 
 |MJOBFATALERROR|Failed to process the migration job (upload package). All items in the package will be marked as failure. |Try again. |
 
@@ -332,8 +332,8 @@ Status codes demonstrate the final status of the scan/migration tasks.
 |:-----|:-----|
 |100 |Success |
 |101 |Success. No files needed copying |
-|102 |Success. Some files are not supported by Destination name and were not transferred |
-|120 |Success. Some files are not supported by Source name and were not transferred |
+|102 |Success. Some files aren't supported by Destination name and weren't transferred |
+|120 |Success. Some files aren't supported by Source name and weren't transferred |
 |122 |Success. Some unsupported files not transferred |
 |201 |Some upload errors, please retry |
 |202 |No files copied. Some upload errors, please retry |
@@ -341,7 +341,7 @@ Status codes demonstrate the final status of the scan/migration tasks.
 |220 |No files copied. Some download errors, please retry |
 |211 |Some download and upload errors, please retry |
 |222 |No files copied. Some download and upload errors, please retry |
-|227 |Some files are not supported on the source or destination |
+|227 |Some files aren't supported on the source or destination |
 |230 |Canceled |
 |250 |Already running |
 |260 |Storage Quota Exceeded on Destination name |
@@ -349,12 +349,12 @@ Status codes demonstrate the final status of the scan/migration tasks.
 |300 |Running |
 |302 |Waiting for Microsoft batch processing |
 |400 |General failure, please retry |
-|401 |Could not upload anything, please retry |
+|401 |Couldn't upload anything, please retry |
 |402 |Connector authorization failed. Try reauthorizing Source name or Destination name |
 |403 |No status, please retry |
 |404 |Crashed, please retry |
 |405 |Crashed, please retry |
-|410 |Could not connect to Source name. Try reauthorizing |
+|410 |Couldn't connect to Source name. Try reauthorizing |
 |411 |Invalid root path |
 |422 |User for schedule not found |
 |423 |Connector not found |
