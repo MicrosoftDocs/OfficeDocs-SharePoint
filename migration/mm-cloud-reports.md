@@ -35,7 +35,7 @@ Migration Manager generates a series of scan log and reports for cloud migration
 - ScanSummary.csv 
 
 
-How to download 
+## How to download 
 
 **Scan log:** Select a scan task (each row in the Scans UI table represents a scan task) in the Scans UI, click “Download scan log” in the action bar. 
 
