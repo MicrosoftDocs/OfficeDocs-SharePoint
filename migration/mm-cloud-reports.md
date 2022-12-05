@@ -18,7 +18,7 @@ mscollection:
 search.appverid: MET150
 description: "Learn about reports for cloud to cloud migration using Migration Manager in Microsoft 365."
 ---
-# Migration Manager:  Cloud migration reports 
+# Migration Manager:  Cloud migration logs and reports 
 
 Migration Manager generates a series of scan log and reports for cloud migration scenarios.
 
@@ -30,17 +30,15 @@ Migration Manager generates a series of scan log and reports for cloud migration
 
 ## Scan reports
 
-**Scan log**
+|Type|Report|Description|
+|:-----|:-----|:-----|
+|Log|[ScanLog.csv](#scanlog.csv)|Final scan status off all items.|
+|Report|[FileExtensions.csv](#scanlog.csv)|Provides the statistics of extension types existing in each task.|
+|Report|[LargeFileSizes.csv](#largefilesizes.csv)|Lists all items larger than 15 GB that **can't** be migrated.|
+|Report|[LongPaths.csv](#longpaths.csv)|Lists all items with path lengths larger than 300 characters and that **can't** be migrated.|
+|Report|[ScanErrors.csv](#scanerrors.csv)|Lists all item level errors that occurred during the scan process of all tasks.|
+|Report|[ScanSummary.csv](#scansummary.csv)|Task level summary of all scan tasks. You can find the scan results based on the scan status code listed.|
 
-- ScanLog.csv 
-
-**Scan reports**
-
-- FileExtensions.csv 
-- LargeFileSizes.csv 
-- LongPaths.csv 
-- ScanErrors.csv 
-- ScanSummary.csv 
 
 ### ScanLog.csv 
 
@@ -112,7 +110,7 @@ LongPaths.csv file contains a list of all items with path lengths larger than 30
 
 ### ScanErrors.csv 
 
-ScanErrors.csv is a collection of all item level errors that ever occurred during the scan process of all tasks. 
+ScanErrors.csv is a list of all item level errors that ever occurred during the scan process of all tasks. 
 
 |Column|Description
 |:-----|:-----| 
@@ -126,7 +124,7 @@ ScanErrors.csv is a collection of all item level errors that ever occurred durin
 
 ### ScanSummary.csv 
 
-ScanSummary.csv is a task level summary of all scan tasks. You can find the scan results based on the scan status code revealed. 
+ScanSummary.csv is a task level summary of all scan tasks. You can find the scan results based on the scan status code listed. 
 
 |Column |Description |
 |:-----|:-----|
