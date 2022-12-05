@@ -49,25 +49,25 @@ ScanLog.csv contains the final scan status of all items of the task selected. Ea
 |Column|Description|
 |:-----|:-----|
 |TaskId |ID of the selected task, used for debugging. |
-|TransactionId |Every time when task is run, it becomes a transaction. Transaction ID is used for debugging. |
+|TransactionId |Whenever a task is run, it becomes a transaction. The transaction ID is used for debugging.|
 |Name |Display name of the source account. |
 |SourcePath |Source path of the selected source account. |
 |OperationStep |Operation step of the item. |
-|Status |Final scan status of the item. “Skipped” means the scan is completed normally, and the item is ready to be migrated. |
+|Status |Final scan status of the item. “Skipped” indicates the scan has completed, and the item is ready to be migrated. |
 |FailureCode |Failure code of the item. It shows "none" when the item status is "Success". Check the link to find out more. |
-|FailureDescription |Failure description of the failed item. It's vacant when the item status is "Success". Check the link to find out more. |
+|FailureDescription |Description of the failed item. This column is blank if the item status has a value of "Success". Check the link to find out more. |
 |FullPath |Full path of the item in the source. |
 |SourcePathDepth |Path depth of the item in the source.  |
-|SourceBasename |Base name of the item in the source. It's vacant when the item is a root folder. |
-|SourceExtension |File extension of the item in the source. It's vacant when the item is a root folder. |
+|SourceBasename |Base name of the item in the source. If the item is a root folder, this field is blank. |
+|SourceExtension |File extension of the item in the source. If the item is a root folder, this field is blank. |
 |SourceType |Type of folder in the source. |
 |SourceSize |Data size of the item in the source. |
 |SourceAclsTotal |The number of users and groups with whom the item is shared. |
 |SourceAclsUnique |The number of users and groups with whom the item is shared and that are different from its parent. |
 |DestinationPath |Full path of the item in the destination. |
 |DestinationPathDepth |Path depth of the item in the destination.  |
-|DestinationBasename |Base name of the item in the destination. It's vacant when the item is a root folder. |
-|DestinationExtension |File extension of the item in the destination. It's vacant when the item is a root folder. |
+|DestinationBasename |Base name of the item in the destination. If the item is a root folder, this field is blank. |
+|DestinationExtension |File extension of the item in the destination. If the item is a root folder, this field is blank. |
 |DestinationLocation |The web URI of the item in destination. |
 |DestinationType |File of folder in the destination. |
 |DestinationSize |Data size of the item in the destination. |
@@ -184,19 +184,19 @@ MigrationLog.csv reveals the final migration status of all items of the task sel
 |OperationStep |Operation step of the item. |
 |Status |Final migration status of the item. |
 |FailureCode |Failure code of the item. It shows "none" when item status is "Success". Check the link to find out more. |
-|FailureDescription |Failure description of the failed item. It's vacant when the item status is "Success". Check the link to find out more. |
+|FailureDescription |Failure description of the failed item. If the item status value is "Success", this field is left blank. Check the link to find out more. |
 |FullPath |Full path of the item in the source. |
 |SourcePathDepth |Path depth of the item in the source.  |
-|SourceBasename |Base name of the item in the source. It's vacant when the item is a root folder. |
-|SourceExtension |File extension of the item in the source. It's vacant when the item is a root folder. |
+|SourceBasename |Base name of the item in the source. If the item is a root folder, this field is blank. |
+|SourceExtension |File extension of the item in the source. If the item is a root folder, this field is blank. |
 |SourceType |Type of folder in the source. |
 |SourceSize |Data size of the item in the source. |
 |SourceAclsTotal |The number of users and groups with whom the item is shared. |
 |SourceAclsUnique |The number of users and groups with whom the item is shared and that are different from its parent. |
 |DestinationPath |Full path of the item in the destination. |
 |DestinationPathDepth |Path depth of the item in the destination.  |
-|DestinationBasename |Base name of the item in the destination. It's vacant when the item is a root folder. |
-|DestinationExtension |File extension of the item in the destination. It's vacant when the item is a folder. |
+|DestinationBasename |Base name of the item in the destination. If the item is a root folder, this field is blank. |
+|DestinationExtension |File extension of the item in the destination. If the item is a root folder, this field is blank. |
 |DestinationLocation |The web URI of the item in destination. |
 |DestinationType |File of folder in the destination. |
 |DestinationSize |Data size of the item in the destination. |
@@ -214,7 +214,7 @@ Migration errors.csv is a collection of all item level errors that ever occurred
 |FullPath|Full path of the item in the source. |
 |Action|Operation step of the item that goes wrong during the migration process. |
 |FailureCode|Failure code of the item. It shows "null" when item status is "Success". Check the link to find out more. |
-|FailureDescription |Failure description of the failed item. It's vacant when the item status is "Success". Check the link to find out more.|
+|FailureDescription |Failure description of the failed item. If the item status is "Success", this field will be blank. Check the link to find out more.|
 
 
 ### Migration summary.csv 
