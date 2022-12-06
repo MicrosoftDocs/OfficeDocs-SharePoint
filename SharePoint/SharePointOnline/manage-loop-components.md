@@ -71,9 +71,9 @@ To configure these Cloud Policy settings:
 5. In **Choose the scope**, choose the security group for which you want to apply the policy.
 6. In **Configure Settings**, choose one of the settings listed above.
 7. In configuration setting, choose either - **Enabled**, **Disabled**, or **Not configured**. The implication of each of these options is:
-    * **Enabled**: Loop functionality is available to users.
-    * **Disabled**: Loop functionality isn't available to users.
-    * **Not configured**: Loop functionality is available to users.
+    - **Enabled**: Loop functionality is available to users.
+    - **Disabled**: Loop functionality isn't available to users.
+    - **Not configured**: Loop functionality is available to users.
 8. Save the policy configuration.
 9. Reassign priority for any security group if required. (If two or more policy configurations are applicable to the same set of users, the one with the higher priority is applied.)
 10. In case you create a new policy configuration or change the configuration for an existing policy, there will be a delay in the change being reflected as follows:
