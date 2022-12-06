@@ -34,19 +34,6 @@ As a Global Administrator or SharePoint Administrator in Microsoft 365, you can 
 > [!NOTE]
 > Disabling site creation for users does not remove their ability to create Microsoft 365 groups or resources, such as Microsoft Teams, which rely on a group. When a Microsoft 365 group is created, a SharePoint site is also created. To restrict creation of Microsoft 365 groups and the resources that rely on groups see [Manage who can create Microsoft 365 Groups](/office365/admin/create-groups/manage-creation-of-groups). 
 
-In this release, there's an update that enables you to have more control over whether users can create sites in your organization. We're introducing an additional layer of control that will provide more granular decisions regarding the mechanisms that users can leverage to create sites.
-
-The impact of this update on your organization is:
-
-When configuring the site creation settings, you're presented with a new option that enables you to control creation of sites, apart from providing the users the option to create sites. This new option appears in the **Site Creation Settings** panel within the SharePoint admin center. By default, this new option is **ON**, which results in both checkboxes checked as shown in the following image.
-
-:::image type="content" source="media/site-creation-page.png" alt-text="The screenshot that shows the Site creation page." lightbox="media/site-creation-page.png":::
-
-If you've customized your settings to disable site creation in your tenant, the **Show the options to create a site in SharePoint and create a shared library from OneDrive** checkbox will be unchecked, while the **Users can create SharePoint sites** checkbox will remain enabled.
-
-> [!NOTE]
-> Configuring settings to disable site creation won't affect your changes to any other options in the "site creation" panel.
-
 ## Manage site creation in the new SharePoint admin center
 
 1. Go to <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings** in the SharePoint admin center</a>, and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
@@ -56,32 +43,23 @@ If you've customized your settings to disable site creation in your tenant, the 
     
 2. Select **Site creation**. The **Site creation** page appears.
 
-   :::image type="content" source="media/site-creation-page.png" alt-text="The screenshot that shows the Site creation page." lightbox="media/site-creation-page.png":::
+   :::image type="content" source="media/site-creation-screen.png" alt-text="The screenshot that shows the Site creation page." lightbox="media/site-creation-page.png":::
 
-3. Perform the following subtasks to create a site using the UX:
-
-    1. Ensure that the **Users can create SharePoint sites** checkbox is checked. (This option enables you to create sites programmatically using PNP, PowerShell, and APIs. However, even to use the UX to create sites, this checkbox must first be checked because only then, the **Show the options to create a site in SharePoint and create a shared library from OneDrive** option is made available for you to check).
-
-       > [!NOTE]
-       > The **Users can create SharePoint sites** checkbox is checked by default.
-
-    1. Check the **Show the options to create a site in SharePoint and create a shared library from OneDrive** checkbox. Only on checking this checkbox, the UX options will be available for usage to create sites.
+3. If you want users to be able to create sites from these services, select **Show the options to create a site in SharePoint and create a shared library from OneDrive**.
 
        > [!NOTE]
        > Even if you clear this checkbox, users may be able to create Microsoft 365 groups from other places in Microsoft 365. Each group always comes with a team site. [Learn how to manage who can create Microsoft 365 groups](/office365/admin/create-groups/manage-creation-of-groups)
 
-4. If you want to only create the sites programmatically, ensure that the **Users can create SharePoint sites** checkbox is checked, and it's not necessary for the **Show the options to create a site in SharePoint and create a shared library from OneDrive** checkbox to be checked.
-
-5. Under /sites or /teams, select to create Microsoft 365 group-connected team sites, and then select the default time zone and storage limit for new sites.
+4. Under /sites or /teams, select to create Microsoft 365 group-connected team sites, and then select the default time zone and storage limit for new sites.
 
 6. Select **Save**.
 
 ## Manage detailed site and subsite creation settings in the classic SharePoint admin center
 
-Admins in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> can choose to either enable or disable subsite creation across sites or enable for classic sites only. When subsite creation is being disabled, not only will the subsite option be hidden from the command bar including classic, but also the users won't be able to create new subsites directly through a URL or API.  
+Admins in the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> can choose to either enable or disable subsite creation across sites or enable for classic sites only. When subsite creation is being disabled, not only will the subsite option be hidden from the command bar including classic, but also users won't be able to create new subsites directly through a URL or API.  
 
 > [!NOTE]
-> For info about classifying Microsoft 365 groups, see [Manage Microsoft 365 Groups with PowerShell](/office365/enterprise/manage-office-365-groups-with-powershell).
+> For information about classifying Microsoft 365 groups, see [Manage Microsoft 365 Groups with PowerShell](/office365/enterprise/manage-office-365-groups-with-powershell).
 
 1.  In the left pane of the new SharePoint admin center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185072" target="_blank">**Settings**</a>. At the bottom of the page, select **classic settings page**. 
     
