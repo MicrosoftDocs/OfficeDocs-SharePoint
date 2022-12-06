@@ -58,27 +58,27 @@ To disable Loop components, run `Set-SPOTenant -IsLoopEnabled $false`. The chang
 
 Outlook and Word integration check the following Cloud Policy settings:
 
-* **Create and view Loop files in Microsoft apps that support Loop**
-* **Create and view Loop files in Outlook**
+- **Create and view Loop files in Microsoft apps that support Loop**
+- **Create and view Loop files in Outlook**
 
 See the [Cloud Policy](/deployoffice/admincenter/overview-cloud-policy) setting templates for more information on the settings above.
 
 To configure these Cloud Policy settings:
-1. Sign in to https://config.office.com/ with your Microsoft 365 admin credentials
-2. Select **Customization** from the left pane
-3. Select **Policy Management**
-4. Create a new policy configuration or edit an existing one
-5. In **Choose the scope**, choose the security group for which you want to apply the policy
-6. In **Configure Settings**, choose one of the settings listed above
-7. In configuration setting, choose either - *enabled, disabled,* or *not configured*. The implication of each of these options is mentioned below:
-    * **Enabled**: Loop functionality is available to users
-    * **Disabled**: Loop functionality isn't available to users
-    * **Not configured**: Loop functionality is available to users
-8. Save the policy configuration
-9. Reassign priority for any security group if required (If two or more policy configurations are applicable to the same set of users, the one with the higher priority is applied).
-10. In case you create a new policy configuration or change the configuration for an existing policy, there will be a delay in the change being reflected as mentioned below:
-    * If there were existing policy configurations prior to the change, then it will take 90 mins for the change to be reflected.
-    * If there were no policy configurations prior to the change then it will take 24 hours for the change to be reflected.
+1. Sign in to https://config.office.com/ with your Microsoft 365 admin credentials.
+2. Select **Customization** from the left pane.
+3. Select **Policy Management**.
+4. Create a new policy configuration or edit an existing one.
+5. In **Choose the scope**, choose the security group for which you want to apply the policy.
+6. In **Configure Settings**, choose one of the settings listed above.
+7. In configuration setting, choose either - **Enabled**, **Disabled**, or **Not configured**. The implication of each of these options is:
+    * **Enabled**: Loop functionality is available to users.
+    * **Disabled**: Loop functionality isn't available to users.
+    * **Not configured**: Loop functionality is available to users.
+8. Save the policy configuration.
+9. Reassign priority for any security group if required. (If two or more policy configurations are applicable to the same set of users, the one with the higher priority is applied.)
+10. In case you create a new policy configuration or change the configuration for an existing policy, there will be a delay in the change being reflected as follows:
+    - If there were existing policy configurations prior to the change, then it will take 90 mins for the change to be reflected.
+    - If there were no policy configurations prior to the change then it will take 24 hours for the change to be reflected.
 
 ## eDiscovery
 
