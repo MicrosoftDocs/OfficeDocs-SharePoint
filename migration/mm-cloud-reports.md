@@ -157,13 +157,14 @@ Migration Manager generates a series of migration log and reports for cloud migr
 |Report|[Migration errors.csv](#-migration-errors.csv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
 |Report|[Migration summary.csv](#-migration-summary.csv)|Task level summary of all migration tasks. |
 
-**How to download** 
+### How to download
 
-**Migration log:** Select on a migration task (each row in the Migrations UI table represents a migration task) in the Migrations UI, select “View logs” in the side page popped up to view the log online, you can also select “Download CSV” in the subsequent page to download the MigrationLog.csv. 
+**Migration log:** 
+1. Select a task row in Migration Manager.
+2. Select **View logs**. A side page displays to view the log online. Select **Download CSV** download the MigrationLog.csv. 
 
-**Migration reports:** Select “Download reports” in the action bar directly in the Migrations UI. Do NOT select any migration task, as migration reports are overall reports of all migration tasks. 
-
-
+**Migration reports:** 
+1. From the Migration Manager action bar, select **Download reports**. Note: Migration reports are overall reports for all tasks. Don't select an individual migration task.
 
 ### MigrationLog.csv 
 
