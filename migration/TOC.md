@@ -53,9 +53,9 @@
 #### [Migrated workflows](spmt-workflow-migrated-flows.md)
 ## Migration Manager Reference
 ### [File size limitations](mm-file-size-limitations.md)
-### Troubleshooting and errors codes
 #### [Troubleshooting and errors](mm-troubleshoot.md)
-#### [Transaction Error codes](mm-error-codes.md)
+#### [Cloud migration reports and error codes](mm-cloud-reports.md)
+#### [File share migration reports](mm-reports.md)
 ### File share Reference
 #### [Prerequisites and endpoints](mm-prerequisites.md)
 #### [Settings](mm-settings.md)
@@ -65,7 +65,6 @@
 #### [Format a CSV or JSON file for bulk upload](mm-bulk-upload-format-csv-json.md)
 #### [Create a user mapping file](mm-user-mapping-file.md)
 #### [Performance dashboard](mm-performance-dashboard.md)
-#### [Reports](mm-reports.md)
 #### [FAQs](mm-faqs.md)
 #### [How to reinstall a Migration agent](mm-reinstall-agent.md)
 ### Box Reference

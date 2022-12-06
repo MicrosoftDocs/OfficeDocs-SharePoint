@@ -24,28 +24,16 @@ description: "Learn about the reports available when using Migration Manager to 
 
 When migrating your on-premises file shares to Microsoft 365, Migration Manager generates log files, summary and task-level reports, and a performance report.  Use these reports to help manage, audit, and troubleshoot your migration process.
 
-
-|Type|Report|Description|
+|Type|Report|
 |:-----|:-----|:-----|
-|Summary|
-
-Summary report:
-
-- [Summary Report](#summary-report)
-
-Task level reports:
-
-- [Item Summary](#item-summary)
-- [Item Failure Report](#item-failure-report)
-- [Item Report](#item-report)
-- [Scan Summary](#scan-summary)
-- [Structure Report](#structure-report)
-- [Structure Failure Report](#structure-failure-report)
-- [Structure Failure Summary](#structure-failure-summary)
-
-Performance report
-
-- [Performance Report](#performance-report)
+|Task level|[Item Summary](#item-summary)|
+|Task level|[Item Failure Report](#item-failure-report)|
+|Task level|[Item Report](#item-report)|
+|Task level|[Scan Summary](#scan-summary)|
+|Task level|[Structure Report](#structure-report)|
+|Task level|[Structure Failure Report](#structure-failure-report)|
+|Task level|[Structure Failure Summary](#structure-failure-summary)|
+|Performance report|[Performance Report](#performance-report)|
 
 ## How to view the reports
 
