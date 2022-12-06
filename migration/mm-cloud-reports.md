@@ -30,14 +30,14 @@ When migrating from another cloud source to Microsoft 365, Migration Manager gen
 
 ## Scan reports
 
-|Type|Report|Description|
+|Report|Description|
 |:-----|:-----|:-----|
-|Log|[ScanLog.csv](#scanlog.csv)|Final scan status off all items.|
-|Report|[FileExtensions.csv](#scanlog.csv)|Provides the statistics of extension types existing in each task.|
-|Report|[LargeFileSizes.csv](#largefilesizes.csv)|Lists all items larger than 15 GB that **can't** be migrated.|
-|Report|[LongPaths.csv](#longpaths.csv)|Lists all items with path lengths larger than 300 characters and that **can't** be migrated.|
-|Report|[ScanErrors.csv](#scanerrors.csv)|Lists all item level errors that occurred during the scan process of all tasks.|
-|Report|[ScanSummary.csv](#scansummary.csv)|Task level summary of all scan tasks. You can find the scan results based on the scan status code listed.|
+|[ScanLog.csv](#scanlog.csv)|Final scan status off all items.|
+|[FileExtensions.csv](#scanlog.csv)|Provides the statistics of extension types existing in each task.|
+|[LargeFileSizes.csv](#largefilesizes.csv)|Lists all items larger than 15 GB that **can't** be migrated.|
+|[LongPaths.csv](#longpaths.csv)|Lists all items with path lengths larger than 300 characters and that **can't** be migrated.|
+|[ScanErrors.csv](#scanerrors.csv)|Lists all item level errors that occurred during the scan process of all tasks.|
+|[ScanSummary.csv](#scansummary.csv)|Task level summary of all scan tasks. You can find the scan results based on the scan status code listed.|
 
 ### ScanLog.csv 
 
@@ -151,11 +151,11 @@ ScanSummary.csv is a task level summary of all scan tasks. You can find the scan
 
 Migration Manager generates a series of migration log and reports for cloud migration scenarios: 
 
-|Type|Report|Description|
-|:-----|:-----|:-----|
-|Log|[MigrationLog.csv](#-migrationlog.csv)|Lists the final migration status of all items of the selected task.|
-|Report|[Migration errors.csv](#-migration-errors.csv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
-|Report|[Migration summary.csv](#-migration-summary.csv)|Task level summary of all migration tasks. |
+|Report|Description|
+|:-----|:-----|
+|[MigrationLog.csv](#-migrationlog.csv)|Lists the final migration status of all items of the selected task.|
+|[Migration errors.csv](#-migration-errors.csv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
+|[Migration summary.csv](#-migration-summary.csv)|Task level summary of all migration tasks. |
 
 ### How to download
 
