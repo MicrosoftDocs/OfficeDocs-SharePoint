@@ -20,7 +20,7 @@ description: "Learn about reports for cloud to cloud migration using Migration M
 ---
 # Migration Manager:  Cloud migration logs and reports 
 
-Migration Manager generates a series of scan log and reports for cloud migration scenarios.
+When migrating from another cloud source to Microsoft 365, Migration Manager generates a series of scan log and reports for cloud migration scenarios. Use these reports to help manage, audit, and troubleshoot your migration process.
 
 ## How to download 
 
@@ -51,7 +51,7 @@ ScanLog.csv contains the final scan status of all items of the task selected. Ea
 |SourcePath |Source path of the selected source account. |
 |OperationStep |Operation step of the item. |
 |Status |Final scan status of the item. “Skipped” indicates the scan has completed, and the item is ready to be migrated. |
-|FailureCode |Failure code of the item. It shows "none" when the item status is "Success". Check the link to find out more. |
+|FailureCode |Failure code of the item. A value of "None" will show in this column when the item status is "Success". Check the link to find out more. |
 |FailureDescription |Description of the failed item. This column is blank if the item status has a value of "Success". Check the link to find out more. |
 |FullPath |Full path of the item in the source. |
 |SourcePathDepth |Path depth of the item in the source.  |
