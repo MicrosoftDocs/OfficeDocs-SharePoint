@@ -1,5 +1,5 @@
 ---
-title: "Migration Manager file share migration reports"
+title: "Migration Manager File Share migration reports"
 ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
