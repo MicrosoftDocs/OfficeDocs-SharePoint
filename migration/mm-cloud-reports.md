@@ -151,14 +151,11 @@ ScanSummary.csv is a task level summary of all scan tasks. You can find the scan
 
 Migration Manager generates a series of migration log and reports for cloud migration scenarios: 
 
-Migration log 
-
-- MigrationLog.csv 
-
-Migration reports 
-
-- Migration errors.csv 
-- Migration summary.csv 
+|Type|Report|Description|
+|:-----|:-----|:-----|
+|Log|[MigrationLog.csv](#-migrationlog.csv)|Lists the final migration status of all items of the selected task.|
+|Report|[Migration errors.csv](#-migration-errors.csv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
+|Report|[Migration summary.csv](#-migration-summary.csv)|Task level summary of all migration tasks. |
 
 **How to download** 
 
@@ -170,7 +167,7 @@ Migration reports
 
 ### MigrationLog.csv 
 
-MigrationLog.csv reveals the final migration status of all items of the task selected. Each row in the csv file represents an item of the selected task. 
+MigrationLog.csv lists the final migration status of all items of the task selected. Each row in the csv file represents an item of the selected task. 
 
 |Column |Description |
 |:-----|:-----|
@@ -201,7 +198,7 @@ MigrationLog.csv reveals the final migration status of all items of the task sel
 
 ### Migration errors.csv 
 
-Migration errors.csv is a collection of all item level errors that ever occurred during the migration process of all tasks. 
+Migration errors.csv is a list of all item level errors that ever occurred during the migration process of all tasks. 
 
 |Column |Description |
 |:-----|:-----|
