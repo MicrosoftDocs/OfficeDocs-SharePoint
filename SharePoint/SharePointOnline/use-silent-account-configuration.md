@@ -73,6 +73,8 @@ Using Group Policy:
   
 > [!NOTE]
 > Silent account configuration won't work on devices for users who require multi-factor authentication. Select third-party identity providers (IdPs) are supported, but there are caveats. For more information, make sure to check out the [Azure AD federation compatibility list](/azure/active-directory/hybrid/how-to-connect-fed-compatibility).
+> 
+> Configuration with Alternate IDs is only supported within Microsoft 365 Government environments.
 
 If the computers on your network aren't connected to Active Directory on-premises, but only to Azure AD, we recommend using Intune and a Microsoft PowerShell script to set the registry keys required to enable silent account configuration. Be sure you have [automatic enrollment set up for Windows 10 devices](/intune/quickstart-setup-auto-enrollment). 
 
