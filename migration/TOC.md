@@ -53,9 +53,9 @@
 #### [Migrated workflows](spmt-workflow-migrated-flows.md)
 ## Migration Manager Reference
 ### [File size limitations](mm-file-size-limitations.md)
-### [Troubleshooting and errors](mm-troubleshoot.md)
-### [Cloud migration reports and error codes](mm-cloud-reports.md)
-### [File share migration reports](mm-reports.md)
+### [Troubleshooting](mm-troubleshoot.md)
+### [Reports and error codes for cloud migrations](mm-cloud-reports.md)
+### [Reports and errors codes for fle share migration](mm-reports.md)
 ### File share Reference
 #### [Prerequisites and endpoints](mm-prerequisites.md)
 #### [Settings](mm-settings.md)
