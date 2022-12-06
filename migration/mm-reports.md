@@ -1,5 +1,5 @@
 ---
-title: "Migration Manager Reports"
+title: "Migration Manager file share migration reports"
 ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
@@ -20,7 +20,7 @@ search.appverid: MET150
 description: "Learn about the reports available when using Migration Manager to migrate on-premises file shares to Microsoft 365."
 ---
 
-# File share migration reports
+# Migration Manager: File share migration reports
 
 When migrating your on-premises file shares to Microsoft 365, Migration Manager generates log files, summary and task-level reports, and a performance report.  Use these reports to help manage, audit, and troubleshoot your migration process.
 
