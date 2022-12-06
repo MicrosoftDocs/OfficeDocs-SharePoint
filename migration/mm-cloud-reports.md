@@ -39,6 +39,7 @@ Migration Manager generates a series of scan log and reports for cloud migration
 |Report|[ScanErrors.csv](#scanerrors.csv)|Lists all item level errors that occurred during the scan process of all tasks.|
 |Report|[ScanSummary.csv](#scansummary.csv)|Task level summary of all scan tasks. You can find the scan results based on the scan status code listed.|
 
+
 </br></br>
 
 ### ScanLog.csv 
