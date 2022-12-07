@@ -16,8 +16,9 @@ mscollection:
 - M365-collaboration
 - m365initiative-migratetom365
 search.appverid: MET150
-description: "Learn about reports for cloud to cloud migration using Migration Manager in Microsoft 365."
+description: "Learn about reports for cloud to cloud migrations using Migration Manager in Microsoft 365."
 ---
+
 # Migration Manager: Reports and error codes for cloud migrations
 
 Migration Manager generates a series of scan log and reports for cloud migration scenarios. Use these reports to help manage, audit, and troubleshoot your migration process.
@@ -35,12 +36,12 @@ Migration Manager generates a series of scan log and reports for cloud migration
 
 |Report|Description|
 |:-----|:-----|:-----|
-|[ScanLog.csv](#scanlog-csv)|Final scan status off all items.|
-|[FileExtensions.csv](#scanlog-csv)|Provides the statistics of extension types existing in each task.|
-|[LargeFileSizes.csv](#largefilesizes-csv)|Lists all items larger than 15 GB that **can't** be migrated.|
-|[LongPaths.csv](#longpaths-csv)|Lists all items with path lengths larger than 300 characters and that **can't** be migrated.|
-|[ScanErrors.csv](#scanerrors-csv)|Lists all item level errors that occurred during the scan process of all tasks.|
-|[ScanSummary.csv](#scansummary-csv)|Task level summary of all scan tasks. You can find the scan results based on the scan status code listed.|
+|[ScanLog.csv](#scanlogcsv)|Final scan status off all items.|
+|[FileExtensions.csv](#scanlogcsv)|Provides the statistics of extension types existing in each task.|
+|[LargeFileSizes.csv](#largefilesizescsv)|Lists all items larger than 15 GB that **can't** be migrated.|
+|[LongPaths.csv](#longpathscsv)|Lists all items with path lengths larger than 300 characters and that **can't** be migrated.|
+|[ScanErrors.csv](#scanerrorscsv)|Lists all item level errors that occurred during the scan process of all tasks.|
+|[ScanSummary.csv](#scansummarycsv)|Task level summary of all scan tasks. You can find the scan results based on the scan status code listed.|
 
 ### ScanLog.csv 
 
@@ -156,9 +157,9 @@ Migration Manager generates a series of migration log and reports for cloud migr
 
 |Report|Description|
 |:-----|:-----|
-|[MigrationLog.csv](#-migrationlog-csv)|Lists the final migration status of all items of the selected task.|
-|[Migration errors.csv](#-migration-errors-csv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
-|[Migration summary.csv](#-migration-summary-csv)|Task level summary of all migration tasks. |
+|[MigrationLog.csv](#-migrationlogcsv)|Lists the final migration status of all items of the selected task.|
+|[Migration errors.csv](#-migration-errorscsv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
+|[Migration summary.csv](#-migration-summarycsv)|Task level summary of all migration tasks. |
 
 ### How to download
 
