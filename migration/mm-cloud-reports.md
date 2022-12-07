@@ -1,5 +1,5 @@
 ---
-title: "Migration Manager cloud migration reports"
+title: Migration Manager cloud migration reports
 ms.reviewer: JoanneHendrickson
 ms.author: jhendr
 author: JoanneHendrickson
@@ -8,7 +8,8 @@ recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: articlems.service: sharepoint-online
+ms.topic: article
+ms.service: sharepoint-online
 ms.subservice: sharepoint-migration
 ms.localizationpriority: medium
 mscollection:
@@ -17,8 +18,8 @@ mscollection:
 - m365initiative-migratetom365
 search.appverid: MET150
 description: "Learn about reports for cloud to cloud migrations using Migration Manager in Microsoft 365."
----
 
+---
 # Migration Manager: Reports and error codes for cloud migrations
 
 Migration Manager generates a series of scan log and reports for cloud migration scenarios. Use these reports to help manage, audit, and troubleshoot your migration process.
