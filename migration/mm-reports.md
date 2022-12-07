@@ -25,7 +25,7 @@ description: "Learn about the reports available when using Migration Manager to 
 When migrating your on-premises file shares to Microsoft 365, Migration Manager generates log files, summary and task-level reports, and a performance report.  Use these reports to help manage, audit, and troubleshoot your migration process.
 
 >[!Note]
->These reports are for file share migration only. For cloud migrations, learn more at: [Cloud migration reports and errors in Migration Manager](mm-cloud-reports.md)
+>These reports are for file share migration only. For cloud migrations, learn more at: [Reports and errors for cloud migrations](mm-cloud-reports.md)
 
 |Type|Report|
 |:-----|:-----|:-----|

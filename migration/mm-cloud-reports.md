@@ -22,6 +22,9 @@ description: "Learn about reports for cloud to cloud migration using Migration M
 
 When migrating from another cloud source to Microsoft 365, Migration Manager generates a series of scan log and reports for cloud migration scenarios. Use these reports to help manage, audit, and troubleshoot your migration process.
 
+>[!Note]
+>These reports are for cloud migrations only. For file share migrations, learn more at: [Reports and errors for file share migrations](mm-reports.md)
+
 ## How to download 
 
 **Scan log:** Select a scan task (each row in the Scans UI table represents a scan task) in the Scans UI, select “Download scan log” in the action bar. 
