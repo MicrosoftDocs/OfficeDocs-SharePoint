@@ -909,11 +909,6 @@
       "source_path": "OneDrive/user-external-sharing-settings.md",
       "redirect_url": "/sharepoint/user-external-sharing-settings",
       "redirect_document_id": false
-    },
-    {
-      "source_path": "migration/mm-error-codes.md",
-      "redirect_url": "migration/mm-cloud-reports.md",
-      "redirect_document_id": true
-    },
+    }
   ]
 }
