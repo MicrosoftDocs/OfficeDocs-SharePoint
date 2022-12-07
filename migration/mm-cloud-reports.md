@@ -18,7 +18,6 @@ mscollection:
 - m365initiative-migratetom365
 search.appverid: MET150
 description: "Learn about reports for cloud to cloud migrations using Migration Manager in Microsoft 365."
-
 ---
 # Migration Manager: Reports and error codes for cloud migrations
 
