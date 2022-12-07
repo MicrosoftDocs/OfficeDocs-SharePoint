@@ -220,24 +220,17 @@ Migration summary.csv is a task level summary of all migration tasks. You can fi
 |:-----|:-----|
 |TaskId |ID of the selected task, used for debugging. |
 |TransactionId |Every time when task is run, it's a transaction. Transaction ID is used for debugging. |
-|StartTime |Starting time in UTC of the migration task. |
-|EndTime |Ending time in UTC of the migration task. |
 |Name |Display name of the selected task in the source. |
 |SourcePath |Source path of the selected task. |
 |Tags |Predefined tags of the task. |
 |StatusCode |Status code of the migration task, find out more on status code. |
 |FoldersCreated |Folder created in the destination for the migration. |
-|LatestCopiedFiles |Number of files copied to destination during the latest transaction. |
-|AlreadyCopiedFiles |Number of files copied to destination in the transaction ran before. |
-|TotalCopiedFiles |Total number of files ever copied to destination. |
+|FilesSkipped|Number of files copied to destination in the transaction ran before. |
+|FilesSuccessful |Total number of files ever copied to destination. |
 |FilesFailed |Number of files that failed to copy to destination during the latest transaction. |
-|LatestCopiedData |Data size copied to destination during the latest transaction. |
-|AlreadyCopiedData |Data copied to destination in the transaction ran before. |
-|TotalCopiedData |Total data size ever copied to destination. |
+|DataSkipped|Data copied to destination in the transaction ran before. |
+|DataSuccessful|Total data size ever copied to destination. |
 |DataFailed |Data size that failed to copy to destination during the latest transaction. |
-|Filters |Filter rules that applied during the latest transaction. |
-|FilteredFiles |Number of files NOT copied to destination during the latest transaction due to the filter rules. |
-|FilteredData |Data NOT copied to destination during the latest transaction due to the filter rules. |
 
 
 ## Failure codes
