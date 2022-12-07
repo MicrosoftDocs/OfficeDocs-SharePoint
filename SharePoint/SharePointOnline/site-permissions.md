@@ -13,6 +13,7 @@ ms.topic: article
 ms.service: sharepoint-online
 ms.localizationpriority: high
 ms.custom: admindeeplinkSPO
+layout: ContentPage
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
@@ -30,7 +31,7 @@ On the **Permissions** tab, you can manage permissions for the site and also for
 
 Site admins (formerly called site collection administrators) have the highest level of SharePoint permissions. They have the same Full Control permissions of a site owner, plus they can do more things, such as managing search, the recycle bin, and site collection features. They also have access to any items in the site, including in subsites, even if permissions inheritance has been broken.
 
-If there's a Microsoft 365 group connected to the site, then group owners are automatically included as site admins and group members are automatically included as site members. Managing site permissions through group membership is recommended over giving people permissions directly to the site. This method allows for easier administration and consistent access for users across group resources.
+If there's a Microsoft 365 group or team connected to the site, then group or team owners are automatically included as site admins and group or team members are automatically included as site members. Managing site permissions through group or team membership is recommended over giving people permissions directly to the site. This method allows for easier administration and consistent access for users across group and team resources.
 
 ### Microsoft 365 group owners
 
@@ -42,11 +43,11 @@ Additional admins are site admins only and can only manage the SharePoint site. 
 
 ## Site owners
 
-Site owners have full control of the SharePoint site. If the site has an associated Microsoft 365 group, then group owners are automatically included as site owners. However, people added directly to the site owners group don't have access to the Microsoft 365 group or team unless they are added there directly.
+Site owners have full control of the SharePoint site. If the site has an associated Microsoft 365 group or team, then group or team owners are automatically included as site owners. However, people added directly to the site owners group don't have access to the Microsoft 365 group or team unless they are added there directly.
 
 ## Site members
 
-Site members have edit permissions to the SharePoint site and can add and remove files, lists, and libraries. If the site has an associated Microsoft 365 group, then group members are automatically included as site members. However, people added directly to the site members group don't have access to the Microsoft 365 group or team unless they are added there directly.
+Site members have edit permissions to the SharePoint site and can add and remove files, lists, and libraries. If the site has an associated Microsoft 365 group or team, then group or team members are automatically included as site members. However, people added directly to the site members group don't have access to the Microsoft 365 group or team unless they are added there directly.
 
 ## Site visitors
 
