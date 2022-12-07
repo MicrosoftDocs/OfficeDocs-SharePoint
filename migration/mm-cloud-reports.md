@@ -36,7 +36,7 @@ Migration Manager generates a series of scan log and reports for cloud migration
 
 |Report|Description|
 |:-----|:-----|:-----|
-|[ScanLog.csv](#scanlogcsv)|Details of the final scan for all items.|
+|[ScanLog.csv](#scanlogcsv)|Details of the last scan for all items.|
 |[FileExtensions.csv](#scanlogcsv)|Provides the statistics of extension types existing in each task.|
 |[LargeFileSizes.csv](#largefilesizescsv)|Lists all items larger than 15 GB that **can't** be migrated.|
 |[LongPaths.csv](#longpathscsv)|Lists all items with path lengths larger than 300 characters and that **can't** be migrated.|
@@ -45,7 +45,7 @@ Migration Manager generates a series of scan log and reports for cloud migration
 
 ### ScanLog.csv 
 
-The scanLog.csv report details the final scan for all items. Each row in the .csv file represents an item of the selected task. 
+The scanLog.csv report details the last scan for all items. Each row in the .csv file represents an item of the selected task. 
 
 |Column|Description|
 |:-----|:-----|
