@@ -56,7 +56,7 @@
 ### [Reports and error codes for cloud migrations](mm-cloud-reports.md)
 ### File share Reference
 #### [Prerequisites and endpoints](mm-prerequisites.md)
-### [Reports and error codes for file share migrations](mm-reports.md)
+#### [Reports and error codes for file share migrations](mm-reports.md)
 #### [Settings](mm-settings.md)
 #### [Create an Agent group](mm-agent-targeting.md)
 #### [Government cloud configuration](mm-gov-cloud.md)
