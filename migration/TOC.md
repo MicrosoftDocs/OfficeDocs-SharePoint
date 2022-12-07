@@ -54,7 +54,7 @@
 ## Migration Manager Reference
 ### [File size limitations](mm-file-size-limitations.md)
 ### [Reports and error codes for cloud migrations](mm-cloud-reports.md)
-### [Reports and errors codes for file share migration](mm-reports.md)
+### [Reports and error codes for file share migrations](mm-reports.md)
 ### File share Reference
 #### [Prerequisites and endpoints](mm-prerequisites.md)
 #### [Settings](mm-settings.md)
