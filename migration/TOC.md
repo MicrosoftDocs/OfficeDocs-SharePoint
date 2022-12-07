@@ -53,7 +53,6 @@
 #### [Migrated workflows](spmt-workflow-migrated-flows.md)
 ## Migration Manager Reference
 ### [File size limitations](mm-file-size-limitations.md)
-### [Troubleshooting](mm-troubleshoot.md)
 ### [Reports and error codes for cloud migrations](mm-cloud-reports.md)
 ### [Reports and errors codes for file share migration](mm-reports.md)
 ### File share Reference
@@ -62,6 +61,7 @@
 #### [Create an Agent group](mm-agent-targeting.md)
 #### [Government cloud configuration](mm-gov-cloud.md)
 #### [How Migration Manager works](mm-how-it-works.md)
+#### [Troubleshooting](mm-troubleshoot.md)
 #### [Format a CSV or JSON file for bulk upload](mm-bulk-upload-format-csv-json.md)
 #### [Create a user mapping file](mm-user-mapping-file.md)
 #### [Performance dashboard](mm-performance-dashboard.md)
