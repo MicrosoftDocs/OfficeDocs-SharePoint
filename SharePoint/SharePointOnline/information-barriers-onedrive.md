@@ -152,7 +152,7 @@ Enabling information barriers for SharePoint and OneDrive are configured in a si
 
 ## Use PowerShell to view the segments associated with a OneDrive
 
-A global or SharePoint admin can view and change the segments associated with a user's OneDrive.
+A global or SharePoint admin can view and change the segments associated with a user's OneDrive. Your organization can have up to 5,000 segments and users can be assigned to multiple segments.
 
 1. Connect to the [Security & Compliance Center PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) as a global admin.
 
@@ -194,7 +194,7 @@ A global or SharePoint admin can view and change the segments associated with a 
 > [!NOTE]
 > Any changes you make will be overwritten if the user's segment changes.
 
-To associate a segment with a OneDrive, run the following command in the SharePoint Online Management Shell. A OneDrive can have up to 100 associated segments.
+To associate a segment with a OneDrive, run the following command in the SharePoint Online Management Shell. A OneDrive can have up to 5,000 associated segments.
 
 ```PowerShell
 Set-SPOSite -Identity <site URL> -AddInformationSegment <segment GUID> 
