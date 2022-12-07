@@ -158,9 +158,9 @@ Migration Manager generates a series of migration log and reports for cloud migr
 
 |Report|Description|
 |:-----|:-----|
-|[MigrationLog.csv](#-migrationlogcsv)|Lists the final migration status of all items of the selected task.|
-|[Migration errors.csv](#-migration-errorscsv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
-|[Migration summary.csv](#-migration-summarycsv)|Task level summary of all migration tasks. |
+|[MigrationLog.csv](#migrationlogcsv)|Lists the final migration status of all items of the selected task.|
+|[Migration errors.csv](#migration-errorscsv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
+|[Migration summary.csv](#migration-summarycsv)|Task level summary of all migration tasks. |
 
 ### How to download
 
