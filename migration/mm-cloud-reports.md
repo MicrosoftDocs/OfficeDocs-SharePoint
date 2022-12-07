@@ -1,6 +1,6 @@
 ---
-title: "Migration Manager Cloud migration reports"
-ms.reviewer:
+title: "Migration Manager cloud migration reports"
+ms.reviewer: JoanneHendrickson
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
@@ -20,7 +20,7 @@ description: "Learn about reports for cloud to cloud migration using Migration M
 ---
 # Migration Manager: Reports and error codes for cloud migrations
 
-When migrating from another cloud source to Microsoft 365, Migration Manager generates a series of scan log and reports for cloud migration scenarios. Use these reports to help manage, audit, and troubleshoot your migration process.
+Migration Manager generates a series of scan log and reports for cloud migration scenarios. Use these reports to help manage, audit, and troubleshoot your migration process.
 
 >[!Note]
 >These reports are for cloud migrations only. For file share migrations, learn more at: [Reports and errors for file share migrations](mm-reports.md)
@@ -35,12 +35,12 @@ When migrating from another cloud source to Microsoft 365, Migration Manager gen
 
 |Report|Description|
 |:-----|:-----|:-----|
-|[ScanLog.csv](#scanlog.csv)|Final scan status off all items.|
-|[FileExtensions.csv](#scanlog.csv)|Provides the statistics of extension types existing in each task.|
-|[LargeFileSizes.csv](#largefilesizes.csv)|Lists all items larger than 15 GB that **can't** be migrated.|
-|[LongPaths.csv](#longpaths.csv)|Lists all items with path lengths larger than 300 characters and that **can't** be migrated.|
-|[ScanErrors.csv](#scanerrors.csv)|Lists all item level errors that occurred during the scan process of all tasks.|
-|[ScanSummary.csv](#scansummary.csv)|Task level summary of all scan tasks. You can find the scan results based on the scan status code listed.|
+|[ScanLog.csv](#scanlog-csv)|Final scan status off all items.|
+|[FileExtensions.csv](#scanlog-csv)|Provides the statistics of extension types existing in each task.|
+|[LargeFileSizes.csv](#largefilesizes-csv)|Lists all items larger than 15 GB that **can't** be migrated.|
+|[LongPaths.csv](#longpaths-csv)|Lists all items with path lengths larger than 300 characters and that **can't** be migrated.|
+|[ScanErrors.csv](#scanerrors-csv)|Lists all item level errors that occurred during the scan process of all tasks.|
+|[ScanSummary.csv](#scansummary-csv)|Task level summary of all scan tasks. You can find the scan results based on the scan status code listed.|
 
 ### ScanLog.csv 
 
@@ -156,9 +156,9 @@ Migration Manager generates a series of migration log and reports for cloud migr
 
 |Report|Description|
 |:-----|:-----|
-|[MigrationLog.csv](#-migrationlog.csv)|Lists the final migration status of all items of the selected task.|
-|[Migration errors.csv](#-migration-errors.csv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
-|[Migration summary.csv](#-migration-summary.csv)|Task level summary of all migration tasks. |
+|[MigrationLog.csv](#-migrationlog-csv)|Lists the final migration status of all items of the selected task.|
+|[Migration errors.csv](#-migration-errors-csv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
+|[Migration summary.csv](#-migration-summary-csv)|Task level summary of all migration tasks. |
 
 ### How to download
 
@@ -264,7 +264,7 @@ Failure codes demonstrate item level errors during both the scan and migration p
 |MEXPORTFILERESTRICTED|This file is restricted, and can’t be migrated from the source.|Check to see if this file has legal restrictions such as copyright claims.|
 |MEXPORTFILEUNSUPPORTED|Unsupported file type. |You can't migrate this file from the source.|
 |MEXPORTFILEUNSUPPORTEDMIMETYPE|Unsupported file type.|You can't migrate this file from the source. Check file at source.|
-|MFAILEDGETROOTITEM|Failed to get root folder listing. This is set in both Google and Office365 connector|Try again.|
+|MFAILEDGETROOTITEM|Failed to get root folder listing. This is set in both Google and Office365 connector.|Try again.|
 |MFILEIMPORT|This file type isn't supported in the destination location. |Check source file.|
 |MFILELOCKED|"File is locked, and can't download or get metadata. |Unlock file.  Try again.|
 |MFILENAMELENGTH|Filename exceeds maximum allowable length. |Rename file and try again.|
