@@ -36,7 +36,7 @@ Migration Manager generates a series of scan log and reports for cloud migration
 
 |Report|Description|
 |:-----|:-----|:-----|
-|[ScanLog.csv](#scanlogcsv)|Final scan status off all items.|
+|[ScanLog.csv](#scanlogcsv)|Details of the final scan for all items.|
 |[FileExtensions.csv](#scanlogcsv)|Provides the statistics of extension types existing in each task.|
 |[LargeFileSizes.csv](#largefilesizescsv)|Lists all items larger than 15 GB that **can't** be migrated.|
 |[LongPaths.csv](#longpathscsv)|Lists all items with path lengths larger than 300 characters and that **can't** be migrated.|
@@ -45,7 +45,7 @@ Migration Manager generates a series of scan log and reports for cloud migration
 
 ### ScanLog.csv 
 
-ScanLog.csv contains the final scan status of all items of the task selected. Each row in the .csv file represents an item of the selected task. 
+The scanLog.csv report details the final scan for all items. Each row in the .csv file represents an item of the selected task. 
 
 |Column|Description|
 |:-----|:-----|
@@ -75,7 +75,7 @@ ScanLog.csv contains the final scan status of all items of the task selected. Ea
 
 ### FileExtensions.csv 
 
-FileExtensions.csv provides the statistics of extension types existing in each task. 
+The FileExtensions.csv report details the extension types in each task. 
 
 |Column |	Description| 
 |:-----	|:------|
@@ -88,7 +88,7 @@ FileExtensions.csv provides the statistics of extension types existing in each t
 
 ### LargeFileSizes.csv
 
-LargeFileSizes.csv is a list of all items larger than 15 GB that can NOT be migrated. 
+The LargeFileSizes.csv report details all items larger than 15 GB that can't be migrated. 
 
 |Column |Description |
 |:------|:-----|
@@ -101,7 +101,7 @@ LargeFileSizes.csv is a list of all items larger than 15 GB that can NOT be migr
 
 ### LongPaths.csv
 
-LongPaths.csv file contains a list of all items with path lengths larger than 300 and that can't be migrated. 
+The LongPaths.csv report details all items with path lengths larger than 300 and that can't be migrated. 
 
 |Column |Description |
 |:-----|:-----|
@@ -113,7 +113,7 @@ LongPaths.csv file contains a list of all items with path lengths larger than 30
 
 ### ScanErrors.csv 
 
-ScanErrors.csv is a list of all item level errors that ever occurred during the scan process of all tasks. 
+The ScanErrors.csv report details all item level scan errors that have occurred. 
 
 |Column|Description
 |:-----|:-----| 
@@ -127,7 +127,7 @@ ScanErrors.csv is a list of all item level errors that ever occurred during the 
 
 ### ScanSummary.csv 
 
-ScanSummary.csv is a task level summary of all scan tasks. You can find the scan results based on the scan status code listed. 
+The ScanSummary.csv report is a task level summary of all scan tasks.
 
 |Column |Description |
 |:-----|:-----|
@@ -172,7 +172,7 @@ Migration Manager generates a series of migration log and reports for cloud migr
 
 ### MigrationLog.csv 
 
-MigrationLog.csv lists the final migration status of all items of the task selected. Each row in the csv file represents an item of the selected task. 
+The MigrationLog.csv report details the final migration status for all items of the selected task. Each row in the .csv file represents an item of the selected task. 
 
 |Column |Description |
 |:-----|:-----|
@@ -203,7 +203,7 @@ MigrationLog.csv lists the final migration status of all items of the task selec
 
 ### Migration errors.csv 
 
-Migration errors.csv is a list of all item level errors that ever occurred during the migration process of all tasks. 
+The Migration errors.csv report details all item level errors that ever occurred during the migration process of all tasks. 
 
 |Column |Description |
 |:-----|:-----|
@@ -218,7 +218,7 @@ Migration errors.csv is a list of all item level errors that ever occurred durin
 
 ### Migration summary.csv 
 
-Migration summary.csv is a task level summary of all migration tasks. You can find the migration results based on the status code revealed. 
+The Migration summary.csv report is a task level summary of all migration tasks.
 
 |Column |Description |
 |:-----|:-----|
