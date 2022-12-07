@@ -98,6 +98,12 @@ To perform this task by using PowerShell, run `Remove-SPOHomeSite`.
 
 The site will continue to be an organization news site. To remove it as an organization news site, see [Create an organization news site](organization-news-site.md).
 
+
+## Choose the default landing experience for Viva Connections desktop
+If your organization is using [Viva Connections](viva/connections/viva-connections-overview), and you already has a SharePoint home site that you want to keep as the landing experience for Viva Connections desktop, use the PowerShell command. [Get more guidance on how to set the default desktop experience for Viva Connections](viva/connections/edit-viva-home). 
+
+
+
 ## See also
 
 **Watch:** [Build and launch a SharePoint Home Site: Tips and Tricks From The Product Team](https://techcommunity.microsoft.com/t5/video-hub/build-and-launch-a-sharepoint-home-site-tips-and-tricks-from-the/m-p/1696758)
