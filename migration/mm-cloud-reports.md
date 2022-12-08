@@ -53,11 +53,11 @@ The scanLog.csv report details the last scan for all items. Each row in the .csv
 |TransactionId |Whenever a task is run, it becomes a transaction. The transaction ID is used for debugging.|
 |Name |Display name of the source account. |
 |SourcePath |Source path of the selected source account. |
-|StartTime||
+|StartTime|Time at the start of the scan.|
 |OperationStep |Operation step of the item. |
-|Duration||
-|MayRetry||
-|Retries||
+|Duration|Time length of scan.|
+|MayRetry|Number of retries remaining.|
+|Retries|Number of times the scan has been run|
 |Status |Final scan status of the item. “Skipped” indicates the scan has completed, and the item is ready to be migrated. |
 |ResultCode|Failure code of the item. A value of "None" will show in this column when the item status is "Success". Check the link to find out more. |
 |FailureReason|Description of the failed item. This column is blank if the item status has a value of "Success". Check the link to find out more. |
@@ -66,7 +66,7 @@ The scanLog.csv report details the last scan for all items. Each row in the .csv
 |SourceBasename |Base name of the item in the source. If the item is a root folder, this column is blank. |
 |SourceExtension |File extension of the item in the source. If the item is a root folder, this column is blank. |
 |SourceType |Type of folder in the source. |
-|SourceSubType||
+|SourceSubType|Type of subfolder in the source.|
 |SourceSize |Data size of the item in the source. |
 |SourceAclsTotal |The number of users and groups with whom the item is shared. |
 |SourceAclsUnique |The number of users and groups with whom the item is shared and that are different from its parent. |
@@ -75,8 +75,8 @@ The scanLog.csv report details the last scan for all items. Each row in the .csv
 |DestinationBasename |Base name of the item in the destination. If the item is a root folder, this column is blank. |
 |DestinationExtension |File extension of the item in the destination. If the item is a root folder, this column is blank. |
 |DestinationLocation |The web URI of the item in destination. |
-|DestinationType |File of folder in the destination. |
-|DestinationSubType||
+|DestinationType |Type of file or folder in the destination. |
+|DestinationSubType|Type of file in the subfolder in the destination. |
 |DestinationSize |Data size of the item in the destination. |
 
 ### FileExtensions.csv 
@@ -129,7 +129,7 @@ The ScanErrors.csv report details all item level scan errors that have occurred.
 |FullPath|Full path of the item in the source. 
 |Action|Operation step of the item that goes wrong during the scan process. 
 |ResultCode|Failure code of the item. It shows "null" when item status is "Success". Check the link to find out more. 
-|TopFailureReason||
+|TopFailureReason|Primary reason for the task failing the scan.|
 
 
 ### ScanSummary.csv 
@@ -154,8 +154,8 @@ The ScanSummary.csv report is a task level summary of all scan tasks.
 |ScanStatusCode |Scan status code of the scanned task, find out more on status code. |
 |ScanStatus |Scan status of the scanned task. |
 |MostRecentScan |The most recent scan time in UTC of the task. |
-|ResultCode||
-|TopFailureReason||
+|ResultCode|Failure code of the item. A value of "None" will show in this column when the item status is "Success". Check the link to find out more.|
+|TopFailureReason|Primary reason for the task failing the scan.|
 
 
 ## Migration Reports 
@@ -187,11 +187,11 @@ The MigrationLog.csv report details the final migration status for all items of 
 |TransactionId |Every time when task is run, it becomes a transaction. Transaction ID is used for debugging. |
 |Name |Display name of the source account. |
 |SourcePath |Source path of the selected source account. |
-|StartTime||
+|StartTime|Time at start of scan.|
 |OperationStep |Operation step of the item. |
-|Duration||
-|MayRetry||
-|Retries||
+|Duration|The length of time the item was scanned.|
+|MayRetry|The remaining number of retries.|
+|Retries|Number of scans done.|
 |Status |Final migration status of the item. |
 |ResultCode|Failure code of the item. It shows "none" when item status is "Success". Check the link to find out more. |
 |FailureReason |Failure description of the failed item. If the item status value is "Success", this column is left blank. Check the link to find out more. |
@@ -200,7 +200,7 @@ The MigrationLog.csv report details the final migration status for all items of 
 |SourceBasename |Base name of the item in the source. If the item is a root folder, this column is blank. |
 |SourceExtension |File extension of the item in the source. If the item is a root folder, this column is blank. |
 |SourceType |Type of folder in the source. |
-|SourceSubType||
+|SourceSubType|Type of subfolder in the source.|
 |SourceSize |Data size of the item in the source. |
 |SourceAclsTotal |The number of users and groups with whom the item is shared. |
 |SourceAclsUnique |The number of users and groups with whom the item is shared and that are different from its parent. |
@@ -209,8 +209,8 @@ The MigrationLog.csv report details the final migration status for all items of 
 |DestinationBasename |Base name of the item in the destination. If the item is a root folder, this column is blank. |
 |DestinationExtension |File extension of the item in the destination. If the item is a root folder, this column is blank. |
 |DestinationLocation |The web URI of the item in destination. |
-|DestinationType |File of folder in the destination. |
-|DestinationSubType||
+|DestinationType |Type of folder in the destination. |
+|DestinationSubType|Type of subfolder in the destination. |
 |DestinationSize |Data size of the item in the destination. |
 
 
