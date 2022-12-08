@@ -252,7 +252,7 @@ The Migration summary.csv report is a task level summary of all migration tasks.
 
 ## Failure codes
 
-Failure codes demonstrate item level errors during both the scan and migration process.
+Result codes or "failure codes" demonstrate item level errors during both the scan and migration process.
 
 |Failure code|Description |User action|
 |:-----|:-----|:-----|
