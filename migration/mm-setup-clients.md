@@ -22,11 +22,11 @@ description: Set up multiple Migration Manager agents
 
 # Step 1: Setup Migration Manager agents
 
-When migration file shares with Migration Manager, you first set up one or more "migration agents", by running a setup file on each computer or VM you choose to configure. 
+When migration file shares with Migration Manager, you first set up one or more "migration agents", by running a setup file on each computer or VM you choose to configure. Grouping provides agent flexibility, such as only assigning particular migrations to a particular set of agents, or separating out agents in groups based on geographical location to optimize performance.
 
-When you run the setup file, you are prompted for two sets of credentials.  You need SharePoint Admin credentials to access your destination, and Windows credentials with read access to the source. Those Windows credentials must have read access to all file shares you plan to migrate. This pair of credentials creates a trust with Migration Manager. Migration Manager now sees it as an available "agent" to which it can automatically distribute migrations tasks.
+When you run the setup file, you are prompted for two sets of credentials.  You need SharePoint or OneDrive Admin credentials depending on your destination, and Windows credentials with read access to the source. Best practice is to not use global admin accounts, but to create service accounts for the agents to utilize. Those Windows credentials must have read access to all file shares you plan to migrate. This pair of credentials creates a trust with Migration Manager. Migration Manager now sees it as an available "agent" to which it can automatically distribute migrations tasks.
 
-After an agent is configured, anyone with the permission to go into the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> can create tasks. The tasks will be automatically distributed to one of the configured agents.
+After an agent is configured, anyone with the permission to go into the <a href="https://go.microsoft.com/fwlink/?linkid=2185219" target="_blank">SharePoint admin center</a> can create tasks. The tasks will be automatically distributed to one of the available configured agents.
 
 > [!Important]
 > Make sure to download the latest version of the agent setup file.
@@ -36,7 +36,7 @@ After an agent is configured, anyone with the permission to go into the <a href=
 
 |Category|Guidance|Fill in with your details|
 |:-----|:-----|:-----|
-|Have the right credentials to use|SharePoint admin for migration destination Windows account for source that has access to ALL network file shares you plan to migrate. Confirm that you have SharePoint Admin credentials to access the "destination" of where you are migrating your content. Verify that the Windows credentials you plan on using to configure the agent has access to **all** the network file shares you plan to migrate.  |
+|Have the right credentials to use|SharePoint or OneDrive admin for migration destination and an on-premises account for source that has access to ALL network file shares you plan to migrate. Confirm that you have SharePoint or OneDrive Admin credentials to access the "destination" of where you are migrating your content. Verify that the on-premises credentials you plan on using to configure the agent has access to **all** the network file shares you plan to migrate.  |
 |Virtual machines or computers to use:|Determine how many VMs or computers you plan on using for your migration project. List the computers or VMs before you start.|
 |[Verify prerequisites](mm-prerequisites.md)|Make sure your computer meets the requirements.|
 |[Check required endpoints](mm-prerequisites.md)|Verify that you have the required endpoints configured.|
@@ -45,15 +45,15 @@ After an agent is configured, anyone with the permission to go into the <a href=
 |[Government Cloud](mm-gov-cloud.md)|If your tenant resides in a government cloud, you may have extra steps to perform before using Migration Manager.|
 
 >[!Tip]
->Create a Windows admin account specifically to use for your migration project. Make sure this admin account has access to any file share that you plan on migrating. Log into each VM or computer with this account before you run the setup file.
+>Create a service account with admin rights for your agent to run on the server or VM, with read access to the sources you migrate, and SharePoint or OneDrive Administrator access to the destination specifically to use for your migration project. Log into each VM or computer with this account before you run the setup file to ensure the agent installs as a service.
 
 >[!NOTE]
 >Third party multi-factor authentication is not supported at this time.
 
 ## Set up an agent
 
-1. Log into the computer or VM you choose to set up an agent with Windows credentials that have read access to all file shares you plan to migrate.
-2. From the new SharePoint admin center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">**Migration center**</a>.You need to sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Log into the computer or VM you choose to set up an agent with credentials that have read access to all file shares you plan to migrate.
+2. From the new SharePoint admin center, select <a href="https://go.microsoft.com/fwlink/?linkid=2185075" target="_blank">**Migration center**</a>.You need to sign in with an account that has [SharePoint Administrator permissions](/sharepoint/sharepoint-admin-role) for your organization.
 3. Under "For file shares", select **Get started**.
 4. Select the **Agents** tab, and then select **Add**.
 5. Select **Download agent setup file**.
@@ -63,7 +63,9 @@ After an agent is configured, anyone with the permission to go into the <a href=
 9. Test agent access (optional) or select **Close**.  After the setup is completed, the new agent will be added to the available agents that can be assigned tasks.
 
 >[!Note]
->**Multiple agents**.  If you have a large migration project and to set up multiple agents, we recommend that you download the agent setup file to a shared location. That way you can easily download the setup file on each computer or VM.  
+>**Multiple agents**.  If you have a large migration project and to set up multiple agents, we recommend that you download the agent setup file to a shared location. That way you can easily download the setup file on each computer or VM.  Multiple agents allow you to batch certain migrations jobs to particular groups depending on need.  An example would be grouping agents by datacenter to achieve better performance based on geographical location. 
+
+Example: You are migrating 10,000 users from on-premises shares in two datacenters to OneDrive. 2,000 users have data stored in a California datacenter and 8,000 users have data stored in a Vermont datacenter. You installed two agents at the California datacenter and six agents in the Vermont datacenter.  By grouping the agents geographically, you could batch migrations where the source data is in California to the California agent group and for Vermont data to the Vermont agent group.  Geographical grouping will provide performance benefits.  Without grouping, all datacenters would be in a default group, and you would not have control over which agents are used.  This could cause the California agents to migrate Vermont data and Vermont agents to migrate California data.  While this technically will migrate files, performance could be affected.
 
 
 ### Working folder
@@ -118,7 +120,7 @@ The country or regional GEO code can be found here [Microsoft 365 Multi-Geo avai
 
 ## Agent task assignment
 
-Migration Manager automatically assigns tasks to a available agent. You cannot manually assign a task to a specific agent. Each agent can have up to 10 tasks in its queue.
+Migration Manager automatically assigns tasks to a available agent. You cannot manually assign a task to a specific agent. Each agent can have up to 10 tasks in its queue. You can, however, assign tasks to agent groups.
 
 Pausing a task does not release the agent to another task. An agent remains unavailable to accept a new task until the task is resumed and completed, or if the task is deleted.
 
