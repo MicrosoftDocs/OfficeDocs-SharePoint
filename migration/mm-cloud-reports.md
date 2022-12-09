@@ -41,10 +41,10 @@ Migration Manager generates a series of logs and reports for cloud migration sce
 
 ## How to download reports
 
-**Scan log:** Select a scan task in Migration Manager. Each row in the table represents a scan task. Select “Download scan log” in the action bar. 
+**Scan log:** Select a scan task in Migration Manager. Each row in the table represents a scan task. Select “Download scan log” in the action bar. </br>
 **Scan reports:** Select “Download reports” in the action bar. Don't select an individual task as these reports include all task.
 
-**Migration log:**  Select a task row in Migration Manager and then select "View logs". A side panel displays to view the log online. Select **Download CSV** to download the MigrationLog.csv. 
+**Migration log:**  Select a task row in Migration Manager and then select "View logs". A side panel displays to view the log online. Select **Download CSV** to download the MigrationLog.csv. </br>
 **Migration reports:** From the Migration Manager action bar, select **Download reports**. Don't select an individual task as these reports include all tasks.
 
 ### ScanLog.csv 
