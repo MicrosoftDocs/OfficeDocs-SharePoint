@@ -22,7 +22,7 @@ description: Set up multiple Migration Manager agents
 
 # Step 1: Setup Migration Manager agents
 
-When migration file shares with Migration Manager, you first set up one or more "migration agents", by running a setup file on each computer or VM you choose to configure. Grouping provides agent flexibility, such as only assigning particular migrations to a particular set of agents, or separating out agents in groups based on geographical location to optimize performance.
+When migrating file shares with Migration Manager, you first set up one or more "migration agents", by running a setup file on each computer or VM you choose to configure. Grouping provides agent flexibility, such as only assigning particular migrations to a particular set of agents, or separating out agents in groups based on geographical location to optimize performance.
 
 When you run the setup file, you are prompted for two sets of credentials.  You need SharePoint or OneDrive Admin credentials depending on your destination, and Windows credentials with read access to the source. Best practice is to not use global admin accounts, but to create service accounts for the agents to utilize. Those Windows credentials must have read access to all file shares you plan to migrate. This pair of credentials creates a trust with Migration Manager. Migration Manager now sees it as an available "agent" to which it can automatically distribute migrations tasks.
 
