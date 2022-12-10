@@ -21,7 +21,9 @@ description: "Learn about reports, errors, and status codes for cloud to cloud m
 ---
 # Migration Manager: Reports, errors & status codes for cloud migrations
 
-Migration Manager generates a series of logs and reports for cloud migration scenarios. Use these reports to help manage, audit, and troubleshoot your migration process.
+Migration Manager generates a series of logs and reports for cloud migration scenarios. These provide information to help troubleshoot your migration, letting you correct issues before you migrate. Use these reports to help manage, audit, and troubleshoot your migration process.
+
+There are two sets of reports:  those that are generated during the scan stage and those reporting on the actual migration. 
 
 
 |Report|Description|
@@ -47,6 +49,8 @@ Migration Manager generates a series of logs and reports for cloud migration sce
 
 **Migration log:**  Select a task row in Migration Manager and then select "View logs". A side panel displays to view the log online. Select **Download CSV** to download the MigrationLog.csv. </br>
 **Migration reports:** From the Migration Manager action bar, select **Download reports**. Don't select an individual task as these reports include all tasks.
+
+## Scan reports
 
 ### ScanLog.csv 
 
@@ -162,6 +166,8 @@ The ScanSummary.csv report is a task level summary of all scan tasks.
 |ResultCode|Failure code of the item. A value of "None" will show in this column when the item status is "Success". [Check the link](#failure-codes) to find out more.|
 |TopFailureReason|Primary reason for the task failing the scan.|
 
+
+## Migration reports
 
 ### MigrationLog.csv 
 
