@@ -21,12 +21,13 @@ description: "Learn about reports, errors, and status codes for cloud to cloud m
 ---
 # Migration Manager: Reports, errors & status codes for cloud migrations
 
-Migration Manager generates a series of logs and reports for cloud migration scenarios. These provide information to help troubleshoot your migration, letting you correct issues before you migrate. Use these reports to help manage, audit, and troubleshoot your migration process.
+Migration Manager generates a series of logs and reports for cloud migration scenarios. There are two sets of reports: Those generated during the scan stage and those during the actual migration. 
 
-There are two sets of reports:  those that are generated during the scan stage and those reporting on the actual migration. 
+## Reports
 
+Use these reports to help manage, audit, and troubleshoot your migration process.
 
-|Report|Description|
+|Scan report|Description|
 |:-----|:-----|:-----|
 |[ScanLog.csv](#scanlogcsv)|Details of the last scan for all items.|
 |[FileExtensions.csv](#scanlogcsv)|Provides the statistics of extension types existing in each task.|
@@ -34,9 +35,20 @@ There are two sets of reports:  those that are generated during the scan stage a
 |[LongPaths.csv](#longpathscsv)|Lists all items with path lengths larger than 300 characters and that **can't** be migrated.|
 |[ScanErrors.csv](#scanerrorscsv)|Lists all item level errors that occurred during the scan process of all tasks.|
 |[ScanSummary.csv](#scansummarycsv)|Task level summary of all scan tasks. You can find the scan results based on the scan status code listed.|
+
+
+|Migration report|Description|
+|:-----|:-----|:-----|
 |[MigrationLog.csv](#migrationlogcsv)|Lists the final migration status of all items of the selected task.|
 |[Migration errors.csv](#migration-errorscsv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
 |[Migration summary.csv](#migration-summarycsv)|Task level summary of all migration tasks. |
+
+## Failure and status codes 
+Your reports may also reference a failure or status code to provide specific details as to the nature of issue.
+  
+- [Failure codes](#failure-codes)
+- [Status codes](#status-codes) 
+
 
 >[!Note]
 >These reports are for cloud migrations only. For file share migrations, learn more at: [Reports and errors for file share migrations](mm-reports.md).
