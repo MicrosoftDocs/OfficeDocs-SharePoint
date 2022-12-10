@@ -43,15 +43,17 @@ Use these reports to help manage, audit, and troubleshoot your migration process
 |[Migration errors.csv](#migration-errorscsv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
 |[Migration summary.csv](#migration-summarycsv)|Task level summary of all migration tasks. |
 
+
+>[!Note]
+>These reports are for cloud migrations only. For file share migrations, learn more at: [Reports and errors for file share migrations](mm-reports.md).
+
+
 ## Failure and status codes 
 Your reports may also reference a failure or status code to provide specific details as to the nature of issue.
   
 - [Failure codes](#failure-codes)
 - [Status codes](#status-codes) 
 
-
->[!Note]
->These reports are for cloud migrations only. For file share migrations, learn more at: [Reports and errors for file share migrations](mm-reports.md).
 
 
 ## How to download reports
