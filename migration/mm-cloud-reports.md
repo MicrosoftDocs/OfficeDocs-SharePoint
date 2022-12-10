@@ -21,10 +21,13 @@ description: "Learn about reports, errors, and status codes for cloud to cloud m
 ---
 # Migration Manager: Reports, errors & status codes for cloud migrations
 
-Migration Manager generates a series of logs and reports for cloud migration scenarios. Use these reports to help manage, audit, and troubleshoot your migration process.
+Migration Manager generates a series of logs and reports for cloud migration scenarios. There are two sets of reports: Those generated during the scan stage and those during the actual migration. 
 
+## Reports
 
-|Report|Description|
+Use these reports to help manage, audit, and troubleshoot your migration process.
+
+|Scan report|Description|
 |:-----|:-----|:-----|
 |[ScanLog.csv](#scanlogcsv)|Details of the last scan for all items.|
 |[FileExtensions.csv](#scanlogcsv)|Provides the statistics of extension types existing in each task.|
@@ -32,6 +35,10 @@ Migration Manager generates a series of logs and reports for cloud migration sce
 |[LongPaths.csv](#longpathscsv)|Lists all items with path lengths larger than 300 characters and that **can't** be migrated.|
 |[ScanErrors.csv](#scanerrorscsv)|Lists all item level errors that occurred during the scan process of all tasks.|
 |[ScanSummary.csv](#scansummarycsv)|Task level summary of all scan tasks. You can find the scan results based on the scan status code listed.|
+
+
+|Migration report|Description|
+|:-----|:-----|:-----|
 |[MigrationLog.csv](#migrationlogcsv)|Lists the final migration status of all items of the selected task.|
 |[Migration errors.csv](#migration-errorscsv)|Lists all item level errors that ever occurred during the migration process of all tasks.|
 |[Migration summary.csv](#migration-summarycsv)|Task level summary of all migration tasks. |
@@ -40,6 +47,12 @@ Migration Manager generates a series of logs and reports for cloud migration sce
 >These reports are for cloud migrations only. For file share migrations, learn more at: [Reports and errors for file share migrations](mm-reports.md).
 
 
+## Failure and status codes 
+Your reports may also reference a failure or status code to provide specific details as to the nature of issue.
+  
+- [Failure codes](#failure-codes)
+- [Status codes](#status-codes) 
+
 ## How to download reports
 
 **Scan log:** Select a scan task in Migration Manager. Each row in the table represents a scan task. Select “Download scan log” in the action bar. </br>
@@ -47,6 +60,8 @@ Migration Manager generates a series of logs and reports for cloud migration sce
 
 **Migration log:**  Select a task row in Migration Manager and then select "View logs". A side panel displays to view the log online. Select **Download CSV** to download the MigrationLog.csv. </br>
 **Migration reports:** From the Migration Manager action bar, select **Download reports**. Don't select an individual task as these reports include all tasks.
+
+## Scan reports
 
 ### ScanLog.csv 
 
@@ -162,6 +177,8 @@ The ScanSummary.csv report is a task level summary of all scan tasks.
 |ResultCode|Failure code of the item. A value of "None" will show in this column when the item status is "Success". [Check the link](#failure-codes) to find out more.|
 |TopFailureReason|Primary reason for the task failing the scan.|
 
+
+## Migration reports
 
 ### MigrationLog.csv 
 
