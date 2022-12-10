@@ -23,6 +23,7 @@ description: "Learn about reports, errors, and status codes for cloud to cloud m
 
 Migration Manager generates a series of logs and reports for cloud migration scenarios. Use these reports to help manage, audit, and troubleshoot your migration process.
 
+
 |Report|Description|
 |:-----|:-----|:-----|
 |[ScanLog.csv](#scanlogcsv)|Details of the last scan for all items.|
@@ -63,8 +64,8 @@ The scanLog.csv report details the last scan for all items. Each row in the .csv
 |MayRetry|Whether or not you may retry. If False, it has reached the maximum limit of tries.|
 |Retries|The maximum times for which the operation is allowed to retry.|
 |Status |Final scan status of the item. “Skipped” indicates the scan has completed, and the item is ready to be migrated. |
-|ResultCode|Failure code of the item. A value of "None" will show in this column when the item status is "Success". Check the link to find out more. |
-|FailureReason|Description of the failed item. This column is blank if the item status has a value of "Success". Check the link to find out more. |
+|ResultCode|Failure code of the item. A value of "None" will show in this column when the item status is "Success". [Check the link](#failure-codes) to find out more. |
+|FailureReason|Description of the failed item. This column is blank if the item status has a value of "Success". [Check the link](#failure-codes) to find out more. |
 |FullPath |Full path of the item in the source. |
 |SourcePathDepth |Path depth of the item in the source.  |
 |SourceBasename |Base name of the item in the source. If the item is a root folder, this column is blank. |
@@ -132,7 +133,7 @@ The ScanErrors.csv report details all item level scan errors that have occurred.
 |SourcePath|Source path of the selected task. 
 |FullPath|Full path of the item in the source. 
 |Action|Operation step of the item that goes wrong during the scan process. 
-|ResultCode|Failure code of the item. It shows "null" when item status is "Success". Check the link to find out more. 
+|ResultCode|Failure code of the item. It shows "null" when item status is "Success". [Check the link](#failure-codes) to find out more. 
 |TopFailureReason|Primary reason for the task failing the scan.|
 
 
@@ -158,7 +159,7 @@ The ScanSummary.csv report is a task level summary of all scan tasks.
 |ScanStatusCode |Scan status code of the scanned task, find out more on status code. |
 |ScanStatus |Scan status of the scanned task. |
 |MostRecentScan |The most recent scan time in UTC of the task. |
-|ResultCode|Failure code of the item. A value of "None" will show in this column when the item status is "Success". Check the link to find out more.|
+|ResultCode|Failure code of the item. A value of "None" will show in this column when the item status is "Success". [Check the link](#failure-codes) to find out more.|
 |TopFailureReason|Primary reason for the task failing the scan.|
 
 
@@ -178,8 +179,8 @@ The MigrationLog.csv report details the final migration status for all items of 
 |MayRetry|Whether or not you may retry. If False, it has reached the maximum limit of tries|
 |Retries|The maximum times for which the operation is allowed to retry. |
 |Status |Final migration status of the item. |
-|ResultCode|Failure code of the item. It shows "none" when item status is "Success". Check the link to find out more. |
-|FailureReason |Failure description of the failed item. If the item status value is "Success", this column is left blank. Check the link to find out more. |
+|ResultCode|Failure code of the item. It shows "none" when item status is "Success". [Check the link](#failure-codes) to find out more. |
+|FailureReason |Failure description of the failed item. If the item status value is "Success", this column is left blank. [Check the link](#failure-codes) to find out more. |
 |FullPath |Full path of the item in the source. |
 |SourcePathDepth |Path depth of the item in the source.  |
 |SourceBasename |Base name of the item in the source. If the item is a root folder, this column is blank. |
@@ -210,8 +211,8 @@ The Migration errors.csv report details all item level errors that ever occurred
 |SourcePath |Source path of the selected task. |
 |FullPath|Full path of the item in the source. |
 |Action|Operation step of the item that goes wrong during the migration process. |
-|ResultCode|Failure code of the item. It shows "null" when item status is "Success". Check the link to find out more. |
-|TopFailureReason|Failure description of the failed item. If the item status is "Success", this column will be blank. Check the link to find out more.|
+|ResultCode|Failure code of the item. It shows "null" when item status is "Success". [Check the link](#failure-codes) to find out more. |
+|TopFailureReason|Failure description of the failed item. If the item status is "Success", this column will be blank. [Check the link](#failure-codes) to find out more.|
 
 
 ### Migration summary.csv 
@@ -237,7 +238,7 @@ The Migration summary.csv report is a task level summary of all migration tasks.
 
 ## Failure codes
 
-Result codes or "failure codes" demonstrate item level errors during both the scan and migration process.
+Result codes or "failure codes" represent item level errors during both the scan and migration process.
 
 |Failure code|Description |User action|
 |:-----|:-----|:-----|
@@ -316,7 +317,7 @@ Result codes or "failure codes" demonstrate item level errors during both the sc
 
 ## Status codes
 
-Status codes demonstrate the final status of the scan/migration tasks. 
+Status codes provide the final status of the scan and migration tasks. 
 
 |Status Code |Message |
 |:-----|:-----|
