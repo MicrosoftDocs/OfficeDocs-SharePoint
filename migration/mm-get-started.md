@@ -36,7 +36,7 @@ With the ability to set up multiple servers as "agents", Migration Manager lets 
 
 ![Set up migration agents](media/mm-flow-3box.png)
 
-- **Setup migration agents.** Download and install a lightweight agent on each computer or virtual machine you want to connect to Migration Manager. The agent runs as a service and authenticates to both your 365 destination and your on-premises source.
+- **Setup migration agents.** Download and install a lightweight agent on each computer or virtual machine you want to connect to Migration Manager. The agent runs as a service and authenticates to both your Microsoft 365 destination and your on-premises source.
 
 - **Create tasks & migrate.** Create a task by entering the URL of the network file share that you want to migrate (your source) and the URL of the SharePoint site where you are migrating your content (your destination), or upload a CSV file for multiple user migrations. Your tasks will be automatically assigned to the next available agent in the assigned agent group.
 
