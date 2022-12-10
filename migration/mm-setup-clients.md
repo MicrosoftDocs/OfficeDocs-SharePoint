@@ -120,7 +120,7 @@ The country or regional GEO code can be found here [Microsoft 365 Multi-Geo avai
 
 ## Agent task assignment
 
-Migration Manager automatically assigns tasks to a available agent. You cannot manually assign a task to a specific agent. Each agent can have up to 10 tasks in its queue. You can, however, assign tasks to agent groups.
+Migration Manager automatically assigns tasks to an available agent. You cannot manually assign a task to a specific agent. Each agent can have up to 10 tasks in its queue. You can, however, assign tasks to agent groups.
 
 Pausing a task does not release the agent to another task. An agent remains unavailable to accept a new task until the task is resumed and completed, or if the task is deleted.
 
