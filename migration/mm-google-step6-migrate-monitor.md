@@ -52,7 +52,7 @@ The estimated time is based from the time a task starts running to when it is es
 :::image type="content" source="media/mm-google-estimated-time.png" alt-text="Estimated time for selected drives to migrate":::
 
 >[!Important]
->If a user modifies the source folder, it must re-scanned copied again to migrations. The estimated time will be recalculated based on this new scan.
+>If a user modifies the source folder, it must re-scanned and then copied again to migrations. The estimated time will be recalculated based on this new scan.
 
 For incremental tasks, the estimated time to migrate is harder to predict. It can either be faster or slower than than first run, depending on how many files the user has modified in the source. Be aware that the actual time listed may vary widely. 
 
