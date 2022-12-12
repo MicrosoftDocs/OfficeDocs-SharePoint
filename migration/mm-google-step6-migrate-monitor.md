@@ -38,27 +38,25 @@ Once have reviewed the drives, confirmed the destinations, correctly mapped iden
 ![Select migrate button](media/mm-box-migrate-button.png) 
 
 3. A confirmation step displays.  Click **Migrate**.  
+4. Once the migration begins, monitor the migration status, and the table summary at the top. Depending on how large your migration, this step may take hours or days.
 
 >[!Note]
-> Starting your migration **does not remove or delete anything from Google Workspace**. Content from your Google account is copied to your specified location in Microsoft 365. Make sure the destinations are correct, as once the migration starts, they cannot be modified.
-
-4. Once the migration begins, monitor the migration status, and the table summary at the top. Depending on how large your migration, this step may take hours or days.
+> Starting your migration **does not** remove or delete anything from Google Workspace. Content from your Google drive is copied to your specified location in Microsoft 365. Make sure the destinations are correct, as once the migration starts, they cannot be modified.
 
 ## Estimated time to migrate
 
-After tasks are scanned and copied to migrations, an estimated time to migrate is calculated.
+After tasks are scanned and copied to migrations, an "estimated time to migrate" is calculated.
 
-The estimated time is based from the time a task starts running to when it is estimated that it will complete. When a task starts running, the status is **in progress**. The time a task is "queued", isn't added to the estimated time. 
+The estimated time is based from the time a task starts running to when it is estimated that it will complete. When a task starts running, the status is **In progress**. The time a task is "queued" isn't added to the estimated time. 
 
 :::image type="content" source="media/mm-google-estimated-time.png" alt-text="Estimated time for selected drives to migrate":::
 
 >[!Important]
->If the source folder is modified, you must run re-scan the changed item and copy it again to migration for the estimated time to be recalculated. 
+>If a user modifies the source folder, it must re-scanned copied again to migrations. The estimated time will be recalculated based on this new scan.
 
+For incremental tasks, the estimated time to migrate is harder to predict. It can either be faster or slower than than first run, depending on how many files the user has modified in the source. Be aware that the actual time listed may vary widely. 
 
->[!For incremental tasks, the estimation time will be inaccurate - it can either be faster or slower than a new run, depending on how many files the user modified in their source.
-
-Currently, these values are rough estimates. Ongoing development will continue to improve the accuracy.
+Ongoing development will continue to improve the accuracy.
 
 
 ## How many task rows can I run at once?
