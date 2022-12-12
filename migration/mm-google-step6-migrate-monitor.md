@@ -56,7 +56,7 @@ The estimated time is based from the time a task starts running to when it is es
 
 For incremental tasks, the estimated time to migrate is harder to predict. It can either be faster or slower than than first run, depending on how many files the user has modified in the source. Be aware that the actual time listed may vary considerably from the estimate. 
 
-Ongoing development is underway to continue to improve the accuracy of these values.
+Ongoing development will continue to improve the accuracy of these values.
 
 
 ## How many task rows can I run at once?
