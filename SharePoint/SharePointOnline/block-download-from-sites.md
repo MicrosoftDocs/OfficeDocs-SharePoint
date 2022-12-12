@@ -45,7 +45,7 @@ Blocking download of files allows users to remain productive while addressing th
 
 ## Exempting users and groups from the policy
 
- The following parameters can be used with this cmdlet to fine tune it.
+ The following parameters can be used with this cmdlet to fine-tune it.
 
  `-ExcludeBlockDownloadPolicySiteOwners $true` Exempts site owners from this policy and they can fully download any content for the site.
 
