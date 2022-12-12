@@ -44,18 +44,6 @@ Once have reviewed the drives, confirmed the destinations, correctly mapped iden
 
 4. Once the migration begins, monitor the migration status, and the table summary at the top. Depending on how large your migration, this step may take hours or days.
 
-## Estimated time to migrate
-
-After tasks are scanned and copied to migrations, an estimated time to migrate is calculated.
-
-:::image type="content" source="media/mm-google-estimated-time.png" alt-text="Estimated time for selected drives to migrate":::
-
-
-If a user modifies the source folder, a scan must be rerun to update the estimated time. Then copied the scan task to migration.
-For incremental tasks, the estimation time will be inaccurate - it can either be faster or slower than a new run, depending on how many files the user modified in their source.
-The estimated time of a task is from when it starts running to when it completes. When a task starts running, the status is **in progress**. The time a task is "queued", isn't added to the estimated time. 
-Currently, these values are rough estimates. Ongoing development will continue to improve the accuracy.
-
 
 ## How many task rows can I run at once?
 
