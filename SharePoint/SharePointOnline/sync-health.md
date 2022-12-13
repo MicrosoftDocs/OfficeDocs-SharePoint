@@ -40,9 +40,9 @@ In this article, you'll learn how to set up and navigate the sync health dashboa
 
 Before getting started, be sure that you're familiar with the requirements needed to access the dashboard:
 
-- OneDrive sync apps on the Insiders or Production ring. Devices on the Deferred ring aren't eligible for the preview. [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
+- OneDrive sync app version 22.232 or later for Windows and macOS.
 
-- OneDrive sync app version 22.230 or later for Windows and macOS.
+- OneDrive sync apps on the Insiders or Production ring. Users on Deferred rings can access the dashboard once 22.232 has rolled out to the ring. [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
 
 - [Global Administrator](/microsoft-365/admin/add-users/about-admin-roles), Office Apps Administrator or Microsoft 365 Administrator role access is required to enable and set up the dashboard for your organization. After the feature is enabled by one of these roles, one can also view the dashboard using [Global reader](/microsoft-365/admin/add-users/about-admin-roles) or Reports reader access. To learn more about administrator roles and permissions in Microsoft 365, visit [About Admin Roles](/microsoft-365/admin/add-users/about-admin-roles).
 
@@ -68,20 +68,16 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 
 3. From the left navigation menu, select **Health** > **OneDrive Sync**.
 
-4. Select **Enable preview features** to accept the license terms.
+4. In the left navigation menu, select **Setup**.
 
-    :::image type="content" source="media/enable-preview.png" alt-text="Screenshot of enable preview features button.":::
-
-5. In the left navigation menu, select **Setup**.
-
-6. Verify that a **Tenant Association Key** is present in the text field. If the field is empty, select **Generate new key**.
+5. Verify that a **Tenant Association Key** is present in the text field. If the field is empty, select **Generate new key**.
 
    :::image type="content" source="media/tenant-key-image.png" alt-text="Screenshot of Tenant Association Key under Preview setup.":::
 
     > [!NOTE]
     > When you generate a new key for the first time, it can take up to 30 seconds for it to appear.
 
-7. Enable the OneDrive EnableSyncAdminReports Group Policy Object (GPO).
+6. Enable the OneDrive EnableSyncAdminReports Group Policy Object (GPO).
 
     > [!IMPORTANT]
     > **You must enable this setting on the devices from which you want to get reports.** This setting has does not affect  users. We recommend a gradual rollout starting with a few test devices per day, then up to 100 devices per day, then gradually up to 10,000 devices per day until you finish.
@@ -133,17 +129,13 @@ This tab provides how-to steps for enabling sync reports on macOS devices.
 
 3. From the left navigation menu, select **Health** > **OneDrive Sync**.
 
-4. Select **Enable preview features** to accept the license terms.
+4. In the left navigation menu, select **Setup**.
 
-    :::image type="content" source="media/enable-preview.png" alt-text="Screenshot of enable preview features button.":::
+5. Confirm that a **Tenant Association Key** has been generated in the text field.
 
-5. In the left navigation menu, select **Setup**.
+6. Before proceeding, ensure that the OneDrive application has been quit.
 
-6. Confirm that a **Tenant Association Key** has been generated in the text field.
-
-7. Before proceeding, ensure that the OneDrive application has been quit.
-
-8. Create a.plist file with the key **EnableSyncAdminReports**. You can also use a script to set the key. The key is the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the setting, ensure that you target the appropriate domain depending on the edition of the sync app.
+7. Create a.plist file with the key **EnableSyncAdminReports**. You can also use a script to set the key. The key is the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the setting, ensure that you target the appropriate domain depending on the edition of the sync app.
 
 || Standalone | Mac App Store |
 |:-----|:-----|:-----|
@@ -153,7 +145,7 @@ This tab provides how-to steps for enabling sync reports on macOS devices.
 9. Use the Terminal app to deploy the EnableSyncAdminReports setting onto your local computer.
 
     Enter the following preference key to enable the setting:
-<br/>\<key\>EnableSyncAdminReports\</key\><br/>\<true/\>
+<br/>\<key\>EnableSyncAdminReports\</key\><br/>\<1/\>
 
 10. Refresh the preferences cache.
 
