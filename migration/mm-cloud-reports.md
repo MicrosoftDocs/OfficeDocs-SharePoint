@@ -85,7 +85,7 @@ Reports can be downloaded only from within Migration Manager.
 
 ## Scan reports
 
-The following reports are downloaded from the Scans tab from with Migratino
+The following reports are downloaded from the Scans tab from with Migration
 
 ### ScanLog.csv 
 
@@ -320,7 +320,7 @@ Result codes or "failure codes" represent item level errors during both the scan
 |MITEMPATHLENGTH|Item path exceeds length restrictions.|Check file path for length and Try again...|
 |MLARGEFILESIZEEXPORT|File exceeds maximum size for export from the source.|Check file size.|
 |MLARGEFILESIZEIMPORT|File exceeds maximum allowed size for import into destination. |Check file size. |
-|MLISTGROUP|API request to list groups for connector failed.| This may be caused by an invalid or throttling. Try again. |
+|MLISTGROUP|API request to list groups for connector failed.| This request may be caused by an invalid or throttling. Try again. |
 |MLISTING|Folder listing failed.|Try again.|
 |MLISTUSER|Failure to get user listing. This may be caused by an invalid requestor throttling. | Try again. |
 |MLOCKACQ|Failed to acquire lock within timeout period and obtain new access token.|Try again.|
@@ -393,6 +393,6 @@ Status codes provide the final status of the scan and migration tasks.
 |490 |Ended by company name Admin. Try again..|
 |491 |Microsoft migration reporting communication failure. Try again.|
 |500 |Unknown, contact support |
-|600 |Queued to start. This will take a few moments.|
-|601 |Queued to start. This will take a few moments.|
+|600 |Queued to start. |
+|601 |Queued to start. |
 |620 |Running pre-checks |
