@@ -19,12 +19,12 @@ description: "Learn about the query variables that you can use when you configur
 # Query variables in SharePoint Server
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
-  
+
+Note: This page doesn't applies to Modern Microsoft Search experiences and APIs. For Modern Search look at [Profile Query Variables](https://docs.microsoft.com/en-us/MicrosoftSearch/manage-verticals#profile-query-variables)
+
 ## Query variables
 
 The following tables show the query variables for SharePoint Server and SharePoint in Microsoft 365, and examples on how they can be used.
-
-Note that not all query variables are supported in modern Microsoft Search experiences and APIs.
   
 **Site and site collection properties**
 
