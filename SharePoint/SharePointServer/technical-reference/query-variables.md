@@ -20,7 +20,7 @@ description: "Learn about the query variables that you can use when you configur
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
-Note: This page doesn't applies to Modern Microsoft Search experiences and APIs. For Modern Search look at [Profile Query Variables](https://docs.microsoft.com/en-us/MicrosoftSearch/manage-verticals#profile-query-variables)
+Note: This article does not apply to Modern Microsoft Search experiences and APIs. To learn about Modern Search, see [Profile Query Variables](/MicrosoftSearch/manage-verticals#profile-query-variables).
 
 ## Query variables
 
