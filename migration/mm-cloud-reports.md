@@ -48,20 +48,44 @@ Use these reports to help manage, audit, and troubleshoot your migration process
 
 
 ## Failure and status codes 
-Your reports may also reference a failure or status code to provide specific details as to the nature of issue.
+
+Your reports may also reference a failure or status code to provide specific details as to the nature of issue. 
   
-- [Failure codes](#failure-codes)
-- [Status codes](#status-codes) 
+- [Failure codes](#failure-codes): Result codes or "failure codes" represent item level errors during both the scan and migration process.  
+- [Status codes](#status-codes): Status codes provide the final status of the scan and migration tasks.  
 
 ## How to download reports
 
-**Scan log:** Select a scan task in Migration Manager. Each row in the table represents a scan task. Select “Download scan log” in the action bar. </br>
-**Scan reports:** Select “Download reports” in the action bar. Don't select an individual task as these reports include all task.
+Reports can be downloaded only from within Migration Manager. 
 
-**Migration log:**  Select a task row in Migration Manager and then select "View logs". A side panel displays to view the log online. Select **Download CSV** to download the MigrationLog.csv. </br>
-**Migration reports:** From the Migration Manager action bar, select **Download reports**. Don't select an individual task as these reports include all tasks.
+
+**Task level scan reports:**
+
+1. On the Scan tab, select a single row from the list of scanned tasks. Each row in the table represents a scan task.
+2. From the action bar, select **Download reports > Detailed**.</br>
+
+:::image type="content" source="media/mm-download-report-bar-scan.png" alt-text="download task level scan reports":::
+
+
+**Summary scan reports:**
+
+1. From the Scan tab action bar, select **Download reports > Summary**. Don't select an individual task as these reports include all task.
+
+
+**Task level migration reports:**
+
+1. On the Migration tab, click on a **name** in a row from the list of tasks ready to be migrated. Don't check the box next to the name. A side panel displays to view the log online.Select **View logs**.
+2. Select **Download CSV** to download the MigrationLog.csv. 
+
+
+**Summary migration reports:**
+
+1. From the migration tab action bar, select **Download reports > Summary**. Don't select an individual row as these reports include all tasks.
+
 
 ## Scan reports
+
+The following reports are downloaded from the Scans tab from with Migration
 
 ### ScanLog.csv 
 
@@ -79,8 +103,8 @@ The scanLog.csv report details the last scan for all items. Each row in the .csv
 |MayRetry|Whether or not you may retry. If False, it has reached the maximum limit of tries.|
 |Retries|The maximum times for which the operation is allowed to retry.|
 |Status |Final scan status of the item. “Skipped” indicates the scan has completed, and the item is ready to be migrated. |
-|ResultCode|Failure code of the item. A value of "None" will show in this column when the item status is "Success". [Check the link](#failure-codes) to find out more. |
-|FailureReason|Description of the failed item. This column is blank if the item status has a value of "Success". [Check the link](#failure-codes) to find out more. |
+|ResultCode|Failure code of the item. A value of "None" will show in this column when the item status is "Success". For a listing of all result codes, see [Failure codes](#failure-codes). |
+|FailureReason|Description of the failed item. This column is blank if the item status has a value of "Success". For a listing of all result codes, see [Failure codes](#failure-codes). |
 |FullPath |Full path of the item in the source. |
 |SourcePathDepth |Path depth of the item in the source.  |
 |SourceBasename |Base name of the item in the source. If the item is a root folder, this column is blank. |
@@ -148,7 +172,7 @@ The ScanErrors.csv report details all item level scan errors that have occurred.
 |SourcePath|Source path of the selected task. 
 |FullPath|Full path of the item in the source. 
 |Action|Operation step of the item that goes wrong during the scan process. 
-|ResultCode|Failure code of the item. It shows "null" when item status is "Success". [Check the link](#failure-codes) to find out more. 
+|ResultCode|Failure code of the item. It shows "null" when item status is "Success". To learn more, see [Failure codes](#failure-codes). |
 |TopFailureReason|Primary reason for the task failing the scan.|
 
 
@@ -171,10 +195,10 @@ The ScanSummary.csv report is a task level summary of all scan tasks.
 |TotalDataBytes|Data size in Byte that is ready to be migrated. |
 |TotalDataMB|Data size in MB that is ready to be migrated.|
 |TotalFiles|Number of files that are ready to be migrated. |
-|ScanStatusCode |Scan status code of the scanned task, find out more on status code. |
+|ScanStatusCode |Scan status code of the scanned task. To learn more, see [Status codes](#status-codes).  |
 |ScanStatus |Scan status of the scanned task. |
 |MostRecentScan |The most recent scan time in UTC of the task. |
-|ResultCode|Failure code of the item. A value of "None" will show in this column when the item status is "Success". [Check the link](#failure-codes) to find out more.|
+|ResultCode|Failure code of the item. A value of "None" will show in this column when the item status is "Success". To learn more, see [Failure codes](#failure-codes). |
 |TopFailureReason|Primary reason for the task failing the scan.|
 
 
@@ -196,8 +220,8 @@ The MigrationLog.csv report details the final migration status for all items of 
 |MayRetry|Whether or not you may retry. If False, it has reached the maximum limit of tries|
 |Retries|The maximum times for which the operation is allowed to retry. |
 |Status |Final migration status of the item. |
-|ResultCode|Failure code of the item. It shows "none" when item status is "Success". [Check the link](#failure-codes) to find out more. |
-|FailureReason |Failure description of the failed item. If the item status value is "Success", this column is left blank. [Check the link](#failure-codes) to find out more. |
+|ResultCode|Failure code of the item. It shows "none" when item status is "Success". To learn more, see [Failure codes](#failure-codes).  |
+|FailureReason |Failure description of the failed item. If the item status value is "Success", this column is left blank. To learn more, see [Failure codes](#failure-codes). |
 |FullPath |Full path of the item in the source. |
 |SourcePathDepth |Path depth of the item in the source.  |
 |SourceBasename |Base name of the item in the source. If the item is a root folder, this column is blank. |
@@ -228,8 +252,8 @@ The Migration errors.csv report details all item level errors that ever occurred
 |SourcePath |Source path of the selected task. |
 |FullPath|Full path of the item in the source. |
 |Action|Operation step of the item that goes wrong during the migration process. |
-|ResultCode|Failure code of the item. It shows "null" when item status is "Success". [Check the link](#failure-codes) to find out more. |
-|TopFailureReason|Failure description of the failed item. If the item status is "Success", this column will be blank. [Check the link](#failure-codes) to find out more.|
+|ResultCode|Failure code of the item. It shows "null" when item status is "Success". To learn more, see [Failure codes](#failure-codes). |
+|TopFailureReason|Failure description of the failed item. If the item status is "Success", this column will be blank.To learn more, see [Failure codes](#failure-codes). |
 
 
 ### Migration summary.csv 
@@ -243,7 +267,7 @@ The Migration summary.csv report is a task level summary of all migration tasks.
 |Name |Display name of the selected task in the source. |
 |SourcePath |Source path of the selected task. |
 |Tags |Predefined tags of the task. |
-|StatusCode |Status code of the migration task, find out more on status code. |
+|StatusCode |Status code of the migration task. To learn more, see [Status codes](#status-codes).   |
 |FoldersCreated |Folder created in the destination for the migration. |
 |FilesSkipped|Number of files copied to destination in the transaction ran before. |
 |FilesSuccessful |Total number of files ever copied to destination. |
@@ -296,7 +320,7 @@ Result codes or "failure codes" represent item level errors during both the scan
 |MITEMPATHLENGTH|Item path exceeds length restrictions.|Check file path for length and Try again...|
 |MLARGEFILESIZEEXPORT|File exceeds maximum size for export from the source.|Check file size.|
 |MLARGEFILESIZEIMPORT|File exceeds maximum allowed size for import into destination. |Check file size. |
-|MLISTGROUP|API request to list groups for connector failed.| This may be caused by an invalid or throttling. Try again. |
+|MLISTGROUP|API request to list groups for connector failed.| This request may be caused by an invalid or throttling. Try again. |
 |MLISTING|Folder listing failed.|Try again.|
 |MLISTUSER|Failure to get user listing. This may be caused by an invalid requestor throttling. | Try again. |
 |MLOCKACQ|Failed to acquire lock within timeout period and obtain new access token.|Try again.|
@@ -369,6 +393,6 @@ Status codes provide the final status of the scan and migration tasks.
 |490 |Ended by company name Admin. Try again..|
 |491 |Microsoft migration reporting communication failure. Try again.|
 |500 |Unknown, contact support |
-|600 |Queued to start. This will take a few moments.|
-|601 |Queued to start. This will take a few moments.|
+|600 |Queued to start. |
+|601 |Queued to start. |
 |620 |Running pre-checks |
