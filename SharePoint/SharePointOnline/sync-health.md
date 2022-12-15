@@ -30,8 +30,6 @@ description: Learn how to proactively monitor OneDrive health, devices, and usag
 
 Use the OneDrive sync health dashboard in the Microsoft 365 [Apps Admin Center](https://config.office.com/) to get an executive summary of everything happening with OneDrive so that you can resolve common issues quickly and focus on other strategic tasks as an administrator.
 
-:::image type="content" source="media/sync-dashboard.png" alt-text="Image of the overview page of the sync reports dashboard":::
-
 Proactively keeping OneDrive healthy helps ensure that your organization's information is protected. The dashboard provides you with sync health reports for tracking relevant health issues and advisories, checking the sync status and app version of individual devices, and monitoring Known Folder Move roll out.
 
 In this article, you'll learn how to set up and navigate the sync health dashboard to better manage your OneDrive users and increase OneDrive adoption.
@@ -71,8 +69,6 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 4. In the left navigation menu, select **Setup**.
 
 5. Verify that a **Tenant Association Key** is present in the text field. If the field is empty, select **Generate new key**.
-
-   :::image type="content" source="media/tenant-key-image.png" alt-text="Screenshot of Tenant Association Key under Preview setup.":::
 
     > [!NOTE]
     > When you generate a new key for the first time, it can take up to 30 seconds for it to appear.
@@ -203,19 +199,13 @@ Customize your view of which devices show up on the dashboard by using the filte
 
 You can easily create a custom filter with your own conditions. From the command bar, select **Filter** > **New filter** to open the **Custom filter** panel. Name your filter and select your desired conditions. If you'd like to filter by app version, be sure that you enter the complete sync app version number including periods. Afterwards, select **Create** to use your new filter.
 
-[![Screenshot of the custom filter panel.](media/custom-filter-inline.png) ](media/custom-filter-pane.png#lightbox)
-
 When someone in your organization reports a problem with syncing files to OneDrive, you can investigate quickly without having to ask for extra details of the error message via Microsoft Teams chat or Outlook email. Select a user to see more information on their device and sync status. This detailed view lets you see a user's essential OneDrive information including any errors they might be experiencing.
-
-:::image type="content" source="media/detail-panel-dashboard.png" alt-text="Screenshot depicting Devices panel with individual OneDrive user and device information.":::
 
 ### Issues
 
 The **Issues** tab shows you a list of OneDrive error messages found in the health report and the number of devices affected by them in your organization. Use this view to see if there are any common patterns between users and the errors present across your organization.
 
 You can learn more about the error and devices affected by selecting an error message from the list. The **Issues** panel will appear with a summary of the devices affected, along with a list of users and their current app version and operating system. Partner with your users to fix common OneDrive sync issues.
-
-:::image type="content" source="media/error-message-panel.png" alt-text="Image depicting issues panel ":::
 
 To learn more about OneDrive error messages, see [What do the OneDrive error codes mean?](https://support.microsoft.com/office/what-do-the-onedrive-error-codes-mean-f7a68338-e540-4ebf-ad5d-56c5633acded).
 
