@@ -422,7 +422,7 @@
     },
     {
       "source_path": "SharePoint/SharePointServer/security-for-sharepoint-server/index.md",
-      "redirect_url": "sharepoint/security-for-sharepoint-server",
+      "redirect_url": "/sharepoint/security-for-sharepoint-server",
       "redirect_document_id": false
     },
     {
@@ -432,17 +432,17 @@
     },
     {
       "source_path": "SharePoint/SharePointServer/technical-reference/index.md",
-      "redirect_url": "sharepoint/technical-reference/technical-reference",
+      "redirect_url": "/sharepoint/technical-reference/technical-reference",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/upgrade-and-update/index.md",
-      "redirect_url": "sharepoint/upgrade-and-update/upgrade-and-update",
+      "redirect_url": "/sharepoint/upgrade-and-update/upgrade-and-update",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/what-s-new/index.md",
-      "redirect_url": "sharepoint/what-s-new/what-s-new",
+      "redirect_url": "/sharepoint/what-s-new/what-s-new",
       "redirect_document_id": false
     },
     {
