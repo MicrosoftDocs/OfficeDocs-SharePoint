@@ -14,6 +14,7 @@ ms.subservice: sharepoint-migration
 mscollection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.localizationpriority: medium
 search.appverid: MET150
 description: "Learn about the new features and updates to existing features in SharePoint Migration Tool in these release notes."
@@ -30,7 +31,16 @@ Download and install SPMT using one of the links listed below.
 
 | Release |**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.5.123.5](https://aka.ms/spmt-beta-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|[3.4.122.4](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.5.123.6](https://aka.ms/spmt-beta-page)|[3.5.123.6](https://aka.ms/spmt-ga-page)|[3.5.123.6](https://aka.ms/spmt-ga-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|
+
+## SPMT 3.5.123.6
+
+**Improvements**
+6
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
 
 ## SPMT 3.5.123.5
 

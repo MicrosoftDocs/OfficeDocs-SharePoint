@@ -14,6 +14,7 @@ ms.custom:
 - 'SPOTAMgUserProfiles'
 - 'seo-marvel-apr2020'
 ms.service: sharepoint-online
+ms.collection: M365-collaboration
 ms.localizationpriority: medium
 search.appverid:
 - SPO160
@@ -97,7 +98,7 @@ You'll have to browse to each site collection that the user or guest visited, an
 
 1. Browse to the site and edit the URL by adding the following string to the end of it: **/_layouts/15/people.aspx?MembershipGroupId=0**
  
-     For example, the full URL will resemble the following: **https://fabrikam.sharepoint.com/_layouts/15/people.aspx/membershipGroupId=0**
+     For example, the full URL will resemble the following: **`https://fabrikam.sharepoint.com/_layouts/15/people.aspx/membershipGroupId=0`**
 
 2. Select the person from the list, and then on the **Actions** menu, select **Delete Users from Site Collection**.
  

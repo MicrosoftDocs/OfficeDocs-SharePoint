@@ -1,8 +1,8 @@
 ---
 title: Sync in SharePoint and OneDrive
 ms.reviewer: 
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 recommendations: true
 audience: Admin
@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: conceptual
 ms.service: sharepoint-online
+ms.collection: M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
 ms.localizationpriority: medium

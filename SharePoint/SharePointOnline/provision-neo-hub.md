@@ -154,7 +154,7 @@ It's important to make sure the right content is available to users at the right
 ### Get started - Sign into your Microsoft 365 account
 
 > [!NOTE]
-> You need to be a site owner to customize and share the NEO sites. Work with your SharePoint administrator if you don't already have access.
+> You need to be a site owner to customize and share the NEO sites. Work with your SharePoint Administrator if you don't already have access.
 
 1. Open your web browser and navigate to [office.com](https://www.office.com) or your organization's sign-in location.
 
@@ -283,7 +283,7 @@ After customizing content, get ready to share the new onboarding experience with
 ### Share the Pre-onboarding site
 
 > [!NOTE]
-> If you are unable to add visitors (external users, also referred to as guests) to the pre-boarding site, work with your SharePoint administrator to [turn on external sharing for a SharePoint site](./change-external-sharing-site.md).
+> If you are unable to add visitors (external users, also referred to as guests) to the pre-boarding site, work with your SharePoint Administrator to [turn on external sharing for a SharePoint site](./change-external-sharing-site.md).
 
 As a site owner, you can give external people access to the site by adding them as a **visitor**.
 

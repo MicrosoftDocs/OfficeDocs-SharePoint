@@ -1,5 +1,5 @@
 ---
-title: "Manage site access based on sensitivity label"
+title: "Conditional access policies for SharePoint sites"
 ms.reviewer: samust
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -19,15 +19,18 @@ search.appverid:
 description: "Learn about how to use Azure Active Directory conditional access and authentication context with SharePoint sites and sensitivity labels."
 ---
 
-# Manage site access based on sensitivity label
+# Conditional access policies for SharePoint sites
 
-With [Azure Active Directory authentication context (preview)](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#configure-authentication-contexts), you can enforce more stringent access conditions when users access SharePoint sites that have a sensitivity label applied. 
+With [Azure Active Directory authentication context](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#configure-authentication-contexts), you can enforce more stringent access conditions when users access SharePoint sites. You can directly apply an authentication context to a SharePoint site by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet.
 
-Authentication contexts are used with sensitivity labels to connect [Azure AD conditional access policies](/azure/active-directory/conditional-access/overview) to labeled sites.
+In the following example, an authentication context called MFA is attached to the site.
 
-> [!NOTE]
-> If you don't use sensitivity labels with SharePoint sites, you can directly apply an authentication context to a SharePoint site by using the [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet.
-> This capability can't be applied to the root site in SharePoint (for example, https://contoso.sharepoint.com).
+```powershell
+Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -ConditionalAccessPolicy AuthenticationContext -AuthenticationContextName "MFA"
+```
+Additionally, authentication contexts are used with sensitivity labels to connect [Azure AD conditional access policies](/azure/active-directory/conditional-access/overview) to labeled sites.
+
+Note that this capability can't be applied to the root site in SharePoint (for example, https://contoso.sharepoint.com).
 
 ## Requirements
 
@@ -47,15 +50,10 @@ Some apps do not currently work with authentication contexts. If you have Office
 - Copy or Move files from Site-A(no policy) to Site-B(with policy) fails
 
 Using authentication context with SharePoint sites requires at least one of the below licenses:
-- Office 365 E5
-- Office 365 A5 for faculty
-- Office 365 A5 for students
 - Microsoft 365 E5
 - Microsoft 365 E5 Compliance
 - Microsoft 365 E5 Information Protection and Governance
-- Microsoft 365 Security And Compliance For FLW
-- Microsoft 365 A5 for faculty
-- Microsoft 365 A5 for students
+
 
 ## Setting up an authentication context
 
@@ -74,7 +72,7 @@ In this article, we'll look at the example of requiring guests to agree to a [te
 First, add an authentication context in Azure Active Directory.
 
 To add an authentication context
-1. In [Azure Active Directory Conditional Access](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade), under **Manage**, click **Authentication context (Preview)**.
+1. In [Azure Active Directory Conditional Access](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade), under **Manage**, click **Authentication context**.
 
 2. Click **New authentication context**.
 
@@ -95,9 +93,9 @@ To create a conditional access policy
 
 3. On the **Users and groups** tab, choose the **Select users and groups** option, and then select the **All guest and external users** check box.
 
-4. On the **Cloud apps or actions** tab, under **Select what this policy applies to**, choose **Authentication context (Preview)**, and select the check box for the authentication context that you created.
+4. On the **Cloud apps or actions** tab, under **Select what this policy applies to**, choose **Authentication context**, and select the check box for the authentication context that you created.
 
-    ![Screenshot of authentication context options in cloud apps or actions settings for a conditional access policy](media/aad-authentication-context-ca-policy-apps.png)
+    ![Screenshot of authentication context options in cloud apps or actions settings for a conditional access policy.](media/aad-authentication-context-ca-policy-apps.png)
 
 5. On the **Grant** tab, select the check box for the terms of use that you want to use, and then click **Select**.
 
@@ -116,7 +114,7 @@ To update a sensitivity label
 
 4. On the **Define external sharing and device access settings page**, select the **Use Azure AD Conditional Access to protect labeled SharePoint sites** check box.
 
-5. Select the **Choose an existing authentication context (preview)** option.
+5. Select the **Choose an existing authentication context** option.
 
 6. In the dropdown list, choose the authentication context that you want to use.
 

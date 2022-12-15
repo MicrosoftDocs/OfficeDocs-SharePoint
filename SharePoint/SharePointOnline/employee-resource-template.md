@@ -64,7 +64,7 @@ This template features content focused on an LGBTQ+ employee resource group but 
 As the site collection admin, you may not be the person customizing the site, so you'll need to assign a few site owners. Owners have administrative privileges on the site so they can modify site pages, content, and branding. 
 
 1. Select **Share** in the right-hand corner of the site. 
-2. Add users, Office 365 Groups, or security groups to give them access to the site. 
+2. Add users, Microsoft 365 Groups, or security groups to give them access to the site. 
 3. Assign users as a Site owner to allow permission to customize the site. 
 4. Include the site URL in the Share message, and then select **Share.** 
 
@@ -85,7 +85,7 @@ After the site has been provisioned and site owners have been added, it's time t
 
    ![Image of the page template with a theme that matches the site.](media/erg-template-page-2.png)
 
-- **Home page –** The landing page features a unique theme, colorful images, and more inspirational content that is relevant and engaging. Content here is inspired by a LGBTQ+ employee resource group but can be adapted to other types of groups. Customize the Text, News, Events, and Quick Links web parts to make this site your own. 
+- **Home page –** The landing page features a unique theme, colorful images, and more inspirational content that is relevant and engaging. Content here is inspired by an LGBTQ+ employee resource group but can be adapted to other types of groups. Customize the Text, News, Events, and Quick Links web parts to make this site your own. 
 - **Page template –** A page template with a unique theme can be found in the site’s contents to help create news posts and pages for the site more quickly.  
 - **News web part –** Pre-populated news posts were created using the page template. 
 - **Events web part –** Pre-populated events from different employee resource groups highlight more opportunities to learn and practice allyship. 
