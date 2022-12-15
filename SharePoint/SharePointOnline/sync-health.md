@@ -30,8 +30,6 @@ description: Learn how to proactively monitor OneDrive health, devices, and usag
 
 Use the OneDrive sync health dashboard in the Microsoft 365 [Apps Admin Center](https://config.office.com/) to get an executive summary of everything happening with OneDrive so that you can resolve common issues quickly and focus on other strategic tasks as an administrator.
 
-:::image type="content" source="media/sync-dashboard.png" alt-text="Image of the overview page of the sync reports dashboard":::
-
 Proactively keeping OneDrive healthy helps ensure that your organization's information is protected. The dashboard provides you with sync health reports for tracking relevant health issues and advisories, checking the sync status and app version of individual devices, and monitoring Known Folder Move roll out.
 
 In this article, you'll learn how to set up and navigate the sync health dashboard to better manage your OneDrive users and increase OneDrive adoption.
@@ -40,9 +38,9 @@ In this article, you'll learn how to set up and navigate the sync health dashboa
 
 Before getting started, be sure that you're familiar with the requirements needed to access the dashboard:
 
-- OneDrive sync apps on the Insiders or Production ring. Devices on the Deferred ring aren't eligible for the preview. [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
+- OneDrive sync app version 22.232 or later for Windows and macOS.
 
-- OneDrive sync app version 22.230 or later for Windows and macOS.
+- OneDrive sync apps on the Insiders or Production ring. Users on Deferred rings can access the dashboard once 22.232 has rolled out to the ring. [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
 
 - [Global Administrator](/microsoft-365/admin/add-users/about-admin-roles), Office Apps Administrator or Microsoft 365 Administrator role access is required to enable and set up the dashboard for your organization. After the feature is enabled by one of these roles, one can also view the dashboard using [Global reader](/microsoft-365/admin/add-users/about-admin-roles) or Reports reader access. To learn more about administrator roles and permissions in Microsoft 365, visit [About Admin Roles](/microsoft-365/admin/add-users/about-admin-roles).
 
@@ -68,20 +66,14 @@ This tab provides how-to steps for enabling sync reports on Windows devices.
 
 3. From the left navigation menu, select **Health** > **OneDrive Sync**.
 
-4. Select **Enable preview features** to accept the license terms.
+4. In the left navigation menu, select **Setup**.
 
-    :::image type="content" source="media/enable-preview.png" alt-text="Screenshot of enable preview features button.":::
-
-5. In the left navigation menu, select **Setup**.
-
-6. Verify that a **Tenant Association Key** is present in the text field. If the field is empty, select **Generate new key**.
-
-   :::image type="content" source="media/tenant-key-image.png" alt-text="Screenshot of Tenant Association Key under Preview setup.":::
+5. Verify that a **Tenant Association Key** is present in the text field. If the field is empty, select **Generate new key**.
 
     > [!NOTE]
     > When you generate a new key for the first time, it can take up to 30 seconds for it to appear.
 
-7. Enable the OneDrive EnableSyncAdminReports Group Policy Object (GPO).
+6. Enable the OneDrive EnableSyncAdminReports Group Policy Object (GPO).
 
     > [!IMPORTANT]
     > **You must enable this setting on the devices from which you want to get reports.** This setting has does not affect  users. We recommend a gradual rollout starting with a few test devices per day, then up to 100 devices per day, then gradually up to 10,000 devices per day until you finish.
@@ -133,17 +125,13 @@ This tab provides how-to steps for enabling sync reports on macOS devices.
 
 3. From the left navigation menu, select **Health** > **OneDrive Sync**.
 
-4. Select **Enable preview features** to accept the license terms.
+4. In the left navigation menu, select **Setup**.
 
-    :::image type="content" source="media/enable-preview.png" alt-text="Screenshot of enable preview features button.":::
+5. Confirm that a **Tenant Association Key** has been generated in the text field.
 
-5. In the left navigation menu, select **Setup**.
+6. Before proceeding, ensure that the OneDrive application has been quit.
 
-6. Confirm that a **Tenant Association Key** has been generated in the text field.
-
-7. Before proceeding, ensure that the OneDrive application has been quit.
-
-8. Create a.plist file with the key **EnableSyncAdminReports**. You can also use a script to set the key. The key is the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the setting, ensure that you target the appropriate domain depending on the edition of the sync app.
+7. Create a.plist file with the key **EnableSyncAdminReports**. You can also use a script to set the key. The key is the same whether you run the standalone or Mac App Store edition of the sync app. However, the .plist file name and domain name will be different. When you apply the setting, ensure that you target the appropriate domain depending on the edition of the sync app.
 
 || Standalone | Mac App Store |
 |:-----|:-----|:-----|
@@ -153,7 +141,7 @@ This tab provides how-to steps for enabling sync reports on macOS devices.
 9. Use the Terminal app to deploy the EnableSyncAdminReports setting onto your local computer.
 
     Enter the following preference key to enable the setting:
-<br/>\<key\>EnableSyncAdminReports\</key\><br/>\<true/\>
+<br/>\<key\>EnableSyncAdminReports\</key\><br/>\<1/\>
 
 10. Refresh the preferences cache.
 
@@ -211,19 +199,13 @@ Customize your view of which devices show up on the dashboard by using the filte
 
 You can easily create a custom filter with your own conditions. From the command bar, select **Filter** > **New filter** to open the **Custom filter** panel. Name your filter and select your desired conditions. If you'd like to filter by app version, be sure that you enter the complete sync app version number including periods. Afterwards, select **Create** to use your new filter.
 
-[![Screenshot of the custom filter panel.](media/custom-filter-inline.png) ](media/custom-filter-pane.png#lightbox)
-
 When someone in your organization reports a problem with syncing files to OneDrive, you can investigate quickly without having to ask for extra details of the error message via Microsoft Teams chat or Outlook email. Select a user to see more information on their device and sync status. This detailed view lets you see a user's essential OneDrive information including any errors they might be experiencing.
-
-:::image type="content" source="media/detail-panel-dashboard.png" alt-text="Screenshot depicting Devices panel with individual OneDrive user and device information.":::
 
 ### Issues
 
 The **Issues** tab shows you a list of OneDrive error messages found in the health report and the number of devices affected by them in your organization. Use this view to see if there are any common patterns between users and the errors present across your organization.
 
 You can learn more about the error and devices affected by selecting an error message from the list. The **Issues** panel will appear with a summary of the devices affected, along with a list of users and their current app version and operating system. Partner with your users to fix common OneDrive sync issues.
-
-:::image type="content" source="media/error-message-panel.png" alt-text="Image depicting issues panel ":::
 
 To learn more about OneDrive error messages, see [What do the OneDrive error codes mean?](https://support.microsoft.com/office/what-do-the-onedrive-error-codes-mean-f7a68338-e540-4ebf-ad5d-56c5633acded).
 
