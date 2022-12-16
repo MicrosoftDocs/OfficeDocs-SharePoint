@@ -44,7 +44,7 @@ SPMT 4.0 is a major new release, incorporating new designs and an integrated Sha
 
 #### Scenario driven 
 
-The new SPMT landing page presents you with straightforward entry points to three main migration scenarios: 
+The new SPMT landing page presents you with straightforward entry points to three main migration scenarios:
 - SharePoint scan
 - SharePoint migration
 - File share migration
@@ -75,6 +75,7 @@ Selecting the source URL link on the scan list page will prompt you to the scan 
 
 Scroll down below inventory numbers, you can see breakdown by content types and risk types.  An excel report can be downloaded for you to do deeper analysis.
 
+|Last released build|[3.5.123.6](https://aka.ms/spmt-beta-page)|[3.5.123.6](https://aka.ms/spmt-ga-page)|[3.5.123.6](https://aka.ms/spmt-ga-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|
 
 ## SPMT 3.5.123.6
 
