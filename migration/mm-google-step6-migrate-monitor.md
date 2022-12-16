@@ -54,7 +54,7 @@ The estimated time is based from the time a task starts running to when it is es
 >[!Important]
 >If a user modifies the source folder, it must re-scanned and then re-copied to migrations. The estimated time will be recalculated based on this new scan.
 
-For incremental tasks, the estimated time to migrate is harder to predict. It can either be faster or slower than than first run, depending on how many files the user has modified in the source. Be aware that the actual time may vary considerably from the estimate shown. 
+For incremental tasks, the estimated time to migrate is harder to predict. It can either be faster or slower than than first run, depending on how many files the user has modified in the source. Be aware that the actual time of incremental runs may vary considerably from the estimate shown. 
 
 Ongoing development will continue to improve the accuracy of these values.
 
