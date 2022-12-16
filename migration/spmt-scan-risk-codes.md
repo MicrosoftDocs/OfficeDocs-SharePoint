@@ -25,6 +25,8 @@ description: "Learn about the risk assessment errors in the SharePoint Migration
 
 # SharePoint Migration Tool (SPMT) scan assessment error codes
 
+The scan assessment feature is available only in SPMT 4.0 which is currently in public preview. To download, see [SPMT 4.0 public preview](https://aka.ms/spmt-beta-page).
+
 |Error Code	|Description|User Action / Explanation|
 |:-----	|:-----	|:-----	|:-----|
 |FEATURE_UNSUPPORTED|Feature {0} is not supported|SPMT does not support custom features. Example, uploading a solution to SharePoint is a custom feature.|

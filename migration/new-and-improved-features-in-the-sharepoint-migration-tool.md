@@ -36,6 +36,9 @@ Download and install SPMT using one of the links listed below.
 
 SPMT 4.0 is a major new release, incorporating new designs and an integrated SharePoint Server assessment feature, giving users a more streamlined and scenario driven experience.
 
+This new release is available here: [SPMT 4.0 public preview](https://aka.ms/spmt-beta-page).
+
+
 ### What’s new in this release
 
 - The user interface has been improved to guide users get their migration job done by scenarios.
