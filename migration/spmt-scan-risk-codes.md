@@ -26,6 +26,7 @@ description: "Learn about the risk assessment errors in the SharePoint Migration
 # SharePoint Migration Tool (SPMT) scan assessment error codes
 
 The scan assessment feature is available only in SPMT 4.0 which is currently in public preview. To download, see [SPMT 4.0 public preview](https://aka.ms/spmt-beta-page).
+To learn more about scan assessment, see [Scan and assess a SharePoint Server site with SPMT](/sharepointmigration/spmt-scan)].
 
 |Error Code	|Description|User Action / Explanation|
 |:-----	|:-----	|:-----	|:-----|

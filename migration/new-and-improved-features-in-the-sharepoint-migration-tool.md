@@ -28,7 +28,7 @@ Learn about the new features and updates to existing features in SharePoint Migr
 
 Download and install SPMT using one of the links listed below.  
 
-| Release |**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
+| Release |Public preview|First release|Rolling out|Full General Availability|
 |:-----|:-----|:-----|:-----|:-----|
 |Last released build|[4.0.124.0](https://aka.ms/spmt-beta-page)|[3.4.123.6](https://aka.ms/spmt-ga-page)|[3.4.123.6](https://aka.ms/spmt-ga-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|
 
@@ -78,7 +78,9 @@ Selecting the source URL link on the scan list page will prompt you to the scan 
 
 Scroll down below inventory numbers, you can see breakdown by content types and risk types.  An excel report can be downloaded for you to do deeper analysis.
 
-|Last released build|[3.5.123.6](https://aka.ms/spmt-beta-page)|[3.5.123.6](https://aka.ms/spmt-ga-page)|[3.5.123.6](https://aka.ms/spmt-ga-page)|[3.4.122.5](https://aka.ms/spmt-ga-page)|
+
+[Scan and assess a SharePoint Server site with SPMT](/sharepointmigration/spmt-scan)
+[SharePoint Migration Tool (SPMT) scan assessment error codes](/sharepointmigration/spmt-scan-risk-codes)
 
 ## SPMT 3.5.123.6
 
