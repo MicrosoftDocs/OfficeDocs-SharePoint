@@ -31,6 +31,8 @@ description: "Learn how to scan and review a SharePoint Server site using the Sh
 
 The SharePoint Migration Tool (SPMT) 4.0 integrates SharePoint Server assessment directly in the tool. You can now scan your source sites before migration, review the assessment results, and make any changes before you start your migration.
 
+To learn more about scan assessment risk codes, see [SPMT scan assessment error codes](/sharepointmigration/spmt-scan-risk-codes)]
+
 
 ## Scan and assess
 
