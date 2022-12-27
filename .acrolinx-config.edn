@@ -4,7 +4,7 @@
   :targets 
    {
      :counts {
-              ;;:scorrectness 13
+              ;;:correctness 13
               ;;:total 15 ;; absolute flag count but i don't know the difference between this and issues
               ;;:issues 15 ;; coming from the platform, will need to be tested.
              }
