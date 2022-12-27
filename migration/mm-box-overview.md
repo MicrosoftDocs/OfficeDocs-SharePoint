@@ -17,6 +17,7 @@ ms.collection:
 - m365solution-scenario
 - M365-collaboration
 - SPMigration
+- highpri
 search.appverid: MET150
 description: Overview of migration from Box to Microsoft 365 using Migration Manager.
 ---
@@ -55,13 +56,11 @@ Make sure that you have:
 
 We support files up to 15 GB in size for Box to Microsoft 365 migrations.
 
+## Box notes
+
+Box notes are not converted to a .docx format during migration.  
 
 >[!NOTE]
 >Migration Manager Box isn't available for users of Office 365 operated by 21Vianet in China.
 >
 > This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
-
-
-
-
-

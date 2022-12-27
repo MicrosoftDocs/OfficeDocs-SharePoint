@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection: 
   - m365solution-overview
   - m365solution-corpcomms
+  - highpri
 description: "Learn about planning and managing Organizational communications for your organization"
 ---
 
@@ -87,7 +88,7 @@ This poster illustrates how Relecloud keeps employees informed and engaged acros
 
 
 ### End-user guidance and support
-Give end users a head start by helping them use and engage using popular M365 communication apps that may be a part of your solution. Consider using existing training playlists in [Microsoft 365 Learning Pathways](/office365/customlearning) to help end users learn more about M365 apps like Teams and SharePoint. Or, help train people at your organization who will be managing corporate communications using [Microsoft Learn training modules](/learn).
+Give end users a head start by helping them use and engage using popular M365 communication apps that may be a part of your solution. Consider using existing training playlists in [Microsoft 365 Learning Pathways](/office365/customlearning) to help end users learn more about M365 apps like Teams and SharePoint. Or, help train people at your organization who will be managing corporate communications using [Microsoft Learn training](/training).
 
 
 | Logo                 | Communication app     | Guidance              | 
@@ -132,4 +133,3 @@ Give end users a head start by helping them use and engage using popular M365 co
 
 <br>
 <br>
-

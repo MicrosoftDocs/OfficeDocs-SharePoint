@@ -19,12 +19,12 @@ description: "Learn about the query variables that you can use when you configur
 # Query variables in SharePoint Server
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
-  
+
+Note: This article does not apply to Modern Microsoft Search experiences and APIs. To learn about Modern Search, see [Profile Query Variables](/MicrosoftSearch/manage-verticals#profile-query-variables).
+
 ## Query variables
 
 The following tables show the query variables for SharePoint Server and SharePoint in Microsoft 365, and examples on how they can be used.
-
-Note that not all query variables are supported in modern Microsoft Search experiences and APIs.
   
 **Site and site collection properties**
 
@@ -48,7 +48,7 @@ Note that not all query variables are supported in modern Microsoft Search exper
 |{Page} or {Page.URL}  <br/> |URL of the page from where the query was issued. For example, this value can be used to query content of the managed property Path.  <br/> |
 |{Page.UsageAnalyticsId}  <br/> |Item ID for Usage Analytics  <br/> |
 |{Page.\<FieldName\>}  <br/> |The value of a field on the page from where the query was issued. For example, if the page from where the query was issued contained a site column named "ContentOwner," specifying {Page.ContentOwner} would allow you to query for the value of "ContentOwner."  <br/> |
-|{URLToken.\<integer\>}  <br/> |A value from the URL of a page. The integer represents the position of the value in the URL as counted from right to left. For example, for the page http://www.contoso/audio/mp3/1010101, the query variable {URLToken.1} will query for the last value in the URL, 1010101. The query variable {URLToken.3} will query for the third last property in the URL, audio. You can query for values up to the ninth last position in a ULR.  <br/> |
+|{URLToken.\<integer\>}  <br/> |A value from the URL of a page. The integer represents the position of the value in the URL as counted from right to left. For example, for the page `http://www.contoso/audio/mp3/1010101`, the query variable {URLToken.1} will query for the last value in the URL, 1010101. The query variable {URLToken.3} will query for the third last property in the URL, audio. You can query for values up to the ninth last position in a ULR.  <br/> |
 |{QueryString.\<ParameterName\>}  <br/> |A value from a query string in the URL of the current page. For example, if the URL of the current page contains a query string such as ItemNumber=567, you could obtain the value 567 by specifying {QueryString.ItemNumber}.  <br/> |
 |{Request.\<PropertyName\>}  <br/> |A value from the current http request - for example, {Request.Url}.  <br/> |
    

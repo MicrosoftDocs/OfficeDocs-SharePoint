@@ -392,62 +392,62 @@
     },
     {
       "source_path": "SharePoint/SharePointServer/administration/index.md",
-      "redirect_url": "administration",
+      "redirect_url": "/SharePoint/administration/administration/",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/governance/index.md",
-      "redirect_url": "governance",
+      "redirect_url": "/sharepoint/governance/governance/",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/hybrid/index.md",
-      "redirect_url": "hybrid",
+      "redirect_url": "/sharepoint/hybrid/hybrid/",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/install/index.md",
-      "redirect_url": "install",
+      "redirect_url": "/sharepoint/install/install/",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/product-servicing-policy/index.md",
-      "redirect_url": "product-servicing-policy",
+      "redirect_url": "/sharepoint/product-servicing-policy/product-servicing-policy/",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/search/index.md",
-      "redirect_url": "search",
+      "redirect_url": "/sharepoint/search/search/",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/security-for-sharepoint-server/index.md",
-      "redirect_url": "security-for-sharepoint-server",
+      "redirect_url": "/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server/",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/sites/index.md",
-      "redirect_url": "sites",
+      "redirect_url": "/sharepoint/sites/sites/",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/technical-reference/index.md",
-      "redirect_url": "technical-reference",
+      "redirect_url": "/sharepoint/technical-reference/technical-reference/",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/upgrade-and-update/index.md",
-      "redirect_url": "upgrade-and-update",
+      "redirect_url": "/sharepoint/upgrade-and-update/upgrade-and-update/",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointServer/what-s-new/index.md",
-      "redirect_url": "what-s-new",
+      "redirect_url": "/sharepoint/what-s-new/what-s-new/",
       "redirect_document_id": false
     },
     {
       "source_path": "SharePoint/SharePointOnline/let-users-use-new-onedrive-sync-client.md",
-      "redirect_url": "sharepoint-sync",
+      "redirect_url": "/sharepoint/sharepoint-sync",
       "redirect_document_id": true
     },
     {
@@ -689,7 +689,226 @@
       "source_path": "SharePoint/SharePointOnline/workplace-communications.md",
       "redirect_url": "/sharepoint/corporate-communications-overview",
       "redirect_document_id": true
-    } 
-
+    },
+    {
+      "source_path": "OneDrive/allow-syncing-only-on-specific-domains.md",
+      "redirect_url": "/sharepoint/allow-syncing-only-on-specific-domains",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/b2b-sync.md",
+      "redirect_url": "/sharepoint/b2b-sync",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/block-file-types.md",
+      "redirect_url": "/sharepoint/block-file-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/change-user-storage.md",
+      "redirect_url": "/sharepoint/change-user-storage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/configure-sync-intune.md",
+      "redirect_url": "/sharepoint/configure-sync-intune",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/deploy-and-configure-on-macos.md",
+      "redirect_url": "/sharepoint/deploy-and-configure-on-macos",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/deploy-intune.md",
+      "redirect_url": "/sharepoint/deploy-intune",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/deploy-on-windows.md",
+      "redirect_url": "/sharepoint/deploy-on-windows",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/Update deploy-on-windows.md",
+      "redirect_url": "/sharepoint/Update deploy-on-windows",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/disable-contact-support-send-feedback.md",
+      "redirect_url": "/sharepoint/disable-contact-support-send-feedback",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/enable-conditional-access.md",
+      "redirect_url": "/sharepoint/enable-conditional-access",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/exclude-or-uninstall-previous-sync-client.md",
+      "redirect_url": "/sharepoint/exclude-or-uninstall-previous-sync-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/files-on-demand-mac.md",
+      "redirect_url": "/sharepoint/files-on-demand-mac",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/files-on-demand-windows.md",
+      "redirect_url": "/sharepoint/files-on-demand-windows",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/find-settings.md",
+      "redirect_url": "/sharepoint/find-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/find-your-office-365-tenant-id.md",
+      "redirect_url": "/sharepoint/find-your-office-365-tenant-id",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/ideal-state-configuration.md",
+      "redirect_url": "/sharepoint/ideal-state-configuration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/index.yml",
+      "redirect_url": "/sharepoint",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/information-barriers.md",
+      "redirect_url": "/sharepoint/information-barriers-onedrive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/install-previous-sync-app.md",
+      "redirect_url": "/sharepoint/install-previous-sync-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/limit-access.md",
+      "redirect_url": "/sharepoint/limit-access",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/list-onedrive-urls.md",
+      "redirect_url": "/sharepoint/list-onedrive-urls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/network-utilization-planning.md",
+      "redirect_url": "/sharepoint/network-utilization-planning",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/onedrive.yml",
+      "redirect_url": "/sharepoint/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/per-machine-installation.md",
+      "redirect_url": "/sharepoint/per-machine-installation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/pre-provision-accounts.md",
+      "redirect_url": "/sharepoint/pre-provision-accounts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/prevent-installation.md",
+      "redirect_url": "/sharepoint/prevent-installation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/redirect-known-folders-macos.md",
+      "redirect_url": "/sharepoint/redirect-known-folders-macos",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/redirect-known-folders.md",
+      "redirect_url": "/sharepoint/redirect-known-folders",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/required-urls-and-ports.md",
+      "redirect_url": "/sharepoint/required-urls-and-ports",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/restore-deleted-onedrive.md",
+      "redirect_url": "/sharepoint/restore-deleted-onedrive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/retention-and-deletion.md",
+      "redirect_url": "/sharepoint/retention-and-deletion",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/set-default-storage-space.md",
+      "redirect_url": "/sharepoint/set-default-storage-space",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/set-retention.md",
+      "redirect_url": "/sharepoint/set-retention",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/sync-client-update-process.md",
+      "redirect_url": "/sharepoint/sync-client-update-process",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/sync-health.md",
+      "redirect_url": "/sharepoint/sync-health",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/sync-process.md",
+      "redirect_url": "/sharepoint/sync-process",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/sync-vdi-support.md",
+      "redirect_url": "/sharepoint/sync-vdi-support",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/transition-from-previous-sync-client.md",
+      "redirect_url": "/sharepoint/transition-from-previous-sync-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/turn-on-external-sharing-notifications.md",
+      "redirect_url": "/sharepoint/turn-on-external-sharing-notifications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/upn-changes.md",
+      "redirect_url": "/sharepoint/upn-changes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/use-group-policy.md",
+      "redirect_url": "/sharepoint/use-group-policy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/use-silent-account-configuration.md",
+      "redirect_url": "/sharepoint/use-silent-account-configuration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "OneDrive/user-external-sharing-settings.md",
+      "redirect_url": "/sharepoint/user-external-sharing-settings",
+      "redirect_document_id": false
+    }
   ]
 }

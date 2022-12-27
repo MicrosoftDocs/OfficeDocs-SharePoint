@@ -17,6 +17,7 @@ ms.collection:
 - m365solution-scenario 
 - M365-collaboration
 - SPMigration
+- highpri
 search.appverid: MET150
 ROBOTS: NOINDEX
 description: "Learn what the third step in using Migration Manager to migrate Egnyte."
@@ -24,7 +25,7 @@ description: "Learn what the third step in using Migration Manager to migrate Eg
 
 # Step 3: Copy to migrations
 
-After a Egnyte account has been scanned and determined ready, add it to your migration list.  
+After an Egnyte account has been scanned and determined ready, add it to your migration list.  
 
 1. Select the **Migrations** tab. The table will list all users that have been copied to migration.
 

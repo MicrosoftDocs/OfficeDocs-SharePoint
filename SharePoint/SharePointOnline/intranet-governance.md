@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 - m365solution-spintranet
 - m365solution-scenario
+- highpri
 ms.custom: admindeeplinkSPO
 search.appverid:
 - SPO160
@@ -88,7 +89,7 @@ Each organization will have its own set of policies and guidelines. General topi
 
 #### Steps to ensure success:
 
-- Verify that your intranet policies and guidelines do not conflict with broader organizational polices and your overall governance decisions for Microsoft 365.
+- Verify that your intranet policies and guidelines do not conflict with broader organizational policies and your overall governance decisions for Microsoft 365.
 - Publish policies and guidelines where users can easily find and follow them. Some policies may need to be published for “all users,” while others may need to be secured to protect the integrity of the application. Consider creating a governance site rather than a document to facilitate publishing and “consuming” governance policies and guidelines.
 - Leverage capabilities to automatically apply policies and guidelines wherever you can. For example, you can enforce content management and retention policies with [information protection capabilities](/microsoft-365/compliance/protect-information) in Microsoft 365. You can encourage following design guidelines by using [site designs](/sharepoint/dev/declarative-customization/site-design-overview) to embed best practices in sites as they are created. The best way to ensure that your policies are followed is to ensure that site owners and authors don’t have to think about them. Try to automate as much as you can and where you can’t automate, plan to provide training to ensure that site owners and content authors clearly understand governance expectations.
 - Regularly review and revise policies and guidelines to keep them aligned to organizational needs.
@@ -102,7 +103,6 @@ Each organization will have its own set of policies and guidelines. General topi
 - Guidelines for Teams chat and Yammer conversations - including more than just [messaging policies](/microsoftteams/messaging-policies-in-teams) for Teams and [how to participate in a Yammer conversation](https://support.microsoft.com/office/join-the-conversation-in-yammer-873100a0-0fac-4f93-88f7-1a0945ec93ed), but also conversation guidelines (such as using @mentions sparingly and organization-specific “do’s and don’ts”).
 - [User profiles](https://support.microsoft.com/office/update-your-profile-0ddb9ebf-2850-4533-b07f-cba2c90acbc1) – including expectations for the About me statement and expectations for skills and expertise (for example, how well do you have to know a topic to list it in the skills and expertise area of your profile?).
 - Organizational policies and guidelines for intranet site names, file names, [Microsoft 365 group names](/microsoft-365/admin/create-groups/groups-naming-policy), etc.
-- Learn more about [Microsoft 365 intranet governance decisions](https://view.officeapps.live.com/op/view.aspx?src=https://storage.snappages.site/op8ir2nu2f/assets/files/Governance_Policy_and_Guideline_Question-76.pptx).
 
 
 ### Site provisioning and decommissioning
@@ -197,7 +197,7 @@ Your intranet governance plan should incorporate a mechanism to collect feedback
 ### Training and support
 Your intranet will not be successful if you don’t incorporate a way to provide training and support for all users, but most especially, Site Owners. The best way to reinforce your governance policies and guidelines is to build them in to your training. In other words, don’t provide training that only shows “how to” – make sure that your training also includes your policies and guidelines – the “how should” aspect of your governance plan.
 
-It is helpful to provide a dedicated site where Site Owners and other intranet users can find training and governance information. You can create your own “user resource center” as described earlier or leverage a third-party or Microsoft-provided training environment. To ensure that your training content is always current, you can link to content at Microsoft’s training platforms such as support.office.com and docs.microsoft.com. You can also embed the support.office.com training into your own environment by deploying [Microsoft 365 Learning Pathways](/office365/customlearning/) in your tenant and adapting the content to include your governance policies and guidelines.
+It is helpful to provide a dedicated site where Site Owners and other intranet users can find training and governance information. You can create your own “user resource center” as described earlier or leverage a third-party or Microsoft-provided training environment. To ensure that your training content is always current, you can link to content at Microsoft’s training platforms such as [Microsoft Office Help and Training](https://support.office.com) and [Microsoft Learn](/). You can also embed the support.office.com training into your own environment by deploying [Microsoft 365 Learning Pathways](/office365/customlearning/) in your tenant and adapting the content to include your governance policies and guidelines.
 
 You can help your intranet users find your training content by [adding a custom tile](/microsoft-365/admin/manage/customize-the-app-launcher) to your Organization Profile or adding a [custom help link](/microsoft-365/admin/misc/customize-help-desk) directly in Microsoft 365. 
 

@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 - m365solution-scenario
 - m365solution-spintranet
+- highpri
 ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
@@ -96,6 +97,14 @@ To remove the site as your home site:
 To perform this task by using PowerShell, run `Remove-SPOHomeSite`.
 
 The site will continue to be an organization news site. To remove it as an organization news site, see [Create an organization news site](organization-news-site.md).
+
+
+## Choose the default landing experience for Viva Connections desktop
+If your organization is using [Viva Connections](/viva/connections/viva-connections-overview), and you already has a SharePoint home site that you want to keep as the landing experience for Viva Connections desktop, use the PowerShell command. [Get more guidance on how to set the default desktop experience for Viva Connections](/viva/connections/edit-viva-home). 
+
+
+
+
 
 ## See also
 

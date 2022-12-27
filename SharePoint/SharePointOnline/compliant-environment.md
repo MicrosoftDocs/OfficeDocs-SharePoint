@@ -88,7 +88,7 @@ If your business requires information barriers, see [Learn about information bar
 
 [B2B Sync](/onedrive/b2b-sync)
 
-[Implement compliance in Microsoft 365](/learn/paths/implement-data-governance-microsoft-365-intelligence/)
+[Implement compliance in Microsoft 365](/training/paths/implement-data-governance-microsoft-365-intelligence/)
 
 [Protect your enterprise data using Windows Information Protection (WIP)](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)
 
