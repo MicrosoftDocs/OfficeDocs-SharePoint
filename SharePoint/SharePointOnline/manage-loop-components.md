@@ -1,6 +1,6 @@
 ---
 title: "Manage Loop components in SharePoint"
-ms.reviewer: tonchan
+ms.reviewer: dancost, tonchan
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -36,10 +36,9 @@ You'll need the latest version of SharePoint PowerShell module to enable or disa
 
 |Experience|SharePoint organization properties|Notes|
 |---|----|---|
-|Loop components in Teams and Outlook|`IsLoopEnabled` (boolean)|This property controls Loop experiences across the Microsoft 365 experience, except for Outlook - see below.|
+|Loop components in Teams|`IsLoopEnabled` (boolean)|This property controls Loop experiences in Microsoft Teams. |
 |Microsoft Whiteboard on OneDrive|`IsWBFluidEnabled` (boolean)|This property controls Microsoft Whiteboard on OneDrive.|
 |Microsoft OneNote collaborative Meeting notes|`IsCollabMeetingNotesFluidEnabled` (boolean)|This property controls Microsoft OneNote collaborative Meeting notes.|
-|**All Microsoft 365 experiences** powered by Fluid Framework.|`IsFluidEnabled` (boolean)|This core property controls all other experiences powered by Fluid Framework. Setting it to `False` will effectively disable all experiences (everything in this table) in the organization powered by Fluid Framework. **Do not use after May 2022 - this setting will be deprecated in late 2022.**|
 
 To check your tenant's default file permissions
 
@@ -57,16 +56,29 @@ To disable Loop components, run `Set-SPOTenant -IsLoopEnabled $false`. The chang
 
 ## Settings management for Outlook, Word
 
-Microsoft is migrating to Cloud Policy as the mechanism to control Loop experiences. This will be phased in over time, so set both the above SharePoint setting `IsLoopEnabled` and the Cloud Policy settings in this section to control all Loop integrations.
+Outlook and Word integration check the following Cloud Policy settings:
 
-Outlook integration will stop checking the `IsLoopEnabled` setting in late 2022.
+- **Create and view Loop files in Microsoft apps that support Loop**
+- **Create and view Loop files in Outlook**
 
-Outlook and Word integration will begin checking only Cloud Policy settings in late 2022:
+See the [Cloud Policy](/deployoffice/admincenter/overview-cloud-policy) setting templates for more information on the settings above.
 
-* Create and view Loop files in Microsoft apps that support Loop
-* Create and view Loop files in Outlook
-
-See the [Cloud Policy](/deployoffice/admincenter/overview-cloud-policy) setting templates for the settings above for more information.
+To configure these Cloud Policy settings:
+1. Sign in to https://config.office.com/ with your Microsoft 365 admin credentials.
+2. Select **Customization** from the left pane.
+3. Select **Policy Management**.
+4. Create a new policy configuration or edit an existing one.
+5. In **Choose the scope**, choose the security group for which you want to apply the policy.
+6. In **Configure Settings**, choose one of the settings listed above.
+7. In configuration setting, choose one of the following:
+    - **Enabled**: Loop functionality is available to users.
+    - **Disabled**: Loop functionality isn't available to users.
+    - **Not configured**: Loop functionality is available to users.
+8. Save the policy configuration.
+9. Reassign priority for any security group if required. (If two or more policy configurations are applicable to the same set of users, the one with the higher priority is applied.)
+10. In case you create a new policy configuration or change the configuration for an existing policy, there will be a delay in the change being reflected as follows:
+    - If there were existing policy configurations prior to the change, then it will take 90 mins for the change to be reflected.
+    - If there were no policy configurations prior to the change then it will take 24 hours for the change to be reflected.
 
 ## eDiscovery
 

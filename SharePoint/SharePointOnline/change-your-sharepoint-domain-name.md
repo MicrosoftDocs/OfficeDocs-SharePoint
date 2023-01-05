@@ -1,6 +1,6 @@
 ---
 title: "Change your SharePoint domain name"
-ms.reviewer: waynewin
+ms.reviewer: jmcdowe
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
