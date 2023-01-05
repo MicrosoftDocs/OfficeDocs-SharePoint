@@ -28,16 +28,20 @@ ms.custom:
 > [!NOTE]
 > Microsoft Viva Amplify is currently in Private preview and, hence, available only to Private preview customers.
 
-Microsoft Viva Amplify is a content creation platform from which [multiple distribution channels](#supported-distribution-channels) are used to publish the content throughout the organization.
+Microsoft Viva Amplify is a content creation platform from which [multiple supported distribution channels](#multiple-supported-distribution-channels) are used to publish the content throughout the organization.
 
 The content creation platform is the **Main canvas** screen, which is the default screen in Microsoft Viva Amplify.
 
-## Deviations
+## Multiple supported distribution channels
+
+The following distribution channels are supported for publish of content from the **Main canvas** screen:
+
+- Outlook
+- SharePoint
 
 Once the content is created, the user must select the **Distribution channels** tab and select one of the [supported distribution channels](#supported-distribution-channels) to publish the content.
 
-> [!NOTE]
-> For more information on the different distribution channels used to publish the content, see [Supported distribution channels](#supported-distribution-channels).
+### Deviations
 
 By default, the **Main canvas** screen contains elements such as a spacer, a large people web part, and a countdown timer web part. From the **Main canvas** screen, when you choose **Distribution channels > Outlook/SharePoint/Yammer**, these elements vary for each distribution channel. This variance refers to **deviation**, which implies deviation from the default set of elements, namely spacer, large people web part, and countdown timer web part.
 
@@ -67,7 +71,6 @@ These deviations are described in the following subsections:
 - [Deviations in Text web part](#deviations-in-text-web-part)
 - [Deviations in Image web part](#deviations-in-image-web-part)
 - [Deviations in People web part](#deviations-in-people-web-part)
-- [Deviations in Sections web part](#deviations-in-sections-web-part)
 
 ##### Deviations in Text web part
 
@@ -95,7 +98,15 @@ These deviations are described in the following subsections:
 
    :::image type="content" source="media/only-small-layout-supported.png" alt-text="Only the Small layout is supported in Outlook.":::
 
-##### Deviations in Sections web part
+##### Sections layout
+
+The **Sections** is a layout-associated element that presents a template to the content in the **Main canvas** page so that the content is structured properly.
+
+Each section consists of 1-3 columns. 
+
+For information on the default properties of sections and its columns, see [Add sections and columns on a SharePoint modern page](https://support.microsoft.com/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899).
+
+However, the following deviations have been spotted in the default properties of sections and its columns:
 
 1. Multi Columns aren't supported; transpiled content created with options other than the **One Column** layout option will be stacked like in the **One Column** layout option.
 
@@ -123,11 +134,3 @@ The web parts supported by default in Microsoft Viva Amplify are the ones displa
 - People web part
 
 The reason there's no deviation in these web parts and their behavior when they're being transpiled to **SharePoint** is that the **Main canvas** screen itself is a type of SharePoint site. This reason indicates that the **Main canvas** screen is - in a way - similar to the **SharePoint** option under the **Distribution channels** tab.
-
-### Supported distribution channels
-
-The distribution channels supported by Microsoft Viva Amplify to publish content are:
-
-- Outlook
-- SharePoint
-- Yammer
