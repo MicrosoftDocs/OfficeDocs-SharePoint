@@ -43,6 +43,8 @@ The following table details the settings available in the Migration Manager. Onl
 
 **Filters**
 
+The relationship between these filters is AND.
+
 |**Setting**|**Description**|
 |:-----|:-----|
 |Migrate hidden files|If set to **Off**, hidden files will **not** be migrated.|
