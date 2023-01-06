@@ -88,17 +88,19 @@ Next, create a conditional access policy that applies to that authentication con
 To create a conditional access policy
 1. In [Azure Active Directory Conditional Access](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade), click **New policy**.
 
-2. Type a name for the policy.
+1. Type a name for the policy.
 
-3. On the **Users and groups** tab, choose the **Select users and groups** option, and then select the **All guest and external users** check box.
+1. On the **Users and groups** tab, choose the **Select users and groups** option, and then select the **Guest or external users** check box.
 
-4. On the **Cloud apps or actions** tab, under **Select what this policy applies to**, choose **Authentication context**, and select the check box for the authentication context that you created.
+1. Choose **B2B collaboration guest users** from the dropdown.
+
+1. On the **Cloud apps or actions** tab, under **Select what this policy applies to**, choose **Authentication context**, and select the check box for the authentication context that you created.
 
     ![Screenshot of authentication context options in cloud apps or actions settings for a conditional access policy.](media/aad-authentication-context-ca-policy-apps.png)
 
-5. On the **Grant** tab, select the check box for the terms of use that you want to use, and then click **Select**.
+1. On the **Grant** tab, select the check box for the terms of use that you want to use, and then click **Select**.
 
-6. Choose if you want to enable the policy, and then click **Create**.
+1. Choose if you want to enable the policy, and then click **Create**.
 
 ### Set a sensitivity label to apply the authentication context to labeled sites
 
