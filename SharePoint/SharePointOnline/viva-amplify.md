@@ -43,7 +43,7 @@ Once the content is created, the user must select the **Distribution channels** 
 
 ### Deviations
 
-By default, the **Main canvas** screen contains elements such as a spacer, a large people web part, and a countdown timer web part. From the **Main canvas** screen, when you choose **Distribution channels > Outlook/SharePoint/Yammer**, these elements vary for each distribution channel. This variance refers to **deviation**, which implies deviation from the default set of elements, namely spacer, large people web part, and countdown timer web part.
+By default, the **Main canvas** screen contains elements such as a spacer, a large people web part, and a countdown timer web part. From the **Main canvas** screen, when you choose **Distribution channels > Outlook/SharePoint**, these elements vary for each distribution channel. This variance refers to **deviation**, which implies deviation from the default set of elements, namely spacer, large people web part, and countdown timer web part.
 
 For more information about the deviations for each distribution channel, see [Deviations in distribution channels](#deviations-in-distribution-channels).
 
