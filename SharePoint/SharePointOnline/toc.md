@@ -157,7 +157,7 @@
 #### [How sync works](sync-process.md)
 #### [B2B Sync](b2b-sync.md)
 #### [Block file types](block-file-types.md)
-#### [Sync Admin Reports (Preview)](sync-health.md)
+#### [Sync Admin Reports](sync-health.md)
 
 ## [Sharing]()
 ### [External sharing overview](external-sharing-overview.md)
