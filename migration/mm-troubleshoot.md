@@ -20,9 +20,9 @@ search.appverid: MET150
 ms.custom: admindeeplinkSPO
 description: "Troubleshoot common errors in Migration Manager."
 ---
-# Troubleshoot Migration Manager issues and errors
+# Troubleshoot Migration Manager file migrations
 
-This article describes how to resolve issues and errors you may experience when using Migration Manager.
+This article describes how to resolve issues and errors you may experience when using Migration Manager for  file share migration.
 
 - [Prerequisites and settings](#check-prerequisites-and-settings)
 - [Agent error messages](#agent-error-messages)
@@ -222,7 +222,7 @@ The Google APIs are returning HTML errors that are being included in the generat
 
 **Mitigation**:
 
-Run less concurrent transations.
+Run less concurrent transactions.
 
 **Status**:
 
