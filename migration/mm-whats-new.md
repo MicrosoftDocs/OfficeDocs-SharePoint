@@ -22,19 +22,29 @@ description: "Learn about the new features and updates to existing features in M
 
 # What's new in Migration Manager
 
-We're continuously adding new features to Migration Manager and fixing issues we learn about. Here's a summary of what's included.   
+We're continuously adding new features to Migration Manager and fixing issues we learn about. Here's a summary of what's included.  
 
 #### We're listening!
 
 Help us improve Migration Manager by sending your suggestions and reporting bugs you encounter. Just select the feedback button at the bottom of the page.  
 
+## Coming soon
+- Several enhancements are coming to Google Workspace migrations. New features include:
+  -  Filtering by factors such as dates, file types, and invalid characters
+  -  Downloading bulk reports
+  - Display of the estimated time it will take for your migration to complete.
+
+## January 2023
+- **Fixed:  Report aggregator script**. The Report aggregator script was incorrectly converting bytes to gigabytes. This has now been fixed. [Learn more: Download detailed task reports.](/sharepointmigration/mm-reports#download-detailed-task-level-reports-via-powershell) 
+
+
 ## December 2022
-- **Fixed: Upload failures logs**. Items that failed in SPO upload process were not listed in the migration log, and was inconsistent with the final migration result. This has been fixed. 
+- **Fixed: Upload failures logs**. Items that failed in SPO upload process weren't listed in the migration log, and was inconsistent with the final migration result. This has been fixed. 
 - **Report fields refined**. The fields of downloaded reports have been improved for clarity and readability.
 
 
 ## October 2022
-- **Change - Box Notes**. We are no longer able to convert Box notes to a .docx file during migration.
+- **Change - Box Notes**. We're no longer able to convert Box notes to a .docx file during migration.
 
 ## June 2022
 - **Fix: Google proprietary file formats failed to migrate**. Some Google files (mainly  Google slides) failed to migrate showing the error code, "MFILESIZEINCORRECT". This has been fixed. Rerun any failed tasks to migrate these files.
@@ -71,7 +81,7 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 - **Support for files up to 100 GB.** File share migration now supports migrating individual files of up to 100 GB.
 - **Improved agent installation messages.**  The error messages during agent installation have been improved.
-- **Reinstall recommended message.** A "Reinstall recommended" message displays detailed information as to why it is needed. 
+- **Reinstall recommended message.** A "Reinstall recommended" message displays detailed information as to why it's needed. 
 - **Cross-geo site fix.**  If the destination cross-geo site didn't exist, the migration would fail. This has been fixed.
 - **Agent service and Agent app on same computer upgrader issue fix.**  When the agent app and agent service were both installed on the same computer, the upgrader would always start the agent app after the agent service was updated. Fixed.
 - **Agent service and Agent app on same computer file share fix.** When the agent service and the agent app were installed on the same computer, file share migration tasks would fail. Fixed.
