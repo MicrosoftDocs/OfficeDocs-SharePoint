@@ -42,8 +42,6 @@ For these reasons, we recommend moving (redirecting) known folders to OneDrive i
 
 We recommend that you upgrade to the latest available build before you deploy.
 
-To check eligibility on existing devices, data volume, and item counts as you decide on a rollout plan, and to later monitor progress of the rollout, use the Known Folder Move PowerShell script.
-
 For information on issues that can prevent folders from being moved, see [Fix problems with folder protection](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057#BKMK_FixProblems). Note that Known Folder Move doesn't work for users syncing OneDrive files in SharePoint Server.
 
 > [!IMPORTANT]
