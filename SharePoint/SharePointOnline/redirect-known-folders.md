@@ -101,12 +101,12 @@ The OneDrive Known Folder Move Group Policy objects won't work if you previously
 - If folders have been redirected to OneDrive using Windows Folder Redirection Group Policy:
 
   1. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on OneDrive.
-  2. Enable KFM Group Policy. Known folders remain in OneDrive.
+  2. Enable Known Folder Move Group Policy. Known folders remain in OneDrive.
 
 - If folders have been redirected to a location on a local PC:
 
   1. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents at the redirected location.
-  2. Enable KFM Group Policy. Known folders move to OneDrive.
+  2. Enable Known Folder Move Group Policy. Known folders move to OneDrive.
 
 - If folders have been redirected to a network file share:
   
@@ -116,4 +116,4 @@ The OneDrive Known Folder Move Group Policy objects won't work if you previously
      > If Migration Manager will create the Documents, Pictures, or Desktop folders, ensure that **Preserve file share permissions** is not selected when performing the migration.
 
   2. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on the network file share.
-  3. Enable KFM Group Policy. Known folders move to OneDrive and will merge with the existing Desktop, Documents, and Pictures folders, which contain all the file share content that you moved in the first step.
+  3. Enable Known Folder Move Group Policy. Known folders move to OneDrive and will merge with the existing Desktop, Documents, and Pictures folders, which contain all the file share content that you moved in the first step.
