@@ -100,7 +100,7 @@ The following diagram outlines the key steps in making our solution work:
 ### Feature notes
 
 - Updates to organization font asset libraries can take up to 24 hours to propagate and become broadly available.
-- If you need to change your font asset library, you will need to [remove the font asset library](/powershell/module/sharepoint-online/remove-spoorgassetslibrary) using the ```Remove-SPOOrgOrgAssetsLibrary``` command. Repeat the process above to upload your updates in the font files. Changes made to the Document Library on the SharePoint web platform may affect font availability and feature functionality.
+- If you need to change your font asset library, you will need to [remove the font asset library](/powershell/module/sharepoint-online/remove-spoorgassetslibrary) using the ```[Remove-SPOOrgAssetsLibrary](https://learn.microsoft.com/en-us/powershell/module/sharepoint-online/remove-spoorgassetslibrary)``` command. Repeat the process above to upload your updates in the font files. Changes made to the Document Library on the SharePoint web platform may affect font availability and feature functionality.
 - The uploaded organization fonts will only be usable and viewable within your organization. To share them externally, you need to [embed fonts into your PowerPoint presentations.](https://support.microsoft.com/office/benefits-of-embedding-custom-fonts-cb3982aa-ea76-4323-b008-86670f222dbc)
 - This feature is only available on PowerPoint for the web. Support for Windows, Mac, and Mobile are coming soon. In the meantime, continue to [download and install custom fonts to use with Office.](https://support.microsoft.com/topic/download-and-install-custom-fonts-to-use-with-office-0ee09e74-edc1-480c-81c2-5cf9537c70ce)
 
