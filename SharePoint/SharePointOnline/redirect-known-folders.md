@@ -42,8 +42,6 @@ For these reasons, we recommend moving (redirecting) known folders to OneDrive i
 
 We recommend that you upgrade to the latest available build before you deploy.
 
-To check eligibility on existing devices, data volume, and item counts as you decide on a rollout plan, and to later monitor progress of the rollout, use the Known Folder Move PowerShell script.
-
 For information on issues that can prevent folders from being moved, see [Fix problems with folder protection](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057#BKMK_FixProblems). Note that Known Folder Move doesn't work for users syncing OneDrive files in SharePoint Server.
 
 > [!IMPORTANT]
@@ -103,12 +101,12 @@ The OneDrive Known Folder Move Group Policy objects won't work if you previously
 - If folders have been redirected to OneDrive using Windows Folder Redirection Group Policy:
 
   1. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on OneDrive.
-  2. Enable KFM Group Policy. Known folders remain in OneDrive.
+  2. Enable Known Folder Move Group Policy. Known folders remain in OneDrive.
 
 - If folders have been redirected to a location on a local PC:
 
   1. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents at the redirected location.
-  2. Enable KFM Group Policy. Known folders move to OneDrive.
+  2. Enable Known Folder Move Group Policy. Known folders move to OneDrive.
 
 - If folders have been redirected to a network file share:
   
@@ -118,4 +116,4 @@ The OneDrive Known Folder Move Group Policy objects won't work if you previously
      > If Migration Manager will create the Documents, Pictures, or Desktop folders, ensure that **Preserve file share permissions** is not selected when performing the migration.
 
   2. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on the network file share.
-  3. Enable KFM Group Policy. Known folders move to OneDrive and will merge with the existing Desktop, Documents, and Pictures folders, which contain all the file share content that you moved in the first step.
+  3. Enable Known Folder Move Group Policy. Known folders move to OneDrive and will merge with the existing Desktop, Documents, and Pictures folders, which contain all the file share content that you moved in the first step.
