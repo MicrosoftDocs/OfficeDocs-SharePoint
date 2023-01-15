@@ -90,3 +90,14 @@ Where the template ID is:
 - Expense tracker: '96D6DBE5-D7C3-430A-867A-0B72EB4065AB'
 
 To re-enable a built-in template, use the parameter `EnableModernListTemplateIds`.
+
+## Disable additional features on a built-in template
+
+Some built-in list templates include additional features such as automations and custom formatting. If you wish to keep only the base schema of a built-in list template but not the rest of its features included in that template:
+
+1. Create a list from the built-in list template.
+2. [Create a custom list template](./lists-custom-template.md) based off of that list. The custom list template will not include any additional features by default.
+3. [Disable the original built-in list template](#disable-built-in-list-templates). 
+
+    > [!NOTE]
+    > Users in your organization will see the custom list template on the "From your organization" tab rather than from the "From Microsoft" tab.
