@@ -53,7 +53,6 @@ Two endpoints, https://production.odyssey.ops.mover.io and https://production-wu
 | Required endpoints | For |
 |:-----|:-----|
 |`https://secure.aadcdn.microsoftonline-p.com`|Authentication|
-|`https://api.office.com`|Microsoft 365 APIs for content move and validation.|
 |`https://graph.windows.net`|Microsoft 365 APIs for content move and validation.|
 |`https://spmtreleasescus.blob.core.windows.net`|Installation|
 |`https://*.queue.core.windows.net`|Migration API Azure requirement|
