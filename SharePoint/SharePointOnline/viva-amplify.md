@@ -39,6 +39,8 @@ The following distribution channels are supported for publish of content from th
 - Outlook
 - SharePoint
 
+:::image type="content" source="media/distribution-channel-options.png" alt-text="The distribution channel options on the Main canvas screen.":::
+
 Once the content is created, the user must select the **Distribution channels** tab and select one of the [supported distribution channels](#multiple-supported-distribution-channels) to publish the content.
 
 ### Deviations
