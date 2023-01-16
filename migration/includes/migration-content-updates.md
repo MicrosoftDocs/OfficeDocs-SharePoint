@@ -2,6 +2,14 @@
 
 
 
+## Week of January 02, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/6/2023 | [What's new in Migration Manager](/SharepointMigration/mm-whats-new) | modified |
+
+
 ## Week of December 12, 2022
 
 
