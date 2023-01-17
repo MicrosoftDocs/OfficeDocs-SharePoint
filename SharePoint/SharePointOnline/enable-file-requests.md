@@ -40,7 +40,9 @@ Admins can use the SharePoint Online Management Shell to disable or enable the *
 
 1. Check if you have enabled [**Anyone** links at the tenant level for SharePoint sites](/sharepoint/turn-external-sharing-on-or-off#change-the-organization-level-external-sharing-setting). 
 
-2. Ensure folder permissions are set to **View, edit and upload**. [image]
+2. Ensure folder permissions are set to **View, edit and upload**. 
+
+   ![for-folder-permissions](media/select-folder.png)
 
 3. Check `CoreRequestFilesLinkEnabled` is set correctly via [SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).  
 
@@ -58,10 +60,14 @@ Admins can use the SharePoint Online Management Shell to disable or enable the *
 
 2. Ensure folder permissions are set to **View, edit and upload**.
 
+   ![for-folder-permissions](media/select-folder.png)
+
 3. Configure OneDrive **Anyone** links at tenant level to your desired preference. It's only required that SharePoint **Anyone** links setting are configured to the most permissive (Anyone) at the tenant level.  
 
-4. For example, you can set OneDrive sharing capability to ‘New and Existing guests’ and still allow OneDrive File Requests by following the instructions below as long as SharePoint **Anyone** links are turned on.  
+4. For example, you can set OneDrive sharing capability to **New and Existing guests** and still allow OneDrive File Requests by following the instructions below as long as SharePoint **Anyone** links are turned on.  
 
+   ![shared-content-in-SharePoint-and-Onedrive](media/content.png)
+   
 5. Check `OneDriveRequestFilesLinkEnabled` is set correctly via [SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).  
 
    - Run `Get-SPOTenant`.
@@ -77,6 +83,8 @@ Admins can use the SharePoint Online Management Shell to disable or enable the *
 1. Check if you have enabled [Anyone links at the tenant level for SharePoint sites](/sharepoint/turn-external-sharing-on-or-off#change-the-organization-level-external-sharing-setting). 
 
 2. Ensure folder permissions are set to **View, edit and upload** at Tenant Level in SharePoint tenant admin.
+
+   ![for-folder-permissions](media/select-folder.png)
 
 3. Check if `RequestFilesLinkEnabled` is set correctly via [SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).  
 
