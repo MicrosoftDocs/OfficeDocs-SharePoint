@@ -96,13 +96,13 @@ These deviations are described in the following subsections:
 
 ##### Deviations in People web part
 
-1. Only the **Small** layout is supported for People web part (Descriptions and links added to medium or large versions will be dropped.).
+Only the **Small** layout is supported for People web part (Descriptions and links added to medium or large versions will be dropped.).
 
-   :::image type="content" source="media/only-small-layout-supported.png" alt-text="Only the Small layout is supported in Outlook.":::
+:::image type="content" source="media/only-small-layout-supported.png" alt-text="Only the Small layout is supported in Outlook.":::
 
 ##### Sections layout
 
-The **Sections** is a layout-associated element that presents a template to the content in the **Main canvas** page so that the content is structured properly.
+**Sections** is a layout-associated element that presents a template to the content in the **Main canvas** page so that the content is structured properly.
 
 Each section consists of 1-3 columns. 
 
