@@ -122,6 +122,7 @@
 ### [Set default storage space](set-default-storage-space.md)
 ### [Change user storage](change-user-storage.md)
 ### [Set retention](set-retention.md)
+### [File Requests](enable-file-requests.md)
 ### [Restore deleted OneDrive](restore-deleted-onedrive.md)
 ### [Retention and deletion](retention-and-deletion.md)
 ### [List OneDrive URLs](list-onedrive-urls.md)
