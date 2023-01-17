@@ -25,7 +25,7 @@ When SharePoint Server Subscription Edition is being supported, Microsoft releas
 
 ## Policy overview
 
-The RTM build and all PUs for SharePoint Server Subscription Edition released before January 10, 2023 will be supported until December 12, 2023. From the January 10, 2023 PU for SharePoint Server Subscription Edition, each Public Update build will be supported for one year from its release date. Support for a Public Update build will end on the second Tuesday of the same month of its release in the following year.
+The RTM build and all PUs for SharePoint Server Subscription Edition released before January 10, 2023 will be supported until December 12, 2023. From the January 10, 2023 PU for SharePoint Server Subscription Edition, each PU build will be supported for one year from its release date. Support for a PU build will end on the second Tuesday of the same month of its release in the following year.
 
 Customers must be running a supported build of SharePoint Server Subscription Edition to remain supported. If a customer contacts Microsoft Support and their SharePoint Server farm isn't running a minimum supported build or higher, they may be required to upgrade to a supported build before support can be offered.
 
