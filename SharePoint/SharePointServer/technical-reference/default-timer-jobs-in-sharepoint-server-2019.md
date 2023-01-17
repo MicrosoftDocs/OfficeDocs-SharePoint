@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-description: "Learn about the timer jobs in SharePoint Server."
+description: "Learn about the default timer jobs in SharePoint Server 2019."
 ---
 
 # Default timer jobs in SharePoint Server 2019

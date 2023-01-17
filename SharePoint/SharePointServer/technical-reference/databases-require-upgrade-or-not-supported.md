@@ -30,6 +30,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Database
   
  **Resolution: Upgrade databases to SQL Server 2014.**
   
-- See the following resource for information about how to upgrade databases: [Upgrade SQL Server](/sql/database-engine/install-windows/upgrade-sql-server?view=sql-server-2017).
+- See the following resource for information about how to upgrade databases: [Upgrade SQL Server](/sql/database-engine/install-windows/upgrade-sql-server).
     
 
