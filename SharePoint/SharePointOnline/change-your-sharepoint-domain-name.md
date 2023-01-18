@@ -105,6 +105,7 @@ If your organization has gone through a rebranding, merger, or acquisition and n
 | Teams on the web and Teams desktop app | Embedded images in Wikis won't be displayed. | Edit the Wiki .mht file located in the SharePoint Site Teams Wiki Data library and if necessary, change the URLs of the embedded images to the new domain name. |
 | Teams on the web and Teams desktop app | Personal Wikis won’t work. | In a one-on-one or group chat, attach and send a file to the chat. |
 | Third-party apps including backup solutions | Absolute URLs embedded in these third-party apps (including backup solutions) aren't changed. | Confirm with third-party app publishers (including backup solutions) that they support tenant renames. |
+| Isolated web parts and full page apps | Isolated components are not updated and will stop working. | Solutions that contain isolated components need to be re-published in the tenant app catalog. The solution will start working again after that. |
 
 ### High impact
 
