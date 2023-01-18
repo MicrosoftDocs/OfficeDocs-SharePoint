@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 9fae000c-26ad-400b-bd94-c9245d049f43
 description: "Learn how to implement best practice disaster recovery for search in a SharePoint Server farm."
