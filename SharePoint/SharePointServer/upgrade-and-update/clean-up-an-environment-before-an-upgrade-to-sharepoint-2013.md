@@ -64,9 +64,9 @@ Large numbers of document versions can slow down an upgrade significantly. If yo
   
 ### Remove unused templates, features, and Web Parts
 
-First, verify that no sites are using the template, feature, or Web Part. You can use the **Stsadm -o EnumAllWebs** operation with the - **includefeatures** and - **includewebparts** parameters to identify these customizations in your environment. This operation identifies Web Parts, features, event handlers, and setup files that are being used in your environment. The **EnumAllWebs** command also specifies which files are used by which sites. Changes were made to the **EnumAllWebs** command in the February 2011 Cumulative update to make it return both site collection and web-level features. For more information, and to get the cumulative update, see [Description of the SharePoint Foundation 2010 cumulative update package (SharePoint Foundation server-package): March 3, 2011](https://go.microsoft.com/fwlink/p/?LinkId=254687).
+First, verify that no sites are using the template, feature, or Web Part. You can use the `Stsadm - EnumAllWebs` operation with the `- includefeatures` and `- includewebparts` parameters to identify these customizations in your environment. This operation identifies Web Parts, features, event handlers, and setup files that are being used in your environment. The `EnumAllWebs` command also specifies which files are used by which sites. Changes were made to the `EnumAllWebs` command in the February 2011 Cumulative update to make it return both site collection and web-level features. For more information, and to get the cumulative update, see [Description of the SharePoint Foundation 2010 cumulative update package (SharePoint Foundation server-package): March 3, 2011](https://go.microsoft.com/fwlink/p/?LinkId=254687).
   
-You can remove a feature during site collection upgrade. Simple features can also be removed by deprecating them in the template. You can use feature upgrade to remove more complex features. For more information, see [Upgrading Features](/previous-versions/office/developer/sharepoint-2010/aa544511(v=office.14)) and [Feature Upgrade Overview](/previous-versions/office/developer/sharepoint-2010/ee535723(v=office.14)) on MSDN. 
+You can remove a feature during site collection upgrade. Simple features also can be removed by deprecating them in the template. You can use feature upgrade to remove more complex features. For more information, see [Upgrading Features](/previous-versions/office/developer/sharepoint-2010/aa544511(v=office.14)) and [Feature Upgrade Overview](/previous-versions/office/developer/sharepoint-2010/ee535723(v=office.14)) on MSDN. 
   
 For more information about how to identify customizations in your environment, see [Use a trial upgrade to SharePoint 2013 to find potential issues](/previous-versions/office/sharepoint-server-2010/cc262155(v=office.14)). If customizations aren't being used, delete them. For more information about how to manage these kinds of customizations, see [Features and Templates](/previous-versions/office/developer/sharepoint-services/ms439657(v=office.12)) and [Solutions and Web Part Packages](/previous-versions/office/developer/sharepoint-services/ms413687(v=office.12)) on MSDN. 
   
@@ -151,9 +151,9 @@ Make sure that you repair all issues in your databases or site content before yo
     
     Clean up your databases to remove any orphaned sites or other corrupted data, such as a corrupted list. Consider defragmenting if you have removed sites or subsites from the database. For more information, see:
     
-  - [Databaserepair: Stsadm operation](/previous-versions/office/sharepoint-2007-products-and-technologies/cc263282(v=office.12))
+  - `Databaserepair`: [Stsadm operation](/previous-versions/office/sharepoint-2007-products-and-technologies/cc263282(v=office.12))
     
-  - [Forcedeletelist: Stsadm operation](/previous-versions/office/sharepoint-2007-products-and-technologies/cc262609(v=office.12))
+  - `Forcedeletelist`: [Stsadm operation](/previous-versions/office/sharepoint-2007-products-and-technologies/cc262609(v=office.12))
     
 - **Check databases for duplicate or orphaned site collections**
     
