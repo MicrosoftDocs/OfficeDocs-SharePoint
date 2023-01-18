@@ -95,7 +95,7 @@ While you're reviewing customizations in your environment, you should also make 
   
 Some methods of deploying customizations might require additional steps in SharePoint 2013. The following table lists issues that you might encounter for specific methods of deploying customizations.
   
-|**Deployment method**|**Recommendation**|
+|Deployment method**|**Recommendation|
 |:-----|:-----|
 |Customizations deployed as MSI files  <br/> |Contact the vendor for updated files. Most likely, you'll have to get a replacement file compatible with SharePoint 2013.  <br/> |
 |Manually deployed features, files, or changes  <br/> |You can re-deploy them to the equivalent directory in SharePoint 2013. However, consider packaging them into a deployable solution package for easier administration.  <br/> |
