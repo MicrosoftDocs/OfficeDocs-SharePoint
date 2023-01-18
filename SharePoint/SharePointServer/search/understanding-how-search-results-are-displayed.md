@@ -93,7 +93,7 @@ The mechanics of these connections are not very straight forward and easy to und
     
 2. Each item display template contains a reference to a hover panel display template, for example,  *Item_PowerPoint_HoverPanel*  . 
     
-     ![Connection 1](../media/OTCSP_Connection1.png)
+     ![First Connection](../media/OTCSP_Connection1.png)
   
     Let's start with the first connection. To see the connection between a result type and an item display template, go to **Site Settings** --> **Result Types**. Select to view a result type, for example **Microsoft PowerPoint**. 
     
