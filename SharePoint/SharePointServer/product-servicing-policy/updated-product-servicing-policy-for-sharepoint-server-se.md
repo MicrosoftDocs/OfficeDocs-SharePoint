@@ -34,12 +34,12 @@ The product servicing policy timeline for SharePoint Server Subscription Edition
 |SharePoint Server Subscription Edition Build|Release Date|Support End Date|
 |---|---|---|
 |RTM (16.0.14326.20450)|11/2/2021|12/12/2023|
-|December 2021 Public Update - December 2022 Public Update|12/14/2021-12/13/2022|12/12/2023|
-|January 2023 Public Update|1/10/2023|1/9/2024|
-|February 2023 Public Update|2/14/2023|2/13/2024|
-|March 2023 Public Update|3/14/2023|3/12/2024|
-|April 2023 Public Update|4/11/2023|4/9/2024|
-|Future Public Updates|Release Date|Release Date + 1 Year (second Tuesday of the Month)|
+|December 2021 PU - December 2022 PU|12/14/2021-12/13/2022|12/12/2023|
+|January 2023 PU|1/10/2023|1/9/2024|
+|February 2023 PU|2/14/2023|2/13/2024|
+|March 2023 PU|3/14/2023|3/12/2024|
+|April 2023 PU|4/11/2023|4/9/2024|
+|Future PUs|Release Date|Release Date + 1 Year (second Tuesday of the Month)|
 
 ## Frequently Asked Questions
 
