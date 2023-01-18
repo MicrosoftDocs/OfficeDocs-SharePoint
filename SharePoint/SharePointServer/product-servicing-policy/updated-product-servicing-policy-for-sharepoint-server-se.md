@@ -68,6 +68,7 @@ For more information about Feature Updates, see [Feature release rings](../admin
 **Answer:** The current list of PUs for SharePoint Server Subscription Edition can be found in the [SharePoint Updates](/officeupdates/sharepoint-updates) article.
 
 **Question**: **Do the monthly PUs contain all of the fixes included in the previous PUs?**
+
 **Answer:** Yes, the monthly PUs are cumulative. Each PU contains all of the fixes provided in the previous PUs.
 
 **Question**: **Do I need to install an earlier PU before I can install the latest PU?**
