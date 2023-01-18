@@ -52,7 +52,7 @@ For small deployments in which sites were not customized extensively, the upgrad
     
 - **Services administrators** You must communicate with the administrators for service applications, such as the Business Data Connectivity service, to make sure that they are ready for the upgrade and they can review or reconfigure the appropriate settings in the new version. 
     
-- **IT or application Helpdesk leadership and personnel** If you have a helpdesk for your company, make sure that they know about the timing for the upgrade and are prepared for questions after upgrade. Helpdesk should be a key stakeholder for planning and testing so that they can be understand the potential changes from an upgrade and the effect that it will have on users. 
+- **IT or application Helpdesk leadership and personnel** If you have a helpdesk for your company, make sure that they know about the timing for the upgrade and are prepared for questions after upgrade. Helpdesk should be a key stakeholder for planning and testing so that they can understand the potential changes from an upgrade and the effect that it will have on users. 
     
 - **Site collection owners** You must notify site collection owners when the upgrade process is about to occur. Warn them about any issues that you find when you run the pre-upgrade checker or when you upgrade their sites. You must also communicate with site collection owners about their role in upgrade. Site collection owners can upgrade their own sites in SharePoint 2013. Site collection owners can run health checks and review upgrade evaluation sites before they upgrade their sites. 
     
