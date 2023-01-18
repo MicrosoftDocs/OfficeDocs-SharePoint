@@ -114,10 +114,6 @@ However, the following deviations have been spotted in the default properties of
 
    :::image type="content" source="media/multi-column-layout-option-not-supported.png" alt-text="The Multi Column layout option not being supported in Outlook.":::
 
-1. Section background color isn't supported.
-
-   :::image type="content" source="media/section-background-color-not-supported.png" alt-text="The Section Background color not being supported in Outlook.":::
-
 1. Collapsible sections aren't supported, including section titles (which will be dropped).
 
    :::image type="content" source="media/option-to-make-sections-collapsible.png" alt-text="The option to make sections collapsible.":::
