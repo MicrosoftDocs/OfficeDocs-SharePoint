@@ -34,9 +34,9 @@ The SharePoint 2016 Products Configuration Wizard performs the following configu
 > [!NOTE]
 > The time that is taken to complete each configuration task varies. 
   
-If the configuration wizard encounters an error while executing a configuration task, the wizard doesn't proceed to additional configuration tasks. The Configuration Complete page appears with a configuration failure message and a link to the log file that you can use to troubleshoot the issue that caused the failure.
+If the configuration wizard encounters an error while executing a configuration task, the wizard doesn't proceed to other configuration tasks. The Configuration Complete page appears with a configuration failure message and a link to the log file to troubleshoot the issue that caused the failure.
   
-If you cancel the configuration wizard, the configuration tasks that have completed aren't undone; the remaining configuration tasks must be performed to complete the deployment of the server. To perform the remaining configuration tasks, you must run the configuration wizard again later.
+If you cancel the configuration wizard, the configuration tasks that are completed aren't undone; the remaining configuration tasks must be performed to complete the deployment of the server. To perform the remaining configuration tasks, you must run the configuration wizard again later.
   
 ## Updating a server farm
 

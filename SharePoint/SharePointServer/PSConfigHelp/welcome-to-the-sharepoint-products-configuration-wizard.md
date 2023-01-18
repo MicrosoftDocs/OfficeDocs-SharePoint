@@ -33,14 +33,14 @@ In addition to using the configuration wizard to perform the initial configurati
     
 - Identify, repair, or reset security and low-level configuration settings.
     
-The configuration wizard might have to start, stop, or reset the SharePoint Administration Service, the SharePoint Timer Service, Internet Information Services (IIS), and services from other applications that depend on SharePoint Server and are appropriately registered.
+The configuration wizard may have to start, stop, or reset the SharePoint Administration Service, the SharePoint Timer Service, Internet Information Services (IIS), and services from other applications that depend on SharePoint Server and are appropriately registered.
   
 To interrupt server operations, select **No** to exit the configuration wizard. 
   
 > [!NOTE]
 > You must successfully complete the configuration wizard to finish the server deployment before you can access SharePoint Central Administration to configure your site. 
   
-After the configuration wizard is completed, the services that are required to run Central Administration are enabled. Then, you must use Central Administration to configure your site.
+After the configuration wizard is completed, the services required to run Central Administration are enabled. Then, you must use Central Administration to configure your site.
   
 ## Software requirements
 
@@ -64,7 +64,7 @@ You can use **Repair** to overwrite changed or damaged files and registry settin
   
 For example, you can use **Repair** if a registry entry has been overwritten and you need to return to the default setting. 
   
-When you repair an installation, the files that were installed are verified, missing components are detected, and then the configuration is repaired.
+When you repair an installation, the files installed are verified, missing components are detected, and then the configuration is repaired.
   
 For information, see [How to: Repair SharePoint Products](how-to-repair-sharepoint-products.md).
   

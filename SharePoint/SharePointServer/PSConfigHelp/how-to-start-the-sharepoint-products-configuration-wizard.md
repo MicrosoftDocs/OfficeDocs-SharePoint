@@ -29,7 +29,7 @@ You can start the SharePoint Products Configuration Wizard at any time after you
 
 1. Go to **Start** -> **All Programs** -> **SharePoint \<version\>**, and then select **SharePoint Products Configuration Wizard**. 
     
-    Where \<version\> is the current version of your product.
+    Where \<version\> is the current version of your product
     
 2. Follow the instructions on the screen.
     
