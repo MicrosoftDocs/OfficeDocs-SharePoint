@@ -23,7 +23,7 @@ description: "Summary: Learn how to use the SharePoint Products Configuration Wi
 
  **Summary:** Learn how to use the SharePoint Products Configuration Wizard in SharePoint Server. 
   
-The SharePoint Products Configuration Wizard performs basic tasks that require minimal user input and that must be performed to start SharePoint Central Administration, or that cannot be performed anywhere else.
+The SharePoint Products Configuration Wizard performs basic tasks that require minimal user input and that must be performed to start SharePoint Central Administration, or that can't be performed anywhere else.
   
 In addition to using the configuration wizard to perform the initial configuration, you can use the configuration wizard at any time to perform the following tasks:
   
@@ -35,7 +35,7 @@ In addition to using the configuration wizard to perform the initial configurati
     
 The configuration wizard might have to start, stop, or reset the SharePoint Administration Service, the SharePoint Timer Service, Internet Information Services (IIS), and services from other applications that depend on SharePoint Server and are appropriately registered.
   
-To interrupt server operations, click **No** to exit the configuration wizard. 
+To interrupt server operations, select **No** to exit the configuration wizard. 
   
 > [!NOTE]
 > You must successfully complete the configuration wizard to finish the server deployment before you can access SharePoint Central Administration to configure your site. 
@@ -50,13 +50,13 @@ A 64-bit edition of a supported Windows Server 2012 R2 operating system or the l
   
 If you install to a server farm, a supported version of SQL Server 2014 SP1.
   
-Appropriate administrative credentials on the servers on which you are installing and a domain account to use as the service account.
+Appropriate administrative credentials on the servers on which you're installing and a domain account to use as the service account.
   
 ## Server Roles
 
 SharePoint farm administrators can define each server's role in a farm topology. The role of a server is specified when you create a new farm or join a server to an existing farm. SharePoint automatically configures the services on each server based on the server's role, and the performance of the farm is optimized based on that topology.
   
-There are six predefined server roles you can choose. For additional information about server roles, see [MinRole overview](../install/overview-of-minrole-server-roles-in-sharepoint-server.md).
+There are six predefined server roles you can choose. For more information about server roles, see [MinRole overview](../install/overview-of-minrole-server-roles-in-sharepoint-server.md).
   
 ## Repair
 
@@ -70,20 +70,20 @@ For information, see [How to: Repair SharePoint Products](how-to-repair-sharepoi
   
 ## Update
 
-Deploy cumulative updates and service packs for SharePoint products by using the SharePoint 2016 Products Configuration Wizard. The SharePoint 2016 Products Configuration Wizard is not used to deploy major upgrades for a server farm.
+Deploy cumulative updates and service packs for SharePoint products by using the SharePoint 2016 Products Configuration Wizard. The SharePoint 2016 Products Configuration Wizard isn't used to deploy major upgrades for a server farm.
   
  **Applying updates to a farm**
   
-After you apply an update, such as a service pack or cumulative update, you run the SharePoint 2016 Products Configuration Wizard to upgrade the farm to the new version. All servers in the farm must be updated to the same version and must have the same products and language packs installed before you can run the configuration wizard. If any servers in your farm were not updated, the **Farm Product and Patch Status** page appears and lists the current status for each server in the farm. From this page, you can determine which servers have to be updated. To update your servers, exit the SharePoint 2016 Products Configuration Wizard, run the update on the servers that have to be updated, and then run the configuration wizard again. 
+After you apply an update, such as a service pack or cumulative update, you run the SharePoint 2016 Products Configuration Wizard to upgrade the farm to the new version. All servers in the farm must be updated to the same version and must have the same products and language packs installed before you can run the configuration wizard. If any servers in your farm weren't updated, the **Farm Product and Patch Status** page appears and lists the current status for each server in the farm. From this page, you can determine which servers have to be updated. To update your servers, exit the SharePoint 2016 Products Configuration Wizard, run the update on the servers that have to be updated, and then run the configuration wizard again. 
   
  **Upgrading a server farm**
   
-If you are upgrading a server farm to apply an update, you must use the following process:
+If you're upgrading a server farm to apply an update, you must use the following process:
   
 1. Run Setup, and then run the SharePoint 2016 Products Configuration Wizard on the server that runs SharePoint Central Administration in your farm.
     
 2. When you see the message about running Setup on other servers in the farm, you must run Setup and the SharePoint 2016 Products Configuration Wizard on the other servers to reach the same point.
     
-3. When all servers in the farm display the message, return to the first web server, and then click **OK** to continue the upgrade process for the first server. 
+3. When all servers in the farm display the message, return to the first web server, and then select **OK** to continue the upgrade process for the first server. 
     
 4. After the wizard has completed on the first server, you can configure each of the other servers.

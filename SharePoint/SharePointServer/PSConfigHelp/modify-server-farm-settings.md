@@ -25,8 +25,8 @@ description: "Summary: Learn how disconnect from a server in SharePoint Server."
   
 You can use the options on this page to modify the server farm settings. The name of the server that is hosting the configuration database and the name of the configuration database are displayed.
   
-If you want to disconnect this computer from this server farm, select **Disconnect from this server farm**, and then click **Next**. When the configuration wizard completes, this computer will no longer host the SharePoint Central Administration web site and will immediately be removed from the SharePoint server farm. 
+If you want to disconnect this computer from this server farm, select **Disconnect from this server farm**, and then select **Next**. When the configuration wizard completes, this computer will no longer host the SharePoint Central Administration web site and will immediately be removed from the SharePoint server farm. 
   
-You can run the configuration wizard later to join the computer to another server farm .
+You can run the configuration wizard later to join the computer to another server farm.
   
 

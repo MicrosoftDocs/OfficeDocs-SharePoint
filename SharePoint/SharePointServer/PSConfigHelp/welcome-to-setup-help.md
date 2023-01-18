@@ -23,7 +23,7 @@ description: "Summary: Learn how to use the Setup help system in SharePoint Serv
 
  **Summary:** Learn how to use the Setup help system in SharePoint Server. 
   
-In this help system :
+In this help system:
   
 - [Enter your Product Key](enter-your-product-key.md)
     

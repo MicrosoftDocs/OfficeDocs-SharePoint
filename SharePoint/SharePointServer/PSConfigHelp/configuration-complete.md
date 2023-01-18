@@ -16,20 +16,20 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 4227531f-6cb8-4663-8376-f06fa0eaead8
-description: "Summary: Learn how to use a configuration settings in SharePoint Server."
+description: "Summary: Learn how to use a configuration setting in SharePoint Server."
 ---
 
 # Configuration complete
 
- **Summary:** Learn how to use a configuration settings in SharePoint Server. 
+ **Summary:** Learn how to use a configuration setting in SharePoint Server. 
   
 When the SharePoint 2016 Products Configuration Wizard completes all of the required configuration tasks, SharePoint Central Administration is available for you to use to configure your web site.
   
 ## Configuration Successful
 
-The configuration settings that you entered are displayed, and then you can click **Finish** to close the configuration wizard. The SharePoint Central Administration site is displayed in your web browser. 
+The configuration settings that you entered are displayed, and then you can select **Finish** to close the configuration wizard. The SharePoint Central Administration site is displayed in your web browser. 
   
-If you are performing a repair, click **Close** to exit the configuration wizard. 
+If you're performing a repair, select **Close** to exit the configuration wizard. 
   
 > [!NOTE]
 > If you are using Microsoft Internet Explorer and have not modified the default settings, **Enhanced Security** will be enabled. When the configuration wizard starts Internet Explorer, a pop-up prompts you to add the site to the list of trusted sites. 

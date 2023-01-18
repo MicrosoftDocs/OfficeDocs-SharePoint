@@ -23,11 +23,11 @@ description: "Summary: Learn how to start the SharePoint Products Configuration 
 
  **Summary:** Learn how to start the SharePoint Products Configuration Wizard in SharePoint Server. 
   
-You can start the SharePoint Products Configuration Wizard at any time after you have completed the Setup Wizard.
+You can start the SharePoint Products Configuration Wizard at any time after you've completed the Setup Wizard.
   
 ### To run the SharePoint Products Configuration Wizard
 
-1. Go to **Start** -> **All Programs** -> **SharePoint \<version\>**, and then click **SharePoint Products Configuration Wizard**. 
+1. Go to **Start** -> **All Programs** -> **SharePoint \<version\>**, and then select **SharePoint Products Configuration Wizard**. 
     
     Where \<version\> is the current version of your product.
     

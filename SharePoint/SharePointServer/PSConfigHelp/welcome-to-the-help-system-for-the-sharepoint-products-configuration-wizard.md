@@ -23,7 +23,7 @@ description: "Summary: Learn how to get help for SharePoint Server."
 
  **Summary:** Learn how to get help for SharePoint Server. 
   
-In this help system :
+In this help system:
   
 - [Welcome to the SharePoint Products Configuration Wizard](welcome-to-the-sharepoint-products-configuration-wizard.md)
     
