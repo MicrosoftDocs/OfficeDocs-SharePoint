@@ -51,7 +51,13 @@ You might have other requirements or additional goals that you want to achieve w
 |Upgrading very large databases?  <br/> |In general, very large databases—especially databases that have a large number or large size of document versions inside them—take longer to upgrade than smaller databases. However, the complexity of the data determines how long it takes to upgrade, not the size of the database itself. If the upgrade process times out, it's usually because of connection issues. For more information about how long upgrade might take for your environment, see [Plan for performance during upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262891(v=office.14)).  <br/> |
 |Upgrading from the server products in the Office 2007 release?  <br/> |Use a database attach upgrade method to upgrade to SharePoint 2010 Products, and then upgrade to SharePoint 2013.  <br/> |
 |Upgrading from SharePoint Foundation 2010 to SharePoint 2013?  <br/> |Attach and upgrade the content databases from SharePoint Foundation 2010 to SharePoint 2013.  <br/> |
-|Changing languages?  <br/> | You have two choices, depending on whether a single site or your whole environment is changing languages:  <br/>  To change the multiple user interface (MUI) language for a specific site, upgrade in the same language, and then install the new language pack and change to that language.  <br/> > [!CAUTION]>  You must have the appropriate language packs installed to upgrade any sites based on a localized site definition. If you don't have the new language pack, the sites won't be available. Wait for the new language packs to be released before you try to upgrade those sites.            To change the installation language for your environment, set up your new environment in the new language, and then attach and upgrade your databases in the new language.  <br/> |
+|Changing languages?  <br/> | You have two choices, depending on whether a single site or your whole environment is changing languages:  <br/>  To change the multiple user interface (MUI) language for a specific site, upgrade in the same language, and then install the new language pack and change to that language. |
+
+> [!CAUTION]
+> You must have the appropriate language packs installed to upgrade any sites based on a localized site definition. If you don't have the new language pack, the sites won't be available. Wait for the new language packs to be released before you try to upgrade those sites.            
+> 
+> To change the installation language for your environment, set up your new environment in the new language, and then attach and upgrade your databases in the new language.  
+___
    
 ## See also
 <a name="section2"> </a>
