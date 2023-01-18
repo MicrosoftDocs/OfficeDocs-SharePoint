@@ -53,7 +53,7 @@ To run the configuration wizard later, clear the **Run the SharePoint Products C
   
 ## Setup failed
 
-If an error was encountered, the setup process won't be completed and an error will be noted in the Setup log file. The Setup log file is stored in the temp directory for the user account that is running setup (%USERTEMP% or %WINDIR%\Users\user account\AppData\Local\Temp). It's named "SharePoint Server Setup (YYYYMMDDHHMMSSrandomnumber).log" where YYYYMMDD is the date and HHMMSS is the time (hours in 24-hour clock format, minutes, seconds, and milliseconds) and the random number is used to differentiate between possible simultaneous attempts to run the setup program. You can review the log file for error messages. After you understand why the error occurred, you can address the issue, and then you can run Setup again.
+If an error was encountered, the setup process won't be completed and an error will be noted in the Setup log file. The Setup log file is stored in the temp directory for the user account that is running setup (%USERTEMP% or %WINDIR%\Users\user account\AppData\Local\Temp). The Setup log file is named "SharePoint Server Setup (YYYYMMDDHHMMSSrandomnumber).log". YYYYMMDD is the date,  HHMMSS is the time (hours in 24-hour clock format, minutes, seconds, and milliseconds), and the random number is used to differentiate between possible simultaneous attempts to run the setup program. You can review the log file for error messages. After you understand why the error occurred, you can address the issue, and then you can run Setup again.
   
 > [!NOTE]
 > If you encounter a failure during the removal process, you can find more information in [Configuration failure during removal](configuration-failure-during-removal.md). 
