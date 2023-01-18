@@ -90,7 +90,7 @@ To guarantee a smooth upgrade from SharePoint Server 2013 to SharePoint Server 2
     
 5. Clean up before you upgrade
     
-    Issues in your environment can affect the success of upgrade, and unnecessary or very large amounts of data can affect upgrade performance for both databases and site collections. If you don't need something in your environment, consider removing it before upgrade. If there are issues detected, try to resolve them before you start to upgrade. .
+    Issues in your environment can affect the success of upgrade, and unnecessary or very large amounts of data can affect upgrade performance for both databases and site collections. If you don't need something in your environment, consider removing it before upgrade. If there are issues detected, try to resolve them before you start to upgrade.
     
 6. Back up your databases.
     
