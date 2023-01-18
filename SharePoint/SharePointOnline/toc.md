@@ -122,7 +122,6 @@
 ### [Set default storage space](set-default-storage-space.md)
 ### [Change user storage](change-user-storage.md)
 ### [Set retention](set-retention.md)
-### [File Requests](enable-file-requests.md)
 ### [Restore deleted OneDrive](restore-deleted-onedrive.md)
 ### [Retention and deletion](retention-and-deletion.md)
 ### [List OneDrive URLs](list-onedrive-urls.md)
@@ -166,7 +165,7 @@
 ### [Change external sharing for OneDrive](user-external-sharing-settings.md)
 ### [Change default sharing link](change-default-sharing-link.md)
 ### [External sharing notifications (OneDrive)](turn-on-external-sharing-notifications.md)
-
+### [File Requests](enable-file-requests.md)
 ### [Plan secure file collaboration](deploy-file-collaboration.md)
 ### [Integration with Azure AD B2B](sharepoint-azureb2b-integration.md)
 ### [Restricted domains sharing](restricted-domains-sharing.md)
