@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 6710f7e9-889d-4644-bfab-26f63b76ceaf
 description: "Learn about the default managed properties, their settings, and the default mapping between crawled and managed properties."
