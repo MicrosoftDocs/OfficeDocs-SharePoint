@@ -33,6 +33,9 @@ Admins can use the SharePoint Online Management Shell to disable or enable the *
 > - Your admin has configured the **View, edit, and upload** permission for **Anyone** links as described in [Advanced settings for **Anyone** links](/sharepoint/turn-external-sharing-on-or-off#advanced-settings-for-anyone-links).
 > - This feature is not available for Office 365 operated by 21Vianet, OneDrive for home, or Office 365 Germany.
 
+> [!NOTE]
+> In its current state, if you disable **Anyone** links at SharePoint in SharePoint Admin Center, the ability to turn on **Request files** feature is also disabled at Site, SharePoint or OneDrive level.
+
 ## Enable or Disable Request Files for SharePoint
 
 > [!NOTE]
