@@ -72,7 +72,7 @@ For more information about how to identify customizations in your environment, s
   
 ### Remove PowerPoint Broadcast sites
 
-These sites and site templates aren't available in SharePoint 2013 because the Office Online Server are now installed separately from the SharePoint 2013 environment. Sites based on these templates won't work in SharePoint 2013. Remove these types of sites before you upgrade. 
+These sites and site templates aren't available in SharePoint 2013 because the Office Online Server is now installed separately from the SharePoint 2013 environment. Sites based on these templates won't work in SharePoint 2013. Remove these types of sites before you upgrade. 
   
 You can use the **Get-SPSite** PowerShell command together with the following options to find these sites: 
   
