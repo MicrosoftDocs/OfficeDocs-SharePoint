@@ -28,61 +28,48 @@ ms.custom:
 > [!NOTE]
 > Microsoft Viva Amplify is currently in Private preview and, hence, available only to Private preview customers.
 
-Microsoft Viva Amplify is a content creation platform from which [multiple supported distribution channels](#multiple-supported-distribution-channels) are used to publish the content throughout the organization.
+Microsoft Viva Amplify is a content creation platform that uses [multiple supported distribution channels](#multiple-supported-distribution-channels) to publish the content.
 
 The content creation platform is the **Main canvas** screen, which is the default screen in Microsoft Viva Amplify.
 
 ## Multiple supported distribution channels
 
-The following distribution channels are supported for publish of content from the **Main canvas** screen:
+The following distribution channels are supported in Microsoft Viva Amplify for publish of content:
 
 - Outlook
 - SharePoint
 
 :::image type="content" source="media/distribution-channel-options.png" alt-text="The distribution channel options on the Main canvas screen.":::
 
-Once the content is created, the user must select the **Distribution channels** tab and select one of the [supported distribution channels](#multiple-supported-distribution-channels) to publish the content.
+Once the content is created, you should select the **Distribution channels** tab and select either **Outlook** or **SharePoint** to publish the content.
 
 ### Deviations
 
-By default, the **Main canvas** screen contains elements such as a spacer, a large people web part, and a countdown timer web part. From the **Main canvas** screen, when you choose **Distribution channels > Outlook/SharePoint**, these elements vary for each distribution channel. This variance refers to **deviation**, which implies deviation from the default set of elements, namely spacer, large people web part, and countdown timer web part.
+Deviations can be referred to as:
 
-For more information about the deviations for each distribution channel, see [Deviations in distribution channels](#deviations-in-distribution-channels).
+- **Modifications to certain web parts on selection of a distribution channel**: When you select a specific distribution channel, and when they select certain web parts, there may be changes in the properties of the web part. Such changes result in the web part displaying a behavior different from its default behavior.
+- **Removal of certain web parts on selection of a distribution channel**: When you select a specific distribution channel, certain web parts may be removed and hence become unavailable to use. For example, when you select the **Outlook** distribution channel, the spacer, the large people web part and the countdown timer web part don't appear as these web parts aren't compatible with Outlook.
 
-### Deviations in distribution channels
+For more information about the deviations that occur for the **Outlook** distribution channel, see [Deviations in Outlook distribution channel](#deviations-in-outlook-distribution-channel).
 
-This section describes the deviations in the elements (and their properties) for the following distribution channels:
+> [!NOTE]
+> There is no deviation in the composition of the web parts and in their properties when you select the **SharePoint** distribution channel. The reason is that the **Main canvas** screen itself is a type of SharePoint site. Hence, there won't be any changes in the web parts when they are being transpiled to the **SharePoint** distribution channel.
 
-- [Outlook](#outlook)
-- [SharePoint](#sharepoint)
+#### Deviations in Outlook distribution channel
 
-#### Outlook
+The following web parts get modified when you select them under the **Outlook** distribution channel:
 
-The web parts supported by default in Microsoft Viva Amplify, that is, the **Main canvas** screen for authoring are:
-
-- Text web part
 - Image web part
+- Text web part
 - People web part
 
 :::image type="content" source="media/webparts-supported-by-default.png" alt-text="The web parts supported by default in Microsoft Viva Amplify.":::
 
-When the user selects **Outlook** under the **Distribution channels** tab, there are deviations from the default behavior of each of these three web parts.
+For more information on the deviations occurring in these web parts, see:
 
-These deviations are described in the following subsections:
-
-- [Deviations in Text web part](#deviations-in-text-web-part)
 - [Deviations in Image web part](#deviations-in-image-web-part)
+- [Deviations in Text web part](#deviations-in-text-web-part)
 - [Deviations in People web part](#deviations-in-people-web-part)
-
-##### Deviations in Text web part
-
-1. Theme colors for table aren't supported (Table style is changed to **default**.).
-
-   :::image type="content" source="media/theme-colors-not-supported.png" alt-text="The deviation of theme colors not being supported in Outlook.":::
-
-1. Table Alignment isn't supported. Tables can only be left aligned.
-
-   :::image type="content" source="media/table-alignment-not-supported.png" alt-text="The table alignment not being supported in Outlook.":::
 
 ##### Deviations in Image web part
 
@@ -93,6 +80,16 @@ These deviations are described in the following subsections:
 1. Image Hyperlink isn't supported. Transpiled images aren't clickable to link.
 
    :::image type="content" source="media/image-hyperlink-not-supported.png" alt-text="The image hyperlink not being supported in Outlook.":::
+
+##### Deviations in Text web part
+
+1. Theme colors for table aren't supported (Table style is changed to **default**.).
+
+   :::image type="content" source="media/theme-colors-not-supported.png" alt-text="The deviation of theme colors not being supported in Outlook.":::
+
+1. Table Alignment isn't supported. Tables can only be left aligned.
+
+   :::image type="content" source="media/table-alignment-not-supported.png" alt-text="The table alignment not being supported in Outlook.":::
 
 ##### Deviations in People web part
 
@@ -122,13 +119,3 @@ However, the following deviations have been spotted in the default properties of
 1. Dividers between sections aren't supported.
 
    :::image type="content" source="media/dividers-between-sections-not-supported.png" alt-text="Dividers between sections not being supported in Outlook.":::
-
-#### SharePoint
-
-The web parts supported by default in Microsoft Viva Amplify are the ones displayed when the user selects **SharePoint** under the **Distribution channels** tab, which are:
-
-- Text web part
-- Image web part
-- People web part
-
-The reason there's no deviation in these web parts and their behavior when they're being transpiled to **SharePoint** is that the **Main canvas** screen itself is a type of SharePoint site. This reason indicates that the **Main canvas** screen is - in a way - similar to the **SharePoint** option under the **Distribution channels** tab.
