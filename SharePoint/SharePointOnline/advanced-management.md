@@ -22,13 +22,13 @@ description: "Learn about Microsoft Syntex Advanced Management and how you can u
 
 Microsoft Syntex Advanced Management is a Microsoft 365 add-on that provides a suite of features that can help you:
 
-- Govern SharePoint and OneDrive
+- Manage and govern SharePoint and OneDrive
 - Enhance Microsoft 365 secure collaboration capabilities
 
 <!---
 Articles that cover features that use Syntex Advanced Management are designated with  [!INCLUDE[Advanced Management](includes/advanced-management.md)] at the top.
 --->
-## Management
+## Management and governance
 
 Data access governance reports help you discover sites that contain potentially overshared or sensitive content. You can use these reports to assess and apply appropriate security and compliance policies. For details, see [Data access governance reports](data-access-governance-reports.md).
 
