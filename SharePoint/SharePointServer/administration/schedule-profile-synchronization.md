@@ -9,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: medium
 ms.assetid: 53038195-cb59-4779-9bdb-ba0b1cad6f07
 description: "Learn how to schedule profile synchronization in SharePoint Server."

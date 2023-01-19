@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 f1.keywords: NOCSH
 ms.topic: conceptual
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-server-itpro
 ms.localizationpriority: high
 ms.collection:
 - IT_Sharepoint_Server
