@@ -22,9 +22,9 @@ description: "Learn how to configure the query and properties of the Search Resu
   
 The Search Results Web Part displays the search results of a query entered in a Search Box Web Part. By default, the Search Results Web Part is used on all search vertical pages (results.aspx, peopleresults.aspx, conversationresults.aspx, videoresults.aspx). The Search Results Web Part displays the actual search results and it also passes the search results to the Refinement Web Part and the Search Navigation Web Part on the same page.
   
-The Search Results Web Part uses a query that is specified in the Web Part to display search results. By default, the query defined in this Web Part uses the query variable {searchboxquery}. The query variable is a placeholder for a value. When a query is run, the placeholder is replaced with a value. For example, when a user types the search phrase  *yellow*  in the Search Box Web Part, the {searchboxquery} variable in the Search Results Web Part will resolve to search all items that contain the phrase  *yellow*  . 
+The Search Results Web Part uses a query that is specified in the Web Part to display search results. By default, the query defined in this Web Part uses the query variable {searchboxquery}. The query variable is a placeholder for a value. When a query is run, the placeholder is replaced with a value. For example, when a user types the search phrase *yellow* in the Search Box Web Part, the {searchboxquery} variable in the Search Results Web Part will resolve to search all items that contain the phrase *yellow*. 
   
-By changing the properties and query in the Search Results Web Part you can you can do the following:
+By changing the properties and query in the Search Results Web Part you can do the following:
   
 - Limit search results to a result source.
     
@@ -167,7 +167,7 @@ By changing the properties and query in the Search Results Web Part you can you 
     
   - **Loading Behavior**
     
-    Select when the search results returned by the Search Results Web Part appear on the web page. The default option is **Async option: Issue query from the browser**. Queries will be issued from the end-users browser after the complete page is received (asynchronous). If you select the synchronous option, **Sync option: Issue query from the server**, queries are issued from the server, and the search results are included in the page response that is sent back from SharePoint (synchronous). Synchronous loading makes search vulnerable to cross-site request forgery attacks and you should **only** chose this option after carefully considering whether this vulnerability can be exploited, learn more. 
+    Select when the search results returned by the Search Results Web Part appear on the web page. The default option is **Async option: Issue query from the browser**. Queries will be issued from the end-users browser after the complete page is received (asynchronous). If you select the synchronous option, **Sync option: Issue query from the server**, queries are issued from the server, and the search results are included in the page response that is sent back from SharePoint (synchronous). Synchronous loading makes search vulnerable to cross-site request forgery attacks and you should **only** choose this option after carefully considering whether this vulnerability can be exploited, learn more. 
     
 9. On the **TEST** tab, you can preview the query that is sent by the Search Results Web Part. 
     
