@@ -20,7 +20,7 @@ description: "Learn how to import query suggestions in SharePoint Server."
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-xxx-md](../includes/appliesto-2013-2016-2019-SUB-xxx-md.md)] 
   
-An easy way to help users search for information in SharePoint Server is to create  *query suggestions*  . Query suggestions are words that appear under the search box as users type a query. 
+An easy way to help users search for information in SharePoint Server is to create *query suggestions*. Query suggestions are words that appear under the search box as users type a query. 
   
 ![Query Suggestions](../media/OTCSP_coffee_suggestion.png)
   
