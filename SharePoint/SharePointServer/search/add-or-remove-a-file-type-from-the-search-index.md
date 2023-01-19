@@ -34,7 +34,7 @@ When the full crawl finishes, the search index will include or exclude propertie
   
 To start including content from a file type, in the search index:
   
-1. On a server that hosts a content processing component in the Search service application, check whether the format of the file type is supported by a built-in format handler or a third-party filter-based format handler (iFilter). Built-in format handlers are the those that SharePoint Server has by default. See [View information about file formats that can be parsed](add-or-remove-a-file-type-from-the-search-index.md#ViewInformationFileFormats).
+1. On a server that hosts a content processing component in the Search service application, check whether the format of the file type is supported by a built-in format handler or a third-party filter-based format handler (iFilter). Built-in format handlers are those that SharePoint Server has by default. See [View information about file formats that can be parsed](add-or-remove-a-file-type-from-the-search-index.md#ViewInformationFileFormats).
     
 2. If the server does not have a format handler for the file type, install a third-party filter-based format handler on all servers hosting content processing components in the Search service application. Follow the installation guidance given by the manufacturer of the third-party format handler.
     
