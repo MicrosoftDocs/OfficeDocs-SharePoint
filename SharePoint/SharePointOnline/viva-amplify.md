@@ -30,7 +30,7 @@ ms.custom:
 
 Microsoft Viva Amplify is a content creation platform that uses [multiple supported distribution channels](#multiple-supported-distribution-channels) to publish the content.
 
-The content creation platform is the **Main canvas** screen, which is the default screen in Microsoft Viva Amplify.
+The content is created in the **Main canvas** screen, which is the default screen in Microsoft Viva Amplify.
 
 ## Multiple supported distribution channels
 
@@ -41,29 +41,27 @@ The following distribution channels are supported in Microsoft Viva Amplify for 
 
 :::image type="content" source="media/distribution-channel-options.png" alt-text="The distribution channel options on the Main canvas screen.":::
 
-Once the content is created, you should select the **Distribution channels** tab and select either **Outlook** or **SharePoint** to publish the content.
+Once the content is created, you must select the **Distribution channels** tab and then select either **Outlook** or **SharePoint** to publish the content.
 
 ### Deviations
 
-Deviations can be referred to as:
+Deviations can be classified as:
 
-- **Modifications to certain web parts on selection of a distribution channel**: When you select a specific distribution channel, and when they select certain web parts, there may be changes in the properties of the web part. Such changes result in the web part displaying a behavior different from its default behavior.
-- **Removal of certain web parts on selection of a distribution channel**: When you select a specific distribution channel, certain web parts may be removed and hence become unavailable to use. For example, when you select the **Outlook** distribution channel, the spacer, the large people web part and the countdown timer web part don't appear as these web parts aren't compatible with Outlook.
+- **Modifications to certain web parts on selection of a distribution channel**: When you select a specific distribution channel, and then select certain web parts, there may be changes in the properties of the web parts. Such changes result in the web parts displaying a behavior different from its default behavior.
+- **Removal of certain web parts on selection of a distribution channel**: When you select a specific distribution channel, certain web parts may be removed and hence become unavailable for use. For example, when you select the **Outlook** distribution channel, the spacer, the large people web part, and the countdown timer web part don't appear as these web parts aren't compatible with Outlook.
 
-For more information about the deviations that occur for the **Outlook** distribution channel, see [Deviations in Outlook distribution channel](#deviations-in-outlook-distribution-channel).
+For more information about the deviations that occur in the **Outlook** distribution channel, see [Deviations in Outlook distribution channel](#deviations-in-outlook-distribution-channel).
 
 > [!NOTE]
-> There is no deviation in the composition of the web parts and in their properties when you select the **SharePoint** distribution channel. The reason is that the **Main canvas** screen itself is a type of SharePoint site. Hence, there won't be any changes in the web parts when they are being transpiled to the **SharePoint** distribution channel.
+> When you select the **SharePoint** distribution channel, there are no deviations in the composition of the web parts or in the web parts' properties. The reason is that the **Main canvas** screen itself is a type of SharePoint site. Hence, there won't be any changes in the web parts when they are being transpiled to the **SharePoint** distribution channel.
 
 #### Deviations in Outlook distribution channel
 
-The following web parts get modified when you select them under the **Outlook** distribution channel:
+The following web parts get modified when you select them on the **Outlook** distribution channel screen:
 
 - Image web part
 - Text web part
 - People web part
-
-:::image type="content" source="media/webparts-supported-by-default.png" alt-text="The web parts supported by default in Microsoft Viva Amplify.":::
 
 For more information on the deviations occurring in these web parts, see:
 
@@ -93,7 +91,7 @@ For more information on the deviations occurring in these web parts, see:
 
 ##### Deviations in People web part
 
-Only the **Small** layout is supported for People web part (Descriptions and links added to medium or large versions will be dropped.).
+Only the **Small** layout is supported for **People** web part (Descriptions and links added to medium or large versions will be dropped.).
 
 :::image type="content" source="media/only-small-layout-supported.png" alt-text="Only the Small layout is supported in Outlook.":::
 
@@ -101,11 +99,11 @@ Only the **Small** layout is supported for People web part (Descriptions and lin
 
 **Sections** is a layout-associated element that presents a template to the content in the **Main canvas** page so that the content is structured properly.
 
-Each section consists of 1-3 columns. 
+Each section consists of 1-3 columns.
 
 For information on the default properties of sections and its columns, see [Add sections and columns on a SharePoint modern page](https://support.microsoft.com/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899).
 
-However, the following deviations have been spotted in the default properties of sections and its columns:
+However, the following deviations have occurred in the default properties of sections and its columns:
 
 1. Multi Columns aren't supported; transpiled content created with options other than the **One Column** layout option will be stacked like in the **One Column** layout option.
 
