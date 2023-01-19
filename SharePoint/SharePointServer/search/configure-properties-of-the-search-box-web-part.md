@@ -24,7 +24,7 @@ By default, the Search Box Web Part is used on the home page for the Search Cent
   
 - Change the Web Part or page where the search results should be displayed—for example, a custom Search Results Web Part or a custom search results page.
     
-- Turn off query suggestions and people suggestions. For more information about query suggestions, see [Manage query suggestions in SharePoint Server](manage-query-suggestions.md)
+- Turn off query suggestions and people suggestions. For more information about query suggestions, see [Manage query suggestions in SharePoint Server](manage-query-suggestions.md).
     
 - Display links to a search preference page and an advanced search page.
     
